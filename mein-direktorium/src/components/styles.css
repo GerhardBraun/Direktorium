@@ -1,0 +1,131 @@
+:root {
+    --Einzug: 3em;
+}
+
+p {
+    line-height: 1.4em;
+    margin: 0;
+}
+
+/* Zeichenformatierungen */
+.small-caps {
+    font-variant: small-caps;
+}
+
+.formatFest {
+    font-weight: bold;
+    transform: scaleX(.95);
+    font-variant: small-caps;
+}
+
+.formatHochfest {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.formatKleiner {
+    font-size: 0.93em;
+}
+
+.formatVers {
+    font-size: 0.85em;
+}
+
+/* Container und Layout */
+.liturgical-container {
+    margin: 0px;
+    margin-top: 1em;
+}
+
+.deceased-container {
+    margin: 0px;
+    margin-top: 1em;
+    font-size: 0.87em;
+}
+
+.entry {
+    position: relative;
+    margin-bottom: 0em;
+    line-height: 1.25em;
+}
+
+.marker {
+    position: absolute;
+    left: 1;
+    top: 0;
+}
+
+.liturgical-container .content {
+    margin-left: var(--Einzug);
+}
+
+.deceased-container .content {
+    margin-left: calc(var(--Einzug) / .9);
+}
+
+/* Hinweise */
+ol {
+    list-style: none;
+    /* Entfernt die Standard-Nummerierung */
+    counter-reset: my-counter;
+    /* Initialisiert einen eigenen Zähler */
+    padding-left: 0;
+    /* Entfernt den Standard-Einzug */
+    font-size: 0.9em;
+    line-height: 1.25em;
+    margin: 0px;
+    margin-top: 1em;
+}
+
+ol>li {
+    counter-increment: my-counter;
+    /* Erhöht den Zähler */
+    padding-left: 0em;
+    /* Platz für die Nummer und den festen Abstand */
+    text-indent: 1.65em;
+    position: relative;
+    /* Für absolute Positionierung der Nummer */
+    margin-bottom: 2pt;
+}
+
+ol>li::before {
+    content: counter(my-counter) ".";
+    /* Fügt Nummer und Punkt ein */
+    text-indent: 0em;
+    position: absolute;
+    left: 0em;
+    /* width: 4em;
+        /* Feste Breite für den Nummernbereich */
+    text-align: left;
+    /* Linksbündige Ausrichtung der Nummer */
+}
+
+/* Reference Lines */
+.reference-line {
+    display: flex;
+    justify-content: space-between;
+    margin-left: calc(-1 * var(--Einzug));
+    padding-left: var(--Einzug);
+    max-width: 25em;
+    gap: 0.3em;
+    /* Definierter Abstand zwischen den Flex-Elementen */
+}
+
+.left-reference {
+    min-width: 2em;
+    /* Reserviert Platz für "L:" oder "Aps:" */
+    flex: 0 0 auto;
+    /* Verhindert Dehnung */
+}
+
+.mid-reference {
+    flex: 1;
+    /* Nimmt verfügbaren Platz ein */
+    text-align: left;
+}
+
+.right-reference {
+    flex: 0 0 auto;
+    /* Verhindert Dehnung */
+    text-align: right;
+}
