@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Direktorium/static/css/main.49ca8e89.chunk.css",
+    "main.js": "/Direktorium/static/js/main.45793ef1.chunk.js",
+    "main.js.map": "/Direktorium/static/js/main.45793ef1.chunk.js.map",
+    "runtime-main.js": "/Direktorium/static/js/runtime-main.a877cdf3.js",
+    "runtime-main.js.map": "/Direktorium/static/js/runtime-main.a877cdf3.js.map",
+    "static/js/2.34ddfe40.chunk.js": "/Direktorium/static/js/2.34ddfe40.chunk.js",
+    "static/js/2.34ddfe40.chunk.js.map": "/Direktorium/static/js/2.34ddfe40.chunk.js.map",
+    "static/js/3.6f477394.chunk.js": "/Direktorium/static/js/3.6f477394.chunk.js",
+    "static/js/3.6f477394.chunk.js.map": "/Direktorium/static/js/3.6f477394.chunk.js.map",
+    "index.html": "/Direktorium/index.html",
+    "precache-manifest.c063c1a23aa1adcdbbfc267c8b87d395.js": "/Direktorium/precache-manifest.c063c1a23aa1adcdbbfc267c8b87d395.js",
+    "service-worker.js": "/Direktorium/service-worker.js",
+    "static/css/main.49ca8e89.chunk.css.map": "/Direktorium/static/css/main.49ca8e89.chunk.css.map",
+    "static/js/2.34ddfe40.chunk.js.LICENSE.txt": "/Direktorium/static/js/2.34ddfe40.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a877cdf3.js",
+    "static/js/2.34ddfe40.chunk.js",
+    "static/css/main.49ca8e89.chunk.css",
+    "static/js/main.45793ef1.chunk.js"
+  ]
+}

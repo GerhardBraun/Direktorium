@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { Menu } from 'lucide-react';
+import React from 'react';
 
 const formatText = (text) => {
     if (!text) return '';
