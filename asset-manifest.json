@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Direktorium/static/css/main.c768d311.css",
+    "main.js": "/Direktorium/static/js/main.69f18024.js",
+    "static/js/453.37176e8f.chunk.js": "/Direktorium/static/js/453.37176e8f.chunk.js",
+    "index.html": "/Direktorium/index.html",
+    "main.c768d311.css.map": "/Direktorium/static/css/main.c768d311.css.map",
+    "main.69f18024.js.map": "/Direktorium/static/js/main.69f18024.js.map",
+    "453.37176e8f.chunk.js.map": "/Direktorium/static/js/453.37176e8f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c768d311.css",
+    "static/js/main.69f18024.js"
+  ]
+}
