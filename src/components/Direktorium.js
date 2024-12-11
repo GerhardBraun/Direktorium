@@ -47,6 +47,447 @@ const isDateInRange = (date, startDate, endDate) => {
 const months = ["Januar", "Februar", "März", "April", "Mai", "Juni",
     "Juli", "August", "September", "Oktober", "November", "Dezember"];
 
+const DayEntry = ({
+    entry,
+    formatDate,
+    formatText,
+    formatNotes,
+    selectedDate,
+    months,
+    hangingIndent,
+    deceasedMode,
+    deceasedSizeRatio,
+    expandedDeceased,
+    setExpandedDeceased,
+    entriesRef
+}) => {
+    const dateKey = entry.date.toISOString();
+    // Modified condition to check if deceased_more exists and is different from deceased
+    const hasMoreDeceased = entry.deceased_more && (!entry.deceased || entry.deceased !== entry.deceased_more);
+    const isExpanded = expandedDeceased[dateKey];
+    const shouldShowMore = deceasedMode === 'all' || isExpanded;
+    const day = entry.date.getDate();
+    const month = months[entry.date.getMonth()];
+    const year = entry.date.getFullYear();
+    const formattedDate = `${day}. ${month} ${year}`;
+
+    return (
+        <div
+            key={dateKey}
+            ref={el => entriesRef.current[formatDate(entry.date)] = el}
+            className={`p-4 border dark:border-gray-700 rounded transition-colors ${entry.date.getDate() === selectedDate.getDate() &&
+                entry.date.getMonth() === selectedDate.getMonth()
+                ? 'bg-orange-50 dark:bg-orange-900/30'
+                : 'bg-white dark:bg-gray-900'
+                }`}
+        >
+            {/* Datumsheader */}
+            <div className="text-lg font-semibold mb-4 text-gray-900 dark:text-gray-100">
+                {formattedDate}
+            </div>
+
+            {/* Liturgy Section */}
+            {entry.liturgy && (
+                <div style={{ marginBottom: '1.25em' }}>
+                    <div style={{ fontSize: '1em' }} className="text-gray-900 dark:text-gray-100">
+                        {formatText(entry.liturgy).split('¥p').map((paragraph, index) => {
+                            const [marker, ...contentParts] = paragraph.split('¥t');
+                            const content = contentParts.join('¥t');
+                            const lines = content.split('¥l');
+
+                            return (
+                                <div key={index} style={{
+                                    marginBottom: '0.2em',
+                                    position: 'relative'
+                                }}>
+                                    <span style={{
+                                        position: 'absolute',
+                                        left: 0
+                                    }} dangerouslySetInnerHTML={{ __html: marker }} />
+
+                                    <div style={{
+                                        paddingLeft: hangingIndent,
+                                        margin: 0,
+                                        fontFamily: 'inherit'
+                                    }}>
+                                        {lines.map((line, lineIndex) => {
+                                            const commonLineStyle = {
+                                                marginTop: lineIndex > 0 ? '0em' : 0
+                                            };
+
+                                            const parts = line.split('¥t');
+
+                                            if (parts.length >= 3) {
+                                                const [occasion, reference, pageNum, ...rest] = parts;
+                                                return (
+                                                    <div key={lineIndex} style={{
+                                                        ...commonLineStyle,
+                                                        display: 'grid',
+                                                        gridTemplateColumns: 'minmax(2em, auto) minmax(0, 1fr) auto',
+                                                        gap: '0.25em',
+                                                        maxWidth: '25em'
+                                                    }}>
+                                                        <span style={{
+                                                            textAlign: 'left',
+                                                            minWidth: 0,
+                                                            overflow: 'hidden',
+                                                            textOverflow: 'ellipsis',
+                                                            whiteSpace: 'nowrap'
+                                                        }} dangerouslySetInnerHTML={{ __html: occasion }} />
+                                                        <TooltipProvider>
+                                                            <Tooltip>
+                                                                <TooltipTrigger asChild>
+                                                                    <span
+                                                                        style={{
+                                                                            textAlign: 'left',
+                                                                            minWidth: 0,
+                                                                            overflow: 'hidden',
+                                                                            textOverflow: 'ellipsis',
+                                                                            whiteSpace: 'nowrap',
+                                                                            cursor: 'help',
+                                                                            maxWidth: '100%',
+                                                                            display: 'block'
+                                                                        }}
+                                                                        dangerouslySetInnerHTML={{ __html: reference }}
+                                                                    />
+                                                                </TooltipTrigger>
+                                                                <TooltipContent>
+                                                                    <p dangerouslySetInnerHTML={{ __html: reference.replace(/<[^>]*>/g, '') }} />
+                                                                </TooltipContent>
+                                                            </Tooltip>
+                                                        </TooltipProvider>
+                                                        <span style={{
+                                                            textAlign: 'right',
+                                                            whiteSpace: 'nowrap'
+                                                        }} dangerouslySetInnerHTML={{ __html: pageNum + rest.join('') }} />
+                                                    </div>
+                                                );
+                                            } else if (parts.length === 2 && parts[0].includes('\u00A0')) {
+                                                const [firstPart, pageNum] = parts;
+                                                const firstSpaceIndex = firstPart.indexOf('\u00A0');
+                                                const occasion = firstPart.substring(0, firstSpaceIndex);
+                                                const reference = firstPart.substring(firstSpaceIndex + 1);
+
+                                                return (
+                                                    <div key={lineIndex} style={{
+                                                        ...commonLineStyle,
+                                                        display: 'grid',
+                                                        gridTemplateColumns: 'minmax(2em, auto) minmax(0, 1fr) auto',
+                                                        gap: '0.25em',
+                                                        maxWidth: '25em'
+                                                    }}>
+                                                        <span style={{
+                                                            textAlign: 'left',
+                                                            minWidth: 0,
+                                                            overflow: 'hidden',
+                                                            textOverflow: 'ellipsis',
+                                                            whiteSpace: 'nowrap'
+                                                        }} dangerouslySetInnerHTML={{ __html: occasion }} />
+                                                        <TooltipProvider>
+                                                            <Tooltip>
+                                                                <TooltipTrigger asChild>
+                                                                    <span
+                                                                        style={{
+                                                                            textAlign: 'left',
+                                                                            minWidth: 0,
+                                                                            overflow: 'hidden',
+                                                                            textOverflow: 'ellipsis',
+                                                                            whiteSpace: 'nowrap',
+                                                                            cursor: 'help',
+                                                                            maxWidth: '100%',
+                                                                            display: 'block'
+                                                                        }}
+                                                                        dangerouslySetInnerHTML={{ __html: reference }}
+                                                                    />
+                                                                </TooltipTrigger>
+                                                                <TooltipContent>
+                                                                    <p dangerouslySetInnerHTML={{ __html: reference.replace(/<[^>]*>/g, '') }} />
+                                                                </TooltipContent>
+                                                            </Tooltip>
+                                                        </TooltipProvider>
+                                                        <span style={{
+                                                            textAlign: 'right',
+                                                            whiteSpace: 'nowrap'
+                                                        }} dangerouslySetInnerHTML={{ __html: pageNum }} />
+                                                    </div>
+                                                );
+                                            } else {
+                                                return (
+                                                    <div key={lineIndex} style={{
+                                                        ...commonLineStyle,
+                                                        whiteSpace: 'pre-line'
+                                                    }} dangerouslySetInnerHTML={{ __html: line }} />
+                                                );
+                                            }
+                                        })}
+                                    </div>
+                                </div>
+                            );
+                        })}
+                    </div>
+                </div>
+            )}
+
+            {/* Notes Section */}
+            {entry.notes && (
+                <div style={{ marginBottom: '1.25em' }}>
+                    <div style={{ fontSize: '0.93em' }} className="text-gray-900 dark:text-gray-100">
+                        {formatNotes(entry.notes).split('\n').map((paragraph, index) => {
+                            if (/^\d+\./.test(paragraph)) {
+                                const match = paragraph.match(/^(\d+\.\s*)(.*)$/);
+                                if (match) {
+                                    const [, number, text] = match;
+                                    return (
+                                        <div key={index} style={{ marginBottom: '0.16em' }}>
+                                            <span style={{
+                                                float: 'left',
+                                                width: '1.5em'
+                                            }}>{number}</span>
+                                            <div style={{
+                                                display: 'block',
+                                                marginLeft: '1.5em'
+                                            }} dangerouslySetInnerHTML={{ __html: text }} />
+                                        </div>
+                                    );
+                                }
+                            }
+                            return (
+                                <p key={index}
+                                    style={{ marginBottom: '0.75em' }}
+                                    dangerouslySetInnerHTML={{ __html: paragraph }} />
+                            );
+                        })}
+                    </div>
+                </div>
+            )}
+
+            {/* Deceased Section */}
+            {(entry.deceased || entry.deceased_more) && (
+                <div style={{ marginBottom: '1.25em' }}>
+                    <div style={{ fontSize: `${deceasedSizeRatio}em` }} className="text-gray-900 dark:text-gray-100">
+                        {formatText(shouldShowMore ? entry.deceased_more : (entry.deceased || '')).split('¥p').map((paragraph, index) => {
+                            const parts = paragraph.split('¥t');
+                            if (parts.length === 2) {
+                                return (
+                                    <div key={index} style={{
+                                        marginBottom: '0.16em',
+                                        position: 'relative'
+                                    }}>
+                                        <span style={{
+                                            position: 'absolute',
+                                            left: 0
+                                        }} dangerouslySetInnerHTML={{ __html: parts[0] }} />
+                                        <pre style={{
+                                            paddingLeft: `calc(${hangingIndent} / ${deceasedSizeRatio})`,
+                                            margin: 0,
+                                            fontFamily: 'inherit',
+                                            whiteSpace: 'pre-line'
+                                        }} dangerouslySetInnerHTML={{ __html: parts[1] }} />
+                                    </div>
+                                );
+                            }
+                            return (
+                                <p key={index} style={{ marginBottom: '0.16em' }}
+                                    dangerouslySetInnerHTML={{ __html: paragraph }} />
+                            );
+                        })}
+                        {hasMoreDeceased && deceasedMode !== 'all' && !isExpanded && (
+                            <button
+                                onClick={() => setExpandedDeceased(prev => ({
+                                    ...prev,
+                                    [dateKey]: true
+                                }))}
+                                style={{
+                                    display: 'block',
+                                    marginTop: '0em',
+                                    paddingLeft: `calc(${hangingIndent} / ${deceasedSizeRatio} / 0.9)`,
+                                    color: 'rgb(37, 99, 235)',
+                                    fontSize: '0.9em'
+                                }}
+                            >
+                                Todestage in früheren Jahren ...
+                            </button>
+                        )}
+                    </div>
+                </div>
+            )}
+
+            {/* Prayer Section */}
+            {entry.prayerTexts && (
+                <div style={{ marginBottom: '1.25em' }}>
+                    <h3 style={{
+                        fontSize: '1.1em',
+                        fontWeight: '600',
+                        marginBottom: '0em'
+                    }} className="text-purple-600 dark:text-purple-400">
+                        Gebete
+                    </h3>
+                    <div style={{
+                        fontSize: '1em',
+                        whiteSpace: 'pre-wrap'
+                    }} className="text-gray-900 dark:text-gray-100"
+                        dangerouslySetInnerHTML={{ __html: formatText(entry.prayerTexts) }} />
+                </div>
+            )}
+
+            {/* Vigil Notes Section */}
+            {entry.vig_notes && (
+                <div style={{ marginBottom: '1.25em' }}>
+                    <div style={{ fontSize: '0.93em' }} className="text-gray-900 dark:text-gray-100">
+                        {formatNotes(entry.vig_notes).split('\n').map((paragraph, index) => {
+                            if (/^\d+\./.test(paragraph)) {
+                                const match = paragraph.match(/^(\d+\.\s*)(.*)$/);
+                                if (match) {
+                                    const [, number, text] = match;
+                                    return (
+                                        <div key={index} style={{ marginBottom: '0.16em' }}>
+                                            <span style={{
+                                                float: 'left',
+                                                width: '1.5em'
+                                            }}>{number}</span>
+                                            <div style={{
+                                                display: 'block',
+                                                marginLeft: '0em'
+                                            }} dangerouslySetInnerHTML={{ __html: text }} />
+                                        </div>
+                                    );
+                                }
+                            }
+                            return (
+                                <p key={index} style={{ marginBottom: '0.75em' }}
+                                    dangerouslySetInnerHTML={{ __html: paragraph }} />
+                            );
+                        })}
+                    </div>
+                </div>
+            )}
+
+            {/* Vigil Liturgy Section */}
+            {entry.vig_liturgy && (
+                <div style={{ marginBottom: '1.25em' }}>
+                    <div style={{ fontSize: '1em' }} className="text-gray-900 dark:text-gray-100">
+                        {formatText(entry.vig_liturgy).split('¥p').map((paragraph, index) => {
+                            const parts = paragraph.split('¥t');
+                            if (parts.length >= 2) {
+                                const marker = parts[0];
+                                const content = parts.slice(1).join('¥t').replace(/¥l/g, '\n');
+                                return (
+                                    <div key={index} style={{
+                                        marginBottom: '0em',
+                                        position: 'relative'
+                                    }}>
+                                        <span style={{
+                                            position: 'absolute',
+                                            left: 0
+                                        }} dangerouslySetInnerHTML={{ __html: marker }} />
+                                        <pre style={{
+                                            paddingLeft: hangingIndent,
+                                            margin: 0,
+                                            fontFamily: 'inherit',
+                                            whiteSpace: 'pre-line'
+                                        }} dangerouslySetInnerHTML={{ __html: content }} />
+                                    </div>
+                                );
+                            }
+                            return (
+                                <p key={index} style={{ marginBottom: '0.5em' }}
+                                    dangerouslySetInnerHTML={{ __html: paragraph }} />
+                            );
+                        })}
+                    </div>
+                </div>
+            )}
+        </div>
+    );
+};
+
+const ScrollableContainer = ({ children, containerRef, selectedDate, dateChangeSource }) => {
+    const [containersReady, setContainersReady] = useState(false);
+    const initialRenderRef = useRef(true);
+    const [renderKey, setRenderKey] = useState(0);  // Hier hinzufügen
+
+    // Effect für das Setzen der Container-Bereitschaft
+    useEffect(() => {
+        if (!selectedDate) return;
+
+        // Reset containersReady wenn sich das Datum ändert
+        setContainersReady(false);
+        setRenderKey(prev => prev + 1);  // renderKey aktualisieren
+
+        const timeoutId = setTimeout(() => {
+            const container = containerRef.current;
+            const currentContainer = container?.querySelector('[data-current-container="true"]');
+
+            if (container && currentContainer) {
+                setContainersReady(true);
+            }
+        }, 100);
+
+        return () => clearTimeout(timeoutId);
+    }, [selectedDate]);
+
+    // Effect für das Scrolling
+    useEffect(() => {
+        if (!containersReady || !containerRef.current) return;
+
+        const container = containerRef.current;
+        const currentContainer = container.querySelector('[data-current-container="true"]');
+
+        if (!currentContainer) return;
+
+        // Navigation Element und seine Höhe
+        const navElement = container.parentElement.querySelector('[role="navigation"]');
+        const navHeight = navElement ? navElement.offsetHeight : 0;
+
+        // 5em in Pixeln
+        const fontSize = parseFloat(getComputedStyle(container).fontSize);
+        const fiveEmInPixels = fontSize * 5;
+
+        // Scrollposition berechnen
+        const scrollPosition = currentContainer.offsetTop - navHeight - fiveEmInPixels;
+
+        // Beim ersten Render ohne Animation scrollen
+        if (initialRenderRef.current) {
+            container.scrollTo({
+                top: scrollPosition,
+                behavior: 'auto'
+            });
+            initialRenderRef.current = false;
+        } else {
+            container.scrollTo({
+                top: scrollPosition,
+                behavior: dateChangeSource === 'navigation' ? 'smooth' : 'auto'
+            });
+        }
+    }, [containersReady, selectedDate, dateChangeSource]);
+
+    const wrappedChildren = React.Children.map(children, child => {
+        if (child) {
+            return React.cloneElement(child, {
+                style: {
+                    ...child.props.style,
+                    visibility: containersReady ? 'visible' : 'hidden'
+                }
+            });
+        }
+        return child;
+    });
+
+    return (
+        <div
+            key={renderKey}
+            ref={containerRef}
+            className="grid grid-cols-1 gap-4 max-h-[calc(100vh-88px)] overflow-y-auto px-4"
+            style={{
+                scrollBehavior: 'smooth',
+                WebkitOverflowScrolling: 'touch'
+            }}
+        >
+            {wrappedChildren}
+        </div>
+    );
+};
+
 export default function LiturgicalCalendar() {
     const fontFamily = 'Cambria, serif';
     const [selectedDate, setSelectedDate] = useState(new Date());
@@ -55,6 +496,9 @@ export default function LiturgicalCalendar() {
     const [expandedDeceased, setExpandedDeceased] = useState({});
     const [deceasedMode, setDeceasedMode] = useState('recent');
     const [baseFontSize, setBaseFontSize] = useState(14); // Standard-Schriftgröße in pt
+    const [renderKey, setRenderKey] = useState(0);
+    const [isReady, setIsReady] = useState(false);
+    const [isNarrowScreen, setIsNarrowScreen] = useState(false);
     const hangingIndent = '3.2em'; // Variable für den Einzug
     const deceasedSizeRatio = 0.9;
     const entriesRef = useRef({});
@@ -63,9 +507,121 @@ export default function LiturgicalCalendar() {
     const DAYS_BUFFER = 7; // Anzahl der Tage vor/nach dem ausgewählten Datum
     const [isScrolling, setIsScrolling] = useState(false);
     const scrollTimeoutRef = useRef(null);
-    const formatDate = useCallback((date) => {
+
+    const formatDate = useCallback((date, forDisplay = false) => {
+        if (forDisplay && isNarrowScreen) {
+            // Short format for narrow screens: DD.MM.YY
+            const day = date.getDate().toString().padStart(2, '0');
+            const month = (date.getMonth() + 1).toString().padStart(2, '0');
+            const year = date.getFullYear().toString().slice(-2);
+            return `${day}.${month}.${year}`;
+        }
+        // Original format for wider screens: DD. Month YYYY
         return `${date.getDate()}. ${months[date.getMonth()]} ${date.getFullYear()}`;
-    }, []); // months ist konstant, daher keine Dependency nötig
+    }, [isNarrowScreen]);// months ist konstant, daher keine Dependency nötig
+
+    const [dateChangeSource, setDateChangeSource] = useState(null); // 'navigation' oder 'scroll'
+
+    const handleScroll = useCallback((event) => {
+        if (!containerRef.current || isScrolling) return;
+
+        const container = containerRef.current;
+        const entries = Object.entries(entriesRef.current);
+
+        // Get nav height for offset calculation
+        const navElement = container.parentElement.querySelector('[role="navigation"]');
+        const navHeight = navElement ? navElement.offsetHeight : 0;
+
+        // Adjust the target position to account for sticky nav
+        const containerRect = container.getBoundingClientRect();
+        const middleY = containerRect.top + navHeight + (containerRect.height / 2);
+
+        let closestEntry = null;
+        let minDistance = Infinity;
+
+        entries.forEach(([dateStr, element]) => {
+            if (!element) return;
+
+            const rect = element.getBoundingClientRect();
+            const elementMiddleY = rect.top + (rect.height / 2);
+            const distance = Math.abs(elementMiddleY - middleY);
+
+            if (distance < minDistance) {
+                minDistance = distance;
+                closestEntry = dateStr;
+            }
+        });
+
+        if (closestEntry) {
+            const parts = closestEntry.split(' ');
+            const day = parseInt(parts[0]);
+            const month = months.indexOf(parts[1]);
+            const year = parseInt(parts[2]);
+
+            const newDate = new Date(year, month, day);
+
+            if (formatDate(selectedDate) !== formatDate(newDate)) {
+                setDateChangeSource('scroll');
+                setSelectedDate(newDate);
+            }
+        }
+    }, [selectedDate, isScrolling, formatDate]);
+
+    // Effect für die visibleEntries-Berechnung
+    useEffect(() => {
+        if (selectedDate) {
+            setIsReady(false);
+            setRenderKey(prev => prev + 1);
+
+            requestAnimationFrame(() => {
+                setTimeout(() => {
+                    setIsReady(true);
+                }, 100);
+            });
+        }
+    }, [selectedDate]);
+
+    // Effect für das Scrolling
+    useEffect(() => {
+        if (!isReady || !containerRef.current) return;
+
+        const container = containerRef.current;
+        const currentContainer = container.querySelector('[data-current-container="true"]');
+
+        if (!currentContainer) return;
+
+        const navElement = container.parentElement.querySelector('[role="navigation"]');
+        const navHeight = navElement ? navElement.offsetHeight : 0;
+        const fontSize = parseFloat(getComputedStyle(container).fontSize);
+        const fiveEmInPixels = fontSize * 5;
+        const scrollPosition = currentContainer.offsetTop - navHeight - fiveEmInPixels;
+
+        container.scrollTo({
+            top: scrollPosition,
+            behavior: 'auto'
+        });
+    }, [isReady]);
+
+    useEffect(() => {
+        if (!containerRef.current) return;
+
+        const container = containerRef.current;
+
+        const debouncedScroll = (event) => {
+            if (scrollTimeoutRef.current) {
+                clearTimeout(scrollTimeoutRef.current);
+            }
+            scrollTimeoutRef.current = setTimeout(() => handleScroll(event), 150);
+        };
+
+        container.addEventListener('scroll', debouncedScroll);
+        return () => {
+            container.removeEventListener('scroll', debouncedScroll);
+            if (scrollTimeoutRef.current) {
+                clearTimeout(scrollTimeoutRef.current);
+            }
+        };
+    }, [handleScroll]);
 
     useEffect(() => {
         const calculateInitialFontSize = () => {
@@ -112,67 +668,53 @@ export default function LiturgicalCalendar() {
     }, [theme]);
 
     useEffect(() => {
-        const selectedEntry = entriesRef.current[formatDate(selectedDate)];
-        if (selectedEntry && containerRef.current && !isScrolling) {
-            setIsScrolling(true);
+        if (selectedDate && containerRef.current && dateChangeSource === 'navigation') {
+            setIsScrolling(true);  // Deaktiviert den Scroll-Handler
             const container = containerRef.current;
 
-            const containerHeight = container.clientHeight;
-            const elementHeight = selectedEntry.offsetHeight;
-            const containerMiddle = containerHeight / 2;
-            const scrollOffset = selectedEntry.offsetTop - containerMiddle + (elementHeight / 2);
-
-            console.log('Scroll calculation:', {
-                containerHeight,
-                elementHeight,
-                containerMiddle,
-                elementOffsetTop: selectedEntry.offsetTop,
-                calculatedOffset: scrollOffset
-            });
-
-            // Scroll-Event-Listener für das Ende der Animation
             const scrollEndListener = () => {
-                // Warte einen weiteren Frame um sicherzustellen, dass alles aktualisiert ist
-                requestAnimationFrame(() => {
-                    const finalRect = selectedEntry.getBoundingClientRect();
-                    const containerRect = container.getBoundingClientRect();
-                    const actualMiddle = containerRect.top + (containerRect.height / 2);
-                    const elementMiddle = finalRect.top + (finalRect.height / 2);
-
-                    console.log('Final positions:', {
-                        containerMiddle: actualMiddle,
-                        elementMiddle,
-                        difference: Math.abs(actualMiddle - elementMiddle)
-                    });
-
-                    // Wenn die Differenz zu groß ist, korrigieren
-                    if (Math.abs(actualMiddle - elementMiddle) > 10) {
-                        // Sanfte Korrektur
-                        container.scrollTo({
-                            top: container.scrollTop + (elementMiddle - actualMiddle),
-                            behavior: 'smooth'
-                        });
-                    }
-
-                    // Entferne den Listener und setze isScrolling zurück
-                    container.removeEventListener('scrollend', scrollEndListener);
-                    setTimeout(() => setIsScrolling(false), 100);
-                });
+                setTimeout(() => {
+                    setIsScrolling(false);  // Reaktiviert den Scroll-Handler
+                    setDateChangeSource(null);
+                }, 100);
+                container.removeEventListener('scrollend', scrollEndListener);
             };
 
-            container.addEventListener('scrollend', scrollEndListener);
+            requestAnimationFrame(() => {
+                if (!container) return;
 
-            container.scrollTo({
-                top: scrollOffset,
-                behavior: 'smooth'
+                // Die Höhe einer Zeile (em) in Pixeln berechnen
+                const fontSize = parseFloat(getComputedStyle(container).fontSize);
+                const fiveEmInPixels = fontSize * 5;
+
+                // Navigation Element und seine Höhe
+                const navElement = container.parentElement.querySelector('[role="navigation"]');
+                const navHeight = navElement ? navElement.offsetHeight : 0;
+
+                // Finde den Container mit dem aktuellen Tag
+                const currentContainer = container.querySelector('[data-current-container="true"]');
+
+                if (currentContainer) {
+                    // Gewünschte Position: Navigation + 5em
+                    const scrollPosition = currentContainer.offsetTop - navHeight - fiveEmInPixels;
+
+                    container.scrollTo({
+                        top: scrollPosition,
+                        behavior: 'smooth'
+                    });
+
+                    container.addEventListener('scrollend', scrollEndListener);
+                }
             });
 
             // Cleanup
             return () => {
-                container.removeEventListener('scrollend', scrollEndListener);
+                if (containerRef.current) {
+                    containerRef.current.removeEventListener('scrollend', scrollEndListener);
+                }
             };
         }
-    }, [selectedDate, formatDate, isScrolling]);
+    }, [selectedDate, dateChangeSource]);
 
     // Aktualisiere den sichtbaren Bereich wenn sich das ausgewählte Datum ändert
     useEffect(() => {
@@ -196,11 +738,13 @@ export default function LiturgicalCalendar() {
     }, []); // Leeres Dependency Array, da liturgicalData konstant ist
 
     const handleDateSelect = (date) => {
+        setDateChangeSource('datepicker');
         setSelectedDate(new Date(date));
         setShowDatePicker(false);
     };
 
     const handlePrevDay = () => {
+        setDateChangeSource('navigation');
         setSelectedDate(date => {
             const newDate = new Date(date);
             newDate.setDate(date.getDate() - 1);
@@ -209,6 +753,7 @@ export default function LiturgicalCalendar() {
     };
 
     const handleNextDay = () => {
+        setDateChangeSource('navigation');
         setSelectedDate(date => {
             const newDate = new Date(date);
             newDate.setDate(date.getDate() + 1);
@@ -217,6 +762,7 @@ export default function LiturgicalCalendar() {
     };
 
     const handlePrevWeek = () => {
+        setDateChangeSource('navigation');
         setSelectedDate(date => {
             const newDate = new Date(date);
             newDate.setDate(date.getDate() - 7);
@@ -225,6 +771,7 @@ export default function LiturgicalCalendar() {
     };
 
     const handleNextWeek = () => {
+        setDateChangeSource('navigation');
         setSelectedDate(date => {
             const newDate = new Date(date);
             newDate.setDate(date.getDate() + 7);
@@ -233,105 +780,36 @@ export default function LiturgicalCalendar() {
     };
 
     const handleToday = () => {
+        setDateChangeSource('navigation');
         setSelectedDate(new Date());
     };
-
-    const [pendingScroll, setPendingScroll] = useState(null);
-
-    const handleScroll = useCallback((event) => {
-        if (!containerRef.current) return;
-
-        const container = containerRef.current;
-        const entries = Object.entries(entriesRef.current);
-
-        const containerRect = container.getBoundingClientRect();
-        const middleY = containerRect.top + (containerRect.height / 2);
-
-        let closestEntry = null;
-        let minDistance = Infinity;
-
-        entries.forEach(([dateStr, element]) => {
-            if (!element) return;
-
-            const rect = element.getBoundingClientRect();
-            const elementMiddleY = rect.top + (rect.height / 2);
-            const distance = Math.abs(elementMiddleY - middleY);
-
-            if (distance < minDistance) {
-                minDistance = distance;
-                closestEntry = dateStr;
-            }
-        });
-
-        if (closestEntry) {
-            console.log('Found closest entry:', closestEntry, 'isScrolling:', isScrolling);
-
-            const parts = closestEntry.split(' ');
-            const day = parseInt(parts[0]);
-            const month = months.indexOf(parts[1]);
-            const year = parseInt(parts[2]);
-
-            const newDate = new Date(year, month, day);
-
-            if (formatDate(selectedDate) !== formatDate(newDate)) {
-                // Statt sofort zu scrollen, speichern wir das Ziel
-                setPendingScroll(newDate);
-                // Setzen Sie das neue Datum ohne zu scrollen
-                setSelectedDate(newDate);
-            }
-        }
-    }, [selectedDate, isScrolling, formatDate]);
-
-    useEffect(() => {
-        if (pendingScroll) {
-            const timeoutId = setTimeout(() => {
-                const selectedEntry = entriesRef.current[formatDate(pendingScroll)];
-                if (selectedEntry && containerRef.current) {
-                    const container = containerRef.current;
-                    const containerMiddle = container.clientHeight / 2;
-                    const elementHeight = selectedEntry.offsetHeight;
-                    const scrollOffset = selectedEntry.offsetTop - containerMiddle + (elementHeight / 2);
-
-                    container.scrollTo({
-                        top: scrollOffset,
-                        behavior: 'smooth'
-                    });
-                }
-                setPendingScroll(null);
-            }, 150); // Warte kurz, bis das Scrollen aufhört
-
-            return () => clearTimeout(timeoutId);
-        }
-    }, [pendingScroll, formatDate]);
-
-    useEffect(() => {
-        if (!containerRef.current) return;
-
-        const container = containerRef.current;
-
-        const debouncedScroll = (event) => {
-            if (scrollTimeoutRef.current) {
-                clearTimeout(scrollTimeoutRef.current);
-            }
-            scrollTimeoutRef.current = setTimeout(() => handleScroll(event), 150);
-        };
-
-        container.addEventListener('scroll', debouncedScroll);
-        return () => {
-            container.removeEventListener('scroll', debouncedScroll);
-            if (scrollTimeoutRef.current) {
-                clearTimeout(scrollTimeoutRef.current);
-            }
-        };
-    }, [handleScroll]);
 
     const visibleEntries = useMemo(() => {
         if (!visibleRange.startDate || !visibleRange.endDate) return [];
 
-        return allEntries.filter(entry =>
+        const entries = allEntries.filter(entry =>
             isDateInRange(entry.date, visibleRange.startDate, visibleRange.endDate)
         );
-    }, [allEntries, visibleRange]);
+
+        // Sortiere Einträge nach Datum
+        entries.sort((a, b) => a.date - b.date);
+
+        // Finde Index des ausgewählten Datums
+        const selectedIndex = entries.findIndex(entry =>
+            entry.date.getDate() === selectedDate.getDate() &&
+            entry.date.getMonth() === selectedDate.getMonth() &&
+            entry.date.getFullYear() === selectedDate.getFullYear()
+        );
+
+        if (selectedIndex === -1) return entries;
+
+        // Teile die Einträge in zwei Gruppen
+        return {
+            before: entries.slice(Math.max(0, selectedIndex - 7), selectedIndex),
+            current: entries.slice(selectedIndex, selectedIndex + 8)
+        };
+    }, [allEntries, visibleRange, selectedDate]);
+
 
     const formatNotes = (notes) => {
         if (!notes) return '';
@@ -669,17 +1147,34 @@ export default function LiturgicalCalendar() {
             document.head.removeChild(styleElement);
         };
     }, []);
+
+    useEffect(() => {
+        const checkScreenWidth = () => {
+            setIsNarrowScreen(window.innerWidth < 640); // 640px is the 'sm' breakpoint in Tailwind
+        };
+
+        // Initial check
+        checkScreenWidth();
+
+        // Add resize listener
+        window.addEventListener('resize', checkScreenWidth);
+
+        // Cleanup
+        return () => window.removeEventListener('resize', checkScreenWidth);
+    }, []);
+
     return (
         <div className="min-h-screen bg-white dark:bg-gray-900">
-            {/* Container mit responsiven Breiten */}
-            <div className="mx-auto bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors
-                          w-full sm:max-w-[40em]"
-                style={baseStyle}>
-
-                {/* Navigation - fixed auf Smartphones, sticky auf größeren Geräten */}
-                <div className="bg-white dark:bg-gray-900 shadow-sm z-10 transition-colors
-                              fixed sm:sticky top-0 left-0 right-0 sm:left-auto sm:right-auto"
-                    style={navStyle}>
+            <div
+                className="mx-auto bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors w-full sm:max-w-[40em]"
+                style={baseStyle}
+            >
+                {/* Navigation Bar */}
+                <div
+                    className="sticky top-0 left-0 right-0 w-full sm:max-w-[40em] mx-auto bg-white dark:bg-gray-900 shadow-sm z-10 transition-colors"
+                    style={navStyle}
+                    role="navigation"
+                >
                     <div className="flex items-start gap-2 p-4 overflow-x-auto sm:overflow-visible">
                         <ThemeMenu />
                         <button
@@ -708,7 +1203,7 @@ export default function LiturgicalCalendar() {
                                 onClick={() => setShowDatePicker(!showDatePicker)}
                                 className="flex items-center gap-2 px-4 py-2 border dark:border-gray-700 rounded hover:bg-gray-50 dark:hover:bg-gray-800"
                             >
-                                <span>{formatDate(selectedDate)}</span>
+                                <span>{formatDate(selectedDate, true)}</span>
                                 <svg
                                     className="w-4 h-4"
                                     fill="none"
@@ -740,346 +1235,70 @@ export default function LiturgicalCalendar() {
                         </button>
                     </div>
                 </div>
-                <div className="pt-[72px] sm:pt-0">
-                    <div ref={containerRef}
-                        className="grid grid-cols-1 gap-4 max-h-[calc(100vh-72px)] overflow-y-auto px-4">
-                        {visibleEntries.map((entry) => {
-                            const dateKey = entry.date.toISOString();
-                            const hasMoreDeceased = entry.deceased && entry.deceased_more && entry.deceased !== entry.deceased_more;
-                            const isExpanded = expandedDeceased[dateKey];
-                            const shouldShowMore = deceasedMode === 'all' || isExpanded;
-                            const day = entry.date.getDate();
-                            const month = months[entry.date.getMonth()];
-                            const year = entry.date.getFullYear();
-                            const formattedDate = `${day}. ${month} ${year}`;
 
-                            return (
-                                <div
-                                    key={dateKey}
-                                    ref={el => entriesRef.current[formatDate(entry.date)] = el}
-                                    className={`p-4 border dark:border-gray-700 rounded transition-colors ${entry.date.getDate() === selectedDate.getDate() &&
-                                        entry.date.getMonth() === selectedDate.getMonth()
-                                        ? 'bg-orange-50 dark:bg-orange-900/30'
-                                        : 'bg-white dark:bg-gray-900'
-                                        }`}
-                                >
-                                    {/* Datumsheader */}
-                                    <div className="text-lg font-semibold mb-4 text-gray-900 dark:text-gray-100">
-                                        {formattedDate}
-                                    </div>
-                                    {/* Liturgy Section */}
-                                    {entry.liturgy && (
-                                        <div style={{ marginBottom: '1.25em' }}>
-                                            <div style={{ fontSize: '1em' }} className="text-gray-900 dark:text-gray-100">
-                                                {formatText(entry.liturgy).split('¥p').map((paragraph, index) => {
-                                                    const [marker, ...contentParts] = paragraph.split('¥t');
-                                                    const content = contentParts.join('¥t');
-                                                    const lines = content.split('¥l');
+                {/* Main Content Area */}
+                <div className="mt-4">
+                    <ScrollableContainer
+                        containerRef={containerRef}
+                        selectedDate={selectedDate}
+                        dateChangeSource={dateChangeSource}
+                    >
+                        {visibleEntries.before && visibleEntries.before.length > 0 && (
+                            <div
+                                data-before-container="true"
+                                style={{
+                                    position: 'relative',
+                                    marginTop: '-50vh',
+                                    paddingTop: '50vh'
+                                }}
+                            >
+                                {visibleEntries.before.map(entry => (
+                                    <DayEntry
+                                        key={entry.date.toISOString()}
+                                        entry={entry}
+                                        formatDate={formatDate}
+                                        formatText={formatText}
+                                        formatNotes={formatNotes}
+                                        selectedDate={selectedDate}
+                                        months={months}
+                                        hangingIndent={hangingIndent}
+                                        deceasedMode={deceasedMode}
+                                        deceasedSizeRatio={deceasedSizeRatio}
+                                        expandedDeceased={expandedDeceased}
+                                        setExpandedDeceased={setExpandedDeceased}
+                                        entriesRef={entriesRef}
+                                    />
+                                ))}
+                            </div>
+                        )}
 
-                                                    return (
-                                                        <div key={index} style={{
-                                                            marginBottom: '0.2em',
-                                                            position: 'relative'
-                                                        }}>
-                                                            <span style={{
-                                                                position: 'absolute',
-                                                                left: 0
-                                                            }} dangerouslySetInnerHTML={{ __html: marker }} />
-
-                                                            <div style={{
-                                                                paddingLeft: hangingIndent,
-                                                                margin: 0,
-                                                                fontFamily: 'inherit'
-                                                            }}>
-                                                                {lines.map((line, lineIndex) => {
-                                                                    const commonLineStyle = {
-                                                                        marginTop: lineIndex > 0 ? '0em' : 0
-                                                                    };
-
-                                                                    const parts = line.split('¥t');
-
-                                                                    if (parts.length >= 3) {
-                                                                        const [occasion, reference, pageNum, ...rest] = parts;
-                                                                        return (
-                                                                            <div key={lineIndex} style={{
-                                                                                ...commonLineStyle,
-                                                                                display: 'grid',
-                                                                                gridTemplateColumns: 'minmax(2em, auto) minmax(0, 1fr) auto',
-                                                                                gap: '0.25em',
-                                                                                maxWidth: '25em'
-                                                                            }}>
-                                                                                <span style={{
-                                                                                    textAlign: 'left',
-                                                                                    minWidth: 0,
-                                                                                    overflow: 'hidden',
-                                                                                    textOverflow: 'ellipsis',
-                                                                                    whiteSpace: 'nowrap'
-                                                                                }} dangerouslySetInnerHTML={{ __html: occasion }} />
-                                                                                <TooltipProvider>
-                                                                                    <Tooltip>
-                                                                                        <TooltipTrigger asChild>
-                                                                                            <span
-                                                                                                style={{
-                                                                                                    textAlign: 'left',
-                                                                                                    minWidth: 0,
-                                                                                                    overflow: 'hidden',
-                                                                                                    textOverflow: 'ellipsis',
-                                                                                                    whiteSpace: 'nowrap',
-                                                                                                    cursor: 'help',
-                                                                                                    maxWidth: '100%',
-                                                                                                    display: 'block'
-                                                                                                }}
-                                                                                                dangerouslySetInnerHTML={{ __html: reference }}
-                                                                                            />
-                                                                                        </TooltipTrigger>
-                                                                                        <TooltipContent>
-                                                                                            <p dangerouslySetInnerHTML={{ __html: reference.replace(/<[^>]*>/g, '') }} />
-                                                                                        </TooltipContent>
-                                                                                    </Tooltip>
-                                                                                </TooltipProvider>
-                                                                                <span style={{
-                                                                                    textAlign: 'right',
-                                                                                    whiteSpace: 'nowrap'
-                                                                                }} dangerouslySetInnerHTML={{ __html: pageNum + rest.join('') }} />
-                                                                            </div>
-                                                                        );
-                                                                    } else if (parts.length === 2 && parts[0].includes('\u00A0')) {
-                                                                        const [firstPart, pageNum] = parts;
-                                                                        const firstSpaceIndex = firstPart.indexOf('\u00A0');
-                                                                        const occasion = firstPart.substring(0, firstSpaceIndex);
-                                                                        const reference = firstPart.substring(firstSpaceIndex + 1);
-
-                                                                        return (
-                                                                            <div key={lineIndex} style={{
-                                                                                ...commonLineStyle,
-                                                                                display: 'grid',
-                                                                                gridTemplateColumns: 'minmax(2em, auto) minmax(0, 1fr) auto',
-                                                                                gap: '0.25em',
-                                                                                maxWidth: '25em'
-                                                                            }}>
-                                                                                <span style={{
-                                                                                    textAlign: 'left',
-                                                                                    minWidth: 0,
-                                                                                    overflow: 'hidden',
-                                                                                    textOverflow: 'ellipsis',
-                                                                                    whiteSpace: 'nowrap'
-                                                                                }} dangerouslySetInnerHTML={{ __html: occasion }} />
-                                                                                <TooltipProvider>
-                                                                                    <Tooltip>
-                                                                                        <TooltipTrigger asChild>
-                                                                                            <span
-                                                                                                style={{
-                                                                                                    textAlign: 'left',
-                                                                                                    minWidth: 0,
-                                                                                                    overflow: 'hidden',
-                                                                                                    textOverflow: 'ellipsis',
-                                                                                                    whiteSpace: 'nowrap',
-                                                                                                    cursor: 'help',
-                                                                                                    maxWidth: '100%',
-                                                                                                    display: 'block'
-                                                                                                }}
-                                                                                                dangerouslySetInnerHTML={{ __html: reference }}
-                                                                                            />
-                                                                                        </TooltipTrigger>
-                                                                                        <TooltipContent>
-                                                                                            <p dangerouslySetInnerHTML={{ __html: reference.replace(/<[^>]*>/g, '') }} />
-                                                                                        </TooltipContent>
-                                                                                    </Tooltip>
-                                                                                </TooltipProvider>
-                                                                                <span style={{
-                                                                                    textAlign: 'right',
-                                                                                    whiteSpace: 'nowrap'
-                                                                                }} dangerouslySetInnerHTML={{ __html: pageNum }} />
-                                                                            </div>
-                                                                        );
-                                                                    } else {
-                                                                        return (
-                                                                            <div key={lineIndex} style={{
-                                                                                ...commonLineStyle,
-                                                                                whiteSpace: 'pre-line'
-                                                                            }} dangerouslySetInnerHTML={{ __html: line }} />
-                                                                        );
-                                                                    }
-                                                                })}
-                                                            </div>
-                                                        </div>
-                                                    );
-                                                })}
-                                            </div>
-                                        </div>
-                                    )}
-                                    {/* Notes Section */}
-                                    {entry.notes && (
-                                        <div style={{ marginBottom: '1.25em' }}>
-                                            <div style={{ fontSize: '0.93em' }} className="text-gray-900 dark:text-gray-100">
-                                                {formatNotes(entry.notes).split('\n').map((paragraph, index) => {
-                                                    if (/^\d+\./.test(paragraph)) {
-                                                        const match = paragraph.match(/^(\d+\.\s*)(.*)$/);
-                                                        if (match) {
-                                                            const [, number, text] = match;
-                                                            return (
-                                                                <div key={index} style={{ marginBottom: '0.16em' }}>
-                                                                    <span style={{
-                                                                        float: 'left',
-                                                                        width: '1.5em'
-                                                                    }}>{number}</span>
-                                                                    <div style={{
-                                                                        display: 'block',
-                                                                        marginLeft: '1.5em'
-                                                                    }} dangerouslySetInnerHTML={{ __html: text }} />
-                                                                </div>
-                                                            );
-                                                        }
-                                                    }
-                                                    return (
-                                                        <p key={index}
-                                                            style={{ marginBottom: '0.75em' }}
-                                                            dangerouslySetInnerHTML={{ __html: paragraph }} />
-                                                    );
-                                                })}
-                                            </div>
-                                        </div>
-                                    )}
-
-                                    {/* Deceased Section */}
-                                    {entry.deceased && (
-                                        <div style={{ marginBottom: '1.25em' }}>
-                                            <div style={{ fontSize: `${deceasedSizeRatio}em` }} className="text-gray-900 dark:text-gray-100">
-                                                {formatText(shouldShowMore ? entry.deceased_more : entry.deceased).split('¥p').map((paragraph, index) => {
-                                                    const parts = paragraph.split('¥t');
-                                                    if (parts.length === 2) {
-                                                        return (
-                                                            <div key={index} style={{
-                                                                marginBottom: '0.16em',
-                                                                position: 'relative'
-                                                            }}>
-                                                                <span style={{
-                                                                    position: 'absolute',
-                                                                    left: 0
-                                                                }} dangerouslySetInnerHTML={{ __html: parts[0] }} />
-                                                                <pre style={{
-                                                                    paddingLeft: `calc(${hangingIndent} / ${deceasedSizeRatio})`,
-                                                                    margin: 0,
-                                                                    fontFamily: 'inherit',
-                                                                    whiteSpace: 'pre-line'
-                                                                }} dangerouslySetInnerHTML={{ __html: parts[1] }} />
-                                                            </div>
-                                                        );
-                                                    }
-                                                    return (
-                                                        <p key={index} style={{ marginBottom: '0.16em' }}
-                                                            dangerouslySetInnerHTML={{ __html: paragraph }} />
-                                                    );
-                                                })}
-                                                {hasMoreDeceased && deceasedMode !== 'all' && !isExpanded && (
-                                                    <button
-                                                        onClick={() => setExpandedDeceased(prev => ({
-                                                            ...prev,
-                                                            [dateKey]: true
-                                                        }))}
-                                                        style={{
-                                                            display: 'block',
-                                                            marginTop: '0em',
-                                                            paddingLeft: `calc(${hangingIndent} / ${deceasedSizeRatio} / 0.9)`,
-                                                            color: 'rgb(37, 99, 235)',
-                                                            fontSize: '0.9em'
-                                                        }}
-                                                    >
-                                                        mehr ...
-                                                    </button>
-                                                )}
-                                            </div>
-                                        </div>
-                                    )}
-                                    {/* Prayer Section */}
-                                    {entry.prayerTexts && (
-                                        <div style={{ marginBottom: '1.25em' }}>
-                                            <h3 style={{
-                                                fontSize: '1.1em',
-                                                fontWeight: '600',
-                                                marginBottom: '0em'
-                                            }} className="text-purple-600 dark:text-purple-400">
-                                                Gebete
-                                            </h3>
-                                            <div style={{
-                                                fontSize: '1em',
-                                                whiteSpace: 'pre-wrap'
-                                            }} className="text-gray-900 dark:text-gray-100"
-                                                dangerouslySetInnerHTML={{ __html: formatText(entry.prayerTexts) }} />
-                                        </div>
-                                    )}
-
-                                    {/* Vigil Notes Section */}
-                                    {entry.vig_notes && (
-                                        <div style={{ marginBottom: '1.25em' }}>
-                                            <div style={{ fontSize: '0.93em' }} className="text-gray-900 dark:text-gray-100">
-                                                {formatNotes(entry.vig_notes).split('\n').map((paragraph, index) => {
-                                                    if (/^\d+\./.test(paragraph)) {
-                                                        const match = paragraph.match(/^(\d+\.\s*)(.*)$/);
-                                                        if (match) {
-                                                            const [, number, text] = match;
-                                                            return (
-                                                                <div key={index} style={{ marginBottom: '0.16em' }}>
-                                                                    <span style={{
-                                                                        float: 'left',
-                                                                        width: '1.5em'
-                                                                    }}>{number}</span>
-                                                                    <div style={{
-                                                                        display: 'block',
-                                                                        marginLeft: '0em'
-                                                                    }} dangerouslySetInnerHTML={{ __html: text }} />
-                                                                </div>
-                                                            );
-                                                        }
-                                                    }
-                                                    return (
-                                                        <p key={index} style={{ marginBottom: '0.75em' }}
-                                                            dangerouslySetInnerHTML={{ __html: paragraph }} />
-                                                    );
-                                                })}
-                                            </div>
-                                        </div>
-                                    )}
-
-                                    {/* Vigil Liturgy Section */}
-                                    {entry.vig_liturgy && (
-                                        <div style={{ marginBottom: '1.25em' }}>
-                                            <div style={{ fontSize: '1em' }} className="text-gray-900 dark:text-gray-100">
-                                                {formatText(entry.vig_liturgy).split('¥p').map((paragraph, index) => {
-                                                    const parts = paragraph.split('¥t');
-                                                    if (parts.length >= 2) {
-                                                        const marker = parts[0];
-                                                        const content = parts.slice(1).join('¥t').replace(/¥l/g, '\n');
-                                                        return (
-                                                            <div key={index} style={{
-                                                                marginBottom: '0em',
-                                                                position: 'relative'
-                                                            }}>
-                                                                <span style={{
-                                                                    position: 'absolute',
-                                                                    left: 0
-                                                                }} dangerouslySetInnerHTML={{ __html: marker }} />
-                                                                <pre style={{
-                                                                    paddingLeft: hangingIndent,
-                                                                    margin: 0,
-                                                                    fontFamily: 'inherit',
-                                                                    whiteSpace: 'pre-line'
-                                                                }} dangerouslySetInnerHTML={{ __html: content }} />
-                                                            </div>
-                                                        );
-                                                    }
-                                                    return (
-                                                        <p key={index} style={{ marginBottom: '0.5em' }}
-                                                            dangerouslySetInnerHTML={{ __html: paragraph }} />
-                                                    );
-                                                })}
-                                            </div>
-                                        </div>
-                                    )}
-                                </div>
-                            );
-                        })}
-                    </div>
+                        {visibleEntries.current && visibleEntries.current.length > 0 && (
+                            <div
+                                data-current-container="true"
+                                style={{
+                                    position: 'relative'
+                                }}
+                            >
+                                {visibleEntries.current.map(entry => (
+                                    <DayEntry
+                                        key={entry.date.toISOString()}
+                                        entry={entry}
+                                        formatDate={formatDate}
+                                        formatText={formatText}
+                                        formatNotes={formatNotes}
+                                        selectedDate={selectedDate}
+                                        months={months}
+                                        hangingIndent={hangingIndent}
+                                        deceasedMode={deceasedMode}
+                                        deceasedSizeRatio={deceasedSizeRatio}
+                                        expandedDeceased={expandedDeceased}
+                                        setExpandedDeceased={setExpandedDeceased}
+                                        entriesRef={entriesRef}
+                                    />
+                                ))}
+                            </div>
+                        )}
+                    </ScrollableContainer>
                 </div>
             </div>
         </div>
