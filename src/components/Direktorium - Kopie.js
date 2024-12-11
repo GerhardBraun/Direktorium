@@ -82,7 +82,7 @@ const DayEntry = ({
                 }`}
         >
             {/* Datumsheader */}
-            <div className="text-lg font-semibold mb-4 text-gray-900 dark:text-gray-100">
+            <div className="font-semibold mb-4 text-gray-900 dark:text-gray-100">
                 {formattedDate}
             </div>
 
@@ -460,7 +460,7 @@ export default function LiturgicalCalendar() {
         return `${date.getDate()}. ${months[date.getMonth()]} ${date.getFullYear()}`;
     }, [isNarrowScreen]);// months ist konstant, daher keine Dependency nötig
 
-    const [dateChangeSource, setDateChangeSource] = useState(null); // 'navigation' oder 'scroll'
+    const [dateChangeSource, setDateChangeSource] = useState('navigation'); // 'navigation' oder 'scroll'
 
     const handleScroll = useCallback((event) => {
         if (!containerRef.current || isScrolling) return;
@@ -668,24 +668,6 @@ export default function LiturgicalCalendar() {
         setDateChangeSource('navigation');
         setSelectedDate(new Date(date));
         setShowDatePicker(false);
-    };
-
-    const handlePrevDay = () => {
-        setDateChangeSource('navigation');
-        setSelectedDate(date => {
-            const newDate = new Date(date);
-            newDate.setDate(date.getDate() - 1);
-            return newDate;
-        });
-    };
-
-    const handleNextDay = () => {
-        setDateChangeSource('navigation');
-        setSelectedDate(date => {
-            const newDate = new Date(date);
-            newDate.setDate(date.getDate() + 1);
-            return newDate;
-        });
     };
 
     const handlePrevWeek = () => {
@@ -1007,15 +989,23 @@ export default function LiturgicalCalendar() {
                             </div>
                             <div className="flex gap-1">
                                 <button
-                                    className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${deceasedMode === 'recent' ? 'bg-orange-100 dark:bg-orange-900' : ''
-                                        }`}
+                                    onClick={(e) => {
+                                        e.stopPropagation();
+                                        setDeceasedMode('recent');
+                                        setExpandedDeceased({});
+                                    }}
+                                    className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${deceasedMode === 'recent' ? 'bg-orange-100 dark:bg-orange-900' : ''}`}
                                     tabIndex={-1}
                                 >
                                     kurz
                                 </button>
                                 <button
-                                    className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${deceasedMode === 'all' ? 'bg-orange-100 dark:bg-orange-900' : ''
-                                        }`}
+                                    onClick={(e) => {
+                                        e.stopPropagation();
+                                        setDeceasedMode('all');
+                                        setExpandedDeceased({});
+                                    }}
+                                    className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${deceasedMode === 'all' ? 'bg-orange-100 dark:bg-orange-900' : ''}`}
                                     tabIndex={-1}
                                 >
                                     voll
@@ -1112,13 +1102,6 @@ export default function LiturgicalCalendar() {
                             «
                         </button>
                         <button
-                            onClick={handlePrevDay}
-                            className="px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
-                            title="1 Tag zurück"
-                        >
-                            ‹
-                        </button>
-                        <button
                             onClick={handleToday}
                             className="px-4 py-2 bg-orange-100 dark:bg-orange-900 hover:bg-orange-200 dark:hover:bg-orange-800 rounded"
                         >
@@ -1146,13 +1129,6 @@ export default function LiturgicalCalendar() {
                             {showDatePicker && <DatePicker />}
                         </div>
 
-                        <button
-                            onClick={handleNextDay}
-                            className="px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
-                            title="1 Tag vor"
-                        >
-                            ›
-                        </button>
                         <button
                             onClick={handleNextWeek}
                             className="px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"

@@ -82,7 +82,7 @@ const DayEntry = ({
                 }`}
         >
             {/* Datumsheader */}
-            <div className="text-lg font-semibold mb-4 text-gray-900 dark:text-gray-100">
+            <div className="font-semibold mb-4 text-gray-900 dark:text-gray-100">
                 {formattedDate}
             </div>
 
@@ -438,6 +438,9 @@ export default function LiturgicalCalendar() {
     const [baseFontSize, setBaseFontSize] = useState(14); // Standard-Schriftgröße in pt
     const [renderKey, setRenderKey] = useState(0);
     const [isReady, setIsReady] = useState(false);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const sections = ['fontSize', 'theme', 'deceased'];
+    const [activeSection, setActiveSection] = useState('fontSize');
     const [isNarrowScreen, setIsNarrowScreen] = useState(false);
     const hangingIndent = '3.2em'; // Variable für den Einzug
     const deceasedSizeRatio = 0.9;
@@ -460,7 +463,7 @@ export default function LiturgicalCalendar() {
         return `${date.getDate()}. ${months[date.getMonth()]} ${date.getFullYear()}`;
     }, [isNarrowScreen]);// months ist konstant, daher keine Dependency nötig
 
-    const [dateChangeSource, setDateChangeSource] = useState(null); // 'navigation' oder 'scroll'
+    const [dateChangeSource, setDateChangeSource] = useState('navigation'); // 'navigation' oder 'scroll'
 
     const handleScroll = useCallback((event) => {
         if (!containerRef.current || isScrolling) return;
@@ -490,9 +493,6 @@ export default function LiturgicalCalendar() {
                 closestEntry = dateStr;
             }
         });
-
-        console.log('HANDLE-Entries:', Object.keys(entriesRef.current));
-        console.log('HANDLE-Closest Entry:', closestEntry);
 
         if (closestEntry) {
             const parts = closestEntry.split(' ');
@@ -802,9 +802,6 @@ export default function LiturgicalCalendar() {
     const ThemeMenu = () => {
         const [tempFontSize, setTempFontSize] = useState(baseFontSize);
         const menuRef = useRef(null);
-        const sections = ['fontSize', 'theme', 'deceased'];
-        const [activeSection, setActiveSection] = useState('fontSize');
-        const [isMenuOpen, setIsMenuOpen] = useState(false); // Umbenennung zu isMenuOpen
 
         const toggleMenu = () => {
             setIsMenuOpen(prev => !prev);
@@ -817,7 +814,11 @@ export default function LiturgicalCalendar() {
             setActiveSection(sections[sectionIndex]);
         };
 
-        const handleOptionChange = (isRight) => {
+        // Modified to prevent menu closing
+        const handleOptionChange = (e, isRight) => {
+            e.preventDefault();
+            e.stopPropagation();
+
             switch (activeSection) {
                 case 'fontSize':
                     handleFontSizeChange(isRight);
@@ -851,6 +852,24 @@ export default function LiturgicalCalendar() {
             setExpandedDeceased({});
         };
 
+        // Modified click outside handler
+        useEffect(() => {
+            const handleClickOutside = (event) => {
+                // Check if click target is a button inside the menu
+                const isMenuButton = event.target.closest('button') && menuRef.current?.contains(event.target);
+
+                if (menuRef.current && !menuRef.current.contains(event.target) && !isMenuButton) {
+                    setIsMenuOpen(false);
+                }
+            };
+
+            if (isMenuOpen) {
+                document.addEventListener('mousedown', handleClickOutside);
+            }
+            return () => document.removeEventListener('mousedown', handleClickOutside);
+        }, [isMenuOpen]);
+
+        // Keyboard handler remains the same
         useEffect(() => {
             const handleKeyDown = (event) => {
                 if (!isMenuOpen) {
@@ -864,6 +883,7 @@ export default function LiturgicalCalendar() {
                 if (event.key === 'Alt' || event.key === 'Escape') {
                     event.preventDefault();
                     toggleMenu();
+                    return;
                 }
 
                 if (event.key === 'ArrowUp' || event.key === 'ArrowDown') {
@@ -875,27 +895,13 @@ export default function LiturgicalCalendar() {
                     handleSectionChange(newIndex);
                 } else if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
                     event.preventDefault();
-                    const isRight = event.key === 'ArrowRight';
-                    handleOptionChange(isRight);
+                    handleOptionChange(new Event('keydown'), event.key === 'ArrowRight');
                 }
             };
 
             document.addEventListener('keydown', handleKeyDown);
             return () => document.removeEventListener('keydown', handleKeyDown);
-        }, [isMenuOpen, activeSection, tempFontSize, sections, toggleMenu, handleOptionChange, handleSectionChange]);
-
-        useEffect(() => {
-            const handleClickOutside = (event) => {
-                if (menuRef.current && !menuRef.current.contains(event.target)) {
-                    setIsMenuOpen(false);
-                }
-            };
-
-            if (isMenuOpen) {
-                document.addEventListener('mousedown', handleClickOutside);
-            }
-            return () => document.removeEventListener('mousedown', handleClickOutside);
-        }, [isMenuOpen]);
+        }, [isMenuOpen, activeSection]);
 
         return (
             <div className="relative" ref={menuRef}>
@@ -909,7 +915,7 @@ export default function LiturgicalCalendar() {
 
                 {isMenuOpen && (
                     <div className="fixed sm:absolute left-0 sm:left-auto right-0 sm:right-auto top-16 sm:top-auto sm:mt-2 mx-4 sm:mx-0 w-auto sm:w-60 bg-white dark:bg-gray-800 rounded-lg shadow-lg border dark:border-gray-700 z-50">
-                        {/* Schriftgröße */}
+                        {/* Font Size Section */}
                         <div
                             className={`px-3 py-2 cursor-pointer ${activeSection === 'fontSize' ? 'bg-gray-50 dark:bg-gray-700' : ''}`}
                             onClick={() => handleSectionChange(sections.indexOf('fontSize'))}
@@ -919,24 +925,16 @@ export default function LiturgicalCalendar() {
                             </div>
                             <div className="mt-2 flex items-center justify-center gap-3">
                                 <button
-                                    onClick={(e) => {
-                                        e.stopPropagation();
-                                        handleOptionChange(false);
-                                    }}
+                                    onClick={(e) => handleOptionChange(e, false)}
                                     className="px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300"
-                                    tabIndex={-1}
                                 >
                                     ←
                                 </button>
                                 <span className="w-8 text-center">{tempFontSize}</span>
                                 <span className="text-sm text-gray-500 dark:text-gray-400">pt</span>
                                 <button
-                                    onClick={(e) => {
-                                        e.stopPropagation();
-                                        handleOptionChange(true);
-                                    }}
+                                    onClick={(e) => handleOptionChange(e, true)}
                                     className="px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300"
-                                    tabIndex={-1}
                                 >
                                     →
                                 </button>
@@ -945,7 +943,7 @@ export default function LiturgicalCalendar() {
 
                         <div className="border-t dark:border-gray-700"></div>
 
-                        {/* Design */}
+                        {/* Theme Section */}
                         <div
                             className={`px-3 py-2 cursor-pointer ${activeSection === 'theme' ? 'bg-gray-50 dark:bg-gray-700' : ''}`}
                             onClick={() => handleSectionChange(sections.indexOf('theme'))}
@@ -956,21 +954,21 @@ export default function LiturgicalCalendar() {
                             <div className="flex gap-1">
                                 <button
                                     onClick={(e) => {
+                                        e.preventDefault();
                                         e.stopPropagation();
-                                        handleThemeChange(false);
+                                        setTheme('light');
                                     }}
                                     className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${theme === 'light' ? 'bg-orange-100 dark:bg-orange-900' : ''}`}
-                                    tabIndex={-1}
                                 >
                                     hell
                                 </button>
                                 <button
                                     onClick={(e) => {
+                                        e.preventDefault();
                                         e.stopPropagation();
-                                        handleThemeChange(true);
+                                        setTheme('dark');
                                     }}
                                     className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${theme === 'dark' ? 'bg-orange-100 dark:bg-orange-900' : ''}`}
-                                    tabIndex={-1}
                                 >
                                     dunkel
                                 </button>
@@ -979,7 +977,7 @@ export default function LiturgicalCalendar() {
 
                         <div className="border-t dark:border-gray-700"></div>
 
-                        {/* Verstorbene */}
+                        {/* Deceased Section */}
                         <div
                             className={`px-3 py-2 cursor-pointer ${activeSection === 'deceased' ? 'bg-gray-50 dark:bg-gray-700' : ''}`}
                             onClick={() => handleSectionChange(sections.indexOf('deceased'))}
@@ -989,16 +987,24 @@ export default function LiturgicalCalendar() {
                             </div>
                             <div className="flex gap-1">
                                 <button
-                                    className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${deceasedMode === 'recent' ? 'bg-orange-100 dark:bg-orange-900' : ''
-                                        }`}
-                                    tabIndex={-1}
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        e.stopPropagation();
+                                        setDeceasedMode('recent');
+                                        setExpandedDeceased({});
+                                    }}
+                                    className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${deceasedMode === 'recent' ? 'bg-orange-100 dark:bg-orange-900' : ''}`}
                                 >
                                     kurz
                                 </button>
                                 <button
-                                    className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${deceasedMode === 'all' ? 'bg-orange-100 dark:bg-orange-900' : ''
-                                        }`}
-                                    tabIndex={-1}
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        e.stopPropagation();
+                                        setDeceasedMode('all');
+                                        setExpandedDeceased({});
+                                    }}
+                                    className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${deceasedMode === 'all' ? 'bg-orange-100 dark:bg-orange-900' : ''}`}
                                 >
                                     voll
                                 </button>
@@ -1013,8 +1019,6 @@ export default function LiturgicalCalendar() {
             </div>
         );
     };
-
-
 
     const baseStyle = {
         fontFamily,
