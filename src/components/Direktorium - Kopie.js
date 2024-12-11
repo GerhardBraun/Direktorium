@@ -670,6 +670,24 @@ export default function LiturgicalCalendar() {
         setShowDatePicker(false);
     };
 
+    const handlePrevDay = () => {
+        setDateChangeSource('navigation');
+        setSelectedDate(date => {
+            const newDate = new Date(date);
+            newDate.setDate(date.getDate() - 1);
+            return newDate;
+        });
+    };
+
+    const handleNextDay = () => {
+        setDateChangeSource('navigation');
+        setSelectedDate(date => {
+            const newDate = new Date(date);
+            newDate.setDate(date.getDate() + 1);
+            return newDate;
+        });
+    };
+
     const handlePrevWeek = () => {
         setDateChangeSource('navigation');
         setSelectedDate(date => {
@@ -1094,6 +1112,13 @@ export default function LiturgicalCalendar() {
                             «
                         </button>
                         <button
+                            onClick={handlePrevDay}
+                            className="px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
+                            title="1 Tag zurück"
+                        >
+                            ‹
+                        </button>
+                        <button
                             onClick={handleToday}
                             className="px-4 py-2 bg-orange-100 dark:bg-orange-900 hover:bg-orange-200 dark:hover:bg-orange-800 rounded"
                         >
@@ -1121,6 +1146,13 @@ export default function LiturgicalCalendar() {
                             {showDatePicker && <DatePicker />}
                         </div>
 
+                        <button
+                            onClick={handleNextDay}
+                            className="px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
+                            title="1 Tag vor"
+                        >
+                            ›
+                        </button>
                         <button
                             onClick={handleNextWeek}
                             className="px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
