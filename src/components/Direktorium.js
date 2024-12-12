@@ -432,7 +432,12 @@ export default function LiturgicalCalendar() {
     const fontFamily = 'Cambria, serif';
     const [selectedDate, setSelectedDate] = useState(new Date());
     const [showDatePicker, setShowDatePicker] = useState(false);
-    const [theme, setTheme] = useState('light');
+    const [theme, setTheme] = useState(() => {
+        console.log('Initializing theme state');
+        const savedTheme = localStorage.getItem('theme');
+        console.log('Saved theme from localStorage:', savedTheme);
+        return savedTheme || 'light';
+    });
     const [expandedDeceased, setExpandedDeceased] = useState({});
     const [deceasedMode, setDeceasedMode] = useState('recent');
     const [baseFontSize, setBaseFontSize] = useState(14); // Standard-Schriftgröße in pt
@@ -581,11 +586,11 @@ export default function LiturgicalCalendar() {
     }, []);
 
     useEffect(() => {
-        // Toggle 'dark' class on both documentElement (html) and body
+        console.log('Theme effect triggered. New theme:', theme);
         document.documentElement.classList.toggle('dark', theme === 'dark');
         document.body.classList.toggle('dark', theme === 'dark');
-
-        // Optional: Speichern der Theme-Präferenz im localStorage
+        console.log('dark class on html:', document.documentElement.classList.contains('dark'));
+        console.log('dark class on body:', document.body.classList.contains('dark'));
         localStorage.setItem('theme', theme);
     }, [theme]);
 
@@ -844,7 +849,13 @@ export default function LiturgicalCalendar() {
         };
 
         const handleThemeChange = (isRight) => {
-            setTheme(prev => prev === 'light' ? 'dark' : 'light');
+            console.log('handleThemeChange called with isRight:', isRight);
+            console.log('Current theme before change:', theme);
+            setTheme(prev => {
+                const newTheme = prev === 'light' ? 'dark' : 'light';
+                console.log('Setting new theme to:', newTheme);
+                return newTheme;
+            });
         };
 
         const handleDeceasedModeChange = (isRight) => {
@@ -925,7 +936,10 @@ export default function LiturgicalCalendar() {
                             </div>
                             <div className="mt-2 flex items-center justify-center gap-3">
                                 <button
-                                    onClick={(e) => handleOptionChange(e, false)}
+                                    onClick={(e) => {
+                                        setActiveSection('fontSize');
+                                        handleOptionChange(e, false);
+                                    }}
                                     className="px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300"
                                 >
                                     ←
@@ -933,7 +947,10 @@ export default function LiturgicalCalendar() {
                                 <span className="w-8 text-center">{tempFontSize}</span>
                                 <span className="text-sm text-gray-500 dark:text-gray-400">pt</span>
                                 <button
-                                    onClick={(e) => handleOptionChange(e, true)}
+                                    onClick={(e) => {
+                                        setActiveSection('fontSize');
+                                        handleOptionChange(e, true);
+                                    }}
                                     className="px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300"
                                 >
                                     →
@@ -1083,13 +1100,16 @@ export default function LiturgicalCalendar() {
                 style={baseStyle}
             >
                 {/* Navigation Bar */}
+                {/* Navigation Bar - Zwei separate Container */}
+                {/* Navigation Bar */}
                 <div
-                    className="sticky top-0 left-0 right-0 w-full sm:max-w-[40em] mx-auto bg-white dark:bg-gray-900 shadow-sm z-10 transition-colors"
+                    className="sticky top-0 left-0 right-0 w-full sm:max-w-[40em] bg-white dark:bg-gray-900 shadow-sm z-10 transition-colors"
                     style={navStyle}
                     role="navigation"
                 >
-                    <div className="flex items-start gap-2 p-4 overflow-x-auto sm:overflow-visible">
+                    <div className="flex items-center gap-2 px-4 py-4 overflow-x-auto sm:overflow-visible">
                         <ThemeMenu />
+
                         <button
                             onClick={handlePrevWeek}
                             className="px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
