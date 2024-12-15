@@ -22,10 +22,10 @@ const formatText = (text) => {
         return str.replace(regex, (_, content) => `<span class="${className}">${content}</span>`);
     };
 
+    text = processFormatting(text, '¥w', '¥0w', 'formatKleiner');
     text = processFormatting(text, '¥f', '¥0f', 'font-bold');
     text = processFormatting(text, '¥k', '¥0k', 'italic');
     text = processFormatting(text, '¥v', '¥0v', 'formatVerse');
-    text = processFormatting(text, '¥w', '¥0w', 'formatKleiner');
     text = processFormatting(text, '¥qh', '¥0f', 'formatHochfest');
     text = processFormatting(text, '¥qf', '¥0f', 'formatFest');
 
@@ -261,6 +261,227 @@ const DayEntry = ({
                     </div>
                 )}
 
+                {entry.sec_notes && (
+                    <div style={{ marginBottom: '1.25em' }}>
+                        <div style={{ fontSize: '0.93em' }} className="text-gray-900 dark:text-gray-100">
+                            {entry.sec_notes.split('¥h').map((paragraph, index) => {
+                                // Initialize counter for each ¥h section
+                                let counter = 0;
+
+                                // Split by ¥j first
+                                const paragraphs = paragraph.split('¥j');
+
+                                return paragraphs.map((subParagraph, subIndex) => {
+                                    const isLastInSequence = subIndex === paragraphs.length - 1;
+
+                                    if (!isLastInSequence) {
+                                        // This is a ¥j paragraph that should be centered
+                                        return (
+                                            <p
+                                                key={`${index}-${subIndex}`}
+                                                style={{
+                                                    marginBottom: '0.75em',
+                                                    textAlign: 'center',
+                                                    fontSize: '1em'
+                                                }}
+                                                dangerouslySetInnerHTML={{ __html: formatText(subParagraph.trim()) }}
+                                            />
+                                        );
+                                    }
+
+                                    // Handle normal paragraphs or the remainder after ¥j
+                                    if (subParagraph.trim()) {
+                                        if (subParagraph.trim().startsWith('¥s')) {
+                                            // Increment counter for ¥s paragraphs
+                                            counter++;
+                                            const content = subParagraph.trim().substring(2);
+                                            return (
+                                                <div key={`${index}-${subIndex}`} style={{ marginBottom: '0.16em' }}>
+                                                    <span style={{
+                                                        float: 'left',
+                                                        width: '1.5em'
+                                                    }}>{counter}.</span>
+                                                    <div style={{
+                                                        display: 'block',
+                                                        marginLeft: '1.5em'
+                                                    }} dangerouslySetInnerHTML={{ __html: formatText(content) }} />
+                                                </div>
+                                            );
+                                        } else if (subParagraph.trim().startsWith('¥fHinweis:¥0f ¥s')) {
+                                            // Handle single hint with ¥s
+                                            const content = subParagraph.trim().replace('¥s', '');
+                                            return (
+                                                <p
+                                                    key={`${index}-${subIndex}`}
+                                                    style={{
+                                                        marginBottom: '0.75em',
+                                                        textAlign: 'left'
+                                                    }}
+                                                    dangerouslySetInnerHTML={{ __html: formatText(content) }}
+                                                />
+                                            );
+                                        }
+                                        return (
+                                            <p
+                                                key={`${index}-${subIndex}`}
+                                                style={{
+                                                    marginBottom: '0.75em',
+                                                    textAlign: 'left'
+                                                }}
+                                                dangerouslySetInnerHTML={{ __html: formatText(subParagraph.trim()) }}
+                                            />
+                                        );
+                                    }
+                                    return null;
+                                }).filter(Boolean);
+                            })}
+                        </div>
+                    </div>
+                )}
+
+
+                {/* Secondary Liturgy Section */}
+                {entry.sec_liturgy && (
+                    <div style={{ marginBottom: '1.25em' }}>
+                        <div style={{ fontSize: '1em' }} className="text-gray-900 dark:text-gray-100">
+                            {formatText(entry.sec_liturgy).split('¥p').map((paragraph, index) => {
+                                const [marker, ...contentParts] = paragraph.split('¥t');
+                                const content = contentParts.join('¥t');
+                                const lines = content.split('¥l');
+
+                                return (
+                                    <div key={index} style={{
+                                        marginBottom: '0.2em',
+                                        position: 'relative'
+                                    }}>
+                                        <span style={{
+                                            position: 'absolute',
+                                            left: 0
+                                        }} dangerouslySetInnerHTML={{ __html: marker }} />
+
+                                        <div style={{
+                                            paddingLeft: hangingIndent,
+                                            margin: 0,
+                                            fontFamily: 'inherit'
+                                        }}>
+                                            {lines.map((line, lineIndex) => {
+                                                const commonLineStyle = {
+                                                    marginTop: lineIndex > 0 ? '0em' : 0
+                                                };
+
+                                                const parts = line.split('¥t');
+
+                                                if (parts.length >= 3) {
+                                                    const [occasion, reference, pageNum, ...rest] = parts;
+                                                    return (
+                                                        <div key={lineIndex} style={{
+                                                            ...commonLineStyle,
+                                                            display: 'grid',
+                                                            gridTemplateColumns: 'minmax(2em, auto) minmax(0, 1fr) auto',
+                                                            gap: '0.25em',
+                                                            maxWidth: '25em'
+                                                        }}>
+                                                            <span style={{
+                                                                textAlign: 'left',
+                                                                minWidth: 0,
+                                                                overflow: 'hidden',
+                                                                textOverflow: 'ellipsis',
+                                                                whiteSpace: 'nowrap'
+                                                            }} dangerouslySetInnerHTML={{ __html: occasion }} />
+                                                            <TooltipProvider>
+                                                                <Tooltip>
+                                                                    <TooltipTrigger asChild>
+                                                                        <span
+                                                                            style={{
+                                                                                textAlign: 'left',
+                                                                                minWidth: 0,
+                                                                                overflow: 'hidden',
+                                                                                textOverflow: 'ellipsis',
+                                                                                whiteSpace: 'nowrap',
+                                                                                cursor: 'help',
+                                                                                maxWidth: '100%',
+                                                                                display: 'block'
+                                                                            }}
+                                                                            dangerouslySetInnerHTML={{ __html: reference }}
+                                                                        />
+                                                                    </TooltipTrigger>
+                                                                    <TooltipContent>
+                                                                        <p dangerouslySetInnerHTML={{ __html: reference.replace(/<[^>]*>/g, '') }} />
+                                                                    </TooltipContent>
+                                                                </Tooltip>
+                                                            </TooltipProvider>
+                                                            <span style={{
+                                                                textAlign: 'right',
+                                                                whiteSpace: 'nowrap'
+                                                            }} dangerouslySetInnerHTML={{ __html: pageNum + rest.join('') }} />
+                                                        </div>
+                                                    );
+                                                } else if (parts.length === 2 && parts[0].includes('\u00A0')) {
+                                                    const [firstPart, pageNum] = parts;
+                                                    const firstSpaceIndex = firstPart.indexOf('\u00A0');
+                                                    const occasion = firstPart.substring(0, firstSpaceIndex);
+                                                    const reference = firstPart.substring(firstSpaceIndex + 1);
+
+                                                    return (
+                                                        <div key={lineIndex} style={{
+                                                            ...commonLineStyle,
+                                                            display: 'grid',
+                                                            gridTemplateColumns: 'minmax(2em, auto) minmax(0, 1fr) auto',
+                                                            gap: '0.25em',
+                                                            maxWidth: '25em'
+                                                        }}>
+                                                            <span style={{
+                                                                textAlign: 'left',
+                                                                minWidth: 0,
+                                                                overflow: 'hidden',
+                                                                textOverflow: 'ellipsis',
+                                                                whiteSpace: 'nowrap'
+                                                            }} dangerouslySetInnerHTML={{ __html: occasion }} />
+                                                            <TooltipProvider>
+                                                                <Tooltip>
+                                                                    <TooltipTrigger asChild>
+                                                                        <span
+                                                                            style={{
+                                                                                textAlign: 'left',
+                                                                                minWidth: 0,
+                                                                                overflow: 'hidden',
+                                                                                textOverflow: 'ellipsis',
+                                                                                whiteSpace: 'nowrap',
+                                                                                cursor: 'help',
+                                                                                maxWidth: '100%',
+                                                                                display: 'block'
+                                                                            }}
+                                                                            dangerouslySetInnerHTML={{ __html: reference }}
+                                                                        />
+                                                                    </TooltipTrigger>
+                                                                    <TooltipContent>
+                                                                        <p dangerouslySetInnerHTML={{ __html: reference.replace(/<[^>]*>/g, '') }} />
+                                                                    </TooltipContent>
+                                                                </Tooltip>
+                                                            </TooltipProvider>
+                                                            <span style={{
+                                                                textAlign: 'right',
+                                                                whiteSpace: 'nowrap'
+                                                            }} dangerouslySetInnerHTML={{ __html: pageNum }} />
+                                                        </div>
+                                                    );
+                                                } else {
+                                                    return (
+                                                        <div key={lineIndex} style={{
+                                                            ...commonLineStyle,
+                                                            whiteSpace: 'pre-line'
+                                                        }} dangerouslySetInnerHTML={{ __html: line }} />
+                                                    );
+                                                }
+                                            })}
+                                        </div>
+                                    </div>
+                                );
+                            })}
+                        </div>
+                    </div>
+                )}
+
                 {/* Deceased Section */}
                 {(entry.deceased || entry.deceased_more) && (
                     <div style={{ marginBottom: '1.25em' }}>
@@ -405,19 +626,42 @@ const DayEntry = ({
                 <div className="px-4 mt-0 mb-4">
                     <div style={{ fontSize: '0.93em', marginTop: '0.75em' }} className="text-gray-900 dark:text-gray-100">
                         {entry.post_notes.split('¥h').map((paragraph, index) => {
-                            const endsWithJ = paragraph.endsWith('¥j');
-                            const cleanParagraph = endsWithJ ? paragraph.slice(0, -2) : paragraph;
+                            // Check if paragraph contains ¥j
+                            const paragraphs = paragraph.split('¥j');
 
-                            return (
-                                <p
-                                    key={index}
-                                    style={{
-                                        marginBottom: '0.75em',
-                                        textAlign: endsWithJ ? 'center' : 'left'
-                                    }}
-                                    dangerouslySetInnerHTML={{ __html: formatText(cleanParagraph) }}
-                                />
-                            );
+                            return paragraphs.map((subParagraph, subIndex) => {
+                                const isLastInSequence = subIndex === paragraphs.length - 1;
+
+                                if (!isLastInSequence) {
+                                    // This is a ¥j paragraph that should be centered
+                                    return (
+                                        <p
+                                            key={`${index}-${subIndex}`}
+                                            style={{
+                                                marginBottom: '0.75em',
+                                                textAlign: 'center',
+                                                fontSize: '1em'
+                                            }}
+                                            dangerouslySetInnerHTML={{ __html: formatText(subParagraph.trim()) }}
+                                        />
+                                    );
+                                }
+
+                                // Handle normal paragraphs or the remainder after ¥j
+                                if (subParagraph.trim()) {
+                                    return (
+                                        <p
+                                            key={`${index}-${subIndex}`}
+                                            style={{
+                                                marginBottom: '0.75em',
+                                                textAlign: 'left'
+                                            }}
+                                            dangerouslySetInnerHTML={{ __html: formatText(subParagraph.trim()) }}
+                                        />
+                                    );
+                                }
+                                return null;
+                            }).filter(Boolean);
                         })}
                     </div>
                 </div>
@@ -772,6 +1016,27 @@ export default function LiturgicalCalendar() {
             return formatText(processedText);
         }).join('\n');
     };
+    const parseDateString = (dateStr) => {
+        const match = dateStr.match(/^(\d{1,2})[.-](\d{1,2})[.-](\d{2}|\d{4})$/);
+        if (!match) return null;
+
+        let [, day, month, year] = match;
+        day = parseInt(day, 10);
+        month = parseInt(month, 10) - 1;
+        year = parseInt(year, 10);
+
+        if (year < 100) {
+            year += year < 50 ? 2000 : 1900;
+        }
+
+        const date = new Date(year, month, day);
+
+        if (date.getFullYear() !== year || date.getMonth() !== month || date.getDate() !== day) {
+            return null;
+        }
+
+        return date;
+    };
 
     const DatePicker = () => {
         const [viewDate, setViewDate] = useState(new Date(selectedDate));
@@ -785,24 +1050,27 @@ export default function LiturgicalCalendar() {
         });
 
         return (
-            <div className="max-w-4xl mx-auto p-2 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100" style={datePickerStyle}>
+            <div className="absolute left-0 right-0 mt-1 p-2 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 border dark:border-gray-700 rounded shadow-lg" style={datePickerStyle}>
                 <div className="flex justify-between mb-2">
-                    <button onClick={() => setViewDate(date => {
-                        const newDate = new Date(date);
-                        newDate.setMonth(date.getMonth() - 1);
-                        return newDate;
-                    })}
+                    <button
+                        onClick={() => setViewDate(date => {
+                            const newDate = new Date(date);
+                            newDate.setMonth(date.getMonth() - 1);
+                            return newDate;
+                        })}
                         className="px-2"
                     >←</button>
                     <div>{months[viewDate.getMonth()]} {viewDate.getFullYear()}</div>
-                    <button onClick={() => setViewDate(date => {
-                        const newDate = new Date(date);
-                        newDate.setMonth(date.getMonth() + 1);
-                        return newDate;
-                    })}
+                    <button
+                        onClick={() => setViewDate(date => {
+                            const newDate = new Date(date);
+                            newDate.setMonth(date.getMonth() + 1);
+                            return newDate;
+                        })}
                         className="px-2"
                     >→</button>
                 </div>
+
                 <div className="grid grid-cols-7 gap-0.5 text-center">
                     {['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So'].map(day => (
                         <div key={day} className="font-bold py-1">{day}</div>
@@ -815,8 +1083,15 @@ export default function LiturgicalCalendar() {
                         return (
                             <button
                                 key={index}
-                                onClick={() => day && handleDateSelect(new Date(viewDate.getFullYear(), viewDate.getMonth(), day))}
-                                className={`py-1 ${day ? 'hover:bg-gray-100' : ''} ${isSelected ? 'bg-blue-100' : ''}`}
+                                onClick={() => {
+                                    if (day) {
+                                        const newDate = new Date(viewDate.getFullYear(), viewDate.getMonth(), day);
+                                        handleDateSelect(newDate);
+                                        setShowDatePicker(false);
+                                    }
+                                }}
+                                className={`py-1 ${day ? 'hover:bg-gray-100 dark:hover:bg-gray-700' : ''} 
+                                    ${isSelected ? 'bg-blue-100 dark:bg-blue-900' : ''}`}
                                 disabled={!day}
                             >
                                 {day}
@@ -1117,6 +1392,13 @@ export default function LiturgicalCalendar() {
         return () => window.removeEventListener('resize', checkScreenWidth);
     }, []);
 
+    const [inputValue, setInputValue] = useState(formatDate(selectedDate, true));
+
+    // Aktualisiere inputValue wenn sich selectedDate ändert
+    useEffect(() => {
+        setInputValue(formatDate(selectedDate, true));
+    }, [selectedDate, formatDate]);
+
     return (
         <div className="min-h-screen bg-white dark:bg-gray-900">
             <div
@@ -1147,23 +1429,55 @@ export default function LiturgicalCalendar() {
                         </button>
 
                         <div className="relative">
-                            <button
-                                onClick={() => setShowDatePicker(!showDatePicker)}
-                                className="flex items-center gap-2 px-4 py-2 border dark:border-gray-700 rounded hover:bg-gray-50 dark:hover:bg-gray-800"
+                            <input
+                                type="text"
+                                value={inputValue}
+                                onChange={(e) => {
+                                    setInputValue(e.target.value);
+                                    if (e.target.value.length >= 6) {
+                                        const date = parseDateString(e.target.value);
+                                        if (date) {
+                                            handleDateSelect(date);
+                                        }
+                                    }
+                                }}
+                                onClick={(e) => {
+                                    e.target.select();  // Markiert den gesamten Text bei Klick
+                                    setShowDatePicker(!showDatePicker);
+                                }}
+                                onKeyDown={(e) => {
+                                    if (e.key === 'Enter' && e.target.value.length >= 6) {
+                                        const date = parseDateString(e.target.value);
+                                        if (date) {
+                                            handleDateSelect(date);
+                                            setShowDatePicker(false);
+                                        }
+                                    } else if (e.key === 'Escape') {
+                                        setShowDatePicker(false);
+                                        setInputValue(formatDate(selectedDate, true));
+                                    }
+                                }}
+                                onBlur={() => {
+                                    const date = parseDateString(inputValue);
+                                    if (!date) {
+                                        setInputValue(formatDate(selectedDate, true));
+                                    }
+                                }}
+                                className="px-4 py-2 border dark:border-gray-700 rounded hover:bg-gray-50 dark:hover:bg-gray-800 
+               cursor-pointer bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100"
+                                placeholder="TT.MM.JJ"
+                            />
+                            <svg
+                                className="w-4 h-4 absolute right-3 top-1/2 transform -translate-y-1/2 pointer-events-none"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
                             >
-                                <span>{formatDate(selectedDate, true)}</span>
-                                <svg
-                                    className="w-4 h-4"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    viewBox="0 0 24 24"
-                                >
-                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
-                                    <line x1="16" y1="2" x2="16" y2="6" />
-                                    <line x1="8" y1="2" x2="8" y2="6" />
-                                    <line x1="3" y1="10" x2="21" y2="10" />
-                                </svg>
-                            </button>
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                                <line x1="16" y1="2" x2="16" y2="6" />
+                                <line x1="8" y1="2" x2="8" y2="6" />
+                                <line x1="3" y1="10" x2="21" y2="10" />
+                            </svg>
                             {showDatePicker && <DatePicker />}
                         </div>
 

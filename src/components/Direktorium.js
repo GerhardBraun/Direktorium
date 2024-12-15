@@ -2,6 +2,7 @@ import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { Menu } from 'lucide-react';
 import React from 'react';
 import { liturgicalData } from './liturgicalData';
+import { deceasedData } from './deceasedData';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from './ui/tooltip';
 
 const formatText = (text) => {
@@ -670,6 +671,105 @@ const DayEntry = ({
     );
 };
 
+const DeceasedEntry = ({
+    entry,
+    formatDate,
+    formatText,
+    selectedDate,
+    months,
+    entriesRef
+}) => {
+    const deceasedIndent = '2.7em'; // Variable für den Einzug
+    const day = entry.date.getDate();
+    const month = months[entry.date.getMonth()];
+    const year = entry.date.getFullYear();
+    const formattedDate = `${day}. ${month} ${year}`;
+
+    // Get deceased entries for this day and month from deceasedData
+    const deceasedEntries = deceasedData[entry.date.getMonth() + 1][entry.date.getDate()];
+
+    const renderDeceasedEntry = (deceased) => {
+        return (
+            <div className="mb-4 relative">
+                {/* Erste Zeile mit Jahr und Name */}
+                <div style={{ marginBottom: '0.16em', position: 'relative' }}>
+                    <span style={{
+                        position: 'absolute',
+                        left: 0,
+                    }}>
+                        {deceased.year}
+                    </span>
+                    <div style={{
+                        paddingLeft: deceasedIndent,
+                        marginBottom: 0
+                    }}>
+                        <span dangerouslySetInnerHTML={{ __html: formatText(deceased.name) }} />
+                        {deceased.age && (
+                            <span> ({deceased.age}&nbsp;Jahre)</span>
+                        )}
+                    </div>
+                </div>
+
+                {/* Zweite Zeile mit Geburtsinfo */}
+                {deceased.birth && (
+                    <div style={{
+                        marginBottom: '0.16em',
+                        paddingLeft: deceasedIndent,
+                        position: 'relative'
+                    }}>
+                        <span style={{
+                            position: 'absolute',
+                            left: deceasedIndent
+                        }}>*</span>
+                        <div style={{
+                            paddingLeft: '0.7em',
+                            marginBottom: 0
+                        }} dangerouslySetInnerHTML={{ __html: formatText(deceased.birth) }} />
+                    </div>
+                )}
+
+                {/* Dritte Zeile mit Grabinfo */}
+                {deceased.grave && (
+                    <div style={{
+                        paddingLeft: deceasedIndent
+                    }}>
+                        Grab: <span dangerouslySetInnerHTML={{ __html: formatText(deceased.grave) }} />
+                    </div>
+                )}
+            </div>
+        );
+    };
+
+    return (
+        <div
+            key={entry.date.toISOString()}
+            ref={el => entriesRef.current[formatDate(entry.date)] = el}
+        >
+            <div className={`p-4 border dark:border-gray-700 rounded transition-colors ${entry.date.getDate() === selectedDate.getDate() &&
+                entry.date.getMonth() === selectedDate.getMonth()
+                ? 'bg-orange-50 dark:bg-orange-900/30'
+                : 'bg-white dark:bg-gray-900'
+                }`}>
+                {/* Date header */}
+                <div className="font-semibold mb-4 text-gray-900 dark:text-gray-100">
+                    {formattedDate}
+                </div>
+
+                {/* Deceased entries */}
+                {deceasedEntries && (
+                    <div className="text-gray-900 dark:text-gray-100" style={{ fontSize: '0.93em' }}>
+                        {deceasedEntries.map((deceased, index) => (
+                            <div key={index}>
+                                {renderDeceasedEntry(deceased)}
+                            </div>
+                        ))}
+                    </div>
+                )}
+            </div>
+        </div>
+    );
+};
+
 const ScrollableContainer = ({ children, containerRef }) => {
     const [containersReady, setContainersReady] = useState(false);
 
@@ -708,11 +808,12 @@ export default function LiturgicalCalendar() {
     });
     const [expandedDeceased, setExpandedDeceased] = useState({});
     const [deceasedMode, setDeceasedMode] = useState('recent');
+    const [viewMode, setViewMode] = useState('directory'); // 'directory' or 'deceased'
     const [baseFontSize, setBaseFontSize] = useState(14); // Standard-Schriftgröße in pt
     const [renderKey, setRenderKey] = useState(0);
     const [isReady, setIsReady] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const sections = ['fontSize', 'theme', 'deceased'];
+    const sections = ['fontSize', 'theme', 'deceased', 'view'];
     const [activeSection, setActiveSection] = useState('fontSize');
     const [isNarrowScreen, setIsNarrowScreen] = useState(false);
     const hangingIndent = '3.2em'; // Variable für den Einzug
@@ -1016,6 +1117,7 @@ export default function LiturgicalCalendar() {
             return formatText(processedText);
         }).join('\n');
     };
+
     const parseDateString = (dateStr) => {
         const match = dateStr.match(/^(\d{1,2})[.-](\d{1,2})[.-](\d{2}|\d{4})$/);
         if (!match) return null;
@@ -1106,6 +1208,7 @@ export default function LiturgicalCalendar() {
     const ThemeMenu = () => {
         const [tempFontSize, setTempFontSize] = useState(baseFontSize);
         const menuRef = useRef(null);
+        const sections = ['fontSize', 'theme', 'deceased', 'view'];
 
         const toggleMenu = () => {
             setIsMenuOpen(prev => !prev);
@@ -1330,6 +1433,40 @@ export default function LiturgicalCalendar() {
                                 <p>voll: alle Verstorbene seit 1920</p>
                             </div>
                         </div>
+
+                        <div className="border-t dark:border-gray-700"></div>
+
+                        {/* View Selection Section */}
+                        <div
+                            className={`px-3 py-2 cursor-pointer ${activeSection === 'view' ? 'bg-gray-50 dark:bg-gray-700' : ''}`}
+                            onClick={() => handleSectionChange(sections.indexOf('view'))}
+                        >
+                            <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
+                                Verzeichnis <span className="text-xs text-gray-400 ml-2">(←/→)</span>
+                            </div>
+                            <div className="flex gap-1">
+                                <button
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        e.stopPropagation();
+                                        setViewMode('directory');
+                                    }}
+                                    className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${viewMode === 'directory' ? 'bg-orange-100 dark:bg-orange-900' : ''}`}
+                                >
+                                    Direktorium
+                                </button>
+                                <button
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        e.stopPropagation();
+                                        setViewMode('deceased');
+                                    }}
+                                    className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${viewMode === 'deceased' ? 'bg-orange-100 dark:bg-orange-900' : ''}`}
+                                >
+                                    Totenverzeichnis
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 )}
             </div>
@@ -1509,21 +1646,33 @@ export default function LiturgicalCalendar() {
                                 }}
                             >
                                 {visibleEntries.before.map(entry => (
-                                    <DayEntry
-                                        key={entry.date.toISOString()}
-                                        entry={entry}
-                                        formatDate={formatDate}
-                                        formatText={formatText}
-                                        formatNotes={formatNotes}
-                                        selectedDate={selectedDate}
-                                        months={months}
-                                        hangingIndent={hangingIndent}
-                                        deceasedMode={deceasedMode}
-                                        deceasedSizeRatio={deceasedSizeRatio}
-                                        expandedDeceased={expandedDeceased}
-                                        setExpandedDeceased={setExpandedDeceased}
-                                        entriesRef={entriesRef}
-                                    />
+                                    viewMode === 'directory' ? (
+                                        <DayEntry
+                                            key={entry.date.toISOString()}
+                                            entry={entry}
+                                            formatDate={formatDate}
+                                            formatText={formatText}
+                                            formatNotes={formatNotes}
+                                            selectedDate={selectedDate}
+                                            months={months}
+                                            hangingIndent={hangingIndent}
+                                            deceasedMode={deceasedMode}
+                                            deceasedSizeRatio={deceasedSizeRatio}
+                                            expandedDeceased={expandedDeceased}
+                                            setExpandedDeceased={setExpandedDeceased}
+                                            entriesRef={entriesRef}
+                                        />
+                                    ) : (
+                                        <DeceasedEntry
+                                            key={entry.date.toISOString()}
+                                            entry={entry}
+                                            formatDate={formatDate}
+                                            formatText={formatText}  // Added this prop
+                                            selectedDate={selectedDate}
+                                            months={months}
+                                            entriesRef={entriesRef}
+                                        />
+                                    )
                                 ))}
                             </div>
                         )}
@@ -1537,21 +1686,33 @@ export default function LiturgicalCalendar() {
                                 }}
                             >
                                 {visibleEntries.current.map(entry => (
-                                    <DayEntry
-                                        key={entry.date.toISOString()}
-                                        entry={entry}
-                                        formatDate={formatDate}
-                                        formatText={formatText}
-                                        formatNotes={formatNotes}
-                                        selectedDate={selectedDate}
-                                        months={months}
-                                        hangingIndent={hangingIndent}
-                                        deceasedMode={deceasedMode}
-                                        deceasedSizeRatio={deceasedSizeRatio}
-                                        expandedDeceased={expandedDeceased}
-                                        setExpandedDeceased={setExpandedDeceased}
-                                        entriesRef={entriesRef}
-                                    />
+                                    viewMode === 'directory' ? (
+                                        <DayEntry
+                                            key={entry.date.toISOString()}
+                                            entry={entry}
+                                            formatDate={formatDate}
+                                            formatText={formatText}
+                                            formatNotes={formatNotes}
+                                            selectedDate={selectedDate}
+                                            months={months}
+                                            hangingIndent={hangingIndent}
+                                            deceasedMode={deceasedMode}
+                                            deceasedSizeRatio={deceasedSizeRatio}
+                                            expandedDeceased={expandedDeceased}
+                                            setExpandedDeceased={setExpandedDeceased}
+                                            entriesRef={entriesRef}
+                                        />
+                                    ) : (
+                                        <DeceasedEntry
+                                            key={entry.date.toISOString()}
+                                            entry={entry}
+                                            formatDate={formatDate}
+                                            formatText={formatText}  // Added this prop
+                                            selectedDate={selectedDate}
+                                            months={months}
+                                            entriesRef={entriesRef}
+                                        />
+                                    )
                                 ))}
                             </div>
                         )}
