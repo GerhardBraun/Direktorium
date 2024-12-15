@@ -63,7 +63,7 @@ export const deceasedData =  {
         "birthdate": "2219-01-14",
         "name": "Josef°Köhler°(Leitmeritz/Fulda), Pfr.i.R., Neuhof",
         "birth": "14.°Januar°1919°in°Philippsgrund (Filipka,°CZ¥-463°31)",
-        "grave": "Friedhof°Neuhof^-Opperz",
+        "grave": "Friedhof°Neuhof¥-Opperz",
         "age": 80
       },
       {
@@ -417,7 +417,7 @@ export const deceasedData =  {
         "birthdate": "2199-09-19",
         "name": "Gottfried°Köhler, Pfr.i.R., GR, Diedorf",
         "birth": "19.°September°1899°in°Kreuzebra¥-Steinhagen (D¥-37351°Dingelstädt)",
-        "grave": "Friedhof°Diedorf°(D^-36466°Dermbach)",
+        "grave": "Friedhof°Diedorf°(D¥-36466°Dermbach)",
         "age": 80
       }
     ],
@@ -517,7 +517,7 @@ export const deceasedData =  {
         "birthdate": "2217-07-30",
         "name": "Klemens°Zelazny°(Schneidemühl/Fulda), Pfr.i.R., Konsistorialrat, Fulda",
         "birth": "30.°Juli°1917°in°Konitz (Chojnice,°PL¥-89¥-6..)",
-        "grave": "Friedhof°Petersberg^-Steinhaus",
+        "grave": "Friedhof°Petersberg¥-Steinhaus",
         "age": 85
       }
     ],
@@ -629,7 +629,7 @@ export const deceasedData =  {
         "birthdate": "2225-06-19",
         "name": "Wilhelm°Eberl, Pfr.i.R., OStR°i.K.i.R., Kassel",
         "birth": "19.°Juni°1925°in°Hanau",
-        "grave": "Friedhof°Karben^-Rendel°(D^-61184)",
+        "grave": "Friedhof°Karben¥-Rendel°(D¥-61184)",
         "age": 76
       },
       {
@@ -645,7 +645,7 @@ export const deceasedData =  {
         "birthdate": "2228-08-20",
         "name": "Bernhard°Möller, Pfr.i.R., GR, Hünfeld",
         "birth": "20.°August°1928°in°Borsch",
-        "grave": "Friedhof°Eiterfeld^-Wölf",
+        "grave": "Friedhof°Eiterfeld¥-Wölf",
         "age": 92
       }
     ],
@@ -779,7 +779,7 @@ export const deceasedData =  {
         "birthdate": "2271-01-27",
         "name": "Godwin°Sixtus°Ekuojo°Onuh°(Idah/Nigeria), Fulda",
         "birth": "27.°Januar°1971°in°Ogugu/Nigeria (NGR¥-270109)",
-        "grave": "in°^<Nigeria",
+        "grave": "in°Nigeria",
         "age": 31
       },
       {
@@ -787,7 +787,7 @@ export const deceasedData =  {
         "birthdate": "2221-12-09",
         "name": "Alois°Bilo, Pfr.i.R., GR, Fulda",
         "birth": "9.°Dezember°1921°in°Braubach/Rhein (D¥-56338)",
-        "grave": "Friedhof°Biebergemünd^-Kassel",
+        "grave": "Friedhof°Biebergemünd¥-Kassel",
         "age": 82
       },
       {
@@ -803,7 +803,7 @@ export const deceasedData =  {
         "birthdate": "2220-05-23",
         "name": "Norbert°Waclawek°(Breslau/Fulda), Pfr.i.R., Msgr., Fulda",
         "birth": "23.°Mai°1920°in°Beuthen (Bytom,°PL¥-41¥-9..)",
-        "grave": "Friedhof°Freigericht^-Altenmittlau",
+        "grave": "Friedhof°Freigericht¥-Altenmittlau",
         "age": 89
       }
     ],
@@ -975,7 +975,7 @@ export const deceasedData =  {
         "birthdate": "2205-09-05",
         "name": "Friedrich°Pasquay°(Breslau), Pfr.i.R., Oberprechtal",
         "birth": "5.°September°1905°in°Neustadt (Prudnik,°PL¥-48¥-200)",
-        "grave": "Friedhof°Oberprechtal°(D^-79215°Elzach)",
+        "grave": "Friedhof°Oberprechtal°(D¥-79215°Elzach)",
         "age": 66
       },
       {
@@ -983,7 +983,7 @@ export const deceasedData =  {
         "birthdate": "2229-04-27",
         "name": "Jan°Kapala°(Łódź/Fulda), Pfr.i.R., Myślenice/Polen",
         "birth": "27.°April°1929°in°Fałkowice (PL¥-46¥-034)",
-        "grave": "Friedhof°Gdów°(PL^-32^-420)",
+        "grave": "Friedhof°Gdów°(PL¥-32¥-420)",
         "age": 67
       },
       {
@@ -991,7 +991,7 @@ export const deceasedData =  {
         "birthdate": "2230-06-28",
         "name": "Anton°Schütz, Prälat, Ehrendomkapitular, Dietingen¥-Gösslingen",
         "birth": "28.°Juni°1930°in°Lütter",
-        "grave": "Friedhof°Eichenzell^-Lütter",
+        "grave": "Friedhof°Eichenzell¥-Lütter",
         "age": 81
       },
       {
@@ -1083,7 +1083,7 @@ export const deceasedData =  {
         "birthdate": "2209-02-22",
         "name": "Gregor°Garske°(Schneidemühl), Pfr.i.R., Konsistorialrat, Markt°Wallerstein",
         "birth": "22.°Februar°1909°in°Hochwalde (Wysoka,°PL¥-66¥-433)",
-        "grave": "Friedhof°Wallerstein°(D^-86757)",
+        "grave": "Friedhof°Wallerstein°(D¥-86757)",
         "age": 78
       }
     ],
@@ -1263,7 +1263,7 @@ export const deceasedData =  {
         "birthdate": "2204-03-07",
         "name": "DDr.°Joseph°Gottschalk°(Breslau), Dr.°phil., Dr.°theol.°h.c., StR°i.R., Msgr., GR, Seeheim¥-Malchen",
         "birth": "7.°März°1904°in°Militsch (Milicz,°PL¥-56¥-300)",
-        "grave": "Friedhof°Fulda^-Neuenberg",
+        "grave": "Friedhof°Fulda¥-Neuenberg",
         "age": 91
       },
       {
@@ -1383,7 +1383,7 @@ export const deceasedData =  {
         "birthdate": "2200-05-21",
         "name": "Reinhold°Barth°(Königgrätz), Pfr.i.R., Schönbrunn",
         "birth": "21.°Mai°1900°in°Altenbuch (Staré°Buky,°CZ¥-542°43)",
-        "grave": "Friedhof°Großberghofen°(D^-85253°Erdweg)",
+        "grave": "Friedhof°Großberghofen°(D¥-85253°Erdweg)",
         "age": 75
       },
       {
@@ -1391,7 +1391,7 @@ export const deceasedData =  {
         "birthdate": "2227-05-08",
         "name": "Hubert°Wiederhold, Pfr.i.R., GR, Frankfurt¥-Bornheim",
         "birth": "8.°Mai°1927°in°Naumburg",
-        "grave": "Friedhof°Frankfurt^-Enkheim",
+        "grave": "Friedhof°Frankfurt¥-Enkheim",
         "age": 76
       },
       {
@@ -1433,7 +1433,7 @@ export const deceasedData =  {
         "birthdate": "2214-07-13",
         "name": "Johannes°Goedeke°(Danzig/Fulda), Pfr.i.R., Msgr., Bad°Soden¥-Salmünster",
         "birth": "13.°Juli°1914°in°Kladau°bei°Danzig (Kłodawa,°PL¥-83¥-035°Trąbki°Wielkie)",
-        "grave": "Friedhof°Bad°Soden^-Salmünster",
+        "grave": "Friedhof°Bad°Soden¥-Salmünster",
         "age": 97
       }
     ],
@@ -1897,7 +1897,7 @@ export const deceasedData =  {
         "birthdate": "2249-10-23",
         "name": "P.°Mate°Dragičevič°OFM, Mostar",
         "birth": "23.°Oktober°1949°in°Miletina (BIH¥-88320°Ljubuški)",
-        "grave": "Neuer°Friedhof°Humac°(BIH^-88320°Ljubuški)",
+        "grave": "Neuer°Friedhof°Humac°(BIH¥-88320°Ljubuški)",
         "age": 69
       }
     ],
@@ -1965,7 +1965,7 @@ export const deceasedData =  {
         "birthdate": "2245-02-06",
         "name": "Peter°Hauser, Dompfr.i.R., Msgr., Ehrendomkapitular, Fulda",
         "birth": "6.°Februar°1945°in°Burghaun",
-        "grave": "Friedhof°Fulda^-Lehnerz",
+        "grave": "Friedhof°Fulda¥-Lehnerz",
         "age": 64
       },
       {
@@ -1989,7 +1989,7 @@ export const deceasedData =  {
         "birthdate": "2264-05-11",
         "name": "P.°Mladen°Sesar°OFM, Široki°Brijeg/Bosnien°und°Herzegowina",
         "birth": "11.°Mai°1964°in°Rujan (BIH¥-88340°Grude)",
-        "grave": "Friedhof°Mekovac°(BIH^-88220°Široki Brijeg)",
+        "grave": "Friedhof°Mekovac°(BIH¥-88220°Široki Brijeg)",
         "age": 56
       },
       {
@@ -2119,7 +2119,7 @@ export const deceasedData =  {
         "birthdate": "2261-11-19",
         "name": "Dr.°Gregor°Predel°(Freiburg), Prof., Dr.°theol.°habil., Freiburg°i.°Br.",
         "birth": "19.°November°1961°in°Münster",
-        "grave": "Friedhof Freiburg^-Haslach",
+        "grave": "Friedhof Freiburg¥-Haslach",
         "age": 62
       }
     ],
@@ -2255,7 +2255,7 @@ export const deceasedData =  {
         "birthdate": "2230-11-24",
         "name": "P.°Siegbert°Aloys°Kleene°OP, GR, Bad°Wörishofen",
         "birth": "24.°November°1930°in°Warnstedt (D¥-49692°Cappeln/Oldenburg)",
-        "grave": "Friedhof°Hamburg^-Ohlsdorf",
+        "grave": "Friedhof°Hamburg¥-Ohlsdorf",
         "age": 82
       },
       {
@@ -2373,7 +2373,7 @@ export const deceasedData =  {
         "birthdate": "2241-01-03",
         "name": "Erwin°Krack, Pfr.i.R., GR, Biebergemünd¥-Kassel",
         "birth": "3.°Januar°1941°in°Kassel/Krs.°Gelnhausen",
-        "grave": "Friedhof°Biebergemünd^-Kassel",
+        "grave": "Friedhof°Biebergemünd¥-Kassel",
         "age": 78
       }
     ],
@@ -2401,7 +2401,7 @@ export const deceasedData =  {
         "birthdate": "2214-10-08",
         "name": "Kurt°Schmegner°(Jassy/Fulda), Pfr.i.R., GR, Sinzing¥-Viehhausen",
         "birth": "8.°Oktober°1914°in°Kimpolung/Bukowina (Câmpulung°Moldovenesc,°RO¥-725100)",
-        "grave": "Friedhof°Viehhausen°(D^-93161)",
+        "grave": "Friedhof°Viehhausen°(D¥-93161)",
         "age": 89
       }
     ],
@@ -2495,7 +2495,7 @@ export const deceasedData =  {
         "birthdate": "2209-10-06",
         "name": "Josef°Kettner°(Leitmeritz), Pfr.i.R., GR, Fulda",
         "birth": "6.°Oktober°1909°in°Barzdorf°am°Roll (Pertoltice°pod°Ralskem,°CZ¥-471°24)",
-        "grave": "Friedhof°Hochstadt/Main°(D^-96272)",
+        "grave": "Friedhof°Hochstadt/Main°(D¥-96272)",
         "age": 86
       },
       {
@@ -2511,7 +2511,7 @@ export const deceasedData =  {
         "birthdate": "2232-02-07",
         "name": "Anton°Scheuß°(Köln), Pfr.i.R., Fulda",
         "birth": "7.°Februar°1932°in°Monheim/Rhein (D¥-40789)",
-        "grave": "Friedhof°Düsseldorf^-Eller",
+        "grave": "Friedhof°Düsseldorf¥-Eller",
         "age": 86
       },
       {
@@ -2789,7 +2789,7 @@ export const deceasedData =  {
         "birthdate": "2209-04-29",
         "name": "Dr.°Josef°Kirchberg, Pfr.i.R., Msgr., GR, Kassel",
         "birth": "29.°April°1909°in°Dingelstädt",
-        "grave": "Friedhof°Kassel^-Wilhelmshöhe",
+        "grave": "Friedhof°Kassel¥-Wilhelmshöhe",
         "age": 81
       },
       {
@@ -2797,7 +2797,7 @@ export const deceasedData =  {
         "birthdate": "2221-08-14",
         "name": "P.°Altfried°Gabor°SDB, Kaplan°in°Kassel, St.°Andreas",
         "birth": "14.°August°1921°in°Mechnitz/Krs.°Cosel (Mechnica,°PL¥-47¥-208)",
-        "grave": "Friedhof°Kassel^-Bettenhausen",
+        "grave": "Friedhof°Kassel¥-Bettenhausen",
         "age": 77
       },
       {
@@ -2823,7 +2823,7 @@ export const deceasedData =  {
         "birthdate": "2231-10-29",
         "name": "Dr.°Aloysius°Winter°(Hildesheim), Prof.°em., Dr.°theol., lic.°phil., Prälat, Perl/Saarland",
         "birth": "29.°Oktober°1931°in°Besch/Krs.°Merzig (D¥-66706°Perl)",
-        "grave": "Friedhof°Perl^-Besch",
+        "grave": "Friedhof°Perl¥-Besch",
         "age": 79
       }
     ],
@@ -3009,7 +3009,7 @@ export const deceasedData =  {
         "birthdate": "2195-03-31",
         "name": "Alfred°Beck°(Glatz), Pfr.i.R., Hirrlingen/Krs.°Tübingen",
         "birth": "31.°März°1895°in°Neuwilmsdorf (Nowy°Wielisław,°PL¥-57¥-320)",
-        "grave": "Friedhof°Hirrlingen°(D^-72145)",
+        "grave": "Friedhof°Hirrlingen°(D¥-72145)",
         "age": 77
       },
       {
@@ -3055,7 +3055,7 @@ export const deceasedData =  {
         "birthdate": "2200-07-08",
         "name": "Walter°Mutke°(Breslau), Erzpriester, Pfr.i.R., Ettlingen",
         "birth": "8.°Juli°1900°in°Breslau (Wrocław,°PL¥-50¥-...)",
-        "grave": "^!Stadtfriedhof/Waldfriedhof°^0!Rastatt",
+        "grave": "Rastatt",
         "age": 70
       },
       {
@@ -3133,7 +3133,7 @@ export const deceasedData =  {
         "birthdate": "2174-06-17",
         "name": "Heinrich°Ständer, Pfr.i.R., Heuthen",
         "birth": "17.°Juni°1874°in°Bernterode (D¥-37308°Heiligenstadt)",
-        "grave": "Friedhof°Heuthen°(D^-37308°Leinetal)",
+        "grave": "Friedhof°Heuthen°(D¥-37308°Leinetal)",
         "age": 81
       },
       {
@@ -3149,7 +3149,7 @@ export const deceasedData =  {
         "birthdate": "2201-11-15",
         "name": "¥fDr.°Adolf°Bolte¥0f, Dr.°theol.°h.c., Bischof°von°Fulda°(1959¥_1974)",
         "birth": "15.°November°1901°in°Hannover",
-        "grave": "St.^-Johannes^-Kapelle°im°Dom°zu°Fulda",
+        "grave": "St.¥-Johannes¥-Kapelle°im°Dom°zu°Fulda",
         "age": 72
       },
       {
@@ -3249,7 +3249,7 @@ export const deceasedData =  {
         "birthdate": "2212-09-13",
         "name": "P.°Wilhelm°Borg°SDB, Pfr.i.R., Essen/Oldenburg",
         "birth": "13.°September°1912°in°Helschen (D¥-48488°Emsbüren)",
-        "grave": "Friedhof°Lastrup^-Hemmelte°(D^-49688)",
+        "grave": "Friedhof°Lastrup¥-Hemmelte°(D¥-49688)",
         "age": 80
       }
     ],
@@ -3343,7 +3343,7 @@ export const deceasedData =  {
         "birthdate": "2205-09-04",
         "name": "Paul°Stasch°(Breslau), Pfr.i.R., Bad°Säckingen¥-Wallbach",
         "birth": "4.°September°1905°in°Breslau (Wrocław,°PL¥-50¥-...)",
-        "grave": "Friedhof°Donaueschingen°(D^-78166)",
+        "grave": "Friedhof°Donaueschingen°(D¥-78166)",
         "age": 80
       },
       {
@@ -3393,7 +3393,7 @@ export const deceasedData =  {
         "birthdate": "2213-02-03",
         "name": "Norbert°Wenzel°(Breslau), Pfr.i.R., Berlin¥-Lankwitz",
         "birth": "3.°Februar°1913°in°Polkwitz (Polkowice,°PL¥-59¥-100)",
-        "grave": "Domfriedhof°St.°Hedwig,°Berlin^-Reinickendorf",
+        "grave": "Domfriedhof°St.°Hedwig,°Berlin¥-Reinickendorf",
         "age": 82
       },
       {
@@ -3451,7 +3451,7 @@ export const deceasedData =  {
         "birthdate": "2234-04-23",
         "name": "Theo°Breitbach, OStR°i.R., Fulda",
         "birth": "23.°April°1934°in°Kassel",
-        "grave": "Friedhof°Hilders^-Dietges",
+        "grave": "Friedhof°Hilders¥-Dietges",
         "age": 77
       }
     ],
@@ -3593,7 +3593,7 @@ export const deceasedData =  {
         "birthdate": "2221-07-07",
         "name": "Franz¥-Josef°von°Szczutowski, Diakon°i.R., Hanau",
         "birth": "7.°Juli°1921°in°Schönbrunn (Słotwina,°PL¥-58¥-100°Świdnica)",
-        "grave": "Friedhof°Mammolshain°(D^-61462°Königstein°im°Taunus)",
+        "grave": "Friedhof°Mammolshain°(D¥-61462°Königstein°im°Taunus)",
         "age": 90
       }
     ],
@@ -3611,7 +3611,7 @@ export const deceasedData =  {
         "birthdate": "2230-10-04",
         "name": "Franz°Richter, Pfarrer°in°Großbreitenbach/Thüringen",
         "birth": "4.°Oktober°1930°in°Maschau (Mašťov,°CZ¥-431°55)",
-        "grave": "Friedhof°Arnstadt°(D^-99310)",
+        "grave": "Friedhof°Arnstadt°(D¥-99310)",
         "age": 48
       },
       {
@@ -3711,7 +3711,7 @@ export const deceasedData =  {
         "birthdate": "2224-12-25",
         "name": "Georg°Pfannmüller, Diakon, Freigericht¥-Neuses",
         "birth": "25.°Dezember°1924°in°Neuses",
-        "grave": "Friedhof°Freigericht^-Neuses",
+        "grave": "Friedhof°Freigericht¥-Neuses",
         "age": 84
       }
     ],
@@ -3729,7 +3729,7 @@ export const deceasedData =  {
         "birthdate": "2237-02-16",
         "name": "Hubert°Brähler, Pfr.i.R., GR, Hilders¥-Batten",
         "birth": "16.°Februar°1937°in°Werthesberg",
-        "grave": "Friedhof°Petersberg^-Almendorf",
+        "grave": "Friedhof°Petersberg¥-Almendorf",
         "age": 83
       }
     ],
@@ -3841,7 +3841,7 @@ export const deceasedData =  {
         "birthdate": "2206-01-08",
         "name": "Joseph°Weber, Pfr.i.R., GR, Dechant, Brakel",
         "birth": "8.°Januar°1906°in°Heiligenstadt",
-        "grave": "Friedhof°Gehrden°(D^-33034°Brakel)",
+        "grave": "Friedhof°Gehrden°(D¥-33034°Brakel)",
         "age": 79
       },
       {
@@ -3917,7 +3917,7 @@ export const deceasedData =  {
         "birthdate": "2215-07-22",
         "name": "Karl°Hemberger, OStR°i.K.i.R., GR, Münnerstadt",
         "birth": "22.°Juli°1915°in°Frankfurt°a.°M.",
-        "grave": "Friedhof°Rödelmaier°(D^-97618)",
+        "grave": "Friedhof°Rödelmaier°(D¥-97618)",
         "age": 92
       }
     ],
@@ -3935,7 +3935,7 @@ export const deceasedData =  {
         "birthdate": "2193-01-18",
         "name": "Franz°Ruprecht°(Leitmeritz), Pfr.i.R., Burgkunstadt",
         "birth": "18.°Januar°1893°in°Rumburg (Rumburk,°CZ¥-408°01)",
-        "grave": "Friedhof°Burgkunstadt°(D^-96224)",
+        "grave": "Friedhof°Burgkunstadt°(D¥-96224)",
         "age": 90
       }
     ]
@@ -4073,7 +4073,7 @@ export const deceasedData =  {
         "birthdate": "2227-05-12",
         "name": "Erwin°Sturm, Pfr.i.R., Prälat, Neuhof¥-Rommerz",
         "birth": "12.°Mai°1927°in°Fulda",
-        "grave": "Friedhof°Neuhof^-Rommerz",
+        "grave": "Friedhof°Neuhof¥-Rommerz",
         "age": 88
       }
     ],
@@ -4091,7 +4091,7 @@ export const deceasedData =  {
         "birthdate": "2207-06-18",
         "name": "Otto°Fangohr, Pfr.i.R., GR, Hannover",
         "birth": "18.°Juni°1907°in°Westeregeln (D¥-39448°Börde¥-Hakel)",
-        "grave": "Friedhof°Hannover^-Empelde",
+        "grave": "Friedhof°Hannover¥-Empelde",
         "age": 88
       }
     ],
@@ -4271,7 +4271,7 @@ export const deceasedData =  {
         "birthdate": "2211-10-07",
         "name": "Karl°Genau, Pfr.i.R., GR, Odelzhausen",
         "birth": "7.°Oktober°1911°in°Hümme",
-        "grave": "Friedhof°Pfaffenhofen°an°der°Glonn°(D^-85235)",
+        "grave": "Friedhof°Pfaffenhofen°an°der°Glonn°(D¥-85235)",
         "age": 77
       },
       {
@@ -4363,7 +4363,7 @@ export const deceasedData =  {
         "birthdate": "2208-12-12",
         "name": "P.°Corbinian°Engelbert°Benzing°OFM, GR, Großkrotzenburg",
         "birth": "12.°Dezember°1908°in°Neuses",
-        "grave": "^!Alter/Neuer?°^0!Friedhof°Großkrotzenburg",
+        "grave": "Friedhof°Großkrotzenburg",
         "age": 83
       }
     ],
@@ -4415,7 +4415,7 @@ export const deceasedData =  {
         "birthdate": "2201-08-28",
         "name": "Christoph°Huschenbett, Pfr.i.R., Maria°Bildhausen",
         "birth": "28.°August°1901°in°Heiligenstadt",
-        "grave": "Friedhof°Maria°Bildhausen°(D^-97702°Münnerstadt)",
+        "grave": "Friedhof°Maria°Bildhausen°(D¥-97702°Münnerstadt)",
         "age": 83
       },
       {
@@ -4565,7 +4565,7 @@ export const deceasedData =  {
         "birthdate": "2202-08-26",
         "name": "Georg°Gutsfeld°(Breslau), Pfr.i.R., GR, Grafschaft¥-Eckendorf",
         "birth": "26.°August°1902°in°Burkardsdorf (Bierdzany,°PL¥-46¥-046)",
-        "grave": "Friedhof°Eckendorf°(D^-53501)",
+        "grave": "Friedhof°Eckendorf°(D¥-53501)",
         "age": 81
       },
       {
@@ -4573,7 +4573,7 @@ export const deceasedData =  {
         "birthdate": "2220-04-01",
         "name": "Dr.°Franz°Peter°Sonntag°Or, Prof., Köln",
         "birth": "1.°April°1920°in°Bochum",
-        "grave": "Friedhof°Wiedenbrück°(D^-33378)",
+        "grave": "Friedhof°Wiedenbrück°(D¥-33378)",
         "age": 67
       }
     ],
@@ -4603,7 +4603,7 @@ export const deceasedData =  {
         "birthdate": "2200-07-02",
         "name": "Otto°Fipper°(Breslau), Pfr.i.R., Winterstein",
         "birth": "2.°Juli°1900°in°Neudorf",
-        "grave": "Friedhof°Winterstein°(D^-99880°Waltershausen)",
+        "grave": "Friedhof°Winterstein°(D¥-99880°Waltershausen)",
         "age": 75
       }
     ],
@@ -4621,7 +4621,7 @@ export const deceasedData =  {
         "birthdate": "2199-01-06",
         "name": "Karl°Ruppel, Pfr.i.R., Msgr., Bad°Soden¥-Salmünster",
         "birth": "6.°Januar°1899°in°Bad°Soden",
-        "grave": "Bad°Soden^-Salmünster",
+        "grave": "Bad°Soden¥-Salmünster",
         "age": 77
       },
       {
@@ -5193,7 +5193,7 @@ export const deceasedData =  {
         "birthdate": "2205-09-19",
         "name": "Egon°Rowinski°(Ermland), Pfr.i.R., GR, Steinheim¥-Ottenhausen",
         "birth": "19.°September°1905°in°Marienburg (Malbork,°PL¥-82-200)",
-        "grave": "Friedhof°Ottenhausen°(D^-32839)",
+        "grave": "Friedhof°Ottenhausen°(D¥-32839)",
         "age": 79
       },
       {
@@ -5277,7 +5277,7 @@ export const deceasedData =  {
         "birthdate": "2239-06-25",
         "name": "Heinrich°Streb, Pfr.i.R., Meisenheim",
         "birth": "25.°Juni°1939°in°Somborn",
-        "grave": "Friedhof°Schönenberg^-Kübelberg°(D^-66901)",
+        "grave": "Friedhof°Schönenberg¥-Kübelberg°(D¥-66901)",
         "age": 73
       }
     ],
@@ -5329,7 +5329,7 @@ export const deceasedData =  {
         "birthdate": "2209-05-20",
         "name": "Bernhard°Ewers, Pfr.i.R., GR, Halle",
         "birth": "20.°Mai°1909°in°Röhlinghausen (D¥-44651°Herne)",
-        "grave": "Friedhof°Weißenborn^-Lüderode°(D^-37345°Sonnenstein)",
+        "grave": "Friedhof°Weißenborn¥-Lüderode°(D¥-37345°Sonnenstein)",
         "age": 72
       },
       {
@@ -5337,7 +5337,7 @@ export const deceasedData =  {
         "birthdate": "2227-11-01",
         "name": "Josef°van°Besien, Pfr.i.R., GR, Maintal¥-Hochstadt",
         "birth": "1.°November°1927°in°Brügge (B¥-8000)",
-        "grave": "Friedhof°Maintal^-Bischofsheim",
+        "grave": "Friedhof°Maintal¥-Bischofsheim",
         "age": 90
       }
     ],
@@ -5409,7 +5409,7 @@ export const deceasedData =  {
         "birthdate": "2210-10-22",
         "name": "Joseph°Hawellek°(Breslau), Pfr.i.R., Bad°Soden¥-Salmünster",
         "birth": "22.°Oktober°1910°in°Beuthen (Bytom,°PL¥-41¥-9..)",
-        "grave": "Friedhof°Bad°Soden^-Salmünster",
+        "grave": "Friedhof°Bad°Soden¥-Salmünster",
         "age": 76
       },
       {
@@ -5417,7 +5417,7 @@ export const deceasedData =  {
         "birthdate": "2230-03-15",
         "name": "Norbert°Schneider, Pfr.i.R., GR, Fulda",
         "birth": "15.°März°1930°in°Fulda",
-        "grave": "Friedhof°Eichenzell^-Büchenberg",
+        "grave": "Friedhof°Eichenzell¥-Büchenberg",
         "age": 79
       },
       {
@@ -5497,7 +5497,7 @@ export const deceasedData =  {
         "birthdate": "2204-01-22",
         "name": "Karl°Böhmer, Dozent, Prälat, Ehrendomherr, Erfurt",
         "birth": "22.°Januar°1904°in°Berlin",
-        "grave": "St.^-Hedwigs^-Friedhof°Berlin^-Hohenschönhausen",
+        "grave": "St.¥-Hedwigs¥-Friedhof°Berlin¥-Hohenschönhausen",
         "age": 77
       },
       {
@@ -5521,7 +5521,7 @@ export const deceasedData =  {
         "birthdate": "2244-02-21",
         "name": "Klaus°Dickhut, Pfr.i.R., Inzell",
         "birth": "21.°Februar°1944°in°Hilders",
-        "grave": "Friedhof°Inzell^-Niederachen°(D^-83334)",
+        "grave": "Friedhof°Inzell¥-Niederachen°(D¥-83334)",
         "age": 72
       }
     ],
@@ -5559,7 +5559,7 @@ export const deceasedData =  {
         "birthdate": "2192-03-22",
         "name": "Johannes°Jordan°(Ermland), Pfarrer°in°Stolberg/Harz",
         "birth": "22.°März°1892°in°Mehlsack (Pieniężno,°PL¥-14¥-520)",
-        "grave": "Friedhof°Stolberg°(D^-06536)",
+        "grave": "Friedhof°Stolberg°(D¥-06536)",
         "age": 80
       },
       {
@@ -5583,7 +5583,7 @@ export const deceasedData =  {
         "birthdate": "2237-07-01",
         "name": "Ernst°Watzlawik, Diakon, Hünfeld¥-Malges",
         "birth": "1.°Juli°1937°in°Bad°Liebwerda (Lázně°Libverda,°CZ¥-463°62)",
-        "grave": "Friedhof°Hünfeld^-Malges",
+        "grave": "Friedhof°Hünfeld¥-Malges",
         "age": 74
       },
       {
@@ -5635,7 +5635,7 @@ export const deceasedData =  {
         "birthdate": "2203-12-23",
         "name": "Dr.°Adalbert°Hosenfeld, Pfr.i.R., Msgr., GR, Brehme",
         "birth": "23.°Dezember°1903°in°Hainzell",
-        "grave": "Friedhof°Brehme°(D^-37339°Lindenberg/Eichsfeld)",
+        "grave": "Friedhof°Brehme°(D¥-37339°Lindenberg/Eichsfeld)",
         "age": 82
       }
     ],
@@ -5663,7 +5663,7 @@ export const deceasedData =  {
         "birthdate": "2233-03-13",
         "name": "Konrad°Graf, Pfr.i.R., GR, Wadern¥-Nunkirchen",
         "birth": "13.°März°1933°in°Amöneburg",
-        "grave": "Friedhof°Nunkirchen°(D^-66687)",
+        "grave": "Friedhof°Nunkirchen°(D¥-66687)",
         "age": 76
       },
       {
@@ -5679,7 +5679,7 @@ export const deceasedData =  {
         "birthdate": "2237-03-23",
         "name": "Peter°A.°Macht, Pfr.i.R., GR, Amöneburg¥-Mardorf",
         "birth": "23.°März°1937°in°Minsk/Weißrussland",
-        "grave": "Friedhof°Frankfurt^-Bornheim",
+        "grave": "Friedhof°Frankfurt¥-Bornheim",
         "age": 83
       }
     ],
@@ -5799,7 +5799,7 @@ export const deceasedData =  {
         "birthdate": "2204-07-31",
         "name": "P.°Oswald°Krause°SDB, Pfarrkurat°in°Hess.°Lichtenau",
         "birth": "31.°Juli°1904°in°Holthausen (D¥-44627°Herne¥-Sodingen)",
-        "grave": "Friedhof°Kassel^-Bettenhausen",
+        "grave": "Friedhof°Kassel¥-Bettenhausen",
         "age": 63
       },
       {
@@ -5883,7 +5883,7 @@ export const deceasedData =  {
         "birthdate": "2210-08-30",
         "name": "Dr.°Stephan°Bartylla, StR°i.K.i.R., Amöneburg",
         "birth": "30.°August°1910°in°Lugendorf (Łubniany,°PL¥-46¥-024)",
-        "grave": "Friedhof°Hegelhofen°(D^-89264°Weißenhorn)",
+        "grave": "Friedhof°Hegelhofen°(D¥-89264°Weißenhorn)",
         "age": 70
       },
       {
@@ -5945,7 +5945,7 @@ export const deceasedData =  {
         "birthdate": "2234-09-09",
         "name": "Dr.°Elmar°Fastenrath°(Köln), Prof.°em., Dr.°theol.°habil., Msgr., Leverkusen",
         "birth": "9.°September°1934°in°Remscheid",
-        "grave": "Friedhof°Lützenkirchen°(D^-51381)",
+        "grave": "Friedhof°Lützenkirchen°(D¥-51381)",
         "age": 86
       }
     ],
@@ -5987,7 +5987,7 @@ export const deceasedData =  {
         "birthdate": "2238-05-22",
         "name": "Heribert°Bräscher, Pfr.i.R., GR, Neuhof",
         "birth": "22.°Mai°1938°in°Fulda",
-        "grave": "Friedhof°Neuhof^-Opperz",
+        "grave": "Friedhof°Neuhof¥-Opperz",
         "age": 81
       }
     ],
@@ -6131,7 +6131,7 @@ export const deceasedData =  {
         "birthdate": "2212-07-26",
         "name": "Karl°Kiowski°(Breslau), Pfr.i.R., Königsee/Thür.°Wald",
         "birth": "26.°Juli°1912°in°Ratibor (Racibórz,°PL¥-47¥-4..)",
-        "grave": "Friedhof°Königsee°(D^-07426)",
+        "grave": "Friedhof°Königsee°(D¥-07426)",
         "age": 75
       }
     ],
@@ -6157,7 +6157,7 @@ export const deceasedData =  {
         "birthdate": "2228-07-22",
         "name": "Gerhard°Willeke, Pfr.i.R., Fulda¥-Horas",
         "birth": "22.°Juli°1928°in°Kassel",
-        "grave": "Friedhof°Ebersburg^-Ried",
+        "grave": "Friedhof°Ebersburg¥-Ried",
         "age": 93
       }
     ],
@@ -6217,7 +6217,7 @@ export const deceasedData =  {
         "birthdate": "2229-09-15",
         "name": "¥fDDr.°Johannes°Dyba¥0f, Dr.°iur.°utr., Erzbischof, Bischof°von°Fulda°(1983¥_2000)",
         "birth": "15.°September°1929°in°Berlin",
-        "grave": "St.^-Johannes^-Kapelle°im°Dom°zu°Fulda",
+        "grave": "St.¥-Johannes¥-Kapelle°im°Dom°zu°Fulda",
         "age": 70
       },
       {
@@ -6233,7 +6233,7 @@ export const deceasedData =  {
         "birthdate": "2260-08-07",
         "name": "Herbert°Schrimpf, Pfarrer°in°Hünfeld¥-Michelsrombach",
         "birth": "7.°August°1960°in°Hanau",
-        "grave": "Friedhof°Hanau^-Kesselstadt",
+        "grave": "Friedhof°Hanau¥-Kesselstadt",
         "age": 62
       }
     ],
@@ -6295,7 +6295,7 @@ export const deceasedData =  {
         "birthdate": "2204-10-21",
         "name": "Joseph°Rimpler°(Breslau), Pfarrer°in°Bad°Sachsa",
         "birth": "21.°Oktober°1904°in°Schwientochlowitz (Świętochłowice,°PL¥-41¥-60.)",
-        "grave": "Friedhof°Ostbevern°(D^-48346)",
+        "grave": "Friedhof°Ostbevern°(D¥-48346)",
         "age": 69
       }
     ],
@@ -6329,7 +6329,7 @@ export const deceasedData =  {
         "birthdate": "2203-03-18",
         "name": "Alois°Jungbluth°(Danzig), Pfr.i.R., Wegberg",
         "birth": "18.°März°1903°in°Poppe (Popowo,°PL¥-66¥-350°Bledzew)",
-        "grave": "Friedhof°Wegberg°(D^-41844)",
+        "grave": "Friedhof°Wegberg°(D¥-41844)",
         "age": 80
       },
       {
@@ -6509,7 +6509,7 @@ export const deceasedData =  {
         "birthdate": "2212-02-25",
         "name": "Albrecht°Hellbach, Pfr.i.R., Körle",
         "birth": "25.°Februar°1912°in°Fulda",
-        "grave": "Friedhof°Körle^-Lobenhausen",
+        "grave": "Friedhof°Körle¥-Lobenhausen",
         "age": 68
       },
       {
@@ -6713,7 +6713,7 @@ export const deceasedData =  {
         "birthdate": "2236-06-08",
         "name": "P.°Heinrich°Rentmeister°SDB, GR, Köln¥-Mühlheim",
         "birth": "8.°Juni°1936°in°Bottrop",
-        "grave": "Friedhof°Köln^-Stammheim",
+        "grave": "Friedhof°Köln¥-Stammheim",
         "age": 81
       }
     ],
@@ -6765,7 +6765,7 @@ export const deceasedData =  {
         "birthdate": "2236-05-09",
         "name": "Konrad°Meilinger, OStR°i.K.i.R., Msgr., GR, Hanau",
         "birth": "9.°Mai°1936°in°Fulda",
-        "grave": "Friedhof°Hanau^-Kesselstadt",
+        "grave": "Friedhof°Hanau¥-Kesselstadt",
         "age": 81
       }
     ],
@@ -6825,7 +6825,7 @@ export const deceasedData =  {
         "birthdate": "2240-03-17",
         "name": "Hans¥-Joachim°Uhde, Pfr.i.R., GR, Maintal¥-Dörnigheim",
         "birth": "17.°März°1940°in°Kassel",
-        "grave": "Neuer°Friedhof°Maintal^-Dörnigheim",
+        "grave": "Neuer°Friedhof°Maintal¥-Dörnigheim",
         "age": 82
       }
     ],
@@ -7367,7 +7367,7 @@ export const deceasedData =  {
         "birthdate": "2212-12-08",
         "name": "Franz°Schröder, Pfr.i.R., OStR°i.K.i.R., Fulda",
         "birth": "8.°Dezember°1912°in°Meggen/Krs.°Olpe (D¥-57368°Lennestadt)",
-        "grave": "Friedhof°Petersberg^-Steinau",
+        "grave": "Friedhof°Petersberg¥-Steinau",
         "age": 96
       }
     ],
@@ -7507,7 +7507,7 @@ export const deceasedData =  {
         "birthdate": "2252-11-24",
         "name": "Józef°Cieśla, Pfr.i.R., Nowy°Sącz/Polen",
         "birth": "24.°November°1952°in°Muszyna (PL¥-33¥-370)",
-        "grave": "Friedhof°Muszyna^-Powroźnik",
+        "grave": "Friedhof°Muszyna¥-Powroźnik",
         "age": 67
       },
       {
@@ -7515,7 +7515,7 @@ export const deceasedData =  {
         "birthdate": "2238-03-08",
         "name": "Wilhelm°Gerlach, Pfr.i.R., GR, Kirchhain",
         "birth": "8.°März°1938°in°Erfurtshausen",
-        "grave": "Friedhof°Amöneburg^-Erfurtshausen",
+        "grave": "Friedhof°Amöneburg¥-Erfurtshausen",
         "age": 85
       }
     ],
@@ -7717,7 +7717,7 @@ export const deceasedData =  {
         "birthdate": "2200-09-01",
         "name": "Joseph°Egert, Pfr.i.R., GR, Duderstadt",
         "birth": "1.°September°1900°in°Jützenbach (D¥-37345°Sonnenstein)",
-        "grave": "Friedhof°Brochthausen°(D^-37115°Duderstadt)",
+        "grave": "Friedhof°Brochthausen°(D¥-37115°Duderstadt)",
         "age": 81
       },
       {
@@ -7835,7 +7835,7 @@ export const deceasedData =  {
         "birthdate": "2232-04-30",
         "name": "Wolfgang°Halama, OStR°i.K.i.R., Msgr., Trier",
         "birth": "30.°April°1932°in°Brünn (Brno,°CZ¥-602°00)",
-        "grave": "Friedhof°Gründau^-Rothenbergen",
+        "grave": "Friedhof°Gründau¥-Rothenbergen",
         "age": 75
       },
       {
@@ -8021,7 +8021,7 @@ export const deceasedData =  {
         "birthdate": "2194-02-02",
         "name": "Franz°Steffen°(Paderborn), Pfr.i.R., Neustadt",
         "birth": "2.°Februar°1894°in°Minden/Westfalen (D¥-3242.)",
-        "grave": "Friedhof°Deifeld°(D^-59964°Medebach)",
+        "grave": "Friedhof°Deifeld°(D¥-59964°Medebach)",
         "age": 93
       },
       {
@@ -8143,7 +8143,7 @@ export const deceasedData =  {
         "birthdate": "2209-08-11",
         "name": "P.°Paul°Schilling°SDB, Pfarrer°in°Oberkaufungen",
         "birth": "11.°August°1909°in°Hamborn (D¥-4716.°Duisburg)",
-        "grave": "Friedhof°Kassel^-Bettenhausen",
+        "grave": "Friedhof°Kassel¥-Bettenhausen",
         "age": 77
       }
     ],
@@ -8211,7 +8211,7 @@ export const deceasedData =  {
         "birthdate": "2254-07-23",
         "name": "Wolfram°Fröhlig, Diakon, Petersberg¥-Untergötzenhof",
         "birth": "23.°Juli°1954°in°Stöckels",
-        "grave": "Friedhof°Petersberg^-Almendorf",
+        "grave": "Friedhof°Petersberg¥-Almendorf",
         "age": 56
       }
     ],
@@ -8579,7 +8579,7 @@ export const deceasedData =  {
         "birthdate": "2210-09-27",
         "name": "Paul°Vogt, Pfr.i.R., Bad°Bellingen",
         "birth": "27.°September°1910°in°Kassel",
-        "grave": "Friedhof°Bad°Bellingen°(D^-79415)",
+        "grave": "Friedhof°Bad°Bellingen°(D¥-79415)",
         "age": 73
       },
       {
@@ -8587,7 +8587,7 @@ export const deceasedData =  {
         "birthdate": "2252-04-27",
         "name": "Karl¥-Peter°Klein, Pfr.i.R., GR, Freigericht¥-Bernbach",
         "birth": "27.°April°1952°in°Bernbach",
-        "grave": "Friedhof°Freigericht^-Bernbach",
+        "grave": "Friedhof°Freigericht¥-Bernbach",
         "age": 69
       }
     ],
@@ -8605,7 +8605,7 @@ export const deceasedData =  {
         "birthdate": "2199-01-18",
         "name": "P.°Richard°Hauffen°SDB, Pfr.i.R., GR, Lohfelden",
         "birth": "18.°Januar°1899°in°Sackisch (Zakrze,°PL¥-57¥-350°Kudowa¥-Zdrój)",
-        "grave": "Friedhof°Kassel^-Bettenhausen",
+        "grave": "Friedhof°Kassel¥-Bettenhausen",
         "age": 77
       },
       {
@@ -8671,7 +8671,7 @@ export const deceasedData =  {
         "birthdate": "2234-07-06",
         "name": "Anton°Schmitt, Pfr.i.R., StR°i.K.i.R., Michelstadt",
         "birth": "6.°Juli°1934°in°Lingen/Ems (D¥-498..)",
-        "grave": "Friedhof°Vielbrunn°(D^-64720)",
+        "grave": "Friedhof°Vielbrunn°(D¥-64720)",
         "age": 69
       }
     ],
@@ -8827,7 +8827,7 @@ export const deceasedData =  {
         "birthdate": "2228-03-25",
         "name": "Werner°Linge, Diakon, Kassel",
         "birth": "25.°März°1928°in°Kassel",
-        "grave": "Friedhof°Kassel^-Wehlheiden",
+        "grave": "Friedhof°Kassel¥-Wehlheiden",
         "age": 71
       },
       {
@@ -8853,7 +8853,7 @@ export const deceasedData =  {
         "birthdate": "2207-04-14",
         "name": "Josef°Becker, Pfr.i.R., GR, Morsbach/Sieg",
         "birth": "14.°April°1907°in°Großauheim",
-        "grave": "Friedhof°Morsbach°(D^-51597)",
+        "grave": "Friedhof°Morsbach°(D¥-51597)",
         "age": 76
       },
       {
@@ -8897,7 +8897,7 @@ export const deceasedData =  {
         "birthdate": "2236-12-09",
         "name": "Albert°Diedrich, Pfr.i.R., OStR°a.D., Msgr., Frasdorf/Chiemgau",
         "birth": "9.°Dezember°1936°in°Heringen",
-        "grave": "Friedhof°Frasdorf°(D^-83112)",
+        "grave": "Friedhof°Frasdorf°(D¥-83112)",
         "age": 74
       }
     ],
@@ -8961,7 +8961,7 @@ export const deceasedData =  {
         "birthdate": "2212-02-29",
         "name": "Franz°Westermann°(Paderborn), Pfr.i.R., Speyer",
         "birth": "29.°Februar°1912°in°Halle/Saale",
-        "grave": "Friedhof°in°Malgersdorf°(D^-84333)",
+        "grave": "Friedhof°in°Malgersdorf°(D¥-84333)",
         "age": 80
       },
       {
@@ -8977,7 +8977,7 @@ export const deceasedData =  {
         "birthdate": "2247-03-10",
         "name": "Dr.°Ludwig°Strecker°(Anápolis/Brasilien), Pfr.i.R., Bischofsvikar, Michelsneukirchen",
         "birth": "10.°März°1947°in°Arnstorf (D¥-94424)",
-        "grave": "Friedhof°Michelsneukirchen°(D^-93185)",
+        "grave": "Friedhof°Michelsneukirchen°(D¥-93185)",
         "age": 65
       }
     ],
@@ -9107,7 +9107,7 @@ export const deceasedData =  {
         "birthdate": "2219-10-27",
         "name": "P.°Wilhelm°Görtz°SDB, Pfarrer°in°Kassel, St.°Andreas",
         "birth": "27.°Oktober°1919°in°Essen¥-Bergeborbeck",
-        "grave": "Friedhof°Kassel^-Bettenhausen",
+        "grave": "Friedhof°Kassel¥-Bettenhausen",
         "age": 61
       },
       {
@@ -9193,7 +9193,7 @@ export const deceasedData =  {
         "birthdate": "2228-11-14",
         "name": "Johannes°Mühlen°(Mainz), Pfr.i.R., GR, Bad°Brückenau",
         "birth": "14.°November°1928°in°Burbach/Krs.°Bitburg (D¥-54597)",
-        "grave": "RuheForst°Rhön,°Zeitlofs^-Eckarts°(D^-97799)",
+        "grave": "RuheForst°Rhön,°Zeitlofs¥-Eckarts°(D¥-97799)",
         "age": 83
       }
     ],
@@ -9245,7 +9245,7 @@ export const deceasedData =  {
         "birthdate": "2211-10-22",
         "name": "Johannes°Riebartsch, Pfr.i.R., Waldfeucht¥-Braunsrath",
         "birth": "22.°Oktober°1911°in°Mülheim (D¥-454..)",
-        "grave": "Geilenkirchen^-Loherhof",
+        "grave": "Geilenkirchen¥-Loherhof",
         "age": 65
       },
       {
@@ -9323,7 +9323,7 @@ export const deceasedData =  {
         "birthdate": "2206-01-11",
         "name": "Paul°Motz, Pfr.i.R., Weilheim°in°Oberbayern",
         "birth": "11.°Januar°1906°in°Witterda (D¥-99189)",
-        "grave": "Friedhof°Weilheim°(D^-82362)",
+        "grave": "Friedhof°Weilheim°(D¥-82362)",
         "age": 79
       },
       {
@@ -9357,7 +9357,7 @@ export const deceasedData =  {
         "birthdate": "2210-09-30",
         "name": "Bruno°Puscher°(Breslau), Pfr.i.R., Uelzen",
         "birth": "30.°September°1910°in°Schönwald (Bojków,°PL¥-44¥-160°Gliwice)",
-        "grave": "Friedhof°Uelzen^-Veerßen°(D^-29525)",
+        "grave": "Friedhof°Uelzen¥-Veerßen°(D¥-29525)",
         "age": 71
       },
       {
@@ -9423,7 +9423,7 @@ export const deceasedData =  {
         "birthdate": "2231-03-09",
         "name": "Paul°Moritz, Pfr.i.R., GR, Felsberg¥-Gensungen",
         "birth": "9.°März°1931°in°Tiefenbach°bei°Passau (D¥-94113)",
-        "grave": "Friedhof°Felsberg^-Gensungen",
+        "grave": "Friedhof°Felsberg¥-Gensungen",
         "age": 80
       }
     ],
@@ -9459,7 +9459,7 @@ export const deceasedData =  {
         "birthdate": "2229-05-29",
         "name": "Eugen°Böhm, Pfr.i.R., GR, Bad°Soden¥-Salmünster",
         "birth": "29.°Mai°1929°in°Höchst/Krs.°Gelnhausen",
-        "grave": "Friedhof°Gelnhausen^-Mitte",
+        "grave": "Friedhof°Gelnhausen¥-Mitte",
         "age": 70
       },
       {
@@ -9687,7 +9687,7 @@ export const deceasedData =  {
         "birthdate": "2226-09-16",
         "name": "Wolfgang°Schöpping, OStR°i.K., Brachttal¥-Spielberg",
         "birth": "16.°September°1926°in°Rennerod (D¥-56477)",
-        "grave": "Friedhof°Lahnstein°(D^-56112)",
+        "grave": "Friedhof°Lahnstein°(D¥-56112)",
         "age": 57
       },
       {
@@ -9991,7 +9991,7 @@ export const deceasedData =  {
         "birthdate": "2179-01-30",
         "name": "¥fDDr.°Johannes°B.°Dietz¥0f, Dr.°theol.°et°phil., Titularerzbischof°von°Cotrada, Bischof°von°Fulda°(1939¥_1958)",
         "birth": "30.°Januar°1879°in°Birkach°in°Franken (D¥-96250°Ebensfeld)",
-        "grave": "St.^-Johannes^-Kapelle°im°Dom°zu°Fulda",
+        "grave": "St.¥-Johannes¥-Kapelle°im°Dom°zu°Fulda",
         "age": 80
       },
       {
@@ -10041,7 +10041,7 @@ export const deceasedData =  {
         "birthdate": "2208-06-29",
         "name": "P.°Paul°Franz°Saft°SJ, Berlin",
         "birth": "29.°Juni°1908°in°Dresden",
-        "grave": "Berlin^-Kladow",
+        "grave": "Berlin¥-Kladow",
         "age": 77
       },
       {
@@ -10075,7 +10075,7 @@ export const deceasedData =  {
         "birthdate": "2231-11-18",
         "name": "Hermann°Röder, Pfr.i.R., GR, Hofbieber¥-Schwarzbach",
         "birth": "18.°November°1931°in°Schwarzbach",
-        "grave": "Friedhof°Hofbieber^-Schwarzbach",
+        "grave": "Friedhof°Hofbieber¥-Schwarzbach",
         "age": 83
       }
     ],
@@ -10169,7 +10169,7 @@ export const deceasedData =  {
         "birthdate": "2267-08-03",
         "name": "Matthias°Krieg, Pfr., GR, Fulda",
         "birth": "3.°August°1967°in°Volkmarsen",
-        "grave": "Friedhof°Marburg^-Ginseldorf",
+        "grave": "Friedhof°Marburg¥-Ginseldorf",
         "age": 49
       }
     ],
@@ -10313,7 +10313,7 @@ export const deceasedData =  {
         "birthdate": "2234-04-25",
         "name": "P.°Bernhard°Ferkinghoff°OMI, Allerheiligenberg°bei°Lahnstein",
         "birth": "25.°April°1934°in°Aachen",
-        "grave": "Friedhof°Treis-Karden°(D^-56253)",
+        "grave": "Friedhof°Treis-Karden°(D¥-56253)",
         "age": 53
       }
     ],
@@ -10363,7 +10363,7 @@ export const deceasedData =  {
         "birthdate": "2251-01-27",
         "name": "Hans¥-Jürgen°Elbrecht, Pfr.i.R., Netphen¥-Eschenbach",
         "birth": "27.°Januar°1951°in°Oberissigheim",
-        "grave": "Friedhof°Netphen^-Eschenbach",
+        "grave": "Friedhof°Netphen¥-Eschenbach",
         "age": 71
       }
     ],
@@ -10391,7 +10391,7 @@ export const deceasedData =  {
         "birthdate": "2218-12-19",
         "name": "Stephan°Kral°(Königgrätz), Pfr.i.R., Heiligenstadt",
         "birth": "19.°Dezember°1918°in°Schönbrunn (Jedlová,°CZ¥-569°91)",
-        "grave": "Friedhof°Rohrberg°(D^-37318°Hanstein-Rusteberg)",
+        "grave": "Friedhof°Rohrberg°(D¥-37318°Hanstein-Rusteberg)",
         "age": 64
       },
       {
@@ -10407,7 +10407,7 @@ export const deceasedData =  {
         "birthdate": "2222-08-20",
         "name": "Paul°Seidel°(Breslau), Pfr.i.R., Niedaltdorf/Krs.°Saarlouis",
         "birth": "20.°August°1922°in°Rasselwitz (Racławiczki,°PL¥-47¥-364)",
-        "grave": "Friedhof°Niedaltdorf°(D^-66780)",
+        "grave": "Friedhof°Niedaltdorf°(D¥-66780)",
         "age": 75
       }
     ],
@@ -10563,7 +10563,7 @@ export const deceasedData =  {
         "birthdate": "2243-04-09",
         "name": "Wilfried°Umlauf, Pfr.i.R., Bad°Orb",
         "birth": "9.°April°1943°in°Bärn (Moravský°Beroun,°CZ¥-793°05)",
-        "grave": "Friedhof°Bad°Soden^-Salmünster^-Mernes",
+        "grave": "Friedhof°Bad°Soden¥-Salmünster¥-Mernes",
         "age": 78
       }
     ],

@@ -3,12 +3,15 @@ import { Menu } from 'lucide-react';
 import React from 'react';
 import { liturgicalData } from './liturgicalData';
 import { deceasedData } from './deceasedData';
+import { ReferenceDialog, parseTextWithReferences } from './referenceLink';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from './ui/tooltip';
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "./ui/dialog";
 
 const formatText = (text) => {
     if (!text) return '';
 
-    text = text
+    // Basis-Formatierungen
+    let formattedText = text
         .replace(/¥°/g, ' \uFEFF')
         .replace(/°/g, '\u00A0')
         .replace(/¥a/g, '\u2002\u2720')
@@ -17,20 +20,20 @@ const formatText = (text) => {
         .replace(/¥be/g, '¥p\u2003\u2003\u1D30¥t')
         .replace(/¥bf/g, '¥p\u2003\u2003\u1D30¥t');
 
+    // Formatierungen mit Klassen
     const processFormatting = (str, startTag, endTag, className) => {
-        // Füge 's' Flag hinzu für multiline matching
         const regex = new RegExp(`${startTag}([\\s\\S]*?)${endTag}`, 'g');
         return str.replace(regex, (_, content) => `<span class="${className}">${content}</span>`);
     };
 
-    text = processFormatting(text, '¥w', '¥0w', 'formatKleiner');
-    text = processFormatting(text, '¥f', '¥0f', 'font-bold');
-    text = processFormatting(text, '¥k', '¥0k', 'italic');
-    text = processFormatting(text, '¥v', '¥0v', 'formatVerse');
-    text = processFormatting(text, '¥qh', '¥0f', 'formatHochfest');
-    text = processFormatting(text, '¥qf', '¥0f', 'formatFest');
+    formattedText = processFormatting(formattedText, '¥w', '¥0w', 'formatKleiner');
+    formattedText = processFormatting(formattedText, '¥f', '¥0f', 'font-bold');
+    formattedText = processFormatting(formattedText, '¥k', '¥0k', 'italic');
+    formattedText = processFormatting(formattedText, '¥v', '¥0v', 'formatVerse');
+    formattedText = processFormatting(formattedText, '¥qh', '¥0f', 'formatHochfest');
+    formattedText = processFormatting(formattedText, '¥qf', '¥0f', 'formatFest');
 
-    return text;
+    return formattedText;
 };
 
 const getDateRange = (date, daysBefore, daysAfter) => {
@@ -79,8 +82,8 @@ const DayEntry = ({
         >
             <div className={`p-4 border dark:border-gray-700 rounded transition-colors ${entry.date.getDate() === selectedDate.getDate() &&
                 entry.date.getMonth() === selectedDate.getMonth()
-                ? 'bg-orange-50 dark:bg-orange-900/30'
-                : 'bg-white dark:bg-gray-900'
+                ? 'bg-orange-50 dark:bg-yellow-400/60'
+                : 'bg-white dark:bg-gray-700'
                 }`}>
                 {/* Datumsheader */}
                 <div className="font-semibold mb-4 text-gray-900 dark:text-gray-100">
@@ -217,7 +220,7 @@ const DayEntry = ({
                                                         <div key={lineIndex} style={{
                                                             ...commonLineStyle,
                                                             whiteSpace: 'pre-line'
-                                                        }} dangerouslySetInnerHTML={{ __html: line }} />
+                                                        }} dangerouslySetInnerHTML={{ __html: parseTextWithReferences(line) }} />
                                                     );
                                                 }
                                             })}
@@ -247,7 +250,8 @@ const DayEntry = ({
                                                 <div style={{
                                                     display: 'block',
                                                     marginLeft: '1.5em'
-                                                }} dangerouslySetInnerHTML={{ __html: text }} />
+                                                }}
+                                                    dangerouslySetInnerHTML={{ __html: parseTextWithReferences(text) }} />
                                             </div>
                                         );
                                     }
@@ -255,7 +259,7 @@ const DayEntry = ({
                                 return (
                                     <p key={index}
                                         style={{ marginBottom: '0.75em' }}
-                                        dangerouslySetInnerHTML={{ __html: paragraph }} />
+                                        dangerouslySetInnerHTML={{ __html: parseTextWithReferences(paragraph) }} />
                                 );
                             })}
                         </div>
@@ -285,7 +289,7 @@ const DayEntry = ({
                                                     textAlign: 'center',
                                                     fontSize: '1em'
                                                 }}
-                                                dangerouslySetInnerHTML={{ __html: formatText(subParagraph.trim()) }}
+                                                dangerouslySetInnerHTML={{ __html: parseTextWithReferences(formatText(subParagraph.trim())) }}
                                             />
                                         );
                                     }
@@ -305,7 +309,7 @@ const DayEntry = ({
                                                     <div style={{
                                                         display: 'block',
                                                         marginLeft: '1.5em'
-                                                    }} dangerouslySetInnerHTML={{ __html: formatText(content) }} />
+                                                    }} dangerouslySetInnerHTML={{ __html: parseTextWithReferences(formatText(content)) }} />
                                                 </div>
                                             );
                                         } else if (subParagraph.trim().startsWith('¥fHinweis:¥0f ¥s')) {
@@ -318,7 +322,7 @@ const DayEntry = ({
                                                         marginBottom: '0.75em',
                                                         textAlign: 'left'
                                                     }}
-                                                    dangerouslySetInnerHTML={{ __html: formatText(content) }}
+                                                    dangerouslySetInnerHTML={{ __html: parseTextWithReferences(formatText(content)) }}
                                                 />
                                             );
                                         }
@@ -329,7 +333,7 @@ const DayEntry = ({
                                                     marginBottom: '0.75em',
                                                     textAlign: 'left'
                                                 }}
-                                                dangerouslySetInnerHTML={{ __html: formatText(subParagraph.trim()) }}
+                                                dangerouslySetInnerHTML={{ __html: parseTextWithReferences(formatText(subParagraph.trim())) }}
                                             />
                                         );
                                     }
@@ -471,7 +475,7 @@ const DayEntry = ({
                                                         <div key={lineIndex} style={{
                                                             ...commonLineStyle,
                                                             whiteSpace: 'pre-line'
-                                                        }} dangerouslySetInnerHTML={{ __html: line }} />
+                                                        }} dangerouslySetInnerHTML={{ __html: parseTextWithReferences(line) }} />
                                                     );
                                                 }
                                             })}
@@ -523,7 +527,7 @@ const DayEntry = ({
                                         display: 'block',
                                         marginTop: '0em',
                                         paddingLeft: `calc(${hangingIndent} / ${deceasedSizeRatio} / 0.9)`,
-                                        color: 'rgb(37, 99, 235)',
+                                        color: 'rgb(27, 83, 204)',
                                         fontSize: '0.9em'
                                     }}
                                 >
@@ -570,14 +574,14 @@ const DayEntry = ({
                                                 <div style={{
                                                     display: 'block',
                                                     marginLeft: '0em'
-                                                }} dangerouslySetInnerHTML={{ __html: text }} />
+                                                }} dangerouslySetInnerHTML={{ __html: parseTextWithReferences(text) }} />
                                             </div>
                                         );
                                     }
                                 }
                                 return (
                                     <p key={index} style={{ marginBottom: '0.75em' }}
-                                        dangerouslySetInnerHTML={{ __html: paragraph }} />
+                                        dangerouslySetInnerHTML={{ __html: parseTextWithReferences(paragraph) }} />
                                 );
                             })}
                         </div>
@@ -607,13 +611,13 @@ const DayEntry = ({
                                                 margin: 0,
                                                 fontFamily: 'inherit',
                                                 whiteSpace: 'pre-line'
-                                            }} dangerouslySetInnerHTML={{ __html: content }} />
+                                            }} dangerouslySetInnerHTML={{ __html: parseTextWithReferences(content) }} />
                                         </div>
                                     );
                                 }
                                 return (
                                     <p key={index} style={{ marginBottom: '0.5em' }}
-                                        dangerouslySetInnerHTML={{ __html: paragraph }} />
+                                        dangerouslySetInnerHTML={{ __html: parseTextWithReferences(paragraph) }} />
                                 );
                             })}
                         </div>
@@ -692,17 +696,11 @@ const DeceasedEntry = ({
         return (
             <div className="mb-4 relative">
                 {/* Erste Zeile mit Jahr und Name */}
-                <div style={{ marginBottom: '0.16em', position: 'relative' }}>
-                    <span style={{
-                        position: 'absolute',
-                        left: 0,
-                    }}>
+                <div style={{ position: 'relative' }}>
+                    <span style={{ position: 'absolute', left: 0, }}>
                         {deceased.year}
                     </span>
-                    <div style={{
-                        paddingLeft: deceasedIndent,
-                        marginBottom: 0
-                    }}>
+                    <div style={{ paddingLeft: deceasedIndent }}>
                         <span dangerouslySetInnerHTML={{ __html: formatText(deceased.name) }} />
                         {deceased.age && (
                             <span> ({deceased.age}&nbsp;Jahre)</span>
@@ -713,7 +711,6 @@ const DeceasedEntry = ({
                 {/* Zweite Zeile mit Geburtsinfo */}
                 {deceased.birth && (
                     <div style={{
-                        marginBottom: '0.16em',
                         paddingLeft: deceasedIndent,
                         position: 'relative'
                     }}>
@@ -722,17 +719,14 @@ const DeceasedEntry = ({
                             left: deceasedIndent
                         }}>*</span>
                         <div style={{
-                            paddingLeft: '0.7em',
-                            marginBottom: 0
+                            paddingLeft: '0.7em'
                         }} dangerouslySetInnerHTML={{ __html: formatText(deceased.birth) }} />
                     </div>
                 )}
 
                 {/* Dritte Zeile mit Grabinfo */}
                 {deceased.grave && (
-                    <div style={{
-                        paddingLeft: deceasedIndent
-                    }}>
+                    <div style={{ paddingLeft: deceasedIndent }}>
                         Grab: <span dangerouslySetInnerHTML={{ __html: formatText(deceased.grave) }} />
                     </div>
                 )}
@@ -747,8 +741,8 @@ const DeceasedEntry = ({
         >
             <div className={`p-4 border dark:border-gray-700 rounded transition-colors ${entry.date.getDate() === selectedDate.getDate() &&
                 entry.date.getMonth() === selectedDate.getMonth()
-                ? 'bg-orange-50 dark:bg-orange-900/30'
-                : 'bg-white dark:bg-gray-900'
+                ? 'bg-orange-50 dark:bg-yellow-400/60'
+                : 'bg-white dark:bg-gray-700'
                 }`}>
                 {/* Date header */}
                 <div className="font-semibold mb-4 text-gray-900 dark:text-gray-100">
@@ -1152,7 +1146,7 @@ export default function LiturgicalCalendar() {
         });
 
         return (
-            <div className="absolute left-0 right-0 mt-1 p-2 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 border dark:border-gray-700 rounded shadow-lg" style={datePickerStyle}>
+            <div className="absolute left-0 right-0 mt-1 p-2 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 border dark:border-gray-700 rounded shadow-lg" style={datePickerStyle}>
                 <div className="flex justify-between mb-2">
                     <button
                         onClick={() => setViewDate(date => {
@@ -1327,7 +1321,7 @@ export default function LiturgicalCalendar() {
                 </button>
 
                 {isMenuOpen && (
-                    <div className="fixed sm:absolute left-0 sm:left-auto right-0 sm:right-auto top-16 sm:top-auto sm:mt-2 mx-4 sm:mx-0 w-auto sm:w-60 bg-white dark:bg-gray-800 rounded-lg shadow-lg border dark:border-gray-700 z-50">
+                    <div className="fixed sm:absolute left-0 sm:left-auto right-0 sm:right-auto top-16 sm:top-auto sm:mt-2 mx-4 sm:mx-0 w-auto sm:w-60 bg-white dark:bg-gray-700 rounded-lg shadow-lg border dark:border-gray-700 z-50">
                         {/* Font Size Section */}
                         <div
                             className={`px-3 py-2 cursor-pointer ${activeSection === 'fontSize' ? 'bg-gray-50 dark:bg-gray-700' : ''}`}
@@ -1377,7 +1371,7 @@ export default function LiturgicalCalendar() {
                                         e.stopPropagation();
                                         setTheme('light');
                                     }}
-                                    className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${theme === 'light' ? 'bg-orange-100 dark:bg-orange-900' : ''}`}
+                                    className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${theme === 'light' ? 'bg-orange-100 dark:bg-yellow-400/60' : ''}`}
                                 >
                                     hell
                                 </button>
@@ -1387,7 +1381,7 @@ export default function LiturgicalCalendar() {
                                         e.stopPropagation();
                                         setTheme('dark');
                                     }}
-                                    className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${theme === 'dark' ? 'bg-orange-100 dark:bg-orange-900' : ''}`}
+                                    className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${theme === 'dark' ? 'bg-orange-100 dark:bg-yellow-400/60' : ''}`}
                                 >
                                     dunkel
                                 </button>
@@ -1412,7 +1406,7 @@ export default function LiturgicalCalendar() {
                                         setDeceasedMode('recent');
                                         setExpandedDeceased({});
                                     }}
-                                    className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${deceasedMode === 'recent' ? 'bg-orange-100 dark:bg-orange-900' : ''}`}
+                                    className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${deceasedMode === 'recent' ? 'bg-orange-100 dark:bg-yellow-400/60' : ''}`}
                                 >
                                     kurz
                                 </button>
@@ -1423,7 +1417,7 @@ export default function LiturgicalCalendar() {
                                         setDeceasedMode('all');
                                         setExpandedDeceased({});
                                     }}
-                                    className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${deceasedMode === 'all' ? 'bg-orange-100 dark:bg-orange-900' : ''}`}
+                                    className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${deceasedMode === 'all' ? 'bg-orange-100 dark:bg-yellow-400/60' : ''}`}
                                 >
                                     voll
                                 </button>
@@ -1451,7 +1445,7 @@ export default function LiturgicalCalendar() {
                                         e.stopPropagation();
                                         setViewMode('directory');
                                     }}
-                                    className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${viewMode === 'directory' ? 'bg-orange-100 dark:bg-orange-900' : ''}`}
+                                    className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${viewMode === 'directory' ? 'bg-orange-100 dark:bg-yellow-400/60' : ''}`}
                                 >
                                     Direktorium
                                 </button>
@@ -1461,7 +1455,7 @@ export default function LiturgicalCalendar() {
                                         e.stopPropagation();
                                         setViewMode('deceased');
                                     }}
-                                    className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${viewMode === 'deceased' ? 'bg-orange-100 dark:bg-orange-900' : ''}`}
+                                    className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${viewMode === 'deceased' ? 'bg-orange-100 dark:bg-yellow-400/60' : ''}`}
                                 >
                                     Totenverzeichnis
                                 </button>
@@ -1538,6 +1532,7 @@ export default function LiturgicalCalendar() {
 
     return (
         <div className="min-h-screen bg-white dark:bg-gray-900">
+            <ReferenceDialog />
             <div
                 className="mx-auto bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors w-full sm:max-w-[40em]"
                 style={baseStyle}
@@ -1551,80 +1546,82 @@ export default function LiturgicalCalendar() {
                     <div className="flex items-center gap-2 px-4 py-4 overflow-x-auto sm:overflow-visible">
                         <ThemeMenu />
 
-                        <button
-                            onClick={handlePrevWeek}
-                            className="px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
-                            title="1 Woche zurück"
-                        >
-                            «
-                        </button>
-                        <button
-                            onClick={handleToday}
-                            className="px-4 py-2 bg-orange-100 dark:bg-orange-900 hover:bg-orange-200 dark:hover:bg-orange-800 rounded"
-                        >
-                            Heute
-                        </button>
-
-                        <div className="relative">
-                            <input
-                                type="text"
-                                value={inputValue}
-                                onChange={(e) => {
-                                    setInputValue(e.target.value);
-                                    if (e.target.value.length >= 6) {
-                                        const date = parseDateString(e.target.value);
-                                        if (date) {
-                                            handleDateSelect(date);
-                                        }
-                                    }
-                                }}
-                                onClick={(e) => {
-                                    e.target.select();  // Markiert den gesamten Text bei Klick
-                                    setShowDatePicker(!showDatePicker);
-                                }}
-                                onKeyDown={(e) => {
-                                    if (e.key === 'Enter' && e.target.value.length >= 6) {
-                                        const date = parseDateString(e.target.value);
-                                        if (date) {
-                                            handleDateSelect(date);
-                                            setShowDatePicker(false);
-                                        }
-                                    } else if (e.key === 'Escape') {
-                                        setShowDatePicker(false);
-                                        setInputValue(formatDate(selectedDate, true));
-                                    }
-                                }}
-                                onBlur={() => {
-                                    const date = parseDateString(inputValue);
-                                    if (!date) {
-                                        setInputValue(formatDate(selectedDate, true));
-                                    }
-                                }}
-                                className="px-4 py-2 border dark:border-gray-700 rounded hover:bg-gray-50 dark:hover:bg-gray-800 
-               cursor-pointer bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100"
-                                placeholder="TT.MM.JJ"
-                            />
-                            <svg
-                                className="w-4 h-4 absolute right-3 top-1/2 transform -translate-y-1/2 pointer-events-none"
-                                fill="none"
-                                stroke="currentColor"
-                                viewBox="0 0 24 24"
+                        <div className="flex items-center gap-2 flex-1 min-w-0">
+                            <button
+                                onClick={handlePrevWeek}
+                                className="shrink-0 px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
+                                title="1 Woche zurück"
                             >
-                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
-                                <line x1="16" y1="2" x2="16" y2="6" />
-                                <line x1="8" y1="2" x2="8" y2="6" />
-                                <line x1="3" y1="10" x2="21" y2="10" />
-                            </svg>
-                            {showDatePicker && <DatePicker />}
-                        </div>
+                                «
+                            </button>
+                            <button
+                                onClick={handleToday}
+                                className="shrink-0 px-4 py-2 bg-orange-100 dark:bg-yellow-400/60 hover:bg-orange-200 dark:hover:bg-yellow-400/70 rounded"
+                            >
+                                Heute
+                            </button>
 
-                        <button
-                            onClick={handleNextWeek}
-                            className="px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
-                            title="1 Woche vor"
-                        >
-                            »
-                        </button>
+                            <div className="relative flex-1 min-w-0">
+                                <input
+                                    type="text"
+                                    value={inputValue}
+                                    onChange={(e) => {
+                                        setInputValue(e.target.value);
+                                        if (e.target.value.length >= 6) {
+                                            const date = parseDateString(e.target.value);
+                                            if (date) {
+                                                handleDateSelect(date);
+                                            }
+                                        }
+                                    }}
+                                    onClick={(e) => {
+                                        e.target.select();
+                                        setShowDatePicker(!showDatePicker);
+                                    }}
+                                    onKeyDown={(e) => {
+                                        if (e.key === 'Enter' && e.target.value.length >= 6) {
+                                            const date = parseDateString(e.target.value);
+                                            if (date) {
+                                                handleDateSelect(date);
+                                                setShowDatePicker(false);
+                                            }
+                                        } else if (e.key === 'Escape') {
+                                            setShowDatePicker(false);
+                                            setInputValue(formatDate(selectedDate, true));
+                                        }
+                                    }}
+                                    onBlur={() => {
+                                        const date = parseDateString(inputValue);
+                                        if (!date) {
+                                            setInputValue(formatDate(selectedDate, true));
+                                        }
+                                    }}
+                                    className="w-full px-4 py-2 border dark:border-gray-700 rounded hover:bg-gray-50 dark:hover:bg-gray-800 
+                        cursor-pointer bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100"
+                                    placeholder="TT.MM.JJ"
+                                />
+                                <svg
+                                    className="w-4 h-4 absolute right-3 top-1/2 transform -translate-y-1/2 pointer-events-none"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                                    <line x1="16" y1="2" x2="16" y2="6" />
+                                    <line x1="8" y1="2" x2="8" y2="6" />
+                                    <line x1="3" y1="10" x2="21" y2="10" />
+                                </svg>
+                                {showDatePicker && <DatePicker />}
+                            </div>
+
+                            <button
+                                onClick={handleNextWeek}
+                                className="shrink-0 px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
+                                title="1 Woche vor"
+                            >
+                                »
+                            </button>
+                        </div>
                     </div>
                 </div>
 
