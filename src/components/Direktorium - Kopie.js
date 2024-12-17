@@ -81,103 +81,6 @@ const processTextWithButtons = (line, inheritFontSize = true) => {
     );
 };
 
-const processNotesContent = (content) => {
-    if (!content) return [];
-
-    // Zuerst alle ¥l durch <br /> ersetzen
-    content = content.replace(/¥l/g, '<br />');
-
-    // Dann die Absätze durch ¥h und ¥j splitten und verarbeiten
-    const segments = content.split(/(¥[hj])/);
-
-    // Kombiniere jeweils den Text mit seinem nachfolgenden Tag
-    const processedSegments = [];
-    for (let i = 0; i < segments.length - 1; i += 2) {
-        const text = segments[i];
-        const tag = segments[i + 1] || ''; // falls kein Tag am Ende
-        processedSegments.push(text + tag);
-    }
-
-    // Counter für die Nummerierung
-    let counter = 0;
-
-    // Jetzt die Segmente verarbeiten
-    return processedSegments.map(segment => {
-        // Bestimme den Typ basierend auf dem End-Tag
-        const type = segment.endsWith('¥j') ? 'centered' :
-            segment.endsWith('¥h') ? 'normal' :
-                'normal';
-
-        // Entferne End-Tags
-        let cleanedSegment = segment.replace(/¥[hj]$/, '');
-
-        // Verarbeite ¥s und füge Nummerierung hinzu
-        if (cleanedSegment.startsWith('¥s')) {
-            counter++;
-            cleanedSegment = `${counter}. ${cleanedSegment.substring(2)}`;
-        }
-        // Spezialfall "Hinweis: ¥s"
-        else if (cleanedSegment.includes('¥fHinweis:¥0f ¥s')) {
-            cleanedSegment = cleanedSegment.replace('¥s', '');
-        }
-
-        return {
-            type,
-            content: cleanedSegment.trim()
-        };
-    }).filter(segment => segment.content);
-};
-
-const NotesSection = ({ content, fontSize = '0.93em' }) => {
-    if (!content) return null;
-
-    const processedSegments = processNotesContent(content);
-
-    return (
-        <div style={{ marginBottom: '1.25em' }}>
-            <div style={{ fontSize }} className="text-gray-900 dark:text-gray-100">
-                {processedSegments.map((segment, index) => {
-                    if (/^\d+\./.test(segment.content)) {
-                        // Nummerierte Absätze
-                        const match = segment.content.match(/^(\d+\.\s*)(.*)$/);
-                        if (match) {
-                            const [, number, text] = match;
-                            return (
-                                <div key={index} style={{ marginBottom: '0.16em' }}>
-                                    <span style={{
-                                        float: 'left',
-                                        width: '1.6em'
-                                    }}>{number}</span>
-                                    <div style={{
-                                        display: 'block',
-                                        marginLeft: '0em'
-                                    }}
-                                        dangerouslySetInnerHTML={{ __html: parseTextWithReferences(formatText(text)) }} />
-                                </div>
-                            );
-                        }
-                    }
-
-                    // Normale und zentrierte Absätze
-                    return (
-                        <p
-                            key={index}
-                            style={{
-                                marginBottom: '0.75em',
-                                textAlign: segment.type === 'centered' ? 'center' : 'left',
-                                fontSize: segment.type === 'centered' ? '1em' : 'inherit'
-                            }}
-                            dangerouslySetInnerHTML={{
-                                __html: parseTextWithReferences(formatText(segment.content))
-                            }}
-                        />
-                    );
-                })}
-            </div>
-        </div>
-    );
-};
-
 const DayEntry = ({
     entry,
     formatDate,
@@ -356,11 +259,110 @@ const DayEntry = ({
 
                 {/* Notes Section */}
                 {entry.notes && (
-                    <NotesSection content={entry.notes} />
+                    <div style={{ marginBottom: '1.25em' }}>
+                        <div style={{ fontSize: '0.93em' }} className="text-gray-900 dark:text-gray-100">
+                            {formatNotes(entry.notes).split('\n').map((paragraph, index) => {
+                                if (/^\d+\./.test(paragraph)) {
+                                    const match = paragraph.match(/^(\d+\.\s*)(.*)$/);
+                                    if (match) {
+                                        const [, number, text] = match;
+                                        return (
+                                            <div key={index} style={{ marginBottom: '0.16em' }}>
+                                                <span style={{
+                                                    float: 'left',
+                                                    width: '1.5em'
+                                                }}>{number}</span>
+                                                <div style={{
+                                                    display: 'block',
+                                                    marginLeft: '1.5em'
+                                                }}
+                                                    dangerouslySetInnerHTML={{ __html: parseTextWithReferences(text) }} />
+                                            </div>
+                                        );
+                                    }
+                                }
+                                return processTextWithButtons(paragraph);
+                            })}
+                        </div>
+                    </div>
                 )}
 
                 {entry.sec_notes && (
-                    <NotesSection content={entry.sec_notes} />
+                    <div style={{ marginBottom: '1.25em' }}>
+                        <div style={{ fontSize: '0.93em' }} className="text-gray-900 dark:text-gray-100">
+                            {entry.sec_notes.split('¥h').map((paragraph, index) => {
+                                // Initialize counter for each ¥h section
+                                let counter = 0;
+
+                                // Split by ¥j first
+                                const paragraphs = paragraph.split('¥j');
+
+                                return paragraphs.map((subParagraph, subIndex) => {
+                                    const isLastInSequence = subIndex === paragraphs.length - 1;
+
+                                    if (!isLastInSequence) {
+                                        // This is a ¥j paragraph that should be centered
+                                        return (
+                                            <p
+                                                key={`${index}-${subIndex}`}
+                                                style={{
+                                                    marginBottom: '0.75em',
+                                                    textAlign: 'center',
+                                                    fontSize: '1em'
+                                                }}
+                                                dangerouslySetInnerHTML={{ __html: parseTextWithReferences(formatText(subParagraph.trim())) }}
+                                            />
+                                        );
+                                    }
+
+                                    // Handle normal paragraphs or the remainder after ¥j
+                                    if (subParagraph.trim()) {
+                                        if (subParagraph.trim().startsWith('¥s')) {
+                                            // Increment counter for ¥s paragraphs
+                                            counter++;
+                                            const content = subParagraph.trim().substring(2);
+                                            return (
+                                                <div key={`${index}-${subIndex}`} style={{ marginBottom: '0.16em' }}>
+                                                    <span style={{
+                                                        float: 'left',
+                                                        width: '1.5em'
+                                                    }}>{counter}.</span>
+                                                    <div style={{
+                                                        display: 'block',
+                                                        marginLeft: '1.5em'
+                                                    }} dangerouslySetInnerHTML={{ __html: parseTextWithReferences(formatText(content)) }} />
+                                                </div>
+                                            );
+                                        } else if (subParagraph.trim().startsWith('¥fHinweis:¥0f ¥s')) {
+                                            // Handle single hint with ¥s
+                                            const content = subParagraph.trim().replace('¥s', '');
+                                            return (
+                                                <p
+                                                    key={`${index}-${subIndex}`}
+                                                    style={{
+                                                        marginBottom: '0.75em',
+                                                        textAlign: 'left'
+                                                    }}
+                                                    dangerouslySetInnerHTML={{ __html: parseTextWithReferences(formatText(content)) }}
+                                                />
+                                            );
+                                        }
+                                        return (
+                                            <p
+                                                key={`${index}-${subIndex}`}
+                                                style={{
+                                                    marginBottom: '0.75em',
+                                                    textAlign: 'left'
+                                                }}
+                                                dangerouslySetInnerHTML={{ __html: parseTextWithReferences(formatText(subParagraph.trim())) }}
+                                            />
+                                        );
+                                    }
+                                    return null;
+                                }).filter(Boolean);
+                            })}
+                        </div>
+                    </div>
                 )}
 
 
@@ -577,7 +579,34 @@ const DayEntry = ({
 
                 {/* Vigil Notes Section */}
                 {entry.vig_notes && (
-                    <NotesSection content={entry.vig_notes} />
+                    <div style={{ marginBottom: '1.25em' }}>
+                        <div style={{ fontSize: '0.93em' }} className="text-gray-900 dark:text-gray-100">
+                            {formatNotes(entry.vig_notes).split('\n').map((paragraph, index) => {
+                                if (/^\d+\./.test(paragraph)) {
+                                    const match = paragraph.match(/^(\d+\.\s*)(.*)$/);
+                                    if (match) {
+                                        const [, number, text] = match;
+                                        return (
+                                            <div key={index} style={{ marginBottom: '0.16em' }}>
+                                                <span style={{
+                                                    float: 'left',
+                                                    width: '1.5em'
+                                                }}>{number}</span>
+                                                <div style={{
+                                                    display: 'block',
+                                                    marginLeft: '0em'
+                                                }} dangerouslySetInnerHTML={{ __html: parseTextWithReferences(text) }} />
+                                            </div>
+                                        );
+                                    }
+                                }
+                                return (
+                                    <p key={index} style={{ marginBottom: '0.75em' }}
+                                        dangerouslySetInnerHTML={{ __html: parseTextWithReferences(paragraph) }} />
+                                );
+                            })}
+                        </div>
+                    </div>
                 )}
 
                 {/* Vigil Liturgy Section */}

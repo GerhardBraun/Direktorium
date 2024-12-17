@@ -98,9 +98,9 @@ const referenceMap = {
         title: "Hinweise zu den Bitttagen",
         content: "„Die Feier der Bitttage soll dort, wo sie im religiösen Leben oder Brauchtum der Gemeinde verwurzelt ist und weiterhin beibehalten werden kann, an einem oder mehreren Tagen vor Christi Himmelfahrt erhalten bleiben. ^lIhre Feier soll den unterschiedlichen örtlichen und menschlichen Gegebenheiten auch tatsächlich entsprechen. ^lWünschenswert ist eine Einbeziehung aller wesentlichen Bereiche und Gefährdungen des gegenwärtigen Lebens in die Bittgottesdienste.“ (Beschluss der DBK vom Februar 1972)^lVgl. Neues Werkbuch zum Gotteslob. Bd. IV: Heiligenfeste und besondere Tage im Kirchenjahr, 1994, 204–211."
     },
-    "I.C.4": {
+    "II.C.4": {
         title: "Hinweise zur Kommemoration",
-        content: "An den Wochentagen in der Zeit vom 17. bis 31. Dezember und an denen der Fastenzeit können Gedenktage (sowohl gebotene als auch nichtgebotene) nur kommemoriert werden. £lDie Kommemoration ist nie verpflichtend, auch nicht zu Heiligengedächtnissen, die sonst gebotene Gedenktage sind.£lDie Texte für die Kommemoration im Stundengebet finden sich oben.£lIn der Messe kann das Tagesgebet vom Heiligen genommen werden, nicht aber Gaben- und Schlussgebet. Die Lesungen werden vom Wochentag, nicht vom Heiligen genommen."
+        content: "An den Wochentagen in der Zeit vom 17. bis 31. Dezember und an denen der Fastenzeit können Gedenktage (sowohl gebotene als auch nichtgebotene) nur kommemoriert werden. ^lDie Kommemoration ist nie verpflichtend, auch nicht zu Heiligengedächtnissen, die sonst gebotene Gedenktage sind.^l^l<!-- Die Texte für die Kommemoration im Stundengebet finden sich oben.^l --><b>In der Messe</b> kann das Tagesgebet vom Heiligen genommen werden, nicht aber Gaben- und Schlussgebet. Die Lesungen werden vom Wochentag, nicht vom Heiligen genommen."
     },
     "I.C.16c": {
         title: "Hinweise zur zweimaligen Kommunion",
@@ -121,13 +121,14 @@ const referenceMap = {
     // Weitere Referenzen hier ergänzen
 };
 
-const createReferenceHTML = (reference) => {
+const createReferenceHTML = (reference, includeParentheses = false) => {
     if (reference.includes('S.\u00A087')) {
+        const linkText = includeParentheses ? '(mehr...)' : 'mehr...';
         return `<a href="https://www.direktorium.bistum-fulda.de" 
                    target="_blank" 
                    rel="noopener noreferrer" 
                    class="text-blue-600 dark:text-blue-400 hover:underline">
-                   mehr...
+                   ${linkText}
                 </a>`;
     }
 
@@ -137,25 +138,27 @@ const createReferenceHTML = (reference) => {
     const chapter = chapterMatch[1].replace(/\.$/, '');
     if (!referenceMap[chapter]) return reference;
 
+    const buttonText = includeParentheses ? '(mehr...)' : 'mehr...';
     return `<button 
               class="text-blue-600 dark:text-blue-400 hover:underline text-sm cursor-pointer"
               data-reference="${chapter}"
               type="button">
-              mehr...
+              ${buttonText}
             </button>`;
 };
 
 export const parseTextWithReferences = (text) => {
     if (!text) return '';
 
-    const websitePattern = /s\.\u00A0o\.\u00A0S\.\u00A087,\sNr\.\u00A03/g;
-    const chapterPattern = /s\.\u00A0o\.\u00A0Kap\.\u00A0[IVXLCDM]+\.[A-Z]\.\d{1,2}\.?[a-z]?/g;
+    // Erweiterte Pattern für Referenzen mit optionalen Klammern
+    const websitePattern = /\(?s\.\u00A0o\.\u00A0S\.\u00A087,\sNr\.\u00A03\)?/g;
+    const chapterPattern = /\(?s\.\u00A0o\.\u00A0Kap\.\u00A0[IVXLCDM]+\.[A-Z]\.\d{1,2}\.?[a-z]?\)?/g;
     const combinedPattern = new RegExp(`(${websitePattern.source}|${chapterPattern.source})`, 'g');
 
     return text.replace(combinedPattern, (match) => {
-        const reference = match.trim();
-        const html = createReferenceHTML(reference);
-        return html;
+        const hasParentheses = match.startsWith('(') && match.endsWith(')');
+        const reference = match.replace(/^\(|\)$/g, '').trim();
+        return createReferenceHTML(reference, hasParentheses);
     });
 };
 
