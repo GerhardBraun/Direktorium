@@ -142,6 +142,7 @@ const createReferenceHTML = (reference, includeParentheses = false) => {
     return `<button 
               class="text-blue-600 dark:text-blue-400 hover:underline text-sm cursor-pointer"
               data-reference="${chapter}"
+              style="display: inline-flex; vertical-align: baseline; white-space: nowrap;"
               type="button">
               ${buttonText}
             </button>`;
