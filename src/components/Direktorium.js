@@ -1135,11 +1135,22 @@ const PrayerTextDisplay = ({ hour, texts, onBack }) => {
                             {formatPrayerText(getValue('ant_0'))}
                         </div>)}
 
-                    {getValue('ps_95') && (
-                        <div className="mb-4">
-                            {formatPrayerParagraph(getValue('ps_95').text)}
-                        </div>
-                    )}
+                    {[95, 100, 67, 24].map(num => {
+                        const psalm = getValue(`ps_${num}`);
+                        if (!psalm) return null;
+
+                        return (
+                            <div key={num} className="mb-4">
+                                {(num !== 95) && (<Rubric>Oder:</Rubric>)}
+                                {psalm && formatPsalm(
+                                    psalm.number,
+                                    '', '', '',
+                                    psalm.text
+                                )}
+
+                            </div>
+                        );
+                    })}
                     {[1, 2, 3].map(num => {
                         const psalm = getValue(`ps_${num}`);
                         const ant = getValue(`ant_${num}`);
