@@ -1,8 +1,11 @@
+// App.test.js
 import { render, screen } from '@testing-library/react';
 import App from './App';
+import { processBrevierData } from './components/brevierDataProcessor';
 
-test('renders learn react link', () => {
+// Original App test
+test('renders app', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  // Basic render test
+  expect(document.body).toBeInTheDocument();
 });

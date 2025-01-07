@@ -10435,14 +10435,6 @@ export const deceasedData =  {
         "birth": "12.°Mai°1937°in°Posušje (BIH¥-88240)",
         "grave": "Friedhof°Posušje",
         "age": 83
-      },
-      {
-        "year": 2024,
-        "birthdate": "2238-04-22",
-        "name": "Dr.°Norbert°Zwergel, Pfr.i.R., Msgr., GR, Ehrendomkapitular, Freigericht¥-Somborn",
-        "birth": "22.°April°1938°in°Horbach",
-        "grave": "Friedhof°Altenmittlau",
-        "age": 86
       }
     ],
     "24": [

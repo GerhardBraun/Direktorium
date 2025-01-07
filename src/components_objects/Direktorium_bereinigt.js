@@ -1,39 +1,10 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { Menu } from 'lucide-react';
 import React from 'react';
-import { liturgicalData } from './liturgicalData.ts';
-import { deceasedData } from './deceasedData.ts';
-import { ReferenceDialog, parseTextWithReferences } from './referenceLink.jsx';
-import { getLiturgicalInfo, LiturgicalSeason } from './liturgicalCalendar.js';
-import { processBrevierData } from './brevierDataProcessor.js';
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from './ui/tooltip.jsx';
-
-const fontFamily = 'Cambria, serif';
-const hangingIndent = '3.2em'; // Variable für den Einzug
-const deceasedSizeRatio = 0.9;
-const DAYS_BUFFER = 7; // Anzahl der Tage vor/nach dem ausgewählten Datum
-const rubricColor = '#b6a03a'; // Tailwind red-700
-
-const months = ["Januar", "Februar", "März", "April", "Mai", "Juni",
-    "Juli", "August", "September", "Oktober", "November", "Dezember"];
-
-const PrayerHours = {
-    INVITATORIUM: 'invitatorium',
-    LESEHORE: 'lesehore',
-    LAUDES: 'laudes',
-    TERZ: 'terz',
-    SEXT: 'sext',
-    NON: 'non',
-    VESPER: 'vesper',
-    KOMPLET: 'komplet'
-};
-
-// Enum for text sources
-const TextSources = {
-    EIG: 'eig',
-    COM: 'com',
-    WT: 'wt'
-};
+import { liturgicalData } from './liturgicalData';
+import { deceasedData } from './deceasedData';
+import { ReferenceDialog, parseTextWithReferences } from './referenceLink';
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from './ui/tooltip';
 
 const formatText = (text) => {
     if (!text) return '';
@@ -75,6 +46,9 @@ const getDateRange = (date, daysBefore, daysAfter) => {
 const isDateInRange = (date, startDate, endDate) => {
     return date >= startDate && date <= endDate;
 };
+
+const months = ["Januar", "Februar", "März", "April", "Mai", "Juni",
+    "Juli", "August", "September", "Oktober", "November", "Dezember"];
 
 const processNotesContent = (content) => {
     if (!content) return [];
@@ -758,587 +732,6 @@ const DeceasedEntry = ({
     );
 };
 
-const getSeasonName = (season) => {
-    switch (season) {
-        case LiturgicalSeason.ADVENT:
-            return 'Adventswoche';
-        case LiturgicalSeason.CHRISTMAS:
-            return 'Woche der Weihnachtszeit';
-        case LiturgicalSeason.ORDINARY_TIME:
-            return 'Woche im Jahreskreis';
-        case LiturgicalSeason.LENT:
-            return 'Fastenwoche';
-        case LiturgicalSeason.EASTER:
-            return 'Woche der Osterzeit';
-        default:
-            return '';
-    }
-};
-
-const getDayName = (date) => {
-    const days = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
-    return days[date.getDay()];
-};
-
-const formatLiturgicalInfo = (info, date) => {
-    if (!info) return '';
-    const dayName = getDayName(date);
-    return `${dayName} der ${info.week}. ${getSeasonName(info.season)}`;
-};
-
-// Prayer Menu Component
-const PrayerMenu = ({ title, onSelectHour, setViewMode, onPrevDay, onNextDay, selectedDate }) => {
-    const [liturgicalInfo, setLiturgicalInfo] = useState(null);
-    const [prayerTexts, setPrayerTexts] = useState(null);  // Neuer State für die Gebetstext-Daten
-
-    useEffect(() => {
-        const info = getLiturgicalInfo(selectedDate);
-        setLiturgicalInfo(info);
-
-        // Verarbeite die Gebetsdaten
-        if (info) {
-            const processedData = processBrevierData({
-                season: info.season,
-                week: info.week,
-                dayOfWeek: selectedDate.getDay(),
-                selectedDate: selectedDate
-            });
-            setPrayerTexts(processedData);
-        }
-    }, [selectedDate]);
-
-    return (
-        <div className="flex flex-col p-4 bg-white dark:bg-gray-900">
-            {/* Title bar with navigation */}
-            <div className="flex items-center justify-between mb-2">
-                <button
-                    onClick={onPrevDay}
-                    className="shrink-0 px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
-                    title="Vorheriger Tag"
-                >
-                    ‹
-                </button>
-                <div className="text-center">
-                    <h1 className="text-xl font-bold text-gray-900 dark:text-gray-100">
-                        {title}
-                    </h1>
-                    {liturgicalInfo && (
-                        <div className="text-sm text-gray-600 dark:text-gray-400">
-                            {formatLiturgicalInfo(liturgicalInfo, selectedDate)}
-                        </div>
-                    )}
-                </div>
-                <button
-                    onClick={onNextDay}
-                    className="shrink-0 px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
-                    title="Nächster Tag"
-                >
-                    ›
-                </button>
-            </div>
-
-            {/* Prayer Hours */}
-            <div className="space-y-2 mb-6">
-                {Object.values(PrayerHours).map(hour => (
-                    <button
-                        key={hour}
-                        onClick={() => {
-                            console.log('Sending to parent:', {
-                                hour,
-                                texts: prayerTexts
-                            });
-                            onSelectHour(hour, prayerTexts);
-                        }}
-                        className="w-full p-3 text-left rounded-lg bg-gray-100 dark:bg-gray-800 
-                            hover:bg-gray-200 dark:hover:bg-gray-700 
-                            text-gray-900 dark:text-gray-100"
-                    >
-                        {hour.charAt(0).toUpperCase() + hour.slice(1)}
-                    </button>
-                ))}
-            </div>
-
-            {/* Mass */}
-            <button
-                onClick={() => onSelectHour('mass')}
-                className="w-full p-3 mb-6 text-left rounded-lg bg-gray-100 dark:bg-gray-800 
-                           hover:bg-gray-200 dark:hover:bg-gray-700 
-                           text-gray-900 dark:text-gray-100"
-            >
-                Messfeier
-            </button>
-
-            {/* View Selection with spacing */}
-            <div className="space-y-2 pt-4 border-t dark:border-gray-700">
-                <button
-                    onClick={() => setViewMode('directory')}
-                    className="w-full p-3 text-left rounded-lg bg-gray-100 dark:bg-gray-800 
-                             hover:bg-gray-200 dark:hover:bg-gray-700 
-                             text-gray-900 dark:text-gray-100"
-                >
-                    Direktorium
-                </button>
-                <button
-                    onClick={() => setViewMode('deceased')}
-                    className="w-full p-3 text-left rounded-lg bg-gray-100 dark:bg-gray-800 
-                             hover:bg-gray-200 dark:hover:bg-gray-700 
-                             text-gray-900 dark:text-gray-100"
-                >
-                    Totenverzeichnis
-                </button>
-            </div>
-        </div>
-    );
-};
-
-const BackButton = ({ onClick }) => (
-    <button
-        onClick={onClick}
-        className="w-full p-3 mb-4 text-center rounded-lg bg-gray-100 dark:bg-gray-800 
-                 hover:bg-gray-200 dark:hover:bg-gray-700 
-                 text-gray-900 dark:text-gray-100"
-    >
-        ← Zurück zur Stundengebetauswahl
-    </button>
-);
-
-// Prayer Text Display Component
-const PrayerTextDisplay = ({ hour, texts, onBack }) => {
-    const [localPrefComm, setLocalPrefComm] = useState(texts?.prefComm || 0);
-    const [localPrefLatin, setLocalPrefLatin] = useState(0);
-
-    if (!hour || !texts || !texts[hour]) {
-        return <div className="p-4">Keine Daten verfügbar</div>;
-    }
-
-    const doxology = "Ehre sei dem Vater und dem Sohn^*und dem Heiligen Geist,^pwie im Anfang so auch jetzt und alle Zeit^*und in Ewigkeit. Amen.";
-    const prefComm = texts.prefComm || 0;  // Default to 0 if not provided
-    const rank_wt = texts.rank_wt || 0
-    const rank_date = texts.rank_date || 0
-
-    // Get value from sources in priority order: eig -> wt -> com
-    const getValue = (field) => {
-        // 1. Prüfe zuerst "eig"
-        if (texts[hour]['eig']?.[field]) {
-            return texts[hour]['eig'][field];
-        }
-
-        // 2. Prüfe "com" wenn prefComm = 1
-        if (localPrefComm === 1 && texts[hour]['com']?.[field]) {
-            return texts[hour]['com'][field];
-        }
-
-        // 3. Verwende "wt" als letzte Option
-        if (texts[hour]['wt']?.[field]) {
-            return texts[hour]['wt'][field];
-        }
-
-        return null;
-    };
-
-    const checkSources = (field) => {
-        const hasEig = texts[hour]['eig']?.[field];
-        const hasWt = texts[hour]['wt']?.[field];
-        const hasComm = texts[hour]['com']?.[field];
-
-        return {
-            hasEig,
-            hasWt,
-            hasComm,
-            showSources: !hasEig && hasWt && hasComm
-        };
-    };
-
-    // Component for section headers with source indicators
-    const SectionHeader = ({ title, field, latinField }) => {
-        const { hasEig, showSources } = checkSources(field);
-        const hasLatin = latinField && texts[hour]['wt']?.[latinField];
-
-        if (!showSources && !hasLatin) {
-            return <h2 className="prayer-heading">{title}</h2>;
-        }
-
-        return (
-            <h2 className="prayer-heading flex items-center gap-3">
-                {title}
-                {hasLatin && (
-                    <button
-                        onClick={() => setLocalPrefLatin(prev => prev === 0 ? 1 : 0)}
-                        className="font-normal"
-                        style={{ color: rubricColor }}
-                    >
-                        (dt./lat.)
-                    </button>
-                )}
-                {showSources && (
-                    <span className="font-normal">
-                        <button
-                            onClick={() => setLocalPrefComm(1)}
-                            className={`${localPrefComm === 1 ? 'underline' : ''}`}
-                            style={{ color: rubricColor }}
-                        >
-                            Comm
-                        </button>
-                        {"  |  "}
-                        <button
-                            onClick={() => setLocalPrefComm(0)}
-                            className={`${localPrefComm === 0 ? 'underline' : ''}`}
-                            style={{ color: rubricColor }}
-                        >
-                            Wt
-                        </button>
-                    </span>
-                )}
-            </h2>
-        );
-    };
-
-    // Format psalm data
-    const formatPsalm = (number, verses, title, quote, text) => {
-        if (!number) return null;
-        return (
-            <div className="mb-4">
-                <div className="font-bold mt-2" style={{ color: rubricColor }}>
-                    {number > 150 ? (<>Canticum: {verses}</>) : (
-                        <>  Psalm {number}
-                            {verses && <>,{verses}</>}
-                        </>
-                    )}
-                </div>
-                {title && <div className="mt-0 text-[0.9em] text-gray-400">{title}</div>}
-                {quote && <div className="text-[0.9em] leading-[1em] italic text-gray-400 mt-0">{quote}</div>}
-                {text && <div className="whitespace-pre-wrap">{formatPrayerParagraph(text)}</div>}
-                {number !== 160 && <div className="whitespace-pre-wrap">{formatPrayerParagraph(doxology)}</div>}
-            </div >
-        );
-    };
-
-    // Rubric component for styled headers and labels
-    const Rubric = ({ children, style, isHeader = false }) => (
-        <span
-            className={`${isHeader ? 'text-lg font-bold mb-4' : ''}`}
-            style={{
-                color: rubricColor,
-                ...style
-            }}
-        >
-            {children}
-        </span>
-    );
-
-    // Format prayer text with specified formatting  
-    const formatPrayerText = (text) => {
-        if (!text || typeof text !== 'string') return '';
-
-        return text
-            .replace(/°/g, '\u00A0')
-            .replace(/\^\*/g, '\u00A0*\n')
-            .replace(/\^\+/g, '\u00A0†\n')
-            .replace(/\^l/g, '\n')
-            .replace(/\^r(.*?)\^0r/g, (_, content) => `<span class="text-red-700">${content}</span>`)
-            .replace(/\^v(.*?)\^0v/g, '$1');
-    };
-
-    const formatPrayerParagraph = (text) => {
-        const preparedText = formatPrayerText(text);
-        const paragraphs = preparedText.split(/\^[pqh]/);
-        const formats = preparedText.match(/\^[pqh]/g) || [];
-
-        // Entferne das erste Element, wenn es leer ist und der Text mit ^ beginnt
-        if (preparedText.startsWith('^') && paragraphs[0] === '') {
-            paragraphs.shift();
-        } else {
-            // Füge ^p nur hinzu, wenn der Text nicht mit ^ beginnt
-            formats.unshift('^p');
-        }
-
-        return paragraphs.map((paragraph, index) => {
-            if (!paragraph.trim()) return null;
-
-            const format = formats[index] || '^p';
-            switch (format) {
-                case '^h':
-                    return (
-                        <div key={index} className="whitespace-pre-wrap font-bold mt-2">
-                            <div dangerouslySetInnerHTML={{ __html: paragraph }} />
-                        </div>
-                    );
-                case '^q':
-                    return (
-                        <div key={index} className="whitespace-pre-wrap flex">
-                            <span className="w-[0.8em] flex-shrink-0">–</span>
-                            <div dangerouslySetInnerHTML={{ __html: paragraph }} />
-                        </div>
-                    );
-                default: // ^p
-                    return (
-                        <div key={index} className="whitespace-pre-wrap mt-[0.66em]">
-                            <div dangerouslySetInnerHTML={{ __html: paragraph }} />
-                        </div>
-                    );
-            }
-        }).filter(Boolean);
-    };
-
-    return (
-        <div className="p-4 leading-[1.35em]">
-            <BackButton onClick={onBack} />
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow">
-
-                {getValue('hymn_1') && (
-                    <div className="mb-1">
-                        <h2 className="prayer-heading">HYMNUS</h2>
-                        {getValue('hymn_1')?.text && (
-                            <div className="mb-4">
-                                {formatPrayerParagraph(getValue('hymn_1').text)}
-                            </div>
-                        )}
-                        {getValue('hymn_2')?.text && (
-                            <>
-                                <Rubric>Oder:</Rubric>
-                                <div className="mb-4">
-                                    {formatPrayerParagraph(getValue('hymn_2').text)}
-                                </div>
-                            </>
-                        )}
-                        {getValue('hymn_3')?.text && (
-                            <>
-                                <Rubric>Oder:</Rubric>
-                                <div className="mb-4">
-                                    {formatPrayerParagraph(getValue('hymn_3').text)}
-                                </div>
-                            </>
-                        )}
-                        {getValue('hymn_nacht')?.text && (
-                            <>
-                                <Rubric>In der Nacht oder am frühen Morgen:</Rubric>
-                                <div className="mb-4">
-                                    {formatPrayerParagraph(getValue('hymn_nacht').text)}
-                                </div>
-                            </>
-                        )}
-                        {getValue('hymn_kl')?.text && (
-                            <>
-                                <Rubric>im Kleinen Stundenbuch:</Rubric>
-                                <div className="">
-                                    {formatPrayerParagraph(getValue('hymn_kl').text)}
-                                </div>
-                            </>
-                        )}
-                    </div>)}
-
-                <div className="mb-1">
-                    <SectionHeader title="PSALMODIE" field="ps_1" />
-                    {getValue('ant_0') && (
-                        <div className="mb-4">
-                            <Rubric style={{ display: 'inline' }}>Ant.&nbsp;</Rubric>
-                            {formatPrayerText(getValue('ant_0'))}
-                        </div>)}
-
-                    {getValue('ps_95') && (
-                        <div className="mb-4">
-                            {formatPrayerParagraph(getValue('ps_95').text)}
-                        </div>
-                    )}
-                    {[1, 2, 3].map(num => {
-                        const psalm = getValue(`ps_${num}`);
-                        const ant = getValue(`ant_${num}`);
-                        if (!psalm && !ant) return null;
-
-                        return (
-                            <div key={num} className="mb-4">
-                                {ant && (
-                                    <div style={{ display: 'inline' }}>
-                                        <Rubric >{num}. Ant.&nbsp;</Rubric>
-                                        {formatPrayerText(ant)}
-                                    </div>
-                                )}
-                                {psalm && formatPsalm(
-                                    psalm.number,
-                                    psalm.verses,
-                                    psalm.title,
-                                    psalm.quote,
-                                    psalm.text
-                                )}
-                                {ant && (
-                                    <div >
-                                        <Rubric>{num}. Ant.&nbsp;</Rubric>
-                                        {formatPrayerText(ant)}
-                                    </div>
-                                )}
-                            </div>
-                        );
-                    })}
-                    {getValue('ant_0') && (
-                        <div>
-                            <Rubric>Ant.&nbsp;</Rubric>
-                            {formatPrayerText(getValue('ant_0'))}
-                        </div>
-                    )}
-                </div>
-
-                {getValue('resp0_0') && (
-                    <div className="mb-1">
-                        <SectionHeader title="VERSIKEL" field="resp0_0" />
-                        {getValue('resp0_0') && (
-                            <div className="mb-0 flex gap-0">
-                                <Rubric>℣&nbsp;&nbsp;</Rubric>
-                                <div>{formatPrayerText(getValue('resp0_0'))}</div>
-                            </div>
-                        )}
-                        {getValue('resp0_1') && (
-                            <div className="flex gap-0">
-                                <Rubric>℟&nbsp;&nbsp;</Rubric>
-                                <div>{formatPrayerText(getValue('resp0_1'))}</div>
-                            </div>
-                        )}
-                    </div>)}
-
-                {getValue('les_buch') && (<div className="mb-1">
-                    <SectionHeader
-                        title={hour === "lesehore" ? "ERSTE LESUNG" : "KURZLESUNG"}
-                        field="les_text"
-                    />
-                    {getValue('les_buch') && getValue('les_stelle') && (
-                        <div>
-                            <div className='text-[0.9em] text-gray-400'>{formatPrayerText(getValue('les_buch'))} {formatPrayerText(getValue('les_stelle'))}</div>
-                            {formatPrayerParagraph(getValue('les_text'))}
-                        </div>
-                    )}
-                </div>)}
-
-                {getValue('resp1_1') && (
-                    <div className="mb-1">
-                        <SectionHeader title="RESPONSORIUM" field="resp1_1" />
-                        {getValue('resp1_0') && getValue('resp1_1') && (
-                            <div className="mb-0 flex gap-0">
-                                <Rubric>℣&nbsp;&nbsp;</Rubric>
-                                <div>
-                                    {formatPrayerText(getValue('resp1_0'))}
-                                </div>
-
-                            </div>
-
-                        )}
-                        {getValue('resp1_0') && getValue('resp1_1') && (
-                            <div className="mb-0 flex gap-0">
-                                <Rubric>℟&nbsp;&nbsp;</Rubric>
-                                <div>
-                                    {formatPrayerText(getValue('resp1_1'))}
-                                </div>
-                            </div>
-
-                        )}
-                        {getValue('resp1_1') && getValue('resp1_2') && (
-                            <div className="mb-0 flex gap-0">
-                                <Rubric>℟&nbsp;&nbsp;</Rubric>
-                                <div>
-                                    {formatPrayerText(getValue('resp1_1'))}
-                                    <span style={{ color: rubricColor }}> *&nbsp;</span>
-                                    {formatPrayerText(getValue('resp1_2'))}
-                                </div>
-                            </div>
-                        )}
-                        {getValue('resp1_3') && getValue('resp1_2') && (
-                            <div className="flex gap-0">
-                                <Rubric>℣&nbsp;&nbsp;</Rubric>
-                                <div>
-                                    {formatPrayerText(getValue('resp1_3'))}
-                                    <span style={{ color: rubricColor }}> *&nbsp;</span>
-                                    {formatPrayerText(getValue('resp1_2'))}
-                                </div>
-                            </div>
-                        )}
-                    </div>)}
-
-                {getValue('ev') && (
-                    <div className="mb-1">
-                        <SectionHeader
-                            title={hour === "laudes" ? "BENEDICTUS" : "MAGNIFICAT"}
-                            field='ev'
-                            latinField='ev_lat'
-                        />
-                        {getValue('ant_ev') && (
-                            <div >
-                                <Rubric>Ant.&nbsp;</Rubric>
-                                {formatPrayerText(getValue('ant_ev'))}
-                            </div>
-                        )}
-                        {getValue('ev') && (
-                            <div className="mb-4">
-                                {localPrefLatin === 1 ? formatPrayerParagraph(getValue('ev_lat').text) : formatPrayerParagraph(getValue('ev').text)}
-                            </div>
-                        )}
-                        {getValue('ant_ev') && (
-                            <div >
-                                <Rubric>Ant.&nbsp;</Rubric>
-                                {formatPrayerText(getValue('ant_ev'))}
-                            </div>
-                        )}
-                    </div>)}
-
-                {getValue('bitten') && (
-                    <div className="mb-1">
-                        <SectionHeader
-                            title={hour === "laudes" ? "BITTEN" : "FÜRBITTEN"}
-                            field="bitten"
-                        />
-                        {getValue('bitten_e') && (
-                            <div className="mb-2">
-                                {formatPrayerParagraph(getValue('bitten_e'))}
-                            </div>
-                        )}
-                        {getValue('bitten_r') && (
-                            <div className="mb-2 flex gap-0">
-                                <Rubric>℟&nbsp;&nbsp;</Rubric>
-                                <div>{formatPrayerText(getValue('bitten_r'))}</div>
-                            </div>
-                        )}
-                        {getValue('bitten') && (
-                            <div className="">
-                                {formatPrayerParagraph(getValue('bitten'))}
-                            </div>
-                        )}
-                    </div>)
-                }
-
-                {getValue('vu') && (
-                    <div className="mb-1">
-                        <SectionHeader
-                            title={hour === "lesehore" ? "TE DEUM" : "VATERUNSER"}
-                            field="vu"
-                            latinField="vu_lat"
-                        />
-                        {getValue('vu') && (
-                            <div className="mb-4">
-                                {localPrefLatin === 1 ? formatPrayerParagraph(getValue('vu_lat').text) : formatPrayerParagraph(getValue('vu').text)}
-                            </div>
-                        )}
-
-                    </div>)
-                }
-
-                {
-                    hour !== "invitatorium" && (
-                        <div className="mb-1">
-                            <SectionHeader title="ORATION" field="oration" />
-                            {getValue('oration') && (
-                                <div className="whitespace-pre-wrap">
-                                    {formatPrayerParagraph(getValue('oration'))}
-                                </div>
-                            )}
-                        </div>)
-                }
-            </div>
-            <div className="mt-4">
-                <BackButton onClick={onBack} />
-            </div>
-        </div>
-    );
-};
-
-export { PrayerMenu, PrayerTextDisplay, PrayerHours, TextSources };
-
 const ScrollableContainer = ({ children, containerRef }) => {
     const [containersReady, setContainersReady] = useState(false);
 
@@ -1366,25 +759,29 @@ const ScrollableContainer = ({ children, containerRef }) => {
 };
 
 export default function LiturgicalCalendar() {
+    const fontFamily = 'Cambria, serif';
     const [selectedDate, setSelectedDate] = useState(new Date());
     const [showDatePicker, setShowDatePicker] = useState(false);
     const [theme, setTheme] = useState(() => {
+        console.log('Initializing theme state');
         const savedTheme = localStorage.getItem('theme');
+        console.log('Saved theme from localStorage:', savedTheme);
         return savedTheme || 'light';
     });
-    const [selectedHour, setSelectedHour] = useState(null);
-    const [prayerTexts, setPrayerTexts] = useState(null);
     const [expandedDeceased, setExpandedDeceased] = useState({});
     const [deceasedMode, setDeceasedMode] = useState('recent');
-    const [viewMode, setViewMode] = useState('directory'); // 'directory', 'deceased', 'prayer', or 'prayerText'
+    const [viewMode, setViewMode] = useState('directory'); // 'directory' or 'deceased'
     const [baseFontSize, setBaseFontSize] = useState(14); // Standard-Schriftgröße in pt
     const [isReady, setIsReady] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [activeSection, setActiveSection] = useState('fontSize');
     const [isNarrowScreen, setIsNarrowScreen] = useState(false);
+    const hangingIndent = '3.2em'; // Variable für den Einzug
+    const deceasedSizeRatio = 0.9;
     const entriesRef = useRef({});
     const containerRef = useRef(null);
     const [visibleRange, setVisibleRange] = useState({ startDate: null, endDate: null });
+    const DAYS_BUFFER = 7; // Anzahl der Tage vor/nach dem ausgewählten Datum
     const [isScrolling, setIsScrolling] = useState(false);
     const scrollTimeoutRef = useRef(null);
 
@@ -1518,12 +915,21 @@ export default function LiturgicalCalendar() {
     }, []);
 
     useEffect(() => {
+        console.log('Theme effect triggered. New theme:', theme);
         document.documentElement.classList.toggle('dark', theme === 'dark');
         document.body.classList.toggle('dark', theme === 'dark');
+        console.log('dark class on html:', document.documentElement.classList.contains('dark'));
+        console.log('dark class on body:', document.body.classList.contains('dark'));
         localStorage.setItem('theme', theme);
     }, [theme]);
 
     useEffect(() => {
+        console.log('Scroll Effect triggered:', {
+            selectedDate: selectedDate?.toISOString(),
+            dateChangeSource,
+            isReady
+        });
+
         // Wenn durch Scrollen ausgelöst oder nicht bereit, nichts tun
         if (!isReady || !containerRef.current || dateChangeSource === 'scroll') {
             return;
@@ -1796,8 +1202,11 @@ export default function LiturgicalCalendar() {
         };
 
         const handleThemeChange = (isRight) => {
+            console.log('handleThemeChange called with isRight:', isRight);
+            console.log('Current theme before change:', theme);
             setTheme(prev => {
                 const newTheme = prev === 'light' ? 'dark' : 'light';
+                console.log('Setting new theme to:', newTheme);
                 return newTheme;
             });
         };
@@ -2048,11 +1457,6 @@ export default function LiturgicalCalendar() {
                 font-weight: bold;
                 font-variant: small-caps;
             }
-            .prayer-heading {
-                font-weight: bold;
-                margin-top: 1em;
-                color: ${rubricColor};
-            }
         `;
         document.head.appendChild(styleElement);
         return () => {
@@ -2149,7 +1553,7 @@ export default function LiturgicalCalendar() {
                                         }
                                     }}
                                     className="w-full px-4 py-2 border dark:border-gray-700 rounded hover:bg-gray-50 dark:hover:bg-gray-800 
-                    cursor-pointer bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100"
+                        cursor-pointer bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100"
                                     placeholder="TT.MM.JJ"
                                 />
                                 <svg
@@ -2173,138 +1577,97 @@ export default function LiturgicalCalendar() {
                             >
                                 »
                             </button>
-
-                            <button
-                                onClick={() => setViewMode('prayer')}
-                                className="shrink-0 px-4 py-2 bg-orange-100 dark:bg-yellow-400/60 hover:bg-orange-200 dark:hover:bg-yellow-400/70 rounded"
-                                title="Stundengebet"
-                            >
-                                StB
-                            </button>
                         </div>
                     </div>
                 </div>
 
                 {/* Main Content Area */}
                 <div className="mt-4">
-                    {/* Prayer Views */}
-                    {viewMode === 'prayer' && (
-                        <PrayerMenu
-                            title={formatDate(selectedDate)}
-                            selectedDate={selectedDate}
-                            onSelectHour={(hour, texts) => {
-                                setSelectedHour(hour);
-                                setPrayerTexts(texts);
-                                setViewMode('prayerText');
-                            }}
-                            setViewMode={setViewMode}
-                            onPrevDay={() => {
-                                setDateChangeSource('navigation');
-                                setSelectedDate(new Date(selectedDate.setDate(selectedDate.getDate() - 1)));
-                            }}
-                            onNextDay={() => {
-                                setDateChangeSource('navigation');
-                                setSelectedDate(new Date(selectedDate.setDate(selectedDate.getDate() + 1)));
-                            }}
-                        />
-                    )}
+                    <ScrollableContainer
+                        containerRef={containerRef}
+                        selectedDate={selectedDate}
+                        dateChangeSource={dateChangeSource}
+                    >
+                        {visibleEntries.before && visibleEntries.before.length > 0 && (
+                            <div
+                                data-before-container="true"
+                                style={{
+                                    position: 'relative',
+                                    marginTop: '-50vh',
+                                    paddingTop: '50vh',
+                                    marginBottom: '0'
+                                }}
+                            >
+                                {visibleEntries.before.map(entry => (
+                                    viewMode === 'directory' ? (
+                                        <DayEntry
+                                            key={entry.date.toISOString()}
+                                            entry={entry}
+                                            formatDate={formatDate}
+                                            formatText={formatText}
+                                            selectedDate={selectedDate}
+                                            months={months}
+                                            hangingIndent={hangingIndent}
+                                            deceasedMode={deceasedMode}
+                                            deceasedSizeRatio={deceasedSizeRatio}
+                                            expandedDeceased={expandedDeceased}
+                                            setExpandedDeceased={setExpandedDeceased}
+                                            entriesRef={entriesRef}
+                                        />
+                                    ) : (
+                                        <DeceasedEntry
+                                            key={entry.date.toISOString()}
+                                            entry={entry}
+                                            formatDate={formatDate}
+                                            formatText={formatText}  // Added this prop
+                                            selectedDate={selectedDate}
+                                            months={months}
+                                            entriesRef={entriesRef}
+                                        />
+                                    )
+                                ))}
+                            </div>
+                        )}
 
-                    {viewMode === 'prayerText' && (
-                        <PrayerTextDisplay
-                            hour={selectedHour}
-                            texts={prayerTexts}
-                            onBack={() => setViewMode('prayer')}
-                        />
-                    )}
-
-                    {/* Original ScrollableContainer for directory/deceased views */}
-                    {(viewMode === 'directory' || viewMode === 'deceased') && (
-                        <ScrollableContainer
-                            containerRef={containerRef}
-                            selectedDate={selectedDate}
-                            dateChangeSource={dateChangeSource}
-                        >
-                            {visibleEntries.before && visibleEntries.before.length > 0 && (
-                                <div
-                                    data-before-container="true"
-                                    style={{
-                                        position: 'relative',
-                                        marginTop: '-50vh',
-                                        paddingTop: '50vh',
-                                        marginBottom: '0'
-                                    }}
-                                >
-                                    {visibleEntries.before.map(entry => (
-                                        viewMode === 'directory' ? (
-                                            <DayEntry
-                                                key={entry.date.toISOString()}
-                                                entry={entry}
-                                                formatDate={formatDate}
-                                                formatText={formatText}
-                                                selectedDate={selectedDate}
-                                                months={months}
-                                                hangingIndent={hangingIndent}
-                                                deceasedMode={deceasedMode}
-                                                deceasedSizeRatio={deceasedSizeRatio}
-                                                expandedDeceased={expandedDeceased}
-                                                setExpandedDeceased={setExpandedDeceased}
-                                                entriesRef={entriesRef}
-                                            />
-                                        ) : (
-                                            <DeceasedEntry
-                                                key={entry.date.toISOString()}
-                                                entry={entry}
-                                                formatDate={formatDate}
-                                                formatText={formatText}  // Added this prop
-                                                selectedDate={selectedDate}
-                                                months={months}
-                                                entriesRef={entriesRef}
-                                            />
-                                        )
-                                    ))}
-                                </div>
-                            )}
-
-                            {visibleEntries.current && visibleEntries.current.length > 0 && (
-                                <div
-                                    data-current-container="true"
-                                    style={{
-                                        position: 'relative',
-                                        marginTop: '0'
-                                    }}
-                                >
-                                    {visibleEntries.current.map(entry => (
-                                        viewMode === 'directory' ? (
-                                            <DayEntry
-                                                key={entry.date.toISOString()}
-                                                entry={entry}
-                                                formatDate={formatDate}
-                                                formatText={formatText}
-                                                selectedDate={selectedDate}
-                                                months={months}
-                                                hangingIndent={hangingIndent}
-                                                deceasedMode={deceasedMode}
-                                                deceasedSizeRatio={deceasedSizeRatio}
-                                                expandedDeceased={expandedDeceased}
-                                                setExpandedDeceased={setExpandedDeceased}
-                                                entriesRef={entriesRef}
-                                            />
-                                        ) : (
-                                            <DeceasedEntry
-                                                key={entry.date.toISOString()}
-                                                entry={entry}
-                                                formatDate={formatDate}
-                                                formatText={formatText}  // Added this prop
-                                                selectedDate={selectedDate}
-                                                months={months}
-                                                entriesRef={entriesRef}
-                                            />
-                                        )
-                                    ))}
-                                </div>
-                            )}
-                        </ScrollableContainer>
-                    )}
+                        {visibleEntries.current && visibleEntries.current.length > 0 && (
+                            <div
+                                data-current-container="true"
+                                style={{
+                                    position: 'relative',
+                                    marginTop: '0'
+                                }}
+                            >
+                                {visibleEntries.current.map(entry => (
+                                    viewMode === 'directory' ? (
+                                        <DayEntry
+                                            key={entry.date.toISOString()}
+                                            entry={entry}
+                                            formatDate={formatDate}
+                                            formatText={formatText}
+                                            selectedDate={selectedDate}
+                                            months={months}
+                                            hangingIndent={hangingIndent}
+                                            deceasedMode={deceasedMode}
+                                            deceasedSizeRatio={deceasedSizeRatio}
+                                            expandedDeceased={expandedDeceased}
+                                            setExpandedDeceased={setExpandedDeceased}
+                                            entriesRef={entriesRef}
+                                        />
+                                    ) : (
+                                        <DeceasedEntry
+                                            key={entry.date.toISOString()}
+                                            entry={entry}
+                                            formatDate={formatDate}
+                                            formatText={formatText}  // Added this prop
+                                            selectedDate={selectedDate}
+                                            months={months}
+                                            entriesRef={entriesRef}
+                                        />
+                                    )
+                                ))}
+                            </div>
+                        )}
+                    </ScrollableContainer>
                 </div>
             </div>
         </div>

@@ -1,11 +1,12 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { Menu } from 'lucide-react';
 import React from 'react';
-import { liturgicalData } from './liturgicalData';
-import { deceasedData } from './deceasedData';
-import { ReferenceDialog, parseTextWithReferences } from './referenceLink';
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from './ui/tooltip';
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "./ui/dialog";
+import { liturgicalData } from './liturgicalData.ts';
+import { deceasedData } from './deceasedData.ts';
+import { ReferenceDialog, parseTextWithReferences } from './referenceLink.jsx';
+import { getLiturgicalInfo, LiturgicalSeason } from './liturgicalCalendar.js';
+import { processBrevierData } from './brevierDataProcessor.js';
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from './ui/tooltip.jsx';
 
 const formatText = (text) => {
     if (!text) return '';
@@ -51,32 +52,117 @@ const isDateInRange = (date, startDate, endDate) => {
 const months = ["Januar", "Februar", "März", "April", "Mai", "Juni",
     "Juli", "August", "September", "Oktober", "November", "Dezember"];
 
-const processTextWithButtons = (line, inheritFontSize = true) => {
+const PrayerHours = {
+    INVITATORIUM: 'invitatorium',
+    LESEHORE: 'lesehore',
+    LAUDES: 'laudes',
+    TERZ: 'terz',
+    SEXT: 'sext',
+    NON: 'non',
+    VESPER: 'vesper',
+    KOMPLET: 'komplet'
+};
+
+// Enum for text sources
+const TextSources = {
+    EIG: 'eig',
+    COM: 'com',
+    WT: 'wt'
+};
+
+const processNotesContent = (content) => {
+    if (!content) return [];
+
+    // Zuerst alle ¥l durch <br /> ersetzen
+    content = content.replace(/¥l/g, '<br />');
+
+    // Dann die Absätze durch ¥h und ¥j splitten und verarbeiten
+    const segments = content.split(/(¥[hj])/);
+
+    // Kombiniere jeweils den Text mit seinem nachfolgenden Tag
+    const processedSegments = [];
+    for (let i = 0; i < segments.length - 1; i += 2) {
+        const text = segments[i];
+        const tag = segments[i + 1] || ''; // falls kein Tag am Ende
+        processedSegments.push(text + tag);
+    }
+
+    // Counter für die Nummerierung
+    let counter = 0;
+
+    // Jetzt die Segmente verarbeiten
+    return processedSegments.map(segment => {
+        // Bestimme den Typ basierend auf dem End-Tag
+        const type = segment.endsWith('¥j') ? 'centered' :
+            segment.endsWith('¥h') ? 'normal' :
+                'normal';
+
+        // Entferne End-Tags
+        let cleanedSegment = segment.replace(/¥[hj]$/, '');
+
+        // Verarbeite ¥s und füge Nummerierung hinzu
+        if (cleanedSegment.startsWith('¥s')) {
+            counter++;
+            cleanedSegment = `${counter}. ${cleanedSegment.substring(2)}`;
+        }
+        // Spezialfall "Hinweis: ¥s"
+        else if (cleanedSegment.includes('¥fHinweis:¥0f ¥s')) {
+            cleanedSegment = cleanedSegment.replace('¥s', '');
+        }
+
+        return {
+            type,
+            content: cleanedSegment.trim()
+        };
+    }).filter(segment => segment.content);
+};
+
+const NotesSection = ({ content, fontSize = '0.93em' }) => {
+    if (!content) return null;
+
+    const processedSegments = processNotesContent(content);
+
     return (
-        <div style={{
-            whiteSpace: 'pre-line',
-            // Keine explizite Schriftgröße hier, um vom Elternelement zu erben
-        }}>
-            {line.split(/(?=<button)/).map((segment, segIndex) => {
-                if (segment.startsWith('<button')) {
+        <div style={{ marginBottom: '1.25em' }}>
+            <div style={{ fontSize }} className="text-gray-900 dark:text-gray-100">
+                {processedSegments.map((segment, index) => {
+                    if (/^\d+\./.test(segment.content)) {
+                        // Nummerierte Absätze
+                        const match = segment.content.match(/^(\d+\.\s*)(.*)$/);
+                        if (match) {
+                            const [, number, text] = match;
+                            return (
+                                <div key={index} style={{ marginBottom: '0.16em' }}>
+                                    <span style={{
+                                        float: 'left',
+                                        width: '1.6em'
+                                    }}>{number}</span>
+                                    <div style={{
+                                        display: 'block',
+                                        marginLeft: '0em'
+                                    }}
+                                        dangerouslySetInnerHTML={{ __html: parseTextWithReferences(formatText(text)) }} />
+                                </div>
+                            );
+                        }
+                    }
+
+                    // Normale und zentrierte Absätze
                     return (
-                        <span
-                            key={segIndex}
+                        <p
+                            key={index}
                             style={{
-                                fontSize: 'inherit',  // Erbt die Schriftgröße vom Elternelement
-                                verticalAlign: 'baseline'
+                                marginBottom: '0.75em',
+                                textAlign: segment.type === 'centered' ? 'center' : 'left',
+                                fontSize: segment.type === 'centered' ? '1em' : 'inherit'
                             }}
-                            dangerouslySetInnerHTML={{ __html: segment }}
+                            dangerouslySetInnerHTML={{
+                                __html: parseTextWithReferences(formatText(segment.content))
+                            }}
                         />
                     );
-                }
-                return (
-                    <span
-                        key={segIndex}
-                        dangerouslySetInnerHTML={{ __html: parseTextWithReferences(segment) }}
-                    />
-                );
-            })}
+                })}
+            </div>
         </div>
     );
 };
@@ -85,7 +171,6 @@ const DayEntry = ({
     entry,
     formatDate,
     formatText,
-    formatNotes,
     selectedDate,
     months,
     hangingIndent,
@@ -246,7 +331,15 @@ const DayEntry = ({
                                                         </div>
                                                     );
                                                 } else {
-                                                    return processTextWithButtons(line);
+                                                    return (
+                                                        <div
+                                                            key={lineIndex}
+                                                            style={{
+                                                                whiteSpace: 'pre-line'
+                                                            }}
+                                                            dangerouslySetInnerHTML={{ __html: parseTextWithReferences(line) }}
+                                                        />
+                                                    );
                                                 }
                                             })}
                                         </div>
@@ -259,110 +352,11 @@ const DayEntry = ({
 
                 {/* Notes Section */}
                 {entry.notes && (
-                    <div style={{ marginBottom: '1.25em' }}>
-                        <div style={{ fontSize: '0.93em' }} className="text-gray-900 dark:text-gray-100">
-                            {formatNotes(entry.notes).split('\n').map((paragraph, index) => {
-                                if (/^\d+\./.test(paragraph)) {
-                                    const match = paragraph.match(/^(\d+\.\s*)(.*)$/);
-                                    if (match) {
-                                        const [, number, text] = match;
-                                        return (
-                                            <div key={index} style={{ marginBottom: '0.16em' }}>
-                                                <span style={{
-                                                    float: 'left',
-                                                    width: '1.5em'
-                                                }}>{number}</span>
-                                                <div style={{
-                                                    display: 'block',
-                                                    marginLeft: '1.5em'
-                                                }}
-                                                    dangerouslySetInnerHTML={{ __html: parseTextWithReferences(text) }} />
-                                            </div>
-                                        );
-                                    }
-                                }
-                                return processTextWithButtons(paragraph);
-                            })}
-                        </div>
-                    </div>
+                    <NotesSection content={entry.notes} />
                 )}
 
                 {entry.sec_notes && (
-                    <div style={{ marginBottom: '1.25em' }}>
-                        <div style={{ fontSize: '0.93em' }} className="text-gray-900 dark:text-gray-100">
-                            {entry.sec_notes.split('¥h').map((paragraph, index) => {
-                                // Initialize counter for each ¥h section
-                                let counter = 0;
-
-                                // Split by ¥j first
-                                const paragraphs = paragraph.split('¥j');
-
-                                return paragraphs.map((subParagraph, subIndex) => {
-                                    const isLastInSequence = subIndex === paragraphs.length - 1;
-
-                                    if (!isLastInSequence) {
-                                        // This is a ¥j paragraph that should be centered
-                                        return (
-                                            <p
-                                                key={`${index}-${subIndex}`}
-                                                style={{
-                                                    marginBottom: '0.75em',
-                                                    textAlign: 'center',
-                                                    fontSize: '1em'
-                                                }}
-                                                dangerouslySetInnerHTML={{ __html: parseTextWithReferences(formatText(subParagraph.trim())) }}
-                                            />
-                                        );
-                                    }
-
-                                    // Handle normal paragraphs or the remainder after ¥j
-                                    if (subParagraph.trim()) {
-                                        if (subParagraph.trim().startsWith('¥s')) {
-                                            // Increment counter for ¥s paragraphs
-                                            counter++;
-                                            const content = subParagraph.trim().substring(2);
-                                            return (
-                                                <div key={`${index}-${subIndex}`} style={{ marginBottom: '0.16em' }}>
-                                                    <span style={{
-                                                        float: 'left',
-                                                        width: '1.5em'
-                                                    }}>{counter}.</span>
-                                                    <div style={{
-                                                        display: 'block',
-                                                        marginLeft: '1.5em'
-                                                    }} dangerouslySetInnerHTML={{ __html: parseTextWithReferences(formatText(content)) }} />
-                                                </div>
-                                            );
-                                        } else if (subParagraph.trim().startsWith('¥fHinweis:¥0f ¥s')) {
-                                            // Handle single hint with ¥s
-                                            const content = subParagraph.trim().replace('¥s', '');
-                                            return (
-                                                <p
-                                                    key={`${index}-${subIndex}`}
-                                                    style={{
-                                                        marginBottom: '0.75em',
-                                                        textAlign: 'left'
-                                                    }}
-                                                    dangerouslySetInnerHTML={{ __html: parseTextWithReferences(formatText(content)) }}
-                                                />
-                                            );
-                                        }
-                                        return (
-                                            <p
-                                                key={`${index}-${subIndex}`}
-                                                style={{
-                                                    marginBottom: '0.75em',
-                                                    textAlign: 'left'
-                                                }}
-                                                dangerouslySetInnerHTML={{ __html: parseTextWithReferences(formatText(subParagraph.trim())) }}
-                                            />
-                                        );
-                                    }
-                                    return null;
-                                }).filter(Boolean);
-                            })}
-                        </div>
-                    </div>
+                    <NotesSection content={entry.sec_notes} />
                 )}
 
 
@@ -579,34 +573,7 @@ const DayEntry = ({
 
                 {/* Vigil Notes Section */}
                 {entry.vig_notes && (
-                    <div style={{ marginBottom: '1.25em' }}>
-                        <div style={{ fontSize: '0.93em' }} className="text-gray-900 dark:text-gray-100">
-                            {formatNotes(entry.vig_notes).split('\n').map((paragraph, index) => {
-                                if (/^\d+\./.test(paragraph)) {
-                                    const match = paragraph.match(/^(\d+\.\s*)(.*)$/);
-                                    if (match) {
-                                        const [, number, text] = match;
-                                        return (
-                                            <div key={index} style={{ marginBottom: '0.16em' }}>
-                                                <span style={{
-                                                    float: 'left',
-                                                    width: '1.5em'
-                                                }}>{number}</span>
-                                                <div style={{
-                                                    display: 'block',
-                                                    marginLeft: '0em'
-                                                }} dangerouslySetInnerHTML={{ __html: parseTextWithReferences(text) }} />
-                                            </div>
-                                        );
-                                    }
-                                }
-                                return (
-                                    <p key={index} style={{ marginBottom: '0.75em' }}
-                                        dangerouslySetInnerHTML={{ __html: parseTextWithReferences(paragraph) }} />
-                                );
-                            })}
-                        </div>
-                    </div>
+                    <NotesSection content={entry.vig_notes} />
                 )}
 
                 {/* Vigil Liturgy Section */}
@@ -785,6 +752,208 @@ const DeceasedEntry = ({
     );
 };
 
+
+// Prayer Menu Component
+const PrayerMenu = ({ title, onSelectHour, setViewMode, onPrevDay, onNextDay, selectedDate }) => {
+    const [liturgicalInfo, setLiturgicalInfo] = useState(null);
+    const [prayerTexts, setPrayerTexts] = useState(null);  // Neuer State für die Gebetstext-Daten
+
+    useEffect(() => {
+        const info = getLiturgicalInfo(selectedDate);
+        setLiturgicalInfo(info);
+
+        // Debug-Log für liturgicalInfo
+        console.log('liturgicalInfo:', info);
+
+        // Verarbeite die Gebetsdaten
+        if (info) {
+            const processedData = processBrevierData({
+                season: info.season,
+                week: info.week,
+                dayOfWeek: selectedDate.getDay(),
+                calendarDay: selectedDate.getDate()
+            });
+            setPrayerTexts(processedData);
+        }
+    }, [selectedDate]);
+
+    const getSeasonName = (season) => {
+        switch (season) {
+            case LiturgicalSeason.ADVENT:
+                return 'Adventswoche';
+            case LiturgicalSeason.CHRISTMAS:
+                return 'Woche der Weihnachtszeit';
+            case LiturgicalSeason.ORDINARY_TIME:
+                return 'Woche im Jahreskreis';
+            case LiturgicalSeason.LENT:
+                return 'Fastenwoche';
+            case LiturgicalSeason.EASTER:
+                return 'Woche der Osterzeit';
+            default:
+                return '';
+        }
+    };
+
+    const getDayName = (date) => {
+        const days = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
+        return days[date.getDay()];
+    };
+
+    const formatLiturgicalInfo = (info, date) => {
+        if (!info) return '';
+        const dayName = getDayName(date);
+        return `${dayName} der ${info.week}. ${getSeasonName(info.season)}`;
+    };
+
+    return (
+        <div className="flex flex-col p-4 bg-white dark:bg-gray-900">
+            {/* Title bar with navigation */}
+            <div className="flex items-center justify-between mb-2">
+                <button
+                    onClick={onPrevDay}
+                    className="shrink-0 px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
+                    title="Vorheriger Tag"
+                >
+                    ‹
+                </button>
+                <div className="text-center">
+                    <h1 className="text-xl font-bold text-gray-900 dark:text-gray-100">
+                        {title}
+                    </h1>
+                    {liturgicalInfo && (
+                        <div className="text-sm text-gray-600 dark:text-gray-400">
+                            {formatLiturgicalInfo(liturgicalInfo, selectedDate)}
+                        </div>
+                    )}
+                </div>
+                <button
+                    onClick={onNextDay}
+                    className="shrink-0 px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
+                    title="Nächster Tag"
+                >
+                    ›
+                </button>
+            </div>
+
+            {/* Prayer Hours */}
+            <div className="space-y-2 mb-6">
+                {Object.values(PrayerHours).map(hour => (
+                    <button
+                        key={hour}
+                        onClick={() => {
+                            console.log('Sending to parent:', {
+                                hour,
+                                texts: prayerTexts
+                            });
+                            onSelectHour(hour, prayerTexts);
+                        }}
+                        className="w-full p-3 text-left rounded-lg bg-gray-100 dark:bg-gray-800 
+                            hover:bg-gray-200 dark:hover:bg-gray-700 
+                            text-gray-900 dark:text-gray-100"
+                    >
+                        {hour.charAt(0).toUpperCase() + hour.slice(1)}
+                    </button>
+                ))}
+            </div>
+
+            {/* Mass */}
+            <button
+                onClick={() => onSelectHour('mass')}
+                className="w-full p-3 mb-6 text-left rounded-lg bg-gray-100 dark:bg-gray-800 
+                           hover:bg-gray-200 dark:hover:bg-gray-700 
+                           text-gray-900 dark:text-gray-100"
+            >
+                Messfeier
+            </button>
+
+            {/* View Selection with spacing */}
+            <div className="space-y-2 pt-4 border-t dark:border-gray-700">
+                <button
+                    onClick={() => setViewMode('directory')}
+                    className="w-full p-3 text-left rounded-lg bg-gray-100 dark:bg-gray-800 
+                             hover:bg-gray-200 dark:hover:bg-gray-700 
+                             text-gray-900 dark:text-gray-100"
+                >
+                    Direktorium
+                </button>
+                <button
+                    onClick={() => setViewMode('deceased')}
+                    className="w-full p-3 text-left rounded-lg bg-gray-100 dark:bg-gray-800 
+                             hover:bg-gray-200 dark:hover:bg-gray-700 
+                             text-gray-900 dark:text-gray-100"
+                >
+                    Totenverzeichnis
+                </button>
+            </div>
+        </div>
+    );
+};
+
+// Prayer Text Display Component
+const PrayerTextDisplay = ({ hour, texts }) => {
+    console.log('Rendering PrayerTextDisplay with:', { hour, texts });
+
+    // Zeige die verfügbaren Daten für diese Stunde
+    const hourData = {
+        hymn_1: [],
+        hymn_2: [],
+        hymn_3: [],
+        hymn_nacht: [],
+        hymn_kl: [],
+        ps_1: [],
+        ps_2: [],
+        ps_3: [],
+        ant_0: [],
+        ant_1: [],
+        ant_2: [],
+        ant_3: [],
+        ant_ev: [],
+        resp0_0: [],
+        resp0_1: [],
+        les_buch: [],
+        les_stelle: [],
+        resp1_0: [],
+        resp1_1: [],
+        resp1_2: [],
+        resp1_3: [],
+        bitten_e: [],
+        bitten_r: [],
+        bitten: [],
+        oration: []
+    };
+
+    // Sammle alle verfügbaren Daten für diese Stunde
+    Object.entries(texts).forEach(([key, value]) => {
+        if (value?.[hour]?.['Wt']) {
+            const data = value[hour]['Wt'];
+            // Für numerische Felder Konvertierung durchführen
+            if (key.startsWith('hymn_') || key.startsWith('ps_')) {
+                hourData[key] = Number(data);
+            } else {
+                hourData[key] = data;
+            }
+        }
+    });
+
+    return (
+        <div className="p-4">
+            <h2 className="text-xl font-bold mb-4">
+                {hour.charAt(0).toUpperCase() + hour.slice(1)}
+            </h2>
+
+            <div className="space-y-4">
+                {Object.entries(hourData).map(([key, value]) => (
+                    <div key={key} >
+                        <div className="whitespace-pre-wrap">{value}</div>
+                    </div>
+                ))}
+            </div>
+        </div>
+    );
+};
+
+export { PrayerMenu, PrayerTextDisplay, PrayerHours, TextSources };
+
 const ScrollableContainer = ({ children, containerRef }) => {
     const [containersReady, setContainersReady] = useState(false);
 
@@ -821,14 +990,14 @@ export default function LiturgicalCalendar() {
         console.log('Saved theme from localStorage:', savedTheme);
         return savedTheme || 'light';
     });
+    const [selectedHour, setSelectedHour] = useState(null);
+    const [prayerTexts, setPrayerTexts] = useState(null);
     const [expandedDeceased, setExpandedDeceased] = useState({});
     const [deceasedMode, setDeceasedMode] = useState('recent');
-    const [viewMode, setViewMode] = useState('directory'); // 'directory' or 'deceased'
+    const [viewMode, setViewMode] = useState('directory'); // 'directory', 'deceased' oder 'prayer'
     const [baseFontSize, setBaseFontSize] = useState(14); // Standard-Schriftgröße in pt
-    const [renderKey, setRenderKey] = useState(0);
     const [isReady, setIsReady] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const sections = ['fontSize', 'theme', 'deceased', 'view'];
     const [activeSection, setActiveSection] = useState('fontSize');
     const [isNarrowScreen, setIsNarrowScreen] = useState(false);
     const hangingIndent = '3.2em'; // Variable für den Einzug
@@ -903,13 +1072,10 @@ export default function LiturgicalCalendar() {
         entriesRef.current = {};
         if (selectedDate) {
             setIsReady(false);
-            setRenderKey(prev => prev + 1);
-
-            requestAnimationFrame(() => {
-                setTimeout(() => {
-                    setIsReady(true);
-                }, 100);
-            });
+            // Kurze Verzögerung um sicherzustellen, dass das DOM aktualisiert wurde
+            setTimeout(() => {
+                setIsReady(true);
+            }, 100);
         }
     }, [selectedDate]);
 
@@ -917,6 +1083,7 @@ export default function LiturgicalCalendar() {
         if (!containerRef.current) return;
 
         const container = containerRef.current;
+        const currentContainer = container.querySelector('[data-current-container="true"]');
 
         const debouncedScroll = (event) => {
             if (scrollTimeoutRef.current) {
@@ -927,7 +1094,9 @@ export default function LiturgicalCalendar() {
 
         container.addEventListener('scroll', debouncedScroll);
         return () => {
-            container.removeEventListener('scroll', debouncedScroll);
+            if (container) {
+                container.removeEventListener('scroll', debouncedScroll);
+            }
             if (scrollTimeoutRef.current) {
                 clearTimeout(scrollTimeoutRef.current);
             }
@@ -1109,30 +1278,6 @@ export default function LiturgicalCalendar() {
     }, [allEntries, visibleRange, selectedDate]);
 
 
-    const formatNotes = (notes) => {
-        if (!notes) return '';
-
-        const paragraphs = notes.split('¥h');
-
-        let counter = 0;
-        return paragraphs.map(p => {
-            const trimmedP = p.trim();
-            // Replace ¥l with <br /> before any other formatting
-            const processedText = trimmedP.replace(/¥l/g, '<br />');
-
-            if (trimmedP.startsWith('¥s')) {
-                // Mehrere Hinweise: Nummerierung hinzufügen und dann formatieren
-                counter++;
-                return `${counter}. ${formatText(processedText.substring(2))}`;
-            } else if (trimmedP.startsWith('¥fHinweis:¥0f ¥s')) {
-                // Einzelner Hinweis mit ¥s: ¥s entfernen und dann formatieren
-                return formatText(processedText.replace('¥s', ''));
-            }
-            // Alle anderen Fälle
-            return formatText(processedText);
-        }).join('\n');
-    };
-
     const parseDateString = (dateStr) => {
         const match = dateStr.match(/^(\d{1,2})[.-](\d{1,2})[.-](\d{2}|\d{4})$/);
         if (!match) return null;
@@ -1244,6 +1389,10 @@ export default function LiturgicalCalendar() {
             setActiveSection(sections[sectionIndex]);
         };
 
+        const handleViewChange = (isRight) => {
+            setViewMode(prev => prev === 'directory' ? 'deceased' : 'directory');
+        };
+
         // Modified to prevent menu closing
         const handleOptionChange = (e, isRight) => {
             e.preventDefault();
@@ -1258,6 +1407,9 @@ export default function LiturgicalCalendar() {
                     break;
                 case 'deceased':
                     handleDeceasedModeChange(isRight);
+                    break;
+                case 'view':
+                    handleViewChange(isRight);
                     break;
                 default:
                     break;
@@ -1299,13 +1451,10 @@ export default function LiturgicalCalendar() {
                 }
             };
 
-            if (isMenuOpen) {
-                document.addEventListener('mousedown', handleClickOutside);
-            }
+            document.addEventListener('mousedown', handleClickOutside);
             return () => document.removeEventListener('mousedown', handleClickOutside);
-        }, [isMenuOpen]);
+        }, []);
 
-        // Keyboard handler remains the same
         useEffect(() => {
             const handleKeyDown = (event) => {
                 if (!isMenuOpen) {
@@ -1337,7 +1486,7 @@ export default function LiturgicalCalendar() {
 
             document.addEventListener('keydown', handleKeyDown);
             return () => document.removeEventListener('keydown', handleKeyDown);
-        }, [isMenuOpen, activeSection]);
+        }, [activeSection, handleOptionChange, handleSectionChange, sections, toggleMenu]);
 
         return (
             <div className="relative" ref={menuRef}>
@@ -1350,10 +1499,10 @@ export default function LiturgicalCalendar() {
                 </button>
 
                 {isMenuOpen && (
-                    <div className="fixed sm:absolute left-0 sm:left-auto right-0 sm:right-auto top-16 sm:top-auto sm:mt-2 mx-4 sm:mx-0 w-auto sm:w-60 bg-white dark:bg-gray-700 rounded-lg shadow-lg border dark:border-gray-700 z-50">
+                    <div className="fixed sm:absolute left-0 sm:left-auto right-0 sm:right-auto top-16 sm:top-auto sm:mt-2 mx-4 sm:mx-0 w-60 bg-white dark:bg-gray-700 rounded-lg shadow-lg border dark:border-gray-600 z-50">
                         {/* Font Size Section */}
                         <div
-                            className={`px-3 py-2 cursor-pointer ${activeSection === 'fontSize' ? 'bg-gray-50 dark:bg-gray-700' : ''}`}
+                            className={`px-3 py-2 cursor-pointer ${activeSection === 'fontSize' ? 'bg-gray-100 dark:bg-gray-600' : ''}`}
                             onClick={() => handleSectionChange(sections.indexOf('fontSize'))}
                         >
                             <div className="text-sm font-semibold text-gray-500 dark:text-gray-400">
@@ -1387,7 +1536,7 @@ export default function LiturgicalCalendar() {
 
                         {/* Theme Section */}
                         <div
-                            className={`px-3 py-2 cursor-pointer ${activeSection === 'theme' ? 'bg-gray-50 dark:bg-gray-700' : ''}`}
+                            className={`px-3 py-2 cursor-pointer ${activeSection === 'theme' ? 'bg-gray-100 dark:bg-gray-600' : ''}`}
                             onClick={() => handleSectionChange(sections.indexOf('theme'))}
                         >
                             <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
@@ -1421,7 +1570,7 @@ export default function LiturgicalCalendar() {
 
                         {/* Deceased Section */}
                         <div
-                            className={`px-3 py-2 cursor-pointer ${activeSection === 'deceased' ? 'bg-gray-50 dark:bg-gray-700' : ''}`}
+                            className={`px-3 py-2 cursor-pointer ${activeSection === 'deceased' ? 'bg-gray-100 dark:bg-gray-600' : ''}`}
                             onClick={() => handleSectionChange(sections.indexOf('deceased'))}
                         >
                             <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
@@ -1452,8 +1601,8 @@ export default function LiturgicalCalendar() {
                                 </button>
                             </div>
                             <div className="mt-2 text-xs text-gray-500 dark:text-gray-400">
-                                <p>kurz: Verstorbene der letzten 30 Jahre<br />(wie im gedruckten Direktorium)</p>
-                                <p>voll: alle Verstorbene seit 1920</p>
+                                <p><b>kurz:</b> Verstorbene der letzten 30 Jahre (wie&nbsp;im&nbsp;gedruckten&nbsp;Direktorium)</p>
+                                <p><b>voll:</b> alle Verstorbene seit 1920</p>
                             </div>
                         </div>
 
@@ -1461,7 +1610,7 @@ export default function LiturgicalCalendar() {
 
                         {/* View Selection Section */}
                         <div
-                            className={`px-3 py-2 cursor-pointer ${activeSection === 'view' ? 'bg-gray-50 dark:bg-gray-700' : ''}`}
+                            className={`px-3 py-2 cursor-pointer ${activeSection === 'view' ? 'bg-gray-100 dark:bg-gray-600' : ''}`}
                             onClick={() => handleSectionChange(sections.indexOf('view'))}
                         >
                             <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
@@ -1473,6 +1622,7 @@ export default function LiturgicalCalendar() {
                                         e.preventDefault();
                                         e.stopPropagation();
                                         setViewMode('directory');
+                                        toggleMenu();
                                     }}
                                     className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${viewMode === 'directory' ? 'bg-orange-100 dark:bg-yellow-400/60' : ''}`}
                                 >
@@ -1483,6 +1633,7 @@ export default function LiturgicalCalendar() {
                                         e.preventDefault();
                                         e.stopPropagation();
                                         setViewMode('deceased');
+                                        toggleMenu();
                                     }}
                                     className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${viewMode === 'deceased' ? 'bg-orange-100 dark:bg-yellow-400/60' : ''}`}
                                 >
@@ -1626,7 +1777,7 @@ export default function LiturgicalCalendar() {
                                         }
                                     }}
                                     className="w-full px-4 py-2 border dark:border-gray-700 rounded hover:bg-gray-50 dark:hover:bg-gray-800 
-                        cursor-pointer bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100"
+                    cursor-pointer bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100"
                                     placeholder="TT.MM.JJ"
                                 />
                                 <svg
@@ -1650,99 +1801,137 @@ export default function LiturgicalCalendar() {
                             >
                                 »
                             </button>
+
+                            <button
+                                onClick={() => setViewMode('prayer')}
+                                className="shrink-0 px-4 py-2 bg-orange-100 dark:bg-yellow-400/60 hover:bg-orange-200 dark:hover:bg-yellow-400/70 rounded"
+                                title="Stundengebet"
+                            >
+                                StB
+                            </button>
                         </div>
                     </div>
                 </div>
 
                 {/* Main Content Area */}
                 <div className="mt-4">
-                    <ScrollableContainer
-                        containerRef={containerRef}
-                        selectedDate={selectedDate}
-                        dateChangeSource={dateChangeSource}
-                    >
-                        {visibleEntries.before && visibleEntries.before.length > 0 && (
-                            <div
-                                data-before-container="true"
-                                style={{
-                                    position: 'relative',
-                                    marginTop: '-50vh',
-                                    paddingTop: '50vh',
-                                    marginBottom: '0'
+                    {/* Prayer Views */}
+                    {viewMode === 'prayer' && (
+                        <>
+                            <PrayerMenu
+                                title={formatDate(selectedDate)}
+                                selectedDate={selectedDate}
+                                onSelectHour={(hour, texts) => {
+                                    setSelectedHour(hour);
+                                    setPrayerTexts(texts);
                                 }}
-                            >
-                                {visibleEntries.before.map(entry => (
-                                    viewMode === 'directory' ? (
-                                        <DayEntry
-                                            key={entry.date.toISOString()}
-                                            entry={entry}
-                                            formatDate={formatDate}
-                                            formatText={formatText}
-                                            formatNotes={formatNotes}
-                                            selectedDate={selectedDate}
-                                            months={months}
-                                            hangingIndent={hangingIndent}
-                                            deceasedMode={deceasedMode}
-                                            deceasedSizeRatio={deceasedSizeRatio}
-                                            expandedDeceased={expandedDeceased}
-                                            setExpandedDeceased={setExpandedDeceased}
-                                            entriesRef={entriesRef}
-                                        />
-                                    ) : (
-                                        <DeceasedEntry
-                                            key={entry.date.toISOString()}
-                                            entry={entry}
-                                            formatDate={formatDate}
-                                            formatText={formatText}  // Added this prop
-                                            selectedDate={selectedDate}
-                                            months={months}
-                                            entriesRef={entriesRef}
-                                        />
-                                    )
-                                ))}
-                            </div>
-                        )}
+                                setViewMode={setViewMode}
+                                onPrevDay={() => {
+                                    setDateChangeSource('navigation');
+                                    setSelectedDate(new Date(selectedDate.setDate(selectedDate.getDate() - 1)));
+                                }}
+                                onNextDay={() => {
+                                    setDateChangeSource('navigation');
+                                    setSelectedDate(new Date(selectedDate.setDate(selectedDate.getDate() + 1)));
+                                }}
+                            />
+                            {selectedHour && prayerTexts && (
+                                <PrayerTextDisplay
+                                    hour={selectedHour}
+                                    texts={prayerTexts}
+                                />
+                            )}
+                        </>
+                    )}
 
-                        {visibleEntries.current && visibleEntries.current.length > 0 && (
-                            <div
-                                data-current-container="true"
-                                style={{
-                                    position: 'relative',
-                                    marginTop: '0'
-                                }}
-                            >
-                                {visibleEntries.current.map(entry => (
-                                    viewMode === 'directory' ? (
-                                        <DayEntry
-                                            key={entry.date.toISOString()}
-                                            entry={entry}
-                                            formatDate={formatDate}
-                                            formatText={formatText}
-                                            formatNotes={formatNotes}
-                                            selectedDate={selectedDate}
-                                            months={months}
-                                            hangingIndent={hangingIndent}
-                                            deceasedMode={deceasedMode}
-                                            deceasedSizeRatio={deceasedSizeRatio}
-                                            expandedDeceased={expandedDeceased}
-                                            setExpandedDeceased={setExpandedDeceased}
-                                            entriesRef={entriesRef}
-                                        />
-                                    ) : (
-                                        <DeceasedEntry
-                                            key={entry.date.toISOString()}
-                                            entry={entry}
-                                            formatDate={formatDate}
-                                            formatText={formatText}  // Added this prop
-                                            selectedDate={selectedDate}
-                                            months={months}
-                                            entriesRef={entriesRef}
-                                        />
-                                    )
-                                ))}
-                            </div>
-                        )}
-                    </ScrollableContainer>
+                    {/* Original ScrollableContainer for directory/deceased views */}
+                    {viewMode !== 'prayer' && (
+                        <ScrollableContainer
+                            containerRef={containerRef}
+                            selectedDate={selectedDate}
+                            dateChangeSource={dateChangeSource}
+                        >
+                            {visibleEntries.before && visibleEntries.before.length > 0 && (
+                                <div
+                                    data-before-container="true"
+                                    style={{
+                                        position: 'relative',
+                                        marginTop: '-50vh',
+                                        paddingTop: '50vh',
+                                        marginBottom: '0'
+                                    }}
+                                >
+                                    {visibleEntries.before.map(entry => (
+                                        viewMode === 'directory' ? (
+                                            <DayEntry
+                                                key={entry.date.toISOString()}
+                                                entry={entry}
+                                                formatDate={formatDate}
+                                                formatText={formatText}
+                                                selectedDate={selectedDate}
+                                                months={months}
+                                                hangingIndent={hangingIndent}
+                                                deceasedMode={deceasedMode}
+                                                deceasedSizeRatio={deceasedSizeRatio}
+                                                expandedDeceased={expandedDeceased}
+                                                setExpandedDeceased={setExpandedDeceased}
+                                                entriesRef={entriesRef}
+                                            />
+                                        ) : (
+                                            <DeceasedEntry
+                                                key={entry.date.toISOString()}
+                                                entry={entry}
+                                                formatDate={formatDate}
+                                                formatText={formatText}  // Added this prop
+                                                selectedDate={selectedDate}
+                                                months={months}
+                                                entriesRef={entriesRef}
+                                            />
+                                        )
+                                    ))}
+                                </div>
+                            )}
+
+                            {visibleEntries.current && visibleEntries.current.length > 0 && (
+                                <div
+                                    data-current-container="true"
+                                    style={{
+                                        position: 'relative',
+                                        marginTop: '0'
+                                    }}
+                                >
+                                    {visibleEntries.current.map(entry => (
+                                        viewMode === 'directory' ? (
+                                            <DayEntry
+                                                key={entry.date.toISOString()}
+                                                entry={entry}
+                                                formatDate={formatDate}
+                                                formatText={formatText}
+                                                selectedDate={selectedDate}
+                                                months={months}
+                                                hangingIndent={hangingIndent}
+                                                deceasedMode={deceasedMode}
+                                                deceasedSizeRatio={deceasedSizeRatio}
+                                                expandedDeceased={expandedDeceased}
+                                                setExpandedDeceased={setExpandedDeceased}
+                                                entriesRef={entriesRef}
+                                            />
+                                        ) : (
+                                            <DeceasedEntry
+                                                key={entry.date.toISOString()}
+                                                entry={entry}
+                                                formatDate={formatDate}
+                                                formatText={formatText}  // Added this prop
+                                                selectedDate={selectedDate}
+                                                months={months}
+                                                entriesRef={entriesRef}
+                                            />
+                                        )
+                                    ))}
+                                </div>
+                            )}
+                        </ScrollableContainer>
+                    )}
                 </div>
             </div>
         </div>

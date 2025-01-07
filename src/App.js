@@ -1,4 +1,4 @@
-import Direktorium from './components/Direktorium';
+import Direktorium from './components/Direktorium.js';
 import React from 'react';
 
 function App() {

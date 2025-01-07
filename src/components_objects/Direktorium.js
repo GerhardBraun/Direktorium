@@ -8,32 +8,6 @@ import { getLiturgicalInfo, LiturgicalSeason } from './liturgicalCalendar.js';
 import { processBrevierData } from './brevierDataProcessor.js';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from './ui/tooltip.jsx';
 
-const fontFamily = 'Cambria, serif';
-const hangingIndent = '3.2em'; // Variable für den Einzug
-const deceasedSizeRatio = 0.9;
-const DAYS_BUFFER = 7; // Anzahl der Tage vor/nach dem ausgewählten Datum
-const rubricColor = '#b6a03a'; // Tailwind red-700
-
-const months = ["Januar", "Februar", "März", "April", "Mai", "Juni",
-    "Juli", "August", "September", "Oktober", "November", "Dezember"];
-
-const PrayerHours = {
-    INVITATORIUM: 'invitatorium',
-    LESEHORE: 'lesehore',
-    LAUDES: 'laudes',
-    TERZ: 'terz',
-    SEXT: 'sext',
-    NON: 'non',
-    VESPER: 'vesper',
-    KOMPLET: 'komplet'
-};
-
-// Enum for text sources
-const TextSources = {
-    EIG: 'eig',
-    COM: 'com',
-    WT: 'wt'
-};
 
 const formatText = (text) => {
     if (!text) return '';
@@ -74,6 +48,27 @@ const getDateRange = (date, daysBefore, daysAfter) => {
 
 const isDateInRange = (date, startDate, endDate) => {
     return date >= startDate && date <= endDate;
+};
+
+const months = ["Januar", "Februar", "März", "April", "Mai", "Juni",
+    "Juli", "August", "September", "Oktober", "November", "Dezember"];
+
+const PrayerHours = {
+    INVITATORIUM: 'invitatorium',
+    LESEHORE: 'lesehore',
+    LAUDES: 'laudes',
+    TERZ: 'terz',
+    SEXT: 'sext',
+    NON: 'non',
+    VESPER: 'vesper',
+    KOMPLET: 'komplet'
+};
+
+// Enum for text sources
+const TextSources = {
+    EIG: 'eig',
+    COM: 'com',
+    WT: 'wt'
 };
 
 const processNotesContent = (content) => {
@@ -758,33 +753,6 @@ const DeceasedEntry = ({
     );
 };
 
-const getSeasonName = (season) => {
-    switch (season) {
-        case LiturgicalSeason.ADVENT:
-            return 'Adventswoche';
-        case LiturgicalSeason.CHRISTMAS:
-            return 'Woche der Weihnachtszeit';
-        case LiturgicalSeason.ORDINARY_TIME:
-            return 'Woche im Jahreskreis';
-        case LiturgicalSeason.LENT:
-            return 'Fastenwoche';
-        case LiturgicalSeason.EASTER:
-            return 'Woche der Osterzeit';
-        default:
-            return '';
-    }
-};
-
-const getDayName = (date) => {
-    const days = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
-    return days[date.getDay()];
-};
-
-const formatLiturgicalInfo = (info, date) => {
-    if (!info) return '';
-    const dayName = getDayName(date);
-    return `${dayName} der ${info.week}. ${getSeasonName(info.season)}`;
-};
 
 // Prayer Menu Component
 const PrayerMenu = ({ title, onSelectHour, setViewMode, onPrevDay, onNextDay, selectedDate }) => {
@@ -801,11 +769,39 @@ const PrayerMenu = ({ title, onSelectHour, setViewMode, onPrevDay, onNextDay, se
                 season: info.season,
                 week: info.week,
                 dayOfWeek: selectedDate.getDay(),
-                selectedDate: selectedDate
+                calendarDay: selectedDate.getDate()
             });
             setPrayerTexts(processedData);
         }
     }, [selectedDate]);
+
+    const getSeasonName = (season) => {
+        switch (season) {
+            case LiturgicalSeason.ADVENT:
+                return 'Adventswoche';
+            case LiturgicalSeason.CHRISTMAS:
+                return 'Woche der Weihnachtszeit';
+            case LiturgicalSeason.ORDINARY_TIME:
+                return 'Woche im Jahreskreis';
+            case LiturgicalSeason.LENT:
+                return 'Fastenwoche';
+            case LiturgicalSeason.EASTER:
+                return 'Woche der Osterzeit';
+            default:
+                return '';
+        }
+    };
+
+    const getDayName = (date) => {
+        const days = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
+        return days[date.getDay()];
+    };
+
+    const formatLiturgicalInfo = (info, date) => {
+        if (!info) return '';
+        const dayName = getDayName(date);
+        return `${dayName} der ${info.week}. ${getSeasonName(info.season)}`;
+    };
 
     return (
         <div className="flex flex-col p-4 bg-white dark:bg-gray-900">
@@ -891,447 +887,212 @@ const PrayerMenu = ({ title, onSelectHour, setViewMode, onPrevDay, onNextDay, se
     );
 };
 
-const BackButton = ({ onClick }) => (
-    <button
-        onClick={onClick}
-        className="w-full p-3 mb-4 text-center rounded-lg bg-gray-100 dark:bg-gray-800 
-                 hover:bg-gray-200 dark:hover:bg-gray-700 
-                 text-gray-900 dark:text-gray-100"
-    >
-        ← Zurück zur Stundengebetauswahl
-    </button>
-);
-
 // Prayer Text Display Component
-const PrayerTextDisplay = ({ hour, texts, onBack }) => {
-    const [localPrefComm, setLocalPrefComm] = useState(texts?.prefComm || 0);
-    const [localPrefLatin, setLocalPrefLatin] = useState(0);
-
+const PrayerTextDisplay = ({ hour, texts }) => {
     if (!hour || !texts || !texts[hour]) {
         return <div className="p-4">Keine Daten verfügbar</div>;
     }
 
-    const doxology = "Ehre sei dem Vater und dem Sohn^*und dem Heiligen Geist,^pwie im Anfang so auch jetzt und alle Zeit^*und in Ewigkeit. Amen.";
-    const prefComm = texts.prefComm || 0;  // Default to 0 if not provided
-    const rank_wt = texts.rank_wt || 0
-    const rank_date = texts.rank_date || 0
+    const hourData = texts[hour].wt;
 
-    // Get value from sources in priority order: eig -> wt -> com
-    const getValue = (field) => {
-        // 1. Prüfe zuerst "eig"
-        if (texts[hour]['eig']?.[field]) {
-            return texts[hour]['eig'][field];
-        }
-
-        // 2. Prüfe "com" wenn prefComm = 1
-        if (localPrefComm === 1 && texts[hour]['com']?.[field]) {
-            return texts[hour]['com'][field];
-        }
-
-        // 3. Verwende "wt" als letzte Option
-        if (texts[hour]['wt']?.[field]) {
-            return texts[hour]['wt'][field];
-        }
-
-        return null;
+    // Gruppierung der Felder nach Kategorien mit original Feldnamen
+    const fieldGroups = {
+        hymns: ['hymn_1', 'hymn_2', 'hymn_3', 'hymn_nacht', 'hymn_kl'],
+        psalms: ['ps_1', 'ps_2', 'ps_3'],
+        antiphons: ['ant_0', 'ant_1', 'ant_2', 'ant_3', 'ant_ev'],
+        readings: ['les_buch', 'les_stelle'],
+        responsories: ['resp0_0', 'resp0_1', 'resp1_0', 'resp1_1', 'resp1_2', 'resp1_3'],
+        intercessions: ['bitten_e', 'bitten_r', 'bitten'],
+        prayers: ['oration']
     };
 
-    const checkSources = (field) => {
-        const hasEig = texts[hour]['eig']?.[field];
-        const hasWt = texts[hour]['wt']?.[field];
-        const hasComm = texts[hour]['com']?.[field];
+    const sectionTitles = {
+        hymns: 'Hymnen',
+        psalms: 'Psalmen',
+        antiphons: 'Antiphonen',
+        readings: 'Lesungen',
+        responsories: 'Responsorien',
+        intercessions: 'Fürbitten',
+        prayers: 'Gebete'
+    };
 
-        return {
-            hasEig,
-            hasWt,
-            hasComm,
-            showSources: !hasEig && hasWt && hasComm
+    const getFieldLabel = (field) => {
+        const labels = {
+            'hymn_1': 'Erster Hymnus',
+            'hymn_2': 'Zweiter Hymnus',
+            'hymn_3': 'Dritter Hymnus',
+            'hymn_nacht': 'Hymnus in der Nacht oder am frühen Morgen',
+            'hymn_kl': 'Hymnus im Kleinen Stundenbuch',
+            'ps_1': 'Psalm 1',
+            'ps_2': 'Psalm 2',
+            'ps_3': 'Psalm 3',
+            'ant_0': 'Antiphon (für alle Psalmen)',
+            'ant_1': 'Erste Antiphon',
+            'ant_2': 'Zweite Antiphon',
+            'ant_3': 'Dritte Antiphon',
+            'ant_ev': 'Benedictus-/Magnificat-Antiphon',
+            'les_buch': 'Lesungsbuch',
+            'les_stelle': 'Lesungsstelle',
+            'resp0_0': 'Versikel-V',
+            'resp0_1': 'Versikel-R',
+            'resp1_0': 'Erstes Responsorium',
+            'resp1_1': 'Zweites Responsorium',
+            'resp1_2': 'Drittes Responsorium',
+            'resp1_3': 'Viertes Responsorium',
+            'bitten_e': 'Einleitung der Fürbitten',
+            'bitten_r': 'Antwort zu den Fürbitten',
+            'bitten': 'Fürbitten-Text',
+            'oration': 'Schlussgebet'
         };
+        return labels[field] || field;
     };
 
-    // Component for section headers with source indicators
-    const SectionHeader = ({ title, field, latinField }) => {
-        const { hasEig, showSources } = checkSources(field);
-        const hasLatin = latinField && texts[hour]['wt']?.[latinField];
-
-        if (!showSources && !hasLatin) {
-            return <h2 className="prayer-heading">{title}</h2>;
-        }
-
-        return (
-            <h2 className="prayer-heading flex items-center gap-3">
-                {title}
-                {hasLatin && (
-                    <button
-                        onClick={() => setLocalPrefLatin(prev => prev === 0 ? 1 : 0)}
-                        className="font-normal"
-                        style={{ color: rubricColor }}
-                    >
-                        (dt./lat.)
-                    </button>
-                )}
-                {showSources && (
-                    <span className="font-normal">
-                        <button
-                            onClick={() => setLocalPrefComm(1)}
-                            className={`${localPrefComm === 1 ? 'underline' : ''}`}
-                            style={{ color: rubricColor }}
-                        >
-                            Comm
-                        </button>
-                        {"  |  "}
-                        <button
-                            onClick={() => setLocalPrefComm(0)}
-                            className={`${localPrefComm === 0 ? 'underline' : ''}`}
-                            style={{ color: rubricColor }}
-                        >
-                            Wt
-                        </button>
-                    </span>
-                )}
-            </h2>
-        );
-    };
-
-    // Format psalm data
-    const formatPsalm = (number, verses, title, quote, text) => {
-        if (!number) return null;
-        return (
-            <div className="mb-4">
-                <div className="font-bold mt-2" style={{ color: rubricColor }}>
-                    {number > 150 ? (<>Canticum: {verses}</>) : (
-                        <>  Psalm {number}
-                            {verses && <>,{verses}</>}
-                        </>
-                    )}
-                </div>
-                {title && <div className="mt-0 text-[0.9em] text-gray-400">{title}</div>}
-                {quote && <div className="text-[0.9em] leading-[1em] italic text-gray-400 mt-0">{quote}</div>}
-                {text && <div className="whitespace-pre-wrap">{formatPrayerParagraph(text)}</div>}
-                {number !== 160 && <div className="whitespace-pre-wrap">{formatPrayerParagraph(doxology)}</div>}
-            </div >
-        );
-    };
-
-    // Rubric component for styled headers and labels
-    const Rubric = ({ children, style, isHeader = false }) => (
-        <span
-            className={`${isHeader ? 'text-lg font-bold mb-4' : ''}`}
-            style={{
-                color: rubricColor,
-                ...style
-            }}
-        >
-            {children}
-        </span>
-    );
-
-    // Format prayer text with specified formatting  
     const formatPrayerText = (text) => {
-        if (!text || typeof text !== 'string') return '';
+        if (!text) return '';
 
-        return text
-            .replace(/°/g, '\u00A0')
-            .replace(/\^\*/g, '\u00A0*\n')
-            .replace(/\^\+/g, '\u00A0†\n')
-            .replace(/\^l/g, '\n')
-            .replace(/\^r(.*?)\^0r/g, (_, content) => `<span class="text-red-700">${content}</span>`)
-            .replace(/\^v(.*?)\^0v/g, '$1');
+        // Replace ° with NBSP
+        text = text.replace(/°/g, '\u00A0');
+
+        // Process ^* (NBSP + asterisk + line break)
+        text = text.replace(/\^\*/g, '\u00A0*\n');
+
+        // Process ^+ (NBSP + dagger + line break)
+        text = text.replace(/\^\+/g, '\u00A0\u2020\n');
+
+        // Process verse formatting (^v ... ^0v)
+        text = text.replace(/\^v(.*?)\^0v/g, (_, content) =>
+            `<span class="formatVerse">${content}</span>`
+        );
+
+        // Process paragraph breaks (^p)
+        text = text.replace(/\^p/g, '\n\n');
+
+        // Process line breaks (^l)
+        text = text.replace(/\^l/g, '\n');
+
+        // Process indented paragraphs with hanging dash (^q)
+        text = text.replace(/\^q(.*?)(?=\^q|$)/gs, (match, content) => {
+            const lines = content.trim().split('\n');
+            const processedLines = lines.map((line, index) => {
+                if (index === 0) {
+                    // First line starts with em dash
+                    return `–${'\u00A0'.repeat(4)}${line.trim()}`;
+                }
+                // Subsequent lines are indented
+                return `${'\u00A0'.repeat(5)}${line.trim()}`;
+            });
+            return processedLines.join('\n') + '\n\n';
+        });
+
+        return text;
     };
 
-    const formatPrayerParagraph = (text) => {
-        const preparedText = formatPrayerText(text);
-        const paragraphs = preparedText.split(/\^[pqh]/);
-        const formats = preparedText.match(/\^[pqh]/g) || [];
+    const ReferenceDisplay = ({ value }) => {
+        if (!value || typeof value !== 'object') return null;
 
-        // Entferne das erste Element, wenn es leer ist und der Text mit ^ beginnt
-        if (preparedText.startsWith('^') && paragraphs[0] === '') {
-            paragraphs.shift();
-        } else {
-            // Füge ^p nur hinzu, wenn der Text nicht mit ^ beginnt
-            formats.unshift('^p');
-        }
-
-        return paragraphs.map((paragraph, index) => {
-            if (!paragraph.trim()) return null;
-
-            const format = formats[index] || '^p';
-            switch (format) {
-                case '^h':
-                    return (
-                        <div key={index} className="whitespace-pre-wrap font-bold mt-2">
-                            <div dangerouslySetInnerHTML={{ __html: paragraph }} />
-                        </div>
-                    );
-                case '^q':
-                    return (
-                        <div key={index} className="whitespace-pre-wrap flex">
-                            <span className="w-[0.8em] flex-shrink-0">–</span>
-                            <div dangerouslySetInnerHTML={{ __html: paragraph }} />
-                        </div>
-                    );
-                default: // ^p
-                    return (
-                        <div key={index} className="whitespace-pre-wrap mt-[0.66em]">
-                            <div dangerouslySetInnerHTML={{ __html: paragraph }} />
-                        </div>
-                    );
-            }
-        }).filter(Boolean);
+        return (
+            <div className="pl-4 mt-2 text-sm">
+                {value.verses && (
+                    <div className="mb-1">
+                        <span className="font-medium">Verse: </span>
+                        <div
+                            dangerouslySetInnerHTML={{
+                                __html: formatPrayerText(value.verses)
+                            }}
+                            className="whitespace-pre-wrap"
+                        />
+                    </div>
+                )}
+                {value.title && (
+                    <div className="mb-1">
+                        <span className="font-medium">Titel: </span>
+                        <div
+                            dangerouslySetInnerHTML={{
+                                __html: formatPrayerText(value.title)
+                            }}
+                            className="whitespace-pre-wrap"
+                        />
+                    </div>
+                )}
+                {value.quote && (
+                    <div className="mb-1 italic">
+                        <div
+                            dangerouslySetInnerHTML={{
+                                __html: formatPrayerText(value.quote)
+                            }}
+                            className="whitespace-pre-wrap"
+                        />
+                    </div>
+                )}
+                {value.text && (
+                    <div className="mb-1">
+                        <span className="font-medium">Text: </span>
+                        <div
+                            dangerouslySetInnerHTML={{
+                                __html: formatPrayerText(value.text)
+                            }}
+                            className="whitespace-pre-wrap"
+                        />
+                    </div>
+                )}
+            </div>
+        );
     };
 
     return (
-        <div className="p-4 leading-[1.35em]">
-            <BackButton onClick={onBack} />
+        <div className="p-4 space-y-6">
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow">
+                <div className="p-4 border-b border-gray-200 dark:border-gray-700">
+                    <h2 className="text-xl font-semibold capitalize text-gray-900 dark:text-gray-100">
+                        {hour}
+                    </h2>
+                </div>
+                <div className="p-4">
+                    {Object.entries(fieldGroups).map(([groupKey, fields]) => {
+                        const hasData = fields.some(field =>
+                            hourData[field] !== undefined && hourData[field] !== ''
+                        );
 
-                {getValue('hymn_1') && (
-                    <div className="mb-1">
-                        <h2 className="prayer-heading">HYMNUS</h2>
-                        {getValue('hymn_1')?.text && (
-                            <div className="mb-4">
-                                {formatPrayerParagraph(getValue('hymn_1').text)}
-                            </div>
-                        )}
-                        {getValue('hymn_2')?.text && (
-                            <>
-                                <Rubric>Oder:</Rubric>
-                                <div className="mb-4">
-                                    {formatPrayerParagraph(getValue('hymn_2').text)}
-                                </div>
-                            </>
-                        )}
-                        {getValue('hymn_3')?.text && (
-                            <>
-                                <Rubric>Oder:</Rubric>
-                                <div className="mb-4">
-                                    {formatPrayerParagraph(getValue('hymn_3').text)}
-                                </div>
-                            </>
-                        )}
-                        {getValue('hymn_nacht')?.text && (
-                            <>
-                                <Rubric>In der Nacht oder am frühen Morgen:</Rubric>
-                                <div className="mb-4">
-                                    {formatPrayerParagraph(getValue('hymn_nacht').text)}
-                                </div>
-                            </>
-                        )}
-                        {getValue('hymn_kl')?.text && (
-                            <>
-                                <Rubric>im Kleinen Stundenbuch:</Rubric>
-                                <div className="">
-                                    {formatPrayerParagraph(getValue('hymn_kl').text)}
-                                </div>
-                            </>
-                        )}
-                    </div>)}
-
-                <div className="mb-1">
-                    <SectionHeader title="PSALMODIE" field="ps_1" />
-                    {getValue('ant_0') && (
-                        <div className="mb-4">
-                            <Rubric style={{ display: 'inline' }}>Ant.&nbsp;</Rubric>
-                            {formatPrayerText(getValue('ant_0'))}
-                        </div>)}
-
-                    {getValue('ps_95') && (
-                        <div className="mb-4">
-                            {formatPrayerParagraph(getValue('ps_95').text)}
-                        </div>
-                    )}
-                    {[1, 2, 3].map(num => {
-                        const psalm = getValue(`ps_${num}`);
-                        const ant = getValue(`ant_${num}`);
-                        if (!psalm && !ant) return null;
+                        if (!hasData) return null;
 
                         return (
-                            <div key={num} className="mb-4">
-                                {ant && (
-                                    <div style={{ display: 'inline' }}>
-                                        <Rubric >{num}. Ant.&nbsp;</Rubric>
-                                        {formatPrayerText(ant)}
-                                    </div>
-                                )}
-                                {psalm && formatPsalm(
-                                    psalm.number,
-                                    psalm.verses,
-                                    psalm.title,
-                                    psalm.quote,
-                                    psalm.text
-                                )}
-                                {ant && (
-                                    <div >
-                                        <Rubric>{num}. Ant.&nbsp;</Rubric>
-                                        {formatPrayerText(ant)}
-                                    </div>
-                                )}
+                            <div key={groupKey} className="mb-6">
+                                <h3 className="text-lg font-semibold mb-3 text-gray-800 dark:text-gray-200">
+                                    {sectionTitles[groupKey]}
+                                </h3>
+                                <div className="space-y-4">
+                                    {fields.map(field => {
+                                        const value = hourData[field];
+                                        if (value === undefined || value === '') return null;
+
+                                        return (
+                                            <div key={field} className="border-b border-gray-200 dark:border-gray-700 pb-2">
+                                                <div className="font-medium text-sm text-gray-700 dark:text-gray-300 mb-1">
+                                                    {getFieldLabel(field)}
+                                                </div>
+                                                <div className="text-gray-900 dark:text-gray-100">
+                                                    {typeof value === 'object' ? (
+                                                        <>
+                                                            <div>Nr. {value.reference}</div>
+                                                            <ReferenceDisplay value={value} />
+                                                        </>
+                                                    ) : (
+                                                        <div
+                                                            dangerouslySetInnerHTML={{
+                                                                __html: formatPrayerText(value)
+                                                            }}
+                                                            className="whitespace-pre-wrap"
+                                                        />
+                                                    )}
+                                                </div>
+                                            </div>
+                                        );
+                                    })}
+                                </div>
                             </div>
                         );
                     })}
-                    {getValue('ant_0') && (
-                        <div>
-                            <Rubric>Ant.&nbsp;</Rubric>
-                            {formatPrayerText(getValue('ant_0'))}
-                        </div>
-                    )}
                 </div>
-
-                {getValue('resp0_0') && (
-                    <div className="mb-1">
-                        <SectionHeader title="VERSIKEL" field="resp0_0" />
-                        {getValue('resp0_0') && (
-                            <div className="mb-0 flex gap-0">
-                                <Rubric>℣&nbsp;&nbsp;</Rubric>
-                                <div>{formatPrayerText(getValue('resp0_0'))}</div>
-                            </div>
-                        )}
-                        {getValue('resp0_1') && (
-                            <div className="flex gap-0">
-                                <Rubric>℟&nbsp;&nbsp;</Rubric>
-                                <div>{formatPrayerText(getValue('resp0_1'))}</div>
-                            </div>
-                        )}
-                    </div>)}
-
-                {getValue('les_buch') && (<div className="mb-1">
-                    <SectionHeader
-                        title={hour === "lesehore" ? "ERSTE LESUNG" : "KURZLESUNG"}
-                        field="les_text"
-                    />
-                    {getValue('les_buch') && getValue('les_stelle') && (
-                        <div>
-                            <div className='text-[0.9em] text-gray-400'>{formatPrayerText(getValue('les_buch'))} {formatPrayerText(getValue('les_stelle'))}</div>
-                            {formatPrayerParagraph(getValue('les_text'))}
-                        </div>
-                    )}
-                </div>)}
-
-                {getValue('resp1_1') && (
-                    <div className="mb-1">
-                        <SectionHeader title="RESPONSORIUM" field="resp1_1" />
-                        {getValue('resp1_0') && getValue('resp1_1') && (
-                            <div className="mb-0 flex gap-0">
-                                <Rubric>℣&nbsp;&nbsp;</Rubric>
-                                <div>
-                                    {formatPrayerText(getValue('resp1_0'))}
-                                </div>
-
-                            </div>
-
-                        )}
-                        {getValue('resp1_0') && getValue('resp1_1') && (
-                            <div className="mb-0 flex gap-0">
-                                <Rubric>℟&nbsp;&nbsp;</Rubric>
-                                <div>
-                                    {formatPrayerText(getValue('resp1_1'))}
-                                </div>
-                            </div>
-
-                        )}
-                        {getValue('resp1_1') && getValue('resp1_2') && (
-                            <div className="mb-0 flex gap-0">
-                                <Rubric>℟&nbsp;&nbsp;</Rubric>
-                                <div>
-                                    {formatPrayerText(getValue('resp1_1'))}
-                                    <span style={{ color: rubricColor }}> *&nbsp;</span>
-                                    {formatPrayerText(getValue('resp1_2'))}
-                                </div>
-                            </div>
-                        )}
-                        {getValue('resp1_3') && getValue('resp1_2') && (
-                            <div className="flex gap-0">
-                                <Rubric>℣&nbsp;&nbsp;</Rubric>
-                                <div>
-                                    {formatPrayerText(getValue('resp1_3'))}
-                                    <span style={{ color: rubricColor }}> *&nbsp;</span>
-                                    {formatPrayerText(getValue('resp1_2'))}
-                                </div>
-                            </div>
-                        )}
-                    </div>)}
-
-                {getValue('ev') && (
-                    <div className="mb-1">
-                        <SectionHeader
-                            title={hour === "laudes" ? "BENEDICTUS" : "MAGNIFICAT"}
-                            field='ev'
-                            latinField='ev_lat'
-                        />
-                        {getValue('ant_ev') && (
-                            <div >
-                                <Rubric>Ant.&nbsp;</Rubric>
-                                {formatPrayerText(getValue('ant_ev'))}
-                            </div>
-                        )}
-                        {getValue('ev') && (
-                            <div className="mb-4">
-                                {localPrefLatin === 1 ? formatPrayerParagraph(getValue('ev_lat').text) : formatPrayerParagraph(getValue('ev').text)}
-                            </div>
-                        )}
-                        {getValue('ant_ev') && (
-                            <div >
-                                <Rubric>Ant.&nbsp;</Rubric>
-                                {formatPrayerText(getValue('ant_ev'))}
-                            </div>
-                        )}
-                    </div>)}
-
-                {getValue('bitten') && (
-                    <div className="mb-1">
-                        <SectionHeader
-                            title={hour === "laudes" ? "BITTEN" : "FÜRBITTEN"}
-                            field="bitten"
-                        />
-                        {getValue('bitten_e') && (
-                            <div className="mb-2">
-                                {formatPrayerParagraph(getValue('bitten_e'))}
-                            </div>
-                        )}
-                        {getValue('bitten_r') && (
-                            <div className="mb-2 flex gap-0">
-                                <Rubric>℟&nbsp;&nbsp;</Rubric>
-                                <div>{formatPrayerText(getValue('bitten_r'))}</div>
-                            </div>
-                        )}
-                        {getValue('bitten') && (
-                            <div className="">
-                                {formatPrayerParagraph(getValue('bitten'))}
-                            </div>
-                        )}
-                    </div>)
-                }
-
-                {getValue('vu') && (
-                    <div className="mb-1">
-                        <SectionHeader
-                            title={hour === "lesehore" ? "TE DEUM" : "VATERUNSER"}
-                            field="vu"
-                            latinField="vu_lat"
-                        />
-                        {getValue('vu') && (
-                            <div className="mb-4">
-                                {localPrefLatin === 1 ? formatPrayerParagraph(getValue('vu_lat').text) : formatPrayerParagraph(getValue('vu').text)}
-                            </div>
-                        )}
-
-                    </div>)
-                }
-
-                {
-                    hour !== "invitatorium" && (
-                        <div className="mb-1">
-                            <SectionHeader title="ORATION" field="oration" />
-                            {getValue('oration') && (
-                                <div className="whitespace-pre-wrap">
-                                    {formatPrayerParagraph(getValue('oration'))}
-                                </div>
-                            )}
-                        </div>)
-                }
-            </div>
-            <div className="mt-4">
-                <BackButton onClick={onBack} />
             </div>
         </div>
     );
@@ -1366,6 +1127,7 @@ const ScrollableContainer = ({ children, containerRef }) => {
 };
 
 export default function LiturgicalCalendar() {
+    const fontFamily = 'Cambria, serif';
     const [selectedDate, setSelectedDate] = useState(new Date());
     const [showDatePicker, setShowDatePicker] = useState(false);
     const [theme, setTheme] = useState(() => {
@@ -1376,15 +1138,18 @@ export default function LiturgicalCalendar() {
     const [prayerTexts, setPrayerTexts] = useState(null);
     const [expandedDeceased, setExpandedDeceased] = useState({});
     const [deceasedMode, setDeceasedMode] = useState('recent');
-    const [viewMode, setViewMode] = useState('directory'); // 'directory', 'deceased', 'prayer', or 'prayerText'
+    const [viewMode, setViewMode] = useState('directory'); // 'directory', 'deceased' oder 'prayer'
     const [baseFontSize, setBaseFontSize] = useState(14); // Standard-Schriftgröße in pt
     const [isReady, setIsReady] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [activeSection, setActiveSection] = useState('fontSize');
     const [isNarrowScreen, setIsNarrowScreen] = useState(false);
+    const hangingIndent = '3.2em'; // Variable für den Einzug
+    const deceasedSizeRatio = 0.9;
     const entriesRef = useRef({});
     const containerRef = useRef(null);
     const [visibleRange, setVisibleRange] = useState({ startDate: null, endDate: null });
+    const DAYS_BUFFER = 7; // Anzahl der Tage vor/nach dem ausgewählten Datum
     const [isScrolling, setIsScrolling] = useState(false);
     const scrollTimeoutRef = useRef(null);
 
@@ -2048,11 +1813,6 @@ export default function LiturgicalCalendar() {
                 font-weight: bold;
                 font-variant: small-caps;
             }
-            .prayer-heading {
-                font-weight: bold;
-                margin-top: 1em;
-                color: ${rubricColor};
-            }
         `;
         document.head.appendChild(styleElement);
         return () => {
@@ -2189,36 +1949,35 @@ export default function LiturgicalCalendar() {
                 <div className="mt-4">
                     {/* Prayer Views */}
                     {viewMode === 'prayer' && (
-                        <PrayerMenu
-                            title={formatDate(selectedDate)}
-                            selectedDate={selectedDate}
-                            onSelectHour={(hour, texts) => {
-                                setSelectedHour(hour);
-                                setPrayerTexts(texts);
-                                setViewMode('prayerText');
-                            }}
-                            setViewMode={setViewMode}
-                            onPrevDay={() => {
-                                setDateChangeSource('navigation');
-                                setSelectedDate(new Date(selectedDate.setDate(selectedDate.getDate() - 1)));
-                            }}
-                            onNextDay={() => {
-                                setDateChangeSource('navigation');
-                                setSelectedDate(new Date(selectedDate.setDate(selectedDate.getDate() + 1)));
-                            }}
-                        />
-                    )}
-
-                    {viewMode === 'prayerText' && (
-                        <PrayerTextDisplay
-                            hour={selectedHour}
-                            texts={prayerTexts}
-                            onBack={() => setViewMode('prayer')}
-                        />
+                        <>
+                            <PrayerMenu
+                                title={formatDate(selectedDate)}
+                                selectedDate={selectedDate}
+                                onSelectHour={(hour, texts) => {
+                                    setSelectedHour(hour);
+                                    setPrayerTexts(texts);
+                                }}
+                                setViewMode={setViewMode}
+                                onPrevDay={() => {
+                                    setDateChangeSource('navigation');
+                                    setSelectedDate(new Date(selectedDate.setDate(selectedDate.getDate() - 1)));
+                                }}
+                                onNextDay={() => {
+                                    setDateChangeSource('navigation');
+                                    setSelectedDate(new Date(selectedDate.setDate(selectedDate.getDate() + 1)));
+                                }}
+                            />
+                            {selectedHour && prayerTexts && (
+                                <PrayerTextDisplay
+                                    hour={selectedHour}
+                                    texts={prayerTexts}
+                                />
+                            )}
+                        </>
                     )}
 
                     {/* Original ScrollableContainer for directory/deceased views */}
-                    {(viewMode === 'directory' || viewMode === 'deceased') && (
+                    {viewMode !== 'prayer' && (
                         <ScrollableContainer
                             containerRef={containerRef}
                             selectedDate={selectedDate}
