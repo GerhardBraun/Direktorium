@@ -296,9 +296,11 @@ export function processBrevierData(liturgicalInfo) {
         }
 
         // Layer 6: Specific day data
+        const specificWeeklyData = brevierData[season]?.[week]?.['each'];
+        if (specificWeeklyData) mergeData(specificWeeklyData, 'wt');
+
         const specificData = brevierData[season]?.[week]?.[dayOfWeek];
         if (specificData) mergeData(specificData, 'wt');
-
         // Layer 7: Process Commune texts
         const calendarData = brevierData?.['eig']?.[calendarMonth]?.[calendarDay];
         if (calendarData) mergeData(calendarData, 'eig');

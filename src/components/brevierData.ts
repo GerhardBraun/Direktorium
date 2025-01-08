@@ -38,6 +38,7 @@ interface BrevierEntry {
   vu?: number;
   vu_lat?: number;
   oration?: string;
+  oration_komplet?: string;
   marant?: number;
   marant_lat?: number;
   }
@@ -94,7 +95,7 @@ export const brevierData = {
           "les_buch": "Dtn",
           "les_stelle": "6,4–7",
           "les_text": "Höre, Israel! Jahwe, unser Gott, Jahwe ist einzig. Dar­um sollst du den Herrn, deinen Gott, lieben mit gan­zem Herzen, mit ganzer Seele und mit ganzer Kraft. Diese Worte, auf die ich dich heute verpflichte, sollen auf deinem Herzen geschrieben stehen. Du sollst sie deinen Söhnen wiederholen. Du sollst von ihnen reden, wenn du zu Hause sitzt und wenn du auf der Straße gehst, wenn du dich schlafen legst und wenn du aufstehst.",
-          "oration": "Herr und Gott, kehre ein in dieses Haus und halte alle Nachstellungen des Feindes von ihm fern. Deine heiligen Engel mögen darin wohnen und uns im Frieden bewahren. Und dein Segen sei über uns allezeit. Darum bitten wir durch Christus, unsern Herrn. Amen."
+          "oration_komplet": "Herr und Gott, kehre ein in dieses Haus und halte alle Nachstellungen des Feindes von ihm fern. Deine heiligen Engel mögen darin wohnen und uns im Frieden bewahren. Und dein Segen sei über uns allezeit. Darum bitten wir durch Christus, unsern Herrn. Amen."
         },
         "Komplet": {
           "hymn_2": 510.0,
@@ -103,7 +104,7 @@ export const brevierData = {
           "les_buch": "Offb",
           "les_stelle": "22,4–5",
           "les_text": "Sie werden sein Angesicht schauen, und sein Name ist auf ihre Stirn geschrieben. Es wird keine Nacht mehr geben, und sie brauchen weder das Licht einer Lampe noch das Licht der Sonne. Denn der Herr, ihr Gott, wird über ihnen leuchten, und sie werden herrschen in alle Ewigkeit.",
-          "oration": "Herr und Gott, kehre ein in dieses Haus und halte alle Nachstellungen des Feindes von ihm fern. Deine heiligen Engel mögen darin wohnen und uns im Frieden bewahren. Und dein Segen sei über uns allezeit. Darum bitten wir durch Christus, unsern Herrn. Amen."
+          "oration_komplet": "Herr und Gott, kehre ein in dieses Haus und halte alle Nachstellungen des Feindes von ihm fern. Deine heiligen Engel mögen darin wohnen und uns im Frieden bewahren. Und dein Segen sei über uns allezeit. Darum bitten wir durch Christus, unsern Herrn. Amen."
         },
         "Laudes": {
           "hymn_kl": 0.0,
@@ -7010,6 +7011,7 @@ export const brevierData = {
         "Komplet": {
           "ant_0": "Halleluja,°halleluja, halleluja.",
           "ant_1": "",
+          "ant_2": "",
           "resp1_1": "Herr, auf dich vertraue ich, in deine Hände lege ich mein Leben.",
           "resp1_2": "Halleluja,°halleluja.",
           "marant": 525.0,
@@ -9665,7 +9667,7 @@ export const brevierData = {
           "les_buch": "Offb",
           "les_stelle": "22,4–5",
           "les_text": "Sie werden sein Angesicht schauen, und sein Name ist auf ihre Stirn geschrieben. Es wird keine Nacht mehr geben, und sie brauchen weder das Licht einer Lampe noch das Licht der Sonne. Denn der Herr, ihr Gott, wird über ihnen leuchten, und sie werden herrschen in alle Ewigkeit.",
-          "oration": "Allmächtiger Gott, wir haben heute das Geheimnis der Auferstehung unseres Herrn gefeiert. Am Abend rufen wir zu dir: Bewahre uns in dieser Nacht vor allem Bösen. Lass uns in deinem Frieden ruhen und morgen den neuen Tag mit deinem Lob beginnen. Darum bitten wir durch Christus, unseren Herrn."
+          "oration_komplet": "Allmächtiger Gott, wir haben heute das Geheimnis der Auferstehung unseres Herrn gefeiert. Am Abend rufen wir zu dir: Bewahre uns in dieser Nacht vor allem Bösen. Lass uns in deinem Frieden ruhen und morgen den neuen Tag mit deinem Lob beginnen. Darum bitten wir durch Christus, unseren Herrn."
         },
         "Lesehore": {
           "vu": 406.0,
@@ -9680,7 +9682,7 @@ export const brevierData = {
           "les_buch": "1 Thess",
           "les_stelle": "5,9–10",
           "les_text": "Gott hat uns nicht für das Gericht seines Zornes bestimmt, sondern dafür, dass wir durch Jesus Christus, unseren Herrn, das Heil erlangen. Er ist für uns gestorben, damit wir vereint mit ihm leben, ob wir nun wachen oder schlafen.",
-          "oration": "Herr, schenke uns eine ruhige Nacht und erholsamen Schlaf. Was wir heute durch Wort und Werk an Gutem ausgesät haben, das lass Wurzel schlagen und wachsen und heranreifen für die ewige Ernte. Darum bitten wir durch Christus, unseren Herrn."
+          "oration_komplet": "Herr, schenke uns eine ruhige Nacht und erholsamen Schlaf. Was wir heute durch Wort und Werk an Gutem ausgesät haben, das lass Wurzel schlagen und wachsen und heranreifen für die ewige Ernte. Darum bitten wir durch Christus, unseren Herrn."
         }
       },
       "2": {
@@ -9691,7 +9693,7 @@ export const brevierData = {
           "les_buch": "1 Petr",
           "les_stelle": "5,8–9",
           "les_text": "Seid nüchtern und wachsam! Euer Widersacher, der Teufel, geht wie ein brüllender Löwe umher und sucht, wen er verschlingen kann. Leistet ihm Widerstand in der Kraft des Glaubens!",
-          "oration": "Herr, gütiger Vater, sei du unsere Leuchte im Dunkel der Nacht. Gib, dass wir in Frieden schlafen, damit wir uns beim Anbruch des neuen Tages in deinem Namen freudig erheben. Darum bitten wir durch Christus, unseren Herrn."
+          "oration_komplet": "Herr, gütiger Vater, sei du unsere Leuchte im Dunkel der Nacht. Gib, dass wir in Frieden schlafen, damit wir uns beim Anbruch des neuen Tages in deinem Namen freudig erheben. Darum bitten wir durch Christus, unseren Herrn."
         }
       },
       "3": {
@@ -9704,7 +9706,7 @@ export const brevierData = {
           "les_buch": "Eph",
           "les_stelle": "4,26–27",
           "les_text": "Lasst euch durch den Zorn nicht zur Sünde hinreißen! Die Sonne soll über eurem Zorn nicht untergehen. Gebt dem Teufel keinen Raum!",
-          "oration": "Herr Jesus Christus, du bist gütig und von Herzen demütig. Das Joch, das du denen auflegst, die dir nachfolgen, ist nicht drückend, und deine Last ist leicht. Nimm gnädig an, was wir uns heute vorgenommen und was wir vollbracht haben. Erneuere uns durch die Ruhe der Nacht und mache uns morgen eifriger in deinem Dienst. Der du lebst und herrschest in alle Ewigkeit."
+          "oration_komplet": "Herr Jesus Christus, du bist gütig und von Herzen demütig. Das Joch, das du denen auflegst, die dir nachfolgen, ist nicht drückend, und deine Last ist leicht. Nimm gnädig an, was wir uns heute vorgenommen und was wir vollbracht haben. Erneuere uns durch die Ruhe der Nacht und mache uns morgen eifriger in deinem Dienst. Der du lebst und herrschest in alle Ewigkeit."
         }
       },
       "4": {
@@ -9715,7 +9717,7 @@ export const brevierData = {
           "les_buch": "1 Thess",
           "les_stelle": "5.23",
           "les_text": "Der Gott des Friedens heilige euch ganz und gar und bewahre euren Geist, eure Seele und euren Leib unversehrt, damit ihr ohne Tadel seid, wenn Jesus Christus, unser Herr, kommt.",
-          "oration": "Herr, unser Gott, sende uns in dieser Nacht einen ruhigen Schlaf, damit wir uns von der Mühe des Tages erholen und morgen mit neuer Kraft dir dienen können. Darum bitten wir durch Jesus Christus, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration_komplet": "Herr, unser Gott, sende uns in dieser Nacht einen ruhigen Schlaf, damit wir uns von der Mühe des Tages erholen und morgen mit neuer Kraft dir dienen können. Darum bitten wir durch Jesus Christus, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         }
       },
       "5": {
@@ -9726,7 +9728,7 @@ export const brevierData = {
           "les_buch": "Jer",
           "les_stelle": "14.9",
           "les_text": "Du bist in unsrer Mitte, Herr, und dein Name ist über uns ausgerufen; verlass uns nicht, Herr, unser Gott!",
-          "oration": "Allmächtiger Gott, dein eingeborener Sohn ist hinabgestiegen in die Nacht des Todes und auferstanden. Gib, dass wir alle Tage durch den Glauben ihm verbunden bleiben, damit wir einst mit ihm auferstehen zum neuen Leben. Darum bitten wir durch ihn, Christus, unseren Herrn."
+          "oration_komplet": "Allmächtiger Gott, dein eingeborener Sohn ist hinabgestiegen in die Nacht des Todes und auferstanden. Gib, dass wir alle Tage durch den Glauben ihm verbunden bleiben, damit wir einst mit ihm auferstehen zum neuen Leben. Darum bitten wir durch ihn, Christus, unseren Herrn."
         }
       },
       "6": {
@@ -9739,7 +9741,7 @@ export const brevierData = {
           "les_buch": "Dtn",
           "les_stelle": "6,4–7",
           "les_text": "Höre, Israel! Jahwe, unser Gott, Jahwe ist einzig. Dar­um sollst du den Herrn, deinen Gott, lieben mit gan­zem Herzen, mit ganzer Seele und mit ganzer Kraft. Diese Worte, auf die ich dich heute verpflichte, sollen auf deinem Herzen geschrieben stehen. Du sollst sie deinen Söhnen wiederholen. Du sollst von ihnen reden, wenn du zu Hause sitzt und wenn du auf der Straße gehst, wenn du dich schlafen legst und wenn du aufstehst.",
-          "oration": "Herr, bleibe bei uns in dieser Nacht, und wenn wir uns am Morgen erheben, dann lass uns in Freude der Auferstehung deines Sohnes gedenken, der mit dir lebt und herrscht in alle Ewigkeit."
+          "oration_komplet": "Herr, bleibe bei uns in dieser Nacht, und wenn wir uns am Morgen erheben, dann lass uns in Freude der Auferstehung deines Sohnes gedenken, der mit dir lebt und herrscht in alle Ewigkeit."
         }
       },
       "each": {

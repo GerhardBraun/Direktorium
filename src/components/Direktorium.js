@@ -783,6 +783,7 @@ const getDayName = (date) => {
 const formatLiturgicalInfo = (info, date) => {
     if (!info) return '';
     const dayName = getDayName(date);
+    console.log('Season:', info.season)
     return `${dayName} der ${info.week}. ${getSeasonName(info.season)}`;
 };
 
@@ -903,7 +904,7 @@ const BackButton = ({ onClick }) => (
 );
 
 // Prayer Text Display Component
-const PrayerTextDisplay = ({ hour, texts, onBack }) => {
+const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
     const [localPrefComm, setLocalPrefComm] = useState(texts?.prefComm || 0);
     const [localPrefLatin, setLocalPrefLatin] = useState(0);
 
@@ -995,18 +996,19 @@ const PrayerTextDisplay = ({ hour, texts, onBack }) => {
 
     // Format psalm data
     const formatPsalm = (number, verses, title, quote, text) => {
-        if (!number) return null;
+        if (!text) return null;
         return (
             <div className="mb-4">
                 <div className="font-bold mt-2" style={{ color: rubricColor }}>
-                    {number > 150 ? (<>Canticum: {verses}</>) : (
-                        <>  Psalm {number}
-                            {verses && <>,{verses}</>}
-                        </>
-                    )}
+                    {number > 0 && (
+                        number > 150 ? (<>Canticum: {verses}</>) : (
+                            <>  Psalm {number}
+                                {verses && <>,{verses}</>}
+                            </>
+                        ))}
                 </div>
                 {title && <div className="mt-0 text-[0.9em] text-gray-400">{title}</div>}
-                {quote && <div className="text-[0.9em] leading-[1em] italic text-gray-400 mt-0">{quote}</div>}
+                {quote && <div className="text-[0.9em] leading-[1.1em] italic text-gray-400 mt-0">{quote}</div>}
                 {text && <div className="whitespace-pre-wrap">{formatPrayerParagraph(text)}</div>}
                 {number !== 160 && <div className="whitespace-pre-wrap">{formatPrayerParagraph(doxology)}</div>}
             </div >
@@ -1029,12 +1031,12 @@ const PrayerTextDisplay = ({ hour, texts, onBack }) => {
     // Format prayer text with specified formatting  
     const formatPrayerText = (text) => {
         if (!text || typeof text !== 'string') return '';
-
         return text
             .replace(/°/g, '\u00A0')
             .replace(/\^\*/g, '\u00A0*\n')
             .replace(/\^\+/g, '\u00A0†\n')
             .replace(/\^l/g, '\n')
+            .replace(/\^ö/g, season === 'o' ? ' Halleluja.' : '')
             .replace(/\^r(.*?)\^0r/g, (_, content) => `<span class="text-red-700">${content}</span>`)
             .replace(/\^v(.*?)\^0v/g, '$1');
     };
@@ -1079,6 +1081,18 @@ const PrayerTextDisplay = ({ hour, texts, onBack }) => {
             }
         }).filter(Boolean);
     };
+
+    const getCanticleTitle = (hour) => {
+        switch (hour) {
+            case 'laudes':
+                return 'BENEDICTUS';
+            case 'komplet':
+                return 'NUNC DIMITTIS';
+            case 'vesper':
+            default:
+                return 'MAGNIFICAT';
+        }
+    }
 
     return (
         <div className="p-4 leading-[1.35em]">
@@ -1187,7 +1201,6 @@ const PrayerTextDisplay = ({ hour, texts, onBack }) => {
                         </div>
                     )}
                 </div>
-
                 {getValue('resp0_0') && (
                     <div className="mb-1">
                         <SectionHeader title="VERSIKEL" field="resp0_0" />
@@ -1205,17 +1218,15 @@ const PrayerTextDisplay = ({ hour, texts, onBack }) => {
                         )}
                     </div>)}
 
-                {getValue('les_buch') && (<div className="mb-1">
+                {getValue('les_buch') && getValue('les_stelle') && (<div className="mb-1">
                     <SectionHeader
                         title={hour === "lesehore" ? "ERSTE LESUNG" : "KURZLESUNG"}
                         field="les_text"
                     />
-                    {getValue('les_buch') && getValue('les_stelle') && (
-                        <div>
-                            <div className='text-[0.9em] text-gray-400'>{formatPrayerText(getValue('les_buch'))} {formatPrayerText(getValue('les_stelle'))}</div>
-                            {formatPrayerParagraph(getValue('les_text'))}
-                        </div>
-                    )}
+                    <div>
+                        <div className='text-[0.9em] text-gray-400'>{formatPrayerText(getValue('les_buch'))} {formatPrayerText(getValue('les_stelle'))}</div>
+                        {formatPrayerParagraph(getValue('les_text'))}
+                    </div>
                 </div>)}
 
                 {getValue('resp1_1') && (
@@ -1265,7 +1276,7 @@ const PrayerTextDisplay = ({ hour, texts, onBack }) => {
                 {getValue('ev') && (
                     <div className="mb-1">
                         <SectionHeader
-                            title={hour === "laudes" ? "BENEDICTUS" : "MAGNIFICAT"}
+                            title={getCanticleTitle(hour)}
                             field='ev'
                             latinField='ev_lat'
                         />
@@ -1277,7 +1288,7 @@ const PrayerTextDisplay = ({ hour, texts, onBack }) => {
                         )}
                         {getValue('ev') && (
                             <div className="mb-4">
-                                {localPrefLatin === 1 ? formatPrayerParagraph(getValue('ev_lat').text) : formatPrayerParagraph(getValue('ev').text)}
+                                {localPrefLatin === 1 ? formatPsalm('', '', '', '', getValue('ev_lat').text) : formatPsalm(0, '', '', '', getValue('ev').text)}
                             </div>
                         )}
                         {getValue('ant_ev') && (
@@ -1329,17 +1340,24 @@ const PrayerTextDisplay = ({ hour, texts, onBack }) => {
                     </div>)
                 }
 
-                {
-                    hour !== "invitatorium" && (
-                        <div className="mb-1">
-                            <SectionHeader title="ORATION" field="oration" />
-                            {getValue('oration') && (
-                                <div className="whitespace-pre-wrap">
-                                    {formatPrayerParagraph(getValue('oration'))}
-                                </div>
-                            )}
-                        </div>)
+                {(hour !== "invitatorium") && (hour !== "komplet") && (
+                    <div className="mb-1">
+                        <SectionHeader title="ORATION" field="oration" />
+                        {getValue('oration') && (
+                            <div className="whitespace-pre-wrap">
+                                {formatPrayerParagraph(getValue('oration'))}
+                            </div>
+                        )}
+                    </div>)
                 }
+
+                {getValue('oration_komplet') && (<div className="mb-1">
+                    <SectionHeader title="ORATION" field="oration_komplet"
+                    />
+                    <div>
+                        {formatPrayerParagraph(getValue('oration_komplet'))}
+                    </div>
+                </div>)}
             </div>
             <div className="mt-4">
                 <BackButton onClick={onBack} />
@@ -1398,6 +1416,8 @@ export default function LiturgicalCalendar() {
     const [visibleRange, setVisibleRange] = useState({ startDate: null, endDate: null });
     const [isScrolling, setIsScrolling] = useState(false);
     const scrollTimeoutRef = useRef(null);
+    const [liturgicalInfo, setLiturgicalInfo] = useState(null);
+    const [currentSeason, setCurrentSeason] = useState(null);
 
     const formatDate = useCallback((date, forDisplay = false) => {
         if (forDisplay && isNarrowScreen) {
@@ -1466,6 +1486,14 @@ export default function LiturgicalCalendar() {
             setTimeout(() => {
                 setIsReady(true);
             }, 100);
+        }
+    }, [selectedDate]);
+
+    useEffect(() => {
+        const info = getLiturgicalInfo(selectedDate);
+        setLiturgicalInfo(info);
+        if (info?.season) {
+            setCurrentSeason(info.season);
         }
     }, [selectedDate]);
 
@@ -2224,6 +2252,7 @@ export default function LiturgicalCalendar() {
                         <PrayerTextDisplay
                             hour={selectedHour}
                             texts={prayerTexts}
+                            season={currentSeason}
                             onBack={() => setViewMode('prayer')}
                         />
                     )}
