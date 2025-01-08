@@ -978,7 +978,10 @@ export const psalmsData = {
   },
   95: {
     0.0: {
-        "verses": "1-16"
+        "verses": "1-16",
+        "title": "Aufruf zum Lobpreis Gottes",
+        "quote": "Ermahnt einander jeden Tag, solange es noch heißt: Heute! (Hebr 3,13)",
+        "text": "Kommt, lasst uns jubeln vor dem Herrn^*und zujauchzen dem Fels unsres Heiles! ^pLasst uns mit Lob seinem Angesicht nahen,^*vor ihm jauchzen mit Liedern! ^pDenn der Herr ist ein großer Gott,^*ein großer König über allen Göttern. ^pIn seiner Hand sind die Tiefen der Erde,^*sein sind die Gipfel der Berge. ^pSein ist das Meer, das er gemacht hat,^*das trockene Land, das seine Hände gebildet. ^pKommt, lasst uns niederfallen, uns vor ihm verneigen,^*lasst uns niederknien vor dem Herrn, unserm Schöpfer! ^pDenn er ist unser Gott,^+wir sind das Volk seiner Weide,^*die Herde, von seiner Hand geführt. ^pAch, würdet ihr doch heute auf seine Stimme hören!^+„Verhärtet euer Herz nicht wie in Meríba,^*wie in der Wüste am Tag von Massa! ^pDort haben eure Väter mich versucht, * sie haben mich auf die Probe gestellt und hatten doch mein Tun gesehen. ^pVierzig Jahre war mir dies Geschlecht zuwider,^+und ich sagte: Sie sind ein Volk, dessen Herz in die Irre geht;^*denn meine Wege kennen sie nicht. ^pDarum habe ich in meinem Zorn geschworen:^*Sie sollen nicht kommen in das Land meiner Ruhe.“"
       }
   },
   96: {
@@ -2434,7 +2437,7 @@ export const psalmsData = {
   },
   2203: {
     0.0: {
-        "text": "Ihr alle, die ihr Christus sucht,^lerhebt zum Himmel euren Blick^lda geht vor euren Augen auf^ldas Zeichen ew'ger Herrlichkeit:^pEin Stern, der selbst den Sonnenball^lan Glanz und Feuer überstrahlt,^lverkündet heute aller Welt,^ldass Gott im Fleisch erschienen ist.^pUnd Weise, fern im Orient,^lerkennen deutend diesen Stern^lals Zeichen, dass ein Königskind^lder Welt zum Heil geboren ist.^p\"Wer ist es\", fragen sie bestürzt,^l\"dem Licht und Sterne dienstbar sind,^ldem sich der Himmel unterwirft,^lder über die Gestirne herrscht?^pEin großes Leuchten schauen wir,^lerhaben, weit und grenzenlos,^lein Leuchten, das kein Ende kennt,^ldas älter als der Himmel ist.\"^pEr ist es, aller Völker Herr,^lder König über Judas Haus,^lder Abraham verheißen ward^lund allen, die ihm Söhne sind.^pHerr Jesus, dir sei Ruhm und Preis,^lder du uns heut erschienen bist,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
+        "text": "Ihr alle, die ihr Christus sucht,^lerhebt zum Himmel euren Blick^lda geht vor euren Augen auf^ldas Zeichen ew'ger Herrlichkeit:^pEin Stern, der selbst den Sonnenball^lan Glanz und Feuer überstrahlt,^lverkündet heute aller Welt,^ldass Gott im Fleisch erschienen ist.^pUnd Weise, fern im Orient,^lerkennen deutend diesen Stern^lals Zeichen, dass ein Königskind^lder Welt zum Heil geboren ist.^p„Wer ist es“, fragen sie bestürzt,^l„dem Licht und Sterne dienstbar sind,^ldem sich der Himmel unterwirft,^lder über die Gestirne herrscht?^pEin großes Leuchten schauen wir,^lerhaben, weit und grenzenlos,^lein Leuchten, das kein Ende kennt,^ldas älter als der Himmel ist.“^pEr ist es, aller Völker Herr,^lder König über Judas Haus,^lder Abraham verheißen ward^lund allen, die ihm Söhne sind.^pHerr Jesus, dir sei Ruhm und Preis,^lder du uns heut erschienen bist,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   2204: {
@@ -2470,7 +2473,7 @@ export const psalmsData = {
   },
   2403: {
     0.0: {
-        "text": "Seht, am Himmel erglänzt"
+        "text": "Seht, am Himmel erglänzt^lleuchtend ein neuer Stern,^lkündet: Christus, der Herr,^lwurde als Mensch geborn,^lder Geringes geformt,^lder auch das Größte schuf,^ldessen Zepter mit Macht^lewig das Reich regiert.^pWeise folgen dem Stern,^lfinden das kleine Kind,^lJudas heiligen Spross,^larm und gering im Stall.^lWeihrauch, Myrrhe und Gold^lbringen sie kniend dar:^lSie verehren in ihm^lKönig und Mensch und Gott.^pLasst uns jubelnd im Lied^lheute das Fest begehn,^lda der gütige Herr^lgnädig im Fleisch erschien.^lJetzt ist Gott unter uns:^lChristus, das Licht vom Licht,^lew’ger Vater des Alls,^lRichter und Herr der Welt.^pChristus Ehre und Preis,^lden uns die Magd gebar,^lden der Stern offenbart,^lstrahlend in großem Licht;^lauch dem Vater sei Lob,^lder ihn als Sohn bezeugt,^lPreis und Ehre dem Geist,^ljetzt und für alle Zeit. Amen."
       }
   },
   3201: {
