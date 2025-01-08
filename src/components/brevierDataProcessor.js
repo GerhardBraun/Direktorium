@@ -253,6 +253,12 @@ export function processBrevierData(liturgicalInfo) {
         const adjustedWeek = ((week + 3) % 4) + 1;
         const baseData = brevierData['p']?.[adjustedWeek]?.[dayOfWeek];
         if (baseData) mergeData(baseData, 'wt');
+        // Layer 1.1: besondere Psalmen in der Lesehore
+        const ordbaseData = brevierData['pj']?.[adjustedWeek]?.[dayOfWeek];
+        if (ordbaseData) mergeData(ordbaseData, 'wt');
+        // Layer 1.2: kein Te Deum in der Fastenzeit
+        const lentbaseData = brevierData['pq']?.['each']?.[dayOfWeek];
+        if (lentbaseData) mergeData(lentbaseData, 'wt');
 
         // Layer 2: Season-wide texts
         const seasonData = brevierData[season]?.['each']?.['each'];

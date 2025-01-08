@@ -135,7 +135,8 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "a-1-0-each-Oration"
-        }
+        },
+        "Lesehore": {}
       },
       "1": {
         "each": {
@@ -4030,7 +4031,7 @@ export const brevierData = {
           "ant_ev": "Wenn die Sonne am Himmel ihren Lauf beginnt, schaut ihr den König der Könige. Wie ein Bräutigam aus seinem Gemach, so geht er aus dem Vater hervor.",
           "bitten_e": "Lasst uns beten zu unserem Herrn Jesus Christus, der sich selbst erniedrigte und Mensch geworden ist.",
           "bitten_r": "Herr, durch deine Geburt komm uns zu Hilfe.",
-          "bitten": "Mit deinem Kommen hast du die neue Weltzeit heraufgeführt,^qgib, dass deine Kirche sich immer wieder erneuert.^pDu hast die Gebrechen der Menschen auf dich genommen;^qsei den Blinden Licht, den Schwachen Kraft und den Leidenden Trost.^pIn Armut und Niedrigkeit wurdest du geboren;^qerbarme dich der Armen und mache uns bereit, ihnen zu helfen.^pDeine Geburt auf Erden brachte Freude durch die Verheißung ewigen Lebens;^qschenke den Sterbenden die Zuversicht, dass sie im Tod zum Leben geboren werden.^pHier können Fürbitten in besonderen Anliegen eingefügt werden.^pDu bist auf die Erde herabgekommen, um alle Menschen zum Himmel zu führen;^qvereine die Toten mit dir in der ewigen Herrlichkeit.",
+          "bitten": "Mit deinem Kommen hast du die neue Weltzeit heraufgeführt,^qgib, dass deine Kirche sich immer wieder erneuert.^pDu hast die Gebrechen der Menschen auf dich genommen;^qsei den Blinden Licht, den Schwachen Kraft und den Leidenden Trost.^pIn Armut und Niedrigkeit wurdest du geboren;^qerbarme dich der Armen und mache uns bereit, ihnen zu helfen.^pDeine Geburt auf Erden brachte Freude durch die Verheißung ewigen Lebens;^qschenke den Sterbenden die Zuversicht, dass sie im Tod zum Leben geboren werden.^pDu bist auf die Erde herabgekommen, um alle Menschen zum Himmel zu führen;^qvereine die Toten mit dir in der ewigen Herrlichkeit.",
           "oration": "Gütiger Gott, Jahr für Jahr erwarten wir voll Freude das Fest unserer Erlösung. Gib, dass wir deinen Sohn von ganzem Herzen als unseren Retter und Heiland aufnehmen, damit wir ihm voll Zuversicht entgegengehen können, wenn er am Ende der Zeiten als Richter wiederkommt. Er, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         }
       },
@@ -4110,7 +4111,7 @@ export const brevierData = {
           "ant_ev": "Heute ist Christus geboren, heute ist der Retter erschienen; heute singen die Engel auf Erden, die Erzengel jauchzen; heute jubeln die Gerechten: Ehre sei Gott in der Höhe. Halleluja.",
           "bitten_e": "Lasst uns beten zu unserem Heiland, bei dessen Geburt Engel der Welt den Frieden verkündeten:",
           "bitten_r": "Deine Geburt bringe Frieden den Menschen.",
-          "bitten": "Herr, schenke der Kirche die Fülle deiner Gaben;^qmache sie froh durch die Feier deiner Geburt.^pDu bist unser Hirt und Bischof;^qmache den Papst und die Bischöfe zu treuen Dienern deiner Gnade.^pKönig vor aller Zeit und in Ewigkeit, du hast dich eingrenzen lassen in die kurze Spanne menschlichen Lebens;^qgib den sterblichen Menschen Anteil an deiner Ewigkeit.^pVon Urzeit her erwartet, bist du gekommen, als die Zeit erfüllt war;^qoffenbare deine Ankunft denen, die noch auf dich warten.^pHier können Fürbitten in besonderen Anliegen eingefügt werden.^pDu hast den Menschen, der dem Tod verfallen ist, durch deine Menschwerdung erneuert;^qvollende an unseren Verstorbenen das Werk der Erlösung."
+          "bitten": "Herr, schenke der Kirche die Fülle deiner Gaben;^qmache sie froh durch die Feier deiner Geburt.^pDu bist unser Hirt und Bischof;^qmache den Papst und die Bischöfe zu treuen Dienern deiner Gnade.^pKönig vor aller Zeit und in Ewigkeit, du hast dich eingrenzen lassen in die kurze Spanne menschlichen Lebens;^qgib den sterblichen Menschen Anteil an deiner Ewigkeit.^pVon Urzeit her erwartet, bist du gekommen, als die Zeit erfüllt war;^qoffenbare deine Ankunft denen, die noch auf dich warten.^pDu hast den Menschen, der dem Tod verfallen ist, durch deine Menschwerdung erneuert;^qvollende an unseren Verstorbenen das Werk der Erlösung."
         }
       },
       "26": {
@@ -5443,7 +5444,11 @@ export const brevierData = {
         "Vesper": {}
       },
       "6": {
-        "Vesper": {}
+        "Vesper": {
+          "ant_1": "Verkündet unter den Völkern: Seht, Gott kommt, unser Retter.",
+          "ant_2": "Seht, der Herr wird kommen und alle seine Heiligen mit ihm. An jenem Tag leuchtet ein helles Licht. Halleluja.",
+          "ant_3": "Der Herr kommt mit großer Macht. Alles Fleisch wird ihn schauen."
+        }
       },
       "each": {
         "Lesehore": {}
@@ -5679,7 +5684,7 @@ export const brevierData = {
           "ant_ev": "Mit großer Freude schauten die Weisen den Stern. Sie traten in das Haus und taten ihre Schätze auf: Gold, Weihrauch und Myrrhe. Halleluja.",
           "bitten_e": "Lasst uns beten zu unserem Herrn Jesus Christus, der die Menschen aus der Finsternis in sein Licht führt:",
           "bitten_r": "Herr, erbarme dich.",
-          "bitten": "Du bist gekommen, dir ein Volk zu sammeln;^qgib, dass deine Kirche wachse auf der ganzen Erde.^pDu lenkst die Herzen der Menschen;^qlenke die Pläne der Staatsmänner zum Frieden.^pDu bist der Hohepriester auf ewig;^qsteh denen bei, denen du Anteil gibst an deinem Dienst.^pDu Sohn der Jungfrau Maria:^qsegne die Jungfrauen, die sich dir geweiht haben.^p(Fürbitten in besonderen Anliegen)^pDu hast dem Tod die Macht genommen;^qnimm unsere Verstorbenen auf in das ewige Leben."
+          "bitten": "Du bist gekommen, dir ein Volk zu sammeln;^qgib, dass deine Kirche wachse auf der ganzen Erde.^pDu lenkst die Herzen der Menschen;^qlenke die Pläne der Staatsmänner zum Frieden.^pDu bist der Hohepriester auf ewig;^qsteh denen bei, denen du Anteil gibst an deinem Dienst.^pDu Sohn der Jungfrau Maria:^qsegne die Jungfrauen, die sich dir geweiht haben.^pDu hast dem Tod die Macht genommen;^qnimm unsere Verstorbenen auf in das ewige Leben."
         }
       },
       "8": {
@@ -5718,7 +5723,7 @@ export const brevierData = {
           "ant_ev": "Erschienen bist du, Licht vom Lichte, Christus, Gottes Sohn; die Weisen bringen dir ihre Gaben. Halleluja.",
           "bitten_e": "Mit allen Christen im Lobpreis vereint, lasst uns zu Gott rufen:",
           "bitten_r": "Erhöre unser Gebet.",
-          "bitten": "Ewiger Vater, komm den Menschen zu Hilfe, denen du ein unbekannter Gott bist;^qerleuchte sie durch Christus, deinen Sohn, das Licht vom Licht.^pSieh auf alle, die dich als den alleinigen Gott anbeten;^qlass sie dein Erbarmen finden.^pGedenke der Getauften, die durch Christus an dich glauben;^qsei keinem von ihnen fern.^pBeschütze unsere Brüder und Schwestern, die unterwegs sind;^qbewahre sie vor Unheil.^p(Fürbitten in besonderen Anliegen)^pDu willst, dass alle Menschen selig werden;^qschenke den Verstorbenen die ewige Seligkeit bei dir."
+          "bitten": "Ewiger Vater, komm den Menschen zu Hilfe, denen du ein unbekannter Gott bist;^qerleuchte sie durch Christus, deinen Sohn, das Licht vom Licht.^pSieh auf alle, die dich als den alleinigen Gott anbeten;^qlass sie dein Erbarmen finden.^pGedenke der Getauften, die durch Christus an dich glauben;^qsei keinem von ihnen fern.^pBeschütze unsere Brüder und Schwestern, die unterwegs sind;^qbewahre sie vor Unheil.^pDu willst, dass alle Menschen selig werden;^qschenke den Verstorbenen die ewige Seligkeit bei dir."
         }
       },
       "9": {
@@ -7517,6 +7522,9 @@ export const brevierData = {
           "bitten_r": "Herr, erhöre uns.",
           "bitten": "Schau gnädig herab auf die Völker der Erde^qund stehe denen bei, die für sie Verantwortung tragen.^pDu hast uns die Freiheit der Kinder Gottes erworben;^qerlöse die Menschen aus der Knechtschaft der Sünde.^pSegne die Kinder (dieser Gemeinde)^qund lass sie zu guten Christen heranwachsen.^pGib den jungen Menschen (unserer Gemeinde) das Verlangen, das Rechte zu tun^qund dir zu folgen, wenn du sie rufst.^pNimm unsere Verstorbenen auf in dein Reich^qund stärke in uns die Hoffnung auf das ewige Leben.",
           "oration": "Wir danken dir, allmächtiger Vater, für diesen Abend. Voll Vertrauen heben wir unsere Hände zu dir empor; nimm unser Beten an als ein Opfer, das dir gefällt. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+        },
+        "Invitatorium": {
+          "ps_24": 0
         }
       },
       "3": {
@@ -7546,9 +7554,9 @@ export const brevierData = {
           "ps_1": 18.1,
           "ps_2": 18.2,
           "ps_3": 18.3,
-          "ant_1": "Ich will dich rühmen, Herr, meine Stärke.",
-          "ant_2": "Der Herr befreite mich, denn er hatte an mir Gefallen.",
-          "ant_3": "Herr, lass meine Leuchte erstrahlen, mach meine Finsternis hell.",
+          "ant_1": "Ich will dich rühmen, Herr, meine Stärke.^ö",
+          "ant_2": "Der Herr befreite mich, denn er hatte an mir Gefallen.^ö",
+          "ant_3": "Herr, lass meine Leuchte erstrahlen, mach meine Finsternis hell.^ö",
           "resp0_0": "Alle staunten über die Kraft seiner Rede.",
           "resp0_1": "Über die Worte aus seinem Mund."
         },
@@ -7630,9 +7638,9 @@ export const brevierData = {
           "ps_1": 18.4,
           "ps_2": 18.5,
           "ps_3": 18.6,
-          "ant_1": "Ein Schild ist der Herr für alle, die sich bei ihm bergen.",
-          "ant_2": "Herr, du umgürtest mich mit Kraft, deine Rechte stützt mich.",
-          "ant_3": "Es lebt der Herr, gepriesen sei der Gott meines Heils.",
+          "ant_1": "Ein Schild ist der Herr für alle, die sich bei ihm bergen.^ö",
+          "ant_2": "Herr, du umgürtest mich mit Kraft, deine Rechte stützt mich.^ö",
+          "ant_3": "Es lebt der Herr, gepriesen sei der Gott meines Heils.^ö",
           "resp0_0": "Herr, öffne mir die Augen.",
           "resp0_1": "Für das Wunderbare an deiner Weisung."
         },
@@ -7714,9 +7722,9 @@ export const brevierData = {
           "ps_1": 35.1,
           "ps_2": 35.2,
           "ps_3": 35.3,
-          "ant_1": "Erhebe dich, Herr, und komm mir zu Hilfe.",
-          "ant_2": "Tritt ein für mein Recht, denn du bist mächtig.",
-          "ant_3": "Deine Gerechtigkeit will ich verkünden den ganzen Tag.",
+          "ant_1": "Erhebe dich, Herr, und komm mir zu Hilfe.^ö",
+          "ant_2": "Tritt ein für mein Recht, denn du bist mächtig.^ö",
+          "ant_3": "Deine Gerechtigkeit will ich verkünden den ganzen Tag.^ö",
           "resp0_0": "Mein Sohn, bewahre meine Worte.",
           "resp0_1": "Beachte meine Gebote und du wirst leben."
         },
@@ -7769,6 +7777,9 @@ export const brevierData = {
           "bitten_r": "Zeige uns dein Erbarmen.",
           "bitten": "Dein eingeborener Sohn hat sich als Abendopfer für die Welt dargebracht;^qerbarme dich aller Menschen auf der ganzen Erde.^pRichte auf, die ungerecht verfolgt und gefangen gehalten werden;^qnimm dich derer an, die einsam und traurig sind.^pSei du die Kraft deiner Gläubigen,^qdamit sie den Angriffen des Bösen standhalten können.^pUmgib die Sterbenden mit deinem Erbarmen;^qlass sie heimkehren zu dir.^pFühre unsere Verstorbenen in das Licht, in dem du wohnst,^qdass sie dich schauen in Ewigkeit.",
           "oration": "Herr, wir schauen hin auf das Kreuz deines Sohnes. Gib, dass wir sein Leiden und Sterben besser verstehen und fähig werden, sein Joch auf uns zu nehmen. Darum bitten wir durch ihn, Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+        },
+        "Invitatorium": {
+          "ps_100": 0
         }
       },
       "6": {
@@ -7798,9 +7809,9 @@ export const brevierData = {
           "ps_1": 105.1,
           "ps_2": 105.2,
           "ps_3": 105.3,
-          "ant_1": "Wer so klein sein kann wie ein Kind, der ist im Himmelreich der Größte.",
-          "ant_2": "Mit ungeteiltem Herzen habe ich freudig alles gegeben, Herr, du mein Gott.",
-          "ant_3": "Der Herr hat David Treue geschworen; er hat seine Herrschaft auf ewig gefestigt.",
+          "ant_1": "Singet dem Herrn, gedenkt all seiner Wunder.",
+          "ant_2": "Den Gerechten, der verkauft worden war, hat der Herr nicht verlassen. Er befreite ihn aus den Händen der Sünder.^ö",
+          "ant_3": "Der Herr dachte an sein heiliges Wort: Er hat sein Volk herausgeführt in Freude.^ö",
           "resp0_0": "Kommt und schaut die Taten des Herrn.",
           "resp0_1": "Der Wunderbares vollbringt auf der Erde."
         },
@@ -7970,8 +7981,8 @@ export const brevierData = {
           "ps_2": 31.2,
           "ps_3": 31.3,
           "ant_1": "Wende dein Ohr mir zu, erlöse mich bald.",
-          "ant_2": "Lass dein Angesicht leuchten über deinem Knecht.",
-          "ant_3": "Gepriesen sei der Herr, der wunderbar an mir gehandelt hat.",
+          "ant_2": "Lass dein Angesicht leuchten über deinem Knecht.^ö",
+          "ant_3": "Gepriesen sei der Herr, der wunderbar an mir gehandelt hat.^ö",
           "resp0_0": "Führe mich in deiner Treue und lehre mich.",
           "resp0_1": "Denn du bist der Gott meines Heiles."
         },
@@ -8054,9 +8065,9 @@ export const brevierData = {
           "ps_1": 37.1,
           "ps_2": 37.2,
           "ps_3": 37.3,
-          "ant_1": "Befiehl dem Herrn deinen Weg und vertrau ihm; er wird es fügen.",
-          "ant_2": "Meide das Böse und tu das Gute; der Herr verlässt seine Frommen nicht.",
-          "ant_3": "Hoffe auf den Herrn und bleib auf seinem Weg.",
+          "ant_1": "Befiehl dem Herrn deinen Weg und vertrau ihm; er wird es fügen.^ö",
+          "ant_2": "Meide das Böse und tu das Gute; der Herr verlässt seine Frommen nicht.^ö",
+          "ant_3": "Hoffe auf den Herrn und bleib auf seinem Weg.^ö",
           "resp0_0": "Lehre mich Erkenntnis und rechtes Urteil.",
           "resp0_1": "Ich vertraue auf deine Gebote."
         },
@@ -8141,7 +8152,7 @@ export const brevierData = {
           "ps_3": 52.0,
           "ant_1": "Wir seufzen in unserem Herzen und warten auf die Erlösung unseres Leibes.",
           "ant_2": "Höre mein Gebet, o Herr, und schweige nicht zu meinen Tränen.",
-          "ant_3": "Auf Gottes Huld vertraue ich immer und ewig.",
+          "ant_3": "Auf Gottes Huld vertraue ich immer und ewig.^ö",
           "resp0_0": "Ich hoffe auf den Herrn.",
           "resp0_1": "Ich warte voll Vertrauen auf sein Wort."
         },
@@ -8194,6 +8205,9 @@ export const brevierData = {
           "bitten_r": "Wir bitten dich, erhöre uns.",
           "bitten": "Gott, schütze unsere Stadt ^(unsere Gemeinde^)^qund bewahre ihre Bewohner vor Schaden.^pSieh auf die Kinder und die jungen Menschen;^qlass sie zu aufrechten Christen heranwachsen.^pErbarme dich der Kranken;^qsei den alten Menschen nahe.^pSegne die Früchte der Erde;^qspende Nahrung allem, was lebt.^pLass den Verstorbenen das Licht deines Angesichtes leuchten^qund schenke ihnen deinen Frieden.",
           "oration": "Gott, dein Name ist heilig, und deine Barmherzigkeit wird gerühmt von Geschlecht zu Geschlecht. Nimm das Abendgebet deiner Kirche an und gib, dass in ihr dein Lobpreis niemals verstumme. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+        },
+        "Invitatorium": {
+          "ps_67": 0
         }
       },
       "4": {
@@ -8224,9 +8238,9 @@ export const brevierData = {
           "ps_1": 44.1,
           "ps_2": 44.2,
           "ps_3": 44.3,
-          "ant_1": "Du hast uns gerettet, Herr, wir preisen deinen Namen auf ewig.",
+          "ant_1": "Du hast uns gerettet, Herr, wir preisen deinen Namen auf ewig.^ö",
           "ant_2": "Verschone dein Volk, o Herr; gib dein Erbe nicht der Schande preis.",
-          "ant_3": "Steh auf und hilf uns, Herr; in deiner Huld erlöse uns.",
+          "ant_3": "Steh auf und hilf uns, Herr; in deiner Huld erlöse uns.^ö",
           "resp0_0": "Herr, zu wem sollen wir gehen?",
           "resp0_1": "Du hast Worte des ewigen Lebens."
         },
@@ -8310,8 +8324,8 @@ export const brevierData = {
           "ps_2": 38.2,
           "ps_3": 38.3,
           "ant_1": "Schwer lastet deine Hand auf mir, strafe mich nicht in deinem Zorn.",
-          "ant_2": "All mein Sehnen, Herr, liegt offen vor dir, mein Seufzen ist dir nicht verborgen.",
-          "ant_3": "Ich bekenne dir meine Schuld; verlass mich nicht, Herr du mein Heil.",
+          "ant_2": "All mein Sehnen, Herr, liegt offen vor dir, mein Seufzen ist dir nicht verborgen.^ö",
+          "ant_3": "Ich bekenne dir meine Schuld; verlass mich nicht, Herr du mein Heil.^ö",
           "resp0_0": "Nach deiner Hilfe sehnt sich meine Seele.",
           "resp0_1": "Meine Augen sehnen sich nach deiner Verheißung."
         },
@@ -8394,9 +8408,9 @@ export const brevierData = {
           "ps_1": 106.1,
           "ps_2": 106.2,
           "ps_3": 106.3,
-          "ant_1": "Der Herr allein tut große Wunder; seine Huld währt ewig.",
-          "ant_2": "Der Herr hat Israel herausgeführt aus Ägypten; seine Huld währt ewig.",
-          "ant_3": "Dankt dem Gott des Himmels; seine Huld währt ewig.",
+          "ant_1": "Herr, denk an uns, komm und bring uns Hilfe.^ö",
+          "ant_2": "Hüte dich, den Bund zu vergessen, den der Herr, dein Gott, mit dir geschlossen hat!",
+          "ant_3": "Hilf uns, Herr, unser Gott, führe uns aus den Völkern zusammen!^ö",
           "resp0_0": "Zeige mir, Herr, deine Wege.",
           "resp0_1": "Lehre mich deine Pfade."
         },
@@ -8566,9 +8580,9 @@ export const brevierData = {
           "ps_1": 50.1,
           "ps_2": 50.2,
           "ps_3": 50.3,
-          "ant_1": "Bring Gott, dem Höchsten, als Opfer dein Lob.",
-          "ant_2": "Barmherzigkeit will ich, nicht Opfer, nicht Brandopfer, sondern Erkenntnis Gottes.",
-          "ant_3": "Barmherzigkeit will ich, nicht Opfer, nicht Brandopfer, sondern Erkenntnis Gottes.",
+          "ant_1": "Bring Gott, dem Höchsten, als Opfer dein Lob.^ö",
+          "ant_2": "Barmherzigkeit will ich, nicht Opfer, nicht Brandopfer, sondern Erkenntnis Gottes.^ö",
+          "ant_3": "Barmherzigkeit will ich, nicht Opfer, nicht Brandopfer, sondern Erkenntnis Gottes.^ö",
           "resp0_0": "Höre, mein Volk, ich will reden.",
           "resp0_1": "Höre, denn ich bin dein Gott."
         },
@@ -8652,9 +8666,9 @@ export const brevierData = {
           "ps_1": 68.1,
           "ps_2": 68.2,
           "ps_3": 68.3,
-          "ant_1": "Gott steht auf; seine Feinde zerstieben; die ihn hassen, fliehen vor seinem Angesicht.",
-          "ant_2": "Gott ist ein Gott, der uns Rettung bringt; Gott, der Herr, führt uns heraus aus dem Tod.",
-          "ant_3": "Ihr Königreiche der Erde, singt für Gott und spielt für den Herrn.",
+          "ant_1": "Gott steht auf; seine Feinde zerstieben; die ihn hassen, fliehen vor seinem Angesicht.^ö",
+          "ant_2": "Gott ist ein Gott, der uns Rettung bringt; Gott, der Herr, führt uns heraus aus dem Tod.^ö",
+          "ant_3": "Ihr Königreiche der Erde, singt für Gott und spielt für den Herrn.^ö",
           "resp0_0": "Ich will hören, was Gott redet.",
           "resp0_1": "Frieden verkündet der Herr seinem Volk."
         },
@@ -8708,6 +8722,9 @@ export const brevierData = {
           "bitten_r": "Herr, erhöre uns.",
           "bitten": "In Christus hast du uns reich gemacht;^qführe alle Menschen zur Erkenntnis deines Sohnes.^pDu hast Macht über die Herzen der Mächtigen;^qgib den Staatsmännern Klugkeit und Maß.^pDu gibst den Künstlern schöpferische Kraft;^qschenke durch ihre Werke den Menschen Freude und Hoffnung.^pDu lässt nicht zu, dass jemand über seine Kraft versucht wird;^qstärke die Schwachen und richte die Gefallenen auf.^pGedenke unserer Verstorbenen;^qlass sie auferstehen zum ewigen Leben.",
           "oration": "Gütiger Gott, unser Abendgebet steige zu dir empor, und dein Segen komme auf uns herab, damit wir mit deiner Hilfe das Heil erlangen und frei werden, hier und auf ewig. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+        },
+        "Invitatorium": {
+          "ps_67": 0
         }
       },
       "3": {
@@ -8738,9 +8755,9 @@ export const brevierData = {
           "ps_1": 89.1,
           "ps_2": 89.2,
           "ps_3": 89.3,
-          "ant_1": "Von deiner Huld, o Herr, will ich ewig singen, bis zum fernsten Geschlecht will ich laut deine Treue verkünden.",
-          "ant_2": "Der Sohn Gottes ist dem Fleische nach gekommen als Nachkomme Davids.",
-          "ant_3": "Ich habe David, meinem Knecht, geschworen: Sein Geschlecht soll bleiben auf ewig.",
+          "ant_1": "Von deiner Huld, o Herr, will ich ewig singen, bis zum fernsten Geschlecht will ich laut deine Treue verkünden.^ö",
+          "ant_2": "Der Sohn Gottes ist dem Fleische nach gekommen als Nachkomme Davids.^ö",
+          "ant_3": "Ich habe David, meinem Knecht, geschworen: Sein Geschlecht soll bleiben auf ewig.^ö",
           "resp0_0": "Herr, deine Worte bringen Erleuchtung.",
           "resp0_1": "Den Unerfahrenen schenken sie Einsicht."
         },
@@ -8825,8 +8842,8 @@ export const brevierData = {
           "ps_2": 89.5,
           "ps_3": 90.0,
           "ant_1": "Herr, denk daran, was uns geschehen, blick her und sieh unsere Schmach.",
-          "ant_2": "Ich bin die Wurzel Davids und sein Stamm, ich bin der leuchtende Stern, der Morgenstern.",
-          "ant_3": "Unsere Jahre vergehen wie Gras, Du aber, Gott, bleibst in Ewigkeit.",
+          "ant_2": "Ich bin die Wurzel Davids und sein Stamm, ich bin der leuchtende Stern, der Morgenstern.^ö",
+          "ant_3": "Unsere Jahre vergehen wie Gras, Du aber, Gott, bleibst in Ewigkeit.^ö",
           "resp0_0": "Herr, bei dir ist die Quelle des Lebens.",
           "resp0_1": "In deinem Licht schauen wir das Licht."
         },
@@ -8912,7 +8929,7 @@ export const brevierData = {
           "ps_3": 69.3,
           "ant_1": "Ich bin müde vom Rufen, mir versagen die Augen, während ich warte auf meinen Gott.",
           "ant_2": "Sie gaben mir Galle als Speise und reichten mir Essig in meinem Durst.",
-          "ant_3": "Ihr, die ihr Gott sucht: euer Herz lebe auf.",
+          "ant_3": "Ihr, die ihr Gott sucht: euer Herz lebe auf.^ö",
           "resp0_0": "Herr, zeige uns deine Wege.",
           "resp0_1": "Auf deinen Pfaden wollen wir gehen."
         },
@@ -8966,6 +8983,9 @@ export const brevierData = {
           "bitten_r": "Herr, erbarme dich.",
           "bitten": "Wir haben viel gesündigt, doch du hast dich unser erbarmt;^qschenke den Sündern die Gnade der Bekehrung.^pHabe Nachsicht mit denen, die ihre Sünden bekennen;^qgewähre ihnen Verzeihung und Frieden.^pErbarme dich aller, die um deines Namens willen verfolgt werden,^qund vergib denen, die ihnen Unrecht tun.^pRichte auf die Kranken und Schwachen;^qtröste die Einsamen und vom Leid Geprüften.^pDu hast dem Schächer das Paradies geöffnet, weil er dich als Heiland bekannt hat;^qöffne unseren Verstorbenen die Pforten des Himmels.",
           "oration": "Herr, heiliger Vater, du hast deinen Sohn Jesus Christus zum Lösegeld für unser Heil gemacht. Hilf uns, so zu leben, dass wir durch die Teilnahme an seinem Leiden die Kraft seiner Auferstehung erfahren. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+        },
+        "Invitatorium": {
+          "ps_100": 0
         }
       },
       "6": {
@@ -8996,9 +9016,9 @@ export const brevierData = {
           "ps_1": 107.1,
           "ps_2": 107.2,
           "ps_3": 107.3,
-          "ant_1": "Danket dem Herrn für seine Huld, für sein wunderbares Tun an den Menschen.",
-          "ant_2": "Sie bestaunten die Werke des Herrn, alle Wunder, die er getan.",
-          "ant_3": "Die Redlichen sehen, und sie freuen sich; sie begreifen die Huld des Herrn.",
+          "ant_1": "Danket dem Herrn für seine Huld, für sein wunderbares Tun an den Menschen.^ö",
+          "ant_2": "Sie bestaunten die Werke des Herrn, alle Wunder, die er getan.^ö",
+          "ant_3": "Die Redlichen sehen, und sie freuen sich; sie begreifen die Huld des Herrn.^ö",
           "resp0_0": "Herr, deine Treue reicht, so weit die Wolken ziehn.",
           "resp0_1": "Deine Urteile sind tief wie das Meer."
         },
@@ -9139,6 +9159,9 @@ export const brevierData = {
           "bitten_r": "Herr, erhöre unser Gebet.",
           "bitten": "Du hast deinen Sohn gesandt, damit auf der ganzen Erde dein Name verherrlicht wird;^qlass das Zeugnis der Kirche zu allen Menschen dringen.^pDu lehrst deine Gemeinde durch dein Wort;^qforme ihr Leben nach deiner Weisung.^pDu liebst den Frieden und die Gerechtigkeit;^qöffne den unterdrückten Völkern den Weg zur Freiheit.^pDu richtest die Gebeugten auf;^qschenke den Kranken Gesundheit und beschütze die Heimatlosen.^pGedenke der Verstorbenen, die in deinem Frieden entschlafen sind;^qlass sie durch Christus auferstehen zum ewigen Leben.",
           "oration": "0"
+        },
+        "Invitatorium": {
+          "ps_24": 0
         }
       },
       "1": {
@@ -9169,9 +9192,9 @@ export const brevierData = {
           "ps_1": 73.1,
           "ps_2": 73.2,
           "ps_3": 73.3,
-          "ant_1": "Lauter Güte ist Gott für Israel, für alle Menschen mit reinem Herzen.",
-          "ant_2": "Das Lachen der Sünder wird sich in Trauer verwandeln, ihre Freude in Betrübnis.",
-          "ant_3": "Wer dir fern ist, Herr, geht zugrunde; ich aber – Gott nahe zu sein ist mein Glück.",
+          "ant_1": "Lauter Güte ist Gott für Israel, für alle Menschen mit reinem Herzen.^ö",
+          "ant_2": "Das Lachen der Sünder wird sich in Trauer verwandeln, ihre Freude in Betrübnis.^ö",
+          "ant_3": "Wer dir fern ist, Herr, geht zugrunde; ich aber – Gott nahe zu sein ist mein Glück.^ö",
           "resp0_0": "Herr, wie köstlich ist deine Verheißung.",
           "resp0_1": "Süßer als Honig für meinen Mund."
         },
@@ -9255,9 +9278,9 @@ export const brevierData = {
           "ps_1": 102.1,
           "ps_2": 102.2,
           "ps_3": 102.3,
-          "ant_1": "Mein Schreien dringe zu dir, o Herr, verbirg dein Antlitz nicht vor mir.",
-          "ant_2": "Wende dich dem Gebet der Verlassenen zu, verschmähe ihre Bitten nicht.",
-          "ant_3": "Du, o Herr, hast der Erde Grund gelegt, die Himmel sind das Werk deiner Hände.",
+          "ant_1": "Mein Schreien dringe zu dir, o Herr, verbirg dein Antlitz nicht vor mir.^ö",
+          "ant_2": "Wende dich dem Gebet der Verlassenen zu, verschmähe ihre Bitten nicht.^ö",
+          "ant_3": "Du, o Herr, hast der Erde Grund gelegt, die Himmel sind das Werk deiner Hände.^ö",
           "resp0_0": "Mein Volk, vernimm meine Weisung.",
           "resp0_1": "Wendet euer Ohr zu den Worten meines Mundes."
         },
@@ -9341,9 +9364,9 @@ export const brevierData = {
           "ps_1": 103.1,
           "ps_2": 103.2,
           "ps_3": 103.3,
-          "ant_1": "Lobe den Herrn, meine Seele, und vergiss nicht, was er dir Gutes getan hat.",
-          "ant_2": "Wie ein Vater sich seiner Kinder erbarmt, so erbarmt sich der Herr über alle, die ihn fürchten.",
-          "ant_3": "Lobet den Herrn, all seine Werke.",
+          "ant_1": "Lobe den Herrn, meine Seele, und vergiss nicht, was er dir Gutes getan hat.^ö",
+          "ant_2": "Wie ein Vater sich seiner Kinder erbarmt, so erbarmt sich der Herr über alle, die ihn fürchten.^ö",
+          "ant_3": "Lobet den Herrn, all seine Werke.^ö",
           "resp0_0": "Lass mich den Weg begreifen, den du mir zeigst.",
           "resp0_1": "Nachsinnen will ich über deine Wunder."
         },
@@ -9427,9 +9450,9 @@ export const brevierData = {
           "ps_1": 44.1,
           "ps_2": 44.2,
           "ps_3": 44.3,
-          "ant_1": "Nicht ihr eigener Arm hat ihnen den Sieg verschafft, nein, deine Rechte, o Herr, und dein leuchtendes Angesicht.",
-          "ant_2": "Wenn ihr euch zum Herrn bekehrt, wird er sein Angesicht nicht von euch wenden.",
-          "ant_3": "Wach auf! Warum schläfst du, o Herr? Erwache, verstoß uns nicht für immer.",
+          "ant_1": "Nicht ihr eigener Arm hat ihnen den Sieg verschafft, nein, deine Rechte, o Herr, und dein leuchtendes Angesicht.^ö",
+          "ant_2": "Wenn ihr euch zum Herrn bekehrt, wird er sein Angesicht nicht von euch wenden.^ö",
+          "ant_3": "Wach auf! Warum schläfst du, o Herr? Erwache, verstoß uns nicht für immer.^ö",
           "resp0_0": "Lass dein Angesicht leuchten über deinem Knecht.",
           "resp0_1": "Lehre mich deine Gesetze."
         },
@@ -9513,9 +9536,9 @@ export const brevierData = {
           "ps_1": 78.1,
           "ps_2": 78.2,
           "ps_3": 78.3,
-          "ant_1": "Mein Gott, verbirg dich nicht vor meinem Flehen; mir ist angst, weil mich die Frevler bedrängen.",
-          "ant_2": "Der Herr wird uns befreien aus der Hand des Feindes und Verfolgers.",
-          "ant_3": "Wirf deine Sorge auf den Herrn; er hält dich aufrecht.",
+          "ant_1": "Die Väter erzählten uns die ruhmreichen Taten des Herrn, die Wunder, die er getan hat^ö",
+          "ant_2": "Die Kinder Israels aßen das Manna und tranken aus dem Felsen, der mit ihnen zog.^ö",
+          "ant_3": "Sie dachten daran, dass Gott ihr Fels ist und ihr Erlöser.^ö",
           "resp0_0": "Mein Sohn, merke auf meine Weisheit.",
           "resp0_1": "Meiner Einsicht neige dein Ohr."
         },
@@ -9599,9 +9622,9 @@ export const brevierData = {
           "ps_1": 78.4,
           "ps_2": 78.5,
           "ps_3": 78.6,
-          "ant_1": "Dem Himmel und der Erde ruft Gott zu, er werde sein Volk nun richten.",
-          "ant_2": "Rufe mich an am Tag der Not, und ich werde dich retten.",
-          "ant_3": "Wer Opfer des Lobes bringt, ehrt mich; wer rechtschaffen lebt, dem zeig’ ich mein Heil.",
+          "ant_1": "Denkt an Gottes mächtige Hand, denkt an den Tag, an dem er euch befreite.^ö",
+          "ant_2": "Er brachte sie in sein heiliges Land, zum Berge, den seine Rechte sich erworben.^ö",
+          "ant_3": "Der Herr hat sich Juda zum Eigentum erwählt und David zum Hirten seines Volkes.^ö",
           "resp0_0": "Wir hören nicht auf, für euch zu beten.",
           "resp0_1": "Dass ihr den Willen Gottes erkennt."
         },
@@ -9660,6 +9683,9 @@ export const brevierData = {
     },
     "each": {
       "0": {
+        "Invitatorium": {
+          "ant_0": "Kommt, lasst uns jubeln vor dem Herrn, lasst uns jauchzen dem Fels unseres Heiles! Halleluja."
+        },
         "Komplet": {
           "hymn_2": 510.0,
           "ps_1": 91.0,
@@ -9675,6 +9701,9 @@ export const brevierData = {
         }
       },
       "1": {
+        "Invitatorium": {
+          "ant_0": "Kommt vor das Angesicht des Herrn, naht ihm mit Lobpreis!"
+        },
         "Komplet": {
           "hymn_2": 511.0,
           "ps_1": 86.0,
@@ -9686,6 +9715,9 @@ export const brevierData = {
         }
       },
       "2": {
+        "Invitatorium": {
+          "ant_0": "Ein großer König ist der Herr; kommt, wir fallen vor ihm nieder!"
+        },
         "Komplet": {
           "hymn_2": 512.0,
           "ps_1": 143.0,
@@ -9697,6 +9729,9 @@ export const brevierData = {
         }
       },
       "3": {
+        "Invitatorium": {
+          "ant_0": "Lasst uns niederfallen vor Gott, vor dem Herrn, unserm Schöpfer!"
+        },
         "Komplet": {
           "hymn_2": 513.0,
           "ps_1": 31.4,
@@ -9710,6 +9745,9 @@ export const brevierData = {
         }
       },
       "4": {
+        "Invitatorium": {
+          "ant_0": "Kommt, lasst uns niederknien vor dem Herrn, denn er ist unser Gott!"
+        },
         "Komplet": {
           "hymn_2": 514.0,
           "ps_1": 16.0,
@@ -9721,6 +9759,9 @@ export const brevierData = {
         }
       },
       "5": {
+        "Invitatorium": {
+          "ant_0": "Danket dem Herrn; denn seine Huld währt ewig!"
+        },
         "Komplet": {
           "hymn_2": 515.0,
           "ps_1": 88.0,
@@ -9732,6 +9773,9 @@ export const brevierData = {
         }
       },
       "6": {
+        "Invitatorium": {
+          "ant_0": "Dem Herrn gehört die Erde und was sie erfüllt; kommt, wir beten ihn an!"
+        },
         "Komplet": {
           "hymn_2": 516.0,
           "ps_1": 4.0,
@@ -9768,23 +9812,30 @@ export const brevierData = {
           "vu": 206.0,
           "vu_lat": 207.0
         },
-        "Vesper": {
-          "ev": 301.0,
-          "ev_lat": 302.0,
-          "vu": 206.0,
-          "vu_lat": 207.0
-        },
-        "Terz": {
-          "hymn_1": 630.0,
-          "hymn_2": 631.0
+        "Non": {
+          "hymn_1": 690.0,
+          "hymn_2": 691.0
         },
         "Sext": {
           "hymn_1": 660.0,
           "hymn_2": 661.0
         },
-        "Non": {
-          "hymn_1": 690.0,
-          "hymn_2": 691.0
+        "Terz": {
+          "hymn_1": 630.0,
+          "hymn_2": 631.0
+        },
+        "Vesper": {
+          "ev": 301.0,
+          "ev_lat": 302.0,
+          "vu": 206.0,
+          "vu_lat": 207.0
+        }
+      }
+    },
+    "even": {
+      "0": {
+        "Invitatorium": {
+          "ant_0": "Wir sind das Volk des Herrn, die Herde seiner Weide; kommt, wir beten ihn an! Halleluja."
         }
       }
     }
@@ -9795,7 +9846,10 @@ export const brevierData = {
         "Lesehore": {
           "ps_1": 131.0,
           "ps_2": 132.1,
-          "ps_3": 132.2
+          "ps_3": 132.2,
+          "ant_1": "Wer so klein sein kann wie ein Kind, der ist im Himmelreich der Größte.",
+          "ant_2": "Mit ungeteiltem Herzen habe ich freudig alles gegeben, Herr, du mein Gott.",
+          "ant_3": "Der Herr hat David Treue geschworen; er hat seine Herrschaft auf ewig gefestigt."
         }
       }
     },
@@ -9804,7 +9858,10 @@ export const brevierData = {
         "Lesehore": {
           "ps_1": 136.1,
           "ps_2": 136.3,
-          "ps_3": 136.4
+          "ps_3": 136.4,
+          "ant_1": "Der Herr allein tut große Wunder; seine Huld währt ewig.",
+          "ant_2": "Der Herr hat Israel herausgeführt aus Ägypten; seine Huld währt ewig.",
+          "ant_3": "Dankt dem Gott des Himmels; seine Huld währt ewig."
         }
       }
     },
@@ -9813,14 +9870,20 @@ export const brevierData = {
         "Lesehore": {
           "ps_1": 55.3,
           "ps_2": 55.4,
-          "ps_3": 55.5
+          "ps_3": 55.5,
+          "ant_1": "Mein Gott, verbirg dich nicht vor meinem Flehen; mir ist angst, weil mich die Frevler bedrängen.",
+          "ant_2": "Der Herr wird uns befreien aus der Hand des Feindes und Verfolgers.",
+          "ant_3": "Wirf deine Sorge auf den Herrn; er hält dich aufrecht."
         }
       },
       "6": {
         "Lesehore": {
           "ps_1": 50.1,
           "ps_2": 50.2,
-          "ps_3": 50.3
+          "ps_3": 50.3,
+          "ant_1": "Dem Himmel und der Erde ruft Gott zu, er werde sein Volk nun richten.",
+          "ant_2": "Rufe mich an am Tag der Not, und ich werde dich retten.",
+          "ant_3": "Wer Opfer des Lobes bringt, ehrt mich; wer rechtschaffen lebt, dem zeig’ ich mein Heil."
         }
       }
     }

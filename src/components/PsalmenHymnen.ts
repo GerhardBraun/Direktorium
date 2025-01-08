@@ -165,7 +165,6 @@ export const psalmsData = {
       }
   },
   18: {
-    0.0: {},
     1.0: {
         "verses": "2-7",
         "title": "Herr, du mein Fels und meine Burg",
@@ -652,7 +651,8 @@ export const psalmsData = {
     0.0: {
         "verses": "2-13",
         "title": "Ruhe in Gott",
-        "quote": "Der Gott der Hoffnung erfülle euch durch euren Glauben mit allem Frieden. (Röm 15,13)"
+        "quote": "Der Gott der Hoffnung erfülle euch durch euren Glauben mit allem Frieden. (Röm 15,13)",
+        "text": "Bei Gott allein kommt meine Seele zur Ruhe,^*von ihm kommt mir Hilfe.^pNur er ist mein Fels, meine Hilfe, meine Burg,^*darum werde ich nicht wanken.^pWie lange rennt ihr an gegen einen Einzigen,^+stürmt alle heran wie gegen eine fallende Wand,^*wie gegen eine Mauer, die einstürzt?^pJa, sie planen, ihn von seiner Höhe zu stürzen;^*Lügen ist ihre Lust.^pSie segnen mit ihrem Mund,^*doch in ihrem Herzen fluchen sie.^pBei Gott allein kommt meine Seele zur Ruhe,^*denn von ihm kommt meine Hoffnung.^pNur er ist mein Fels, meine Hilfe, meine Burg;^*darum werde ich nicht wanken.^pBei Gott ist mein Heil, meine Ehre;^*Gott ist mein schützender Fels, meine Zuflucht.^pVertrau ihm, Volk Gottes, zu jeder Zeit!^+Schüttet euer Herz vor ihm aus!^*Denn Gott ist unsere Zuflucht.^pNur ein Hauch sind die Menschen,^*die Leute nur Lug und Trug.^pAuf der Waage schnellen sie empor,^*leichter als ein Hauch sind sie alle.^pVertraut nicht auf Gewalt,^*verlasst euch nicht auf Raub!^pWenn der Reichtum auch wächst,^*so verliert doch nicht euer Herz an ihn!^pEines hat Gott gesagt,^*zweierlei habe ich gehört:^pBei Gott ist die Macht;^*Herr, bei dir ist die Huld.^pDenn du wirst jedem vergelten,^*wie es seine Taten verdienen."
       }
   },
   63: {
@@ -943,6 +943,7 @@ export const psalmsData = {
   },
   91: {
     0.0: {
+        "verses": "1-11",
         "title": "Geborgenheit in Gott",
         "quote": "Seht, ich habe euch die Vollmacht gegeben, auf Schlangen und Skorpione zu treten. (Lk 10,19)",
         "text": "Wer im Schutz des Höchsten wohnt^*und ruht im Schatten des Allmächtigen,^pder sagt zum Herrn: „Du bist für mich Zuflucht und Burg,^*mein Gott, dem ich vertraue.“^pEr rettet dich aus der Schlinge des Jägers^*und aus allem Verderben.^pEr beschirmt dich mit seinen Flügeln,^+unter seinen Schwingen findest du Zuflucht,^*Schild und Schutz ist dir seine Treue.^pDu brauchst dich vor dem Schrecken der Nacht nicht zu fürchten,^*noch vor dem Pfeil, der am Tag dahinfliegt,^pnicht vor der Pest, die im Finstern schleicht,^*vor der Seuche, die wütet am Mittag.^pFallen auch tausend zu deiner Seite,^+dir zur Rechten zehnmal tausend,^*so wird es doch dich nicht treffen.^pJa, du wirst es sehen mit eigenen Augen,^*wirst zuschauen, wie den Frevlern vergolten wird.^pDenn der Herr ist deine Zuflucht,^*du hast dir den Höchsten als Schutz erwählt.^pDir begegnet kein Unheil,^*kein Unglück naht deinem Zelt.^pDenn er befiehlt seinen Engeln,^*dich zu behüten auf all deinen Wegen.^pSie tragen dich auf ihren Händen,^*damit dein Fuß nicht an einen Stein stößt;^pdu schreitest über Löwen und Nattern,^*trittst auf Löwen und Drachen.^pWeil er an mir hängt, will ich ihn retten;^*ich will ihn schützen, denn er kennt meinen Namen.^pWenn er mich anruft, dann will ich ihn erhören.^+Ich bin bei ihm in der Not,^*befreie ihn und bringe ihn zu Ehren.^pIch sättige ihn mit langem Leben^*und lasse ihn schauen mein Heil.»"
@@ -1206,7 +1207,6 @@ export const psalmsData = {
       }
   },
   119: {
-    0.0: {},
     1.0: {
         "verses": "1-8",
         "title": "Freude an Gottes Weisung",
@@ -1627,7 +1627,7 @@ export const psalmsData = {
     0.0: {
         "verses": "Kol 1,12–20",
         "title": "Christus, der Erstgeborene der ganzen Schöpfung",
-        "text": "Dankt dem Vater mit Freude!^*Er hat euch fähig gemacht, Anteil zu haben am Los der Heiligen, die im Licht sind.^pEr hat uns der Macht der Finsternis entrissen^*und aufgenommen in das Reich seines geliebten Sohnes.^pDurch ihn haben wir die Erlösung,^*die Vergebung der Sünden.^pEr ist das Ebenbild des unsichtbaren Gottes,^*der Erstgeborene der ganzen Schöpfung.^pDenn in ihm wurde alles erschaffen^*im Himmel und auf Erden,^pdas Sichtbare und das Unsichtbare,^+Throne und Herrschaften, Mächte und Gewalten;^*alles ist durch ihn und auf ihn hin geschaffen.^pEr ist vor aller Schöpfung,^*in ihm hat alles Bestand.^pEr ist das Haupt des Leibes,^*der Leib aber ist die Kirche.^pEr ist der Ursprung,^+der Erstgeborene der Toten;^*so hat er in allem den Vorrang.^pDenn Gott wollte mit seiner ganzen Fülle in ihm wohnen,^*um durch ihn alles zu versöhnen.^pAlles im Himmel und auf Erden wollte er zu Christus führen,^*der Frieden gestiftet hat am Kreuz durch sein Blut.^pEr ist der Erstgeborene der ganzen Schöpfung, in allem hat er den Vorrang."
+        "text": "Dankt dem Vater mit Freude!^*Er hat euch fähig gemacht, Anteil zu haben am Los der Heiligen, die im Licht sind.^pEr hat uns der Macht der Finsternis entrissen^*und aufgenommen in das Reich seines geliebten Sohnes.^pDurch ihn haben wir die Erlösung,^*die Vergebung der Sünden.^pEr ist das Ebenbild des unsichtbaren Gottes,^*der Erstgeborene der ganzen Schöpfung.^pDenn in ihm wurde alles erschaffen^*im Himmel und auf Erden,^pdas Sichtbare und das Unsichtbare,^+Throne und Herrschaften, Mächte und Gewalten;^*alles ist durch ihn und auf ihn hin geschaffen.^pEr ist vor aller Schöpfung,^*in ihm hat alles Bestand.^pEr ist das Haupt des Leibes,^*der Leib aber ist die Kirche.^pEr ist der Ursprung,^+der Erstgeborene der Toten;^*so hat er in allem den Vorrang.^pDenn Gott wollte mit seiner ganzen Fülle in ihm wohnen,^*um durch ihn alles zu versöhnen.^pAlles im Himmel und auf Erden wollte er zu Christus führen,^*der Frieden gestiftet hat am Kreuz durch sein Blut."
       }
   },
   155: {
