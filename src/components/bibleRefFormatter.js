@@ -5,7 +5,7 @@ const formatBibleRef = (text) => {
     const originalText = text;
 
     // Text bereinigen: Leerzeichen entfernen und Bindestriche durch Gedankenstriche ersetzen
-    text = text.replace(/\s+/g, '').replace(/-/g, '–');
+    text = text.replace(/-/g, '–');
 
     let result = [];        // Array für die React-Elemente
     let currentText = '';   // Puffer für den aktuellen Text

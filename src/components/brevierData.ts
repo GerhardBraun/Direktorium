@@ -119,7 +119,7 @@ export const brevierData = {
           "oration": "0"
         },
         "Laudes": {
-          "hymn_1": 210.0,
+          "hymn_1": 220.0,
           "ps_1": 63.0,
           "ps_2": 160.0,
           "ps_3": 149.0,
@@ -691,8 +691,7 @@ export const brevierData = {
           "oration": "0"
         },
         "Laudes": {
-          "hymn_1": 210.0,
-          "hymn_kl": 220.0,
+          "hymn_1": 220.0,
           "ps_1": 118.0,
           "ps_2": 170.0,
           "ps_3": 150.0,
@@ -4629,7 +4628,7 @@ export const brevierData = {
           "les_buch": "Kol",
           "les_stelle": "1,13–15",
           "les_text": "Gott hat uns der Macht der Finsternis entrissen und aufgenommen in das Reich seines geliebten Sohnes. Durch ihn haben wir die Erlösung, die Vergebung der Sünden. Er ist das Ebenbild des unsichtbaren Gottes, der Erstgeborene der ganzen Schöpfung.",
-          "ant_ev": "Herodes fragte die Weisen: Was für ein Zeichen habt ihr gesehen für die Geburt des Königs? - Wir sahen einen leuchtenden Stern, der die ganze Erde erhellt.",
+          "ant_ev": "Herodes fragte die Weisen: Was für ein Zeichen habt ihr gesehen für die Geburt des Königs? – Wir sahen einen leuchtenden Stern, der die ganze Erde erhellt.",
           "bitten_e": "Lasst uns beten zu Jesus Christus, der gekommen ist als Heiland der Welt:",
           "bitten_r": "Christus, erbarme dich.",
           "bitten": "Du lehrst uns, den Vater im Geist und in der Wahrheit anzubeten;^qgib, dass alle Menschen den Vater erkennen.^pDu bist der Arzt, der alle heilen kann;^qschenke den Kranken Gesundheit und Kraft.^pDurch deine Geburt hast du Freude in die Welt gebracht;^qkomm den Unglücklichen zu Hilfe.^pDu hast die Last der Sünde von uns genommen;^qschenke den Gläubigen die Freiheit der Kinder Gottes.^pDu hast das Tor des Himmels geöffnet;^qführe unsere Verstorbenen in das Haus deines Vaters."
@@ -4667,7 +4666,7 @@ export const brevierData = {
         "Non": {
           "les_buch": "Mich",
           "les_stelle": "2,12",
-          "les_text": "Ich werde ganz Jakob versammeln, den Rest von Israel will ich vereinen. Ich führe sie zusammen wie die Schafe im Pferch, wie die Herde mitten auf der Weide - eine wogende Menschenmenge."
+          "les_text": "Ich werde ganz Jakob versammeln, den Rest von Israel will ich vereinen. Ich führe sie zusammen wie die Schafe im Pferch, wie die Herde mitten auf der Weide – eine wogende Menschenmenge."
         },
         "Laudes": {
           "les_buch": "Weish",
@@ -4860,7 +4859,7 @@ export const brevierData = {
         "Non": {
           "les_buch": "Mich",
           "les_stelle": "2,12",
-          "les_text": "Ich werde ganz Jakob versammeln, den Rest von Israel will ich vereinen. Ich führe sie zusammen wie die Schafe im Pferch, wie die Herde mitten auf der Weide - eine wogende Menschenmenge."
+          "les_text": "Ich werde ganz Jakob versammeln, den Rest von Israel will ich vereinen. Ich führe sie zusammen wie die Schafe im Pferch, wie die Herde mitten auf der Weide – eine wogende Menschenmenge."
         },
         "Laudes": {
           "les_buch": "Weish",
@@ -7504,7 +7503,7 @@ export const brevierData = {
           "resp1_1": "Alle Könige den Herrn der Herrlichkeit."
         },
         "Terz": {
-          "ant_0": "Das Geheimnis, das von Ewigkeit her verborgen war - heute wurde es kundgetan.",
+          "ant_0": "Das Geheimnis, das von Ewigkeit her verborgen war – heute wurde es kundgetan.",
           "ant_1": "",
           "ant_2": "",
           "ant_3": "",
@@ -9815,7 +9814,7 @@ export const brevierData = {
           "resp1_3": "Der Heilige Geist kam in Gestalt einer Taube auf ihn herab, und eine Stimme vom Himmel sprach:",
           "patr_autor": "Gregor von Nazianz († um 390)",
           "patr_werk": "Aus der Rede auf die heiligen Lichter.",
-          "patr_text": "^hDie Taufe Christi^pAm heutigen Tag steigt Jesus aus dem Wasser herauf; er nimmt die Welt mit sich hinauf zur Höhe (1) und sieht, wie der Himmel sich spaltet und öffnet, den Adam für sich und seine Nachkommen verschlossen hatte, genauso wie das Paradies, vor das sich der Engel mit dem flammenden Schwert stellte.^lDer Heilige Geist bezeugt die Gottheit, denn er kommt zu dem, der ihm gleich ist. Eine Stimme erschallt vom Himmel; denn von dort stammt der, dem das Zeugnis gilt. In der Gestalt der Taube, die man leibhaft sieht, huldigt der Geist auch dem Leib (des Herrn), der durch die Vergöttlichung Gott ist... Wir aber wollen heute der Taufe Christi Ehre erweisen und glanzvoll das Fest begehen, nicht in leiblichen, sondern in geistlichen Freuden. Seid ganz und gar rein und lasst euch reinwaschen. Über nichts freut sich Gott mehr als über die Bekehrung und das Heil des Menschen, dem jedes Wort und jedes Sakrament gilt, damit ihr wie \"Lichter in der Welt\" (2) Kraft ausstrahlt für die übrigen Menschen. So sollt ihr als vollkommene Lichter an der Seite des großen Lichts stehen und vom Himmel her die Weihe seines Lichtglanzes empfangen. Ihr sollt reiner und heller vom Licht der Dreieinigkeit erleuchtet werden, von dem ihr - vorerst noch unvollkommen - nur einen schwachen Strahl aus der einen Gottheit empfangen habt in unserm Herrn Jesus Christus, dem in Ewigkeit Ehre und Herrschaft sei (3).^l1 Vgl. Eph 4,8.^l2 Phil 2,15.^p3 Ps 114,5.",
+          "patr_text": "^hDie Taufe Christi^pAm heutigen Tag steigt Jesus aus dem Wasser herauf; er nimmt die Welt mit sich hinauf zur Höhe (1) und sieht, wie der Himmel sich spaltet und öffnet, den Adam für sich und seine Nachkommen verschlossen hatte, genauso wie das Paradies, vor das sich der Engel mit dem flammenden Schwert stellte.^lDer Heilige Geist bezeugt die Gottheit, denn er kommt zu dem, der ihm gleich ist. Eine Stimme erschallt vom Himmel; denn von dort stammt der, dem das Zeugnis gilt. In der Gestalt der Taube, die man leibhaft sieht, huldigt der Geist auch dem Leib (des Herrn), der durch die Vergöttlichung Gott ist ... Wir aber wollen heute der Taufe Christi Ehre erweisen und glanzvoll das Fest begehen, nicht in leiblichen, sondern in geistlichen Freuden. Seid ganz und gar rein und lasst euch reinwaschen. Über nichts freut sich Gott mehr als über die Bekehrung und das Heil des Menschen, dem jedes Wort und jedes Sakrament gilt, damit ihr wie \"Lichter in der Welt\" (2) Kraft ausstrahlt für die übrigen Menschen. So sollt ihr als vollkommene Lichter an der Seite des großen Lichts stehen und vom Himmel her die Weihe seines Lichtglanzes empfangen. Ihr sollt reiner und heller vom Licht der Dreieinigkeit erleuchtet werden, von dem ihr – vorerst noch unvollkommen – nur einen schwachen Strahl aus der einen Gottheit empfangen habt in unserm Herrn Jesus Christus, dem in Ewigkeit Ehre und Herrschaft sei (3).^l1 Vgl. Eph 4,8.^l2 Phil 2,15.^p3 Ps 114,5.",
           "patr_resp1": "Heute hat sich der Himmel aufgetan, die Wasser des Meeres sind süß geworden, die Erde jubelt, Berge und Hügel freuen sich.",
           "patr_resp2": "Johannes hat Christus im Jordan getauft.",
           "patr_resp3": "Was ist mit dir, du Meer, dass du fliehst, mit dir, Jordan, dass du zurückweichst?"
@@ -9888,7 +9887,9 @@ export const brevierData = {
         }
       },
       "each": {
-        "Lesehore": {}
+        "Lesehore": {
+          "oration": "Herr, unser Gott, wir haben uns im Namen deines Sohnes versammelt und rufen zu dir: Erhöre die Bitten deines Volkes, mach uns hellhörig für unseren Auftrag in dieser Zeit und gib uns die Kraft, ihn zu erfüllen. Darum bitten wir durch Jesus Christus."
+        }
       }
     },
     "2": {
@@ -10442,11 +10443,16 @@ export const brevierData = {
           "ant_c": "Mit einer Taufe muss ich getauft werden, und wie bedrängt es mich, bis es vollbracht ist."
         },
         "Vesper": {
-          "ant_a": "Magn 20. Sonntag"
+          "ant_a": "Frau, dein Glaube ist groß! Es soll geschehen, um was du bittest.",
+          "ant_b": "Ich bin das lebendige Brot, das vom Himmel gekommen ist. Wer von diesem Brot isst, wird leben in Ewigkeit.",
+          "ant_c": "Ich bin gekommen, Feuer auf die Erde zu werfen. Was wünsche ich mehr, als dass es schon brenne!"
         }
       },
       "6": {
         "Vesper": {
+          "ant_a": "Ich berufe meinen Knecht und lege den Schlüssel des Hauses David auf seine Schulter.",
+          "ant_b": "Das sei uns fern, dass wir den Herrn verlassen und fremden Göttern dienen.",
+          "ant_c": "Alle Völker will ich versammeln. Sie werden kommen und meine Herrlichkeit schauen.",
           "oration": "Gott, unser Herr, du verbindest alle, die an dich glauben, zum gemeinsamen Streben. Gib, dass wir lieben, was du befiehlst, und ersehnen, was du uns verheißen hast, damit in der Unbeständigkeit dieses Lebens unsere Herzen dort verankert seien, wo die wahren Freuden sind. Darum bitten wir durch Jesus Christus."
         }
       },
@@ -10461,11 +10467,20 @@ export const brevierData = {
         "each": {
           "oration": "Gott, unser Herr, du verbindest alle, die an dich glauben, zum gemeinsamen Streben. Gib, dass wir lieben, was du befiehlst, und ersehnen, was du uns verheißen hast, damit in der Unbeständigkeit dieses Lebens unsere Herzen dort verankert seien, wo die wahren Freuden sind. Darum bitten wir durch Jesus Christus."
         },
-        "Laudes": {},
-        "Vesper": {}
+        "Laudes": {
+          "ant_a": "Petrus bekannte und sagte: Du bist der Messias, der Sohn des lebendigen Gottes. Jesus sprach zu ihm: Selig bist du, Simon Petrus.",
+          "ant_b": "Niemand kann zu mir kommen, wenn es ihm nicht vom Vater gegeben ist.",
+          "ant_c": "Bemüht euch mit allen Kräften, durch die enge Tür zu gelangen."
+        },
+        "Vesper": {
+          "ant_a": "Du bist Petrus, und auf diesen Felsen will ich meine Kirche bauen. Und die Mächte der Unterwelt werden sie nicht überwältigen.",
+          "ant_b": "Zu wem sollen wir gehen? Du, Herr, hast Worte des ewigen Lebens. Wir haben geglaubt und erkannt: Du bist der Heilige Gottes.",
+          "ant_c": "Von Osten und Westen werden sie kommen und mit Abraham, Isaak und Jakob zu Tische sitzen im Reiche Gottes."
+        }
       },
       "6": {
         "Vesper": {
+          "ant_a": "Gleicht euch dieser Welt nicht an, sondern wandelt euch durch ein neues Denken.",
           "ant_b": "Achtet auf die Gebote des Herrn, eures Gottes, und haltet sie; denn sie sind eure Weisheit.",
           "ant_c": "Halte dich selbst für gering, dann wirst du Gnade finden bei Gott.",
           "oration": "Allmächtiger Gott, von dir kommt alles Gute. Pflanze in unser Herz die Liebe zu deinem Namen ein. Binde uns immer mehr an dich, damit in uns wächst, was gut und heilig ist. Wache über uns und erhalte, was du gewirkt hast. Darum bitten wir durch Jesus Christus."
@@ -10724,7 +10739,7 @@ export const brevierData = {
         },
         "Laudes": {
           "ant_a": "Du sollst deinen Nächsten lieben wie dich selbst.",
-          "ant_b": "Jesus, Sohn Davids, erbarme dich meiner! - Was willst du, was soll ich für dich tun? - Rabbuni, ich möchte wieder sehen.",
+          "ant_b": "Jesus, Sohn Davids, erbarme dich meiner! – Was willst du, was soll ich für dich tun? – Rabbuni, ich möchte wieder sehen.",
           "ant_c": "Der Zöllner wagte nicht, die Augen zum Himmel zu erheben. Er schlug an seine Brust und betete: Gott, sei mir Sünder gnädig."
         },
         "Vesper": {
@@ -10755,7 +10770,7 @@ export const brevierData = {
         "Laudes": {
           "ant_a": "Nur einer ist euer Meister, ihr alle aber seid Brüder. Der Größte unter euch soll euer Diener sein.",
           "ant_b": "Du sollst den Herrn, deinen Gott, lieben aus ganzem Herzen und aus ganzer Seele, mit deinem ganzen Denken und deiner ganzen Kraft.",
-          "ant_c": "Zachäus, steige schnell herab, in deinem Hause muss ich heute bleiben. Da stieg er schnell herab und nahm Jesus voll Freude auf. - Heute ist Gottes Heil in dieses Haus gekommen."
+          "ant_c": "Zachäus, steige schnell herab, in deinem Hause muss ich heute bleiben. Da stieg er schnell herab und nahm Jesus voll Freude auf. – Heute ist Gottes Heil in dieses Haus gekommen."
         },
         "Vesper": {
           "ant_a": "Wer sich selbst erhöht, der wird erniedrigt, und wer sich selbst erniedrigt, der wird erhöht.",
@@ -10815,7 +10830,7 @@ export const brevierData = {
         "Laudes": {
           "ant_a": "Wir gehören nicht der Finsternis: Wir sind Söhne des Lichts und Kinder des Tages. So lasst uns wachsam und nüchtern sein, dass uns der Tag des Herrn nicht überfällt.",
           "ant_b": "Himmel und Erde werden vergehen, aber meine Worte werden nicht vergehen.",
-          "ant_c": "Gebt acht, dass man euch nicht irreführt! Viele werden sagen: Die Zeit ist da. - Lauft ihnen nicht nach."
+          "ant_c": "Gebt acht, dass man euch nicht irreführt! Viele werden sagen: Die Zeit ist da. – Lauft ihnen nicht nach."
         },
         "Vesper": {
           "ant_a": "Du guter und treuer Knecht, nimm teil an der Freude deines Herrn.",
@@ -10848,7 +10863,9 @@ export const brevierData = {
         }
       },
       "each": {
-        "Lesehore": {}
+        "Lesehore": {
+          "oration": "Gott, unser Vater, erwecke deine Gläubigen zu neuem Eifer, damit das Werk deines Erbarmens in unserem Leben reiche Frucht trägt und wir einst die Fülle des heils empfangen. Darum bitten wir durch Jesus Christus."
+        }
       }
     }
   },

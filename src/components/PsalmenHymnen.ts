@@ -351,7 +351,7 @@ export const psalmsData = {
       }
   },
   34: {
-    0.0: {
+    1.0: {
         "verses": "2-11",
         "title": "Kostet und seht, wie gut der Herr ist",
         "quote": "Ihr habt erfahren, wie gütig der Herr ist. (1 Petr 2,3)",
@@ -1926,7 +1926,7 @@ export const psalmsData = {
   },
   202: {
     0.0: {
-        "text": "Benedictus Dominus, Deus Israel"
+        "text": "Benedictus Dóminus Deus Israel,^*quia visitávit et fecit redemptiónem plebis suæ;^pet eréxit cornu salútis nobis,^*in domo David, púeri sui:^psicut locútus est per os sanctórum,^*qui a sæculo sunt, prophetárum eius;^psalútem ex inimícis nostris,^*et de manu ómnium, qui odérunt nos:^pad faciéndam misericórdiam cum pátribus nostris,^*et memorári testaménti sui sancti;^piusiurándum, quod iurávit ad Abraham, patrem nostrum,^*datúrum se nobis,^put sine timóre, de manu inimicórum nostrórum liberáti,^*serviámus illi,^pin sanctitáte et iustítia coram ipso,^*ómnibus diébus nostris.^pEt tu, puer, prophéta Altíssimi vocáberis:^*præíbis enim ante fáciem Dómini paráre vias eius,^pad dandam sciéntiam salútis plebi eius,^*in remissiónem peccatórum eórum,^pper víscera misericórdiæ Dei nostri,^*in quibus visitávit nos Oriens ex alto:^pillumináre his, qui in ténebris et in umbra mortis sedent,^*ad dirigéndos pedes nostros in viam pacis.^pGlória Patri, et Fílio,^*et Spirítui Sancto.^pSicut erat in princípio, et nunc et semper,^*et in sǽcula sæculórum. Amen."
       }
   },
   206: {
@@ -1936,7 +1936,7 @@ export const psalmsData = {
   },
   207: {
     0.0: {
-        "text": "Pater noster, qui es in caelis"
+        "text": "Pater noster, qui es in cælis:^lsanctificétur nomen tuum;^ladvéniat regnum tuum;^lfiat volúntas tua, sicut in cælo et in terra.^lPanem nostrum cotidiánum da nobis hódie;^let dimítte nobis débita nostra,^lsicut et nos dimíttimus debitóribus nostris;^let ne nos indúcas in tentatiónem;^lsed líbera nos a malo."
       }
   },
   210: {
@@ -2064,7 +2064,7 @@ export const psalmsData = {
   },
   302: {
     0.0: {
-        "text": "Magnificat anima mea Dominum"
+        "text": "Magnificat^*anima mea Dóminum,^pet exsultávit spíritus meus^*in Deo salutári meo;^pquia respéxit humilitátem ancíllæ suæ,^*ecce enim ex hoc beátam me dicent omnes generatiónes.^pQuia fecit mihi magna, qui potens est:^*et sanctum nomen eius,^pet misericórdia eius a progénie in progénies^*timéntibus eum.^pFecit poténtiam in brácchio suo,^*dispérsit supérbos mente cordis sui,^pdepósuit poténtes de sede,^*et exaltávit húmiles,^pesuriéntes implévit bonis,^*et dívites dimísit inánes.^pSuscépit Israel, púerum suum,^*recordátus misericórdiæ suæ,^psicut locútus est ad patres nostros,^*Abraham et sémini eius in sǽcula.^pGlória Patri et Fílio^*et Spirítui Sancto.^pSicut erat in princípio, et nunc et semper,^*et in sǽcula sæculórum. Amen."
       }
   },
   310: {
@@ -2258,7 +2258,7 @@ export const psalmsData = {
   },
   407: {
     0.0: {
-        "text": "Te Deum laudamus"
+        "text": "Te Deum laudámus: * te°Dóminum°confitémur.^pTe ætérnum Patrem, * omnis°terra°venerátur.^pTibi omnes ángeli, * tibi°cæli°et°univérsæ°potestátes:^ptibi chérubim et séraphim * incessábili°voce°proclámant:^pSanctus, * Sanctus, * Sanctus * Dóminus°Deus°Sábaoth.^pPleni sunt cæli et terra * maiestátis°glóriæ°tuæ.^pTe gloriósus * Apostolórum°chorus,^pte prophetárum * laudábilis°númerus,^pte mártyrum candidátus * laudat°exércitus.^pTe per orbem terrárum * sancta°confitétur°Ecclésia,^pPatrem * imménsæ°maiestátis;^pvenerándum tuum verum * et°únicum°Fílium;^pSanctum quoque * Paráclitum°Spíritum.^pTu rex glóriæ, * Christe.^pTu Patris * sempitérnus°es°Fílius.^pTu, ad liberándum susceptúrus hóminem, * non°horruísti°Vírginis°úterum.^pTu, devícto mortis acúleo, * aperuísti°credéntibus°regna°cælórum.^pTu ad déxteram Dei sedes, * in°glória°Patris.^pIudex créderis * esse°ventúrus.^pTe ergo quǽsumus, tuis fámulis súbveni, * quos°pretióso°sánguine°redemísti.^pÆtérna fac cum sanctis tuis * in°glória°numerári.^p^(Salvum fac pópulum tuum, Dómine, * et°bénedic°hereditáti°tuæ.^pEt rege eos, * et°extólle°illos°usque°in°ætérnum.^pPer síngulos dies * benedícimus°te;^pet laudámus nomen tuum in sǽculum, * et°in°sǽculum°sǽculi.^pDignáre, Dómine, die isto * sine°peccáto°nos°custodíre.^pMiserére nostri, Dómine, * miserére°nostri.^pFiat misericórdia tua, Dómine, super nos, * quemádmodum°sperávimus°in°te.^pIn te, Dómine, sperávi: * non°confúndar°in°ætérnum.^)"
       }
   },
   501: {
@@ -2268,7 +2268,7 @@ export const psalmsData = {
   },
   502: {
     0.0: {
-        "text": "Nunc dimittis"
+        "text": "Nunc dimíttis servum tuum, Dómine,^*secúndum verbum tuum in pace;^pquia vidérunt óculi mei^*salutáre tuum,^pquod parásti^*ante fáciem ómnium populórum:^plumen ad revelatiónem géntium^*et glóriam plebis tuæ Israel.^pGlória Patri, et Fílio,^*et Spirítui Sancto.^pSicut erat in princípio, et nunc et semper,^*et in sǽcula sæculórum. Amen."
       }
   },
   503: {
@@ -2293,7 +2293,7 @@ export const psalmsData = {
   },
   507: {
     0.0: {
-        "text": "(Ich bekenne Gott, dem Allmächtigen, und allen Brüdern und Schwestern, dass ich Gutes unterlassen und Böses getan habe - ich habe gesündigt in Gedanken, Worten und Werken - [alle schlagen an die Brust] durch meine Schuld, durch meine Schuld, durch meine große Schuld. Darum bitte ich die selige Jungfrau Maria, alle Engel und Heiligen und euch, Brüder und Schwestern, für mich zu beten bei Gott, unserem Herrn.^pVergebungsbitte^pDer allmächtige Gott erbarme sich unser. Er lasse uns die Sünden nach und führe uns zum ewigen Leben. Amen.)"
+        "text": "(Ich bekenne Gott, dem Allmächtigen, und allen Brüdern und Schwestern, dass ich Gutes unterlassen und Böses getan habe – ich habe gesündigt in Gedanken, Worten und Werken – [alle schlagen an die Brust] durch meine Schuld, durch meine Schuld, durch meine große Schuld. Darum bitte ich die selige Jungfrau Maria, alle Engel und Heiligen und euch, Brüder und Schwestern, für mich zu beten bei Gott, unserem Herrn.^pVergebungsbitte^pDer allmächtige Gott erbarme sich unser. Er lasse uns die Sünden nach und führe uns zum ewigen Leben. Amen.)"
       }
   },
   510: {
@@ -2520,7 +2520,7 @@ export const psalmsData = {
   2402: {
     0.0: {
         "quote": "Lh Di^+Fr Nacht",
-        "text": "Erwacht und singt in der Nacht;^les kommt das göttliche Wort, der Sohn,^lder Himmel und Erde gemacht,^lvom Thron in unsere Zeit und Niedrigkeit.^l ^pErhebt euch ihr Menschen, und gebt ihm Ehr´,^lder über das All ward gesetzt,^ldem Kyrios Christ, der lebt im Jetzt^lvon Ewigkeit zu Ewigkeit. Amen."
+        "text": "Erwacht und singt in der Nacht;^les kommt das göttliche Wort, der Sohn,^lder Himmel und Erde gemacht,^lvom Thron in unsere Zeit und Niedrigkeit.^pErhebt euch ihr Menschen, und gebt ihm Ehr’,^lder über das All ward gesetzt,^ldem Kyrios Christ, der lebt im Jetzt^lvon Ewigkeit zu Ewigkeit. Amen."
       }
   },
   2403: {
@@ -2570,7 +2570,7 @@ export const psalmsData = {
   },
   4201: {
     0.0: {
-        "text": "Der Morgen rötet sich und glüht"
+        "text": "Der Morgen rötet sich und glüht,^lder ganze Himmel tönt von Lob,^lin Jubel jauchzt die Erde auf,^lund klagend stöhnt die Unterwelt.^pDer starke, königliche Held^lzerbrach des Todes schweren Bann.^lSein Fuß zertrat der Hölle Macht:^lAus harter Fron sind wir befreit.^pEr, den der Stein verschlossen hielt^lund den man noch im Grab bewacht,^ler steigt als Sieger aus dem Grab,^lfährt auf in strahlendem Triumph.^pSchon werden alle Klagen stumm,^lin Freude wandelt sich der Schmerz,^ldenn auferstanden ist der Herr;^lein lichter Engel tut es kund.^pDem Herrn sei Preis und Herrlichkeit,^lder aus dem Grabe auferstand,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   4202: {

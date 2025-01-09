@@ -1000,16 +1000,16 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
         if (!text) return null;
         return (
             <div className="mb-4">
-                <div className="font-bold mt-2" style={{ color: rubricColor }}>
+                <div className="font-bold" style={{ color: rubricColor }}>
                     {number > 0 && (
-                        number > 150 ? (<>Canticum: {verses}</>) : (
+                        number > 150 ? (<>Canticum: {formatBibleRef(verses)}</>) : (
                             <>  Psalm {number}
                                 {verses && <>{formatBibleRef(`,${verses}`)}</>}
                             </>
                         ))}
                 </div>
-                {title && <div className="mt-0 text-[0.9em] text-gray-400">{title}</div>}
-                {quote && <div className="text-[0.9em] leading-[1.1em] italic text-gray-400 mt-0">{quote}</div>}
+                {title && <div className="text-[0.9em] text-gray-400">{title}</div>}
+                {quote && <div className="text-[0.9em] leading-[1.1em] italic text-gray-400 mb-[0.66em]">{quote}</div>}
                 {text && <div className="whitespace-pre-wrap">{formatPrayerParagraph(text)}</div>}
                 {number !== 160 && <div className="whitespace-pre-wrap">{formatPrayerParagraph(doxology)}</div>}
             </div >
@@ -1038,8 +1038,10 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
             .replace(/\^\+/g, '\u00A0†\n')
             .replace(/\^l/g, '\n')
             .replace(/\^ö/g, season === 'o' ? ' Halleluja.' : '')
-            .replace(/\^r(.*?)\^0r/g, (_, content) => `<span class="text-red-700">${content}</span>`)
-            .replace(/\^v(.*?)\^0v/g, '$1');
+            .replace(/\^r(.*?)\^0r/g, (_, content) => `<span style={{ color: rubricColor }}>${content}</span>`)
+            .replace(/\^v(.*?)\^0v/g, '$1')
+            .replace(/\^\(/g, `<span style={{ color: rubricColor }}>(</span>`)
+            .replace(/\^\)/g, `<span style={{ color: rubricColor }}>)</span>`);
     };
 
     const formatPrayerParagraph = (text) => {
@@ -1068,14 +1070,14 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
                     );
                 case '^q':
                     return (
-                        <div key={index} className="whitespace-pre-wrap flex">
+                        <div key={index} className="whitespace-pre-wrap flex -mt-[0.66em] mb-[0.66em]">
                             <span className="w-[0.8em] flex-shrink-0">–</span>
                             <div dangerouslySetInnerHTML={{ __html: paragraph }} />
                         </div>
                     );
                 default: // ^p
                     return (
-                        <div key={index} className="whitespace-pre-wrap mt-[0.66em]">
+                        <div key={index} className="whitespace-pre-wrap mb-[0.66em]">
                             <div dangerouslySetInnerHTML={{ __html: paragraph }} />
                         </div>
                     );
@@ -1095,13 +1097,15 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
         }
     }
 
+    const showR = hour === 'laudes' || hour === 'vesper';
+
     return (
         <div className="p-4 leading-[1.35em]">
             <BackButton onClick={onBack} />
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow">
+            <div className="bg-white dark:bg-gray-800 rounded-sm shadow">
 
                 {getValue('hymn_1') && (
-                    <div className="mb-1">
+                    <div className="mb-2">
                         <h2 className="prayer-heading">HYMNUS</h2>
                         {getValue('hymn_1')?.text && (
                             <div className="mb-4">
@@ -1162,7 +1166,6 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
                                     '', '', '',
                                     psalm.text
                                 )}
-
                             </div>
                         );
                     })}
@@ -1172,10 +1175,10 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
                         if (!psalm && !ant) return null;
 
                         return (
-                            <div key={num} className="mb-4">
+                            <div key={num} className="mb-6">
                                 {ant && (
-                                    <div style={{ display: 'inline' }}>
-                                        <Rubric >{num}. Ant.&nbsp;</Rubric>
+                                    <div className="mb-3" >
+                                        <Rubric >{num}. Ant.&nbsp;&nbsp;</Rubric>
                                         {formatPrayerText(ant)}
                                     </div>
                                 )}
@@ -1188,7 +1191,7 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
                                 )}
                                 {ant && (
                                     <div >
-                                        <Rubric>{num}. Ant.&nbsp;</Rubric>
+                                        <Rubric>{num}. Ant.&nbsp;&nbsp;</Rubric>
                                         {formatPrayerText(ant)}
                                     </div>
                                 )}
@@ -1207,13 +1210,13 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
                         <SectionHeader title="VERSIKEL" field="resp0_0" />
                         {getValue('resp0_0') && (
                             <div className="mb-0 flex gap-0">
-                                <Rubric>℣&nbsp;&nbsp;</Rubric>
+                                <Rubric>V&nbsp;&nbsp;</Rubric>
                                 <div>{formatPrayerText(getValue('resp0_0'))}</div>
                             </div>
                         )}
                         {getValue('resp0_1') && (
                             <div className="flex gap-0">
-                                <Rubric>℟&nbsp;&nbsp;</Rubric>
+                                <Rubric>R&nbsp;&nbsp;</Rubric>
                                 <div>{formatPrayerText(getValue('resp0_1'))}</div>
                             </div>
                         )}
@@ -1235,7 +1238,7 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
                         <SectionHeader title="RESPONSORIUM" field="resp1_1" />
                         {getValue('resp1_0') && getValue('resp1_1') && (
                             <div className="mb-0 flex gap-0">
-                                <Rubric>℣&nbsp;&nbsp;</Rubric>
+                                <Rubric>V&nbsp;&nbsp;</Rubric>
                                 <div>
                                     {formatPrayerText(getValue('resp1_0'))}
                                 </div>
@@ -1245,7 +1248,7 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
                         )}
                         {getValue('resp1_0') && getValue('resp1_1') && (
                             <div className="mb-0 flex gap-0">
-                                <Rubric>℟&nbsp;&nbsp;</Rubric>
+                                <Rubric>R&nbsp;&nbsp;</Rubric>
                                 <div>
                                     {formatPrayerText(getValue('resp1_1'))}
                                 </div>
@@ -1254,22 +1257,34 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
                         )}
                         {getValue('resp1_1') && getValue('resp1_2') && (
                             <div className="mb-0 flex gap-0">
-                                <Rubric>℟&nbsp;&nbsp;</Rubric>
+                                <Rubric>R&nbsp;&nbsp;</Rubric>
                                 <div>
                                     {formatPrayerText(getValue('resp1_1'))}
                                     <span style={{ color: rubricColor }}> *&nbsp;</span>
                                     {formatPrayerText(getValue('resp1_2'))}
+                                    {showR && (
+                                        <span style={{ color: rubricColor }}>
+                                            &nbsp;–&nbsp;R
+                                        </span>
+                                    )}
                                 </div>
                             </div>
                         )}
                         {getValue('resp1_3') && getValue('resp1_2') && (
                             <div className="flex gap-0">
-                                <Rubric>℣&nbsp;&nbsp;</Rubric>
+                                <Rubric>V&nbsp;&nbsp;</Rubric>
                                 <div>
                                     {formatPrayerText(getValue('resp1_3'))}
                                     <span style={{ color: rubricColor }}> *&nbsp;</span>
                                     {formatPrayerText(getValue('resp1_2'))}
                                 </div>
+                            </div>
+                        )}
+                        {showR && (
+                            <div>Ehre sei dem Vater.
+                                <span style={{ color: rubricColor }}>
+                                    &nbsp;–&nbsp;R
+                                </span>
                             </div>
                         )}
                     </div>)}
@@ -1282,18 +1297,18 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
                             latinField='ev_lat'
                         />
                         {getValue('ant_ev') && (
-                            <div >
+                            <div className="mb-4">
                                 <Rubric>Ant.&nbsp;</Rubric>
                                 {formatPrayerText(getValue('ant_ev'))}
                             </div>
                         )}
                         {getValue('ev') && (
                             <div className="mb-4">
-                                {localPrefLatin === 1 ? formatPsalm('', '', '', '', getValue('ev_lat').text) : formatPsalm(0, '', '', '', getValue('ev').text)}
+                                {localPrefLatin === 1 ? formatPrayerParagraph(getValue('ev_lat').text) : formatPsalm(0, '', '', '', getValue('ev').text)}
                             </div>
                         )}
                         {getValue('ant_ev') && (
-                            <div >
+                            <div className="mb-4">
                                 <Rubric>Ant.&nbsp;</Rubric>
                                 {formatPrayerText(getValue('ant_ev'))}
                             </div>
@@ -1313,7 +1328,7 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
                         )}
                         {getValue('bitten_r') && (
                             <div className="mb-2 flex gap-0">
-                                <Rubric>℟&nbsp;&nbsp;</Rubric>
+                                <Rubric>R&nbsp;&nbsp;</Rubric>
                                 <div>{formatPrayerText(getValue('bitten_r'))}</div>
                             </div>
                         )}
