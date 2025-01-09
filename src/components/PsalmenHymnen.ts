@@ -149,7 +149,7 @@ export const psalmsData = {
         "verses": "1-11",
         "title": "Gott allein ist mein Glück",
         "quote": "Gott hat Jesus auferweckt und von den Wehen des Todes befreit. (Apg 2,24)",
-        "text": "Behüte mich, Gott, denn ich vertraue dir.^+^pIch sage zum Herrn: „Du bist mein Herr;^*mein ganzes Glück bist du allein.“^pAn den Heiligen im Lande, den Herrlichen,^*an ihnen nur hab’ ich mein Gefallen.^pViele Schmerzen leidet, wer fremden Göttern folgt.^+Ich will ihnen nicht opfern,^*ich nehme ihre Namen nicht auf meine Lippen.^pDu, Herr, gibst mir das Erbe und reichst mir den Becher;^*du hältst mein Los in deinen Händen.^pAuf schönem Land fiel mir mein Anteil zu.^*Ja, mein Erbe gefällt mir gut.^pIch preise den Herrn, der mich beraten hat.^*Auch mahnt mich mein Herz in der Nacht.^pIch habe den Herrn beständig vor Augen.^*Er steht mir zur Rechten, ich wanke nicht.^pDarum freut sich mein Herz und frohlockt meine Seele;^*auch mein Leib wird wohnen in Sicherheit.^pDenn du gibst mich nicht der Unterwelt preis;^*du lässt deinen Frommen das Grab nicht schauen.^pDu zeigst mir den Pfad zum Leben.^+Vor deinem Angesicht herrscht Freude in Fülle,^*zu deiner Rechten Wonne für alle Zeit."
+        "text": "Behüte mich, Gott, denn ich vertraue dir.^+Ich sage zum Herrn: „Du bist mein Herr;^*mein ganzes Glück bist du allein.“^pAn den Heiligen im Lande, den Herrlichen,^*an ihnen nur hab’ ich mein Gefallen.^pViele Schmerzen leidet, wer fremden Göttern folgt.^+Ich will ihnen nicht opfern,^*ich nehme ihre Namen nicht auf meine Lippen.^pDu, Herr, gibst mir das Erbe und reichst mir den Becher;^*du hältst mein Los in deinen Händen.^pAuf schönem Land fiel mir mein Anteil zu.^*Ja, mein Erbe gefällt mir gut.^pIch preise den Herrn, der mich beraten hat.^*Auch mahnt mich mein Herz in der Nacht.^pIch habe den Herrn beständig vor Augen.^*Er steht mir zur Rechten, ich wanke nicht.^pDarum freut sich mein Herz und frohlockt meine Seele;^*auch mein Leib wird wohnen in Sicherheit.^pDenn du gibst mich nicht der Unterwelt preis;^*du lässt deinen Frommen das Grab nicht schauen.^pDu zeigst mir den Pfad zum Leben.^+Vor deinem Angesicht herrscht Freude in Fülle,^*zu deiner Rechten Wonne für alle Zeit."
       }
   },
   17: {
@@ -620,9 +620,6 @@ export const psalmsData = {
         "text": "Sei mir gnädig, o Gott, sei mir gnädig,^*denn ich flüchte mich zu dir.^pIm Schatten deiner Flügel finde ich Zuflucht,^*bis das Unheil vorübergeht.^pIch rufe zu Gott, dem Höchsten,^*zu Gott, der mir beisteht.^pEr sende mir Hilfe vom Himmel;^+meine Feinde schmähen mich.^*Gott sende seine Huld und Treue.^pIch muss mich mitten unter Löwen lagern,^*die gierig auf Menschen sind.^pIhre Zähne sind Spieße und Pfeile,^*ein scharfes Schwert ihre Zunge.^pSie haben meinen Schritten ein Netz gelegt^*und meine Seele gebeugt.^pSie haben mir eine Grube gegraben;^*doch fielen sie selbst hinein.^pErheb dich über die Himmel, o Gott!^*Deine Herrlichkeit erscheine über der ganzen Erde.^pMein Herz ist bereit, o Gott,^+mein Herz ist bereit,^*ich will dir singen und spielen.^pWach auf, meine Seele!^+Wacht auf, Harfe und Saitenspiel!^*Ich will das Morgenrot wecken.^pIch will dich vor den Völkern preisen, Herr,^*dir vor den Nationen lobsingen.^pDenn deine Güte reicht, so weit der Himmel ist,^*deine Treue, so weit die Wolken ziehn.^pErheb dich über die Himmel, o Gott;^*deine Herrlichkeit erscheine über der ganzen Erde."
       }
   },
-  58: {
-    0.0: {}
-  },
   59: {
     0.0: {
         "verses": "2-5.10-11.17-18",
@@ -820,7 +817,34 @@ export const psalmsData = {
       }
   },
   78: {
-    0.0: {}
+    1.0: {
+        "verses": "1-16",
+        "title": "Die Geschichte Israels als Mahnung und Warnung",
+        "quote": "Das geschah als warnendes Beispiel für uns. (1 Kor 10,6)",
+        "text": "Mein Volk, vernimm meine Weisung!^*Wendet euer Ohr zu den Worten meines Mundes!^pIch öffne meinen Mund zu einem Spruch;^*ich will die Geheimnisse der Vorzeit verkünden.^pWas wir hörten und erfuhren,^*was uns die Väter erzählten,^pdas wollen wir unseren Kindern nicht verbergen,^*sondern dem kommenden Geschlecht erzählen:^pdie ruhmreichen Taten und die Stärke des Herrn,^*die Wunder, die er getan hat.^pEr stellte sein Gesetz auf in Jakob,^+gab in Israel Weisung^*und gebot unseren Vätern, ihre Kinder das alles zu lehren,^pdamit das kommende Geschlecht davon erfahre,^+die Kinder späterer Zeiten;^*sie sollten aufstehen und es weitergeben an ihre Kinder,^pdamit sie ihr Vertrauen auf Gott setzen,^+die Taten Gottes nicht vergessen^*und seine Gebote bewahren,^pund nicht werden wie ihre Väter,^+jenes Geschlecht voll Trotz und Empörung,^*das wankelmütige Geschlecht, dessen Geist nicht treu zu Gott hielt.^pDie Söhne Efraims, Kämpfer mit Pfeil und Bogen,^*wandten den Rücken am Tag der Schlacht;^pGottes Bund hielten sie nicht,^*sie weigerten sich, seiner Weisung zu folgen.^pSie vergaßen die Taten des Herrn,^*die Wunder, die er sie sehen ließ.^pVor den Augen ihrer Väter vollbrachte er Wunder^*im Land Ägypten, im Gefilde von Zoan.^pEr spaltete das Meer und führte sie hindurch,^*er ließ das Wasser fest stehen wie einen Damm.^pEr leitete sie bei Tag mit der Wolke^*und die ganze Nacht mit leuchtendem Feuer.^pEr spaltete Felsen in der Wüste^*und gab dem Volk reichlich zu trinken wie mit Wassern der Urflut.^pEr ließ Bäche aus dem Gestein entspringen,^*ließ Wasser fließen gleich Strömen.^p"
+      },
+    2.0: {
+        "verses": "17-31",
+        "text": "Doch sie sündigten weiter gegen ihn,^*sie trotzten in der Wüste dem Höchsten.^pIn ihren Herzen versuchten sie Gott,^*forderten Nahrung für den Hunger.^pSie redeten gegen Gott; sie fragten:^*„Kann uns denn Gott den Tisch decken in der Wüste?^pZwar hat er an den Felsen geschlagen,^*sodass Wasser floss und Bäche strömten.^pKann er uns auch Brot verschaffen^*und sein Volk mit Fleisch versorgen?“ –^pDas hörte der Herr und war voll Grimm;^+Feuer flammte auf gegen Jakob,^*Zorn erhob sich gegen Israel,^pweil sie Gott nicht glaubten^*und nicht auf seine Hilfe vertrauten.^pDennoch gebot er den Wolken droben^*und öffnete die Tore des Himmels.^pEr ließ Manna auf sie regnen als Speise,^*er gab ihnen Brot vom Himmel.^pDa aßen die Menschen Wunderbrot;^*Gott gab ihnen Nahrung in Fülle.^pEr ließ den Ostwind losbrechen droben am Himmel,^*führte in seiner Macht den Südwind herbei,^pließ Fleisch auf sie regnen wie Staub,^*gefiederte Vögel wie Sand am Meer.^pEr ließ sie mitten ins Lager fallen,^*rings um Israels Zelte.^pDa aßen sie und wurden satt,^*er hatte ihnen gebracht, was sie begehrten.^pNoch aber hatten sie ihre Gier nicht gestillt,^*noch war die Speise in ihrem Mund,^pda erhob sich gegen sie Gottes Zorn;^+er erschlug ihre Führer^*und streckte die jungen Männer Israels nieder.^p"
+      },
+    3.0: {
+        "verses": "32-39",
+        "text": "Doch sie sündigten trotz allem weiter^*und vertrauten nicht seinen Wundern.^pDarum ließ er ihre Tage schwinden wie einen Hauch^*und ihre Jahre voll Schrecken vergehen.^pWenn er dreinschlug, fragten sie nach Gott,^*kehrten um und suchten ihn.^pSie dachten daran, dass Gott ihr Fels ist,^*Gott, der Höchste, ihr Erlöser.^pDoch sie täuschten ihn mit falschen Worten^*und ihre Zunge belog ihn.^pIhr Herz hielt nicht fest zu ihm,^*sie hielten seinem Bund nicht die Treue.^pEr aber vergab ihnen voll Erbarmen die Schuld^*und tilgte sein Volk nicht aus.^pOftmals ließ er ab von seinem Zorn^*und unterdrückte seinen Groll.^pDenn er dachte daran, dass sie nichts sind als Fleisch,^*nur ein Hauch, der vergeht und nicht wiederkehrt.^p"
+      },
+    4.0: {
+        "verses": "40-51",
+        "title": "Gottes Güte und die Untreue des Volkes",
+        "quote": "Das geschah als warnendes Beispiel für uns. (1 Kor 10,6)",
+        "text": "Wie oft haben sie ihm in der Wüste getrotzt,^*ihn gekränkt in der Steppe!^pImmer wieder stellten sie ihn auf die Probe,^*sie reizten den Heiligen Gottes Israels.^pSie dachten nicht mehr an seine mächtige Hand,^*an den Tag, als er sie vom Unterdrücker befreite,^pals er in Ägypten Zeichen tat^*und Wunder im Gefilde von Zoan:^pEr verwandelte ihre Flüsse und Bäche in Blut;^*sie konnten daraus nicht mehr trinken.^pEr schickte einen Schwarm von Fliegen, der fraß sie auf,^*ein Heer von Fröschen, das vertilgte sie.^pIhre Ernte überließ er den Grillen^*und den Heuschrecken den Ertrag ihrer Mühen.^pIhre Reben zerschlug er mit Hagel,^*ihre Maulbeerbäume mit Körnern aus Eis.^pIhr Vieh überließ er der Pest^*und ihre Herden den Seuchen.^pEr ließ die Glut seines Zorns auf sie los:^+Grimm und Wut und Bedrängnis,^*Boten des Unheils in Scharen.^pEr ließ seinem Zorn freien Lauf,^+er bewahrte sie nicht vor dem Tod^*und lieferte ihr Leben der Pest aus.^pEr schlug in Ägypten alle Erstgeburt,^*in den Zelten Hams die Blüte der Jugend.^p"
+      },
+    5.0: {
+        "verses": "52-64",
+        "text": "Der Herr führte sein Volk hinaus wie Schafe,^*leitete sie wie eine Herde durch die Wüste.^pEr führte sie sicher, sie mussten nichts fürchten;^*doch ihre Feinde bedeckte das Meer.^pEr brachte sie in sein heiliges Land,^*in die Berge, die er erwarb mit mächtiger Hand.^pEr vertrieb die Völker vor ihnen,^+ließ in ihren Zelten die Stämme Israels wohnen^*und teilte ihnen ihr Erbteil zu.^pDoch sie versuchten Gott und trotzten dem Höchsten;^*sie hielten seine Satzungen nicht.^pWie ihre Väter fielen sie treulos von ihm ab,^*sie wandten sich ab wie ein Bogen, der versagt.^pSie erbitterten ihn mit ihrem Kult auf den Höhen^*und reizten seine Eifersucht mit ihren Götzen.^pAls Gott es sah, war er voll Grimm^*und sagte sich los von Israel.^pEr verwarf seine Wohnung in Schilo,^*das Zelt, wo er unter den Menschen wohnte.^pEr gab seine Macht in Gefangenschaft,^*seine heilige Lade fiel in die Hand des Feindes.^pEr lieferte sein Volk dem Schwert aus;^*er war voll Grimm über sein Eigentum.^pDie jungen Männer fraß das Feuer;^*den jungen Mädchen sang man kein Brautlied.^pDie Priester wurden mit dem Schwert erschlagen;^*die Witwen konnten die Toten nicht beweinen.^p"
+      },
+    6.0: {
+        "verses": "65-72",
+        "text": "Der Herr erwachte wie aus dem Schlaf,^*wie ein Held, der betäubt war vom Wein.^pEr schlug seine Feinde zurück^*und gab sie ewiger Schande preis.^pDas Zelt Josefs verwarf er,^*dem Stamm Efraim entzog er die Erwählung.^pDoch den Stamm Juda erwählte er,^*den Berg Zion, den er liebt.^pDort baute er sein hoch aufragendes Heiligtum,^+so fest wie die Erde,^*die er für immer gegründet hat.^pUnd er erwählte seinen Knecht David,^+er holte ihn weg von den Hürden der Schafe,^*von den Muttertieren nahm er ihn fort,^pdamit er sein Volk Jakob weide^*und sein Erbe Israel.^pEr sorgte als Hirt für sie mit lauterem Herzen^*und führte sie mit klugen Händen.^p"
+      }
   },
   79: {
     0.0: {
@@ -1082,10 +1106,36 @@ export const psalmsData = {
       }
   },
   105: {
-    0.0: {}
+    1.0: {
+        "verses": "1-15",
+        "title": "Lob des Herrn der Geschichte",
+        "quote": "Die Apostel offenbaren den Völkern beim Kommen Gottes seine Wundertaten. (Athanasius)",
+        "text": "Dankt dem Herrn! Ruft seinen Namen an!^*Macht unter den Völkern seine Taten bekannt!^pSingt ihm und spielt ihm,^*sinnt nach über all seine Wunder!^pRühmt euch seines heiligen Namens!^*Alle, die den Herrn suchen, sollen sich von Herzen freuen.^pFragt nach dem Herrn und seiner Macht,^*sucht sein Antlitz allezeit!^pDenkt an die Wunder, die er getan hat,^*an seine Zeichen und die Beschlüsse aus seinem Mund.^pBedenkt es, ihr Nachkommen seines Knechtes Abraham,^*ihr Kinder Jakobs, die er erwählt hat.^pEr, der Herr, ist unser Gott,^*Seine Herrschaft umgreift die Erde.^pEwig denkt er an seinen Bund,^*an das Wort, das er gegeben hat für tausend Geschlechter,^pan den Bund, den er mit Abraham geschlossen,^*an den Eid, den er Isaak geschworen hat.^pEr bestimmte ihn als Satzung für Jakob,^*als ewigen Bund für Israel,^per sprach: Dir will ich Kanaan geben,^*das Land, das dir als Erbe bestimmt ist.^pAls sie noch gering waren an Zahl,^*nur wenige und fremd im Land^pund noch zogen von Volk zu Volk,^*von einem Reich zum andern,^pda ließ er sie von niemand bedrücken,^*wies ihretwegen Könige zurecht:^p„Tastet meine Gesalbten nicht an,^*tut meinen Propheten nichts zuleide!“^p"
+      },
+    2.0: {
+        "verses": "16-22",
+        "text": "Der Herr rief den Hunger ins Land,^*entzog ihnen allen Vorrat an Brot.^pDoch hatte er ihnen einen Mann vorausgesandt:^*Josef wurde als Sklave verkauft.^pMan spannte seine Füße in Fesseln^*und zwängte seinen Hals ins Eisen^pbis zu der Zeit, als sein Wort sich erfüllte^*und der Spruch des Herrn ihm Recht gab.^pDa sandte der König einen Boten und ließ ihn frei,^*der Herrscher der Völker ließ ihn heraus.^pEr bestellte ihn zum Herrn über sein Haus,^*zum Gebieter über seinen ganzen Besitz.^pEr sollte die Fürsten lenken nach seinem Sinn^*und die Ältesten Weisheit lehren.^p"
+      },
+    3.0: {
+        "verses": "23-45",
+        "text": "Israel kam nach Ägypten,^*Jakob wurde Gast im Lande Hams.^pDa mehrte Gott sein Volk gewaltig,^*machte es stärker als das Volk der Bedrücker.^pEr wandelte ihren Sinn zum Hass gegen sein Volk,^*sodass sie an seinen Knechten tückisch handelten.^pDann sandte er Mose, seinen Knecht,^*und Aaron, den Gott sich erwählte.^pSie wirkten unter ihnen seine Zeichen,^*im Lande Hams seine Wunder.^pEr sandte Finsternis, da wurde es dunkel;^*doch achteten sie nicht auf sein Wort.^pEr verwandelte ihre Gewässer in Blut^*und ließ ihre Fische sterben.^pIhr Land wimmelte von Fröschen^*bis hinein in den Palast des Königs.^pEr gebot, da kamen Schwärme von Fliegen^*und von Stechmücken über das ganze Gebiet.^pEr schickte ihnen Hagel statt Regen,^*flammendes Feuer auf ihr Land.^pEr zerschlug ihnen Weinstock und Feigenbaum^*und knickte in ihrem Gebiet die Bäume um.^pEr gebot, da kamen Schwärme von Grillen^*und Wanderheuschrecken in gewaltiger Zahl.^pSie fraßen alles Grün in ihrem Land,^*sie fraßen die Frucht ihrer Felder.^pEr erschlug im Land jede Erstgeburt,^*die ganze Blüte der Jugend.^pEr führte sein Volk heraus mit Silber und Gold;^*in seinen Stämmen fand sich kein Schwächling.^pBei ihrem Auszug waren die Ägypter froh;^*denn Schrecken vor ihnen hatte sie alle befallen. –^pEine Wolke breitete er aus, um sie zu decken,^*und Feuer, um die Nacht zu erleuchten.^pAls sie ihn baten, schickte er Wachteln^*und sättigte sie mit Brot vom Himmel.^pEr öffnete den Felsen und Wasser entquoll ihm,^*wie ein Strom floss es dahin in der Wüste.^pDenn er dachte an sein heiliges Wort^*und an Abraham, seinen Knecht.^pEr führte sein Volk heraus in Freude,^*seine Erwählten in Jubel.^pEr gab ihnen die Länder der Völker^*und ließ sie den Besitz der Nationen gewinnen,^pdamit sie seine Satzungen hielten^*und seine Gebote befolgten.^p"
+      }
   },
   106: {
-    0.0: {}
+    1.0: {
+        "verses": "1-18",
+        "title": "Gottes Güte – Israels Undank",
+        "quote": "Uns zur Warnung wurde dies aufgeschrieben, uns, die das Ende der Zeiten erreicht hat. (1 Kor 10,11)",
+        "text": "Danket dem Herrn; denn er ist gütig,^*denn seine Huld währt ewig.^pWer kann die großen Taten des Herrn erzählen,^*all seinen Ruhm verkünden?^pWohl denen, die das Recht bewahren^*und zu jeder Zeit tun, was gerecht ist.^pDenk an mich, Herr, aus Liebe zu deinem Volk,^*such mich auf und bring mir Hilfe!^pLass mich das Glück deiner Erwählten schauen,^+an der Freude deines Volkes mich freuen,^*damit ich gemeinsam mit deinem Erbe mich rühmen kann.^pWir haben mit unseren Vätern gesündigt,^*wir haben Unrecht getan und gefrevelt.^pUnsre Väter in Ägypten begriffen deine Wunder nicht,^+dachten nicht an deine reiche Huld^*und trotzten dem Höchsten am Schilfmeer.^pEr aber hat sie gerettet um seines Namens willen,^*um seine Macht zu bekunden.^pEr bedrohte das Schilfmeer, da wurde es trocken;^*wie durch eine Steppe führte er sie durch die Fluten.^pEr rettete sie aus der Hand derer, die sie hassten,^*erlöste sie aus der Gewalt des Feindes.^pIhre Bedränger bedeckte das Wasser,^*nicht einer von ihnen blieb übrig.^pNun glaubten sie seinen Worten^*und sangen ihm seinen Lobpreis. ^r–^0r^pDoch sie vergaßen schnell seine Taten,^*wollten auf seinen Ratschluss nicht warten.^pSie wurden in der Wüste begehrlich^*und versuchten Gott in der Öde.^pEr gab ihnen, was sie von ihm verlangten;^*dann aber erfasste sie Ekel und Überdruss.^pSie wurden im Lager eifersüchtig auf Mose^*und auf Aaron, den Heiligen des Herrn.^pDie Erde tat sich auf, sie verschlang den Datan^*und bedeckte die Rotte Abirams.^pFeuer verbrannte die Rotte,^*Flammen verzehrten die Frevler.^p"
+      },
+    2.0: {
+        "verses": "19-33",
+        "text": "(Unsere Väter) machten am Horeb ein Kalb^*und warfen sich vor dem Gussbild nieder.^pDie Herrlichkeit Gottes tauschten sie ein^*gegen das Bild eines Stieres, der Gras frisst.^pSie vergaßen Gott, ihren Retter,^*der einst in Ägypten Großes vollbrachte,^pWunder im Lande Hams,^*Furcht erregende Taten am Schilfmeer.^pDa fasste er einen Plan und hätte sie vernichtet,^+wäre nicht Mose, sein Erwählter, für sie in die Bresche gesprungen,^*sodass Gott sie im Zorn nicht vertilgte. –^pSie verschmähten das köstliche Land;^*sie glaubten seinen Verheißungen nicht.^pIn ihren Zelten murrten sie,^*hörten nicht auf die Stimme des Herrn.^pDa erhob er gegen sie die Hand,^*um sie niederzustrecken noch in der Wüste,^pihre Nachkommen unter die Völker zu zerstreuen,^*sie in alle Welt zu versprengen. –^pSie hängten sich an den Baal-Pegor^*und aßen die Opfer der toten Götzen.^pSie erbitterten Gott mit ihren schändlichen Taten,^*bis über sie eine schwere Plage kam.^pPinhas trat auf und hielt Gericht;^*so wurde die Plage abgewandt.^pDas rechnete Gott ihm als Gerechtigkeit an,^*ihm und seinem Geschlecht für immer und ewig.^pAn den Wassern von Meriba reizten sie Gottes Zorn,^*ihretwegen erging es Mose übel.^pDenn sie hatten seinen Geist erbittert,^*sein Mund redete unbedacht.^p"
+      },
+    3.0: {
+        "verses": "34-48",
+        "text": "(Unsere Väter) rotteten die Völker nicht aus,^*wie ihnen der Herr einst befahl.^pSie vermischten sich mit den Heiden^*und lernten von ihren Taten.^pSie dienten ihren Götzen;^*die wurden ihnen zur Falle.^pSie brachten ihre Söhne und Töchter dar^*als Opfer für die Dämonen.^pSie vergossen schuldloses Blut,^*das Blut ihrer Söhne und Töchter,^pdie sie den Götzen Kanaans opferten;^*so wurde das Land durch Blutschuld entweiht.^pSie wurden durch ihre Taten unrein^*und brachen Gott mit ihrem Tun die Treue. –^pDer Zorn des Herrn entbrannte gegen sein Volk,^*er empfand Abscheu gegen sein Erbe.^pEr gab sie in die Hand der Völker^*und die sie hassten, beherrschten sie.^pIhre Feinde bedrängten sie,^*unter ihre Hand mussten sie sich beugen.^pOft hat er sie befreit;^+sie aber trotzten seinem Beschluss^*und versanken in ihrer Schuld.^pDoch als er ihr Flehen hörte,^*sah er auf ihre Not^pund dachte ihnen zuliebe an seinen Bund;^*er hatte Mitleid in seiner großen Gnade.^pBei denen, die sie verschleppten,^*ließ er sie Erbarmen erfahren. –^pHilf uns, Herr, unser Gott,^*führe uns aus den Völkern zusammen!^pWir wollen deinen heiligen Namen preisen,^*uns rühmen, weil wir dich loben dürfen. –^pGepriesen sei der Herr, der Gott Israels,^+vom Anfang bis ans Ende der Zeiten.^*Alles Volk soll sprechen: Amen!"
+      }
   },
   107: {
     1.0: {
@@ -1110,9 +1160,6 @@ export const psalmsData = {
         "quote": "Weil sich der Sohn Gottes über alle Himmel erhoben hat, wird auf der ganzen Erde sein Ruhm verkündet. (Arnobius)",
         "text": "Mein Herz ist bereit, o Gott,^+mein Herz ist bereit,^*ich will dir singen und spielen.^pWach auf, meine Seele!^+Wacht auf, Harfe und Saitenspiel!^*Ich will das Morgenrot wecken.^pIch will dich vor den Völkern preisen, Herr,^*dir vor den Nationen lobsingen.^pDenn deine Güte reicht, so weit der Himmel ist,^*deine Treue, so weit die Wolken ziehn.^pErheb dich über die Himmel, o Gott!^*Deine Herrlichkeit erscheine über der ganzen Erde.^pHilf mit deiner Rechten, erhöre uns,^*damit die gerettet werden, die du so sehr liebst.^pGott hat in seinem Heiligtum gesprochen:^+Ich will triumphieren, will Sichem verteilen^*und das Tal von Sukkot vermessen.^pMein ist Gilead, mein auch Manasse,^+Efraim ist der Helm auf meinem Haupt,^*Juda mein Herrscherstab.^pDoch Moab ist mein Waschbecken,^+auf Edom werfe ich meinen Schuh,^*ich triumphiere über das Land der Philister.^pWer führt mich hin zu der befestigten Stadt,^*wer wird mich nach Edom geleiten?^pGott, hast denn du uns verworfen?^*Du ziehst ja nicht aus, o Gott, mit unsern Heeren.^pBring uns doch Hilfe im Kampf mit dem Feind!^*Denn die Hilfe von Menschen ist nutzlos.^pMit Gott werden wir Großes vollbringen;^*er selbst wird unsere Feinde zertreten."
       }
-  },
-  109: {
-    0.0: {}
   },
   110: {
     0.0: {
@@ -2236,12 +2283,12 @@ export const psalmsData = {
   },
   505: {
     0.0: {
-        "text": "Sei gegrüßt, o Königin, ^lMutter der Barmherzigkeit;^lunser Leben, unsre Wonne ^lund unsre Hoffnung, sei gegrüßt!^lZu dir rufen wir verbannte Kinder Evas;^lzu dir seufzen wir^ltrauernd und weinend ^lin diesem Tal der Tränen. ^lWohlan denn, unsre Fürsprecherin, ^lwende deine barmherzigen Augen uns zu ^lund nach diesem Elend zeige uns Jesus, ^ldie gebenedeite Frucht deines Leibes! ^lO gütige, o milde, ^lo süße Jungfrau Maria!"
+        "text": "Sei gegrüßt, o Königin, ^lMutter der Barmherzigkeit;^lunser Leben, unsre Wonne ^lund unsre Hoffnung, sei gegrüßt!^lZu dir rufen wir verbannte Kinder Evas;^lzu dir seufzen wir^ltrauernd und weinend in°diesem°Tal°der°Tränen.^lWohlan denn, unsre Fürsprecherin, ^lwende deine barmherzigen Augen uns zu ^lund nach diesem Elend zeige uns Jesus, ^ldie gebenedeite Frucht deines Leibes! ^lO gütige, o milde, o°süße°Jungfrau°Maria!"
       }
   },
   506: {
     0.0: {
-        "text": "Salve Regina"
+        "text": "Salve, Regína, mater misericórdiæ;^lvita, dulcédo et spes nostra, salve.^lAd te clamámus, éxsules fílii Evæ.^lAd te suspirámus, geméntes et flentes^lin hac lacrimárum valle.^pEia ergo, advocáta nostra,^lillos tuos misericórdes óculos ad°nos°convérte.^lEt Iesum, benedíctum°fructum°ventris°tui,^lnobis post hoc exsílium osténde.^lO clemens, o pia, o°dulcis°Virgo°María."
       }
   },
   507: {
@@ -2301,7 +2348,7 @@ export const psalmsData = {
   },
   524: {
     0.0: {
-        "text": "Ave Regina caelorum"
+        "text": "Ave, Regína cælórum,^lave, Dómina angelórum,^lsalve, radix, salve, porta,^lex qua mundo lux est orta.^pGaude, Virgo gloriósa,^lsuper omnes speciósa;^lvale, o valde decóra,^let pro nobis Christum exóra."
       }
   },
   525: {
@@ -2311,7 +2358,7 @@ export const psalmsData = {
   },
   526: {
     0.0: {
-        "text": "Regina caeli"
+        "text": "Regína cæli, lætáre, allelúia,^lquia quem meruísti portáre, allelúia,^lresurréxit sicut dixit, allelúia;^lora pro nobis Deum, allelúia."
       }
   },
   527: {
@@ -2321,7 +2368,12 @@ export const psalmsData = {
   },
   528: {
     0.0: {
-        "text": "Sub tuum praesidium"
+        "text": "Sub tuum præsídium confúgimus,^lsancta Dei Génetrix;^lnostras deprecatiónes^lne despícias in necessitátibus;^lVirgo gloriósa et benedícta."
+      }
+  },
+  529: {
+    0.0: {
+        "text": "Ave, María, grátia plena, Dóminus tecum;^lbenedícta tu in muliéribus,^let benedíctus fructus ventris tui, Iesus.^lSancta María, Mater Dei,^lora pro nobis peccatóribus^lnunc et in hora mortis nostræ. Amen."
       }
   },
   630: {
@@ -2406,7 +2458,7 @@ export const psalmsData = {
   },
   1301: {
     0.0: {
-        "text": "Gott, heilger Schöpfer aller Stern"
+        "text": "Gott, heil’ger Schöpfer aller Stern’,^lerleucht uns, die wir sind so fern,^ldass wir erkennen Jesus Christ,^lder für uns Mensch geworden ist.^pDenn es ging dir zu Herzen sehr,^lda wir gefangen waren schwer^lund sollten gar des Todes sein;^ldrum nahm er auf sich Schuld und Pein:^pDa sich die Welt zum Abend wandt’,^lder Bräut’gam Christus ward gesandt.^lAus seiner Mutter Kämmerlein^lging er hervor als klarer Schein.^pGezeigt hat er sein’ groß’ Gewalt,^ldass es in aller Welt erschallt,^lsich beugen müssen alle Knie^lim Himmel und auf Erden hie.^pWir bitten dich, o heil’ger Christ,^lder du zukünftig Richter bist,^llehr uns zuvor dein’ Willen tun^lund an dem Glauben nehmen zu.^pLob, Preis sei, Vater, deiner Kraft^lund deinem Sohn, der all’ Ding’ schafft,^ldem heil’gen Tröster auch zugleich^lso hier wie dort im Himmelreich. Amen."
       }
   },
   1302: {

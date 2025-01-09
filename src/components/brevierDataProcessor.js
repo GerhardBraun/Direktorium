@@ -7,7 +7,7 @@ import { getLiturgicalInfo, LiturgicalSeason } from './liturgicalCalendar.js';
 const referenceFields = [
     'ps_1', 'ps_2', 'ps_3', 'ps_100', 'ps_95', 'ps_67', 'ps_24',
     'hymn_1', 'hymn_2', 'hymn_3', 'hymn_nacht', 'hymn_kl',
-    'ev', 'ev_lat', 'vu', 'vu_lat'
+    'ev', 'ev_lat', 'vu', 'vu_lat', 'marant', 'marant_lat'
 ];
 
 // Helper function to process references and get additional data from psalmsData

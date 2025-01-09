@@ -6,6 +6,7 @@ import { deceasedData } from './deceasedData.ts';
 import { ReferenceDialog, parseTextWithReferences } from './referenceLink.jsx';
 import { getLiturgicalInfo, LiturgicalSeason } from './liturgicalCalendar.js';
 import { processBrevierData } from './brevierDataProcessor.js';
+import formatBibleRef from './bibleRefFormatter.js';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from './ui/tooltip.jsx';
 
 const fontFamily = 'Cambria, serif';
@@ -1003,7 +1004,7 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
                     {number > 0 && (
                         number > 150 ? (<>Canticum: {verses}</>) : (
                             <>  Psalm {number}
-                                {verses && <>,{verses}</>}
+                                {verses && <>{formatBibleRef(`,${verses}`)}</>}
                             </>
                         ))}
                 </div>
@@ -1224,7 +1225,7 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
                         field="les_text"
                     />
                     <div>
-                        <div className='text-[0.9em] text-gray-400'>{formatPrayerText(getValue('les_buch'))} {formatPrayerText(getValue('les_stelle'))}</div>
+                        <div className='text-[0.9em] text-gray-400'>{getValue('les_buch')} {formatBibleRef(getValue('les_stelle'))}</div>
                         {formatPrayerParagraph(getValue('les_text'))}
                     </div>
                 </div>)}
@@ -1358,6 +1359,22 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
                         {formatPrayerParagraph(getValue('oration_komplet'))}
                     </div>
                 </div>)}
+
+                {getValue('marant') && (
+                    <div className="mb-1">
+                        <SectionHeader
+                            title={"MARIANISCHE ANTIPHON"}
+                            field="marant"
+                            latinField="marant_lat"
+                        />
+                        {getValue('marant') && (
+                            <div className="mb-4">
+                                {localPrefLatin === 1 ? formatPrayerParagraph(getValue('marant_lat').text) : formatPrayerParagraph(getValue('marant').text)}
+                            </div>
+                        )}
+
+                    </div>)
+                }
             </div>
             <div className="mt-4">
                 <BackButton onClick={onBack} />

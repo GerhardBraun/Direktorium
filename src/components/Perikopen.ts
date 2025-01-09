@@ -20,7 +20,7 @@ export const perikopenData = {
       "text": "Text von 1 Joh 1,1–3"
     },
     "1,5b.7": {
-      "text": "Text von 1 Joh 1,5b.7"
+      "text": "Gott ist Licht, und keine Finsternis ist in ihm. Wenn wir aber im Licht leben, wie er im Licht ist, haben wir Gemeinschaft miteinander, und das Blut seines Sohnes Jesus reinigt uns von aller Sünde."
     },
     "1,8–9": {
       "text": "Text von 1 Joh 1,8–9"
