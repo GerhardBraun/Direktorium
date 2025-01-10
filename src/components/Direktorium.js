@@ -36,6 +36,153 @@ const TextSources = {
     WT: 'wt'
 };
 
+const useSwipeNavigation = (onSwipeLeft, onSwipeRight, isDatePickerOpen) => {
+    const [touchStart, setTouchStart] = useState(null);
+    const [touchEnd, setTouchEnd] = useState(null);
+
+    const minSwipeDistance = 50;
+
+    const onTouchStart = (e) => {
+        // Wenn DatePicker offen ist, keine Swipe-Gesten verarbeiten
+        if (isDatePickerOpen) return;
+
+        if (e.touches.length === 1) {
+            setTouchEnd(null);
+            setTouchStart({
+                x: e.targetTouches[0].clientX,
+                y: e.targetTouches[0].clientY
+            });
+        }
+    };
+
+    const onTouchMove = (e) => {
+        // Wenn DatePicker offen ist, keine Swipe-Gesten verarbeiten
+        if (isDatePickerOpen) return;
+
+        if (e.touches.length === 1) {
+            setTouchEnd({
+                x: e.targetTouches[0].clientX,
+                y: e.targetTouches[0].clientY
+            });
+        }
+    };
+
+    const onTouchEnd = () => {
+        // Wenn DatePicker offen ist, keine Swipe-Gesten verarbeiten
+        if (isDatePickerOpen) return;
+
+        if (!touchStart || !touchEnd) return;
+
+        const distanceX = touchStart.x - touchEnd.x;
+        const distanceY = Math.abs(touchStart.y - touchEnd.y);
+        const angle = Math.abs(Math.atan2(distanceY, Math.abs(distanceX)) * (180 / Math.PI));
+        const maxAngle = 30;
+        const isHorizontalSwipe = angle <= maxAngle;
+
+        if (isHorizontalSwipe && Math.abs(distanceX) > minSwipeDistance) {
+            if (distanceX > 0) {
+                onSwipeLeft();
+            } else {
+                onSwipeRight();
+            }
+        }
+
+        setTouchStart(null);
+        setTouchEnd(null);
+    };
+
+    useEffect(() => {
+        // Nur Event-Listener hinzufügen, wenn DatePicker nicht geöffnet ist
+        if (!isDatePickerOpen) {
+            document.addEventListener('touchstart', onTouchStart);
+            document.addEventListener('touchmove', onTouchMove);
+            document.addEventListener('touchend', onTouchEnd);
+
+            return () => {
+                document.removeEventListener('touchstart', onTouchStart);
+                document.removeEventListener('touchmove', onTouchMove);
+                document.removeEventListener('touchend', onTouchEnd);
+            };
+        }
+    }, [touchStart, touchEnd, isDatePickerOpen]);
+};
+
+// Ähnliche Anpassung für den useTouchZoom Hook
+const useTouchZoom = (initialFontSize, minSize = 8, maxSize = 24, sensitivity = 1.0, isDatePickerOpen) => {
+    const [touchStartDistance, setTouchStartDistance] = useState(null);
+    const [startFontSize, setStartFontSize] = useState(initialFontSize);
+    const [currentFontSize, setCurrentFontSize] = useState(initialFontSize);
+
+    const getTouchDistance = useCallback((touches) => {
+        if (touches.length < 2) return null;
+        const dx = touches[0].clientX - touches[1].clientX;
+        const dy = touches[0].clientY - touches[1].clientY;
+        return Math.sqrt(dx * dx + dy * dy);
+    }, []);
+
+    const handleTouchStart = useCallback((e) => {
+        // Wenn DatePicker offen ist, keine Zoom-Gesten verarbeiten
+        if (isDatePickerOpen) return;
+
+        if (e.touches.length === 2) {
+            const distance = getTouchDistance(e.touches);
+            setTouchStartDistance(distance);
+            setStartFontSize(currentFontSize);
+        }
+    }, [getTouchDistance, currentFontSize, isDatePickerOpen]);
+
+    const handleTouchMove = useCallback((e) => {
+        // Wenn DatePicker offen ist, keine Zoom-Gesten verarbeiten
+        if (isDatePickerOpen) return;
+
+        if (e.touches.length === 2 && touchStartDistance) {
+            e.preventDefault();
+
+            const currentDistance = getTouchDistance(e.touches);
+            const rawScale = currentDistance / touchStartDistance;
+            const scale = 1.0 + (rawScale - 1.0) * sensitivity;
+            let newSize = Math.round(startFontSize * scale);
+            newSize = Math.max(minSize, Math.min(maxSize, newSize));
+            setCurrentFontSize(newSize);
+        }
+    }, [touchStartDistance, startFontSize, getTouchDistance, minSize, maxSize, sensitivity, isDatePickerOpen]);
+
+    const handleTouchEnd = useCallback(() => {
+        setTouchStartDistance(null);
+    }, []);
+
+    useEffect(() => {
+        // Nur Event-Listener hinzufügen, wenn DatePicker nicht geöffnet ist
+        if (!isDatePickerOpen) {
+            document.addEventListener('touchstart', handleTouchStart, { passive: false });
+            document.addEventListener('touchmove', handleTouchMove, { passive: false });
+            document.addEventListener('touchend', handleTouchEnd);
+            document.addEventListener('touchcancel', handleTouchEnd);
+
+            return () => {
+                document.removeEventListener('touchstart', handleTouchStart);
+                document.removeEventListener('touchmove', handleTouchMove);
+                document.removeEventListener('touchend', handleTouchEnd);
+                document.removeEventListener('touchcancel', handleTouchEnd);
+            };
+        }
+    }, [handleTouchStart, handleTouchMove, handleTouchEnd, isDatePickerOpen]);
+
+    return [currentFontSize, setCurrentFontSize];
+};
+
+// Helper-Funktion für View-Navigation
+const getNextView = (currentView, direction) => {
+    const views = ['deceased', 'directory', 'prayer'];
+    const currentIndex = views.indexOf(currentView);
+
+    if (direction === 'right') {
+        return views[Math.min(currentIndex + 1, 2)];
+    } else {
+        return views[Math.max(currentIndex - 1, 0)];
+    }
+};
+
 const formatText = (text) => {
     if (!text) return '';
 
@@ -1438,7 +1585,7 @@ export default function LiturgicalCalendar() {
     const [expandedDeceased, setExpandedDeceased] = useState({});
     const [deceasedMode, setDeceasedMode] = useState('recent');
     const [viewMode, setViewMode] = useState('directory'); // 'directory', 'deceased', 'prayer', or 'prayerText'
-    const [baseFontSize, setBaseFontSize] = useState(14); // Standard-Schriftgröße in pt
+    const [baseFontSize, setBaseFontSize] = useTouchZoom(14, 8, 24, 0.8, showDatePicker);
     const [isReady, setIsReady] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [activeSection, setActiveSection] = useState('fontSize');
@@ -1508,6 +1655,24 @@ export default function LiturgicalCalendar() {
             }
         }
     }, [selectedDate, isScrolling, formatDate]);
+
+    const handleSwipeLeft = () => {
+        // Nur navigieren wenn nicht im Text-View
+        if (viewMode !== 'prayerText') {
+            setViewMode(getNextView(viewMode, 'right'));
+        }
+    };
+
+    const handleSwipeRight = () => {
+        // Nur navigieren wenn nicht im Text-View
+        if (viewMode !== 'prayerText') {
+            setViewMode(getNextView(viewMode, 'left'));
+        }
+    };
+
+    // Touch-Navigation Hook
+    //  - bis auf Weiteres deaktiviert, weil die Scroll-Funktionen beeinträchtigt werden
+    // useSwipeNavigation(handleSwipeLeft, handleSwipeRight, showDatePicker);
 
     // Effect für die visibleEntries-Berechnung
     useEffect(() => {
@@ -1601,7 +1766,8 @@ export default function LiturgicalCalendar() {
         }
 
         // Nur bei navigation-induzierten Änderungen scrollen
-        if (dateChangeSource === 'navigation') {
+        if (dateChangeSource === 'navigation' ||
+            (viewMode === 'directory' || viewMode === 'deceased')) {
             const container = containerRef.current;
             const currentContainer = container.querySelector('[data-current-container="true"]');
 
@@ -1640,7 +1806,7 @@ export default function LiturgicalCalendar() {
                 }
             };
         }
-    }, [selectedDate, dateChangeSource, isReady]);
+    }, [selectedDate, dateChangeSource, isReady, viewMode]);
 
     // Aktualisiere den sichtbaren Bereich wenn sich das ausgewählte Datum ändert
     useEffect(() => {
@@ -1954,7 +2120,7 @@ export default function LiturgicalCalendar() {
                                     }}
                                     className="px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300"
                                 >
-                                    ←
+                                    –
                                 </button>
                                 <span className="w-8 text-center">{tempFontSize}</span>
                                 <span className="text-sm text-gray-500 dark:text-gray-400">pt</span>
@@ -1965,7 +2131,7 @@ export default function LiturgicalCalendar() {
                                     }}
                                     className="px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300"
                                 >
-                                    →
+                                    +
                                 </button>
                             </div>
                         </div>
@@ -2059,23 +2225,23 @@ export default function LiturgicalCalendar() {
                                     onClick={(e) => {
                                         e.preventDefault();
                                         e.stopPropagation();
-                                        setViewMode('directory');
-                                        toggleMenu();
-                                    }}
-                                    className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${viewMode === 'directory' ? 'bg-orange-100 dark:bg-yellow-400/60' : ''}`}
-                                >
-                                    Direktorium
-                                </button>
-                                <button
-                                    onClick={(e) => {
-                                        e.preventDefault();
-                                        e.stopPropagation();
                                         setViewMode('deceased');
                                         toggleMenu();
                                     }}
                                     className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${viewMode === 'deceased' ? 'bg-orange-100 dark:bg-yellow-400/60' : ''}`}
                                 >
                                     Totenverzeichnis
+                                </button>
+                                <button
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        e.stopPropagation();
+                                        setViewMode('directory');
+                                        toggleMenu();
+                                    }}
+                                    className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${viewMode === 'directory' ? 'bg-orange-100 dark:bg-yellow-400/60' : ''}`}
+                                >
+                                    Direktorium
                                 </button>
                             </div>
                         </div>

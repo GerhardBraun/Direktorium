@@ -2138,12 +2138,6 @@ export const psalmsData = {
         "text": "Der Glanz verfällt, die Zeit flieht hin,^ldas Tagwerk zehrt an unsrer Kraft.^lHerr, Gott, an den kein Abend rührt,^lnimm uns Erschöpfte liebreich auf.^pWir gehn dahin wie Tag und Traum;^lkein Wunsch hält unser Leben fest.^lDein Glanz, o Herr, erstrahle uns,^lwenn unser kleines Licht erlischt.^pGewähr uns dies, o guter Gott,^ldu Vater, und du, einz’ger Sohn,^ldie ihr mit ihm, dem Heil’gen Geist,^lregiert durch Zeit und Ewigkeit. Amen."
       }
   },
-  330: {
-    0.0: {
-        "quote": "Laudes für Hirten der Kirche",
-        "text": "Herr Jesus Christus,^ldu gingst heim zum Vater,^lthronst ihm zur Rechten^lüber allen Welten;^ldoch deine Jünger^llässt du nicht als Waisen^lhier auf der Erde.^pDu schickst als Beistand^ldeinen Geist der Wahrheit.^lEr schenkt uns Einsicht,^lgibt uns Licht und Hoffnung.^lEr führt die Kirche^lsicher durch die Zeiten^lhin zur Vollendung.^pEr weckt Propheten,^ldie dem Volk vorangehn^lund es voll Umsicht^lauf dem Weg geleiten.^lHirten bestellt er,^list in ihren Worten^lnahe den Deinen.^pSie geben Zeugnis,^lreden unerschrocken,^lstärken die Schwachen,^lsammeln die Zerstreuten,^llehren in Vollmacht,^lhelfen ihren Brüdern,^ldich zu bekennen.^pLob sei dem Vater^lauf dem höchsten Throne,^lLob sei dem Sohne,^lden er uns gesandt hat,^lLob sei dem Geiste,^lder von beiden ausgeht,^limmer und ewig. Amen."
-      }
-  },
   331: {
     0.0: {
         "quote": "Preisungen und Gebete Nr. 4",
@@ -2640,6 +2634,30 @@ export const psalmsData = {
         "text": "Schon neigt der Tag dem Abend zu,^ldie Schatten werden länger.^lVergänglich ist, was uns umgibt,^ldu aber bleibst bestehen.^pIm Tageslicht, das steigt und sinkt,^lwird uns die Zeit bemessen,^lbis uns der Tod hinüberführt,^lwo alle Grenzen fallen.^pLob sei dem Vater und dem Sohn,^lLob sei dem Heil’gen Geiste,^lwie es von allem Anfang war,^ljetzt und für alle Zeiten. Amen."
       }
   },
+  71068: {
+    0.0: {
+        "quote": "Ap-Lh",
+        "text": "Was habt ihr gesehen in jener Zeit,^lApostel des Herrn, auf dem See?^lWir sahen das Heil, das Himmel und Welt^lim ewigen Leben erhält.^pO Herrlichkeit Gottes in Jesus Christ!^lIhr habt sie mit Augen geschaut.^pWas habt ihr vernommen in jener Zeit,^lApostel des Herrn, auf dem Berg?^lWir hörten sein Wort: Seid alle bereit!^lDas Himmelreich bricht in die Zeit.^pO Gnade, o Liebe in Jesus Christ!^lIhr habt sie mit Augen geschaut.^pNun herrscht ihr mit Christus in Ewigkeit^lim Glanze der Stadt, seiner Braut.^lSo preist ihn mit uns in Jubel und Lob,^lder euch auf zwölf Throne erhob.^pO selig, ihr Freunde des Herrn Jesus Christ!^lEuch hat er sein Reich anvertraut."
+      }
+  },
+  71072: {
+    0.0: {
+        "quote": "Ap-Ld",
+        "text": "Christus, du Licht vom wahren Licht,^ldes höchsten Vaters einz’ger Sohn,^ldu hast durch der Apostel Wort^lder ganzen Welt das Heil geschenkt.^pAls deine Zeugen riefst du sie,^lgabst ihnen Auftrag und Gewalt,^ldie Saat des Evangeliums^lin allen Ländern auszustreuen.^pDurch ihre Predigt glauben wir,^ldass du der Weg zum Leben bist.^lHilf uns, der Botschaft treu zu sein,^ldie sie im Tode uns bezeugt.^pHerr Jesus, dir sei Ruhm und Preis,^lder seine Zeugen uns gesandt,^lLob auch dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."
+      }
+  },
+  71076: {
+    0.0: {
+        "quote": "Ap-Vp",
+        "text": "Der Himmel jauchze Lobgesang,^lin Freude juble alle Welt:^lDer heiligen Apostel Ruhm^lerschallt in festlichem Gesang.^pGerechte Richter dieser Zeit^lund wahre Leuchten für die Welt,^lihr ersten Zeugen unsres Heils,^lvernehmt, was unser Lied erfleht.^pDer Herr gab euch Gewalt und Amt,^lihr bindet und ihr löst die Schuld;^lso löst auch uns, wir bitten euch,^ldie Schuld, in die wir uns verstrickt.^pWenn dann am Ende dieser Zeit^lder Herr als Richter wiederkommt,^lgewähre er in seiner Huld^luns seiner Freude Ewigkeit.^pGott Vater, dir sei Preis und Ruhm^lund deinem eingebornen Sohn,^ldem Beistand auch, dem Heil'gen Geist,^ldurch alle Zeit und Ewigkeit. Amen."
+      }
+  },
+  71151: {
+    0.0: {
+        "quote": "Hi-Ld",
+        "text": "Herr Jesus Christus,^ldu gingst heim zum Vater,^lthronst ihm zur Rechten^lüber allen Welten;^ldoch deine Jünger^llässt du nicht als Waisen^lhier auf der Erde.^pDu schickst als Beistand^ldeinen Geist der Wahrheit.^lEr schenkt uns Einsicht,^lgibt uns Licht und Hoffnung.^lEr führt die Kirche^lsicher durch die Zeiten^lhin zur Vollendung.^pEr weckt Propheten,^ldie dem Volk vorangehn^lund es voll Umsicht^lauf dem Weg geleiten.^lHirten bestellt er,^list in ihren Worten^lnahe den Deinen.^pSie geben Zeugnis,^lreden unerschrocken,^lstärken die Schwachen,^lsammeln die Zerstreuten,^llehren in Vollmacht,^lhelfen ihren Brüdern,^ldich zu bekennen.^pLob sei dem Vater^lauf dem höchsten Throne,^lLob sei dem Sohne,^lden er uns gesandt hat,^lLob sei dem Geiste,^lder von beiden ausgeht,^limmer und ewig. Amen."
+      }
+  },
   81011: {
     0.0: {
         "text": "Zur Pforte Christi ward die Magd,^lbegnadet durch des Höchsten Kraft:^lDer König schreitet durch das Tor, ^les bleibt verschlossen, wie es war.^pUnd aus der Jungfrau Festgemach ^lerscheint des Vaters ew’ger Sohn;^lfrohlockend wie ein Bräutigam, ^lbeginnt der Held den Siegeslauf.^pNun jauchze auf die ganze Welt, ^ldenn Christus, ihr Erlöser, kommt. ^lDer königlich das All regiert, ^lerscheint, zu retten, die er schuf.^pHerr Jesus, dir sei Ruhm und Preis, ^lGott, den die Jungfrau uns gebar, ^lLob auch dem Vater und dem Geist ^ldurch alle Zeit und Ewigkeit. Amen."
@@ -2653,6 +2671,11 @@ export const psalmsData = {
   81014: {
     0.0: {
         "text": "Aus des Vaters Herz geboren, ^lehe Welt und Zeit begann, ^lChristus, A und O der Schöpfung, ^lZiel und Ursprung aller Welt, ^lallen Seins, das je gewesen, ^ldas jetzt ist und kommen wird ^limmer und in Ewigkeit.^pDie Gestalt des schwachen Fleisches^lund des Leibes Totenkleid^lzogst du an, daß wir nicht sterben^lan dem ersten Todeskeim^lund im Abgrund des Gesetzes^lohne Rettung untergehn^limmer und in Ewigkeit.^pSeht, nun strahlt ein neuer Morgen:^lChristus, unser Heil, erscheint, ^lden die Kraft des Geistes zeugte, ^lden die Jungfrau uns gebar. ^lUnd im Kinde offenbart sich ^lder Erlöser aller Welt ^limmer und in Ewigkeit.^pDen der Seher dunkle Rede ^luns als Retter angesagt, ^lden in langer Zeit des Harrens ^lder Propheten Glaube sah:^lEr ist da, den sie verheißen. ^lGrüßt ihn jubelnd mit Gesang ^limmer und in Ewigkeit.^pGott dem Vater sei die Ehre, ^lder uns seinen Sohn gesandt, ^lEhre Christus, unserm Retter, ^lden die Jungfrau uns gebar, ^lEhre auch dem Heil’gen Geiste, ^lRuhm und Preis und Lobgesang ^limmer und in Ewigkeit. Amen."
+      }
+  },
+  81251: {
+    0.0: {
+        "text": "Staunend sehen wir^ldeines Lebens Wandlung:^lSaulus hießest du^lund ein Feind der Christen,^lPaulus bist du jetzt,^lund als Christi Zeuge^lwird dir die Krone.^pDa sein Licht dich trifft,^lfällst du blind zu Boden,^lstehst verwandelt auf,^lseinem Ruf zu folgen.^lEingetaucht in ihn,^lbist du neu geworden,^lGlied seines Leibes.^pAuserwählt vom Herrn,^lum das Wort zu künden,^lstreust du seine Saat,^lwirst der Heiden Lehrer,^lhast am eignen Leib,^lhast durch Tod und Leben^lChristus verherrlicht.^pBringe unser Lob^lvor den höchsten Vater,^lbring es vor den Sohn,^lder dich rief in Gnade,^lbring es vor den Geist,^ldessen Kraft dich drängte,^lChristus zu künden. Amen."
       }
   },
   92012: {
