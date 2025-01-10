@@ -1,6 +1,7 @@
 interface BrevierEntry {
   comm_1?: string;
   comm_2?: string;
+  name?: number;
   hymn_1?: number;
   hymn_2?: number;
   hymn_3?: number;
@@ -1092,6 +1093,7 @@ export const brevierData = {
           "ant_0": "Christus, den obersten Hirten der Kirche – kommt, wir beten ihn an!"
         },
         "Laudes": {
+          "name": "Comm Hi",
           "hymn_1": 71151.0,
           "ps_1": 63.0,
           "ps_2": 160.0,
@@ -1580,6 +1582,7 @@ export const brevierData = {
           "ant_ev": "Wer Gottes Gebote hält und sie halten lehrt, wird groß sein im Himmelreich."
         },
         "Laudes": {
+          "name": "Kirchenl",
           "hymn_1": 9999.0,
           "ps_1": 9999.0,
           "ps_2": 9999.0,
@@ -2826,7 +2829,7 @@ export const brevierData = {
         },
         "Lesehore": {
           "hymn_1": 71068.0,
-          "ant_1": "Wer bist du, Herr? Ich bin Jesus, den su verfolgst. Es wird dir schwer sein, gegen den Stachel auszuschlagen.",
+          "ant_1": "Wer bist du, Herr? Ich bin Jesus, den du verfolgst. Es wird dir schwer sein, gegen den Stachel auszuschlagen.",
           "ant_2": "Hananias, geh und suche den Saulus, denn siehe, er betet. Er ist mir ein auserwähltes Werkzeug: Er soll meinen Namen vor Völker und Könige und vor die Söhne Israels tragen.",
           "ant_3": "Paulus ging in die Synagogen und verkündete Jesus. Er bezeugte vor den Juden: Dieser ist der Christus."
         },
@@ -8485,7 +8488,7 @@ export const brevierData = {
         },
         "Vesper": {
           "hymn_1": 325.0,
-          "ps_1": 116.0,
+          "ps_1": 116.1,
           "ps_2": 121.0,
           "ps_3": 156.0,
           "ant_1": "Herr, lass meine Füße nicht straucheln, entreiße mein Leben dem Tod!",

@@ -312,30 +312,30 @@ export function processBrevierData(liturgicalInfo) {
         if (calendarData) mergeData(calendarData, 'eig');
 
         Object.keys(hours).forEach(hour => {
-            console.log('Commune:', JSON.stringify(hours[hour].eig?.comm, null, 2));
-            if (hours[hour].eig?.comm) {
+            console.log('Commune_1:', JSON.stringify(hours[hour].eig?.comm_1, null, 2));
+            if (hours[hour].eig?.comm_1) {
                 const commune1EachData = brevierData?.['com']?.[hours[hour].eig.comm_1]?.['each'];
                 if (commune1EachData) mergeData(commune1EachData, 'com1');
             }
         });
         Object.keys(hours).forEach(hour => {
-            console.log('Commune:', JSON.stringify(hours[hour].eig?.comm, null, 2));
-            if (hours[hour].eig?.comm) {
+            console.log('Commune_2:', JSON.stringify(hours[hour].eig?.comm_2, null, 2));
+            if (hours[hour].eig?.comm_2) {
                 const commune2EachData = brevierData?.['com']?.[hours[hour].eig.comm_2]?.['each'];
                 if (commune2EachData) mergeData(commune2EachData, 'com2');
             }
         });
         // besondere Commune-Texte für eine Kirchenjahreszeit
         Object.keys(hours).forEach(hour => {
-            if (hours[hour].eig?.comm) {
+            if (hours[hour].eig?.comm_1) {
                 const commune1Data = brevierData?.['com']?.[hours[hour].eig.comm_1]?.[season];
                 if (commune1Data) mergeData(commune1Data, 'com1');
             }
         });
         Object.keys(hours).forEach(hour => {
-            if (hours[hour].eig?.comm) {
+            if (hours[hour].eig?.comm_2) {
                 const commune2Data = brevierData?.['com']?.[hours[hour].eig.comm_2]?.[season];
-                if (commune2Data) mergeData(commune2Data, 'com');
+                if (commune2Data) mergeData(commune2Data, 'com2');
             }
         });
 
@@ -364,8 +364,8 @@ export function processBrevierData(liturgicalInfo) {
                 // Iteriere durch alle möglichen Quellen (n1 bis n5)
                 for (let i = 1; i <= 5; i++) {
                     const sourceKey = `n${i}`;
-                    const ncom1SourceKey = `ncom${i}_1`;
-                    const ncom2SourceKey = `ncom${i}_2`;
+                    const ncom1SourceKey = `n${i}com1`;
+                    const ncom2SourceKey = `n${i}com2`;
                     console.log('Quelle:', sourceKey);
                     const sourceData = nichtgebData[sourceKey];
                     if (sourceData) {

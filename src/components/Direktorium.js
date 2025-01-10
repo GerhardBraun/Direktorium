@@ -931,7 +931,6 @@ const getDayName = (date) => {
 const formatLiturgicalInfo = (info, date) => {
     if (!info) return '';
     const dayName = getDayName(date);
-    console.log('Season:', info.season)
     return `${dayName} der ${info.week}. ${getSeasonName(info.season)}`;
 };
 
@@ -992,7 +991,7 @@ const PrayerMenu = ({ title, onSelectHour, setViewMode, onPrevDay, onNextDay, se
                     <button
                         key={hour}
                         onClick={() => {
-                            console.log('Sending to parent:', {
+                            console.log('Daten:', {
                                 hour,
                                 texts: prayerTexts
                             });
@@ -1051,6 +1050,7 @@ const BackButton = ({ onClick }) => (
     </button>
 );
 
+
 // Prayer Text Display Component
 const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
     const [localPrefComm, setLocalPrefComm] = useState(texts?.prefComm || 0);
@@ -1068,13 +1068,26 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
     // Get value from sources in priority order: eig -> wt -> com
     const getValue = (field) => {
         // 1. Prüfe zuerst "eig"
+        if ((field.startsWith('hymn_') && field !== 'hymn_1') &&
+            (texts[hour]['eig']?.['hymn_1']
+                || (localPrefComm === 1 && texts[hour]['com1']?.['hymn_1'])
+                || (localPrefComm === 2 && texts[hour]['com2']?.['hymn_1'])
+            )) {
+            return null;
+        }
+
         if (texts[hour]['eig']?.[field]) {
             return texts[hour]['eig'][field];
         }
 
-        // 2. Prüfe "com" wenn prefComm = 1
-        if (localPrefComm === 1 && texts[hour]['com']?.[field]) {
-            return texts[hour]['com'][field];
+        // 2. Prüfe "com1" wenn prefComm = 1
+        if (localPrefComm === 1 && texts[hour]['com1']?.[field]) {
+            return texts[hour]['com1'][field];
+        }
+
+        // 3. Prüfe "com2" wenn prefComm = 2
+        if (localPrefComm === 2 && texts[hour]['com2']?.[field]) {
+            return texts[hour]['com2'][field];
         }
 
         // 3. Verwende "wt" als letzte Option
@@ -1088,19 +1101,26 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
     const checkSources = (field) => {
         const hasEig = texts[hour]['eig']?.[field];
         const hasWt = texts[hour]['wt']?.[field];
-        const hasComm = texts[hour]['com']?.[field];
+        const hasComm1 = texts[hour]['com1']?.[field];
+        const hasComm2 = texts[hour]['com2']?.[field];
+        const nameComm1 = texts['laudes']['com1']?.['name'] || 'Comm1';
+        const nameComm2 = texts['laudes']['com2']?.['name'] || 'Comm2';
 
         return {
             hasEig,
             hasWt,
-            hasComm,
-            showSources: !hasEig && hasWt && hasComm
+            hasComm1,
+            hasComm2,
+            nameComm1,
+            nameComm2,
+            showSources: !hasEig && hasWt && hasComm1,
+            showComm2: hasComm1 && hasComm2
         };
     };
 
     // Component for section headers with source indicators
     const SectionHeader = ({ title, field, latinField }) => {
-        const { hasEig, showSources } = checkSources(field);
+        const { hasEig, nameComm1, nameComm2, showSources, showComm2 } = checkSources(field);
         const hasLatin = latinField && texts[hour]['wt']?.[latinField];
 
         if (!showSources && !hasLatin) {
@@ -1113,22 +1133,34 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
                 {hasLatin && (
                     <button
                         onClick={() => setLocalPrefLatin(prev => prev === 0 ? 1 : 0)}
-                        className="font-normal"
+                        className="font-normal text-[0.85em]"
                         style={{ color: rubricColor }}
                     >
                         (dt./lat.)
                     </button>
                 )}
                 {showSources && (
-                    <span className="font-normal">
+                    <span className="font-normal text-[0.85em]">
                         <button
                             onClick={() => setLocalPrefComm(1)}
                             className={`${localPrefComm === 1 ? 'underline' : ''}`}
                             style={{ color: rubricColor }}
                         >
-                            Comm
+                            {nameComm1}
                         </button>
-                        {"  |  "}
+                        {" | "}
+                        {showComm2 && (
+                            <>
+                                <button
+                                    onClick={() => setLocalPrefComm(2)}
+                                    className={`${localPrefComm === 2 ? 'underline' : ''}`}
+                                    style={{ color: rubricColor }}
+                                >
+                                    {nameComm2}
+                                </button>
+                                {"  |  "}
+                            </>
+                        )}
                         <button
                             onClick={() => setLocalPrefComm(0)}
                             className={`${localPrefComm === 0 ? 'underline' : ''}`}
@@ -1232,6 +1264,32 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
         }).filter(Boolean);
     };
 
+    const PrayerResponse = ({ resp1_3, resp1_2, rubricColor }) => {
+        const formatSecondResponse = (firstResp, secondResp) => {
+            if (!firstResp || !secondResp) return secondResp;
+
+            // Prüfe, ob resp1_3 mit einem Punkt endet
+            const endsWithPeriod = firstResp.trim().endsWith('.');
+
+            // Wenn ja, beginne resp1_2 mit Großbuchstaben, ansonsten mit Kleinbuchstaben
+            // Nur bei Punkt am Ende von resp1_3 wird resp1_2 großgeschrieben
+            return endsWithPeriod
+                ? secondResp.charAt(0).toUpperCase() + secondResp.slice(1)
+                : secondResp;
+        };
+
+        return (
+            <div className="flex gap-0">
+                <Rubric>V&nbsp;&nbsp;</Rubric>
+                <div>
+                    {formatPrayerText(resp1_3)}
+                    <span style={{ color: rubricColor }}> *&nbsp;</span>
+                    {formatPrayerText(formatSecondResponse(resp1_3, resp1_2))}
+                </div>
+            </div>
+        );
+    };
+
     const getCanticleTitle = (hour) => {
         switch (hour) {
             case 'laudes':
@@ -1243,8 +1301,6 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
                 return 'MAGNIFICAT';
         }
     }
-
-    const showR = hour === 'laudes' || hour === 'vesper';
 
     return (
         <div className="p-4 leading-[1.35em]">
@@ -1409,7 +1465,7 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
                                     {formatPrayerText(getValue('resp1_1'))}
                                     <span style={{ color: rubricColor }}> *&nbsp;</span>
                                     {formatPrayerText(getValue('resp1_2'))}
-                                    {showR && (
+                                    {hour !== 'lesehore' && (
                                         <span style={{ color: rubricColor }}>
                                             &nbsp;–&nbsp;R
                                         </span>
@@ -1418,16 +1474,13 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
                             </div>
                         )}
                         {getValue('resp1_3') && getValue('resp1_2') && (
-                            <div className="flex gap-0">
-                                <Rubric>V&nbsp;&nbsp;</Rubric>
-                                <div>
-                                    {formatPrayerText(getValue('resp1_3'))}
-                                    <span style={{ color: rubricColor }}> *&nbsp;</span>
-                                    {formatPrayerText(getValue('resp1_2'))}
-                                </div>
-                            </div>
+                            <PrayerResponse
+                                resp1_3={getValue('resp1_3')}
+                                resp1_2={getValue('resp1_2')}
+                                rubricColor={rubricColor}
+                            />
                         )}
-                        {showR && (
+                        {hour !== 'lesehore' && (
                             <div>Ehre sei dem Vater.
                                 <span style={{ color: rubricColor }}>
                                     &nbsp;–&nbsp;R
@@ -1440,7 +1493,7 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
                     <div className="mb-1">
                         <SectionHeader
                             title={getCanticleTitle(hour)}
-                            field='ev'
+                            field='ant_ev'
                             latinField='ev_lat'
                         />
                         {getValue('ant_ev') && (
