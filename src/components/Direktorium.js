@@ -1243,7 +1243,7 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
             switch (format) {
                 case '^h':
                     return (
-                        <div key={index} className="whitespace-pre-wrap font-bold mt-2">
+                        <div key={index} className="whitespace-pre-wrap font-bold text-[0.9em] mt-2">
                             <div dangerouslySetInnerHTML={{ __html: paragraph }} />
                         </div>
                     );
@@ -1431,7 +1431,14 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
                         field="les_text"
                     />
                     <div>
-                        <div className='text-[0.9em] text-gray-400'>{getValue('les_buch')} {formatBibleRef(getValue('les_stelle'))}</div>
+                        {(hour !== "lesehore") && (
+                            <div className='text-[0.9em] text-gray-400'>{getValue('les_buch')} {formatBibleRef(getValue('les_stelle'))}</div>
+                        )}
+                        {(hour == "lesehore") && (
+                            <>
+                                <div className='flex gap-3 items-baseline'>{getValue('les_buch')}
+                                    <span className='text-[0.9em] text-gray-400'>{formatBibleRef(getValue('les_stelle'))}</span></div>
+                            </>)}
                         {formatPrayerParagraph(getValue('les_text'))}
                     </div>
                 </div>)}
@@ -1474,18 +1481,59 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
                             </div>
                         )}
                         {getValue('resp1_3') && getValue('resp1_2') && (
+                            <>
+                                <PrayerResponse
+                                    resp1_3={getValue('resp1_3')}
+                                    resp1_2={getValue('resp1_2')}
+                                    rubricColor={rubricColor}
+                                />
+                                {(hour !== 'lesehore') && (
+                                    <div>Ehre sei dem Vater.
+                                        <span style={{ color: rubricColor }}>
+                                            &nbsp;–&nbsp;R
+                                        </span>
+                                    </div>
+                                )}
+                            </>
+                        )}
+                    </div>)}
+
+                {getValue('patr_text') && (<div className="mb-1">
+                    <SectionHeader
+                        title="ZWEITE LESUNG"
+                        field="patr_text"
+                    />
+                    <div>
+                        <div className='text-[0.9em] italic'> {getValue('patr_autor')}</div>
+                        {getValue('patr_werk')}
+                        {formatPrayerParagraph(getValue('patr_text'))}
+                    </div>
+                </div>)}
+
+                {getValue('patr_resp1') && (
+                    <div className="mb-1">
+                        <SectionHeader title="RESPONSORIUM" field="resp1_1" />
+                        {getValue('patr_resp1') && getValue('patr_resp2') && (
+                            <div className="mb-0 flex gap-0">
+                                <Rubric>R&nbsp;&nbsp;</Rubric>
+                                <div>
+                                    {formatPrayerText(getValue('patr_resp1'))}
+                                    <span style={{ color: rubricColor }}> *&nbsp;</span>
+                                    {formatPrayerText(getValue('patr_resp2'))}
+                                    {hour !== 'lesehore' && (
+                                        <span style={{ color: rubricColor }}>
+                                            &nbsp;–&nbsp;R
+                                        </span>
+                                    )}
+                                </div>
+                            </div>
+                        )}
+                        {getValue('patr_resp3') && getValue('patr_resp2') && (
                             <PrayerResponse
-                                resp1_3={getValue('resp1_3')}
-                                resp1_2={getValue('resp1_2')}
+                                resp1_3={getValue('patr_resp3')}
+                                resp1_2={getValue('patr_resp2')}
                                 rubricColor={rubricColor}
                             />
-                        )}
-                        {hour !== 'lesehore' && (
-                            <div>Ehre sei dem Vater.
-                                <span style={{ color: rubricColor }}>
-                                    &nbsp;–&nbsp;R
-                                </span>
-                            </div>
                         )}
                     </div>)}
 

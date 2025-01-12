@@ -1,4 +1,6 @@
 import { brevierData } from './brevierData.ts';
+import { lecture1Data } from './lecture1Data.ts';
+import { lecture2Data } from './lecture2Data.ts';
 import { psalmsData } from './PsalmenHymnen.ts';
 import { adlibData } from './adLib.ts';
 import { getLiturgicalInfo, LiturgicalSeason } from './liturgicalCalendar.js';
@@ -76,11 +78,28 @@ function cleanupZeroReferences(hours) {
 export function processBrevierData(liturgicalInfo) {
     const { season, week, dayOfWeek, selectedDate } = liturgicalInfo;
 
+    // Aktuelles Datum
+    const calendarDay = selectedDate.getDate();
+    const calendarMonth = selectedDate.getMonth() + 1;
+    // Create a date-independent comparison value for specific dates (MM-DD format)
+    const dateCompare = `${(selectedDate.getMonth() + 1).toString().padStart(2, '0')}-${selectedDate.getDate().toString().padStart(2, '0')}`;
+
+
+    function getLectureData(date) {
+        const year = date.getFullYear();
+        return year % 2 === 0 ? lecture2Data : lecture1Data;
+    }
+    const lectureData = getLectureData(selectedDate);
+
     function getLiturgicalRank(date, season, week, dayOfWeek) {
+
+        const rankDay = date.getDate();
+        const rankMonth = date.getMonth() + 1;
+
         // 1. Grundsätzlich sind alle Sonntage Rang 5
         if (dayOfWeek === 0) {
-            // 2. Ausnahme: Sonntage im Jahreskreis und in der Weihnachtszeit sind Rang 3
-            if (season === 'j' || season === 'w') {
+            // 2. Ausnahme: Sonntage in der Weihnachtszeit und im Jahreskreis (außer Christkönig) sind Rang 3
+            if ((season === 'j' && week !== 34) || season === 'w') {
                 return 3;
             }
             return 5;
@@ -97,26 +116,21 @@ export function processBrevierData(liturgicalInfo) {
         }
 
         // 5. Einzelne Hochfeste
-        if ((season === 'f' && week === 0 && dayOfWeek === 3) || // Aschermittwoch
+        if ((season === 'q' && week === 0 && dayOfWeek === 3) || // Aschermittwoch
             (season === 'o' && week === 9 && dayOfWeek === 4) || // Fronleichnam
             (season === 'o' && week === 9 && dayOfWeek === 5) || // Herz Jesu
             (season === 'j' && week === 34 && dayOfWeek === 0)) { // Christkönig
             return 5;
         }
-
-        // 6. Herz Mariae
-        if (season === 'o' && week === 9 && dayOfWeek === 6) {
+        // 6. Gebotene Gedenktage und Kommemoration
+        if ((rankMonth === 12 && rankDay > 16) ||               // letzte Adventstage und Weihnachtszeit
+            (season === 'q') ||                                 // Wochentage der Fastenzeit
+            (season === 'o' && week === 9 && dayOfWeek === 6)   // Herz Mariae
+        ) {
             return 2;
         }
-
         return 0; // Standard-Rang für alle anderen Tage
     }
-
-    // Aktuelles Datum
-    const calendarDay = selectedDate.getDate();
-    const calendarMonth = selectedDate.getMonth() + 1;
-    // Create a date-independent comparison value for specific dates (MM-DD format)
-    const dateCompare = `${(selectedDate.getMonth() + 1).toString().padStart(2, '0')}-${selectedDate.getDate().toString().padStart(2, '0')}`;
 
     const rank_wt = getLiturgicalRank(selectedDate, season, week, dayOfWeek);
 
@@ -253,13 +267,11 @@ export function processBrevierData(liturgicalInfo) {
         const adjustedWeek = ((week + 3) % 4) + 1;
         const baseData = brevierData['p']?.[adjustedWeek]?.[dayOfWeek];
         if (baseData) mergeData(baseData, 'wt');
-        // Layer 1.1: besondere Psalmen in der Lesehore
-        const ordbaseData = brevierData['pj']?.[adjustedWeek]?.[dayOfWeek];
-        if (ordbaseData) mergeData(ordbaseData, 'wt');
-        // Layer 1.2: kein Te Deum in der Fastenzeit
-        const lentbaseData = brevierData['pq']?.['each']?.[dayOfWeek];
-        if (lentbaseData) mergeData(lentbaseData, 'wt');
-
+        // Layer 1.1: Psalmen in der Lesehore im Jahreskreis
+        if (season === 'j') {
+            const ordbaseData = brevierData['pj']?.[adjustedWeek]?.[dayOfWeek];
+            if (ordbaseData) mergeData(ordbaseData, 'wt');
+        }
         // Layer 2: Season-wide texts
         const seasonData = brevierData[season]?.['each']?.['each'];
         if (seasonData) mergeData(seasonData, 'wt');
@@ -291,14 +303,15 @@ export function processBrevierData(liturgicalInfo) {
         }
 
         // Layer 5.2: 17. Dez. bis Taufe des Herrn mit Weihnachtsoktav
-        if ((calendarMonth === 12 && calendarDay > 16) ||
-            (calendarMonth === 1 && season === 'w')) {
+        if (season === "a" || season === "w") {
             if (calendarDay > 24) {
                 const octaveData = brevierData['w']?.['okt']?.['each'];
                 if (octaveData) mergeData(octaveData, 'wt');
             }
             const daywiseData = brevierData['k']?.[calendarMonth]?.[calendarDay];
             if (daywiseData) mergeData(daywiseData, 'wt');
+            const daywiseLect = lectureData['k']?.[calendarMonth]?.[calendarDay];
+            if (daywiseLect) mergeData(daywiseLect, 'wt');
         }
 
         // Layer 6: Specific day data
@@ -307,6 +320,9 @@ export function processBrevierData(liturgicalInfo) {
 
         const specificData = brevierData[season]?.[week]?.[dayOfWeek];
         if (specificData) mergeData(specificData, 'wt');
+        const specificLect = lectureData[season]?.[week]?.[dayOfWeek];
+        if (specificLect) mergeData(specificLect, 'wt');
+
         // Layer 7: Process Commune texts
         const calendarData = brevierData?.['eig']?.[calendarMonth]?.[calendarDay];
         if (calendarData) mergeData(calendarData, 'eig');
@@ -345,8 +361,8 @@ export function processBrevierData(liturgicalInfo) {
             const rankData = brevierData?.[rank_date]?.['each']?.['each'];
             if (rankData) mergeData(rankData, 'eig');
 
+            // Texte für Hochfeste und Christusfeste am Sonntag
             if (rank_date > 3 && dayOfWeek === "0") {
-                // Process rank-based data
                 const sundayData = brevierData?.[rank_date]?.['each']?.['0'];
                 if (sundayData) mergeData(sundayData, 'eig');
             };
@@ -354,6 +370,8 @@ export function processBrevierData(liturgicalInfo) {
             // Process calendar-based data
             const calendarData = brevierData?.['eig']?.[calendarMonth]?.[calendarDay];
             if (calendarData) mergeData(calendarData, 'eig');
+            const calendarLect = lectureData?.['eig']?.[calendarMonth]?.[calendarDay];
+            if (calendarLect) mergeData(calendarLect, 'eig');
         }
 
         // Layer 9: nichtgebotene Gedenktage
