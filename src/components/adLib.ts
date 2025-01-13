@@ -48,8 +48,8 @@ export const adlibData = {
   "1": {
     "7": {
       "n1": {
-        "name": "Valentin",
-        "genitiv": "Genitiv",
+        "name": "Hl. Valentin",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -62,23 +62,21 @@ export const adlibData = {
           "oration": "Allmächtiger Gott, du hast den heiligen Valentin befähigt, als Missionar und Bischof den Menschen seiner Zeit ein treuer Helfer zu sein. Wecke in uns das Bewusstsein, dass wir füreinander verantwortlich sind, und hilf uns, einander im Glauben zu stützen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Valentin",
-          "genitiv": "Genitiv",
+          "name": "Hl. Valentin",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, du hast den heiligen Valentin befähigt, als Missionar und Bischof den Menschen seiner Zeit ein treuer Helfer zu sein. Wecke in uns das Bewusstsein, dass wir füreinander verantwortlich sind, und hilf uns, einander im Glauben zu stützen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Valentin",
-          "genitiv": "Genitiv",
+          "name": "Hl. Valentin",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, du hast den heiligen Valentin befähigt, als Missionar und Bischof den Menschen seiner Zeit ein treuer Helfer zu sein. Wecke in uns das Bewusstsein, dass wir füreinander verantwortlich sind, und hilf uns, einander im Glauben zu stützen. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Raimund von Penyafort",
-        "genitiv": "Genitiv",
+        "name": "Hl. Raimund von Penyafort",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -91,15 +89,13 @@ export const adlibData = {
           "oration": "Barmherziger Gott, du hast dem heiligen Raimund die Kraft deiner Liebe geschenkt und ihn den Gefangenen als Helfer gesandt. Höre auf seine Fürsprache und befreie uns von der Gefangenschaft der Sünde, damit wir als wahrhaft freie Menschen das Gebot der Liebe erfüllen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Raimund von Penyafort",
-          "genitiv": "Genitiv",
+          "name": "Hl. Raimund von Penyafort",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Barmherziger Gott, du hast dem heiligen Raimund die Kraft deiner Liebe geschenkt und ihn den Gefangenen als Helfer gesandt. Höre auf seine Fürsprache und befreie uns von der Gefangenschaft der Sünde, damit wir als wahrhaft freie Menschen das Gebot der Liebe erfüllen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Raimund von Penyafort",
-          "genitiv": "Genitiv",
+          "name": "Hl. Raimund von Penyafort",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Barmherziger Gott, du hast dem heiligen Raimund die Kraft deiner Liebe geschenkt und ihn den Gefangenen als Helfer gesandt. Höre auf seine Fürsprache und befreie uns von der Gefangenschaft der Sünde, damit wir als wahrhaft freie Menschen das Gebot der Liebe erfüllen. Darum bitten wir durch Jesus Christus."
@@ -108,8 +104,8 @@ export const adlibData = {
     },
     "8": {
       "n1": {
-        "name": "Severin",
-        "genitiv": "Genitiv",
+        "name": "Hl. Severin",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -122,15 +118,13 @@ export const adlibData = {
           "oration": "Gütiger Gott, du hast den Mönch Severin zu seinen Glaubensbrüdern gesandt, damit er in den Wirren der Zeit ihr Ratgeber und Führer sei. Mache auch uns bereit, Verantwortung zu tragen, und hilf uns, denen beizustehen, die in Not sind. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Severin",
-          "genitiv": "Genitiv",
+          "name": "Hl. Severin",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gütiger Gott, du hast den Mönch Severin zu seinen Glaubensbrüdern gesandt, damit er in den Wirren der Zeit ihr Ratgeber und Führer sei. Mache auch uns bereit, Verantwortung zu tragen, und hilf uns, denen beizustehen, die in Not sind. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Severin",
-          "genitiv": "Genitiv",
+          "name": "Hl. Severin",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gütiger Gott, du hast den Mönch Severin zu seinen Glaubensbrüdern gesandt, damit er in den Wirren der Zeit ihr Ratgeber und Führer sei. Mache auch uns bereit, Verantwortung zu tragen, und hilf uns, denen beizustehen, die in Not sind. Darum bitten wir durch Jesus Christus."
@@ -139,8 +133,8 @@ export const adlibData = {
     },
     "13": {
       "n1": {
-        "name": "Hilarius",
-        "genitiv": "Genitiv",
+        "name": "Hl. Hilarius",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -153,15 +147,13 @@ export const adlibData = {
           "oration": "Allmächtiger Gott, erhöre unser Gebet am Gedenktag des heiligen Bischofs Hilarius, der unermüdlich die Lehre von der Gottheit deines Sohnes verteidigt hat. Gib uns die Weisheit und Kraft, damit wir die Größe dieses Geheimnisses erkennen und deinen Sohn glaubwürdig bezeugen, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Laudes": {
-          "name": "Hilarius",
-          "genitiv": "Genitiv",
+          "name": "Hl. Hilarius",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, erhöre unser Gebet am Gedenktag des heiligen Bischofs Hilarius, der unermüdlich die Lehre von der Gottheit deines Sohnes verteidigt hat. Gib uns die Weisheit und Kraft, damit wir die Größe dieses Geheimnisses erkennen und deinen Sohn glaubwürdig bezeugen, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Vesper": {
-          "name": "Hilarius",
-          "genitiv": "Genitiv",
+          "name": "Hl. Hilarius",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, erhöre unser Gebet am Gedenktag des heiligen Bischofs Hilarius, der unermüdlich die Lehre von der Gottheit deines Sohnes verteidigt hat. Gib uns die Weisheit und Kraft, damit wir die Größe dieses Geheimnisses erkennen und deinen Sohn glaubwürdig bezeugen, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
@@ -170,8 +162,8 @@ export const adlibData = {
     },
     "20": {
       "n1": {
-        "name": "Fabian",
-        "genitiv": "Genitiv",
+        "name": "Hl. Fabian",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -184,23 +176,22 @@ export const adlibData = {
           "oration": "Gott, du bist der Ruhm deiner Kirche und die Kraft ihrer Hirten. Du stärkst die Märtyrer zum Zeugnis und belohnst sie mit ewiger Herrlichkeit. Höre auf die Fürsprache des heiligen Papstes Fabian, mit dem uns der Glaube an Christus verbindet, und hilf auch uns, dir bis in den Tod die Treue zu bewahren. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Fabian",
-          "genitiv": "Genitiv",
+          "name": "Hl. Fabian",
+          "farbe": "r",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du bist der Ruhm deiner Kirche und die Kraft ihrer Hirten. Du stärkst die Märtyrer zum Zeugnis und belohnst sie mit ewiger Herrlichkeit. Höre auf die Fürsprache des heiligen Papstes Fabian, mit dem uns der Glaube an Christus verbindet, und hilf auch uns, dir bis in den Tod die Treue zu bewahren. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Fabian",
-          "genitiv": "Genitiv",
+          "name": "Hl. Fabian",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du bist der Ruhm deiner Kirche und die Kraft ihrer Hirten. Du stärkst die Märtyrer zum Zeugnis und belohnst sie mit ewiger Herrlichkeit. Höre auf die Fürsprache des heiligen Papstes Fabian, mit dem uns der Glaube an Christus verbindet, und hilf auch uns, dir bis in den Tod die Treue zu bewahren. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Sebastian",
-        "genitiv": "Genitiv",
+        "name": "Hl. Sebastian",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -213,15 +204,14 @@ export const adlibData = {
           "oration": "Herr, unser Gott, wir schauen heute auf das Beispiel der Standhaftigkeit, das der heilige Märtyrer Sebastian durch sein mutiges Bekenntnis gegeben hat. Schenke auch uns den Geist der Stärke, damit wir dir mehr gehorchen als den Menschen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Sebastian",
-          "genitiv": "Genitiv",
+          "name": "Hl. Sebastian",
+          "farbe": "r",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, wir schauen heute auf das Beispiel der Standhaftigkeit, das der heilige Märtyrer Sebastian durch sein mutiges Bekenntnis gegeben hat. Schenke auch uns den Geist der Stärke, damit wir dir mehr gehorchen als den Menschen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Sebastian",
-          "genitiv": "Genitiv",
+          "name": "Hl. Sebastian",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, wir schauen heute auf das Beispiel der Standhaftigkeit, das der heilige Märtyrer Sebastian durch sein mutiges Bekenntnis gegeben hat. Schenke auch uns den Geist der Stärke, damit wir dir mehr gehorchen als den Menschen. Darum bitten wir durch Jesus Christus."
@@ -230,8 +220,8 @@ export const adlibData = {
     },
     "21": {
       "n1": {
-        "name": "Meinrad",
-        "genitiv": "Genitiv",
+        "name": "Hl. Meinrad",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -244,54 +234,24 @@ export const adlibData = {
           "oration": "Allmächtiger Gott, du hast das Lebensopfer des heiligen Meinrad reich belohnt und seine Zelle (im „Finstern Wald“) zu einer Stätte des Segens gemacht. Gib, dass auch wir in der Stille über dein Wort nachsinnen und Frucht bringen in Werken der Liebe. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Meinrad",
-          "genitiv": "Genitiv",
+          "name": "Hl. Meinrad",
+          "farbe": "r",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, du hast das Lebensopfer des heiligen Meinrad reich belohnt und seine Zelle (im „Finstern Wald“) zu einer Stätte des Segens gemacht. Gib, dass auch wir in der Stille über dein Wort nachsinnen und Frucht bringen in Werken der Liebe. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Meinrad",
-          "genitiv": "Genitiv",
+          "name": "Hl. Meinrad",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, du hast das Lebensopfer des heiligen Meinrad reich belohnt und seine Zelle (im „Finstern Wald“) zu einer Stätte des Segens gemacht. Gib, dass auch wir in der Stille über dein Wort nachsinnen und Frucht bringen in Werken der Liebe. Darum bitten wir durch Jesus Christus."
-        }
-      },
-      "n2": {
-        "name": "Agnes",
-        "genitiv": "Genitiv",
-        "Lesehore": {
-          "comm_1": "Comm",
-          "comm_2": "Comm_2",
-          "patr_autor": "Ambrosius († 397)",
-          "patr_werk": "Aus dem Buch über die Jungfrauen.",
-          "patr_text": "^hSie war noch zu jung, um bestraft zu werden, aber schon reif, um zu siegen^p(Heute) ist der Gedenktag einer Jungfrau, lasst uns der Jungfräulichkeit folgen, es ist der Tag einer Märtyrin, lasst uns Gaben opfern! Es ist der Gedächtnistag der heiligen Agnes. Nach der Überlieferung hat sie mit zwölf Jahren das Martyrium erlitten. Welch abscheuerregende Grausamkeit, die auch das zarteste Alter nicht schonte! Aber groß war die Kraft des Glaubens, der auch von diesem Lebensalter Zeugnis erhielt.^pBot der kleine Leib Platz für Wunden? Sie hatte nichts, wo das Eisen sie treffen konnte; doch sie hatte, womit sie das Eisen besiegen konnte. Mädchen in diesem Alter können den strengen Blick der Eltern nicht ertragen und weinen über Nadelstiche wie über Wunden. Sie steht unerschrocken unter den blutigen Händen der Henker. Sie steht, unbewegt vom Klirren der Ketten. Sie bietet dem Dolch des wütenden Soldaten den ganzen Leib. Sie weiß noch nicht, was Sterben heißt, aber sie ist bereit. Gegen ihren Willen wird sie zum Altar gezerrt. Sie breitet inmitten der Flammen die Hände auf Christus hin aus, gerade dort am Götzenaltar bezeichnet sie sich mit dem Zeichen Christi, des Siegers. Jetzt legt sie Nacken und Hände in die eisernen Fesseln, aber keine Fessel vermag die zarten Glieder zu fassen.^pIst es eine neue Art des Martyriums? Noch zu jung, um bestraft zu werden, ist sie schon reif zum Sieg. Schwerlich kann sie kämpfen, doch leicht erringt sie den Siegeskranz. Sie ist eine Lehrmeisterin der Tugend und kann es doch dem Alter nach nicht sein. So eilt die Vermählte nicht zum Brautgemach wie die Jungfrau freudigen Schrittes und eilenden Fußes zum Richtplatz, das Haupt nicht im Schmuck des kunstvoll geflochtenen Haares, sondern mit Christus gekrönt, nicht mit Blumen umwunden, sondern mit Tugenden geziert.^pAlle weinen, nur sie nicht. Viele staunen, dass sie so leichthin das Leben verschwendet, als hätte sie schon ausgekostet, wovon sie kaum nippen durfte. Alle waren starr darüber, dass sie schon Zeugin der Gottheit war, obwohl sie dem Alter nach kaum rechtsfähig war. Aber sie brachte es dahin, dass Gott ihr die Zeugenfähigkeit gab, die ihr die Menschen versagten. Was die Kraft der Natur übersteigt, das wirkt der Schöpfer der Natur.^pMit welchen Schrecken droht der Henker, um sie einzuschüchtern, wie schmeichelt er, um sie zu verführen! Was versprechen ihr die vielen Freier alles, um sie heimzuführen! Sie aber spricht: Schon das wäre Unrecht gegen den Bräutigam, wollte ich darauf warten, ob ich jemand gefalle. Der mich zuerst erwählte, dem will ich gehören. Auf was wartest du, Henker? Der Leib vergehe; ihn könnten Augen lieben, deren Liebe ich nicht mag!^pDa stand sie, betete und beugte den Nacken. Da konntest du den Scharfrichter zittern sehen, als wäre er der Verurteilte. Seine Rechte schwankte, sein Gesicht wurde blass. Ihn sehreckte die Bedrohung des fremden Mädchens, das selbst die Gefahr nicht fürchtete.^pDa seht ihr an der einen Opfergabe das zweifache Martyrium: das der Reinheit und das des Glaubens. Sie blieb Jungfrau und gewann das Martyrium.",
-          "patr_resp1": "Lasst uns das fest der heiligen Agnes feiern und daran denken, wie sie gelitten hat.",
-          "patr_resp2": "In ihrer Jugend verlor sie den Tod und gewann das Leben.",
-          "patr_resp3": "Denn sie liebte nur den Urheber des Lebens.",
-          "oration": "Ewiger Gott, du berufst, was schwach ist in dieser Welt, um das, was stark ist, zu beschämen. Höre auf die Fürsprache der heiligen Agnes. Komm uns zu Hilfe, damit auch wir unbeirrt den Glauben bekennen. Darum bitten wir durch Jesus Christus."
-        },
-        "Laudes": {
-          "name": "Agnes",
-          "genitiv": "Genitiv",
-          "comm_1": "Comm",
-          "comm_2": "Comm_2",
-          "oration": "Ewiger Gott, du berufst, was schwach ist in dieser Welt, um das, was stark ist, zu beschämen. Höre auf die Fürsprache der heiligen Agnes. Komm uns zu Hilfe, damit auch wir unbeirrt den Glauben bekennen. Darum bitten wir durch Jesus Christus."
-        },
-        "Vesper": {
-          "name": "Agnes",
-          "genitiv": "Genitiv",
-          "comm_1": "Comm",
-          "comm_2": "Comm_2",
-          "oration": "Ewiger Gott, du berufst, was schwach ist in dieser Welt, um das, was stark ist, zu beschämen. Höre auf die Fürsprache der heiligen Agnes. Komm uns zu Hilfe, damit auch wir unbeirrt den Glauben bekennen. Darum bitten wir durch Jesus Christus."
         }
       }
     },
     "22": {
       "n1": {
-        "name": "Vinzenz",
-        "genitiv": "Genitiv",
+        "name": "Hl. Vinzenz",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -304,36 +264,32 @@ export const adlibData = {
           "oration": "Allmächtiger, ewiger Gott, im Vertrauen auf deine Barmherzigkeit rufen wir zu dir: Erfülle uns mit deinem Geist und gib uns jene Liebe, die den heiligen Diakon Vinzenz fähig machte, die Qualen des Martyriums zu bestehen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Vinzenz",
-          "genitiv": "Genitiv",
+          "name": "Hl. Vinzenz",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger, ewiger Gott, im Vertrauen auf deine Barmherzigkeit rufen wir zu dir: Erfülle uns mit deinem Geist und gib uns jene Liebe, die den heiligen Diakon Vinzenz fähig machte, die Qualen des Martyriums zu bestehen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Vinzenz",
-          "genitiv": "Genitiv",
+          "name": "Hl. Vinzenz",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger, ewiger Gott, im Vertrauen auf deine Barmherzigkeit rufen wir zu dir: Erfülle uns mit deinem Geist und gib uns jene Liebe, die den heiligen Diakon Vinzenz fähig machte, die Qualen des Martyriums zu bestehen. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Vinzenz Pallotti",
-        "genitiv": "Genitiv",
+        "name": "Hl. Vinzenz Pallotti",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Laudes": {
-          "name": "Vinzenz Pallotti",
-          "genitiv": "Genitiv",
+          "name": "Hl. Vinzenz Pallotti",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Vesper": {
-          "name": "Vinzenz Pallotti",
-          "genitiv": "Genitiv",
+          "name": "Hl. Vinzenz Pallotti",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         }
@@ -341,8 +297,8 @@ export const adlibData = {
     },
     "23": {
       "n1": {
-        "name": "Heinrich Seuse",
-        "genitiv": "Genitiv",
+        "name": "Sel. Heinrich Seuse",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -355,15 +311,13 @@ export const adlibData = {
           "oration": "Gott, du Quell der Weisheit, du hast den seligen Heinrich Seuse in deine Nähe gerufen und ihn zu einem Leben der Buße ermutigt. Lass auch uns in der Nachfolge deines gekreuzigten Sohnes den Trost deiner Gegenwart erfahren. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Heinrich Seuse",
-          "genitiv": "Genitiv",
+          "name": "Sel. Heinrich Seuse",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Quell der Weisheit, du hast den seligen Heinrich Seuse in deine Nähe gerufen und ihn zu einem Leben der Buße ermutigt. Lass auch uns in der Nachfolge deines gekreuzigten Sohnes den Trost deiner Gegenwart erfahren. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Heinrich Seuse",
-          "genitiv": "Genitiv",
+          "name": "Sel. Heinrich Seuse",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Quell der Weisheit, du hast den seligen Heinrich Seuse in deine Nähe gerufen und ihn zu einem Leben der Buße ermutigt. Lass auch uns in der Nachfolge deines gekreuzigten Sohnes den Trost deiner Gegenwart erfahren. Darum bitten wir durch Jesus Christus."
@@ -372,8 +326,8 @@ export const adlibData = {
     },
     "27": {
       "n1": {
-        "name": "Angela Merici",
-        "genitiv": "Genitiv",
+        "name": "Hl. Angela Merici",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -386,15 +340,13 @@ export const adlibData = {
           "oration": "Gütiger Gott, höre auf die Fürsprache der heiligen Angela. Öffne unsere Augen für das Beispiel der Liebe und der Klugheit, das sie als christliche Erzieherin gegeben hat. Hilf uns, an der wahren Lehre festzuhalten und sie im Leben zu bezeugen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Angela Merici",
-          "genitiv": "Genitiv",
+          "name": "Hl. Angela Merici",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gütiger Gott, höre auf die Fürsprache der heiligen Angela. Öffne unsere Augen für das Beispiel der Liebe und der Klugheit, das sie als christliche Erzieherin gegeben hat. Hilf uns, an der wahren Lehre festzuhalten und sie im Leben zu bezeugen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Angela Merici",
-          "genitiv": "Genitiv",
+          "name": "Hl. Angela Merici",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gütiger Gott, höre auf die Fürsprache der heiligen Angela. Öffne unsere Augen für das Beispiel der Liebe und der Klugheit, das sie als christliche Erzieherin gegeben hat. Hilf uns, an der wahren Lehre festzuhalten und sie im Leben zu bezeugen. Darum bitten wir durch Jesus Christus."
@@ -405,8 +357,8 @@ export const adlibData = {
   "2": {
     "3": {
       "n1": {
-        "name": "Ansgar",
-        "genitiv": "Genitiv",
+        "name": "Hl. Ansgar",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -419,23 +371,21 @@ export const adlibData = {
           "oration": "Gott, du Heil der Menschen, du hast den heiligen Bischof Ansgar gesandt, den Völkern des Nordens das Evangelium zu verkünden. Höre auf seine Fürsprache und erhalte auch den Menschen unserer Zeit das Licht deiner Wahrheit. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Ansgar",
-          "genitiv": "Genitiv",
+          "name": "Hl. Ansgar",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Heil der Menschen, du hast den heiligen Bischof Ansgar gesandt, den Völkern des Nordens das Evangelium zu verkünden. Höre auf seine Fürsprache und erhalte auch den Menschen unserer Zeit das Licht deiner Wahrheit. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Ansgar",
-          "genitiv": "Genitiv",
+          "name": "Hl. Ansgar",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Heil der Menschen, du hast den heiligen Bischof Ansgar gesandt, den Völkern des Nordens das Evangelium zu verkünden. Höre auf seine Fürsprache und erhalte auch den Menschen unserer Zeit das Licht deiner Wahrheit. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Blasius",
-        "genitiv": "Genitiv",
+        "name": "Hl. Blasius",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -448,92 +398,24 @@ export const adlibData = {
           "oration": "Herr, unser Gott, erhöre dein Volk, das am Tag des heiligen Bischofs und Märtyrers Blasius zu dir ruft. Bewahre uns vor Krankheit und Schaden in diesem zeitlichen Leben und hilf uns in aller Not, damit wir das ewige Heil erlangen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Blasius",
-          "genitiv": "Genitiv",
+          "name": "Hl. Blasius",
+          "farbe": "r",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, erhöre dein Volk, das am Tag des heiligen Bischofs und Märtyrers Blasius zu dir ruft. Bewahre uns vor Krankheit und Schaden in diesem zeitlichen Leben und hilf uns in aller Not, damit wir das ewige Heil erlangen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Blasius",
-          "genitiv": "Genitiv",
+          "name": "Hl. Blasius",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, erhöre dein Volk, das am Tag des heiligen Bischofs und Märtyrers Blasius zu dir ruft. Bewahre uns vor Krankheit und Schaden in diesem zeitlichen Leben und hilf uns in aller Not, damit wir das ewige Heil erlangen. Darum bitten wir durch Jesus Christus."
-        }
-      }
-    },
-    "5": {
-      "n1": {
-        "name": "Agatha",
-        "genitiv": "Genitiv",
-        "Lesehore": {
-          "comm_1": "Comm",
-          "comm_2": "Comm_2",
-          "patr_autor": "Methodius von Konstantinopel († 847)",
-          "patr_werk": "Aus einer Rede zu Ehren der heiligen Agatha.",
-          "patr_text": "^hAgatha, „die Gute“, ist ein Geschenk Gottes, der Quelle des Guten^pDas Jahresgedächtnis der heiligen Märtyrin hat uns alle an diesem Ort zusammengeführt. Wie ihr, meine Hörer, alle wisst, ist der Grund für unsere Versammlung der ruhmvolle Kampf einer der ersten Märtyrinnen alter Zeit. Aber sie gehört auch der Gegenwart an, da sie auch jetzt im Kampf siegt durch die Wunder Gottes, die täglich ihr Kranz und ihr kostbarer Schmuck sind.^pSie ist Jungfrau, weil sie aus dem Wort des unsterblichen Gottes – das auch für mich in seiner Menschheit den Tod erlitt –, aus dem ungeteilten Gottessohn, geboren ist, wie Johannes sagt: „Allen aber, die ihn aufnahmen, gab er Macht, Kinder Gottes zu werden“ (Joh 1,12).^pDie Jungfrau also, die euch zu unserem heiligen Mahl geladen hat, ist die Frau, die dem einen Mann Christus verlobt ist, wenn wir im Sinn des Apostels das Bild von der Vereinigung im Brautgemach gebrauchen wollen (2 Kor 11,2).^pDiese wahrhaft Gute, weil Gottes eigener Anteil, ist Agatha für ihren Bräutigam, und sie ist es kraft der Verbundenheit im Guten, dieser Spiegelung von Sinn und Bedeutung ihres Namens, auch für uns. Gott, der Quell des Guten, hat sie uns als Geschenk verliehen.^pWelche gute Gabe wäre größer als das höchste Gut! Wo wäre jemand mehr des Lobes wert als Agatha, die Gute?^pAgatha, deren Gutsein dem Namen und der Wirklichkeit entspricht; Agatha, die durch ihre herrlichen Taten ihrem guten Namen Ehre macht und eben in diesem guten Namen die guten Taten zeigt, die sie vollbracht hat; Agatha, die durch ihren guten Namen eine solche Anziehungskraft besitzt, dass alle von ganzer Seele zu ihr eilen. Sie lehrt alle Menschen durch ihr gutes Beispiel, unverzüglich mit ihr nach dem wahren Gut zu streben, das allein der eine Gott ist.",
-          "patr_resp1": "Der Herr hilft mir, und ich beharre in seinem Bekenntnis;",
-          "patr_resp2": "er hat mich gerettet und getröstet.",
-          "patr_resp3": "Der makellose Herr hat in seinem Erbarmen sich die Dienerin ohne Makel geweiht.",
-          "oration": "Allmächtiger Gott, du hast die heilige Agatha zur Jungfräulichkeit um Christi willen berufen und ihr die Gnade des Martyriums geschenkt. Höre auf ihre Fürsprache und hilf uns, in aller Bedrängnis auszuharren und dir in Lauterkeit und Treue zu dienen. Darum bitten wir durch Jesus Christus."
-        },
-        "Laudes": {
-          "name": "Agatha",
-          "genitiv": "Genitiv",
-          "comm_1": "Comm",
-          "comm_2": "Comm_2",
-          "Ant_Ev": "Vor Freude strahlend, ging Agatha in den Kerker,^lals ginge sie zu einem Gastmahl,^lund betend empfahl sie dem Herrn ihren Kampf.",
-          "Ant_Komm": "Vor Freude strahlend, ging Agatha in den Kerker,^lals ginge sie zu einem Gastmahl,^lund betend empfahl sie dem Herrn ihren Kampf.",
-          "oration": "Allmächtiger Gott, du hast die heilige Agatha zur Jungfräulichkeit um Christi willen berufen und ihr die Gnade des Martyriums geschenkt. Höre auf ihre Fürsprache und hilf uns, in aller Bedrängnis auszuharren und dir in Lauterkeit und Treue zu dienen. Darum bitten wir durch Jesus Christus."
-        },
-        "Vesper": {
-          "name": "Agatha",
-          "genitiv": "Genitiv",
-          "comm_1": "Comm",
-          "comm_2": "Comm_2",
-          "Ant_Ev": "Herr Jesus Christus, guter Meister,^lich sage dir Dank.^lDu gabst mir Kraft, die Folter zu bestehen.^lNun nimm mich auf^lin deine Herrlichkeit, die niemals enden wird.",
-          "Ant_Komm": "Herr Jesus Christus, guter Meister,^lich sage dir Dank.^lDu gabst mir Kraft, die Folter zu bestehen.^lNun nimm mich auf^lin deine Herrlichkeit, die niemals enden wird.",
-          "oration": "Allmächtiger Gott, du hast die heilige Agatha zur Jungfräulichkeit um Christi willen berufen und ihr die Gnade des Martyriums geschenkt. Höre auf ihre Fürsprache und hilf uns, in aller Bedrängnis auszuharren und dir in Lauterkeit und Treue zu dienen. Darum bitten wir durch Jesus Christus."
-        }
-      }
-    },
-    "6": {
-      "n1": {
-        "name": "Paul Miki und Gefährten",
-        "genitiv": "Genitiv",
-        "Lesehore": {
-          "comm_1": "Comm",
-          "comm_2": "Comm_2",
-          "patr_werk": "Aus der Geschichte des Martyriums des heiligen Paul Miki und seiner Gefährten, von einem Zeitgenossen.",
-          "patr_text": "^hIhr sollt meine Zeugen sein^pIn dem Bewusstsein, in hohen Ehren vor den Augen all derer zu stehen, die ihm einst angehört hatten, erklärte unser Bruder Paulus Miki den Umstehenden, er sei Japaner und gehöre zur Gesellschaft Jesu, er müsse sterben wegen der Verkündigung des Evangeliums und danke Gott für diese außerordentliche Wohltat.^pDann fügte er hinzu: „Da es nun mit mir dahin gekommen ist, denke ich, niemand von euch wird von mir glauben, dass ich die Wahrheit verhehle. So erkläre ich denn euch allen, dass es keinen anderen Weg zum Heil gibt als den der Christen. Dieser Weg lehrt mich, den Feinden zu verzeihen und allen, die mich beleidigt haben. Darum vergebe ich gerne dem König und allen, die an meinem Tod schuldig sind, und ich bitte sie, die christliche Taufe zu empfangen.“^pDann richtete er seine Augen auf die Gefährten und begann ihnen für den Höhepunkt dieses Kampfes Mut zuzusprechen. Auf dem Gesicht aller erschien ein Aufleuchten der Freude, besonders bei Ludwig. Als ihm ein anderer Christ zurief, er werde bald im Paradies sein, lenkte er durch eine von Freude erfüllte Bewegung der Finger und des ganzen Leibes die Augen aller Zuschauer auf sich.^pAntonius, neben Ludwig, richtete seinen Blick zum Himmel und rief die heiligen Namen Jesus und Maria und sang den Psalm: „Lobet, ihr Knechte des Herrn!“ (Ps 113), den er im katechetischen Institut von Nagasaki gelernt hatte, wo man große Mühe darauf verwendet, den Knaben einige Psalmen beizubringen.^pAndere riefen mit frohem Angesicht immer wieder: „Jesus! Maria!“ Einige ermahnten sogar die Umstehenden, ein eines Christen würdiges Leben zu führen. Durch diese und andere Handlungen zeigten sie ihre Bereitschaft zu sterben.^pDa zogen die vier Henker die Schwerter, wie sie bei den Japanern im Gebrauch sind. Bei diesem schrecklichen Anblick schrien die Gläubigen: „Jesus! Maria!“, und ein Wehklagen erhob sich, das den Himmel selbst rühren musste. Die Henker töteten sie nacheinander mit einem oder einem zweiten Stoß.",
-          "patr_resp1": "Wir rühmen uns des Kreuzes unseres Herrn Jesus Christus. In ihm ist uns Heil geworden und Auferstehung und Leben.",
-          "patr_resp2": "Durch ihn sind wir erlöst und befreit.",
-          "patr_resp3": "Euch wurde die Gnade zuteil, nicht nur an Christus zu glauben, sondern auch seinetwegen zu leiden.",
-          "oration": "Starker Gott, du bist die Kraft der Heiligen. Du hast den heiligen Paul Miki und seine Gefährten durch das Martyrium am Kreuz zur ewigen Herrlichkeit geführt. Hilf uns auf die Fürbitte dieser Heiligen, Christus, dem Gekreuzigten, nachzufolgen und ihn bis zum Tode gläubig zu bekennen, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
-        },
-        "Laudes": {
-          "name": "Paul Miki und Gefährten",
-          "genitiv": "Genitiv",
-          "comm_1": "Comm",
-          "comm_2": "Comm_2",
-          "Ant_Komm": "Selig, die Verfolgung leiden für die Gerechtigkeit; denn ihrer ist das Himmelreich.",
-          "oration": "Starker Gott, du bist die Kraft der Heiligen. Du hast den heiligen Paul Miki und seine Gefährten durch das Martyrium am Kreuz zur ewigen Herrlichkeit geführt. Hilf uns auf die Fürbitte dieser Heiligen, Christus, dem Gekreuzigten, nachzufolgen und ihn bis zum Tode gläubig zu bekennen, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
-        },
-        "Vesper": {
-          "name": "Paul Miki und Gefährten",
-          "genitiv": "Genitiv",
-          "comm_1": "Comm",
-          "comm_2": "Comm_2",
-          "Ant_Komm": "Im Himmel freuen sich die Gerechten,^ldie dem Herrn gefolgt sind.^lAus Liebe zu Christus vergossen sie ihr Blut.^lNun herrschen sie mit ihm auf ewig.",
-          "oration": "Starker Gott, du bist die Kraft der Heiligen. Du hast den heiligen Paul Miki und seine Gefährten durch das Martyrium am Kreuz zur ewigen Herrlichkeit geführt. Hilf uns auf die Fürbitte dieser Heiligen, Christus, dem Gekreuzigten, nachzufolgen und ihn bis zum Tode gläubig zu bekennen, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         }
       }
     },
     "8": {
       "n1": {
-        "name": "Hieronymus Ämiliani",
-        "genitiv": "Genitiv",
+        "name": "Hl. Hieronymus Ämiliani",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -546,16 +428,14 @@ export const adlibData = {
           "oration": "Gott, du Quelle der Barmherzigkeit, im heiligen Hieronymus Ämiliani hast du den Waisenkindern einen Helfer und Vater gegeben. Schenke allen, die in Not sind, deine sorgende Liebe und gib uns die Bereitschaft, ihnen zu helfen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Hieronymus Ämiliani",
-          "genitiv": "Genitiv",
+          "name": "Hl. Hieronymus Ämiliani",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Wer barmherzig ist,^lder lehrt und erzieht wie ein guter Hirt.",
           "oration": "Gott, du Quelle der Barmherzigkeit, im heiligen Hieronymus Ämiliani hast du den Waisenkindern einen Helfer und Vater gegeben. Schenke allen, die in Not sind, deine sorgende Liebe und gib uns die Bereitschaft, ihnen zu helfen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Hieronymus Ämiliani",
-          "genitiv": "Genitiv",
+          "name": "Hl. Hieronymus Ämiliani",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Lasst die Kinder zu mir kommen;^ldenn Menschen wie ihnen gehört das Himmelreich.",
@@ -563,61 +443,28 @@ export const adlibData = {
         }
       },
       "n2": {
-        "name": "Josefine Bakhita",
-        "genitiv": "Genitiv",
+        "name": "Hl. Josefine Bakhita",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Laudes": {
-          "name": "Josefine Bakhita",
-          "genitiv": "Genitiv",
+          "name": "Hl. Josefine Bakhita",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Vesper": {
-          "name": "Josefine Bakhita",
-          "genitiv": "Genitiv",
+          "name": "Hl. Josefine Bakhita",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
-        }
-      }
-    },
-    "10": {
-      "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
-        "Lesehore": {
-          "comm_1": "Comm",
-          "comm_2": "Comm_2",
-          "patr_autor": "Gregor der Große († 604)",
-          "patr_werk": "Aus den Dialogen über das Leben und die Wunder der italischen Väter.",
-          "patr_text": "^hDie mehr Liebe hatte, vermochte auch mehr^pScholastika, die Schwester des heiligen Benedikt, war von frühester Jugend an dem allmächtigen Gott geweiht. Sie pflegte einmal im Jahr zu ihrem Bruder zu kommen. Der Mann Gottes stieg dann hinunter zu ihr, zu einem Klostergut, nicht weit von der Pforte.^pEines Tages kam sie nach ihrer Gewohnheit, und ihr ehrwürdiger Bruder stieg mit seinen Schülern zu ihr hinab. Den ganzen Tag verbrachten sie im Lob Gottes und in heiligen Gesprächen. Als die Nacht hereinbrach, aßen sie miteinander.^pAls es über ihren frommen Gesprächen spät wurde, bat ihn die heilige Ordensfrau: „Bitte, verlass mich diese Nacht nicht, lass uns bis Tagesanbruch über die Freuden des Himmels sprechen.“ Er aber erwiderte: „Schwester, was redest du da? Nein, nein, ich kann nicht außerhalb der Zelle bleiben!“^pAls die heilige Ordensfrau das Nein ihres Bruders vernahm, legte sie die Hände mit verschränkten Fingern auf den Tisch und beugte ihren Kopfüber die Hände, um zum allmächtigen Herrn zu beten. Als sie den Kopf wieder vom Tisch erhob, herrschte ein derart gewaltiges Blitzen und Donnern, und ein solcher Regen brach los, dass weder der ehrwürdige Benedikt noch die Brüder, die mit ihm dabei waren, den Fuß über die Schwelle des Ortes setzen konnten, an dem sie beisammen saßen.^pDa fing der Mann Gottes betrübt an, sich zu beklagen; „Der allmächtige Gott verzeihe dir, Schwester, was hast du getan?“ Da antwortete sie: „Ich habe dich gebeten, und du wolltest nicht auf mich hören. Da bat ich meinen Gott, und er erhörte mich. Geh hinaus, wenn du kannst, verlass mich und kehre ins Kloster zurück!“^pEr aber, der freiwillig nicht bleiben Wollte, blieb wider Willen, und so kam es, dass sie die ganze Nacht durchwachten und sich durch Gespräche über das geistliche Leben in gegenseitigem Austausch erquickten.^pKein Wunder, dass die Frau mehr vermochte als er; denn nach dem Wort des Johannes: „Gott ist die Liebe“(1 Joh 4,8), war es nur gerecht, dass sie mehr vermochte, weil sie mehr Liebe hatte.^pDrei Tage später stand der Mann Gottes in seiner Zelle. Als er zum Himmel aufblickte, sah er die Seele seiner Schwester, dem Leib entrückt, in Gestalt einer Taube in das Geheimnis des Himmels eingehen. Da freute er sich über ihre große Herrlichkeit, dankte dem allmächtigen Gott mit Lobeshymnen und schickte Brüder, ihren Leib zum Kloster zu holen und in das Grab zu legen, das er für sich selbst gerichtet hatte.^pSo kam es, dass das Grab ihre Leiber nicht trennte, wie ihr Geist immer in Gott verbunden war.",
-          "patr_resp1": "In Gestalt einer Taube sah der Mann Gottes die Seele seiner Schwester in den Himmel eingehen,",
-          "patr_resp2": "und er freute sich über ihre große Herrlichkeit.",
-          "patr_resp3": "Er dankte dem allmächtigen Gott mit Lobeshymnen.",
-          "oration": "Erhabener Gott, wir begehen das Gedächtnis der heiligen Jungfrau Scholastika. Lass uns nach ihrem Beispiel dir stets in aufrichtiger Liebe dienen und gewähre uns in deiner Güte einst einen seligen Heimgang zu dir. Darum bitten wir durch Jesus Christus."
-        },
-        "Laudes": {
-          "genitiv": "Genitiv",
-          "comm_1": "Comm",
-          "comm_2": "Comm_2",
-          "Ant_Komm": "Die kluge Jungfrau ging Christus entgegen.^lWie die Sonne strahlt sie im Chor der Heiligen.",
-          "oration": "Erhabener Gott, wir begehen das Gedächtnis der heiligen Jungfrau Scholastika. Lass uns nach ihrem Beispiel dir stets in aufrichtiger Liebe dienen und gewähre uns in deiner Güte einst einen seligen Heimgang zu dir. Darum bitten wir durch Jesus Christus."
-        },
-        "Vesper": {
-          "genitiv": "Genitiv",
-          "comm_1": "Comm",
-          "comm_2": "Comm_2",
-          "Ant_Komm": "Braut Christi, komm und empfange die Krone,^ldie der Herr für dich bereithält.",
-          "oration": "Erhabener Gott, wir begehen das Gedächtnis der heiligen Jungfrau Scholastika. Lass uns nach ihrem Beispiel dir stets in aufrichtiger Liebe dienen und gewähre uns in deiner Güte einst einen seligen Heimgang zu dir. Darum bitten wir durch Jesus Christus."
         }
       }
     },
     "11": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "U.L.Fr. in Lourdes",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -630,18 +477,18 @@ export const adlibData = {
           "oration": "Barmherziger Gott, in unserer Schwachheit suchen wir bei dir Hilfe und Schutz. Höre auf die Fürsprache der jungfräulichen Gottesmutter Maria, die du vor der Erbschuld bewahrt hast, und heile uns von aller Krankheit des Leibes und der Seele. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "U.L.Fr. in Lourdes",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
-          "Ant_Ev": "Du Morgenröte des Heils, Jungfrau Maria!^lAus dir ging hervor die Sonne der Gerechtigkeit,^lChristus, das aufstrahlende Licht aus der Höhe.",
+          "Ant_Ev": "Du Morgenröte des Heils, Jungfrau Maria! Aus dir ging hervor die Sonne der Gerechtigkeit, Christus, das aufstrahlende Licht aus der Höhe.",
           "Ant_Komm": "Du Morgenröte des Heils, Jungfrau Maria!^lAus dir ging hervor die Sonne der Gerechtigkeit,^lChristus, das aufstrahlende Licht aus der Höhe.",
           "oration": "Barmherziger Gott, in unserer Schwachheit suchen wir bei dir Hilfe und Schutz. Höre auf die Fürsprache der jungfräulichen Gottesmutter Maria, die du vor der Erbschuld bewahrt hast, und heile uns von aller Krankheit des Leibes und der Seele. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "U.L.Fr. in Lourdes",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
-          "Ant_Ev": "Gegrüßet seist du, Maria, voll der Gnade;^lder Herr ist mit dir.^lDu bist gebenedeit unter den Frauen,^lund gebenedeit ist die Frucht deines Leibes.",
+          "Ant_Ev": "Gegrüßet seist du, Maria, voll der Gnade; der Herr ist mit dir. Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes.",
           "Ant_Komm": "Gegrüßet seist du, Maria, voll der Gnade;^lder Herr ist mit dir.^lDu bist gebenedeit unter den Frauen,^lund gebenedeit ist die Frucht deines Leibes.",
           "oration": "Barmherziger Gott, in unserer Schwachheit suchen wir bei dir Hilfe und Schutz. Höre auf die Fürsprache der jungfräulichen Gottesmutter Maria, die du vor der Erbschuld bewahrt hast, und heile uns von aller Krankheit des Leibes und der Seele. Darum bitten wir durch Jesus Christus."
         }
@@ -649,8 +496,8 @@ export const adlibData = {
     },
     "12": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Gregor II.",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Hirten der Kirche",
           "comm_2": "Comm_2",
@@ -663,13 +510,13 @@ export const adlibData = {
           "oration": "Barmherziger Gott, wir danken dir, dass du deiner Kirche im heiligen Papst Gregor einen Hirten von apostolischer Weisheit und Festigkeit geschenkt und durch ihn unserm Volk den heiligen Bonifatius als Boten des Evangeliums gesandt hast. Lass uns auf seine Fürsprache in der Gemeinschaft der Kirche den Weg zu dir finden. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Gregor II.",
           "comm_1": "Hirten der Kirche",
           "comm_2": "Comm_2",
           "oration": "Barmherziger Gott, wir danken dir, dass du deiner Kirche im heiligen Papst Gregor einen Hirten von apostolischer Weisheit und Festigkeit geschenkt und durch ihn unserm Volk den heiligen Bonifatius als Boten des Evangeliums gesandt hast. Lass uns auf seine Fürsprache in der Gemeinschaft der Kirche den Weg zu dir finden. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Gregor II.",
           "comm_1": "Hirten der Kirche",
           "comm_2": "Comm_2",
           "oration": "Barmherziger Gott, wir danken dir, dass du deiner Kirche im heiligen Papst Gregor einen Hirten von apostolischer Weisheit und Festigkeit geschenkt und durch ihn unserm Volk den heiligen Bonifatius als Boten des Evangeliums gesandt hast. Lass uns auf seine Fürsprache in der Gemeinschaft der Kirche den Weg zu dir finden. Darum bitten wir durch Jesus Christus."
@@ -678,8 +525,8 @@ export const adlibData = {
     },
     "14": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Valentin",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Märt",
           "comm_2": "Hirten",
@@ -692,13 +539,14 @@ export const adlibData = {
           "oration": " Allmächtiger und barmherziger Gott, mit deiner Hilfe hat der heilige Bischof Valentinus die Qualen des Martyriums ausgehalten. Hilf uns, die wir seinen Sieg feiern, durch deinen mächtigen Schutz, damit wir in allen Angriffen des Feindes bestehen können. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Valentin",
+          "farbe": "r",
           "comm_1": "Märt",
           "comm_2": "Hirten",
           "oration": " Allmächtiger und barmherziger Gott, mit deiner Hilfe hat der heilige Bischof Valentinus die Qualen des Martyriums ausgehalten. Hilf uns, die wir seinen Sieg feiern, durch deinen mächtigen Schutz, damit wir in allen Angriffen des Feindes bestehen können. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Valentin",
           "comm_1": "Märt",
           "comm_2": "Hirten",
           "oration": " Allmächtiger und barmherziger Gott, mit deiner Hilfe hat der heilige Bischof Valentinus die Qualen des Martyriums ausgehalten. Hilf uns, die wir seinen Sieg feiern, durch deinen mächtigen Schutz, damit wir in allen Angriffen des Feindes bestehen können. Darum bitten wir durch Jesus Christus."
@@ -707,8 +555,8 @@ export const adlibData = {
     },
     "17": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hll. Sieben Gründer des Servitenordens",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -720,14 +568,14 @@ export const adlibData = {
           "oration": "Gütiger Gott, du hast den heiligen Gründern des Servitenordens eine kindliche Liebe zur Mutter Christi geschenkt und sie befähigt, dein Volk näher zu dir zu führen. Gib auch uns den Geist der Frömmigkeit und die Bereitschaft, zu dienen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hll. Sieben Gründer des Servitenordens",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Wie gut ist es und wie schön,^lwenn Brüder miteinander wohnen in Eintracht.",
           "oration": "Gütiger Gott, du hast den heiligen Gründern des Servitenordens eine kindliche Liebe zur Mutter Christi geschenkt und sie befähigt, dein Volk näher zu dir zu führen. Gib auch uns den Geist der Frömmigkeit und die Bereitschaft, zu dienen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hll. Sieben Gründer des Servitenordens",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Wo Brüder in Eintracht Gottes Herrlichkeit preisen,^lda spendet der Herr seinen Segen.",
@@ -737,8 +585,8 @@ export const adlibData = {
     },
     "21": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Petrus Damiani",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -751,14 +599,14 @@ export const adlibData = {
           "oration": "Allmächtiger Gott, lehre uns, nach der Weisung des heiligen Petrus Damiani Christus über alles zu lieben und für deine Kirche einzutreten, damit wir zur ewigen Freude gelangen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Petrus Damiani",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Die Weisen strahlen, wie der Himmel strahlt.^lSie haben viele zum rechten Tun geführt;^ldarum werden sie leuchten wie die Sterne,^lauf immer und ewig.",
           "oration": "Allmächtiger Gott, lehre uns, nach der Weisung des heiligen Petrus Damiani Christus über alles zu lieben und für deine Kirche einzutreten, damit wir zur ewigen Freude gelangen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Petrus Damiani",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "O Lehrer des Glaubens und Licht der Kirche,^ldu hast Gottes Weisung geliebt.^lHeiliger Petrus, bitte für uns bei Gottes Sohn.",
@@ -766,40 +614,10 @@ export const adlibData = {
         }
       }
     },
-    "23": {
-      "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
-        "Lesehore": {
-          "comm_1": "Comm",
-          "comm_2": "Comm_2",
-          "patr_werk": "Aus dem Brief der Kirche von Smyrna über das Martyrium des hl. Polykarp.",
-          "patr_text": "^hWie ein reiches Opfer wurde er angenommen^pAls der Scheiterhaufen hergerichtet war, legte Polykarp alle seine Kleider ab, löste den Gürtel und suchte selbst die Schuhe auszuziehen; er tat dies früher nicht, weil die Gläubigen immer darauf aus Waren, schnell seinen Leib zu berühren. Denn schon vor seinem Martyrium war er seines vorbildlichen Lebens wegen eine Zierde alles Guten (für die Gemeinde). Sogleich legte man alles, was zum Scheiterhaufen gehörte, um ihn herum. Als sie ihn aber noch annageln wollten, sagte er : „Lasst mich so; denn der mir die Kraft gibt, das Feuer auszuhalten, wird mir auch ohne die Sicherung durch eure Nägel verleihen, dass ich bei der Verbrennung ruhig stehen bleibe.“ Da nagelten sie ihn nicht an, sondern banden ihn nur fest.^pEr legte seine Hände auf den Rücken und wurde gebunden, wie der auserwählte Widder aus einer großen Herde bereitet wird für die Darbringung eines Ganzopfers, das Gott gefällt. Polykarp blickte auf zum Himmel und sprach: „Herr, Gott, Herrscher des Alls, Vater deines geliebten und gepriesenen Knechtes Jesus Christus, durch den wir Kenntnis von dir erhalten haben, Gott der Engel und Mächte, der ganzen Schöpfung und des ganzen Geschlechtes der Gerechten, die vor dir leben! Ich preise dich, dass du mich dieses Tages und dieser Stunde wert gehalten hast, dass ich unter der Schar der Märtyrer am Kelch deines Christus teilhaben darf zur Auferstehung des ewigen Lebens (Joh 5,29) von Seele und Leib in Unverweslichkeit durch den Heiligen Geist. Mit einem reichen, von dir angenommenen Opfer (vgl. Ps 20,4) möchte ich heute unter sie eingereiht werden, mit einem Opfer, wie du es mir im voraus bestimmt und verkündet hast und wie du es nun erfüllst, du wahrhaftiger Gott, der die Lüge nicht kennt. Dafür und für alles lobe ich dich. Ich preise und verherrliche dich mit dem ewigen Hohenpriester Jesus Christus im Himmel, deinem geliebten Sohn und Knecht. Durch ihn ist dir mit ihm und dem Heiligen Geist die Ehre jetzt und in Zukunft und in Ewigkeit. Amen.“^pAls er das Amen gerufen und das Gebet: beendet hatte, entzündeten die Feuerleute den Scheiterhaufen. Als die Flamm hoch emporloderte, sahen wir, denen es zu schauen vergönnt war, ein großes Wunder. Das Feuer war wie ein gewölbter Raum und umgab den Leib des Märtyrers ringsum wie das Segel eines Schiffes, das im Wind gebläht wird. Der Märtyrer stand mitten darin. Er sah nicht aus wie verbrennendes Fleisch, sondern wie Brot, das gebacken wird, oder wie Gold und Silber, das man im Feuer läutert.",
-          "patr_resp1": "Ich weiß, dass du bedrängt und arm bist; aber du bist dennoch reich.",
-          "patr_resp2": "Sei treu bis in den Tod; dann gebe ich dir den Kranz des Lebens.",
-          "patr_resp3": "Fürchte dich nicht vor dem Leiden, das dir bevorsteht.",
-          "oration": "Gott, du Herr der ganzen Schöpfung, du hast den heiligen Bischof Polykarp zum standhaften Bekenntnis des Glaubens gestärkt und in die Schar deiner Märtyrer aufgenommen. Gib auch uns deine Kraft, wenn wir am Kelch des Leidens Christi teilhaben, damit wir auferstehen zum ewigen Leben. Darum bitten wir durch Jesus Christus."
-        },
-        "Laudes": {
-          "genitiv": "Genitiv",
-          "comm_1": "Comm",
-          "comm_2": "Comm_2",
-          "Ant_Komm": "Sechsundachtzig Jahre habe ich Christus gedient^lund habe von ihm kein Unrecht erfahren.^lWie könnte ich meinen König schmähen,^lder mich erlöst hat!",
-          "oration": "Gott, du Herr der ganzen Schöpfung, du hast den heiligen Bischof Polykarp zum standhaften Bekenntnis des Glaubens gestärkt und in die Schar deiner Märtyrer aufgenommen. Gib auch uns deine Kraft, wenn wir am Kelch des Leidens Christi teilhaben, damit wir auferstehen zum ewigen Leben. Darum bitten wir durch Jesus Christus."
-        },
-        "Vesper": {
-          "genitiv": "Genitiv",
-          "comm_1": "Comm",
-          "comm_2": "Comm_2",
-          "Ant_Komm": "Ich preise dich, Herr, allmächtiger Gott.^lDu nahmst mich auf in die Schar deiner Märtyrer^lund gabst mir Anteil am Kelch deines Gesalbten.",
-          "oration": "Gott, du Herr der ganzen Schöpfung, du hast den heiligen Bischof Polykarp zum standhaften Bekenntnis des Glaubens gestärkt und in die Schar deiner Märtyrer aufgenommen. Gib auch uns deine Kraft, wenn wir am Kelch des Leidens Christi teilhaben, damit wir auferstehen zum ewigen Leben. Darum bitten wir durch Jesus Christus."
-        }
-      }
-    },
     "25": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Walburga",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -811,14 +629,14 @@ export const adlibData = {
           "oration": "Barmherziger Gott, du hast der heiligen Äbtissin Walburga einen starken Glauben und ein mütterliches Herz gegeben. Hilf uns auf ihre Fürsprache, an deinem Wort festzuhalten und in der Welt deine Güte sichtbar zu machen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Walburga",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Mein Anteil ist der Herr, darum harre ich auf ihn;^lgut ist der Herr zur Seele, die ihn sucht.",
           "oration": "Barmherziger Gott, du hast der heiligen Äbtissin Walburga einen starken Glauben und ein mütterliches Herz gegeben. Hilf uns auf ihre Fürsprache, an deinem Wort festzuhalten und in der Welt deine Güte sichtbar zu machen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Walburga",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Der Herr hat sie zu seiner Braut erwählt auf ewig,^lin Treue und Erbarmen.",
@@ -828,19 +646,19 @@ export const adlibData = {
     },
     "27": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Gregor von Narek",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Gregor von Narek",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Gregor von Narek",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         }
@@ -850,8 +668,8 @@ export const adlibData = {
   "3": {
     "4": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Kasimir",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -863,14 +681,14 @@ export const adlibData = {
           "oration": "Allmächtiger Gott, dir dienen heißt herrschen. Hilf uns auf die Fürbitte des heiligen Kasimir, deinen Weisungen zu gehorchen und in Heiligkeit und Gerechtigkeit vor dir zu leben. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Kasimir",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Wer die Wahrheit tut, der kommt zum Licht,^ldamit offenbar wird,^ldass seine Taten in Gott vollbracht sind.",
           "oration": "Allmächtiger Gott, dir dienen heißt herrschen. Hilf uns auf die Fürbitte des heiligen Kasimir, deinen Weisungen zu gehorchen und in Heiligkeit und Gerechtigkeit vor dir zu leben. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Kasimir",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Du guter und treue Knecht,^lnimm teil an der Freude deines Herrn.",
@@ -880,8 +698,8 @@ export const adlibData = {
     },
     "6": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Fridolin von Säckingen",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -894,14 +712,14 @@ export const adlibData = {
           "oration": "Herr, unser Gott, du hast den heiligen Fridolin als Glaubensboten in das Gebiet der Alemannen gesandt. Wir bitten dich: Erhalte das Werk, das er begonnen hat, und vollende es am Tag unseres Herrn Jesus Christus, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Fridolin von Säckingen",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Nicht ihr werdet reden,^lsondern der Geist eures Vaters redet durch euch.",
           "oration": "Herr, unser Gott, du hast den heiligen Fridolin als Glaubensboten in das Gebiet der Alemannen gesandt. Wir bitten dich: Erhalte das Werk, das er begonnen hat, und vollende es am Tag unseres Herrn Jesus Christus, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Fridolin von Säckingen",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Wo Brüder in Eintracht Gottes Herrlichkeit preisen,^lda spendet der Herr seinen Segen.",
@@ -909,40 +727,10 @@ export const adlibData = {
         }
       }
     },
-    "7": {
-      "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
-        "Lesehore": {
-          "comm_1": "Comm",
-          "comm_2": "Comm_2",
-          "patr_werk": "Aus den Akten der Märtyrer von Karthago.",
-          "patr_text": "^hBerufen und erwählt zur Verherrlichung des Herrn^pDer Tag des Sieges brach an, und die heiligen Märtyrer zogen vom Gefängnis zum Amphitheater, als ob es in den Himmel ginge: mit heiterem Angesicht, schön, und wenn sie erbebten, dann nicht vor Furcht, sondern vor Freude.^pZuerst wurde Perpetua hingeworfen und fiel auf die Seite. Sie erhob sich, und als Felizitas sie am Boden liegen sah, ging sie hin, reichte ihr die Hand und richtete sie auf. Da standen sie nun beide auf. Die Grausamkeit des Volkes war besiegt, und sie wurden zum Sanvivarischen Tor zurückgerufen. Dort wurde Perpetua von einem Mann namens Rusticus in Empfang genommen, der damals noch Katechumene war und zu ihr hielt. Es war, als erwache sie aus dem Schlaf. So sehr war sie im Geist und in der Ekstase gewesen. Sie begann um sich zu schauen und sagte zur Verwunderung aller: „Wann werden wir dieser Kuh – ich weiß nicht welcher – vorgeworfen?“ Als sie hörte, dass es schon geschehen war, glaubte sie es erst, als sie die Spuren ihrer Leiden an ihrem Leib und an ihrem Kleid erkannte. Dann rief sie ihren Bruder und jenen Katechumenen zu sich und sagte zu ihnen: „Steht fest im Glauben und liebt einander, ihr alle. An unseren Leiden nehmt keinen Anstoß!“ Das Volk verlangte nun, sie in der Mitte der Arena zu sehen, um die Augen zu Mordhelfern zu machen, wenn das Schwert in ihren Leib drang. Da erhoben sie sich selbst und sehleppten sich dahin, wo das Volk sie haben wollte. Vorher küssten sie einander, um das Martyrium durch das feierliche Zeichen des Friedens zu vollenden.^pDie übrigen empfingen unbewegt und schweigend den Schwertstreich; vor allem Saturus. Er, der in der Vision zuerst die Leiter hinaufgestiegen war, gab zuerst den Geist auf und erwartete Perpetua. Perpetua schrie auf, als sie zwischen die Rippen getroffen wurde, um auch Schmerz zu kosten. Sie führte aber die Rechte des unerfahrenen Gladiators, als er schwankte, selbst an ihre Kehle. Eine solche Frau hätte vielleicht anders nicht getötet werden können, wenn sie es nicht selbst gewollt hätte; denn der unreine Geist fürchtete sie.^pIhr starken und seligen Märtyrer, wahrhaft berufen und erwählt zur Herrlichkeit unseres Herrn Jesus Christus!",
-          "patr_resp1": "Christus Jesus sitzt zur Rechten Gottes und tritt für uns ein.",
-          "patr_resp2": "Wer kann uns scheiden von der Liebe Christi? Bedrängnis oder Not, Verfolgung oder das Schwert?",
-          "patr_resp3": "All das überwinden wir durch den, der uns geliebt hat.",
-          "oration": "Herr, unser Gott, die Liebe zu dir hat den heiligen Frauen Perpetua und Felizitas die Kraft gegeben, ihre Verfolger nicht zu fürchten und die Qualen des Martyriums zu bestehen. Schenke auch uns jene Liebe, die alle Furcht überwindet. Darum bitten wir durch Jesus Christus."
-        },
-        "Laudes": {
-          "genitiv": "Genitiv",
-          "comm_1": "Comm",
-          "comm_2": "Comm_2",
-          "Ant_Komm": "Selig, die Verfolgung leiden für die Gerechtigkeit; denn ihrer ist das Himmelreich.",
-          "oration": "Herr, unser Gott, die Liebe zu dir hat den heiligen Frauen Perpetua und Felizitas die Kraft gegeben, ihre Verfolger nicht zu fürchten und die Qualen des Martyriums zu bestehen. Schenke auch uns jene Liebe, die alle Furcht überwindet. Darum bitten wir durch Jesus Christus."
-        },
-        "Vesper": {
-          "genitiv": "Genitiv",
-          "comm_1": "Comm",
-          "comm_2": "Comm_2",
-          "Ant_Komm": "Im Himmel freuen sich die Gerechten,^ldie dem Herrn gefolgt sind.^lAus Liebe zu Christus vergossen sie ihr Blut.^lNun herrschen sie mit ihm auf ewig.",
-          "oration": "Herr, unser Gott, die Liebe zu dir hat den heiligen Frauen Perpetua und Felizitas die Kraft gegeben, ihre Verfolger nicht zu fürchten und die Qualen des Martyriums zu bestehen. Schenke auch uns jene Liebe, die alle Furcht überwindet. Darum bitten wir durch Jesus Christus."
-        }
-      }
-    },
     "8": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Johannes von Gott",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -955,14 +743,14 @@ export const adlibData = {
           "oration": "Barmherziger Gott, die Liebe zu dir hat den heiligen Johannes gedrängt, an den Leiden der Kranken Anteil zu nehmen und ihnen zu helfen. Dränge auch uns zu Werken der Barmherzigkeit und lass uns zu denen gehören, die dein Reich besitzen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Johannes von Gott",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Daran werden alle erkennen,^ldass ihr meine Jünger seid: wenn ihr einander liebt.",
           "oration": "Barmherziger Gott, die Liebe zu dir hat den heiligen Johannes gedrängt, an den Leiden der Kranken Anteil zu nehmen und ihnen zu helfen. Dränge auch uns zu Werken der Barmherzigkeit und lass uns zu denen gehören, die dein Reich besitzen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Johannes von Gott",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Amen, ich sage euch:^lWas ihr dem Geringsten meiner Brüder getan habt,^ldas habt ihr mir getan.^lKommt, ihr Gesegneten meines Vaters,^lnehmt das Reich in Besitz,^ldas seit Anfang der Welt für euch bestimmt ist.",
@@ -972,8 +760,8 @@ export const adlibData = {
     },
     "9": {
       "n1": {
-        "name": "Bruno",
-        "genitiv": "Genitiv",
+        "name": "Hl. Bruno von Querfurt",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -986,16 +774,14 @@ export const adlibData = {
           "oration": "Herr, unser Gott, dein heiliger Märtyrer und Bischof Bruno hat für die Ausbreitung des Evangeliums sein Leben eingesetzt. Erhalte uns treu im Glauben, damit wir nicht verlieren, was du uns durch deine Boten geschenkt hast. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Bruno",
-          "genitiv": "Genitiv",
+          "name": "Hl. Bruno von Querfurt",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Wer sein Leben liebt, wird es verlieren;^ldoch wer in dieser Welt sein Leben hasst,^lder wird es bewahren für das ewige Leben.",
           "oration": "Herr, unser Gott, dein heiliger Märtyrer und Bischof Bruno hat für die Ausbreitung des Evangeliums sein Leben eingesetzt. Erhalte uns treu im Glauben, damit wir nicht verlieren, was du uns durch deine Boten geschenkt hast. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Bruno",
-          "genitiv": "Genitiv",
+          "name": "Hl. Bruno von Querfurt",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Wenn das Weizenkorn^lnicht in die Erde fällt und stirbt, bleibt es allein;^lwenn es aber stirbt, bringt es reiche Frucht.",
@@ -1003,8 +789,8 @@ export const adlibData = {
         }
       },
       "n2": {
-        "name": "Franziska von Rom",
-        "genitiv": "Genitiv",
+        "name": "Hl. Franziska von Rom",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -1016,16 +802,14 @@ export const adlibData = {
           "oration": "Allmächtiger Gott, die heilige Franziska von Rom hat uns in der Ehe wie auch im Ordensstand ein Beispiel christlichen Lebens gegeben. Gib deinen Gläubigen die Gnade, in jedem Stand und Beruf dir treu zu dienen, stets auf dich zu schauen und deiner Führung zu folgen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Franziska von Rom",
-          "genitiv": "Genitiv",
+          "name": "Hl. Franziska von Rom",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Wer den Willen meines Vaters erfüllt,^lder ist für mich Bruder und Schwester und Mutter.",
           "oration": "Allmächtiger Gott, die heilige Franziska von Rom hat uns in der Ehe wie auch im Ordensstand ein Beispiel christlichen Lebens gegeben. Gib deinen Gläubigen die Gnade, in jedem Stand und Beruf dir treu zu dienen, stets auf dich zu schauen und deiner Führung zu folgen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Franziska von Rom",
-          "genitiv": "Genitiv",
+          "name": "Hl. Franziska von Rom",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Ihr habt alles verlassen und seid mir nachgefolgt:^lDas Hundertfache werdet ihr dafür erhalten^lund das ewige Leben gewinnen.",
@@ -1035,8 +819,8 @@ export const adlibData = {
     },
     "13": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Paulina",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -1049,14 +833,14 @@ export const adlibData = {
           "oration": "Herr und Gott, schenke uns den Geist der Liebe und des Glaubens, damit wir das große Beispiel der heiligen Paulina begreifen, dir mit aufrichtigem Herzen dienen und durch Glauben und gute Werke dir gefallen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Paulina",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Mein Anteil ist der Herr, darum harre ich auf ihn;^lgut ist der Herr zur Seele, die ihn sucht.",
           "oration": "Herr und Gott, schenke uns den Geist der Liebe und des Glaubens, damit wir das große Beispiel der heiligen Paulina begreifen, dir mit aufrichtigem Herzen dienen und durch Glauben und gute Werke dir gefallen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Paulina",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Ihr habt alles verlassen und seid mir nachgefolgt:^lDas Hundertfache werdet ihr dafür erhalten^lund das ewige Leben gewinnen.",
@@ -1066,8 +850,8 @@ export const adlibData = {
     },
     "14": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Mathilde",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -1080,14 +864,14 @@ export const adlibData = {
           "oration": "Gott, du liebst die Menschen, die Frieden stiften und barmherzig sind. Mit deiner Hilfe hat die heilige Königin Mathilde Streitende versöhnt und den Notleidenden geholfen. Schenke auch uns Güte und Geduld und mache uns zum Werkzeug deines Friedens. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Mathilde",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Selig, die Frieden stiften,^lselig, die reinen Herzens sind;^ldenn sie werden Gott schauen.",
           "oration": "Gott, du liebst die Menschen, die Frieden stiften und barmherzig sind. Mit deiner Hilfe hat die heilige Königin Mathilde Streitende versöhnt und den Notleidenden geholfen. Schenke auch uns Güte und Geduld und mache uns zum Werkzeug deines Friedens. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Mathilde",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Preiset sie für den Ertrag ihrer Hände.^lLobt ihre Werke an den Toren der Stadt.",
@@ -1097,8 +881,8 @@ export const adlibData = {
     },
     "15": {
       "n1": {
-        "name": "Klemens Maria Hofbauer",
-        "genitiv": "Genitiv",
+        "name": "Hl. Klemens Maria Hofbauer / Hl. Zacharias",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -1111,16 +895,14 @@ export const adlibData = {
           "oration": "Gütiger Gott, in der Sorge für dein Volk hast du den heiligen Klemens Maria Hofbauer mit besonderem Eifer für die Seelen erfüllt und durch ihn den Reichtum deiner Gnade verkündet. Hilf uns auf seine Fürsprache, den Glauben zu bewahren, den er gelehrt, und den Weg zu gehen, den er uns durch sein Leben gewiesen hat. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Klemens Maria Hofbauer",
-          "genitiv": "Genitiv",
+          "name": "Hl. Klemens Maria Hofbauer / Hl. Zacharias",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Allen bin ich alles geworden, um alle zu retten.",
           "oration": "Gütiger Gott, in der Sorge für dein Volk hast du den heiligen Klemens Maria Hofbauer mit besonderem Eifer für die Seelen erfüllt und durch ihn den Reichtum deiner Gnade verkündet. Hilf uns auf seine Fürsprache, den Glauben zu bewahren, den er gelehrt, und den Weg zu gehen, den er uns durch sein Leben gewiesen hat. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Klemens Maria Hofbauer",
-          "genitiv": "Genitiv",
+          "name": "Hl. Klemens Maria Hofbauer / Hl. Zacharias",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Dies ist der treue und kluge Verwalter:^lDer Herr hat ihn eingesetzt, damit er^lseinen Dienern Nahrung gibt zur rechten Zeit.",
@@ -1128,8 +910,8 @@ export const adlibData = {
         }
       },
       "n2": {
-        "name": "Zacharias",
-        "genitiv": "Genitiv",
+        "name": "Hl. Zacharias",
+        "genitiv": "Hl. Zacharias",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -1142,16 +924,16 @@ export const adlibData = {
           "oration": "Gütiger Gott, wir ehren heute die Verdienste des heiligen Papstes Zacharias. Du hast ihn berufen, im Geist der Milde und Klugheit für den Frieden zu wirken. Gib, dass wir auf Erden seinem Beispiel folgen und im Himmel mit ihm verherrlicht werden. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Zacharias",
-          "genitiv": "Genitiv",
+          "name": "Hl. Zacharias",
+          "genitiv": "Hl. Zacharias",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Nicht ihr werdet reden,^lsondern der Geist eures Vaters redet durch euch.",
           "oration": "Gütiger Gott, wir ehren heute die Verdienste des heiligen Papstes Zacharias. Du hast ihn berufen, im Geist der Milde und Klugheit für den Frieden zu wirken. Gib, dass wir auf Erden seinem Beispiel folgen und im Himmel mit ihm verherrlicht werden. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Zacharias",
-          "genitiv": "Genitiv",
+          "name": "Hl. Zacharias",
+          "genitiv": "Hl. Zacharias",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Dank sei dir, Christus, guter Hirte!^lDu hast mich zur Herrlichkeit geführt;^lgib auch der Herde, die du mir anvertraut hast,^lAnteil an deiner Gnade auf ewig.",
@@ -1161,8 +943,8 @@ export const adlibData = {
     },
     "17": {
       "n1": {
-        "name": "Gertrud von Nivelles",
-        "genitiv": "Genitiv",
+        "name": "Hl. Gertrud von Nivelles",
+        "genitiv": "Hl. Hl. Gertrud von Nivelles",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -1175,16 +957,16 @@ export const adlibData = {
           "oration": "Herr, unser Gott, du hast im Herzen der heiligen Gertrud das Verlangen geweckt, das Wort der Schrift zu verstehen und deine Weisung zu erkennen. Lehre auch uns, aus der Kraft deines Wortes zu leben und Werke der Liebe zu tun. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Gertrud von Nivelles",
-          "genitiv": "Genitiv",
+          "name": "Hl. Gertrud von Nivelles",
+          "genitiv": "Hl. Hl. Gertrud von Nivelles",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Mein Anteil ist der Herr, darum harre ich auf ihn;^lgut ist der Herr zur Seele, die ihn sucht.",
           "oration": "Herr, unser Gott, du hast im Herzen der heiligen Gertrud das Verlangen geweckt, das Wort der Schrift zu verstehen und deine Weisung zu erkennen. Lehre auch uns, aus der Kraft deines Wortes zu leben und Werke der Liebe zu tun. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Gertrud von Nivelles",
-          "genitiv": "Genitiv",
+          "name": "Hl. Gertrud von Nivelles",
+          "genitiv": "Hl. Hl. Gertrud von Nivelles",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "In der Freude über Gott, meinen Retter,^lweitet sich mein Herz und jubelt auf im Herrn.",
@@ -1192,8 +974,8 @@ export const adlibData = {
         }
       },
       "n2": {
-        "name": "Patrick",
-        "genitiv": "Genitiv",
+        "name": "Hl. Patrick",
+        "genitiv": "Hl. Hl. Patrick",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -1206,16 +988,16 @@ export const adlibData = {
           "oration": "Ewiger Gott, du hast den heiligen Bischof Patrick gesandt, den Bewohnern Irlands deine Allmacht und Größe zu verkünden. Höre auf seine Fürsprache und hilf allen, die sich Christen nennen, deine großen Werke zu bezeugen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Patrick",
-          "genitiv": "Genitiv",
+          "name": "Hl. Patrick",
+          "genitiv": "Hl. Hl. Patrick",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Geht hinaus in alle Welt und lehrt alle Völker^lund tauft sie im Namen des Vaters und des Sohnes^lund des Heiligen Geistes.",
           "oration": "Ewiger Gott, du hast den heiligen Bischof Patrick gesandt, den Bewohnern Irlands deine Allmacht und Größe zu verkünden. Höre auf seine Fürsprache und hilf allen, die sich Christen nennen, deine großen Werke zu bezeugen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Patrick",
-          "genitiv": "Genitiv",
+          "name": "Hl. Patrick",
+          "genitiv": "Hl. Hl. Patrick",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Viele werden kommen vom Osten und vom Westen^lund mit Abraham, Isaak und Jakob zu Tische sitzen^lim Himmelreich.",
@@ -1225,8 +1007,8 @@ export const adlibData = {
     },
     "18": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Cyrill von Jerusalem",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -1239,14 +1021,14 @@ export const adlibData = {
           "oration": "Gott, du Quelle der Wahrheit, durch den heiligen Bischof Cyrill von Jerusalem hast du deine Kirche gelehrt, das Geheimnis der Erlösung tiefer zu verstehen. Höre auf seine Fürsprache und hilf uns, deinen Sohn Jesus Christus zu erkennen und in ihm die Fülle des Lebens zu finden, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Cyrill von Jerusalem",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Die Weisen strahlen, wie der Himmel strahlt.^lSie haben viele zum rechten Tun geführt;^ldarum werden sie leuchten wie die Sterne,^lauf immer und ewig.",
           "oration": "Gott, du Quelle der Wahrheit, durch den heiligen Bischof Cyrill von Jerusalem hast du deine Kirche gelehrt, das Geheimnis der Erlösung tiefer zu verstehen. Höre auf seine Fürsprache und hilf uns, deinen Sohn Jesus Christus zu erkennen und in ihm die Fülle des Lebens zu finden, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Cyrill von Jerusalem",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Quelle der Wahrheit, durch den heiligen Bischof Cyrill von Jerusalem hast du deine Kirche gelehrt, das Geheimnis der Erlösung tiefer zu verstehen. Höre auf seine Fürsprache und hilf uns, deinen Sohn Jesus Christus zu erkennen und in ihm die Fülle des Lebens zu finden, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
@@ -1255,8 +1037,8 @@ export const adlibData = {
     },
     "23": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Turibio von Mongrovejo",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -1269,14 +1051,14 @@ export const adlibData = {
           "oration": "Barmherziger Gott, durch die apostolische Arbeit des heiligen Bischofs Turibio und seinen Eifer für die wahre Lehre hast du in Lateinamerika die Kirche im Glauben gefestigt. Gib auch den Christen unserer Zeit neue Glaubenskraft und den Mut zu einem heiligen Leben. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Turibio von Mongrovejo",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Nicht ihr werdet reden,^lsondern der Geist eures Vaters redet durch euch.",
           "oration": "Barmherziger Gott, durch die apostolische Arbeit des heiligen Bischofs Turibio und seinen Eifer für die wahre Lehre hast du in Lateinamerika die Kirche im Glauben gefestigt. Gib auch den Christen unserer Zeit neue Glaubenskraft und den Mut zu einem heiligen Leben. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Turibio von Mongrovejo",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Dies ist der treue und kluge Verwalter:^lDer Herr hat ihn eingesetzt, damit er^lseinen Dienern Nahrung gibt zur rechten Zeit.",
@@ -1286,19 +1068,19 @@ export const adlibData = {
     },
     "24": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Oscar Arnulfo Romero",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Oscar Arnulfo Romero",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Oscar Arnulfo Romero",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         }
@@ -1306,8 +1088,8 @@ export const adlibData = {
     },
     "26": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Liudger",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -1320,14 +1102,14 @@ export const adlibData = {
           "oration": "Allmächtiger Gott, du hast den heiligen Bischof Liudger gesandt, die Friesen und die Sachsen zum christlichen Glauben zu führen. Gib auch uns unermüdlichen Eifer und jene Zuversicht, mit der er sich in den Dienst der Kirche gestellt hat. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Liudger",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Nicht ihr werdet reden,^lsondern der Geist eures Vaters redet durch euch.",
           "oration": "Allmächtiger Gott, du hast den heiligen Bischof Liudger gesandt, die Friesen und die Sachsen zum christlichen Glauben zu führen. Gib auch uns unermüdlichen Eifer und jene Zuversicht, mit der er sich in den Dienst der Kirche gestellt hat. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Liudger",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Dies ist der treue und kluge Verwalter:^lDer Herr hat ihn eingesetzt, damit er^lseinen Dienern Nahrung gibt zur rechten Zeit.",
@@ -1339,8 +1121,8 @@ export const adlibData = {
   "4": {
     "2": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Franz von Paola",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -1353,14 +1135,14 @@ export const adlibData = {
           "oration": "Gott, du erhöhst die Niedrigen; du hast das verborgene Leben des Einsiedlers Franz von Paola belohnt und ihn in die Schar deiner Heiligen aufgenommen. Lass uns durch seine Verdienste und in seiner Nachfolge die Gaben erlangen, welche du den Demütigen versprochen hast. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Franz von Paola",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Siehe, ich stehe vor der Tür und klopfe an.^lWer meine Stimme hört und mir öffnet,^lzu dem trete ich ein und halte Mahl mit ihm,^lund er mit mir.",
           "oration": "Gott, du erhöhst die Niedrigen; du hast das verborgene Leben des Einsiedlers Franz von Paola belohnt und ihn in die Schar deiner Heiligen aufgenommen. Lass uns durch seine Verdienste und in seiner Nachfolge die Gaben erlangen, welche du den Demütigen versprochen hast. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Franz von Paola",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Böte einer für die Liebe^lden ganzen Reichtum seines Hauses,^lnur verachten würde man ihn.",
@@ -1370,8 +1152,8 @@ export const adlibData = {
     },
     "4": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Isidor von Sevilla",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -1384,14 +1166,14 @@ export const adlibData = {
           "oration": "Gott, du Quelle der Weisheit, du hast deiner Kirche den heiligen Isidor als geistlichen Lehrer gegeben. Höre auf seine Fürbitte. Schenke deiner Kirche auch in unseren Tagen Treue zur überlieferten Wahrheit und führe sie zur Einheit in deiner Liebe. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Isidor von Sevilla",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Die Weisen strahlen, wie der Himmel strahlt.^lSie haben viele zum rechten Tun geführt;^ldarum werden sie leuchten wie die Sterne,^lauf immer und ewig.",
           "oration": "Gott, du Quelle der Weisheit, du hast deiner Kirche den heiligen Isidor als geistlichen Lehrer gegeben. Höre auf seine Fürbitte. Schenke deiner Kirche auch in unseren Tagen Treue zur überlieferten Wahrheit und führe sie zur Einheit in deiner Liebe. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Isidor von Sevilla",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "O Lehrer des Glaubens und Licht der Kirche,^ldu hast Gottes Weisung geliebt.^lHeiliger Isidor, bitte für uns bei Gottes Sohn.",
@@ -1401,8 +1183,8 @@ export const adlibData = {
     },
     "5": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Vinzenz Ferrer",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -1415,14 +1197,14 @@ export const adlibData = {
           "oration": "Herr, unser Gott, du hast deiner Kirche im heiligen Vinzenz Ferrer einen machtvollen Prediger geschenkt, der Jesus Christus als den kommenden Richter verkündet hat. Gib, dass wir deinem Sohn freudig entgegentreten und ihn als unseren König schauen, wenn er in Herrlichkeit wiederkommt, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Vinzenz Ferrer",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Nicht ihr werdet reden,^lsondern der Geist eures Vaters redet durch euch.",
           "oration": "Herr, unser Gott, du hast deiner Kirche im heiligen Vinzenz Ferrer einen machtvollen Prediger geschenkt, der Jesus Christus als den kommenden Richter verkündet hat. Gib, dass wir deinem Sohn freudig entgegentreten und ihn als unseren König schauen, wenn er in Herrlichkeit wiederkommt, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Vinzenz Ferrer",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Allen bin ich alles geworden, um alle zu retten.",
@@ -1430,72 +1212,10 @@ export const adlibData = {
         }
       }
     },
-    "7": {
-      "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
-        "Lesehore": {
-          "comm_1": "Comm",
-          "comm_2": "Comm_2",
-          "patr_autor": "Johannes Baptist de la Salle († 1719)",
-          "patr_werk": "Aus einer Meditation.",
-          "patr_text": "^hDie Liebe Gottes drängt uns^pErwägt im Herzen, liebe Brüder, was der Apostel Paulus sagt: Gott habe in seiner Kirche Apostel, Propheten und Lehrer bestellt (vgl. 1 Kor 12,28), und seid überzeugt dass Gott auch euch in euer Amt eingesetzt hat. Das bezeugt euch derselbe Heilige, wenn er erklärt, es gebe verschiedenen Dienste und verschiedene Kräfte und derselbe Heilige Geist zeige sich in jeder dieser Gaben zum gemeinsamen Nutzen, das heißt zum Nutzen der Kirche (vgl. 1 Kor 12,5.11).^pIhr sollt also nicht an der großen Gnade zweifeln, die ihr erhalten habt: die Knaben zu lehren, ihnen die Frohe Botschaft zu verkünden und sie im Geist der Religion zu erziehen. Es ist ein großes Geschenk Gottes, dass er euch zu einer so heiligen Aufgabe berufen hat.^pDie Schüler, die eurer Sorge anvertraut sind, sollen an eurer ganzen Lehrtätigkeit sehen, dass ihr Diener Gottes seid, da ihr die Aufgabe mit ungeheuchelter Liebe und echter Sorgfalt erfüllt. Auch darum sollt ihr euch eurem Amt verpflichtet fühlen, weil ihr nicht nur Diener Gottes, sondern auch Diener Jesu Christi und der Kirche seid.^pSo sagt der heilige Paulus mahnend, alle seien als Diener Christi zu betrachten, die das Evangelium verkündigen, die den Brief schreiben, den Christus diktiert, „nicht mit Tinte, sondern mit dem Geist des lebendigen Gottes, nicht auf Tafeln aus Stein, sondern – wie auf Tafeln – in Herzen von Fleisch“ (2 Kor 3,3), die Herzen der Knaben. Deswegen dränge euch die Liebe Gottes“(vgl. 2 Kor 5,14), weil Jesus Christus „für alle gestorben ist, damit die Lebenden nicht mehr für sich leben, sondern für den, der für sie starb und auferweckt wurde“ (2 Kor 5,15). Möge daher eure Sorgfalt und euer Eifer die Schüler bewegen. Mögen sie fühlen, dass Gott sie durch euch ermahnt, weil ihr Gesandte Christi seid.^pFerner müsst ihr der Kirche zeigen, wie sehr ihr sie liebt, und ihr sollt ihr Beweise eurer Gewissenhaftigkeit geben. Denn ihr arbeitet durch die Kirche, den mystischen Leib Christi. Durch eure Arbeitsfreudigkeit zeigt, dass ihr die Menschen, die Gott euch anvertraut hat, liebt, wie Christus die Kirche geliebt hat.",
-          "patr_resp1": "Sie brachten Kinder zu Jesus. Die Jünger aber wiesen die Leute ab. Als Jesus das sah, sprach er zu ihnen:",
-          "patr_resp2": "Lasst die Kinder zu mir kommen; denn ihnen gehört das Gottesreich.",
-          "patr_resp3": "Wer ein solches Kind in meinem Namen aufnimmt, nimmt mich auf.",
-          "oration": "Gott, du hast den heiligen Johannes Baptist de la Salle berufen, jungen Menschen den Weg des Heils zu zeigen. Erwecke in deiner Kirche verantwortungsbewusste Erzieher voll schöpferischen Geistes, die sich mit aller Kraft dafür einsetzen, gute Menschen und wahre Christen heranzubilden. Darum bitten wir durch Jesus Christus."
-        },
-        "Laudes": {
-          "genitiv": "Genitiv",
-          "comm_1": "Comm",
-          "comm_2": "Comm_2",
-          "Ant_Komm": "Wer barmherzig ist,^lder lehrt und erzieht wie ein guter Hirt.",
-          "oration": "Gott, du hast den heiligen Johannes Baptist de la Salle berufen, jungen Menschen den Weg des Heils zu zeigen. Erwecke in deiner Kirche verantwortungsbewusste Erzieher voll schöpferischen Geistes, die sich mit aller Kraft dafür einsetzen, gute Menschen und wahre Christen heranzubilden. Darum bitten wir durch Jesus Christus."
-        },
-        "Vesper": {
-          "genitiv": "Genitiv",
-          "comm_1": "Comm",
-          "comm_2": "Comm_2",
-          "Ant_Komm": "Lasst die Kinder zu mir kommen;^ldenn Menschen wie ihnen gehört das Himmelreich.",
-          "oration": "Gott, du hast den heiligen Johannes Baptist de la Salle berufen, jungen Menschen den Weg des Heils zu zeigen. Erwecke in deiner Kirche verantwortungsbewusste Erzieher voll schöpferischen Geistes, die sich mit aller Kraft dafür einsetzen, gute Menschen und wahre Christen heranzubilden. Darum bitten wir durch Jesus Christus."
-        }
-      }
-    },
-    "11": {
-      "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
-        "Lesehore": {
-          "comm_1": "Comm",
-          "comm_2": "Comm_2",
-          "patr_autor": "Cyprian von Karthago († 258)",
-          "patr_werk": "Aus einem Brief.",
-          "patr_text": "^hDas Kämpfen in der Schlacht des Glaubens^pWenn wir in der Schlacht stehen und für den Glauben kämpfen, schaut Gott auf uns herab. Zuschauer sind die Engel, und auch Christus blickt auf uns. Welch erhabene Herrlichkeit, welche Glückseligkeit, in der Gegenwart Gottes zu kämpfen und von Christus, dem Richter, den Siegeskranz zu empfangen! Wir wollen uns wappnen mit aller Kraft und uns zum Kampf rüsten mit lauterem Geist, zuversichtlichem Glauben und liebender Tugend. Das Heer Gottes marschiere voran zu der angekündigten Schlacht!^pDer Apostel lehrt uns die Vorbereitung und die Bewaffnung: „Gürtet euch mit Wahrheit, zieht als Panzer die Gerechtigkeit an und als Schuhe die Bereitschaft, für das Evangelium vom Frieden zu kämpfen! Vor allem greift zum Schild des Glaubens! Mit ihm könnt ihr alle feurigen Geschosse des Bösen auslöschen. Nehmt den Helm des Heils und das Schwert des Geistes, das ist das Wort Gottes (Eph 6,14–17) Diese Waffen wollen wir ergreifen, mit diesem Schutz des Geistes und des Himmels uns wappnen, damit wir am bösen Tag den Drohungen des Teufels im Kampf standhalten können.^pWir wollen den Panzer der Gerechtigkeit anlegen, damit unsere Brust gegen die Pfeile des Feindes gefestigt und gesichert ist. Beschuht und bewehrt seien unsere Füße mit der Lehre des Evangeliums. Wenn wir uns darum anschicken, die Schlange zu zertreten, wird sie uns nicht beißen und zum Straucheln bringen können. Liebe Brüder, das hafte fest in eurem Herzen! Wenn der Soldat Christi dies bedenkt und erwägt, wenn der Tag der Verfolgung über ihn kommt, dann wird er, in den Geboten und Mahnungen des Herrn erzogen, sich nicht vor dem Kampf fürchten, sondern für den Kranz bereit sein.",
-          "patr_resp1": "Er stritt bis zum Tod für des Gesetz seines Gottes und fürchtete sich nicht vor den Worten der Gottlosen;",
-          "patr_resp2": "denn er war auf einen festen Felsen gegründet.",
-          "patr_resp3": "Er hat das Leben der Welt geringgeachtet und ist zum Reich des Himmels gelangt.",
-          "oration": "Gott und Herr, der heilige Bischof Stanislaus hat sich unerschrocken für deine Ehre eingesetzt und ist unter dem Schwert der Verfolger gefallen. Gib auch uns die Kraft, bis zu unserem Tode im Glauben standhaft zu bleiben. Darum bitten wir durch Jesus Christus."
-        },
-        "Laudes": {
-          "genitiv": "Genitiv",
-          "comm_1": "Comm",
-          "comm_2": "Comm_2",
-          "Ant_Komm": "Wer sein Leben liebt, wird es verlieren;^ldoch wer in dieser Welt sein Leben hasst,^lder wird es bewahren für das ewige Leben.",
-          "oration": "Gott und Herr, der heilige Bischof Stanislaus hat sich unerschrocken für deine Ehre eingesetzt und ist unter dem Schwert der Verfolger gefallen. Gib auch uns die Kraft, bis zu unserem Tode im Glauben standhaft zu bleiben. Darum bitten wir durch Jesus Christus."
-        },
-        "Vesper": {
-          "genitiv": "Genitiv",
-          "comm_1": "Comm",
-          "comm_2": "Comm_2",
-          "Ant_Komm": "Im himmlischen Reich ist die Wohnstatt der Heiligen.^lDort finden sie Ruhe auf ewig.",
-          "oration": "Gott und Herr, der heilige Bischof Stanislaus hat sich unerschrocken für deine Ehre eingesetzt und ist unter dem Schwert der Verfolger gefallen. Gib auch uns die Kraft, bis zu unserem Tode im Glauben standhaft zu bleiben. Darum bitten wir durch Jesus Christus."
-        }
-      }
-    },
     "13": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Martin I.",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -1508,14 +1228,14 @@ export const adlibData = {
           "oration": "Allmächtiger Gott, in deiner Kraft hat der heilige Papst Martin den Drohungen ungerechter Gewalt widerstanden und Misshandlungen standhaft erduldet. Hilf auch uns, alle Schwierigkeiten mit ungebrochenem Mut zu überwinden. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Martin I.",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Wer sein Leben liebt, wird es verlieren;^ldoch wer in dieser Welt sein Leben hasst,^lder wird es bewahren für das ewige Leben.",
           "oration": "Allmächtiger Gott, in deiner Kraft hat der heilige Papst Martin den Drohungen ungerechter Gewalt widerstanden und Misshandlungen standhaft erduldet. Hilf auch uns, alle Schwierigkeiten mit ungebrochenem Mut zu überwinden. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Martin I.",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Im himmlischen Reich ist die Wohnstatt der Heiligen.^lDort finden sie Ruhe auf ewig.",
@@ -1525,8 +1245,8 @@ export const adlibData = {
     },
     "19": {
       "n1": {
-        "name": "Leo IX.",
-        "genitiv": "Genitiv",
+        "name": "Hl. Leo IX.",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -1539,36 +1259,32 @@ export const adlibData = {
           "oration": "Ewiger und treuer Gott, du hast deinem Volk im heiligen Papst Leo einen Hirten gegeben, der von tiefem Glauben erfüllt war und sein Leben ganz im Dienst für die Kirche einsetzte. Auf seine Fürsprache gib deinem Volk die Gnade, sich zu erneuern. Hilf uns, Spaltung und Trennung zu überwinden, damit alle, die sich Christen nennen, im Glauben und in der Liebe eins werden. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Leo IX.",
-          "genitiv": "Genitiv",
+          "name": "Hl. Leo IX.",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Ewiger und treuer Gott, du hast deinem Volk im heiligen Papst Leo einen Hirten gegeben, der von tiefem Glauben erfüllt war und sein Leben ganz im Dienst für die Kirche einsetzte. Auf seine Fürsprache gib deinem Volk die Gnade, sich zu erneuern. Hilf uns, Spaltung und Trennung zu überwinden, damit alle, die sich Christen nennen, im Glauben und in der Liebe eins werden. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Leo IX.",
-          "genitiv": "Genitiv",
+          "name": "Hl. Leo IX.",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Ewiger und treuer Gott, du hast deinem Volk im heiligen Papst Leo einen Hirten gegeben, der von tiefem Glauben erfüllt war und sein Leben ganz im Dienst für die Kirche einsetzte. Auf seine Fürsprache gib deinem Volk die Gnade, sich zu erneuern. Hilf uns, Spaltung und Trennung zu überwinden, damit alle, die sich Christen nennen, im Glauben und in der Liebe eins werden. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Marcel Callo",
-        "genitiv": "Genitiv",
+        "name": "Sel. Marcel Callo",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Laudes": {
-          "name": "Marcel Callo",
-          "genitiv": "Genitiv",
+          "name": "Sel. Marcel Callo",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Vesper": {
-          "name": "Marcel Callo",
-          "genitiv": "Genitiv",
+          "name": "Sel. Marcel Callo",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         }
@@ -1576,8 +1292,8 @@ export const adlibData = {
     },
     "21": {
       "n1": {
-        "name": "Konrad von Parzham",
-        "genitiv": "Genitiv",
+        "name": "Hl. Konrad von Parzham",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -1590,23 +1306,21 @@ export const adlibData = {
           "oration": "Gott, du hast den heiligen Bruder Konrad zum Dienst an den Wallfahrern und Notleidenden berufen. Mache auch uns bereit, in Geduld und Güte denen zu begegnen, die auf unsere Hilfe warten. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Konrad von Parzham",
-          "genitiv": "Genitiv",
+          "name": "Hl. Konrad von Parzham",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du hast den heiligen Bruder Konrad zum Dienst an den Wallfahrern und Notleidenden berufen. Mache auch uns bereit, in Geduld und Güte denen zu begegnen, die auf unsere Hilfe warten. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Konrad von Parzham",
-          "genitiv": "Genitiv",
+          "name": "Hl. Konrad von Parzham",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du hast den heiligen Bruder Konrad zum Dienst an den Wallfahrern und Notleidenden berufen. Mache auch uns bereit, in Geduld und Güte denen zu begegnen, die auf unsere Hilfe warten. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Anselm",
-        "genitiv": "Genitiv",
+        "name": "Hl. Anselm",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -1619,15 +1333,13 @@ export const adlibData = {
           "oration": "Gott, du bist unerforschlich in deinem Wesen, und doch offenbarst du dich den Menschen. Du hast den heiligen Anselm gedrängt, die Tiefe deiner Weisheit zu erforschen und zu verkünden. Gib, dass der Glaube unserem Verstand zu Hilfe komme, damit unser Herz liebgewinnt, was du uns zu glauben befiehlst. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Anselm",
-          "genitiv": "Genitiv",
+          "name": "Hl. Anselm",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du bist unerforschlich in deinem Wesen, und doch offenbarst du dich den Menschen. Du hast den heiligen Anselm gedrängt, die Tiefe deiner Weisheit zu erforschen und zu verkünden. Gib, dass der Glaube unserem Verstand zu Hilfe komme, damit unser Herz liebgewinnt, was du uns zu glauben befiehlst. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Anselm",
-          "genitiv": "Genitiv",
+          "name": "Hl. Anselm",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du bist unerforschlich in deinem Wesen, und doch offenbarst du dich den Menschen. Du hast den heiligen Anselm gedrängt, die Tiefe deiner Weisheit zu erforschen und zu verkünden. Gib, dass der Glaube unserem Verstand zu Hilfe komme, damit unser Herz liebgewinnt, was du uns zu glauben befiehlst. Darum bitten wir durch Jesus Christus."
@@ -1636,8 +1348,8 @@ export const adlibData = {
     },
     "23": {
       "n1": {
-        "name": "Adalbert",
-        "genitiv": "Genitiv",
+        "name": "Hl. Adalbert",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -1650,23 +1362,21 @@ export const adlibData = {
           "oration": "Gott, in deinem Auftrag hat der heilige Bischof Adalbert den Samen des Evangeliums ausgesät und ihn mit seinem Blut getränkt. Gib allen, die du zum Glauben berufen hast, die Kraft unbeirrbarer Treue. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Adalbert",
-          "genitiv": "Genitiv",
+          "name": "Hl. Adalbert",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, in deinem Auftrag hat der heilige Bischof Adalbert den Samen des Evangeliums ausgesät und ihn mit seinem Blut getränkt. Gib allen, die du zum Glauben berufen hast, die Kraft unbeirrbarer Treue. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Adalbert",
-          "genitiv": "Genitiv",
+          "name": "Hl. Adalbert",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, in deinem Auftrag hat der heilige Bischof Adalbert den Samen des Evangeliums ausgesät und ihn mit seinem Blut getränkt. Gib allen, die du zum Glauben berufen hast, die Kraft unbeirrbarer Treue. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Georg",
-        "genitiv": "Genitiv",
+        "name": "Hl. Georg",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -1679,15 +1389,13 @@ export const adlibData = {
           "oration": "Starker Gott, am Gedenktag des heiligen Georg preisen wir deine Macht. Auf seine Fürsprache hin stehe uns in jeder Not bei. Hilf uns, deinem Sohn im Leiden nachzufolgen und in der Kraft des Kreuzes das Böse zu besiegen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Georg",
-          "genitiv": "Genitiv",
+          "name": "Hl. Georg",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Starker Gott, am Gedenktag des heiligen Georg preisen wir deine Macht. Auf seine Fürsprache hin stehe uns in jeder Not bei. Hilf uns, deinem Sohn im Leiden nachzufolgen und in der Kraft des Kreuzes das Böse zu besiegen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Georg",
-          "genitiv": "Genitiv",
+          "name": "Hl. Georg",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Starker Gott, am Gedenktag des heiligen Georg preisen wir deine Macht. Auf seine Fürsprache hin stehe uns in jeder Not bei. Hilf uns, deinem Sohn im Leiden nachzufolgen und in der Kraft des Kreuzes das Böse zu besiegen. Darum bitten wir durch Jesus Christus."
@@ -1696,8 +1404,8 @@ export const adlibData = {
     },
     "24": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Fidelis von Sigmaringen",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -1710,13 +1418,13 @@ export const adlibData = {
           "oration": "Treuer Gott, aus Liebe zu dir hat der heilige Fidelis für den Glauben sein Leben hingegeben. Im Vertrauen auf seine Fürsprache bitten wir dich: Gib, dass auch wir in der Liebe fest verwurzelt und auf sie gegründet seien, damit wir ohne Menschenfurcht für die Wahrheit einstehen und die Kraft der Auferstehung deines Sohnes erfahren, unseres Herrn Jesus Christus, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Fidelis von Sigmaringen",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Treuer Gott, aus Liebe zu dir hat der heilige Fidelis für den Glauben sein Leben hingegeben. Im Vertrauen auf seine Fürsprache bitten wir dich: Gib, dass auch wir in der Liebe fest verwurzelt und auf sie gegründet seien, damit wir ohne Menschenfurcht für die Wahrheit einstehen und die Kraft der Auferstehung deines Sohnes erfahren, unseres Herrn Jesus Christus, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Fidelis von Sigmaringen",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Treuer Gott, aus Liebe zu dir hat der heilige Fidelis für den Glauben sein Leben hingegeben. Im Vertrauen auf seine Fürsprache bitten wir dich: Gib, dass auch wir in der Liebe fest verwurzelt und auf sie gegründet seien, damit wir ohne Menschenfurcht für die Wahrheit einstehen und die Kraft der Auferstehung deines Sohnes erfahren, unseres Herrn Jesus Christus, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
@@ -1725,8 +1433,8 @@ export const adlibData = {
     },
     "27": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. ",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -1739,13 +1447,13 @@ export const adlibData = {
           "oration": "Herr, unser Gott, du hast den heiligen Petrus Kanisius berufen, in Wort und Schrift den katholischen Glauben kraftvoll zu verteidigen. Höre auf seine Fürsprache. Lass alle, die nach der Wahrheit suchen, dich finden und erhalte deine Gläubigen im Bekenntnis zu dir. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. ",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, du hast den heiligen Petrus Kanisius berufen, in Wort und Schrift den katholischen Glauben kraftvoll zu verteidigen. Höre auf seine Fürsprache. Lass alle, die nach der Wahrheit suchen, dich finden und erhalte deine Gläubigen im Bekenntnis zu dir. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. ",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, du hast den heiligen Petrus Kanisius berufen, in Wort und Schrift den katholischen Glauben kraftvoll zu verteidigen. Höre auf seine Fürsprache. Lass alle, die nach der Wahrheit suchen, dich finden und erhalte deine Gläubigen im Bekenntnis zu dir. Darum bitten wir durch Jesus Christus."
@@ -1754,8 +1462,8 @@ export const adlibData = {
     },
     "28": {
       "n1": {
-        "name": "Peter Chanel",
-        "genitiv": "Genitiv",
+        "name": "Hl. Peter Chanel",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -1767,36 +1475,32 @@ export const adlibData = {
           "oration": "Starker Gott, du hast durch den Märtyrertod des heiligen Peter Chanel den Glauben auf den Inseln der Südsee eingepflanzt. Lass uns in diesen österlichen Tagen die Geheimnisse des Todes und der Auferstehung Christi so feiern, dass wir Zeugen des neuen Lebens sein können. Darum bitten wir durch ihn, Jesus Christus."
         },
         "Laudes": {
-          "name": "Peter Chanel",
-          "genitiv": "Genitiv",
+          "name": "Hl. Peter Chanel",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Starker Gott, du hast durch den Märtyrertod des heiligen Peter Chanel den Glauben auf den Inseln der Südsee eingepflanzt. Lass uns in diesen österlichen Tagen die Geheimnisse des Todes und der Auferstehung Christi so feiern, dass wir Zeugen des neuen Lebens sein können. Darum bitten wir durch ihn, Jesus Christus."
         },
         "Vesper": {
-          "name": "Peter Chanel",
-          "genitiv": "Genitiv",
+          "name": "Hl. Peter Chanel",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Starker Gott, du hast durch den Märtyrertod des heiligen Peter Chanel den Glauben auf den Inseln der Südsee eingepflanzt. Lass uns in diesen österlichen Tagen die Geheimnisse des Todes und der Auferstehung Christi so feiern, dass wir Zeugen des neuen Lebens sein können. Darum bitten wir durch ihn, Jesus Christus."
         }
       },
       "n2": {
-        "name": "Ludwig Maria Grignion de Montfort",
-        "genitiv": "Genitiv",
+        "name": "Hl. Ludwig Maria Grignion de Montfort",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Laudes": {
-          "name": "Ludwig Maria Grignion de Montfort",
-          "genitiv": "Genitiv",
+          "name": "Hl. Ludwig Maria Grignion de Montfort",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Vesper": {
-          "name": "Ludwig Maria Grignion de Montfort",
-          "genitiv": "Genitiv",
+          "name": "Hl. Ludwig Maria Grignion de Montfort",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         }
@@ -1804,8 +1508,8 @@ export const adlibData = {
     },
     "30": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Pius V.",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -1818,13 +1522,13 @@ export const adlibData = {
           "oration": "Herr, unser Gott, du hast den heiligen Papst Pius berufen, in deiner Kirche den Glauben zu schützen und die Liturgie zu erneuern. Auf seine Fürsprache gewähre uns, dass wir die Mysterien des Heiles in lebendigem Glauben feiern und Frucht bringen in Werken der Liebe. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Pius V.",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, du hast den heiligen Papst Pius berufen, in deiner Kirche den Glauben zu schützen und die Liturgie zu erneuern. Auf seine Fürsprache gewähre uns, dass wir die Mysterien des Heiles in lebendigem Glauben feiern und Frucht bringen in Werken der Liebe. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Pius V.",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, du hast den heiligen Papst Pius berufen, in deiner Kirche den Glauben zu schützen und die Liturgie zu erneuern. Auf seine Fürsprache gewähre uns, dass wir die Mysterien des Heiles in lebendigem Glauben feiern und Frucht bringen in Werken der Liebe. Darum bitten wir durch Jesus Christus."
@@ -1835,8 +1539,8 @@ export const adlibData = {
   "5": {
     "1": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Josef der Arbeiter",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -1849,13 +1553,13 @@ export const adlibData = {
           "oration": "Gott, du Schöpfer der Welt, du hast den Menschen zum Schaffen und Wirken bestimmt. Auf die Fürsprache unseres Schutzpatrons, des heiligen Josef, der mit seiner Hände Arbeit die Heilige Familie ernährte, gib uns Kraft und Ausdauer, damit wir deinen Auftrag auf Erden erfüllen und so den verheißenen Lohn empfangen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Josef der Arbeiter",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Schöpfer der Welt, du hast den Menschen zum Schaffen und Wirken bestimmt. Auf die Fürsprache unseres Schutzpatrons, des heiligen Josef, der mit seiner Hände Arbeit die Heilige Familie ernährte, gib uns Kraft und Ausdauer, damit wir deinen Auftrag auf Erden erfüllen und so den verheißenen Lohn empfangen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Josef der Arbeiter",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Schöpfer der Welt, du hast den Menschen zum Schaffen und Wirken bestimmt. Auf die Fürsprache unseres Schutzpatrons, des heiligen Josef, der mit seiner Hände Arbeit die Heilige Familie ernährte, gib uns Kraft und Ausdauer, damit wir deinen Auftrag auf Erden erfüllen und so den verheißenen Lohn empfangen. Darum bitten wir durch Jesus Christus."
@@ -1864,8 +1568,8 @@ export const adlibData = {
     },
     "4": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Florian und hll. Märtyrer von Lorch",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -1877,13 +1581,13 @@ export const adlibData = {
           "oration": "Großer und starker Gott, du hast dem heiligen Florian und seinen Gefährten die Gnade geschenkt, den Glauben an Christus durch ihr Sterben zu bezeugen. Gewähre uns auf ihre Fürsprache Schutz und Hilfe und gib auch uns den Mut, den Glauben unerschrocken zu bekennen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Florian und hll. Märtyrer von Lorch",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Großer und starker Gott, du hast dem heiligen Florian und seinen Gefährten die Gnade geschenkt, den Glauben an Christus durch ihr Sterben zu bezeugen. Gewähre uns auf ihre Fürsprache Schutz und Hilfe und gib auch uns den Mut, den Glauben unerschrocken zu bekennen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Florian und hll. Märtyrer von Lorch",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Großer und starker Gott, du hast dem heiligen Florian und seinen Gefährten die Gnade geschenkt, den Glauben an Christus durch ihr Sterben zu bezeugen. Gewähre uns auf ihre Fürsprache Schutz und Hilfe und gib auch uns den Mut, den Glauben unerschrocken zu bekennen. Darum bitten wir durch Jesus Christus."
@@ -1892,8 +1596,8 @@ export const adlibData = {
     },
     "5": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Godehard",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -1906,13 +1610,13 @@ export const adlibData = {
           "oration": "Herr und Gott, du hast den heiligen Godehard berufen, das klösterliche Leben zu erneuern und den Gläubigen seines Bistums ein weiser und gütiger Bischof zu sein. Erhalte in uns den Willen, unser Leben auf dich hin auszurichten und dem Nächsten in Liebe zu begegnen Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Godehard",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr und Gott, du hast den heiligen Godehard berufen, das klösterliche Leben zu erneuern und den Gläubigen seines Bistums ein weiser und gütiger Bischof zu sein. Erhalte in uns den Willen, unser Leben auf dich hin auszurichten und dem Nächsten in Liebe zu begegnen Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Godehard",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr und Gott, du hast den heiligen Godehard berufen, das klösterliche Leben zu erneuern und den Gläubigen seines Bistums ein weiser und gütiger Bischof zu sein. Erhalte in uns den Willen, unser Leben auf dich hin auszurichten und dem Nächsten in Liebe zu begegnen Darum bitten wir durch Jesus Christus."
@@ -1921,41 +1625,37 @@ export const adlibData = {
     },
     "10": {
       "n1": {
-        "name": "Johannes von Avila",
-        "genitiv": "Genitiv",
+        "name": "Hl. Johannes von Avila",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Laudes": {
-          "name": "Johannes von Avila",
-          "genitiv": "Genitiv",
+          "name": "Hl. Johannes von Avila",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Vesper": {
-          "name": "Johannes von Avila",
-          "genitiv": "Genitiv",
+          "name": "Hl. Johannes von Avila",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         }
       },
       "n2": {
-        "name": "Damian de Veuster",
-        "genitiv": "Genitiv",
+        "name": "Hl. Damian de Veuster",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Laudes": {
-          "name": "Damian de Veuster",
-          "genitiv": "Genitiv",
+          "name": "Hl. Damian de Veuster",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Vesper": {
-          "name": "Damian de Veuster",
-          "genitiv": "Genitiv",
+          "name": "Hl. Damian de Veuster",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         }
@@ -1963,8 +1663,8 @@ export const adlibData = {
     },
     "12": {
       "n1": {
-        "name": "Nereus und Achilleus",
-        "genitiv": "Genitiv",
+        "name": "Hl. Nereus und Achilleus",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -1977,23 +1677,21 @@ export const adlibData = {
           "oration": "Allmächtiger Gott, deine heiligen Märtyrer Nereus und Achilleus haben dich bis in den Tod mutig bekannt. Auf ihre Fürsprache hin stärke unseren Glauben und unsere Treue, damit auch wir ausharren bis ans Ende. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Nereus und Achilleus",
-          "genitiv": "Genitiv",
+          "name": "Hl. Nereus und Achilleus",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, deine heiligen Märtyrer Nereus und Achilleus haben dich bis in den Tod mutig bekannt. Auf ihre Fürsprache hin stärke unseren Glauben und unsere Treue, damit auch wir ausharren bis ans Ende. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Nereus und Achilleus",
-          "genitiv": "Genitiv",
+          "name": "Hl. Nereus und Achilleus",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, deine heiligen Märtyrer Nereus und Achilleus haben dich bis in den Tod mutig bekannt. Auf ihre Fürsprache hin stärke unseren Glauben und unsere Treue, damit auch wir ausharren bis ans Ende. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Pankratius",
-        "genitiv": "Genitiv",
+        "name": "Hl. Pankratius",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -2006,15 +1704,13 @@ export const adlibData = {
           "oration": "Gott, höre auf die Fürsprache des heiligen Märtyrers Pankratius, dessen Gedenktag wir in Freude feiern. Schenke deiner Kirche Zuversicht und Gelassenheit, damit sie sich in der Bedrängnis nicht fürchte, sondern ausharre im Vertrauen auf Christus Jesus, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Laudes": {
-          "name": "Pankratius",
-          "genitiv": "Genitiv",
+          "name": "Hl. Pankratius",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, höre auf die Fürsprache des heiligen Märtyrers Pankratius, dessen Gedenktag wir in Freude feiern. Schenke deiner Kirche Zuversicht und Gelassenheit, damit sie sich in der Bedrängnis nicht fürchte, sondern ausharre im Vertrauen auf Christus Jesus, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Vesper": {
-          "name": "Pankratius",
-          "genitiv": "Genitiv",
+          "name": "Hl. Pankratius",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, höre auf die Fürsprache des heiligen Märtyrers Pankratius, dessen Gedenktag wir in Freude feiern. Schenke deiner Kirche Zuversicht und Gelassenheit, damit sie sich in der Bedrängnis nicht fürchte, sondern ausharre im Vertrauen auf Christus Jesus, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
@@ -2023,19 +1719,19 @@ export const adlibData = {
     },
     "13": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Unsere Liebe Frau in Fatima",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Unsere Liebe Frau in Fatima",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Unsere Liebe Frau in Fatima",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         }
@@ -2043,8 +1739,8 @@ export const adlibData = {
     },
     "16": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Johannes Nepomuk",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -2057,13 +1753,13 @@ export const adlibData = {
           "oration": "Allmächtiger, ewiger Gott, du hast dem heiligen Johannes Nepomuk geholfen, bis zur Hingabe seines Lebens die Rechte der Kirche zu verteidigen. Auf seine Fürbitte hin gib uns den Mut, für Gerechtigkeit und Wahrheit einzutreten. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Johannes Nepomuk",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger, ewiger Gott, du hast dem heiligen Johannes Nepomuk geholfen, bis zur Hingabe seines Lebens die Rechte der Kirche zu verteidigen. Auf seine Fürbitte hin gib uns den Mut, für Gerechtigkeit und Wahrheit einzutreten. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Johannes Nepomuk",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger, ewiger Gott, du hast dem heiligen Johannes Nepomuk geholfen, bis zur Hingabe seines Lebens die Rechte der Kirche zu verteidigen. Auf seine Fürbitte hin gib uns den Mut, für Gerechtigkeit und Wahrheit einzutreten. Darum bitten wir durch Jesus Christus."
@@ -2072,8 +1768,8 @@ export const adlibData = {
     },
     "18": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Johannes I.",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -2086,13 +1782,13 @@ export const adlibData = {
           "oration": "Gott, du selbst bist der Lohn deiner getreuen Knechte; wir ehren die Verdienste des Bekennerpapstes Johannes, den du am heutigen Tag zu dir heimgerufen hast. Auf seine Fürsprache gib auch uns einen festen Glauben und Geduld in aller Bedrängnis. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Johannes I.",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du selbst bist der Lohn deiner getreuen Knechte; wir ehren die Verdienste des Bekennerpapstes Johannes, den du am heutigen Tag zu dir heimgerufen hast. Auf seine Fürsprache gib auch uns einen festen Glauben und Geduld in aller Bedrängnis. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Johannes I.",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du selbst bist der Lohn deiner getreuen Knechte; wir ehren die Verdienste des Bekennerpapstes Johannes, den du am heutigen Tag zu dir heimgerufen hast. Auf seine Fürsprache gib auch uns einen festen Glauben und Geduld in aller Bedrängnis. Darum bitten wir durch Jesus Christus."
@@ -2101,8 +1797,8 @@ export const adlibData = {
     },
     "20": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Bernhardin von Siena",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -2115,13 +1811,13 @@ export const adlibData = {
           "oration": "Gott und Vater unseres Herrn Jesus Christus, du hast im heiligen Bernhardin von Siena der Kirche einen großen Prediger geschenkt und ihm eine besondere Liebe zum Namen Jesus gegeben. Blicke auf sein heiliges Wirken und schenke uns auf seine Fürsprache die Liebe zu diesem Namen, der über allen Namen ist. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Bernhardin von Siena",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott und Vater unseres Herrn Jesus Christus, du hast im heiligen Bernhardin von Siena der Kirche einen großen Prediger geschenkt und ihm eine besondere Liebe zum Namen Jesus gegeben. Blicke auf sein heiliges Wirken und schenke uns auf seine Fürsprache die Liebe zu diesem Namen, der über allen Namen ist. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Bernhardin von Siena",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott und Vater unseres Herrn Jesus Christus, du hast im heiligen Bernhardin von Siena der Kirche einen großen Prediger geschenkt und ihm eine besondere Liebe zum Namen Jesus gegeben. Blicke auf sein heiliges Wirken und schenke uns auf seine Fürsprache die Liebe zu diesem Namen, der über allen Namen ist. Darum bitten wir durch Jesus Christus."
@@ -2130,8 +1826,8 @@ export const adlibData = {
     },
     "21": {
       "n1": {
-        "name": "Hermann Josef",
-        "genitiv": "Genitiv",
+        "name": "Hl. Hermann Josef",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -2144,56 +1840,50 @@ export const adlibData = {
           "oration": "Herr, unser Gott, du hast dem heiligen Hermann Josef die Gabe geschenkt, im betrachtenden Gebet deine Geheimnisse zu erfahren und durch seinen Rat viele Menschen in ihrer Not aufzurichten. Hilf uns auf seine Fürsprache, den rechten Weg zu erkennen, und führe uns zur Offenbarung deiner Herrlichkeit. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Hermann Josef",
-          "genitiv": "Genitiv",
+          "name": "Hl. Hermann Josef",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, du hast dem heiligen Hermann Josef die Gabe geschenkt, im betrachtenden Gebet deine Geheimnisse zu erfahren und durch seinen Rat viele Menschen in ihrer Not aufzurichten. Hilf uns auf seine Fürsprache, den rechten Weg zu erkennen, und führe uns zur Offenbarung deiner Herrlichkeit. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Hermann Josef",
-          "genitiv": "Genitiv",
+          "name": "Hl. Hermann Josef",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, du hast dem heiligen Hermann Josef die Gabe geschenkt, im betrachtenden Gebet deine Geheimnisse zu erfahren und durch seinen Rat viele Menschen in ihrer Not aufzurichten. Hilf uns auf seine Fürsprache, den rechten Weg zu erkennen, und führe uns zur Offenbarung deiner Herrlichkeit. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Christopher Magallanes und Gefährten",
-        "genitiv": "Genitiv",
+        "name": "Hl. Christopher Magallanes und Gefährten",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Laudes": {
-          "name": "Christopher Magallanes und Gefährten",
-          "genitiv": "Genitiv",
+          "name": "Hl. Christopher Magallanes und Gefährten",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Vesper": {
-          "name": "Christopher Magallanes und Gefährten",
-          "genitiv": "Genitiv",
+          "name": "Hl. Christopher Magallanes und Gefährten",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         }
       },
       "n3": {
-        "name": "Eugen von Mazenod",
-        "genitiv": "Genitiv",
+        "name": "Hl. Eugen von Mazenod",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Laudes": {
-          "name": "Eugen von Mazenod",
-          "genitiv": "Genitiv",
+          "name": "Hl. Eugen von Mazenod",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Vesper": {
-          "name": "Eugen von Mazenod",
-          "genitiv": "Genitiv",
+          "name": "Hl. Eugen von Mazenod",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         }
@@ -2201,19 +1891,19 @@ export const adlibData = {
     },
     "22": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Rita von Cascia",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Rita von Cascia",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Rita von Cascia",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         }
@@ -2221,19 +1911,19 @@ export const adlibData = {
     },
     "24": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Maria, Hilfe der Christen",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Maria, Hilfe der Christen",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Maria, Hilfe der Christen",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         }
@@ -2241,8 +1931,8 @@ export const adlibData = {
     },
     "25": {
       "n1": {
-        "name": "Beda der Ehrwürdige",
-        "genitiv": "Genitiv",
+        "name": "Hl. Beda der Ehrwürdige",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -2255,23 +1945,21 @@ export const adlibData = {
           "oration": "Herr, unser Gott, du hast deine Kirche durch die fromme Gelehrsamkeit des heiligen Beda erleuchtet. Sein Fleiß sei uns ein Beispiel, seine Weisheit Licht, sein Leben ein steter Ansporn. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Beda der Ehrwürdige",
-          "genitiv": "Genitiv",
+          "name": "Hl. Beda der Ehrwürdige",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, du hast deine Kirche durch die fromme Gelehrsamkeit des heiligen Beda erleuchtet. Sein Fleiß sei uns ein Beispiel, seine Weisheit Licht, sein Leben ein steter Ansporn. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Beda der Ehrwürdige",
-          "genitiv": "Genitiv",
+          "name": "Hl. Beda der Ehrwürdige",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, du hast deine Kirche durch die fromme Gelehrsamkeit des heiligen Beda erleuchtet. Sein Fleiß sei uns ein Beispiel, seine Weisheit Licht, sein Leben ein steter Ansporn. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Gregor VII.",
-        "genitiv": "Genitiv",
+        "name": "Hl. Gregor VII.",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -2284,23 +1972,21 @@ export const adlibData = {
           "oration": "Herr, unser Gott, du hast den heiligen Papst Gregor ausgezeichnet durch Starkmut und Eifer für die Gerechtigkeit. Gib auch heute deiner Kirche den Mut, dem Unrecht entgegenzutreten und das Rechte mit Freimut und Liebe zu tun. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Gregor VII.",
-          "genitiv": "Genitiv",
+          "name": "Hl. Gregor VII.",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, du hast den heiligen Papst Gregor ausgezeichnet durch Starkmut und Eifer für die Gerechtigkeit. Gib auch heute deiner Kirche den Mut, dem Unrecht entgegenzutreten und das Rechte mit Freimut und Liebe zu tun. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Gregor VII.",
-          "genitiv": "Genitiv",
+          "name": "Hl. Gregor VII.",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, du hast den heiligen Papst Gregor ausgezeichnet durch Starkmut und Eifer für die Gerechtigkeit. Gib auch heute deiner Kirche den Mut, dem Unrecht entgegenzutreten und das Rechte mit Freimut und Liebe zu tun. Darum bitten wir durch Jesus Christus."
         }
       },
       "n3": {
-        "name": "Maria Magdalena von Pazzi",
-        "genitiv": "Genitiv",
+        "name": "Hl. Maria Magdalena von Pazzi",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -2312,15 +1998,13 @@ export const adlibData = {
           "oration": "Gott, immer wieder berufst du Menschen zur ungeteilten Hingabe an dich in einem jungfräulichen Leben. Du hast die heilige Maria Magdalena von Pazzi mit deiner Liebe erfüllt, so dass sie sich als Ordensfrau in Werken der Buße und im Dienst an den Menschen verzehrte. Hilf uns, ihr Beispiel zu begreifen und die Lauterkeit ihrer Liebe nachzuahmen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Maria Magdalena von Pazzi",
-          "genitiv": "Genitiv",
+          "name": "Hl. Maria Magdalena von Pazzi",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, immer wieder berufst du Menschen zur ungeteilten Hingabe an dich in einem jungfräulichen Leben. Du hast die heilige Maria Magdalena von Pazzi mit deiner Liebe erfüllt, so dass sie sich als Ordensfrau in Werken der Buße und im Dienst an den Menschen verzehrte. Hilf uns, ihr Beispiel zu begreifen und die Lauterkeit ihrer Liebe nachzuahmen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Maria Magdalena von Pazzi",
-          "genitiv": "Genitiv",
+          "name": "Hl. Maria Magdalena von Pazzi",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, immer wieder berufst du Menschen zur ungeteilten Hingabe an dich in einem jungfräulichen Leben. Du hast die heilige Maria Magdalena von Pazzi mit deiner Liebe erfüllt, so dass sie sich als Ordensfrau in Werken der Buße und im Dienst an den Menschen verzehrte. Hilf uns, ihr Beispiel zu begreifen und die Lauterkeit ihrer Liebe nachzuahmen. Darum bitten wir durch Jesus Christus."
@@ -2329,8 +2013,8 @@ export const adlibData = {
     },
     "27": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Augustinus von Canterbury",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -2343,13 +2027,13 @@ export const adlibData = {
           "oration": "Gott, du Herr aller Völker, durch die Predigt des heiligen Bischofs Augustinus von Canterbury hast du den Bewohnern von England das Licht des Evangeliums gebracht. Gib, dass sein apostolisches Werk immer neue Frucht bringt in deiner Kirche. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Augustinus von Canterbury",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Herr aller Völker, durch die Predigt des heiligen Bischofs Augustinus von Canterbury hast du den Bewohnern von England das Licht des Evangeliums gebracht. Gib, dass sein apostolisches Werk immer neue Frucht bringt in deiner Kirche. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Augustinus von Canterbury",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Herr aller Völker, durch die Predigt des heiligen Bischofs Augustinus von Canterbury hast du den Bewohnern von England das Licht des Evangeliums gebracht. Gib, dass sein apostolisches Werk immer neue Frucht bringt in deiner Kirche. Darum bitten wir durch Jesus Christus."
@@ -2358,19 +2042,19 @@ export const adlibData = {
     },
     "29": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Paul VI.",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Paul VI.",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Paul VI.",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         }
@@ -2380,8 +2064,8 @@ export const adlibData = {
   "6": {
     "2": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Marcellinus und hl. Petrus",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -2394,13 +2078,13 @@ export const adlibData = {
           "oration": "Gott, du gibst deiner Kirche Kraft und Halt durch das mutige Glaubensbekenntnis der Heiligen. Hilf uns auf die Fürsprache der Märtyrer Marcellinus und Petrus, dass auch wir aus dem Glauben leben und dich standhaft bekennen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Marcellinus und hl. Petrus",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du gibst deiner Kirche Kraft und Halt durch das mutige Glaubensbekenntnis der Heiligen. Hilf uns auf die Fürsprache der Märtyrer Marcellinus und Petrus, dass auch wir aus dem Glauben leben und dich standhaft bekennen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Marcellinus und hl. Petrus",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du gibst deiner Kirche Kraft und Halt durch das mutige Glaubensbekenntnis der Heiligen. Hilf uns auf die Fürsprache der Märtyrer Marcellinus und Petrus, dass auch wir aus dem Glauben leben und dich standhaft bekennen. Darum bitten wir durch Jesus Christus."
@@ -2409,8 +2093,8 @@ export const adlibData = {
     },
     "6": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Norbert von Xanten",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -2422,13 +2106,13 @@ export const adlibData = {
           "oration": "Gott, du Herr deiner Kirche, der heilige Norbert ist durch sein Beten und Sorgen ein Hirte nach deinem Herzen geworden. Höre auf seine Fürsprache und gib deinem Volk auch heute Bischöfe und Priester, die ihm die Botschaft des Heiles verkünden und es nach deinem Willen leiten. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Norbert von Xanten",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Herr deiner Kirche, der heilige Norbert ist durch sein Beten und Sorgen ein Hirte nach deinem Herzen geworden. Höre auf seine Fürsprache und gib deinem Volk auch heute Bischöfe und Priester, die ihm die Botschaft des Heiles verkünden und es nach deinem Willen leiten. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Norbert von Xanten",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Herr deiner Kirche, der heilige Norbert ist durch sein Beten und Sorgen ein Hirte nach deinem Herzen geworden. Höre auf seine Fürsprache und gib deinem Volk auch heute Bischöfe und Priester, die ihm die Botschaft des Heiles verkünden und es nach deinem Willen leiten. Darum bitten wir durch Jesus Christus."
@@ -2437,8 +2121,8 @@ export const adlibData = {
     },
     "7": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hll. Eoban, Adelar und übrige Gefährten des hl. Bonifatius",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Commune mehrere Märtyrer",
           "comm_2": "Comm_2",
@@ -2451,25 +2135,25 @@ export const adlibData = {
           "oration": "Allmächtiger und barmherziger Gott, durch die Predigt und das Zeugnis der heiligen Märtyrer Eoban, Adelar und Gefährten hast du vielen Menschen deinen Sohn als Erlöser geoffenbart. Höre auf ihre Fürsprache und festige uns im Glauben zum Lob und zur Ehre deines Namens. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hll. Eoban, Adelar und übrige Gefährten des hl. Bonifatius",
           "comm_1": "Commune mehrere Märtyrer",
           "comm_2": "Comm_2",
-          "Ant_Ev": "Die mit dem heiligen Bonifatius^ldie Saat des ewigen Lebens ausstreuten,^lwaren ein Herz und eine Seele^lund erlangten vereint die eine Palme des Martyriums.",
+          "Ant_Ev": "Die mit dem heiligen Bonifatius die Saat des ewigen Lebens ausstreuten, waren ein Herz und eine Seele und erlangten vereint die eine Palme des Martyriums.",
           "oration": "Allmächtiger und barmherziger Gott, durch die Predigt und das Zeugnis der heiligen Märtyrer Eoban, Adelar und Gefährten hast du vielen Menschen deinen Sohn als Erlöser geoffenbart. Höre auf ihre Fürsprache und festige uns im Glauben zum Lob und zur Ehre deines Namens. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hll. Eoban, Adelar und übrige Gefährten des hl. Bonifatius",
           "comm_1": "Commune mehrere Märtyrer",
           "comm_2": "Comm_2",
-          "Ant_Ev": "Bonifatius sprach zu seinen Gefährten:^lErschreckt nicht vor denen, die den Leib töten,^ldie Seele aber nicht töten können;^lsondern freut euch im Herrn^lund nehmt standhaft den Tod auf euch,^ldann könnt ihr in Ewigkeit mit Christus herrschen.",
+          "Ant_Ev": "Bonifatius sprach zu seinen Gefährten: Erschreckt nicht vor denen, die den Leib töten, die Seele aber nicht töten können; sondern freut euch im Herrn und nehmt standhaft den Tod auf euch, dann könnt ihr in Ewigkeit mit Christus herrschen.",
           "oration": "Allmächtiger und barmherziger Gott, durch die Predigt und das Zeugnis der heiligen Märtyrer Eoban, Adelar und Gefährten hast du vielen Menschen deinen Sohn als Erlöser geoffenbart. Höre auf ihre Fürsprache und festige uns im Glauben zum Lob und zur Ehre deines Namens. Darum bitten wir durch Jesus Christus."
         }
       }
     },
     "9": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Ephräm der Syrer",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -2482,13 +2166,13 @@ export const adlibData = {
           "oration": "Erhabener Gott, wir begehen den Gedächtnistag des heiligen Diakons Ephräm. Erfüllt vom Heiligen Geist, hat er in Hymnen und Liedern deine Größe besungen. Gib auch uns deinen Geist, damit wir dich loben und dir mit ganzer Hingabe dienen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Ephräm der Syrer",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Erhabener Gott, wir begehen den Gedächtnistag des heiligen Diakons Ephräm. Erfüllt vom Heiligen Geist, hat er in Hymnen und Liedern deine Größe besungen. Gib auch uns deinen Geist, damit wir dich loben und dir mit ganzer Hingabe dienen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Ephräm der Syrer",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Erhabener Gott, wir begehen den Gedächtnistag des heiligen Diakons Ephräm. Erfüllt vom Heiligen Geist, hat er in Hymnen und Liedern deine Größe besungen. Gib auch uns deinen Geist, damit wir dich loben und dir mit ganzer Hingabe dienen. Darum bitten wir durch Jesus Christus."
@@ -2497,8 +2181,8 @@ export const adlibData = {
     },
     "10": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Bardo",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Cornmune Hirten der Kirche.",
           "comm_2": "Comm_2",
@@ -2511,13 +2195,13 @@ export const adlibData = {
           "oration": "Herr und Gott, du hast im heiligen Bischof Bardo den Mönchen ein Vorbild und den Gläubigen einen eifrigen Seelsorger geschenkt. Hilf uns, nach seinem Beispiel in allem auf das Heil der Menschen bedacht zu sein. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Bardo",
           "comm_1": "Cornmune Hirten der Kirche.",
           "comm_2": "Comm_2",
           "oration": "Herr und Gott, du hast im heiligen Bischof Bardo den Mönchen ein Vorbild und den Gläubigen einen eifrigen Seelsorger geschenkt. Hilf uns, nach seinem Beispiel in allem auf das Heil der Menschen bedacht zu sein. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Bardo",
           "comm_1": "Cornmune Hirten der Kirche.",
           "comm_2": "Comm_2",
           "oration": "Herr und Gott, du hast im heiligen Bischof Bardo den Mönchen ein Vorbild und den Gläubigen einen eifrigen Seelsorger geschenkt. Hilf uns, nach seinem Beispiel in allem auf das Heil der Menschen bedacht zu sein. Darum bitten wir durch Jesus Christus."
@@ -2526,8 +2210,8 @@ export const adlibData = {
     },
     "15": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Vitus",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -2539,13 +2223,13 @@ export const adlibData = {
           "oration": "Barmherziger Gott, mit deiner Kraft hat der heilige Vitus in jugendlichem Alter die Qualen des Martyriums bestanden. Wir ehren sein Andenken und empfehlen dir alle, deren Glaube bedroht ist. Stärke sie in der Hoffnung und festige sie in der Liebe. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Vitus",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Barmherziger Gott, mit deiner Kraft hat der heilige Vitus in jugendlichem Alter die Qualen des Martyriums bestanden. Wir ehren sein Andenken und empfehlen dir alle, deren Glaube bedroht ist. Stärke sie in der Hoffnung und festige sie in der Liebe. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Vitus",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Barmherziger Gott, mit deiner Kraft hat der heilige Vitus in jugendlichem Alter die Qualen des Martyriums bestanden. Wir ehren sein Andenken und empfehlen dir alle, deren Glaube bedroht ist. Stärke sie in der Hoffnung und festige sie in der Liebe. Darum bitten wir durch Jesus Christus."
@@ -2554,8 +2238,8 @@ export const adlibData = {
     },
     "16": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Benno",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -2568,13 +2252,13 @@ export const adlibData = {
           "oration": "Treuer Gott, du hast dem heiligen Bischof Benno den Mut gegeben, in den Wirren seiner Zeit unbeirrt den Weg des Glaubens zu gehen. Zeige auch uns deine Wege und stärke unser Vertrauen auf deine Hilfe. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Benno",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Treuer Gott, du hast dem heiligen Bischof Benno den Mut gegeben, in den Wirren seiner Zeit unbeirrt den Weg des Glaubens zu gehen. Zeige auch uns deine Wege und stärke unser Vertrauen auf deine Hilfe. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Benno",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Treuer Gott, du hast dem heiligen Bischof Benno den Mut gegeben, in den Wirren seiner Zeit unbeirrt den Weg des Glaubens zu gehen. Zeige auch uns deine Wege und stärke unser Vertrauen auf deine Hilfe. Darum bitten wir durch Jesus Christus."
@@ -2583,8 +2267,8 @@ export const adlibData = {
     },
     "19": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Romuald",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -2597,13 +2281,13 @@ export const adlibData = {
           "oration": "Gott, du Freund der Heiligen, du hast den Abt Romuald berufen, einen Orden für Mönche zu gründen, die in strenger Einsamkeit leben. Schenke uns die Gnade, uns selbst zu verleugnen und Christus nachzufolgen, damit wir mit ihm in die Herrlichkeit des Himmels gelangen, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Romuald",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Freund der Heiligen, du hast den Abt Romuald berufen, einen Orden für Mönche zu gründen, die in strenger Einsamkeit leben. Schenke uns die Gnade, uns selbst zu verleugnen und Christus nachzufolgen, damit wir mit ihm in die Herrlichkeit des Himmels gelangen, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Romuald",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Freund der Heiligen, du hast den Abt Romuald berufen, einen Orden für Mönche zu gründen, die in strenger Einsamkeit leben. Schenke uns die Gnade, uns selbst zu verleugnen und Christus nachzufolgen, damit wir mit ihm in die Herrlichkeit des Himmels gelangen, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
@@ -2612,8 +2296,8 @@ export const adlibData = {
     },
     "22": {
       "n1": {
-        "name": "Paulinus von Nola",
-        "genitiv": "Genitiv",
+        "name": "Hl. Paulinus von Nola",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -2626,23 +2310,21 @@ export const adlibData = {
           "oration": "Gott, du hast dem heiligen Bischof Paulinus von Nola Liebe zu den Armen geschenkt und ihn zu einem großen Seelsorger gemacht. Blicke auf sein heiliges Leben. Hilf uns, dem Beispiel seiner tätigen Liebe zu folgen und allen gut zu sein, denen wir begegnen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Paulinus von Nola",
-          "genitiv": "Genitiv",
+          "name": "Hl. Paulinus von Nola",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du hast dem heiligen Bischof Paulinus von Nola Liebe zu den Armen geschenkt und ihn zu einem großen Seelsorger gemacht. Blicke auf sein heiliges Leben. Hilf uns, dem Beispiel seiner tätigen Liebe zu folgen und allen gut zu sein, denen wir begegnen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Paulinus von Nola",
-          "genitiv": "Genitiv",
+          "name": "Hl. Paulinus von Nola",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du hast dem heiligen Bischof Paulinus von Nola Liebe zu den Armen geschenkt und ihn zu einem großen Seelsorger gemacht. Blicke auf sein heiliges Leben. Hilf uns, dem Beispiel seiner tätigen Liebe zu folgen und allen gut zu sein, denen wir begegnen. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "John Fisher und Thomas Morus",
-        "genitiv": "Genitiv",
+        "name": "Hl. John Fisher und Thomas Morus",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -2655,15 +2337,13 @@ export const adlibData = {
           "oration": "Heiliger Gott, du hast die Glaubenstreue des Bischofs John Fisher und des Kanzlers Thomas Morus im Martyrium erprobt und zur Vollendung geführt. Höre auf ihre Fürsprache und hilf uns, den Glauben, den wir mit Worten bekennen, in den Prüfungen des Lebens zu bezeugen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "John Fisher und Thomas Morus",
-          "genitiv": "Genitiv",
+          "name": "Hl. John Fisher und Thomas Morus",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Heiliger Gott, du hast die Glaubenstreue des Bischofs John Fisher und des Kanzlers Thomas Morus im Martyrium erprobt und zur Vollendung geführt. Höre auf ihre Fürsprache und hilf uns, den Glauben, den wir mit Worten bekennen, in den Prüfungen des Lebens zu bezeugen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "John Fisher und Thomas Morus",
-          "genitiv": "Genitiv",
+          "name": "Hl. John Fisher und Thomas Morus",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Heiliger Gott, du hast die Glaubenstreue des Bischofs John Fisher und des Kanzlers Thomas Morus im Martyrium erprobt und zur Vollendung geführt. Höre auf ihre Fürsprache und hilf uns, den Glauben, den wir mit Worten bekennen, in den Prüfungen des Lebens zu bezeugen. Darum bitten wir durch Jesus Christus."
@@ -2672,19 +2352,19 @@ export const adlibData = {
     },
     "26": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Josefmaria Escrivá de Balaguer",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Josefmaria Escrivá de Balaguer",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Josefmaria Escrivá de Balaguer",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         }
@@ -2692,8 +2372,8 @@ export const adlibData = {
     },
     "27": {
       "n1": {
-        "name": "Heimerad",
-        "genitiv": "Genitiv",
+        "name": "Hl. Heimerad",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Commune Hirten der Kirche",
           "comm_2": "Comm_2",
@@ -2704,23 +2384,21 @@ export const adlibData = {
           "oration": "Gütiger Gott, im Vertrauen auf dich hat der heilige Heimerad weder Armut und Not noch den Spott der Menschen gescheut. Gewähre uns auf seine Fürsprache die Kraft, den mühsamen Weg unserer Pilgerschaft in Treue zu gehen und so zu dir zu gelangen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Heimerad",
-          "genitiv": "Genitiv",
+          "name": "Hl. Heimerad",
           "comm_1": "Commune Hirten der Kirche",
           "comm_2": "Comm_2",
           "oration": "Gütiger Gott, im Vertrauen auf dich hat der heilige Heimerad weder Armut und Not noch den Spott der Menschen gescheut. Gewähre uns auf seine Fürsprache die Kraft, den mühsamen Weg unserer Pilgerschaft in Treue zu gehen und so zu dir zu gelangen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Heimerad",
-          "genitiv": "Genitiv",
+          "name": "Hl. Heimerad",
           "comm_1": "Commune Hirten der Kirche",
           "comm_2": "Comm_2",
           "oration": "Gütiger Gott, im Vertrauen auf dich hat der heilige Heimerad weder Armut und Not noch den Spott der Menschen gescheut. Gewähre uns auf seine Fürsprache die Kraft, den mühsamen Weg unserer Pilgerschaft in Treue zu gehen und so zu dir zu gelangen. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Hemma von Gurk",
-        "genitiv": "Genitiv",
+        "name": "Hl. Hemma von Gurk",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -2733,23 +2411,21 @@ export const adlibData = {
           "oration": "Barmherziger Gott, du lenkst unsere Wege. In schwerer Zeit hat die heilige Hemma (als Landesmutter von Kärnten) für die Bedrückten und Armen gesorgt. Gib auch uns die Kraft, in der Not nicht zu verzweifeln, sondern auf dich zu schauen und Gutes zu tun. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Hemma von Gurk",
-          "genitiv": "Genitiv",
+          "name": "Hl. Hemma von Gurk",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Barmherziger Gott, du lenkst unsere Wege. In schwerer Zeit hat die heilige Hemma (als Landesmutter von Kärnten) für die Bedrückten und Armen gesorgt. Gib auch uns die Kraft, in der Not nicht zu verzweifeln, sondern auf dich zu schauen und Gutes zu tun. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Hemma von Gurk",
-          "genitiv": "Genitiv",
+          "name": "Hl. Hemma von Gurk",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Barmherziger Gott, du lenkst unsere Wege. In schwerer Zeit hat die heilige Hemma (als Landesmutter von Kärnten) für die Bedrückten und Armen gesorgt. Gib auch uns die Kraft, in der Not nicht zu verzweifeln, sondern auf dich zu schauen und Gutes zu tun. Darum bitten wir durch Jesus Christus."
         }
       },
       "n3": {
-        "name": "Cyrill von Alexandrien",
-        "genitiv": "Genitiv",
+        "name": "Hl. Cyrill von Alexandrien",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -2762,15 +2438,13 @@ export const adlibData = {
           "oration": "Vater unseres Herrn Jesus Christus, durch deine Gnade ist der heilige Bischof Cyrill von Alexandrien unerschrocken eingetreten für den Glauben, dass Maria deinen ewigen Sohn geboren hat. Auch wir bekennen sie als wahre Gottesmutter und bitten dich: Rette uns durch die Menschwerdung deines Sohnes Jesus Christus, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Laudes": {
-          "name": "Cyrill von Alexandrien",
-          "genitiv": "Genitiv",
+          "name": "Hl. Cyrill von Alexandrien",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Vater unseres Herrn Jesus Christus, durch deine Gnade ist der heilige Bischof Cyrill von Alexandrien unerschrocken eingetreten für den Glauben, dass Maria deinen ewigen Sohn geboren hat. Auch wir bekennen sie als wahre Gottesmutter und bitten dich: Rette uns durch die Menschwerdung deines Sohnes Jesus Christus, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Vesper": {
-          "name": "Cyrill von Alexandrien",
-          "genitiv": "Genitiv",
+          "name": "Hl. Cyrill von Alexandrien",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Vater unseres Herrn Jesus Christus, durch deine Gnade ist der heilige Bischof Cyrill von Alexandrien unerschrocken eingetreten für den Glauben, dass Maria deinen ewigen Sohn geboren hat. Auch wir bekennen sie als wahre Gottesmutter und bitten dich: Rette uns durch die Menschwerdung deines Sohnes Jesus Christus, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
@@ -2779,8 +2453,8 @@ export const adlibData = {
     },
     "30": {
       "n1": {
-        "name": "Erste römische Märtyrer",
-        "genitiv": "Genitiv",
+        "name": "Hl. Erste römische Märtyrer",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -2793,25 +2467,23 @@ export const adlibData = {
           "oration": "Allmächtiger, ewiger Gott, du hast die Anfänge der Kirche von Rom durch das Blut vieler Märtyrer geheiligt. Das Opfer ihres Lebens werde uns zum Segen, ihr herrlicher Sieg stärke deine Kirche. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Erste römische Märtyrer",
-          "genitiv": "Genitiv",
+          "name": "Hl. Erste römische Märtyrer",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
-          "Ant_Ev": "Die gewaltige Schar der Märtyrer^lverharrte in brüderlicher Liebe,^ldenn EIN Geist und EIN Glaube beseelte sie.",
+          "Ant_Ev": "Die gewaltige Schar der Märtyrer verharrte in brüderlicher Liebe, denn EIN Geist und EIN Glaube beseelte sie.",
           "oration": "Allmächtiger, ewiger Gott, du hast die Anfänge der Kirche von Rom durch das Blut vieler Märtyrer geheiligt. Das Opfer ihres Lebens werde uns zum Segen, ihr herrlicher Sieg stärke deine Kirche. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Erste römische Märtyrer",
-          "genitiv": "Genitiv",
+          "name": "Hl. Erste römische Märtyrer",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
-          "Ant_Ev": "Im Leben haben sie Christus geliebt,^lim Tode sind sie ihm nachgefolgt;^ldeshalb herrschen sie mit ihm auf ewig.",
+          "Ant_Ev": "Im Leben haben sie Christus geliebt, im Tode sind sie ihm nachgefolgt; deshalb herrschen sie mit ihm auf ewig.",
           "oration": "Allmächtiger, ewiger Gott, du hast die Anfänge der Kirche von Rom durch das Blut vieler Märtyrer geheiligt. Das Opfer ihres Lebens werde uns zum Segen, ihr herrlicher Sieg stärke deine Kirche. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Otto",
-        "genitiv": "Genitiv",
+        "name": "Hl. Otto",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -2824,15 +2496,13 @@ export const adlibData = {
           "oration": "Allmächtiger Gott, in der Kraft deines Geistes hat der heilige Bischof Otto ungezählte Menschen zum Christlichen Glauben geführt und ihnen die Sakramente des Lebens gespendet. Hilf uns, den Glauben dankbar zu bewahren, den auch wir durch deine Vorsehung empfangen haben. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Otto",
-          "genitiv": "Genitiv",
+          "name": "Hl. Otto",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, in der Kraft deines Geistes hat der heilige Bischof Otto ungezählte Menschen zum Christlichen Glauben geführt und ihnen die Sakramente des Lebens gespendet. Hilf uns, den Glauben dankbar zu bewahren, den auch wir durch deine Vorsehung empfangen haben. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Otto",
-          "genitiv": "Genitiv",
+          "name": "Hl. Otto",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, in der Kraft deines Geistes hat der heilige Bischof Otto ungezählte Menschen zum Christlichen Glauben geführt und ihnen die Sakramente des Lebens gespendet. Hilf uns, den Glauben dankbar zu bewahren, den auch wir durch deine Vorsehung empfangen haben. Darum bitten wir durch Jesus Christus."
@@ -2843,8 +2513,8 @@ export const adlibData = {
   "7": {
     "4": {
       "n1": {
-        "name": "Ulrich",
-        "genitiv": "Genitiv",
+        "name": "Hl. Ulrich",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -2856,23 +2526,21 @@ export const adlibData = {
           "oration": "Gott, du bist reich an Erbarmen. Du hast deinem Volk in einer Zeit schwerer Not den heiligen Ulrich als tatkräftigen Bischof geschenkt. Seine Fürbitte helfe uns, die Gefahren unserer Zeit in der Kraft des Glaubens zu bestehen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Ulrich",
-          "genitiv": "Genitiv",
+          "name": "Hl. Ulrich",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du bist reich an Erbarmen. Du hast deinem Volk in einer Zeit schwerer Not den heiligen Ulrich als tatkräftigen Bischof geschenkt. Seine Fürbitte helfe uns, die Gefahren unserer Zeit in der Kraft des Glaubens zu bestehen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Ulrich",
-          "genitiv": "Genitiv",
+          "name": "Hl. Ulrich",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du bist reich an Erbarmen. Du hast deinem Volk in einer Zeit schwerer Not den heiligen Ulrich als tatkräftigen Bischof geschenkt. Seine Fürbitte helfe uns, die Gefahren unserer Zeit in der Kraft des Glaubens zu bestehen. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Elisabeth von Portugal",
-        "genitiv": "Genitiv",
+        "name": "Hl. Elisabeth von Portugal",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -2885,15 +2553,13 @@ export const adlibData = {
           "oration": "Gott, du Ursprung der Liebe und des Friedens, du hast der heiligen Königin Elisabeth von Portugal die Gnade verliehen, Feinde miteinander zu versöhnen. Auf ihre Fürbitte lehre auch uns, Frieden zu stiften, damit wir uns als deine Kinder erweisen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Elisabeth von Portugal",
-          "genitiv": "Genitiv",
+          "name": "Hl. Elisabeth von Portugal",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Ursprung der Liebe und des Friedens, du hast der heiligen Königin Elisabeth von Portugal die Gnade verliehen, Feinde miteinander zu versöhnen. Auf ihre Fürbitte lehre auch uns, Frieden zu stiften, damit wir uns als deine Kinder erweisen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Elisabeth von Portugal",
-          "genitiv": "Genitiv",
+          "name": "Hl. Elisabeth von Portugal",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Ursprung der Liebe und des Friedens, du hast der heiligen Königin Elisabeth von Portugal die Gnade verliehen, Feinde miteinander zu versöhnen. Auf ihre Fürbitte lehre auch uns, Frieden zu stiften, damit wir uns als deine Kinder erweisen. Darum bitten wir durch Jesus Christus."
@@ -2902,8 +2568,8 @@ export const adlibData = {
     },
     "5": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Antonius Maria Zaccaria",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -2916,13 +2582,13 @@ export const adlibData = {
           "oration": "Herr, unser Gott, im Geist des Apostels Paulus wollte der heilige Antonius Maria Zaccaria nichts anderes verkünden als Jesus Christus, den Gekreuzigten. Lass auch uns die alles überragende Erkenntnis Christi suchen und in der Torheit des Kreuzes die wahre Weisheit finden. Darum bitten wir durch ihn, Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Antonius Maria Zaccaria",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, im Geist des Apostels Paulus wollte der heilige Antonius Maria Zaccaria nichts anderes verkünden als Jesus Christus, den Gekreuzigten. Lass auch uns die alles überragende Erkenntnis Christi suchen und in der Torheit des Kreuzes die wahre Weisheit finden. Darum bitten wir durch ihn, Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Antonius Maria Zaccaria",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, im Geist des Apostels Paulus wollte der heilige Antonius Maria Zaccaria nichts anderes verkünden als Jesus Christus, den Gekreuzigten. Lass auch uns die alles überragende Erkenntnis Christi suchen und in der Torheit des Kreuzes die wahre Weisheit finden. Darum bitten wir durch ihn, Jesus Christus."
@@ -2931,8 +2597,8 @@ export const adlibData = {
     },
     "6": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Maria Goretti",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -2945,13 +2611,13 @@ export const adlibData = {
           "oration": "Gott, du bist die Quelle der Unschuld und liebst den Adel der Keuschheit. Du hast die heilige Maria Goretti früh zur Vollendung geführt und ihren Kampf um die Reinheit mit dem Martyrium gekrönt. Hilf uns auf ihre Fürspreche, treu und fest zu deinen Geboten zu stehen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Maria Goretti",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du bist die Quelle der Unschuld und liebst den Adel der Keuschheit. Du hast die heilige Maria Goretti früh zur Vollendung geführt und ihren Kampf um die Reinheit mit dem Martyrium gekrönt. Hilf uns auf ihre Fürspreche, treu und fest zu deinen Geboten zu stehen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Maria Goretti",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du bist die Quelle der Unschuld und liebst den Adel der Keuschheit. Du hast die heilige Maria Goretti früh zur Vollendung geführt und ihren Kampf um die Reinheit mit dem Martyrium gekrönt. Hilf uns auf ihre Fürspreche, treu und fest zu deinen Geboten zu stehen. Darum bitten wir durch Jesus Christus."
@@ -2960,8 +2626,8 @@ export const adlibData = {
     },
     "7": {
       "n1": {
-        "name": "Willibald und Wunibald: Aus den Eigenfeiern",
-        "genitiv": "Genitiv",
+        "name": "Hl. Willibald und hl. Wunibald",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Commune-Texte für Hirten der Kirche.",
           "comm_2": "Comm_2",
@@ -2974,23 +2640,21 @@ export const adlibData = {
           "oration": "Gott, unser Heil, durch die Predigt und das apostolische Wirken der heiligen Willibald und Wunibald hast du deiner Kirche viele Menschen zugeführt. Gib uns auf ihre Fürsprache neue Kraft und mehre den Glauben und die Heiligkeit in deinem Volk. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Willibald und Wunibald: Aus den Eigenfeiern",
-          "genitiv": "Genitiv",
+          "name": "Hl. Willibald und hl. Wunibald",
           "comm_1": "Commune-Texte für Hirten der Kirche.",
           "comm_2": "Comm_2",
           "oration": "Gott, unser Heil, durch die Predigt und das apostolische Wirken der heiligen Willibald und Wunibald hast du deiner Kirche viele Menschen zugeführt. Gib uns auf ihre Fürsprache neue Kraft und mehre den Glauben und die Heiligkeit in deinem Volk. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Willibald und Wunibald: Aus den Eigenfeiern",
-          "genitiv": "Genitiv",
+          "name": "Hl. Willibald und hl. Wunibald",
           "comm_1": "Commune-Texte für Hirten der Kirche.",
           "comm_2": "Comm_2",
           "oration": "Gott, unser Heil, durch die Predigt und das apostolische Wirken der heiligen Willibald und Wunibald hast du deiner Kirche viele Menschen zugeführt. Gib uns auf ihre Fürsprache neue Kraft und mehre den Glauben und die Heiligkeit in deinem Volk. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Willibald: Aus dem Stundenbuch",
-        "genitiv": "Genitiv",
+        "name": "Hl. Willibald: Aus dem Stundenbuch",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -3003,15 +2667,13 @@ export const adlibData = {
           "oration": "Allmächtiger Gott, aus Liebe zu deinem Sohn hat der heilige Willibald die Stätten des Lebens Christi aufgesucht und als Glaubensbote unserem Volk das Evangelium verkündet. Hilf uns, im Licht deiner Wahrheit zu leben und treu zu bleiben im Glauben an Jesus Christus, deinen Sohn, unseren Herrn und Gott, der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Laudes": {
-          "name": "Willibald: Aus dem Stundenbuch",
-          "genitiv": "Genitiv",
+          "name": "Hl. Willibald: Aus dem Stundenbuch",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, aus Liebe zu deinem Sohn hat der heilige Willibald die Stätten des Lebens Christi aufgesucht und als Glaubensbote unserem Volk das Evangelium verkündet. Hilf uns, im Licht deiner Wahrheit zu leben und treu zu bleiben im Glauben an Jesus Christus, deinen Sohn, unseren Herrn und Gott, der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Vesper": {
-          "name": "Willibald: Aus dem Stundenbuch",
-          "genitiv": "Genitiv",
+          "name": "Hl. Willibald: Aus dem Stundenbuch",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, aus Liebe zu deinem Sohn hat der heilige Willibald die Stätten des Lebens Christi aufgesucht und als Glaubensbote unserem Volk das Evangelium verkündet. Hilf uns, im Licht deiner Wahrheit zu leben und treu zu bleiben im Glauben an Jesus Christus, deinen Sohn, unseren Herrn und Gott, der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
@@ -3020,8 +2682,8 @@ export const adlibData = {
     },
     "8": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hll. Kilian und Gefährten",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -3034,13 +2696,13 @@ export const adlibData = {
           "oration": "Allmächtiger und barmherziger Gott, durch die Missionsarbeit des heiligen Kilian und seiner Gefährten hast du im fränkischen Land den christlichen Glauben grundgelegt. Auf die Fürsprache dieser Glaubensboten festige uns alle in der Treue zu unserem Herrn Jesus Christus, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hll. Kilian und Gefährten",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger und barmherziger Gott, durch die Missionsarbeit des heiligen Kilian und seiner Gefährten hast du im fränkischen Land den christlichen Glauben grundgelegt. Auf die Fürsprache dieser Glaubensboten festige uns alle in der Treue zu unserem Herrn Jesus Christus, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hll. Kilian und Gefährten",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger und barmherziger Gott, durch die Missionsarbeit des heiligen Kilian und seiner Gefährten hast du im fränkischen Land den christlichen Glauben grundgelegt. Auf die Fürsprache dieser Glaubensboten festige uns alle in der Treue zu unserem Herrn Jesus Christus, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
@@ -3049,28 +2711,26 @@ export const adlibData = {
     },
     "9": {
       "n1": {
-        "name": "Augustinus Zhao Rong und Gefährten",
-        "genitiv": "Genitiv",
+        "name": "Hl. Augustinus Zhao Rong und Gefährten",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Laudes": {
-          "name": "Augustinus Zhao Rong und Gefährten",
-          "genitiv": "Genitiv",
+          "name": "Hl. Augustinus Zhao Rong und Gefährten",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Vesper": {
-          "name": "Augustinus Zhao Rong und Gefährten",
-          "genitiv": "Genitiv",
+          "name": "Hl. Augustinus Zhao Rong und Gefährten",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         }
       },
       "n2": {
-        "name": "Übertragung des hl. Bonifatius",
-        "genitiv": "Genitiv",
+        "name": "Hl. Übertragung des hl. Bonifatius",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Commune: ein Märtyrer.",
           "comm_2": "Comm_2",
@@ -3083,15 +2743,13 @@ export const adlibData = {
           "oration": "Herr und Gott, du schenkst uns die Freude, die Grabstätte des heiligen Bonifatius zu besitzen. Festige in uns den Glauben an die Auferstehung und gib uns einst Anteil an der ewigen Herrlichkeit. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Übertragung des hl. Bonifatius",
-          "genitiv": "Genitiv",
+          "name": "Hl. Übertragung des hl. Bonifatius",
           "comm_1": "Commune: ein Märtyrer.",
           "comm_2": "Comm_2",
           "oration": "Herr und Gott, du schenkst uns die Freude, die Grabstätte des heiligen Bonifatius zu besitzen. Festige in uns den Glauben an die Auferstehung und gib uns einst Anteil an der ewigen Herrlichkeit. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Übertragung des hl. Bonifatius",
-          "genitiv": "Genitiv",
+          "name": "Hl. Übertragung des hl. Bonifatius",
           "comm_1": "Commune: ein Märtyrer.",
           "comm_2": "Comm_2",
           "oration": "Herr und Gott, du schenkst uns die Freude, die Grabstätte des heiligen Bonifatius zu besitzen. Festige in uns den Glauben an die Auferstehung und gib uns einst Anteil an der ewigen Herrlichkeit. Darum bitten wir durch Jesus Christus."
@@ -3100,8 +2758,8 @@ export const adlibData = {
     },
     "10": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Knud, Erich und Olaf",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -3114,13 +2772,13 @@ export const adlibData = {
           "oration": "Herr, unser Gott, höre auf die Fürsprache der heiligen Könige Knud, Erich und Olaf, die in ihren Ländern die Botschaft von Christus verbreitet haben. Gib, dass wir mit den Völkern des Nordens im Glauben an Christus verbunden bleiben, und stärke in uns allen die Bereitschaft zur Einheit, wie du sie willst. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Knud, Erich und Olaf",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, höre auf die Fürsprache der heiligen Könige Knud, Erich und Olaf, die in ihren Ländern die Botschaft von Christus verbreitet haben. Gib, dass wir mit den Völkern des Nordens im Glauben an Christus verbunden bleiben, und stärke in uns allen die Bereitschaft zur Einheit, wie du sie willst. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Knud, Erich und Olaf",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, höre auf die Fürsprache der heiligen Könige Knud, Erich und Olaf, die in ihren Ländern die Botschaft von Christus verbreitet haben. Gib, dass wir mit den Völkern des Nordens im Glauben an Christus verbunden bleiben, und stärke in uns allen die Bereitschaft zur Einheit, wie du sie willst. Darum bitten wir durch Jesus Christus."
@@ -3129,19 +2787,19 @@ export const adlibData = {
     },
     "12": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hll. Louis und Marie Zelie Martin",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hll. Louis und Marie Zelie Martin",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hll. Louis und Marie Zelie Martin",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         }
@@ -3149,8 +2807,8 @@ export const adlibData = {
     },
     "13": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Heinrich II. und hl. Kunigunde",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -3163,13 +2821,13 @@ export const adlibData = {
           "oration": "Allmächtiger Gott, du hast dem heiligen Kaiser Heinrich und seiner Gemahlin Kunigunde irdische Macht anvertraut und ihr Wirken mit der ewigen Herrlichkeit belohnt. Gib auch uns die Gnade, dass wir unsere Aufgabe in dieser Welt erfüllen und Erben deines Reiches werden. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Heinrich II. und hl. Kunigunde",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, du hast dem heiligen Kaiser Heinrich und seiner Gemahlin Kunigunde irdische Macht anvertraut und ihr Wirken mit der ewigen Herrlichkeit belohnt. Gib auch uns die Gnade, dass wir unsere Aufgabe in dieser Welt erfüllen und Erben deines Reiches werden. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Heinrich II. und hl. Kunigunde",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, du hast dem heiligen Kaiser Heinrich und seiner Gemahlin Kunigunde irdische Macht anvertraut und ihr Wirken mit der ewigen Herrlichkeit belohnt. Gib auch uns die Gnade, dass wir unsere Aufgabe in dieser Welt erfüllen und Erben deines Reiches werden. Darum bitten wir durch Jesus Christus."
@@ -3178,8 +2836,8 @@ export const adlibData = {
     },
     "14": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Kamillus von Lellis",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -3191,13 +2849,13 @@ export const adlibData = {
           "oration": "Barmherziger Gott, du hast dem heiligen Kamillus eine außergewöhnliche Liebe zu den Kranken und Sterbenden geschenkt. Sieh auf sein heiliges Leben und gib auch uns den Geist der Barmherzigkeit, damit wir dir in unseren Mitmenschen dienen und in der Stunde unseres Todes voll Zuversicht zu dir hinübergehen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Kamillus von Lellis",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Barmherziger Gott, du hast dem heiligen Kamillus eine außergewöhnliche Liebe zu den Kranken und Sterbenden geschenkt. Sieh auf sein heiliges Leben und gib auch uns den Geist der Barmherzigkeit, damit wir dir in unseren Mitmenschen dienen und in der Stunde unseres Todes voll Zuversicht zu dir hinübergehen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Kamillus von Lellis",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Barmherziger Gott, du hast dem heiligen Kamillus eine außergewöhnliche Liebe zu den Kranken und Sterbenden geschenkt. Sieh auf sein heiliges Leben und gib auch uns den Geist der Barmherzigkeit, damit wir dir in unseren Mitmenschen dienen und in der Stunde unseres Todes voll Zuversicht zu dir hinübergehen. Darum bitten wir durch Jesus Christus."
@@ -3206,8 +2864,8 @@ export const adlibData = {
     },
     "16": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Unsere Liebe Frau auf dem Berge Karmel",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -3220,25 +2878,25 @@ export const adlibData = {
           "oration": "Großer und heiliger Gott, du hast den Berg Karmel schon im Alten Bund durch das Wirken der Propheten ausgezeichnet und ihn auch im Neuen Bund zu einer Stätte der Beschauung erwählt, zu einem Heiligtum der jungfräulichen Mutter Maria. Gib uns auf ihre Fürsprache die Freude, im Gebet deine Nähe zu erfahren. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Unsere Liebe Frau auf dem Berge Karmel",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
-          "Ant_Ev": "Im Gebete verlangte ich nach Weisheit,^lund wie die erste Frucht des Weinstocks^lerfreute sie mein Herz.",
+          "Ant_Ev": "Im Gebete verlangte ich nach Weisheit, und wie die erste Frucht des Weinstocks erfreute sie mein Herz.",
           "oration": "Großer und heiliger Gott, du hast den Berg Karmel schon im Alten Bund durch das Wirken der Propheten ausgezeichnet und ihn auch im Neuen Bund zu einer Stätte der Beschauung erwählt, zu einem Heiligtum der jungfräulichen Mutter Maria. Gib uns auf ihre Fürsprache die Freude, im Gebet deine Nähe zu erfahren. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Unsere Liebe Frau auf dem Berge Karmel",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
-          "Ant_Ev": "Maria hörte Gottes Wort^lund bewahrte es in ihrem Herzen.",
+          "Ant_Ev": "Maria hörte Gottes Wort und bewahrte es in ihrem Herzen.",
           "oration": "Großer und heiliger Gott, du hast den Berg Karmel schon im Alten Bund durch das Wirken der Propheten ausgezeichnet und ihn auch im Neuen Bund zu einer Stätte der Beschauung erwählt, zu einem Heiligtum der jungfräulichen Mutter Maria. Gib uns auf ihre Fürsprache die Freude, im Gebet deine Nähe zu erfahren. Darum bitten wir durch Jesus Christus."
         }
       }
     },
     "20": {
       "n1": {
-        "name": "Margareta",
-        "genitiv": "Genitiv",
+        "name": "Hl. Margareta",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -3251,36 +2909,32 @@ export const adlibData = {
           "oration": "Herr, unser Gott, du offenbarst uns in der Bedrängnis die Macht deines Erbarmens. Von dir empfing die heilige Margareta die Gnade, das Martyrium zu bestehen. Stärke auch uns mit deiner Kraft und lass uns in aller Not auf deine Hilfe vertrauen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Margareta",
-          "genitiv": "Genitiv",
+          "name": "Hl. Margareta",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, du offenbarst uns in der Bedrängnis die Macht deines Erbarmens. Von dir empfing die heilige Margareta die Gnade, das Martyrium zu bestehen. Stärke auch uns mit deiner Kraft und lass uns in aller Not auf deine Hilfe vertrauen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Margareta",
-          "genitiv": "Genitiv",
+          "name": "Hl. Margareta",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, du offenbarst uns in der Bedrängnis die Macht deines Erbarmens. Von dir empfing die heilige Margareta die Gnade, das Martyrium zu bestehen. Stärke auch uns mit deiner Kraft und lass uns in aller Not auf deine Hilfe vertrauen. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Apollinaris",
-        "genitiv": "Genitiv",
+        "name": "Hl. Apollinaris",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Laudes": {
-          "name": "Apollinaris",
-          "genitiv": "Genitiv",
+          "name": "Hl. Apollinaris",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Vesper": {
-          "name": "Apollinaris",
-          "genitiv": "Genitiv",
+          "name": "Hl. Apollinaris",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         }
@@ -3288,8 +2942,8 @@ export const adlibData = {
     },
     "21": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Laurentius von Brindisi",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -3302,13 +2956,13 @@ export const adlibData = {
           "oration": "Allmächtiger Gott, du hast dem heiligen Laurentius von Brindisi den Geist des Rates und der Stärke verliehen, damit er als Prediger und Seelsorger zu deiner Ehre und zum Heil der Menschen wirke. Erleuchte auch uns durch deinen Geist, damit wir unsere Aufgaben erkennen und sie in deiner Kraft erfüllen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Laurentius von Brindisi",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, du hast dem heiligen Laurentius von Brindisi den Geist des Rates und der Stärke verliehen, damit er als Prediger und Seelsorger zu deiner Ehre und zum Heil der Menschen wirke. Erleuchte auch uns durch deinen Geist, damit wir unsere Aufgaben erkennen und sie in deiner Kraft erfüllen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Laurentius von Brindisi",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, du hast dem heiligen Laurentius von Brindisi den Geist des Rates und der Stärke verliehen, damit er als Prediger und Seelsorger zu deiner Ehre und zum Heil der Menschen wirke. Erleuchte auch uns durch deinen Geist, damit wir unsere Aufgaben erkennen und sie in deiner Kraft erfüllen. Darum bitten wir durch Jesus Christus."
@@ -3317,8 +2971,8 @@ export const adlibData = {
     },
     "24": {
       "n1": {
-        "name": "Christophorus",
-        "genitiv": "Genitiv",
+        "name": "Hl. Christophorus",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -3331,36 +2985,32 @@ export const adlibData = {
           "oration": "Allmächtiger Gott, auf unserem Lebensweg bedrohen uns viele Gefahren. Höre auf die Fürsprache des heiligen Märtyrers Christophorus. Gib, dass wir Christus in uns tragen und mit unseren Weggefährten sicher zu dem Ziel gelangen, für das wir geschaffen sind. Darum bitten wir durch ihn, Jesus Christus."
         },
         "Laudes": {
-          "name": "Christophorus",
-          "genitiv": "Genitiv",
+          "name": "Hl. Christophorus",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, auf unserem Lebensweg bedrohen uns viele Gefahren. Höre auf die Fürsprache des heiligen Märtyrers Christophorus. Gib, dass wir Christus in uns tragen und mit unseren Weggefährten sicher zu dem Ziel gelangen, für das wir geschaffen sind. Darum bitten wir durch ihn, Jesus Christus."
         },
         "Vesper": {
-          "name": "Christophorus",
-          "genitiv": "Genitiv",
+          "name": "Hl. Christophorus",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, auf unserem Lebensweg bedrohen uns viele Gefahren. Höre auf die Fürsprache des heiligen Märtyrers Christophorus. Gib, dass wir Christus in uns tragen und mit unseren Weggefährten sicher zu dem Ziel gelangen, für das wir geschaffen sind. Darum bitten wir durch ihn, Jesus Christus."
         }
       },
       "n2": {
-        "name": "Scharbel Mahluf",
-        "genitiv": "Genitiv",
+        "name": "Hl. Scharbel Mahluf",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Laudes": {
-          "name": "Scharbel Mahluf",
-          "genitiv": "Genitiv",
+          "name": "Hl. Scharbel Mahluf",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Vesper": {
-          "name": "Scharbel Mahluf",
-          "genitiv": "Genitiv",
+          "name": "Hl. Scharbel Mahluf",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         }
@@ -3368,8 +3018,8 @@ export const adlibData = {
     },
     "29": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "^o+Hll. Marta, Maria und Lazarus / Hll. Simplicius, Faustinus und Beatrix^0o+^o>^t^kA. Außerhalb der Stadt Fulda:^0k^pw^t^fhll. Marta, Maria und Lazarus von Betanien^n, ^fGed^n",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Commune: mehrere Märtyrer.",
           "comm_2": "Comm_2",
@@ -3382,13 +3032,13 @@ export const adlibData = {
           "oration": "Herr, unser Gott, wir danken dir für deine Blutzeugen Simplicius, Faustinus und Beatrix, die durch ihr Martyrium wahrhaft Geschwister geworden sind. Die Gemeinschaft mit ihnen gebe unserem Glauben neue Kraft; ihre Fürbitte schenke uns Mut und Zuversicht. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "^o+Hll. Marta, Maria und Lazarus / Hll. Simplicius, Faustinus und Beatrix^0o+^o>^t^kA. Außerhalb der Stadt Fulda:^0k^pw^t^fhll. Marta, Maria und Lazarus von Betanien^n, ^fGed^n",
           "comm_1": "Commune: mehrere Märtyrer.",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, wir danken dir für deine Blutzeugen Simplicius, Faustinus und Beatrix, die durch ihr Martyrium wahrhaft Geschwister geworden sind. Die Gemeinschaft mit ihnen gebe unserem Glauben neue Kraft; ihre Fürbitte schenke uns Mut und Zuversicht. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "^o+Hll. Marta, Maria und Lazarus / Hll. Simplicius, Faustinus und Beatrix^0o+^o>^t^kA. Außerhalb der Stadt Fulda:^0k^pw^t^fhll. Marta, Maria und Lazarus von Betanien^n, ^fGed^n",
           "comm_1": "Commune: mehrere Märtyrer.",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, wir danken dir für deine Blutzeugen Simplicius, Faustinus und Beatrix, die durch ihr Martyrium wahrhaft Geschwister geworden sind. Die Gemeinschaft mit ihnen gebe unserem Glauben neue Kraft; ihre Fürbitte schenke uns Mut und Zuversicht. Darum bitten wir durch Jesus Christus."
@@ -3397,8 +3047,8 @@ export const adlibData = {
     },
     "30": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Petrus Chrysologus",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -3411,13 +3061,13 @@ export const adlibData = {
           "oration": "Erhabener Gott, du hast den Bischof Petrus Chrysologus zu einem begnadeten Verkünder deines ewigen Wortes gemacht, das unsere Menschennatur angenommen hat. Gewähre uns auf seine Fürsprache, dass wir die Geheimnisse der Erlösung allezeit im Herzen erwägen und in unseren Werken davon Zeugnis geben. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Petrus Chrysologus",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Erhabener Gott, du hast den Bischof Petrus Chrysologus zu einem begnadeten Verkünder deines ewigen Wortes gemacht, das unsere Menschennatur angenommen hat. Gewähre uns auf seine Fürsprache, dass wir die Geheimnisse der Erlösung allezeit im Herzen erwägen und in unseren Werken davon Zeugnis geben. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Petrus Chrysologus",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Erhabener Gott, du hast den Bischof Petrus Chrysologus zu einem begnadeten Verkünder deines ewigen Wortes gemacht, das unsere Menschennatur angenommen hat. Gewähre uns auf seine Fürsprache, dass wir die Geheimnisse der Erlösung allezeit im Herzen erwägen und in unseren Werken davon Zeugnis geben. Darum bitten wir durch Jesus Christus."
@@ -3428,8 +3078,8 @@ export const adlibData = {
   "8": {
     "2": {
       "n1": {
-        "name": "Eusebius",
-        "genitiv": "Genitiv",
+        "name": "Hl. Eusebius",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -3442,36 +3092,32 @@ export const adlibData = {
           "oration": "Wir bitten dich, Herr, unser Gott, gib, dass wir die Glaubenstreue des heiligen Bischofs Eusebius nachahmen, der die Lehre von der Gottheit Christi unerschrocken verteidigt hat, und lass uns teilhaben am göttlichen Leben deines Sohnes, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Laudes": {
-          "name": "Eusebius",
-          "genitiv": "Genitiv",
+          "name": "Hl. Eusebius",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Wir bitten dich, Herr, unser Gott, gib, dass wir die Glaubenstreue des heiligen Bischofs Eusebius nachahmen, der die Lehre von der Gottheit Christi unerschrocken verteidigt hat, und lass uns teilhaben am göttlichen Leben deines Sohnes, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Vesper": {
-          "name": "Eusebius",
-          "genitiv": "Genitiv",
+          "name": "Hl. Eusebius",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Wir bitten dich, Herr, unser Gott, gib, dass wir die Glaubenstreue des heiligen Bischofs Eusebius nachahmen, der die Lehre von der Gottheit Christi unerschrocken verteidigt hat, und lass uns teilhaben am göttlichen Leben deines Sohnes, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         }
       },
       "n2": {
-        "name": "Petrus Julianus Eymard",
-        "genitiv": "Genitiv",
+        "name": "Hl. Petrus Julianus Eymard",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Laudes": {
-          "name": "Petrus Julianus Eymard",
-          "genitiv": "Genitiv",
+          "name": "Hl. Petrus Julianus Eymard",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Vesper": {
-          "name": "Petrus Julianus Eymard",
-          "genitiv": "Genitiv",
+          "name": "Hl. Petrus Julianus Eymard",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         }
@@ -3479,8 +3125,8 @@ export const adlibData = {
     },
     "5": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Weihe der Basilika S. Maria Maggiore in Rom",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -3493,25 +3139,25 @@ export const adlibData = {
           "oration": "Barmherziger Gott, mit unserem eigenen Tun können wir vor dir nicht bestehen. Darum höre auf die Fürsprache der seligen Jungfrau Maria. Schau nicht auf unser Versagen, sondern sei uns gnädig und rette uns. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Weihe der Basilika S. Maria Maggiore in Rom",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
-          "Ant_Ev": "Heilige Jungfrau und Gottesmutter Maria,^lgebenedeit bist du unter den Frauen,^lund gebenedeit ist die Frucht deines Leibes.",
+          "Ant_Ev": "Heilige Jungfrau und Gottesmutter Maria, gebenedeit bist du unter den Frauen, und gebenedeit ist die Frucht deines Leibes.",
           "oration": "Barmherziger Gott, mit unserem eigenen Tun können wir vor dir nicht bestehen. Darum höre auf die Fürsprache der seligen Jungfrau Maria. Schau nicht auf unser Versagen, sondern sei uns gnädig und rette uns. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Weihe der Basilika S. Maria Maggiore in Rom",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
-          "Ant_Ev": "Heilige Maria, Mutter Gottes, bitte für uns Sünder,^ljetzt und in der Stunde unseres Todes.",
+          "Ant_Ev": "Heilige Maria, Mutter Gottes, bitte für uns Sünder, jetzt und in der Stunde unseres Todes.",
           "oration": "Barmherziger Gott, mit unserem eigenen Tun können wir vor dir nicht bestehen. Darum höre auf die Fürsprache der seligen Jungfrau Maria. Schau nicht auf unser Versagen, sondern sei uns gnädig und rette uns. Darum bitten wir durch Jesus Christus."
         }
       }
     },
     "7": {
       "n1": {
-        "name": "Xystus II.",
-        "genitiv": "Genitiv",
+        "name": "Hl. Xystus II.",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -3524,23 +3170,21 @@ export const adlibData = {
           "oration": "Allmächtiger Gott, du hast dem heiligen Xystus und seinen Gefährten die Kraft geschenkt, für dein Wort und das Zeugnis von Jesus ihr Leben dahinzugeben. Stärke uns mit dem Heiligen Geist, damit auch wir deine Botschaft gläubig hören und standhaft bekennen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Xystus II.",
-          "genitiv": "Genitiv",
+          "name": "Hl. Xystus II.",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, du hast dem heiligen Xystus und seinen Gefährten die Kraft geschenkt, für dein Wort und das Zeugnis von Jesus ihr Leben dahinzugeben. Stärke uns mit dem Heiligen Geist, damit auch wir deine Botschaft gläubig hören und standhaft bekennen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Xystus II.",
-          "genitiv": "Genitiv",
+          "name": "Hl. Xystus II.",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, du hast dem heiligen Xystus und seinen Gefährten die Kraft geschenkt, für dein Wort und das Zeugnis von Jesus ihr Leben dahinzugeben. Stärke uns mit dem Heiligen Geist, damit auch wir deine Botschaft gläubig hören und standhaft bekennen. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Kajetan",
-        "genitiv": "Genitiv",
+        "name": "Hl. Kajetan",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -3553,15 +3197,13 @@ export const adlibData = {
           "oration": "Herr, unser Gott, du hast den Priester und Ordensgründer Kajetan berufen, in frei gewählter Armut die Apostel nachzuahmen. Höre auf seine Fürsprache und hilf uns, nach seinem Beispiel auf dich allein zu vertrauen und unser Leben im Geist des Evangeliums zu erneuern. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Kajetan",
-          "genitiv": "Genitiv",
+          "name": "Hl. Kajetan",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, du hast den Priester und Ordensgründer Kajetan berufen, in frei gewählter Armut die Apostel nachzuahmen. Höre auf seine Fürsprache und hilf uns, nach seinem Beispiel auf dich allein zu vertrauen und unser Leben im Geist des Evangeliums zu erneuern. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Kajetan",
-          "genitiv": "Genitiv",
+          "name": "Hl. Kajetan",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, du hast den Priester und Ordensgründer Kajetan berufen, in frei gewählter Armut die Apostel nachzuahmen. Höre auf seine Fürsprache und hilf uns, nach seinem Beispiel auf dich allein zu vertrauen und unser Leben im Geist des Evangeliums zu erneuern. Darum bitten wir durch Jesus Christus."
@@ -3570,8 +3212,8 @@ export const adlibData = {
     },
     "12": {
       "n1": {
-        "name": "Radegunde",
-        "genitiv": "Genitiv",
+        "name": "Hl. Radegunde",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Commune Ordensleute.",
           "comm_2": "Comm_2",
@@ -3584,23 +3226,21 @@ export const adlibData = {
           "oration": "Barmherziger Gott, du hast die heilige Radegunde aus dem Glanz und der Bedrängnis der Welt in die Stille der Klosterzelle und in deinen Frieden geführt. Hilf uns, dass wir unsere Hoffnung nicht auf irdische Mittel setzen, sondern vertrauensvoll alles von dir erwarten. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Radegunde",
-          "genitiv": "Genitiv",
+          "name": "Hl. Radegunde",
           "comm_1": "Commune Ordensleute.",
           "comm_2": "Comm_2",
           "oration": "Barmherziger Gott, du hast die heilige Radegunde aus dem Glanz und der Bedrängnis der Welt in die Stille der Klosterzelle und in deinen Frieden geführt. Hilf uns, dass wir unsere Hoffnung nicht auf irdische Mittel setzen, sondern vertrauensvoll alles von dir erwarten. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Radegunde",
-          "genitiv": "Genitiv",
+          "name": "Hl. Radegunde",
           "comm_1": "Commune Ordensleute.",
           "comm_2": "Comm_2",
           "oration": "Barmherziger Gott, du hast die heilige Radegunde aus dem Glanz und der Bedrängnis der Welt in die Stille der Klosterzelle und in deinen Frieden geführt. Hilf uns, dass wir unsere Hoffnung nicht auf irdische Mittel setzen, sondern vertrauensvoll alles von dir erwarten. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Johanna Franziska von Chantal",
-        "genitiv": "Genitiv",
+        "name": "Hl. Johanna Franziska von Chantal",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -3612,15 +3252,13 @@ export const adlibData = {
           "oration": "Gott, du hast die heilige Johanna Franziska auf den verschiedenen Wegen ihres Lebens zu großen Taten befähigt. Höre auf ihre Fürsprache. Hilf jedem von uns, seine Berufung zu erkennen und deinen Auftrag zu erfüllen, damit wir Zeugen deines Lichtes werden. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Johanna Franziska von Chantal",
-          "genitiv": "Genitiv",
+          "name": "Hl. Johanna Franziska von Chantal",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du hast die heilige Johanna Franziska auf den verschiedenen Wegen ihres Lebens zu großen Taten befähigt. Höre auf ihre Fürsprache. Hilf jedem von uns, seine Berufung zu erkennen und deinen Auftrag zu erfüllen, damit wir Zeugen deines Lichtes werden. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Johanna Franziska von Chantal",
-          "genitiv": "Genitiv",
+          "name": "Hl. Johanna Franziska von Chantal",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du hast die heilige Johanna Franziska auf den verschiedenen Wegen ihres Lebens zu großen Taten befähigt. Höre auf ihre Fürsprache. Hilf jedem von uns, seine Berufung zu erkennen und deinen Auftrag zu erfüllen, damit wir Zeugen deines Lichtes werden. Darum bitten wir durch Jesus Christus."
@@ -3629,8 +3267,8 @@ export const adlibData = {
     },
     "13": {
       "n1": {
-        "name": "Wigbert",
-        "genitiv": "Genitiv",
+        "name": "Hl. Wigbert",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Hirten",
           "comm_2": "Ord",
@@ -3643,23 +3281,21 @@ export const adlibData = {
           "oration": "Herr, unser Gott, du hast dem heiligen Abt Wigbert einen besonderen Eifer verliehen, junge Menschen zur Nachfolge Christi zu führen. Hilf uns, deine Gebote treu zu beobachten und so für uns und unsere Brüder das Heil zu finden. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Wigbert",
-          "genitiv": "Genitiv",
+          "name": "Hl. Wigbert",
           "comm_1": "Hirten",
           "comm_2": "Ord",
           "oration": "Herr, unser Gott, du hast dem heiligen Abt Wigbert einen besonderen Eifer verliehen, junge Menschen zur Nachfolge Christi zu führen. Hilf uns, deine Gebote treu zu beobachten und so für uns und unsere Brüder das Heil zu finden. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Wigbert",
-          "genitiv": "Genitiv",
+          "name": "Hl. Wigbert",
           "comm_1": "Hirten",
           "comm_2": "Ord",
           "oration": "Herr, unser Gott, du hast dem heiligen Abt Wigbert einen besonderen Eifer verliehen, junge Menschen zur Nachfolge Christi zu führen. Hilf uns, deine Gebote treu zu beobachten und so für uns und unsere Brüder das Heil zu finden. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Pontianus und Hippolyt",
-        "genitiv": "Genitiv",
+        "name": "Hl. Pontianus und Hippolyt",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -3672,15 +3308,13 @@ export const adlibData = {
           "oration": "Herr, unser Gott, wir gedenken der heiligen Märtyrer Pontianus und Hippolyt und ehren ihr ruhmvolles Sterben für Christus. Das Beispiel ihrer Treue mehre in uns die Liebe zu dir und stärke unseren Glauben. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Pontianus und Hippolyt",
-          "genitiv": "Genitiv",
+          "name": "Hl. Pontianus und Hippolyt",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, wir gedenken der heiligen Märtyrer Pontianus und Hippolyt und ehren ihr ruhmvolles Sterben für Christus. Das Beispiel ihrer Treue mehre in uns die Liebe zu dir und stärke unseren Glauben. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Pontianus und Hippolyt",
-          "genitiv": "Genitiv",
+          "name": "Hl. Pontianus und Hippolyt",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, wir gedenken der heiligen Märtyrer Pontianus und Hippolyt und ehren ihr ruhmvolles Sterben für Christus. Das Beispiel ihrer Treue mehre in uns die Liebe zu dir und stärke unseren Glauben. Darum bitten wir durch Jesus Christus."
@@ -3689,8 +3323,8 @@ export const adlibData = {
     },
     "16": {
       "n1": {
-        "name": "Rochus",
-        "genitiv": "Genitiv",
+        "name": "Hl. Rochus",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Heilige der Nächstenliebe",
           "comm_2": "Comm_2",
@@ -3703,23 +3337,21 @@ export const adlibData = {
           "oration": "Gütiger Gott, du hast den heiligen Rochus berufen, in schwerer Zeit den Kranken und Armen beizustehen. Höre auf seine Fürsprache: Bewahre uns vor Schaden an Leib und Seele und mache auch uns bereit, unseren Mitmenschen in Krankheit und Not zu helfen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Rochus",
-          "genitiv": "Genitiv",
+          "name": "Hl. Rochus",
           "comm_1": "Heilige der Nächstenliebe",
           "comm_2": "Comm_2",
           "oration": "Gütiger Gott, du hast den heiligen Rochus berufen, in schwerer Zeit den Kranken und Armen beizustehen. Höre auf seine Fürsprache: Bewahre uns vor Schaden an Leib und Seele und mache auch uns bereit, unseren Mitmenschen in Krankheit und Not zu helfen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Rochus",
-          "genitiv": "Genitiv",
+          "name": "Hl. Rochus",
           "comm_1": "Heilige der Nächstenliebe",
           "comm_2": "Comm_2",
           "oration": "Gütiger Gott, du hast den heiligen Rochus berufen, in schwerer Zeit den Kranken und Armen beizustehen. Höre auf seine Fürsprache: Bewahre uns vor Schaden an Leib und Seele und mache auch uns bereit, unseren Mitmenschen in Krankheit und Not zu helfen. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Stephan von Ungarn",
-        "genitiv": "Genitiv",
+        "name": "Hl. Stephan von Ungarn",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -3732,15 +3364,13 @@ export const adlibData = {
           "oration": "Allmächtiger Gott, du hast den heiligen König Stephan berufen, das ungarische Volk zum christlichen Glauben zu führen. Lass uns erfahren, dass er seinem Volk und uns allen vom Himmel her ein mächtiger Helfer ist. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Stephan von Ungarn",
-          "genitiv": "Genitiv",
+          "name": "Hl. Stephan von Ungarn",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, du hast den heiligen König Stephan berufen, das ungarische Volk zum christlichen Glauben zu führen. Lass uns erfahren, dass er seinem Volk und uns allen vom Himmel her ein mächtiger Helfer ist. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Stephan von Ungarn",
-          "genitiv": "Genitiv",
+          "name": "Hl. Stephan von Ungarn",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, du hast den heiligen König Stephan berufen, das ungarische Volk zum christlichen Glauben zu führen. Lass uns erfahren, dass er seinem Volk und uns allen vom Himmel her ein mächtiger Helfer ist. Darum bitten wir durch Jesus Christus."
@@ -3749,8 +3379,8 @@ export const adlibData = {
     },
     "17": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "^t^fHl. Maximilian Maria Kolbe^n, Ordpr, Märt, ^fGed^n ^o>(^<FD; RK/GK: 14. Aug.)^0o>",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Märt",
           "comm_2": "Ord",
@@ -3763,13 +3393,13 @@ export const adlibData = {
           "oration": "Gott, in deiner Kraft hat der heilige Maximilian Kolbe die Qualen des Martyriums ausgehalten und sein Leben für den Bruder in Christus hingegeben. Sieh auf unsere Schwachheit und gib uns die Kraft, deine Wahrheit und deine Liebe in unserem Leben und Sterben zu bezeugen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "^t^fHl. Maximilian Maria Kolbe^n, Ordpr, Märt, ^fGed^n ^o>(^<FD; RK/GK: 14. Aug.)^0o>",
           "comm_1": "Märt",
           "comm_2": "Ord",
           "oration": "Gott, in deiner Kraft hat der heilige Maximilian Kolbe die Qualen des Martyriums ausgehalten und sein Leben für den Bruder in Christus hingegeben. Sieh auf unsere Schwachheit und gib uns die Kraft, deine Wahrheit und deine Liebe in unserem Leben und Sterben zu bezeugen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "^t^fHl. Maximilian Maria Kolbe^n, Ordpr, Märt, ^fGed^n ^o>(^<FD; RK/GK: 14. Aug.)^0o>",
           "comm_1": "Märt",
           "comm_2": "Ord",
           "oration": "Gott, in deiner Kraft hat der heilige Maximilian Kolbe die Qualen des Martyriums ausgehalten und sein Leben für den Bruder in Christus hingegeben. Sieh auf unsere Schwachheit und gib uns die Kraft, deine Wahrheit und deine Liebe in unserem Leben und Sterben zu bezeugen. Darum bitten wir durch Jesus Christus."
@@ -3778,8 +3408,8 @@ export const adlibData = {
     },
     "19": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Johannes Eudes",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -3792,13 +3422,13 @@ export const adlibData = {
           "oration": "Gott, in deiner Weisheit hast du den heiligen Johannes Eudes erwählt, den unergründlichen Reichtum Christi neu zu verkünden. Lehre uns durch das Wort und das Beispiel dieses Heiligen, dich immer tiefer zu erkennen und im Licht des Evangeliums voranzuschreiten. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Johannes Eudes",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, in deiner Weisheit hast du den heiligen Johannes Eudes erwählt, den unergründlichen Reichtum Christi neu zu verkünden. Lehre uns durch das Wort und das Beispiel dieses Heiligen, dich immer tiefer zu erkennen und im Licht des Evangeliums voranzuschreiten. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Johannes Eudes",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, in deiner Weisheit hast du den heiligen Johannes Eudes erwählt, den unergründlichen Reichtum Christi neu zu verkünden. Lehre uns durch das Wort und das Beispiel dieses Heiligen, dich immer tiefer zu erkennen und im Licht des Evangeliums voranzuschreiten. Darum bitten wir durch Jesus Christus."
@@ -3807,8 +3437,8 @@ export const adlibData = {
     },
     "23": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Rosa von Lima",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -3821,13 +3451,13 @@ export const adlibData = {
           "oration": "Gott, du Sehnsucht der Menschen, du hast die heilige Rosa von Lima mit solcher Liebe an dich gezogen, dass sie die Welt verließ und in harter Buße für dich allein lebte. Hilf uns auf ihre Fürsprache, unseren Weg durch diese Welt so zu gehen, dass wir dich, den unversiegbaren Quell der Freude, finden. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Rosa von Lima",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Sehnsucht der Menschen, du hast die heilige Rosa von Lima mit solcher Liebe an dich gezogen, dass sie die Welt verließ und in harter Buße für dich allein lebte. Hilf uns auf ihre Fürsprache, unseren Weg durch diese Welt so zu gehen, dass wir dich, den unversiegbaren Quell der Freude, finden. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Rosa von Lima",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Sehnsucht der Menschen, du hast die heilige Rosa von Lima mit solcher Liebe an dich gezogen, dass sie die Welt verließ und in harter Buße für dich allein lebte. Hilf uns auf ihre Fürsprache, unseren Weg durch diese Welt so zu gehen, dass wir dich, den unversiegbaren Quell der Freude, finden. Darum bitten wir durch Jesus Christus."
@@ -3836,8 +3466,8 @@ export const adlibData = {
     },
     "25": {
       "n1": {
-        "name": "Ludwig IX. von Frankreich",
-        "genitiv": "Genitiv",
+        "name": "Hl. Ludwig IX. von Frankreich",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -3850,23 +3480,21 @@ export const adlibData = {
           "oration": "Gott, du hast den heiligen König Ludwig aus der Verantwortung für sein Land in das himmlische Reich gerufen. Seine Fürsprache helfe uns, die irdischen Pflichten so zu erfüllen, dass wir zum Himmelreich gelangen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Ludwig IX. von Frankreich",
-          "genitiv": "Genitiv",
+          "name": "Hl. Ludwig IX. von Frankreich",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du hast den heiligen König Ludwig aus der Verantwortung für sein Land in das himmlische Reich gerufen. Seine Fürsprache helfe uns, die irdischen Pflichten so zu erfüllen, dass wir zum Himmelreich gelangen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Ludwig IX. von Frankreich",
-          "genitiv": "Genitiv",
+          "name": "Hl. Ludwig IX. von Frankreich",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du hast den heiligen König Ludwig aus der Verantwortung für sein Land in das himmlische Reich gerufen. Seine Fürsprache helfe uns, die irdischen Pflichten so zu erfüllen, dass wir zum Himmelreich gelangen. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Josef von Calasanza",
-        "genitiv": "Genitiv",
+        "name": "Hl. Josef von Calasanza",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -3879,15 +3507,13 @@ export const adlibData = {
           "oration": "Gütiger Gott, du hast den heiligen Josef von Calasanz zu einem Lehrer der Weisheit gemacht und ihn befähigt, sich mit Liebe und Geduld der Erziehung der Jugend zu widmen. Steh uns bei, wenn wir nach seinem Vorbild uns bemühen, junge Menschen zur Erkenntnis der Wahrheit zu führen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Josef von Calasanza",
-          "genitiv": "Genitiv",
+          "name": "Hl. Josef von Calasanza",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gütiger Gott, du hast den heiligen Josef von Calasanz zu einem Lehrer der Weisheit gemacht und ihn befähigt, sich mit Liebe und Geduld der Erziehung der Jugend zu widmen. Steh uns bei, wenn wir nach seinem Vorbild uns bemühen, junge Menschen zur Erkenntnis der Wahrheit zu führen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Josef von Calasanza",
-          "genitiv": "Genitiv",
+          "name": "Hl. Josef von Calasanza",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gütiger Gott, du hast den heiligen Josef von Calasanz zu einem Lehrer der Weisheit gemacht und ihn befähigt, sich mit Liebe und Geduld der Erziehung der Jugend zu widmen. Steh uns bei, wenn wir nach seinem Vorbild uns bemühen, junge Menschen zur Erkenntnis der Wahrheit zu führen. Darum bitten wir durch Jesus Christus."
@@ -3896,19 +3522,19 @@ export const adlibData = {
     },
     "26": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Sel. Johannes Paul I.",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Sel. Johannes Paul I.",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Sel. Johannes Paul I.",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         }
@@ -3916,8 +3542,8 @@ export const adlibData = {
     },
     "31": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Paulinus",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -3930,13 +3556,13 @@ export const adlibData = {
           "oration": "Allmächtiger Gott, du hast dem heiligen Paulinus von Trier im Kampf gegen die arianische Irrlehre unerschrockenen Mut gegeben, so dass er auch die Verbannung nicht scheute. Lehre uns, das Wahre vom Falschen zu unterscheiden, und hilf uns, ohne Furcht für die Wahrheit einzutreten. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Paulinus",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, du hast dem heiligen Paulinus von Trier im Kampf gegen die arianische Irrlehre unerschrockenen Mut gegeben, so dass er auch die Verbannung nicht scheute. Lehre uns, das Wahre vom Falschen zu unterscheiden, und hilf uns, ohne Furcht für die Wahrheit einzutreten. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Paulinus",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, du hast dem heiligen Paulinus von Trier im Kampf gegen die arianische Irrlehre unerschrockenen Mut gegeben, so dass er auch die Verbannung nicht scheute. Lehre uns, das Wahre vom Falschen zu unterscheiden, und hilf uns, ohne Furcht für die Wahrheit einzutreten. Darum bitten wir durch Jesus Christus."
@@ -3947,19 +3573,19 @@ export const adlibData = {
   "9": {
     "5": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Mutter Teresa von Kalkutta",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Mutter Teresa von Kalkutta",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Mutter Teresa von Kalkutta",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         }
@@ -3967,19 +3593,19 @@ export const adlibData = {
     },
     "9": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Petrus Claver",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Petrus Claver",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Petrus Claver",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         }
@@ -3987,8 +3613,8 @@ export const adlibData = {
     },
     "12": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Heiligster Name Mariens (Mariä Namen)",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -3998,13 +3624,13 @@ export const adlibData = {
           "oration": "Gott, unser Retter, der Name der seligen Jungfrau Maria ist für uns ein Zeichen der Hoffnung geworden. Befreie uns auf ihre Fürsprache aus allen Gefahren und vollende an uns das Werk der Erlösung. Darum bitten wir durch Jesus Christus. "
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Heiligster Name Mariens (Mariä Namen)",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, unser Retter, der Name der seligen Jungfrau Maria ist für uns ein Zeichen der Hoffnung geworden. Befreie uns auf ihre Fürsprache aus allen Gefahren und vollende an uns das Werk der Erlösung. Darum bitten wir durch Jesus Christus. "
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Heiligster Name Mariens (Mariä Namen)",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, unser Retter, der Name der seligen Jungfrau Maria ist für uns ein Zeichen der Hoffnung geworden. Befreie uns auf ihre Fürsprache aus allen Gefahren und vollende an uns das Werk der Erlösung. Darum bitten wir durch Jesus Christus. "
@@ -4013,8 +3639,8 @@ export const adlibData = {
     },
     "17": {
       "n1": {
-        "name": "Hildegard von Bingen",
-        "genitiv": "Genitiv",
+        "name": "Hl. Hildegard von Bingen",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -4027,23 +3653,21 @@ export const adlibData = {
           "oration": "Gott, du Quelle des Lebens, du hast die heilige Hildegard mit prophetischem Geist erfüllt. Hilf uns, nach ihrem Vorbild über deine Wege nachzusinnen und deiner Führung zu folgen, damit wir in der Dunkelheit dieser Welt das Licht deiner Klarheit erkennen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Hildegard von Bingen",
-          "genitiv": "Genitiv",
+          "name": "Hl. Hildegard von Bingen",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Quelle des Lebens, du hast die heilige Hildegard mit prophetischem Geist erfüllt. Hilf uns, nach ihrem Vorbild über deine Wege nachzusinnen und deiner Führung zu folgen, damit wir in der Dunkelheit dieser Welt das Licht deiner Klarheit erkennen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Hildegard von Bingen",
-          "genitiv": "Genitiv",
+          "name": "Hl. Hildegard von Bingen",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Quelle des Lebens, du hast die heilige Hildegard mit prophetischem Geist erfüllt. Hilf uns, nach ihrem Vorbild über deine Wege nachzusinnen und deiner Führung zu folgen, damit wir in der Dunkelheit dieser Welt das Licht deiner Klarheit erkennen. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Robert Bellarmin",
-        "genitiv": "Genitiv",
+        "name": "Hl. Robert Bellarmin",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -4056,15 +3680,13 @@ export const adlibData = {
           "oration": "Ewiger Gott, du hast uns im heiligen Robert Bellarmin einen Bischof und Gelehrten geschenkt, der durch seine Schriften den Glauben der Kirche gefestigt hat. Höre auf seine Fürsprache und hilf deinem Volk, diesen Glauben in seiner ganzen Fülle zu bewahren und weiterzugeben. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Robert Bellarmin",
-          "genitiv": "Genitiv",
+          "name": "Hl. Robert Bellarmin",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Ewiger Gott, du hast uns im heiligen Robert Bellarmin einen Bischof und Gelehrten geschenkt, der durch seine Schriften den Glauben der Kirche gefestigt hat. Höre auf seine Fürsprache und hilf deinem Volk, diesen Glauben in seiner ganzen Fülle zu bewahren und weiterzugeben. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Robert Bellarmin",
-          "genitiv": "Genitiv",
+          "name": "Hl. Robert Bellarmin",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Ewiger Gott, du hast uns im heiligen Robert Bellarmin einen Bischof und Gelehrten geschenkt, der durch seine Schriften den Glauben der Kirche gefestigt hat. Höre auf seine Fürsprache und hilf deinem Volk, diesen Glauben in seiner ganzen Fülle zu bewahren und weiterzugeben. Darum bitten wir durch Jesus Christus."
@@ -4073,8 +3695,8 @@ export const adlibData = {
     },
     "18": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Lambert",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -4087,13 +3709,13 @@ export const adlibData = {
           "oration": "Gott, von dem alles Gute kommt, aus Liebe zu dir hat der heilige Bischof und Märtyrer Lambert Besitz und Leben geringgeachtet. Gib uns auf seine Fürsprache die Freiheit des Geistes, damit wir uns ohne Zögern deiner Führung überlassen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Lambert",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, von dem alles Gute kommt, aus Liebe zu dir hat der heilige Bischof und Märtyrer Lambert Besitz und Leben geringgeachtet. Gib uns auf seine Fürsprache die Freiheit des Geistes, damit wir uns ohne Zögern deiner Führung überlassen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Lambert",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, von dem alles Gute kommt, aus Liebe zu dir hat der heilige Bischof und Märtyrer Lambert Besitz und Leben geringgeachtet. Gib uns auf seine Fürsprache die Freiheit des Geistes, damit wir uns ohne Zögern deiner Führung überlassen. Darum bitten wir durch Jesus Christus."
@@ -4102,8 +3724,8 @@ export const adlibData = {
     },
     "19": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Januarius",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -4116,13 +3738,13 @@ export const adlibData = {
           "oration": "Ewiger Gott, du lässt uns heute den Gedenktag des heiligen Bischofs und Blutzeugen Januarius begehen. Gib uns den festen Glauben dieses Märtyrers und führe auch uns zur ewigen Freude. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Januarius",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Ewiger Gott, du lässt uns heute den Gedenktag des heiligen Bischofs und Blutzeugen Januarius begehen. Gib uns den festen Glauben dieses Märtyrers und führe auch uns zur ewigen Freude. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Januarius",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Ewiger Gott, du lässt uns heute den Gedenktag des heiligen Bischofs und Blutzeugen Januarius begehen. Gib uns den festen Glauben dieses Märtyrers und führe auch uns zur ewigen Freude. Darum bitten wir durch Jesus Christus."
@@ -4131,8 +3753,8 @@ export const adlibData = {
     },
     "22": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hll. Mauritius und Gefährten",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -4145,13 +3767,13 @@ export const adlibData = {
           "oration": "Herr, unser Gott, du hast dem heiligen Märtyrer Mauritius und seinen Gefährten die Kraft gegeben, dem Glauben an Christus treu zu bleiben. Gib auch uns den Mut, dir mehr zu gehorchen als den Menschen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hll. Mauritius und Gefährten",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, du hast dem heiligen Märtyrer Mauritius und seinen Gefährten die Kraft gegeben, dem Glauben an Christus treu zu bleiben. Gib auch uns den Mut, dir mehr zu gehorchen als den Menschen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hll. Mauritius und Gefährten",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, du hast dem heiligen Märtyrer Mauritius und seinen Gefährten die Kraft gegeben, dem Glauben an Christus treu zu bleiben. Gib auch uns den Mut, dir mehr zu gehorchen als den Menschen. Darum bitten wir durch Jesus Christus."
@@ -4160,8 +3782,8 @@ export const adlibData = {
     },
     "24": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Rupert und hl. Virgil",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -4174,25 +3796,25 @@ export const adlibData = {
           "oration": "Gott, du Herr aller Völker, du hast durch die heiligen Bischöfe Rupert und Virgil Menschen verschiedener Sprache und Herkunft in die Gemeinschaft der Kirche eingefügt. Erhalte uns auf die Fürsprache dieser Heiligen in der Einheit des Glaubens und der Liebe. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Rupert und hl. Virgil",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
-          "Ant_Ev": "Weise Hirten sandte Christus seinem Volk,^ldie ihm den Weg zum Lichte wiesen.",
+          "Ant_Ev": "Weise Hirten sandte Christus seinem Volk, die ihm den Weg zum Lichte wiesen.",
           "oration": "Gott, du Herr aller Völker, du hast durch die heiligen Bischöfe Rupert und Virgil Menschen verschiedener Sprache und Herkunft in die Gemeinschaft der Kirche eingefügt. Erhalte uns auf die Fürsprache dieser Heiligen in der Einheit des Glaubens und der Liebe. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Rupert und hl. Virgil",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
-          "Ant_Ev": "Das sind die heiligen Männer,^ldie Boten des Evangeliums,^ldie uns auf den Weg des Heiles führten.",
+          "Ant_Ev": "Das sind die heiligen Männer, die Boten des Evangeliums, die uns auf den Weg des Heiles führten.",
           "oration": "Gott, du Herr aller Völker, du hast durch die heiligen Bischöfe Rupert und Virgil Menschen verschiedener Sprache und Herkunft in die Gemeinschaft der Kirche eingefügt. Erhalte uns auf die Fürsprache dieser Heiligen in der Einheit des Glaubens und der Liebe. Darum bitten wir durch Jesus Christus."
         }
       }
     },
     "25": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Nikolaus von Flüe",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -4205,25 +3827,25 @@ export const adlibData = {
           "oration": "Herr, unser Gott, deinem Ruf gehorsam, hat der heilige Bruder Klaus Familie und Besitz verlassen, um in der Einsamkeit für dich allein zu leben; du aber hast ihn zu einem Ratgeber für viele und zu einem Mittler des Friedens gemacht. Höre auf seine Fürsprache: Nimm alles von uns, was uns trennt von dir, und mache uns zu einem Werkzeug deines Friedens. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Nikolaus von Flüe",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
-          "Ant_Ev": "Der Herr hat mich erleuchtet.^lEr lenkte meine Schritte auf den Weg des Friedens.",
+          "Ant_Ev": "Der Herr hat mich erleuchtet. Er lenkte meine Schritte auf den Weg des Friedens.",
           "oration": "Herr, unser Gott, deinem Ruf gehorsam, hat der heilige Bruder Klaus Familie und Besitz verlassen, um in der Einsamkeit für dich allein zu leben; du aber hast ihn zu einem Ratgeber für viele und zu einem Mittler des Friedens gemacht. Höre auf seine Fürsprache: Nimm alles von uns, was uns trennt von dir, und mache uns zu einem Werkzeug deines Friedens. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Nikolaus von Flüe",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
-          "Ant_Ev": "Mit dem Brot des Lebens nährte ihn der Herr.^lEr schenkte ihm Klugheit und Einsicht.",
+          "Ant_Ev": "Mit dem Brot des Lebens nährte ihn der Herr. Er schenkte ihm Klugheit und Einsicht.",
           "oration": "Herr, unser Gott, deinem Ruf gehorsam, hat der heilige Bruder Klaus Familie und Besitz verlassen, um in der Einsamkeit für dich allein zu leben; du aber hast ihn zu einem Ratgeber für viele und zu einem Mittler des Friedens gemacht. Höre auf seine Fürsprache: Nimm alles von uns, was uns trennt von dir, und mache uns zu einem Werkzeug deines Friedens. Darum bitten wir durch Jesus Christus."
         }
       }
     },
     "26": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Kosmas und hl. Damian",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -4236,13 +3858,13 @@ export const adlibData = {
           "oration": "Erhabener Gott, am Gedenktag der heiligen Märtyrer Kosmas und Damian preisen wir deine Macht und Güte. Du hast ihnen ewigen Ruhm geschenkt, uns aber gewähre immer neu deine Hilfe. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Kosmas und hl. Damian",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Erhabener Gott, am Gedenktag der heiligen Märtyrer Kosmas und Damian preisen wir deine Macht und Güte. Du hast ihnen ewigen Ruhm geschenkt, uns aber gewähre immer neu deine Hilfe. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Kosmas und hl. Damian",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Erhabener Gott, am Gedenktag der heiligen Märtyrer Kosmas und Damian preisen wir deine Macht und Güte. Du hast ihnen ewigen Ruhm geschenkt, uns aber gewähre immer neu deine Hilfe. Darum bitten wir durch Jesus Christus."
@@ -4253,8 +3875,8 @@ export const adlibData = {
   "10": {
     "6": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Bruno",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -4267,13 +3889,13 @@ export const adlibData = {
           "oration": "Gott, du hast den heiligen Bruno in die Einsamkeit geführt und ihn zu einem Leben in deiner Nähe berufen. Auf die Fürsprache dieses heiligen Mönches schenke uns die Gnade, dass wir uns nicht blenden lassen vom Glanz dieser Welt, sondern bereit und offen bleiben für deinen Ruf. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Bruno",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du hast den heiligen Bruno in die Einsamkeit geführt und ihn zu einem Leben in deiner Nähe berufen. Auf die Fürsprache dieses heiligen Mönches schenke uns die Gnade, dass wir uns nicht blenden lassen vom Glanz dieser Welt, sondern bereit und offen bleiben für deinen Ruf. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Bruno",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du hast den heiligen Bruno in die Einsamkeit geführt und ihn zu einem Leben in deiner Nähe berufen. Auf die Fürsprache dieses heiligen Mönches schenke uns die Gnade, dass wir uns nicht blenden lassen vom Glanz dieser Welt, sondern bereit und offen bleiben für deinen Ruf. Darum bitten wir durch Jesus Christus."
@@ -4282,8 +3904,8 @@ export const adlibData = {
     },
     "9": {
       "n1": {
-        "name": "Gunther von Thüringen",
-        "genitiv": "Genitiv",
+        "name": "Hl. Gunther von Thüringen",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Ordensleute",
           "comm_2": "Comm_2",
@@ -4295,23 +3917,21 @@ export const adlibData = {
           "oration": "Allmächtiger Gott, der heilige Einsiedler Gunther hat den Menschen als Helfer in der Not und als Friedensstifter gedient. Gib, dass wir aus christlichem Geist unseren Brüdern in selbstloser Liebe begegnen und stets für den Frieden eintreten. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Gunther von Thüringen",
-          "genitiv": "Genitiv",
+          "name": "Hl. Gunther von Thüringen",
           "comm_1": "Ordensleute",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, der heilige Einsiedler Gunther hat den Menschen als Helfer in der Not und als Friedensstifter gedient. Gib, dass wir aus christlichem Geist unseren Brüdern in selbstloser Liebe begegnen und stets für den Frieden eintreten. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Gunther von Thüringen",
-          "genitiv": "Genitiv",
+          "name": "Hl. Gunther von Thüringen",
           "comm_1": "Ordensleute",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, der heilige Einsiedler Gunther hat den Menschen als Helfer in der Not und als Friedensstifter gedient. Gib, dass wir aus christlichem Geist unseren Brüdern in selbstloser Liebe begegnen und stets für den Frieden eintreten. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Dionysius und Gefährten",
-        "genitiv": "Genitiv",
+        "name": "Hl. Dionysius und Gefährten",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -4324,23 +3944,21 @@ export const adlibData = {
           "oration": "Gott, du hast den heiligen Dionysius und seine Gefährten gesandt, in Gallien deine Macht und Größe zu verkünden, und ihnen die Kraft zum Martyrium gegeben. Gib, dass wir über dem Irdischen stehen und keine Verfolgung fürchten, sondern im Leben und Sterben auf dich schauen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Dionysius und Gefährten",
-          "genitiv": "Genitiv",
+          "name": "Hl. Dionysius und Gefährten",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du hast den heiligen Dionysius und seine Gefährten gesandt, in Gallien deine Macht und Größe zu verkünden, und ihnen die Kraft zum Martyrium gegeben. Gib, dass wir über dem Irdischen stehen und keine Verfolgung fürchten, sondern im Leben und Sterben auf dich schauen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Dionysius und Gefährten",
-          "genitiv": "Genitiv",
+          "name": "Hl. Dionysius und Gefährten",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du hast den heiligen Dionysius und seine Gefährten gesandt, in Gallien deine Macht und Größe zu verkünden, und ihnen die Kraft zum Martyrium gegeben. Gib, dass wir über dem Irdischen stehen und keine Verfolgung fürchten, sondern im Leben und Sterben auf dich schauen. Darum bitten wir durch Jesus Christus."
         }
       },
       "n3": {
-        "name": "Johannes Leonardi",
-        "genitiv": "Genitiv",
+        "name": "Hl. Johannes Leonardi",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -4353,38 +3971,34 @@ export const adlibData = {
           "oration": "Gott, du Spender alles Guten, du hast den heiligen Johannes Leonardi zum Diener deines Wortes bestellt. Gib uns auf seine Fürsprache Erzieher und Prediger, die deine Wahrheit lehren und sie durch ihr Leben bezeugen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Johannes Leonardi",
-          "genitiv": "Genitiv",
+          "name": "Hl. Johannes Leonardi",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Spender alles Guten, du hast den heiligen Johannes Leonardi zum Diener deines Wortes bestellt. Gib uns auf seine Fürsprache Erzieher und Prediger, die deine Wahrheit lehren und sie durch ihr Leben bezeugen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Johannes Leonardi",
-          "genitiv": "Genitiv",
+          "name": "Hl. Johannes Leonardi",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Spender alles Guten, du hast den heiligen Johannes Leonardi zum Diener deines Wortes bestellt. Gib uns auf seine Fürsprache Erzieher und Prediger, die deine Wahrheit lehren und sie durch ihr Leben bezeugen. Darum bitten wir durch Jesus Christus."
         }
       },
       "n4": {
-        "name": "John Henry Newman",
-        "genitiv": "Genitiv",
+        "name": "Hl. John Henry Newman",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du hast dem heiligen Priester John Henry Newman die Gnade geschenkt, deinem gütigen Licht zu folgen und in deiner Kirche Frieden zu finden. Gewähre uns, dass wir auf seine Fürsprache und durch sein Beispiel aus Schatten und Bildern zur Fülle deiner Wahrheit geführt werden. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "John Henry Newman",
-          "genitiv": "Genitiv",
+          "name": "Hl. John Henry Newman",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du hast dem heiligen Priester John Henry Newman die Gnade geschenkt, deinem gütigen Licht zu folgen und in deiner Kirche Frieden zu finden. Gewähre uns, dass wir auf seine Fürsprache und durch sein Beispiel aus Schatten und Bildern zur Fülle deiner Wahrheit geführt werden. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "John Henry Newman",
-          "genitiv": "Genitiv",
+          "name": "Hl. John Henry Newman",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du hast dem heiligen Priester John Henry Newman die Gnade geschenkt, deinem gütigen Licht zu folgen und in deiner Kirche Frieden zu finden. Gewähre uns, dass wir auf seine Fürsprache und durch sein Beispiel aus Schatten und Bildern zur Fülle deiner Wahrheit geführt werden. Darum bitten wir durch Jesus Christus."
@@ -4393,8 +4007,8 @@ export const adlibData = {
     },
     "14": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Kallistus I.",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -4407,13 +4021,13 @@ export const adlibData = {
           "oration": "Gütiger Gott, erhöre unsere Gebete, die wir am Gedenktag des heiligen Märtyrerpapstes Kallistus vor dich bringen. Sieh auf sein heiliges Leben und Sterben und gewähre der Kirche allezeit deine Hilfe. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Kallistus I.",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gütiger Gott, erhöre unsere Gebete, die wir am Gedenktag des heiligen Märtyrerpapstes Kallistus vor dich bringen. Sieh auf sein heiliges Leben und Sterben und gewähre der Kirche allezeit deine Hilfe. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Kallistus I.",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gütiger Gott, erhöre unsere Gebete, die wir am Gedenktag des heiligen Märtyrerpapstes Kallistus vor dich bringen. Sieh auf sein heiliges Leben und Sterben und gewähre der Kirche allezeit deine Hilfe. Darum bitten wir durch Jesus Christus."
@@ -4422,8 +4036,8 @@ export const adlibData = {
     },
     "16": {
       "n1": {
-        "name": "Lullus",
-        "genitiv": "Genitiv",
+        "name": "Hl. Lullus",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Hirten der Kirche",
           "comm_2": "Comm_2",
@@ -4436,23 +4050,21 @@ export const adlibData = {
           "oration": "Herr, unser Gott, du hast den heiligen Lullus mit apostolischem Eifer erfüllt und ihn dem heiligen Bonifatius zum Mitarbeiter und Nachfolger gegeben. Höre auf seine Fürsprache, mache uns treu im Glauben und stark in der Hoffnung, die uns das Evangelium schenkt. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Lullus",
-          "genitiv": "Genitiv",
+          "name": "Hl. Lullus",
           "comm_1": "Hirten der Kirche",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, du hast den heiligen Lullus mit apostolischem Eifer erfüllt und ihn dem heiligen Bonifatius zum Mitarbeiter und Nachfolger gegeben. Höre auf seine Fürsprache, mache uns treu im Glauben und stark in der Hoffnung, die uns das Evangelium schenkt. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Lullus",
-          "genitiv": "Genitiv",
+          "name": "Hl. Lullus",
           "comm_1": "Hirten der Kirche",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, du hast den heiligen Lullus mit apostolischem Eifer erfüllt und ihn dem heiligen Bonifatius zum Mitarbeiter und Nachfolger gegeben. Höre auf seine Fürsprache, mache uns treu im Glauben und stark in der Hoffnung, die uns das Evangelium schenkt. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Margareta Maria Alacoque",
-        "genitiv": "Genitiv",
+        "name": "Hl. Margareta Maria Alacoque",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -4465,23 +4077,21 @@ export const adlibData = {
           "oration": "Barmherziger Gott, du hast die heilige Margareta Maria Alacoque die Liebe deines Sohnes schauen lassen, die alles Begreifen übersteigt. Schenke auch uns deinen Geist, damit wir die Größe deines Erbarmens erkennen und am Reichtum deines göttlichen Lebens teilhaben. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Margareta Maria Alacoque",
-          "genitiv": "Genitiv",
+          "name": "Hl. Margareta Maria Alacoque",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Barmherziger Gott, du hast die heilige Margareta Maria Alacoque die Liebe deines Sohnes schauen lassen, die alles Begreifen übersteigt. Schenke auch uns deinen Geist, damit wir die Größe deines Erbarmens erkennen und am Reichtum deines göttlichen Lebens teilhaben. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Margareta Maria Alacoque",
-          "genitiv": "Genitiv",
+          "name": "Hl. Margareta Maria Alacoque",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Barmherziger Gott, du hast die heilige Margareta Maria Alacoque die Liebe deines Sohnes schauen lassen, die alles Begreifen übersteigt. Schenke auch uns deinen Geist, damit wir die Größe deines Erbarmens erkennen und am Reichtum deines göttlichen Lebens teilhaben. Darum bitten wir durch Jesus Christus."
         }
       },
       "n3": {
-        "name": "Hedwig",
-        "genitiv": "Genitiv",
+        "name": "Hl. Hedwig",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -4493,25 +4103,23 @@ export const adlibData = {
           "oration": "Allmächtiger Gott, du hast die heilige Herzogin Hedwig zu einer Botin des Friedens gemacht und ihr die Gnade geschenkt, inmitten weltlicher Aufgaben ein Beispiel barmherziger Liebe zu geben. Hilf auf ihre Fürsprache auch uns, für Versöhnung und Frieden unter den Menschen zu wirken und dir in den Notleidenden zu dienen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Hedwig",
-          "genitiv": "Genitiv",
+          "name": "Hl. Hedwig",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
-          "Ant_Ev": "Gottes Wille sei auch unser Wille.^lWas immer unserem Herrn gefällt, soll auch uns gefallen.",
+          "Ant_Ev": "Gottes Wille sei auch unser Wille. Was immer unserem Herrn gefällt, soll auch uns gefallen.",
           "oration": "Allmächtiger Gott, du hast die heilige Herzogin Hedwig zu einer Botin des Friedens gemacht und ihr die Gnade geschenkt, inmitten weltlicher Aufgaben ein Beispiel barmherziger Liebe zu geben. Hilf auf ihre Fürsprache auch uns, für Versöhnung und Frieden unter den Menschen zu wirken und dir in den Notleidenden zu dienen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Hedwig",
-          "genitiv": "Genitiv",
+          "name": "Hl. Hedwig",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
-          "Ant_Ev": "Hedwig, du große Frau, im Himmelreich gekrönt,^lvergiss der Heimatlosen nicht in diesem Tal der Tränen.",
+          "Ant_Ev": "Hedwig, du große Frau, im Himmelreich gekrönt, vergiss der Heimatlosen nicht in diesem Tal der Tränen.",
           "oration": "Allmächtiger Gott, du hast die heilige Herzogin Hedwig zu einer Botin des Friedens gemacht und ihr die Gnade geschenkt, inmitten weltlicher Aufgaben ein Beispiel barmherziger Liebe zu geben. Hilf auf ihre Fürsprache auch uns, für Versöhnung und Frieden unter den Menschen zu wirken und dir in den Notleidenden zu dienen. Darum bitten wir durch Jesus Christus."
         }
       },
       "n4": {
-        "name": "Gallus",
-        "genitiv": "Genitiv",
+        "name": "Hl. Gallus",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -4524,15 +4132,13 @@ export const adlibData = {
           "oration": "Allmächtiger Gott, du hast den heiligen Gallus berufen, als Mönch und Glaubensbote unter den Alemannen die Wahrheit des Evangeliums auszubreiten. Erhalte uns die Freude, die aus dem Glauben kommt, und stärke unsere Treue zu Jesus Christus, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Laudes": {
-          "name": "Gallus",
-          "genitiv": "Genitiv",
+          "name": "Hl. Gallus",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, du hast den heiligen Gallus berufen, als Mönch und Glaubensbote unter den Alemannen die Wahrheit des Evangeliums auszubreiten. Erhalte uns die Freude, die aus dem Glauben kommt, und stärke unsere Treue zu Jesus Christus, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Vesper": {
-          "name": "Gallus",
-          "genitiv": "Genitiv",
+          "name": "Hl. Gallus",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, du hast den heiligen Gallus berufen, als Mönch und Glaubensbote unter den Alemannen die Wahrheit des Evangeliums auszubreiten. Erhalte uns die Freude, die aus dem Glauben kommt, und stärke unsere Treue zu Jesus Christus, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
@@ -4541,8 +4147,8 @@ export const adlibData = {
     },
     "19": {
       "n1": {
-        "name": "Johannes de Brébeuf, Isaak Jogues und Gefährten",
-        "genitiv": "Genitiv",
+        "name": "Hl. Johannes de Brébeuf, Isaak Jogues und Gefährten",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -4555,23 +4161,21 @@ export const adlibData = {
           "oration": "Gütiger Gott, du hast durch die Predigt und das Martyrium des heiligen Johannes und seiner Gefährten die Anfänge der Kirche in Nordamerika geheiligt. Lass auf ihre Fürsprache in der ganzen Welt die Saat des Glaubens aufblühen und reifen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Johannes de Brébeuf, Isaak Jogues und Gefährten",
-          "genitiv": "Genitiv",
+          "name": "Hl. Johannes de Brébeuf, Isaak Jogues und Gefährten",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gütiger Gott, du hast durch die Predigt und das Martyrium des heiligen Johannes und seiner Gefährten die Anfänge der Kirche in Nordamerika geheiligt. Lass auf ihre Fürsprache in der ganzen Welt die Saat des Glaubens aufblühen und reifen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Johannes de Brébeuf, Isaak Jogues und Gefährten",
-          "genitiv": "Genitiv",
+          "name": "Hl. Johannes de Brébeuf, Isaak Jogues und Gefährten",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gütiger Gott, du hast durch die Predigt und das Martyrium des heiligen Johannes und seiner Gefährten die Anfänge der Kirche in Nordamerika geheiligt. Lass auf ihre Fürsprache in der ganzen Welt die Saat des Glaubens aufblühen und reifen. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Paul vom Kreuz",
-        "genitiv": "Genitiv",
+        "name": "Hl. Paul vom Kreuz",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -4584,15 +4188,13 @@ export const adlibData = {
           "oration": "Barmherziger Gott, du hast dem heiligen Paul vom Kreuz eine außergewöhnliche Liebe zum Leiden Christi gegeben. Hilf uns, nach seinem Vorbild den Erlöser zu lieben und unser eigenes Kreuz mit Geduld zu tragen. Darum bitten wir durch ihn, Jesus Christus."
         },
         "Laudes": {
-          "name": "Paul vom Kreuz",
-          "genitiv": "Genitiv",
+          "name": "Hl. Paul vom Kreuz",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Barmherziger Gott, du hast dem heiligen Paul vom Kreuz eine außergewöhnliche Liebe zum Leiden Christi gegeben. Hilf uns, nach seinem Vorbild den Erlöser zu lieben und unser eigenes Kreuz mit Geduld zu tragen. Darum bitten wir durch ihn, Jesus Christus."
         },
         "Vesper": {
-          "name": "Paul vom Kreuz",
-          "genitiv": "Genitiv",
+          "name": "Hl. Paul vom Kreuz",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Barmherziger Gott, du hast dem heiligen Paul vom Kreuz eine außergewöhnliche Liebe zum Leiden Christi gegeben. Hilf uns, nach seinem Vorbild den Erlöser zu lieben und unser eigenes Kreuz mit Geduld zu tragen. Darum bitten wir durch ihn, Jesus Christus."
@@ -4601,8 +4203,8 @@ export const adlibData = {
     },
     "20": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Wendelin",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -4615,13 +4217,13 @@ export const adlibData = {
           "oration": "Gott, unser Ursprung und Ziel, du hast deinen Knecht, den heiligen Einsiedler Wendelin, auf dem Weg der evangelischen Armut zur Freiheit des Geistes geführt und ihn zu unserem Fürsprecher bestellt. Hilf uns, dass wir in allen Sorgen dieses Lebens stets das eine Notwendige suchen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Wendelin",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, unser Ursprung und Ziel, du hast deinen Knecht, den heiligen Einsiedler Wendelin, auf dem Weg der evangelischen Armut zur Freiheit des Geistes geführt und ihn zu unserem Fürsprecher bestellt. Hilf uns, dass wir in allen Sorgen dieses Lebens stets das eine Notwendige suchen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Wendelin",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, unser Ursprung und Ziel, du hast deinen Knecht, den heiligen Einsiedler Wendelin, auf dem Weg der evangelischen Armut zur Freiheit des Geistes geführt und ihn zu unserem Fürsprecher bestellt. Hilf uns, dass wir in allen Sorgen dieses Lebens stets das eine Notwendige suchen. Darum bitten wir durch Jesus Christus."
@@ -4630,8 +4232,8 @@ export const adlibData = {
     },
     "21": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Ursula und Gefährtinnen",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -4644,13 +4246,13 @@ export const adlibData = {
           "oration": "Gott, du hast der heiligen Ursula und ihren Gefährtinnen Kraft und Standhaftigkeit im Martyrium gegeben und sie so zur Schau deiner Herrlichkeit geführt. Stärke uns auf ihre Fürbitte im Glauben und in der Liebe und gib uns ewige Gemeinschaft mit ihnen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Ursula und Gefährtinnen",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du hast der heiligen Ursula und ihren Gefährtinnen Kraft und Standhaftigkeit im Martyrium gegeben und sie so zur Schau deiner Herrlichkeit geführt. Stärke uns auf ihre Fürbitte im Glauben und in der Liebe und gib uns ewige Gemeinschaft mit ihnen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Ursula und Gefährtinnen",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du hast der heiligen Ursula und ihren Gefährtinnen Kraft und Standhaftigkeit im Martyrium gegeben und sie so zur Schau deiner Herrlichkeit geführt. Stärke uns auf ihre Fürbitte im Glauben und in der Liebe und gib uns ewige Gemeinschaft mit ihnen. Darum bitten wir durch Jesus Christus."
@@ -4659,8 +4261,8 @@ export const adlibData = {
     },
     "22": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Johannes Paul II.",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -4673,13 +4275,13 @@ export const adlibData = {
           "oration": "Gott, du bist reich an Erbarmen und hast den Heiligen Papst Johannes Paul II. zur Leitung deiner ganzen Kirche bestellt; gib, dass wir, durch seine Lehre geführt, unsere Herzen vertrauensvoll öffnen für die heilbringende Gnade Christi, des einzigen Erlösers der Menschheit. Der mit dir lebt und herrscht in der Einheit des Heiligen Geistes, Gott, von Ewigkeit zu Ewigkeit."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Johannes Paul II.",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du bist reich an Erbarmen und hast den Heiligen Papst Johannes Paul II. zur Leitung deiner ganzen Kirche bestellt; gib, dass wir, durch seine Lehre geführt, unsere Herzen vertrauensvoll öffnen für die heilbringende Gnade Christi, des einzigen Erlösers der Menschheit. Der mit dir lebt und herrscht in der Einheit des Heiligen Geistes, Gott, von Ewigkeit zu Ewigkeit."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Johannes Paul II.",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du bist reich an Erbarmen und hast den Heiligen Papst Johannes Paul II. zur Leitung deiner ganzen Kirche bestellt; gib, dass wir, durch seine Lehre geführt, unsere Herzen vertrauensvoll öffnen für die heilbringende Gnade Christi, des einzigen Erlösers der Menschheit. Der mit dir lebt und herrscht in der Einheit des Heiligen Geistes, Gott, von Ewigkeit zu Ewigkeit."
@@ -4688,8 +4290,8 @@ export const adlibData = {
     },
     "23": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Johannes von Capestrano",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -4702,13 +4304,13 @@ export const adlibData = {
           "oration": "Barmherziger Gott, du hast den heiligen Johannes von Capestrano berufen, die Christenheit in Angst und Not zu ermutigen. Lass die Kirche auch heute deinen Schutz erfahren und schenke ihr allezeit deinen Frieden. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Johannes von Capestrano",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Barmherziger Gott, du hast den heiligen Johannes von Capestrano berufen, die Christenheit in Angst und Not zu ermutigen. Lass die Kirche auch heute deinen Schutz erfahren und schenke ihr allezeit deinen Frieden. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Johannes von Capestrano",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Barmherziger Gott, du hast den heiligen Johannes von Capestrano berufen, die Christenheit in Angst und Not zu ermutigen. Lass die Kirche auch heute deinen Schutz erfahren und schenke ihr allezeit deinen Frieden. Darum bitten wir durch Jesus Christus."
@@ -4717,8 +4319,8 @@ export const adlibData = {
     },
     "24": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Antonius Maria Claret",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -4731,13 +4333,13 @@ export const adlibData = {
           "oration": "Herr, unser Gott, du hast den heiligen Antonius Maria Claret berufen, die Botschaft Jesu zu verkünden, und ihm große Liebe und Geduld geschenkt. Auf seine Fürsprache mache uns fähig, deinem Reich zu dienen und den Menschen dein Wort so zu sagen, dass sie zum Glauben an deinen Sohn Jesus Christus gelangen, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Antonius Maria Claret",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, du hast den heiligen Antonius Maria Claret berufen, die Botschaft Jesu zu verkünden, und ihm große Liebe und Geduld geschenkt. Auf seine Fürsprache mache uns fähig, deinem Reich zu dienen und den Menschen dein Wort so zu sagen, dass sie zum Glauben an deinen Sohn Jesus Christus gelangen, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Antonius Maria Claret",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, du hast den heiligen Antonius Maria Claret berufen, die Botschaft Jesu zu verkünden, und ihm große Liebe und Geduld geschenkt. Auf seine Fürsprache mache uns fähig, deinem Reich zu dienen und den Menschen dein Wort so zu sagen, dass sie zum Glauben an deinen Sohn Jesus Christus gelangen, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
@@ -4746,8 +4348,8 @@ export const adlibData = {
     },
     "26": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Witta (Albuin)",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Hirten der Kirche",
           "comm_2": "Comm_2",
@@ -4760,13 +4362,13 @@ export const adlibData = {
           "oration": "Allmächtiger Gott, du hast den heiligen Witta mit deiner Liebe erfüllt; du hast ihm jenen Glauben geschenkt, der die Welt überwindet, und ihn aufgenommen in die Schar der heiligen Bischöfe. Mache auch uns auf seine Fürsprache treu im Glauben und beharrlich in der Liebe, damit wir an seiner Herrlichkeit Anteil erlangen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Witta (Albuin)",
           "comm_1": "Hirten der Kirche",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, du hast den heiligen Witta mit deiner Liebe erfüllt; du hast ihm jenen Glauben geschenkt, der die Welt überwindet, und ihn aufgenommen in die Schar der heiligen Bischöfe. Mache auch uns auf seine Fürsprache treu im Glauben und beharrlich in der Liebe, damit wir an seiner Herrlichkeit Anteil erlangen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Witta (Albuin)",
           "comm_1": "Hirten der Kirche",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, du hast den heiligen Witta mit deiner Liebe erfüllt; du hast ihm jenen Glauben geschenkt, der die Welt überwindet, und ihn aufgenommen in die Schar der heiligen Bischöfe. Mache auch uns auf seine Fürsprache treu im Glauben und beharrlich in der Liebe, damit wir an seiner Herrlichkeit Anteil erlangen. Darum bitten wir durch Jesus Christus."
@@ -4775,8 +4377,8 @@ export const adlibData = {
     },
     "31": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Wolfgang",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -4789,13 +4391,13 @@ export const adlibData = {
           "oration": "Gott, du hast uns im heiligen Wolfgang einen Mann des Geistes und der Tat geschenkt und ihn berufen, als Mönch und Bischof auf vielfache Weise deinem Volk zu dienen. Gib auch der Kirche unserer Zeit die Weite seines Geistes und die Kraft seiner Liebe. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Wolfgang",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du hast uns im heiligen Wolfgang einen Mann des Geistes und der Tat geschenkt und ihn berufen, als Mönch und Bischof auf vielfache Weise deinem Volk zu dienen. Gib auch der Kirche unserer Zeit die Weite seines Geistes und die Kraft seiner Liebe. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Wolfgang",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du hast uns im heiligen Wolfgang einen Mann des Geistes und der Tat geschenkt und ihn berufen, als Mönch und Bischof auf vielfache Weise deinem Volk zu dienen. Gib auch der Kirche unserer Zeit die Weite seines Geistes und die Kraft seiner Liebe. Darum bitten wir durch Jesus Christus."
@@ -4806,8 +4408,8 @@ export const adlibData = {
   "11": {
     "3": {
       "n1": {
-        "name": "Hubert",
-        "genitiv": "Genitiv",
+        "name": "Hl. Hubert",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -4820,23 +4422,21 @@ export const adlibData = {
           "oration": "Gott, du Licht der Gläubigen, du hast den heiligen Bischof Hubert dazu berufen, der Kirche durch sein Wort und Beispiel zu dienen. Seine Fürsprache helfe uns, den Glauben zu bewahren, den er in seiner Predigt gelehrt, und den Weg zu gehen, den er uns durch sein Leben gewiesen hat. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Hubert",
-          "genitiv": "Genitiv",
+          "name": "Hl. Hubert",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Licht der Gläubigen, du hast den heiligen Bischof Hubert dazu berufen, der Kirche durch sein Wort und Beispiel zu dienen. Seine Fürsprache helfe uns, den Glauben zu bewahren, den er in seiner Predigt gelehrt, und den Weg zu gehen, den er uns durch sein Leben gewiesen hat. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Hubert",
-          "genitiv": "Genitiv",
+          "name": "Hl. Hubert",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Licht der Gläubigen, du hast den heiligen Bischof Hubert dazu berufen, der Kirche durch sein Wort und Beispiel zu dienen. Seine Fürsprache helfe uns, den Glauben zu bewahren, den er in seiner Predigt gelehrt, und den Weg zu gehen, den er uns durch sein Leben gewiesen hat. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Pirmin",
-        "genitiv": "Genitiv",
+        "name": "Hl. Pirmin",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -4849,23 +4449,21 @@ export const adlibData = {
           "oration": "Gott, unser Retter, du hast den heiligen Bischof Pirmin gesandt, damit er unsere Väter im Glauben unterweise und Klöster gründe als Stätten des Gebetes und christlicher Bildung. Gib, dass das Wort der Frohen Botschaft nicht verstumme und dein Reich in uns Wachse bis zum Tag der Vollendung. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Pirmin",
-          "genitiv": "Genitiv",
+          "name": "Hl. Pirmin",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, unser Retter, du hast den heiligen Bischof Pirmin gesandt, damit er unsere Väter im Glauben unterweise und Klöster gründe als Stätten des Gebetes und christlicher Bildung. Gib, dass das Wort der Frohen Botschaft nicht verstumme und dein Reich in uns Wachse bis zum Tag der Vollendung. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Pirmin",
-          "genitiv": "Genitiv",
+          "name": "Hl. Pirmin",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, unser Retter, du hast den heiligen Bischof Pirmin gesandt, damit er unsere Väter im Glauben unterweise und Klöster gründe als Stätten des Gebetes und christlicher Bildung. Gib, dass das Wort der Frohen Botschaft nicht verstumme und dein Reich in uns Wachse bis zum Tag der Vollendung. Darum bitten wir durch Jesus Christus."
         }
       },
       "n3": {
-        "name": "Martin von Porres",
-        "genitiv": "Genitiv",
+        "name": "Hl. Martin von Porres",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -4878,40 +4476,36 @@ export const adlibData = {
           "oration": "Barmherziger Gott, du hast den heiligen Martin von Porres auf dem Weg der Armut zur himmlischen Herrlichkeit geführt. Mit großer Hingabe hat er den Notleidenden seiner Vaterstadt gedient. Wecke auch in uns die Bereitschaft, den Mitmenschen in Not und Krankheit beizustehen, und lass uns zusammen mit ihnen die Fülle des Lebens empfangen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Martin von Porres",
-          "genitiv": "Genitiv",
+          "name": "Hl. Martin von Porres",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
-          "Ant_Ev": "Gepriesen sei der Herr,^ldenn er hat allen Völkern Erlösung geschaffen^lund sie aus der Finsternis in sein wunderbares Licht gerufen.",
+          "Ant_Ev": "Gepriesen sei der Herr, denn er hat allen Völkern Erlösung geschaffen und sie aus der Finsternis in sein wunderbares Licht gerufen.",
           "oration": "Barmherziger Gott, du hast den heiligen Martin von Porres auf dem Weg der Armut zur himmlischen Herrlichkeit geführt. Mit großer Hingabe hat er den Notleidenden seiner Vaterstadt gedient. Wecke auch in uns die Bereitschaft, den Mitmenschen in Not und Krankheit beizustehen, und lass uns zusammen mit ihnen die Fülle des Lebens empfangen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Martin von Porres",
-          "genitiv": "Genitiv",
+          "name": "Hl. Martin von Porres",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
-          "Ant_Ev": "Lasst und preisen die Größe des Herrn,^lder seinen niedrigen Knecht erhöht^lund mit himmlischen Gaben bekleidet hat!",
+          "Ant_Ev": "Lasst und preisen die Größe des Herrn, der seinen niedrigen Knecht erhöht und mit himmlischen Gaben bekleidet hat!",
           "oration": "Barmherziger Gott, du hast den heiligen Martin von Porres auf dem Weg der Armut zur himmlischen Herrlichkeit geführt. Mit großer Hingabe hat er den Notleidenden seiner Vaterstadt gedient. Wecke auch in uns die Bereitschaft, den Mitmenschen in Not und Krankheit beizustehen, und lass uns zusammen mit ihnen die Fülle des Lebens empfangen. Darum bitten wir durch Jesus Christus."
         }
       },
       "n4": {
-        "name": "Rupert Mayer",
-        "genitiv": "Genitiv",
+        "name": "Hl. Rupert Mayer",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gütiger Gott, du hast den seligen Priester Rupert zu einem standhaften Bekenner des Glaubens und selbstlosen Helfer der Armen gemacht. Erwecke auf seine Fürsprache der Kirche neue, vorbildliche Verkünder des Glaubens und schenke uns allen ein offenes Herz für die Nöte der Menschen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Rupert Mayer",
-          "genitiv": "Genitiv",
+          "name": "Hl. Rupert Mayer",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gütiger Gott, du hast den seligen Priester Rupert zu einem standhaften Bekenner des Glaubens und selbstlosen Helfer der Armen gemacht. Erwecke auf seine Fürsprache der Kirche neue, vorbildliche Verkünder des Glaubens und schenke uns allen ein offenes Herz für die Nöte der Menschen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Rupert Mayer",
-          "genitiv": "Genitiv",
+          "name": "Hl. Rupert Mayer",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gütiger Gott, du hast den seligen Priester Rupert zu einem standhaften Bekenner des Glaubens und selbstlosen Helfer der Armen gemacht. Erwecke auf seine Fürsprache der Kirche neue, vorbildliche Verkünder des Glaubens und schenke uns allen ein offenes Herz für die Nöte der Menschen. Darum bitten wir durch Jesus Christus."
@@ -4920,8 +4514,8 @@ export const adlibData = {
     },
     "6": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Leonhard",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -4934,13 +4528,13 @@ export const adlibData = {
           "oration": "Barmherziger Gott, du hast den heiligen Einsiedler Leonhard berufen, Gefangene zu befreien und Sünder auf den rechten Weg zu führen. Löse uns aus den Fesseln der Sünde und erhalte uns in der Freiheit, zu der du uns berufen hast. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Leonhard",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Barmherziger Gott, du hast den heiligen Einsiedler Leonhard berufen, Gefangene zu befreien und Sünder auf den rechten Weg zu führen. Löse uns aus den Fesseln der Sünde und erhalte uns in der Freiheit, zu der du uns berufen hast. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Leonhard",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Barmherziger Gott, du hast den heiligen Einsiedler Leonhard berufen, Gefangene zu befreien und Sünder auf den rechten Weg zu führen. Löse uns aus den Fesseln der Sünde und erhalte uns in der Freiheit, zu der du uns berufen hast. Darum bitten wir durch Jesus Christus."
@@ -4949,8 +4543,8 @@ export const adlibData = {
     },
     "7": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Willibrord",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -4963,25 +4557,25 @@ export const adlibData = {
           "oration": "Gott, du Heil aller Menschen, du hast den heiligen Bischof Willibrord gesandt, vielen Völkern die Frohe Botschaft zu verkünden (und unsere Väter im Glauben zu festigen). Höre auf seine Fürsprache und hilf, dass auch wir deine Güte in Wort und Tat bezeugen, damit deine Kirche erstarke und wachse. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Willibrord",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
-          "Ant_Ev": "Wie herrlich leuchten die Taten des heiligen Willibrord!^lVielen Völkern hat er das Licht des Glaubens gebracht;^lewiger Lohn wurde ihm zuteil.",
+          "Ant_Ev": "Wie herrlich leuchten die Taten des heiligen Willibrord! Vielen Völkern hat er das Licht des Glaubens gebracht; ewiger Lohn wurde ihm zuteil.",
           "oration": "Gott, du Heil aller Menschen, du hast den heiligen Bischof Willibrord gesandt, vielen Völkern die Frohe Botschaft zu verkünden (und unsere Väter im Glauben zu festigen). Höre auf seine Fürsprache und hilf, dass auch wir deine Güte in Wort und Tat bezeugen, damit deine Kirche erstarke und wachse. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Willibrord",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
-          "Ant_Ev": "Heiliger Willibrord,^ldu hast die Freude des Paradieses erlangt.^lBitte bei Gott für alle, die in Not und Bedrängnis zu dir rufen.",
+          "Ant_Ev": "Heiliger Willibrord, du hast die Freude des Paradieses erlangt. Bitte bei Gott für alle, die in Not und Bedrängnis zu dir rufen.",
           "oration": "Gott, du Heil aller Menschen, du hast den heiligen Bischof Willibrord gesandt, vielen Völkern die Frohe Botschaft zu verkünden (und unsere Väter im Glauben zu festigen). Höre auf seine Fürsprache und hilf, dass auch wir deine Güte in Wort und Tat bezeugen, damit deine Kirche erstarke und wachse. Darum bitten wir durch Jesus Christus."
         }
       }
     },
     "15": {
       "n1": {
-        "name": "Albert der Große",
-        "genitiv": "Genitiv",
+        "name": "Hl. Albert der Große",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -4994,23 +4588,21 @@ export const adlibData = {
           "oration": "Gott, du Quelle aller Weisheit, du hast dem heiligen Bischof Albert die Gabe geschenkt, das Wissen seiner Zeit und den Glauben in Einklang zu bringen. Gib uns die Weite seines Geistes, damit der Fortschritt der Wissenschaft uns hilft, dich tiefer zu erkennen und dir näher zu kommen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Albert der Große",
-          "genitiv": "Genitiv",
+          "name": "Hl. Albert der Große",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Quelle aller Weisheit, du hast dem heiligen Bischof Albert die Gabe geschenkt, das Wissen seiner Zeit und den Glauben in Einklang zu bringen. Gib uns die Weite seines Geistes, damit der Fortschritt der Wissenschaft uns hilft, dich tiefer zu erkennen und dir näher zu kommen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Albert der Große",
-          "genitiv": "Genitiv",
+          "name": "Hl. Albert der Große",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Quelle aller Weisheit, du hast dem heiligen Bischof Albert die Gabe geschenkt, das Wissen seiner Zeit und den Glauben in Einklang zu bringen. Gib uns die Weite seines Geistes, damit der Fortschritt der Wissenschaft uns hilft, dich tiefer zu erkennen und dir näher zu kommen. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Leopold",
-        "genitiv": "Genitiv",
+        "name": "Hl. Leopold",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -5023,15 +4615,13 @@ export const adlibData = {
           "oration": "Allherrschender Gott, du hast dem heiligen Markgrafen Leopold für die Ausübung seines Amtes die Gaben deines Geistes geschenkt. Hilf uns, unsere Pflichten treu zu erfüllen, und nimm uns einst auf in dein himmlisches Reich. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Leopold",
-          "genitiv": "Genitiv",
+          "name": "Hl. Leopold",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allherrschender Gott, du hast dem heiligen Markgrafen Leopold für die Ausübung seines Amtes die Gaben deines Geistes geschenkt. Hilf uns, unsere Pflichten treu zu erfüllen, und nimm uns einst auf in dein himmlisches Reich. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Leopold",
-          "genitiv": "Genitiv",
+          "name": "Hl. Leopold",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allherrschender Gott, du hast dem heiligen Markgrafen Leopold für die Ausübung seines Amtes die Gaben deines Geistes geschenkt. Hilf uns, unsere Pflichten treu zu erfüllen, und nimm uns einst auf in dein himmlisches Reich. Darum bitten wir durch Jesus Christus."
@@ -5040,8 +4630,8 @@ export const adlibData = {
     },
     "16": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Margareta von Schottland",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -5054,13 +4644,13 @@ export const adlibData = {
           "oration": "Barmherziger Gott, du hast der heiligen Königin Margareta von Schottland eine große Liebe zu den Armen geschenkt. Höre auf die Fürbitten dieser heiligen Frau und hilf uns, nach ihrem Beispiel so zu leben, dass deine Güte in der Welt sichtbar wird, Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Margareta von Schottland",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Barmherziger Gott, du hast der heiligen Königin Margareta von Schottland eine große Liebe zu den Armen geschenkt. Höre auf die Fürbitten dieser heiligen Frau und hilf uns, nach ihrem Beispiel so zu leben, dass deine Güte in der Welt sichtbar wird, Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Margareta von Schottland",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Barmherziger Gott, du hast der heiligen Königin Margareta von Schottland eine große Liebe zu den Armen geschenkt. Höre auf die Fürbitten dieser heiligen Frau und hilf uns, nach ihrem Beispiel so zu leben, dass deine Güte in der Welt sichtbar wird, Darum bitten wir durch Jesus Christus."
@@ -5069,8 +4659,8 @@ export const adlibData = {
     },
     "17": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Gertrud von Helfta",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -5083,13 +4673,13 @@ export const adlibData = {
           "oration": "Gott, du Sehnsucht deiner Geschöpfe, es hat dir gefallen, im Herzen der heiligen Gertrud Wohnung zu nehmen. Schenke auch uns auf ihre Fürbitte die Tröstungen deiner Gegenwart, bringe Licht in das Dunkel unseres Herzens und lass uns erfahren, dass du in uns lebst und wirkst. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Gertrud von Helfta",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Sehnsucht deiner Geschöpfe, es hat dir gefallen, im Herzen der heiligen Gertrud Wohnung zu nehmen. Schenke auch uns auf ihre Fürbitte die Tröstungen deiner Gegenwart, bringe Licht in das Dunkel unseres Herzens und lass uns erfahren, dass du in uns lebst und wirkst. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Gertrud von Helfta",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Sehnsucht deiner Geschöpfe, es hat dir gefallen, im Herzen der heiligen Gertrud Wohnung zu nehmen. Schenke auch uns auf ihre Fürbitte die Tröstungen deiner Gegenwart, bringe Licht in das Dunkel unseres Herzens und lass uns erfahren, dass du in uns lebst und wirkst. Darum bitten wir durch Jesus Christus."
@@ -5098,8 +4688,8 @@ export const adlibData = {
     },
     "18": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Weihetag der Basiliken St. Peter und St. Paul zu Rom",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -5112,25 +4702,25 @@ export const adlibData = {
           "oration": "Ewiger Gott, steh deiner Kirche bei und bewahre sie unter dem Schutz der Apostel Petrus und Paulus, von denen sie den Glauben und das Leben in Christus empfangen hat. Lass sie wachsen in deiner Gnade bis ans Ende der Zeiten. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Weihetag der Basiliken St. Peter und St. Paul zu Rom",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
-          "Ant_Ev": "Petrus, der Apostel, und Paulus, der Lehrer der Völker,^lsie haben uns dein Gesetz gelehrt, o Herr.",
+          "Ant_Ev": "Petrus, der Apostel, und Paulus, der Lehrer der Völker, sie haben uns dein Gesetz gelehrt, o Herr.",
           "oration": "Ewiger Gott, steh deiner Kirche bei und bewahre sie unter dem Schutz der Apostel Petrus und Paulus, von denen sie den Glauben und das Leben in Christus empfangen hat. Lass sie wachsen in deiner Gnade bis ans Ende der Zeiten. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Weihetag der Basiliken St. Peter und St. Paul zu Rom",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
-          "Ant_Ev": "Der Leib der Heiligen ist in Frieden bestattet,^lihr Name lebt fort auf ewig.",
+          "Ant_Ev": "Der Leib der Heiligen ist in Frieden bestattet, ihr Name lebt fort auf ewig.",
           "oration": "Ewiger Gott, steh deiner Kirche bei und bewahre sie unter dem Schutz der Apostel Petrus und Paulus, von denen sie den Glauben und das Leben in Christus empfangen hat. Lass sie wachsen in deiner Gnade bis ans Ende der Zeiten. Darum bitten wir durch Jesus Christus."
         }
       }
     },
     "23": {
       "n1": {
-        "name": "Kolumban",
-        "genitiv": "Genitiv",
+        "name": "Hl. Kolumban",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -5143,23 +4733,21 @@ export const adlibData = {
           "oration": "Gott, unser höchstes Gut, du hast den heiligen Kolumban berufen, als Glaubensbote und Mönch für dein Reich zu wirken. Hilf uns auf seine Fürsprache, dass wir in allem dich suchen und mit ganzer Bereitschaft dem Evangelium dienen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Kolumban",
-          "genitiv": "Genitiv",
+          "name": "Hl. Kolumban",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, unser höchstes Gut, du hast den heiligen Kolumban berufen, als Glaubensbote und Mönch für dein Reich zu wirken. Hilf uns auf seine Fürsprache, dass wir in allem dich suchen und mit ganzer Bereitschaft dem Evangelium dienen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Kolumban",
-          "genitiv": "Genitiv",
+          "name": "Hl. Kolumban",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, unser höchstes Gut, du hast den heiligen Kolumban berufen, als Glaubensbote und Mönch für dein Reich zu wirken. Hilf uns auf seine Fürsprache, dass wir in allem dich suchen und mit ganzer Bereitschaft dem Evangelium dienen. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Klemens I.",
-        "genitiv": "Genitiv",
+        "name": "Hl. Klemens I.",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -5172,15 +4760,13 @@ export const adlibData = {
           "oration": "Allmächtiger, ewiger Gott, der heilige Papst Klemens hat als Priester und Märtyrer deines Sohnes das Wort, das er verkündete, durch sein Tun bekräftigt und die Geheimnisse Christi, die er feierte, mit seinem Blut bezeugt. An seinem Gedenktag rufen wir zu dir: Erfülle uns mit Freude über seinen Sieg und lass uns erfahren, dass deine Macht im Leben der Heiligen sichtbar wird. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Klemens I.",
-          "genitiv": "Genitiv",
+          "name": "Hl. Klemens I.",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger, ewiger Gott, der heilige Papst Klemens hat als Priester und Märtyrer deines Sohnes das Wort, das er verkündete, durch sein Tun bekräftigt und die Geheimnisse Christi, die er feierte, mit seinem Blut bezeugt. An seinem Gedenktag rufen wir zu dir: Erfülle uns mit Freude über seinen Sieg und lass uns erfahren, dass deine Macht im Leben der Heiligen sichtbar wird. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Klemens I.",
-          "genitiv": "Genitiv",
+          "name": "Hl. Klemens I.",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger, ewiger Gott, der heilige Papst Klemens hat als Priester und Märtyrer deines Sohnes das Wort, das er verkündete, durch sein Tun bekräftigt und die Geheimnisse Christi, die er feierte, mit seinem Blut bezeugt. An seinem Gedenktag rufen wir zu dir: Erfülle uns mit Freude über seinen Sieg und lass uns erfahren, dass deine Macht im Leben der Heiligen sichtbar wird. Darum bitten wir durch Jesus Christus."
@@ -5189,8 +4775,8 @@ export const adlibData = {
     },
     "25": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Katharina von Alexandrien",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -5203,13 +4789,13 @@ export const adlibData = {
           "oration": "Herr, unser Gott, du offenbarst uns in der Bedrängnis die Macht deines Erbarmens. Von dir empfing die heilige Katharina die Gnade, das Martyrium zu bestehen. Von dir komme auch uns die Kraft, in aller Not auf deine Hilfe zu vertrauen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Katharina von Alexandrien",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, du offenbarst uns in der Bedrängnis die Macht deines Erbarmens. Von dir empfing die heilige Katharina die Gnade, das Martyrium zu bestehen. Von dir komme auch uns die Kraft, in aller Not auf deine Hilfe zu vertrauen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Katharina von Alexandrien",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, du offenbarst uns in der Bedrängnis die Macht deines Erbarmens. Von dir empfing die heilige Katharina die Gnade, das Martyrium zu bestehen. Von dir komme auch uns die Kraft, in aller Not auf deine Hilfe zu vertrauen. Darum bitten wir durch Jesus Christus."
@@ -5218,8 +4804,8 @@ export const adlibData = {
     },
     "26": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Konrad und hl. Gebhard",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -5232,13 +4818,13 @@ export const adlibData = {
           "oration": "Gott, du hast die heiligen Bischöfe Konrad und Gebhard mit dem Geist der Wahrheit und der Liebe erfüllt und ihnen die Sorge für dein Volk anvertraut. Lass uns aus ihrem Geist leben und ihre Hilfe erfahren. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Konrad und hl. Gebhard",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du hast die heiligen Bischöfe Konrad und Gebhard mit dem Geist der Wahrheit und der Liebe erfüllt und ihnen die Sorge für dein Volk anvertraut. Lass uns aus ihrem Geist leben und ihre Hilfe erfahren. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Konrad und hl. Gebhard",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du hast die heiligen Bischöfe Konrad und Gebhard mit dem Geist der Wahrheit und der Liebe erfüllt und ihnen die Sorge für dein Volk anvertraut. Lass uns aus ihrem Geist leben und ihre Hilfe erfahren. Darum bitten wir durch Jesus Christus."
@@ -5249,8 +4835,8 @@ export const adlibData = {
   "12": {
     "1": {
       "n1": {
-        "name": "Bischofsweihe des hl. Bonifatius",
-        "genitiv": "Genitiv",
+        "name": "Hl. Bischofsweihe des hl. Bonifatius",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Hirten der Kirche",
           "comm_2": "Comm_2",
@@ -5261,38 +4847,34 @@ export const adlibData = {
           "oration": "Ewiger Gott, bei seiner Bischofsweihe hat der heilige Bonifatius am Grab des heiligen Petrus ein feierliches Bekenntnis zum katholischen Glauben und zur Einheit der Kirche abgelegt. Erhalte dein Volk im gleichen Bekenntnis und sende ihm allzeit würdige Hirten. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Bischofsweihe des hl. Bonifatius",
-          "genitiv": "Genitiv",
+          "name": "Hl. Bischofsweihe des hl. Bonifatius",
           "comm_1": "Hirten der Kirche",
           "comm_2": "Comm_2",
-          "Ant_Ev": "Jeder Hohepriester wird aus den Menschen ausgewählt^lund für die Menschen eingesetzt zum Dienst vor Gott.^lKeiner nimmt sich eigenmächtig diese Würde,^lsondern er wird von Gott berufen.",
+          "Ant_Ev": "Jeder Hohepriester wird aus den Menschen ausgewählt und für die Menschen eingesetzt zum Dienst vor Gott. Keiner nimmt sich eigenmächtig diese Würde, sondern er wird von Gott berufen.",
           "oration": "Ewiger Gott, bei seiner Bischofsweihe hat der heilige Bonifatius am Grab des heiligen Petrus ein feierliches Bekenntnis zum katholischen Glauben und zur Einheit der Kirche abgelegt. Erhalte dein Volk im gleichen Bekenntnis und sende ihm allzeit würdige Hirten. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Bischofsweihe des hl. Bonifatius",
-          "genitiv": "Genitiv",
+          "name": "Hl. Bischofsweihe des hl. Bonifatius",
           "comm_1": "Hirten der Kirche",
           "comm_2": "Comm_2",
-          "Ant_Ev": "Dank sei dir, Christus, guter Hirte!^lDu hast mich zur Herrlichkeit geführt,^lgib auch der Herde, die du mir anvertraut hast,^lAnteil an deiner Gnade auf ewig.",
+          "Ant_Ev": "Dank sei dir, Christus, guter Hirte! Du hast mich zur Herrlichkeit geführt, gib auch der Herde, die du mir anvertraut hast, Anteil an deiner Gnade auf ewig.",
           "oration": "Ewiger Gott, bei seiner Bischofsweihe hat der heilige Bonifatius am Grab des heiligen Petrus ein feierliches Bekenntnis zum katholischen Glauben und zur Einheit der Kirche abgelegt. Erhalte dein Volk im gleichen Bekenntnis und sende ihm allzeit würdige Hirten. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Charles de Foucauld",
-        "genitiv": "Genitiv",
+        "name": "Hl. Charles de Foucauld",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Laudes": {
-          "name": "Charles de Foucauld",
-          "genitiv": "Genitiv",
+          "name": "Hl. Charles de Foucauld",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
         "Vesper": {
-          "name": "Charles de Foucauld",
-          "genitiv": "Genitiv",
+          "name": "Hl. Charles de Foucauld",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         }
@@ -5300,8 +4882,8 @@ export const adlibData = {
     },
     "2": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Luzius",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -5314,13 +4896,13 @@ export const adlibData = {
           "oration": "Gott, du Licht unseres Glaubens, du hast den heiligen Bischof Luzius berufen, der Kirche von Chur durch Wort und Beispiel zu dienen. Seine Fürsprache helfe uns, den Glauben zu bewahren, den er in seiner Predigt gelehrt, und den Weg zu gehen, den er uns durch sein Leben gewiesen hat. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Luzius",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Licht unseres Glaubens, du hast den heiligen Bischof Luzius berufen, der Kirche von Chur durch Wort und Beispiel zu dienen. Seine Fürsprache helfe uns, den Glauben zu bewahren, den er in seiner Predigt gelehrt, und den Weg zu gehen, den er uns durch sein Leben gewiesen hat. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Luzius",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Licht unseres Glaubens, du hast den heiligen Bischof Luzius berufen, der Kirche von Chur durch Wort und Beispiel zu dienen. Seine Fürsprache helfe uns, den Glauben zu bewahren, den er in seiner Predigt gelehrt, und den Weg zu gehen, den er uns durch sein Leben gewiesen hat. Darum bitten wir durch Jesus Christus."
@@ -5329,8 +4911,8 @@ export const adlibData = {
     },
     "4": {
       "n1": {
-        "name": "Barbara",
-        "genitiv": "Genitiv",
+        "name": "Hl. Barbara",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -5343,23 +4925,21 @@ export const adlibData = {
           "oration": "Allmächtiger Gott, du hast der heiligen Märtyrin Barbara die Kraft gegeben, bis in den Tod dir treu zu bleiben. Im Vertrauen auf ihre Fürsprache bitten wir dich: Steh uns bei in jeder Not und Gefahr und stärke uns in der Todesstunde mit dem Leib und Blut deines Sohnes, unseres Herrn Jesus Christus, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Laudes": {
-          "name": "Barbara",
-          "genitiv": "Genitiv",
+          "name": "Hl. Barbara",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, du hast der heiligen Märtyrin Barbara die Kraft gegeben, bis in den Tod dir treu zu bleiben. Im Vertrauen auf ihre Fürsprache bitten wir dich: Steh uns bei in jeder Not und Gefahr und stärke uns in der Todesstunde mit dem Leib und Blut deines Sohnes, unseres Herrn Jesus Christus, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Vesper": {
-          "name": "Barbara",
-          "genitiv": "Genitiv",
+          "name": "Hl. Barbara",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, du hast der heiligen Märtyrin Barbara die Kraft gegeben, bis in den Tod dir treu zu bleiben. Im Vertrauen auf ihre Fürsprache bitten wir dich: Steh uns bei in jeder Not und Gefahr und stärke uns in der Todesstunde mit dem Leib und Blut deines Sohnes, unseres Herrn Jesus Christus, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         }
       },
       "n2": {
-        "name": "Johannes von Damaskus",
-        "genitiv": "Genitiv",
+        "name": "Hl. Johannes von Damaskus",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -5372,38 +4952,34 @@ export const adlibData = {
           "oration": "Herr und Gott, du hast dem heiligen Johannes von Damaskus die Fähigkeit geschenkt, den rechten Glauben überzeugend zu verkünden. Hilf uns auf seine Fürsprache, aus diesem Glauben Licht und Kraft zu schöpfen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Johannes von Damaskus",
-          "genitiv": "Genitiv",
+          "name": "Hl. Johannes von Damaskus",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr und Gott, du hast dem heiligen Johannes von Damaskus die Fähigkeit geschenkt, den rechten Glauben überzeugend zu verkünden. Hilf uns auf seine Fürsprache, aus diesem Glauben Licht und Kraft zu schöpfen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Johannes von Damaskus",
-          "genitiv": "Genitiv",
+          "name": "Hl. Johannes von Damaskus",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr und Gott, du hast dem heiligen Johannes von Damaskus die Fähigkeit geschenkt, den rechten Glauben überzeugend zu verkünden. Hilf uns auf seine Fürsprache, aus diesem Glauben Licht und Kraft zu schöpfen. Darum bitten wir durch Jesus Christus."
         }
       },
       "n3": {
-        "name": "Adolph Kolping",
-        "genitiv": "Genitiv",
+        "name": "Hl. Adolph Kolping",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, unser Vater, du hast den seligen Adolph Kolping vom Handwerker zum Priester berufen, um durch ihn jungen Menschen in ihrer religiösen und sozialen Not zu helfen. Auf seine Fürsprache gib uns Einsicht in die Nöte unserer Zeit und schenke uns Kraft, sie zu überwinden. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Adolph Kolping",
-          "genitiv": "Genitiv",
+          "name": "Hl. Adolph Kolping",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, unser Vater, du hast den seligen Adolph Kolping vom Handwerker zum Priester berufen, um durch ihn jungen Menschen in ihrer religiösen und sozialen Not zu helfen. Auf seine Fürsprache gib uns Einsicht in die Nöte unserer Zeit und schenke uns Kraft, sie zu überwinden. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Adolph Kolping",
-          "genitiv": "Genitiv",
+          "name": "Hl. Adolph Kolping",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, unser Vater, du hast den seligen Adolph Kolping vom Handwerker zum Priester berufen, um durch ihn jungen Menschen in ihrer religiösen und sozialen Not zu helfen. Auf seine Fürsprache gib uns Einsicht in die Nöte unserer Zeit und schenke uns Kraft, sie zu überwinden. Darum bitten wir durch Jesus Christus."
@@ -5412,8 +4988,8 @@ export const adlibData = {
     },
     "5": {
       "n1": {
-        "name": "Anno",
-        "genitiv": "Genitiv",
+        "name": "Hl. Anno",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -5426,23 +5002,21 @@ export const adlibData = {
           "oration": "Allmächtiger Gott, erhöre unser Gebet am Gedenktag des heiligen Bischofs Anno, der allen, für die er Verantwortung trug, ein Helfer und ein leuchtendes Vorbild war. Gib, dass auch wir seine Fürsprache und seine Hilfe erfahren. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Anno",
-          "genitiv": "Genitiv",
+          "name": "Hl. Anno",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, erhöre unser Gebet am Gedenktag des heiligen Bischofs Anno, der allen, für die er Verantwortung trug, ein Helfer und ein leuchtendes Vorbild war. Gib, dass auch wir seine Fürsprache und seine Hilfe erfahren. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Anno",
-          "genitiv": "Genitiv",
+          "name": "Hl. Anno",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, erhöre unser Gebet am Gedenktag des heiligen Bischofs Anno, der allen, für die er Verantwortung trug, ein Helfer und ein leuchtendes Vorbild war. Gib, dass auch wir seine Fürsprache und seine Hilfe erfahren. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Sola",
-        "genitiv": "Genitiv",
+        "name": "Hl. Sola",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Hirten der Kirche",
           "comm_2": "Comm_2",
@@ -5455,15 +5029,13 @@ export const adlibData = {
           "oration": "Gütiger Gott, ein großes Verlangen nach dir führte den heiligen Sola in die Einsamkeit und Stille. Hilf uns, in dem wechselnden Vielerlei dieser Welt dich mit ganzem Herzen zu suchen und in dir Ruhe zu finden. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Sola",
-          "genitiv": "Genitiv",
+          "name": "Hl. Sola",
           "comm_1": "Hirten der Kirche",
           "comm_2": "Comm_2",
           "oration": "Gütiger Gott, ein großes Verlangen nach dir führte den heiligen Sola in die Einsamkeit und Stille. Hilf uns, in dem wechselnden Vielerlei dieser Welt dich mit ganzem Herzen zu suchen und in dir Ruhe zu finden. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Sola",
-          "genitiv": "Genitiv",
+          "name": "Hl. Sola",
           "comm_1": "Hirten der Kirche",
           "comm_2": "Comm_2",
           "oration": "Gütiger Gott, ein großes Verlangen nach dir führte den heiligen Sola in die Einsamkeit und Stille. Hilf uns, in dem wechselnden Vielerlei dieser Welt dich mit ganzem Herzen zu suchen und in dir Ruhe zu finden. Darum bitten wir durch Jesus Christus."
@@ -5472,8 +5044,8 @@ export const adlibData = {
     },
     "6": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Nikolaus",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -5486,13 +5058,13 @@ export const adlibData = {
           "oration": "Gott, du Spender alles Guten, hilf uns auf die Fürsprache des heiligen Nikolaus in aller Not und steh uns bei in jeder Gefahr. Gib uns ein großmütiges Herz, damit wir anderen schenken, was wir empfangen, und den Weg des Heiles ungehindert gehen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Nikolaus",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Spender alles Guten, hilf uns auf die Fürsprache des heiligen Nikolaus in aller Not und steh uns bei in jeder Gefahr. Gib uns ein großmütiges Herz, damit wir anderen schenken, was wir empfangen, und den Weg des Heiles ungehindert gehen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Nikolaus",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Spender alles Guten, hilf uns auf die Fürsprache des heiligen Nikolaus in aller Not und steh uns bei in jeder Gefahr. Gib uns ein großmütiges Herz, damit wir anderen schenken, was wir empfangen, und den Weg des Heiles ungehindert gehen. Darum bitten wir durch Jesus Christus."
@@ -5501,8 +5073,8 @@ export const adlibData = {
     },
     "9": {
       "n1": {
-        "name": "Liborius Wagner",
-        "genitiv": "Genitiv",
+        "name": "Hl. Liborius Wagner",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Märt",
           "comm_2": "Hirten",
@@ -5515,40 +5087,36 @@ export const adlibData = {
           "oration": "Gott, du Vater aller Gläubigen, in deinem Dienst hat der Märtyrerpriester Liborius für die Wiedervereinigung der getrennten Christen gelebt und gelitten. Gib auch uns Ausdauer und Geduld, damit wir nicht müde werden, für die Einheit der Kirche zu wirken. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Liborius Wagner",
-          "genitiv": "Genitiv",
+          "name": "Hl. Liborius Wagner",
           "comm_1": "Märt",
           "comm_2": "Hirten",
-          "Ant_Ev": "Des alten Glaubens neuer Zeuge,^lward Liborius in seinem Leiden^lden Märtyrern der frühen Kirche gleich.^lSo sollte Gott in seinem treuen Knecht verherrlicht werden.",
+          "Ant_Ev": "Des alten Glaubens neuer Zeuge, ward Liborius in seinem Leiden den Märtyrern der frühen Kirche gleich. So sollte Gott in seinem treuen Knecht verherrlicht werden.",
           "oration": "Gott, du Vater aller Gläubigen, in deinem Dienst hat der Märtyrerpriester Liborius für die Wiedervereinigung der getrennten Christen gelebt und gelitten. Gib auch uns Ausdauer und Geduld, damit wir nicht müde werden, für die Einheit der Kirche zu wirken. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Liborius Wagner",
-          "genitiv": "Genitiv",
+          "name": "Hl. Liborius Wagner",
           "comm_1": "Märt",
           "comm_2": "Hirten",
-          "Ant_Ev": "Allen Folterungen,^ldie je Tyrannen in ihrer Wut erdachten,^lwurde Liborius unterworfen.^lEr ertrug sie in der ungebrochenen Kraft^ldes Zeugen Christi.",
+          "Ant_Ev": "Allen Folterungen, die je Tyrannen in ihrer Wut erdachten, wurde Liborius unterworfen. Er ertrug sie in der ungebrochenen Kraft des Zeugen Christi.",
           "oration": "Gott, du Vater aller Gläubigen, in deinem Dienst hat der Märtyrerpriester Liborius für die Wiedervereinigung der getrennten Christen gelebt und gelitten. Gib auch uns Ausdauer und Geduld, damit wir nicht müde werden, für die Einheit der Kirche zu wirken. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Juan Diego",
-        "genitiv": "Genitiv",
+        "name": "Hl. Juan Diego",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du hast durch den heiligen Johannes Didacus die Liebe der heiligen Jungfrau Maria zu deinem Volk offenbar gemacht. Auf seine Fürsprache gewähre uns, dass wir den Weisungen unserer Mutter folgen, die sie in Guadalupe gegeben hat, und dass wir stets fähig sind, deinen Willen zu erfüllen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Juan Diego",
-          "genitiv": "Genitiv",
+          "name": "Hl. Juan Diego",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du hast durch den heiligen Johannes Didacus die Liebe der heiligen Jungfrau Maria zu deinem Volk offenbar gemacht. Auf seine Fürsprache gewähre uns, dass wir den Weisungen unserer Mutter folgen, die sie in Guadalupe gegeben hat, und dass wir stets fähig sind, deinen Willen zu erfüllen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Juan Diego",
-          "genitiv": "Genitiv",
+          "name": "Hl. Juan Diego",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du hast durch den heiligen Johannes Didacus die Liebe der heiligen Jungfrau Maria zu deinem Volk offenbar gemacht. Auf seine Fürsprache gewähre uns, dass wir den Weisungen unserer Mutter folgen, die sie in Guadalupe gegeben hat, und dass wir stets fähig sind, deinen Willen zu erfüllen. Darum bitten wir durch Jesus Christus."
@@ -5557,8 +5125,8 @@ export const adlibData = {
     },
     "11": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Damasus I.",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -5571,13 +5139,13 @@ export const adlibData = {
           "oration": "Herr und Gott, der heilige Papst Damasus hat den Sieg der Märtyrer gepriesen, er hat sie geliebt und ihr Andenken geehrt. Gib, dass auch wir das Leben und Sterben deiner Blutzeugen ehren, und ermutige uns zu einem Leben aus dem Glauben. Darum bitten wir durch Jesus Christus ."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Damasus I.",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr und Gott, der heilige Papst Damasus hat den Sieg der Märtyrer gepriesen, er hat sie geliebt und ihr Andenken geehrt. Gib, dass auch wir das Leben und Sterben deiner Blutzeugen ehren, und ermutige uns zu einem Leben aus dem Glauben. Darum bitten wir durch Jesus Christus ."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Damasus I.",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr und Gott, der heilige Papst Damasus hat den Sieg der Märtyrer gepriesen, er hat sie geliebt und ihr Andenken geehrt. Gib, dass auch wir das Leben und Sterben deiner Blutzeugen ehren, und ermutige uns zu einem Leben aus dem Glauben. Darum bitten wir durch Jesus Christus ."
@@ -5586,8 +5154,8 @@ export const adlibData = {
     },
     "13": {
       "n1": {
-        "name": "Odilia",
-        "genitiv": "Genitiv",
+        "name": "Hl. Odilia",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -5600,23 +5168,21 @@ export const adlibData = {
           "oration": "Gott, du wahres Licht, du hast den Blinden und Augenkranken in der heiligen Odilia eine himmlische Patronin gegeben. Öffne uns auf ihre Fürsprache die Augen, damit wir in der geschaffenen Schönheit deine Größe erahnen und dich einst schauen in deinem himmlischen Licht. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Odilia",
-          "genitiv": "Genitiv",
+          "name": "Hl. Odilia",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du wahres Licht, du hast den Blinden und Augenkranken in der heiligen Odilia eine himmlische Patronin gegeben. Öffne uns auf ihre Fürsprache die Augen, damit wir in der geschaffenen Schönheit deine Größe erahnen und dich einst schauen in deinem himmlischen Licht. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Odilia",
-          "genitiv": "Genitiv",
+          "name": "Hl. Odilia",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du wahres Licht, du hast den Blinden und Augenkranken in der heiligen Odilia eine himmlische Patronin gegeben. Öffne uns auf ihre Fürsprache die Augen, damit wir in der geschaffenen Schönheit deine Größe erahnen und dich einst schauen in deinem himmlischen Licht. Darum bitten wir durch Jesus Christus."
         }
       },
       "n2": {
-        "name": "Luzia",
-        "genitiv": "Genitiv",
+        "name": "Hl. Luzia",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -5629,27 +5195,25 @@ export const adlibData = {
           "oration": "Herr, unser Gott, wir feiern den Gedenktag der heiligen Jungfrau und Märtyrerin Luzia, die du uns als Fürsprecherin gegeben hast. Gibt, dass wir nach ihrem Beispiel als Kinder des Lichtes leben und einst in der Gemeinschaft der Heiligen den Glanz deiner Herrlichkeit schauen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Luzia",
-          "genitiv": "Genitiv",
+          "name": "Hl. Luzia",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
-          "Ant_Ev": "Ich habe keinem anderen geopfert als dem lebendigen Gott.^lNun, da mir nichts mehr geblieben ist,^lbringe ich mich selbst zum Opfer dar.",
+          "Ant_Ev": "Ich habe keinem anderen geopfert als dem lebendigen Gott. Nun, da mir nichts mehr geblieben ist, bringe ich mich selbst zum Opfer dar.",
           "oration": "Herr, unser Gott, wir feiern den Gedenktag der heiligen Jungfrau und Märtyrerin Luzia, die du uns als Fürsprecherin gegeben hast. Gibt, dass wir nach ihrem Beispiel als Kinder des Lichtes leben und einst in der Gemeinschaft der Heiligen den Glanz deiner Herrlichkeit schauen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Luzia",
-          "genitiv": "Genitiv",
+          "name": "Hl. Luzia",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
-          "Ant_Ev": "Heilige Luzia, du Braut des Herrn!^lWeil du standhaft bliebst, hast du das Leben gewonnen.^lDen Reichtum dieser Welt hast du verachtet^lund durch dein Blut den Feind besiegt.^lNun strahlt dein Licht inmitten der Engel.",
+          "Ant_Ev": "Heilige Luzia, du Braut des Herrn! Weil du standhaft bliebst, hast du das Leben gewonnen. Den Reichtum dieser Welt hast du verachtet und durch dein Blut den Feind besiegt. Nun strahlt dein Licht inmitten der Engel.",
           "oration": "Herr, unser Gott, wir feiern den Gedenktag der heiligen Jungfrau und Märtyrerin Luzia, die du uns als Fürsprecherin gegeben hast. Gibt, dass wir nach ihrem Beispiel als Kinder des Lichtes leben und einst in der Gemeinschaft der Heiligen den Glanz deiner Herrlichkeit schauen. Darum bitten wir durch Jesus Christus."
         }
       }
     },
     "23": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Johannes von Krakau",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -5662,14 +5226,14 @@ export const adlibData = {
           "oration": "Barmherziger Gott, das Beispiel des heiligen Johannes von Krakau helfe uns, immer tiefer einzudringen in die Weisheit der Heiligen: dich über alles lieben und den Menschen Gutes tun. Seine Fürsprache erwirke uns deine Verzeihung. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Johannes von Krakau",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Daran werden alle erkennen, dass ihr meine Jünger seid:^lwenn ihr einander liebt.",
           "oration": "Barmherziger Gott, das Beispiel des heiligen Johannes von Krakau helfe uns, immer tiefer einzudringen in die Weisheit der Heiligen: dich über alles lieben und den Menschen Gutes tun. Seine Fürsprache erwirke uns deine Verzeihung. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Johannes von Krakau",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Amen, ich sage euch:^lWas ihr dem Geringsten meiner Brüder getan habt, das habt ihr mir getan.^lKommt, ihr Gesegneten meines Vaters, nehmt das Reich in Besitz,^ldas seit Anfang der Welt für euch bestimmt ist.",
@@ -5679,8 +5243,8 @@ export const adlibData = {
     },
     "29": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Thomas Becket",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -5693,14 +5257,14 @@ export const adlibData = {
           "oration": "Allmächtiger Gott, du hast dem heiligen Thomas Becket Starkmut und Tapferkeit geschenkt, so dass er sein Leben für Recht und Gerechtigkeit hingab. Gib auch uns die Bereitschaft, unser Leben in dieser Welt um Christi Willen zu verlieren, damit wir es wiederfinden im Himmel. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Thomas Becket",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Wer sein Leben liebt, wird es verlieren;^ldoch wer in dieser Welt sein Leben hasst,^lder wird es bewahren für das ewige Leben.",
           "oration": "Allmächtiger Gott, du hast dem heiligen Thomas Becket Starkmut und Tapferkeit geschenkt, so dass er sein Leben für Recht und Gerechtigkeit hingab. Gib auch uns die Bereitschaft, unser Leben in dieser Welt um Christi Willen zu verlieren, damit wir es wiederfinden im Himmel. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Thomas Becket",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Im himmlischen Reich ist die Wohnstatt der Heiligen.^lDort finden sie Ruhe auf ewig.",
@@ -5710,8 +5274,8 @@ export const adlibData = {
     },
     "31": {
       "n1": {
-        "name": "",
-        "genitiv": "Genitiv",
+        "name": "Hl. Silvester I.",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -5724,14 +5288,14 @@ export const adlibData = {
           "oration": "Gott, du Herr der Zeiten, höre auf die Fürsprache des heiligen Papstes Silvester und komme deinem Volk zu Hilfe. Führe es in diesem vergänglichen Leben, damit es einst zum unvergänglichen gelange und bei dir das ewige Glück finde. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Silvester I.",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Nicht ihr werdet reden,^lsondern der Geist eures Vaters redet durch euch.",
           "oration": "Gott, du Herr der Zeiten, höre auf die Fürsprache des heiligen Papstes Silvester und komme deinem Volk zu Hilfe. Führe es in diesem vergänglichen Leben, damit es einst zum unvergänglichen gelange und bei dir das ewige Glück finde. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "genitiv": "Genitiv",
+          "name": "Hl. Silvester I.",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Herr der Zeiten, höre auf die Fürsprache des heiligen Papstes Silvester und komme deinem Volk zu Hilfe. Führe es in diesem vergänglichen Leben, damit es einst zum unvergänglichen gelange und bei dir das ewige Glück finde. Darum bitten wir durch Jesus Christus."

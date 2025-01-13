@@ -54,7 +54,7 @@ const getLiturgicalInfo = (date) => {
     // Calculate key dates
     const christmas = new Date(year - 1, 11, 25);
     const christmasSunday = getNextSunday(christmas);
-    const epiphany = getNextSunday(new Date(year, 0, 7));
+    const baptism = getNextSunday(new Date(year, 0, 7));
     const easter = calculateEaster(year);
     const lentSunday = new Date(easter.getTime() - 42 * 24 * 60 * 60 * 1000);
     const pentecost = new Date(easter.getTime() + 49 * 24 * 60 * 60 * 1000);
@@ -67,24 +67,15 @@ const getLiturgicalInfo = (date) => {
 
     let season, week;
 
-    // Christmas Day
-    if (date.getTime() === christmas.getTime()) {
-        return {
-            season: LiturgicalSeason.CHRISTMAS,
-            week: date.getDay() === 0 ? 1 : 0,
-            dayOfWeek: date.getDay()
-        };
-    }
-
     // Christmas Season until Baptism
-    if (date < epiphany) {
+    if (date.setHours(0, 0, 0, 0) < baptism.setHours(0, 0, 0, 0)) {
         season = LiturgicalSeason.CHRISTMAS;
         week = weeksBetween(christmasSunday, date);
     }
     // Ordinary Time before Lent
     else if (date < lentSunday - 4 * 24 * 60 * 60 * 1000) {
         season = LiturgicalSeason.ORDINARY_TIME;
-        week = weeksBetween(epiphany, date);
+        week = weeksBetween(baptism, date);
     }
     // Ash Wednesday until First Sunday of Lent
     else if (date < lentSunday) {
@@ -97,7 +88,7 @@ const getLiturgicalInfo = (date) => {
         week = weeksBetween(lentSunday, date);
     }
     // Easter through Pentecost Monday
-    else if (date <= new Date(pentecost.getTime() + 24 * 60 * 60 * 1000)) {
+    else if (date.setHours(0, 0, 0, 0) <= pentecost) {
         season = LiturgicalSeason.EASTER;
         week = weeksBetween(easter, date);
     }

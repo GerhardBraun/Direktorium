@@ -8,6 +8,7 @@ import { getLiturgicalInfo, LiturgicalSeason } from './liturgicalCalendar.js';
 import { processBrevierData } from './brevierDataProcessor.js';
 import formatBibleRef from './bibleRefFormatter.js';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from './ui/tooltip.jsx';
+import SourceSelector from './SourceSelector.js';
 
 const fontFamily = 'Cambria, serif';
 const hangingIndent = '3.2em'; // Variable für den Einzug
@@ -938,10 +939,16 @@ const formatLiturgicalInfo = (info, date) => {
 const PrayerMenu = ({ title, onSelectHour, setViewMode, onPrevDay, onNextDay, selectedDate }) => {
     const [liturgicalInfo, setLiturgicalInfo] = useState(null);
     const [prayerTexts, setPrayerTexts] = useState(null);  // Neuer State für die Gebetstext-Daten
+    const [prefSrc, setPrefSrc] = useState('eig');
+    const [prefComm1, setPrefComm1] = useState('com1');
+    const [prefComm2, setPrefComm2] = useState('com2');
 
     useEffect(() => {
         const info = getLiturgicalInfo(selectedDate);
         setLiturgicalInfo(info);
+        setPrefSrc('eig');
+        setPrefComm1('com1');
+        setPrefComm2('com2');
 
         // Verarbeite die Gebetsdaten
         if (info) {
@@ -954,6 +961,42 @@ const PrayerMenu = ({ title, onSelectHour, setViewMode, onPrevDay, onNextDay, se
             setPrayerTexts(processedData);
         }
     }, [selectedDate]);
+
+    // Helper function to check if a source has valid data
+    const hasValidSource = (source) => {
+        return prayerTexts?.laudes?.[source]?.oration;
+    };
+
+    // Helper function to get button color based on source color
+    const getButtonColor = (source) => {
+        const color = prayerTexts?.laudes?.[source]?.color;
+        return color?.startsWith('r')
+            ? 'bg-red-600 text-white hover:bg-red-700'
+            : 'bg-white text-gray-900 hover:bg-gray-100';
+    };
+
+    // Function to handle source selection
+    const handleSourceSelect = (source) => {
+        // Neue Präferenzen setzen
+        const newPrefSrc = (source === 'wt') ? 'eig' : source;
+        const newPrefComm1 = (source === 'eig' || source === 'wt') ? 'com1' : `${source}com1`;
+        const newPrefComm2 = (source === 'eig' || source === 'wt') ? 'com2' : `${source}com2`;
+        setPrefSrc(newPrefSrc);
+        setPrefComm1(newPrefComm1);
+        setPrefComm2(newPrefComm2);
+        console.log('SourceSelect: ', newPrefSrc, newPrefComm1, newPrefComm2)
+        // Aktualisiertes prayerTexts-Objekt erstellen
+        const updatedPrayerTexts = {
+            ...prayerTexts,
+            prefSrc: source,
+            prefComm1: newPrefComm1,
+            prefComm2: newPrefComm2,
+            localPrefComm: 0
+        };
+
+        // Aktualisierte Daten im parent speichern
+        setPrayerTexts(updatedPrayerTexts);
+    };
 
     return (
         <div className="flex flex-col p-4 bg-white dark:bg-gray-900">
@@ -985,16 +1028,56 @@ const PrayerMenu = ({ title, onSelectHour, setViewMode, onPrevDay, onNextDay, se
                 </button>
             </div>
 
+            {/* Bezeichnung Hochfest/Fest/Gedenktag */}
+            {hasValidSource('eig') && (
+                <div className="text-center text-[1.1em] font-bold text-gray-900 dark:text-gray-100" >
+                    {prayerTexts?.laudes?.eig?.name || "Hochfest/Fest/Gedenktag"}
+                </div>
+            )}
+            {prayerTexts?.laudes?.wt?.name && !hasValidSource('eig') && (
+                <div className="text-center text-xl font-bold text-gray-900 dark:text-gray-100" >
+                    {prayerTexts.laudes.wt.name}
+                </div>
+            )}
+            {/* Weekday Button */}
+            {prayerTexts?.rank_wt < 3 && hasValidSource('n1') && !hasValidSource('eig') && (
+                <button
+                    onClick={() => handleSourceSelect('wt')}
+                    className={`w-full p-1 mb-1 text-center rounded-lg
+                        bg-green-600 text-white hover:bg-green-700
+                        ${prefSrc === 'eig' ? 'ring-2 ring-yellow-500' : ''}`}
+                >
+                    Vom Wochentag
+                </button>
+            )}
+            {/* Saint Selection Buttons */}
+            {prayerTexts?.rank_wt < 3 && hasValidSource('n1') && (
+                <div className="space-y-1 mb-4">
+                    {['eig', 'n1', 'n2', 'n3', 'n4', 'n5'].map(source => {
+                        if (!hasValidSource(source)) return null;
+
+                        return (
+                            <button
+                                key={source}
+                                onClick={() => handleSourceSelect(source)}
+                                className={`w-full p-1 text-center rounded-lg 
+                                    ${getButtonColor(source)}
+                                    ${prefSrc === source ? 'ring-2 ring-yellow-500' : ''}`}
+                            >
+                                {prayerTexts.laudes[source].name || "ein Heiliger"}
+                            </button>
+                        );
+                    })}
+                </div>
+            )}
+
             {/* Prayer Hours */}
             <div className="space-y-2 mb-6">
                 {Object.values(PrayerHours).map(hour => (
                     <button
                         key={hour}
                         onClick={() => {
-                            console.log('Daten:', {
-                                hour,
-                                texts: prayerTexts
-                            });
+                            console.log('Daten:', { hour, texts: prayerTexts });
                             onSelectHour(hour, prayerTexts);
                         }}
                         className="w-full p-3 text-left rounded-lg bg-gray-100 dark:bg-gray-800 
@@ -1066,31 +1149,32 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
     const rank_date = texts.rank_date || 0
 
     // Get value from sources in priority order: eig -> wt -> com
+    // Get value from sources in priority order: prefSrc -> prefComm1/prefComm2 -> wt
     const getValue = (field) => {
-        // 1. Prüfe zuerst "eig"
+        // 1. Prüfe zuerst prefSrc
         if ((field.startsWith('hymn_') && field !== 'hymn_1') &&
-            (texts[hour]['eig']?.['hymn_1']
-                || (localPrefComm === 1 && texts[hour]['com1']?.['hymn_1'])
-                || (localPrefComm === 2 && texts[hour]['com2']?.['hymn_1'])
+            (texts[hour][texts.prefSrc]?.['hymn_1']
+                || (localPrefComm === 1 && texts[hour][texts.prefComm1]?.['hymn_1'])
+                || (localPrefComm === 2 && texts[hour][texts.prefComm2]?.['hymn_1'])
             )) {
             return null;
         }
 
-        if (texts[hour]['eig']?.[field]) {
-            return texts[hour]['eig'][field];
+        if (texts[hour][texts.prefSrc]?.[field]) {
+            return texts[hour][texts.prefSrc][field];
         }
 
-        // 2. Prüfe "com1" wenn prefComm = 1
-        if (localPrefComm === 1 && texts[hour]['com1']?.[field]) {
-            return texts[hour]['com1'][field];
+        // 2. Prüfe prefComm1 wenn prefComm = 1
+        if (localPrefComm === 1 && texts[hour][texts.prefComm1]?.[field]) {
+            return texts[hour][texts.prefComm1][field];
         }
 
-        // 3. Prüfe "com2" wenn prefComm = 2
-        if (localPrefComm === 2 && texts[hour]['com2']?.[field]) {
-            return texts[hour]['com2'][field];
+        // 3. Prüfe prefComm2 wenn prefComm = 2
+        if (localPrefComm === 2 && texts[hour][texts.prefComm2]?.[field]) {
+            return texts[hour][texts.prefComm2][field];
         }
 
-        // 3. Verwende "wt" als letzte Option
+        // 4. Verwende "wt" als letzte Option
         if (texts[hour]['wt']?.[field]) {
             return texts[hour]['wt'][field];
         }
@@ -1099,12 +1183,12 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
     };
 
     const checkSources = (field) => {
-        const hasEig = texts[hour]['eig']?.[field];
+        const hasEig = texts[hour][texts.prefSrc]?.[field];
         const hasWt = texts[hour]['wt']?.[field];
-        const hasComm1 = texts[hour]['com1']?.[field];
-        const hasComm2 = texts[hour]['com2']?.[field];
-        const nameComm1 = texts['laudes']['com1']?.['name'] || 'Comm1';
-        const nameComm2 = texts['laudes']['com2']?.['name'] || 'Comm2';
+        const hasComm1 = texts[hour][texts.prefComm1]?.[field];
+        const hasComm2 = texts[hour][texts.prefComm2]?.[field];
+        const nameComm1 = texts['laudes'][texts.prefComm1]?.['name'] || 'Comm1';
+        const nameComm2 = texts['laudes'][texts.prefComm2]?.['name'] || 'Comm2';
 
         return {
             hasEig,
