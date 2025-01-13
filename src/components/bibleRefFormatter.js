@@ -4,7 +4,7 @@ const formatBibleRef = (text) => {
     // Ursprünglichen Text für Fehlerfälle speichern
     const originalText = text;
 
-    // Text bereinigen: Leerzeichen entfernen und Bindestriche durch Gedankenstriche ersetzen
+    // Text bereinigen: Bindestriche durch Gedankenstriche ersetzen
     text = text.replace(/-/g, '–');
 
     let result = [];        // Array für die React-Elemente
@@ -35,6 +35,18 @@ const formatBibleRef = (text) => {
         const nextPunctuationType = nextPunctuation ? nextPunctuation[0] : null;
 
         switch (char) {
+            case ' ':
+                if (inVerseSection) {
+                    // Bei Leerzeichen in VerseSection: Aktuelle Section beenden
+                    addCurrentText();
+                    inVerseSection = false;
+                    currentText = ' ';
+                } else {
+                    // Leerzeichen außerhalb VerseSection: Normal hinzufügen
+                    currentText += ' ';
+                }
+                break;
+
             case ',':
                 if (inVerseSection) {
                     // Fehler: Komma während eines Vers-Abschnitts

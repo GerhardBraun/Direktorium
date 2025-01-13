@@ -483,6 +483,12 @@ export const psalmsData = {
       }
   },
   45: {
+    0.0: {
+        "verses": "2-18",
+        "title": "Die Hochzeit des Königs",
+        "quote": "Der Bräutigam kommt! Geht ihm entgegen! (Mt 25,6)",
+        "text": "Mein Herz fließt über von froher Kunde,^+ich weihe mein Lied dem König.^*Meine Zunge gleicht dem Griffel des flinken Schreibers.^pDu bist der Schönste von allen Menschen,^+Anmut ist ausgegossen über deine Lippen;^*darum hat Gott dich für immer gesegnet.^pGürte, du Held, dein Schwert um die Hüfte,^*kleide dich in Hoheit und Herrlichkeit!^pZieh aus mit Glück, kämpfe für Wahrheit und Recht!^*Furchtgebietende Taten soll dein rechter Arm dich lehren.^pDeine Pfeile sind scharf, dir unterliegen die Völker,^*die Feinde des Königs verlieren den Mut.^pDein Thron, du Göttlicher, steht für immer und ewig;^*das Zepter deiner Herrschaft ist ein gerechtes Zepter.^pDu liebst das Recht und hasst das Unrecht,^+darum hat Gott, dein Gott, dich gesalbt mit dem Öl der Freude^*wie keinen deiner Gefährten.^pVon Myrrhe, Aloë und Kassia duften all deine Gewänder,^*aus Elfenbeinhallen erfreut dich Saitenspiel.^pKönigstöchter gehen dir entgegen,^*die Braut steht dir zur Rechten im Schmuck von Ofirgold.^pHöre, Tochter, sieh her und neige dein Ohr,^*vergiss dein Volk und dein Vaterhaus!^pDer König verlangt nach deiner Schönheit;^*er ist ja dein Herr, verneig dich vor ihm!^pDie Töchter von Tyrus kommen mit Gaben,^*deine Gunst begehren die Edlen des Volkes.^pDie Königstochter ist herrlich geschmückt,^*ihr Gewand ist durchwirkt mit Gold und Perlen.^pMan geleitet sie in bunt gestickten Kleidern zum König,^+Jungfrauen sind ihr Gefolge,^*ihre Freundinnen führt man zu dir.^pMan geleitet sie mit Freude und Jubel,^*sie ziehen ein in den Palast des Königs.^pAn die Stelle deiner Väter treten einst deine Söhne;^*du bestellst sie zu Fürsten im ganzen Land.^pIch will deinen Namen rühmen von Geschlecht zu Geschlecht;^*darum werden die Völker dich preisen immer und ewig."
+      },
     1.0: {
         "verses": "2-10",
         "title": "Die Hochzeit des Königs",
@@ -1263,95 +1269,95 @@ export const psalmsData = {
   },
   119: {
     1.0: {
-        "verses": "1-8",
+        "verses": "1-8   I (Alef)",
         "title": "Freude an Gottes Weisung",
         "quote": "Die Liebe zu Gott besteht darin, dass wir seine Gebote halten. (1 Joh 5,3)",
         "text": "Wohl denen, deren Weg ohne Tadel ist,^*die leben nach der Weisung des Herrn.^pWohl denen, die seine Vorschriften befolgen^*und ihn suchen von ganzem Herzen,^pdie kein Unrecht tun^*und auf seinen Wegen gehn.^pDu hast deine Befehle gegeben,^*damit man sie genau beachtet.^pWären doch meine Schritte fest darauf gerichtet,^*deinen Gesetzen zu folgen!^pDann werde ich niemals scheitern,^*wenn ich auf all deine Gebote schaue.^pMit lauterem Herzen will ich dir danken,^*wenn ich deine gerechten Urteile lerne.^pDeinen Gesetzen will ich immer folgen.^*Lass mich doch niemals im Stich!"
       },
     9.0: {
-        "verses": "9-16",
+        "verses": "9-16   II (Bet)",
         "text": "Wie geht ein junger Mann seinen Pfad ohne Tadel?^*Wenn er sich hält an dein Wort.^pIch suche dich von ganzem Herzen.^*Lass mich nicht abirren von deinen Geboten!^pIch berge deinen Spruch im Herzen,^*damit ich gegen dich nicht sündige.^pGepriesen seist du, Herr!^*Lehre mich deine Gesetze!^pMit meinen Lippen verkünde ich^*alle Urteile deines Mundes.^pNach deinen Vorschriften zu leben^*freut mich mehr als großer Besitz.^pIch will nachsinnen über deine Befehle^*und auf deine Pfade schauen.^pIch habe meine Freude an deinen Gesetzen,^*dein Wort will ich nicht vergessen."
       },
     17.0: {
-        "verses": "17-24",
+        "verses": "17-24   III (Gimel)",
         "text": "Herr, tu deinem Knecht Gutes, erhalt mich am Leben!^*Dann will ich dein Wort befolgen.^pÖffne mir die Augen^*für das Wunderbare an deiner Weisung!^pIch bin nur Gast auf Erden.^*Verbirg mir nicht deine Gebote!^pIn Sehnsucht nach deinem Urteil^*verzehrt sich allezeit meine Seele.^pDu drohst den Stolzen.^*Verflucht sei, wer abirrt von deinen Geboten!^pNimm von mir Schmach und Verachtung!^*Denn was du vorschreibst, befolge ich.^pWenn auch Fürsten gegen mich beraten:^*dein Knecht sinnt nach über deine Gesetze.^pDeine Vorschriften machen mich froh;^*sie sind meine Berater."
       },
     25.0: {
-        "verses": "25-32",
+        "verses": "25-32   IV (Dalet)",
         "text": "Meine Seele klebt am Boden.^*Durch dein Wort belebe mich!^pIch habe dir mein Geschick erzählt, und du erhörtest mich.^*Lehre mich deine Gesetze!^pLass mich den Weg begreifen, den deine Befehle mir zeigen,^*dann will ich nachsinnen über deine Wunder.^pMeine Seele zerfließt vor Kummer.^*Richte mich auf durch dein Wort!^pHalte mich fern vom Weg der Lüge;^*begnade mich mit deiner Weisung!^pIch wählte den Weg der Wahrheit;^*nach deinen Urteilen hab’ ich Verlangen.^pIch halte an deinen Vorschriften fest.^*Herr, lass mich niemals scheitern!^pIch eile voran auf dem Weg deiner Gebote,^*denn mein Herz machst du weit."
       },
     33.0: {
-        "verses": "33-40",
+        "verses": "33-40   V (He)",
         "text": "Herr, weise mir den Weg deiner Gesetze!^*Ich will ihn einhalten bis ans Ende.^pGib mir Einsicht, damit ich deiner Weisung folge^*und mich an sie halte aus ganzem Herzen.^pFühre mich auf dem Pfad deiner Gebote!^*Ich habe an ihm Gefallen.^pDeinen Vorschriften neige mein Herz zu,^*doch nicht der Habgier!^pWende meine Augen ab von eitlen Dingen;^*durch dein Wort belebe mich!^pErfülle deinem Knecht die Verheißung,^*die allen gilt, die dich fürchten und ehren.^pWende die Schande ab, vor der mir graut;^*denn deine Entscheide sind gut.^pNach deinen Befehlen hab' ich Verlangen.^*Gib mir neue Kraft durch deine Gerechtigkeit!"
       },
     41.0: {
-        "verses": "41-48",
+        "verses": "41-48   VI (Waw)",
         "text": "Herr, deine Huld komme auf mich herab^*und deine Hilfe, wie du es verheißen hast.^pDann kann ich dem, der mich schmäht, erwidern;^*denn ich vertraue auf dein Wort.^pEntziehe meinem Mund nicht das Wort der Wahrheit!^*Ich hoffe so sehr auf deine Entscheide.^pIch will deiner Weisung beständig folgen,^*auf immer und ewig.^pDann schreite ich aus auf freier Bahn;^*denn ich frage nach deinen Befehlen.^pDeine Gebote will ich vor Königen bezeugen^*und mich nicht vor ihnen schämen.^pAn deinen Geboten habe ich meine Freude,^*ich liebe sie von Herzen.^pIch erhebe meine Hände zu deinen Geboten;^*nachsinnen will ich über deine Gesetze."
       },
     49.0: {
-        "verses": "49-56",
+        "verses": "49-56   VII (Sajin)",
         "text": "Herr, denk an das Wort für deinen Knecht,^*durch das du mir Hoffnung gabst!^pDas ist mein Trost im Elend:^*Deine Verheißung spendet mir Leben.^pFrech verhöhnen mich die Stolzen;^*ich aber weiche nicht ab von deiner Weisung.^pDenke ich an deine Urteile seit alter Zeit,^*Herr, dann bin ich getröstet.^pZorn packt mich wegen der Frevler,^*weil sie deine Weisung missachten.^pZum Lobgesang wurden mir deine Gesetze^*im Haus meiner Pilgerschaft.^pIn der Nacht denke ich, Herr, an deinen Namen;^*ich will deine Weisung beachten.^pDeine Befehle zu befolgen^*ist das Glück, das mir zufiel."
       },
     57.0: {
-        "verses": "57-64",
+        "verses": "57-64   VIII (Chet)",
         "text": "Mein Anteil ist der Herr;^*ich habe versprochen, dein Wort zu beachten.^pIch suche deine Gunst von ganzem Herzen.^*Sei mir gnädig nach deiner Verheißung!^pIch überdenke meine Wege,^*zu deinen Vorschriften lenke ich meine Schritte.^pIch eile und säume nicht,^*deine Gebote zu halten.^pAuch wenn mich die Stricke der Frevler fesseln,^*vergesse ich deine Weisung nicht.^pUm Mitternacht stehe ich auf, um dich zu preisen^*wegen deiner gerechten Entscheide.^pIch bin ein Freund all derer, die dich fürchten und ehren,^*und aller, die deine Befehle befolgen.^pVon deiner Güte, Herr, ist die Erde erfüllt.^*Lehre mich deine Gesetze!"
       },
     65.0: {
-        "verses": "65-72",
+        "verses": "65-72   IX (Tet)",
         "text": "Du hast deinem Knecht Gutes erwiesen,^*o Herr, nach deinem Wort.^pLehre mich Erkenntnis und rechtes Urteil!^*Ich vertraue auf deine Gebote.^pEhe ich gedemütigt wurde, ging mein Weg in die Irre;^*nun aber halte ich mich an deine Verheißung.^pDu bist gut und wirkst Gutes.^*Lehre mich deine Gesetze!^pStolze verbreiten über mich Lügen,^*ich aber halte mich von ganzem Herzen an deine Befehle.^pAbgestumpft und satt ist ihr Herz,^*ich aber ergötze mich an deiner Weisung.^pDass ich gedemütigt wurde, war für mich gut,^*denn so lernte ich deine Gesetze.^pDie Weisung deines Mundes ist mir lieb,^*mehr als große Mengen von Gold und Silber."
       },
     73.0: {
-        "verses": "73-80",
+        "verses": "73-80   X (Jod)",
         "text": "Deine Hände haben mich gemacht und geformt.^*Gib mir Einsicht, damit ich deine Gebote lerne.^pWer dich fürchtet, wird mich sehen und sich freuen,^*denn ich warte auf dein Wort.^pHerr, ich weiß, dass deine Entscheide gerecht sind;^*du hast mich gebeugt, weil du treu für mich sorgst.^pTröste mich in deiner Huld,^*wie du es deinem Knecht verheißen hast.^pDein Erbarmen komme über mich, damit ich lebe;^*denn deine Weisung macht mich froh.^pSchande über die Stolzen, die mich zu Unrecht bedrücken!^*Ich aber sinne nach über deine Befehle.^pMir sollen sich alle zuwenden, die dich fürchten und ehren^*und die deine Vorschriften kennen.^pMein Herz richte sich ganz nach deinen Gesetzen;^*dann werde ich nicht zuschanden."
       },
     81.0: {
-        "verses": "81-88",
+        "verses": "81-88   XI (Kaf)",
         "text": "Herr, nach deiner Hilfe sehnt sich meine Seele;^*ich warte auf dein Wort.^pMeine Augen sehnen sich nach deiner Verheißung,^*sie fragen: Wann wirst du mich trösten?^pIch bin wie ein Schlauch voller Risse,^*doch deine Gesetze habe ich nicht vergessen.^pWie viele Tage noch bleiben deinem Knecht?^*Wann wirst du meine Verfolger richten?^pStolze stellen mir Fallen,^*sie handeln nicht nach deiner Weisung.^pZuverlässig sind all deine Gebote.^*Zu Unrecht verfolgt man mich. Komm mir zu Hilfe!^pFast hätte man mich von der Erde ausgetilgt;^*dennoch halte ich fest an deinen Befehlen.^pIn deiner großen Huld lass mich leben,^*und ich will beachten, was dein Mund mir gebietet."
       },
     89.0: {
-        "verses": "89-96",
+        "verses": "89-96   XII (Lamed)",
         "text": "Herr, dein Wort bleibt auf ewig,^*es steht fest wie der Himmel.^pDeine Treue währt von Geschlecht zu Geschlecht;^*du hast die Erde gegründet, sie bleibt bestehen.^pNach deiner Ordnung bestehen sie bis heute^*und dir ist alles dienstbar.^pWäre nicht dein Gesetz meine Freude,^*ich wäre zugrunde gegangen in meinem Elend.^pNie will ich deine Befehle vergessen;^*denn durch sie schenkst du mir Leben.^pIch bin dein, errette mich!^*Ich frage nach deinen Befehlen.^pFrevler lauern mir auf, um mich zu vernichten;^*doch mein Sinn achtet auf das, was du gebietest.^pIch sah, dass alles Vollkommene Grenzen hat;^*doch dein Gebot kennt keine Schranken."
       },
     97.0: {
-        "verses": "97-104",
+        "verses": "97-104   XIII (Mem)",
         "text": "Wie lieb ist mir deine Weisung;^*ich sinne über sie nach den ganzen Tag.^pDein Gebot macht mich weiser als all meine Feinde;^*denn immer ist es mir nahe.^pIch wurde klüger als all meine Lehrer;^*denn über deine Vorschriften sinne ich nach.^pMehr Einsicht habe ich als die Alten;^*denn ich beachte deine Befehle.^pVon jedem bösen Weg halte ich meinen Fuß zurück;^*denn ich will dein Wort befolgen.^pIch weiche nicht ab von deinen Entscheiden,^*du hast mich ja selbst unterwiesen.^pWie köstlich ist für meinen Gaumen deine Verheißung,^*süßer als Honig für meinen Mund.^pAus deinen Befehlen gewinne ich Einsicht,^*darum hasse ich alle Pfade der Lüge."
       },
     105.0: {
-        "verses": "105-112",
+        "verses": "105-112   XIV (Nun)",
         "title": "Lob des göttlichen Gesetzes",
         "quote": "Dies ist mein Gebot: Liebt einander. (Joh 15,12)",
         "text": "^(Herr, dein Wort ist meinem Fuß eine Leuchte,^*ein Licht für meine Pfade.^)^pIch tat einen Schwur und ich will ihn halten:^*Ich will deinen gerechten Entscheidungen folgen.^pHerr, ganz tief bin ich gebeugt.^*Durch dein Wort belebe mich!^pHerr, nimm mein Lobopfer gnädig an^*und lehre mich deine Entscheide!^pMein Leben ist ständig in Gefahr,^*doch ich vergesse nie deine Weisung.^pFrevler legen mir Schlingen,^*aber ich irre nicht ab von deinen Befehlen.^pDeine Vorschriften sind auf ewig mein Erbteil,^*denn sie sind die Freude meines Herzens.^pMein Herz ist bereit, dein Gesetz zu erfüllen^*bis ans Ende und ewig."
       },
     113.0: {
-        "verses": "113-120",
+        "verses": "113-120   XV (Samech)",
         "text": "Zwiespältige Menschen sind mir von Grund auf verhasst,^*doch dein Gesetz ist mir lieb.^pDu bist mein Schutz und mein Schild,^*ich warte auf dein Wort.^pWeicht zurück von mir, ihr Bösen!^*Ich will die Gebote meines Gottes befolgen.^pStütze mich, damit ich lebe, wie du es verheißen hast.^*Lass mich in meiner Hoffnung nicht scheitern!^pGib mir Halt, dann finde ich Rettung;^*immer will ich auf deine Gesetze schauen.^pAlle, die sich von deinen Gesetzen entfernen, verwirfst du;^*denn ihr Sinnen und Trachten ist Lüge.^pAlle Frevler im Land sind für dich wie Schlacken,^*darum liebe ich, was du gebietest.^pAus Ehrfurcht vor dir erschauert mein Leib,^*vor deinen Urteilen empfinde ich heilige Scheu."
       },
     121.0: {
-        "verses": "121-128",
+        "verses": "121-128   XVI (Ajin)",
         "text": "Ich tue, was recht und gerecht ist.^*Gib mich meinen Bedrückern nicht preis!^pVerbürg dich für das Wohl deines Knechtes,^*damit die Stolzen mich nicht unterdrücken.^pMeine Augen sehnen sich nach deiner Hilfe,^*nach deiner gerechten Verheißung.^pHandle an deinem Knecht nach deiner Huld^*und lehre mich deine Gesetze!^pIch bin dein Knecht. Gib mir Einsicht,^*damit ich verstehe, was du gebietest.^pHerr, es ist Zeit zu handeln,^*man hat dein Gesetz gebrochen.^pDarum liebe ich deine Gebote^*mehr als Rotgold und Weißgold.^pIch lebe genau nach deinen Befehlen;^*ich hasse alle Pfade der Lüge."
       },
     129.0: {
-        "verses": "129-136",
+        "verses": "129-136   XVII (Pe)",
         "text": "Herr, deine Vorschriften sind der Bewunderung wert;^*darum bewahrt sie mein Herz.^pDie Erklärung deiner Worte bringt Erleuchtung,^*den Unerfahrenen schenkt sie Einsicht.^pWeit öffne ich meinen Mund und lechze nach deinen Geboten;^*denn nach ihnen hab ich Verlangen.^pWende dich mir zu, sei mir gnädig,^*wie es denen gebührt, die deinen Namen lieben.^pFestige meine Schritte, wie du es verheißen hast!^*Lass kein Unrecht über mich herrschen!^pErlöse mich aus der Gewalt der Menschen;^*dann will ich deine Befehle halten.^pLass dein Angesicht leuchten über deinem Knecht^*und lehre mich deine Gesetze!^pTränenbäche strömen aus meinen Augen,^*weil man dein Gesetz nicht befolgt."
       },
     137.0: {
-        "verses": "137-144",
+        "verses": "137-144   XVIII (Zade)",
         "text": "Herr, du bist gerecht^*und deine Entscheide sind richtig.^pDu hast deine Vorschriften erlassen in Gerechtigkeit^*und in großer Treue.^pDer Eifer für dich verzehrt mich;^*denn meine Gegner vergessen deine Worte.^pDeine Worte sind rein und lauter;^*dein Knecht hat sie lieb.^pIch bin gering und verachtet,^*doch ich vergesse nie deine Befehle.^pDeine Gerechtigkeit bleibt ewig Gerechtigkeit,^*deine Weisung ist Wahrheit.^pMich trafen Not und Bedrängnis,^*doch deine Gebote machen mich froh.^pDeine Vorschriften sind auf ewig gerecht.^*Gib mir Einsicht, damit ich lebe."
       },
     145.0: {
-        "verses": "145-152",
+        "verses": "145-152   XIX (Qof)",
         "text": "Erhöre mich, Herr, ich rufe von ganzem Herzen;^*deine Gesetze will ich halten.^pIch rufe zu dir; errette mich,^*dann will ich deinen Vorschriften folgen.^pSchon beim Morgengrauen komme ich und flehe;^*ich warte auf dein Wort.^pMeine Augen eilen den Nachtwachen voraus,^*denn ich sinne nach über deine Verheißung.^pHöre auf meine Stimme in deiner Huld;^*belebe mich, Herr, durch deine Entscheide!^pMir nähern sich tückische Verfolger;^*sie haben sich weit von deiner Weisung entfernt.^pDoch du bist nahe, Herr,^*und alle deine Gebote sind Wahrheit.^pAus deinen Vorschriften weiß ich seit langem,^*dass du sie für ewig bestimmt hast."
       },
     153.0: {
-        "verses": "153-160",
+        "verses": "153-160   XX (Resch)",
         "text": "Sieh mein Elend an und rette mich;^*denn ich habe deine Weisung nicht vergessen.^pVerschaff mir Recht und erlöse mich;^*nach deiner Weisung erhalte mein Leben!^pFern bleibt den Frevlern das Heil;^*denn sie fragen nicht nach deinen Gesetzen.^pHerr, groß ist dein Erbarmen;^*durch deine Entscheide belebe mich!^pViele verfolgen und quälen mich,^*doch von deinen Vorschriften weich ich nicht ab.^pWenn ich Abtrünnige sehe, empfinde ich Abscheu,^*weil sie dein Wort nicht befolgen.^pSieh an, wie sehr ich deine Vorschriften liebe;^*Herr, in deiner Huld belebe mich!^pDas Wesen deines Wortes ist Wahrheit,^*deine gerechten Urteile haben alle auf ewig Bestand."
       },
     161.0: {
-        "verses": "161-168",
+        "verses": "161-168   XXI (Schin)",
         "text": "Fürsten verfolgen mich ohne Grund,^*doch mein Herz fürchtet nur dein Wort.^pIch freue mich über deine Verheißung^*wie einer, der reiche Beute gemacht hat.^pIch hasse die Lüge, sie ist mir ein Gräuel,^*doch deine Weisung habe ich lieb.^pSiebenmal am Tag singe ich dein Lob^*wegen deiner gerechten Entscheide.^pAlle, die deine Weisung lieben, empfangen Heil in Fülle;^*es trifft sie kein Unheil.^pHerr, ich hoffe auf deine Hilfe^*und befolge deine Gebote.^pMeine Seele beachtet, was du gebietest,^*und liebt es von Herzen.^pIch folge deinen Vorschriften und Befehlen;^*denn alle meine Wege liegen offen vor dir."
       },
     169.0: {
-        "verses": "169-176",
+        "verses": "169-176   XXII (Taw)",
         "text": "Herr, zu dir dringe mein Rufen.^*Gib mir Einsicht, getreu deinem Wort!^pMein Flehen komme vor dein Angesicht.^*Reiß mich heraus getreu deiner Verheißung!^pMeine Lippen sollen überströmen von Lobpreis;^*denn du lehrst mich deine Gesetze.^pMeine Zunge soll deine Verheißung besingen;^*denn deine Gebote sind alle gerecht.^pDeine Hand sei bereit, mir zu helfen;^*denn ich habe mir deine Befehle erwählt.^pIch sehne mich, Herr, nach deiner Hilfe^*und deine Weisung macht mich froh.^pLass meine Seele leben, damit sie dich preisen kann!^*Deine Entscheidungen mögen mir helfen.^pIch bin verirrt wie ein verlorenes Schaf.^+Suche deinen Knecht!^*Denn deine Gebote habe ich nicht vergessen."
       }
   },
@@ -1985,12 +1991,6 @@ export const psalmsData = {
   220: {
     0.0: {
         "text": "Seht, wie die Schatten dunkler Nacht verblassen:^lRötliches Leuchten strahlt am frühen Himmel.^lBitten wir innig mit vereinter Stimme^lGott, den Allmächt’gen!^pDass er sich unser liebevoll erbarme,^lHeil uns gewähre, unsre Trägheit banne^lund uns als Vater einst in Güte schenke^lhimmlisches Erbe.^pLob sei dem Vater auf dem höchsten Throne,^lLob sei dem Sohne, Gott aus Gott geboren,^lLob sei dem Geiste, der von beiden ausgeht,^limmer und ewig. Amen."
-      }
-  },
-  221: {
-    0.0: {
-        "quote": "Lesehore für Märtyrerfeste",
-        "text": "Geist, der das Leben weckt,^ldu bist der Schwachen Kraft,^lgibst ihnen Zuversicht^lmitten in Todesnot;^lhell wird uns offenbar,^lwas uns der Glaube sagt:^lChristus hat unsern Tod besiegt.^pAlles verwelkt im Tod,^lStaub wird des Menschen Leib.^lDoch wer in Christus stirbt,^lwird mit ihm auferstehn:^lWer sich zu ihm bekennt,^lfürchtet die Marter nicht,^lwird im Tode mit Christus eins.^pIhm, der als Weizenkorn^lfür uns zerrieben ward,^lfolgen die Jünger nach,^lbringen sich dar mit ihm,^lwerden wie er zum Brot,^lwelches das Leben nährt,^lPilger stärkt auf dem Weg zu Gott.^pDich, Herr, verehren wir,^lKönig der Märtyrer,^lDein ist die Herrlichkeit,^lvon der ihr Glaube zeugt.^lFühr uns durch deinen Geist^lheim in des Vaters Reich,^lwo in Ewigkeit Friede herrscht. Amen."
       }
   },
   226: {
@@ -2660,6 +2660,30 @@ export const psalmsData = {
         "text": "Der Himmel jauchze Lobgesang,^lin Freude juble alle Welt:^lDer heiligen Apostel Ruhm^lerschallt in festlichem Gesang.^pGerechte Richter dieser Zeit^lund wahre Leuchten für die Welt,^lihr ersten Zeugen unsres Heils,^lvernehmt, was unser Lied erfleht.^pDer Herr gab euch Gewalt und Amt,^lihr bindet und ihr löst die Schuld;^lso löst auch uns, wir bitten euch,^ldie Schuld, in die wir uns verstrickt.^pWenn dann am Ende dieser Zeit^lder Herr als Richter wiederkommt,^lgewähre er in seiner Huld^luns seiner Freude Ewigkeit.^pGott Vater, dir sei Preis und Ruhm^lund deinem eingebornen Sohn,^ldem Beistand auch, dem Heil'gen Geist,^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
+  71110: {
+    0.0: {
+        "quote": "Lesehore für Märtyrerfeste",
+        "text": "Geist, der das Leben weckt,^ldu bist der Schwachen Kraft,^lgibst ihnen Zuversicht^lmitten in Todesnot;^lhell wird uns offenbar,^lwas uns der Glaube sagt:^lChristus hat unsern Tod besiegt.^pAlles verwelkt im Tod,^lStaub wird des Menschen Leib.^lDoch wer in Christus stirbt,^lwird mit ihm auferstehn:^lWer sich zu ihm bekennt,^lfürchtet die Marter nicht,^lwird im Tode mit Christus eins.^pIhm, der als Weizenkorn^lfür uns zerrieben ward,^lfolgen die Jünger nach,^lbringen sich dar mit ihm,^lwerden wie er zum Brot,^lwelches das Leben nährt,^lPilger stärkt auf dem Weg zu Gott.^pDich, Herr, verehren wir,^lKönig der Märtyrer,^lDein ist die Herrlichkeit,^lvon der ihr Glaube zeugt.^lFühr uns durch deinen Geist^lheim in des Vaters Reich,^lwo in Ewigkeit Friede herrscht. Amen."
+      }
+  },
+  71118: {
+    0.0: {
+        "quote": "Märt-Ld",
+        "text": "Dem Herrn, der seiner Zeugen Dienst"
+      }
+  },
+  71119: {
+    0.0: {
+        "quote": "MärtJgfr",
+        "text": "Du Sohn der Jungfrau"
+      }
+  },
+  71123: {
+    0.0: {
+        "quote": "Märt-Vp",
+        "text": "Brüder, preiset im Lob"
+      }
+  },
   71151: {
     0.0: {
         "quote": "Hi-Ld",
@@ -2684,6 +2708,18 @@ export const psalmsData = {
   81251: {
     0.0: {
         "text": "Staunend sehen wir^ldeines Lebens Wandlung:^lSaulus hießest du^lund ein Feind der Christen,^lPaulus bist du jetzt,^lund als Christi Zeuge^lwird dir die Krone.^pDa sein Licht dich trifft,^lfällst du blind zu Boden,^lstehst verwandelt auf,^lseinem Ruf zu folgen.^lEingetaucht in ihn,^lbist du neu geworden,^lGlied seines Leibes.^pAuserwählt vom Herrn,^lum das Wort zu künden,^lstreust du seine Saat,^lwirst der Heiden Lehrer,^lhast am eignen Leib,^lhast durch Tod und Leben^lChristus verherrlicht.^pBringe unser Lob^lvor den höchsten Vater,^lbring es vor den Sohn,^lder dich rief in Gnade,^lbring es vor den Geist,^ldessen Kraft dich drängte,^lChristus zu künden. Amen."
+      }
+  },
+  82021: {
+    0.0: {
+        "quote": "Darst-Lh",
+        "text": "Sieh, dein Licht will kommen,^lstehe auf, du Stadt des Herrn;^lüber dir erstrahlt der Stern,^list der Tag erglommen.^lWerde licht, Jerusalem,^lChristus ist erschienen.^pChristus ist gekommen,^ler, der Herrscher, er, der Herr,^lder das Reich, die Macht und Ehr'^lin die Hand genommen.^lFreue dich, Jerusalem,^lChristus ist erschienen.^pChristus ist erschienen.^lSeht, die Zeit des Heils begann;^lalle Völker beten an,^lalles wird ihm dienen.^lBete an, Jerusalem,^lChristus ist erschienen."
+      }
+  },
+  82022: {
+    0.0: {
+        "quote": "Darst-LdVp",
+        "text": "Auf, Zion, schmücke dein Gemach,^lder Herr ist da, den du ersehnt.^lSteh auf und mache dich bereit,^lempfange Bräutigam und Braut.^pZu seinem Tempel kommt der Herr:^lDie Eltern bringen Christus dar.^lDer ohne alle Sünde ist,^lmacht dem Gesetz sich untertan.^pTritt, königliche Jungfrau, ein,^lbring mit dem Opfer dar dein Kind,^ldes ew’gen Vaters wahren Sohn,^lder uns zum Heil erschienen ist.^pWas dir verheißen, Simeon,^ldas ist in diesem Kind erfüllt.^lNun mache allen Völkern kund^ldas Licht, das ihnen leuchten soll.^pHerr, dir sei Preis und Herrlichkeit,^lder sich den Heiden offenbart,^lmit dir dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   92012: {

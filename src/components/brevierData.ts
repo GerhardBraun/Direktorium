@@ -1576,11 +1576,11 @@ export const brevierData = {
     },
     "Lehrer": {
       "each": {
-        "Invitatorium": {
-          "ant_0": "com-Lehrer-each-Invitatorium-ant_0"
-        },
         "ErsteV": {
           "ant_ev": "Wer Gottes Gebote hält und sie halten lehrt, wird groß sein im Himmelreich."
+        },
+        "Invitatorium": {
+          "ant_0": "com-Lehrer-each-Invitatorium-ant_0"
         },
         "Laudes": {
           "name": "Kirchenl",
@@ -2063,216 +2063,857 @@ export const brevierData = {
         }
       }
     },
-    "MärtF": {
+    "Märt": {
       "each": {
         "Invitatorium": {
-          "ant_0": "com-MärtF-each-Invitatorium-ant_0"
+          "ant_0": "Den Herrn, den König der Märtyrer – kommt, wir beten ihn an!"
         },
         "Laudes": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-MärtF-each-Laudes-ant_1",
-          "ant_2": "com-MärtF-each-Laudes-ant_2",
-          "ant_3": "com-MärtF-each-Laudes-ant_3",
-          "les_buch": "com-MärtF-each-Laudes-Les_Buch",
-          "les_stelle": "com-MärtF-each-Laudes–Les_Stelle",
-          "les_text": "com-MärtF-each-Laudes-Les_Text",
-          "resp1_1": "com-MärtF-each-Laudes-Resp1_1",
-          "resp1_2": "com-MärtF-each-Laudes-Resp1_2",
-          "resp1_3": "com-MärtF-each-Laudes-Resp1_3",
-          "ant_ev": "com-MärtF-each-Laudes-Ant_Ev",
-          "bitten_e": "com-MärtF-each-Laudes-Bitten_E",
-          "bitten_r": "com-MärtF-each-Laudes-Bitten_R",
-          "bitten": "com-MärtF-each-Laudes-Bitten"
+          "name": "Märt",
+          "hymn_1": 71118.0,
+          "ps_1": 63.0,
+          "ps_2": 160.0,
+          "ps_3": 149.0,
+          "ant_1": "com-Märt-each-Laudes-ant_1",
+          "ant_2": "com-Märt-each-Laudes-ant_2",
+          "ant_3": "com-Märt-each-Laudes-ant_3",
+          "les_buch": "2 Kor",
+          "les_stelle": "1,3-5",
+          "les_text": "Gepriesen sei der Gott und Vater Jesu Christi, unseres Herrn, der Vater des Erbarmens und der Gott allen Trostes. Er tröstet uns in all unserer Not, damit auch wir die Kraft haben, alle zu trösten, die in Not sind, durch den Trost, mit dem auch wir von Gott getröstet werden. Wie uns nämlich die Leiden Christi überreich zuteil geworden sind, so wird uns durch Christus auch überreicher Trost zuteil.",
+          "resp1_1": "com-Märt-each-Laudes-Resp1_1",
+          "resp1_2": "com-Märt-each-Laudes-Resp1_2",
+          "resp1_3": "com-Märt-each-Laudes-Resp1_3",
+          "ant_ev": "com-Märt-each-Laudes-Ant_Ev",
+          "bitten_e": "com-Märt-each-Laudes-Bitten_E",
+          "bitten_r": "com-Märt-each-Laudes-Bitten_R",
+          "bitten": "com-Märt-each-Laudes-Bitten"
         },
         "Lesehore": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-MärtF-each-Lesehore-ant_1",
-          "ant_2": "com-MärtF-each-Lesehore-ant_2",
-          "ant_3": "com-MärtF-each-Lesehore-ant_3",
-          "resp0_0": "com-MärtF-each-Lesehore-Resp0_0",
-          "resp0_1": "com-MärtF-each-Lesehore-Resp0_1",
-          "les_buch": "com-MärtF-each-Lesehore-Les_Buch",
-          "les_stelle": "com-MärtF-each-Lesehore–Les_Stelle",
-          "les_text": "com-MärtF-each-Lesehore-Les_Text",
-          "resp1_1": "com-MärtF-each-Lesehore-Resp1_1",
-          "resp1_2": "com-MärtF-each-Lesehore-Resp1_2",
-          "resp1_3": "com-MärtF-each-Lesehore-Resp1_3",
-          "patr_autor": "com-MärtF-each-Lesehore-Patr_Autor",
-          "patr_text": "com-MärtF-each-Lesehore-Patr_Text",
-          "patr_resp1": "com-MärtF-each-Lesehore-Patr_Resp1",
-          "patr_resp2": "com-MärtF-each-Lesehore-Patr_Resp2",
-          "patr_resp3": "com-MärtF-each-Lesehore-Patr_Resp3"
+          "hymn_1": 71110.0,
+          "ps_1": 2.0,
+          "ps_2": 11.0,
+          "ps_3": 17.0,
+          "ant_1": "com-Märt-each-Lesehore-ant_1",
+          "ant_2": "com-Märt-each-Lesehore-ant_2",
+          "ant_3": "com-Märt-each-Lesehore-ant_3",
+          "resp0_0": "com-Märt-each-Lesehore-Resp0_0",
+          "resp0_1": "com-Märt-each-Lesehore-Resp0_1",
+          "les_buch": "com-Märt-each-Lesehore-Les_Buch",
+          "les_stelle": "com-Märt-each-Lesehore–Les_Stelle",
+          "les_text": "com-Märt-each-Lesehore-Les_Text",
+          "resp1_1": "com-Märt-each-Lesehore-Resp1_1",
+          "resp1_2": "com-Märt-each-Lesehore-Resp1_2",
+          "resp1_3": "com-Märt-each-Lesehore-Resp1_3",
+          "patr_autor": "com-Märt-each-Lesehore-Patr_Autor",
+          "patr_text": "com-Märt-each-Lesehore-Patr_Text",
+          "patr_resp1": "com-Märt-each-Lesehore-Patr_Resp1",
+          "patr_resp2": "com-Märt-each-Lesehore-Patr_Resp2",
+          "patr_resp3": "com-Märt-each-Lesehore-Patr_Resp3"
         },
         "Non": {
-          "ant_1": "com-MärtF-each-Non-ant_1",
-          "ant_2": "com-MärtF-each-Non-ant_2",
-          "ant_3": "com-MärtF-each-Non-ant_3",
-          "les_buch": "com-MärtF-each-Non-Les_Buch",
-          "les_stelle": "com-MärtF-each-Non–Les_Stelle",
-          "les_text": "com-MärtF-each-Non-Les_Text",
-          "resp1_0": "com-MärtF-each-Non-Resp1_0",
-          "resp1_1": "com-MärtF-each-Non-Resp1_1"
+          "ant_1": "com-Märt-each-Non-ant_1",
+          "ant_2": "com-Märt-each-Non-ant_2",
+          "ant_3": "com-Märt-each-Non-ant_3",
+          "les_buch": "com-Märt-each-Non-Les_Buch",
+          "les_stelle": "com-Märt-each-Non–Les_Stelle",
+          "les_text": "com-Märt-each-Non-Les_Text",
+          "resp1_0": "com-Märt-each-Non-Resp1_0",
+          "resp1_1": "com-Märt-each-Non-Resp1_1"
         },
         "Sext": {
-          "ant_1": "com-MärtF-each-Sext-ant_1",
-          "ant_2": "com-MärtF-each-Sext-ant_2",
-          "ant_3": "com-MärtF-each-Sext-ant_3",
-          "les_buch": "com-MärtF-each-Sext-Les_Buch",
-          "les_stelle": "com-MärtF-each-Sext–Les_Stelle",
-          "les_text": "com-MärtF-each-Sext-Les_Text",
-          "resp1_0": "com-MärtF-each-Sext-Resp1_0",
-          "resp1_1": "com-MärtF-each-Sext-Resp1_1"
+          "ant_1": "com-Märt-each-Sext-ant_1",
+          "ant_2": "com-Märt-each-Sext-ant_2",
+          "ant_3": "com-Märt-each-Sext-ant_3",
+          "les_buch": "com-Märt-each-Sext-Les_Buch",
+          "les_stelle": "com-Märt-each-Sext–Les_Stelle",
+          "les_text": "com-Märt-each-Sext-Les_Text",
+          "resp1_0": "com-Märt-each-Sext-Resp1_0",
+          "resp1_1": "com-Märt-each-Sext-Resp1_1"
         },
         "Terz": {
-          "ant_1": "com-MärtF-each-Terz-ant_1",
-          "ant_2": "com-MärtF-each-Terz-ant_2",
-          "ant_3": "com-MärtF-each-Terz-ant_3",
-          "les_buch": "com-MärtF-each-Terz-Les_Buch",
-          "les_stelle": "com-MärtF-each-Terz–Les_Stelle",
-          "les_text": "com-MärtF-each-Terz-Les_Text",
-          "resp1_0": "com-MärtF-each-Terz-Resp1_0",
-          "resp1_1": "com-MärtF-each-Terz-Resp1_1"
+          "ant_1": "com-Märt-each-Terz-ant_1",
+          "ant_2": "com-Märt-each-Terz-ant_2",
+          "ant_3": "com-Märt-each-Terz-ant_3",
+          "les_buch": "com-Märt-each-Terz-Les_Buch",
+          "les_stelle": "com-Märt-each-Terz–Les_Stelle",
+          "les_text": "com-Märt-each-Terz-Les_Text",
+          "resp1_0": "com-Märt-each-Terz-Resp1_0",
+          "resp1_1": "com-Märt-each-Terz-Resp1_1"
         },
         "Vesper": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-MärtF-each-Vesper-ant_1",
-          "ant_2": "com-MärtF-each-Vesper-ant_2",
-          "ant_3": "com-MärtF-each-Vesper-ant_3",
-          "les_buch": "com-MärtF-each-Vesper-Les_Buch",
-          "les_stelle": "com-MärtF-each-Vesper–Les_Stelle",
-          "les_text": "com-MärtF-each-Vesper-Les_Text",
-          "resp1_1": "com-MärtF-each-Vesper-Resp1_1",
-          "resp1_2": "com-MärtF-each-Vesper-Resp1_2",
-          "resp1_3": "com-MärtF-each-Vesper-Resp1_3",
-          "ant_ev": "com-MärtF-each-Vesper-Ant_Ev",
-          "bitten_e": "com-MärtF-each-Vesper-Bitten_E",
-          "bitten_r": "com-MärtF-each-Vesper-Bitten_R",
-          "bitten": "com-MärtF-each-Vesper-Bitten"
+          "hymn_1": 71123.0,
+          "ps_1": 116.1,
+          "ps_2": 116.2,
+          "ps_3": 153.0,
+          "ant_1": "com-Märt-each-Vesper-ant_1",
+          "ant_2": "com-Märt-each-Vesper-ant_2",
+          "ant_3": "com-Märt-each-Vesper-ant_3",
+          "les_buch": "1 Petr",
+          "les_stelle": "4,13-14",
+          "les_text": "Freut euch, dass ihr Anteil an den Leiden Christi habt; denn so könnt ihr auch bei der Offenbarung seiner Herrlichkeit voll Freude jubeln. Wenn ihr wegen des Namens Christi beschimpft werdet, seid ihr seligzupreisen; denn der Geist der Herrlichkeit, der Geist Gottes, ruht auf euch.",
+          "resp1_1": "com-Märt-each-Vesper-Resp1_1",
+          "resp1_2": "com-Märt-each-Vesper-Resp1_2",
+          "resp1_3": "com-Märt-each-Vesper-Resp1_3",
+          "ant_ev": "com-Märt-each-Vesper-Ant_Ev",
+          "bitten_e": "com-Märt-each-Vesper-Bitten_E",
+          "bitten_r": "com-Märt-each-Vesper-Bitten_R",
+          "bitten": "com-Märt-each-Vesper-Bitten"
         }
       }
     },
-    "MärtM": {
+    "MärtF": {
       "each": {
         "Invitatorium": {
-          "ant_0": "com-MärtM-each-Invitatorium-ant_0"
+          "comm_1": "0",
+          "comm_2": "0",
+          "name": "0",
+          "farbe": "0",
+          "hymn_1": 0.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_nacht": 0.0,
+          "hymn_kl": 0.0,
+          "ps_1": 0.0,
+          "ps_2": 0.0,
+          "ps_3": 0.0,
+          "ps_100": 0.0,
+          "ps_95": 0.0,
+          "ps_67": 0.0,
+          "ps_24": 0.0,
+          "ant_0": "Den Herrn, den König der Märtyrer – kommt, wir beten ihn an!",
+          "ant_1": "0",
+          "ant_2": "0",
+          "ant_3": "0",
+          "resp0_0": "0",
+          "resp0_1": "0",
+          "les_buch": "0",
+          "les_stelle": "0",
+          "les_text": "0",
+          "resp1_0": "0",
+          "resp1_1": "0",
+          "resp1_2": "0",
+          "resp1_3": "0",
+          "patr_autor": "0",
+          "patr_werk": "0",
+          "patr_text": "0",
+          "patr_resp1": "0",
+          "patr_resp2": "0",
+          "patr_resp3": "0",
+          "ant_ev": "0",
+          "ant_a": "0",
+          "ant_b": "0",
+          "ant_c": "0",
+          "ev": 0.0,
+          "ev_lat": 0.0,
+          "bitten_e": "0",
+          "bitten_r": "0",
+          "bitten": "0",
+          "vu": 0.0,
+          "vu_lat": 0.0,
+          "oration": "0",
+          "oration_komplet": "0",
+          "marant": 0.0,
+          "marant_lat": 0.0
         },
         "Laudes": {
-          "hymn_1": 9999.0,
+          "comm_1": "0",
+          "comm_2": "0",
+          "name": "Märt",
+          "farbe": "0",
+          "hymn_1": 71118.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_nacht": 0.0,
+          "hymn_kl": 0.0,
           "ps_1": 9999.0,
           "ps_2": 9999.0,
           "ps_3": 9999.0,
-          "ant_1": "com-MärtM-each-Laudes-ant_1",
-          "ant_2": "com-MärtM-each-Laudes-ant_2",
-          "ant_3": "com-MärtM-each-Laudes-ant_3",
-          "les_buch": "com-MärtM-each-Laudes-Les_Buch",
-          "les_stelle": "com-MärtM-each-Laudes–Les_Stelle",
-          "les_text": "com-MärtM-each-Laudes-Les_Text",
-          "resp1_1": "com-MärtM-each-Laudes-Resp1_1",
-          "resp1_2": "com-MärtM-each-Laudes-Resp1_2",
-          "resp1_3": "com-MärtM-each-Laudes-Resp1_3",
-          "ant_ev": "com-MärtM-each-Laudes-Ant_Ev",
-          "bitten_e": "com-MärtM-each-Laudes-Bitten_E",
-          "bitten_r": "com-MärtM-each-Laudes-Bitten_R",
-          "bitten": "com-MärtM-each-Laudes-Bitten"
+          "ps_100": 0.0,
+          "ps_95": 0.0,
+          "ps_67": 0.0,
+          "ps_24": 0.0,
+          "ant_0": "0",
+          "ant_1": "com-MärtPl-each-Laudes-ant_1",
+          "ant_2": "com-MärtPl-each-Laudes-ant_2",
+          "ant_3": "com-MärtPl-each-Laudes-ant_3",
+          "resp0_0": "0",
+          "resp0_1": "0",
+          "les_buch": "2 Kor",
+          "les_stelle": "1,3-5",
+          "les_text": "Gepriesen sei der Gott und Vater Jesu Christi, unseres Herrn, der Vater des Erbarmens und der Gott allen Trostes. Er tröstet uns in all unserer Not, damit auch wir die Kraft haben, alle zu trösten, die in Not sind, durch den Trost, mit dem auch wir von Gott getröstet werden. Wie uns nämlich die Leiden Christi überreich zuteil geworden sind, so wird uns durch Christus auch überreicher Trost zuteil.",
+          "resp1_0": "0",
+          "resp1_1": "com-MärtPl-each-Laudes-Resp1_1",
+          "resp1_2": "com-MärtPl-each-Laudes-Resp1_2",
+          "resp1_3": "com-MärtPl-each-Laudes-Resp1_3",
+          "patr_autor": "0",
+          "patr_werk": "0",
+          "patr_text": "0",
+          "patr_resp1": "0",
+          "patr_resp2": "0",
+          "patr_resp3": "0",
+          "ant_ev": "com-MärtPl-each-Laudes-Ant_Ev",
+          "ant_a": "0",
+          "ant_b": "0",
+          "ant_c": "0",
+          "ev": 0.0,
+          "ev_lat": 0.0,
+          "bitten_e": "com-MärtPl-each-Laudes-Bitten_E",
+          "bitten_r": "com-MärtPl-each-Laudes-Bitten_R",
+          "bitten": "com-MärtPl-each-Laudes-Bitten",
+          "vu": 0.0,
+          "vu_lat": 0.0,
+          "oration": "0",
+          "oration_komplet": "0",
+          "marant": 0.0,
+          "marant_lat": 0.0
         },
         "Lesehore": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-MärtM-each-Lesehore-ant_1",
-          "ant_2": "com-MärtM-each-Lesehore-ant_2",
-          "ant_3": "com-MärtM-each-Lesehore-ant_3",
-          "resp0_0": "com-MärtM-each-Lesehore-Resp0_0",
-          "resp0_1": "com-MärtM-each-Lesehore-Resp0_1",
-          "les_buch": "com-MärtM-each-Lesehore-Les_Buch",
-          "les_stelle": "com-MärtM-each-Lesehore–Les_Stelle",
-          "les_text": "com-MärtM-each-Lesehore-Les_Text",
-          "resp1_1": "com-MärtM-each-Lesehore-Resp1_1",
-          "resp1_2": "com-MärtM-each-Lesehore-Resp1_2",
-          "resp1_3": "com-MärtM-each-Lesehore-Resp1_3",
-          "patr_autor": "com-MärtM-each-Lesehore-Patr_Autor",
-          "patr_text": "com-MärtM-each-Lesehore-Patr_Text",
-          "patr_resp1": "com-MärtM-each-Lesehore-Patr_Resp1",
-          "patr_resp2": "com-MärtM-each-Lesehore-Patr_Resp2",
-          "patr_resp3": "com-MärtM-each-Lesehore-Patr_Resp3"
+          "comm_1": "0",
+          "comm_2": "0",
+          "name": "0",
+          "farbe": "0",
+          "hymn_1": 71085.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_nacht": 0.0,
+          "hymn_kl": 0.0,
+          "ps_1": 2.0,
+          "ps_2": 33.1,
+          "ps_3": 33.2,
+          "ps_100": 0.0,
+          "ps_95": 0.0,
+          "ps_67": 0.0,
+          "ps_24": 0.0,
+          "ant_0": "0",
+          "ant_1": "Die heiligen Märtyrer vergossen für Christus ihr Blut und erlangten im Himmel ewigen Lohn.",
+          "ant_2": "com-MärtPl-each-Lesehore-ant_2",
+          "ant_3": "com-MärtPl-each-Lesehore-ant_3",
+          "resp0_0": "com-MärtPl-each-Lesehore-Resp0_0",
+          "resp0_1": "com-MärtPl-each-Lesehore-Resp0_1",
+          "les_buch": "com-MärtPl-each-Lesehore-Les_Buch",
+          "les_stelle": "com-MärtPl-each-Lesehore–Les_Stelle",
+          "les_text": "com-MärtPl-each-Lesehore-Les_Text",
+          "resp1_0": "0",
+          "resp1_1": "com-MärtPl-each-Lesehore-Resp1_1",
+          "resp1_2": "com-MärtPl-each-Lesehore-Resp1_2",
+          "resp1_3": "com-MärtPl-each-Lesehore-Resp1_3",
+          "patr_autor": "com-MärtPl-each-Lesehore-Patr_Autor",
+          "patr_werk": "0",
+          "patr_text": "com-MärtPl-each-Lesehore-Patr_Text",
+          "patr_resp1": "com-MärtPl-each-Lesehore-Patr_Resp1",
+          "patr_resp2": "com-MärtPl-each-Lesehore-Patr_Resp2",
+          "patr_resp3": "com-MärtPl-each-Lesehore-Patr_Resp3",
+          "ant_ev": "0",
+          "ant_a": "0",
+          "ant_b": "0",
+          "ant_c": "0",
+          "ev": 0.0,
+          "ev_lat": 0.0,
+          "bitten_e": "0",
+          "bitten_r": "0",
+          "bitten": "0",
+          "vu": 0.0,
+          "vu_lat": 0.0,
+          "oration": "0",
+          "oration_komplet": "0",
+          "marant": 0.0,
+          "marant_lat": 0.0
         },
         "Non": {
-          "ant_1": "com-MärtM-each-Non-ant_1",
-          "ant_2": "com-MärtM-each-Non-ant_2",
-          "ant_3": "com-MärtM-each-Non-ant_3",
-          "les_buch": "com-MärtM-each-Non-Les_Buch",
-          "les_stelle": "com-MärtM-each-Non–Les_Stelle",
-          "les_text": "com-MärtM-each-Non-Les_Text",
-          "resp1_0": "com-MärtM-each-Non-Resp1_0",
-          "resp1_1": "com-MärtM-each-Non-Resp1_1"
+          "comm_1": "0",
+          "comm_2": "0",
+          "name": "0",
+          "farbe": "0",
+          "hymn_1": 0.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_nacht": 0.0,
+          "hymn_kl": 0.0,
+          "ps_1": 0.0,
+          "ps_2": 0.0,
+          "ps_3": 0.0,
+          "ps_100": 0.0,
+          "ps_95": 0.0,
+          "ps_67": 0.0,
+          "ps_24": 0.0,
+          "ant_0": "0",
+          "ant_1": "com-MärtPl-each-Non-ant_1",
+          "ant_2": "com-MärtPl-each-Non-ant_2",
+          "ant_3": "com-MärtPl-each-Non-ant_3",
+          "resp0_0": "0",
+          "resp0_1": "0",
+          "les_buch": "com-MärtPl-each-Non-Les_Buch",
+          "les_stelle": "com-MärtPl-each-Non–Les_Stelle",
+          "les_text": "com-MärtPl-each-Non-Les_Text",
+          "resp1_0": "com-MärtPl-each-Non-Resp1_0",
+          "resp1_1": "com-MärtPl-each-Non-Resp1_1",
+          "resp1_2": "0",
+          "resp1_3": "0",
+          "patr_autor": "0",
+          "patr_werk": "0",
+          "patr_text": "0",
+          "patr_resp1": "0",
+          "patr_resp2": "0",
+          "patr_resp3": "0",
+          "ant_ev": "0",
+          "ant_a": "0",
+          "ant_b": "0",
+          "ant_c": "0",
+          "ev": 0.0,
+          "ev_lat": 0.0,
+          "bitten_e": "0",
+          "bitten_r": "0",
+          "bitten": "0",
+          "vu": 0.0,
+          "vu_lat": 0.0,
+          "oration": "0",
+          "oration_komplet": "0",
+          "marant": 0.0,
+          "marant_lat": 0.0
         },
         "Sext": {
-          "ant_1": "com-MärtM-each-Sext-ant_1",
-          "ant_2": "com-MärtM-each-Sext-ant_2",
-          "ant_3": "com-MärtM-each-Sext-ant_3",
-          "les_buch": "com-MärtM-each-Sext-Les_Buch",
-          "les_stelle": "com-MärtM-each-Sext–Les_Stelle",
-          "les_text": "com-MärtM-each-Sext-Les_Text",
-          "resp1_0": "com-MärtM-each-Sext-Resp1_0",
-          "resp1_1": "com-MärtM-each-Sext-Resp1_1"
+          "comm_1": "0",
+          "comm_2": "0",
+          "name": "0",
+          "farbe": "0",
+          "hymn_1": 0.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_nacht": 0.0,
+          "hymn_kl": 0.0,
+          "ps_1": 0.0,
+          "ps_2": 0.0,
+          "ps_3": 0.0,
+          "ps_100": 0.0,
+          "ps_95": 0.0,
+          "ps_67": 0.0,
+          "ps_24": 0.0,
+          "ant_0": "0",
+          "ant_1": "com-MärtPl-each-Sext-ant_1",
+          "ant_2": "com-MärtPl-each-Sext-ant_2",
+          "ant_3": "com-MärtPl-each-Sext-ant_3",
+          "resp0_0": "0",
+          "resp0_1": "0",
+          "les_buch": "com-MärtPl-each-Sext-Les_Buch",
+          "les_stelle": "com-MärtPl-each-Sext–Les_Stelle",
+          "les_text": "com-MärtPl-each-Sext-Les_Text",
+          "resp1_0": "com-MärtPl-each-Sext-Resp1_0",
+          "resp1_1": "com-MärtPl-each-Sext-Resp1_1",
+          "resp1_2": "0",
+          "resp1_3": "0",
+          "patr_autor": "0",
+          "patr_werk": "0",
+          "patr_text": "0",
+          "patr_resp1": "0",
+          "patr_resp2": "0",
+          "patr_resp3": "0",
+          "ant_ev": "0",
+          "ant_a": "0",
+          "ant_b": "0",
+          "ant_c": "0",
+          "ev": 0.0,
+          "ev_lat": 0.0,
+          "bitten_e": "0",
+          "bitten_r": "0",
+          "bitten": "0",
+          "vu": 0.0,
+          "vu_lat": 0.0,
+          "oration": "0",
+          "oration_komplet": "0",
+          "marant": 0.0,
+          "marant_lat": 0.0
         },
         "Terz": {
-          "ant_1": "com-MärtM-each-Terz-ant_1",
-          "ant_2": "com-MärtM-each-Terz-ant_2",
-          "ant_3": "com-MärtM-each-Terz-ant_3",
-          "les_buch": "com-MärtM-each-Terz-Les_Buch",
-          "les_stelle": "com-MärtM-each-Terz–Les_Stelle",
-          "les_text": "com-MärtM-each-Terz-Les_Text",
-          "resp1_0": "com-MärtM-each-Terz-Resp1_0",
-          "resp1_1": "com-MärtM-each-Terz-Resp1_1"
+          "comm_1": "0",
+          "comm_2": "0",
+          "name": "0",
+          "farbe": "0",
+          "hymn_1": 0.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_nacht": 0.0,
+          "hymn_kl": 0.0,
+          "ps_1": 0.0,
+          "ps_2": 0.0,
+          "ps_3": 0.0,
+          "ps_100": 0.0,
+          "ps_95": 0.0,
+          "ps_67": 0.0,
+          "ps_24": 0.0,
+          "ant_0": "0",
+          "ant_1": "com-MärtPl-each-Terz-ant_1",
+          "ant_2": "com-MärtPl-each-Terz-ant_2",
+          "ant_3": "com-MärtPl-each-Terz-ant_3",
+          "resp0_0": "0",
+          "resp0_1": "0",
+          "les_buch": "com-MärtPl-each-Terz-Les_Buch",
+          "les_stelle": "com-MärtPl-each-Terz–Les_Stelle",
+          "les_text": "com-MärtPl-each-Terz-Les_Text",
+          "resp1_0": "com-MärtPl-each-Terz-Resp1_0",
+          "resp1_1": "com-MärtPl-each-Terz-Resp1_1",
+          "resp1_2": "0",
+          "resp1_3": "0",
+          "patr_autor": "0",
+          "patr_werk": "0",
+          "patr_text": "0",
+          "patr_resp1": "0",
+          "patr_resp2": "0",
+          "patr_resp3": "0",
+          "ant_ev": "0",
+          "ant_a": "0",
+          "ant_b": "0",
+          "ant_c": "0",
+          "ev": 0.0,
+          "ev_lat": 0.0,
+          "bitten_e": "0",
+          "bitten_r": "0",
+          "bitten": "0",
+          "vu": 0.0,
+          "vu_lat": 0.0,
+          "oration": "0",
+          "oration_komplet": "0",
+          "marant": 0.0,
+          "marant_lat": 0.0
         },
         "Vesper": {
-          "hymn_1": 9999.0,
+          "comm_1": "0",
+          "comm_2": "0",
+          "name": "0",
+          "farbe": "0",
+          "hymn_1": 71123.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_nacht": 0.0,
+          "hymn_kl": 0.0,
           "ps_1": 9999.0,
           "ps_2": 9999.0,
           "ps_3": 9999.0,
-          "ant_1": "com-MärtM-each-Vesper-ant_1",
-          "ant_2": "com-MärtM-each-Vesper-ant_2",
-          "ant_3": "com-MärtM-each-Vesper-ant_3",
-          "les_buch": "com-MärtM-each-Vesper-Les_Buch",
-          "les_stelle": "com-MärtM-each-Vesper–Les_Stelle",
-          "les_text": "com-MärtM-each-Vesper-Les_Text",
-          "resp1_1": "com-MärtM-each-Vesper-Resp1_1",
-          "resp1_2": "com-MärtM-each-Vesper-Resp1_2",
-          "resp1_3": "com-MärtM-each-Vesper-Resp1_3",
-          "ant_ev": "com-MärtM-each-Vesper-Ant_Ev",
-          "bitten_e": "com-MärtM-each-Vesper-Bitten_E",
-          "bitten_r": "com-MärtM-each-Vesper-Bitten_R",
-          "bitten": "com-MärtM-each-Vesper-Bitten"
+          "ps_100": 0.0,
+          "ps_95": 0.0,
+          "ps_67": 0.0,
+          "ps_24": 0.0,
+          "ant_0": "0",
+          "ant_1": "com-MärtPl-each-Vesper-ant_1",
+          "ant_2": "com-MärtPl-each-Vesper-ant_2",
+          "ant_3": "com-MärtPl-each-Vesper-ant_3",
+          "resp0_0": "0",
+          "resp0_1": "0",
+          "les_buch": "1 Petr",
+          "les_stelle": "4,13-14",
+          "les_text": "Freut euch, dass ihr Anteil an den Leiden Christi habt; denn so könnt ihr auch bei der Offenbarung seiner Herrlichkeit voll Freude jubeln. Wenn ihr wegen des Namens Christi beschimpft werdet, seid ihr seligzupreisen; denn der Geist der Herrlichkeit, der Geist Gottes, ruht auf euch.",
+          "resp1_0": "0",
+          "resp1_1": "com-MärtPl-each-Vesper-Resp1_1",
+          "resp1_2": "com-MärtPl-each-Vesper-Resp1_2",
+          "resp1_3": "com-MärtPl-each-Vesper-Resp1_3",
+          "patr_autor": "0",
+          "patr_werk": "0",
+          "patr_text": "0",
+          "patr_resp1": "0",
+          "patr_resp2": "0",
+          "patr_resp3": "0",
+          "ant_ev": "com-MärtPl-each-Vesper-Ant_Ev",
+          "ant_a": "0",
+          "ant_b": "0",
+          "ant_c": "0",
+          "ev": 0.0,
+          "ev_lat": 0.0,
+          "bitten_e": "com-MärtPl-each-Vesper-Bitten_E",
+          "bitten_r": "com-MärtPl-each-Vesper-Bitten_R",
+          "bitten": "com-MärtPl-each-Vesper-Bitten",
+          "vu": 0.0,
+          "vu_lat": 0.0,
+          "oration": "0",
+          "oration_komplet": "0",
+          "marant": 0.0,
+          "marant_lat": 0.0
+        }
+      }
+    },
+    "MärtJgfr": {
+      "each": {
+        "Invitatorium": {
+          "comm_1": "0",
+          "comm_2": "0",
+          "name": "0",
+          "farbe": "0",
+          "hymn_1": 0.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_nacht": 0.0,
+          "hymn_kl": 0.0,
+          "ps_1": 0.0,
+          "ps_2": 0.0,
+          "ps_3": 0.0,
+          "ps_100": 0.0,
+          "ps_95": 0.0,
+          "ps_67": 0.0,
+          "ps_24": 0.0,
+          "ant_0": "Den Herrn, den König der Märtyrer – kommt, wir beten ihn an!",
+          "ant_1": "0",
+          "ant_2": "0",
+          "ant_3": "0",
+          "resp0_0": "0",
+          "resp0_1": "0",
+          "les_buch": "0",
+          "les_stelle": "0",
+          "les_text": "0",
+          "resp1_0": "0",
+          "resp1_1": "0",
+          "resp1_2": "0",
+          "resp1_3": "0",
+          "patr_autor": "0",
+          "patr_werk": "0",
+          "patr_text": "0",
+          "patr_resp1": "0",
+          "patr_resp2": "0",
+          "patr_resp3": "0",
+          "ant_ev": "0",
+          "ant_a": "0",
+          "ant_b": "0",
+          "ant_c": "0",
+          "ev": 0.0,
+          "ev_lat": 0.0,
+          "bitten_e": "0",
+          "bitten_r": "0",
+          "bitten": "0",
+          "vu": 0.0,
+          "vu_lat": 0.0,
+          "oration": "0",
+          "oration_komplet": "0",
+          "marant": 0.0,
+          "marant_lat": 0.0
+        },
+        "Laudes": {
+          "comm_1": "0",
+          "comm_2": "0",
+          "name": "Märt",
+          "farbe": "0",
+          "hymn_1": 71119.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_nacht": 0.0,
+          "hymn_kl": 0.0,
+          "ps_1": 9999.0,
+          "ps_2": 9999.0,
+          "ps_3": 9999.0,
+          "ps_100": 0.0,
+          "ps_95": 0.0,
+          "ps_67": 0.0,
+          "ps_24": 0.0,
+          "ant_0": "0",
+          "ant_1": "com-MärtPl-each-Laudes-ant_1",
+          "ant_2": "com-MärtPl-each-Laudes-ant_2",
+          "ant_3": "com-MärtPl-each-Laudes-ant_3",
+          "resp0_0": "0",
+          "resp0_1": "0",
+          "les_buch": "2 Kor",
+          "les_stelle": "1,3-5",
+          "les_text": "Gepriesen sei der Gott und Vater Jesu Christi, unseres Herrn, der Vater des Erbarmens und der Gott allen Trostes. Er tröstet uns in all unserer Not, damit auch wir die Kraft haben, alle zu trösten, die in Not sind, durch den Trost, mit dem auch wir von Gott getröstet werden. Wie uns nämlich die Leiden Christi überreich zuteil geworden sind, so wird uns durch Christus auch überreicher Trost zuteil.",
+          "resp1_0": "0",
+          "resp1_1": "com-MärtPl-each-Laudes-Resp1_1",
+          "resp1_2": "com-MärtPl-each-Laudes-Resp1_2",
+          "resp1_3": "com-MärtPl-each-Laudes-Resp1_3",
+          "patr_autor": "0",
+          "patr_werk": "0",
+          "patr_text": "0",
+          "patr_resp1": "0",
+          "patr_resp2": "0",
+          "patr_resp3": "0",
+          "ant_ev": "com-MärtPl-each-Laudes-Ant_Ev",
+          "ant_a": "0",
+          "ant_b": "0",
+          "ant_c": "0",
+          "ev": 0.0,
+          "ev_lat": 0.0,
+          "bitten_e": "com-MärtPl-each-Laudes-Bitten_E",
+          "bitten_r": "com-MärtPl-each-Laudes-Bitten_R",
+          "bitten": "com-MärtPl-each-Laudes-Bitten",
+          "vu": 0.0,
+          "vu_lat": 0.0,
+          "oration": "0",
+          "oration_komplet": "0",
+          "marant": 0.0,
+          "marant_lat": 0.0
+        },
+        "Lesehore": {
+          "comm_1": "0",
+          "comm_2": "0",
+          "name": "0",
+          "farbe": "0",
+          "hymn_1": 71085.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_nacht": 0.0,
+          "hymn_kl": 0.0,
+          "ps_1": 2.0,
+          "ps_2": 33.1,
+          "ps_3": 33.2,
+          "ps_100": 0.0,
+          "ps_95": 0.0,
+          "ps_67": 0.0,
+          "ps_24": 0.0,
+          "ant_0": "0",
+          "ant_1": "Die heiligen Märtyrer vergossen für Christus ihr Blut und erlangten im Himmel ewigen Lohn.",
+          "ant_2": "com-MärtPl-each-Lesehore-ant_2",
+          "ant_3": "com-MärtPl-each-Lesehore-ant_3",
+          "resp0_0": "com-MärtPl-each-Lesehore-Resp0_0",
+          "resp0_1": "com-MärtPl-each-Lesehore-Resp0_1",
+          "les_buch": "com-MärtPl-each-Lesehore-Les_Buch",
+          "les_stelle": "com-MärtPl-each-Lesehore–Les_Stelle",
+          "les_text": "com-MärtPl-each-Lesehore-Les_Text",
+          "resp1_0": "0",
+          "resp1_1": "com-MärtPl-each-Lesehore-Resp1_1",
+          "resp1_2": "com-MärtPl-each-Lesehore-Resp1_2",
+          "resp1_3": "com-MärtPl-each-Lesehore-Resp1_3",
+          "patr_autor": "com-MärtPl-each-Lesehore-Patr_Autor",
+          "patr_werk": "0",
+          "patr_text": "com-MärtPl-each-Lesehore-Patr_Text",
+          "patr_resp1": "com-MärtPl-each-Lesehore-Patr_Resp1",
+          "patr_resp2": "com-MärtPl-each-Lesehore-Patr_Resp2",
+          "patr_resp3": "com-MärtPl-each-Lesehore-Patr_Resp3",
+          "ant_ev": "0",
+          "ant_a": "0",
+          "ant_b": "0",
+          "ant_c": "0",
+          "ev": 0.0,
+          "ev_lat": 0.0,
+          "bitten_e": "0",
+          "bitten_r": "0",
+          "bitten": "0",
+          "vu": 0.0,
+          "vu_lat": 0.0,
+          "oration": "0",
+          "oration_komplet": "0",
+          "marant": 0.0,
+          "marant_lat": 0.0
+        },
+        "Non": {
+          "comm_1": "0",
+          "comm_2": "0",
+          "name": "0",
+          "farbe": "0",
+          "hymn_1": 0.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_nacht": 0.0,
+          "hymn_kl": 0.0,
+          "ps_1": 0.0,
+          "ps_2": 0.0,
+          "ps_3": 0.0,
+          "ps_100": 0.0,
+          "ps_95": 0.0,
+          "ps_67": 0.0,
+          "ps_24": 0.0,
+          "ant_0": "0",
+          "ant_1": "com-MärtPl-each-Non-ant_1",
+          "ant_2": "com-MärtPl-each-Non-ant_2",
+          "ant_3": "com-MärtPl-each-Non-ant_3",
+          "resp0_0": "0",
+          "resp0_1": "0",
+          "les_buch": "com-MärtPl-each-Non-Les_Buch",
+          "les_stelle": "com-MärtPl-each-Non–Les_Stelle",
+          "les_text": "com-MärtPl-each-Non-Les_Text",
+          "resp1_0": "com-MärtPl-each-Non-Resp1_0",
+          "resp1_1": "com-MärtPl-each-Non-Resp1_1",
+          "resp1_2": "0",
+          "resp1_3": "0",
+          "patr_autor": "0",
+          "patr_werk": "0",
+          "patr_text": "0",
+          "patr_resp1": "0",
+          "patr_resp2": "0",
+          "patr_resp3": "0",
+          "ant_ev": "0",
+          "ant_a": "0",
+          "ant_b": "0",
+          "ant_c": "0",
+          "ev": 0.0,
+          "ev_lat": 0.0,
+          "bitten_e": "0",
+          "bitten_r": "0",
+          "bitten": "0",
+          "vu": 0.0,
+          "vu_lat": 0.0,
+          "oration": "0",
+          "oration_komplet": "0",
+          "marant": 0.0,
+          "marant_lat": 0.0
+        },
+        "Sext": {
+          "comm_1": "0",
+          "comm_2": "0",
+          "name": "0",
+          "farbe": "0",
+          "hymn_1": 0.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_nacht": 0.0,
+          "hymn_kl": 0.0,
+          "ps_1": 0.0,
+          "ps_2": 0.0,
+          "ps_3": 0.0,
+          "ps_100": 0.0,
+          "ps_95": 0.0,
+          "ps_67": 0.0,
+          "ps_24": 0.0,
+          "ant_0": "0",
+          "ant_1": "com-MärtPl-each-Sext-ant_1",
+          "ant_2": "com-MärtPl-each-Sext-ant_2",
+          "ant_3": "com-MärtPl-each-Sext-ant_3",
+          "resp0_0": "0",
+          "resp0_1": "0",
+          "les_buch": "com-MärtPl-each-Sext-Les_Buch",
+          "les_stelle": "com-MärtPl-each-Sext–Les_Stelle",
+          "les_text": "com-MärtPl-each-Sext-Les_Text",
+          "resp1_0": "com-MärtPl-each-Sext-Resp1_0",
+          "resp1_1": "com-MärtPl-each-Sext-Resp1_1",
+          "resp1_2": "0",
+          "resp1_3": "0",
+          "patr_autor": "0",
+          "patr_werk": "0",
+          "patr_text": "0",
+          "patr_resp1": "0",
+          "patr_resp2": "0",
+          "patr_resp3": "0",
+          "ant_ev": "0",
+          "ant_a": "0",
+          "ant_b": "0",
+          "ant_c": "0",
+          "ev": 0.0,
+          "ev_lat": 0.0,
+          "bitten_e": "0",
+          "bitten_r": "0",
+          "bitten": "0",
+          "vu": 0.0,
+          "vu_lat": 0.0,
+          "oration": "0",
+          "oration_komplet": "0",
+          "marant": 0.0,
+          "marant_lat": 0.0
+        },
+        "Terz": {
+          "comm_1": "0",
+          "comm_2": "0",
+          "name": "0",
+          "farbe": "0",
+          "hymn_1": 0.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_nacht": 0.0,
+          "hymn_kl": 0.0,
+          "ps_1": 0.0,
+          "ps_2": 0.0,
+          "ps_3": 0.0,
+          "ps_100": 0.0,
+          "ps_95": 0.0,
+          "ps_67": 0.0,
+          "ps_24": 0.0,
+          "ant_0": "0",
+          "ant_1": "com-MärtPl-each-Terz-ant_1",
+          "ant_2": "com-MärtPl-each-Terz-ant_2",
+          "ant_3": "com-MärtPl-each-Terz-ant_3",
+          "resp0_0": "0",
+          "resp0_1": "0",
+          "les_buch": "com-MärtPl-each-Terz-Les_Buch",
+          "les_stelle": "com-MärtPl-each-Terz–Les_Stelle",
+          "les_text": "com-MärtPl-each-Terz-Les_Text",
+          "resp1_0": "com-MärtPl-each-Terz-Resp1_0",
+          "resp1_1": "com-MärtPl-each-Terz-Resp1_1",
+          "resp1_2": "0",
+          "resp1_3": "0",
+          "patr_autor": "0",
+          "patr_werk": "0",
+          "patr_text": "0",
+          "patr_resp1": "0",
+          "patr_resp2": "0",
+          "patr_resp3": "0",
+          "ant_ev": "0",
+          "ant_a": "0",
+          "ant_b": "0",
+          "ant_c": "0",
+          "ev": 0.0,
+          "ev_lat": 0.0,
+          "bitten_e": "0",
+          "bitten_r": "0",
+          "bitten": "0",
+          "vu": 0.0,
+          "vu_lat": 0.0,
+          "oration": "0",
+          "oration_komplet": "0",
+          "marant": 0.0,
+          "marant_lat": 0.0
+        },
+        "Vesper": {
+          "comm_1": "0",
+          "comm_2": "0",
+          "name": "0",
+          "farbe": "0",
+          "hymn_1": 71119.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_nacht": 0.0,
+          "hymn_kl": 0.0,
+          "ps_1": 9999.0,
+          "ps_2": 9999.0,
+          "ps_3": 9999.0,
+          "ps_100": 0.0,
+          "ps_95": 0.0,
+          "ps_67": 0.0,
+          "ps_24": 0.0,
+          "ant_0": "0",
+          "ant_1": "com-MärtPl-each-Vesper-ant_1",
+          "ant_2": "com-MärtPl-each-Vesper-ant_2",
+          "ant_3": "com-MärtPl-each-Vesper-ant_3",
+          "resp0_0": "0",
+          "resp0_1": "0",
+          "les_buch": "1 Petr",
+          "les_stelle": "4,13-14",
+          "les_text": "Freut euch, dass ihr Anteil an den Leiden Christi habt; denn so könnt ihr auch bei der Offenbarung seiner Herrlichkeit voll Freude jubeln. Wenn ihr wegen des Namens Christi beschimpft werdet, seid ihr seligzupreisen; denn der Geist der Herrlichkeit, der Geist Gottes, ruht auf euch.",
+          "resp1_0": "0",
+          "resp1_1": "com-MärtPl-each-Vesper-Resp1_1",
+          "resp1_2": "com-MärtPl-each-Vesper-Resp1_2",
+          "resp1_3": "com-MärtPl-each-Vesper-Resp1_3",
+          "patr_autor": "0",
+          "patr_werk": "0",
+          "patr_text": "0",
+          "patr_resp1": "0",
+          "patr_resp2": "0",
+          "patr_resp3": "0",
+          "ant_ev": "com-MärtPl-each-Vesper-Ant_Ev",
+          "ant_a": "0",
+          "ant_b": "0",
+          "ant_c": "0",
+          "ev": 0.0,
+          "ev_lat": 0.0,
+          "bitten_e": "com-MärtPl-each-Vesper-Bitten_E",
+          "bitten_r": "com-MärtPl-each-Vesper-Bitten_R",
+          "bitten": "com-MärtPl-each-Vesper-Bitten",
+          "vu": 0.0,
+          "vu_lat": 0.0,
+          "oration": "0",
+          "oration_komplet": "0",
+          "marant": 0.0,
+          "marant_lat": 0.0
         }
       }
     },
     "MärtPl": {
       "each": {
         "Invitatorium": {
-          "ant_0": "com-MärtPl-each-Invitatorium-ant_0"
+          "ant_0": "Den Herrn, den König der Märtyrer – kommt, wir beten ihn an!"
         },
         "Laudes": {
-          "hymn_1": 9999.0,
+          "name": "Märt",
+          "hymn_1": 71118.0,
           "ps_1": 9999.0,
           "ps_2": 9999.0,
           "ps_3": 9999.0,
           "ant_1": "com-MärtPl-each-Laudes-ant_1",
           "ant_2": "com-MärtPl-each-Laudes-ant_2",
           "ant_3": "com-MärtPl-each-Laudes-ant_3",
-          "les_buch": "com-MärtPl-each-Laudes-Les_Buch",
-          "les_stelle": "com-MärtPl-each-Laudes–Les_Stelle",
-          "les_text": "com-MärtPl-each-Laudes-Les_Text",
+          "les_buch": "2 Kor",
+          "les_stelle": "1,3-5",
+          "les_text": "Gepriesen sei der Gott und Vater Jesu Christi, unseres Herrn, der Vater des Erbarmens und der Gott allen Trostes. Er tröstet uns in all unserer Not, damit auch wir die Kraft haben, alle zu trösten, die in Not sind, durch den Trost, mit dem auch wir von Gott getröstet werden. Wie uns nämlich die Leiden Christi überreich zuteil geworden sind, so wird uns durch Christus auch überreicher Trost zuteil.",
           "resp1_1": "com-MärtPl-each-Laudes-Resp1_1",
           "resp1_2": "com-MärtPl-each-Laudes-Resp1_2",
           "resp1_3": "com-MärtPl-each-Laudes-Resp1_3",
@@ -2282,11 +2923,11 @@ export const brevierData = {
           "bitten": "com-MärtPl-each-Laudes-Bitten"
         },
         "Lesehore": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-MärtPl-each-Lesehore-ant_1",
+          "hymn_1": 71085.0,
+          "ps_1": 2.0,
+          "ps_2": 33.1,
+          "ps_3": 33.2,
+          "ant_1": "Die heiligen Märtyrer vergossen für Christus ihr Blut und erlangten im Himmel ewigen Lohn.",
           "ant_2": "com-MärtPl-each-Lesehore-ant_2",
           "ant_3": "com-MärtPl-each-Lesehore-ant_3",
           "resp0_0": "com-MärtPl-each-Lesehore-Resp0_0",
@@ -2334,16 +2975,16 @@ export const brevierData = {
           "resp1_1": "com-MärtPl-each-Terz-Resp1_1"
         },
         "Vesper": {
-          "hymn_1": 9999.0,
+          "hymn_1": 71123.0,
           "ps_1": 9999.0,
           "ps_2": 9999.0,
           "ps_3": 9999.0,
           "ant_1": "com-MärtPl-each-Vesper-ant_1",
           "ant_2": "com-MärtPl-each-Vesper-ant_2",
           "ant_3": "com-MärtPl-each-Vesper-ant_3",
-          "les_buch": "com-MärtPl-each-Vesper-Les_Buch",
-          "les_stelle": "com-MärtPl-each-Vesper–Les_Stelle",
-          "les_text": "com-MärtPl-each-Vesper-Les_Text",
+          "les_buch": "1 Petr",
+          "les_stelle": "4,13-14",
+          "les_text": "Freut euch, dass ihr Anteil an den Leiden Christi habt; denn so könnt ihr auch bei der Offenbarung seiner Herrlichkeit voll Freude jubeln. Wenn ihr wegen des Namens Christi beschimpft werdet, seid ihr seligzupreisen; denn der Geist der Herrlichkeit, der Geist Gottes, ruht auf euch.",
           "resp1_1": "com-MärtPl-each-Vesper-Resp1_1",
           "resp1_2": "com-MärtPl-each-Vesper-Resp1_2",
           "resp1_3": "com-MärtPl-each-Vesper-Resp1_3",
@@ -2550,10 +3191,10 @@ export const brevierData = {
     },
     "OrdMann": {
       "each": {
+        "ErsteV": {},
         "Invitatorium": {
           "ant_0": "com-OrdMann-each-Invitatorium-ant_0"
         },
-        "ErsteV": {},
         "Laudes": {
           "hymn_1": 9999.0,
           "ps_1": 9999.0,
@@ -2776,6 +3417,12 @@ export const brevierData = {
         },
         "Lesehore": {
           "comm_1": "OrdMann",
+          "patr_autor": "Athanasius († 373)",
+          "patr_werk": "Aus der Lebensbeschreibung des hl. Antonius.",
+          "patr_text": "^hDie Berufung des heiligen Antonius^pNach dem Tod der Eltern stand Antonius mit seiner Schwester allein. Er war noch nicht ganz achtzehn oder zwanzig Jahre alt und musste für das Haus und seine Schwester sorgen.^pSechs Monate nach dem Tod seiner Eltern ging er (eines Tages) nach seiner Gewohnheit zur Kirche und überlegte auf dem Weg, im Geist gesammelt, warum die Apostel alles verließen und dem Herrn folgten {1#Mt 4,20} und warum die Gläubigen in der Apostelgeschichte ihre Habe verkauften und den Aposteln zu Füßen legten. {2#Apg 4,35} Dabei erwog er auch, welch große Hoffnung ihrer im Himmel wartete. Mit diesen Gedanken trat er in die Kirche ein und es traf sich, dass gerade das Evangelium vorgelesen wurde, und er hörte, wie der Herr zu dem Reichen sagte: \"Wenn du vollkommen sein willst, geh, verkauf deinen Besitz und gib das Geld den Armen; so wirst du einen bleibenden Schatz im Himmel haben; dann komm und folge mir nach!\" {3#Mt 19,21}^pEs war dem Antonius, als erinnere ihn eine göttliche Eingebung an die Heiligen und als sei die Lesung für ihn bestimmt. Da ging er sofort aus der Kirche und gab, was er von den Eltern besaß, den Leuten im Dorf, so dass es ihm und seiner Schwester nicht zum Hindernis werden konnte. Auch alles bewegliche Gut, das sie hatten, teilte er an die Armen aus. Nur wenig behielt er für sich und seine Schwester.^pAls er wieder in die Kirche kam, hörte er den Herrn im Evangelium sagen: \"Sorgt euch nicht um morgen!\" {4#Mt 6,34} Da litt es ihn nicht mehr in der Kirche. Er ging hinaus und verteilte auch den Rest noch an die Mitbürger. Seine Schwester übergab er bekannten und zuverlässigen Jungfrauen zur Erziehung. Er selbst widmete sich vor seinem Haus der Aszese und führte beharrlich ein Leben der Selbstheiligung.^pNun arbeitete er mit seinen Händen, weil er hörte: \"Wer nicht arbeiten will, soll auch nicht essen!\" {5#2 Thess 3,10} Den Ertrag verwendete er für seinen Lebensunterhalt und für die Bedürftigen.^pEr betete dauernd, weil er gelernt hatte, man müsse ohne Unterlass beten. {6#1 Thess 5,17} Er las mit solcher Aufmerksamkeit, dass bei ihm das Gedächtnis die Bücher ersetzte.^pAlle Dorfbewohner und alle Freunde des Guten, mit denen er verkehrte, nannten ihn einen Gottesfreund, weil sie sahen, was für ein Mensch er war. Die einen begrüßten ihn als Sohn, die andern als Bruder.",
+          "patr_resp1": "Wenn du vollkommen sein willst, verkaufe, was du hast, und gib es den Armen; so wirst du einen Schatz im Himmel haben,",
+          "patr_resp2": "dann komm und folge mir nach.",
+          "patr_resp3": "Keiner von euch ist mein Jünger, wenn er nicht auf seinen Besitz verzichtet.",
           "oration": "Herr, unser Gott, du hast den heiligen Mönchsvater Antonius aus der Welt herausgerufen und ihm die Kraft gegeben, in der Einsamkeit der Wüste vor dir zu leben. Hilf uns auf seine Fürbitte, uns selbst zu überwinden und dich über alles zu lieben. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Vesper": {
@@ -2787,10 +3434,27 @@ export const brevierData = {
         "each": {
           "oration": "eig-1-21-each-Oration"
         },
-        "Invitatorium": {},
+        "Invitatorium": {
+          "comm_1": "MärtJgfr"
+        },
         "Laudes": {
+          "comm_1": "MärtJgfr",
           "name": "Hl. Agnes",
           "farbe": "r",
+          "ant_1": "Mit seinem Ring hat mich Christus, mein Herr, zur Treue verpflichtet und mich als Braut geschmückt mit einem Kranz.",
+          "ant_2": "Ihm, dem die Engel dienen, bin ich angetraut. Seine Schönheit bewundern Sonne und Mond.",
+          "ant_3": "Freut euch und dankt mit mir! Denn auf leuchtendem Thron ist mir ein Platz bereitet unter den Heiligen.",
+          "les_buch": "2 Kor",
+          "les_stelle": "1,3-5",
+          "les_text": "Gepriesen sei der Gott und Vater Jesu Christi, unseres Herrn, der Vater des Erbarmens und der Gott allen Trostes. Er tröstet uns in all unserer Not, damit auch wir die Kraft haben, alle zu trösten, die in Not sind, durch den Trost, mit dem auch wir von Gott getröstet werden. Wie uns nämlich die Leiden Christi überreich zuteil geworden sind, so wird uns durch Christus auch überreicher Trost zuteil.",
+          "resp1_1": "Sein Angesicht neigt Gott ihr zu,",
+          "resp1_2": "er steht ihr bei, sie wird nicht wanken.",
+          "resp1_3": "Gott ist ihr Zuflucht und Stärke, ein Helfer in allen Nöten.",
+          "ant_ev": "Schon schaue ich, wonach ich mich sehnte, schon besitze ich, was ich erhoffte. Den ich auf Erden von Herzen geliebt, mit dem bin ich im Himmel vereint.",
+          "oration": "Ewiger Gott, du berufst, was schwach ist in dieser Welt, um das, was stark ist, zu beschämen. Höre auf die Fürsprache der heiligen Agnes. Komm uns zu Hilfe, damit auch wir unbeirrt den Glauben bekennen. Darum bitten wir durch Jesus Christus."
+        },
+        "Lesehore": {
+          "comm_1": "MärtJgfr",
           "patr_autor": "Ambrosius († 397)",
           "patr_werk": "Aus dem Buch über die Jungfrauen.",
           "patr_text": "^hSie war noch zu jung, um bestraft zu werden, aber schon reif, um zu siegen^p(Heute) ist der Gedenktag einer Jungfrau, lasst uns der Jungfräulichkeit folgen, es ist der Tag einer Märtyrin, lasst uns Gaben opfern! Es ist der Gedächtnistag der heiligen Agnes. Nach der Überlieferung hat sie mit zwölf Jahren das Martyrium erlitten. Welch abscheuerregende Grausamkeit, die auch das zarteste Alter nicht schonte! Aber groß war die Kraft des Glaubens, der auch von diesem Lebensalter Zeugnis erhielt.^pBot der kleine Leib Platz für Wunden? Sie hatte nichts, wo das Eisen sie treffen konnte; doch sie hatte, womit sie das Eisen besiegen konnte. Mädchen in diesem Alter können den strengen Blick der Eltern nicht ertragen und weinen über Nadelstiche wie über Wunden. Sie steht unerschrocken unter den blutigen Händen der Henker. Sie steht, unbewegt vom Klirren der Ketten. Sie bietet dem Dolch des wütenden Soldaten den ganzen Leib. Sie weiß noch nicht, was Sterben heißt, aber sie ist bereit. Gegen ihren Willen wird sie zum Altar gezerrt. Sie breitet inmitten der Flammen die Hände auf Christus hin aus, gerade dort am Götzenaltar bezeichnet sie sich mit dem Zeichen Christi, des Siegers. Jetzt legt sie Nacken und Hände in die eisernen Fesseln, aber keine Fessel vermag die zarten Glieder zu fassen.^pIst es eine neue Art des Martyriums? Noch zu jung, um bestraft zu werden, ist sie schon reif zum Sieg. Schwerlich kann sie kämpfen, doch leicht erringt sie den Siegeskranz. Sie ist eine Lehrmeisterin der Tugend und kann es doch dem Alter nach nicht sein. So eilt die Vermählte nicht zum Brautgemach wie die Jungfrau freudigen Schrittes und eilenden Fußes zum Richtplatz, das Haupt nicht im Schmuck des kunstvoll geflochtenen Haares, sondern mit Christus gekrönt, nicht mit Blumen umwunden, sondern mit Tugenden geziert.^pAlle weinen, nur sie nicht. Viele staunen, dass sie so leichthin das Leben verschwendet, als hätte sie schon ausgekostet, wovon sie kaum nippen durfte. Alle waren starr darüber, dass sie schon Zeugin der Gottheit war, obwohl sie dem Alter nach kaum rechtsfähig war. Aber sie brachte es dahin, dass Gott ihr die Zeugenfähigkeit gab, die ihr die Menschen versagten. Was die Kraft der Natur übersteigt, das wirkt der Schöpfer der Natur.^pMit welchen Schrecken droht der Henker, um sie einzuschüchtern, wie schmeichelt er, um sie zu verführen! Was versprechen ihr die vielen Freier alles, um sie heimzuführen! Sie aber spricht: Schon das wäre Unrecht gegen den Bräutigam, wollte ich darauf warten, ob ich jemand gefalle. Der mich zuerst erwählte, dem will ich gehören. Auf was wartest du, Henker? Der Leib vergehe; ihn könnten Augen lieben, deren Liebe ich nicht mag!^pDa stand sie, betete und beugte den Nacken. Da konntest du den Scharfrichter zittern sehen, als wäre er der Verurteilte. Seine Rechte schwankte, sein Gesicht wurde blass. Ihn sehreckte die Bedrohung des fremden Mädchens, das selbst die Gefahr nicht fürchtete.^pDa seht ihr an der einen Opfergabe das zweifache Martyrium: das der Reinheit und das des Glaubens. Sie blieb Jungfrau und gewann das Martyrium.",
@@ -2799,10 +3463,18 @@ export const brevierData = {
           "patr_resp3": "Denn sie liebte nur den Urheber des Lebens.",
           "oration": "Ewiger Gott, du berufst, was schwach ist in dieser Welt, um das, was stark ist, zu beschämen. Höre auf die Fürsprache der heiligen Agnes. Komm uns zu Hilfe, damit auch wir unbeirrt den Glauben bekennen. Darum bitten wir durch Jesus Christus."
         },
-        "Lesehore": {
-          "oration": "Ewiger Gott, du berufst, was schwach ist in dieser Welt, um das, was stark ist, zu beschämen. Höre auf die Fürsprache der heiligen Agnes. Komm uns zu Hilfe, damit auch wir unbeirrt den Glauben bekennen. Darum bitten wir durch Jesus Christus."
-        },
         "Vesper": {
+          "comm_1": "MärtJgfr",
+          "ant_1": "Mich schreckt keine Drohung, und kein Versprechen kann mich verlocken; denn als Jungfrau gehöre ich Christus an.",
+          "ant_2": "Ihm allein bewahre ich die Treue, ihm weihe ich mich von ganzem Herzen.",
+          "ant_3": "Ich preise dich, Vater meines Herrn Jesus Christus; denn durch ihn, deinen Sohn, hast du deiner Magd den Sieg verliehen.",
+          "les_buch": "1 Petr",
+          "les_stelle": "4,13-14",
+          "les_text": "Freut euch, dass ihr Anteil an den Leiden Christi habt; denn so könnt ihr auch bei der Offenbarung seiner Herrlichkeit voll Freude jubeln. Wenn ihr wegen des Namens Christi beschimpft werdet, seid ihr seligzupreisen; denn der Geist der Herrlichkeit, der Geist Gottes, ruht auf euch.",
+          "resp1_1": "Der Herr hat sie erwählt,",
+          "resp1_2": "vor allen hat er sie erkoren.",
+          "resp1_3": "In seinem Zelt lässt er sie wohnen.",
+          "ant_ev": "Die heilige Agnes breitete die Hände aus und betete: Heiliger Vater, dich rufe ich an. Siehe, ich komme zu dir, den ich geliebt und gesucht, nach dem ich mich allezeit gesehnt.",
           "oration": "Ewiger Gott, du berufst, was schwach ist in dieser Welt, um das, was stark ist, zu beschämen. Höre auf die Fürsprache der heiligen Agnes. Komm uns zu Hilfe, damit auch wir unbeirrt den Glauben bekennen. Darum bitten wir durch Jesus Christus."
         }
       },
@@ -2820,6 +3492,12 @@ export const brevierData = {
         "Lesehore": {
           "comm_1": "Hirten",
           "comm_2": "Lehrer",
+          "patr_autor": "Franz von Sales († 1622)",
+          "patr_werk": "Aus der Einführung in das religiöse Leben.",
+          "patr_text": "^hVerschiedene Formen frommer Übungen^p^pBei der Erschaffung gebot Gott, der Schöpfer, den Pflanzen, Frucht zu bringen je nach ihrer Art. So befiehlt er auch den Christen, den lebendigen Pflanzen seiner Kirche, Frucht der Frömmigkeit zu bringen je nach persönlicher Eigenart, nach Stand und Beruf.^pAnders, so möchte ich sagen, muss ein Edelmann fromm sein als ein Handwerker, anders ein Diener als ein Fürst, anders eine Witwe als ein unverheiratetes Mädchen oder eine in der Ehe lebende Frau. Doch nicht genug damit: auch die Ausübung der Frömmigkeit selbst muss der Kraft, der Tätigkeit und der Aufgabe eines jeden in besonderer Weise angepasst sein.^pSag mir bitte, liebe Philothea, ob es angebracht wäre, wenn ein Bischof wie ein Kartäuser die Einöde aufsuchte! Wenn Verheiratete sich nicht stärker um die Mehrung ihres Vermögens bemühen würden als ein Kapuziner; wenn ein Handwerker nach Art der Ordensleute den ganzen Tag in der Kirche verbrächte, die Ordensleute aber wie die Bischöfe dauernd den Anforderungen ausgesetzt wären, die sich im Zusammenhang mit der Not der Mitmenschen ergeben! Wäre ein solches Ordensleben nicht vielmehr lächerlich, ungeordnet und unerträglich?^pUnd doch begegnet dieser Fehler häufig... Wenn die Frömmigkeit nur wahr und aufrichtig ist, zerstört sie nichts, sondern vervollkommnet und vollendet alles. Wenn sie jedoch der Berufung und dem Stand eines Menschen widerspricht, ist sie ohne Zweifel falsch.^pDie Biene sammelt ihren Honig aus den Blüten, ohne sie im geringsten zu schädigen oder zu zerstören; sie hinterlässt sie vielmehr heil und frisch, wie sie sie vorfand. Die wahre Frömmigkeit tut dies noch besser: sie zerstört nicht nur keine Form von Beruf oder Tätigkeit, sondern macht sie sogar gefälliger und schöner.^pDurch sie wird dir auch die Sorge für die Familie friedvoller, die gegenseitige Liebe von Mann und Frau wird lauterer, der Dienst bei den Fürsten gewinnt an Treue, und alle Tätigkeiten, welche immer es seien, werden angenehmer und ansprechender.^pAn welcher Stelle immer wir stehen, stets können und sollen wir uns um das vollkommene Leben bemühen.",
+          "patr_resp1": "Seid gütig gegeneinander, seid barmherzig, vergebt einander, wie Gott euch vergeben hat.",
+          "patr_resp2": "Ahmt Gott nach als seine geliebten Kinder!",
+          "patr_resp3": "Nehmt mein Joch auf euch und lernt von mir; denn ich bin gütig und selbstlos.",
           "oration": "Gütiger Gott, du hast den heiligen Franz von Sales dazu berufen, als Bischof und Lehrer allen alles zu werden. Hilf uns, sein Beispiel nachzuahmen und den Brüdern zu dienen, damit durch uns deine Menschenfreundlickeit sichtbar wird. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Vesper": {
@@ -2830,13 +3508,13 @@ export const brevierData = {
       },
       "25": {
         "each": {
-          "comm_1": "Apostel",
           "oration": "Gott, du Heil aller Völker, du hast den Apostel Paulus auserwählt, den Heiden die Frohe Botschaft zu verkünden. Gib uns, die wir das Fest seiner Bekehrung feiern, die Gnade, uns deinem Anruf zu stellen und vor der Welt deine Wahrheit zu bezeugen. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Invitatorium": {
           "ant_0": "Lasst uns Gott loben am Fest der Bekehrung des heiligen Paulus!"
         },
         "Laudes": {
+          "comm_1": "Apostel",
           "name": "Bekehrung des hl. Apostels Paulus",
           "hymn_1": 81251.0,
           "ant_1": "Ich weiß, wem ich glaube, und ich bin sicher: er, mein gerechter Richter, hat die Macht, das mir anvertraute Gut zu bewahren bis zu seinem Tag.",
@@ -2851,10 +3529,25 @@ export const brevierData = {
           "ant_ev": "Voll Freude feiern wir die Bekehrung des heiligen Paulus. Denn seinen Verfolger hat der Herr zu seinem Werkzeug erwählt."
         },
         "Lesehore": {
+          "comm_1": "Apostel",
           "hymn_1": 71068.0,
           "ant_1": "Wer bist du, Herr? Ich bin Jesus, den du verfolgst. Es wird dir schwer sein, gegen den Stachel auszuschlagen.",
           "ant_2": "Hananias, geh und suche den Saulus, denn siehe, er betet. Er ist mir ein auserwähltes Werkzeug: Er soll meinen Namen vor Völker und Könige und vor die Söhne Israels tragen.",
-          "ant_3": "Paulus ging in die Synagogen und verkündete Jesus. Er bezeugte vor den Juden: Dieser ist der Christus."
+          "ant_3": "Paulus ging in die Synagogen und verkündete Jesus. Er bezeugte vor den Juden: Dieser ist der Christus.",
+          "resp0_0": "Der Herr ist barmherzig und gnädig.",
+          "resp0_1": "Langmütig und reich an Güte.",
+          "les_buch": "Aus dem Brief an die Galater.",
+          "les_stelle": "1,11-24",
+          "les_text": "^hDer uns einst verfolgte, verkündigt jetzt den Glauben^pIch erkläre euch, Brüder: Das Evangelium, das ich verkündigt habe, stammt nicht von Menschen; ich habe es ja nicht von einem Menschen übernommen oder gelernt, sondern durch die Offenbarung Jesu Christi empfangen. Ihr habt doch gehört, wie ich früher als gesetzestreuer Jude gelebt habe, und wisst, wie maßlos ich die Kirche Gottes verfolgte und zu vernichten suchte. In der Treue zum jüdischen Gesetz übertraf ich die meisten Altersgenossen in meinem Volk, und mit dem größten Eifer setzte ich mich für die Überlieferungen meiner Väter ein. Als aber Gott, der mich schon im Mutterleib auserwählt und durch seine Gnade berufen hat, mir in seiner Güte seinen Sohn offenbarte, damit ich ihn unter den Heiden verkündige, da zog ich keinen Menschen zu Rate; ich ging auch nicht sogleich hinauf nach Jerusalem zu denen, die vor mir Apostel waren, sondern zog nach Arabien und kehrte dann wieder nach Damaskus zurück. Drei Jahre später ging ich hinauf nach Jerusalem, um Kephas kennenzulernen, und blieb fünfzehn Tage bei ihm. Von den anderen Aposteln habe ich keinen gesehen, nur Jakobus, den Bruder des Herrn. Was ich euch hier schreibe - Gott weiß, dass ich nicht lüge. Danach ging ich in das Gebiet von Syrien und Zilizien. Den Gemeinden Christi in Judäa aber blieb ich persönlich unbekannt, sie hörten nur: Er, der uns einst verfolgte, verkündigt jetzt den Glauben, den er früher vernichten wollte. Und sie lobten Gott um meinetwillen.",
+          "resp1_1": "Das Evangelium, das ich verkündigt habe, stammt nicht von Menschen.",
+          "resp1_2": "Ich habe es nicht von einem Menschen empfangen, sondern durch die Offenbarung Jesu Christi.",
+          "resp1_3": "Die Wahrheit Christi ist in mir, weil ich euch das Evangelium Gottes verkündigt habe.",
+          "patr_autor": "Johannes Chrysostomus (+ 407)",
+          "patr_werk": "Aus einer Homilie zu Ehren des heiligen Paulus.",
+          "patr_text": "^hPaulus ertrug alles aus Liebe zu Christus^pAm besten von allen Menschen hat Paulus gezeigt, was der Mensch (eigentlich) ist, wie groß der Adel unserer Natur ist und welch großer Tugend dieses Lebewesen fähig ist. Täglich gab er sein Bestes, und wenn ihm Gefahren drohten, gewann er neue Zuversicht. Das machte er mit den Worten deutlich: „Ich vergesse, was hinter mir liegt, und strecke mich nach dem aus, was vor mir ist.“ {1#Phil 3,13} Als er den Tod nahe glaubte, rief er zur Teilnahme an der Freude darüber auf: „Ebenso sollt auch ihr euch freuen und sollt euch freuen mit mir.“ {2#Phil 2,18} Und wieder jubelt er über die ihn bedrängenden Gefahren, über alle Verspottungen und Schmähungen. Er schreibt den Korinthern: „Ich bejahe alle Misshandlungen und Nöte.“ {3#2 Kor 12,10} Er nannte dies 'die Waffen der Gerechtigkeit' {4#2 Kor 6,7} und zeigte, dass er durch sie größten Vorteil hatte und für die Feinde ringsumher unerreichbar war. Überall wurde er gegeißelt, verspottet und geschmäht. So konnte er wie im Triumph einhergehen und die Siegeszeichen in dichter Folge überall auf der Erde aufrichten. Er frohlockte und danke Gott: „Dank sei Gott, der uns stets im Siegeszug Christi mitführt!“ {5#2 Kor 2,14} Er suchte mehr die Unscheinbarkeit und Verachtung um der Verkündigung willen als wir die Ehre, mehr den Tod als wir das Leben, mehr die Armut als wir den Reichtum, die Plage mehr als andere die Erholung. Eines nur schien ihm furchtbar, eines nur glaubte er fliehen zu müssen: Gott zu beleidigen, sonst nichts! So erschien ihm auch nichts der Sehnsucht wert, als Gott zu gefallen.^pWas wertvoller ist als alles, das trug er in sich: die Liebe Christi, und mit ihr schätzte er sich glücklicher als alle Menschen. Ohne sie wünschte er sich nicht, zu den Mächten, Fürsten und Gewalten zu gehören. Eher wollte er mit dieser Liebe zu den Letzten zählen, ja ein Sträfling sein, als ohne sie zu den Großen und den Geehrten gerechnet werden. Für ihn gab es eine Strafe: ohne diese Liebe zu sein.^pOhne die Liebe Christi sein, das war ihm Höllenstrafe und unerträgliche Pein; sie jedoch zu besitzen, das war ihm Leben, Welt, Engel, Gegenwärtiges und Zukünftiges, Königtum, Verheißung und unzähliges Gute. Nichts, nichts, was nicht Bezug auf die Liebe Christi hatte, wertete er als unangenehm oder angenehm.^pEr verachtete alles Sichtbare wie eine verwesende Pflanze. Die Tyrannen und das wutschnaubende Volk schienen ihm lästige Mücken.^pDer Tod, Strafen und tausend Züchtigungen waren ihm wie Kinderspiel, wenn er nur um Christi willen dulden durfte.",
+          "patr_resp1": "Ich habe bei Gott Erbarmen gefunden, weil ich in meinem Unglauben nicht wusste, was ich tat.",
+          "patr_resp2": "Übergroß war die Gnade unseres Herrn, die mir den Glauben und die Liebe schenkte.",
+          "patr_resp3": "Ich bin nicht wert, Apostel genannt zu werden."
         },
         "Non": {
           "ant_0": "Der Herr sprach zu Saulus: Ich bin Jesus von Nazaret, den du verfolgst.",
@@ -2881,6 +3574,7 @@ export const brevierData = {
           "resp1_1": "Denn eure Namen sind im Himmel verzeichnet."
         },
         "Vesper": {
+          "comm_1": "Apostel",
           "hymn_1": 81251.0,
           "ant_1": "Mit Freuden rühme ich mich meiner Schwachheit, dass Christi Kraft in mir wohne.",
           "ant_2": "Ich habe gepflanzt, Apollos hat begossen, Gott aber gab das Wachstum.",
@@ -2906,6 +3600,12 @@ export const brevierData = {
         },
         "Lesehore": {
           "comm_1": "Hirten",
+          "patr_autor": "Johannes Chrysostomus (+ 407)",
+          "patr_werk": "Aus einer Homilie zu Ehren des heiligen Paulus.",
+          "patr_text": "^hIch habe einen guten Kampf gekämpft^pSelbst im Kerker lebte Paulus wie im Himmel. Wunden und Schläge nahm er lieber auf sich als andere nach Ehrenpreisen griffen. Die Mühen liebte er nicht weniger als den Lohn des Kampfes, ja er hielt die Mühen selbst für den Kampfpreis und nannte sie aus diesem Grund auch Gnade! {1#Vgl. Phil 1,7} Siehe, Kampfpreis war es ihm, „aufzubrechen und bei Christus zu sein“ {2#Phil 1,23}. Im Fleisch zu bleiben bedeutete für ihn Kampf. Und doch zog er diesen (Kampf) jenem (Kampfpreis) vor und erklärte, dieser sei für ihn notwendiger als jener.^pVon Christus fern sein war ihm Kampf und Mühe, Kampf und Mühe im Übermaß. Bei ihm sein galt ihm dagegen als Kampfpreis. Dennoch zog er den Kampf um Christi willen vor.^pHier könnte jemand gewiss auch sagen, das alles sei ihm eben um Christi willen angenehm gewesen. So denke ich auch; denn was uns Betrübnis verursacht, schuf ihm große Freude. Was soll ich die Gefahren und die übrigen Leiden aufzählen? Denn er war in fortwährender Trübsal. Deshalb sagte er: „Wer leidet, ohne dass ich mit ihm leide? Wer kommt zu Fall, ohne dass ich von Sorge verzehrt werde!“ {3#2 Kor 11,29}^pIch ermahne euch, dieses Vorbild der Tugend nicht nur zu bewundern, sondern auch nachzuahmen. Dadurch können wir den gleichen Kranz erlangen wie er.^pWunderst du dich, zu hören: wenn du dasselbe vollbringst wie Paulus, dann kannst du dasselbe erlangen wie er? Dann höre, was er selbst sagt: „Ich habe den guten Kampf gekämpft, den Lauf vollendet, die Treue gehalten. Jetzt liegt für mich der Kranz der Gerechtigkeit bereit, den mir der Herr, der gerechte Richter, an jenem Tag geben wird, aber nicht nur mir, sondern allen, die sehnsüchtig auf sein Erscheinen warten.“ {4#2 Tim 4,7.8}^pSiehst du: er ruft alle zur gleichen Gemeinschaft! Weil also allen das gleiche in Aussicht steht, lasst uns dafür sorgen, dass wir der verheißenen Güter wert werden.^pWir wollen nicht bloß auf die große Last des von ihm Vollbrachten schauen, sondern auch auf die angespannte Bereitwilligkeit, mit der er eine so große Gnade gewann, und auf die Verwandtschaft der Natur! Denn er war in allem ein Mensch wie wir. So scheint uns dann auch das ganz Schwere leicht und ohne Gewicht. Und wenn wir uns diese kurze Zeit abgemüht haben, werden wir schließlich den niemals alternden unsterblichen Kranz tragen und so zur Vollendung gelangen; durch die Gnade und Menschenfreundlichkeit unseres Herrn Jesus Christus, dem Macht und Herrlichkeit ist jetzt und immer und in Ewigkeit. Amen.",
+          "patr_resp1": "Bemühe dich um Gerechtigkeit, Frömmigkeit, Glauben, Liebe, Standhaftigkeit und Sanftmut.",
+          "patr_resp2": "Kämpfe den guten Kampf des Glaubens, ergreife das ewige Leben!",
+          "patr_resp3": "Rede, wie es der gesunden Lehre entspricht.",
           "oration": "Gott, unser Vater, du hast die Apostelschüler Timotheus und Titus mit den Gaben des Heiligen Geistes beschenkt und sie deiner Kirche als Hirten gegeben. Höre auf ihre Fürsprache und hilf uns, dass wir gerecht und fromm in dieser Welt leben und so zur Gemeinschaft mit deinen Heiligen gelangen. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Vesper": {
@@ -2926,6 +3626,12 @@ export const brevierData = {
         },
         "Lesehore": {
           "comm_1": "Lehrer",
+          "patr_autor": "Thomas von Aquin (+ 1274)",
+          "patr_werk": "Mahnbrief an Frater Johannes über die Weise zu studieren.",
+          "patr_text": "^hWas du liest oder hörst, bemühe dich zu verstehen^pDa du mich gefragt hast, mein lieber Bruder Johannes, wie du studieren musst, um den Schatz der Wissenschaften zu gewinnen, möchte ich dir folgenden Rat geben:^pWähle den Weg über die Bäche und stürze dich nicht gleich in das Meer! Man muss durch das Leichtere zum Schwierigen gelangen.^pDas ist also meine Mahnung und Richtlinie für dich. Ich sage dir: sei bedachtsam im Reden und gehe bedachtsam in ein Gespräch.^lErhalte dir die Reinheit des Gewissens.^lHöre nicht auf zu beten.^lLiebe deine Zelle, wenn du in den Weinkeller der Weisheit geführt werden möchtest.^lZeige dich liebenswürdig gegenüber allen.^lKümmere dich nicht um das Tun der anderen.^lSei mit keinem zu vertraut; denn zu große Vertraulichkeit bringt Geringschätzung ein und schafft Gelegenheit, sich dem Studium zu entziehen.^lMische dich nicht in das Reden und Tun der Weltleute ein.^lMeide Streitgespräche, was immer auch beredet wird.^lVersäume nicht, den Spuren der Heiligen und der Guten zu folgen.^lBeachte nicht, von wem du etwas hörst, sondern, wenn Gutes gesagt wird, merke es dir.^lWas du liest oder hörst, bemühe dich zu verstehen.^lIn Zweifeln verschaffe dir Gewissheit.^lWenn du etwas in der Schatzkammer deines Geistes verschließen kannst, dann bemühe dich, wie ein Dürstender die Gefäße zu füllen.^lSuche nicht, was für dich zu hoch ist.^pWenn du diese Bahn einschlägst, wirst du lebendig bleiben und nützliche Frucht bringen im Weinberg des Herrn der Scharen, solange du lebst. Und wenn du das befolgst, wirst du erreichen können, was du begehrst.",
+          "patr_resp1": "Ich betete, und es wurde mir Einsicht gegeben.",
+          "patr_resp2": "Ich flehte, da kam mir der Geist der Weisheit.",
+          "patr_resp3": "Ich zog sie Zeptern und Kronen vor und achtete Reichtum für nichts im Vergleich mit ihr.",
           "oration": "Gott, du Quell der Weisheit, du hast dem heiligen Thomas von Aquin ein leidenschaftliches Verlangen geschenkt, nach Heiligkeit zu streben und deine Wahrheit zu erfassen. Hilf uns verstehen, was er gelehrt, und nachahmen, was er uns vorgelebt hat. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
@@ -2948,6 +3654,12 @@ export const brevierData = {
         "Lesehore": {
           "comm_1": "Hirten",
           "comm_2": "Erzieher",
+          "patr_autor": "Johannes Bosco (+ 1888)",
+          "patr_werk": "Aus einem Brief.",
+          "patr_text": "^hIch habe immer mit Liebe gearbeitet^pWenn wir eifrig für das wirkliche Glück unserer Zöglinge sorgen und sie zur Erfüllung ihrer Pflichten anleiten möchten, dürfen wir vor allem nie vergessen, dass wir Elternstelle an den lieben jungen Menschen vertreten. Ich habe immer mit Liebe für sie gearbeitet, mich um sie bemüht und das Priestertum ausgeübt, nicht ich allein, sondern die ganze salesianische Gesellschaft.^pLiebe Söhne, wie oft musste ich mich in meinem langen Leben durchringen zu der großen Wahrheit: Leichter ist es zornig zu werden, als zu ertragen, einem Knaben zu drohen, statt ihm eindringlich zuzureden. Ja, ich sage es: es ist bequemer für unsere Ungeduld und unseren Hochmut, die Fehlenden zu strafen, als sie fest und freundlich zu ertragen und so zu bessern.^pIch empfehle euch die Liebe des Paulus, die er gegenüber den Neugetauften an den Tag legte. Oft führte sie dazu, dass er weinte und inständig betete, wenn er sah, wie wenig gelehrig sie waren und wie sie seiner Liebe widerstanden.^pGebt acht, dass euch niemand vorwerfen kann, ihr ließet euch durch heftige Gemütsbewegungen leiten. Es ist schwer, beim Strafen die Standhaftigkeit des Herzens zu bewahren, die nötig ist, wenn es nicht scheinen soll, wir handelten nur, um unsere Autorität zu zeigen oder um der Erregung des Gemüts ihren Lauf zu lassen.^pWir müssen sie als Söhne betrachten, über die wir eine Vollmacht auszuüben haben. Wir wollen uns zu ihren Dienern machen wie Jesus, der kam, um gehorsam zu sein, nicht zu befehlen {1#Vgl. Mk 10,45}, und wir sollten uns schon des Anscheins der Herrschsucht schämen; wir wollen nicht über sie herrschen, es sei denn, um ihnen zu dienen.^pSo machte es Jesus mit den Aposteln. Sie waren unwissend und ungebildet, ja auch ihr Glaube war klein. Aber er ertrug sie. Gegenüber den Sündern bewies er eine so gütige und vertraute Freundschaft, dass die einen staunten, die andern Anstoß nahmen, andere schließlich Hoffnung schöpften, von Gott Verzeihung zu erlangen. Deswegen forderte er uns auf, gütig und von Herzen demütig zu sein {2#Vgl. Mt 11,29}.^pSie sind unsere Söhne. Wenn wir daher ihre Irrtümer unterdrücken wollen, müssen wir allen Zorn ablegen oder doch so mäßigen, als hätten wir ihn ganz ausgelöscht.^pIn besonders schweren Fällen empfiehlt es sich, mehr inständig und demütig zu Gott zu beten, als einen Wortschwall loszulassen, der nur das Gemüt der Hörer beleidigt, den Schuldigen aber keinen Nutzen bringt.",
+          "patr_resp1": "Sie brachten Kinder zu Jesus. Die Jünger aber wiesen die Leute ab. Als Jesus das sah, sprach er zu ihnen:",
+          "patr_resp2": "Lasst die Kinder zu mir kommen; denn ihnen gehört das Gottesreich.",
+          "patr_resp3": "Wer ein solches Kind in meinem Namen aufnimmt, nimmt mich auf.",
           "oration": "Gott, du Quell der Freude, du hast den heiligen Johannes Bosco berufen, der Jugend ein Vater und Lehrer zu sein. Gib auch uns die Liebe, die ihn erfüllt hat, damit wir fähig werden, Menschen für dich zu gewinnen und dir allein zu dienen. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Vesper": {
@@ -2960,15 +3672,93 @@ export const brevierData = {
     "2": {
       "2": {
         "each": {
-          "comm_1": "Mar",
-          "oration": "eig-2-2-each-Oration"
+          "oration": "eig-2-2-each-Oration",
+          "oration_komplet": "Allmächtiger, ewiger Gott, dein eingeborener Sohn hat unsere menschliche Natur angenommen und wurde am heutigen Tag im Tempel dargestellt. Läutere unser Leben und Denken, damit wir mit reinem Herzen vor dein Antlitz treten. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
-        "Invitatorium": {},
+        "Invitatorium": {
+          "ant_0": "Zu seinem heiligen Tempel kommt der Herrscher, der Herr; kommt, wir beten ihn an!"
+        },
         "Laudes": {
-          "name": "Darstellung des Herrn"
+          "name": "Darstellung des Herrn",
+          "hymn_1": 82022.0,
+          "ant_1": "Simeon war gerecht und fromm und erwartete die Rettung Israels, und der Heilige Geist ruhte auf ihm.",
+          "ant_2": "Simeon nahm das Kind auf seine Arme, er lobte Gott und sagte ihm Dank.",
+          "ant_3": "Ein Licht, das die Heiden erleuchtet, und Herrlichkeit für dein Volk Israel.",
+          "les_buch": "Mal",
+          "les_stelle": "3,1",
+          "les_text": "Seht, ich sende meinen Boten; er soll den Weg für mich bahnen. Dann kommt plötzlich zu seinem Tempel der Herr, den ihr sucht, und der Bote des Bundes, den ihr herbeiwünscht. Seht, er kommt!, spricht der Herr der Heere.",
+          "resp1_1": "Werft euch nieder vor dem Herrn",
+          "resp1_2": "in seinem heiligen Tempel.",
+          "resp1_3": "Lobpreis und Ehre bringet ihm dar",
+          "ant_ev": "Als die Eltern Jesus in den Tempel brachten, nahm Simeon das Kind auf seine Arme und lobte Gott.",
+          "bitten_e": "Gepriesen sei unser Erlöser Jesus Christus, der am heutigen Tag im Tempel dargestellt wurde. Zu ihm lasst uns beten:",
+          "bitten_r": "Herr, zeige uns dein Angesicht.",
+          "bitten": "Du bist der Ruhm deines Volkes Israel;^qmach uns froh in der Gemeinschaft deiner Kirche.^pDu bist das Licht zur Erleuchtung der Heiden;^qöffne unser Herz für die Sorgen der jungen Kirchen.^pDu hast dich in allem dem Willen des Vaters unterworfen;^qhilf uns heute, den Willen Gottes zu tun.^pMaria hat mit dir die Bitternis des Leidens getragen;^qauf ihre Fürsprache stärke uns, wenn wir leiden müssen."
         },
-        "Lesehore": {},
-        "Vesper": {}
+        "Lesehore": {
+          "hymn_1": 82021.0,
+          "hymn_2": 82022.0,
+          "ps_1": 2.0,
+          "ps_2": 19.1,
+          "ps_3": 45.0,
+          "ant_1": "Dieser ist bestimmt zum Falle und zur Auferstehung vieler in Israel.",
+          "ant_2": "Steh auf, Jerusalem, und werde licht! Denn dein Licht ist gekommen, und die Herrlichkeit des Herrn geht strahlend über dir auf.",
+          "ant_3": "Freue dich, du neues Zion! Siehe, dein König kommt, sein Volk zu erlösen.",
+          "resp0_0": "Wir gedenken deiner Huld, o Gott.",
+          "resp0_1": "In deinem heiligen Tempel.",
+          "les_buch": "Aus dem Buch Exodus.",
+          "les_stelle": "13,1-3a.11-16",
+          "les_text": "^hJeden Erstgeborenen musst du auslösen^pDer Herr sprach zu Mose: Erkläre alle Erstgeburt als mir geheiligt! Alles, was bei den Israeliten den Mutterschoß durchbricht, bei Mensch und Vieh, gehört mir.^pMose sagte zum Volk: Denkt an diesen Tag, an dem ihr aus Ägypten, dem Sklavenhaus, fortgezogen seid; denn mit starker Hand hat euch der Herr von dort herausgeführt.^pDer Herr wird dich in das Land der Kanaaniter bringen und wird es dir geben, wie er dir und deinen Vätern mit einem Eid zugesichert hat. Dann musst du alles, was den Mutterschoß durchbricht, vor den Herrn bringen; alle männlichen Erstlinge, die dein Vieh wirft, gehören dem Herrn. Jeden Erstling vom Esel aber löse durch ein Schaf aus! Willst du ihn nicht auslösen, dann brich ihm das Genick! Jeden Erstgeborenen deiner Söhne musst du auslösen. Wenn dich morgen dein Sohn fragt: Was bedeutet das?, dann sag ihm: Mit starker Hand hat uns der Herr aus Ägypten, aus dem Sklavenhaus, herausgeführt.^pAls der Pharao hart blieb und uns nicht ziehen ließ, erschlug der Herr alle Erstgeborenen in Ägypten, bei Mensch und Vieh. Darum opfere ich dem Herrn alle männlichen Tiere, die den Mutterschoß durchbrechen; alle Erstgeborenen meiner Söhne aber löse ich aus. Das sei dir ein Zeichen an deiner Hand und ein Schmuck auf deiner Stirn; denn mit starker Hand hat uns der Herr aus Ägypten herausgeführt.",
+          "resp1_1": "Als für Maria die Tage der Reinigung vorüber waren, brachten sie Jesus nach Jerusalem, um ihn dem Herrn darzustellen,",
+          "resp1_2": "wie es im Gesetz des Herrn geschrieben steht.",
+          "resp1_3": "Sie opferten für ihn dem Herrn.",
+          "patr_autor": "Sophronius von Jerusalem († 638)",
+          "patr_werk": "Rede am Fest der Darstellung des Herrn.",
+          "patr_text": "^hLasst uns das helle und ewige Licht aufnehmen^pWir wollen dem Herrn alle entgegengehen, wir alle, die sein Geheimnis verehren; mit willigem Herzen lasst uns alle gehen! Keiner schließe sich von der Begegnung aus, niemand bleibe dem Träger des Lichtes fern!^pWir entzünden den Glanz der Kerzen, um das göttliche Licht der Ankunft dessen anzuzeigen, von dem alles leuchtet, durch den die böse Finsternis verjagt wird und alles von der Fülle ewigen Lichtes hell wird. Wir tun es auch, um sichtbar zu machen, mit welchem Glanz der Seele wir Christus entgegeneilen müssen.^pWie die jungfräuliche Gottesmutter unbefleckt das wahre Licht auf den Armen trug und bei denen war, die in Finsternis und im Dunkel des Todes saßen {1#Lk 1,79}, so wollen auch wir, von seinen Strahlen erleuchtet, den Händen das Licht, das allen erscheint, dem entgegeneilen, der wahrhaft das Licht ist.^p„Das Licht kam in die Welt“ {2#Joh 1,9} und erhellte sie, die von Finsternis umfangen war. Das strahlende Licht aus der Höhe {3#Lk 1,78} kam zu uns und leuchtet denen, die in Finsternis und im Dunkel des Todes saßen. Das ist unser Mysterium, und darum schreiten wir mit Lampen einher, darum sind wir mit Lichtern herbeigeeilt, um zu zeigen, dass uns das Licht aufgeleuchtet ist, um anzudeuten, welcher Glanz von ihm auf uns übergehen wird. Darum lasst uns alle zusammen laufen, lasst uns alle Gott entgegeneilen!^pNiemand von uns bleibe ohne die Weihe dieses Lichtes, niemand, den es erfüllt, bleibe im Finstern. Voll Glanz wollen wir alle hervortreten, erleuchtet lasst uns ihm alle zusammen entgegengehen und mit dem greisen Simeon das klare und ewige Licht in Empfang nehmen. Mit ihm wollen wir im Herzen jubeln und dem Erzeuger und Vater des Lichtes, der das wahre Licht gesandt, das Dunkel verscheucht und alles zum Leuchten gebracht hat, den Hymnus des Dankes singen! {4#Lk 2,28-32}^pAuch wir haben das Heil Gottes gesehen, das er vor allen Völkern bereitet hat, des neuen Israel Herrlichkeit geoffenbart hat. Wir lebten im Dunkel der alten Sünde und wurden wie Simeon beim Anblick Christi von den Fesseln des gegenwärtigen Lebens befreit.^pAuch wir haben Christus, als er aus Bethlehem zu uns kam, im Glauben umarmt und wurden aus Heiden zu Gottes Volk, denn er ist das Heil Gottes des Vaters.^pWir haben mit den Augen den Mensch gewordenen Gott gesehen, und als wir Gottes Gegenwart sahen, haben wir ihn im Geist auf die Arme genommen, und seitdem werden wir das neue Israel genannt. Alljährlich feiern wir dieses Kommen Gottes und werden es niemals vergessen.",
+          "patr_resp1": "Die Herrlichkeit des Herrn kam in den Tempel,",
+          "patr_resp2": "und das Haus Gottes wurde erfüllt von Herrlichkeit.",
+          "patr_resp3": "Die Eltern brachten den Knaben Jesus in den Tempel."
+        },
+        "Non": {
+          "les_buch": "Jes",
+          "les_stelle": "12,5-6",
+          "les_text": "Preist den Herrn, denn herrliche Taten hat er vollbracht; auf der ganzen Erde soll man es wissen. Jauchzt und jubelt, ihr Bewohner von Zion; denn groß ist in eurer Mitte der Heilige Israels.",
+          "resp1_0": "Huld und Treue begegnen einander.",
+          "resp1_1": "Gerechtigkeit und Friede küssen sich."
+        },
+        "Sext": {
+          "les_buch": "Jes",
+          "les_stelle": "42,13",
+          "les_text": "Der Herr zieht in den Kampf wie ein Held, er entfacht seine Leidenschaft wie ein Krieger. Er erhebt den Schlachtruf und schreit, er zeigt sich als Held gegenüber den Feinden.",
+          "resp1_0": "Alle Enden der Erde.",
+          "resp1_1": "Schauen das Heil unseres Gottes."
+        },
+        "Terz": {
+          "les_buch": "Jes",
+          "les_stelle": "8,14",
+          "les_text": "Der Herr der Heere wird das Heiligtum sein für die beiden Reiche Israels: der Stein, an dem man anstößt, der Felsen, an dem man zu Fall kommt. Eine Schlinge und Falle wird er sein für alle, die in Jerusalem wohnen.",
+          "resp1_0": "Der Herr gedachte seiner Huld.",
+          "resp1_1": "Und seiner Treue zum Hause Israel."
+        },
+        "Vesper": {
+          "hymn_1": 82022.0,
+          "ps_1": 110.0,
+          "ps_2": 130.0,
+          "ps_3": 154.0,
+          "ant_1": "Simeon hatte vom Heiligen Geist die Verheißung empfangen, er werde den Tod nicht schauen, bevor er den Herrn gesehen habe.",
+          "ant_2": "Sie brachten dem Herrn ihr Opfer dar, wie das Gesetz es vorschrieb: ein Paar Turteltauben oder zwei junge Tauben.",
+          "ant_3": "Meine Augen haben das Heil gesehen, das du vor allen Völkern bereitet hast.",
+          "les_buch": "Hebr",
+          "les_stelle": "4,15-16",
+          "les_text": "Wir haben nicht einen Hohenpriester, der nicht mitfühlen könnte mit unserer Schwäche, sondern einen, der in allem wie wir in Versuchung geführt worden ist, aber nicht gesündigt hat. Lasst uns also voll Zuversicht hingehen zum Thron der Gnade, damit wir Erbarmen und Gnade finden und so Hilfe erlangen zur rechten Zeit.",
+          "resp1_1": "Der Herr hat kundgemacht sein Heil,",
+          "resp1_2": "das er bereitet hat vor allen Völkern.",
+          "resp1_3": "Meine Augen haben sein Heil geschaut.",
+          "ant_ev": "Die Jungfrau Maria weiht heute im Tempel Gott, dem Herrn, ihr Kind. Erfüllt vom Heiligen Geist, nimmt es Simeon auf seine Arme und lobt den Herrn.",
+          "bitten_e": "Lasst uns beten zu unserem Erlöser Jesus Christus, der am heutigen Tag im Tempel dargestellt wurde:",
+          "bitten_r": "Lass alle Menschen dein Angesicht schauen.",
+          "bitten": "Du Sehnsucht der Völker und Licht zur Erleuchtung der Heiden,^qführe alle, die dich noch nicht kennen, zum Glauben.^pDu Hoffnung des greisen Simeon und der Prophetin Hanna,^qsei den alten Menschen nahe.^pDu Zeichen, dem widersprochen wird,^qstärke alle, die um deines Namens willen verfolgt werden.^pDu Sohn der Mutter Maria, deren Seele ein Schwert durchbohrt hat,^qtröste alle, die leiden müssen.^pHier können Fürbitten in besonderen Anliegen eingefügt werden.^pLass die Sterbenden in Frieden scheiden^qund schenke unseren Verstorbenen dein Heil."
+        }
       },
       "4": {
         "each": {
@@ -3129,11 +3919,11 @@ export const brevierData = {
       "7": {
         "Invitatorium": {},
         "Laudes": {
-          "name": "Hl. Perpetua und hl. Felizitas",
-          "farbe": "r",
+          "name": "Hl. Zacharias",
           "oration": "Herr, unser Gott, die Liebe zu dir hat den heiligen Frauen Perpetua und Felizitas die Kraft gegeben, ihre Verfolger nicht zu fürchten und die Qualen des Martyriums zu bestehen. Schenke auch uns jene Liebe, die alle Furcht überwindet. Darum bitten wir durch Jesus Christus."
         },
         "Lesehore": {
+          "name": "Hl. Hl. Gertrud von Nivelles",
           "patr_werk": "Aus den Akten der Märtyrer von Karthago.",
           "patr_text": "^hBerufen und erwählt zur Verherrlichung des Herrn^pDer Tag des Sieges brach an, und die heiligen Märtyrer zogen vom Gefängnis zum Amphitheater, als ob es in den Himmel ginge: mit heiterem Angesicht, schön, und wenn sie erbebten, dann nicht vor Furcht, sondern vor Freude.^pZuerst wurde Perpetua hingeworfen und fiel auf die Seite. Sie erhob sich, und als Felizitas sie am Boden liegen sah, ging sie hin, reichte ihr die Hand und richtete sie auf. Da standen sie nun beide auf. Die Grausamkeit des Volkes war besiegt, und sie wurden zum Sanvivarischen Tor zurückgerufen. Dort wurde Perpetua von einem Mann namens Rusticus in Empfang genommen, der damals noch Katechumene war und zu ihr hielt. Es war, als erwache sie aus dem Schlaf. So sehr war sie im Geist und in der Ekstase gewesen. Sie begann um sich zu schauen und sagte zur Verwunderung aller: „Wann werden wir dieser Kuh – ich weiß nicht welcher – vorgeworfen?“ Als sie hörte, dass es schon geschehen war, glaubte sie es erst, als sie die Spuren ihrer Leiden an ihrem Leib und an ihrem Kleid erkannte. Dann rief sie ihren Bruder und jenen Katechumenen zu sich und sagte zu ihnen: „Steht fest im Glauben und liebt einander, ihr alle. An unseren Leiden nehmt keinen Anstoß!“ Das Volk verlangte nun, sie in der Mitte der Arena zu sehen, um die Augen zu Mordhelfern zu machen, wenn das Schwert in ihren Leib drang. Da erhoben sie sich selbst und sehleppten sich dahin, wo das Volk sie haben wollte. Vorher küssten sie einander, um das Martyrium durch das feierliche Zeichen des Friedens zu vollenden.^pDie übrigen empfingen unbewegt und schweigend den Schwertstreich; vor allem Saturus. Er, der in der Vision zuerst die Leiter hinaufgestiegen war, gab zuerst den Geist auf und erwartete Perpetua. Perpetua schrie auf, als sie zwischen die Rippen getroffen wurde, um auch Schmerz zu kosten. Sie führte aber die Rechte des unerfahrenen Gladiators, als er schwankte, selbst an ihre Kehle. Eine solche Frau hätte vielleicht anders nicht getötet werden können, wenn sie es nicht selbst gewollt hätte; denn der unreine Geist fürchtete sie.^pIhr starken und seligen Märtyrer, wahrhaft berufen und erwählt zur Herrlichkeit unseres Herrn Jesus Christus!",
           "patr_resp1": "Christus Jesus sitzt zur Rechten Gottes und tritt für uns ein.",
@@ -3142,6 +3932,7 @@ export const brevierData = {
           "oration": "Herr, unser Gott, die Liebe zu dir hat den heiligen Frauen Perpetua und Felizitas die Kraft gegeben, ihre Verfolger nicht zu fürchten und die Qualen des Martyriums zu bestehen. Schenke auch uns jene Liebe, die alle Furcht überwindet. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
+          "name": "Hl. Hl. Patrick",
           "oration": "Herr, unser Gott, die Liebe zu dir hat den heiligen Frauen Perpetua und Felizitas die Kraft gegeben, ihre Verfolger nicht zu fürchten und die Qualen des Martyriums zu bestehen. Schenke auch uns jene Liebe, die alle Furcht überwindet. Darum bitten wir durch Jesus Christus."
         }
       },
@@ -3151,9 +3942,7 @@ export const brevierData = {
           "oration": "eig-3-19-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Josef, Bräutigam der Gottesmutter Maria"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -3165,10 +3954,11 @@ export const brevierData = {
       "7": {
         "Invitatorium": {},
         "Laudes": {
-          "name": "Hl. Johannes Baptist de la Salle",
+          "name": "Hl. Marcel Callo",
           "oration": "Gott, du hast den heiligen Johannes Baptist de la Salle berufen, jungen Menschen den Weg des Heils zu zeigen. Erwecke in deiner Kirche verantwortungsbewusste Erzieher voll schöpferischen Geistes, die sich mit aller Kraft dafür einsetzen, gute Menschen und wahre Christen heranzubilden. Darum bitten wir durch Jesus Christus."
         },
         "Lesehore": {
+          "name": "Hl. Konrad von Parzham",
           "patr_autor": "Johannes Baptist de la Salle († 1719)",
           "patr_werk": "Aus einer Meditation.",
           "patr_text": "^hDie Liebe Gottes drängt uns^pErwägt im Herzen, liebe Brüder, was der Apostel Paulus sagt: Gott habe in seiner Kirche Apostel, Propheten und Lehrer bestellt (vgl. 1 Kor 12,28), und seid überzeugt dass Gott auch euch in euer Amt eingesetzt hat. Das bezeugt euch derselbe Heilige, wenn er erklärt, es gebe verschiedenen Dienste und verschiedene Kräfte und derselbe Heilige Geist zeige sich in jeder dieser Gaben zum gemeinsamen Nutzen, das heißt zum Nutzen der Kirche (vgl. 1 Kor 12,5.11).^pIhr sollt also nicht an der großen Gnade zweifeln, die ihr erhalten habt: die Knaben zu lehren, ihnen die Frohe Botschaft zu verkünden und sie im Geist der Religion zu erziehen. Es ist ein großes Geschenk Gottes, dass er euch zu einer so heiligen Aufgabe berufen hat.^pDie Schüler, die eurer Sorge anvertraut sind, sollen an eurer ganzen Lehrtätigkeit sehen, dass ihr Diener Gottes seid, da ihr die Aufgabe mit ungeheuchelter Liebe und echter Sorgfalt erfüllt. Auch darum sollt ihr euch eurem Amt verpflichtet fühlen, weil ihr nicht nur Diener Gottes, sondern auch Diener Jesu Christi und der Kirche seid.^pSo sagt der heilige Paulus mahnend, alle seien als Diener Christi zu betrachten, die das Evangelium verkündigen, die den Brief schreiben, den Christus diktiert, „nicht mit Tinte, sondern mit dem Geist des lebendigen Gottes, nicht auf Tafeln aus Stein, sondern – wie auf Tafeln – in Herzen von Fleisch“ (2 Kor 3,3), die Herzen der Knaben. Deswegen dränge euch die Liebe Gottes“(vgl. 2 Kor 5,14), weil Jesus Christus „für alle gestorben ist, damit die Lebenden nicht mehr für sich leben, sondern für den, der für sie starb und auferweckt wurde“ (2 Kor 5,15). Möge daher eure Sorgfalt und euer Eifer die Schüler bewegen. Mögen sie fühlen, dass Gott sie durch euch ermahnt, weil ihr Gesandte Christi seid.^pFerner müsst ihr der Kirche zeigen, wie sehr ihr sie liebt, und ihr sollt ihr Beweise eurer Gewissenhaftigkeit geben. Denn ihr arbeitet durch die Kirche, den mystischen Leib Christi. Durch eure Arbeitsfreudigkeit zeigt, dass ihr die Menschen, die Gott euch anvertraut hat, liebt, wie Christus die Kirche geliebt hat.",
@@ -3178,30 +3968,39 @@ export const brevierData = {
           "oration": "Gott, du hast den heiligen Johannes Baptist de la Salle berufen, jungen Menschen den Weg des Heils zu zeigen. Erwecke in deiner Kirche verantwortungsbewusste Erzieher voll schöpferischen Geistes, die sich mit aller Kraft dafür einsetzen, gute Menschen und wahre Christen heranzubilden. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
+          "name": "Hl. Anselm",
           "oration": "Gott, du hast den heiligen Johannes Baptist de la Salle berufen, jungen Menschen den Weg des Heils zu zeigen. Erwecke in deiner Kirche verantwortungsbewusste Erzieher voll schöpferischen Geistes, die sich mit aller Kraft dafür einsetzen, gute Menschen und wahre Christen heranzubilden. Darum bitten wir durch Jesus Christus."
         }
       },
       "8": {
         "each": {
           "comm_1": "Mar",
+          "name": "Hl. Adalbert",
           "oration": "eig-4-8-each-Oration"
         },
-        "Invitatorium": {},
+        "Invitatorium": {
+          "name": "Hl. Georg"
+        },
         "Laudes": {},
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
+        "Lesehore": {
+          "name": "Hl. "
+        },
+        "Non": {
+          "name": "Hl. Peter Chanel"
+        },
+        "Sext": {
+          "name": "Hl. Ludwig Maria Grignion de Montfort"
+        },
         "Terz": {},
         "Vesper": {}
       },
       "11": {
         "Invitatorium": {},
         "Laudes": {
-          "name": "Hl. Stanislaus",
-          "farbe": "r",
           "oration": "Gott und Herr, der heilige Bischof Stanislaus hat sich unerschrocken für deine Ehre eingesetzt und ist unter dem Schwert der Verfolger gefallen. Gib auch uns die Kraft, bis zu unserem Tode im Glauben standhaft zu bleiben. Darum bitten wir durch Jesus Christus."
         },
         "Lesehore": {
+          "name": "Hl. Johannes von Avila",
           "patr_autor": "Cyprian von Karthago († 258)",
           "patr_werk": "Aus einem Brief.",
           "patr_text": "^hDas Kämpfen in der Schlacht des Glaubens^pWenn wir in der Schlacht stehen und für den Glauben kämpfen, schaut Gott auf uns herab. Zuschauer sind die Engel, und auch Christus blickt auf uns. Welch erhabene Herrlichkeit, welche Glückseligkeit, in der Gegenwart Gottes zu kämpfen und von Christus, dem Richter, den Siegeskranz zu empfangen! Wir wollen uns wappnen mit aller Kraft und uns zum Kampf rüsten mit lauterem Geist, zuversichtlichem Glauben und liebender Tugend. Das Heer Gottes marschiere voran zu der angekündigten Schlacht!^pDer Apostel lehrt uns die Vorbereitung und die Bewaffnung: „Gürtet euch mit Wahrheit, zieht als Panzer die Gerechtigkeit an und als Schuhe die Bereitschaft, für das Evangelium vom Frieden zu kämpfen! Vor allem greift zum Schild des Glaubens! Mit ihm könnt ihr alle feurigen Geschosse des Bösen auslöschen. Nehmt den Helm des Heils und das Schwert des Geistes, das ist das Wort Gottes (Eph 6,14–17) Diese Waffen wollen wir ergreifen, mit diesem Schutz des Geistes und des Himmels uns wappnen, damit wir am bösen Tag den Drohungen des Teufels im Kampf standhalten können.^pWir wollen den Panzer der Gerechtigkeit anlegen, damit unsere Brust gegen die Pfeile des Feindes gefestigt und gesichert ist. Beschuht und bewehrt seien unsere Füße mit der Lehre des Evangeliums. Wenn wir uns darum anschicken, die Schlange zu zertreten, wird sie uns nicht beißen und zum Straucheln bringen können. Liebe Brüder, das hafte fest in eurem Herzen! Wenn der Soldat Christi dies bedenkt und erwägt, wenn der Tag der Verfolgung über ihn kommt, dann wird er, in den Geboten und Mahnungen des Herrn erzogen, sich nicht vor dem Kampf fürchten, sondern für den Kranz bereit sein.",
@@ -3211,19 +4010,20 @@ export const brevierData = {
           "oration": "Gott und Herr, der heilige Bischof Stanislaus hat sich unerschrocken für deine Ehre eingesetzt und ist unter dem Schwert der Verfolger gefallen. Gib auch uns die Kraft, bis zu unserem Tode im Glauben standhaft zu bleiben. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
+          "name": "Hl. Damian de Veuster",
           "oration": "Gott und Herr, der heilige Bischof Stanislaus hat sich unerschrocken für deine Ehre eingesetzt und ist unter dem Schwert der Verfolger gefallen. Gib auch uns die Kraft, bis zu unserem Tode im Glauben standhaft zu bleiben. Darum bitten wir durch Jesus Christus."
         }
       },
       "25": {
         "each": {
           "comm_1": "Mar",
+          "name": "Hl. Nereus und Achilleus",
           "oration": "eig-4-25-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Markus",
-          "farbe": "r"
+        "Invitatorium": {
+          "name": "Hl. Pankratius"
         },
+        "Laudes": {},
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -3236,9 +4036,7 @@ export const brevierData = {
           "oration": "eig-4-27-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "hl. Petrus Kanisius"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3248,9 +4046,7 @@ export const brevierData = {
           "oration": "eig-4-29-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Katharina von Siena"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -3265,9 +4061,7 @@ export const brevierData = {
           "oration": "eig-5-2-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Athanasius"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3277,10 +4071,7 @@ export const brevierData = {
           "oration": "eig-5-3-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Philippus und hl. Jakobus",
-          "farbe": "r"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -3293,9 +4084,7 @@ export const brevierData = {
           "oration": "eig-5-26-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Philipp Neri"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       }
@@ -3307,10 +4096,7 @@ export const brevierData = {
           "oration": "eig-6-1-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Justin",
-          "farbe": "r"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3320,10 +4106,7 @@ export const brevierData = {
           "oration": "eig-6-3-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hll. Karl Lwanga und°Gefährten",
-          "farbe": "r"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3333,10 +4116,7 @@ export const brevierData = {
           "oration": "eig-6-5-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Bonifatius",
-          "farbe": "r"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -3349,10 +4129,7 @@ export const brevierData = {
           "oration": "eig-6-11-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Barnabas",
-          "farbe": "r"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3362,9 +4139,7 @@ export const brevierData = {
           "oration": "eig-6-13-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Antonius von Padua"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3374,9 +4149,7 @@ export const brevierData = {
           "oration": "eig-6-21-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Aloisius Gonzaga"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3386,9 +4159,7 @@ export const brevierData = {
           "oration": "eig-6-24-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Geburt des hl. Johannes des Täufers"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -3401,10 +4172,7 @@ export const brevierData = {
           "oration": "eig-6-28-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Irenäus",
-          "farbe": "r"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3414,10 +4182,7 @@ export const brevierData = {
           "oration": "eig-6-29-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Petrus und hl. Paulus",
-          "farbe": "r"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -3432,9 +4197,7 @@ export const brevierData = {
           "oration": "eig-7-2-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Mariä Heimsuchung"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -3447,10 +4210,7 @@ export const brevierData = {
           "oration": "eig-7-3-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Thomas",
-          "farbe": "r"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -3463,9 +4223,7 @@ export const brevierData = {
           "oration": "eig-7-11-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Benedikt von Nursia"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -3478,9 +4236,7 @@ export const brevierData = {
           "oration": "eig-7-15-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Bonaventura"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3490,9 +4246,7 @@ export const brevierData = {
           "oration": "eig-7-22-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Maria Magdalena"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -3505,9 +4259,7 @@ export const brevierData = {
           "oration": "eig-7-23-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Birgitta von Schweden"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -3520,10 +4272,7 @@ export const brevierData = {
           "oration": "eig-7-25-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Jakobus",
-          "farbe": "r"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -3536,9 +4285,7 @@ export const brevierData = {
           "oration": "eig-7-26-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Joachim und hl. Anna"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3548,9 +4295,7 @@ export const brevierData = {
           "oration": "eig-7-29-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "hll. Marta, Maria und Lazarus von Betanien"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3560,9 +4305,7 @@ export const brevierData = {
           "oration": "eig-7-31-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Ignatius von Loyola"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       }
@@ -3574,9 +4317,7 @@ export const brevierData = {
           "oration": "eig-8-1-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Alfons Maria von Liguori"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3586,9 +4327,7 @@ export const brevierData = {
           "oration": "eig-8-4-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Johannes Maria Vianney"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3598,9 +4337,7 @@ export const brevierData = {
           "oration": "eig-8-6-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Verklärung des Herrn"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3610,9 +4347,7 @@ export const brevierData = {
           "oration": "eig-8-8-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Dominikus"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3622,10 +4357,7 @@ export const brevierData = {
           "oration": "eig-8-9-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Theresia Benedicta vom Kreuz",
-          "farbe": "r"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -3638,10 +4370,7 @@ export const brevierData = {
           "oration": "eig-8-10-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Laurentius",
-          "farbe": "r"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -3654,9 +4383,7 @@ export const brevierData = {
           "oration": "eig-8-11-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Klara von Assisi"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3666,9 +4393,7 @@ export const brevierData = {
           "oration": "eig-8-14-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Weihetag der Fuldaer Kathedrale"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3678,9 +4403,7 @@ export const brevierData = {
           "oration": "eig-8-15-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Mariä Aufnahme in den Himmel"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -3693,10 +4416,7 @@ export const brevierData = {
           "oration": "eig-8-17-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Maximilian Maria Kolbe",
-          "farbe": "r"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3706,9 +4426,7 @@ export const brevierData = {
           "oration": "eig-8-20-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Bernhard von Clairvaux"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3718,9 +4436,7 @@ export const brevierData = {
           "oration": "eig-8-21-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Pius X."
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3730,9 +4446,7 @@ export const brevierData = {
           "oration": "eig-8-22-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Maria Königin"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3742,10 +4456,7 @@ export const brevierData = {
           "oration": "eig-8-24-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Bartholomäus",
-          "farbe": "r"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -3758,9 +4469,7 @@ export const brevierData = {
           "oration": "eig-8-27-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Monika"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3770,9 +4479,7 @@ export const brevierData = {
           "oration": "eig-8-28-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Augustinus"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3782,10 +4489,7 @@ export const brevierData = {
           "oration": "eig-8-29-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Enthauptung des hl. Johannes des Täufers",
-          "farbe": "r"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       }
@@ -3797,9 +4501,7 @@ export const brevierData = {
           "oration": "eig-9-3-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Gregor der Große"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3809,9 +4511,7 @@ export const brevierData = {
           "oration": "eig-9-8-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Mariä Geburt"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -3824,9 +4524,7 @@ export const brevierData = {
           "oration": "eig-9-13-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Johannes Chrysostomus"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3836,10 +4534,7 @@ export const brevierData = {
           "oration": "eig-9-14-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Kreuzerhöhung",
-          "farbe": "r"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3849,9 +4544,7 @@ export const brevierData = {
           "oration": "eig-9-15-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Gedächtnis der Schmerzen Mariens"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3861,10 +4554,7 @@ export const brevierData = {
           "oration": "eig-9-16-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Kornelius",
-          "farbe": "r"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3874,10 +4564,7 @@ export const brevierData = {
           "oration": "eig-9-20-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hll. Andreas Kim Taegon",
-          "farbe": "r"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3887,10 +4574,7 @@ export const brevierData = {
           "oration": "eig-9-21-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Matthäus",
-          "farbe": "r"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -3903,9 +4587,7 @@ export const brevierData = {
           "oration": "eig-9-23-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Pius von Pietrelcina (Pater Pio)"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3915,9 +4597,7 @@ export const brevierData = {
           "oration": "eig-9-27-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Vinzenz von Paul"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3927,9 +4607,7 @@ export const brevierData = {
           "oration": "eig-9-28-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Lioba"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -3942,9 +4620,7 @@ export const brevierData = {
           "oration": "eig-9-29-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hll. Erzengel Michael, Gabriel und Raphael"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -3957,9 +4633,7 @@ export const brevierData = {
           "oration": "eig-9-30-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Hieronymus"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       }
@@ -3971,9 +4645,7 @@ export const brevierData = {
           "oration": "eig-10-1-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Theresia vom Kinde Jesus (von Lisieux)"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3983,9 +4655,7 @@ export const brevierData = {
           "oration": "eig-10-2-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Heilige Schutzengel"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -3995,9 +4665,7 @@ export const brevierData = {
           "oration": "eig-10-4-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Franz von Assisi"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -4007,9 +4675,7 @@ export const brevierData = {
           "oration": "eig-10-7-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Unsere Liebe Frau vom Rosenkranz"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -4019,9 +4685,7 @@ export const brevierData = {
           "oration": "eig-10-15-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Theresia von Jesus (von Avila)"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -4031,10 +4695,7 @@ export const brevierData = {
           "oration": "eig-10-17-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Ignatius von Antiochien",
-          "farbe": "r"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -4044,10 +4705,7 @@ export const brevierData = {
           "oration": "eig-10-18-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Lukas",
-          "farbe": "r"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -4060,10 +4718,7 @@ export const brevierData = {
           "oration": "eig-10-28-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Simon und hl. Judas",
-          "farbe": "r"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -4078,9 +4733,7 @@ export const brevierData = {
           "oration": "eig-11-1-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Allerheiligen"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -4093,10 +4746,7 @@ export const brevierData = {
           "oration": "eig-11-2-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Allerseelen",
-          "farbe": "v"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -4109,9 +4759,7 @@ export const brevierData = {
           "oration": "eig-11-4-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Karl Borromäus"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -4121,9 +4769,7 @@ export const brevierData = {
           "oration": "eig-11-5-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hochfest der Kirchweihe"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -4136,9 +4782,7 @@ export const brevierData = {
           "oration": "eig-11-9-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Weihetag der Lateranbasilika"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -4148,9 +4792,7 @@ export const brevierData = {
           "oration": "eig-11-10-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Leo der Große"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -4160,9 +4802,7 @@ export const brevierData = {
           "oration": "eig-11-11-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Martin von Tours"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -4172,10 +4812,7 @@ export const brevierData = {
           "oration": "eig-11-12-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Josaphat",
-          "farbe": "r"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -4185,9 +4822,7 @@ export const brevierData = {
           "oration": "eig-11-19-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Elisabeth von Thüringen"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -4200,9 +4835,7 @@ export const brevierData = {
           "oration": "eig-11-21-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Unsere Liebe Frau in Jerusalem"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -4212,10 +4845,7 @@ export const brevierData = {
           "oration": "eig-11-22-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Cäcilia",
-          "farbe": "r"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -4225,10 +4855,7 @@ export const brevierData = {
           "oration": "eig-11-24-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hll. Andreas Dung-Lac",
-          "farbe": "r"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -4238,10 +4865,7 @@ export const brevierData = {
           "oration": "eig-11-30-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Andreas",
-          "farbe": "r"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -4256,9 +4880,7 @@ export const brevierData = {
           "oration": "eig-12-3-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Franz Xaver"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -4268,9 +4890,7 @@ export const brevierData = {
           "oration": "eig-12-7-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Ambrosius"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -4293,10 +4913,7 @@ export const brevierData = {
           "oration": "eig-12-13-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Luzia",
-          "farbe": "r"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -4306,9 +4923,7 @@ export const brevierData = {
           "oration": "eig-12-14-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Johannes vom Kreuz"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Vesper": {}
       },
@@ -4318,9 +4933,7 @@ export const brevierData = {
           "oration": "eig-12-16-each-Oration"
         },
         "Invitatorium": {},
-        "Laudes": {
-          "name": "Hl. Sturmius"
-        },
+        "Laudes": {},
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -4465,7 +5078,6 @@ export const brevierData = {
           "oration": ""
         },
         "Laudes": {
-          "name": "Hochfest der Geburt des Herrn",
           "hymn_1": 2201.0,
           "ant_1": "Ihr Hirten, wen habt ihr gesehen? Sagt und verkündet uns: Wer ist auf Erden erschienen? – Wir sahen das Kind und hörten die Chöre der Engel; die sangen das Lob des Herrn. Halleluja.",
           "ant_2": "Der Engel sprach zu den Hirten: Ich verkünde euch große Freude; heute ist euch der Heiland geboren, der Retter der Welt. Halleluja.",
@@ -4542,8 +5154,6 @@ export const brevierData = {
         },
         "Invitatorium": {},
         "Laudes": {
-          "name": "Hl. Stephanus",
-          "farbe": "r",
           "hymn_1": 92261.0,
           "ant_1": "Meine Seele hängt an dir, Gott, du mein Gott; denn für dich wurde mein Leib gesteinigt.",
           "ant_2": "Stephanus sah den Himmel offen, er sah und trat ein. Selig der Mensch, dem der Himmel offensteht.",
@@ -4592,7 +5202,6 @@ export const brevierData = {
         },
         "Invitatorium": {},
         "Laudes": {
-          "name": "Hl. Johannes",
           "hymn_1": 92271.0,
           "ant_1": "Johannes wurde vom Herrn erwählt als sein Apostel und Evangelist. Weil er Gott über alles liebte, hat ihn Jesus vor allen geliebt.",
           "ant_2": "Dies ist Johannes. Ihm hat der Herr am Kreuze seine Mutter anvertraut, die Jungfrau dem Jungfräulichen.",
@@ -4634,8 +5243,6 @@ export const brevierData = {
         },
         "Invitatorium": {},
         "Laudes": {
-          "name": "Unschuldige Kinder",
-          "farbe": "r",
           "hymn_1": 92281.0,
           "ant_1": "So spricht der Herr: Sie werden mit mir einher­gehen in weißen Gewändern, denn sie sind dessen würdig.",
           "ant_2": "Die Kinder singen das Lob des Herrn: Durch ihren Tod bezeugen sie Christus, den sie im Leben nicht verkünden konnten.",
@@ -4813,6 +5420,10 @@ export const brevierData = {
         "Invitatorium": {
           "ant_0": "Christus, den geliebten Sohn, der dem Vater wohlgefällt; kommt, wir beten ihn an!"
         },
+        "Komplet": {
+          "marant": 521.0,
+          "marant_lat": 522.0
+        },
         "Laudes": {
           "hymn_1": 2204.0,
           "ant_1": "Johannes tauft den Heiland: der Soldat seinen König, der Knecht seinen Herrn. Die Wasser des Jordan erbeben, die Taube gibt Zeugnis, und die Stimme des Vaters erschallt aus dem Himmel: Dieser ist mein Sohn.",
@@ -4903,10 +5514,6 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu unserem Erlöser Jesus Christus, der am heutigen Tag von Johannes im Jordan getauft wurde:",
           "bitten_r": "Kyrie, eleison.",
           "bitten": "Du bist der geliebte Sohn, an dem der Vater sein Wohlgefallen hat;^qschenke denen, die auf dich hören, deinen Geist.^pDu zerbrichst das geknickte Rohr nicht und löschst den glimmenden Docht nicht aus;^qerbarme dich aller, die fern sind von dir.^pDer Vater hat dich zum Licht der Heiden gemacht;^qschenke den Katechumenen die Freude des Glaubens.^pDer Vater hat dich mit dem Heiligen Geist gesalbt zum Dienst an den Menschen;^qführe alle, die an dich glauben, zum Heil.^pDu bist die Hoffnung aller, die in Finsternis und Todesschatten sitzen;^qführe unsere Verstorbenen in dein ewiges Licht."
-        },
-        "Komplet": {
-          "marant": 521.0,
-          "marant_lat": 522.0
         }
       },
       "6": {
@@ -8399,7 +9006,7 @@ export const brevierData = {
       "1": {
         "Laudes": {
           "hymn_1": 211.0,
-          "hymn_kl": 221.0,
+          "hymn_kl": 71110.0,
           "ps_1": 42.0,
           "ps_2": 171.0,
           "ps_3": 19.1,
