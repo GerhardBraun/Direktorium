@@ -141,7 +141,7 @@ export const psalmsData = {
         "verses": "1-5",
         "title": "Wer darf vor Gott hintreten?",
         "quote": "Ihr seid zum Berg Zion hingetreten, zur Stadt des lebendigen Gottes. (Hebr 12,22)",
-        "text": "Herr, wer darf Gast sein in deinem Zelt,^*wer darf weilen auf deinem heiligen Berg?^pDer makellos lebt und das Rechte tut;^+der von Herzen die Wahrheit sagt *^pund mit seiner Zunge nicht verleumdet;^pder seinem Freund nichts Böses antut^*und seinen Nächsten nicht schmäht;^pder den Verworfenen verachtet,^*doch alle, die den Herrn fürchten, in Ehren hält;^pder sein Versprechen nicht ändert,^*das er seinem Nächsten geschworen hat;^pder sein Geld nicht auf Wucher ausleiht^*und nicht zum Nachteil des Schuldlosen Bestechung annimmt.^pWer sich danach richtet,^*der wird niemals wanken."
+        "text": "Herr, wer darf Gast sein in deinem Zelt,^*wer darf weilen auf deinem heiligen Berg?^pDer makellos lebt und das Rechte tut;^+der von Herzen die Wahrheit sagt^*und mit seiner Zunge nicht verleumdet;^pder seinem Freund nichts Böses antut^*und seinen Nächsten nicht schmäht;^pder den Verworfenen verachtet,^*doch alle, die den Herrn fürchten, in Ehren hält;^pder sein Versprechen nicht ändert,^*das er seinem Nächsten geschworen hat;^pder sein Geld nicht auf Wucher ausleiht^*und nicht zum Nachteil des Schuldlosen Bestechung annimmt.^pWer sich danach richtet,^*der wird niemals wanken."
       }
   },
   16: {
@@ -383,7 +383,7 @@ export const psalmsData = {
         "verses": "2-13",
         "title": "Die Bosheit des Sünders und die Güte Gottes",
         "quote": "Wer mir nachfolgt, wird nicht in der Finsternis umhergehen, sondern wird das Licht des Lebens haben. (Joh 8,12)",
-        "text": "Der Frevler spricht: „Ich bin entschlossen zum Bösen.“^*In seinen Augen gibt es kein Erschrecken vor Gott.^pEr gefällt sich darin,^*sich schuldig zu machen und zu hassen.^pDie Worte seines Mundes sind Trug und Unheil;^*er hat es aufgegeben, weise und gut zu handeln.^pUnheil plant er auf seinem Lager,^+er betritt schlimme Wege^*und scheut nicht das Böse.^pHerr, deine Güte reicht, so weit der Himmel ist,^*deine Treue, so weit die Wolken ziehn.^pDeine Gerechtigkeit steht wie die Berge Gottes,^*deine Urteile sind tief wie das Meer.^pHerr, du hilfst Menschen und Tieren. *^pGott, wie köstlich ist deine Huld!^pDie Menschen bergen sich im Schatten deiner Flügel, +^psie laben sich am Reichtum deines Hauses;^*du tränkst sie mit dem Strom deiner Wonnen.^pDenn bei dir ist die Quelle des Lebens,^*in deinem Licht schauen wir das Licht.^pErhalte denen, die dich kennen, deine Huld^*und deine Gerechtigkeit den Menschen mit redlichem Herzen!^pLass mich nicht kommen unter den Fuß der Stolzen;^*die Hand der Frevler soll mich nicht vertreiben.^pDann brechen die Bösen zusammen,^*sie werden niedergestoßen und können nie wieder aufstehn."
+        "text": "Der Frevler spricht: „Ich bin entschlossen zum Bösen.“^*In seinen Augen gibt es kein Erschrecken vor Gott.^pEr gefällt sich darin,^*sich schuldig zu machen und zu hassen.^pDie Worte seines Mundes sind Trug und Unheil;^*er hat es aufgegeben, weise und gut zu handeln.^pUnheil plant er auf seinem Lager,^+er betritt schlimme Wege^*und scheut nicht das Böse.^pHerr, deine Güte reicht, so weit der Himmel ist,^*deine Treue, so weit die Wolken ziehn.^pDeine Gerechtigkeit steht wie die Berge Gottes,^*deine Urteile sind tief wie das Meer.^pHerr, du hilfst Menschen und Tieren.^*Gott, wie köstlich ist deine Huld!^pDie Menschen bergen sich im Schatten deiner Flügel, +^psie laben sich am Reichtum deines Hauses;^*du tränkst sie mit dem Strom deiner Wonnen.^pDenn bei dir ist die Quelle des Lebens,^*in deinem Licht schauen wir das Licht.^pErhalte denen, die dich kennen, deine Huld^*und deine Gerechtigkeit den Menschen mit redlichem Herzen!^pLass mich nicht kommen unter den Fuß der Stolzen;^*die Hand der Frevler soll mich nicht vertreiben.^pDann brechen die Bösen zusammen,^*sie werden niedergestoßen und können nie wieder aufstehn."
       }
   },
   37: {
@@ -1770,7 +1770,7 @@ export const psalmsData = {
         "verses": "Jes 45,15–25",
         "title": "Ich bin der Herr, keiner sonst",
         "quote": "Vor dem Namen Jesu soll jedes Knie sich beugen. (Phil 2,10)",
-        "text": "Wahrhaftig, du bist ein verborgener Gott.^*Israels Gott ist der Retter.^pSchmach und Schande kommt über all seine Gegner,^*die Götzenschmiede geraten in Schande.^pIsrael aber wird vom Herrn gerettet,^*wird für immer errettet.^pÜber euch kommt keine Schande und Schmach mehr^*für immer und ewig.^pDenn so spricht der Herr, der den Himmel erschuf:^*Ich bin der Herr, und sonst niemand.^pIch bin der Herr, der die Wahrheit spricht^*und der verkündet, was recht ist.^pWer hölzerne Götzen umherträgt, hat keine Erkenntnis,^*wer einen Gott anbetet, der niemanden rettet.^pEs gibt keinen Gott außer mir;^*außer mir gibt es keinen gerechten und rettenden Gott.^pWendet euch mir zu und lasst euch erretten,^+ihr Menschen aus den fernsten Ländern der Erde;^*denn ich bin Gott, und sonst niemand.^pIch habe bei mir selbst geschworen,^+und mein Mund hat die Wahrheit gesprochen,^*es ist ein unwiderrufliches Wort:^pVor mir wird jedes Knie sich beugen,^+und jede Zunge wird bei mir schwören: *^pNur beim Herrn gibt es Rettung und Schutz.^pBeschämt kommen alle zu ihm, die sich ihm widersetzten.^+Alle Nachkommen Israels bekommen ihr Recht^*und erlangen Ruhm durch den Herrn."
+        "text": "Wahrhaftig, du bist ein verborgener Gott.^*Israels Gott ist der Retter.^pSchmach und Schande kommt über all seine Gegner,^*die Götzenschmiede geraten in Schande.^pIsrael aber wird vom Herrn gerettet,^*wird für immer errettet.^pÜber euch kommt keine Schande und Schmach mehr^*für immer und ewig.^pDenn so spricht der Herr, der den Himmel erschuf:^*Ich bin der Herr, und sonst niemand.^pIch bin der Herr, der die Wahrheit spricht^*und der verkündet, was recht ist.^pWer hölzerne Götzen umherträgt, hat keine Erkenntnis,^*wer einen Gott anbetet, der niemanden rettet.^pEs gibt keinen Gott außer mir;^*außer mir gibt es keinen gerechten und rettenden Gott.^pWendet euch mir zu und lasst euch erretten,^+ihr Menschen aus den fernsten Ländern der Erde;^*denn ich bin Gott, und sonst niemand.^pIch habe bei mir selbst geschworen,^+und mein Mund hat die Wahrheit gesprochen,^*es ist ein unwiderrufliches Wort:^pVor mir wird jedes Knie sich beugen,^+und jede Zunge wird bei mir schwören:^*Nur beim Herrn gibt es Rettung und Schutz.^pBeschämt kommen alle zu ihm, die sich ihm widersetzten.^+Alle Nachkommen Israels bekommen ihr Recht^*und erlangen Ruhm durch den Herrn."
       }
   },
   166: {
@@ -2720,6 +2720,18 @@ export const psalmsData = {
     0.0: {
         "quote": "Darst-LdVp",
         "text": "Auf, Zion, schmücke dein Gemach,^lder Herr ist da, den du ersehnt.^lSteh auf und mache dich bereit,^lempfange Bräutigam und Braut.^pZu seinem Tempel kommt der Herr:^lDie Eltern bringen Christus dar.^lDer ohne alle Sünde ist,^lmacht dem Gesetz sich untertan.^pTritt, königliche Jungfrau, ein,^lbring mit dem Opfer dar dein Kind,^ldes ew’gen Vaters wahren Sohn,^lder uns zum Heil erschienen ist.^pWas dir verheißen, Simeon,^ldas ist in diesem Kind erfüllt.^lNun mache allen Völkern kund^ldas Licht, das ihnen leuchten soll.^pHerr, dir sei Preis und Herrlichkeit,^lder sich den Heiden offenbart,^lmit dir dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."
+      }
+  },
+  82221: {
+    0.0: {
+        "quote": "KathPetri",
+        "text": "Petrus, der Kirche Fundament,^lder Herr hat dich zum Fels gemacht,^ler selber ist der feste Grund,^lder Halt und Stärke dir verleiht.^pDu, Petrus, hast den Herrn zuerst^lbekannt als wahren Gottessohn.^lDir gab er Auftrag und Gewalt,^lsein Volk zu leiten durch die Zeit.^pBehüte du als treuer Knecht^ldie Herde, die dir anvertraut.^lWenn Satan uns wie Weizen siebt,^ldann stärke unsres Glaubens Kraft.^pDem Herrn sei Preis und Herrlichkeit,^lder seine Kirche lenkt und führt,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
+      }
+  },
+  86294: {
+    0.0: {
+        "quote": "PetrPaul",
+        "text": "Goldenes Leuchten strahlt vom Himmel heut herab,^lVater des Lichtes, du erfüllst die Welt mit Glanz,^lzierest den Himmel, da im Feste wir begehn^ldeiner Apostel herrliches Martyrium.^pHeiliger Petrus, Fels, auf dem die Kirche steht,^lHüter der Herde, die dir Christus anvertraut,^leinst hast du weinend den Verrat am Herrn bereut,^lzeigst nun im Tode, dass du wirklich ihn geliebt.^pHeiliger Paulus, Bote du des neuen Heils,^lKünder des Wortes, der die Völker Wahrheit lehrt,^leinst hast du eifernd Christi Jüngern nachgestellt,^llegst nun im Sterben Zeugnis ab mit deinem Blut.^pGöttliche Dreiheit, Vater, Sohn und Heil’ger Geist,^lhöre den Lobpreis, den wir deiner Größe weihn,^lda das Gedächtnis deiner Zeugen uns erfreut.^lGib uns wie ihnen einst den Thron der Seligkeit."
       }
   },
   92012: {

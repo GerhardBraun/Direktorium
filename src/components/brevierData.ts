@@ -60,7 +60,27 @@ export const brevierData = {
     "each": {
       "each": {
         "Laudes": {
-          "hymn_kl": 0.0,
+          "ps_1": 63.0,
+          "ps_2": 160.0,
+          "ps_3": 149.0
+        }
+      }
+    }
+  },
+  "4": {
+    "each": {
+      "0": {
+        "Terz": {
+          "ps_1": 118.1,
+          "ps_2": 118.2,
+          "ps_3": 118.3,
+          "ant_1": "Gut ist es, sich zu bergen beim Herrn; seine Huld währt ewig. Halleluja.",
+          "ant_2": "Meine Stärke und mein Lied ist der Herr. Halleluja.",
+          "ant_3": "Ich danke dir, Herr, denn du hast mich erhört. Halleluja."
+        }
+      },
+      "each": {
+        "Laudes": {
           "ps_1": 63.0,
           "ps_2": 160.0,
           "ps_3": 149.0
@@ -71,20 +91,15 @@ export const brevierData = {
   "5": {
     "each": {
       "0": {
-        "Non": {
-          "ps_1": 118.1,
-          "ps_2": 118.2,
-          "ps_3": 118.3
-        },
-        "Sext": {
-          "ps_1": 118.1,
-          "ps_2": 118.2,
-          "ps_3": 118.3
-        },
+        "Non": {},
+        "Sext": {},
         "Terz": {
           "ps_1": 118.1,
           "ps_2": 118.2,
-          "ps_3": 118.3
+          "ps_3": 118.3,
+          "ant_1": "Gut ist es, sich zu bergen beim Herrn; seine Huld währt ewig. Halleluja.",
+          "ant_2": "Meine Stärke und mein Lied ist der Herr. Halleluja.",
+          "ant_3": "Ich danke dir, Herr, denn du hast mich erhört. Halleluja."
         }
       },
       "each": {
@@ -109,7 +124,6 @@ export const brevierData = {
           "oration_komplet": "Herr und Gott, kehre ein in dieses Haus und halte alle Nachstellungen des Feindes von ihm fern. Deine heiligen Engel mögen darin wohnen und uns im Frieden bewahren. Und dein Segen sei über uns allezeit. Darum bitten wir durch Christus, unsern Herrn. Amen."
         },
         "Laudes": {
-          "hymn_kl": 0.0,
           "ps_1": 63.0,
           "ps_2": 160.0,
           "ps_3": 149.0
@@ -710,10 +724,21 @@ export const brevierData = {
   "com": {
     "Apostel": {
       "each": {
+        "ErsteV": {
+          "name": "Comm Ap",
+          "ps_1": 117.0,
+          "ps_2": 147.2,
+          "ps_3": 152.0,
+          "bitten_e": "Lasst uns zu Jesus Christus beten, der seine Kirche auferbaut hat auf dem Fundament der Apostel:",
+          "bitten_r": "Herr, gedenke deiner Kirche.",
+          "bitten": "Du hast die Apostel ausgesandt als Zeugen deiner Auferstehung;^qsteh den Bischöfen bei, die du als Nachfolger der Apostel berufen hast.^pDu hast den Aposteln den Auftrag gegeben, den Samen des Wortes auszusäen;^qhilf den Predigern, den apostolischen Glauben treu zu verkünden.^pDu hast den Aposteln befohlen, alle Menschen zu deinen Jüngern zu machen;^qgedenke aller, die auf deinen Namen getauft sind.^pDu hast den Aposteln den Dienst der Versöhnung aufgetragen;^qlass alle, die ihre Sünden bekennen, deinen Trost erfahren. ^pAuf den Grundsteinen der himmlischen Gottesstadt stehen die Namen deiner zwölf Apostel;^qnimm unsere Verstorbenen auf in das neue Jerusalem."
+        },
         "Invitatorium": {
+          "name": "Comm Ap",
           "ant_0": "Den Herr, den König der Apostel – kommt, wir beten ihn an!"
         },
         "Laudes": {
+          "name": "Comm Ap",
           "hymn_1": 71072.0,
           "ant_1": "Das ist mein Gebot: Liebt einander, so wie ich euch geliebt habe.",
           "ant_2": "Größere Liebe hat niemand, als wer sein Leben gibt für seine Freunde.",
@@ -730,6 +755,7 @@ export const brevierData = {
           "bitten": "Wir danken dir für deine heilige Kirche, die auf das Fundament der Apostel gegründet ist;^qsie führe uns zusammen zur Einheit in dir.^qWir danken dir für das Wort der Wahrheit, das wir von den Aposteln empfangen haben;^qes sei uns Licht und Freude.^qWir danken dir für das Sakrament deines Leibes und Blutes, das uns die Apostel überliefert haben;^qes sei uns Nahrung und Quelle des Lebens.^qWir danken dir für das Sakrament der Versöhnung, das du den Aposteln anvertraut hast;^qes reinige uns immer neu von unserer Schuld."
         },
         "Lesehore": {
+          "name": "Comm Ap",
           "hymn_1": 71068.0,
           "ps_1": 19.1,
           "ps_2": 64.0,
@@ -747,6 +773,7 @@ export const brevierData = {
           "resp1_3": "Euch ist es gegeben, die Geheimnisse des Himmelreiches zu erkennen. Selig seid ihr, denn eure Augen sehen und eure Ohren hören."
         },
         "Non": {
+          "name": "Comm Ap",
           "ant_0": "Bleibt standhaft, und ihr werdet das Leben gewinnen.",
           "les_buch": "Apg",
           "les_stelle": "5,41-42",
@@ -755,6 +782,7 @@ export const brevierData = {
           "resp1_1": "Denn eure Namen sind im Himmel verzeichnet."
         },
         "Sext": {
+          "name": "Comm Ap",
           "ant_0": "Seht, ich bin alle Tage bei euch, bis zum Ende der Welt.",
           "les_buch": "Apg",
           "les_stelle": "5,12a.14",
@@ -763,6 +791,7 @@ export const brevierData = {
           "resp1_1": "Und bewahrten seine Gebote."
         },
         "Terz": {
+          "name": "Comm Ap",
           "ant_0": "Geht hin und verkündet das Evangelium vom Reich. Umsonst habt ihr empfangen, umsonst sollt ihr geben.",
           "les_buch": "2 Kor",
           "les_stelle": "5,19b-20",
@@ -771,6 +800,7 @@ export const brevierData = {
           "resp1_1": "Ihre Kunde bis hin zu den Enden der Erde."
         },
         "Vesper": {
+          "name": "Comm Ap",
           "hymn_1": 71076.0,
           "ps_1": 116.2,
           "ps_2": 126.0,
@@ -3329,7 +3359,7 @@ export const brevierData = {
           "resp1_1": "Gesegnet bist du, Jungfrau Maria; denn du hast den Herrn getragen, den Schöpfer der Welt;",
           "resp1_2": "du hast den geboren, der dich erschaffen hat, und bleibst Jungfrau für immer.",
           "resp1_3": "Sei gegrüßt, du Begnadete, der Herr ist mit dir.",
-          "patr_autor": "Athanasius (+ 373)",
+          "patr_autor": "Athanasius († 373)",
           "patr_text": "Aus dem Brief an Epiktet."
         },
         "Non": {
@@ -3542,7 +3572,7 @@ export const brevierData = {
           "resp1_1": "Das Evangelium, das ich verkündigt habe, stammt nicht von Menschen.",
           "resp1_2": "Ich habe es nicht von einem Menschen empfangen, sondern durch die Offenbarung Jesu Christi.",
           "resp1_3": "Die Wahrheit Christi ist in mir, weil ich euch das Evangelium Gottes verkündigt habe.",
-          "patr_autor": "Johannes Chrysostomus (+ 407)",
+          "patr_autor": "Johannes Chrysostomus († 407)",
           "patr_werk": "Aus einer Homilie zu Ehren des heiligen Paulus.",
           "patr_text": "^hPaulus ertrug alles aus Liebe zu Christus^pAm besten von allen Menschen hat Paulus gezeigt, was der Mensch (eigentlich) ist, wie groß der Adel unserer Natur ist und welch großer Tugend dieses Lebewesen fähig ist. Täglich gab er sein Bestes, und wenn ihm Gefahren drohten, gewann er neue Zuversicht. Das machte er mit den Worten deutlich: „Ich vergesse, was hinter mir liegt, und strecke mich nach dem aus, was vor mir ist.“ {1#Phil 3,13} Als er den Tod nahe glaubte, rief er zur Teilnahme an der Freude darüber auf: „Ebenso sollt auch ihr euch freuen und sollt euch freuen mit mir.“ {2#Phil 2,18} Und wieder jubelt er über die ihn bedrängenden Gefahren, über alle Verspottungen und Schmähungen. Er schreibt den Korinthern: „Ich bejahe alle Misshandlungen und Nöte.“ {3#2 Kor 12,10} Er nannte dies 'die Waffen der Gerechtigkeit' {4#2 Kor 6,7} und zeigte, dass er durch sie größten Vorteil hatte und für die Feinde ringsumher unerreichbar war. Überall wurde er gegeißelt, verspottet und geschmäht. So konnte er wie im Triumph einhergehen und die Siegeszeichen in dichter Folge überall auf der Erde aufrichten. Er frohlockte und danke Gott: „Dank sei Gott, der uns stets im Siegeszug Christi mitführt!“ {5#2 Kor 2,14} Er suchte mehr die Unscheinbarkeit und Verachtung um der Verkündigung willen als wir die Ehre, mehr den Tod als wir das Leben, mehr die Armut als wir den Reichtum, die Plage mehr als andere die Erholung. Eines nur schien ihm furchtbar, eines nur glaubte er fliehen zu müssen: Gott zu beleidigen, sonst nichts! So erschien ihm auch nichts der Sehnsucht wert, als Gott zu gefallen.^pWas wertvoller ist als alles, das trug er in sich: die Liebe Christi, und mit ihr schätzte er sich glücklicher als alle Menschen. Ohne sie wünschte er sich nicht, zu den Mächten, Fürsten und Gewalten zu gehören. Eher wollte er mit dieser Liebe zu den Letzten zählen, ja ein Sträfling sein, als ohne sie zu den Großen und den Geehrten gerechnet werden. Für ihn gab es eine Strafe: ohne diese Liebe zu sein.^pOhne die Liebe Christi sein, das war ihm Höllenstrafe und unerträgliche Pein; sie jedoch zu besitzen, das war ihm Leben, Welt, Engel, Gegenwärtiges und Zukünftiges, Königtum, Verheißung und unzähliges Gute. Nichts, nichts, was nicht Bezug auf die Liebe Christi hatte, wertete er als unangenehm oder angenehm.^pEr verachtete alles Sichtbare wie eine verwesende Pflanze. Die Tyrannen und das wutschnaubende Volk schienen ihm lästige Mücken.^pDer Tod, Strafen und tausend Züchtigungen waren ihm wie Kinderspiel, wenn er nur um Christi willen dulden durfte.",
           "patr_resp1": "Ich habe bei Gott Erbarmen gefunden, weil ich in meinem Unglauben nicht wusste, was ich tat.",
@@ -3600,7 +3630,7 @@ export const brevierData = {
         },
         "Lesehore": {
           "comm_1": "Hirten",
-          "patr_autor": "Johannes Chrysostomus (+ 407)",
+          "patr_autor": "Johannes Chrysostomus († 407)",
           "patr_werk": "Aus einer Homilie zu Ehren des heiligen Paulus.",
           "patr_text": "^hIch habe einen guten Kampf gekämpft^pSelbst im Kerker lebte Paulus wie im Himmel. Wunden und Schläge nahm er lieber auf sich als andere nach Ehrenpreisen griffen. Die Mühen liebte er nicht weniger als den Lohn des Kampfes, ja er hielt die Mühen selbst für den Kampfpreis und nannte sie aus diesem Grund auch Gnade! {1#Vgl. Phil 1,7} Siehe, Kampfpreis war es ihm, „aufzubrechen und bei Christus zu sein“ {2#Phil 1,23}. Im Fleisch zu bleiben bedeutete für ihn Kampf. Und doch zog er diesen (Kampf) jenem (Kampfpreis) vor und erklärte, dieser sei für ihn notwendiger als jener.^pVon Christus fern sein war ihm Kampf und Mühe, Kampf und Mühe im Übermaß. Bei ihm sein galt ihm dagegen als Kampfpreis. Dennoch zog er den Kampf um Christi willen vor.^pHier könnte jemand gewiss auch sagen, das alles sei ihm eben um Christi willen angenehm gewesen. So denke ich auch; denn was uns Betrübnis verursacht, schuf ihm große Freude. Was soll ich die Gefahren und die übrigen Leiden aufzählen? Denn er war in fortwährender Trübsal. Deshalb sagte er: „Wer leidet, ohne dass ich mit ihm leide? Wer kommt zu Fall, ohne dass ich von Sorge verzehrt werde!“ {3#2 Kor 11,29}^pIch ermahne euch, dieses Vorbild der Tugend nicht nur zu bewundern, sondern auch nachzuahmen. Dadurch können wir den gleichen Kranz erlangen wie er.^pWunderst du dich, zu hören: wenn du dasselbe vollbringst wie Paulus, dann kannst du dasselbe erlangen wie er? Dann höre, was er selbst sagt: „Ich habe den guten Kampf gekämpft, den Lauf vollendet, die Treue gehalten. Jetzt liegt für mich der Kranz der Gerechtigkeit bereit, den mir der Herr, der gerechte Richter, an jenem Tag geben wird, aber nicht nur mir, sondern allen, die sehnsüchtig auf sein Erscheinen warten.“ {4#2 Tim 4,7.8}^pSiehst du: er ruft alle zur gleichen Gemeinschaft! Weil also allen das gleiche in Aussicht steht, lasst uns dafür sorgen, dass wir der verheißenen Güter wert werden.^pWir wollen nicht bloß auf die große Last des von ihm Vollbrachten schauen, sondern auch auf die angespannte Bereitwilligkeit, mit der er eine so große Gnade gewann, und auf die Verwandtschaft der Natur! Denn er war in allem ein Mensch wie wir. So scheint uns dann auch das ganz Schwere leicht und ohne Gewicht. Und wenn wir uns diese kurze Zeit abgemüht haben, werden wir schließlich den niemals alternden unsterblichen Kranz tragen und so zur Vollendung gelangen; durch die Gnade und Menschenfreundlichkeit unseres Herrn Jesus Christus, dem Macht und Herrlichkeit ist jetzt und immer und in Ewigkeit. Amen.",
           "patr_resp1": "Bemühe dich um Gerechtigkeit, Frömmigkeit, Glauben, Liebe, Standhaftigkeit und Sanftmut.",
@@ -3626,7 +3656,7 @@ export const brevierData = {
         },
         "Lesehore": {
           "comm_1": "Lehrer",
-          "patr_autor": "Thomas von Aquin (+ 1274)",
+          "patr_autor": "Thomas von Aquin († 1274)",
           "patr_werk": "Mahnbrief an Frater Johannes über die Weise zu studieren.",
           "patr_text": "^hWas du liest oder hörst, bemühe dich zu verstehen^pDa du mich gefragt hast, mein lieber Bruder Johannes, wie du studieren musst, um den Schatz der Wissenschaften zu gewinnen, möchte ich dir folgenden Rat geben:^pWähle den Weg über die Bäche und stürze dich nicht gleich in das Meer! Man muss durch das Leichtere zum Schwierigen gelangen.^pDas ist also meine Mahnung und Richtlinie für dich. Ich sage dir: sei bedachtsam im Reden und gehe bedachtsam in ein Gespräch.^lErhalte dir die Reinheit des Gewissens.^lHöre nicht auf zu beten.^lLiebe deine Zelle, wenn du in den Weinkeller der Weisheit geführt werden möchtest.^lZeige dich liebenswürdig gegenüber allen.^lKümmere dich nicht um das Tun der anderen.^lSei mit keinem zu vertraut; denn zu große Vertraulichkeit bringt Geringschätzung ein und schafft Gelegenheit, sich dem Studium zu entziehen.^lMische dich nicht in das Reden und Tun der Weltleute ein.^lMeide Streitgespräche, was immer auch beredet wird.^lVersäume nicht, den Spuren der Heiligen und der Guten zu folgen.^lBeachte nicht, von wem du etwas hörst, sondern, wenn Gutes gesagt wird, merke es dir.^lWas du liest oder hörst, bemühe dich zu verstehen.^lIn Zweifeln verschaffe dir Gewissheit.^lWenn du etwas in der Schatzkammer deines Geistes verschließen kannst, dann bemühe dich, wie ein Dürstender die Gefäße zu füllen.^lSuche nicht, was für dich zu hoch ist.^pWenn du diese Bahn einschlägst, wirst du lebendig bleiben und nützliche Frucht bringen im Weinberg des Herrn der Scharen, solange du lebst. Und wenn du das befolgst, wirst du erreichen können, was du begehrst.",
           "patr_resp1": "Ich betete, und es wurde mir Einsicht gegeben.",
@@ -3654,7 +3684,7 @@ export const brevierData = {
         "Lesehore": {
           "comm_1": "Hirten",
           "comm_2": "Erzieher",
-          "patr_autor": "Johannes Bosco (+ 1888)",
+          "patr_autor": "Johannes Bosco († 1888)",
           "patr_werk": "Aus einem Brief.",
           "patr_text": "^hIch habe immer mit Liebe gearbeitet^pWenn wir eifrig für das wirkliche Glück unserer Zöglinge sorgen und sie zur Erfüllung ihrer Pflichten anleiten möchten, dürfen wir vor allem nie vergessen, dass wir Elternstelle an den lieben jungen Menschen vertreten. Ich habe immer mit Liebe für sie gearbeitet, mich um sie bemüht und das Priestertum ausgeübt, nicht ich allein, sondern die ganze salesianische Gesellschaft.^pLiebe Söhne, wie oft musste ich mich in meinem langen Leben durchringen zu der großen Wahrheit: Leichter ist es zornig zu werden, als zu ertragen, einem Knaben zu drohen, statt ihm eindringlich zuzureden. Ja, ich sage es: es ist bequemer für unsere Ungeduld und unseren Hochmut, die Fehlenden zu strafen, als sie fest und freundlich zu ertragen und so zu bessern.^pIch empfehle euch die Liebe des Paulus, die er gegenüber den Neugetauften an den Tag legte. Oft führte sie dazu, dass er weinte und inständig betete, wenn er sah, wie wenig gelehrig sie waren und wie sie seiner Liebe widerstanden.^pGebt acht, dass euch niemand vorwerfen kann, ihr ließet euch durch heftige Gemütsbewegungen leiten. Es ist schwer, beim Strafen die Standhaftigkeit des Herzens zu bewahren, die nötig ist, wenn es nicht scheinen soll, wir handelten nur, um unsere Autorität zu zeigen oder um der Erregung des Gemüts ihren Lauf zu lassen.^pWir müssen sie als Söhne betrachten, über die wir eine Vollmacht auszuüben haben. Wir wollen uns zu ihren Dienern machen wie Jesus, der kam, um gehorsam zu sein, nicht zu befehlen {1#Vgl. Mk 10,45}, und wir sollten uns schon des Anscheins der Herrschsucht schämen; wir wollen nicht über sie herrschen, es sei denn, um ihnen zu dienen.^pSo machte es Jesus mit den Aposteln. Sie waren unwissend und ungebildet, ja auch ihr Glaube war klein. Aber er ertrug sie. Gegenüber den Sündern bewies er eine so gütige und vertraute Freundschaft, dass die einen staunten, die andern Anstoß nahmen, andere schließlich Hoffnung schöpften, von Gott Verzeihung zu erlangen. Deswegen forderte er uns auf, gütig und von Herzen demütig zu sein {2#Vgl. Mt 11,29}.^pSie sind unsere Söhne. Wenn wir daher ihre Irrtümer unterdrücken wollen, müssen wir allen Zorn ablegen oder doch so mäßigen, als hätten wir ihn ganz ausgelöscht.^pIn besonders schweren Fällen empfiehlt es sich, mehr inständig und demütig zu Gott zu beten, als einen Wortschwall loszulassen, der nur das Gemüt der Hörer beleidigt, den Schuldigen aber keinen Nutzen bringt.",
           "patr_resp1": "Sie brachten Kinder zu Jesus. Die Jünger aber wiesen die Leute ab. Als Jesus das sah, sprach er zu ihnen:",
@@ -3672,8 +3702,7 @@ export const brevierData = {
     "2": {
       "2": {
         "each": {
-          "oration": "eig-2-2-each-Oration",
-          "oration_komplet": "Allmächtiger, ewiger Gott, dein eingeborener Sohn hat unsere menschliche Natur angenommen und wurde am heutigen Tag im Tempel dargestellt. Läutere unser Leben und Denken, damit wir mit reinem Herzen vor dein Antlitz treten. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Allmächtiger, ewiger Gott, dein eingeborener Sohn hat unsere menschliche Natur angenommen und wurde am heutigen Tag im Tempel dargestellt. Läutere unser Leben und Denken, damit wir mit reinem Herzen vor dein Antlitz treten. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Invitatorium": {
           "ant_0": "Zu seinem heiligen Tempel kommt der Herrscher, der Herr; kommt, wir beten ihn an!"
@@ -3776,10 +3805,6 @@ export const brevierData = {
         "Vesper": {}
       },
       "5": {
-        "each": {
-          "comm_1": "Mar",
-          "oration": "eig-2-5-each-Oration"
-        },
         "Invitatorium": {},
         "Laudes": {
           "name": "Hl. Agatha",
@@ -3802,10 +3827,6 @@ export const brevierData = {
         }
       },
       "6": {
-        "each": {
-          "comm_1": "Mar",
-          "oration": "eig-2-6-each-Oration"
-        },
         "Invitatorium": {},
         "Laudes": {
           "name": "Hll. Paul Miki und Gefährten",
@@ -3825,10 +3846,6 @@ export const brevierData = {
         }
       },
       "10": {
-        "each": {
-          "comm_1": "Mar",
-          "oration": "eig-2-10-each-Oration"
-        },
         "Invitatorium": {},
         "Laudes": {
           "name": "Hl. Scholastika",
@@ -3849,18 +3866,23 @@ export const brevierData = {
       },
       "14": {
         "each": {
-          "comm_1": "Mar",
-          "oration": "eig-2-14-each-Oration"
+          "comm_1": "Hirten",
+          "oration": "Gott, du Heil aller Menschen, du hast durch die Brüder Cyrill und Methodius den slawischen Völkern das Licht deiner Wahrheit geschenkt. Gib, dass wir deine Lehre mit bereitem Herzen aufnehmen und zu einem Volk werden, das im wahren Glauben und im rechten Bekenntnis geeint ist. Darum bitten wir durch Jesus Christus."
         },
-        "Invitatorium": {},
         "Laudes": {
-          "name": "Hl. Cyrill und hl. Methodius"
+          "name": "Hl. Cyrill und hl. Methodius",
+          "ant_ev": "In Heiligkeit und Gerechtigkeit dienten sie dem Herrn all ihre Tage."
         },
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
-        "Vesper": {}
+        "Lesehore": {
+          "patr_werk": "Aus der slawischen Lebensbeschreibung Konstantins",
+          "patr_text": "^hFördere deine Kirche und fasse alle zur Einheit zusammen^pKonstantin Cyrillus erkrankte, von Arbeit überhäuft. Nachdem er seine Krankheit viele Tage ertragen hatte und die Stunde kam, da er Ruhe erhalten und in die ewigen Wohnungen {1#Vgl. Lk 16,9.} eingehen sollte, erhob er die Hände zu Gott und betete unter Tränen:^p„Herr, mein Gott, du hast alle Engel und die unkörperlichen Kräfte erschaffen. Du hast den Himmel ausgespannt und die Erde fest gemacht. Alles, was ist, hast du aus dem Nichtsein zum Sein gebracht. Du erhörst immer alle, die deinen Willen tun, dich ehren und deine Gebote halten. Erhöre mein Gebet und erhalte deine gläubige Herde, der du mich Unwürdigen und Untauglichen zum Vorsteher gegeben hast. Befreie sie von der Bosheit der Menschen, die dich lästern. Mehre deine Kirche an Zahl und führe alle zur Einheit zusammen! Mache sie zu einem ausgezeichneten Volk, einmütig in deinem wahren Glauben und im rechten Bekenntnis. Hauche ihren Herzen das Wort der Lehre ein. Denn dein Geschenk ist es, dass du uns angenommen hast, das Evangelium Christi zu predigen, dass wir die Menschen zu guten Taten aneifern und das tun dürften, was dir gefällt. Die du mir gegeben hast, stelle ich dir zurück; denn sie sind dein. Leite sie mit deiner starken Rechten, behüte sie unter dem Schutz deiner Fittiche, damit alle deinen Namen loben und verherrlichen, den Namen des Vaters und des Sohnes und des Heiligen Geistes Amen.“^pSo entschlief er im Herrn, 42 Jahre alt. Der Papst ordnete an, dass alle Griechen, die in Rom waren, und die Römer sich mit Kerzen in den Händen bei ihm versammelten und über ihm sangen, dass sie einen Leichenzug hielten wie bei einem Papst. So geschah es denn auch.",
+          "patr_resp1": "Ich habe David, meinen Knecht, gefunden, mit heiligem Öl ihn gesalbt",
+          "patr_resp2": "Beständig wird meine Hand ihn halten",
+          "patr_resp3": "Ich gebe euch einen Hirten nach meinem Herzen."
+        },
+        "Vesper": {
+          "ant_ev": "Sie sind heilige Männer: Gott hat sie zu seinen Freunden gemacht, zu ruhmvollen Kündern seiner Wahrheit."
+        }
       },
       "22": {
         "each": {
@@ -3871,11 +3893,28 @@ export const brevierData = {
         "Laudes": {
           "name": "Kathedra Petri"
         },
-        "Lesehore": {},
+        "Lesehore": {
+          "resp0_0": "Herr, zu wem sollen wir gehen?",
+          "resp0_1": "Du hast Worte des ewigen Lebens",
+          "les_buch": "Aus der Apostelgeschichte.",
+          "les_stelle": "11,1-18",
+          "les_text": "^hGott hat auch den Heiden die Umkehr zum Leben geschenkt^pDie Apostel und die Brüder in Judäa erfuhren, dass auch die Heiden das Wort Gottes angenommen hatten. Als nun Petrus nach Jerusalem hinaufkam, hielten ihm die gläubig gewordenen Juden vor: Du bist bei Unbeschnittenen eingekehrt und hast mit ihnen gegessen.^pDa begann Petrus, ihnen der Reihe nach zu berichten: Ich war in der Stadt Joppe und betete; da hatte ich in einer Verzückung eine Vision: Eine Art Schale senkte sich wie ein großes Leinentuch herab, das an den vier Ecken aus dem Himmel bis zu mir herabgelassen wurde. Als ich genauer hinschaute, sah ich darin die Vierfüßler der Erde, die wilden Tiere, die Kriechtiere und die Vögel des Himmels. Ich hörte auch eine Stimme, die zu mir sagte: Steh auf, Petrus, schlachte und iss! Ich antwortete: Niemals, Herr! Noch nie ist etwas Unheiliges oder Unreines in meinen Mund gekommen. Doch zum zweiten Mal kam eine Stimme vom Himmel; sie sagte: Was Gott für rein erklärt hat, nenne du nicht unrein! Das geschah dreimal, dann wurde alles wieder in den Himmel hinaufgezogen. Da standen auf einmal drei Männer vor dem Haus, in dem ich wohnte; sie waren aus Cäsarea zu mir geschickt worden. Der Geist aber sagte mir, ich sollte ohne Bedenken mit ihnen gehen. Auch diese sechs Brüder zogen mit mir, und wir kamen in das Haus jenes Mannes. Er erzählte uns, wie er in seinem Haus den Engel stehen sah, der zu ihm sagte: Schick jemand nach Joppe und lass Simon, der Petrus genannt wird, holen. Er wird dir Worte sagen, durch die du mit deinem ganzen Haus gerettet werden wirst. Während ich redete, kam der Heilige Geist auf sie herab, wie am Anfang auf uns. Da erinnerte ich mich an das Wort des Herrn: Johannes hat mit Wasser getauft, ihr aber werdet mit dem Heiligen Geist getauft werden. Wenn nun Gott ihnen, nachdem sie zum Glauben an Jesus Christus, den Herrn, gekommen sind, die gleiche Gabe verliehen hat wie uns: wer bin ich, dass ich Gott hindern könnte? Als sie das hörten, beruhigten sie sich, priesen Gott und sagten: Gott hat also auch den Heiden die Umkehr zum Leben geschenkt.",
+          "resp1_1": "Ich habe für dich gebetet, Petrus, damit dein Glaube nicht erlischt",
+          "resp1_2": "du aber stärke deine Brüder",
+          "resp1_3": "Nicht Fleisch und Blut hat dir das offenbart, sondern mein Vater im Himmel.",
+          "patr_autor": "Leo der Große († 406)",
+          "patr_werk": "Aus einer Predigt an seinem Weihetag",
+          "patr_text": "^hDie Kirche Christi ist auf den festen Glauben des Petrus gebaut^pAus der ganzen Welt wird der eine Petrus erwählt, um allen Völkern, die berufen werden, allen Aposteln und sämtlichen Vätern der Kirche vorzustehen. Obwohl es in der Kirche viele Priester und Hirten gibt, leitet doch Petrus sie alle, deren Haupt und König Christus ist. Meine Lieben, Gott hat diesem Mann in seiner Gnade eine große und wunderbare Teilhabe an seiner Macht verliehen. Wenn Gott den übrigen Häuptern etwas gemeinsam mit Petrus verleihen wollte, versagte er es ihnen zwar nicht, gab es ihnen aber durch Petrus.^pAlle Apostel fragt der Herr, was die Menschen von ihm dächten, und sie geben ihre Antwort gemeinsam, solange sie sich auf die menschliche Unwissenheit mit ihrem Schwanken bezieht. Sobald nach dem gefragt wird, was die Jünger selbst denken, legt der erst Zeugnis ab für den Herrn, der in der apostolischen Würde der erste ist. Er sagt: „Du bist der Messias, der Sohn des lebendigen Gottes.“ Jesus erwidert: „Selig bist du, Simon Barjona; denn nicht Fleisch und Blut haben dir das offenbart, sondern mein Vater im Himmel.“ {1#Mt 16,16.17.} Das heißt: Darum bist du selig, weil dich mein Vater gelehrt hat, weil keine menschliche Meinung dich täuschen konnte, sondern Eingebung vom Himmel dich unterrichtete. Nicht Fleisch und Blut hat mich dir geoffenbart, sondern er, dessen eingeborener Sohn ich bin.^pDann spricht er: „Ich aber sage dir!“ {2#Mt 16,18.} Das heißt: Wie mein Vater dir meine Gottheit geoffenbart hat, so verkünde ich dir deine Vorzugsstellung: „Du bist Petrus!“ Das heißt: Ich bin der unzerstörbare Fels, der „Schlussstein“ {3#Vgl. Eph 2,20.14.}, der beide (Juden und Heiden) vereint {4#1 Kor 3,11.}, das Fundament, außer dem kein anderes gelegt werden kann. Dennoch bist auch du Fels, weil du durch meine Kraft gestärkt wirst und mit mir durch Teilnahme gemeinsam haben darfst, was für mich eigene Vollmacht ist.^pAuf diesen Felsen werde ich meine Kirche bauen, und die Mächte der Unterwelt werden sie nicht überwältigen.“ {5#Mt 16,18.} Er will sagen: Auf diese Kraft werde ich den ewigen Tempel errichten, und auf der Festigkeit dieses Glaubens wird sich der erhabene Bau meiner Kirche erheben und bis in den Himmel hineinragen.",
+          "patr_resp1": "Simon Petrus, schon bevor ich dich von deinem Boot wegrief, kannte ich dich und bestimmte dich zum Haupt meines Volkes.",
+          "patr_resp2": "Ich gab dir die Schlüssel des Himmelreichs.",
+          "patr_resp3": "Was du auf Erden bindest, ist auch im Himmel gebunden; was du auf Erden lösest, ist auch im Himmel gelöst."
+        },
         "Non": {},
         "Sext": {},
         "Terz": {},
-        "Vesper": {}
+        "Vesper": {
+          "ant_ev": "Du bist der Hirt der Herde, der Erste der Apostel. Dir wurden die Schlüssel des Himmelreiches übergeben."
+        }
       },
       "23": {
         "Invitatorium": {},
@@ -3900,19 +3939,31 @@ export const brevierData = {
       },
       "24": {
         "each": {
-          "comm_1": "Mar",
-          "oration": "eig-2-24-each-Oration"
+          "comm_1": "Apostel",
+          "oration": "Gott, du kennst die Herzen aller Menschen; du hast es gefügt, dass der heilige Matthias zum Kollegium der Apostel hinzugewählt wurde. Deine Liebe lenke auch unseren Weg und reihe uns ein in die Schar deiner Auserwählten. Darum bitten wir durch Jesus Christus."
         },
-        "Invitatorium": {},
         "Laudes": {
           "name": "Hl. Matthias",
-          "farbe": "r"
+          "farbe": "r",
+          "hymn_1": 82221.0,
+          "ant_ev": "Einer von den Männern, die mit uns zusammen waren in der Zeit, als der Herr Jesus bei uns ein und aus ging – einer von diesen muss mit uns Zeuge für seine Auferstehung sein."
         },
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
-        "Vesper": {}
+        "Lesehore": {
+          "hymn_1": 71068.0,
+          "resp1_1": "Wenn ihr vor Statthalter und Könige geführt werdet, macht euch keine Sorge, was ihr reden sollt.",
+          "resp1_2": "Es wird euch in jener Stunde eingegeben, was ihr sagen sollt",
+          "resp1_3": "Denn nicht ihr werdet dann reden, sondern der Geist eures Vaters wird durch euch reden.",
+          "patr_autor": "Johannes Chrysostomus († 407)",
+          "patr_werk": "Zur Apostelgeschichte",
+          "patr_text": "^hHerr, zeige, wen du erwählt hast^p„Damals erhob sich Petrus im Kreis der Brüder.“ {1#Apg 1,15.} – Voll Eifer, weil Christus ihm die Herde anvertraut hat, ergreift der Sprecher der Apostel immer zuerst das Wort: Brüder, einer von uns muss gewählt werden. Er lässt die Menge entscheiden. Dadurch stärkt er das Ansehen des zu Erwählenden und entzieht sich selbst der Anfeindung durch die anderen; so etwas ist nämlich immer die Quelle großen Übels … Konnte Petrus nicht selbst die Wahl treffen? Aber doch! Doch tut er es nicht, um den Anschein der Begünstigung zu vermeiden. Andererseits hatte er auch den Heiligen Geist noch nicht. Weiter heißt es: „Sie stellten zwei Männer auf, Josef, genannt Barsabbas, mit dem Beinamen Justus, und Matthias.“ {2#Apg 1,23.} Nicht Petrus stellte sie auf, sondern alle zusammen. Den Vorschlag brachte er selbst ein, zeigte aber, dass es nicht sein Einfall war, sondern von oben kam und auf einem Prophetenwort beruhte. So war er nur dessen Dolmetscher, nicht Lehrer in eigener Vollmacht. „Einer von den Männern, die mit uns zusammen waren“, muss es sein, sagt er. Achte darauf: Er will, dass es Augenzeugen sind. Zwar stand die Ankunft des Heiligen Geistes bevor, es war ihnen aber immer an der Augenzeugenschaft gelegen.^pEr sagt: „Einer von den Männern, die die ganze Zeit mit uns zusammen waren, als Jesus, der Herr, bei uns ein und aus ging“ {3#Apg 1,21.}. Er weist darauf hin, dass sie mit ihm zusammen gewohnt haben und nicht nur einfach als Jünger bei ihm waren. Denn anfangs folgten ihm viele. Beachte, wie Johannes das mit Worten klarmacht: „Er (Andreas) war einer der beiden, die das Wort des Johannes gehört hatten und Jesus gefolgt waren.“ {4#Joh 1,40.}^pEr sagt: „Die ganze Zeit, als Jesus, der Herr, bei uns ein und aus ging, angefangen von der Taufe durch Johannes“. Denn was vorlag, wusste niemand aus Erfahrung; sie wurden darüber vielmehr durch den Heiligen Geist belehrt.^pEr fährt fort: „Bis zu dem Tag, an dem er von uns ging und (in den Himmel) aufgenommen wurde“, muss einer von diesen zusammen mit uns Zeuge seiner Auferstehung sein. Er sagt nicht: Zeuge von diesem oder jenem, sondern: „Zeuge seiner Auferstehung“. Glaubwürdig war nur, wer sagen konnte: Er, der gegessen und getrunken hat und der gekreuzigt wurde, derselbe ist auferstanden. So brauchte er weder Zeuge für die vorhergehende noch für die folgende Zeit zu sein und auch nicht für die Zeichen Jesu. Es ging nur um die Auferstehung. Denn die anderen Ereignisse waren offenkundig und wurden anerkannt. Die Auferstehung dagegen war im Verborgenen vor sich gegangen und nur ihnen bekannt.",
+          "patr_resp1": "Herr, du kennst die Herzen aller; zeige, wen du erwählt hast,",
+          "patr_resp2": "dass er die Stelle dieses Apostelamtes erhalte",
+          "patr_resp3": "Sie gaben ihnen Lose; das Los fiel auf Matthias."
+        },
+        "Vesper": {
+          "hymn_1": 82221.0,
+          "ant_ev": "Nicht ihr habt mich erwählt, sondern ich habe euch erwählt, damit ihr hingeht und Frucht bringt und eure Frucht bleibt."
+        }
       }
     },
     "3": {
@@ -4028,7 +4079,9 @@ export const brevierData = {
         "Non": {},
         "Sext": {},
         "Terz": {},
-        "Vesper": {}
+        "Vesper": {
+          "ant_ev": "In Ewigkeit bleibt das Wort des Herrn, das Evangelium, das euch verkündet worden ist. Halleluja."
+        }
       },
       "27": {
         "each": {
@@ -4076,7 +4129,9 @@ export const brevierData = {
         "Non": {},
         "Sext": {},
         "Terz": {},
-        "Vesper": {}
+        "Vesper": {
+          "ant_ev": "Wenn ihr in mir bleibt und wenn meine Worte in euch bleiben, dann bittet um alles, was ihr wollt: Ihr werdet es erhalten. Halleluja."
+        }
       },
       "26": {
         "each": {
@@ -4131,7 +4186,9 @@ export const brevierData = {
         "Invitatorium": {},
         "Laudes": {},
         "Lesehore": {},
-        "Vesper": {}
+        "Vesper": {
+          "ant_ev": "Die ganze Versammlung schwieg. Und Barnabas und Paulus erzählten, welch große Zeichen und Wunder Gott durch sie getan hatte unter den Heiden.^ö"
+        }
       },
       "13": {
         "each": {
@@ -4178,8 +4235,23 @@ export const brevierData = {
       },
       "29": {
         "each": {
-          "comm_1": "Mar",
+          "comm_1": "Apostel",
           "oration": "eig-6-29-each-Oration"
+        },
+        "ErsteV": {
+          "ant_1": "Petrus bekannte und sagte: Du bist der Messias, der Sohn des lebendigen Gottes. Jesus sprach zu ihm: Selig bist du, Simon Petrus.",
+          "ant_2": "Du bist Petrus, und auf diesen Felsen will ich meine Kirche bauen. Und die Mächte der Unterwelt werden sie nicht überwältigen.",
+          "ant_3": "Heiliger Apostel Paulus, auserwähltes Werkzeug des Herrn, Verkünder der Wahrheit in der ganzen Welt!",
+          "les_buch": "Röm",
+          "les_stelle": "1,1–2.7",
+          "les_text": "Paulus, Knecht Christi Jesu, berufen zum Apostel, auserwählt, das Evangelium Gottes zu verkündigen, das er durch seine Propheten im Voraus verheißen hat in den heiligen Schriften, an alle in Rom, die von Gott geliebt sind, die berufenen Heiligen: Gnade sei mit euch und Friede von Gott, unserem Vater, und dem Herrn Jesus Christus.",
+          "resp1_1": "Mit Macht bezeugten die Apostel die Auferstehung Jesu,",
+          "resp1_2": "und reiche Gnade ruhte auf ihnen.",
+          "resp1_3": "Vom Geiste erfüllt, verkündeten sie mit Freimut die Taten des Herrn.",
+          "ant_ev": "Petrus und Paulus, einander zugetan im Leben, emp­fingen im Tod gemeinsam die Krone der Herrlichkeit.",
+          "bitten_e": "Lasst uns beten zu Christus, der seine Kirche auf das Fundament der Apostel gegründet hat:",
+          "bitten_r": "Herr, komm deinem Volk zu Hilfe.",
+          "bitten": "Du hast Simon Petrus in deine Nachfolge berufen und ihm aufgetragen, die Brüder zu stärken;^qsei mit Papst N., der in der Kirche das Amt des Petrus verwaltet.^pDu hast dem Sturm geboten, damit das Schiff der Jünger nicht unterging;^qbewahre deine Kirche vor jeder Verwirrung.^pNach deiner Auferstehung hast du die versprengte Herde um Petrus gesammelt;^qführe dein Volk zur Einheit zusammen.^pDu hast den Apostel Paulus gesandt, die Heiden zu deinen Jüngern zu machen;^qgib, dass das Wort vom Heil allen Geschöpfen verkündet wird.^pDu hast am heutigen Tag Petrus und Paulus die Krone des Lebens verliehen;^qgib ewiges Leben allen, die im Glauben deiner Apostel gestorben sind."
         },
         "Invitatorium": {},
         "Laudes": {},
@@ -4187,7 +4259,19 @@ export const brevierData = {
         "Non": {},
         "Sext": {},
         "Terz": {},
-        "Vesper": {}
+        "Vesper": {
+          "hymn_1": 86294.0,
+          "les_buch": "1 Kor",
+          "les_stelle": "15,3–5.8a",
+          "les_text": "Vor allem habe ich euch überliefert, was auch ich empfangen habe: Christus ist für unsere Sünden gestorben, gemäß der Schrift, und ist begraben worden. Er ist am dritten Tag auferweckt worden, gemäß der Schrift, und erschien dem Kephas, dann den Zwölf. Als Letztem von allen erschien er auch mir.",
+          "resp1_1": "Mit Macht bezeugten die Apostel die Auferstehung Jesu,",
+          "resp1_2": "und reiche Gnade ruhte auf ihnen.",
+          "resp1_3": "Vom Geiste erfüllt, verkündeten sie mit Freimut die Taten des Herrn.",
+          "ant_ev": "Petrus, der Apostel, und Paulus, der Lehrer der Völker, sie haben uns dein Gesetz gelehrt, o Herr.",
+          "bitten_e": "Lasst uns beten zu Christus, der seine Kirche auf das Fundament der Apostel gegründet hat:",
+          "bitten_r": "Herr, komm deinem Volk zu Hilfe.",
+          "bitten": "Du hast Simon Petrus in deine Nachfolge berufen und ihm aufgetragen, die Brüder zu stärken;^qsei mit Papst N., der in der Kirche das Amt des Petrus verwaltet.^pDu hast dem Sturm geboten, damit das Schiff der Jünger nicht unterging;^qbewahre deine Kirche vor jeder Verwirrung.^pNach deiner Auferstehung hast du die versprengte Herde um Petrus gesammelt;^qführe dein Volk zur Einheit zusammen.^pDu hast den Apostel Paulus gesandt, die Heiden zu deinen Jüngern zu machen;^qgib, dass das Wort vom Heil allen Geschöpfen verkündet wird.^pDu hast am heutigen Tag Petrus und Paulus die Krone des Lebens verliehen;^qgib ewiges Leben allen, die im Glauben deiner Apostel gestorben sind."
+        }
       }
     },
     "7": {
@@ -4215,7 +4299,9 @@ export const brevierData = {
         "Non": {},
         "Sext": {},
         "Terz": {},
-        "Vesper": {}
+        "Vesper": {
+          "ant_ev": "Meine Finger legte ich in seine Wunden und meine Hand in seine Seite, und ich rief: Mein Herr und mein Gott."
+        }
       },
       "11": {
         "each": {
@@ -4277,7 +4363,9 @@ export const brevierData = {
         "Non": {},
         "Sext": {},
         "Terz": {},
-        "Vesper": {}
+        "Vesper": {
+          "ant_ev": "Wer bei euch groß sein will, soll euer Diener sein; und wer bei euch der Erste sein will, der sei der Sklave aller."
+        }
       },
       "26": {
         "each": {
@@ -4461,7 +4549,9 @@ export const brevierData = {
         "Non": {},
         "Sext": {},
         "Terz": {},
-        "Vesper": {}
+        "Vesper": {
+          "ant_ev": "Wenn die Welt neu geschaffen wird und der Menschensohn sich auf den Thron der Herrlichkeit setzt, werdet auch ihr auf zwölf Thronen sitzen und die zwölf Stämme Israels richten."
+        }
       },
       "27": {
         "each": {
@@ -4579,7 +4669,9 @@ export const brevierData = {
         "Non": {},
         "Sext": {},
         "Terz": {},
-        "Vesper": {}
+        "Vesper": {
+          "ant_ev": "Barmherzigkeit will ich, nicht Opfer: Ich bin gekommen, die Sünder zu berufen, nicht die Gerechten."
+        }
       },
       "23": {
         "each": {
@@ -4710,7 +4802,9 @@ export const brevierData = {
         "Non": {},
         "Sext": {},
         "Terz": {},
-        "Vesper": {}
+        "Vesper": {
+          "ant_ev": "In seinem heiligen Bericht hat Lukas uns Christi Güte und Erbarmen bezeugt. Darum preist ihn heute die ganze Kirche."
+        }
       },
       "28": {
         "each": {
@@ -4723,7 +4817,9 @@ export const brevierData = {
         "Non": {},
         "Sext": {},
         "Terz": {},
-        "Vesper": {}
+        "Vesper": {
+          "ant_ev": "Wenn die Welt neu geschaffen wird und der Menschensohn sich auf den Thron der Herrlichkeit setzt, werdet auch ihr auf zwölf Thronen sitzen und die zwölf Stämme Israels richten."
+        }
       }
     },
     "11": {
@@ -4870,7 +4966,9 @@ export const brevierData = {
         "Non": {},
         "Sext": {},
         "Terz": {},
-        "Vesper": {}
+        "Vesper": {
+          "ant_ev": "Andreas, Diener Christi und Gottes würdiger Apostel, Bruder des Petrus und sein Gefährte im Leiden!"
+        }
       }
     },
     "12": {

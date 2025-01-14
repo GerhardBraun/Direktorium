@@ -359,7 +359,7 @@ export function processBrevierData(liturgicalInfo) {
             if (rankData) mergeData(rankData, 'eig');
 
             // Texte für Hochfeste und Christusfeste am Sonntag
-            if (rank_date > 3 && dayOfWeek === "0") {
+            if (rank_date > 3 && dayOfWeek === 0) {
                 const sundayData = brevierData?.[rank_date]?.['each']?.['0'];
                 if (sundayData) mergeData(sundayData, 'eig');
             };

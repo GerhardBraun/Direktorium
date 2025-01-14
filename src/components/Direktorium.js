@@ -1088,6 +1088,7 @@ const BackButton = ({ onClick }) => (
         className="w-full p-2 mb-1 rounded-sm bg-gray-100 dark:bg-gray-800 
                  hover:bg-gray-200 dark:hover:bg-gray-700 
                  text-gray-900 dark:text-gray-100 text-left"
+        style={{ color: rubricColor }}
     >
         ← zurück zur Stundengebetauswahl
     </button>
@@ -1115,7 +1116,7 @@ const PrayerTextDisplay = ({
     // Get value from sources in priority order: prefSrc -> prefComm1/prefComm2 -> wt
     const getValue = (field) => {
         // 1. Prüfe zuerst prefSrc
-        if ((field.startsWith('hymn_') && field !== 'hymn_1') &&
+        if ((field === 'hymn_kl' || field === 'hymn_nacht') &&
             (texts[hour]?.[prefSrc]?.['hymn_1']
                 || (localPrefComm === 1 && texts[hour]?.[prefComm1]?.['hymn_1'])
                 || (localPrefComm === 2 && texts[hour]?.[prefComm2]?.['hymn_1'])
@@ -1267,7 +1268,9 @@ const PrayerTextDisplay = ({
             .replace(/\^r(.*?)\^0r/g, (_, content) => `<span style={{ color: rubricColor }}>${content}</span>`)
             .replace(/\^v(.*?)\^0v/g, '$1')
             .replace(/\^\(/g, `<span style={{ color: rubricColor }}>(</span>`)
-            .replace(/\^\)/g, `<span style={{ color: rubricColor }}>)</span>`);
+            .replace(/\^\)/g, `<span style={{ color: rubricColor }}>)</span>`)
+            .replace(/}/g, ')')  // Ersetzt } durch )
+            .replace(/\{(\d{1,2})#/g, '(');  // Ersetzt {00# durch (, wobei 00 eine ein- oder zweistellige Zahl ist
     };
 
     const formatPrayerParagraph = (text) => {

@@ -57,14 +57,6 @@ const formatBibleRef = (text) => {
                 currentText = ',';
                 break;
 
-            case '.':
-                if (!inVerseSection) {
-                    // Fehler: Punkt außerhalb eines Vers-Abschnitts
-                    return originalText;
-                }
-                currentText += '.';
-                break;
-
             case ';':
                 if (!inVerseSection) {
                     // Fehler: Semikolon außerhalb eines Vers-Abschnitts
