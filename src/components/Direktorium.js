@@ -972,7 +972,6 @@ const PrayerMenu = ({ title, onSelectHour, setViewMode,
     const [liturgicalInfo, setLiturgicalInfo] = useState(null);
     const [prayerTexts, setPrayerTexts] = useState(null);  // Neuer State für die Gebetstext-Daten
 
-    // In PrayerMenu:
     useEffect(() => {
         const info = getLiturgicalInfo(selectedDate);
         setLiturgicalInfo(info);
@@ -1098,10 +1097,11 @@ const BackButton = ({ onClick }) => (
 // Prayer Text Display Component
 const PrayerTextDisplay = ({
     hour, texts, season, onBack, onUpdateTexts,
-    prefSrc, prefComm1, prefComm2, onSourceSelect
+    prefSrc, prefComm1, prefComm2, onSourceSelect, onSelectHour
 }) => {
     const [localPrefComm, setLocalPrefComm] = useState(texts?.prefComm || 0);
     const [localPrefLatin, setLocalPrefLatin] = useState(0);
+    const [localPrefContinuous, setLocalPrefContinuous] = useState(0);
 
     if (!hour || !texts || !texts[hour]) {
         return <div className="p-4">Keine Daten verfügbar</div>;
@@ -1112,10 +1112,13 @@ const PrayerTextDisplay = ({
     const rank_wt = texts.rank_wt || 0
     const rank_date = texts.rank_date || 0
 
-    // Get value from sources in priority order: eig -> wt -> com
+
     // Get value from sources in priority order: prefSrc -> prefComm1/prefComm2 -> wt
     const getValue = (field) => {
-        // 1. Prüfe zuerst prefSrc
+
+        // Sonderfall Hymnen: 
+        // klStb und Nacht-Hymnus werden nicht gezeigt, wenn eigener Hymnus vorhanden
+        // oder Commune-Hymnus gewählt ist
         if ((field === 'hymn_kl' || field === 'hymn_nacht') &&
             (texts[hour]?.[prefSrc]?.['hymn_1']
                 || (localPrefComm === 1 && texts[hour]?.[prefComm1]?.['hymn_1'])
@@ -1123,7 +1126,17 @@ const PrayerTextDisplay = ({
             )) {
             return null;
         }
+        //Sonderfall Bahnlesung:
+        if ((hour === 'lesehore') &&
+            (field.startsWith('les_') ||
+                field.startsWith('resp1_') ||
+                field.startsWith('patr_')) &&
+            (localPrefContinuous === 1)
+        ) {
+            return texts[hour]?.['wt']?.[field];
+        }
 
+        // 1. Prüfe zuerst prefSrc
         if (texts[hour][prefSrc]?.[field]) {
             return texts[hour][prefSrc][field];
         }
@@ -1142,7 +1155,6 @@ const PrayerTextDisplay = ({
         if (texts[hour]['wt']?.[field]) {
             return texts[hour]['wt'][field];
         }
-
         return null;
     };
 
@@ -1167,11 +1179,13 @@ const PrayerTextDisplay = ({
     };
 
     // Component for section headers with source indicators
-    const SectionHeader = ({ title, field, latinField }) => {
-        const { hasEig, nameComm1, nameComm2, showSources, showComm2 } = checkSources(field);
+    const SectionHeader = ({ title, field, latinField, askContinuous, askTSN, onSelectHour }) => {
+        const { hasEig, hasWt, nameComm1, nameComm2, showSources, showComm2 } = checkSources(field);
         const hasLatin = latinField && texts[hour]['wt']?.[latinField];
+        const showContinuous = hasEig && hasWt && askContinuous;
+        const showTSN = askTSN && ["terz", "sext", "non"].includes(hour);
 
-        if (!showSources && !hasLatin) {
+        if (!showSources && !hasLatin && !showContinuous && !showTSN) {
             return <h2 className="prayer-heading">{title}</h2>;
         }
 
@@ -1186,6 +1200,25 @@ const PrayerTextDisplay = ({
                     >
                         (dt./lat.)
                     </button>
+                )}
+                {showContinuous && (
+                    <span className="font-normal text-[0.85em]">
+                        <button
+                            onClick={() => setLocalPrefContinuous(0)}
+                            className={`${localPrefContinuous === 0 ? 'underline' : ''}`}
+                            style={{ color: rubricColor }}
+                        >
+                            Eigentext
+                        </button>
+                        {" | "}
+                        <button
+                            onClick={() => setLocalPrefContinuous(1)}
+                            className={`${localPrefContinuous === 1 ? 'underline' : ''}`}
+                            style={{ color: rubricColor }}
+                        >
+                            Bahnlesung
+                        </button>
+                    </span>
                 )}
                 {showSources && (
                     <span className="font-normal text-[0.85em]">
@@ -1218,6 +1251,33 @@ const PrayerTextDisplay = ({
                         </button>
                     </span>
                 )}
+                {showTSN && (
+                    <span className="font-normal text-[0.85em]">
+                        <button
+                            onClick={() => onSelectHour('terz')}
+                            className={`${hour === 'terz' ? 'underline' : ''}`}
+                            style={{ color: rubricColor }}
+                        >
+                            Terz
+                        </button>
+                        {" | "}
+                        <button
+                            onClick={() => onSelectHour('sext')}
+                            className={`${hour === 'sext' ? 'underline' : ''}`}
+                            style={{ color: rubricColor }}
+                        >
+                            Sext
+                        </button>
+                        {" | "}
+                        <button
+                            onClick={() => onSelectHour('non')}
+                            className={`${hour === 'non' ? 'underline' : ''}`}
+                            style={{ color: rubricColor }}
+                        >
+                            Non
+                        </button>
+                    </span>
+                )}
             </h2>
         );
     };
@@ -1237,8 +1297,8 @@ const PrayerTextDisplay = ({
                 </div>
                 {title && <div className="text-[0.9em] text-gray-400 mb-[0.66em]">{title}</div>}
                 {quote && <div className="text-[0.9em] leading-[1.1em] italic text-gray-400 -mt-[0.66em] mb-[0.66em]">{quote}</div>}
-                {text && <div className="whitespace-pre-wrap">{formatPrayerParagraph(text)}</div>}
-                {number !== 160 && <div className="whitespace-pre-wrap">{formatPrayerParagraph(doxology)}</div>}
+                {text && <div className="whitespace-pre-wrap">{formatPrayerText(text)}</div>}
+                {number !== 160 && <div className="whitespace-pre-wrap">{formatPrayerText(doxology)}</div>}
             </div >
         );
     };
@@ -1258,60 +1318,81 @@ const PrayerTextDisplay = ({
 
     // Format prayer text with specified formatting  
     const formatPrayerText = (text) => {
-        if (!text || typeof text !== 'string') return '';
-        return text
-            .replace(/°/g, '\u00A0')
-            .replace(/\^\*/g, '\u00A0*\n')
-            .replace(/\^\+/g, '\u00A0†\n')
-            .replace(/\^l/g, '\n')
-            .replace(/\^ö/g, season === 'o' ? ' Halleluja.' : '')
-            .replace(/\^r(.*?)\^0r/g, (_, content) => `<span style={{ color: rubricColor }}>${content}</span>`)
-            .replace(/\^v(.*?)\^0v/g, '$1')
-            .replace(/\^\(/g, `<span style={{ color: rubricColor }}>(</span>`)
-            .replace(/\^\)/g, `<span style={{ color: rubricColor }}>)</span>`)
-            .replace(/}/g, ')')  // Ersetzt } durch )
-            .replace(/\{(\d{1,2})#/g, '(');  // Ersetzt {00# durch (, wobei 00 eine ein- oder zweistellige Zahl ist
-    };
+        if (!text) return null;
 
-    const formatPrayerParagraph = (text) => {
-        const preparedText = formatPrayerText(text);
-        const paragraphs = preparedText.split(/\^[pqh]/);
-        const formats = preparedText.match(/\^[pqh]/g) || [];
+        // Prüfen, ob der Text Absatz-Tags enthält
+        const hasParagraphTags = /\^[phq]/.test(text);
 
-        // Entferne das erste Element, wenn es leer ist und der Text mit ^ beginnt
-        if (preparedText.startsWith('^') && paragraphs[0] === '') {
-            paragraphs.shift();
+        // Inline-Formatierungen als React-Elemente
+        const processInlineFormats = (text) => {
+            // Basis-Ersetzungen
+            let processedText = text
+                .replace(/°/g, '\u00A0')
+                .replace(/\^\*/g, '\u00A0*\n')
+                .replace(/\^\+/g, '\u00A0†\n')
+                .replace(/\^l/g, '\n')
+                .replace(/\^ö/g, season === 'o' ? ' Halleluja.' : '')
+                .replace(/}/g, ')')
+                .replace(/\{(\d{1,2})#/g, '(');
+
+            // Split text into segments, keeping delimiters
+            const segments = processedText.split(/(\^r.*?\^0r|\^v.*?\^0v|\^\(|\^\))/g);
+
+            return segments.map((segment, index) => {
+                if (segment.startsWith('^r')) {
+                    // Rubrik-Text
+                    const content = segment.substring(2, segment.length - 3);
+                    return <span key={`rubric-${index}`} style={{ color: rubricColor }}>{content}</span>;
+                } else if (segment.startsWith('^v')) {
+                    // Markierter Text (vorerst ohne spezielle Formatierung)
+                    const content = segment.substring(2, segment.length - 3);
+                    return <span key={`marked-${index}`}>{content}</span>;
+                } else if (segment === '^(') {
+                    return <span key={`open-${index}`} style={{ color: rubricColor }}>(</span>;
+                } else if (segment === '^)') {
+                    return <span key={`close-${index}`} style={{ color: rubricColor }}>)</span>;
+                }
+                return segment;
+            });
+        };
+
+        if (!hasParagraphTags) {
+            // Bei Texten ohne Absatz-Tags: Inline-Formatierung zurückgeben
+            return processInlineFormats(text);
         } else {
-            // Füge ^p nur hinzu, wenn der Text nicht mit ^ beginnt
-            formats.unshift('^p');
+            // Bei Texten mit Absatz-Tags: In Absätze aufteilen und formatieren
+            const paragraphs = text.split(/\^[phq]/);
+            const formats = text.match(/\^[phq]/g) || [];
+
+            return paragraphs
+                .filter(paragraph => paragraph.trim().length > 0)
+                .map((paragraph, index) => {
+                    const format = formats[index] || '^p';
+                    const processedContent = processInlineFormats(paragraph);
+
+                    switch (format) {
+                        case '^h':
+                            return (
+                                <div key={index} className="whitespace-pre-wrap font-bold text-[0.9em] mt-2">
+                                    {processedContent}
+                                </div>
+                            );
+                        case '^q':
+                            return (
+                                <div key={index} className="whitespace-pre-wrap flex -mt-[0.66em] mb-[0.66em]">
+                                    <span className="w-[0.8em] flex-shrink-0">–</span>
+                                    <div>{processedContent}</div>
+                                </div>
+                            );
+                        default: // ^p
+                            return (
+                                <div key={index} className="whitespace-pre-wrap mb-[0.66em]">
+                                    {processedContent}
+                                </div>
+                            );
+                    }
+                });
         }
-
-        return paragraphs.map((paragraph, index) => {
-            if (!paragraph.trim()) return null;
-
-            const format = formats[index] || '^p';
-            switch (format) {
-                case '^h':
-                    return (
-                        <div key={index} className="whitespace-pre-wrap font-bold text-[0.9em] mt-2">
-                            <div dangerouslySetInnerHTML={{ __html: paragraph }} />
-                        </div>
-                    );
-                case '^q':
-                    return (
-                        <div key={index} className="whitespace-pre-wrap flex -mt-[0.66em] mb-[0.66em]">
-                            <span className="w-[0.8em] flex-shrink-0">–</span>
-                            <div dangerouslySetInnerHTML={{ __html: paragraph }} />
-                        </div>
-                    );
-                default: // ^p
-                    return (
-                        <div key={index} className="whitespace-pre-wrap mb-[0.66em]">
-                            <div dangerouslySetInnerHTML={{ __html: paragraph }} />
-                        </div>
-                    );
-            }
-        }).filter(Boolean);
     };
 
     const PrayerResponse = ({ resp1_3, resp1_2, rubricColor }) => {
@@ -1355,7 +1436,7 @@ const PrayerTextDisplay = ({
     return (
         <div className="leading-[1.35em]">
             <BackButton onClick={onBack} />
-            <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2">
+            <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6">
                 <SourceSelector
                     prayerTexts={texts}
                     selectedSource={prefSrc}
@@ -1366,17 +1447,22 @@ const PrayerTextDisplay = ({
                 />
                 {getValue('hymn_1') && (
                     <div className="mb-2">
-                        <h2 className="prayer-heading">HYMNUS</h2>
+                        <SectionHeader
+                            title="HYMNUS"
+                            field="hymn_1"
+                            askTSN={true}
+                            onSelectHour={onSelectHour}
+                        />
                         {getValue('hymn_1')?.text && (
                             <div className="mb-4">
-                                {formatPrayerParagraph(getValue('hymn_1').text)}
+                                {formatPrayerText(getValue('hymn_1').text)}
                             </div>
                         )}
                         {getValue('hymn_2')?.text && (
                             <>
                                 <Rubric>Oder:</Rubric>
                                 <div className="mb-4">
-                                    {formatPrayerParagraph(getValue('hymn_2').text)}
+                                    {formatPrayerText(getValue('hymn_2').text)}
                                 </div>
                             </>
                         )}
@@ -1384,7 +1470,7 @@ const PrayerTextDisplay = ({
                             <>
                                 <Rubric>Oder:</Rubric>
                                 <div className="mb-4">
-                                    {formatPrayerParagraph(getValue('hymn_3').text)}
+                                    {formatPrayerText(getValue('hymn_3').text)}
                                 </div>
                             </>
                         )}
@@ -1392,7 +1478,7 @@ const PrayerTextDisplay = ({
                             <>
                                 <Rubric>In der Nacht oder am frühen Morgen:</Rubric>
                                 <div className="mb-4">
-                                    {formatPrayerParagraph(getValue('hymn_nacht').text)}
+                                    {formatPrayerText(getValue('hymn_nacht').text)}
                                 </div>
                             </>
                         )}
@@ -1400,7 +1486,7 @@ const PrayerTextDisplay = ({
                             <>
                                 <Rubric>im Kleinen Stundenbuch:</Rubric>
                                 <div className="">
-                                    {formatPrayerParagraph(getValue('hymn_kl').text)}
+                                    {formatPrayerText(getValue('hymn_kl').text)}
                                 </div>
                             </>
                         )}
@@ -1486,6 +1572,9 @@ const PrayerTextDisplay = ({
                     <SectionHeader
                         title={hour === "lesehore" ? "ERSTE LESUNG" : "KURZLESUNG"}
                         field="les_text"
+                        askContinuous={true}
+                        askTSN={true}
+                        onSelectHour={onSelectHour}
                     />
                     <div>
                         {(hour !== "lesehore") && (
@@ -1496,12 +1585,12 @@ const PrayerTextDisplay = ({
                                 <div className='flex gap-3 items-baseline'>{getValue('les_buch')}
                                     <span className='text-[0.9em] text-gray-400'>{formatBibleRef(getValue('les_stelle'))}</span></div>
                             </>)}
-                        {formatPrayerParagraph(getValue('les_text'))}
+                        {formatPrayerText(getValue('les_text'))}
                     </div>
                 </div>)}
 
                 {getValue('resp1_1') && (
-                    <div className="mb-1">
+                    <div className="mb-1 whitespace-pre-wrap">
                         <SectionHeader title="RESPONSORIUM" field="resp1_1" />
                         {getValue('resp1_0') && getValue('resp1_1') && (
                             <div className="mb-0 flex gap-0">
@@ -1555,17 +1644,19 @@ const PrayerTextDisplay = ({
                         )}
                     </div>)}
 
-                {getValue('patr_text') && (<div className="mb-1">
-                    <SectionHeader
-                        title="ZWEITE LESUNG"
-                        field="patr_text"
-                    />
-                    <div>
-                        <div className='text-[0.9em] italic'> {getValue('patr_autor')}</div>
-                        {getValue('patr_werk')}
-                        {formatPrayerParagraph(getValue('patr_text'))}
-                    </div>
-                </div>)}
+                {getValue('patr_text') && (
+                    <div className="mb-1">
+                        <SectionHeader
+                            title="ZWEITE LESUNG"
+                            field="patr_text"
+                            askContinuous={true}
+                        />
+                        <div>
+                            <div className='text-[0.9em] italic'> {getValue('patr_autor')}</div>
+                            {getValue('patr_werk')}
+                            {formatPrayerText(getValue('patr_text'))}
+                        </div>
+                    </div>)}
 
                 {getValue('patr_resp1') && (
                     <div className="mb-1">
@@ -1609,7 +1700,7 @@ const PrayerTextDisplay = ({
                         )}
                         {getValue('ev') && (
                             <div className="mb-4">
-                                {localPrefLatin === 1 ? formatPrayerParagraph(getValue('ev_lat').text) : formatPsalm(0, '', '', '', getValue('ev').text)}
+                                {localPrefLatin === 1 ? formatPrayerText(getValue('ev_lat').text) : formatPsalm(0, '', '', '', getValue('ev').text)}
                             </div>
                         )}
                         {getValue('ant_ev') && (
@@ -1628,7 +1719,7 @@ const PrayerTextDisplay = ({
                         />
                         {getValue('bitten_e') && (
                             <div className="mb-2">
-                                {formatPrayerParagraph(getValue('bitten_e'))}
+                                {formatPrayerText(getValue('bitten_e'))}
                             </div>
                         )}
                         {getValue('bitten_r') && (
@@ -1639,7 +1730,7 @@ const PrayerTextDisplay = ({
                         )}
                         {getValue('bitten') && (
                             <div className="">
-                                {formatPrayerParagraph(getValue('bitten'))}
+                                {formatPrayerText(getValue('bitten'))}
                             </div>
                         )}
                     </div>)
@@ -1653,8 +1744,8 @@ const PrayerTextDisplay = ({
                             latinField="vu_lat"
                         />
                         {getValue('vu') && (
-                            <div className="mb-4">
-                                {localPrefLatin === 1 ? formatPrayerParagraph(getValue('vu_lat').text) : formatPrayerParagraph(getValue('vu').text)}
+                            <div className="mb-4 whitespace-pre-wrap">
+                                {localPrefLatin === 1 ? formatPrayerText(getValue('vu_lat').text) : formatPrayerText(getValue('vu').text)}
                             </div>
                         )}
 
@@ -1666,7 +1757,7 @@ const PrayerTextDisplay = ({
                         <SectionHeader title="ORATION" field="oration" />
                         {getValue('oration') && (
                             <div className="whitespace-pre-wrap">
-                                {formatPrayerParagraph(getValue('oration'))}
+                                {formatPrayerText(getValue('oration'))}
                             </div>
                         )}
                     </div>)
@@ -1676,7 +1767,7 @@ const PrayerTextDisplay = ({
                     <SectionHeader title="ORATION" field="oration_komplet"
                     />
                     <div>
-                        {formatPrayerParagraph(getValue('oration_komplet'))}
+                        {formatPrayerText(getValue('oration_komplet'))}
                     </div>
                 </div>)}
 
@@ -1689,7 +1780,7 @@ const PrayerTextDisplay = ({
                         />
                         {getValue('marant') && (
                             <div className="mb-4">
-                                {localPrefLatin === 1 ? formatPrayerParagraph(getValue('marant_lat').text) : formatPrayerParagraph(getValue('marant').text)}
+                                {localPrefLatin === 1 ? formatPrayerText(getValue('marant_lat').text) : formatPrayerText(getValue('marant').text)}
                             </div>
                         )}
 
@@ -1739,8 +1830,8 @@ export default function LiturgicalCalendar() {
         return savedTheme || 'light';
     });
     const [prefSrc, setPrefSrc] = useState('eig');
-    const [prefComm1, setPrefComm1] = useState(null);
-    const [prefComm2, setPrefComm2] = useState(null);
+    const [prefComm1, setPrefComm1] = useState('com1');
+    const [prefComm2, setPrefComm2] = useState('com2');
     const [selectedHour, setSelectedHour] = useState(null);
     const [prayerTexts, setPrayerTexts] = useState(null);
     const [expandedDeceased, setExpandedDeceased] = useState({});
@@ -2493,92 +2584,99 @@ export default function LiturgicalCalendar() {
                     style={navStyle}
                     role="navigation"
                 >
-                    <div className="flex items-center gap-2 px-4 py-4 overflow-x-auto sm:overflow-visible">
+                    <div className="flex items-center gap-2 px-4 py-2 overflow-x-auto sm:overflow-visible">
                         <ThemeMenu />
 
                         <div className="flex items-center gap-2 flex-1 min-w-0">
-                            <button
-                                onClick={handlePrevWeek}
-                                className="shrink-0 px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
-                                title="1 Woche zurück"
-                            >
-                                «
-                            </button>
-                            <button
-                                onClick={handleToday}
-                                className="shrink-0 px-4 py-2 bg-orange-100 dark:bg-yellow-400/60 hover:bg-orange-200 dark:hover:bg-yellow-400/70 rounded"
-                            >
-                                Heute
-                            </button>
+                            {viewMode !== 'prayerText' && (
+                                <>
+                                    <button
+                                        onClick={handlePrevWeek}
+                                        className="shrink-0 px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
+                                        title="1 Woche zurück"
+                                    >
+                                        «
+                                    </button>
+                                    <button
+                                        onClick={handleToday}
+                                        className="shrink-0 px-4 py-2 bg-orange-100 dark:bg-yellow-400/60 hover:bg-orange-200 dark:hover:bg-yellow-400/70 rounded"
+                                    >
+                                        Heute
+                                    </button>
 
-                            <div className="relative flex-1 min-w-0">
-                                <input
-                                    type="text"
-                                    value={inputValue}
-                                    onChange={(e) => {
-                                        setInputValue(e.target.value);
-                                        if (e.target.value.length >= 6) {
-                                            const date = parseDateString(e.target.value);
-                                            if (date) {
-                                                handleDateSelect(date);
-                                            }
-                                        }
-                                    }}
-                                    onClick={(e) => {
-                                        e.target.select();
-                                        setShowDatePicker(!showDatePicker);
-                                    }}
-                                    onKeyDown={(e) => {
-                                        if (e.key === 'Enter' && e.target.value.length >= 6) {
-                                            const date = parseDateString(e.target.value);
-                                            if (date) {
-                                                handleDateSelect(date);
-                                                setShowDatePicker(false);
-                                            }
-                                        } else if (e.key === 'Escape') {
-                                            setShowDatePicker(false);
-                                            setInputValue(formatDate(selectedDate, true));
-                                        }
-                                    }}
-                                    onBlur={() => {
-                                        const date = parseDateString(inputValue);
-                                        if (!date) {
-                                            setInputValue(formatDate(selectedDate, true));
-                                        }
-                                    }}
-                                    className="w-full px-4 py-2 border dark:border-gray-700 rounded hover:bg-gray-50 dark:hover:bg-gray-800 
-                    cursor-pointer bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100"
-                                    placeholder="TT.MM.JJ"
-                                />
-                                <svg
-                                    className="w-4 h-4 absolute right-3 top-1/2 transform -translate-y-1/2 pointer-events-none"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    viewBox="0 0 24 24"
+                                    <div className="relative flex-1 min-w-0">
+                                        <input
+                                            type="text"
+                                            value={inputValue}
+                                            onChange={(e) => {
+                                                setInputValue(e.target.value);
+                                                if (e.target.value.length >= 6) {
+                                                    const date = parseDateString(e.target.value);
+                                                    if (date) {
+                                                        handleDateSelect(date);
+                                                    }
+                                                }
+                                            }}
+                                            onClick={(e) => {
+                                                e.target.select();
+                                                setShowDatePicker(!showDatePicker);
+                                            }}
+                                            onKeyDown={(e) => {
+                                                if (e.key === 'Enter' && e.target.value.length >= 6) {
+                                                    const date = parseDateString(e.target.value);
+                                                    if (date) {
+                                                        handleDateSelect(date);
+                                                        setShowDatePicker(false);
+                                                    }
+                                                } else if (e.key === 'Escape') {
+                                                    setShowDatePicker(false);
+                                                    setInputValue(formatDate(selectedDate, true));
+                                                }
+                                            }}
+                                            onBlur={() => {
+                                                const date = parseDateString(inputValue);
+                                                if (!date) {
+                                                    setInputValue(formatDate(selectedDate, true));
+                                                }
+                                            }}
+                                            className="w-full px-4 py-2 border dark:border-gray-700 rounded hover:bg-gray-50 dark:hover:bg-gray-800 
+                        cursor-pointer bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100"
+                                            placeholder="TT.MM.JJ"
+                                        />
+                                        <svg
+                                            className="w-4 h-4 absolute right-3 top-1/2 transform -translate-y-1/2 pointer-events-none"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            viewBox="0 0 24 24"
+                                        >
+                                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                                            <line x1="16" y1="2" x2="16" y2="6" />
+                                            <line x1="8" y1="2" x2="8" y2="6" />
+                                            <line x1="3" y1="10" x2="21" y2="10" />
+                                        </svg>
+                                        {showDatePicker && <DatePicker />}
+                                    </div>
+
+                                    <button
+                                        onClick={handleNextWeek}
+                                        className="shrink-0 px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
+                                        title="1 Woche vor"
+                                    >
+                                        »
+                                    </button>
+                                </>
+                            )}
+
+                            {/* StB Button ist immer sichtbar */}
+                            <div className={viewMode === 'prayerText' ? 'flex-1 flex justify-end' : ''}>
+                                <button
+                                    onClick={() => setViewMode('prayer')}
+                                    className="shrink-0 px-4 py-2 bg-orange-100 dark:bg-yellow-400/60 hover:bg-orange-200 dark:hover:bg-yellow-400/70 rounded"
+                                    title="Stundengebet"
                                 >
-                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
-                                    <line x1="16" y1="2" x2="16" y2="6" />
-                                    <line x1="8" y1="2" x2="8" y2="6" />
-                                    <line x1="3" y1="10" x2="21" y2="10" />
-                                </svg>
-                                {showDatePicker && <DatePicker />}
+                                    StB
+                                </button>
                             </div>
-
-                            <button
-                                onClick={handleNextWeek}
-                                className="shrink-0 px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
-                                title="1 Woche vor"
-                            >
-                                »
-                            </button>
-
-                            <button
-                                onClick={() => setViewMode('prayer')}
-                                className="shrink-0 px-4 py-2 bg-orange-100 dark:bg-yellow-400/60 hover:bg-orange-200 dark:hover:bg-yellow-400/70 rounded"
-                                title="Stundengebet"
-                            >
-                                StB
-                            </button>
                         </div>
                     </div>
                 </div>
@@ -2629,7 +2727,10 @@ export default function LiturgicalCalendar() {
                                 setPrefComm2(newPrefComm2);
                             }}
                             onBack={() => setViewMode('prayer')}
-                        />
+                            onSelectHour={(hour) => {  // Neue Prop
+                                setSelectedHour(hour);
+                                setPrayerTexts(prayerTexts);
+                            }} />
                     )}
 
                     {/* Original ScrollableContainer for directory/deceased views */}

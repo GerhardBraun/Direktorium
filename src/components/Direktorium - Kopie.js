@@ -932,71 +932,64 @@ const getDayName = (date) => {
 const formatLiturgicalInfo = (info, date) => {
     if (!info) return '';
     const dayName = getDayName(date);
+
+    // Spezielle Behandlung für die Aschermittwochswoche (0. Fastenwoche)
+    if (info.season === LiturgicalSeason.LENT && info.week === 0) {
+        if (date.getDay() === 3) {  // Mittwoch
+            return "Aschermittwoch";
+        } else if (date.getDay() > 3) {  // Donnerstag, Freitag, Samstag
+            return `${dayName} nach Aschermittwoch`;
+        }
+    }
+
+    // Spezielle Formatierung für Sonntage
+    if (date.getDay() === 0) {
+        switch (info.season) {
+            case LiturgicalSeason.ADVENT:
+                return `${info.week}. Adventssonntag`;
+            case LiturgicalSeason.CHRISTMAS:
+                return `${info.week}. Sonntag nach Weihnachten`;
+            case LiturgicalSeason.ORDINARY_TIME:
+                return `${info.week}. Sonntag im Jahreskreis`;
+            case LiturgicalSeason.LENT:
+                return `${info.week}. Fastensonntag`;
+            case LiturgicalSeason.EASTER:
+                return `${info.week}. Sonntag der Osterzeit`;
+            default:
+                return '';
+        }
+    }
+
+    // Reguläre Formatierung für andere Wochentage
     return `${dayName} der ${info.week}. ${getSeasonName(info.season)}`;
 };
 
 // Prayer Menu Component
-const PrayerMenu = ({ title, onSelectHour, setViewMode, onPrevDay, onNextDay, selectedDate }) => {
+const PrayerMenu = ({ title, onSelectHour, setViewMode,
+    onPrevDay, onNextDay, selectedDate,
+    prefSrc, prefComm1, prefComm2, onSourceSelect
+}) => {
     const [liturgicalInfo, setLiturgicalInfo] = useState(null);
     const [prayerTexts, setPrayerTexts] = useState(null);  // Neuer State für die Gebetstext-Daten
-    const [prefSrc, setPrefSrc] = useState('eig');
-    const [prefComm1, setPrefComm1] = useState('com1');
-    const [prefComm2, setPrefComm2] = useState('com2');
 
+    // In PrayerMenu:
     useEffect(() => {
         const info = getLiturgicalInfo(selectedDate);
         setLiturgicalInfo(info);
-        setPrefSrc('eig');
-        setPrefComm1('com1');
-        setPrefComm2('com2');
 
-        // Verarbeite die Gebetsdaten
         if (info) {
             const processedData = processBrevierData({
                 season: info.season,
                 week: info.week,
                 dayOfWeek: selectedDate.getDay(),
-                selectedDate: selectedDate
+                selectedDate: selectedDate,
+                prefSrc,    // Nutze die Props direkt
+                prefComm1,
+                prefComm2
             });
             setPrayerTexts(processedData);
         }
-    }, [selectedDate]);
-
-    // Helper function to check if a source has valid data
-    const hasValidSource = (source) => {
-        return prayerTexts?.laudes?.[source]?.oration;
-    };
-
-    // Helper function to get button color based on source color
-    const getButtonColor = (source) => {
-        const color = prayerTexts?.laudes?.[source]?.color;
-        return color?.startsWith('r')
-            ? 'bg-red-600 text-white hover:bg-red-700'
-            : 'bg-white text-gray-900 hover:bg-gray-100';
-    };
-
-    // Function to handle source selection
-    const handleSourceSelect = (source) => {
-        // Neue Präferenzen setzen
-        const newPrefSrc = (source === 'wt') ? 'eig' : source;
-        const newPrefComm1 = (source === 'eig' || source === 'wt') ? 'com1' : `${source}com1`;
-        const newPrefComm2 = (source === 'eig' || source === 'wt') ? 'com2' : `${source}com2`;
-        setPrefSrc(newPrefSrc);
-        setPrefComm1(newPrefComm1);
-        setPrefComm2(newPrefComm2);
-        console.log('SourceSelect: ', newPrefSrc, newPrefComm1, newPrefComm2)
-        // Aktualisiertes prayerTexts-Objekt erstellen
-        const updatedPrayerTexts = {
-            ...prayerTexts,
-            prefSrc: source,
-            prefComm1: newPrefComm1,
-            prefComm2: newPrefComm2,
-            localPrefComm: 0
-        };
-
-        // Aktualisierte Daten im parent speichern
-        setPrayerTexts(updatedPrayerTexts);
-    };
+    }, [selectedDate, prefSrc, prefComm1, prefComm2]); // Dependencies aktualisiert
 
     return (
         <div className="flex flex-col p-4 bg-white dark:bg-gray-900">
@@ -1028,48 +1021,15 @@ const PrayerMenu = ({ title, onSelectHour, setViewMode, onPrevDay, onNextDay, se
                 </button>
             </div>
 
-            {/* Bezeichnung Hochfest/Fest/Gedenktag */}
-            {hasValidSource('eig') && (
-                <div className="text-center text-[1.1em] font-bold text-gray-900 dark:text-gray-100" >
-                    {prayerTexts?.laudes?.eig?.name || "Hochfest/Fest/Gedenktag"}
-                </div>
-            )}
-            {prayerTexts?.laudes?.wt?.name && !hasValidSource('eig') && (
-                <div className="text-center text-xl font-bold text-gray-900 dark:text-gray-100" >
-                    {prayerTexts.laudes.wt.name}
-                </div>
-            )}
-            {/* Weekday Button */}
-            {prayerTexts?.rank_wt < 3 && hasValidSource('n1') && !hasValidSource('eig') && (
-                <button
-                    onClick={() => handleSourceSelect('wt')}
-                    className={`w-full p-1 mb-1 text-center rounded-lg
-                        bg-green-600 text-white hover:bg-green-700
-                        ${prefSrc === 'eig' ? 'ring-2 ring-yellow-500' : ''}`}
-                >
-                    Vom Wochentag
-                </button>
-            )}
-            {/* Saint Selection Buttons */}
-            {prayerTexts?.rank_wt < 3 && hasValidSource('n1') && (
-                <div className="space-y-1 mb-4">
-                    {['eig', 'n1', 'n2', 'n3', 'n4', 'n5'].map(source => {
-                        if (!hasValidSource(source)) return null;
-
-                        return (
-                            <button
-                                key={source}
-                                onClick={() => handleSourceSelect(source)}
-                                className={`w-full p-1 text-center rounded-lg 
-                                    ${getButtonColor(source)}
-                                    ${prefSrc === source ? 'ring-2 ring-yellow-500' : ''}`}
-                            >
-                                {prayerTexts.laudes[source].name || "ein Heiliger"}
-                            </button>
-                        );
-                    })}
-                </div>
-            )}
+            {/* Source Selector */}
+            <SourceSelector
+                prayerTexts={prayerTexts}
+                selectedSource={prefSrc}
+                onSourceSelect={(source, newPrefSrc, newPrefComm1, newPrefComm2) => {
+                    onSourceSelect(newPrefSrc, newPrefComm1, newPrefComm2);
+                }}
+                className="mb-4"
+            />
 
             {/* Prayer Hours */}
             <div className="space-y-2 mb-6">
@@ -1125,19 +1085,24 @@ const PrayerMenu = ({ title, onSelectHour, setViewMode, onPrevDay, onNextDay, se
 const BackButton = ({ onClick }) => (
     <button
         onClick={onClick}
-        className="w-full p-3 mb-4 text-center rounded-lg bg-gray-100 dark:bg-gray-800 
+        className="w-full p-2 mb-1 rounded-sm bg-gray-100 dark:bg-gray-800 
                  hover:bg-gray-200 dark:hover:bg-gray-700 
-                 text-gray-900 dark:text-gray-100"
+                 text-gray-900 dark:text-gray-100 text-left"
+        style={{ color: rubricColor }}
     >
-        ← Zurück zur Stundengebetauswahl
+        ← zurück zur Stundengebetauswahl
     </button>
 );
 
 
 // Prayer Text Display Component
-const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
+const PrayerTextDisplay = ({
+    hour, texts, season, onBack, onUpdateTexts,
+    prefSrc, prefComm1, prefComm2, onSourceSelect
+}) => {
     const [localPrefComm, setLocalPrefComm] = useState(texts?.prefComm || 0);
     const [localPrefLatin, setLocalPrefLatin] = useState(0);
+    const [localPrefContinuous, setLocalPrefContinuous] = useState(0);
 
     if (!hour || !texts || !texts[hour]) {
         return <div className="p-4">Keine Daten verfügbar</div>;
@@ -1148,30 +1113,44 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
     const rank_wt = texts.rank_wt || 0
     const rank_date = texts.rank_date || 0
 
-    // Get value from sources in priority order: eig -> wt -> com
+
     // Get value from sources in priority order: prefSrc -> prefComm1/prefComm2 -> wt
     const getValue = (field) => {
-        // 1. Prüfe zuerst prefSrc
-        if ((field.startsWith('hymn_') && field !== 'hymn_1') &&
-            (texts[hour][texts.prefSrc]?.['hymn_1']
-                || (localPrefComm === 1 && texts[hour][texts.prefComm1]?.['hymn_1'])
-                || (localPrefComm === 2 && texts[hour][texts.prefComm2]?.['hymn_1'])
+        // Sonderfall Hymnen: 
+        // klStb und Nacht-Hymnus werden nicht gezeigt, wenn eigener Hymnus vorhanden
+        // oder Commune-Hymnus gewählt ist
+        if ((field === 'hymn_kl' || field === 'hymn_nacht') &&
+            (texts[hour]?.[prefSrc]?.['hymn_1']
+                || (localPrefComm === 1 && texts[hour]?.[prefComm1]?.['hymn_1'])
+                || (localPrefComm === 2 && texts[hour]?.[prefComm2]?.['hymn_1'])
             )) {
             return null;
         }
 
-        if (texts[hour][texts.prefSrc]?.[field]) {
-            return texts[hour][texts.prefSrc][field];
+        //Sonderfall Bahnlesung:
+        if ((hour === 'lesehore') &&
+            (field.startsWith('les_') ||
+                field.startsWith('resp1_') ||
+                field.startsWith('patr_')) &&
+            (localPrefContinuous === 1)
+        ) {
+            return texts[hour]?.['wt']?.[field];
+        }
+
+
+        // 1. Prüfe zuerst prefSrc
+        if (texts[hour][prefSrc]?.[field]) {
+            return texts[hour][prefSrc][field];
         }
 
         // 2. Prüfe prefComm1 wenn prefComm = 1
-        if (localPrefComm === 1 && texts[hour][texts.prefComm1]?.[field]) {
-            return texts[hour][texts.prefComm1][field];
+        if (localPrefComm === 1 && texts[hour][prefComm1]?.[field]) {
+            return texts[hour][prefComm1][field];
         }
 
         // 3. Prüfe prefComm2 wenn prefComm = 2
-        if (localPrefComm === 2 && texts[hour][texts.prefComm2]?.[field]) {
-            return texts[hour][texts.prefComm2][field];
+        if (localPrefComm === 2 && texts[hour][prefComm2]?.[field]) {
+            return texts[hour][prefComm2][field];
         }
 
         // 4. Verwende "wt" als letzte Option
@@ -1183,12 +1162,12 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
     };
 
     const checkSources = (field) => {
-        const hasEig = texts[hour][texts.prefSrc]?.[field];
+        const hasEig = texts[hour][prefSrc]?.[field];
         const hasWt = texts[hour]['wt']?.[field];
-        const hasComm1 = texts[hour][texts.prefComm1]?.[field];
-        const hasComm2 = texts[hour][texts.prefComm2]?.[field];
-        const nameComm1 = texts['laudes'][texts.prefComm1]?.['name'] || 'Comm1';
-        const nameComm2 = texts['laudes'][texts.prefComm2]?.['name'] || 'Comm2';
+        const hasComm1 = texts[hour][prefComm1]?.[field];
+        const hasComm2 = texts[hour][prefComm2]?.[field];
+        const nameComm1 = texts['laudes'][prefComm1]?.['name'] || 'Comm1';
+        const nameComm2 = texts['laudes'][prefComm2]?.['name'] || 'Comm2';
 
         return {
             hasEig,
@@ -1203,11 +1182,12 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
     };
 
     // Component for section headers with source indicators
-    const SectionHeader = ({ title, field, latinField }) => {
-        const { hasEig, nameComm1, nameComm2, showSources, showComm2 } = checkSources(field);
+    const SectionHeader = ({ title, field, latinField, askContinuous }) => {
+        const { hasEig, hasWt, nameComm1, nameComm2, showSources, showComm2 } = checkSources(field);
         const hasLatin = latinField && texts[hour]['wt']?.[latinField];
+        const showContinuous = hasEig && hasWt && askContinuous
 
-        if (!showSources && !hasLatin) {
+        if (!showSources && !hasLatin && !showContinuous) {
             return <h2 className="prayer-heading">{title}</h2>;
         }
 
@@ -1222,6 +1202,25 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
                     >
                         (dt./lat.)
                     </button>
+                )}
+                {showContinuous && (
+                    <span className="font-normal text-[0.85em]">
+                        <button
+                            onClick={() => setLocalPrefContinuous(0)}
+                            className={`${localPrefContinuous === 0 ? 'underline' : ''}`}
+                            style={{ color: rubricColor }}
+                        >
+                            Eigentext
+                        </button>
+                        {" | "}
+                        <button
+                            onClick={() => setLocalPrefContinuous(1)}
+                            className={`${localPrefContinuous === 1 ? 'underline' : ''}`}
+                            style={{ color: rubricColor }}
+                        >
+                            Bahnlesung
+                        </button>
+                    </span>
                 )}
                 {showSources && (
                     <span className="font-normal text-[0.85em]">
@@ -1271,8 +1270,8 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
                             </>
                         ))}
                 </div>
-                {title && <div className="text-[0.9em] text-gray-400">{title}</div>}
-                {quote && <div className="text-[0.9em] leading-[1.1em] italic text-gray-400 mb-[0.66em]">{quote}</div>}
+                {title && <div className="text-[0.9em] text-gray-400 mb-[0.66em]">{title}</div>}
+                {quote && <div className="text-[0.9em] leading-[1.1em] italic text-gray-400 -mt-[0.66em] mb-[0.66em]">{quote}</div>}
                 {text && <div className="whitespace-pre-wrap">{formatPrayerParagraph(text)}</div>}
                 {number !== 160 && <div className="whitespace-pre-wrap">{formatPrayerParagraph(doxology)}</div>}
             </div >
@@ -1304,7 +1303,9 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
             .replace(/\^r(.*?)\^0r/g, (_, content) => `<span style={{ color: rubricColor }}>${content}</span>`)
             .replace(/\^v(.*?)\^0v/g, '$1')
             .replace(/\^\(/g, `<span style={{ color: rubricColor }}>(</span>`)
-            .replace(/\^\)/g, `<span style={{ color: rubricColor }}>)</span>`);
+            .replace(/\^\)/g, `<span style={{ color: rubricColor }}>)</span>`)
+            .replace(/}/g, ')')  // Ersetzt } durch )
+            .replace(/\{(\d{1,2})#/g, '(');  // Ersetzt {00# durch (, wobei 00 eine ein- oder zweistellige Zahl ist
     };
 
     const formatPrayerParagraph = (text) => {
@@ -1387,10 +1388,17 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
     }
 
     return (
-        <div className="p-4 leading-[1.35em]">
+        <div className="leading-[1.35em]">
             <BackButton onClick={onBack} />
-            <div className="bg-white dark:bg-gray-800 rounded-sm shadow">
-
+            <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6">
+                <SourceSelector
+                    prayerTexts={texts}
+                    selectedSource={prefSrc}
+                    onSourceSelect={(source, newPrefSrc, newPrefComm1, newPrefComm2) => {
+                        onSourceSelect(newPrefSrc, newPrefComm1, newPrefComm2);
+                    }}
+                    className="mb-4"
+                />
                 {getValue('hymn_1') && (
                     <div className="mb-2">
                         <h2 className="prayer-heading">HYMNUS</h2>
@@ -1513,6 +1521,7 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
                     <SectionHeader
                         title={hour === "lesehore" ? "ERSTE LESUNG" : "KURZLESUNG"}
                         field="les_text"
+                        askContinuous={true}
                     />
                     <div>
                         {(hour !== "lesehore") && (
@@ -1582,17 +1591,19 @@ const PrayerTextDisplay = ({ hour, texts, season, onBack }) => {
                         )}
                     </div>)}
 
-                {getValue('patr_text') && (<div className="mb-1">
-                    <SectionHeader
-                        title="ZWEITE LESUNG"
-                        field="patr_text"
-                    />
-                    <div>
-                        <div className='text-[0.9em] italic'> {getValue('patr_autor')}</div>
-                        {getValue('patr_werk')}
-                        {formatPrayerParagraph(getValue('patr_text'))}
-                    </div>
-                </div>)}
+                {getValue('patr_text') && (
+                    <div className="mb-1">
+                        <SectionHeader
+                            title="ZWEITE LESUNG"
+                            field="patr_text"
+                            askContinuous={true}
+                        />
+                        <div>
+                            <div className='text-[0.9em] italic'> {getValue('patr_autor')}</div>
+                            {getValue('patr_werk')}
+                            {formatPrayerParagraph(getValue('patr_text'))}
+                        </div>
+                    </div>)}
 
                 {getValue('patr_resp1') && (
                     <div className="mb-1">
@@ -1765,6 +1776,9 @@ export default function LiturgicalCalendar() {
         const savedTheme = localStorage.getItem('theme');
         return savedTheme || 'light';
     });
+    const [prefSrc, setPrefSrc] = useState('eig');
+    const [prefComm1, setPrefComm1] = useState(null);
+    const [prefComm2, setPrefComm2] = useState(null);
     const [selectedHour, setSelectedHour] = useState(null);
     const [prayerTexts, setPrayerTexts] = useState(null);
     const [expandedDeceased, setExpandedDeceased] = useState({});
@@ -2517,92 +2531,99 @@ export default function LiturgicalCalendar() {
                     style={navStyle}
                     role="navigation"
                 >
-                    <div className="flex items-center gap-2 px-4 py-4 overflow-x-auto sm:overflow-visible">
+                    <div className="flex items-center gap-2 px-4 py-2 overflow-x-auto sm:overflow-visible">
                         <ThemeMenu />
 
                         <div className="flex items-center gap-2 flex-1 min-w-0">
-                            <button
-                                onClick={handlePrevWeek}
-                                className="shrink-0 px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
-                                title="1 Woche zurück"
-                            >
-                                «
-                            </button>
-                            <button
-                                onClick={handleToday}
-                                className="shrink-0 px-4 py-2 bg-orange-100 dark:bg-yellow-400/60 hover:bg-orange-200 dark:hover:bg-yellow-400/70 rounded"
-                            >
-                                Heute
-                            </button>
+                            {viewMode !== 'prayerText' && (
+                                <>
+                                    <button
+                                        onClick={handlePrevWeek}
+                                        className="shrink-0 px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
+                                        title="1 Woche zurück"
+                                    >
+                                        «
+                                    </button>
+                                    <button
+                                        onClick={handleToday}
+                                        className="shrink-0 px-4 py-2 bg-orange-100 dark:bg-yellow-400/60 hover:bg-orange-200 dark:hover:bg-yellow-400/70 rounded"
+                                    >
+                                        Heute
+                                    </button>
 
-                            <div className="relative flex-1 min-w-0">
-                                <input
-                                    type="text"
-                                    value={inputValue}
-                                    onChange={(e) => {
-                                        setInputValue(e.target.value);
-                                        if (e.target.value.length >= 6) {
-                                            const date = parseDateString(e.target.value);
-                                            if (date) {
-                                                handleDateSelect(date);
-                                            }
-                                        }
-                                    }}
-                                    onClick={(e) => {
-                                        e.target.select();
-                                        setShowDatePicker(!showDatePicker);
-                                    }}
-                                    onKeyDown={(e) => {
-                                        if (e.key === 'Enter' && e.target.value.length >= 6) {
-                                            const date = parseDateString(e.target.value);
-                                            if (date) {
-                                                handleDateSelect(date);
-                                                setShowDatePicker(false);
-                                            }
-                                        } else if (e.key === 'Escape') {
-                                            setShowDatePicker(false);
-                                            setInputValue(formatDate(selectedDate, true));
-                                        }
-                                    }}
-                                    onBlur={() => {
-                                        const date = parseDateString(inputValue);
-                                        if (!date) {
-                                            setInputValue(formatDate(selectedDate, true));
-                                        }
-                                    }}
-                                    className="w-full px-4 py-2 border dark:border-gray-700 rounded hover:bg-gray-50 dark:hover:bg-gray-800 
-                    cursor-pointer bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100"
-                                    placeholder="TT.MM.JJ"
-                                />
-                                <svg
-                                    className="w-4 h-4 absolute right-3 top-1/2 transform -translate-y-1/2 pointer-events-none"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    viewBox="0 0 24 24"
+                                    <div className="relative flex-1 min-w-0">
+                                        <input
+                                            type="text"
+                                            value={inputValue}
+                                            onChange={(e) => {
+                                                setInputValue(e.target.value);
+                                                if (e.target.value.length >= 6) {
+                                                    const date = parseDateString(e.target.value);
+                                                    if (date) {
+                                                        handleDateSelect(date);
+                                                    }
+                                                }
+                                            }}
+                                            onClick={(e) => {
+                                                e.target.select();
+                                                setShowDatePicker(!showDatePicker);
+                                            }}
+                                            onKeyDown={(e) => {
+                                                if (e.key === 'Enter' && e.target.value.length >= 6) {
+                                                    const date = parseDateString(e.target.value);
+                                                    if (date) {
+                                                        handleDateSelect(date);
+                                                        setShowDatePicker(false);
+                                                    }
+                                                } else if (e.key === 'Escape') {
+                                                    setShowDatePicker(false);
+                                                    setInputValue(formatDate(selectedDate, true));
+                                                }
+                                            }}
+                                            onBlur={() => {
+                                                const date = parseDateString(inputValue);
+                                                if (!date) {
+                                                    setInputValue(formatDate(selectedDate, true));
+                                                }
+                                            }}
+                                            className="w-full px-4 py-2 border dark:border-gray-700 rounded hover:bg-gray-50 dark:hover:bg-gray-800 
+                        cursor-pointer bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100"
+                                            placeholder="TT.MM.JJ"
+                                        />
+                                        <svg
+                                            className="w-4 h-4 absolute right-3 top-1/2 transform -translate-y-1/2 pointer-events-none"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            viewBox="0 0 24 24"
+                                        >
+                                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                                            <line x1="16" y1="2" x2="16" y2="6" />
+                                            <line x1="8" y1="2" x2="8" y2="6" />
+                                            <line x1="3" y1="10" x2="21" y2="10" />
+                                        </svg>
+                                        {showDatePicker && <DatePicker />}
+                                    </div>
+
+                                    <button
+                                        onClick={handleNextWeek}
+                                        className="shrink-0 px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
+                                        title="1 Woche vor"
+                                    >
+                                        »
+                                    </button>
+                                </>
+                            )}
+
+                            {/* StB Button ist immer sichtbar */}
+                            <div className={viewMode === 'prayerText' ? 'flex-1 flex justify-end' : ''}>
+                                <button
+                                    onClick={() => setViewMode('prayer')}
+                                    className="shrink-0 px-4 py-2 bg-orange-100 dark:bg-yellow-400/60 hover:bg-orange-200 dark:hover:bg-yellow-400/70 rounded"
+                                    title="Stundengebet"
                                 >
-                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
-                                    <line x1="16" y1="2" x2="16" y2="6" />
-                                    <line x1="8" y1="2" x2="8" y2="6" />
-                                    <line x1="3" y1="10" x2="21" y2="10" />
-                                </svg>
-                                {showDatePicker && <DatePicker />}
+                                    StB
+                                </button>
                             </div>
-
-                            <button
-                                onClick={handleNextWeek}
-                                className="shrink-0 px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
-                                title="1 Woche vor"
-                            >
-                                »
-                            </button>
-
-                            <button
-                                onClick={() => setViewMode('prayer')}
-                                className="shrink-0 px-4 py-2 bg-orange-100 dark:bg-yellow-400/60 hover:bg-orange-200 dark:hover:bg-yellow-400/70 rounded"
-                                title="Stundengebet"
-                            >
-                                StB
-                            </button>
                         </div>
                     </div>
                 </div>
@@ -2614,6 +2635,14 @@ export default function LiturgicalCalendar() {
                         <PrayerMenu
                             title={formatDate(selectedDate)}
                             selectedDate={selectedDate}
+                            prefSrc={prefSrc}
+                            prefComm1={prefComm1}
+                            prefComm2={prefComm2}
+                            onSourceSelect={(newPrefSrc, newPrefComm1, newPrefComm2) => {
+                                setPrefSrc(newPrefSrc);
+                                setPrefComm1(newPrefComm1);
+                                setPrefComm2(newPrefComm2);
+                            }}
                             onSelectHour={(hour, texts) => {
                                 setSelectedHour(hour);
                                 setPrayerTexts(texts);
@@ -2636,6 +2665,14 @@ export default function LiturgicalCalendar() {
                             hour={selectedHour}
                             texts={prayerTexts}
                             season={currentSeason}
+                            prefSrc={prefSrc}
+                            prefComm1={prefComm1}
+                            prefComm2={prefComm2}
+                            onSourceSelect={(newPrefSrc, newPrefComm1, newPrefComm2) => {
+                                setPrefSrc(newPrefSrc);
+                                setPrefComm1(newPrefComm1);
+                                setPrefComm2(newPrefComm2);
+                            }}
                             onBack={() => setViewMode('prayer')}
                         />
                     )}
