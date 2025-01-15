@@ -1032,26 +1032,49 @@ const PrayerMenu = ({ title, onSelectHour, setViewMode,
 
             {/* Prayer Hours */}
             <div className="space-y-2 mb-6">
-                {Object.values(PrayerHours).map(hour => (
-                    <button
-                        key={hour}
-                        onClick={() => {
-                            console.log('Daten:', { hour, texts: prayerTexts });
-                            onSelectHour(hour, prayerTexts);
-                        }}
-                        className="w-full p-3 text-left rounded-lg bg-gray-100 dark:bg-gray-800 
-                            hover:bg-gray-200 dark:hover:bg-gray-700 
-                            text-gray-900 dark:text-gray-100"
-                    >
-                        {hour.charAt(0).toUpperCase() + hour.slice(1)}
-                    </button>
-                ))}
+
+                {Object.values(PrayerHours).map(hour => {
+                    // Spezielle Behandlung für Terz, Sext, Non
+                    if (['terz', 'sext', 'non'].includes(hour)) {
+                        if (hour === 'terz') {
+                            return (
+                                <div key="tsn" className="flex gap-2 w-full">
+                                    {['terz', 'sext', 'non'].map(tsnHour => (
+                                        <button
+                                            key={tsnHour}
+                                            onClick={() => onSelectHour(tsnHour, prayerTexts)}
+                                            className="flex-1 p-3 text-center rounded-lg bg-gray-100 dark:bg-gray-800 
+                                                hover:bg-gray-200 dark:hover:bg-gray-700 
+                                                text-gray-900 dark:text-gray-100"
+                                        >
+                                            {tsnHour.charAt(0).toUpperCase() + tsnHour.slice(1)}
+                                        </button>
+                                    ))}
+                                </div>
+                            );
+                        }
+                        return null; // Sext und Non überspringen, da sie bereits in der Flex-Box enthalten sind
+                    }
+
+                    // Normale Darstellung für andere Horen
+                    return (
+                        <button
+                            key={hour}
+                            onClick={() => onSelectHour(hour, prayerTexts)}
+                            className="w-full p-3 text-center rounded-lg bg-gray-100 dark:bg-gray-800 
+                                hover:bg-gray-200 dark:hover:bg-gray-700 
+                                text-gray-900 dark:text-gray-100"
+                        >
+                            {hour.charAt(0).toUpperCase() + hour.slice(1)}
+                        </button>
+                    );
+                })}
             </div>
 
             {/* Mass */}
             <button
                 onClick={() => onSelectHour('mass')}
-                className="w-full p-3 mb-6 text-left rounded-lg bg-gray-100 dark:bg-gray-800 
+                className="w-full p-3 mb-6 text-center rounded-lg bg-gray-100 dark:bg-gray-800 
                            hover:bg-gray-200 dark:hover:bg-gray-700 
                            text-gray-900 dark:text-gray-100"
             >
@@ -1059,23 +1082,25 @@ const PrayerMenu = ({ title, onSelectHour, setViewMode,
             </button>
 
             {/* View Selection with spacing */}
-            <div className="space-y-2 pt-4 border-t dark:border-gray-700">
-                <button
-                    onClick={() => setViewMode('directory')}
-                    className="w-full p-3 text-left rounded-lg bg-gray-100 dark:bg-gray-800 
-                             hover:bg-gray-200 dark:hover:bg-gray-700 
-                             text-gray-900 dark:text-gray-100"
-                >
-                    Direktorium
-                </button>
-                <button
-                    onClick={() => setViewMode('deceased')}
-                    className="w-full p-3 text-left rounded-lg bg-gray-100 dark:bg-gray-800 
-                             hover:bg-gray-200 dark:hover:bg-gray-700 
-                             text-gray-900 dark:text-gray-100"
-                >
-                    Totenverzeichnis
-                </button>
+            <div className="pt-4 border-t dark:border-gray-700">
+                <div className="flex gap-2">
+                    <button
+                        onClick={() => setViewMode('directory')}
+                        className="flex-1 p-3 text-center rounded-lg bg-gray-100 dark:bg-gray-800 
+                                hover:bg-gray-200 dark:hover:bg-gray-700 
+                                text-gray-900 dark:text-gray-100"
+                    >
+                        Direktorium
+                    </button>
+                    <button
+                        onClick={() => setViewMode('deceased')}
+                        className="flex-1 p-3 text-center rounded-lg bg-gray-100 dark:bg-gray-800 
+                                hover:bg-gray-200 dark:hover:bg-gray-700 
+                                text-gray-900 dark:text-gray-100"
+                    >
+                        Totenverzeichnis
+                    </button>
+                </div>
             </div>
         </div>
     );
@@ -1867,8 +1892,8 @@ export default function LiturgicalCalendar() {
     const [prayerTexts, setPrayerTexts] = useState(null);
     const [expandedDeceased, setExpandedDeceased] = useState({});
     const [deceasedMode, setDeceasedMode] = useState('recent');
-    const [viewMode, setViewMode] = useState('directory'); // 'directory', 'deceased', 'prayer', or 'prayerText'
-    const [baseFontSize, setBaseFontSize] = useTouchZoom(14, 8, 24, 0.8, showDatePicker);
+    const [viewMode, setViewMode] = useState('prayer'); // 'directory', 'deceased', 'prayer', or 'prayerText'
+    const [baseFontSize, setBaseFontSize] = useTouchZoom(14, 8, 24, 0.7, showDatePicker);
     const [isReady, setIsReady] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [activeSection, setActiveSection] = useState('fontSize');
