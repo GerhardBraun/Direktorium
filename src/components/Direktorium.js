@@ -1182,7 +1182,7 @@ const PrayerTextDisplay = ({
     const SectionHeader = ({ title, field, latinField, askContinuous, askTSN, onSelectHour }) => {
         const { hasEig, hasWt, nameComm1, nameComm2, showSources, showComm2 } = checkSources(field);
         const hasLatin = latinField && texts[hour]['wt']?.[latinField];
-        const showContinuous = hasEig && hasWt && askContinuous;
+        const showContinuous = hasEig && hasWt && askContinuous && hour === 'lesehore';
         const showTSN = askTSN && ["terz", "sext", "non"].includes(hour);
 
         if (!showSources && !hasLatin && !showContinuous && !showTSN) {
@@ -1227,7 +1227,7 @@ const PrayerTextDisplay = ({
                             className={`${localPrefComm === 1 ? 'underline' : ''}`}
                             style={{ color: rubricColor }}
                         >
-                            {nameComm1}
+                            Comm {nameComm1}
                         </button>
                         {" | "}
                         {showComm2 && (
@@ -1316,14 +1316,10 @@ const PrayerTextDisplay = ({
         </span>
     );
 
-    // Format prayer text with specified formatting  
     const formatPrayerText = (text) => {
         if (!text) return null;
 
-        // Prüfen, ob der Text Absatz-Tags enthält
-        const hasParagraphTags = /\^[phq]/.test(text);
-
-        // Inline-Formatierungen als React-Elemente
+        // Inline-Formatierungen als React-Elemente verarbeiten
         const processInlineFormats = (text) => {
             // Basis-Ersetzungen
             let processedText = text
@@ -1336,7 +1332,7 @@ const PrayerTextDisplay = ({
                 .replace(/\{(\d{1,2})#/g, '(');
 
             // Split text into segments, keeping delimiters
-            const segments = processedText.split(/(\^r.*?\^0r|\^v.*?\^0v|\^\(|\^\))/g);
+            const segments = processedText.split(/(\^r.*?\^0r|\^v.*?\^0v|\^\(|\^\))/g).filter(Boolean);
 
             return segments.map((segment, index) => {
                 if (segment.startsWith('^r')) {
@@ -1344,7 +1340,7 @@ const PrayerTextDisplay = ({
                     const content = segment.substring(2, segment.length - 3);
                     return <span key={`rubric-${index}`} style={{ color: rubricColor }}>{content}</span>;
                 } else if (segment.startsWith('^v')) {
-                    // Markierter Text (vorerst ohne spezielle Formatierung)
+                    // Markierter Text
                     const content = segment.substring(2, segment.length - 3);
                     return <span key={`marked-${index}`}>{content}</span>;
                 } else if (segment === '^(') {
@@ -1356,45 +1352,80 @@ const PrayerTextDisplay = ({
             });
         };
 
+        // Prüfen, ob der Text Absatz-Tags enthält
+        const hasParagraphTags = /\^[phq]/.test(text);
+
         if (!hasParagraphTags) {
-            // Bei Texten ohne Absatz-Tags: Inline-Formatierung zurückgeben
+            // Bei Texten ohne Absatz-Tags: Direkt Inline-Formatierung zurückgeben
             return processInlineFormats(text);
-        } else {
-            // Bei Texten mit Absatz-Tags: In Absätze aufteilen und formatieren
-            const paragraphs = text.split(/\^[phq]/);
-            const formats = text.match(/\^[phq]/g) || [];
-
-            return paragraphs
-                .filter(paragraph => paragraph.trim().length > 0)
-                .map((paragraph, index) => {
-                    const format = formats[index] || '^p';
-                    const processedContent = processInlineFormats(paragraph);
-
-                    switch (format) {
-                        case '^h':
-                            return (
-                                <div key={index} className="whitespace-pre-wrap font-bold text-[0.9em] mt-2">
-                                    {processedContent}
-                                </div>
-                            );
-                        case '^q':
-                            return (
-                                <div key={index} className="whitespace-pre-wrap flex -mt-[0.66em] mb-[0.66em]">
-                                    <span className="w-[0.8em] flex-shrink-0">–</span>
-                                    <div>{processedContent}</div>
-                                </div>
-                            );
-                        default: // ^p
-                            return (
-                                <div key={index} className="whitespace-pre-wrap mb-[0.66em]">
-                                    {processedContent}
-                                </div>
-                            );
-                    }
-                });
         }
-    };
 
+        // Vorverarbeitung: Inline-Formatierungen mit temporären Markern ersetzen
+        let processedText = text;
+        const markerMap = new Map();
+        let markerCounter = 0;
+
+        processedText = processedText.replace(/(\^r.*?\^0r|\^v.*?\^0v|\^\(|\^\))/g, (match) => {
+            const marker = `§MARKER${markerCounter}§`;
+            markerMap.set(marker, match);
+            markerCounter++;
+            return marker;
+        });
+
+        // Text in Absätze aufteilen
+        let segments = processedText.split(/(?=\^[phq])/);
+
+        // Wenn der Text nicht mit einem Format-Tag beginnt, als Standard-Absatz behandeln
+        if (!segments[0].startsWith('^')) {
+            segments = [segments[0], ...segments.slice(1)];
+        }
+
+        return segments
+            .filter(segment => segment.trim().length > 0)
+            .map((segment, index) => {
+                // Format bestimmen
+                let format = 'p'; // Standard-Format
+                let content = segment;
+
+                // Format aus dem Segment extrahieren, falls vorhanden
+                if (segment.startsWith('^')) {
+                    format = segment[1];
+                    content = segment.slice(2);
+                }
+
+                // Marker zurück in Inline-Formatierungen umwandeln
+                let originalContent = content;
+                for (const [marker, originalTag] of markerMap) {
+                    originalContent = originalContent.replace(marker, originalTag);
+                }
+
+                // Inline-Formatierungen verarbeiten
+                const processedContent = processInlineFormats(originalContent);
+
+                // Entsprechendes React-Element zurückgeben
+                switch (format) {
+                    case 'h':
+                        return (
+                            <div key={index} className="whitespace-pre-wrap font-bold text-[0.9em] mt-2">
+                                {processedContent}
+                            </div>
+                        );
+                    case 'q':
+                        return (
+                            <div key={index} className="whitespace-pre-wrap flex -mt-[0.66em] mb-[0.66em]">
+                                <span className="w-[0.8em] flex-shrink-0">–</span>
+                                <div>{processedContent}</div>
+                            </div>
+                        );
+                    default: // 'p'
+                        return (
+                            <div key={index} className="whitespace-pre-wrap mb-[0.66em]">
+                                {processedContent}
+                            </div>
+                        );
+                }
+            });
+    };
     const PrayerResponse = ({ resp1_3, resp1_2, rubricColor }) => {
         const formatSecondResponse = (firstResp, secondResp) => {
             if (!firstResp || !secondResp) return secondResp;
@@ -1434,9 +1465,9 @@ const PrayerTextDisplay = ({
     }
 
     return (
-        <div className="leading-[1.35em]">
+        <div className="leading-[1.35em] pb-8">
             <BackButton onClick={onBack} />
-            <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6">
+            <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6 pb-1">
                 <SourceSelector
                     prayerTexts={texts}
                     selectedSource={prefSrc}
@@ -1787,7 +1818,7 @@ const PrayerTextDisplay = ({
                     </div>)
                 }
             </div>
-            <div className="mt-4">
+            <div className="mt-1">
                 <BackButton onClick={onBack} />
             </div>
         </div>

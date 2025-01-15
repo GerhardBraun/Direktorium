@@ -10894,175 +10894,175 @@ export const brevierData = {
       },
       "2": {
         "each": {
-          "oration": "q-1-2-each-Oration"
+          "oration": "Herr, unser Gott, sieh gütig auf deine Gemeinde. Da wir durch Mäßigung den Leib in Zucht halten und Buße tun, schenke unserem Geist die wahre Sehnsucht nach dir. Darum bitten wir durch Jesus Christus."
         }
       },
       "3": {
         "each": {
-          "oration": "q-1-3-each-Oration"
+          "oration": "Barmherziger Gott, sieh gnädig auf die Hingabe deines Volkes. Gib, dass wir unseren Leib in Zucht nehmen und durch gute Werke im Geist neu werden. Darum bitten wir durch Jesus Christus."
         }
       },
       "4": {
         "each": {
-          "oration": "q-1-4-each-Oration"
+          "oration": "Allmächtiger Gott, gib uns die Gnade, dass wir stets auf das Rechte bedacht sind und es auch entschlossen tun. Da wir ohne dich nicht bestehen können, hilf uns, nach deinem Willen zu leben. Darum bitten wir durch Jesus Christus."
         }
       },
       "5": {
         "each": {
-          "oration": "q-1-5-each-Oration"
+          "oration": "Allmächtiger Gott, gib, dass deine Gläubigen sich in rechter Weise auf Ostern vorbereiten, und was wir dem Leib an Entsagung auferlegen, das trage reiche Frucht und erneuere unseren Geist. Darum bitten wir durch Jesus Christus."
         }
       },
       "6": {
         "each": {
-          "oration": "q-1-6-each-Oration"
+          "oration": "Ewiger Vater, wende unsere Herzen zu dir hin, damit wir das eine Notwendige suchen und dich in Werken der Liebe verherrlichen. Darum bitten wir durch Jesus Christus."
         }
       }
     },
     "2": {
       "0": {
         "each": {
-          "oration": "q-2-0-each-Oration"
+          "oration": "Gott, du hast uns geboten, auf deinen geliebten Sohn zu hören. Nähre uns mit deinem Wort und reinige die Augen unseres Geistes, damit wir fähig werden, deine Herrlichkeit zu erkennen. Darum bitten wir durch Jesus Christus."
         }
       },
       "1": {
         "each": {
-          "oration": "q-2-1-each-Oration"
+          "oration": "Ewiger Gott, zum Heil unserer Seele verlangst du, dass wir den Leib in Zucht nehmen und Buße tun. Gib uns die Kraft, dass wir uns von Sünden freihalten und die Gebote erfüllen, die uns deine Liebe gegeben hat. Darum bitten wir durch Jesus Christus."
         }
       },
       "2": {
         "each": {
-          "oration": "q-2-2-each-Oration"
+          "oration": "Herr, unser Gott, behüte deine Kirche und verlass sie nicht. Wir sind dem Tod verfallen und gehen ohne dich zugrunde. Hilf uns, alles zu meiden, was uns schadet, und zu suchen, was uns zum Heil dient. Darum bitten wir durch Jesus Christus."
         }
       },
       "3": {
         "each": {
-          "oration": "q-2-3-each-Oration"
+          "oration": "Herr, unser Gott, erhalte deiner Kirche die Bereitschaft, das Gute zu tun. Ermutige uns in diesem Leben durch deinen Schutz und führe uns zu den ewigen Gütern. Darum bitten wir durch Jesus Christus."
         }
       },
       "4": {
         "each": {
-          "oration": "q-2-4-each-Oration"
+          "oration": "Heiliger Gott, du liebst die Unschuld und schenkst dem Sünder zurück, der reumütig zu dir heimkehrt. Wende unser Herz zu dir und schenke uns neuen Eifer im Heiligen Geist, damit wir im Glauben standhaft bleiben und stets bereit sind, das Gute zu tun. Darum bitten wir durch Jesus Christus."
         }
       },
       "5": {
         "each": {
-          "oration": "q-2-5-each-Oration"
+          "oration": "Allmächtiger Gott, reinige uns in diesen Tagen, in denen wir für unsere Sünden Buße tun, damit wir mit lauterem Herzen das Osterfest erwarten. Darum bitten wir durch Jesus Christus."
         }
       },
       "6": {
         "each": {
-          "oration": "q-2-6-each-Oration"
+          "oration": "Gütiger Gott, durch das Wirken deiner Gnade schenkst du uns schon auf Erden den Anfang des ewigen Lebens. Vollende, was du in uns begonnen hast, und führe uns hin zu jenem Licht, in dem du selber wohnst. Darum bitten wir durch Jesus Christus."
         }
       }
     },
     "3": {
       "0": {
         "each": {
-          "oration": "q-3-0-each-Oration"
+          "oration": "Gott, unser Vater, du bist der Quell des Erbarmens und der Güte. Wir stehen als Sünder vor dir, und unser Gewissen klagt uns an. Sieh auf unsere Not und lass uns Vergebung finden durch Fasten, Gebet und Werke der Liebe. Darum bitten wir durch Jesus Christus."
         }
       },
       "1": {
         "each": {
-          "oration": "q-3-1-each-Oration"
+          "oration": "Barmherziger Gott, deine Kirche kann nicht bestehen ohne dich, sie lebt allein von deiner Gnade. Reinige und festige sie und führe sie mit starker Hand. Darum bitten wir durch Jesus Christus."
         }
       },
       "2": {
         "each": {
-          "oration": "q-3-2-each-Oration"
+          "oration": "Herr, unser Gott, verlass uns nicht in diesen Tagen der Buße. Steh uns mit deiner Gnade bei, damit wir mit ganzer Bereitschaft den Dienst vollziehen, den du uns aufgetragen hast. Darum bitten wir durch Jesus Christus."
         }
       },
       "3": {
         "each": {
-          "oration": "q-3-3-each-Oration"
+          "oration": "Barmherziger Gott, erneuere uns im Geist durch die Feier der heiligen vierzig Tage, damit wir für dein Wort empfänglich werden, bereit zu Gehorsam und Verzicht, demütig im Gebet und eifrig in Werken der Liebe. Darum bitten wir durch Jesus Christus."
         }
       },
       "4": {
         "each": {
-          "oration": "q-3-4-each-Oration"
+          "oration": "Allmächtiger Gott, gib, dass wir dem Ruf deiner Gnade folgen und uns mit um so größerem Eifer auf die Feier der österlichen Geheimnisse vorbereiten, je näher das Fest der Erlösung herankommt. Darum bitten wir durch Jesus Christus."
         }
       },
       "5": {
         "each": {
-          "oration": "q-3-5-each-Oration"
+          "oration": "Gütiger Gott, lass deine Gnade mächtig werden in unseren Herzen, damit wir imstande sind, unser eigenes Begehren zu meistern und den Anregungen deines Geistes zu folgen. Darum bitten wir durch Jesus Christus."
         }
       },
       "6": {
         "each": {
-          "oration": "q-3-6-each-Oration"
+          "oration": "Gütiger Gott, in geistlicher Freude begehen wir diese Tage der Buße. Gib, dass wir aus dem österlichen Geheimnis leben, damit uns sein voller Gnadenreichtum zuteilwird. Darum bitten wir durch Jesus Christus."
         }
       }
     },
     "4": {
       "0": {
         "each": {
-          "oration": "q-4-0-each-Oration"
+          "oration": "Herr, unser Gott, du hast in deinem Sohn die Menschheit auf wunderbare Weise mit dir versöhnt. Gib deinem Volk einen hochherzigen Glauben, damit es mit froher Hingabe dem Osterfest entgegeneilt. Darum bitten wir durch Jesus Christus."
         }
       },
       "1": {
         "each": {
-          "oration": "q-4-1-each-Oration"
+          "oration": "Allherrschender Gott, du schenkst uns im österlichen Geheimnis jenes wunderbare Leben, das die Welt unablässig erneuert. Lass das Werk deiner Gnade in der Kirche mächtig werden und gib ihr alles, was sie in dieser Zeit braucht. Darum bitten wir durch Jesus Christus."
         }
       },
       "2": {
         "each": {
-          "oration": "q-4-2-each-Oration"
+          "oration": "Barmherziger Gott, diese heilige Zeit der Buße und des Gebetes mache unsere Herzen bereit, die Ostergnade zu empfangen und das Lob des Erlösers zu verkünden, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         }
       },
       "3": {
         "each": {
-          "oration": "q-4-3-each-Oration"
+          "oration": "Gütiger Gott, du schenkst den Gerechten ihren Lohn und verzeihst den Sündern ihre Schuld um der Buße willen. Wir bekennen dir unser Versagen; hab Erbarmen mit unserer Schwachheit, und vergib uns, was wir gefehlt haben. Darum bitten wir durch Jesus Christus."
         }
       },
       "4": {
         "each": {
-          "oration": "q-4-4-each-Oration"
+          "oration": "Gütiger Gott, heilige uns in dieser Zeit der Buße. Gib uns Kraft zu guten Werken und Ausdauer in der Beobachtung deiner Gebote, damit wir fähig werden, das Osterfest mit reinem Herzen zu feiern. Darum bitten wir durch Jesus Christus."
         }
       },
       "5": {
         "each": {
-          "oration": "q-4-5-each-Oration"
+          "oration": "Barmherziger Gott, du kennst unsere Schwachheit und unsere Not. Doch je hinfälliger wir sind, um so mächtiger ist deine Hilfe. Gib, dass wir das Geschenk dieser Gnadenzeit freudig und dankbar annehmen und dein Wirken in unserem Leben bezeugen. Darum bitten wir durch Jesus Christus."
         }
       },
       "6": {
         "each": {
-          "oration": "q-4-6-each-Oration"
+          "oration": "Barmherziger Gott, lenke du selbst unsere Herzen zu dir hin; denn ohne deine Hilfe können wir dir nicht gefallen. Darum bitten wir durch Jesus Christus."
         }
       }
     },
     "5": {
       "0": {
         "each": {
-          "oration": "q-5-0-each-Oration"
+          "oration": "Herr, unser Gott, dein Sohn hat sich aus Liebe zur Welt dem Tod überliefert. Lass uns in seiner Liebe bleiben und mit deiner Gnade aus ihr leben. Darum bitten wir durch Jesus Christus."
         }
       },
       "1": {
         "each": {
-          "oration": "q-5-1-each-Oration"
+          "oration": "Barmherziger Gott, in deinem Sohn hast du uns die Fülle des Segens geschenkt. Gib uns Kraft, unsere sündhaften Gewohnheiten abzulegen und in der neuen Wirklichkeit zu leben, damit einst die Herrlichkeit deines Reiches an uns offenbar wird. Darum bitten wir durch Jesus Christus."
         }
       },
       "2": {
         "each": {
-          "oration": "q-5-2-each-Oration"
+          "oration": "Gütiger Gott, schenke uns Beharrlichkeit und Ausdauer auf dem Weg deiner Gebote, damit auch in unseren Tagen viele Menschen zu dir finden und deine Kirche dir immer eifriger dient. Darum bitten wir durch Jesus Christus."
         }
       },
       "3": {
         "each": {
-          "oration": "q-5-3-each-Oration"
+          "oration": "Barmherziger Gott, du selber weckst in uns das Verlangen, dir zu dienen. Heilige uns durch Werke der Buße, erleuchte und stärke uns, damit wir treu den Weg deiner Gebote gehen. Darum bitten wir durch Jesus Christus."
         }
       },
       "4": {
         "each": {
-          "oration": "q-5-4-each-Oration"
+          "oration": "Allmächtiger Gott, erhöre unser Gebet und beschütze uns, denn wir setzen unsere ganze Hoffnung auf dich. Reinige uns von aller Sünde und hilf uns, in deiner Gnade zu leben, damit wir Erben deiner Verheißung werden. Darum bitten wir durch Jesus Christus."
         }
       },
       "5": {
         "each": {
-          "oration": "q-5-5-each-Oration"
+          "oration": "Barmherziger Gott, wir haben aus menschlicher Schwachheit gefehlt und können aus eigener Kraft dem Netz der Sünde nicht entrinnen. Komm uns in deiner Güte zu Hilfe und befreie uns von aller Schuld. Darum bitten wir durch Jesus Christus."
         }
       },
       "6": {
         "each": {
-          "oration": "q-5-6-each-Oration"
+          "oration": "Barmherziger Gott, du wirkst das Heil der Menschen zu jeder Zeit; in diesen Tagen aber bist du uns besonders nahe. Trage Sorge für dein Volk, schütze die Getauften und alle, die sich auf die Taufe vorbereiten. Darum bitten wir durch Jesus Christus."
         }
       }
     },
@@ -11100,6 +11100,12 @@ export const brevierData = {
       "6": {
         "each": {
           "oration": "q-6-6-each-Oration"
+        }
+      },
+      "each": {
+        "Lesehore": {
+          "resp0_0": "Wenn ich von der Erde erhöht bin.",
+          "resp0_1": "Werde ich alle an mich ziehen."
         }
       }
     },
@@ -11180,6 +11186,10 @@ export const brevierData = {
           "bitten_e": "q-each-1-Bitten_E",
           "bitten_r": "q-each-1-Bitten_R",
           "bitten": "q-each-1-Bitten"
+        },
+        "Lesehore": {
+          "resp0_0": "Kehrt um und glaubt dem Evangelium.",
+          "resp0_1": "Denn das Reich Gottes ist nahe."
         }
       },
       "2": {
@@ -11213,6 +11223,10 @@ export const brevierData = {
           "bitten_e": "q-each-2-Bitten_E",
           "bitten_r": "q-each-2-Bitten_R",
           "bitten": "q-each-2-Bitten"
+        },
+        "Lesehore": {
+          "resp0_0": "Jetzt ist sie da, die rechte Zeit.",
+          "resp0_1": "Jetzt ist er da, der Tag des Heils."
         }
       },
       "3": {
@@ -11246,6 +11260,10 @@ export const brevierData = {
           "bitten_e": "q-each-3-Bitten_E",
           "bitten_r": "q-each-3-Bitten_R",
           "bitten": "q-each-3-Bitten"
+        },
+        "Lesehore": {
+          "resp0_0": "Kehrt um, wendet euch ab von all euren Vergehen.",
+          "resp0_1": "Schafft euch ein neues Herz und einen neuen Geist."
         }
       },
       "4": {
@@ -11279,6 +11297,10 @@ export const brevierData = {
           "bitten_e": "q-each-4-Bitten_E",
           "bitten_r": "q-each-4-Bitten_R",
           "bitten": "q-each-4-Bitten"
+        },
+        "Lesehore": {
+          "resp0_0": "Wer über die Weisung des Herrn nachsinnt.",
+          "resp0_1": "Der bringt Frucht zur rechten Zeit."
         }
       },
       "5": {
@@ -11312,6 +11334,10 @@ export const brevierData = {
           "bitten_e": "q-each-5-Bitten_E",
           "bitten_r": "q-each-5-Bitten_R",
           "bitten": "q-each-5-Bitten"
+        },
+        "Lesehore": {
+          "resp0_0": "Kehrt um zum Herrn, eurem Gott.",
+          "resp0_1": "Denn er ist gnädig und barmherzig."
         }
       },
       "6": {
@@ -11345,6 +11371,10 @@ export const brevierData = {
           "bitten_e": "q-each-6-Bitten_E",
           "bitten_r": "q-each-6-Bitten_R",
           "bitten": "q-each-6-Bitten"
+        },
+        "Lesehore": {
+          "resp0_0": "Wer die Wahrheit tut, kommt ans Licht.",
+          "resp0_1": "Und seine Werke werden offenbar."
         }
       },
       "each": {

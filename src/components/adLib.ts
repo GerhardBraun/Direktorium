@@ -862,7 +862,7 @@ export const adlibData = {
       },
       "n2": {
         "name": "Hl. Zacharias",
-        "genitiv": "Hl. Zacharias",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -876,7 +876,6 @@ export const adlibData = {
         },
         "Laudes": {
           "name": "Hl. Zacharias",
-          "genitiv": "Hl. Zacharias",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Nicht ihr werdet reden,^lsondern der Geist eures Vaters redet durch euch.",
@@ -884,7 +883,6 @@ export const adlibData = {
         },
         "Vesper": {
           "name": "Hl. Zacharias",
-          "genitiv": "Hl. Zacharias",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Dank sei dir, Christus, guter Hirte!^lDu hast mich zur Herrlichkeit geführt;^lgib auch der Herde, die du mir anvertraut hast,^lAnteil an deiner Gnade auf ewig.",
@@ -895,7 +893,7 @@ export const adlibData = {
     "17": {
       "n1": {
         "name": "Hl. Gertrud von Nivelles",
-        "genitiv": "Hl. Hl. Gertrud von Nivelles",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -909,7 +907,6 @@ export const adlibData = {
         },
         "Laudes": {
           "name": "Hl. Gertrud von Nivelles",
-          "genitiv": "Hl. Hl. Gertrud von Nivelles",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Mein Anteil ist der Herr, darum harre ich auf ihn;^lgut ist der Herr zur Seele, die ihn sucht.",
@@ -917,7 +914,6 @@ export const adlibData = {
         },
         "Vesper": {
           "name": "Hl. Gertrud von Nivelles",
-          "genitiv": "Hl. Hl. Gertrud von Nivelles",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "In der Freude über Gott, meinen Retter,^lweitet sich mein Herz und jubelt auf im Herrn.",
@@ -926,7 +922,7 @@ export const adlibData = {
       },
       "n2": {
         "name": "Hl. Patrick",
-        "genitiv": "Hl. Hl. Patrick",
+        "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
           "comm_2": "Comm_2",
@@ -940,7 +936,6 @@ export const adlibData = {
         },
         "Laudes": {
           "name": "Hl. Patrick",
-          "genitiv": "Hl. Hl. Patrick",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Geht hinaus in alle Welt und lehrt alle Völker^lund tauft sie im Namen des Vaters und des Sohnes^lund des Heiligen Geistes.",
@@ -948,7 +943,6 @@ export const adlibData = {
         },
         "Vesper": {
           "name": "Hl. Patrick",
-          "genitiv": "Hl. Hl. Patrick",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Viele werden kommen vom Osten und vom Westen^lund mit Abraham, Isaak und Jakob zu Tische sitzen^lim Himmelreich.",
@@ -1314,6 +1308,7 @@ export const adlibData = {
         },
         "Laudes": {
           "name": "Hl. Adalbert",
+          "farbe": "r",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, in deinem Auftrag hat der heilige Bischof Adalbert den Samen des Evangeliums ausgesät und ihn mit seinem Blut getränkt. Gib allen, die du zum Glauben berufen hast, die Kraft unbeirrbarer Treue. Darum bitten wir durch Jesus Christus."
@@ -1341,6 +1336,7 @@ export const adlibData = {
         },
         "Laudes": {
           "name": "Hl. Georg",
+          "farbe": "r",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Starker Gott, am Gedenktag des heiligen Georg preisen wir deine Macht. Auf seine Fürsprache hin stehe uns in jeder Not bei. Hilf uns, deinem Sohn im Leiden nachzufolgen und in der Kraft des Kreuzes das Böse zu besiegen. Darum bitten wir durch Jesus Christus."
@@ -1370,6 +1366,7 @@ export const adlibData = {
         },
         "Laudes": {
           "name": "Hl. Fidelis von Sigmaringen",
+          "farbe": "r",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Treuer Gott, aus Liebe zu dir hat der heilige Fidelis für den Glauben sein Leben hingegeben. Im Vertrauen auf seine Fürsprache bitten wir dich: Gib, dass auch wir in der Liebe fest verwurzelt und auf sie gegründet seien, damit wir ohne Menschenfurcht für die Wahrheit einstehen und die Kraft der Auferstehung deines Sohnes erfahren, unseres Herrn Jesus Christus, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
@@ -1384,7 +1381,7 @@ export const adlibData = {
     },
     "27": {
       "n1": {
-        "name": "Hl. ",
+        "name": "Hl. Petrus Kanisius",
         "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
@@ -1398,13 +1395,13 @@ export const adlibData = {
           "oration": "Herr, unser Gott, du hast den heiligen Petrus Kanisius berufen, in Wort und Schrift den katholischen Glauben kraftvoll zu verteidigen. Höre auf seine Fürsprache. Lass alle, die nach der Wahrheit suchen, dich finden und erhalte deine Gläubigen im Bekenntnis zu dir. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "Hl. ",
+          "name": "Hl. Petrus Kanisius",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, du hast den heiligen Petrus Kanisius berufen, in Wort und Schrift den katholischen Glauben kraftvoll zu verteidigen. Höre auf seine Fürsprache. Lass alle, die nach der Wahrheit suchen, dich finden und erhalte deine Gläubigen im Bekenntnis zu dir. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "Hl. ",
+          "name": "Hl. Petrus Kanisius",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, du hast den heiligen Petrus Kanisius berufen, in Wort und Schrift den katholischen Glauben kraftvoll zu verteidigen. Höre auf seine Fürsprache. Lass alle, die nach der Wahrheit suchen, dich finden und erhalte deine Gläubigen im Bekenntnis zu dir. Darum bitten wir durch Jesus Christus."
@@ -1533,6 +1530,7 @@ export const adlibData = {
         },
         "Laudes": {
           "name": "Hl. Florian und hll. Märtyrer von Lorch",
+          "farbe": "r",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Großer und starker Gott, du hast dem heiligen Florian und seinen Gefährten die Gnade geschenkt, den Glauben an Christus durch ihr Sterben zu bezeugen. Gewähre uns auf ihre Fürsprache Schutz und Hilfe und gib auch uns den Mut, den Glauben unerschrocken zu bekennen. Darum bitten wir durch Jesus Christus."
@@ -1629,6 +1627,7 @@ export const adlibData = {
         },
         "Laudes": {
           "name": "Hl. Nereus und Achilleus",
+          "farbe": "r",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, deine heiligen Märtyrer Nereus und Achilleus haben dich bis in den Tod mutig bekannt. Auf ihre Fürsprache hin stärke unseren Glauben und unsere Treue, damit auch wir ausharren bis ans Ende. Darum bitten wir durch Jesus Christus."
@@ -1656,6 +1655,7 @@ export const adlibData = {
         },
         "Laudes": {
           "name": "Hl. Pankratius",
+          "farbe": "r",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, höre auf die Fürsprache des heiligen Märtyrers Pankratius, dessen Gedenktag wir in Freude feiern. Schenke deiner Kirche Zuversicht und Gelassenheit, damit sie sich in der Bedrängnis nicht fürchte, sondern ausharre im Vertrauen auf Christus Jesus, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
@@ -1705,6 +1705,7 @@ export const adlibData = {
         },
         "Laudes": {
           "name": "Hl. Johannes Nepomuk",
+          "farbe": "r",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger, ewiger Gott, du hast dem heiligen Johannes Nepomuk geholfen, bis zur Hingabe seines Lebens die Rechte der Kirche zu verteidigen. Auf seine Fürbitte hin gib uns den Mut, für Gerechtigkeit und Wahrheit einzutreten. Darum bitten wir durch Jesus Christus."
@@ -1812,6 +1813,7 @@ export const adlibData = {
         },
         "Laudes": {
           "name": "Hl. Christopher Magallanes und Gefährten",
+          "farbe": "r",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
@@ -2087,6 +2089,7 @@ export const adlibData = {
         },
         "Laudes": {
           "name": "Hll. Eoban, Adelar und übrige Gefährten des hl. Bonifatius",
+          "farbe": "r",
           "comm_1": "Commune mehrere Märtyrer",
           "comm_2": "Comm_2",
           "Ant_Ev": "Die mit dem heiligen Bonifatius die Saat des ewigen Lebens ausstreuten, waren ein Herz und eine Seele und erlangten vereint die eine Palme des Martyriums.",
@@ -2175,6 +2178,7 @@ export const adlibData = {
         },
         "Laudes": {
           "name": "Hl. Vitus",
+          "farbe": "r",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Barmherziger Gott, mit deiner Kraft hat der heilige Vitus in jugendlichem Alter die Qualen des Martyriums bestanden. Wir ehren sein Andenken und empfehlen dir alle, deren Glaube bedroht ist. Stärke sie in der Hoffnung und festige sie in der Liebe. Darum bitten wir durch Jesus Christus."
@@ -2289,6 +2293,7 @@ export const adlibData = {
         },
         "Laudes": {
           "name": "Hl. John Fisher und Thomas Morus",
+          "farbe": "r",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Heiliger Gott, du hast die Glaubenstreue des Bischofs John Fisher und des Kanzlers Thomas Morus im Martyrium erprobt und zur Vollendung geführt. Höre auf ihre Fürsprache und hilf uns, den Glauben, den wir mit Worten bekennen, in den Prüfungen des Lebens zu bezeugen. Darum bitten wir durch Jesus Christus."
@@ -2419,6 +2424,7 @@ export const adlibData = {
         },
         "Laudes": {
           "name": "Hl. Erste römische Märtyrer",
+          "farbe": "r",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Ev": "Die gewaltige Schar der Märtyrer verharrte in brüderlicher Liebe, denn EIN Geist und EIN Glaube beseelte sie.",
@@ -2563,6 +2569,7 @@ export const adlibData = {
         },
         "Laudes": {
           "name": "Hl. Maria Goretti",
+          "farbe": "r",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du bist die Quelle der Unschuld und liebst den Adel der Keuschheit. Du hast die heilige Maria Goretti früh zur Vollendung geführt und ihren Kampf um die Reinheit mit dem Martyrium gekrönt. Hilf uns auf ihre Fürspreche, treu und fest zu deinen Geboten zu stehen. Darum bitten wir durch Jesus Christus."
@@ -2648,6 +2655,7 @@ export const adlibData = {
         },
         "Laudes": {
           "name": "Hll. Kilian und Gefährten",
+          "farbe": "r",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger und barmherziger Gott, durch die Missionsarbeit des heiligen Kilian und seiner Gefährten hast du im fränkischen Land den christlichen Glauben grundgelegt. Auf die Fürsprache dieser Glaubensboten festige uns alle in der Treue zu unserem Herrn Jesus Christus, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
@@ -2670,6 +2678,7 @@ export const adlibData = {
         },
         "Laudes": {
           "name": "Hl. Augustinus Zhao Rong und Gefährten",
+          "farbe": "r",
           "comm_1": "Comm",
           "comm_2": "Comm_2"
         },
@@ -3343,6 +3352,7 @@ export const adlibData = {
         },
         "Laudes": {
           "name": "Hl. Maximilian Maria Kolbe",
+          "farbe": "r",
           "comm_1": "Märt",
           "comm_2": "Ord",
           "oration": "Gott, in deiner Kraft hat der heilige Maximilian Kolbe die Qualen des Martyriums ausgehalten und sein Leben für den Bruder in Christus hingegeben. Sieh auf unsere Schwachheit und gib uns die Kraft, deine Wahrheit und deine Liebe in unserem Leben und Sterben zu bezeugen. Darum bitten wir durch Jesus Christus."
@@ -3720,6 +3730,7 @@ export const adlibData = {
         },
         "Laudes": {
           "name": "Hll. Mauritius und Gefährten",
+          "farbe": "r",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, du hast dem heiligen Märtyrer Mauritius und seinen Gefährten die Kraft gegeben, dem Glauben an Christus treu zu bleiben. Gib auch uns den Mut, dir mehr zu gehorchen als den Menschen. Darum bitten wir durch Jesus Christus."
@@ -3811,6 +3822,7 @@ export const adlibData = {
         },
         "Laudes": {
           "name": "Hl. Kosmas und hl. Damian",
+          "farbe": "r",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Erhabener Gott, am Gedenktag der heiligen Märtyrer Kosmas und Damian preisen wir deine Macht und Güte. Du hast ihnen ewigen Ruhm geschenkt, uns aber gewähre immer neu deine Hilfe. Darum bitten wir durch Jesus Christus."
@@ -4114,6 +4126,7 @@ export const adlibData = {
         },
         "Laudes": {
           "name": "Hl. Johannes de Brébeuf, Isaak Jogues und Gefährten",
+          "farbe": "r",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gütiger Gott, du hast durch die Predigt und das Martyrium des heiligen Johannes und seiner Gefährten die Anfänge der Kirche in Nordamerika geheiligt. Lass auf ihre Fürsprache in der ganzen Welt die Saat des Glaubens aufblühen und reifen. Darum bitten wir durch Jesus Christus."
@@ -4199,6 +4212,7 @@ export const adlibData = {
         },
         "Laudes": {
           "name": "Hl. Ursula und Gefährtinnen",
+          "farbe": "r",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du hast der heiligen Ursula und ihren Gefährtinnen Kraft und Standhaftigkeit im Martyrium gegeben und sie so zur Schau deiner Herrlichkeit geführt. Stärke uns auf ihre Fürbitte im Glauben und in der Liebe und gib uns ewige Gemeinschaft mit ihnen. Darum bitten wir durch Jesus Christus."
@@ -4739,6 +4753,7 @@ export const adlibData = {
         },
         "Laudes": {
           "name": "Hl. Katharina von Alexandrien",
+          "farbe": "r",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Herr, unser Gott, du offenbarst uns in der Bedrängnis die Macht deines Erbarmens. Von dir empfing die heilige Katharina die Gnade, das Martyrium zu bestehen. Von dir komme auch uns die Kraft, in aller Not auf deine Hilfe zu vertrauen. Darum bitten wir durch Jesus Christus."
@@ -4875,6 +4890,7 @@ export const adlibData = {
         },
         "Laudes": {
           "name": "Hl. Barbara",
+          "farbe": "r",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Allmächtiger Gott, du hast der heiligen Märtyrin Barbara die Kraft gegeben, bis in den Tod dir treu zu bleiben. Im Vertrauen auf ihre Fürsprache bitten wir dich: Steh uns bei in jeder Not und Gefahr und stärke uns in der Todesstunde mit dem Leib und Blut deines Sohnes, unseres Herrn Jesus Christus, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
@@ -5008,6 +5024,7 @@ export const adlibData = {
         },
         "Laudes": {
           "name": "Hl. Nikolaus",
+          "farbe": "r",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Spender alles Guten, hilf uns auf die Fürsprache des heiligen Nikolaus in aller Not und steh uns bei in jeder Gefahr. Gib uns ein großmütiges Herz, damit wir anderen schenken, was wir empfangen, und den Weg des Heiles ungehindert gehen. Darum bitten wir durch Jesus Christus."
@@ -5037,6 +5054,7 @@ export const adlibData = {
         },
         "Laudes": {
           "name": "Hl. Liborius Wagner",
+          "farbe": "r",
           "comm_1": "Märt",
           "comm_2": "Hirten",
           "Ant_Ev": "Des alten Glaubens neuer Zeuge, ward Liborius in seinem Leiden den Märtyrern der frühen Kirche gleich. So sollte Gott in seinem treuen Knecht verherrlicht werden.",
@@ -5145,6 +5163,7 @@ export const adlibData = {
         },
         "Laudes": {
           "name": "Hl. Luzia",
+          "farbe": "r",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Ev": "Ich habe keinem anderen geopfert als dem lebendigen Gott. Nun, da mir nichts mehr geblieben ist, bringe ich mich selbst zum Opfer dar.",
@@ -5161,7 +5180,7 @@ export const adlibData = {
     },
     "23": {
       "n1": {
-        "name": "^o+ Hl. Johannes von Krakau^0o+^o>^t^fVom Wochentag^n – 4. Woche im Advent^0o>",
+        "name": "Hl. Johannes von Krakau",
         "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
@@ -5175,14 +5194,14 @@ export const adlibData = {
           "oration": "Barmherziger Gott, das Beispiel des heiligen Johannes von Krakau helfe uns, immer tiefer einzudringen in die Weisheit der Heiligen: dich über alles lieben und den Menschen Gutes tun. Seine Fürsprache erwirke uns deine Verzeihung. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "^o+ Hl. Johannes von Krakau^0o+^o>^t^fVom Wochentag^n – 4. Woche im Advent^0o>",
+          "name": "Hl. Johannes von Krakau",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Daran werden alle erkennen, dass ihr meine Jünger seid:^lwenn ihr einander liebt.",
           "oration": "Barmherziger Gott, das Beispiel des heiligen Johannes von Krakau helfe uns, immer tiefer einzudringen in die Weisheit der Heiligen: dich über alles lieben und den Menschen Gutes tun. Seine Fürsprache erwirke uns deine Verzeihung. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "^o+ Hl. Johannes von Krakau^0o+^o>^t^fVom Wochentag^n – 4. Woche im Advent^0o>",
+          "name": "Hl. Johannes von Krakau",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Amen, ich sage euch:^lWas ihr dem Geringsten meiner Brüder getan habt, das habt ihr mir getan.^lKommt, ihr Gesegneten meines Vaters, nehmt das Reich in Besitz,^ldas seit Anfang der Welt für euch bestimmt ist.",
@@ -5192,7 +5211,7 @@ export const adlibData = {
     },
     "29": {
       "n1": {
-        "name": "^o+ Hl. Thomas Becket^0o+^o>^t^f5. Tag der Weihnachtsoktav^n^ln. B. Komm des ^fhl. Thomas Becket^n, Bi, Märt (^o-s. o. Kap. II.C.4.^0o-^o+siehe unten^0o+^b+HINWEISE ZUR KOMMEMORATION£lAn den Wochentagen in der Zeit vom 17. bis 31. Dezember und an denen der Fastenzeit können Gedenktage (sowohl gebotene als auch nichtgebotene) nur kommemoriert werden. £lDie Kommemoration ist nie verpflichtend, auch nicht zu Heiligengedächtnissen, die sonst gebotene Gedenktage sind.£lDie Texte für die Kommemoration im Stundengebet finden sich oben.£lIn der Messe kann das Tagesgebet vom Heiligen genommen werden, nicht aber Gaben- und Schlussgebet. Die Lesungen werden vom Wochentag, nicht vom Heiligen genommen.^0b+)^0o>",
+        "name": "Hl. Thomas Becket",
         "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
@@ -5206,14 +5225,15 @@ export const adlibData = {
           "oration": "Allmächtiger Gott, du hast dem heiligen Thomas Becket Starkmut und Tapferkeit geschenkt, so dass er sein Leben für Recht und Gerechtigkeit hingab. Gib auch uns die Bereitschaft, unser Leben in dieser Welt um Christi Willen zu verlieren, damit wir es wiederfinden im Himmel. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "^o+ Hl. Thomas Becket^0o+^o>^t^f5. Tag der Weihnachtsoktav^n^ln. B. Komm des ^fhl. Thomas Becket^n, Bi, Märt (^o-s. o. Kap. II.C.4.^0o-^o+siehe unten^0o+^b+HINWEISE ZUR KOMMEMORATION£lAn den Wochentagen in der Zeit vom 17. bis 31. Dezember und an denen der Fastenzeit können Gedenktage (sowohl gebotene als auch nichtgebotene) nur kommemoriert werden. £lDie Kommemoration ist nie verpflichtend, auch nicht zu Heiligengedächtnissen, die sonst gebotene Gedenktage sind.£lDie Texte für die Kommemoration im Stundengebet finden sich oben.£lIn der Messe kann das Tagesgebet vom Heiligen genommen werden, nicht aber Gaben- und Schlussgebet. Die Lesungen werden vom Wochentag, nicht vom Heiligen genommen.^0b+)^0o>",
+          "name": "Hl. Thomas Becket",
+          "farbe": "r",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Wer sein Leben liebt, wird es verlieren;^ldoch wer in dieser Welt sein Leben hasst,^lder wird es bewahren für das ewige Leben.",
           "oration": "Allmächtiger Gott, du hast dem heiligen Thomas Becket Starkmut und Tapferkeit geschenkt, so dass er sein Leben für Recht und Gerechtigkeit hingab. Gib auch uns die Bereitschaft, unser Leben in dieser Welt um Christi Willen zu verlieren, damit wir es wiederfinden im Himmel. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "^o+ Hl. Thomas Becket^0o+^o>^t^f5. Tag der Weihnachtsoktav^n^ln. B. Komm des ^fhl. Thomas Becket^n, Bi, Märt (^o-s. o. Kap. II.C.4.^0o-^o+siehe unten^0o+^b+HINWEISE ZUR KOMMEMORATION£lAn den Wochentagen in der Zeit vom 17. bis 31. Dezember und an denen der Fastenzeit können Gedenktage (sowohl gebotene als auch nichtgebotene) nur kommemoriert werden. £lDie Kommemoration ist nie verpflichtend, auch nicht zu Heiligengedächtnissen, die sonst gebotene Gedenktage sind.£lDie Texte für die Kommemoration im Stundengebet finden sich oben.£lIn der Messe kann das Tagesgebet vom Heiligen genommen werden, nicht aber Gaben- und Schlussgebet. Die Lesungen werden vom Wochentag, nicht vom Heiligen genommen.^0b+)^0o>",
+          "name": "Hl. Thomas Becket",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Im himmlischen Reich ist die Wohnstatt der Heiligen.^lDort finden sie Ruhe auf ewig.",
@@ -5223,7 +5243,7 @@ export const adlibData = {
     },
     "31": {
       "n1": {
-        "name": "^o+ Hl. Silvester I.^0o+^o>^t^f7. Tag der Weihnachtsoktav^n^ln. B. Komm des ^fhl. Silvester I.^n, Pp (^o-s. o. Kap. II.C.4.^0o-^o+siehe unten^0o+^b+HINWEISE ZUR KOMMEMORATION£lAn den Wochentagen in der Zeit vom 17. bis 31. Dezember und an denen der Fastenzeit können Gedenktage (sowohl gebotene als auch nichtgebotene) nur kommemoriert werden. £lDie Kommemoration ist nie verpflichtend, auch nicht zu Heiligengedächtnissen, die sonst gebotene Gedenktage sind.£lDie Texte für die Kommemoration im Stundengebet finden sich oben.£lIn der Messe kann das Tagesgebet vom Heiligen genommen werden, nicht aber Gaben- und Schlussgebet. Die Lesungen werden vom Wochentag, nicht vom Heiligen genommen.^0b+)^0o>",
+        "name": "Hl. Silvester I.",
         "genitiv": "",
         "Lesehore": {
           "comm_1": "Comm",
@@ -5237,14 +5257,14 @@ export const adlibData = {
           "oration": "Gott, du Herr der Zeiten, höre auf die Fürsprache des heiligen Papstes Silvester und komme deinem Volk zu Hilfe. Führe es in diesem vergänglichen Leben, damit es einst zum unvergänglichen gelange und bei dir das ewige Glück finde. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "name": "^o+ Hl. Silvester I.^0o+^o>^t^f7. Tag der Weihnachtsoktav^n^ln. B. Komm des ^fhl. Silvester I.^n, Pp (^o-s. o. Kap. II.C.4.^0o-^o+siehe unten^0o+^b+HINWEISE ZUR KOMMEMORATION£lAn den Wochentagen in der Zeit vom 17. bis 31. Dezember und an denen der Fastenzeit können Gedenktage (sowohl gebotene als auch nichtgebotene) nur kommemoriert werden. £lDie Kommemoration ist nie verpflichtend, auch nicht zu Heiligengedächtnissen, die sonst gebotene Gedenktage sind.£lDie Texte für die Kommemoration im Stundengebet finden sich oben.£lIn der Messe kann das Tagesgebet vom Heiligen genommen werden, nicht aber Gaben- und Schlussgebet. Die Lesungen werden vom Wochentag, nicht vom Heiligen genommen.^0b+)^0o>",
+          "name": "Hl. Silvester I.",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "Ant_Komm": "Nicht ihr werdet reden,^lsondern der Geist eures Vaters redet durch euch.",
           "oration": "Gott, du Herr der Zeiten, höre auf die Fürsprache des heiligen Papstes Silvester und komme deinem Volk zu Hilfe. Führe es in diesem vergänglichen Leben, damit es einst zum unvergänglichen gelange und bei dir das ewige Glück finde. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "name": "^o+ Hl. Silvester I.^0o+^o>^t^f7. Tag der Weihnachtsoktav^n^ln. B. Komm des ^fhl. Silvester I.^n, Pp (^o-s. o. Kap. II.C.4.^0o-^o+siehe unten^0o+^b+HINWEISE ZUR KOMMEMORATION£lAn den Wochentagen in der Zeit vom 17. bis 31. Dezember und an denen der Fastenzeit können Gedenktage (sowohl gebotene als auch nichtgebotene) nur kommemoriert werden. £lDie Kommemoration ist nie verpflichtend, auch nicht zu Heiligengedächtnissen, die sonst gebotene Gedenktage sind.£lDie Texte für die Kommemoration im Stundengebet finden sich oben.£lIn der Messe kann das Tagesgebet vom Heiligen genommen werden, nicht aber Gaben- und Schlussgebet. Die Lesungen werden vom Wochentag, nicht vom Heiligen genommen.^0b+)^0o>",
+          "name": "Hl. Silvester I.",
           "comm_1": "Comm",
           "comm_2": "Comm_2",
           "oration": "Gott, du Herr der Zeiten, höre auf die Fürsprache des heiligen Papstes Silvester und komme deinem Volk zu Hilfe. Führe es in diesem vergänglichen Leben, damit es einst zum unvergänglichen gelange und bei dir das ewige Glück finde. Darum bitten wir durch Jesus Christus."
