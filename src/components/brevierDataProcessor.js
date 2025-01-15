@@ -385,7 +385,7 @@ export function processBrevierData(liturgicalInfo) {
                         mergeData(sourceData, sourceKey);
                         // Verarbeite Commune-Texte für diese n-Quelle
                         Object.keys(hours).forEach(hour => {
-                            if (hours[hour][sourceKey]?.comm) {
+                            if (hours[hour][sourceKey]?.comm_1) {
                                 // Allgemeine Commune-Texte
                                 const communeEach1Data = brevierData?.['com']?.[hours[hour][sourceKey].comm_1]?.['each'];
                                 if (communeEach1Data) mergeData(communeEach1Data, ncom1SourceKey);

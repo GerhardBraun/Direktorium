@@ -1042,7 +1042,10 @@ const PrayerMenu = ({ title, onSelectHour, setViewMode,
                                     {['terz', 'sext', 'non'].map(tsnHour => (
                                         <button
                                             key={tsnHour}
-                                            onClick={() => onSelectHour(tsnHour, prayerTexts)}
+                                            onClick={() => {
+                                                console.log('Daten:', { hour, texts: prayerTexts });
+                                                onSelectHour(tsnHour, prayerTexts)
+                                            }}
                                             className="flex-1 p-3 text-center rounded-lg bg-gray-100 dark:bg-gray-800 
                                                 hover:bg-gray-200 dark:hover:bg-gray-700 
                                                 text-gray-900 dark:text-gray-100"
@@ -1060,7 +1063,10 @@ const PrayerMenu = ({ title, onSelectHour, setViewMode,
                     return (
                         <button
                             key={hour}
-                            onClick={() => onSelectHour(hour, prayerTexts)}
+                            onClick={() => {
+                                console.log('Daten:', { hour, texts: prayerTexts });
+                                onSelectHour(hour, prayerTexts)
+                            }}
                             className="w-full p-3 text-center rounded-lg bg-gray-100 dark:bg-gray-800 
                                 hover:bg-gray-200 dark:hover:bg-gray-700 
                                 text-gray-900 dark:text-gray-100"
@@ -1843,7 +1849,7 @@ const PrayerTextDisplay = ({
                     </div>)
                 }
             </div>
-            <div className="mt-1">
+            <div className="mt-2">
                 <BackButton onClick={onBack} />
             </div>
         </div>
