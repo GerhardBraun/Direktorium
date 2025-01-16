@@ -2568,7 +2568,7 @@ export default function LiturgicalCalendar() {
     const baseStyle = {
         fontFamily,
         fontSize: `${baseFontSize}pt`,
-        lineHeight: '1.2',
+        lineHeight: '1.3',
         margin: 0
     };
 

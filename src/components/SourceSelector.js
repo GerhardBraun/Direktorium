@@ -35,7 +35,7 @@ const SourceSelector = ({
         <div className={`space-y-1 ${className}`}>
             {/* Bezeichnung Hochfest/Fest/Gedenktag */}
             {hasValidSource(prayerTexts, 'eig') && !hasValidSource(prayerTexts, 'n1') && (
-                <>  <div className="text-center text-[1.1em] font-bold text-gray-900 dark:text-gray-100">
+                <>  <div className="text-center text-xl font-bold text-gray-900 dark:text-gray-100">
                     {prayerTexts.laudes?.eig?.name || "Hochfest/Fest/Gedenktag"}
                 </div>
                 </>
