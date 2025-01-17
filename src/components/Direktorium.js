@@ -1227,10 +1227,22 @@ const PrayerTextDisplay = ({
 
     // Component for section headers with source indicators
     const SectionHeader = ({ title, field, latinField, askContinuous, askTSN, onSelectHour }) => {
-        const { hasEig, hasWt, nameComm1, nameComm2, showSources, showComm2 } = checkSources(field);
+        const { hasEig, hasWt, nameComm1, nameComm2, showSources, showComm2 } =
+            checkSources(field);
         const hasLatin = latinField && texts[hour]['wt']?.[latinField];
         const showContinuous = hasEig && hasWt && askContinuous && hour === 'lesehore';
         const showTSN = askTSN && ["terz", "sext", "non"].includes(hour);
+        // Prüfe, ob Commune übersprungen werden soll
+        const skipCommune = rank_date < 3 && (
+            // Bedingung 1: Lesehore
+            (hour === 'lesehore' && !field.startsWith('hymn_') && field !== 'oration') ||
+            // Bedingung 2: Laudes/Vesper Psalmodie
+            ((hour === 'laudes' || hour === 'vesper') &&
+                (field.startsWith('ps_') ||
+                    (field.startsWith('ant_') && !field.startsWith('ant_ev')))) ||
+            // Bedingung 3: Kleinen Horen
+            ['terz', 'sext', 'non'].includes(hour)
+        );
 
         if (title === "RESPONSORIUM" ||
             (!showSources && !hasLatin && !showContinuous && !showTSN)) {
@@ -1268,7 +1280,7 @@ const PrayerTextDisplay = ({
                         </button>
                     </span>
                 )}
-                {showSources && (
+                {showSources && !skipCommune && (
                     <span className="font-normal text-[0.85em]">
                         <button
                             onClick={() => setLocalPrefComm(1)}

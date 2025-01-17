@@ -1714,7 +1714,9 @@ export const psalmsData = {
   },
   158: {
     0.0: {
-        "verses": "1 Petr 2,21–22"
+        "verses": "vgl. 1 Petr 2,21–24",
+        "title": "Das freiwillige Leiden des Gottesknechtes",
+        "text": "Christus hat für uns gelitten^+und uns ein Beispiel gegeben,^*damit ihr ihm folgen auf seinem Weg.^pEr hat keine Sünde begangen^*und in seinem Mund war keine Falschheit.^pAls er geschmäht wurde, schmähte er nicht,^+als er litt, drohte er nicht,^*sondern überließ seine Sache dem gerechten Richter.^pEr hat unsere Sünden mit seinem eigenen Leib^+auf das Holz des Kreuzes getragen,^*damit wir tot sind für die Sünden und leben für die Gerechtigkeit.^pDurch seine Wunden^*seid ihr geheilt."
       }
   },
   159: {
@@ -2494,7 +2496,7 @@ export const psalmsData = {
   },
   1201: {
     0.0: {
-        "text": "Hört, eine helle Stimme ruft"
+        "text": "Hört, eine helle Stimme ruft^lund dringt durch Nacht und Finsternis:^lWacht auf und lasset Traum und Schlaf -^lam Himmel leuchtet Christus auf.^pDies ist der Hoffnung lichte Zeit;^lder Morgen kommt, der Tag bricht an:^lEin neuer Stern geht strahlend auf,^lvor dessen Schein das Dunkel flieht.^pVom Himmel wird als Lamm gesandt,^lder alle Sünde auf sich nimmt.^lWir blicken gläubig zu ihm auf^lund bitten ihn um sein Verzeihn,^pdass, wenn im Licht er wiederkommt,^lsein Glanz die Welt mit Schrecken schlägt,^ler nicht die Sünde strafend rächt,^luns liebend vielmehr bei sich birgt.^pRuhm, Ehre, Macht und Herrlichkeit^lsei Gott dem Vater und dem Sohn,^ldem Geiste, der uns Beistand ist,^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   1301: {
@@ -2580,7 +2582,7 @@ export const psalmsData = {
   3201: {
     0.0: {
         "quote": "Fastenzeit",
-        "text": "Du Sonne der Gerechtigkeit"
+        "text": "Du Sonne der Gerechtigkeit,^lChristus vertreib in uns die Nacht,^ldass mit dem Licht des neuen Tags^lauch unser Herz sich neu erhellt.^pDu schenkst uns diese Gnadenzeit,^lgib auch ein reuevolles Herz^lund führe auf den Weg zurück,^ldie deine Langmut irren sah.^pEs kommt der Tag, dein Tag erscheint,^lda alles neu in Blüte steht;^lder Tag, der unsre Freude ist,^lder Tag der uns mit dir versöhnt.^pDir, höchster Gott, Dreifaltigkeit,^llobsinge alles, was da lebt.^lLass uns, durch deine Gnade neu,^ldich preisen durch ein neues Lied\"."
       }
   },
   3203: {
@@ -2592,7 +2594,7 @@ export const psalmsData = {
   3301: {
     0.0: {
         "quote": "Fastenzeit",
-        "text": "Nun ist sie da, die rechte Zeit"
+        "text": "Nun ist sie da, die rechte Zeit,^ldie Gottes Huld uns wieder schenkt,^lnun ist er da, der Tag des Heils,^lerfüllt von Christi hellem Licht.^pJetzt soll sich unser ganzes Herz ^ldurch Fasten und Gebet erneun, ^lund durch Entsagung werde stark, ^lwas müde ist und schwach und krank.^pLass uns, o Herr, mit Geist und Leib ^ldas Werk der Buße freudig tun, ^ldass wir den Übergang bestehn ^lzum Pascha, das kein Ende kennt.^pDir, höchster Gott, Dreifaltigkeit, ^llobsinge alles, was da lebt. ^lLass uns, durch deine Gnade neu, ^ldich preisen durch ein neues Lied."
       }
   },
   3302: {
@@ -2610,7 +2612,7 @@ export const psalmsData = {
   3401: {
     0.0: {
         "quote": "Fastenzeit",
-        "text": "Nun ruft ein heil’ges Fasten aus"
+        "text": "Nun ruft ein heil’ges Fasten aus,^lwie es die Väter uns gelehrt.^lGekommen ist im Jahreslauf^lder vierzig Tage heil’ge Zeit.^p^lSo hat es das Gesetz verlangt^lso der Propheten ernster Ruf.^lUnd Christus selbst hat diese Zeit^lgeheiligt durch sein eignes Tun.^p^lNach seinem Beispiel lasst auch uns^ldas Fasten üben in Geduld,^luns Abbruch tun in Speis und Trank,^lnachsinnen über Gottes Wort.^p^lDas Böse schwinde kraftlos hin,^ldas Gute blühe machtvoll auf,^lVersöhnung finde jedes Herz,^ldas sich dem Werk der Busse weiht.^p^lDir, höchster Gott, Dreifaltigkeit,^llobsinge alles, was da lebt.^lLass uns, durch deine Gnade neu,^ldich preisen durch ein neues Lied."
       }
   },
   3402: {
@@ -2640,13 +2642,13 @@ export const psalmsData = {
   4204: {
     0.0: {
         "quote": "Osterzeit",
-        "text": "Du höchster Herr der Ewigkeit"
+        "text": "Du höchster Herr der Ewigkeit,^ldu Retter der verlornen Welt,^ldurch den der Tod vernichtet ist,^ldas Leben siegreich triumphiert.^pZum Thron des Vaters steigst du auf^lund nimmst zu seiner Rechten Platz;^lder dich erhöht in Herrlichkeit,^ler setzt dich ein in seine Macht.^pIn Ehrfurcht beugen sich vor dir^lder Himmel und das Erdenrund^lund selbst die Unterwelt bekennt:^lDu bist der Herr der ganzen Welt.^pDie Engel nehmen staunend wahr,^lwie sich des Menschen Los gewandt:^lWas Menschen fehlten, sühnt ein Mensch^lund herrscht auf ewig: Mensch und Gott.^pDir, Herr, sei Ruhm und Herrlichkeit,^ldem Sieger, der zur Höhe fährt,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   4301: {
     0.0: {
         "quote": "Osterzeit",
-        "text": "Zum Mahl des Lammes schreiten wir"
+        "text": "Zum Mahl des Lammes schreiten wir ^lmit weißen Kleidern angetan, ^lChristus, dem Sieger, singen wir, ^lder uns durchs Rote Meer geführt.^pAm Kreuze gab er seinen Leib ^lfür alle Welt zum Opfer hin;^lund wer von seinem Blute trinkt, ^lwird eins mit ihm und lebt mit ihm.^pAm Pascha-Abend weist das Blut ^lden Würgeengel von der Tür:^lWir sind befreit aus harter Fron ^lund von der Knechtschaft Pharaos.^pChristus ist unser Osterlamm, ^ldas uns zum Heil geschlachtet ward. ^lEr reicht uns seinen heil’gen Leib ^lals Brot, das uns sein Leben schenkt.^pLamm Gottes, wahres Opferlamm, ^ldurch das der Hölle Macht zerbrach!^lDen Kerker hast du aufgesprengt, ^lzu neuem Leben uns befreit.^pErstanden ist der Herr vom Grab, ^lkehrt siegreich aus dem Tod zurück. ^lGefesselt ist der Fürst der Welt, ^lund offen steht das Paradies.^pDem Herrn sei Preis und Herrlichkeit, ^lder aus dem Grabe auferstand,^ldem Vater und dem Geist zugleich ^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   4302: {
@@ -2682,7 +2684,7 @@ export const psalmsData = {
   4404: {
     0.0: {
         "quote": "Osterzeit",
-        "text": "Großer, heiliger Tag"
+        "text": "Großer, heiliger Tag,^lder du uns Freude bringst^lund mit heiterem Lied^lunsere Herzen füllst,^ldu sahst Christus den Herrn,^lwie er zum Throne schritt^lhoch im Reich seiner neuen Macht.^p^lJubelnd in seiner Kraft^lsteigt er zum Himmelszelt,^lund das heilige Volk^lrühmt den Erstandenen,^lmit den Engeln im Chor^lstimmt es ein Preislied an^lauf des herrlichen Siegers Huld.^p^lDer auf steigender Bahn^lFessel in Fesseln schlug^lund der irdischen Schar^lreiche Geschenke ließ,^lkehrt als Richter zurück,^lstreng in Gerechtigkeit,^ler, der strahlend jetzt aufwärts fuhr.^p^lHerr, wir flehen zu dir,^lder du als König herrschst,^lnimm in gnädigen Schutz^ldeine Getreuen auf.^lWenn als Richter du kommst,^lHeimliches offenbarst,^llass des Lohnes uns würdig sein.^p^lVater, Schöpfer des Alls,^ldir gebührt Lobgesang^lund dem Sohne, der jetzt^lzu deiner Rechten thront,^lauch dem Geiste, dem Band,^ldas euch in Liebe eint,^lPreis und Ehre in Ewigkeit."
       }
   },
   71068: {
@@ -2784,7 +2786,7 @@ export const psalmsData = {
   81012: {
     0.0: {
         "quote": "Gottesmutter",
-        "text": "Du große Herrin, schönste Frau"
+        "text": "Du große Herrin, schönste Frau,^lhoch über Sternen steht dein Thron.^lDu trugst den Schöpfer, der dich schuf,^lund nährtest ihn an deiner Brust.^pWas Eva einst verloren sah,^lgibst du im Sohne reich zurück.^lDer Himmel öffnet sich in dir;^lzur Heimkehr steht der Weg uns frei.^pDu Pforte für den Königssohn,^ldes neuen Lebens helles Tor,^lin dir grüßt jauchzend alle Welt^ldas Leben, das du ihr geschenkt.^pHerr Jesus, dir sei Ruhm und Preis,^lGott, den die Jungfrau uns gebar,^lLob auch dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   81014: {
