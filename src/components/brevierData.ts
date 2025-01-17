@@ -925,8 +925,27 @@ export const brevierData = {
     },
     "Hirten": {
       "each": {
+        "ErsteV": {
+          "hymn_1": 71151.0,
+          "ps_1": 113.0,
+          "ps_2": 146.0,
+          "ps_3": 152.0,
+          "ant_1": "Ich gebe euch Hirten nach meinem Herzen; mit Einsicht und Klugheit werden sie euch weiden.^ö",
+          "ant_2": "Die verirrten Schafe will ich suchen, heimführen die verlorenen. Ich will ihr Hirt sein und für sie sorgen.^ö",
+          "ant_3": "Der Gute Hirt gibt sein Leben hin für seine Schafe.^ö",
+          "les_buch": "1 Petr",
+          "les_stelle": "5,1-4",
+          "les_text": "Eure Ältesten ermahne ich, da ich ein Ältester bin wie sie und ein Zeuge der Leiden Christi und auch an der Herrlichkeit teilhaben soll, die sich offenbaren wird: Sorgt als Hirten für die euch anvertraute Herde Gottes, nicht aus Zwang, sondern freiwillig, wie Gott es will; auch nicht aus Gewinnsucht, sondern aus Neigung; seid nicht Beherrscher eurer Gemeinden, sondern Vorbilder für die Herde! Wenn dann der oberste Hirt erscheint, werdet ihr den nie verwelkenden Kranz der Herrlichkeit empfangen.",
+          "resp1_1": "Preist den Herrn, ihr Priester des Herrn,",
+          "resp1_2": "lobt und erhebt ihn in Ewigkeit.",
+          "resp1_3": "Ihr demütigen Herzen und ihr Frommen, 2",
+          "ant_ev": "^rFür einen Papst oder einen Bischof:^0r^lDu Priester des Höchsten, Spiegel aller Tugenden, des Volkes guter Hirte, der dem Herrn gefiel!^ö^p^rFür einen Priester:^0r^l^rAnt.°°^0rAllen bin ich alles geworden, um alle zu retten.^ö",
+          "bitten_e": "Lasst uns beten zu Jesus Christus, dem Hirten seines Volkes:",
+          "bitten_r": "Herr, komm deinem Volk zu Hilfe.",
+          "bitten": "Du hast deiner Kirche immer wieder heilige Priester als Hirten geschenkt;^qsende deinen Gläubigen allezeit gute Seelsorger.^pDu hast den Hirten der Kirche den Dienst der Versöhnung anvertraut;^qgib, dass sie ihn treu verwalten.^pDu bist es, der den Seelsorgern Kraft von oben verleiht;^qerfülle alle, die dein Volk führen, mit Heiligem Geist.^pDu selber bist das Erbteil aller, die du zu Seelsorgern berufen hast;^qlass keinen von ihnen verlorengehen.^pDu bist der ewige Lohn deiner Diener;^qschenke den verstorbenen Seelsorgern und allen Gläubigen das ewige Leben."
+        },
         "Invitatorium": {
-          "ant_0": "Christus, den obersten Hirten der Kirche – kommt, wir beten ihn an!"
+          "ant_0": "Christus, den obersten Hirten der Kirche – kommt, wir beten ihn an!^ö"
         },
         "Laudes": {
           "name": "Hi",
@@ -946,7 +965,7 @@ export const brevierData = {
           "ant_ev": "Nicht ihr werdet reden, sondern der Geist eures Vaters redet durch euch.^ö",
           "bitten_e": "Gepriesen sei Jesus Christus, der Gute Hirt, der sein Leben hingegeben hat für die Seinen. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, sei du der Hirte deines Volkes.",
-          "bitten": "Du hast im Wirken des heiligen N. deine Liebe sichtbar gemacht;^qlass uns heute auf seine Fürbitte dein Erbarmen erfahren.^pDu hast durch große Seelsorger immer wieder deine Kirche erneuert;^qschenke uns auf ihre Fürbitte die Gnade der Bekehrung.^pDurch den Dienst heiliger Seelsorger hast du dich der Armen und Schwachen angenommen;^qschenke uns auf ihre Fürsprache die Kraft, den Schwachen zu dienen.^pDurch die Predigt und das Beispiel heiliger Seelsorger hast du vielen den Weg zum Himmel gewiesen;^qhilf uns, auf ihre Fürsprache diesen Weg zu finden."
+          "bitten": "Du hast im Wirken des heiligen ^N deine Liebe sichtbar gemacht;^qlass uns heute auf seine Fürbitte dein Erbarmen erfahren.^pDu hast durch große Seelsorger immer wieder deine Kirche erneuert;^qschenke uns auf ihre Fürbitte die Gnade der Bekehrung.^pDurch den Dienst heiliger Seelsorger hast du dich der Armen und Schwachen angenommen;^qschenke uns auf ihre Fürsprache die Kraft, den Schwachen zu dienen.^pDurch die Predigt und das Beispiel heiliger Seelsorger hast du vielen den Weg zum Himmel gewiesen;^qhilf uns, auf ihre Fürsprache diesen Weg zu finden."
         },
         "Lesehore": {
           "hymn_1": 402.0,
@@ -958,262 +977,287 @@ export const brevierData = {
           "ant_3": "Du guter und treuer Knecht, nimm teil an der Freude deines Herrn.^ö",
           "resp0_0": "Aus meinem Mund wirst du das Wort vernehmen.^ö",
           "resp0_1": "Und in meinem Auftrag wirst du es verkünden.^ö",
-          "les_buch": "Aus dem Brief an Titus.",
-          "les_stelle": "1,7-11;2,1-8",
-          "les_text": "^hEigenschaften und Pflichten eines Bischofs^pEin Bischof muss …",
-          "resp1_1": "com-Hirten-each-Lesehore-Resp1_1",
-          "resp1_2": "com-Hirten-each-Lesehore-Resp1_2",
-          "resp1_3": "com-Hirten-each-Lesehore-Resp1_3",
-          "patr_autor": "com-Hirten-each-Lesehore-Patr_Autor",
-          "patr_text": "com-Hirten-each-Lesehore-Patr_Text",
-          "patr_resp1": "com-Hirten-each-Lesehore-Patr_Resp1",
-          "patr_resp2": "com-Hirten-each-Lesehore-Patr_Resp2",
-          "patr_resp3": "com-Hirten-each-Lesehore-Patr_Resp3"
+          "les_buch": "",
+          "les_stelle": "",
+          "les_text": "",
+          "resp1_0": "",
+          "resp1_1": "",
+          "resp1_2": "",
+          "resp1_3": "",
+          "patr_autor": "",
+          "patr_werk": "",
+          "patr_text": "",
+          "patr_resp1": "",
+          "patr_resp2": "",
+          "patr_resp3": ""
         },
         "Non": {
-          "ant_1": "com-Hirten-each-Non-ant_1",
-          "ant_2": "com-Hirten-each-Non-ant_2",
-          "ant_3": "com-Hirten-each-Non-ant_3",
-          "les_buch": "com-Hirten-each-Non-Les_Buch",
-          "les_stelle": "com-Hirten-each-Non–Les_Stelle",
-          "les_text": "com-Hirten-each-Non-Les_Text",
-          "resp1_0": "com-Hirten-each-Non-Resp1_0",
-          "resp1_1": "com-Hirten-each-Non-Resp1_1"
+          "ant_0": "Wir sind Mitarbeiter Gottes; ihr seid Gottes Ackerfeld, ihr seid Gottes Bau.^ö",
+          "les_buch": "1 Tim",
+          "les_stelle": "3,13",
+          "les_text": "Wer seinen Dienst gut versieht, erlangt einen hohen Rang und große Zuversicht im Glauben an Christus Jesus.",
+          "resp1_0": "Wenn nicht der Herr das Haus baut.^ö",
+          "resp1_1": "Mühn sich umsonst, die daran bauen.^ö"
         },
         "Sext": {
-          "ant_1": "com-Hirten-each-Sext-ant_1",
-          "ant_2": "com-Hirten-each-Sext-ant_2",
-          "ant_3": "com-Hirten-each-Sext-ant_3",
-          "les_buch": "com-Hirten-each-Sext-Les_Buch",
-          "les_stelle": "com-Hirten-each-Sext–Les_Stelle",
-          "les_text": "com-Hirten-each-Sext-Les_Text",
-          "resp1_0": "com-Hirten-each-Sext-Resp1_0",
-          "resp1_1": "com-Hirten-each-Sext-Resp1_1"
+          "ant_0": "Wer euch aufnimmt, der nimmt mich auf, und wer mich aufnimmt, nimmt den auf, der mich gesandt hat.^ö",
+          "les_buch": "1 Tim",
+          "les_stelle": "1,12",
+          "les_text": "Ich danke dem, der mir Kraft gegeben hat: Christus Jesus, unserem Herrn. Er hat mich für treu gehalten und in seinen Dienst genommen.",
+          "resp1_0": "Ich schäme mich nicht des Evangeliums.^ö",
+          "resp1_1": "Es ist eine Kraft, die uns rettet.^ö"
         },
         "Terz": {
-          "ant_1": "com-Hirten-each-Terz-ant_1",
-          "ant_2": "com-Hirten-each-Terz-ant_2",
-          "ant_3": "com-Hirten-each-Terz-ant_3",
-          "les_buch": "com-Hirten-each-Terz-Les_Buch",
-          "les_stelle": "com-Hirten-each-Terz–Les_Stelle",
-          "les_text": "com-Hirten-each-Terz-Les_Text",
-          "resp1_0": "com-Hirten-each-Terz-Resp1_0",
-          "resp1_1": "com-Hirten-each-Terz-Resp1_1"
+          "ant_0": "Vater, wie du mich in die Welt gesandt hast, so sende ich sie in die Welt.^ö",
+          "les_buch": "1 Tim",
+          "les_stelle": "4,16",
+          "les_text": "Achte auf dich selbst und auf die Lehre; halte daran fest. Wenn du das tust, rettest du dich und alle, die auf dich hören.",
+          "resp1_0": "Der Herr hat ihn als seinen Knecht erwählt.^ö",
+          "resp1_1": "Jakob, sein Erbe, zu weiden.^ö"
         },
         "Vesper": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-Hirten-each-Vesper-ant_1",
-          "ant_2": "com-Hirten-each-Vesper-ant_2",
-          "ant_3": "com-Hirten-each-Vesper-ant_3",
-          "les_buch": "com-Hirten-each-Vesper-Les_Buch",
-          "les_stelle": "com-Hirten-each-Vesper–Les_Stelle",
-          "les_text": "com-Hirten-each-Vesper-Les_Text",
-          "resp1_1": "com-Hirten-each-Vesper-Resp1_1",
-          "resp1_2": "com-Hirten-each-Vesper-Resp1_2",
-          "resp1_3": "com-Hirten-each-Vesper-Resp1_3",
-          "ant_ev": "com-Hirten-each-Vesper-Ant_Ev",
-          "bitten_e": "com-Hirten-each-Vesper-Bitten_E",
-          "bitten_r": "com-Hirten-each-Vesper-Bitten_R",
-          "bitten": "com-Hirten-each-Vesper-Bitten"
+          "hymn_1": 71151.0,
+          "ps_1": 15.0,
+          "ps_2": 112.0,
+          "ps_3": 156.0,
+          "ant_1": "Ich diene dem Evangelium dank der Gnade, die mir Gott geschenkt hat durch sein mächtiges Wirken.^ö",
+          "ant_2": "Du bist der treue und kluge Knecht: Dich hat der Herr über sein Haus gesetzt.^ö",
+          "ant_3": "Meine Schafe werden meine Stimme hören. Dann wird nur eine Herde sein und ein Hirte.^ö",
+          "les_buch": "1 Petr",
+          "les_stelle": "5,1-4",
+          "les_text": "Eure Ältesten ermahne ich, da ich ein Ältester bin wie sie und ein Zeuge der Leiden Christi und auch an der Herrlichkeit teilhaben soll, die sich offenbaren wird: Sorgt als Hirten für die euch anvertraute Herde Gottes, nicht aus Zwang, sondern freiwillig, wie Gott es will; auch nicht aus Gewinnsucht, sondern aus Neigung; seid nicht Beherrscher eurer Gemeinden, sondern Vorbilder für die Herde! Wenn dann der oberste Hirt erscheint, werdet ihr den nie verwelkenden Kranz der Herrlichkeit empfangen.",
+          "resp1_1": "Das ist der Freund seiner Brüder,",
+          "resp1_2": "für das Heil seines Volkes tritt er ein vor Gott.",
+          "resp1_3": "Für seine Brüder gab er das Leben hin.",
+          "ant_ev": "Dies ist der treue und kluge Verwalter: Der Herr hat ihn eingesetzt, damit er seinen Dienern Nahrung gibt zur rechten Zeit.^ö^p^rOder:^0r^l^rAnt.°°^0rDank sei dir, Christus, guter Hirte! Du hast mich zur Herrlichkeit geführt, gib auch der Herde, die du mir anvertraut hast, Anteil an deiner Gnade auf ewig.^ö",
+          "bitten_e": "Lasst uns beten zu Jesus Christus, dem Hirten seines Volkes:",
+          "bitten_r": "Herr, komm deinem Volk zu Hilfe.",
+          "bitten": "Du hast deiner Kirche immer wieder heilige Priester als Hirten geschenkt;^qsende deinen Gläubigen allezeit gute Seelsorger.^pDu hast den Hirten der Kirche den Dienst der Versöhnung anvertraut;^qgib, dass sie ihn treu verwalten.^pDu bist es, der den Seelsorgern Kraft von oben verleiht;^qerfülle alle, die dein Volk führen, mit Heiligem Geist.^pDu selber bist das Erbteil aller, die du zu Seelsorgern berufen hast;^qlass keinen von ihnen verlorengehen.^pDu bist der ewige Lohn deiner Diener;^qschenke den verstorbenen Seelsorgern und allen Gläubigen das ewige Leben."
+        }
+      },
+      "Kl": {
+        "ErsteV": {
+          "les_buch": "Jak",
+          "les_stelle": "3,17-18",
+          "les_text": "Die Weisheit von oben ist erstens heilig, sodann friedlich, freundlich, gehorsam, voll Erbarmen und reich an guten Früchten, sie ist unparteiisch, sie heuchelt nicht. Wo Frieden herrscht, wird von Gott für die Menschen, die Frieden stiften, die Saat der Gerechtigkeit ausgestreut.",
+          "resp1_1": "Der Mund des Gerechten spricht Worte der Weisheit,",
+          "resp1_2": "und seine Zunge redet, was recht ist.",
+          "resp1_3": "Die Weisung Gottes trägt er im Herzen.",
+          "ant_ev": "Wer die Gebote Gottes hält und sie halten lehrt, der wird groß sein im Himmelreich.^ö"
+        },
+        "Invitatorium": {
+          "ant_0": "Christus, den Quell der Weisheit – kommt, wir beten ihn an!^ö"
+        },
+        "Laudes": {
+          "name": "Kl",
+          "les_buch": "Weish",
+          "les_stelle": "7,13-14",
+          "les_text": "Uneigennützig lernte ich, und neidlos gebe ich weiter; den Reichtum der Weisheit behalte ich nicht für mich. Ein unerschöpflicher Schatz ist sie für die Menschen; alle, die ihn erwerben, erlangen die Freundschaft Gottes. Sie sind empfohlen durch die Gaben der Unterweisung.",
+          "resp1_1": "Von ihrer Weisheit erzählt die Gemeinde,",
+          "resp1_2": "das Lob der Heiligen verkündet das ganze Volk.",
+          "resp1_3": "Ihr Name lebt weiter von Geschlecht zu Geschlecht.",
+          "ant_ev": "Die Weisen werden strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig.^ö"
+        },
+        "Lesehore": {
+          "hymn_1": 401.0
+        },
+        "Vesper": {
+          "les_buch": "Jak",
+          "les_stelle": "3,17-18",
+          "les_text": "Die Weisheit von oben ist erstens heilig, sodann friedlich, freundlich, gehorsam, voll Erbarmen und reich an guten Früchten, sie ist unparteiisch, sie heuchelt nicht. Wo Frieden herrscht, wird von Gott für die Menschen, die Frieden stiften, die Saat der Gerechtigkeit ausgestreut.",
+          "resp1_1": "Der Herr tat ihm den Mund auf",
+          "resp1_2": "inmitten der Kirche.",
+          "resp1_3": "Er gab ihm Weisheit und Einsicht in Fülle.",
+          "ant_ev": "O Lehrer des Glaubens und Licht der Kirche, du hast Gottes Weisung geliebt. Heiliger ^N, bitte für uns bei Gottes Sohn.^ö"
+        }
+      },
+      "o": {
+        "Laudes": {
+          "resp1_1": "Jerusalem, ich habe dir Wächter gegeben, den Namen Gottes sollen sie verkünden.",
+          "resp1_2": "Halleluja, halleluja."
+        },
+        "Vesper": {
+          "resp1_1": "Das ist der Freund seiner Brüder, für das Heil seines Volkes tritt er ein vor Gott.",
+          "resp1_2": "Halleluja, halleluja."
+        }
+      },
+      "oKl": {
+        "ErsteV": {
+          "les_buch": "Jak",
+          "les_stelle": "3,17-18",
+          "les_text": "Die Weisheit von oben ist erstens heilig, sodann friedlich, freundlich, gehorsam, voll Erbarmen und reich an guten Früchten, sie ist unparteiisch, sie heuchelt nicht. Wo Frieden herrscht, wird von Gott für die Menschen, die Frieden stiften, die Saat der Gerechtigkeit ausgestreut.",
+          "resp1_1": "Der Mund des Gerechten spricht Worte der Weisheit,",
+          "resp1_2": "und seine Zunge redet, was recht ist.",
+          "resp1_3": "Die Weisung Gottes trägt er im Herzen.",
+          "ant_ev": "Wer die Gebote Gottes hält und sie halten lehrt, der wird groß sein im Himmelreich.^ö"
+        },
+        "Invitatorium": {
+          "ant_0": "Christus, den Quell der Weisheit – kommt, wir beten ihn an!^ö"
+        },
+        "Laudes": {
+          "name": "Kl",
+          "les_buch": "Weish",
+          "les_stelle": "7,13-14",
+          "les_text": "Uneigennützig lernte ich, und neidlos gebe ich weiter; den Reichtum der Weisheit behalte ich nicht für mich. Ein unerschöpflicher Schatz ist sie für die Menschen; alle, die ihn erwerben, erlangen die Freundschaft Gottes. Sie sind empfohlen durch die Gaben der Unterweisung.",
+          "resp1_1": "Von ihrer Weisheit erzählt die Gemeinde,",
+          "resp1_2": "das Lob der Heiligen verkündet das ganze Volk.",
+          "resp1_3": "Ihr Name lebt weiter von Geschlecht zu Geschlecht.",
+          "ant_ev": "Die Weisen werden strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig.^ö"
+        },
+        "Lesehore": {
+          "hymn_1": 401.0
+        },
+        "Vesper": {
+          "les_buch": "Jak",
+          "les_stelle": "3,17-18",
+          "les_text": "Die Weisheit von oben ist erstens heilig, sodann friedlich, freundlich, gehorsam, voll Erbarmen und reich an guten Früchten, sie ist unparteiisch, sie heuchelt nicht. Wo Frieden herrscht, wird von Gott für die Menschen, die Frieden stiften, die Saat der Gerechtigkeit ausgestreut.",
+          "resp1_1": "Der Herr tat ihm den Mund auf",
+          "resp1_2": "inmitten der Kirche.",
+          "resp1_3": "Er gab ihm Weisheit und Einsicht in Fülle.",
+          "ant_ev": "O Lehrer des Glaubens und Licht der Kirche, du hast Gottes Weisung geliebt. Heiliger ^N, bitte für uns bei Gottes Sohn.^ö"
         }
       }
     },
     "Jgfr": {
       "each": {
+        "ErsteV": {
+          "hymn_1": 71185.0,
+          "ps_1": 113.0,
+          "ps_2": 147.2,
+          "ps_3": 152.0,
+          "ant_1": "Kommt, ihr Töchter, tretet vor den Herrn; und euer Antlitz wird leuchten.^ö",
+          "ant_2": "Wir folgen dir von ganzem Herzen. Wir fürchten dich und suchen dein Angesicht. Lass uns nicht zuschanden werden.^ö",
+          "ant_3": "Jubelt, ihr Jungfrauen Christi, der Herr ist euer Bräutigam auf ewig.^ö",
+          "les_buch": "1 Kor",
+          "les_stelle": "7,32.34",
+          "les_text": "Der Unverheiratete sorgt sich um die Sache des Herrn; er will dem Herrn gefallen. Die unverheiratete Frau und die Jungfrauen sorgen sich um die Sache des Herrn, um heilig zu sein an Leib und Geist.",
+          "resp1_1": "Mein Anteil ist der Herr,",
+          "resp1_2": "auf ihm ruht mein Vertrauen.",
+          "resp1_3": "Der Herr ist gütig zur Seele, die ihn sucht.",
+          "ant_ev": "Seht, nun folgt die Jungfrau dem Lamm, das für uns gekreuzigt ist. Furchtlos gab sie ihr Leben hin als makelloses Opfer für Gott.^ö"
+        },
         "Invitatorium": {
-          "ant_0": "com-Jgfr-each-Invitatorium-ant_0"
+          "ant_0": "Den Herrn, den König der Jungfrauen – kommt, wir beten ihn an!^ö^p^rOder:^0r^l^rAnt.°°^0rDas Lamm, dem die Jungfrauen folgen – kommt, wir beten es an!^ö"
         },
         "Laudes": {
           "name": "Jgfr",
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-Jgfr-each-Laudes-ant_1",
-          "ant_2": "com-Jgfr-each-Laudes-ant_2",
-          "ant_3": "com-Jgfr-each-Laudes-ant_3",
-          "les_buch": "com-Jgfr-each-Laudes-Les_Buch",
-          "les_stelle": "com-Jgfr-each-Laudes–Les_Stelle",
-          "les_text": "com-Jgfr-each-Laudes-Les_Text",
-          "resp1_1": "com-Jgfr-each-Laudes-Resp1_1",
-          "resp1_2": "com-Jgfr-each-Laudes-Resp1_2",
-          "resp1_3": "com-Jgfr-each-Laudes-Resp1_3",
-          "ant_ev": "com-Jgfr-each-Laudes-Ant_Ev",
-          "bitten_e": "com-Jgfr-each-Laudes-Bitten_E",
-          "bitten_r": "com-Jgfr-each-Laudes-Bitten_R",
-          "bitten": "com-Jgfr-each-Laudes-Bitten"
+          "hymn_1": 71185.0,
+          "ps_1": 66.0,
+          "ps_2": 160.0,
+          "ps_3": 149.0,
+          "ant_1": "Christus bekenne ich, nach Christus verlange ich, ich sehne mich, für immer bei Christus zu sein.^ö",
+          "ant_2": "Ihr Jungfrauen, preiset den Herrn: Der euch zu ungeteilter Liebe rief, er krönt in euch das Werk seiner Gnade.^ö",
+          "ant_3": "Einen strahlenden Sieg über Fleisch und Blut errangen die Heiligen; nun jubeln sie in der Herrlichkeit.^ö",
+          "les_buch": "Hld",
+          "les_stelle": "8,7",
+          "les_text": "Auch mächtige Wasser können die Liebe nicht löschen; auch Ströme schwemmen sie nicht weg. Böte einer für die Liebe den ganzen Reichtum seines Hauses, nur verachten würde man ihn.",
+          "resp1_1": "Mein Herz denkt an dein Wort:",
+          "resp1_2": "„Suchet mein Antlitz!“",
+          "resp1_3": "Dein Angesicht, Herr, will ich suchen.",
+          "ant_ev": "Die kluge Jungfrau ging Christus entgegen. Wie die Sonne strahlt sie im Chor der Heiligen.^ö",
+          "bitten_e": "Gepriesen sei Jesus Christus, denn er ist der Ruhm und die Krone der Jungfrauen. Zu ihm lasst uns beten:",
+          "bitten_r": "König der Jungfrauen, erhöre uns.",
+          "bitten": "Du hast Maria, deine Mutter, zur Königin der Jungfrauen erhoben;^qauf ihre Fürsprache schenke uns die Reinheit des Herzens.^pDir allein haben sich die heiligen Jungfrauen geweiht;^qgib, dass auch uns nichts von deiner Liebe trenne.^pDie heiligen Jungfrauen haben dir mit ungeteiltem Herzen gedient;^qgib, dass nichts uns hindere auf dem Weg zu dir.^pDu bist der Bräutigam, auf dessen Ankunft die heiligen Jungfrauen gewartet haben;^qgib, dass wir stets wachsam deine Wiederkunft erwarten."
         },
         "Lesehore": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-Jgfr-each-Lesehore-ant_1",
-          "ant_2": "com-Jgfr-each-Lesehore-ant_2",
-          "ant_3": "com-Jgfr-each-Lesehore-ant_3",
-          "resp0_0": "com-Jgfr-each-Lesehore-Resp0_0",
-          "resp0_1": "com-Jgfr-each-Lesehore-Resp0_1",
-          "les_buch": "com-Jgfr-each-Lesehore-Les_Buch",
-          "les_stelle": "com-Jgfr-each-Lesehore–Les_Stelle",
-          "les_text": "com-Jgfr-each-Lesehore-Les_Text",
-          "resp1_1": "com-Jgfr-each-Lesehore-Resp1_1",
-          "resp1_2": "com-Jgfr-each-Lesehore-Resp1_2",
-          "resp1_3": "com-Jgfr-each-Lesehore-Resp1_3",
-          "patr_autor": "com-Jgfr-each-Lesehore-Patr_Autor",
-          "patr_text": "com-Jgfr-each-Lesehore-Patr_Text",
-          "patr_resp1": "com-Jgfr-each-Lesehore-Patr_Resp1",
-          "patr_resp2": "com-Jgfr-each-Lesehore-Patr_Resp2",
-          "patr_resp3": "com-Jgfr-each-Lesehore-Patr_Resp3"
+          "hymn_1": 71177.0,
+          "ps_1": 19.1,
+          "ps_2": 45.1,
+          "ps_3": 45.2,
+          "ant_1": "O Jungfrau, strahlend im Glanz der Klugheit und Weisheit: das ewige Wort ist dein Bräutigam.^ö",
+          "ant_2": "Mehr als die ganze Welt und ihre Pracht galt mir die Liebe Jesu Christi, meines Herrn.^ö",
+          "ant_3": "Der König verlangt nach deiner Schönheit; er ist dein Herr und dein Gott.^ö",
+          "resp0_0": "Du zeigst mir den Pfad zum Leben.^ö",
+          "resp0_1": "Vor deinem Angesicht herrscht Freude in Fülle.^ö",
+          "les_buch": "",
+          "les_stelle": "",
+          "les_text": "",
+          "resp1_1": "",
+          "resp1_2": "",
+          "resp1_3": "",
+          "patr_autor": "",
+          "patr_werk": "",
+          "patr_text": "",
+          "patr_resp1": "",
+          "patr_resp2": "",
+          "patr_resp3": ""
         },
         "Non": {
-          "ant_1": "com-Jgfr-each-Non-ant_1",
-          "ant_2": "com-Jgfr-each-Non-ant_2",
-          "ant_3": "com-Jgfr-each-Non-ant_3",
-          "les_buch": "com-Jgfr-each-Non-Les_Buch",
-          "les_stelle": "com-Jgfr-each-Non–Les_Stelle",
-          "les_text": "com-Jgfr-each-Non-Les_Text",
-          "resp1_0": "com-Jgfr-each-Non-Resp1_0",
-          "resp1_1": "com-Jgfr-each-Non-Resp1_1"
+          "ant_0": "Wie schön ist ein keusches Geschlecht im Glanz seiner Tugend.^ö",
+          "les_buch": "Offb",
+          "les_stelle": "19,6b-7",
+          "les_text": "Denn der Herr ist König geworden, unser Gott, der Herrscher über die ganze Schöpfung! Wir wollen uns freuen und jubeln und ihm die Ehre erweisen! Denn die Hochzeit des Lammes ist gekommen, und seine Frau hat sich bereit gemacht.",
+          "resp1_0": "Ich fand ihn, den meine Seele liebt.^öIch halte ihn fest und will ihn nicht lassen.^ö"
         },
         "Sext": {
-          "ant_1": "com-Jgfr-each-Sext-ant_1",
-          "ant_2": "com-Jgfr-each-Sext-ant_2",
-          "ant_3": "com-Jgfr-each-Sext-ant_3",
-          "les_buch": "com-Jgfr-each-Sext-Les_Buch",
-          "les_stelle": "com-Jgfr-each-Sext–Les_Stelle",
-          "les_text": "com-Jgfr-each-Sext-Les_Text",
-          "resp1_0": "com-Jgfr-each-Sext-Resp1_0",
-          "resp1_1": "com-Jgfr-each-Sext-Resp1_1"
+          "ant_0": "Nimm mich auf, o Herr, wie du verheißen hast, und ich werde leben. Lass mein Vertrauen nicht zuschanden werden.^ö",
+          "les_buch": "1 Kor",
+          "les_stelle": "7.25",
+          "les_text": "Was die Frage der Ehelosigkeit angeht, so habe ich kein Gebot vom Herrn. Ich gebe euch nur einen Rat als einer, den der Herr durch sein Erbarmen vertrauenswürdig gemacht hat.",
+          "resp1_0": "Dies ist eine weise Jungfrau.^ö",
+          "resp1_1": "Eine aus der Zahl der Klugen.^ö"
         },
         "Terz": {
-          "ant_1": "com-Jgfr-each-Terz-ant_1",
-          "ant_2": "com-Jgfr-each-Terz-ant_2",
-          "ant_3": "com-Jgfr-each-Terz-ant_3",
-          "les_buch": "com-Jgfr-each-Terz-Les_Buch",
-          "les_stelle": "com-Jgfr-each-Terz–Les_Stelle",
-          "les_text": "com-Jgfr-each-Terz-Les_Text",
-          "resp1_0": "com-Jgfr-each-Terz-Resp1_0",
-          "resp1_1": "com-Jgfr-each-Terz-Resp1_1"
+          "ant_0": "Gott nahe zu sein ist mein Glück. Ich setze auf Gott, den Herrn, mein Vertrauen.^ö",
+          "les_buch": "Weish",
+          "les_stelle": "8.21",
+          "les_text": "Ich erkannte, dass ich die Weisheit nur als Geschenk Gottes erhalten könne – und schon hier war es die Klugheit, die mich erkennen ließ, wessen Gnadengeschenk sie ist.",
+          "resp1_0": "Dies ist eine weise Jungfrau.^öDer Herr findet sie wachend, wenn er kommt.^ö"
         },
         "Vesper": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-Jgfr-each-Vesper-ant_1",
-          "ant_2": "com-Jgfr-each-Vesper-ant_2",
-          "ant_3": "com-Jgfr-each-Vesper-ant_3",
-          "les_buch": "com-Jgfr-each-Vesper-Les_Buch",
-          "les_stelle": "com-Jgfr-each-Vesper–Les_Stelle",
-          "les_text": "com-Jgfr-each-Vesper-Les_Text",
-          "resp1_1": "com-Jgfr-each-Vesper-Resp1_1",
-          "resp1_2": "com-Jgfr-each-Vesper-Resp1_2",
-          "resp1_3": "com-Jgfr-each-Vesper-Resp1_3",
-          "ant_ev": "com-Jgfr-each-Vesper-Ant_Ev",
-          "bitten_e": "com-Jgfr-each-Vesper-Bitten_E",
-          "bitten_r": "com-Jgfr-each-Vesper-Bitten_R",
-          "bitten": "com-Jgfr-each-Vesper-Bitten"
+          "hymn_1": 71185.0,
+          "ps_1": 122.0,
+          "ps_2": 127.0,
+          "ps_3": 152.0,
+          "ant_1": "Mein Bräutigam, für dich habe ich mich bewahrt, dir eile ich entgegen mit brennender Lampe.^ö",
+          "ant_2": "Selig, die reinen Herzens sind; sie werden Gott schauen.^ö",
+          "ant_3": "Mein Herz ist gefestigt, mein Leben auf Christus gegründet.^ö",
+          "les_buch": "1 Kor",
+          "les_stelle": "7,32.34",
+          "les_text": "Der Unverheiratete sorgt sich um die Sache des Herrn; er will dem Herrn gefallen. Die unverheiratete Frau und die Jungfrauen sorgen sich um die Sache des Herrn, um heilig zu sein an Leib und Geist.",
+          "resp1_1": "Jungfrauen führt man zum König",
+          "resp1_2": "in Freude und Jubel.",
+          "resp1_3": "In seine Paläste ziehen sie ein.",
+          "ant_ev": "Braut Christi, komm und empfange die Krone, die der Herr für dich bereithält.^ö",
+          "bitten_e": "Lasst uns beten zu Jesus Christus, der zu allen Zeiten Menschen beruft zur Jungfräulichkeit um des Himmelreiches willen:",
+          "bitten_r": "König der Jungfrauen, erhöre uns.",
+          "bitten": "Du hast dir die Kirche zur Braut erwählt;^qheilige sie, damit sie ohne Makel vor dir stehe.^pDurch deine Gnade hat die Kirche dir die Treue bewahrt;^qerneuere sie immer wieder durch dein Evangelium.^pDu hast der Kirche das Vorbild der heiligen N. geschenkt;^qrufe junge Menschen in den Stand der Jungfräulichkeit.^pDie heilige N. ist dir ungeteilten Herzens nachgefolgt;^qauf ihre Fürbitte stärke die Ordensfrauen in ihrem Dienst.^pDie heiligen Jungfrauen hast du aufgenommen zum Hochzeitsmahl des ewigen Lebens;^qlass auch unsere Verstorbenen teilhaben am himmlischen Mahl."
         }
-      }
-    },
-    "JgfrPl": {
-      "each": {
-        "Invitatorium": {
-          "ant_0": "com-JgfrPl-each-Invitatorium-ant_0"
+      },
+      "Märt": {
+        "ErsteV": {
+          "ant_ev": "Die kluge Jungfrau war bereit: Als der Bräutigam kam, fand er sie wachend, und sie trat mit ihm ein zur Feier der Hochzeit.^ö"
         },
         "Laudes": {
-          "name": "Jgfr",
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-JgfrPl-each-Laudes-ant_1",
-          "ant_2": "com-JgfrPl-each-Laudes-ant_2",
-          "ant_3": "com-JgfrPl-each-Laudes-ant_3",
-          "les_buch": "com-JgfrPl-each-Laudes-Les_Buch",
-          "les_stelle": "com-JgfrPl-each-Laudes–Les_Stelle",
-          "les_text": "com-JgfrPl-each-Laudes-Les_Text",
-          "resp1_1": "com-JgfrPl-each-Laudes-Resp1_1",
-          "resp1_2": "com-JgfrPl-each-Laudes-Resp1_2",
-          "resp1_3": "com-JgfrPl-each-Laudes-Resp1_3",
-          "ant_ev": "com-JgfrPl-each-Laudes-Ant_Ev",
-          "bitten_e": "com-JgfrPl-each-Laudes-Bitten_E",
-          "bitten_r": "com-JgfrPl-each-Laudes-Bitten_R",
-          "bitten": "com-JgfrPl-each-Laudes-Bitten"
-        },
-        "Lesehore": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-JgfrPl-each-Lesehore-ant_1",
-          "ant_2": "com-JgfrPl-each-Lesehore-ant_2",
-          "ant_3": "com-JgfrPl-each-Lesehore-ant_3",
-          "resp0_0": "com-JgfrPl-each-Lesehore-Resp0_0",
-          "resp0_1": "com-JgfrPl-each-Lesehore-Resp0_1",
-          "les_buch": "com-JgfrPl-each-Lesehore-Les_Buch",
-          "les_stelle": "com-JgfrPl-each-Lesehore–Les_Stelle",
-          "les_text": "com-JgfrPl-each-Lesehore-Les_Text",
-          "resp1_1": "com-JgfrPl-each-Lesehore-Resp1_1",
-          "resp1_2": "com-JgfrPl-each-Lesehore-Resp1_2",
-          "resp1_3": "com-JgfrPl-each-Lesehore-Resp1_3",
-          "patr_autor": "com-JgfrPl-each-Lesehore-Patr_Autor",
-          "patr_text": "com-JgfrPl-each-Lesehore-Patr_Text",
-          "patr_resp1": "com-JgfrPl-each-Lesehore-Patr_Resp1",
-          "patr_resp2": "com-JgfrPl-each-Lesehore-Patr_Resp2",
-          "patr_resp3": "com-JgfrPl-each-Lesehore-Patr_Resp3"
-        },
-        "Non": {
-          "ant_1": "com-JgfrPl-each-Non-ant_1",
-          "ant_2": "com-JgfrPl-each-Non-ant_2",
-          "ant_3": "com-JgfrPl-each-Non-ant_3",
-          "les_buch": "com-JgfrPl-each-Non-Les_Buch",
-          "les_stelle": "com-JgfrPl-each-Non–Les_Stelle",
-          "les_text": "com-JgfrPl-each-Non-Les_Text",
-          "resp1_0": "com-JgfrPl-each-Non-Resp1_0",
-          "resp1_1": "com-JgfrPl-each-Non-Resp1_1"
-        },
-        "Sext": {
-          "ant_1": "com-JgfrPl-each-Sext-ant_1",
-          "ant_2": "com-JgfrPl-each-Sext-ant_2",
-          "ant_3": "com-JgfrPl-each-Sext-ant_3",
-          "les_buch": "com-JgfrPl-each-Sext-Les_Buch",
-          "les_stelle": "com-JgfrPl-each-Sext–Les_Stelle",
-          "les_text": "com-JgfrPl-each-Sext-Les_Text",
-          "resp1_0": "com-JgfrPl-each-Sext-Resp1_0",
-          "resp1_1": "com-JgfrPl-each-Sext-Resp1_1"
-        },
-        "Terz": {
-          "ant_1": "com-JgfrPl-each-Terz-ant_1",
-          "ant_2": "com-JgfrPl-each-Terz-ant_2",
-          "ant_3": "com-JgfrPl-each-Terz-ant_3",
-          "les_buch": "com-JgfrPl-each-Terz-Les_Buch",
-          "les_stelle": "com-JgfrPl-each-Terz–Les_Stelle",
-          "les_text": "com-JgfrPl-each-Terz-Les_Text",
-          "resp1_0": "com-JgfrPl-each-Terz-Resp1_0",
-          "resp1_1": "com-JgfrPl-each-Terz-Resp1_1"
+          "ant_ev": "Selig die Jungfrau, die sich selbst verleugnete und ihr Kreuz auf sich nahm. Sie ist dem Herrn gefolgt, ihrem Bräutigam, dem König der Märtyrer.^ö"
         },
         "Vesper": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-JgfrPl-each-Vesper-ant_1",
-          "ant_2": "com-JgfrPl-each-Vesper-ant_2",
-          "ant_3": "com-JgfrPl-each-Vesper-ant_3",
-          "les_buch": "com-JgfrPl-each-Vesper-Les_Buch",
-          "les_stelle": "com-JgfrPl-each-Vesper–Les_Stelle",
-          "les_text": "com-JgfrPl-each-Vesper-Les_Text",
-          "resp1_1": "com-JgfrPl-each-Vesper-Resp1_1",
-          "resp1_2": "com-JgfrPl-each-Vesper-Resp1_2",
-          "resp1_3": "com-JgfrPl-each-Vesper-Resp1_3",
-          "ant_ev": "com-JgfrPl-each-Vesper-Ant_Ev",
-          "bitten_e": "com-JgfrPl-each-Vesper-Bitten_E",
-          "bitten_r": "com-JgfrPl-each-Vesper-Bitten_R",
-          "bitten": "com-JgfrPl-each-Vesper-Bitten"
+          "ant_ev": "In zweifachem Sieg hat sich ihr Opfer vollendet: Sie gewann den Kranz der Jungfräulichkeit und die Palme des Martyriums.^ö"
+        }
+      },
+      "o": {
+        "ErsteV": {
+          "resp1_1": "Mein Anteil ist der Herr, auf ihm ruht mein Vertrauen.",
+          "resp1_2": "Halleluja, halleluja."
+        },
+        "Laudes": {
+          "resp1_1": "Mein Herz denkt an dein Wort: „Suchet mein Antlitz!“",
+          "resp1_2": "Halleluja, halleluja."
+        },
+        "Vesper": {
+          "resp1_1": "Jungfrauen führt man zum König in Freude und Jubel.",
+          "resp1_2": "Halleluja, halleluja."
+        }
+      },
+      "Pl": {
+        "ErsteV": {
+          "ant_ev": "Ihr klugen Jungfrauen, macht eure Lampen bereit! Der Bräutigam kommt. Geht ihm entgegen!^ö"
+        },
+        "Laudes": {
+          "ant_ev": "Ihr Jungfrauen, preiset den Herrn, preist ihn in Ewigkeit!^ö"
+        },
+        "Vesper": {
+          "ant_ev": "Das sind die Menschen, die den Herrn suchen, die dein Antlitz suchen, o Gott.^ö"
         }
       }
     },
@@ -1319,100 +1363,6 @@ export const brevierData = {
       "each": {
         "ErsteV": {
           "ant_ev": "Wer Gottes Gebote hält und sie halten lehrt, wird groß sein im Himmelreich."
-        },
-        "Invitatorium": {
-          "ant_0": "com-Lehrer-each-Invitatorium-ant_0"
-        },
-        "Laudes": {
-          "name": "Kl",
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-Lehrer-each-Laudes-ant_1",
-          "ant_2": "com-Lehrer-each-Laudes-ant_2",
-          "ant_3": "com-Lehrer-each-Laudes-ant_3",
-          "les_buch": "com-Lehrer-each-Laudes-Les_Buch",
-          "les_stelle": "com-Lehrer-each-Laudes–Les_Stelle",
-          "les_text": "com-Lehrer-each-Laudes-Les_Text",
-          "resp1_1": "com-Lehrer-each-Laudes-Resp1_1",
-          "resp1_2": "com-Lehrer-each-Laudes-Resp1_2",
-          "resp1_3": "com-Lehrer-each-Laudes-Resp1_3",
-          "ant_ev": "Die Weisen werden strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig.",
-          "bitten_e": "com-Lehrer-each-Laudes-Bitten_E",
-          "bitten_r": "com-Lehrer-each-Laudes-Bitten_R",
-          "bitten": "com-Lehrer-each-Laudes-Bitten"
-        },
-        "Lesehore": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-Lehrer-each-Lesehore-ant_1",
-          "ant_2": "com-Lehrer-each-Lesehore-ant_2",
-          "ant_3": "com-Lehrer-each-Lesehore-ant_3",
-          "resp0_0": "com-Lehrer-each-Lesehore-Resp0_0",
-          "resp0_1": "com-Lehrer-each-Lesehore-Resp0_1",
-          "les_buch": "com-Lehrer-each-Lesehore-Les_Buch",
-          "les_stelle": "com-Lehrer-each-Lesehore–Les_Stelle",
-          "les_text": "com-Lehrer-each-Lesehore-Les_Text",
-          "resp1_1": "com-Lehrer-each-Lesehore-Resp1_1",
-          "resp1_2": "com-Lehrer-each-Lesehore-Resp1_2",
-          "resp1_3": "com-Lehrer-each-Lesehore-Resp1_3",
-          "patr_autor": "com-Lehrer-each-Lesehore-Patr_Autor",
-          "patr_text": "com-Lehrer-each-Lesehore-Patr_Text",
-          "patr_resp1": "com-Lehrer-each-Lesehore-Patr_Resp1",
-          "patr_resp2": "com-Lehrer-each-Lesehore-Patr_Resp2",
-          "patr_resp3": "com-Lehrer-each-Lesehore-Patr_Resp3"
-        },
-        "Non": {
-          "ant_1": "com-Lehrer-each-Non-ant_1",
-          "ant_2": "com-Lehrer-each-Non-ant_2",
-          "ant_3": "com-Lehrer-each-Non-ant_3",
-          "les_buch": "com-Lehrer-each-Non-Les_Buch",
-          "les_stelle": "com-Lehrer-each-Non–Les_Stelle",
-          "les_text": "com-Lehrer-each-Non-Les_Text",
-          "resp1_0": "com-Lehrer-each-Non-Resp1_0",
-          "resp1_1": "com-Lehrer-each-Non-Resp1_1"
-        },
-        "Sext": {
-          "ant_1": "com-Lehrer-each-Sext-ant_1",
-          "ant_2": "com-Lehrer-each-Sext-ant_2",
-          "ant_3": "com-Lehrer-each-Sext-ant_3",
-          "les_buch": "com-Lehrer-each-Sext-Les_Buch",
-          "les_stelle": "com-Lehrer-each-Sext–Les_Stelle",
-          "les_text": "com-Lehrer-each-Sext-Les_Text",
-          "resp1_0": "com-Lehrer-each-Sext-Resp1_0",
-          "resp1_1": "com-Lehrer-each-Sext-Resp1_1"
-        },
-        "Terz": {
-          "ant_1": "com-Lehrer-each-Terz-ant_1",
-          "ant_2": "com-Lehrer-each-Terz-ant_2",
-          "ant_3": "com-Lehrer-each-Terz-ant_3",
-          "les_buch": "com-Lehrer-each-Terz-Les_Buch",
-          "les_stelle": "com-Lehrer-each-Terz–Les_Stelle",
-          "les_text": "com-Lehrer-each-Terz-Les_Text",
-          "resp1_0": "com-Lehrer-each-Terz-Resp1_0",
-          "resp1_1": "com-Lehrer-each-Terz-Resp1_1"
-        },
-        "Vesper": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-Lehrer-each-Vesper-ant_1",
-          "ant_2": "com-Lehrer-each-Vesper-ant_2",
-          "ant_3": "com-Lehrer-each-Vesper-ant_3",
-          "les_buch": "com-Lehrer-each-Vesper-Les_Buch",
-          "les_stelle": "com-Lehrer-each-Vesper–Les_Stelle",
-          "les_text": "com-Lehrer-each-Vesper-Les_Text",
-          "resp1_1": "com-Lehrer-each-Vesper-Resp1_1",
-          "resp1_2": "com-Lehrer-each-Vesper-Resp1_2",
-          "resp1_3": "com-Lehrer-each-Vesper-Resp1_3",
-          "ant_ev": "com-Lehrer-each-Vesper-Ant_Ev",
-          "bitten_e": "com-Lehrer-each-Vesper-Bitten_E",
-          "bitten_r": "com-Lehrer-each-Vesper-Bitten_R",
-          "bitten": "com-Lehrer-each-Vesper-Bitten"
         }
       }
     },
@@ -2113,23 +2063,23 @@ export const brevierData = {
       "2": {
         "Invitatorium": {
           "comm_1": "Hirten",
-          "comm_2": "Lehrer"
+          "comm_2": "Hirten_Kl"
         },
         "Laudes": {
           "comm_1": "Hirten",
-          "comm_2": "Lehrer",
+          "comm_2": "Hirten_Kl",
           "name": "Hl. Basilius und hl. Gregor von Nazianz",
           "ant_ev": "Die Weisen werden strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig.",
           "oration": "Gott, unser Vater, du hast deiner Kirche in den Bischöfen Basilius und Gregor heilige Hirten gegeben, die uns durch ihre Lehre und ihr Leben den Weg der Wahrheit zeigen. Hilf uns auf ihre Fürsprache, dein Wort in Demut aufzunehmen und in Werken der Liebe zu bezeugen. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Lesehore": {
           "comm_1": "Hirten",
-          "comm_2": "Lehrer",
+          "comm_2": "Hirten_Kl",
           "oration": "Gott, unser Vater, du hast deiner Kirche in den Bischöfen Basilius und Gregor heilige Hirten gegeben, die uns durch ihre Lehre und ihr Leben den Weg der Wahrheit zeigen. Hilf uns auf ihre Fürsprache, dein Wort in Demut aufzunehmen und in Werken der Liebe zu bezeugen. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Vesper": {
           "comm_1": "Hirten",
-          "comm_2": "Lehrer",
+          "comm_2": "Hirten_Kl",
           "ant_ev": "Wer Gottes Gebote hält und sie halten lehrt, wird groß sein im Himmelreich.",
           "oration": "Gott, unser Vater, du hast deiner Kirche in den Bischöfen Basilius und Gregor heilige Hirten gegeben, die uns durch ihre Lehre und ihr Leben den Weg der Wahrheit zeigen. Hilf uns auf ihre Fürsprache, dein Wort in Demut aufzunehmen und in Werken der Liebe zu bezeugen. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         }
@@ -2225,17 +2175,17 @@ export const brevierData = {
       "24": {
         "Invitatorium": {
           "comm_1": "Hirten",
-          "comm_2": "Lehrer"
+          "comm_2": "Hirten_Kl"
         },
         "Laudes": {
           "comm_1": "Hirten",
-          "comm_2": "Lehrer",
+          "comm_2": "Hirten_Kl",
           "name": "Hl. Franz von Sales",
           "oration": "Gütiger Gott, du hast den heiligen Franz von Sales dazu berufen, als Bischof und Lehrer allen alles zu werden. Hilf uns, sein Beispiel nachzuahmen und den Brüdern zu dienen, damit durch uns deine Menschenfreundlickeit sichtbar wird. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Lesehore": {
           "comm_1": "Hirten",
-          "comm_2": "Lehrer",
+          "comm_2": "Hirten_Kl",
           "patr_autor": "Franz von Sales († 1622)",
           "patr_werk": "Aus der Einführung in das religiöse Leben.",
           "patr_text": "^hVerschiedene Formen frommer Übungen^p^pBei der Erschaffung gebot Gott, der Schöpfer, den Pflanzen, Frucht zu bringen je nach ihrer Art. So befiehlt er auch den Christen, den lebendigen Pflanzen seiner Kirche, Frucht der Frömmigkeit zu bringen je nach persönlicher Eigenart, nach Stand und Beruf.^pAnders, so möchte ich sagen, muss ein Edelmann fromm sein als ein Handwerker, anders ein Diener als ein Fürst, anders eine Witwe als ein unverheiratetes Mädchen oder eine in der Ehe lebende Frau. Doch nicht genug damit: auch die Ausübung der Frömmigkeit selbst muss der Kraft, der Tätigkeit und der Aufgabe eines jeden in besonderer Weise angepasst sein.^pSag mir bitte, liebe Philothea, ob es angebracht wäre, wenn ein Bischof wie ein Kartäuser die Einöde aufsuchte! Wenn Verheiratete sich nicht stärker um die Mehrung ihres Vermögens bemühen würden als ein Kapuziner; wenn ein Handwerker nach Art der Ordensleute den ganzen Tag in der Kirche verbrächte, die Ordensleute aber wie die Bischöfe dauernd den Anforderungen ausgesetzt wären, die sich im Zusammenhang mit der Not der Mitmenschen ergeben! Wäre ein solches Ordensleben nicht vielmehr lächerlich, ungeordnet und unerträglich?^pUnd doch begegnet dieser Fehler häufig... Wenn die Frömmigkeit nur wahr und aufrichtig ist, zerstört sie nichts, sondern vervollkommnet und vollendet alles. Wenn sie jedoch der Berufung und dem Stand eines Menschen widerspricht, ist sie ohne Zweifel falsch.^pDie Biene sammelt ihren Honig aus den Blüten, ohne sie im geringsten zu schädigen oder zu zerstören; sie hinterlässt sie vielmehr heil und frisch, wie sie sie vorfand. Die wahre Frömmigkeit tut dies noch besser: sie zerstört nicht nur keine Form von Beruf oder Tätigkeit, sondern macht sie sogar gefälliger und schöner.^pDurch sie wird dir auch die Sorge für die Familie friedvoller, die gegenseitige Liebe von Mann und Frau wird lauterer, der Dienst bei den Fürsten gewinnt an Treue, und alle Tätigkeiten, welche immer es seien, werden angenehmer und ansprechender.^pAn welcher Stelle immer wir stehen, stets können und sollen wir uns um das vollkommene Leben bemühen.",
@@ -2246,7 +2196,7 @@ export const brevierData = {
         },
         "Vesper": {
           "comm_1": "Hirten",
-          "comm_2": "Lehrer",
+          "comm_2": "Hirten_Kl",
           "oration": "Gütiger Gott, du hast den heiligen Franz von Sales dazu berufen, als Bischof und Lehrer allen alles zu werden. Hilf uns, sein Beispiel nachzuahmen und den Brüdern zu dienen, damit durch uns deine Menschenfreundlickeit sichtbar wird. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         }
       },
@@ -2360,16 +2310,16 @@ export const brevierData = {
       },
       "28": {
         "Invitatorium": {
-          "comm_1": "Lehrer"
+          "comm_1": "Hirten_Kl"
         },
         "Laudes": {
-          "comm_1": "Lehrer",
+          "comm_1": "Hirten_Kl",
           "name": "Hl. Thomas von Aquin",
           "ant_ev": "Gepriesen sei der Herr! Aus Liebe zu ihm hat Thomas geforscht, hat Nächte durchwacht und sich abgemüht.",
           "oration": "Gott, du Quell der Weisheit, du hast dem heiligen Thomas von Aquin ein leidenschaftliches Verlangen geschenkt, nach Heiligkeit zu streben und deine Wahrheit zu erfassen. Hilf uns verstehen, was er gelehrt, und nachahmen, was er uns vorgelebt hat. Darum bitten wir durch Jesus Christus."
         },
         "Lesehore": {
-          "comm_1": "Lehrer",
+          "comm_1": "Hirten_Kl",
           "patr_autor": "Thomas von Aquin († 1274)",
           "patr_werk": "Mahnbrief an Frater Johannes über die Weise zu studieren.",
           "patr_text": "^hWas du liest oder hörst, bemühe dich zu verstehen^pDa du mich gefragt hast, mein lieber Bruder Johannes, wie du studieren musst, um den Schatz der Wissenschaften zu gewinnen, möchte ich dir folgenden Rat geben:^pWähle den Weg über die Bäche und stürze dich nicht gleich in das Meer! Man muss durch das Leichtere zum Schwierigen gelangen.^pDas ist also meine Mahnung und Richtlinie für dich. Ich sage dir: sei bedachtsam im Reden und gehe bedachtsam in ein Gespräch.^lErhalte dir die Reinheit des Gewissens.^lHöre nicht auf zu beten.^lLiebe deine Zelle, wenn du in den Weinkeller der Weisheit geführt werden möchtest.^lZeige dich liebenswürdig gegenüber allen.^lKümmere dich nicht um das Tun der anderen.^lSei mit keinem zu vertraut; denn zu große Vertraulichkeit bringt Geringschätzung ein und schafft Gelegenheit, sich dem Studium zu entziehen.^lMische dich nicht in das Reden und Tun der Weltleute ein.^lMeide Streitgespräche, was immer auch beredet wird.^lVersäume nicht, den Spuren der Heiligen und der Guten zu folgen.^lBeachte nicht, von wem du etwas hörst, sondern, wenn Gutes gesagt wird, merke es dir.^lWas du liest oder hörst, bemühe dich zu verstehen.^lIn Zweifeln verschaffe dir Gewissheit.^lWenn du etwas in der Schatzkammer deines Geistes verschließen kannst, dann bemühe dich, wie ein Dürstender die Gefäße zu füllen.^lSuche nicht, was für dich zu hoch ist.^pWenn du diese Bahn einschlägst, wirst du lebendig bleiben und nützliche Frucht bringen im Weinberg des Herrn der Scharen, solange du lebst. Und wenn du das befolgst, wirst du erreichen können, was du begehrst.",
@@ -2379,7 +2329,7 @@ export const brevierData = {
           "oration": "Gott, du Quell der Weisheit, du hast dem heiligen Thomas von Aquin ein leidenschaftliches Verlangen geschenkt, nach Heiligkeit zu streben und deine Wahrheit zu erfassen. Hilf uns verstehen, was er gelehrt, und nachahmen, was er uns vorgelebt hat. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "comm_1": "Lehrer",
+          "comm_1": "Hirten_Kl",
           "ant_ev": "Gott gab ihm Weisheit in Fülle; redlich mühte er sich, sie zu erfassen, und gab sie selbstlos weiter.",
           "oration": "Gott, du Quell der Weisheit, du hast dem heiligen Thomas von Aquin ein leidenschaftliches Verlangen geschenkt, nach Heiligkeit zu streben und deine Wahrheit zu erfassen. Hilf uns verstehen, was er gelehrt, und nachahmen, was er uns vorgelebt hat. Darum bitten wir durch Jesus Christus."
         }
@@ -2505,7 +2455,6 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "comm_1": "Mar",
           "oration": "eig-2-4-each-Oration"
         },
         "Invitatorium": {},

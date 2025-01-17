@@ -323,11 +323,12 @@ export function processBrevierData(liturgicalInfo) {
 
         // Layer 7: Process Commune texts
         if (rank_date > 1 && rank_date > rank_wt) {
+            // Layer 7: Process Commune texts
             const communeData = brevierData?.['eig']?.[calendarMonth]?.[calendarDay];
             if (communeData) mergeData(communeData, 'eig');
 
             // Array der zusätzlichen Commune-Kategorien
-            const additionalComms = ['MFr'];
+            const additionalComms = ['MärtSg', 'MärtPl', 'MFr', 'Mann'];
 
             // Hilfsfunktion zur Verarbeitung der Commune-Texte
             const processCommune = (commNumber) => {
@@ -338,9 +339,14 @@ export function processBrevierData(liturgicalInfo) {
                     const foundComm = hours[hour].eig?.[commField];
                     if (foundComm) {
                         // Aufteilen des foundComm-Werts, falls Unterstrich vorhanden
-                        const [readComm, addComm] = foundComm.includes('_')
+                        const [readComm, initialAddComm] = foundComm.includes('_')
                             ? foundComm.split('_')
                             : [foundComm, null];
+
+                        // Spezielle Anpassung für Osterzeit und Kl
+                        const addComm = (season === 'o' && initialAddComm === 'Kl')
+                            ? 'oKl'
+                            : initialAddComm;
 
                         // Verarbeitung des Haupt-Commune
                         // Allgemeine Commune-Texte
@@ -353,19 +359,16 @@ export function processBrevierData(liturgicalInfo) {
 
                         // Verarbeitung der zusätzlichen Commune-Texte, falls addComm vorhanden
                         if (addComm) {
-                            const additionalData = brevierData?.['com']?.[readComm]?.[addComm];
-                            if (additionalData) mergeData(additionalData, commSource);
-
                             additionalComms.forEach(category => {
-                                const additionalCatData = brevierData?.['com']?.[category]?.[addComm];
-                                if (additionalCatData) mergeData(additionalCatData, commSource);
+                                const additionalData = brevierData?.['com']?.[category]?.[addComm];
+                                if (additionalData) mergeData(additionalData, commSource);
                             });
                         }
                     }
                 });
             };
 
-            // Verarbeite beide Communia
+            // Verarbeite beide Communes
             processCommune(1);
             processCommune(2);
 

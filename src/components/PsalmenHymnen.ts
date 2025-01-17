@@ -2733,6 +2733,18 @@ export const psalmsData = {
         "text": "Herr Jesus Christus,^ldu gingst heim zum Vater,^lthronst ihm zur Rechten^lüber allen Welten;^ldoch deine Jünger^llässt du nicht als Waisen^lhier auf der Erde.^pDu schickst als Beistand^ldeinen Geist der Wahrheit.^lEr schenkt uns Einsicht,^lgibt uns Licht und Hoffnung.^lEr führt die Kirche^lsicher durch die Zeiten^lhin zur Vollendung.^pEr weckt Propheten,^ldie dem Volk vorangehn^lund es voll Umsicht^lauf dem Weg geleiten.^lHirten bestellt er,^list in ihren Worten^lnahe den Deinen.^pSie geben Zeugnis,^lreden unerschrocken,^lstärken die Schwachen,^lsammeln die Zerstreuten,^llehren in Vollmacht,^lhelfen ihren Brüdern,^ldich zu bekennen.^pLob sei dem Vater^lauf dem höchsten Throne,^lLob sei dem Sohne,^lden er uns gesandt hat,^lLob sei dem Geiste,^lder von beiden ausgeht,^limmer und ewig. Amen."
       }
   },
+  71177: {
+    0.0: {
+        "quote": "Jgfr-Lh",
+        "text": "Es fiel das Feuer des Herrn in dich.^lDa warst du Flamme und°folgtest°dem°Lamme,^lChristus dem Herrn.^pEr führt’ dich durch°Fluten°und°Finsternis.^lDa warst du hohe, lobpreisende Lohe^lin Christus dem Herrn.^pNun preis mit uns, Schwester, den°Vater°im°Geist,^lauch wir sind erhoben ins°Leben°und°Loben^lmit Christus dem Herrn."
+      }
+  },
+  71185: {
+    0.0: {
+        "quote": "Jgfr-Ld",
+        "text": "Du, Herr, hast sie für dich erwählt,^lin Treue folgte sie dem Ruf.^lEs brannte hell in ihrer Hand^ldie Lampe ihrer Wachsamkeit.^pVoll Freude zog sie mit dir ein^lzum königlichen Hochzeitsmahl.^lNach ihrem Vorbild lass auch uns^lin Treue warten und Geduld.^pHerr Jesus, der du kommen wirst,^ldir sei der Lobpreis dargebracht.^lZum Mahl der Hochzeit öffne uns^ldie Pforten deiner Ewigkeit. Amen."
+      }
+  },
   71199: {
     0.0: {
         "quote": "Männer-Lh",

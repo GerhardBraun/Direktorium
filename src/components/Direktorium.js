@@ -1364,7 +1364,7 @@ const PrayerTextDisplay = ({
                 .replace(/\{(\d{1,2})#/g, '(');
 
             // Split text into segments, keeping delimiters
-            const segments = processedText.split(/(\^r.*?\^0r|\^w.*?\^0w|\^\(|\^\))/g).filter(Boolean);
+            const segments = processedText.split(/(\^r.*?\^0r|\^w.*?\^0w|\^\(|\^\)|\^N)/g).filter(Boolean);
 
             return segments.map((segment, index) => {
                 if (segment.startsWith('^r')) {
@@ -1374,11 +1374,13 @@ const PrayerTextDisplay = ({
                 } else if (segment.startsWith('^w')) {
                     // Gesperrter Text
                     const content = segment.substring(2, segment.length - 3);
-                    return <span key={`marked-${index}`} className='tracking-[0.16em]'>{content}</span>;
+                    return <span key={`tracked-${index}`} className='tracking-[0.16em]'>{content}</span>;
                 } else if (segment === '^(') {
                     return <span key={`open-${index}`} style={{ color: rubricColor }}>(</span>;
                 } else if (segment === '^)') {
                     return <span key={`close-${index}`} style={{ color: rubricColor }}>)</span>;
+                } else if (segment === '^N') {
+                    return <span key={`name-${index}`} style={{ color: rubricColor }}>N.</span>;
                 }
                 return segment;
             });
