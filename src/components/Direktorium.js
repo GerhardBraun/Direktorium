@@ -1146,7 +1146,6 @@ const PrayerTextDisplay = ({
 
     // Get value from sources in priority order: prefSrc -> prefComm1/prefComm2 -> wt
     const getValue = (field) => {
-
         // Sonderfall Hymnen: 
         // klStb und Nacht-Hymnus werden nicht gezeigt, wenn eigener Hymnus vorhanden
         // oder Commune-Hymnus gewählt ist
@@ -1157,6 +1156,7 @@ const PrayerTextDisplay = ({
             )) {
             return null;
         }
+
         //Sonderfall Bahnlesung:
         if ((hour === 'lesehore') &&
             (field.startsWith('les_') ||
@@ -1167,27 +1167,43 @@ const PrayerTextDisplay = ({
             return texts[hour]?.['wt']?.[field];
         }
 
+        // Prüfe, ob Commune übersprungen werden soll
+        const skipCommune = rank_date < 3 && (
+            // Bedingung 1: Lesehore
+            (hour === 'lesehore' && !field.startsWith('hymn_') && field !== 'oration') ||
+            // Bedingung 2: Laudes/Vesper Psalmodie
+            ((hour === 'laudes' || hour === 'vesper') &&
+                (field.startsWith('ps_') ||
+                    (field.startsWith('ant_') && !field.startsWith('ant_ev')))) ||
+            // Bedingung 3: Kleinen Horen
+            ['terz', 'sext', 'non'].includes(hour)
+        );
+
         // 1. Prüfe zuerst prefSrc
         if (texts[hour][prefSrc]?.[field]) {
             return texts[hour][prefSrc][field];
         }
 
-        // 2. Prüfe prefComm1 wenn prefComm = 1
-        if (localPrefComm === 1 && texts[hour][prefComm1]?.[field]) {
-            return texts[hour][prefComm1][field];
-        }
+        // 2. & 3. Prüfe Commune nur wenn nicht übersprungen werden soll
+        if (!skipCommune) {
+            // Prüfe prefComm1 wenn prefComm = 1
+            if (localPrefComm === 1 && texts[hour][prefComm1]?.[field]) {
+                return texts[hour][prefComm1][field];
+            }
 
-        // 3. Prüfe prefComm2 wenn prefComm = 2
-        if (localPrefComm === 2 && texts[hour][prefComm2]?.[field]) {
-            return texts[hour][prefComm2][field];
+            // Prüfe prefComm2 wenn prefComm = 2
+            if (localPrefComm === 2 && texts[hour][prefComm2]?.[field]) {
+                return texts[hour][prefComm2][field];
+            }
         }
 
         // 4. Verwende "wt" als letzte Option
         if (texts[hour]['wt']?.[field]) {
             return texts[hour]['wt'][field];
         }
+
         return null;
-    };
+    }
 
     const checkSources = (field) => {
         const hasEig = texts[hour][prefSrc]?.[field];
