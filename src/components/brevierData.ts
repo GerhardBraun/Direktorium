@@ -43,7 +43,7 @@ interface BrevierEntry {
   oration_komplet?: string;
   marant?: number;
   marant_lat?: number;
-  }
+}
 
 interface BrevierData {
   [season: string]: {
@@ -820,294 +820,106 @@ export const brevierData = {
         }
       }
     },
-    "Erzieher": {
-      "each": {
-        "Invitatorium": {
-          "ant_0": "com-Erzieher-each-Invitatorium-ant_0"
-        },
-        "Laudes": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-Erzieher-each-Laudes-ant_1",
-          "ant_2": "com-Erzieher-each-Laudes-ant_2",
-          "ant_3": "com-Erzieher-each-Laudes-ant_3",
-          "les_buch": "com-Erzieher-each-Laudes-Les_Buch",
-          "les_stelle": "com-Erzieher-each-Laudes–Les_Stelle",
-          "les_text": "com-Erzieher-each-Laudes-Les_Text",
-          "resp1_1": "com-Erzieher-each-Laudes-Resp1_1",
-          "resp1_2": "com-Erzieher-each-Laudes-Resp1_2",
-          "resp1_3": "com-Erzieher-each-Laudes-Resp1_3",
-          "ant_ev": "com-Erzieher-each-Laudes-Ant_Ev",
-          "bitten_e": "com-Erzieher-each-Laudes-Bitten_E",
-          "bitten_r": "com-Erzieher-each-Laudes-Bitten_R",
-          "bitten": "com-Erzieher-each-Laudes-Bitten"
-        },
-        "Lesehore": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-Erzieher-each-Lesehore-ant_1",
-          "ant_2": "com-Erzieher-each-Lesehore-ant_2",
-          "ant_3": "com-Erzieher-each-Lesehore-ant_3",
-          "resp0_0": "com-Erzieher-each-Lesehore-Resp0_0",
-          "resp0_1": "com-Erzieher-each-Lesehore-Resp0_1",
-          "les_buch": "com-Erzieher-each-Lesehore-Les_Buch",
-          "les_stelle": "com-Erzieher-each-Lesehore–Les_Stelle",
-          "les_text": "com-Erzieher-each-Lesehore-Les_Text",
-          "resp1_1": "com-Erzieher-each-Lesehore-Resp1_1",
-          "resp1_2": "com-Erzieher-each-Lesehore-Resp1_2",
-          "resp1_3": "com-Erzieher-each-Lesehore-Resp1_3",
-          "patr_autor": "com-Erzieher-each-Lesehore-Patr_Autor",
-          "patr_text": "com-Erzieher-each-Lesehore-Patr_Text",
-          "patr_resp1": "com-Erzieher-each-Lesehore-Patr_Resp1",
-          "patr_resp2": "com-Erzieher-each-Lesehore-Patr_Resp2",
-          "patr_resp3": "com-Erzieher-each-Lesehore-Patr_Resp3"
-        },
-        "Non": {
-          "ant_1": "com-Erzieher-each-Non-ant_1",
-          "ant_2": "com-Erzieher-each-Non-ant_2",
-          "ant_3": "com-Erzieher-each-Non-ant_3",
-          "les_buch": "com-Erzieher-each-Non-Les_Buch",
-          "les_stelle": "com-Erzieher-each-Non–Les_Stelle",
-          "les_text": "com-Erzieher-each-Non-Les_Text",
-          "resp1_0": "com-Erzieher-each-Non-Resp1_0",
-          "resp1_1": "com-Erzieher-each-Non-Resp1_1"
-        },
-        "Sext": {
-          "ant_1": "com-Erzieher-each-Sext-ant_1",
-          "ant_2": "com-Erzieher-each-Sext-ant_2",
-          "ant_3": "com-Erzieher-each-Sext-ant_3",
-          "les_buch": "com-Erzieher-each-Sext-Les_Buch",
-          "les_stelle": "com-Erzieher-each-Sext–Les_Stelle",
-          "les_text": "com-Erzieher-each-Sext-Les_Text",
-          "resp1_0": "com-Erzieher-each-Sext-Resp1_0",
-          "resp1_1": "com-Erzieher-each-Sext-Resp1_1"
-        },
-        "Terz": {
-          "ant_1": "com-Erzieher-each-Terz-ant_1",
-          "ant_2": "com-Erzieher-each-Terz-ant_2",
-          "ant_3": "com-Erzieher-each-Terz-ant_3",
-          "les_buch": "com-Erzieher-each-Terz-Les_Buch",
-          "les_stelle": "com-Erzieher-each-Terz–Les_Stelle",
-          "les_text": "com-Erzieher-each-Terz-Les_Text",
-          "resp1_0": "com-Erzieher-each-Terz-Resp1_0",
-          "resp1_1": "com-Erzieher-each-Terz-Resp1_1"
-        },
-        "Vesper": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-Erzieher-each-Vesper-ant_1",
-          "ant_2": "com-Erzieher-each-Vesper-ant_2",
-          "ant_3": "com-Erzieher-each-Vesper-ant_3",
-          "les_buch": "com-Erzieher-each-Vesper-Les_Buch",
-          "les_stelle": "com-Erzieher-each-Vesper–Les_Stelle",
-          "les_text": "com-Erzieher-each-Vesper-Les_Text",
-          "resp1_1": "com-Erzieher-each-Vesper-Resp1_1",
-          "resp1_2": "com-Erzieher-each-Vesper-Resp1_2",
-          "resp1_3": "com-Erzieher-each-Vesper-Resp1_3",
-          "ant_ev": "com-Erzieher-each-Vesper-Ant_Ev",
-          "bitten_e": "com-Erzieher-each-Vesper-Bitten_E",
-          "bitten_r": "com-Erzieher-each-Vesper-Bitten_R",
-          "bitten": "com-Erzieher-each-Vesper-Bitten"
-        }
-      }
-    },
     "Frau": {
       "each": {
         "Invitatorium": {
-          "ant_0": "com-Frau-each-Invitatorium-ant_0"
+          "ant_0": "Wunderbar ist Gott in seinen Heiligen; kommt, wir beten ihn an!^ö^p^rOder:^0r^l^rAnt.°°^0rLasst uns Gott loben am Fest der heiligen ^N!^ö"
         },
         "Laudes": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-Frau-each-Laudes-ant_1",
-          "ant_2": "com-Frau-each-Laudes-ant_2",
-          "ant_3": "com-Frau-each-Laudes-ant_3",
-          "les_buch": "com-Frau-each-Laudes-Les_Buch",
-          "les_stelle": "com-Frau-each-Laudes–Les_Stelle",
-          "les_text": "com-Frau-each-Laudes-Les_Text",
-          "resp1_1": "com-Frau-each-Laudes-Resp1_1",
-          "resp1_2": "com-Frau-each-Laudes-Resp1_2",
-          "resp1_3": "com-Frau-each-Laudes-Resp1_3",
-          "ant_ev": "com-Frau-each-Laudes-Ant_Ev",
-          "bitten_e": "com-Frau-each-Laudes-Bitten_E",
-          "bitten_r": "com-Frau-each-Laudes-Bitten_R",
-          "bitten": "com-Frau-each-Laudes-Bitten"
+          "name": "Hl",
+          "hymn_1": 71234.0,
+          "ps_1": 63.0,
+          "ps_2": 160.0,
+          "ps_3": 149.0,
+          "ant_1": "Meine Seele hängt an dir, deine rechte Hand hält mich fest.^ö",
+          "ant_2": "Die Hand des Herrn hat dich stark gemacht, du sollst gesegnet sein auf ewig.^ö",
+          "ant_3": "Ich will jubeln, Herr, und mich freuen über deine Huld.^ö",
+          "les_buch": "Röm",
+          "les_stelle": "12,1-2",
+          "les_text": "Angesichts des Erbarmens Gottes ermahne ich euch, meine Brüder, euch selbst als lebendiges und heiliges Opfer darzubringen, das Gott gefällt; das ist für euch der wahre und angemessene Gottesdienst. Gleicht euch nicht dieser Welt an, sondern wandelt euch und erneuert euer Denken, damit ihr prüfen und erkennen könnt, was der Wille Gottes ist: was ihm gefällt, was gut und vollkommen ist.",
+          "resp1_1": "Sein Angesicht neigt Gott ihr zu,",
+          "resp1_2": "er steht ihr bei, sie wird nicht wanken.",
+          "resp1_3": "Gott ist ihr Zuflucht und Stärke, ein Helfer in allen Nöten.",
+          "ant_ev": "Mit dem Himmelreich ist es wie mit einem Kaufmann, der wertvolle Perlen suchte. Als er eine besonders kostbare fand, verkaufte er alles, was er besaß, und kaufte sie.^ö",
+          "bitten_e": "Gepriesen sei Jesus Christus, die Freude seiner Heiligen. Zu ihm lasst uns beten:",
+          "bitten_r": "Komm, Herr Jesus.",
+          "bitten": "Heilige Frauen sind dir auf deinen Wegen gefolgt;^qgib, dass auch wir deinen Spuren folgen.^pDu bist der Lehrer, Maria hat dir zugehört und Marta dich bedient;^qschenke uns die Gnade, auf dich zu hören und dir zu dienen.^pDu hast der Sünderin viel vergeben, weil sie viel geliebt hat;^qvergib auch uns, die wir viel gesündigt haben.^pIn der Kraft deiner Gnade haben viele heilige Frauen durch ihr Leben Gott gefallen;^qhilf uns heute, im Reden und Tun den Willen deines Vaters zu erfüllen."
         },
         "Lesehore": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-Frau-each-Lesehore-ant_1",
-          "ant_2": "com-Frau-each-Lesehore-ant_2",
-          "ant_3": "com-Frau-each-Lesehore-ant_3",
-          "resp0_0": "com-Frau-each-Lesehore-Resp0_0",
-          "resp0_1": "com-Frau-each-Lesehore-Resp0_1",
-          "les_buch": "com-Frau-each-Lesehore-Les_Buch",
-          "les_stelle": "com-Frau-each-Lesehore–Les_Stelle",
-          "les_text": "com-Frau-each-Lesehore-Les_Text",
-          "resp1_1": "com-Frau-each-Lesehore-Resp1_1",
-          "resp1_2": "com-Frau-each-Lesehore-Resp1_2",
-          "resp1_3": "com-Frau-each-Lesehore-Resp1_3",
-          "patr_autor": "com-Frau-each-Lesehore-Patr_Autor",
-          "patr_text": "com-Frau-each-Lesehore-Patr_Text",
-          "patr_resp1": "com-Frau-each-Lesehore-Patr_Resp1",
-          "patr_resp2": "com-Frau-each-Lesehore-Patr_Resp2",
-          "patr_resp3": "com-Frau-each-Lesehore-Patr_Resp3"
+          "hymn_1": 1402.0,
+          "ps_1": 19.1,
+          "ps_2": 45.1,
+          "ps_3": 45.2,
+          "ant_1": "Zu weiser Rede öffnet sie den Mund, und das Gesetz der Güte ist auf ihrer Zunge.^ö",
+          "ant_2": "Die heiligen Frauen haben auf Gott vertraut, sie sangen dam Herrn ein Lied in ihrem Herzen.^ö",
+          "ant_3": "Mit Freude und Jubel werden sie zum Herrn geleitet.^ö",
+          "resp0_0": "Was ich im Herzen erwäge, stehe dir vor Augen.^ö",
+          "resp0_1": "Herr, mein Fels und mein Erlöser.^ö",
+          "les_buch": "",
+          "les_stelle": "",
+          "les_text": "",
+          "resp1_1": "",
+          "resp1_2": "",
+          "resp1_3": "",
+          "patr_autor": "",
+          "patr_werk": "",
+          "patr_text": "",
+          "patr_resp1": "",
+          "patr_resp2": "",
+          "patr_resp3": ""
         },
         "Non": {
-          "ant_1": "com-Frau-each-Non-ant_1",
-          "ant_2": "com-Frau-each-Non-ant_2",
-          "ant_3": "com-Frau-each-Non-ant_3",
-          "les_buch": "com-Frau-each-Non-Les_Buch",
-          "les_stelle": "com-Frau-each-Non–Les_Stelle",
-          "les_text": "com-Frau-each-Non-Les_Text",
-          "resp1_0": "com-Frau-each-Non-Resp1_0",
-          "resp1_1": "com-Frau-each-Non-Resp1_1"
+          "ant_0": "Mein Geliebter ist mein, und ich bin sein. Ich halte fest und will ihn nicht lassen.^ö",
+          "les_buch": "Phil",
+          "les_stelle": "4,8.9b",
+          "les_text": "Was immer wahrhaft, edel, recht, was lauter, liebenswert, ansprechend ist, was Tugend heißt und lobenswert ist, darauf seid bedacht! Und der Gott des Friedens wird mit euch sein.",
+          "resp1_0": "Dir, o Herr, will ich singen und spielen.^ö",
+          "resp1_1": "Ich will achten auf den Weg der Bewährten.^ö"
         },
         "Sext": {
-          "ant_1": "com-Frau-each-Sext-ant_1",
-          "ant_2": "com-Frau-each-Sext-ant_2",
-          "ant_3": "com-Frau-each-Sext-ant_3",
-          "les_buch": "com-Frau-each-Sext-Les_Buch",
-          "les_stelle": "com-Frau-each-Sext–Les_Stelle",
-          "les_text": "com-Frau-each-Sext-Les_Text",
-          "resp1_0": "com-Frau-each-Sext-Resp1_0",
-          "resp1_1": "com-Frau-each-Sext-Resp1_1"
+          "ant_0": "Mein Herz und mein Leib jauchzen ihm zu, ihm dem lebendigen Gott.^ö",
+          "les_buch": "1 Kor",
+          "les_stelle": "9,26-27a",
+          "les_text": "Ich laufe nicht wie einer, der ziellos läuft, und kämpfe mit der Faust nicht wie einer, der in die Luft schlägt; vielmehr züchtige und unterwerfe ich meinen Leib.",
+          "resp1_0": "Ich fand ihn, den meine Seele liebt.^ö",
+          "resp1_1": "Ich halte ihn fest und will ihn nicht lassen.^ö"
         },
         "Terz": {
-          "ant_1": "com-Frau-each-Terz-ant_1",
-          "ant_2": "com-Frau-each-Terz-ant_2",
-          "ant_3": "com-Frau-each-Terz-ant_3",
-          "les_buch": "com-Frau-each-Terz-Les_Buch",
-          "les_stelle": "com-Frau-each-Terz–Les_Stelle",
-          "les_text": "com-Frau-each-Terz-Les_Text",
-          "resp1_0": "com-Frau-each-Terz-Resp1_0",
-          "resp1_1": "com-Frau-each-Terz-Resp1_1"
+          "ant_0": "In jenen Tagen gieße ich meinen Geist aus über meine Knechte und meine Mägde.^ö",
+          "les_buch": "Gal",
+          "les_stelle": "6,7b-8",
+          "les_text": "Was der Mensch sät, das wird er auch ernten. Wer im Vertrauen auf das Fleisch sät, wird vom Fleisch Verderben ernten; wer aber im Vertrauen auf den Geist sät, wird vom Geist ewiges Leben ernten.",
+          "resp1_0": "Selig, deren Weg ohne Tadel ist.^ö",
+          "resp1_1": "Die leben nach der Weisung des Herrn.^ö"
         },
         "Vesper": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-Frau-each-Vesper-ant_1",
-          "ant_2": "com-Frau-each-Vesper-ant_2",
-          "ant_3": "com-Frau-each-Vesper-ant_3",
-          "les_buch": "com-Frau-each-Vesper-Les_Buch",
-          "les_stelle": "com-Frau-each-Vesper–Les_Stelle",
-          "les_text": "com-Frau-each-Vesper-Les_Text",
-          "resp1_1": "com-Frau-each-Vesper-Resp1_1",
-          "resp1_2": "com-Frau-each-Vesper-Resp1_2",
-          "resp1_3": "com-Frau-each-Vesper-Resp1_3",
-          "ant_ev": "com-Frau-each-Vesper-Ant_Ev",
-          "bitten_e": "com-Frau-each-Vesper-Bitten_E",
-          "bitten_r": "com-Frau-each-Vesper-Bitten_R",
-          "bitten": "com-Frau-each-Vesper-Bitten"
+          "hymn_1": 71234.0,
+          "ps_1": 122.0,
+          "ps_2": 127.0,
+          "ps_3": 152.0,
+          "ant_1": "An dir, Herr, freut sich deine Dienerin, denn du bist ihr Retter.^ö",
+          "ant_2": "Fest wie auf Felsen gegründet, so ist das Gesetz des Herrn im Herzen einer heiligen Frau.^ö",
+          "ant_3": "Die Hand des Herrn hat dich stark gemacht, du sollst gesegnet sein auf ewig.^ö",
+          "les_buch": "Röm",
+          "les_stelle": "8,28-30",
+          "les_text": "Wir wissen, dass Gott bei denen, die ihn lieben, alles zum Guten führt, bei denen, die nach seinem ewigen Plan berufen sind; denn alle, die er im voraus erkannt hat, hat er auch im voraus dazu bestimmt, an Wesen und Gestalt seines Sohnes teilzuhaben, damit dieser der Erstgeborene von vielen Brüdern sei. Die aber, die er vorausbestimmt hat, hat er auch berufen, und die er berufen hat, hat er auch gerecht gemacht; die er aber gerecht gemacht hat, die hat er auch verherrlicht.",
+          "resp1_1": "Der Herr hat sie erwählt,",
+          "resp1_2": "vor allen hat er sie erkoren.",
+          "resp1_3": "In seinem Zelt lässt er sie wohnen.",
+          "ant_ev": "In der Freude über Gott, meinen Retter, weitet sich mein Herz und jubelt auf im Herrn.^ö",
+          "bitten_e": "Lasst uns mit allen Heiligen des Himmels zu unserem Erlöser Jesus Christus beten:",
+          "bitten_r": "Herr, gedenke deiner Kirche.",
+          "bitten": "Erhöre das Gebet der heiligen Frauen, die die Krone des Martyriums erlangt haben;^qhilf der Kirche, standzuhalten in der Verfolgung.^pHöre auf die Fürbitten der heiligen Frauen, die dir im Ehestand gedient haben;^qstärke die Ehefrauen für ihre Aufgaben in der Familie.^pHöre auf die Fürsprache der heiligen Mütter, die ihre Kinder dir zugeführt haben,^qund hilf den Müttern, ihre Kinder im Glauben zu erziehen.^pSieh auf das Leben der heiligen Witwen, die durch Gebet und Werke der Nächstenliebe ihre Einsamkeit geheiligt haben;^qerbarme dich auf ihre Fürbitte aller Frauen, die ihren Gatten verloren haben.^pHier können Fürbitten in besonderen Anliegen eingefügt werden.^pHöre auf die Fürbitte aller heiligen Frauen, die bereits das Licht deines Antlitzes schauen,^qund schenke unseren Verstorbenen die ewige Freude des Himmels."
         }
-      }
-    },
-    "Frauen": {
-      "each": {
-        "Invitatorium": {
-          "ant_0": "com-Frauen-each-Invitatorium-ant_0"
-        },
+      },
+      "o": {
         "Laudes": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-Frauen-each-Laudes-ant_1",
-          "ant_2": "com-Frauen-each-Laudes-ant_2",
-          "ant_3": "com-Frauen-each-Laudes-ant_3",
-          "les_buch": "com-Frauen-each-Laudes-Les_Buch",
-          "les_stelle": "com-Frauen-each-Laudes–Les_Stelle",
-          "les_text": "com-Frauen-each-Laudes-Les_Text",
-          "resp1_1": "com-Frauen-each-Laudes-Resp1_1",
-          "resp1_2": "com-Frauen-each-Laudes-Resp1_2",
-          "resp1_3": "com-Frauen-each-Laudes-Resp1_3",
-          "ant_ev": "com-Frauen-each-Laudes-Ant_Ev",
-          "bitten_e": "com-Frauen-each-Laudes-Bitten_E",
-          "bitten_r": "com-Frauen-each-Laudes-Bitten_R",
-          "bitten": "com-Frauen-each-Laudes-Bitten"
-        },
-        "Lesehore": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-Frauen-each-Lesehore-ant_1",
-          "ant_2": "com-Frauen-each-Lesehore-ant_2",
-          "ant_3": "com-Frauen-each-Lesehore-ant_3",
-          "resp0_0": "com-Frauen-each-Lesehore-Resp0_0",
-          "resp0_1": "com-Frauen-each-Lesehore-Resp0_1",
-          "les_buch": "com-Frauen-each-Lesehore-Les_Buch",
-          "les_stelle": "com-Frauen-each-Lesehore–Les_Stelle",
-          "les_text": "com-Frauen-each-Lesehore-Les_Text",
-          "resp1_1": "com-Frauen-each-Lesehore-Resp1_1",
-          "resp1_2": "com-Frauen-each-Lesehore-Resp1_2",
-          "resp1_3": "com-Frauen-each-Lesehore-Resp1_3",
-          "patr_autor": "com-Frauen-each-Lesehore-Patr_Autor",
-          "patr_text": "com-Frauen-each-Lesehore-Patr_Text",
-          "patr_resp1": "com-Frauen-each-Lesehore-Patr_Resp1",
-          "patr_resp2": "com-Frauen-each-Lesehore-Patr_Resp2",
-          "patr_resp3": "com-Frauen-each-Lesehore-Patr_Resp3"
-        },
-        "Non": {
-          "ant_1": "com-Frauen-each-Non-ant_1",
-          "ant_2": "com-Frauen-each-Non-ant_2",
-          "ant_3": "com-Frauen-each-Non-ant_3",
-          "les_buch": "com-Frauen-each-Non-Les_Buch",
-          "les_stelle": "com-Frauen-each-Non–Les_Stelle",
-          "les_text": "com-Frauen-each-Non-Les_Text",
-          "resp1_0": "com-Frauen-each-Non-Resp1_0",
-          "resp1_1": "com-Frauen-each-Non-Resp1_1"
-        },
-        "Sext": {
-          "ant_1": "com-Frauen-each-Sext-ant_1",
-          "ant_2": "com-Frauen-each-Sext-ant_2",
-          "ant_3": "com-Frauen-each-Sext-ant_3",
-          "les_buch": "com-Frauen-each-Sext-Les_Buch",
-          "les_stelle": "com-Frauen-each-Sext–Les_Stelle",
-          "les_text": "com-Frauen-each-Sext-Les_Text",
-          "resp1_0": "com-Frauen-each-Sext-Resp1_0",
-          "resp1_1": "com-Frauen-each-Sext-Resp1_1"
-        },
-        "Terz": {
-          "ant_1": "com-Frauen-each-Terz-ant_1",
-          "ant_2": "com-Frauen-each-Terz-ant_2",
-          "ant_3": "com-Frauen-each-Terz-ant_3",
-          "les_buch": "com-Frauen-each-Terz-Les_Buch",
-          "les_stelle": "com-Frauen-each-Terz–Les_Stelle",
-          "les_text": "com-Frauen-each-Terz-Les_Text",
-          "resp1_0": "com-Frauen-each-Terz-Resp1_0",
-          "resp1_1": "com-Frauen-each-Terz-Resp1_1"
+          "resp1_1": "Sein Angesicht neigt Gott ihr zu, er steht ihr bei, sie wird nicht wanken.",
+          "resp1_2": "Halleluja, halleluja."
         },
         "Vesper": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-Frauen-each-Vesper-ant_1",
-          "ant_2": "com-Frauen-each-Vesper-ant_2",
-          "ant_3": "com-Frauen-each-Vesper-ant_3",
-          "les_buch": "com-Frauen-each-Vesper-Les_Buch",
-          "les_stelle": "com-Frauen-each-Vesper–Les_Stelle",
-          "les_text": "com-Frauen-each-Vesper-Les_Text",
-          "resp1_1": "com-Frauen-each-Vesper-Resp1_1",
-          "resp1_2": "com-Frauen-each-Vesper-Resp1_2",
-          "resp1_3": "com-Frauen-each-Vesper-Resp1_3",
-          "ant_ev": "com-Frauen-each-Vesper-Ant_Ev",
-          "bitten_e": "com-Frauen-each-Vesper-Bitten_E",
-          "bitten_r": "com-Frauen-each-Vesper-Bitten_R",
-          "bitten": "com-Frauen-each-Vesper-Bitten"
+          "resp1_1": "Der Herr hat sie erwählt, vor allen hat er sie erkoren.",
+          "resp1_2": "Halleluja, halleluja."
         }
       }
     },
@@ -1117,7 +929,7 @@ export const brevierData = {
           "ant_0": "Christus, den obersten Hirten der Kirche – kommt, wir beten ihn an!"
         },
         "Laudes": {
-          "name": "Comm Hi",
+          "name": "Hi",
           "hymn_1": 71151.0,
           "ps_1": 63.0,
           "ps_2": 160.0,
@@ -1215,6 +1027,7 @@ export const brevierData = {
           "ant_0": "com-Jgfr-each-Invitatorium-ant_0"
         },
         "Laudes": {
+          "name": "Jgfr",
           "hymn_1": 9999.0,
           "ps_1": 9999.0,
           "ps_2": 9999.0,
@@ -1306,109 +1119,13 @@ export const brevierData = {
         }
       }
     },
-    "JgfrMärt": {
-      "each": {
-        "Invitatorium": {
-          "ant_0": "com-JgfrMärt-each-Invitatorium-ant_0"
-        },
-        "Laudes": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-JgfrMärt-each-Laudes-ant_1",
-          "ant_2": "com-JgfrMärt-each-Laudes-ant_2",
-          "ant_3": "com-JgfrMärt-each-Laudes-ant_3",
-          "les_buch": "com-JgfrMärt-each-Laudes-Les_Buch",
-          "les_stelle": "com-JgfrMärt-each-Laudes–Les_Stelle",
-          "les_text": "com-JgfrMärt-each-Laudes-Les_Text",
-          "resp1_1": "com-JgfrMärt-each-Laudes-Resp1_1",
-          "resp1_2": "com-JgfrMärt-each-Laudes-Resp1_2",
-          "resp1_3": "com-JgfrMärt-each-Laudes-Resp1_3",
-          "ant_ev": "com-JgfrMärt-each-Laudes-Ant_Ev",
-          "bitten_e": "com-JgfrMärt-each-Laudes-Bitten_E",
-          "bitten_r": "com-JgfrMärt-each-Laudes-Bitten_R",
-          "bitten": "com-JgfrMärt-each-Laudes-Bitten"
-        },
-        "Lesehore": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-JgfrMärt-each-Lesehore-ant_1",
-          "ant_2": "com-JgfrMärt-each-Lesehore-ant_2",
-          "ant_3": "com-JgfrMärt-each-Lesehore-ant_3",
-          "resp0_0": "com-JgfrMärt-each-Lesehore-Resp0_0",
-          "resp0_1": "com-JgfrMärt-each-Lesehore-Resp0_1",
-          "les_buch": "com-JgfrMärt-each-Lesehore-Les_Buch",
-          "les_stelle": "com-JgfrMärt-each-Lesehore–Les_Stelle",
-          "les_text": "com-JgfrMärt-each-Lesehore-Les_Text",
-          "resp1_1": "com-JgfrMärt-each-Lesehore-Resp1_1",
-          "resp1_2": "com-JgfrMärt-each-Lesehore-Resp1_2",
-          "resp1_3": "com-JgfrMärt-each-Lesehore-Resp1_3",
-          "patr_autor": "com-JgfrMärt-each-Lesehore-Patr_Autor",
-          "patr_text": "com-JgfrMärt-each-Lesehore-Patr_Text",
-          "patr_resp1": "com-JgfrMärt-each-Lesehore-Patr_Resp1",
-          "patr_resp2": "com-JgfrMärt-each-Lesehore-Patr_Resp2",
-          "patr_resp3": "com-JgfrMärt-each-Lesehore-Patr_Resp3"
-        },
-        "Non": {
-          "ant_1": "com-JgfrMärt-each-Non-ant_1",
-          "ant_2": "com-JgfrMärt-each-Non-ant_2",
-          "ant_3": "com-JgfrMärt-each-Non-ant_3",
-          "les_buch": "com-JgfrMärt-each-Non-Les_Buch",
-          "les_stelle": "com-JgfrMärt-each-Non–Les_Stelle",
-          "les_text": "com-JgfrMärt-each-Non-Les_Text",
-          "resp1_0": "com-JgfrMärt-each-Non-Resp1_0",
-          "resp1_1": "com-JgfrMärt-each-Non-Resp1_1"
-        },
-        "Sext": {
-          "ant_1": "com-JgfrMärt-each-Sext-ant_1",
-          "ant_2": "com-JgfrMärt-each-Sext-ant_2",
-          "ant_3": "com-JgfrMärt-each-Sext-ant_3",
-          "les_buch": "com-JgfrMärt-each-Sext-Les_Buch",
-          "les_stelle": "com-JgfrMärt-each-Sext–Les_Stelle",
-          "les_text": "com-JgfrMärt-each-Sext-Les_Text",
-          "resp1_0": "com-JgfrMärt-each-Sext-Resp1_0",
-          "resp1_1": "com-JgfrMärt-each-Sext-Resp1_1"
-        },
-        "Terz": {
-          "ant_1": "com-JgfrMärt-each-Terz-ant_1",
-          "ant_2": "com-JgfrMärt-each-Terz-ant_2",
-          "ant_3": "com-JgfrMärt-each-Terz-ant_3",
-          "les_buch": "com-JgfrMärt-each-Terz-Les_Buch",
-          "les_stelle": "com-JgfrMärt-each-Terz–Les_Stelle",
-          "les_text": "com-JgfrMärt-each-Terz-Les_Text",
-          "resp1_0": "com-JgfrMärt-each-Terz-Resp1_0",
-          "resp1_1": "com-JgfrMärt-each-Terz-Resp1_1"
-        },
-        "Vesper": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-JgfrMärt-each-Vesper-ant_1",
-          "ant_2": "com-JgfrMärt-each-Vesper-ant_2",
-          "ant_3": "com-JgfrMärt-each-Vesper-ant_3",
-          "les_buch": "com-JgfrMärt-each-Vesper-Les_Buch",
-          "les_stelle": "com-JgfrMärt-each-Vesper–Les_Stelle",
-          "les_text": "com-JgfrMärt-each-Vesper-Les_Text",
-          "resp1_1": "com-JgfrMärt-each-Vesper-Resp1_1",
-          "resp1_2": "com-JgfrMärt-each-Vesper-Resp1_2",
-          "resp1_3": "com-JgfrMärt-each-Vesper-Resp1_3",
-          "ant_ev": "com-JgfrMärt-each-Vesper-Ant_Ev",
-          "bitten_e": "com-JgfrMärt-each-Vesper-Bitten_E",
-          "bitten_r": "com-JgfrMärt-each-Vesper-Bitten_R",
-          "bitten": "com-JgfrMärt-each-Vesper-Bitten"
-        }
-      }
-    },
     "JgfrPl": {
       "each": {
         "Invitatorium": {
           "ant_0": "com-JgfrPl-each-Invitatorium-ant_0"
         },
         "Laudes": {
+          "name": "Jgfr",
           "hymn_1": 9999.0,
           "ps_1": 9999.0,
           "ps_2": 9999.0,
@@ -1506,6 +1223,7 @@ export const brevierData = {
           "ant_0": "com-Kirchw-each-Invitatorium-ant_0"
         },
         "Laudes": {
+          "name": "Kw",
           "hymn_1": 9999.0,
           "ps_1": 9999.0,
           "ps_2": 9999.0,
@@ -1606,7 +1324,7 @@ export const brevierData = {
           "ant_0": "com-Lehrer-each-Invitatorium-ant_0"
         },
         "Laudes": {
-          "name": "Kirchenl",
+          "name": "Kl",
           "hymn_1": 9999.0,
           "ps_1": 9999.0,
           "ps_2": 9999.0,
@@ -1698,321 +1416,145 @@ export const brevierData = {
         }
       }
     },
-    "Liebe": {
-      "each": {
-        "Invitatorium": {
-          "ant_0": "com-Liebe-each-Invitatorium-ant_0"
-        },
-        "Laudes": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-Liebe-each-Laudes-ant_1",
-          "ant_2": "com-Liebe-each-Laudes-ant_2",
-          "ant_3": "com-Liebe-each-Laudes-ant_3",
-          "les_buch": "com-Liebe-each-Laudes-Les_Buch",
-          "les_stelle": "com-Liebe-each-Laudes–Les_Stelle",
-          "les_text": "com-Liebe-each-Laudes-Les_Text",
-          "resp1_1": "com-Liebe-each-Laudes-Resp1_1",
-          "resp1_2": "com-Liebe-each-Laudes-Resp1_2",
-          "resp1_3": "com-Liebe-each-Laudes-Resp1_3",
-          "ant_ev": "com-Liebe-each-Laudes-Ant_Ev",
-          "bitten_e": "com-Liebe-each-Laudes-Bitten_E",
-          "bitten_r": "com-Liebe-each-Laudes-Bitten_R",
-          "bitten": "com-Liebe-each-Laudes-Bitten"
-        },
-        "Lesehore": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-Liebe-each-Lesehore-ant_1",
-          "ant_2": "com-Liebe-each-Lesehore-ant_2",
-          "ant_3": "com-Liebe-each-Lesehore-ant_3",
-          "resp0_0": "com-Liebe-each-Lesehore-Resp0_0",
-          "resp0_1": "com-Liebe-each-Lesehore-Resp0_1",
-          "les_buch": "com-Liebe-each-Lesehore-Les_Buch",
-          "les_stelle": "com-Liebe-each-Lesehore–Les_Stelle",
-          "les_text": "com-Liebe-each-Lesehore-Les_Text",
-          "resp1_1": "com-Liebe-each-Lesehore-Resp1_1",
-          "resp1_2": "com-Liebe-each-Lesehore-Resp1_2",
-          "resp1_3": "com-Liebe-each-Lesehore-Resp1_3",
-          "patr_autor": "com-Liebe-each-Lesehore-Patr_Autor",
-          "patr_text": "com-Liebe-each-Lesehore-Patr_Text",
-          "patr_resp1": "com-Liebe-each-Lesehore-Patr_Resp1",
-          "patr_resp2": "com-Liebe-each-Lesehore-Patr_Resp2",
-          "patr_resp3": "com-Liebe-each-Lesehore-Patr_Resp3"
-        },
-        "Non": {
-          "ant_1": "com-Liebe-each-Non-ant_1",
-          "ant_2": "com-Liebe-each-Non-ant_2",
-          "ant_3": "com-Liebe-each-Non-ant_3",
-          "les_buch": "com-Liebe-each-Non-Les_Buch",
-          "les_stelle": "com-Liebe-each-Non–Les_Stelle",
-          "les_text": "com-Liebe-each-Non-Les_Text",
-          "resp1_0": "com-Liebe-each-Non-Resp1_0",
-          "resp1_1": "com-Liebe-each-Non-Resp1_1"
-        },
-        "Sext": {
-          "ant_1": "com-Liebe-each-Sext-ant_1",
-          "ant_2": "com-Liebe-each-Sext-ant_2",
-          "ant_3": "com-Liebe-each-Sext-ant_3",
-          "les_buch": "com-Liebe-each-Sext-Les_Buch",
-          "les_stelle": "com-Liebe-each-Sext–Les_Stelle",
-          "les_text": "com-Liebe-each-Sext-Les_Text",
-          "resp1_0": "com-Liebe-each-Sext-Resp1_0",
-          "resp1_1": "com-Liebe-each-Sext-Resp1_1"
-        },
-        "Terz": {
-          "ant_1": "com-Liebe-each-Terz-ant_1",
-          "ant_2": "com-Liebe-each-Terz-ant_2",
-          "ant_3": "com-Liebe-each-Terz-ant_3",
-          "les_buch": "com-Liebe-each-Terz-Les_Buch",
-          "les_stelle": "com-Liebe-each-Terz–Les_Stelle",
-          "les_text": "com-Liebe-each-Terz-Les_Text",
-          "resp1_0": "com-Liebe-each-Terz-Resp1_0",
-          "resp1_1": "com-Liebe-each-Terz-Resp1_1"
-        },
-        "Vesper": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-Liebe-each-Vesper-ant_1",
-          "ant_2": "com-Liebe-each-Vesper-ant_2",
-          "ant_3": "com-Liebe-each-Vesper-ant_3",
-          "les_buch": "com-Liebe-each-Vesper-Les_Buch",
-          "les_stelle": "com-Liebe-each-Vesper–Les_Stelle",
-          "les_text": "com-Liebe-each-Vesper-Les_Text",
-          "resp1_1": "com-Liebe-each-Vesper-Resp1_1",
-          "resp1_2": "com-Liebe-each-Vesper-Resp1_2",
-          "resp1_3": "com-Liebe-each-Vesper-Resp1_3",
-          "ant_ev": "com-Liebe-each-Vesper-Ant_Ev",
-          "bitten_e": "com-Liebe-each-Vesper-Bitten_E",
-          "bitten_r": "com-Liebe-each-Vesper-Bitten_R",
-          "bitten": "com-Liebe-each-Vesper-Bitten"
-        }
-      }
-    },
     "Mann": {
       "each": {
         "Invitatorium": {
-          "ant_0": "com-Mann-each-Invitatorium-ant_0"
+          "ant_0": "Wunderbar ist Gott in seinen Heiligen; kommt, wir beten ihn an!^ö^p^rOder:^0r^l^rAnt.°°^0rLasst uns Gott loben am Fest des heiligen ^N!^ö"
         },
         "Laudes": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-Mann-each-Laudes-ant_1",
-          "ant_2": "com-Mann-each-Laudes-ant_2",
-          "ant_3": "com-Mann-each-Laudes-ant_3",
-          "les_buch": "com-Mann-each-Laudes-Les_Buch",
-          "les_stelle": "com-Mann-each-Laudes–Les_Stelle",
-          "les_text": "com-Mann-each-Laudes-Les_Text",
-          "resp1_1": "com-Mann-each-Laudes-Resp1_1",
-          "resp1_2": "com-Mann-each-Laudes-Resp1_2",
-          "resp1_3": "com-Mann-each-Laudes-Resp1_3",
-          "ant_ev": "com-Mann-each-Laudes-Ant_Ev",
-          "bitten_e": "com-Mann-each-Laudes-Bitten_E",
-          "bitten_r": "com-Mann-each-Laudes-Bitten_R",
-          "bitten": "com-Mann-each-Laudes-Bitten"
+          "name": "Hl",
+          "hymn_1": 71210.0,
+          "ps_1": 63.0,
+          "ps_2": 160.0,
+          "ps_3": 149.0,
+          "ant_1": "Gott verlieh ihnen ewigen Ruhm und einen unvergänglichen Namen.^ö",
+          "ant_2": "Preist den Herrn, ihr Knechte des Herrn, preist ihn in Ewigkeit.^ö",
+          "ant_3": "In festlichem Glanz frohlocken die Frommen, die Heiligen jubeln in Herrlichkeit.^ö",
+          "les_buch": "Röm",
+          "les_stelle": "12,1-2",
+          "les_text": "Angesichts des Erbarmens Gottes ermahne ich euch, meine Brüder, euch selbst als lebendiges und heiliges Opfer darzubringen, das Gott gefällt; das ist für euch der wahre und angemessene Gottesdienst. Gleicht euch nicht dieser Welt an, sondern wandelt euch und erneuert euer Denken, damit ihr prüfen und erkennen könnt, was der Wille Gottes ist: was ihm gefällt, was gut und vollkommen ist.",
+          "resp1_1": "Er trägt die Weisung seines Gottes im Herzen,",
+          "resp1_2": "niemals wanken seine Schritte.",
+          "resp1_3": "Er wird nicht stürzen, denn der Herr hält ihn fest an der Hand.",
+          "ant_ev": "Wer die Wahrheit tut, der kommt zum Licht, damit offenbar wird, dass seine Taten in Gott vollbracht sind.^ö",
+          "bitten_e": "Gepriesen sei Jesus Christus, das Urbild aller Heiligkeit. Zu ihm lasst uns beten:",
+          "bitten_r": "Christus, erbarme dich unser.",
+          "bitten": "Du bist der Heilige Gottes;^qHerr, erbarme dich unser.^pNiemand konnte dich einer Sünde beschuldigen;^qHerr, erbarme dich unser.^pDu bist gekommen, nicht um bedient zu werden, sondern um zu dienen;^qHerr, erbarme dich unser.^pDu hast in der Versuchung standgehalten und bist treu geblieben bis in den Tod;^qHerr, erbarme dich unser."
         },
         "Lesehore": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-Mann-each-Lesehore-ant_1",
-          "ant_2": "com-Mann-each-Lesehore-ant_2",
-          "ant_3": "com-Mann-each-Lesehore-ant_3",
-          "resp0_0": "com-Mann-each-Lesehore-Resp0_0",
-          "resp0_1": "com-Mann-each-Lesehore-Resp0_1",
-          "les_buch": "com-Mann-each-Lesehore-Les_Buch",
-          "les_stelle": "com-Mann-each-Lesehore–Les_Stelle",
-          "les_text": "com-Mann-each-Lesehore-Les_Text",
-          "resp1_1": "com-Mann-each-Lesehore-Resp1_1",
-          "resp1_2": "com-Mann-each-Lesehore-Resp1_2",
-          "resp1_3": "com-Mann-each-Lesehore-Resp1_3",
-          "patr_autor": "com-Mann-each-Lesehore-Patr_Autor",
-          "patr_text": "com-Mann-each-Lesehore-Patr_Text",
-          "patr_resp1": "com-Mann-each-Lesehore-Patr_Resp1",
-          "patr_resp2": "com-Mann-each-Lesehore-Patr_Resp2",
-          "patr_resp3": "com-Mann-each-Lesehore-Patr_Resp3"
+          "hymn_1": 71199.0,
+          "ps_1": 21.0,
+          "ps_2": 92.1,
+          "ps_3": 92.2,
+          "ant_1": "Leben erbat er von dir, und du gabst es ihm. Du hast ihn bekleidet mit Hoheit und Pracht.^ö",
+          "ant_2": "Der Pfad der Gerechten ist wie das Licht am Morgen; immer heller wird es, bis zum vollen Tag.^ö",
+          "ant_3": "Der Gerechte gedeiht wie die Palme; er wächst wie die Zedern des Libanon.^ö",
+          "resp0_0": "Der Herr geleitet den Gerechten auf geraden Wegen.",
+          "resp0_1": "Und er zeigt ihm das Reich Gottes.",
+          "les_buch": "Aus dem Brief an die Kolosser.",
+          "les_stelle": "3,1-17",
+          "les_text": "",
+          "resp1_1": "",
+          "resp1_2": "",
+          "resp1_3": "",
+          "patr_autor": "",
+          "patr_werk": "",
+          "patr_text": "",
+          "patr_resp1": "",
+          "patr_resp2": "",
+          "patr_resp3": ""
         },
         "Non": {
-          "ant_1": "com-Mann-each-Non-ant_1",
-          "ant_2": "com-Mann-each-Non-ant_2",
-          "ant_3": "com-Mann-each-Non-ant_3",
-          "les_buch": "com-Mann-each-Non-Les_Buch",
-          "les_stelle": "com-Mann-each-Non–Les_Stelle",
-          "les_text": "com-Mann-each-Non-Les_Text",
-          "resp1_0": "com-Mann-each-Non-Resp1_0",
-          "resp1_1": "com-Mann-each-Non-Resp1_1"
+          "ant_0": "Kein Auge hat es gesehen, und niemand weiß es außer dir, o Gott, was du denen bereitet hast, die auf dich warten.^ö",
+          "les_buch": "Phil",
+          "les_stelle": "4,8.9b",
+          "les_text": "Was immer wahrhaft, edel, recht, was lauter, liebenswert, ansprechend ist, was Tugend heißt und lobenswert ist, darauf seid bedacht! Und der Gott des Friedens wird mit euch sein.",
+          "resp1_0": "Die auf dich vertrauen, sollen sich freuen.",
+          "resp1_1": "Du wirst bei ihnen wohnen, sie werden immerfort jubeln."
         },
         "Sext": {
-          "ant_1": "com-Mann-each-Sext-ant_1",
-          "ant_2": "com-Mann-each-Sext-ant_2",
-          "ant_3": "com-Mann-each-Sext-ant_3",
-          "les_buch": "com-Mann-each-Sext-Les_Buch",
-          "les_stelle": "com-Mann-each-Sext–Les_Stelle",
-          "les_text": "com-Mann-each-Sext-Les_Text",
-          "resp1_0": "com-Mann-each-Sext-Resp1_0",
-          "resp1_1": "com-Mann-each-Sext-Resp1_1"
+          "ant_0": "Wer den Willen meines Vaters tut, kommt in das Himmelreich.^ö",
+          "les_buch": "1 Kor",
+          "les_stelle": "9,26-27a",
+          "les_text": "Ich laufe nicht wie einer, der ziellos läuft, und kämpfe mit der Faust nicht wie einer, der in die Luft schlägt; vielmehr züchtige und unterwerfe ich meinen Leib.",
+          "resp1_0": "Selig der Mann, den du, o Herr, erziehst.",
+          "resp1_1": "Den du mit deiner Weisung belehrst."
         },
         "Terz": {
-          "ant_1": "com-Mann-each-Terz-ant_1",
-          "ant_2": "com-Mann-each-Terz-ant_2",
-          "ant_3": "com-Mann-each-Terz-ant_3",
-          "les_buch": "com-Mann-each-Terz-Les_Buch",
-          "les_stelle": "com-Mann-each-Terz–Les_Stelle",
-          "les_text": "com-Mann-each-Terz-Les_Text",
-          "resp1_0": "com-Mann-each-Terz-Resp1_0",
-          "resp1_1": "com-Mann-each-Terz-Resp1_1"
+          "ant_0": "Wer festhält am Worte Christi, in dem ist die Liebe vollendet.^ö",
+          "les_buch": "Gal",
+          "les_stelle": "6,7b-8",
+          "les_text": "Was der Mensch sät, das wird er auch ernten. Wer im Vertrauen auf das Fleisch sät, wird vom Fleisch Verderben ernten; wer aber im Vertrauen auf den Geist sät, wird vom Geist ewiges Leben ernten.",
+          "resp1_0": "Die Demütigen leitet der Herr nach seinem Recht.",
+          "resp1_1": "Die Gebeugten lehrt er seinen Weg."
         },
         "Vesper": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-Mann-each-Vesper-ant_1",
-          "ant_2": "com-Mann-each-Vesper-ant_2",
-          "ant_3": "com-Mann-each-Vesper-ant_3",
-          "les_buch": "com-Mann-each-Vesper-Les_Buch",
-          "les_stelle": "com-Mann-each-Vesper–Les_Stelle",
-          "les_text": "com-Mann-each-Vesper-Les_Text",
-          "resp1_1": "com-Mann-each-Vesper-Resp1_1",
-          "resp1_2": "com-Mann-each-Vesper-Resp1_2",
-          "resp1_3": "com-Mann-each-Vesper-Resp1_3",
-          "ant_ev": "com-Mann-each-Vesper-Ant_Ev",
-          "bitten_e": "com-Mann-each-Vesper-Bitten_E",
-          "bitten_r": "com-Mann-each-Vesper-Bitten_R",
-          "bitten": "com-Mann-each-Vesper-Bitten"
+          "hymn_1": 71215.0,
+          "ps_1": 15.0,
+          "ps_2": 112.0,
+          "ps_3": 156.0,
+          "ant_1": "Sein Leben war ohne Makel. Er wurde geprüft und hat sich bewährt. Sein Ruhm wird bleiben für immer und ewig.^ö",
+          "ant_2": "Gnade und Erbarmen wird den Heiligen zuteil. Gottes Auge ruht auf seinen Erwählten.^ö",
+          "ant_3": "Die Heiligen sangen ein neues Lied vor Gott und dem Lamm, und die Erde hallte wider von ihren Stimmen.^ö",
+          "les_buch": "Röm",
+          "les_stelle": "8,28-30",
+          "les_text": "Wir wissen, dass Gott bei denen, die ihn lieben, alles zum Guten führt, bei denen, die nach seinem ewigen Plan berufen sind; denn alle, die er im voraus erkannt hat, hat er auch im voraus dazu bestimmt, an Wesen und Gestalt seines Sohnes teilzuhaben, damit dieser der Erstgeborene von vielen Brüdern sei. Die aber, die er vorausbestimmt hat, hat er auch berufen, und die er berufen hat, hat er auch gerecht gemacht; die er aber gerecht gemacht hat, die hat er auch verherrlicht.",
+          "resp1_1": "Der Herr ist gerecht,",
+          "resp1_2": "er liebt gerechte Taten.",
+          "resp1_3": "Redliche dürfen sein Angesicht schauen.",
+          "ant_ev": "Du guter und treuer Knecht, nimm teil an der Freude deines Herrn.^ö",
+          "bitten_e": "Lasst uns beten zu Gott, unserem Vater, dem Quell aller Heiligkeit:",
+          "bitten_r": "Herr, heilige dein Volk.",
+          "bitten": "Du bist wunderbar in deinen Heiligen;^qsende auch unserer Zeit heilige Männer.^pDu hast immer wieder heilige Männer berufen, dass sie deine Herrschaft in der Welt sichtbar machen;^qsteh allen bei, denen ein Dienst (Amt) in der Welt aufgetragen ist.^pAuf die Fürsprache des heiligen N. stärke alle, die an dich glauben;^qhilf ihnen, deinen Auftrag auszuführen, wo immer sie stehen.^pDer heilige ^N hat in den Prüfungen des Lebens standgehalten;^qgib allen Christen Großmut und Tapferkeit.^pVergib den Sündern ihre Schuld^qund lass dein Antlitz leuchten über unseren Verstorbenen."
         }
-      }
-    },
-    "Männer": {
-      "each": {
+      },
+      "o": {
+        "Laudes": {
+          "resp1_1": "Er trägt die Weisung seines Gottes im Herzen, niemals wanken seine Schritte.",
+          "resp1_2": "Halleluja, halleluja."
+        },
+        "Vesper": {
+          "resp1_1": "Der Herr ist gerecht, er liebt gerechte Taten.",
+          "resp1_2": "Halleluja, halleluja."
+        }
+      },
+      "Pl": {
         "Invitatorium": {
-          "ant_0": "com-Männer-each-Invitatorium-ant_0"
+          "ant_0": "Wunderbar ist Gott in seinen Heiligen; kommt, wir beten ihn an!^ö^p^rOder:^0r^l^rAnt.°°^0rLasst uns Gott loben am Fest der heiligen ^N!^ö"
         },
         "Laudes": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-Männer-each-Laudes-ant_1",
-          "ant_2": "com-Männer-each-Laudes-ant_2",
-          "ant_3": "com-Männer-each-Laudes-ant_3",
-          "les_buch": "com-Männer-each-Laudes-Les_Buch",
-          "les_stelle": "com-Männer-each-Laudes–Les_Stelle",
-          "les_text": "com-Männer-each-Laudes-Les_Text",
-          "resp1_1": "com-Männer-each-Laudes-Resp1_1",
-          "resp1_2": "com-Männer-each-Laudes-Resp1_2",
-          "resp1_3": "com-Männer-each-Laudes-Resp1_3",
-          "ant_ev": "com-Männer-each-Laudes-Ant_Ev",
-          "bitten_e": "com-Männer-each-Laudes-Bitten_E",
-          "bitten_r": "com-Männer-each-Laudes-Bitten_R",
-          "bitten": "com-Männer-each-Laudes-Bitten"
-        },
-        "Lesehore": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-Männer-each-Lesehore-ant_1",
-          "ant_2": "com-Männer-each-Lesehore-ant_2",
-          "ant_3": "com-Männer-each-Lesehore-ant_3",
-          "resp0_0": "com-Männer-each-Lesehore-Resp0_0",
-          "resp0_1": "com-Männer-each-Lesehore-Resp0_1",
-          "les_buch": "com-Männer-each-Lesehore-Les_Buch",
-          "les_stelle": "com-Männer-each-Lesehore–Les_Stelle",
-          "les_text": "com-Männer-each-Lesehore-Les_Text",
-          "resp1_1": "com-Männer-each-Lesehore-Resp1_1",
-          "resp1_2": "com-Männer-each-Lesehore-Resp1_2",
-          "resp1_3": "com-Männer-each-Lesehore-Resp1_3",
-          "patr_autor": "com-Männer-each-Lesehore-Patr_Autor",
-          "patr_text": "com-Männer-each-Lesehore-Patr_Text",
-          "patr_resp1": "com-Männer-each-Lesehore-Patr_Resp1",
-          "patr_resp2": "com-Männer-each-Lesehore-Patr_Resp2",
-          "patr_resp3": "com-Männer-each-Lesehore-Patr_Resp3"
-        },
-        "Non": {
-          "ant_1": "com-Männer-each-Non-ant_1",
-          "ant_2": "com-Männer-each-Non-ant_2",
-          "ant_3": "com-Männer-each-Non-ant_3",
-          "les_buch": "com-Männer-each-Non-Les_Buch",
-          "les_stelle": "com-Männer-each-Non–Les_Stelle",
-          "les_text": "com-Männer-each-Non-Les_Text",
-          "resp1_0": "com-Männer-each-Non-Resp1_0",
-          "resp1_1": "com-Männer-each-Non-Resp1_1"
-        },
-        "Sext": {
-          "ant_1": "com-Männer-each-Sext-ant_1",
-          "ant_2": "com-Männer-each-Sext-ant_2",
-          "ant_3": "com-Männer-each-Sext-ant_3",
-          "les_buch": "com-Männer-each-Sext-Les_Buch",
-          "les_stelle": "com-Männer-each-Sext–Les_Stelle",
-          "les_text": "com-Männer-each-Sext-Les_Text",
-          "resp1_0": "com-Männer-each-Sext-Resp1_0",
-          "resp1_1": "com-Männer-each-Sext-Resp1_1"
-        },
-        "Terz": {
-          "ant_1": "com-Männer-each-Terz-ant_1",
-          "ant_2": "com-Männer-each-Terz-ant_2",
-          "ant_3": "com-Männer-each-Terz-ant_3",
-          "les_buch": "com-Männer-each-Terz-Les_Buch",
-          "les_stelle": "com-Männer-each-Terz–Les_Stelle",
-          "les_text": "com-Männer-each-Terz-Les_Text",
-          "resp1_0": "com-Männer-each-Terz-Resp1_0",
-          "resp1_1": "com-Männer-each-Terz-Resp1_1"
+          "ant_ev": "Selig, die Frieden stiften, die reinen Herzens sind; denn sie werden Gott schauen.^ö"
         },
         "Vesper": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-Männer-each-Vesper-ant_1",
-          "ant_2": "com-Männer-each-Vesper-ant_2",
-          "ant_3": "com-Männer-each-Vesper-ant_3",
-          "les_buch": "com-Männer-each-Vesper-Les_Buch",
-          "les_stelle": "com-Männer-each-Vesper–Les_Stelle",
-          "les_text": "com-Männer-each-Vesper-Les_Text",
-          "resp1_1": "com-Männer-each-Vesper-Resp1_1",
-          "resp1_2": "com-Männer-each-Vesper-Resp1_2",
-          "resp1_3": "com-Männer-each-Vesper-Resp1_3",
-          "ant_ev": "com-Männer-each-Vesper-Ant_Ev",
-          "bitten_e": "com-Männer-each-Vesper-Bitten_E",
-          "bitten_r": "com-Männer-each-Vesper-Bitten_R",
-          "bitten": "com-Männer-each-Vesper-Bitten"
+          "ant_ev": "Sie waren treu bis in den Tod und empfingen vom Herrn die Krone des Lebens.^ö"
         }
       }
     },
-    "Mar": {
+    "Maria": {
       "each": {
         "Invitatorium": {
           "ps_24": 0,
           "ant_0": "Christus, den Sohn Mariens – kommt, wir beten ihn an!"
         },
         "Laudes": {
+          "name": "Mar",
           "hymn_1": 9999.0,
           "ps_1": 63.0,
           "ps_2": 160.0,
           "ps_3": 149.0,
-          "ant_1": "com-Mar-each-Laudes-ant_1",
-          "ant_2": "com-Mar-each-Laudes-ant_2",
-          "ant_3": "com-Mar-each-Laudes-ant_3",
-          "les_buch": "com-Mar-each-Laudes-Les_Buch",
-          "les_stelle": "com-Mar-each-Laudes–Les_Stelle",
-          "les_text": "com-Mar-each-Laudes-Les_Text",
-          "resp1_1": "com-Mar-each-Laudes-Resp1_1",
-          "resp1_2": "com-Mar-each-Laudes-Resp1_2",
-          "resp1_3": "com-Mar-each-Laudes-Resp1_3",
-          "ant_ev": "com-Mar-each-Laudes-Ant_Ev",
-          "bitten_e": "com-Mar-each-Laudes-Bitten_E",
-          "bitten_r": "com-Mar-each-Laudes-Bitten_R",
-          "bitten": "com-Mar-each-Laudes-Bitten"
+          "ant_1": "com-Maria-each-Laudes-ant_1",
+          "ant_2": "com-Maria-each-Laudes-ant_2",
+          "ant_3": "com-Maria-each-Laudes-ant_3",
+          "les_buch": "com-Maria-each-Laudes-Les_Buch",
+          "les_stelle": "com-Maria-each-Laudes–Les_Stelle",
+          "les_text": "com-Maria-each-Laudes-Les_Text",
+          "resp1_1": "com-Maria-each-Laudes-Resp1_1",
+          "resp1_2": "com-Maria-each-Laudes-Resp1_2",
+          "resp1_3": "com-Maria-each-Laudes-Resp1_3",
+          "ant_ev": "com-Maria-each-Laudes-Ant_Ev",
+          "bitten_e": "com-Maria-each-Laudes-Bitten_E",
+          "bitten_r": "com-Maria-each-Laudes-Bitten_R",
+          "bitten": "com-Maria-each-Laudes-Bitten"
         },
         "Lesehore": {
           "hymn_1": 9999.0,
@@ -2026,513 +1568,63 @@ export const brevierData = {
           "resp0_1": "Und es befolgen.",
           "les_buch": "1 Chr",
           "les_stelle": "17,1–15",
-          "resp1_1": "com-Mar-each-Lesehore-Resp1_1",
-          "resp1_2": "com-Mar-each-Lesehore-Resp1_2",
-          "resp1_3": "com-Mar-each-Lesehore-Resp1_3",
-          "patr_autor": "com-Mar-each-Lesehore-Patr_Autor",
-          "patr_text": "com-Mar-each-Lesehore-Patr_Text",
-          "patr_resp1": "com-Mar-each-Lesehore-Patr_Resp1",
-          "patr_resp2": "com-Mar-each-Lesehore-Patr_Resp2",
-          "patr_resp3": "com-Mar-each-Lesehore-Patr_Resp3"
+          "resp1_1": "com-Maria-each-Lesehore-Resp1_1",
+          "resp1_2": "com-Maria-each-Lesehore-Resp1_2",
+          "resp1_3": "com-Maria-each-Lesehore-Resp1_3",
+          "patr_autor": "com-Maria-each-Lesehore-Patr_Autor",
+          "patr_text": "com-Maria-each-Lesehore-Patr_Text",
+          "patr_resp1": "com-Maria-each-Lesehore-Patr_Resp1",
+          "patr_resp2": "com-Maria-each-Lesehore-Patr_Resp2",
+          "patr_resp3": "com-Maria-each-Lesehore-Patr_Resp3"
         },
         "Non": {
-          "ant_1": "com-Mar-each-Non-ant_1",
-          "ant_2": "com-Mar-each-Non-ant_2",
-          "ant_3": "com-Mar-each-Non-ant_3",
-          "les_buch": "com-Mar-each-Non-Les_Buch",
-          "les_stelle": "com-Mar-each-Non–Les_Stelle",
-          "les_text": "com-Mar-each-Non-Les_Text",
-          "resp1_0": "com-Mar-each-Non-Resp1_0",
-          "resp1_1": "com-Mar-each-Non-Resp1_1"
+          "ant_1": "com-Maria-each-Non-ant_1",
+          "ant_2": "com-Maria-each-Non-ant_2",
+          "ant_3": "com-Maria-each-Non-ant_3",
+          "les_buch": "com-Maria-each-Non-Les_Buch",
+          "les_stelle": "com-Maria-each-Non–Les_Stelle",
+          "les_text": "com-Maria-each-Non-Les_Text",
+          "resp1_0": "com-Maria-each-Non-Resp1_0",
+          "resp1_1": "com-Maria-each-Non-Resp1_1"
         },
         "Sext": {
-          "ant_1": "com-Mar-each-Sext-ant_1",
-          "ant_2": "com-Mar-each-Sext-ant_2",
-          "ant_3": "com-Mar-each-Sext-ant_3",
-          "les_buch": "com-Mar-each-Sext-Les_Buch",
-          "les_stelle": "com-Mar-each-Sext–Les_Stelle",
-          "les_text": "com-Mar-each-Sext-Les_Text",
-          "resp1_0": "com-Mar-each-Sext-Resp1_0",
-          "resp1_1": "com-Mar-each-Sext-Resp1_1"
+          "ant_1": "com-Maria-each-Sext-ant_1",
+          "ant_2": "com-Maria-each-Sext-ant_2",
+          "ant_3": "com-Maria-each-Sext-ant_3",
+          "les_buch": "com-Maria-each-Sext-Les_Buch",
+          "les_stelle": "com-Maria-each-Sext–Les_Stelle",
+          "les_text": "com-Maria-each-Sext-Les_Text",
+          "resp1_0": "com-Maria-each-Sext-Resp1_0",
+          "resp1_1": "com-Maria-each-Sext-Resp1_1"
         },
         "Terz": {
-          "ant_1": "com-Mar-each-Terz-ant_1",
-          "ant_2": "com-Mar-each-Terz-ant_2",
-          "ant_3": "com-Mar-each-Terz-ant_3",
-          "les_buch": "com-Mar-each-Terz-Les_Buch",
-          "les_stelle": "com-Mar-each-Terz–Les_Stelle",
-          "les_text": "com-Mar-each-Terz-Les_Text",
-          "resp1_0": "com-Mar-each-Terz-Resp1_0",
-          "resp1_1": "com-Mar-each-Terz-Resp1_1"
+          "ant_1": "com-Maria-each-Terz-ant_1",
+          "ant_2": "com-Maria-each-Terz-ant_2",
+          "ant_3": "com-Maria-each-Terz-ant_3",
+          "les_buch": "com-Maria-each-Terz-Les_Buch",
+          "les_stelle": "com-Maria-each-Terz–Les_Stelle",
+          "les_text": "com-Maria-each-Terz-Les_Text",
+          "resp1_0": "com-Maria-each-Terz-Resp1_0",
+          "resp1_1": "com-Maria-each-Terz-Resp1_1"
         },
         "Vesper": {
           "hymn_1": 9999.0,
           "ps_1": 122.0,
           "ps_2": 127.0,
           "ps_3": 152.0,
-          "ant_1": "com-Mar-each-Vesper-ant_1",
-          "ant_2": "com-Mar-each-Vesper-ant_2",
-          "ant_3": "com-Mar-each-Vesper-ant_3",
-          "les_buch": "com-Mar-each-Vesper-Les_Buch",
-          "les_stelle": "com-Mar-each-Vesper–Les_Stelle",
-          "les_text": "com-Mar-each-Vesper-Les_Text",
-          "resp1_1": "com-Mar-each-Vesper-Resp1_1",
-          "resp1_2": "com-Mar-each-Vesper-Resp1_2",
-          "resp1_3": "com-Mar-each-Vesper-Resp1_3",
-          "ant_ev": "com-Mar-each-Vesper-Ant_Ev",
-          "bitten_e": "com-Mar-each-Vesper-Bitten_E",
-          "bitten_r": "com-Mar-each-Vesper-Bitten_R",
-          "bitten": "com-Mar-each-Vesper-Bitten"
-        }
-      }
-    },
-    "Märt": {
-      "each": {
-        "Invitatorium": {
-          "ant_0": "Den Herrn, den König der Märtyrer – kommt, wir beten ihn an!^ö"
-        },
-        "Laudes": {
-          "name": "Märt",
-          "hymn_1": 71118.0,
-          "ps_1": 63.0,
-          "ps_2": 160.0,
-          "ps_3": 149.0,
-          "ant_1": "Meine Lippen preisen dich, Herr; denn deine Huld ist besser als Leben.^ö",
-          "ant_2": "Preist den Herrn, ihr Märtyrer des Herrn, preist ihn in Ewigkeit.^ö",
-          "ant_3": "Wer siegt, den mache ich zu einer Säule im Tempel meines Gottes, und meinen Namen schreibe ich auf ihn.^ö",
-          "les_buch": "2 Kor",
-          "les_stelle": "1,3-5",
-          "les_text": "Gepriesen sei der Gott und Vater Jesu Christi, unseres Herrn, der Vater des Erbarmens und der Gott allen Trostes. Er tröstet uns in all unserer Not, damit auch wir die Kraft haben, alle zu trösten, die in Not sind, durch den Trost, mit dem auch wir von Gott getröstet werden. Wie uns nämlich die Leiden Christi überreich zuteil geworden sind, so wird uns durch Christus auch überreicher Trost zuteil.",
-          "resp1_1": "Siehe, Gott ist mein Retter,",
-          "resp1_2": "der Herr ist meine Kraft und Stärke.",
-          "resp1_3": "Der Herr ist mein Helfer, was können Menschen mir antun?",
-          "ant_ev": "Wer sein Leben liebt, wird es verlieren; doch wer in dieser Welt sein Leben hasst, der wird es bewahren für das ewige Leben.^ö",
-          "bitten_e": "Gepriesen sei Jesus Christus, der treue Zeuge. Zu ihm lasst uns beten:",
-          "bitten_r": "Erhöre uns, Christus.",
-          "bitten": "Deine Märtyrer haben freiwillig den Tod auf sich genommen;^qschenke uns die wahre Freiheit und die Bereitschaft zum Zeugnis.^pDeine Märtyrer haben den Glauben bekannt bis in den Tod;^qhilf unserem Unglauben.^pDeine Märtyrer haben ihr Kreuz auf sich genommen und sind dir nachgefolgt;^qgib uns Kraft in den Stunden der Entscheidung.^pDeine Märtyrer haben ihre Hoffnung allein auf dich gestellt;^qlass nicht zu, dass wir den Verführungen der Welt erliegen."
-        },
-        "Lesehore": {
-          "hymn_1": 71110.0,
-          "ps_1": 2.0,
-          "ps_2": 11.0,
-          "ps_3": 17.0,
-          "ant_1": "Um meines Namens willen werden alle euch hassen. War aber standhaft bleibt bis zum Ende, der wird gerettet.^ö",
-          "ant_2": "Die Leiden dieser Zeit bedeuten nichts im Vergleich zu der Herrlichkeit, die an uns offenbar werden soll.^ö",
-          "ant_3": "Wie Gold im Ofen hat der Herr sie erprobt, als Opfer nahm er die Erwählten an in Ewigkeit.^ö",
-          "resp0_0": "Mich trafen Not und Bedrängnis.^ö",
-          "resp0_1": "Doch deine Gebote machen mich froh.^ö",
-          "les_buch": "Aus dem zweiten Brief an die Korinther.",
-          "les_stelle": "4,7-5,8",
-          "resp1_1": "Selig seid ihr, wenn ihr um meinetwillen beschimpft und verfolgt und auf alle mögliche Weise verleumdet werdet. Freut euch und jubelt.",
-          "resp1_2": "euer Lohn wird groß sein im Himmel.",
-          "resp1_3": "Selig, die um der Gerechtigkeit willen verfolgt werden; denn ihnen gehört das Himmelreich.",
-          "patr_autor": "Augustinus († 430)",
-          "patr_werk": "Aus einer Predigt zu einem Märtyrergedenken. (Sermo 329,1–2)",
-          "patr_text": "^hKostbar ist der Tod der Märtyrer, erkauft um den Preis des Todes Christi.^pDie ruhmreichen Taten der heiligen Märtyrer, die überall in der Kirche blühen, bezeugen uns, wie wahr das ist, was wir gesungen haben: „Kostbar ist in den Augen des Herrn das Sterben seiner Frommen“ {1#Ps 116,15}; denn es ist kostbar in unseren Augen und in den Augen dessen, für dessen Namen es erlitten wird.^pDer Preis für solch kostbares Sterben ist der Tod eines einzigen. Wie viele Tote hat der eine durch seinen Tod erkauft, ohne den das Samenkorn nicht vielfältige Frucht gebracht hätte! Ihr habt seine Worte gehört, als er sich seinem Leiden, nämlich unserer Erlösung, näherte: „Wenn das Weizenkorn nicht in die Erde fällt und stirbt, bleibt es allein. Wenn es aber stirbt, bringt es reiche Frucht“ {2#Joh 12,24}.^pAm Kreuz vollzog er einen erhabenen Tausch; dort wurde der Beutel mit unserem Kaufpreis geöffnet: Als seine Seite von der Lanze der Soldaten geöffnet wurde, floss der Kaufpreis für die ganze Welt heraus.^pLosgekauft wurden die Gläubigen und die Märtyrer; der Glaube der Märtyrer aber hat sich bewährt; davon zeugt das Blut. Was ihnen anvertraut war, haben sie zurückgezahlt.^pAnderswo heißt es: „Wenn du zu Tische sitzt bei einem Großen, achte genau darauf, was vor dir steht“ {3#Sir 31,12}; denn das Entsprechende musst du bieten. Groß ist die Tafel, an welcher der Herr des Tisches selber die Speise ist. Keiner speist seine Gäste mit sich selbst; Christus der Herr aber tut es. Er lädt ein; er ist Speise und Trank. Die Märtyrer haben begriffen, was sie empfingen und tranken, und sich selbst dafür wiedergegeben.^pDoch wie hätten sie wiedergeben können, hätte es nicht jener zuvor gegeben und zur Rückgabe anvertraut? „Kostbar ist in den Augen des Herrn das Sterben seiner Frommen“, das wir gesungen haben. Was will er von uns? Da hat ein Mensch darauf geachtet, wie groß die Gaben sind, die er von Gott empfangen hat. Er schaute sich um, was für große Gaben er von dem Geber des Allherrschenden er erhielt: Dieser hat ihn erschaffen, hat den Verlorenen gesucht, dem Wiedergefundenen vergeben, die schwachen Kräfte des Kämpfenden gestärkt, sich dem Gefährdeten nicht entzogen, den Sieger gekrönt und als Lohn sich selbst gegeben. Auf dies alles hat jener geachtet und ausgerufen: „Wie kann ich dem Herrn all das vergelten, was er mir Gutes getan hat? Ich will den Kelch des Heils erheben“ {4#Ps 116,12-13}.^pWas für ein Kelch ist das? Der bittere und heilbringende Kelch des Leidens, der Kelch, den ein Kranker sich sträuben würde, würde ihn nicht zuvor der Arzt trinken. Er ist selber dieser Kelch. Wir erkennen diesen Kelch am Munde Christi, der sagt: „Vater, wenn es möglich ist, gehe dieser Kelch an mir vorüber“ {5#Mt 26,39}.^pVom Kelch selbst sagten die Märtyrer: „Ich will den Kelch des Heils erheben und anrufen den Namen des Herrn“ {6#Ps 116,13}. Du fürchtest also nicht, dass du dabei versagst? Nein, antwortet er. Weshalb? Weil „ich anrufe den Namen des Herrn“. Wie könnten die Märtyrer siegen, siegte nicht in den Märtyrern er, der gesagt hat: „Habt Mut! Ich habe die Welt besiegt“ {7#Joh 16,33}. Der Herrscher der Himmel regierte ihr Herz und ihre Zunge; durch sie überwand er auf Erden den Teufel und krönte im Himmel die Märtyrer.^pSelig, die so den Kelch tranken! Vorüber sind ihre Leiden, und sie empfingen den Ehrenkranz. Habt also acht, meine Lieben: Was ihr mit den Augen nicht wahrnehmen könnt, bedenkt mit Geist und Seele und seht, dass „kostbar ist in den Augen des Herrn das Sterben seiner Frommen“.",
-          "patr_resp1": "Ich habe den guten Kampf gekämpft, den Lauf vollendet, die Treue gehalten.",
-          "patr_resp2": "Schon jetzt liegt für mich der Kranz der Gerechtigkeit bereit.^ö",
-          "patr_resp3": "Ich sehe alles als Verlust an, weil die Erkenntnis Christi Jesu, meines Herrn, alles übertrifft. Christus will ich erkennen und die Gemeinschaft mit seinen Leiden; sein Tod soll mich prägen."
-        },
-        "Non": {
-          "ant_0": "Die mit Tränen säen, werden mit Jubel ernten.^ö",
-          "les_buch": "Weish",
-          "les_stelle": "3,1-2a.3b",
-          "les_text": "Die Seelen der Gerechten sind in Gottes Hand, und keine Qual kann sie berühren. In den Augen der Toren sind sie gestorben; sie aber sind in Frieden.",
-          "resp1_0": "Sie kommen mit Jubel.^ö",
-          "resp1_1": "Und bringen ihre Garben ein.^ö"
-        },
-        "Sext": {
-          "ant_0": "Mit der Krone der Gerechtigkeit hat Gott ihn geehrt und ihm den Namen der Herrlichkeit verliehen.^ö",
-          "les_buch": "Jak",
-          "les_stelle": "1,12",
-          "les_text": "Glücklich der Mann, der in der Versuchung standhält. Denn wenn er sich bewährt, wird er den Kranz des Lebens erhalten, der denen verheißen ist, die Gott lieben.",
-          "resp1_0": "Ich vertraue auf Gott und fürchte mich nicht.^ö",
-          "resp1_1": "Was können Menschen mir antun?^ö"
-        },
-        "Terz": {
-          "ant_0": "In einem harten Kampf verlieh ihm Gott den Siegespreis, und er erkannte, dass Gottes Weisheit mächtiger ist als alles andere.^ö",
-          "les_buch": "1 Petr",
-          "les_stelle": "5,10-11",
-          "les_text": "Der Gott aller Gnade, der euch in Christus zu seiner ewigen Herrlichkeit berufen hat, wird euch, die ihr kurze Zeit leiden müsst, wieder aufrichten, stärken, kräftigen und auf festen Grund stellen. Sein ist die Macht in Ewigkeit. Amen.",
-          "resp1_0": "Mit dem Gewand der Freude hat ihn der Herr bekleidet.^ö",
-          "resp1_1": "Die Krone der Schönheit hat er ihm aufs Haupt gesetzt.^ö"
-        },
-        "Vesper": {
-          "hymn_1": 71123.0,
-          "ps_1": 116.1,
-          "ps_2": 116.2,
-          "ps_3": 153.0,
-          "ant_1": "Wer mein Jünger sein will, der verleugne sich selbst; er nehme sein Kreuz auf sich und folge mir nach.^ö",
-          "ant_2": "Wer mir dient, den wird mein Vater ehren.^ö",
-          "ant_3": "Wer um meinetwillen sein Leben verliert, der wird es gewinnen.^ö",
-          "les_buch": "1 Petr",
-          "les_stelle": "4,13-14",
-          "les_text": "Freut euch, dass ihr Anteil an den Leiden Christi habt; denn so könnt ihr auch bei der Offenbarung seiner Herrlichkeit voll Freude jubeln. Wenn ihr wegen des Namens Christi beschimpft werdet, seid ihr seligzupreisen; denn der Geist der Herrlichkeit, der Geist Gottes, ruht auf euch.",
-          "resp1_1": "Gott, du hast mich geprüft",
-          "resp1_2": "und hast mich hinausgeführt in die Freiheit.",
-          "resp1_3": "Im Feuer hast du mich geläutert, wie man Silber läutert.",
-          "ant_ev": "Im himmlischen Reich ist die Wohnstatt der Heiligen. Dort finden sie Ruhe auf ewig.",
-          "bitten_e": "Lasst uns zu Jesus Christus beten, dem König der Märtyrer:",
-          "bitten_r": "Herr Jesus Christus, wir preisen dich.",
-          "bitten": "Du unser Erlöser, du hast dein Blut vergossen für das Heil der Welt;^qerbarme dich aller Menschen.^pDu Urbild der Märtyrer;^qsteh allen Verfolgten bei.^pDu treuer Zeuge;^qhilf denen, die Zeugnis von dir geben.^pDu Stärke der Märtyrer;^qsei deinen Bekennern nahe in der Stunde der Prüfung.^p(Fürbitten in besonderen Anliegen)^pDu Lohn der Märtyrer;^qsei auch der Lohn all unserer Verstorbenen."
-        }
-      },
-      "o": {
-        "Laudes": {
-          "les_buch": "1 Joh",
-          "les_stelle": "5,3-5",
-          "les_text": "Die Liebe zu Gott besteht darin, dass wir seine Gebote halten. Seine Gebote sind nicht schwer. Denn alles, was von Gott stammt, besiegt die Welt. Und das ist der Sieg, der die Welt besiegt hat: unser Glaube. Wer sonst besiegt die Welt, außer dem, der glaubt, dass Jesus der Sohn Gottes ist?",
-          "resp1_1": "Ewige Freude leuchtet aus ihren Gesichtern.",
-          "resp1_2": "Halleluja, halleluja.",
-          "resp1_3": "Sie erlangen Freude und Wonne.",
-          "ant_ev": "Ihr Heiligen alle, freut euch und jubelt; denn groß ist euer Lohn im Himmel. Halleluja."
-        },
-        "Lesehore": {
-          "les_buch": "Aus der Offenbarung des Johannes.",
-          "les_stelle": "7,9-17",
-          "les_text": "Danach sah ich: eine große Schar aus allen Nationen und Stämmen, Völkern und Sprachen; niemand konnte sie zählen. Sie standen in weißen Gewändern vor dem Thron und vor dem Lamm und trugen Palmzweige in den Händen. Sie riefen mit lauter Stimme: Die Rettung kommt von unserem Gott, der auf dem Thron sitzt, und von dem Lamm.^pUnd alle Engel standen rings um den Thron, um die Ältesten und die vier Lebewesen. Sie warfen sich vor dem Thron nieder, beteten Gott an und sprachen: ^pAmen, Lob und Herrlichkeit, ^lWeisheit und Dank, ^lEhre und Macht und Stärke ^lunserem Gott in alle Ewigkeit! Amen. ^pDa fragte mich einer der Ältesten: Wer sind diese, die weiße Gewänder tragen, und woher sind sie gekommen? Ich erwiderte ihm: Mein Herr, das musst du wissen. Und er sagte zu mir: Es sind die, die aus der großen Bedrängnis kommen; sie haben ihre Gewänder gewaschen und im Blut des Lammes weiß gemacht. Deshalb stehen sie vor dem Thron Gottes und dienen ihm bei Tag und Nacht in seinem Tempel; und der, der auf dem Thron sitzt, wird sein Zelt über ihnen aufschlagen. Sie werden keinen Hunger und keinen Durst mehr leiden und weder Sonnenglut noch irgendeine sengende Hitze wird auf ihnen lasten. Denn das Lamm in der Mitte vor dem Thron wird sie weiden und zu den Quellen führen, aus denen das Wasser des Lebens strömt, und Gott wird alle Tränen von ihren Augen abwischen.",
-          "resp1_1": "Sei treu bis in den Tod, dann werde ich dir den Kranz des Lebens geben.",
-          "resp1_2": "Wer siegt, dem kann der zweite Tod nichts anhaben. Halleluja.",
-          "resp1_3": "Bis zum Tode setze dich ein für das Recht, dann wird der Herr für dich kämpfen."
-        },
-        "Non": {
-          "les_buch": "Offb",
-          "les_stelle": "19,7.9",
-          "les_text": "Wir wollen uns freuen und jubeln und ihm die Ehre erweisen! Denn die Hochzeit des Lammes ist gekommen, und seine Frau hat sich bereit gemacht.^lJemand sagte zu mir: Schreib auf: Selig, wer zum Hochzeitsmahl des Lammes eingeladen ist! Dann sagte er zu mir: Das sind zuverlässige Worte, es sind Worte Gottes.",
-          "resp1_0": "Sie kommen mit Jubel.^ö",
-          "resp1_1": "Und bringen ihre Garben ein.^ö"
-        },
-        "Sext": {
-          "les_buch": "Offb",
-          "les_stelle": "3,21",
-          "les_text": "Wer siegt, der darf mit mir auf meinem Thron sitzen, so wie auch ich gesiegt habe und mich mit meinem Vater auf seinen Thron gesetzt habe.",
-          "resp1_0": "Ich vertraue auf Gott und fürchte mich nicht.^ö",
-          "resp1_1": "Was können Menschen mir antun?^ö"
-        },
-        "Terz": {
-          "les_buch": "Offb",
-          "les_stelle": "2,10-11",
-          "les_text": "Fürchte dich nicht vor dem, was du noch erleiden musst: Der Teufel wird einige von euch ins Gefängnis werfen, um euch auf die Probe zu stellen, und ihr werdet in Bedrängnis sein, zehn Tage lang. Sei treu bis in den Tod; dann werde ich dir den Kranz des Lebens geben.^lWer Ohren hat, der höre, was der Geist den Gemeinden sagt: Wer siegt, dem kann der zweite Tod nichts anhaben.",
-          "resp1_0": "Mit dem Gewand der Freude hat ihn der Herr bekleidet.^ö",
-          "resp1_1": "Die Krone der Schönheit hat er ihm aufs Haupt gesetzt.^ö"
-        },
-        "Vesper": {
-          "les_buch": "Offb",
-          "les_stelle": "7,14b-17",
-          "les_text": "Das sind die, die aus der großen Bedrängnis kommen; sie haben ihre Gewänder gewaschen und im Blut des Lammes weiß gemacht. Deshalb stehen sie vor dem Thron Gottes und dienen ihm bei Tag und Nacht in seinem Tempel; und der, der auf dem Thron sitzt, wird sein Zelt über ihnen aufschlagen. Sie werden keinen Hunger und keinen Durst mehr leiden und weder Sonnenglut noch irgendeine sengende Hitze wird auf ihnen lasten. Denn das Lamm in der Mitte vor dem Thron wird sie weiden und zu den Quellen führen, aus denen das Wasser des Lebens strömt, und Gott wird alle Tränen von ihren Augen abwischen.",
-          "resp1_1": "Die Gerechten werden leuchten vor dem Antlitz Gottes.",
-          "resp1_2": "Halleluja, halleluja.",
-          "resp1_3": "Die redlichen Herzens sind, werden sich freuen.",
-          "ant_ev": "Wenn das Weizenkorn nicht in die Erde fällt und stirbt, bleibt es allein; wenn es aber stirbt, bringt es reiche Frucht. Halleluja."
-        }
-      },
-      "q": {
-        "Lesehore": {
-          "les_buch": "Aus dem Buch Jesus Sirach.",
-          "les_stelle": "51,1-12",
-          "resp1_1": "Ich will deinen Namen verkünden, Herr, du Hort meines Lebens.",
-          "resp1_2": "Denn du hast mich vom Tod errettet.",
-          "resp1_3": "Ich will jubeln und mich freuen über deine Huld."
-        }
-      }
-    },
-    "MärtF": {
-      "each": {
-        "Invitatorium": {
-          "ant_0": "Den Herrn, den König der Märtyrer – kommt, wir beten ihn an!^ö"
-        },
-        "Laudes": {
-          "name": "Märt",
-          "hymn_1": 71118.0,
-          "ps_1": 63.0,
-          "ps_2": 160.0,
-          "ps_3": 149.0,
-          "ant_1": "Meine Lippen preisen dich, Herr; denn deine Huld ist besser als Leben.^ö",
-          "ant_2": "Preist den Herrn, ihr Märtyrer des Herrn, preist ihn in Ewigkeit.^ö",
-          "ant_3": "Wer siegt, den mache ich zu einer Säule im Tempel meines Gottes, und meinen Namen schreibe ich auf ihn.^ö",
-          "les_buch": "2 Kor",
-          "les_stelle": "1,3-5",
-          "les_text": "Gepriesen sei der Gott und Vater Jesu Christi, unseres Herrn, der Vater des Erbarmens und der Gott allen Trostes. Er tröstet uns in all unserer Not, damit auch wir die Kraft haben, alle zu trösten, die in Not sind, durch den Trost, mit dem auch wir von Gott getröstet werden. Wie uns nämlich die Leiden Christi überreich zuteil geworden sind, so wird uns durch Christus auch überreicher Trost zuteil.",
-          "resp1_1": "Siehe, Gott ist mein Retter,",
-          "resp1_2": "der Herr ist meine Kraft und Stärke.",
-          "resp1_3": "Der Herr ist mein Helfer, was können Menschen mir antun?",
-          "ant_ev": "Wer sein Leben liebt, wird es verlieren; doch wer in dieser Welt sein Leben hasst, der wird es bewahren für das ewige Leben.^ö",
-          "bitten_e": "Gepriesen sei Jesus Christus, der treue Zeuge. Zu ihm lasst uns beten:",
-          "bitten_r": "Erhöre uns, Christus.",
-          "bitten": "Deine Märtyrer haben freiwillig den Tod auf sich genommen;^qschenke uns die wahre Freiheit und die Bereitschaft zum Zeugnis.^pDeine Märtyrer haben den Glauben bekannt bis in den Tod;^qhilf unserem Unglauben.^pDeine Märtyrer haben ihr Kreuz auf sich genommen und sind dir nachgefolgt;^qgib uns Kraft in den Stunden der Entscheidung.^pDeine Märtyrer haben ihre Hoffnung allein auf dich gestellt;^qlass nicht zu, dass wir den Verführungen der Welt erliegen."
-        },
-        "Lesehore": {
-          "hymn_1": 71110.0,
-          "ps_1": 2.0,
-          "ps_2": 11.0,
-          "ps_3": 17.0,
-          "ant_1": "Um meines Namens willen werden alle euch hassen. War aber standhaft bleibt bis zum Ende, der wird gerettet.^ö",
-          "ant_2": "Die Leiden dieser Zeit bedeuten nichts im Vergleich zu der Herrlichkeit, die an uns offenbar werden soll.^ö",
-          "ant_3": "Wie Gold im Ofen hat der Herr sie erprobt, als Opfer nahm er die Erwählten an in Ewigkeit.^ö",
-          "resp0_0": "Mich trafen Not und Bedrängnis.^ö",
-          "resp0_1": "Doch deine Gebote machen mich froh.^ö",
-          "les_buch": "Aus dem zweiten Brief an die Korinther.",
-          "les_stelle": "4,7-5,8",
-          "resp1_1": "Selig seid ihr, wenn ihr um meinetwillen beschimpft und verfolgt und auf alle mögliche Weise verleumdet werdet. Freut euch und jubelt.",
-          "resp1_2": "euer Lohn wird groß sein im Himmel.",
-          "resp1_3": "Selig, die um der Gerechtigkeit willen verfolgt werden; denn ihnen gehört das Himmelreich.",
-          "patr_autor": "Augustinus († 430)",
-          "patr_werk": "Aus einer Predigt zu einem Märtyrergedenken. (Sermo 329,1–2)",
-          "patr_text": "^hKostbar ist der Tod der Märtyrer, erkauft um den Preis des Todes Christi.^pDie ruhmreichen Taten der heiligen Märtyrer, die überall in der Kirche blühen, bezeugen uns, wie wahr das ist, was wir gesungen haben: „Kostbar ist in den Augen des Herrn das Sterben seiner Frommen“ {1#Ps 116,15}; denn es ist kostbar in unseren Augen und in den Augen dessen, für dessen Namen es erlitten wird.^pDer Preis für solch kostbares Sterben ist der Tod eines einzigen. Wie viele Tote hat der eine durch seinen Tod erkauft, ohne den das Samenkorn nicht vielfältige Frucht gebracht hätte! Ihr habt seine Worte gehört, als er sich seinem Leiden, nämlich unserer Erlösung, näherte: „Wenn das Weizenkorn nicht in die Erde fällt und stirbt, bleibt es allein. Wenn es aber stirbt, bringt es reiche Frucht“ {2#Joh 12,24}.^pAm Kreuz vollzog er einen erhabenen Tausch; dort wurde der Beutel mit unserem Kaufpreis geöffnet: Als seine Seite von der Lanze der Soldaten geöffnet wurde, floss der Kaufpreis für die ganze Welt heraus.^pLosgekauft wurden die Gläubigen und die Märtyrer; der Glaube der Märtyrer aber hat sich bewährt; davon zeugt das Blut. Was ihnen anvertraut war, haben sie zurückgezahlt.^pAnderswo heißt es: „Wenn du zu Tische sitzt bei einem Großen, achte genau darauf, was vor dir steht“ {3#Sir 31,12}; denn das Entsprechende musst du bieten. Groß ist die Tafel, an welcher der Herr des Tisches selber die Speise ist. Keiner speist seine Gäste mit sich selbst; Christus der Herr aber tut es. Er lädt ein; er ist Speise und Trank. Die Märtyrer haben begriffen, was sie empfingen und tranken, und sich selbst dafür wiedergegeben.^pDoch wie hätten sie wiedergeben können, hätte es nicht jener zuvor gegeben und zur Rückgabe anvertraut? „Kostbar ist in den Augen des Herrn das Sterben seiner Frommen“, das wir gesungen haben. Was will er von uns? Da hat ein Mensch darauf geachtet, wie groß die Gaben sind, die er von Gott empfangen hat. Er schaute sich um, was für große Gaben er von dem Geber des Allherrschenden er erhielt: Dieser hat ihn erschaffen, hat den Verlorenen gesucht, dem Wiedergefundenen vergeben, die schwachen Kräfte des Kämpfenden gestärkt, sich dem Gefährdeten nicht entzogen, den Sieger gekrönt und als Lohn sich selbst gegeben. Auf dies alles hat jener geachtet und ausgerufen: „Wie kann ich dem Herrn all das vergelten, was er mir Gutes getan hat? Ich will den Kelch des Heils erheben“ {4#Ps 116,12-13}.^pWas für ein Kelch ist das? Der bittere und heilbringende Kelch des Leidens, der Kelch, den ein Kranker sich sträuben würde, würde ihn nicht zuvor der Arzt trinken. Er ist selber dieser Kelch. Wir erkennen diesen Kelch am Munde Christi, der sagt: „Vater, wenn es möglich ist, gehe dieser Kelch an mir vorüber“ {5#Mt 26,39}.^pVom Kelch selbst sagten die Märtyrer: „Ich will den Kelch des Heils erheben und anrufen den Namen des Herrn“ {6#Ps 116,13}. Du fürchtest also nicht, dass du dabei versagst? Nein, antwortet er. Weshalb? Weil „ich anrufe den Namen des Herrn“. Wie könnten die Märtyrer siegen, siegte nicht in den Märtyrern er, der gesagt hat: „Habt Mut! Ich habe die Welt besiegt“ {7#Joh 16,33}. Der Herrscher der Himmel regierte ihr Herz und ihre Zunge; durch sie überwand er auf Erden den Teufel und krönte im Himmel die Märtyrer.^pSelig, die so den Kelch tranken! Vorüber sind ihre Leiden, und sie empfingen den Ehrenkranz. Habt also acht, meine Lieben: Was ihr mit den Augen nicht wahrnehmen könnt, bedenkt mit Geist und Seele und seht, dass „kostbar ist in den Augen des Herrn das Sterben seiner Frommen“.",
-          "patr_resp1": "Ich habe den guten Kampf gekämpft, den Lauf vollendet, die Treue gehalten.",
-          "patr_resp2": "Schon jetzt liegt für mich der Kranz der Gerechtigkeit bereit.^ö",
-          "patr_resp3": "Ich sehe alles als Verlust an, weil die Erkenntnis Christi Jesu, meines Herrn, alles übertrifft. Christus will ich erkennen und die Gemeinschaft mit seinen Leiden; sein Tod soll mich prägen."
-        },
-        "Non": {
-          "ant_0": "Die mit Tränen säen, werden mit Jubel ernten.^ö",
-          "les_buch": "Weish",
-          "les_stelle": "3,1-2a.3b",
-          "les_text": "Die Seelen der Gerechten sind in Gottes Hand, und keine Qual kann sie berühren. In den Augen der Toren sind sie gestorben; sie aber sind in Frieden.",
-          "resp1_0": "Sie kommen mit Jubel.^ö",
-          "resp1_1": "Und bringen ihre Garben ein.^ö"
-        },
-        "Sext": {
-          "ant_0": "Mit der Krone der Gerechtigkeit hat Gott sie geehrt und ihr den Namen der Herrlichkeit verliehen.^ö",
-          "les_buch": "Jak",
-          "les_stelle": "1,12",
-          "les_text": "Glücklich der Mann, der in der Versuchung standhält. Denn wenn er sich bewährt, wird er den Kranz des Lebens erhalten, der denen verheißen ist, die Gott lieben.",
-          "resp1_0": "Ich vertraue auf Gott und fürchte mich nicht.^ö",
-          "resp1_1": "Was können Menschen mir antun?^ö"
-        },
-        "Terz": {
-          "ant_0": "In einem harten Kampf verlieh ihr Gott den Siegespreis, und sie erkannte, dass Gottes Weisheit mächtiger ist als alles andere.^ö",
-          "les_buch": "1 Petr",
-          "les_stelle": "5,10-11",
-          "les_text": "Der Gott aller Gnade, der euch in Christus zu seiner ewigen Herrlichkeit berufen hat, wird euch, die ihr kurze Zeit leiden müsst, wieder aufrichten, stärken, kräftigen und auf festen Grund stellen. Sein ist die Macht in Ewigkeit. Amen.",
-          "resp1_0": "Mit dem Gewand der Freude hat sie der Herr bekleidet.^ö",
-          "resp1_1": "Die Krone der Schönheit hat er ihr aufs Haupt gesetzt.^ö"
-        },
-        "Vesper": {
-          "hymn_1": 71123.0,
-          "ps_1": 116.1,
-          "ps_2": 116.2,
-          "ps_3": 153.0,
-          "ant_1": "Wer mein Jünger sein will, der verleugne sich selbst; er nehme sein Kreuz auf sich und folge mir nach.^ö",
-          "ant_2": "Wer mir dient, den wird mein Vater ehren.^ö",
-          "ant_3": "Wer um meinetwillen sein Leben verliert, der wird es gewinnen.^ö",
-          "les_buch": "1 Petr",
-          "les_stelle": "4,13-14",
-          "les_text": "Freut euch, dass ihr Anteil an den Leiden Christi habt; denn so könnt ihr auch bei der Offenbarung seiner Herrlichkeit voll Freude jubeln. Wenn ihr wegen des Namens Christi beschimpft werdet, seid ihr seligzupreisen; denn der Geist der Herrlichkeit, der Geist Gottes, ruht auf euch.",
-          "resp1_1": "Gott, du hast mich geprüft",
-          "resp1_2": "und hast mich hinausgeführt in die Freiheit.",
-          "resp1_3": "Im Feuer hast du mich geläutert, wie man Silber läutert.",
-          "ant_ev": "Im himmlischen Reich ist die Wohnstatt der Heiligen. Dort finden sie Ruhe auf ewig.",
-          "bitten_e": "Lasst uns zu Jesus Christus beten, dem König der Märtyrer:",
-          "bitten_r": "Herr Jesus Christus, wir preisen dich.",
-          "bitten": "Du unser Erlöser, du hast dein Blut vergossen für das Heil der Welt;^qerbarme dich aller Menschen.^pDu Urbild der Märtyrer;^qsteh allen Verfolgten bei.^pDu treuer Zeuge;^qhilf denen, die Zeugnis von dir geben.^pDu Stärke der Märtyrer;^qsei deinen Bekennern nahe in der Stunde der Prüfung.^p(Fürbitten in besonderen Anliegen)^pDu Lohn der Märtyrer;^qsei auch der Lohn all unserer Verstorbenen."
-        }
-      },
-      "o": {
-        "Laudes": {
-          "les_buch": "1 Joh",
-          "les_stelle": "5,3-5",
-          "les_text": "Die Liebe zu Gott besteht darin, dass wir seine Gebote halten. Seine Gebote sind nicht schwer. Denn alles, was von Gott stammt, besiegt die Welt. Und das ist der Sieg, der die Welt besiegt hat: unser Glaube. Wer sonst besiegt die Welt, außer dem, der glaubt, dass Jesus der Sohn Gottes ist?",
-          "resp1_1": "Ewige Freude leuchtet aus ihren Gesichtern.",
-          "resp1_2": "Halleluja, halleluja.",
-          "resp1_3": "Sie erlangen Freude und Wonne.",
-          "ant_ev": "Ihr Heiligen alle, freut euch und jubelt; denn groß ist euer Lohn im Himmel. Halleluja."
-        },
-        "Lesehore": {
-          "les_buch": "Aus der Offenbarung des Johannes.",
-          "les_stelle": "7,9-17",
-          "les_text": "Danach sah ich: eine große Schar aus allen Nationen und Stämmen, Völkern und Sprachen; niemand konnte sie zählen. Sie standen in weißen Gewändern vor dem Thron und vor dem Lamm und trugen Palmzweige in den Händen. Sie riefen mit lauter Stimme: Die Rettung kommt von unserem Gott, der auf dem Thron sitzt, und von dem Lamm.^pUnd alle Engel standen rings um den Thron, um die Ältesten und die vier Lebewesen. Sie warfen sich vor dem Thron nieder, beteten Gott an und sprachen: ^pAmen, Lob und Herrlichkeit, ^lWeisheit und Dank, ^lEhre und Macht und Stärke ^lunserem Gott in alle Ewigkeit! Amen. ^pDa fragte mich einer der Ältesten: Wer sind diese, die weiße Gewänder tragen, und woher sind sie gekommen? Ich erwiderte ihm: Mein Herr, das musst du wissen. Und er sagte zu mir: Es sind die, die aus der großen Bedrängnis kommen; sie haben ihre Gewänder gewaschen und im Blut des Lammes weiß gemacht. Deshalb stehen sie vor dem Thron Gottes und dienen ihm bei Tag und Nacht in seinem Tempel; und der, der auf dem Thron sitzt, wird sein Zelt über ihnen aufschlagen. Sie werden keinen Hunger und keinen Durst mehr leiden und weder Sonnenglut noch irgendeine sengende Hitze wird auf ihnen lasten. Denn das Lamm in der Mitte vor dem Thron wird sie weiden und zu den Quellen führen, aus denen das Wasser des Lebens strömt, und Gott wird alle Tränen von ihren Augen abwischen.",
-          "resp1_1": "Sei treu bis in den Tod, dann werde ich dir den Kranz des Lebens geben.",
-          "resp1_2": "Wer siegt, dem kann der zweite Tod nichts anhaben. Halleluja.",
-          "resp1_3": "Bis zum Tode setze dich ein für das Recht, dann wird der Herr für dich kämpfen."
-        },
-        "Non": {
-          "les_buch": "Offb",
-          "les_stelle": "19,7.9",
-          "les_text": "Wir wollen uns freuen und jubeln und ihm die Ehre erweisen! Denn die Hochzeit des Lammes ist gekommen, und seine Frau hat sich bereit gemacht.^lJemand sagte zu mir: Schreib auf: Selig, wer zum Hochzeitsmahl des Lammes eingeladen ist! Dann sagte er zu mir: Das sind zuverlässige Worte, es sind Worte Gottes.",
-          "resp1_0": "Sie kommen mit Jubel.^ö",
-          "resp1_1": "Und bringen ihre Garben ein.^ö"
-        },
-        "Sext": {
-          "les_buch": "Offb",
-          "les_stelle": "3,21",
-          "les_text": "Wer siegt, der darf mit mir auf meinem Thron sitzen, so wie auch ich gesiegt habe und mich mit meinem Vater auf seinen Thron gesetzt habe.",
-          "resp1_0": "Ich vertraue auf Gott und fürchte mich nicht.^ö",
-          "resp1_1": "Was können Menschen mir antun?^ö"
-        },
-        "Terz": {
-          "les_buch": "Offb",
-          "les_stelle": "2,10-11",
-          "les_text": "Fürchte dich nicht vor dem, was du noch erleiden musst: Der Teufel wird einige von euch ins Gefängnis werfen, um euch auf die Probe zu stellen, und ihr werdet in Bedrängnis sein, zehn Tage lang. Sei treu bis in den Tod; dann werde ich dir den Kranz des Lebens geben.^lWer Ohren hat, der höre, was der Geist den Gemeinden sagt: Wer siegt, dem kann der zweite Tod nichts anhaben.",
-          "resp1_0": "Mit dem Gewand der Freude hat ihn der Herr bekleidet.^ö",
-          "resp1_1": "Die Krone der Schönheit hat er ihm aufs Haupt gesetzt.^ö"
-        },
-        "Vesper": {
-          "les_buch": "Offb",
-          "les_stelle": "7,14b-17",
-          "les_text": "Das sind die, die aus der großen Bedrängnis kommen; sie haben ihre Gewänder gewaschen und im Blut des Lammes weiß gemacht. Deshalb stehen sie vor dem Thron Gottes und dienen ihm bei Tag und Nacht in seinem Tempel; und der, der auf dem Thron sitzt, wird sein Zelt über ihnen aufschlagen. Sie werden keinen Hunger und keinen Durst mehr leiden und weder Sonnenglut noch irgendeine sengende Hitze wird auf ihnen lasten. Denn das Lamm in der Mitte vor dem Thron wird sie weiden und zu den Quellen führen, aus denen das Wasser des Lebens strömt, und Gott wird alle Tränen von ihren Augen abwischen.",
-          "resp1_1": "Die Gerechten werden leuchten vor dem Antlitz Gottes.",
-          "resp1_2": "Halleluja, halleluja.",
-          "resp1_3": "Die redlichen Herzens sind, werden sich freuen.",
-          "ant_ev": "Wenn das Weizenkorn nicht in die Erde fällt und stirbt, bleibt es allein; wenn es aber stirbt, bringt es reiche Frucht. Halleluja."
-        }
-      },
-      "q": {
-        "Lesehore": {
-          "les_buch": "Aus dem Buch Jesus Sirach.",
-          "les_stelle": "51,1-12",
-          "resp1_1": "Ich will deinen Namen verkünden, Herr, du Hort meines Lebens.",
-          "resp1_2": "Denn du hast mich vom Tod errettet.",
-          "resp1_3": "Ich will jubeln und mich freuen über deine Huld."
-        }
-      }
-    },
-    "MärtJgfr": {
-      "each": {
-        "Invitatorium": {
-          "ant_0": "Den Herrn, den König der Märtyrer – kommt, wir beten ihn an!^ö"
-        },
-        "Laudes": {
-          "name": "Märt",
-          "hymn_1": 71119.0,
-          "ps_1": 63.0,
-          "ps_2": 160.0,
-          "ps_3": 149.0,
-          "ant_1": "Meine Lippen preisen dich, Herr; denn deine Huld ist besser als Leben.^ö",
-          "ant_2": "Preist den Herrn, ihr Märtyrer des Herrn, preist ihn in Ewigkeit.^ö",
-          "ant_3": "Wer siegt, den mache ich zu einer Säule im Tempel meines Gottes, und meinen Namen schreibe ich auf ihn.^ö",
-          "les_buch": "2 Kor",
-          "les_stelle": "1,3-5",
-          "les_text": "Gepriesen sei der Gott und Vater Jesu Christi, unseres Herrn, der Vater des Erbarmens und der Gott allen Trostes. Er tröstet uns in all unserer Not, damit auch wir die Kraft haben, alle zu trösten, die in Not sind, durch den Trost, mit dem auch wir von Gott getröstet werden. Wie uns nämlich die Leiden Christi überreich zuteil geworden sind, so wird uns durch Christus auch überreicher Trost zuteil.",
-          "resp1_1": "Siehe, Gott ist mein Retter,",
-          "resp1_2": "der Herr ist meine Kraft und Stärke.",
-          "resp1_3": "Der Herr ist mein Helfer, was können Menschen mir antun?",
-          "ant_ev": "Wer sein Leben liebt, wird es verlieren; doch wer in dieser Welt sein Leben hasst, der wird es bewahren für das ewige Leben.^ö",
-          "bitten_e": "Gepriesen sei Jesus Christus, der treue Zeuge. Zu ihm lasst uns beten:",
-          "bitten_r": "Erhöre uns, Christus.",
-          "bitten": "Deine Märtyrer haben freiwillig den Tod auf sich genommen;^qschenke uns die wahre Freiheit und die Bereitschaft zum Zeugnis.^pDeine Märtyrer haben den Glauben bekannt bis in den Tod;^qhilf unserem Unglauben.^pDeine Märtyrer haben ihr Kreuz auf sich genommen und sind dir nachgefolgt;^qgib uns Kraft in den Stunden der Entscheidung.^pDeine Märtyrer haben ihre Hoffnung allein auf dich gestellt;^qlass nicht zu, dass wir den Verführungen der Welt erliegen."
-        },
-        "Lesehore": {
-          "hymn_1": 71110.0,
-          "ps_1": 2.0,
-          "ps_2": 11.0,
-          "ps_3": 17.0,
-          "ant_1": "Um meines Namens willen werden alle euch hassen. War aber standhaft bleibt bis zum Ende, der wird gerettet.^ö",
-          "ant_2": "Die Leiden dieser Zeit bedeuten nichts im Vergleich zu der Herrlichkeit, die an uns offenbar werden soll.^ö",
-          "ant_3": "Wie Gold im Ofen hat der Herr sie erprobt, als Opfer nahm er die Erwählten an in Ewigkeit.^ö",
-          "resp0_0": "Mich trafen Not und Bedrängnis.^ö",
-          "resp0_1": "Doch deine Gebote machen mich froh.^ö",
-          "les_buch": "Aus dem zweiten Brief an die Korinther.",
-          "les_stelle": "4,7-5,8",
-          "resp1_1": "Selig seid ihr, wenn ihr um meinetwillen beschimpft und verfolgt und auf alle mögliche Weise verleumdet werdet. Freut euch und jubelt.",
-          "resp1_2": "euer Lohn wird groß sein im Himmel.",
-          "resp1_3": "Selig, die um der Gerechtigkeit willen verfolgt werden; denn ihnen gehört das Himmelreich.",
-          "patr_autor": "Augustinus († 430)",
-          "patr_werk": "Aus einer Predigt zu einem Märtyrergedenken. (Sermo 329,1–2)",
-          "patr_text": "^hKostbar ist der Tod der Märtyrer, erkauft um den Preis des Todes Christi.^pDie ruhmreichen Taten der heiligen Märtyrer, die überall in der Kirche blühen, bezeugen uns, wie wahr das ist, was wir gesungen haben: „Kostbar ist in den Augen des Herrn das Sterben seiner Frommen“ {1#Ps 116,15}; denn es ist kostbar in unseren Augen und in den Augen dessen, für dessen Namen es erlitten wird.^pDer Preis für solch kostbares Sterben ist der Tod eines einzigen. Wie viele Tote hat der eine durch seinen Tod erkauft, ohne den das Samenkorn nicht vielfältige Frucht gebracht hätte! Ihr habt seine Worte gehört, als er sich seinem Leiden, nämlich unserer Erlösung, näherte: „Wenn das Weizenkorn nicht in die Erde fällt und stirbt, bleibt es allein. Wenn es aber stirbt, bringt es reiche Frucht“ {2#Joh 12,24}.^pAm Kreuz vollzog er einen erhabenen Tausch; dort wurde der Beutel mit unserem Kaufpreis geöffnet: Als seine Seite von der Lanze der Soldaten geöffnet wurde, floss der Kaufpreis für die ganze Welt heraus.^pLosgekauft wurden die Gläubigen und die Märtyrer; der Glaube der Märtyrer aber hat sich bewährt; davon zeugt das Blut. Was ihnen anvertraut war, haben sie zurückgezahlt.^pAnderswo heißt es: „Wenn du zu Tische sitzt bei einem Großen, achte genau darauf, was vor dir steht“ {3#Sir 31,12}; denn das Entsprechende musst du bieten. Groß ist die Tafel, an welcher der Herr des Tisches selber die Speise ist. Keiner speist seine Gäste mit sich selbst; Christus der Herr aber tut es. Er lädt ein; er ist Speise und Trank. Die Märtyrer haben begriffen, was sie empfingen und tranken, und sich selbst dafür wiedergegeben.^pDoch wie hätten sie wiedergeben können, hätte es nicht jener zuvor gegeben und zur Rückgabe anvertraut? „Kostbar ist in den Augen des Herrn das Sterben seiner Frommen“, das wir gesungen haben. Was will er von uns? Da hat ein Mensch darauf geachtet, wie groß die Gaben sind, die er von Gott empfangen hat. Er schaute sich um, was für große Gaben er von dem Geber des Allherrschenden er erhielt: Dieser hat ihn erschaffen, hat den Verlorenen gesucht, dem Wiedergefundenen vergeben, die schwachen Kräfte des Kämpfenden gestärkt, sich dem Gefährdeten nicht entzogen, den Sieger gekrönt und als Lohn sich selbst gegeben. Auf dies alles hat jener geachtet und ausgerufen: „Wie kann ich dem Herrn all das vergelten, was er mir Gutes getan hat? Ich will den Kelch des Heils erheben“ {4#Ps 116,12-13}.^pWas für ein Kelch ist das? Der bittere und heilbringende Kelch des Leidens, der Kelch, den ein Kranker sich sträuben würde, würde ihn nicht zuvor der Arzt trinken. Er ist selber dieser Kelch. Wir erkennen diesen Kelch am Munde Christi, der sagt: „Vater, wenn es möglich ist, gehe dieser Kelch an mir vorüber“ {5#Mt 26,39}.^pVom Kelch selbst sagten die Märtyrer: „Ich will den Kelch des Heils erheben und anrufen den Namen des Herrn“ {6#Ps 116,13}. Du fürchtest also nicht, dass du dabei versagst? Nein, antwortet er. Weshalb? Weil „ich anrufe den Namen des Herrn“. Wie könnten die Märtyrer siegen, siegte nicht in den Märtyrern er, der gesagt hat: „Habt Mut! Ich habe die Welt besiegt“ {7#Joh 16,33}. Der Herrscher der Himmel regierte ihr Herz und ihre Zunge; durch sie überwand er auf Erden den Teufel und krönte im Himmel die Märtyrer.^pSelig, die so den Kelch tranken! Vorüber sind ihre Leiden, und sie empfingen den Ehrenkranz. Habt also acht, meine Lieben: Was ihr mit den Augen nicht wahrnehmen könnt, bedenkt mit Geist und Seele und seht, dass „kostbar ist in den Augen des Herrn das Sterben seiner Frommen“.",
-          "patr_resp1": "Ich habe den guten Kampf gekämpft, den Lauf vollendet, die Treue gehalten.",
-          "patr_resp2": "Schon jetzt liegt für mich der Kranz der Gerechtigkeit bereit.^ö",
-          "patr_resp3": "Ich sehe alles als Verlust an, weil die Erkenntnis Christi Jesu, meines Herrn, alles übertrifft. Christus will ich erkennen und die Gemeinschaft mit seinen Leiden; sein Tod soll mich prägen."
-        },
-        "Non": {
-          "ant_0": "Die mit Tränen säen, werden mit Jubel ernten.^ö",
-          "les_buch": "Weish",
-          "les_stelle": "3,1-2a.3b",
-          "les_text": "Die Seelen der Gerechten sind in Gottes Hand, und keine Qual kann sie berühren. In den Augen der Toren sind sie gestorben; sie aber sind in Frieden.",
-          "resp1_0": "Sie kommen mit Jubel.^ö",
-          "resp1_1": "Und bringen ihre Garben ein.^ö"
-        },
-        "Sext": {
-          "ant_0": "Mit der Krone der Gerechtigkeit hat Gott sie geehrt und ihr den Namen der Herrlichkeit verliehen.^ö",
-          "les_buch": "Jak",
-          "les_stelle": "1,12",
-          "les_text": "Glücklich der Mann, der in der Versuchung standhält. Denn wenn er sich bewährt, wird er den Kranz des Lebens erhalten, der denen verheißen ist, die Gott lieben.",
-          "resp1_0": "Ich vertraue auf Gott und fürchte mich nicht.^ö",
-          "resp1_1": "Was können Menschen mir antun?^ö"
-        },
-        "Terz": {
-          "ant_0": "In einem harten Kampf verlieh ihr Gott den Siegespreis, und sie erkannte, dass Gottes Weisheit mächtiger ist als alles andere.^ö",
-          "les_buch": "1 Petr",
-          "les_stelle": "5,10-11",
-          "les_text": "Der Gott aller Gnade, der euch in Christus zu seiner ewigen Herrlichkeit berufen hat, wird euch, die ihr kurze Zeit leiden müsst, wieder aufrichten, stärken, kräftigen und auf festen Grund stellen. Sein ist die Macht in Ewigkeit. Amen.",
-          "resp1_0": "Mit dem Gewand der Freude hat sie der Herr bekleidet.^ö",
-          "resp1_1": "Die Krone der Schönheit hat er ihr aufs Haupt gesetzt.^ö"
-        },
-        "Vesper": {
-          "hymn_1": 71119.0,
-          "ps_1": 116.1,
-          "ps_2": 116.2,
-          "ps_3": 153.0,
-          "ant_1": "Wer mein Jünger sein will, der verleugne sich selbst; er nehme sein Kreuz auf sich und folge mir nach.^ö",
-          "ant_2": "Wer mir dient, den wird mein Vater ehren.^ö",
-          "ant_3": "Wer um meinetwillen sein Leben verliert, der wird es gewinnen.^ö",
-          "les_buch": "1 Petr",
-          "les_stelle": "4,13-14",
-          "les_text": "Freut euch, dass ihr Anteil an den Leiden Christi habt; denn so könnt ihr auch bei der Offenbarung seiner Herrlichkeit voll Freude jubeln. Wenn ihr wegen des Namens Christi beschimpft werdet, seid ihr seligzupreisen; denn der Geist der Herrlichkeit, der Geist Gottes, ruht auf euch.",
-          "resp1_1": "Gott, du hast mich geprüft",
-          "resp1_2": "und hast mich hinausgeführt in die Freiheit.",
-          "resp1_3": "Im Feuer hast du mich geläutert, wie man Silber läutert.",
-          "ant_ev": "Im himmlischen Reich ist die Wohnstatt der Heiligen. Dort finden sie Ruhe auf ewig.",
-          "bitten_e": "Lasst uns zu Jesus Christus beten, dem König der Märtyrer:",
-          "bitten_r": "Herr Jesus Christus, wir preisen dich.",
-          "bitten": "Du unser Erlöser, du hast dein Blut vergossen für das Heil der Welt;^qerbarme dich aller Menschen.^pDu Urbild der Märtyrer;^qsteh allen Verfolgten bei.^pDu treuer Zeuge;^qhilf denen, die Zeugnis von dir geben.^pDu Stärke der Märtyrer;^qsei deinen Bekennern nahe in der Stunde der Prüfung.^p(Fürbitten in besonderen Anliegen)^pDu Lohn der Märtyrer;^qsei auch der Lohn all unserer Verstorbenen."
-        }
-      },
-      "o": {
-        "Laudes": {
-          "les_buch": "1 Joh",
-          "les_stelle": "5,3-5",
-          "les_text": "Die Liebe zu Gott besteht darin, dass wir seine Gebote halten. Seine Gebote sind nicht schwer. Denn alles, was von Gott stammt, besiegt die Welt. Und das ist der Sieg, der die Welt besiegt hat: unser Glaube. Wer sonst besiegt die Welt, außer dem, der glaubt, dass Jesus der Sohn Gottes ist?",
-          "resp1_1": "Ewige Freude leuchtet aus ihren Gesichtern.",
-          "resp1_2": "Halleluja, halleluja.",
-          "resp1_3": "Sie erlangen Freude und Wonne.",
-          "ant_ev": "Ihr Heiligen alle, freut euch und jubelt; denn groß ist euer Lohn im Himmel. Halleluja."
-        },
-        "Lesehore": {
-          "les_buch": "Aus der Offenbarung des Johannes.",
-          "les_stelle": "7,9-17",
-          "les_text": "Danach sah ich: eine große Schar aus allen Nationen und Stämmen, Völkern und Sprachen; niemand konnte sie zählen. Sie standen in weißen Gewändern vor dem Thron und vor dem Lamm und trugen Palmzweige in den Händen. Sie riefen mit lauter Stimme: Die Rettung kommt von unserem Gott, der auf dem Thron sitzt, und von dem Lamm.^pUnd alle Engel standen rings um den Thron, um die Ältesten und die vier Lebewesen. Sie warfen sich vor dem Thron nieder, beteten Gott an und sprachen: ^pAmen, Lob und Herrlichkeit, ^lWeisheit und Dank, ^lEhre und Macht und Stärke ^lunserem Gott in alle Ewigkeit! Amen. ^pDa fragte mich einer der Ältesten: Wer sind diese, die weiße Gewänder tragen, und woher sind sie gekommen? Ich erwiderte ihm: Mein Herr, das musst du wissen. Und er sagte zu mir: Es sind die, die aus der großen Bedrängnis kommen; sie haben ihre Gewänder gewaschen und im Blut des Lammes weiß gemacht. Deshalb stehen sie vor dem Thron Gottes und dienen ihm bei Tag und Nacht in seinem Tempel; und der, der auf dem Thron sitzt, wird sein Zelt über ihnen aufschlagen. Sie werden keinen Hunger und keinen Durst mehr leiden und weder Sonnenglut noch irgendeine sengende Hitze wird auf ihnen lasten. Denn das Lamm in der Mitte vor dem Thron wird sie weiden und zu den Quellen führen, aus denen das Wasser des Lebens strömt, und Gott wird alle Tränen von ihren Augen abwischen.",
-          "resp1_1": "Sei treu bis in den Tod, dann werde ich dir den Kranz des Lebens geben.",
-          "resp1_2": "Wer siegt, dem kann der zweite Tod nichts anhaben. Halleluja.",
-          "resp1_3": "Bis zum Tode setze dich ein für das Recht, dann wird der Herr für dich kämpfen."
-        },
-        "Non": {
-          "les_buch": "Offb",
-          "les_stelle": "19,7.9",
-          "les_text": "Wir wollen uns freuen und jubeln und ihm die Ehre erweisen! Denn die Hochzeit des Lammes ist gekommen, und seine Frau hat sich bereit gemacht.^lJemand sagte zu mir: Schreib auf: Selig, wer zum Hochzeitsmahl des Lammes eingeladen ist! Dann sagte er zu mir: Das sind zuverlässige Worte, es sind Worte Gottes.",
-          "resp1_0": "Sie kommen mit Jubel.^ö",
-          "resp1_1": "Und bringen ihre Garben ein.^ö"
-        },
-        "Sext": {
-          "les_buch": "Offb",
-          "les_stelle": "3,21",
-          "les_text": "Wer siegt, der darf mit mir auf meinem Thron sitzen, so wie auch ich gesiegt habe und mich mit meinem Vater auf seinen Thron gesetzt habe.",
-          "resp1_0": "Ich vertraue auf Gott und fürchte mich nicht.^ö",
-          "resp1_1": "Was können Menschen mir antun?^ö"
-        },
-        "Terz": {
-          "les_buch": "Offb",
-          "les_stelle": "2,10-11",
-          "les_text": "Fürchte dich nicht vor dem, was du noch erleiden musst: Der Teufel wird einige von euch ins Gefängnis werfen, um euch auf die Probe zu stellen, und ihr werdet in Bedrängnis sein, zehn Tage lang. Sei treu bis in den Tod; dann werde ich dir den Kranz des Lebens geben.^lWer Ohren hat, der höre, was der Geist den Gemeinden sagt: Wer siegt, dem kann der zweite Tod nichts anhaben.",
-          "resp1_0": "Mit dem Gewand der Freude hat ihn der Herr bekleidet.^ö",
-          "resp1_1": "Die Krone der Schönheit hat er ihm aufs Haupt gesetzt.^ö"
-        },
-        "Vesper": {
-          "les_buch": "Offb",
-          "les_stelle": "7,14b-17",
-          "les_text": "Das sind die, die aus der großen Bedrängnis kommen; sie haben ihre Gewänder gewaschen und im Blut des Lammes weiß gemacht. Deshalb stehen sie vor dem Thron Gottes und dienen ihm bei Tag und Nacht in seinem Tempel; und der, der auf dem Thron sitzt, wird sein Zelt über ihnen aufschlagen. Sie werden keinen Hunger und keinen Durst mehr leiden und weder Sonnenglut noch irgendeine sengende Hitze wird auf ihnen lasten. Denn das Lamm in der Mitte vor dem Thron wird sie weiden und zu den Quellen führen, aus denen das Wasser des Lebens strömt, und Gott wird alle Tränen von ihren Augen abwischen.",
-          "resp1_1": "Die Gerechten werden leuchten vor dem Antlitz Gottes.",
-          "resp1_2": "Halleluja, halleluja.",
-          "resp1_3": "Die redlichen Herzens sind, werden sich freuen.",
-          "ant_ev": "Wenn das Weizenkorn nicht in die Erde fällt und stirbt, bleibt es allein; wenn es aber stirbt, bringt es reiche Frucht. Halleluja."
-        }
-      },
-      "q": {
-        "Lesehore": {
-          "les_buch": "Aus dem Buch Jesus Sirach.",
-          "les_stelle": "51,1-12",
-          "resp1_1": "Ich will deinen Namen verkünden, Herr, du Hort meines Lebens.",
-          "resp1_2": "Denn du hast mich vom Tod errettet.",
-          "resp1_3": "Ich will jubeln und mich freuen über deine Huld."
+          "ant_1": "com-Maria-each-Vesper-ant_1",
+          "ant_2": "com-Maria-each-Vesper-ant_2",
+          "ant_3": "com-Maria-each-Vesper-ant_3",
+          "les_buch": "com-Maria-each-Vesper-Les_Buch",
+          "les_stelle": "com-Maria-each-Vesper–Les_Stelle",
+          "les_text": "com-Maria-each-Vesper-Les_Text",
+          "resp1_1": "com-Maria-each-Vesper-Resp1_1",
+          "resp1_2": "com-Maria-each-Vesper-Resp1_2",
+          "resp1_3": "com-Maria-each-Vesper-Resp1_3",
+          "ant_ev": "com-Maria-each-Vesper-Ant_Ev",
+          "bitten_e": "com-Maria-each-Vesper-Bitten_E",
+          "bitten_r": "com-Maria-each-Vesper-Bitten_R",
+          "bitten": "com-Maria-each-Vesper-Bitten"
         }
       }
     },
@@ -2628,6 +1720,17 @@ export const brevierData = {
           "bitten": "com-MärtPl-each-Vesper-Bitten"
         }
       },
+      "Jgfr": {
+        "ErsteV": {
+          "hymn_1": 71119.0
+        },
+        "Laudes": {
+          "hymn_1": 71119.0
+        },
+        "Vesper": {
+          "hymn_1": 71119.0
+        }
+      },
       "o": {
         "Laudes": {
           "les_buch": "1 Joh",
@@ -2691,27 +1794,27 @@ export const brevierData = {
         }
       }
     },
-    "MärtPlJgfr": {
+    "MärtSg": {
       "each": {
         "Invitatorium": {
-          "ant_0": "Den Herrn, den König der Märtyrer – kommt, wir beten ihn an!"
+          "ant_0": "Den Herrn, den König der Märtyrer – kommt, wir beten ihn an!^ö"
         },
         "Laudes": {
           "name": "Märt",
-          "hymn_1": 71119.0,
+          "hymn_1": 71118.0,
           "ps_1": 63.0,
           "ps_2": 160.0,
           "ps_3": 149.0,
-          "ant_1": "In ihren Qualen schauten die Zeugen Christi zum Himmel auf und riefen: Herr, steh uns bei.^ö",
-          "ant_2": "Preist den Herrn, ihr Seelen der Gerechten, ihr Heiligen alle, lobpreiset ihn.^ö",
-          "ant_3": "Ihr Chöre der Märtyrer, lobet den Herrn in der Höhe.^ö",
+          "ant_1": "Meine Lippen preisen dich, Herr; denn deine Huld ist besser als Leben.^ö",
+          "ant_2": "Preist den Herrn, ihr Märtyrer des Herrn, preist ihn in Ewigkeit.^ö",
+          "ant_3": "Wer siegt, den mache ich zu einer Säule im Tempel meines Gottes, und meinen Namen schreibe ich auf ihn.^ö",
           "les_buch": "2 Kor",
           "les_stelle": "1,3-5",
           "les_text": "Gepriesen sei der Gott und Vater Jesu Christi, unseres Herrn, der Vater des Erbarmens und der Gott allen Trostes. Er tröstet uns in all unserer Not, damit auch wir die Kraft haben, alle zu trösten, die in Not sind, durch den Trost, mit dem auch wir von Gott getröstet werden. Wie uns nämlich die Leiden Christi überreich zuteil geworden sind, so wird uns durch Christus auch überreicher Trost zuteil.",
-          "resp1_1": "Die Gerechten leben in Ewigkeit,",
-          "resp1_2": "für immer wird der Herr ihr Lohn sein.",
-          "resp1_3": "Sie empfangen das Reich der Herrlichkeit und die Krone der Schönheit.",
-          "ant_ev": "Selig, die Verfolgung leiden für die Gerechtigkeit; denn ihrer ist das Himmelreich.",
+          "resp1_1": "Siehe, Gott ist mein Retter,",
+          "resp1_2": "der Herr ist meine Kraft und Stärke.",
+          "resp1_3": "Der Herr ist mein Helfer, was können Menschen mir antun?",
+          "ant_ev": "Wer sein Leben liebt, wird es verlieren; doch wer in dieser Welt sein Leben hasst, der wird es bewahren für das ewige Leben.^ö",
           "bitten_e": "Gepriesen sei Jesus Christus, der treue Zeuge. Zu ihm lasst uns beten:",
           "bitten_r": "Erhöre uns, Christus.",
           "bitten": "Deine Märtyrer haben freiwillig den Tod auf sich genommen;^qschenke uns die wahre Freiheit und die Bereitschaft zum Zeugnis.^pDeine Märtyrer haben den Glauben bekannt bis in den Tod;^qhilf unserem Unglauben.^pDeine Märtyrer haben ihr Kreuz auf sich genommen und sind dir nachgefolgt;^qgib uns Kraft in den Stunden der Entscheidung.^pDeine Märtyrer haben ihre Hoffnung allein auf dich gestellt;^qlass nicht zu, dass wir den Verführungen der Welt erliegen."
@@ -2719,25 +1822,24 @@ export const brevierData = {
         "Lesehore": {
           "hymn_1": 71110.0,
           "ps_1": 2.0,
-          "ps_2": 33.1,
-          "ps_3": 33.2,
-          "ant_1": "Die heiligen Märtyrer vergossen für Christus ihr Blut und erlangten im Himmel ewigen Lohn.^ö",
-          "ant_2": "Die Gerechten leben in Ewigkeit, ihr Lohn ist der Herr.^ö",
-          "ant_3": "Ihr, meine Heiligen, habt in dieser Welt den Kampf bestanden; ich gebe euch den Lohn für eure Mühen.^ö",
-          "resp0_0": "Unsere Seele hofft auf den Herrn.^ö",
-          "resp0_1": "Er ist für uns Schild und Hilfe.^ö",
-          "les_buch": "Aus dem Brief an die Römer.",
-          "les_stelle": "8,18-39",
-          "les_text": "^hNichts kann uns scheiden von der Liebe Gottes, die offenbar geworden ist in Christus Jesus^pIch bin überzeugt, dass die Leiden der gegenwärtigen Zeit nichts bedeuten im Vergleich zu der Herrlichkeit, die an uns offenbar werden soll. Denn die ganze Schöpfung wartet sehnsüchtig auf das Offenbarwerden der Söhne Gottes. Die Schöpfung ist der Vergänglichkeit unterworfen, nicht aus eigenem Willen, sondern durch den, der sie unterworfen hat; aber zugleich gab er ihr Hoffnung: Auch die Schöpfung soll von der Sklaverei und Verlorenheit befreit werden zur Freiheit und Herrlichkeit der Kinder Gottes. Denn wir wissen, dass die gesamte Schöpfung bis zum heutigen Tag seufzt und in Geburtswehen liegt. Aber auch wir, obwohl wir als Erstlingsgabe den Geist haben, seufzen in unserem Herzen und warten darauf, dass wir mit der Erlösung unseres Leibes als Söhne offenbar werden. Denn wir sind gerettet, doch in der Hoffnung. Hoffnung aber, die man schon erfüllt sieht, ist keine Hoffnung. Wie kann man auf etwas hoffen, das man sieht? Hoffen wir aber auf das, was wir nicht sehen, dann harren wir aus in Geduld.^p So nimmt sich auch der Geist unserer Schwachheit an. Denn wir wissen nicht, worum wir in rechter Weise beten sollen; der Geist selber tritt jedoch für uns ein mit Seufzen, das wir nicht in Worte fassen können. Und Gott, der die Herzen erforscht, weiß, was die Absicht des Geistes ist: Er tritt so, wie Gott es will, für die Heiligen ein. Wir wissen, dass Gott bei denen, die ihn lieben, alles zum Guten führt, bei denen, die nach seinem ewigen Plan berufen sind; denn alle, die er im Voraus erkannt hat, hat er auch im Voraus dazu bestimmt, an Wesen und Gestalt seines Sohnes teilzuhaben, damit dieser der Erstgeborene von vielen Brüdern sei. Die aber, die er vorausbestimmt hat, hat er auch berufen, und die er berufen hat, hat er auch gerecht gemacht; die er aber gerecht gemacht hat, die hat er auch verherrlicht.^p Was ergibt sich nun, wenn wir das alles bedenken? Ist Gott für uns, wer ist dann gegen uns? Er hat seinen eigenen Sohn nicht verschont, sondern ihn für uns alle hingegeben – wie sollte er uns mit ihm nicht alles schenken? Wer kann die Auserwählten Gottes anklagen? Gott ist es, der gerecht macht. Wer kann sie verurteilen? Christus Jesus, der gestorben ist, mehr noch: der auferweckt worden ist, sitzt zur Rechten Gottes und tritt für uns ein. Was kann uns scheiden von der Liebe Christi? Bedrängnis oder Not oder Verfolgung, Hunger oder Kälte, Gefahr oder Schwert? In der Schrift steht: Um deinetwillen sind wir den ganzen Tag dem Tod ausgesetzt; wir werden behandelt wie Schafe, die man zum Schlachten bestimmt hat.^p Doch all das überwinden wir durch den, der uns geliebt hat.^p Denn ich bin gewiss: Weder Tod noch Leben, weder Engel noch Mächte, weder Gegenwärtiges noch Zukünftiges, weder Gewalten der Höhe oder Tiefe noch irgendeine andere Kreatur können uns scheiden von der Liebe Gottes, die in Christus Jesus ist, unserem Herrn.",
-          "resp1_1": "Liebt eure Feinde, tut denen Gutes, die euch hassen, betet für die, die euch verfolgen und schmähen,",
-          "resp1_2": "damit ihr Kinder eures Vaters werdet, der im Himmel ist.",
-          "resp1_3": "Seid vollkommen, wie euer himmlischer Vater vollkommen ist,",
-          "patr_autor": "Cyprian von Karthago († 258)",
-          "patr_werk": "Aus einem Brief. (Ep. 6,1–2)",
-          "patr_text": "^hWenn wir zu den Verheißungen des Herrn gelangen wollen, müssen wir den Herrn in allem nachahmen.^pIch grüße euch, liebe Brüder. Auch ich sehne mich danach, euch von Angesicht zu Angesicht zu sehen, aber der weite Weg gestattet mir nicht, zu euch zu kommen. Keine größere Freude könnte ich mir wünschen, als von euch umarmt zu werden, mit den Händen, die rein geblieben sind, mit denen ihr den Herrn im Glauben festgehalten und den Götzendienst zurückgewiesen habt.^pWas könnte liebenswerter sein, als euren Mund zu küssen, der mit herrlicher Stimme den Herrn bekannt hat, vor eure Augen zu treten, die sich von der Welt abgewandt haben und würdig geworden sind, Gott zu schauen?^pDa es mir aber nicht vergönnt ist, diese Freude mit euch zu teilen, schicke ich statt meiner für euer Ohr und Auge diesen Brief, mit dem ich euch ebenso beglückwünsche wie ermahne: Bleibt stark und standfest im Bekenntnis der überirdischen Herrlichkeit; schreitet in der Kraft des Geistes auf dem Weg der göttlichen Gnade voran, den ihr betreten habt, damit ihr den Siegeskranz erlangt. Der Herr wird euer Schützer und Führer sein gemäß seinem Wort: „Seht, ich bin bei euch alle Tage bis zum Ende der Welt“ {1#Mt 28, 20}.^pSelig der Kerker, den eure Haft erhellt hat! Selig der Kerker, der die Menschen Gottes zum Himmel entlässt! Finsternis, du bist leuchtender als die Sonne und heller als das irdische Licht, da in der Finsternis des Kerkers wurden eure Glieder als Tempel Gottes auferbaut und geheiligt durch das Zeugnis für Gottes Namen.^pIn Herz und Geist darf jetzt nichts anderes mehr Platz haben als Gottes Weisungen und die Gebote des Himmels, mit denen euch der Heilige Geist beständig durchatmet hat zur Kraft im Leiden. Keiner denke an Tod, sondern an die Unsterblichkeit, keiner an die Pein dieser Zeit, sondern an die ewige Herrlichkeit. Steht doch geschrieben: „Kostbar ist in den Augen des Herrn das Sterben seiner Frommen“ {2#Ps 116, 15} und: „Das Opfer, das Gott gefällt, ist ein zerknirschter Geist; ein zerbrochenes und zerschlagenes Herz wirst du, Gott, nicht verschmähen“ {3#Ps 51, 19}.^pUnd an anderer Stelle, wo die Heilige Schrift von den Qualen spricht, in denen die Zeugen Gottes geweiht und durch Bewährung im Leiden geheiligt werden, heißt es: „In den Augen der Menschen wurden sie gestraft, doch ihre Hoffnung ist voll Unsterblichkeit. Sie werden Völker richten und über Nationen herrschen, und der Herr wird ihr König sein in Ewigkeit“ {4#Weish 3, 4.8}.^pWenn ihr bedenkt, dass ihr mit Christus, dem Herrn, richten und herrschen werdet, könnt ihr nur jubeln und angesichts der Freude am Künftigen die Qualen der Gegenwart geringschätzen. Ihr wisst ja: Seit die Welt steht, ist es der Lauf der Dinge, dass die Gerechtigkeit es hier im Streit der Welt schwer hat. Wurde doch gleich zu Anfang der gerechte Abel ermordet und danach alle Gerechten und Apostel und Propheten, die Gott gesandt hat.^pIhnen allen hat der Herr in seiner Person ein Beispiel gegeben. Er hat gelehrt, dass in sein Reich nur jene gelangen, die ihm auf dem Weg gefolgt sind: „Wer sein Leben in dieser Welt liebt, verliert es. Wer aber sein Leben in dieser Welt hasst, wird es bewahren bis ins ewige Leben“ {5#Joh 12, 25} und: „Fürchtet euch nicht vor denen, die den Leib töten, die Seele aber nicht töten können, sondern fürchtet euch vielmehr vor dem, der Seele und Leib in der Hölle verderben kann“ {6#Mt 10, 28}.^pAuch Paulus mahnt uns: Wenn wir erlangen wollen, was der Herr uns verheißen hat, müssen wir ihn in allem nachahmen: „Wir sind Kinder Gottes. Sind wir aber Kinder, dann auch Erben; wir sind Erben Gottes und Miterben Christi, da wir mit ihm leiden, um auch mit ihm verherrlicht zu werden“ {7#Röm 8, 16-17}.",
-          "patr_resp1": "Wenn wir in der Schlacht stehen und für den Glauben kämpfen, schaut Gott auf uns herab. Zuschauer sind die Engel, und auch Christus blickt auf uns.",
-          "patr_resp2": "Welch erhabene Herrlichkeit, welche Glückseligkeit, in der Gegenwart Gottes zu kämpfen und von Christus, dem Richter, den Siegeskranz zu empfangen.^ö",
-          "patr_resp3": "Wir wollen uns wappnen mit aller Kraft und uns zum Kampf rüsten mit lauterem Geist, zuversichtlichem Glauben und liebender Tugend."
+          "ps_2": 11.0,
+          "ps_3": 17.0,
+          "ant_1": "Um meines Namens willen werden alle euch hassen. War aber standhaft bleibt bis zum Ende, der wird gerettet.^ö",
+          "ant_2": "Die Leiden dieser Zeit bedeuten nichts im Vergleich zu der Herrlichkeit, die an uns offenbar werden soll.^ö",
+          "ant_3": "Wie Gold im Ofen hat der Herr sie erprobt, als Opfer nahm er die Erwählten an in Ewigkeit.^ö",
+          "resp0_0": "Mich trafen Not und Bedrängnis.^ö",
+          "resp0_1": "Doch deine Gebote machen mich froh.^ö",
+          "les_buch": "Aus dem zweiten Brief an die Korinther.",
+          "les_stelle": "4,7-5,8",
+          "resp1_1": "Selig seid ihr, wenn ihr um meinetwillen beschimpft und verfolgt und auf alle mögliche Weise verleumdet werdet. Freut euch und jubelt.",
+          "resp1_2": "euer Lohn wird groß sein im Himmel.",
+          "resp1_3": "Selig, die um der Gerechtigkeit willen verfolgt werden; denn ihnen gehört das Himmelreich.",
+          "patr_autor": "Augustinus († 430)",
+          "patr_werk": "Aus einer Predigt zu einem Märtyrergedenken. (Sermo 329,1–2)",
+          "patr_text": "^hKostbar ist der Tod der Märtyrer, erkauft um den Preis des Todes Christi.^pDie ruhmreichen Taten der heiligen Märtyrer, die überall in der Kirche blühen, bezeugen uns, wie wahr das ist, was wir gesungen haben: „Kostbar ist in den Augen des Herrn das Sterben seiner Frommen“ {1#Ps 116,15}; denn es ist kostbar in unseren Augen und in den Augen dessen, für dessen Namen es erlitten wird.^pDer Preis für solch kostbares Sterben ist der Tod eines einzigen. Wie viele Tote hat der eine durch seinen Tod erkauft, ohne den das Samenkorn nicht vielfältige Frucht gebracht hätte! Ihr habt seine Worte gehört, als er sich seinem Leiden, nämlich unserer Erlösung, näherte: „Wenn das Weizenkorn nicht in die Erde fällt und stirbt, bleibt es allein. Wenn es aber stirbt, bringt es reiche Frucht“ {2#Joh 12,24}.^pAm Kreuz vollzog er einen erhabenen Tausch; dort wurde der Beutel mit unserem Kaufpreis geöffnet: Als seine Seite von der Lanze der Soldaten geöffnet wurde, floss der Kaufpreis für die ganze Welt heraus.^pLosgekauft wurden die Gläubigen und die Märtyrer; der Glaube der Märtyrer aber hat sich bewährt; davon zeugt das Blut. Was ihnen anvertraut war, haben sie zurückgezahlt.^pAnderswo heißt es: „Wenn du zu Tische sitzt bei einem Großen, achte genau darauf, was vor dir steht“ {3#Sir 31,12}; denn das Entsprechende musst du bieten. Groß ist die Tafel, an welcher der Herr des Tisches selber die Speise ist. Keiner speist seine Gäste mit sich selbst; Christus der Herr aber tut es. Er lädt ein; er ist Speise und Trank. Die Märtyrer haben begriffen, was sie empfingen und tranken, und sich selbst dafür wiedergegeben.^pDoch wie hätten sie wiedergeben können, hätte es nicht jener zuvor gegeben und zur Rückgabe anvertraut? „Kostbar ist in den Augen des Herrn das Sterben seiner Frommen“, das wir gesungen haben. Was will er von uns? Da hat ein Mensch darauf geachtet, wie groß die Gaben sind, die er von Gott empfangen hat. Er schaute sich um, was für große Gaben er von dem Geber des Allherrschenden er erhielt: Dieser hat ihn erschaffen, hat den Verlorenen gesucht, dem Wiedergefundenen vergeben, die schwachen Kräfte des Kämpfenden gestärkt, sich dem Gefährdeten nicht entzogen, den Sieger gekrönt und als Lohn sich selbst gegeben. Auf dies alles hat jener geachtet und ausgerufen: „Wie kann ich dem Herrn all das vergelten, was er mir Gutes getan hat? Ich will den Kelch des Heils erheben“ {4#Ps 116,12-13}.^pWas für ein Kelch ist das? Der bittere und heilbringende Kelch des Leidens, der Kelch, den ein Kranker sich sträuben würde, würde ihn nicht zuvor der Arzt trinken. Er ist selber dieser Kelch. Wir erkennen diesen Kelch am Munde Christi, der sagt: „Vater, wenn es möglich ist, gehe dieser Kelch an mir vorüber“ {5#Mt 26,39}.^pVom Kelch selbst sagten die Märtyrer: „Ich will den Kelch des Heils erheben und anrufen den Namen des Herrn“ {6#Ps 116,13}. Du fürchtest also nicht, dass du dabei versagst? Nein, antwortet er. Weshalb? Weil „ich anrufe den Namen des Herrn“. Wie könnten die Märtyrer siegen, siegte nicht in den Märtyrern er, der gesagt hat: „Habt Mut! Ich habe die Welt besiegt“ {7#Joh 16,33}. Der Herrscher der Himmel regierte ihr Herz und ihre Zunge; durch sie überwand er auf Erden den Teufel und krönte im Himmel die Märtyrer.^pSelig, die so den Kelch tranken! Vorüber sind ihre Leiden, und sie empfingen den Ehrenkranz. Habt also acht, meine Lieben: Was ihr mit den Augen nicht wahrnehmen könnt, bedenkt mit Geist und Seele und seht, dass „kostbar ist in den Augen des Herrn das Sterben seiner Frommen“.",
+          "patr_resp1": "Ich habe den guten Kampf gekämpft, den Lauf vollendet, die Treue gehalten.",
+          "patr_resp2": "Schon jetzt liegt für mich der Kranz der Gerechtigkeit bereit.^ö",
+          "patr_resp3": "Ich sehe alles als Verlust an, weil die Erkenntnis Christi Jesu, meines Herrn, alles übertrifft. Christus will ich erkennen und die Gemeinschaft mit seinen Leiden; sein Tod soll mich prägen."
         },
         "Non": {
           "ant_0": "Die mit Tränen säen, werden mit Jubel ernten.^ö",
@@ -2748,39 +1850,69 @@ export const brevierData = {
           "resp1_1": "Und bringen ihre Garben ein.^ö"
         },
         "Sext": {
-          "ant_0": "Mit der Krone der Gerechtigkeit hat Gott sie geehrt und ihnen den Namen der Herrlichkeit verliehen.^ö",
-          "les_buch": "vgl. Hebr",
-          "les_stelle": "11,33",
-          "les_text": "Die Heiligen haben aufgrund des Glaubens Königreiche besiegt, Gerechtigkeit geübt und Verheißungen erlangt in Christus Jesus, unserem Herrn.",
-          "resp1_0": "Noch kurze Zeit – und eure Trauer verwandelt sich in Freude.^ö",
-          "resp1_1": "Und eure Freude wird euch niemand nehmen.^ö"
+          "ant_0": "Mit der Krone der Gerechtigkeit hat Gott ihn geehrt und ihm den Namen der Herrlichkeit verliehen.^ö",
+          "les_buch": "Jak",
+          "les_stelle": "1,12",
+          "les_text": "Glücklich der Mann, der in der Versuchung standhält. Denn wenn er sich bewährt, wird er den Kranz des Lebens erhalten, der denen verheißen ist, die Gott lieben.",
+          "resp1_0": "Ich vertraue auf Gott und fürchte mich nicht.^ö",
+          "resp1_1": "Was können Menschen mir antun?^ö"
         },
         "Terz": {
-          "ant_0": "In einem harten Kampf verlieh ihnen Gott den Siegespreis, und sie erkannten, dass Gottes Weisheit mächtiger ist als alles andere.^ö",
+          "ant_0": "In einem harten Kampf verlieh ihm Gott den Siegespreis, und er erkannte, dass Gottes Weisheit mächtiger ist als alles andere.^ö",
           "les_buch": "1 Petr",
           "les_stelle": "5,10-11",
           "les_text": "Der Gott aller Gnade, der euch in Christus zu seiner ewigen Herrlichkeit berufen hat, wird euch, die ihr kurze Zeit leiden müsst, wieder aufrichten, stärken, kräftigen und auf festen Grund stellen. Sein ist die Macht in Ewigkeit. Amen.",
-          "resp1_0": "Die Heiligen vertrauen auf den Herrn.^ö",
-          "resp1_1": "Er gibt ihnen Kraft, und sie ermatten nicht.^ö"
+          "resp1_0": "Mit dem Gewand der Freude hat ihn der Herr bekleidet.^ö",
+          "resp1_1": "Die Krone der Schönheit hat er ihm aufs Haupt gesetzt.^ö"
         },
         "Vesper": {
-          "hymn_1": 71119.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-MärtPlJgfr-each-Vesper-ant_1",
-          "ant_2": "com-MärtPlJgfr-each-Vesper-ant_2",
-          "ant_3": "com-MärtPlJgfr-each-Vesper-ant_3",
+          "hymn_1": 71123.0,
+          "ps_1": 116.1,
+          "ps_2": 116.2,
+          "ps_3": 153.0,
+          "ant_1": "Wer mein Jünger sein will, der verleugne sich selbst; er nehme sein Kreuz auf sich und folge mir nach.^ö",
+          "ant_2": "Wer mir dient, den wird mein Vater ehren.^ö",
+          "ant_3": "Wer um meinetwillen sein Leben verliert, der wird es gewinnen.^ö",
           "les_buch": "1 Petr",
           "les_stelle": "4,13-14",
           "les_text": "Freut euch, dass ihr Anteil an den Leiden Christi habt; denn so könnt ihr auch bei der Offenbarung seiner Herrlichkeit voll Freude jubeln. Wenn ihr wegen des Namens Christi beschimpft werdet, seid ihr seligzupreisen; denn der Geist der Herrlichkeit, der Geist Gottes, ruht auf euch.",
-          "resp1_1": "com-MärtPlJgfr-each-Vesper-Resp1_1",
-          "resp1_2": "com-MärtPlJgfr-each-Vesper-Resp1_2",
-          "resp1_3": "com-MärtPlJgfr-each-Vesper-Resp1_3",
-          "ant_ev": "com-MärtPlJgfr-each-Vesper-Ant_Ev",
-          "bitten_e": "com-MärtPlJgfr-each-Vesper-Bitten_E",
-          "bitten_r": "com-MärtPlJgfr-each-Vesper-Bitten_R",
-          "bitten": "com-MärtPlJgfr-each-Vesper-Bitten"
+          "resp1_1": "Gott, du hast mich geprüft",
+          "resp1_2": "und hast mich hinausgeführt in die Freiheit.",
+          "resp1_3": "Im Feuer hast du mich geläutert, wie man Silber läutert.",
+          "ant_ev": "Im himmlischen Reich ist die Wohnstatt der Heiligen. Dort finden sie Ruhe auf ewig.",
+          "bitten_e": "Lasst uns zu Jesus Christus beten, dem König der Märtyrer:",
+          "bitten_r": "Herr Jesus Christus, wir preisen dich.",
+          "bitten": "Du unser Erlöser, du hast dein Blut vergossen für das Heil der Welt;^qerbarme dich aller Menschen.^pDu Urbild der Märtyrer;^qsteh allen Verfolgten bei.^pDu treuer Zeuge;^qhilf denen, die Zeugnis von dir geben.^pDu Stärke der Märtyrer;^qsei deinen Bekennern nahe in der Stunde der Prüfung.^p(Fürbitten in besonderen Anliegen)^pDu Lohn der Märtyrer;^qsei auch der Lohn all unserer Verstorbenen."
+        }
+      },
+      "Frau": {
+        "ErsteV": {
+          "resp1_1": "Der Herr hat sie erwählt,",
+          "resp1_2": "vor allen hat er sie erkoren.",
+          "resp1_3": "In seinem Zelt lässt er sie wohnen.",
+          "ant_ev": "Ihr Gürtel war die Tapferkeit, sie kämpfte mit kraftvollem Arm. Ihre Lampe erlischt nicht in Ewigkeit.^ö"
+        },
+        "Terz": {
+          "resp1_0": "Mit dem Gewand der Freude hat sie der Herr bekleidet.^ö",
+          "resp1_1": "Die Krone der Schönheit hat er ihr aufs Haupt gesetzt.^ö"
+        }
+      },
+      "Jgfr": {
+        "ErsteV": {
+          "hymn_1": 71119.0,
+          "resp1_1": "Der Herr hat sie erwählt,",
+          "resp1_2": "vor allen hat er sie erkoren.",
+          "resp1_3": "In seinem Zelt lässt er sie wohnen."
+        },
+        "Laudes": {
+          "hymn_1": 71119.0
+        },
+        "Terz": {
+          "resp1_0": "Mit dem Gewand der Freude hat sie der Herr bekleidet.^ö",
+          "resp1_1": "Die Krone der Schönheit hat er ihr aufs Haupt gesetzt.^ö"
+        },
+        "Vesper": {
+          "hymn_1": 71119.0
         }
       },
       "o": {
@@ -2796,16 +1928,10 @@ export const brevierData = {
         "Lesehore": {
           "les_buch": "Aus der Offenbarung des Johannes.",
           "les_stelle": "7,9-17",
-          "les_text": "^hDie große Schar vor Gottes Thron^pIch, Johannes, sah: eine große Schar aus allen Nationen und Stämmen, Völkern und Sprachen; niemand konnte sie zählen. Sie standen in weißen Gewändern vor dem Thron und vor dem Lamm und trugen Palmzweige in den Händen. Sie riefen mit lauter Stimme: Die Rettung kommt von unserem Gott, der auf dem Thron sitzt, und von dem Lamm.^pUnd alle Engel standen rings um den Thron, um die Ältesten und die vier Lebewesen. Sie warfen sich vor dem Thron nieder, beteten Gott an und sprachen: ^pAmen, Lob und Herrlichkeit, ^lWeisheit und Dank, ^lEhre und Macht und Stärke ^lunserem Gott in alle Ewigkeit! Amen. ^pDa fragte mich einer der Ältesten: Wer sind diese, die weiße Gewänder tragen, und woher sind sie gekommen? Ich erwiderte ihm: Mein Herr, das musst du wissen. Und er sagte zu mir: Es sind die, die aus der großen Bedrängnis kommen; sie haben ihre Gewänder gewaschen und im Blut des Lammes weiß gemacht. Deshalb stehen sie vor dem Thron Gottes und dienen ihm bei Tag und Nacht in seinem Tempel; und der, der auf dem Thron sitzt, wird sein Zelt über ihnen aufschlagen. Sie werden keinen Hunger und keinen Durst mehr leiden und weder Sonnenglut noch irgendeine sengende Hitze wird auf ihnen lasten. Denn das Lamm in der Mitte vor dem Thron wird sie weiden und zu den Quellen führen, aus denen das Wasser des Lebens strömt, und Gott wird alle Tränen von ihren Augen abwischen.",
-          "resp1_1": "Herr, du hast deine Heiligen geleitet auf dem wunderbaren Weg deiner Gebote.",
-          "resp1_2": "Du hast sie durch das Rote Meer geführt, durch gewaltige Wasser. Halleluja.",
-          "resp1_3": "Sie preisen, Herr, deinen heiligen Namen und loben deine schützende Hand.",
-          "patr_autor": "Cyprian von Karthago († 258)",
-          "patr_werk": "Aus einem Brief. (Ep. 6,1–2)",
-          "patr_text": "^hWenn wir zu den Verheißungen des Herrn gelangen wollen, müssen wir den Herrn in allem nachahmen.^pIch grüße euch, liebe Brüder. Auch ich sehne mich danach, euch von Angesicht zu Angesicht zu sehen, aber der weite Weg gestattet mir nicht, zu euch zu kommen. Keine größere Freude könnte ich mir wünschen, als von euch umarmt zu werden, mit den Händen, die rein geblieben sind, mit denen ihr den Herrn im Glauben festgehalten und den Götzendienst zurückgewiesen habt.^pWas könnte liebenswerter sein, als euren Mund zu küssen, der mit herrlicher Stimme den Herrn bekannt hat, vor eure Augen zu treten, die sich von der Welt abgewandt haben und würdig geworden sind, Gott zu schauen?^pDa es mir aber nicht vergönnt ist, diese Freude mit euch zu teilen, schicke ich statt meiner für euer Ohr und Auge diesen Brief, mit dem ich euch ebenso beglückwünsche wie ermahne: Bleibt stark und standfest im Bekenntnis der überirdischen Herrlichkeit; schreitet in der Kraft des Geistes auf dem Weg der göttlichen Gnade voran, den ihr betreten habt, damit ihr den Siegeskranz erlangt. Der Herr wird euer Schützer und Führer sein gemäß seinem Wort: „Seht, ich bin bei euch alle Tage bis zum Ende der Welt“ {1#Mt 28, 20}.^pSelig der Kerker, den eure Haft erhellt hat! Selig der Kerker, der die Menschen Gottes zum Himmel entlässt! Finsternis, du bist leuchtender als die Sonne und heller als das irdische Licht, da in der Finsternis des Kerkers wurden eure Glieder als Tempel Gottes auferbaut und geheiligt durch das Zeugnis für Gottes Namen.^pIn Herz und Geist darf jetzt nichts anderes mehr Platz haben als Gottes Weisungen und die Gebote des Himmels, mit denen euch der Heilige Geist beständig durchatmet hat zur Kraft im Leiden. Keiner denke an Tod, sondern an die Unsterblichkeit, keiner an die Pein dieser Zeit, sondern an die ewige Herrlichkeit. Steht doch geschrieben: „Kostbar ist in den Augen des Herrn das Sterben seiner Frommen“ {2#Ps 116, 15} und: „Das Opfer, das Gott gefällt, ist ein zerknirschter Geist; ein zerbrochenes und zerschlagenes Herz wirst du, Gott, nicht verschmähen“ {3#Ps 51, 19}.^pUnd an anderer Stelle, wo die Heilige Schrift von den Qualen spricht, in denen die Zeugen Gottes geweiht und durch Bewährung im Leiden geheiligt werden, heißt es: „In den Augen der Menschen wurden sie gestraft, doch ihre Hoffnung ist voll Unsterblichkeit. Sie werden Völker richten und über Nationen herrschen, und der Herr wird ihr König sein in Ewigkeit“ {4#Weish 3, 4.8}.^pWenn ihr bedenkt, dass ihr mit Christus, dem Herrn, richten und herrschen werdet, könnt ihr nur jubeln und angesichts der Freude am Künftigen die Qualen der Gegenwart geringschätzen. Ihr wisst ja: Seit die Welt steht, ist es der Lauf der Dinge, dass die Gerechtigkeit es hier im Streit der Welt schwer hat. Wurde doch gleich zu Anfang der gerechte Abel ermordet und danach alle Gerechten und Apostel und Propheten, die Gott gesandt hat.^pIhnen allen hat der Herr in seiner Person ein Beispiel gegeben. Er hat gelehrt, dass in sein Reich nur jene gelangen, die ihm auf dem Weg gefolgt sind: „Wer sein Leben in dieser Welt liebt, verliert es. Wer aber sein Leben in dieser Welt hasst, wird es bewahren bis ins ewige Leben“ {5#Joh 12, 25} und: „Fürchtet euch nicht vor denen, die den Leib töten, die Seele aber nicht töten können, sondern fürchtet euch vielmehr vor dem, der Seele und Leib in der Hölle verderben kann“ {6#Mt 10, 28}.^pAuch Paulus mahnt uns: Wenn wir erlangen wollen, was der Herr uns verheißen hat, müssen wir ihn in allem nachahmen: „Wir sind Kinder Gottes. Sind wir aber Kinder, dann auch Erben; wir sind Erben Gottes und Miterben Christi, da wir mit ihm leiden, um auch mit ihm verherrlicht zu werden“ {7#Röm 8, 16-17}.",
-          "patr_resp1": "Wenn wir in der Schlacht stehen und für den Glauben kämpfen, schaut Gott auf uns herab. Zuschauer sind die Engel, und auch Christus blickt auf uns.",
-          "patr_resp2": "Welch erhabene Herrlichkeit, welche Glückseligkeit, in der Gegenwart Gottes zu kämpfen und von Christus, dem Richter, den Siegeskranz zu empfangen.^ö",
-          "patr_resp3": "Wir wollen uns wappnen mit aller Kraft und uns zum Kampf rüsten mit lauterem Geist, zuversichtlichem Glauben und liebender Tugend."
+          "les_text": "Danach sah ich: eine große Schar aus allen Nationen und Stämmen, Völkern und Sprachen; niemand konnte sie zählen. Sie standen in weißen Gewändern vor dem Thron und vor dem Lamm und trugen Palmzweige in den Händen. Sie riefen mit lauter Stimme: Die Rettung kommt von unserem Gott, der auf dem Thron sitzt, und von dem Lamm.^pUnd alle Engel standen rings um den Thron, um die Ältesten und die vier Lebewesen. Sie warfen sich vor dem Thron nieder, beteten Gott an und sprachen: ^pAmen, Lob und Herrlichkeit, ^lWeisheit und Dank, ^lEhre und Macht und Stärke ^lunserem Gott in alle Ewigkeit! Amen. ^pDa fragte mich einer der Ältesten: Wer sind diese, die weiße Gewänder tragen, und woher sind sie gekommen? Ich erwiderte ihm: Mein Herr, das musst du wissen. Und er sagte zu mir: Es sind die, die aus der großen Bedrängnis kommen; sie haben ihre Gewänder gewaschen und im Blut des Lammes weiß gemacht. Deshalb stehen sie vor dem Thron Gottes und dienen ihm bei Tag und Nacht in seinem Tempel; und der, der auf dem Thron sitzt, wird sein Zelt über ihnen aufschlagen. Sie werden keinen Hunger und keinen Durst mehr leiden und weder Sonnenglut noch irgendeine sengende Hitze wird auf ihnen lasten. Denn das Lamm in der Mitte vor dem Thron wird sie weiden und zu den Quellen führen, aus denen das Wasser des Lebens strömt, und Gott wird alle Tränen von ihren Augen abwischen.",
+          "resp1_1": "Sei treu bis in den Tod, dann werde ich dir den Kranz des Lebens geben.",
+          "resp1_2": "Wer siegt, dem kann der zweite Tod nichts anhaben. Halleluja.",
+          "resp1_3": "Bis zum Tode setze dich ein für das Recht, dann wird der Herr für dich kämpfen."
         },
         "Non": {
           "les_buch": "Offb",
@@ -2827,314 +1953,81 @@ export const brevierData = {
           "les_text": "Fürchte dich nicht vor dem, was du noch erleiden musst: Der Teufel wird einige von euch ins Gefängnis werfen, um euch auf die Probe zu stellen, und ihr werdet in Bedrängnis sein, zehn Tage lang. Sei treu bis in den Tod; dann werde ich dir den Kranz des Lebens geben.^lWer Ohren hat, der höre, was der Geist den Gemeinden sagt: Wer siegt, dem kann der zweite Tod nichts anhaben.",
           "resp1_0": "Mit dem Gewand der Freude hat ihn der Herr bekleidet.^ö",
           "resp1_1": "Die Krone der Schönheit hat er ihm aufs Haupt gesetzt.^ö"
+        },
+        "Vesper": {
+          "les_buch": "Offb",
+          "les_stelle": "7,14b-17",
+          "les_text": "Das sind die, die aus der großen Bedrängnis kommen; sie haben ihre Gewänder gewaschen und im Blut des Lammes weiß gemacht. Deshalb stehen sie vor dem Thron Gottes und dienen ihm bei Tag und Nacht in seinem Tempel; und der, der auf dem Thron sitzt, wird sein Zelt über ihnen aufschlagen. Sie werden keinen Hunger und keinen Durst mehr leiden und weder Sonnenglut noch irgendeine sengende Hitze wird auf ihnen lasten. Denn das Lamm in der Mitte vor dem Thron wird sie weiden und zu den Quellen führen, aus denen das Wasser des Lebens strömt, und Gott wird alle Tränen von ihren Augen abwischen.",
+          "resp1_1": "Die Gerechten werden leuchten vor dem Antlitz Gottes.",
+          "resp1_2": "Halleluja, halleluja.",
+          "resp1_3": "Die redlichen Herzens sind, werden sich freuen.",
+          "ant_ev": "Wenn das Weizenkorn nicht in die Erde fällt und stirbt, bleibt es allein; wenn es aber stirbt, bringt es reiche Frucht. Halleluja."
         }
       },
       "q": {
         "Lesehore": {
-          "les_buch": "Aus dem Buch der Weisheit.",
-          "les_stelle": "3,1-15",
-          "les_text": "^hDie Seelen der Gerechten sind in Gottes Hand^pDie Seelen der Gerechten sind in Gottes Hand und keine Qual kann sie berühren. In den Augen der Toren sind sie gestorben, ihr Heimgang gilt als Unglück, ihr Scheiden von uns als Vernichtung; sie aber sind in Frieden. In den Augen der Menschen wurden sie gestraft; doch ihre Hoffnung ist voll Unsterblichkeit. Ein wenig nur werden sie gezüchtigt; doch sie empfangen große Wohltat. Denn Gott hat sie geprüft und fand sie seiner würdig. Wie Gold im Schmelzofen hat er sie erprobt und sie angenommen als ein vollgültiges Opfer.^p Beim Endgericht werden sie aufleuchten wie Funken, die durch ein Stoppelfeld sprühen. Sie werden Völker richten und über Nationen herrschen und der Herr wird ihr König sein in Ewigkeit. Alle, die auf ihn vertrauen, werden die Wahrheit erkennen und die Treuen werden bei ihm bleiben in Liebe. Denn Gnade und Erbarmen wird seinen Erwählten zuteil.^p Die Frevler aber werden für ihre Pläne bestraft, sie, die den Gerechten missachtet haben und vom Herrn abgefallen sind. Unglücklich sind alle, die Weisheit und Belehrung verachten; leer ist ihre Hoffnung, vergeblich sind ihre Mühen und wertlos ihre Taten. Ihre Frauen sind unverständig und ihre Kinder böse, fluchbeladen ist ihr Geschlecht.^p Selig ist die Kinderlose, die unschuldig blieb und kein Lager der Sünde kannte; sie wird gleich einer Mutter geehrt, wenn die Seelen ihren Lohn empfangen. Selig ist auch der Kinderlose, der sich nicht frevelhaft verging und gegen den Herrn nichts Böses plante; besondere Gnade wird seiner Treue zuteil und ein gar köstlicher Anteil am Tempel des Herrn. Denn ruhmreich ist der Lohn guter Mühe und unvergänglich die Wurzel der Klugheit.",
-          "resp1_1": "Die Heiligen vergossen ihr Blut für den Herrn, sie liebten Christus in ihrem Leben und folgten ihm nach bis in den Tod.",
-          "resp1_2": "Darum schenkte ihnen der Herr den Siegeskranz.",
-          "resp1_3": "Ein Geist und ein Glaube war in ihnen.",
-          "patr_autor": "Cyprian von Karthago († 258)",
-          "patr_werk": "Aus einem Brief. (Ep. 6,1–2)",
-          "patr_text": "^hWenn wir zu den Verheißungen des Herrn gelangen wollen, müssen wir den Herrn in allem nachahmen.^pIch grüße euch, liebe Brüder. Auch ich sehne mich danach, euch von Angesicht zu Angesicht zu sehen, aber der weite Weg gestattet mir nicht, zu euch zu kommen. Keine größere Freude könnte ich mir wünschen, als von euch umarmt zu werden, mit den Händen, die rein geblieben sind, mit denen ihr den Herrn im Glauben festgehalten und den Götzendienst zurückgewiesen habt.^pWas könnte liebenswerter sein, als euren Mund zu küssen, der mit herrlicher Stimme den Herrn bekannt hat, vor eure Augen zu treten, die sich von der Welt abgewandt haben und würdig geworden sind, Gott zu schauen?^pDa es mir aber nicht vergönnt ist, diese Freude mit euch zu teilen, schicke ich statt meiner für euer Ohr und Auge diesen Brief, mit dem ich euch ebenso beglückwünsche wie ermahne: Bleibt stark und standfest im Bekenntnis der überirdischen Herrlichkeit; schreitet in der Kraft des Geistes auf dem Weg der göttlichen Gnade voran, den ihr betreten habt, damit ihr den Siegeskranz erlangt. Der Herr wird euer Schützer und Führer sein gemäß seinem Wort: „Seht, ich bin bei euch alle Tage bis zum Ende der Welt“ {1#Mt 28, 20}.^pSelig der Kerker, den eure Haft erhellt hat! Selig der Kerker, der die Menschen Gottes zum Himmel entlässt! Finsternis, du bist leuchtender als die Sonne und heller als das irdische Licht, da in der Finsternis des Kerkers wurden eure Glieder als Tempel Gottes auferbaut und geheiligt durch das Zeugnis für Gottes Namen.^pIn Herz und Geist darf jetzt nichts anderes mehr Platz haben als Gottes Weisungen und die Gebote des Himmels, mit denen euch der Heilige Geist beständig durchatmet hat zur Kraft im Leiden. Keiner denke an Tod, sondern an die Unsterblichkeit, keiner an die Pein dieser Zeit, sondern an die ewige Herrlichkeit. Steht doch geschrieben: „Kostbar ist in den Augen des Herrn das Sterben seiner Frommen“ {2#Ps 116, 15} und: „Das Opfer, das Gott gefällt, ist ein zerknirschter Geist; ein zerbrochenes und zerschlagenes Herz wirst du, Gott, nicht verschmähen“ {3#Ps 51, 19}.^pUnd an anderer Stelle, wo die Heilige Schrift von den Qualen spricht, in denen die Zeugen Gottes geweiht und durch Bewährung im Leiden geheiligt werden, heißt es: „In den Augen der Menschen wurden sie gestraft, doch ihre Hoffnung ist voll Unsterblichkeit. Sie werden Völker richten und über Nationen herrschen, und der Herr wird ihr König sein in Ewigkeit“ {4#Weish 3, 4.8}.^pWenn ihr bedenkt, dass ihr mit Christus, dem Herrn, richten und herrschen werdet, könnt ihr nur jubeln und angesichts der Freude am Künftigen die Qualen der Gegenwart geringschätzen. Ihr wisst ja: Seit die Welt steht, ist es der Lauf der Dinge, dass die Gerechtigkeit es hier im Streit der Welt schwer hat. Wurde doch gleich zu Anfang der gerechte Abel ermordet und danach alle Gerechten und Apostel und Propheten, die Gott gesandt hat.^pIhnen allen hat der Herr in seiner Person ein Beispiel gegeben. Er hat gelehrt, dass in sein Reich nur jene gelangen, die ihm auf dem Weg gefolgt sind: „Wer sein Leben in dieser Welt liebt, verliert es. Wer aber sein Leben in dieser Welt hasst, wird es bewahren bis ins ewige Leben“ {5#Joh 12, 25} und: „Fürchtet euch nicht vor denen, die den Leib töten, die Seele aber nicht töten können, sondern fürchtet euch vielmehr vor dem, der Seele und Leib in der Hölle verderben kann“ {6#Mt 10, 28}.^pAuch Paulus mahnt uns: Wenn wir erlangen wollen, was der Herr uns verheißen hat, müssen wir ihn in allem nachahmen: „Wir sind Kinder Gottes. Sind wir aber Kinder, dann auch Erben; wir sind Erben Gottes und Miterben Christi, da wir mit ihm leiden, um auch mit ihm verherrlicht zu werden“ {7#Röm 8, 16-17}.",
-          "patr_resp1": "Wenn wir in der Schlacht stehen und für den Glauben kämpfen, schaut Gott auf uns herab. Zuschauer sind die Engel, und auch Christus blickt auf uns.",
-          "patr_resp2": "Welch erhabene Herrlichkeit, welche Glückseligkeit, in der Gegenwart Gottes zu kämpfen und von Christus, dem Richter, den Siegeskranz zu empfangen.^ö",
-          "patr_resp3": "Wir wollen uns wappnen mit aller Kraft und uns zum Kampf rüsten mit lauterem Geist, zuversichtlichem Glauben und liebender Tugend."
+          "les_buch": "Aus dem Buch Jesus Sirach.",
+          "les_stelle": "51,1-12",
+          "resp1_1": "Ich will deinen Namen verkünden, Herr, du Hort meines Lebens.",
+          "resp1_2": "Denn du hast mich vom Tod errettet.",
+          "resp1_3": "Ich will jubeln und mich freuen über deine Huld."
         }
       }
     },
-    "Ord": {
-      "each": {
-        "Invitatorium": {
-          "ant_0": "com-Ord-each-Invitatorium-ant_0"
+    "MFr": {
+      "Erz": {
+        "ErsteV": {
+          "ant_ev": "Mein Sohn, halte fest am Gebot deines Vaters und missachte nicht die Weisung deriner Mutter. Binde sie dir aufs Herz für immer.^ö"
         },
         "Laudes": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-Ord-each-Laudes-ant_1",
-          "ant_2": "com-Ord-each-Laudes-ant_2",
-          "ant_3": "com-Ord-each-Laudes-ant_3",
-          "les_buch": "com-Ord-each-Laudes-Les_Buch",
-          "les_stelle": "com-Ord-each-Laudes–Les_Stelle",
-          "les_text": "com-Ord-each-Laudes-Les_Text",
-          "resp1_1": "com-Ord-each-Laudes-Resp1_1",
-          "resp1_2": "com-Ord-each-Laudes-Resp1_2",
-          "resp1_3": "com-Ord-each-Laudes-Resp1_3",
-          "ant_ev": "com-Ord-each-Laudes-Ant_Ev",
-          "bitten_e": "com-Ord-each-Laudes-Bitten_E",
-          "bitten_r": "com-Ord-each-Laudes-Bitten_R",
-          "bitten": "com-Ord-each-Laudes-Bitten"
-        },
-        "Lesehore": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-Ord-each-Lesehore-ant_1",
-          "ant_2": "com-Ord-each-Lesehore-ant_2",
-          "ant_3": "com-Ord-each-Lesehore-ant_3",
-          "resp0_0": "com-Ord-each-Lesehore-Resp0_0",
-          "resp0_1": "com-Ord-each-Lesehore-Resp0_1",
-          "les_buch": "com-Ord-each-Lesehore-Les_Buch",
-          "les_stelle": "com-Ord-each-Lesehore–Les_Stelle",
-          "les_text": "com-Ord-each-Lesehore-Les_Text",
-          "resp1_1": "com-Ord-each-Lesehore-Resp1_1",
-          "resp1_2": "com-Ord-each-Lesehore-Resp1_2",
-          "resp1_3": "com-Ord-each-Lesehore-Resp1_3",
-          "patr_autor": "com-Ord-each-Lesehore-Patr_Autor",
-          "patr_text": "com-Ord-each-Lesehore-Patr_Text",
-          "patr_resp1": "com-Ord-each-Lesehore-Patr_Resp1",
-          "patr_resp2": "com-Ord-each-Lesehore-Patr_Resp2",
-          "patr_resp3": "com-Ord-each-Lesehore-Patr_Resp3"
-        },
-        "Non": {
-          "ant_1": "com-Ord-each-Non-ant_1",
-          "ant_2": "com-Ord-each-Non-ant_2",
-          "ant_3": "com-Ord-each-Non-ant_3",
-          "les_buch": "com-Ord-each-Non-Les_Buch",
-          "les_stelle": "com-Ord-each-Non–Les_Stelle",
-          "les_text": "com-Ord-each-Non-Les_Text",
-          "resp1_0": "com-Ord-each-Non-Resp1_0",
-          "resp1_1": "com-Ord-each-Non-Resp1_1"
-        },
-        "Sext": {
-          "ant_1": "com-Ord-each-Sext-ant_1",
-          "ant_2": "com-Ord-each-Sext-ant_2",
-          "ant_3": "com-Ord-each-Sext-ant_3",
-          "les_buch": "com-Ord-each-Sext-Les_Buch",
-          "les_stelle": "com-Ord-each-Sext–Les_Stelle",
-          "les_text": "com-Ord-each-Sext-Les_Text",
-          "resp1_0": "com-Ord-each-Sext-Resp1_0",
-          "resp1_1": "com-Ord-each-Sext-Resp1_1"
-        },
-        "Terz": {
-          "ant_1": "com-Ord-each-Terz-ant_1",
-          "ant_2": "com-Ord-each-Terz-ant_2",
-          "ant_3": "com-Ord-each-Terz-ant_3",
-          "les_buch": "com-Ord-each-Terz-Les_Buch",
-          "les_stelle": "com-Ord-each-Terz–Les_Stelle",
-          "les_text": "com-Ord-each-Terz-Les_Text",
-          "resp1_0": "com-Ord-each-Terz-Resp1_0",
-          "resp1_1": "com-Ord-each-Terz-Resp1_1"
+          "name": "Erz",
+          "ant_ev": "Wer barmherzig ist, der lehrt und erzieht wie ein guter Hirt.^ö",
+          "bitten_e": "com-MFr-Erz-Laudes-Bitten_E",
+          "bitten_r": "com-MFr-Erz-Laudes-Bitten_R",
+          "bitten": "com-MFr-Erz-Laudes-Bitten"
         },
         "Vesper": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-Ord-each-Vesper-ant_1",
-          "ant_2": "com-Ord-each-Vesper-ant_2",
-          "ant_3": "com-Ord-each-Vesper-ant_3",
-          "les_buch": "com-Ord-each-Vesper-Les_Buch",
-          "les_stelle": "com-Ord-each-Vesper–Les_Stelle",
-          "les_text": "com-Ord-each-Vesper-Les_Text",
-          "resp1_1": "com-Ord-each-Vesper-Resp1_1",
-          "resp1_2": "com-Ord-each-Vesper-Resp1_2",
-          "resp1_3": "com-Ord-each-Vesper-Resp1_3",
-          "ant_ev": "com-Ord-each-Vesper-Ant_Ev",
-          "bitten_e": "com-Ord-each-Vesper-Bitten_E",
-          "bitten_r": "com-Ord-each-Vesper-Bitten_R",
-          "bitten": "com-Ord-each-Vesper-Bitten"
+          "ant_ev": "Lasst die Kinder zu mir kommen; denn Menschen wie ihnen gehört das Reich Gottes.",
+          "bitten_e": "com-MFr-Erz-Vesper-Bitten_E",
+          "bitten_r": "com-MFr-Erz-Vesper-Bitten_R",
+          "bitten": "com-MFr-Erz-Vesper-Bitten"
         }
-      }
-    },
-    "OrdF": {
-      "each": {
-        "Invitatorium": {
-          "ant_0": "com-OrdF-each-Invitatorium-ant_0"
+      },
+      "Liebe": {
+        "ErsteV": {
+          "ant_ev": "Selig, wer sich des Armen erbarmt. Wer an Gott glaubt, liebt die Barmherzigkeit.^ö"
         },
         "Laudes": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-OrdF-each-Laudes-ant_1",
-          "ant_2": "com-OrdF-each-Laudes-ant_2",
-          "ant_3": "com-OrdF-each-Laudes-ant_3",
-          "les_buch": "com-OrdF-each-Laudes-Les_Buch",
-          "les_stelle": "com-OrdF-each-Laudes–Les_Stelle",
-          "les_text": "com-OrdF-each-Laudes-Les_Text",
-          "resp1_1": "com-OrdF-each-Laudes-Resp1_1",
-          "resp1_2": "com-OrdF-each-Laudes-Resp1_2",
-          "resp1_3": "com-OrdF-each-Laudes-Resp1_3",
-          "ant_ev": "com-OrdF-each-Laudes-Ant_Ev",
-          "bitten_e": "com-OrdF-each-Laudes-Bitten_E",
-          "bitten_r": "com-OrdF-each-Laudes-Bitten_R",
-          "bitten": "com-OrdF-each-Laudes-Bitten"
-        },
-        "Lesehore": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-OrdF-each-Lesehore-ant_1",
-          "ant_2": "com-OrdF-each-Lesehore-ant_2",
-          "ant_3": "com-OrdF-each-Lesehore-ant_3",
-          "resp0_0": "com-OrdF-each-Lesehore-Resp0_0",
-          "resp0_1": "com-OrdF-each-Lesehore-Resp0_1",
-          "les_buch": "com-OrdF-each-Lesehore-Les_Buch",
-          "les_stelle": "com-OrdF-each-Lesehore–Les_Stelle",
-          "les_text": "com-OrdF-each-Lesehore-Les_Text",
-          "resp1_1": "com-OrdF-each-Lesehore-Resp1_1",
-          "resp1_2": "com-OrdF-each-Lesehore-Resp1_2",
-          "resp1_3": "com-OrdF-each-Lesehore-Resp1_3",
-          "patr_autor": "com-OrdF-each-Lesehore-Patr_Autor",
-          "patr_text": "com-OrdF-each-Lesehore-Patr_Text",
-          "patr_resp1": "com-OrdF-each-Lesehore-Patr_Resp1",
-          "patr_resp2": "com-OrdF-each-Lesehore-Patr_Resp2",
-          "patr_resp3": "com-OrdF-each-Lesehore-Patr_Resp3"
-        },
-        "Non": {
-          "ant_1": "com-OrdF-each-Non-ant_1",
-          "ant_2": "com-OrdF-each-Non-ant_2",
-          "ant_3": "com-OrdF-each-Non-ant_3",
-          "les_buch": "com-OrdF-each-Non-Les_Buch",
-          "les_stelle": "com-OrdF-each-Non–Les_Stelle",
-          "les_text": "com-OrdF-each-Non-Les_Text",
-          "resp1_0": "com-OrdF-each-Non-Resp1_0",
-          "resp1_1": "com-OrdF-each-Non-Resp1_1"
-        },
-        "Sext": {
-          "ant_1": "com-OrdF-each-Sext-ant_1",
-          "ant_2": "com-OrdF-each-Sext-ant_2",
-          "ant_3": "com-OrdF-each-Sext-ant_3",
-          "les_buch": "com-OrdF-each-Sext-Les_Buch",
-          "les_stelle": "com-OrdF-each-Sext–Les_Stelle",
-          "les_text": "com-OrdF-each-Sext-Les_Text",
-          "resp1_0": "com-OrdF-each-Sext-Resp1_0",
-          "resp1_1": "com-OrdF-each-Sext-Resp1_1"
-        },
-        "Terz": {
-          "ant_1": "com-OrdF-each-Terz-ant_1",
-          "ant_2": "com-OrdF-each-Terz-ant_2",
-          "ant_3": "com-OrdF-each-Terz-ant_3",
-          "les_buch": "com-OrdF-each-Terz-Les_Buch",
-          "les_stelle": "com-OrdF-each-Terz–Les_Stelle",
-          "les_text": "com-OrdF-each-Terz-Les_Text",
-          "resp1_0": "com-OrdF-each-Terz-Resp1_0",
-          "resp1_1": "com-OrdF-each-Terz-Resp1_1"
+          "name": "Hl",
+          "ant_ev": "Daran werden alle erkennen, dass ihr meine Jünger seid: wenn ihr einander liebt.^ö",
+          "bitten_e": "com-MFr-Liebe-Laudes-Bitten_E",
+          "bitten_r": "com-MFr-Liebe-Laudes-Bitten_R",
+          "bitten": "com-MFr-Liebe-Laudes-Bitten"
         },
         "Vesper": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-OrdF-each-Vesper-ant_1",
-          "ant_2": "com-OrdF-each-Vesper-ant_2",
-          "ant_3": "com-OrdF-each-Vesper-ant_3",
-          "les_buch": "com-OrdF-each-Vesper-Les_Buch",
-          "les_stelle": "com-OrdF-each-Vesper–Les_Stelle",
-          "les_text": "com-OrdF-each-Vesper-Les_Text",
-          "resp1_1": "com-OrdF-each-Vesper-Resp1_1",
-          "resp1_2": "com-OrdF-each-Vesper-Resp1_2",
-          "resp1_3": "com-OrdF-each-Vesper-Resp1_3",
-          "ant_ev": "com-OrdF-each-Vesper-Ant_Ev",
-          "bitten_e": "com-OrdF-each-Vesper-Bitten_E",
-          "bitten_r": "com-OrdF-each-Vesper-Bitten_R",
-          "bitten": "com-OrdF-each-Vesper-Bitten"
+          "ant_ev": "Amen, ich sage euch: Was ihr dem Geringsten meiner Brüder getan habt, das habt ihr mir getan. Kommt, ihr Gesegneten meines Vaters, nehmt das Reich in Besitz, das seit Anfang der Welt für euch bestimmt ist.^ö",
+          "bitten_e": "com-MFr-Liebe-Vesper-Bitten_E",
+          "bitten_r": "com-MFr-Liebe-Vesper-Bitten_R",
+          "bitten": "com-MFr-Liebe-Vesper-Bitten"
         }
-      }
-    },
-    "OrdMann": {
-      "each": {
-        "ErsteV": {},
-        "Invitatorium": {
-          "ant_0": "com-OrdMann-each-Invitatorium-ant_0"
+      },
+      "Ord": {
+        "ErsteV": {
+          "hymn_1": 71248.0,
+          "ant_ev": "So spricht der Herr: Wenn jemand nicht auf alles, was er hat, verzichtet, kann er mein Jünger nicht sein.^ö"
         },
         "Laudes": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-OrdMann-each-Laudes-ant_1",
-          "ant_2": "com-OrdMann-each-Laudes-ant_2",
-          "ant_3": "com-OrdMann-each-Laudes-ant_3",
-          "les_buch": "com-OrdMann-each-Laudes-Les_Buch",
-          "les_stelle": "com-OrdMann-each-Laudes–Les_Stelle",
-          "les_text": "com-OrdMann-each-Laudes-Les_Text",
-          "resp1_1": "com-OrdMann-each-Laudes-Resp1_1",
-          "resp1_2": "com-OrdMann-each-Laudes-Resp1_2",
-          "resp1_3": "com-OrdMann-each-Laudes-Resp1_3",
-          "ant_ev": "com-OrdMann-each-Laudes-Ant_Ev",
-          "bitten_e": "com-OrdMann-each-Laudes-Bitten_E",
-          "bitten_r": "com-OrdMann-each-Laudes-Bitten_R",
-          "bitten": "com-OrdMann-each-Laudes-Bitten"
+          "name": "Ord",
+          "hymn_1": 71248.0,
+          "ant_ev": "Wer den Willen meines Vaters erfüllt, der ist für mich Bruder und Schwester und Mutter.^ö^p^rOder:^0r^l^rAnt.°°^0rMein Anteil ist der Herr, darum harre ich auf ihn; gut ist der Herr zur Seele, die ihn sucht.^ö"
         },
         "Lesehore": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-OrdMann-each-Lesehore-ant_1",
-          "ant_2": "com-OrdMann-each-Lesehore-ant_2",
-          "ant_3": "com-OrdMann-each-Lesehore-ant_3",
-          "resp0_0": "com-OrdMann-each-Lesehore-Resp0_0",
-          "resp0_1": "com-OrdMann-each-Lesehore-Resp0_1",
-          "les_buch": "com-OrdMann-each-Lesehore-Les_Buch",
-          "les_stelle": "com-OrdMann-each-Lesehore–Les_Stelle",
-          "les_text": "com-OrdMann-each-Lesehore-Les_Text",
-          "resp1_1": "com-OrdMann-each-Lesehore-Resp1_1",
-          "resp1_2": "com-OrdMann-each-Lesehore-Resp1_2",
-          "resp1_3": "com-OrdMann-each-Lesehore-Resp1_3",
-          "patr_autor": "com-OrdMann-each-Lesehore-Patr_Autor",
-          "patr_text": "com-OrdMann-each-Lesehore-Patr_Text",
-          "patr_resp1": "com-OrdMann-each-Lesehore-Patr_Resp1",
-          "patr_resp2": "com-OrdMann-each-Lesehore-Patr_Resp2",
-          "patr_resp3": "com-OrdMann-each-Lesehore-Patr_Resp3"
-        },
-        "Non": {
-          "ant_1": "com-OrdMann-each-Non-ant_1",
-          "ant_2": "com-OrdMann-each-Non-ant_2",
-          "ant_3": "com-OrdMann-each-Non-ant_3",
-          "les_buch": "com-OrdMann-each-Non-Les_Buch",
-          "les_stelle": "com-OrdMann-each-Non–Les_Stelle",
-          "les_text": "com-OrdMann-each-Non-Les_Text",
-          "resp1_0": "com-OrdMann-each-Non-Resp1_0",
-          "resp1_1": "com-OrdMann-each-Non-Resp1_1"
-        },
-        "Sext": {
-          "ant_1": "com-OrdMann-each-Sext-ant_1",
-          "ant_2": "com-OrdMann-each-Sext-ant_2",
-          "ant_3": "com-OrdMann-each-Sext-ant_3",
-          "les_buch": "com-OrdMann-each-Sext-Les_Buch",
-          "les_stelle": "com-OrdMann-each-Sext–Les_Stelle",
-          "les_text": "com-OrdMann-each-Sext-Les_Text",
-          "resp1_0": "com-OrdMann-each-Sext-Resp1_0",
-          "resp1_1": "com-OrdMann-each-Sext-Resp1_1"
-        },
-        "Terz": {
-          "ant_1": "com-OrdMann-each-Terz-ant_1",
-          "ant_2": "com-OrdMann-each-Terz-ant_2",
-          "ant_3": "com-OrdMann-each-Terz-ant_3",
-          "les_buch": "com-OrdMann-each-Terz-Les_Buch",
-          "les_stelle": "com-OrdMann-each-Terz–Les_Stelle",
-          "les_text": "com-OrdMann-each-Terz-Les_Text",
-          "resp1_0": "com-OrdMann-each-Terz-Resp1_0",
-          "resp1_1": "com-OrdMann-each-Terz-Resp1_1"
+          "hymn_1": 516.0,
+          "hymn_2": 71248.0
         },
         "Vesper": {
-          "hymn_1": 9999.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-OrdMann-each-Vesper-ant_1",
-          "ant_2": "com-OrdMann-each-Vesper-ant_2",
-          "ant_3": "com-OrdMann-each-Vesper-ant_3",
-          "les_buch": "com-OrdMann-each-Vesper-Les_Buch",
-          "les_stelle": "com-OrdMann-each-Vesper–Les_Stelle",
-          "les_text": "com-OrdMann-each-Vesper-Les_Text",
-          "resp1_1": "com-OrdMann-each-Vesper-Resp1_1",
-          "resp1_2": "com-OrdMann-each-Vesper-Resp1_2",
-          "resp1_3": "com-OrdMann-each-Vesper-Resp1_3",
-          "ant_ev": "com-OrdMann-each-Vesper-Ant_Ev",
-          "bitten_e": "com-OrdMann-each-Vesper-Bitten_E",
-          "bitten_r": "com-OrdMann-each-Vesper-Bitten_R",
-          "bitten": "com-OrdMann-each-Vesper-Bitten"
+          "hymn_1": 71248.0,
+          "ant_ev": "Ihr habt alles verlassen und seid mir nachgefolgt: Das Hundertfache werdet ihr dafür erhalten und das ewige Leben gewinnen.^ö^p^rOder:^0r^l^rAnt.°°^0rWo Brüder in Eintracht Gottes Herrlichkeit preisen, da spendet der Herr seinen Segen.^ö"
         }
       }
     }
@@ -3259,15 +2152,15 @@ export const brevierData = {
       },
       "17": {
         "Invitatorium": {
-          "comm_1": "OrdMann"
+          "comm_1": "Mann_Ord"
         },
         "Laudes": {
-          "comm_1": "OrdMann",
+          "comm_1": "Mann_Ord",
           "name": "Hl. Antonius",
           "oration": "Herr, unser Gott, du hast den heiligen Mönchsvater Antonius aus der Welt herausgerufen und ihm die Kraft gegeben, in der Einsamkeit der Wüste vor dir zu leben. Hilf uns auf seine Fürbitte, uns selbst zu überwinden und dich über alles zu lieben. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Lesehore": {
-          "comm_1": "OrdMann",
+          "comm_1": "Mann_Ord",
           "patr_autor": "Athanasius († 373)",
           "patr_werk": "Aus der Lebensbeschreibung des hl. Antonius.",
           "patr_text": "^hDie Berufung des heiligen Antonius^pNach dem Tod der Eltern stand Antonius mit seiner Schwester allein. Er war noch nicht ganz achtzehn oder zwanzig Jahre alt und musste für das Haus und seine Schwester sorgen.^pSechs Monate nach dem Tod seiner Eltern ging er (eines Tages) nach seiner Gewohnheit zur Kirche und überlegte auf dem Weg, im Geist gesammelt, warum die Apostel alles verließen und dem Herrn folgten {1#Mt 4,20} und warum die Gläubigen in der Apostelgeschichte ihre Habe verkauften und den Aposteln zu Füßen legten. {2#Apg 4,35} Dabei erwog er auch, welch große Hoffnung ihrer im Himmel wartete. Mit diesen Gedanken trat er in die Kirche ein und es traf sich, dass gerade das Evangelium vorgelesen wurde, und er hörte, wie der Herr zu dem Reichen sagte: \"Wenn du vollkommen sein willst, geh, verkauf deinen Besitz und gib das Geld den Armen; so wirst du einen bleibenden Schatz im Himmel haben; dann komm und folge mir nach!\" {3#Mt 19,21}^pEs war dem Antonius, als erinnere ihn eine göttliche Eingebung an die Heiligen und als sei die Lesung für ihn bestimmt. Da ging er sofort aus der Kirche und gab, was er von den Eltern besaß, den Leuten im Dorf, so dass es ihm und seiner Schwester nicht zum Hindernis werden konnte. Auch alles bewegliche Gut, das sie hatten, teilte er an die Armen aus. Nur wenig behielt er für sich und seine Schwester.^pAls er wieder in die Kirche kam, hörte er den Herrn im Evangelium sagen: \"Sorgt euch nicht um morgen!\" {4#Mt 6,34} Da litt es ihn nicht mehr in der Kirche. Er ging hinaus und verteilte auch den Rest noch an die Mitbürger. Seine Schwester übergab er bekannten und zuverlässigen Jungfrauen zur Erziehung. Er selbst widmete sich vor seinem Haus der Aszese und führte beharrlich ein Leben der Selbstheiligung.^pNun arbeitete er mit seinen Händen, weil er hörte: \"Wer nicht arbeiten will, soll auch nicht essen!\" {5#2 Thess 3,10} Den Ertrag verwendete er für seinen Lebensunterhalt und für die Bedürftigen.^pEr betete dauernd, weil er gelernt hatte, man müsse ohne Unterlass beten. {6#1 Thess 5,17} Er las mit solcher Aufmerksamkeit, dass bei ihm das Gedächtnis die Bücher ersetzte.^pAlle Dorfbewohner und alle Freunde des Guten, mit denen er verkehrte, nannten ihn einen Gottesfreund, weil sie sahen, was für ein Mensch er war. Die einen begrüßten ihn als Sohn, die andern als Bruder.",
@@ -3277,7 +2170,7 @@ export const brevierData = {
           "oration": "Herr, unser Gott, du hast den heiligen Mönchsvater Antonius aus der Welt herausgerufen und ihm die Kraft gegeben, in der Einsamkeit der Wüste vor dir zu leben. Hilf uns auf seine Fürbitte, uns selbst zu überwinden und dich über alles zu lieben. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Vesper": {
-          "comm_1": "OrdMann",
+          "comm_1": "Mann_Ord",
           "oration": "Herr, unser Gott, du hast den heiligen Mönchsvater Antonius aus der Welt herausgerufen und ihm die Kraft gegeben, in der Einsamkeit der Wüste vor dir zu leben. Hilf uns auf seine Fürbitte, uns selbst zu überwinden und dich über alles zu lieben. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         }
       },
@@ -3286,10 +2179,10 @@ export const brevierData = {
           "oration": "eig-1-21-each-Oration"
         },
         "Invitatorium": {
-          "comm_1": "MärtJgfr"
+          "comm_1": "MärtSg_Jgfr"
         },
         "Laudes": {
-          "comm_1": "MärtJgfr",
+          "comm_1": "MärtSg_Jgfr",
           "name": "Hl. Agnes",
           "farbe": "r",
           "ant_1": "Mit seinem Ring hat mich Christus, mein Herr, zur Treue verpflichtet und mich als Braut geschmückt mit einem Kranz.",
@@ -3305,7 +2198,7 @@ export const brevierData = {
           "oration": "Ewiger Gott, du berufst, was schwach ist in dieser Welt, um das, was stark ist, zu beschämen. Höre auf die Fürsprache der heiligen Agnes. Komm uns zu Hilfe, damit auch wir unbeirrt den Glauben bekennen. Darum bitten wir durch Jesus Christus."
         },
         "Lesehore": {
-          "comm_1": "MärtJgfr",
+          "comm_1": "MärtSg_Jgfr",
           "patr_autor": "Ambrosius († 397)",
           "patr_werk": "Aus dem Buch über die Jungfrauen.",
           "patr_text": "^hSie war noch zu jung, um bestraft zu werden, aber schon reif, um zu siegen^p(Heute) ist der Gedenktag einer Jungfrau, lasst uns der Jungfräulichkeit folgen, es ist der Tag einer Märtyrin, lasst uns Gaben opfern! Es ist der Gedächtnistag der heiligen Agnes. Nach der Überlieferung hat sie mit zwölf Jahren das Martyrium erlitten. Welch abscheuerregende Grausamkeit, die auch das zarteste Alter nicht schonte! Aber groß war die Kraft des Glaubens, der auch von diesem Lebensalter Zeugnis erhielt.^pBot der kleine Leib Platz für Wunden? Sie hatte nichts, wo das Eisen sie treffen konnte; doch sie hatte, womit sie das Eisen besiegen konnte. Mädchen in diesem Alter können den strengen Blick der Eltern nicht ertragen und weinen über Nadelstiche wie über Wunden. Sie steht unerschrocken unter den blutigen Händen der Henker. Sie steht, unbewegt vom Klirren der Ketten. Sie bietet dem Dolch des wütenden Soldaten den ganzen Leib. Sie weiß noch nicht, was Sterben heißt, aber sie ist bereit. Gegen ihren Willen wird sie zum Altar gezerrt. Sie breitet inmitten der Flammen die Hände auf Christus hin aus, gerade dort am Götzenaltar bezeichnet sie sich mit dem Zeichen Christi, des Siegers. Jetzt legt sie Nacken und Hände in die eisernen Fesseln, aber keine Fessel vermag die zarten Glieder zu fassen.^pIst es eine neue Art des Martyriums? Noch zu jung, um bestraft zu werden, ist sie schon reif zum Sieg. Schwerlich kann sie kämpfen, doch leicht erringt sie den Siegeskranz. Sie ist eine Lehrmeisterin der Tugend und kann es doch dem Alter nach nicht sein. So eilt die Vermählte nicht zum Brautgemach wie die Jungfrau freudigen Schrittes und eilenden Fußes zum Richtplatz, das Haupt nicht im Schmuck des kunstvoll geflochtenen Haares, sondern mit Christus gekrönt, nicht mit Blumen umwunden, sondern mit Tugenden geziert.^pAlle weinen, nur sie nicht. Viele staunen, dass sie so leichthin das Leben verschwendet, als hätte sie schon ausgekostet, wovon sie kaum nippen durfte. Alle waren starr darüber, dass sie schon Zeugin der Gottheit war, obwohl sie dem Alter nach kaum rechtsfähig war. Aber sie brachte es dahin, dass Gott ihr die Zeugenfähigkeit gab, die ihr die Menschen versagten. Was die Kraft der Natur übersteigt, das wirkt der Schöpfer der Natur.^pMit welchen Schrecken droht der Henker, um sie einzuschüchtern, wie schmeichelt er, um sie zu verführen! Was versprechen ihr die vielen Freier alles, um sie heimzuführen! Sie aber spricht: Schon das wäre Unrecht gegen den Bräutigam, wollte ich darauf warten, ob ich jemand gefalle. Der mich zuerst erwählte, dem will ich gehören. Auf was wartest du, Henker? Der Leib vergehe; ihn könnten Augen lieben, deren Liebe ich nicht mag!^pDa stand sie, betete und beugte den Nacken. Da konntest du den Scharfrichter zittern sehen, als wäre er der Verurteilte. Seine Rechte schwankte, sein Gesicht wurde blass. Ihn sehreckte die Bedrohung des fremden Mädchens, das selbst die Gefahr nicht fürchtete.^pDa seht ihr an der einen Opfergabe das zweifache Martyrium: das der Reinheit und das des Glaubens. Sie blieb Jungfrau und gewann das Martyrium.",
@@ -3315,7 +2208,7 @@ export const brevierData = {
           "oration": "Ewiger Gott, du berufst, was schwach ist in dieser Welt, um das, was stark ist, zu beschämen. Höre auf die Fürsprache der heiligen Agnes. Komm uns zu Hilfe, damit auch wir unbeirrt den Glauben bekennen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
-          "comm_1": "MärtJgfr",
+          "comm_1": "MärtSg_Jgfr",
           "ant_1": "Mich schreckt keine Drohung, und kein Versprechen kann mich verlocken; denn als Jungfrau gehöre ich Christus an.",
           "ant_2": "Ihm allein bewahre ich die Treue, ihm weihe ich mich von ganzem Herzen.",
           "ant_3": "Ich preise dich, Vater meines Herrn Jesus Christus; denn durch ihn, deinen Sohn, hast du deiner Magd den Sieg verliehen.",
@@ -3494,17 +2387,17 @@ export const brevierData = {
       "31": {
         "Invitatorium": {
           "comm_1": "Hirten",
-          "comm_2": "Erzieher"
+          "comm_2": "Mann_Erz"
         },
         "Laudes": {
           "comm_1": "Hirten",
-          "comm_2": "Erzieher",
+          "comm_2": "Mann_Erz",
           "name": "Hl. Johannes Bosco",
           "oration": "Gott, du Quell der Freude, du hast den heiligen Johannes Bosco berufen, der Jugend ein Vater und Lehrer zu sein. Gib auch uns die Liebe, die ihn erfüllt hat, damit wir fähig werden, Menschen für dich zu gewinnen und dir allein zu dienen. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Lesehore": {
           "comm_1": "Hirten",
-          "comm_2": "Erzieher",
+          "comm_2": "Mann_Erz",
           "patr_autor": "Johannes Bosco († 1888)",
           "patr_werk": "Aus einem Brief.",
           "patr_text": "^hIch habe immer mit Liebe gearbeitet^pWenn wir eifrig für das wirkliche Glück unserer Zöglinge sorgen und sie zur Erfüllung ihrer Pflichten anleiten möchten, dürfen wir vor allem nie vergessen, dass wir Elternstelle an den lieben jungen Menschen vertreten. Ich habe immer mit Liebe für sie gearbeitet, mich um sie bemüht und das Priestertum ausgeübt, nicht ich allein, sondern die ganze salesianische Gesellschaft.^pLiebe Söhne, wie oft musste ich mich in meinem langen Leben durchringen zu der großen Wahrheit: Leichter ist es zornig zu werden, als zu ertragen, einem Knaben zu drohen, statt ihm eindringlich zuzureden. Ja, ich sage es: es ist bequemer für unsere Ungeduld und unseren Hochmut, die Fehlenden zu strafen, als sie fest und freundlich zu ertragen und so zu bessern.^pIch empfehle euch die Liebe des Paulus, die er gegenüber den Neugetauften an den Tag legte. Oft führte sie dazu, dass er weinte und inständig betete, wenn er sah, wie wenig gelehrig sie waren und wie sie seiner Liebe widerstanden.^pGebt acht, dass euch niemand vorwerfen kann, ihr ließet euch durch heftige Gemütsbewegungen leiten. Es ist schwer, beim Strafen die Standhaftigkeit des Herzens zu bewahren, die nötig ist, wenn es nicht scheinen soll, wir handelten nur, um unsere Autorität zu zeigen oder um der Erregung des Gemüts ihren Lauf zu lassen.^pWir müssen sie als Söhne betrachten, über die wir eine Vollmacht auszuüben haben. Wir wollen uns zu ihren Dienern machen wie Jesus, der kam, um gehorsam zu sein, nicht zu befehlen {1#Vgl. Mk 10,45}, und wir sollten uns schon des Anscheins der Herrschsucht schämen; wir wollen nicht über sie herrschen, es sei denn, um ihnen zu dienen.^pSo machte es Jesus mit den Aposteln. Sie waren unwissend und ungebildet, ja auch ihr Glaube war klein. Aber er ertrug sie. Gegenüber den Sündern bewies er eine so gütige und vertraute Freundschaft, dass die einen staunten, die andern Anstoß nahmen, andere schließlich Hoffnung schöpften, von Gott Verzeihung zu erlangen. Deswegen forderte er uns auf, gütig und von Herzen demütig zu sein {2#Vgl. Mt 11,29}.^pSie sind unsere Söhne. Wenn wir daher ihre Irrtümer unterdrücken wollen, müssen wir allen Zorn ablegen oder doch so mäßigen, als hätten wir ihn ganz ausgelöscht.^pIn besonders schweren Fällen empfiehlt es sich, mehr inständig und demütig zu Gott zu beten, als einen Wortschwall loszulassen, der nur das Gemüt der Hörer beleidigt, den Schuldigen aber keinen Nutzen bringt.",
@@ -3515,7 +2408,7 @@ export const brevierData = {
         },
         "Vesper": {
           "comm_1": "Hirten",
-          "comm_2": "Erzieher",
+          "comm_2": "Mann_Erz",
           "oration": "Gott, du Quell der Freude, du hast den heiligen Johannes Bosco berufen, der Jugend ein Vater und Lehrer zu sein. Gib auch uns die Liebe, die ihn erfüllt hat, damit wir fähig werden, Menschen für dich zu gewinnen und dir allein zu dienen. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         }
       }
@@ -11164,6 +10057,10 @@ export const brevierData = {
           "bitten_r": "q-each-1-Bitten_R",
           "bitten": "q-each-1-Bitten"
         },
+        "Lesehore": {
+          "resp0_0": "Kehrt um und glaubt dem Evangelium.",
+          "resp0_1": "Denn das Reich Gottes ist nahe."
+        },
         "Non": {
           "les_buch": "Jes",
           "les_stelle": "58,6a.7",
@@ -11186,10 +10083,6 @@ export const brevierData = {
           "bitten_e": "q-each-1-Bitten_E",
           "bitten_r": "q-each-1-Bitten_R",
           "bitten": "q-each-1-Bitten"
-        },
-        "Lesehore": {
-          "resp0_0": "Kehrt um und glaubt dem Evangelium.",
-          "resp0_1": "Denn das Reich Gottes ist nahe."
         }
       },
       "2": {
@@ -11200,6 +10093,10 @@ export const brevierData = {
           "bitten_e": "q-each-2-Bitten_E",
           "bitten_r": "q-each-2-Bitten_R",
           "bitten": "q-each-2-Bitten"
+        },
+        "Lesehore": {
+          "resp0_0": "Jetzt ist sie da, die rechte Zeit.",
+          "resp0_1": "Jetzt ist er da, der Tag des Heils."
         },
         "Non": {
           "les_buch": "Jes",
@@ -11223,10 +10120,6 @@ export const brevierData = {
           "bitten_e": "q-each-2-Bitten_E",
           "bitten_r": "q-each-2-Bitten_R",
           "bitten": "q-each-2-Bitten"
-        },
-        "Lesehore": {
-          "resp0_0": "Jetzt ist sie da, die rechte Zeit.",
-          "resp0_1": "Jetzt ist er da, der Tag des Heils."
         }
       },
       "3": {
@@ -11237,6 +10130,10 @@ export const brevierData = {
           "bitten_e": "q-each-3-Bitten_E",
           "bitten_r": "q-each-3-Bitten_R",
           "bitten": "q-each-3-Bitten"
+        },
+        "Lesehore": {
+          "resp0_0": "Kehrt um, wendet euch ab von all euren Vergehen.",
+          "resp0_1": "Schafft euch ein neues Herz und einen neuen Geist."
         },
         "Non": {
           "les_buch": "Dan",
@@ -11260,10 +10157,6 @@ export const brevierData = {
           "bitten_e": "q-each-3-Bitten_E",
           "bitten_r": "q-each-3-Bitten_R",
           "bitten": "q-each-3-Bitten"
-        },
-        "Lesehore": {
-          "resp0_0": "Kehrt um, wendet euch ab von all euren Vergehen.",
-          "resp0_1": "Schafft euch ein neues Herz und einen neuen Geist."
         }
       },
       "4": {
@@ -11274,6 +10167,10 @@ export const brevierData = {
           "bitten_e": "q-each-4-Bitten_E",
           "bitten_r": "q-each-4-Bitten_R",
           "bitten": "q-each-4-Bitten"
+        },
+        "Lesehore": {
+          "resp0_0": "Wer über die Weisung des Herrn nachsinnt.",
+          "resp0_1": "Der bringt Frucht zur rechten Zeit."
         },
         "Non": {
           "les_buch": "Hebr",
@@ -11297,10 +10194,6 @@ export const brevierData = {
           "bitten_e": "q-each-4-Bitten_E",
           "bitten_r": "q-each-4-Bitten_R",
           "bitten": "q-each-4-Bitten"
-        },
-        "Lesehore": {
-          "resp0_0": "Wer über die Weisung des Herrn nachsinnt.",
-          "resp0_1": "Der bringt Frucht zur rechten Zeit."
         }
       },
       "5": {
@@ -11311,6 +10204,10 @@ export const brevierData = {
           "bitten_e": "q-each-5-Bitten_E",
           "bitten_r": "q-each-5-Bitten_R",
           "bitten": "q-each-5-Bitten"
+        },
+        "Lesehore": {
+          "resp0_0": "Kehrt um zum Herrn, eurem Gott.",
+          "resp0_1": "Denn er ist gnädig und barmherzig."
         },
         "Non": {
           "les_buch": "Jak",
@@ -11334,10 +10231,6 @@ export const brevierData = {
           "bitten_e": "q-each-5-Bitten_E",
           "bitten_r": "q-each-5-Bitten_R",
           "bitten": "q-each-5-Bitten"
-        },
-        "Lesehore": {
-          "resp0_0": "Kehrt um zum Herrn, eurem Gott.",
-          "resp0_1": "Denn er ist gnädig und barmherzig."
         }
       },
       "6": {
@@ -11348,6 +10241,10 @@ export const brevierData = {
           "bitten_e": "q-each-6-Bitten_E",
           "bitten_r": "q-each-6-Bitten_R",
           "bitten": "q-each-6-Bitten"
+        },
+        "Lesehore": {
+          "resp0_0": "Wer die Wahrheit tut, kommt ans Licht.",
+          "resp0_1": "Und seine Werke werden offenbar."
         },
         "Non": {
           "les_buch": "Gal",
@@ -11371,10 +10268,6 @@ export const brevierData = {
           "bitten_e": "q-each-6-Bitten_E",
           "bitten_r": "q-each-6-Bitten_R",
           "bitten": "q-each-6-Bitten"
-        },
-        "Lesehore": {
-          "resp0_0": "Wer die Wahrheit tut, kommt ans Licht.",
-          "resp0_1": "Und seine Werke werden offenbar."
         }
       },
       "each": {

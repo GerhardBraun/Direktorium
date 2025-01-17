@@ -1194,8 +1194,8 @@ const PrayerTextDisplay = ({
         const hasWt = texts[hour]['wt']?.[field];
         const hasComm1 = texts[hour][prefComm1]?.[field];
         const hasComm2 = texts[hour][prefComm2]?.[field];
-        const nameComm1 = texts['laudes'][prefComm1]?.['name'] || 'Comm1';
-        const nameComm2 = texts['laudes'][prefComm2]?.['name'] || 'Comm2';
+        const nameComm1 = texts['laudes'][prefComm1]?.['name'] || '1';
+        const nameComm2 = texts['laudes'][prefComm2]?.['name'] || '2';
 
         return {
             hasEig,
@@ -1216,7 +1216,8 @@ const PrayerTextDisplay = ({
         const showContinuous = hasEig && hasWt && askContinuous && hour === 'lesehore';
         const showTSN = askTSN && ["terz", "sext", "non"].includes(hour);
 
-        if (!showSources && !hasLatin && !showContinuous && !showTSN) {
+        if (title === "RESPONSORIUM" ||
+            (!showSources && !hasLatin && !showContinuous && !showTSN)) {
             return <h2 className="prayer-heading">{title}</h2>;
         }
 
@@ -1363,17 +1364,17 @@ const PrayerTextDisplay = ({
                 .replace(/\{(\d{1,2})#/g, '(');
 
             // Split text into segments, keeping delimiters
-            const segments = processedText.split(/(\^r.*?\^0r|\^v.*?\^0v|\^\(|\^\))/g).filter(Boolean);
+            const segments = processedText.split(/(\^r.*?\^0r|\^w.*?\^0w|\^\(|\^\))/g).filter(Boolean);
 
             return segments.map((segment, index) => {
                 if (segment.startsWith('^r')) {
                     // Rubrik-Text
                     const content = segment.substring(2, segment.length - 3);
                     return <span key={`rubric-${index}`} style={{ color: rubricColor }}>{content}</span>;
-                } else if (segment.startsWith('^v')) {
-                    // Markierter Text
+                } else if (segment.startsWith('^w')) {
+                    // Gesperrter Text
                     const content = segment.substring(2, segment.length - 3);
-                    return <span key={`marked-${index}`}>{content}</span>;
+                    return <span key={`marked-${index}`} className='tracking-[0.16em]'>{content}</span>;
                 } else if (segment === '^(') {
                     return <span key={`open-${index}`} style={{ color: rubricColor }}>(</span>;
                 } else if (segment === '^)') {
@@ -2598,6 +2599,9 @@ export default function LiturgicalCalendar() {
             .formatFest {
                 font-weight: bold;
                 font-variant: small-caps;
+            }
+            .formatGesperrt {
+                letter-spacing: 0.2em;        
             }
             .prayer-heading {
                 font-weight: bold;

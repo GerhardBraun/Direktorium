@@ -1020,7 +1020,7 @@ export const psalmsData = {
         "verses": "1-16",
         "title": "Aufruf zum Lobpreis Gottes",
         "quote": "Ermahnt einander jeden Tag, solange es noch heißt: Heute! (Hebr 3,13)",
-        "text": "Kommt, lasst uns jubeln vor dem Herrn^*und zujauchzen dem Fels unsres Heiles! ^pLasst uns mit Lob seinem Angesicht nahen,^*vor ihm jauchzen mit Liedern! ^pDenn der Herr ist ein großer Gott,^*ein großer König über allen Göttern. ^pIn seiner Hand sind die Tiefen der Erde,^*sein sind die Gipfel der Berge. ^pSein ist das Meer, das er gemacht hat,^*das trockene Land, das seine Hände gebildet. ^pKommt, lasst uns niederfallen, uns vor ihm verneigen,^*lasst uns niederknien vor dem Herrn, unserm Schöpfer! ^pDenn er ist unser Gott,^+wir sind das Volk seiner Weide,^*die Herde, von seiner Hand geführt. ^pAch, würdet ihr doch heute auf seine Stimme hören!^+„Verhärtet euer Herz nicht wie in Meríba,^*wie in der Wüste am Tag von Massa! ^pDort haben eure Väter mich versucht, * sie haben mich auf die Probe gestellt und hatten doch mein Tun gesehen. ^pVierzig Jahre war mir dies Geschlecht zuwider,^+und ich sagte: Sie sind ein Volk, dessen Herz in die Irre geht;^*denn meine Wege kennen sie nicht. ^pDarum habe ich in meinem Zorn geschworen:^*Sie sollen nicht kommen in das Land meiner Ruhe.“"
+        "text": "Kommt, lasst uns jubeln vor dem Herrn^*und zujauchzen dem Fels unsres Heiles!^pLasst uns mit Lob seinem Angesicht nahen,^*vor ihm jauchzen mit Liedern!^pDenn der Herr ist ein großer Gott,^*ein großer König über allen Göttern.^pIn seiner Hand sind die Tiefen der Erde,^*sein sind die Gipfel der Berge.^pSein ist das Meer, das er gemacht hat,^*das trockene Land, das seine Hände gebildet.^pKommt, lasst uns niederfallen, uns vor ihm verneigen,^*lasst uns niederknien vor dem Herrn, unserm Schöpfer!^pDenn er ist unser Gott,^+wir sind das Volk seiner Weide,^*die Herde, von seiner Hand geführt.^pAch, würdet ihr doch heute auf seine Stimme hören!^+„Verhärtet euer Herz nicht wie in Meríba,^*wie in der Wüste am Tag von Massa!^pDort haben eure Väter mich versucht, * sie haben mich auf die Probe gestellt und hatten doch mein Tun gesehen.^pVierzig Jahre war mir dies Geschlecht zuwider,^+und ich sagte: Sie sind ein Volk, dessen Herz in die Irre geht;^*denn meine Wege kennen sie nicht.^pDarum habe ich in meinem Zorn geschworen:^*Sie sollen nicht kommen in das Land meiner Ruhe.“"
       }
   },
   96: {
@@ -1995,7 +1995,7 @@ export const psalmsData = {
   226: {
     0.0: {
         "quote": "Lesehore zu Maria am Samstag",
-        "text": "Sei gegrüßt, die den König gebar, du heilige Mutter,^lihn, der Himmel und Erde erhält im Wandel der Zeiten,^ldessen Walten das All umfasst mit ewigem Kreise, dessen Reich ohne Ende besteht:^pDein seliger Leib hat ^lFreuden der Mutter gepaart mit reiner Ehre der Jungfrau,^ldir, der keine je glich, wird keine fürderhin gleichen,^ldenn vor allen Frauen erwählte dich, Einzige, Christus."
+        "text": "Sei gegrüßt, die den König gebar, du heilige Mutter,^lihn, der Himmel und Erde erhält im Wandel der Zeiten,^ldessen Walten das All umfasst mit ewigem Kreise, dessen Reich ohne Ende besteht:^pDein seliger Leib hat^lFreuden der Mutter gepaart mit reiner Ehre der Jungfrau,^ldir, der keine je glich, wird keine fürderhin gleichen,^ldenn vor allen Frauen erwählte dich, Einzige, Christus."
       }
   },
   230: {
@@ -2076,7 +2076,7 @@ export const psalmsData = {
   },
   310: {
     0.0: {
-        "text": "Des Lichtes guter Schöpfer du, ^lder uns den Glanz des Lichtes schenkt, ^lder mit dem ersten Strahl des Lichts ^lder Welterschaffung Werk beginnt.^pDu rufst den Morgen aus der Nacht ^lund führst den ersten Tag herauf; ^ldas düst’re Chaos sinkt dahin – ^ldurch deines Wortes Macht gebannt.^pGib, dass der Mensch durch eig’ne Schuld ^ldas Gut des Lebens nicht verliert, ^lwenn er des Ew’gen nicht gedenkt ^lund in das Böse sich verstrickt.^pEr poche an des Himmels Tor, ^lerringe sich des Lebens Preis. ^lFern bleibe, was uns Schaden bringt, ^lund rein von Schuld sei unser Herz.^pDies schenk uns, Vater voller Macht, ^lund du, sein Sohn und Ebenbild, ^ldie ihr in Einheit mit dem Geist ^ldie Schöpfung zur Vollendung führt. Amen."
+        "text": "Des Lichtes guter Schöpfer du,^lder uns den Glanz des Lichtes schenkt,^lder mit dem ersten Strahl des Lichts^lder Welterschaffung Werk beginnt.^pDu rufst den Morgen aus der Nacht^lund führst den ersten Tag herauf;^ldas düst’re Chaos sinkt dahin –^ldurch deines Wortes Macht gebannt.^pGib, dass der Mensch durch eig’ne Schuld^ldas Gut des Lebens nicht verliert,^lwenn er des Ew’gen nicht gedenkt^lund in das Böse sich verstrickt.^pEr poche an des Himmels Tor,^lerringe sich des Lebens Preis.^lFern bleibe, was uns Schaden bringt,^lund rein von Schuld sei unser Herz.^pDies schenk uns, Vater voller Macht,^lund du, sein Sohn und Ebenbild,^ldie ihr in Einheit mit dem Geist^ldie Schöpfung zur Vollendung führt. Amen."
       }
   },
   311: {
@@ -2291,7 +2291,7 @@ export const psalmsData = {
   505: {
     0.0: {
         "quote": "Komplet",
-        "text": "Sei gegrüßt, o Königin, ^lMutter der Barmherzigkeit;^lunser Leben, unsre Wonne ^lund unsre Hoffnung, sei gegrüßt!^lZu dir rufen wir verbannte Kinder Evas;^lzu dir seufzen wir^ltrauernd und weinend in°diesem°Tal°der°Tränen.^pWohlan denn, unsre Fürsprecherin, ^lwende deine barmherzigen Augen uns zu ^lund nach diesem Elend zeige uns Jesus, ^ldie gebenedeite Frucht deines Leibes! ^lO gütige, o milde, o°süße°Jungfrau°Maria!"
+        "text": "Sei gegrüßt, o Königin,^lMutter der Barmherzigkeit;^lunser Leben, unsre Wonne^lund unsre Hoffnung, sei gegrüßt!^lZu dir rufen wir verbannte Kinder Evas;^lzu dir seufzen wir^ltrauernd und weinend in°diesem°Tal°der°Tränen.^pWohlan denn, unsre Fürsprecherin,^lwende deine barmherzigen Augen uns zu^lund nach diesem Elend zeige uns Jesus,^ldie gebenedeite Frucht deines Leibes!^lO gütige, o milde, o°süße°Jungfrau°Maria!"
       }
   },
   506: {
@@ -2345,7 +2345,7 @@ export const psalmsData = {
   516: {
     0.0: {
         "quote": "Komplet",
-        "text": "Christus, göttlicher Herr, ^ldich liebt, wer nur Kraft hat zu lieben: ^lunbewusst, wer dich nicht kennt; ^lsehnsuchtsvoll, wer um dich weiß. ^pChristus, du bist meine Hoffnung, ^lmein Friede, mein Glück, all mein Leben: ^lChristus, dir neigt sich mein Geist; ^lChristus, dich bete ich an. ^pChristus, an dir halt’ ich fest ^lmit der ganzen Kraft meiner Seele: ^ldich, Herr, lieb’ ich allein – ^lsuche dich, folge dir nach."
+        "text": "Christus, göttlicher Herr,^ldich liebt, wer nur Kraft hat zu lieben:^lunbewusst, wer dich nicht kennt;^lsehnsuchtsvoll, wer um dich weiß.^pChristus, du bist meine Hoffnung,^lmein Friede, mein Glück, all mein Leben:^lChristus, dir neigt sich mein Geist;^lChristus, dich bete ich an.^pChristus, an dir halt’ ich fest^lmit der ganzen Kraft meiner Seele:^ldich, Herr, lieb’ ich allein –^lsuche dich, folge dir nach."
       }
   },
   521: {
@@ -2387,7 +2387,7 @@ export const psalmsData = {
   527: {
     0.0: {
         "quote": "Komplet",
-        "text": "Unter deinen Schutz und Schirm ^lfliehen wir, o heilige Gottesgebärerin; ^lverschmähe nicht unser Gebet in unsern Nöten, ^lsondern erlöse uns jederzeit von allen Gefahren, ^lo du glorreiche und gebenedeite Jungfrau, ^lunsere Frau, unsere Mittlerin, ^lunsere Fürsprecherin. ^lVersöhne uns mit deinem Sohne, ^lempfiehl uns deinem Sohne, ^lstelle uns vor deinem Sohne."
+        "text": "Unter deinen Schutz und Schirm^lfliehen wir, o heilige Gottesgebärerin;^lverschmähe nicht unser Gebet in unsern Nöten,^lsondern erlöse uns jederzeit von allen Gefahren,^lo du glorreiche und gebenedeite Jungfrau,^lunsere Frau, unsere Mittlerin,^lunsere Fürsprecherin.^lVersöhne uns mit deinem Sohne,^lempfiehl uns deinem Sohne,^lstelle uns vor deinem Sohne."
       }
   },
   528: {
@@ -2405,7 +2405,7 @@ export const psalmsData = {
   630: {
     0.0: {
         "quote": "Terz",
-        "text": "Komm, Heil’ger Geist vom ew’gen Thron, ^leins mit dem Vater und dem Sohn; ^ldurchwirke unsere Seele ganz ^lmit deiner Gottheit Kraft und Glanz.^pErfüll mit heil’ger Leidenschaft ^lGeist, Zunge, Sinn und Lebenskraft;^lmach stark in uns der Liebe Macht, ^ldass sie uns das Herz entfacht.^pLass gläubig uns den Vater sehn, ^lsein Ebenbild, den Sohn verstehn ^lund dir vertrauen, der uns durchdringt ^lund uns das Leben Gottes bringt. Amen."
+        "text": "Komm, Heil’ger Geist vom ew’gen Thron,^leins mit dem Vater und dem Sohn;^ldurchwirke unsere Seele ganz^lmit deiner Gottheit Kraft und Glanz.^pErfüll mit heil’ger Leidenschaft^lGeist, Zunge, Sinn und Lebenskraft;^lmach stark in uns der Liebe Macht,^ldass sie uns das Herz entfacht.^pLass gläubig uns den Vater sehn,^lsein Ebenbild, den Sohn verstehn^lund dir vertrauen, der uns durchdringt^lund uns das Leben Gottes bringt. Amen."
       }
   },
   631: {
@@ -2417,19 +2417,19 @@ export const psalmsData = {
   632: {
     0.0: {
         "quote": "Terz",
-        "text": "Schon schreitet rasch der Tag voran, ^lwir schauen auf zu Gott dem Herrn, ^lder, dreifach reich an Liebeskraft, ^lzum rechten Handeln uns bewegt. ^pUnd Gottes Geist erfülle uns, ^lder in uns lebt und durch uns wirkt, ^lmit neuer Kraft und Zuversicht ^lals Christi Boten in der Welt. ^pDen ew’gen Vater preisen wir ^lund Jesus Christus, seinen Sohn, ^lden Beistand auch, den Heil’gen Geist, ^lder uns erleuchtet, stärkt und führt. Amen."
+        "text": "Schon schreitet rasch der Tag voran,^lwir schauen auf zu Gott dem Herrn,^lder, dreifach reich an Liebeskraft,^lzum rechten Handeln uns bewegt.^pUnd Gottes Geist erfülle uns,^lder in uns lebt und durch uns wirkt,^lmit neuer Kraft und Zuversicht^lals Christi Boten in der Welt.^pDen ew’gen Vater preisen wir^lund Jesus Christus, seinen Sohn,^lden Beistand auch, den Heil’gen Geist,^lder uns erleuchtet, stärkt und führt. Amen."
       }
   },
   633: {
     0.0: {
         "quote": "Terz",
-        "text": "Die Stunde steigt und ruft zum Werk;^ldes Tages Anspruch lockt und drängt:^lKomm, Heil’ger Geist, tritt für uns ein,^ldenn nichts gelingt uns ohne dich.^pDu atme in uns, treibe uns, ^lerleuchte uns und sprich uns zu, ^ldu mache unser Herz geneigt, ^ldass wir zur Liebe fähig sind.^pDies schenke uns, o Heil’ger Geist, ^lder mit dem Vater und dem Sohn ^lverherrlicht und gepriesen sei^ldurch alle Zeit und Ewigkeit. Amen."
+        "text": "Die Stunde steigt und ruft zum Werk;^ldes Tages Anspruch lockt und drängt:^lKomm, Heil’ger Geist, tritt für uns ein,^ldenn nichts gelingt uns ohne dich.^pDu atme in uns, treibe uns,^lerleuchte uns und sprich uns zu,^ldu mache unser Herz geneigt,^ldass wir zur Liebe fähig sind.^pDies schenke uns, o Heil’ger Geist,^lder mit dem Vater und dem Sohn^lverherrlicht und gepriesen sei^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   634: {
     0.0: {
         "quote": "Terz",
-        "text": "Geist des Vaters und des Sohnes Jesu Christ, ^lder das All erhält.^lGieß dich aus, und als ein Zeichen, dass du bist, ^lüberkomm die Welt.^pDeine Ankunft wird die Wirren wieder klärn,^lwenn sie uns befällt.^lGeist der Wahrheit, wandle uns in unsres Herrn^lOffenbarungszelt."
+        "text": "Geist des Vaters und des Sohnes Jesu Christ,^lder das All erhält.^lGieß dich aus, und als ein Zeichen, dass du bist,^lüberkomm die Welt.^pDeine Ankunft wird die Wirren wieder klärn,^lwenn sie uns befällt.^lGeist der Wahrheit, wandle uns in unsres Herrn^lOffenbarungszelt."
       }
   },
   660: {
@@ -2459,19 +2459,19 @@ export const psalmsData = {
   664: {
     0.0: {
         "quote": "Sext",
-        "text": "Wo lagerst du mit deiner Herde^lmittags in der heißen Heide?^lDu Wasserquell, des Lebens Schattenbaum^lund deiner Schafe Weide?^pGib uns zu trinken aus dem Strome ^ldeiner aufgebrochenen Seite^ldie Gabe Gottes, die wir kennen^lals das Heil, das uns befreite.^pWir suchen dich, du bleibst am Tage^loft im Dunkel uns entschwunden.^lSo komm, Geliebter, wir verloren dich, ^ldoch du hast uns gefunden."
+        "text": "Wo lagerst du mit deiner Herde^lmittags in der heißen Heide?^lDu Wasserquell, des Lebens Schattenbaum^lund deiner Schafe Weide?^pGib uns zu trinken aus dem Strome^ldeiner aufgebrochenen Seite^ldie Gabe Gottes, die wir kennen^lals das Heil, das uns befreite.^pWir suchen dich, du bleibst am Tage^loft im Dunkel uns entschwunden.^lSo komm, Geliebter, wir verloren dich,^ldoch du hast uns gefunden."
       }
   },
   690: {
     0.0: {
         "quote": "Non",
-        "text": "Du starker Gott, der diese Welt ^lim Innersten zusammenhält, ^ldu Angelpunkt, der unbewegt ^lden Wandel aller Zeiten trägt. ^pGeht unser Erdentag zu End’, ^lschenk Leben, das kein Ende kennt: ^lFühr uns, dank Jesu Todesleid, ^lins Licht der ew’gen Herrlichkeit. ^pVollenden wir den Lebenslauf, ^lnimm uns in deine Liebe auf, ^ldass unser Herz dich ewig preist, ^lGott Vater, Sohn und Heil’ger Geist."
+        "text": "Du starker Gott, der diese Welt^lim Innersten zusammenhält,^ldu Angelpunkt, der unbewegt^lden Wandel aller Zeiten trägt.^pGeht unser Erdentag zu End’,^lschenk Leben, das kein Ende kennt:^lFühr uns, dank Jesu Todesleid,^lins Licht der ew’gen Herrlichkeit.^pVollenden wir den Lebenslauf,^lnimm uns in deine Liebe auf,^ldass unser Herz dich ewig preist,^lGott Vater, Sohn und Heil’ger Geist."
       }
   },
   691: {
     0.0: {
         "quote": "Non",
-        "text": "Schon neigt der Tag dem Abend zu, ^ldie Schatten werden länger. ^lVergänglich ist, was uns umgibt, ^ldu aber bleibst bestehen.^pIm Tageslicht, das steigt und sinkt, ^lwird uns die Zeit bemessen, ^lbis uns der Tod hinüberführt, ^lwo alle Grenzen fallen.^pLob sei dem Vater und dem Sohn, ^lLob sei dem Heil’gen Geiste, ^lwie es von allem Anfang war, ^ljetzt und für alle Zeiten. Amen."
+        "text": "Schon neigt der Tag dem Abend zu,^ldie Schatten werden länger.^lVergänglich ist, was uns umgibt,^ldu aber bleibst bestehen.^pIm Tageslicht, das steigt und sinkt,^lwird uns die Zeit bemessen,^lbis uns der Tod hinüberführt,^lwo alle Grenzen fallen.^pLob sei dem Vater und dem Sohn,^lLob sei dem Heil’gen Geiste,^lwie es von allem Anfang war,^ljetzt und für alle Zeiten. Amen."
       }
   },
   692: {
@@ -2586,7 +2586,7 @@ export const psalmsData = {
   3203: {
     0.0: {
         "quote": "Fastenzeit",
-        "text": "Heilig Kreuz, du Baum der Treue, ^ledler Baum, dem keiner gleich, ^lkeiner so an Laub und Blüte, ^lkeiner so an Früchten reich:^lSüßes Holz, so süße Nägel, ^lwelche süße Last an euch.^pBeuge, hoher Baum, die Zweige, ^lwerde weich an Stamm und Ast, ^ldenn dein hartes Holz muss tragen ^leine königliche Last, ^lgib den Gliedern deines Schöpfers ^lan dem Stamme linde Rast.^pDu allein warst wert, zu tragen^laller Sünden Lösegeld,^ldu, die Planke, die uns rettet^laus dem Schiffbruch dieser Welt.^lDu, gesalbt vom Blut des Lammes,^lPfosten, der den Tod abhält.^pLob und Ruhm sei ohne Ende ^lGott, dem höchsten Herrn, geweiht. ^lPreis dem Vater und dem Sohne ^lund dem Geist der Heiligkeit. ^lEinen Gott in drei Personen ^llobe alle Welt und Zeit. Amen."
+        "text": "Heilig Kreuz, du Baum der Treue,^ledler Baum, dem keiner gleich,^lkeiner so an Laub und Blüte,^lkeiner so an Früchten reich:^lSüßes Holz, so süße Nägel,^lwelche süße Last an euch.^pBeuge, hoher Baum, die Zweige,^lwerde weich an Stamm und Ast,^ldenn dein hartes Holz muss tragen^leine königliche Last,^lgib den Gliedern deines Schöpfers^lan dem Stamme linde Rast.^pDu allein warst wert, zu tragen^laller Sünden Lösegeld,^ldu, die Planke, die uns rettet^laus dem Schiffbruch dieser Welt.^lDu, gesalbt vom Blut des Lammes,^lPfosten, der den Tod abhält.^pLob und Ruhm sei ohne Ende^lGott, dem höchsten Herrn, geweiht.^lPreis dem Vater und dem Sohne^lund dem Geist der Heiligkeit.^lEinen Gott in drei Personen^llobe alle Welt und Zeit. Amen."
       }
   },
   3301: {
@@ -2604,7 +2604,7 @@ export const psalmsData = {
   3303: {
     0.0: {
         "quote": "Fastenzeit",
-        "text": "Der König siegt, sein Banner glänzt,^lgeheimnisvoll erstrahlt das Kreuz,^lan dessen Balken ausgestreckt^lim Fleisch des Fleisches Schöpfer hängt. ^pGeschunden hängt der heil’ge Leib,^lvom scharfen Speere roh durchbohrt,^luns rein zu waschen von der Schuld,^lströmt Blut und Wasser von ihm aus. ^pErfüllt ist nun, was David einst^lim Liede gläubig kundgetan,^lda er im Geiste prophezeit’:^lVom Holz herab herrscht unser Gott. ^pO edler Baum im hehren Glanz,^lvon königlichem Purpur rot,^ldu werter, du erwählter Stamm,^ldu trägst den Lösepreis der Welt. ^pO heil’ges Kreuz, sei uns gegrüßt,^ldu einz’ge Hoffnung dieser Welt.^lDen Treuen schenke neue Kraft,^lden Sündern tilge alle Schuld. ^pDir, höchster Gott, Dreifaltigkeit,^llobsinge alles, was da lebt;^ldu hast uns durch das Kreuz erlöst:^lBewahre uns in Ewigkeit."
+        "text": "Der König siegt, sein Banner glänzt,^lgeheimnisvoll erstrahlt das Kreuz,^lan dessen Balken ausgestreckt^lim Fleisch des Fleisches Schöpfer hängt.^pGeschunden hängt der heil’ge Leib,^lvom scharfen Speere roh durchbohrt,^luns rein zu waschen von der Schuld,^lströmt Blut und Wasser von ihm aus.^pErfüllt ist nun, was David einst^lim Liede gläubig kundgetan,^lda er im Geiste prophezeit’:^lVom Holz herab herrscht unser Gott.^pO edler Baum im hehren Glanz,^lvon königlichem Purpur rot,^ldu werter, du erwählter Stamm,^ldu trägst den Lösepreis der Welt.^pO heil’ges Kreuz, sei uns gegrüßt,^ldu einz’ge Hoffnung dieser Welt.^lDen Treuen schenke neue Kraft,^lden Sündern tilge alle Schuld.^pDir, höchster Gott, Dreifaltigkeit,^llobsinge alles, was da lebt;^ldu hast uns durch das Kreuz erlöst:^lBewahre uns in Ewigkeit."
       }
   },
   3401: {
@@ -2622,7 +2622,7 @@ export const psalmsData = {
   3403: {
     0.0: {
         "quote": "Fastenzeit",
-        "text": "Preise, Zunge, und verkünde ^lden erhabnen Waffengang;^lauf das Kreuz, das Siegeszeichen, ^lsinge den Triumphgesang. ^lSinge, wie der Welt Erlöser ^lstarb und dennoch Sieg errang.^pDenn verblendet aß sich Adam ^leinst vom Baume das Gericht;^ldoch der Schöpfer voll Erbarmen ^lwollte sein Verderben nicht ^lund hat selbst den Baum erkoren, ^lder den Fluch des Baumes bricht.^pGottes Plan, uns zu erlösen, ^lhat verlangt die Opfertat, ^lund des Vaters ew’ge Weisheit ^lmacht’ zuschanden den Verrat ^lund verlieh barmherzig Heilung, ^lwo der Feind verwundet hat.^pSo ward in der Zeiten Fülle^luns gesandt des Vaters Sohn,^ler, der Schöpfer aller Welten,^lstieg herab vom Himmelsthron^lund ward Fleisch und ward geboren^lund ward einer Jungfrau Sohn.^pAls nach dreißig Erdenjahren ^lfür den Herrn die Stunde kam, ^ldass er unsres Heiles wegen ^lTod und Leiden auf sich nahm, ^lwurde er erhöht am Kreuze, ^ldargebracht als Gotteslamm.^pSeht den Essig, seht die Galle, ^lDornen, Nägel, Speer voll Wut ^lseinen zarten Leib durchbohren, ^lWasser strömt hervor und Blut;^lErde, Meere, Sterne, Welten ^lwerden rein durch solche Flut.^pLob und Ruhm sei ohne Ende ^lGott, dem höchsten Herrn, geweiht. ^lPreis dem Vater und dem Sohne ^lund dem Geist der Heiligkeit. ^lEinen Gott in drei Personen ^llobe alle Welt und Zeit. Amen."
+        "text": "Preise, Zunge, und verkünde^lden erhabnen Waffengang;^lauf das Kreuz, das Siegeszeichen,^lsinge den Triumphgesang.^lSinge, wie der Welt Erlöser^lstarb und dennoch Sieg errang.^pDenn verblendet aß sich Adam^leinst vom Baume das Gericht;^ldoch der Schöpfer voll Erbarmen^lwollte sein Verderben nicht^lund hat selbst den Baum erkoren,^lder den Fluch des Baumes bricht.^pGottes Plan, uns zu erlösen,^lhat verlangt die Opfertat,^lund des Vaters ew’ge Weisheit^lmacht’ zuschanden den Verrat^lund verlieh barmherzig Heilung,^lwo der Feind verwundet hat.^pSo ward in der Zeiten Fülle^luns gesandt des Vaters Sohn,^ler, der Schöpfer aller Welten,^lstieg herab vom Himmelsthron^lund ward Fleisch und ward geboren^lund ward einer Jungfrau Sohn.^pAls nach dreißig Erdenjahren^lfür den Herrn die Stunde kam,^ldass er unsres Heiles wegen^lTod und Leiden auf sich nahm,^lwurde er erhöht am Kreuze,^ldargebracht als Gotteslamm.^pSeht den Essig, seht die Galle,^lDornen, Nägel, Speer voll Wut^lseinen zarten Leib durchbohren,^lWasser strömt hervor und Blut;^lErde, Meere, Sterne, Welten^lwerden rein durch solche Flut.^pLob und Ruhm sei ohne Ende^lGott, dem höchsten Herrn, geweiht.^lPreis dem Vater und dem Sohne^lund dem Geist der Heiligkeit.^lEinen Gott in drei Personen^llobe alle Welt und Zeit. Amen."
       }
   },
   4201: {
@@ -2652,7 +2652,7 @@ export const psalmsData = {
   4302: {
     0.0: {
         "quote": "Osterzeit",
-        "text": "Du Himmel droben, freue dich, ^lund Meer und Erde, jubelt mit. ^lDer Herr erstand aus seinem Grab –^lmit ihm die todgeweihte Welt.^pJetzt bricht der Tag des Heiles an, ^lund die verheißne Zeit ist da:^lVom Blut des Lammes strahlt die Welt ^lund hebt sich aus der Finsternis.^pSein Tod und seines Todes Qual ^lschafft die Vergebung aller Schuld;^lin Schwachheit siegt die Gotteskraft, ^lund der Besiegte schlägt den Feind.^pDer Hoffnung köstlichen Geschmack ^lschenkt uns der Herr, dass wir vertraun:^lWir werden mit ihm auferstehn ^lund Erben seines Reiches sein.^pDem Herrn sei Preis und Herrlichkeit, ^lder aus dem Grabe auferstand, ^ldem Vater und dem Geist zugleich ^ldurch alle Zeit und Ewigkeit. Amen."
+        "text": "Du Himmel droben, freue dich,^lund Meer und Erde, jubelt mit.^lDer Herr erstand aus seinem Grab –^lmit ihm die todgeweihte Welt.^pJetzt bricht der Tag des Heiles an,^lund die verheißne Zeit ist da:^lVom Blut des Lammes strahlt die Welt^lund hebt sich aus der Finsternis.^pSein Tod und seines Todes Qual^lschafft die Vergebung aller Schuld;^lin Schwachheit siegt die Gotteskraft,^lund der Besiegte schlägt den Feind.^pDer Hoffnung köstlichen Geschmack^lschenkt uns der Herr, dass wir vertraun:^lWir werden mit ihm auferstehn^lund Erben seines Reiches sein.^pDem Herrn sei Preis und Herrlichkeit,^lder aus dem Grabe auferstand,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   4304: {
@@ -2664,7 +2664,7 @@ export const psalmsData = {
   4401: {
     0.0: {
         "quote": "Lh So II",
-        "text": "Heil dem Tage, der unsre Tage krönt,^lTag des Sieges, da Christus auferstand,^lTag der Sonne, die alle Welt verklärt:^lTag des Christus.^pLicht vom Himmel hellt unser Dunkel auf:^lChristus öffnet Gräber und Totenreich,^lstiftet Frieden, einigt im Neuen Bund^lErd’ und Himmel.^pTriumphierend steht er vom Grabe auf,^lhebt uns Menschen in die erlöste Welt,^lführt dem Vater seinen verlorenen Sohn^lin die Arme.^pBrüder werden Engel und Selige,^lChristi Liebe eint sie verklärt im Licht,^lund sie singen ihm, der als Sieger thront,^lFreudenhymnen.^pIn die Chöre seliger Himmelslust^lmischt die Kirche rings auf dem Erdenrund^ltausendstimmig jauchzend den Jubelruf^l“Halleluja“.^pSiegbezwungen ist nun des Todes Macht,^lSiegesfreude füllt unsere Seele ganz:^lGott im Himmel Ehre und Herrlichkeit,^lFried’ auf Erden. Amen."
+        "text": "Heil dem Tage, der unsre Tage krönt,^lTag des Sieges, da Christus auferstand,^lTag der Sonne, die alle Welt verklärt:^lTag des Christus.^pLicht vom Himmel hellt unser Dunkel auf:^lChristus öffnet Gräber und Totenreich,^lstiftet Frieden, einigt im Neuen Bund^lErd’ und Himmel.^pTriumphierend steht er vom Grabe auf,^lhebt uns Menschen in die erlöste Welt,^lführt dem Vater seinen verlorenen Sohn^lin die Arme.^pBrüder werden Engel und Selige,^lChristi Liebe eint sie verklärt im Licht,^lund sie singen ihm, der als Sieger thront,^lFreudenhymnen.^pIn die Chöre seliger Himmelslust^lmischt die Kirche rings auf dem Erdenrund^ltausendstimmig jauchzend den Jubelruf^l„Halleluja“.^pSiegbezwungen ist nun des Todes Macht,^lSiegesfreude füllt unsere Seele ganz:^lGott im Himmel Ehre und Herrlichkeit,^lFried’ auf Erden. Amen."
       }
   },
   4402: {
@@ -2676,7 +2676,7 @@ export const psalmsData = {
   4403: {
     0.0: {
         "quote": "Osterzeit",
-        "text": "Dies ist der klare Tag, ^lvon klaren Tagen der klarste,^ldies ist der heilige Tag, ^lder heiligste heiliger Tage,^ledler leuchtet er auf, ^lals edle Krone der Tage.^pFestlicher als das ganze Jahr ^lerglänzt seine Leuchte,^lda unser Gott den Tod überwand, ^lvom Tode erstehend,^lund aus höllischem Schlund ^ldie gefangenen Seelen befreite."
+        "text": "Dies ist der klare Tag,^lvon klaren Tagen der klarste,^ldies ist der heilige Tag,^lder heiligste heiliger Tage,^ledler leuchtet er auf,^lals edle Krone der Tage.^pFestlicher als das ganze Jahr^lerglänzt seine Leuchte,^lda unser Gott den Tod überwand,^lvom Tode erstehend,^lund aus höllischem Schlund^ldie gefangenen Seelen befreite."
       }
   },
   4404: {
@@ -2733,10 +2733,40 @@ export const psalmsData = {
         "text": "Herr Jesus Christus,^ldu gingst heim zum Vater,^lthronst ihm zur Rechten^lüber allen Welten;^ldoch deine Jünger^llässt du nicht als Waisen^lhier auf der Erde.^pDu schickst als Beistand^ldeinen Geist der Wahrheit.^lEr schenkt uns Einsicht,^lgibt uns Licht und Hoffnung.^lEr führt die Kirche^lsicher durch die Zeiten^lhin zur Vollendung.^pEr weckt Propheten,^ldie dem Volk vorangehn^lund es voll Umsicht^lauf dem Weg geleiten.^lHirten bestellt er,^list in ihren Worten^lnahe den Deinen.^pSie geben Zeugnis,^lreden unerschrocken,^lstärken die Schwachen,^lsammeln die Zerstreuten,^llehren in Vollmacht,^lhelfen ihren Brüdern,^ldich zu bekennen.^pLob sei dem Vater^lauf dem höchsten Throne,^lLob sei dem Sohne,^lden er uns gesandt hat,^lLob sei dem Geiste,^lder von beiden ausgeht,^limmer und ewig. Amen."
       }
   },
+  71199: {
+    0.0: {
+        "quote": "Männer-Lh",
+        "text": "Heute preist unser Lob,^lden du erwähltest, Herr.^lErbe nennen wir ihn,^lBürger in deiner Stadt.^lSiegreich trägt er den Kranz,^lleuchtet in weißem Kleid,^lsingt auf ewig das neue Lied.^pSchon im Dunkel der Welt^lfolgte er deinem Licht,^lhielt der Finsternis stand,^lkämpfte den guten Kampf.^lGlaube wies ihm den Weg,^lHoffnung verlieh ihm Kraft,^lliebend wurde er Christus gleich.^pSeine schützende Hand^lhalte er über uns.^lVorbild heiliger Kraft^lsei er in dieser Zeit.^lBittend helfe er uns,^ldass wir vereint mit ihm^lBürger seien in deiner Stadt.^pHöre, ewiger Gott,^lhöre auf unser Lob.^lGnädig blicke uns an,^lführe uns hin zu dir;^llass uns jubelnd im Chor^lsingen das neue Lied^ldir, dem Herrn aller Welt und Zeit. Amen."
+      }
+  },
+  71210: {
+    0.0: {
+        "quote": "Männer-Ld",
+        "text": "Du Krone deiner Heiligen,^lder ew’gen Wahrheit tiefstes Wort,^laus deiner Hand empfängt den Lohn,^lwer hier auf Erden dich bekennt.^pWir feiern heute froh den Tag,^lda dein getreuer guter Knecht,^ldem Dunkel dieser Welt entrückt,^lzum wahren Leben auferstand.^pGefestigt in der Liebe Kraft,^lblieb alle Zeit sein Herz bei dir;^ljetzt freut er sich in deinem Licht,^lder nur für dich sein Werk getan.^pHerr, unser Gott, wir bitten dich,^lverzeihe gnädig unsre Schuld;^lerhöre ihn, wenn er am Thron^lfür uns um dein Erbarmen fleht.^pGott Vater, dir sei Preis und Ruhm^lund deinem eingebornen Sohn,^ldem Beistand auch, dem Heil'gen Geist,^ldurch alle Zeit und Ewigkeit. Amen."
+      }
+  },
+  71215: {
+    0.0: {
+        "quote": "Männer-Vp",
+        "text": "Preis dem Bekenner,^ldessen Fest wir feiern.^lEr ward berufen,^lChristus nachzufolgen^lund für die Wahrheit^ldurch sein Wort und Beispiel^lZeugnis zu geben.^pWie einst sein Meister,^lum die Welt zu retten,^lganz sich dahingab^lbis zum Tod am Kreuze,^ltrug auch sein Jünger^lhier auf dieser Erde^lMühsal und Leiden.^pNach Christi Weisung^lnahm sein Kreuz er auf sich,^lfolgte ihm täglich,^lhat sich selbst verleugnet.^lMit ihm gestorben,^lerbt er jetzt zum Lohne^lewiges Leben.^pIhn zu verehren,^lschallt nun unsres Liedes^lfreudiger Lobpreis^laus bereitem Herzen,^ldass er im Himmel^lHilfe uns erbitte^lall unsre Tage.^pLob sei dem Vater^lauf dem höchsten Throne,^lLob sei dem Sohne,^lGott aus Gott geboren,^lLob sei dem Geiste,^lder von beiden ausgeht,^limmer und ewig. Amen."
+      }
+  },
+  71234: {
+    0.0: {
+        "quote": "Frauen",
+        "text": "Preiset die tüchtige Frau,^ldie vor dem Morgen erwachte,^lalle versorgte im Haus,^lschaffend in rastloser Arbeit.^lTapfer bestand sie den Tag.^pGott war in ihrem Herzen.^pPreiset die gütige Frau;^lElende hat sie beherbergt,^lArme und Kranke gepflegt,^lTrauernde liebreich getröstet;^lZweifelnden brachte sie Licht:^pGott war in ihrem Herzen.^pPreiset die gläubige Frau,^ldie im Vertrauen nicht wankte,^ldenn ihre Kraft war der Herr.^lEr trug das Werk ihrer Hände.^lNun ruht sie selig bei ihm.^pGott ist in ihrem Herzen. Amen."
+      }
+  },
+  71248: {
+    0.0: {
+        "quote": "Ordensleute",
+        "text": "Selig, wem Christus^lauf dem Weg begegnet,^lum ihn zu rufen,^lalles zu verlassen,^lsein Kreuz zu tragen^lund in seiner Kirche^lfür ihn zu wirken.^pBei ihm ist Christus,^lstärkt ihn in der Wüste,^lschenkt ihm durch Leiden^lAnteil an der Freude.^lUnd seine Brüder^lspüren Christi Liebe^lin seiner Nähe.^pDurch seine Jünger^lspricht zu uns der Meister,^lruft uns zur Umkehr,^lspendet Licht und Hoffnung.^lIn ihren Taten^lwird die Botschaft Christi^lfür uns lebendig.^pVater im Himmel,^lheilig ist dein Name,^ldein Reich wird kommen,^ldas dein Sohn verheißen.^lHilf uns, im Geiste^lihm den Weg bereiten^lals deine Boten. Amen."
+      }
+  },
   81011: {
     0.0: {
         "quote": "Gottesmutter",
-        "text": "Zur Pforte Christi ward die Magd,^lbegnadet durch des Höchsten Kraft:^lDer König schreitet durch das Tor, ^les bleibt verschlossen, wie es war.^pUnd aus der Jungfrau Festgemach ^lerscheint des Vaters ew’ger Sohn;^lfrohlockend wie ein Bräutigam, ^lbeginnt der Held den Siegeslauf.^pNun jauchze auf die ganze Welt, ^ldenn Christus, ihr Erlöser, kommt. ^lDer königlich das All regiert, ^lerscheint, zu retten, die er schuf.^pHerr Jesus, dir sei Ruhm und Preis, ^lGott, den die Jungfrau uns gebar, ^lLob auch dem Vater und dem Geist ^ldurch alle Zeit und Ewigkeit. Amen."
+        "text": "Zur Pforte Christi ward die Magd,^lbegnadet durch des Höchsten Kraft:^lDer König schreitet durch das Tor,^les bleibt verschlossen, wie es war.^pUnd aus der Jungfrau Festgemach^lerscheint des Vaters ew’ger Sohn;^lfrohlockend wie ein Bräutigam,^lbeginnt der Held den Siegeslauf.^pNun jauchze auf die ganze Welt,^ldenn Christus, ihr Erlöser, kommt.^lDer königlich das All regiert,^lerscheint, zu retten, die er schuf.^pHerr Jesus, dir sei Ruhm und Preis,^lGott, den die Jungfrau uns gebar,^lLob auch dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   81012: {
@@ -2748,7 +2778,7 @@ export const psalmsData = {
   81014: {
     0.0: {
         "quote": "Gottesmutter",
-        "text": "Aus des Vaters Herz geboren, ^lehe Welt und Zeit begann, ^lChristus, A und O der Schöpfung, ^lZiel und Ursprung aller Welt, ^lallen Seins, das je gewesen, ^ldas jetzt ist und kommen wird ^limmer und in Ewigkeit.^pDie Gestalt des schwachen Fleisches^lund des Leibes Totenkleid^lzogst du an, daß wir nicht sterben^lan dem ersten Todeskeim^lund im Abgrund des Gesetzes^lohne Rettung untergehn^limmer und in Ewigkeit.^pSeht, nun strahlt ein neuer Morgen:^lChristus, unser Heil, erscheint, ^lden die Kraft des Geistes zeugte, ^lden die Jungfrau uns gebar. ^lUnd im Kinde offenbart sich ^lder Erlöser aller Welt ^limmer und in Ewigkeit.^pDen der Seher dunkle Rede ^luns als Retter angesagt, ^lden in langer Zeit des Harrens ^lder Propheten Glaube sah:^lEr ist da, den sie verheißen. ^lGrüßt ihn jubelnd mit Gesang ^limmer und in Ewigkeit.^pGott dem Vater sei die Ehre, ^lder uns seinen Sohn gesandt, ^lEhre Christus, unserm Retter, ^lden die Jungfrau uns gebar, ^lEhre auch dem Heil’gen Geiste, ^lRuhm und Preis und Lobgesang ^limmer und in Ewigkeit. Amen."
+        "text": "Aus des Vaters Herz geboren,^lehe Welt und Zeit begann,^lChristus, A und O der Schöpfung,^lZiel und Ursprung aller Welt,^lallen Seins, das je gewesen,^ldas jetzt ist und kommen wird^limmer und in Ewigkeit.^pDie Gestalt des schwachen Fleisches^lund des Leibes Totenkleid^lzogst du an, daß wir nicht sterben^lan dem ersten Todeskeim^lund im Abgrund des Gesetzes^lohne Rettung untergehn^limmer und in Ewigkeit.^pSeht, nun strahlt ein neuer Morgen:^lChristus, unser Heil, erscheint,^lden die Kraft des Geistes zeugte,^lden die Jungfrau uns gebar.^lUnd im Kinde offenbart sich^lder Erlöser aller Welt^limmer und in Ewigkeit.^pDen der Seher dunkle Rede^luns als Retter angesagt,^lden in langer Zeit des Harrens^lder Propheten Glaube sah:^lEr ist da, den sie verheißen.^lGrüßt ihn jubelnd mit Gesang^limmer und in Ewigkeit.^pGott dem Vater sei die Ehre,^lder uns seinen Sohn gesandt,^lEhre Christus, unserm Retter,^lden die Jungfrau uns gebar,^lEhre auch dem Heil’gen Geiste,^lRuhm und Preis und Lobgesang^limmer und in Ewigkeit. Amen."
       }
   },
   81251: {
@@ -2790,19 +2820,19 @@ export const psalmsData = {
   92261: {
     0.0: {
         "quote": "Stephanus",
-        "text": "Laßt uns im Feste heut begehn ^lden Sieg, den Stephanus errang;^lals erster Zeuge für den Herrn ^lgab er sein Blut und Leben hin.^p„Vergib, o Gott, sie wissen nicht, ^lwas sie jetzt tun an deinem Knecht!“ ^lSo betet er, wie einst der Herr, ^lfür seine Mörder noch im Tod.^pEr sieht den Himmel offenstehn ^lund Christus in der Herrlichkeit;^lder gibt ihm teil an seinem Licht, ^lda er im Leiden ihm gefolgt.^pDir, Herr, der unter uns erschien, ^lder Jungfrau Sohn und Heil der Welt, ^lsei Herrlichkeit und Preis und Ruhm ^lmit Gott dem Vater und dem Geist. Amen."
+        "text": "Laßt uns im Feste heut begehn^lden Sieg, den Stephanus errang;^lals erster Zeuge für den Herrn^lgab er sein Blut und Leben hin.^p„Vergib, o Gott, sie wissen nicht,^lwas sie jetzt tun an deinem Knecht!“^lSo betet er, wie einst der Herr,^lfür seine Mörder noch im Tod.^pEr sieht den Himmel offenstehn^lund Christus in der Herrlichkeit;^lder gibt ihm teil an seinem Licht,^lda er im Leiden ihm gefolgt.^pDir, Herr, der unter uns erschien,^lder Jungfrau Sohn und Heil der Welt,^lsei Herrlichkeit und Preis und Ruhm^lmit Gott dem Vater und dem Geist. Amen."
       }
   },
   92271: {
     0.0: {
         "quote": "Johannes",
-        "text": "Den Jünger, der dem Herrn gefolgt,^lpreist heute unser frohes Lob:^lJohannes, der das Wort erkannt, ^lJohannes, der beim Kreuze stand.^pDen Glanz des Sohnes schaute er, ^lden Glanz, den er vom Vater hat. ^lEr hat das ew’ge Wort bezeugt, ^ldas uns im Fleisch erschienen ist.^pJohannes, der beim Abendmahl ^lan seines Meisters Brust geruht, ^lihn hat der Herr zum Freund erwählt ^lund ihm die Mutter anvertraut.^pDem ew’gen Wort sei Lob und Preis,^ldem Vater, der es uns gesandt,^ldem Geiste auch, der uns im Licht^ldas Leben und die Wahrheit schenkt. Amen."
+        "text": "Den Jünger, der dem Herrn gefolgt,^lpreist heute unser frohes Lob:^lJohannes, der das Wort erkannt,^lJohannes, der beim Kreuze stand.^pDen Glanz des Sohnes schaute er,^lden Glanz, den er vom Vater hat.^lEr hat das ew’ge Wort bezeugt,^ldas uns im Fleisch erschienen ist.^pJohannes, der beim Abendmahl^lan seines Meisters Brust geruht,^lihn hat der Herr zum Freund erwählt^lund ihm die Mutter anvertraut.^pDem ew’gen Wort sei Lob und Preis,^ldem Vater, der es uns gesandt,^ldem Geiste auch, der uns im Licht^ldas Leben und die Wahrheit schenkt. Amen."
       }
   },
   92281: {
     0.0: {
         "quote": "Unsch.Kinder",
-        "text": "Warum, ihr Mütter, klaget ihr^lund gebt euch eurem Schmerze hin?^lDie Kinder, die ihr laut beweint,^lsind in den Frieden heimgekehrt.^pEin König gab in Furcht und Wahn ^lden Blutbefehl zu ihrem Mord. ^lEin andrer König führt sie sanft ^lzum Spiele in sein goldnes Haus.^pHerr Jesus, dir sei Ruhm und Preis, ^ldem wahren König dieser Welt, ^ldem Vater und dem Geist zugleich ^ldurch alle Zeit und Ewigkeit. Amen."
+        "text": "Warum, ihr Mütter, klaget ihr^lund gebt euch eurem Schmerze hin?^lDie Kinder, die ihr laut beweint,^lsind in den Frieden heimgekehrt.^pEin König gab in Furcht und Wahn^lden Blutbefehl zu ihrem Mord.^lEin andrer König führt sie sanft^lzum Spiele in sein goldnes Haus.^pHerr Jesus, dir sei Ruhm und Preis,^ldem wahren König dieser Welt,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
       }
   }
 };

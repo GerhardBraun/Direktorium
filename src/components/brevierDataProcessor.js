@@ -321,36 +321,53 @@ export function processBrevierData(liturgicalInfo) {
         const specificLect = lectureData[season]?.[week]?.[dayOfWeek];
         if (specificLect) mergeData(specificLect, 'wt');
 
+        // Layer 7: Process Commune texts
         if (rank_date > 1 && rank_date > rank_wt) {
-            // Layer 7: Process Commune texts
             const communeData = brevierData?.['eig']?.[calendarMonth]?.[calendarDay];
             if (communeData) mergeData(communeData, 'eig');
 
-            Object.keys(hours).forEach(hour => {
-                if (hours[hour].eig?.comm_1) {
-                    const commune1EachData = brevierData?.['com']?.[hours[hour].eig.comm_1]?.['each'];
-                    if (commune1EachData) mergeData(commune1EachData, 'com1');
-                }
-            });
-            Object.keys(hours).forEach(hour => {
-                if (hours[hour].eig?.comm_2) {
-                    const commune2EachData = brevierData?.['com']?.[hours[hour].eig.comm_2]?.['each'];
-                    if (commune2EachData) mergeData(commune2EachData, 'com2');
-                }
-            });
-            // besondere Commune-Texte für eine Kirchenjahreszeit
-            Object.keys(hours).forEach(hour => {
-                if (hours[hour].eig?.comm_1) {
-                    const commune1Data = brevierData?.['com']?.[hours[hour].eig.comm_1]?.[season];
-                    if (commune1Data) mergeData(commune1Data, 'com1');
-                }
-            });
-            Object.keys(hours).forEach(hour => {
-                if (hours[hour].eig?.comm_2) {
-                    const commune2Data = brevierData?.['com']?.[hours[hour].eig.comm_2]?.[season];
-                    if (commune2Data) mergeData(commune2Data, 'com2');
-                }
-            });
+            // Array der zusätzlichen Commune-Kategorien
+            const additionalComms = ['MFr'];
+
+            // Hilfsfunktion zur Verarbeitung der Commune-Texte
+            const processCommune = (commNumber) => {
+                const commField = `comm_${commNumber}`;
+                const commSource = `com${commNumber}`;
+
+                Object.keys(hours).forEach(hour => {
+                    const foundComm = hours[hour].eig?.[commField];
+                    if (foundComm) {
+                        // Aufteilen des foundComm-Werts, falls Unterstrich vorhanden
+                        const [readComm, addComm] = foundComm.includes('_')
+                            ? foundComm.split('_')
+                            : [foundComm, null];
+
+                        // Verarbeitung des Haupt-Commune
+                        // Allgemeine Commune-Texte
+                        const communeEachData = brevierData?.['com']?.[readComm]?.['each'];
+                        if (communeEachData) mergeData(communeEachData, commSource);
+
+                        // Besondere Commune-Texte für diese Kirchenjahreszeit
+                        const communeData = brevierData?.['com']?.[readComm]?.[season];
+                        if (communeData) mergeData(communeData, commSource);
+
+                        // Verarbeitung der zusätzlichen Commune-Texte, falls addComm vorhanden
+                        if (addComm) {
+                            const additionalData = brevierData?.['com']?.[readComm]?.[addComm];
+                            if (additionalData) mergeData(additionalData, commSource);
+
+                            additionalComms.forEach(category => {
+                                const additionalCatData = brevierData?.['com']?.[category]?.[addComm];
+                                if (additionalCatData) mergeData(additionalCatData, commSource);
+                            });
+                        }
+                    }
+                });
+            };
+
+            // Verarbeite beide Communia
+            processCommune(1);
+            processCommune(2);
 
             // Layer 8: Calendar date specific data
 
