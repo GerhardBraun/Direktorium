@@ -7,6 +7,109 @@ const LiturgicalSeason = {
     EASTER: 'o'
 };
 
+// Helper function to calculate rank for a specific date
+function calculateRanks(date, season, week, dayOfWeek, combinedSWD) {
+
+    // Rank für Wochentag (rank_wt) bestimmen
+    function calculateRankWt() {
+        // 1. Grundsätzlich sind alle Sonntage Rang 5
+        if (dayOfWeek === 0) {
+            // 2. Ausnahme: Sonntage in der Weihnachtszeit und im Jahreskreis (außer Christkönig) sind Rang 3
+            if ((season === 'j' && week !== 34) || season === 'w') {
+                return 3;
+            }
+            return 5;
+        }
+
+        // 3. Karwoche
+        if (combinedSWD === 'q-6-0') {
+            return 5;
+        }
+
+        // 4. Osteroktav
+        if (combinedSWD.startsWith('o-1-')) {
+            return 5;
+        }
+
+        // 5. Einzelne Hochfeste
+        if (['q-0-3',  // Aschermittwoch
+            'o-9-4',  // Fronleichnam
+            'o-9-5',  // Herz Jesu
+            'j-34-0'  // Christkönig
+        ].includes(combinedSWD)) {
+            return 5;
+        }
+
+        // 6. Gebotene Gedenktage und Kommemoration
+        if ((date.getMonth() + 1 === 12 && date.getDate() > 16) ||  // letzte Adventstage und Weihnachtszeit
+            (season === 'q') ||                                      // Wochentage der Fastenzeit
+            (season === 'o' && week === 9 && dayOfWeek === 6)       // Herz Mariae
+        ) {
+            return 2;
+        }
+
+        return 0; // Standard-Rang für alle anderen Tage
+    }
+
+    // Rank für Datum (rank_date) bestimmen
+    function calculateRankDate() {
+        const month = (date.getMonth() + 1).toString().padStart(2, '0');
+        const day = date.getDate().toString().padStart(2, '0');
+        const dateCompare = `${month}-${day}`;
+
+        const hochfeste = [
+            '01-01', '01-06', '03-19', '03-25', '06-05', '06-24', '06-29', '08-15',
+            '11-01', '11-02', '12-08', '12-25'
+        ];
+        const christusfeste = ['02-02', '08-06', '09-14', '11-09'];
+        const feste = [
+            '01-25', '02-04', '02-14', '02-22', '02-24', '04-25', '04-29', '05-03',
+            '07-02', '07-03', '07-11', '07-22', '07-23', '07-25', '08-09', '08-10',
+            '08-24', '09-08', '09-21', '09-28', '09-29', '10-18', '10-28', '11-19',
+            '11-30', '12-16', '12-17', '12-18', '12-19', '12-20', '12-21', '12-22',
+            '12-23', '12-24', '12-26', '12-27', '12-28', '12-29', '12-30', '12-31'
+        ];
+        const gedenktage = [
+            '01-02', '01-17', '01-21', '01-24', '01-26', '01-28', '01-31',
+            '02-05', '02-06', '02-10', '02-23', '03-07', '04-07', '04-11',
+            '04-27', '05-02', '05-26', '06-01', '06-03', '06-11', '06-13',
+            '06-21', '06-28', '07-15', '07-26', '07-29', '07-31', '08-01',
+            '08-04', '08-08', '08-11', '08-17', '08-20', '08-21', '08-22',
+            '08-27', '08-28', '08-29', '09-03', '09-13', '09-15', '09-16',
+            '09-20', '09-23', '09-27', '09-30', '10-01', '10-02', '10-04',
+            '10-07', '10-15', '10-17', '11-04', '11-10', '11-11', '11-12',
+            '11-21', '11-22', '11-24', '12-03', '12-07', '12-13', '12-14'
+        ];
+
+        if (hochfeste.includes(dateCompare)) return 5;
+        if (christusfeste.includes(dateCompare)) return 4;
+        if (feste.includes(dateCompare)) return 3;
+        if (gedenktage.includes(dateCompare)) return 2;
+        return 0;
+    }
+
+    if (!date || !(date instanceof Date)) {
+        console.error('Invalid date provided to calculateRanks:', date);
+        return { rank_wt: 0, rank_date: 0 };
+    }
+
+    if (!season) {
+        console.error('No season provided to calculateRanks for date:', date);
+        return { rank_wt: 0, rank_date: 0 };
+    }
+
+    if (week === undefined || week === null) {
+        console.error('No week provided to calculateRanks for date:', date);
+        return { rank_wt: 0, rank_date: 0 };
+    }
+
+    return {
+        rank_wt: calculateRankWt(),
+        rank_date: calculateRankDate(),
+        combinedSWD
+    };
+}
+
 // Calculate Easter using Meeus/Jones/Butcher algorithm
 const calculateEaster = (year) => {
     const a = year % 19;
@@ -106,7 +209,6 @@ const getLiturgicalInfo = (date) => {
     if (date >= advent) {
         const adventWeek = weeksBetween(advent, date);
         if (adventWeek === 5) {
-            // Ab der "5. Adventswoche" ist es die 1. Woche der Weihnachtszeit
             season = LiturgicalSeason.CHRISTMAS;
             week = 1;
         } else {
@@ -115,10 +217,16 @@ const getLiturgicalInfo = (date) => {
         }
     }
 
+    const dayOfWeek = date.getDay();
+    const combinedSWD = `${season}-${week}-${dayOfWeek}`;
+    const ranks = calculateRanks(date, season, week, dayOfWeek, combinedSWD);
+
     return {
         season,
         week,
-        dayOfWeek: date.getDay()
+        dayOfWeek,
+        ...ranks,  // Fügt rank_wt, rank_date und combinedSWD zum Return-Objekt hinzu
+        combinedSWD
     };
 };
 

@@ -971,6 +971,7 @@ const PrayerMenu = ({ title, onSelectHour, setViewMode,
 }) => {
     const [liturgicalInfo, setLiturgicalInfo] = useState(null);
     const [prayerTexts, setPrayerTexts] = useState(null);  // Neuer State für die Gebetstext-Daten
+    const rank_date = prayerTexts?.rank_date || 0
 
     useEffect(() => {
         const info = getLiturgicalInfo(selectedDate);
@@ -1059,6 +1060,22 @@ const PrayerMenu = ({ title, onSelectHour, setViewMode,
                         return null; // Sext und Non überspringen, da sie bereits in der Flex-Box enthalten sind
                     }
 
+                    let displayText = hour;
+                    if (hour === 'vesper') {
+                        if (prayerTexts?.vesper?.eig?.name) {
+                            displayText = prayerTexts.vesper.eig.name;
+                        } else if (prayerTexts?.vesper?.wt?.name) {
+                            displayText = prayerTexts.vesper.wt.name;
+                        } else {
+                            const dayOfWeek = selectedDate.getDay();
+                            if (dayOfWeek === 6 && rank_date < 4) { // Samstag
+                                displayText = '1. Vesper vom Sonntag';
+                            } else {
+                                displayText = 'Vesper';
+                            }
+                        }
+                    }
+
                     // Normale Darstellung für andere Horen
                     return (
                         <button
@@ -1071,7 +1088,7 @@ const PrayerMenu = ({ title, onSelectHour, setViewMode,
                                 hover:bg-gray-200 dark:hover:bg-gray-700 
                                 text-gray-900 dark:text-gray-100"
                         >
-                            {hour.charAt(0).toUpperCase() + hour.slice(1)}
+                            {hour === 'vesper' ? displayText : hour.charAt(0).toUpperCase() + hour.slice(1)}
                         </button>
                     );
                 })}
@@ -1415,7 +1432,7 @@ const PrayerTextDisplay = ({
         };
 
         // Prüfen, ob der Text Absatz-Tags enthält
-        const hasParagraphTags = /\^[phq]/.test(text);
+        const hasParagraphTags = /\^[phql]/.test(text);
 
         if (!hasParagraphTags) {
             // Bei Texten ohne Absatz-Tags: Direkt Inline-Formatierung zurückgeben
