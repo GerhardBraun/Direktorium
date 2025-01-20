@@ -20,6 +20,7 @@ const months = ["Januar", "Februar", "März", "April", "Mai", "Juni",
     "Juli", "August", "September", "Oktober", "November", "Dezember"];
 
 const PrayerHours = {
+    ERSTEVESPER: 'erstev',
     INVITATORIUM: 'invitatorium',
     LESEHORE: 'lesehore',
     LAUDES: 'laudes',
@@ -965,9 +966,10 @@ const formatLiturgicalInfo = (info, date) => {
 };
 
 // Prayer Menu Component
-const PrayerMenu = ({ title, onSelectHour, setViewMode,
+const PrayerMenu = ({ title, onSelectHour, viewMode, setViewMode, season,
     onPrevDay, onNextDay, selectedDate,
-    prefSrc, prefComm1, prefComm2, onSourceSelect
+    prefSrc, prefComm1, prefComm2,
+    prefSollemnity, setPrefSollemnity, onSourceSelect
 }) => {
     const [liturgicalInfo, setLiturgicalInfo] = useState(null);
     const [prayerTexts, setPrayerTexts] = useState(null);  // Neuer State für die Gebetstext-Daten
@@ -983,13 +985,18 @@ const PrayerMenu = ({ title, onSelectHour, setViewMode,
                 week: info.week,
                 dayOfWeek: selectedDate.getDay(),
                 selectedDate: selectedDate,
-                prefSrc,    // Nutze die Props direkt
+                prefSrc,
                 prefComm1,
                 prefComm2
             });
             setPrayerTexts(processedData);
+            setPrefSollemnity(false)
         }
     }, [selectedDate, prefSrc, prefComm1, prefComm2]); // Dependencies aktualisiert
+
+    useEffect(() => {
+        onSourceSelect('eig', 'com1', 'com2', false);
+    }, [selectedDate]);
 
     return (
         <div className="flex flex-col p-4 bg-white dark:bg-gray-900">
@@ -1025,8 +1032,11 @@ const PrayerMenu = ({ title, onSelectHour, setViewMode,
             <SourceSelector
                 prayerTexts={prayerTexts}
                 selectedSource={prefSrc}
-                onSourceSelect={(source, newPrefSrc, newPrefComm1, newPrefComm2) => {
-                    onSourceSelect(newPrefSrc, newPrefComm1, newPrefComm2);
+                prefSollemnity={prefSollemnity}
+                viewMode={viewMode}
+                season={season}
+                onSourceSelect={(source, newPrefSrc, newPrefComm1, newPrefComm2, newSollemnity) => {
+                    onSourceSelect(newPrefSrc, newPrefComm1, newPrefComm2, newSollemnity);  // Aktualisiert
                 }}
                 className="mb-4"
             />
@@ -1060,7 +1070,26 @@ const PrayerMenu = ({ title, onSelectHour, setViewMode,
                         return null; // Sext und Non überspringen, da sie bereits in der Flex-Box enthalten sind
                     }
 
-                    let displayText = hour;
+                    if (hour === 'erstev') {
+                        if (prefSollemnity) {
+                            return (
+                                <button
+                                    onClick={() => {
+                                        console.log('Daten:', { hour, texts: prayerTexts });
+                                        onSelectHour(hour, prayerTexts)
+                                    }}
+                                    className="w-full p-3 text-center rounded-lg bg-gray-100 dark:bg-gray-800 
+                                    hover:bg-gray-200 dark:hover:bg-gray-700 
+                                    text-gray-900 dark:text-gray-100"
+                                >
+                                    Erste Vesper
+                                </button>
+                            );
+                        }
+                        return null;
+                    }
+
+                    let displayText = hour.charAt(0).toUpperCase() + hour.slice(1);
                     if (hour === 'vesper') {
                         if (prayerTexts?.vesper?.eig?.name) {
                             displayText = prayerTexts.vesper.eig.name;
@@ -1068,10 +1097,11 @@ const PrayerMenu = ({ title, onSelectHour, setViewMode,
                             displayText = prayerTexts.vesper.wt.name;
                         } else {
                             const dayOfWeek = selectedDate.getDay();
-                            if (dayOfWeek === 6 && rank_date < 4) { // Samstag
+                            if (dayOfWeek === 6 && rank_date < 4 && !prefSollemnity) { // Samstag
                                 displayText = '1. Vesper vom Sonntag';
                             } else {
-                                displayText = 'Vesper';
+                                if (prefSollemnity) { displayText = 'Zweite Vesper' }
+                                else displayText = 'Vesper';
                             }
                         }
                     }
@@ -1088,7 +1118,7 @@ const PrayerMenu = ({ title, onSelectHour, setViewMode,
                                 hover:bg-gray-200 dark:hover:bg-gray-700 
                                 text-gray-900 dark:text-gray-100"
                         >
-                            {hour === 'vesper' ? displayText : hour.charAt(0).toUpperCase() + hour.slice(1)}
+                            {displayText}
                         </button>
                     );
                 })}
@@ -1125,7 +1155,7 @@ const PrayerMenu = ({ title, onSelectHour, setViewMode,
                     </button>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 
@@ -1134,7 +1164,7 @@ const BackButton = ({ onClick }) => (
         onClick={onClick}
         className="w-full p-2 mb-1 rounded-sm bg-gray-100 dark:bg-gray-800 
                  hover:bg-gray-200 dark:hover:bg-gray-700 
-                 text-gray-900 dark:text-gray-100 text-left"
+                 text-gray-900 dark:text-gray-100 text-left text-sm"
         style={{ color: rubricColor }}
     >
         ← zurück zur Stundengebetauswahl
@@ -1144,8 +1174,9 @@ const BackButton = ({ onClick }) => (
 
 // Prayer Text Display Component
 const PrayerTextDisplay = ({
-    hour, texts, season, onBack, onUpdateTexts,
-    prefSrc, prefComm1, prefComm2, onSourceSelect, onSelectHour
+    hour, texts, season, onBack, viewMode, onUpdateTexts,
+    prefSrc, prefComm1, prefComm2, prefSollemnity, setPrefSollemnity,
+    onSourceSelect, onSelectHour
 }) => {
     const [localPrefComm, setLocalPrefComm] = useState(texts?.prefComm || 0);
     const [localPrefLatin, setLocalPrefLatin] = useState(0);
@@ -1165,12 +1196,30 @@ const PrayerTextDisplay = ({
     const getValue = (field) => {
         // Sonderfall Hymnen: 
         // klStb und Nacht-Hymnus werden nicht gezeigt, wenn eigener Hymnus vorhanden
-        // oder Commune-Hymnus gewählt ist
+        // oder Feier als Hochfest oder Commune-Hymnus gewählt ist
         if ((field === 'hymn_kl' || field === 'hymn_nacht') &&
             (texts[hour]?.[prefSrc]?.['hymn_1']
+                || prefSollemnity
                 || (localPrefComm === 1 && texts[hour]?.[prefComm1]?.['hymn_1'])
                 || (localPrefComm === 2 && texts[hour]?.[prefComm2]?.['hymn_1'])
             )) {
+            return null;
+        }
+
+        //Sonderfall Antiphonen: nicht ant_0 und ant_1-3 gleichzeitig
+        if (field.startsWith('ant_0') &&
+            (texts[hour]?.['eig']?.['ant_1']
+                || (localPrefComm === 1 && texts[hour]?.[prefComm1]?.['ant_1'])
+                || (localPrefComm === 2 && texts[hour]?.[prefComm2]?.['ant_1']))
+        ) {
+            return null;
+        }
+
+        if (field.startsWith('ant_') && !field.startsWith('ant_0') &&
+            (texts[hour]?.['eig']?.['ant_0']
+                || (localPrefComm === 1 && texts[hour]?.[prefComm1]?.['ant_0'])
+                || (localPrefComm === 2 && texts[hour]?.[prefComm2]?.['ant_0']))
+        ) {
             return null;
         }
 
@@ -1185,7 +1234,7 @@ const PrayerTextDisplay = ({
         }
 
         // Prüfe, ob Commune übersprungen werden soll
-        const skipCommune = rank_date < 3 && (
+        const skipCommune = rank_date < 3 && !prefSollemnity && (
             // Bedingung 1: Lesehore
             (hour === 'lesehore' && !field.startsWith('hymn_') && field !== 'oration') ||
             // Bedingung 2: Laudes/Vesper Psalmodie
@@ -1196,6 +1245,7 @@ const PrayerTextDisplay = ({
             ['terz', 'sext', 'non'].includes(hour)
         );
 
+
         // 1. Prüfe zuerst prefSrc
         if (texts[hour][prefSrc]?.[field]) {
             return texts[hour][prefSrc][field];
@@ -1203,14 +1253,14 @@ const PrayerTextDisplay = ({
 
         // 2. & 3. Prüfe Commune nur wenn nicht übersprungen werden soll
         if (!skipCommune) {
-            // Prüfe prefComm1 wenn prefComm = 1
-            if (localPrefComm === 1 && texts[hour][prefComm1]?.[field]) {
-                return texts[hour][prefComm1][field];
-            }
-
             // Prüfe prefComm2 wenn prefComm = 2
             if (localPrefComm === 2 && texts[hour][prefComm2]?.[field]) {
                 return texts[hour][prefComm2][field];
+            }
+            // Prüfe prefComm1 wenn prefComm = 1 oder prefSollemnity gewählt ist
+            if ((localPrefComm === 1 || prefSollemnity)
+                && texts[hour][prefComm1]?.[field]) {
+                return texts[hour][prefComm1][field];
             }
         }
 
@@ -1218,7 +1268,6 @@ const PrayerTextDisplay = ({
         if (texts[hour]['wt']?.[field]) {
             return texts[hour]['wt'][field];
         }
-
         return null;
     }
 
@@ -1250,16 +1299,18 @@ const PrayerTextDisplay = ({
         const showContinuous = hasEig && hasWt && askContinuous && hour === 'lesehore';
         const showTSN = askTSN && ["terz", "sext", "non"].includes(hour);
         // Prüfe, ob Commune übersprungen werden soll
-        const skipCommune = rank_date < 3 && (
-            // Bedingung 1: Lesehore
-            (hour === 'lesehore' && !field.startsWith('hymn_') && field !== 'oration') ||
-            // Bedingung 2: Laudes/Vesper Psalmodie
-            ((hour === 'laudes' || hour === 'vesper') &&
-                (field.startsWith('ps_') ||
-                    (field.startsWith('ant_') && !field.startsWith('ant_ev')))) ||
-            // Bedingung 3: Kleinen Horen
-            ['terz', 'sext', 'non'].includes(hour)
-        );
+        const skipCommune = (prefSollemnity && !showComm2)
+            ||
+            (rank_date < 3 && !prefSollemnity && (
+                // Bedingung 1: Lesehore
+                (hour === 'lesehore' && !field.startsWith('hymn_') && field !== 'oration') ||
+                // Bedingung 2: Laudes/Vesper Psalmodie
+                ((hour === 'laudes' || hour === 'vesper') &&
+                    (field.startsWith('ps_') ||
+                        (field.startsWith('ant_') && !field.startsWith('ant_ev')))) ||
+                // Bedingung 3: Kleinen Horen
+                ['terz', 'sext', 'non'].includes(hour)
+            ));
 
         if (title === "RESPONSORIUM" ||
             (!showSources && !hasLatin && !showContinuous && !showTSN)) {
@@ -1306,9 +1357,9 @@ const PrayerTextDisplay = ({
                         >
                             Comm {nameComm1}
                         </button>
-                        {" | "}
                         {showComm2 && (
                             <>
+                                {"  |  "}
                                 <button
                                     onClick={() => setLocalPrefComm(2)}
                                     className={`${localPrefComm === 2 ? 'underline' : ''}`}
@@ -1316,16 +1367,21 @@ const PrayerTextDisplay = ({
                                 >
                                     {nameComm2}
                                 </button>
-                                {"  |  "}
+
                             </>
                         )}
-                        <button
-                            onClick={() => setLocalPrefComm(0)}
-                            className={`${localPrefComm === 0 ? 'underline' : ''}`}
-                            style={{ color: rubricColor }}
-                        >
-                            Wt
-                        </button>
+                        {!prefSollemnity && (
+                            <>
+                                {" | "}
+                                <button
+                                    onClick={() => setLocalPrefComm(0)}
+                                    className={`${localPrefComm === 0 ? 'underline' : ''}`}
+                                    style={{ color: rubricColor }}
+                                >
+                                    Wt
+                                </button>
+                            </>
+                        )}
                     </span>
                 )}
                 {showTSN && (
@@ -1403,6 +1459,7 @@ const PrayerTextDisplay = ({
                 .replace(/°/g, '\u00A0')
                 .replace(/\^\*/g, '\u00A0*\n')
                 .replace(/\^\+/g, '\u00A0†\n')
+                .replace(/\^\//g, '    ')
                 .replace(/\^l/g, '\n')
                 .replace(/\^ö/g, season === 'o' ? ' Halleluja.' : '')
                 .replace(/}/g, ')')
@@ -1491,14 +1548,14 @@ const PrayerTextDisplay = ({
                         );
                     case 'q':
                         return (
-                            <div key={index} className="whitespace-pre-wrap flex -mt-[0.66em] mb-[0.66em]">
+                            <div key={index} className="whitespace-pre-wrap flex -mt-[0.75em] mb-[0.75em]">
                                 <span className="w-[0.8em] flex-shrink-0">–</span>
                                 <div>{processedContent}</div>
                             </div>
                         );
                     default: // 'p'
                         return (
-                            <div key={index} className="whitespace-pre-wrap mb-[0.66em]">
+                            <div key={index} className="whitespace-pre-wrap mb-[0.75em]">
                                 {processedContent}
                             </div>
                         );
@@ -1544,14 +1601,20 @@ const PrayerTextDisplay = ({
     }
 
     return (
-        <div className="leading-[1.35em] pb-8">
+        <div className="leading-[1.33em] pb-8">
             <BackButton onClick={onBack} />
             <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6 pb-1">
                 <SourceSelector
                     prayerTexts={texts}
                     selectedSource={prefSrc}
-                    onSourceSelect={(source, newPrefSrc, newPrefComm1, newPrefComm2) => {
+                    prefSollemnity={prefSollemnity}
+                    viewMode={viewMode}
+                    season={season}
+                    hour={hour}
+                    onSourceSelect={(
+                        source, newPrefSrc, newPrefComm1, newPrefComm2, newSollemnity) => {
                         onSourceSelect(newPrefSrc, newPrefComm1, newPrefComm2);
+                        setPrefSollemnity(newSollemnity);
                     }}
                     className="mb-4"
                 />
@@ -1762,8 +1825,8 @@ const PrayerTextDisplay = ({
                             askContinuous={true}
                         />
                         <div>
-                            <div className='text-[0.9em] italic'> {getValue('patr_autor')}</div>
-                            {getValue('patr_werk')}
+                            <div className='text-[0.9em] italic'> {formatPrayerText(getValue('patr_autor'))}</div>
+                            {formatPrayerText(getValue('patr_werk'))}
                             {formatPrayerText(getValue('patr_text'))}
                         </div>
                     </div>)}
@@ -1942,6 +2005,7 @@ export default function LiturgicalCalendar() {
     const [prefSrc, setPrefSrc] = useState('eig');
     const [prefComm1, setPrefComm1] = useState('com1');
     const [prefComm2, setPrefComm2] = useState('com2');
+    const [prefSollemnity, setPrefSollemnity] = useState(false);
     const [selectedHour, setSelectedHour] = useState(null);
     const [prayerTexts, setPrayerTexts] = useState(null);
     const [expandedDeceased, setExpandedDeceased] = useState({});
@@ -2041,14 +2105,11 @@ export default function LiturgicalCalendar() {
         entriesRef.current = {};
         if (selectedDate) {
             setIsReady(false);
-            // Kurze Verzögerung um sicherzustellen, dass das DOM aktualisiert wurde
             setTimeout(() => {
                 setIsReady(true);
             }, 100);
         }
-    }, [selectedDate]);
 
-    useEffect(() => {
         const info = getLiturgicalInfo(selectedDate);
         setLiturgicalInfo(info);
         if (info?.season) {
@@ -2800,14 +2861,19 @@ export default function LiturgicalCalendar() {
                     {viewMode === 'prayer' && (
                         <PrayerMenu
                             title={formatDate(selectedDate)}
+                            viewMode={viewMode}
+                            season={currentSeason}
                             selectedDate={selectedDate}
                             prefSrc={prefSrc}
                             prefComm1={prefComm1}
                             prefComm2={prefComm2}
-                            onSourceSelect={(newPrefSrc, newPrefComm1, newPrefComm2) => {
+                            prefSollemnity={prefSollemnity}
+                            setPrefSollemnity={setPrefSollemnity}
+                            onSourceSelect={(newPrefSrc, newPrefComm1, newPrefComm2, newSollemnity) => {
                                 setPrefSrc(newPrefSrc);
                                 setPrefComm1(newPrefComm1);
                                 setPrefComm2(newPrefComm2);
+                                setPrefSollemnity(newSollemnity);
                             }}
                             onSelectHour={(hour, texts) => {
                                 setSelectedHour(hour);
@@ -2830,14 +2896,18 @@ export default function LiturgicalCalendar() {
                         <PrayerTextDisplay
                             hour={selectedHour}
                             texts={prayerTexts}
+                            viewMode={viewMode}
                             season={currentSeason}
                             prefSrc={prefSrc}
                             prefComm1={prefComm1}
                             prefComm2={prefComm2}
-                            onSourceSelect={(newPrefSrc, newPrefComm1, newPrefComm2) => {
+                            prefSollemnity={prefSollemnity}
+                            setPrefSollemnity={setPrefSollemnity}
+                            onSourceSelect={(newPrefSrc, newPrefComm1, newPrefComm2, newSollemnity) => {
                                 setPrefSrc(newPrefSrc);
                                 setPrefComm1(newPrefComm1);
                                 setPrefComm2(newPrefComm2);
+                                setPrefSollemnity(newSollemnity);
                             }}
                             onBack={() => setViewMode('prayer')}
                             onSelectHour={(hour) => {  // Neue Prop

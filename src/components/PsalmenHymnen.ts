@@ -1682,7 +1682,7 @@ export const psalmsData = {
     0.0: {
         "verses": "vgl. Eph 1,3–10",
         "title": "Gottes Heilsplan",
-        "text": "Gepriesen sei Gott,^*der Gott und Vater unsres Herrn Jesus Christus.^pEr hat uns mit allem Segen seines Geistes gesegnet^*durch unsre Gemeinschaft mit Christus im Himmel.^pDenn in ihm hat er uns erwählt vor der Erschaffung der Welt,^*damit wir heilig und untadelig leben vor Gott;^per hat uns aus Liebe im Voraus dazu bestimmt,^*seine Söhne zu werden durch Jesus Christus^pund zu ihm zu gelangen nach seinem gnädigen Willen, *zum Lob seiner herrlichen Gnade.^pEr hat sie uns geschenkt in seinem geliebten Sohn;^+durch sein Blut haben wir die Erlösung, die Vergebung der Sünden^*nach dem Reichtum seiner Gnade.^pDurch sie hat er uns reich beschenkt^*mit aller Weisheit und Einsicht^pund hat uns das Geheimnis seines Willens kundgetan,^*wie er es gnädig im Voraus bestimmt hat:^pdie Fülle der Zeiten heraufzuführen in Christus^*und alles, was im Himmel und auf Erden ist, in ihm zu vereinen."
+        "text": "Gepriesen sei Gott,^*der Gott und Vater unsres Herrn Jesus Christus.^pEr hat uns mit allem Segen seines Geistes gesegnet^*durch unsre Gemeinschaft mit Christus im Himmel.^pDenn in ihm hat er uns erwählt vor der Erschaffung der Welt,^*damit wir heilig und untadelig leben vor Gott;^per hat uns aus Liebe im Voraus dazu bestimmt,^*seine Söhne zu werden durch Jesus Christus^pund zu ihm zu gelangen nach seinem gnädigen Willen,^*zum Lob seiner herrlichen Gnade.^pEr hat sie uns geschenkt in seinem geliebten Sohn;^+durch sein Blut haben wir die Erlösung, die Vergebung der Sünden^*nach dem Reichtum seiner Gnade.^pDurch sie hat er uns reich beschenkt^*mit aller Weisheit und Einsicht^pund hat uns das Geheimnis seines Willens kundgetan,^*wie er es gnädig im Voraus bestimmt hat:^pdie Fülle der Zeiten heraufzuführen in Christus^*und alles, was im Himmel und auf Erden ist, in ihm zu vereinen."
       }
   },
   153: {
@@ -1724,7 +1724,7 @@ export const psalmsData = {
     0.0: {
         "verses": "vgl. 1 Petr 2,21–24",
         "title": "Das freiwillige Leiden des Gottesknechtes",
-        "text": "Christus hat für uns gelitten^+und uns ein Beispiel gegeben,^*damit ihr ihm folgen auf seinem Weg.^pEr hat keine Sünde begangen^*und in seinem Mund war keine Falschheit.^pAls er geschmäht wurde, schmähte er nicht,^+als er litt, drohte er nicht,^*sondern überließ seine Sache dem gerechten Richter.^pEr hat unsere Sünden mit seinem eigenen Leib^+auf das Holz des Kreuzes getragen,^*damit wir tot sind für die Sünden und leben für die Gerechtigkeit.^pDurch seine Wunden^*seid ihr geheilt."
+        "text": "Christus hat für uns gelitten^+und uns ein Beispiel gegeben,^*damit ihr ihm folgen auf seinem Weg.^pEr hat keine Sünde begangen^*und in seinem Mund war keine Falschheit.^pAls er geschmäht wurde, schmähte er nicht,^+als er litt, drohte er nicht,^*sondern überließ seine Sache dem gerechten Richter.^pEr hat unsere Sünden mit seinem eigenen Leib^+auf das Holz des Kreuzes getragen,^*damit wir tot sind für die Sünden und leben für die Gerechtigkeit.^pDurch seine Wunden^*sind wir geheilt."
       }
   },
   159: {
@@ -2017,13 +2017,13 @@ export const psalmsData = {
   231: {
     0.0: {
         "quote": "Preisungen und Gebete Nr. 10",
-        "text": "Christus – mächtiger Gott!^lDu Allherrscher der Schöpfung^llenkst die kreisenden Welten -^lwandelst auf Wogen,^lwendest die Stürme -^lrufst deine Engel,^lzwingst die Dämonen -^lKönig der Welt!^lAllem verleihst du das Sein,^lWort des allmächtigen Vaters.^pChristus – Heiland der Welt!^lAus dem Schoße des Vaters^lsteigst du rettend hernieder:^lwirst unser Bruder,^lteilst unsre Armut -^lträgst unsre Leiden,^ltilgst unsre Sünden -^lhebst uns empor:^lErster des neuen Geschlechts,^ldas du erlöst und geheiligt.^pChristus – göttliches Haupt!^lWie der Weinstock die Reben^lnährst du uns, deine Glieder:^lsenkst in die Seelen^lgöttliches Leben,^leinigst die Völker^lin deiner Kirche^lheiligem Leib.^lZieh uns auf ewig an dich,^lMittler unsterblichen Lebens."
+        "text": "Christus – mächtiger Gott!^lDu Allherrscher der Schöpfung^llenkst die kreisenden Welten –^lwandelst auf Wogen,^lwendest die Stürme –^lrufst deine Engel,^lzwingst die Dämonen –^lKönig der Welt!^lAllem verleihst du das Sein,^lWort des allmächtigen Vaters.^pChristus – Heiland der Welt!^lAus dem Schoße des Vaters^lsteigst du rettend hernieder:^lwirst unser Bruder,^lteilst unsre Armut –^lträgst unsre Leiden,^ltilgst unsre Sünden –^lhebst uns empor:^lErster des neuen Geschlechts,^ldas du erlöst und geheiligt.^pChristus – göttliches Haupt!^lWie der Weinstock die Reben^lnährst du uns, deine Glieder:^lsenkst in die Seelen^lgöttliches Leben,^leinigst die Völker^lin deiner Kirche^lheiligem Leib.^lZieh uns auf ewig an dich,^lMittler unsterblichen Lebens."
       }
   },
   232: {
     0.0: {
         "quote": "Laudes am Dreifaltgkeitssonntag",
-        "text": "Erhabene Dreifaltigkeit,^lim einen Licht der Gottheit eins,^lunendliches Geheimnis du^lund tiefster Ursprung allen Seins.^pDich rühmt des Himmels hehre Schar,^lihr Lied ruft deinen Lobpreis aus,^ldir jubelt deine Schöpfung zu,^lder du dein Bildnis aufgeprägt.^pWir neigen staunend uns vor dir^lund beten deine Größe an.^lVereine mit der Engel Lied^lden Lobgesang, den wir dir weihn.^pWas alle Einsicht übersteigt,^lbekennt der Glaube ehrfurchtsvoll:^lDrei sind in tiefer Liebe eins -^lin e·i·n·e·r Gottheit leben drei.^pGott Vater, dir sei Ruhm und Preis^lund deinem eingebornen Sohn,^ldem Geiste, der uns Beistand ist,^ljetzt, immer und in Ewigkeit. Amen."
+        "text": "Erhabene Dreifaltigkeit,^lim einen Licht der Gottheit eins,^lunendliches Geheimnis du^lund tiefster Ursprung allen Seins.^pDich rühmt des Himmels hehre Schar,^lihr Lied ruft deinen Lobpreis aus,^ldir jubelt deine Schöpfung zu,^lder du dein Bildnis aufgeprägt.^pWir neigen staunend uns vor dir^lund beten deine Größe an.^lVereine mit der Engel Lied^lden Lobgesang, den wir dir weihn.^pWas alle Einsicht übersteigt,^lbekennt der Glaube ehrfurchtsvoll:^lDrei sind in tiefer Liebe eins –^lin e·i·n·e·r Gottheit leben drei.^pGott Vater, dir sei Ruhm und Preis^lund deinem eingebornen Sohn,^ldem Geiste, der uns Beistand ist,^ljetzt, immer und in Ewigkeit. Amen."
       }
   },
   234: {
@@ -2136,7 +2136,7 @@ export const psalmsData = {
   },
   323: {
     0.0: {
-        "text": "Guter König und Herr,^lder uns das Licht erschuf,^lder dem Wechsel der Zeit^lsichere Ordnung gab -^lda die Sonne nun sinkt^lund sich das Dunkel mehrt,^lsei uns Leuchte und Licht,^lChristus, dein Angesicht.^pWie du Israels Volk^leinst durch die Nacht geführt,^lihm als feuriger Schein^lRichtung und Weg gezeigt,^lso geleite auch uns,^ldie wir im Finstern gehn,^lzieh uns leuchtend voran,^lFlamme, die nie erlischt.^pWas kann würdiger sein^lnun, da der Tag sich neigt,^lals dem währenden Licht^lLob und Gesang zu weihn:^lGott, der strahlend im Glanz^lewiger Helle wohnt,^lihm sei Ehre und Preis^ljetzt und durch alle Zeit. Amen."
+        "text": "Guter König und Herr,^lder uns das Licht erschuf,^lder dem Wechsel der Zeit^lsichere Ordnung gab –^lda die Sonne nun sinkt^lund sich das Dunkel mehrt,^lsei uns Leuchte und Licht,^lChristus, dein Angesicht.^pWie du Israels Volk^leinst durch die Nacht geführt,^lihm als feuriger Schein^lRichtung und Weg gezeigt,^lso geleite auch uns,^ldie wir im Finstern gehn,^lzieh uns leuchtend voran,^lFlamme, die nie erlischt.^pWas kann würdiger sein^lnun, da der Tag sich neigt,^lals dem währenden Licht^lLob und Gesang zu weihn:^lGott, der strahlend im Glanz^lewiger Helle wohnt,^lihm sei Ehre und Preis^ljetzt und durch alle Zeit. Amen."
       }
   },
   324: {
@@ -2224,7 +2224,7 @@ export const psalmsData = {
   345: {
     0.0: {
         "quote": "Laudes am Christkönigssonntag",
-        "text": "Der höchsten Gottheit ew’ges Bild,^ldu Licht vom Licht, des Vaters Wort,^ldu unser Retter, dir sei Ruhm^lund Macht und Ehre immerdar.^pVon Ewigkeit bist du allein^lder Zeiten Mitte und ihr Ziel,^ldir gab der Vater die Gewalt,^ldie Herrschaft über alle Welt.^pDoch nicht auf Zwang baut deine Macht^lund nicht auf Furcht dein Königtum:^lIn Liebe ziehst du uns an dich -^lam Kreuz gemartert und erhöht.^pKomm, Herr, erweise deine Macht^lund richte deine Herrschaft auf.^lKomm und vollende jetzt dein Reich^lund führe uns zum Königsmahl.^pDir, Jesus, der durch Leid und Tod^lder Herrschaft Krone sich errang,^lsei mit dem Vater und dem Geist^lLob, Preis und Ruhm in Ewigkeit. Amen."
+        "text": "Der höchsten Gottheit ew’ges Bild,^ldu Licht vom Licht, des Vaters Wort,^ldu unser Retter, dir sei Ruhm^lund Macht und Ehre immerdar.^pVon Ewigkeit bist du allein^lder Zeiten Mitte und ihr Ziel,^ldir gab der Vater die Gewalt,^ldie Herrschaft über alle Welt.^pDoch nicht auf Zwang baut deine Macht^lund nicht auf Furcht dein Königtum:^lIn Liebe ziehst du uns an dich –^lam Kreuz gemartert und erhöht.^pKomm, Herr, erweise deine Macht^lund richte deine Herrschaft auf.^lKomm und vollende jetzt dein Reich^lund führe uns zum Königsmahl.^pDir, Jesus, der durch Leid und Tod^lder Herrschaft Krone sich errang,^lsei mit dem Vater und dem Geist^lLob, Preis und Ruhm in Ewigkeit. Amen."
       }
   },
   346: {
@@ -2331,7 +2331,7 @@ export const psalmsData = {
   512: {
     0.0: {
         "quote": "Komplet",
-        "text": "Tod und Vergehen^lwaltet in allem,^lsteht über Menschen,^lPflanzen und Tieren,^lSternbild und Zeit.^pDu hast ins Leben^lalles gerufen,^lHerr, deine Schöpfung^lneigt sich zum Tode:^lHole sie heim.^pSchenke im Ende^lauch die Vollendung.^lNicht in die Leere^lfalle die Vielfalt^lirdischen Seins.^pHerr, deine Pläne^lbleiben uns dunkel. -^lDoch singen Lob wir^ldir, dem dreieinen,^lewigen Gott. Amen."
+        "text": "Tod und Vergehen^lwaltet in allem,^lsteht über Menschen,^lPflanzen und Tieren,^lSternbild und Zeit.^pDu hast ins Leben^lalles gerufen,^lHerr, deine Schöpfung^lneigt sich zum Tode:^lHole sie heim.^pSchenke im Ende^lauch die Vollendung.^lNicht in die Leere^lfalle die Vielfalt^lirdischen Seins.^pHerr, deine Pläne^lbleiben uns dunkel. –^lDoch singen Lob wir^ldir, dem dreieinen,^lewigen Gott. Amen."
       }
   },
   513: {
@@ -2504,7 +2504,7 @@ export const psalmsData = {
   },
   1201: {
     0.0: {
-        "text": "Hört, eine helle Stimme ruft^lund dringt durch Nacht und Finsternis:^lWacht auf und lasset Traum und Schlaf -^lam Himmel leuchtet Christus auf.^pDies ist der Hoffnung lichte Zeit;^lder Morgen kommt, der Tag bricht an:^lEin neuer Stern geht strahlend auf,^lvor dessen Schein das Dunkel flieht.^pVom Himmel wird als Lamm gesandt,^lder alle Sünde auf sich nimmt.^lWir blicken gläubig zu ihm auf^lund bitten ihn um sein Verzeihn,^pdass, wenn im Licht er wiederkommt,^lsein Glanz die Welt mit Schrecken schlägt,^ler nicht die Sünde strafend rächt,^luns liebend vielmehr bei sich birgt.^pRuhm, Ehre, Macht und Herrlichkeit^lsei Gott dem Vater und dem Sohn,^ldem Geiste, der uns Beistand ist,^ldurch alle Zeit und Ewigkeit. Amen."
+        "text": "Hört, eine helle Stimme ruft^lund dringt durch Nacht und Finsternis:^lWacht auf und lasset Traum und Schlaf –^lam Himmel leuchtet Christus auf.^pDies ist der Hoffnung lichte Zeit;^lder Morgen kommt, der Tag bricht an:^lEin neuer Stern geht strahlend auf,^lvor dessen Schein das Dunkel flieht.^pVom Himmel wird als Lamm gesandt,^lder alle Sünde auf sich nimmt.^lWir blicken gläubig zu ihm auf^lund bitten ihn um sein Verzeihn,^pdass, wenn im Licht er wiederkommt,^lsein Glanz die Welt mit Schrecken schlägt,^ler nicht die Sünde strafend rächt,^luns liebend vielmehr bei sich birgt.^pRuhm, Ehre, Macht und Herrlichkeit^lsei Gott dem Vater und dem Sohn,^ldem Geiste, der uns Beistand ist,^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   1301: {
@@ -2722,7 +2722,7 @@ export const psalmsData = {
   71118: {
     0.0: {
         "quote": "Märt-Ld",
-        "text": "Dem Herrn, der seiner Zeugen Dienst^lmit ewigen Geschenken lohnt,^lihm schalle heute unser Lob^lim Lied, das ihren Ruhm besingt.^pAls Helden stritten sie im Kampf^lund trugen mannhaft Qual und Pein -^lder Kirche Adel, unser Stolz,^ldie wahren Leuchten dieser Welt.^pSie überwanden alle Furcht^lund hielten selbst der Folter stand.^lIhr Mund bekannte ohne Scheu,^lwas ihres Herzens Glaube war.^pIn ihnen strahlt des Vaters Glanz,^lin ihnen wirkt des Geistes Kraft,^lin ihnen triumphiert der Sohn,^lund Jubel füllt den Himmelssaal.^pErlöser, Herr, wir bitten dich,^lerhöre gnädig unser Flehn:^lGib Anteil uns an ihrem Los,^llass uns mit ihnen bei dir sein! Amen."
+        "text": "Dem Herrn, der seiner Zeugen Dienst^lmit ewigen Geschenken lohnt,^lihm schalle heute unser Lob^lim Lied, das ihren Ruhm besingt.^pAls Helden stritten sie im Kampf^lund trugen mannhaft Qual und Pein –^lder Kirche Adel, unser Stolz,^ldie wahren Leuchten dieser Welt.^pSie überwanden alle Furcht^lund hielten selbst der Folter stand.^lIhr Mund bekannte ohne Scheu,^lwas ihres Herzens Glaube war.^pIn ihnen strahlt des Vaters Glanz,^lin ihnen wirkt des Geistes Kraft,^lin ihnen triumphiert der Sohn,^lund Jubel füllt den Himmelssaal.^pErlöser, Herr, wir bitten dich,^lerhöre gnädig unser Flehn:^lGib Anteil uns an ihrem Los,^llass uns mit ihnen bei dir sein! Amen."
       }
   },
   71119: {

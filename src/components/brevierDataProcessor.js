@@ -128,7 +128,6 @@ function mergeData(hours, currentData, nextData, source, hasErsteVesper_wt) {
 
         // Process next day's each data for vespers
         if (nextData.each) {
-            console.log('nextData.each: ', nextData.each)
             const processedNextEachData = processReferenceFields(nextData.each, false);
             Object.entries(processedNextEachData).forEach(([field, value]) => {
                 if (!field.startsWith(source)) {
@@ -140,12 +139,9 @@ function mergeData(hours, currentData, nextData, source, hasErsteVesper_wt) {
         // Try ErsteV first, fall back to Vesper if not found
         const vesperData = nextData.ErsteV || nextData.Vesper;
         if (vesperData) {
-            console.log('vesperData: ', vesperData)
             const processedVesperData = processReferenceFields(vesperData, false);
-            console.log('processedVesperData: ', processedVesperData)
             Object.entries(processedVesperData).forEach(([field, value]) => {
                 if (!field.startsWith(source)) {
-                    console.log('field und value:', field, value)
                     hours.vesper[source][field] = value;
                 }
             });
@@ -234,6 +230,7 @@ export function processBrevierData(liturgicalInfo) {
 
     // Initialize structure
     const hours = {
+        erstev: { wt: {} },
         invitatorium: { wt: {} },
         laudes: { wt: {} },
         lesehore: { wt: {} },
@@ -251,13 +248,11 @@ export function processBrevierData(liturgicalInfo) {
         // Layer 0.1: Ordinary texts
         const ordData = brevierData['p']?.['each']?.['each'];
         const nextOrdData = brevierData['p']?.['each']?.['each'];
-        console.log('0.1 ordData')
         mergeData(hours, ordData, nextOrdData, 'wt', hasErsteVesper_wt);
 
         // Layer 0.2: Weekly Ordinary texts
         const weeklyOrdData = brevierData['p']?.['each']?.[dayOfWeek];
         const nextWeeklyOrdData = brevierData['p']?.['each']?.[nextInfo.dayOfWeek];
-        console.log('0.2 weeklyOrdData')
         mergeData(hours, weeklyOrdData, nextWeeklyOrdData, 'wt', hasErsteVesper_wt);
 
         // Layer 1: Base layer from 4-week schema
@@ -265,34 +260,29 @@ export function processBrevierData(liturgicalInfo) {
         const nextAdjustedWeek = ((nextInfo.week + 3) % 4) + 1;
         const baseData = brevierData['p']?.[adjustedWeek]?.[dayOfWeek];
         const nextBaseData = brevierData['p']?.[nextAdjustedWeek]?.[nextInfo.dayOfWeek];
-        console.log('1. baseData')
         mergeData(hours, baseData, nextBaseData, 'wt', hasErsteVesper_wt);
 
         // Layer 1.1: Psalmen in der Lesehore im Jahreskreis
         if (season === 'j') {
             const ordbaseData = brevierData['pj']?.[adjustedWeek]?.[dayOfWeek];
             const nextOrdbaseData = brevierData['pj']?.[nextAdjustedWeek]?.[nextInfo.dayOfWeek];
-            console.log('1.1 ordbaseData')
             mergeData(hours, ordbaseData, nextOrdbaseData, 'wt', hasErsteVesper_wt);
         }
 
         // Layer 2: Season-wide texts
         const seasonData = brevierData[season]?.['each']?.['each'];
         const nextSeasonData = brevierData[nextInfo.season]?.['each']?.['each'];
-        console.log('2. seasonData')
         mergeData(hours, seasonData, nextSeasonData, 'wt', hasErsteVesper_wt);
 
         // Layer 3: Weekly schema for the season
         const weeklyData = brevierData[season]?.['each']?.[dayOfWeek];
         const nextWeeklyData = brevierData[nextInfo.season]?.['each']?.[nextInfo.dayOfWeek];
-        console.log('3. weeklyData')
         mergeData(hours, weeklyData, nextWeeklyData, 'wt', hasErsteVesper_wt);
 
         // Layer 4: Bi-weekly schema
         if (week % 2 === 0) {
             const evenData = brevierData[season]?.['even']?.[dayOfWeek];
             const nextEvenData = brevierData[nextInfo.season]?.['even']?.[nextInfo.dayOfWeek];
-            console.log('4. evenData')
             mergeData(hours, evenData, nextEvenData, 'wt', hasErsteVesper_wt);
         }
 

@@ -179,6 +179,7 @@ export function processBrevierData(liturgicalInfo) {
 
     // Initialize structure with hours and sources
     const hours = {
+        erstev: { wt: {} },
         invitatorium: { wt: {} },
         laudes: { wt: {} },
         lesehore: { wt: {} },
