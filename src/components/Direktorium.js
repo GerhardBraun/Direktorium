@@ -1203,6 +1203,9 @@ const PrayerTextDisplay = ({
             if (texts[hour][prefSrc]?.[field]) {
                 return texts[hour][prefSrc][field];
             }
+            if (field === 'ant_ev' && texts[hour][prefSrc]?.['ant_komm']) {
+                return texts[hour][prefSrc]['ant_komm'];
+            }
             if (texts[hour][prefComm1]?.[field]) {
                 return texts[hour][prefComm1][field];
             }
@@ -2003,94 +2006,93 @@ const PrayerTextDisplay = ({
             <div className="mt-2">
                 <BackButton onClick={onBack} />
             </div>
-            {isCommemoration && !prefSollemnity && (
-                <>
-                    <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6 pb-1">
-                        <SourceSelector
-                            prayerTexts={texts}
-                            selectedSource={prefSrc}
-                            prefSollemnity={prefSollemnity}
-                            useCommemoration={useCommemoration}
-                            setUseCommemoration={setUseCommemoration}
-                            viewMode={viewMode}
-                            season={season}
-                            hour={hour}
-                            reduced={true}
-                            onSourceSelect={(
-                                source, newPrefSrc, newPrefComm1, newPrefComm2, newSollemnity) => {
-                                onSourceSelect(newPrefSrc, newPrefComm1, newPrefComm2);
-                                setPrefSollemnity(newSollemnity);
-                            }}
-                            className="mb-4"
-                        />
+            {isCommemoration && !prefSollemnity &&
+                ['lesehore', 'laudes', 'vesper'].includes(hour) && (
+                    <>
+                        <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6 pb-1">
+                            <SourceSelector
+                                prayerTexts={texts}
+                                selectedSource={prefSrc}
+                                prefSollemnity={prefSollemnity}
+                                useCommemoration={useCommemoration}
+                                setUseCommemoration={setUseCommemoration}
+                                viewMode={viewMode}
+                                season={season}
+                                hour={hour}
+                                reduced={true}
+                                onSourceSelect={(
+                                    source, newPrefSrc, newPrefComm1, newPrefComm2, newSollemnity) => {
+                                    onSourceSelect(newPrefSrc, newPrefComm1, newPrefComm2);
+                                    setPrefSollemnity(newSollemnity);
+                                }}
+                                className="mb-4"
+                            />
 
-                        {getValue('c_patr_text') && (
-                            <div className="mb-1">
-                                <SectionHeader
-                                    title="ZWEITE LESUNG"
-                                    field="patr_text"
-                                />
-                                <div>
-                                    <div className='text-[0.9em] italic'>
-                                        {formatPrayerText(getValue('c_patr_autor'))}
-                                    </div>
-                                    {formatPrayerText(getValue('c_patr_werk'))}
-                                    {formatPrayerText(getValue('c_patr_text'))}
-                                </div>
-                            </div>)}
-
-                        {getValue('c_patr_resp1') && (
-                            <div className="mb-1">
-                                <SectionHeader title="RESPONSORIUM" field="resp1_1" />
-                                {getValue('c_patr_resp1') && getValue('c_patr_resp2') && (
-                                    <div className="mb-0 flex gap-0">
-                                        <Rubric>R&nbsp;&nbsp;</Rubric>
-                                        <div>
-                                            {formatPrayerText(getValue('c_patr_resp1'))}
-                                            <span style={{ color: rubricColor }}> *&nbsp;</span>
-                                            {formatPrayerText(getValue('c_patr_resp2'))}
-                                            {hour !== 'lesehore' && (
-                                                <span style={{ color: rubricColor }}>
-                                                    &nbsp;–&nbsp;R
-                                                </span>
-                                            )}
-                                        </div>
-                                    </div>
-                                )}
-                                {getValue('c_patr_resp3') && getValue('c_patr_resp2') && (
-                                    <PrayerResponse
-                                        resp1_3={getValue('c_patr_resp3')}
-                                        resp1_2={getValue('c_patr_resp2')}
-                                        rubricColor={rubricColor}
+                            {getValue('c_patr_text') && (
+                                <div className="mb-1">
+                                    <SectionHeader
+                                        title="ZWEITE LESUNG"
+                                        field="patr_text"
                                     />
-                                )}
-                            </div>)}
+                                    <div>
+                                        <div className='text-[0.9em] italic'>
+                                            {formatPrayerText(getValue('c_patr_autor'))}
+                                        </div>
+                                        {formatPrayerText(getValue('c_patr_werk'))}
+                                        {formatPrayerText(getValue('c_patr_text'))}
+                                    </div>
+                                </div>)}
 
-                        {getValue('c_ant_ev') && (
-                            <div className="mb-1">
-                                <SectionHeader
-                                    title={getCanticleTitle(hour)}
-                                    field='ant_ev'
+                            {getValue('c_patr_resp1') && (
+                                <div className="mb-1">
+                                    <SectionHeader title="RESPONSORIUM" field="resp1_1" />
+                                    {getValue('c_patr_resp1') && getValue('c_patr_resp2') && (
+                                        <div className="mb-0 flex gap-0">
+                                            <Rubric>R&nbsp;&nbsp;</Rubric>
+                                            <div>
+                                                {formatPrayerText(getValue('c_patr_resp1'))}
+                                                <span style={{ color: rubricColor }}> *&nbsp;</span>
+                                                {formatPrayerText(getValue('c_patr_resp2'))}
+                                                {hour !== 'lesehore' && (
+                                                    <span style={{ color: rubricColor }}>
+                                                        &nbsp;–&nbsp;R
+                                                    </span>
+                                                )}
+                                            </div>
+                                        </div>
+                                    )}
+                                    {getValue('c_patr_resp3') && getValue('c_patr_resp2') && (
+                                        <PrayerResponse
+                                            resp1_3={getValue('c_patr_resp3')}
+                                            resp1_2={getValue('c_patr_resp2')}
+                                            rubricColor={rubricColor}
+                                        />
+                                    )}
+                                </div>)}
 
-                                />
-                                <div className="mb-4">
-                                    <Rubric>Ant.&nbsp;</Rubric>
-                                    {formatPrayerText(getValue('c_ant_ev'))}
-                                </div>
-                            </div>)}
+                            {getValue('c_ant_ev') && (
+                                <div className="mb-1">
+                                    <SectionHeader
+                                        title={`${getCanticleTitle(hour)}-ANTIPHON`}
+                                        field='ant_ev'
+                                    />
+                                    <div className="mb-4">
+                                        {formatPrayerText(getValue('c_ant_ev'))}
+                                    </div>
+                                </div>)}
 
-                        {getValue('c_oration') && (
-                            <div className="mb-1">
-                                <SectionHeader title="ORATION" field="oration" />
-                                <div className="whitespace-pre-wrap">
-                                    {formatPrayerText(getValue('c_oration'))}
-                                </div>
-                            </div>)}
-                    </div>
-                    <div className="mt-2">
-                        <BackButton onClick={onBack} />
-                    </div>
-                </>)}
+                            {getValue('c_oration') && (
+                                <div className="mb-1">
+                                    <SectionHeader title="ORATION" field="oration" />
+                                    <div className="whitespace-pre-wrap">
+                                        {formatPrayerText(getValue('c_oration'))}
+                                    </div>
+                                </div>)}
+                        </div>
+                        <div className="mt-2">
+                            <BackButton onClick={onBack} />
+                        </div>
+                    </>)}
         </div>
     );
 };
