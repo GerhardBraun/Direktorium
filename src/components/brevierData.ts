@@ -2277,16 +2277,18 @@ export const brevierData = {
         }
       },
       "21": {
-        "each": {
-          "oration": "eig-1-21-each-Oration"
-        },
         "Invitatorium": {
-          "comm_1": "MärtSg_Jgfr"
+          "comm_1": "MärtSg_Jgfr",
+          "comm_2": "Jgfr"
         },
         "Laudes": {
           "comm_1": "MärtSg_Jgfr",
+          "comm_2": "Jgfr",
           "name": "Hl. Agnes",
           "farbe": "r",
+          "ps_1": 63.0,
+          "ps_2": 160.0,
+          "ps_3": 149.0,
           "ant_1": "Mit seinem Ring hat mich Christus, mein Herr, zur Treue verpflichtet und mich als Braut geschmückt mit einem Kranz.",
           "ant_2": "Ihm, dem die Engel dienen, bin ich angetraut. Seine Schönheit bewundern Sonne und Mond.",
           "ant_3": "Freut euch und dankt mit mir! Denn auf leuchtendem Thron ist mir ein Platz bereitet unter den Heiligen.",
@@ -2301,6 +2303,7 @@ export const brevierData = {
         },
         "Lesehore": {
           "comm_1": "MärtSg_Jgfr",
+          "comm_2": "Jgfr",
           "patr_autor": "Ambrosius (†°397)",
           "patr_werk": "Aus dem Buch über die Jungfrauen.",
           "patr_text": "^hSie war noch zu jung, um bestraft zu werden, aber schon reif, um zu siegen^p(Heute) ist der Gedenktag einer Jungfrau, lasst uns der Jungfräulichkeit folgen, es ist der Tag einer Märtyrin, lasst uns Gaben opfern! Es ist der Gedächtnistag der heiligen Agnes. Nach der Überlieferung hat sie mit zwölf Jahren das Martyrium erlitten. Welch abscheuerregende Grausamkeit, die auch das zarteste Alter nicht schonte! Aber groß war die Kraft des Glaubens, der auch von diesem Lebensalter Zeugnis erhielt.^pBot der kleine Leib Platz für Wunden? Sie hatte nichts, wo das Eisen sie treffen konnte; doch sie hatte, womit sie das Eisen besiegen konnte. Mädchen in diesem Alter können den strengen Blick der Eltern nicht ertragen und weinen über Nadelstiche wie über Wunden. Sie steht unerschrocken unter den blutigen Händen der Henker. Sie steht, unbewegt vom Klirren der Ketten. Sie bietet dem Dolch des wütenden Soldaten den ganzen Leib. Sie weiß noch nicht, was Sterben heißt, aber sie ist bereit. Gegen ihren Willen wird sie zum Altar gezerrt. Sie breitet inmitten der Flammen die Hände auf Christus hin aus, gerade dort am Götzenaltar bezeichnet sie sich mit dem Zeichen Christi, des Siegers. Jetzt legt sie Nacken und Hände in die eisernen Fesseln, aber keine Fessel vermag die zarten Glieder zu fassen.^pIst es eine neue Art des Martyriums? Noch zu jung, um bestraft zu werden, ist sie schon reif zum Sieg. Schwerlich kann sie kämpfen, doch leicht erringt sie den Siegeskranz. Sie ist eine Lehrmeisterin der Tugend und kann es doch dem Alter nach nicht sein. So eilt die Vermählte nicht zum Brautgemach wie die Jungfrau freudigen Schrittes und eilenden Fußes zum Richtplatz, das Haupt nicht im Schmuck des kunstvoll geflochtenen Haares, sondern mit Christus gekrönt, nicht mit Blumen umwunden, sondern mit Tugenden geziert.^pAlle weinen, nur sie nicht. Viele staunen, dass sie so leichthin das Leben verschwendet, als hätte sie schon ausgekostet, wovon sie kaum nippen durfte. Alle waren starr darüber, dass sie schon Zeugin der Gottheit war, obwohl sie dem Alter nach kaum rechtsfähig war. Aber sie brachte es dahin, dass Gott ihr die Zeugenfähigkeit gab, die ihr die Menschen versagten. Was die Kraft der Natur übersteigt, das wirkt der Schöpfer der Natur.^pMit welchen Schrecken droht der Henker, um sie einzuschüchtern, wie schmeichelt er, um sie zu verführen! Was versprechen ihr die vielen Freier alles, um sie heimzuführen! Sie aber spricht: Schon das wäre Unrecht gegen den Bräutigam, wollte ich darauf warten, ob ich jemand gefalle. Der mich zuerst erwählte, dem will ich gehören. Auf was wartest du, Henker? Der Leib vergehe; ihn könnten Augen lieben, deren Liebe ich nicht mag!^pDa stand sie, betete und beugte den Nacken. Da konntest du den Scharfrichter zittern sehen, als wäre er der Verurteilte. Seine Rechte schwankte, sein Gesicht wurde blass. Ihn sehreckte die Bedrohung des fremden Mädchens, das selbst die Gefahr nicht fürchtete.^pDa seht ihr an der einen Opfergabe das zweifache Martyrium: das der Reinheit und das des Glaubens. Sie blieb Jungfrau und gewann das Martyrium.",
@@ -2311,6 +2314,10 @@ export const brevierData = {
         },
         "Vesper": {
           "comm_1": "MärtSg_Jgfr",
+          "comm_2": "Jgfr",
+          "ps_1": 116.1,
+          "ps_2": 116.2,
+          "ps_3": 153.0,
           "ant_1": "Mich schreckt keine Drohung, und kein Versprechen kann mich verlocken; denn als Jungfrau gehöre ich Christus an.",
           "ant_2": "Ihm allein bewahre ich die Treue, ihm weihe ich mich von ganzem Herzen.",
           "ant_3": "Ich preise dich, Vater meines Herrn Jesus Christus; denn durch ihn, deinen Sohn, hast du deiner Magd den Sieg verliehen.",
@@ -3033,14 +3040,19 @@ export const brevierData = {
         "Vesper": {}
       },
       "11": {
-        "each": {
-          "comm_1": "Mar",
-          "oration": "eig-6-11-each-Oration"
+        "Invitatorium": {
+          "ant_0": "Durch Propheten und Lehrer hat Gottes Geist zu uns gesprochen; kommt, wir beten ihn an!"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
+        "Laudes": {
+          "comm_1": "Apostel",
+          "name": "Barnabas",
+          "farbe": "r"
+        },
+        "Lesehore": {
+          "comm_1": "Apostel"
+        },
         "Vesper": {
+          "comm_1": "Apostel",
           "ant_ev": "Die ganze Versammlung schwieg. Und Barnabas und Paulus erzählten, welch große Zeichen und Wunder Gott durch sie getan hatte unter den Heiden.^ö"
         }
       },

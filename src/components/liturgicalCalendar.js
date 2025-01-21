@@ -22,7 +22,7 @@ function calculateRanks(date, season, week, dayOfWeek, combinedSWD) {
         }
 
         // 3. Karwoche
-        if (combinedSWD === 'q-6-0') {
+        if (combinedSWD.startsWith('q-6-')) {
             return 5;
         }
 
@@ -43,7 +43,7 @@ function calculateRanks(date, season, week, dayOfWeek, combinedSWD) {
         // 6. Gebotene Gedenktage und Kommemoration
         if ((date.getMonth() + 1 === 12 && date.getDate() > 16) ||  // letzte Adventstage und Weihnachtszeit
             (season === 'q') ||                                      // Wochentage der Fastenzeit
-            (season === 'o' && week === 9 && dayOfWeek === 6)       // Herz Mariae
+            (combinedSWD === 'o-9-6')       // Herz Mariae
         ) {
             return 2;
         }
@@ -220,13 +220,20 @@ const getLiturgicalInfo = (date) => {
     const dayOfWeek = date.getDay();
     const combinedSWD = `${season}-${week}-${dayOfWeek}`;
     const ranks = calculateRanks(date, season, week, dayOfWeek, combinedSWD);
+    const month = (date.getMonth() + 1);
+    const day = date.getDate();
+    const isCommemoration = (season === 'q' && ranks.rank_date < 3)
+        || (month === 12 && day > 16)
+
+    console.log('isCommemoration: ', isCommemoration)
 
     return {
         season,
         week,
         dayOfWeek,
         ...ranks,  // Fügt rank_wt, rank_date und combinedSWD zum Return-Objekt hinzu
-        combinedSWD
+        combinedSWD,
+        isCommemoration
     };
 };
 

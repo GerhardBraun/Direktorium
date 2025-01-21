@@ -31,17 +31,20 @@ const SourceSelector = ({
     hour = '',
     season = 'j',
     prefSollemnity,  // nur der Wert, keine Setter-Funktion
+    useCommemoration, setUseCommemoration,
+    reduced,
     className = ''
 }) => {
     // Funktion zum Behandeln der Quellenauswahl
     const handleSourceSelect = (source, setSollemnity = false) => {
-        console.log('handleSourceSelect: ', viewMode, source)
         const newSollemnity = blockToggle || setSollemnity;
         if (!blockToggle || source !== 'wt') {
             const newPrefSrc = (source === 'wt') ? 'eig' : source;
             const newPrefComm1 = (source === 'eig' || source === 'wt') ? 'com1' : `${source}com1`;
             const newPrefComm2 = (source === 'eig' || source === 'wt') ? 'com2' : `${source}com2`;
             onSourceSelect(source, newPrefSrc, newPrefComm1, newPrefComm2, newSollemnity);
+            if (isCommemoration && source !== 'wt') { setUseCommemoration(isCommemoration) };
+            if (source === 'wt') { setUseCommemoration(false) }
         }
     };
 
@@ -50,11 +53,20 @@ const SourceSelector = ({
         if (useToggle && !blockToggle) {
             // Die aktuelle Quelle beibehalten, nur prefSollemnity umschalten
             handleSourceSelect(selectedSource, !prefSollemnity)
+
         }
     };
 
-    const showWt = prayerTexts?.rank_wt < 3 && hasValidSource(prayerTexts, 'n1') && !hasValidSource(prayerTexts, 'eig')
-    const useToggle = !(showWt && selectedSource === 'eig')
+    const rank_date = prayerTexts?.rank_date || 0
+    const hasEig = hasValidSource(prayerTexts, 'eig')
+    const hasN1 = hasValidSource(prayerTexts, 'n1')
+    const isCommemoration = season === 'q' && rank_date < 3
+    const showWt = prayerTexts?.rank_wt < 3
+        && (
+            (hasN1 && !hasEig) ||
+            (isCommemoration && (hasEig || hasN1))
+        )
+    const useToggle = !(showWt && selectedSource === 'eig') || useCommemoration
     const blockToggle = (viewMode === 'prayerText' && hour === 'erstev')
 
     if (!prayerTexts) return null;
@@ -63,55 +75,62 @@ const SourceSelector = ({
         <div className={`space-y-1 ${className}`}>
             {/* Bezeichnung Hochfest/Fest/Gedenktag */}
 
-            {prayerTexts.laudes?.wt?.name && !hasValidSource(prayerTexts, 'eig') && (
+            {prayerTexts.laudes?.wt?.name && !hasEig && (
                 <div className="text-center text-xl font-bold text-gray-900 dark:text-gray-100">
                     {prayerTexts.laudes.wt.name}
                 </div>
             )}
-
             {/* Weekday Button */}
-            {showWt && (
+            {showWt && !reduced && (<>
                 <button
                     onClick={() => handleSourceSelect('wt')}
                     className={`w-full p-1 mb-1 text-sm text-center rounded-sm
                          ${getWeekdayButtonColor(season)}
-                        ${selectedSource === 'eig' ? 'ring-2 ring-yellow-500' : ''}`}
+                        ${(selectedSource === 'eig' && !useCommemoration) ? 'ring-2 ring-yellow-500' : ''}`}
                 >
                     Vom Wochentag
                 </button>
+                {isCommemoration && (
+                    <div className='text-center text-xs text-yellow-600 dark:text-yellow-500'>
+                        Für die Kommemoration:</div>)}
+            </>
             )}
-
+            {reduced && (<>
+                <div className='text-center text-sm text-yellow-600 dark:text-yellow-500'>
+                    Für die Kommemoration:</div>
+            </>
+            )}
             {/* Saint Selection Buttons */}
             {['eig', 'n1', 'n2', 'n3', 'n4', 'n5'].map(source => {
                 if (!hasValidSource(prayerTexts, source)) return null;
-
+                const doUnderline = selectedSource === source &&
+                    (!isCommemoration || (isCommemoration && useCommemoration))
                 return (
                     <button
                         key={source}
                         onClick={() => handleSourceSelect(source)}
                         className={`w-full p-1 pt-2 text-sm text-center rounded-sm 
                                     ${getButtonColor(prayerTexts, source)}
-                                    ${selectedSource === source ? 'ring-2 ring-yellow-500' : ''}`}
+                                    ${(doUnderline) ? 'ring-2 ring-yellow-500' : ''}`}
                     >
                         {prayerTexts.laudes[source].name || "ein Heiliger"}
                     </button>
                 );
             })}
-            {prayerTexts?.rank_wt < 5 &&
-                (hasValidSource(prayerTexts, 'eig') || hasValidSource(prayerTexts, 'n1')) && (
-                    <>
-                        <button
-                            onClick={toggleSollemnity}
-                            className={`w-full pt-2 text-center rounded-sm 
+            {prayerTexts?.rank_date < 5 && (hasEig || hasN1) && !reduced && (
+                <>
+                    <button
+                        onClick={toggleSollemnity}
+                        className={`w-full pt-2 text-center rounded-sm 
                     bg-gray-100 dark:bg-gray-900 text-xs
                     ${useToggle ? 'text-yellow-600 dark:text-yellow-500' : 'text-gray-200 dark:text-gray-800'} 
                     hover:bg-gray-100 dark:bg-gray-800
                     ${prefSollemnity ? 'ring-2 ring-yellow-500' : ''}`}
-                        >
-                            lokale Feier als Hochfest
-                        </button>
-                    </>
-                )}
+                    >
+                        lokale Feier als Hochfest
+                    </button>
+                </>
+            )}
         </div>
     );
 };

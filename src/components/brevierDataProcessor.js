@@ -151,7 +151,8 @@ function mergeData(hours, currentData, nextData, source, hasErsteVesper_wt) {
 }
 
 export function processBrevierData(liturgicalInfo) {
-    const { season: todaySeason, week: todayWeek, dayOfWeek: todayDayOfWeek, selectedDate: todayDate } = liturgicalInfo;
+    const { season: todaySeason, week: todayWeek, dayOfWeek: todayDayOfWeek,
+        selectedDate: todayDate } = liturgicalInfo;
 
     // Berechne die verschiedenen relevanten Tage
     const todayInfo = getLiturgicalInfo(todayDate);
@@ -211,17 +212,13 @@ export function processBrevierData(liturgicalInfo) {
     const nextCalendarMonth = nextDate.getMonth() + 1;
     const nextCalendarDay = nextDate.getDate();
 
-    const { season, week, dayOfWeek, rank_wt, rank_date } = getLiturgicalInfo(selectedDate);
+    const { season, week, dayOfWeek, rank_wt, rank_date, isCommemoration } = getLiturgicalInfo(selectedDate);
     const { rank_wt: nextRank_wt, rank_date: nextRank_date } = getLiturgicalInfo(nextDate);
 
     // Determine if we need first vespers
     const { hasErsteVesper_wt, hasErsteVesper_date } = needsFirstVespers(
         selectedDate, rank_wt, rank_date, nextRank_wt, nextRank_date, dayOfWeek
     );
-
-    console.log('Heute: ', season, week, dayOfWeek,
-        '\nmorgen: ', nextInfo.season, nextInfo.week, nextDate.getDay(),
-        '\nErste Vesper (wt/date): ', hasErsteVesper_wt, hasErsteVesper_date)
 
     function getLectureData(date) {
         const year = date.getFullYear();
@@ -351,7 +348,8 @@ export function processBrevierData(liturgicalInfo) {
         mergeData(hours, specificLect, nextSpecificLect, 'wt', hasErsteVesper_wt);
 
         // Layer 7-9: Process Commune and special texts
-        if (rank_date > 1 && rank_date > rank_wt) {
+        if ((rank_date > 1 && rank_date > rank_wt)
+            || (rank_date === 2 && rank_wt === 2)) {
             // Layer 7: Process Commune texts
             const communeData = brevierData?.['eig']?.[calendarMonth]?.[calendarDay];
             if (communeData) {
@@ -517,6 +515,7 @@ export function processBrevierData(liturgicalInfo) {
             rank_date,
             nextRank_wt,
             nextRank_date,
+            isCommemoration,
             ...cleanupZeroReferences(hours)
         };
 
