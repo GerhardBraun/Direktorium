@@ -66,7 +66,7 @@ const SourceSelector = ({
         )
     const useToggle = !(showWt && selectedSource === 'eig') || useCommemoration
     const blockToggle = (viewMode === 'prayerText' && hour === 'erstev')
-    console.log('SourceSelector: prefSollemnity: ', prefSollemnity)
+
     if (!prayerTexts) return null;
 
     return (

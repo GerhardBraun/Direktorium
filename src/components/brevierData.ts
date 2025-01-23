@@ -8711,7 +8711,7 @@ export const brevierData = {
         "Non": {
           "les_buch": "Gal",
           "les_stelle": "5,22–23a.25",
-          "les_text": "Die Frucht des Geistes aber ist Liebe, Freude, Friede, Langmut, Freundlichkeit, Güte, Treue, Sanftmut und Selbstbeherrschung. Wenn wir aus dem Geist leben, dann wollen wir dem Geist auch folgen.",
+          "les_text": "Die Frucht des Geistes ist Liebe, Freude, Friede, Langmut, Freundlichkeit, Güte, Treue, Sanftmut und Selbstbeherrschung. Wenn wir aus dem Geist leben, dann wollen wir dem Geist auch folgen.",
           "resp1_0": "Herr, zeige mir den Weg, den ich gehen soll.",
           "resp1_1": "Dein guter Geist geleite mich auf ebenem Pfad.",
           "oration": "Herr, gib uns die Kraft, dem Leidensmut deines eingeborenen Sohnes zu folgen und die Widrigkeiten des Lebens in Geduld zu ertragen. Darum bitten wir durch ihn, Christus, unseren Herrn."
@@ -8755,7 +8755,7 @@ export const brevierData = {
           "ant_ev": "Selig, die hungern nach der Gerechtigkeit; der Herr wird sie sättigen und mit seinen Gaben beschenken.",
           "bitten_e": "Lasst uns beten zu unserem Herrn und Erlöser Jesus Christus:",
           "bitten_r": "Herr, segne dein Volk.",
-          "bitten": "Behüte unser Land ^(unsere Stadt, unsere Gemeinde^)^qund bewahre es (sie) vor Schaden.^pSchütze unseren Papst ^N. und unseren Bischof ^N.;^qgib, dass sie deiner Kirche als gute Hirten dienen.^pRufe junge Männer in deine Nachfolge;^qmach sie zu treuen Dienern deines Altars.^pBehüte die dir geweihten Jungfrauen;^qschenke ihnen Freude in deinem Dienst.^pNimm unsere Verstorbenen auf zu dir;^qlass sie ruhen in deinem Frieden.",
+          "bitten": "Behüte unser Land ^(unsere Stadt, unsere Gemeinde^)^qund bewahre es ^(sie^) vor Schaden.^pSchütze unseren Papst ^N. und unseren Bischof ^N.;^qgib, dass sie deiner Kirche als gute Hirten dienen.^pRufe junge Männer in deine Nachfolge;^qmach sie zu treuen Dienern deines Altars.^pBehüte die dir geweihten Jungfrauen;^qschenke ihnen Freude in deinem Dienst.^pNimm unsere Verstorbenen auf zu dir;^qlass sie ruhen in deinem Frieden.",
           "oration": "Gütiger Gott, nimm unser Abendopfer an. Gib, dass unser Herz niemals aufhört, über deine Weisung nachzusinnen, und schenke uns als Lohn das Licht des ewigen Lebens. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         }
       },

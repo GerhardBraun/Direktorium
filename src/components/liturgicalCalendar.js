@@ -127,14 +127,14 @@ const calculateEaster = (year) => {
     const month = Math.floor((h + l - 7 * m + 114) / 31);
     const day = ((h + l - 7 * m + 114) % 31) + 1;
 
-    return new Date(year, month - 1, day);
+    return new Date(Date.UTC(year, month - 1, day));
 };
 
 // Get next Sunday after or on the given date
 const getNextSunday = (date) => {
     const d = new Date(date);
     const dayToSunday = 7 - d.getDay();
-    d.setDate(d.getDate() + (dayToSunday % 7));
+    d.setUTCDate(d.getUTCDate() + (dayToSunday % 7));
     return d;
 };
 
@@ -151,18 +151,26 @@ const isSpecialEasterFeast = (date, easter) => {
 };
 
 // Get liturgical information for a given date
-const getLiturgicalInfo = (date) => {
-    const year = date.getFullYear();
+const getLiturgicalInfo = (provDate) => {
+    // Normalisiere das Eingabedatum auf Mitternacht
+    const date = new Date(Date.UTC(
+        provDate.getFullYear(),
+        provDate.getMonth(),
+        provDate.getDate()
+    ));
 
-    // Calculate key dates
-    const christmas = new Date(year - 1, 11, 25);
+    const year = date.getUTCFullYear();
+
+    // Berechne Schlüsseldaten und normalisiere sie
+    const christmas = new Date(Date.UTC(year - 1, 11, 25));
+    christmas.setHours(0, 0, 0, 0);
     const christmasSunday = getNextSunday(christmas);
-    const baptism = getNextSunday(new Date(year, 0, 7));
+    const baptism = getNextSunday(new Date(Date.UTC(year, 0, 7)));
     const easter = calculateEaster(year);
     const lentSunday = new Date(easter.getTime() - 42 * 24 * 60 * 60 * 1000);
     const pentecost = new Date(easter.getTime() + 49 * 24 * 60 * 60 * 1000);
-    const advent = new Date(year, 11, 25);
-    advent.setDate(advent.getDate() - (advent.getDay() || 7) - 21);
+    const advent = new Date(Date.UTC(year, 11, 25));
+    advent.setUTCDate(advent.getUTCDate() - (advent.getUTCDay() || 7) - 21);
 
     // Helper function for week calculation
     const weeksBetween = (start, current) =>
@@ -171,7 +179,7 @@ const getLiturgicalInfo = (date) => {
     let season, week;
 
     // Christmas Season until Baptism
-    if (date.setHours(0, 0, 0, 0) < baptism.setHours(0, 0, 0, 0)) {
+    if (date < baptism) {
         season = LiturgicalSeason.CHRISTMAS;
         week = weeksBetween(christmasSunday, date);
     }
@@ -191,7 +199,7 @@ const getLiturgicalInfo = (date) => {
         week = weeksBetween(lentSunday, date);
     }
     // Easter through Pentecost Monday
-    else if (date.setHours(0, 0, 0, 0) <= pentecost) {
+    else if (date <= pentecost) {
         season = LiturgicalSeason.EASTER;
         week = weeksBetween(easter, date);
     }
@@ -217,11 +225,11 @@ const getLiturgicalInfo = (date) => {
         }
     }
 
-    const dayOfWeek = date.getDay();
+    const dayOfWeek = date.getUTCDay();
     const combinedSWD = `${season}-${week}-${dayOfWeek}`;
     const ranks = calculateRanks(date, season, week, dayOfWeek, combinedSWD);
-    const month = (date.getMonth() + 1);
-    const day = date.getDate();
+    const month = (date.getUTCMonth() + 1);
+    const day = date.getUTCDate();
     const isCommemoration = (season === 'q' && ranks.rank_date < 3)
         || (month === 12 && day > 16)
 

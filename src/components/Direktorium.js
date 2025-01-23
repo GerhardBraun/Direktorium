@@ -974,6 +974,7 @@ const PrayerMenu = ({ title, onSelectHour, viewMode, setViewMode, season,
 }) => {
     const [liturgicalInfo, setLiturgicalInfo] = useState(null);
     const [prayerTexts, setPrayerTexts] = useState(null);  // Neuer State für die Gebetstext-Daten
+    const rank_wt = prayerTexts?.rank_wt || 0
     const rank_date = prayerTexts?.rank_date || 0
     const isCommemoration = season === 'q' && rank_date < 3
 
@@ -1092,7 +1093,8 @@ const PrayerMenu = ({ title, onSelectHour, viewMode, setViewMode, season,
                             displayText = prayerTexts.vesper.wt.name;
                         } else {
                             const dayOfWeek = selectedDate.getDay();
-                            if (dayOfWeek === 6 && rank_date < 4 && !prefSollemnity) { // Samstag
+                            if (dayOfWeek === 6 && rank_date < 4 &&
+                                rank_wt < 5 && !prefSollemnity) { // Samstag
                                 displayText = '1. Vesper vom Sonntag';
                             } else {
                                 if (prefSollemnity) { displayText = 'Zweite Vesper' }
@@ -1228,12 +1230,12 @@ const PrayerTextDisplay = ({
             return null;
         }
 
-        if (field.startsWith('ant_') && !field === 'ant_0' &&
-            (texts[hour]?.['eig']?.['ant_0']
+        if (field.startsWith('ant_') && field !== 'ant_0') {
+            if (texts[hour]?.['eig']?.['ant_0']
                 || (localPrefComm === 1 && texts[hour]?.[prefSrc]?.['com1']?.['ant_0'])
-                || (localPrefComm === 2 && texts[hour]?.[prefSrc]?.['com2']?.['ant_0']))
-        ) {
-            return null;
+                || (localPrefComm === 2 && texts[hour]?.[prefSrc]?.['com2']?.['ant_0'])) {
+                return null;
+            }
         }
 
         //Sonderfall Wochentagspsalmen:
@@ -1255,16 +1257,17 @@ const PrayerTextDisplay = ({
         }
 
         // Prüfe, ob Commune übersprungen werden soll
-        const skipCommune = rank_date < 3 && !prefSollemnity && (
-            // Bedingung 1: Lesehore
-            (hour === 'lesehore' && !field.startsWith('hymn_') && field !== 'oration') ||
-            // Bedingung 2: Laudes/Vesper Psalmodie
-            ((hour === 'laudes' || hour === 'vesper') &&
-                (field.startsWith('ps_') ||
-                    (field.startsWith('ant_') && !field.startsWith('ant_ev')))) ||
-            // Bedingung 3: Kleinen Horen
-            ['terz', 'sext', 'non'].includes(hour)
-        );
+        const skipCommune = rank_date < 3 && !prefSollemnity &&
+            !(texts.hasErsteVesper && hour === 'vesper') && (
+                // Bedingung 1: Lesehore
+                (hour === 'lesehore' && !field.startsWith('hymn_') && field !== 'oration') ||
+                // Bedingung 2: Laudes/Vesper Psalmodie
+                ((hour === 'laudes' || hour === 'vesper') &&
+                    (field.startsWith('ps_') ||
+                        (field.startsWith('ant_') && !field.startsWith('ant_ev')))) ||
+                // Bedingung 3: Kleinen Horen
+                ['terz', 'sext', 'non'].includes(hour)
+            );
 
         if (!isCommemoration) {  // an Tagen mit Kommemoration nur wt-Werte
             // 1. Prüfe zuerst prefSrc
@@ -1279,7 +1282,8 @@ const PrayerTextDisplay = ({
                     return texts[hour][prefSrc]?.['com2'][field];
                 }
                 // Prüfe com1 wenn prefComm = 1 oder prefSollemnity gewählt ist
-                if ((localPrefComm === 1 || prefSollemnity)
+                if ((localPrefComm === 1 || prefSollemnity ||
+                    (texts.hasErsteVesper && hour === 'vesper'))
                     && texts[hour][prefSrc]?.['com1']?.[field]) {
                     return texts[hour][prefSrc]?.['com1'][field];
                 }
@@ -1337,7 +1341,6 @@ const PrayerTextDisplay = ({
                 // Bedingung 3: Kleinen Horen
                 ['terz', 'sext', 'non'].includes(hour)
             ));
-        if (hour === 'invitatorium') { console.log('SectionHeader: ', field, showSources, skipCommune) }
         if (title === "RESPONSORIUM" ||
             (!showSources && !hasLatin && !showPsalmsWt && !showContinuous && !showTSN)) {
             return <h2 className="prayer-heading">{title}</h2>;

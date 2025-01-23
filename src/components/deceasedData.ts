@@ -683,6 +683,16 @@ export const deceasedData =  {
         "age": 59
       }
     ],
+    "19": [
+      {
+        "year": 2025,
+        "birthdate": "2242-04-15",
+        "name": "Albert°Köchling, Pfr.i.R., Marburg",
+        "birth": "15.°April°1942°in°Volkmarsen",
+        "grave": "Hauptfriedhof°am°Rotenberg,°Marburg",
+        "age": 82
+      }
+    ],
     "20": [
       {
         "year": 1967,
@@ -4781,7 +4791,7 @@ export const deceasedData =  {
         "birthdate": "2243-03-02",
         "name": "Victor John°Gustitus°(Oklahoma°und°Tulsa/USA), Diakon, Marburg",
         "birth": "2.°März°1943°in°Little°Rock/Arkansas",
-        "grave": "Hauptfriedhof Marburg",
+        "grave": "Hauptfriedhof°am°Rotenberg,°Marburg",
         "age": 81
       }
     ],
