@@ -41,7 +41,7 @@ export const psalmsData = {
         "verses": "2–9",
         "title": "Gebet am Abend",
         "quote": "Wunderbar hat der Herr an ihm gehandelt, den er von den Toten auferweckte. (Augustinus)",
-        "text": "Wenn ich rufe, erhöre mich,^*Gott, du mein Retter!^pDu hast mir Raum geschaffen, als mir angst war.^*Sei mir gnädig und hör auf mein Flehen!^pIhr Mächtigen, wie lange noch schmäht ihr meine Ehre,^*warum liebt ihr den Schein und sinnt auf Lügen?^pErkennt doch: Wunderbar handelt der HERR an den Frommen;^*der HERR erhört mich, wenn ich zu ihm rufe.^pEreifert ihr euch, so sündigt nicht!^*Bedenkt es auf eurem Lager und werdet still!^pBringt rechte Opfer dar^*und vertraut auf den HERRN!^pViele sagen: „Wer lässt uns Gutes erleben?“^*HERR, lass dein Angesicht über uns leuchten!^pDu legst mir größere Freude ins Herz,^*als andere haben bei Korn und Wein in Fülle.^pIn Frieden leg ich mich nieder und schlafe ein;^*denn du allein, Herr, lässt mich sorglos ruhen.^p"
+        "text": "Wenn ich rufe, erhöre mich,^*Gott, du mein Retter!^pDu hast mir Raum geschaffen, als mir angst war.^*Sei mir gnädig und hör auf mein Flehen!^pIhr Mächtigen, wie lange noch schmäht ihr meine Ehre,^*warum liebt ihr den Schein und sinnt auf Lügen?^pErkennt doch: Wunderbar handelt der Herr an den Frommen;^*der Herr erhört mich, wenn ich zu ihm rufe.^pEreifert ihr euch, so sündigt nicht!^*Bedenkt es auf eurem Lager und werdet still!^pBringt rechte Opfer dar^*und vertraut auf den Herrn!^pViele sagen: „Wer lässt uns Gutes erleben?“^*Herr, lass dein Angesicht über uns leuchten!^pDu legst mir größere Freude ins Herz,^*als andere haben bei Korn und Wein in Fülle.^pIn Frieden leg ich mich nieder und schlafe ein;^*denn du allein, Herr, lässt mich sorglos ruhen.^p"
       }
   },
   5: {
@@ -1036,7 +1036,7 @@ export const psalmsData = {
         "verses": "1-12",
         "title": "Gottes Herrlichkeit",
         "quote": "Dieser Psalm deutet hin auf den Erlöser der Welt und darauf, dass die Völker an ihn glauben. (Athanasius)",
-        "text": "Der Herr ist König. Die Erde frohlocke!^*Freuen sollen sich die vielen Inseln.^pRings um ihn her sind Wolken und Dunkel,^*Gerechtigkeit und Recht sind die Stützen seines Throns.^pVerzehrendes Feuer läuft vor ihm her^*und frisst seine Gegner ringsum.^pSeine Blitze erhellen den Erdkreis;^*die Erde sieht es und bebt.^pBerge schmelzen wie Wachs vor dem Herrn,^*vor dem Antlitz des Herrschers aller Welt.^pSeine Gerechtigkeit verkünden die Himmel,^*seine Herrlichkeit schauen alle Völker.^pAlle, die Bildern dienen, werden zuschanden,^+alle, die sich der Götzen rühmen.^*Vor ihm werfen sich alle Götter nieder.^pZion hört es und freut sich,^*Judas Töchter jubeln, Herr, über deine Gerichte.^pDenn du, Herr, bist der Höchste über der ganzen Erde,^*hoch erhaben über alle Götter.^pIhr, die ihr den Herrn liebt, hasst das Böse!^+Er behütet das Leben seiner Frommen,^*er entreißt sie der Hand der Frevler.^pEin Licht erstrahlt den Gerechten^*und Freude den Menschen mit redlichem Herzen.^pIhr Gerechten, freut euch am Herrn^*und lobt seinen heiligen Namen!"
+        "text": "^(Der Herr ist König. Die Erde frohlocke!^)^*Freuen sollen sich die vielen Inseln.^pRings um ihn her sind Wolken und Dunkel,^*Gerechtigkeit und Recht sind die Stützen seines Throns.^pVerzehrendes Feuer läuft vor ihm her^*und frisst seine Gegner ringsum.^pSeine Blitze erhellen den Erdkreis;^*die Erde sieht es und bebt.^pBerge schmelzen wie Wachs vor dem Herrn,^*vor dem Antlitz des Herrschers aller Welt.^pSeine Gerechtigkeit verkünden die Himmel,^*seine Herrlichkeit schauen alle Völker.^pAlle, die Bildern dienen, werden zuschanden,^+alle, die sich der Götzen rühmen.^*Vor ihm werfen sich alle Götter nieder.^pZion hört es und freut sich,^*Judas Töchter jubeln, Herr, über deine Gerichte.^pDenn du, Herr, bist der Höchste über der ganzen Erde,^*hoch erhaben über alle Götter.^pIhr, die ihr den Herrn liebt, hasst das Böse!^+Er behütet das Leben seiner Frommen,^*er entreißt sie der Hand der Frevler.^pEin Licht erstrahlt den Gerechten^*und Freude den Menschen mit redlichem Herzen.^pIhr Gerechten, freut euch am Herrn^*und lobt seinen heiligen Namen!"
       }
   },
   98: {
@@ -1490,7 +1490,7 @@ export const psalmsData = {
         "verses": "1-3",
         "title": "Nächtliches Gotteslob",
         "quote": "Preist unseren Gott, all seine Knechte und alle, die ihn fürchten, Große und Kleine! (Offb 19,5)",
-        "text": "Wohlan, nun preiset den HERRN,^*all ihr Knechte des Herrn,^pdie ihr steht im Haus des HERRN,^*zu nächtlicher Stunde.^pErhebt eure Hände zum Heiligtum^*und preiset den HERRN!^pEs segne dich der HERR vom Zion her,^*der HERR, der Himmel und Erde gemacht hat."
+        "text": "Wohlan, nun preiset den Herrn,^*all ihr Knechte des Herrn,^pdie ihr steht im Haus des Herrn,^*zu nächtlicher Stunde.^pErhebt eure Hände zum Heiligtum^*und preiset den Herrn!^pEs segne dich der Herr vom Zion her,^*der Herr, der Himmel und Erde gemacht hat."
       }
   },
   135: {
@@ -1634,7 +1634,7 @@ export const psalmsData = {
       }
   },
   147: {
-    0.0: {
+    1.0: {
         "verses": "1-11",
         "title": "Gottes gütiges Walten",
         "quote": "Dich, Gott, loben wir, dich, Herr, preisen wir.",
@@ -1949,7 +1949,7 @@ export const psalmsData = {
   },
   202: {
     0.0: {
-        "text": "Benedictus Dóminus Deus Israel,^*quia visitávit et fecit redemptiónem plebis suæ;^pet eréxit cornu salútis nobis,^*in domo David, púeri sui:^psicut locútus est per os sanctórum,^*qui a sæculo sunt, prophetárum eius;^psalútem ex inimícis nostris,^*et de manu ómnium, qui odérunt nos:^pad faciéndam misericórdiam cum pátribus nostris,^*et memorári testaménti sui sancti;^piusiurándum, quod iurávit ad Abraham, patrem nostrum,^*datúrum se nobis,^put sine timóre, de manu inimicórum nostrórum liberáti,^*serviámus illi,^pin sanctitáte et iustítia coram ipso,^*ómnibus diébus nostris.^pEt tu, puer, prophéta Altíssimi vocáberis:^*præíbis enim ante fáciem Dómini paráre vias eius,^pad dandam sciéntiam salútis plebi eius,^*in remissiónem peccatórum eórum,^pper víscera misericórdiæ Dei nostri,^*in quibus visitávit nos Oriens ex alto:^pillumináre his, qui in ténebris et in umbra mortis sedent,^*ad dirigéndos pedes nostros in viam pacis.^pGlória Patri, et Fílio,^*et Spirítui Sancto.^pSicut erat in princípio, et nunc et semper,^*et in sǽcula sæculórum. Amen."
+        "text": "Benedictus Dóminus Deus Israel,^*quia visitávit et fecit redemptiónem plebis suæ;^pet eréxit cornu salútis nobis,^*in domo David, púeri sui:^psicut locútus est per os sanctórum,^*qui a sǽcula sunt, prophetárum eius;^psalútem ex inimícis nostris,^*et de manu ómnium, qui odérunt nos:^pad faciéndam misericórdiam cum pátribus nostris,^*et memorári testaménti sui sancti;^piusiurándum, quod iurávit ad Abraham, patrem nostrum,^*datúrum se nobis,^put sine timóre, de manu inimicórum nostrórum liberáti,^*serviámus illi,^pin sanctitáte et iustítia coram ipso,^*ómnibus diébus nostris.^pEt tu, puer, prophéta Altíssimi vocáberis:^*præíbis enim ante fáciem Dómini paráre vias eius,^pad dandam sciéntiam salútis plebi eius,^*in remissiónem peccatórum eórum,^pper víscera misericórdiæ Dei nostri,^*in quibus visitávit nos Oriens ex alto:^pillumináre his, qui in ténebris et in umbra mortis sedent,^*ad dirigéndos pedes nostros in viam pacis.^pGlória Patri, et Fílio,^*et Spirítui Sancto.^pSicut erat in princípio, et nunc et semper,^*et in sǽcula sæculórum. Amen."
       }
   },
   206: {

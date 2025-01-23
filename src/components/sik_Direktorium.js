@@ -20,6 +20,7 @@ const months = ["Januar", "Februar", "März", "April", "Mai", "Juni",
     "Juli", "August", "September", "Oktober", "November", "Dezember"];
 
 const PrayerHours = {
+    ERSTEVESPER: 'erstev',
     INVITATORIUM: 'invitatorium',
     LESEHORE: 'lesehore',
     LAUDES: 'laudes',
@@ -965,31 +966,30 @@ const formatLiturgicalInfo = (info, date) => {
 };
 
 // Prayer Menu Component
-const PrayerMenu = ({ title, onSelectHour, setViewMode,
+const PrayerMenu = ({ title, onSelectHour, viewMode, setViewMode, season,
     onPrevDay, onNextDay, selectedDate,
-    prefSrc, prefComm1, prefComm2, onSourceSelect
+    prefSrc, prefComm1, prefComm2, prefSollemnity, setPrefSollemnity,
+    useCommemoration, setUseCommemoration,
+    onSourceSelect
 }) => {
     const [liturgicalInfo, setLiturgicalInfo] = useState(null);
     const [prayerTexts, setPrayerTexts] = useState(null);  // Neuer State für die Gebetstext-Daten
+    const rank_date = prayerTexts?.rank_date || 0
+    const isCommemoration = season === 'q' && rank_date < 3
 
-    // In PrayerMenu:
     useEffect(() => {
         const info = getLiturgicalInfo(selectedDate);
         setLiturgicalInfo(info);
 
         if (info) {
-            const processedData = processBrevierData({
-                season: info.season,
-                week: info.week,
-                dayOfWeek: selectedDate.getDay(),
-                selectedDate: selectedDate,
-                prefSrc,    // Nutze die Props direkt
-                prefComm1,
-                prefComm2
-            });
+            const processedData = processBrevierData(selectedDate);
             setPrayerTexts(processedData);
         }
     }, [selectedDate, prefSrc, prefComm1, prefComm2]); // Dependencies aktualisiert
+
+    useEffect(() => {
+        onSourceSelect('eig', 'com1', 'com2', false);
+    }, [selectedDate]);
 
     return (
         <div className="flex flex-col p-4 bg-white dark:bg-gray-900">
@@ -1025,34 +1025,104 @@ const PrayerMenu = ({ title, onSelectHour, setViewMode,
             <SourceSelector
                 prayerTexts={prayerTexts}
                 selectedSource={prefSrc}
-                onSourceSelect={(source, newPrefSrc, newPrefComm1, newPrefComm2) => {
-                    onSourceSelect(newPrefSrc, newPrefComm1, newPrefComm2);
+                prefSollemnity={prefSollemnity}
+                useCommemoration={useCommemoration}
+                setUseCommemoration={setUseCommemoration}
+                viewMode={viewMode}
+                season={season}
+                onSourceSelect={(source, newPrefSrc, newPrefComm1, newPrefComm2, newSollemnity) => {
+                    onSourceSelect(newPrefSrc, newPrefComm1, newPrefComm2, newSollemnity);  // Aktualisiert
                 }}
                 className="mb-4"
             />
 
             {/* Prayer Hours */}
             <div className="space-y-2 mb-6">
-                {Object.values(PrayerHours).map(hour => (
-                    <button
-                        key={hour}
-                        onClick={() => {
-                            console.log('Daten:', { hour, texts: prayerTexts });
-                            onSelectHour(hour, prayerTexts);
-                        }}
-                        className="w-full p-3 text-left rounded-lg bg-gray-100 dark:bg-gray-800 
-                            hover:bg-gray-200 dark:hover:bg-gray-700 
-                            text-gray-900 dark:text-gray-100"
-                    >
-                        {hour.charAt(0).toUpperCase() + hour.slice(1)}
-                    </button>
-                ))}
+
+                {Object.values(PrayerHours).map(hour => {
+                    // Spezielle Behandlung für Terz, Sext, Non
+                    if (['terz', 'sext', 'non'].includes(hour)) {
+                        if (hour === 'terz') {
+                            return (
+                                <div key="tsn" className="flex gap-2 w-full">
+                                    {['terz', 'sext', 'non'].map(tsnHour => (
+                                        <button
+                                            key={tsnHour}
+                                            onClick={() => {
+                                                console.log('Daten:', { hour, texts: prayerTexts });
+                                                onSelectHour(tsnHour, prayerTexts)
+                                            }}
+                                            className="flex-1 p-3 text-center rounded-lg bg-gray-100 dark:bg-gray-800 
+                                                hover:bg-gray-200 dark:hover:bg-gray-700 
+                                                text-gray-900 dark:text-gray-100"
+                                        >
+                                            {tsnHour.charAt(0).toUpperCase() + tsnHour.slice(1)}
+                                        </button>
+                                    ))}
+                                </div>
+                            );
+                        }
+                        return null; // Sext und Non überspringen, da sie bereits in der Flex-Box enthalten sind
+                    }
+
+                    if (hour === 'erstev') {
+                        if (prefSollemnity) {
+                            return (
+                                <button
+                                    onClick={() => {
+                                        console.log('Daten:', { hour, texts: prayerTexts });
+                                        onSelectHour(hour, prayerTexts)
+                                    }}
+                                    className="w-full p-3 text-center rounded-lg bg-gray-100 dark:bg-gray-800 
+                                    hover:bg-gray-200 dark:hover:bg-gray-700 
+                                    text-gray-900 dark:text-gray-100"
+                                >
+                                    Erste Vesper
+                                </button>
+                            );
+                        }
+                        return null;
+                    }
+
+                    let displayText = hour.charAt(0).toUpperCase() + hour.slice(1);
+                    if (hour === 'vesper') {
+                        if (prayerTexts?.vesper?.eig?.name) {
+                            displayText = prayerTexts.vesper.eig.name;
+                        } else if (prayerTexts?.vesper?.wt?.name) {
+                            displayText = prayerTexts.vesper.wt.name;
+                        } else {
+                            const dayOfWeek = selectedDate.getDay();
+                            if (dayOfWeek === 6 && rank_date < 4 && !prefSollemnity) { // Samstag
+                                displayText = '1. Vesper vom Sonntag';
+                            } else {
+                                if (prefSollemnity) { displayText = 'Zweite Vesper' }
+                                else displayText = 'Vesper';
+                            }
+                        }
+                    }
+
+                    // Normale Darstellung für andere Horen
+                    return (
+                        <button
+                            key={hour}
+                            onClick={() => {
+                                console.log('Daten:', { hour, texts: prayerTexts });
+                                onSelectHour(hour, prayerTexts)
+                            }}
+                            className="w-full p-3 text-center rounded-lg bg-gray-100 dark:bg-gray-800 
+                                hover:bg-gray-200 dark:hover:bg-gray-700 
+                                text-gray-900 dark:text-gray-100"
+                        >
+                            {displayText}
+                        </button>
+                    );
+                })}
             </div>
 
             {/* Mass */}
             <button
                 onClick={() => onSelectHour('mass')}
-                className="w-full p-3 mb-6 text-left rounded-lg bg-gray-100 dark:bg-gray-800 
+                className="w-full p-3 mb-6 text-center rounded-lg bg-gray-100 dark:bg-gray-800 
                            hover:bg-gray-200 dark:hover:bg-gray-700 
                            text-gray-900 dark:text-gray-100"
             >
@@ -1060,25 +1130,27 @@ const PrayerMenu = ({ title, onSelectHour, setViewMode,
             </button>
 
             {/* View Selection with spacing */}
-            <div className="space-y-2 pt-4 border-t dark:border-gray-700">
-                <button
-                    onClick={() => setViewMode('directory')}
-                    className="w-full p-3 text-left rounded-lg bg-gray-100 dark:bg-gray-800 
-                             hover:bg-gray-200 dark:hover:bg-gray-700 
-                             text-gray-900 dark:text-gray-100"
-                >
-                    Direktorium
-                </button>
-                <button
-                    onClick={() => setViewMode('deceased')}
-                    className="w-full p-3 text-left rounded-lg bg-gray-100 dark:bg-gray-800 
-                             hover:bg-gray-200 dark:hover:bg-gray-700 
-                             text-gray-900 dark:text-gray-100"
-                >
-                    Totenverzeichnis
-                </button>
+            <div className="pt-4 border-t dark:border-gray-700">
+                <div className="flex gap-2">
+                    <button
+                        onClick={() => setViewMode('directory')}
+                        className="flex-1 p-3 text-center rounded-lg bg-gray-100 dark:bg-gray-800 
+                                hover:bg-gray-200 dark:hover:bg-gray-700 
+                                text-gray-900 dark:text-gray-100"
+                    >
+                        Direktorium
+                    </button>
+                    <button
+                        onClick={() => setViewMode('deceased')}
+                        className="flex-1 p-3 text-center rounded-lg bg-gray-100 dark:bg-gray-800 
+                                hover:bg-gray-200 dark:hover:bg-gray-700 
+                                text-gray-900 dark:text-gray-100"
+                    >
+                        Totenverzeichnis
+                    </button>
+                </div>
             </div>
-        </div>
+        </div >
     );
 };
 
@@ -1087,7 +1159,7 @@ const BackButton = ({ onClick }) => (
         onClick={onClick}
         className="w-full p-2 mb-1 rounded-sm bg-gray-100 dark:bg-gray-800 
                  hover:bg-gray-200 dark:hover:bg-gray-700 
-                 text-gray-900 dark:text-gray-100 text-left"
+                 text-gray-900 dark:text-gray-100 text-left text-sm"
         style={{ color: rubricColor }}
     >
         ← zurück zur Stundengebetauswahl
@@ -1097,77 +1169,134 @@ const BackButton = ({ onClick }) => (
 
 // Prayer Text Display Component
 const PrayerTextDisplay = ({
-    hour, texts, season, onBack, onUpdateTexts,
-    prefSrc, prefComm1, prefComm2, onSourceSelect
+    hour, texts, season, onBack, viewMode, onUpdateTexts,
+    prefSrc, prefComm1, prefComm2, prefSollemnity, setPrefSollemnity,
+    useCommemoration, setUseCommemoration,
+    onSourceSelect, onSelectHour
 }) => {
     const [localPrefComm, setLocalPrefComm] = useState(texts?.prefComm || 0);
-    const [localPrefLatin, setLocalPrefLatin] = useState(0);
-    const [localPrefContinuous, setLocalPrefContinuous] = useState(0);
+    const [localPrefLatin, setLocalPrefLatin] = useState(false);
+    const [localPrefContinuous, setLocalPrefContinuous] = useState(false);
+    const [localPrefPsalmsWt, setLocalPrefPsalmsWt] = useState(false);
 
     if (!hour || !texts || !texts[hour]) {
         return <div className="p-4">Keine Daten verfügbar</div>;
     }
 
     const doxology = "Ehre sei dem Vater und dem Sohn^*und dem Heiligen Geist,^pwie im Anfang so auch jetzt und alle Zeit^*und in Ewigkeit. Amen.";
-    const prefComm = texts.prefComm || 0;  // Default to 0 if not provided
-    const rank_wt = texts.rank_wt || 0
-    const rank_date = texts.rank_date || 0
-
+    const { prefComm = 0, rank_wt = 0, rank_date = 0, isCommemoration } = texts;
 
     // Get value from sources in priority order: prefSrc -> prefComm1/prefComm2 -> wt
     const getValue = (field) => {
+
+        // Abruf der Werte für die Kommemoration
+        if (field.startsWith('c_')) {
+            field = field.substring(2); // Remove c_ prefix
+            if (texts[hour][prefSrc]?.[field]) {
+                return texts[hour][prefSrc][field];
+            }
+            if (field === 'ant_ev' && texts[hour][prefSrc]?.['ant_komm']) {
+                return texts[hour][prefSrc]['ant_komm'];
+            }
+            if (texts[hour][prefComm1]?.[field]) {
+                return texts[hour][prefComm1][field];
+            }
+            return
+        }
+
         // Sonderfall Hymnen: 
         // klStb und Nacht-Hymnus werden nicht gezeigt, wenn eigener Hymnus vorhanden
-        // oder Commune-Hymnus gewählt ist
+        // oder Feier als Hochfest oder Commune-Hymnus gewählt ist
         if ((field === 'hymn_kl' || field === 'hymn_nacht') &&
             (texts[hour]?.[prefSrc]?.['hymn_1']
+                || prefSollemnity
                 || (localPrefComm === 1 && texts[hour]?.[prefComm1]?.['hymn_1'])
                 || (localPrefComm === 2 && texts[hour]?.[prefComm2]?.['hymn_1'])
             )) {
             return null;
         }
 
-        //Sonderfall Bahnlesung:
-        if ((hour === 'lesehore') &&
-            (field.startsWith('les_') ||
-                field.startsWith('resp1_') ||
-                field.startsWith('patr_')) &&
-            (localPrefContinuous === 1)
+        //Sonderfall Antiphonen: nicht ant_0 und ant_1-3 gleichzeitig
+        if (field === 'ant_0' &&
+            (texts[hour]?.['eig']?.['ant_1']
+                || (localPrefComm === 1 && texts[hour]?.[prefComm1]?.['ant_1'])
+                || (localPrefComm === 2 && texts[hour]?.[prefComm2]?.['ant_1']))
+        ) {
+            return null;
+        }
+
+        if (field.startsWith('ant_') && !field === 'ant_0' &&
+            (texts[hour]?.['eig']?.['ant_0']
+                || (localPrefComm === 1 && texts[hour]?.[prefComm1]?.['ant_0'])
+                || (localPrefComm === 2 && texts[hour]?.[prefComm2]?.['ant_0']))
+        ) {
+            return null;
+        }
+
+        //Sonderfall Wochentagspsalmen:
+        if (hour !== 'invitatorium' && hour !== 'komplet' &&
+            field.startsWith('ps_') &&
+            localPrefPsalmsWt
         ) {
             return texts[hour]?.['wt']?.[field];
         }
 
-
-        // 1. Prüfe zuerst prefSrc
-        if (texts[hour][prefSrc]?.[field]) {
-            return texts[hour][prefSrc][field];
+        //Sonderfall Bahnlesung:
+        if (hour === 'lesehore' &&
+            (field.startsWith('les_') ||
+                field.startsWith('resp1_') ||
+                field.startsWith('patr_')) &&
+            localPrefContinuous
+        ) {
+            return texts[hour]?.['wt']?.[field];
         }
 
-        // 2. Prüfe prefComm1 wenn prefComm = 1
-        if (localPrefComm === 1 && texts[hour][prefComm1]?.[field]) {
-            return texts[hour][prefComm1][field];
-        }
+        // Prüfe, ob Commune übersprungen werden soll
+        const skipCommune = rank_date < 3 && !prefSollemnity && (
+            // Bedingung 1: Lesehore
+            (hour === 'lesehore' && !field.startsWith('hymn_') && field !== 'oration') ||
+            // Bedingung 2: Laudes/Vesper Psalmodie
+            ((hour === 'laudes' || hour === 'vesper') &&
+                (field.startsWith('ps_') ||
+                    (field.startsWith('ant_') && !field.startsWith('ant_ev')))) ||
+            // Bedingung 3: Kleinen Horen
+            ['terz', 'sext', 'non'].includes(hour)
+        );
 
-        // 3. Prüfe prefComm2 wenn prefComm = 2
-        if (localPrefComm === 2 && texts[hour][prefComm2]?.[field]) {
-            return texts[hour][prefComm2][field];
+        if (!isCommemoration) {  // an Tagen mit Kommemoration nur wt-Werte
+            // 1. Prüfe zuerst prefSrc
+            if (texts[hour][prefSrc]?.[field]) {
+                return texts[hour][prefSrc][field];
+            }
+
+            // 2. & 3. Prüfe Commune nur wenn nicht übersprungen werden soll
+            if (!skipCommune) {
+                // Prüfe prefComm2 wenn prefComm = 2
+                if (localPrefComm === 2 && texts[hour][prefComm2]?.[field]) {
+                    return texts[hour][prefComm2][field];
+                }
+                // Prüfe prefComm1 wenn prefComm = 1 oder prefSollemnity gewählt ist
+                if ((localPrefComm === 1 || prefSollemnity)
+                    && texts[hour][prefComm1]?.[field]) {
+                    return texts[hour][prefComm1][field];
+                }
+            }
         }
 
         // 4. Verwende "wt" als letzte Option
         if (texts[hour]['wt']?.[field]) {
             return texts[hour]['wt'][field];
         }
-
         return null;
-    };
+    }
 
     const checkSources = (field) => {
         const hasEig = texts[hour][prefSrc]?.[field];
         const hasWt = texts[hour]['wt']?.[field];
         const hasComm1 = texts[hour][prefComm1]?.[field];
         const hasComm2 = texts[hour][prefComm2]?.[field];
-        const nameComm1 = texts['laudes'][prefComm1]?.['name'] || 'Comm1';
-        const nameComm2 = texts['laudes'][prefComm2]?.['name'] || 'Comm2';
+        const nameComm1 = texts['laudes'][prefComm1]?.['name'] || '1';
+        const nameComm2 = texts['laudes'][prefComm2]?.['name'] || '2';
 
         return {
             hasEig,
@@ -1182,74 +1311,136 @@ const PrayerTextDisplay = ({
     };
 
     // Component for section headers with source indicators
-    const SectionHeader = ({ title, field, latinField, askContinuous }) => {
-        const { hasEig, hasWt, nameComm1, nameComm2, showSources, showComm2 } = checkSources(field);
+    const SectionHeader = ({ title, field: provField, latinField, askContinuous, askTSN, onSelectHour }) => {
+        const field = (hour === 'invitatorium' && provField === 'ps_1')
+            ? 'ant_0' : provField;
+        const { hasEig, hasWt, nameComm1, nameComm2, showSources, showComm2 } =
+            checkSources(field);
         const hasLatin = latinField && texts[hour]['wt']?.[latinField];
-        const showContinuous = hasEig && hasWt && askContinuous
-
-        if (!showSources && !hasLatin && !showContinuous) {
+        const showContinuous = hasEig && hasWt && askContinuous && hour === 'lesehore';
+        const showPsalmsWt = hasEig && hasWt &&
+            title === 'PSALMODIE' && (hour !== 'invitatorium' && hour !== 'komplet');
+        const showTSN = askTSN && ["terz", "sext", "non"].includes(hour);
+        // Prüfe, ob Commune übersprungen werden soll
+        const skipCommune = (prefSollemnity && !showComm2)
+            ||
+            (rank_date < 3 && !prefSollemnity && (
+                // Bedingung 1: Lesehore
+                (hour === 'lesehore' && !field.startsWith('hymn_') && field !== 'oration') ||
+                // Bedingung 2: Laudes/Vesper Psalmodie
+                ((hour === 'laudes' || hour === 'vesper') &&
+                    (field.startsWith('ps_') ||
+                        (field.startsWith('ant_') && !field.startsWith('ant_ev')))) ||
+                // Bedingung 3: Kleinen Horen
+                ['terz', 'sext', 'non'].includes(hour)
+            ));
+        if (hour === 'invitatorium') { console.log('SectionHeader: ', field, showSources, skipCommune) }
+        if (title === "RESPONSORIUM" ||
+            (!showSources && !hasLatin && !showPsalmsWt && !showContinuous && !showTSN)) {
             return <h2 className="prayer-heading">{title}</h2>;
         }
 
         return (
-            <h2 className="prayer-heading flex items-center gap-3">
+            <h2 className="prayer-heading flex items-center gap-3"
+                style={{ color: rubricColor }}>
                 {title}
                 {hasLatin && (
                     <button
-                        onClick={() => setLocalPrefLatin(prev => prev === 0 ? 1 : 0)}
+                        onClick={() => setLocalPrefLatin(prev => !prev)}
                         className="font-normal text-[0.85em]"
                         style={{ color: rubricColor }}
                     >
                         (dt./lat.)
                     </button>
                 )}
-                {showContinuous && (
+                {showPsalmsWt && (
                     <span className="font-normal text-[0.85em]">
                         <button
-                            onClick={() => setLocalPrefContinuous(0)}
-                            className={`${localPrefContinuous === 0 ? 'underline' : ''}`}
-                            style={{ color: rubricColor }}
+                            onClick={() => setLocalPrefPsalmsWt(false)}
+                            className={!localPrefPsalmsWt && 'underline'}
                         >
-                            Eigentext
+                            Ps eig
                         </button>
                         {" | "}
                         <button
-                            onClick={() => setLocalPrefContinuous(1)}
-                            className={`${localPrefContinuous === 1 ? 'underline' : ''}`}
-                            style={{ color: rubricColor }}
+                            onClick={() => setLocalPrefPsalmsWt(true)}
+                            className={localPrefPsalmsWt && 'underline'}
+                        >
+                            vom Wt
+                        </button>
+                    </span>
+                )}
+                {showContinuous && (
+                    <span className="font-normal text-[0.85em]">
+                        <button
+                            onClick={() => setLocalPrefContinuous(false)}
+                            className={!localPrefContinuous && 'underline'}
+                        >
+                            Eigenlesung
+                        </button>
+                        {" | "}
+                        <button
+                            onClick={() => setLocalPrefContinuous(true)}
+                            className={localPrefContinuous && 'underline'}
                         >
                             Bahnlesung
                         </button>
                     </span>
                 )}
-                {showSources && (
+                {showSources && !skipCommune && (
                     <span className="font-normal text-[0.85em]">
                         <button
                             onClick={() => setLocalPrefComm(1)}
                             className={`${localPrefComm === 1 ? 'underline' : ''}`}
-                            style={{ color: rubricColor }}
                         >
-                            {nameComm1}
+                            Comm {nameComm1}
                         </button>
-                        {" | "}
                         {showComm2 && (
                             <>
+                                {"  |  "}
                                 <button
                                     onClick={() => setLocalPrefComm(2)}
                                     className={`${localPrefComm === 2 ? 'underline' : ''}`}
-                                    style={{ color: rubricColor }}
                                 >
                                     {nameComm2}
                                 </button>
-                                {"  |  "}
+
                             </>
                         )}
+                        {!prefSollemnity && (
+                            <>
+                                {" | "}
+                                <button
+                                    onClick={() => setLocalPrefComm(0)}
+                                    className={`${localPrefComm === 0 ? 'underline' : ''}`}
+                                >
+                                    Wt
+                                </button>
+                            </>
+                        )}
+                    </span>
+                )}
+                {showTSN && (
+                    <span className="font-normal text-[0.85em]">
                         <button
-                            onClick={() => setLocalPrefComm(0)}
-                            className={`${localPrefComm === 0 ? 'underline' : ''}`}
-                            style={{ color: rubricColor }}
+                            onClick={() => onSelectHour('terz')}
+                            className={`${hour === 'terz' ? 'underline' : ''}`}
                         >
-                            Wt
+                            Terz
+                        </button>
+                        {" | "}
+                        <button
+                            onClick={() => onSelectHour('sext')}
+                            className={`${hour === 'sext' ? 'underline' : ''}`}
+                        >
+                            Sext
+                        </button>
+                        {" | "}
+                        <button
+                            onClick={() => onSelectHour('non')}
+                            className={`${hour === 'non' ? 'underline' : ''}`}
+                        >
+                            Non
                         </button>
                     </span>
                 )}
@@ -1272,8 +1463,8 @@ const PrayerTextDisplay = ({
                 </div>
                 {title && <div className="text-[0.9em] text-gray-400 mb-[0.66em]">{title}</div>}
                 {quote && <div className="text-[0.9em] leading-[1.1em] italic text-gray-400 -mt-[0.66em] mb-[0.66em]">{quote}</div>}
-                {text && <div className="whitespace-pre-wrap">{formatPrayerParagraph(text)}</div>}
-                {number !== 160 && <div className="whitespace-pre-wrap">{formatPrayerParagraph(doxology)}</div>}
+                {text && <div className="whitespace-pre-wrap">{formatPrayerText(text)}</div>}
+                {number !== 160 && <div className="whitespace-pre-wrap">{formatPrayerText(doxology)}</div>}
             </div >
         );
     };
@@ -1291,64 +1482,119 @@ const PrayerTextDisplay = ({
         </span>
     );
 
-    // Format prayer text with specified formatting  
     const formatPrayerText = (text) => {
-        if (!text || typeof text !== 'string') return '';
-        return text
-            .replace(/°/g, '\u00A0')
-            .replace(/\^\*/g, '\u00A0*\n')
-            .replace(/\^\+/g, '\u00A0†\n')
-            .replace(/\^l/g, '\n')
-            .replace(/\^ö/g, season === 'o' ? ' Halleluja.' : '')
-            .replace(/\^r(.*?)\^0r/g, (_, content) => `<span style={{ color: rubricColor }}>${content}</span>`)
-            .replace(/\^v(.*?)\^0v/g, '$1')
-            .replace(/\^\(/g, `<span style={{ color: rubricColor }}>(</span>`)
-            .replace(/\^\)/g, `<span style={{ color: rubricColor }}>)</span>`)
-            .replace(/}/g, ')')  // Ersetzt } durch )
-            .replace(/\{(\d{1,2})#/g, '(');  // Ersetzt {00# durch (, wobei 00 eine ein- oder zweistellige Zahl ist
-    };
+        if (!text) return null;
 
-    const formatPrayerParagraph = (text) => {
-        const preparedText = formatPrayerText(text);
-        const paragraphs = preparedText.split(/\^[pqh]/);
-        const formats = preparedText.match(/\^[pqh]/g) || [];
+        // Inline-Formatierungen als React-Elemente verarbeiten
+        const processInlineFormats = (text) => {
+            // Basis-Ersetzungen
+            let processedText = text
+                .replace(/°/g, '\u00A0')
+                .replace(/\^\*/g, '\u00A0*\n')
+                .replace(/\^\+/g, '\u00A0†\n')
+                .replace(/\^\//g, '    ')
+                .replace(/\^l/g, '\n')
+                .replace(/\^ö/g, season === 'o' ? ' Halleluja.' : '')
+                .replace(/}/g, ')')
+                .replace(/\{(\d{1,2})#/g, '(');
 
-        // Entferne das erste Element, wenn es leer ist und der Text mit ^ beginnt
-        if (preparedText.startsWith('^') && paragraphs[0] === '') {
-            paragraphs.shift();
-        } else {
-            // Füge ^p nur hinzu, wenn der Text nicht mit ^ beginnt
-            formats.unshift('^p');
+            // Split text into segments, keeping delimiters
+            const segments = processedText.split(/(\^r.*?\^0r|\^w.*?\^0w|\^\(|\^\)|\^N)/g).filter(Boolean);
+
+            return segments.map((segment, index) => {
+                if (segment.startsWith('^r')) {
+                    // Rubrik-Text
+                    const content = segment.substring(2, segment.length - 3);
+                    return <span key={`rubric-${index}`} style={{ color: rubricColor }}>{content}</span>;
+                } else if (segment.startsWith('^w')) {
+                    // Gesperrter Text
+                    const content = segment.substring(2, segment.length - 3);
+                    return <span key={`tracked-${index}`} className='tracking-[0.16em]'>{content}</span>;
+                } else if (segment === '^(') {
+                    return <span key={`open-${index}`} style={{ color: rubricColor }}>(</span>;
+                } else if (segment === '^)') {
+                    return <span key={`close-${index}`} style={{ color: rubricColor }}>)</span>;
+                } else if (segment === '^N') {
+                    return <span key={`name-${index}`} style={{ color: rubricColor }}>N.</span>;
+                }
+                return segment;
+            });
+        };
+
+        // Prüfen, ob der Text Absatz-Tags enthält
+        const hasParagraphTags = /\^[phql]/.test(text);
+
+        if (!hasParagraphTags) {
+            // Bei Texten ohne Absatz-Tags: Direkt Inline-Formatierung zurückgeben
+            return processInlineFormats(text);
         }
 
-        return paragraphs.map((paragraph, index) => {
-            if (!paragraph.trim()) return null;
+        // Vorverarbeitung: Inline-Formatierungen mit temporären Markern ersetzen
+        let processedText = text;
+        const markerMap = new Map();
+        let markerCounter = 0;
 
-            const format = formats[index] || '^p';
-            switch (format) {
-                case '^h':
-                    return (
-                        <div key={index} className="whitespace-pre-wrap font-bold text-[0.9em] mt-2">
-                            <div dangerouslySetInnerHTML={{ __html: paragraph }} />
-                        </div>
-                    );
-                case '^q':
-                    return (
-                        <div key={index} className="whitespace-pre-wrap flex -mt-[0.66em] mb-[0.66em]">
-                            <span className="w-[0.8em] flex-shrink-0">–</span>
-                            <div dangerouslySetInnerHTML={{ __html: paragraph }} />
-                        </div>
-                    );
-                default: // ^p
-                    return (
-                        <div key={index} className="whitespace-pre-wrap mb-[0.66em]">
-                            <div dangerouslySetInnerHTML={{ __html: paragraph }} />
-                        </div>
-                    );
-            }
-        }).filter(Boolean);
+        processedText = processedText.replace(/(\^r.*?\^0r|\^v.*?\^0v|\^\(|\^\))/g, (match) => {
+            const marker = `§MARKER${markerCounter}§`;
+            markerMap.set(marker, match);
+            markerCounter++;
+            return marker;
+        });
+
+        // Text in Absätze aufteilen
+        let segments = processedText.split(/(?=\^[phq])/);
+
+        // Wenn der Text nicht mit einem Format-Tag beginnt, als Standard-Absatz behandeln
+        if (!segments[0].startsWith('^')) {
+            segments = [segments[0], ...segments.slice(1)];
+        }
+
+        return segments
+            .filter(segment => segment.trim().length > 0)
+            .map((segment, index) => {
+                // Format bestimmen
+                let format = 'p'; // Standard-Format
+                let content = segment;
+
+                // Format aus dem Segment extrahieren, falls vorhanden
+                if (segment.startsWith('^')) {
+                    format = segment[1];
+                    content = segment.slice(2);
+                }
+
+                // Marker zurück in Inline-Formatierungen umwandeln
+                let originalContent = content;
+                for (const [marker, originalTag] of markerMap) {
+                    originalContent = originalContent.replace(marker, originalTag);
+                }
+
+                // Inline-Formatierungen verarbeiten
+                const processedContent = processInlineFormats(originalContent);
+
+                // Entsprechendes React-Element zurückgeben
+                switch (format) {
+                    case 'h':
+                        return (
+                            <div key={index} className="whitespace-pre-wrap font-bold text-[0.9em] mt-2">
+                                {processedContent}
+                            </div>
+                        );
+                    case 'q':
+                        return (
+                            <div key={index} className="whitespace-pre-wrap flex -mt-[0.75em] mb-[0.75em]">
+                                <span className="w-[0.8em] flex-shrink-0">–</span>
+                                <div>{processedContent}</div>
+                            </div>
+                        );
+                    default: // 'p'
+                        return (
+                            <div key={index} className="whitespace-pre-wrap mb-[0.75em]">
+                                {processedContent}
+                            </div>
+                        );
+                }
+            });
     };
-
     const PrayerResponse = ({ resp1_3, resp1_2, rubricColor }) => {
         const formatSecondResponse = (firstResp, secondResp) => {
             if (!firstResp || !secondResp) return secondResp;
@@ -1388,30 +1634,43 @@ const PrayerTextDisplay = ({
     }
 
     return (
-        <div className="leading-[1.35em]">
+        <div className="leading-[1.33em] pb-8">
             <BackButton onClick={onBack} />
-            <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6">
+            <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6 pb-1">
                 <SourceSelector
                     prayerTexts={texts}
                     selectedSource={prefSrc}
-                    onSourceSelect={(source, newPrefSrc, newPrefComm1, newPrefComm2) => {
+                    prefSollemnity={prefSollemnity}
+                    useCommemoration={useCommemoration}
+                    setUseCommemoration={setUseCommemoration}
+                    viewMode={viewMode}
+                    season={season}
+                    hour={hour}
+                    onSourceSelect={(
+                        source, newPrefSrc, newPrefComm1, newPrefComm2, newSollemnity) => {
                         onSourceSelect(newPrefSrc, newPrefComm1, newPrefComm2);
+                        setPrefSollemnity(newSollemnity);
                     }}
                     className="mb-4"
                 />
                 {getValue('hymn_1') && (
                     <div className="mb-2">
-                        <h2 className="prayer-heading">HYMNUS</h2>
+                        <SectionHeader
+                            title="HYMNUS"
+                            field="hymn_1"
+                            askTSN={true}
+                            onSelectHour={onSelectHour}
+                        />
                         {getValue('hymn_1')?.text && (
                             <div className="mb-4">
-                                {formatPrayerParagraph(getValue('hymn_1').text)}
+                                {formatPrayerText(getValue('hymn_1').text)}
                             </div>
                         )}
                         {getValue('hymn_2')?.text && (
                             <>
                                 <Rubric>Oder:</Rubric>
                                 <div className="mb-4">
-                                    {formatPrayerParagraph(getValue('hymn_2').text)}
+                                    {formatPrayerText(getValue('hymn_2').text)}
                                 </div>
                             </>
                         )}
@@ -1419,7 +1678,7 @@ const PrayerTextDisplay = ({
                             <>
                                 <Rubric>Oder:</Rubric>
                                 <div className="mb-4">
-                                    {formatPrayerParagraph(getValue('hymn_3').text)}
+                                    {formatPrayerText(getValue('hymn_3').text)}
                                 </div>
                             </>
                         )}
@@ -1427,7 +1686,7 @@ const PrayerTextDisplay = ({
                             <>
                                 <Rubric>In der Nacht oder am frühen Morgen:</Rubric>
                                 <div className="mb-4">
-                                    {formatPrayerParagraph(getValue('hymn_nacht').text)}
+                                    {formatPrayerText(getValue('hymn_nacht').text)}
                                 </div>
                             </>
                         )}
@@ -1435,7 +1694,7 @@ const PrayerTextDisplay = ({
                             <>
                                 <Rubric>im Kleinen Stundenbuch:</Rubric>
                                 <div className="">
-                                    {formatPrayerParagraph(getValue('hymn_kl').text)}
+                                    {formatPrayerText(getValue('hymn_kl').text)}
                                 </div>
                             </>
                         )}
@@ -1522,6 +1781,8 @@ const PrayerTextDisplay = ({
                         title={hour === "lesehore" ? "ERSTE LESUNG" : "KURZLESUNG"}
                         field="les_text"
                         askContinuous={true}
+                        askTSN={true}
+                        onSelectHour={onSelectHour}
                     />
                     <div>
                         {(hour !== "lesehore") && (
@@ -1532,12 +1793,12 @@ const PrayerTextDisplay = ({
                                 <div className='flex gap-3 items-baseline'>{getValue('les_buch')}
                                     <span className='text-[0.9em] text-gray-400'>{formatBibleRef(getValue('les_stelle'))}</span></div>
                             </>)}
-                        {formatPrayerParagraph(getValue('les_text'))}
+                        {formatPrayerText(getValue('les_text'))}
                     </div>
                 </div>)}
 
                 {getValue('resp1_1') && (
-                    <div className="mb-1">
+                    <div className="mb-1 whitespace-pre-wrap">
                         <SectionHeader title="RESPONSORIUM" field="resp1_1" />
                         {getValue('resp1_0') && getValue('resp1_1') && (
                             <div className="mb-0 flex gap-0">
@@ -1599,9 +1860,9 @@ const PrayerTextDisplay = ({
                             askContinuous={true}
                         />
                         <div>
-                            <div className='text-[0.9em] italic'> {getValue('patr_autor')}</div>
-                            {getValue('patr_werk')}
-                            {formatPrayerParagraph(getValue('patr_text'))}
+                            <div className='text-[0.9em] italic'> {formatPrayerText(getValue('patr_autor'))}</div>
+                            {formatPrayerText(getValue('patr_werk'))}
+                            {formatPrayerText(getValue('patr_text'))}
                         </div>
                     </div>)}
 
@@ -1647,7 +1908,7 @@ const PrayerTextDisplay = ({
                         )}
                         {getValue('ev') && (
                             <div className="mb-4">
-                                {localPrefLatin === 1 ? formatPrayerParagraph(getValue('ev_lat').text) : formatPsalm(0, '', '', '', getValue('ev').text)}
+                                {localPrefLatin ? formatPrayerText(getValue('ev_lat').text) : formatPsalm(0, '', '', '', getValue('ev').text)}
                             </div>
                         )}
                         {getValue('ant_ev') && (
@@ -1666,7 +1927,7 @@ const PrayerTextDisplay = ({
                         />
                         {getValue('bitten_e') && (
                             <div className="mb-2">
-                                {formatPrayerParagraph(getValue('bitten_e'))}
+                                {formatPrayerText(getValue('bitten_e'))}
                             </div>
                         )}
                         {getValue('bitten_r') && (
@@ -1677,7 +1938,7 @@ const PrayerTextDisplay = ({
                         )}
                         {getValue('bitten') && (
                             <div className="">
-                                {formatPrayerParagraph(getValue('bitten'))}
+                                {formatPrayerText(getValue('bitten'))}
                             </div>
                         )}
                     </div>)
@@ -1691,8 +1952,8 @@ const PrayerTextDisplay = ({
                             latinField="vu_lat"
                         />
                         {getValue('vu') && (
-                            <div className="mb-4">
-                                {localPrefLatin === 1 ? formatPrayerParagraph(getValue('vu_lat').text) : formatPrayerParagraph(getValue('vu').text)}
+                            <div className="mb-4 whitespace-pre-wrap">
+                                {localPrefLatin ? formatPrayerText(getValue('vu_lat').text) : formatPrayerText(getValue('vu').text)}
                             </div>
                         )}
 
@@ -1704,7 +1965,7 @@ const PrayerTextDisplay = ({
                         <SectionHeader title="ORATION" field="oration" />
                         {getValue('oration') && (
                             <div className="whitespace-pre-wrap">
-                                {formatPrayerParagraph(getValue('oration'))}
+                                {formatPrayerText(getValue('oration'))}
                             </div>
                         )}
                     </div>)
@@ -1714,7 +1975,7 @@ const PrayerTextDisplay = ({
                     <SectionHeader title="ORATION" field="oration_komplet"
                     />
                     <div>
-                        {formatPrayerParagraph(getValue('oration_komplet'))}
+                        {formatPrayerText(getValue('oration_komplet'))}
                     </div>
                 </div>)}
 
@@ -1727,16 +1988,103 @@ const PrayerTextDisplay = ({
                         />
                         {getValue('marant') && (
                             <div className="mb-4">
-                                {localPrefLatin === 1 ? formatPrayerParagraph(getValue('marant_lat').text) : formatPrayerParagraph(getValue('marant').text)}
+                                {localPrefLatin ? formatPrayerText(getValue('marant_lat').text) : formatPrayerText(getValue('marant').text)}
                             </div>
                         )}
 
                     </div>)
                 }
             </div>
-            <div className="mt-4">
+            <div className="mt-2">
                 <BackButton onClick={onBack} />
             </div>
+            {isCommemoration && !prefSollemnity &&
+                ['lesehore', 'laudes', 'vesper'].includes(hour) && (
+                    <>
+                        <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6 pb-1">
+                            <SourceSelector
+                                prayerTexts={texts}
+                                selectedSource={prefSrc}
+                                prefSollemnity={prefSollemnity}
+                                useCommemoration={useCommemoration}
+                                setUseCommemoration={setUseCommemoration}
+                                viewMode={viewMode}
+                                season={season}
+                                hour={hour}
+                                reduced={true}
+                                onSourceSelect={(
+                                    source, newPrefSrc, newPrefComm1, newPrefComm2, newSollemnity) => {
+                                    onSourceSelect(newPrefSrc, newPrefComm1, newPrefComm2);
+                                    setPrefSollemnity(newSollemnity);
+                                }}
+                                className="mb-4"
+                            />
+
+                            {getValue('c_patr_text') && (
+                                <div className="mb-1">
+                                    <SectionHeader
+                                        title="ZWEITE LESUNG"
+                                        field="patr_text"
+                                    />
+                                    <div>
+                                        <div className='text-[0.9em] italic'>
+                                            {formatPrayerText(getValue('c_patr_autor'))}
+                                        </div>
+                                        {formatPrayerText(getValue('c_patr_werk'))}
+                                        {formatPrayerText(getValue('c_patr_text'))}
+                                    </div>
+                                </div>)}
+
+                            {getValue('c_patr_resp1') && (
+                                <div className="mb-1">
+                                    <SectionHeader title="RESPONSORIUM" field="resp1_1" />
+                                    {getValue('c_patr_resp1') && getValue('c_patr_resp2') && (
+                                        <div className="mb-0 flex gap-0">
+                                            <Rubric>R&nbsp;&nbsp;</Rubric>
+                                            <div>
+                                                {formatPrayerText(getValue('c_patr_resp1'))}
+                                                <span style={{ color: rubricColor }}> *&nbsp;</span>
+                                                {formatPrayerText(getValue('c_patr_resp2'))}
+                                                {hour !== 'lesehore' && (
+                                                    <span style={{ color: rubricColor }}>
+                                                        &nbsp;–&nbsp;R
+                                                    </span>
+                                                )}
+                                            </div>
+                                        </div>
+                                    )}
+                                    {getValue('c_patr_resp3') && getValue('c_patr_resp2') && (
+                                        <PrayerResponse
+                                            resp1_3={getValue('c_patr_resp3')}
+                                            resp1_2={getValue('c_patr_resp2')}
+                                            rubricColor={rubricColor}
+                                        />
+                                    )}
+                                </div>)}
+
+                            {getValue('c_ant_ev') && (
+                                <div className="mb-1">
+                                    <SectionHeader
+                                        title={`${getCanticleTitle(hour)}-ANTIPHON`}
+                                        field='ant_ev'
+                                    />
+                                    <div className="mb-4">
+                                        {formatPrayerText(getValue('c_ant_ev'))}
+                                    </div>
+                                </div>)}
+
+                            {getValue('c_oration') && (
+                                <div className="mb-1">
+                                    <SectionHeader title="ORATION" field="oration" />
+                                    <div className="whitespace-pre-wrap">
+                                        {formatPrayerText(getValue('c_oration'))}
+                                    </div>
+                                </div>)}
+                        </div>
+                        <div className="mt-2">
+                            <BackButton onClick={onBack} />
+                        </div>
+                    </>)}
         </div>
     );
 };
@@ -1777,14 +2125,16 @@ export default function LiturgicalCalendar() {
         return savedTheme || 'light';
     });
     const [prefSrc, setPrefSrc] = useState('eig');
-    const [prefComm1, setPrefComm1] = useState(null);
-    const [prefComm2, setPrefComm2] = useState(null);
+    const [prefComm1, setPrefComm1] = useState('com1');
+    const [prefComm2, setPrefComm2] = useState('com2');
+    const [prefSollemnity, setPrefSollemnity] = useState(false);
+    const [useCommemoration, setUseCommemoration] = useState(false);
     const [selectedHour, setSelectedHour] = useState(null);
     const [prayerTexts, setPrayerTexts] = useState(null);
     const [expandedDeceased, setExpandedDeceased] = useState({});
     const [deceasedMode, setDeceasedMode] = useState('recent');
     const [viewMode, setViewMode] = useState('directory'); // 'directory', 'deceased', 'prayer', or 'prayerText'
-    const [baseFontSize, setBaseFontSize] = useTouchZoom(14, 8, 24, 0.8, showDatePicker);
+    const [baseFontSize, setBaseFontSize] = useTouchZoom(14, 8, 24, 0.7, showDatePicker);
     const [isReady, setIsReady] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [activeSection, setActiveSection] = useState('fontSize');
@@ -1878,27 +2228,23 @@ export default function LiturgicalCalendar() {
         entriesRef.current = {};
         if (selectedDate) {
             setIsReady(false);
-            // Kurze Verzögerung um sicherzustellen, dass das DOM aktualisiert wurde
             setTimeout(() => {
                 setIsReady(true);
             }, 100);
         }
-    }, [selectedDate]);
 
-    useEffect(() => {
         const info = getLiturgicalInfo(selectedDate);
         setLiturgicalInfo(info);
         if (info?.season) {
             setCurrentSeason(info.season);
         }
+
     }, [selectedDate]);
 
     useEffect(() => {
         if (!containerRef.current) return;
-
         const container = containerRef.current;
         const currentContainer = container.querySelector('[data-current-container="true"]');
-
         const debouncedScroll = (event) => {
             if (scrollTimeoutRef.current) {
                 clearTimeout(scrollTimeoutRef.current);
@@ -2453,7 +2799,7 @@ export default function LiturgicalCalendar() {
     const baseStyle = {
         fontFamily,
         fontSize: `${baseFontSize}pt`,
-        lineHeight: '1.2',
+        lineHeight: '1.3',
         margin: 0
     };
 
@@ -2483,6 +2829,9 @@ export default function LiturgicalCalendar() {
             .formatFest {
                 font-weight: bold;
                 font-variant: small-caps;
+            }
+            .formatGesperrt {
+                letter-spacing: 0.2em;        
             }
             .prayer-heading {
                 font-weight: bold;
@@ -2634,14 +2983,21 @@ export default function LiturgicalCalendar() {
                     {viewMode === 'prayer' && (
                         <PrayerMenu
                             title={formatDate(selectedDate)}
+                            viewMode={viewMode}
+                            season={currentSeason}
                             selectedDate={selectedDate}
                             prefSrc={prefSrc}
                             prefComm1={prefComm1}
                             prefComm2={prefComm2}
-                            onSourceSelect={(newPrefSrc, newPrefComm1, newPrefComm2) => {
+                            prefSollemnity={prefSollemnity}
+                            setPrefSollemnity={setPrefSollemnity}
+                            useCommemoration={useCommemoration}
+                            setUseCommemoration={setUseCommemoration}
+                            onSourceSelect={(newPrefSrc, newPrefComm1, newPrefComm2, newSollemnity) => {
                                 setPrefSrc(newPrefSrc);
                                 setPrefComm1(newPrefComm1);
                                 setPrefComm2(newPrefComm2);
+                                setPrefSollemnity(newSollemnity);
                             }}
                             onSelectHour={(hour, texts) => {
                                 setSelectedHour(hour);
@@ -2664,17 +3020,26 @@ export default function LiturgicalCalendar() {
                         <PrayerTextDisplay
                             hour={selectedHour}
                             texts={prayerTexts}
+                            viewMode={viewMode}
                             season={currentSeason}
                             prefSrc={prefSrc}
                             prefComm1={prefComm1}
                             prefComm2={prefComm2}
-                            onSourceSelect={(newPrefSrc, newPrefComm1, newPrefComm2) => {
+                            prefSollemnity={prefSollemnity}
+                            setPrefSollemnity={setPrefSollemnity}
+                            useCommemoration={useCommemoration}
+                            setUseCommemoration={setUseCommemoration}
+                            onSourceSelect={(newPrefSrc, newPrefComm1, newPrefComm2, newSollemnity) => {
                                 setPrefSrc(newPrefSrc);
                                 setPrefComm1(newPrefComm1);
                                 setPrefComm2(newPrefComm2);
+                                setPrefSollemnity(newSollemnity);
                             }}
                             onBack={() => setViewMode('prayer')}
-                        />
+                            onSelectHour={(hour) => {  // Neue Prop
+                                setSelectedHour(hour);
+                                setPrayerTexts(prayerTexts);
+                            }} />
                     )}
 
                     {/* Original ScrollableContainer for directory/deceased views */}

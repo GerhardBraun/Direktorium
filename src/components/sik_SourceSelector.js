@@ -40,7 +40,9 @@ const SourceSelector = ({
         const newSollemnity = blockToggle || setSollemnity;
         if (!blockToggle || source !== 'wt') {
             const newPrefSrc = (source === 'wt') ? 'eig' : source;
-            onSourceSelect(source, newPrefSrc, newSollemnity);
+            const newPrefComm1 = (source === 'eig' || source === 'wt') ? 'com1' : `${source}com1`;
+            const newPrefComm2 = (source === 'eig' || source === 'wt') ? 'com2' : `${source}com2`;
+            onSourceSelect(source, newPrefSrc, newPrefComm1, newPrefComm2, newSollemnity);
             if (isCommemoration && source !== 'wt') { setUseCommemoration(isCommemoration) };
             if (source === 'wt') { setUseCommemoration(false) }
         }
@@ -66,7 +68,7 @@ const SourceSelector = ({
         )
     const useToggle = !(showWt && selectedSource === 'eig') || useCommemoration
     const blockToggle = (viewMode === 'prayerText' && hour === 'erstev')
-    console.log('SourceSelector: prefSollemnity: ', prefSollemnity)
+
     if (!prayerTexts) return null;
 
     return (

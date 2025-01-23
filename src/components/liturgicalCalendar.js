@@ -225,14 +225,11 @@ const getLiturgicalInfo = (date) => {
     const isCommemoration = (season === 'q' && ranks.rank_date < 3)
         || (month === 12 && day > 16)
 
-    console.log('isCommemoration: ', isCommemoration)
-
     return {
         season,
         week,
         dayOfWeek,
         ...ranks,  // Fügt rank_wt, rank_date und combinedSWD zum Return-Objekt hinzu
-        combinedSWD,
         isCommemoration
     };
 };
