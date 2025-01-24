@@ -1185,17 +1185,25 @@ const PrayerTextDisplay = ({
         ) { return texts[hour]?.['wt']?.[field]; }
 
         // Prüfe, ob Commune übersprungen werden soll
-        const skipCommune = rank_date < 3 && !prefSollemnity &&
-            !(texts.hasErsteVesper && hour === 'vesper') && (
-                // Bedingung 1: Lesehore
-                (hour === 'lesehore' && !field.startsWith('hymn_') && field !== 'oration') ||
-                // Bedingung 2: Laudes/Vesper Psalmodie
-                ((hour === 'laudes' || hour === 'vesper') &&
-                    (field.startsWith('ps_') ||
-                        (field.startsWith('ant_') && !field.startsWith('ant_ev')))) ||
-                // Bedingung 3: Kleinen Horen
-                ['terz', 'sext', 'non'].includes(hour)
-            );
+        let skipCommune = false
+        if (rank_date < 3 && (  // an Gedenktagen
+            (hour === 'lesehore' && // Lesehore: nur Hymnus und Oration ggf. Commune
+                !field.startsWith('hymn_') && field !== 'oration') ||
+            ((hour === 'laudes' || hour === 'vesper') &&  // Laudes/Vesper Psalmodie
+                (field.startsWith('ps_') ||
+                    (field.startsWith('ant_') && !field.startsWith('ant_ev'))
+                )) ||
+            ['terz', 'sext', 'non'].includes(hour)) // Kleinen Horen: ganz vom Wt
+        ) { skipCommune = true };
+
+        if (rank_date < 5 &&    // an Festen: Ant und Ps in Kleinen Horen vom Wt
+            ['terz', 'sext', 'non'].includes(hour) &&
+            (field.startsWith('ps_') || field.startsWith('ant_'))
+        ) { skipCommune = true }
+
+        if (prefSollemnity ||   // Hochfeste und 1. Vesper: Comm, wenn nicht eigen, nicht vom WT
+            (texts.hasErsteVesper && hour === 'vesper')
+        ) { skipCommune = false }
 
         if (!isCommemoration) {  // an Tagen mit Kommemoration nur wt-Werte
             // 1. Prüfe zuerst prefSrc
@@ -1232,12 +1240,9 @@ const PrayerTextDisplay = ({
         const nameComm2 = texts['laudes'][prefSrc]?.['com2']?.['name'] || '2';
 
         return {
-            hasEig,
-            hasWt,
-            hasComm1,
-            hasComm2,
-            nameComm1,
-            nameComm2,
+            hasEig, hasWt,
+            hasComm1, hasComm2,
+            nameComm1, nameComm2,
             showSources: !hasEig && hasWt && hasComm1,
             showComm2: hasComm1 && hasComm2
         };
@@ -1254,19 +1259,31 @@ const PrayerTextDisplay = ({
         const showPsalmsWt = hasEig && hasWt &&
             title === 'PSALMODIE' && (hour !== 'invitatorium' && hour !== 'komplet');
         const showTSN = askTSN && ["terz", "sext", "non"].includes(hour);
+
         // Prüfe, ob Commune übersprungen werden soll
-        const skipCommune = (prefSollemnity && !showComm2)
-            ||
-            (rank_date < 3 && !prefSollemnity && (
-                // Bedingung 1: Lesehore
-                (hour === 'lesehore' && !field.startsWith('hymn_') && field !== 'oration') ||
-                // Bedingung 2: Laudes/Vesper Psalmodie
-                ((hour === 'laudes' || hour === 'vesper') &&
-                    (field.startsWith('ps_') ||
-                        (field.startsWith('ant_') && !field.startsWith('ant_ev')))) ||
-                // Bedingung 3: Kleinen Horen
-                ['terz', 'sext', 'non'].includes(hour)
-            ));
+        let skipCommune = false;
+        if (rank_date < 3 && (  // an Gedenktagen
+            (hour === 'lesehore' && // Lesehore: nur Hymnus und Oration ggf. Commune
+                !field.startsWith('hymn_') && field !== 'oration') ||
+            ((hour === 'laudes' || hour === 'vesper') &&  // Laudes/Vesper Psalmodie
+                (field.startsWith('ps_') ||
+                    (field.startsWith('ant_') && !field.startsWith('ant_ev'))
+                )) ||
+            ['terz', 'sext', 'non'].includes(hour)) // Kleinen Horen: ganz vom Wt
+        ) { skipCommune = true };
+
+        if (rank_date < 5 &&    // an Festen: Ant und Ps in Kleinen Horen vom Wt
+            ['terz', 'sext', 'non'].includes(hour) &&
+            (field.startsWith('ps_') || field.startsWith('ant_'))
+        ) { skipCommune = true };
+
+        if (prefSollemnity ||   // Hochfeste und 1. Vesper: Comm, wenn nicht eigen, nicht vom WT
+            (texts.hasErsteVesper && hour === 'vesper')
+        ) { skipCommune = false };
+
+        if (!showComm2) { skipCommune = true }; // wenn nur ein Comm, keine Auswahlanzeige nötig
+        /////
+
         if (title === "RESPONSORIUM" ||
             (!showSources && !hasLatin && !showPsalmsWt && !showContinuous && !showTSN)) {
             return <h2 className="prayer-heading">{title}</h2>;
@@ -1555,13 +1572,10 @@ const PrayerTextDisplay = ({
 
     const getCanticleTitle = (hour) => {
         switch (hour) {
-            case 'laudes':
-                return 'BENEDICTUS';
-            case 'komplet':
-                return 'NUNC DIMITTIS';
+            case 'laudes': return 'BENEDICTUS';
+            case 'komplet': return 'NUNC DIMITTIS';
             case 'vesper':
-            default:
-                return 'MAGNIFICAT';
+            default: return 'MAGNIFICAT';
         }
     }
 
