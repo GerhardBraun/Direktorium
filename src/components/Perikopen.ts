@@ -9,36 +9,36 @@ interface PerikopenData {
 }
 
 export const perikopenData = {
-  "1 Joh": {
+  "1°Joh": {
     "4,16": {
       "text": "Wir haben die Liebe, die Gott zu uns hat, erkannt und gläubig angenommen. Gott ist die Liebe, und wer in der Liebe bleibt, bleibt in Gott und Gott bleibt in ihm."
     },
     "4,9": {
-      "text": "Text von 1 Joh 4,9"
+      "text": "Text von 1°Joh 4,9"
     },
     "1,1–3": {
-      "text": "Text von 1 Joh 1,1–3"
+      "text": "Text von 1°Joh 1,1–3"
     },
     "1,5b.7": {
       "text": "Gott ist Licht, und keine Finsternis ist in ihm. Wenn wir aber im Licht leben, wie er im Licht ist, haben wir Gemeinschaft miteinander, und das Blut seines Sohnes Jesus reinigt uns von aller Sünde."
     },
     "1,8–9": {
-      "text": "Text von 1 Joh 1,8–9"
+      "text": "Text von 1°Joh 1,8–9"
     },
     "2,1b–2": {
-      "text": "Text von 1 Joh 2,1b–2"
+      "text": "Text von 1°Joh 2,1b–2"
     },
     "2,8b–10": {
-      "text": "Text von 1 Joh 2,8b–10"
+      "text": "Text von 1°Joh 2,8b–10"
     },
     "3,1a–2": {
       "text": "Seht, wie groß die Liebe ist, die der Vater uns geschenkt hat: Wir heißen Kinder Gottes, und wir sind es. Liebe Brüder, jetzt sind wir Kinder Gottes. Aber was wir sein werden, ist noch nicht offenbar geworden. Wir wissen, dass wir ihm ähnlich sein werden, wenn er offenbar wird; denn wir werden ihn sehen, wie er ist."
     },
     "5,5–6a": {
-      "text": "Text von 1 Joh 5,5–6a"
+      "text": "Text von 1°Joh 5,5–6a"
     }
   },
-  "1 Kön": {
+  "1°Kön": {
     "2,2b–3": {
       "text": "Sei stark und mannhaft! Erfülle deine Pflicht gegen den Herrn, deinen Gott: Geh auf seinen Wegen und befolge alle Gebote, Befehle, Satzungen und Anordnungen, die im Gesetz des Mose niedergeschrieben sind. Dann wirst du Erfolg haben bei allem, was du tust, und in allem, was du unternimmst."
     },
@@ -46,27 +46,27 @@ export const perikopenData = {
       "text": "Alle Völker der Erde sollen erkennen, dass niemand Gott ist als der Herr allein. Euer Herz aber bleibe ungeteilt beim Herrn, unserem Gott, sodass ihr seinen Gesetzen folgt und auf seine Gebote beachtet."
     }
   },
-  "1 Kor": {
+  "1°Kor": {
     "4,5": {
-      "text": "Text von 1 Kor 4,5"
+      "text": "Text von 1°Kor 4,5"
     },
     "12,13": {
-      "text": "Text von 1 Kor 12,13"
+      "text": "Text von 1°Kor 12,13"
     },
     "1,18–19": {
-      "text": "Text von 1 Kor 1,18–19"
+      "text": "Text von 1°Kor 1,18–19"
     },
     "1,22–24": {
-      "text": "Text von 1 Kor 1,22–24"
+      "text": "Text von 1°Kor 1,22–24"
     },
     "1,25.27a": {
-      "text": "Text von 1 Kor 1,25.27a"
+      "text": "Text von 1°Kor 1,25.27a"
     },
     "1,27b–30": {
-      "text": "Text von 1 Kor 1,27b–30"
+      "text": "Text von 1°Kor 1,27b–30"
     },
     "1,7b–9": {
-      "text": "Text von 1 Kor 1,7b–9"
+      "text": "Text von 1°Kor 1,7b–9"
     },
     "12,12–13": {
       "text": "Wie der Leib eine Einheit ist, doch viele Glieder hat, alle Glieder des Leibes aber, obgleich es viele sind, einen einzigen Leib bilden: So ist es auch mit Christus. Durch den einen Geist wurden wir in der Taufe alle in einen einzigen Leib aufgenommen, Juden und Griechen, Sklaven und Freie; und alle wurden wir mit dem einen Geist getränkt."
@@ -78,25 +78,25 @@ export const perikopenData = {
       "text": "Es gibt verschiedene Gnadengaben, aber nur den einen Geist. Es gibt verschiedene Dienste, aber nur den einen Herrn. Es gibt verschiedene Kräfte, die wirken, aber nur den einen Gott: Er wirkt alles in allen."
     },
     "15,20–22": {
-      "text": "Text von 1 Kor 15,20–22"
+      "text": "Text von 1°Kor 15,20–22"
     },
     "15,3b–5": {
-      "text": "Text von 1 Kor 15,3b–5"
+      "text": "Text von 1°Kor 15,3b–5"
     },
     "2,7–10a": {
       "text": "Wir verkündigen das Geheimnis der verborgenen Weisheit Gottes, die Gott vor allen Zeiten vorausbestimmt hat zu unserer Verherrlichung. Keiner der Machthaber dieser Welt hat sie erkannt; denn hätte einer sie erkannt, so hätten sie den Herrn der Herrlichkeit nicht gekreuzigt. Nein, wir verkündigen, wie in der Schrift steht, was kein Auge gesehen und kein Ohr gehört hat, was keinem Menschen in den Sinn gekommen ist: das Große, das Gott denen bereitet hat, die ihn lieben. Denn uns hat es Gott enthüllt durch den Geist."
     },
     "2,9–10": {
-      "text": "Text von 1 Kor 2,9–10"
+      "text": "Text von 1°Kor 2,9–10"
     },
     "5,7–8": {
-      "text": "Text von 1 Kor 5,7–8"
+      "text": "Text von 1°Kor 5,7–8"
     },
     "6,19–20": {
-      "text": "Text von 1 Kor 6,19–20"
+      "text": "Text von 1°Kor 6,19–20"
     }
   },
-  "1 Petr": {
+  "1°Petr": {
     "1,13–14": {
       "text": "Umgürtet euch und macht euch bereit! Seid nüchtern und setzt eure Hoffnung ganz auf die Gnade, die euch bei der Offenbarung Jesu Christi geschenkt wird! Seid gehorsame Kinder und lasst euch nicht mehr von euren Begierden treiben wie früher, in der Zeit eurer Unwissenheit!"
     },
@@ -107,7 +107,7 @@ export const perikopenData = {
       "text": "Führt, solange ihr in der Fremde seid, ein Leben in Gottesfurcht! Ihr wisst, dass ihr aus eurer sinnlosen, von den Vätern ererbten Lebensweise nicht um einen vergänglichen Preis losgekauft wurdet, nicht um Silber oder Gold, sondern mit dem kostbaren Blut Christi, des Lammes ohne Fehl und Makel."
     },
     "1,18–21": {
-      "text": "Text von 1 Petr 1,18–21"
+      "text": "Text von 1°Petr 1,18–21"
     },
     "1,22–23": {
       "text": "Der Wahrheit gehorsam, habt ihr euer Herz rein gemacht für eine aufrichtige Bruderliebe; darum hört nicht auf, einander von Herzen zu lieben. Ihr seid neu geboren worden, nicht aus vergänglichem, sondern aus unvergänglichem Samen: aus Gottes Wort, das lebt und das bleibt."
@@ -116,58 +116,58 @@ export const perikopenData = {
       "text": "Ihr seid voll Freude, obwohl ihr jetzt vielleicht kurze Zeit unter mancherlei Prüfungen leiden müsst. Dadurch soll sich euer Glaube bewähren, und es wird sich zeigen, dass er wertvoller ist als Gold, das im Feuer geprüft wurde und doch vergänglich ist. So wird eurem Glauben Lob, Herrlichkeit und Ehre zuteil bei der Offenbarung Jesu Christi. Ihn habt ihr nicht gesehen, und dennoch liebt ihr ihn; ihr seht ihn auch jetzt nicht; aber ihr glaubt an ihn und jubelt in unsagbarer, von himmlischer Herrlichkeit verklärter Freude, da ihr das Ziel des Glaubens erreichen werdet: euer Heil."
     },
     "2,21b–24": {
-      "text": "Text von 1 Petr 2,21b–24"
+      "text": "Text von 1°Petr 2,21b–24"
     },
     "2,4–5": {
-      "text": "Text von 1 Petr 2,4–5"
+      "text": "Text von 1°Petr 2,4–5"
     },
     "2,9–10": {
-      "text": "Text von 1 Petr 2,9–10"
+      "text": "Text von 1°Petr 2,9–10"
     },
     "3,18.22": {
-      "text": "Text von 1 Petr 3,18.22"
+      "text": "Text von 1°Petr 3,18.22"
     },
     "3,21–22a": {
-      "text": "Text von 1 Petr 3,21–22a"
+      "text": "Text von 1°Petr 3,21–22a"
     },
     "4,13–14": {
-      "text": "Text von 1 Petr 4,13–14"
+      "text": "Text von 1°Petr 4,13–14"
     },
     "5,10–11": {
-      "text": "Text von 1 Petr 5,10–11"
+      "text": "Text von 1°Petr 5,10–11"
     },
     "5,5b–7": {
       "text": "Begegnet einander in Demut! Denn Gott tritt den Stolzen entgegen, den Demütigen aber schenkt er seine Gnade. Beugt euch also in Demut unter die mächtige Hand Gottes, damit er euch erhöht, wenn die Zeit gekommen ist. Werft alle eure Sorge auf ihn, denn er kümmert sich um euch."
     }
   },
-  "1 Sam": {
+  "1°Sam": {
     "16,7b": {
       "text": "Gott sieht nicht auf das, worauf der Mensch sieht. Der Mensch sieht, was vor den Augen ist, der Herr aber sieht das Herz."
     }
   },
-  "1 Thess": {
+  "1°Thess": {
     "2.13": {
       "text": "Wir danken Gott unablässig dafür, dass ihr das Wort Gottes, das ihr durch unsere Verkündigung empfangen habt, nicht als Menschenwort, sondern – was es in Wahrheit ist – als Gottes Wort angenommen habt; und jetzt ist es in euch, den Gläubigen, wirksam."
     },
     "3,12–13": {
-      "text": "Text von 1 Thess 3,12–13"
+      "text": "Text von 1°Thess 3,12–13"
     },
     "4,1.7": {
-      "text": "Text von 1 Thess 4,1.7"
+      "text": "Text von 1°Thess 4,1.7"
     },
     "5,23–24": {
-      "text": "Text von 1 Thess 5,23–24"
+      "text": "Text von 1°Thess 5,23–24"
     },
     "5,4–5": {
       "text": "Brüder, ihr lebt nicht im Finstern, sodass euch der Tag nicht wie ein Dieb überraschen kann. Ihr alle seid Söhne des Lichts und Söhne des Tages. Wir gehören nicht der Nacht und nicht der Finsternis."
     }
   },
-  "1 Tim": {
+  "1°Tim": {
     "2,4–6": {
-      "text": "Text von 1 Tim 2,4–6"
+      "text": "Text von 1°Tim 2,4–6"
     }
   },
-  "2 Kor": {
+  "2°Kor": {
     "13.4": {
       "text": "Zwar wurde Christus in seiner Schwachheit gekreuzigt, aber er lebt aus Gottes Kraft. Auch wir sind schwach in ihm, aber wir werden zusammen mit ihm vor euren Augen aus Gottes Kraft leben."
     },
@@ -178,27 +178,27 @@ export const perikopenData = {
       "text": "Gepriesen sei der Gott und Vater Jesu Christi, unseres Herrn, der Vater des Erbarmens und der Gott allen Trostes. Er tröstet uns in all unserer Not, damit auch wir die Kraft haben, alle zu trösten, die in Not sind, durch den Trost, mit dem auch wir von Gott getröstet werden."
     },
     "4,10–11": {
-      "text": "Text von 2 Kor 4,10–11"
+      "text": "Text von 2°Kor 4,10–11"
     },
     "5,14–15": {
-      "text": "Text von 2 Kor 5,14–15"
+      "text": "Text von 2°Kor 5,14–15"
     },
     "6,1–4a": {
-      "text": "Text von 2 Kor 6,1–4a"
+      "text": "Text von 2°Kor 6,1–4a"
     }
   },
-  "2 Petr": {
+  "2°Petr": {
     "1,10–11": {
       "text": "Meine Brüder, bemüht euch noch mehr darum, dass eure Berufung und Erwählung Bestand hat! Wenn ihr das tut, werdet ihr niemals scheitern. Dann wird euch in reichem Maß gewährt, in das ewige Reich unseres Herrn und Retters Jesus Christus einzutreten."
     },
     "1,3–4": {
-      "text": "Text von 2 Petr 1,3–4"
+      "text": "Text von 2°Petr 1,3–4"
     },
     "3,8b–9": {
-      "text": "Text von 2 Petr 3,8b–9"
+      "text": "Text von 2°Petr 3,8b–9"
     }
   },
-  "2 Thess": {
+  "2°Thess": {
     "2,13–14": {
       "text": "Wir müssen Gott zu jeder Zeit euretwegen danken, vom Herrn geliebte Brüder, weil Gott euch als Erstlingsgabe dazu auserwählt hat, aufgrund der Heiligung durch den Geist und aufgrund eures Glaubens an die Wahrheit gerettet zu werden. Dazu hat er euch durch unser Evangelium auch berufen; ihr sollt nämlich die Herrlichkeit Jesu Christi, unseres Herrn, erlangen."
     },
@@ -206,9 +206,9 @@ export const perikopenData = {
       "text": "Wer nicht arbeiten will, soll auch nicht essen. Wir hören aber, dass einige von euch ein unordentliches Leben führen und alles Mögliche treiben, nur nicht arbeiten. Wir ermahnen sie und gebieten ihnen im Namen Jesu Christi, des Herrn, in Ruhe ihrer Arbeit nachzugehen und ihr selbst verdientes Brot zu essen. Ihr aber, Brüder, werdet nicht müde, Gutes zu tun."
     }
   },
-  "2 Tim": {
+  "2°Tim": {
     "2,8.11": {
-      "text": "Text von 2 Tim 2,8.11"
+      "text": "Text von 2°Tim 2,8.11"
     },
     "1.9": {
       "text": "Gott hat uns gerettet; mit einem heiligen Ruf hat er uns gerufen, nicht aufgrund unserer Werke, sondern aus eigenem Entschluss und aus Gnade, die uns schon vor ewigen Zeiten in Christus Jesus geschenkt wurde."
@@ -755,40 +755,40 @@ export const perikopenData = {
       "text": "Was dir selbst verhasst ist, das mute auch einem anderen nicht zu! Gib dem Hungrigen von deinem Brot und dem Nackten von deinen Kleidern. Such nur bei Verständigen Rat; einen brauchbaren Ratschlag verachte nicht! Preise Gott, den Herrn, zu jeder Zeit; bitte ihn, dass dein Weg geradeaus führt und dass alles, was du tust und planst, ein gutes Ende nimmt."
     }
   },
-  "vgl. 1 Kön": {
+  "vgl.°1°Kön": {
     "8,51a.52–53": {
-      "text": "Text von vgl. 1 Kön 8,51a.52–53"
+      "text": "Text von vgl.°1°Kön 8,51a.52–53"
     }
   },
-  "vgl. 1 Kor": {
+  "vgl.°1°Kor": {
     "9,24–25": {
-      "text": "Text von vgl. 1 Kor 9,24–25"
+      "text": "Text von vgl.°1°Kor 9,24–25"
     }
   },
-  "vgl. 2 Thess": {
+  "vgl.°2°Thess": {
     "1,6.7.10": {
-      "text": "Text von vgl. 2 Thess 1,6.7.10"
+      "text": "Text von vgl.°2°Thess 1,6.7.10"
     }
   },
-  "vgl. Apg": {
+  "vgl.°Apg": {
     "4,11–12": {
-      "text": "Text von vgl. Apg 4,11–12"
+      "text": "Text von vgl.°Apg 4,11–12"
     }
   },
-  "vgl. Jes": {
+  "vgl.°Jes": {
     "10,24.27": {
-      "text": "Text von vgl. Jes 10,24.27"
+      "text": "Text von vgl.°Jes 10,24.27"
     },
     "13,22; 14,1": {
-      "text": "Text von vgl. Jes 13,22; 14,1"
+      "text": "Text von vgl.°Jes 13,22; 14,1"
     },
     "30,15.18": {
-      "text": "Text von vgl. Jes 30,15.18"
+      "text": "Text von vgl.°Jes 30,15.18"
     }
   },
-  "vgl. Kol": {
+  "vgl.°Kol": {
     "1,12–14": {
-      "text": "Text von vgl. Kol 1,12–14"
+      "text": "Text von vgl.°Kol 1,12–14"
     }
   },
   "Weish": {

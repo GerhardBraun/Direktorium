@@ -1738,7 +1738,7 @@ const PrayerTextDisplay = ({
                     />
                     <div>
                         {(hour !== "lesehore") && (
-                            <div className='text-[0.9em] text-gray-400'>{getValue('les_buch')} {formatBibleRef(getValue('les_stelle'))}</div>
+                            <div className='text-[0.9em] text-gray-400'>{formatPrayerText(getValue('les_buch'))} {formatBibleRef(getValue('les_stelle'))}</div>
                         )}
                         {(hour == "lesehore") && (
                             <>

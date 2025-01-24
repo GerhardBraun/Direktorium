@@ -354,7 +354,7 @@ export const psalmsData = {
     1.0: {
         "verses": "2-11",
         "title": "Kostet und seht, wie gut der Herr ist",
-        "quote": "Ihr habt erfahren, wie gütig der Herr ist. (1 Petr 2,3)",
+        "quote": "Ihr habt erfahren, wie gütig der Herr ist. (1°Petr 2,3)",
         "text": "Ich will den Herrn allezeit preisen;^*immer sei sein Lob in meinem Mund.^pMeine Seele rühme sich des Herrn;^*die Armen sollen es hören und sich freuen.^pVerherrlicht mit mir den Herrn,^*lasst uns gemeinsam seinen Namen rühmen.^pIch suchte den Herrn und er hat mich erhört,^*er hat mich all meinen Ängsten entrissen.^pBlickt auf zu ihm, so wird euer Gesicht leuchten^*und ihr braucht nicht zu erröten.^pDa ist ein Armer; er rief und der Herr erhörte ihn.^*Er half ihm aus all seinen Nöten.^pDer Engel des Herrn umschirmt alle, die ihn fürchten und ehren,^*und er befreit sie.^pKostet und seht, wie gütig der Herr ist;^*wohl dem, der zu ihm sich flüchtet!^pFürchtet den Herrn, ihr seine Heiligen;^*denn wer ihn fürchtet, leidet keinen Mangel.^pReiche müssen darben und hungern;^*wer aber den Herrn sucht, braucht kein Gut zu entbehren."
       },
     2.0: {
@@ -564,7 +564,7 @@ export const psalmsData = {
     0.0: {
         "verses": "3-11",
         "title": "Gott wird den Mann der Bosheit verderben",
-        "quote": "Wer sich rühmen will, der rühme sich des Herrn. (1 Kor 1,31)",
+        "quote": "Wer sich rühmen will, der rühme sich des Herrn. (1°Kor 1,31)",
         "text": "Was rühmst du dich deiner Bosheit, du Mann der Gewalt,^*was prahlst du allzeit vor dem Frommen?^pDu Ränkeschmied, du planst Verderben;^*deine Zunge gleicht einem scharfen Messer.^pDu liebst das Böse mehr als das Gute^*und Lüge mehr als wahrhaftige Rede.^pDu liebst lauter verderbliche Worte,^*du tückische Zunge.^pDarum wird Gott dich verderben für immer,^+dich packen und herausreißen aus deinem Zelt,^*dich entwurzeln aus dem Land der Lebenden.^pGerechte werden es sehen und sich fürchten;^*sie werden über ihn lachen und sagen:^pSeht, das ist der Mann,^*der nicht zu Gott seine Zuflucht nahm;^pauf seinen großen Reichtum hat er sich verlassen^*und auf seinen Frevel gebaut.^pIch aber bin im Haus Gottes wie ein grünender Ölbaum;^*auf Gottes Huld vertraue ich immer und ewig.^pIch danke dir, Herr, in Ewigkeit;^*denn du hast das alles vollbracht.^pIch hoffe auf deinen Namen im Kreis der Frommen;^*denn du bist gütig."
       }
   },
@@ -818,7 +818,7 @@ export const psalmsData = {
     0.0: {
         "verses": "2-21",
         "title": "Ich will nachsinnen über deine Taten",
-        "quote": "Von allen Seiten werden wir in die Enge getrieben und finden doch noch Raum. (2 Kor 4,8)",
+        "quote": "Von allen Seiten werden wir in die Enge getrieben und finden doch noch Raum. (2°Kor 4,8)",
         "text": "Ich rufe zu Gott, ich schreie,^*ich rufe zu Gott, bis er mich hört.^pAm Tag meiner Not suche ich den Herrn;^+unablässig erhebe ich nachts meine Hände,^*meine Seele lässt sich nicht trösten.^pDenke ich an Gott, muss ich seufzen,^*sinne ich nach, dann will mein Geist verzagen.^pDu lässt mich nicht mehr schlafen;^*ich bin voll Unruhe und kann nicht reden.^pIch sinne nach über die Tage von einst,^*ich will denken an längst vergangene Jahre.^pMein Herz grübelt bei Nacht,^*ich sinne nach, es forscht mein Geist.^pWird der Herr mich denn auf ewig verstoßen^*und mir niemals mehr gnädig sein?^pHat seine Huld für immer ein Ende,^*ist seine Verheißung aufgehoben für alle Zeiten?^pHat Gott seine Gnade vergessen,^*im Zorn sein Erbarmen verschlossen?^pDa sagte ich mir: „Das ist mein Schmerz,^*dass die Rechte des Höchsten so anders handelt.“^pIch denke an die Taten des Herrn,^*ich will denken an deine früheren Wunder.^pIch erwäge all deine Werke^*und will nachsinnen über deine Taten.^pGott, dein Weg ist heilig.^*Wo ist ein Gott, so groß wie unser Gott?^pDu allein bist der Gott, der Wunder tut,^*du hast deine Macht den Völkern kundgetan.^pDu hast mit starkem Arm dein Volk erlöst,^*die Kinder Jakobs und Josefs.^pDie Wasser sahen dich, Gott,^+die Wasser sahen dich und bebten.^*Die Tiefen des Meeres tobten.^pDie Wolken gossen ihr Wasser aus,^+das Gewölk ließ die Stimme dröhnen,^*auch deine Pfeile flogen dahin.^pDröhnend rollte dein Donner,^+Blitze erhellten den Erdkreis,^*die Erde bebte und wankte.^pDurch das Meer ging dein Weg,^+dein Pfad durch gewaltige Wasser,^*doch niemand sah deine Spuren.^pDu führtest dein Volk wie eine Herde^*durch die Hand von Mose und Aaron."
       }
   },
@@ -826,7 +826,7 @@ export const psalmsData = {
     1.0: {
         "verses": "1-16",
         "title": "Die Geschichte Israels als Mahnung und Warnung",
-        "quote": "Das geschah als warnendes Beispiel für uns. (1 Kor 10,6)",
+        "quote": "Das geschah als warnendes Beispiel für uns. (1°Kor 10,6)",
         "text": "Mein Volk, vernimm meine Weisung!^*Wendet euer Ohr zu den Worten meines Mundes!^pIch öffne meinen Mund zu einem Spruch;^*ich will die Geheimnisse der Vorzeit verkünden.^pWas wir hörten und erfuhren,^*was uns die Väter erzählten,^pdas wollen wir unseren Kindern nicht verbergen,^*sondern dem kommenden Geschlecht erzählen:^pdie ruhmreichen Taten und die Stärke des Herrn,^*die Wunder, die er getan hat.^pEr stellte sein Gesetz auf in Jakob,^+gab in Israel Weisung^*und gebot unseren Vätern, ihre Kinder das alles zu lehren,^pdamit das kommende Geschlecht davon erfahre,^+die Kinder späterer Zeiten;^*sie sollten aufstehen und es weitergeben an ihre Kinder,^pdamit sie ihr Vertrauen auf Gott setzen,^+die Taten Gottes nicht vergessen^*und seine Gebote bewahren,^pund nicht werden wie ihre Väter,^+jenes Geschlecht voll Trotz und Empörung,^*das wankelmütige Geschlecht, dessen Geist nicht treu zu Gott hielt.^pDie Söhne Efraims, Kämpfer mit Pfeil und Bogen,^*wandten den Rücken am Tag der Schlacht;^pGottes Bund hielten sie nicht,^*sie weigerten sich, seiner Weisung zu folgen.^pSie vergaßen die Taten des Herrn,^*die Wunder, die er sie sehen ließ.^pVor den Augen ihrer Väter vollbrachte er Wunder^*im Land Ägypten, im Gefilde von Zoan.^pEr spaltete das Meer und führte sie hindurch,^*er ließ das Wasser fest stehen wie einen Damm.^pEr leitete sie bei Tag mit der Wolke^*und die ganze Nacht mit leuchtendem Feuer.^pEr spaltete Felsen in der Wüste^*und gab dem Volk reichlich zu trinken wie mit Wassern der Urflut.^pEr ließ Bäche aus dem Gestein entspringen,^*ließ Wasser fließen gleich Strömen.^p"
       },
     2.0: {
@@ -840,7 +840,7 @@ export const psalmsData = {
     4.0: {
         "verses": "40-51",
         "title": "Gottes Güte und die Untreue des Volkes",
-        "quote": "Das geschah als warnendes Beispiel für uns. (1 Kor 10,6)",
+        "quote": "Das geschah als warnendes Beispiel für uns. (1°Kor 10,6)",
         "text": "Wie oft haben sie ihm in der Wüste getrotzt,^*ihn gekränkt in der Steppe!^pImmer wieder stellten sie ihn auf die Probe,^*sie reizten den Heiligen Gottes Israels.^pSie dachten nicht mehr an seine mächtige Hand,^*an den Tag, als er sie vom Unterdrücker befreite,^pals er in Ägypten Zeichen tat^*und Wunder im Gefilde von Zoan:^pEr verwandelte ihre Flüsse und Bäche in Blut;^*sie konnten daraus nicht mehr trinken.^pEr schickte einen Schwarm von Fliegen, der fraß sie auf,^*ein Heer von Fröschen, das vertilgte sie.^pIhre Ernte überließ er den Grillen^*und den Heuschrecken den Ertrag ihrer Mühen.^pIhre Reben zerschlug er mit Hagel,^*ihre Maulbeerbäume mit Körnern aus Eis.^pIhr Vieh überließ er der Pest^*und ihre Herden den Seuchen.^pEr ließ die Glut seines Zorns auf sie los:^+Grimm und Wut und Bedrängnis,^*Boten des Unheils in Scharen.^pEr ließ seinem Zorn freien Lauf,^+er bewahrte sie nicht vor dem Tod^*und lieferte ihr Leben der Pest aus.^pEr schlug in Ägypten alle Erstgeburt,^*in den Zelten Hams die Blüte der Jugend.^p"
       },
     5.0: {
@@ -880,7 +880,7 @@ export const psalmsData = {
     0.0: {
         "verses": "1-8",
         "title": "Gottes Gericht über ungerechte Richter",
-        "quote": "Richtet nicht, ehe der Herr kommt. (1 Kor 4,5)",
+        "quote": "Richtet nicht, ehe der Herr kommt. (1°Kor 4,5)",
         "text": "Gott steht auf in der Versammlung der Götter,^*im Kreis der Götter hält er Gericht.^p“Wie lange noch wollt ihr ungerecht richten^*und die Frevler begünstigen?^p“Verschafft Recht den Unterdrückten und Waisen,^*verhelft den Gebeugten und Bedürftigen zum Recht!^pBefreit die Geringen und Armen,^*entreißt sie der Hand der Frevler!^pSie aber haben weder Einsicht noch Verstand,^+sie tappen dahin im Finstern.^*Alle Grundfesten der Erde wanken.^pWohl habe ich gesagt: Ihr seid Götter,^*ihr alle seid Söhne des Höchsten.^pDoch nun sollt ihr sterben wie Menschen,^*sollt stürzen wie jeder der Fürsten.“^pErheb dich, Gott, und richte die Erde!^*Denn alle Völker werden dein Erbteil sein."
       }
   },
@@ -907,7 +907,7 @@ export const psalmsData = {
     0.0: {
         "verses": "1-17",
         "title": "Gott ist barmherzig und gnädig",
-        "quote": "Gepriesen sei Gott … er tröstet uns in all unserer Not. (2 Kor 1,3.4)",
+        "quote": "Gepriesen sei Gott … er tröstet uns in all unserer Not. (2°Kor 1,3.4)",
         "text": "Wende dein Ohr mir zu, erhöre mich, Herr!^*Denn ich bin arm und gebeugt.^pBeschütze mich, denn ich bin dir ergeben!^*Hilf deinem Knecht, der dir vertraut!^pDu bist mein Gott. Sei mir gnädig, o°Herr!^*Den ganzen Tag rufe ich zu dir.^pHerr, erfreue deinen Knecht,^*denn ich erhebe meine Seele zu dir.^pHerr, du bist gütig und bereit zu verzeihen,^*für alle, die zu dir rufen, reich an Gnade.^pHerr, vernimm mein Beten,^*achte auf mein lautes Flehen!^pAm Tag meiner Not rufe ich zu dir,^*denn du wirst mich erhören.^pHerr, unter den Göttern ist keiner wie du,^*und nichts gleicht den Werken, die du geschaffen hast.^pAlle Völker kommen und beten dich an,^*sie geben, Herr, deinem Namen die Ehre.^pDenn du bist groß und tust Wunder;^*du allein bist Gott.^pWeise mir, Herr, deinen Weg;^*ich will ihn gehen in Treue zu dir.^pRichte mein Herz darauf hin,^*allein deinen Namen zu fürchten!^pIch will dir danken, Herr, mein Gott, aus ganzem Herzen,^*will deinen Namen ehren immer und ewig.^pDu hast mich den Tiefen des Totenreichs entrissen.^*Denn groß ist über mir deine Huld.^pGott, freche Menschen haben sich gegen mich erhoben,^+die Rotte der Gewalttäter trachtet mir nach dem Leben;^*doch dich haben sie nicht vor Augen.^pDu aber, Herr, bist ein barmherziger und gnädiger Gott,^*du bist langmütig, reich an Huld und Treue.^pWende dich mir zu und sei mir gnädig,^+gib deinem Knecht wieder Kraft^*und hilf dem Sohn deiner Magd!^pTu ein Zeichen und schenke mir Glück!^+Alle, die mich hassen, sollen es sehen und sich schämen,^*weil du, Herr, mich gerettet und getröstet hast."
       }
   },
@@ -967,7 +967,7 @@ export const psalmsData = {
     0.0: {
         "verses": "1-17",
         "title": "Der ewige Gott und der vergängliche Mensch",
-        "quote": "Beim Herrn ist ein Tag wie tausend Jahre, und tausend Jahre sind wie ein Tag. (2 Petr 3,8)",
+        "quote": "Beim Herrn ist ein Tag wie tausend Jahre, und tausend Jahre sind wie ein Tag. (2°Petr 3,8)",
         "text": "Herr, du warst unsre Zuflucht^*von Geschlecht zu Geschlecht.^pEhe die Berge geboren wurden, die Erde entstand und das Weltall,^*bist du, o°Gott, von Ewigkeit zu Ewigkeit.^pDu lässt die Menschen zurückkehren zum Staub^*und sprichst: „Kommt wieder, ihr Menschen!“^pDenn tausend Jahre sind für dich wie der Tag, der gestern vergangen ist,^*wie eine Wache in der Nacht.^pVon Jahr zu Jahr säst du die Menschen aus;^*sie gleichen dem sprossenden Gras.^pAm Morgen grünt es und blüht,^*am Abend wird es geschnitten und welkt.^pDenn wir vergehen durch deinen Zorn,^*werden vernichtet durch deinen Grimm.^pDu hast unsere Sünden vor dich hingestellt,^*unsere geheime Schuld in das Licht deines Angesichts.^pDenn all unsere Tage gehn hin unter deinem Zorn,^*wir beenden unsere Jahre wie einen Seufzer.^pUnser Leben währt siebzig Jahre,^*und wenn es hoch kommt, sind es achtzig.^pDas Beste daran ist nur Mühsal und Beschwer,^*rasch geht es vorbei, wir fliegen dahin.^pWer kennt die Gewalt deines Zornes^*und fürchtet sich vor deinem Grimm?^pUnsere Tage zu zählen, lehre uns!^*Dann gewinnen wir ein weises Herz.^pHerr, wende dich uns doch endlich zu!^*Hab Mitleid mit deinen Knechten!^pSättige uns am Morgen mit deiner Huld!^*Dann wollen wir jubeln und uns freuen all unsre Tage.^pErfreue uns so viele Tage, wie du uns gebeugt hast,^*so viele Jahre, wie wir Unglück erlitten.^pZeig deinen Knechten deine Taten^*und ihren Kindern deine erhabene Macht!^pEs komme über uns die Güte des Herrn, unsres Gottes!^+Lass das Werk unsrer Hände gedeihen,^*ja, lass gedeihen das Werk unsrer Hände!"
       }
   },
@@ -1007,7 +1007,7 @@ export const psalmsData = {
     1.0: {
         "verses": "1-11",
         "title": "Gott, der Richter",
-        "quote": "All das rächt der Herr; denn Gott hat uns nicht dazu berufen, unrein zu leben, sondern heilig zu sein. (1 Thess 4,7.8)",
+        "quote": "All das rächt der Herr; denn Gott hat uns nicht dazu berufen, unrein zu leben, sondern heilig zu sein. (1°Thess 4,7.8)",
         "text": "Gott der Vergeltung, o°Herr,^*du Gott der Vergeltung, erscheine!^pErhebe dich, Richter der Erde,^*vergilt den Stolzen ihr Tun!^pWie lange noch dürfen die Frevler, o°Herr,^*wie lange noch dürfen die Frevler frohlocken?^pSie führen freche Reden,^*alle, die Unrecht tun, brüsten sich.^pHerr, die Frevler zertreten dein Volk,^*sie unterdrücken dein Erbteil.^pSie bringen die Witwen und Waisen um^*und morden die Fremden.^pSie denken: Der Herr sieht es ja nicht,^*der Gott Jakobs merkt es nicht.^pBegreift doch, ihr Toren im Volk!^*Ihr Unvernünftigen, wann werdet ihr klug?^pSollte der nicht hören, der das Ohr gepflanzt hat,^*sollte der nicht sehen, der das Auge geformt hat?^pSollte der nicht strafen, der die Völker erzieht,^*er, der die Menschen Erkenntnis lehrt?^pDer Herr kennt die Gedanken der Menschen:^*Sie sind nichts als ein Hauch."
       },
     2.0: {
@@ -1027,7 +1027,7 @@ export const psalmsData = {
     0.0: {
         "verses": "1-13",
         "title": "Gott ist König und Richter der Welt",
-        "quote": "Sie sangen ein neues Lied vor dem Thron und vor den vier Lebewesen und vor den Ältesten. (Vgl. Offb 14,3)",
+        "quote": "Sie sangen ein neues Lied vor dem Thron und vor den vier Lebewesen und vor den Ältesten. (vgl.°Offb 14,3)",
         "text": "Singet dem Herrn ein neues Lied,^*singt dem Herrn, alle Länder der Erde!^pSingt dem Herrn und preist seinen Namen,^*verkündet sein Heil von Tag zu Tag!^pErzählt bei den Völkern von seiner Herrlichkeit,^*bei allen Nationen von seinen Wundern!^pDenn groß ist der Herr und hoch zu preisen,^*mehr zu fürchten als alle Götter.^pAlle Götter der Heiden sind nichtig,^*der Herr aber hat den Himmel geschaffen.^pHoheit und Pracht sind vor seinem Angesicht,^*Macht und Glanz in seinem Heiligtum.^pBringt dar dem Herrn, ihr Stämme der Völker,^*bringt dar dem Herrn Lob und Ehre!^pBringt dar dem Herrn die Ehre seines Namens,^*spendet Opfergaben und tretet ein in sein Heiligtum!^pIn heiligem Schmuck werft euch nieder vor dem Herrn,^*erbebt vor ihm, alle Länder der Erde!^pVerkündet bei den Völkern:^*Der Herr ist König.^pDen Erdkreis hat er gegründet, so dass er nicht wankt.^*Er richtet die Nationen so, wie es recht ist.^pDer Himmel freue sich, die Erde frohlocke,^*es brause das Meer und alles, was es erfüllt!^pEs jauchze die Flur und was auf ihr wächst!^*Jubeln sollen alle Bäume des Waldes^pvor dem Herrn, wenn er kommt,^*wenn er kommt, um die Erde zu richten.^pEr richtet den Erdkreis gerecht^*und die Nationen nach seiner Treue."
       }
   },
@@ -1075,7 +1075,7 @@ export const psalmsData = {
     1.0: {
         "verses": "2-11",
         "title": "Gebet eines Unglücklichen",
-        "quote": "Gott tröstet uns in all unserer Not. (2 Kor 1,4)",
+        "quote": "Gott tröstet uns in all unserer Not. (2°Kor 1,4)",
         "text": "Herr, höre mein Gebet:^*Mein Schreien dringe zu dir.^pVerbirg dein Antlitz nicht vor mir!^+Wenn ich in Not bin, wende dein Ohr mir zu!^*Wenn ich dich anrufe, erhöre mich bald!^pMeine Tage sind wie Rauch geschwunden,^*meine Glieder wie von Feuer verbrannt.^pVersengt wie Gras und verdorrt ist mein Herz,^*sodass ich vergessen habe, mein Brot zu essen.^pVor lauter Stöhnen und Schreien^*bin ich nur noch Haut und Knochen.^pIch bin wie eine Dohle in der Wüste,^*wie eine Eule in öden Ruinen.^pIch liege wach und ich klage^*wie ein einsamer Vogel auf dem Dach.^pDen ganzen Tag schmähen mich die Feinde;^*die mich verhöhnen, nennen meinen Namen beim Fluchen.^pStaub muss ich essen wie Brot,^*mit Tränen mische ich meinen Trank;^pdenn auf mir lasten dein Zorn und dein Grimm.^*Du hast mich hochgerissen und zu Boden geschleudert."
       },
     2.0: {
@@ -1091,7 +1091,7 @@ export const psalmsData = {
     1.0: {
         "verses": "1-7",
         "title": "Der gütige und verzeihende Gott",
-        "quote": "Unser Gott ist reich an Erbarmen, darum kommt zu uns das strahlende Licht aus der Höhe. (Vgl. Lk 1,78)",
+        "quote": "Unser Gott ist reich an Erbarmen, darum kommt zu uns das strahlende Licht aus der Höhe. (vgl.°Lk 1,78)",
         "text": "Lobe den Herrn, meine Seele,^*und alles in mir seinen heiligen Namen!^pLobe den Herrn, meine Seele,^*und vergiss nicht, was er dir Gutes getan hat:^pder dir all deine Schuld vergibt^*und all deine Gebrechen heilt,^pder dein Leben vor dem Untergang rettet^*und dich mit Huld und Erbarmen krönt,^pder dich dein Leben lang mit seinen Gaben sättigt;^*wie dem Adler wird dir die Jugend erneuert.^pDer Herr vollbringt Taten des Heiles,^*Recht verschafft er allen Bedrängten.^pEr hat Mose seine Wege kundgetan,^*den Kindern Israels seine Werke."
       },
     2.0: {
@@ -1115,7 +1115,7 @@ export const psalmsData = {
     1.0: {
         "verses": "1-12",
         "title": "Lob des Schöpfers",
-        "quote": "Wenn jemand in Christus ist, ist er eine neue Schöpfung: Das Alte ist vergangen. Neues ist geworden. (2 Kor 5,17)",
+        "quote": "Wenn jemand in Christus ist, ist er eine neue Schöpfung: Das Alte ist vergangen. Neues ist geworden. (2°Kor 5,17)",
         "text": "Lobe den Herrn, meine Seele!^+Herr, mein Gott, wie groß bist du!^*Du bist mit Hoheit und Pracht bekleidet.^pDu hüllst dich in Licht wie in ein Kleid,^*du spannst den Himmel aus wie ein Zelt.^pDu verankerst die Balken deiner Wohnung im Wasser.^+Du nimmst dir die Wolken zum Wagen,^*du fährst einher auf den Flügeln des Sturmes.^pDu machst dir die Winde zu Boten^*und lodernde Feuer zu deinen Dienern.^pDu hast die Erde auf Pfeiler gegründet;^*in alle Ewigkeit wird sie nicht wanken.^pEinst hat die Urflut sie bedeckt wie ein Kleid,^*die Wasser standen über den Bergen.^pSie wichen vor deinem Drohen zurück,^*sie flohen vor der Stimme deines Donners.^pDa erhoben sich Berge und senkten sich Täler^*an den Ort, den du für sie bestimmt hast.^pDu hast den Wassern eine Grenze gesetzt,^+die dürfen sie nicht überschreiten;^*nie wieder sollen sie die Erde bedecken.^pDu lässt die Quellen hervorsprudeln in den Tälern,^*sie eilen zwischen den Bergen dahin.^pAllen Tieren des Feldes spenden sie Trank,^*die Wildesel stillen ihren Durst daraus.^pAn den Ufern wohnen die Vögel des Himmels,^*aus den Zweigen erklingt ihr Gesang."
       },
     2.0: {
@@ -1147,7 +1147,7 @@ export const psalmsData = {
     1.0: {
         "verses": "1-18",
         "title": "Gottes Güte – Israels Undank",
-        "quote": "Uns zur Warnung wurde dies aufgeschrieben, uns, die das Ende der Zeiten erreicht hat. (1 Kor 10,11)",
+        "quote": "Uns zur Warnung wurde dies aufgeschrieben, uns, die das Ende der Zeiten erreicht hat. (1°Kor 10,11)",
         "text": "Danket dem Herrn; denn er ist gütig,^*denn seine Huld währt ewig.^pWer kann die großen Taten des Herrn erzählen,^*all seinen Ruhm verkünden?^pWohl denen, die das Recht bewahren^*und zu jeder Zeit tun, was gerecht ist.^pDenk an mich, Herr, aus Liebe zu deinem Volk,^*such mich auf und bring mir Hilfe!^pLass mich das Glück deiner Erwählten schauen,^+an der Freude deines Volkes mich freuen,^*damit ich gemeinsam mit deinem Erbe mich rühmen kann.^pWir haben mit unseren Vätern gesündigt,^*wir haben Unrecht getan und gefrevelt.^pUnsre Väter in Ägypten begriffen deine Wunder nicht,^+dachten nicht an deine reiche Huld^*und trotzten dem Höchsten am Schilfmeer.^pEr aber hat sie gerettet um seines Namens willen,^*um seine Macht zu bekunden.^pEr bedrohte das Schilfmeer, da wurde es trocken;^*wie durch eine Steppe führte er sie durch die Fluten.^pEr rettete sie aus der Hand derer, die sie hassten,^*erlöste sie aus der Gewalt des Feindes.^pIhre Bedränger bedeckte das Wasser,^*nicht einer von ihnen blieb übrig.^pNun glaubten sie seinen Worten^*und sangen ihm seinen Lobpreis. ^r–^0r^pDoch sie vergaßen schnell seine Taten,^*wollten auf seinen Ratschluss nicht warten.^pSie wurden in der Wüste begehrlich^*und versuchten Gott in der Öde.^pEr gab ihnen, was sie von ihm verlangten;^*dann aber erfasste sie Ekel und Überdruss.^pSie wurden im Lager eifersüchtig auf Mose^*und auf Aaron, den Heiligen des Herrn.^pDie Erde tat sich auf, sie verschlang den Datan^*und bedeckte die Rotte Abirams.^pFeuer verbrannte die Rotte,^*Flammen verzehrten die Frevler.^p"
       },
     2.0: {
@@ -1187,7 +1187,7 @@ export const psalmsData = {
     0.0: {
         "verses": "1-5.7",
         "title": "Der Messias, König und Priester",
-        "quote": "Er muss herrschen, bis Gott ihm alle Feinde unter die Füße gelegt hat. (1 Kor 15,25)",
+        "quote": "Er muss herrschen, bis Gott ihm alle Feinde unter die Füße gelegt hat. (1°Kor 15,25)",
         "text": "So spricht der Herr zu meinem Herrn:^+Setze dich mir zur Rechten,^*und ich lege dir deine Feinde als Schemel unter die Füße.^pVom Zion strecke der Herr das Zepter deiner Macht aus:^*„Herrsche inmitten deiner Feinde!“^pDein ist die Herrschaft am Tag deiner Macht,^*wenn du erscheinst in heiligem Schmuck;^pich habe dich gezeugt noch vor dem Morgenstern,^*wie den Tau in der Frühe.^pDer Herr hat geschworen und nie wird’s ihn reuen:^*„Du bist Priester auf ewig nach der Ordnung Melchisedeks.“^pDer Herr steht dir zur Seite;^*er zerschmettert Könige am Tage seines Zornes.^pEr trinkt aus dem Bach am Weg;^*so kann er von neuem das Haupt erheben."
       }
   },
@@ -1227,7 +1227,7 @@ export const psalmsData = {
     0.0: {
         "verses": "1-18",
         "title": "Gott allein ist Gott",
-        "quote": "Ihr habt euch von den Götzen zu Gott bekehrt, um dem lebendigen und wahren Gott zu dienen. (1 Thess 1,9)",
+        "quote": "Ihr habt euch von den Götzen zu Gott bekehrt, um dem lebendigen und wahren Gott zu dienen. (1°Thess 1,9)",
         "text": "Nicht uns, o°Herr, bring zu Ehren,^+nicht uns, sondern deinen Namen,^*in deiner Huld und Treue!^pWarum sollen die Völker sagen:^*„Wo ist denn ihr Gott?“^pUnser Gott ist im Himmel;^*alles, was ihm gefällt, das vollbringt er.^pDie Götzen der Völker sind nur Silber und Gold,^*ein Machwerk von Menschenhand.^pSie haben einen Mund und reden nicht,^*Augen und sehen nicht;^psie haben Ohren und hören nicht,^*eine Nase und riechen nicht;^pmit ihren Händen können sie nicht greifen,^+mit den Füßen nicht gehen,^*sie bringen keinen Laut hervor aus ihrer Kehle.^pDie sie gemacht haben, sollen ihrem Machwerk gleichen,^*alle, die den Götzen vertrauen.^pIsrael, vertrau auf den Herrn!^*Er ist für euch Helfer und Schild.^pHaus Aaron, vertrau auf den Herrn!^*Er ist für euch Helfer und Schild.^pAlle, die ihr den Herrn fürchtet, vertraut auf den Herrn!^*Er ist für euch Helfer und Schild.^pDer Herr denkt an uns, er wird uns segnen,^+er wird das Haus Israel segnen,^*er wird das Haus Aaron segnen.^pDer Herr wird alle segnen, die ihn fürchten,^*segnen Kleine und Große.^pEs mehre euch der Herr,^*euch und eure Kinder!^pSeid gesegnet vom Herrn,^*der Himmel und Erde gemacht hat!^pDer Himmel ist der Himmel des Herrn,^*die Erde aber gab er den Menschen.^pTote können den Herrn nicht mehr loben,^*keiner, der ins Schweigen hinabfuhr.^pWir aber preisen den Herrn^*von nun an bis in Ewigkeit."
       }
   },
@@ -1281,95 +1281,95 @@ export const psalmsData = {
   },
   119: {
     1.0: {
-        "verses": "1-8   I (Alef)",
+        "verses": "1-8°°°I°(Alef)",
         "title": "Freude an Gottes Weisung",
-        "quote": "Die Liebe zu Gott besteht darin, dass wir seine Gebote halten. (1 Joh 5,3)",
+        "quote": "Die Liebe zu Gott besteht darin, dass wir seine Gebote halten. (1°Joh 5,3)",
         "text": "Wohl denen, deren Weg ohne Tadel ist,^*die leben nach der Weisung des Herrn.^pWohl denen, die seine Vorschriften befolgen^*und ihn suchen von ganzem Herzen,^pdie kein Unrecht tun^*und auf seinen Wegen gehn.^pDu hast deine Befehle gegeben,^*damit man sie genau beachtet.^pWären doch meine Schritte fest darauf gerichtet,^*deinen Gesetzen zu folgen!^pDann werde ich niemals scheitern,^*wenn ich auf all deine Gebote schaue.^pMit lauterem Herzen will ich dir danken,^*wenn ich deine gerechten Urteile lerne.^pDeinen Gesetzen will ich immer folgen.^*Lass mich doch niemals im Stich!"
       },
     9.0: {
-        "verses": "9-16   II (Bet)",
+        "verses": "9-16°°°II°(Bet)",
         "text": "Wie geht ein junger Mann seinen Pfad ohne Tadel?^*Wenn er sich hält an dein Wort.^pIch suche dich von ganzem Herzen.^*Lass mich nicht abirren von deinen Geboten!^pIch berge deinen Spruch im Herzen,^*damit ich gegen dich nicht sündige.^pGepriesen seist du, Herr!^*Lehre mich deine Gesetze!^pMit meinen Lippen verkünde ich^*alle Urteile deines Mundes.^pNach deinen Vorschriften zu leben^*freut mich mehr als großer Besitz.^pIch will nachsinnen über deine Befehle^*und auf deine Pfade schauen.^pIch habe meine Freude an deinen Gesetzen,^*dein Wort will ich nicht vergessen."
       },
     17.0: {
-        "verses": "17-24   III (Gimel)",
+        "verses": "17-24°°°III°(Gimel)",
         "text": "Herr, tu deinem Knecht Gutes, erhalt mich am Leben!^*Dann will ich dein Wort befolgen.^pÖffne mir die Augen^*für das Wunderbare an deiner Weisung!^pIch bin nur Gast auf Erden.^*Verbirg mir nicht deine Gebote!^pIn Sehnsucht nach deinem Urteil^*verzehrt sich allezeit meine Seele.^pDu drohst den Stolzen.^*Verflucht sei, wer abirrt von deinen Geboten!^pNimm von mir Schmach und Verachtung!^*Denn was du vorschreibst, befolge ich.^pWenn auch Fürsten gegen mich beraten:^*dein Knecht sinnt nach über deine Gesetze.^pDeine Vorschriften machen mich froh;^*sie sind meine Berater."
       },
     25.0: {
-        "verses": "25-32   IV (Dalet)",
+        "verses": "25-32°°°IV°(Dalet)",
         "text": "Meine Seele klebt am Boden.^*Durch dein Wort belebe mich!^pIch habe dir mein Geschick erzählt, und du erhörtest mich.^*Lehre mich deine Gesetze!^pLass mich den Weg begreifen, den deine Befehle mir zeigen,^*dann will ich nachsinnen über deine Wunder.^pMeine Seele zerfließt vor Kummer.^*Richte mich auf durch dein Wort!^pHalte mich fern vom Weg der Lüge;^*begnade mich mit deiner Weisung!^pIch wählte den Weg der Wahrheit;^*nach deinen Urteilen hab’ ich Verlangen.^pIch halte an deinen Vorschriften fest.^*Herr, lass mich niemals scheitern!^pIch eile voran auf dem Weg deiner Gebote,^*denn mein Herz machst du weit."
       },
     33.0: {
-        "verses": "33-40   V (He)",
+        "verses": "33-40°°°V°(He)",
         "text": "Herr, weise mir den Weg deiner Gesetze!^*Ich will ihn einhalten bis ans Ende.^pGib mir Einsicht, damit ich deiner Weisung folge^*und mich an sie halte aus ganzem Herzen.^pFühre mich auf dem Pfad deiner Gebote!^*Ich habe an ihm Gefallen.^pDeinen Vorschriften neige mein Herz zu,^*doch nicht der Habgier!^pWende meine Augen ab von eitlen Dingen;^*durch dein Wort belebe mich!^pErfülle deinem Knecht die Verheißung,^*die allen gilt, die dich fürchten und ehren.^pWende die Schande ab, vor der mir graut;^*denn deine Entscheide sind gut.^pNach deinen Befehlen hab’ ich Verlangen.^*Gib mir neue Kraft durch deine Gerechtigkeit!"
       },
     41.0: {
-        "verses": "41-48   VI (Waw)",
+        "verses": "41-48°°°VI°(Waw)",
         "text": "Herr, deine Huld komme auf mich herab^*und deine Hilfe, wie du es verheißen hast.^pDann kann ich dem, der mich schmäht, erwidern;^*denn ich vertraue auf dein Wort.^pEntziehe meinem Mund nicht das Wort der Wahrheit!^*Ich hoffe so sehr auf deine Entscheide.^pIch will deiner Weisung beständig folgen,^*auf immer und ewig.^pDann schreite ich aus auf freier Bahn;^*denn ich frage nach deinen Befehlen.^pDeine Gebote will ich vor Königen bezeugen^*und mich nicht vor ihnen schämen.^pAn deinen Geboten habe ich meine Freude,^*ich liebe sie von Herzen.^pIch erhebe meine Hände zu deinen Geboten;^*nachsinnen will ich über deine Gesetze."
       },
     49.0: {
-        "verses": "49-56   VII (Sajin)",
+        "verses": "49-56°°°VII°(Sajin)",
         "text": "Herr, denk an das Wort für deinen Knecht,^*durch das du mir Hoffnung gabst!^pDas ist mein Trost im Elend:^*Deine Verheißung spendet mir Leben.^pFrech verhöhnen mich die Stolzen;^*ich aber weiche nicht ab von deiner Weisung.^pDenke ich an deine Urteile seit alter Zeit,^*Herr, dann bin ich getröstet.^pZorn packt mich wegen der Frevler,^*weil sie deine Weisung missachten.^pZum Lobgesang wurden mir deine Gesetze^*im Haus meiner Pilgerschaft.^pIn der Nacht denke ich, Herr, an deinen Namen;^*ich will deine Weisung beachten.^pDeine Befehle zu befolgen^*ist das Glück, das mir zufiel."
       },
     57.0: {
-        "verses": "57-64   VIII (Chet)",
+        "verses": "57-64°°°VIII°(Chet)",
         "text": "Mein Anteil ist der Herr;^*ich habe versprochen, dein Wort zu beachten.^pIch suche deine Gunst von ganzem Herzen.^*Sei mir gnädig nach deiner Verheißung!^pIch überdenke meine Wege,^*zu deinen Vorschriften lenke ich meine Schritte.^pIch eile und säume nicht,^*deine Gebote zu halten.^pAuch wenn mich die Stricke der Frevler fesseln,^*vergesse ich deine Weisung nicht.^pUm Mitternacht stehe ich auf, um dich zu preisen^*wegen deiner gerechten Entscheide.^pIch bin ein Freund all derer, die dich fürchten und ehren,^*und aller, die deine Befehle befolgen.^pVon deiner Güte, Herr, ist die Erde erfüllt.^*Lehre mich deine Gesetze!"
       },
     65.0: {
-        "verses": "65-72   IX (Tet)",
+        "verses": "65-72°°°IX°(Tet)",
         "text": "Du hast deinem Knecht Gutes erwiesen,^*o Herr, nach deinem Wort.^pLehre mich Erkenntnis und rechtes Urteil!^*Ich vertraue auf deine Gebote.^pEhe ich gedemütigt wurde, ging mein Weg in die Irre;^*nun aber halte ich mich an deine Verheißung.^pDu bist gut und wirkst Gutes.^*Lehre mich deine Gesetze!^pStolze verbreiten über mich Lügen,^*ich aber halte mich von ganzem Herzen an deine Befehle.^pAbgestumpft und satt ist ihr Herz,^*ich aber ergötze mich an deiner Weisung.^pDass ich gedemütigt wurde, war für mich gut,^*denn so lernte ich deine Gesetze.^pDie Weisung deines Mundes ist mir lieb,^*mehr als große Mengen von Gold und Silber."
       },
     73.0: {
-        "verses": "73-80   X (Jod)",
+        "verses": "73-80°°°X°(Jod)",
         "text": "Deine Hände haben mich gemacht und geformt.^*Gib mir Einsicht, damit ich deine Gebote lerne.^pWer dich fürchtet, wird mich sehen und sich freuen,^*denn ich warte auf dein Wort.^pHerr, ich weiß, dass deine Entscheide gerecht sind;^*du hast mich gebeugt, weil du treu für mich sorgst.^pTröste mich in deiner Huld,^*wie du es deinem Knecht verheißen hast.^pDein Erbarmen komme über mich, damit ich lebe;^*denn deine Weisung macht mich froh.^pSchande über die Stolzen, die mich zu Unrecht bedrücken!^*Ich aber sinne nach über deine Befehle.^pMir sollen sich alle zuwenden, die dich fürchten und ehren^*und die deine Vorschriften kennen.^pMein Herz richte sich ganz nach deinen Gesetzen;^*dann werde ich nicht zuschanden."
       },
     81.0: {
-        "verses": "81-88   XI (Kaf)",
+        "verses": "81-88°°°XI°(Kaf)",
         "text": "Herr, nach deiner Hilfe sehnt sich meine Seele;^*ich warte auf dein Wort.^pMeine Augen sehnen sich nach deiner Verheißung,^*sie fragen: Wann wirst du mich trösten?^pIch bin wie ein Schlauch voller Risse,^*doch deine Gesetze habe ich nicht vergessen.^pWie viele Tage noch bleiben deinem Knecht?^*Wann wirst du meine Verfolger richten?^pStolze stellen mir Fallen,^*sie handeln nicht nach deiner Weisung.^pZuverlässig sind all deine Gebote.^*Zu Unrecht verfolgt man mich. Komm mir zu Hilfe!^pFast hätte man mich von der Erde ausgetilgt;^*dennoch halte ich fest an deinen Befehlen.^pIn deiner großen Huld lass mich leben,^*und ich will beachten, was dein Mund mir gebietet."
       },
     89.0: {
-        "verses": "89-96   XII (Lamed)",
+        "verses": "89-96°°°XII°(Lamed)",
         "text": "Herr, dein Wort bleibt auf ewig,^*es steht fest wie der Himmel.^pDeine Treue währt von Geschlecht zu Geschlecht;^*du hast die Erde gegründet, sie bleibt bestehen.^pNach deiner Ordnung bestehen sie bis heute^*und dir ist alles dienstbar.^pWäre nicht dein Gesetz meine Freude,^*ich wäre zugrunde gegangen in meinem Elend.^pNie will ich deine Befehle vergessen;^*denn durch sie schenkst du mir Leben.^pIch bin dein, errette mich!^*Ich frage nach deinen Befehlen.^pFrevler lauern mir auf, um mich zu vernichten;^*doch mein Sinn achtet auf das, was du gebietest.^pIch sah, dass alles Vollkommene Grenzen hat;^*doch dein Gebot kennt keine Schranken."
       },
     97.0: {
-        "verses": "97-104   XIII (Mem)",
+        "verses": "97-104°°°XIII°(Mem)",
         "text": "Wie lieb ist mir deine Weisung;^*ich sinne über sie nach den ganzen Tag.^pDein Gebot macht mich weiser als all meine Feinde;^*denn immer ist es mir nahe.^pIch wurde klüger als all meine Lehrer;^*denn über deine Vorschriften sinne ich nach.^pMehr Einsicht habe ich als die Alten;^*denn ich beachte deine Befehle.^pVon jedem bösen Weg halte ich meinen Fuß zurück;^*denn ich will dein Wort befolgen.^pIch weiche nicht ab von deinen Entscheiden,^*du hast mich ja selbst unterwiesen.^pWie köstlich ist für meinen Gaumen deine Verheißung,^*süßer als Honig für meinen Mund.^pAus deinen Befehlen gewinne ich Einsicht,^*darum hasse ich alle Pfade der Lüge."
       },
     105.0: {
-        "verses": "105-112   XIV (Nun)",
+        "verses": "105-112°°°XIV°(Nun)",
         "title": "Lob des göttlichen Gesetzes",
         "quote": "Dies ist mein Gebot: Liebt einander. (Joh 15,12)",
         "text": "^(Herr, dein Wort ist meinem Fuß eine Leuchte,^*ein Licht für meine Pfade.^)^pIch tat einen Schwur und ich will ihn halten:^*Ich will deinen gerechten Entscheidungen folgen.^pHerr, ganz tief bin ich gebeugt.^*Durch dein Wort belebe mich!^pHerr, nimm mein Lobopfer gnädig an^*und lehre mich deine Entscheide!^pMein Leben ist ständig in Gefahr,^*doch ich vergesse nie deine Weisung.^pFrevler legen mir Schlingen,^*aber ich irre nicht ab von deinen Befehlen.^pDeine Vorschriften sind auf ewig mein Erbteil,^*denn sie sind die Freude meines Herzens.^pMein Herz ist bereit, dein Gesetz zu erfüllen^*bis ans Ende und ewig."
       },
     113.0: {
-        "verses": "113-120   XV (Samech)",
+        "verses": "113-120°°°XV°(Samech)",
         "text": "Zwiespältige Menschen sind mir von Grund auf verhasst,^*doch dein Gesetz ist mir lieb.^pDu bist mein Schutz und mein Schild,^*ich warte auf dein Wort.^pWeicht zurück von mir, ihr Bösen!^*Ich will die Gebote meines Gottes befolgen.^pStütze mich, damit ich lebe, wie du es verheißen hast.^*Lass mich in meiner Hoffnung nicht scheitern!^pGib mir Halt, dann finde ich Rettung;^*immer will ich auf deine Gesetze schauen.^pAlle, die sich von deinen Gesetzen entfernen, verwirfst du;^*denn ihr Sinnen und Trachten ist Lüge.^pAlle Frevler im Land sind für dich wie Schlacken,^*darum liebe ich, was du gebietest.^pAus Ehrfurcht vor dir erschauert mein Leib,^*vor deinen Urteilen empfinde ich heilige Scheu."
       },
     121.0: {
-        "verses": "121-128   XVI (Ajin)",
+        "verses": "121-128°°°XVI°(Ajin)",
         "text": "Ich tue, was recht und gerecht ist.^*Gib mich meinen Bedrückern nicht preis!^pVerbürg dich für das Wohl deines Knechtes,^*damit die Stolzen mich nicht unterdrücken.^pMeine Augen sehnen sich nach deiner Hilfe,^*nach deiner gerechten Verheißung.^pHandle an deinem Knecht nach deiner Huld^*und lehre mich deine Gesetze!^pIch bin dein Knecht. Gib mir Einsicht,^*damit ich verstehe, was du gebietest.^pHerr, es ist Zeit zu handeln,^*man hat dein Gesetz gebrochen.^pDarum liebe ich deine Gebote^*mehr als Rotgold und Weißgold.^pIch lebe genau nach deinen Befehlen;^*ich hasse alle Pfade der Lüge."
       },
     129.0: {
-        "verses": "129-136   XVII (Pe)",
+        "verses": "129-136°°°XVII°(Pe)",
         "text": "Herr, deine Vorschriften sind der Bewunderung wert;^*darum bewahrt sie mein Herz.^pDie Erklärung deiner Worte bringt Erleuchtung,^*den Unerfahrenen schenkt sie Einsicht.^pWeit öffne ich meinen Mund und lechze nach deinen Geboten;^*denn nach ihnen hab’ ich Verlangen.^pWende dich mir zu, sei mir gnädig,^*wie es denen gebührt, die deinen Namen lieben.^pFestige meine Schritte, wie du es verheißen hast!^*Lass kein Unrecht über mich herrschen!^pErlöse mich aus der Gewalt der Menschen;^*dann will ich deine Befehle halten.^pLass dein Angesicht leuchten über deinem Knecht^*und lehre mich deine Gesetze!^pTränenbäche strömen aus meinen Augen,^*weil man dein Gesetz nicht befolgt."
       },
     137.0: {
-        "verses": "137-144   XVIII (Zade)",
+        "verses": "137-144°°°XVIII°(Zade)",
         "text": "Herr, du bist gerecht^*und deine Entscheide sind richtig.^pDu hast deine Vorschriften erlassen in Gerechtigkeit^*und in großer Treue.^pDer Eifer für dich verzehrt mich;^*denn meine Gegner vergessen deine Worte.^pDeine Worte sind rein und lauter;^*dein Knecht hat sie lieb.^pIch bin gering und verachtet,^*doch ich vergesse nie deine Befehle.^pDeine Gerechtigkeit bleibt ewig Gerechtigkeit,^*deine Weisung ist Wahrheit.^pMich trafen Not und Bedrängnis,^*doch deine Gebote machen mich froh.^pDeine Vorschriften sind auf ewig gerecht.^*Gib mir Einsicht, damit ich lebe."
       },
     145.0: {
-        "verses": "145-152   XIX (Qof)",
+        "verses": "145-152°°°XIX°(Qof)",
         "text": "Erhöre mich, Herr, ich rufe von ganzem Herzen;^*deine Gesetze will ich halten.^pIch rufe zu dir; errette mich,^*dann will ich deinen Vorschriften folgen.^pSchon beim Morgengrauen komme ich und flehe;^*ich warte auf dein Wort.^pMeine Augen eilen den Nachtwachen voraus,^*denn ich sinne nach über deine Verheißung.^pHöre auf meine Stimme in deiner Huld;^*belebe mich, Herr, durch deine Entscheide!^pMir nähern sich tückische Verfolger;^*sie haben sich weit von deiner Weisung entfernt.^pDoch du bist nahe, Herr,^*und alle deine Gebote sind Wahrheit.^pAus deinen Vorschriften weiß ich seit langem,^*dass du sie für ewig bestimmt hast."
       },
     153.0: {
-        "verses": "153-160   XX (Resch)",
+        "verses": "153-160°°°XX°(Resch)",
         "text": "Sieh mein Elend an und rette mich;^*denn ich habe deine Weisung nicht vergessen.^pVerschaff mir Recht und erlöse mich;^*nach deiner Weisung erhalte mein Leben!^pFern bleibt den Frevlern das Heil;^*denn sie fragen nicht nach deinen Gesetzen.^pHerr, groß ist dein Erbarmen;^*durch deine Entscheide belebe mich!^pViele verfolgen und quälen mich,^*doch von deinen Vorschriften weich ich nicht ab.^pWenn ich Abtrünnige sehe, empfinde ich Abscheu,^*weil sie dein Wort nicht befolgen.^pSieh an, wie sehr ich deine Vorschriften liebe;^*Herr, in deiner Huld belebe mich!^pDas Wesen deines Wortes ist Wahrheit,^*deine gerechten Urteile haben alle auf ewig Bestand."
       },
     161.0: {
-        "verses": "161-168   XXI (Schin)",
+        "verses": "161-168°°°XXI°(Schin)",
         "text": "Fürsten verfolgen mich ohne Grund,^*doch mein Herz fürchtet nur dein Wort.^pIch freue mich über deine Verheißung^*wie einer, der reiche Beute gemacht hat.^pIch hasse die Lüge, sie ist mir ein Gräuel,^*doch deine Weisung habe ich lieb.^pSiebenmal am Tag singe ich dein Lob^*wegen deiner gerechten Entscheide.^pAlle, die deine Weisung lieben, empfangen Heil in Fülle;^*es trifft sie kein Unheil.^pHerr, ich hoffe auf deine Hilfe^*und befolge deine Gebote.^pMeine Seele beachtet, was du gebietest,^*und liebt es von Herzen.^pIch folge deinen Vorschriften und Befehlen;^*denn alle meine Wege liegen offen vor dir."
       },
     169.0: {
-        "verses": "169-176   XXII (Taw)",
+        "verses": "169-176°°°XXII°(Taw)",
         "text": "Herr, zu dir dringe mein Rufen.^*Gib mir Einsicht, getreu deinem Wort!^pMein Flehen komme vor dein Angesicht.^*Reiß mich heraus getreu deiner Verheißung!^pMeine Lippen sollen überströmen von Lobpreis;^*denn du lehrst mich deine Gesetze.^pMeine Zunge soll deine Verheißung besingen;^*denn deine Gebote sind alle gerecht.^pDeine Hand sei bereit, mir zu helfen;^*denn ich habe mir deine Befehle erwählt.^pIch sehne mich, Herr, nach deiner Hilfe^*und deine Weisung macht mich froh.^pLass meine Seele leben, damit sie dich preisen kann!^*Deine Entscheidungen mögen mir helfen.^pIch bin verirrt wie ein verlorenes Schaf.^+Suche deinen Knecht!^*Denn deine Gebote habe ich nicht vergessen."
       }
   },
@@ -1401,7 +1401,7 @@ export const psalmsData = {
     0.0: {
         "verses": "1-4",
         "title": "Zu Gott erhebe ich meine Augen",
-        "quote": "Die beiden Blinden riefen laut: Herr! Sohn Davids! Hab Erbarmen mit uns! (Vgl. Mt 20,30)",
+        "quote": "Die beiden Blinden riefen laut: Herr! Sohn Davids! Hab Erbarmen mit uns! (vgl.°Mt 20,30)",
         "text": "Ich erhebe meine Augen zu dir,^*der du hoch im Himmel thronst.^pWie die Augen der Knechte auf die Hand ihres Herrn,^*wie die Augen der Magd auf die Hand ihrer Herrin,^pso schauen unsre Augen auf den Herrn, unsern Gott,^*bis er uns gnädig ist.^pSei uns gnädig, Herr, sei uns gnädig,^*denn übersatt sind wir vom Hohn der Spötter,^pübersatt ist unsre Seele von ihrem Spott,^*von der Verachtung der Stolzen."
       }
   },
@@ -1425,7 +1425,7 @@ export const psalmsData = {
     0.0: {
         "verses": "1-6",
         "title": "Heimkehr aus der Gefangenschaft",
-        "quote": "Wir sind sicher, dass ihr mit uns nicht nur an den Leiden teilhabt, sondern auch am Trost. (2 Kor 1,7)",
+        "quote": "Wir sind sicher, dass ihr mit uns nicht nur an den Leiden teilhabt, sondern auch am Trost. (2°Kor 1,7)",
         "text": "Als der Herr das Los der Gefangenschaft Zions wendete,^*da waren wir alle wie Träumende.^pDa war unser Mund voll Lachen^*und unsere Zunge voll Jubel.^pDa sagte man unter den andern Völkern:^*“Der Herr hat an ihnen Großes getan.“^pJa, Großes hat der Herr an uns getan.^*Da waren wir fröhlich.^pWende doch, Herr, unser Geschick,^*wie du versiegte Bäche wieder füllst im Südland.^pDie mit Tränen säen,^*werden mit Jubel ernten.^pSie gehen hin unter Tränen^*und tragen den Samen zur Aussaat.^pSie kommen wieder mit Jubel^*und bringen ihre Garben ein."
       }
   },
@@ -1433,7 +1433,7 @@ export const psalmsData = {
     0.0: {
         "verses": "1-5",
         "title": "Ohne Gott ist alles Mühen vergeblich",
-        "quote": "Ihr seid Gottes Bau. (1 Kor 3,9)",
+        "quote": "Ihr seid Gottes Bau. (1°Kor 3,9)",
         "text": "Wenn nicht der Herr das Haus baut,^*müht sich jeder umsonst, der daran baut.^pWenn nicht der Herr die Stadt bewacht,^*wacht der Wächter umsonst.^pEs ist umsonst, dass ihr früh aufsteht^*und euch spät erst niedersetzt,^pum das Brot der Mühsal zu essen;^*denn der Herr gibt es den Seinen im Schlaf.^pKinder sind eine Gabe des Herrn,^*die Frucht des Leibes ist sein Geschenk.^pWie Pfeile in der Hand des Kriegers,^*so sind Söhne aus den Jahren der Jugend.^pWohl dem Mann, der mit ihnen den Köcher gefüllt hat!^*Beim Rechtsstreit mit ihren Feinden scheitern sie nicht."
       }
   },
@@ -1501,7 +1501,7 @@ export const psalmsData = {
     1.0: {
         "verses": "1-12",
         "title": "Gottes Wirken in Schöpfung und Geschichte",
-        "quote": "Ihr seid ein auserwähltes Geschlecht, damit ihr die großen Taten dessen verkündet, der euch aus der Finsternis in sein wunderbares Licht gerufen hat. (vgl. 1 Petr 2,9)",
+        "quote": "Ihr seid ein auserwähltes Geschlecht, damit ihr die großen Taten dessen verkündet, der euch aus der Finsternis in sein wunderbares Licht gerufen hat. (vgl.°1°Petr 2,9)",
         "text": "Lobet den Namen des Herrn,^*lobt ihn, ihr Knechte des Herrn,^pdie ihr steht im Hause des Herrn,^*in den Vorhöfen am Haus unsres Gottes.^pLobt den Herrn, denn der Herr ist gütig!^*Singt und spielt seinem Namen, denn er ist freundlich!^pDer Herr hat sich Jakob erwählt,^*Israel wurde sein Eigentum.^pJa, das weiß ich: Groß ist der Herr,^*unser Herr ist größer als alle Götter.^pAlles, was dem Herrn gefällt, vollbringt er,^*im Himmel, auf der Erde, in den Meeren, in allen Tiefen.^pEr führt Wolken herauf vom Ende der Erde,^+er lässt es blitzen und regnen,^*aus seinen Kammern holt er den Sturmwind hervor.^pEr erschlug Ägyptens Erstgeburt,^*bei Menschen und beim Vieh.^pGegen dich, Ägypten, sandte er Zeichen und Wunder,^*gegen den Pharao und all seine Knechte.^pEr schlug viele Völker nieder^*und tötete mächtige Könige:^pSihon, den König der Amoriter,^+Og, den König von Baschan,^*und alle Reiche Kanaans.^pIhr Land gab er Israel zum Erbe,^*zum Erbe Israel, seinem Volk."
       },
     2.0: {
@@ -1541,7 +1541,7 @@ export const psalmsData = {
     0.0: {
         "verses": "1-8",
         "title": "Vertrauen auf Gottes Hilfe",
-        "quote": "Die Könige der Erde werden ihre Pracht in die Stadt bringen. (Vgl. Offb 21,24)",
+        "quote": "Die Könige der Erde werden ihre Pracht in die Stadt bringen. (vgl.°Offb 21,24)",
         "text": "Ich will dir danken aus ganzem Herzen,^*dir vor den Engeln singen und spielen;^pich will mich niederwerfen zu deinem heiligen Tempel hin^*und deinem Namen danken für deine Huld und Treue.^pDenn du hast die Worte meines Mundes gehört,^*deinen Namen und dein Wort über alles verherrlicht.^pDu hast mich erhört an dem Tag, als ich rief;^*du gabst meiner Seele große Kraft.^pDich sollen preisen, Herr, alle Könige der Welt,^*wenn sie die Worte deines Mundes vernehmen.^pSie sollen singen von den Wegen des Herrn;^*denn groß ist die Herrlichkeit des Herrn.^pJa, der Herr ist erhaben;^+doch er schaut auf die Niedrigen^*und die Stolzen erkennt er von fern.^pGehe ich auch mitten durch große Not:^*du erhältst mich am Leben.^pDu streckst die Hand aus gegen meine wütenden Feinde,^*und deine Rechte hilft mir.^pDer Herr nimmt sich meiner an.^+Herr, deine Huld währt ewig.^*Lass nicht ab vom Werk deiner Hände!"
       }
   },
@@ -1677,70 +1677,70 @@ export const psalmsData = {
   },
   151: {
     0.0: {
-        "verses": "vgl. Offb 19,1–7",
+        "verses": "vgl.°Offb°19,1–7",
         "title": "Die Hochzeit des Lammes",
         "text": "Halleluja.^lDas Heil und die Herrlichkeit und die Macht ist bei unserm Gott.^*^r(℞^0r°Halleluja.^)^lSeine Urteile sind wahr und gerecht.^l^r℞^0r°Halleluja°^(Halleluja^).^pHalleluja.^lPreist unsern Gott, all seine Knechte^*^r(℞^0r°Halleluja.^)^lund alle, die ihn fürchten, Große und Kleine!^l^r℞^0r°Halleluja°^(Halleluja^).^pHalleluja.^lDenn König geworden ist der Herr, unser Gott,^*^r(℞^0r°Halleluja.^)^lder Herrscher über die ganze Schöpfung.^l^r℞^0r°Halleluja°^(Halleluja^).^pHalleluja.^lWir wollen uns freuen und jubeln^*^r(℞^0r°Halleluja.^)^lund ihm die Ehre erweisen!^l^r℞^0r°Halleluja°^(Halleluja^).^pHalleluja.^lDenn gekommen ist die Hochzeit des Lammes,^*^r(℞^0r°Halleluja.^)^lund seine Frau hat sich bereit gemacht.^l^r℞^0r°Halleluja°^(Halleluja^).^p"
       }
   },
   152: {
     0.0: {
-        "verses": "vgl. Eph 1,3–10",
+        "verses": "vgl.°Eph°1,3–10",
         "title": "Gottes Heilsplan",
         "text": "Gepriesen sei Gott,^*der Gott und Vater unsres Herrn Jesus Christus.^pEr hat uns mit allem Segen seines Geistes gesegnet^*durch unsre Gemeinschaft mit Christus im Himmel.^pDenn in ihm hat er uns erwählt vor der Erschaffung der Welt,^*damit wir heilig und untadelig leben vor Gott;^per hat uns aus Liebe im Voraus dazu bestimmt,^*seine Söhne zu werden durch Jesus Christus^pund zu ihm zu gelangen nach seinem gnädigen Willen,^*zum Lob seiner herrlichen Gnade.^pEr hat sie uns geschenkt in seinem geliebten Sohn;^+durch sein Blut haben wir die Erlösung, die Vergebung der Sünden^*nach dem Reichtum seiner Gnade.^pDurch sie hat er uns reich beschenkt^*mit aller Weisheit und Einsicht^pund hat uns das Geheimnis seines Willens kundgetan,^*wie er es gnädig im Voraus bestimmt hat:^pdie Fülle der Zeiten heraufzuführen in Christus^*und alles, was im Himmel und auf Erden ist, in ihm zu vereinen."
       }
   },
   153: {
     0.0: {
-        "verses": "Offb 4,11; 5,9–10.12",
+        "verses": "Offb°4,11;°5,9–10.12",
         "title": "Danklied der Erlösten",
         "text": "Würdig bist du, Herr, unser Gott,^*Herrlichkeit zu empfangen und Ehre und Macht.^pDenn du bist es, der die Welt erschaffen hat,^*durch deinen Willen war sie und wurde durch ihn erschaffen.^pHerr, du bist würdig,^*das Buch zu nehmen und seine Siegel zu öffnen;^pdenn du wurdest geschlachtet^+und hast mit deinem Blut Menschen für Gott erworben^*aus allen Stämmen und Sprachen, aus allen Nationen und Völkern,^pund du hast sie zu Königen und Priestern gemacht für unseren Gott;^*und sie werden auf der Erde herrschen.^pWürdig ist das Lamm, das geschlachtet ist,^+Macht zu empfangen, Reichtum und Weisheit,^*Kraft und Ehre, Lob und Herrlichkeit."
       }
   },
   154: {
     0.0: {
-        "verses": "Kol 1,12–20",
+        "verses": "Kol°1,12–20",
         "title": "Christus, der Erstgeborene der ganzen Schöpfung",
         "text": "Dankt dem Vater mit Freude!^*Er hat euch fähig gemacht, Anteil zu haben am Los der Heiligen, die im Licht sind.^pEr hat uns der Macht der Finsternis entrissen^*und aufgenommen in das Reich seines geliebten Sohnes.^pDurch ihn haben wir die Erlösung,^*die Vergebung der Sünden.^pEr ist das Ebenbild des unsichtbaren Gottes,^*der Erstgeborene der ganzen Schöpfung.^pDenn in ihm wurde alles erschaffen^*im Himmel und auf Erden,^pdas Sichtbare und das Unsichtbare,^+Throne und Herrschaften, Mächte und Gewalten;^*alles ist durch ihn und auf ihn hin geschaffen.^pEr ist vor aller Schöpfung,^*in ihm hat alles Bestand.^pEr ist das Haupt des Leibes,^*der Leib aber ist die Kirche.^pEr ist der Ursprung,^+der Erstgeborene der Toten;^*so hat er in allem den Vorrang.^pDenn Gott wollte mit seiner ganzen Fülle in ihm wohnen,^*um durch ihn alles zu versöhnen.^pAlles im Himmel und auf Erden wollte er zu Christus führen,^*der Frieden gestiftet hat am Kreuz durch sein Blut."
       }
   },
   155: {
     0.0: {
-        "verses": "Offb 11,17–18; 12,10b–12a",
+        "verses": "Offb°11,17–18;°12,10b–12a",
         "title": "Das Gericht Gottes",
         "text": "Wir danken dir, Herr und Gott,^+du Herrscher über die ganze Schöpfung,^*der du bist und der du warst:^pdenn du nahmst deine große Macht in Anspruch^*und tratst deine Herrschaft an.^pDie Völker gerieten in Zorn.^*Da kam dein Zorn: die Zeit, die Toten zu richten,^pdie Zeit, deine Knechte zu belohnen,^*die Propheten und die Heiligen^pund alle, die deinen Namen fürchten,^*die Großen und die Kleinen,^pdie Zeit, alle zu verderben,^*die die Erde verderben.^pJetzt ist er da, der rettende Sieg,^+die Macht und die Herrschaft unsres Gottes^*und die Vollmacht seines Gesalbten;^pdenn gestürzt wurde der Ankläger unsrer Brüder,^*der sie bei Tag und bei Nacht vor unserm Gott verklagte.^pSie haben ihn besiegt durch das Blut des Lammes^*und durch ihr Wort und ihr Zeugnis.^pSie hielten ihr Leben nicht fest,^*bis hinein in den Tod.^pDarum jubelt, ihr Himmel^*und alle, die darin wohnen."
       }
   },
   156: {
     0.0: {
-        "verses": "Offb 15,3–4",
+        "verses": "Offb°15,3–4",
         "title": "Alle Völker beten Gott an",
         "text": "Groß und wunderbar sind deine Taten,^*Herr und Gott, du Herrscher über die ganze Schöpfung!^pGerecht und zuverlässig sind deine Wege,^*du König der Völker.^pWer wird dich nicht fürchten, Herr,^*wer wird deinen Namen nicht preisen?^pDenn du allein bist heilig:^+Alle Völker kommen und beten dich an;^*denn offenbar geworden sind deine gerechten Taten."
       }
   },
   157: {
     0.0: {
-        "verses": "Phil 2,6–11",
+        "verses": "Phil°2,6–11",
         "title": "Christus, der Gottesknecht",
         "text": "Christus Jesus war Gott gleich,^*hielt aber nicht daran fest, wie Gott zu sein,^psondern er entäußerte sich und wurde wie ein Sklave^*und den Menschen gleich.^pSein Leben war das eines Menschen;^+er erniedrigte sich und war gehorsam bis zum Tod,^*bis zum Tod am Kreuze.^pDarum hat ihn Gott über alle erhöht^*und ihm den Namen verliehen, der größer ist als alle Namen,^pdamit alle im Himmel, auf der Erde und unter der Erde^*ihre Knie beugen vor dem Namen Jesu^pund jeder Mund bekennt:^+„Jesus Christus ist der Herr“ –^*zur Ehre Gottes, des Vaters."
       }
   },
   158: {
     0.0: {
-        "verses": "vgl. 1 Petr 2,21–24",
+        "verses": "vgl.°1°Petr°2,21–24",
         "title": "Das freiwillige Leiden des Gottesknechtes",
         "text": "Christus hat für uns gelitten^+und uns ein Beispiel gegeben,^*damit ihr ihm folgen auf seinem Weg.^pEr hat keine Sünde begangen^*und in seinem Mund war keine Falschheit.^pAls er geschmäht wurde, schmähte er nicht,^+als er litt, drohte er nicht,^*sondern überließ seine Sache dem gerechten Richter.^pEr hat unsere Sünden mit seinem eigenen Leib^+auf das Holz des Kreuzes getragen,^*damit wir tot sind für die Sünden und leben für die Gerechtigkeit.^pDurch seine Wunden^*sind wir geheilt."
       }
   },
   159: {
     0.0: {
-        "verses": "vgl. 1 Tim 3,16",
+        "verses": "vgl.°1°Tim°3,16",
         "title": "Das Christusmysterium",
         "text": "^rR^0r°Lobet den Herrn, alle Völker.^pEr wurde offenbart im Fleisch,^*gerechtfertigt durch den Geist,^l–°^rR^0r°Lobet den Herrn, alle Völker. –^pgeschaut von den Engeln,^*verkündet unter den Heiden,^l–°^rR^0r°Lobet den Herrn, alle Völker. –^pgeglaubt in der Welt,^*aufgenommen in die Herrlichkeit.^l^rR^0r°Lobet den Herrn, alle Völker."
       }
   },
   160: {
     0.0: {
-        "verses": "vgl. Dan 3,57–88",
+        "verses": "vgl.°Dan°3,57–88",
         "title": "Der Lobgesang der drei Jünglinge",
         "quote": "Preist unseren Gott, all seine Knechte. (Offb 19,5)",
         "text": "Preist den Herrn, all ihr Werke des Herrn;^*lobt und rühmt ihn in Ewigkeit!^pPreist den Herrn, ihr Himmel;^*preist den Herrn, ihr Engel des Herrn!^pAll ihr Wasser über dem Himmel, preiset den Herrn;^*all ihr Mächte des Herrn, preiset den Herrn!^pPreist den Herrn, Sonne und Mond;^*preist den Herrn, ihr Sterne am Himmel!^pPreist den Herrn, aller Regen und Tau;^*preist den Herrn, all ihr Winde!^pPreist den Herrn, Feuer und Glut;^*preist den Herrn, Frost und Hitze!^pPreist den Herrn, Tau und Schnee;^*preist den Herrn, Eis und Kälte!^pPreist den Herrn, ihr Nächte und Tage;^*preist den Herrn, Licht und Dunkel!^pPreist den Herrn, Raureif und Schnee;^*preist den Herrn, ihr Blitze und Wolken!^pDie Erde preise den Herrn;^*sie lobe und rühme ihn in Ewigkeit!^pPreist den Herrn, ihr Berge und Hügel;^*preist den Herrn, all ihr Gewächse auf Erden!^pPreist den Herrn, ihr Meere und Flüsse;^*preist den Herrn, ihr Quellen!^pPreist den Herrn, ihr Tiere des Meeres +^lund alles, was sich regt im Wasser;^*preist den Herrn, all ihr Vögel am Himmel!^pPreist den Herrn, all ihr Tiere, wilde und zahme;^*preist den Herrn, ihr Menschen!^pPreist den Herrn, ihr Israeliten;^*lobt und rühmt ihn in Ewigkeit!^pPreist den Herrn, ihr seine Priester;^*preist den Herrn, ihr seine Knechte!^pIhr Geister und Seelen der Gerechten, preiset den Herrn;^*ihr Demütigen und Frommen, preiset den Herrn!^pPreist den Herrn, Hananja, Asarja und Mischaël;^*lobt und rühmt ihn in Ewigkeit!^pLasst uns preisen den Vater und den Sohn mit dem Heiligen Geist,^*ihn loben und rühmen in Ewigkeit!^p"
@@ -1748,7 +1748,7 @@ export const psalmsData = {
   },
   161: {
     0.0: {
-        "verses": "1 Chr 29,10–13",
+        "verses": "1°Chr°29,10–13",
         "title": "Gott allein die Ehre",
         "quote": "Gepriesen sei der Gott und Vater unseres Herrn Jesus Christus. (Eph 1,3)",
         "text": "Gepriesen bist du, Herr,^+Gott unsres Vaters Israel,^*von Ewigkeit zu Ewigkeit.^pDein, Herr, sind Größe und Kraft,^+Ruhm und Glanz und Hoheit;^*dein ist alles im Himmel und auf Erden.^pHerr, dein ist das Königtum.^*Du erhebst dich als Haupt über alles.^pReichtum und Ehre kommen von dir;^*du bist der Herrscher über die ganze Schöpfung.^pIn deiner Hand liegen Kraft und Stärke;^*von deiner Hand kommt alle Größe und Macht.^pDarum danken wir dir, Herr, unser Gott,^*und rühmen deinen herrlichen Namen."
@@ -1756,15 +1756,15 @@ export const psalmsData = {
   },
   162: {
     0.0: {
-        "verses": "Tob 13,2–5b.7c–9",
+        "verses": "Tob°13,2–5b.7c–9",
         "title": "Gott züchtigt und heilt",
-        "quote": "Gepriesen sei der Gott und Vater unseres Herrn Jesus Christus: Er hat uns in seinem großen Erbarmen neu gezeugt. (1 Petr 1,3)",
+        "quote": "Gepriesen sei der Gott und Vater unseres Herrn Jesus Christus: Er hat uns in seinem großen Erbarmen neu gezeugt. (1°Petr 1,3)",
         "text": "Gepriesen sei Gott, der in Ewigkeit lebt,^*sein Königtum sei gepriesen!^pEr züchtigt und hat auch wieder Erbarmen,^+er führt hinab in die Unterwelt und führt auch wieder zum Leben.^*Niemand kann seiner Macht entfliehen.^pBekennt euch zu ihm vor allen Völkern, ihr Kinder Israels,^*denn er selbst hat uns unter die Völker zerstreut.^pVerkündet dort seine erhabene Größe,^*preist ihn laut vor allem, was lebt.^pDenn er ist unser Herr und Gott,^*er ist unser Vater in alle Ewigkeit.^pEr züchtigt uns wegen unsrer Sünden,^*doch hat er auch wieder Erbarmen.^pPreist den Herrn der Gerechtigkeit,^*rühmt den ewigen König!^pIch bekenne mich zum Herrn im Land der Verbannung,^*ich bezeuge den Sündern seine Macht und erhabene Größe.^pKehrt um, ihr Sünder,^+tut, was recht ist in seinen Augen!^*Vielleicht ist er gnädig und hat mit euch Erbarmen.^pIch will meinen Gott rühmen, den König des Himmels,^*meine Seele freut sich über die erhabene Größe meines Gottes.^p"
       }
   },
   163: {
     0.0: {
-        "verses": "Jdt 16,1–2a.13–15",
+        "verses": "Jdt°16,1–2a.13–15",
         "title": "Die ganze Schöpfung diene dem Herrn",
         "quote": "Sie sangen ein neues Lied. (Offb 5,9)",
         "text": "Stimmt ein Lied an für meinen Gott unter Paukenschall,^*singt für den Herrn unter Zimbelklang!^pPreist ihn und singt sein Lob,^+rühmt seinen Namen und ruft ihn an!^*Denn der Herr ist ein Gott, der den Kriegen ein Ende setzt.^pIch singe meinem Gott ein neues Lied;^*Herr, du bist groß und voll Herrlichkeit.^pWunderbar bist du in deiner Stärke,^*keiner kann dich übertreffen.^pDienen muss dir deine ganze Schöpfung.^*Denn du hast gesprochen, und alles entstand.^pDu sandtest deinen Geist, um den Bau zu vollenden.^*Kein Mensch kann deinem Wort widerstehen.^pMeere und Berge erbeben in ihrem Grund,^+vor dir zerschmelzen die Felsen wie Wachs.^*Doch wer dich fürchtet, der erfährt deine Gnade."
@@ -1772,7 +1772,7 @@ export const psalmsData = {
   },
   164: {
     0.0: {
-        "verses": "Jer 31,10–13.14b",
+        "verses": "Jer°31,10–13.14b",
         "title": "Freudenfeier des befreiten Volkes",
         "quote": "Jesus musste sterben, um die versprengten Gotteskinder zu sammeln. (Joh 11,51.52)",
         "text": "Hört, ihr Völker, das Wort des Herrn,^*verkündet es auf den fernsten Inseln und sagt:^pEr, der Israel zerstreut hat, wird es auch sammeln^*und hüten wie ein Hirt seine Herde.^pDenn der Herr wird Jakob erlösen^*und ihn befreien aus der Hand des Stärkeren.^pSie kommen und jubeln auf Zions Höhe,^+sie strahlen vor Freude über die Gaben des Herrn,^*über Korn, Wein und Öl, über Lämmer und Rinder.^pSie werden wie ein bewässerter Garten sein^*und nie mehr verschmachten.^pDann freut sich das Mädchen beim Reigentanz,^*Jung und Alt sind fröhlich.^pIch verwandle ihre Trauer in Jubel,^+tröste und erfreue sie nach ihrem Kummer;^*mein Volk wird satt an meinen Gaben."
@@ -1780,7 +1780,7 @@ export const psalmsData = {
   },
   165: {
     0.0: {
-        "verses": "Jes 45,15–25",
+        "verses": "Jes°45,15–25",
         "title": "Ich bin der Herr, keiner sonst",
         "quote": "Vor dem Namen Jesu soll jedes Knie sich beugen. (Phil 2,10)",
         "text": "Wahrhaftig, du bist ein verborgener Gott.^*Israels Gott ist der Retter.^pSchmach und Schande kommt über all seine Gegner,^*die Götzenschmiede geraten in Schande.^pIsrael aber wird vom Herrn gerettet,^*wird für immer errettet.^pÜber euch kommt keine Schande und Schmach mehr^*für immer und ewig.^pDenn so spricht der Herr, der den Himmel erschuf:^*Ich bin der Herr, und sonst niemand.^pIch bin der Herr, der die Wahrheit spricht^*und der verkündet, was recht ist.^pWer hölzerne Götzen umherträgt, hat keine Erkenntnis,^*wer einen Gott anbetet, der niemanden rettet.^pEs gibt keinen Gott außer mir;^*außer mir gibt es keinen gerechten und rettenden Gott.^pWendet euch mir zu und lasst euch erretten,^+ihr Menschen aus den fernsten Ländern der Erde;^*denn ich bin Gott, und sonst niemand.^pIch habe bei mir selbst geschworen,^+und mein Mund hat die Wahrheit gesprochen,^*es ist ein unwiderrufliches Wort:^pVor mir wird jedes Knie sich beugen,^+und jede Zunge wird bei mir schwören:^*Nur beim Herrn gibt es Rettung und Schutz.^pBeschämt kommen alle zu ihm, die sich ihm widersetzten.^+Alle Nachkommen Israels bekommen ihr Recht^*und erlangen Ruhm durch den Herrn."
@@ -1788,7 +1788,7 @@ export const psalmsData = {
   },
   166: {
     0.0: {
-        "verses": "Ex 15,1–4a.8–13.17–18",
+        "verses": "Ex°15,1–4a.8–13.17–18",
         "title": "Siegeslied nach dem Durchzug durch das Rote Meer",
         "quote": "Die Sieger über das Tier sangen das Lied des Mose, des Knechtes Gottes. (Offb 15,2.3)",
         "text": "Ich singe dem Herrn ein Lied,^+denn er ist hoch und erhaben.^*Rosse und Wagen warf er ins Meer.^pMeine Stärke und mein Lied ist der Herr,^*er ist für mich zum Retter geworden.^pEr ist mein Gott, ihn will ich preisen;^*den Gott meines Vaters will ich rühmen.^pDer Herr ist ein Krieger,^+Jahwe ist sein Name.^*Pharaos Wagen und seine Streitmacht warf er ins Meer.^pDu schnaubtest vor Zorn, da türmte sich Wasser,^+da standen Wogen als Wall,^*Fluten erstarrten im Herzen des Meeres.^pDa sagte der Feind: Ich jage nach, hole ein.^+Ich teile die Beute, ich stille die Gier.^*Ich zücke mein Schwert, meine Hand jagt sie davon.^pDa schnaubtest du Sturm.^+Das Meer deckte sie zu.^*Sie sanken wie Blei ins tosende Wasser.^pWer ist wie du unter den Göttern, o°Herr?^+Wer ist wie du gewaltig und heilig,^*gepriesen als furchtbar, Wunder vollbringend?^pDu strecktest deine Rechte aus,^*da verschlang sie die Erde.^pDu lenktest in deiner Güte das Volk, das du erlöst hast,^*du führtest sie machtvoll zu deiner heiligen Wohnung.^pDu brachtest sie hin und pflanztest sie ein^*auf dem Berg deines Erbes.^pEinen Ort, wo du thronst, Herr, hast du gemacht;^*ein Heiligtum, Herr, haben deine Hände gegründet.^pDer Herr ist König^*für immer und ewig!"
@@ -1796,7 +1796,7 @@ export const psalmsData = {
   },
   170: {
     0.0: {
-        "verses": "Dan 3,52–57",
+        "verses": "Dan°3,52–57",
         "title": "Aus dem Lobgesang der drei Jünglinge im Feuerofen",
         "quote": "Der Schöpfer … gepriesen ist er in Ewigkeit. Amen. (Röm 1, 25b)",
         "text": "Gepriesen bist du, Herr, du Gott unsrer Väter,^*gelobt und gerühmt in Ewigkeit.^pGepriesen ist dein heiliger, herrlicher Name,^*hoch gelobt und verherrlicht in Ewigkeit.^pGepriesen bist du im Tempel deiner heiligen Herrlichkeit,^*hoch gerühmt und verherrlicht in Ewigkeit.^pGepriesen bist du, der in die Tiefen schaut und auf Kerubim thront,^*gelobt und gerühmt in Ewigkeit.^pGepriesen bist du auf dem Thron deiner Herrschaft,^*hoch gerühmt und gefeiert in Ewigkeit.^pGepriesen bist du am Gewölbe des Himmels,^*gerühmt und verherrlicht in Ewigkeit.^pPreist den Herrn, all ihr Werke des Herrn;^*lobt und rühmt ihn in Ewigkeit!"
@@ -1804,7 +1804,7 @@ export const psalmsData = {
   },
   171: {
     0.0: {
-        "verses": "Sir 36,1–7.13.16–19",
+        "verses": "Sir°36,1–7.13.16–19",
         "title": "Gebet für die heilige Stadt",
         "quote": "Dies ist das ewige Leben: dich, den einzigen wahren Gott, zu erkennen und Jesus Christus, den du gesandt hast. (Joh 17,3)",
         "text": "Rette uns, Herr, du Gott des Alls,^*und wirf deinen Schrecken auf alle Völker!^pSchwing deine Hand gegen das fremde Volk,^*damit es deine mächtigen Taten sieht!^pWie du dich an uns vor ihren Augen als heilig bezeugt hast,^*so verherrliche dich an ihnen vor unseren Augen,^pdamit sie erkennen, wie wir es erkannten:^*Es gibt keinen Gott außer dir!^pErneuere die Zeichen, wiederhole die Wunder,^*zeige die Macht deiner Hand und die Kraft deines rechten Armes!^pSammle alle Stämme Jakobs,^*verteile den Erbbesitz wie in den Tagen der Vorzeit!^pHab Erbarmen mit dem Volk, das deinen Namen trägt,^*mit Israel, den du deinen Erstgeborenen nanntest!^pHab Erbarmen mit deiner heiligen Stadt,^*mit Jerusalem, dem Ort, wo du wohnst!^pErfülle Zion mit deinem Glanz^*und deinen Tempel mit deiner Herrlichkeit!"
@@ -1812,7 +1812,7 @@ export const psalmsData = {
   },
   172: {
     0.0: {
-        "verses": "Jes 38,10–13a.14cd.17–20",
+        "verses": "Jes°38,10–13a.14cd.17–20",
         "title": "Angst des Kranken, Freude des Geheilten",
         "quote": "Ich war tot, doch nun lebe ich in Ewigkeit und habe die Schlüssel zum Tode und zur Unterwelt. (Offb 1,18)",
         "text": "Ich sagte: In der Mitte meiner Tage^+muss ich hinab zu den Pforten der Unterwelt,^*man raubt mir den Rest meiner Jahre.^pIch darf den Herrn nicht mehr schauen im Land der Lebenden,^*keinen Menschen mehr sehen bei den Bewohnern der Erde.^pMeine Hütte bricht man über mir ab,^*man schafft sie weg wie das Zelt eines Hirten.^pWie ein Weber hast du mein Leben zu Ende gewoben,^*du schneidest mich ab wie ein fertig gewobenes Tuch.^pVom Anbruch des Tages bis in die Nacht gibst du mich preis;^*bis zum Morgen schreie ich um Hilfe.^pMeine Augen blicken ermattet nach oben:^*Ich bin in Not, Herr; steh mir bei!^pDu hast mich aus meiner bitteren Not gerettet,^+du hast mich vor dem tödlichen Abgrund bewahrt;^*denn all meine Sünden warfst du hinter deinen Rücken.^pJa, in der Unterwelt dankt man dir nicht,^+die Toten loben dich nicht;^*wer ins Grab gesunken ist, kann nichts mehr von deiner Güte erhoffen.^pNur die Lebenden danken dir, wie ich am heutigen Tag.^*Von deiner Treue erzählt der Vater den Kindern.^pDer Herr war bereit, mir zu helfen.^*Wir wollen singen und spielen im Haus des Herrn, solange wir leben!"
@@ -1820,7 +1820,7 @@ export const psalmsData = {
   },
   173: {
     0.0: {
-        "verses": "1 Sam 2,1–10",
+        "verses": "1°Sam°2,1–10",
         "title": "Der Herr stürzt die Stolzen und erhöht die Niedrigen",
         "quote": "Er stürzt die Mächtigen vom Thron und erhöht die Niedrigen. Die Hungernden beschenkt er mit seinen Gaben. (Lk 1,52.53)",
         "text": "Mein Herz ist voll Freude über den Herrn,^*große Kraft gibt mir der Herr.^pWeit öffnet sich mein Mund gegen meine Feinde,^*denn ich freue mich über deine Hilfe.^pNiemand ist heilig, nur der Herr,^+denn außer dir gibt es keinen Gott;^*keiner ist ein Fels wie unser Gott.^pRedet nicht immer so vermessen,^*kein freches Wort komme aus eurem Mund;^pdenn der Herr ist ein wissender Gott,^*und bei ihm werden die Taten geprüft.^pDer Bogen der Helden wird zerbrochen,^*die Wankenden aber gürten sich mit Kraft.^pDie Satten verdingen sich um Brot,^*doch die Hungrigen können feiern für immer.^pDie Unfruchtbare bekommt sieben Kinder,^*doch die Kinderreiche welkt dahin.^pDer Herr macht tot und lebendig,^*er führt zum Totenreich hinab und führt auch herauf.^pDer Herr macht arm und macht reich,^*er erniedrigt, und er erhöht.^pDen Schwachen hebt er empor aus dem Staub^*und erhöht den Armen, der im Schmutz liegt;^per gibt ihm einen Sitz bei den Edlen,^*einen Ehrenplatz weist er ihm zu.^pJa, dem Herrn gehören die Pfeiler der Erde;^*auf sie hat er den Erdkreis gegründet.^pEr behütet die Schritte seiner Frommen,^+doch die Frevler verstummen in der Finsternis;^*denn der Mensch ist nicht stark aus eigener Kraft.^pWer gegen den Herrn streitet, wird zerbrechen;^+der Höchste lässt es donnern am Himmel.^*Der Herr hält Gericht bis an die Grenzen der Erde.^pSeinem König gebe er Kraft^*und erhöhe die Macht seines Gesalbten."
@@ -1828,7 +1828,7 @@ export const psalmsData = {
   },
   174: {
     0.0: {
-        "verses": "Jes 12,1–6",
+        "verses": "Jes°12,1–6",
         "title": "Der Jubel des geretteten Volkes",
         "quote": "Wer Durst hat, komme zu mir, und es trinke, wer an mich glaubt. (Joh 7,37b.38a)",
         "text": "Ich danke dir, Herr.^+Du hast mir gezürnt, doch dein Zorn hat sich gewendet,^*und du hast mich getröstet.^pJa, Gott ist meine Rettung;^*ihm will ich vertrauen und niemals verzagen.^pDenn meine Stärke und mein Lied ist der Herr.^*Er ist für mich zum Retter geworden.^pIhr werdet Wasser schöpfen voll Freude^*aus den Quellen des Heils.^pAn jenem Tag werdet ihr sagen:^*Dankt dem Herrn! Ruft seinen Namen an!^pMacht seine Taten unter den Völkern bekannt,^*verkündet: Sein Name ist groß und erhaben!^pPreist den Herrn, denn herrliche Taten hat er vollbracht;^*auf der ganzen Erde soll man es wissen.^pJauchzt und jubelt, ihr Bewohner von Zion,^*denn groß ist in eurer Mitte der Heilige Israels."
@@ -1836,7 +1836,7 @@ export const psalmsData = {
   },
   175: {
     0.0: {
-        "verses": "Hab 3,2–4.13a.15–19",
+        "verses": "Hab°3,2–4.13a.15–19",
         "title": "Gottes Gericht über die Feinde seines Volkes",
         "quote": "Richtet euch auf und fasst Mut; denn eure Erlösung ist nahe. (Lk 21,28)",
         "text": "Herr, ich höre die Kunde,^*ich sehe, Herr, was du früher getan hast.^pLass es in diesen Jahren wieder geschehen,^*offenbare es in diesen Jahren!^pAuch wenn du zürnst,^*denk an dein Erbarmen!^pGott kommt von Teman her,^*der Heilige kommt vom Gebirge Paran.^pSeine Hoheit überstrahlt den Himmel,^*sein Ruhm erfüllt die Erde.^pEr leuchtet wie das Licht der Sonne,^+ein Kranz von Strahlen umgibt ihn,^*in ihnen verbirgt sich seine Macht.^pDu ziehst aus, um dein Volk zu retten,^*um deinem Gesalbten zu helfen.^pDu bahnst mit deinen Rossen den Weg durch das Meer,^*durch das gewaltig schäumende Wasser.^pIch zitterte am ganzen Leib, als ich es hörte,^*ich vernahm den Lärm, und ich schrie.^pFäulnis befällt meine Glieder,^*und es wanken meine Schritte.^pDoch in Ruhe erwarte ich den Tag der Not,^*der dem Volk bevorsteht, das über uns herfällt.^pZwar blüht der Feigenbaum nicht,^*an den Reben ist nichts zu ernten,^pder Ölbaum bringt keinen Ertrag,^*die Kornfelder tragen keine Frucht;^pim Pferch sind keine Schafe,^*im Stall steht kein Rind mehr.^pDennoch will ich jubeln über den Herrn^*und mich freuen über Gott, meinen Retter.^pGott, der Herr, ist meine Kraft.^+Er macht meine Füße schnell wie die Füße der Hirsche^*und lässt mich schreiten auf den Höhen."
@@ -1844,7 +1844,7 @@ export const psalmsData = {
   },
   176: {
     0.0: {
-        "verses": "Dtn 32,1–12",
+        "verses": "Dtn°32,1–12",
         "title": "Die Wohltaten Gottes",
         "quote": "Wie oft wollte ich deine Kinder um mich sammeln, so wie eine Henne ihre Jungen unter ihren Flügeln sammelt. (Mt 23,37)",
         "text": "Hört zu, ihr Himmel, ich will reden,^*die Erde lausche meinen Worten!^pMeine Lehre wird strömen wie Regen,^*meine Botschaft wird fallen wie Tau,^pwie Regentropfen auf das Gras^*und wie Tauperlen auf die Pflanzen.^pIch will den Namen des Herrn verkünden;^*preist die Größe unseres Gottes!^pEr heißt: Der Fels.^+Vollkommen ist, was er tut;^*denn alle seine Wege sind recht.^pEr ist ein unbeirrbar treuer Gott,^*er ist gerecht und gerade.^pEin falsches, verdrehtes Geschlecht fiel von ihm ab,^*Verkrüppelte, die nicht mehr seine Söhne sind.^pIst das euer Dank an den Herrn,^*du dummes, verblendetes Volk?^pIst er nicht dein Vater, dein Schöpfer?^*Hat er dich nicht geformt und hingestellt?^pDenk an die Tage der Vergangenheit,^*lerne aus den Jahren der Geschichte.^pFrag deinen Vater, er wird es dir erzählen,^*frag die Alten, sie werden es dir sagen.^pDer Herr nahm sich sein Volk als Anteil,^*Jakob wurde sein Erbland.^pEr fand ihn in der Steppe,^*in der Wüste, wo wildes Getier heult.^pEr hüllte ihn ein, gab auf ihn acht^*und hütete ihn wie seinen Augenstern,^pwie der Adler, der sein Nest beschützt^*und über seinen Jungen schwebt,^pder seine Schwingen ausbreitet, ein Junges ergreift^*und es flügelschlagend davonträgt.^pDer Herr allein hat Jakob geleitet,^*kein fremder Gott stand ihm zur Seite."
@@ -1852,7 +1852,7 @@ export const psalmsData = {
   },
   181: {
     0.0: {
-        "verses": "Jes 2,2–5",
+        "verses": "Jes°2,2–5",
         "title": "Der Gottesfriede kommt vom Zion",
         "quote": "Der Berg mit dem Haus des Herrn steht fest gegründet als höchster Berg. Alle Völker werden kommen und dich anbeten. (Jes 2,2; Offb 15,4d)",
         "text": "Am Ende der Tage wird es geschehen:^+Der Berg mit dem Haus des Herrn steht fest gegründet als höchster der Berge;^*er überragt alle Hügel.^pZu ihm strömen alle Völker.^*Viele Nationen machen sich auf den Weg.^pSie sagen: Kommt, wir ziehen hinauf zum Berg des Herrn^*und zum Haus des Gottes Jakobs.^pEr zeige uns seine Wege,^*auf seinen Pfaden wollen wir gehen.^pDenn von Zion kommt die Weisung des Herrn,^*aus Jerusalem sein Wort.^pEr spricht Recht im Streit der Völker,^*er weist viele Nationen zurecht.^pDann schmieden sie Pflugscharen aus ihren Schwertern^*und Winzermesser aus ihren Lanzen.^pMan zieht nicht mehr das Schwert, Volk gegen Volk,^*und übt nicht mehr für den Krieg.^pIhr vom Haus Jakob,^*kommt, wir wollen unsere Wege gehen im Licht des Herrn!"
@@ -1860,15 +1860,15 @@ export const psalmsData = {
   },
   182: {
     0.0: {
-        "verses": "Jes 26,1–4.7–9.12",
+        "verses": "Jes°26,1–4.7–9.12",
         "title": "Ein Siegeslied",
-        "quote": "Die Mauer der Stadt hat zwölf Grundsteine. (Vgl. Offb 21,14)",
+        "quote": "Die Mauer der Stadt hat zwölf Grundsteine. (vgl.°Offb 21,14)",
         "text": "Zion ist unsre befestigte Stadt,^*zu unserem Schutz baute der Herr Mauern und Wälle.^pÖffnet die Tore,^+damit ein gerechtes Volk durch sie einzieht,^*ein Volk, das dem Herrn die Treue bewahrt.^pSein Sinn ist fest;^+du schenkst ihm Ruhe und Frieden,^*denn es verlässt sich auf dich.^pVerlasst euch stets auf den Herrn,^*denn der Herr ist ein ewiger Fels.^pDer Weg des Gerechten ist gerade,^*du ebnest dem Gerechten die Bahn.^pHerr, auf das Kommen deines Gerichts vertrauen wir.^*Deinen Namen anzurufen und an dich zu denken ist unser Verlangen.^pMeine Seele sehnt sich nach dir in der Nacht,^*auch mein Geist ist voll Sehnsucht nach dir.^pDenn dein Gericht ist ein Licht für die Welt,^*die Bewohner der Erde lernen deine Gerechtigkeit kennen.^pHerr, du wirst uns Frieden schenken;^*denn auch alles, was wir bisher erreichten, hast du für uns getan."
       }
   },
   183: {
     0.0: {
-        "verses": "Jes 33,13–15a.16",
+        "verses": "Jes°33,13–15a.16",
         "title": "Gott richtet gerecht",
         "quote": "Euch und euren Kindern gilt die Verheißung und all denen in der Ferne, die der Herr, unser Gott, herbeirufen wird. (Apg 2,39)",
         "text": "Ihr in der Ferne, hört, was ich tue;^*ihr in der Nähe, erkennt meine Kraft!^pDie Sünder in Zion beginnen zu zittern,^*ein Schauder erfasst die ruchlosen Menschen.^pWer von uns hält es aus neben dem verzehrenden Feuer,^*wer von uns hält es aus neben der ewigen Glut?^pWer rechtschaffen lebt und immer die Wahrheit sagt,^+der wird auf den Bergen wohnen,^*Felsenburgen sind seine Zuflucht;^pman reicht ihm sein Brot,^*und seine Wasserquelle versiegt nicht."
@@ -1876,7 +1876,7 @@ export const psalmsData = {
   },
   184: {
     0.0: {
-        "verses": "Jes 40,10–17",
+        "verses": "Jes°40,10–17",
         "title": "Gott kommt als der Gute Hirt",
         "quote": "Siehe, ich komme bald, und mit mir bringe ich den Lohn. (Offb 22,12)",
         "text": "Seht, Gott der Herr, kommt mit Macht,^*er herrscht mit starkem Arm.^pSeht, er bringt seinen Siegespreis mit:^*Alle, die er gewonnen hat, gehen vor ihm her.^pWie ein Hirt führt er seine Herde zur Weide,^*er sammelt sie mit starker Hand.^pDie Lämmer trägt er auf dem Arm,^*die Mutterschafe führt er behutsam.^pWer misst das Meer mit der hohlen Hand?^*Wer kann mit der ausgespannten Hand den Himmel vermessen?^pWer misst den Staub der Erde mit einem Scheffel?^+Wer wiegt die Berge mit einer Waage^*und mit Gewichten die Hügel?^pWer bestimmt den Geist des Herrn?^*Wer kann sein Berater sein und ihn unterrichten?^pWen fragt er um Rat,^*und wer vermittelt ihm Einsicht?^pWer kann ihn über die Pfade des Rechts belehren?^*Wer lehrt ihn das Wissen und zeigt ihm den Weg der Erkenntnis?^pSeht, die Völker sind wie ein Tropfen am Eimer,^+sie gelten so viel wie ein Stäubchen auf der Waage.^*Ganze Inseln wiegen nicht mehr als ein Sandkorn.^pDer Libanon reicht nicht aus für das Brennholz,^*sein Wild genügt nicht für die Opfer.^pAlle Völker sind vor Gott wie ein Nichts,^*für ihn sind sie wertlos und nichtig."
@@ -1884,7 +1884,7 @@ export const psalmsData = {
   },
   185: {
     0.0: {
-        "verses": "Jer 14,17b–21",
+        "verses": "Jer°14,17b–21",
         "title": "Prophetenklage über Jerusalem",
         "quote": "Das Reich Gottes ist nahe. Bekehrt euch und glaubt an das Evangelium! (Mk 1,15)",
         "text": "Meine Augen fließen über von Tränen bei Tag und bei Nacht^*und finden keine Ruhe.^pDenn großes Verderben brach herein^+über die Jungfrau, die Tochter meines Volkes,^*eine unheilbare Wunde.^pGehe ich aufs Feld hinaus – seht, vom Schwert Durchbohrte!^*Komme ich in die Stadt – seht, vom Hunger Gequälte!^pJa, auch Propheten und Priester werden verschleppt^*in ein Land, das sie nicht kennen.^pHast du denn Juda ganz verworfen,^*wurde dir Zion zum Abscheu?^pWarum hast du uns so geschlagen,^*dass es für uns keine Heilung mehr gibt?^pWir hofften auf Heil, doch kommt nichts Gutes,^*auf die Zeit der Heilung, doch ach, nur Schrecken!^pWir erkennen, Herr, unser Unrecht,^+die Schuld unsrer Väter:^*Ja, wir haben gegen dich gesündigt.^pUm deines Namens willen verschmähe nicht,^+verstoß nicht den Thron deiner Herrlichkeit!^*Gedenke deines Bundes mit uns und löse ihn nicht!"
@@ -1892,7 +1892,7 @@ export const psalmsData = {
   },
   186: {
     0.0: {
-        "verses": "Weish 9,1–6.9–11",
+        "verses": "Weish°9,1–6.9–11",
         "title": "Bitte um Weisheit",
         "quote": "Ich werde euch die Worte und die Weisheit eingeben, so dass alle eure Gegner nicht dagegen ankommen und nichts dagegen sagen können. (Lk 21,15)",
         "text": "Gott der Väter und Herr des Erbarmens,^*du hast das All durch dein Wort gemacht.^pDen Menschen hast du durch deine Weisheit erschaffen,^*damit er über deine Geschöpfe herrsche.^pEr soll die Welt in Heiligkeit und Gerechtigkeit leiten^*und Gericht halten in rechter Gesinnung.^pGib mir die Weisheit, die an deiner Seite thront,^*und verstoß mich nicht aus der Schar deiner Kinder!^pIch bin ja dein Knecht, der Sohn deiner Magd,^+ein schwacher Mensch, dessen Leben nur kurz ist,^*und gering ist meine Einsicht in Recht und Gesetz.^pWäre einer auch vollkommen unter den Menschen,^*er wird kein Ansehen genießen, wenn ihm deine Weisheit fehlt.^pMit dir ist die Weisheit, die deine Werke kennt^*und die zugegen war, als du die Welt erschufst.^pSie weiß, was dir gefällt^*und was recht ist nach deinen Geboten.^pSende sie vom heiligen Himmel^*und schick sie vom Thron deiner Herrlichkeit,^pdamit sie bei mir sei und alle Mühe mit mir teile,^*und damit ich erkenne, was dir gefällt!^pDenn sie weiß und versteht alles;^+sie wird mich in meinem Tun besonnen leiten^*und mich in ihrem Lichtglanz schützen."
@@ -1900,7 +1900,7 @@ export const psalmsData = {
   },
   191: {
     0.0: {
-        "verses": "Jes 42,10–16d",
+        "verses": "Jes°42,10–16d",
         "title": "Hymnus auf Gott, den Sieger und Retter",
         "quote": "Sie sangen ein neues Lied vor dem Thron. (Offb 14,3)",
         "text": "Singt dem Herrn ein neues Lied,^*verkündet seinen Ruhm bis ans Ende der Erde!^pEs jauchze das Meer und alles, was es erfüllt,^*die Inseln und ihre Bewohner.^pDie Wüste und ihre Städte sollen sich freuen,^*die Dörfer, die Kedar bewohnt.^pDie Bewohner von Sela sollen singen vor Freude^*und jubeln auf den Gipfeln der Berge.^pSie sollen die Herrlichkeit des Herrn verkünden,^*seinen Ruhm auf den Inseln verbreiten.^pDer Herr zieht in den Kampf wie ein Held,^*er entfacht seine Leidenschaft wie ein Krieger.^pEr erhebt den Schlachtruf und schreit,^*er zeigt sich als Held gegenüber den Feinden.^p“Ich hatte sehr lange geschwiegen,^*ich war still und hielt mich zurück.^pWie eine Gebärende will ich nun schreien,^*ich schnaube und schnaufe.^pDie Berge und Hügel dörre ich aus^*und lasse ihr Gras völlig vertrocknen.^pFlüsse mache ich zu festem Boden,^*und Teiche lege ich trocken.^pBlinde führe ich auf Wegen, die sie nicht kennen,^*auf unbekannten Pfaden lasse ich sie wandern.^pDie Finsternis vor ihren Augen mache ich zu Licht;^*was krumm ist, mache ich gerade.“"
@@ -1908,7 +1908,7 @@ export const psalmsData = {
   },
   192: {
     0.0: {
-        "verses": "Dan 3,26–27.29.34–41",
+        "verses": "Dan°3,26–27.29.34–41",
         "title": "Gebet des Asarja im Feuerofen",
         "quote": "Kehrt um und tut Buße, damit eure Sünden getilgt werden. (Apg 3,19)",
         "text": "Gepriesen und gelobt bist du, Herr, Gott unsrer Väter;^*herrlich ist dein Name in alle Ewigkeit.^pDenn du bist gerecht in allem, was du getan hast.^+All deine Taten sind richtig, deine Wege gerade.^*Alle deine Urteile sind wahr.^pDenn wir haben gesündigt und durch Treubruch gefrevelt^*und haben in allem gefehlt.^pUm deines Namens willen verwirf uns nicht für immer;^*löse deinen Bund nicht auf!^pVersag uns nicht dein Erbarmen,^+deinem Freund Abraham zuliebe, deinem Knechte Isaak^*und Israel, deinem Heiligen,^pdenen du Nachkommen verheißen hast,^+so zahlreich wie die Sterne am Himmel^*und wie der Sand am Ufer des Meeres.^pAch, Herr, wir sind geringer geworden als alle Völker.^*In aller Welt sind wir heute wegen unserer Sünden erniedrigt.^pWir haben in dieser Zeit weder Vorsteher noch Propheten^*und keinen, der uns anführt,^pweder Brandopfer noch Schlachtopfer, weder Speiseopfer noch Räucherwerk,^*noch einen Ort, um dir die Erstlingsgaben darzubringen und um Erbarmen zu finden bei dir.^pDu aber nimm uns an.^*Wir kommen mit zerknirschtem Herzen und demütigem Sinn.^pWie Brandopfer von Widdern und Stieren,^+wie Tausende fetter Lämmer,^*so gelte heute unser Opfer vor dir und verschaffe uns bei dir Sühne.^pDenn wer dir vertraut, wird nicht beschämt.^+Wir folgen dir jetzt von ganzem Herzen,^*fürchten dich und suchen dein Angesicht."
@@ -1916,7 +1916,7 @@ export const psalmsData = {
   },
   193: {
     0.0: {
-        "verses": "Jes 61,10–62,5",
+        "verses": "Jes°61,10–62,5",
         "title": "Jubel über das neue Jerusalem",
         "quote": "Ich sah die heilige Stadt, das neue Jerusalem … sie war bereit wie eine Braut, die sich für ihren Mann geschmückt hat. (Offb 21,2)",
         "text": "Von Herzen will ich mich freuen über den Herrn.^*Meine Seele soll jubeln über meinen Gott.^pDenn er kleidet mich in Gewänder des Heils,^*er hüllt mich in den Mantel der Gerechtigkeit,^pwie ein Bräutigam sich festlich schmückt^*und wie eine Braut ihr Geschmeide anlegt.^pDenn wie die Erde die Saat wachsen lässt^*und der Garten die Pflanzen hervorbringt,^pso bringt Gott, der Herr, Gerechtigkeit hervor^*und Ruhm vor allen Völkern.^pUm Zions willen kann ich nicht schweigen^*und um Jerusalems willen nicht still sein,^pbis das Recht in ihm aufstrahlt wie ein helles Licht^*und sein Heil aufleuchtet wie eine brennende Fackel.^pMan ruft dich mit einem neuen Namen,^*den der Mund des Herrn für dich bestimmt.^pDu wirst zu einer prächtigen Krone in der Hand des Herrn,^*zu einem königlichen Diadem in der Rechten deines Gottes.^pNicht länger nennt man dich „Die Verlassene“^*und dein Land nicht mehr „Das Ödland“,^psondern man nennt dich „Meine Wonne“^*und dein Land „Die Vermählte“.^pDenn der Herr hat an dir seine Freude,^*und dein Land wird mit ihm vermählt.^pWie der junge Mann sich mit der Jungfrau vermählt,^*so vermählt sich mit dir dein Erbauer.^pWie der Bräutigam sich freut über die Braut,^*so freut sich dein Gott über dich."
@@ -1924,7 +1924,7 @@ export const psalmsData = {
   },
   194: {
     0.0: {
-        "verses": "Jes 66,10–14a",
+        "verses": "Jes°66,10–14a",
         "title": "Trost und Freude in der heiligen Stadt",
         "quote": "Das himmlische Jersusalem ist frei, und dieses Jerusalem ist unsere Mutter. (Gal 4,26)",
         "text": "Freut euch mit Jerusalem, der heiligen Stadt,^*jubelt alle, die ihr sie liebt!^pSeid fröhlich mit ihr,^*alle, die ihr über sie traurig wart!^pSaugt euch satt an ihrer tröstenden Brust,^*trinkt und labt euch an ihrem mütterlichen Reichtum!^pDenn so spricht der Herr:^+Seht her: Wie einen Strom leite ich den Frieden zu ihr^*und den Reichtum der Völker wie einen rauschenden Bach.^pIhre Kinder wird man auf den Armen tragen^*und auf den Knien schaukeln.^pWie eine Mutter ihren Sohn tröstet, so tröste ich euch;^*in Jerusalem findet ihr Trost.^pWenn ihr das seht, wird euer Herz sich freuen,^*und ihr werdet aufblühen wie frisches Gras."
@@ -1932,7 +1932,7 @@ export const psalmsData = {
   },
   195: {
     0.0: {
-        "verses": "Tob 13,10c–13.15ef–17ab",
+        "verses": "Tob°13,10c–13.15ef–17ab",
         "title": "Danksagung für die Befreiung des Volkes",
         "quote": "Er zeigte mir die heilige Stadt Jerusalem … erfüllt von der Herrlichkeit Gottes. (Offb 21,10.11)",
         "text": "Jerusalem, du heilige Stadt!^+Der Herr bestraft die Taten deiner Kinder,^*doch er hat wieder Erbarmen mit den Gerechten.^pBekenne dich zum Herrn in rechter Weise,^*preise den ewigen König,^pdamit sein Zelt von neuem errichtet wird,^*dir zur großen Freude!^pEr mache in dir die Gefangenen wieder froh^+und schenke denen, die im Elend leben, seine Liebe,^*für alle Zeiten bis in Ewigkeit.^pVon weither werden die Völker kommen,^*um den Namen des Herrn, unsres Gottes, zu preisen.^pSie tragen Geschenke herbei,^+Geschenke für den himmlischen König.^*Alle Menschen jubeln dir zu.^pWohl denen, die dich lieben;^*sie werden sich freuen über den Frieden, den du schenkst.^pMeine Seele preise Gott, den großen König.^*Denn Jerusalem wird wieder aufgebaut."
@@ -1940,7 +1940,7 @@ export const psalmsData = {
   },
   196: {
     0.0: {
-        "verses": "Ez 36,24–28",
+        "verses": "Ez°36,24–28",
         "title": "Verheißung eines neuen Lebens",
         "quote": "Sie werden sein Volk sein; und er, Gott, wird bei ihnen sein. (Offb 21,3)",
         "text": "Ich hole euch heraus aus den Völkern,^+ich sammle euch aus allen Ländern^*und bringe euch in euer Land.^pIch gieße reines Wasser über euch aus, dann werdet ihr rein.^*Ich reinige euch von aller Unreinheit, von all euren Götzen.^pIch schenke euch ein neues Herz^*und lege einen neuen Geist in euch.^pIch nehme das Herz von Stein aus eurer Brust^*und gebe euch ein Herz von Fleisch.^pIch lege meinen Geist in euch^+und bewirke, dass ihr meinen Gesetzen folgt,^*auf meine Gebote achtet und sie erfüllt.^pDann werdet ihr in dem Land wohnen,^*das ich euren Vätern gab.^pIhr werdet mein Volk sein,^*und ich werde euer Gott sein."
