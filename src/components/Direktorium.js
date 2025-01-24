@@ -1114,9 +1114,7 @@ const PrayerTextDisplay = ({
 
     // Get value from sources in priority order: prefSrc -> com1/com2 -> wt
     const getValue = (field) => {
-        if (hour === 'vesper' && prefSollemnity) {
-            hour = 'prefsollemnity';
-        }
+        if (hour === 'vesper' && prefSollemnity) { hour = 'prefsollemnity'; }
 
         //Bei lokaler Feier als Hochfest Oration immer aus den Laudes
         if (prefSollemnity && field === 'oration') {
@@ -1124,6 +1122,11 @@ const PrayerTextDisplay = ({
                 return texts['laudes'][prefSrc]['oration'];
             }
             else return null
+        }
+
+        // Ergänzungspsalmodie bei der Feier als Hochfest
+        if (prefSollemnity && ['terz', 'sext', 'non'].includes(hour)) {
+
         }
 
         // Abruf der Werte für die Kommemoration
@@ -1140,49 +1143,6 @@ const PrayerTextDisplay = ({
             }
             return
         }
-
-        const fallbackCom1 = localPrefComm === 1 || prefSollemnity ||
-            (texts.hasErsteVesper && hour === 'vesper');
-        const fallbackCom2 = localPrefComm === 2 || prefSollemnity ||
-            (texts.hasErsteVesper && hour === 'vesper');
-
-        // Sonderfall Hymnen: 
-        // klStb und Nacht-Hymnus werden nicht gezeigt, wenn eigener Hymnus vorhanden
-        // oder Feier als Hochfest oder Commune-Hymnus gewählt ist
-        if ((field === 'hymn_kl' || field === 'hymn_nacht') &&
-            (texts[hour]?.[prefSrc]?.['hymn_1']
-                || prefSollemnity
-                || (fallbackCom1 && texts[hour]?.[prefSrc]?.['com1']?.['hymn_1'])
-                || (fallbackCom2 && texts[hour]?.[prefSrc]?.['com2']?.['hymn_1'])
-            )) { return null; }
-
-        //Sonderfall Antiphonen: nicht ant_0 und ant_1-3 gleichzeitig
-        if (field === 'ant_0' &&
-            (texts[hour]?.['eig']?.['ant_1']
-                || (fallbackCom1 && texts[hour]?.[prefSrc]?.['com1']?.['ant_1'])
-                || (fallbackCom2 && texts[hour]?.[prefSrc]?.['com2']?.['ant_1']))
-        ) { return null; }
-
-        if (field.startsWith('ant_') && field !== 'ant_0') {
-            if (texts[hour]?.['eig']?.['ant_0']
-                || (fallbackCom1 && texts[hour]?.[prefSrc]?.['com1']?.['ant_0'])
-                || (fallbackCom2 && texts[hour]?.[prefSrc]?.['com2']?.['ant_0'])
-            ) { return null; }
-        }
-
-        //Sonderfall Wochentagspsalmen:
-        if (hour !== 'invitatorium' && hour !== 'komplet' &&
-            field.startsWith('ps_') &&
-            localPrefPsalmsWt
-        ) { return texts[hour]?.['wt']?.[field]; }
-
-        //Sonderfall Bahnlesung:
-        if (hour === 'lesehore' &&
-            (field.startsWith('les_') ||
-                field.startsWith('resp1_') ||
-                field.startsWith('patr_')) &&
-            localPrefContinuous
-        ) { return texts[hour]?.['wt']?.[field]; }
 
         // Prüfe, ob Commune übersprungen werden soll
         let skipCommune = false
@@ -1205,11 +1165,57 @@ const PrayerTextDisplay = ({
             (texts.hasErsteVesper && hour === 'vesper')
         ) { skipCommune = false }
 
+        const fallbackCom1 = !skipCommune &&
+            (localPrefComm === 1 || prefSollemnity ||
+                (texts.hasErsteVesper && hour === 'vesper'));
+        const fallbackCom2 = !skipCommune &&
+            (localPrefComm === 2 || prefSollemnity ||
+                (texts.hasErsteVesper && hour === 'vesper'));
+
         if (!isCommemoration) {  // an Tagen mit Kommemoration nur wt-Werte
             // 1. Prüfe zuerst prefSrc
             if (texts[hour][prefSrc]?.[field]) {
                 return texts[hour][prefSrc][field];
             }
+
+            // Sonderfall Hymnen: 
+            // klStb und Nacht-Hymnus werden nicht gezeigt, wenn eigener Hymnus vorhanden
+            // oder Feier als Hochfest oder Commune-Hymnus gewählt ist
+            if ((field === 'hymn_kl' || field === 'hymn_nacht') &&
+                (texts[hour]?.[prefSrc]?.['hymn_1']
+                    || prefSollemnity
+                    || (fallbackCom1 && texts[hour]?.[prefSrc]?.['com1']?.['hymn_1'])
+                    || (fallbackCom2 && texts[hour]?.[prefSrc]?.['com2']?.['hymn_1'])
+                )) { return null; }
+
+            //Sonderfall Antiphonen: nicht ant_0 und ant_1-3 gleichzeitig
+            if (field === 'ant_0' &&
+                (texts[hour]?.['eig']?.['ant_1']
+                    || (fallbackCom1 && texts[hour]?.[prefSrc]?.['com1']?.['ant_1'])
+                    || (fallbackCom2 && texts[hour]?.[prefSrc]?.['com2']?.['ant_1']))
+            ) { return null; }
+
+            if (field.startsWith('ant_') && field !== 'ant_0') {
+                console.log('fallbackCom1/2: ', fallbackCom1, fallbackCom2)
+                if (texts[hour]?.['eig']?.['ant_0']
+                    || (fallbackCom1 && texts[hour]?.[prefSrc]?.['com1']?.['ant_0'])
+                    || (fallbackCom2 && texts[hour]?.[prefSrc]?.['com2']?.['ant_0'])
+                ) { return null; }
+            }
+
+            //Sonderfall Wochentagspsalmen:
+            if (hour !== 'invitatorium' && hour !== 'komplet' &&
+                field.startsWith('ps_') &&
+                localPrefPsalmsWt
+            ) { return texts[hour]?.['wt']?.[field]; }
+
+            //Sonderfall Bahnlesung:
+            if (hour === 'lesehore' &&
+                (field.startsWith('les_') ||
+                    field.startsWith('resp1_') ||
+                    field.startsWith('patr_')) &&
+                localPrefContinuous
+            ) { return texts[hour]?.['wt']?.[field]; }
 
             // 2. & 3. Prüfe Commune nur wenn nicht übersprungen werden soll
             if (!skipCommune) {
