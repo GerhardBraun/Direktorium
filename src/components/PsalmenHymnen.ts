@@ -950,7 +950,7 @@ export const psalmsData = {
       },
     3.0: {
         "verses": "30-38",
-        "text": "Wenn seine Söhne meine Weisung verlassen,^*nicht mehr leben nach meiner Ordnung,^pwenn sie meine Gesetze entweihen,^*meine Gebote nicht mehr halten,^pdann werde ich ihr Vergehen mit der Rute strafen^*und ihre Sünde mit Schlägen.^pDoch ich entziehe ihm nicht meine Huld,^*breche ihm nicht die Treue.^pMeinen Bund werde ich nicht entweihen;^*was meine Lippen gesprochen haben, will ich nicht ändern.^pEines hab ich geschworen, so wahr ich heilig bin,^*und niemals werde ich David belügen:^pSein Geschlecht soll bleiben auf ewig,^*sein Thron habe Bestand vor mir wie die Sonne;^per soll ewig bestehen wie der Mond,^*der verlässliche Zeuge über den Wolken."
+        "text": "Wenn seine Söhne meine Weisung verlassen,^*nicht mehr leben nach meiner Ordnung,^pwenn sie meine Gesetze entweihen,^*meine Gebote nicht mehr halten,^pdann werde ich ihr Vergehen mit der Rute strafen^*und ihre Sünde mit Schlägen.^pDoch ich entziehe ihm nicht meine Huld,^*breche ihm nicht die Treue.^pMeinen Bund werde ich nicht entweihen;^*was meine Lippen gesprochen haben, will ich nicht ändern.^pEines hab’ ich geschworen, so wahr ich heilig bin,^*und niemals werde ich David belügen:^pSein Geschlecht soll bleiben auf ewig,^*sein Thron habe Bestand vor mir wie die Sonne;^per soll ewig bestehen wie der Mond,^*der verlässliche Zeuge über den Wolken."
       },
     4.0: {
         "verses": "39-46",
@@ -1273,6 +1273,10 @@ export const psalmsData = {
     3.0: {
         "verses": "19–29",
         "text": "Öffnet mir die Tore zur Gerechtigkeit,^*damit ich eintrete, um dem Herrn zu danken.^pDas ist das Tor zum Herrn,^*nur Gerechte treten hier ein.^pIch danke dir, dass du mich erhört hast;^*du bist für mich zum Retter geworden.^pDer Stein, den die Bauleute verwarfen,^*er ist zum Eckstein geworden.^pDas hat der Herr vollbracht,^*vor unseren Augen geschah dieses Wunder.^pDies ist der Tag, den der Herr gemacht hat;^*wir wollen jubeln und uns an ihm freuen.^pAch, Herr, bring doch Hilfe!^*Ach, Herr, gib doch Gelingen!^pGesegnet sei er, der kommt im Namen des Herrn.^+Wir segnen euch vom Haus des Herrn her.^*Gott, der Herr, erleuchte uns.^pMit Zweigen in den Händen schließt euch zusammen zum Reigen,^*bis zu den Hörnern des Altars!^pDu bist mein Gott, dir will ich danken;^*mein Gott, dich will ich rühmen.^pDankt dem Herrn, denn er ist gütig,^*denn seine Huld währt ewig."
+      },
+    4.0: {
+        "verses": "1–18",
+        "text": "Danket dem Herrn, denn er ist gütig,^*denn seine Huld währt ewig!^pSo soll Israel sagen:^*Denn seine Huld währt ewig.^pSo soll das Haus Aaron sagen:^*Denn seine Huld währt ewig.^pSo sollen alle sagen, die den Herrn fürchten und ehren:^*Denn seine Huld währt ewig.^pIn der Bedrängnis rief ich zum Herrn;^*der Herr hat mich erhört und mich frei gemacht.^pDer Herr ist bei mir, ich fürchte mich nicht.^*Was können Menschen mir antun?^pDer Herr ist bei mir, er ist mein Helfer;^*ich aber schaue auf meine Hasser herab.^pBesser, sich zu bergen beim Herrn,^*als auf Menschen zu bauen.^pBesser, sich zu bergen beim Herrn,^*als auf Fürsten zu bauen.^pAlle Völker umringen mich;^*ich wehre sie ab im Namen des Herrn.^pSie umringen, ja, sie umringen mich;^*ich wehre sie ab im Namen des Herrn.^pSie umschwirren mich wie Bienen,^+wie ein Strohfeuer verlöschen sie;^*ich wehre sie ab im Namen des Herrn.^pSie stießen mich hart, sie wollten mich stürzen;^*der Herr aber hat mir geholfen.^pMeine Stärke und mein Lied ist der Herr;^*er ist für mich zum Retter geworden.^pFrohlocken und Jubel erschallt in den Zelten der Gerechten:^*„Die Rechte des Herrn wirkt mit Macht!“^p„Die Rechte des Herrn ist erhoben,^*die Rechte des Herrn wirkt mit Macht!“^pIch werde nicht sterben, sondern leben,^*um die Taten des Herrn zu verkünden.^pDer Herr hat mich hart gezüchtigt,^*doch er hat mich nicht dem Tod übergeben."
       }
   },
   119: {
@@ -1346,7 +1350,7 @@ export const psalmsData = {
       },
     129.0: {
         "verses": "129-136   XVII (Pe)",
-        "text": "Herr, deine Vorschriften sind der Bewunderung wert;^*darum bewahrt sie mein Herz.^pDie Erklärung deiner Worte bringt Erleuchtung,^*den Unerfahrenen schenkt sie Einsicht.^pWeit öffne ich meinen Mund und lechze nach deinen Geboten;^*denn nach ihnen hab ich Verlangen.^pWende dich mir zu, sei mir gnädig,^*wie es denen gebührt, die deinen Namen lieben.^pFestige meine Schritte, wie du es verheißen hast!^*Lass kein Unrecht über mich herrschen!^pErlöse mich aus der Gewalt der Menschen;^*dann will ich deine Befehle halten.^pLass dein Angesicht leuchten über deinem Knecht^*und lehre mich deine Gesetze!^pTränenbäche strömen aus meinen Augen,^*weil man dein Gesetz nicht befolgt."
+        "text": "Herr, deine Vorschriften sind der Bewunderung wert;^*darum bewahrt sie mein Herz.^pDie Erklärung deiner Worte bringt Erleuchtung,^*den Unerfahrenen schenkt sie Einsicht.^pWeit öffne ich meinen Mund und lechze nach deinen Geboten;^*denn nach ihnen hab’ ich Verlangen.^pWende dich mir zu, sei mir gnädig,^*wie es denen gebührt, die deinen Namen lieben.^pFestige meine Schritte, wie du es verheißen hast!^*Lass kein Unrecht über mich herrschen!^pErlöse mich aus der Gewalt der Menschen;^*dann will ich deine Befehle halten.^pLass dein Angesicht leuchten über deinem Knecht^*und lehre mich deine Gesetze!^pTränenbäche strömen aus meinen Augen,^*weil man dein Gesetz nicht befolgt."
       },
     137.0: {
         "verses": "137-144   XVIII (Zade)",
@@ -2821,10 +2825,76 @@ export const psalmsData = {
         "text": "Auf, Zion, schmücke dein Gemach,^lder Herr ist da, den du ersehnt.^lSteh auf und mache dich bereit,^lempfange Bräutigam und Braut.^pZu seinem Tempel kommt der Herr:^lDie Eltern bringen Christus dar.^lDer ohne alle Sünde ist,^lmacht dem Gesetz sich untertan.^pTritt, königliche Jungfrau, ein,^lbring mit dem Opfer dar dein Kind,^ldes ew’gen Vaters wahren Sohn,^lder uns zum Heil erschienen ist.^pWas dir verheißen, Simeon,^ldas ist in diesem Kind erfüllt.^lNun mache allen Völkern kund^ldas Licht, das ihnen leuchten soll.^pHerr, dir sei Preis und Herrlichkeit,^lder sich den Heiden offenbart,^lmit dir dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
+  82040: {
+    0.0: {
+        "quote": "Rabanus",
+        "text": "Die du als Hirten deiner°Herde°sendest,^llenkst du in Güte durch°die°Kraft°des°Geistes.^lSo auch Rabanus, den°du,°Herr,°berufen^lzu Deutschlands Lehrer.^pVon deines Wortes Lebenskraft°durchdrungen,^lkündet er machtvoll deiner°Wahrheit°Lehre,^llegt in den Seelen festen°Grund°der°Liebe:^ldir, Herr, zur Ehre.^pAls guter Vater, waltend°voller°Güte,^lstärkt er die Brüder, führt°sie°hin°zur°Wahrheit,^ltröstet Betrübte, richtet°auf°die°Schwachen,^lwird allen alles.^pUmsichtig baut er als°ein°kluger°Meister^lauf Fundamenten, die°du°selbst°gegründet,^lKlöster und Kirchen, Stätten°deines°Lobes:^lFulda zum Ruhme.^pLob sei dem Vater auf°dem°höchsten°Throne,^lLob sei dem Sohne, den°er°uns°gesandt°hat,^lLob sei dem Geiste, der°von°beiden°ausgeht,^limmer und ewig. Amen."
+      }
+  },
+  82041: {
+    0.0: {
+        "quote": "Rabanus",
+        "text": "Wen du als Hirten deiner Herde sendest,^lden rüstest, Gott, du aus mit deinem Geist.^lDrum gilt das Lob, das wir Rabanus singen, dir,^ldem diesen großen Lehrer wir verdanken.^pEin Knabe noch, begann das strenge Leben^lder Mönche er im Fuldaer Konvent.^lDort war das Buch der Bücher seine Freude.^lSo nahm er zu an Jahren und an Frömmigkeit.^pDa niemand ihm an Wissenschaft vergleichbar,^lwird Raban bald die Klosterschule anvertraut.^lEr fördert sie mit Sorgfalt, baut sie aus,^llegt so den Grund zu Fuldas Ruhm für lange Zeiten.^pDurch Wahl der Mönche zu des Klosters Abt erhoben,^lgilt seine Vatersorge nicht nur dem Konvent;^lKirchen erbaut er überall im Land,^lSpitäler auch für Elende und Kranke.^pVon allen Kreaturen werde Lob zuteil^lGott Vater und dem eingebor’nen Sohne,^lder durch sein Blut die ganze Welt erlöst,^lund ebenso dem Heil’gen Geist in Ewigkeiten.^lAmen."
+      }
+  },
+  82042: {
+    0.0: {
+        "quote": "Rabanus",
+        "text": "^r(dem heiligen Rabanus Maurus zugeschrieben)^0r^pKomm, Heil’ger Geist, der Leben schafft,^lerfülle uns mit deiner Kraft.^lDein Schöpferwort rief uns zum Sein:^lnun hauch uns Gottes Odem ein.^pKomm, Tröster, der die Herzen lenkt,^ldu Beistand, den der Vater schenkt;^laus dir strömt Leben, Licht und Glut,^ldu gibst uns Schwachen Kraft und Mut.^pDich sendet Gottes Allmacht aus^lim Feuer und in Sturmes Braus;^ldu öffnest uns den stummen Mund^lund machst der Welt die Wahrheit kund.^pEntflamme Sinne und Gemüt,^ldass Liebe unser Herz durchglüht^lund unser schwaches Fleisch und Blut^lin deiner Kraft das Gute tut.^pDie Macht des Bösen banne weit,^lschenk deinen Frieden allezeit.^lErhalte uns auf rechter Bahn^ldass Unheil uns nicht schaden kann.^pLass gläubig uns den Vater sehn,^lsein Ebenbild, den Sohn, verstehn^lund dir vertraun, der uns durchdringt^lund uns das Leben Gottes bringt. Amen."
+      }
+  },
+  82043: {
+    0.0: {
+        "quote": "Rabanus",
+        "text": "Der voll Vertrauen sang°das°Lob°des°Kreuzes,^lträgt auch als Bischof willig°Christi°Bürde,^lsucht nicht das Seine, sondern°Gottes°Ehre:^lRabanus Maurus.^pHerr Jesus Christus, Hirte°deiner°Herde,^ldu hast Rabanus zu°dem°Dienst°berufen,^ldass er als Wächter deiner°Kirche°diene:^ldamals wie heute.^pFür seine Treue hast°du°ihn°erhoben^ldass er auf ewig deine°Wahrheit°schaue.^lSchenk auf sein Bitten allen,°die°dir°folgen,^lTreue im Glauben.^pLob sei dir, Christus, Gott°aus°Gott°geboren,^lLob sei dem Vater, welcher°dich°gesandt°hat,^lLob sei dem Geiste, der°von°beiden°ausgeht,^limmer und ewig. Amen."
+      }
+  },
+  82044: {
+    0.0: {
+        "quote": "Rabanus",
+        "text": "Dem Mann, der niemals seine Ehre suchte,^lwird die Berufung auf den Bischofsstuhl zu Mainz.^lAuch in der größern Aufgabe bleibt er^lals Erzbischof dem Kloster Fulda stets verbunden.^pVorbild der großen Herde und ihr treuer Wächter,^lwehrt Raban von ihr ab der Wölfe Wut;^ler formt und heiligt sie durch Wort und Tat und Schrift^lund gönnt bei Tag und Nacht sich keine Ruhe,^pbis Gott ihm ew’ge Ruhe schenkt. – Er lässt die Erde^lzurück, erhoben in der Sel’gen Chor.^lUns aber hinterlässt er seine Werke^lund bleibt ein Lehrer so des Heils der Christenheit.^pDu gabst, o Gott, Rabanus uns zum Vorbild;^llass ihm uns folgen, wie er dir gefolgt.^lDass wir wie er auf gradem Weg zu dir gelangen,^ldazu gib uns die Gnade der Beharrlichkeit.^pGepriesen sei der Vater und der Sohn^lsowie der Geist, die Liebe zwischen beiden.^lDen drei Personen, die im Wesen eins nur sind,^lin deren Namen wir getauft, sei gleiche Ehre.^lAmen."
+      }
+  },
   82221: {
     0.0: {
         "quote": "KathPetri",
         "text": "Petrus, der Kirche Fundament,^lder Herr hat dich zum Fels gemacht,^ler selber ist der feste Grund,^lder Halt und Stärke dir verleiht.^pDu, Petrus, hast den Herrn zuerst^lbekannt als wahren Gottessohn.^lDir gab er Auftrag und Gewalt,^lsein Volk zu leiten durch die Zeit.^pBehüte du als treuer Knecht^ldie Herde, die dir anvertraut.^lWenn Satan uns wie Weizen siebt,^ldann stärke unsres Glaubens Kraft.^pDem Herrn sei Preis und Herrlichkeit,^lder seine Kirche lenkt und führt,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
+      }
+  },
+  86052: {
+    0.0: {
+        "quote": "Bonifatius",
+        "text": "Der Morgenröte Licht bringt uns die frohe Kunde,^ldass du, Sankt Bonifatius, mit Kraft und Mut^ldie Finsternis des Heidentums einst überwunden^lund unserm Volk gebracht des Glaubenslichtes Gut.^pDie Lehre, die du unermüdlich uns verkündet,^lbleibt ein Vermächtnis deinem Volke immerdar.^lDie Geisteskraft, die Gott dir in die Seele senkte,^lward uns zu einer Lebensquelle, rein und klar.^pWie Jesus sterbend sich mit seinem Volk vermählte,^lso gabst auch du dein Leben für die Kirche hin,^ldamit sich um den Hirten eine Herde sammle,^lgeeint in Wahrheit und in eines Glaubens Sinn.^pSchau unsre Heimat, der du ein Apostel wurdest.^lHilf überwinden alle Spaltung, mach uns treu,^ldass wir als gute Knechte einst erfunden werden^lund Jesus Christus alles uns in allem sei.^pSo bringen freudig Dank wir unserm Gott und Vater,^lund seinem Sohn, der uns den Weg zum Leben weist,^lder dich für unser Land als treuen Glaubensboten^lberufen hat und salbte durch den Heil’gen Geist."
+      }
+  },
+  86053: {
+    0.0: {
+        "quote": "Bonifatius",
+        "text": "Du Bote Gottes, ausgesandt,^ldas Heil zu künden unserm Land;^ldu Glaubensvater, guter Hirt,^ldu treuer Zeuge, unbeirrt,^lsteh uns mit deiner Hilfe bei^lund mache uns im Glauben treu,^lo heil’ger Bonifatius.^pDu hast der dunklen Heidenwelt^ldas Licht der Wahrheit aufgestellt.^lDie deutschen Stämme führtest du^ldem einzig wahren Hirten zu.^lSteh uns mit deiner Hilfe bei^lund mache uns im Glauben treu,^lo heil’ger Bonifatius.^pDu hast den festen Grund gelegt,^lauf dem die deutsche Kirche steht.^lDer Herr gab dir des Glaubens Mut,^ldu zeugst für ihn mit deinem Blut.^lSteh uns mit deiner Hilfe bei^lund mache uns im Glauben treu,^lo heil’ger Bonifatius.^pSieh her auf unsre Glaubensnot,^ldie wir von lrrtum sind bedroht.^lHilf, dass wir in der Wahrheit Kraft^lvollenden unsre Pilgerschaft.^lSteh uns mit deiner Hilfe bei^lund mache uns im Glauben treu,^lo heil’ger Bonifatius.^p"
+      }
+  },
+  86054: {
+    0.0: {
+        "quote": "Bonifatius",
+        "text": "So viele Märtyrer seit°der°Apostel°Tagen^lbezeugten Jesu Christi Wahrheit durch°ihr°Blut.^lUnd so durchtränkten sie den°Ackerboden°Gottes^lund tauften ihn mit°Leben°in°des°Geistes°Flut.^pDu, Bonifatius, warst°Christi°großer°Rufer,^lzum Segen wurdest du für°unser°deutsches°Land.^lDamit dem Heidentum ein°helles°Licht°erstrahle,^lhat Gott als Glaubensvater dich°zu°uns°gesandt.^pDen geistig Armen reichtest°du°das°Brot°des°Lebens,^ldas dürre Land hast°du°mit°reicher°Frucht°beschenkt.^lVoll Weisheit führtest du die°ausweglos°Verirrten,^lwie nur ein guter Hirte seine°Herde°lenkt.^pUns aber machtest du zu°deines°Grabes°Hütern.^lEin großes Erbe ist°uns°damit°anvertraut,^ldamit wir nicht als°feige°Mietlinge°verderben,^lwas du durch deines Lebens Opfer aufgebaut.^pSo treten wir mit Lobgesang vor°Gott,°den°Vater,^lund vor den Sohn, der°uns°den°Weg°zum°Leben°weist,^lder dich für unser Land als°treuen°Glaubensboten^lberufen hat und salbte durch°den°Heil’gen°Geist.^p"
+      }
+  },
+  86055: {
+    0.0: {
+        "quote": "Bonifatius",
+        "text": "So viele Märtyrer seit der Apostel Tagen^lbesiegelten ihr christliches Bekenntnis^lmit ihrem Blut und halfen dadurch mit,^ldie Botschaft Christi durch die Zeit zu tragen.^pSind uns drum alle Märtyrer geworden^lBürgen des Glaubens, so verehren wir^lvor allem einen doch als Glaubensvater:^lden heil’gen Bischof Bonifatius.^pDie Lehre, die er unserm Volk verkündet,^list heute noch das Brot, von dem wir leben;^lder Geist, den Gott durch seinen Dienst geschenkt,^list heute noch der Atem unsrer Seelen.^pDer Martertod, den Bonifatius ersehnte,^lerschloss ihm rasch das Tor zum ew’gen Leben,^lschenkt’ ihm den Siegeskranz und lässt auch uns^lim Glauben feststehn und den Tod nicht fürchten.^pSei, Bonifatius, wie einstens unsern Vätern,^lso auch für uns ein guter Hirt! Bewache,^ldie deiner Leitung traun, vom Himmel her^lund lenke unsern Fuß auf gute Weide.^pDu hast uns deinen toten Leib vertraut,^lFulda durft’ deines Grabes Hüter werden;^ldoch mehr noch soll es deines Glaubens Erbe hüten.^lDrum schick zu Gott für Stadt und Bistum dein Gebet.^pDie Ehre sei dem Vater und dem Sohne,^lder durch die Taufe uns gewürdigt hat,^llebend’ge Glieder seines Leibs zu werden,^lund Ehr’ dem Heil’gen Geist in alle Ewigkeiten.^lAmen.^p"
+      }
+  },
+  86056: {
+    0.0: {
+        "quote": "Bonifatius",
+        "text": "^r1. Teil eines Hymnus für Lesehore und Laudes:^0r^lSankt Bonifatius, wir, deine Kinder,^lbegehn voll Freude diesen Tag,^lder deinem Blutzeugnis geweiht.^lNimm unser Lob, hör, Vater, unsre Lieder!^pDir danken wir das Licht des wahren Glaubens,^ldas du den Ahnen einst gebracht.^lDu hast die Finsternis verscheucht,^laus unserm Land das Heidentum vertrieben.^pDen Wotanshain, die alten Götterbäume,^lden Opferstein hast du gestürzt,^lum der Germanen Stämme so^lvom Wahn des Götterkultes abzubringen.^pWelch schwerer Kampf, die unbeugsamen Herzen^lzu öffnen für das Wort des Herrn,^ldie Liebe sie zu lehren und^lsie unter Christi sanftes Joch zu beugen!^pDie Nacht des Irrtums will so schnell nicht weichen.^lDoch du führst mit Beharrlichkeit^lden ersten Strahl des Tags herauf,^lreißt Unkraut aus und säst des Wortes Samen.^pLob, Preis und Herrlichkeit sei Gott dem Vater,^lLob sei des Vaters ew’gem Sohn,^lder durch sein Blut die Welt erlöst,^lund Lob in Ewigkeit dem Heil’gen Geiste.^lAmen.^p^rDieser Hymnus wird in den der jeweils anderen Hore mit dem auch dort angezeigten 2. Teil fortgesetzt.^0r^p"
+      }
+  },
+  86057: {
+    0.0: {
+        "quote": "Bonifatius",
+        "text": "^r2. Teil des in Lesehore bzw. Laudes begonnenen Hymnus:^0r^lDu lehrst, dass Gott in Christus Mensch geworden,^lder aus Erbarmen alle Schuld^lder Welt durch seinen Tod gesühnt.^lDoch solchen Gott verlachen deine Hörer.^pDu gibst nicht auf, bis dass dein Glaubenszeugnis^lmit Gottes Gnade sie bekehrt.^lDich schreckt nicht die Gefahr. Du willst^lzu ihrem Heil dem Herrn dein Leben opfern.^pGott nimmt dein Opfer an, schenkt dir die Krone.^lDein Leichnam kehrt nach Fulda heim,^lwie lebend du geboten hast.^lUnschätzbares Vermächtnis deiner Liebe!^pSchau unsre Heimat, Vater, wo du einstens^lHerd und Altar gegründet hast.^lSchau, himmlischer Patron, auf uns,^lerhalt uns deinen Geist und festen Glauben!^pLob, Dank und Anbetung sei stets erwiesen^ldem einen und dreifalt’gen Gott.^lEr führe uns zum ew’gen Heil^lauf unsres sel’gen Vaters fromme Bitten. Amen.^p"
       }
   },
   86241: {

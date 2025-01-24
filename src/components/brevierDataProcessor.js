@@ -3,7 +3,7 @@ import { lecture1Data } from './lecture1Data.ts';
 import { lecture2Data } from './lecture2Data.ts';
 import { psalmsData } from './PsalmenHymnen.ts';
 import { adlibData } from './adLib.ts';
-import { getLiturgicalInfo, LiturgicalSeason } from './liturgicalCalendar.js';
+import { getLiturgicalInfo } from './liturgicalCalendar.js';
 
 // Fields that should be processed as references to psalmsData
 const referenceFields = [
@@ -392,7 +392,7 @@ function processCommune(hours, commune, season, targetSource, communeNumber) {
     }
 
     if (addComm) {
-        ['MärtSg', 'MärtPl', 'MFr', 'Mann'].forEach(category => {
+        ['MärtSg', 'MärtPl', 'MFr', 'Mann', 'Frau', 'Jgfr', 'Hirten'].forEach(category => {
             const additionalData = brevierData?.['com']?.[category]?.[addComm];
             if (additionalData) {
                 Object.entries(additionalData).forEach(([hourName, hourData]) => {

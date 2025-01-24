@@ -2966,6 +2966,7 @@ export const adlibData = {
         },
         "Laudes": {
           "name": "Hll. Simplizius, Faustinus und Beatrix",
+          "farbe": "r",
           "comm_1": "MärtPl",
           "oration": "Herr, unser Gott, wir danken dir für deine Blutzeugen Simplicius, Faustinus und Beatrix, die durch ihr Martyrium wahrhaft Geschwister geworden sind. Die Gemeinschaft mit ihnen gebe unserem Glauben neue Kraft; ihre Fürbitte schenke uns Mut und Zuversicht. Darum bitten wir durch Jesus Christus."
         },

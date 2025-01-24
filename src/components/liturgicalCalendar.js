@@ -1,10 +1,43 @@
-// Liturgical seasons enum
-const LiturgicalSeason = {
-    ADVENT: 'a',
-    CHRISTMAS: 'w',
-    ORDINARY_TIME: 'j',
-    LENT: 'q',
-    EASTER: 'o'
+const writeOut = (season, week, dayOfWeek) => {
+
+    const days = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
+    const dayName = days[dayOfWeek];
+
+    // Spezielle Behandlung für die Aschermittwochswoche (0. Fastenwoche)
+    if (season === 'q' && week === 0) {
+        if (dayOfWeek === 3) { return "Aschermittwoch"; }
+        else if (dayOfWeek > 3) {  // Donnerstag, Freitag, Samstag
+            return `${dayName} nach Aschermittwoch`;
+        }
+    }
+
+    // Spezielle Formatierung für Sonntage
+    if (dayOfWeek === 0) {
+        switch (season) {
+            case 'a': return `${week}. Adventssonntag`;
+            case 'w': return `${week}. Sonntag nach Weihnachten`;
+            case 'j': return `${week}. Sonntag im Jahreskreis`;
+            case 'q': return `${week}. Fastensonntag`;
+            case 'o': return `${week}. Sonntag der Osterzeit`;
+            default:
+                return '';
+        }
+    }
+
+    // Reguläre Formatierung für andere Wochentage
+    return `${dayName} der ${week}. ${getSeasonName(season)}`;
+};
+
+const getSeasonName = (season) => {
+    switch (season) {
+        case 'a': return 'Adventswoche';
+        case 'w': return 'Woche der Weihnachtszeit';
+        case 'j': return 'Woche im Jahreskreis';
+        case 'q': return 'Fastenwoche';
+        case 'o': return 'Woche der Osterzeit';
+        default:
+            return '';
+    }
 };
 
 // Helper function to calculate rank for a specific date
@@ -22,31 +55,23 @@ function calculateRanks(date, season, week, dayOfWeek, combinedSWD) {
         }
 
         // 3. Karwoche
-        if (combinedSWD.startsWith('q-6-')) {
-            return 5;
-        }
+        if (combinedSWD.startsWith('q-6-')) { return 5; }
 
         // 4. Osteroktav
-        if (combinedSWD.startsWith('o-1-')) {
-            return 5;
-        }
+        if (combinedSWD.startsWith('o-1-')) { return 5; }
 
         // 5. Einzelne Hochfeste
         if (['q-0-3',  // Aschermittwoch
             'o-9-4',  // Fronleichnam
             'o-9-5',  // Herz Jesu
             'j-34-0'  // Christkönig
-        ].includes(combinedSWD)) {
-            return 5;
-        }
+        ].includes(combinedSWD)) { return 5; }
 
         // 6. Gebotene Gedenktage und Kommemoration
         if ((date.getMonth() + 1 === 12 && date.getDate() > 16) ||  // letzte Adventstage und Weihnachtszeit
             (season === 'q') ||                                      // Wochentage der Fastenzeit
             (combinedSWD === 'o-9-6')       // Herz Mariae
-        ) {
-            return 2;
-        }
+        ) { return 2; }
 
         return 0; // Standard-Rang für alle anderen Tage
     }
@@ -105,8 +130,7 @@ function calculateRanks(date, season, week, dayOfWeek, combinedSWD) {
 
     return {
         rank_wt: calculateRankWt(),
-        rank_date: calculateRankDate(),
-        combinedSWD
+        rank_date: calculateRankDate()
     };
 }
 
@@ -180,53 +204,54 @@ const getLiturgicalInfo = (provDate) => {
 
     // Christmas Season until Baptism
     if (date < baptism) {
-        season = LiturgicalSeason.CHRISTMAS;
+        season = 'w';
         week = weeksBetween(christmasSunday, date);
     }
     // Ordinary Time before Lent
     else if (date < lentSunday - 4 * 24 * 60 * 60 * 1000) {
-        season = LiturgicalSeason.ORDINARY_TIME;
+        season = 'j';
         week = weeksBetween(baptism, date);
     }
     // Ash Wednesday until First Sunday of Lent
     else if (date < lentSunday) {
-        season = LiturgicalSeason.LENT;
+        season = 'q';
         week = 0;
     }
     // Lent and Holy Week
     else if (date < easter) {
-        season = LiturgicalSeason.LENT;
+        season = 'q';
         week = weeksBetween(lentSunday, date);
     }
     // Easter through Pentecost Monday
     else if (date <= pentecost) {
-        season = LiturgicalSeason.EASTER;
+        season = 'o';
         week = weeksBetween(easter, date);
     }
     // Special feasts after Pentecost
     else if (isSpecialEasterFeast(date, easter)) {
-        season = LiturgicalSeason.EASTER;
+        season = 'o';
         week = 9;
     }
     // Ordinary Time after Pentecost
     else if (date < advent) {
-        season = LiturgicalSeason.ORDINARY_TIME;
+        season = 'j';
         week = 34 - Math.floor((advent - date - 1) / (7 * 24 * 60 * 60 * 1000));
     }
     // Advent
     if (date >= advent) {
         const adventWeek = weeksBetween(advent, date);
         if (adventWeek === 5) {
-            season = LiturgicalSeason.CHRISTMAS;
+            season = 'w';
             week = 1;
         } else {
-            season = LiturgicalSeason.ADVENT;
+            season = 'a';
             week = adventWeek;
         }
     }
 
     const dayOfWeek = date.getUTCDay();
     const combinedSWD = `${season}-${week}-${dayOfWeek}`;
+    const writtenSWD = writeOut(season, week, dayOfWeek);
     const ranks = calculateRanks(date, season, week, dayOfWeek, combinedSWD);
     const month = (date.getUTCMonth() + 1);
     const day = date.getUTCDate();
@@ -237,9 +262,11 @@ const getLiturgicalInfo = (provDate) => {
         season,
         week,
         dayOfWeek,
+        combinedSWD,
+        writtenSWD,
         ...ranks,  // Fügt rank_wt, rank_date und combinedSWD zum Return-Objekt hinzu
         isCommemoration
     };
 };
 
-export { getLiturgicalInfo, LiturgicalSeason };
+export { getLiturgicalInfo };

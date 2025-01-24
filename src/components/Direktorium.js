@@ -709,24 +709,6 @@ const DayEntry = ({
                     </div>
                 )}
 
-                {/* Prayer Section */}
-                {entry.prayerTexts && (
-                    <div style={{ marginBottom: '1.25em' }}>
-                        <h3 style={{
-                            fontSize: '1.1em',
-                            fontWeight: '600',
-                            marginBottom: '0em'
-                        }} className="text-purple-600 dark:text-purple-400">
-                            Gebete
-                        </h3>
-                        <div style={{
-                            fontSize: '1em',
-                            whiteSpace: 'pre-wrap'
-                        }} className="text-gray-900 dark:text-gray-100"
-                            dangerouslySetInnerHTML={{ __html: formatText(entry.prayerTexts) }} />
-                    </div>
-                )}
-
                 {/* Vigil Notes Section */}
                 {entry.vig_notes && (
                     <NotesSection content={entry.vig_notes} />
@@ -908,63 +890,6 @@ const DeceasedEntry = ({
     );
 };
 
-const getSeasonName = (season) => {
-    switch (season) {
-        case LiturgicalSeason.ADVENT:
-            return 'Adventswoche';
-        case LiturgicalSeason.CHRISTMAS:
-            return 'Woche der Weihnachtszeit';
-        case LiturgicalSeason.ORDINARY_TIME:
-            return 'Woche im Jahreskreis';
-        case LiturgicalSeason.LENT:
-            return 'Fastenwoche';
-        case LiturgicalSeason.EASTER:
-            return 'Woche der Osterzeit';
-        default:
-            return '';
-    }
-};
-
-const getDayName = (date) => {
-    const days = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
-    return days[date.getDay()];
-};
-
-const formatLiturgicalInfo = (info, date) => {
-    if (!info) return '';
-    const dayName = getDayName(date);
-
-    // Spezielle Behandlung für die Aschermittwochswoche (0. Fastenwoche)
-    if (info.season === LiturgicalSeason.LENT && info.week === 0) {
-        if (date.getDay() === 3) {  // Mittwoch
-            return "Aschermittwoch";
-        } else if (date.getDay() > 3) {  // Donnerstag, Freitag, Samstag
-            return `${dayName} nach Aschermittwoch`;
-        }
-    }
-
-    // Spezielle Formatierung für Sonntage
-    if (date.getDay() === 0) {
-        switch (info.season) {
-            case LiturgicalSeason.ADVENT:
-                return `${info.week}. Adventssonntag`;
-            case LiturgicalSeason.CHRISTMAS:
-                return `${info.week}. Sonntag nach Weihnachten`;
-            case LiturgicalSeason.ORDINARY_TIME:
-                return `${info.week}. Sonntag im Jahreskreis`;
-            case LiturgicalSeason.LENT:
-                return `${info.week}. Fastensonntag`;
-            case LiturgicalSeason.EASTER:
-                return `${info.week}. Sonntag der Osterzeit`;
-            default:
-                return '';
-        }
-    }
-
-    // Reguläre Formatierung für andere Wochentage
-    return `${dayName} der ${info.week}. ${getSeasonName(info.season)}`;
-};
-
 // Prayer Menu Component
 const PrayerMenu = ({ title, onSelectHour, viewMode, setViewMode, season,
     onPrevDay, onNextDay, selectedDate,
@@ -976,7 +901,6 @@ const PrayerMenu = ({ title, onSelectHour, viewMode, setViewMode, season,
     const [prayerTexts, setPrayerTexts] = useState(null);  // Neuer State für die Gebetstext-Daten
     const rank_wt = prayerTexts?.rank_wt || 0
     const rank_date = prayerTexts?.rank_date || 0
-    const isCommemoration = season === 'q' && rank_date < 3
 
     useEffect(() => {
         const info = getLiturgicalInfo(selectedDate);
@@ -1009,7 +933,7 @@ const PrayerMenu = ({ title, onSelectHour, viewMode, setViewMode, season,
                     </h1>
                     {liturgicalInfo && (
                         <div className="text-sm text-gray-600 dark:text-gray-400">
-                            {formatLiturgicalInfo(liturgicalInfo, selectedDate)}
+                            {liturgicalInfo.writtenSWD}
                         </div>
                     )}
                 </div>
@@ -1194,6 +1118,14 @@ const PrayerTextDisplay = ({
             hour = 'prefsollemnity';
         }
 
+        //Bei lokaler Feier als Hochfest Oration immer aus den Laudes
+        if (prefSollemnity && field === 'oration') {
+            if (texts['laudes'][prefSrc]?.['oration']) {
+                return texts['laudes'][prefSrc]['oration'];
+            }
+            else return null
+        }
+
         // Abruf der Werte für die Kommemoration
         if (field.startsWith('c_')) {
             field = field.substring(2); // Remove c_ prefix
@@ -1209,42 +1141,40 @@ const PrayerTextDisplay = ({
             return
         }
 
+        const fallbackCom1 = localPrefComm === 1 || prefSollemnity ||
+            (texts.hasErsteVesper && hour === 'vesper');
+        const fallbackCom2 = localPrefComm === 2 || prefSollemnity ||
+            (texts.hasErsteVesper && hour === 'vesper');
+
         // Sonderfall Hymnen: 
         // klStb und Nacht-Hymnus werden nicht gezeigt, wenn eigener Hymnus vorhanden
         // oder Feier als Hochfest oder Commune-Hymnus gewählt ist
         if ((field === 'hymn_kl' || field === 'hymn_nacht') &&
             (texts[hour]?.[prefSrc]?.['hymn_1']
                 || prefSollemnity
-                || (localPrefComm === 1 && texts[hour]?.[prefSrc]?.['com1']?.['hymn_1'])
-                || (localPrefComm === 2 && texts[hour]?.[prefSrc]?.['com2']?.['hymn_1'])
-            )) {
-            return null;
-        }
+                || (fallbackCom1 && texts[hour]?.[prefSrc]?.['com1']?.['hymn_1'])
+                || (fallbackCom2 && texts[hour]?.[prefSrc]?.['com2']?.['hymn_1'])
+            )) { return null; }
 
         //Sonderfall Antiphonen: nicht ant_0 und ant_1-3 gleichzeitig
         if (field === 'ant_0' &&
             (texts[hour]?.['eig']?.['ant_1']
-                || (localPrefComm === 1 && texts[hour]?.[prefSrc]?.['com1']?.['ant_1'])
-                || (localPrefComm === 2 && texts[hour]?.[prefSrc]?.['com2']?.['ant_1']))
-        ) {
-            return null;
-        }
+                || (fallbackCom1 && texts[hour]?.[prefSrc]?.['com1']?.['ant_1'])
+                || (fallbackCom2 && texts[hour]?.[prefSrc]?.['com2']?.['ant_1']))
+        ) { return null; }
 
         if (field.startsWith('ant_') && field !== 'ant_0') {
             if (texts[hour]?.['eig']?.['ant_0']
-                || (localPrefComm === 1 && texts[hour]?.[prefSrc]?.['com1']?.['ant_0'])
-                || (localPrefComm === 2 && texts[hour]?.[prefSrc]?.['com2']?.['ant_0'])) {
-                return null;
-            }
+                || (fallbackCom1 && texts[hour]?.[prefSrc]?.['com1']?.['ant_0'])
+                || (fallbackCom2 && texts[hour]?.[prefSrc]?.['com2']?.['ant_0'])
+            ) { return null; }
         }
 
         //Sonderfall Wochentagspsalmen:
         if (hour !== 'invitatorium' && hour !== 'komplet' &&
             field.startsWith('ps_') &&
             localPrefPsalmsWt
-        ) {
-            return texts[hour]?.['wt']?.[field];
-        }
+        ) { return texts[hour]?.['wt']?.[field]; }
 
         //Sonderfall Bahnlesung:
         if (hour === 'lesehore' &&
@@ -1252,9 +1182,7 @@ const PrayerTextDisplay = ({
                 field.startsWith('resp1_') ||
                 field.startsWith('patr_')) &&
             localPrefContinuous
-        ) {
-            return texts[hour]?.['wt']?.[field];
-        }
+        ) { return texts[hour]?.['wt']?.[field]; }
 
         // Prüfe, ob Commune übersprungen werden soll
         const skipCommune = rank_date < 3 && !prefSollemnity &&
@@ -1278,13 +1206,11 @@ const PrayerTextDisplay = ({
             // 2. & 3. Prüfe Commune nur wenn nicht übersprungen werden soll
             if (!skipCommune) {
                 // Prüfe com2 wenn prefComm = 2
-                if (localPrefComm === 2 && texts[hour][prefSrc]?.['com2']?.[field]) {
+                if (fallbackCom2 && texts[hour][prefSrc]?.['com2']?.[field]) {
                     return texts[hour][prefSrc]?.['com2'][field];
                 }
                 // Prüfe com1 wenn prefComm = 1 oder prefSollemnity gewählt ist
-                if ((localPrefComm === 1 || prefSollemnity ||
-                    (texts.hasErsteVesper && hour === 'vesper'))
-                    && texts[hour][prefSrc]?.['com1']?.[field]) {
+                if (fallbackCom1 && texts[hour][prefSrc]?.['com1']?.[field]) {
                     return texts[hour][prefSrc]?.['com1'][field];
                 }
             }

@@ -289,7 +289,7 @@ export const perikopenData = {
   },
   "Eph": {
     "2,13–16": {
-      "text": "Jetzt seid ihr, die ihr einst in der Ferne wart, durch Christus Jesus, nämlich durch sein Blut, in die Nähe gekommen.^pDenn er ist unser Friede. Er vereinigte die beiden Teile, Juden und Heiden, und riss durch sein Sterben die trennende Wand der Feindschaft nieder.^pEr hob das Gesetz mit seinen Geboten und Forderungen auf, um die zwei in seiner Person zu dem einen neuen Menschen zu machen. Er stiftete Frieden^pund versöhnte die beiden durch das Kreuz mit Gott in einem einzigen Leib. Er hat in seiner Person die Feindschaft getötet."
+      "text": "Jetzt seid ihr, die ihr einst in der Ferne wart, durch Christus Jesus, nämlich durch sein Blut, in die Nähe gekommen. Denn er ist unser Friede. Er vereinigte die beiden Teile, Juden und Heiden, und riss durch sein Sterben die trennende Wand der Feindschaft nieder. Er hob das Gesetz mit seinen Geboten und Forderungen auf, um die zwei in seiner Person zu dem einen neuen Menschen zu machen. Er stiftete Frieden und versöhnte die beiden durch das Kreuz mit Gott in einem einzigen Leib. Er hat in seiner Person die Feindschaft getötet."
     },
     "2,3b–5": {
       "text": "Text von Eph 2,3b–5"

@@ -1669,6 +1669,25 @@ export const brevierData = {
     },
     "MärtPl": {
       "each": {
+        "ErsteV": {
+          "hymn_1": 71123.0,
+          "ps_1": 118.4,
+          "ps_2": 118.3,
+          "ps_3": 158.0,
+          "ant_1": "Viele Qualen haben die Heiligen erduldet und haben als Lohn für ihr Zeugnis die Palme des Sieges erlangt.^ö",
+          "ant_2": "Als Sieger zogen die Heiligen ein in das Reich und empfingen von Gott die Krone der Herrlichkeit.^ö",
+          "ant_3": "Die Märtyrer sind für Christus gestorben, nun leben sie in Ewigkeit.^ö",
+          "les_buch": "Röm",
+          "les_stelle": "8,35.37–39",
+          "les_text": "Was kann uns scheiden von der Liebe Christi? Bedrängnis oder Not oder Verfolgung, Hunger oder Kälte, Gefahr oder Schwert? All das überwinden wir durch den, der uns geliebt hat. Denn ich bin gewiss: Weder Tod noch Leben, weder Engel noch Mächte, weder Gegenwärtiges noch Zukünftiges, weder Gewalten der Höhe oder Tiefe noch irgendeine andere Kreatur können uns scheiden von der Liebe Gottes, die in Christus Jesus ist, unserem Herrn.",
+          "resp1_1": "Die Seelen der Gerechten sind in Gottes Hand,",
+          "resp1_2": "und keine Qual kann sie berühren. ",
+          "resp1_3": "Tot sind sie in den Augen der Toren, sie aber sind in Frieden.",
+          "ant_ev": "Das Himmelreich gehört den Zeugen Christi, die ihre Kleider wuschen im Blut des Lammes. Das Leben dieser Welt verschmähten sie und gewannen als Preis das ewige Leben.",
+          "bitten_e": "Lasst uns zu Jesus Christus beten, dem König der Märtyrer:",
+          "bitten_r": "Herr Jesus Christus, wir preisen dich.",
+          "bitten": "Du unser Erlöser, du hast dein Blut vergossen für das Heil der Welt;^qerbarme dich aller Menschen.^pDu Urbild der Märtyrer;^qsteh allen Verfolgten bei.^pDu treuer Zeuge; ^qhilf denen, die von dir Zeugnis geben.^pDu Stärke der Märtyrer; ^qsei deinen Bekennern nahe in der Stunde der Prüfung.^pDu Lohn der Märtyrer;^qsei auch der Lohn all unserer Verstorbenen."
+        },
         "Invitatorium": {
           "ant_0": "Den Herrn, den König der Märtyrer – kommt, wir beten ihn an!",
           "ant_1": "",
@@ -1755,22 +1774,22 @@ export const brevierData = {
         },
         "Vesper": {
           "hymn_1": 71123.0,
-          "ps_1": 9999.0,
-          "ps_2": 9999.0,
-          "ps_3": 9999.0,
-          "ant_1": "com-MärtPl-each-Vesper-ant_1",
-          "ant_2": "com-MärtPl-each-Vesper-ant_2",
-          "ant_3": "com-MärtPl-each-Vesper-ant_3",
+          "ps_1": 116.1,
+          "ps_2": 116.2,
+          "ps_3": 153.0,
+          "ant_1": "Der Leib der Heiligen ist in Frieden bestattet, ihr Name lebt fort auf ewig.",
+          "ant_2": "Ich sah die Seelen derer, die getötet wurden wegen des Wortes Gottes und weil sie festhielten an ihrem Zeugnis.",
+          "ant_3": "Die Heiligen hielten am Bunde Gottes fest und gaben ihr Leben dafür hin. Sie wuschen ihre Kleider im Blute des Lammes.",
           "les_buch": "1 Petr",
           "les_stelle": "4,13-14",
           "les_text": "Freut euch, dass ihr Anteil an den Leiden Christi habt; denn so könnt ihr auch bei der Offenbarung seiner Herrlichkeit voll Freude jubeln. Wenn ihr wegen des Namens Christi beschimpft werdet, seid ihr seligzupreisen; denn der Geist der Herrlichkeit, der Geist Gottes, ruht auf euch.",
-          "resp1_1": "com-MärtPl-each-Vesper-Resp1_1",
-          "resp1_2": "com-MärtPl-each-Vesper-Resp1_2",
-          "resp1_3": "com-MärtPl-each-Vesper-Resp1_3",
-          "ant_ev": "com-MärtPl-each-Vesper-Ant_Ev",
-          "bitten_e": "com-MärtPl-each-Vesper-Bitten_E",
-          "bitten_r": "com-MärtPl-each-Vesper-Bitten_R",
-          "bitten": "com-MärtPl-each-Vesper-Bitten"
+          "resp1_1": "Freut euch im Herrn,",
+          "resp1_2": "jauchzet, ihr Gerechten.",
+          "resp1_3": "Jubelt alle, ihr Menschen mit redlichem Herzen.",
+          "ant_ev": "Im Himmel freuen sich die Gerechten, die dem Herrn gefolgt sind. Aus Liebe zu Christus vergossen sie ihr Blut. Nun herrschen sie mit ihm auf ewig.",
+          "bitten_e": "Lasst uns zu Jesus Christus beten, dem König der Märtyrer:",
+          "bitten_r": "Herr Jesus Christus, wir preisen dich.",
+          "bitten": "Du unser Erlöser, du hast dein Blut vergossen für das Heil der Welt;^qerbarme dich aller Menschen.^pDu Urbild der Märtyrer;^qsteh allen Verfolgten bei.^pDu treuer Zeuge;^qhilf denen, die Zeugnis von dir geben.^pDu Stärke der Märtyrer;^qsei deinen Bekennern nahe in der Stunde der Prüfung.^pDu Lohn der Märtyrer;^qsei auch der Lohn all unserer Verstorbenen."
         }
       },
       "Jgfr": {
@@ -1786,6 +1805,15 @@ export const brevierData = {
         }
       },
       "o": {
+        "ErsteV": {
+          "les_buch": "Offb",
+          "les_stelle": "3,10-12",
+          "les_text": "Du hast dich an mein Gebot gehalten, standhaft zu bleiben; daher werde auch ich zu dir halten und dich bewahren vor der Stunde der Versuchung, die über die ganze Erde kommen soll, um die Bewohner der Erde auf die Probe zu stellen. Ich komme bald. Halte fest, was du hast, damit kein anderer deinen Kranz bekommt.^pWer siegt, den werde ich zu einer Säule im Tempel meines Gottes machen und er wird immer darin bleiben. Und ich werde auf ihn den Namen meines Gottes schreiben und den Namen der Stadt meines Gottes, des neuen Jerusalem, das aus dem Himmel herabkommt von meinem Gott, und ich werde auf ihn auch meinen neuen Namen schreiben.",
+          "resp1_1": "Freut euch im Herrn, ihr Gerechten.",
+          "resp1_2": "Halleluja, halleluja.",
+          "resp1_3": "Euch hat der Herr sich zum Erbe erkoren.",
+          "ant_ev": "Ewiges Licht leuchtet deinen Heiligen, o Herr: Unsterblichkeit ist ihr Besitz. Halleluja."
+        },
         "Laudes": {
           "les_buch": "1 Joh",
           "les_stelle": "5,3-5",
@@ -1829,6 +1857,15 @@ export const brevierData = {
           "les_text": "Fürchte dich nicht vor dem, was du noch erleiden musst: Der Teufel wird einige von euch ins Gefängnis werfen, um euch auf die Probe zu stellen, und ihr werdet in Bedrängnis sein, zehn Tage lang. Sei treu bis in den Tod; dann werde ich dir den Kranz des Lebens geben.^lWer Ohren hat, der höre, was der Geist den Gemeinden sagt: Wer siegt, dem kann der zweite Tod nichts anhaben.",
           "resp1_0": "Mit dem Gewand der Freude hat ihn der Herr bekleidet.^ö",
           "resp1_1": "Die Krone der Schönheit hat er ihm aufs Haupt gesetzt.^ö"
+        },
+        "Vesper": {
+          "les_buch": "Offb",
+          "les_stelle": "7,14b-17",
+          "les_text": "Das sind die, die aus der großen Bedrängnis kommen; sie haben ihre Gewänder gewaschen und im Blut des Lammes weiß gemacht. Deshalb stehen sie vor dem Thron Gottes und dienen ihm bei Tag und Nacht in seinem Tempel; und der, der auf dem Thron sitzt, wird sein Zelt über ihnen aufschlagen. Sie werden keinen Hunger und keinen Durst mehr leiden und weder Sonnenglut noch irgendeine sengende Hitze wird auf ihnen lasten. Denn das Lamm in der Mitte vor dem Thron wird sie weiden und zu den Quellen führen, aus denen das Wasser des Lebens strömt, und Gott wird alle Tränen von ihren Augen abwischen.",
+          "resp1_1": "Die Gerechten werden leuchten vor dem Antlitz Gottes.",
+          "resp1_2": "Halleluja, halleluja.",
+          "resp1_3": "Die redlichen Herzens sind, werden sich freuen.",
+          "ant_ev": "Freut euch, ihr Heiligen, vor dem Angesicht des Lammes; euch ist das Reich bereitet seit Anbeginn der Welt. Halleluja."
         }
       },
       "q": {
@@ -2347,7 +2384,7 @@ export const brevierData = {
           "comm_2": "Hirten_Kl",
           "patr_autor": "Franz von Sales (†°1622)",
           "patr_werk": "Aus der Einführung in das religiöse Leben.",
-          "patr_text": "^hVerschiedene Formen frommer Übungen^p^pBei der Erschaffung gebot Gott, der Schöpfer, den Pflanzen, Frucht zu bringen je nach ihrer Art. So befiehlt er auch den Christen, den lebendigen Pflanzen seiner Kirche, Frucht der Frömmigkeit zu bringen je nach persönlicher Eigenart, nach Stand und Beruf.^pAnders, so möchte ich sagen, muss ein Edelmann fromm sein als ein Handwerker, anders ein Diener als ein Fürst, anders eine Witwe als ein unverheiratetes Mädchen oder eine in der Ehe lebende Frau. Doch nicht genug damit: auch die Ausübung der Frömmigkeit selbst muss der Kraft, der Tätigkeit und der Aufgabe eines jeden in besonderer Weise angepasst sein.^pSag mir bitte, liebe Philothea, ob es angebracht wäre, wenn ein Bischof wie ein Kartäuser die Einöde aufsuchte! Wenn Verheiratete sich nicht stärker um die Mehrung ihres Vermögens bemühen würden als ein Kapuziner; wenn ein Handwerker nach Art der Ordensleute den ganzen Tag in der Kirche verbrächte, die Ordensleute aber wie die Bischöfe dauernd den Anforderungen ausgesetzt wären, die sich im Zusammenhang mit der Not der Mitmenschen ergeben! Wäre ein solches Ordensleben nicht vielmehr lächerlich, ungeordnet und unerträglich?^pUnd doch begegnet dieser Fehler häufig... Wenn die Frömmigkeit nur wahr und aufrichtig ist, zerstört sie nichts, sondern vervollkommnet und vollendet alles. Wenn sie jedoch der Berufung und dem Stand eines Menschen widerspricht, ist sie ohne Zweifel falsch.^pDie Biene sammelt ihren Honig aus den Blüten, ohne sie im geringsten zu schädigen oder zu zerstören; sie hinterlässt sie vielmehr heil und frisch, wie sie sie vorfand. Die wahre Frömmigkeit tut dies noch besser: sie zerstört nicht nur keine Form von Beruf oder Tätigkeit, sondern macht sie sogar gefälliger und schöner.^pDurch sie wird dir auch die Sorge für die Familie friedvoller, die gegenseitige Liebe von Mann und Frau wird lauterer, der Dienst bei den Fürsten gewinnt an Treue, und alle Tätigkeiten, welche immer es seien, werden angenehmer und ansprechender.^pAn welcher Stelle immer wir stehen, stets können und sollen wir uns um das vollkommene Leben bemühen.",
+          "patr_text": "^hVerschiedene Formen frommer Übungen^p^pBei der Erschaffung gebot Gott, der Schöpfer, den Pflanzen, Frucht zu bringen je nach ihrer Art. So befiehlt er auch den Christen, den lebendigen Pflanzen seiner Kirche, Frucht der Frömmigkeit zu bringen je nach persönlicher Eigenart, nach Stand und Beruf.^pAnders, so möchte ich sagen, muss ein Edelmann fromm sein als ein Handwerker, anders ein Diener als ein Fürst, anders eine Witwe als ein unverheiratetes Mädchen oder eine in der Ehe lebende Frau. Doch nicht genug damit: auch die Ausübung der Frömmigkeit selbst muss der Kraft, der Tätigkeit und der Aufgabe eines jeden in besonderer Weise angepasst sein.^pSag mir bitte, liebe Philothea, ob es angebracht wäre, wenn ein Bischof wie ein Kartäuser die Einöde aufsuchte! Wenn Verheiratete sich nicht stärker um die Mehrung ihres Vermögens bemühen würden als ein Kapuziner; wenn ein Handwerker nach Art der Ordensleute den ganzen Tag in der Kirche verbrächte, die Ordensleute aber wie die Bischöfe dauernd den Anforderungen ausgesetzt wären, die sich im Zusammenhang mit der Not der Mitmenschen ergeben! Wäre ein solches Ordensleben nicht vielmehr lächerlich, ungeordnet und unerträglich?^pUnd doch begegnet dieser Fehler häufig … Wenn die Frömmigkeit nur wahr und aufrichtig ist, zerstört sie nichts, sondern vervollkommnet und vollendet alles. Wenn sie jedoch der Berufung und dem Stand eines Menschen widerspricht, ist sie ohne Zweifel falsch.^pDie Biene sammelt ihren Honig aus den Blüten, ohne sie im geringsten zu schädigen oder zu zerstören; sie hinterlässt sie vielmehr heil und frisch, wie sie sie vorfand. Die wahre Frömmigkeit tut dies noch besser: sie zerstört nicht nur keine Form von Beruf oder Tätigkeit, sondern macht sie sogar gefälliger und schöner.^pDurch sie wird dir auch die Sorge für die Familie friedvoller, die gegenseitige Liebe von Mann und Frau wird lauterer, der Dienst bei den Fürsten gewinnt an Treue, und alle Tätigkeiten, welche immer es seien, werden angenehmer und ansprechender.^pAn welcher Stelle immer wir stehen, stets können und sollen wir uns um das vollkommene Leben bemühen.",
           "patr_resp1": "Seid gütig gegeneinander, seid barmherzig, vergebt einander, wie Gott euch vergeben hat.",
           "patr_resp2": "Ahmt Gott nach als seine geliebten Kinder!",
           "patr_resp3": "Nehmt mein Joch auf euch und lernt von mir; denn ich bin gütig und selbstlos.",
@@ -2640,9 +2677,18 @@ export const brevierData = {
         },
         "Laudes": {
           "name": "Hl. Rabanus Maurus",
+          "hymn_1": 82040.0,
+          "hymn_2": 82041.0,
           "ant_1": "Der Herr hat ihn erfüllt mit dem Geist der Weisheit und der Einsicht.",
           "ant_2": "Wir rühmen uns des Kreuzes Jesu Christi, unseres Herrn.",
-          "ant_3": "Lebendig ist das Wort Gottes, kraftvoll und schärfer als jedes zweischneidige Schwert."
+          "ant_3": "Lebendig ist das Wort Gottes, kraftvoll und schärfer als jedes zweischneidige Schwert.",
+          "les_buch": "2 Kor",
+          "les_stelle": "4,5–7",
+          "les_text": "Wir verkündigen nicht uns selbst, sondern Jesus Christus als den Herrn, uns aber als eure Knechte um Jesu willen. Denn Gott, der sprach: „Aus Finsternis soll Licht aufleuchten!“, er ist in unseren Herzen aufgeleuchtet, damit wir erleuchtet werden zur Erkenntnis des göttlichen Glanzes auf dem Antlitz Christi. Diesen Schatz tragen wir in zerbrechlichen Gefäßen; so wird deutlich, dass das Übermaß der Kraft von Gott und nicht von uns kommt.",
+          "resp1_1": "Wir verkündigen nicht Weisheit dieser Welt,",
+          "resp1_2": "damit das Kreuz Christi nicht um seine Kraft gebracht wird. ",
+          "resp1_3": "Vielmehr verkündigen wir das Geheimnis der verborgenen Weisheit Gottes.",
+          "ant_ev": "Von seiner Weisheit erzählt die Gemeinde, sein Lob verkündet das versammelte Volk."
         },
         "Lesehore": {
           "hymn_1": 402.0,
@@ -2665,13 +2711,42 @@ export const brevierData = {
           "patr_resp2": "Wer aber Gott liebt, der ist von ihm erkannt.",
           "patr_resp3": "Wer nicht liebt, hat Gott nicht erkannt; denn Gott ist die Liebe."
         },
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
+        "Non": {
+          "les_buch": "1 Kor",
+          "les_stelle": "2,12–13",
+          "les_text": "Wir haben nicht den Geist der Welt empfangen, sondern den Geist, der aus Gott stammt, damit wir das erkennen, was uns von Gott geschenkt worden ist. Davon reden wir auch, nicht mit Worten, wie menschliche Weisheit sie lehrt, sondern wie der Geist sie lehrt.",
+          "resp1_0": "Der Mund des Gerechten bewegt Worte der Weisheit.",
+          "resp1_1": "Seine Zunge redet, was recht ist."
+        },
+        "Sext": {
+          "les_buch": "2 Petr",
+          "les_stelle": "1,20–21",
+          "les_text": "Keine Weissagung der Schrift darf eigenmächtig ausgelegt werden; denn niemals wurde eine Weissagung ausgesprochen, weil ein Mensch es wollte, sondern vom Heiligen Geist getrieben haben Menschen im Auftrag Gottes geredet.",
+          "resp1_0": "Herr, dein Wort ist meinem Fuß eine Leuchte,",
+          "resp1_1": "ein Licht für meine Pfade."
+        },
+        "Terz": {
+          "hymn_1": 82042.0,
+          "les_buch": "Weish",
+          "les_stelle": "9,9–10",
+          "les_text": "Gott, mit dir ist die Weisheit, die deine Werke kennt und die zugegen war, als du die Welt er schufst. Sie weiß, was dir gefällt und was recht ist nach deinen Geboten. Sende sie vom heiligen Himmel und schick sie vom Thron deiner Herrlichkeit, damit sie bei mir sei und alle Mühe mit mir teile und damit ich erkenne, was dir gefällt.",
+          "resp1_0": "Komm, Heil’ger Geist, der Leben schafft,",
+          "resp1_1": "füll unser Herz mit Licht und Kraft."
+        },
         "Vesper": {
+          "hymn_1": 82043.0,
+          "hymn_2": 82044.0,
           "ant_1": "Wer darf Gast sein in Gottes Zelt? Der makellos lebt und das Rechte tut.",
           "ant_2": "Wohl dem Mann, der gütig und zum Helfen bereit ist.",
-          "ant_3": "Die viele zum rechten Tun geführt haben, werden immer und ewig wie die Sterne leuchten."
+          "ant_3": "Die viele zum rechten Tun geführt haben, werden immer und ewig wie die Sterne leuchten.",
+          "les_buch": "Sir",
+          "les_stelle": "29,8–11",
+          "les_text": "Hab Geduld mit dem Bedürftigen und lass ihn nicht auf die Wohltat warten! Um des Gebotes willen nimm dich des Armen an, lass ihn in seiner Not nicht leer weggehen! Setz dein Geld ein für den Bruder und Freund, lass es nicht rosten unter dem Stein, bis es verdirbt! Leg dir einen Schatz an nach den Geboten des Höchsten; der wird dir mehr nützen als Gold.",
+          "resp1_1": "Amen, ich sage euch:",
+          "resp1_2": "Was ihr für einen dieser Geringsten getan habt, das habt ihr mir getan. ",
+          "resp1_3": "Den Schöpfer ehrt, wer sich des Armen erbarmt.",
+          "patr_autor": "Was ihr für einen dieser Geringsten getan habt, das habt ihr mir getan.",
+          "ant_ev": "Reichlich gibt er den Armen, sein Heil hat Bestand für immer; er ist mächtig und hoch geehrt."
         }
       },
       "5": {
@@ -3028,18 +3103,120 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "comm_1": "Mar",
-          "oration": "eig-6-5-each-Oration"
+          "comm_1": "Hirten",
+          "oration": "Herr, unser Gott, erhöre die Bitten deiner Gemeinde, die heute das Fest des heiligen Bonifatius feiert. Auf seine Fürsprache schenke uns deine Hilfe, damit wir den Glauben treu bewahren, den er unseren Vätern gepredigt und mit seinem Blut besiegelt hat. Darum bitten wir durch Jesus Christus."
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
-        "Vesper": {}
+        "ErsteV": {
+          "name": "1. Vesper zum hl. Bonifatius",
+          "hymn_1": 86054.0,
+          "hymn_2": 86055.0,
+          "ant_1": "Der Herr gab ihm einen Sitz bei den Edlen seines Volkes und als Vermächtnis das ewige Priestertum.^ö",
+          "ant_2": "Er liebte den Namen des Herrn, ewig wird er jubeln über seinen Gott.^ö",
+          "ant_3": "Bonifatius, der große Missionar und Seelsorger, betrachtete Tag und Nacht die Gebote des Höchsten.^ö",
+          "les_buch": "Eph",
+          "les_stelle": "3,5–7",
+          "les_text": "Den Menschen früherer Generationen war es nicht bekannt; jetzt aber ist es seinen heiligen Aposteln und Propheten durch den Geist offenbart worden: dass nämlich die Heiden Miterben sind, zu demselben Leib gehören und an derselben Verheißung in Christus Jesus teilhaben durch das Evangelium. Ihm diene ich dank der Gnade, die mir durch Gottes mächtiges Wirken geschenkt wurde.",
+          "resp1_1": "Alle Völker kommen",
+          "resp1_2": "und beten dich an. ",
+          "resp1_3": "Sie geben, Herr, deinem Namen die Ehre.",
+          "patr_autor": "Und beten dich an.",
+          "ant_ev": "Lasst uns hintreten an sein Grab und die Gebeine des Heiligen verehren, die hier der seligen Auferstehung harren, während sein Geist in ewiger Himmelsfreude im Chor der Heiligen weilt.^ö^p^rOder:^0r^l^rAnt.^0r°°Du Priester des Höchsten, Spiegel aller Tugenden, des Volkes guter Hirte, der dem Herrn gefiel.^ö",
+          "bitten_e": "Lasst uns beten zum Herrn Jesus Christus, der seinen Diener Bonifatius am heutigen Tag verherrlicht hat:",
+          "bitten_r": "Herr, gedenke deiner Diener.",
+          "bitten": "Du hast die Stämme unseres Volkes durch die Predigt des heiligen Bonifatius im Glauben geeint;^qschenke uns die verlorene Glaubenseinheit zurück.^pDu hast den heiligen Bonifatius für unsere Vorfahren zum Boten deiner versöhnenden Liebe gemacht;^qgib unserem Volk wieder die volle Einheit und befreie es von Hass und Gewalt.^pDu hast als oberster Hirte deiner Kirche den heiligen Bonifatius zum Bischof bestellt;^qsegne unseren Bischof ^N und alle, die sich um das Wohl unseres Bistums sorgen.^pDeinem Ruf ist Bonifatius bereitwillig gefolgt und als Künder deiner Wahrheit in ein fremdes Land gezogen;^qberufe auch heute viele junge Menschen in deinen missionarischen Dienst.^pDu hast Bonifatius in die Zahl deiner heiligen Märtyrer aufgenommen;^qgib den Verstorbenen ewige Gemeinschaft mit ihnen."
+        },
+        "Invitatorium": {
+          "ant_0": "Gott hat uns durch den heiligen Bonifatius aus der Finsternis in sein wunderbares Licht gerufen; kommt, wir beten ihn an! ^ö"
+        },
+        "Laudes": {
+          "name": "Hl. Bonifatius",
+          "farbe": "r",
+          "hymn_1": 86052.0,
+          "hymn_2": 86056.0,
+          "hymn_3": 86057.0,
+          "ant_1": "Trotz aller Not ströme ich über von Freude.^ö",
+          "ant_2": "Ihr Märtyrer des Herrn, preist den Herrn in Ewigkeit.^ö",
+          "ant_3": "Ich will deinen Namen verkünden, Gott, du Hort meines Lebens.",
+          "les_buch": "1 Kor",
+          "les_stelle": "3,10–11",
+          "les_text": "Der Gnade Gottes entsprechend, die mir geschenkt wurde, habe ich wie ein guter Baumeister den Grund gelegt; ein anderer baut darauf weiter. Aber jeder soll darauf achten, wie er weiterbaut. Denn einen anderen Grund kann niemand legen als den, der gelegt ist: Jesus Christus.",
+          "resp1_1": "Wächter habe ich aufgestellt",
+          "resp1_2": "auf deinen Mauern, Jerusalem. ",
+          "resp1_3": "Tag und Nacht hören sie nicht auf, den Namen des Herrn zu preisen",
+          "ant_ev": "Freue dich, Fulda, juble deutsches Land, deinem Vater und Apostel; denn seine Lehre hat dich gebildet, seine Tugenden sind dein Licht, sein Schutz ist deine Stärke; darum preise in ihm Gottes große Taten.^ö",
+          "bitten_e": "Gepriesen sei Gott, der Bonifatius zum Apostel der Deutschen berufen hat. Zu ihm lasst uns beten:",
+          "bitten_r": "Stärke unseren Glauben.",
+          "bitten": "Du hast durch den heiligen Bonifatius unsere Vorfahren zum Glauben geführt; ^qgib, dass wir uns täglich neu zu dir bekehren.^pDu hast Bonifatius dazu berufen, deine Kirche in unserem Land auf das Felsenfundament des heiligen Petrus zu bauen;^qgründe unser Leben fest auf den Glauben der Apostel.^pDu hast den heiligen Bonifatius zum treuen Verwalter und wachsamen Verteidiger deiner Kirche bestellt;^qerfülle uns mit Eifer für den Aufbau deines Reiches.^pMit seinem Blut hat Bonifatius sein Wirken besiegelt und deine Wahrheit bezeugt;^qerhalte auch uns in der Treue bis zum Tod."
+        },
+        "Lesehore": {
+          "hymn_1": 86053.0,
+          "hymn_2": 86056.0,
+          "hymn_3": 86057.0,
+          "ant_1": "Herr, du hast deinem Gerechten den Wunsch seines Herzens erfüllt, du kamst ihm entgegen mit Segen und Glück.^ö",
+          "ant_2": "Er hat ihn bestellt für das ewige Priesteramt und über ihn seine Hoheit ausgebreitet.^ö",
+          "ant_3": "Ich setze dich über Völker und Reiche; du sollst ausreißen und niederreißen, aufbauen und einpflanzen.^ö",
+          "resp0_0": "Das Wort des Herrn bleibt in Ewigkeit.^ö",
+          "resp0_1": "Das Evangelium, das euch verkündet wurde.^ö",
+          "les_buch": "Aus der Apostelgeschichte.",
+          "les_stelle": "20,17–36",
+          "les_text": "^hDie Hirtensorge des Apostels^pVon Milet aus schickte Paulus jemand nach Ephesus und ließ die Ältesten der Gemeinde zu sich rufen. Als sie bei ihm eingetroffen waren, sagte er: Ihr wisst, wie ich vom ersten Tag an, seit ich die Provinz Asien betreten habe, die ganze Zeit in eurer Mitte war und wie ich dem Herrn in aller Demut diente unter Tränen und vielen Prüfungen, die ich durch die Nachstellungen der Juden erlitten habe, wie ich nichts verschwiegen habe von dem, was heilsam ist. Ich habe es euch verkündigt und habe euch gelehrt, öffentlich und in den Häusern. Ich habe Juden und Griechen beschworen, sich zu Gott zu bekehren und an Jesus Christus, unseren Herrn, zu glauben.^pNun ziehe ich, gebunden durch den Geist, nach Jerusalem und ich weiß nicht, was dort mit mir geschehen wird. Nur das bezeugt mir der Heilige Geist von Stadt zu Stadt, dass Fesseln und Drangsale auf mich warten.^pAber ich will mit keinem Wort mein Leben wichtig nehmen, wenn ich nur meinen Lauf vollende und den Dienst erfülle, der mir von Jesus, dem Herrn, übertragen wurde: das Evangelium von der Gnade Gottes zu bezeugen.^pNun aber weiß ich, dass ihr mich nicht mehr von Angesicht sehen werdet, ihr alle, zu denen ich gekommen bin und denen ich das Reich verkündet habe. Darum bezeuge ich euch am heutigen Tag: Ich bin unschuldig, wenn einer von euch allen verloren geht. Denn ich habe mich der Pflicht nicht entzogen, euch den ganzen Willen Gottes zu verkünden.^pGebt Acht auf euch und auf die ganze Herde, in der euch der Heilige Geist zu Bischöfen bestellt hat, damit ihr als Hirten für die Kirche Gottes sorgt, die er sich durch das Blut seines eigenen Sohnes erworben hat. Ich weiß: Nach meinem Weggang werden reißende Wölfe bei euch eindringen und die Herde nicht schonen. Und selbst aus eurer Mitte werden Männer auftreten, die mit ihren falschen Reden die Jünger auf ihre Seite ziehen. Seid also wachsam, und denkt daran, dass ich drei Jahre lang Tag und Nacht nicht aufgehört habe, unter Tränen jeden einzelnen zu ermahnen. Und jetzt vertraue ich euch Gott und dem Wort seiner Gnade an, das die Kraft hat, aufzubauen und das Erbe in der Gemeinschaft der Geheiligten zu verleihen. ^pSilber oder Gold oder Kleider habe ich von keinem verlangt; ihr wisst selbst, dass für meinen Unterhalt und den meiner Begleiter diese Hände hier gearbeitet haben. In allem habe ich euch gezeigt, dass man sich auf diese Weise abmühen und sich der Schwachen annehmen soll, in Erinnerung an die Worte Jesu, des Herrn, der selbst gesagt hat: Geben ist seliger als nehmen.^pNach diesen Worten kniete er nieder und betete mit ihnen allen.",
+          "resp1_1": "Als Diener Christi soll man uns betrachten und als Verwalter von Geheimnissen Gottes.",
+          "resp1_2": "Von Verwaltern aber verlangt man, dass sie sich treu erweisen. ^ö",
+          "resp1_3": "Viele Menschen rühmen sich ihrer Güte, aber wer findet einen, auf den Verlass ist?",
+          "patr_autor": "Bonifatius († 754)",
+          "patr_werk": "Aus einem Brief.",
+          "patr_text": "^hDer eifrige Hirte, der über die Herde Christi wacht^pDie Kirche fährt über das Meer dieser Welt wie ein großes Schiff und wird von den Wogen – das sind die Anfechtungen dieses Lebens – hin und her geworfen. Wir dürfen das Schiff nicht verlassen, wir müssen es lenken.^pAls Vorbilder haben wir dafür die frühen Väter, Klemens, Kornelius und die vielen andern in der Stadt Rom, Cyprian in Karthago, Athanasius in Alexandrien. Sie haben unter heidnischen Kaisern das Schiff Christi gesteuert. Sie haben die Kirche geleitet, sie gelehrt und verteidigt, für sie gearbeitet und gelitten bis zum Vergießen des Blutes.^pDiese Überlegungen erschrecken mich, „Furcht und Zittern erfassen mich“ {1#Ps 55,6}, die Finsternis meiner Sünden drückt mich nieder. Wie gerne hätte ich das Steuer der Kirche, das ich übernommen habe, aus der Hand gegeben, wenn ich nur geeignete Beispiele bei den Vätern oder in der Heiligen Schrift hätte finden können.^pDie Wahrheit kann zwar niedergehalten, aber weder besiegt noch getäuscht werden. So flüchtet unser Geist zu Gott, der durch Salomo spricht: „Mit ganzem Herzen vertrau auf den Herrn, bau nicht auf eigene Klugheit; such ihn zu erkennen auf all deinen Wegen, dann ebnet er selbst deine Pfade“ {2#Spr 3,5–6}, und anderswo: „Ein fester Turm ist der Name des Herrn, dorthin eilt der Gerechte und ist geborgen.“ {3#Spr 18,10}^pLasst uns feststehen in der Gerechtigkeit und unser Herz auf die Versuchung vorbereiten, damit wir das Zögern Gottes ertragen und sprechen: „Herr, du warst unsere Zuflucht von Geschlecht zu Geschlecht.“ {4#Ps 90,1}^pLasst uns auf ihn vertrauen, der uns die Last aufgelegt hat. Was wir aus eigener Kraft nicht tragen können, das wollen wir tragen durch ihn. Er ist allmächtig und spricht: „Mein Joch drückt nicht, und meine Last ist leicht.“ {5#Mt 11,30}^pLasst uns am Tag des Herrn im Kampf feststehen, denn „ein Tag der Not und Bedrängnis“ {6#Zef 1,15} kam über uns. Wenn Gott es so will, wollen wir sterben für die heiligen Gesetze unserer Väter, damit wir mit ihnen das ewige Erbe erlangen. ^pWir wollen nicht stumme Hunde sein {7#vgl. Jes 56,10} und schweigend zuschauen, nicht Mietlinge, die vor dem Wolf fliehen {8#vgl. Joh 10,12}, sondern eifrige Hirten: Über die Herde Christi wollen wir wachen und allen Menschen jeden Ratschluss Gottes verkünden, den Großen und den Kleinen, den Reichen und den Armen, jedem Stand und jedem Alter, soweit Gott uns Kraft dazu gibt, gelegen und ungelegen {9#vgl. 2 Tim 4,2}, wie es uns der heilige Gregor in seiner Pastoralregel vorgeschrieben hat.",
+          "patr_resp1": "Wir wollten euch nicht nur am Evangelium Gottes teilhaben lassen, sondern auch an unserem eigenen Leben;",
+          "patr_resp2": "denn ihr wart uns sehr lieb geworden. ^ö",
+          "patr_resp3": "Meine Kinder, für euch erleide ich von neuem Geburtswehen, bis Christus in euch Gestalt annimmt."
+        },
+        "Non": {
+          "ant_0": "Wir wollen uns unter den Schutz dieses Heiligen stellen und seines Segens uns freuen. ^ö",
+          "les_buch": "Eph",
+          "les_stelle": "3,12–13",
+          "les_text": "In Christus Jesus haben wir den freien Zugang durch das Vertrauen, das der Glaube an ihn schenkt. Deshalb bitte ich euch, nicht wegen der Leiden zu verzagen, die ich für euch ertrage, denn sie sind euer Ruhm.",
+          "resp1_0": "Groß ist sein Ruhm durch deine Hilfe. ^ö",
+          "resp1_1": "Du hast ihn bekleidet mit Hoheit und Pracht. ^ö"
+        },
+        "Sext": {
+          "ant_0": "Er fürchtete nicht das Drohen der Frevler; der Herr schlug seine Feinde und nahm ihn auf. ^ö",
+          "les_buch": "Eph",
+          "les_stelle": "3,17–19",
+          "les_text": "Durch den Glauben wohne Christus in eurem Herzen. In der Liebe verwurzelt und auf sie gegründet, sollt ihr zusammen mit allen Heiligen dazu fähig sein, die Länge und Breite, die Höhe und Tiefe zu ermessen und die Liebe Christi zu verstehen, die alle Erkenntnis übersteigt. So werdet ihr mehr und mehr von der ganzen Fülle Gottes erfüllt.",
+          "resp1_0": "Er war eine Lampe, die brennt und leuchtet im Haus des Herrn. ^ö",
+          "resp1_1": "In Gebet und Fasten diente er vor dem Herrn. ^ö"
+        },
+        "Terz": {
+          "ant_0": "Der Geist des Herrn hat mich mit Kraft erfüllt, damit ich Israel seine Sünden vorhalte. ^ö",
+          "les_buch": "Eph",
+          "les_stelle": "3,8",
+          "les_text": "Mir, dem Geringsten unter allen Heiligen, wurde diese Gnade geschenkt: Ich soll den Heiden als Evangelium den unergründlichen Reichtum Christi verkündigen und enthüllen, wie jenes Geheimnis Wirklichkeit geworden ist, das von Ewigkeit her in Gott, dem Schöpfer des Alls, verborgen war.",
+          "resp1_0": "Bitte für uns, heiliger Bonifatius. ^ö",
+          "resp1_1": "Auf dass wir würdig werden der Verheißungen Christi. ^ö"
+        },
+        "Vesper": {
+          "comm_1": "MärtSg",
+          "hymn_1": 86054.0,
+          "hymn_2": 86055.0,
+          "ant_1": "Fürchte dich nicht vor ihnen; denn ich bin mit dir, um dich zu retten – Wort des Herrn. ^ö",
+          "ant_2": "Das Wort Gottes ist nicht gefesselt. Deshalb erdulde ich alles um der Auserwählten willen, damit auch sie das Heil erlangen. ^ö",
+          "ant_3": "Getreu bis in den Tod, wurde er mit Herrlichkeit und Ehre gekrönt. ^ö",
+          "les_buch": "2 Kor",
+          "les_stelle": "4,11–14",
+          "les_text": "Immer werden wir, obgleich wir leben, um Jesu willen dem Tod ausgeliefert, damit auch das Leben Jesu an unserem sterblichen Fleisch offenbar wird. So erweist an uns der Tod, an euch aber das Leben seine Macht. Doch haben wir den gleichen Geist des Glaubens, von dem es in der Schrift heißt: Ich habe geglaubt, darum habe ich geredet. Auch wir glauben, und darum reden wir. Denn wir wissen, dass der, welcher Jesus, den Herrn, auferweckt hat, auch uns mit Jesus auferwecken und uns zusammen mit euch vor sein Angesicht stellen wird.",
+          "resp1_1": "Meine Stärke und",
+          "resp1_2": "mein Lied ist der Herr. ",
+          "resp1_3": "Er ist für mich zum Retter geworden.",
+          "ant_ev": "Heute hat Bonifatius, der treue Diener Gottes, den Glauben, den er verkündet, mit seinem Blut besiegelt; heute hat der heilige Priester Gott das Opfer seines Lebens gebracht; heute erlangte der mutige Kämpfer die Siegespalme. ^ö",
+          "bitten_e": "Lasst uns beten zum Herrn Jesus Christus, der seinen Diener Bonifatius am heutigen Tag verherrlicht hat:",
+          "bitten_r": "Herr, gedenke deiner Diener.",
+          "bitten": "Du hast die Stämme unseres Volkes durch die Predigt des heiligen Bonifatius im Glauben geeint;^qschenke uns die verlorene Glaubenseinheit zurück.^pDu hast den heiligen Bonifatius für unsere Vorfahren zum Boten deiner versöhnenden Liebe gemacht;^qgib unserem Volk wieder die volle Einheit und befreie es von Hass und Gewalt.^pDu hast als oberster Hirte deiner Kirche den heiligen Bonifatius zum Bischof bestellt;^qsegne unseren Bischof ^N und alle, die sich um das Wohl unseres Bistums sorgen.^pDeinem Ruf ist Bonifatius bereitwillig gefolgt und als Künder deiner Wahrheit in ein fremdes Land gezogen;^qberufe auch heute viele junge Menschen in deinen missionarischen Dienst.^pDu hast Bonifatius in die Zahl deiner heiligen Märtyrer aufgenommen;^qgib den Verstorbenen ewige Gemeinschaft mit ihnen."
+        }
       },
       "11": {
+        "each": {
+          "oration": "eig-6-11-each-Oration"
+        },
         "Invitatorium": {
           "ant_0": "Durch Propheten und Lehrer hat Gottes Geist zu uns gesprochen; kommt, wir beten ihn an!"
         },
@@ -3057,10 +3234,6 @@ export const brevierData = {
         }
       },
       "13": {
-        "each": {
-          "comm_1": "Mar",
-          "oration": "eig-6-13-each-Oration"
-        },
         "Invitatorium": {},
         "Laudes": {},
         "Lesehore": {},
@@ -3100,10 +3273,7 @@ export const brevierData = {
           "oration": "Allmächtiger Gott, führe deine Kirche auf dem Weg des Heiles und gib uns die Gnade, den Weisungen Johannes des Täufers zu folgen, damit wir zu dem gelangen, den er vorausverkündet hat, zu unserem Herrn Jesus Christus, deinem Sohn, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Invitatorium": {
-          "ant_0": "Das Lamm Gottes, das Johannes voll Freude bezeugte – kommt, wir beten es an!",
-          "ant_1": "",
-          "ant_2": "",
-          "ant_3": ""
+          "ant_0": "Das Lamm Gottes, das Johannes voll Freude bezeugte – kommt, wir beten es an!"
         },
         "Laudes": {
           "name": "Geburt des hl. Johannes des Täufers",
@@ -3130,9 +3300,6 @@ export const brevierData = {
         },
         "Non": {
           "ant_0": "Dieses Kind wird groß sein vor dem Herrn; denn seine Hand ist mit ihm.",
-          "ant_1": "",
-          "ant_2": "",
-          "ant_3": "",
           "les_buch": "Jes",
           "les_stelle": "49,7b",
           "les_text": "Könige werden es sehen und sich erheben, Fürsten werfen sich nieder um des Herrn willen, der treu ist, um des Heiligen Israels willen, der dich erwählt hat. Siehe, ich lege meine Worte in deinen Mund. Ich setze dich über Völker und Reiche.",
@@ -3141,25 +3308,19 @@ export const brevierData = {
         },
         "Sext": {
           "ant_0": "Als der Klang deines Grußes an mein Ohr drang, da regte sich vor Freude das Kind in meinem Schoß. Halleluja.",
-          "ant_1": "",
-          "ant_2": "",
-          "ant_3": "",
-          "les_buch": "Jes",
-          "les_stelle": "49,1",
-          "les_text": "Hört auf mich, ihr Inseln, merkt auf, ihr Völker in der Ferne! Der Herr hat mich schon im Mutterleib berufen; als ich noch im Schoß meiner Mutter war, hat er meinen Namen genannt.",
-          "resp1_0": "Schon im Mutterleib hat mich der Herr berufen.",
-          "resp1_2": "Er nannte mich beim Namen, noch ehe ich geboren war."
-        },
-        "Terz": {
-          "ant_0": "Er wird groß sein vor dem Herrn, und schon im Mutterschoß wird er vom Heiligen Geist erfüllt sein.",
-          "ant_1": "",
-          "ant_2": "",
-          "ant_3": "",
           "les_buch": "vgl. Jes",
           "les_stelle": "49,5-6",
           "les_text": "Der Herr hat gesprochen, der mich schon im Mutterleib zu seinem Knecht gemacht hat. Er sagte: Ich mache dich zum Licht der Völker, damit mein Heil bis an das Ende der Erde reicht.",
+          "resp1_0": "Schon im Mutterleib hat mich der Herr berufen.",
+          "resp1_1": "Er nannte mich beim Namen, noch ehe ich geboren war."
+        },
+        "Terz": {
+          "ant_0": "Er wird groß sein vor dem Herrn, und schon im Mutterschoß wird er vom Heiligen Geist erfüllt sein.",
+          "les_buch": "Jes",
+          "les_stelle": "49,1",
+          "les_text": "Hört auf mich, ihr Inseln, merkt auf, ihr Völker in der Ferne! Der Herr hat mich schon im Mutterleib berufen; als ich noch im Schoß meiner Mutter war, hat er meinen Namen genannt.",
           "resp1_0": "Ich sah, dass der Geist herabkam und auf ihm blieb.",
-          "resp1_2": "Er ist es, der tauft mit heiligem Geist."
+          "resp1_1": "Er ist es, der tauft mit heiligem Geist."
         },
         "Vesper": {
           "hymn_1": 86242.0,
@@ -3210,7 +3371,9 @@ export const brevierData = {
           "bitten": "Du hast Simon Petrus in deine Nachfolge berufen und ihm aufgetragen, die Brüder zu stärken;^qsei mit Papst N., der in der Kirche das Amt des Petrus verwaltet.^pDu hast dem Sturm geboten, damit das Schiff der Jünger nicht unterging;^qbewahre deine Kirche vor jeder Verwirrung.^pNach deiner Auferstehung hast du die versprengte Herde um Petrus gesammelt;^qführe dein Volk zur Einheit zusammen.^pDu hast den Apostel Paulus gesandt, die Heiden zu deinen Jüngern zu machen;^qgib, dass das Wort vom Heil allen Geschöpfen verkündet wird.^pDu hast am heutigen Tag Petrus und Paulus die Krone des Lebens verliehen;^qgib ewiges Leben allen, die im Glauben deiner Apostel gestorben sind."
         },
         "Invitatorium": {},
-        "Laudes": {},
+        "Laudes": {
+          "name": "Peter und Paul"
+        },
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -3651,7 +3814,9 @@ export const brevierData = {
           "bitten_r": "Kyrie, eleison.",
           "bitten": "Du hast dich entäußert, du wurdest wie ein Sklave und den Menschen gleich;^qgib, dass die Welt deine Liebe erkennt.^pDu wurdest gehorsam bis zum Tod am Kreuz;^qhilf den Leidenden, ihr Geschick anzunehmen.^pGott hat dir den Namen verliehen, der alle Namen übertrifft;^qsteh allen bei, die sich zu diesem Namen bekennen.^pVor dir beugen die Knie alle Mächte im Himmel, auf der Erde und unter der Erde;^qgib, dass alle Menschen dich anbeten.^pDurch dein Kreuz hast du das Tor des Himmels geöffnet;^qnimm unsere verstorbenen Brüder und Schwestern auf."
         },
-        "Invitatorium": {},
+        "Invitatorium": {
+          "ant_0": "Christus, den König, der am Kreuz für uns erhöht ist – kommt, wir beten ihn an!"
+        },
         "Laudes": {
           "name": "Kreuzerhöhung",
           "farbe": "r",
@@ -3684,32 +3849,29 @@ export const brevierData = {
           "ant_2": "Der Name des Herrn ist durch das Kreuz erhöht über Himmel und Erde. Halleluja.",
           "ant_3": "Gesegnetes Kreuz! Du allein warst würdig, den Herrn zu tragen, den König des Himmels. Halleluja."
         },
-        "Terz": {
-          "ant_0": "Rette uns, Christus, unser Erlöser, durch die Kraft des Kreuzes; du hast den Petrus auf dem See gerettet, erbarme dich unser.",
-          "ant_1": "",
-          "ant_2": "",
-          "ant_3": "",
-          "les_buch": "Hebr",
-          "les_stelle": "5,7-9",
-          "les_text": "Als Christus auf Erden lebte, hat er mit lautem Schreien und unter Tränen Gebete und Bitten vor den gebracht, der ihn aus dem Tod retten konnte, und er ist erhört und aus seiner Angst befreit worden. Obwohl er der Sohn war, hat er durch Leiden den Gehorsam gelernt; zur Vollendung gelangt, ist er für alle, die ihm gehorchen, der Urheber des ewigen Heils geworden."
+        "Non": {
+          "ant_0": "Durch dein Kreuz errette uns, Christus, unser Erlöser. Durch deinen Tod hast du den Tod vernichtet und durch deine Auferstehung das Leben neu geschaffen.",
+          "les_buch": "1 Petr",
+          "les_stelle": "1,18-19",
+          "les_text": "Ihr wisst, dass ihr aus eurer sinnlosen, von den Vätern ererbten Lebensweise nicht um einen vergänglichen Preis losgekauft wurdet, um Silber oder Gold, sondern mit dem kostbaren Blut Christi, des Lammes ohne Fehl und Makel.",
+          "resp1_1": "Das Zeichen des Kreuzes wird am Himmel stehn.",
+          "resp1_2": "Wenn der Herr zum Gericht erscheint."
         },
         "Sext": {
           "ant_0": "Rette uns, Heiland der Welt! Du hast uns durch dein Blut am Kreuz erlöst. Wir bitten dich: steh uns bei, du, unser Gott.",
-          "ant_1": "",
-          "ant_2": "",
-          "ant_3": "",
           "les_buch": "Eph",
           "les_stelle": "1,7-8",
-          "les_text": "Durch das Blut Jesu Christi haben wir die Erlösung, die Vergebung der Sünden nach dem Reichtum seiner Gnade. Durch sie hat er uns mit aller Weisheit und Einsicht reich beschenkt."
+          "les_text": "Durch das Blut Jesu Christi haben wir die Erlösung, die Vergebung der Sünden nach dem Reichtum seiner Gnade. Durch sie hat er uns mit aller Weisheit und Einsicht reich beschenkt.",
+          "resp1_1": "Alle Welt bete dich an und singe dein Lob.",
+          "resp1_2": "Sie preise, o Herr, deinen Namen."
         },
-        "Non": {
-          "ant_0": "Durch dein Kreuz errette uns, Christus, unser Erlöser. Durch deinen Tod hast du den Tod vernichtet und durch deine Auferstehung das Leben neu geschaffen.",
-          "ant_1": "",
-          "ant_2": "",
-          "ant_3": "",
-          "les_buch": "1 Petr",
-          "les_stelle": "1,18-19",
-          "les_text": "Ihr wisst, dass ihr aus eurer sinnlosen, von den Vätern ererbten Lebensweise nicht um einen vergänglichen Preis losgekauft wurdet, um Silber oder Gold, sondern mit dem kostbaren Blut Christi, des Lammes ohne Fehl und Makel."
+        "Terz": {
+          "ant_0": "Rette uns, Christus, unser Erlöser, durch die Kraft des Kreuzes; du hast den Petrus auf dem See gerettet, erbarme dich unser.",
+          "les_buch": "Hebr",
+          "les_stelle": "5,7-9",
+          "les_text": "Als Christus auf Erden lebte, hat er mit lautem Schreien und unter Tränen Gebete und Bitten vor den gebracht, der ihn aus dem Tod retten konnte, und er ist erhört und aus seiner Angst befreit worden. Obwohl er der Sohn war, hat er durch Leiden den Gehorsam gelernt; zur Vollendung gelangt, ist er für alle, die ihm gehorchen, der Urheber des ewigen Heils geworden.",
+          "resp1_1": "Wir beten dich an, Herr Jesus Christus, und preisen dich.",
+          "resp1_2": "Denn durch dein heiliges Kreuz hast du die Welt erlöst."
         },
         "Vesper": {
           "hymn_1": 3303.0,
@@ -3799,11 +3961,16 @@ export const brevierData = {
       },
       "28": {
         "each": {
-          "comm_1": "Mar",
+          "comm_1": "MFr_Ord",
+          "comm_2": "Jgfr",
           "oration": "eig-9-28-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
+        "Invitatorium": {
+          "ant_0": "Gott ist die Liebe; kommt, wir beten ihn an!"
+        },
+        "Laudes": {
+          "name": "Lioba"
+        },
         "Lesehore": {},
         "Non": {},
         "Sext": {},
@@ -3812,7 +3979,7 @@ export const brevierData = {
       },
       "29": {
         "each": {
-          "oration": "Lasst uns beten zu Gott, dem die Engel dienen:"
+          "oration": "Gott, du ordnest alles mit Macht und Weisheit; Engeln und Menschen teilst du ihre Dienste zu. Gib, dass die Macht des Bösen nicht überhandnimmt, sondern sende deine heiligen Engel, die im Himmel vor dir stehen, in diese Welt, damit sie uns vor allem Unheil schützen. Darum bitten wir durch Jesus Christus."
         },
         "Invitatorium": {
           "ant_0": "Der Herr, vor dessen Thron die Engel stehen – kommt, wir beten ihn an!",
@@ -3823,15 +3990,15 @@ export const brevierData = {
         "Laudes": {
           "name": "Hll. Erzengel Michael, Gabriel und Rafael",
           "hymn_1": 89291.0,
-          "ps_1": 63.0,
-          "ps_2": 160.0,
-          "ps_3": 149.0,
           "ant_1": "Lasst uns rühmen den Herrn, den die Engel lobpreisen, dem Kerubim und Serafim in Ewigkeit singen: Heilig, heilig, heilig.",
           "ant_2": "Preist den Herrn, ihr Engel des Herrn, preist ihn in Ewigkeit.",
           "ant_3": "Dich loben alle Engel in der Höhe und rufen wie aus einem Munde: Dir gebührt Lobgesang, heiliger Gott.",
           "les_buch": "Gen",
           "les_stelle": "28,12-13a",
           "les_text": "Jakob hatte einen Traum: Er sah eine Treppe, die auf der Erde stand und bis zum Himmel reichte. Auf ihr stiegen Engel Gottes auf und nieder. Und siehe, der Herr stand oben und sprach: Ich bin der Herr, der Gott deines Vaters Abraham und der Gott Isaaks.",
+          "resp1_1": "Aus der Hand des Engels stieg Weihrauch empor",
+          "resp1_2": "vor dem Throne Gottes.",
+          "resp1_3": "Mit goldenem Räuchergefäß trat der Engel an den Altar",
           "ant_ev": "Amen, amen, ich sage euch: Ihr werdet den Himmel offen sehen und die Engel Gottes schauen, die auf- und niedersteigen über dem Menschensohn.",
           "bitten_e": "Gepriesen sei Gott, vor dessen Thron die Engel stehen. Zu ihm lasst uns beten:",
           "bitten_r": "Hosanna in der Höhe.",
@@ -8771,7 +8938,7 @@ export const brevierData = {
           "ant_3": "Jerusalem, preise den Herrn; Zion, lobsinge deinem Gott!",
           "les_buch": "Eph",
           "les_stelle": "2,13–16",
-          "les_text": "Jetzt seid ihr, die ihr einst in der Ferne wart, durch Christus Jesus, nämlich durch sein Blut, in die Nähe gekommen.^pDenn er ist unser Friede. Er vereinigte die beiden Teile, Juden und Heiden, und riss durch sein Sterben die trennende Wand der Feindschaft nieder.^pEr hob das Gesetz mit seinen Geboten und Forderungen auf, um die zwei in seiner Person zu dem einen neuen Menschen zu machen. Er stiftete Frieden^pund versöhnte die beiden durch das Kreuz mit Gott in einem einzigen Leib. Er hat in seiner Person die Feindschaft getötet.",
+          "les_text": "Jetzt seid ihr, die ihr einst in der Ferne wart, durch Christus Jesus, nämlich durch sein Blut, in die Nähe gekommen. Denn er ist unser Friede. Er vereinigte die beiden Teile, Juden und Heiden, und riss durch sein Sterben die trennende Wand der Feindschaft nieder. Er hob das Gesetz mit seinen Geboten und Forderungen auf, um die zwei in seiner Person zu dem einen neuen Menschen zu machen. Er stiftete Frieden und versöhnte die beiden durch das Kreuz mit Gott in einem einzigen Leib. Er hat in seiner Person die Feindschaft getötet.",
           "resp1_1": "Ich rufe zu Gott, dem Höchsten,",
           "resp1_2": "zu Gott, der mir beisteht.",
           "resp1_3": "Er sendet mir Hilfe vom Himmel; zu ihm flüchte ich.",
@@ -11407,7 +11574,7 @@ export const brevierData = {
           "les_text": "Ihr habt gesehen, wie ich euch auf Adlerflügeln getragen und hierher zu mir gebracht habe. Jetzt aber, wenn ihr auf meine Stimme hört und meinen Bund haltet, werdet ihr unter allen Völkern mein besonderes Eigentum sein. Mir gehört die ganze Erde, ihr aber sollt mir als ein Reich von Priestern und als ein heiliges Volk gehören.",
           "resp1_1": "Er rettet mich aus der Schlinge des Jägers,",
           "resp1_2": "er befreit mich aus allem Verderben.",
-          "resp1_3": "Der Herr ist meine Zuflucht, zum Schutze hab ich mir erwählt den Höchsten.",
+          "resp1_3": "Der Herr ist meine Zuflucht, zum Schutze hab’ ich mir erwählt den Höchsten.",
           "bitten_e": "Gepriesen sei Jesus Christus, unser Erlöser, der uns in seinem Tod den Weg des Heiles erschlossen hat. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, führe uns.",
           "bitten": "In der Taufe hast du uns nach deinem Bild neu geschaffen;^qlass uns dir immer ähnlicher werden.^pGib, dass wir in den Notleidenden dich erkennen,^qund mach uns bereit, ihnen zu helfen.^pHilf uns, dich mit ganzem Herzen zu suchen^qund heute zu tun, was recht und gut ist vor dir.^pVerzeihe uns, was wir gegen die Liebe gesündigt haben;^qlass uns untereinander ein Herz und eine Seele sein."
