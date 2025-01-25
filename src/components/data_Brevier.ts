@@ -2432,7 +2432,7 @@ export const brevierData = {
           "resp0_1": "Langmütig und reich an Güte.",
           "les_buch": "Aus dem Brief an die Galater.",
           "les_stelle": "1,11-24",
-          "les_text": "^hDer uns einst verfolgte, verkündigt jetzt den Glauben^pIch erkläre euch, Brüder: Das Evangelium, das ich verkündigt habe, stammt nicht von Menschen; ich habe es ja nicht von einem Menschen übernommen oder gelernt, sondern durch die Offenbarung Jesu Christi empfangen. Ihr habt doch gehört, wie ich früher als gesetzestreuer Jude gelebt habe, und wisst, wie maßlos ich die Kirche Gottes verfolgte und zu vernichten suchte. In der Treue zum jüdischen Gesetz übertraf ich die meisten Altersgenossen in meinem Volk, und mit dem größten Eifer setzte ich mich für die Überlieferungen meiner Väter ein. Als aber Gott, der mich schon im Mutterleib auserwählt und durch seine Gnade berufen hat, mir in seiner Güte seinen Sohn offenbarte, damit ich ihn unter den Heiden verkündige, da zog ich keinen Menschen zu Rate; ich ging auch nicht sogleich hinauf nach Jerusalem zu denen, die vor mir Apostel waren, sondern zog nach Arabien und kehrte dann wieder nach Damaskus zurück. Drei Jahre später ging ich hinauf nach Jerusalem, um Kephas kennenzulernen, und blieb fünfzehn Tage bei ihm. Von den anderen Aposteln habe ich keinen gesehen, nur Jakobus, den Bruder des Herrn. Was ich euch hier schreibe - Gott weiß, dass ich nicht lüge. Danach ging ich in das Gebiet von Syrien und Zilizien. Den Gemeinden Christi in Judäa aber blieb ich persönlich unbekannt, sie hörten nur: Er, der uns einst verfolgte, verkündigt jetzt den Glauben, den er früher vernichten wollte. Und sie lobten Gott um meinetwillen.",
+          "les_text": "^hDer uns einst verfolgte, verkündigt jetzt den Glauben^pIch erkläre euch, Brüder: Das Evangelium, das ich verkündigt habe, stammt nicht von Menschen; ich habe es ja nicht von einem Menschen übernommen oder gelernt, sondern durch die Offenbarung Jesu Christi empfangen.^pIhr habt doch gehört, wie ich früher als gesetzestreuer Jude gelebt habe, und wisst, wie maßlos ich die Kirche Gottes verfolgte und zu vernichten suchte. In der Treue zum jüdischen Gesetz übertraf ich die meisten Altersgenossen in meinem Volk, und mit dem größten Eifer setzte ich mich für die Überlieferungen meiner Väter ein.^pAls aber Gott, der mich schon im Mutterleib auserwählt und durch seine Gnade berufen hat, mir in seiner Güte seinen Sohn offenbarte, damit ich ihn unter den Heiden verkündige, da zog ich keinen Menschen zu Rate; ich ging auch nicht sogleich hinauf nach Jerusalem zu denen, die vor mir Apostel waren, sondern zog nach Arabien und kehrte dann wieder nach Damaskus zurück. Drei Jahre später ging ich hinauf nach Jerusalem, um Kephas kennenzulernen, und blieb fünfzehn Tage bei ihm. Von den anderen Aposteln habe ich keinen gesehen, nur Jakobus, den Bruder des Herrn. Was ich euch hier schreibe – Gott weiß, dass ich nicht lüge. Danach ging ich in das Gebiet von Syrien und Zilizien. Den Gemeinden Christi in Judäa aber blieb ich persönlich unbekannt, sie hörten nur: Er, der uns einst verfolgte, verkündigt jetzt den Glauben, den er früher vernichten wollte. Und sie lobten Gott um meinetwillen.",
           "resp1_1": "Das Evangelium, das ich verkündigt habe, stammt nicht von Menschen.",
           "resp1_2": "Ich habe es nicht von einem Menschen empfangen, sondern durch die Offenbarung Jesu Christi.",
           "resp1_3": "Die Wahrheit Christi ist in mir, weil ich euch das Evangelium Gottes verkündigt habe.",
@@ -3726,7 +3726,7 @@ export const brevierData = {
           "resp1_1": "Ihr habt zu Johannes geschickt,",
           "resp1_2": "und er hat die Wahrheit bezeugt.",
           "resp1_3": "Er war wie eine Fackel, die brennt und leuchtet.",
-          "ant_ev": "Der Freund des Bräutigams freut sich von Herzen, wenn er die Stimme des Bräutigams hört. Das ist meine Freude - und sie hat sich erfüllt.",
+          "ant_ev": "Der Freund des Bräutigams freut sich von Herzen, wenn er die Stimme des Bräutigams hört. Das ist meine Freude – und sie hat sich erfüllt.",
           "bitten_e": "Gepriesen sei Gott, der Johannes den Täufer zum Vorläufer seines Sohnes bestellt hat. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, lenke unsere Schritte auf den Weg des Friedens.",
           "bitten": "Vom Mutterschoß an hast du Johannes berufen, deinem Sohn den Weg zu bereiten;^qwie er dem Herrn vorausging, so lass uns Christus nachfolgen.^pDu wolltest, dass Johannes abnehme, Christus aber wachse;^qlehre uns Christus dienen.^pIm Martyrium des Johannes hast du die Treue deines Propheten offenbar gemacht;^qgib, dass wir ohne Menschenfurcht für deine Wahrheit Zeugnis ablegen.^pBei der Taufe im Jordan hast du Jesus deinen geliebten Sohn genannt;^qhilf uns, auf ihn zu hören.",
@@ -10702,7 +10702,7 @@ export const brevierData = {
           "ant_ev": "Seid barmherzig, wie euer Vater barmherzig ist."
         },
         "Vesper": {
-          "ant_ev": "Richtet nicht, damit ihr nicht gerichtet werdet - spricht der Herr -, denn wie ihr richtet, so werdet ihr gerichtet."
+          "ant_ev": "Richtet nicht, damit ihr nicht gerichtet werdet – spricht der Herr –, denn wie ihr richtet, so werdet ihr gerichtet."
         }
       },
       "2": {
@@ -10773,7 +10773,7 @@ export const brevierData = {
           "ant_1": "Gewaltiger als das Tosen vieler Wasser bist du, Herr, in der Höhe. Deine Gesetze sind fest und verlässlich.",
           "ant_2": "Ihr Quellen, preiset den Herrn, lobt und rühmt ihn in Ewigkeit.",
           "ant_3": "Ihr Könige der Erde und alle Völker, lobt den Herrn.",
-          "ant_ev": "Jesus sprach: Reißt diesen Tempel nieder - in drei Tagen richte ich ihn wieder auf. Er meinte den Tempel seines Leibes."
+          "ant_ev": "Jesus sprach: Reißt diesen Tempel nieder – in drei Tagen richte ich ihn wieder auf. Er meinte den Tempel seines Leibes."
         },
         "Vesper": {
           "ant_1": "Herr, allmächtiger König, um deines Namens willen mach uns frei und gib, dass wir uns zu dir bekehren.",
@@ -10809,7 +10809,7 @@ export const brevierData = {
           "oration": "Barmherziger Gott, erneuere uns im Geist durch die Feier der heiligen vierzig Tage, damit wir für dein Wort empfänglich werden, bereit zu Gehorsam und Verzicht, demütig im Gebet und eifrig in Werken der Liebe. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
-          "ant_ev": "Denkt nicht, ich sei gekommen, das Gesetz und die Propheten aufzuheben - spricht der Herr. Nicht um aufzuheben, bin ich gekommen, sondern um zu erfüllen."
+          "ant_ev": "Denkt nicht, ich sei gekommen, das Gesetz und die Propheten aufzuheben – spricht der Herr. Nicht um aufzuheben, bin ich gekommen, sondern um zu erfüllen."
         },
         "Vesper": {
           "ant_ev": "Wer Gottes Gebote hält und sie halten lehrt, der wird groß sein im Himmelreich."
@@ -11680,12 +11680,12 @@ export const brevierData = {
         "Sext": {
           "les_buch": "Sach",
           "les_stelle": "1,3b-4b",
-          "les_text": "Kehrt um zu mir - Spruch des Herrn der Heere -, dann kehre ich um zu euch, spricht der Herr der Heere. Seid nicht wie eure Väter, denen die früheren Propheten verkündeten: So spricht der Herr der Heere: Kehrt doch um von euren heillosen Wegen und von euren heillosen Taten."
+          "les_text": "Kehrt um zu mir – Spruch des Herrn der Heere –, dann kehre ich um zu euch, spricht der Herr der Heere. Seid nicht wie eure Väter, denen die früheren Propheten verkündeten: So spricht der Herr der Heere: Kehrt doch um von euren heillosen Wegen und von euren heillosen Taten."
         },
         "Terz": {
           "les_buch": "Ez",
           "les_stelle": "18,30b-32",
-          "les_text": "Kehrt um, wendet euch ab von all euren Vergehen! Sie sollen für euch nicht länger der Anlass sein, in Sünde zu fallen. Werft alle Vergehen von euch, die ihr verübt habt! Schafft euch ein neues Herz und einen neuen Geist! Warum wollt ihr sterben, ihr vom Haus Israel? Ich habe doch kein Gefallen am Tod dessen, der sterben muss - Spruch Gottes des Herrn. Kehrt um, damit ihr am Leben bleibt."
+          "les_text": "Kehrt um, wendet euch ab von all euren Vergehen! Sie sollen für euch nicht länger der Anlass sein, in Sünde zu fallen. Werft alle Vergehen von euch, die ihr verübt habt! Schafft euch ein neues Herz und einen neuen Geist! Warum wollt ihr sterben, ihr vom Haus Israel? Ich habe doch kein Gefallen am Tod dessen, der sterben muss – Spruch Gottes des Herrn. Kehrt um, damit ihr am Leben bleibt."
         },
         "Vesper": {
           "les_buch": "Phil",

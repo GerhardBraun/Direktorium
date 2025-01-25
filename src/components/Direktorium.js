@@ -1,14 +1,15 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { Menu } from 'lucide-react';
 import React from 'react';
-import { liturgicalData } from './liturgicalData.ts';
-import { deceasedData } from './deceasedData.ts';
-import { ReferenceDialog, parseTextWithReferences } from './referenceLink.jsx';
-import { getLiturgicalInfo, LiturgicalSeason } from './liturgicalCalendar.js';
-import { processBrevierData } from './brevierDataProcessor.js';
-import formatBibleRef from './bibleRefFormatter.js';
+import { liturgicalData } from './data_Direktorium.ts';
+import { deceasedData } from './data_Deceased.ts';
+import { ReferenceDialog, parseTextWithReferences } from './comp_RefLink.jsx';
+import { getLiturgicalInfo } from './comp_LitCalendar.js';
+import { processBrevierData } from './comp_BrevierDataProcessor.js';
+import formatBibleRef from './comp_BibleRefFormatter.js';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from './ui/tooltip.jsx';
-import SourceSelector from './SourceSelector.js';
+import SourceSelector from './comp_SourceSelector.js';
+import { getValue as extGetValue } from './comp_GetValue.js';
 
 const fontFamily = 'Cambria, serif';
 const hangingIndent = '3.2em'; // Variable für den Einzug
@@ -1113,129 +1114,16 @@ const PrayerTextDisplay = ({
     const { prefComm = 0, rank_wt = 0, rank_date = 0, isCommemoration } = texts;
 
     // Get value from sources in priority order: prefSrc -> com1/com2 -> wt
-    const getValue = (field) => {
-        if (hour === 'vesper' && prefSollemnity) { hour = 'prefsollemnity'; }
-
-        //Bei lokaler Feier als Hochfest Oration immer aus den Laudes
-        if (prefSollemnity && field === 'oration') {
-            if (texts['laudes'][prefSrc]?.['oration']) {
-                return texts['laudes'][prefSrc]['oration'];
-            }
-            else return null
-        }
-
-        // Ergänzungspsalmodie bei der Feier als Hochfest
-        if (prefSollemnity && ['terz', 'sext', 'non'].includes(hour)) {
-
-        }
-
-        // Abruf der Werte für die Kommemoration
-        if (field.startsWith('c_')) {
-            field = field.substring(2); // Remove c_ prefix
-            if (texts[hour][prefSrc]?.[field]) {
-                return texts[hour][prefSrc][field];
-            }
-            if (field === 'ant_ev' && texts[hour][prefSrc]?.['ant_komm']) {
-                return texts[hour][prefSrc]['ant_komm'];
-            }
-            if (texts[hour][prefSrc]?.['com1']?.[field]) {
-                return texts[hour][prefSrc]?.['com1'][field];
-            }
-            return
-        }
-
-        // Prüfe, ob Commune übersprungen werden soll
-        let skipCommune = false
-        if (rank_date < 3 && (  // an Gedenktagen
-            (hour === 'lesehore' && // Lesehore: nur Hymnus und Oration ggf. Commune
-                !field.startsWith('hymn_') && field !== 'oration') ||
-            ((hour === 'laudes' || hour === 'vesper') &&  // Laudes/Vesper Psalmodie
-                (field.startsWith('ps_') ||
-                    (field.startsWith('ant_') && !field.startsWith('ant_ev'))
-                )) ||
-            ['terz', 'sext', 'non'].includes(hour)) // Kleinen Horen: ganz vom Wt
-        ) { skipCommune = true };
-
-        if (rank_date < 5 &&    // an Festen: Ant und Ps in Kleinen Horen vom Wt
-            ['terz', 'sext', 'non'].includes(hour) &&
-            (field.startsWith('ps_') || field.startsWith('ant_'))
-        ) { skipCommune = true }
-
-        if (prefSollemnity ||   // Hochfeste und 1. Vesper: Comm, wenn nicht eigen, nicht vom WT
-            (texts.hasErsteVesper && hour === 'vesper')
-        ) { skipCommune = false }
-
-        const fallbackCom1 = !skipCommune &&
-            (localPrefComm === 1 || prefSollemnity ||
-                (texts.hasErsteVesper && hour === 'vesper'));
-        const fallbackCom2 = !skipCommune &&
-            (localPrefComm === 2 || prefSollemnity ||
-                (texts.hasErsteVesper && hour === 'vesper'));
-
-        if (!isCommemoration) {  // an Tagen mit Kommemoration nur wt-Werte
-            // 1. Prüfe zuerst prefSrc
-            if (texts[hour][prefSrc]?.[field]) {
-                return texts[hour][prefSrc][field];
-            }
-
-            // Sonderfall Hymnen: 
-            // klStb und Nacht-Hymnus werden nicht gezeigt, wenn eigener Hymnus vorhanden
-            // oder Feier als Hochfest oder Commune-Hymnus gewählt ist
-            if ((field === 'hymn_kl' || field === 'hymn_nacht') &&
-                (texts[hour]?.[prefSrc]?.['hymn_1']
-                    || prefSollemnity
-                    || (fallbackCom1 && texts[hour]?.[prefSrc]?.['com1']?.['hymn_1'])
-                    || (fallbackCom2 && texts[hour]?.[prefSrc]?.['com2']?.['hymn_1'])
-                )) { return null; }
-
-            //Sonderfall Antiphonen: nicht ant_0 und ant_1-3 gleichzeitig
-            if (field === 'ant_0' &&
-                (texts[hour]?.['eig']?.['ant_1']
-                    || (fallbackCom1 && texts[hour]?.[prefSrc]?.['com1']?.['ant_1'])
-                    || (fallbackCom2 && texts[hour]?.[prefSrc]?.['com2']?.['ant_1']))
-            ) { return null; }
-
-            if (field.startsWith('ant_') && field !== 'ant_0') {
-                console.log('fallbackCom1/2: ', fallbackCom1, fallbackCom2)
-                if (texts[hour]?.['eig']?.['ant_0']
-                    || (fallbackCom1 && texts[hour]?.[prefSrc]?.['com1']?.['ant_0'])
-                    || (fallbackCom2 && texts[hour]?.[prefSrc]?.['com2']?.['ant_0'])
-                ) { return null; }
-            }
-
-            //Sonderfall Wochentagspsalmen:
-            if (hour !== 'invitatorium' && hour !== 'komplet' &&
-                field.startsWith('ps_') &&
-                localPrefPsalmsWt
-            ) { return texts[hour]?.['wt']?.[field]; }
-
-            //Sonderfall Bahnlesung:
-            if (hour === 'lesehore' &&
-                (field.startsWith('les_') ||
-                    field.startsWith('resp1_') ||
-                    field.startsWith('patr_')) &&
-                localPrefContinuous
-            ) { return texts[hour]?.['wt']?.[field]; }
-
-            // 2. & 3. Prüfe Commune nur wenn nicht übersprungen werden soll
-            if (!skipCommune) {
-                // Prüfe com2 wenn prefComm = 2
-                if (fallbackCom2 && texts[hour][prefSrc]?.['com2']?.[field]) {
-                    return texts[hour][prefSrc]?.['com2'][field];
-                }
-                // Prüfe com1 wenn prefComm = 1 oder prefSollemnity gewählt ist
-                if (fallbackCom1 && texts[hour][prefSrc]?.['com1']?.[field]) {
-                    return texts[hour][prefSrc]?.['com1'][field];
-                }
-            }
-        }
-
-        // 4. Verwende "wt" als letzte Option
-        if (texts[hour]['wt']?.[field]) {
-            return texts[hour]['wt'][field];
-        }
-        return null;
-    }
+    const getValue = (field) => extGetValue({
+        hour,
+        prefSrc,
+        prefSollemnity,
+        localPrefComm,
+        localPrefPsalmsWt,
+        localPrefContinuous,
+        texts,
+        field
+    });
 
     const checkSources = (field) => {
         const hasEig = texts[hour][prefSrc]?.[field];
@@ -2083,7 +1971,7 @@ export default function LiturgicalCalendar() {
     const [prayerTexts, setPrayerTexts] = useState(null);
     const [expandedDeceased, setExpandedDeceased] = useState({});
     const [deceasedMode, setDeceasedMode] = useState('recent');
-    const [viewMode, setViewMode] = useState('directory'); // 'directory', 'deceased', 'prayer', or 'prayerText'
+    const [viewMode, setViewMode] = useState('prayer'); // 'directory', 'deceased', 'prayer', or 'prayerText'
     const [baseFontSize, setBaseFontSize] = useTouchZoom(14, 8, 24, 0.7, showDatePicker);
     const [isReady, setIsReady] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);

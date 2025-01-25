@@ -1,9 +1,9 @@
-import { brevierData } from './brevierData.ts';
-import { lecture1Data } from './lecture1Data.ts';
-import { lecture2Data } from './lecture2Data.ts';
-import { psalmsData } from './PsalmenHymnen.ts';
-import { adlibData } from './adLib.ts';
-import { getLiturgicalInfo, LiturgicalSeason } from './liturgicalCalendar.js';
+import { brevierData } from './data_Brevier.js';
+import { lecture1Data } from './data_Lecture1.js';
+import { lecture2Data } from './data_Lecture2.js';
+import { psalmsData } from './data_PsHym.js';
+import { adlibData } from './data_AdLib.js';
+import { getLiturgicalInfo, LiturgicalSeason } from './comp_LitCalendar.js';
 
 // Fields that should be processed as references to psalmsData
 const referenceFields = [

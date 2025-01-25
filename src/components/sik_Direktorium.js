@@ -1,14 +1,14 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { Menu } from 'lucide-react';
 import React from 'react';
-import { liturgicalData } from './liturgicalData.ts';
-import { deceasedData } from './deceasedData.ts';
-import { ReferenceDialog, parseTextWithReferences } from './referenceLink.jsx';
-import { getLiturgicalInfo, LiturgicalSeason } from './liturgicalCalendar.js';
-import { processBrevierData } from './brevierDataProcessor.js';
-import formatBibleRef from './bibleRefFormatter.js';
+import { liturgicalData } from './data_Direktorium.js';
+import { deceasedData } from './data_Deceased.ts';
+import { ReferenceDialog, parseTextWithReferences } from './comp_RefLink.jsx';
+import { getLiturgicalInfo, LiturgicalSeason } from './comp_LitCalendar.js';
+import { processBrevierData } from './comp_BrevierDataProcessor.js';
+import formatBibleRef from './comp_BibleRefFormatter.js';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from './ui/tooltip.jsx';
-import SourceSelector from './SourceSelector.js';
+import SourceSelector from './comp_SourceSelector.js';
 
 const fontFamily = 'Cambria, serif';
 const hangingIndent = '3.2em'; // Variable für den Einzug
