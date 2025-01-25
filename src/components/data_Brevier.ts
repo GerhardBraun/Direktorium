@@ -2938,20 +2938,218 @@ export const brevierData = {
       "19": {
         "each": {
           "comm_1": "Mann",
-          "oration": "eig-3-19-each-Oration"
+          "oration": "Allmächtiger Gott, du hast Jesus, unseren Heiland, und seine Mutter Maria der treuen Sorge des heiligen Josef anvertraut. Höre auf seine Fürsprache und hilf deiner Kirche, die Geheimnisse der Erlösung treu zu verwalten, bis das Werk des Heiles vollendet ist. Darum bitten wir durch Jesus Christus."
         },
         "ErsteV": {
-          "name": "1. Vesper zum Hochfest des hl. Josef"
+          "name": "1. Vesper zum Hochfest des hl. Josef",
+          "hymn_1": 83191.0,
+          "ant_1": "Josef, der Sohn Jakobs, war der Gemahl Marias. Von ihr wurde Jesus geboren, der Christus genannt wird.^ö",
+          "ant_2": "Der Engel Gabriel wurde zu Maria, der Jungfrau, gesandt, die mit Josef verlobt war.^ö",
+          "ant_3": "Maria, die Mutter Jesu, war mit Josef verlobt; noch bevor sie zusammenlebten, zeigte sich, dass Maria gesegnet war. Sie hatte empfangen durch den Heiligen Geist.^ö",
+          "les_buch": "Kol",
+          "les_stelle": "3,23-24",
+          "les_text": "Tut eure Arbeit gern, als wäre sie für den Herrn und nicht für Menschen; ihr wisst, dass ihr vom Herrn euer Erbe als Lohn empfangen werdet. Dient Christus, dem Herrn!",
+          "resp1_1": "Der Herr ist gerecht,",
+          "resp1_2": "er liebt gerechte Taten.",
+          "resp1_3": "Redliche dürfen sein Angesicht schauen.",
+          "ant_ev": "Du bist der treue und kluge Knecht: Dich hat der Herr über sein Haus gesetzt.",
+          "bitten_e": "Lasst uns beten zu Gott, unserem Vater:",
+          "bitten_r": "Wir bitten dich, erhöre uns.",
+          "bitten": "Vater im Himmel, du hast Josef durch den Engel deine Wege kundgetan;^qnimm dich der Ratlosen an.^pJosef hat mit seiner Hände Arbeit für Jesus und Maria das tägliche Brot verdient;^qschenke allen Schaffenden die Frucht ihrer Arbeit.^pJosef hat in Demut deinem Sohn gedient;^qsei allen nahe, die in Stille ihren Dienst tun.^pAuf die Fürsprache des heiligen Josef erbarme dich der Sterbenden;^qschenke ihnen einen gnädigen Tod.^pNimm unsere Verstorbenen auf in die Gemeinschaft deiner Heiligen;^qlass sie mit Maria und Josef bei dir selig sein."
         },
-        "Invitatorium": {},
+        "Invitatorium": {
+          "ant_0": "Lasst uns Gott loben am Fest des heiligen Josef!"
+        },
         "Laudes": {
-          "name": "Hl. Josef, Bräutigam der Gottesmutter"
+          "name": "Hl. Josef, Bräutigam der Gottesmutter",
+          "hymn_1": 83191.0,
+          "ant_1": "Die Hirten eilten hin und fanden Maria und Josef und das Kind, das in der Krippe lag.^ö.",
+          "ant_2": "Josef und Maria, die Mutter Jesu, hörten voll Staunen, was man über Jesus sagte. Und Simeon segnete sie.^ö",
+          "ant_3": "Noch in der Nacht stand Josef auf, nahm das Kind und seine Mutter und floh nach Ägypten. Dort blieb er bis zum Tode des Herodes.^ö",
+          "les_buch": "2°Sam",
+          "les_stelle": "7,28-29",
+          "les_text": "Mein Herr und Gott, du bist der einzige Gott und deine Worte sind wahr. Du hast deinem Knecht ein solches Glück zugesagt. So segne jetzt gnädig das Haus deines Knechtes, damit es ewig vor deinen Augen Bestand hat. Denn du, mein Herr und Gott, hast es versprochen und mit deinem Segen wird das Haus deines Knechtes für immer gesegnet sein.",
+          "resp1_1": "Zum Herrn hat Gott ihn bestellt",
+          "resp1_2": "über sein ganzes Haus.",
+          "resp1_3": "Und zum Gebieter über seinen Besitz.",
+          "ant_ev": "Josef ließ sich in Nazaret nieder. Denn es sollte sich erfüllen, was durch die Propheten von Christus gesagt worden war. Er wird Nazaräer heißen.^ö",
+          "bitten_e": "Gepriesen sei Gott, der sich seine Diener beruft. Zu ihm lasst uns beten:",
+          "bitten_r": "Wir bitten dich, erhöre uns.",
+          "bitten": "Herr, unser Gott, du hast unsere Väter im Glauben berufen, vor dir zu leben;^qgib uns die Kraft, ihrem Beispiel zu folgen.^pOhne zu zögern, hat Josef deinen Willen erfüllt;^qhilf uns, auf dich zu hören und dir zu gehorchen.^pDu hast Josef, dem Gerechten, Kindheit und Jugend deines menschgewordenen Sohnes anvertraut;^qgib, dass wir Christus in unseren Brüdern und Schwestern dienen.^pDu hast Josef erwählt, dass er mit seiner Hände Arbeit für Jesus und Maria sorge;^qsegne unsere Arbeit."
         },
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
-        "Vesper": {}
+        "Lesehore": {
+          "hymn_1": 83192.0,
+          "ant_1": "Ein Engel des Herrn erschien dem Josef und sprach: Josef, Sohn Davids, fürchte dich nicht, Maria als deine Frau zu dir zu nehmen. Sie wird einen Sohn gebären; ihm sollst du den Namen Jesus geben.^ö",
+          "ant_2": "Als Josef erwachte, tat er, was der Engel des Herrn ihm geboten hatte, und nahm Maria zu sich.^ö",
+          "ant_3": "Josef zog von Nazaret hinauf in die Stadt Davids, die Betlehem heißt, um sich eintragen zu lassen mit Maria, seiner Vermählten.^ö",
+          "resp0_0": "Der Gerechte gedeiht wie die Palme.^ö",
+          "resp0_1": "Gepflanzt im Hause des Herrn.^ö",
+          "les_buch": "Aus dem Hebräerbrief.",
+          "les_stelle": "11,1-16",
+          "les_text": "^hDas Glück des redlichen Mannes^hDer Glaube der Väter^pGlaube ist: Feststehen in dem, was man erhofft, Überzeugtsein von Dingen, die man nicht sieht.^pAufgrund dieses Glaubens haben die Alten ein ruhmvolles Zeugnis erhalten. Aufgrund des Glaubens erkennen wir, dass die Welt durch Gottes Wort erschaffen worden und dass so aus Unsichtbarem das Sichtbare entstanden ist.^pAufgrund des Glaubens brachte Abel Gott ein besseres Opfer dar als Kain; durch diesen Glauben erhielt er das Zeugnis, dass er gerecht war, da Gott es bei seinen Opfergaben bezeugte, und durch den Glauben redet Abel noch, obwohl er tot ist.^pAufgrund des Glaubens wurde Henoch entrückt und musste nicht sterben; er wurde nicht mehr gefunden, weil Gott ihn entrückt hatte; vor der Entrückung erhielt er das Zeugnis, dass er Gott gefiel.^pOhne Glauben aber ist es unmöglich, (Gott) zu gefallen; denn wer zu Gott kommen will, muss glauben, dass er ist und dass er denen, die ihn suchen, ihren Lohn geben wird.^pAufgrund des Glaubens wurde Noach das offenbart, was noch nicht sichtbar war, und er baute in frommem Gehorsam eine Arche zur Rettung seiner Familie; durch seinen Glauben sprach er der Welt das Urteil und wurde Erbe der Gerechtigkeit, die aus dem Glauben kommt.^hDie Patriarchen^pAufgrund des Glaubens gehorchte Abraham dem Ruf, wegzuziehen in ein Land, das er zum Erbe erhalten sollte; und er zog weg, ohne zu wissen, wohin er kommen würde.^pAufgrund des Glaubens hielt er sich als Fremder im verheißenen Land wie in einem fremden Land auf und wohnte mit Isaak und Jakob, den Miterben derselben Verheißung, in Zelten; denn er erwartete die Stadt mit den festen Grundmauern, die Gott selbst geplant und gebaut hat.^pAufgrund des Glaubens empfing selbst Sara die Kraft, trotz ihres Alters noch Mutter zu werden; denn sie hielt den für treu, der die Verheißung gegeben hatte. So stammen denn auch von einem einzigen Menschen, dessen Kraft bereits erstorben war, viele ab: zahlreich wie die Sterne am Himmel und der Sand am Meeresstrand, den man nicht zählen kann.^pVoll Glauben sind diese alle gestorben, ohne das Verheißene erlangt zu haben; nur von fern haben sie es geschaut und gegrüßt und haben bekannt, dass sie Fremde und Gäste auf Erden sind. Mit diesen Worten geben sie zu erkennen, dass sie eine Heimat suchen. Hätten sie dabei an die Heimat gedacht, aus der sie weggezogen waren, so wäre ihnen Zeit geblieben zurückzukehren; nun aber streben sie nach einer besseren Heimat, nämlich der himmlischen. Darum schämt sich Gott ihrer nicht, er schämt sich nicht, ihr Gott genannt zu werden; denn er hat für sie eine Stadt vorbereitet.",
+          "resp1_1": "Josef ging von der Stadt Nazaret in Galiläa hinauf nach Judäa in die Stadt Davids, die Betlehem heißt,",
+          "resp1_2": "denn er war aus dem Haus und Geschlecht Davids.",
+          "resp1_3": "Er wollte sich eintragen lassen mit Maria, seiner Verlobten.",
+          "patr_autor": "Bernhardin von Siena (†°1444)",
+          "patr_werk": "Aus einer Predigt zu Ehren des heiligen Josef.",
+          "patr_text": "^hDer treue Ernährer und Behüter^pBei allen besonderen Gnaden, die einem vernunftbegabten Geschöpf mitgeteilt werden, herrscht die allgemeine Regel: Immer, wenn Gott in seiner Güte jemand zu einer besonderen Gnade oder zu einem hohen Stand beruft, dann gibt er alle Hilfen, die für eine so erwählte Persönlichkeit und ihre Aufgabe erforderlich sind. Sie zeichnen diesen Menschen dann in reichem Maße aus.^pDas hat sich in hohem Grad am heiligen Josef bewahrheitet, dem Adoptivvater Jesu Christi, dem wirklichen Bräutigam der Königin der Welt und Herrin der Engel. Er wurde vom ewigen Vater erwählt als treuer Ernährer und Behüter seiner höchsten Schätze: seines Sohnes und der Braut Josefs. Dieses Amt hat Josef mit größter Treue verwaltet. Darum spricht der Herr zu ihm: „Du bist ein tüchtiger und treuer Diener … Komm herein in die Freude deines Herrn!“ {1#Mt°25,21} Wenn du Josef zur ganzen Kirche Christi in Beziehung setzt, ist er dann nicht ein auserwählter und ganz besonderer Mensch, durch den und unter dessen Obhut Christus der Ordnung entsprechend und ehrenvoll in die Welt eingeführt wurde? Wenn daher die ganze Kirche in der Schuld der Jungfrau Mutter steht, weil sie Christus empfangen durfte, so schuldet sie Josef nach ihr gewiss in besonderem Maß Dank und Ehrfurcht.^pEr ist der Abschluss des Alten Testamentes. Er besitzt die Würde der Patriarchen und Propheten, durch ihn erhält sie die verheißene Frucht. Er ist gewiss der einzige, der leibhaftig besitzen durfte, was die Güte Gottes den Patriarchen und Propheten versprochen hat. Die Vertrautheit, Ehrfurcht und hohe Wertschätzung, die ihm Christus wie ein Sohn dem Vater entgegenbrachte, als er noch auf der Erde lebte, hat er ihm im Himmel gewiss nicht versagt, vielmehr erfüllt und vollendet. Darum bemerkt Christus nicht umsonst: „Komm herein in die Freude deines Herrn!“ Obwohl die Freude der ewigen Seligkeit in das Herz des Menschen kommt {2#vgl.°1°Kor°2,9}, sagte der Herr ihm doch lieber: „Komm herein in die Freude“, um geheimnisvoll anzudeuten, dass die Freude nicht allein in seinem Innern ist. Sie umgibt ihn vielmehr von allen Seiten und zieht ihn in sich hinein und taucht ihn unter wie in einen unendlichen Abgrund. So denke denn an uns, heiliger Josef, und tritt mit deiner Fürbitte beim Herrn ein, der für deinen Sohn gehalten wurde. Mach uns auch deine heilige Braut geneigt, die Mutter dessen, der mit dem Vater und dem Heiligen Geist lebt und herrscht durch endlose Ewigkeit. Amen.",
+          "patr_resp1": "Gott hat mich dem König wie einen Vater gegeben und als Herrn über sein ganzes Haus;",
+          "patr_resp2": "er hat mich erhöht, um viele Völker zu retten.",
+          "patr_resp3": "Der Herr wurde mir Helfer und Beschützer zum Heil."
+        },
+        "Non": {
+          "ant_0": "Als sie Jesus nicht fanden, kehrten seine Eltern nach Jerusalem zurück und suchten ihn dort.",
+          "les_buch": "Sir",
+          "les_stelle": "2,15-16",
+          "les_text": "Wer den Herrn fürchtet, ist nicht ungehorsam gegen sein Wort; wer ihn liebt, hält seine Wege ein. Wer den Herrn fürchtet, sucht ihm zu gefallen; wer ihn liebt, ist erfüllt von seinem Gesetz.",
+          "resp1_0": "Groß ist sein Ruhm durch deine Hilfe.^ö",
+          "resp1_1": "Du hast ihn bekleidet mit Hoheit und Pracht.^ö"
+        },
+        "Sext": {
+          "ant_0": "Jesus blieb in Jerusalem zurück, ohne dass seine Eltern es merkten.",
+          "les_buch": "Weish",
+          "les_stelle": "10,1",
+          "les_text": "Einen Gerechten, der vor dem Zorn des Bruders floh, geleitete die Weisheit auf geraden Wegen, zeigte ihm das Reich Gottes und enthüllte ihm heilige Geheimnisse. Sie machte ihn reich bei seiner harten Arbeit und vermehrte den Ertrag seiner Mühen.",
+          "resp1_0": "Wohlstand und Reichtum füllen sein Haus.^ö",
+          "resp1_1": "Sein Heil hat Bestand für immer.^ö"
+        },
+        "Terz": {
+          "ant_0": "Jahr für Jahr zogen die Eltern Jesu hinauf nach Jerusalem, um dort Ostern zu feiern.^ö",
+          "les_buch": "Spr",
+          "les_stelle": "2,7-8",
+          "les_text": "Für die Redlichen hält der Herr Hilfe bereit, den Rechtschaffenen ist er ein Schild. Er hütet die Pfade des Rechts und bewacht den Weg seiner Frommen.",
+          "resp1_0": "Gott hat ihn zum Herrn bestellt über sein Haus.^ö",
+          "resp1_1": "Zum Gebieter über seinen ganzen Besitz.^ö"
+        },
+        "Vesper": {
+          "hymn_1": 83191.0,
+          "ant_1": "Nach drei Tagen fanden sie Jesus im Tempel; er saß mitten unter den Lehrern, hörte ihnen zu und stellte Fragen.^ö",
+          "ant_2": "Die Mutter Jesu sagte zu ihm: Kind, wie konntest du uns das antun! Dein Vater und ich haben dich voll Angst gesucht.^ö",
+          "ant_3": "Jesus zog mit ihnen hinab und kam nach Nazaret – und er war ihnen untertan.^ö",
+          "les_buch": "Kol",
+          "les_stelle": "3,23-24",
+          "les_text": "Tut eure Arbeit gern, als wäre sie für den Herrn und nicht für Menschen; ihr wisst, dass ihr vom Herrn euer Erbe als Lohn empfangen werdet. Dient Christus, dem Herrn!",
+          "resp1_1": "Der Herr ist gerecht,",
+          "resp1_2": "er liebt gerechte Taten.",
+          "resp1_3": "Redliche dürfen sein Angesicht schauen.",
+          "ant_ev": "Jesus war etwa dreißig Jahre alt, als er zum ersten Mal öffentlich auftrat. Und man hielt ihn für den Sohn des Josef.^ö",
+          "bitten_e": "Lasst uns beten zu Gott, unserem Vater:",
+          "bitten_r": "Wir bitten dich, erhöre uns.",
+          "bitten": "Vater im Himmel, du hast Josef durch den Engel deine Wege kundgetan;^qnimm dich der Ratlosen an.^pJosef hat mit seiner Hände Arbeit für Jesus und Maria das tägliche Brot verdient;^qschenke allen Schaffenden die Frucht ihrer Arbeit.^pJosef hat in Demut deinem Sohn gedient;^qsei allen nahe, die in Stille ihren Dienst tun.^pAuf die Fürsprache des heiligen Josef erbarme dich der Sterbenden;^qschenke ihnen einen gnädigen Tod.^pNimm unsere Verstorbenen auf in die Gemeinschaft deiner Heiligen;^qlass sie mit Maria und Josef bei dir selig sein."
+        }
+      },
+      "25": {
+        "each": {
+          "comm_1": "Maria",
+          "oration": "Allmächtiger Gott, du hast Jesus, unseren Heiland, und seine Mutter Maria der treuen Sorge des heiligen Josef anvertraut. Höre auf seine Fürsprache und hilf deiner Kirche, die Geheimnisse der Erlösung treu zu verwalten, bis das Werk des Heiles vollendet ist. Darum bitten wir durch Jesus Christus."
+        },
+        "ErsteV": {
+          "name": "1. Vesper zu Verkündigung des Herrn",
+          "hymn_1": 83250.0,
+          "ps_1": 113.0,
+          "ps_2": 147.2,
+          "ps_3": 157.0,
+          "ant_1": "Aus Isais Wurzel sprosst ein Reis hervor, und eine Blume geht auf aus seinem Wurzelstock, und darauf ruht der Geist des Herrn.^ö",
+          "ant_2": "Gott wird ihm den Thron seines Vaters David geben. Er wird herrschen in Ewigkeit.^ö",
+          "ant_3": "Das ewige Wort, vor aller Zeit vom Vater gezeugt, nahm heute für uns Fleisch an und entäußerte sich selbst.^ö",
+          "les_buch": "1 Joh",
+          "les_stelle": "1,1-2",
+          "les_text": "Was von Anfang an war, was wir gehört haben, was wir mit unseren Augen gesehen, was wir geschaut und was unsere Hände angefasst haben, das verkünden wir, vom Wort des Lebens sprechen wir. Denn das Leben wurde offenbart; wir haben gesehen und bezeugen und verkünden euch das ewige Leben, das beim Vater war und uns offenbart wurde.",
+          "resp1_1": "Aus Isais Wurzel sprosste ein Reis,",
+          "resp1_2": "ein Stern ging auf aus Jakob.",
+          "resp1_3": "Die Jungfrau gebar den Erlöser.",
+          "ant_ev": "Der Heilige Geist wird über dich kommen, Maria, und die Kraft des Höchsten wird dich überschatten.^ö",
+          "bitten_e": "Lasst uns beten zu unserem Gott und Vater, der am heutigen Tag durch seinen Engel der Jungfrau Maria die Heilsbotschaft verkündet hat:",
+          "bitten_r": "Herr, schenke uns deine Gnade.",
+          "bitten": "Du hast die Jungfrau Maria auserwählt, die Mutter deines Sohnes zu werden;^qerbarme dich aller Menschen, die auf die Erlösung warten.^pDurch den Engel Gabriel hast du den König angekündigt, dessen Reich kein Ende hat;^qschenke der ganzen Welt seinen Frieden.^pMaria hat dein göttliches Wort vom Heiligen Geist empfangen;^qmache alle Menschen bereit, Christus aufzunehmen.^pDu hast herabgeschaut auf deine niedrige Magd;^qrichte die Armen und Niedergedrückten auf.^pDu bist die Quelle des Lebens;^qauf die Fürsprache der seligen Jungfrau Maria schenke unseren Verstorbenen das ewige Leben."
+        },
+        "Invitatorium": {
+          "ant_0": "Lasst uns Gott loben am Fest des heiligen Josef!"
+        },
+        "Laudes": {
+          "name": "Verkündigung des Herrn",
+          "hymn_1": 83250.0,
+          "ant_1": "Der Engel Gabriel wurde zu Maria, der Jungfrau, gesandt, die mit Josef verlobt war.^ö",
+          "ant_2": "Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes.^ö",
+          "ant_3": "Die Jungfrau empfing durch das Wort; Jungfrau blieb sie und hat als Jungfrau den Heiland geboren.^ö",
+          "les_buch": "Phil",
+          "les_stelle": "2,6-7",
+          "les_text": "Christus Jesus war Gott gleich, hielt aber nicht daran fest, wie Gott zu sein, sondern er entäußerte sich und wurde wie ein Sklave und den Menschen gleich. Sein Leben war das eines Menschen.",
+          "resp1_1": "Gegrüßt seist du, Maria, du bist voll der Gnade.",
+          "resp1_2": "Gesegnet bist du unter den Frauen, und gesegnet ist die Frucht deines Leibes.",
+          "resp1_3": "Und zum Gebieter über seinen Besitz.",
+          "bitten_e": "Gepriesen sei Gott, der sich seine Diener beruft. Zu ihm lasst uns beten:",
+          "bitten_r": "Wir bitten dich, erhöre uns.",
+          "bitten": "Herr, unser Gott, du hast unsere Väter im Glauben berufen, vor dir zu leben;^qgib uns die Kraft, ihrem Beispiel zu folgen.^pOhne zu zögern, hat Josef deinen Willen erfüllt;^qhilf uns, auf dich zu hören und dir zu gehorchen.^pDu hast Josef, dem Gerechten, Kindheit und Jugend deines menschgewordenen Sohnes anvertraut;^qgib, dass wir Christus in unseren Brüdern und Schwestern dienen.^pDu hast Josef erwählt, dass er mit seiner Hände Arbeit für Jesus und Maria sorge;^qsegne unsere Arbeit."
+        },
+        "Lesehore": {
+          "hymn_1": 71026.0,
+          "ps_1": 2.0,
+          "ps_2": 19.1,
+          "ps_3": 45.0,
+          "ant_1": "Als die Zeit erfüllt war, sandte Gott seinen Sohn, geboren von einer Frau, damit wir die Sohnschaft erlangten^ö",
+          "ant_2": "Christus spricht bei seinem Eintritt in die Welt: Einen Leib hast du mir bereitet. Siehe, ich komme, deinen Willen, o Gott, zu erfüllen.^ö",
+          "ant_3": "Gott hat seine Liebe unter uns offenbart: Er hat seinen einzigen Sohn in die Welt gesandt, damit wir durch ihn leben.^ö",
+          "resp0_0": "Das Wort ist Fleisch geworden.^ö",
+          "resp0_1": "Und hat unter uns gewohnt.^ö",
+          "les_buch": "Aus dem ersten Buch der Chronik.",
+          "les_stelle": "17,1-15",
+          "les_text": "^hVerheißung an David^pAls nun David in seinem Haus wohnte, sagte er zu dem Propheten Natan: Ich wohne in einem Haus aus Zedernholz, die Bundeslade des Herrn aber wohnt in einem Zelt. Natan antwortete David: Tu alles, was du im Sinn hast; denn Gott ist mit dir.^pAber in jener Nacht erging das Wort Gottes an Natan: Geh zu meinem Knecht David und sag zu ihm: So spricht der Herr: Nicht du sollst mir das Haus bauen, damit ich darin wohne. Seit dem Tag, als ich Israel aus Ägypten herausgeführt habe, habe ich bis zum heutigen Tag nie in einem Haus gewohnt, sondern bin von Zelt zu Zelt, von Wohnstätte zu Wohnstätte mitgewandert. Habe ich in der Zeit, als ich bei den Israeliten von Ort zu Ort zog, jemals zu einem der Richter Israels, die ich als Hirten über mein Volk eingesetzt hatte, ein Wort gesagt und sie gefragt: Warum habt ihr mir kein Haus aus Zedernholz gebaut?^pSag also jetzt meinem Knecht David: So spricht der Herr der Heere: Ich habe dich von der Weide und von der Herde weggeholt, damit du Fürst über mein Volk Israel wirst, und bin überall mit dir gewesen, wohin du auch gegangen bist. Ich habe alle deine Feinde vor deinen Augen vernichtet, und ich will dir einen Namen machen, der dem Namen der Großen auf der Erde gleich ist. Ich will meinem Volk Israel einen Platz zuweisen und will es einpflanzen, damit es an seinem Ort (sicher) wohnen kann und sich nicht mehr ängstigen muss und schlechte Menschen es nicht zugrunde richten wie am Anfang, seit den Tagen, als ich Richter in meinem Volk Israel eingesetzt habe. Ich werfe alle deine Feinde nieder und mache dich groß.^pDer Herr aber wird dir ein Haus bauen. Wenn deine Tage erfüllt sind und du zu deinen Vätern gehst, dann werde ich einen von deinen Nachkommen, einen von deinen Söhnen, als deinen Nachfolger einsetzen und seinem Königtum Bestand verleihen. Er wird für mich ein Haus bauen, und ich werde seinem Thron ewigen Bestand verleihen. Ich will für ihn Vater sein, und er wird für mich Sohn sein. Meine Huld will ich ihm nicht entziehen, wie ich sie dem entzogen habe, der vor dir König war. In meinem Haus und in meinem Königtum werde ich ihm ewigen Bestand verleihen; sein Thron wird für immer bestehenbleiben.^pNatan sprach zu David genauso, wie es (ihm) gesagt und offenbart worden war.",
+          "resp1_1": "Der Engel Gabriel wurde zu der Jungfrau Maria gesandt; die Jungfrau erschrak über das Licht: Fürchte dich nicht, Maria; denn du hast vor Gott Gnade gefunden.",
+          "resp1_2": "Du wirst empfangen und einen Sohn gebären. Er wird der Sohn des Höchsten genannt werden.",
+          "resp1_3": "Sei gegrüßt, du Begnadete, der Herr ist mit dir.",
+          "patr_autor": "Leo der Große (†°461)",
+          "patr_werk": "Aus dem Brief an Flavian.",
+          "patr_text": "^hDas Geheimnis unserer Versöhnung^pDie Majestät hat die Niedrigkeit angenommen, die Kraft die Schwachheit, das Ewige die Sterblichkeit. Um die Schuld zu lösen, die auf uns lastet, verband sich die unverletzliche Natur mit der leidensfähigen. Das Heilmittel entsprach unserer Lage: der eine und derselbe Mittler zwischen Gott und den Menschen, der Mensch Jesus Christus {1#vgl.°1°Tim°2,5}, sollte in der einen Natur sterben können, in der anderen nicht. Der wahre Gott ist also geboren worden in der unverkürzten und vollen Natur eines wahren Menschen, ganz Gott in seinem Bereich, ganz Mensch in dem unsrigen. Unseren Bereich nenne ich, was der Schöpfer in uns am Anfang ins Dasein rief und was er annahm, um es wiederherzustellen.^pVon dem, was der Betrüger hereinbrachte und was der Mensch getäuscht hereinließ, gibt es im Erlöser keine Spur. Wenn er sich den Schwächen des Menschen unterwarf, so hatte er deswegen doch nicht teil an unseren Sünden. Er nahm Sklavengestalt an, ohne sich mit der Sünde zu beschmutzen. Er erhöhte das Menschliche, ohne das Göttliche zu mindern; denn die Entäußerung, in der sich der Unsichtbare sichtbar darbot und der Herr und Schöpfer aller Dinge ein Sterblicher sein wollte, war eine Herablassung der Barmherzigkeit, nicht eine Einbuße an Macht. Er, der in der Gestalt Gottes den Menschen schuf, er wurde in Sklavengestalt ein Mensch. Der Sohn Gottes tritt also in unsere Welt ein, steigt vom Thron des Himmels herab und wird in einer neuen Ordnung und in einer neuen Geburt gezeugt, ohne sich der Herrlichkeit des Vaters zu begeben.^pIn neuer Ordnung: Unsichtbar in seinem Bereich, wurde er sichtbar in dem unsrigen; unfassbar, wollte er sich erfassen lassen; er blieb überzeitlich und begann doch ein Dasein in der Zeit; der Herr des Weltalls verhüllte seine unermessliche Herrlichkeit und nahm Sklavengestalt an; Gott, der keines Leidens fähig ist, weigerte sich nicht, ein leidensfähiger Mensch zu werden und sich, obwohl unsterblich, dem Gesetz des Todes zu unterwerfen.^pDer wahrer Gott ist, ist wahrer Mensch, und an dieser Vereinigung ist nichts trügerisch. Menschliche Niedrigkeit und Erhabenheit Gottes sind in ihr ja verbunden. Denn wie sich Gott durch sein Erbarmen nicht ändert, so wird der Mensch nicht aufgehoben durch die göttliche Würde. In der Gemeinschaft mit der andern Natur tut eine jede, was ihr zukommt: Das Wort wirkt, was des Wortes ist, der Mensch vollbringt, was des Menschen ist. Die eine Natur leuchtet in den Wundern auf, die andere unterliegt den Schmähungen, und wie das Wort die Wesensgleichheit mit dem Vater nicht aufgibt, so verlässt der Mensch das Wesen unseres Geschlechtes nicht. Immer wieder muss es gesagt werden: einer und derselbe ist wahrhaft Sohn Gottes und Menschensohn, Gott dadurch, dass er „im Anfang das Wort war und das Wort bei Gott und das Wort Gott war“ {2#vgl.°Joh°1,1.3}, und Mensch dadurch, dass „das Wort Fleisch wurde und unter uns wohnte“ {3#vgl.°Joh°1,14}.",
+          "patr_resp1": "Jungfrau Maria, nimm das Wort an, das dir der Engel gebracht hat.",
+          "patr_resp2": "Du wirst empfangen und einen Sohn gebären, der Gott und Mensch zugleich ist.",
+          "patr_resp3": "Sie werden dich nennen „die Gesegnete unter den Frauen“."
+        },
+        "Non": {
+          "ant_0": "Bis an die Enden der Erde reicht sein Ruhm. Er wird der Friede sein.^ö",
+          "les_buch": "1°Tim",
+          "les_stelle": "2,5-6a",
+          "les_text": "Einer ist Gott, Einer auch Mittler zwischen Gott und den Menschen: der Mensch Christus Jesus, der sich als Lösegeld hingegeben hat für alle, ein Zeugnis zur vorherbestimmten Zeit,",
+          "resp1_0": "Das Wort ist Fleisch geworden und hat unter uns gewohnt.^ö",
+          "resp1_1": "Und wir haben seine Herrlichkeit geschaut.^ö",
+          "resp1_2": "Ehre sei dem Vater."
+        },
+        "Sext": {
+          "ant_0": "Seht, die Jungfrau wird empfangen und einen Sohn gebären. Immanuel wird sein Name sein.^ö",
+          "les_buch": "1°Joh",
+          "les_stelle": "4,1",
+          "les_text": "Nicht darin besteht die Liebe, dass wir Gott geliebt haben, sondern dass er uns geliebt und seinen Sohn als Sühne für unsere Sünden gesandt hat.",
+          "resp1_0": "Siehe, ich bin die Magd des Herrn.^ö",
+          "resp1_1": "Mir geschehe nach deinem Wort.^ö"
+        },
+        "Terz": {
+          "ant_0": "Aus Isais Geschlecht ging Maria hervor, in deren jungfräulichen Schoß der Geist des Höchsten herabstieg.^ö",
+          "les_buch": "Eph",
+          "les_stelle": "1,9-10",
+          "les_text": "Gott hat uns das Geheimnis seines Willens kundgetan, wie er es gnädig im Voraus bestimmt hat: Er hat beschlossen, die Fülle der Zeiten heraufzuführen, in Christus alles zu vereinen, alles, was im Himmel und auf Erden ist.",
+          "resp1_0": "Der Engel des Herrn brachte Maria die Botschaft.^ö",
+          "resp1_1": "Und sie empfing vom Heiligen Geist.^ö"
+        },
+        "Vesper": {
+          "hymn_1": 83250.0,
+          "hymn_2": 71041.0,
+          "ps_1": 110.0,
+          "ps_2": 130.0,
+          "ps_3": 154.0,
+          "ant_1": "Der Engel des Herrn brachte Maria die Botschaft, und sie empfing vom Heiligen Geist.^ö",
+          "ant_2": "Fürchte dich nicht, Maria; du hast Gnade gefunden beim Herrn. Siehe, du wirst empfangen und einen Sohn gebären.^ö",
+          "ant_3": "Siehe, ich bin die Magd des Herrn, mir geschehe nach deinem Wort.^ö",
+          "les_buch": "1 Joh",
+          "les_stelle": "1,1-2",
+          "les_text": "Was von Anfang an war, was wir gehört haben, was wir mit unseren Augen gesehen, was wir geschaut und was unsere Hände angefasst haben, das verkünden wir, vom Wort des Lebens sprechen wir. Denn das Leben wurde offenbart; wir haben gesehen und bezeugen und verkünden euch das ewige Leben, das beim Vater war und uns offenbart wurde.",
+          "resp1_1": "Das Wort ist Fleisch geworden",
+          "resp1_2": "und hat unter uns gewohnt.",
+          "resp1_3": "Im Anfang war es bei Gott.",
+          "ant_ev": "Gegrüßt seist du, Maria, voll der Gnade, der Herr ist mit dir, du bist gebenedeit unter den Frauen.^ö",
+          "bitten_e": "Lasst uns beten zu unserem Gott und Vater, der am heutigen Tag durch seinen Engel der Jungfrau Maria die Heilsbotschaft verkündet hat:",
+          "bitten_r": "Herr, schenke uns deine Gnade.",
+          "bitten": "Du hast die Jungfrau Maria auserwählt, die Mutter deines Sohnes zu werden;^qerbarme dich aller Menschen, die auf die Erlösung warten.^pDurch den Engel Gabriel hast du den König angekündigt, dessen Reich kein Ende hat;^qschenke der ganzen Welt seinen Frieden.^pMaria hat dein göttliches Wort vom Heiligen Geist empfangen;^qmache alle Menschen bereit, Christus aufzunehmen.^pDu hast herabgeschaut auf deine niedrige Magd;^qrichte die Armen und Niedergedrückten auf.^pDu bist die Quelle des Lebens;^qauf die Fürsprache der seligen Jungfrau Maria schenke unseren Verstorbenen das ewige Leben."
+        }
       }
     },
     "4": {
@@ -10229,7 +10427,7 @@ export const brevierData = {
       "6": {
         "Laudes": {
           "hymn_1": 216.0,
-          "hymn_kl": 246.0,
+          "hymn_kl": 71026.0,
           "ps_1": 92.0,
           "ps_2": 196.0,
           "ps_3": 8.0,
