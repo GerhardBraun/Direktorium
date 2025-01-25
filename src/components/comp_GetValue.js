@@ -1,10 +1,15 @@
 // getValue.js
-export const getValue = ({ hour, prefSrc, prefSollemnity, localPrefComm, localPrefPsalmsWt, localPrefContinuous, texts, field }) => {
+export const getValue = ({ hour, texts, field,
+    prefSrc, prefSollemnity,
+    localPrefComm, localPrefPsalmsWt, localPrefContinuous }) => {
     if (!hour || !texts || !texts[hour]) {
         return null;
     }
 
-    const { rank_date = 0, rank_wt = 0, isCommemoration } = texts;
+    const { rank_date = 0, rank_wt = 0, isCommemoration, hasErsteVesper = false } = texts;
+
+    // Feier wie ein Hochfest
+    const isSollemnity = (hour === 'vesper' && hasErsteVesper) || prefSollemnity
 
     // Bei Vesper als Hochfest
     if (hour === 'vesper' && prefSollemnity) { hour = 'prefsollemnity'; }
@@ -19,6 +24,7 @@ export const getValue = ({ hour, prefSrc, prefSollemnity, localPrefComm, localPr
 
     // Abruf der Werte für die Kommemoration
     if (field.startsWith('c_')) {
+        console.log('Abruf Kommemoration: \nhour/prefSrc/field\n', hour, prefSrc, field)
         field = field.substring(2);
         if (texts[hour][prefSrc]?.[field]) {
             return texts[hour][prefSrc][field];
@@ -49,9 +55,7 @@ export const getValue = ({ hour, prefSrc, prefSollemnity, localPrefComm, localPr
         (field.startsWith('ps_') || field.startsWith('ant_'))
     ) { skipCommune = true }
 
-    if (prefSollemnity ||   // Hochfeste und 1. Vesper: Comm, wenn nicht eigen, nicht vom WT
-        (texts.hasErsteVesper && hour === 'vesper')
-    ) { skipCommune = false }
+    if (isSollemnity) { skipCommune = false }
 
     const fallbackCom1 = !skipCommune &&
         (localPrefComm === 1 || prefSollemnity ||
@@ -60,7 +64,7 @@ export const getValue = ({ hour, prefSrc, prefSollemnity, localPrefComm, localPr
         (localPrefComm === 2 || prefSollemnity ||
             (texts.hasErsteVesper && hour === 'vesper'));
 
-    if (!isCommemoration) {  // an Tagen mit Kommemoration nur wt-Werte
+    if (!isCommemoration || isSollemnity) {  // an Tagen mit Kommemoration nur wt-Werte
         // Sonderfall Hymnen
         if ((field === 'hymn_kl' || field === 'hymn_nacht') &&
             (texts[hour]?.[prefSrc]?.['hymn_1']

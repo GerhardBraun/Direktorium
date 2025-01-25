@@ -2006,12 +2006,6 @@ export const psalmsData = {
         "text": "Seht, wie die Schatten dunkler Nacht verblassen:^lRötliches Leuchten strahlt am frühen Himmel.^lBitten wir innig mit vereinter Stimme^lGott, den Allmächt’gen!^pDass er sich unser liebevoll erbarme,^lHeil uns gewähre, unsre Trägheit banne^lund uns als Vater einst in Güte schenke^lhimmlisches Erbe.^pLob sei dem Vater auf dem höchsten Throne,^lLob sei dem Sohne, Gott aus Gott geboren,^lLob sei dem Geiste, der von beiden ausgeht,^limmer und ewig. Amen."
       }
   },
-  226: {
-    0.0: {
-        "quote": "Lesehore zu Maria am Samstag",
-        "text": "Sei gegrüßt, die den König gebar, du heilige Mutter,^lihn, der Himmel und Erde erhält im Wandel der Zeiten,^ldessen Walten das All umfasst mit ewigem Kreise, dessen Reich ohne Ende besteht:^pDein seliger Leib hat^lFreuden der Mutter gepaart mit reiner Ehre der Jungfrau,^ldir, der keine je glich, wird keine fürderhin gleichen,^ldenn vor allen Frauen erwählte dich, Einzige, Christus."
-      }
-  },
   230: {
     0.0: {
         "quote": "Preisungen und Gebete Nr. 7",
@@ -2040,12 +2034,6 @@ export const psalmsData = {
     0.0: {
         "quote": "Preisungen und Gebete Nr. 12",
         "text": "Herr, du hast die Welt gestaltet,^ldass sie sich in dir entfalte:^lDir sei Lob und Dank!^pWas ersteht,^lwas vergeht,^lwas sich jauchzend um dich dreht,^list dein!^pHerr, du bist zur Welt gekommen,^lhast sie in dich aufgenommen:^lDir sei Lob und Dank!^pBliebest hier,^lwohnst in ihr,^lum ein armer Mensch wie wir^lzu sein.^pHerr, so lass dein Werk gelingen,^llass den Geist die Welt durchdringen:^lDir sei Lob und Dank!^pDann erblüht^lsie und glüht,^ldenn der ganze Himmel zieht^lherein."
-      }
-  },
-  236: {
-    0.0: {
-        "quote": "2. Vesper an Marienfesten",
-        "text": "Meerstern, sei gegrüßet, Gottes hohe Mutter,^lallzeit reine Jungfrau, selig Tor zum Himmel!^pDu nahmst an das AVE aus des Engels Munde.^lWend den Namen EVA, bring uns Gottes Frieden.^pZeige dich als Mutter, denn dich wird erhören,^lder auf sich genommen, hier dein Sohn zu werden.^pJungfrau ohnegleichen, Gütige vor allen,^luns, die wir erlöst sind, mach auch rein und gütig.^pLös der Schuldner Ketten, mach die Blinden sehend,^lallem Übel wehre, jeglich Gut erwirke.^pGib ein lautres Leben, sicher uns geleite,^ldass wir einst in Freuden Jesus mit dir schauen.^pLob sei Gott dem Vater, Christ, dem Höchsten Ehre^lund dem Heil’gen Geiste: dreifach eine Preisung. Amen."
       }
   },
   241: {
@@ -2698,16 +2686,34 @@ export const psalmsData = {
         "text": "Großer, heiliger Tag,^lder du uns Freude bringst^lund mit heiterem Lied^lunsere Herzen füllst,^ldu sahst Christus den Herrn,^lwie er zum Throne schritt^lhoch im Reich seiner neuen Macht.^pJubelnd in seiner Kraft^lsteigt er zum Himmelszelt,^lund das heilige Volk^lrühmt den Erstandenen,^lmit den Engeln im Chor^lstimmt es ein Preislied an^lauf des herrlichen Siegers Huld.^pDer auf steigender Bahn^lFessel in Fesseln schlug^lund der irdischen Schar^lreiche Geschenke ließ,^lkehrt als Richter zurück,^lstreng in Gerechtigkeit,^ler, der strahlend jetzt aufwärts fuhr.^pHerr, wir flehen zu dir,^lder du als König herrschst,^lnimm in gnädigen Schutz^ldeine Getreuen auf.^lWenn als Richter du kommst,^lHeimliches offenbarst,^llass des Lohnes uns würdig sein.^pVater, Schöpfer des Alls,^ldir gebührt Lobgesang^lund dem Sohne, der jetzt^lzu deiner Rechten thront,^lauch dem Geiste, dem Band,^ldas euch in Liebe eint,^lPreis und Ehre in Ewigkeit."
       }
   },
+  71019: {
+    0.0: {
+        "quote": "Maria",
+        "text": "Sei gegrüßt, du lichter Meeresstern,^lGottes hohe Mutter,^lJungfrau, die der Höchste sich erwählt,^lsel’ges Tor des Himmels.^p„Sei gegrüßt“, so sprach des Engels Mund,^l„du bist voll der Gnade.“^lDieses Ave wendet Evas Los,^lschenkt uns Gottes Frieden.^pIn das Dunkel unsrer Sündenschuld^lbringe Licht den Blinden,^llass uns Sünder nicht verloren sein,^lbitt für uns um Gnade.^pSteh uns immerdar als Mutter bei,^ldass durch dich uns höre,^lder in deinem Schoße Wohnung nahm,^lMensch für uns zu werden.^pDu bliebst rein vom Makel jeder Schuld,^lJungfrau ohnegleichen.^lHalte fern des bösen Feindes Macht,^ldass er uns nicht schade.^pFühre sicher unsern Weg ans Ziel,^llenke unsre Schritte,^ldass wir einst mit dir in Freude schaun^lChristus, unsern König.^pGott dem Vater Lob und Herrlichkeit,^lew’ger Ruhm dem Sohne,^lDank und Lobpreis Gott dem Heil’gen Geist:^lEhre dem Dreieinen. Amen."
+      }
+  },
+  71020: {
+    0.0: {
+        "quote": "Maria",
+        "text": "Ave, Stern der Meere"
+      }
+  },
   71026: {
     0.0: {
         "quote": "Lesehore an Marienfesten",
         "text": "Den Erde, Meer und Firmament^lverehren, loben, beten an,^lder die drei Reiche trägt und lenkt,^lihn birgt Mariens reiner Schoß.^pDem Sonne, Mond und jeder Stern^ldurch alle Zeiten dienstbar sind,^lihn trägt der Leib der reinen Magd,^lvom Hauch der Gnade ganz durchströmt.^pBeglückte Mutter, reich beschenkt:^lIn deinem Schoße schließt sich ein^ler, dessen Hand die Welt umfängt,^lder Höchste, der das All erschuf.^pDir ward des Engels Botschaft kund,^lund du empfingst vom Heil’gen Geist:^lAus deinem Schoße trat hervor,^lder aller Völker Sehnsucht ist.^pHerr Jesus, dir sei Ruhm und Preis,^lGott, den die Jungfrau uns gebar,^lLob auch dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
-  71041: {
+  71027: {
     0.0: {
-        "quote": "Maria",
-        "text": "Sei gegrüßt, du lichter Meeresstern,^lGottes hohe Mutter,^lJungfrau, die der Höchste sich erwählt,^lsel’ges Tor des Himmels.^p„Sei gegrüßt“, so sprach des Engels Mund,^l„du bist voll der Gnade.“^lDieses Ave wendet Evas Los,^lschenkt uns Gottes Frieden.^pIn das Dunkel unsrer Sündenschuld^lbringe Licht den Blinden,^llass uns Sünder nicht verloren sein,^lbitt für uns um Gnade.^pSteh uns immerdar als Mutter bei,^ldass durch dich uns höre,^lder in deinem Schoße Wohnung nahm,^lMensch für uns zu werden.^pDu bliebst rein vom Makel jeder Schuld,^lJungfrau ohnegleichen.^lHalte fern des bösen Feindes Macht,^ldass er uns nicht schade.^pFühre sicher unsern Weg ans Ziel,^llenke unsre Schritte,^ldass wir einst mit dir in Freude schaun^lChristus, unsern König.^pGott dem Vater Lob und Herrlichkeit,^lew’ger Ruhm dem Sohne,^lDank und Lobpreis Gott dem Heil’gen Geist:^lEhre dem Dreieinen. Amen."
+        "quote": "Lesehore zu Maria am Samstag",
+        "text": "Sei gegrüßt, die den König gebar, du heilige Mutter,^lihn, der Himmel und Erde erhält im Wandel der Zeiten,^ldessen Walten das All umfasst mit ewigem Kreise, dessen Reich ohne Ende besteht:^pDein seliger Leib hat^lFreuden der Mutter gepaart mit reiner Ehre der Jungfrau,^ldir, der keine je glich, wird keine fürderhin gleichen,^ldenn vor allen Frauen erwählte dich, Einzige, Christus."
+      }
+  },
+  71043: {
+    0.0: {
+        "quote": "2. Vesper an Marienfesten",
+        "text": "Meerstern, sei gegrüßet, Gottes hohe Mutter,^lallzeit reine Jungfrau, selig Tor zum Himmel!^pDu nahmst an das AVE aus des Engels Munde.^lWend den Namen EVA, bring uns Gottes Frieden.^pZeige dich als Mutter, denn dich wird erhören,^lder auf sich genommen, hier dein Sohn zu werden.^pJungfrau ohnegleichen, Gütige vor allen,^luns, die wir erlöst sind, mach auch rein und gütig.^pLös der Schuldner Ketten, mach die Blinden sehend,^lallem Übel wehre, jeglich Gut erwirke.^pGib ein lautres Leben, sicher uns geleite,^ldass wir einst in Freuden Jesus mit dir schauen.^pLob sei Gott dem Vater, Christ, dem Höchsten Ehre^lund dem Heil’gen Geiste: dreifach eine Preisung. Amen."
       }
   },
   71068: {

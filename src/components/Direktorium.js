@@ -1172,7 +1172,7 @@ const PrayerTextDisplay = ({
         ) { skipCommune = true };
 
         if (prefSollemnity ||   // Hochfeste und 1. Vesper: Comm, wenn nicht eigen, nicht vom WT
-            (texts.hasErsteVesper && hour === 'vesper')
+            (texts?.hasErsteVesper && hour === 'vesper')
         ) { skipCommune = false };
 
         if (!showComm2) { skipCommune = true }; // wenn nur ein Comm, keine Auswahlanzeige nötig
@@ -1838,7 +1838,8 @@ const PrayerTextDisplay = ({
             <div className="mt-2">
                 <BackButton onClick={onBack} />
             </div>
-            {isCommemoration && !prefSollemnity &&
+
+            {isCommemoration && !prefSollemnity && !(hour === 'vesper' && texts?.hasErsteVesper) &&
                 ['lesehore', 'laudes', 'vesper'].includes(hour) && (
                     <>
                         <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6 pb-1">

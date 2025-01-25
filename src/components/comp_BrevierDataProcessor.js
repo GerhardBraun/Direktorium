@@ -243,107 +243,6 @@ function getPrayerTexts(date, calendarDate = 0) {
     }
 }
 
-// Hauptfunktion zur Verarbeitung der Brevier-Daten
-export function processBrevierData(todayDate) {
-
-    // Berechne die verschiedenen relevanten Tage
-    const todayInfo = getLiturgicalInfo(todayDate);
-    const todayDay = todayDate.getDate();
-    const todayMonth = todayDate.getMonth() + 1;
-
-    const yesterdayDate = new Date(todayDate);
-    yesterdayDate.setDate(yesterdayDate.getDate() - 1);
-    const yesterdayInfo = getLiturgicalInfo(yesterdayDate);
-
-    const tomorrowDate = new Date(todayDate);
-    tomorrowDate.setDate(tomorrowDate.getDate() + 1);
-    const tomorrowInfo = getLiturgicalInfo(tomorrowDate);
-
-    const dayAfterTomorrowDate = new Date(todayDate);
-    dayAfterTomorrowDate.setDate(dayAfterTomorrowDate.getDate() + 2);
-    const dayAfterTomorrowInfo = getLiturgicalInfo(dayAfterTomorrowDate);
-
-    let isSacredHeart = 0;
-    if (yesterdayInfo.combinedSWD === 'o-9-5') { isSacredHeart = -1; }
-    else if (tomorrowInfo.combinedSWD === 'o-9-5') { isSacredHeart = 1; }
-    else if (dayAfterTomorrowInfo.combinedSWD === 'o-9-5') { isSacredHeart = 2; }
-
-    // Bestimme die tatsächlich zu verwendenden Tage basierend auf den Rängen
-    let calendarDate = todayDate;
-    let nextDate = tomorrowDate;
-
-    if (yesterdayInfo.rank_wt === 5 && yesterdayInfo.rank_date === 5
-        && todayInfo.rank_wt < 5 && isSacredHeart !== -1) {
-        calendarDate = yesterdayDate;
-        console.log('Verschiebung: Gestriges Hochfest wird heute gefeiert');
-    }
-
-    // Verschiebung Josef
-    if (todayInfo.combinedSWD === 'q-5-6' &&
-        (todayMonth === 3 && todayDay < 19)) {
-        // Erstelle ein neues Date-Objekt für den 19. März
-        const josefDate = new Date(todayDate.getFullYear(), 2, 19); // Monat ist 0-basiert
-        calendarDate = josefDate;
-        console.log('Verschiebung: Josef am Samstag vor Palmsonntag');
-    }
-
-    // Verschiebung Verkündigung des Herrn
-    if (todayInfo.combinedSWD === 'o-2-1' &&
-        (todayMonth === 3 || (todayMonth === 4 && todayDay < 10))) {
-        // Erstelle ein neues Date-Objekt für den 25. März
-        const verkuendigungDate = new Date(todayDate.getFullYear(), 2, 25); // Monat ist 0-basiert
-        calendarDate = verkuendigungDate;
-        console.log('Verschiebung: Verkündigung des Herrn am Montag nach der Osteroktav');
-    }
-
-    if (isSacredHeart === 1 && tomorrowInfo.rank_date === 5) {
-        calendarDate = tomorrowDate;
-        console.log('Verschiebung: Morgiges Hochfest wird heute gefeiert wegen Herz-Jesu-Fest');
-    }
-    if (isSacredHeart === 2 && dayAfterTomorrowInfo.rank_date === 5) {
-        nextDate = dayAfterTomorrowDate;
-        console.log('Verschiebung: Heute 1. Vesper zum Hochfest, das morgen gefeiert wird wegen Herz-Jesu-Fest');
-    }
-
-    // Hole Stundendaten für den aktuellen Tag
-    const todayData = getPrayerTexts(todayDate, calendarDate);
-    const tomorrowData = getPrayerTexts(tomorrowDate, nextDate);
-
-    // Prüfe, ob erste Vesper benötigt wird
-    const rankWt = todayData.rank_wt;
-    const rankDate = todayData.rank_date;
-    const nextRankWt = tomorrowData.rank_wt;
-    const nextRankDate = tomorrowData.rank_date;
-    const dayOfWeek = todayData.dayOfWeek;
-
-    const hasErsteVesper_wt = rankWt < 5 && rankDate < 5 &&
-        ((dayOfWeek === 6 && rankDate < 4) || nextRankWt === 5);
-    const hasErsteVesper_date = rankWt < 5 && rankDate < 5 && nextRankDate > nextRankWt &&
-        (nextRankDate === 5 || (nextRankDate === 4 && dayOfWeek === 6));
-    console.log('brevierDataProcessor:\n(rankWt/Date) / (nextRankWt/Date) / dayOfWeek: (',
-        rankWt, rankDate, ') (', nextRankWt, nextRankDate, ') ', dayOfWeek, '\n1. Vesper wt/date: ', hasErsteVesper_wt, hasErsteVesper_date)
-
-    // Stelle die endgültigen Daten zusammen
-    const finalData = {
-        ...todayData,
-        nextRank_wt: nextRankWt,
-        nextRank_date: nextRankDate
-    };
-    finalData.prefsollemnity = JSON.parse(JSON.stringify(finalData.vesper));
-
-    // Ersetze Vesper-Daten wenn nötig
-    if ((hasErsteVesper_wt || hasErsteVesper_date) && tomorrowData?.erstev) {
-        finalData.vesper = tomorrowData.erstev;
-        finalData.hasErsteVesper = true;
-    }
-
-    // Wende die finalen Verarbeitungsschritte an
-    processTerzPsalms(finalData);
-    processLiturgicalYearAntiphons(finalData, calendarDate);
-
-    return finalData;
-}
-
 function processCommune(hours, commune, season, targetSource, communeNumber) {
     const [readComm, initialAddComm] = commune.includes('_') ?
         commune.split('_') : [commune, null];
@@ -485,7 +384,7 @@ function processTerzPsalms(hours) {
     });
 }
 
-function processLiturgicalYearAntiphons(hours, date) {
+function processBenMagnAntiphons(hours, date) {
     Object.keys(hours).forEach(hour => {
         if (hours[hour].wt?.ant_a) {
             const year = date.getFullYear();
@@ -499,4 +398,141 @@ function processLiturgicalYearAntiphons(hours, date) {
             }
         }
     });
+}
+
+function processEasterResponses(hours) {
+    // Nur Laudes und Vesper bearbeiten
+    ['laudes', 'vesper'].forEach(hour => {
+        if (!hours[hour]) return;
+
+        // Alle relevanten Sources durchgehen
+        ['eig', 'n1', 'n2', 'n3', 'n4', 'n5'].forEach(source => {
+            if (!hours[hour][source]) return;
+
+            // Hauptebene der Source verarbeiten
+            processResponseSet(hours[hour][source]);
+
+            // Commune-Unterverzeichnisse verarbeiten
+            ['com1', 'com2'].forEach(commune => {
+                if (hours[hour][source][commune]) {
+                    processResponseSet(hours[hour][source][commune]);
+                }
+            });
+        });
+    });
+    return hours;
+}
+
+function processResponseSet(data) {
+    if (!data.resp1_1 || !data.resp1_2) return;
+
+    // Prüfen ob resp1_2 nicht mit "Hall" beginnt
+    if (!data.resp1_2.startsWith('Hall')) {
+        // Texte kombinieren
+        data.resp1_1 = `${data.resp1_1} ${data.resp1_2}`;
+        // Neuen Halleluja-Text setzen
+        data.resp1_2 = 'Halleluja,°halleluja.';
+    }
+}
+
+// Hauptfunktion zur Verarbeitung der Brevier-Daten
+export function processBrevierData(todayDate) {
+
+    // Berechne die verschiedenen relevanten Tage
+    const todayInfo = getLiturgicalInfo(todayDate);
+    const todayDay = todayDate.getDate();
+    const todayMonth = todayDate.getMonth() + 1;
+
+    const yesterdayDate = new Date(todayDate);
+    yesterdayDate.setDate(yesterdayDate.getDate() - 1);
+    const yesterdayInfo = getLiturgicalInfo(yesterdayDate);
+
+    const tomorrowDate = new Date(todayDate);
+    tomorrowDate.setDate(tomorrowDate.getDate() + 1);
+    const tomorrowInfo = getLiturgicalInfo(tomorrowDate);
+
+    const dayAfterTomorrowDate = new Date(todayDate);
+    dayAfterTomorrowDate.setDate(dayAfterTomorrowDate.getDate() + 2);
+    const dayAfterTomorrowInfo = getLiturgicalInfo(dayAfterTomorrowDate);
+
+    let isSacredHeart = 0;
+    if (yesterdayInfo.combinedSWD === 'o-9-5') { isSacredHeart = -1; }
+    else if (tomorrowInfo.combinedSWD === 'o-9-5') { isSacredHeart = 1; }
+    else if (dayAfterTomorrowInfo.combinedSWD === 'o-9-5') { isSacredHeart = 2; }
+
+    // Bestimme die tatsächlich zu verwendenden Tage basierend auf den Rängen
+    let calendarDate = todayDate;
+    let nextDate = tomorrowDate;
+
+    if (yesterdayInfo.rank_wt === 5 && yesterdayInfo.rank_date === 5
+        && todayInfo.rank_wt < 5 && isSacredHeart !== -1) {
+        calendarDate = yesterdayDate;
+        console.log('Verschiebung: Gestriges Hochfest wird heute gefeiert');
+    }
+
+    // Verschiebung Josef
+    if (todayInfo.combinedSWD === 'q-5-6' &&
+        (todayMonth === 3 && todayDay < 19)) {
+        // Erstelle ein neues Date-Objekt für den 19. März
+        const josefDate = new Date(todayDate.getFullYear(), 2, 19); // Monat ist 0-basiert
+        calendarDate = josefDate;
+        console.log('Verschiebung: Josef am Samstag vor Palmsonntag');
+    }
+
+    // Verschiebung Verkündigung des Herrn
+    if (todayInfo.combinedSWD === 'o-2-1' &&
+        (todayMonth === 3 || (todayMonth === 4 && todayDay < 10))) {
+        // Erstelle ein neues Date-Objekt für den 25. März
+        const verkuendigungDate = new Date(todayDate.getFullYear(), 2, 25); // Monat ist 0-basiert
+        calendarDate = verkuendigungDate;
+        console.log('Verschiebung: Verkündigung des Herrn am Montag nach der Osteroktav');
+    }
+
+    if (isSacredHeart === 1 && tomorrowInfo.rank_date === 5) {
+        calendarDate = tomorrowDate;
+        console.log('Verschiebung: Morgiges Hochfest wird heute gefeiert wegen Herz-Jesu-Fest');
+    }
+    if (isSacredHeart === 2 && dayAfterTomorrowInfo.rank_date === 5) {
+        nextDate = dayAfterTomorrowDate;
+        console.log('Verschiebung: Heute 1. Vesper zum Hochfest, das morgen gefeiert wird wegen Herz-Jesu-Fest');
+    }
+
+    // Hole Stundendaten für den aktuellen Tag
+    const todayData = getPrayerTexts(todayDate, calendarDate);
+    const tomorrowData = getPrayerTexts(tomorrowDate, nextDate);
+
+    // Prüfe, ob erste Vesper benötigt wird
+    const rankWt = todayData.rank_wt;
+    const rankDate = todayData.rank_date;
+    const nextRankWt = tomorrowData.rank_wt;
+    const nextRankDate = tomorrowData.rank_date;
+    const dayOfWeek = todayData.dayOfWeek;
+
+    const hasErsteVesper_wt = rankWt < 5 && rankDate < 5 &&
+        ((dayOfWeek === 6 && rankDate < 4) || nextRankWt === 5);
+    const hasErsteVesper_date = rankWt < 5 && rankDate < 5 && nextRankDate > nextRankWt &&
+        (nextRankDate === 5 || (nextRankDate === 4 && dayOfWeek === 6));
+    console.log('brevierDataProcessor:\n(rankWt/Date) / (nextRankWt/Date) / dayOfWeek: (',
+        rankWt, rankDate, ') (', nextRankWt, nextRankDate, ') ', dayOfWeek, '\n1. Vesper wt/date: ', hasErsteVesper_wt, hasErsteVesper_date)
+
+    // Stelle die endgültigen Daten zusammen
+    const finalData = {
+        ...todayData,
+        nextRank_wt: nextRankWt,
+        nextRank_date: nextRankDate
+    };
+    finalData.prefsollemnity = JSON.parse(JSON.stringify(finalData.vesper));
+
+    // Ersetze Vesper-Daten wenn nötig
+    if ((hasErsteVesper_wt || hasErsteVesper_date) && tomorrowData?.erstev) {
+        finalData.vesper = tomorrowData.erstev;
+        finalData.hasErsteVesper = true;
+    }
+
+    // Wende die finalen Verarbeitungsschritte an
+    processTerzPsalms(finalData);
+    processBenMagnAntiphons(finalData, calendarDate);
+    if (todayInfo.season === 'o') { processEasterResponses(finalData); }
+
+    return finalData;
 }

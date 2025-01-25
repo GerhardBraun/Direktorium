@@ -43,7 +43,7 @@ interface BrevierEntry {
   oration_komplet?: string;
   marant?: number;
   marant_lat?: number;
-  }
+}
 
 interface BrevierData {
   [season: string]: {
@@ -1429,7 +1429,10 @@ export const brevierData = {
     "Lehrer": {
       "each": {
         "ErsteV": {
-          "ant_ev": "Wer Gottes Gebote hält und sie halten lehrt, wird groß sein im Himmelreich."
+          "ant_ev": "Wer Gottes Gebote hält und sie halten lehrt, wird groß sein im Himmelreich.",
+          "bitten_e": "Lasst uns beten zu Gott, unserem Vater, dem Quell aller Heiligkeit:",
+          "bitten_r": "Herr, heilige dein Volk.",
+          "bitten": "Du bist wunderbar in deinen Heiligen;^qsende auch unserer Zeit heilige Männer.^pDu hast immer wieder heilige Männer berufen, dass sie deine Herrschaft in der Welt sichtbar machen;^qsteh allen bei, denen ein Dienst ^(Amt^) in der Welt aufgetragen ist.^pAuf die Fürsprache des heiligen ^N stärke alle, die an dich glauben;^qhilf ihnen, deinen Auftrag auszuführen, wo immer sie stehen.^pDer heilige ^N hat in den Prüfungen des Lebens standgehalten;^qgib allen Christen Großmut und Tapferkeit.^pVergib den Sündern ihre Schuld^qund lass dein Antlitz leuchten über unseren Verstorbenen."
         }
       }
     },
@@ -1440,6 +1443,23 @@ export const brevierData = {
           "ant_1": "",
           "ant_2": "",
           "ant_3": ""
+        },
+        "ErsteV": {
+          "hymn_1": 71215.0,
+          "hymn_kl": 0.0,
+          "ps_1": 113.0,
+          "ps_2": 146.0,
+          "ps_3": 152.0,
+          "ant_1": "Lobt unsern Gott, preist ihn, all seine Heiligen.^ö",
+          "ant_2": "Selig, die hungern und dürsten nach der Gerechtigkeit; sei werden gesättigt.^ö",
+          "ant_3": "Gepriesen sei Gott. in seiner Liebe hat er uns erwählt, damit wir heilig vor ihm leben.^ö",
+          "les_buch": "Phil",
+          "les_stelle": "3,7-9a",
+          "les_text": "Was mir ein Gewinn war, das habe ich um Christi Willen als Verlust erkannt. Ja noch mehr: ich sehe alles als Verlust an, weil die Erkenntnis Christi Jesu, meines Herrn, alles übertrifft. Seinetwegen habe ich alles aufgegeben und halte es für Unrat, um Christus zu gewinnen und in ihm zu sein.",
+          "resp1_1": "Der Herr hat ihn geliebt",
+          "resp1_2": "und ihn geschmückt mit Herrlichkeit und Ehre.",
+          "resp1_3": "Mit Pracht und Hoheit hat er ihn bekleidet.",
+          "ant_ev": "Wer meine Worte hört und sie befolgt, der gleicht einem klugen Mann, der sein Haus auf Fels gebaut hat.^ö"
         },
         "Laudes": {
           "name": "Hl",
@@ -1536,7 +1556,7 @@ export const brevierData = {
           "ant_ev": "Du guter und treuer Knecht, nimm teil an der Freude deines Herrn.^ö",
           "bitten_e": "Lasst uns beten zu Gott, unserem Vater, dem Quell aller Heiligkeit:",
           "bitten_r": "Herr, heilige dein Volk.",
-          "bitten": "Du bist wunderbar in deinen Heiligen;^qsende auch unserer Zeit heilige Männer.^pDu hast immer wieder heilige Männer berufen, dass sie deine Herrschaft in der Welt sichtbar machen;^qsteh allen bei, denen ein Dienst (Amt) in der Welt aufgetragen ist.^pAuf die Fürsprache des heiligen ^N stärke alle, die an dich glauben;^qhilf ihnen, deinen Auftrag auszuführen, wo immer sie stehen.^pDer heilige ^N hat in den Prüfungen des Lebens standgehalten;^qgib allen Christen Großmut und Tapferkeit.^pVergib den Sündern ihre Schuld^qund lass dein Antlitz leuchten über unseren Verstorbenen."
+          "bitten": "Du bist wunderbar in deinen Heiligen;^qsende auch unserer Zeit heilige Männer.^pDu hast immer wieder heilige Männer berufen, dass sie deine Herrschaft in der Welt sichtbar machen;^qsteh allen bei, denen ein Dienst ^(Amt^) in der Welt aufgetragen ist.^pAuf die Fürsprache des heiligen ^N stärke alle, die an dich glauben;^qhilf ihnen, deinen Auftrag auszuführen, wo immer sie stehen.^pDer heilige ^N hat in den Prüfungen des Lebens standgehalten;^qgib allen Christen Großmut und Tapferkeit.^pVergib den Sündern ihre Schuld^qund lass dein Antlitz leuchten über unseren Verstorbenen."
         }
       },
       "o": {
@@ -1556,26 +1576,43 @@ export const brevierData = {
           "ant_2": "",
           "ant_3": ""
         },
+        "ErsteV": {
+          "ant_ev": "Das Auge des Herrn ruht auf allen, die ihn fürchten und ehren und auf seine Güte vertrauen.^ö",
+          "bitten_e": "Lasst uns beten zu Gott, unserem Vater, dem Quell aller Heiligkeit:",
+          "bitten_r": "Herr, heilige dein Volk.",
+          "bitten": "Du bist wunderbar in deinen Heiligen;^qsende auch unserer Zeit heilige Männer.^pDu hast immer wieder heilige Männer berufen, dass sie deine Herrschaft in der Welt sichtbar machen;^qsteh allen bei, denen ein Dienst ^(Amt^) in der Welt aufgetragen ist.^pAuf die Fürsprache der heiligen ^N und ^N stärke alle, die an dich glauben;^qhilf ihnen, deinen Auftrag auszuführen, wo immer sie stehen.^pDer heiligen ^N und ^N haben in den Prüfungen des Lebens standgehalten;^qgib allen Christen Großmut und Tapferkeit.^pVergib den Sündern ihre Schuld^qund lass dein Antlitz leuchten über unseren Verstorbenen."
+        },
         "Laudes": {
           "ant_ev": "Selig, die Frieden stiften, die reinen Herzens sind; denn sie werden Gott schauen.^ö"
         },
         "Vesper": {
-          "ant_ev": "Sie waren treu bis in den Tod und empfingen vom Herrn die Krone des Lebens.^ö"
+          "ant_ev": "Sie waren treu bis in den Tod und empfingen vom Herrn die Krone des Lebens.^ö",
+          "bitten_e": "Lasst uns beten zu Gott, unserem Vater, dem Quell aller Heiligkeit:",
+          "bitten_r": "Herr, heilige dein Volk.",
+          "bitten": "Du bist wunderbar in deinen Heiligen;^qsende auch unserer Zeit heilige Männer.^pDu hast immer wieder heilige Männer berufen, dass sie deine Herrschaft in der Welt sichtbar machen;^qsteh allen bei, denen ein Dienst ^(Amt^) in der Welt aufgetragen ist.^pAuf die Fürsprache der heiligen ^N und ^N stärke alle, die an dich glauben;^qhilf ihnen, deinen Auftrag auszuführen, wo immer sie stehen.^pDer heiligen ^N und ^N haben in den Prüfungen des Lebens standgehalten;^qgib allen Christen Großmut und Tapferkeit.^pVergib den Sündern ihre Schuld^qund lass dein Antlitz leuchten über unseren Verstorbenen."
         }
       }
     },
     "Maria": {
       "each": {
+        "ErsteV": {
+          "hymn_1": 71019.0,
+          "hymn_2": 71020.0,
+          "hymn_kl": 0.0,
+          "ps_1": 113.0,
+          "ps_2": 147.2,
+          "ps_3": 152.0
+        },
         "Invitatorium": {
           "ps_24": 0,
-          "ant_0": "Christus, den Sohn Mariens – kommt, wir beten ihn an!",
+          "ant_0": "Christus, den Sohn Mariens – kommt, wir beten ihn an!^p^rOder:^0r^l^rAnt.^0r°°Am Fest der seligen Jungfrau Maria lasst uns den Herrn anbeten!",
           "ant_1": "",
           "ant_2": "",
           "ant_3": ""
         },
         "Laudes": {
           "name": "Mar",
-          "hymn_1": 9999.0,
+          "hymn_1": 81012.0,
           "hymn_kl": 0.0,
           "ps_1": 63.0,
           "ps_2": 160.0,
@@ -1595,7 +1632,8 @@ export const brevierData = {
           "bitten": "com-Maria-each-Laudes-Bitten"
         },
         "Lesehore": {
-          "hymn_1": 9999.0,
+          "hymn_1": 71026.0,
+          "hymn_2": 71027.0,
           "hymn_nacht": 0.0,
           "ps_1": 24.0,
           "ps_2": 46.0,
@@ -1647,7 +1685,8 @@ export const brevierData = {
           "resp1_1": "com-Maria-each-Terz-Resp1_1"
         },
         "Vesper": {
-          "hymn_1": 9999.0,
+          "hymn_1": 71019.0,
+          "hymn_2": 71043.0,
           "ps_1": 122.0,
           "ps_2": 127.0,
           "ps_3": 152.0,
@@ -2943,6 +2982,9 @@ export const brevierData = {
         "ErsteV": {
           "name": "1. Vesper zum Hochfest des hl. Josef",
           "hymn_1": 83191.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ant_1": "Josef, der Sohn Jakobs, war der Gemahl Marias. Von ihr wurde Jesus geboren, der Christus genannt wird.^ö",
           "ant_2": "Der Engel Gabriel wurde zu Maria, der Jungfrau, gesandt, die mit Josef verlobt war.^ö",
           "ant_3": "Maria, die Mutter Jesu, war mit Josef verlobt; noch bevor sie zusammenlebten, zeigte sich, dass Maria gesegnet war. Sie hatte empfangen durch den Heiligen Geist.^ö",
@@ -2963,6 +3005,9 @@ export const brevierData = {
         "Laudes": {
           "name": "Hl. Josef, Bräutigam der Gottesmutter",
           "hymn_1": 83191.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ant_1": "Die Hirten eilten hin und fanden Maria und Josef und das Kind, das in der Krippe lag.^ö.",
           "ant_2": "Josef und Maria, die Mutter Jesu, hörten voll Staunen, was man über Jesus sagte. Und Simeon segnete sie.^ö",
           "ant_3": "Noch in der Nacht stand Josef auf, nahm das Kind und seine Mutter und floh nach Ägypten. Dort blieb er bis zum Tode des Herodes.^ö",
@@ -2979,6 +3024,9 @@ export const brevierData = {
         },
         "Lesehore": {
           "hymn_1": 83192.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_nacht": 0.0,
           "ant_1": "Ein Engel des Herrn erschien dem Josef und sprach: Josef, Sohn Davids, fürchte dich nicht, Maria als deine Frau zu dir zu nehmen. Sie wird einen Sohn gebären; ihm sollst du den Namen Jesus geben.^ö",
           "ant_2": "Als Josef erwachte, tat er, was der Engel des Herrn ihm geboten hatte, und nahm Maria zu sich.^ö",
           "ant_3": "Josef zog von Nazaret hinauf in die Stadt Davids, die Betlehem heißt, um sich eintragen zu lassen mit Maria, seiner Vermählten.^ö",
@@ -3023,6 +3071,9 @@ export const brevierData = {
         },
         "Vesper": {
           "hymn_1": 83191.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ant_1": "Nach drei Tagen fanden sie Jesus im Tempel; er saß mitten unter den Lehrern, hörte ihnen zu und stellte Fragen.^ö",
           "ant_2": "Die Mutter Jesu sagte zu ihm: Kind, wie konntest du uns das antun! Dein Vater und ich haben dich voll Angst gesucht.^ö",
           "ant_3": "Jesus zog mit ihnen hinab und kam nach Nazaret – und er war ihnen untertan.^ö",
@@ -3046,6 +3097,9 @@ export const brevierData = {
         "ErsteV": {
           "name": "1. Vesper zu Verkündigung des Herrn",
           "hymn_1": 83250.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ps_1": 113.0,
           "ps_2": 147.2,
           "ps_3": 157.0,
@@ -3069,6 +3123,8 @@ export const brevierData = {
         "Laudes": {
           "name": "Verkündigung des Herrn",
           "hymn_1": 83250.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_1": "Der Engel Gabriel wurde zu Maria, der Jungfrau, gesandt, die mit Josef verlobt war.^ö",
           "ant_2": "Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes.^ö",
           "ant_3": "Die Jungfrau empfing durch das Wort; Jungfrau blieb sie und hat als Jungfrau den Heiland geboren.^ö",
@@ -3084,6 +3140,9 @@ export const brevierData = {
         },
         "Lesehore": {
           "hymn_1": 71026.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_nacht": 0.0,
           "ps_1": 2.0,
           "ps_2": 19.1,
           "ps_3": 45.0,
@@ -3132,7 +3191,9 @@ export const brevierData = {
         },
         "Vesper": {
           "hymn_1": 83250.0,
-          "hymn_2": 71041.0,
+          "hymn_2": 71019.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ps_1": 110.0,
           "ps_2": 130.0,
           "ps_3": 154.0,
@@ -9212,7 +9273,7 @@ export const brevierData = {
       "6": {
         "Laudes": {
           "hymn_1": 216.0,
-          "hymn_kl": 226.0,
+          "hymn_kl": 71027.0,
           "ps_1": 92.0,
           "ps_2": 176.0,
           "ps_3": 8.0,
@@ -9281,7 +9342,7 @@ export const brevierData = {
           "hymn_1": 346.0,
           "hymn_kl": 326.0,
           "ps_1": 113.0,
-          "ps_2": 116.0,
+          "ps_2": 116.2,
           "ps_3": 157.0,
           "ant_1": "Vom Aufgang der Sonne bis zu ihrem Untergang sei gelobt der Name des Herrn. Halleluja.",
           "ant_2": "Ich will den Kelch des Heiles erheben und anrufen den Namen des Herrn. Halleluja.",
@@ -9821,7 +9882,7 @@ export const brevierData = {
       "6": {
         "Laudes": {
           "hymn_1": 216.0,
-          "hymn_kl": 236.0,
+          "hymn_kl": 71043.0,
           "ps_1": 119.145,
           "ps_2": 186.0,
           "ps_3": 117.0,
@@ -10670,6 +10731,12 @@ export const brevierData = {
           "hymn_2": 631.0
         },
         "Vesper": {
+          "ev": 301.0,
+          "ev_lat": 302.0,
+          "vu": 206.0,
+          "vu_lat": 207.0
+        },
+        "ErsteV": {
           "ev": 301.0,
           "ev_lat": 302.0,
           "vu": 206.0,
