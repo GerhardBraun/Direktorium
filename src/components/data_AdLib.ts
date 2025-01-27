@@ -1753,13 +1753,19 @@ export const adlibData = {
         "name": "Unsere Liebe Frau in Fatima",
         "genitiv": "",
         "ErsteV": {
-          "name": "Unsere Liebe Frau in Fatima"
+          "name": "Unsere Liebe Frau in Fatima",
+          "oration": "Gott, unser Vater, du hast die Mutter deines Sohnes auch uns zur Mutter gegeben. Gewähre uns, dass wir in Buße und Gebet für das Heil der Welt verharren und von Tag zu Tag wirk­samer zum Kommen des Reiches Christi beitragen. Darum bitten wir durch ihn, Jesus Christus, deinen Sohnes, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in Ewigkeit. Amen."
+        },
+        "Lesehore": {
+          "oration": "Gott, unser Vater, du hast die Mutter deines Sohnes auch uns zur Mutter gegeben. Gewähre uns, dass wir in Buße und Gebet für das Heil der Welt verharren und von Tag zu Tag wirk­samer zum Kommen des Reiches Christi beitragen. Darum bitten wir durch ihn, Jesus Christus, deinen Sohnes, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in Ewigkeit. Amen."
         },
         "Laudes": {
-          "name": "Unsere Liebe Frau in Fatima"
+          "name": "Unsere Liebe Frau in Fatima",
+          "oration": "Gott, unser Vater, du hast die Mutter deines Sohnes auch uns zur Mutter gegeben. Gewähre uns, dass wir in Buße und Gebet für das Heil der Welt verharren und von Tag zu Tag wirk­samer zum Kommen des Reiches Christi beitragen. Darum bitten wir durch ihn, Jesus Christus, deinen Sohnes, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in Ewigkeit. Amen."
         },
         "Vesper": {
-          "name": "Unsere Liebe Frau in Fatima"
+          "name": "Unsere Liebe Frau in Fatima",
+          "oration": "Gott, unser Vater, du hast die Mutter deines Sohnes auch uns zur Mutter gegeben. Gewähre uns, dass wir in Buße und Gebet für das Heil der Welt verharren und von Tag zu Tag wirk­samer zum Kommen des Reiches Christi beitragen. Darum bitten wir durch ihn, Jesus Christus, deinen Sohnes, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in Ewigkeit. Amen."
         }
       }
     },

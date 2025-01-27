@@ -312,8 +312,11 @@ function processCommune(hours, commune, season, targetSource, communeNumber) {
 function processNichtgeboteneGedenktage(hours, season, calendarMonth, calendarDay) {
     const nichtgebData = adlibData?.[calendarMonth]?.[calendarDay];
     if (nichtgebData) {
-        for (let i = 1; i <= 5; i++) {
-            const sourceKey = `n${i}`;
+        // Array mit allen zu durchsuchenden Schlüsseln
+        const sourceKeys = ['eig', 'n1', 'n2', 'n3', 'n4', 'n5'];
+
+        // Map über alle Schlüssel
+        sourceKeys.map(sourceKey => {
             const sourceData = nichtgebData[sourceKey];
 
             if (sourceData) {
@@ -331,7 +334,7 @@ function processNichtgeboteneGedenktage(hours, season, calendarMonth, calendarDa
                     });
                 });
             }
-        }
+        });
     }
 }
 
@@ -356,7 +359,6 @@ function processHeiligenfeste(hours, season, rank_date, dayOfWeek, calendarMonth
         });
     }
 
-    // Rest of the function remains the same...
     const rankData = brevierData?.[rank_date]?.['each']?.['each'];
     if (rankData) mergeData(hours, rankData, 'eig');
 

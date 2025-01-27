@@ -1012,7 +1012,7 @@ const PrayerMenu = ({ title, onSelectHour, viewMode, setViewMode, season,
 
                     let displayText = hour.charAt(0).toUpperCase() + hour.slice(1);
                     if (hour === 'vesper') {
-                        if (prayerTexts?.vesper?.eig?.name) {
+                        if (prayerTexts?.vesper?.eig?.name && prayerTexts.hasErsteVesper) {
                             displayText = prayerTexts.vesper.eig.name;
                         } else if (prayerTexts?.vesper?.wt?.name) {
                             displayText = prayerTexts.vesper.wt.name;
@@ -1540,65 +1540,67 @@ const PrayerTextDisplay = ({
                         )}
                     </div>)}
 
-                <div className="mb-1">
-                    <SectionHeader title="PSALMODIE" field="ps_1" />
-                    {getValue('ant_0') && (
-                        <div className="mb-4">
-                            <Rubric style={{ display: 'inline' }}>Ant.&nbsp;</Rubric>
-                            {formatPrayerText(getValue('ant_0'))}
-                        </div>)}
+                {getValue('ps_1') && (
+                    <div className="mb-1">
+                        <SectionHeader title="PSALMODIE" field="ps_1" />
+                        {getValue('ant_0') && (
+                            <div className="mb-4">
+                                <Rubric style={{ display: 'inline' }}>Ant.&nbsp;</Rubric>
+                                {formatPrayerText(getValue('ant_0'))}
+                            </div>)}
 
-                    {[95, 100, 67, 24].map(num => {
-                        const psalm = getValue(`ps_${num}`);
-                        if (!psalm) return null;
+                        {[95, 100, 67, 24].map(num => {
+                            const psalm = getValue(`ps_${num}`);
+                            if (!psalm) return null;
 
-                        return (
-                            <div key={num} className="mb-4">
-                                {(num !== 95) && (<Rubric>Oder:</Rubric>)}
-                                {psalm && formatPsalm(
-                                    psalm.number,
-                                    '', '', '',
-                                    psalm.text
-                                )}
+                            return (
+                                <div key={num} className="mb-4">
+                                    {(num !== 95) && (<Rubric>Oder:</Rubric>)}
+                                    {psalm && formatPsalm(
+                                        psalm.number,
+                                        '', '', '',
+                                        psalm.text
+                                    )}
+                                </div>
+                            );
+                        })}
+                        {[1, 2, 3].map(num => {
+                            const psalm = getValue(`ps_${num}`);
+                            const ant = getValue(`ant_${num}`);
+                            if (!psalm && !ant) return null;
+
+                            return (
+                                <div key={num} className="mb-6">
+                                    {ant && (
+                                        <div className="mb-3" >
+                                            <Rubric >{num}. Ant.&nbsp;&nbsp;</Rubric>
+                                            {formatPrayerText(ant)}
+                                        </div>
+                                    )}
+                                    {psalm && formatPsalm(
+                                        psalm.number,
+                                        psalm.verses,
+                                        psalm.title,
+                                        psalm.quote,
+                                        psalm.text
+                                    )}
+                                    {ant && (
+                                        <div >
+                                            <Rubric>{num}. Ant.&nbsp;&nbsp;</Rubric>
+                                            {formatPrayerText(ant)}
+                                        </div>
+                                    )}
+                                </div>
+                            );
+                        })}
+                        {getValue('ant_0') && (
+                            <div>
+                                <Rubric>Ant.&nbsp;</Rubric>
+                                {formatPrayerText(getValue('ant_0'))}
                             </div>
-                        );
-                    })}
-                    {[1, 2, 3].map(num => {
-                        const psalm = getValue(`ps_${num}`);
-                        const ant = getValue(`ant_${num}`);
-                        if (!psalm && !ant) return null;
-
-                        return (
-                            <div key={num} className="mb-6">
-                                {ant && (
-                                    <div className="mb-3" >
-                                        <Rubric >{num}. Ant.&nbsp;&nbsp;</Rubric>
-                                        {formatPrayerText(ant)}
-                                    </div>
-                                )}
-                                {psalm && formatPsalm(
-                                    psalm.number,
-                                    psalm.verses,
-                                    psalm.title,
-                                    psalm.quote,
-                                    psalm.text
-                                )}
-                                {ant && (
-                                    <div >
-                                        <Rubric>{num}. Ant.&nbsp;&nbsp;</Rubric>
-                                        {formatPrayerText(ant)}
-                                    </div>
-                                )}
-                            </div>
-                        );
-                    })}
-                    {getValue('ant_0') && (
-                        <div>
-                            <Rubric>Ant.&nbsp;</Rubric>
-                            {formatPrayerText(getValue('ant_0'))}
-                        </div>
-                    )}
-                </div>
+                        )}
+                    </div>
+                )}
                 {getValue('resp0_0') && (
                     <div className="mb-1">
                         <SectionHeader title="VERSIKEL" field="resp0_0" />
@@ -1839,8 +1841,9 @@ const PrayerTextDisplay = ({
                 <BackButton onClick={onBack} />
             </div>
 
-            {isCommemoration && !prefSollemnity && !(hour === 'vesper' && texts?.hasErsteVesper) &&
-                ['lesehore', 'laudes', 'vesper'].includes(hour) && (
+            {isCommemoration && !prefSollemnity && !(hour === 'vesper' && texts.hasErsteVesper) &&
+                ['lesehore', 'laudes', 'vesper'].includes(hour) &&
+                (texts?.laudes?.['eig']?.oration || texts?.laudes?.['n1']?.oration) && (
                     <>
                         <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6 pb-1">
                             <SourceSelector

@@ -64,7 +64,9 @@ export const getValue = ({ hour, texts, field,
         (localPrefComm === 2 || prefSollemnity ||
             (texts.hasErsteVesper && hour === 'vesper'));
 
-    if (!isCommemoration || isSollemnity) {  // an Tagen mit Kommemoration nur wt-Werte
+    if ((!isCommemoration &&    // an Tagen mit Kommemoration und in Kl. Horen an Gedenktagen nur wt-Werte
+        !(rank_date < 3 && ['terz', 'sext', 'non'].includes(hour)))
+        || isSollemnity) {
         // Sonderfall Hymnen
         if ((field === 'hymn_kl' || field === 'hymn_nacht') &&
             (texts[hour]?.[prefSrc]?.['hymn_1']
