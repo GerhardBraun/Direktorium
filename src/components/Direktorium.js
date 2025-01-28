@@ -1175,7 +1175,6 @@ const PrayerTextDisplay = ({
             (texts?.hasErsteVesper && hour === 'vesper')
         ) { skipCommune = false };
 
-        if (!showComm2) { skipCommune = true }; // wenn nur ein Comm, keine Auswahlanzeige nötig
         /////
 
         if (title === "RESPONSORIUM" ||
@@ -1305,7 +1304,7 @@ const PrayerTextDisplay = ({
                         ))}
                 </div>
                 {title && <div className="text-[0.9em] text-gray-400 mb-[0.66em]">{title}</div>}
-                {quote && <div className="text-[0.9em] leading-[1.1em] italic text-gray-400 -mt-[0.66em] mb-[0.66em]">{quote}</div>}
+                {quote && <div className="text-[0.9em] leading-[1.1em] italic text-gray-400 -mt-[0.66em] mb-[0.66em]">{formatPrayerText(quote)}</div>}
                 {text && <div className="whitespace-pre-wrap">{formatPrayerText(text)}</div>}
                 {number !== 160 && <div className="whitespace-pre-wrap">{formatPrayerText(doxology)}</div>}
             </div >
@@ -1540,7 +1539,7 @@ const PrayerTextDisplay = ({
                         )}
                     </div>)}
 
-                {getValue('ps_1') && (
+                {(getValue('ps_1') || getValue('ps_95')) && (
                     <div className="mb-1">
                         <SectionHeader title="PSALMODIE" field="ps_1" />
                         {getValue('ant_0') && (
