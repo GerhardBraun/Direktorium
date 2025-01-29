@@ -165,6 +165,11 @@ function getPrayerTexts(date, calendarDate = 0) {
             mergeData(hours, ordbaseData, 'wt');
         }
 
+        if (season === 'o') {
+            const ordbaseData = brevierData['po']?.[adjustedWeek]?.[dayOfWeek];
+            mergeData(hours, ordbaseData, 'wt');
+        }
+
         // Layer 2: Season-wide texts
         const seasonData = brevierData[season]?.['each']?.['each'];
         mergeData(hours, seasonData, 'wt');

@@ -43,7 +43,7 @@ interface BrevierEntry {
   oration_komplet?: string;
   marant?: number;
   marant_lat?: number;
-}
+  }
 
 interface BrevierData {
   [season: string]: {
@@ -9000,7 +9000,7 @@ export const brevierData = {
           "hymn_1": 212.0,
           "ps_1": 24.0,
           "ps_2": 162.0,
-          "ps_3": 33.0,
+          "ps_3": 33.101,
           "ant_1": "Wer reine Hände hat und ein lauteres Herz, darf hinaufziehen zum Berg des Herrn.",
           "ant_2": "Preist den Herrn der Gerechtigkeit, rühmt den ewigen König.",
           "ant_3": "Ihr Gerechten, jubelt vor dem Herrn; für die Frommen ziemt es sich, Gott zu loben.",
@@ -9103,7 +9103,7 @@ export const brevierData = {
         "Lesehore": {
           "hymn_1": 403.0,
           "hymn_nacht": 1402.0,
-          "ps_1": 18.1,
+          "ps_1": 18.101,
           "ps_2": 18.2,
           "ps_3": 18.3,
           "ant_1": "Ich will dich rühmen, Herr, meine Stärke.^ö",
@@ -9144,7 +9144,7 @@ export const brevierData = {
         },
         "Vesper": {
           "hymn_1": 313.0,
-          "ps_1": 27.1,
+          "ps_1": 27.101,
           "ps_2": 27.2,
           "ps_3": 154.0,
           "ant_1": "Der Herr ist mein Licht und mein Heil: Vor wem sollte ich mich fürchten?",
@@ -9168,7 +9168,7 @@ export const brevierData = {
           "hymn_1": 214.0,
           "ps_1": 57.0,
           "ps_2": 164.0,
-          "ps_3": 48.0,
+          "ps_3": 48.101,
           "ant_1": "Wacht auf, Harfe und Saitenspiel, ich will das Morgenrot wecken.",
           "ant_2": "So spricht der Herr: Mein Volk wird satt an meinen Gaben.",
           "ant_3": "Groß ist der Herr und hoch zu preisen in der Stadt unseres Gottes.",
@@ -9594,7 +9594,7 @@ export const brevierData = {
           "hymn_kl": 401.0,
           "ps_1": 43.0,
           "ps_2": 172.0,
-          "ps_3": 65.0,
+          "ps_3": 65.101,
           "ant_1": "Sende dein Licht und deine Wahrheit, dass sie mich führen zu deinem heiligen Berg.",
           "ant_2": "Sei unsere Hilfe, Herr, alle Tage unseres Lebens.",
           "ant_3": "Dir gebührt Lobgesang, Gott, auf dem Zion, dir erfüllt man Gelübde.",
@@ -9682,7 +9682,7 @@ export const brevierData = {
           "hymn_kl": 402.0,
           "ps_1": 77.0,
           "ps_2": 173.0,
-          "ps_3": 97.0,
+          "ps_3": 97.101,
           "ant_1": "Gott, dein Weg ist heilig. Wo ist ein Gott, so groß wie unser Gott?",
           "ant_2": "Mein Herz ist voll Freude über den Herrn; er erniedrigt, und er erhöht.",
           "ant_3": "Der Herr ist König. Die Erde frohlocke!",
@@ -9767,7 +9767,7 @@ export const brevierData = {
           "hymn_kl": 1402.0,
           "ps_1": 80.0,
           "ps_2": 174.0,
-          "ps_3": 81.0,
+          "ps_3": 81.101,
           "ant_1": "Biete auf deine Macht und komm uns zu Hilfe, Herr, unser Gott.",
           "ant_2": "Herrliche Taten hat Gott vollbracht; die ganze Erde soll es wissen.",
           "ant_3": "Jubelt Gott zu, er ist unsre Zuflucht.",
@@ -9852,7 +9852,7 @@ export const brevierData = {
           "hymn_kl": 403.0,
           "ps_1": 51.0,
           "ps_2": 175.0,
-          "ps_3": 147.2,
+          "ps_3": 147.201,
           "ant_1": "Ein zerbrochenes und zerschlagenes Herz wirst du, o°Gott, nicht verschmähen.",
           "ant_2": "Auch wenn du zürnst, Herr, denk an dein Erbarmen.",
           "ant_3": "Jerusalem, preise den Herrn; Zion, lobsinge deinem Gott!",
@@ -10045,7 +10045,7 @@ export const brevierData = {
           "hymn_1": 400.0,
           "ps_1": 145.2,
           "ps_2": 145.3,
-          "ps_3": 145.4,
+          "ps_3": 145.401,
           "ant_1": "Ich will dich preisen Tag für Tag und deinen Namen loben immer und ewig. Halleluja.",
           "ant_2": "Dein Königtum, o°Herr, ist ein Königtum für ewige Zeiten. Halleluja.",
           "ant_3": "Der Herr ist treu in all seinen Worten, voll Huld in all seinen Taten. Halleluja.",
@@ -10218,7 +10218,7 @@ export const brevierData = {
         "Lesehore": {
           "hymn_1": 402.0,
           "hymn_nacht": 2402.0,
-          "ps_1": 68.1,
+          "ps_1": 68.101,
           "ps_2": 68.2,
           "ps_3": 68.3,
           "ant_1": "Gott steht auf; seine Feinde zerstieben; die ihn hassen, fliehen vor seinem Angesicht.^ö",
@@ -10304,7 +10304,7 @@ export const brevierData = {
         "Lesehore": {
           "hymn_1": 403.0,
           "hymn_nacht": 1402.0,
-          "ps_1": 89.1,
+          "ps_1": 89.101,
           "ps_2": 89.2,
           "ps_3": 89.3,
           "ant_1": "Von deiner Huld, o°Herr, will ich ewig singen, bis zum fernsten Geschlecht will ich laut deine Treue verkünden.^ö",
@@ -10741,7 +10741,7 @@ export const brevierData = {
         "Lesehore": {
           "hymn_1": 401.0,
           "hymn_nacht": 405.0,
-          "ps_1": 73.1,
+          "ps_1": 73.101,
           "ps_2": 73.2,
           "ps_3": 73.3,
           "ant_1": "Lauter Güte ist Gott für Israel, für alle Menschen mit reinem Herzen.^ö",
@@ -10980,7 +10980,7 @@ export const brevierData = {
           "hymn_kl": 244.0,
           "ps_1": 143.0,
           "ps_2": 194.0,
-          "ps_3": 147.1,
+          "ps_3": 147.101,
           "ant_1": "Herr, lass mich deine Huld erfahren am frühen Morgen.",
           "ant_2": "Wie einen Strom leitet der Herr den Frieden nach Jerusalem.",
           "ant_3": "Gut ist es, unserem Gott zu singen, schön ist es, ihn zu loben.",
@@ -11287,7 +11287,7 @@ export const brevierData = {
         "Komplet": {
           "hymn_2": 513.0,
           "ps_1": 31.4,
-          "ps_2": 130.0,
+          "ps_2": 130.101,
           "ant_1": "Sei mir ein schützender Fels, eine feste Burg, die mich rettet.",
           "ant_2": "Aus der Tiefe rufe ich, Herr, zu dir.",
           "les_buch": "Eph",
@@ -11460,6 +11460,294 @@ export const brevierData = {
           "ant_1": "Dem Himmel und der Erde ruft Gott zu, er werde sein Volk nun richten.",
           "ant_2": "Rufe mich an am Tag der Not, und ich werde dich retten.",
           "ant_3": "Wer Opfer des Lobes bringt, ehrt mich; wer rechtschaffen lebt, dem zeig’ ich mein Heil."
+        }
+      }
+    }
+  },
+  "po": {
+    "1": {
+      "1": {
+        "Laudes": {
+          "ant_1": "In dir sollen sich rühmen alle, die deinen Namen lieben.^ö",
+          "ant_2": "Dein ist die Herrschaft, du erhebst dich als Haupt über alles.^ö",
+          "ant_3": "Der Herr thront als König in Ewigkeit.^ö"
+        },
+        "Vesper": {
+          "ant_1": "Habt Vertrauen, ich habe die Welt überwunden.^ö",
+          "ant_2": "Dein Gerechter darf wohnen in deinem Zelt und weilen auf deinem heiligen Berg.^ö",
+          "ant_3": "Wenn ich von der Erde erhöht bin, werde ich alle an mich ziehen.^ö"
+        }
+      },
+      "2": {
+        "Laudes": {
+          "ps_3": 33.0,
+          "ant_1": "Der herabstieg zur Erde, ist auch hinaufgestiegen bis zum höchsten Himmel, um das All zu beherrschen.^ö",
+          "ant_2": "Preist den Herrn, ihr seine Erwählten, feiert Tage der Freude, verkündet sein Lob.^ö",
+          "ant_3": "Die Erde ist erfüllt von der Huld des Herrn.^ö"
+        },
+        "Vesper": {
+          "ant_1": "Jetzt ist gekommen das Reich unseres Gottes und die Herrschaft seines Gesalbten.^ö",
+          "ant_2": "Du hast die Macht empfangen und die Herrschaft ergriffen.^ö",
+          "ant_3": "Die ganze Schöpfung, Herr, muss dir dienen, denn du hast gesprochen, und alles entstand.^ö"
+        }
+      },
+      "3": {
+        "Laudes": {
+          "ant_1": "Bei dir, o Herr, ist die Quelle des Lebens.^ö",
+          "ant_2": "Du sandtest deinen Geist, um dein Werk zu vollenden.^ö",
+          "ant_3": "König der ganzen Erde ist Gott; singt ihm ein würdiges Lied.^ö"
+        },
+        "Vesper": {
+          "ps_1": 27.1,
+          "ant_1": "Gott hat Jesus als Herrscher und Retter an seine rechte Seite erhoben.^ö",
+          "ant_2": "Darauf vertraue ich fest: Ich werde schauen Gottes Güte im Lande der Lebenden.^ö",
+          "ant_3": "In ihm und durch ihn und auf ihn hin ist alles; ihm sei die Ehre in alle Ewigkeit.^ö"
+        }
+      },
+      "4": {
+        "Laudes": {
+          "ps_3": 48.0,
+          "ant_1": "Erhebe dich über die Himmel, o Gott.^ö",
+          "ant_2": "Der Herr hat sein Volk erlöst, Er hat es befreit aus der Hand seiner Feinde.^ö",
+          "ant_3": "Der Herr ist unser Gott für immer und ewig.^ö"
+        },
+        "Vesper": {
+          "ant_1": "Du hast meine Trauer in Freude verwandelt.^ö",
+          "ant_2": "Wir sind mit Gott versöhnt durch den Tod seines Sohnes.^ö",
+          "ant_3": "Wer ist wie du, o Herr! Wer ist wie du gewaltig und heilig?^ö"
+        }
+      },
+      "5": {
+        "Laudes": {
+          "ps_2": 165.101,
+          "ant_1": "Gedenke meiner, Herr, du mein Gott, wenn du in dein Reich kommst.^ö",
+          "ant_2": "Wahrhaftig, du bist ein verborgener Gott. Israels Gott ist der Retter.^ö",
+          "ant_3": "Dient dem Herrn mit Freude.^ö"
+        },
+        "Vesper": {
+          "ant_1": "Christus wurde unseretwegen arm; durch seine Armut hat er uns reich gemacht.^ö",
+          "ant_2": "Ströme lebendigen Wassers erquicken die Gottesstadt, des Höchsten heilige Wohnung.^ö",
+          "ant_3": "Singen will ich dem Herrn, denn er ist hoch erhaben.^ö"
+        }
+      },
+      "6": {
+        "Laudes": {
+          "ant_1": "In deiner Huld, o Herr, belebe mich neu.^ö",
+          "ant_2": "Alle, die siegen, singen das Lied des Mose, des Knechtes Gottes, und das Lied zu Ehren des Lammes.^ö",
+          "ant_3": "Mächtig waltet über uns seine Huld.^ö"
+        }
+      }
+    },
+    "2": {
+      "1": {
+        "Laudes": {
+          "ps_1": 42.101,
+          "ant_1": "Wie der Hirsch lechzt nach frischem Wasser, so lechzt meine Seele, Gott, nach dir.^ö",
+          "ant_2": "Erfülle dein Volk mit deinem Wort, damit es deine Wunder verkünde.^ö",
+          "ant_3": "Die Herrlichkeit des Herrn durchstrahlt die Gottesstadt, und ihre Leuchte ist das Lamm.^ö"
+        },
+        "Vesper": {
+          "ant_1": "Hochgelobt sei, der da kommt im Namen des Herrn.^ö",
+          "ant_2": "Selig, die zum Hochzeitsmahl des Lammes geladen sind.^ö",
+          "ant_3": "Aus seiner Fülle haben wir alle empfangen, Gnade über Gnade.^ö"
+        }
+      },
+      "2": {
+        "Laudes": {
+          "ps_3": 65.0,
+          "ant_1": "Ihr seid hinzugetreten zum Berge Zion, zur Stadt des lebendigen Gottes.^ö",
+          "ant_2": "Herr, du hast mich bewahrt vor dem Abgrund des Todes.^ö",
+          "ant_3": "Herr, du hast für das Land gesorgt und es mit Reichtum überschüttet.^ö"
+        },
+        "Vesper": {
+          "ant_1": "Richtet euren Sinn auf das Himmlische, nicht auf das Irdische.^ö",
+          "ant_2": "Der Herr hat mich losgekauft aus dem Reich des Todes.^ö",
+          "ant_3": "Dein, o Herr, ist die Größe und die Macht. Dein ist der Ruhm und der Sieg.^ö"
+        }
+      },
+      "3": {
+        "Laudes": {
+          "ps_3": 97.0,
+          "ant_1": "O Gott, die Wasser sahen dich und bebten: Du führtest dein Volk durch das Meer.^ö",
+          "ant_2": "Der Herr gibt den Tod und das Leben, er führt zu den Toten hinab und führt auch herauf.^ö",
+          "ant_3": "Licht erstrahlt den Gerechten, Freude den Menschen mit redlichem Herzen.^ö"
+        },
+        "Vesper": {
+          "ant_1": "Euer Herz sei ohne Angst, glaubt an Gott und glaubt an mich.^ö",
+          "ant_2": "Die Völker sollen dir danken, o Gott, und jubeln über dein Heil.^ö",
+          "ant_3": "Seine Hoheit überstrahlt den Himmel, sein Ruhm erfüllt die Erde.^ö"
+        }
+      },
+      "4": {
+        "Laudes": {
+          "ps_3": 81.0,
+          "ant_1": "Ich bin der Weinstock, ihr seid die Reben.^ö",
+          "ant_2": "Schöpfet voll Freude das Wasser aus den Quellen des Heils.^ö",
+          "ant_3": "Mit bestem Weizen nährt uns der Herr.^ö"
+        },
+        "Vesper": {
+          "ant_1": "Er ist eingesetzt von Gott als Richter über Lebende und Tote.^ö",
+          "ant_2": "In ihm sollen gesegnet sein alle Völker der Erde.^ö",
+          "ant_3": "Jesus Christus ist derselbe gestern und heute und in Ewigkeit.^ö"
+        }
+      },
+      "5": {
+        "Laudes": {
+          "ps_3": 147.2,
+          "ant_1": "Hab Vertrauen, mein Sohn, deine Sünden sind dir vergeben.^ö",
+          "ant_2": "Herr, du zogst aus, dein Volk zu retten und deinem Gesalbten zu helfen.^ö",
+          "ant_3": "Lobsinge, Zion, deinem Gott. Er verschafft deinen Grenzen Frieden.^ö"
+        },
+        "Vesper": {
+          "ant_1": "Herr, du hast mein Leben dem Tode entrissen.^ö",
+          "ant_2": "Wie den Stern seines Auges hat der Herr sein Volk behütet.^ö",
+          "ant_3": "Meine Stärke und mein Lied ist der Herr, er ist mein Retter geworden.^ö"
+        }
+      },
+      "6": {
+        "Laudes": {
+          "ant_1": "Du hast mich froh gemacht, o Herr; ich will jubeln über die Werke deiner Hände.^ö",
+          "ant_2": "Ich bin es, spricht der Herr, der tötet und der lebendig macht; ich verwunde und mache wieder heil.^ö",
+          "ant_3": "Du hast deinen Gesalbten gekrönt mit Herrlichkeit und Ehre.^ö"
+        }
+      }
+    },
+    "3": {
+      "1": {
+        "Laudes": {
+          "ant_1": "Mein Herz und mein Leib jauchzen ihm zu, ihm, dem lebendigen Gott.^ö",
+          "ant_2": "Das Haus des Herrn ragt hoch empor, zu ihm strömen alle Völker.^ö",
+          "ant_3": "Verkündet bei den Völkern: Der Herr ist König.^ö"
+        },
+        "Vesper": {
+          "ant_1": "Der Herr ist dein ewiges Licht, dein Gott deine strahlende Herrlichkeit.^ö",
+          "ant_2": "Das Netz ist zerrissen, und wir sind frei.^ö",
+          "ant_3": "Wenn ich von der Erde erhöht bin, werde ich alle an mich ziehen.^ö"
+        }
+      },
+      "2": {
+        "Laudes": {
+          "ant_1": "Herr, du schenkst uns neues Leben, und dein Volk freut sich in dir.^ö",
+          "ant_2": "Wir haben auf den Herrn gehofft. Er hat uns Frieden geschenkt.^ö",
+          "ant_3": "Das Land gab seinen Ertrag. Die Völker sollen sich freuen und jubeln.^ö"
+        },
+        "Vesper": {
+          "ant_1": "Friede sei mit euch, ich bin es, fürchtet euch nicht.^ö",
+          "ant_2": "Israel, harre auf den Herrn.^ö",
+          "ant_3": "Die ganze Schöpfung, Herr, muss dir dienen, denn du hast gesprochen, und alles entstand.^ö"
+        }
+      },
+      "3": {
+        "Laudes": {
+          "ant_1": "Alle Völker kommen und beten dich an.^ö",
+          "ant_2": "Unsere Augen werden den König sehen in seiner Schönheit und Pracht.^ö",
+          "ant_3": "Alles Fleisch wird schauen das Heil unseres Gottes.^ö"
+        },
+        "Vesper": {
+          "ant_1": "Eure Trauer wird verwandelt in Freude.^ö",
+          "ant_2": "Ob wir leben oder sterben, wir gehören dem Herrn.^ö",
+          "ant_3": "In ihm und durch ihn und auf ihn hin ist alles: ihm sei die Ehre in alle Ewigkeit.^ö"
+        }
+      },
+      "4": {
+        "Laudes": {
+          "ant_1": "Wir werden singen wie beim Reigentanz: All meine Quellen entspringen in dir.^ö",
+          "ant_2": "Wie ein Hirt sammelt der Herr seine Herde und trägt die Lämmer auf dem Arm.^ö",
+          "ant_3": "Groß ist der Herr auf Zion, über alle Völker erhaben.^ö"
+        },
+        "Vesper": {
+          "ant_1": "Gott, der Herr, hat ihm den Thron seines Vaters David gegeben.^ö",
+          "ant_2": "Jesus Christus ist der einzige Herrscher, der König der Könige, der Herr aller Herren.^ö",
+          "ant_3": "Wer ist wie du, o Herr? Wer ist wie du gewaltig und heilig?^ö"
+        }
+      },
+      "5": {
+        "Laudes": {
+          "ant_1": "Herr, wasche ab meine Schuld und mach mich rein von meiner Sünde.^ö",
+          "ant_2": "An seinem eigenen Leib trug Christus unsere Sünden hinauf an das Holz des Kreuzes.^ö",
+          "ant_3": "Kommt mit Jubel vor das Antlitz des Herrn.^ö"
+        },
+        "Vesper": {
+          "ant_1": "Ich, der Herr, bin dein Retter, ich dein Befreier.^ö",
+          "ant_2": "Gepriesen sei das Reich unseres Vaters David, das nun gekommen ist.^ö",
+          "ant_3": "Singen will ich dem Herrn, denn er ist hoch erhaben.^ö"
+        }
+      },
+      "6": {
+        "Laudes": {
+          "ant_1": "Die Worte, die ich zu euch sprach, sind Geist und Leben.^ö",
+          "ant_2": "Du hast einen Tempel gebaut auf dem heiligen Berg, einen Altar in der Stadt deiner Wohnung.^ö",
+          "ant_3": "Ich bin der Weg und die Wahrheit und das Leben.^ö"
+        }
+      }
+    },
+    "4": {
+      "1": {
+        "Laudes": {
+          "ant_1": "Die Herrlichkeit des Herrn erstrahle über uns.^ö",
+          "ant_2": "Die Finsternis vor ihren Augen mache ich zu Licht.^ö",
+          "ant_3": "Groß ist der Herr; was ihm gefällt, das vollbringt er.^ö"
+        },
+        "Vesper": {
+          "ant_1": "Wenn einer in Christus ist, dann ist er eine neue Schöpfung.^ö",
+          "ant_2": "Lasst uns Gott lieben, denn er hat uns zuerst geliebt.^ö",
+          "ant_3": "Aus seiner Fülle haben wir alle empfangen, Gnade über Gnade.^ö"
+        }
+      },
+      "2": {
+        "Laudes": {
+          "ant_1": "Wer den Willen meines Vaters tut, kommt in das Himmelreich.^ö",
+          "ant_2": "Herr, tu den Völkern kund, dass du dich unser erbarmt hast.^ö",
+          "ant_3": "Meine Zuflucht und mein Retter ist der Herr.^ö"
+        },
+        "Vesper": {
+          "ant_1": "Die vom Herrn Befreiten kehren voll Freude heim und singen das Lied von Zion.^ö",
+          "ant_2": "Ich ging mitten durch große Not, doch du erhieltest mich am Leben.^ö",
+          "ant_3": "Dein, o Herr, ist die Größe und die Macht. Dein ist der Ruhm und der Sieg.^ö"
+        }
+      },
+      "3": {
+        "Laudes": {
+          "ant_1": "Erhebe dich über die Himmel, o Gott! Deine Herrlichkeit erscheine über der ganzen Erde.^ö",
+          "ant_2": "Wie die Erde die Saat wachsen lässt, so bringt Gott die Rettung hervor.^ö",
+          "ant_3": "Der Herr ist König, er herrscht von Geschlecht zu Geschlecht.^ö"
+        },
+        "Vesper": {
+          "ant_1": "Die Nacht ist hell wie der Tag und Finsternis wie Licht.^ö",
+          "ant_2": "Ich kenne die Meinen, und die Meinen kennen mich.^ö",
+          "ant_3": "Seine Hoheit überstrahlt den Himmel, sein Ruhm erfüllt die Erde.^ö"
+        }
+      },
+      "4": {
+        "Laudes": {
+          "ps_3": 147.1,
+          "ant_1": "Um deines Namens willen, Herr, erhältst du mich am Leben.^ö",
+          "ant_2": "Ich werde euch wiedersehen, und euer Herz wird sich freuen.^ö",
+          "ant_3": "Der Herr baut Jerusalem wieder auf. Er heilt die gebrochenen Herzen.^ö"
+        },
+        "Vesper": {
+          "ant_1": "Meine Zuflucht und mein Retter ist der Herr.^ö",
+          "ant_2": "Dank sei Gott, der uns den Sieg verlieh durch Christus, unseren Herrn.^ö",
+          "ant_3": "Jesus Christus ist derselbe gestern und heute und in Ewigkeit.^ö"
+        }
+      },
+      "5": {
+        "Laudes": {
+          "ant_1": "Als Gabe und Opfer, das Gott gefällt, hat Christus sich hingegeben für uns.^ö",
+          "ant_2": "Jerusalem, Stadt Gottes, du wirst erstrahlen in leuchtendem Glanz.^ö",
+          "ant_3": "Ich sah die heilige Stadt, das neue Jerusalem. Von Gott her kam sie herab aus dem Himmel.^ö"
+        },
+        "Vesper": {
+          "ant_1": "So sehr hat Gott die Welt geliebt, dass er seinen einzigen Sohn dahingab.^ö",
+          "ant_2": "Dem König der Ewigkeit, dem unsichtbaren Gott, sei Ehre und Preis in alle Ewigkeit.^ö",
+          "ant_3": "Meine Stärke und mein Lied ist der Herr, er ist mein Retter geworden.^ö"
+        }
+      },
+      "6": {
+        "Laudes": {
+          "ant_1": "Wie groß sind deine Werke, o Herr!^ö",
+          "ant_2": "Ich gieße reines Wasser über euch aus, und ihr werdet rein.^ö",
+          "ant_3": "Gott hat ihm alles zu Füßen gelegt und ihn, der alles als Haupt überragt, über die Kirche gesetzt.^ö"
         }
       }
     }
@@ -11778,6 +12066,7 @@ export const brevierData = {
           "oration": "Herr, unser Gott, du hast in deinem Sohn die Menschheit auf wunderbare Weise mit dir versöhnt. Gib deinem Volk einen hochherzigen Glauben, damit es mit froher Hingabe dem Osterfest entgegeneilt. Darum bitten wir durch Jesus Christus."
         },
         "ErsteV": {
+          "ps_1": 122.101,
           "ant_1": "Ich freute mich, als man mir sagte: Zum Haus des Herrn wollen wir pilgern.",
           "ant_2": "Wach auf, der du schläfst, steh auf von den Toten, und Christus wird dich erleuchten.",
           "ant_3": "Als wir tot waren durch die Sünde, hat Gott uns mit Christus lebendig gemacht aus großer Liebe.",
@@ -12329,6 +12618,7 @@ export const brevierData = {
         },
         "Vesper": {
           "hymn_1": 3404.0,
+          "ps_2": 72.201,
           "ant_1": "Christus, der Erstgeborene von den Toten und Herrscher über die Könige der Erde, hat uns zu einem Königreich gemacht für seinen Gott und Vater.",
           "ant_2": "Er rettet den Gebeugten, der um Hilfe schreit, den Armen und den, der keinen Helfer hat.",
           "ant_3": "Die Heiligen haben gesiegt durch das Blut des Lammes und durch ihr Wort und ihr Zeugnis.",
