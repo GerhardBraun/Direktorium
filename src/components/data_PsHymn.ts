@@ -603,7 +603,7 @@ export const psalmsData = {
       },
     3.0: {
         "verses": "16-23",
-        "text": "Zum Frevler spricht Gott:^+“Was zählst du meine Gebote auf^*und nimmst meinen Bund in deinen Mund?^pDabei ist Zucht dir verhasst,^*meine Worte wirfst du hinter dich.^pSiehst du einen Dieb, so läufst du mit,^*du machst dich mit Ehebrechern gemein.^pDein Mund redet böse Worte^*und deine Zunge stiftet Betrug an.^pVon deinem Bruder redest du schändlich,^*auf den Sohn deiner Mutter häufst du Verleumdung.^pDas hast du getan und ich soll schweigen?^+Meinst du, ich bin wie du?^*Ich halte es dir vor Augen und rüge dich.^pBegreift es doch, ihr, die ihr Gott vergesst!^*Sonst zerreiße ich euch und niemand kann euch retten.^pWer Opfer des Lobes bringt, ehrt mich;^*wer rechtschaffen lebt, dem zeig ich mein Heil.“"
+        "text": "Zum Frevler spricht Gott:^+„Was zählst du meine Gebote auf^*und nimmst meinen Bund in deinen Mund?^pDabei ist Zucht dir verhasst,^*meine Worte wirfst du hinter dich.^pSiehst du einen Dieb, so läufst du mit,^*du machst dich mit Ehebrechern gemein.^pDein Mund redet böse Worte^*und deine Zunge stiftet Betrug an.^pVon deinem Bruder redest du schändlich,^*auf den Sohn deiner Mutter häufst du Verleumdung.^pDas hast du getan und ich soll schweigen?^+Meinst du, ich bin wie du?^*Ich halte es dir vor Augen und rüge dich.^pBegreift es doch, ihr, die ihr Gott vergesst!^*Sonst zerreiße ich euch und niemand kann euch retten.^pWer Opfer des Lobes bringt, ehrt mich;^*wer rechtschaffen lebt, dem zeig ich mein Heil.“"
       }
   },
   51: {
@@ -782,6 +782,10 @@ export const psalmsData = {
         "title": "Gottes Siegeszug vom Sinai zum Zion",
         "quote": "Er stieg hinauf zur Höhe und erbeutete Gefangene, er gab den Menschen Geschenke. (Eph 4,8)",
         "text": "^(Gott steht auf, seine Feinde zerstieben;^*die ihn hassen, fliehen vor seinem Angesicht.^)^pSie verfliegen, wie Rauch verfliegt;^+wie Wachs am Feuer zerfließt,^*so vergehen die Frevler vor Gottes Angesicht.^pDie Gerechten aber freuen sich und jubeln vor Gott;^*sie jauchzen in heller Freude.^pSingt für Gott, spielt seinem Namen;^*jubelt ihm zu, ihm, der auf den Wolken einherfährt!^pPreist seinen Namen!^*Freut euch vor seinem Angesicht!^pEin Vater der Waisen, ein Anwalt der Witwen^*ist Gott in seiner heiligen Wohnung.^pGott bringt die Verlassenen heim,^+führt die Gefangenen hinaus in das Glück;^*doch die Empörer müssen wohnen im dürren Land.^pGott, als du deinem Volk voranzogst,^+als du die Wüste durchschrittest,^*da bebte die Erde,^pda ergossen sich die Himmel vor Gott,^*vor Gott, dem Herrn vom Sínai, vor Israels Gott.^pGott, du ließest Regen strömen in Fülle^*und erquicktest dein verschmachtendes Erbland.^pDeine Geschöpfe finden dort Wohnung;^*Gott, in deiner Güte versorgst du den Armen."
+      },
+    301.0: {
+        "verses": "25-38",
+        "text": "^(Gott, sie sahen deinen Einzug,^*den Einzug meines Gottes und Königs ins Heiligtum:^)^pvoraus die Sänger, die Saitenspieler danach,^*dazwischen Mädchen mit kleinen Pauken.^pVersammelt euch und preist unsern Gott,^*den Herrn in der Gemeinde Israels:^pvoran der kleine Stamm Benjamin,^+im Zug die Fürsten von Juda,^*die Fürsten von Sebulon, die Fürsten von Naftali.^pBiete auf, o°Gott, deine Macht,^+die Gottesmacht, die du an uns erwiesen hast^*von deinem Tempel aus, hoch über Jerusalem.^pWehr ab das Untier im Schilf, die Rotte der Starken,^*wehr ab die Herrscher der Völker!^pSie sind gierig nach Silber, tritt sie nieder;^*zerstreue die Völker, die Lust haben am Krieg.^pKönige kommen mit Gaben,^+aus Ägypten bringt man Geräte von Erz,^*Kusch erhebt zu Gott seine Hände.^pIhr Königreiche der Erde, singt für Gott,^*singt und spielt für den Herrn,^pder dahinfährt über den Himmel, den uralten Himmel,^*der seine Stimme erhebt, seine machtvolle Stimme.^pPreist Gottes Macht!^+Über Israel ragt seine Hoheit empor,^*seine Macht ragt bis zu den Wolken.^pGott in seinem Heiligtum ist voll Majestät, Israels Gott;^*seinem Volk verleiht er Stärke und Kraft. Gepriesen sei Gott."
       }
   },
   69: {
@@ -805,7 +809,7 @@ export const psalmsData = {
         "verses": "2-6",
         "title": "Gebet in der Verlassenheit",
         "quote": "Herr, rette uns, wir gehen zugrunde! (Mt 8,25)",
-        "text": "Gott, komm herbei, um mich zu retten,^*Herr, eile mir zu Hilfe!^pIn Schmach und Schande sollen alle fallen,^*die mir nach dem Leben trachten.^l ^lZurückweichen sollen sie und vor Scham erröten,^*die sich über mein Unglück freuen.^pBeschämt sollen sich alle abwenden, die lachen und höhnen^*und sagen: „Dir geschieht recht.“^pAlle, die dich suchen, frohlocken;^*sie mögen sich freuen in dir.^l ^lDie dein Heil lieben, sollen immer sagen:^*“Groß ist Gott, der Herr.“^pIch aber bin arm und gebeugt.^*Eile, o°Gott, mir zu Hilfe!^l ^lMeine Hilfe und mein Retter bist du.^*Herr, säume doch nicht!"
+        "text": "Gott, komm herbei, um mich zu retten,^*Herr, eile mir zu Hilfe!^pIn Schmach und Schande sollen alle fallen,^*die mir nach dem Leben trachten.^pZurückweichen sollen sie und vor Scham erröten,^*die sich über mein Unglück freuen.^pBeschämt sollen sich alle abwenden, die lachen und höhnen^*und sagen: „Dir geschieht recht.“^pAlle, die dich suchen, frohlocken;^*sie mögen sich freuen in dir.^pDie dein Heil lieben, sollen immer sagen:^*„Groß ist Gott, der Herr.“^pIch aber bin arm und gebeugt.^*Eile, o°Gott, mir zu Hilfe!^pMeine Hilfe und mein Retter bist du.^*Herr, säume doch nicht!"
       }
   },
   71: {
@@ -875,7 +879,7 @@ export const psalmsData = {
         "verses": "2-11",
         "title": "Gott erhöht und erniedrigt",
         "quote": "Er stürzt die Mächtigen vom Thron und erhöht die Niedrigen. (Lk 1,52)",
-        "text": "Wir preisen dich, Gott, wir preisen dich;^*dein Name ist denen nahe, die deine Wunder erzählen.^p„Ja, zu der Zeit, die ich selbst bestimme,^*halte ich Gericht nach meinem Recht.^pDie Erde mit allen, die auf ihr wohnen, mag wanken;^*doch ich selbst habe ihre Säulen auf festen Grund gestellt.“^pIch sage zu den Stolzen: Seid nicht so vermessen!,^*und zu den Frevlern: Brüstet euch nicht mit eurer Macht!^pBrüstet euch nicht stolz mit eurer Macht,^*redet nicht so überheblich daher!^pDenn weder vom Osten noch vom Westen^*noch aus der Wüste kommt die Erhöhung.^pNein, der Richter ist Gott;^*den einen erniedrigt er, den andern erhöht er.^pJa, in der Hand des Herrn ist ein Becher:^*herben, gärenden Wein reicht er dar;^l ^lihn müssen alle Frevler der Erde trinken,^*müssen ihn samt der Hefe schlürfen.^pIch aber werde jubeln für immer;^*dem Gott Jakobs will ich singen und spielen.^p„Ich schlage die ganze Macht der Frevler nieder;^*doch das Haupt des Gerechten wird hoch erhoben.“"
+        "text": "Wir preisen dich, Gott, wir preisen dich;^*dein Name ist denen nahe, die deine Wunder erzählen.^p„Ja, zu der Zeit, die ich selbst bestimme,^*halte ich Gericht nach meinem Recht.^pDie Erde mit allen, die auf ihr wohnen, mag wanken;^*doch ich selbst habe ihre Säulen auf festen Grund gestellt.“^pIch sage zu den Stolzen: Seid nicht so vermessen!,^*und zu den Frevlern: Brüstet euch nicht mit eurer Macht!^pBrüstet euch nicht stolz mit eurer Macht,^*redet nicht so überheblich daher!^pDenn weder vom Osten noch vom Westen^*noch aus der Wüste kommt die Erhöhung.^pNein, der Richter ist Gott;^*den einen erniedrigt er, den andern erhöht er.^pJa, in der Hand des Herrn ist ein Becher:^*herben, gärenden Wein reicht er dar;^pihn müssen alle Frevler der Erde trinken,^*müssen ihn samt der Hefe schlürfen.^pIch aber werde jubeln für immer;^*dem Gott Jakobs will ich singen und spielen.^p„Ich schlage die ganze Macht der Frevler nieder;^*doch das Haupt des Gerechten wird hoch erhoben.“"
       }
   },
   76: {
@@ -937,7 +941,7 @@ export const psalmsData = {
         "verses": "1-5.8-11.13",
         "title": "Klagelied über Jerusalem",
         "quote": "Wenn doch auch du an diesem Tag erkannt hättest, was dir Frieden bringt! (Lk 19,42)",
-        "text": "Gott, die Heiden sind eingedrungen in dein Erbe,^+sie haben deinen heiligen Tempel entweiht^*und Jerusalem in Trümmer gelegt.^pDie Leichen deiner Knechte haben sie zum Fraß gegeben den Vögeln des Himmels,^*die Leiber deiner Frommen den Tieren des Feldes.^pIhr Blut haben sie wie Wasser vergossen rings um Jerusalem,^*und keiner hat sie begraben.^pZum Schimpf sind wir geworden in den Augen der Nachbarn,^*zu Spott und Hohn bei allen, die rings um uns wohnen.^pWie lange noch, Herr? Willst du auf ewig zürnen?^*Wie lange noch wird dein Eifer lodern wie Feuer?^pRechne uns die Schuld der Vorfahren nicht an!^+Mit deinem Erbarmen komm uns eilends entgegen!^*Denn wir sind sehr erniedrigt.^pUm der Ehre deines Namens willen hilf uns, du Gott unsres Heils!^*Um deines Namens willen reiß uns heraus und vergib uns die Sünden!^pWarum dürfen die Heiden sagen:^*“Wo ist nun ihr Gott?“^pLass kund werden an den Heiden vor unsern Augen,^*wie du das vergossene Blut deiner Knechte vergiltst.^pDas Stöhnen der Gefangenen dringe zu dir.^*Befrei die Todgeweihten durch die Kraft deines Armes!^pWir, dein Volk, die Schafe deiner Weide,^+wollen dir ewig danken,^*deinen Ruhm verkünden von Geschlecht zu Geschlecht."
+        "text": "Gott, die Heiden sind eingedrungen in dein Erbe,^+sie haben deinen heiligen Tempel entweiht^*und Jerusalem in Trümmer gelegt.^pDie Leichen deiner Knechte haben sie zum Fraß gegeben den Vögeln des Himmels,^*die Leiber deiner Frommen den Tieren des Feldes.^pIhr Blut haben sie wie Wasser vergossen rings um Jerusalem,^*und keiner hat sie begraben.^pZum Schimpf sind wir geworden in den Augen der Nachbarn,^*zu Spott und Hohn bei allen, die rings um uns wohnen.^pWie lange noch, Herr? Willst du auf ewig zürnen?^*Wie lange noch wird dein Eifer lodern wie Feuer?^pRechne uns die Schuld der Vorfahren nicht an!^+Mit deinem Erbarmen komm uns eilends entgegen!^*Denn wir sind sehr erniedrigt.^pUm der Ehre deines Namens willen hilf uns, du Gott unsres Heils!^*Um deines Namens willen reiß uns heraus und vergib uns die Sünden!^pWarum dürfen die Heiden sagen:^*„Wo ist nun ihr Gott?“^pLass kund werden an den Heiden vor unsern Augen,^*wie du das vergossene Blut deiner Knechte vergiltst.^pDas Stöhnen der Gefangenen dringe zu dir.^*Befrei die Todgeweihten durch die Kraft deines Armes!^pWir, dein Volk, die Schafe deiner Weide,^+wollen dir ewig danken,^*deinen Ruhm verkünden von Geschlecht zu Geschlecht."
       }
   },
   80: {
@@ -1450,7 +1454,7 @@ export const psalmsData = {
         "verses": "105-112°°°XIV°·°Nun",
         "title": "Lob des göttlichen Gesetzes",
         "quote": "Dies ist mein Gebot: Liebt einander. (Joh 15,12)",
-        "text": "^(Herr, dein Wort ist meinem Fuß eine Leuchte,^*ein Licht für meine Pfade.^)^pIch tat einen Schwur und ich will ihn halten:^*Ich will deinen gerechten Entscheidungen folgen.^pHerr, ganz tief bin ich gebeugt.^*Durch dein Wort belebe mich!^pHerr, nimm mein Lobopfer gnädig an^*und lehre mich deine Entscheide!^pMein Leben ist ständig in Gefahr,^*doch ich vergesse nie deine Weisung.^pFrevler legen mir Schlingen,^*aber ich irre nicht ab von deinen Befehlen.^pDeine Vorschriften sind auf ewig mein Erbteil,^*denn sie sind die Freude meines Herzens.^pMein Herz ist bereit, dein Gesetz zu erfüllen^*bis ans Ende und ewig."
+        "text": "Herr, dein Wort ist meinem Fuß eine Leuchte,^*ein Licht für meine Pfade.^pIch tat einen Schwur und ich will ihn halten:^*Ich will deinen gerechten Entscheidungen folgen.^pHerr, ganz tief bin ich gebeugt.^*Durch dein Wort belebe mich!^pHerr, nimm mein Lobopfer gnädig an^*und lehre mich deine Entscheide!^pMein Leben ist ständig in Gefahr,^*doch ich vergesse nie deine Weisung.^pFrevler legen mir Schlingen,^*aber ich irre nicht ab von deinen Befehlen.^pDeine Vorschriften sind auf ewig mein Erbteil,^*denn sie sind die Freude meines Herzens.^pMein Herz ist bereit, dein Gesetz zu erfüllen^*bis ans Ende und ewig."
       },
     113.0: {
         "verses": "113-120°°°XV°·°Samech",
@@ -1483,6 +1487,12 @@ export const psalmsData = {
     169.0: {
         "verses": "169-176°°°XXII°·°Taw",
         "text": "Herr, zu dir dringe mein Rufen.^*Gib mir Einsicht, getreu deinem Wort!^pMein Flehen komme vor dein Angesicht.^*Reiß mich heraus getreu deiner Verheißung!^pMeine Lippen sollen überströmen von Lobpreis;^*denn du lehrst mich deine Gesetze.^pMeine Zunge soll deine Verheißung besingen;^*denn deine Gebote sind alle gerecht.^pDeine Hand sei bereit, mir zu helfen;^*denn ich habe mir deine Befehle erwählt.^pIch sehne mich, Herr, nach deiner Hilfe^*und deine Weisung macht mich froh.^pLass meine Seele leben, damit sie dich preisen kann!^*Deine Entscheidungen mögen mir helfen.^pIch bin verirrt wie ein verlorenes Schaf.^+Suche deinen Knecht!^*Denn deine Gebote habe ich nicht vergessen."
+      },
+    205.0: {
+        "verses": "105-112°°°XIV°·°Nun",
+        "title": "Lob des göttlichen Gesetzes",
+        "quote": "Dies ist mein Gebot: Liebt einander. (Joh 15,12)",
+        "text": "^(Herr, dein Wort ist meinem Fuß eine Leuchte,^*ein Licht für meine Pfade.^)^pIch tat einen Schwur und ich will ihn halten:^*Ich will deinen gerechten Entscheidungen folgen.^pHerr, ganz tief bin ich gebeugt.^*Durch dein Wort belebe mich!^pHerr, nimm mein Lobopfer gnädig an^*und lehre mich deine Entscheide!^pMein Leben ist ständig in Gefahr,^*doch ich vergesse nie deine Weisung.^pFrevler legen mir Schlingen,^*aber ich irre nicht ab von deinen Befehlen.^pDeine Vorschriften sind auf ewig mein Erbteil,^*denn sie sind die Freude meines Herzens.^pMein Herz ist bereit, dein Gesetz zu erfüllen^*bis ans Ende und ewig."
       }
   },
   120: {
@@ -1506,13 +1516,13 @@ export const psalmsData = {
         "verses": "1-9",
         "title": "Wallfahrt nach Jerusalem",
         "quote": "Ihr seid zum Berg Zion hingetreten, zur Stadt des lebendigen Gottes, dem himmlischen Jerusalem. (Hebr 12,22)",
-        "text": "Ich freute mich, als man mir sagte:^*“Zum Haus des Herrn wollen wir pilgern.“^pSchon stehen wir in deinen Toren, Jerusalem:^+Jerusalem, du starke Stadt,^*dicht gebaut und fest gefügt.^pDorthin ziehen die Stämme hinauf, die Stämme des Herrn,^+wie es Israel geboten ist,^*den Namen des Herrn zu preisen.^pDenn dort stehen Throne bereit für das Gericht,^*die Throne des Hauses David.^pErbittet für Jerusalem Frieden!^*Wer dich liebt, sei in dir geborgen.^pFriede wohne in deinen Mauern,^*in deinen Häusern Geborgenheit!^pWegen meiner Brüder und Freunde^*will ich sagen: In dir sei Friede!^pWegen des Hauses des Herrn, unseres Gottes,^*will ich dir Glück erflehen."
+        "text": "Ich freute mich, als man mir sagte:^*„Zum Haus des Herrn wollen wir pilgern.“^pSchon stehen wir in deinen Toren, Jerusalem:^+Jerusalem, du starke Stadt,^*dicht gebaut und fest gefügt.^pDorthin ziehen die Stämme hinauf, die Stämme des Herrn,^+wie es Israel geboten ist,^*den Namen des Herrn zu preisen.^pDenn dort stehen Throne bereit für das Gericht,^*die Throne des Hauses David.^pErbittet für Jerusalem Frieden!^*Wer dich liebt, sei in dir geborgen.^pFriede wohne in deinen Mauern,^*in deinen Häusern Geborgenheit!^pWegen meiner Brüder und Freunde^*will ich sagen: In dir sei Friede!^pWegen des Hauses des Herrn, unseres Gottes,^*will ich dir Glück erflehen."
       },
     101.0: {
         "verses": "1-9",
         "title": "Wallfahrt nach Jerusalem",
         "quote": "Ihr seid zum Berg Zion hingetreten, zur Stadt des lebendigen Gottes, dem himmlischen Jerusalem. (Hebr 12,22)",
-        "text": "^(Ich freute mich, als man mir sagte:^*“Zum Haus des Herrn wollen wir pilgern.“^)^pSchon stehen wir in deinen Toren, Jerusalem:^+Jerusalem, du starke Stadt,^*dicht gebaut und fest gefügt.^pDorthin ziehen die Stämme hinauf, die Stämme des Herrn,^+wie es Israel geboten ist,^*den Namen des Herrn zu preisen.^pDenn dort stehen Throne bereit für das Gericht,^*die Throne des Hauses David.^pErbittet für Jerusalem Frieden!^*Wer dich liebt, sei in dir geborgen.^pFriede wohne in deinen Mauern,^*in deinen Häusern Geborgenheit!^pWegen meiner Brüder und Freunde^*will ich sagen: In dir sei Friede!^pWegen des Hauses des Herrn, unseres Gottes,^*will ich dir Glück erflehen."
+        "text": "^(Ich freute mich, als man mir sagte:^*„Zum Haus des Herrn wollen wir pilgern.“^)^pSchon stehen wir in deinen Toren, Jerusalem:^+Jerusalem, du starke Stadt,^*dicht gebaut und fest gefügt.^pDorthin ziehen die Stämme hinauf, die Stämme des Herrn,^+wie es Israel geboten ist,^*den Namen des Herrn zu preisen.^pDenn dort stehen Throne bereit für das Gericht,^*die Throne des Hauses David.^pErbittet für Jerusalem Frieden!^*Wer dich liebt, sei in dir geborgen.^pFriede wohne in deinen Mauern,^*in deinen Häusern Geborgenheit!^pWegen meiner Brüder und Freunde^*will ich sagen: In dir sei Friede!^pWegen des Hauses des Herrn, unseres Gottes,^*will ich dir Glück erflehen."
       }
   },
   123: {
@@ -1544,7 +1554,7 @@ export const psalmsData = {
         "verses": "1-6",
         "title": "Heimkehr aus der Gefangenschaft",
         "quote": "Wir sind sicher, dass ihr mit uns nicht nur an den Leiden teilhabt, sondern auch am Trost. (2°Kor 1,7)",
-        "text": "Als der Herr das Los der Gefangenschaft Zions wendete,^*da waren wir alle wie Träumende.^pDa war unser Mund voll Lachen^*und unsere Zunge voll Jubel.^pDa sagte man unter den andern Völkern:^*“Der Herr hat an ihnen Großes getan.“^pJa, Großes hat der Herr an uns getan.^*Da waren wir fröhlich.^pWende doch, Herr, unser Geschick,^*wie du versiegte Bäche wieder füllst im Südland.^pDie mit Tränen säen,^*werden mit Jubel ernten.^pSie gehen hin unter Tränen^*und tragen den Samen zur Aussaat.^pSie kommen wieder mit Jubel^*und bringen ihre Garben ein."
+        "text": "Als der Herr das Los der Gefangenschaft Zions wendete,^*da waren wir alle wie Träumende.^pDa war unser Mund voll Lachen^*und unsere Zunge voll Jubel.^pDa sagte man unter den andern Völkern:^*„Der Herr hat an ihnen Großes getan.“^pJa, Großes hat der Herr an uns getan.^*Da waren wir fröhlich.^pWende doch, Herr, unser Geschick,^*wie du versiegte Bäche wieder füllst im Südland.^pDie mit Tränen säen,^*werden mit Jubel ernten.^pSie gehen hin unter Tränen^*und tragen den Samen zur Aussaat.^pSie kommen wieder mit Jubel^*und bringen ihre Garben ein."
       }
   },
   127: {
@@ -1662,7 +1672,7 @@ export const psalmsData = {
         "verses": "1-6",
         "title": "An den Strömen Babels",
         "quote": "Die irdische Gefangenschaft des Volkes ist ein Bild geistiger Gefangenschaft. (Hilarius)",
-        "text": "An den Strömen von Babel,^+da saßen wir und weinten,^*wenn wir an Zion dachten.^pWir hängten unsere Harfen^*an die Weiden in jenem Land.^pDort verlangten von uns die Zwingherren Lieder,^+unsere Peiniger forderten Jubel:^*“Singt uns Lieder vom Zion!“^pWie könnten wir singen die Lieder des Herrn,^*fern, auf fremder Erde?^pWenn ich dich je vergesse, Jerusalem,^*dann soll mir die rechte Hand verdorren!^pDie Zunge soll mir am Gaumen kleben,^+wenn ich an dich nicht mehr denke,^*wenn ich Jerusalem nicht zu meiner höchsten Freude erhebe."
+        "text": "An den Strömen von Babel,^+da saßen wir und weinten,^*wenn wir an Zion dachten.^pWir hängten unsere Harfen^*an die Weiden in jenem Land.^pDort verlangten von uns die Zwingherren Lieder,^+unsere Peiniger forderten Jubel:^*„Singt uns Lieder vom Zion!“^pWie könnten wir singen die Lieder des Herrn,^*fern, auf fremder Erde?^pWenn ich dich je vergesse, Jerusalem,^*dann soll mir die rechte Hand verdorren!^pDie Zunge soll mir am Gaumen kleben,^+wenn ich an dich nicht mehr denke,^*wenn ich Jerusalem nicht zu meiner höchsten Freude erhebe."
       }
   },
   138: {
@@ -2800,6 +2810,12 @@ export const psalmsData = {
         "text": "Du höchster Herr der Ewigkeit,^ldu Retter der verlornen Welt,^ldurch den der Tod vernichtet ist,^ldas Leben siegreich triumphiert.^pZum Thron des Vaters steigst du auf^lund nimmst zu seiner Rechten Platz;^lder dich erhöht in Herrlichkeit,^ler setzt dich ein in seine Macht.^pIn Ehrfurcht beugen sich vor dir^lder Himmel und das Erdenrund^lund selbst die Unterwelt bekennt:^lDu bist der Herr der ganzen Welt.^pDie Engel nehmen staunend wahr,^lwie sich des Menschen Los gewandt:^lWas Menschen fehlten, sühnt ein Mensch^lund herrscht auf ewig: Mensch und Gott.^pDir, Herr, sei Ruhm und Herrlichkeit,^ldem Sieger, der zur Höhe fährt,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
+  4205: {
+    0.0: {
+        "quote": "Pfingsten",
+        "text": "Und wieder führt das Jahr herauf^lder sel’gen Freude hohen Tag:^lDer Beistand, den der Herr verhieß,^lwird seinen Jüngern heut geschenkt.^pIn Flammen stürzt das Licht herab^lund strahlt in Feuerzungen auf,^ldass Glut der Liebe sie durchströmt^lund ihrem Worte Macht verleiht.^pIn allen Sprachen reden sie,^ldie Menge staunt und steht gebannt,^lman glaubt vom Weine sie berauscht,^ldie doch vom Geiste trunken sind.^pWir bitten dich, du guter Gott,^lmit tief geneigtem Angesicht:^lDes Geistes Gaben gieße nun^lauch über uns in Gnaden aus.^pDir, Gott und Vater, sei der Ruhm,^ldem Sohne, der vom Tod erstand,^ldem Geist, der unser Beistand ist,^ldurch alle Zeit und Ewigkeit. Amen."
+      }
+  },
   4301: {
     0.0: {
         "quote": "Osterzeit",
@@ -2814,8 +2830,20 @@ export const psalmsData = {
   },
   4304: {
     0.0: {
-        "quote": "Auswahl-Hymnen zur Lesehore",
+        "quote": "Pfingsten",
         "text": "Komm, Heil’ger Geist, der Leben schafft,^lerfülle uns mit deiner Kraft.^lDein Schöpferwort rief uns zum Sein:^lnun hauch uns Gottes Odem ein.^pKomm, Tröster, der die Herzen lenkt,^ldu Beistand, den der Vater schenkt;^laus dir strömt Leben, Licht und Glut,^ldu gibst uns Schwachen Kraft und Mut.^pDich sendet Gottes Allmacht aus^lim Feuer und in Sturmes Braus;^ldu öffnest uns den stummen Mund^lund machst der Welt die Wahrheit kund.^pEntflamme Sinne und Gemüt,^ldass Liebe unser Herz durchglüht^lund unser schwaches Fleisch und Blut^lin deiner Kraft das Gute tut.^pDie Macht des Bösen banne weit,^lschenk deinen Frieden allezeit.^lErhalte uns auf rechter Bahn,^ldass Unheil uns nicht schaden kann.^pLass gläubig uns den Vater sehn,^lsein Ebenbild, den Sohn, verstehn^lund dir vertraun, der uns durchdringt^lund uns das Leben Gottes bringt.^pDen Vater auf dem ew’gen Thron^lund seinen auferstandnen Sohn,^ldich, Odem Gottes, Heil’ger Geist,^lauf ewig Erd’ und Himmel preist. Amen."
+      }
+  },
+  4305: {
+    0.0: {
+        "quote": "Pfingsten",
+        "text": "Komm herab, o Heil’ger Geist,^lder die finstre Nacht zerreißt,^lstrahle Licht in diese Welt.^pKomm, der alle Armen liebt,^lkomm, der gute Gaben gibt,^lkomm, der jedes Herz erhellt.^pHöchster Tröster in der Zeit,^lGast, der Herz und Sinn erfreut,^lköstlich Labsal in der Not,^pIn der Unrast schenkst du Ruh,^lhauchst in Hitze Kühlung zu,^lspendest Trost in Leid und Tod.^pKomm, o du glückselig Licht,^lfülle Herz und Angesicht,^ldring bis auf der Seele Grund.^pOhne dein lebendig Wehn^lkann im Menschen nichts bestehn,^lkann nichts heil sein noch gesund.^pWas befleckt ist, wasche rein,^lDürrem gieße Leben ein,^lheile du, wo Krankheit quält.^pWärme du, was kalt und hart,^llöse, was in sich erstarrt,^llenke, was den Weg verfehlt.^pGib dem Volk, das dir vertraut,^ldas auf deine Hilfe baut,^ldeine Gaben zum Geleit.^pLass es in der Zeit bestehn,^ldeines Heils Vollendung sehn^lund der Freuden Ewigkeit.^pAmen. Halleluja."
+      }
+  },
+  4306: {
+    0.0: {
+        "quote": "Pfingsten",
+        "text": "Nun bitten wir den Heiligen Geist^lum den rechten Glauben allermeist,^ldass er uns behüte an unserm Ende,^lwenn wir heimfahrn aus diesem Elende.^lKyrieleis.^pDu heller Schein, du lebendig Licht,^lGeist des Herrn, der unsre Nacht durchbricht,^llass uns Gott erkennen, ihn Vater nennen^lund von Christus uns nimmermehr trennen.^lKyrieleis.^pDu stille Macht, du verborgne Kraft,^lGeist des Herrn, der in uns lebt und schafft,^lwohne du uns inne, uns anzutreiben;^lbete du in uns, wo wir stumm bleiben.^lKyrieleis.^pDu mächt’ger Hauch, unerschaffne Glut,^lGeist des Herrn, gib du uns neuen Mut,^ldass wir Gottes Liebe den Menschen künden^lund im Frieden als Brüder uns finden.^lKyrieleis.^pErleuchte uns, o ewiges Licht,^lhilf, dass alles, was durch uns geschieht,^lGott sei wohlgefällig durch Jesum Christum,^lder uns macht heilig durch sein Priestertum.^lKyrieleis."
       }
   },
   4401: {
@@ -2840,6 +2868,12 @@ export const psalmsData = {
     0.0: {
         "quote": "Osterzeit",
         "text": "Großer, heiliger Tag,^lder du uns Freude bringst^lund mit heiterem Lied^lunsere Herzen füllst,^ldu sahst Christus den Herrn,^lwie er zum Throne schritt^lhoch im Reich seiner neuen Macht.^pJubelnd in seiner Kraft^lsteigt er zum Himmelszelt,^lund das heilige Volk^lrühmt den Erstandenen,^lmit den Engeln im Chor^lstimmt es ein Preislied an^lauf des herrlichen Siegers Huld.^pDer auf steigender Bahn^lFessel in Fesseln schlug^lund der irdischen Schar^lreiche Geschenke ließ,^lkehrt als Richter zurück,^lstreng in Gerechtigkeit,^ler, der strahlend jetzt aufwärts fuhr.^pHerr, wir flehen zu dir,^lder du als König herrschst,^lnimm in gnädigen Schutz^ldeine Getreuen auf.^lWenn als Richter du kommst,^lHeimliches offenbarst,^llass des Lohnes uns würdig sein.^pVater, Schöpfer des Alls,^ldir gebührt Lobgesang^lund dem Sohne, der jetzt^lzu deiner Rechten thront,^lauch dem Geiste, dem Band,^ldas euch in Liebe eint,^lPreis und Ehre in Ewigkeit."
+      }
+  },
+  4405: {
+    0.0: {
+        "quote": "Pfingsten",
+        "text": "Der Herr, zur Höhe heimgekehrt,^lzum Vater, der sein Ursprung ist,^lgibt uns als sein Geschenk den Geist,^lden uns des Vaters Huld verhieß.^pVom Himmel kommt ein Brausen her,^lund jäher Donner schreckt die Welt.^lDie Jünger, die versammelt sind,^lerkennen schaudernd: Gott ist da!^pGewaltig flammt das Feuer auf,^ldas aus dem Licht des Vaters stammt,^lund jedes Herz, das Christus glaubt,^lwird mit des Wortes Glut erfüllt.^pDa jauchzen die Erfüllten auf,^ldurchdrungen von des Geistes Hauch,^lin allen Sprachen reden sie^lund machen Gottes Taten kund.^pDir, Gott und Vater, sei der Ruhm,^ldem Sohne, der vom Tod erstand,^ldem Beistand auch, dem Heil´gen Geist,^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   71019: {

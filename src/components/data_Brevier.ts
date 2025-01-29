@@ -275,7 +275,7 @@ export const brevierData = {
         "Laudes": {
           "les_buch": "Röm",
           "les_stelle": "13,11b–12",
-          "les_text": "Text von Röm 13,11b–12",
+          "les_text": "Die Stunde ist gekommen, sich vom Schlaf zu erheben. Denn jetzt ist das Heil uns näher als zu der Zeit, da wir gläubig wurden. Die Nacht ist vorgerückt, der Tag ist nahe. Darum lasst uns ablegen die Werke der Finsternis und anlegen die Waffen des Lichts!",
           "resp1_3": "Als Richter und Retter kommst du in diese Welt.",
           "bitten_e": "a-each-0-Bitten_E",
           "bitten_r": "a-each-0-Bitten_R",
@@ -294,7 +294,7 @@ export const brevierData = {
         "Terz": {
           "les_buch": "Röm",
           "les_stelle": "13,13–14a",
-          "les_text": "Text von Röm 13,13–14a"
+          "les_text": "Lasst uns ehrenhaft leben wie am Tag, ohne maßloses Essen und Trinken, ohne Unzucht und Ausschweifung, ohne Streit und Eifersucht. Legt (als neues Gewand) den Herrn Jesus Christus an."
         },
         "Vesper": {
           "les_buch": "Phil",
@@ -5201,7 +5201,7 @@ export const brevierData = {
           "ant_3": "Das Wort war Gott – im Anfang und vor aller Zeit; heute ist er geboren als Heiland der Welt.",
           "les_buch": "Röm",
           "les_stelle": "8,3b–4",
-          "les_text": "Text von Röm 8,3b–4",
+          "les_text": "Gott sandte seinen Sohn in der Gestalt des Fleisches, das unter der Macht der Sünde steht, zur Sühne für die Sünde, um an diesem Fleisch die Sünde zu verurteilen; dies tat er, damit die Forderung des Gesetzes durch uns erfüllt werde, die wir nicht nach dem Fleisch, sondern nach dem Geist leben.",
           "resp1_2": "Halleluja,°halleluja.",
           "resp1_3": "Aus seiner Fülle haben wir empfangen, Gnade über Gnade.",
           "ant_ev": "Was alle Propheten von Christus verkünden, das hat sich durch dich, Maria, erfüllt: Als Jungfrau hast du empfangen, als Jungfrau hast du geboren.",
@@ -7192,10 +7192,9 @@ export const brevierData = {
           "les_text": "Advent-Sext"
         },
         "Terz": {
-          "resp0_1": "Röm 13,13-14a",
           "les_buch": "Röm",
           "les_stelle": "13,13-14a",
-          "les_text": "Advent-Terz"
+          "les_text": "Lasst uns ehrenhaft leben wie am Tag, ohne maßloses Essen und Trinken, ohne Unzucht und Ausschweifung, ohne Streit und Eifersucht. Legt (als neues Gewand) den Herrn Jesus Christus an."
         },
         "Vesper": {
           "resp0_1": "Phil 4,4-5",
@@ -8074,6 +8073,24 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "o-3-0-each-Oration"
+        },
+        "ErsteV": {
+          "ant_1": "Der Herr ist erhaben über alle Himmel, er hebt den Schwachen aus dem Staub empor.^ö",
+          "ant_2": "Du hast meine Fesseln gelöst, ein Opfer des Dankes will ich dir bringen.^ö",
+          "ant_3": "Obwohl er Gottes Sohn war, hat er Gehorsam gelernt durch sein Leiden und wurde für alle, die ihm gehorchen, zum Urheber des ewigen Heiles.^ö",
+          "ant_ev": "Herr, bleibe bei uns, denn es will Abend werden, und der Tag hat sich schon geneigt.^ö"
+        },
+        "Laudes": {
+          "ant_1": "Der Herr ist König, bekleidet mit Hoheit.^ö",
+          "ant_2": "Auch die Schöpfung wird befreit zur Freiheit und Herrlichkeit der Kinder Gottes.^ö",
+          "ant_3": "Der Name des Herrn ist erhaben. Seine Hoheit strahlt über Erde und Himmel.^ö",
+          "ant_ev": "Christus musste leiden und am dritten Tag auferstehen von den Toten.^ö"
+        },
+        "Vesper": {
+          "ant_1": "Christus, der Erbe des Alls, hat die Reinigung von den Sünden vollbracht. Dann setzte er sich zur Rechten der Herrlichkeit Gottes in der Höhe.^ö",
+          "ant_2": "Der Herr hat seinem Volk Erlösung gewährt.^ö",
+          "ant_3": "Halleluja. Der Herr, unser Gott, ist König. Ihm sei Ehre und Herrlichkeit.^ö",
+          "ant_ev": "Jesus sprach zu den Jüngern: Bringt von den Fischen, die ihr gerade gefangen habt. Da ging Simon Petrus und zog das Netz ans Land. Es war mit großen Fischen gefüllt.^ö"
         }
       },
       "1": {
@@ -8114,6 +8131,24 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "o-4-0-each-Oration"
+        },
+        "ErsteV": {
+          "ant_1": "Der Friede Christi herrsche in euren Herzen.^ö",
+          "ant_2": "Herr, du hast uns für Gott erkauft durch dein Blut.^ö",
+          "ant_3": "Musste nicht der Messias all das erleiden, um so in seine Herrlichkeit zu gelangen?^ö",
+          "ant_ev": "So spricht der Herr: Ich bin die Tür; wer durch mich hineingeht, wird gerettet.^ö"
+        },
+        "Laudes": {
+          "ant_1": "Ich werde nicht sterben, sondern leben und die Taten des Herrn verkünden.^ö",
+          "ant_2": "Gepriesen ist dein heiliger, herrlicher Name, hoch gelobt und verherrlicht in Ewigkeit.^ö",
+          "ant_3": "Preist die Größe unseres Gottes: Seine Werke sind gut und all seine Wege gerecht.^ö",
+          "ant_ev": "Ich bin der Gute Hirt, ich bin der Weg und die Wahrheit und das Leben. Ich kenne die Meinen, und die Meinen kennen mich.^ö"
+        },
+        "Vesper": {
+          "ant_1": "Ihr seid mit Christus auferweckt, sucht also, was droben ist, wo Christus thront zur Rechten des Vaters.^ö",
+          "ant_2": "Den Redlichen erstrahlt im Finstern ein Licht: der gnädige, barmherzige und gerechte Herr.^ö",
+          "ant_3": "Halleluja. Das Heil und die Herrlichkeit und die Macht ist bei unserem Gott.^ö",
+          "ant_ev": "Meine Schafe hören auf meine Stimme; ich kenne sie, und sie folgen mir.^ö"
         }
       },
       "1": {
@@ -8154,6 +8189,24 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "o-5-0-each-Oration"
+        },
+        "ErsteV": {
+          "ant_1": "Zu dir erhebe ich die Hände; Herr, nimm mein Abendopfer an.^ö",
+          "ant_2": "Ich preise deinen Namen, Herr: Du hast mich herausgeführt aus dem Kerker des Todes.^ö",
+          "ant_3": "Obwohl er Gottes Sohn war, hat er Gehorsam gelernt durch sein Leiden und wurde für alle, die ihm gehorchen, zum Urheber des ewigen Heiles.^ö",
+          "ant_ev": "Ich bin der Weg und die Wahrheit und das Leben; niemand kommt zum Vater außer durch mich.^ö"
+        },
+        "Laudes": {
+          "ant_1": "Wer dürstet, dem wird das Wasser des Lebens geschenkt.^ö",
+          "ant_2": "Fallt nieder vor dem Herrn, der alles erschaffen hat: Himmel und Erde und Meer und die Quellen der Wasser.^ö",
+          "ant_3": "In festlichem Glanz frohlocken die Frommen, die Heiligen jubeln in Herrlichkeit.^ö",
+          "ant_ev": "Wer in mir bleibt und in wem ich bleibe, der bringt reiche Frucht.^ö"
+        },
+        "Vesper": {
+          "ant_1": "Auferstanden ist der Herr und sitzt zur Rechten Gottes.^ö",
+          "ant_2": "Der Macht der Finsternis hat Gott uns entrissen und aufgenommen in das Reich seines Sohnes.^ö",
+          "ant_3": "Halleluja. Der Herr, unser Gott, ist König. Ihm sei Ehre und Herrlichkeit.^ö",
+          "ant_ev": "Ein neues Gebot gebe ich euch: Liebt einander! Wie ich euch geliebt habe, so sollt auch ihr einander lieben.^ö"
         }
       },
       "1": {
@@ -8194,6 +8247,24 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "o-6-0-each-Oration"
+        },
+        "ErsteV": {
+          "ant_1": "Wer die Wahrheit tut, der kommt zum Licht.^ö",
+          "ant_2": "Auferstanden ist der Herr, befreit von den Wehen des Todes.^ö",
+          "ant_3": "Musste nicht der Messias all das erleiden, um so in seine Herrlichkeit zu gelangen?^ö",
+          "ant_ev": "Ich will den Vater bitten, und er wird euch einen anderen Beistand geben, der für immer bei euch bleibt.^ö"
+        },
+        "Laudes": {
+          "ant_1": "Dies ist der Tag, den der Herr gemacht hat.^ö",
+          "ant_2": "Gepriesen bist du am Gewölbe des Himmels, gerühmt und verherrlicht in Ewigkeit.^ö",
+          "ant_3": "Werft euch nieder vor Gott, der auf dem Thron sitzt. Mit lautem Rufen huldigt ihm: Amen.^ö",
+          "ant_ev": "Wie mich der Vater geliebt hat, so habe auch ich euch geliebt. Bleibt in meiner Liebe!^ö"
+        },
+        "Vesper": {
+          "ant_1": "Gott hat Christus von den Toten erweckt und ihn in den Himmel erhoben auf den Platz zu seiner Rechten.^ö",
+          "ant_2": "Ihr habt euch von den Götzen bekehrt zum lebendigen Gott.^ö",
+          "ant_3": "Halleluja. Das Heil und die Herrlichkeit und die Macht ist bei unserem Gott.^ö",
+          "ant_ev": "Wenn einer mich liebt, wird er mein Wort bewahren; mein Vater wird ihn lieben, und wir werden kommen und bei ihm Wohnung nehmen.^ö"
         }
       },
       "1": {
@@ -8214,16 +8285,132 @@ export const brevierData = {
       "4": {
         "each": {
           "oration": "o-6-4-each-Oration"
+        },
+        "ErsteV": {
+          "name": "1. Vesper zu Christi Himmelfahrt",
+          "hymn_1": 694.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
+          "ps_1": 113.0,
+          "ps_2": 117.0,
+          "ps_3": 155.0,
+          "ant_1": "Ich bin ausgegangen vom Vater und in die Welt gekommen. Ich verlasse nun wieder die Welt und gehe zum Vater.^ö",
+          "ant_2": "Als Jesus zu seinen Jüngern geredet hatte, wurde er in den Himmel aufgenommen und setzte sich zur Rechten Gottes.^ö",
+          "ant_3": "Niemand stieg je in den Himmel auf außer dem, der vom Himmel herabstieg: der Menschensohn, der im Himmel ist^ö",
+          "les_buch": "Eph",
+          "les_stelle": "2,4-6",
+          "les_text": "Gott, der voll Erbarmen ist, hat uns, die wir durch unsere Sünden tot waren, in seiner großen Liebe, mit der er uns geliebt hat, zusammen mit Christus lebendig gemacht. Aus Gnade seid ihr gerettet. Er hat uns mit Christus auferweckt und uns zusammen mit ihm einen Platz im Himmel gegeben.",
+          "resp1_1": "Gott steigt empor unter Jubel.",
+          "resp1_2": "Halleluja, halleluja.",
+          "resp1_3": "Der Herr beim Schall der Posaunen.",
+          "ant_ev": "Vater, ich habe deinen Namen den Menschen offenbart, die du mir gegeben hast. Bewahre sie in deinem Namen; denn ich gehe zu dir.^ö",
+          "bitten_e": "Lasst uns zu Jesus Christus beten, der in den Himmel aufgefahren ist und zur Rechten des Vaters sitzt:",
+          "bitten_r": "Du König der Herrlichkeit, höre uns.",
+          "bitten": "Wir bitten für alle Christen, die heute das Fest deiner Himmelfahrt begehen;^qgib, dass sie in Freude deine Wiederkunft erwarten.^pDeine Jünger sind vom Berg der Himmelfahrt voll Freude heimgekehrt und haben Gott gepriesen;^qhilf deiner Kirche, allezeit dem Vater zu danken.^pVor deiner Himmelfahrt hast du deine Jünger ausgesandt;^qsende auch heute Arbeiter in deine Ernte.^pBeschütze alle, die heute unterwegs sind;^qbewahre sie vor Unglück und führe sie an das Ziel ihrer Reise.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten."
+        },
+        "Invitatorium": {
+          "ant_0": "Christus, der Herr, ist aufgestiegen zum Himmel; kommt, wir beten ihn an!^ö"
+        },
+        "Laudes": {
+          "ant_1": "Ihr Männer von Galiläa, was schaut ihr auf zum Himmel? Wie dieser Jesus vor euren Augen zum Himmel emporstieg, so kommt er wieder.^ö",
+          "ant_2": "Preist den König der Könige. Singt das Lob unseres Gottes.^ö",
+          "ant_3": "Vor ihren Augen wurde Jesus erhoben. Eine Wolke nahm ihn auf und entzog ihn ihren Blicken^ö",
+          "les_buch": "Hebr",
+          "les_stelle": "10,12-14",
+          "les_text": "Jesus hat nur ein einziges Opfer für die Sünden dargebracht und sich dann für immer zur Rechten Gottes gesetzt; seitdem wartet er, bis seine Feinde ihm als Schemel unter die Füße gelegt werden. Denn durch ein einziges Opfer hat er die, die geheiligt werden, für immer zur Vollendung geführt.",
+          "resp1_1": "Christus zog hinauf zur Höhe.",
+          "resp1_2": "Halleluja, halleluja",
+          "resp1_3": "Gefangene hat er mitgeführt.",
+          "ant_ev": "Ich steige auf zu meinem Vater und zu eurem Vater, zu meinem Gott und zu eurem Gott.^ö",
+          "bitten_e": "Gepriesen sei Jesus Christus, der von der Erde erhöht ist und alles an sich zieht. Zu ihm lasst uns beten:",
+          "bitten_r": "Christus, höre uns.",
+          "bitten": "Du bist als Sieger emporgestiegen zur Rechten des Vaters;^qlenke unser Sinnen und Verlangen zum Himmel.^pDu bist unser Hoherpriester;^qtritt für uns ein beim Vater.^pDu bleibst bei uns alle Tage bis zum Ende der Welt;^qstärke unseren Glauben.^pDu hast heute die Apostel zu deinen Zeugen bestellt;^qgib auch unserem Zeugnis Kraft durch den Heiligen Geist."
+        },
+        "Lesehore": {
+          "ps_1": 68.1,
+          "ps_2": 68.2,
+          "ps_3": 68.301,
+          "ant_1": "Singt für Gott, spielt seinem Namen; jubelt ihm zu, ihm, der auf den Wolken einherfährt.^ö",
+          "ant_2": "Du zogst hinauf zur Höhe, führtest Gefangene mit.^ö",
+          "ant_3": "Gott, sie sahen deinen Einzug, den Einzug meines Gottes und Königs ins Heiligtum^ö"
+        },
+        "Non": {
+          "ant_0": "Jesus erhob seine Hände und segnete die Jünger. Und während er sie segnete, wurde er zum Himmel erhoben.^ö",
+          "les_buch": "Kol",
+          "les_stelle": "3,1-2",
+          "les_text": "Ihr seid mit Christus auferweckt; darum strebt nach dem, was im Himmel ist, wo Christus zur Rechten Gottes sitzt. Richtet euren Sinn auf das Himmlische und nicht auf das Irdische.",
+          "resp1_0": "Preist den König der Könige.^ö",
+          "resp1_1": "Singt das Lob unseres Gottes.^ö"
+        },
+        "Sext": {
+          "ant_0": "Frohlockend wie ein Held vollendet er den Lauf, zum höchsten Himmel kehrt der Herr zurück.^ö",
+          "les_buch": "Hebr",
+          "les_stelle": "8,1b-3a",
+          "les_text": "Wir haben einen Hohenpriester, der sich zur Rechten des Thrones der Majestät im Himmel gesetzt hat, als Diener des Heiligtums und des wahren Zeltes, das der Herr selbst aufgeschlagen hat, nicht etwa ein Mensch. Denn jeder Hohepriester wird eingesetzt, um Gaben und Opfer darzubringen.",
+          "resp1_0": "Der Herr hat seinen Thron errichtet im Himmel.^ö",
+          "resp1_1": "Seine Königsmacht herrscht über das All.^ö"
+        },
+        "Terz": {
+          "ps_1": 8.0,
+          "ps_2": 19.1,
+          "ps_3": 19.2,
+          "ant_0": "Mit Herrlichkeit und Ehre hast du ihn gekrönt und ihn als Herrscher eingesetzt über das Werk deiner Hände.^ö",
+          "les_buch": "Offb",
+          "les_stelle": "1,17c-18",
+          "les_text": "Ich, Johannes, sah den Menschensohn. Er sprach zu mir: Fürchte dich nicht! Ich bin der Erste und der Letzte und der Lebendige. Ich war tot, doch nun lebe ich in alle Ewigkeit, und ich habe die Schlüssel des Todes und der Unterwelt.",
+          "resp1_0": "Euer Herz sei ohne Angst.^ö",
+          "resp1_1": "Denn ich gehe zum Vater.^ö"
+        },
+        "Vesper": {
+          "hymn_1": 694.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
+          "ps_1": 110.0,
+          "ps_2": 47.0,
+          "ps_3": 155.0,
+          "ant_1": "Der Herr ist aufgefahren zum Himmel und sitzt zur Rechten des Vaters.^ö",
+          "ant_2": "Gott stieg empor unter Jubel, der Herr beim Schall der Posaunen.^ö",
+          "ant_3": "Jetzt ist der Menschensohn verherrlicht, und Gott ist verherrlicht in ihm^ö",
+          "les_buch": "1 Petr",
+          "les_stelle": "3,18.22",
+          "les_text": "Christus ist der Sünden wegen ein einziges Mal gestorben, er, der Gerechte, für die Ungerechten, um euch zu Gott hinzuführen; dem Fleisch nach wurde er getötet, dem Geist nach lebendig gemacht. Er ist in den Himmel gegangen; dort ist er zur Rechten Gottes, und Engel, Gewalten und Mächte sind ihm unterworfen.",
+          "resp1_1": "Ich steige auf zu meinem Vater und zu eurem Vater.",
+          "resp1_2": "Halleluja, halleluja",
+          "resp1_3": "Zu meinem Gott und zu eurem Gott.",
+          "ant_ev": "O König der Herrlichkeit und Herr der Scharen! Als Sieger steigst du heute empor über alle Himmel; lass uns nicht als Waisen zurück, sondern sende uns die Verheißung des Vaters: den Geist der Wahrheit.^ö",
+          "bitten_e": "Lasst uns zu Jesus Christus beten, der in den Himmel aufgefahren ist und zur Rechten des Vaters sitzt:",
+          "bitten_r": "Du König der Herrlichkeit, höre uns.",
+          "bitten": "Wir bitten für alle Christen, die heute das Fest deiner Himmelfahrt begehen;^qgib, dass sie in Freude deine Wiederkunft erwarten.^pDeine Jünger sind vom Berg der Himmelfahrt voll Freude heimgekehrt und haben Gott gepriesen;^qhilf deiner Kirche, allezeit dem Vater zu danken.^pVor deiner Himmelfahrt hast du deine Jünger ausgesandt;^qsende auch heute Arbeiter in deine Ernte.^pBeschütze alle, die heute unterwegs sind;^qbewahre sie vor Unglück und führe sie an das Ziel ihrer Reise.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten."
         }
       },
       "5": {
         "each": {
           "oration": "o-6-5-each-Oration"
+        },
+        "Laudes": {
+          "ant_ev": "Mit Herrlichkeit und Ehre ist Jesus gekrönt um seines Todesleidens willen.^ö",
+          "bitten_e": "Gepriesen sei Jesus Christus, der in den Himmel aufgefahren ist und den Heiligen Geist auf die Apostel sandte. Zu ihm lasst uns beten:",
+          "bitten_r": "Herr, sende uns deinen Geist.",
+          "bitten": "Sende den herab, den der Vater verheißen hat;^qstärke uns mit dem Geist aus der Höhe.^pSende uns den Geist der Wahrheit,^qdass er uns in alle Wahrheit einführe.^pHilf uns, nach dem Geist zu leben;^qüberwinde in uns die Macht der Sünde.^pSteh uns bei, wenn wir leiden müssen,^qdamit wir auch mit dir verherrlicht werden."
+        },
+        "Vesper": {
+          "ant_ev": "Euer Vater im Himmel wird den guten Geist allen geben, die ihn darum bitten.^ö",
+          "bitten_e": "Lasst uns zu Jesus Christus beten, der mit dem Heiligen Geist gesalbt wurde:",
+          "bitten_r": "Herr, sende uns deinen Geist.",
+          "bitten": "Sieh auf alle, die als Christen deinen Namen tragen;^qführe sie im Heiligen Geist zur Einheit zusammen.^pDu König der Welt, im Triumph bist du hinaufgestiegen in den Himmel;^qbreite deine Herrschaft aus über alle Völker.^pDu bist der wahre Weinstock;^qgib, dass alle Menschen Rebzweige an dir werden.^pSende dein Licht denen, die um deines Namens willen verfolgt werden,^qund gib ihnen ein, was sie ihren Verfolgern antworten sollen.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten."
         }
       },
       "6": {
         "each": {
           "oration": "o-6-6-each-Oration"
+        },
+        "Laudes": {
+          "ant_ev": "Amen, amen, ich sage euch: Was immer ihr vom Vater erbittet, er wird es euch geben in meinem Namen.^ö",
+          "bitten_e": "Gepriesen sei Jesus Christus, der den Aposteln die Kraft des Heiligen Geistes verheißen hat. Zu ihm lasst uns beten:",
+          "bitten_r": "Herr, sende uns deinen Geist.",
+          "bitten": "Sende uns dein Licht und deine Wahrheit,^qdamit wir von dir Zeugnis geben.^pLass uns erkennen, wohin der Geist uns führen will,^qdamit unser Leben Gott gefällt.^pDein Geist helfe unserer Schwachheit auf,^qdamit wir wissen, um was wir beten sollen.^pÖffne uns die Augen für die Not unserer Mitmenschen;^qmach uns bereit, einander zu trösten und zu stärken."
         }
       }
     },
@@ -8231,39 +8418,132 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "o-7-0-each-Oration"
+        },
+        "ErsteV": {
+          "ant_1": "Als die fünfzig Tage sich erfüllten, waren alle versammelt am gleichen Ort.^ö",
+          "ant_2": "Es erschienen Zungen wie von Feuer, die sich verteilten, und der Heilige Geist ließ sich auf jeden nieder.^ö",
+          "ant_3": "Der Geist, der vom Vater ausgeht, er wird mich verherrlichen.^ö",
+          "les_buch": "Röm",
+          "les_stelle": "8,11",
+          "les_text": "Wenn der Geist dessen in euch wohnt, der Jesus von den Toten auferweckt hat, dann wird er, der Christus Jesus von den Toten auferweckt hat, auch euren sterblichen Leib lebendig machen durch seinen Geist, der in euch wohnt.",
+          "ant_ev": "Ich lasse euch nicht als Waisen zurück: Ich gehe hin und komme wieder zu euch, und euer Herz wird sich freuen.^ö",
+          "bitten_e": "Lasst uns beten zu Jesus Christus, der in den Himmel aufgefahren ist:",
+          "bitten_r": "Herr, sende uns deinen Geist.",
+          "bitten": "Sende herab die Kraft aus der Höhe^qund erneuere deine Kirche.^pSei mit denen, die sich auf das Sakrament der Firmung vorbereiten;^qfestige, was du in ihnen gewirkt hast.^pStärke alle, die gefirmt sind;^qhilf ihnen, als deine Jünger zu leben.^pSteh den Behinderten und Kranken bei^qund schenke ihnen den Trost des Heiligen Geistes.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten."
+        },
+        "Vesper": {
+          "ant_1": "Wie gut und freundlich ist dein Geist in uns, o Herr.^ö"
         }
       },
       "1": {
         "each": {
           "oration": "o-7-1-each-Oration"
+        },
+        "Laudes": {
+          "ant_ev": "In der Welt seid ihr in Bedrängnis; aber habt Mut: Ich habe die Welt besiegt.^ö",
+          "bitten_e": "Gepriesen sei Jesus Christus, der uns den Beistand des Heiligen Geistes verheißen hat. Zu ihm lasst uns beten:",
+          "bitten_r": "Herr, sende uns deinen Geist.",
+          "bitten": "Durch dich danken wir dem Vater im Heiligen Geist;^qgib, dass alles, was wir heute tun, in deinem Namen geschieht.^pGib, dass der Heilige Geist in uns wohne,^qdamit wir lebendige Glieder deines Leibes sind.^pGib, dass wir keinen Menschen richten oder verachten,^qdamit wir vor deinem Gericht bestehen können.^pErfülle uns durch den Glauben mit Freude und Frieden;^qmach unsere Hoffnung stark im Heiligen Geist."
+        },
+        "Vesper": {
+          "les_buch": "Röm",
+          "les_stelle": "8,14–17",
+          "les_text": "Alle, die sich vom Geist Gottes leiten lassen, sind Söhne Gottes. Denn ihr habt nicht einen Geist empfangen, der euch zu Sklaven macht, so dass ihr euch immer noch fürchten müsstet, sondern ihr habt den Geist empfangen, der euch zu Söhnen macht, den Geist, in dem wir rufen: Abba, Vater! So bezeugt der Geist selber unserem Geist, dass wir Kinder Gottes sind. Sind wir aber Kinder, dann auch Erben; wir sind Erben Gottes und sind Miterben Christi, wenn wir mit ihm leiden, um mit ihm auch verherrlicht zu werden.",
+          "ant_ev": "Der Beistand, der Heilige Geist, wird bei euch bleiben und in euch wohnen.^ö",
+          "bitten_e": "Lasst uns beten zu unserem Herrn Jesus Christus, dem Spender des Geistes:",
+          "bitten_r": "Herr, sende uns deinen Geist.",
+          "bitten": "Du Mittler zwischen Gott und den Menschen, du hast die Priester zu deinen Mitarbeitern erwählt,^qführe die Menschen durch sie zu Gott, unserem Vater.^pOffenbare dein Evangelium allen Völkern,^qdamit die ganze Menschheit zum Gehorsam des Glaubens gelange.^pSende deinen Geist, den Beistand und Tröster,^qdamit er die Tränen der Weinenden trockne.^pVor dir gibt es kein Ansehen der Person;^qverhilf den Armen und Unterdrückten zu ihrem Recht.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten."
         }
       },
       "2": {
         "each": {
           "oration": "o-7-2-each-Oration"
+        },
+        "Laudes": {
+          "ant_ev": "Der Herr ist von den Toten erstanden, wie er gesagt hat. Lasst uns frohlocken und jubeln; denn er ist König für immer und ewig.^ö",
+          "bitten_e": "Gepriesen sei Jesus Christus, der uns den Heiligen Geist verheißen hat. Zu ihm lasst uns beten:",
+          "bitten_r": "Herr, sende uns deinen Geist.",
+          "bitten": "Gib, dass dein Geist in uns wohne;^qlass all unser Tun den Vater loben.^pDu hast uns zu deinen Brüdern und Schwestern gemacht;^qgib, dass wir allezeit im Heiligen Geist mit dir zum Vater rufen.^pMach uns weise im Handeln,^qdamit wir mit allen Menschen in Frieden leben.^pSchenke uns die Frucht des Geistes,^qdamit wir das Reich Gottes erben."
+        },
+        "Vesper": {
+          "les_buch": "Röm",
+          "les_stelle": "8,26–27",
+          "les_text": "Der Geist nimmt sich unserer Schwachheit an. Denn wir wissen nicht, worum wir in rechter Weise beten sollen; der Geist selber tritt jedoch für uns ein mit Seufzen, das wir nicht in Worte fassen können. Und Gott, der die Herzen erforscht, weiß, was die Absicht des Geistes ist: Er tritt so, wie Gott es will, für die Heiligen ein.",
+          "ant_ev": "Ihr werdet die Kraft des Heiligen Geistes empfangen und meine Zeugen sein bis an die Grenzen der Erde.^ö",
+          "bitten_e": "Lasst uns beten zu Christus, der allen Glaubenden seinen Heiligen Geist schenkt:",
+          "bitten_r": "Herr, sende uns deinen Geist.",
+          "bitten": "Sende vom Vater her den Heiligen Geist über die ganze Kirche,^qdass er sie reinige und stärke und sie ausbreite über die Erde.^pErfülle die Ausspender deiner Geheimnisse mit Heiligem Geist,^qdamit sie allezeit treu erfunden werden in deinem Dienst.^pLenke durch deinen Geist das Denken und Tun der Regierenden,^qdamit sie deinen Willen vollziehen zum Wohle aller.^pSende uns deinen Geist, den Vater der Armen,^qdamit er allen, die Not leiden, Hilfe bringe.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten."
         }
       },
       "3": {
         "each": {
           "oration": "o-7-3-each-Oration"
+        },
+        "Laudes": {
+          "ant_ev": "Dank sei Gott! Er hat uns den Sieg geschenkt durch Jesus Christus, unseren Herrn.^ö",
+          "bitten_e": "Gepriesen sei Jesus Christus, der uns den Heiligen Geist verheißen hat. Zu ihm lasst uns beten:",
+          "bitten_r": "Herr, sende uns deinen Geist.",
+          "bitten": "Dein Heiliger Geist lehre uns beten;^qer lasse Herz und Stimme zusammenklingen.^pHilf uns, heute aufeinander Rücksicht zu nehmen,^qund mach uns bereit, einander zu verzeihen.^pGib, dass wir uns als Kinder Gottes vom Geiste Gottes leiten lassen;^qbewahre uns vor dem Geist der Welt.^pSchenk uns deine Liebe, wie du verheißen hast,^qund bleibe allezeit bei uns."
+        },
+        "Vesper": {
+          "les_buch": "1°Kor",
+          "les_stelle": "2,9–10",
+          "les_text": "Wir verkündigen, wie in der Schrift steht, was kein Auge gesehen und kein Ohr gehört hat, was keinem Menschen in den Sinn gekommen ist: das Große, das Gott denen bereitet hat, die ihn lieben. Denn uns hat es Gott enthüllt durch den Geist. Der Geist ergründet nämlich alles, auch die Tiefen Gottes.",
+          "ant_ev": "Christus wird euch taufen mit heiligem Geist und mit Feuer.^ö",
+          "bitten_e": "Lasst uns beten zu Jesus Christus, der uns seinen Heiligen Geist verheißen hat:",
+          "bitten_r": "Herr, sende uns deinen Geist.",
+          "bitten": "Der Vater hat dich als seinen geliebten Sohn geoffenbart;^qgib, dass alle Menschen deine Stimme hören und gerettet werden.^pDu bist in die Herrlichkeit des Himmels erhoben worden;^qlass die Kirche deine bleibende Gegenwart erfahren.^pSende deinen Geist in die Herzen der Sünder,^qdamit er sie zur Umkehr bewege.^pKomm den Trauernden mit deinem Geist zu Hilfe;^qlass die Einsamen getröstet werden.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten."
         }
       },
       "4": {
         "each": {
           "oration": "o-7-4-each-Oration"
         },
+        "Laudes": {
+          "ant_ev": "Geht hinaus in alle Welt und lehrt alle Völker und tauft sie im Namen des Vaters und des Sohnes und des Heiligen Geistes.^ö",
+          "bitten_e": "Gepriesen sei Jesus Christus, der uns den Heiligen Geist verheißen hat. Zu ihm lasst uns beten:",
+          "bitten_r": "Herr, sende uns deinen Geist.",
+          "bitten": "Du hast dich vom Geiste Gottes leiten lassen;^qlass uns erkennen, was der Wille Gottes ist.^pVom Heiligen Geist erfüllt, hast du den Vater gepriesen;^qlehre uns beten im Geist und in der Wahrheit.^pDurch den Geist wirkst du in jedem von uns;^qlass uns die Gaben des Geistes gebrauchen zum Nutzen aller.^pDu heiligst uns durch deinen Geist;^qhilf uns, heute als Christen zu leben."
+        },
         "Vesper": {
-          "ant_ev": "Wenn der Geist der Wahrheit kommt, wird er euch in die volle Wahrheit führen und euch verkünden, was kommen wird.^ö"
+          "les_buch": "1°Kor",
+          "les_stelle": "6,19–20",
+          "les_text": "Wisst ihr nicht, dass euer Leib ein Tempel des Heiligen Geistes ist, der in euch wohnt und den ihr von Gott habt? Ihr gehört nicht euch selbst; denn um einen teuren Preis seid ihr erkauft worden. Verherrlicht also Gott in eurem Leib!",
+          "ant_ev": "Wenn der Geist der Wahrheit kommt, wird er euch in die volle Wahrheit führen und euch verkünden, was kommen wird.^ö",
+          "bitten_e": "Lasst uns beten zu Jesus Christus, der uns seinen Heiligen Geist verheißen hat:",
+          "bitten_r": "Herr, sende uns deinen Geist.",
+          "bitten": "Du hast Besessene von den Dämonen befreit;^qbefreie die Welt von allem Bösen, das sie bedrängt.^pSende deiner Kirche den Geist der Einheit,^qdamit er Spaltung und Streit von ihr fernhalte.^pGib, dass deine Priester sich vom Heiligen Geist leiten lassen^qund ihren Dienst mit ganzer Hingabe tun.^pDein Geist lenke die Gedanken der Mächtigen,^qdamit sie dem Wohl aller dienen.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten."
         }
       },
       "5": {
         "each": {
           "oration": "o-7-5-each-Oration"
+        },
+        "Laudes": {
+          "ant_ev": "Christus Jesus ist für uns gestorben und auferstanden. Er sitzt zur Rechten Gottes und tritt beim Vater für uns ein.^ö",
+          "bitten_e": "Gepriesen sei Jesus Christus, der uns den Heiligen Geist verheißen hat. Zu ihm lasst uns beten:",
+          "bitten_r": "Herr, sende uns deinen Geist.",
+          "bitten": "Du bist der Gesalbte Gottes, der Erlöser deines Volkes;^qhilf uns, dir zu folgen in der Kraft des Geistes.^pDu bist das lebendige Wort Gottes;^qgib, dass wir dich aufnehmen in der Freude des Heiligen Geistes.^pErfülle uns mit dem Geist, der uns beten lehrt,^qdamit wir mit ganzem Herzen das Lob Gottes singen.^pLass nicht zu, dass wir den Heiligen Geist beleidigen;^qhilf uns sein Siegel bewahren für den Tag der Erlösung."
+        },
+        "Vesper": {
+          "les_buch": "Gal",
+          "les_stelle": "5,16.22–23a.25",
+          "les_text": "Lasst euch vom Geist leiten, dann werdet ihr das Begehren des Fleisches nicht erfüllen. Die Frucht des Geistes ist Liebe, Freude, Friede, Langmut, Freundlichkeit, Güte, Treue, Sanftmut und Selbstbeherrschung. Wenn wir aus dem Geist leben, dann wollen wir dem Geist auch folgen.",
+          "ant_ev": "Sie alle verharrten einmütig im Gebet, zusammen mit den Frauen und mit Maria, der Mutter Jesu.^ö",
+          "bitten_e": "Lasst uns zu Jesus Christus beten, der den Heiligen Geist über alle Völker ausgegossen hat:",
+          "bitten_r": "Herr, sende uns deinen Geist.",
+          "bitten": "Du bist das Licht der Welt;^qvereine die Menschen aller Rassen und Sprachen in deiner Kirche.^pDu bist der Gesalbte Gottes, der Heiland der Welt;^qlass alle Armen deine Wohltaten erfahren.^pSende deinen Geist, dass er die Herzen der Irrenden erleuchte^qund die Zweifelnden im Glauben stärke.^pSende deinen Geist, dass er den Mühseligen und Beladenen Ruhe schenke^qund die zerbrochenen Herzen heile.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten."
         }
       },
       "6": {
         "each": {
           "oration": "o-7-6-each-Oration"
+        },
+        "Laudes": {
+          "ant_ev": "Seht, ich bin alle Tage bei euch, bis zum Ende der Welt.^ö",
+          "bitten_e": "Gepriesen sei Jesus Christus, der uns den Heiligen Geist verheißen hat. Zu ihm lasst uns beten:",
+          "bitten_r": "Herr, sende uns deinen Geist.",
+          "bitten": "Du hast gewirkt in der Kraft des Geistes;^qmach uns stark im Heiligen Geist.^pDu hast uns die Gemeinschaft des Heiligen Geistes versprochen;^qsteh uns heute bei, dass wir miteinander in Frieden leben.^pGib, dass wir uns im Heiligen Geist als Gottes Diener erweisen,^qund lass nicht zu, dass wir deine Gnade vergebens empfangen.^pDu hast uns von deinem Geist gegeben;^qgib, dass wir in dir bleiben, und bleibe du in uns."
         }
       }
     },
@@ -8271,6 +8551,117 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "o-8-0-each-Oration"
+        },
+        "ErsteV": {
+          "name": "1. Vesper zu Pfingsten",
+          "hymn_1": 4304.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
+          "ps_1": 113.0,
+          "ps_2": 147.1,
+          "ps_3": 156.0,
+          "ant_1": "Als die fünfzig Tage sich erfüllten, waren alle versammelt am gleichen Ort.^ö",
+          "ant_2": "Es erschienen Zungen wie von Feuer, die sich verteilten, und der Heilige Geist ließ sich auf jeden nieder.^ö",
+          "ant_3": "Der Geist, der vom Vater ausgeht, er wird mich verherrlichen.^ö",
+          "les_buch": "Röm",
+          "les_stelle": "8,11",
+          "les_text": "Wenn der Geist dessen in euch wohnt, der Jesus von den Toten auferweckt hat, dann wird er, der Christus Jesus von den Toten auferweckt hat, auch euren sterblichen Leib lebendig machen durch seinen Geist, der in euch wohnt.",
+          "resp1_1": "Der Beistand, den der Vater senden wird, er wird euch alles lehren.",
+          "resp1_2": "Halleluja,°halleluja.",
+          "resp1_3": "An alles, was ich euch sagte, wird er euch erinnern.",
+          "ant_ev": "Komm, Heiliger Geist, erfülle die Herzen deiner Gläubigen und entzünde in ihnen das Feuer deiner Liebe, du, der über alle Grenzen der Sprachen hinweg die Völker in einem Glauben sammelt.^ö",
+          "bitten_e": "Lasst uns beten zu Gott, dem allmächtigen Vater, der am Pfingsttag die Apostel Christi mit Heiligem Geist erfüllt hat:",
+          "bitten_r": "Sende aus deinen Geist und erneuere die Welt.",
+          "bitten": "Du hast Himmel und Erde geschaffen und willst durch Christus im Heiligen Geist alles erneuern;^qschaffe neu das Angesicht der Erde und schenke ihr dein Heil.^pDem ersten Menschen hast du den Lebensatem eingehaucht;^qgieße deinen Geist aus über die Kirche, damit sie allezeit aus ihm lebt.^pLenke durch deinen Geist die Pläne der Mächtigen;^qgib, dass sie Gedanken des Friedens und der Versöhnung denken.^pErbarme dich aller, die unter Krieg, Aufruhr und Unterdrückung leiden;^qdein Heiliger Geist richte sie auf und tröste sie.^pDurch den Heiligen Geist führst du die Menschen zur Herrlichkeit des ewigen Lebens;^qgib, dass die Verstorbenen die Gemeinschaft der Heiligen erfahren."
+        },
+        "Invitatorium": {
+          "ant_0": "Halleluja. Der Geist des Herrn erfüllt den Erdkreis; kommt, wir fallen vor ihm nieder und beten an!^ö"
+        },
+        "Laudes": {
+          "hymn_1": 4205.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
+          "ps_1": 63.0,
+          "ps_2": 160.0,
+          "ps_3": 149.0,
+          "ant_1": "Wie gut und freundlich ist dein Geist in uns, o Herr.^ö",
+          "ant_2": "Ihr Quellen und alles, was sich regt im Wasser, singt Gott ein Loblied.^ö",
+          "ant_3": "In vielen Sprachen verkünden die Apostel Gottes große Taten.^ö",
+          "les_buch": "Apg",
+          "les_stelle": "5,30-32",
+          "les_text": "Der Gott unserer Väter hat Jesus auferweckt, den ihr ans Holz gehängt und ermordet habt. Ihn hat Gott als Herrscher und Retter an seine rechte Seite erhoben, um Israel die Umkehr und Vergebung der Sünden zu schenken. Zeugen dieser Ereignisse sind wir und der Heilige Geist, den Gott allen verliehen hat, die ihm gehorchen.",
+          "resp1_1": "Alle wurden erfüllt vom Heiligen Geist.",
+          "resp1_2": "Halleluja, halleluja.",
+          "resp1_3": "Sie redeten in fremden Zungen, wie der Geist es ihnen eingab.",
+          "ant_ev": "Empfangt den Heiligen Geist. Wem ihr die Sünden nachlasst, dem sind sie erlassen.^ö",
+          "bitten_e": "Gepriesen sei Jesus Christus, der seine Kirche im Heiligen Geist zusammenführt. Zu ihm lasst uns beten:",
+          "bitten_r": "Herr, schaffe alles neu.",
+          "bitten": "Du hast am heutigen Tag vom Vater her deinen Jüngern den Heiligen Geist gesandt;^qerfülle auch uns mit dem Heiligen Geist.^pDu hast Ströme lebendigen Wassers verheißen einem jeden, der glaubt;^qerneuere unseren Glauben.^pDu hast uns den Geist der Wahrheit gesandt, der von dir Zeugnis gibt;^qmache uns zu treuen Zeugen.^pIm Heiligen Geist heiligst du deine Kirche;^qnimm hinweg, was böse ist in uns."
+        },
+        "Lesehore": {
+          "hymn_1": 4405.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "ps_1": 104.1,
+          "ps_2": 104.2,
+          "ps_3": 104.3,
+          "ant_1": "Der Wind weht, wo er will. Du hörst sein Brausen, du weißt aber nicht, woher er kommt und wohin er geht.^ö",
+          "ant_2": "Plötzlich erhob sich vom Himmel her ein Brausen, wie wenn ein heftiger Sturm daherfährt.^ö",
+          "ant_3": "Sende deinen Geist aus, und alles wird neu geschaffen, und du erneuerst das Antlitz der Erde.^ö"
+        },
+        "Non": {
+          "ant_0": "Nicht ihr werdet reden in jener Stunde, der Geist eures Vaters wird reden durch euch.^ö",
+          "les_buch": "2 Kor",
+          "les_stelle": "1,21-22",
+          "les_text": "Gott, der uns und euch in der Treue zu Christus festigt und der uns alle gesalbt hat, er ist es auch, der uns sein Siegel aufgedrückt und als ersten Anteil (am verheißenen Heil) den Geist in unser Herz gegeben hat.",
+          "resp1_0": "Die Apostel redeten in vielerlei Sprachen.^ö",
+          "resp1_1": "Und verkündeten Gottes große Taten.^ö"
+        },
+        "Sext": {
+          "ant_0": "Mehre in uns den Glauben, o Herr, und erleuchte uns allezeit mit dem Licht deines Geistes.^ö",
+          "les_buch": "Tit",
+          "les_stelle": "3,5b",
+          "les_text": "Gott hat uns gerettet durch das Bad der Wiedergeburt und der Erneuerung im Heiligen Geist. Ihn hat er in reichem Maß über uns ausgegossen durch Jesus Christus, unseren Retter, damit wir durch seine Gnade gerecht gemacht werden und das ewige Leben erben, das wir erhoffen.",
+          "resp1_0": "Der Heilige Geist wird euch alles lehren.^ö",
+          "resp1_1": "An alles, was ich euch sagte, wird er euch erinnern.^ö"
+        },
+        "Terz": {
+          "hymn_1": 4405.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "ps_1": 118.1,
+          "ps_2": 118.2,
+          "ps_3": 118.3,
+          "ant_0": "Der Heilige Geist kam vom Throne herab, und unsichtbar durchdrang er die Herzen der Apostel.^ö",
+          "les_buch": "1 Kor",
+          "les_stelle": "12,13",
+          "les_text": "Durch den einen Geist wurden wir in der Taufe alle in einen einzigen Leib aufgenommen, Juden und Griechen, Sklaven und Freie; und alle wurden wir mit dem einen Geist getränkt.",
+          "resp1_0": "Der Beistand, den der Vater senden wird.^ö",
+          "resp1_1": "Er wird euch alles lehren.^ö"
+        },
+        "Vesper": {
+          "hymn_1": 4304.0,
+          "hymn_2": 4305.0,
+          "hymn_3": 4306.0,
+          "hymn_kl": 0.0,
+          "ps_1": 110.0,
+          "ps_2": 114.0,
+          "ps_3": 151.0,
+          "ant_1": "Der Geist des Herrn erfüllt den Erdkreis.^ö",
+          "ant_2": "Festige, Herr, was du in uns gewirkt hast, von deinem Tempel aus, hoch über Jerusalem.^ö",
+          "ant_3": "Alle wurden erfüllt vom Heiligen Geist, und sie begannen zu reden.^ö",
+          "les_buch": "Eph",
+          "les_stelle": "4,3-6",
+          "les_text": "Bemüht euch, die Einheit des Geistes zu wahren durch den Frieden, der euch zusammenhält.^w Ein^0w Leib und^w ein^0w Geist, wie euch auch durch eure Berufung^w eine^0w gemeinsame Hoffnung gegeben ist:^w ein^0w Herr,^w ein^0w Glaube,^w eine^0w Taufe,^w ein^0w Gott und Vater aller, der über allem und durch alles und in allem ist.",
+          "resp1_1": "Der Geist des Herrn erfüllt den Erdkreis.",
+          "resp1_2": "Halleluja, halleluja.",
+          "resp1_3": "Er, der das All umfängt, kennt jede Sprache.",
+          "ant_ev": "Heute sind die fünfzig Tage erfüllt. Heute erschien der Heilige Geist den Jüngern im Zeichen des Feuers. Heute schenkte er ihnen die Gaben der Gnade. Er sandte sie aus in die ganze Welt, zu predigen und zu bezeugen: Wer glaubt und sich taufen lässt, der wird gerettet. Halleluja, halleluja, halleluja.",
+          "bitten_e": "Lasst uns beten zu Gott, dem Vater, der durch Christus seine Kirche im Heiligen Geist zusammenführt:",
+          "bitten_r": "Sende aus deinen Geist und erneuere die Welt.",
+          "bitten": "Gott und Vater aller, du berufst deine Kinder aus allen Völkern und Rassen;^qerleuchte die Berufenen mit der Gnade des Heiligen Geistes.^pDu willst alle Menschen, die Christi Namen tragen, durch die eine Taufe vereinigen;^qgib, dass die Glaubenden ein Herz und eine Seele sind.^pDu hast den Heiligen Geist über den ganzen Erdkreis ausgegossen;^qstehe allen bei, die sich um den Frieden der Erde mühen.^pDu machst alles neu durch den Heiligen Geist;^qgib den Kranken und Betrübten neue Kraft.^pDurch den Heiligen Geist hast du deinen Sohn von den Toten auferweckt;^qerwecke die Verstorbenen zum ewigen Leben."
         }
       },
       "1": {
@@ -8339,7 +8730,7 @@ export const brevierData = {
         },
         "Vesper": {
           "les_buch": "Hebr",
-          "les_stelle": "10,13-14",
+          "les_stelle": "10,12-14",
           "les_text": "Christus hat nur ein einziges Opfer für die Sünden dargebracht und sich dann für immer zur Rechten Gottes gesetzt; seitdem wartet er, bis seine Feinde ihm als Schemel unter die Füße gelegt werden. Denn durch ein einziges Opfer hat er die, die geheiligt werden, für immer zur Vollendung geführt.",
           "bitten_e": "Lasst uns beten zu Jesus Christus, unserem Herrn, der im Tode den Tod überwunden hat:",
           "bitten_r": "Du König der Herrlichkeit, höre uns.",
@@ -8434,7 +8825,7 @@ export const brevierData = {
         "Terz": {
           "les_buch": "vgl.°Röm",
           "les_stelle": "4,24-25",
-          "les_text": "Wir glauben an den, der Jesus, unseren Herrn, von den Toten auferweckt hat. Wegen unserer Rechtfertigung wurde er hingegeben, wegen unserer Rechtmachung wurde er auferweckt."
+          "les_text": "Wir glauben an den, der Jesus, unseren Herrn, von den Toten auferweckt hat. Wegen unserer Rechtfertigung wurde er hingegeben, wegen unserer Gerechtmachung wurde er auferweckt."
         },
         "Vesper": {
           "les_buch": "Hebr",
@@ -8689,93 +9080,6 @@ export const brevierData = {
       }
     },
     "last": {
-      "0": {
-        "ErsteV": {
-          "les_buch": "Röm",
-          "les_stelle": "8,11",
-          "les_text": "Text von Röm 8,11"
-        },
-        "Laudes": {},
-        "Terz": {
-          "les_buch": "1°Kor",
-          "les_stelle": "15,3b–5",
-          "les_text": "Text von 1°Kor 15,3b–5"
-        },
-        "Vesper": {}
-      },
-      "1": {
-        "Laudes": {},
-        "Terz": {
-          "les_buch": "Offb",
-          "les_stelle": "1,17c–18",
-          "les_text": "Text von Offb 1,17c–18"
-        },
-        "Vesper": {
-          "les_buch": "Röm",
-          "les_stelle": "8,14–17",
-          "les_text": "Text von Röm 8,14–17"
-        }
-      },
-      "2": {
-        "Laudes": {},
-        "Terz": {
-          "les_buch": "vgl.°Apg",
-          "les_stelle": "4,11–12",
-          "les_text": "Text von vgl.°Apg 4,11–12"
-        },
-        "Vesper": {
-          "les_buch": "Röm",
-          "les_stelle": "8,26–27",
-          "les_text": "Text von Röm 8,26–27"
-        }
-      },
-      "3": {
-        "Laudes": {},
-        "Terz": {
-          "les_buch": "Röm",
-          "les_stelle": "4,24–25",
-          "les_text": "Text von Röm 4,24–25"
-        },
-        "Vesper": {
-          "les_buch": "1°Kor",
-          "les_stelle": "2,9–10",
-          "les_text": "Text von 1°Kor 2,9–10"
-        }
-      },
-      "4": {
-        "Laudes": {},
-        "Terz": {
-          "les_buch": "1°Kor",
-          "les_stelle": "12,13",
-          "les_text": "Text von 1°Kor 12,13"
-        },
-        "Vesper": {
-          "les_buch": "1°Kor",
-          "les_stelle": "6,19–20",
-          "les_text": "Text von 1°Kor 6,19–20"
-        }
-      },
-      "5": {
-        "Laudes": {},
-        "Terz": {
-          "les_buch": "Apg",
-          "les_stelle": "2,32.36",
-          "les_text": "Text von Apg 2,32.36"
-        },
-        "Vesper": {
-          "les_buch": "Gal",
-          "les_stelle": "5,16.22–23a.25",
-          "les_text": "Text von Gal 5,16.22–23a.25"
-        }
-      },
-      "6": {
-        "Laudes": {},
-        "Terz": {
-          "les_buch": "Röm",
-          "les_stelle": "5,10–11",
-          "les_text": "Text von Röm 5,10–11"
-        }
-      },
       "each": {
         "Invitatorium": {
           "ant_0": "Christus, den Herrn, der uns den Heiligen Geist verheißen hat – kommt, wir beten ihn an! Halleluja.",
@@ -8966,7 +9270,7 @@ export const brevierData = {
           "ant_3": "Gott ist ein gerechter Richter, er rettet die Menschen mit redlichem Herzen.",
           "les_buch": "Röm",
           "les_stelle": "13,8.10",
-          "les_text": "13,8.10",
+          "les_text": "Bleibt niemand etwas schuldig; nur die Liebe schuldet ihr einander immer. Wer den andern liebt, hat das Gesetz erfüllt. Die Liebe tut dem Nächsten nichts Böses. Also ist die Liebe die Erfüllung des Gesetzes.",
           "resp1_0": "Verstoß mich nicht, o°Herr, sei du mein Helfer.",
           "resp1_1": "Verlass mich nicht, du Gott meines Heiles.",
           "oration": "Gütiger Gott und Vater, du hast die Menschen zu gemeinsamer Arbeit berufen, damit sie einander ergänzen und jeder die Fähigkeit entfaltet, die du ihm gegeben hast, zum Wohle aller. Gib, dass wir unser Werk als deine Kinder verrichten, beseelt von deinem Geist und von der Liebe zu allen Menschen. Darum bitten wir durch Christus, unseren Herrn."
@@ -10282,7 +10586,7 @@ export const brevierData = {
       "3": {
         "Laudes": {
           "hymn_1": 213.0,
-          "hymn_kl": 4301.0,
+          "hymn_kl": 4304.0,
           "ps_1": 86.0,
           "ps_2": 183.0,
           "ps_3": 98.0,

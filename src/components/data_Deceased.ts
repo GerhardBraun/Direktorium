@@ -13,7 +13,7 @@ interface DeceasedData {
   };
 }
 
-export const deceasedData =  {
+export const deceasedData = {
   "1": {
     "1": [
       {
@@ -961,6 +961,14 @@ export const deceasedData =  {
         "birth": "5.°November°1921°in°Fritzlar",
         "grave": "Friedhof°Fritzlar",
         "age": 69
+      },
+      {
+        "year": 2025,
+        "birthdate": "2241-12-09",
+        "name": "Bernhard°Langner, Pfr.i.R., Wächtersbach¥-Aufenau",
+        "birth": "9.°Dezember°1941°in°Fraustadt (Wschowa,°PL¥-67¥-400)",
+        "grave": "Friedhof°Aufenau",
+        "age": 83
       }
     ],
     "27": [
@@ -1011,6 +1019,14 @@ export const deceasedData =  {
         "birth": "4.°April°1931°in°Schwarzbach",
         "grave": "Friedhof°am°Frauenberg,°Fulda",
         "age": 89
+      },
+      {
+        "year": 2025,
+        "birthdate": "2247-06-19",
+        "name": "Josef°Gebauer, Diakon°i.R., Fulda",
+        "birth": "19.°Juni°1947°in°Guggenberg (D¥-63928°Eichenbühl)",
+        "grave": "Friedhof°am°Frauenberg,°Fulda",
+        "age": 77
       }
     ],
     "28": [

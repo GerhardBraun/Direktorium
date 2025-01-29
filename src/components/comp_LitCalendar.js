@@ -62,6 +62,7 @@ function calculateRanks(date, season, week, dayOfWeek, combinedSWD) {
 
         // 5. Einzelne Hochfeste
         if (['q-0-3',  // Aschermittwoch
+            'o-6-4',    // Christi Himmelfahrt
             'o-9-4',  // Fronleichnam
             'o-9-5',  // Herz Jesu
             'j-34-0'  // Christkönig
