@@ -89,7 +89,14 @@ const formatBibleRef = (text) => {
     }
 
     addCurrentText();
-    return result.length > 0 ? <>{result}</> : originalText;
+    // Doppelte ° durch einzelnes ° ersetzen
+    const finalResult = result.map(item =>
+        typeof item === 'string'
+            ? item.replace(/°°/g, '°')
+            : React.cloneElement(item, {}, item.props.children.replace(/°°/g, '°'))
+    );
+
+    return finalResult.length > 0 ? <>{finalResult}</> : originalText.replace(/°°/g, '°');
 };
 
 export default formatBibleRef;

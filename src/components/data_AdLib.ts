@@ -2080,6 +2080,35 @@ export const adlibData = {
         }
       }
     },
+    "29": {
+      "eig": {
+        "name": "Hl. Katharina von Siena",
+        "genitiv": "",
+        "ErsteV": {
+          "name": "Hl. Katharina von Siena",
+          "oration": "Allmächtiger, ewiger Gott, du hast der heiligen Katharina von Siena das Leiden Christi und die Wunden seiner Kirche vor Augen gestellt. Im Dienst an der Kirche wurde ihre Liebe zu einem lodernden Feuer. Mache auch uns, die wir zu Christus gehören, bereit, die Leiden seiner Kirche mitzutragen, damit einst seine Herrlichkeit an uns offenbar wird. Darum bitten wir durch Jesus Christus."
+        },
+        "Lesehore": {
+          "patr_autor": "Katharina von Siena (†°1380)",
+          "patr_werk": "Aus dem Dialog über die göttliche Vorsehung.",
+          "patr_text": "^hIch kostete und schaute^pO ewige Gottheit, o ewige Dreieinigkeit! Du hast bewirkt, dass das Blut deines einzigen Sohnes durch die Vereinigung mit der göttlichen Natur ein so wertvoller Preis ist! Du, ewige Dreifaltigkeit, bist ein tiefes Meer, in dem ich immer Neues entdecke, je länger ich suche. Und je mehr ich finde, desto mehr suche ich dich. Gleichsam auf unersättliche Weise sättigst du die Seele; denn in deinem Abgrund sättigst du die Seele so, dass sie doch immer noch hungrig bleibt, nach dir, ewige Dreifaltigkeit, verlangt und sich danach sehnt, dich, das Licht, in deinem Licht zu schauen {1#vgl. Ps 36,10}.^pIch kostete und schaute mit dem Licht der Vernunft in deinem Licht deinen Abgrund, ewige Dreifaltigkeit, und die Schönheit deiner Schöpfung. Darum hüllte ich mich ein in dich wie in ein Gewand und sah, dass ich dein Bild sein werde. Denn, ewiger Vater, du schenktest mir von deiner Macht und von deiner Weisheit in dem Eingehen, das dir eigen ist, und der Heilige Geist, der von dir, dem Vater, und von deinem Sohn ausgeht, hat mir die Willenskraft verliehen, durch die er mich fähig macht zu lieben.^pDu, o ewige Dreifaltigkeit, bist der Schöpfer, ich bin das Geschöpf. Durch das Blut deines eingeborenen Sohnes hast du mich neu geschaffen: daran erkenne ich, von dir erleuchtet, dass du von der Schönheit deines Geschöpfes ergriffen bist.^pO Abgrund, o ewige Dreifaltigkeit, o Gottheit, o tiefes Meer! Was konntest du mir Größeres geben als dich selbst! Du bist das ewig brennende Feuer, das sich nie aufzehrt, doch mit seiner Glut alle Eigenliebe der Seele verzehrt. Du bist das Feuer, das alle Kälte wegnimmt und mit seinem Licht die Geister erleuchtet, mit dem Licht, in dem du mir deine Wahrheit zu erkennen gibst.^pIm Spiegel dieses Lichtes erkenne ich dich, das höchste Gut, das Gute über allem Guten, das selige Gute, das unermessliche Gute, das unschätzbare Gute; die Schönheit über aller Schönheit, die Weisheit, größer als jegliche Weisheit. Du Speise der Engel, du, der sich den Menschen schenkt im Feuer der Liebe.^pDu bist das Gewand, das meine Nacktheit bedeckt; da wir hungern, gibst du uns die Speise deiner Süße; denn süß bist du ohne alle Bitterkeit. O ewige Dreifaltigkeit!",
+          "patr_resp1": "Öffne mir, meine Tochter, du Miterbin meines Reiches, die das Geheimnis meiner Wahrheit erkannt hat.",
+          "patr_resp2": "Du bist reich geworden durch die Gabe meines Geistes.^ö",
+          "patr_resp3": "Komm heraus aus der Ruhe der Beschauung und bezeuge meine Wahrheit.",
+          "oration": "Allmächtiger, ewiger Gott, du hast der heiligen Katharina von Siena das Leiden Christi und die Wunden seiner Kirche vor Augen gestellt. Im Dienst an der Kirche wurde ihre Liebe zu einem lodernden Feuer. Mache auch uns, die wir zu Christus gehören, bereit, die Leiden seiner Kirche mitzutragen, damit einst seine Herrlichkeit an uns offenbar wird. Darum bitten wir durch Jesus Christus."
+        },
+        "Laudes": {
+          "name": "Hl. Katharina von Siena",
+          "ant_ev": "Die heilige Jungfrau Katharina flehte unablässig zum Herrn, dass er seiner Kirche den Frieden schenke.^ö",
+          "oration": "Allmächtiger, ewiger Gott, du hast der heiligen Katharina von Siena das Leiden Christi und die Wunden seiner Kirche vor Augen gestellt. Im Dienst an der Kirche wurde ihre Liebe zu einem lodernden Feuer. Mache auch uns, die wir zu Christus gehören, bereit, die Leiden seiner Kirche mitzutragen, damit einst seine Herrlichkeit an uns offenbar wird. Darum bitten wir durch Jesus Christus."
+        },
+        "Vesper": {
+          "name": "Hl. Katharina von Siena",
+          "ant_ev": "Immer und überall hat Katharina Gott gesucht. Sie fand ihn und hielt an ihm fest mit der ganzen Leidenschaft ihres Herzens.^ö",
+          "oration": "Allmächtiger, ewiger Gott, du hast der heiligen Katharina von Siena das Leiden Christi und die Wunden seiner Kirche vor Augen gestellt. Im Dienst an der Kirche wurde ihre Liebe zu einem lodernden Feuer. Mache auch uns, die wir zu Christus gehören, bereit, die Leiden seiner Kirche mitzutragen, damit einst seine Herrlichkeit an uns offenbar wird. Darum bitten wir durch Jesus Christus."
+        }
+      }
+    },
     "30": {
       "n1": {
         "name": "Hl. Pius V.",
@@ -2133,6 +2162,33 @@ export const adlibData = {
         "Vesper": {
           "name": "Hl. Josef der Arbeiter",
           "oration": " durch die Hände"
+        }
+      }
+    },
+    "2": {
+      "eig": {
+        "name": "Hl. Athanasius",
+        "genitiv": "",
+        "ErsteV": {
+          "name": "Hl. Athanasius",
+          "oration": "Allmächtiger, ewiger Gott, du hast dem heiligen Bischof Athanasius den Geist der Kraft und der Stärke verliehen, so dass er die Lehre von der wahren Gottheit deines Sohnes unerschrocken verteidigte. Höre auf die Fürsprache dieses heiligen Bekenners. Hilf uns, an der Botschaft festzuhalten, die er verkündet hat, und gib, dass wir unter seinem Schutz dich tiefer erkennen und inniger lieben. Darum bitten wir durch Jesus Christus."
+        },
+        "Lesehore": {
+          "patr_autor": "Athanasius (der Große) (†°373)",
+          "patr_werk": "Aus einer Rede über die Menschwerdung des Wortes.",
+          "patr_text": "^hDie Menschwerdung^pDas körperlose, unvergängliche, unstoffliche Wort Gottes kam in unseren Bereich, obwohl es vorher nicht fern von uns war. Denn es fehlte in keinem Teil der Schöpfung, sondern erfüllte überall alles in Einheit mit dem Vater. Aber aus Güte zu uns ist es gekommen, stieg herab und zeigte sich uns offen.^pDas Wort erbarmte sich unseres Geschlechtes, hatte Mitleid mit unserer Schwäche, nahm Anteil an unserer Verderbnis. Es konnte nicht ertragen, dass der Tod über uns herrschte. Es wollte nicht, dass das Gewordene unterging und das Werk seines Vaters, die Erschaffung des Menschen, zunichte würde. Darum nahm es einen Leib an, und zwar einen Leib, der sich von dem unsrigen nicht unterscheidet. Es wollte nämlich nicht nur in einem Leib oder lediglich unter uns erscheinen. Denn, wenn es lediglich hätte unter uns erscheinen wollen, dann hätte es einen anderen, vollkommeneren Leib annehmen können. Doch das Wort hat unseren Leib angenommen.^pIm Schoß der Jungfrau erbaute sich das Wort einen Tempel, nämlich den Leib, den es zu seinem Werkzeug machte. In diesem Leib wurde es sichtbar und nahm darin Wohnung. So nahm es einen Leib an von der gleichen Art wie unser Leib. Und mit alle der Verderbnis des Todes unterworfen waren, hat es einen Leib für alle dem Tod ausgeliefert und ihn dem Vater aus Liebe zu den Menschen dargebracht. In ihm sollten alle sterben, und so sollte das Gesetz des Verderbens, dem alle Menschen verfallen waren, aufgehoben werden. Wenn der Tod am Leib des Herrn seine Macht erschöpft hatte, sollte er keine Macht mehr haben über die Menschen, die ja von gleicher Art sind wie der Herr. Die Menschen, die der Verderbnis verfallen waren, sollten wieder zur Unvergänglichkeit zurückgeholt und vom Tod zum Leben geführt werden. Durch die Annahme eines Leibes und die Gnade der Auferstehung entrückte es die Menschen dem Tod. Es vernichtete ihn wie das Feuer ein Schilfohr.^pDeshalb nahm das ewige Wort einen sterbens­fähigen Leib an, damit dieser Leib durch die Teilhabe an dem Wort, das über allem ist, einer­seits sterben konnte für alle, andererseits durch das in ihm wohnende Wort unvergänglich blieb. Schließlich sollten alle Menschen durch die Gnade der Auferstehung von der Verderbnis befreit werden.^pNun hat die Verderbnis des Todes keine Macht mehr über die Menschen, dank dem Wort, das durch einen Menschenleib unter uns Wohnung genommen hat.",
+          "patr_resp1": "Du wirst mein Mund sein, und ich mache dich für dieses Volk zu einer ehernen und festen Mauer.",
+          "patr_resp2": "Mögen sie gegen dich kämpfen, sie werden dich nicht bezwingen.^ö",
+          "patr_resp3": "Falsche Lehrer werden verderbliche Lehren verbreiten und den Herrn, der sie erkauft hat, verleugnen.",
+          "oration": "Allmächtiger, ewiger Gott, du hast dem heiligen Bischof Athanasius den Geist der Kraft und der Stärke verliehen, so dass er die Lehre von der wahren Gottheit deines Sohnes unerschrocken verteidigte. Höre auf die Fürsprache dieses heiligen Bekenners. Hilf uns, an der Botschaft festzuhalten, die er verkündet hat, und gib, dass wir unter seinem Schutz dich tiefer erkennen und inniger lieben. Darum bitten wir durch Jesus Christus."
+        },
+        "Laudes": {
+          "name": "Hl. Athanasius",
+          "oration": "Allmächtiger, ewiger Gott, du hast dem heiligen Bischof Athanasius den Geist der Kraft und der Stärke verliehen, so dass er die Lehre von der wahren Gottheit deines Sohnes unerschrocken verteidigte. Höre auf die Fürsprache dieses heiligen Bekenners. Hilf uns, an der Botschaft festzuhalten, die er verkündet hat, und gib, dass wir unter seinem Schutz dich tiefer erkennen und inniger lieben. Darum bitten wir durch Jesus Christus."
+        },
+        "Vesper": {
+          "name": "Hl. Athanasius",
+          "oration": "Allmächtiger, ewiger Gott, du hast dem heiligen Bischof Athanasius den Geist der Kraft und der Stärke verliehen, so dass er die Lehre von der wahren Gottheit deines Sohnes unerschrocken verteidigte. Höre auf die Fürsprache dieses heiligen Bekenners. Hilf uns, an der Botschaft festzuhalten, die er verkündet hat, und gib, dass wir unter seinem Schutz dich tiefer erkennen und inniger lieben. Darum bitten wir durch Jesus Christus."
         }
       }
     },
@@ -2571,6 +2627,33 @@ export const adlibData = {
         }
       }
     },
+    "26": {
+      "eig": {
+        "name": "Hl. Philipp Neri",
+        "genitiv": "",
+        "ErsteV": {
+          "name": "Hl. Philipp Neri",
+          "oration": "Gott, du hast im Leben deines Dieners Philipp Neri den Glanz deiner Heiligkeit aufleuchten lassen. Gib uns eine brennende Liebe, wie er sie im Herzen trug, und die Heiterkeit des Geistes, die ihn zum Boten deiner Freude gemacht hat. Darum bitten wir durch Jesus Christus."
+        },
+        "Lesehore": {
+          "patr_autor": "Augustinus (†°430)",
+          "patr_werk": "Aus einer Predigt.",
+          "patr_text": "^hFreut euch im Herrn zu jeder Zeit^pDer Apostel befiehlt uns, uns zu freuen – aber im Herrn, nicht in der Welt. Die Schrift sagt: „Wer ein Freund der Welt sein will, der wird zum Feind Gottes.“ {1#Jak 4,4} Wie kein Mensch zwei Herren dienen kann {2#vgl. Mt 6,24}, so kann sich auch keiner zugleich in der Welt und in Gott freuen.^pSo sei denn die Freude im Herrn stärker, bis die Freude in der Welt ein Ende nimmt. Die Freude im Herrn werde immer größer, die Freude in der Welt immer geringer, bis sie zu Ende geht. Das will nicht heißen, dass wir uns nicht freuen dürfen, die wir doch in dieser Welt leben, sondern dass wir uns schon im Herrn freuen, während wir noch in der Welt sind.^pAber da sagt einer: Ich bin in der Welt. Also, wenn ich mich freue, freue ich mich da, wo ich bin. – Was denn! Weil du in der Welt bist, bist du nicht in Gott! Höre, was der Apostel den Athenern in der Apostelgeschichte über Gott, unseren Herrn und Schöpfer, sagt: „In ihm leben wir, bewegen wir uns und sind wir.“ {3#Apg 17,28} Denn der, der überall ist, wo wäre der nicht! Hat er uns nicht deswegen gemahnt: „Sorgt euch um nichts, sondern bringt in jeder Lage betend und flehend eure Bitten mit Dank vor Gott!“ {4#Phil 4,6}^pDas ist ein großes Geheimnis: dass er aufgestiegen ist über alle Himmel und dennoch denen nahe ist, die auf der Erde leben. Wer ist so fern von uns und uns zugleich so nahe gekommen ist? Der uns Erbarmen so nahe kommt ist der eine Mensch, der die Räuber halbtot am Weg liegen ließen, den der Priester und der Levit hinwegsahen, als sie vorübergingen, er zu pflegen und dem der vorüberkommende Samariter hintrat, um ihm Hilfe zu leisten {5#vgl. Lk 10,25–37}, ist das ganze Menschengeschlecht.^pDer Unsterbliche und Gerechte war weit weg von uns, den Sterblichen, den Sündern. Aber er stieg herab zu uns, weil er, der weit Entfernte, unser Nächster werden wollte.^p„Er handelt an uns nicht nach unseren Sünden und vergilt uns nicht nach unserer Schuld“ {6#Ps 103,10}; denn wir sind Söhne. Wie beweisen wir das? Der einzige Sohn ist für uns gestorben, um nicht der einzige zu bleiben. Der als der eine starb, wollte nicht der einzige bleiben. Der einzige Sohn Gottes schuf viele Söhne Gottes. Er erkaufte sich Brüder mit seinem Blut. Selbst verworfen, erkannte er sie an; selbst verkauft, kaufte er sie los; man tat ihm Schmach an, aber er brachte sie zu Ehren; er wurde getötet und machte sie lebendig.^pAlso, liebe Brüder, freut euch im Herrn, nicht in der Welt, das heißt: freut euch an der Wahrheit und nicht am Bösen; freut euch an der Hoffnung auf die Ewigkeit, nicht am Glanz der Eitelkeit. So freut euch! Wo immer ihr seid und wie lange auch immer ihr hier seid: Der Herr ist nahe, macht euch keine Sorge! {7#vgl. Phil 4,6}",
+          "patr_resp1": "Freut euch, lasst euch ermahnen, seid eines Sinnes und lebt in Frieden;",
+          "patr_resp2": "dann wird der Gott der Liebe und des Friedens mit euch sein.^ö",
+          "patr_resp3": "Der Gott der Hoffnung erfülle euch durch den Glauben mit aller Freude und mit allem Frieden.",
+          "oration": "Gott, du hast im Leben deines Dieners Philipp Neri den Glanz deiner Heiligkeit aufleuchten lassen. Gib uns eine brennende Liebe, wie er sie im Herzen trug, und die Heiterkeit des Geistes, die ihn zum Boten deiner Freude gemacht hat. Darum bitten wir durch Jesus Christus."
+        },
+        "Laudes": {
+          "name": "Hl. Philipp Neri",
+          "oration": "Gott, du hast im Leben deines Dieners Philipp Neri den Glanz deiner Heiligkeit aufleuchten lassen. Gib uns eine brennende Liebe, wie er sie im Herzen trug, und die Heiterkeit des Geistes, die ihn zum Boten deiner Freude gemacht hat. Darum bitten wir durch Jesus Christus."
+        },
+        "Vesper": {
+          "name": "Hl. Philipp Neri",
+          "oration": "Gott, du hast im Leben deines Dieners Philipp Neri den Glanz deiner Heiligkeit aufleuchten lassen. Gib uns eine brennende Liebe, wie er sie im Herzen trug, und die Heiterkeit des Geistes, die ihn zum Boten deiner Freude gemacht hat. Darum bitten wir durch Jesus Christus."
+        }
+      }
+    },
     "27": {
       "n1": {
         "name": "Hl. Augustinus von Canterbury",
@@ -2621,6 +2704,35 @@ export const adlibData = {
     }
   },
   "6": {
+    "1": {
+      "eig": {
+        "name": "Hl. Justin",
+        "genitiv": "",
+        "ErsteV": {
+          "name": "Hl. Justin",
+          "oration": "Gott, du hast den heiligen Märtyrer Justin in der Torheit des Kreuzes die erhabene Weisheit Jesu Christi erkennen lassen. Hilf uns auf seine Fürsprache, dass wir nicht falschen Lehren folgen, sondern im wahren Glauben feststehen. Darum bitten wir durch Jesus Christus."
+        },
+        "Lesehore": {
+          "patr_werk": "Aus den Märtyrerakten des heiligen Justin und seiner Gefährten.",
+          "patr_text": "^hIch bin Anhänger der christlichen Lehre^pDie Heiligen, die gefangengenommen waren, wurden vor den römischen Präfekten Rustikus geführt. Als sie vor dem Richterstuhl standen, forderte Rustikus Justin auf: „Zeige zuerst deinen Glauben an die Götter und gehorche den Kaisern!“ Justin antwortete: „Niemand kann angeklagt und verurteilt werden, weil er den Geboten unseres Heilands Jesus Christus gehorcht.“ Der Präfekt Rustikus fragte: „Welche Lehre vertrittst du?“ Justin erwiderte: „Alles Wissen suchte ich zu lernen und blieb schließlich bei der wahren Lehre der Christen, auch wenn sie den im Irrtum Befangenen nicht gefällt.“ Der Präfekt Rustikus fragte: „Diese Lehren gefallen dir also, du Elender?“ Justin sprach: „Ja, ich folge ihnen in Übereinstimmung mit dem rechten Glauben.“ Der Präfekt Rustikus fragte: „Welches ist dieser Glaube?“ Justin antwortete: „Wir verehren den Gott der Christen, von dem wir glauben, dass er, der eine, am Anfang die ganze Welt, die sichtbare und die unsichtbare, geschaffen und aufgebaut hat. Und wir verehren den Herrn Jesus Christus, den Sohn Gottes, von dem die Propheten geweissagt haben, er werde unter den Menschen gegenwärtig sein als Herold des Heils und Lehrer guter Gebote. Ich bin nur ein Mensch und glaube, dass ich in Anbetracht seiner unermesslichen Gottheit nur Unzulängliches sagen kann. Ich bekenne mich aber zur Kraft der Prophetie, weil es eine Vorausverkündigung über den gibt, den ich eben als den Sohn Gottes bezeichnet habe. Denn wisse: Auf Eingebung von oben haben die Propheten im voraus gesagt, dass dieser zu den Menschen kommen werde.“^pDer Präfekt Rustikus fragte: „Du bleibst also dabei, ein Christ zu sein!“ Justin antwortete: „Ja, ich bin ein Christ!“^pDer Präfekt Rustikus sagte: „Lasst uns nun zu der Sache kommen, um die es geht. Sie ist notwendig und dringend: Kommt und opfert einmütig den Göttern!“ Justin erwiderte: „Niemand, der folgerichtig denkt, kann von der Gottesfurcht zur Gottlosigkeit abfallen.“ Der Präfekt Rustikus sagte: „Wenn ihr nicht gehorcht, werdet ihr schonungslos bestraft.“ Justin erwiderte: „Wir hoffen, wenn wir um unseres Herrn Jesus Christus willen bestraft werden, eben dadurch gerettet zu werden. Denn das wird uns Heil und Zuversicht geben vor dem weit schrecklicheren allgemeinen Gericht unseres Herrn und Retters.“ Ebenso sprachen auch die übrigen Märtyrer: „Tu, wie du willst. Wir sind Christen und opfern den Göttern nicht.“^pDa verkündete der Präfekt Rustikus das Urteil: „Diese lehnen es ab, den Göttern zu opfern und dem Befehl des Kaisers zu gehorchen. Sie sollen gegeißelt werden und dann nach der Vorschrift des Gesetzes mit der Strafe der Enthauptung büßen.“ Die Heiligen priesen Gott, gingen hinaus zum üblichen Hinrichtungsort, wurden enthauptet und vollendeten ihr Blutzeugnis im Bekenntnis des Heilands.",
+          "patr_resp1": "Ich schäme mich des Evangeliums nicht.",
+          "patr_resp2": "Es ist eine Macht Gottes und wird jeden retten, der glaubt.^ö",
+          "patr_resp3": "Nichts fürchte ich, wenn ich nur den Dienst erfülle, den ich übernommen habe: das Evangelium Christi zu bezeugen.",
+          "oration": "Gott, du hast den heiligen Märtyrer Justin in der Torheit des Kreuzes die erhabene Weisheit Jesu Christi erkennen lassen. Hilf uns auf seine Fürsprache, dass wir nicht falschen Lehren folgen, sondern im wahren Glauben feststehen. Darum bitten wir durch Jesus Christus."
+        },
+        "Laudes": {
+          "name": "Hl. Justin",
+          "farbe": "r",
+          "ant_ev": "Mit jeder Gabe, die wir opfern, loben wir den Schöpfer aller Dinge durch seinen Sohn Jesus Christus im Heiligen Geist.^ö",
+          "oration": "Gott, du hast den heiligen Märtyrer Justin in der Torheit des Kreuzes die erhabene Weisheit Jesu Christi erkennen lassen. Hilf uns auf seine Fürsprache, dass wir nicht falschen Lehren folgen, sondern im wahren Glauben feststehen. Darum bitten wir durch Jesus Christus."
+        },
+        "Vesper": {
+          "name": "Hl. Justin",
+          "ant_ev": "Ein Feuer entbrannte in meinem Herzen, und es erfasste mich die Liebe zu den Propheten und zu all den Menschen, die Christi Freude sind.^ö",
+          "oration": "Gott, du hast den heiligen Märtyrer Justin in der Torheit des Kreuzes die erhabene Weisheit Jesu Christi erkennen lassen. Hilf uns auf seine Fürsprache, dass wir nicht falschen Lehren folgen, sondern im wahren Glauben feststehen. Darum bitten wir durch Jesus Christus."
+        }
+      }
+    },
     "2": {
       "n1": {
         "name": "Hl. Marcellinus und hl. Petrus",

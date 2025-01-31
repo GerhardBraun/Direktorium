@@ -155,7 +155,9 @@ export const brevierData = {
           "ant_2": "Seht, der Herr wird kommen und alle seine Heiligen mit ihm. An jenem Tag leuchtet ein helles Licht. Halleluja.",
           "ant_3": "Der Herr kommt mit großer Macht. Alles Fleisch wird ihn schauen."
         },
-        "Lesehore": {}
+        "Lesehore": {
+          "hymn_nacht": 0.0
+        }
       },
       "1": {
         "each": {
@@ -722,6 +724,9 @@ export const brevierData = {
       "each": {
         "ErsteV": {
           "hymn_1": 71076.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ps_1": 117.0,
           "ps_2": 147.2,
           "ps_3": 152.0,
@@ -740,6 +745,8 @@ export const brevierData = {
           "bitten": "Du hast die Apostel ausgesandt als Zeugen deiner Auferstehung;^qsteh den Bischöfen bei, die du als Nachfolger der Apostel berufen hast.^pDu hast den Aposteln den Auftrag gegeben, den Samen des Wortes auszusäen;^qhilf den Predigern, den apostolischen Glauben treu zu verkünden.^pDu hast den Aposteln befohlen, alle Menschen zu deinen Jüngern zu machen;^qgedenke aller, die auf deinen Namen getauft sind.^pDu hast den Aposteln den Dienst der Versöhnung aufgetragen;^qlass alle, die ihre Sünden bekennen, deinen Trost erfahren. ^pAuf den Grundsteinen der himmlischen Gottesstadt stehen die Namen deiner zwölf Apostel;^qnimm unsere Verstorbenen auf in das neue Jerusalem."
         },
         "Invitatorium": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "Den Herr, den König der Apostel – kommt, wir beten ihn an!",
           "ant_1": "",
           "ant_2": "",
@@ -748,6 +755,8 @@ export const brevierData = {
         "Laudes": {
           "name": "Ap",
           "hymn_1": 71072.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "hymn_kl": 0.0,
           "ant_1": "Das ist mein Gebot: Liebt einander, so wie ich euch geliebt habe.",
           "ant_2": "Größere Liebe hat niemand, als wer sein Leben gibt für seine Freunde.",
@@ -765,6 +774,8 @@ export const brevierData = {
         },
         "Lesehore": {
           "hymn_1": 71068.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "hymn_nacht": 0.0,
           "ps_1": 19.1,
           "ps_2": 64.0,
@@ -782,6 +793,8 @@ export const brevierData = {
           "resp1_3": "Euch ist es gegeben, die Geheimnisse des Himmelreiches zu erkennen. Selig seid ihr, denn eure Augen sehen und eure Ohren hören."
         },
         "Non": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "Bleibt standhaft, und ihr werdet das Leben gewinnen.",
           "ant_1": "",
           "ant_2": "",
@@ -793,6 +806,8 @@ export const brevierData = {
           "resp1_1": "Denn eure Namen sind im Himmel verzeichnet."
         },
         "Sext": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "Seht, ich bin alle Tage bei euch, bis zum Ende der Welt.",
           "ant_1": "",
           "ant_2": "",
@@ -804,6 +819,8 @@ export const brevierData = {
           "resp1_1": "Und bewahrten seine Gebote."
         },
         "Terz": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "Geht hin und verkündet das Evangelium vom Reich. Umsonst habt ihr empfangen, umsonst sollt ihr geben.",
           "ant_1": "",
           "ant_2": "",
@@ -816,6 +833,9 @@ export const brevierData = {
         },
         "Vesper": {
           "hymn_1": 71076.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ps_1": 116.2,
           "ps_2": 126.0,
           "ps_3": 152.0,
@@ -839,6 +859,9 @@ export const brevierData = {
       "each": {
         "ErsteV": {
           "hymn_1": 71234.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ps_1": 113.0,
           "ps_2": 147.2,
           "ps_3": 152.0,
@@ -857,6 +880,8 @@ export const brevierData = {
           "bitten": "Erhöre das Gebet der heiligen Frauen, die die Krone des Martyriums erlangt haben;^qhilf der Kirche, standzuhalten in der Verfolgung.^pHöre auf die Fürbitten der heiligen Frauen, die dir im Ehestand gedient haben;^qstärke die Ehefrauen für ihre Aufgaben in der Familie.^pHöre auf die Fürsprache der heiligen Mütter, die ihre Kinder dir zugeführt haben,^qund hilf den Müttern, ihre Kinder im Glauben zu erziehen.^pSieh auf das Leben der heiligen Witwen, die durch Gebet und Werke der Nächstenliebe ihre Einsamkeit geheiligt haben;^qerbarme dich auf ihre Fürbitte aller Frauen, die ihren Gatten verloren haben.^pHöre auf die Fürbitte aller heiligen Frauen, die bereits das Licht deines Antlitzes schauen,^qund schenke unseren Verstorbenen die ewige Freude des Himmels."
         },
         "Invitatorium": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "Wunderbar ist Gott in seinen Heiligen; kommt, wir beten ihn an!^ö^p^rOder:^0r^l^rAnt.°°^0rLasst uns Gott loben am Fest der heiligen ^N!^ö",
           "ant_1": "",
           "ant_2": "",
@@ -865,6 +890,8 @@ export const brevierData = {
         "Laudes": {
           "name": "Hl",
           "hymn_1": 71234.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "hymn_kl": 0.0,
           "ps_1": 63.0,
           "ps_2": 160.0,
@@ -885,6 +912,8 @@ export const brevierData = {
         },
         "Lesehore": {
           "hymn_1": 1402.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "hymn_nacht": 0.0,
           "ps_1": 19.1,
           "ps_2": 45.1,
@@ -908,6 +937,8 @@ export const brevierData = {
           "patr_resp3": ""
         },
         "Non": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "Mein Geliebter ist mein, und ich bin sein. Ich halte fest und will ihn nicht lassen.^ö",
           "ant_1": "",
           "ant_2": "",
@@ -919,6 +950,8 @@ export const brevierData = {
           "resp1_1": "Ich will achten auf den Weg der Bewährten.^ö"
         },
         "Sext": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "Mein Herz und mein Leib jauchzen ihm zu, ihm dem lebendigen Gott.^ö",
           "ant_1": "",
           "ant_2": "",
@@ -930,6 +963,8 @@ export const brevierData = {
           "resp1_1": "Ich halte ihn fest und will ihn nicht lassen.^ö"
         },
         "Terz": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "In jenen Tagen gieße ich meinen Geist aus über meine Knechte und meine Mägde.^ö",
           "ant_1": "",
           "ant_2": "",
@@ -942,6 +977,9 @@ export const brevierData = {
         },
         "Vesper": {
           "hymn_1": 71234.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ps_1": 122.0,
           "ps_2": 127.0,
           "ps_3": 152.0,
@@ -962,12 +1000,18 @@ export const brevierData = {
       },
       "o": {
         "Laudes": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "resp1_1": "Sein Angesicht neigt Gott ihr zu, er steht ihr bei, sie wird nicht wanken.",
           "resp1_2": "Halleluja, halleluja."
         }
       },
       "Pl": {
         "ErsteV": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ant_ev": "Die ihr den Herrn sucht, freut euch von Herzen, rühmt euch seines heiligen Namens.^ö"
         }
       }
@@ -976,6 +1020,9 @@ export const brevierData = {
       "each": {
         "ErsteV": {
           "hymn_1": 71151.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ps_1": 113.0,
           "ps_2": 146.0,
           "ps_3": 152.0,
@@ -994,6 +1041,8 @@ export const brevierData = {
           "bitten": "Du hast deiner Kirche immer wieder heilige Priester als Hirten geschenkt;^qsende deinen Gläubigen allezeit gute Seelsorger.^pDu hast den Hirten der Kirche den Dienst der Versöhnung anvertraut;^qgib, dass sie ihn treu verwalten.^pDu bist es, der den Seelsorgern Kraft von oben verleiht;^qerfülle alle, die dein Volk führen, mit Heiligem Geist.^pDu selber bist das Erbteil aller, die du zu Seelsorgern berufen hast;^qlass keinen von ihnen verlorengehen.^pDu bist der ewige Lohn deiner Diener;^qschenke den verstorbenen Seelsorgern und allen Gläubigen das ewige Leben."
         },
         "Invitatorium": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "Christus, den obersten Hirten der Kirche – kommt, wir beten ihn an!^ö",
           "ant_1": "",
           "ant_2": "",
@@ -1002,6 +1051,8 @@ export const brevierData = {
         "Laudes": {
           "name": "Hi",
           "hymn_1": 71151.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "hymn_kl": 0.0,
           "ps_1": 63.0,
           "ps_2": 160.0,
@@ -1022,6 +1073,8 @@ export const brevierData = {
         },
         "Lesehore": {
           "hymn_1": 402.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "hymn_nacht": 0.0,
           "ps_1": 21.0,
           "ps_2": 92.1,
@@ -1046,6 +1099,8 @@ export const brevierData = {
           "patr_resp3": ""
         },
         "Non": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "Wir sind Mitarbeiter Gottes; ihr seid Gottes Ackerfeld, ihr seid Gottes Bau.^ö",
           "ant_1": "",
           "ant_2": "",
@@ -1057,6 +1112,8 @@ export const brevierData = {
           "resp1_1": "Mühn sich umsonst, die daran bauen.^ö"
         },
         "Sext": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "Wer euch aufnimmt, der nimmt mich auf, und wer mich aufnimmt, nimmt den auf, der mich gesandt hat.^ö",
           "ant_1": "",
           "ant_2": "",
@@ -1068,6 +1125,8 @@ export const brevierData = {
           "resp1_1": "Es ist eine Kraft, die uns rettet.^ö"
         },
         "Terz": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "Vater, wie du mich in die Welt gesandt hast, so sende ich sie in die Welt.^ö",
           "ant_1": "",
           "ant_2": "",
@@ -1080,6 +1139,9 @@ export const brevierData = {
         },
         "Vesper": {
           "hymn_1": 71151.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ps_1": 15.0,
           "ps_2": 112.0,
           "ps_3": 156.0,
@@ -1100,6 +1162,9 @@ export const brevierData = {
       },
       "Kl": {
         "ErsteV": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "les_buch": "Jak",
           "les_stelle": "3,17-18",
           "les_text": "Die Weisheit von oben ist erstens heilig, sodann friedlich, freundlich, gehorsam, voll Erbarmen und reich an guten Früchten, sie ist unparteiisch, sie heuchelt nicht. Wo Frieden herrscht, wird von Gott für die Menschen, die Frieden stiften, die Saat der Gerechtigkeit ausgestreut.",
@@ -1109,6 +1174,8 @@ export const brevierData = {
           "ant_ev": "Wer die Gebote Gottes hält und sie halten lehrt, der wird groß sein im Himmelreich.^ö"
         },
         "Invitatorium": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "Christus, den Quell der Weisheit – kommt, wir beten ihn an!^ö",
           "ant_1": "",
           "ant_2": "",
@@ -1116,6 +1183,9 @@ export const brevierData = {
         },
         "Laudes": {
           "name": "Kl",
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "les_buch": "Weish",
           "les_stelle": "7,13-14",
           "les_text": "Uneigennützig lernte ich, und neidlos gebe ich weiter; den Reichtum der Weisheit behalte ich nicht für mich. Ein unerschöpflicher Schatz ist sie für die Menschen; alle, die ihn erwerben, erlangen die Freundschaft Gottes. Sie sind empfohlen durch die Gaben der Unterweisung.",
@@ -1126,9 +1196,14 @@ export const brevierData = {
         },
         "Lesehore": {
           "hymn_1": 401.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "hymn_nacht": 0.0
         },
         "Vesper": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "les_buch": "Jak",
           "les_stelle": "3,17-18",
           "les_text": "Die Weisheit von oben ist erstens heilig, sodann friedlich, freundlich, gehorsam, voll Erbarmen und reich an guten Früchten, sie ist unparteiisch, sie heuchelt nicht. Wo Frieden herrscht, wird von Gott für die Menschen, die Frieden stiften, die Saat der Gerechtigkeit ausgestreut.",
@@ -1143,6 +1218,9 @@ export const brevierData = {
       "each": {
         "ErsteV": {
           "hymn_1": 71185.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ps_1": 113.0,
           "ps_2": 147.2,
           "ps_3": 152.0,
@@ -1158,6 +1236,8 @@ export const brevierData = {
           "ant_ev": "Seht, nun folgt die Jungfrau dem Lamm, das für uns gekreuzigt ist. Furchtlos gab sie ihr Leben hin als makelloses Opfer für Gott.^ö"
         },
         "Invitatorium": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "Den Herrn, den König der Jungfrauen – kommt, wir beten ihn an!^ö^p^rOder:^0r^l^rAnt.°°^0rDas Lamm, dem die Jungfrauen folgen – kommt, wir beten es an!^ö",
           "ant_1": "",
           "ant_2": "",
@@ -1166,6 +1246,8 @@ export const brevierData = {
         "Laudes": {
           "name": "Jgfr",
           "hymn_1": 71185.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "hymn_kl": 0.0,
           "ps_1": 66.0,
           "ps_2": 160.0,
@@ -1186,6 +1268,8 @@ export const brevierData = {
         },
         "Lesehore": {
           "hymn_1": 71177.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "hymn_nacht": 0.0,
           "ps_1": 19.1,
           "ps_2": 45.1,
@@ -1209,6 +1293,8 @@ export const brevierData = {
           "patr_resp3": ""
         },
         "Non": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "Wie schön ist ein keusches Geschlecht im Glanz seiner Tugend.^ö",
           "ant_1": "",
           "ant_2": "",
@@ -1219,6 +1305,8 @@ export const brevierData = {
           "resp1_0": "Ich fand ihn, den meine Seele liebt.^öIch halte ihn fest und will ihn nicht lassen.^ö"
         },
         "Sext": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "Nimm mich auf, o°Herr, wie du verheißen hast, und ich werde leben. Lass mein Vertrauen nicht zuschanden werden.^ö",
           "ant_1": "",
           "ant_2": "",
@@ -1230,6 +1318,8 @@ export const brevierData = {
           "resp1_1": "Eine aus der Zahl der Klugen.^ö"
         },
         "Terz": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "Gott nahe zu sein ist mein Glück. Ich setze auf Gott, den Herrn, mein Vertrauen.^ö",
           "ant_1": "",
           "ant_2": "",
@@ -1241,6 +1331,9 @@ export const brevierData = {
         },
         "Vesper": {
           "hymn_1": 71185.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ps_1": 122.0,
           "ps_2": 127.0,
           "ps_3": 152.0,
@@ -1261,29 +1354,50 @@ export const brevierData = {
       },
       "Märt": {
         "ErsteV": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ant_ev": "Die kluge Jungfrau war bereit: Als der Bräutigam kam, fand er sie wachend, und sie trat mit ihm ein zur Feier der Hochzeit.^ö"
         },
         "Laudes": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ant_ev": "Selig die Jungfrau, die sich selbst verleugnete und ihr Kreuz auf sich nahm. Sie ist dem Herrn gefolgt, ihrem Bräutigam, dem König der Märtyrer.^ö"
         },
         "Vesper": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ant_ev": "In zweifachem Sieg hat sich ihr Opfer vollendet: Sie gewann den Kranz der Jungfräulichkeit und die Palme des Martyriums.^ö"
         }
       },
       "o": {
         "Laudes": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "resp1_1": "Mein Herz denkt an dein Wort: „Suchet mein Antlitz!“",
           "resp1_2": "Halleluja, halleluja."
         }
       },
       "Pl": {
         "ErsteV": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ant_ev": "Ihr klugen Jungfrauen, macht eure Lampen bereit! Der Bräutigam kommt. Geht ihm entgegen!^ö"
         },
         "Laudes": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ant_ev": "Ihr Jungfrauen, preiset den Herrn, preist ihn in Ewigkeit!^ö"
         },
         "Vesper": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ant_ev": "Das sind die Menschen, die den Herrn suchen, die dein Antlitz suchen, o°Gott.^ö"
         }
       }
@@ -1291,6 +1405,8 @@ export const brevierData = {
     "Kirchw": {
       "each": {
         "Invitatorium": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "com-Kirchw-each-Invitatorium-ant_0",
           "ant_1": "",
           "ant_2": "",
@@ -1299,6 +1415,8 @@ export const brevierData = {
         "Laudes": {
           "name": "Kw",
           "hymn_1": 9999.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "hymn_kl": 0.0,
           "ps_1": 9999.0,
           "ps_2": 9999.0,
@@ -1319,6 +1437,8 @@ export const brevierData = {
         },
         "Lesehore": {
           "hymn_1": 9999.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "hymn_nacht": 0.0,
           "ps_1": 9999.0,
           "ps_2": 9999.0,
@@ -1341,6 +1461,8 @@ export const brevierData = {
           "patr_resp3": "com-Kirchw-each-Lesehore-Patr_Resp3"
         },
         "Non": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_1": "com-Kirchw-each-Non-ant_1",
           "ant_2": "com-Kirchw-each-Non-ant_2",
           "ant_3": "com-Kirchw-each-Non-ant_3",
@@ -1351,6 +1473,8 @@ export const brevierData = {
           "resp1_1": "com-Kirchw-each-Non-Resp1_1"
         },
         "Sext": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_1": "com-Kirchw-each-Sext-ant_1",
           "ant_2": "com-Kirchw-each-Sext-ant_2",
           "ant_3": "com-Kirchw-each-Sext-ant_3",
@@ -1361,6 +1485,8 @@ export const brevierData = {
           "resp1_1": "com-Kirchw-each-Sext-Resp1_1"
         },
         "Terz": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_1": "com-Kirchw-each-Terz-ant_1",
           "ant_2": "com-Kirchw-each-Terz-ant_2",
           "ant_3": "com-Kirchw-each-Terz-ant_3",
@@ -1372,6 +1498,9 @@ export const brevierData = {
         },
         "Vesper": {
           "hymn_1": 9999.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ps_1": 9999.0,
           "ps_2": 9999.0,
           "ps_3": 9999.0,
@@ -1395,6 +1524,8 @@ export const brevierData = {
       "each": {
         "ErsteV": {
           "hymn_1": 71215.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "hymn_kl": 0.0,
           "ps_1": 113.0,
           "ps_2": 146.0,
@@ -1411,6 +1542,8 @@ export const brevierData = {
           "ant_ev": "Wer meine Worte hört und sie befolgt, der gleicht einem klugen Mann, der sein Haus auf Fels gebaut hat.^ö"
         },
         "Invitatorium": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "Wunderbar ist Gott in seinen Heiligen; kommt, wir beten ihn an!^ö^p^rOder:^0r^l^rAnt.°°^0rLasst uns Gott loben am Fest des heiligen ^N!^ö",
           "ant_1": "",
           "ant_2": "",
@@ -1419,6 +1552,8 @@ export const brevierData = {
         "Laudes": {
           "name": "Hl",
           "hymn_1": 71210.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "hymn_kl": 0.0,
           "ps_1": 63.0,
           "ps_2": 160.0,
@@ -1439,6 +1574,8 @@ export const brevierData = {
         },
         "Lesehore": {
           "hymn_1": 71199.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "hymn_nacht": 0.0,
           "ps_1": 21.0,
           "ps_2": 92.1,
@@ -1462,6 +1599,8 @@ export const brevierData = {
           "patr_resp3": ""
         },
         "Non": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "Kein Auge hat es gesehen, und niemand weiß es außer dir, o°Gott, was du denen bereitet hast, die auf dich warten.^ö",
           "ant_1": "",
           "ant_2": "",
@@ -1473,6 +1612,8 @@ export const brevierData = {
           "resp1_1": "Du wirst bei ihnen wohnen, sie werden immerfort jubeln."
         },
         "Sext": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "Wer den Willen meines Vaters tut, kommt in das Himmelreich.^ö",
           "ant_1": "",
           "ant_2": "",
@@ -1484,6 +1625,8 @@ export const brevierData = {
           "resp1_1": "Den du mit deiner Weisung belehrst."
         },
         "Terz": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "Wer festhält am Worte Christi, in dem ist die Liebe vollendet.^ö",
           "ant_1": "",
           "ant_2": "",
@@ -1496,6 +1639,9 @@ export const brevierData = {
         },
         "Vesper": {
           "hymn_1": 71215.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ps_1": 15.0,
           "ps_2": 112.0,
           "ps_3": 156.0,
@@ -1516,27 +1662,41 @@ export const brevierData = {
       },
       "o": {
         "Laudes": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "resp1_1": "Er trägt die Weisung seines Gottes im Herzen, niemals wanken seine Schritte.",
           "resp1_2": "Halleluja, halleluja."
         }
       },
       "Pl": {
         "ErsteV": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ant_ev": "Das Auge des Herrn ruht auf allen, die ihn fürchten und ehren und auf seine Güte vertrauen.^ö",
           "bitten_e": "Lasst uns beten zu Gott, unserem Vater, dem Quell aller Heiligkeit:",
           "bitten_r": "Herr, heilige dein Volk.",
           "bitten": "Du bist wunderbar in deinen Heiligen;^qsende auch unserer Zeit heilige Männer.^pDu hast immer wieder heilige Männer berufen, dass sie deine Herrschaft in der Welt sichtbar machen;^qsteh allen bei, denen ein Dienst ^(Amt^) in der Welt aufgetragen ist.^pAuf die Fürsprache der heiligen ^N und ^N stärke alle, die an dich glauben;^qhilf ihnen, deinen Auftrag auszuführen, wo immer sie stehen.^pDer heiligen ^N und ^N haben in den Prüfungen des Lebens standgehalten;^qgib allen Christen Großmut und Tapferkeit.^pVergib den Sündern ihre Schuld^qund lass dein Antlitz leuchten über unseren Verstorbenen."
         },
         "Invitatorium": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "Wunderbar ist Gott in seinen Heiligen; kommt, wir beten ihn an!^ö^p^rOder:^0r^l^rAnt.°°^0rLasst uns Gott loben am Fest der heiligen ^N!^ö",
           "ant_1": "",
           "ant_2": "",
           "ant_3": ""
         },
         "Laudes": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ant_ev": "Selig, die Frieden stiften, die reinen Herzens sind; denn sie werden Gott schauen.^ö"
         },
         "Vesper": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ant_ev": "Sie waren treu bis in den Tod und empfingen vom Herrn die Krone des Lebens.^ö",
           "bitten_e": "Lasst uns beten zu Gott, unserem Vater, dem Quell aller Heiligkeit:",
           "bitten_r": "Herr, heilige dein Volk.",
@@ -1549,6 +1709,7 @@ export const brevierData = {
         "ErsteV": {
           "hymn_1": 71019.0,
           "hymn_2": 71020.0,
+          "hymn_3": 0.0,
           "hymn_kl": 0.0,
           "ps_1": 113.0,
           "ps_2": 147.2,
@@ -1568,6 +1729,8 @@ export const brevierData = {
           "bitten": "Du hast Maria zur Mutter deines Sohnes auserwählt;^qlass die Kirche unter ihrem Schutz geborgen sein.^pDu hast Maria den Menschen zur Mutter gegeben;^qauf ihre Fürsprache gewähre den Kranken Heilung und den Trauernden Trost.^pDu hast Maria die Fülle deiner Gnade geschenkt;^qauf ihre Fürsprache schenke den Sündern Vergebung und allen Menschen Frieden und Heil.^pDu hast Maria zum Urbild deiner Kirche gemacht;^qgib, dass deine Gläubigen einmütig mit Maria im Gebet verharren.^pDu hast die unbefleckte Jungfrau mit Leib und Seele in den Himmel aufgenommen;^qschenke unseren Verstorbenen die ewige Freude mit Maria und all deinen Heiligen."
         },
         "Invitatorium": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ps_24": 0,
           "ant_0": "Christus, den Sohn Mariens – kommt, wir beten ihn an!^p^rOder:^0r^l^rAnt.^0r°°Am Fest der seligen Jungfrau Maria lasst uns den Herrn anbeten!",
           "ant_1": "",
@@ -1577,6 +1740,8 @@ export const brevierData = {
         "Laudes": {
           "name": "Mar",
           "hymn_1": 81012.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "hymn_kl": 0.0,
           "ps_1": 63.0,
           "ps_2": 160.0,
@@ -1598,6 +1763,7 @@ export const brevierData = {
         "Lesehore": {
           "hymn_1": 71026.0,
           "hymn_2": 71027.0,
+          "hymn_3": 0.0,
           "hymn_nacht": 0.0,
           "ps_1": 24.0,
           "ps_2": 46.0,
@@ -1609,6 +1775,8 @@ export const brevierData = {
           "resp0_1": "Und es befolgen.^ö"
         },
         "Non": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "Jesus sprach zu seiner Mutter: Frau, siehe, dein Sohn! Und zu dem Jünger: Siehe, deine Mutter!^ö",
           "les_buch": "Jdt",
           "les_stelle": "13,31",
@@ -1617,6 +1785,8 @@ export const brevierData = {
           "resp1_1": "Und gebenedeit ist die Frucht deines Leibes.^ö"
         },
         "Sext": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "Die Mutter Jesu sprach: Was er euch sagt, das tut.^ö",
           "les_buch": "Sach",
           "les_stelle": "9,9",
@@ -1625,6 +1795,8 @@ export const brevierData = {
           "resp1_1": "Der den Sohn des ewigen Vaters getragen.^ö"
         },
         "Terz": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "Sie alle verharrten einmütig im Gebet, zusammen mit den Frauen und mit Maria, der Mutter Jesu. Halleluja.",
           "les_buch": "Zef",
           "les_stelle": "3,14.15b",
@@ -1635,6 +1807,7 @@ export const brevierData = {
         "Vesper": {
           "hymn_1": 71019.0,
           "hymn_2": 71043.0,
+          "hymn_3": 0.0,
           "hymn_kl": 0.0,
           "ps_1": 122.0,
           "ps_2": 127.0,
@@ -1659,6 +1832,9 @@ export const brevierData = {
       "each": {
         "ErsteV": {
           "hymn_1": 71123.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ps_1": 118.4,
           "ps_2": 118.3,
           "ps_3": 158.0,
@@ -1677,6 +1853,8 @@ export const brevierData = {
           "bitten": "Du unser Erlöser, du hast dein Blut vergossen für das Heil der Welt;^qerbarme dich aller Menschen.^pDu Urbild der Märtyrer;^qsteh allen Verfolgten bei.^pDu treuer Zeuge; ^qhilf denen, die von dir Zeugnis geben.^pDu Stärke der Märtyrer; ^qsei deinen Bekennern nahe in der Stunde der Prüfung.^pDu Lohn der Märtyrer;^qsei auch der Lohn all unserer Verstorbenen."
         },
         "Invitatorium": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "Den Herrn, den König der Märtyrer – kommt, wir beten ihn an!",
           "ant_1": "",
           "ant_2": "",
@@ -1685,6 +1863,8 @@ export const brevierData = {
         "Laudes": {
           "name": "Märt",
           "hymn_1": 71118.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "hymn_kl": 0.0,
           "ps_1": 63.0,
           "ps_2": 160.0,
@@ -1705,6 +1885,8 @@ export const brevierData = {
         },
         "Lesehore": {
           "hymn_1": 71110.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "hymn_nacht": 0.0,
           "ps_1": 2.0,
           "ps_2": 33.1,
@@ -1728,6 +1910,8 @@ export const brevierData = {
           "patr_resp3": "Wir wollen uns wappnen mit aller Kraft und uns zum Kampf rüsten mit lauterem Geist, zuversichtlichem Glauben und liebender Tugend."
         },
         "Non": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "Die mit Tränen säen, werden mit Jubel ernten.^ö",
           "ant_1": "",
           "ant_2": "",
@@ -1739,6 +1923,8 @@ export const brevierData = {
           "resp1_1": "Und bringen ihre Garben ein.^ö"
         },
         "Sext": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "Mit der Krone der Gerechtigkeit hat Gott sie geehrt und ihnen den Namen der Herrlichkeit verliehen.^ö",
           "ant_1": "",
           "ant_2": "",
@@ -1750,6 +1936,8 @@ export const brevierData = {
           "resp1_1": "Und eure Freude wird euch niemand nehmen.^ö"
         },
         "Terz": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "In einem harten Kampf verlieh ihnen Gott den Siegespreis, und sie erkannten, dass Gottes Weisheit mächtiger ist als alles andere.^ö",
           "ant_1": "",
           "ant_2": "",
@@ -1762,6 +1950,9 @@ export const brevierData = {
         },
         "Vesper": {
           "hymn_1": 71123.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ps_1": 116.1,
           "ps_2": 116.2,
           "ps_3": 153.0,
@@ -1782,18 +1973,29 @@ export const brevierData = {
       },
       "Jgfr": {
         "ErsteV": {
-          "hymn_1": 71119.0
+          "hymn_1": 71119.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0
         },
         "Laudes": {
           "hymn_1": 71119.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "hymn_kl": 0.0
         },
         "Vesper": {
-          "hymn_1": 71119.0
+          "hymn_1": 71119.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0
         }
       },
       "o": {
         "ErsteV": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "les_buch": "Offb",
           "les_stelle": "3,10-12",
           "les_text": "Du hast dich an mein Gebot gehalten, standhaft zu bleiben; daher werde auch ich zu dir halten und dich bewahren vor der Stunde der Versuchung, die über die ganze Erde kommen soll, um die Bewohner der Erde auf die Probe zu stellen. Ich komme bald. Halte fest, was du hast, damit kein anderer deinen Kranz bekommt.^pWer siegt, den werde ich zu einer Säule im Tempel meines Gottes machen und er wird immer darin bleiben. Und ich werde auf ihn den Namen meines Gottes schreiben und den Namen der Stadt meines Gottes, des neuen Jerusalem, das aus dem Himmel herabkommt von meinem Gott, und ich werde auf ihn auch meinen neuen Namen schreiben.",
@@ -1803,6 +2005,9 @@ export const brevierData = {
           "ant_ev": "Ewiges Licht leuchtet deinen Heiligen, o Herr: Unsterblichkeit ist ihr Besitz. Halleluja."
         },
         "Laudes": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "les_buch": "1°Joh",
           "les_stelle": "5,3-5",
           "les_text": "Die Liebe zu Gott besteht darin, dass wir seine Gebote halten. Seine Gebote sind nicht schwer. Denn alles, was von Gott stammt, besiegt die Welt. Und das ist der Sieg, der die Welt besiegt hat: unser Glaube. Wer sonst besiegt die Welt, außer dem, der glaubt, dass Jesus der Sohn Gottes ist?",
@@ -1812,6 +2017,9 @@ export const brevierData = {
           "ant_ev": "Ihr Heiligen alle, freut euch und jubelt; denn groß ist euer Lohn im Himmel. Halleluja."
         },
         "Lesehore": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_nacht": 0.0,
           "les_buch": "Aus der Offenbarung des Johannes.",
           "les_stelle": "7,9-17",
           "les_text": "^hDie große Schar vor Gottes Thron^pIch, Johannes, sah: eine große Schar aus allen Nationen und Stämmen, Völkern und Sprachen; niemand konnte sie zählen. Sie standen in weißen Gewändern vor dem Thron und vor dem Lamm und trugen Palmzweige in den Händen. Sie riefen mit lauter Stimme: Die Rettung kommt von unserem Gott, der auf dem Thron sitzt, und von dem Lamm.^pUnd alle Engel standen rings um den Thron, um die Ältesten und die vier Lebewesen. Sie warfen sich vor dem Thron nieder, beteten Gott an und sprachen: ^pAmen, Lob und Herrlichkeit, ^lWeisheit und Dank, ^lEhre und Macht und Stärke ^lunserem Gott in alle Ewigkeit! Amen. ^pDa fragte mich einer der Ältesten: Wer sind diese, die weiße Gewänder tragen, und woher sind sie gekommen? Ich erwiderte ihm: Mein Herr, das musst du wissen. Und er sagte zu mir: Es sind die, die aus der großen Bedrängnis kommen; sie haben ihre Gewänder gewaschen und im Blut des Lammes weiß gemacht. Deshalb stehen sie vor dem Thron Gottes und dienen ihm bei Tag und Nacht in seinem Tempel; und der, der auf dem Thron sitzt, wird sein Zelt über ihnen aufschlagen. Sie werden keinen Hunger und keinen Durst mehr leiden und weder Sonnenglut noch irgendeine sengende Hitze wird auf ihnen lasten. Denn das Lamm in der Mitte vor dem Thron wird sie weiden und zu den Quellen führen, aus denen das Wasser des Lebens strömt, und Gott wird alle Tränen von ihren Augen abwischen.",
@@ -1826,6 +2034,8 @@ export const brevierData = {
           "patr_resp3": "Wir wollen uns wappnen mit aller Kraft und uns zum Kampf rüsten mit lauterem Geist, zuversichtlichem Glauben und liebender Tugend."
         },
         "Non": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "les_buch": "Offb",
           "les_stelle": "19,7.9",
           "les_text": "Wir wollen uns freuen und jubeln und ihm die Ehre erweisen! Denn die Hochzeit des Lammes ist gekommen, und seine Frau hat sich bereit gemacht.^lJemand sagte zu mir: Schreib auf: Selig, wer zum Hochzeitsmahl des Lammes eingeladen ist! Dann sagte er zu mir: Das sind zuverlässige Worte, es sind Worte Gottes.",
@@ -1833,6 +2043,8 @@ export const brevierData = {
           "resp1_1": "Und bringen ihre Garben ein.^ö"
         },
         "Sext": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "les_buch": "Offb",
           "les_stelle": "3,21",
           "les_text": "Wer siegt, der darf mit mir auf meinem Thron sitzen, so wie auch ich gesiegt habe und mich mit meinem Vater auf seinen Thron gesetzt habe.",
@@ -1840,6 +2052,8 @@ export const brevierData = {
           "resp1_1": "Was können Menschen mir antun?^ö"
         },
         "Terz": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "les_buch": "Offb",
           "les_stelle": "2,10-11",
           "les_text": "Fürchte dich nicht vor dem, was du noch erleiden musst: Der Teufel wird einige von euch ins Gefängnis werfen, um euch auf die Probe zu stellen, und ihr werdet in Bedrängnis sein, zehn Tage lang. Sei treu bis in den Tod; dann werde ich dir den Kranz des Lebens geben.^lWer Ohren hat, der höre, was der Geist den Gemeinden sagt: Wer siegt, dem kann der zweite Tod nichts anhaben.",
@@ -1847,6 +2061,9 @@ export const brevierData = {
           "resp1_1": "Die Krone der Schönheit hat er ihm aufs Haupt gesetzt.^ö"
         },
         "Vesper": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "les_buch": "Offb",
           "les_stelle": "7,14b-17",
           "les_text": "Das sind die, die aus der großen Bedrängnis kommen; sie haben ihre Gewänder gewaschen und im Blut des Lammes weiß gemacht. Deshalb stehen sie vor dem Thron Gottes und dienen ihm bei Tag und Nacht in seinem Tempel; und der, der auf dem Thron sitzt, wird sein Zelt über ihnen aufschlagen. Sie werden keinen Hunger und keinen Durst mehr leiden und weder Sonnenglut noch irgendeine sengende Hitze wird auf ihnen lasten. Denn das Lamm in der Mitte vor dem Thron wird sie weiden und zu den Quellen führen, aus denen das Wasser des Lebens strömt, und Gott wird alle Tränen von ihren Augen abwischen.",
@@ -1858,6 +2075,9 @@ export const brevierData = {
       },
       "q": {
         "Lesehore": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_nacht": 0.0,
           "les_buch": "Aus dem Buch der Weisheit.",
           "les_stelle": "3,1-15",
           "les_text": "^hDie Seelen der Gerechten sind in Gottes Hand^pDie Seelen der Gerechten sind in Gottes Hand und keine Qual kann sie berühren. In den Augen der Toren sind sie gestorben, ihr Heimgang gilt als Unglück, ihr Scheiden von uns als Vernichtung; sie aber sind in Frieden. In den Augen der Menschen wurden sie gestraft; doch ihre Hoffnung ist voll Unsterblichkeit. Ein wenig nur werden sie gezüchtigt; doch sie empfangen große Wohltat. Denn Gott hat sie geprüft und fand sie seiner würdig. Wie Gold im Schmelzofen hat er sie erprobt und sie angenommen als ein vollgültiges Opfer.^p Beim Endgericht werden sie aufleuchten wie Funken, die durch ein Stoppelfeld sprühen. Sie werden Völker richten und über Nationen herrschen und der Herr wird ihr König sein in Ewigkeit. Alle, die auf ihn vertrauen, werden die Wahrheit erkennen und die Treuen werden bei ihm bleiben in Liebe. Denn Gnade und Erbarmen wird seinen Erwählten zuteil.^p Die Frevler aber werden für ihre Pläne bestraft, sie, die den Gerechten missachtet haben und vom Herrn abgefallen sind. Unglücklich sind alle, die Weisheit und Belehrung verachten; leer ist ihre Hoffnung, vergeblich sind ihre Mühen und wertlos ihre Taten. Ihre Frauen sind unverständig und ihre Kinder böse, fluchbeladen ist ihr Geschlecht.^p Selig ist die Kinderlose, die unschuldig blieb und kein Lager der Sünde kannte; sie wird gleich einer Mutter geehrt, wenn die Seelen ihren Lohn empfangen. Selig ist auch der Kinderlose, der sich nicht frevelhaft verging und gegen den Herrn nichts Böses plante; besondere Gnade wird seiner Treue zuteil und ein gar köstlicher Anteil am Tempel des Herrn. Denn ruhmreich ist der Lohn guter Mühe und unvergänglich die Wurzel der Klugheit.",
@@ -1877,6 +2097,9 @@ export const brevierData = {
       "each": {
         "ErsteV": {
           "hymn_1": 71123.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ps_1": 118.4,
           "ps_2": 118.3,
           "ps_3": 158.0,
@@ -1895,6 +2118,8 @@ export const brevierData = {
           "bitten": "Du unser Erlöser, du hast dein Blut vergossen für das Heil der Welt;^qerbarme dich aller Menschen.^pDu Urbild der Märtyrer;^qsteh allen Verfolgten bei.^pDu treuer Zeuge;^qhilf denen, die Zeugnis von dir geben.^pDu Stärke der Märtyrer;^qsei deinen Bekennern nahe in der Stunde der Prüfung.^pDu Lohn der Märtyrer;^qsei auch der Lohn all unserer Verstorbenen."
         },
         "Invitatorium": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "Den Herrn, den König der Märtyrer – kommt, wir beten ihn an!^ö",
           "ant_1": "",
           "ant_2": "",
@@ -1903,6 +2128,8 @@ export const brevierData = {
         "Laudes": {
           "name": "Märt",
           "hymn_1": 71118.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "hymn_kl": 0.0,
           "ps_1": 63.0,
           "ps_2": 160.0,
@@ -1923,6 +2150,8 @@ export const brevierData = {
         },
         "Lesehore": {
           "hymn_1": 71110.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "hymn_nacht": 0.0,
           "ps_1": 2.0,
           "ps_2": 11.0,
@@ -1945,6 +2174,8 @@ export const brevierData = {
           "patr_resp3": "Ich sehe alles als Verlust an, weil die Erkenntnis Christi Jesu, meines Herrn, alles übertrifft. Christus will ich erkennen und die Gemeinschaft mit seinen Leiden; sein Tod soll mich prägen."
         },
         "Non": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "Die mit Tränen säen, werden mit Jubel ernten.^ö",
           "ant_1": "",
           "ant_2": "",
@@ -1956,6 +2187,8 @@ export const brevierData = {
           "resp1_1": "Und bringen ihre Garben ein.^ö"
         },
         "Sext": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "Mit der Krone der Gerechtigkeit hat Gott ihn geehrt und ihm den Namen der Herrlichkeit verliehen.^ö",
           "ant_1": "",
           "ant_2": "",
@@ -1967,6 +2200,8 @@ export const brevierData = {
           "resp1_1": "Was können Menschen mir antun?^ö"
         },
         "Terz": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_0": "In einem harten Kampf verlieh ihm Gott den Siegespreis, und er erkannte, dass Gottes Weisheit mächtiger ist als alles andere.^ö",
           "ant_1": "",
           "ant_2": "",
@@ -1979,6 +2214,9 @@ export const brevierData = {
         },
         "Vesper": {
           "hymn_1": 71123.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ps_1": 116.1,
           "ps_2": 116.2,
           "ps_3": 153.0,
@@ -1999,12 +2237,17 @@ export const brevierData = {
       },
       "Frau": {
         "ErsteV": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "resp1_1": "Der Herr hat sie erwählt,",
           "resp1_2": "vor allen hat er sie erkoren.",
           "resp1_3": "In seinem Zelt lässt er sie wohnen.",
           "ant_ev": "Ihr Gürtel war die Tapferkeit, sie kämpfte mit kraftvollem Arm. Ihre Lampe erlischt nicht in Ewigkeit.^ö"
         },
         "Terz": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "resp1_0": "Mit dem Gewand der Freude hat sie der Herr bekleidet.^ö",
           "resp1_1": "Die Krone der Schönheit hat er ihr aufs Haupt gesetzt.^ö"
         }
@@ -2012,24 +2255,37 @@ export const brevierData = {
       "Jgfr": {
         "ErsteV": {
           "hymn_1": 71119.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "resp1_1": "Der Herr hat sie erwählt,",
           "resp1_2": "vor allen hat er sie erkoren.",
           "resp1_3": "In seinem Zelt lässt er sie wohnen."
         },
         "Laudes": {
           "hymn_1": 71119.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "hymn_kl": 0.0
         },
         "Terz": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "resp1_0": "Mit dem Gewand der Freude hat sie der Herr bekleidet.^ö",
           "resp1_1": "Die Krone der Schönheit hat er ihr aufs Haupt gesetzt.^ö"
         },
         "Vesper": {
-          "hymn_1": 71119.0
+          "hymn_1": 71119.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0
         }
       },
       "o": {
         "ErsteV": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "les_buch": "Offb",
           "les_stelle": "3,10-12",
           "les_text": "Du hast dich an mein Gebot gehalten, standhaft zu bleiben; daher werde auch ich zu dir halten und dich bewahren vor der Stunde der Versuchung, die über die ganze Erde kommen soll, um die Bewohner der Erde auf die Probe zu stellen. Ich komme bald. Halte fest, was du hast, damit kein anderer deinen Kranz bekommt.^pWer siegt, den werde ich zu einer Säule im Tempel meines Gottes machen und er wird immer darin bleiben. Und ich werde auf ihn den Namen meines Gottes schreiben und den Namen der Stadt meines Gottes, des neuen Jerusalem, das aus dem Himmel herabkommt von meinem Gott, und ich werde auf ihn auch meinen neuen Namen schreiben.",
@@ -2039,6 +2295,9 @@ export const brevierData = {
           "ant_ev": "Ewiges Licht leuchtet deinen Heiligen, o Herr: Unsterblichkeit ist ihr Besitz. Halleluja."
         },
         "Laudes": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "les_buch": "1°Joh",
           "les_stelle": "5,3-5",
           "les_text": "Die Liebe zu Gott besteht darin, dass wir seine Gebote halten. Seine Gebote sind nicht schwer. Denn alles, was von Gott stammt, besiegt die Welt. Und das ist der Sieg, der die Welt besiegt hat: unser Glaube. Wer sonst besiegt die Welt, außer dem, der glaubt, dass Jesus der Sohn Gottes ist?",
@@ -2048,6 +2307,9 @@ export const brevierData = {
           "ant_ev": "Ihr Heiligen alle, freut euch und jubelt; denn groß ist euer Lohn im Himmel. Halleluja."
         },
         "Lesehore": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_nacht": 0.0,
           "les_buch": "Aus der Offenbarung des Johannes.",
           "les_stelle": "7,9-17",
           "les_text": "Danach sah ich: eine große Schar aus allen Nationen und Stämmen, Völkern und Sprachen; niemand konnte sie zählen. Sie standen in weißen Gewändern vor dem Thron und vor dem Lamm und trugen Palmzweige in den Händen. Sie riefen mit lauter Stimme: Die Rettung kommt von unserem Gott, der auf dem Thron sitzt, und von dem Lamm.^pUnd alle Engel standen rings um den Thron, um die Ältesten und die vier Lebewesen. Sie warfen sich vor dem Thron nieder, beteten Gott an und sprachen: ^pAmen, Lob und Herrlichkeit, ^lWeisheit und Dank, ^lEhre und Macht und Stärke ^lunserem Gott in alle Ewigkeit! Amen. ^pDa fragte mich einer der Ältesten: Wer sind diese, die weiße Gewänder tragen, und woher sind sie gekommen? Ich erwiderte ihm: Mein Herr, das musst du wissen. Und er sagte zu mir: Es sind die, die aus der großen Bedrängnis kommen; sie haben ihre Gewänder gewaschen und im Blut des Lammes weiß gemacht. Deshalb stehen sie vor dem Thron Gottes und dienen ihm bei Tag und Nacht in seinem Tempel; und der, der auf dem Thron sitzt, wird sein Zelt über ihnen aufschlagen. Sie werden keinen Hunger und keinen Durst mehr leiden und weder Sonnenglut noch irgendeine sengende Hitze wird auf ihnen lasten. Denn das Lamm in der Mitte vor dem Thron wird sie weiden und zu den Quellen führen, aus denen das Wasser des Lebens strömt, und Gott wird alle Tränen von ihren Augen abwischen.",
@@ -2056,6 +2318,8 @@ export const brevierData = {
           "resp1_3": "Bis zum Tode setze dich ein für das Recht, dann wird der Herr für dich kämpfen."
         },
         "Non": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "les_buch": "Offb",
           "les_stelle": "19,7.9",
           "les_text": "Wir wollen uns freuen und jubeln und ihm die Ehre erweisen! Denn die Hochzeit des Lammes ist gekommen, und seine Frau hat sich bereit gemacht.^lJemand sagte zu mir: Schreib auf: Selig, wer zum Hochzeitsmahl des Lammes eingeladen ist! Dann sagte er zu mir: Das sind zuverlässige Worte, es sind Worte Gottes.",
@@ -2063,6 +2327,8 @@ export const brevierData = {
           "resp1_1": "Und bringen ihre Garben ein.^ö"
         },
         "Sext": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "les_buch": "Offb",
           "les_stelle": "3,21",
           "les_text": "Wer siegt, der darf mit mir auf meinem Thron sitzen, so wie auch ich gesiegt habe und mich mit meinem Vater auf seinen Thron gesetzt habe.",
@@ -2070,6 +2336,8 @@ export const brevierData = {
           "resp1_1": "Was können Menschen mir antun?^ö"
         },
         "Terz": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "les_buch": "Offb",
           "les_stelle": "2,10-11",
           "les_text": "Fürchte dich nicht vor dem, was du noch erleiden musst: Der Teufel wird einige von euch ins Gefängnis werfen, um euch auf die Probe zu stellen, und ihr werdet in Bedrängnis sein, zehn Tage lang. Sei treu bis in den Tod; dann werde ich dir den Kranz des Lebens geben.^lWer Ohren hat, der höre, was der Geist den Gemeinden sagt: Wer siegt, dem kann der zweite Tod nichts anhaben.",
@@ -2077,6 +2345,9 @@ export const brevierData = {
           "resp1_1": "Die Krone der Schönheit hat er ihm aufs Haupt gesetzt.^ö"
         },
         "Vesper": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "les_buch": "Offb",
           "les_stelle": "7,14b-17",
           "les_text": "Das sind die, die aus der großen Bedrängnis kommen; sie haben ihre Gewänder gewaschen und im Blut des Lammes weiß gemacht. Deshalb stehen sie vor dem Thron Gottes und dienen ihm bei Tag und Nacht in seinem Tempel; und der, der auf dem Thron sitzt, wird sein Zelt über ihnen aufschlagen. Sie werden keinen Hunger und keinen Durst mehr leiden und weder Sonnenglut noch irgendeine sengende Hitze wird auf ihnen lasten. Denn das Lamm in der Mitte vor dem Thron wird sie weiden und zu den Quellen führen, aus denen das Wasser des Lebens strömt, und Gott wird alle Tränen von ihren Augen abwischen.",
@@ -2088,6 +2359,9 @@ export const brevierData = {
       },
       "q": {
         "Lesehore": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_nacht": 0.0,
           "les_buch": "Aus dem Buch Jesus Sirach.",
           "les_stelle": "51,1-12",
           "resp1_1": "Ich will deinen Namen verkünden, Herr, du Hort meines Lebens.",
@@ -2099,46 +2373,73 @@ export const brevierData = {
     "MFr": {
       "Erz": {
         "ErsteV": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ant_ev": "Mein Sohn, halte fest am Gebot deines Vaters und missachte nicht die Weisung deriner Mutter. Binde sie dir aufs Herz für immer.^ö"
         },
         "Laudes": {
           "name": "Erz",
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ant_ev": "Wer barmherzig ist, der lehrt und erzieht wie ein guter Hirt.^ö"
         },
         "Vesper": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ant_ev": "Lasst die Kinder zu mir kommen; denn Menschen wie ihnen gehört das Reich Gottes."
         }
       },
       "Liebe": {
         "ErsteV": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ant_ev": "Selig, wer sich des Armen erbarmt. Wer an Gott glaubt, liebt die Barmherzigkeit.^ö"
         },
         "Laudes": {
           "name": "Hl",
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ant_ev": "Daran werden alle erkennen, dass ihr meine Jünger seid: wenn ihr einander liebt.^ö"
         },
         "Vesper": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ant_ev": "Amen, ich sage euch: Was ihr dem Geringsten meiner Brüder getan habt, das habt ihr mir getan. Kommt, ihr Gesegneten meines Vaters, nehmt das Reich in Besitz, das seit Anfang der Welt für euch bestimmt ist.^ö"
         }
       },
       "Ord": {
         "ErsteV": {
           "hymn_1": 71248.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ant_ev": "So spricht der Herr: Wenn jemand nicht auf alles, was er hat, verzichtet, kann er mein Jünger nicht sein.^ö"
         },
         "Laudes": {
           "name": "Ord",
           "hymn_1": 71248.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "hymn_kl": 0.0,
           "ant_ev": "Wer den Willen meines Vaters erfüllt, der ist für mich Bruder und Schwester und Mutter.^ö^p^rOder:^0r^l^rAnt.°°^0rMein Anteil ist der Herr, darum harre ich auf ihn; gut ist der Herr zur Seele, die ihn sucht.^ö"
         },
         "Lesehore": {
           "hymn_1": 516.0,
           "hymn_2": 71248.0,
+          "hymn_3": 0.0,
           "hymn_nacht": 0.0
         },
         "Vesper": {
           "hymn_1": 71248.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
           "ant_ev": "Ihr habt alles verlassen und seid mir nachgefolgt: Das Hundertfache werdet ihr dafür erhalten und das ewige Leben gewinnen.^ö^p^rOder:^0r^l^rAnt.°°^0rWo Brüder in Eintracht Gottes Herrlichkeit preisen, da spendet der Herr seinen Segen.^ö"
         }
       }
@@ -2987,12 +3288,56 @@ export const brevierData = {
         },
         "Laudes": {
           "name": "Hl. Markus",
-          "farbe": "r"
+          "farbe": "r",
+          "ant_1": "Die heiligen Evangelisten erforschten die Weisheit der Alten und bekräftigten ihre Botschaft durch die Worte der Propheten.^ö",
+          "ant_2": "Zum Glauben an die Wahrheit hat Gott uns berufen durch das Evangelium, damit wir die Herrlichkeit unseres Herrn Jesus Christus erlangen.^ö",
+          "ant_3": "Viele loben ihre Weisheit; sie wird niemals vergehen.^ö",
+          "les_buch": "1 Kor",
+          "les_stelle": "15,1-2a.3-4",
+          "les_text": "Ich erinnere euch, Brüder, an das Evangelium, das ich euch verkündigt habe. Ihr habt es angenommen; es ist der Grund, auf dem ihr steht. Vor allem habe ich euch überliefert, was auch ich empfangen habe: Christus ist für unsere Sünden gestorben, gemäß der Schrift, und ist begraben worden. Er ist am dritten Tag auferweckt worden, gemäß der Schrift.",
+          "resp1_1": "Sie verkündeten die Stärke des Herrn",
+          "resp1_2": "und seine ruhmreichen Taten.",
+          "resp1_3": "Sie erzählten die Wunder, die er getan.",
+          "ant_ev": "Durch die Gnade Jesu Christi wurden den Völkern Lehrer gesandt und Evangelisten, um ihrem Glauben zu dienen.^ö",
+          "bitten_e": "Gepriesen sei Jesus Christus, der uns das unvergängliche Leben geoffenbart hat. Zu ihm lasst uns beten:",
+          "bitten_r": "Stärke unseren Glauben.",
+          "bitten": "Du hast deiner Kirche immer wieder heilige Menschen als Hirten geschenkt;^qsende deinen Gläubigen allezeit gute Seelsorger.^pDu hast den Hirten der Kirche den Dienst der Versöhnung anvertraut;^qgib, dass sie ihn treu verwalten.^pDu bist es, der den Seelsorgern Kraft von oben verleiht;^qerfülle alle, die dein Volk führen, mit Heiligem Geist.^pDu selber bist das Erbteil aller, die du zu Seelsorgern berufen hast;^qlass keinen von ihnen verlorengehen.^pDu bist der ewige Lohn deiner Diener;^qschenke den verstorbenen Seelsorgern und allen Gläubigen das ewige Leben."
         },
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
+        "Lesehore": {
+          "les_buch": "Eph",
+          "les_stelle": "4,1-16",
+          "les_text": "^hAufruf zur Einheit^pIch, der ich um des Herrn willen im Gefängnis bin, ermahne euch, ein Leben zu führen, das des Rufes würdig ist, der an euch erging. Seid demütig, friedfertig und geduldig, ertragt einander in Liebe und bemüht euch, die Einheit des Geistes zu wahren durch den Frieden, der euch zusammenhält.^w Ein^0w Leib und^w ein^0w Geist, wie euch durch eure Berufung auch^w eine^0w gemeinsame Hoffnung gegeben ist;^w ein^0w Herr,^w ein^0w Glaube,^w eine^0w Taufe,^w ein^0w Gott und Vater aller, der über allem und durch alles und in allem ist.^hDie Gnadengaben zum Aufbau der Kirche^pAber jeder von uns empfing die Gnade in dem Maß, wie Christus sie ihm geschenkt hat. Deshalb heißt es: Er stieg hinauf zur Höhe und erbeutete Gefangene, er gab den Menschen Geschenke. Wenn er aber hinaufstieg, was bedeutet dies anderes, als dass er auch zur Erde herabstieg? Derselbe, der herabstieg, ist auch hinaufgestiegen bis zum höchsten Himmel, um das All zu beherrschen.^pUnd er gab den einen das Apostelamt, andere setzte er als Propheten ein, andere als Evangelisten, andere als Hirten und Lehrer, um die Heiligen für die Erfüllung ihres Dienstes zu rüsten, für den Aufbau des Leibes Christi. So sollen wir alle zur Einheit im Glauben und in der Erkenntnis des Sohnes Gottes gelangen, damit wir zum vollkommenen Menschen werden und Christus in seiner vollendeten Gestalt darstellen.^pWir sollen nicht mehr unmündige Kinder sein, ein Spiel der Wellen, hin und her getrieben von jedem Widerstreit der Meinungen, dem Betrug der Menschen ausgeliefert, der Verschlagenheit, die in die Irre führt. Wir wollen uns, von der Liebe geleitet, an die Wahrheit halten und in allem wachsen, bis wir ihn erreicht haben. Er, Christus, ist das Haupt. Durch ihn wird der ganze Leib zusammengefügt und gefestigt in jedem einzelnen Gelenk. Jedes trägt mit der Kraft, die ihm zugemessen ist. So wächst der Leib und wird in Liebe aufgebaut.",
+          "resp1_1": "Keine Weissagung wurde ausgesprochen, weil ein Mensch es wollte;",
+          "resp1_2": "vom Heiligen Geist getrieben, haben Menschen geredet.^ö",
+          "resp1_3": "Der Herr gibt Weisheit, aus seinem Mund kommen Erkenntnis und Einsicht.",
+          "patr_autor": "Irenäus",
+          "patr_werk": "Aus dem Buch gegen die Irrlehren.",
+          "patr_text": "^hDie Verkündigung der Wahrheit^pDie Kirche, die bis an die Grenzen der Erde wie Samenkörner auf ein Ackerfeld ausgesät ist, empfing von den Aposteln und ihren Schülern den Glauben an den einen Gott, den allherrschenden Vater, der Himmel und Erde gemacht hat und das Meer und alles, was in ihnen ist, und an den einen Jesus Christus, Gottes Sohn, der zu unserem Heil Mensch geworden ist, und an den Heiligen Geist, der durch die Propheten die Ratschlüsse Gottes verkündigt hat. Sie empfing den Glauben an Christi Kommen, seine Geburt aus der Jungfrau, sein Leiden und seine Auferstehung von den Toten, an die leibliche Himmelfahrt Christi Jesu, unseres geliebten Herrn, an seine Wiederkunft vom Himmel in der Herrlichkeit des Vaters, um alles unter einem Haupt zusammenzufassen und alles Fleisch des ganzen Menschengeschlechtes aufzuerwecken, damit nach dem Ratschluss des unsichtbaren Vaters vor Jesus Christus, unserem Herrn und Gott, unserem Erretter und König, alle im Himmel, auf der Erde und unter der Erde ihre Knie beugen und jeder Mund bekennt: „Jesus Christus ist der Herr“ – zur Ehre Gottes, des Vaters {1#vgl.°Phil°2,10–11}, und er über alles ein gerechtes Gericht abhält.^pDiese Verkündigung, die sie empfangen hat, und diesen eben ausgesprochenen Glauben bewahrt die Kirche, obwohl sie über die ganze Erde zerstreut ist, so gewissenhaft, als bewohnte sie ein einziges Haus. Sie glaubt die verkündigte Wahrheit, als habe sie nur^w eine^0w Seele und^w ein^0w Herz. Sie predigt, lehrt und überliefert sie einmütig weiter, als besitze sie nur^w einen^0w Mund. Denn wenn die Sprachen in der Welt auch verschieden sind, so ist doch die Kraft der Überlieferung eine und die gleiche.^pDie in Germanien gegründeten Kirchen glauben und überliefern nicht etwas anderes, nicht die bei den Iberern oder bei den Kelten, nicht die im Osten, nicht die in Ägypten, nicht die in Libyen und nicht die in der Mitte der Welt (in Jerusalem) gegründeten. Wie vielmehr die Sonne, Gottes Geschöpf, in der ganzen Welt eine und dieselbe ist, so leuchtet auch die Predigt der Wahrheit überall und erleuchtet alle Menschen, die zur Erkenntnis der Wahrheit gelangen wollen {2#vgl.°1°Tim°2,4}.^pAuch wer unter den Vorstehern der Kirche durch besondere Beredsamkeit hervorragt, verkündet nichts anderes als dies - denn keiner ist höher als der Meister; und auch wer schwach in der Rede schwerfällt, verkürzt die Überlieferung nicht. Da der Glaube nur einer und derselbe ist, vermehrt ihn keiner, der viel über ihn sagen kann, und vermindert ihn niemand, der weniger sagt.",
+          "patr_resp1": "Christus hat mich gesandt, das Evangelium zu verkünden, nicht in gewandten Worten, damit das Kreuz Christi nicht um seine Kraft gebracht wird.",
+          "patr_resp2": "Das Wort vom Kreuz ist denen, die verlorengehen, Torheit, uns aber, die gerettet werden, ist es Gottes Kraft.^ö",
+          "patr_resp3": "Da die Welt Gott mit ihrer Weisheit nicht erkannte, beschloss Gott, durch die Torheit der Verkündigung alle zu retten."
+        },
+        "Non": {
+          "les_buch": "2 Tim",
+          "les_stelle": "1,8b-9",
+          "les_text": "Leide mit mir für das Evangelium. Gott gibt dazu die Kraft: Er hat uns gerettet; mit einem heiligen Ruf hat er uns gerufen, nicht aufgrund unserer Werke, sondern aus eigenem Entschluss und aus Gnade, die uns schon vor ewigen Zeiten in Christus Jesus geschenkt wurde.",
+          "resp1_0": "So spricht der Herr: Freut euch und jubelt,^ö",
+          "resp1_1": "Denn eure Namen sind im Himmel verzeichnet.^ö"
+        },
+        "Sext": {
+          "les_buch": "1 Thess",
+          "les_stelle": "2,2b-4",
+          "les_text": "Im Vertrauen auf unseren Gott haben wir das Evangelium Gottes trotz harter Kämpfe freimütig und furchtlos bei euch verkündigt. Denn wir predigen nicht, um euch irrezuführen, in schmutziger Absicht auszunutzen oder zu betrügen, sondern wir tun es, weil Gott uns geprüft und uns das Evangelium anvertraut hat, nicht also um den Menschen, sondern um Gott zu gefallen, der unsere Herzen prüft.",
+          "resp1_0": "Sie hielten fest am Zeugnis Gottes.^ö",
+          "resp1_1": "Und bewahrten seine Gebote.^ö"
+        },
+        "Terz": {
+          "les_buch": "Röm",
+          "les_stelle": "1,16-17",
+          "les_text": "Ich schäme mich des Evangeliums nicht: es ist eine Kraft Gottes, die jeden rettet, der glaubt, zuerst den Juden, aber ebenso den Griechen. Denn im Evangelium wird die Gerechtigkeit Gottes offenbart aus Glauben zum Glauben, wie in der Schrift steht: Der aus Glauben Gerechte wird leben.",
+          "resp1_0": "Ihre Botschaft geht hinaus in die ganze Welt.^ö",
+          "resp1_1": "Ihre Kunde bis zu den Enden der Erde.^ö"
+        },
         "Vesper": {
           "ant_1": "Der Frohen Botschaft diene ich – dank der Gnade Gottes.",
           "ant_2": "Ich tue alles um der Frohen Botschaft willen, damit ich teilhabe an der Verheißung. Halleluja.",
@@ -3000,7 +3345,10 @@ export const brevierData = {
           "les_buch": "Kol",
           "les_stelle": "1,3–6",
           "les_text": "Wir danken Gott, dem Vater Jesu Christi, unseres Herrn, jedes Mal, wenn wir für euch beten. Denn wir haben von eurem Glauben an Christus Jesus gehört und von der Liebe, die ihr zu allen Heiligen habt, weil im Himmel die Erfüllung eurer Hoffnung für euch bereitliegt. Schon früher habt ihr davon gehört durch das wahre Wort des Evangeliums, das zu euch gelangt ist. Wie in der ganzen Welt, so trägt es auch bei euch Frucht und wächst seit dem Tag, an dem ihr den Ruf der göttlichen Gnade vernommen und in Wahrheit erkannt habt.",
-          "ant_ev": "In Ewigkeit bleibt das Wort des Herrn, das Evangelium, das euch verkündet worden ist. Halleluja."
+          "ant_ev": "In Ewigkeit bleibt das Wort des Herrn, das Evangelium, das euch verkündet worden ist. Halleluja.",
+          "bitten_e": "Lasst uns zu Jesus Christus beten, der seine Jünger ausgesandt hat als Boten seiner Wahrheit und Liebe:",
+          "bitten_r": "Herr, gedenke deiner Kirche.",
+          "bitten": "Du hast die Jünger ausgesandt als Zeugen deiner Auferstehung;^qsteh den Bischöfen bei, die du als ihre Nachfolger berufen hast.^pDu hast den Jüngern den Auftrag gegeben, den Samen des Wortes auszusäen;^qhilf den Predigern, den apostolischen Glauben treu zu verkünden.^pDu hast den Jüngern befohlen, allen Menschen dein Reich zu verkünden;^qgedenke aller, die auf deinen Namen getauft sind.^pDu hast den Jüngern den Dienst der Versöhnung aufgetragen;^qlass alle, die ihre Sünden bekennen, deinen Trost erfahren.^pDu hast denen dein Reich verheißen, die an deine Botschaft glauben;^qnimm unsere Verstorbenen auf in das neue Jerusalem."
         }
       },
       "27": {
@@ -3041,65 +3389,49 @@ export const brevierData = {
           "comm_1": "Apostel",
           "oration": "Gütiger Gott, wir feiern heute das Fest deiner Apostel Philippus und Jakobus, die für Christus ihr Blut vergossen haben. Schenke auch uns Gemeinschaft mit deinem Sohn in seinem Leiden und seiner Auf­erstehung, damit wir in ewiger Freude dein Angesicht schauen dürfen. Darum bitten wir durch Jesus Christus, deinen Sohn, un­sern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
-        "Invitatorium": {
-          "comm_1": "Apostel"
-        },
         "Laudes": {
-          "comm_1": "Apostel",
           "name": "Hl. Philippus und hl. Jakobus",
-          "farbe": "r"
+          "farbe": "r",
+          "ant_1": "Herr, zeige uns den Vater. Das genügt uns.^ö",
+          "ant_2": "So lange schon bin ich bei euch, und ihr habt mich nicht erkannt? Wer mich sieht, der sieht auch den Vater.^ö",
+          "ant_3": "Euer Herz betrübe sich nicht und sei nicht verzagt. Ihr glaubt an Gott, glaubt auch an mich! Im Hause meines Vaters sind viele Wohnungen.^ö",
+          "ant_ev": "Philippus traf Natanael und sagte zu ihm: Wir haben den gefunden, über den Mose und die Propheten schrieben: Jesus von Nazaret, den Sohn Josefs.^ö"
         },
         "Lesehore": {
-          "comm_1": "Apostel"
-        },
-        "Non": {
-          "comm_1": "Apostel"
-        },
-        "Sext": {
-          "comm_1": "Apostel"
-        },
-        "Terz": {
-          "comm_1": "Apostel"
+          "patr_autor": "Tertullian (†°nach 220)",
+          "patr_werk": "Aus „Die Prozesseinrede gegen die Häretiker“.",
+          "patr_text": "^hDie Predigt der Apostel^pWas unser Herr Christus Jesus war, was er vorher gewesen war, welchem Auftrag des Vaters er zu dienen hatte, welches Tun er den Menschen zuwies, all das verkündete er selbst, solange er auf der Erde tätig war, entweder öffentlich dem Volk oder den Jüngern allein. Aus ihnen berief er die Zwölf in seinen engeren Kreis und bestimmte sie als Lehrer für die Völker.^pAls er daher nach der Auferstehung Abschied nahm und zum Vater ging, befahl er den Elf – nach Ausscheiden des einen –, hinauszuziehen, die Völker zu lehren und sie zu taufen auf den Vater und den Sohn und den Heiligen Geist.^pSogleich nahmen die Apostel, das heißt die Gesandten, durch das Los als Zwölften den Matthias anstelle des Judas auf, und zwar aufgrund der im Psalm Davids enthaltenen Prophetie{1#vgl. Ps 109,8}. Sie empfingen die verheißene Kraft des Heiligen Geistes, die sie mit Wunder- und Redegabe erfüllte. Zuerst bezeugten sie in Judäa den Glauben an Jesus Christus und gründeten Kirchen. Dann zogen sie in die Welt hinaus und verkündeten den Völkern dieselbe Lehre und denselben Glauben.^pDann gründeten sie von Stadt zu Stadt Kirchen, von denen aus der erlangte Glaube und Lehre zu den übrigen Kirchen. So geschieht es bis heute, damit Kirchen entstehen. Dadurch werden auch sie als Sprösslinge der von den Aposteln gegründeten Kirchen als apostolisch erachtet.^pAlles ist nach seinem Ursprung zu beurteilen. Darum bilden so viele und große Kirchen jene eine und erste Kirche, die von den Aposteln gegründet wurde und von der sie alle abstammen. So sind sie alle erste und apostolische Kirchen, weil alle die eine Kirche sind. Probe auf die Einheit sind: die Gemeinschaft des Friedens, der Brudername und die Gastfreundschaft. Diese Rechte verleiht allein die eine Überlieferung desselben Mysteriums.^pWas die Apostel gepredigt haben, das heißt: was Christus ihnen geoffenbart hat, kann nur durch diese Kirchen nachgewiesen werden, die von den Aposteln selbst gegründet wurden, durch mündliche Predigt und später durch Briefe. Der Herr hat einmal offen erklärt: „Noch vieles habe ich euch zu sagen, aber ihr könnt es jetzt nicht tragen.“ Aber er fügte hinzu: „Wenn aber jener kommt, der Geist der Wahrheit, wird er euch in die ganze Wahrheit führen.“ {2#Joh°16,12.13} Dadurch zeigte er, dass sie alles wissen würden, da er ihnen versprochen hatte, sie würden durch den Geist der Wahrheit „die volle Wahrheit“ erlangen. Tatsächlich erfüllte er die Verheißung, da die Apostelgeschichte die Herabkunft des Heiligen Geistes bezeugt.",
+          "patr_resp1": "Noch vieles habe ich euch zu sagen,",
+          "patr_resp2": "doch ihr könnt es jetzt noch nicht tragen.^ö",
+          "patr_resp3": "Wenn aber jener kommt, der Geist der Wahrheit, wird er euch in die ganze Wahrheit führen."
         },
         "Vesper": {
-          "comm_1": "Apostel",
-          "ant_1": "Philippus, wer mich sieht, der sieht auch den Vater. Halleluja.",
-          "ant_2": "Habt ihr mich erkannt, dann werdet ihr auch meinen Vater erkennen. Schon jetzt kennt ihr ihn und habt ihn gesehen. Halleluja.",
-          "ant_3": "Wenn ihr mich liebt, werdet ihr meine Gebote halten. Halleluja.",
+          "ant_1": "Philippus, wer mich sieht, der sieht auch den Vater.^ö",
+          "ant_2": "Habt ihr mich erkannt, dann werdet ihr auch meinen Vater erkennen. Schon jetzt kennt ihr ihn und habt ihn gesehen.^ö",
+          "ant_3": "Wenn ihr mich liebt, werdet ihr meine Gebote halten.^ö",
           "ant_ev": "Wenn ihr in mir bleibt und wenn meine Worte in euch bleiben, dann bittet um alles, was ihr wollt: Ihr werdet es erhalten. Halleluja."
         }
-      },
-      "26": {
-        "each": {
-          "comm_1": "Mar",
-          "oration": "eig-5-26-each-Oration"
-        },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
       }
     },
     "6": {
-      "1": {
-        "each": {
-          "comm_1": "Mar",
-          "oration": "eig-6-1-each-Oration"
-        },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
-      },
       "3": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-6-3-each-Oration",
           "oration": "eig-6-3-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "5": {
         "each": {
@@ -3215,47 +3547,97 @@ export const brevierData = {
       "11": {
         "each": {
           "comm_1": "Apostel",
+          "comm_2": "LEER Gott, du hast den heiligen Barnabas, einen Mann voll des Glaubens und des Heiligen Geistes, als Boten des Evange­liums zu den Heiden gesandt. Berufe auch heute Männer und Frauen, die in Wort und Tat die Botschaft Jesu Christi verkünden, der in der Ein­heit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
           "oration": "Gott, du hast den heiligen Barnabas, einen Mann voll des Glaubens und des Heiligen Geistes, als Boten des Evange­liums zu den Heiden gesandt. Berufe auch heute Männer und Frauen, die in Wort und Tat die Botschaft Jesu Christi verkünden, der in der Ein­heit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Invitatorium": {
-          "comm_1": "Apostel",
-          "ant_0": "Durch Propheten und Lehrer hat Gottes Geist zu uns gesprochen; kommt, wir beten ihn an!"
+          "ant_0": "Durch Propheten und Lehrer hat Gottes Geist zu uns gesprochen; kommt, wir beten ihn an!^ö"
         },
         "Laudes": {
-          "comm_1": "Apostel",
           "name": "Hl. Barnabas",
-          "farbe": "r"
+          "farbe": "r",
+          "les_buch": "1 Kor",
+          "les_stelle": "15,1-2a.3-4",
+          "les_text": "Ich erinnere euch, Brüder, an das Evangelium, das ich euch verkündigt habe. Ihr habt es angenommen; es ist der Grund, auf dem ihr steht. Vor allem habe ich euch überliefert, was auch ich empfangen habe: Christus ist für unsere Sünden gestorben, gemäß der Schrift, und ist begraben worden. Er ist am dritten Tag auferweckt worden, gemäß der Schrift.",
+          "resp1_1": "Sie verkündeten die Stärke des Herrn",
+          "resp1_2": "und seine ruhmreichen Taten.",
+          "resp1_3": "Sie erzählten die Wunder, die er getan.",
+          "ant_ev": "Barnabas zog nach Tarsus, Er suchte Saulus auf und nahm ihn mit nach Antiochia. Dort wirkten sie in der Gemeinde und verkündeten das Wort des Herrn.^ö",
+          "bitten_e": "Gepriesen sei Jesus Christus, der uns das unvergängliche Leben geoffenbart hat. Zu ihm lasst uns beten:",
+          "bitten_r": "Stärke unseren Glauben.",
+          "bitten": "Du hast deiner Kirche immer wieder heilige Menschen als Hirten geschenkt;^qsende deinen Gläubigen allezeit gute Seelsorger.^pDu hast den Hirten der Kirche den Dienst der Versöhnung anvertraut;^qgib, dass sie ihn treu verwalten.^pDu bist es, der den Seelsorgern Kraft von oben verleiht;^qerfülle alle, die dein Volk führen, mit Heiligem Geist.^pDu selber bist das Erbteil aller, die du zu Seelsorgern berufen hast;^qlass keinen von ihnen verlorengehen.^pDu bist der ewige Lohn deiner Diener;^qschenke den verstorbenen Seelsorgern und allen Gläubigen das ewige Leben."
         },
         "Lesehore": {
-          "comm_1": "Apostel"
+          "comm_2": "LEER "
+        },
+        "Non": {
+          "les_buch": "2 Tim",
+          "les_stelle": "1,8b-9",
+          "les_text": "Leide mit mir für das Evangelium. Gott gibt dazu die Kraft: Er hat uns gerettet; mit einem heiligen Ruf hat er uns gerufen, nicht aufgrund unserer Werke, sondern aus eigenem Entschluss und aus Gnade, die uns schon vor ewigen Zeiten in Christus Jesus geschenkt wurde.",
+          "resp1_0": "So spricht der Herr: Freut euch und jubelt,^ö",
+          "resp1_1": "Denn eure Namen sind im Himmel verzeichnet.^ö"
+        },
+        "Sext": {
+          "les_buch": "1 Thess",
+          "les_stelle": "2,2b-4",
+          "les_text": "Im Vertrauen auf unseren Gott haben wir das Evangelium Gottes trotz harter Kämpfe freimütig und furchtlos bei euch verkündigt. Denn wir predigen nicht, um euch irrezuführen, in schmutziger Absicht auszunutzen oder zu betrügen, sondern wir tun es, weil Gott uns geprüft und uns das Evangelium anvertraut hat, nicht also um den Menschen, sondern um Gott zu gefallen, der unsere Herzen prüft.",
+          "resp1_0": "Sie hielten fest am Zeugnis Gottes.^ö",
+          "resp1_1": "Und bewahrten seine Gebote.^ö"
+        },
+        "Terz": {
+          "les_buch": "Röm",
+          "les_stelle": "1,16-17",
+          "les_text": "Ich schäme mich des Evangeliums nicht: es ist eine Kraft Gottes, die jeden rettet, der glaubt, zuerst den Juden, aber ebenso den Griechen. Denn im Evangelium wird die Gerechtigkeit Gottes offenbart aus Glauben zum Glauben, wie in der Schrift steht: Der aus Glauben Gerechte wird leben.",
+          "resp1_0": "Ihre Botschaft geht hinaus in die ganze Welt.^ö",
+          "resp1_1": "Ihre Kunde bis zu den Enden der Erde.^ö"
         },
         "Vesper": {
-          "comm_1": "Apostel",
           "les_buch": "Kol",
           "les_stelle": "1,3–6",
           "les_text": "Wir danken Gott, dem Vater Jesu Christi, unseres Herrn, jedes Mal, wenn wir für euch beten. Denn wir haben von eurem Glauben an Christus Jesus gehört und von der Liebe, die ihr zu allen Heiligen habt, weil im Himmel die Erfüllung eurer Hoffnung für euch bereitliegt. Schon früher habt ihr davon gehört durch das wahre Wort des Evangeliums, das zu euch gelangt ist. Wie in der ganzen Welt, so trägt es auch bei euch Frucht und wächst seit dem Tag, an dem ihr den Ruf der göttlichen Gnade vernommen und in Wahrheit erkannt habt.",
-          "ant_ev": "Die ganze Versammlung schwieg. Und Barnabas und Paulus erzählten, welch große Zeichen und Wunder Gott durch sie getan hatte unter den Heiden.^ö"
+          "ant_ev": "Die ganze Versammlung schwieg. Und Barnabas und Paulus erzählten, welch große Zeichen und Wunder Gott durch sie getan hatte unter den Heiden.^ö",
+          "bitten_e": "Lasst uns zu Jesus Christus beten, der seine Jünger ausgesandt hat als Boten seiner Wahrheit und Liebe:",
+          "bitten_r": "Herr, gedenke deiner Kirche.",
+          "bitten": "Du hast die Jünger ausgesandt als Zeugen deiner Auferstehung;^qsteh den Bischöfen bei, die du als ihre Nachfolger berufen hast.^pDu hast den Jüngern den Auftrag gegeben, den Samen des Wortes auszusäen;^qhilf den Predigern, den apostolischen Glauben treu zu verkünden.^pDu hast den Jüngern befohlen, allen Menschen dein Reich zu verkünden;^qgedenke aller, die auf deinen Namen getauft sind.^pDu hast den Jüngern den Dienst der Versöhnung aufgetragen;^qlass alle, die ihre Sünden bekennen, deinen Trost erfahren.^pDu hast denen dein Reich verheißen, die an deine Botschaft glauben;^qnimm unsere Verstorbenen auf in das neue Jerusalem."
         }
       },
       "13": {
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "21": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-6-21-each-Oration",
           "oration": "eig-6-21-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "24": {
         "each": {
           "comm_1": "Mann",
+          "comm_2": "LEER Gott, du hast den heiligen Johannes den Täufer berufen, das Volk des Alten Bundes Christus, seinem Erlöser, entgegen­zuführen. Schenke deiner Kirche die Freude im Heiligen Geist und führe alle, die an dich glauben, auf dem Weg des Heiles und des Friedens. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in Ewigkeit.",
           "oration": "Gott, du hast den heiligen Johannes den Täufer berufen, das Volk des Alten Bundes Christus, seinem Erlöser, entgegen­zuführen. Schenke deiner Kirche die Freude im Heiligen Geist und führe alle, die an dich glauben, auf dem Weg des Heiles und des Friedens. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in Ewigkeit."
         },
         "ErsteV": {
@@ -3346,16 +3728,26 @@ export const brevierData = {
       "28": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-6-28-each-Oration",
           "oration": "eig-6-28-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "29": {
         "each": {
           "comm_1": "Apostel",
+          "comm_2": "LEER Herr, unser Gott, am Hochfest der Apostel Petrus und Paulus haben wir uns in Freude versammelt. Hilf deiner Kirche, in allem der Weisung deiner Boten zu folgen, durch die sie den Glauben und das Leben in Christus empfangen hat, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
           "oration": "Herr, unser Gott, am Hochfest der Apostel Petrus und Paulus haben wir uns in Freude versammelt. Hilf deiner Kirche, in allem der Weisung deiner Boten zu folgen, durch die sie den Glauben und das Leben in Christus empfangen hat, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "ErsteV": {
@@ -3378,7 +3770,8 @@ export const brevierData = {
           "oration": "Herr, unser Gott, durch die Apostel Petrus und Paulus hat du in der Kirche den Grund des Glaubens gelegt. Auf ihre Fürsprache hin erhalte und vollende diesen Glauben, der uns zum ewigen Heil führt. Darum bitten wir durch Jesus Christus, deinen Sohn, un­sern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Invitatorium": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Laudes": {
           "comm_1": "Apostel",
@@ -3457,14 +3850,27 @@ export const brevierData = {
       "2": {
         "each": {
           "comm_1": "Maria",
+          "comm_2": "LEER Allmächtiger, ewiger Gott, vom Heiligen Geist geführt, eilte Maria, die deinen Sohn in ihrem Schoß trug, zu ihrer Ver­wand­ten Elisabet. Hilf auch uns, den Eingebungen deines Geistes zu folgen, damit wir vereint mit Maria deine Größe preisen. Darum bitten wir durch Jesus Christus, deinen Sohnes, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in Ewigkeit. Amen.",
           "oration": "Allmächtiger, ewiger Gott, vom Heiligen Geist geführt, eilte Maria, die deinen Sohn in ihrem Schoß trug, zu ihrer Ver­wand­ten Elisabet. Hilf auch uns, den Eingebungen deines Geistes zu folgen, damit wir vereint mit Maria deine Größe preisen. Darum bitten wir durch Jesus Christus, deinen Sohnes, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in Ewigkeit. Amen."
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Non": {
+          "comm_2": "LEER "
+        },
+        "Sext": {
+          "comm_2": "LEER "
+        },
+        "Terz": {
+          "comm_2": "LEER "
+        },
         "Vesper": {
           "ant_1": "Maria trat in das Haus des Zacharias und begrüßte Elisabeth.",
           "ant_2": "Als der Klang deines Grußes an mein Ohr drang, da regte sich vor Freude das Kind in meinem Schoß.",
@@ -3481,10 +3887,12 @@ export const brevierData = {
       "3": {
         "each": {
           "comm_1": "Apostel",
+          "comm_2": "LEER Allmächtiger Gott, am Fest des heiligen Thomas bitten wir dich: Höre auf seine Fürsprache und bewahre unseren Glauben in der Not des Zweifels; öffne unser Herz für das Wort deines Sohnes, damit wir wie Thomas ihn bekennen als unseren Herrn und Gott und das Leben haben im Namen Jesu Christi, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
           "oration": "Allmächtiger Gott, am Fest des heiligen Thomas bitten wir dich: Höre auf seine Fürsprache und bewahre unseren Glauben in der Not des Zweifels; öffne unser Herz für das Wort deines Sohnes, damit wir wie Thomas ihn bekennen als unseren Herrn und Gott und das Leben haben im Namen Jesu Christi, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Invitatorium": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Laudes": {
           "comm_1": "Apostel",
@@ -3492,16 +3900,20 @@ export const brevierData = {
           "farbe": "r"
         },
         "Lesehore": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Non": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Sext": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Terz": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Vesper": {
           "comm_1": "Apostel",
@@ -3514,59 +3926,115 @@ export const brevierData = {
       "11": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-7-11-each-Oration",
           "oration": "eig-7-11-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Non": {
+          "comm_2": "LEER "
+        },
+        "Sext": {
+          "comm_2": "LEER "
+        },
+        "Terz": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "15": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-7-15-each-Oration",
           "oration": "eig-7-15-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "22": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-7-22-each-Oration",
           "oration": "eig-7-22-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Non": {
+          "comm_2": "LEER "
+        },
+        "Sext": {
+          "comm_2": "LEER "
+        },
+        "Terz": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "23": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-7-23-each-Oration",
           "oration": "eig-7-23-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Non": {
+          "comm_2": "LEER "
+        },
+        "Sext": {
+          "comm_2": "LEER "
+        },
+        "Terz": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "25": {
         "each": {
           "comm_1": "Apostel",
+          "comm_2": "LEER Allmächtiger, ewiger Gott, als erster der Apostel hat der heilige Jakobus das Zeugnis für Christus mit seinem Blut be­siegelt. Sein Bekennermut stärke uns, seine Fürbitte erwirke deiner Kirche Schutz und Sicherheit. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
           "oration": "Allmächtiger, ewiger Gott, als erster der Apostel hat der heilige Jakobus das Zeugnis für Christus mit seinem Blut be­siegelt. Sein Bekennermut stärke uns, seine Fürbitte erwirke deiner Kirche Schutz und Sicherheit. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Invitatorium": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Laudes": {
           "comm_1": "Apostel",
@@ -3574,16 +4042,20 @@ export const brevierData = {
           "farbe": "r"
         },
         "Lesehore": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Non": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Sext": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Terz": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Vesper": {
           "comm_1": "Apostel",
@@ -3596,138 +4068,236 @@ export const brevierData = {
       "26": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-7-26-each-Oration",
           "oration": "eig-7-26-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "29": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-7-29-each-Oration",
           "oration": "eig-7-29-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "31": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-7-31-each-Oration",
           "oration": "eig-7-31-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       }
     },
     "8": {
       "1": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-8-1-each-Oration",
           "oration": "eig-8-1-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "4": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-8-4-each-Oration",
           "oration": "eig-8-4-each-Oration"
         },
-        "Invitatorium": {},
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
         "Laudes": {
           "name": "Hl. Johannes Maria Vianney"
         },
-        "Lesehore": {},
-        "Vesper": {}
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "6": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-8-6-each-Oration",
           "oration": "eig-8-6-each-Oration"
         },
-        "Invitatorium": {},
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
         "Laudes": {
           "name": "Verklärung des Herrn"
         },
-        "Lesehore": {},
-        "Vesper": {}
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "8": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-8-8-each-Oration",
           "oration": "eig-8-8-each-Oration"
         },
-        "Invitatorium": {},
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
         "Laudes": {
           "name": "Hl. Dominikus"
         },
-        "Lesehore": {},
-        "Vesper": {}
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "9": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-8-9-each-Oration",
           "oration": "eig-8-9-each-Oration"
         },
-        "Invitatorium": {},
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
         "Laudes": {
           "name": "Hl. Theresia Benedicta vom Kreuz"
         },
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
-        "Vesper": {}
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Non": {
+          "comm_2": "LEER "
+        },
+        "Sext": {
+          "comm_2": "LEER "
+        },
+        "Terz": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "10": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-8-10-each-Oration",
           "oration": "eig-8-10-each-Oration"
         },
-        "Invitatorium": {},
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
         "Laudes": {
           "name": "Hl. Laurentius"
         },
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
-        "Vesper": {}
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Non": {
+          "comm_2": "LEER "
+        },
+        "Sext": {
+          "comm_2": "LEER "
+        },
+        "Terz": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "11": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-8-11-each-Oration",
           "oration": "eig-8-11-each-Oration"
         },
-        "Invitatorium": {},
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
         "Laudes": {
           "name": "Hl. Klara"
         },
-        "Lesehore": {},
-        "Vesper": {}
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "14": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-8-14-each-Oration",
           "oration": "eig-8-14-each-Oration"
         },
-        "Invitatorium": {},
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
         "Laudes": {
           "name": "Weihefest der Fuldaer Kathedrale"
         },
-        "Lesehore": {},
-        "Vesper": {}
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "15": {
         "each": {
           "comm_1": "Maria",
+          "comm_2": "LEER Allmächtiger, ewiger Gott, du hast die selige Jungfrau Maria, die uns Christus geboren hat, vor aller Sünde bewahrt und sie mit Leib und Seele zur Herrlichkeit des Himmels erhoben. Gib, dass wir auf dieses Zeichen der Hoffnung und des Trostes schauen und auf dem Weg bleiben, der hinführt zu deiner Herrlichkeit. Darum bitten wir durch Jesus Christus, deinen Sohnes, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in Ewigkeit. Amen.",
           "oration": "Allmächtiger, ewiger Gott, du hast die selige Jungfrau Maria, die uns Christus geboren hat, vor aller Sünde bewahrt und sie mit Leib und Seele zur Herrlichkeit des Himmels erhoben. Gib, dass wir auf dieses Zeichen der Hoffnung und des Trostes schauen und auf dem Weg bleiben, der hinführt zu deiner Herrlichkeit. Darum bitten wir durch Jesus Christus, deinen Sohnes, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in Ewigkeit. Amen."
         },
         "ErsteV": {
@@ -3823,32 +4393,59 @@ export const brevierData = {
       "17": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-8-17-each-Oration",
           "oration": "eig-8-17-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "20": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-8-20-each-Oration",
           "oration": "eig-8-20-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "21": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-8-21-each-Oration",
           "oration": "eig-8-21-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "22": {
         "Invitatorium": {
@@ -3867,6 +4464,7 @@ export const brevierData = {
         },
         "Lesehore": {
           "comm_1": "Maria",
+          "comm_2": "LEER Gott, du hast die Mutter deines Sohnes auch uns zur Mutter gegeben. Wir ehren sie als unsere Königin und vertrauen auf ihre Fürsprache. Laß uns im himmlischen Reich an der Herrlichkeit deiner Kinder teilhaben. Darum bitten wir durch Jesus Christus, deinen Sohnes, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in Ewigkeit. Amen.",
           "oration": "Gott, du hast die Mutter deines Sohnes auch uns zur Mutter gegeben. Wir ehren sie als unsere Königin und vertrauen auf ihre Fürsprache. Laß uns im himmlischen Reich an der Herrlichkeit deiner Kinder teilhaben. Darum bitten wir durch Jesus Christus, deinen Sohnes, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in Ewigkeit. Amen."
         },
         "Vesper": {
@@ -3878,10 +4476,12 @@ export const brevierData = {
       "24": {
         "each": {
           "comm_1": "Apostel",
+          "comm_2": "LEER Gott, unser Herr, der Apostel Bartholomäus hat mit aufrichtigem Herzen deinem Sohn die Treue gehalten. Stärke auf seine Fürsprache auch unseren Glau­ben und mache deine Kirche zum wirksamen Zeichen des Heiles für alle Völker. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
           "oration": "Gott, unser Herr, der Apostel Bartholomäus hat mit aufrichtigem Herzen deinem Sohn die Treue gehalten. Stärke auf seine Fürsprache auch unseren Glau­ben und mache deine Kirche zum wirksamen Zeichen des Heiles für alle Völker. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Invitatorium": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Laudes": {
           "comm_1": "Apostel",
@@ -3889,16 +4489,20 @@ export const brevierData = {
           "farbe": "r"
         },
         "Lesehore": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Non": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Sext": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Terz": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Vesper": {
           "comm_1": "Apostel",
@@ -3908,25 +4512,45 @@ export const brevierData = {
       "27": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-8-27-each-Oration",
           "oration": "eig-8-27-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "28": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-8-28-each-Oration",
           "oration": "eig-8-28-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "29": {
-        "Invitatorium": {},
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
         "Laudes": {
           "comm_1": "MärtSg",
           "name": "Enthauptung Johannes des Täufers",
@@ -3948,6 +4572,7 @@ export const brevierData = {
         },
         "Lesehore": {
           "comm_1": "MärtSg",
+          "comm_2": "LEER Allmächtiger Gott, du hast den heiligen Johannes den Täufer berufen, deinem Sohn im Leben und im Tod voranzugehen und für Recht und Wahrheit Zeugnis zu geben. Gib auch uns die Kraft, für den Anspruch deiner Lehre unerschrocken einzutreten. Darum bitten wir durch Jesus Christus.",
           "oration": "Allmächtiger Gott, du hast den heiligen Johannes den Täufer berufen, deinem Sohn im Leben und im Tod voranzugehen und für Recht und Wahrheit Zeugnis zu geben. Gib auch uns die Kraft, für den Anspruch deiner Lehre unerschrocken einzutreten. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
@@ -3973,24 +4598,46 @@ export const brevierData = {
       "3": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-9-3-each-Oration",
           "oration": "eig-9-3-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "8": {
         "each": {
           "comm_1": "Maria",
+          "comm_2": "LEER Barmherziger Gott, öffne deinen Gläubigen die Schätze der himmlischen Gnade. Die Geburt des Erlösers aus Maria war für uns der Anfang des Heiles; das Geburtsfest seiner all­zeit jungfräulichen Mutter festige und mehre den Frieden auf Erden. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
           "oration": "Barmherziger Gott, öffne deinen Gläubigen die Schätze der himmlischen Gnade. Die Geburt des Erlösers aus Maria war für uns der Anfang des Heiles; das Geburtsfest seiner all­zeit jungfräulichen Mutter festige und mehre den Frieden auf Erden. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Non": {
+          "comm_2": "LEER "
+        },
+        "Sext": {
+          "comm_2": "LEER "
+        },
+        "Terz": {
+          "comm_2": "LEER "
+        },
         "Vesper": {
           "ant_1": "Aus Isais Geschlecht ging Maria hervor, in deren jungfräulichen Schoß der Geist des Höchsten herabstieg.",
           "ant_2": "Heute feiern wir die Geburt der seligen Jungfrau Maria, auf deren Schönheit und Demut Gott in Gnaden geschaut hat.",
@@ -4004,15 +4651,25 @@ export const brevierData = {
       "13": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-9-13-each-Oration",
           "oration": "eig-9-13-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "14": {
         "each": {
+          "comm_2": "LEER Allmächtiger Gott, deinem Willen gehorsam, hat dein geliebter Sohn den Tod am Kreuz auf sich genommen, um alle Menschen zu erlösen. Gib dass wir in der Torheit des Kreuzes deine Macht und Weiheit erkennen und in Ewigkeit teilhaben an der Frucht der Erlösung. Darum bitten wir durch Jesus Christus.",
           "oration": "Allmächtiger Gott, deinem Willen gehorsam, hat dein geliebter Sohn den Tod am Kreuz auf sich genommen, um alle Menschen zu erlösen. Gib dass wir in der Torheit des Kreuzes deine Macht und Weiheit erkennen und in Ewigkeit teilhaben an der Frucht der Erlösung. Darum bitten wir durch Jesus Christus."
         },
         "ErsteV": {
@@ -4118,16 +4775,20 @@ export const brevierData = {
       },
       "15": {
         "each": {
+          "comm_2": "LEER Allmächtiger Gott, du hast der Mutter Jesu die Kraft verliehen, unter dem Kreuz zu stehen und das Leiden ihres Sohnes zu teilen. Hilf uns, täglich unser Kreuz anzunehmen, damit wir auch an der Auferstehung unseres Herrn Jesus Christus teilhaben, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
           "oration": "Allmächtiger Gott, du hast der Mutter Jesu die Kraft verliehen, unter dem Kreuz zu stehen und das Leiden ihres Sohnes zu teilen. Hilf uns, täglich unser Kreuz anzunehmen, damit wir auch an der Auferstehung unseres Herrn Jesus Christus teilhaben, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Invitatorium": {
-          "comm_1": "Maria"
+          "comm_1": "Maria",
+          "comm_2": "LEER "
         },
         "Laudes": {
-          "comm_1": "Maria"
+          "comm_1": "Maria",
+          "comm_2": "LEER "
         },
         "Lesehore": {
-          "comm_1": "Maria"
+          "comm_1": "Maria",
+          "comm_2": "LEER "
         },
         "Vesper": {
           "comm_1": "Maria",
@@ -4146,30 +4807,50 @@ export const brevierData = {
       "16": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-9-16-each-Oration",
           "oration": "eig-9-16-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "20": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-9-20-each-Oration",
           "oration": "eig-9-20-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "21": {
         "each": {
           "comm_1": "Apostel",
+          "comm_2": "LEER Barmherziger Gott, du hast deinen Sohn ge­sandt, zu suchen und zu retten, was verloren war; in er­barmender Liebe hat er den Zöllner Matthäus zum Apostel be­rufen. Hilf uns auf die Fürsprache dieses heiligen Evan­gelisten, mit ganzer Treue Christus nach­zufolgen, wie er es getan hat. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
           "oration": "Barmherziger Gott, du hast deinen Sohn ge­sandt, zu suchen und zu retten, was verloren war; in er­barmender Liebe hat er den Zöllner Matthäus zum Apostel be­rufen. Hilf uns auf die Fürsprache dieses heiligen Evan­gelisten, mit ganzer Treue Christus nach­zufolgen, wie er es getan hat. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Invitatorium": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Laudes": {
           "comm_1": "Apostel",
@@ -4177,16 +4858,20 @@ export const brevierData = {
           "farbe": "r"
         },
         "Lesehore": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Non": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Sext": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Terz": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Vesper": {
           "comm_1": "Apostel",
@@ -4196,27 +4881,45 @@ export const brevierData = {
       "23": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-9-23-each-Oration",
           "oration": "eig-9-23-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "27": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-9-27-each-Oration",
           "oration": "eig-9-27-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "28": {
         "each": {
           "comm_1": "MFr_Ord",
-          "comm_2": "Jgfr",
+          "comm_2": "LEER eig-9-28-each-Oration",
           "oration": "eig-9-28-each-Oration"
         },
         "Invitatorium": {
@@ -4225,14 +4928,25 @@ export const brevierData = {
         "Laudes": {
           "name": "Lioba"
         },
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
-        "Vesper": {}
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Non": {
+          "comm_2": "LEER "
+        },
+        "Sext": {
+          "comm_2": "LEER "
+        },
+        "Terz": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "29": {
         "each": {
+          "comm_2": "LEER Gott, du ordnest alles mit Macht und Weisheit; Engeln und Menschen teilst du ihre Dienste zu. Gib, dass die Macht des Bösen nicht überhandnimmt, sondern sende deine heiligen Engel, die im Himmel vor dir stehen, in diese Welt, damit sie uns vor allem Unheil schützen. Darum bitten wir durch Jesus Christus.",
           "oration": "Gott, du ordnest alles mit Macht und Weisheit; Engeln und Menschen teilst du ihre Dienste zu. Gib, dass die Macht des Bösen nicht überhandnimmt, sondern sende deine heiligen Engel, die im Himmel vor dir stehen, in diese Welt, damit sie uns vor allem Unheil schützen. Darum bitten wir durch Jesus Christus."
         },
         "Invitatorium": {
@@ -4323,27 +5037,46 @@ export const brevierData = {
       "30": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-9-30-each-Oration",
           "oration": "eig-9-30-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       }
     },
     "10": {
       "1": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-10-1-each-Oration",
           "oration": "eig-10-1-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "2": {
         "each": {
+          "comm_2": "LEER Gott, in deiner Vorsehung sorgst du für alles, was du geschaffen hast. Sende uns deine heiligen Engel zu Hilfe, dass sie uns behüten auf allen unseren Wegen, und gib uns in der Gemeinschaft mit ihnen deine ewige Freude. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
           "oration": "Gott, in deiner Vorsehung sorgst du für alles, was du geschaffen hast. Sende uns deine heiligen Engel zu Hilfe, dass sie uns behüten auf allen unseren Wegen, und gib uns in der Gemeinschaft mit ihnen deine ewige Freude. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Invitatorium": {
@@ -4413,25 +5146,38 @@ export const brevierData = {
       "4": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-10-4-each-Oration",
           "oration": "eig-10-4-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "7": {
         "each": {
+          "comm_2": "LEER Allmächtiger Gott, gieße deine Gnade in unsere Herzen ein. Durch die Botschaft des Engels haben wir die Mensch­werdung Christi, deines Sohnes, erkannt. Höre auf die Fürsprache der seligen Jungfrau Maria und führe uns durch sein Leiden und Kreuz zur Herrlichkeit der Auferstehung. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in Ewigkeit. Amen.",
           "oration": "Allmächtiger Gott, gieße deine Gnade in unsere Herzen ein. Durch die Botschaft des Engels haben wir die Mensch­werdung Christi, deines Sohnes, erkannt. Höre auf die Fürsprache der seligen Jungfrau Maria und führe uns durch sein Leiden und Kreuz zur Herrlichkeit der Auferstehung. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in Ewigkeit. Amen."
         },
         "Invitatorium": {
-          "comm_1": "Maria"
+          "comm_1": "Maria",
+          "comm_2": "LEER "
         },
         "Laudes": {
-          "comm_1": "Maria"
+          "comm_1": "Maria",
+          "comm_2": "LEER "
         },
         "Lesehore": {
-          "comm_1": "Maria"
+          "comm_1": "Maria",
+          "comm_2": "LEER "
         },
         "Vesper": {
           "comm_1": "Maria",
@@ -4444,66 +5190,113 @@ export const brevierData = {
       "15": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-10-15-each-Oration",
           "oration": "eig-10-15-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "17": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-10-17-each-Oration",
           "oration": "eig-10-17-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "18": {
         "each": {
           "comm_1": "Apostel",
+          "comm_2": "LEER Herr, unser Gott, du hast den Evangeli­sten Lukas auserwählt, in Wort und Schrift das Geheimnis deiner Liebe zu den Armen zu verkünden. Gib, dass alle, die sich Chri­sten nennen, ein Herz und eine Seele sind, und lass alle Völker der Erde das Heil schauen, das du ihnen bereitet hast. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
           "oration": "Herr, unser Gott, du hast den Evangeli­sten Lukas auserwählt, in Wort und Schrift das Geheimnis deiner Liebe zu den Armen zu verkünden. Gib, dass alle, die sich Chri­sten nennen, ein Herz und eine Seele sind, und lass alle Völker der Erde das Heil schauen, das du ihnen bereitet hast. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Invitatorium": {
-          "comm_1": "Apostel"
+          "ant_0": "Christus, den Herrn, der im Evangelium spricht – kommt, wir beten ihn an!^ö"
         },
         "Laudes": {
-          "comm_1": "Apostel",
           "name": "Hl. Lukas",
-          "farbe": "r"
+          "farbe": "r",
+          "ant_1": "Die heiligen Evangelisten erforschten die Weisheit der Alten und bekräftigten ihre Botschaft durch die Worte der Propheten.^ö",
+          "ant_2": "Zum Glauben an die Wahrheit hat Gott uns berufen durch das Evangelium, damit wir die Herrlichkeit unseres Herrn Jesus Christus erlangen.^ö",
+          "ant_3": "Viele loben ihre Weisheit; sie wird niemals vergehen.^ö",
+          "les_buch": "1 Kor",
+          "les_stelle": "15,1-2a.3-4",
+          "les_text": "Ich erinnere euch, Brüder, an das Evangelium, das ich euch verkündigt habe. Ihr habt es angenommen; es ist der Grund, auf dem ihr steht. Vor allem habe ich euch überliefert, was auch ich empfangen habe: Christus ist für unsere Sünden gestorben, gemäß der Schrift, und ist begraben worden. Er ist am dritten Tag auferweckt worden, gemäß der Schrift.",
+          "resp1_1": "Sie verkündeten die Stärke des Herrn",
+          "resp1_2": "und seine ruhmreichen Taten.",
+          "resp1_3": "Sie erzählten die Wunder, die er getan.",
+          "ant_ev": "Lukas, ein Bote des Evangeliums, hat Christus verkündet, das Licht, das aufstrahlt aus der Höhe.",
+          "bitten_e": "Gepriesen sei Jesus Christus, der uns das unvergängliche Leben geoffenbart hat. Zu ihm lasst uns beten:",
+          "bitten_r": "Stärke unseren Glauben.",
+          "bitten": "Du hast deiner Kirche immer wieder heilige Menschen als Hirten geschenkt;^qsende deinen Gläubigen allezeit gute Seelsorger.^pDu hast den Hirten der Kirche den Dienst der Versöhnung anvertraut;^qgib, dass sie ihn treu verwalten.^pDu bist es, der den Seelsorgern Kraft von oben verleiht;^qerfülle alle, die dein Volk führen, mit Heiligem Geist.^pDu selber bist das Erbteil aller, die du zu Seelsorgern berufen hast;^qlass keinen von ihnen verlorengehen.^pDu bist der ewige Lohn deiner Diener;^qschenke den verstorbenen Seelsorgern und allen Gläubigen das ewige Leben."
         },
         "Lesehore": {
-          "comm_1": "Apostel"
+          "comm_2": "LEER "
         },
         "Non": {
-          "comm_1": "Apostel"
+          "les_buch": "2 Tim",
+          "les_stelle": "1,8b-9",
+          "les_text": "Leide mit mir für das Evangelium. Gott gibt dazu die Kraft: Er hat uns gerettet; mit einem heiligen Ruf hat er uns gerufen, nicht aufgrund unserer Werke, sondern aus eigenem Entschluss und aus Gnade, die uns schon vor ewigen Zeiten in Christus Jesus geschenkt wurde.",
+          "resp1_0": "So spricht der Herr: Freut euch und jubelt,^ö",
+          "resp1_1": "Denn eure Namen sind im Himmel verzeichnet.^ö"
         },
         "Sext": {
-          "comm_1": "Apostel"
+          "les_buch": "1 Thess",
+          "les_stelle": "2,2b-4",
+          "les_text": "Im Vertrauen auf unseren Gott haben wir das Evangelium Gottes trotz harter Kämpfe freimütig und furchtlos bei euch verkündigt. Denn wir predigen nicht, um euch irrezuführen, in schmutziger Absicht auszunutzen oder zu betrügen, sondern wir tun es, weil Gott uns geprüft und uns das Evangelium anvertraut hat, nicht also um den Menschen, sondern um Gott zu gefallen, der unsere Herzen prüft.",
+          "resp1_0": "Sie hielten fest am Zeugnis Gottes.^ö",
+          "resp1_1": "Und bewahrten seine Gebote.^ö"
         },
         "Terz": {
-          "comm_1": "Apostel"
+          "les_buch": "Röm",
+          "les_stelle": "1,16-17",
+          "les_text": "Ich schäme mich des Evangeliums nicht: es ist eine Kraft Gottes, die jeden rettet, der glaubt, zuerst den Juden, aber ebenso den Griechen. Denn im Evangelium wird die Gerechtigkeit Gottes offenbart aus Glauben zum Glauben, wie in der Schrift steht: Der aus Glauben Gerechte wird leben.",
+          "resp1_0": "Ihre Botschaft geht hinaus in die ganze Welt.^ö",
+          "resp1_1": "Ihre Kunde bis zu den Enden der Erde.^ö"
         },
         "Vesper": {
-          "comm_1": "Apostel",
           "ant_1": "Der Frohen Botschaft diene ich – dank der Gnade Gottes.",
           "ant_2": "Ich tue alles um der Frohen Botschaft willen, damit ich teilhabe an der Verheißung. Halleluja.",
           "ant_3": "Diese Gnade wurde mir geschenkt: Ich soll den Heiden den unergründlichen Reichtum Christi verkünden.",
           "les_buch": "Kol",
           "les_stelle": "1,3–6",
           "les_text": "Wir danken Gott, dem Vater Jesu Christi, unseres Herrn, jedes Mal, wenn wir für euch beten. Denn wir haben von eurem Glauben an Christus Jesus gehört und von der Liebe, die ihr zu allen Heiligen habt, weil im Himmel die Erfüllung eurer Hoffnung für euch bereitliegt. Schon früher habt ihr davon gehört durch das wahre Wort des Evangeliums, das zu euch gelangt ist. Wie in der ganzen Welt, so trägt es auch bei euch Frucht und wächst seit dem Tag, an dem ihr den Ruf der göttlichen Gnade vernommen und in Wahrheit erkannt habt.",
-          "ant_ev": "In seinem heiligen Bericht hat Lukas uns Christi Güte und Erbarmen bezeugt. Darum preist ihn heute die ganze Kirche."
+          "ant_ev": "In seinem heiligen Bericht hat Lukas uns Christi Güte und Erbarmen bezeugt. Darum preist ihn heute die ganze Kirche.",
+          "bitten_e": "Lasst uns zu Jesus Christus beten, der seine Jünger ausgesandt hat als Boten seiner Wahrheit und Liebe:",
+          "bitten_r": "Herr, gedenke deiner Kirche.",
+          "bitten": "Du hast die Jünger ausgesandt als Zeugen deiner Auferstehung;^qsteh den Bischöfen bei, die du als ihre Nachfolger berufen hast.^pDu hast den Jüngern den Auftrag gegeben, den Samen des Wortes auszusäen;^qhilf den Predigern, den apostolischen Glauben treu zu verkünden.^pDu hast den Jüngern befohlen, allen Menschen dein Reich zu verkünden;^qgedenke aller, die auf deinen Namen getauft sind.^pDu hast den Jüngern den Dienst der Versöhnung aufgetragen;^qlass alle, die ihre Sünden bekennen, deinen Trost erfahren.^pDu hast denen dein Reich verheißen, die an deine Botschaft glauben;^qnimm unsere Verstorbenen auf in das neue Jerusalem."
         }
       },
       "28": {
         "each": {
           "comm_1": "Apostel",
+          "comm_2": "LEER Allmächtiger Gott, durch die Botschaft der Apostel hast du uns zur Erkenntnis deines Namens geführt. Mehre auf die Fürsprache der Heiligen Simon und Judas die Zahl der Gläubigen und festige in der Kirche das Ver­trauen auf deine Hilfe. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
           "oration": "Allmächtiger Gott, durch die Botschaft der Apostel hast du uns zur Erkenntnis deines Namens geführt. Mehre auf die Fürsprache der Heiligen Simon und Judas die Zahl der Gläubigen und festige in der Kirche das Ver­trauen auf deine Hilfe. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Invitatorium": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Laudes": {
           "comm_1": "Apostel",
@@ -4511,16 +5304,20 @@ export const brevierData = {
           "farbe": "r"
         },
         "Lesehore": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Non": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Sext": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Terz": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Vesper": {
           "comm_1": "Apostel",
@@ -4531,6 +5328,7 @@ export const brevierData = {
     "11": {
       "1": {
         "each": {
+          "comm_2": "LEER Allmächtiger, ewiger Gott, du schenkst uns die Freude, am heutigen Fest die Verdienste aller deiner Heiligen zu feiern. Erfülle auf die Bitten so vieler Fürsprecher unsere Hoffnung und schenke uns dein Erbarmen. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
           "oration": "Allmächtiger, ewiger Gott, du schenkst uns die Freude, am heutigen Fest die Verdienste aller deiner Heiligen zu feiern. Erfülle auf die Bitten so vieler Fürsprecher unsere Hoffnung und schenke uns dein Erbarmen. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "ErsteV": {
@@ -4553,7 +5351,9 @@ export const brevierData = {
           "bitten_r": "Auf die Fürsprache der Heiligen erhöre uns.",
           "bitten": "Herr, du hast die Apostel zum Fundament deiner Kirche gemacht;^qbewahre die Gläubigen in der apostolischen Lehre.^pDu hast den Märtyrern die Tapferkeit gegeben, von dir Zeugnis abzulegen;^qmache die Christen zu deinen treuen Zeugen.^pDu hast den heiligen Jungfrauen die Gnade der Jungfräulichkeit geschenkt;^qsegne alle, die um des Himmelreiches willen ehelos leben.^pDu offenbarst in den Heiligen deine Gegenwart;^qschenke auch unserer Zeit heilige Menschen.^pErbarme dich all unserer Verstorbenen^qund nimm sie auf in die Gemeinschaft der Heiligen."
         },
-        "Invitatorium": {},
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
         "Laudes": {
           "name": "Allerheiligen",
           "hymn_1": 91011.0,
@@ -4639,98 +5439,189 @@ export const brevierData = {
       "2": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-11-2-each-Oration",
           "oration": "eig-11-2-each-Oration"
         },
-        "Invitatorium": {},
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
         "Laudes": {
           "name": "Allerseelen"
         },
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
-        "Vesper": {}
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Non": {
+          "comm_2": "LEER "
+        },
+        "Sext": {
+          "comm_2": "LEER "
+        },
+        "Terz": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "4": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-11-4-each-Oration",
           "oration": "eig-11-4-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "5": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-11-5-each-Oration",
           "oration": "eig-11-5-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Non": {
+          "comm_2": "LEER "
+        },
+        "Sext": {
+          "comm_2": "LEER "
+        },
+        "Terz": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "9": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-11-9-each-Oration",
           "oration": "eig-11-9-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "10": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-11-10-each-Oration",
           "oration": "eig-11-10-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "11": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-11-11-each-Oration",
           "oration": "eig-11-11-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "12": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-11-12-each-Oration",
           "oration": "eig-11-12-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "19": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-11-19-each-Oration",
           "oration": "eig-11-19-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Non": {
+          "comm_2": "LEER "
+        },
+        "Sext": {
+          "comm_2": "LEER "
+        },
+        "Terz": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "21": {
-        "each": {},
+        "each": {
+          "comm_2": "LEER "
+        },
         "Invitatorium": {
           "comm_1": "Maria",
+          "comm_2": "LEER Gütiger Gott, wir gedenken am heutigen Tag der seligen Jungfrau Maria, die du mit der Fülle deiner Gnade beschenkt hast. Höre auf ihre Fürsprache und laß auch uns am Reich­tum deiner Gnade teilhaben, damit wir mit ganzer Hingabe und frohem Vertrauen vor dir leben. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in Ewigkeit. Amen.",
           "oration": "Gütiger Gott, wir gedenken am heutigen Tag der seligen Jungfrau Maria, die du mit der Fülle deiner Gnade beschenkt hast. Höre auf ihre Fürsprache und laß auch uns am Reich­tum deiner Gnade teilhaben, damit wir mit ganzer Hingabe und frohem Vertrauen vor dir leben. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in Ewigkeit. Amen."
         },
         "Laudes": {
@@ -4740,6 +5631,7 @@ export const brevierData = {
         },
         "Lesehore": {
           "comm_1": "Maria",
+          "comm_2": "LEER Gütiger Gott, wir gedenken am heutigen Tag der seligen Jungfrau Maria, die du mit der Fülle deiner Gnade beschenkt hast. Höre auf ihre Fürsprache und laß auch uns am Reich­tum deiner Gnade teilhaben, damit wir mit ganzer Hingabe und frohem Vertrauen vor dir leben. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in Ewigkeit. Amen.",
           "oration": "Gütiger Gott, wir gedenken am heutigen Tag der seligen Jungfrau Maria, die du mit der Fülle deiner Gnade beschenkt hast. Höre auf ihre Fürsprache und laß auch uns am Reich­tum deiner Gnade teilhaben, damit wir mit ganzer Hingabe und frohem Vertrauen vor dir leben. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in Ewigkeit. Amen."
         },
         "Vesper": {
@@ -4750,30 +5642,50 @@ export const brevierData = {
       "22": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-11-22-each-Oration",
           "oration": "eig-11-22-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "24": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-11-24-each-Oration",
           "oration": "eig-11-24-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "30": {
         "each": {
           "comm_1": "Apostel",
+          "comm_2": "LEER Allmächtiger Gott, du hast deiner Kirche den heiligen Apostel Andreas als Boten des Glaubens und als Hirten gegeben. Erhöre unser Gebet und gib, dass auch die Kirche unserer Tage die Macht seiner Fürsprache erfahre. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
           "oration": "Allmächtiger Gott, du hast deiner Kirche den heiligen Apostel Andreas als Boten des Glaubens und als Hirten gegeben. Erhöre unser Gebet und gib, dass auch die Kirche unserer Tage die Macht seiner Fürsprache erfahre. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Invitatorium": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Laudes": {
           "comm_1": "Apostel",
@@ -4781,16 +5693,20 @@ export const brevierData = {
           "farbe": "r"
         },
         "Lesehore": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Non": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Sext": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Terz": {
-          "comm_1": "Apostel"
+          "comm_1": "Apostel",
+          "comm_2": "LEER "
         },
         "Vesper": {
           "comm_1": "Apostel",
@@ -4805,26 +5721,45 @@ export const brevierData = {
       "3": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-12-3-each-Oration",
           "oration": "eig-12-3-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "7": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-12-7-each-Oration",
           "oration": "eig-12-7-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "8": {
         "each": {
           "comm_1": "Maria",
+          "comm_2": "LEER Großer und heiliger Gott, im Hinblick auf den Er­lösertod Christi hast du die selige Jungfrau Maria schon im ersten Augenblick ihres Daseins vor jeder Sünde bewahrt, um deinem Sohn eine würdige Wohnung zu bereiten. Höre auf ihre Fürsprache: Mache uns frei von Sünden und erhalte uns in deiner Gnade, damit wir mit reinem Herzen zu dir gelangen. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in Ewigkeit. Amen.",
           "oration": "Großer und heiliger Gott, im Hinblick auf den Er­lösertod Christi hast du die selige Jungfrau Maria schon im ersten Augenblick ihres Daseins vor jeder Sünde bewahrt, um deinem Sohn eine würdige Wohnung zu bereiten. Höre auf ihre Fürsprache: Mache uns frei von Sünden und erhalte uns in deiner Gnade, damit wir mit reinem Herzen zu dir gelangen. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in Ewigkeit. Amen."
         },
         "ErsteV": {
@@ -4843,14 +5778,24 @@ export const brevierData = {
           "bitten_r": "Höre auf die Fürbitte der seligen Jungfrau.",
           "bitten": "Du hast Maria zur Mutter deines Sohnes auserwählt;^qlass die Kirche unter ihrem Schutz geborgen sein.^pDu hast Maria den Menschen zur Mutter gegeben;^qauf ihre Fürsprache gewähre den Kranken Heilung und den Trauernden Trost.^pDu hast Maria die Fülle deiner Gnade geschenkt;^qauf ihre Fürsprache schenke den Sündern Vergebung und allen Menschen Frieden und Heil.^pDu hast Maria zum Urbild deiner Kirche gemacht;^qgib, dass deine Gläubigen einmütig mit Maria im Gebet verharren.^pDu hast die unbefleckte Jungfrau mit Leib und Seele in den Himmel aufgenommen;^qschenke unseren Verstorbenen die ewige Freude mit Maria und all deinen Heiligen."
         },
-        "Invitatorium": {},
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
         "Laudes": {
           "name": "Unbefleckte Empfängnis Mariens"
         },
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Non": {
+          "comm_2": "LEER "
+        },
+        "Sext": {
+          "comm_2": "LEER "
+        },
+        "Terz": {
+          "comm_2": "LEER "
+        },
         "Vesper": {
           "ant_1": "Ganz schön bist du, Jungfrau Maria, vor dem Makel der Urschuld hat Gott dich bewahrt.",
           "ant_2": "Du bist der Ruhm Jerusalems, du die Freude Israels und der Stolz unseres Volkes.",
@@ -4870,138 +5815,289 @@ export const brevierData = {
       "13": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-12-13-each-Oration",
           "oration": "eig-12-13-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "14": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-12-14-each-Oration",
           "oration": "eig-12-14-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "16": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-12-16-each-Oration",
           "oration": "eig-12-16-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Non": {
+          "comm_2": "LEER "
+        },
+        "Sext": {
+          "comm_2": "LEER "
+        },
+        "Terz": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "17": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-12-17-each-Oration",
           "oration": "eig-12-17-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Non": {
+          "comm_2": "LEER "
+        },
+        "Sext": {
+          "comm_2": "LEER "
+        },
+        "Terz": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "18": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-12-18-each-Oration",
           "oration": "eig-12-18-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Non": {
+          "comm_2": "LEER "
+        },
+        "Sext": {
+          "comm_2": "LEER "
+        },
+        "Terz": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "19": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-12-19-each-Oration",
           "oration": "eig-12-19-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Non": {
+          "comm_2": "LEER "
+        },
+        "Sext": {
+          "comm_2": "LEER "
+        },
+        "Terz": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "20": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-12-20-each-Oration",
           "oration": "eig-12-20-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Non": {
+          "comm_2": "LEER "
+        },
+        "Sext": {
+          "comm_2": "LEER "
+        },
+        "Terz": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "21": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-12-21-each-Oration",
           "oration": "eig-12-21-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Non": {
+          "comm_2": "LEER "
+        },
+        "Sext": {
+          "comm_2": "LEER "
+        },
+        "Terz": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "22": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-12-22-each-Oration",
           "oration": "eig-12-22-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Non": {
+          "comm_2": "LEER "
+        },
+        "Sext": {
+          "comm_2": "LEER "
+        },
+        "Terz": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "23": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-12-23-each-Oration",
           "oration": "eig-12-23-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
-        "Vesper": {}
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Non": {
+          "comm_2": "LEER "
+        },
+        "Sext": {
+          "comm_2": "LEER "
+        },
+        "Terz": {
+          "comm_2": "LEER "
+        },
+        "Vesper": {
+          "comm_2": "LEER "
+        }
       },
       "24": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER eig-12-24-each-Oration",
           "oration": "eig-12-24-each-Oration"
         },
-        "Invitatorium": {},
-        "Laudes": {},
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
+        "Laudes": {
+          "comm_2": "LEER "
+        },
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Non": {
+          "comm_2": "LEER "
+        },
+        "Sext": {
+          "comm_2": "LEER "
+        },
+        "Terz": {
+          "comm_2": "LEER "
+        },
         "Vesper": {
           "hymn_1": 2301.0,
           "hymn_2": 0.0,
@@ -5031,6 +6127,7 @@ export const brevierData = {
       "25": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER Allmächtiger Gott, du hast den Menschen in seiner Würde wunderbar erschaffen und noch wunderbarer wiederhergestellt. lass uns teilhaben an der Gottheit deines Sohnes, der unsere Menschennatur angenommen hat. Er, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
           "oration": "Allmächtiger Gott, du hast den Menschen in seiner Würde wunderbar erschaffen und noch wunderbarer wiederhergestellt. lass uns teilhaben an der Gottheit deines Sohnes, der unsere Menschennatur angenommen hat. Er, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Invitatorium": {
@@ -5058,7 +6155,9 @@ export const brevierData = {
           "bitten": "Christus, ewiges Wort, du bist Fleisch geworden und hast unter uns gewohnt;^qmach unser Herz froh über deine Geburt.^pDu, unser Heiland, in dir ist die Treue Gottes offenbar geworden,^qgib, dass wir Gott die Treue halten.^pKönig des Himmels und der Erde, durch die Engel hast du den Menschen Frieden verkündet;^qbewahre uns in deinem Frieden.^pDu Spross Davids, du wurdest in die Welt eingepflanzt als der wahre Weinstock;^qgib, dass wir in dir bleiben und du in uns.",
           "oration": "Allmächtiger Gott, dein ewiges Wort ist Fleisch geworden, um uns mit dem Glanz deines Lichtes zu erfüllen. Gib, dass in unseren Werken widerstrahlt, was durch den Glauben in unserem Herzen leuchtet. Darum bitten wir durch ihn, Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
-        "Lesehore": {},
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
         "Non": {
           "ant_0": "Meine Augen haben das Heil gesehen, das du vor allen Völkern bereitet hast.",
           "ant_1": "",
@@ -5123,9 +6222,12 @@ export const brevierData = {
       "26": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER Stephanus",
           "oration": "Stephanus"
         },
-        "Invitatorium": {},
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
         "Laudes": {
           "hymn_1": 92261.0,
           "hymn_kl": 0.0,
@@ -5140,10 +6242,18 @@ export const brevierData = {
           "resp1_3": "Er ist mein Helfer. Was können Menschen mir antun?",
           "ant_ev": "Die Pforten des Himmels taten sich auf für den heiligen Stephanus: Als erster empfing er den Siegeskranz der Märtyrer."
         },
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Non": {
+          "comm_2": "LEER "
+        },
+        "Sext": {
+          "comm_2": "LEER "
+        },
+        "Terz": {
+          "comm_2": "LEER "
+        },
         "Vesper": {
           "hymn_1": 2301.0,
           "hymn_2": 0.0,
@@ -5172,9 +6282,12 @@ export const brevierData = {
       "27": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER Johannes",
           "oration": "Johannes"
         },
-        "Invitatorium": {},
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
         "Laudes": {
           "hymn_1": 92271.0,
           "hymn_kl": 0.0,
@@ -5182,10 +6295,18 @@ export const brevierData = {
           "ant_2": "Dies ist Johannes. Ihm hat der Herr am Kreuze seine Mutter anvertraut, die Jungfrau dem Jungfräulichen.",
           "ant_3": "Der Jünger, den Jesus liebte, sagte zu Petrus: Es ist der Herr. Halleluja."
         },
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Non": {
+          "comm_2": "LEER "
+        },
+        "Sext": {
+          "comm_2": "LEER "
+        },
+        "Terz": {
+          "comm_2": "LEER "
+        },
         "Vesper": {
           "hymn_1": 2301.0,
           "hymn_2": 0.0,
@@ -5214,9 +6335,12 @@ export const brevierData = {
       "28": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER Unschuldige Kinder",
           "oration": "Unschuldige Kinder"
         },
-        "Invitatorium": {},
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
         "Laudes": {
           "hymn_1": 92281.0,
           "hymn_kl": 0.0,
@@ -5224,10 +6348,18 @@ export const brevierData = {
           "ant_2": "Die Kinder singen das Lob des Herrn: Durch ihren Tod bezeugen sie Christus, den sie im Leben nicht verkünden konnten.",
           "ant_3": "Aus dem Mund der Kinder und Säug­linge schaffst du dir Lob, deinen Gegnern zum Trotz."
         },
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Non": {
+          "comm_2": "LEER "
+        },
+        "Sext": {
+          "comm_2": "LEER "
+        },
+        "Terz": {
+          "comm_2": "LEER "
+        },
         "Vesper": {
           "hymn_1": 2301.0,
           "hymn_2": 0.0,
@@ -5257,9 +6389,12 @@ export const brevierData = {
       "29": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER Unsichtbarer Gott, dein Licht ist in die Welt gekommen und hat die Finsternis überwun­den. Sieh gnädig auf uns und lass uns die Herr­lichkeit der Geburt Christi mit würdigem Lob feiern, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
           "oration": "Unsichtbarer Gott, dein Licht ist in die Welt gekommen und hat die Finsternis überwun­den. Sieh gnädig auf uns und lass uns die Herr­lichkeit der Geburt Christi mit würdigem Lob feiern, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
-        "Invitatorium": {},
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
         "Laudes": {
           "hymn_1": 2201.0,
           "hymn_kl": 0.0,
@@ -5270,10 +6405,18 @@ export const brevierData = {
           "resp1_2": "Halleluja,°halleluja.",
           "resp1_3": "Vor den Augen der Völker hat er sein Walten enthüllt."
         },
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Non": {
+          "comm_2": "LEER "
+        },
+        "Sext": {
+          "comm_2": "LEER "
+        },
+        "Terz": {
+          "comm_2": "LEER "
+        },
         "Vesper": {
           "hymn_1": 2301.0,
           "hymn_2": 0.0,
@@ -5302,9 +6445,12 @@ export const brevierData = {
       "30": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER Allmächtiger Gott, die Knechtschaft der Sünde hält uns Menschen gefangen. Nimm dieses alte Joch von uns und schenke uns die neue Freiheit durch die Geburt deines Sohnes in unserem sterblichen Fleisch. Darum bitten wir durch ihn, Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in Ewigkeit. ",
           "oration": "Allmächtiger Gott, die Knechtschaft der Sünde hält uns Menschen gefangen. Nimm dieses alte Joch von uns und schenke uns die neue Freiheit durch die Geburt deines Sohnes in unserem sterblichen Fleisch. Darum bitten wir durch ihn, Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in Ewigkeit. "
         },
-        "Invitatorium": {},
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
         "Laudes": {
           "hymn_1": 2201.0,
           "hymn_kl": 0.0,
@@ -5315,10 +6461,18 @@ export const brevierData = {
           "resp1_2": "Halleluja,°halleluja.",
           "resp1_3": "Vor den Augen der Völker hat er sein Walten enthüllt."
         },
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {},
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Non": {
+          "comm_2": "LEER "
+        },
+        "Sext": {
+          "comm_2": "LEER "
+        },
+        "Terz": {
+          "comm_2": "LEER "
+        },
         "Vesper": {
           "hymn_1": 2301.0,
           "hymn_2": 0.0,
@@ -5347,9 +6501,12 @@ export const brevierData = {
       "31": {
         "each": {
           "comm_1": "Mar",
+          "comm_2": "LEER Allmächtiger, ewiger Gott, in der Menschwerdung deines Sohnes hat alles menschliche Streben nach dir seinen Ursprung und kommt darin zur Vollendung. lass uns zu Christus gehören, in dem das Heil aller Menschen begründet ist, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit. ",
           "oration": "Allmächtiger, ewiger Gott, in der Menschwerdung deines Sohnes hat alles menschliche Streben nach dir seinen Ursprung und kommt darin zur Vollendung. lass uns zu Christus gehören, in dem das Heil aller Menschen begründet ist, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit. "
         },
-        "Invitatorium": {},
+        "Invitatorium": {
+          "comm_2": "LEER "
+        },
         "Laudes": {
           "hymn_1": 2201.0,
           "hymn_kl": 0.0,
@@ -5360,10 +6517,18 @@ export const brevierData = {
           "resp1_2": "Halleluja,°halleluja.",
           "resp1_3": "Vor den Augen der Völker hat er sein Walten enthüllt."
         },
-        "Lesehore": {},
-        "Non": {},
-        "Sext": {},
-        "Terz": {}
+        "Lesehore": {
+          "comm_2": "LEER "
+        },
+        "Non": {
+          "comm_2": "LEER "
+        },
+        "Sext": {
+          "comm_2": "LEER "
+        },
+        "Terz": {
+          "comm_2": "LEER "
+        }
       }
     }
   },
@@ -7754,7 +8919,7 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "oration": "o-1-1-each-Oration"
+          "oration": "Gott, du Herr allen Lebens, durch die Taufe schenkst du deiner Kirche Jahr für Jahr neue Söhne und Töchter. Gib, dass alle Christen in ihrem Leben dem Sakrament treu bleiben, das sie im Glauben empfangen haben. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
           "ant_ev": "Geht eilends hin und sagt den Jüngern: Der Herr ist auferstanden.^ö"
@@ -7778,7 +8943,7 @@ export const brevierData = {
       },
       "2": {
         "each": {
-          "oration": "o-1-2-each-Oration"
+          "oration": "Allmächtiger Gott, du hast dein Volk durch die österlichen Geheimnisse befreit und gestärkt. Bleibe bei uns mit deiner Gnade und führe uns zur vollkommenen Freiheit, damit der Osterjubel, der uns heute erfüllt, sich in der Freude des Himmels vollendet. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
           "ant_ev": "Jesus sprach: Maria! Da wandte sich Maria um und sagte: Meister! Er sprach: Halte mich nicht fest, denn ich bin noch nicht aufgefahren zu meinem Vater.^ö"
@@ -7802,7 +8967,7 @@ export const brevierData = {
       },
       "3": {
         "each": {
-          "oration": "o-1-3-each-Oration"
+          "oration": "Gnädiger Gott, du schenkst deinem Volk jedes Jahr die österliche Freude durch das hohe Fest der Auferstehung Christi. Führe uns durch die Feier, die wir auf Erden begehen, zur unvergänglichen Freude im Himmel. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
           "ant_ev": "Jesus legte ihnen dar, ausgehend von Mose und allen Propheten, was über ihn geschrieben steht in der gesamten Schrift.^ö"
@@ -7826,7 +8991,7 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "oration": "o-1-4-each-Oration"
+          "oration": "Gott und Vater, du hast die vielen Völker im Bekenntnis deines Namens geeint. Gib, dass alle, die aus dem Wasser der Taufe wiedergeboren sind, eins werden im Glauben und in Werken der Liebe. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
           "ant_ev": "Jesus trat in die Mitte seiner Jünger und sprach: Friede sei mit euch.^ö"
@@ -7850,7 +9015,7 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "oration": "o-1-5-each-Oration"
+          "oration": "Allmächtiger, ewiger Gott, du hast den Bund der Versöhnung mit der Menschheit geschlossen und ihr die österlichen Geheimnisse geschenkt. Gib uns die Gnade, dass wir deine Heilstaten nicht nur im Bekenntnis feiern, sondern sie auch durch unser Leben bezeugen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
           "ant_ev": "Am Ufer des Sees offenbarte sich Jesus zum dritten Mal, seit er von den Toten erstanden war.^ö"
@@ -7874,7 +9039,7 @@ export const brevierData = {
       },
       "6": {
         "each": {
-          "oration": "o-1-6-each-Oration"
+          "oration": "Gnädiger Gott, in deiner übergroßen Liebe schenkst du der Kirche neues Wachstum. Wache über das Volk, das du dir erwählt hast, bewahre alle Getauften in deiner Gnade und bekleide sie einst mit dem Gewand der Unsterblichkeit. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
           "ant_ev": "Als Jesus auferstanden war, am ersten Tag der Woche, erschien er zuerst Maria Magdalena, die er von sieben Dämonen befreit hatte.^ö"
@@ -7955,7 +9120,7 @@ export const brevierData = {
     "2": {
       "0": {
         "each": {
-          "oration": "o-2-0-each-Oration"
+          "oration": "Barmherziger Gott, durch die jährliche Osterfeier erneuerst du den Glauben deines Volkes. Lass uns immer tiefer erkennen, wie heilig das Bad der Taufe ist, das uns gereinigt hat, wie mächtig dein Geist, aus dem wir wiedergeboren sind, und wie kostbar das Blut, durch das wir erkauft sind. Darum bitten wir durch Jesus Christus."
         },
         "ErsteV": {
           "hymn_2": 0,
@@ -8007,7 +9172,7 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "oration": "o-2-1-each-Oration"
+          "oration": "Allmächtiger, ewiger Gott, wir dürfen dich Vater nennen, denn du hast uns an Kindes Statt angenommen. Gib, dass wir mehr und mehr aus dem Geist der Kindschaft leben, damit wir die wahre Freiheit finden und das unvergängliche Erbe erlangen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
           "ant_ev": "Amen, amen, ich sage euch: Wenn jemand nicht von oben geboren wird, kann er das Reich Gottes nicht schauen.^ö"
@@ -8018,7 +9183,7 @@ export const brevierData = {
       },
       "2": {
         "each": {
-          "oration": "o-2-2-each-Oration"
+          "oration": "Allmächtiger Gott, du hast uns in den österlichen Sakramenten das Unterpfand der kommenden Herrlichkeit gegeben. Hilf uns, den Sieg des Auferstandenen zu verkünden, und lass die Fülle seiner Herrlichkeit an uns offenbar werden, wenn er wiederkommt. Er, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Laudes": {
           "ant_ev": "Ich bin das A und das O, der Erste und der Letzte. Ich bin die Wurzel Davids und sein Stamm. Ich bin der leuchtende Stern, der Morgenstern.^ö"
@@ -8029,7 +9194,7 @@ export const brevierData = {
       },
       "3": {
         "each": {
-          "oration": "o-2-3-each-Oration"
+          "oration": "Allmächtiger Gott, in den österlichen Geheimnissen, die wir jedes Jahr feiern, hast du dem Menschen seine ursprüngliche Würde wiedergeschenkt und uns die sichere Hoffnung gegeben, dass wir auferstehen werden. Gib, dass die Erlösung, die wir gläubig feiern, in täglichen Werken der Liebe an uns sichtbar wird. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
           "ant_ev": "So sehr hat Gott die Welt geliebt, dass er seinen einzigen Sohn dahingab, damit alle, die an ihn glauben, nicht verlorengehen, sondern das ewige Leben haben.^ö"
@@ -8040,7 +9205,7 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "oration": "o-2-4-each-Oration"
+          "oration": "Barmherziger Gott, gib, dass die Gnade, die wir in der Feier der österlichen Geheimnisse empfangen haben, durch alle Tage unseres Lebens fruchtbar bleibt. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
           "ant_ev": "Der Vater liebt den Sohn und hat alles in seine Hand gegeben.^ö"
@@ -8051,7 +9216,7 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "oration": "o-2-5-each-Oration"
+          "oration": "Heiliger Gott, du hast deinen Sohn der Schmach des Kreuzes unterworfen, um uns der Gewalt des Bösen zu entreißen. Gib uns die Gnade, dass auch wir deinem Willen gehorchen und einst in Herrlichkeit auferstehen. Darum bitten wir durch ihn, Jesus Christus."
         },
         "Laudes": {
           "ant_ev": "Jesus nahm die Brote, sprach das Dankgebet und teilte sie aus an alle, die dort saßen.^ö"
@@ -8062,7 +9227,7 @@ export const brevierData = {
       },
       "6": {
         "each": {
-          "oration": "o-2-6-each-Oration"
+          "oration": "Gott, unser Vater, du hast uns durch deinen Sohn erlöst und als deine geliebten Kinder angenommen. Sieh voll Güte auf alle, die an Christus glauben, und schenke ihnen die wahre Freiheit und das ewige Erbe. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
           "ant_ev": "Friede sei mit euch, ich bin es, fürchtet euch nicht.^ö"
@@ -8072,7 +9237,7 @@ export const brevierData = {
     "3": {
       "0": {
         "each": {
-          "oration": "o-3-0-each-Oration"
+          "oration": "Allmächtiger Gott, lass die österliche Freude in uns fortdauern, denn du hast deiner Kirche neue Lebenskraft geschenkt und die Würde unserer Gotteskindschaft in neuem Glanz erstrahlen lassen. Gib, dass wir den Tag der Auferstehung voll Zuversicht erwarten als einen Tag des Jubels und des Dankes. Darum bitten wir durch Jesus Christus."
         },
         "ErsteV": {
           "ant_1": "Der Herr ist erhaben über alle Himmel, er hebt den Schwachen aus dem Staub empor.^ö",
@@ -8095,22 +9260,22 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "oration": "o-3-1-each-Oration"
+          "oration": "Gott, du bist unser Ziel, du zeigst den Irrenden das Licht der Wahrheit und führst sie auf den rechten Weg zurück. Gib allen, die sich Christen nennen, die Kraft, zu meiden, was diesem Namen widerspricht, und zu tun, was unserem Glauben entspricht. Darum bitten wir durch Jesus Christus."
         }
       },
       "2": {
         "each": {
-          "oration": "o-3-2-each-Oration"
+          "oration": "Herr, unser Gott, du öffnest dein Reich allen, die aus dem Wasser und dem Heiligen Geist wiedergeboren sind. Stärke in uns das Leben der Gnade, damit wir von Schuld frei bleiben und die Herrlichkeit erlangen, die du uns verheißen hast. Darum bitten wir durch Jesus Christus."
         }
       },
       "3": {
         "each": {
-          "oration": "o-3-3-each-Oration"
+          "oration": "Herr, unser Gott, erhöre die Bitten deines Volkes und komm uns zu Hilfe. Du hast uns die Gnade des Glaubens geschenkt, gib uns durch die Auferstehung deines Sohnes auch Anteil am ewigen Leben. Darum bitten wir durch Jesus Christus."
         }
       },
       "4": {
         "each": {
-          "oration": "o-3-4-each-Oration"
+          "oration": "Ewiger Gott, in dieser österlichen Zeit erfahren wir deine Barmherzigkeit in reicher Fülle, denn du hast uns aus der Finsternis des Irrtums herausgeführt. Gib, dass wir deine Wahrheit gläubig erfassen und in unserem Leben festhalten. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
           "ant_ev": "Ich bin das lebendige Brot, das vom Himmel ge­kommen ist. Wer von diesem Brot isst, wird leben in Ewigkeit. Das Brot, das ich geben werde, ist mein Fleisch. Ich gebe es hin für das Leben der Welt.^ö"
@@ -8118,19 +9283,19 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "oration": "o-3-5-each-Oration"
+          "oration": "Allmächtiger Gott, wir glauben und bekennen, dass unser Herr Jesus Christus für uns gestorben und auferstanden ist. Erwecke auch uns durch die Kraft des Heiligen Geistes zum neuen Leben. Darum bitten wir durch ihn, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         }
       },
       "6": {
         "each": {
-          "oration": "o-3-6-each-Oration"
+          "oration": "Allmächtiger Gott, du hast uns durch das Wasser der Taufe neu geschaffen; schütze dieses neue Leben, damit alle, die an dich glauben, dem Ansturm des Bösen standhalten und das Geschenk deiner Gnade treu bewahren. Darum bitten wir durch Jesus Christus."
         }
       }
     },
     "4": {
       "0": {
         "each": {
-          "oration": "o-4-0-each-Oration"
+          "oration": "Allmächtiger, ewiger Gott, dein Sohn ist der Kirche siegreich vorangegangen als der Gute Hirt. Geleite auch die Herde, für die er sein Leben dahingab, aus aller Not zur ewigen Freude. Darum bitten wir durch ihn, Jesus Christus."
         },
         "ErsteV": {
           "ant_1": "Der Friede Christi herrsche in euren Herzen.^ö",
@@ -8153,22 +9318,22 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "oration": "o-4-1-each-Oration"
+          "oration": "Erhabener Gott, durch die Erniedrigung deines Sohnes hast du die gefallene Welt wieder aufgerichtet und aus der Knechtschaft der Sünde befreit. Erfülle uns mit österlicher Freude und schenke uns einst die ewige Seligkeit. Darum bitten wir durch Jesus Christus."
         }
       },
       "2": {
         "each": {
-          "oration": "o-4-2-each-Oration"
+          "oration": "Allmächtiger Gott, in dieser österlichen Zeit feiern wir voll Dankbarkeit die Auferstehung unseres Herrn. Wir bitten dich: Erfülle uns mit Freude darüber, dass wir durch ihn erlöst sind, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         }
       },
       "3": {
         "each": {
-          "oration": "o-4-3-each-Oration"
+          "oration": "Gütiger Gott, du bist das Leben der Gläubigen, der Reichtum der Armen, die Freude der Auserwählten. Wir sehnen uns nach deinen Verheißungen. Stärke unsere Hoffnung und schenke uns überreiche Erfüllung. Darum bitten wir durch Jesus Christus."
         }
       },
       "4": {
         "each": {
-          "oration": "o-4-4-each-Oration"
+          "oration": "Gott und Vater, du erneuerst den Menschen und schenkst ihm eine größere Würde, als er sie im Anfang besaß. Blicke auf das Werk deiner Liebe, segne alle, die im Sakrament der Taufe das neue Leben empfangen haben, und erhalte sie in deiner Gnade. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
           "ant_ev": "Ich bin der Hirt der Schafe; ich bin gekommen, damit sie das Leben haben und es in Fülle haben.^ö"
@@ -8176,19 +9341,19 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "oration": "o-4-5-each-Oration"
+          "oration": "Allmächtiger Gott, dir verdanken wir unsere Freiheit und unser Heil, denn du hast uns durch das kostbare Blut deines Sohnes erlöst. Lass uns aus deiner Kraft leben und unter deinem beständigen Schutz geborgen sein. Darum bitten wir durch Jesus Christus."
         }
       },
       "6": {
         "each": {
-          "oration": "o-4-6-each-Oration"
+          "oration": "Allmächtiger, ewiger Gott, du hast uns im Sakrament der Taufe neues Leben geschenkt. Festige unsere Verbundenheit mit Christus, damit wir Früchte bringen, die bleiben, und die Freude des ewigen Lebens erlangen. Darum bitten wir durch Jesus Christus."
         }
       }
     },
     "5": {
       "0": {
         "each": {
-          "oration": "o-5-0-each-Oration"
+          "oration": "Gott, unser Vater, du hast uns durch deinen Sohn erlöst und als deine geliebten Kinder angenommen. Sieh voll Güte auf alle, die an Christus glauben, und schenke ihnen die wahre Freiheit und das ewige Erbe. Darum bitten wir durch Jesus Christus."
         },
         "ErsteV": {
           "ant_1": "Zu dir erhebe ich die Hände; Herr, nimm mein Abendopfer an.^ö",
@@ -8211,22 +9376,22 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "oration": "o-5-1-each-Oration"
+          "oration": "Gott, unser Herr, du verbindest alle, die an dich glauben, zum gemeinsamen Streben. Gib, dass wir lieben, was du befiehlst, und ersehnen, was du uns verheißen hast, damit in der Unbeständigkeit dieses Lebens unsere Herzen dort verankert seien, wo die wahren Freuden sind. Darum bitten wir durch Jesus Christus."
         }
       },
       "2": {
         "each": {
-          "oration": "o-5-2-each-Oration"
+          "oration": "Allmächtiger Gott, durch die Auferstehung deines Sohnes hast du uns neu geschaffen für das ewige Leben. Festige uns im Glauben und in der Hoffnung, damit wir die Erfüllung deiner Verheißung voll Zuversicht erwarten. Darum bitten wir durch Jesus Christus."
         }
       },
       "3": {
         "each": {
-          "oration": "o-5-3-each-Oration"
+          "oration": "Treuer Gott, du liebst die Unschuld und führst den Sünder zu dir zurück. Darum hast du uns aus der Finsternis des Unglaubens befreit und in die Gemeinschaft mit dir aufgenommen. Gib, dass wir dich mit ganzem Herzen suchen und das Licht deiner Wahrheit nie verlieren. Darum bitten wir durch Jesus Christus."
         }
       },
       "4": {
         "each": {
-          "oration": "o-5-4-each-Oration"
+          "oration": "Heiliger Gott, deine Gnade macht die Sünder gerecht und führt sie aus dem Elend ins Glück. Erhalte das Werk deines Erbarmens, damit alle, die durch den Glauben gerechtfertigt sind, im Guten ausharren bis ans Ende. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
           "ant_ev": "Dies alles habe ich zu euch gesagt, damit meine Freude in euch ist und eure Freude vollkommen wird.^ö"
@@ -8234,19 +9399,19 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "oration": "o-5-5-each-Oration"
+          "oration": "Wir bitten dich, allmächtiger Gott, präge und forme unser Leben durch die österlichen Geheimnisse, die wir in diesen Tagen feiern. Heile und schütze uns durch die Macht unseres auferstandenen Herrn Jesus Christus, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         }
       },
       "6": {
         "each": {
-          "oration": "o-5-6-each-Oration"
+          "oration": "Gott, du Ursprung unseres Heils, durch die Wiedergeburt in der Taufe hast du uns gerecht gemacht und uns befähigt, ewiges Leben zu empfangen. Schenke uns die Fülle dieses Lebens in deiner Herrlichkeit. Darum bitten wir durch Jesus Christus."
         }
       }
     },
     "6": {
       "0": {
         "each": {
-          "oration": "o-6-0-each-Oration"
+          "oration": "Allmächtiger Gott, lass uns die österliche Zeit in herzlicher Freude begehen und die Auferstehung unseres Herrn preisen, damit das Ostergeheimnis, das wir in diesen fünfzig Tagen feiern, unser ganzes Leben prägt und verwandelt. Darum bitten wir durch Jesus Christus."
         },
         "ErsteV": {
           "ant_1": "Wer die Wahrheit tut, der kommt zum Licht.^ö",
@@ -8269,22 +9434,22 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "oration": "o-6-1-each-Oration"
+          "oration": "Barmherziger Gott, gib, dass die Gnade, die wir in der Feier der österlichen Geheimnisse empfangen haben, durch alle Tage unseres Lebens fruchtbar bleibt. Darum bitten wir durch Jesus Christus."
         }
       },
       "2": {
         "each": {
-          "oration": "o-6-2-each-Oration"
+          "oration": "Allmächtiger Gott, lass die österliche Freude in uns fortdauern, denn du hast deiner Kirche neue Lebenskraft geschenkt und die Würde unserer Gotteskindschaft in neuem Glanz erstrahlen lassen. Gib, dass wir den Tag der Auferstehung voll Zuversicht erwarten als einen Tag des Jubels und des Dankes. Darum bitten wir durch Jesus Christus."
         }
       },
       "3": {
         "each": {
-          "oration": "o-6-3-each-Oration"
+          "oration": "Herr, unser Gott, sieh auf deine Gemeinde, die in dieser österlichen Zeit der Auferstehung Sohnes gedenkt. Gib, dass wir mit allen Heiligen die ewige Freude erlangen, wenn er in der Herrlichkeit wiederkommt, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         }
       },
       "4": {
         "each": {
-          "oration": "o-6-4-each-Oration"
+          "oration": "Allmächtiger, ewiger Gott, erfülle uns mit Freude und Dankbarkeit, denn in der Himmelfahrt deines Sohnes hast du den Menschen erhöht. Schenke uns das feste Vertrauen, dass auch wir zu der Herrlichkeit gerufen sind, in die Christus uns vorausgegangen ist, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "ErsteV": {
           "name": "1. Vesper zu Christi Himmelfahrt",
@@ -8387,7 +9552,7 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "oration": "o-6-5-each-Oration"
+          "oration": "Allmächtiger Gott, in der Auferstehung und Himmelfahrt deines Sohnes öffnest du uns das Tor zum ewigen Leben. Lenke unser Herz, dass wir auf ihn schauen, den Urheber unseres Heiles, der zu deiner Rechten thront, und schenke allen Getauften das unsterbliche Leben, wenn er in Herrlichkeit wiederkommt, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Laudes": {
           "ant_ev": "Mit Herrlichkeit und Ehre ist Jesus gekrönt um seines Todesleidens willen.^ö",
@@ -8404,7 +9569,7 @@ export const brevierData = {
       },
       "6": {
         "each": {
-          "oration": "o-6-6-each-Oration"
+          "oration": "Herr, unser Gott, dein Sohn hat vor seiner Himmelfahrt seinen Aposteln den Heiligen Geist verheißen. Sie haben den Reichtum der göttlichen Weisheit empfangen; schenke auch uns die Gaben deines Geistes. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
           "ant_ev": "Amen, amen, ich sage euch: Was immer ihr vom Vater erbittet, er wird es euch geben in meinem Namen.^ö",
@@ -8417,7 +9582,7 @@ export const brevierData = {
     "7": {
       "0": {
         "each": {
-          "oration": "o-7-0-each-Oration"
+          "oration": "Allmächtiger Gott, wir bekennen, dass unser Erlöser bei dir in deiner Herrlichkeit ist. Erhöre unser Rufen und lass uns erfahren, dass er alle Tage bis zum Ende der Welt bei uns bleibt, wie er uns verheißen hat. Er, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "ErsteV": {
           "ant_1": "Als die fünfzig Tage sich erfüllten, waren alle versammelt am gleichen Ort.^ö",
@@ -8437,7 +9602,7 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "oration": "o-7-1-each-Oration"
+          "oration": "Herr, unser Gott, sende uns die Kraft von oben, den Heiligen Geist, damit wir deinen Willen gläubig bejahen und in einem heiligen Leben erfüllen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
           "ant_ev": "In der Welt seid ihr in Bedrängnis; aber habt Mut: Ich habe die Welt besiegt.^ö",
@@ -8457,7 +9622,7 @@ export const brevierData = {
       },
       "2": {
         "each": {
-          "oration": "o-7-2-each-Oration"
+          "oration": "Allmächtiger und barmherziger Gott, sende den Heiligen Geist auf uns herab. Er wohne in uns und mache uns zum Tempel seiner Herrlichkeit. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
           "ant_ev": "Der Herr ist von den Toten erstanden, wie er gesagt hat. Lasst uns frohlocken und jubeln; denn er ist König für immer und ewig.^ö",
@@ -8477,7 +9642,7 @@ export const brevierData = {
       },
       "3": {
         "each": {
-          "oration": "o-7-3-each-Oration"
+          "oration": "Barmherziger Gott, du versammelst deine Kirche im Heiligen Geist. Gib, dass sie dir von ganzem Herzen dient und in aufrichtiger Liebe die Einheit bewahrt. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
           "ant_ev": "Dank sei Gott! Er hat uns den Sieg geschenkt durch Jesus Christus, unseren Herrn.^ö",
@@ -8497,7 +9662,7 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "oration": "o-7-4-each-Oration"
+          "oration": "Wir bitten dich, Herr, unser Gott, der Heilige Geist erfülle uns mit dem Reichtum seiner Gaben. Er schenke uns eine Gesinnung, die dir wohlgefällt, damit wir deinem Willen immer mehr entsprechen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
           "ant_ev": "Geht hinaus in alle Welt und lehrt alle Völker und tauft sie im Namen des Vaters und des Sohnes und des Heiligen Geistes.^ö",
@@ -8517,7 +9682,7 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "oration": "o-7-5-each-Oration"
+          "oration": "Allmächtiger Gott, du hast deinen Sohn erhöht und den Heiligen Geist gesandt, um uns zum ewigen Leben zu führen. Gib, dass wir durch den Empfang dieser großen Gabe im Glauben wachsen und dir aus ganzem Herzen dienen. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {
           "ant_ev": "Christus Jesus ist für uns gestorben und auferstanden. Er sitzt zur Rechten Gottes und tritt beim Vater für uns ein.^ö",
@@ -8537,7 +9702,7 @@ export const brevierData = {
       },
       "6": {
         "each": {
-          "oration": "o-7-6-each-Oration"
+          "oration": "Allmächtiger Gott, am Ende der heiligen fünfzig Tage bitten wir dich: Gib uns die Gnade, dass wir in einem Leben aus dem Glauben das Ostergeheimnis deines Sohnes bewahren, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Laudes": {
           "ant_ev": "Seht, ich bin alle Tage bei euch, bis zum Ende der Welt.^ö",
@@ -8550,7 +9715,7 @@ export const brevierData = {
     "8": {
       "0": {
         "each": {
-          "oration": "o-8-0-each-Oration"
+          "oration": "Allmächtiger, ewiger Gott, durch das Geheimnis des heutigen Tages heiligst du deine Kirche in allen Völkern und Nationen. Erfülle die ganze Welt mit den Gaben des Heiligen Geistes, und was deine Liebe am Anfang der Kirche gewirkt hat, das wirke sie auch heute in den Herzen aller, die an dich glauben. Darum bitten wir durch Jesus Christus."
         },
         "ErsteV": {
           "name": "1. Vesper zu Pfingsten",
@@ -10689,7 +11854,7 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Gott, der allmächtige Vater, der allezeit für uns sorgt. Zu ihm lasst uns beten:",
           "bitten_r": "Dir sei Ehre in Ewigkeit.",
           "bitten": "Gott, du hast uns Menschen wunderbar geschaffen und noch wunderbarer erneuert;^qgib, dass wir dir allezeit danken.^pDu hast uns zum Beginn dieses neuen Tages geführt;^qgib, dass wir über all unserem Tun dich nicht vergessen.^pReinige unser Herz von jedem bösen Verlangen;^qmach uns bereit, heute in allem deinen Willen zu tun.^pÖffne unsere Augen für die Not der Mitmenschen^qund lass sie unsere Hilfe erfahren.",
-          "oration": "Allmächtiger Gott, erleuchte die Völker, die im Schatten des Todes sitzen, mit dem Licht jener Herrlichkeit, mit der uns der Aufgang aus der Höhe heimgesucht hat, Jesus Christus, unser Herr. Der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Allmächtiger Gott, erleuchte die Völker, die im Schatten des Todes sitzen, mit dem Licht jener Herrlichkeit, mit der uns der Aufgang aus der Höhe heimgesucht hat, Jesus Christus, unser Herr, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Lesehore": {
           "hymn_1": 401.0,

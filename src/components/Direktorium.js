@@ -1340,18 +1340,22 @@ const PrayerTextDisplay = ({
                 .replace(/}/g, ')')
                 .replace(/\{(\d{1,2})#/g, '(');
 
-            // Split text into segments, keeping delimiters
-            const segments = processedText.split(/(\^r.*?\^0r|\^w.*?\^0w|\^\(|\^\)|\^N)/g).filter(Boolean);
+            // Split text into segments
+            const segments = processedText.split(/(\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^\(|\^\)|\^N)/g).filter(Boolean);
 
             return segments.map((segment, index) => {
                 if (segment.startsWith('^r')) {
-                    // Rubrik-Text
                     const content = segment.substring(2, segment.length - 3);
                     return <span key={`rubric-${index}`} style={{ color: rubricColor }}>{content}</span>;
                 } else if (segment.startsWith('^w')) {
-                    // Gesperrter Text
                     const content = segment.substring(2, segment.length - 3);
                     return <span key={`tracked-${index}`} className='tracking-[0.16em]'>{content}</span>;
+                } else if (segment.startsWith('^f')) {
+                    const content = segment.substring(2, segment.length - 3);
+                    return <span key={`bold-${index}`} className='font-bold'>{content}</span>;
+                } else if (segment.startsWith('^v')) {
+                    const content = segment.substring(2, segment.length - 3);
+                    return <span key={`small-${index}`} className='formatVerse'>{content}</span>;
                 } else if (segment === '^(') {
                     return <span key={`open-${index}`} style={{ color: rubricColor }}>(</span>;
                 } else if (segment === '^)') {
@@ -1631,7 +1635,7 @@ const PrayerTextDisplay = ({
                         )}
                         {(hour == "lesehore") && (
                             <>
-                                <div className='flex gap-3 items-baseline'>{getValue('les_buch')}
+                                <div className='flex gap-3 items-baseline'>{formatPrayerText(getValue('les_buch'))}
                                     <span className='text-[0.9em] text-gray-400'>{formatBibleRef(getValue('les_stelle'))}</span></div>
                             </>)}
                         {formatPrayerText(getValue('les_text'))}
