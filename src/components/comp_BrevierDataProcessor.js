@@ -114,12 +114,13 @@ function mergeData(hours, newData, source) {
 }
 
 
-function getPrayerTexts(date, calendarDate = 0) {
+function getPrayerTexts(date, calendarDate = 0) {   // für verschobene Hochfeste kann deren calendarDate eigens angegeben werden
     if (calendarDate === 0) { calendarDate = date }
     const {
         season,
         week,
         dayOfWeek,
+        weekOfPsalter,
         rank_wt,
         isCommemoration
     } = getLiturgicalInfo(date);
@@ -155,18 +156,17 @@ function getPrayerTexts(date, calendarDate = 0) {
         mergeData(hours, weeklyOrdData, 'wt');
 
         // Layer 1: Base layer from 4-week schema
-        const adjustedWeek = ((week + 3) % 4) + 1;
-        const baseData = brevierData['p']?.[adjustedWeek]?.[dayOfWeek];
+        const baseData = brevierData['p']?.[weekOfPsalter]?.[dayOfWeek];
         mergeData(hours, baseData, 'wt');
 
         // Layer 1.1: Psalmen in der Lesehore im Jahreskreis
         if (season === 'j') {
-            const ordbaseData = brevierData['pj']?.[adjustedWeek]?.[dayOfWeek];
+            const ordbaseData = brevierData['pj']?.[weekOfPsalter]?.[dayOfWeek];
             mergeData(hours, ordbaseData, 'wt');
         }
 
         if (season === 'o') {
-            const ordbaseData = brevierData['po']?.[adjustedWeek]?.[dayOfWeek];
+            const ordbaseData = brevierData['po']?.[weekOfPsalter]?.[dayOfWeek];
             mergeData(hours, ordbaseData, 'wt');
         }
 

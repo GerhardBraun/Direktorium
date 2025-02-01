@@ -1,7 +1,35 @@
-const writeOut = (season, week, dayOfWeek) => {
+
+const daysToMilliseconds = (days) => days * 24 * 60 * 60 * 1000;
+
+const writeOut = (season, week, dayOfWeek, combinedSWD) => {
 
     const days = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
     const dayName = days[dayOfWeek];
+
+    // Spezielle Festtage basierend auf combinedSWD
+    const specialFeastDays = {
+        'j-1-0': 'Fest der Taufe Jesu',
+        'q-6-0': 'Palmsonntag',
+        'q-6-4': 'Gründonnerstag',
+        'q-6-5': 'Karfreitag',
+        'q-6-6': 'Karsamstag',
+        'o-1-0': 'Ostersonntag',
+        'o-1-1': 'Ostermontag',
+        'o-2-0': 'Weißer Sonntag – Sonntag der Göttlichen Barmherzigkeit',
+        'o-6-4': 'Christi Himmelfahrt',
+        'o-8-0': 'Pfingstsonntag',
+        'o-8-1': 'Pfingstmontag',
+        'o-9-0': 'Dreifaltigkeitssonntag',
+        'o-9-4': 'Fronleichnam',
+        'o-9-5': 'Herz-Jesu-Fest',
+        'o-9-6': 'Unbeflecktes Herz Mariens',
+        'j-34-0': 'Christkönigssonntag'
+    };
+
+    // Prüfe zuerst auf spezielle Festtage
+    if (specialFeastDays[combinedSWD]) {
+        return specialFeastDays[combinedSWD];
+    }
 
     // Spezielle Behandlung für die Aschermittwochswoche (0. Fastenwoche)
     if (season === 'q' && week === 0) {
@@ -9,6 +37,14 @@ const writeOut = (season, week, dayOfWeek) => {
         else if (dayOfWeek > 3) {  // Donnerstag, Freitag, Samstag
             return `${dayName} nach Aschermittwoch`;
         }
+    }
+
+    if (season === 'q' && week === 6) {
+        return `${dayName} der Karwoche`
+    }
+
+    if (season === 'o' && week === 1) {
+        return `${dayName} der Osteroktav`
     }
 
     // Spezielle Formatierung für Sonntage
@@ -158,16 +194,11 @@ const getNextSunday = (date) => {
     return d;
 };
 
-// Check for special feast days after Pentecost
-const isSpecialEasterFeast = (date, easter) => {
-    const daysSinceEaster = Math.floor((date - easter) / (24 * 60 * 60 * 1000));
-
-    if (daysSinceEaster === 56) return { week: 9 }; // Trinity Sunday
-    if (daysSinceEaster === 60) return { week: 9 }; // Corpus Christi
-    if (daysSinceEaster === 68) return { week: 9 }; // Sacred Heart
-    if (daysSinceEaster === 69) return { week: 9 }; // Immaculate Heart
-
-    return null;
+// Check for special feast days after Pentecost:
+// Trinity Sunday, Corpus Christi, Sacred Heart, Immaculate Heart
+const isFeastAfterPentecost = (date, easter) => {
+    const daysSinceEaster = Math.floor((date - easter) / daysToMilliseconds(1));
+    return [56, 60, 68, 69].includes(daysSinceEaster) ? { week: 9 } : null;
 };
 
 // Get liturgical information for a given date
@@ -187,24 +218,29 @@ const getLiturgicalInfo = (provDate) => {
     const christmasSunday = getNextSunday(christmas);
     const baptism = getNextSunday(new Date(Date.UTC(year, 0, 7)));
     const easter = calculateEaster(year);
-    const lentSunday = new Date(easter.getTime() - 42 * 24 * 60 * 60 * 1000);
-    const pentecost = new Date(easter.getTime() + 49 * 24 * 60 * 60 * 1000);
+    const lentSunday = new Date(easter.getTime() - daysToMilliseconds(42));
+    const pentecost = new Date(easter.getTime() + daysToMilliseconds(49));
     const advent = new Date(Date.UTC(year, 11, 25));
     advent.setUTCDate(advent.getUTCDate() - (advent.getUTCDay() || 7) - 21);
 
     // Helper function for week calculation
     const weeksBetween = (start, current) =>
-        Math.floor((current - start) / (7 * 24 * 60 * 60 * 1000)) + 1;
+        Math.floor((current - start) / daysToMilliseconds(7)) + 1;
 
-    let season, week;
+    let season, week, weekOfPsalter;
 
     // Christmas Season until Baptism
     if (date < baptism) {
         season = 'w';
         week = weeksBetween(christmasSunday, date);
     }
+    else if (date === baptism) {
+        season = 'j';
+        week = 1
+        weekOfPsalter = weeksBetween(christmasSunday, date);
+    }
     // Ordinary Time before Lent
-    else if (date < lentSunday - 4 * 24 * 60 * 60 * 1000) {
+    else if (date < lentSunday - daysToMilliseconds(4)) {
         season = 'j';
         week = weeksBetween(baptism, date);
     }
@@ -224,17 +260,17 @@ const getLiturgicalInfo = (provDate) => {
         week = weeksBetween(easter, date);
     }
     // Special feasts after Pentecost
-    else if (isSpecialEasterFeast(date, easter)) {
+    else if (isFeastAfterPentecost(date, easter)) {
         season = 'o';
         week = 9;
     }
     // Ordinary Time after Pentecost
     else if (date < advent) {
         season = 'j';
-        week = 34 - Math.floor((advent - date - 1) / (7 * 24 * 60 * 60 * 1000));
+        week = 34 - Math.floor((advent - date - 1) / daysToMilliseconds(7));
     }
     // Advent
-    if (date >= advent) {
+    else if (date >= advent) {
         const adventWeek = weeksBetween(advent, date);
         if (adventWeek === 5) {
             season = 'w';
@@ -247,17 +283,19 @@ const getLiturgicalInfo = (provDate) => {
 
     const dayOfWeek = date.getUTCDay();
     const combinedSWD = `${season}-${week}-${dayOfWeek}`;
-    const writtenSWD = writeOut(season, week, dayOfWeek);
+    const writtenSWD = writeOut(season, week, dayOfWeek, combinedSWD);
+    if (!weekOfPsalter) { weekOfPsalter = ((week + 3) % 4) + 1 }
     const ranks = calculateRanks(date, season, week, dayOfWeek, combinedSWD);
     const month = (date.getUTCMonth() + 1);
     const day = date.getUTCDate();
     const isCommemoration = (season === 'q' && ranks.rank_date < 3)
-        || (month === 12 && day > 16)
+        || (month === 12 && day > 16);
 
     return {
         season,
         week,
         dayOfWeek,
+        weekOfPsalter,
         combinedSWD,
         writtenSWD,
         ...ranks,  // Fügt rank_wt, rank_date und combinedSWD zum Return-Objekt hinzu

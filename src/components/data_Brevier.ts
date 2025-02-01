@@ -12794,7 +12794,7 @@ export const brevierData = {
         },
         "Komplet": {
           "hymn_2": 515.0,
-          "ps_1": 88.0,
+          "ps_1": 88.101,
           "ant_0": "Herr, du Gott meines Heils, zu dir schreie ich am Tag und bei Nacht.",
           "ant_1": "",
           "ant_2": "",
@@ -13217,6 +13217,18 @@ export const brevierData = {
           "ant_1": "Wie groß sind deine Werke, o Herr!^ö",
           "ant_2": "Ich gieße reines Wasser über euch aus, und ihr werdet rein.^ö",
           "ant_3": "Gott hat ihm alles zu Füßen gelegt und ihn, der alles als Haupt überragt, über die Kirche gesetzt.^ö"
+        }
+      }
+    },
+    "each": {
+      "3": {
+        "Komplet": {
+          "ps_2": 130.101
+        }
+      },
+      "5": {
+        "Komplet": {
+          "ps_1": 88.0
         }
       }
     }

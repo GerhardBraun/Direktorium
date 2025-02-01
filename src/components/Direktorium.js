@@ -15,7 +15,7 @@ const fontFamily = 'Cambria, serif';
 const hangingIndent = '3.2em'; // Variable für den Einzug
 const deceasedSizeRatio = 0.9;
 const DAYS_BUFFER = 7; // Anzahl der Tage vor/nach dem ausgewählten Datum
-const rubricColor = '#b6a03a'; // Tailwind red-700
+const rubricColor = '#b6a03a';
 
 const months = ["Januar", "Februar", "März", "April", "Mai", "Juni",
     "Juli", "August", "September", "Oktober", "November", "Dezember"];
@@ -1504,6 +1504,15 @@ const PrayerTextDisplay = ({
                             askTSN={true}
                             onSelectHour={onSelectHour}
                         />
+                        {getValue('hymn_nacht')?.text && (
+                            <>
+                                <Rubric>In der Nacht oder am frühen Morgen:</Rubric>
+                                <div className="mb-4">
+                                    {formatPrayerText(getValue('hymn_nacht').text)}
+                                </div>
+                                <Rubric>Am Tag:</Rubric>
+                            </>
+                        )}
                         {getValue('hymn_1')?.text && (
                             <div className="mb-4">
                                 {formatPrayerText(getValue('hymn_1').text)}
@@ -1525,17 +1534,9 @@ const PrayerTextDisplay = ({
                                 </div>
                             </>
                         )}
-                        {getValue('hymn_nacht')?.text && (
-                            <>
-                                <Rubric>In der Nacht oder am frühen Morgen:</Rubric>
-                                <div className="mb-4">
-                                    {formatPrayerText(getValue('hymn_nacht').text)}
-                                </div>
-                            </>
-                        )}
                         {getValue('hymn_kl')?.text && (
                             <>
-                                <Rubric>im Kleinen Stundenbuch:</Rubric>
+                                <Rubric>Im Kleinen Stundenbuch:</Rubric>
                                 <div className="">
                                     {formatPrayerText(getValue('hymn_kl').text)}
                                 </div>
