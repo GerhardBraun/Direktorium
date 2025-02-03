@@ -7,7 +7,7 @@ import { getLiturgicalInfo } from './comp_LitCalendar.js';
 
 // Fields that should be processed as references to psalmsData
 const referenceFields = [
-    'ps_1', 'ps_2', 'ps_3', 'ps_100', 'ps_95', 'ps_67', 'ps_24',
+    'ps_1', 'ps_2', 'ps_3',
     'hymn_1', 'hymn_2', 'hymn_3', 'hymn_nacht', 'hymn_kl',
     'ev', 'ev_lat', 'vu', 'vu_lat', 'marant', 'marant_lat'
 ];
@@ -81,12 +81,15 @@ function cleanupZeroReferences(hours) {
 function mergeData(hours, newData, source) {
     if (!newData) return;
 
+    // Festlegen, welche Stunden für die jeweilige Source verarbeitet werden sollen
+    const targetHours = (source === 'k1' || source === 'k2') ? ['komplet'] : Object.keys(hours);
+
     // Process "each" data if available
     if (newData.each) {
         const processedEachData = processReferenceFields(newData.each, false);
         Object.entries(processedEachData).forEach(([field, value]) => {
             if (!field.startsWith(source)) {
-                Object.keys(hours).forEach(hour => {
+                targetHours.forEach(hour => {
                     if (!hours[hour][source]) {
                         hours[hour][source] = {};
                     }
@@ -99,7 +102,8 @@ function mergeData(hours, newData, source) {
     // Process hour-specific data
     Object.entries(newData).forEach(([hourName, hourData]) => {
         const hour = hourName.toLowerCase();
-        if (hours[hour] && hourName !== 'each') {
+        // Prüfe, ob die Stunde in den Zielstunden enthalten ist
+        if (hours[hour] && hourName !== 'each' && targetHours.includes(hour)) {
             if (!hours[hour][source]) {
                 hours[hour][source] = {};
             }
@@ -147,14 +151,21 @@ function getPrayerTexts(date, calendarDate = 0) {   // für verschobene Hochfest
 
     try {
 
-        // Layer 0.1: Ordinary texts
-        const ordData = brevierData['p']?.['each']?.['each'];
-        mergeData(hours, ordData, 'wt');
-
-        // Layer 0.2: Weekly Ordinary texts
-        const weeklyOrdData = brevierData['p']?.['each']?.[dayOfWeek];
-        mergeData(hours, weeklyOrdData, 'wt');
-
+        // Layer 0: Ordinary texts from multiple sources - both general and weekly
+        const sourcesToCheck = ['wt', 'k1', 'k2', 'soll'];
+        sourcesToCheck.forEach(source => {
+            const ordData = brevierData[source]?.['each'];
+            if (ordData) {
+                // Layer 0.1: General ordinary texts
+                if (ordData['each']) {
+                    mergeData(hours, ordData['each'], source);
+                }
+                // Layer 0.2: Weekly ordinary texts
+                if (ordData[dayOfWeek]) {
+                    mergeData(hours, ordData[dayOfWeek], source);
+                }
+            }
+        });
         // Layer 1: Base layer from 4-week schema
         const baseData = brevierData['p']?.[weekOfPsalter]?.[dayOfWeek];
         mergeData(hours, baseData, 'wt');
@@ -173,6 +184,8 @@ function getPrayerTexts(date, calendarDate = 0) {   // für verschobene Hochfest
         // Layer 2: Season-wide texts
         const seasonData = brevierData[season]?.['each']?.['each'];
         mergeData(hours, seasonData, 'wt');
+        mergeData(hours, seasonData, 'k1');
+        mergeData(hours, seasonData, 'k2');
 
         // Layer 3: Weekly schema for the season
         const weeklyData = brevierData[season]?.['each']?.[dayOfWeek];
@@ -218,6 +231,13 @@ function getPrayerTexts(date, calendarDate = 0) {   // für verschobene Hochfest
         mergeData(hours, specificData, 'wt');
         mergeData(hours, specificLect, 'wt');
 
+        // Oration der Komplet in der Osteroktav
+        const easterKomplet1 = brevierData['k1']?.['o']?.['6']
+        const easterKomplet2 = brevierData['k2']?.['o']?.['0']
+
+        mergeData(hours, easterKomplet1, 'k1')
+        mergeData(hours, easterKomplet2, 'k2')
+
         // Process Heiligenfeste only if rank is appropriate
         if ((rank_date > 1 && rank_date > rank_wt) || (rank_date === 2 && rank_wt === 2)) {
             processHeiligenfeste(hours, season, rank_date, dayOfWeek, calendarMonth, calendarDay);
@@ -233,7 +253,7 @@ function getPrayerTexts(date, calendarDate = 0) {   // für verschobene Hochfest
             rank_wt,
             rank_date,
             isCommemoration,
-            dayOfWeek,
+            season, week, dayOfWeek,
             ...cleanupZeroReferences(hours)
         };
 
@@ -377,18 +397,41 @@ function processHeiligenfeste(hours, season, rank_date, dayOfWeek, calendarMonth
 }
 
 function processTerzPsalms(hours) {
-    ['sext', 'non'].forEach(hour => {
-        const psalmFields = ['ps_1', 'ps_2', 'ps_3', 'ant_1', 'ant_2', 'ant_3'];
-        const hasPsalms = psalmFields.some(field => hours[hour].wt[field]);
+    // Definiere die zu prüfenden Stunden
+    const targetHours = ['sext', 'non'];
+    // Definiere die relevanten Psalm-Felder
+    const psalmFields = ['ps_1', 'ps_2', 'ps_3', 'ant_1', 'ant_2', 'ant_3'];
 
-        if (!hasPsalms) {
-            psalmFields.forEach(field => {
-                if (hours.terz.wt[field]) {
-                    hours[hour].wt[field] = hours.terz.wt[field];
-                }
-            });
-        }
+    // Finde alle vorhandenen Sources durch Inspektion der Terz
+    const sources = hours.terz ? Object.keys(hours.terz) : [];
+
+    // Iteriere über die Zielstunden (Sext und Non)
+    targetHours.forEach(hour => {
+        if (!hours[hour]) return;
+
+        // Iteriere über alle gefundenen Sources
+        sources.forEach(source => {
+            if (!hours[hour][source]) {
+                hours[hour][source] = {};
+            }
+
+            // Prüfe, ob die aktuelle Stunde bereits Psalmen in dieser Source hat
+            const hasPsalms = psalmFields.some(field =>
+                hours[hour][source] && hours[hour][source][field]
+            );
+
+            // Wenn keine Psalmen vorhanden sind, kopiere sie von der Terz
+            if (!hasPsalms && hours.terz[source]) {
+                psalmFields.forEach(field => {
+                    if (hours.terz[source][field]) {
+                        hours[hour][source][field] = hours.terz[source][field];
+                    }
+                });
+            }
+        });
     });
+
+    return hours;
 }
 
 function processBenMagnAntiphons(hours, date) {
@@ -405,6 +448,50 @@ function processBenMagnAntiphons(hours, date) {
             }
         }
     });
+}
+
+function processInvitatoriumPsalms(hours) {
+    // Array für gefundene Psalmen initialisieren
+    const found = new Set();
+
+    // Zu suchende Psalm-Nummern
+    const searchPsalms = [100, 67, 24];
+
+    // Durchsuche alle Stunden
+    Object.values(hours).forEach(hour => {
+        // Durchsuche alle Quellen (wt, eig, etc.)
+        Object.values(hour).forEach(sources => {
+            // Funktion zum Durchsuchen von Psalm-Einträgen
+            const searchPsalmEntries = (obj) => {
+                ['ps_1', 'ps_2', 'ps_3'].forEach(psKey => {
+                    const psValue = obj[psKey]?.reference;
+                    if (psValue && searchPsalms.includes(Math.floor(psValue))) {
+                        found.add(Math.floor(psValue));
+                    }
+                });
+            };
+
+            // Durchsuche die Hauptebene der Source
+            searchPsalmEntries(sources);
+
+            // Durchsuche Commune-Unterverzeichnisse
+            ['com1', 'com2'].forEach(commune => {
+                if (sources[commune]) {
+                    searchPsalmEntries(sources[commune]);
+                }
+            });
+        });
+    });
+
+    // Erstelle Array mit verfügbaren Invitatorium-Psalmen
+    const invitatorium = [95];
+    searchPsalms.forEach(psalm => {
+        if (!found.has(psalm)) {
+            invitatorium.push(psalm);
+        }
+    });
+
+    return invitatorium;
 }
 
 function processEasterResponses(hours) {
@@ -440,6 +527,39 @@ function processResponseSet(data) {
         // Neuen Halleluja-Text setzen
         data.resp1_2 = 'Halleluja,°halleluja.';
     }
+}
+
+function processKompletData(data, calendarDate) {
+    const { hasErsteVesper = false, dayOfWeek, rank_date, rank_wt, combinedSWD } = data
+    const kompletDay = calendarDate.getDate();
+    const kompletMonth = calendarDate.getMonth() + 1;
+
+    let showKompletWt = true;
+    let showKompletK1 = true;
+    let showKompletK2 = true;
+    let prefKomplet = 'wt'
+
+    if (['q-6-4', 'q-6-5', 'q-6-6'].includes(combinedSWD)) {
+        showKompletK1 = false; showKompletK2 = false; prefKomplet = 'wt'
+    }
+    else if (hasErsteVesper) {
+        showKompletWt = false; prefKomplet = 'k1'
+    }
+    else if (dayOfWeek === 0 || rank_date === 5) {
+        showKompletWt = false; prefKomplet = 'k2'
+    }
+    else if ((kompletMonth === 12 && kompletDay > 25) || (combinedSWD.startsWith('o-1-'))) {
+        showKompletWt = false; prefKomplet = 'wt'
+    }
+    else if (rank_wt === 5) {
+        showKompletWt = false; prefKomplet = 'k2'
+    }
+    return {
+        showKompletWt,
+        showKompletK1,
+        showKompletK2,
+        prefKomplet
+    };
 }
 
 // Hauptfunktion zur Verarbeitung der Brevier-Daten
@@ -526,8 +646,12 @@ export function processBrevierData(todayDate) {
     const finalData = {
         ...todayData,
         nextRank_wt: nextRankWt,
-        nextRank_date: nextRankDate
+        nextRank_date: nextRankDate,
+        combinedSWD: todayInfo.combinedSWD
     };
+
+    // Sichere Vesper-Daten für etwaige Nutzung bei lokalem Hochfest
+    // vor der etwaigen Überschreibung durch eine Erste Vesper
     finalData.prefsollemnity = JSON.parse(JSON.stringify(finalData.vesper));
 
     // Ersetze Vesper-Daten wenn nötig
@@ -539,7 +663,13 @@ export function processBrevierData(todayDate) {
     // Wende die finalen Verarbeitungsschritte an
     processTerzPsalms(finalData);
     processBenMagnAntiphons(finalData, calendarDate);
+    const kompletSettings = processKompletData(finalData, calendarDate);
+    finalData.komplet = {
+        ...finalData.komplet,
+        ...kompletSettings
+    };
     if (todayInfo.season === 'o') { processEasterResponses(finalData); }
+    finalData.invitatorium.psalms = processInvitatoriumPsalms(finalData);
 
     return finalData;
 }

@@ -1,8 +1,21 @@
 // getValue.js
 export const getValue = ({ hour, texts, field,
     prefSrc, prefSollemnity,
-    localPrefComm, localPrefPsalmsWt, localPrefContinuous }) => {
+    localPrefComm, localPrefPsalmsWt, localPrefContinuous, localPrefKomplet }) => {
     if (!hour || !texts || !texts[hour]) {
+        return null;
+    }
+
+    if (hour === 'komplet') {
+        if (localPrefKomplet === 'wt') {
+            if (!texts?.komplet?.showKompletWt) { return null }
+            if (texts['komplet']['eig']?.[field]) {
+                return texts['komplet']['eig']?.[field];
+            }
+        }
+        if (texts['komplet'][localPrefKomplet]?.[field]) {
+            return texts['komplet'][localPrefKomplet]?.[field];
+        }
         return null;
     }
 

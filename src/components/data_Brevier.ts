@@ -11,10 +11,6 @@ interface BrevierEntry {
   ps_1?: number;
   ps_2?: number;
   ps_3?: number;
-  ps_95?: number;
-  ps_100?: number;
-  ps_67?: number;
-  ps_24?: number;
   ant_0?: string;
   ant_1?: string;
   ant_2?: string;
@@ -115,6 +111,7 @@ export const brevierData = {
         "Komplet": {
           "hymn_2": 510.0,
           "ps_1": 91.0,
+          "ps_2": 0.0,
           "ant_0": "Mit seinen Flügeln beschirmt dich der Herr; du brauchst dich nicht zu fürchten vor dem Schrecken der Nacht.",
           "les_buch": "Offb",
           "les_stelle": "22,4–5",
@@ -1731,7 +1728,6 @@ export const brevierData = {
         "Invitatorium": {
           "hymn_2": 0.0,
           "hymn_3": 0.0,
-          "ps_24": 0,
           "ant_0": "Christus, den Sohn Mariens – kommt, wir beten ihn an!^p^rOder:^0r^l^rAnt.^0r°°Am Fest der seligen Jungfrau Maria lasst uns den Herrn anbeten!",
           "ant_1": "",
           "ant_2": "",
@@ -2477,7 +2473,6 @@ export const brevierData = {
           "oration": "Barmherziger Gott, durch die Geburt deines Sohnes aus der Jungfrau Maria hast du der Menschheit das ewige Heil geschenkt. lass uns auch im neuen Jahr immer und überall die Fürbitte der gnadenvollen Mutter erfahren, die uns den Urheber des Lebens geboren hat, Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Invitatorium": {
-          "ps_24": 0,
           "ant_0": "Wir preisen die Mutterschaft der seligen Jungfrau Maria und beten an ihren Sohn, Jesus Christus, unsern Herrn.",
           "ant_1": "",
           "ant_2": "",
@@ -2724,7 +2719,7 @@ export const brevierData = {
           "ps_3": 157.0,
           "ant_1": "Maria und Josef brachten das Kind nach Jerusalem hinauf, um es dem Herrn zu weihen.",
           "ant_2": "Zion, schmücke dein Brautgemach, nimm deinen König auf, der zu dir kommt: Christus, den Herrn.",
-          "ant_3": "Selig bist du, Simeon, du hast Christus, den Herrn auf deinen Armen getragen, den Befreier seines Volkes.",
+          "ant_3": "Selig bist du, Simeon, du hast Christus, den Herrn, auf deinen Armen getragen, den Befreier seines Volkes.",
           "les_buch": "Hebr",
           "les_stelle": "10,5-7",
           "les_text": "Bei seinem Eintritt in die Welt spricht Christus: Schlacht- und Speiseopfer hast du nicht gefordert, doch einen Leib hast du mir geschaffen; an Brand- und Sündopfern hast du kein Gefallen. Da sagte ich: Ja, ich komme – so steht es über mich in der Schriftrolle –, um deinen Willen, Gott, zu tun.",
@@ -2823,7 +2818,7 @@ export const brevierData = {
           "ant_ev": "Die Jungfrau Maria weiht heute im Tempel Gott, dem Herrn, ihr Kind. Erfüllt vom Heiligen Geist, nimmt es Simeon auf seine Arme und lobt den Herrn.",
           "bitten_e": "Lasst uns beten zu unserem Erlöser Jesus Christus, der am heutigen Tag im Tempel dargestellt wurde:",
           "bitten_r": "Lass alle Menschen dein Angesicht schauen.",
-          "bitten": "Du Sehnsucht der Völker und Licht zur Erleuchtung der Heiden,^qführe alle, die dich noch nicht kennen, zum Glauben.^pDu Hoffnung des greisen Simeon und der Prophetin Hanna,^qsei den alten Menschen nahe.^pDu Zeichen, dem widersprochen wird,^qstärke alle, die um deines Namens willen verfolgt werden.^pDu Sohn der Mutter Maria, deren Seele ein Schwert durchbohrt hat,^qtröste alle, die leiden müssen.^pLass die Sterbenden in Frieden scheiden^qund schenke unseren Verstorbenen dein Heil."
+          "bitten": "Du Sehnsucht der Völker und Licht zur Erleuchtung der Heiden,^qführe alle, die dich noch nicht kennen, zum Glauben.^pDu Hoffnung des greisen Simeon und der Prophetin Hanna,^qsei den alten Menschen nahe.^pDu Zeichen, dem widersprochen wird,^qstärke alle, die um deines Namens willen verfolgt werden.^pDu Sohn der Mutter Maria, deren Seele ein Schwert durchbohrt hat,^qtröste alle, die leiden müssen.^pLass die Sterbenden in Frieden scheiden,^qund schenke unseren Verstorbenen dein Heil."
         }
       },
       "4": {
@@ -8889,6 +8884,96 @@ export const brevierData = {
       }
     }
   },
+  "k1": {
+    "each": {
+      "0": {
+        "Komplet": {
+          "oration_komplet": "Allmächtiger Gott, wir haben heute das Geheimnis der Auferstehung unseres Herrn gefeiert. Am Abend rufen wir zu dir: Bewahre uns in dieser Nacht vor allem Bösen. Lass uns in deinem Frieden ruhen und morgen den neuen Tag mit deinem Lob beginnen. Darum bitten wir durch Christus, unseren Herrn."
+        }
+      },
+      "6": {
+        "Komplet": {
+          "oration_komplet": "Herr, bleibe bei uns in dieser Nacht, und wenn wir uns am Morgen erheben, dann lass uns in Freude der Auferstehung deines Sohnes gedenken, der mit dir lebt und herrscht in alle Ewigkeit."
+        }
+      },
+      "each": {
+        "Komplet": {
+          "hymn_1": 504.0,
+          "hymn_2": 516.0,
+          "ps_1": 4.0,
+          "ps_2": 134.0,
+          "ant_1": "Sei mir gnädig, Herr, und höre auf mein Flehen.",
+          "ant_2": "Zu nächtlicher Stunde preiset den Herrn.",
+          "ant_3": "",
+          "les_buch": "Dtn",
+          "les_stelle": "6,4–7",
+          "les_text": "Höre, Israel! Jahwe, unser Gott, Jahwe ist einzig. Dar­um sollst du den Herrn, deinen Gott, lieben mit gan­zem Herzen, mit ganzer Seele und mit ganzer Kraft. Diese Worte, auf die ich dich heute verpflichte, sollen auf deinem Herzen geschrieben stehen. Du sollst sie deinen Söhnen wiederholen. Du sollst von ihnen reden, wenn du zu Hause sitzt und wenn du auf der Straße gehst, wenn du dich schlafen legst und wenn du aufstehst.^R",
+          "resp1_1": "Herr, auf dich vertraue ich,",
+          "resp1_2": "in deine Hände lege ich mein Leben.",
+          "resp1_3": "Lass leuchten über deinem Knecht dein Antlitz, hilf mir in deiner Güte.",
+          "ant_ev": "Sei unser Heil, o°Herr, wenn wir wachen, und unser Schutz, wenn wir schlafen, damit wir wachen mit Christus und ruhen in Frieden.^ö",
+          "ev": 501.0,
+          "ev_lat": 502.0,
+          "oration_komplet": "Herr und Gott, kehre ein in dieses Haus und halte alle Nachstellungen des Feindes von ihm fern. Deine heiligen Engel mögen darin wohnen und uns im Frieden bewahren. Und dein Segen sei über uns allezeit. Darum bitten wir durch Christus, unsern Herrn. Amen."
+        }
+      }
+    },
+    "o": {
+      "6": {
+        "Komplet": {
+          "resp1_1": "",
+          "resp1_2": "",
+          "resp1_3": "",
+          "oration_komplet": "Herr, bleibe bei uns in dieser Nacht, und wenn wir uns am Morgen erheben, dann lass uns in Freude der Auferstehung deines Sohnes gedenken, der mit dir lebt und herrscht in alle Ewigkeit."
+        }
+      }
+    }
+  },
+  "k2": {
+    "o": {
+      "0": {
+        "Komplet": {
+          "resp1_1": "",
+          "resp1_2": "",
+          "resp1_3": "",
+          "oration_komplet": "Allmächtiger Gott, wir haben heute das Geheimnis der Auferstehung unseres Herrn gefeiert. Am Abend rufen wir zu dir: Bewahre uns in dieser Nacht vor allem Bösen. Lass uns in deinem Frieden ruhen und morgen den neuen Tag mit deinem Lob beginnen. Darum bitten wir durch Christus, unseren Herrn."
+        }
+      }
+    },
+    "each": {
+      "0": {
+        "Komplet": {
+          "oration_komplet": "Allmächtiger Gott, wir haben heute das Geheimnis der Auferstehung unseres Herrn gefeiert. Am Abend rufen wir zu dir: Bewahre uns in dieser Nacht vor allem Bösen. Lass uns in deinem Frieden ruhen und morgen den neuen Tag mit deinem Lob beginnen. Darum bitten wir durch Christus, unseren Herrn."
+        }
+      },
+      "6": {
+        "Komplet": {
+          "oration_komplet": "Herr, bleibe bei uns in dieser Nacht, und wenn wir uns am Morgen erheben, dann lass uns in Freude der Auferstehung deines Sohnes gedenken, der mit dir lebt und herrscht in alle Ewigkeit."
+        }
+      },
+      "each": {
+        "Komplet": {
+          "hymn_1": 504.0,
+          "hymn_2": 510.0,
+          "ps_1": 91.0,
+          "ant_0": "Mit seinen Flügeln beschirmt dich der Herr; du brauchst dich nicht zu fürchten vor dem Schrecken der Nacht.",
+          "ant_1": "",
+          "ant_2": "",
+          "ant_3": "",
+          "les_buch": "Offb",
+          "les_stelle": "22,4–5",
+          "les_text": "Sie werden sein Angesicht schauen, und sein Name ist auf ihre Stirn geschrieben. Es wird keine Nacht mehr geben, und sie brauchen weder das Licht einer Lampe noch das Licht der Sonne. Denn der Herr, ihr Gott, wird über ihnen leuchten, und sie werden herrschen in alle Ewigkeit.^R",
+          "resp1_1": "Herr, auf dich vertraue ich,",
+          "resp1_2": "in deine Hände lege ich mein Leben.",
+          "resp1_3": "Lass leuchten über deinem Knecht dein Antlitz, hilf mir in deiner Güte.",
+          "ant_ev": "Sei unser Heil, o°Herr, wenn wir wachen, und unser Schutz, wenn wir schlafen, damit wir wachen mit Christus und ruhen in Frieden.^ö",
+          "ev": 501.0,
+          "ev_lat": 502.0,
+          "oration_komplet": "Herr und Gott, kehre ein in dieses Haus und halte alle Nachstellungen des Feindes von ihm fern. Deine heiligen Engel mögen darin wohnen und uns im Frieden bewahren. Und dein Segen sei über uns allezeit. Darum bitten wir durch Christus, unsern Herrn. Amen."
+        }
+      }
+    }
+  },
   "o": {
     "1": {
       "0": {
@@ -9870,7 +9955,7 @@ export const brevierData = {
         "Laudes": {
           "les_buch": "Apg",
           "les_stelle": "10,40–43",
-          "les_text": "Gott hat Jesus am dritten Tag auferweckt und hat ihn erscheinen lassen, zwar nicht dem ganzen Volk, wohl aber den von Gott vorherbestimmten Zeugen: uns, die wir mit ihm nach seiner Auferstehung von den Toten gegessen und getrunken haben. Und er hat uns geboten, dem Volk zu verkündigen und zu bezeugen: Das ist der von Gott eingesetzte Richter der Lebenden und der Toten. Von ihm bezeugen alle Propheten, dass jeder, der an ihn glaubt, durch seinen Namen die Vergebung der Sünden empfängt.",
+          "les_text": "Gott hat Jesus am dritten Tag auferweckt und hat ihn erscheinen lassen, zwar nicht dem ganzen Volk, wohl aber den von Gott vorherbestimmten Zeugen: uns, die wir mit ihm nach seiner Auferstehung von den Toten gegessen und getrunken haben. Und er hat uns geboten, dem Volk zu verkündigen und zu bezeugen: Das ist der von Gott eingesetzte Richter der Lebenden und der Toten. Von ihm bezeugen alle Propheten, dass jeder, der an ihn glaubt, durch seinen Namen die Vergebung der Sünden empfängt.^R",
           "resp1_1": "Christus, du Sohn des lebendigen Gottes!",
           "resp1_2": "Halleluja,°halleluja.",
           "resp1_3": "Du bist wahrhaft vom Tode erstanden.",
@@ -9896,7 +9981,7 @@ export const brevierData = {
         "Vesper": {
           "les_buch": "Hebr",
           "les_stelle": "10,12-14",
-          "les_text": "Christus hat nur ein einziges Opfer für die Sünden dargebracht und sich dann für immer zur Rechten Gottes gesetzt; seitdem wartet er, bis seine Feinde ihm als Schemel unter die Füße gelegt werden. Denn durch ein einziges Opfer hat er die, die geheiligt werden, für immer zur Vollendung geführt.",
+          "les_text": "Christus hat nur ein einziges Opfer für die Sünden dargebracht und sich dann für immer zur Rechten Gottes gesetzt; seitdem wartet er, bis seine Feinde ihm als Schemel unter die Füße gelegt werden. Denn durch ein einziges Opfer hat er die, die geheiligt werden, für immer zur Vollendung geführt.^R",
           "bitten_e": "Lasst uns beten zu Jesus Christus, unserem Herrn, der im Tode den Tod überwunden hat:",
           "bitten_r": "Du König der Herrlichkeit, höre uns.",
           "bitten": "Christus, siegreich von den Toten erstanden;^qgib allen in der Welt österliche Freude, die heute das Fest deiner Auferstehung feiern.^pGedenke aller Neugetauften, die wiedergeboren wurden aus dem Wasser und dem Heiligen Geist;^qlass das neue Leben in ihnen wachsen.^psegne alle, die in diesem Jahr zum erstenmal zu deinem Tisch hinzutreten;^qstärke sie auf ihrem Lebensweg.^plenke die Herzen derer, die uns regieren,^qund schenke allen Völkern der Erde Freiheit und Frieden.^pDu hast die Bande des Todes zerbrochen;^qschenke unseren Verstorbenen Anteil an deinem Ostersieg."
@@ -9906,7 +9991,7 @@ export const brevierData = {
         "Laudes": {
           "les_buch": "Röm",
           "les_stelle": "10,8b-10",
-          "les_text": "Das Wort ist dir nahe, es ist in deinem Mund und in deinem Herzen. Gemeint ist das Wort des Glaubens, das wir verkündigen; denn wenn du mit deinem Mund bekennst: \"Jesus ist der Herr\" und in deinem Herzen glaubst: \"Gott hat ihn von den Toten auferweckt\", so wirst du gerettet werden. Wer mit dem Herzen glaubt und mit dem Mund bekennt, wird Gerechtigkeit und Heil erlangen.",
+          "les_text": "Das Wort ist dir nahe, es ist in deinem Mund und in deinem Herzen. Gemeint ist das Wort des Glaubens, das wir verkündigen; denn wenn du mit deinem Mund bekennst: \"Jesus ist der Herr\" und in deinem Herzen glaubst: \"Gott hat ihn von den Toten auferweckt\", so wirst du gerettet werden. Wer mit dem Herzen glaubt und mit dem Mund bekennt, wird Gerechtigkeit und Heil erlangen.^R",
           "bitten_e": "Gepriesen sei unser Herr Jesus Christus, den der Vater verherrlicht und zum Erben der Völker gemacht hat:",
           "bitten_r": "Christus, unser Leben, rette uns.",
           "bitten": "Du hast dem Tod die Macht genommen und uns das neue Leben geschenkt;^qgib, dass wir als neue Menschen leben.^pDu hast Sünde und Tod bezwungen;^qhilf uns, dem Bösen zu widerstehen.^pDu hast das ganze Menschengeschlecht in die Freiheit der Kinder Gottes geführt;^qlass uns wachsen in dieser Freiheit.^pDu hast den Jüngern auf dem Weg nach Emmaus die Schriften aufgeschlossen;^qlass auch uns dich erkennen beim Brechen des Brotes."
@@ -9929,7 +10014,7 @@ export const brevierData = {
         "Vesper": {
           "les_buch": "Hebr",
           "les_stelle": "8,1b-3a",
-          "les_text": "Wir haben einen Hohenpriester, der sich zur Rechten des Thrones der Majestät im Himmel gesetzt hat, als Diener des Heiligtums und des wahren Zeltes, das der Herr selbst aufgeschlagen hat, nicht etwa ein Mensch. Denn jeder Hohepriester wird eingesetzt, um Gaben und Opfer darzubringen.",
+          "les_text": "Wir haben einen Hohenpriester, der sich zur Rechten des Thrones der Majestät im Himmel gesetzt hat, als Diener des Heiligtums und des wahren Zeltes, das der Herr selbst aufgeschlagen hat, nicht etwa ein Mensch. Denn jeder Hohepriester wird eingesetzt, um Gaben und Opfer darzubringen.^R",
           "bitten_e": "Lasst uns zu Christus beten, der für die Welt zur Quelle des Lebens geworden ist:",
           "bitten_r": "Sohn des lebendigen Gottes, erbarme dich.",
           "bitten": "Du Licht, das nicht vergeht, wenn der Tag sich neigt;^qnimm das Abendlob deiner Kirche an.^pDu hast dich deinen Jüngern beim Brechen des Brotes als der Auferstandene geoffenbart;^qbleibe bei deiner Kirche durch alle Zeiten.^pSei den Kranken und Leidenden nahe;^qlass sie teilhaben an der österlichen Freude.^pDu Sieger über den Tod;^qsteh den Sterbenden in ihrer letzten Stunde bei.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten."
@@ -9939,7 +10024,7 @@ export const brevierData = {
         "Laudes": {
           "les_buch": "Apg",
           "les_stelle": "13,30-33",
-          "les_text": "Gott hat Jesus von den Toten auferweckt, und er ist viele Tage hindurch denen erschienen, die mit ihm zusammen von Galiläa nach Jerusalem hinaufgezogen waren und die jetzt vor dem Volk seine Zeugen sind. So verkünden wir euch das Evangelium: Gott hat die Verheißung, die an die Väter ergangen ist, an uns, ihren Kindern, erfüllt, indem er Jesus auferweckt hat, wie es schon im zweiten Psalm heißt: Mein Sohn bist du, heute habe ich dich gezeugt.",
+          "les_text": "Gott hat Jesus von den Toten auferweckt, und er ist viele Tage hindurch denen erschienen, die mit ihm zusammen von Galiläa nach Jerusalem hinaufgezogen waren und die jetzt vor dem Volk seine Zeugen sind. So verkünden wir euch das Evangelium: Gott hat die Verheißung, die an die Väter ergangen ist, an uns, ihren Kindern, erfüllt, indem er Jesus auferweckt hat, wie es schon im zweiten Psalm heißt: Mein Sohn bist du, heute habe ich dich gezeugt.^R",
           "bitten_e": "Gepriesen sei Christus, der Auferstandene, der den Seinen erschienen ist:",
           "bitten_r": "Christus, unser Leben, rette uns.",
           "bitten": "Du hast Maria von Magdala bei ihrem Namen gerufen^qlass unsere Namen aufgeschrieben sein im Buch des Lebens.^pDu hast allen Glaubenden die Auferstehung zum ewigen Leben verheißen;^qmach uns zu Kündern dieser Frohen Botschaft.^pDu bist den Aposteln erschienen und hast ihnen deinen Heiligen Geist gegeben;^qlass uns als deine Erlösten aus diesem Geiste leben.^pDu hast deinen Jüngern versprochen, bei ihnen zu bleiben bis zum Ende der Welt;^qbleibe bei uns, heute und alle Tage unseres Lebens."
@@ -9962,7 +10047,7 @@ export const brevierData = {
         "Vesper": {
           "les_buch": "1°Petr",
           "les_stelle": "2,4-5",
-          "les_text": "Kommt zum Herrn, dem lebendigen Stein, der von den Menschen verworfen, aber von Gott auserwählt und geehrt worden ist! Lasst euch als lebendige Steine zu einem geistigen Haus aufbauen, zu einer heiligen Priesterschaft, um durch Jesus Christus geistige Opfer darzubringen, die Gott gefallen!",
+          "les_text": "Kommt zum Herrn, dem lebendigen Stein, der von den Menschen verworfen, aber von Gott auserwählt und geehrt worden ist! Lasst euch als lebendige Steine zu einem geistigen Haus aufbauen, zu einer heiligen Priesterschaft, um durch Jesus Christus geistige Opfer darzubringen, die Gott gefallen!^R",
           "bitten_e": "Lasst uns beten zu Christus, der zur Herrlichkeit des neuen Lebens erstanden ist:",
           "bitten_r": "Du König der Herrlichkeit, höre uns.",
           "bitten": "Du Licht, das nicht vergeht, wenn der Tag sich neigt;^qnimm das Abendlob deiner Kirche an.^pWir bitten für alle Gläubigen,^qdass sie den Glauben bewahren.^pWir bitten dich für die Bischöfe, Priester und Diakone,^qdass sie in Freude die Osterbotschaft verkünden.^pWir bitten für alle Lehrer des Glaubens in der Kirche,^qdass sie an deiner Wahrheit festhalten.^pWir bitten dich für unsere Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten."
@@ -9972,7 +10057,7 @@ export const brevierData = {
         "Laudes": {
           "les_buch": "Röm",
           "les_stelle": "6,8-11",
-          "les_text": "Sind wir mit Christus gestorben, so glauben wir, dass wir auch mit ihm leben werden. Wir wissen, dass Christus, von den Toten auferweckt, nicht mehr stirbt; der Tod hat keine Macht mehr über ihn. Denn durch sein Sterben ist er ein für allemal gestorben für die Sünde, sein Leben aber lebt er für Gott. So sollt auch ihr euch als Menschen begreifen, die für die Sünde tot sind, aber für Gott leben in Christus Jesus.",
+          "les_text": "Sind wir mit Christus gestorben, so glauben wir, dass wir auch mit ihm leben werden. Wir wissen, dass Christus, von den Toten auferweckt, nicht mehr stirbt; der Tod hat keine Macht mehr über ihn. Denn durch sein Sterben ist er ein für allemal gestorben für die Sünde, sein Leben aber lebt er für Gott. So sollt auch ihr euch als Menschen begreifen, die für die Sünde tot sind, aber für Gott leben in Christus Jesus.^R",
           "bitten_e": "Gepriesen sei Christus, der von den Toten erstanden ist, um uns gerecht zu machen:",
           "bitten_r": "Christus, unser Leben, rette uns.",
           "bitten": "Du hast durch deinen Sieg Freude in die Welt gebracht;^qlass uns in dieser Freude leben.^pDu hast Tod und Hölle überwunden;^qbehüte uns an diesem Tag vor allem Bösen.^pDu wirst im Himmel von den Engeln verherrlicht und auf Erden von den Menschen gepriesen;^qnimm den Lobpreis an, den wir dir heute darbringen.^pUnser neues Leben ist verborgen in Gott;^qlass es einst offenbar werden in Herrlichkeit."
@@ -9995,7 +10080,7 @@ export const brevierData = {
         "Vesper": {
           "les_buch": "Hebr",
           "les_stelle": "7,24-25",
-          "les_text": "Jesus hat, weil er auf ewig bleibt, ein unvergängliches Priestertum. Darum kann er auch die, die durch ihn vor Gott hintreten, für immer retten; denn er lebt allezeit, um für sie einzutreten. Ein solcher Hoherpriester war für uns in der Tat notwendig: einer, der heilig ist, unschuldig, makellos, abgesondert von den Sündern und erhöht über die Himmel; einer, der es nicht Tag für Tag nötig hat, wie die Hohenpriester zuerst für die eigenen Sünden Opfer darzubringen und dann für die des Volkes; denn das hat er ein für allemal getan, als er sich selbst dargebracht hat.",
+          "les_text": "Jesus hat, weil er auf ewig bleibt, ein unvergängliches Priestertum. Darum kann er auch die, die durch ihn vor Gott hintreten, für immer retten; denn er lebt allezeit, um für sie einzutreten. Ein solcher Hoherpriester war für uns in der Tat notwendig: einer, der heilig ist, unschuldig, makellos, abgesondert von den Sündern und erhöht über die Himmel; einer, der es nicht Tag für Tag nötig hat, wie die Hohenpriester zuerst für die eigenen Sünden Opfer darzubringen und dann für die des Volkes; denn das hat er ein für allemal getan, als er sich selbst dargebracht hat.^R",
           "bitten_e": "Lasst uns zu Christus beten, der von den Toten erstanden ist:",
           "bitten_r": "Du König der Herrlichkeit, höre uns.",
           "bitten": "Du Licht, das nicht vergeht, wenn der Tag sich neigt;^qnimm das Abendlob deiner Kirche an.^pGedenke aller, die deinem Volke vorstehen;^qhilf ihnen, das Beispiel eines Lebens aus dem Glauben zu geben.^pGib den Regierenden den Geist der Gerechtigkeit, damit die Menschen in Eintracht miteinander leben können.^qSchenke unserer Zeit deinen Frieden;^plass die Armen teilhaben an den Gütern der Erde.^qErbarme dich unserer Verstorbenen;^plass ihnen das Licht deiner Herrlichkeit leuchten."
@@ -10005,7 +10090,7 @@ export const brevierData = {
         "Laudes": {
           "les_buch": "Röm",
           "les_stelle": "8,10-11",
-          "les_text": "Wenn Christus in euch ist, dann ist zwar der Leib tot aufgrund der Sünde, der Geist aber ist Leben aufgrund der Gerechtigkeit. Wenn der Geist dessen in euch wohnt, der Jesus von den Toten auferweckt hat, dann wird er, der Christus Jesus von den Toten auferweckt hat, auch euren sterblichen Leib lebendig machen durch seinen Geist, der in euch wohnt.",
+          "les_text": "Wenn Christus in euch ist, dann ist zwar der Leib tot aufgrund der Sünde, der Geist aber ist Leben aufgrund der Gerechtigkeit. Wenn der Geist dessen in euch wohnt, der Jesus von den Toten auferweckt hat, dann wird er, der Christus Jesus von den Toten auferweckt hat, auch euren sterblichen Leib lebendig machen durch seinen Geist, der in euch wohnt.^R",
           "bitten_e": "Gepriesen sei Christus, der auferstandene Herr, der allezeit bei seiner Kirche ist:",
           "bitten_r": "Herr, bleibe bei uns.",
           "bitten": "Du bist der Sieger über Sünde und Tod;^qgeleite uns in deiner Macht durch diesen Tag.^pBleib uns bei mit deinem Geist^qund zeige uns deine Liebe.^pDu hast Frieden gestiftet zwischen Himmel und Erde;^qmach uns zu Boten deines Friedens.^pDu wirst am Ende der Zeit deinen Sieg vollenden;^qlass uns voll Zuversicht dein Kommen erwarten."
@@ -10028,7 +10113,7 @@ export const brevierData = {
         "Vesper": {
           "les_buch": "1°Petr",
           "les_stelle": "3,18-22",
-          "les_text": "Christus ist der Sünden wegen ein einziges Mal gestorben, er, der Gerechte, für die Ungerechten, um euch zu Gott hinzuführen; dem Fleisch nach wurde er getötet, dem Geist nach lebendig gemacht. Er ist in den Himmel gegangen; dort ist er zur Rechten Gottes, und Engel, Gewalten und Mächte sind ihm unterworfen.",
+          "les_text": "Christus ist der Sünden wegen ein einziges Mal gestorben, er, der Gerechte, für die Ungerechten, um euch zu Gott hinzuführen; dem Fleisch nach wurde er getötet, dem Geist nach lebendig gemacht. Er ist in den Himmel gegangen; dort ist er zur Rechten Gottes, und Engel, Gewalten und Mächte sind ihm unterworfen.^R",
           "bitten_e": "Lasst uns beten zu Christus, dem Erstling der Entschlafenen:",
           "bitten_r": "Sohn des lebendigen Gottes, erbarme dich.",
           "bitten": "Du Licht, das nicht vergeht, wenn der Tag sich neigt;^qnimm das Abendlob deiner Kirche an.^pDu hast auf dem Fundament der Apostel deine Kirche erbaut;^qBreite sie aus bis an die Grenzen der Erde.^pDu bist der Arzt für Seele und Leib;^qRichte die Kranken auf und stärke die Trauernden.^pDu bist der Freund der Armen und Bedrängten;^qHilf denen, die von der Mühsal des Lebens erschöpft sind.^pErbarme dich unserer Verstorbenen;^qLass ihnen das Licht deiner Herrlichkeit leuchten."
@@ -10038,7 +10123,7 @@ export const brevierData = {
         "Laudes": {
           "les_buch": "Apg",
           "les_stelle": "5,30-32",
-          "les_text": "Der Gott unserer Väter hat Jesus auferweckt, den ihr ans Holz gehängt und ermordet habt. Ihn hat Gott als Herrscher und Retter an seine rechte Seite erhoben, um Israel die Umkehr und Vergebung der Sünden zu schenken. Zeugen dieser Ereignisse sind wir und der Heilige Geist, den Gott allen verliehen hat, die ihm gehorchen.",
+          "les_text": "Der Gott unserer Väter hat Jesus auferweckt, den ihr ans Holz gehängt und ermordet habt. Ihn hat Gott als Herrscher und Retter an seine rechte Seite erhoben, um Israel die Umkehr und Vergebung der Sünden zu schenken. Zeugen dieser Ereignisse sind wir und der Heilige Geist, den Gott allen verliehen hat, die ihm gehorchen.^R",
           "bitten_e": "Gepriesen sei Christus, der Auferstandene, der seinen Jüngern am Ufer des Sees erschienen ist. Zu ihm lasst uns beten:",
           "bitten_r": "Christus, unser Leben, rette uns.",
           "bitten": "In der Morgenfrühe hast du deine Jünger am Ufer erwartet;^qlass uns in der Frühe dieses Tages voll Vertrauen zu dir kommen.^pDie Jünger haben dich erkannt als ihren auferstandenen Herrn;^qlass auch uns dich erkennen.^pDu hast deinen Jüngern ein Mahl bereitet und gesagt: „Kommt und esst“;^qlass dein Ostermahl die Quelle unserer Freude sein.^pDu hast Petrus gefragt: „Liebst du mich?“;^qgib, dass wir dich lieben."
@@ -10061,7 +10146,7 @@ export const brevierData = {
         "Vesper": {
           "les_buch": "Hebr",
           "les_stelle": "5,8-10",
-          "les_text": "Obwohl Christus der Sohn war, hat er durch Leiden den Gehorsam gelernt; zur Vollendung gelangt, ist er für alle, die ihm gehorchen, der Urheber des ewigen Heils geworden und wurde von Gott angeredet als „Hoherpriester nach der Ordnung Melchisedeks“.",
+          "les_text": "Obwohl Christus der Sohn war, hat er durch Leiden den Gehorsam gelernt; zur Vollendung gelangt, ist er für alle, die ihm gehorchen, der Urheber des ewigen Heils geworden und wurde von Gott angeredet als „Hoherpriester nach der Ordnung Melchisedeks“.^R",
           "bitten_e": "Lasst uns zu Christus beten, dem gekreuzigten und auferstan¬denen Herrn:",
           "bitten_r": "Du König der Herrlichkeit, höre uns.",
           "bitten": "Du Licht, das nicht vergeht, wenn der Tag sich neigt;^qnimm das Abendlob deiner Kirche an.^pWir bitten dich für das ganze christliche Volk:^qHilf ihm, die Einheit des Geistes zu wahren.^pFür die Priester und Diakone:^qMache sie zu freudigen Boten deiner Auferstehung.^pFür die Regierenden:^qGib, dass sie ihr Amt weise und gerecht ausüben.^pFür unsere Verstorbenen:# Lass ihnen das Licht deiner Herrlichkeit leuchten."
@@ -10071,7 +10156,7 @@ export const brevierData = {
         "Laudes": {
           "les_buch": "Röm",
           "les_stelle": "14,7-9",
-          "les_text": "Keiner von uns lebt sich selber, und keiner stirbt sich selber: Leben wir, so leben wir dem Herrn, sterben wir, so sterben wir dem Herrn. Ob wir leben oder ob wir sterben, wir gehören dem Herrn. Denn Christus ist gestorben und lebendig geworden, um Herr zu sein über Tote und Lebende.",
+          "les_text": "Keiner von uns lebt sich selber, und keiner stirbt sich selber: Leben wir, so leben wir dem Herrn, sterben wir, so sterben wir dem Herrn. Ob wir leben oder ob wir sterben, wir gehören dem Herrn. Denn Christus ist gestorben und lebendig geworden, um Herr zu sein über Tote und Lebende.^R",
           "bitten_e": "Gepriesen sei Jesus Christus, der Fürst des Lebens, zu ihm lasst uns beten:",
           "bitten_r": "Schenke uns Frieden und Freude.",
           "bitten": "Sohn Gottes, auferstanden von den Toten,^qrette und heilige uns.^pLass uns aufatmen, weil du gesiegt hast;^qlass uns leben als Kinder des Lichtes.^pStärke unseren Glauben,^qdamit wir dich vor den Menschen bezeugen können.^pDurch Leiden bist du in die Herrlichkeit eingegangen;^qsei unser Trost im Leiden."
@@ -10462,9 +10547,7 @@ export const brevierData = {
         }
       },
       "2": {
-        "Invitatorium": {
-          "ps_24": 0
-        },
+        "Invitatorium": {},
         "Laudes": {
           "hymn_1": 212.0,
           "ps_1": 24.0,
@@ -10717,9 +10800,7 @@ export const brevierData = {
         }
       },
       "5": {
-        "Invitatorium": {
-          "ps_100": 0
-        },
+        "Invitatorium": {},
         "Laudes": {
           "hymn_1": 215.0,
           "ps_1": 51.0,
@@ -11143,9 +11224,7 @@ export const brevierData = {
         }
       },
       "3": {
-        "Invitatorium": {
-          "ps_67": 0
-        },
+        "Invitatorium": {},
         "Laudes": {
           "hymn_1": 213.0,
           "hymn_kl": 402.0,
@@ -11660,9 +11739,7 @@ export const brevierData = {
         }
       },
       "2": {
-        "Invitatorium": {
-          "ps_67": 0
-        },
+        "Invitatorium": {},
         "Laudes": {
           "hymn_1": 212.0,
           "hymn_kl": 232.0,
@@ -11921,9 +11998,7 @@ export const brevierData = {
         }
       },
       "5": {
-        "Invitatorium": {
-          "ps_100": 0
-        },
+        "Invitatorium": {},
         "Laudes": {
           "hymn_1": 215.0,
           "hymn_kl": 235.0,
@@ -12098,9 +12173,7 @@ export const brevierData = {
           "bitten": "Du bist das geopferte Lamm;^qerbarme dich der Kirche, die deiner Heilstaten gedenkt.^pDu bist der treue Zeuge;^qmach die Verkünder des Evangeliums treu in ihrem Dienst.^pDu bist der König des Friedens;^qöffne die Augen der Regierenden für die Not der Armen.^pDu bist der Heiland aller Menschen;^qverhilf den Unterdrückten zu ihrem Recht.^pDu bist der Erstgeborene von den Toten;^qschenke unseren Toten Gemeinschaft mit dir und deinen Heiligen.",
           "oration": "0"
         },
-        "Invitatorium": {
-          "ps_24": 0
-        },
+        "Invitatorium": {},
         "Laudes": {
           "hymn_1": 210.0,
           "hymn_kl": 400.0,
@@ -12678,199 +12751,6 @@ export const brevierData = {
           "resp1_0": "Erkennt, dass ich Gott bin.",
           "resp1_1": "Erhaben über die Völker, erhaben auf Erden.",
           "oration": "Gott, allmächtiger Vater, du unser Herr, wir neigen uns vor dir. Sende uns das Licht des Heiligen Geistes, damit wir sicher sind vor jedem Feind und in der Freude des Herzens dir unser Lob weihen, heute und alle Tage. Darum bitten wir durch Christus, unseren Herrn."
-        }
-      }
-    },
-    "each": {
-      "0": {
-        "Invitatorium": {
-          "ant_0": "Kommt, lasst uns jubeln vor dem Herrn, lasst uns jauchzen dem Fels unseres Heiles! Halleluja.",
-          "ant_1": "",
-          "ant_2": "",
-          "ant_3": ""
-        },
-        "Komplet": {
-          "hymn_2": 510.0,
-          "ps_1": 91.0,
-          "ant_0": "Mit seinen Flügeln beschirmt dich der Herr; du brauchst dich nicht zu fürchten vor dem Schrecken der Nacht.",
-          "ant_1": "",
-          "ant_2": "",
-          "ant_3": "",
-          "les_buch": "Offb",
-          "les_stelle": "22,4–5",
-          "les_text": "Sie werden sein Angesicht schauen, und sein Name ist auf ihre Stirn geschrieben. Es wird keine Nacht mehr geben, und sie brauchen weder das Licht einer Lampe noch das Licht der Sonne. Denn der Herr, ihr Gott, wird über ihnen leuchten, und sie werden herrschen in alle Ewigkeit.",
-          "oration_komplet": "Allmächtiger Gott, wir haben heute das Geheimnis der Auferstehung unseres Herrn gefeiert. Am Abend rufen wir zu dir: Bewahre uns in dieser Nacht vor allem Bösen. Lass uns in deinem Frieden ruhen und morgen den neuen Tag mit deinem Lob beginnen. Darum bitten wir durch Christus, unseren Herrn."
-        },
-        "Lesehore": {
-          "vu": 406.0,
-          "vu_lat": 407.0
-        }
-      },
-      "1": {
-        "Invitatorium": {
-          "ant_0": "Kommt vor das Angesicht des Herrn, naht ihm mit Lobpreis!",
-          "ant_1": "",
-          "ant_2": "",
-          "ant_3": ""
-        },
-        "Komplet": {
-          "hymn_2": 511.0,
-          "ps_1": 86.0,
-          "ant_0": "Herr, du bist ein gnädiger Gott, voll Langmut und reich an Erbarmen.",
-          "ant_1": "",
-          "ant_2": "",
-          "ant_3": "",
-          "les_buch": "1°Thess",
-          "les_stelle": "5,9–10",
-          "les_text": "Gott hat uns nicht für das Gericht seines Zornes bestimmt, sondern dafür, dass wir durch Jesus Christus, unseren Herrn, das Heil erlangen. Er ist für uns gestorben, damit wir vereint mit ihm leben, ob wir nun wachen oder schlafen.",
-          "oration_komplet": "Herr, schenke uns eine ruhige Nacht und erholsamen Schlaf. Was wir heute durch Wort und Werk an Gutem ausgesät haben, das lass Wurzel schlagen und wachsen und heranreifen für die ewige Ernte. Darum bitten wir durch Christus, unseren Herrn."
-        }
-      },
-      "2": {
-        "Invitatorium": {
-          "ant_0": "Ein großer König ist der Herr; kommt, wir fallen vor ihm nieder!",
-          "ant_1": "",
-          "ant_2": "",
-          "ant_3": ""
-        },
-        "Komplet": {
-          "hymn_2": 512.0,
-          "ps_1": 143.0,
-          "ant_0": "Verbirg dein Antlitz nicht vor mir; auf dich, o°Herr, vertraue ich.",
-          "ant_1": "",
-          "ant_2": "",
-          "ant_3": "",
-          "les_buch": "1°Petr",
-          "les_stelle": "5,8–9",
-          "les_text": "Seid nüchtern und wachsam! Euer Widersacher, der Teufel, geht wie ein brüllender Löwe umher und sucht, wen er verschlingen kann. Leistet ihm Widerstand in der Kraft des Glaubens!",
-          "oration_komplet": "Herr, gütiger Vater, sei du unsere Leuchte im Dunkel der Nacht. Gib, dass wir in Frieden schlafen, damit wir uns beim Anbruch des neuen Tages in deinem Namen freudig erheben. Darum bitten wir durch Christus, unseren Herrn."
-        }
-      },
-      "3": {
-        "Invitatorium": {
-          "ant_0": "Lasst uns niederfallen vor Gott, vor dem Herrn, unserm Schöpfer!",
-          "ant_1": "",
-          "ant_2": "",
-          "ant_3": ""
-        },
-        "Komplet": {
-          "hymn_2": 513.0,
-          "ps_1": 31.4,
-          "ps_2": 130.101,
-          "ant_1": "Sei mir ein schützender Fels, eine feste Burg, die mich rettet.",
-          "ant_2": "Aus der Tiefe rufe ich, Herr, zu dir.",
-          "les_buch": "Eph",
-          "les_stelle": "4,26–27",
-          "les_text": "Lasst euch durch den Zorn nicht zur Sünde hinreißen! Die Sonne soll über eurem Zorn nicht untergehen. Gebt dem Teufel keinen Raum!",
-          "oration_komplet": "Herr Jesus Christus, du bist gütig und von Herzen demütig. Das Joch, das du denen auflegst, die dir nachfolgen, ist nicht drückend, und deine Last ist leicht. Nimm gnädig an, was wir uns heute vorgenommen und was wir vollbracht haben. Erneuere uns durch die Ruhe der Nacht und mache uns morgen eifriger in deinem Dienst. Der du lebst und herrschest in alle Ewigkeit."
-        }
-      },
-      "4": {
-        "Invitatorium": {
-          "ant_0": "Kommt, lasst uns niederknien vor dem Herrn, denn er ist unser Gott!",
-          "ant_1": "",
-          "ant_2": "",
-          "ant_3": ""
-        },
-        "Komplet": {
-          "hymn_2": 514.0,
-          "ps_1": 16.0,
-          "ant_0": "Mein Leib wird ruhen in Sicherheit.",
-          "ant_1": "",
-          "ant_2": "",
-          "ant_3": "",
-          "les_buch": "1°Thess",
-          "les_stelle": "5,23",
-          "les_text": "Der Gott des Friedens heilige euch ganz und gar und bewahre euren Geist, eure Seele und euren Leib unversehrt, damit ihr ohne Tadel seid, wenn Jesus Christus, unser Herr, kommt.",
-          "oration_komplet": "Herr, unser Gott, sende uns in dieser Nacht einen ruhigen Schlaf, damit wir uns von der Mühe des Tages erholen und morgen mit neuer Kraft dir dienen können. Darum bitten wir durch Jesus Christus, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
-        }
-      },
-      "5": {
-        "Invitatorium": {
-          "ant_0": "Danket dem Herrn; denn seine Huld währt ewig!",
-          "ant_1": "",
-          "ant_2": "",
-          "ant_3": ""
-        },
-        "Komplet": {
-          "hymn_2": 515.0,
-          "ps_1": 88.101,
-          "ant_0": "Herr, du Gott meines Heils, zu dir schreie ich am Tag und bei Nacht.",
-          "ant_1": "",
-          "ant_2": "",
-          "ant_3": "",
-          "les_buch": "Jer",
-          "les_stelle": "14,9",
-          "les_text": "Du bist in unsrer Mitte, Herr, und dein Name ist über uns ausgerufen; verlass uns nicht, Herr, unser Gott!",
-          "oration_komplet": "Allmächtiger Gott, dein eingeborener Sohn ist hinabgestiegen in die Nacht des Todes und auferstanden. Gib, dass wir alle Tage durch den Glauben ihm verbunden bleiben, damit wir einst mit ihm auferstehen zum neuen Leben. Darum bitten wir durch ihn, Christus, unseren Herrn."
-        }
-      },
-      "6": {
-        "Invitatorium": {
-          "ant_0": "Dem Herrn gehört die Erde und was sie erfüllt; kommt, wir beten ihn an!",
-          "ant_1": "",
-          "ant_2": "",
-          "ant_3": ""
-        },
-        "Komplet": {
-          "hymn_2": 516.0,
-          "ps_1": 4.0,
-          "ps_2": 134.0,
-          "ant_1": "Sei mir gnädig, Herr, und höre auf mein Flehen.",
-          "ant_2": "Zu nächtlicher Stunde preiset den Herrn.",
-          "les_buch": "Dtn",
-          "les_stelle": "6,4–7",
-          "les_text": "Höre, Israel! Jahwe, unser Gott, Jahwe ist einzig. Dar­um sollst du den Herrn, deinen Gott, lieben mit gan­zem Herzen, mit ganzer Seele und mit ganzer Kraft. Diese Worte, auf die ich dich heute verpflichte, sollen auf deinem Herzen geschrieben stehen. Du sollst sie deinen Söhnen wiederholen. Du sollst von ihnen reden, wenn du zu Hause sitzt und wenn du auf der Straße gehst, wenn du dich schlafen legst und wenn du aufstehst.",
-          "oration_komplet": "Herr, bleibe bei uns in dieser Nacht, und wenn wir uns am Morgen erheben, dann lass uns in Freude der Auferstehung deines Sohnes gedenken, der mit dir lebt und herrscht in alle Ewigkeit."
-        }
-      },
-      "each": {
-        "ErsteV": {
-          "ev": 301.0,
-          "ev_lat": 302.0,
-          "vu": 206.0,
-          "vu_lat": 207.0
-        },
-        "Invitatorium": {
-          "ps_100": 100.0,
-          "ps_95": 95.0,
-          "ps_67": 67.0,
-          "ps_24": 24.0
-        },
-        "Komplet": {
-          "hymn_1": 504.0,
-          "resp1_1": "Herr, auf dich vertraue ich,",
-          "resp1_2": "in deine Hände lege ich mein Leben.",
-          "resp1_3": "Lass leuchten über deinem Knecht dein Antlitz, hilf mir in deiner Güte.",
-          "ant_ev": "Sei unser Heil, o°Herr, wenn wir wachen, und unser Schutz, wenn wir schlafen, damit wir wachen mit Christus und ruhen in Frieden.^ö",
-          "ev": 501.0,
-          "ev_lat": 502.0,
-          "marant": 505.0,
-          "marant_lat": 506.0
-        },
-        "Laudes": {
-          "ev": 201.0,
-          "ev_lat": 202.0,
-          "vu": 206.0,
-          "vu_lat": 207.0
-        },
-        "Non": {
-          "hymn_1": 690.0,
-          "hymn_2": 691.0
-        },
-        "Sext": {
-          "hymn_1": 660.0,
-          "hymn_2": 661.0
-        },
-        "Terz": {
-          "hymn_1": 630.0,
-          "hymn_2": 631.0
-        },
-        "Vesper": {
-          "ev": 301.0,
-          "ev_lat": 302.0,
-          "vu": 206.0,
-          "vu_lat": 207.0
         }
       }
     },
@@ -14079,7 +13959,10 @@ export const brevierData = {
           "ant_3": "Mit bestem Weizen nährt uns der Herr und sättigt uns mit Honig aus dem Felsen.",
           "les_buch": "Hebr",
           "les_stelle": "2,9b-10",
-          "les_text": "Wir sehen Jesus um seines Todesleidens willen mit Herrlichkeit und Ehre gekrönt; so war es Gottes gnädiger Wille, dass er für alle den Tod erlitten hat. Denn es war angemessen, dass Gott, für den und durch den das All ist und der viele Söhne zur Herrlichkeit führen wollte, den Urheber ihres Heils durch Leiden vollendete.",
+          "les_text": "Wir sehen Jesus um seines Todesleidens willen mit Herrlichkeit und Ehre gekrönt; so war es Gottes gnädiger Wille, dass er für alle den Tod erlitten hat. Denn es war angemessen, dass Gott, für den und durch den das All ist und der viele Söhne zur Herrlichkeit führen wollte, den Urheber ihres Heils durch Leiden vollendete.^p^rAnstelle des Responsoriums wird die folgende Antiphon genommen:^0r^lChristus war für uns gehorsam bis zum Tod.",
+          "resp1_1": "",
+          "resp1_2": "",
+          "resp1_3": "",
           "ant_ev": "Mit Sehnsucht habe ich danach verlangt, dieses Ostermahl mit euch zu halten, bevor ich leide."
         },
         "Non": {
@@ -14225,7 +14108,6 @@ export const brevierData = {
           "oration": "Allmächtiger, ewiger Gott, dein eingeborener Sohn ist in das Reich des Todes hinabgestiegen und von den Toten glorreich auferstanden. Gib, dass deine Gläubigen, die durch die Taufe mit ihm begraben wurden, durch seine Auferstehung zum ewigen Leben gelangen. Darum bitten wir durch ihn, Jesus Christus."
         },
         "Invitatorium": {
-          "ps_24": 0,
           "ant_0": "Christus, unser Herr, hat für uns den Tod erlitten und wurde ins Grab gelegt; kommt, wir beten ihn an!"
         },
         "Komplet": {
@@ -14809,6 +14691,53 @@ export const brevierData = {
       }
     }
   },
+  "soll": {
+    "each": {
+      "0": {
+        "Non": {
+          "ps_1": 118.1,
+          "ps_2": 118.2,
+          "ps_3": 118.3,
+          "ant_1": "Gut ist es, sich zu bergen beim Herrn; seine Huld währt ewig. Halleluja.",
+          "ant_2": "Meine Stärke und mein Lied ist der Herr. Halleluja.",
+          "ant_3": "Ich danke dir, Herr, denn du hast mich erhört. Halleluja."
+        },
+        "Sext": {
+          "ps_1": 118.1,
+          "ps_2": 118.2,
+          "ps_3": 118.3,
+          "ant_1": "Gut ist es, sich zu bergen beim Herrn; seine Huld währt ewig. Halleluja.",
+          "ant_2": "Meine Stärke und mein Lied ist der Herr. Halleluja.",
+          "ant_3": "Ich danke dir, Herr, denn du hast mich erhört. Halleluja."
+        },
+        "Terz": {
+          "ps_1": 118.1,
+          "ps_2": 118.2,
+          "ps_3": 118.3,
+          "ant_1": "Gut ist es, sich zu bergen beim Herrn; seine Huld währt ewig. Halleluja.",
+          "ant_2": "Meine Stärke und mein Lied ist der Herr. Halleluja.",
+          "ant_3": "Ich danke dir, Herr, denn du hast mich erhört. Halleluja."
+        }
+      },
+      "each": {
+        "Non": {
+          "ps_1": 126.0,
+          "ps_2": 127.0,
+          "ps_3": 128.0
+        },
+        "Sext": {
+          "ps_1": 123.0,
+          "ps_2": 124.0,
+          "ps_3": 125.0
+        },
+        "Terz": {
+          "ps_1": 120.0,
+          "ps_2": 121.0,
+          "ps_3": 122.0
+        }
+      }
+    }
+  },
   "w": {
     "1": {
       "0": {
@@ -15005,6 +14934,197 @@ export const brevierData = {
           "ant_1": "Dein ist die Herrschaft am Tag deiner Macht, wenn du erscheinst in heiligem Schmuck; ich habe dich gezeugt noch vor dem Morgenstern.",
           "ant_2": "Beim Herrn ist die Huld, bei ihm ist Erlösung in Fülle.",
           "ant_3": "Das Wort war Gott – im Anfang und vor aller Zeit; heute ist er geboren als Heiland der Welt."
+        }
+      }
+    }
+  },
+  "wt": {
+    "each": {
+      "0": {
+        "Invitatorium": {
+          "ant_0": "Kommt, lasst uns jubeln vor dem Herrn, lasst uns jauchzen dem Fels unseres Heiles! Halleluja.",
+          "ant_1": "",
+          "ant_2": "",
+          "ant_3": ""
+        },
+        "Komplet": {
+          "hymn_2": 510.0,
+          "ps_1": 91.0,
+          "ant_0": "Mit seinen Flügeln beschirmt dich der Herr; du brauchst dich nicht zu fürchten vor dem Schrecken der Nacht.",
+          "ant_1": "",
+          "ant_2": "",
+          "ant_3": "",
+          "les_buch": "Offb",
+          "les_stelle": "22,4–5",
+          "les_text": "Sie werden sein Angesicht schauen, und sein Name ist auf ihre Stirn geschrieben. Es wird keine Nacht mehr geben, und sie brauchen weder das Licht einer Lampe noch das Licht der Sonne. Denn der Herr, ihr Gott, wird über ihnen leuchten, und sie werden herrschen in alle Ewigkeit.",
+          "oration_komplet": "Allmächtiger Gott, wir haben heute das Geheimnis der Auferstehung unseres Herrn gefeiert. Am Abend rufen wir zu dir: Bewahre uns in dieser Nacht vor allem Bösen. Lass uns in deinem Frieden ruhen und morgen den neuen Tag mit deinem Lob beginnen. Darum bitten wir durch Christus, unseren Herrn."
+        },
+        "Lesehore": {
+          "vu": 406.0,
+          "vu_lat": 407.0
+        }
+      },
+      "1": {
+        "Invitatorium": {
+          "ant_0": "Kommt vor das Angesicht des Herrn, naht ihm mit Lobpreis!",
+          "ant_1": "",
+          "ant_2": "",
+          "ant_3": ""
+        },
+        "Komplet": {
+          "hymn_2": 511.0,
+          "ps_1": 86.0,
+          "ant_0": "Herr, du bist ein gnädiger Gott, voll Langmut und reich an Erbarmen.",
+          "ant_1": "",
+          "ant_2": "",
+          "ant_3": "",
+          "les_buch": "1°Thess",
+          "les_stelle": "5,9–10",
+          "les_text": "Gott hat uns nicht für das Gericht seines Zornes bestimmt, sondern dafür, dass wir durch Jesus Christus, unseren Herrn, das Heil erlangen. Er ist für uns gestorben, damit wir vereint mit ihm leben, ob wir nun wachen oder schlafen.",
+          "oration_komplet": "Herr, schenke uns eine ruhige Nacht und erholsamen Schlaf. Was wir heute durch Wort und Werk an Gutem ausgesät haben, das lass Wurzel schlagen und wachsen und heranreifen für die ewige Ernte. Darum bitten wir durch Christus, unseren Herrn."
+        }
+      },
+      "2": {
+        "Invitatorium": {
+          "ant_0": "Ein großer König ist der Herr; kommt, wir fallen vor ihm nieder!",
+          "ant_1": "",
+          "ant_2": "",
+          "ant_3": ""
+        },
+        "Komplet": {
+          "hymn_2": 512.0,
+          "ps_1": 143.0,
+          "ant_0": "Verbirg dein Antlitz nicht vor mir; auf dich, o°Herr, vertraue ich.",
+          "ant_1": "",
+          "ant_2": "",
+          "ant_3": "",
+          "les_buch": "1°Petr",
+          "les_stelle": "5,8–9",
+          "les_text": "Seid nüchtern und wachsam! Euer Widersacher, der Teufel, geht wie ein brüllender Löwe umher und sucht, wen er verschlingen kann. Leistet ihm Widerstand in der Kraft des Glaubens!",
+          "oration_komplet": "Herr, gütiger Vater, sei du unsere Leuchte im Dunkel der Nacht. Gib, dass wir in Frieden schlafen, damit wir uns beim Anbruch des neuen Tages in deinem Namen freudig erheben. Darum bitten wir durch Christus, unseren Herrn."
+        }
+      },
+      "3": {
+        "Invitatorium": {
+          "ant_0": "Lasst uns niederfallen vor Gott, vor dem Herrn, unserm Schöpfer!",
+          "ant_1": "",
+          "ant_2": "",
+          "ant_3": ""
+        },
+        "Komplet": {
+          "hymn_2": 513.0,
+          "ps_1": 31.4,
+          "ps_2": 130.101,
+          "ant_1": "Sei mir ein schützender Fels, eine feste Burg, die mich rettet.",
+          "ant_2": "Aus der Tiefe rufe ich, Herr, zu dir.",
+          "les_buch": "Eph",
+          "les_stelle": "4,26–27",
+          "les_text": "Lasst euch durch den Zorn nicht zur Sünde hinreißen! Die Sonne soll über eurem Zorn nicht untergehen. Gebt dem Teufel keinen Raum!",
+          "oration_komplet": "Herr Jesus Christus, du bist gütig und von Herzen demütig. Das Joch, das du denen auflegst, die dir nachfolgen, ist nicht drückend, und deine Last ist leicht. Nimm gnädig an, was wir uns heute vorgenommen und was wir vollbracht haben. Erneuere uns durch die Ruhe der Nacht und mache uns morgen eifriger in deinem Dienst. Der du lebst und herrschest in alle Ewigkeit."
+        }
+      },
+      "4": {
+        "Invitatorium": {
+          "ant_0": "Kommt, lasst uns niederknien vor dem Herrn, denn er ist unser Gott!",
+          "ant_1": "",
+          "ant_2": "",
+          "ant_3": ""
+        },
+        "Komplet": {
+          "hymn_2": 514.0,
+          "ps_1": 16.0,
+          "ant_0": "Mein Leib wird ruhen in Sicherheit.",
+          "ant_1": "",
+          "ant_2": "",
+          "ant_3": "",
+          "les_buch": "1°Thess",
+          "les_stelle": "5,23",
+          "les_text": "Der Gott des Friedens heilige euch ganz und gar und bewahre euren Geist, eure Seele und euren Leib unversehrt, damit ihr ohne Tadel seid, wenn Jesus Christus, unser Herr, kommt.",
+          "oration_komplet": "Herr, unser Gott, sende uns in dieser Nacht einen ruhigen Schlaf, damit wir uns von der Mühe des Tages erholen und morgen mit neuer Kraft dir dienen können. Darum bitten wir durch Jesus Christus, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+        }
+      },
+      "5": {
+        "Invitatorium": {
+          "ant_0": "Danket dem Herrn; denn seine Huld währt ewig!",
+          "ant_1": "",
+          "ant_2": "",
+          "ant_3": ""
+        },
+        "Komplet": {
+          "hymn_2": 515.0,
+          "ps_1": 88.101,
+          "ant_0": "Herr, du Gott meines Heils, zu dir schreie ich am Tag und bei Nacht.",
+          "ant_1": "",
+          "ant_2": "",
+          "ant_3": "",
+          "les_buch": "Jer",
+          "les_stelle": "14,9",
+          "les_text": "Du bist in unsrer Mitte, Herr, und dein Name ist über uns ausgerufen; verlass uns nicht, Herr, unser Gott!",
+          "oration_komplet": "Allmächtiger Gott, dein eingeborener Sohn ist hinabgestiegen in die Nacht des Todes und auferstanden. Gib, dass wir alle Tage durch den Glauben ihm verbunden bleiben, damit wir einst mit ihm auferstehen zum neuen Leben. Darum bitten wir durch ihn, Christus, unseren Herrn."
+        }
+      },
+      "6": {
+        "Invitatorium": {
+          "ant_0": "Dem Herrn gehört die Erde und was sie erfüllt; kommt, wir beten ihn an!",
+          "ant_1": "",
+          "ant_2": "",
+          "ant_3": ""
+        },
+        "Komplet": {
+          "hymn_2": 516.0,
+          "ps_1": 4.0,
+          "ps_2": 134.0,
+          "ant_1": "Sei mir gnädig, Herr, und höre auf mein Flehen.",
+          "ant_2": "Zu nächtlicher Stunde preiset den Herrn.",
+          "ant_3": "",
+          "les_buch": "Dtn",
+          "les_stelle": "6,4–7",
+          "les_text": "Höre, Israel! Jahwe, unser Gott, Jahwe ist einzig. Dar­um sollst du den Herrn, deinen Gott, lieben mit gan­zem Herzen, mit ganzer Seele und mit ganzer Kraft. Diese Worte, auf die ich dich heute verpflichte, sollen auf deinem Herzen geschrieben stehen. Du sollst sie deinen Söhnen wiederholen. Du sollst von ihnen reden, wenn du zu Hause sitzt und wenn du auf der Straße gehst, wenn du dich schlafen legst und wenn du aufstehst.",
+          "oration_komplet": "Herr, bleibe bei uns in dieser Nacht, und wenn wir uns am Morgen erheben, dann lass uns in Freude der Auferstehung deines Sohnes gedenken, der mit dir lebt und herrscht in alle Ewigkeit."
+        }
+      },
+      "each": {
+        "ErsteV": {
+          "ev": 301.0,
+          "ev_lat": 302.0,
+          "vu": 206.0,
+          "vu_lat": 207.0
+        },
+        "Invitatorium": {},
+        "Komplet": {
+          "hymn_1": 504.0,
+          "resp1_1": "Herr, auf dich vertraue ich,",
+          "resp1_2": "in deine Hände lege ich mein Leben.",
+          "resp1_3": "Lass leuchten über deinem Knecht dein Antlitz, hilf mir in deiner Güte.",
+          "ant_ev": "Sei unser Heil, o°Herr, wenn wir wachen, und unser Schutz, wenn wir schlafen, damit wir wachen mit Christus und ruhen in Frieden.^ö",
+          "ev": 501.0,
+          "ev_lat": 502.0,
+          "marant": 505.0,
+          "marant_lat": 506.0
+        },
+        "Laudes": {
+          "ev": 201.0,
+          "ev_lat": 202.0,
+          "vu": 206.0,
+          "vu_lat": 207.0
+        },
+        "Non": {
+          "hymn_1": 690.0,
+          "hymn_2": 691.0
+        },
+        "Sext": {
+          "hymn_1": 660.0,
+          "hymn_2": 661.0
+        },
+        "Terz": {
+          "hymn_1": 630.0,
+          "hymn_2": 631.0
+        },
+        "Vesper": {
+          "ev": 301.0,
+          "ev_lat": 302.0,
+          "vu": 206.0,
+          "vu_lat": 207.0
         }
       }
     }
