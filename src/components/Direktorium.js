@@ -13,6 +13,7 @@ import { getValue as extGetValue } from './comp_GetValue.js';
 import { SectionHeader as extSectionHeader } from './comp_SectionHeader.js';
 import { psalmsData } from './data_PsHymn.ts';
 import KompletSelector from './comp_KompletSelector.js';
+import HymnSelector from './comp_HymnSelector.js';
 
 const fontFamily = 'Cambria, serif';
 const hangingIndent = '3.2em'; // Variable für den Einzug
@@ -1380,45 +1381,16 @@ const PrayerTextDisplay = ({
                             askTSN={true}
                             onSelectHour={onSelectHour}
                         />
-                        {getValue('hymn_nacht')?.text && (
-                            <>
-                                <Rubric>In der Nacht oder am frühen Morgen:</Rubric>
-                                <div className="mb-4">
-                                    {formatPrayerText(getValue('hymn_nacht').text)}
-                                </div>
-                                <Rubric>Am Tag:</Rubric>
-                            </>
-                        )}
-                        {getValue('hymn_1')?.text && (
-                            <div className="mb-4">
-                                {formatPrayerText(getValue('hymn_1').text)}
-                            </div>
-                        )}
-                        {getValue('hymn_2')?.text && (
-                            <>
-                                <Rubric>Oder:</Rubric>
-                                <div className="mb-4">
-                                    {formatPrayerText(getValue('hymn_2').text)}
-                                </div>
-                            </>
-                        )}
-                        {getValue('hymn_3')?.text && (
-                            <>
-                                <Rubric>Oder:</Rubric>
-                                <div className="mb-4">
-                                    {formatPrayerText(getValue('hymn_3').text)}
-                                </div>
-                            </>
-                        )}
-                        {getValue('hymn_kl')?.text && (
-                            <>
-                                <Rubric>Im Kleinen Stundenbuch:</Rubric>
-                                <div className="">
-                                    {formatPrayerText(getValue('hymn_kl').text)}
-                                </div>
-                            </>
-                        )}
-                    </div>)}
+
+                        <HymnSelector
+                            texts={texts}
+                            hour={hour}
+                            prefSrc={prefSrc}
+                            formatPrayerText={formatPrayerText}
+                        />
+
+                    </div>
+                )}
 
                 {(getValue('ps_1') || hour === "invitatorium") && (
                     <div className="mb-1">

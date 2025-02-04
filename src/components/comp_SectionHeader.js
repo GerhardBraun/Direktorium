@@ -71,6 +71,8 @@ export const SectionHeader = ({
         (texts?.hasErsteVesper && hour === 'vesper')
     ) { skipCommune = false };
 
+    if (title === "HYMNUS") { skipCommune = true };
+
     if (title === "RESPONSORIUM" ||
         (!invPsalms && !showSources && !hasLatin && !showPsalmsWt && !showContinuous && !showTSN)) {
         return <h2 className="prayer-heading">{title}</h2>;

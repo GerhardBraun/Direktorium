@@ -3217,12 +3217,12 @@ export const adlibData = {
         "ErsteV": {
           "name": "Hl. Irenäus",
           "comm_1": "MärtSg",
-          "comm_2": "Hirten",
+          "comm_2": "Hirten_Kl",
           "oration": "Gott der Wahrheit und des Friedens, in deiner Kraft hat der heilige Irenäus die wahre Lehre verteidigt und der Kirche den Frieden erhalten. Auf seine Fürsprache erneuere in uns den Glauben und die Liebe und mache uns bereit, Frieden und Eintracht zu fördern. Darum bitten wir durch Jesus Christus."
         },
         "Lesehore": {
           "comm_1": "MärtSg",
-          "comm_2": "Hirten",
+          "comm_2": "Hirten_Kl",
           "patr_autor": "Irenäus von Lyon († um 202)",
           "patr_werk": "Aus dem Buch gegen die Irrlehren.",
           "patr_text": "^hDer lebende Mensch ist Herrlichkeit Gottes^pDie Herrlichkeit Gottes verleiht Leben. Die Gott schauen, erhalten Anteil am Leben. Deswegen macht sich der unfassbare, unbegreifliche und unsichtbare Gott sichtbar, begreifbar und fassbar für die Menschen, um ihnen Leben zu schenken, wenn sie ihn durch den Glauben aufnehmen und sehen.^pDie Menschen werden Gott sehen, damit sie leben, durch die Schau unsterblich werden und zu Gott gelangen. Wie ich früher gesagt habe, deuteten die Propheten in Bildern an, dass die Menschen Gott schauen würden, wenn sie seinen Geist tragen und immer auf sein Kommen warten, wie Mose sagt: „An jenem Tag werden wir schauen, weil Gott zum Menschen sprechen wird. Und er wird leben.“{1#vgl.°Dtn 5,24}^pWie ist Gott und wie groß ist er, er, der alles in allem wirkt, der unsichtbar ist, der für die, die er geschaffen hat, mit Worten nicht zu fassen ist, der aber dennoch nicht unerkennbar ist! Die Menschen lernen alles durch sein Wort: dass ein Gott ist, der Vater, der alles zusammenhält und allem das Sein gibt, wie der Herr gesagt hat: „Niemand hat Gott je gesehen. Der Einzige, der Gott ist und am Herzen des Vaters ruht, er hat Kunde gebracht.“{2#Joh 1,18} Der Kunde bringt, ist von Anfang an der Sohn des Vaters, da er von Anfang an beim Vater ist. Er hat dem Menschengeschlecht von Anfang an in Harmonie und Zusammenklang wie in einer Melodie die prophetische Geschichte, die Verteilung der Gnadengaben, seine eigenen Verdienste und die Herrlichkeit des Vaters gezeigt, jedesmal wenn die Zeit dafür da war und wenn es für den Menschen gut war. Denn wo Harmonie ist, da ist das rechte Maß, wo das rechte Maß, da ist auch das Zeitgerechte, und wo das Zeitgerechte, da auch das Zuträgliche.^pDeshalb ist das Wort zum Nutzen der Menschen Austeiler der Gnadengaben geworden, die der Vater schenkt. Für die Menschen traf es seine so bedeutenden Fügungen, zeigte ihnen Gott und stellte sie Gott vor. Es wahrte die Unsichtbarkeit Gottes, damit der Mensch kein Gottverächter werde und immer ein Ziel vor sich habe, dem er zustreben kann. Und doch machte das Wort Gott sichtbar, indem es den Menschen durch vielerlei Fügungen seiner Heilsordnung auf ihn hinwies, damit der Mensch nicht gänzlich von Gott abkomme und aufhöre zu sein. Herrlichkeit Gottes ist der lebendige Mensch; das Leben des Menschen die Gottesschau. Doch wenn die Erkenntnis Gottes durch die Schöpfung den irdischen Lebewesen Leben verleiht, um wieviel mehr gibt dann die Offenbarung des Vaters durch das Wort denen Leben, die Gott schauen!",
@@ -3235,14 +3235,14 @@ export const adlibData = {
           "name": "Hl. Irenäus",
           "farbe": "r",
           "comm_1": "MärtSg",
-          "comm_2": "Hirten",
+          "comm_2": "Hirten_Kl",
           "ant_ev": "Irenäus, wahrhaft ein Mann des Friedens, war voll Eifer bemüht um Frieden und Eintracht unter den Kirchen.",
           "oration": "Gott der Wahrheit und des Friedens, in deiner Kraft hat der heilige Irenäus die wahre Lehre verteidigt und der Kirche den Frieden erhalten. Auf seine Fürsprache erneuere in uns den Glauben und die Liebe und mache uns bereit, Frieden und Eintracht zu fördern. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
           "name": "Hl. Irenäus",
           "comm_1": "MärtSg",
-          "comm_2": "Hirten",
+          "comm_2": "Hirten_Kl",
           "oration": "Gott der Wahrheit und des Friedens, in deiner Kraft hat der heilige Irenäus die wahre Lehre verteidigt und der Kirche den Frieden erhalten. Auf seine Fürsprache erneuere in uns den Glauben und die Liebe und mache uns bereit, Frieden und Eintracht zu fördern. Darum bitten wir durch Jesus Christus."
         }
       }
