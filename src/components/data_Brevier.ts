@@ -3542,8 +3542,8 @@ export const brevierData = {
       "11": {
         "each": {
           "comm_1": "Apostel",
-          "comm_2": "LEER Gott, du hast den heiligen Barnabas, einen Mann voll des Glaubens und des Heiligen Geistes, als Boten des Evange­liums zu den Heiden gesandt. Berufe auch heute Männer und Frauen, die in Wort und Tat die Botschaft Jesu Christi verkünden, der in der Ein­heit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
-          "oration": "Gott, du hast den heiligen Barnabas, einen Mann voll des Glaubens und des Heiligen Geistes, als Boten des Evange­liums zu den Heiden gesandt. Berufe auch heute Männer und Frauen, die in Wort und Tat die Botschaft Jesu Christi verkünden, der in der Ein­heit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "comm_2": "LEER Gott, du hast den heiligen Barnabas, einen Mann voll des Glaubens und des Heiligen Geistes, als Boten des Evangeliums zu den Heiden gesandt. Berufe auch heute Männer und Frauen, die in Wort und Tat die Botschaft Jesu Christi verkünden, der in der Ein­heit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
+          "oration": "Gott, du hast den heiligen Barnabas, einen Mann voll des Glaubens und des Heiligen Geistes, als Boten des Evangeliums zu den Heiden gesandt. Berufe auch heute Männer und Frauen, die in Wort und Tat die Botschaft Jesu Christi verkünden, der in der Ein­heit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         },
         "Invitatorium": {
           "ant_0": "Durch Propheten und Lehrer hat Gottes Geist zu uns gesprochen; kommt, wir beten ihn an!^ö"
@@ -3563,7 +3563,13 @@ export const brevierData = {
           "bitten": "Du hast deiner Kirche immer wieder heilige Menschen als Hirten geschenkt;^qsende deinen Gläubigen allezeit gute Seelsorger.^pDu hast den Hirten der Kirche den Dienst der Versöhnung anvertraut;^qgib, dass sie ihn treu verwalten.^pDu bist es, der den Seelsorgern Kraft von oben verleiht;^qerfülle alle, die dein Volk führen, mit Heiligem Geist.^pDu selber bist das Erbteil aller, die du zu Seelsorgern berufen hast;^qlass keinen von ihnen verlorengehen.^pDu bist der ewige Lohn deiner Diener;^qschenke den verstorbenen Seelsorgern und allen Gläubigen das ewige Leben."
         },
         "Lesehore": {
-          "comm_2": "LEER "
+          "comm_2": "Texte ",
+          "patr_autor": "Chromatius von Aquileia († 407)",
+          "patr_werk": "Aus einer Auslegung zum Matthäusevangelium.",
+          "patr_text": "^hIhr seid das Licht der Welt^p„Ihr seid das Licht der Welt. Eine Stadt, die auf einem Berg liegt, kann nicht verborgen bleiben. Man zündet auch nicht ein Licht an und stülpt ein Gefäß darüber, sondern man stellt es auf den Leuchter; dann leuchtet es allen im Haus.“{1#Mt 5,14-15} Der Herr hat seine Jünger „Salz der Erde“ genannt. Durch den Teufel war das Herz der Menschen schal geworden. Die Jünger würzten es mit der Weisheit vom Himmel. Hier nennt er sie „Licht der Welt“, weil auch sie, von ihm, dem wahren und ewigen Licht, erleuchtet, Licht für die Finsternis geworden sind.^pWeil er selbst die „Sonne der Gerechtigkeit“ ist{2#Mal 3,20}, nennt er auch seine Jünger nicht zu Unrecht „Licht der Welt“. Durch sie sendet er gleichsam in glänzenden Strahlen dem ganzen Erdkreis das Licht seiner Erkenntnis; denn sie vertreiben aus dem Herzen der Menschen die Finsternis des Irrtums, indem sie das Licht der Wahrheit aufscheinen lassen.^pDurch sie sind auch wir erleuchtet und aus Finsternis Licht geworden, wie der Apostel sagt: „Einst wart ihr Finsternis, jetzt aber seid ihr durch den Herrn Licht geworden. Lebt als Kinder des Lichtes!“{3#Eph 5,8} und wieder: „Ihr leuchtet wie Lichter in der Welt und haltet fest am Wort des Lebens.“{4#Phil 2,15-16}^pTäten wir das nicht, so müsste es scheinen, als versteckten und verdunkelten wir durch unsere Untreue wie unter einem Schleier das so notwendige und nützliche Licht zu unserem Schaden und zum Schaden anderer. So hat auch jener Knecht, der das eine Talent erhalten hatte, um damit zum Vorteil des Himmels zu arbeiten, sich die schuldige Strafe zugezogen. Denn er hatte das Talent vergraben, statt es auf die Bank zu bringen{5#vgl.°Mt 25,26-27}.^pDarum muss die strahlende Lampe, die zu unserem Heil angezündet wurde, immer in uns leuchten. Wir haben die Lampe des göttlichen Gebotes und der Gnade, von der David erklärt: „Dein Wort ist meinem Fuß eine Leuchte, ein Licht für meine Pfade.“{6#Ps 119,105} Salomo sagt darüber: „Eine Leuchte ist das Gebot und die Lehre ein Licht.“{7#Spr 6,23}^pWir dürfen also diese Lampe des Gesetzes und des Glaubens nicht verstecken, müssen sie vielmehr zum Heil der Vielen allzeit in der Kirche auf einen Leuchter stellen, damit wir selbst das Licht der Wahrheit genießen und damit alle Gläubigen erleuchtet werden.",
+          "patr_resp1": "Als Barnabas nach Antiochia kam und die Gnade Gottes erkannte, freute er sich;",
+          "patr_resp2": "denn er war ein trefflicher Mann, erfüllt vom Heiligen Geist und reich an Glauben.",
+          "patr_resp3": "Alle ermahnte er, dem Herrn treu zu bleiben."
         },
         "Non": {
           "les_buch": "2 Tim",
@@ -3677,7 +3683,21 @@ export const brevierData = {
           "hymn_1": 86241.0,
           "ant_1": "Schon im Mutterleib hat mich der Herr berufen; er hat mich beim Namen genannt, noch ehe ich geboren war.",
           "ant_2": "Er machte meinen Mund zu einem scharfen Schwert; er barg mich im Schatten seiner Hand.",
-          "ant_3": "Johannes legte Zeugnis ab und rief: Der nach mir kommt, ist mir voraus; denn er war eher als ich."
+          "ant_3": "Johannes legte Zeugnis ab und rief: Der nach mir kommt, ist mir voraus; denn er war eher als ich.",
+          "resp0_0": "Er kam, um Zeugnis abzulegen für das Licht.",
+          "resp0_1": "Damit alle durch ihn zum Glauben kommen.",
+          "les_buch": "Aus dem Buch Jeremia.",
+          "les_stelle": "1,4-10.17-19",
+          "les_text": "^hDie Berufung des Propheten^pDas Wort des Herrn erging an mich: Noch ehe ich dich im Mutterleib formte, habe ich dich ausersehen, noch ehe du aus dem Mutterschoß hervorkamst, habe ich dich geheiligt, zum Propheten für die Völker habe ich dich bestimmt.^pDa sagte ich: Ach, mein Gott und Herr, ich kann doch nicht reden, ich bin ja noch so jung. Aber der Herr erwiderte mir: Sag nicht: Ich bin noch so jung! Wohin ich dich auch sende, sollst du gehen, und was ich dir auftrage, das sollst du verkünden. Fürchte dich nicht vor ihnen; denn ich bin mit dir und werde dich retten – Spruch des Herrn. Dann streckte der Herr seine Hand aus, berührte meinen Mund und sagte zu mir: Hiermit lege ich meine Worte in deinen Mund. Sieh her! Am heutigen Tag setze ich dich über Völker und Reiche; du sollst ausreißen und niederreißen, vernichten und einreißen, aufbauen und einpflanzen.^pDu aber gürte dich, tritt vor sie hin und verkünde ihnen alles, was ich dir auftrage! Erschrick nicht vor ihnen, sonst setze ich dich vor ihren Augen in Schrecken! Ich selbst mache dich heute zur befestigten Stadt, zur eisernen Säule und zur ehernen Mauer gegen das ganze Land, gegen die Könige, Beamten und Priester von Juda und gegen das Volk auf dem Land. Mögen sie dich bekämpfen, sie werden dich nicht bezwingen; denn ich bin mit dir, um dich zu retten – Spruch des Herrn.",
+          "resp1_1": "Noch ehe ich dich im Mutterleib formte, habe ich dich gekannt, noch ehe du aus dem Mutterschoß hervorkamst, habe ich dich geheiligt.",
+          "resp1_2": "Zum Propheten für die Völker habe ich dich bestimmt.",
+          "resp1_3": "Hiermit lege ich meine Worte in deinen Mund und setze dich über Völker und Reiche.",
+          "patr_autor": "Augustinus († 430)",
+          "patr_werk": "Aus einer Predigt über den hl. Johannes den Täufer.",
+          "patr_text": "^hDie Stimme des Rufenden in der Wüste^pDie Kirche feiert die Geburt des Johannes gleichsam wie eine geheiligte Geburt, unter den Vätern ist keiner sonst, dessen Geburtsfest wir feierlich begehen. Wir feiern nur die Geburt des Johannes und die Geburt Christi. Das kann nicht bedeutungslos sein.^pJohannes wird geboren von einer unfruchtbaren Greisin, Christus von einer Jungfrau im Jugendalter. Der Vater glaubt nicht an die Geburt des Johannes und wird stumm. Maria glaubt an Christus und empfängt ihn im Glauben. Was untersucht und erörtert werden soll, ist damit gesagt.^pJohannes scheint so etwas wie eine Grenzlinie zwischen den beiden Testamenten, dem Alten und dem Neuen, zu sein. Der Herr selbst bezeugt, dass Johannes gleichsam eine Grenze ist; denn er sagt: „Das Gesetz und alle Propheten, bis hin zu Johannes dem Täufer“ {1#vgl.°Mt 11,13}. Johannes stellt in seiner Person das Alte dar und verkündet doch das Neue. Weil er das Alte darstellen sollte, wurde er von einer Greisin geboren; weil er das Neue vertritt, wird er noch im Schoß der Mutter zum Propheten erklärt. Als er noch nicht geboren war, jubelte er im Mutterschoß bei der Ankunft Marias. Schon dort hatte er seine Bestimmung, eine Bestimmung vor der Geburt; wessen Vorläufer er sein sollte, wurde angezeigt, bevor er von ihm gesehen wurde. Diese Zusammenhänge sind heilig, sie sprengen das Maß menschlicher Gebrechlichkeit. Schließlich kommt Johannes zur Welt, erhält den Namen, und die Zunge des Vaters wird gelöst. Bedenke, was alles geschehen ist, weil es im Bild die wahre Wirklichkeit darstellte.^pZacharias schweigt und verliert die Stimme, bis Johannes, der Vorläufer des Herrn, geboren ist und ihm die Stimme wiedergibt. Was ist das Schweigen des Zacharias anderes als eine verborgene Weissagung, die gleichsam geheim und verschlossen war, bevor der Herr verkündigt wurde? Sie wird aufgeschlossen bei der Ankunft des Johannes, sie wird deutlich, wenn der kommt, der durch Weissagung angekündigt ist. Daß bei der Geburt des Johannes die Stimme des Zacharias freigegeben wird, bedeutete das gleiche wie das Zerreißen des Vorhangs, als Christus am Kreuz hing. Verkündete Johannes sich selbst, könnte er den Mund des Zacharias nicht öffnen. Die Zunge wird gelöst, weil die Stimme geboren ist. Denn als Johannes den Herrn vorausverkündigte, wurde er gefragt: „Wer bist du?“ Er antwortete: „Ich bin die Stimme eines Rufers in der Wüste.“ {2#Joh 1,21.23} Johannes ist die Stimme, der Herr aber ist „im Anfang das Wort“ {3#Joh 1,1}. Johannes ist Stimme auf Zeit, Christus im Anfang das ewige Wort.",
+          "patr_resp1": "Du, Kind, wirst Prophet des Höchsten heißen,",
+          "patr_resp2": "du wirst dem Herrn vorangehen und ihm den Weg bereiten.",
+          "patr_resp3": "Gott wird sein Volk mit der Erfahrung des Heils beschenken in der Vergebung der Sünden."
         },
         "Non": {
           "ant_0": "Dieses Kind wird groß sein vor dem Herrn; denn seine Hand ist mit ihm.",
@@ -3792,7 +3812,21 @@ export const brevierData = {
           "hymn_1": 86292.0,
           "ant_1": "Weil du mich liebst, Simon Petrus, weide meine Schafe.",
           "ant_2": "Für mich ist Christus das Leben, und Sterben ist mir Gewinn. Im Kreuze unseres Herrn Jesus Christus muss ich mich rühmen.",
-          "ant_3": "Herr, wenn du es bist, so befiehl, dass ich zu dir komme auf dem Wasser."
+          "ant_3": "Herr, wenn du es bist, so befiehl, dass ich zu dir komme auf dem Wasser.",
+          "resp0_0": "Das Wort des Herrn bleibt in Ewigkeit.",
+          "resp0_1": "Das Evangelium, das euch verkündet wurde.",
+          "les_buch": "Aus dem Brief an die Galater.",
+          "les_stelle": "1,15-2,10",
+          "les_text": "^hDie Berufung des Paulus zum Apostel^pAls aber Gott, der mich schon im Mutterleib auserwählt und durch seine Gnade berufen hat, mir in seiner Güte seinen Sohn offenbarte, damit ich ihn unter den Heiden verkündige, da zog ich keinen Menschen zu Rate; ich ging auch nicht sogleich hinauf nach Jerusalem zu denen, die vor mir Apostel waren, sondern zog nach Arabien und kehrte dann wieder nach Damaskus zurück. Drei Jahre später ging ich hinauf nach Jerusalem, um Kephas kennenzulernen, und blieb fünfzehn Tage bei ihm. Von den anderen Aposteln habe ich keinen gesehen, nur Jakobus, den Bruder des Herrn. Was ich euch hier schreibe – Gott weiß, dass ich nicht lüge.^pDanach ging ich in das Gebiet von Syrien und Zilizien. Den Gemeinden Christi in Judäa aber blieb ich persönlich unbekannt, sie hörten nur: Er, der uns einst verfolgte, verkündigt jetzt den Glauben, den er früher vernichten wollte. Und sie lobten Gott um meinetwillen.^pVierzehn Jahre später ging ich wieder hinauf nach Jerusalem, zusammen mit Barnabas; ich nahm auch Titus mit. Ich ging hinauf aufgrund einer Offenbarung, legte der Gemeinde und im besonderen den „Angesehenen“ das Evangelium vor, das ich unter den Heiden verkündige; ich wollte sicher sein, dass ich nicht vergeblich laufe oder gelaufen bin. Doch nicht einmal mein Begleiter Titus, der Grieche ist, wurde gezwungen, sich beschneiden zu lassen. Denn was die falschen Brüder betrifft, jene Eindringlinge, die sich eingeschlichen hatten, um die Freiheit, die wir in Christus Jesus haben, argwöhnisch zu beobachten und uns zu Sklaven zu machen, so haben wir uns keinen Augenblick unterworfen; wir haben ihnen nicht nachgegeben, damit euch die Wahrheit des Evangeliums erhalten bleibe.^pAber auch von denen, die Ansehen genießen – was sie früher waren, kümmert mich nicht, Gott schaut nicht auf die Person –, auch von den „Angesehenen“ wurde mir nichts auferlegt. Im Gegenteil, sie sahen, dass mir das Evangelium für die Unbeschnittenen anvertraut ist wie dem Petrus für die Beschnittenen – denn Gott, der Petrus die Kraft zum Aposteldienst unter den Beschnittenen gegeben hat, gab sie mir zum Dienst unter den Heiden –, und sie erkannten die Gnade, die mir verliehen ist. Deshalb gaben Jakobus, Kephas und Johannes, die als die „Säulen“ Ansehen genießen, mir und Barnabas die Hand zum Zeichen der Gemeinschaft: Wir sollten zu den Heiden gehen, sie zu den Beschnittenen. Nur sollten wir an ihre Armen denken; und das zu tun, habe ich mich eifrig bemüht.",
+          "resp1_1": "Du bist Petrus, und auf diesem Felsen werde ich meine Kirche bauen, und die Pforten des Todes werden sie nicht überwältigen.",
+          "resp1_2": "Ich werde dir die Schlüssel des Himmelreichs geben.",
+          "resp1_3": "Was du auf Erden binden wirst, das wird auch im Himmel gebunden sein, und was du auf Erden lösen wirst, das wird auch im Himmel gelöst sein.",
+          "patr_autor": "Augustinus († 430)",
+          "patr_werk": "Aus einer Predigt zum Fest der Heiligen Petrus und Paulus.",
+          "patr_text": "^hDiese Märtyrer durften sehen, was sie verkündigten^pDieser Tag ist durch das Leiden der Apostel Petrus und Paulus geheiligt. Nicht von unbekannten Märtyrern sprechen wir: „Ihre Botschaft ging in die ganze Welt hinaus, ihre Kunde bis zu den Enden der Erde.“ {1#vgl.°Ps 19,5} Diese Märtyrer sahen, was sie verkündigten; sie folgten der Gerechtigkeit, bekannten die Wahrheit und starben für sie.^pDer heilige Petrus, der Erste unter den Aposteln, liebte den Herrn von ganzem Herzen. Darum durfte er die Worte hören: „Ich sage dir: Du bist Petrus.“ {2#Mt 16,18f} „Nachdem Petrus selber bekannt hatte: „Du bist der Messias, der Sohn des lebendigen Gottes“, antwortete ihm Christus: „Ich aber sage dir: Du bist Petrus, und auf diesen Felsen werde ich meine Kirche bauen.“ {3#Mt 16,16.18} Auf diesen Felsen werde ich den Glauben bauen, den du bekennst. Darauf nämlich, dass du bekannt hast: „Du bist Christus, der Sohn des lebendigen Gottes“, werde ich meine Kirche bauen. Denn du bist Petrus – Petrus kommt von 'Fels', nicht 'Fels' von Petrus. Petrus kommt so von 'Fels' wie 'Christ' von Christus.^pWie ihr wisst, hat der Herr Jesus vor seinem Leiden die Jünger ausgewählt, die er Apostel nannte. Fast bei allen Gelegenheiten durfte allein Petrus die ganze Kirche vertreten. Weil er allein die ganze Kirche darstellte, durfte er die Worte hören: „Ich werde dir die Schlüssel des Himmelreichs geben.“ {4#Joh 20,22-23} Denn diese Schlüssel erhält nicht ein einzelner Mensch (Petrus), sondern die eine Kirche. Darum wird der hohe Vorzug des Petrus gepriesen, weil er eben die Gesamtheit und Einheit der Kirche in seiner Person darstellte, als ihm gesagt wurde: „Dir werde ich übergeben“, was allen gemeinsam anvertraut wurde. Um zu verstehen, dass die Kirche die Schlüssel des Himmelreichs erhalten hat, hört, was der Herr an anderer Stelle zu allen Aposteln sagt: „Empfangt den Heiligen Geist. Wem ihr die Sünden vergebt, dem sind sie vergeben; wem ihr die Vergebung verweigert, dem ist sie verweigert.“ Mit Recht hat der Herr dem Petrus auch nach seiner Auferstehung seine Schafe zum Weiden anvertraut. Nicht einzig er unter allen Jüngern durfte für die Schafe sorgen. Wenn Christus vielmehr zu dem einen spricht, legt er ihm die Einheit ans Herz: dem Petrus zuerst, weil er unter den Aposteln der Erste ist. Sei nicht traurig, Apostel; antworte einmal, antworte noch einmal und ein drittes Mal. Dreimal siege in der Liebe das Bekenntnis, weil die Vermessenheit dreimal der Furcht unterlag. Dreimal soll gelöst werden, was dreimal gebunden wurde. Löse durch die Liebe, was du durch die Furcht gebunden hattest. Dennoch hat der Herr dem Petrus einmal, zweimal, dreimal seine Schafe anvertraut.^pDie zwei Apostel haben an ein und demselben Tag gelitten. Aber auch diese beiden waren eins. Hätten sie auch an verschiedenen Tagen gelitten, wären sie dennoch eins gewesen. Petrus ging voraus, Paulus folgte. Wir feiern das Fest der Apostel, es ist uns heilig durch ihr Blut. Lasst uns ihren Glauben lieben, ihr Leben, ihre Mühen, ihr Leiden, ihr Bekenntnis, ihre Verkündigung.",
+          "patr_resp1": "Heiliger Apostel Paulus, Verkünder der Wahrheit, Lehrer der Völker,",
+          "patr_resp2": "wahrhaftig, dir gebührt Lobpreis.",
+          "patr_resp3": "Durch dich haben alle Völker die Gnade Gottes erkannt."
         },
         "Non": {
           "comm_1": "Apostel",
@@ -3855,7 +3889,21 @@ export const brevierData = {
           "comm_2": "LEER "
         },
         "Lesehore": {
-          "comm_2": "LEER "
+          "comm_2": "Texte ",
+          "resp0_0": "Selig, die das Wort Gottes hören.",
+          "resp0_1": "Und es befolgen.",
+          "les_buch": "Aus dem Hohenlied.",
+          "les_stelle": "2,8-14; 8,6-7",
+          "les_text": "^hDas Kommen des Geliebten^pHorch! Mein Geliebter!^lEr kommt.^lEr springt über die Berge,^lhüpft über die Hügel.^lDer Gazelle gleicht mein Geliebter,^ldem jungen Hirsch.^lDraußen steht er^lan der Wand unsres Hauses;^ler blickt durch die Fenster,^lspäht durch die Gitter.^lDer Geliebte spricht zu mir:^lSteh auf, meine Freundin,^lmeine Schöne, so komm doch!^lVorbei ist der Winter,^lverrauscht der Regen.^lAuf der Flur erscheinen die Blumen;^ldie Zeit zum Singen ist da.^lDie Stimme der Turteltaube^list zu hören in unserem Land.^lAm Feigenbaum reifen die ersten Früchte;^ldie blühenden Reben duften.^lSteh auf, meine Freundin,^lmeine Schöne, so komm doch!^lMeine Taube im Felsennest,^lversteckt an der Steilwand,^ldein Gesicht lass mich sehen,^ldeine Stimme hören!^lDenn süß ist deine Stimme,^llieblich dein Gesicht.^lLeg mich wie ein Siegel auf dein Herz,^lwie ein Siegel an deinen Arm!^lStark wie der Tod ist die Liebe,^ldie Leidenschaft ist hart wie die Unterwelt.^lIhre Gluten sind Feuergluten,^lgewaltige Flammen.^lAuch mächtige Wasser^lkönnen die Liebe nicht löschen;^lauch Ströme schwemmen sie nicht weg.^lBöte einer für die Liebe^lden ganzen Reichtum seines Hauses,^lnur verachten würde man ihn.",
+          "resp1_1": "Elisabet wurde vom Heiligen Geist erfüllt und rief mit lauter Stimme: Gesegnet bist du vor allen Frauen, und gesegnet ist die Frucht deines Leibes!",
+          "resp1_2": "Wer bin ich, dass die Mutter meines Herrn zu mir kommt?",
+          "resp1_3": "Als ich deinen Gruß hörte, bewegte sich vor Freude das Kind in meinem Schoß.",
+          "patr_autor": "Beda Venerabilis († 735)",
+          "patr_werk": "Aus einer Homilie zu Ehren der Gottesmutter.",
+          "patr_text": "^hMaria preist den Herrn, der in ihr wirkt^p„Meine Seele preist die Größe des Herrn, und mein Geist jubelt über Gott, meinen Retter.“ {1#Lk 1,46-47} Mit diesen Worten preist Maria zunächst zwar die besonderen Gaben, die ihr geschenkt wurden, dann aber zählt sie auch die allgemeinen Wohltaten auf, mit denen Gott unaufhörlich und auf ewig für das Menschengeschlecht sorgt.^pIhre Seele preist den Herrn, der alle Regungen ihres inneren Menschen für das Lob und den Dienst Gottes gefangennimmt, weil sie durch die Beobachtung der göttlichen Gebote zeigt, dass sie stets an die Macht und Majestät Gottes denkt. Ihr Geist jubelt über Gott, ihren Retter, ihr Schöpfer, den allein das Denken an seinen Namen erfreut, von dem er das ewige Heil erhofft.^pDie Worte passen zwar auf alle, die vollkommen sind, doch vor allem auf die selige Gottesmutter, da sie kraft ihres einzigartigen Gnadenvorzugs in einer geistgeschenkten Liebe zu dem entbrannt ist, dessen leiblicher Empfängnis sie sich erfreuen darf.^pMit besonderem Recht kann sie über Jesus, das heißt: ihren Retter, in einer ausgezeichneten Sonderheit der Freude jubeln. Denn sie kennt ihn als den ewigen Urheber des Heils und weiß, dass er bei seinem Eintreten in die Zeit aus ihr geboren wird, er, ihr Sohn und ihr Herr in ein und derselben Person.^p„Denn der Mächtige hat Großes an mir getan, und sein Name ist heilig.“ {2#Lk 1,49} Nichts schreibt sie also ihrem Verdienste zu. Ihre ganze Größe führt sie auf das Geschenk Gottes zurück, der seinem Wesen nach mächtig und groß ist und gerne seine Gläubigen, die klein und schwach sind, stark und groß macht.^pTreffend fügt sie hinzu: „und sein Name ist heilig“, um alle, an die ihr Wort gelangt, zu lehren, ja um alle, die zum Glauben und zur Anrufung des göttlichen Namens bereit sein sollen, damit auch sie der ewigen Heiligkeit und des wahren Heils teilhaftig werden können, nach dem Spruch des Propheten: „Wer den Namen des Herrn anruft, wird gerettet.“ {3#Joel 3,5} Das ist ja der Name, von dem sie sagt: „Mein Geist jubelt über Gott, meinen Retter.“^pDarum hat sich in der Kirche der gute und heilbringende Brauch eingebürgert, dass alle jeden Tag beim Abendlob mit der Psalmodie auch ihren Hymnus singen. So sollen die Herzen der Menschen immer wieder an die Menschwerdung des Herrn denken und dadurch zu liebender Hingabe entbrennen, und die häufige Erinnerung an das Beispiel der Gottesmutter soll die Herzen in der Tugend festigen.",
+          "patr_resp1": "Selig bist du, Maria! Du hast geglaubt, dass sich die Botschaft des Herrn erfüllt!",
+          "patr_resp2": "Meine Seele preist die Größe des Herrn.",
+          "patr_resp3": "Kommt alle und hört: ich will euch erzählen, was Gott mir Gutes getan hat."
         },
         "Non": {
           "comm_2": "LEER "
@@ -3896,7 +3944,13 @@ export const brevierData = {
         },
         "Lesehore": {
           "comm_1": "Apostel",
-          "comm_2": "LEER "
+          "comm_2": "Texte ",
+          "patr_autor": "Gregor der Große († 604)",
+          "patr_werk": "Aus einer Homilie zu den Evangelien.",
+          "patr_text": "^hMein Herr und mein Gott!^p„Thomas, genannt Didymus (Zwilling), einer der Zwölf, war nicht bei ihnen, als Jesus kam.“{1#Joh 20,24} Dieser eine Jünger fehlte. Als er zurückkehrte, hörte er, was geschehen war, wollte das Gehörte aber nicht glauben. Da kam Jesus noch einmal und ließ den ungläubigen Jünger die Seite berühren, zeigte ihm die Hände und heilte durch den Anblick der Male die Wunde seines Unglaubens. Liebe Brüder, was fällt euch dabei auf? Haltet ihr es für einen Zufall, dass dieser erwählte Jünger damals nicht dabei war, dann aber kam und hörte, hörte und zweifelte, zweifelte und betastete, betastete und glaubte?^pDas geschah nicht durch Zufall, sondern durch Fügung Gottes. Denn seine Milde bewirkte in wunderbarer Weise, dass dieser zweifelnde Jünger in uns die Wunden des Unglaubens heilte, als er die Wunden am Leib des Meisters berührte. Mehr nützt uns der Unglaube des Thomas zum Glauben als der Glaube der glaubenden Jünger. Denn indem Thomas durch das Betasten zum Glauben zurückgeführt wird, lässt unser Geist jeden Zweifel fallen und wird im Glauben gefestigt.^pSo wurde jener Jünger zweifelnd und betastend Zeuge der wirklichen Auferstehung. Er betastete und rief: „Mein Herr und mein Gott!“ Jesus sagte zu ihm: „Weil du mich gesehen hast, glaubst du.“{2#Joh 20,28.29} Aber Paulus sagt doch: „Glauben aber ist: Feststehen in dem, was man erhofft, Überzeugtsein von Dingen, die man nicht sieht“{3#Hebr 11,1}, sicherlich deswegen, weil der Glaube eine Überzeugung von Wirklichkeiten ist, die nicht sichtbar sein können. Was wir sehen, das glauben wir nicht, sondern das kennen wir. Thomas sieht und berührt. Warum wird dann von ihm gesagt: „Weil du mich gesehen hast, glaubst du“? Nun, was er sah, war etwas anderes als das, was er glaubte. Der sterbliche Mensch konnte Gott nicht sehen. Er sah den Menschen, aber er bekannte Gott: „Mein Herr und mein Gott!“ Im Sehen glaubte er; als er den wirklichen Menschen sah, bekannte er in seinem Ausruf den Gott, den er nicht sehen konnte.^pGroße Freude schafft, was nun folgt: „Selig sind, die nicht sehen und doch glauben!“{4#Joh 20,29} In diesem Ausspruch sind ohne Zweifel zunächst wir gemeint, die wir Gott nicht gesehen haben, aber im Herzen bewahren. Wir sind in dem Sinn gemeint, dass unserem Glauben die Taten folgen sollen. Denn der glaubt im Vollsinn, der in der Tat ausübt, was er glaubt. Paulus aber sagt von denen, die den Glauben nur mit dem Mund bekennen: „Sie beteuern, Gott zu kennen, durch ihr Tun aber verleugnen sie ihn.“{5#Tit 1,16} Darum schreibt Jakobus: „Glaube ohne Werke ist nutzlos.“{6#Jak 2,20}",
+          "patr_resp1": "Das Leben ist erschienen; wir haben gesehen und bezeugen und verkünden euch das Leben:",
+          "patr_resp2": "es war beim Vater und ist uns erschienen.",
+          "patr_resp3": "Was wir vom Wort des Lebens sahen und hörten, das verkünden wir."
         },
         "Non": {
           "comm_1": "Apostel",
@@ -8930,16 +8984,6 @@ export const brevierData = {
     }
   },
   "k2": {
-    "o": {
-      "0": {
-        "Komplet": {
-          "resp1_1": "",
-          "resp1_2": "",
-          "resp1_3": "",
-          "oration_komplet": "Allmächtiger Gott, wir haben heute das Geheimnis der Auferstehung unseres Herrn gefeiert. Am Abend rufen wir zu dir: Bewahre uns in dieser Nacht vor allem Bösen. Lass uns in deinem Frieden ruhen und morgen den neuen Tag mit deinem Lob beginnen. Darum bitten wir durch Christus, unseren Herrn."
-        }
-      }
-    },
     "each": {
       "0": {
         "Komplet": {
@@ -8970,6 +9014,16 @@ export const brevierData = {
           "ev": 501.0,
           "ev_lat": 502.0,
           "oration_komplet": "Herr und Gott, kehre ein in dieses Haus und halte alle Nachstellungen des Feindes von ihm fern. Deine heiligen Engel mögen darin wohnen und uns im Frieden bewahren. Und dein Segen sei über uns allezeit. Darum bitten wir durch Christus, unsern Herrn. Amen."
+        }
+      }
+    },
+    "o": {
+      "0": {
+        "Komplet": {
+          "resp1_1": "",
+          "resp1_2": "",
+          "resp1_3": "",
+          "oration_komplet": "Allmächtiger Gott, wir haben heute das Geheimnis der Auferstehung unseres Herrn gefeiert. Am Abend rufen wir zu dir: Bewahre uns in dieser Nacht vor allem Bösen. Lass uns in deinem Frieden ruhen und morgen den neuen Tag mit deinem Lob beginnen. Darum bitten wir durch Christus, unseren Herrn."
         }
       }
     }
@@ -9924,20 +9978,74 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "o-9-0-each-Oration"
+        },
+        "Lesehore": {
+          "resp0_0": "Durch das Wort des Herrn wurde der Himmel geschaffen.",
+          "resp0_1": "All seine Kraft durch den Hauch des Geistes.",
+          "les_buch": "Aus dem ersten Brief an die Korinther.",
+          "les_stelle": "2,1-16",
+          "les_text": "^hPaulus, Künder der Weisheit Gottes^pAls ich zu euch kam, Brüder, kam ich nicht, um glänzende Reden oder gelehrte Weisheit vorzutragen, sondern um euch das Zeugnis Gottes zu verkündigen. Denn ich hatte mich entschlossen, bei euch nichts zu wissen außer Jesus Christus, und zwar als den Gekreuzigten. Zudem kam ich in Schwäche und in Furcht, zitternd und bebend zu euch. Meine Botschaft und Verkündigung war nicht Überredung durch gewandte und kluge Worte, sondern war mit dem Erweis von Geist und Kraft verbunden, damit sich euer Glaube nicht auf Menschenweisheit stützte, sondern auf die Kraft Gottes.^pUnd doch verkündigen wir Weisheit unter den Vollkommenen, aber nicht Weisheit dieser Welt oder der Machthaber dieser Welt, die einst entmachtet werden. Vielmehr verkündigen wir das Geheimnis der verborgenen Weisheit Gottes, die Gott vor allen Zeiten vorausbestimmt hat zu unserer Verherrlichung. Keiner der Machthaber dieser Welt hat sie erkannt; denn hätten sie sie erkannt, so hätten sie den Herrn der Herrlichkeit nicht gekreuzigt. Nein, wir verkündigen, wie in der Schrift steht, was kein Auge gesehen und kein Ohr gehört hat, was keinem Menschen in den Sinn gekommen ist: das Große, das Gott denen bereitet hat, die ihn lieben.^pDenn uns hat es Gott enthüllt durch den Geist. Der Geist ergründet nämlich alles, auch die Tiefen Gottes. Wer von den Menschen kennt den Menschen, wenn nicht der Geist des Menschen, der in ihm ist? So erkennt auch keinen Gott – nur der Geist Gottes. Wir aber haben nicht den Geist der Welt empfangen, sondern den Geist, der aus Gott stammt, damit wir das erkennen, was uns von Gott geschenkt wurde. Davon reden wir auch, nicht mit Worten, wie menschliche Weisheit sie lehrt, sondern wie der Geist sie lehrt, indem wir den Geisterfüllten das Wirken des Geistes deuten. Der irdisch gesinnte Mensch aber lässt sich nicht auf das ein, was vom Geist Gottes kommt. Torheit ist es für ihn, und er kann es nicht verstehen, weil es nur mit Hilfe des Geistes beurteilt werden kann. Der geisterfüllte Mensch urteilt über alles, ihn aber vermag niemand zu beurteilen. Denn wer hat die Gedanken des Herrn erkannt? Wir aber haben den Geist Christi.",
+          "resp1_1": "Der Gott unseres Herrn Jesus Christus gebe uns den Geist der Weisheit. Er erleuchte die Augen unseres Herzens,",
+          "resp1_2": "damit wir verstehen, zu welcher Hoffnung wir berufen sind.",
+          "resp1_3": "Wir haben nicht den Geist dieser Welt empfangen, sondern den Geist, der aus Gott stammt.",
+          "patr_autor": "Athanasius († 373)",
+          "patr_werk": "Aus einem Brief an den Bischof Serapion aus Ägypten.",
+          "patr_text": "^hLicht, Glanz und Gnade ruhen in der Dreifaltigkeit und kommen aus ihr^pLasst uns die alte Überlieferung befragen, die Lehre und den Glauben der katholischen Kirche. Der Herr hat sie gegeben, die Apostel haben sie verkündet, und die Väter haben daran festgehalten. Auf ihr gründet die Kirche, und wer sie aufgibt, kann nicht mehr Christ sein noch den christlichen Namen tragen.^pDie Dreifaltigkeit ist also heilig und vollkommen. Sie wird bekannt als Gott im Vater und im Sohn und im Heiligen Geist. Sie ist mit nichts vermischt, was ihr fremd oder äußerlich wäre. Sie ist auch nicht zusammengesetzt aus dem Weltenbauer und dem Gewordenen. Die Dreifaltigkeit ist vielmehr ganz Schöpfer und Weltbildner. Sie ist sich selbst gleich, unteilbar ihrer Natur nach, und ihre Wirksamkeit ist eine. Denn der Vater tut alles durch das Wort im Heiligen Geist, und so wird die Einheit der Dreifaltigkeit gewahrt. So wird in der Kirche der eine Gott verkündet, „der über allem und durch alles und in allem ist“ {1#Eph 4,6}. „Über allem“ ist er als Vater, als Ursprung und Quelle; „durch alles“ ist er im Wort; „in allem“ im Heiligen Geist.^pAls der heilige Paulus an die Korinther über die Gaben des Geistes schrieb, führte er alles auf den einen Gott, den Vater, als das Haupt zurück, indem er sagte: „Es gibt verschiedene Gnadengaben, aber nur den einen Geist. Es gibt verschiedene Dienste, aber nur den einen Herrn. Es gibt verschiedene Kräfte, die wirken, aber nur den einen Gott: Er wirkt alles in allen.“ {2#1Kor 12,4-6} Denn die Gaben, die der Geist den einzelnen zuteilt, werden vom Vater durch den Sohn gegeben. Alles nämlich, was dem Vater gehört, gehört auch dem Sohn. Deshalb sind die Gaben, die vom Sohn im Geist gegeben werden, wahre Gnadengaben des Vaters. Und wenn der Geist in uns ist, so ist auch das Wort, von dem wir ihn empfangen, in uns, und im Wort ist auch der Vater. Und so erfüllt sich in uns das Wort: Wir werden kommen – ich und der Vater – und bei ihm wohnen {3#vgl.°Joh 14,23}. Wo nämlich das Licht ist, da ist auch sein Glanz; wo der Glanz ist, da ist auch sein Wirken und seine strahlende Gnade.",
+          "patr_resp1": "Lasst uns preisen den Vater und den Sohn mit dem Heiligen Geist.",
+          "patr_resp2": "Lasst uns ihn loben und erheben in Ewigkeit!",
+          "patr_resp3": "Gepriesen sei Gott am Gewölbe des Himmels, gelobt und verherrlicht in Ewigkeit!"
         }
       },
       "4": {
         "each": {
           "oration": "o-9-4-each-Oration"
+        },
+        "Lesehore": {
+          "resp0_0": "Die Weisheit erbaut sich ein Haus.^ö",
+          "resp0_1": "Sie mischt den Wein und bereitet den Tisch.^ö",
+          "les_buch": "Aus dem Buch Exodus.",
+          "les_stelle": "24,1-11",
+          "les_text": "^hDer Bundesschluss^pGott sprach zu Mose: Steig zum Herrn hinauf zusammen mit Aaron, Nadab, Abihu und mit siebzig von den Ältesten Israels; werft euch in einiger Entfernung nieder! Mose allein soll sich dem Herrn nähern, die andern dürfen nicht näherkommen, und das Volk darf den Berg nicht mit ihm zusammen besteigen.^pMose kam und übermittelte dem Volk alle Worte und Rechtsvorschriften des Herrn. Das ganze Volk antwortete einstimmig und sagte: Alles, was der Herr gesagt hat, wollen wir tun. Mose schrieb alle Worte des Herrn auf. Am nächsten Morgen stand er zeitig auf und errichtete am Fuß des Berges einen Altar und zwölf Steinmale für die zwölf Stämme Israels. Er schickte die jungen Männer Israels aus. Sie brachten Brandopfer dar und schlachteten junge Stiere als Heilsopfer für den Herrn. Mose nahm die Hälfte des Blutes und goss es in eine Schüssel, mit der anderen Hälfte besprengte er den Altar. Darauf nahm er die Urkunde des Bundes und verlas sie vor dem Volk. Sie antworteten: Alles, was der Herr gesagt hat, wollen wir tun; wir wollen gehorchen. Da nahm Mose das Blut, besprengte damit das Volk und sagte: Das ist das Blut des Bundes, den der Herr aufgrund all dieser Worte mit euch geschlossen hat.^pDanach stiegen Mose, Aaron, Nadab, Abihu und die siebzig von den Ältesten Israels hinauf, und sie sahen den Gott Israels. Die Fläche unter seinen Füßen war wie mit Saphir ausgelegt und glänzte hell wie der Himmel selbst. Gott streckte nicht seine Hand gegen die Edlen der Israeliten aus; sie durften Gott sehen, und sie aßen und tranken.",
+          "resp1_1": "Ich bin das Brot des Lebens: Eure Väter haben in der Wüste das Manna gegessen und sind gestorben.",
+          "resp1_2": "Wer das Brot isst, das vom Himmel kommt, der stirbt nicht.",
+          "resp1_3": "Ich bin das lebendige Brot, das vom Himmel herabkam.",
+          "patr_autor": "Thomas von Aquin († 1274)",
+          "patr_werk": "Aus dem Opusculum über das Fest des Leibes Christi.",
+          "patr_text": "^hDu kostbares, staunenswertes Gastmahl!^pWeil uns der einziggeborene Sohn Gottes Anteil an seiner Gottheit geben wollte, nahm er unsere Natur an, wurde Mensch, um die Menschen göttlich zu machen.^pMehr als das: Was er von dem Unsrigen annahm, gab er ganz hin für unser Heil. Denn er brachte seinen Leib auf dem Altar des Kreuzes zu unserer Versöhnung Gott, dem Vater, als Opfergabe dar. Er vergoss sein Blut für uns als Lösepreis und Bad zugleich. So sollten wir von elender Knechtschaft erlöst und von aller Sünde gereinigt werden.^pDamit uns aber ein Gedächtnis dieser so großen Liebe bleibe, hinterließ er den Gläubigen seinen Leib zur Speise und sein Blut zum Trank unter der Gestalt von Brot und Wein.^pWelch ein kostbares und staunenswertes Gastmahl, heilbringend und voll Wohlgeschmack! Denn was kann kostbarer sein als dieses Gastmahl? In ihm wird uns nicht das Fleisch von Kälbern und Böcken zur Speise gegeben wie einst unter dem Gesetz, sondern Christus, der wahre Gott. Gibt es etwas Bewunderungswürdigeres als dieses Sakrament?^pKein Sakrament hat eine heilsamere Wirkung als dieses: Es reinigt von Sünden, es mehrt die Tugenden und erfüllt den Geist mit dem Reichtum aller geistlichen Gaben. Es wird in der Kirche für die Lebenden und die Toten dargebracht, damit allen zugute komme, was zum Heil aller eingesetzt ist.^pNiemand kann schließlich die Wonnen dieses Sakraments hinreichend ausdrücken, da in ihm die Süße des Geistes in ihrem Quell genossen und in ihm das Gedächtnis jener unübertrefflichen Liebe begangen wird, die Christus in seiner Passion bewiesen hat.^pUm also die Unermesslichkeit seiner Liebe den Herzen der Gläubigen tiefer einzuprägen, stiftete er beim Letzten Abendmahl dieses Sakrament, nachdem er das Pascha mit seinen Jüngern gefeiert hatte und als er aus dieser Welt zum Vater hingehen sollte. Er stiftete es als immerwährendes Gedächtnis seiner Passion, als Erfüllung der alten Zeichen, als größtes seiner Wunder und als einzigartigen Trost für jene, die seine Abwesenheit mit Trauer erfüllt.",
+          "patr_resp1": "Erkennt im Brot den Herrn, der am Kreuze hing, im Kelch das Blut, das aus seiner Seite strömte.",
+          "patr_resp2": "Nehmt und esst den Leib Christi! Nehmt und trinkt das Blut Christi!",
+          "patr_resp3": "Der Herr stiftete dieses Sakrament als Denkmal seines Leidens, als Erfüllung der alten Zeichen, als größtes der von ihm gewirkten Wunder.",
+          "ant_ev": "Thomas von Aquin († 1274)",
+          "ant_a": "Sequenz „Lauda, Sion“.",
+          "ant_b": "Lauda, Sion, Salvatórem,^llauda ducem et pastórem,^lin hymnis et cánticis.^l^pQuantum potes, tantum aude:^lquia major ómni laude,^lnec laudáre súfficis.^l^pLaudis thema speciális,^lpanis vivus et vitális^lhódie propónitur.^l^pQuem in sacræ mensa cenæ^lturbæ fratrum duodénæ^ldatum non ambígitur.^l^pSit laus plena, sit sonóra,^lsit jucúnda, sit decóra^lmentis jubilátio.^l^pDies enim solémnis ágitur,^lin qua mensæ prima recólitur^lhujus institútio.^l^pIn hac mensa novi Regis,^lnovum Pascha novæ legis^lPhase vetus términat.^l^pVetustátem nóvitas,^lumbram fugat véritas,^lnoctem lux elíminat.^l^pQuod in cena Christus gessit,^lfaciéndum hoc expréssit^lin sui memóriam.^l^pDocti sacris institútis,^lpanem, vinum in salútis^lconsecrámus hóstiam.^l^pDogma datur Christiánis,^lquod in carnem transit panis^let vinum in sánguinem.^l^pQuod non capis, quod non vides,^lanimósa firmat fides,^lpræter rerum órdinem.^l^pSub divérsis speciébus,^lsignis tantum, et non rebus,^llatent res exímiæ.^l^pCaro cibus, sanguis potus:^lmanet tamen Christus totus^lsub utráque spécie.^l^pA suménte non concísus,^lnon confráctus, non divísus:^línteger accípitur.^l^pSumit unus, sumunt mille:^lquantum isti, tantum ille:^lnec sumptus consúmitur.^l^pSumunt boni, sumunt mali:^lsorte tamen inæquáli,^lvitæ vel intéritus.^l^pMors est malis, vita bonis:^lvide, paris sumptiónis^lquam sit dispar éxitus.^l^pFracto demum sacraménto,^lne vacílles, sed meménto,^ltantum esse sub fragménto,^lquantum toto tégitur.^l^pNulla rei fit scissúra:^lsigni tantum fit fractúra:^lqua nec status nec statúra^lsignáti minúitur.^l^pEcce panis Angelórum,^lfactus cibus viatórum:^lvere panis filiórum,^lnon mitténdus cánibus.^l^pIn figúris præsignátur,^lcum Isaac immolátur:^lagnus paschæ deputátur:^ldatur manna pátribus.^l^pBone pastor, panis vere,^lJesu, nostri miserére:^ltu nos pasce, nos tuére:^ltu nos bona fac vidére^lin terra vivéntium.^l^pTu, qui cuncta scis et vales:^lqui nos pascis hic mortáles:^ltuos ibi commensáles,^lcoherédes et sodáles,^lfac sanctórum cívium.^l^pAmen. Allelúja."
         }
       },
       "5": {
         "each": {
           "oration": "o-9-5-each-Oration"
+        },
+        "Lesehore": {
+          "resp0_0": "Ich denke an die Taten des Herrn.",
+          "resp0_1": "Ich denke an seine Wunder von Anbeginn.",
+          "les_buch": "Aus dem Brief an die Römer.",
+          "les_stelle": "8,28-39",
+          "les_text": "^hIn Christus wird die Liebe Gottes offenbar^pWir wissen, dass Gott bei denen, die ihn lieben, alles zum Guten führt, bei denen, die nach seinem ewigen Plan berufen sind; denn alle, die er im voraus erkannt hat, hat er auch im voraus dazu bestimmt, der verherrlichten Gestalt seines Sohnes nachgebildet zu werden, damit dieser der Erstgeborene von vielen Brüdern sei. Die aber, die er vorausbestimmt hat, hat er auch berufen, und die er berufen hat, hat er auch gerecht gemacht; die er aber gerecht gemacht hat, die hat er auch verherrlicht.^p^hDie Gewissheit der Glaubenden^pWas ergibt sich nun, wenn wir das alles bedenken? Ist Gott für uns, wer ist dann gegen uns? Er hat seinen eigenen Sohn nicht verschont, sondern ihn für uns alle hingegeben; wie sollte er uns mit ihm nicht alles schenken? Wer kann die Auserwählten Gottes anklagen? Gott ist es, der gerecht macht. Wer kann sie verurteilen? Christus Jesus, der gestorben ist, mehr noch: der auferweckt wurde, sitzt zur Rechten Gottes und tritt für uns ein. Was kann uns scheiden von der Liebe Christi? Bedrängnis oder Not oder Verfolgung, Hunger oder Kälte, Gefahr oder Schwert? In der Schrift steht: Um deinetwillen sind wir den ganzen Tag dem Tod ausgesetzt; wir werden behandelt wie Schafe, die man zum Schlachten bestimmt hat. Doch all das überwinden wir durch den, der uns geliebt hat. Denn ich bin gewiss: Weder Tod noch Leben, weder Engel noch Mächte, weder Gegenwärtiges noch Zukünftiges, weder Gewalten der Höhe oder Tiefe noch irgendeine andere Kreatur können uns scheiden von der Liebe Gottes, die in Christus Jesus ist, unserem Herrn.",
+          "resp1_1": "Durch die Sünde waren wir tot, doch Gott hat uns in Christus wieder lebendig gemacht",
+          "resp1_2": "wegen der großen Liebe, mit der er uns geliebt hat.",
+          "resp1_3": "Um in den kommenden Zeiten den überfließenden Reichtum seiner Gnade zu zeigen.",
+          "patr_autor": "Bonaventura († 1274)",
+          "patr_werk": "Aus dem Opusculum „Das Holz des Lebens“.",
+          "patr_text": "^hBei dir ist die Quelle des Lebens^pBetrachte auch, du erlöster Mensch, wer es ist, der für dich am Kreuz hängt, wie groß und heilig er ist, er, dessen Tod die Toten lebendig macht, bei dessen Hinübergang Himmel und Erde trauerten und harte Felsen zersprangen.^pAus der Seite des am Kreuz entschlafenen Christus sollte die Kirche gebildet werden, und es sollte sich die Schrift erfüllen: „Sie werden auf den blicken, den sie durchbohrt haben.“ {1#Sach 12,10; vgl. Joh 19,37} Darum verfügte Gott, dass einer der Soldaten diese Seite durchbohrte und öffnete. Blut und Wasser flossen heraus, der Lösepreis unseres Heils. Ausgegossen aus dem Quell, dem Allerheiligsten des Herzens, sollte dieser Preis den Sakramenten der Kirche die Kraft geben, das Leben der Gnade zu gewähren. Den bereits in Christus Lebenden sollte er der Becher lebendigen Wassers für das ewige Leben sein {2#vgl.°Joh 4,14}.^pEile hin zu diesem Quell des Lebens und des Lichtes mit lebendigem Verlangen, du gottliebende Seele, wer immer du bist, und rufe zu ihm mit der innersten Kraft des Herzens: Du unsagbare Schönheit des höchsten Gottes, du reinster Abglanz des ewigen Lichtes, du Leben, das allem Leben das Leben gibt, du Licht, das allem Licht das Licht verleiht und seit dem ersten Morgenrot die vielfältigen Lichter des Himmels in immerwährendem Glanz erhält, vor dem Thron deiner Gottheit.^pDu ewiger, unzugänglicher, lauterer und süßer Strom aus der Quelle, die vor den Augen der sterblichen Menschen verborgen ist, deren Tiefe ohne Grund, deren Höhe ohne Grenzen, deren Weite ohne Schranken ist und deren Reinheit nicht getrübt werden kann! Aus ihr entspringt der Fluss, der die Gottesstadt erfreut {3#vgl.°Ps 46,5}, damit wir unter Jubel und Dank Loblieder singen und uns die Erfahrung bezeuge: „Bei dir ist die Quelle des Lebens, in deinem Licht schauen wir das Licht.“ {4#Ps 36,10}",
+          "patr_resp1": "Lobe den Herrn, meine Seele, und vergiss nicht, was er dir Gutes getan hat,",
+          "patr_resp2": "der dein Leben vor dem Untergang rettet und dich mit Huld und Erbarmen krönt.",
+          "patr_resp3": "Kostet und seht, wie gütig der Herr ist."
         }
       },
       "6": {
         "each": {
+          "oration": "o-9-6-each-Oration"
+        },
+        "Lesehore": {
           "oration": "o-9-6-each-Oration"
         }
       }
@@ -12791,6 +12899,11 @@ export const brevierData = {
       }
     },
     "4": {
+      "1": {
+        "Terz": {
+          "ps_3": 120.101
+        }
+      },
       "5": {
         "Lesehore": {
           "ps_1": 55.3,

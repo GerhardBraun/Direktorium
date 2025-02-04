@@ -10,6 +10,7 @@ import formatBibleRef from './comp_BibleRefFormatter.js';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from './ui/tooltip.jsx';
 import SourceSelector from './comp_SourceSelector.js';
 import { getValue as extGetValue } from './comp_GetValue.js';
+import { SectionHeader as extSectionHeader } from './comp_SectionHeader.js';
 import { psalmsData } from './data_PsHymn.ts';
 import KompletSelector from './comp_KompletSelector.js';
 
@@ -1107,12 +1108,14 @@ const PrayerTextDisplay = ({
     const [localPrefContinuous, setLocalPrefContinuous] = useState(false);
     const [localPrefPsalmsWt, setLocalPrefPsalmsWt] = useState(false);
     const [localPrefKomplet, setLocalPrefKomplet] = useState(texts?.komplet?.prefKomplet || 'wt');
+    const [localPrefInv, setLocalPrefInv] = useState(texts?.prefInv || 95);
 
     if (!hour || !texts || !texts[hour]) {
         return <div className="p-4">Keine Daten verfügbar</div>;
     }
 
     const doxology = "Ehre sei dem Vater und dem Sohn^*und dem Heiligen Geist,^pwie im Anfang so auch jetzt und alle Zeit^*und in Ewigkeit. Amen.";
+    const easterAntiphon = "^p^rAnstelle des Responsoriums wird die°folgende°Antiphon°genommen:^0r^lDas ist der Tag, den der Herr gemacht hat. Lasst°uns°jubeln und seiner uns freuen. Halleluja."
     const { prefComm = 0, rank_wt = 0, rank_date = 0, isCommemoration } = texts;
 
     // Get value from sources in priority order: prefSrc -> com1/com2 -> wt
@@ -1128,168 +1131,30 @@ const PrayerTextDisplay = ({
         field
     });
 
-    const checkSources = (field) => {
-        const hasEig = texts[hour][prefSrc]?.[field];
-        const hasWt = texts[hour]['wt']?.[field];
-        const hasComm1 = texts[hour][prefSrc]?.['com1']?.[field];
-        const hasComm2 = texts[hour][prefSrc]?.['com2']?.[field];
-        const nameComm1 = texts['laudes'][prefSrc]?.['com1']?.['name'] || '1';
-        const nameComm2 = texts['laudes'][prefSrc]?.['com2']?.['name'] || '2';
-
-        return {
-            hasEig, hasWt,
-            hasComm1, hasComm2,
-            nameComm1, nameComm2,
-            showSources: !hasEig && hasWt && hasComm1,
-            showComm2: hasComm1 && hasComm2
-        };
-    };
-
     // Component for section headers with source indicators
-    const SectionHeader = ({ title, field: provField, latinField, askContinuous, askTSN, onSelectHour }) => {
-        const field = (hour === 'invitatorium' && provField === 'ps_1')
-            ? 'ant_0' : provField;
-        const { hasEig, hasWt, nameComm1, nameComm2, showSources, showComm2 } =
-            checkSources(field);
-        const hasLatin = latinField && texts[hour]['wt']?.[latinField];
-        const showContinuous = hasEig && hasWt && askContinuous && hour === 'lesehore';
-        const showPsalmsWt = hasEig && hasWt &&
-            title === 'PSALMODIE' && (hour !== 'invitatorium' && hour !== 'komplet');
-        const showTSN = askTSN && ["terz", "sext", "non"].includes(hour);
-
-        // Prüfe, ob Commune übersprungen werden soll
-        let skipCommune = false;
-        if (rank_date < 3 && (  // an Gedenktagen
-            (hour === 'lesehore' && // Lesehore: nur Hymnus und Oration ggf. Commune
-                !field.startsWith('hymn_') && field !== 'oration') ||
-            ((hour === 'laudes' || hour === 'vesper') &&  // Laudes/Vesper Psalmodie
-                (field.startsWith('ps_') ||
-                    (field.startsWith('ant_') && !field.startsWith('ant_ev'))
-                )) ||
-            ['terz', 'sext', 'non'].includes(hour)) // Kleinen Horen: ganz vom Wt
-        ) { skipCommune = true };
-
-        if (rank_date < 5 &&    // an Festen: Ant und Ps in Kleinen Horen vom Wt
-            ['terz', 'sext', 'non'].includes(hour) &&
-            (field.startsWith('ps_') || field.startsWith('ant_'))
-        ) { skipCommune = true };
-
-        if (prefSollemnity ||   // Hochfeste und 1. Vesper: Comm, wenn nicht eigen, nicht vom WT
-            (texts?.hasErsteVesper && hour === 'vesper')
-        ) { skipCommune = false };
-
-        /////
-
-        if (title === "RESPONSORIUM" ||
-            (!showSources && !hasLatin && !showPsalmsWt && !showContinuous && !showTSN)) {
-            return <h2 className="prayer-heading">{title}</h2>;
-        }
-
-        return (
-            <h2 className="prayer-heading flex items-center gap-3 text-rubric">
-                {title}
-                {hasLatin && (
-                    <button
-                        onClick={() => setLocalPrefLatin(prev => !prev)}
-                        className="font-normal text-rubric text-[0.85em]"
-                    >
-                        (dt./lat.)
-                    </button>
-                )}
-                {showPsalmsWt && (
-                    <span className="font-normal text-[0.85em]">
-                        <button
-                            onClick={() => setLocalPrefPsalmsWt(false)}
-                            className={!localPrefPsalmsWt && 'underline'}
-                        >
-                            Ps eig
-                        </button>
-                        {" | "}
-                        <button
-                            onClick={() => setLocalPrefPsalmsWt(true)}
-                            className={localPrefPsalmsWt && 'underline'}
-                        >
-                            vom Wt
-                        </button>
-                    </span>
-                )}
-                {showContinuous && (
-                    <span className="font-normal text-[0.85em]">
-                        <button
-                            onClick={() => setLocalPrefContinuous(false)}
-                            className={!localPrefContinuous && 'underline'}
-                        >
-                            Eigenlesung
-                        </button>
-                        {" | "}
-                        <button
-                            onClick={() => setLocalPrefContinuous(true)}
-                            className={localPrefContinuous && 'underline'}
-                        >
-                            Bahnlesung
-                        </button>
-                    </span>
-                )}
-                {showSources && !skipCommune && (
-                    <span className="font-normal text-[0.85em]">
-                        <button
-                            onClick={() => setLocalPrefComm(1)}
-                            className={`${localPrefComm === 1 ? 'underline' : ''}`}
-                        >
-                            Comm {nameComm1}
-                        </button>
-                        {showComm2 && (
-                            <>
-                                {"  |  "}
-                                <button
-                                    onClick={() => setLocalPrefComm(2)}
-                                    className={`${localPrefComm === 2 ? 'underline' : ''}`}
-                                >
-                                    {nameComm2}
-                                </button>
-
-                            </>
-                        )}
-                        {!prefSollemnity && (
-                            <>
-                                {" | "}
-                                <button
-                                    onClick={() => setLocalPrefComm(0)}
-                                    className={`${localPrefComm === 0 ? 'underline' : ''}`}
-                                >
-                                    Wt
-                                </button>
-                            </>
-                        )}
-                    </span>
-                )}
-                {showTSN && (
-                    <span className="font-normal text-[0.85em]">
-                        <button
-                            onClick={() => onSelectHour('terz')}
-                            className={`${hour === 'terz' ? 'underline' : ''}`}
-                        >
-                            Terz
-                        </button>
-                        {" | "}
-                        <button
-                            onClick={() => onSelectHour('sext')}
-                            className={`${hour === 'sext' ? 'underline' : ''}`}
-                        >
-                            Sext
-                        </button>
-                        {" | "}
-                        <button
-                            onClick={() => onSelectHour('non')}
-                            className={`${hour === 'non' ? 'underline' : ''}`}
-                        >
-                            Non
-                        </button>
-                    </span>
-                )}
-            </h2>
-        );
-    };
+    const SectionHeader = ({ title, field: provField, latinField,
+        askContinuous, askTSN, onSelectHour }) => extSectionHeader({
+            title,
+            provField,
+            latinField,
+            askContinuous,
+            askTSN,
+            onSelectHour,
+            texts,
+            hour,
+            prefSrc,
+            prefSollemnity,
+            rank_date,
+            localPrefComm,
+            localPrefPsalmsWt,
+            localPrefContinuous,
+            localPrefInv,
+            setLocalPrefLatin,
+            setLocalPrefInv,
+            setLocalPrefPsalmsWt,
+            setLocalPrefContinuous,
+            setLocalPrefComm
+        });
 
     // Format psalm data
     const formatPsalm = (number, verses, title, quote, text) => {
@@ -1326,10 +1191,7 @@ const PrayerTextDisplay = ({
 
         let text = provText
             .replace(/\^ö/g, season === 'o' ? ' Halleluja.' : '')
-            .replace(/\^R/g, (season === 'o' && texts?.week === 1)
-                ? '^p^rAnstelle des Responsoriums wird die°folgende°Antiphon°genommen:^0r^lDas ist der Tag, den der Herr gemacht hat. Lasst°uns°jubeln und seiner uns freuen. Halleluja.'
-                : '')
-
+            .replace(/\^R/g, (season === 'o' && texts?.week === 1) ? easterAntiphon : '')
 
         // Inline-Formatierungen als React-Elemente verarbeiten
         const processInlineFormats = (text) => {
@@ -1566,18 +1428,15 @@ const PrayerTextDisplay = ({
                                 <Rubric style={{ display: 'inline' }}>Ant.&nbsp;</Rubric>
                                 {formatPrayerText(getValue('ant_0'))}
                             </div>)}
-                        {hour === "invitatorium" && texts?.invitatorium?.psalms?.map((num, index) => {
-                            return (
-                                <div key={num} className="mb-4">
-                                    {(num !== 95) && (<Rubric>Oder:</Rubric>)}
-                                    {formatPsalm(
-                                        num,    // number
-                                        '', '', '',  // verses, title, quote
-                                        psalmsData[num][0].text  // text
-                                    )}
-                                </div>);
-
-                        })}
+                        {hour === "invitatorium" && texts?.invitatorium?.psalms?.includes(localPrefInv) && (
+                            <div className="mb-4">
+                                {formatPsalm(
+                                    localPrefInv,    // number
+                                    '', '', '',      // verses, title, quote
+                                    psalmsData[localPrefInv][0].text  // text
+                                )}
+                            </div>
+                        )}
                         {hour !== "invitatorium" && [1, 2, 3].map(num => {
                             const psalm = getValue(`ps_${num}`);
                             const ant = getValue(`ant_${num}`);

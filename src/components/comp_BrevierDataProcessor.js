@@ -232,11 +232,13 @@ function getPrayerTexts(date, calendarDate = 0) {   // für verschobene Hochfest
         mergeData(hours, specificLect, 'wt');
 
         // Oration der Komplet in der Osteroktav
-        const easterKomplet1 = brevierData['k1']?.['o']?.['6']
-        const easterKomplet2 = brevierData['k2']?.['o']?.['0']
+        if (season === 'o' && week === '1' && dayOfWeek > 0 && dayOfWeek < 6) {
+            const easterKomplet1 = brevierData['k1']?.['o']?.['6']
+            const easterKomplet2 = brevierData['k2']?.['o']?.['0']
 
-        mergeData(hours, easterKomplet1, 'k1')
-        mergeData(hours, easterKomplet2, 'k2')
+            mergeData(hours, easterKomplet1, 'k1')
+            mergeData(hours, easterKomplet2, 'k2')
+        }
 
         // Process Heiligenfeste only if rank is appropriate
         if ((rank_date > 1 && rank_date > rank_wt) || (rank_date === 2 && rank_wt === 2)) {
@@ -669,7 +671,23 @@ export function processBrevierData(todayDate) {
         ...kompletSettings
     };
     if (todayInfo.season === 'o') { processEasterResponses(finalData); }
-    finalData.invitatorium.psalms = processInvitatoriumPsalms(finalData);
 
+    const invPsalms = processInvitatoriumPsalms(finalData);
+    finalData.invitatorium.psalms = invPsalms
+    let prefInv = 95; // Standardwert und Wert für Sonntag
+
+    if (dayOfWeek !== 0) { // Nicht Sonntag
+        const preferredPsalm =
+            (dayOfWeek === 1 || dayOfWeek === 5) ? 100 : // Montag oder Freitag
+                (dayOfWeek === 3 || dayOfWeek === 4) ? 67 :  // Mittwoch oder Donnerstag
+                    24;  // Dienstag oder Samstag
+
+        // Prüfe ob der bevorzugte Psalm verfügbar ist
+        if (invPsalms.includes(preferredPsalm)) {
+            prefInv = preferredPsalm;
+        }
+    }
+
+    finalData.prefInv = prefInv;
     return finalData;
 }

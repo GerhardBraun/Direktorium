@@ -859,7 +859,7 @@ export const psalmsData = {
         "verses": "1-12",
         "title": "Gott nahe zu sein ist mein Glück",
         "quote": "Wohl dem, der an mir keinen Anstoß nimmt. (Mt 11,6)",
-        "text": "^(Lauter Güte ist Gott für Israel,^*für alle Menschen mit reinem Herzen.^p^)Ich aber – fast wären meine Füße gestrauchelt,^*beinahe wäre ich gefallen.^pDenn ich habe mich über die Prahler ereifert,^*als ich sah, dass es diesen Frevlern so gut ging.^pSie leiden ja keine Qualen,^*ihr Leib ist gesund und wohlgenährt.^pSie kennen nicht die Mühsal der Sterblichen,^*sind nicht geplagt wie andere Menschen.^pDarum ist Hochmut ihr Halsschmuck,^*wie ein Gewand umhüllt sie Gewalttat.^pSie sehen kaum aus den Augen vor Fett,^*ihr Herz läuft über von bösen Plänen.^pSie höhnen, und was sie sagen, ist schlecht;^*sie sind falsch und reden von oben herab.^pSie reißen ihr Maul bis zum Himmel auf^*und lassen auf Erden ihrer Zunge freien Lauf.^pDarum wendet sich das Volk ihnen zu^*und schlürft ihre Worte in vollen Zügen.^pSie sagen: „Wie sollte Gott das merken?^*Wie kann der Höchste das wissen?“^pWahrhaftig, so sind die Frevler:^*Immer im Glück, häufen sie Reichtum auf Reichtum."
+        "text": "^(Lauter Güte ist Gott für Israel,^*für alle Menschen mit reinem Herzen.^)^pIch aber – fast wären meine Füße gestrauchelt,^*beinahe wäre ich gefallen.^pDenn ich habe mich über die Prahler ereifert,^*als ich sah, dass es diesen Frevlern so gut ging.^pSie leiden ja keine Qualen,^*ihr Leib ist gesund und wohlgenährt.^pSie kennen nicht die Mühsal der Sterblichen,^*sind nicht geplagt wie andere Menschen.^pDarum ist Hochmut ihr Halsschmuck,^*wie ein Gewand umhüllt sie Gewalttat.^pSie sehen kaum aus den Augen vor Fett,^*ihr Herz läuft über von bösen Plänen.^pSie höhnen, und was sie sagen, ist schlecht;^*sie sind falsch und reden von oben herab.^pSie reißen ihr Maul bis zum Himmel auf^*und lassen auf Erden ihrer Zunge freien Lauf.^pDarum wendet sich das Volk ihnen zu^*und schlürft ihre Worte in vollen Zügen.^pSie sagen: „Wie sollte Gott das merken?^*Wie kann der Höchste das wissen?“^pWahrhaftig, so sind die Frevler:^*Immer im Glück, häufen sie Reichtum auf Reichtum."
       }
   },
   74: {
@@ -1507,6 +1507,12 @@ export const psalmsData = {
         "title": "Falsche Zungen",
         "quote": "Geduldig in der Bedrängnis, beharrlich im Gebet. (Röm 12,12)",
         "text": "Ich rief zum Herrn in meiner Not,^*und er hat mich erhört.^pHerr, rette mein Leben vor Lügnern,^*rette es vor falschen Zungen!^pWas soll er dir tun, was alles dir antun,^*du falsche Zunge?^pScharfe Pfeile von Kriegerhand^*und glühende Ginsterkohlen dazu.^pWeh mir, dass ich als Fremder in Meschech bin^*und bei den Zelten von Kedar wohnen muss!^pIch muss schon allzu lange wohnen^*bei Leuten, die den Frieden hassen.^pIch verhalte mich friedlich;^*doch ich brauche nur zu reden, dann suchen sie Hader und Streit."
+      },
+    101.0: {
+        "verses": "1-7",
+        "title": "Falsche Zungen",
+        "quote": "Geduldig in der Bedrängnis, beharrlich im Gebet. (Röm 12,12)",
+        "text": "^(Ich rief zum Herrn in meiner Not,^*und er hat mich erhört.^)^pHerr, rette mein Leben vor Lügnern,^*rette es vor falschen Zungen!^pWas soll er dir tun, was alles dir antun,^*du falsche Zunge?^pScharfe Pfeile von Kriegerhand^*und glühende Ginsterkohlen dazu.^pWeh mir, dass ich als Fremder in Meschech bin^*und bei den Zelten von Kedar wohnen muss!^pIch muss schon allzu lange wohnen^*bei Leuten, die den Frieden hassen.^pIch verhalte mich friedlich;^*doch ich brauche nur zu reden, dann suchen sie Hader und Streit."
       }
   },
   121: {

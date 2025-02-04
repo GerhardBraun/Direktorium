@@ -1,4 +1,3 @@
-// getValue.js
 export const getValue = ({ hour, texts, field,
     prefSrc, prefSollemnity,
     localPrefComm, localPrefPsalmsWt, localPrefContinuous, localPrefKomplet }) => {

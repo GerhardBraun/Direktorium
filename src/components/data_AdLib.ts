@@ -609,7 +609,7 @@ export const adlibData = {
           "comm_1": "Hirten",
           "patr_autor": "Rimbertus (†°888)",
           "patr_werk": "Aus der Lebensbeschreibung des hl. Ansgar.",
-          "patr_text": "^hEr wollte dem Blinden Auge, dem Lahmen Fuß, dem Armen ein Vater sein^pNach Empfang des Bischofsamtes suchte Ansgar, wo es anging, das im Kloster Begonnene zu vervollkommnen und mühte sich, in seinem Wandel allen Heiligen nachzustreben, besonders dem heiligen Martin. Voller Eifer suchte er, wie er in dessen Lebensbeschreibung gelesen hatte, durch Verkündigung des Gotteswortes den Menschen zu helfen. Zuweilen jedoch liebte er auch Einsamkeit, um sich göttlicher Weisheit zu befleißigen. Solange sich Ansgar einigermaßen jugendkräftig fühlte, maß er sich sehr oft Brot und Wasser genau Zu, besonders wenn er in der Einsamkeit weilen durfte. Doch weil er im Alter von seiner gewohnten, kargen Lebensweise abgehen musste, suchte er durch Almosen, Gebet und viele andere gute Werke einen Ausgleich zu schaffen. Deshalb kaufte er viele Gefangene los und schenkte ihnen die Freiheit zurück. Einige aber, die sich hierfür eigneten, ließ er in Theologie unterweisen, um sie für den Dienst Gottes heranzuziehen.^pWie sehr er sich aus Liebe zu Gott der Andacht befleißigte, bezeugen unsere dicken Bücher, die er mit eigener Hand Wort für Wort niederschrieb. Schließlich stellte sich unser Vater aus Bußsprüchen der Heiligen Schrift für jeden Psalm des Psalters eigene kurze Gebete zusammen. Bald preist er darin Gottes Allmacht und gerechtes Gericht, bald tadelt und schilt er sich selber. Bald rühmt er die Heiligen, die Gott dienen, bald beklagt er die armen Sünder. Sich selbst achtete er geringer als sie alle. Diese Sprüche pflegte er beim gemeinsamen Psalmengesang nach jedem Psalm leise vor sich hin zu murmeln, wollte sie aber niemand mitteilen.^pBei Gesundheit sang er regelmäßig zur gehörigen Tageszeit selbst die öffentliche Messe. Andernfalls hörte er sie wenigstens. All seinen Besitz wünschte er nach dem Willen des Herrn Notleidenden zu geben. Nicht nur im eigenen Sprengel, selbst in fernen Gegenden leistete er Hilfe und Unterstützung. Besondere Fürsorge durch Überweisung des Zehnts einiger Dörfer galt dem Armenspital in Bremen, seiner Gründung; dort sollte neben der täglichen Aufnahme Bedürftiger auch Krankenpflege geübt werden.^pWenn er als Bischof seinen Sprengel Visitierte, ließ er erst die Armen hereinführen, bevor er sich selbst zu Tisch setzte, reichte ihnen selbst das Wasser zum Waschen der Hände, gab ihnen gesegnetes Brot, mischte den Trank und ging mit seinen Begleitern nicht eher zum Mahle, als bis vor ihnen ein Tisch stand. Er wollte dem Blinden Auge, dem Lahmen Fuß, den Armen ein wahrer Vater sein.^pIn solcher Glaubensinbrunst wurde er von der Welt genommen; mit einer sehr großen Gefolgschaft von Gläubigen aus dem Dänen- und Schwedenvolke, die er dem Herrn gewann, wird er daher, so glauben wir, zum Lohne für seinen guten Kampf durch göttliches Gnadengesehenk am Tage der Auferstehung aller ruhmreich und glücklich ins Himmelreich eingehen.",
+          "patr_text": "^hEr wollte dem Blinden Auge, dem Lahmen Fuß, dem Armen ein Vater sein^pNach Empfang des Bischofsamtes suchte Ansgar, wo es anging, das im Kloster Begonnene zu vervollkommnen und mühte sich, in seinem Wandel allen Heiligen nachzustreben, besonders dem heiligen Martin. Voller Eifer suchte er, wie er in dessen Lebensbeschreibung gelesen hatte, durch Verkündigung des Gotteswortes den Menschen zu helfen. Zuweilen jedoch liebte er auch Einsamkeit, um sich göttlicher Weisheit zu befleißigen. Solange sich Ansgar einigermaßen jugendkräftig fühlte, maß er sich sehr oft Brot und Wasser genau zu, besonders wenn er in der Einsamkeit weilen durfte. Doch weil er im Alter von seiner gewohnten, kargen Lebensweise abgehen musste, suchte er durch Almosen, Gebet und viele andere gute Werke einen Ausgleich zu schaffen. Deshalb kaufte er viele Gefangene los und schenkte ihnen die Freiheit zurück. Einige aber, die sich hierfür eigneten, ließ er in Theologie unterweisen, um sie für den Dienst Gottes heranzuziehen.^pWie sehr er sich aus Liebe zu Gott der Andacht befleißigte, bezeugen unsere dicken Bücher, die er mit eigener Hand Wort für Wort niederschrieb. Schließlich stellte sich unser Vater aus Bußsprüchen der Heiligen Schrift für jeden Psalm des Psalters eigene kurze Gebete zusammen. Bald preist er darin Gottes Allmacht und gerechtes Gericht, bald tadelt und schilt er sich selber. Bald rühmt er die Heiligen, die Gott dienen, bald beklagt er die armen Sünder. Sich selbst achtete er geringer als sie alle. Diese Sprüche pflegte er beim gemeinsamen Psalmengesang nach jedem Psalm leise vor sich hin zu murmeln, wollte sie aber niemand mitteilen.^pBei Gesundheit sang er regelmäßig zur gehörigen Tageszeit selbst die öffentliche Messe. Andernfalls hörte er sie wenigstens. All seinen Besitz wünschte er nach dem Willen des Herrn Notleidenden zu geben. Nicht nur im eigenen Sprengel, selbst in fernen Gegenden leistete er Hilfe und Unterstützung. Besondere Fürsorge durch Überweisung des Zehnts einiger Dörfer galt dem Armenspital in Bremen, seiner Gründung; dort sollte neben der täglichen Aufnahme Bedürftiger auch Krankenpflege geübt werden.^pWenn er als Bischof seinen Sprengel visitierte, ließ er erst die Armen hereinführen, bevor er sich selbst zu Tisch setzte, reichte ihnen selbst das Wasser zum Waschen der Hände, gab ihnen gesegnetes Brot, mischte den Trank und ging mit seinen Begleitern nicht eher zum Mahle, als bis vor ihnen ein Tisch stand. Er wollte dem Blinden Auge, dem Lahmen Fuß, den Armen ein wahrer Vater sein.^pIn solcher Glaubensinbrunst wurde er von der Welt genommen; mit einer sehr großen Gefolgschaft von Gläubigen aus dem Dänen- und Schwedenvolke, die er dem Herrn gewann, wird er daher, so glauben wir, zum Lohne für seinen guten Kampf durch göttliches Gnadengesehenk am Tage der Auferstehung aller ruhmreich und glücklich ins Himmelreich eingehen.",
           "patr_resp1": "Wenn ich das Evangelium verkündige, so kann ich mich nicht rühmen; denn ein Zwang liegt auf mir.",
           "patr_resp2": "Wehe mir, wenn ich das Evangelium nicht verkündige!",
           "patr_resp3": "Allen bin ich alles geworden, um wenigstens einige zu retten.",
@@ -2760,6 +2760,38 @@ export const adlibData = {
         }
       }
     },
+    "3": {
+      "eig": {
+        "name": "Hl. Karl Lwanga und Gefährten",
+        "genitiv": "",
+        "ErsteV": {
+          "name": "Hl. Karl Lwanga und Gefährten",
+          "comm_1": "MärtPl",
+          "oration": "Gott, du lässt das Blut der Märtyrer zum Samen werden für neue Christen. Erhöre unser Gebet für die Kirche in Afrika. Lass den Acker, der vom Blut des heiligen Karl Lwanga und seiner Freunde getränkt ist, reiche Ernte tragen. Darum bitten wir durch Jesus Christus."
+        },
+        "Lesehore": {
+          "comm_1": "MärtPl",
+          "patr_autor": "Paul VI. († 1978)",
+          "patr_werk": "Aus einer Homilie bei der Heiligsprechung der Märtyrer von Uganda.",
+          "patr_text": "^hDie Herrlichkeit der Märtyrer – ein Zeichen der Wiedergeburt^pDie afrikanischen Märtyrer fügen dem Martyrologium, dem Verzeichnis der Märtyrer, eine neue Seite hinzu, auf der Geschehnisse voll Schrecklichkeit und zugleich voll Großartigkeit dargestellt sind. Es ist eine wahrhaft kostbare Seite, die den Berichten aus dem alten Afrika hinzugefügt wird. Wir kleingläubigen Menschen unseres Zeitalters hätten es nicht für möglich gehalten, dass diese Berichte je eine ebenbürtige Fortsetzung finden könnten. Wer hätte je gedacht, dass zu den herzbewegenden Akten der Märtyrer von Scilli, derer von Karthago, der von Augustinus{1#PL 36, 571; 38, 1045} und Prudentius{2#Peristephonon 4}{3#PG 50, 693ff} erwähnten „Massa Candida“ von Utica, der ägyptischen Märtyrer, deren Lobpreis sich bei Johannes Chrysostomus findet, und der Märtyrer aus der Verfolgung der Vandalen – wer hätte gedacht, dass zu diesen Märtyrerakten in unserer Zeit neue Berichte treten könnten? In ihnen finden wir Taten nicht geringerer Tapferkeit und Vorgänge nicht minderen Glanzes. Wer konnte vorausahnen, dass wir eines Tages den erhabenen heiligen Zeugen Afrikas, die wir aus der Geschichte kennen, neue große Gestalten zugesellen würden? Cyprian, Perpetua und Felizitas, dem erhabenen Augustinus werden Männer wie Karl Lwanga, Matthias, Mulumba, Kalumba und ihre zwanzig Gefährten an die Seite gestellt. Zu nennen sind auch die anderen, die sich zur anglikanischen Kirche bekannten und in gleicher Weise für den Namen Christi den Tod erlitten.^pDiese afrikanischen Märtyrer haben eine neue Zeit eingeleitet. Wir möchten jedoch den Blick nicht auf Verfolgungen und Religionskämpfe richten, sondern auf die religiöse und bürgerliche Erneuerung!^pDiese Märtyrer sind die ersten dieser neuen Zeit – gebe Gott, dass sie die letzten seien, da doch ihr Ganzopfer so groß und kostbar war! Von ihrem Blut getränkt, wird Afrika, frei und unabhängig, neu erstehen.^pDie Hinrichtung dieser Märtyrer ist eine unerhörte Untat. Zugleich setzt sie ein Zeichen, so dass sich daraus hinreichende Grundsätze und klare sittliche Prinzipien ergeben. Nach ihnen muss sich das neue Volk Afrikas formen, damit eine neue geistige Tradition entsteht und auf die Nachkommen vererbt wird. Diese soll den Übergang ausdrücken und ihn fördern: Er führt von einer einfachen und rauen Lebensweise, in der es zwar nicht an edlen menschlichen Gütern fehlte, die aber geistig befleckt und krank war und gefangen unter dem Joch der Sklaverei, zu einer Kultur, die höhere Äußerungen des menschlichen Geistes und höhere Formen des gesellschaftlichen Lebens fordert.",
+          "patr_resp1": "Wenn wir für den Glauben kämpfen, schaut Gott auf uns herab. Zuschauer sind die Engel, und auch Christus blickt auf uns.",
+          "patr_resp2": "Welch erhabene Herrlichkeit, in der Gegenwart Gottes zu kämpfen und von Christus den Siegeskranz zu empfangen!",
+          "patr_resp3": "Wir wollen uns wappnen mit zuversichtlichem Glauben und liebender Tugend.",
+          "oration": "Gott, du lässt das Blut der Märtyrer zum Samen werden für neue Christen. Erhöre unser Gebet für die Kirche in Afrika. Lass den Acker, der vom Blut des heiligen Karl Lwanga und seiner Freunde getränkt ist, reiche Ernte tragen. Darum bitten wir durch Jesus Christus."
+        },
+        "Laudes": {
+          "name": "Hl. Karl Lwanga und Gefährten",
+          "farbe": "r",
+          "comm_1": "MärtPl",
+          "oration": "Gott, du lässt das Blut der Märtyrer zum Samen werden für neue Christen. Erhöre unser Gebet für die Kirche in Afrika. Lass den Acker, der vom Blut des heiligen Karl Lwanga und seiner Freunde getränkt ist, reiche Ernte tragen. Darum bitten wir durch Jesus Christus."
+        },
+        "Vesper": {
+          "name": "Hl. Karl Lwanga und Gefährten",
+          "comm_1": "MärtPl",
+          "oration": "Gott, du lässt das Blut der Märtyrer zum Samen werden für neue Christen. Erhöre unser Gebet für die Kirche in Afrika. Lass den Acker, der vom Blut des heiligen Karl Lwanga und seiner Freunde getränkt ist, reiche Ernte tragen. Darum bitten wir durch Jesus Christus."
+        }
+      }
+    },
     "6": {
       "n1": {
         "name": "Hl. Norbert von Xanten",
@@ -2878,6 +2910,41 @@ export const adlibData = {
         }
       }
     },
+    "13": {
+      "eig": {
+        "name": "Hl. Antonius von Padua",
+        "genitiv": "",
+        "ErsteV": {
+          "name": "Hl. Antonius von Padua",
+          "comm_1": "Hirten_Kl",
+          "comm_2": "Mann_Ord",
+          "oration": "Allmächtiger, ewiger Gott, du hast deiner Kirche im heiligen Antonius von Padua einen machtvollen Verkünder des wahren Glaubens und einen Helfer in der Not geschenkt. Gib, dass wir nach seinem Vorbild ein christliches Leben führen und in allen Nöten deine Hilfe erfahren. Darum bitten wir durch Jesus Christus."
+        },
+        "Lesehore": {
+          "comm_1": "Hirten_Kl",
+          "comm_2": "Mann_Ord",
+          "patr_autor": "Antonius von Padua († 1231)",
+          "patr_werk": "Aus einer Predigt über die Aufgabe des Predigers.",
+          "patr_text": "^hDie Rede hat Leben, wenn die Taten sprechen^pWer vom Heiligen Geist erfüllt ist, redet in vielen Sprachen. Die vielen Sprachen sind ein vielfältiges Zeugnis von Jesus Christus. Solche Sprachen sind: Demut, Armut, Geduld und Gehorsam. In ihnen reden wir, wenn wir sie anderen an uns sichtbar machen. Die Rede hat Leben, wenn die Taten sprechen. Ich bitte: Schluss mit den Worten, die Taten sollen sprechen! Wir sind voll von Worten und leer an Werken und darum von Gott verworfen. Denn er verfluchte den Feigenbaum, an dem er keine Frucht, sondern nur Blätter fand{1#vgl.°Mt 21,9}. Gregor sagt: Es ist ein Gesetz für den Prediger, dass er tut, was er predigt. Vergeblich rühmt sich der Gesetzeskenntnis, wer durch seine Taten zunichtemacht, was er lehrt.^pDie Apostel „redeten, wie es der Geist ihnen eingab“{2#Apg 2,4}. Wohl dem, der redet, wie es der Geist ihm eingibt, und nicht, wie es sein eigenes Herz ihm sagt. Es gibt Prediger, die aus ihrem eigenen Geist reden, die Worte anderer stehlen, sie für die ihrigen ausgeben und sich selbst zuschreiben. Von ihnen und ähnlichen sagt der Herr bei Jeremia: „Nun gehe ich gegen die Propheten – Spruch des Herrn –, die einander meine Worte stehlen. Nun gehe ich gegen die Propheten vor – Spruch des Herrn –, die ihre Zunge gebrauchen, um Sprüche zu machen. Ja, nun gehe ich vor gegen die Propheten mit ihren erlogenen Träumen – Spruch des Herrn; sie erzählen die Träume und verführen mein Volk durch ihre Lügen und ihr freches Geschwätz. Ich aber habe sie weder gesandt noch beauftragt, und sie sind diesem Volk ganz unnütz – Spruch des Herrn.“{3#Jer 23,30-32}^pLasst uns also reden, wie es uns der Heilige Geist eingibt. Wir wollen ihn demütig und ergeben bitten, uns seine Gnade einzugießen, damit wir den Pfingsttag mit allen fünf Sinnen und in der Erfüllung der zehn Gebote feiern, dass wir durch die Feuerzungen des Bekenntnisses entzündet werden und dass wir, entzündet und erleuchtet, im Glanz der Heiligen den dreieinigen Gott schauen dürfen.",
+          "patr_resp1": "Der Gerechte sprosst wie die Lilie,",
+          "patr_resp2": "er blüht ewig vor dem Herrn.",
+          "patr_resp3": "In der Schar der Auserwählten erntet er Lob.",
+          "oration": "Allmächtiger, ewiger Gott, du hast deiner Kirche im heiligen Antonius von Padua einen machtvollen Verkünder des wahren Glaubens und einen Helfer in der Not geschenkt. Gib, dass wir nach seinem Vorbild ein christliches Leben führen und in allen Nöten deine Hilfe erfahren. Darum bitten wir durch Jesus Christus."
+        },
+        "Laudes": {
+          "name": "Hl. Antonius von Padua",
+          "comm_1": "Hirten_Kl",
+          "comm_2": "Mann_Ord",
+          "oration": "Allmächtiger, ewiger Gott, du hast deiner Kirche im heiligen Antonius von Padua einen machtvollen Verkünder des wahren Glaubens und einen Helfer in der Not geschenkt. Gib, dass wir nach seinem Vorbild ein christliches Leben führen und in allen Nöten deine Hilfe erfahren. Darum bitten wir durch Jesus Christus."
+        },
+        "Vesper": {
+          "name": "Hl. Antonius von Padua",
+          "comm_1": "Hirten_Kl",
+          "comm_2": "Mann_Ord",
+          "oration": "Allmächtiger, ewiger Gott, du hast deiner Kirche im heiligen Antonius von Padua einen machtvollen Verkünder des wahren Glaubens und einen Helfer in der Not geschenkt. Gib, dass wir nach seinem Vorbild ein christliches Leben führen und in allen Nöten deine Hilfe erfahren. Darum bitten wir durch Jesus Christus."
+        }
+      }
+    },
     "15": {
       "n1": {
         "name": "Hl. Vitus",
@@ -2956,6 +3023,37 @@ export const adlibData = {
         "Vesper": {
           "name": "Hl. Romuald",
           "oration": "Gott, du Freund der Heiligen, du hast den Abt Romuald berufen, einen Orden für Mönche zu gründen, die in strenger Einsamkeit leben. Schenke uns die Gnade, uns selbst zu verleugnen und Christus nachzufolgen, damit wir mit ihm in die Herrlichkeit des Himmels gelangen, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+        }
+      }
+    },
+    "21": {
+      "eig": {
+        "name": "Hl. Aloisius Gonzaga",
+        "genitiv": "",
+        "ErsteV": {
+          "name": "Hl. Aloisius Gonzaga",
+          "comm_1": "Mann_Ord",
+          "oration": "Gott, du Spender aller Gnaden, mit deiner Hilfe hat der heilige Aloisius ein Leben der Unschuld und der Buße geführt. Höre auf seine Fürsprache und gib uns, auch wenn wir ihm in der Heiligkeit nicht gefolgt sind, durch Buße und Umkehr die Reinheit des Herzens. Darum bitten wir durch Jesus Christus."
+        },
+        "Lesehore": {
+          "comm_1": "Mann_Ord",
+          "patr_autor": "Aloisius († 1591)",
+          "patr_werk": "Aus einem Brief an seine Mutter.",
+          "patr_text": "^hVom Erbarmen des Herrn will ich ewig singen^pFür immer erbitte ich für Euch, erlauchte Frau, die Gnade und den Trost des Heiligen Geistes. Als mir Euer Brief gebracht wurde, weilte ich noch in diesem Bereich des Todes. Jetzt aber gilt es, endlich einmal dem Himmel nahezukommen, um den ewigen Gott im Land der Lebendigen zu loben. Neulich hoffte ich schon vor dieser Zeit den Weg vollenden zu dürfen. Wenn es Liebe ist, wie der heilige Paulus sagt, „sich mit den Fröhlichen zu freuen und mit den Weinenden zu weinen“{1#Röm 12,15}, dann müsst Ihr, erlauchte Frau Mutter, notwendig Freude daraus schöpfen, dass Gott aus Wohlwollen und Gnade gegen Euch mir die wahre Freude und die Gewissheit gibt, dass ich nicht zu fürchten brauche, ihn jemals zu verlieren.^pIch gestehe Euch, erlauchte Frau: Wenn ich bei der Betrachtung die Tiefe der göttlichen Güte, dieses Meer ohne Ufer und Boden, wie in einen Strudel hineinstürze und ihre Welle nicht mehr erfasse, dann scheint es mir, als habe sie sich geirrt und komme mir nicht zu. Denn sie holt mich für die kurze Zeit und die geringe Mühe zu einer ewigen Ruhe und ruft mich vom Himmel her zum höchsten Glück, das ich so lässig gesucht habe, und verheißt den Lohn für Tränen, die ich so spärlich vergossen habe.^pErlauchte Frau, habt immer wieder acht und hütet Euch, diese unendliche Liebe Gottes zu verletzen! Das rate ich, weil Ihr wollt, dass ich wie einen Toten beklagen, wo ich doch vor dem Angesicht Gottes lebe und Euch noch weit mehr als in diesem Leben durch meine Fürbitte in Euren Anliegen helfen kann. Die Trennung dauert nicht lange; im Himmel sehen wir uns wieder. Wir werden gemeinsam mit dem Retter unseres Heils verbunden sein und mit ganzem Wetteifer der Herzen, sein Erbarmen auf ewig besingen und die Freuden der Unsterblichkeit genießen. Er nimmt uns, was er uns vorher anvertraut hat, um uns an einen Ort mit mehr Freiheit und Sicherheit zu verpflanzen und uns mit den Gütern zu versehen, wie wir sie uns selbst nur wünschen könnten.^pDas alles habe ich nur gesagt, um die Sehnsucht, die mich gefangenhält, zu erreichen, damit Ihr, erlauchte Frau, mit der ganzen übrigen Familie meinen Abschied als eine frohe Wohltat anseht und damit Ihr mich mit Eurem mütterlichen Segen begleitet, wenn ich diese Flut überquere hin zu den Ufern, wo all meine Hoffnungen liegen. Ich habe es um so lieber getan, weil mir kein Weg bleibt, auf dem ich deutlicher die Liebe und Ehrfurcht zeigen kann, die ich als Sohn der Mutter schulde.",
+          "patr_resp1": "Weil ich fromm und gerecht bin, Herr, nimmst du mich auf.",
+          "patr_resp2": "Du stellst mich vor dein Antlitz für immer.",
+          "patr_resp3": "Lieber an der Schwelle stehen im Haus meines Gottes als wohnen in den Zelten der Frevler.",
+          "oration": "Gott, du Spender aller Gnaden, mit deiner Hilfe hat der heilige Aloisius ein Leben der Unschuld und der Buße geführt. Höre auf seine Fürsprache und gib uns, auch wenn wir ihm in der Heiligkeit nicht gefolgt sind, durch Buße und Umkehr die Reinheit des Herzens. Darum bitten wir durch Jesus Christus."
+        },
+        "Laudes": {
+          "name": "Hl. Aloisius Gonzaga",
+          "comm_1": "Mann_Ord",
+          "oration": "Gott, du Spender aller Gnaden, mit deiner Hilfe hat der heilige Aloisius ein Leben der Unschuld und der Buße geführt. Höre auf seine Fürsprache und gib uns, auch wenn wir ihm in der Heiligkeit nicht gefolgt sind, durch Buße und Umkehr die Reinheit des Herzens. Darum bitten wir durch Jesus Christus."
+        },
+        "Vesper": {
+          "name": "Hl. Aloisius Gonzaga",
+          "comm_1": "Mann_Ord",
+          "oration": "Gott, du Spender aller Gnaden, mit deiner Hilfe hat der heilige Aloisius ein Leben der Unschuld und der Buße geführt. Höre auf seine Fürsprache und gib uns, auch wenn wir ihm in der Heiligkeit nicht gefolgt sind, durch Buße und Umkehr die Reinheit des Herzens. Darum bitten wir durch Jesus Christus."
         }
       }
     },
@@ -3109,6 +3207,43 @@ export const adlibData = {
         "Vesper": {
           "name": "Hl. Cyrill von Alexandrien",
           "oration": "Vater unseres Herrn Jesus Christus, durch deine Gnade ist der heilige Bischof Cyrill von Alexandrien unerschrocken eingetreten für den Glauben, dass Maria deinen ewigen Sohn geboren hat. Auch wir bekennen sie als wahre Gottesmutter und bitten dich: Rette uns durch die Menschwerdung deines Sohnes Jesus Christus, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+        }
+      }
+    },
+    "28": {
+      "eig": {
+        "name": "Hl. Irenäus",
+        "genitiv": "",
+        "ErsteV": {
+          "name": "Hl. Irenäus",
+          "comm_1": "MärtSg",
+          "comm_2": "Hirten",
+          "oration": "Gott der Wahrheit und des Friedens, in deiner Kraft hat der heilige Irenäus die wahre Lehre verteidigt und der Kirche den Frieden erhalten. Auf seine Fürsprache erneuere in uns den Glauben und die Liebe und mache uns bereit, Frieden und Eintracht zu fördern. Darum bitten wir durch Jesus Christus."
+        },
+        "Lesehore": {
+          "comm_1": "MärtSg",
+          "comm_2": "Hirten",
+          "patr_autor": "Irenäus von Lyon († um 202)",
+          "patr_werk": "Aus dem Buch gegen die Irrlehren.",
+          "patr_text": "^hDer lebende Mensch ist Herrlichkeit Gottes^pDie Herrlichkeit Gottes verleiht Leben. Die Gott schauen, erhalten Anteil am Leben. Deswegen macht sich der unfassbare, unbegreifliche und unsichtbare Gott sichtbar, begreifbar und fassbar für die Menschen, um ihnen Leben zu schenken, wenn sie ihn durch den Glauben aufnehmen und sehen.^pDie Menschen werden Gott sehen, damit sie leben, durch die Schau unsterblich werden und zu Gott gelangen. Wie ich früher gesagt habe, deuteten die Propheten in Bildern an, dass die Menschen Gott schauen würden, wenn sie seinen Geist tragen und immer auf sein Kommen warten, wie Mose sagt: „An jenem Tag werden wir schauen, weil Gott zum Menschen sprechen wird. Und er wird leben.“{1#vgl.°Dtn 5,24}^pWie ist Gott und wie groß ist er, er, der alles in allem wirkt, der unsichtbar ist, der für die, die er geschaffen hat, mit Worten nicht zu fassen ist, der aber dennoch nicht unerkennbar ist! Die Menschen lernen alles durch sein Wort: dass ein Gott ist, der Vater, der alles zusammenhält und allem das Sein gibt, wie der Herr gesagt hat: „Niemand hat Gott je gesehen. Der Einzige, der Gott ist und am Herzen des Vaters ruht, er hat Kunde gebracht.“{2#Joh 1,18} Der Kunde bringt, ist von Anfang an der Sohn des Vaters, da er von Anfang an beim Vater ist. Er hat dem Menschengeschlecht von Anfang an in Harmonie und Zusammenklang wie in einer Melodie die prophetische Geschichte, die Verteilung der Gnadengaben, seine eigenen Verdienste und die Herrlichkeit des Vaters gezeigt, jedesmal wenn die Zeit dafür da war und wenn es für den Menschen gut war. Denn wo Harmonie ist, da ist das rechte Maß, wo das rechte Maß, da ist auch das Zeitgerechte, und wo das Zeitgerechte, da auch das Zuträgliche.^pDeshalb ist das Wort zum Nutzen der Menschen Austeiler der Gnadengaben geworden, die der Vater schenkt. Für die Menschen traf es seine so bedeutenden Fügungen, zeigte ihnen Gott und stellte sie Gott vor. Es wahrte die Unsichtbarkeit Gottes, damit der Mensch kein Gottverächter werde und immer ein Ziel vor sich habe, dem er zustreben kann. Und doch machte das Wort Gott sichtbar, indem es den Menschen durch vielerlei Fügungen seiner Heilsordnung auf ihn hinwies, damit der Mensch nicht gänzlich von Gott abkomme und aufhöre zu sein. Herrlichkeit Gottes ist der lebendige Mensch; das Leben des Menschen die Gottesschau. Doch wenn die Erkenntnis Gottes durch die Schöpfung den irdischen Lebewesen Leben verleiht, um wieviel mehr gibt dann die Offenbarung des Vaters durch das Wort denen Leben, die Gott schauen!",
+          "patr_resp1": "Wahrheit war in seinem Mund, auf seinen Lippen gab es keine Lüge.",
+          "patr_resp2": "Er lebte vor mir in Frieden und Gerechtigkeit.",
+          "patr_resp3": "Meine Hand hielt ihn, und mein Arm stützte ihn.",
+          "oration": "Gott der Wahrheit und des Friedens, in deiner Kraft hat der heilige Irenäus die wahre Lehre verteidigt und der Kirche den Frieden erhalten. Auf seine Fürsprache erneuere in uns den Glauben und die Liebe und mache uns bereit, Frieden und Eintracht zu fördern. Darum bitten wir durch Jesus Christus."
+        },
+        "Laudes": {
+          "name": "Hl. Irenäus",
+          "farbe": "r",
+          "comm_1": "MärtSg",
+          "comm_2": "Hirten",
+          "ant_ev": "Irenäus, wahrhaft ein Mann des Friedens, war voll Eifer bemüht um Frieden und Eintracht unter den Kirchen.",
+          "oration": "Gott der Wahrheit und des Friedens, in deiner Kraft hat der heilige Irenäus die wahre Lehre verteidigt und der Kirche den Frieden erhalten. Auf seine Fürsprache erneuere in uns den Glauben und die Liebe und mache uns bereit, Frieden und Eintracht zu fördern. Darum bitten wir durch Jesus Christus."
+        },
+        "Vesper": {
+          "name": "Hl. Irenäus",
+          "comm_1": "MärtSg",
+          "comm_2": "Hirten",
+          "oration": "Gott der Wahrheit und des Friedens, in deiner Kraft hat der heilige Irenäus die wahre Lehre verteidigt und der Kirche den Frieden erhalten. Auf seine Fürsprache erneuere in uns den Glauben und die Liebe und mache uns bereit, Frieden und Eintracht zu fördern. Darum bitten wir durch Jesus Christus."
         }
       }
     },
