@@ -2140,94 +2140,111 @@ export const psalmsData = {
   },
   210: {
     0.0: {
+        "title": "O ew’ger Schöpfer aller Welt",
         "text": "O ew’ger Schöpfer aller Welt,^ldes’ Walten Tag und Nacht regiert,^ldu setzt den Zeiten ihre Zeit,^lschenkst Wechsel in der Zeiten Lauf.^pDer Hahn, des Tages Herold, ruft,^lder Wächter in der Finsternis.^lSein Schrei trennt von der Nacht die Nacht,^ldem Wanderer zur Nacht ein Licht.^pDa steigt der Morgenstern empor,^lerhellt das schwarze Firmament,^lda weicht der dunklen Mächte Schar^lvom Weg des Unheils scheu zurück.^pDa fühlt der Schiffer neue Kraft,^ldes Meeres Brandung sänftigt sich,^lder Fels der Kirche, Petrus, weint,^lbereut die Schuld beim Hahnenschrei.^pSo stehet rasch vom Schlafe auf:^lDer Hahn weckt jeden, der noch träumt.^lDer Hahn bedrängt, die säumig sind,^lder Hahn klagt die Verleugner an.^pHoffnung erwacht beim Hahnenschrei,^lund Lindrung strömt den Kranken zu.^lDer Räuber lässt von seinem Tun,^lGefallene vertrauen neu.^pHerr, wenn wir fallen, sieh uns an^lund heile uns durch deinen Blick.^lDein Blick löscht Fehl und Sünde aus,^lin Tränen löst sich unsre Schuld.^pDu Licht, durchdringe unsern Geist,^lvon unsren Herzen scheuch den Schlaf,^ldir sei das erste Wort geweiht,^ldich preise unser Morgenlob. Amen."
       }
   },
   211: {
     0.0: {
+        "title": "Du Abglanz von des Vaters Pracht",
         "text": "Du Abglanz von des Vaters Pracht,^ldu bringst aus Licht das Licht hervor,^ldu Licht vom Licht, des Lichtes Quell,^ldu Tag, der unsern Tag erhellt.^pDu wahre Sonne, brich herein,^ldu Sonne, die nicht untergeht,^lund mit des Geistes lichtem Strahl^ldring tief in unsrer Sinne Grund.^pWir rufen auch den Vater an,^lden Vater ew’ger Herrlichkeit,^lden Vater reich an mächt’ger Huld:^lEr halte fern, was uns versucht.^pEr stärke uns zum guten Werk,^ler leite machtvoll unser Tun,^ler sei uns Kraft in harter Fron^lund lenke unsren schwachen Geist.^pUnd Christus werde unser Brot,^lund unser Glaube sei uns Trank,^lin Freude werde uns zuteil^ldes Geistes klare Trunkenheit.^pDas Morgenrot steigt höher schon,^lwie Morgenrot geh ER uns auf:^lin seinem Vater ganz der Sohn^lund ganz der Vater in dem Wort. Amen."
       }
   },
   212: {
     0.0: {
+        "title": "Schon zieht herauf des Tages Licht",
         "text": "Schon zieht herauf des Tages Licht,^lwir flehn zu Gott voll Zuversicht:^lBewahre uns an diesem Tag^lvor allem, was uns schaden mag.^pBezähme unsrer Zunge Macht,^ldass sie nicht Hass und Streit entfacht;^llass unsrer Augen hellen Schein^ldurch Böses nicht verdunkelt sein.^pRein sei das Herz und unversehrt^lund allem Guten zugekehrt.^lUnd gib uns jeden Tag das Brot^lfür unsre und der Brüder Not.^pSenkt sich hernieder dann die Nacht^lund ist das Tagewerk vollbracht,^lsei dir all unser Tun geweiht^lzum Lobe deiner Herrlichkeit.^pDich, Vater, Sohn und Heil’ger Geist,^lvoll Freude alle Schöpfung preist,^lder jeden neuen Tag uns schenkt^lund unser ganzes Leben lenkt. Amen."
       }
   },
   213: {
     0.0: {
+        "title": "Nacht und Gewölk und Finsternis",
         "text": "Nacht und Gewölk und Finsternis,^lverworrenes Chaos dieser Welt,^lentweicht und flieht! Das Licht erscheint,^lder Tag erhebt sich: Christus naht.^pJäh reißt der Erde Dunkel auf,^ldurchstoßen von der Sonne Strahl,^lder Farben Fülle kehrt zurück^lim hellen Glanz des Taggestirns.^pSo soll, was in uns dunkel ist,^lwas schwer uns auf dem Herzen liegt,^laufbrechen unter deinem Licht^lund dir sich öffnen, Herr und Gott.^pDich, Christus, suchen wir allein^lmit reinem, ungeteiltem Sinn,^ldir beugen willig wir das Knie^lmit Bitten und mit Lobgesang.^pBlick tief in unser Herz hinein,^lsieh unser ganzes Leben an:^lNoch manches Arge liegt in uns,^lwas nur dein Licht erhellen kann.^pDir, Christus, guter Herr und Gott,^ldem ew’gen Vater, der uns liebt,^ldem Heil’gen Geist, der bei uns ist,^lsei Lob und Dank in Ewigkeit. Amen."
       }
   },
   214: {
     0.0: {
+        "title": "Seht, golden steigt das Licht empor",
         "text": "Seht, golden steigt das Licht empor –^lda schwindet hin die dunkle Nacht,^ldie unsren richtungslosen Schritt^lhart an des Abgrunds Rand gebracht.^pDes neuen Tages heitres Licht^ldringt tief in unsre Seele ein^lund macht, von Arglist ungetrübt,^ldes Herzens Streben klar und rein.^pVon Aug und Zunge, Mund und Hand^lbleib jede böse Regung fern;^lso führe uns der neue Tag^laus Finsternis zum Licht des Herrn.^pEin Auge schaut auf uns herab,^ldas über unsrem Leben wacht:^lEs sieht voll Güte unser Tun^lvom frühen Morgen bis zur Nacht.^pUnd jener letzte Morgen einst,^lden wir erflehn voll Zuversicht,^ler finde wachend uns beim Lob^lund überströme uns mit Licht.^pGott Vater, dir und deinem Sohn^lsei Lob und Dank und Herrlichkeit,^lund auch dem Geist, der bei uns ist,^ljetzt und in alle Ewigkeit. Amen."
       }
   },
   215: {
     0.0: {
+        "title": "Du Licht des Himmels, großer Gott",
         "text": "Du Licht des Himmels, großer Gott,^lder ausgespannt das Sternenzelt^lund der es hält mit starker Hand,^ldu sendest Licht in unsre Welt.^pDie Morgenröte zieht herauf^lund überstrahlt das Sternenheer,^lder graue Nebel löst sich auf,^lTau netzt die Erde segensschwer.^pDas Reich der Schatten weicht zurück,^ldas Tageslicht nimmt seinen Lauf^lund strahlend, gleich dem Morgenstern,^lweckt Christus uns vom Schlafe auf.^pDu Christus, bist der helle Tag,^ldas Licht, dem unser Licht entspringt,^lGott, der mit seiner Allmacht Kraft^ldie tote Welt zum Leben bringt.^pErlöser, der ins Licht uns führt^lund aller Finsternis entreißt,^ldich preisen wir im Morgenlied^lmit Gott dem Vater und dem Geist. Amen."
       }
   },
   216: {
     0.0: {
+        "title": "Die Nacht ist vergangen",
         "text": "Die Nacht ist vergangen,^lwir schauen erwartend den steigenden Tag^lund grüßen dich, Christus.^pSchon lockt uns die Taube,^lwir horchen, verlangend zu folgen dem Ruf^lunsres Herrn und Christus.^pDie Nebel entweichen^lim Glanze der strahlenden Klarheit und Kraft^ldes kommenden Christus.^pWir loben den Vater^lund preisen im Geiste die Sonne des Heils:^lden herrlichen Christus."
       }
   },
   220: {
     0.0: {
+        "title": "Seht, wie die Schatten dunkler Nacht verblassen",
         "text": "Seht, wie die Schatten dunkler Nacht verblassen:^lRötliches Leuchten strahlt am frühen Himmel.^lBitten wir innig mit vereinter Stimme^lGott, den Allmächt’gen!^pDass er sich unser liebevoll erbarme,^lHeil uns gewähre, unsre Trägheit banne^lund uns als Vater einst in Güte schenke^lhimmlisches Erbe.^pLob sei dem Vater auf dem höchsten Throne,^lLob sei dem Sohne, Gott aus Gott geboren,^lLob sei dem Geiste, der von beiden ausgeht,^limmer und ewig. Amen."
       }
   },
   230: {
     0.0: {
+        "title": "Ewiger Gott, aus dem Nichts",
         "quote": "Preisungen und Gebete Nr. 7",
         "text": "Ewiger Gott, aus dem Nichts^lhast du das Weltall geschaffen;^llag doch kein Urstoff bereit,^lneben dir, ewig wie du.^pEbenso wird einst dein Wille^ldie Welt von Grund auf verwandeln;^ldoch du bleibst immer dir gleich,^lso wie von jeher du warst.^pKlein ist die Spanne der Zeit,^ldurch die unsre Jahrhunderte gleiten,^lkurz bemessen die Frist,^lheilig zu werden wie du.^pKönig der Welten, lass uns^lin Treue dir dienen auf Erden^lund zum heiligen Kampf^lschenke uns göttliche Kraft."
       }
   },
   231: {
     0.0: {
+        "title": "Christus – mächtiger Gott!",
         "quote": "Preisungen und Gebete Nr. 10",
         "text": "Christus – mächtiger Gott!^lDu Allherrscher der Schöpfung^llenkst die kreisenden Welten –^lwandelst auf Wogen,^lwendest die Stürme –^lrufst deine Engel,^lzwingst die Dämonen –^lKönig der Welt!^lAllem verleihst du das Sein,^lWort des allmächtigen Vaters.^pChristus – Heiland der Welt!^lAus dem Schoße des Vaters^lsteigst du rettend hernieder:^lwirst unser Bruder,^lteilst unsre Armut –^lträgst unsre Leiden,^ltilgst unsre Sünden –^lhebst uns empor:^lErster des neuen Geschlechts,^ldas du erlöst und geheiligt.^pChristus – göttliches Haupt!^lWie der Weinstock die Reben^lnährst du uns, deine Glieder:^lsenkst in die Seelen^lgöttliches Leben,^leinigst die Völker^lin deiner Kirche^lheiligem Leib.^lZieh uns auf ewig an dich,^lMittler unsterblichen Lebens."
       }
   },
   232: {
     0.0: {
+        "title": "Erhabene Dreifaltigkeit",
         "quote": "Laudes am Dreifaltgkeitssonntag",
         "text": "Erhabene Dreifaltigkeit,^lim einen Licht der Gottheit eins,^lunendliches Geheimnis du^lund tiefster Ursprung allen Seins.^pDich rühmt des Himmels hehre Schar,^lihr Lied ruft deinen Lobpreis aus,^ldir jubelt deine Schöpfung zu,^lder du dein Bildnis aufgeprägt.^pWir neigen staunend uns vor dir^lund beten deine Größe an.^lVereine mit der Engel Lied^lden Lobgesang, den wir dir weihn.^pWas alle Einsicht übersteigt,^lbekennt der Glaube ehrfurchtsvoll:^lDrei sind in tiefer Liebe eins –^lin e·i·n·e·r Gottheit leben drei.^pGott Vater, dir sei Ruhm und Preis^lund deinem eingebornen Sohn,^ldem Geiste, der uns Beistand ist,^ljetzt, immer und in Ewigkeit. Amen."
       }
   },
   234: {
     0.0: {
+        "title": "Öffne meine Augen, Herr",
         "quote": "Preisungen und Gebete Nr. 11",
         "text": "Öffne meine Augen, Herr,^lfür die Wunder deiner Liebe.^lMit dem Blinden rufe ich:^lHeiland, mache, dass ich sehe.^pÖffne, meine Ohren, Herr,^lfür den Anruf meiner Brüder.^lLass nicht zu, dass sich mein Herz^lihrer großen Not verschließe.^pÖffne meine Hände, Herr,^lBettler stehn vor meiner Türe^lund erwarten ihren Teil.^lChristus, mache, dass ich teile."
       }
   },
   235: {
     0.0: {
+        "title": "Herr, du hast die Welt gestaltet",
         "quote": "Preisungen und Gebete Nr. 12",
         "text": "Herr, du hast die Welt gestaltet,^ldass sie sich in dir entfalte:^lDir sei Lob und Dank!^pWas ersteht,^lwas vergeht,^lwas sich jauchzend um dich dreht,^list dein!^pHerr, du bist zur Welt gekommen,^lhast sie in dich aufgenommen:^lDir sei Lob und Dank!^pBliebest hier,^lwohnst in ihr,^lum ein armer Mensch wie wir^lzu sein.^pHerr, so lass dein Werk gelingen,^llass den Geist die Welt durchdringen:^lDir sei Lob und Dank!^pDann erblüht^lsie und glüht,^ldenn der ganze Himmel zieht^lherein."
       }
   },
   241: {
     0.0: {
+        "title": "Dich Gott Vater ohne Ursprung und End’",
         "quote": "Preisungen und Gebete Nr. 3",
         "text": "Dich Gott Vater,^lohne Ursprung und End’,^pDich Sohn,^lder liebend den Vater erkennt,^pDich Heiligen Geist,^lder aus beiden entbrennt,^pDich Eine hohe Dreifaltigkeit:^lpreisen die Engel voll Seligkeit,^lfeiert auf Erden die Christenheit^ljetzt und allezeit.^lAmen.^pDich Gott Vater,^lallgewaltig an Macht,^pDich Sohn,^lder ewiges Heil uns gebracht,^pDich Heiligen Geist,^lder die Herzen entfacht.^pDich Eine hohe Dreifaltigkeit:^lpreisen die Engel voll Seligkeit,^lfeiert auf Erden die Christenheit^ljetzt und allezeit.^lAmen."
       }
   },
   242: {
     0.0: {
+        "title": "Dreifaltiger verborgner Gott",
         "quote": "1. Vesper zum Dreifaltgkeitssonntag",
         "text": "Dreifaltiger verborgner Gott,^le·i·n Licht^laus dreier Sonnen Glanz, drei Flammen^le·i·n·e·r Liebesglut, Gott Vater, Sohn und Heil’ger Geist.^pAllherrscher du von Ewigkeit,^lGott Vater, der die Welt erschuf,^ldu lenkst die Werke deiner Hand^lund führst uns durch der Zeiten Lauf.^pGott Sohn, des Vaters Ebenbild,^ldu König der erlösten Welt,^lin dir wird Gott uns Menschen gleich,^lin dir der Mensch zu Gott erhöht.^pDu Atem Gottes, Heil’ger Geist,^ldurchdringst die Welt mit Lebenskraft,^ldu senkst in uns die Liebe ein,^ldie alle eint und göttlich macht.^pDu großer Gott, der in uns wohnt,^lhochheilige Dreifaltigkeit,^ldich loben und bekennen wir^ljetzt und in alle Ewigkeit. Amen."
       }
   },
   244: {
     0.0: {
+        "title": "Das Wort des Vaters, Gottes Sohn",
         "quote": "Laudes am Fronleichnamsfest",
         "text": "Das Wort des Vaters, Gottes Sohn,^ltritt ein in unsre Erdenzeit;^lda seine Leidensstunde naht,^lkrönt er sein Werk im Opfertod.^pBevor an seiner Feinde Schar^lder eigne Jünger ihn verriet,^lreicht er beim letzten Abendmahl^lden Seinen sich als Speise dar.^pGeheimnisvoll in Brot und Wein^lgibt er sich hin mit Fleisch und Blut^lund stärkt durch seiner Gottheit Kraft^lden ganzen Menschen, Leib und Geist.^pAls Mensch will er uns Bruder sein,^lim Mahle wird er unser Brot,^lim Tode unser Opferlamm,^lim Himmel unser Siegespreis.^pLamm Gottes, das der ganzen Welt^ldas Tor zum Leben aufgetan:^lda uns des Bösen Macht bedrängt,^lgib Mut zum Leiden, Kraft zum Sieg.^pDreieinig hoher Herr und Gott,^lnimm unser Lob, nimm unsren Dank:^llass schauen uns in deinem Reich^ldes ew’gen Sohnes Herrlichkeit. Amen."
       }
   },
   245: {
     0.0: {
+        "title": "O sel’ger Urgrund allen Seins",
         "quote": "1. Vesper zum Herz-Jesu-Fest",
         "text": "O sel’ger Urgrund allen Seins,^lHeiland der Welt, Herr Jesus Christ,^ldu Licht von deines Vaters Licht^lund wahrer Gott vom wahren Gott.^pWie hat die Liebe dich gedrängt,^ldass du für uns den Tod erwählt.^lDu gibst das Leben uns zurück,^ldas Adams Sünde uns geraubt.^pDer Stoß der Lanze trifft dein Herz,^lund Blut und Wasser bricht hervor,^lein Quell des Heils, der nie versiegt^lund aller Schöpfung Freude bringt.^pDir, Herr, sei Preis und Herrlichkeit,^lder uns sein Herz geöffnet hat,^lmit dir dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."
       }
@@ -2244,178 +2261,210 @@ export const psalmsData = {
   },
   310: {
     0.0: {
+        "title": "Des Lichtes guter Schöpfer du",
         "text": "Des Lichtes guter Schöpfer du,^lder uns den Glanz des Lichtes schenkt,^lder mit dem ersten Strahl des Lichts^lder Welterschaffung Werk beginnt.^pDu rufst den Morgen aus der Nacht^lund führst den ersten Tag herauf;^ldas düst’re Chaos sinkt dahin –^ldurch deines Wortes Macht gebannt.^pGib, dass der Mensch durch eig’ne Schuld^ldas Gut des Lebens nicht verliert,^lwenn er des Ew’gen nicht gedenkt^lund in das Böse sich verstrickt.^pEr poche an des Himmels Tor,^lerringe sich des Lebens Preis.^lFern bleibe, was uns Schaden bringt,^lund rein von Schuld sei unser Herz.^pDies schenk uns, Vater voller Macht,^lund du, sein Sohn und Ebenbild,^ldie ihr in Einheit mit dem Geist^ldie Schöpfung zur Vollendung führt. Amen."
       }
   },
   311: {
     0.0: {
+        "title": "Des Himmels Schöpfer, großer Gott.",
         "text": "Des Himmels Schöpfer, großer Gott.^lDu hast das Firmament gebaut^lund so geschieden Flut von Flut,^ldass sie nicht wirr zusammenströmt.^pDen Wolken wiesest du die Bahn,^lden Flüssen zeigtest du ihr Bett;^lnun hemmt die Flut des Feuers Macht,^ldamit die Erde nicht verbrennt.^pSo gieße denn, o°guter Gott,^lder Gnaden Ströme in uns ein,^ldamit uns nicht mit neuem Trug^ldie alte Schwachheit bringt zu Fall.^pDer Glaube, den die Nacht bedrängt,^lden Kleinmut zu verwirren droht,^ler überwinde Trug und Wahn:^lEr finde Licht und spende Licht.^pDies schenk uns, Vater voller Macht,^lund du, sein Sohn und Ebenbild,^ldie ihr in Einheit mit dem Geist^ldie Schöpfung zur Vollendung führt. Amen."
       }
   },
   312: {
     0.0: {
+        "title": "Der Erde Schöpfer und ihr Herr",
         "text": "Der Erde Schöpfer und ihr Herr,^ldu hast geschieden Meer und Land;^ldu hast die Flut zurückgedämmt^lund gabst der Erde festen Grund,^pdass sie uns sprieße gute Saat^lund schön sei durch der Blumen Pracht,^ldass sie von reifen Früchten schwer,^luns Nahrung geb’ zur rechten Zeit.^pDes Herzens Erdreich ist versengt:^lIm Tau der Gnade schaff es neu.^lEs öffne, Herr, sich deinem Wort^lund nehm’ die Saat in Freuden auf.^pDies schenk uns, Vater voller Macht,^lund du, sein Sohn und Ebenbild,^ldie ihr in Einheit mit dem Geist^ldie Schöpfung zur Vollendung führt. Amen."
       }
   },
   313: {
     0.0: {
+        "title": "Du Gott des Himmels, heil’ger Herr",
         "text": "Du Gott des Himmels, heil’ger Herr,^ldu hast das hohe Firmament^ldurch der Gestirne lichte Zier^lmit feuerfarbnem Glanz geschmückt.^pDu schufst am vierten Schöpfungstag^lder Sonne goldnes Flammenrad,^ldu gabst dem Monde sein Gesetz,^lden Sternen wiesest du die Bahn.^pUnd wie die Sonne steigt und sinkt,^lso wird es Tag, so wird es Nacht;^lund Mond und Sterne machen kund^lden Wechsel und das Maß der Zeit.^pErleuchte, Herr, auch unser Herz.^lWir sind befleckt; mach du uns rein.^lZerbrich die Ketten unsrer Schuld^lund nimm von uns des Bösen Last.^pDies schenk uns, Vater voller Macht,^lund du, sein Sohn und Ebenbild,^ldie ihr in Einheit mit dem Geist^ldie Schöpfung zur Vollendung führt. Amen."
       }
   },
   314: {
     0.0: {
+        "title": "O Gott, in deiner großen Macht",
         "text": "O Gott, in deiner großen Macht^lhast du, was aus den Wassern kam,^lteils in die Flut zurückgesandt,^lteils hoch erhoben in die Luft.^pDie Fische tauchtest du ins Meer,^ldie Vögel warfst du hoch ins Blau,^lund was dem gleichen Schoß entsprang,^list nun getrennt nach Art und Ort.^pO Herr, wir sind in Jesu Tod^lwie in die Flut hineingetaucht:^lSteh gnädig deinen Dienern bei,^ldie Wasser tauft und Blut entsühnt.^pGib, dass uns Kleinmut nicht erdrückt,^lnicht Hochmut überheblich macht.^lZerbrich nicht das gebeugte Herz,^ldas stolze schütze vor dem Sturz.^pDies schenk uns, Vater voller Macht,^lund du sein Sohn und Ebenbild,^ldie ihr in Einheit mit dem Geist^ldie Schöpfung zur Vollendung führt. Amen."
       }
   },
   315: {
     0.0: {
+        "title": "Des Menschen Bildner, Gott und Herr",
         "text": "Des Menschen Bildner, Gott und Herr,^lnach deinem Plan entstand die Welt;^lwas auf der Erde lebt und west,^lbringt sie auf dein Geheiß hervor.^pDein Wort gab aller Kreatur,^lob klein, ob groß, Gestalt und Art;^ldass sie ihm diene, hast du sie^lder Hand des Menschen unterstellt.^pVertreibe durch dein mächt’ges Wort,^lwas unser Herz befleckt und trübt,^lwas heimlich unsern Sinn verwirrt^lund dreist sich drängt in unser Tun.^pMach uns von Streit und Zwietracht frei^lund schließ um uns des Friedens Band.^lLass uns in deiner Gnade stehn,^lin deiner Freude selig ruhn.^pDies schenk uns, Vater voller Macht,^lund du, sein Sohn und Ebenbild,^ldie ihr in Einheit mit dem Geist^ldie Schöpfung zur Vollendung führt. Amen."
       }
   },
   316: {
     0.0: {
+        "title": "Allmächt’ger Schöpfer, Herr und Gott",
         "text": "Allmächt’ger Schöpfer, Herr und Gott,^lder aller Dinge Ursprung ist,^ldu hast die weite Welt erfüllt^lmit deiner Gaben Überfluss.^pUnd da das große Werk vollbracht,^lhast du geruht am siebten Tag^lund hast geboten, dass auch wir^lausruhn von unsrer Arbeit Last.^pHerr, mach uns offen für dein Wort^lund wende unsern Geist zu dir;^lhol uns in deinen Frieden heim;^lgib uns die Freude deines Heils.^pDies schenk uns, Vater voller Macht,^lund du, sein Sohn und Ebenbild,^ldie ihr in Einheit mit dem Geist^ldie Schöpfung zur Vollendung führt. Amen."
       }
   },
   320: {
     0.0: {
+        "title": "Dreifaltigkeit, dreiein’ger Gott",
         "text": "Dreifaltigkeit, dreiein’ger Gott,^ldu Licht voll Glut und Seligkeit:^lnun, da der Sonnenball versinkt,^lgeh du in unsrem Herzen auf.^pDich preist am Morgen unser Lied,^ldich rufen wir am Abend an,^lzu dir erhebt sich unser Herz^lan jedem Tag, den du uns schenkst.^pDu ew’ger Vater, du Gott Sohn,^ldu, beider Odem, Heil’ger Geist:^lerhöre gütig unser Flehn,^lallmächtige Dreifaltigkeit. Amen."
       }
   },
   321: {
     0.0: {
+        "title": "Angelangt an der Schwelle des Abends",
         "text": "Angelangt an der Schwelle des Abends,^lschauen wir Christus, das ewige Licht,^lund preisen durch ihn den Vater im Geist.^pDu bist der Weg, die Wahrheit, das Leben,^lAbbild und Spiegel des ewigen Vaters.^lDu bist der Heilige, du unser Herr.^pJa, es ist würdig, dich zu besingen,^lGottes Sohn, Urheber ewigen Lebens;^ldie ganze Schöpfung schuldet dir Lob."
       }
   },
   322: {
     0.0: {
+        "title": "O Gott, aus deinem klaren Licht",
         "text": "O Gott, aus deinem klaren Licht^lschufst du für uns den hellen Tag.^lWir suchen dich, des Lichtes Quell,^lnun, da der Tag hinuntersinkt.^pDie Sonne eilt dem Westen zu^lauf ihrer vorbestimmten Bahn,^lrasch senkt der Abend sich herab^lund hüllt die Welt in Dunkelheit.^pWir flehn zu dir, o°höchster Herr,^lermüdet von des Tages Last:^lMit deinem Segen nehme uns^ldie Nacht in ihre Ruhe auf.^pWenn unser letzter Tag sich neigt,^ldann wehre, Herr, der Finsternis^lund führe uns in deiner Huld^lzum Licht, das keinen Abend kennt.^pDies schenk uns, Vater voller Macht,^lund du des Vaters einz’ger Sohn,^ldie ihr in Einheit mit dem Geist^lauf ewig thront im Reich des Lichts. Amen."
       }
   },
   323: {
     0.0: {
+        "title": "Guter König und Herr",
         "text": "Guter König und Herr,^lder uns das Licht erschuf,^lder dem Wechsel der Zeit^lsichere Ordnung gab –^lda die Sonne nun sinkt^lund sich das Dunkel mehrt,^lsei uns Leuchte und Licht,^lChristus, dein Angesicht.^pWie du Israels Volk^leinst durch die Nacht geführt,^lihm als feuriger Schein^lRichtung und Weg gezeigt,^lso geleite auch uns,^ldie wir im Finstern gehn,^lzieh uns leuchtend voran,^lFlamme, die nie erlischt.^pWas kann würdiger sein^lnun, da der Tag sich neigt,^lals dem währenden Licht^lLob und Gesang zu weihn:^lGott, der strahlend im Glanz^lewiger Helle wohnt,^lihm sei Ehre und Preis^ljetzt und durch alle Zeit. Amen."
       }
   },
   324: {
     0.0: {
+        "title": "Heiteres Licht vom herrlichen Glanze",
         "text": "Heiteres Licht vom herrlichen Glanze^ldeines unsterblichen, heiligen, sel’gen^lhimmlischen Vaters: Jesus Christus.^lDich verherrlichen alle Geschöpfe.^pSiehe, wir kommen beim Sinken der Sonne,^lgrüßen das freundliche Licht des Abends,^lsingen in Hymnen Gott dem Vater,^lsingen dem Sohn und dem Heiligen Geist.^pWürdig bist du, dass wir dich feiern^lzu allen Zeiten mit heiligen Liedern,^lChristus, Sohn Gottes, Bringer des Lebens:^ldich lobpreise die ganze Erde. Amen."
       }
   },
   325: {
     0.0: {
+        "title": "Christus, du bist der helle Tag",
         "text": "Christus, du bist der helle Tag,^ldein Glanz durchbricht die dunkle Nacht,^lDu Gott des Lichtes kündest uns^ldas Licht, das wahrhaft selig macht.^pGib, dass nichts Arges uns bedrängt,^lder böse Feind uns nicht verführt,^lund lass nicht zu, dass Geist und Leib^lvor deinem Auge schuldig wird.^pSei deiner Diener eingedenk,^ldie du mit deinem Blut erkauft.^lStärk uns durch deines Leidens Kraft;^lwir sind auf deinen Tod getauft.^pAus ganzem Herzen preisen wir^ldich, Christus, Herr der Herrlichkeit,^lder mit dem Vater und dem Geist^luns liebt in alle Ewigkeit. Amen."
       }
   },
   326: {
     0.0: {
+        "title": "Der Glanz verfällt, die Zeit flieht hin",
         "quote": "Ordinarium zur Non",
         "text": "Der Glanz verfällt, die Zeit flieht hin,^ldas Tagwerk zehrt an unsrer Kraft.^lHerr, Gott, an den kein Abend rührt,^lnimm uns Erschöpfte liebreich auf.^pWir gehn dahin wie Tag und Traum;^lkein Wunsch hält unser Leben fest.^lDein Glanz, o°Herr, erstrahle uns,^lwenn unser kleines Licht erlischt.^pGewähr uns dies, o°guter Gott,^ldu Vater, und du, einz’ger Sohn,^ldie ihr mit ihm, dem Heil’gen Geist,^lregiert durch Zeit und Ewigkeit. Amen."
       }
   },
   331: {
     0.0: {
+        "title": "Das erfragte ich unter den Menschen",
         "quote": "Preisungen und Gebete Nr. 4",
         "text": "Das erfragte ich unter den Menschen^lals gewaltigstes Wunder:^lAls Erde nicht war noch hoher Himmel,^lnoch Baum noch Berg nicht war,^lnoch Sonne nicht schien noch Stern,^lnoch Mond nicht leuchtete^lnoch das mächtige Meer,^lals nirgends nichts war aller Enden und Wenden:^lda war der eine allmächtige Gott,^lder Herren mildester;^lbei ihm viele Geister voll Herrlichkeit.^lDoch eher als sie war der heilige Gott.^pAllmächtiger Gott,^lder du Himmel und Erde geschaffen^lund den Menschen viel Gutes gegeben hast,^lverleihe mir in deiner Huld den rechten Glauben,^lgewähre mir Weisheit und Klugheit und Kraft,^ldem Verderber zu widerstehn,^ldas Böse zu meiden^lund deinen Willen zu vollbringen. Amen."
       }
   },
   332: {
     0.0: {
+        "title": "Wir haben die Last des Tages getragen",
         "quote": "Auswahl-Hymnen zur Komplet",
         "text": "Wir haben die Last des Tages getragen.^lDie Arbeit war schwer und drückend die Fron.^lNun kommt der Meister und zahlt uns den Lohn.^pOb zur ersten Stunde oder zur elften,^lhier gilt kein Pochen auf Recht und Verdienst,^lnicht dein, sondern sein ist, was du gewinnst.^pDer Herr verachtet das Auge der Neider.^lWer dürfte ihn hindern, gütig zu sein,^ler reicht auch dem Letzten das Brot und den Wein."
       }
   },
   333: {
     0.0: {
+        "title": "Dir ziemt das Lob",
         "quote": "Preisungen und Gebete Nr. 2",
         "text": "Dir ziemt das Lob,^lVater, der du reich bist^lan aller Pracht.^pAber nicht weniger Ehre ziemt^ldir, dem Sohn,^lund dir, dem Heiligen Geist.^pEure Herrschaft und Werke sind gleich^lvon Ewigkeit bis in Ewigkeit.^pDies ist die Dreiheit und Einigkeit,^lda drei sind einer^lund einer drei:^lVater und Sohn und Heiliger Geist. Amen."
       }
   },
   334: {
     0.0: {
+        "title": "Dir gebührt unser Lob",
         "quote": "Preisungen und Gebete Nr. 1",
         "text": "Dir gebührt unser Lob,^ldir unser rühmendes Lied!^lDir, o°Gott, sei Ehre und Ruhm:^ldem Vater und dem Sohne^lund dem Heiligen Geiste,^ljetzt und immer und in Ewigkeit. Amen."
       }
   },
   335: {
     0.0: {
+        "title": "Ehre sei dir, Christe",
         "quote": "Lesehore am Christkönigssonntag",
         "text": "Ehre sei dir, Christe,^lder du littest Not,^lan dem Stamm des Kreuzes^lfür uns bittern Tod,^lherrschest mit dem Vater^lin der Ewigkeit:^lHilf uns armen Sündern^lzu der Seligkeit.^lKyrie, eleison."
       }
   },
   336: {
     0.0: {
+        "title": "Christus, du Herrscher Himmels und der Erde",
         "quote": "1. Vesper zum Christkönigssonntag",
         "text": "Christus, du Herrscher Himmels und der Erde,^lHerr über Mächte, Throne und Gewalten.^lDu bist der Erste, und du bist der Letzte,^lAnfang und Ende.^pIn deinen Händen ruht der Menschen Schicksal.^lNichts kann auf Erden deiner Macht entgleiten.^lDu sprichst das Urteil über alle Völker,^lvoll des Erbarmens.^pReiche erstehen, blühen und zerfallen,^laber das deine überdauert alle,^ldenn deine Herrschaft ist von Gott verliehen,^lewigen Urspungs.^pKeiner der Großen kann mit dir sich messen;^lHerrscher der Herren, König aller Zeiten,^lAbglanz des Vaters, Spiegel seiner Hoheit,^lthronend im Himmel.^pDir sei die Ehre, dir und deinem Vater,^lund auch dem Geiste sei das Lob gesungen.^lGott, dem Dreieinen, Lob und Preis und Ehre^limmer und ewig. Amen."
       }
   },
   340: {
     0.0: {
+        "title": "Das erfragte ich unter den Menschen",
         "quote": "Preisungen und Gebete Nr. 4",
         "text": "Das erfragte ich unter den Menschen^lals gewaltigstes Wunder:^lAls Erde nicht war noch hoher Himmel,^lnoch Baum noch Berg nicht war,^lnoch Sonne nicht schien noch Stern,^lnoch Mond nicht leuchtete^lnoch das mächtige Meer,^lals nirgends nichts war aller Enden und Wenden:^lda war der eine allmächtige Gott,^lder Herren mildester;^lbei ihm viele Geister voll Herrlichkeit.^lDoch eher als sie war der heilige Gott.^pAllmächtiger Gott,^lder du Himmel und Erde geschaffen^lund den Menschen viel Gutes gegeben hast,^lverleihe mir in deiner Huld den rechten Glauben,^lgewähre mir Weisheit und Klugheit und Kraft,^ldem Verderber zu widerstehn,^ldas Böse zu meiden^lund deinen Willen zu vollbringen. Amen."
       }
   },
   341: {
     0.0: {
+        "title": "Hinunter ist der Sonne Schein",
         "quote": "Auswahl-Hymnen zur Komplet",
         "text": "Hinunter ist der Sonne Schein;^ldie finstre Nacht bricht stark herein.^lLeucht uns, Herr Christ, du wahres Licht;^llass uns im Finstern tappen nicht.^pDir sei Dank, dass du uns den Tag^lvor Schaden, G’fahr und mancher Plag^ldurch deine Engel hast behüt’^laus Gnad und väterlicher Güt’.^pWomit wir heut erzürnet dich,^ldasselb verzeih uns gnädiglich^lund rechn’ es unsrer Seel nicht zu;^llass schlafen uns mit Fried und Ruh.^pDein’ Engel uns zur Wach bestell,^ldass uns der böse Feind nicht fäll’.^lVor Schrecken, Angst und Feuersnot^lbehüte uns, o°lieber Gott."
       }
   },
   342: {
     0.0: {
+        "title": "Ewiger, gütiger Gott",
         "quote": "Preisungen und Gebete Nr. 6 (1. Hälfte)",
         "text": "Ewiger, gütiger Gott,^ldu Schöpfer und Herr aller Dinge:^lInnig umfängt dich mein Geist^lund die ganze Kraft meiner Seele,^ldu meine Liebe, mein Lob,^ldu Zierde und Licht meines Herzens.^pDu hast den Leib mir erbaut,^lschufst mir Augen zum Schauen der Schöpfung,^lschenkst mir zum Hören das Ohr,^lzum Werken die wendigen Hände.^pWas die Erde auch birgt,^lwas Meer und Himmel umschließen,^lund was immer sich regt,^lwas atmet, begehrt und empfindet,^lall dies schuf deine Hand^lund trägt und erhält uns im Dasein,^lgibt ihm Leben und Kraft^lund lenkt es mit Allmacht und Weisheit."
       }
   },
   343: {
     0.0: {
+        "title": "Dich, hoher Schöpfer",
         "quote": "Preisungen und Gebete Nr. 5",
         "text": "Dich, hoher Schöpfer,^llobe der Mensch mit^lLeib und mit Seele,^lHeil sich erhoffend.^lKlein und gering nur^lsteht er im Weltall:^pDoch er allein trägt,^lSchöpfer, dein Abbild,^lleuchtend im Geiste,^lwenn er im Leben^llauteren Herzens,^lHöchster, dir huldigt.^pGott unsrer Seele,^lLicht unsres Lebens,^lLob unsrer Lippen:^lFülle das Herz uns,^ldass wir dich lieben,^lVater im Himmel."
       }
   },
   344: {
     0.0: {
+        "title": "Lass mich, gütiger Herr",
         "quote": "Preisungen und Gebete Nr. 6 (2. Hälfte)",
         "text": "Lass mich, gütiger Herr,^lmit ganzem Herzen dir dienen,^ldich verkünden im Wort,^ldich tiefer erfassen im Glauben^lund in freudigem Dank^lzu dir die Hände erheben.^pDu bist mein Weg, meine Kraft,^lder sprudelnde Quell meines Lebens,^ldu meiner Mühsale Lohn,^lmein Schöpfer und gütiger Lehrer.^pSieh meine Armut und Not^lund verzeih mir Torheit und Sünde;^lgib, dass ich Gutes nur will^lund mit deiner Kraft es vollbringe.^lDann lass mich, deinen Knecht,^lbeseligt dein Angesicht schauen^lund, von Wonne durchströmt,^lan dir mich ewig erfreuen."
       }
   },
   345: {
     0.0: {
+        "title": "Der höchsten Gottheit ew’ges Bild",
         "quote": "Laudes am Christkönigssonntag",
         "text": "Der höchsten Gottheit ew’ges Bild,^ldu Licht vom Licht, des Vaters Wort,^ldu unser Retter, dir sei Ruhm^lund Macht und Ehre immerdar.^pVon Ewigkeit bist du allein^lder Zeiten Mitte und ihr Ziel,^ldir gab der Vater die Gewalt,^ldie Herrschaft über alle Welt.^pDoch nicht auf Zwang baut deine Macht^lund nicht auf Furcht dein Königtum:^lIn Liebe ziehst du uns an dich –^lam Kreuz gemartert und erhöht.^pKomm, Herr, erweise deine Macht^lund richte deine Herrschaft auf.^lKomm und vollende jetzt dein Reich^lund führe uns zum Königsmahl.^pDir, Jesus, der durch Leid und Tod^lder Herrschaft Krone sich errang,^lsei mit dem Vater und dem Geist^lLob, Preis und Ruhm in Ewigkeit. Amen."
       }
   },
   346: {
     0.0: {
+        "title": "O Gott, dein Wille schuf die Welt",
         "text": "O Gott, dein Wille schuf die Welt^lund ordnet der Gestirne Bahn,^lumgibt den Tag mit hellem Licht,^lgewährt zur Ruhe uns die Nacht.^pAls Dank für den vollbrachten Tag,^lden deine Güte uns geschenkt,^lnimm an des Wortes heil’gen Dienst,^lden Lobgesang zu deinem Ruhm.^pDir schließt sich unsre Seele auf,^lvoll Freude preist dich unser Mund,^lin Ehrfurcht dient dir unser Geist,^lin Liebe sucht dich unser Herz.^pWenn uns die Sonne untergeht^lund Finsternis den Tag beschließt,^lkennt unser Glaube keine Nacht:^lIm Dunkel strahlt sein Licht uns auf.^pDen Sohn und Vater bitten wir^lund auch den Geist, der beide eint:^lDu starker Gott, Dreifaltigkeit,^lbehüte, die auf dich vertraun. Amen."
       }
   },
   400: {
     0.0: {
+        "title": "Das ist dein Tag, Herr Jesus Christ",
         "quote": "Lh So I",
         "text": "Das ist dein Tag, Herr Jesus Christ,^lder Tag, von deinem Glanz erhellt,^lda du vom Tod erstanden bist^lals König der erlösten Welt.^pNun hilf uns aus der Dunkelheit^lmit dir ins Reich des Lichtes gehn^lund lass dereinst auch unsern Leib^lverklärt zum Leben auferstehn.^pRuf uns zu dir, wenn du erscheinst^lam großen Tag des Endgerichts,^ldu Sieger über Welt und Tod,^lmit dir zu herrschen, Gott des Lichts.^pDann schauen wir dein Angesicht^lund werden deinem Bilde gleich,^lund wir erkennen, wie du bist:^lan Herrlichkeit und Güte reich.^pDie siebenfach dein Geist gesalbt,^lerfüllt dein Blick mit Seligkeit;^ldu führst uns deinem Vater zu^lins Leben der Dreieinigkeit. Amen."
       }
   },
   401: {
     0.0: {
+        "title": "Göttliches Wort, der Gottheit Schrein",
         "quote": "Lh Mo^+Do",
         "text": "Göttliches Wort, der Gottheit Schrein,^lführ uns in dein Geheimnis ein.^pBrennender Dornbusch, der nicht verbrennt,^lnenn uns den Namen, den niemand kennt.^pWolkensäule voll Herrlichkeit,^lgeh uns voran im Dunkel der Zeit.^pSchlüssel Davids, der öffnet und schließt,^lweis uns die Quelle, die immer fließt.^pLogos, Wort und Antwort zugleich,^lerschließe uns das Gottesreich."
       }
   },
   402: {
     0.0: {
+        "title": "Wort Gottes, dessen Macht und Ruf",
         "quote": "Lh Di^+Fr",
         "text": "Wort Gottes, dessen Macht und Ruf^lim Urbeginn die Welt erschuf.^lDu bist der Anfang und das Ende.^pDer Himmel und die ganze Welt^lsind deiner Hoheit unterstellt.^lDu bist der Zeiten Lot und Wende.^pDie Weisheit baute sich ein Haus,^ldarin spricht Gott sich selber aus,^lund dieses Wort hat uns getroffen.^pNun ist die Welt nicht mehr so leer,^lnicht mehr die Last so drückend schwer:^lDer Weg zum Vater steht uns offen."
       }
   },
   403: {
     0.0: {
+        "title": "Du Wort, das der Vater spricht",
         "quote": "Lh Mi^+Sa",
         "text": "Du Wort, das der Vater spricht,^lbehältst deine Gottheit nicht^lals Beute und Raub,^ldu springst in den Staub:^lDu Leben, du Licht^lwirst Mensch, der zerbricht,^lda fließen die lebenspendenden Wasser^ldes Heils.^lHalleluja.^pHerr, gib uns zu trinken davon.^lDein Wort ist nicht irgendein Ton.^lEs dringt in uns ein^lwie Feuer, wie Wein:^lWer glaubt, der hat schon^ldas Leben im Sohn,^ldem Urquell der lebenspendenden Wasser^ldes Heils.^lHalleluja.^pDu Wort des Herrn bist ein Schwert,^ldas Sehne und Mark durchfährt^lund Wahrheit heißt^lund Macht ist und Geist,^ldas ewig währt^lund uns verklärt^lin der Kraft der lebenspendenden Wasser^ldes Heils.^lHalleluja."
       }
   },
   405: {
     0.0: {
+        "title": "Du Gott des Lichts, dem Vater gleich",
         "quote": "Lh Mo^+Do Nacht",
         "text": "Du Gott des Lichts, dem Vater gleich,^ldu Licht, dem unser Licht entspringt,^ldu ew’ger Tag: hör unser Flehn,^ldas aus der Nacht zum Himmel dringt.^pEntreiße uns der Finsternis^lund aller Angst der Erdennacht,^lstreif ab von uns die Müdigkeit,^ldie uns zum Guten träge macht.^pDu, Christus, bist das Licht der Welt,^lder Gott, dem gläubig wir vertraun,^lauf den im Dunkel dieser Zeit^lwir alle unsre Hoffnung baun.^pAus ganzem Herzen preisen wir^ldich, Christus, Herr der Herrlichkeit,^lder mit dem Vater und dem Geist^luns liebt in alle Ewigkeit. Amen."
       }
@@ -2452,6 +2501,7 @@ export const psalmsData = {
   },
   504: {
     0.0: {
+        "title": "Bevor des Tages Licht vergeht",
         "quote": "Komplet",
         "text": "Bevor des Tages Licht vergeht,^lo Herr der Welt, hör dies Gebet:^lBehüte uns in dieser Nacht^ldurch deine große Güt’ und Macht.^pHüllt Schlaf die müden Glieder ein,^llass uns in dir geborgen sein^lund mach am Morgen uns bereit^lzum Lobe deiner Herrlichkeit.^pDank dir, o°Vater, reich an Macht,^lder über uns voll Güte wacht^lund mit dem Sohn und Heil’gen Geist^ldes Lebens Fülle uns verheißt. Amen."
       }
@@ -2465,7 +2515,7 @@ export const psalmsData = {
   506: {
     0.0: {
         "quote": "Komplet",
-        "text": "Salve, Regína, mater misericórdiæ;^lvita, dulcédo et spes nostra, salve.^lAd te clamámus, éxsules fílii Evæ.^lAd te suspirámus, geméntes et flentes^lin hac lacrimárum valle.^pEia ergo, advocáta nostra,^lillos tuos misericórdes óculos ad°nos°convérte.^lEt Iesum, benedíctum°fructum°ventris°tui,^lnobis post hoc exsílium osténde.^lO clemens, o°pia, o°dulcis°Virgo°María."
+        "text": "Salve, Regína, mater misericórdiæ,^lvita, dulcédo et spes nostra, salve.^lAd te clamámus, éxsules fílii Evæ.^lAd te suspirámus, geméntes et flentes^lin hac lacrimárum valle.^pEia ergo, advocáta nostra,^lillos tuos misericórdes óculos ad°nos°convérte.^lEt Iesum, benedíctum°fructum°ventris°tui,^lnobis post hoc exsílium osténde.^lO clemens, o°pia, o°dulcis°Virgo°María."
       }
   },
   507: {
@@ -2476,42 +2526,49 @@ export const psalmsData = {
   },
   510: {
     0.0: {
+        "title": "Gott, dessen Wort die Welt erschuf",
         "quote": "Komplet",
         "text": "Gott, dessen Wort die Welt erschuf^lund dessen Wille sie erhält:^ldu hüllst den Tag in holdes Licht,^lin gnäd’gen Schlaf die dunkle Nacht.^pDich träume unser tiefstes Herz,^lwenn uns die Ruhe nun umfängt.^lDer Schlaf erquicke unsern Leib^lund rüste ihn mit neuer Kraft.^pDir sei der Lobpreis dargebracht,^lGott Vater, Sohn und Heil’ger Geist.^lDreiein’ge Macht, die alles lenkt,^lbehüte, die auf dich vertraun. Amen."
       }
   },
   511: {
     0.0: {
+        "title": "Nimm gnädig, guter Herr und Gott",
         "quote": "Komplet",
         "text": "Nimm gnädig, guter Herr und Gott,^luns diese Nacht in deine Hut;^llass uns in dir geborgen sein:^lIn deinem Frieden ruht sich’s gut.^pDieweil die müden Glieder ruhn,^lbleib unser Herz dir zugewandt.^lWir sind dein Volk, das dir vertraut:^lBeschütze uns mit starker Hand.^pDir sei, Gott Vater, Sohn und Geist,^ldie Ruhe dieser Nacht geweiht.^lUmfängt uns einst des Todes Nacht,^lführ uns ins Licht der Herrlichkeit. Amen."
       }
   },
   512: {
     0.0: {
+        "title": "Tod und Vergehen waltet in allem",
         "quote": "Komplet",
         "text": "Tod und Vergehen^lwaltet in allem,^lsteht über Menschen,^lPflanzen und Tieren,^lSternbild und Zeit.^pDu hast ins Leben^lalles gerufen,^lHerr, deine Schöpfung^lneigt sich zum Tode:^lHole sie heim.^pSchenke im Ende^lauch die Vollendung.^lNicht in die Leere^lfalle die Vielfalt^lirdischen Seins.^pHerr, deine Pläne^lbleiben uns dunkel. –^lDoch singen Lob wir^ldir, dem dreieinen,^lewigen Gott. Amen."
       }
   },
   513: {
     0.0: {
+        "title": "Schon wirft die Erde sich zur Nacht",
         "quote": "Komplet",
         "text": "Schon wirft die Erde sich zur Nacht^ldes dunklen Mantels Falten um.^lDer Schlaf, des Todes sanftes Bild,^lführt uns dem Grab des Schlummers zu.^pWenn uns die schwarze Nacht umhüllt,^lsind wir von Traum und Wahn bedrängt,^lbedroht von Zweifel und von Angst,^lder Macht des Bösen ausgesetzt.^pChristus, du Leben, Wahrheit, Licht,^lwachsamer Hüter, sei uns nah,^ldass hell der Glaube in uns wacht,^lauch in des Schlafes dunkler Zeit.^pDen Sohn und Vater bitten wir^lund auch den Geist, der beide eint:^lDreiein’ge Macht, die alles lenkt,^lbehüte uns in dieser Nacht. Amen."
       }
   },
   514: {
     0.0: {
+        "title": "Mitten wir im Leben sind",
         "quote": "Komplet",
         "text": "Mitten wir im Leben sind^lmit dem Tod umfangen.^lWer ist, der uns Hilfe bringt,^ldass wir Gnad’ erlangen?^lDas bist du, Herr, alleine.^lUns reuet unsre Missetat,^ldie dich, Herr, erzürnet hat.^lHeiliger Herre Gott, heiliger starker Gott,^lheiliger barmherziger Heiland,^ldu ewiger Gott,^llass uns nicht versinken^lin des bittern Todes Not.^lKyrieleison."
       }
   },
   515: {
     0.0: {
+        "title": "Du starker Gott, der diese Welt",
         "quote": "Komplet",
         "text": "Du starker Gott, der diese Welt^lim Innersten zusammenhält,^ldu Angelpunkt, der unbewegt^lden Wandel aller Zeiten trägt.^pGeht unser Erdentag zu End’,^lschenk Leben, das kein Ende kennt:^lführ uns, dank Jesu Todesleid,^lins Licht der ew’gen Herrlichkeit.^pVollenden wir den Lebenslauf,^lnimm uns in deine Liebe auf,^ldass unser Herz dich ewig preist,^lGott Vater, Sohn und Heil’ger Geist."
       }
   },
   516: {
     0.0: {
+        "title": "Christus, göttlicher Herr",
         "quote": "Komplet",
         "text": "Christus, göttlicher Herr,^ldich liebt, wer nur Kraft hat zu lieben:^lunbewusst, wer dich nicht kennt;^lsehnsuchtsvoll, wer um dich weiß.^pChristus, du bist meine Hoffnung,^lmein Friede, mein Glück, all mein Leben:^lChristus, dir neigt sich mein Geist;^lChristus, dich bete ich an.^pChristus, an dir halt’ ich fest^lmit der ganzen Kraft meiner Seele:^ldich, Herr, lieb’ ich allein –^lsuche dich, folge dir nach."
       }
@@ -2572,486 +2629,567 @@ export const psalmsData = {
   },
   630: {
     0.0: {
+        "title": "Komm, Heil’ger Geist vom ew’gen Thron",
         "quote": "Terz",
         "text": "Komm, Heil’ger Geist vom ew’gen Thron,^leins mit dem Vater und dem Sohn;^ldurchwirke unsere Seele ganz^lmit deiner Gottheit Kraft und Glanz.^pErfüll mit heil’ger Leidenschaft^lGeist, Zunge, Sinn und Lebenskraft;^lmach stark in uns der Liebe Macht,^ldass sie uns das Herz entfacht.^pLass gläubig uns den Vater sehn,^lsein Ebenbild, den Sohn verstehn^lund dir vertrauen, der uns durchdringt^lund uns das Leben Gottes bringt. Amen."
       }
   },
   631: {
     0.0: {
+        "title": "O Geist, vom Vater ausgesandt",
         "quote": "Terz",
         "text": "O Geist, vom Vater ausgesandt,^lo Kraft, vom Sohn verheißen:^lErgieße dich in unser Herz^lund nimm es dir zu eigen!^pWo du bist, flammt die Liebe auf,^lund Liebe will lobsingen.^lDie Liebe öffnet Herz und Hand,^lsie will sich ganz veschwenden.^pLob sei dem Vater und dem Sohn,^lLob sei dem Heil’gen Geiste,^lwie es von allem Anfang war,^ljetzt und für alle Zeiten. Amen."
       }
   },
   632: {
     0.0: {
+        "title": "Schon schreitet rasch der Tag voran",
         "quote": "Terz",
         "text": "Schon schreitet rasch der Tag voran,^lwir schauen auf zu Gott dem Herrn,^lder, dreifach reich an Liebeskraft,^lzum rechten Handeln uns bewegt.^pUnd Gottes Geist erfülle uns,^lder in uns lebt und durch uns wirkt,^lmit neuer Kraft und Zuversicht^lals Christi Boten in der Welt.^pDen ew’gen Vater preisen wir^lund Jesus Christus, seinen Sohn,^lden Beistand auch, den Heil’gen Geist,^lder uns erleuchtet, stärkt und führt. Amen."
       }
   },
   633: {
     0.0: {
+        "title": "Die Stunde steigt und ruft zum Werk",
         "quote": "Terz",
         "text": "Die Stunde steigt und ruft zum Werk;^ldes Tages Anspruch lockt und drängt:^lKomm, Heil’ger Geist, tritt für uns ein,^ldenn nichts gelingt uns ohne dich.^pDu atme in uns, treibe uns,^lerleuchte uns und sprich uns zu,^ldu mache unser Herz geneigt,^ldass wir zur Liebe fähig sind.^pDies schenke uns, o°Heil’ger Geist,^lder mit dem Vater und dem Sohn^lverherrlicht und gepriesen sei^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   634: {
     0.0: {
+        "title": "Geist des Vaters und des Sohnes Jesu Christ",
         "quote": "Terz",
         "text": "Geist des Vaters und des Sohnes Jesu Christ,^lder das All erhält.^lGieß dich aus, und als ein Zeichen, dass du bist,^lüberkomm die Welt.^pDeine Ankunft wird die Wirren wieder klärn,^lwenn sie uns befällt.^lGeist der Wahrheit, wandle uns in unsres Herrn^lOffenbarungszelt."
       }
   },
   660: {
     0.0: {
+        "title": "O Gott, du lenkst mit starker Hand",
         "quote": "Sext",
         "text": "O Gott, du lenkst mit starker Hand^lden wechselvollen Lauf der Welt,^lmachst, dass den Morgen mildes Licht,^lden Mittag voller Glanz erhellt.^pLösch aus die Glut der Leidenschaft^lund tilge allen Hass und Streit;^lerhalte Geist und Leib gesund,^lschenk Frieden uns und Einigkeit.^pDu Gott des Lichts, auf dessen Reich^lder helle Schein der Sonne weist,^ldich loben wir aus Herzensgrund,^lGott Vater, Sohn und Heil’ger Geist. Amen."
       }
   },
   661: {
     0.0: {
+        "title": "Du starker Lenker, treuer Gott",
         "quote": "Sext",
         "text": "Du starker Lenker, treuer Gott,^laus dir strömt alles Leben.^lDu gibst dem Morgen hellen Glanz,^ldem Mittag Glut in Fülle.^pBewahre uns vor Übermut.^lHilf uns, wenn wir erschlaffen.^lMach uns gesund an Geist und Leib^lund schenk uns deinen Frieden.^pLob sei dem Vater und dem Sohn,^lLob sei dem Heil’gen Geiste,^lwie es von allem Anfang war,^ljetzt und für alle Zeiten. Amen."
       }
   },
   662: {
     0.0: {
+        "title": "Der Tag strebt seiner Höhe zu",
         "quote": "Sext",
         "text": "Der Tag strebt seiner Höhe zu,^lder Mittag ruft uns zum Gebet:^lwir loben Gott und bitten ihn^lum Segen für den heil’gen Dienst.^pEs leuchtet uns die Stunde auf,^lda Jesus Christus, Gottes Sohn,^lals Opferlamm am Kreuz erhöht,^lzu unsrem Heil sich dargebracht.^pO wahre Sonne dieser Welt,^lvor dir verblasst des Mittags Schein;^ldie Menschheit ist durch dich erlöst,^ldie Welt erstrahlt verklärt im Licht.^pDen ew’gen Vater preisen wir^lund Jesus Christus, seinen Sohn,^lden Beistand auch, den Heil’gen Geist,^lder uns erleuchtet, stärkt und führt."
       }
   },
   663: {
     0.0: {
+        "title": "Die Glut des Mittags treibt uns um",
         "quote": "Sext",
         "text": "Die Glut des Mittags treibt uns um,^ldie Stunden eilen wie im Flug;^ldu, Gott vor dem die Zeiten stehn,^llass uns ein wenig bei dir ruhn.^pWir atmen fiebrig und gehetzt,^lder Streit flammt auf, das rasche Wort;^lin deiner Nähe, starker Gott,^list Kühlung, Frieden und Geduld.^pGewähr uns dies, o°guter Gott,^ldu, Vater, und du, einz’ger Sohn,^ldie ihr mit ihm, dem Heil’gen Geist,^lregiert durch Zeit und Ewigkeit. Amen."
       }
   },
   664: {
     0.0: {
+        "title": "Wo lagerst du mit deiner Herde",
         "quote": "Sext",
         "text": "Wo lagerst du mit deiner Herde^lmittags in der heißen Heide?^lDu Wasserquell, des Lebens Schattenbaum^lund deiner Schafe Weide?^pGib uns zu trinken aus dem Strome^ldeiner aufgebrochenen Seite^ldie Gabe Gottes, die wir kennen^lals das Heil, das uns befreite.^pWir suchen dich, du bleibst am Tage^loft im Dunkel uns entschwunden.^lSo komm, Geliebter, wir verloren dich,^ldoch du hast uns gefunden."
       }
   },
   690: {
     0.0: {
+        "title": "Du starker Gott, der diese Welt",
         "quote": "Non",
         "text": "Du starker Gott, der diese Welt^lim Innersten zusammenhält,^ldu Angelpunkt, der unbewegt^lden Wandel aller Zeiten trägt.^pGeht unser Erdentag zu End’,^lschenk Leben, das kein Ende kennt:^lFühr uns, dank Jesu Todesleid,^lins Licht der ew’gen Herrlichkeit.^pVollenden wir den Lebenslauf,^lnimm uns in deine Liebe auf,^ldass unser Herz dich ewig preist,^lGott Vater, Sohn und Heil’ger Geist."
       }
   },
   691: {
     0.0: {
+        "title": "Schon neigt der Tag dem Abend zu",
         "quote": "Non",
         "text": "Schon neigt der Tag dem Abend zu,^ldie Schatten werden länger.^lVergänglich ist, was uns umgibt,^ldu aber bleibst bestehen.^pIm Tageslicht, das steigt und sinkt,^lwird uns die Zeit bemessen,^lbis uns der Tod hinüberführt,^lwo alle Grenzen fallen.^pLob sei dem Vater und dem Sohn,^lLob sei dem Heil’gen Geiste,^lwie es von allem Anfang war,^ljetzt und für alle Zeiten. Amen."
       }
   },
   692: {
     0.0: {
+        "title": "Der Tag neigt sich dem Abend zu",
         "quote": "Non",
         "text": "Der Tag neigt sich dem Abend zu,^lwir wenden uns an Gott den Herrn,^lder als der Ew’gen Liebe Bild^lin drei Personen Einer ist.^pEr ist die Quelle unsrer Kraft,^lwie Petrus uns vor Augen führt,^lda er des Lahmen Hand erfasst^lund ihn auf seine Füße stellt.^pAls Jünger Christi rufen wir^ldie Macht des Namens Jesu an,^ldass wir den guten Kampf bestehn^lund aufrecht Gottes Wege gehen.^pDen ew’gen Vater preisen wir^lund Jesus Christus, seinen Sohn,^lden Beistand auch, den Heil’gen Geist,^lder uns erleuchtet, stärkt und führt. Amen."
       }
   },
   693: {
     0.0: {
+        "title": "Der Glanz verfällt, die Zeit flieht hin",
         "quote": "Non",
         "text": "Der Glanz verfällt, die Zeit flieht hin,^ldas Tagwerk zehrt an unsrer Kraft.^lHerr, Gott, an den kein Abend rührt,^lnimm uns Erschöpfte liebreich auf.^pWir gehn dahin wie Tag und Traum;^lkein Wunsch hält unser Leben fest.^lDein Glanz, o°Herr, erstrahle uns,^lwenn unser kleines Licht erlischt.^pGewähr uns dies, o°guter Gott,^ldu Vater, und du, einz’ger Sohn,^ldie ihr mit ihm, dem Heil’gen Geist,^lregiert durch Zeit und Ewigkeit. Amen."
       }
   },
   694: {
     0.0: {
+        "title": "Jesus, du Quelle unsres Heils",
         "quote": "Non",
         "text": "Jesus, du Quelle unsres Heils,^lder Liebe und der Sehnsucht Ziel,^ldu Gott und Schöpfer aller Welt^lund Mensch am Abend dieser Zeit.^pWie groß muss deine Liebe sein!^lDu nimmst der Sünde Last auf dich;^ldu lieferst dich dem Tode aus,^lum uns vom Tode zu befrein.^pMit Macht sprengst du der Hölle Tor,^lbefreist die Deinen aus der Haft.^lAls Sieger thronst du jetzt im Licht^lzu deines Vaters rechter Hand.^pSei unsre Freude, unser Trost,^lsei unsres Lebens reicher Lohn^lund stille unser Sehnen, Herr,^lwenn wir dein Antlitz ewig schaun. Amen."
       }
   },
   1201: {
     0.0: {
+        "title": "Hört, eine helle Stimme ruft",
         "quote": "Advent",
         "text": "Hört, eine helle Stimme ruft^lund dringt durch Nacht und Finsternis:^lWacht auf und lasset Traum und Schlaf –^lam Himmel leuchtet Christus auf.^pDies ist der Hoffnung lichte Zeit;^lder Morgen kommt, der Tag bricht an:^lEin neuer Stern geht strahlend auf,^lvor dessen Schein das Dunkel flieht.^pVom Himmel wird als Lamm gesandt,^lder alle Sünde auf sich nimmt.^lWir blicken gläubig zu ihm auf^lund bitten ihn um sein Verzeihn,^pdass, wenn im Licht er wiederkommt,^lsein Glanz die Welt mit Schrecken schlägt,^ler nicht die Sünde strafend rächt,^luns liebend vielmehr bei sich birgt.^pRuhm, Ehre, Macht und Herrlichkeit^lsei Gott dem Vater und dem Sohn,^ldem Geiste, der uns Beistand ist,^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   1301: {
     0.0: {
+        "title": "Gott, heil’ger Schöpfer aller Stern’",
         "quote": "Advent",
         "text": "Gott, heil’ger Schöpfer aller Stern’,^lerleucht uns, die wir sind so fern,^ldass wir erkennen Jesus Christ,^lder für uns Mensch geworden ist.^pDenn es ging dir zu Herzen sehr,^lda wir gefangen waren schwer^lund sollten gar des Todes sein;^ldrum nahm er auf sich Schuld und Pein:^pDa sich die Welt zum Abend wandt’,^lder Bräut’gam Christus ward gesandt.^lAus seiner Mutter Kämmerlein^lging er hervor als klarer Schein.^pGezeigt hat er sein’ groß’ Gewalt,^ldass es in aller Welt erschallt,^lsich beugen müssen alle Knie^lim Himmel und auf Erden hie.^pWir bitten dich, o°heil’ger Christ,^lder du zukünftig Richter bist,^llehr uns zuvor dein’ Willen tun^lund an dem Glauben nehmen zu.^pLob, Preis sei, Vater, deiner Kraft^lund deinem Sohn, der all’ Ding’ schafft,^ldem heil’gen Tröster auch zugleich^lso hier wie dort im Himmelreich. Amen."
       }
   },
   1302: {
     0.0: {
+        "title": "Du Heiland aller Völker, komm",
         "quote": "Advent",
         "text": "Du Heiland aller Völker, komm,^lund zeig dich als der Jungfrau Sohn,^ldass Staunen fasse alle Welt^lob solchem Wunder der Geburt.^pDer Sonne gleich tritt nun hervor^laus dem Gemach der reinen Braut^lund eile strahlend deine Bahn^lals Held, der Gott und Mensch zugleich!^pVon deinem Vater gehst du aus,^lgehst siegreich wieder zu ihm ein;^lbis in die Hölle dringst du vor^lund kehrst zu Gottes Thron zurück.^pRuhm, Ehre, Macht und Herrlichkeit^lsei Gott dem Vater und dem Sohn,^ldem Geiste, der uns Beistand ist,^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   1303: {
     0.0: {
+        "title": "Du Heiland aller Völker, komm",
         "quote": "Advent",
         "text": "Du Heiland aller Völker, komm,^lund zeig dich als der Jungfrau Sohn,^ldass Staunen fasse alle Welt^lob solchem Wunder der Geburt.^pDer Sonne gleich tritt nun hervor^laus dem Gemach der reinen Braut^lund eile strahlend deine Bahn^lals Held, der Gott und Mensch zugleich!^pVon deinem Vater gehst du aus,^lgehst siegreich wieder zu ihm ein;^lbis in die Hölle dringst du vor^lund kehrst zu Gottes Thron zurück.^pSchon leuchtet deine Krippe auf,^les haucht die Nacht ein neues Licht,^ldas keine Nacht mehr trüben kann,^ldas stets im Glauben uns erhellt.^pRuhm, Ehre, Macht und Herrlichkeit^lsei Gott dem Vater und dem Sohn,^ldem Geiste, der uns Beistand ist,^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   1401: {
     0.0: {
+        "title": "Du, dessen Rechte alle Reiche einzig leitet",
         "quote": "Advent",
         "text": "Du, dessen Rechte alle Reiche einzig leitet,^lzeig deinem Volke deine große Macht.^lGewähre ihm das langersehnte Heil.^pDu, den des Sehers Mund weissagend kündet,^lhoch von des Himmels heller Burg^lsteige herab auf unsre Erde, Jesus, Herr."
       }
   },
   1402: {
     0.0: {
+        "title": "Erwartet den Herrn",
         "quote": "Lh Mi^+Sa Nacht",
         "text": "Erwartet den Herrn,^lSteht als Knechte bereit an der Tür.^lSchon jauchzt jeder Stern,^lSeht, er kommt, seht, er kommt, wir sind hier.^pKomm, Herr Jesus, Maranatha.^pEntzündet die Lampen, ihr Mägde,^lErglühet im Geist^lIm Kommen des Ewig-Geliebten,^lder Kyrios heißt.^pKomm, Herr Jesus, Maranatha.^pDu wirfst dein Feuer zur Erde^lund willst, dass es brennt,^lund wir sind der Mund,^lder anbetend dein Kommen bekennt.^pKomm, Herr Jesus, Maranatha."
       }
   },
   2201: {
     0.0: {
+        "title": "Vom hellen Tor der Sonnenbahn",
         "quote": "Weihn",
         "text": "Vom hellen Tor der Sonnenbahn^lbis zu der Erde fernstem Rand^lerschalle Christus unser Lob,^ldem König, den die Magd gebar.^pDer Herr und Schöpfer aller Welt^lhüllt sich in arme Knechtsgestalt,^lim Fleische zu befrein das Fleisch,^lvom Tod zu retten, die er schuf.^pEr scheut es nicht, auf Stroh zu ruhn,^ldie harte Krippe schreckt ihn nicht.^lVon einer Mutter wird gestillt,^lder allem Leben Nahrung gibt.^pDer Himmel bricht in Jubel aus,^ldie Engel künden Gottes Huld,^lden Hirten wird geoffenbart^lder Hirt, der alle Völker lenkt.^pHerr Jesus, dir sei Ruhm und Preis,^lGott, den die Jungfrau uns gebar,^lLob auch dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   2203: {
     0.0: {
+        "title": "Ihr alle, die ihr Christus sucht",
         "quote": "Weihn",
         "text": "Ihr alle, die ihr Christus sucht,^lerhebt zum Himmel euren Blick^lda geht vor euren Augen auf^ldas Zeichen ew’ger Herrlichkeit:^pEin Stern, der selbst den Sonnenball^lan Glanz und Feuer überstrahlt,^lverkündet heute aller Welt,^ldass Gott im Fleisch erschienen ist.^pUnd Weise, fern im Orient,^lerkennen deutend diesen Stern^lals Zeichen, dass ein Königskind^lder Welt zum Heil geboren ist.^p„Wer ist es“, fragen sie bestürzt,^l„dem Licht und Sterne dienstbar sind,^ldem sich der Himmel unterwirft,^lder über die Gestirne herrscht?^pEin großes Leuchten schauen wir,^lerhaben, weit und grenzenlos,^lein Leuchten, das kein Ende kennt,^ldas älter als der Himmel ist.“^pEr ist es, aller Völker Herr,^lder König über Judas Haus,^lder Abraham verheißen ward^lund allen, die ihm Söhne sind.^pHerr Jesus, dir sei Ruhm und Preis,^lder du uns heut erschienen bist,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   2204: {
     0.0: {
+        "title": "Des Vaters eingeborner Sohn",
         "quote": "Weihn",
         "text": "Des Vaters eingeborner Sohn^lkommt aus der Jungfrau in die Welt,^lim Bad der Taufe heiligt er,^ldie sich ihm gläubig anvertraun.^pVom Himmel kommt der Höchste selbst,^lerscheint in menschlicher Gestalt;^ldem Tode liefert er sich aus,^lder uns das ew’ge Leben schenkt.^pDer alle Sünde auf sich nimmt,^lihn taucht Johannes in die Flut.^lDer ohne allen Makel ist,^lder Reinste, teilt der Sünder Los.^pDes Vaters Stimme offenbart^lim Knecht den vielgeliebten Sohn.^lDer Geist bezeugt ihm Macht und Amt,^lals Christus Gottes Werk zu tun.^pErlöser, Herr, wir bitten dich:^lVertreib das Dunkel, tilg die Schuld,^lmach gnädig unsre Herzen hell^lmit deiner Gottheit klarem Licht.^pDem Herrn sei Preis und Herrlichkeit,^lder heute uns erschienen ist,^ldem Vater, der den Sohn bezeugt^lund ihn mit seinem Geiste salbt. Amen."
       }
   },
   2301: {
     0.0: {
+        "title": "Christus, Erlöser aller Welt",
         "quote": "Weihn",
         "text": "Christus, Erlöser aller Welt,^ldu Gottes einzig wahrer Sohn,^lgeboren aus des Vaters Schoß^lgeheimnisvoll vor aller Zeit.^pDes Vaters Abglanz, Licht vom Licht,^lvon dir erhoffen wir das Heil:^lerhöre deiner Diener Flehn,^ldas rings vom Erdkreis zu dir dringt.^pGedenke, dass der Jungfrau Schoß^ldich kleidete mit Fleisch und Blut^lin unsre arme Knechtsgestalt,^ldich, Urgrund unsres ew’gen Heils.^pDas kündet uns der große Tag,^lder wiederkehrt im Jahreskreis,^ldass du vom Thron des Vaters kamst^lals Heiland, der die Welt erlöst.^pEs jauchzen Himmel, Erd’ und Meer^lund alles, was in ihnen ist,^ldem Vater zu in frohem Dank,^lder dich gesandt zu unsrem Heil.^pAuch wir, mit deinem Blut erkauft,^lwir singen dir ein neues Lied^lvoll Freude ob des heil’gen Tags,^lda du für uns geboren bist.^pHerr Jesus, dir sei Ruhm und Preis,^lGott, den die Jungfrau uns gebar,^lLob auch dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   2303: {
     0.0: {
+        "title": "Die Weisen schauen auf zum Stern",
         "quote": "Weihn",
         "text": "Die Weisen schauen auf zum Stern^lund folgen gläubig seiner Spur,^lsie finden durch das Licht zum Licht,^lmit Gaben ehren sie das Kind.^pErkenne in den Gaben, Kind,^ldie Königszeichen deiner Macht^lund was des Vaters ew’ge Huld^ldir dreifach hat vorherbestimmt:^pDen König kündet an das Gold,^ldem Gott steigt auf des Weihrauchs Duft,^ldoch weist voraus auf Tod und Grab^lder Myrrhenkörner Bitterkeit.^pDer Vorzeit Väter schauten dich,^ldich kündet’ der Propheten Mund;^ldoch heut bezeugt der Vater selbst:^lDu bist der Erbe meines Reichs.^pIn dir, o°Kind, wird alles eins,^ldu bist das A und o°der Zeit,^ldu bist das Haupt der neuen Welt,^lin der die Schöpfung sich erfüllt.^pHerr Jesus, dir sei Ruhm und Preis,^lder du uns heut erschienen bist,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   2304: {
     0.0: {
+        "title": "Jordan, sing! Schwing deine Wasser",
         "quote": "Weihn",
         "text": "Jordan, sing!^lSchwing deine Wasser^lüber die Wüste hin.^lTrunken bist du vom Glanz darin:^lJesus, der Christus,^lsteht als Lamm in den Fluten.^pMenschheit, auf!^lLauf ihm entgegen,^ldeine Geburt ist nah!^lSieh, der Geliebte, die Hochzeit ist da:^lTrink seinen Wein,^lden neuen, glühenden, guten!^pHerrliches All!^lFall vor ihm nieder,^lbring dich als Gabe dar!^lChristus verwandelt dich wunderbar.^lEwiges Leben^lwird dich im Tode durchbluten!"
       }
   },
   2401: {
     0.0: {
+        "title": "Sei uns willkommen, Herre Christ",
         "quote": "Weihn",
         "text": "Sei uns willkommen, Herre Christ,^lder du unser aller Herre bist.^lSei willkommen, lieber Herre,^lhier auf der Erde recht mit Ehren.^lKyrieleis.^pGott ist geboren, unser Trost,^lder hat durch sein Kreuz die Welt erlöst.^lSei willkommen, lieber Herre,^lhier auf der Erde recht mit Ehren.^lKyrieleis."
       }
   },
   2402: {
     0.0: {
+        "title": "Erwacht und singt in der Nacht",
         "quote": "Lh Di^+Fr Nacht",
         "text": "Erwacht und singt in der Nacht;^les kommt das göttliche Wort, der Sohn,^lder Himmel und Erde gemacht,^lvom Thron in unsere Zeit und Niedrigkeit.^pErhebt euch ihr Menschen, und gebt ihm Ehr’,^lder über das All ward gesetzt,^ldem Kyrios Christ, der lebt im Jetzt^lvon Ewigkeit zu Ewigkeit. Amen."
       }
   },
   2403: {
     0.0: {
+        "title": "Seht, am Himmel erglänzt",
         "quote": "Weihn",
         "text": "Seht, am Himmel erglänzt^lleuchtend ein neuer Stern,^lkündet: Christus, der Herr,^lwurde als Mensch geborn,^lder Geringes geformt,^lder auch das Größte schuf,^ldessen Zepter mit Macht^lewig das Reich regiert.^pWeise folgen dem Stern,^lfinden das kleine Kind,^lJudas heiligen Spross,^larm und gering im Stall.^lWeihrauch, Myrrhe und Gold^lbringen sie kniend dar:^lSie verehren in ihm^lKönig und Mensch und Gott.^pLasst uns jubelnd im Lied^lheute das Fest begehn,^lda der gütige Herr^lgnädig im Fleisch erschien.^lJetzt ist Gott unter uns:^lChristus, das Licht vom Licht,^lew’ger Vater des Alls,^lRichter und Herr der Welt.^pChristus Ehre und Preis,^lden uns die Magd gebar,^lden der Stern offenbart,^lstrahlend in großem Licht;^lauch dem Vater sei Lob,^lder ihn als Sohn bezeugt,^lPreis und Ehre dem Geist,^ljetzt und für alle Zeit. Amen."
       }
   },
   3201: {
     0.0: {
+        "title": "Du Sonne der Gerechtigkeit",
         "quote": "Fastenzeit",
         "text": "Du Sonne der Gerechtigkeit,^lChristus vertreib in uns die Nacht,^ldass mit dem Licht des neuen Tags^lauch unser Herz sich neu erhellt.^pDu schenkst uns diese Gnadenzeit,^lgib auch ein reuevolles Herz^lund führe auf den Weg zurück,^ldie deine Langmut irren sah.^pEs kommt der Tag, dein Tag erscheint,^lda alles neu in Blüte steht;^lder Tag, der unsre Freude ist,^lder Tag der uns mit dir versöhnt.^pDir, höchster Gott, Dreifaltigkeit,^llobsinge alles, was da lebt.^lLass uns, durch deine Gnade neu,^ldich preisen durch ein neues Lied."
       }
   },
   3203: {
     0.0: {
+        "title": "Heilig Kreuz, du Baum der Treue",
         "quote": "Fastenzeit",
         "text": "Heilig Kreuz, du Baum der Treue,^ledler Baum, dem keiner gleich,^lkeiner so an Laub und Blüte,^lkeiner so an Früchten reich:^lSüßes Holz, so süße Nägel,^lwelche süße Last an euch.^pBeuge, hoher Baum, die Zweige,^lwerde weich an Stamm und Ast,^ldenn dein hartes Holz muss tragen^leine königliche Last,^lgib den Gliedern deines Schöpfers^lan dem Stamme linde Rast.^pDu allein warst wert, zu tragen^laller Sünden Lösegeld,^ldu, die Planke, die uns rettet^laus dem Schiffbruch dieser Welt.^lDu, gesalbt vom Blut des Lammes,^lPfosten, der den Tod abhält.^pLob und Ruhm sei ohne Ende^lGott, dem höchsten Herrn, geweiht.^lPreis dem Vater und dem Sohne^lund dem Geist der Heiligkeit.^lEinen Gott in drei Personen^llobe alle Welt und Zeit. Amen."
       }
   },
   3301: {
     0.0: {
+        "title": "Nun ist sie da, die rechte Zeit",
         "quote": "Fastenzeit",
         "text": "Nun ist sie da, die rechte Zeit,^ldie Gottes Huld uns wieder schenkt,^lnun ist er da, der Tag des Heils,^lerfüllt von Christi hellem Licht.^pJetzt soll sich unser ganzes Herz ^ldurch Fasten und Gebet erneun, ^lund durch Entsagung werde stark, ^lwas müde ist und schwach und krank.^pLass uns, o°Herr, mit Geist und Leib ^ldas Werk der Buße freudig tun, ^ldass wir den Übergang bestehn ^lzum Pascha, das kein Ende kennt.^pDir, höchster Gott, Dreifaltigkeit, ^llobsinge alles, was da lebt. ^lLass uns, durch deine Gnade neu, ^ldich preisen durch ein neues Lied."
       }
   },
   3302: {
     0.0: {
+        "title": "Vernimm, du guter Schöpfergott",
         "quote": "Fastenzeit",
         "text": "Vernimm, du guter Schöpfergott,^lin Gnade unser lautes Flehn.^lDurch vierzig Tage steigt es auf:^lHerr, wende uns dein Antlitz zu!^pDu kennst die Herzen, milder Herr,^ldu weißt, wie schwach wir Menschen sind.^lVoll Reue flüchten wir zu dir:^lVergib uns gnädig unsre Schuld.^pWir haben wahrlich oft gefehlt^lund vieles Gute nicht getan.^lNun schaffe deinem Namen Preis:^lVerleih uns Schwachen neue Kraft.^pWenn wir durch Fasten unsern Leib^ljetzt läutern durch Enthaltsamkeit,^ldann gib, dass sich auch unser Geist^lim rechten Tun vor dir bewährt.^pDir, höchster Gott, Dreifaltigkeit,^llobsinge alles, was da lebt.^lLass uns, durch deine Gnade neu,^ldich preisen durch ein neues Lied."
       }
   },
   3303: {
     0.0: {
+        "title": "Der König siegt, sein Banner glänzt",
         "quote": "Fastenzeit",
         "text": "Der König siegt, sein Banner glänzt,^lgeheimnisvoll erstrahlt das Kreuz,^lan dessen Balken ausgestreckt^lim Fleisch des Fleisches Schöpfer hängt.^pGeschunden hängt der heil’ge Leib,^lvom scharfen Speere roh durchbohrt,^luns rein zu waschen von der Schuld,^lströmt Blut und Wasser von ihm aus.^pErfüllt ist nun, was David einst^lim Liede gläubig kundgetan,^lda er im Geiste prophezeit’:^lVom Holz herab herrscht unser Gott.^pO edler Baum im hehren Glanz,^lvon königlichem Purpur rot,^ldu werter, du erwählter Stamm,^ldu trägst den Lösepreis der Welt.^pO heil’ges Kreuz, sei uns gegrüßt,^ldu einz’ge Hoffnung dieser Welt.^lDen Treuen schenke neue Kraft,^lden Sündern tilge alle Schuld.^pDir, höchster Gott, Dreifaltigkeit,^llobsinge alles, was da lebt;^ldu hast uns durch das Kreuz erlöst:^lBewahre uns in Ewigkeit."
       }
   },
   3401: {
     0.0: {
+        "title": "Nun ruft ein heil’ges Fasten aus",
         "quote": "Fastenzeit",
         "text": "Nun ruft ein heil’ges Fasten aus,^lwie es die Väter uns gelehrt.^lGekommen ist im Jahreslauf^lder vierzig Tage heil’ge Zeit.^pSo hat es das Gesetz verlangt^lso der Propheten ernster Ruf.^lUnd Christus selbst hat diese Zeit^lgeheiligt durch sein eignes Tun.^pNach seinem Beispiel lasst auch uns^ldas Fasten üben in Geduld,^luns Abbruch tun in Speis und Trank,^lnachsinnen über Gottes Wort.^pDas Böse schwinde kraftlos hin,^ldas Gute blühe machtvoll auf,^lVersöhnung finde jedes Herz,^ldas sich dem Werk der Busse weiht.^pDir, höchster Gott, Dreifaltigkeit,^llobsinge alles, was da lebt.^lLass uns, durch deine Gnade neu,^ldich preisen durch ein neues Lied."
       }
   },
   3402: {
     0.0: {
+        "title": "Hört die Mahnung der Schrift",
         "quote": "Fastenzeit",
         "text": "Hört die Mahnung der Schrift:^lJetzt ist die Zeit der Gnade da.^lPaulus sagt uns das Wort:^lJetzt ist die Stunde unsres Heils;^lempfangt nicht vergeblich die göttliche Gabe.^pMaßvoll lebe der Leib,^lwachsam und lauter sei der Geist,^ldass der Weg dieser Zeit^lDurchgang zur Auferstehung sei.^lDie Erde zu heilen, schuf Gott diese Tage.^pZeichen schauen wir nun,^lIrdisches wird zum Bilde hier;^ldenn das kreisende Jahr^llässt nach des Winters Frost und Nacht^lden Frühling die Erde für Ostern bereiten.^pLasst uns loben den Herrn,^llieben die Werke, die er schuf,^lfroh erwarten den Tag,^lder die Verheißung uns erfüllt!^lDem Vater, dem Sohne, dem Geist sei die Ehre! Amen."
       }
   },
   3403: {
     0.0: {
+        "title": "Preise, Zunge, und verkünde",
         "quote": "Fastenzeit",
         "text": "Preise, Zunge, und verkünde^lden erhabnen Waffengang;^lauf das Kreuz, das Siegeszeichen,^lsinge den Triumphgesang.^lSinge, wie der Welt Erlöser^lstarb und dennoch Sieg errang.^pDenn verblendet aß sich Adam^leinst vom Baume das Gericht;^ldoch der Schöpfer voll Erbarmen^lwollte sein Verderben nicht^lund hat selbst den Baum erkoren,^lder den Fluch des Baumes bricht.^pGottes Plan, uns zu erlösen,^lhat verlangt die Opfertat,^lund des Vaters ew’ge Weisheit^lmacht’ zuschanden den Verrat^lund verlieh barmherzig Heilung,^lwo der Feind verwundet hat.^pSo ward in der Zeiten Fülle^luns gesandt des Vaters Sohn,^ler, der Schöpfer aller Welten,^lstieg herab vom Himmelsthron^lund ward Fleisch und ward geboren^lund ward einer Jungfrau Sohn.^pAls nach dreißig Erdenjahren^lfür den Herrn die Stunde kam,^ldass er unsres Heiles wegen^lTod und Leiden auf sich nahm,^lwurde er erhöht am Kreuze,^ldargebracht als Gotteslamm.^pSeht den Essig, seht die Galle,^lDornen, Nägel, Speer voll Wut^lseinen zarten Leib durchbohren,^lWasser strömt hervor und Blut;^lErde, Meere, Sterne, Welten^lwerden rein durch solche Flut.^pLob und Ruhm sei ohne Ende^lGott, dem höchsten Herrn, geweiht.^lPreis dem Vater und dem Sohne^lund dem Geist der Heiligkeit.^lEinen Gott in drei Personen^llobe alle Welt und Zeit. Amen."
       }
   },
   3404: {
     0.0: {
+        "title": "Denkmal, das uns mahnet",
         "quote": "Gründonnerstag",
         "text": "Denkmal, das uns mahnet^lan des Herren Tod!^lDu gibst uns das Leben,^lo lebendig Brot.^lWerde gnädig Nahrung^lmeinem Geiste du,^ldass er deine Wonnen^lkoste immerzu.^pGleich dem Pelikane^lstarbst du, Jesu mein;^lwasch in deinem Blute^lmich von Sünden rein.^lSchon ein kleiner Tropfen^lsühnet alle Schuld,^lbringt der ganzen Erde^lGottes Heil und Huld.^pJesus, den verborgen^ljetzt mein Auge sieht,^lstille mein Verlangen,^ldas mich heiß durchglüht:^lLass die Schleier fallen^leinst in deinem Licht,^ldass ich selig schaue,^lHerr, dein Angesicht. Amen."
       }
   },
   4201: {
     0.0: {
+        "title": "Der Morgen rötet sich und glüht",
         "quote": "Osterzeit",
         "text": "Der Morgen rötet sich und glüht,^lder ganze Himmel tönt von Lob,^lin Jubel jauchzt die Erde auf,^lund klagend stöhnt die Unterwelt.^pDer starke, königliche Held^lzerbrach des Todes schweren Bann.^lSein Fuß zertrat der Hölle Macht:^lAus harter Fron sind wir befreit.^pEr, den der Stein verschlossen hielt^lund den man noch im Grab bewacht,^ler steigt als Sieger aus dem Grab,^lfährt auf in strahlendem Triumph.^pSchon werden alle Klagen stumm,^lin Freude wandelt sich der Schmerz,^ldenn auferstanden ist der Herr;^lein lichter Engel tut es kund.^pDem Herrn sei Preis und Herrlichkeit,^lder aus dem Grabe auferstand,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   4202: {
     0.0: {
+        "title": "Jerusalem, du neue Stadt",
         "quote": "Osterzeit",
         "text": "Jerusalem, du neue Stadt,^lgib deinen Liedern neuen Klang,^lin reiner Freude darfst du jetzt^lder Ostern hohes Fest begehn.^pDes Todes Drache unterliegt,^lder Held aus Juda siegt mit Macht,^lda seiner Stimme heller Schall^ldie Toten aus den Gräbern ruft.^pWas mit Gewalt der Tod geraubt,^lgibt jetzt die Unterwelt zurück.^lBefreit aus der Gefangenschaft,^lfolgt Jesus die erlöste Schar.^pEr triumphiert in Herrlichkeit,^lund weithin spannt sich seine Macht,^ler eint den Himmel und die Welt^lzum Reich, in dem er ewig herrscht.^pDem Herrn sei Preis und Herrlichkeit,^lder aus dem Grabe auferstand,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   4204: {
     0.0: {
+        "title": "Du höchster Herr der Ewigkeit",
         "quote": "Osterzeit",
         "text": "Du höchster Herr der Ewigkeit,^ldu Retter der verlornen Welt,^ldurch den der Tod vernichtet ist,^ldas Leben siegreich triumphiert.^pZum Thron des Vaters steigst du auf^lund nimmst zu seiner Rechten Platz;^lder dich erhöht in Herrlichkeit,^ler setzt dich ein in seine Macht.^pIn Ehrfurcht beugen sich vor dir^lder Himmel und das Erdenrund^lund selbst die Unterwelt bekennt:^lDu bist der Herr der ganzen Welt.^pDie Engel nehmen staunend wahr,^lwie sich des Menschen Los gewandt:^lWas Menschen fehlten, sühnt ein Mensch^lund herrscht auf ewig: Mensch und Gott.^pDir, Herr, sei Ruhm und Herrlichkeit,^ldem Sieger, der zur Höhe fährt,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   4205: {
     0.0: {
+        "title": "Und wieder führt das Jahr herauf",
         "quote": "Pfingsten",
         "text": "Und wieder führt das Jahr herauf^lder sel’gen Freude hohen Tag:^lDer Beistand, den der Herr verhieß,^lwird seinen Jüngern heut geschenkt.^pIn Flammen stürzt das Licht herab^lund strahlt in Feuerzungen auf,^ldass Glut der Liebe sie durchströmt^lund ihrem Worte Macht verleiht.^pIn allen Sprachen reden sie,^ldie Menge staunt und steht gebannt,^lman glaubt vom Weine sie berauscht,^ldie doch vom Geiste trunken sind.^pWir bitten dich, du guter Gott,^lmit tief geneigtem Angesicht:^lDes Geistes Gaben gieße nun^lauch über uns in Gnaden aus.^pDir, Gott und Vater, sei der Ruhm,^ldem Sohne, der vom Tod erstand,^ldem Geist, der unser Beistand ist,^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   4301: {
     0.0: {
+        "title": "Zum Mahl des Lammes schreiten wir ",
         "quote": "Osterzeit",
         "text": "Zum Mahl des Lammes schreiten wir ^lmit weißen Kleidern angetan, ^lChristus, dem Sieger, singen wir, ^lder uns durchs Rote Meer geführt.^pAm Kreuze gab er seinen Leib ^lfür alle Welt zum Opfer hin;^lund wer von seinem Blute trinkt, ^lwird eins mit ihm und lebt mit ihm.^pAm Pascha-Abend weist das Blut ^lden Würgeengel von der Tür:^lWir sind befreit aus harter Fron ^lund von der Knechtschaft Pharaos.^pChristus ist unser Osterlamm, ^ldas uns zum Heil geschlachtet ward. ^lEr reicht uns seinen heil’gen Leib ^lals Brot, das uns sein Leben schenkt.^pLamm Gottes, wahres Opferlamm, ^ldurch das der Hölle Macht zerbrach!^lDen Kerker hast du aufgesprengt, ^lzu neuem Leben uns befreit.^pErstanden ist der Herr vom Grab, ^lkehrt siegreich aus dem Tod zurück. ^lGefesselt ist der Fürst der Welt, ^lund offen steht das Paradies.^pDem Herrn sei Preis und Herrlichkeit, ^lder aus dem Grabe auferstand,^ldem Vater und dem Geist zugleich ^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   4302: {
     0.0: {
+        "title": "Du Himmel droben, freue dich",
         "quote": "Osterzeit",
         "text": "Du Himmel droben, freue dich,^lund Meer und Erde, jubelt mit.^lDer Herr erstand aus seinem Grab –^lmit ihm die todgeweihte Welt.^pJetzt bricht der Tag des Heiles an,^lund die verheißne Zeit ist da:^lVom Blut des Lammes strahlt die Welt^lund hebt sich aus der Finsternis.^pSein Tod und seines Todes Qual^lschafft die Vergebung aller Schuld;^lin Schwachheit siegt die Gotteskraft,^lund der Besiegte schlägt den Feind.^pDer Hoffnung köstlichen Geschmack^lschenkt uns der Herr, dass wir vertraun:^lWir werden mit ihm auferstehn^lund Erben seines Reiches sein.^pDem Herrn sei Preis und Herrlichkeit,^lder aus dem Grabe auferstand,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   4304: {
     0.0: {
+        "title": "Komm, Heil’ger Geist, der Leben schafft",
         "quote": "Pfingsten",
         "text": "Komm, Heil’ger Geist, der Leben schafft,^lerfülle uns mit deiner Kraft.^lDein Schöpferwort rief uns zum Sein:^lnun hauch uns Gottes Odem ein.^pKomm, Tröster, der die Herzen lenkt,^ldu Beistand, den der Vater schenkt;^laus dir strömt Leben, Licht und Glut,^ldu gibst uns Schwachen Kraft und Mut.^pDich sendet Gottes Allmacht aus^lim Feuer und in Sturmes Braus;^ldu öffnest uns den stummen Mund^lund machst der Welt die Wahrheit kund.^pEntflamme Sinne und Gemüt,^ldass Liebe unser Herz durchglüht^lund unser schwaches Fleisch und Blut^lin deiner Kraft das Gute tut.^pDie Macht des Bösen banne weit,^lschenk deinen Frieden allezeit.^lErhalte uns auf rechter Bahn,^ldass Unheil uns nicht schaden kann.^pLass gläubig uns den Vater sehn,^lsein Ebenbild, den Sohn, verstehn^lund dir vertraun, der uns durchdringt^lund uns das Leben Gottes bringt.^pDen Vater auf dem ew’gen Thron^lund seinen auferstandnen Sohn,^ldich, Odem Gottes, Heil’ger Geist,^lauf ewig Erd’ und Himmel preist. Amen."
       }
   },
   4305: {
     0.0: {
+        "title": "Komm herab, o Heil’ger Geist",
         "quote": "Pfingsten",
         "text": "Komm herab, o Heil’ger Geist,^lder die finstre Nacht zerreißt,^lstrahle Licht in diese Welt.^pKomm, der alle Armen liebt,^lkomm, der gute Gaben gibt,^lkomm, der jedes Herz erhellt.^pHöchster Tröster in der Zeit,^lGast, der Herz und Sinn erfreut,^lköstlich Labsal in der Not,^pIn der Unrast schenkst du Ruh,^lhauchst in Hitze Kühlung zu,^lspendest Trost in Leid und Tod.^pKomm, o du glückselig Licht,^lfülle Herz und Angesicht,^ldring bis auf der Seele Grund.^pOhne dein lebendig Wehn^lkann im Menschen nichts bestehn,^lkann nichts heil sein noch gesund.^pWas befleckt ist, wasche rein,^lDürrem gieße Leben ein,^lheile du, wo Krankheit quält.^pWärme du, was kalt und hart,^llöse, was in sich erstarrt,^llenke, was den Weg verfehlt.^pGib dem Volk, das dir vertraut,^ldas auf deine Hilfe baut,^ldeine Gaben zum Geleit.^pLass es in der Zeit bestehn,^ldeines Heils Vollendung sehn^lund der Freuden Ewigkeit.^pAmen. Halleluja."
       }
   },
   4306: {
     0.0: {
+        "title": "Nun bitten wir den Heiligen Geist",
         "quote": "Pfingsten",
         "text": "Nun bitten wir den Heiligen Geist^lum den rechten Glauben allermeist,^ldass er uns behüte an unserm Ende,^lwenn wir heimfahrn aus diesem Elende.^lKyrieleis.^pDu heller Schein, du lebendig Licht,^lGeist des Herrn, der unsre Nacht durchbricht,^llass uns Gott erkennen, ihn Vater nennen^lund von Christus uns nimmermehr trennen.^lKyrieleis.^pDu stille Macht, du verborgne Kraft,^lGeist des Herrn, der in uns lebt und schafft,^lwohne du uns inne, uns anzutreiben;^lbete du in uns, wo wir stumm bleiben.^lKyrieleis.^pDu mächt’ger Hauch, unerschaffne Glut,^lGeist des Herrn, gib du uns neuen Mut,^ldass wir Gottes Liebe den Menschen künden^lund im Frieden als Brüder uns finden.^lKyrieleis.^pErleuchte uns, o ewiges Licht,^lhilf, dass alles, was durch uns geschieht,^lGott sei wohlgefällig durch Jesum Christum,^lder uns macht heilig durch sein Priestertum.^lKyrieleis."
       }
   },
   4401: {
     0.0: {
+        "title": "Heil dem Tage, der unsre Tage krönt",
         "quote": "Lh So II",
         "text": "Heil dem Tage, der unsre Tage krönt,^lTag des Sieges, da Christus auferstand,^lTag der Sonne, die alle Welt verklärt:^lTag des Christus.^pLicht vom Himmel hellt unser Dunkel auf:^lChristus öffnet Gräber und Totenreich,^lstiftet Frieden, einigt im Neuen Bund^lErd’ und Himmel.^pTriumphierend steht er vom Grabe auf,^lhebt uns Menschen in die erlöste Welt,^lführt dem Vater seinen verlorenen Sohn^lin die Arme.^pBrüder werden Engel und Selige,^lChristi Liebe eint sie verklärt im Licht,^lund sie singen ihm, der als Sieger thront,^lFreudenhymnen.^pIn die Chöre seliger Himmelslust^lmischt die Kirche rings auf dem Erdenrund^ltausendstimmig jauchzend den Jubelruf^l„Halleluja“.^pSiegbezwungen ist nun des Todes Macht,^lSiegesfreude füllt unsere Seele ganz:^lGott im Himmel Ehre und Herrlichkeit,^lFried’ auf Erden. Amen."
       }
   },
   4402: {
     0.0: {
+        "title": "Wahrhaft, dies ist der Tag des Herrn",
         "quote": "Osterzeit",
         "text": "Wahrhaft, dies ist der Tag des Herrn,^lverklärt von Gottes heil’gem Licht,^lder Tag, an dem die Schuld der Welt^ldurch Jesu Blut wird ausgelöscht.^pVerlorene lässt dieser Tag^ldas Licht der Hoffnung wieder sehn.^lWer ist nicht von der Angst erlöst,^lwenn selbst der Schächer Gnade fand?^pEr, dessen Schuld den Tod verdient’,^lgab sich in Christi Hand und lebt.^lWelch ein Gericht vollzieht sich hier,^lwelch ein Geheimnis tut sich kund!^pWas könnte wunderbarer sein,^lals dass aus Schuld nun Gnade wird,^ldass Liebe von der Furcht befreit,^lund Tod das neue Leben schenkt?^pDem Herrn sei Preis und Herrlichkeit,^lder aus dem Grabe auferstand,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   4403: {
     0.0: {
+        "title": "Dies ist der klare Tag",
         "quote": "Osterzeit",
         "text": "Dies ist der klare Tag,^lvon klaren Tagen der klarste,^ldies ist der heilige Tag,^lder heiligste heiliger Tage,^ledler leuchtet er auf,^lals edle Krone der Tage.^pFestlicher als das ganze Jahr^lerglänzt seine Leuchte,^lda unser Gott den Tod überwand,^lvom Tode erstehend,^lund aus höllischem Schlund^ldie gefangenen Seelen befreite."
       }
   },
   4404: {
     0.0: {
+        "title": "Großer, heiliger Tag",
         "quote": "Osterzeit",
         "text": "Großer, heiliger Tag,^lder du uns Freude bringst^lund mit heiterem Lied^lunsere Herzen füllst,^ldu sahst Christus den Herrn,^lwie er zum Throne schritt^lhoch im Reich seiner neuen Macht.^pJubelnd in seiner Kraft^lsteigt er zum Himmelszelt,^lund das heilige Volk^lrühmt den Erstandenen,^lmit den Engeln im Chor^lstimmt es ein Preislied an^lauf des herrlichen Siegers Huld.^pDer auf steigender Bahn^lFessel in Fesseln schlug^lund der irdischen Schar^lreiche Geschenke ließ,^lkehrt als Richter zurück,^lstreng in Gerechtigkeit,^ler, der strahlend jetzt aufwärts fuhr.^pHerr, wir flehen zu dir,^lder du als König herrschst,^lnimm in gnädigen Schutz^ldeine Getreuen auf.^lWenn als Richter du kommst,^lHeimliches offenbarst,^llass des Lohnes uns würdig sein.^pVater, Schöpfer des Alls,^ldir gebührt Lobgesang^lund dem Sohne, der jetzt^lzu deiner Rechten thront,^lauch dem Geiste, dem Band,^ldas euch in Liebe eint,^lPreis und Ehre in Ewigkeit."
       }
   },
   4405: {
     0.0: {
+        "title": "Der Herr, zur Höhe heimgekehrt",
         "quote": "Pfingsten",
         "text": "Der Herr, zur Höhe heimgekehrt,^lzum Vater, der sein Ursprung ist,^lgibt uns als sein Geschenk den Geist,^lden uns des Vaters Huld verhieß.^pVom Himmel kommt ein Brausen her,^lund jäher Donner schreckt die Welt.^lDie Jünger, die versammelt sind,^lerkennen schaudernd: Gott ist da!^pGewaltig flammt das Feuer auf,^ldas aus dem Licht des Vaters stammt,^lund jedes Herz, das Christus glaubt,^lwird mit des Wortes Glut erfüllt.^pDa jauchzen die Erfüllten auf,^ldurchdrungen von des Geistes Hauch,^lin allen Sprachen reden sie^lund machen Gottes Taten kund.^pDir, Gott und Vater, sei der Ruhm,^ldem Sohne, der vom Tod erstand,^ldem Beistand auch, dem Heil´gen Geist,^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   71019: {
     0.0: {
+        "title": "Sei gegrüßt, du lichter Meeresstern",
         "quote": "Maria",
         "text": "Sei gegrüßt, du lichter Meeresstern,^lGottes hohe Mutter,^lJungfrau, die der Höchste sich erwählt,^lsel’ges Tor des Himmels.^p„Sei gegrüßt“, so sprach des Engels Mund,^l„du bist voll der Gnade.“^lDieses Ave wendet Evas Los,^lschenkt uns Gottes Frieden.^pIn das Dunkel unsrer Sündenschuld^lbringe Licht den Blinden,^llass uns Sünder nicht verloren sein,^lbitt für uns um Gnade.^pSteh uns immerdar als Mutter bei,^ldass durch dich uns höre,^lder in deinem Schoße Wohnung nahm,^lMensch für uns zu werden.^pDu bliebst rein vom Makel jeder Schuld,^lJungfrau ohnegleichen.^lHalte fern des bösen Feindes Macht,^ldass er uns nicht schade.^pFühre sicher unsern Weg ans Ziel,^llenke unsre Schritte,^ldass wir einst mit dir in Freude schaun^lChristus, unsern König.^pGott dem Vater Lob und Herrlichkeit,^lew’ger Ruhm dem Sohne,^lDank und Lobpreis Gott dem Heil’gen Geist:^lEhre dem Dreieinen. Amen."
       }
   },
   71020: {
     0.0: {
+        "title": "Ave, Stern der Meere",
         "quote": "Maria",
         "text": "Ave, Stern der Meere,^lGottesmutter, hehre,^lJungfrau, allzeit reine,^lHimmelspfort’ alleine.^p„Ave“ hieß die Kunde^laus des Engels Munde,^lEvas Namen wende,^luns den Frieden spende.^pDich als Mutter zeige,^ldass dem Flehn sich neige,^lder für uns geboren,^ldeinen Schoß erkoren.^pLehr uns, recht zu handeln, ^lChristi Weg zu wandeln, ^ldass uns Freude einet, ^lwenn er einst erscheinet.^pGott auf seinem Throne^lund dem höchsten Sohne^lund dem Geist – den Dreien^lPreis und Lob wir weihen. Amen"
       }
   },
   71026: {
     0.0: {
+        "title": "Den Erde, Meer und Firmament",
         "quote": "Lesehore an Marienfesten",
         "text": "Den Erde, Meer und Firmament^lverehren, loben, beten an,^lder die drei Reiche trägt und lenkt,^lihn birgt Mariens reiner Schoß.^pDem Sonne, Mond und jeder Stern^ldurch alle Zeiten dienstbar sind,^lihn trägt der Leib der reinen Magd,^lvom Hauch der Gnade ganz durchströmt.^pBeglückte Mutter, reich beschenkt:^lIn deinem Schoße schließt sich ein^ler, dessen Hand die Welt umfängt,^lder Höchste, der das All erschuf.^pDir ward des Engels Botschaft kund,^lund du empfingst vom Heil’gen Geist:^lAus deinem Schoße trat hervor,^lder aller Völker Sehnsucht ist.^pHerr Jesus, dir sei Ruhm und Preis,^lGott, den die Jungfrau uns gebar,^lLob auch dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   71027: {
     0.0: {
+        "title": "Sei gegrüßt, die den König gebar, du heilige Mutter",
         "quote": "Lesehore zu Maria am Samstag",
         "text": "Sei gegrüßt, die den König gebar, du heilige Mutter,^lihn, der Himmel und Erde erhält im Wandel der Zeiten,^ldessen Walten das All umfasst mit ewigem Kreise, dessen Reich ohne Ende besteht:^pDein seliger Leib hat^lFreuden der Mutter gepaart mit reiner Ehre der Jungfrau,^ldir, der keine je glich, wird keine fürderhin gleichen,^ldenn vor allen Frauen erwählte dich, Einzige, Christus."
       }
   },
   71043: {
     0.0: {
+        "title": "Meerstern, sei gegrüßet",
         "quote": "2. Vesper an Marienfesten",
         "text": "Meerstern, sei gegrüßet,^lGottes hohe Mutter,^lallzeit reine Jungfrau,^lselig Tor zum Himmel!^pDu nahmst an das AVE^laus des Engels Munde.^lWend den Namen EVA,^lbring uns Gottes Frieden.^pZeige dich als Mutter,^ldenn dich wird erhören,^lder auf sich genommen,^lhier dein Sohn zu werden.^pJungfrau ohnegleichen,^lGütige vor allen,^luns, die wir erlöst sind,^lmach auch rein und gütig.^pLös der Schuldner Ketten,^lmach die Blinden sehend,^lallem Übel wehre,^ljeglich Gut erwirke.^pGib ein lautres Leben,^lsicher uns geleite,^ldass wir einst in Freuden^lJesus mit dir schauen.^pLob sei Gott dem Vater,^lChrist, dem Höchsten, Ehre^lund dem Heil’gen Geiste:^ldreifach ^weine^0w Preisung.^lAmen"
       }
   },
   71068: {
     0.0: {
+        "title": "Was habt ihr gesehen in jener Zeit",
         "quote": "Ap-Lh",
         "text": "Was habt ihr gesehen in jener Zeit,^lApostel des Herrn, auf dem See?^lWir sahen das Heil, das Himmel und Welt^lim ewigen Leben erhält.^pO Herrlichkeit Gottes in Jesus Christ!^lIhr habt sie mit Augen geschaut.^pWas habt ihr vernommen in jener Zeit,^lApostel des Herrn, auf dem Berg?^lWir hörten sein Wort: Seid alle bereit!^lDas Himmelreich bricht in die Zeit.^pO Gnade, o°Liebe in Jesus Christ!^lIhr habt sie mit Augen geschaut.^pNun herrscht ihr mit Christus in Ewigkeit^lim Glanze der Stadt, seiner Braut.^lSo preist ihn mit uns in Jubel und Lob,^lder euch auf zwölf Throne erhob.^pO selig, ihr Freunde des Herrn Jesus Christ!^lEuch hat er sein Reich anvertraut."
       }
   },
   71072: {
     0.0: {
+        "title": "Christus, du Licht vom wahren Licht",
         "quote": "Ap-Ld",
         "text": "Christus, du Licht vom wahren Licht,^ldes höchsten Vaters einz’ger Sohn,^ldu hast durch der Apostel Wort^lder ganzen Welt das Heil geschenkt.^pAls deine Zeugen riefst du sie,^lgabst ihnen Auftrag und Gewalt,^ldie Saat des Evangeliums^lin allen Ländern auszustreuen.^pDurch ihre Predigt glauben wir,^ldass du der Weg zum Leben bist.^lHilf uns, der Botschaft treu zu sein,^ldie sie im Tode uns bezeugt.^pHerr Jesus, dir sei Ruhm und Preis,^lder seine Zeugen uns gesandt,^lLob auch dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   71076: {
     0.0: {
+        "title": "Der Himmel jauchze Lobgesang",
         "quote": "Ap-Vp",
         "text": "Der Himmel jauchze Lobgesang,^lin Freude juble alle Welt:^lDer heiligen Apostel Ruhm^lerschallt in festlichem Gesang.^pGerechte Richter dieser Zeit^lund wahre Leuchten für die Welt,^lihr ersten Zeugen unsres Heils,^lvernehmt, was unser Lied erfleht.^pDer Herr gab euch Gewalt und Amt,^lihr bindet und ihr löst die Schuld;^lso löst auch uns, wir bitten euch,^ldie Schuld, in die wir uns verstrickt.^pWenn dann am Ende dieser Zeit^lder Herr als Richter wiederkommt,^lgewähre er in seiner Huld^luns seiner Freude Ewigkeit.^pGott Vater, dir sei Preis und Ruhm^lund deinem eingebornen Sohn,^ldem Beistand auch, dem Heil’gen Geist,^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   71110: {
     0.0: {
+        "title": "Geist, der das Leben weckt",
         "quote": "Lesehore für Märtyrerfeste",
         "text": "Geist, der das Leben weckt,^ldu bist der Schwachen Kraft,^lgibst ihnen Zuversicht^lmitten in Todesnot;^lhell wird uns offenbar,^lwas uns der Glaube sagt:^lChristus hat unsern Tod besiegt.^pAlles verwelkt im Tod,^lStaub wird des Menschen Leib.^lDoch wer in Christus stirbt,^lwird mit ihm auferstehn:^lWer sich zu ihm bekennt,^lfürchtet die Marter nicht,^lwird im Tode mit Christus eins.^pIhm, der als Weizenkorn^lfür uns zerrieben ward,^lfolgen die Jünger nach,^lbringen sich dar mit ihm,^lwerden wie er zum Brot,^lwelches das Leben nährt,^lPilger stärkt auf dem Weg zu Gott.^pDich, Herr, verehren wir,^lKönig der Märtyrer,^lDein ist die Herrlichkeit,^lvon der ihr Glaube zeugt.^lFühr uns durch deinen Geist^lheim in des Vaters Reich,^lwo in Ewigkeit Friede herrscht. Amen."
       }
   },
   71118: {
     0.0: {
+        "title": "Dem Herrn, der seiner Zeugen Dienst",
         "quote": "Märt-Ld",
         "text": "Dem Herrn, der seiner Zeugen Dienst^lmit ewigen Geschenken lohnt,^lihm schalle heute unser Lob^lim Lied, das ihren Ruhm besingt.^pAls Helden stritten sie im Kampf^lund trugen mannhaft Qual und Pein –^lder Kirche Adel, unser Stolz,^ldie wahren Leuchten dieser Welt.^pSie überwanden alle Furcht^lund hielten selbst der Folter stand.^lIhr Mund bekannte ohne Scheu,^lwas ihres Herzens Glaube war.^pIn ihnen strahlt des Vaters Glanz,^lin ihnen wirkt des Geistes Kraft,^lin ihnen triumphiert der Sohn,^lund Jubel füllt den Himmelssaal.^pErlöser, Herr, wir bitten dich,^lerhöre gnädig unser Flehn:^lGib Anteil uns an ihrem Los,^llass uns mit ihnen bei dir sein! Amen."
       }
   },
   71119: {
     0.0: {
+        "title": "Du Sohn der Jungfrau, Schöpfer deiner Mutter",
         "quote": "MärtJgfr",
         "text": "Du Sohn der Jungfrau,^lSchöpfer deiner Mutter,^ldich trug die Jungfrau,^ldich gebar die Jungfrau.^lDa wir den Lobpreis^leiner Jungfrau singen,^lhör unser Rufen.^pZweifache Krone^lkrönt die heilige Jungfrau,^ldie ihre Liebe^leinzig Christus schenkte^lund ihren Glauben^lan den Herrn besiegelt’^lmit ihrem Tode.^pTapfer und furchtlos^ltrug sie Qual und Marter,^lund die da schwach war,^lhat beschämt die Starken.^lDenn Gottes Gnade^lkommt erst in der Schwachheit^lganz zur Vollendung.^pHerr, sei uns gnädig,^lda sie für uns bittet;^ltilge die Sünde,^ltreibe aus das Böse,^ldass wir dich loben^lund dich reinen Herzens^lpreisen auf ewig."
       }
   },
   71123: {
     0.0: {
+        "title": "Brüder, preiset im Lob",
         "quote": "Märt-Vp",
         "text": "Brüder, preiset im Lob^lheute die Heiligen,^lrühmt ihr herrliches Los,^lrühmt ihren hohen Mut.^lGlühen muss uns das Herz,^lwenn wir im Lied erhöhn^lSieg und Krone der edlen Schar.^pStandhaft trugen sie Hass,^lAbscheu und blinde Wut;^lReichtum, irdischen Ruhm^lachteten sie gering;^lfreudig folgten sie dir,^lChristus, dem Herrn der Welt,^lgaben Leben und Blut dahin.^pWie zum Opfer das Lamm^lschlachtet das Schwert sie hin,^lklaglos harren sie aus,^lschmähen den Henker nicht,^lschweigend hütet ihr Herz^lGlaube und Zuversicht:^lMannhaft dulden sie Qual und Tod.^pWessen Stimme und Wort^lschildert den ew’gen Lohn,^lden du, König und Herr,^ldeinen Getreuen schenkst?^lDenn vom Blut überströmt,^ldas sie in Purpur hüllt,^lstehn als Sieger gekrönt sie da.^pLass dich bitten, o°Gott,^lHöchster, Dreifaltiger:^lGnädig tilge die Schuld,^lhalte die Sünden fern,^lFrieden gib deinem Volk,^ldass es zu deinem Ruhm^ldir lobsinge in Ewigkeit. Amen."
       }
   },
   71151: {
     0.0: {
+        "title": "Herr Jesus Christus, du gingst heim zum Vater",
         "quote": "Hi-Ld",
         "text": "Herr Jesus Christus,^ldu gingst heim zum Vater,^lthronst ihm zur Rechten^lüber allen Welten;^ldoch deine Jünger^llässt du nicht als Waisen^lhier auf der Erde.^pDu schickst als Beistand^ldeinen Geist der Wahrheit.^lEr schenkt uns Einsicht,^lgibt uns Licht und Hoffnung.^lEr führt die Kirche^lsicher durch die Zeiten^lhin zur Vollendung.^pEr weckt Propheten,^ldie dem Volk vorangehn^lund es voll Umsicht^lauf dem Weg geleiten.^lHirten bestellt er,^list in ihren Worten^lnahe den Deinen.^pSie geben Zeugnis,^lreden unerschrocken,^lstärken die Schwachen,^lsammeln die Zerstreuten,^llehren in Vollmacht,^lhelfen ihren Brüdern,^ldich zu bekennen.^pLob sei dem Vater^lauf dem höchsten Throne,^lLob sei dem Sohne,^lden er uns gesandt hat,^lLob sei dem Geiste,^lder von beiden ausgeht,^limmer und ewig. Amen."
       }
   },
   71177: {
     0.0: {
+        "title": "Es fiel das Feuer des Herrn in dich",
         "quote": "Jgfr-Lh",
         "text": "Es fiel das Feuer des Herrn in dich.^lDa warst du Flamme und°folgtest°dem°Lamme,^lChristus dem Herrn.^pEr führt’ dich durch°Fluten°und°Finsternis.^lDa warst du hohe, lobpreisende Lohe^lin Christus dem Herrn.^pNun preis mit uns, Schwester, den°Vater°im°Geist,^lauch wir sind erhoben ins°Leben°und°Loben^lmit Christus dem Herrn."
       }
   },
   71185: {
     0.0: {
+        "title": "Du, Herr, hast sie für dich erwählt",
         "quote": "Jgfr-Ld",
         "text": "Du, Herr, hast sie für dich erwählt,^lin Treue folgte sie dem Ruf.^lEs brannte hell in ihrer Hand^ldie Lampe ihrer Wachsamkeit.^pVoll Freude zog sie mit dir ein^lzum königlichen Hochzeitsmahl.^lNach ihrem Vorbild lass auch uns^lin Treue warten und Geduld.^pHerr Jesus, der du kommen wirst,^ldir sei der Lobpreis dargebracht.^lZum Mahl der Hochzeit öffne uns^ldie Pforten deiner Ewigkeit. Amen."
       }
   },
   71199: {
     0.0: {
+        "title": "Heute preist unser Lob",
         "quote": "Männer-Lh",
         "text": "Heute preist unser Lob,^lden du erwähltest, Herr.^lErbe nennen wir ihn,^lBürger in deiner Stadt.^lSiegreich trägt er den Kranz,^lleuchtet in weißem Kleid,^lsingt auf ewig das neue Lied.^pSchon im Dunkel der Welt^lfolgte er deinem Licht,^lhielt der Finsternis stand,^lkämpfte den guten Kampf.^lGlaube wies ihm den Weg,^lHoffnung verlieh ihm Kraft,^lliebend wurde er Christus gleich.^pSeine schützende Hand^lhalte er über uns.^lVorbild heiliger Kraft^lsei er in dieser Zeit.^lBittend helfe er uns,^ldass wir vereint mit ihm^lBürger seien in deiner Stadt.^pHöre, ewiger Gott,^lhöre auf unser Lob.^lGnädig blicke uns an,^lführe uns hin zu dir;^llass uns jubelnd im Chor^lsingen das neue Lied^ldir, dem Herrn aller Welt und Zeit. Amen."
       }
   },
   71210: {
     0.0: {
+        "title": "Du Krone deiner Heiligen",
         "quote": "Männer-Ld",
         "text": "Du Krone deiner Heiligen,^lder ew’gen Wahrheit tiefstes Wort,^laus deiner Hand empfängt den Lohn,^lwer hier auf Erden dich bekennt.^pWir feiern heute froh den Tag,^lda dein getreuer guter Knecht,^ldem Dunkel dieser Welt entrückt,^lzum wahren Leben auferstand.^pGefestigt in der Liebe Kraft,^lblieb alle Zeit sein Herz bei dir;^ljetzt freut er sich in deinem Licht,^lder nur für dich sein Werk getan.^pHerr, unser Gott, wir bitten dich,^lverzeihe gnädig unsre Schuld;^lerhöre ihn, wenn er am Thron^lfür uns um dein Erbarmen fleht.^pGott Vater, dir sei Preis und Ruhm^lund deinem eingebornen Sohn,^ldem Beistand auch, dem Heil’gen Geist,^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   71215: {
     0.0: {
+        "title": "Preis dem Bekenner, dessen Fest wir feiern",
         "quote": "Männer-Vp",
         "text": "Preis dem Bekenner,^ldessen Fest wir feiern.^lEr ward berufen,^lChristus nachzufolgen^lund für die Wahrheit^ldurch sein Wort und Beispiel^lZeugnis zu geben.^pWie einst sein Meister,^lum die Welt zu retten,^lganz sich dahingab^lbis zum Tod am Kreuze,^ltrug auch sein Jünger^lhier auf dieser Erde^lMühsal und Leiden.^pNach Christi Weisung^lnahm sein Kreuz er auf sich,^lfolgte ihm täglich,^lhat sich selbst verleugnet.^lMit ihm gestorben,^lerbt er jetzt zum Lohne^lewiges Leben.^pIhn zu verehren,^lschallt nun unsres Liedes^lfreudiger Lobpreis^laus bereitem Herzen,^ldass er im Himmel^lHilfe uns erbitte^lall unsre Tage.^pLob sei dem Vater^lauf dem höchsten Throne,^lLob sei dem Sohne,^lGott aus Gott geboren,^lLob sei dem Geiste,^lder von beiden ausgeht,^limmer und ewig. Amen."
       }
   },
   71234: {
     0.0: {
+        "title": "Preiset die tüchtige Frau",
         "quote": "Frauen",
         "text": "Preiset die tüchtige Frau,^ldie vor dem Morgen erwachte,^lalle versorgte im Haus,^lschaffend in rastloser Arbeit.^lTapfer bestand sie den Tag.^pGott war in ihrem Herzen.^pPreiset die gütige Frau;^lElende hat sie beherbergt,^lArme und Kranke gepflegt,^lTrauernde liebreich getröstet;^lZweifelnden brachte sie Licht:^pGott war in ihrem Herzen.^pPreiset die gläubige Frau,^ldie im Vertrauen nicht wankte,^ldenn ihre Kraft war der Herr.^lEr trug das Werk ihrer Hände.^lNun ruht sie selig bei ihm.^pGott ist in ihrem Herzen. Amen."
       }
   },
   71248: {
     0.0: {
+        "title": "Selig, wem Christus auf dem Weg begegnet",
         "quote": "Ordensleute",
         "text": "Selig, wem Christus^lauf dem Weg begegnet,^lum ihn zu rufen,^lalles zu verlassen,^lsein Kreuz zu tragen^lund in seiner Kirche^lfür ihn zu wirken.^pBei ihm ist Christus,^lstärkt ihn in der Wüste,^lschenkt ihm durch Leiden^lAnteil an der Freude.^lUnd seine Brüder^lspüren Christi Liebe^lin seiner Nähe.^pDurch seine Jünger^lspricht zu uns der Meister,^lruft uns zur Umkehr,^lspendet Licht und Hoffnung.^lIn ihren Taten^lwird die Botschaft Christi^lfür uns lebendig.^pVater im Himmel,^lheilig ist dein Name,^ldein Reich wird kommen,^ldas dein Sohn verheißen.^lHilf uns, im Geiste^lihm den Weg bereiten^lals deine Boten. Amen."
       }
   },
   81011: {
     0.0: {
+        "title": "Zur Pforte Christi ward die Magd",
         "quote": "Gottesmutter",
         "text": "Zur Pforte Christi ward die Magd,^lbegnadet durch des Höchsten Kraft:^lDer König schreitet durch das Tor,^les bleibt verschlossen, wie es war.^pUnd aus der Jungfrau Festgemach^lerscheint des Vaters ew’ger Sohn;^lfrohlockend wie ein Bräutigam,^lbeginnt der Held den Siegeslauf.^pNun jauchze auf die ganze Welt,^ldenn Christus, ihr Erlöser, kommt.^lDer königlich das All regiert,^lerscheint, zu retten, die er schuf.^pHerr Jesus, dir sei Ruhm und Preis,^lGott, den die Jungfrau uns gebar,^lLob auch dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   81012: {
     0.0: {
+        "title": "Du große Herrin, schönste Frau",
         "quote": "Gottesmutter",
         "text": "Du große Herrin, schönste Frau,^lhoch über Sternen steht dein Thron.^lDu trugst den Schöpfer, der dich schuf,^lund nährtest ihn an deiner Brust.^pWas Eva einst verloren sah,^lgibst du im Sohne reich zurück.^lDer Himmel öffnet sich in dir;^lzur Heimkehr steht der Weg uns frei.^pDu Pforte für den Königssohn,^ldes neuen Lebens helles Tor,^lin dir grüßt jauchzend alle Welt^ldas Leben, das du ihr geschenkt.^pHerr Jesus, dir sei Ruhm und Preis,^lGott, den die Jungfrau uns gebar,^lLob auch dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   81014: {
     0.0: {
+        "title": "Aus des Vaters Herz geboren",
         "quote": "Gottesmutter",
         "text": "Aus des Vaters Herz geboren,^lehe Welt und Zeit begann,^lChristus, A und o°der Schöpfung,^lZiel und Ursprung aller Welt,^lallen Seins, das je gewesen,^ldas jetzt ist und kommen wird^limmer und in Ewigkeit.^pDie Gestalt des schwachen Fleisches^lund des Leibes Totenkleid^lzogst du an, dass wir nicht sterben^lan dem ersten Todeskeim^lund im Abgrund des Gesetzes^lohne Rettung untergehn^limmer und in Ewigkeit.^pSeht, nun strahlt ein neuer Morgen:^lChristus, unser Heil, erscheint,^lden die Kraft des Geistes zeugte,^lden die Jungfrau uns gebar.^lUnd im Kinde offenbart sich^lder Erlöser aller Welt^limmer und in Ewigkeit.^pDen der Seher dunkle Rede^luns als Retter angesagt,^lden in langer Zeit des Harrens^lder Propheten Glaube sah:^lEr ist da, den sie verheißen.^lGrüßt ihn jubelnd mit Gesang^limmer und in Ewigkeit.^pGott dem Vater sei die Ehre,^lder uns seinen Sohn gesandt,^lEhre Christus, unserm Retter,^lden die Jungfrau uns gebar,^lEhre auch dem Heil’gen Geiste,^lRuhm und Preis und Lobgesang^limmer und in Ewigkeit. Amen."
       }
   },
   81251: {
     0.0: {
+        "title": "Staunend sehen wir deines Lebens Wandlung",
         "quote": "BekPauli",
         "text": "Staunend sehen wir^/deines°Lebens°Wandlung:^lSaulus hießest du^/und°ein°Feind°der°Christen,^lPaulus bist du jetzt,^/und°als°Christi°Zeuge^lwird dir die Krone.^pDa sein Licht dich trifft,^/fällst°du°blind°zu°Boden,^lstehst verwandelt auf,^/seinem°Ruf°zu°folgen.^lEingetaucht in ihn,^/bist°du°neu°geworden,^lGlied seines Leibes.^pAuserwählt vom Herrn,^/um°das°Wort°zu°künden,^lstreust du seine Saat,^/wirst°der°Heiden°Lehrer,^lhast am eignen Leib,^/hast°durch°Tod°und°Leben^lChristus verherrlicht.^pBringe unser Lob^/vor°den°höchsten°Vater,^lbring es vor den Sohn,^/der°dich°rief°in°Gnade,^lbring es vor den Geist,^/dessen°Kraft°dich°drängte,^lChristus zu künden. Amen."
       }
   },
   82021: {
     0.0: {
+        "title": "Sieh, dein Licht will kommen",
         "quote": "Darst-Lh",
         "text": "Sieh, dein Licht will kommen,^lstehe auf, du Stadt des Herrn;^lüber dir erstrahlt der Stern,^list der Tag erglommen.^lWerde licht, Jerusalem,^lChristus ist erschienen.^pChristus ist gekommen,^ler, der Herrscher, er, der Herr,^lder das Reich, die Macht und Ehr’^lin die Hand genommen.^lFreue dich, Jerusalem,^lChristus ist erschienen.^pChristus ist erschienen.^lSeht, die Zeit des Heils begann;^lalle Völker beten an,^lalles wird ihm dienen.^lBete an, Jerusalem,^lChristus ist erschienen."
       }
   },
   82022: {
     0.0: {
+        "title": "Auf, Zion, schmücke dein Gemach",
         "quote": "Darst-LdVp",
         "text": "Auf, Zion, schmücke dein Gemach,^lder Herr ist da, den du ersehnt.^lSteh auf und mache dich bereit,^lempfange Bräutigam und Braut.^pZu seinem Tempel kommt der Herr:^lDie Eltern bringen Christus dar.^lDer ohne alle Sünde ist,^lmacht dem Gesetz sich untertan.^pTritt, königliche Jungfrau, ein,^lbring mit dem Opfer dar dein Kind,^ldes ew’gen Vaters wahren Sohn,^lder uns zum Heil erschienen ist.^pWas dir verheißen, Simeon,^ldas ist in diesem Kind erfüllt.^lNun mache allen Völkern kund^ldas Licht, das ihnen leuchten soll.^pHerr, dir sei Preis und Herrlichkeit,^lder sich den Heiden offenbart,^lmit dir dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   82040: {
     0.0: {
+        "title": "Die du als Hirten deiner Herde sendest",
         "quote": "Rabanus",
         "text": "Die du als Hirten deiner°Herde°sendest,^llenkst du in Güte durch°die°Kraft°des°Geistes.^lSo auch Rabanus, den°du,°Herr,°berufen^lzu Deutschlands Lehrer.^pVon deines Wortes Lebenskraft°durchdrungen,^lkündet er machtvoll deiner°Wahrheit°Lehre,^llegt in den Seelen festen°Grund°der°Liebe:^ldir, Herr, zur Ehre.^pAls guter Vater, waltend°voller°Güte,^lstärkt er die Brüder, führt°sie°hin°zur°Wahrheit,^ltröstet Betrübte, richtet°auf°die°Schwachen,^lwird allen alles.^pUmsichtig baut er als°ein°kluger°Meister^lauf Fundamenten, die°du°selbst°gegründet,^lKlöster und Kirchen, Stätten°deines°Lobes:^lFulda zum Ruhme.^pLob sei dem Vater auf°dem°höchsten°Throne,^lLob sei dem Sohne, den°er°uns°gesandt°hat,^lLob sei dem Geiste, der°von°beiden°ausgeht,^limmer und ewig. Amen."
       }
   },
   82041: {
     0.0: {
+        "title": "Wen du als Hirten deiner Herde sendest",
         "quote": "Rabanus",
         "text": "Wen du als Hirten deiner Herde sendest,^lden rüstest, Gott, du aus mit deinem Geist.^lDrum gilt das Lob, das wir Rabanus singen, dir,^ldem diesen großen Lehrer wir verdanken.^pEin Knabe noch, begann das strenge Leben^lder Mönche er im Fuldaer Konvent.^lDort war das Buch der Bücher seine Freude.^lSo nahm er zu an Jahren und an Frömmigkeit.^pDa niemand ihm an Wissenschaft vergleichbar,^lwird Raban bald die Klosterschule anvertraut.^lEr fördert sie mit Sorgfalt, baut sie aus,^llegt so den Grund zu Fuldas Ruhm für lange Zeiten.^pDurch Wahl der Mönche zu des Klosters Abt erhoben,^lgilt seine Vatersorge nicht nur dem Konvent;^lKirchen erbaut er überall im Land,^lSpitäler auch für Elende und Kranke.^pVon allen Kreaturen werde Lob zuteil^lGott Vater und dem eingebor’nen Sohne,^lder durch sein Blut die ganze Welt erlöst,^lund ebenso dem Heil’gen Geist in Ewigkeiten.^lAmen."
       }
@@ -3064,60 +3202,70 @@ export const psalmsData = {
   },
   82043: {
     0.0: {
+        "title": "Der voll Vertrauen sang°das°Lob°des°Kreuzes",
         "quote": "Rabanus",
         "text": "Der voll Vertrauen sang°das°Lob°des°Kreuzes,^lträgt auch als Bischof willig°Christi°Bürde,^lsucht nicht das Seine, sondern°Gottes°Ehre:^lRabanus Maurus.^pHerr Jesus Christus, Hirte°deiner°Herde,^ldu hast Rabanus zu°dem°Dienst°berufen,^ldass er als Wächter deiner°Kirche°diene:^ldamals wie heute.^pFür seine Treue hast°du°ihn°erhoben^ldass er auf ewig deine°Wahrheit°schaue.^lSchenk auf sein Bitten allen,°die°dir°folgen,^lTreue im Glauben.^pLob sei dir, Christus, Gott°aus°Gott°geboren,^lLob sei dem Vater, welcher°dich°gesandt°hat,^lLob sei dem Geiste, der°von°beiden°ausgeht,^limmer und ewig. Amen."
       }
   },
   82044: {
     0.0: {
+        "title": "Dem Mann, der niemals seine Ehre suchte",
         "quote": "Rabanus",
         "text": "Dem Mann, der niemals seine Ehre suchte,^lwird die Berufung auf den Bischofsstuhl zu Mainz.^lAuch in der größern Aufgabe bleibt er^lals Erzbischof dem Kloster Fulda stets verbunden.^pVorbild der großen Herde und ihr treuer Wächter,^lwehrt Raban von ihr ab der Wölfe Wut;^ler formt und heiligt sie durch Wort und Tat und Schrift^lund gönnt bei Tag und Nacht sich keine Ruhe,^pbis Gott ihm ew’ge Ruhe schenkt. – Er lässt die Erde^lzurück, erhoben in der Sel’gen Chor.^lUns aber hinterlässt er seine Werke^lund bleibt ein Lehrer so des Heils der Christenheit.^pDu gabst, o Gott, Rabanus uns zum Vorbild;^llass ihm uns folgen, wie er dir gefolgt.^lDass wir wie er auf gradem Weg zu dir gelangen,^ldazu gib uns die Gnade der Beharrlichkeit.^pGepriesen sei der Vater und der Sohn^lsowie der Geist, die Liebe zwischen beiden.^lDen drei Personen, die im Wesen eins nur sind,^lin deren Namen wir getauft, sei gleiche Ehre.^lAmen."
       }
   },
   82221: {
     0.0: {
+        "title": "Petrus, der Kirche Fundament",
         "quote": "KathPetri",
         "text": "Petrus, der Kirche Fundament,^lder Herr hat dich zum Fels gemacht,^ler selber ist der feste Grund,^lder Halt und Stärke dir verleiht.^pDu, Petrus, hast den Herrn zuerst^lbekannt als wahren Gottessohn.^lDir gab er Auftrag und Gewalt,^lsein Volk zu leiten durch die Zeit.^pBehüte du als treuer Knecht^ldie Herde, die dir anvertraut.^lWenn Satan uns wie Weizen siebt,^ldann stärke unsres Glaubens Kraft.^pDem Herrn sei Preis und Herrlichkeit,^lder seine Kirche lenkt und führt,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   83191: {
     0.0: {
+        "title": "Preisen möge dich heut, Josef, der Engel Schar",
         "quote": "Josef",
         "text": "Preisen möge dich heut,^lJosef, der Engel Schar,^ldir erklinge im Chor^lunseres Jubels Lied.^lDu bist wahrhaft erwählt,^lhat doch der Herr der Welt^lSohn und Mutter dir anvertraut.^pStaunend siehst du die Braut^ltragen die heil’ge Frucht.^lZweifel quält dich und Angst,^lunfassbar scheint es dir.^lGott tut selber dir kund^ldurch seines Engels Wort,^ldass vom Geist sie das Kind empfing.^pGottes ewigen Sohn^lhütest und hegst du treu,^lfliehst mit ihm aus dem Land^lweit nach Ägypten hin.^lWas dir Gott auch befiehlt –^lschweigend gehorchst du ihm.^lFügst dich willig dem dunklen Plan.^pHöre, ewiger Gott,^lhöre auf unser Lob.^lGnädig blicke uns an,^lführe uns hin zu dir;^llass uns jubelnd im Chor^lsingen das neue Lied^ldir, dem Herrn aller Welt und Zeit. Amen."
       }
   },
   83192: {
     0.0: {
+        "title": "Josef, Erwählter, dem der Herr vertraute",
         "quote": "Josef",
         "text": "Josef, Erwählter,^/dem°der°Herr°vertraute,^lhöre uns heute^/deine°Größe°preisen:^lSiehe, der Mutter^/gab°er°zum°Gemahl°dich,^lnannte dich Vater.^pWortlos erfüllst du^/Gottes°dunklen°Willen,^ltust ohne Frage,^/was°er°dir°gebietet,^ldemütig dienst du^/seinem°großen°Plane,^ltreu und beharrlich.^pWeil du gehorchtest,^/wurdest°du°erhoben.^lChristus verlieh dir^/Seligkeit°und°Leben.^lEr, der die Kleinen,^/vor°der°Welt°Geringen,^lseliggepriesen.^pLob sei dem Vater^/Auf°dem°höchsten°Throne,^lLob sei dem Sohne,^/Gott,°aus°Gott°geboren,^lLob sei dem Geiste,^/Der°von°beiden°ausgeht,^lImmer und ewig. Amen."
       }
   },
   83250: {
     0.0: {
+        "title": "Nun soll es wissen alle Welt",
         "quote": "Verkündigung",
         "text": "Nun soll es wissen alle Welt:^lGekommen ist, der Leben bringt,^lerschienen ist, der Rettung schafft^lund aus des Feindes Joch uns löst.^pDenn was Jesaja einst verhieß,^list in der Jungfrau jetzt erfüllt;^lwas Gabriel ihr kundgetan,^ldas wirkt in ihr des Höchsten Kraft.^pEmpfangen hat Mariens Schoß^ldes Vaters Wort, den ew´gen Sohn;^lihn, den die ganze Welt nicht fasst,^lumschließt und trägt der Jungfrau Leib.^pZur Erde kam das Licht vom Licht,^lverscheucht die Nacht, besiegt den Tod.^lKommt alle, glaubt und betet an^lden Gott im Schoße einer Frau.^pHerr Jesus, dir sei Ruhm und Preis,^lGott, den die Jungfrau uns gebar,^lLob auch dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   86052: {
     0.0: {
+        "title": "Der Morgenröte Licht bringt uns die frohe Kunde",
         "quote": "Bonifatius",
         "text": "Der Morgenröte Licht bringt uns die frohe Kunde,^ldass du, Sankt Bonifatius, mit Kraft und Mut^ldie Finsternis des Heidentums einst überwunden^lund unserm Volk gebracht des Glaubenslichtes Gut.^pDie Lehre, die du unermüdlich uns verkündet,^lbleibt ein Vermächtnis deinem Volke immerdar.^lDie Geisteskraft, die Gott dir in die Seele senkte,^lward uns zu einer Lebensquelle, rein und klar.^pWie Jesus sterbend sich mit seinem Volk vermählte,^lso gabst auch du dein Leben für die Kirche hin,^ldamit sich um den Hirten eine Herde sammle,^lgeeint in Wahrheit und in eines Glaubens Sinn.^pSchau unsre Heimat, der du ein Apostel wurdest.^lHilf überwinden alle Spaltung, mach uns treu,^ldass wir als gute Knechte einst erfunden werden^lund Jesus Christus alles uns in allem sei.^pSo bringen freudig Dank wir unserm Gott und Vater,^lund seinem Sohn, der uns den Weg zum Leben weist,^lder dich für unser Land als treuen Glaubensboten^lberufen hat und salbte durch den Heil’gen Geist."
       }
   },
   86053: {
     0.0: {
+        "title": "Du Bote Gottes, ausgesandt",
         "quote": "Bonifatius",
         "text": "Du Bote Gottes, ausgesandt,^ldas Heil zu künden unserm Land;^ldu Glaubensvater, guter Hirt,^ldu treuer Zeuge, unbeirrt,^lsteh uns mit deiner Hilfe bei^lund mache uns im Glauben treu,^lo heil’ger Bonifatius.^pDu hast der dunklen Heidenwelt^ldas Licht der Wahrheit aufgestellt.^lDie deutschen Stämme führtest du^ldem einzig wahren Hirten zu.^lSteh uns mit deiner Hilfe bei^lund mache uns im Glauben treu,^lo heil’ger Bonifatius.^pDu hast den festen Grund gelegt,^lauf dem die deutsche Kirche steht.^lDer Herr gab dir des Glaubens Mut,^ldu zeugst für ihn mit deinem Blut.^lSteh uns mit deiner Hilfe bei^lund mache uns im Glauben treu,^lo heil’ger Bonifatius.^pSieh her auf unsre Glaubensnot,^ldie wir von lrrtum sind bedroht.^lHilf, dass wir in der Wahrheit Kraft^lvollenden unsre Pilgerschaft.^lSteh uns mit deiner Hilfe bei^lund mache uns im Glauben treu,^lo heil’ger Bonifatius.^p"
       }
   },
   86054: {
     0.0: {
+        "title": "So viele Märtyrer seit°der°Apostel°Tagen",
         "quote": "Bonifatius",
         "text": "So viele Märtyrer seit°der°Apostel°Tagen^lbezeugten Jesu Christi Wahrheit durch°ihr°Blut.^lUnd so durchtränkten sie den°Ackerboden°Gottes^lund tauften ihn mit°Leben°in°des°Geistes°Flut.^pDu, Bonifatius, warst°Christi°großer°Rufer,^lzum Segen wurdest du für°unser°deutsches°Land.^lDamit dem Heidentum ein°helles°Licht°erstrahle,^lhat Gott als Glaubensvater dich°zu°uns°gesandt.^pDen geistig Armen reichtest°du°das°Brot°des°Lebens,^ldas dürre Land hast°du°mit°reicher°Frucht°beschenkt.^lVoll Weisheit führtest du die°ausweglos°Verirrten,^lwie nur ein guter Hirte seine°Herde°lenkt.^pUns aber machtest du zu°deines°Grabes°Hütern.^lEin großes Erbe ist°uns°damit°anvertraut,^ldamit wir nicht als°feige°Mietlinge°verderben,^lwas du durch deines Lebens Opfer aufgebaut.^pSo treten wir mit Lobgesang vor°Gott,°den°Vater,^lund vor den Sohn, der°uns°den°Weg°zum°Leben°weist,^lder dich für unser Land als°treuen°Glaubensboten^lberufen hat und salbte durch°den°Heil’gen°Geist.^p"
       }
   },
   86055: {
     0.0: {
+        "title": "So viele Märtyrer seit der Apostel Tagen",
         "quote": "Bonifatius",
         "text": "So viele Märtyrer seit der Apostel Tagen^lbesiegelten ihr christliches Bekenntnis^lmit ihrem Blut und halfen dadurch mit,^ldie Botschaft Christi durch die Zeit zu tragen.^pSind uns drum alle Märtyrer geworden^lBürgen des Glaubens, so verehren wir^lvor allem einen doch als Glaubensvater:^lden heil’gen Bischof Bonifatius.^pDie Lehre, die er unserm Volk verkündet,^list heute noch das Brot, von dem wir leben;^lder Geist, den Gott durch seinen Dienst geschenkt,^list heute noch der Atem unsrer Seelen.^pDer Martertod, den Bonifatius ersehnte,^lerschloss ihm rasch das Tor zum ew’gen Leben,^lschenkt’ ihm den Siegeskranz und lässt auch uns^lim Glauben feststehn und den Tod nicht fürchten.^pSei, Bonifatius, wie einstens unsern Vätern,^lso auch für uns ein guter Hirt! Bewache,^ldie deiner Leitung traun, vom Himmel her^lund lenke unsern Fuß auf gute Weide.^pDu hast uns deinen toten Leib vertraut,^lFulda durft’ deines Grabes Hüter werden;^ldoch mehr noch soll es deines Glaubens Erbe hüten.^lDrum schick zu Gott für Stadt und Bistum dein Gebet.^pDie Ehre sei dem Vater und dem Sohne,^lder durch die Taufe uns gewürdigt hat,^llebend’ge Glieder seines Leibs zu werden,^lund Ehr’ dem Heil’gen Geist in alle Ewigkeiten.^lAmen.^p"
       }
@@ -3136,96 +3284,112 @@ export const psalmsData = {
   },
   86241: {
     0.0: {
+        "title": "Christus, dem Herren, dientest du als Herold",
         "quote": "JohannesdT",
         "text": "Christus, dem Herren, dientest du als Herold.^lEwiger Ratschluss fand in dir den Boten.^lGlücklich wir preisen alle deinen Namen:^lGruß dir, Johannes!^pStimme des Rufers, der den Weg ihm ebnet, ^ldich hat vor allen sich der Herr erkoren: ^lJesus, der Heiland, lässt von dir sich taufen, ^ler, das Lamm Gottes.^pLobpreis und Ehre Gott, dem ew’gen Vater, ^lEhre dem Sohne, den du uns verkündet, ^lEhre dem Geiste, der ihn dir bezeugte, ^limmer und ewig.^pPsalmodie"
       }
   },
   86242: {
     0.0: {
+        "title": "Christus, dem Herren, dientest du als Herold",
         "quote": "JohannesdT",
         "text": "Christus, dem Herren, dientest du als Herold.^lEwiger Ratschluss fand in dir den Boten.^lGlücklich wir preisen alle deinen Namen:^lGruß dir, Johannes!^pNoch trägt die Mutter dich in ihrem Schoße, ^ldu aber fühlst schon, dass sich naht der König; ^lFreude bewegt dich, drängt dich, ihn zu grüßen, ^leh’ er geboren.^pWüste und Wildnis wählst du dir zur Wohnstatt, ^lkündest die Ankunft des ersehnten Retters, ^lpredigst die Umkehr, rufst das Volk zur Buße, ^ldass es bereit sei.^pDen einst die Seher als das Licht verheißen, ^ldas sie nur ahnend aus der Ferne schauten, ^lihn, der hinwegnimmt alle Schuld der Erde, ^lrufst du beim Namen.^pStimme des Rufers, der den Weg ihm ebnet, ^ldich hat vor allen sich der Herr erkoren: ^lJesus, der Heiland, lässt von dir sich taufen, ^ler, das Lamm Gottes.^pLobpreis und Ehre Gott, dem ew’gen Vater, ^lEhre dem Sohne, den du uns verkündet, ^lEhre dem Geiste, der ihn dir bezeugte, ^limmer und ewig.^pPsalmodie"
       }
   },
   86292: {
     0.0: {
+        "title": "O Roma felix!",
         "quote": "PetrPaul",
         "text": "O Roma felix!^lDer Apostelfürsten Tod^lhat mit dem Purpur^lihres Blutes dich geschmückt.^lIhr großes Leben,^lnicht dein Ruhm und deine Macht,^lgibt dir den Vorrang^lvor den Städten dieser Welt.^pPförtner des Himmels,^lPetrus, der die Schlüssel trägt,^lVölkerapostel,^lPaulus, der die Heiden ruft:^lLeuchten des Weltalls,^lhabt den Glauben ihr bezeugt -^leiner am Kreuze^lund der andre unterm Schwert.^pGöttliche Dreiheit,^lVater, Sohn und Heil’ger Geist,^lhöre den Lobpreis,^lden wir deiner Größe weihn,^lda das Gedächtnis^ldeiner Zeugen uns erfreut.^lGib uns wie ihnen^leinst den Thron der Seligkeit."
       }
   },
   86294: {
     0.0: {
+        "title": "Goldenes Leuchten strahlt vom Himmel heut herab",
         "quote": "PetrPaul",
         "text": "Goldenes Leuchten^lstrahlt vom Himmel heut herab,^lVater des Lichtes,^ldu erfüllst die Welt mit Glanz,^lzierest den Himmel,^lda im Feste wir begehn^ldeiner Apostel^lherrliches Martyrium.^pHeiliger Petrus,^lFels, auf dem die Kirche steht,^lHüter der Herde,^ldie dir Christus anvertraut,^leinst hast du weinend^lden Verrat am Herrn bereut,^lzeigst nun im Tode,^ldass du wirklich ihn geliebt.^pHeiliger Paulus,^lBote du des neuen Heils,^lKünder des Wortes,^lder die Völker Wahrheit lehrt,^leinst hast du eifernd^lChristi Jüngern nachgestellt,^llegst nun im Sterben^lZeugnis ab mit deinem Blut.^pGöttliche Dreiheit,^lVater, Sohn und Heil’ger Geist,^lhöre den Lobpreis,^lden wir deiner Größe weihn,^lda das Gedächtnis^ldeiner Zeugen uns erfreut.^lGib uns wie ihnen^leinst den Thron der Seligkeit."
       }
   },
   88151: {
     0.0: {
+        "title": "Herrlich strahlst du im Licht",
         "quote": "MarHimmelf",
         "text": "Herrlich strahlst du im Licht,^/Jungfrau°Maria,°^lKind aus Davids Geschlecht,^/Tochter°des°Königs,°^ldie erhaben nun thront^/hoch°in°den°Himmeln^lund Gebieterin ist^/über°die°Engel.^pDem allmächtigen Gott^/wurdest°du°Mutter^lhast dem Herrn, der dich schuf,^/Wohnung°bereitet,°^lihm den heiligen Schoß^/willig°geboten,°^lund im Fleische ward Gott^/Mensch°wie°wir°alle.^pDen in Ehrfurcht verehrt^/Erde°und°Himmel,°^lden Erlöser und Herrn,^/bitten°wir°heute,°^lda ins himmlische Reich^/ganz°er°dich°aufnahm:^lAus dem Dunkel der Welt^/führ°uns°zum°Lichte.^pDir sei Ehre und Preis,^/Vater°des°Lichtes,°^ldir, dem ewigen Sohn,^/der°uns°erlöst°hat,°^ldir, dem Heiligen Geist,^/Gott,°dem°Dreieinen,°^ldessen Herrschaft und Reich^/währen°auf°ewig.°Amen."
       }
   },
   89151: {
     0.0: {
+        "title": "Christi Mutter stand mit Schmerzen",
         "quote": "MarSchmerzen",
         "text": "Christi Mutter stand mit Schmerzen^lbei dem Kreuz und weint’ von Herzen,^lals ihr lieber Sohn da hing.^pDurch die Seele voller Trauer,^lschneidend unter Todesschauer,^ljetzt das Schwert des Leidens ging.^pWelch ein Schmerz der Auserkornen,^lda sie sah den Eingebornen,^lwie er mit dem Tode rang.^pAngst uns Jammer, Qual und Bangen,^lalles Leid hielt sie umfangen,^ldas nur je ein Herz durchdrang.^pDrücke deines Sohnes Wunden,^lwie du selber sie empfunden,^lheil’ge Mutter, in mein Herz.^pDass ich weiß, was ich verschuldet,^lwas dein Sohn für mich erduldet,^lgib mir teil an deinem Schmerz.^pChristus, lass bei meinem Sterben^lmich mit deiner Mutter erben^lSieg und Preis nach letztem Streit.^pWenn der Leib dann sinkt zur Erde,^lgib mir, dass ich teilhaft werde^ldeiner sel’gen Herrlichkeit."
       }
   },
   89291: {
     0.0: {
+        "title": "Michael, kämpfe für die Ehre Gottes",
         "quote": "Erzengel-Ld",
         "text": "Michael, kämpfe für die Ehre Gottes,^lEngel des Friedens, banne Krieg und Unheil,^lschütze die Kirche, schütze die Erlösten^lvor allem Bösen.^pGabriel, künde Gottes Plan und Ratschluss,^lBote des Heiles, lehre uns, zu glauben^lund das Geheimnis, das du offenbartest,^lneu zu verkünden.^pRafael, heile Krankheit und Gebrechen,^llindre die Schmerzen, spende Trost und Hilfe,^lführe uns Blinde aus der Erde Dunkel^lzum Paradiese.^pChristus, du Freude aller heil’gen Engel,^lHeiland der Menschen, König der Erlösten,^llass uns auf ewig mit den Engeln singen:^lLob dem Dreieinen. Amen."
       }
   },
   89292: {
     0.0: {
+        "title": "Christus, dir, dem Glanz des Vaters",
         "quote": "Erzengel-Lh",
         "text": "Christus, dir, dem Glanz des Vaters,^lder uns Kraft und Leben gibt,^lsingen wir mit Herz und Munde^lvor der Engel Angesicht,^lihrem Lobpreis, ihren Liedern^lschließen wir uns freudig an.^pWenn wir in Verehrung preisen^ldeines Himmels hohe Schar,^ldann zuerst den hehren Fürsten,^lder die Engel führt zum Kampf:^lMichael, der einst den Satan^lmit dem Schwerte niederzwang.^pChristus, König, sende huldvoll^ldiesen Helden uns zum Schutz,^lseine Kraft soll uns bewahren,^lbis dein großer Tag erscheint,^ldass wir wachend deiner warten,^lwenn du mit den Engeln kommst.^pLasst uns zu des Vaters Ehre^ljubelnd singen Lob und Preis,^lgleiche Ehre sei dem Sohne^lund dem Geist, der beide eint,^ldem dreieinen Gott sei Ehre^limmer und in Ewigkeit. Amen."
       }
   },
   90021: {
     0.0: {
+        "title": "Herr aller Mächte, Throne und Gewalten",
         "quote": "Schutzengel",
         "text": "Herr aller Mächte,^lThrone und Gewalten,^ldir gilt der Lobpreis,^lden die Schöpfung darbringt.^lZu deiner Ehre^lsingen alle Wesen,^ldie du erschaffen.^pVor deiner Größe^lneigen sich in Ehrfurcht^lChöre der Engel,^ldienen dir voll Freude.^lAlle Erlösten^ldanken dir auf ewig^lfür deine Liebe.^pUnd deine Kirche^ljubelt heut mit ihnen,^ldenn du bist nahe,^lführst sie durch die Zeiten,^lwehrest dem Bösen,^lsendest deine Engel,^luns zu behüten.^pLob sei dem Vater^lauf dem höchsten Throne,^lLob sei dem Sohne,^ldem die Engel dienen,^lLob sei dem Geiste,^lder von beiden ausgeht,^limmer und ewig. Amen."
       }
   },
   91011: {
     0.0: {
+        "title": "Himmlische Chöre preisen den Höchsten",
         "quote": "Allerheiligen",
         "text": "Himmlische Chöre preisen den Höchsten.^lEngel und Menschen danken ihm ewig.^pSterbliche Wesen rief er zum Leben,^lgab seine Gnade Sündern und Armen.^pHeilige Freunde, Zeichen der Hoffnung.^lTod und Verderben habt ihr bestanden.^pIhr seid vollendet, lebt in der Freude.^lUns ruft von Ferne eure Gemeinschaft.^pJenseits des Todes wartet das Leben,^ldas für uns alle Christus erwirkt hat.^pIhm sei die Ehre, der uns berufen,^lewig im Lichte vor ihm zu stehen. Amen."
       }
   },
   91012: {
     0.0: {
+        "title": "Christus, du Heiland aller Welt",
         "quote": "Allerheiligen",
         "text": "Christus, du Heiland aller Welt,^lder uns des Vaters Reich verheißt,^ldich rühmt vor deinem ew’gen Thron^lDie große Schar, die niemand zählt.^pSie freun sich deiner Gegenwart^lund schauen deine Herrlichkeit;^lim Lichte folgen sie dem Lamm^lund singen dir das neue Lied.^pWir jubeln über ihren Sieg^lund stimmen in ihr Loblied ein.^lGib uns, wenn du einst wiederkommst,^lAnteil an ihrer Herrlichkeit.^pHerr Christus, dir sei Preis und Ruhm,^lder seine Diener herrlich krönt,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   92012: {
     0.0: {
+        "title": "Mit Jubel sollst du, deutsches Land",
         "quote": "BoniBischofsweihe",
         "text": "Mit Jubel sollst du, deutsches Land,^ldeinen Apostel preisen.^lWas Bonifatius für dich tat,^lverkünd in frohen Weisen.^l^lDem Angelsachsen von Geblüt^lgab Rom die heil’ge Weihe,^ldass Gott durch ihn der Kirche Ruhm,^lden Völkern Heil verleihe.^l^lIhn ziert des Pontifex’ Ornat.^lVoll Kraft sind seine Reden,^lgeprägt von Zucht und Lauterkeit^lsein Denken, Tun und Beten.^l^lEs rühmen Deutschlands Stämme ihn,^ldie Friesen, Sachsen, Franken,^lweil diesem Herold Gottes sie^ldie Heilsbotschaft verdanken.^l^lWenn’s Korn nicht in der Erde stirbt,^lso muss allein es bleiben;^lnur sterbend kann – so spricht der Herr –^lvielfält’ge Frucht es treiben.^l^lIn Winfrieds Opfer sollt’ dies Wort^lneu seinen Sinn enthüllen.^lO mög’ auch künftig seine Saat^ldie Scheunen Gottes füllen!^l^lLass uns, Gott Vater, Sohn und Geist,^ldem heute Dank wir bringen,^lmit unserm heil’gen Bischof dir^lim Himmel ewig singen. Amen."
       }
   },
   92081: {
     0.0: {
+        "title": "O Jungfrau, rein und makellos",
         "quote": "MarEmpf",
         "text": "O Jungfrau, rein und makellos,^lo Mutter, die uns Gott gebar,^ldu bist des Himmels offnes Tor,^lder Engel Freude, unser Ruhm.^pDich hat vor allem Anbeginn^ldes Vaters Liebe auserwählt,^ldass du, vor jeder Schuld bewahrt,^lder Welt den neuen Adam schenkst.^pNoch ehe unser Retter kam,^lward dir in Fülle schon zuteil,^lwas er in Tod und Auferstehn^lerwirkte der verlornen Welt.^pDu reine Jungfrau, sei gegrüßt,^lin der wir unsre Hoffnung schaun:^lDu stehst als großes Zeichen da,^lder neuen Schöpfung klares Bild.^pDem Herrn sei Preis und Herrlichkeit,^lder uns befreit vom Joch der Schuld,^ldem Vater und dem Geiste Lob^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   92261: {
     0.0: {
+        "title": "Lasst uns im Feste heut begehn",
         "quote": "Stephanus",
-        "text": "lasst uns im Feste heut begehn^lden Sieg, den Stephanus errang;^lals erster Zeuge für den Herrn^lgab er sein Blut und Leben hin.^p„Vergib, o°Gott, sie wissen nicht,^lwas sie jetzt tun an deinem Knecht!“^lSo betet er, wie einst der Herr,^lfür seine Mörder noch im Tod.^pEr sieht den Himmel offenstehn^lund Christus in der Herrlichkeit;^lder gibt ihm teil an seinem Licht,^lda er im Leiden ihm gefolgt.^pDir, Herr, der unter uns erschien,^lder Jungfrau Sohn und Heil der Welt,^lsei Herrlichkeit und Preis und Ruhm^lmit Gott dem Vater und dem Geist. Amen."
+        "text": "Lasst uns im Feste heut begehn^lden Sieg, den Stephanus errang;^lals erster Zeuge für den Herrn^lgab er sein Blut und Leben hin.^p„Vergib, o°Gott, sie wissen nicht,^lwas sie jetzt tun an deinem Knecht!“^lSo betet er, wie einst der Herr,^lfür seine Mörder noch im Tod.^pEr sieht den Himmel offenstehn^lund Christus in der Herrlichkeit;^lder gibt ihm teil an seinem Licht,^lda er im Leiden ihm gefolgt.^pDir, Herr, der unter uns erschien,^lder Jungfrau Sohn und Heil der Welt,^lsei Herrlichkeit und Preis und Ruhm^lmit Gott dem Vater und dem Geist. Amen."
       }
   },
   92271: {
     0.0: {
+        "title": "Den Jünger, der dem Herrn gefolgt",
         "quote": "Johannes",
         "text": "Den Jünger, der dem Herrn gefolgt,^lpreist heute unser frohes Lob:^lJohannes, der das Wort erkannt,^lJohannes, der beim Kreuze stand.^pDen Glanz des Sohnes schaute er,^lden Glanz, den er vom Vater hat.^lEr hat das ew’ge Wort bezeugt,^ldas uns im Fleisch erschienen ist.^pJohannes, der beim Abendmahl^lan seines Meisters Brust geruht,^lihn hat der Herr zum Freund erwählt^lund ihm die Mutter anvertraut.^pDem ew’gen Wort sei Lob und Preis,^ldem Vater, der es uns gesandt,^ldem Geiste auch, der uns im Licht^ldas Leben und die Wahrheit schenkt. Amen."
       }
   },
   92281: {
     0.0: {
+        "title": "Warum, ihr Mütter, klaget ihr",
         "quote": "Unsch.Kinder",
         "text": "Warum, ihr Mütter, klaget ihr^lund gebt euch eurem Schmerze hin?^lDie Kinder, die ihr laut beweint,^lsind in den Frieden heimgekehrt.^pEin König gab in Furcht und Wahn^lden Blutbefehl zu ihrem Mord.^lEin andrer König führt sie sanft^lzum Spiele in sein goldnes Haus.^pHerr Jesus, dir sei Ruhm und Preis,^ldem wahren König dieser Welt,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
       }
