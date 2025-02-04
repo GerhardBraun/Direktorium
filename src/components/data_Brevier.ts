@@ -59,6 +59,10 @@ export const brevierData = {
           "ps_1": 63.0,
           "ps_2": 160.0,
           "ps_3": 149.0
+        },
+        "Lesehore": {
+          "vu": 406.0,
+          "vu_lat": 407.0
         }
       }
     }
@@ -80,6 +84,10 @@ export const brevierData = {
           "ps_1": 63.0,
           "ps_2": 160.0,
           "ps_3": 149.0
+        },
+        "Lesehore": {
+          "vu": 406.0,
+          "vu_lat": 407.0
         }
       }
     }
@@ -122,6 +130,10 @@ export const brevierData = {
           "ps_1": 63.0,
           "ps_2": 160.0,
           "ps_3": 149.0
+        },
+        "Lesehore": {
+          "vu": 406.0,
+          "vu_lat": 407.0
         },
         "Non": {
           "ps_1": 126.0,

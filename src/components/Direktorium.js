@@ -1836,7 +1836,7 @@ export default function LiturgicalCalendar() {
     const [showDatePicker, setShowDatePicker] = useState(false);
     const [theme, setTheme] = useState(() => {
         const savedTheme = localStorage.getItem('theme');
-        return savedTheme || 'light';
+        return savedTheme || 'dark';
     });
     const [prefSrc, setPrefSrc] = useState('eig');
     const [prefSollemnity, setPrefSollemnity] = useState(false);
@@ -1990,7 +1990,7 @@ export default function LiturgicalCalendar() {
                 const actualWidth = container.offsetWidth;
                 const viewportWidth = window.innerWidth - 32; // 32px für Padding
                 const ratio = viewportWidth / actualWidth;
-                const calculatedFontSize = Math.round(16 * ratio);
+                const calculatedFontSize = Math.round(17 * ratio);
 
                 document.body.removeChild(container);
                 return Math.min(Math.max(calculatedFontSize, 8), 24);
