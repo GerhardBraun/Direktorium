@@ -687,14 +687,14 @@ export const adlibData = {
           "farbe": "rBuM",
           "comm_1": "MärtSg_Jgfr",
           "comm_2": "Jgfr",
-          "ant_ev": "Vor Freude strahlend, ging Agatha in den Kerker,^lals ginge sie zu einem Gastmahl,^lund betend empfahl sie dem Herrn ihren Kampf.",
+          "ant_ev": "Vor Freude strahlend, ging Agatha in den Kerker, als ginge sie zu einem Gastmahl, und betend empfahl sie dem Herrn ihren Kampf.",
           "oration": "Allmächtiger Gott, du hast die heilige Agatha zur Jungfräulichkeit um Christi willen berufen und ihr die Gnade des Martyriums geschenkt. Höre auf ihre Fürsprache und hilf uns, in aller Bedrängnis auszuharren und dir in Lauterkeit und Treue zu dienen. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
           "name": "Hl. Agatha",
           "comm_1": "MärtSg_Jgfr",
           "comm_2": "Jgfr",
-          "ant_ev": "Herr Jesus Christus, guter Meister,^lich sage dir Dank.^lDu gabst mir Kraft, die Folter zu bestehen.^lNun nimm mich auf^lin deine Herrlichkeit, die niemals enden wird.",
+          "ant_ev": "Herr Jesus Christus, guter Meister, ich sage dir Dank. Du gabst mir Kraft, die Folter zu bestehen. Nun nimm mich auf in deine Herrlichkeit, die niemals enden wird.",
           "oration": "Allmächtiger Gott, du hast die heilige Agatha zur Jungfräulichkeit um Christi willen berufen und ihr die Gnade des Martyriums geschenkt. Höre auf ihre Fürsprache und hilf uns, in aller Bedrängnis auszuharren und dir in Lauterkeit und Treue zu dienen. Darum bitten wir durch Jesus Christus."
         }
       }
@@ -1045,13 +1045,13 @@ export const adlibData = {
           "name": "Hl. Polykarp",
           "farbe": "rBuM",
           "comm_1": "MärtSg",
-          "ant_ev": "Sechsundachtzig Jahre habe ich Christus gedient^lund habe von ihm kein Unrecht erfahren.^lWie könnte ich meinen König schmähen,^lder mich erlöst hat!",
+          "ant_ev": "Sechsundachtzig Jahre habe ich Christus gedient und habe von ihm kein Unrecht erfahren. Wie könnte ich meinen König schmähen, der mich erlöst hat!",
           "oration": "Gott, du Herr der ganzen Schöpfung, du hast den heiligen Bischof Polykarp zum standhaften Bekenntnis des Glaubens gestärkt und in die Schar deiner Märtyrer aufgenommen. Gib auch uns deine Kraft, wenn wir am Kelch des Leidens Christi teilhaben, damit wir auferstehen zum ewigen Leben. Darum bitten wir durch Jesus Christus."
         },
         "Vesper": {
           "name": "Hl. Polykarp",
           "comm_1": "MärtSg",
-          "ant_ev": "Ich preise dich, Herr, allmächtiger Gott.^lDu nahmst mich auf in die Schar deiner Märtyrer^lund gabst mir Anteil am Kelch deines Gesalbten.",
+          "ant_ev": "Ich preise dich, Herr, allmächtiger Gott. Du nahmst mich auf in die Schar deiner Märtyrer und gabst mir Anteil am Kelch deines Gesalbten.",
           "oration": "Gott, du Herr der ganzen Schöpfung, du hast den heiligen Bischof Polykarp zum standhaften Bekenntnis des Glaubens gestärkt und in die Schar deiner Märtyrer aufgenommen. Gib auch uns deine Kraft, wenn wir am Kelch des Leidens Christi teilhaben, damit wir auferstehen zum ewigen Leben. Darum bitten wir durch Jesus Christus."
         }
       }
@@ -5010,9 +5010,9 @@ export const adlibData = {
           "patr_autor": "Papst Johannes Paul II. (†°2005)",
           "patr_werk": "Aus seiner Ansprache am Beginn des Pontifikats",
           "patr_text": "^hHabt keine Angst! Öffnet die Tore für Christus!^pPetrus ist nach Rom gekommen! Nur der Gehorsam gegenüber dem Auftrag des Herrn hat seine Schritte geführt und ihn bis zu dieser Stadt gelangen lassen, dem Herzen des Römischen Reiches. Vielleicht wäre er lieber dort geblieben, an den Ufern des Sees von Gennesaret, bei seinem Boot mit den Fischernetzen. Aber unter der Führung des Herrn und seinem Auftrag getreu ist er hierhergekommen!^pNach einer alten Überlieferung wollte Petrus während der Verfolgung des Nero die Stadt Rom verlassen. Da aber griff der Herr ein: er ging ihm entgegen. Petrus sprach ihn an und fragte: „Quo vadis, Domine?“ – „Wohin gehst du, Herr?“, und der Herr antwortete sofort: „Ich gehe nach Rom, um dort ein zweites Mal gekreuzigt zu werden.“ Da kehrte Petrus nach Rom zurück und ist dort bis zu seiner Kreuzigung geblieben.^pUnsere Zeit lädt uns dazu ein, drängt und verpflichtet uns, auf den Herrn zu schauen und uns in eine demütige und ehrfürchtige Betrachtung des Geheimnisses der höchsten Gewalt Jesu Christi selbst zu vertiefen.^pEr, der aus der Jungfrau Maria geboren wurde, der Sohn des Zimmermanns – wie man glaubte –, der Sohn des lebendigen Gottes – wie Petrus bekannte –, ist gekommen, um uns alle zu einem „königlichen Priestertum“ zu machen.^pDas Zweite Vatikanische Konzil hat uns das Geheimnis dieser Herrschergewalt wiederum in Erinnerung gebracht und auch die Tatsache, dass die Sendung Christi als Priester, prophetischer Lehrer und König in der Kirche fortdauert. Alle, das ganze Volk Gottes, haben Anteil an dieser dreifachen Sendung. ^pIn der Vergangenheit hat man vielleicht dem Papst die Tiara, die dreifache Krone, aufs Haupt gesetzt, um durch diese symbolische Geste den Heilsplan Gottes für seine Kirche zum Ausdruck zu bringen, dass nämlich die ganze hierarchische Ordnung der Kirche Christi, die ganze in ihr ausgeübte „heilige Gewalt“ nichts anderes ist als Dienst, ein Dienst, der nur das eine Ziel hat: dass das ganze Volk Gottes an dieser dreifachen Sendung Christi Anteil habe und immer unter der Herrschaft des Herrn bleibe, die ihre Ursprünge nicht in den Mächten dieser Welt, sondern im Geheimnis des Todes und der Auferstehung hat.^pDie uneingeschränkte und doch milde und sanfte Herrschaft des Herrn ist die Antwort auf das Tiefste im Menschen, auf die höchsten Erwartungen seines Verstandes, seines Willens und Herzens. Sie spricht nicht die Sprache der Gewalt, sondern äußert sich in Liebe und Wahrheit.^pDer neue Nachfolger Petri auf dem Bischofsstuhl in Rom betet heute innig, demütig und vertrauensvoll: „Christus, lass mich ganz Diener deiner alleinigen Herrschaft werden und sein! Diener deiner sanften Herrschaft! Diener deiner Herrschaft, die keinen Untergang kennt! Lass mich Diener sein! Mehr noch: ein Diener deiner Diener!“^pBrüder und Schwestern! Habt keine Angst, Christus aufzunehmen und seine Herrschergewalt anzuerkennen!^pHelft dem Papst und allen, die Christus und mit der Herrschaft Christi dem Menschen und der ganzen Menschheit dienen wollen!^pHabt keine Angst! Öffnet, ja reißt die Tore weit auf für Christus! Öffnet die Grenzen der Staaten, die wirtschaftlichen und politischen Systeme, die weiten Bereiche der Kultur, der Zivilisation und des Fortschritts seiner rettenden Macht! Habt keine Angst! Christus „weiß, was im Innern des Menschen ist“. Er allein weiß es!^pHeute weiß der Mensch oft nicht, was er in seinem Innern, in der Tiefe seiner Seele, seines Herzens trägt. Er ist deshalb oft im Ungewissen über den Sinn seines Lebens auf dieser Erde. Er ist vom Zweifel befallen, der dann in Verzweiflung umschlägt. Erlaubt also – ich bitte euch und flehe euch in Demut und Vertrauen an –, erlaubt Christus, zum Menschen zu sprechen! Nur er hat Worte des Lebens, ja, des ewigen Lebens!",
-          "patr_resp1": "Habt keine Angst:^lDer Erlöser der Menschheit^lhat die Macht des Kreuzes offenbart^lund für uns das Leben gegeben!",
+          "patr_resp1": "Habt keine Angst: Der Erlöser der Menschheit hat die Macht des Kreuzes offenbart und für uns das Leben gegeben!",
           "patr_resp2": "Öffnet, reißt die Tore weit auf für Christus!",
-          "patr_resp3": "In der Kirche sind wir dazu berufen,^lan seiner Macht Anteil zu haben.",
+          "patr_resp3": "In der Kirche sind wir dazu berufen, an seiner Macht Anteil zu haben.",
           "oration": "Gott, du bist reich an Erbarmen und hast den Heiligen Papst Johannes Paul II. zur Leitung deiner ganzen Kirche bestellt; gib, dass wir, durch seine Lehre geführt, unsere Herzen vertrauensvoll öffnen für die heilbringende Gnade Christi, des einzigen Erlösers der Menschheit. Der mit dir lebt und herrscht in der Einheit des Heiligen Geistes, Gott, von Ewigkeit zu Ewigkeit."
         },
         "Laudes": {
@@ -5603,9 +5603,9 @@ export const adlibData = {
           "patr_autor": " II. Vatikanisches Konzil (1962–1965)",
           "patr_werk": "Aus dem Dekret über die Hirtenaufgabe der Bischöfe.",
           "patr_text": "^hDie Bischöfe und die Teilkirchen^pDie Diözese ist der Teil des Gottesvolkes, der dem Bischof in Zusammenarbeit mit dem Presbyterium zu leiten anvertraut Wird. Indem sie ihrem Hirten anhängt und von ihm durch das Evangelium und die Eucharistie im Heiligen Geist zusammengeführt wird, bildet sie eine Teilkirche, in der die eine, heilige, katholische und apostolische Kirche Christi wahrhaft wirkt und gegenwärtig wird.^pDie einzelnen Bischöfe, denen die Sorge für eine Teilkirche anvertraut ist, leiten diese unter der Autorität des Papstes als deren eigentliche, ordentliche und unmittelbare Hirten im Namen des Herrn, indem sie ihre Aufgabe zu lehren, zu heiligen und zu leiten an ihr ausüben.^pIhrer apostolischen Aufgabe sollen sich die Bischöfe zuwenden als Zeugen Christi vor allen Menschen. Sie sollen sich nicht bloß um die kümmern, die schon dem obersten Hirten nachfolgen, sondern sich mit ganzem Herzen auch jenen widmen, die irgendwie vom Weg der Wahrheit abgewichen sind oder die Frohbotschaft Christi und sein heilbringendes Erbarmen nicht kennen, bis schließlich alle „in lauter Güte, Gerechtigkeit und Wahrheit“ (Eph 5,9) wandeln.^pEs haben zwar alle Priester, die Diözesan- wie die Ordensgeistlichen, mit dem Bischof an dem einen Priestertum Christi und dessen Ausübung Anteil und werden so zu umsichtigen Mitarbeitern des Bischofsstandes bestellt. In der Ausübung der Seelsorge jedoch nehmen die Diözesanpriester den ersten Platz ein. Sie sind ja einer Teilkirche inkardiniert oder zugewiesen und sollen sich ihrem Dienst ganz widmen, um einen Teil der Herde des Herrn zu weiden. Daher bilden sie ein einziges Presbyterium und eine einzige Familie, deren Vater der Bischof ist.",
-          "patr_resp1": "Komm, du guter und treuer Knecht,^ldu bist im Kleinen ein treuer Verwalter gewesen, ^ldarum will ich dir ein Großes übertragen.",
+          "patr_resp1": "Komm, du guter und treuer Knecht, du bist im Kleinen ein treuer Verwalter gewesen, darum will ich dir ein Großes übertragen.",
           "patr_resp2": "Komm, nimm teil an der Freude deines Herrn.",
-          "patr_resp3": "Herr, fünf Talente hast du mir gegeben;^lsiehe, ich habe noch fünf dazugewonnen.",
+          "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen.",
           "oration": "Gott, du Licht unseres Glaubens, du hast den heiligen Bischof Luzius berufen, der Kirche von Chur durch Wort und Beispiel zu dienen. Seine Fürsprache helfe uns, den Glauben zu bewahren, den er in seiner Predigt gelehrt, und den Weg zu gehen, den er uns durch sein Leben gewiesen hat. Darum bitten wir durch Jesus Christus."
         },
         "Laudes": {

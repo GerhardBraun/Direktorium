@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
-import { Menu } from 'lucide-react';
+import { Menu, Coffee } from 'lucide-react';
+import useWakeLock from './comp_WakeLock.js';
 import React from 'react';
 import { liturgicalData } from './data_Direktorium.ts';
 import { deceasedData } from './data_Deceased.ts';
@@ -117,9 +118,20 @@ const useSwipeNavigation = (onSwipeLeft, onSwipeRight, isDatePickerOpen) => {
 
 // Ähnliche Anpassung für den useTouchZoom Hook
 const useTouchZoom = (initialFontSize, minSize = 8, maxSize = 24, sensitivity = 1.0, isDatePickerOpen) => {
+    // Initialisierung mit gespeichertem Wert aus localStorage
+    const getInitialFontSize = () => {
+        const savedSize = localStorage.getItem('baseFontSize');
+        return savedSize ? parseFloat(savedSize) : initialFontSize;
+    };
+
     const [touchStartDistance, setTouchStartDistance] = useState(null);
-    const [startFontSize, setStartFontSize] = useState(initialFontSize);
-    const [currentFontSize, setCurrentFontSize] = useState(initialFontSize);
+    const [startFontSize, setStartFontSize] = useState(getInitialFontSize());
+    const [currentFontSize, setCurrentFontSize] = useState(getInitialFontSize());
+
+    // Speichern der Schriftgröße im localStorage bei Änderungen
+    useEffect(() => {
+        localStorage.setItem('baseFontSize', currentFontSize.toString());
+    }, [currentFontSize]);
 
     const getTouchDistance = useCallback((touches) => {
         if (touches.length < 2) return null;
@@ -129,7 +141,6 @@ const useTouchZoom = (initialFontSize, minSize = 8, maxSize = 24, sensitivity = 
     }, []);
 
     const handleTouchStart = useCallback((e) => {
-        // Wenn DatePicker offen ist, keine Zoom-Gesten verarbeiten
         if (isDatePickerOpen) return;
 
         if (e.touches.length === 2) {
@@ -140,7 +151,6 @@ const useTouchZoom = (initialFontSize, minSize = 8, maxSize = 24, sensitivity = 
     }, [getTouchDistance, currentFontSize, isDatePickerOpen]);
 
     const handleTouchMove = useCallback((e) => {
-        // Wenn DatePicker offen ist, keine Zoom-Gesten verarbeiten
         if (isDatePickerOpen) return;
 
         if (e.touches.length === 2 && touchStartDistance) {
@@ -160,7 +170,6 @@ const useTouchZoom = (initialFontSize, minSize = 8, maxSize = 24, sensitivity = 
     }, []);
 
     useEffect(() => {
-        // Nur Event-Listener hinzufügen, wenn DatePicker nicht geöffnet ist
         if (!isDatePickerOpen) {
             document.addEventListener('touchstart', handleTouchStart, { passive: false });
             document.addEventListener('touchmove', handleTouchMove, { passive: false });
@@ -1632,6 +1641,7 @@ const ScrollableContainer = ({ children, containerRef }) => {
 };
 
 export default function LiturgicalCalendar() {
+    const wakeLock = useWakeLock();
     const [selectedDate, setSelectedDate] = useState(new Date());
     const [showDatePicker, setShowDatePicker] = useState(false);
     const [theme, setTheme] = useState(() => {
@@ -1735,6 +1745,15 @@ export default function LiturgicalCalendar() {
     //  - bis auf Weiteres deaktiviert, weil die Scroll-Funktionen beeinträchtigt werden
     // useSwipeNavigation(handleSwipeLeft, handleSwipeRight, showDatePicker);
 
+    // Aktiviere Wake Lock wenn die App im prayer oder prayerText Modus ist
+    useEffect(() => {
+        if (viewMode === 'prayer' || viewMode === 'prayerText') {
+            wakeLock.requestWakeLock();
+        } else {
+            wakeLock.releaseWakeLock();
+        }
+    }, [viewMode]);
+
     // Effect für die visibleEntries-Berechnung
     useEffect(() => {
         entriesRef.current = {};
@@ -1776,45 +1795,15 @@ export default function LiturgicalCalendar() {
     }, [handleScroll]);
 
     useEffect(() => {
-        const calculateInitialFontSize = () => {
-            // Nur für Smartphones (< 640px) die Schriftgröße dynamisch berechnen
-            if (window.innerWidth < 640) {
-                const container = document.createElement('div');
-                container.style.visibility = 'hidden';
-                container.style.position = 'absolute';
-                container.style.width = '25em';
-                container.style.fontFamily = fontFamily;
-                container.style.fontSize = '16pt';
-                document.body.appendChild(container);
-
-                const actualWidth = container.offsetWidth;
-                const viewportWidth = window.innerWidth - 32; // 32px für Padding
-                const ratio = viewportWidth / actualWidth;
-                const calculatedFontSize = Math.round(17 * ratio);
-
-                document.body.removeChild(container);
-                return Math.min(Math.max(calculatedFontSize, 8), 24);
-            }
-            return 14; // Standardgröße für Tablets und Desktop
-        };
-
-        setBaseFontSize(calculateInitialFontSize());
-    }, []);
-
-
-    useEffect(() => {
-        // Lade das gespeicherte Theme beim Start
-        const savedTheme = localStorage.getItem('theme') || 'light';
-        setTheme(savedTheme);
-        document.documentElement.classList.toggle('dark', savedTheme === 'dark');
-        document.body.classList.toggle('dark', savedTheme === 'dark');
-    }, []);
-
-    useEffect(() => {
         document.documentElement.classList.toggle('dark', theme === 'dark');
         document.body.classList.toggle('dark', theme === 'dark');
         localStorage.setItem('theme', theme);
     }, [theme]);
+
+    useEffect(() => {
+        document.documentElement.style.fontSize = baseFontSize;
+        localStorage.setItem('baseFontSize', baseFontSize);
+    }, [baseFontSize]);
 
     useEffect(() => {
         // Wenn durch Scrollen ausgelöst oder nicht bereit, nichts tun
@@ -2311,7 +2300,7 @@ export default function LiturgicalCalendar() {
     const baseStyle = {
         fontFamily,
         fontSize: `${baseFontSize}pt`,
-        lineHeight: '1.3',
+        lineHeight: '1.2',
         margin: 0
     };
 
@@ -2475,6 +2464,23 @@ export default function LiturgicalCalendar() {
                                 </>
                             )}
 
+                            {/* WakeLock-Indikator In der Navigation Bar, vor dem StB Button */}
+                            <div className="flex items-center justify-center px-0">
+                                {wakeLock.isSupported ? (
+                                    <div className="flex items-center gap-1">
+                                        <Coffee
+                                            className={`w-4 ${wakeLock.isActive
+                                                ? "text-orange-500 dark:text-yellow-400"
+                                                : "text-gray-400 dark:text-gray-600"
+                                                }`}
+                                        />
+                                    </div>
+                                ) : (
+                                    <div className="flex items-center gap-0">
+                                        <Coffee className="w-4 text-red-600/60 dark:text-red-800/80" />
+                                    </div>
+                                )}
+                            </div>
                             {/* StB Button ist immer sichtbar */}
                             <div className={viewMode === 'prayerText' ? 'flex-1 flex justify-end' : ''}>
                                 <button

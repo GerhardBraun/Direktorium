@@ -10055,9 +10055,19 @@ export const brevierData = {
       },
       "6": {
         "each": {
-          "oration": "o-9-6-each-Oration"
+          "comm_1": "Maria",
+          "oration": "Gott, du hast dem Heiligen Geist im Herzen der seligen Jungfrau Maria eine würdige Wohnung bereitet. Auf ihre Fürbitte hin erfülle auch unser Leben mit deiner Gegenwart und mache uns zu einem Tempeln deiner Herrlichkeit. Darum bitten wir durch Jesus Christus."
+        },
+        "Laudes": {
+          "ant_ev": "Mein Herz und mein Leib jauchzen ihm zu, ihm, dem lebendigen Gott."
         },
         "Lesehore": {
+          "patr_autor": "Laurentius Justiniani (†°1455)",
+          "patr_werk": "Aus einer Predigt am Fest der Darstellung des Herrn.",
+          "patr_text": "^hMaria bewahrte alles, was geschehen war, in°ihrem°Herzen^pAls Maria all das bei sich erwog, was sie durch Lesen, Hören und Sehen erkannt hatte, wie sehr wuchsen da ihr Glaube und ihre Verdienste! Mehr und mehr wurde sie erleuchtet durch die Weisheit und entzündet von der Glut der Liebe.^pÜber die alte Offenbarung der himmlischen Geheimnisse hinaus wurde sie weitergeführt, ihre Freude wurde vollendet, im Übermaß wurde sie befruchtet durch den Heiligen Geist. Sie wurde zu Gott hingeführt und wurde doch in der Demut bewahrt.^pVon solcher Art ist die Wirkung der göttlichen Gnade, dass sie den Menschen aus der Tiefe erhebt zur Höhe und ihn umgestaltet von Klarheit zu Klarheit.^pJa, selig das Herz der Jungfrau, das durch die Einwohnung und Führung des Heiligen Geistes allezeit und in allem dem Befehl des Wortes Gottes gehorchte. Nicht von ihrem eigenen Sinn, nicht von ihrem eigenen Willen ließ sie sich leiten, sondern, was die Weisheit in ihrem Herzen sie zu glauben aufforderte, das wurde nach außen hin durch den Dienst des Leibes der Jungfrau bewirkt. Es ziemte sich nämlich für die göttliche Weisheit, als sie sich das Haus der Kirche als Wohnung erbauen wollte, dass sie die selige Jungfrau Maria wegen ihrer Gesetzestreue und Herzensreinheit, wegen ihrer beispielhaften Demut und ihrer geistlichen Hingabe als Mittel dazu benutze.^pGläubige Seele, ahme Maria nach! Geh in den Tempel deines Herzens, damit du im Geist gereinigt werden kannst von der Befleckung der Sünden. Gott achtet nämlich in allem, was wir tun, mehr auf unsere Gesinnung als auf unser Werk. Sei es daher, dass wir durch die Übung der Betrachtung in unserem Herzen Gott Raum geben und für ihn frei sind, sei es, dass wir durch die Übung der Tugenden und durch gute Werke danach streben, enthaltsam zu sein zum Wohl unseres Nächsten, immer sollen wir so handeln, dass allein die Liebe Christi uns drängt. Das nämlich ist das wohlgefällige Opfer geistlicher Reinigung, das nicht in einem von Menschenhand gebauten Tempel dargebracht wird, sondern in einem Herzen, in das der Herr Jesus Christus mit Freuden eintritt.",
+          "patr_resp1": "Heilige und makellose Jungfrau, du bist allen Lobes würdig.",
+          "patr_resp2": "Den die Himmel nicht fassen, ihn trugst du in deinem Schoß.",
+          "patr_resp3": "Gebenedeit bist du unter den Frauen, und gebenedeit die Frucht deines Leibes.",
           "oration": "o-9-6-each-Oration"
         }
       }
@@ -12632,7 +12642,7 @@ export const brevierData = {
           "ant_ev": "Machtvolle Taten vollbringt der Herr, er zerstreut, die im Herzen voll Hochmut sind.",
           "bitten_e": "Lasst uns beten zu Gott, dem ewigen Vater, dessen Erbarmen ohne Grenzen ist:",
           "bitten_r": "Wir bitten dich, erhöre uns.",
-          "bitten": "Gott, du hast deinen Sohn gesandt, dass er die Welt rette;^qgib, dass alle Völker ihn als ihren Erlöser erkennen.^pDu hast den Menschen als Mann und Frau erschaffen;^qwache über unseren Familien und bewahre sie in der Liebe.^pHilf allen, die du zur Ehelosigkeit berufen hast;^qgib, dass sie in Freude deinem Sohn nachfolgen.^pDu hast deine Priester zu Ausspendern deiner Geheimnisse bestellt;^qschenke ihnen Weisheit und stärke sie in der Treue.",
+          "bitten": "Gott, du hast deinen Sohn gesandt, dass er die Welt rette;^qgib, dass alle Völker ihn als ihren Erlöser erkennen.^pDu hast den Menschen als Mann und Frau erschaffen;^qwache über unseren Familien und bewahre sie in der Liebe.^pHilf allen, die du zur Ehelosigkeit berufen hast;^qgib, dass sie in Freude deinem Sohn nachfolgen.^pDu hast deine Priester zu Ausspendern deiner Geheimnisse bestellt;^qschenke ihnen Weisheit und stärke sie in der Treue.^pDurch den Tod und die Auferstehung deines Sohnes hast du die Sünde der Welt hinweggenommen;^qerbarme dich unserer Verstorbenen und schenke ihnen das ewige Leben.",
           "oration": "Gütiger Gott, du sättigst die Hungernden, die zu dir rufen. Gedenke deiner Huld und schenke unserer Armut den Reichtum deiner Gaben. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
         }
       },
