@@ -14,7 +14,7 @@ import { SectionHeader as extSectionHeader } from './comp_SectionHeader.js';
 import { psalmsData } from './data_PsHymn.ts';
 import KompletSelector from './comp_KompletSelector.js';
 import HymnSelector from './comp_HymnSelector.js';
-import { formatPsalm, formatText, extFormatPrayerText } from './comp_TextFormatter.js';
+import { formatPsalm, formatText, formatPrayerText as extFormatPrayerText } from './comp_TextFormatter.js';
 
 const fontFamily = 'Cambria, serif';
 const hangingIndent = '3.2em'; // Variable für den Einzug
@@ -1141,11 +1141,8 @@ const PrayerTextDisplay = ({
         </span>
     );
 
-    const formatPrayerText = (provText) => {
-        return extFormatPrayerText(provText, {
-            season: season,
-            week: texts?.week
-        });
+    const formatPrayerText = (provText, ant = '') => {
+        return extFormatPrayerText(provText, ant, season, texts?.week);
     };
 
     const PrayerResponse = ({ resp1_3, resp1_2 }) => {
@@ -1238,8 +1235,8 @@ const PrayerTextDisplay = ({
                         <SectionHeader title="PSALMODIE" field="ps_1" />
                         {getValue('ant_0') && (
                             <div className="mb-4">
-                                <Rubric style={{ display: 'inline' }}>Ant.&nbsp;</Rubric>
-                                {formatPrayerText(getValue('ant_0'))}
+
+                                {formatPrayerText(getValue('ant_0'), "Ant.°°")}
                             </div>)}
                         {hour === "invitatorium" && texts?.invitatorium?.psalms?.includes(localPrefInv) && (
                             <div className="mb-4">
@@ -1259,8 +1256,7 @@ const PrayerTextDisplay = ({
                                 <div key={num} className="mb-6">
                                     {ant && (
                                         <div className="mb-3" >
-                                            <Rubric >{num}. Ant.&nbsp;&nbsp;</Rubric>
-                                            {formatPrayerText(ant)}
+                                            {formatPrayerText(ant, `${num}. Ant.°°`)}
                                         </div>
                                     )}
                                     {psalm && formatPsalm(
@@ -1272,8 +1268,7 @@ const PrayerTextDisplay = ({
                                     )}
                                     {ant && (
                                         <div >
-                                            <Rubric>{num}. Ant.&nbsp;&nbsp;</Rubric>
-                                            {formatPrayerText(ant)}
+                                            {formatPrayerText(ant, `${num}. Ant.°°`)}
                                         </div>
                                     )}
                                 </div>
@@ -1281,8 +1276,7 @@ const PrayerTextDisplay = ({
                         })}
                         {getValue('ant_0') && (
                             <div>
-                                <Rubric>Ant.&nbsp;</Rubric>
-                                {formatPrayerText(getValue('ant_0'))}
+                                {formatPrayerText(getValue('ant_0'), "Ant.°°")}
                             </div>
                         )}
                     </div>
@@ -1292,14 +1286,12 @@ const PrayerTextDisplay = ({
                         <SectionHeader title="VERSIKEL" field="resp0_0" />
                         {getValue('resp0_0') && (
                             <div className="mb-0 flex gap-0">
-                                <Rubric>V&nbsp;&nbsp;</Rubric>
-                                <div>{formatPrayerText(getValue('resp0_0'))}</div>
+                                <div>{formatPrayerText(getValue('resp0_0'), 'V°°')}</div>
                             </div>
                         )}
                         {getValue('resp0_1') && (
                             <div className="flex gap-0">
-                                <Rubric>R&nbsp;&nbsp;</Rubric>
-                                <div>{formatPrayerText(getValue('resp0_1'))}</div>
+                                <div>{formatPrayerText(getValue('resp0_1'), 'R°°')}</div>
                             </div>
                         )}
                     </div>)}
@@ -1330,9 +1322,8 @@ const PrayerTextDisplay = ({
                         <SectionHeader title="RESPONSORIUM" field="resp1_1" />
                         {getValue('resp1_0') && getValue('resp1_1') && (
                             <div className="mb-0 flex gap-0">
-                                <Rubric>V&nbsp;&nbsp;</Rubric>
                                 <div>
-                                    {formatPrayerText(getValue('resp1_0'))}
+                                    {formatPrayerText(getValue('resp1_0'), 'V°°')}
                                 </div>
 
                             </div>
@@ -1340,9 +1331,8 @@ const PrayerTextDisplay = ({
                         )}
                         {getValue('resp1_0') && getValue('resp1_1') && (
                             <div className="mb-0 flex gap-0">
-                                <Rubric>R&nbsp;&nbsp;</Rubric>
                                 <div>
-                                    {formatPrayerText(getValue('resp1_1'))}
+                                    {formatPrayerText(getValue('resp1_1'), 'R°°')}
                                 </div>
                             </div>
 
@@ -1428,8 +1418,7 @@ const PrayerTextDisplay = ({
                         />
                         {getValue('ant_ev') && (
                             <div className="mb-4">
-                                <Rubric>Ant.&nbsp;</Rubric>
-                                {formatPrayerText(getValue('ant_ev'))}
+                                {formatPrayerText(getValue('ant_ev'), 'Ant.°°')}
                             </div>
                         )}
                         {getValue('ev') && (
@@ -1439,8 +1428,7 @@ const PrayerTextDisplay = ({
                         )}
                         {getValue('ant_ev') && (
                             <div className="mb-4">
-                                <Rubric>Ant.&nbsp;</Rubric>
-                                {formatPrayerText(getValue('ant_ev'))}
+                                {formatPrayerText(getValue('ant_ev'), 'Ant.°°')}
                             </div>
                         )}
                     </div>)}
@@ -1458,8 +1446,7 @@ const PrayerTextDisplay = ({
                         )}
                         {getValue('bitten_r') && (
                             <div className="mb-2 flex gap-0">
-                                <Rubric>R&nbsp;&nbsp;</Rubric>
-                                <div>{formatPrayerText(getValue('bitten_r'))}</div>
+                                <div>{formatPrayerText(getValue('bitten_r'), 'R°°')}</div>
                             </div>
                         )}
                         {getValue('bitten') && (

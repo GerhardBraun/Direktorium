@@ -79,12 +79,12 @@ export const SectionHeader = ({
     }
 
     return (
-        <h2 className="prayer-heading flex items-center gap-3 text-rubric">
+        <h2 className="prayer-heading flex items-baseline gap-3 text-rubric">
             {title}
             {hasLatin && (
                 <button
                     onClick={() => setLocalPrefLatin(prev => !prev)}
-                    className="font-normal text-rubric text-[0.85em]"
+                    className="font-normal text-[0.85em]"
                 >
                     (dt./lat.)
                 </button>

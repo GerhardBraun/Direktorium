@@ -19,9 +19,9 @@ export const formatPsalm = (number, verses, title, quote, text) => {
                     ))}
             </div>
             {title && <div className="text-[0.9em] text-gray-400 mb-[0.66em]">{title}</div>}
-            {quote && <div className="text-[0.9em] leading-[1.1em] italic text-gray-400 -mt-[0.66em] mb-[0.66em]">{extFormatPrayerText(quote)}</div>}
-            {text && <div className="whitespace-pre-wrap">{extFormatPrayerText(text)}</div>}
-            {number !== 160 && <div className="whitespace-pre-wrap">{extFormatPrayerText(doxology)}</div>}
+            {quote && <div className="text-[0.9em] leading-[1.1em] italic text-gray-400 -mt-[0.66em] mb-[0.66em]">{formatPrayerText(quote)}</div>}
+            {text && <div className="whitespace-pre-wrap">{formatPrayerText(text)}</div>}
+            {number !== 160 && <div className="whitespace-pre-wrap">{formatPrayerText(doxology)}</div>}
         </div>
     );
 };
@@ -57,10 +57,11 @@ export const formatText = (text) => {
 };
 
 // Formatiert Gebetstext mit speziellen Tags und saisonalen Anpassungen
-export const extFormatPrayerText = (provText, { season = '', week = null } = {}) => {
+export const formatPrayerText = (provText, ant = '', season = '', week = null) => {
     if (!provText) return null;
 
-    let text = provText
+    let text = ant ? `^r${ant}^0r${provText}` : provText;
+    text = text
         .replace(/\^ö/g, season === 'o' ? ' Halleluja.' : '')
         .replace(/\^R/g, (season === 'o' && week === 1) ? easterAntiphon : '');
 
