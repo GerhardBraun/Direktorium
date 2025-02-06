@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
 
-const HymnSelector = ({ texts, hour, prefSrc, formatPrayerText }) => {
+const HymnSelector = ({ texts, hour, prefSrc, prefSollemnity, formatPrayerText }) => {
     const [selectedHymn, setSelectedHymn] = useState(null);
 
     const getButtonColor = (sourcePath) => {
@@ -27,6 +27,9 @@ const HymnSelector = ({ texts, hour, prefSrc, formatPrayerText }) => {
         // Prüfe die Ränge
         const rank_date = texts?.rank_date || 0;
         const rank_wt = texts?.rank_wt || 0;
+        const useWt = (prefSollemnity
+            && !(['terz', 'sext', 'non'].includes(hour)))
+            ? '' : 'wt'
         const isHighRank = rank_date > 2 || rank_wt > 2;
 
         // Stelle die Basis-Quellen zusammen
@@ -44,22 +47,24 @@ const HymnSelector = ({ texts, hour, prefSrc, formatPrayerText }) => {
 
         // Füge die Sources in der richtigen Reihenfolge hinzu
         if (isHighRank) {
-            sources = [...sources, ...communeSources, 'wt'];
+            sources = [...sources, ...communeSources, useWt];
         } else {
-            sources = [...sources, 'wt', ...communeSources];
+            sources = [...sources, useWt, ...communeSources];
         }
 
-        console.log('HymnSelector: sources =', sources)
         return sources;
-    }, [texts, hour, prefSrc]);
-
-    const hymnTypes = ['hymn_nacht', 'hymn_1', 'hymn_2', 'hymn_3', 'hymn_kl'];
+    }, [texts, hour, prefSrc, prefSollemnity]);
 
     // Sammle alle verfügbaren Hymnen
     const availableHymns = useMemo(() => {
         const hymns = [];
         const usedHymnNumbers = new Set();
         const hasNachtHymn = texts[hour]?.wt?.hymn_nacht?.text;
+
+        let hymnTypes = ['hymn_nacht', 'hymn_1', 'hymn_2', 'hymn_3', 'hymn_kl'];
+        if (prefSollemnity) {
+            hymnTypes = ['hymn_1', 'hymn_2', 'hymn_3']
+        }
 
         sourceOrder.forEach(sourcePath => {
             const pathParts = sourcePath.split('.');

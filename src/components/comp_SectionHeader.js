@@ -28,14 +28,17 @@ export const SectionHeader = ({
     hour,
     prefSrc,
     prefSollemnity,
+    rank_wt,
     rank_date,
     localPrefComm,
     localPrefPsalmsWt,
+    localPrefErgPs,
     localPrefContinuous,
     localPrefInv,
     setLocalPrefLatin,
     setLocalPrefInv,
     setLocalPrefPsalmsWt,
+    setLocalPrefErgPs,
     setLocalPrefContinuous,
     setLocalPrefComm
 }) => {
@@ -49,6 +52,8 @@ export const SectionHeader = ({
     const showPsalmsWt = hasEig && hasWt &&
         title === 'PSALMODIE' && (hour !== 'invitatorium' && hour !== 'komplet');
     const showTSN = askTSN && ["terz", "sext", "non"].includes(hour);
+    const showErgPs = title === 'PSALMODIE' && ["terz", "sext", "non"].includes(hour)
+        && !(prefSollemnity || rank_date === 5 || rank_wt === 5);
 
     // Prüfe, ob Commune übersprungen werden soll
     let skipCommune = false;
@@ -71,10 +76,13 @@ export const SectionHeader = ({
         (texts?.hasErsteVesper && hour === 'vesper')
     ) { skipCommune = false };
 
+    if (prefSollemnity && !showComm2) { skipCommune = true }
+
     if (title === "HYMNUS") { skipCommune = true };
 
     if (title === "RESPONSORIUM" ||
-        (!invPsalms && !showSources && !hasLatin && !showPsalmsWt && !showContinuous && !showTSN)) {
+        (!invPsalms && !showSources && !hasLatin
+            && !showPsalmsWt && !showContinuous && !showTSN && !showErgPs)) {
         return <h2 className="prayer-heading">{title}</h2>;
     }
 
@@ -106,7 +114,6 @@ export const SectionHeader = ({
                     ))}
                 </span>
             )}
-
             {showPsalmsWt && (
                 <span className="font-normal text-[0.85em]">
                     <button
@@ -123,6 +130,13 @@ export const SectionHeader = ({
                         vom Wt
                     </button>
                 </span>
+            )}
+            {showErgPs && (
+                <button
+                    onClick={() => setLocalPrefErgPs(prev => !prev)}
+                    className={`font-normal text-[0.85em] ${localPrefErgPs ? 'underline' : ''}`}                >
+                    ErgPs
+                </button>
             )}
             {showContinuous && (
                 <span className="font-normal text-[0.85em]">

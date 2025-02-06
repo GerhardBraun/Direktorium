@@ -1,10 +1,12 @@
 export const getValue = ({ hour, texts, field,
-    prefSrc, prefSollemnity,
-    localPrefComm, localPrefPsalmsWt, localPrefContinuous, localPrefKomplet }) => {
+    prefSrc, prefSollemnity, localPrefComm,
+    localPrefPsalmsWt, localPrefErgPs,
+    localPrefContinuous, localPrefKomplet }) => {
     if (!hour || !texts || !texts[hour]) {
         return null;
     }
 
+    // Sonderfall Komplet
     if (hour === 'komplet') {
         if (localPrefKomplet === 'wt') {
             if (!texts?.komplet?.showKompletWt) { return null }
@@ -21,7 +23,8 @@ export const getValue = ({ hour, texts, field,
     const { rank_date = 0, rank_wt = 0, isCommemoration, hasErsteVesper = false } = texts;
 
     // Feier wie ein Hochfest
-    const isSollemnity = (hour === 'vesper' && hasErsteVesper) || prefSollemnity
+    const isSollemnity = (hour === 'vesper' && hasErsteVesper)
+        || prefSollemnity || rank_date === 5 || rank_wt === 5
 
     // Bei Vesper als Hochfest
     if (hour === 'vesper' && prefSollemnity) { hour = 'prefsollemnity'; }
@@ -34,9 +37,12 @@ export const getValue = ({ hour, texts, field,
         return null;
     }
 
+    // Sonderfall Ergänzungspsalmodie
+    if ((isSollemnity || localPrefErgPs) && texts[hour]?.['soll']?.[field]
+    ) { return texts[hour]?.['soll']?.[field] }
+
     // Abruf der Werte für die Kommemoration
     if (field.startsWith('c_')) {
-        console.log('Abruf Kommemoration: \nhour/prefSrc/field\n', hour, prefSrc, field)
         field = field.substring(2);
         if (texts[hour][prefSrc]?.[field]) {
             return texts[hour][prefSrc][field];
@@ -54,12 +60,12 @@ export const getValue = ({ hour, texts, field,
     let skipCommune = false;
     if (rank_date < 3 && (  // an Gedenktagen
         (hour === 'lesehore' && // Lesehore: nur Hymnus und Oration ggf. Commune
-            !field.startsWith('hymn_') && field !== 'oration') ||
+            field !== 'oration') ||
         ((hour === 'laudes' || hour === 'vesper') &&  // Laudes/Vesper Psalmodie
             (field.startsWith('ps_') ||
                 (field.startsWith('ant_') && !field.startsWith('ant_ev'))
             )) ||
-        ['terz', 'sext', 'non'].includes(hour)) // Kleinen Horen: ganz vom Wt
+        ['terz', 'sext', 'non'].includes(hour)) // Kleine Horen: ganz vom Wt
     ) { skipCommune = true }
 
     if (rank_date < 5 &&    // an Festen: Ant und Ps in Kleinen Horen vom Wt
@@ -69,37 +75,28 @@ export const getValue = ({ hour, texts, field,
 
     if (isSollemnity) { skipCommune = false }
 
-    const fallbackCom1 = !skipCommune &&
-        (localPrefComm === 1 || prefSollemnity ||
-            (texts.hasErsteVesper && hour === 'vesper'));
-    const fallbackCom2 = !skipCommune &&
-        (localPrefComm === 2 || prefSollemnity ||
-            (texts.hasErsteVesper && hour === 'vesper'));
+    const prefTexts = texts[hour]?.[prefSrc];
+    let prefCommTexts = '';
+    if (!skipCommune) {
+        if (localPrefComm === 1
+            || (isSollemnity && localPrefComm === 0)
+        ) { prefCommTexts = prefTexts?.['com1'] }
+        if (localPrefComm === 2
+        ) { prefCommTexts = prefTexts?.['com2'] }
+    }
 
     if ((!isCommemoration &&    // an Tagen mit Kommemoration und in Kl. Horen an Gedenktagen nur wt-Werte
         !(rank_date < 3 && ['terz', 'sext', 'non'].includes(hour)))
         || isSollemnity) {
-        // Sonderfall Hymnen
-        if ((field === 'hymn_kl' || field === 'hymn_nacht') &&
-            (texts[hour]?.[prefSrc]?.['hymn_1']
-                || prefSollemnity
-                || (fallbackCom1 && texts[hour]?.[prefSrc]?.['com1']?.['hymn_1'])
-                || (fallbackCom2 && texts[hour]?.[prefSrc]?.['com2']?.['hymn_1'])
-            )) { return null }
 
         //Sonderfall Antiphonen
         if (field === 'ant_0' &&
-            (texts[hour]?.['eig']?.['ant_1']
-                || (fallbackCom1 && texts[hour]?.[prefSrc]?.['com1']?.['ant_1'])
-                || (fallbackCom2 && texts[hour]?.[prefSrc]?.['com2']?.['ant_1']))
+            (prefTexts?.['ant_1'] || prefCommTexts?.['ant_1'])
         ) { return null }
 
-        if (field.startsWith('ant_') && field !== 'ant_0') {
-            if (texts[hour]?.['eig']?.['ant_0']
-                || (fallbackCom1 && texts[hour]?.[prefSrc]?.['com1']?.['ant_0'])
-                || (fallbackCom2 && texts[hour]?.[prefSrc]?.['com2']?.['ant_0'])
-            ) { return null }
-        }
+        if ((field === 'ant_1' || field === 'ant_2' || field === 'ant_3') &&
+            (prefTexts?.['ant_0'] || prefCommTexts?.['ant_0'])
+        ) { return null }
 
         //Sonderfall Wochentagspsalmen
         if (hour !== 'invitatorium' && hour !== 'komplet' &&
@@ -116,22 +113,17 @@ export const getValue = ({ hour, texts, field,
         ) { return texts[hour]?.['wt']?.[field] }
 
         // 1. Prüfe zuerst prefSrc
-        if (texts[hour][prefSrc]?.[field]) {
-            return texts[hour][prefSrc][field];
+        if (prefTexts?.[field]) {
+            return prefTexts[field]
         }
 
-        // 2. & 3. Prüfe Commune nur wenn nicht übersprungen werden soll
-        if (!skipCommune) {
-            // Prüfe com2 wenn prefComm = 2
-            if (fallbackCom2 && texts[hour][prefSrc]?.['com2']?.[field]) {
-                return texts[hour][prefSrc]?.['com2'][field];
-            }
-            // Prüfe com1 wenn prefComm = 1 oder prefSollemnity gewählt ist
-            if (fallbackCom1 && texts[hour][prefSrc]?.['com1']?.[field]) {
-                return texts[hour][prefSrc]?.['com1'][field];
-            }
+        // 2. Prüfe Commune (prefCommTexts ist leer, wenn Commune übersprungen werden soll)
+        // Prüfe com2 wenn prefComm = 2
+        if (prefCommTexts?.[field]) {
+            return prefCommTexts[field]
         }
     }
+
 
     // 4. Verwende "wt" als letzte Option
     if (texts[hour]['wt']?.[field]) {

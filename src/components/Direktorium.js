@@ -1090,6 +1090,7 @@ const PrayerTextDisplay = ({
     const [localPrefLatin, setLocalPrefLatin] = useState(false);
     const [localPrefContinuous, setLocalPrefContinuous] = useState(false);
     const [localPrefPsalmsWt, setLocalPrefPsalmsWt] = useState(false);
+    const [localPrefErgPs, setLocalPrefErgPs] = useState(false);
     const [localPrefKomplet, setLocalPrefKomplet] = useState(texts?.komplet?.prefKomplet || 'wt');
     const [localPrefInv, setLocalPrefInv] = useState(texts?.prefInv || 95);
 
@@ -1097,9 +1098,7 @@ const PrayerTextDisplay = ({
         return <div className="p-4">Keine Daten verfügbar</div>;
     }
 
-    const doxology = "Ehre sei dem Vater und dem Sohn^*und dem Heiligen Geist,^pwie im Anfang so auch jetzt und alle Zeit^*und in Ewigkeit. Amen.";
-    const easterAntiphon = "^p^rAnstelle des Responsoriums wird die°folgende°Antiphon°genommen:^0r^lDas ist der Tag, den der Herr gemacht hat. Lasst°uns°jubeln und seiner uns freuen. Halleluja."
-    const { prefComm = 0, rank_wt = 0, rank_date = 0, isCommemoration } = texts;
+    const { rank_wt = 0, rank_date = 0, isCommemoration } = texts;
 
     // Get value from sources in priority order: prefSrc -> com1/com2 -> wt
     const getValue = (field) => extGetValue({
@@ -1108,6 +1107,7 @@ const PrayerTextDisplay = ({
         prefSollemnity,
         localPrefComm,
         localPrefPsalmsWt,
+        localPrefErgPs,
         localPrefContinuous,
         localPrefKomplet,
         texts,
@@ -1127,14 +1127,17 @@ const PrayerTextDisplay = ({
             hour,
             prefSrc,
             prefSollemnity,
+            rank_wt,
             rank_date,
             localPrefComm,
             localPrefPsalmsWt,
+            localPrefErgPs,
             localPrefContinuous,
             localPrefInv,
             setLocalPrefLatin,
             setLocalPrefInv,
             setLocalPrefPsalmsWt,
+            setLocalPrefErgPs,
             setLocalPrefContinuous,
             setLocalPrefComm
         });
@@ -1233,6 +1236,7 @@ const PrayerTextDisplay = ({
                             texts={texts}
                             hour={hour}
                             prefSrc={prefSrc}
+                            prefSollemnity={prefSollemnity}
                             formatPrayerText={formatPrayerText}
                         />
 
