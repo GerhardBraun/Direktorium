@@ -22,13 +22,6 @@ const KompletSelector = ({
         }
     };
 
-    // Bestimme die Button-Text für "Vom Wochentag"
-    const getWtButtonText = () => {
-        if (askSelection) {
-            return 'Bitte wählen Sie:';
-        }
-        return 'Komplet vom Wochentag';
-    };
     // Gemeinsame Button-Styles
     const getButtonStyle = (value) => {
         const isSelected = localPrefKomplet === value;

@@ -641,7 +641,7 @@ export function processBrevierData(todayDate) {
         ((dayOfWeek === 6 && rankDate < 4) || nextRankWt === 5);
     const hasErsteVesper_date = rankWt < 5 && rankDate < 5 && nextRankDate > nextRankWt &&
         (nextRankDate === 5 || (nextRankDate === 4 && dayOfWeek === 6));
-    console.log('brevierDataProcessor:\n(rankWt/Date) / (nextRankWt/Date) / dayOfWeek: (',
+    console.log('brevierDataProcessor:\n(rank_Wt/Date) / (nextRank_Wt/Date) / dayOfWeek:\n(',
         rankWt, rankDate, ') (', nextRankWt, nextRankDate, ') ', dayOfWeek, '\n1. Vesper wt/date: ', hasErsteVesper_wt, hasErsteVesper_date)
 
     // Stelle die endgültigen Daten zusammen

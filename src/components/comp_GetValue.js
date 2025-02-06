@@ -89,7 +89,7 @@ export const getValue = ({ hour, texts, field,
         !(rank_date < 3 && ['terz', 'sext', 'non'].includes(hour)))
         || isSollemnity) {
 
-        //Sonderfall Antiphonen
+        //Sonderfall Antiphonen: entweder ant_0 oder ant_1-3
         if (field === 'ant_0' &&
             (prefTexts?.['ant_1'] || prefCommTexts?.['ant_1'])
         ) { return null }
@@ -99,33 +99,29 @@ export const getValue = ({ hour, texts, field,
         ) { return null }
 
         //Sonderfall Wochentagspsalmen
-        if (hour !== 'invitatorium' && hour !== 'komplet' &&
-            field.startsWith('ps_') &&
-            localPrefPsalmsWt
+        if (localPrefPsalmsWt &&
+            hour !== 'invitatorium' && hour !== 'komplet' &&
+            field.startsWith('ps_')
         ) { return texts[hour]?.['wt']?.[field] }
 
         //Sonderfall Bahnlesung
-        if (hour === 'lesehore' &&
-            (field.startsWith('les_') ||
-                field.startsWith('resp1_') ||
-                field.startsWith('patr_')) &&
-            localPrefContinuous
+        if (localPrefContinuous &&
+            hour === 'lesehore' &&
+            (field.startsWith('les_')
+                || field.startsWith('resp1_')
+                || field.startsWith('patr_'))
         ) { return texts[hour]?.['wt']?.[field] }
 
         // 1. Prüfe zuerst prefSrc
         if (prefTexts?.[field]) {
             return prefTexts[field]
         }
-
         // 2. Prüfe Commune (prefCommTexts ist leer, wenn Commune übersprungen werden soll)
-        // Prüfe com2 wenn prefComm = 2
         if (prefCommTexts?.[field]) {
             return prefCommTexts[field]
         }
     }
-
-
-    // 4. Verwende "wt" als letzte Option
+    // 3. Verwende "wt" als letzte Option
     if (texts[hour]['wt']?.[field]) {
         return texts[hour]['wt'][field];
     }

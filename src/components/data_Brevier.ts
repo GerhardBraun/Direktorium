@@ -70,85 +70,40 @@ export const brevierData = {
   "4": {
     "each": {
       "0": {
-        "Terz": {
-          "ps_1": 118.1,
-          "ps_2": 118.2,
-          "ps_3": 118.3,
-          "ant_1": "Gut ist es, sich zu bergen beim Herrn; seine Huld währt ewig. Halleluja.",
-          "ant_2": "Meine Stärke und mein Lied ist der Herr. Halleluja.",
-          "ant_3": "Ich danke dir, Herr, denn du hast mich erhört. Halleluja."
-        }
-      },
-      "each": {
-        "Laudes": {
-          "ps_1": 63.0,
-          "ps_2": 160.0,
-          "ps_3": 149.0
-        },
-        "Lesehore": {
-          "vu": 406.0,
-          "vu_lat": 407.0
-        }
-      }
-    }
-  },
-  "5": {
-    "each": {
-      "0": {
-        "Terz": {
-          "ps_1": 118.1,
-          "ps_2": 118.2,
-          "ps_3": 118.3,
-          "ant_1": "Gut ist es, sich zu bergen beim Herrn; seine Huld währt ewig. Halleluja.",
-          "ant_2": "Meine Stärke und mein Lied ist der Herr. Halleluja.",
-          "ant_3": "Ich danke dir, Herr, denn du hast mich erhört. Halleluja."
-        }
-      },
-      "each": {
-        "ErsteK": {
-          "hymn_2": 516.0,
-          "ps_1": 4.0,
-          "ps_2": 134.0,
-          "ant_1": "Sei mir gnädig, Herr, und höre auf mein Flehen.",
-          "ant_2": "Zu nächtlicher Stunde preiset den Herrn.",
-          "les_buch": "Dtn",
-          "les_stelle": "6,4–7",
-          "les_text": "Höre, Israel! Jahwe, unser Gott, Jahwe ist einzig. Dar­um sollst du den Herrn, deinen Gott, lieben mit gan­zem Herzen, mit ganzer Seele und mit ganzer Kraft. Diese Worte, auf die ich dich heute verpflichte, sollen auf deinem Herzen geschrieben stehen. Du sollst sie deinen Söhnen wiederholen. Du sollst von ihnen reden, wenn du zu Hause sitzt und wenn du auf der Straße gehst, wenn du dich schlafen legst und wenn du aufstehst.",
-          "oration_komplet": "Herr und Gott, kehre ein in dieses Haus und halte alle Nachstellungen des Feindes von ihm fern. Deine heiligen Engel mögen darin wohnen und uns im Frieden bewahren. Und dein Segen sei über uns allezeit. Darum bitten wir durch Christus, unsern Herrn. Amen."
-        },
-        "Komplet": {
-          "hymn_2": 510.0,
-          "ps_1": 91.0,
-          "ps_2": 0.0,
-          "ant_0": "Mit seinen Flügeln beschirmt dich der Herr; du brauchst dich nicht zu fürchten vor dem Schrecken der Nacht.",
-          "les_buch": "Offb",
-          "les_stelle": "22,4–5",
-          "les_text": "Sie werden sein Angesicht schauen, und sein Name ist auf ihre Stirn geschrieben. Es wird keine Nacht mehr geben, und sie brauchen weder das Licht einer Lampe noch das Licht der Sonne. Denn der Herr, ihr Gott, wird über ihnen leuchten, und sie werden herrschen in alle Ewigkeit.",
-          "oration_komplet": "Herr und Gott, kehre ein in dieses Haus und halte alle Nachstellungen des Feindes von ihm fern. Deine heiligen Engel mögen darin wohnen und uns im Frieden bewahren. Und dein Segen sei über uns allezeit. Darum bitten wir durch Christus, unsern Herrn. Amen."
-        },
-        "Laudes": {
-          "ps_1": 63.0,
-          "ps_2": 160.0,
-          "ps_3": 149.0
-        },
-        "Lesehore": {
-          "vu": 406.0,
-          "vu_lat": 407.0
-        },
         "Non": {
-          "ps_1": 126.0,
-          "ps_2": 127.0,
-          "ps_3": 128.0
+          "ps_1": 118.1,
+          "ps_2": 118.2,
+          "ps_3": 118.3,
+          "ant_1": "Gut ist es, sich zu bergen beim Herrn; seine Huld währt ewig. Halleluja.",
+          "ant_2": "Meine Stärke und mein Lied ist der Herr. Halleluja.",
+          "ant_3": "Ich danke dir, Herr, denn du hast mich erhört. Halleluja."
         },
         "Sext": {
-          "ps_1": 123.0,
-          "ps_2": 124.0,
-          "ps_3": 125.0
+          "ps_1": 118.1,
+          "ps_2": 118.2,
+          "ps_3": 118.3,
+          "ant_1": "Gut ist es, sich zu bergen beim Herrn; seine Huld währt ewig. Halleluja.",
+          "ant_2": "Meine Stärke und mein Lied ist der Herr. Halleluja.",
+          "ant_3": "Ich danke dir, Herr, denn du hast mich erhört. Halleluja."
         },
         "Terz": {
-          "ps_1": 120.0,
-          "ps_2": 121.0,
-          "ps_3": 122.0
+          "ps_1": 118.1,
+          "ps_2": 118.2,
+          "ps_3": 118.3,
+          "ant_1": "Gut ist es, sich zu bergen beim Herrn; seine Huld währt ewig. Halleluja.",
+          "ant_2": "Meine Stärke und mein Lied ist der Herr. Halleluja.",
+          "ant_3": "Ich danke dir, Herr, denn du hast mich erhört. Halleluja."
+        }
+      },
+      "each": {
+        "Laudes": {
+          "ps_1": 63.0,
+          "ps_2": 160.0,
+          "ps_3": 149.0
+        },
+        "Lesehore": {
+          "vu": 406.0,
+          "vu_lat": 407.0
         }
       }
     }
@@ -14855,6 +14810,36 @@ export const brevierData = {
         }
       },
       "each": {
+        "ErsteK": {
+          "hymn_2": 516.0,
+          "ps_1": 4.0,
+          "ps_2": 134.0,
+          "ant_1": "Sei mir gnädig, Herr, und höre auf mein Flehen.",
+          "ant_2": "Zu nächtlicher Stunde preiset den Herrn.",
+          "les_buch": "Dtn",
+          "les_stelle": "6,4–7",
+          "les_text": "Höre, Israel! Jahwe, unser Gott, Jahwe ist einzig. Dar­um sollst du den Herrn, deinen Gott, lieben mit gan­zem Herzen, mit ganzer Seele und mit ganzer Kraft. Diese Worte, auf die ich dich heute verpflichte, sollen auf deinem Herzen geschrieben stehen. Du sollst sie deinen Söhnen wiederholen. Du sollst von ihnen reden, wenn du zu Hause sitzt und wenn du auf der Straße gehst, wenn du dich schlafen legst und wenn du aufstehst.",
+          "oration_komplet": "Herr und Gott, kehre ein in dieses Haus und halte alle Nachstellungen des Feindes von ihm fern. Deine heiligen Engel mögen darin wohnen und uns im Frieden bewahren. Und dein Segen sei über uns allezeit. Darum bitten wir durch Christus, unsern Herrn. Amen."
+        },
+        "Komplet": {
+          "hymn_2": 510.0,
+          "ps_1": 91.0,
+          "ps_2": 0.0,
+          "ant_0": "Mit seinen Flügeln beschirmt dich der Herr; du brauchst dich nicht zu fürchten vor dem Schrecken der Nacht.",
+          "les_buch": "Offb",
+          "les_stelle": "22,4–5",
+          "les_text": "Sie werden sein Angesicht schauen, und sein Name ist auf ihre Stirn geschrieben. Es wird keine Nacht mehr geben, und sie brauchen weder das Licht einer Lampe noch das Licht der Sonne. Denn der Herr, ihr Gott, wird über ihnen leuchten, und sie werden herrschen in alle Ewigkeit.",
+          "oration_komplet": "Herr und Gott, kehre ein in dieses Haus und halte alle Nachstellungen des Feindes von ihm fern. Deine heiligen Engel mögen darin wohnen und uns im Frieden bewahren. Und dein Segen sei über uns allezeit. Darum bitten wir durch Christus, unsern Herrn. Amen."
+        },
+        "Laudes": {
+          "ps_1": 63.0,
+          "ps_2": 160.0,
+          "ps_3": 149.0
+        },
+        "Lesehore": {
+          "vu": 406.0,
+          "vu_lat": 407.0
+        },
         "Non": {
           "ps_1": 126.0,
           "ps_2": 127.0,

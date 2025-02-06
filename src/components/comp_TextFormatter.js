@@ -58,7 +58,7 @@ export const formatText = (text) => {
 
 // Formatiert Gebetstext mit speziellen Tags und saisonalen Anpassungen
 export const formatPrayerText = (provText, ant = '', season = '', week = null) => {
-    if (!provText) return null;
+    if (!provText || provText === 'LEER') return null;
 
     let text = ant ? `^r${ant}^0r${provText}` : provText;
     text = text

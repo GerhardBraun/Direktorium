@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
-import { Menu, Coffee } from 'lucide-react';
+import { Menu, MonitorCheck } from 'lucide-react';
 import useWakeLock from './comp_WakeLock.js';
 import React from 'react';
 import { liturgicalData } from './data_Direktorium.ts';
@@ -16,6 +16,7 @@ import { psalmsData } from './data_PsHymn.ts';
 import KompletSelector from './comp_KompletSelector.js';
 import HymnSelector from './comp_HymnSelector.js';
 import { formatPsalm, formatText, formatPrayerText as extFormatPrayerText } from './comp_TextFormatter.js';
+import NavigationButtons from './comp_NavigationButtons.js';
 
 const fontFamily = 'Cambria, serif';
 const hangingIndent = '3.2em'; // Variable für den Einzug
@@ -1197,7 +1198,13 @@ const PrayerTextDisplay = ({
 
     return (
         <div className="leading-[1.33em] pb-8">
-            <BackButton onClick={onBack} />
+            <NavigationButtons
+                hour={hour}
+                topButton={true}
+                onBack={onBack}
+                onSelectHour={onSelectHour}
+                texts={texts}
+            />
             <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6 pb-1">
                 {hour === 'komplet' ? (
                     <KompletSelector
@@ -1521,9 +1528,16 @@ const PrayerTextDisplay = ({
                     </div>)
                 }
             </div>
+
             <div className="mt-2">
-                <BackButton onClick={onBack} />
+                <NavigationButtons
+                    hour={hour}
+                    onBack={onBack}
+                    onSelectHour={onSelectHour}
+                    texts={texts}
+                />
             </div>
+
 
             {isCommemoration && !prefSollemnity && !(hour === 'vesper' && texts.hasErsteVesper) &&
                 ['lesehore', 'laudes', 'vesper'].includes(hour) &&
@@ -1609,7 +1623,12 @@ const PrayerTextDisplay = ({
                                 </div>)}
                         </div>
                         <div className="mt-2">
-                            <BackButton onClick={onBack} />
+                            <NavigationButtons
+                                hour={hour}
+                                onBack={onBack}
+                                onSelectHour={onSelectHour}
+                                texts={texts}
+                            />
                         </div>
                     </>)}
         </div>
@@ -2468,28 +2487,25 @@ export default function LiturgicalCalendar() {
                                 </>
                             )}
 
-                            {/* WakeLock-Indikator In der Navigation Bar, vor dem StB Button */}
-                            <div className="flex items-center justify-center px-0">
+
+                            {/* Right-aligned controls wrapper */}
+                            <div className="flex items-center gap-2 ml-auto">
+                                {/* WakeLock indicator */}
                                 {wakeLock.isSupported ? (
-                                    <div className="flex items-center gap-1">
-                                        <Coffee
-                                            className={`w-4 ${wakeLock.isActive
-                                                ? "text-orange-500 dark:text-yellow-400"
-                                                : "text-gray-400 dark:text-gray-600"
-                                                }`}
-                                        />
-                                    </div>
+                                    <MonitorCheck
+                                        className={`w-4 ${wakeLock.isActive
+                                            ? "text-orange-500 dark:text-yellow-400"
+                                            : "text-gray-400 dark:text-gray-600"
+                                            }`}
+                                    />
                                 ) : (
-                                    <div className="flex items-center gap-0">
-                                        <Coffee className="w-4 text-red-600/60 dark:text-red-800/80" />
-                                    </div>
+                                    <MonitorCheck className="w-4 text-red-600/60 dark:text-red-800/80" />
                                 )}
-                            </div>
-                            {/* StB Button ist immer sichtbar */}
-                            <div className={viewMode === 'prayerText' ? 'flex-1 flex justify-end' : ''}>
+
+                                {/* StB Button */}
                                 <button
                                     onClick={() => setViewMode('prayer')}
-                                    className="shrink-0 px-4 py-2 bg-orange-100 dark:bg-yellow-400/60 hover:bg-orange-200 dark:hover:bg-yellow-400/70 rounded"
+                                    className="shrink-0 px-3 py-2 bg-orange-100 dark:bg-yellow-400/60 hover:bg-orange-200 dark:hover:bg-yellow-400/70 rounded"
                                     title="Stundengebet"
                                 >
                                     StB

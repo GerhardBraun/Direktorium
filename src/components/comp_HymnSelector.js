@@ -142,7 +142,7 @@ const HymnSelector = ({ texts, hour, prefSrc, prefSollemnity, formatPrayerText }
                 <button
                     key={hymn.id}
                     onClick={() => setSelectedHymn(hymn.id)}
-                    className={`w-full text-sm text-left pl-2 p-1 mt-1 rounded 
+                    className={`w-full text-sm text-left pl-2 pt-2 pb-1 mt-1 rounded 
                         ${getButtonColor(hymn.id.split('_')[0])}
                         ${selectedHymn === hymn.id ? 'ring-2 ring-yellow-500' : ''}`}
                 >
