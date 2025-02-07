@@ -13,7 +13,7 @@ interface DeceasedData {
   };
 }
 
-export const deceasedData = {
+export const deceasedData =  {
   "1": {
     "1": [
       {
@@ -1024,7 +1024,7 @@ export const deceasedData = {
         "year": 2025,
         "birthdate": "2247-06-19",
         "name": "Josef°Gebauer, Diakon°i.R., Fulda",
-        "birth": "19.°Juni°1947°in°Guggenberg (D¥-63928°Eichenbühl)",
+        "birth": "19.°Juni°1947°in°Guggenberg (D¥-63928 Eichenbühl)",
         "grave": "Friedhof°am°Frauenberg,°Fulda",
         "age": 77
       }
@@ -1173,6 +1173,14 @@ export const deceasedData = {
         "birth": "7.°April°1935°in°Gdynia (PL¥-81¥-...)",
         "grave": "Hauptfriedhof°Kassel",
         "age": 75
+      },
+      {
+        "year": 2025,
+        "birthdate": "2240-03-12",
+        "name": "P.°Klaus¥-Peter°Dewes°SDB",
+        "birth": "12.°März°1940°in°Köln",
+        "grave": "Friedhof°Köln¥-Stammheim",
+        "age": 84
       }
     ],
     "2": [

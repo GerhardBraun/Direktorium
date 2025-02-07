@@ -881,9 +881,9 @@ const DeceasedEntry = ({
 // Prayer Menu Component
 const PrayerMenu = ({ title, onSelectHour, viewMode, setViewMode, season,
     onPrevDay, onNextDay, selectedDate,
-    prefSrc, prefSollemnity, setPrefSollemnity,
-    useCommemoration, setUseCommemoration,
-    onSourceSelect
+    prefSrc, setPrefSrc,
+    prefSollemnity, setPrefSollemnity,
+    useCommemoration, setUseCommemoration
 }) => {
     const [liturgicalInfo, setLiturgicalInfo] = useState(null);
     const [prayerTexts, setPrayerTexts] = useState(null);  // Neuer State für die Gebetstext-Daten
@@ -901,7 +901,8 @@ const PrayerMenu = ({ title, onSelectHour, viewMode, setViewMode, season,
     }, [selectedDate, prefSrc]);
 
     useEffect(() => {
-        onSourceSelect('eig', false);
+        setPrefSrc('eig');
+        setPrefSollemnity(false);
     }, [selectedDate]);
 
     return (
@@ -937,15 +938,14 @@ const PrayerMenu = ({ title, onSelectHour, viewMode, setViewMode, season,
             {/* Source Selector */}
             <SourceSelector
                 prayerTexts={prayerTexts}
-                selectedSource={prefSrc}
+                prefSrc={prefSrc}
                 prefSollemnity={prefSollemnity}
                 useCommemoration={useCommemoration}
+                setPrefSrc={setPrefSrc}
+                setPrefSollemnity={setPrefSollemnity}
                 setUseCommemoration={setUseCommemoration}
                 viewMode={viewMode}
                 season={season}
-                onSourceSelect={(source, newPrefSrc, newSollemnity) => {
-                    onSourceSelect(newPrefSrc, newSollemnity);  // Aktualisiert
-                }}
                 className="mb-4"
             />
 
@@ -1083,9 +1083,9 @@ const BackButton = ({ onClick }) => (
 // Prayer Text Display Component
 const PrayerTextDisplay = ({
     hour, texts, season, onBack, viewMode, onUpdateTexts,
-    prefSrc, prefSollemnity, setPrefSollemnity,
+    prefSrc, setPrefSrc, prefSollemnity, setPrefSollemnity,
     useCommemoration, setUseCommemoration,
-    onSourceSelect, onSelectHour
+    onSelectHour
 }) => {
     const [localPrefComm, setLocalPrefComm] = useState(texts?.prefComm || 0);
     const [localPrefLatin, setLocalPrefLatin] = useState(false);
@@ -1216,17 +1216,15 @@ const PrayerTextDisplay = ({
                 ) : (
                     <SourceSelector
                         prayerTexts={texts}
-                        selectedSource={prefSrc}
+                        prefSrc={prefSrc}
                         prefSollemnity={prefSollemnity}
                         useCommemoration={useCommemoration}
+                        setPrefSrc={setPrefSrc}
+                        setPrefSollemnity={setPrefSollemnity}
                         setUseCommemoration={setUseCommemoration}
                         viewMode={viewMode}
                         season={season}
                         hour={hour}
-                        onSourceSelect={(source, newPrefSrc, newSollemnity) => {
-                            onSourceSelect(newPrefSrc);
-                            setPrefSollemnity(newSollemnity);
-                        }}
                         className="mb-4"
                     />
                 )}
@@ -1546,20 +1544,17 @@ const PrayerTextDisplay = ({
                         <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6 pb-1">
                             <SourceSelector
                                 prayerTexts={texts}
-                                selectedSource={prefSrc}
+                                prefSrc={prefSrc}
                                 prefSollemnity={prefSollemnity}
                                 useCommemoration={useCommemoration}
+                                setPrefSrc={setPrefSrc}
+                                setPrefSollemnity={setPrefSollemnity}
                                 setUseCommemoration={setUseCommemoration}
                                 viewMode={viewMode}
                                 season={season}
                                 hour={hour}
-                                reduced={true}
-                                onSourceSelect={(
-                                    source, newPrefSrc, newSollemnity) => {
-                                    onSourceSelect(newPrefSrc);
-                                    setPrefSollemnity(newSollemnity);
-                                }}
                                 className="mb-4"
+                                reduced={true}
                             />
 
                             {getValue('c_patr_text') && (
@@ -1673,6 +1668,7 @@ export default function LiturgicalCalendar() {
     });
     const [prefSrc, setPrefSrc] = useState('eig');
     const [prefSollemnity, setPrefSollemnity] = useState(false);
+    const sollemnityErsteVesper = () => ['soll', 'dec'].includes(prefSollemnity)
     const [useCommemoration, setUseCommemoration] = useState(false);
     const [selectedHour, setSelectedHour] = useState(null);
     const [prayerTexts, setPrayerTexts] = useState(null);
@@ -2525,14 +2521,11 @@ export default function LiturgicalCalendar() {
                             season={currentSeason}
                             selectedDate={selectedDate}
                             prefSrc={prefSrc}
+                            setPrefSrc={setPrefSrc}
                             prefSollemnity={prefSollemnity}
                             setPrefSollemnity={setPrefSollemnity}
                             useCommemoration={useCommemoration}
                             setUseCommemoration={setUseCommemoration}
-                            onSourceSelect={(newPrefSrc, newSollemnity) => {
-                                setPrefSrc(newPrefSrc);
-                                setPrefSollemnity(newSollemnity);
-                            }}
                             onSelectHour={(hour, texts) => {
                                 setSelectedHour(hour);
                                 setPrayerTexts(texts);
@@ -2557,14 +2550,11 @@ export default function LiturgicalCalendar() {
                             viewMode={viewMode}
                             season={currentSeason}
                             prefSrc={prefSrc}
+                            setPrefSrc={setPrefSrc}
                             prefSollemnity={prefSollemnity}
                             setPrefSollemnity={setPrefSollemnity}
                             useCommemoration={useCommemoration}
                             setUseCommemoration={setUseCommemoration}
-                            onSourceSelect={(newPrefSrc, newSollemnity) => {
-                                setPrefSrc(newPrefSrc);
-                                setPrefSollemnity(newSollemnity);
-                            }}
                             onBack={() => setViewMode('prayer')}
                             onSelectHour={(hour) => {
                                 setSelectedHour(hour);

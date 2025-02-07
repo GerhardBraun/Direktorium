@@ -54,6 +54,7 @@ export const SectionHeader = ({
     const showTSN = askTSN && ["terz", "sext", "non"].includes(hour);
     const showErgPs = title === 'PSALMODIE' && ["terz", "sext", "non"].includes(hour)
         && !(prefSollemnity || rank_date === 5 || rank_wt === 5);
+    const sollemnityErsteVesper = () => ['soll', 'dec'].includes(prefSollemnity)
 
     // Prüfe, ob Commune übersprungen werden soll
     let skipCommune = false;

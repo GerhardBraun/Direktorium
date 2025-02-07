@@ -25,22 +25,24 @@ const getWeekdayButtonColor = (season) => {
 
 const SourceSelector = ({
     prayerTexts,
-    selectedSource,
-    onSourceSelect,
+    prefSrc, setPrefSrc,
+    prefSollemnity, setPrefSollemnity,
+    useCommemoration, setUseCommemoration,
     viewMode,
     hour = '',
     season = 'j',
-    prefSollemnity,  // nur der Wert, keine Setter-Funktion
-    useCommemoration, setUseCommemoration,
-    reduced,
+    reduced = false,
     className = ''
 }) => {
+    const sollemnityErsteVesper = () => ['soll', 'dec'].includes(prefSollemnity)
+
     // Funktion zum Behandeln der Quellenauswahl
     const handleSourceSelect = (source, setSollemnity = false) => {
         const newSollemnity = blockToggle || setSollemnity;
         if (!blockToggle || source !== 'wt') {
             const newPrefSrc = (source === 'wt') ? 'eig' : source;
-            onSourceSelect(source, newPrefSrc, newSollemnity);
+            setPrefSrc(newPrefSrc);
+            setPrefSollemnity(newSollemnity);
             if (isCommemoration && source !== 'wt') { setUseCommemoration(isCommemoration) };
             if (source === 'wt') { setUseCommemoration(false) }
         }
@@ -48,9 +50,10 @@ const SourceSelector = ({
 
     // Funktion für den Hochfest-Toggle
     const toggleSollemnity = () => {
+        console.log('SourceSelector: useToggle/blockToggle/prefSollemnity:', useToggle, blockToggle, prefSollemnity)
         if (useToggle && !blockToggle) {
             // Die aktuelle Quelle beibehalten, nur prefSollemnity umschalten
-            handleSourceSelect(selectedSource, !prefSollemnity)
+            handleSourceSelect(prefSrc, !prefSollemnity)
 
         }
     };
@@ -64,7 +67,7 @@ const SourceSelector = ({
             (hasN1 && !hasEig) ||
             (isCommemoration && (hasEig || hasN1))
         )
-    const useToggle = !(showWt && selectedSource === 'eig') || useCommemoration
+    const useToggle = !(showWt && prefSrc === 'eig') || useCommemoration
     const blockToggle = (viewMode === 'prayerText' && hour === 'erstev')
 
     if (!prayerTexts) return null;
@@ -84,7 +87,7 @@ const SourceSelector = ({
                     onClick={() => handleSourceSelect('wt')}
                     className={`w-full p-1 mb-1 text-sm text-center rounded-sm
                          ${getWeekdayButtonColor(season)}
-                        ${(selectedSource === 'eig' && !useCommemoration) ? 'ring-2 ring-yellow-500' : ''}`}
+                        ${(prefSrc === 'eig' && !useCommemoration) ? 'ring-2 ring-yellow-500' : ''}`}
                 >
                     Vom Wochentag
                 </button>
@@ -101,7 +104,7 @@ const SourceSelector = ({
             {/* Saint Selection Buttons */}
             {['eig', 'n1', 'n2', 'n3', 'n4', 'n5'].map(source => {
                 if (!hasValidSource(prayerTexts, source)) return null;
-                const doUnderline = selectedSource === source &&
+                const doUnderline = prefSrc === source &&
                     (!isCommemoration || (isCommemoration && useCommemoration))
                 return (
                     <button

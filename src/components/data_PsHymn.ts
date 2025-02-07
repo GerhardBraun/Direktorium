@@ -2517,7 +2517,7 @@ export const psalmsData = {
   505: {
     0.0: {
         "quote": "Komplet",
-        "text": "Sei gegrüßt, o°Königin,^lMutter der Barmherzigkeit;^lunser Leben, unsre Wonne^lund unsre Hoffnung, sei gegrüßt!^lZu dir rufen wir verbannte Kinder Evas;^lzu dir seufzen wir^ltrauernd und weinend in°diesem°Tal°der°Tränen.^pWohlan denn, unsre Fürsprecherin,^lwende deine barmherzigen Augen uns zu^lund nach diesem Elend zeige uns Jesus,^ldie gebenedeite Frucht deines Leibes!^lO gütige, o°milde, o°süße°Jungfrau°Maria!"
+        "text": "Sei gegrüßt, o°Königin,^lMutter der Barmherzigkeit;^lunser Leben, unsre Wonne^lund unsre Hoffnung, sei gegrüßt!^lZu dir rufen wir verbannte Kinder Evas;^lzu dir seufzen wir^ltrauernd und weinend in°diesem°Tal°der°Tränen.^lWohlan denn, unsre Fürsprecherin,^lwende deine barmherzigen Augen uns zu^lund nach diesem Elend zeige uns Jesus,^ldie gebenedeite Frucht deines Leibes!^lO gütige, o°milde, o°süße°Jungfrau°Maria!"
       }
   },
   506: {
