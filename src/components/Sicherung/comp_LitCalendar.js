@@ -119,8 +119,7 @@ function calculateRanks(date, season, week, dayOfWeek, combinedSWD) {
         const dateCompare = `${month}-${day}`;
 
         const hochfeste = [
-            '01-01', '01-06', '03-19', '03-25',
-            '06-05', '06-24', '06-29', '08-15',
+            '01-01', '01-06', '03-19', '03-25', '06-05', '06-24', '06-29', '08-15',
             '11-01', '11-02', '12-08', '12-25'];
         const christusfeste = ['02-02', '08-06', '09-14', '11-09'];
         const feste = [

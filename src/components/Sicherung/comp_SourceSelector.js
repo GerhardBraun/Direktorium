@@ -34,57 +34,43 @@ const SourceSelector = ({
     reduced = false,
     className = ''
 }) => {
+    const sollemnityErsteVesper = () => ['soll', 'dec'].includes(prefSollemnity)
 
     // Funktion zum Behandeln der Quellenauswahl
-    const handleSourceSelect = (source, setSollemnity = '') => {
-        const isErsteVesper = (viewMode === 'prayerText' && hour === 'erstev');
-
-        // Wenn "Vom Wochentag" gewählt wird, prefSollemnity zurücksetzen,
-        // ebenso wenn der schon gewählte Button angeklickt wird;
-        // wenn ein Heiliger gewählt wird, bleibt prefSollemnity auf 'soll', 
-        // 'kirchw' und 'verst' werden aber zurückgesetzt
-        let newPrefSollemnity = setSollemnity;
-        if (setSollemnity === prefSollemnity) { newPrefSollemnity = '' };
-        if (setSollemnity === '') {
-            newPrefSollemnity = (prefSollemnity === 'soll' || isErsteVesper) ? 'soll' : ''
-        };
-        if (source === 'wt') { newPrefSollemnity = '' };
-
-        // Verhindert in der 1. Vesper die Wahl einer Source ohne 1. Vesper
-        let blockToggle = false;
-        if (isErsteVesper) {
-            blockToggle = true;
-            if (['eig', 'n1', 'n2', 'n3', 'n4', 'n5'].includes(source) &&
-                (prefSollemnity === 'soll' || prefSollemnity === 'kirchw')
-            ) { blockToggle = false };
-            if (setSollemnity === 'kirchw' && prefSollemnity !== 'kirchw'
-            ) { blockToggle = false };
-        }
-        if (!blockToggle) {
-            let newPrefSrc = source;
-            if (source === 'wt') { newPrefSrc = 'eig' };
-            if (source === 'lokal') { newPrefSrc = prefSrc };
-            if (!newPrefSollemnity && !newPrefSrc) { newPrefSrc = 'eig' };
+    const handleSourceSelect = (source, setSollemnity = false) => {
+        const newSollemnity = blockToggle || setSollemnity;
+        if (!blockToggle || source !== 'wt') {
+            const newPrefSrc = (source === 'wt') ? 'eig' : source;
             setPrefSrc(newPrefSrc);
-            setPrefSollemnity(newPrefSollemnity);
+            setPrefSollemnity(newSollemnity);
+            if (isCommemoration && source !== 'wt') { setUseCommemoration(isCommemoration) };
             if (source === 'wt') { setUseCommemoration(false) }
-            else { setUseCommemoration(isCommemoration) }
+        }
+    };
+
+    // Funktion für den Hochfest-Toggle
+    const toggleSollemnity = () => {
+        console.log('SourceSelector: useToggle/blockToggle/prefSollemnity:', useToggle, blockToggle, prefSollemnity)
+        if (useToggle && !blockToggle) {
+            // Die aktuelle Quelle beibehalten, nur prefSollemnity umschalten
+            handleSourceSelect(prefSrc, !prefSollemnity)
+
         }
     };
 
     if (!prayerTexts) return null;
 
-    const { rank_date = 0, rank_wt = 0, isCommemoration } = prayerTexts
+    const {rank_date=0, rank_wt=0, isCommemoration} = prayerTexts
     const hasEig = hasValidSource(prayerTexts, 'eig') // G, F oder H
     const hasN1 = hasValidSource(prayerTexts, 'n1') // nichtgebotener Gedenktag
     const showWt = rank_wt < 3
         && (
             (hasN1 && !hasEig) ||   // nur nichtgebotener Gedenktag
             (isCommemoration && (hasEig || hasN1)) // bei Kommemoration auch G
-        )
-    // Anzeige des Buttons für lokales Hochfest
-    const useToggle = (!(showWt && prefSrc === 'eig') || useCommemoration) &&
-        prefSollemnity !== 'kirchw' && prefSollemnity !== 'verst'
+                    )
+        // Anzeige des Buttons für lokales Hochfest
+    const useToggle = !(showWt && prefSrc === 'eig') || useCommemoration
+    const blockToggle = (viewMode === 'prayerText' && hour === 'erstev')
 
     return (
         <div className={`space-y-1 ${className}`}>
@@ -132,44 +118,19 @@ const SourceSelector = ({
                     </button>
                 );
             })}
-            {!reduced && (
-                <div className="flex gap-1">
+            {rank_date < 5 && (hasEig || hasN1) && !reduced && (
+                <>
                     <button
-                        onClick={() => handleSourceSelect('', 'kirchw')}
-                        className={`flex-1 pt-2 text-center rounded-sm 
-                            bg-gray-100 dark:bg-gray-900 text-xs
-                            text-yellow-600 dark:text-yellow-500
-                            hover:bg-gray-100 dark:hover:bg-gray-800
-                            ${prefSollemnity === 'kirchw' ? 'ring-2 ring-yellow-500' : ''}`}
+                        onClick={toggleSollemnity}
+                        className={`w-full pt-2 text-center rounded-sm 
+                    bg-gray-100 dark:bg-gray-900 text-xs
+                    ${useToggle ? 'text-yellow-600 dark:text-yellow-500' : 'text-gray-200 dark:text-gray-800'} 
+                    hover:bg-gray-100 dark:bg-gray-800
+                    ${prefSollemnity ? 'ring-2 ring-yellow-500' : ''}`}
                     >
-                        Kirchweihe
+                        lokale Feier als Hochfest
                     </button>
-
-                    {(rank_date < 5 && (hasEig || hasN1)) && (
-                        <button
-                            onClick={() => handleSourceSelect('lokal', 'soll')}
-                            className={`flex-1 pt-2 text-center rounded-sm 
-                                bg-gray-100 dark:bg-gray-900 text-xs
-                                ${useToggle ? 'text-yellow-600 dark:text-yellow-500' : 'text-gray-200 dark:text-gray-800'} 
-                                hover:bg-gray-100 dark:hover:bg-gray-800
-                                ${prefSollemnity === 'soll' ? 'ring-2 ring-yellow-500' : ''}`}
-                            disabled={!useToggle}
-                        >
-                            lokale Feier als Hochfest
-                        </button>
-                    )}
-
-                    <button
-                        onClick={() => handleSourceSelect('', 'verst')}
-                        className={`flex-1 pt-2 text-center rounded-sm 
-                            bg-gray-100 dark:bg-gray-900 text-xs
-                            text-yellow-600 dark:text-yellow-500
-                            hover:bg-gray-100 dark:hover:bg-gray-800
-                            ${prefSollemnity === 'verst' ? 'ring-2 ring-yellow-500' : ''}`}
-                    >
-                        Ged der Verst
-                    </button>
-                </div>
+                </>
             )}
         </div>
     );

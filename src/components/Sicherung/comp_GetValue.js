@@ -21,19 +21,16 @@ export const getValue = ({ hour, texts, field,
     }
 
     const { rank_date = 0, rank_wt = 0, isCommemoration, hasErsteVesper = false } = texts;
-    const sollemnityErsteVesper = () => ['soll', 'kirchw'].includes(prefSollemnity)
-    const isTSN = ['terz', 'sext', 'non'].includes(hour)
-    const isKirchwVerst = prefSollemnity === 'kirchw' || prefSollemnity === 'verst';
 
     // Feier wie ein Hochfest
     const isSollemnity = (hour === 'vesper' && hasErsteVesper)
         || prefSollemnity || rank_date === 5 || rank_wt === 5
 
     // Bei Vesper als Hochfest
-    if (hour === 'vesper' && sollemnityErsteVesper()) { hour = 'prefsollemnity'; }
+    if (hour === 'vesper' && prefSollemnity) { hour = 'prefsollemnity'; }
 
     // Bei lokaler Feier als Hochfest Oration immer aus den Laudes
-    if (prefSollemnity === 'soll' && field === 'oration') {
+    if (prefSollemnity && field === 'oration') {
         if (texts['laudes'][prefSrc]?.['oration']) {
             return texts['laudes'][prefSrc]['oration'];
         }
@@ -41,15 +38,8 @@ export const getValue = ({ hour, texts, field,
     }
 
     // Sonderfall Ergänzungspsalmodie
-    if ((field.startsWith('ps_') ||
-        (field.startsWith('ant_') && !field.startsWith('ant_ev'))
-    ) && (isSollemnity || (localPrefErgPs && isTSN))
-    ) {
-        let sollSource = prefSollemnity ? prefSollemnity : 'soll';
-        if (texts[hour]?.[sollSource]?.[field]) {
-            return texts[hour]?.[sollSource]?.[field]
-        } else if (isKirchwVerst) { return null; }
-    }
+    if ((isSollemnity || localPrefErgPs) && texts[hour]?.['soll']?.[field]
+    ) { return texts[hour]?.['soll']?.[field] }
 
     // Abruf der Werte für die Kommemoration
     if (field.startsWith('c_')) {
@@ -68,26 +58,24 @@ export const getValue = ({ hour, texts, field,
 
     // Prüfe, ob Commune übersprungen werden soll
     let skipCommune = false;
-    if (rank_date < 3  // an Gedenktagen
-        && ((hour === 'lesehore' && field !== 'oration') ||// Lesehore: nur Hymnus und Oration ggf. Commune
-
-            ((hour === 'laudes' || hour === 'vesper') &&  // Laudes/Vesper Psalmodie
-                (field.startsWith('ps_') ||
-                    (field.startsWith('ant_') && !field.startsWith('ant_ev'))
-                )) ||
-            isTSN) // Kleine Horen: ganz vom Wt
+    if (rank_date < 3 && (  // an Gedenktagen
+        (hour === 'lesehore' && // Lesehore: nur Hymnus und Oration ggf. Commune
+            field !== 'oration') ||
+        ((hour === 'laudes' || hour === 'vesper') &&  // Laudes/Vesper Psalmodie
+            (field.startsWith('ps_') ||
+                (field.startsWith('ant_') && !field.startsWith('ant_ev'))
+            )) ||
+        ['terz', 'sext', 'non'].includes(hour)) // Kleine Horen: ganz vom Wt
     ) { skipCommune = true }
 
-    if (rank_date < 5 && isTSN &&  // an Festen: Ant und Ps in Kleinen Horen vom Wt
+    if (rank_date < 5 &&    // an Festen: Ant und Ps in Kleinen Horen vom Wt
+        ['terz', 'sext', 'non'].includes(hour) &&
         (field.startsWith('ps_') || field.startsWith('ant_'))
     ) { skipCommune = true }
 
     if (isSollemnity) { skipCommune = false }
-    if (isKirchwVerst) { skipCommune = true }
 
-    let prefTexts = texts[hour]?.[prefSrc];
-    if (isKirchwVerst) { prefTexts = texts[hour]?.[prefSollemnity] }
-
+    const prefTexts = texts[hour]?.[prefSrc];
     let prefCommTexts = '';
     if (!skipCommune) {
         if (localPrefComm === 1
@@ -97,7 +85,8 @@ export const getValue = ({ hour, texts, field,
         ) { prefCommTexts = prefTexts?.['com2'] }
     }
 
-    if ((!isCommemoration && !(rank_date < 3 && isTSN)) // an Tagen mit Kommemoration und in Kl. Horen an Gedenktagen nur wt-Werte
+    if ((!isCommemoration &&    // an Tagen mit Kommemoration und in Kl. Horen an Gedenktagen nur wt-Werte
+        !(rank_date < 3 && ['terz', 'sext', 'non'].includes(hour)))
         || isSollemnity) {
 
         //Sonderfall Antiphonen: entweder ant_0 oder ant_1-3

@@ -2,8 +2,6 @@ import React, { useState, useMemo, useEffect } from 'react';
 
 const HymnSelector = ({ texts, hour, prefSrc, prefSollemnity, formatPrayerText }) => {
     const [selectedHymn, setSelectedHymn] = useState(null);
-    let localPrefSrc = prefSrc;
-    if (['kirchw', 'verst'].includes(prefSollemnity)) { localPrefSrc = prefSollemnity; }
 
     const getButtonColor = (sourcePath) => {
         const hasOnlyWtSources = availableHymns.every(hymn => hymn.id.split('_')[0] === 'wt');
@@ -12,7 +10,7 @@ const HymnSelector = ({ texts, hour, prefSrc, prefSollemnity, formatPrayerText }
             return 'bg-green-700/50 text-white hover:bg-green-600/50';
         }
 
-        // Prüfe auf rote Farbe im localPrefSrc
+        // Prüfe auf rote Farbe im prefSrc
         const pathParts = sourcePath.split('_')[0].split('.');
         let currentLevel = texts['laudes'];
         pathParts.forEach(part => {
@@ -35,16 +33,16 @@ const HymnSelector = ({ texts, hour, prefSrc, prefSollemnity, formatPrayerText }
         const isHighRank = rank_date > 2 || rank_wt > 2;
 
         // Stelle die Basis-Quellen zusammen
-        let sources = [localPrefSrc, 'pers'];
+        let sources = [prefSrc];
 
         // Ermittle Commune-Sources nur wenn nötig
-        const communeSources = !texts[hour]?.[localPrefSrc]?.hymn_1?.text
+        const communeSources = !texts[hour]?.[prefSrc]?.hymn_1?.text
             ? ['com1', 'com2']
                 .filter(com =>
-                    texts[hour]?.[localPrefSrc]?.[com]?.hymn_1?.text ||
-                    texts[hour]?.[localPrefSrc]?.[com]?.hymn_2?.text
+                    texts[hour]?.[prefSrc]?.[com]?.hymn_1?.text ||
+                    texts[hour]?.[prefSrc]?.[com]?.hymn_2?.text
                 )
-                .map(com => `${localPrefSrc}.${com}`)
+                .map(com => `${prefSrc}.${com}`)
             : [];
 
         // Füge die Sources in der richtigen Reihenfolge hinzu
@@ -55,7 +53,7 @@ const HymnSelector = ({ texts, hour, prefSrc, prefSollemnity, formatPrayerText }
         }
 
         return sources;
-    }, [texts, hour, localPrefSrc, prefSollemnity]);
+    }, [texts, hour, prefSrc, prefSollemnity]);
 
     // Sammle alle verfügbaren Hymnen
     const availableHymns = useMemo(() => {
@@ -87,10 +85,6 @@ const HymnSelector = ({ texts, hour, prefSrc, prefSollemnity, formatPrayerText }
 
                         if (sourcePath === prefSrc) {
                             sourceLabel = 'eigen:';
-                        } else if (sourcePath === prefSollemnity) {
-                            sourceLabel = prefSollemnity.charAt(0).toUpperCase() + prefSollemnity.slice(1);
-                        } else if (sourcePath === 'pers') {
-                            sourceLabel = 'pers:';
                         } else if (sourcePath === 'wt') {
                             if (hymnType === 'hymn_nacht') {
                                 sourceLabel = 'In der Nacht oder am frühen Morgen:';
@@ -123,7 +117,7 @@ const HymnSelector = ({ texts, hour, prefSrc, prefSollemnity, formatPrayerText }
         });
 
         return hymns;
-    }, [texts, hour, localPrefSrc, sourceOrder]);
+    }, [texts, hour, prefSrc, sourceOrder]);
 
     // Setze den ersten gefundenen Hymnus als ausgewählt
     useEffect(() => {

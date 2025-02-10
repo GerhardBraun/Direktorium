@@ -47,7 +47,7 @@ const NavigationButtons = ({ hour, onBack, onSelectHour, topButton = false, text
                     ← Auswahl
                 </button>
                 <div className="col-span-2 pr-4 rounded-sm text-center font-bold">
-                    {(hour === 'erstev') ? 'Erste Vesper' : hour.charAt(0).toUpperCase() + hour.slice(1)}
+                    {hour.charAt(0).toUpperCase() + hour.slice(1)}
                 </div>
             </div>
         );

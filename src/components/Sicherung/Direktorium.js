@@ -889,7 +889,6 @@ const PrayerMenu = ({ title, onSelectHour, viewMode, setViewMode, season,
     const [prayerTexts, setPrayerTexts] = useState(null);  // Neuer State für die Gebetstext-Daten
     const rank_wt = prayerTexts?.rank_wt || 0
     const rank_date = prayerTexts?.rank_date || 0
-    const sollemnityErsteVesper = () => ['soll', 'kirchw'].includes(prefSollemnity)
 
     useEffect(() => {
         const info = getLiturgicalInfo(selectedDate);
@@ -903,7 +902,7 @@ const PrayerMenu = ({ title, onSelectHour, viewMode, setViewMode, season,
 
     useEffect(() => {
         setPrefSrc('eig');
-        setPrefSollemnity('');
+        setPrefSollemnity(false);
     }, [selectedDate]);
 
     return (
@@ -980,7 +979,7 @@ const PrayerMenu = ({ title, onSelectHour, viewMode, setViewMode, season,
                     }
 
                     if (hour === 'erstev') {
-                        if (sollemnityErsteVesper()) {
+                        if (prefSollemnity) {
                             return (
                                 <button
                                     onClick={() => {
@@ -1007,10 +1006,10 @@ const PrayerMenu = ({ title, onSelectHour, viewMode, setViewMode, season,
                         } else {
                             const dayOfWeek = selectedDate.getDay();
                             if (dayOfWeek === 6 && rank_date < 4 &&
-                                rank_wt < 5 && !sollemnityErsteVesper()) { // Samstag
+                                rank_wt < 5 && !prefSollemnity) { // Samstag
                                 displayText = '1. Vesper vom Sonntag';
                             } else {
-                                if (sollemnityErsteVesper()) { displayText = 'Zweite Vesper' }
+                                if (prefSollemnity) { displayText = 'Zweite Vesper' }
                                 else displayText = 'Vesper';
                             }
                         }
@@ -1668,13 +1667,14 @@ export default function LiturgicalCalendar() {
         return savedTheme || 'dark';
     });
     const [prefSrc, setPrefSrc] = useState('eig');
-    const [prefSollemnity, setPrefSollemnity] = useState('');
+    const [prefSollemnity, setPrefSollemnity] = useState(false);
+    const sollemnityErsteVesper = () => ['soll', 'dec'].includes(prefSollemnity)
     const [useCommemoration, setUseCommemoration] = useState(false);
     const [selectedHour, setSelectedHour] = useState(null);
     const [prayerTexts, setPrayerTexts] = useState(null);
     const [expandedDeceased, setExpandedDeceased] = useState({});
     const [deceasedMode, setDeceasedMode] = useState('recent');
-    const [viewMode, setViewMode] = useState('directory'); // 'directory', 'deceased', 'prayer', or 'prayerText'
+    const [viewMode, setViewMode] = useState('prayer'); // 'directory', 'deceased', 'prayer', or 'prayerText'
     const [baseFontSize, setBaseFontSize] = useTouchZoom(14, 8, 24, 0.7, showDatePicker);
     const [isReady, setIsReady] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
