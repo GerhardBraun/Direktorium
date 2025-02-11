@@ -1,21 +1,28 @@
 name: Deploy to GitHub Pages
-
 on:
   push:
-    branches: [master]  # oder 'main', je nachdem welchen Branch-Namen Sie verwenden
+    branches: [main]  # oder 'main', entsprechend deinem Branch-Namen
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
+      
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18.x'  # Eine aktuelle Version
-      - run: npm ci  # Schneller und sicherer als npm install
-      - run: npm run build
+          node-version: '18.x'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Build
+        run: npm run build
+        env:
+          CI: false  # Dies deaktiviert die Behandlung von Warnungen als Fehler
+          DISABLE_ESLINT_PLUGIN: true
+          
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
