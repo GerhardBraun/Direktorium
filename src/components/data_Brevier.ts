@@ -39,7 +39,7 @@ interface BrevierEntry {
   oration_komplet?: string;
   marant?: number;
   marant_lat?: number;
-  }
+}
 
 interface BrevierData {
   [season: string]: {
@@ -2533,7 +2533,7 @@ export const brevierData = {
         "each": {
           "comm_1": "MärtSg_Jgfr",
           "comm_2": "Jgfr",
-          "oration": "Ewiger Gott, du berufst, was schwach ist in dieser Welt, um das, was stark ist, zu beschämen. Höre auf die Fürsprache der heiligen Agnes. Komm uns zu Hilfe, damit auch wir unbeirrt den Glauben bekennen. Darum bitten wir durch Jesus Christus."
+          "oration": "Ewiger Gott, du berufst, was schwach ist in dieser Welt, um das, was stark ist, zu beschämen. Höre auf die Fürsprache der heiligen Agnes. Komm uns zu Hilfe, damit auch wir unbeirrt den Glauben bekennen.^orV"
         },
         "Laudes": {
           "name": "Hl. Agnes",
@@ -2579,7 +2579,7 @@ export const brevierData = {
       "25": {
         "each": {
           "comm_1": "Apostel",
-          "oration": "Gott, du Heil aller Völker, du hast den Apostel Paulus auserwählt, den Heiden die Frohe Botschaft zu verkünden. Gib uns, die wir das Fest seiner Bekehrung feiern, die Gnade, uns deinem Anruf zu stellen und vor der Welt deine Wahrheit zu bezeugen. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Gott, du Heil aller Völker, du hast den Apostel Paulus auserwählt, den Heiden die Frohe Botschaft zu verkünden. Gib uns, die wir das Fest seiner Bekehrung feiern, die Gnade, uns deinem Anruf zu stellen und vor der Welt deine Wahrheit zu bezeugen.^orV"
         },
         "Invitatorium": {
           "ant_0": "Lasst uns Gott loben am Fest der Bekehrung des heiligen Paulus!",
@@ -2673,7 +2673,7 @@ export const brevierData = {
     "2": {
       "2": {
         "each": {
-          "oration": "Allmächtiger, ewiger Gott, dein eingeborener Sohn hat unsere menschliche Natur angenommen und wurde am heutigen Tag im Tempel dargestellt. Läutere unser Leben und Denken, damit wir mit reinem Herzen vor dein Antlitz treten. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Allmächtiger, ewiger Gott, dein eingeborener Sohn hat unsere menschliche Natur angenommen und wurde am heutigen Tag im Tempel dargestellt. Läutere unser Leben und Denken, damit wir mit reinem Herzen vor dein Antlitz treten.^orV"
         },
         "ErsteV": {
           "name": "1. Vesper zu Darstellung des Herrn",
@@ -2870,7 +2870,7 @@ export const brevierData = {
         "each": {
           "comm_1": "Hirten",
           "farbe": "BuM",
-          "oration": "Gott, du Heil aller Menschen, du hast durch die Brüder Cyrill und Methodius den slawischen Völkern das Licht deiner Wahrheit geschenkt. Gib, dass wir deine Lehre mit bereitem Herzen aufnehmen und zu einem Volk werden, das im wahren Glauben und im rechten Bekenntnis geeint ist. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, du Heil aller Menschen, du hast durch die Brüder Cyrill und Methodius den slawischen Völkern das Licht deiner Wahrheit geschenkt. Gib, dass wir deine Lehre mit bereitem Herzen aufnehmen und zu einem Volk werden, das im wahren Glauben und im rechten Bekenntnis geeint ist.^orV"
         },
         "Laudes": {
           "name": "Hl. Cyrill und hl. Methodius",
@@ -2967,7 +2967,7 @@ export const brevierData = {
         "each": {
           "comm_1": "Apostel",
           "farbe": "rBuM",
-          "oration": "Gott, du kennst die Herzen aller Menschen; du hast es gefügt, dass der heilige Matthias zum Kollegium der Apostel hinzugewählt wurde. Deine Liebe lenke auch unseren Weg und reihe uns ein in die Schar deiner Auserwählten. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, du kennst die Herzen aller Menschen; du hast es gefügt, dass der heilige Matthias zum Kollegium der Apostel hinzugewählt wurde. Deine Liebe lenke auch unseren Weg und reihe uns ein in die Schar deiner Auserwählten.^orV"
         },
         "Laudes": {
           "comm_1": "Apostel",
@@ -3001,7 +3001,7 @@ export const brevierData = {
       "19": {
         "each": {
           "comm_1": "Mann",
-          "oration": "Allmächtiger Gott, du hast Jesus, unseren Heiland, und seine Mutter Maria der treuen Sorge des heiligen Josef anvertraut. Höre auf seine Fürsprache und hilf deiner Kirche, die Geheimnisse der Erlösung treu zu verwalten, bis das Werk des Heiles vollendet ist. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, du hast Jesus, unseren Heiland, und seine Mutter Maria der treuen Sorge des heiligen Josef anvertraut. Höre auf seine Fürsprache und hilf deiner Kirche, die Geheimnisse der Erlösung treu zu verwalten, bis das Werk des Heiles vollendet ist.^orV"
         },
         "ErsteV": {
           "name": "1. Vesper zum Hochfest des hl. Josef",
@@ -3115,7 +3115,7 @@ export const brevierData = {
       },
       "25": {
         "each": {
-          "oration": "Allmächtiger Gott, du hast Jesus, unseren Heiland, und seine Mutter Maria der treuen Sorge des heiligen Josef anvertraut. Höre auf seine Fürsprache und hilf deiner Kirche, die Geheimnisse der Erlösung treu zu verwalten, bis das Werk des Heiles vollendet ist. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, du hast Jesus, unseren Heiland, und seine Mutter Maria der treuen Sorge des heiligen Josef anvertraut. Höre auf seine Fürsprache und hilf deiner Kirche, die Geheimnisse der Erlösung treu zu verwalten, bis das Werk des Heiles vollendet ist.^orV"
         },
         "ErsteV": {
           "name": "1. Vesper zu Verkündigung des Herrn",
@@ -3395,7 +3395,7 @@ export const brevierData = {
       "5": {
         "each": {
           "comm_1": "Hirten",
-          "oration": "Herr, unser Gott, erhöre die Bitten deiner Gemeinde, die heute das Fest des heiligen Bonifatius feiert. Auf seine Fürsprache schenke uns deine Hilfe, damit wir den Glauben treu bewahren, den er unseren Vätern gepredigt und mit seinem Blut besiegelt hat. Darum bitten wir durch Jesus Christus."
+          "oration": "Herr, unser Gott, erhöre die Bitten deiner Gemeinde, die heute das Fest des heiligen Bonifatius feiert. Auf seine Fürsprache schenke uns deine Hilfe, damit wir den Glauben treu bewahren, den er unseren Vätern gepredigt und mit seinem Blut besiegelt hat.^orV"
         },
         "ErsteV": {
           "name": "1. Vesper zum hl. Bonifatius",
@@ -4581,12 +4581,12 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Gott, der Johannes den Täufer zum Vorläufer seines Sohnes bestellt hat. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, lenke unsere Schritte auf den Weg des Friedens.",
           "bitten": "Vom Mutterschoß an hast du Johannes berufen, deinem Sohn den Weg zu bereiten;^qwie er dem Herrn vorausging, so lass uns Christus nachfolgen.^pDu wolltest, dass Johannes abnehme, Christus aber wachse;^qlehre uns Christus dienen.^pIm Martyrium des Johannes hast du die Treue deines Propheten offenbar gemacht;^qgib, dass wir ohne Menschenfurcht für deine Wahrheit Zeugnis ablegen.^pBei der Taufe im Jordan hast du Jesus deinen geliebten Sohn genannt;^qhilf uns, auf ihn zu hören.",
-          "oration": "Allmächtiger Gott, du hast den heiligen Johannes den Täufer berufen, deinem Sohn im Leben und im Tod voranzugehen und für Recht und Wahrheit Zeugnis zu geben. Gib auch uns die Kraft, für den Anspruch deiner Lehre unerschrocken einzutreten. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, du hast den heiligen Johannes den Täufer berufen, deinem Sohn im Leben und im Tod voranzugehen und für Recht und Wahrheit Zeugnis zu geben. Gib auch uns die Kraft, für den Anspruch deiner Lehre unerschrocken einzutreten.^orV"
         },
         "Lesehore": {
           "comm_1": "MärtSg",
-          "comm_2": "LEER Allmächtiger Gott, du hast den heiligen Johannes den Täufer berufen, deinem Sohn im Leben und im Tod voranzugehen und für Recht und Wahrheit Zeugnis zu geben. Gib auch uns die Kraft, für den Anspruch deiner Lehre unerschrocken einzutreten. Darum bitten wir durch Jesus Christus.",
-          "oration": "Allmächtiger Gott, du hast den heiligen Johannes den Täufer berufen, deinem Sohn im Leben und im Tod voranzugehen und für Recht und Wahrheit Zeugnis zu geben. Gib auch uns die Kraft, für den Anspruch deiner Lehre unerschrocken einzutreten. Darum bitten wir durch Jesus Christus."
+          "comm_2": "LEER Allmächtiger Gott, du hast den heiligen Johannes den Täufer berufen, deinem Sohn im Leben und im Tod voranzugehen und für Recht und Wahrheit Zeugnis zu geben. Gib auch uns die Kraft, für den Anspruch deiner Lehre unerschrocken einzutreten.^orV",
+          "oration": "Allmächtiger Gott, du hast den heiligen Johannes den Täufer berufen, deinem Sohn im Leben und im Tod voranzugehen und für Recht und Wahrheit Zeugnis zu geben. Gib auch uns die Kraft, für den Anspruch deiner Lehre unerschrocken einzutreten.^orV"
         },
         "Vesper": {
           "comm_1": "MärtSg",
@@ -4603,7 +4603,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns zu Jesus Christus beten, der Johannes als seinen Vorläufer vor sich her gesandt hat:",
           "bitten_r": "Lamm Gottes, erbarme dich unser.",
           "bitten": "Durch die Botschaft des Johannes wurde dein Kommen angekündigt;^qsende Verkündiger deines Reiches in die ganze Welt.^pDurch die Predigt des Johannes hast du zur Buße aufgerufen;^qwende die Herzen der Sünder hin zu den Geboten Gottes.^pDu hast Johannes gepriesen, der für Gottes Gesetz einen schmählichen Tod auf sich genommen hat;^qsei denen nahe, die um deines Namens willen in Verlassenheit sterben.^pDu bist das Lamm Gottes, auf das Johannes hingewiesen hat;^qlass niemand verloren gehen, für den du dein Blut vergossen hast.^pGedenke aller, die aus dieser Welt geschieden sind,^qund nimm sie auf in deinen Frieden.",
-          "oration": "Allmächtiger Gott, du hast den heiligen Johannes den Täufer berufen, deinem Sohn im Leben und im Tod voranzugehen und für Recht und Wahrheit Zeugnis zu geben. Gib auch uns die Kraft, für den Anspruch deiner Lehre unerschrocken einzutreten. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, du hast den heiligen Johannes den Täufer berufen, deinem Sohn im Leben und im Tod voranzugehen und für Recht und Wahrheit Zeugnis zu geben. Gib auch uns die Kraft, für den Anspruch deiner Lehre unerschrocken einzutreten.^orV"
         }
       }
     },
@@ -4682,8 +4682,8 @@ export const brevierData = {
       },
       "14": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, deinem Willen gehorsam, hat dein geliebter Sohn den Tod am Kreuz auf sich genommen, um alle Menschen zu erlösen. Gib dass wir in der Torheit des Kreuzes deine Macht und Weiheit erkennen und in Ewigkeit teilhaben an der Frucht der Erlösung. Darum bitten wir durch Jesus Christus.",
-          "oration": "Allmächtiger Gott, deinem Willen gehorsam, hat dein geliebter Sohn den Tod am Kreuz auf sich genommen, um alle Menschen zu erlösen. Gib dass wir in der Torheit des Kreuzes deine Macht und Weiheit erkennen und in Ewigkeit teilhaben an der Frucht der Erlösung. Darum bitten wir durch Jesus Christus."
+          "comm_2": "LEER Allmächtiger Gott, deinem Willen gehorsam, hat dein geliebter Sohn den Tod am Kreuz auf sich genommen, um alle Menschen zu erlösen. Gib dass wir in der Torheit des Kreuzes deine Macht und Weiheit erkennen und in Ewigkeit teilhaben an der Frucht der Erlösung.^orV",
+          "oration": "Allmächtiger Gott, deinem Willen gehorsam, hat dein geliebter Sohn den Tod am Kreuz auf sich genommen, um alle Menschen zu erlösen. Gib dass wir in der Torheit des Kreuzes deine Macht und Weiheit erkennen und in Ewigkeit teilhaben an der Frucht der Erlösung.^orV"
         },
         "ErsteV": {
           "name": "1. Vesper zu Kreuzerhöhung",
@@ -4959,8 +4959,8 @@ export const brevierData = {
       },
       "29": {
         "each": {
-          "comm_2": "LEER Gott, du ordnest alles mit Macht und Weisheit; Engeln und Menschen teilst du ihre Dienste zu. Gib, dass die Macht des Bösen nicht überhandnimmt, sondern sende deine heiligen Engel, die im Himmel vor dir stehen, in diese Welt, damit sie uns vor allem Unheil schützen. Darum bitten wir durch Jesus Christus.",
-          "oration": "Gott, du ordnest alles mit Macht und Weisheit; Engeln und Menschen teilst du ihre Dienste zu. Gib, dass die Macht des Bösen nicht überhandnimmt, sondern sende deine heiligen Engel, die im Himmel vor dir stehen, in diese Welt, damit sie uns vor allem Unheil schützen. Darum bitten wir durch Jesus Christus."
+          "comm_2": "LEER Gott, du ordnest alles mit Macht und Weisheit; Engeln und Menschen teilst du ihre Dienste zu. Gib, dass die Macht des Bösen nicht überhandnimmt, sondern sende deine heiligen Engel, die im Himmel vor dir stehen, in diese Welt, damit sie uns vor allem Unheil schützen.^orV",
+          "oration": "Gott, du ordnest alles mit Macht und Weisheit; Engeln und Menschen teilst du ihre Dienste zu. Gib, dass die Macht des Bösen nicht überhandnimmt, sondern sende deine heiligen Engel, die im Himmel vor dir stehen, in diese Welt, damit sie uns vor allem Unheil schützen.^orV"
         },
         "Invitatorium": {
           "ant_0": "Der Herr, vor dessen Thron die Engel stehen – kommt, wir beten ihn an!",
@@ -5089,8 +5089,8 @@ export const brevierData = {
       },
       "2": {
         "each": {
-          "comm_2": "LEER Gott, in deiner Vorsehung sorgst du für alles, was du geschaffen hast. Sende uns deine heiligen Engel zu Hilfe, dass sie uns behüten auf allen unseren Wegen, und gib uns in der Gemeinschaft mit ihnen deine ewige Freude. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
-          "oration": "Gott, in deiner Vorsehung sorgst du für alles, was du geschaffen hast. Sende uns deine heiligen Engel zu Hilfe, dass sie uns behüten auf allen unseren Wegen, und gib uns in der Gemeinschaft mit ihnen deine ewige Freude. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "comm_2": "LEER Gott, in deiner Vorsehung sorgst du für alles, was du geschaffen hast. Sende uns deine heiligen Engel zu Hilfe, dass sie uns behüten auf allen unseren Wegen, und gib uns in der Gemeinschaft mit ihnen deine ewige Freude.^orV",
+          "oration": "Gott, in deiner Vorsehung sorgst du für alles, was du geschaffen hast. Sende uns deine heiligen Engel zu Hilfe, dass sie uns behüten auf allen unseren Wegen, und gib uns in der Gemeinschaft mit ihnen deine ewige Freude.^orV"
         },
         "Invitatorium": {
           "ant_0": "Den Herrn, dem die Engel dienen – kommt, wir beten ihn an!",
@@ -5341,8 +5341,8 @@ export const brevierData = {
     "11": {
       "1": {
         "each": {
-          "comm_2": "LEER Allmächtiger, ewiger Gott, du schenkst uns die Freude, am heutigen Fest die Verdienste aller deiner Heiligen zu feiern. Erfülle auf die Bitten so vieler Fürsprecher unsere Hoffnung und schenke uns dein Erbarmen. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
-          "oration": "Allmächtiger, ewiger Gott, du schenkst uns die Freude, am heutigen Fest die Verdienste aller deiner Heiligen zu feiern. Erfülle auf die Bitten so vieler Fürsprecher unsere Hoffnung und schenke uns dein Erbarmen. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "comm_2": "LEER Allmächtiger, ewiger Gott, du schenkst uns die Freude, am heutigen Fest die Verdienste aller deiner Heiligen zu feiern. Erfülle auf die Bitten so vieler Fürsprecher unsere Hoffnung und schenke uns dein Erbarmen.^orV",
+          "oration": "Allmächtiger, ewiger Gott, du schenkst uns die Freude, am heutigen Fest die Verdienste aller deiner Heiligen zu feiern. Erfülle auf die Bitten so vieler Fürsprecher unsere Hoffnung und schenke uns dein Erbarmen.^orV"
         },
         "ErsteV": {
           "name": "1. Vesper zu Allerheiligen",
@@ -6557,18 +6557,18 @@ export const brevierData = {
           "comm_2": "Hirten_Kl",
           "name": "Hl. Basilius und hl. Gregor von Nazianz",
           "ant_ev": "Die Weisen werden strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig.",
-          "oration": "Gott, unser Vater, du hast deiner Kirche in den Bischöfen Basilius und Gregor heilige Hirten gegeben, die uns durch ihre Lehre und ihr Leben den Weg der Wahrheit zeigen. Hilf uns auf ihre Fürsprache, dein Wort in Demut aufzunehmen und in Werken der Liebe zu bezeugen. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Gott, unser Vater, du hast deiner Kirche in den Bischöfen Basilius und Gregor heilige Hirten gegeben, die uns durch ihre Lehre und ihr Leben den Weg der Wahrheit zeigen. Hilf uns auf ihre Fürsprache, dein Wort in Demut aufzunehmen und in Werken der Liebe zu bezeugen.^orV"
         },
         "Lesehore": {
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
-          "oration": "Gott, unser Vater, du hast deiner Kirche in den Bischöfen Basilius und Gregor heilige Hirten gegeben, die uns durch ihre Lehre und ihr Leben den Weg der Wahrheit zeigen. Hilf uns auf ihre Fürsprache, dein Wort in Demut aufzunehmen und in Werken der Liebe zu bezeugen. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Gott, unser Vater, du hast deiner Kirche in den Bischöfen Basilius und Gregor heilige Hirten gegeben, die uns durch ihre Lehre und ihr Leben den Weg der Wahrheit zeigen. Hilf uns auf ihre Fürsprache, dein Wort in Demut aufzunehmen und in Werken der Liebe zu bezeugen.^orV"
         },
         "Vesper": {
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
           "ant_ev": "Wer Gottes Gebote hält und sie halten lehrt, wird groß sein im Himmelreich.",
-          "oration": "Gott, unser Vater, du hast deiner Kirche in den Bischöfen Basilius und Gregor heilige Hirten gegeben, die uns durch ihre Lehre und ihr Leben den Weg der Wahrheit zeigen. Hilf uns auf ihre Fürsprache, dein Wort in Demut aufzunehmen und in Werken der Liebe zu bezeugen. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Gott, unser Vater, du hast deiner Kirche in den Bischöfen Basilius und Gregor heilige Hirten gegeben, die uns durch ihre Lehre und ihr Leben den Weg der Wahrheit zeigen. Hilf uns auf ihre Fürsprache, dein Wort in Demut aufzunehmen und in Werken der Liebe zu bezeugen.^orV"
         }
       },
       "17": {
@@ -6576,7 +6576,7 @@ export const brevierData = {
           "comm_1": "Mann_Ord",
           "name": "Hl. Antonius",
           "farbe": "Ged",
-          "oration": "Herr, unser Gott, du hast den heiligen Mönchsvater Antonius aus der Welt herausgerufen und ihm die Kraft gegeben, in der Einsamkeit der Wüste vor dir zu leben. Hilf uns auf seine Fürbitte, uns selbst zu überwinden und dich über alles zu lieben. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Herr, unser Gott, du hast den heiligen Mönchsvater Antonius aus der Welt herausgerufen und ihm die Kraft gegeben, in der Einsamkeit der Wüste vor dir zu leben. Hilf uns auf seine Fürbitte, uns selbst zu überwinden und dich über alles zu lieben.^orV"
         },
         "Lesehore": {
           "farbe": "Ged",
@@ -6594,7 +6594,7 @@ export const brevierData = {
           "comm_2": "Hirten_Kl",
           "name": "Hl. Franz von Sales",
           "farbe": "Ged",
-          "oration": "Gütiger Gott, du hast den heiligen Franz von Sales dazu berufen, als Bischof und Lehrer allen alles zu werden. Hilf uns, sein Beispiel nachzuahmen und den Brüdern zu dienen, damit durch uns deine Menschenfreundlickeit sichtbar wird. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Gütiger Gott, du hast den heiligen Franz von Sales dazu berufen, als Bischof und Lehrer allen alles zu werden. Hilf uns, sein Beispiel nachzuahmen und den Brüdern zu dienen, damit durch uns deine Menschenfreundlickeit sichtbar wird.^orV"
         },
         "Lesehore": {
           "farbe": "Ged",
@@ -6604,13 +6604,13 @@ export const brevierData = {
           "patr_resp1": "Seid gütig gegeneinander, seid barmherzig, vergebt einander, wie Gott euch vergeben hat.",
           "patr_resp2": "Ahmt Gott nach als seine geliebten Kinder!",
           "patr_resp3": "Nehmt mein Joch auf euch und lernt von mir; denn ich bin gütig und selbstlos.",
-          "oration": "Gütiger Gott, du hast den heiligen Franz von Sales dazu berufen, als Bischof und Lehrer allen alles zu werden. Hilf uns, sein Beispiel nachzuahmen und den Brüdern zu dienen, damit durch uns deine Menschenfreundlickeit sichtbar wird. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Gütiger Gott, du hast den heiligen Franz von Sales dazu berufen, als Bischof und Lehrer allen alles zu werden. Hilf uns, sein Beispiel nachzuahmen und den Brüdern zu dienen, damit durch uns deine Menschenfreundlickeit sichtbar wird.^orV"
         }
       },
       "26": {
         "each": {
           "farbe": "BuM",
-          "oration": "Gott, unser Vater, du hast die Apostelschüler Timotheus und Titus mit den Gaben des Heiligen Geistes beschenkt und sie deiner Kirche als Hirten gegeben. Höre auf ihre Fürsprache und hilf uns, dass wir gerecht und fromm in dieser Welt leben und so zur Gemeinschaft mit deinen Heiligen gelangen. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Gott, unser Vater, du hast die Apostelschüler Timotheus und Titus mit den Gaben des Heiligen Geistes beschenkt und sie deiner Kirche als Hirten gegeben. Höre auf ihre Fürsprache und hilf uns, dass wir gerecht und fromm in dieser Welt leben und so zur Gemeinschaft mit deinen Heiligen gelangen.^orV"
         },
         "Laudes": {
           "name": "Hl. Timotheus und hl. Titus",
@@ -6635,7 +6635,7 @@ export const brevierData = {
         "each": {
           "comm_1": "Hirten_Kl",
           "farbe": "BuM",
-          "oration": "Gott, du Quell der Weisheit, du hast dem heiligen Thomas von Aquin ein leidenschaftliches Verlangen geschenkt, nach Heiligkeit zu streben und deine Wahrheit zu erfassen. Hilf uns verstehen, was er gelehrt, und nachahmen, was er uns vorgelebt hat. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, du Quell der Weisheit, du hast dem heiligen Thomas von Aquin ein leidenschaftliches Verlangen geschenkt, nach Heiligkeit zu streben und deine Wahrheit zu erfassen. Hilf uns verstehen, was er gelehrt, und nachahmen, was er uns vorgelebt hat.^orV"
         },
         "Laudes": {
           "name": "Hl. Thomas von Aquin",
@@ -6662,7 +6662,7 @@ export const brevierData = {
           "comm_2": "Mann_Erz",
           "name": "Hl. Johannes Bosco",
           "farbe": "Ged",
-          "oration": "Gott, du Quell der Freude, du hast den heiligen Johannes Bosco berufen, der Jugend ein Vater und Lehrer zu sein. Gib auch uns die Liebe, die ihn erfüllt hat, damit wir fähig werden, Menschen für dich zu gewinnen und dir allein zu dienen. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Gott, du Quell der Freude, du hast den heiligen Johannes Bosco berufen, der Jugend ein Vater und Lehrer zu sein. Gib auch uns die Liebe, die ihn erfüllt hat, damit wir fähig werden, Menschen für dich zu gewinnen und dir allein zu dienen.^orV"
         },
         "Lesehore": {
           "farbe": "Ged",
@@ -6672,7 +6672,7 @@ export const brevierData = {
           "patr_resp1": "Sie brachten Kinder zu Jesus. Die Jünger aber wiesen die Leute ab. Als Jesus das sah, sprach er zu ihnen:",
           "patr_resp2": "Lasst die Kinder zu mir kommen; denn ihnen gehört das Gottesreich.",
           "patr_resp3": "Wer ein solches Kind in meinem Namen aufnimmt, nimmt mich auf.",
-          "oration": "Gott, du Quell der Freude, du hast den heiligen Johannes Bosco berufen, der Jugend ein Vater und Lehrer zu sein. Gib auch uns die Liebe, die ihn erfüllt hat, damit wir fähig werden, Menschen für dich zu gewinnen und dir allein zu dienen. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Gott, du Quell der Freude, du hast den heiligen Johannes Bosco berufen, der Jugend ein Vater und Lehrer zu sein. Gib auch uns die Liebe, die ihn erfüllt hat, damit wir fähig werden, Menschen für dich zu gewinnen und dir allein zu dienen.^orV"
         }
       }
     },
@@ -6682,7 +6682,7 @@ export const brevierData = {
           "comm_1": "MärtSg_Jgfr",
           "comm_2": "Jgfr",
           "farbe": "rBuM",
-          "oration": "Allmächtiger Gott, du hast die heilige Agatha zur Jungfräulichkeit um Christi willen berufen und ihr die Gnade des Martyriums geschenkt. Höre auf ihre Fürsprache und hilf uns, in aller Bedrängnis auszuharren und dir in Lauterkeit und Treue zu dienen. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, du hast die heilige Agatha zur Jungfräulichkeit um Christi willen berufen und ihr die Gnade des Martyriums geschenkt. Höre auf ihre Fürsprache und hilf uns, in aller Bedrängnis auszuharren und dir in Lauterkeit und Treue zu dienen.^orV"
         },
         "Laudes": {
           "name": "Hl. Agatha",
@@ -6723,7 +6723,7 @@ export const brevierData = {
         "each": {
           "comm_1": "Jgfr",
           "farbe": "BuM",
-          "oration": "Erhabener Gott, wir begehen das Gedächtnis der heiligen Jungfrau Scholastika. Lass uns nach ihrem Beispiel dir stets in aufrichtiger Liebe dienen und gewähre uns in deiner Güte einst einen seligen Heimgang zu dir. Darum bitten wir durch Jesus Christus."
+          "oration": "Erhabener Gott, wir begehen das Gedächtnis der heiligen Jungfrau Scholastika. Lass uns nach ihrem Beispiel dir stets in aufrichtiger Liebe dienen und gewähre uns in deiner Güte einst einen seligen Heimgang zu dir.^orV"
         },
         "Laudes": {
           "name": "Hl. Scholastika",
@@ -6744,7 +6744,7 @@ export const brevierData = {
         "each": {
           "comm_1": "MärtSg",
           "farbe": "rBuM",
-          "oration": "Gott, du Herr der ganzen Schöpfung, du hast den heiligen Bischof Polykarp zum standhaften Bekenntnis des Glaubens gestärkt und in die Schar deiner Märtyrer aufgenommen. Gib auch uns deine Kraft, wenn wir am Kelch des Leidens Christi teilhaben, damit wir auferstehen zum ewigen Leben. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, du Herr der ganzen Schöpfung, du hast den heiligen Bischof Polykarp zum standhaften Bekenntnis des Glaubens gestärkt und in die Schar deiner Märtyrer aufgenommen. Gib auch uns deine Kraft, wenn wir am Kelch des Leidens Christi teilhaben, damit wir auferstehen zum ewigen Leben.^orV"
         },
         "Laudes": {
           "comm_1": "MärtSg",
@@ -6774,7 +6774,7 @@ export const brevierData = {
           "comm_1": "MärtPl",
           "name": "Hl. Perpetua und hl. Felizitas",
           "farbe": "rGed",
-          "oration": "Herr, unser Gott, die Liebe zu dir hat den heiligen Frauen Perpetua und Felizitas die Kraft gegeben, ihre Verfolger nicht zu fürchten und die Qualen des Martyriums zu bestehen. Schenke auch uns jene Liebe, die alle Furcht überwindet. Darum bitten wir durch Jesus Christus."
+          "oration": "Herr, unser Gott, die Liebe zu dir hat den heiligen Frauen Perpetua und Felizitas die Kraft gegeben, ihre Verfolger nicht zu fürchten und die Qualen des Martyriums zu bestehen. Schenke auch uns jene Liebe, die alle Furcht überwindet.^orV"
         },
         "Lesehore": {
           "farbe": "rGed",
@@ -6793,7 +6793,7 @@ export const brevierData = {
           "comm_2": "Mann_Erz",
           "name": "Hl. Johannes Baptist de la Salle",
           "farbe": "Ged",
-          "oration": "Gott, du hast den heiligen Johannes Baptist de la Salle berufen, jungen Menschen den Weg des Heils zu zeigen. Erwecke in deiner Kirche verantwortungsbewusste Erzieher voll schöpferischen Geistes, die sich mit aller Kraft dafür einsetzen, gute Menschen und wahre Christen heranzubilden. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, du hast den heiligen Johannes Baptist de la Salle berufen, jungen Menschen den Weg des Heils zu zeigen. Erwecke in deiner Kirche verantwortungsbewusste Erzieher voll schöpferischen Geistes, die sich mit aller Kraft dafür einsetzen, gute Menschen und wahre Christen heranzubilden.^orV"
         },
         "Lesehore": {
           "farbe": "Ged",
@@ -6811,7 +6811,7 @@ export const brevierData = {
           "comm_2": "Hirten",
           "name": "Hl. Stanislaus",
           "farbe": "rGed",
-          "oration": "Gott und Herr, der heilige Bischof Stanislaus hat sich unerschrocken für deine Ehre eingesetzt und ist unter dem Schwert der Verfolger gefallen. Gib auch uns die Kraft, bis zu unserem Tode im Glauben standhaft zu bleiben. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott und Herr, der heilige Bischof Stanislaus hat sich unerschrocken für deine Ehre eingesetzt und ist unter dem Schwert der Verfolger gefallen. Gib auch uns die Kraft, bis zu unserem Tode im Glauben standhaft zu bleiben.^orV"
         },
         "Lesehore": {
           "farbe": "rGed",
@@ -6829,7 +6829,7 @@ export const brevierData = {
     "1": {
       "0": {
         "each": {
-          "oration": "Allmächtiger, ewiger Gott, bei der Taufe im Jordan kam der Heilige Geist auf unseren Herrn Jesus Christus herab, und du hast ihn als deinen geliebten Sohn geoffenbart. Gib, dass auch wir, die aus dem Wasser und dem Heiligen Geist wiedergeboren sind, in deinem Wohlgefallen stehen und als deine Kinder aus der Fülle dieses Geistes leben. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Allmächtiger, ewiger Gott, bei der Taufe im Jordan kam der Heilige Geist auf unseren Herrn Jesus Christus herab, und du hast ihn als deinen geliebten Sohn geoffenbart. Gib, dass auch wir, die aus dem Wasser und dem Heiligen Geist wiedergeboren sind, in deinem Wohlgefallen stehen und als deine Kinder aus der Fülle dieses Geistes leben.^orV"
         },
         "ErsteV": {
           "hymn_1": 3229.0,
@@ -6849,7 +6849,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu unserem Erlöser Jesus Christus, der am heutigen Tag von Johannes im Jordan getauft wurde:",
           "bitten_r": "Kyrie, eleison.",
           "bitten": "Du bist der geliebte Sohn, an dem der Vater sein Wohlgefallen hat;^qschenke denen, die auf dich hören, deinen Geist.^pDu zerbrichst das geknickte Rohr nicht und löschst den glimmenden Docht nicht aus;^qerbarme dich aller, die fern sind von dir.^pDer Vater hat dich zum Licht der Heiden gemacht;^qschenke den Katechumenen die Freude des Glaubens.^pDer Vater hat dich mit dem Heiligen Geist gesalbt zum Dienst an den Menschen;^qführe alle, die an dich glauben zum Heil.^pDu bist die Hoffnung aller, die in Finsternis und Todesschatten sitzen;^qführe unsere Verstorbenen in dein ewiges Licht.",
-          "oration": "Allmächtiger, ewiger Gott, bei der Taufe im Jordan kam der Heilige Geist auf unseren Herrn Jesus Christus herab, und du hast ihn als deinen geliebten Sohn geoffenbart. Gib, dass auch wir, die aus dem Wasser und dem Heiligen Geist wiedergeboren sind, in deinem Wohlgefallen stehen und als deine Kinder aus der Fülle dieses Geistes leben. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Allmächtiger, ewiger Gott, bei der Taufe im Jordan kam der Heilige Geist auf unseren Herrn Jesus Christus herab, und du hast ihn als deinen geliebten Sohn geoffenbart. Gib, dass auch wir, die aus dem Wasser und dem Heiligen Geist wiedergeboren sind, in deinem Wohlgefallen stehen und als deine Kinder aus der Fülle dieses Geistes leben.^orV"
         },
         "Invitatorium": {
           "ant_0": "Christus, den geliebten Sohn, der dem Vater wohlgefällt; kommt, wir beten ihn an!",
@@ -6957,20 +6957,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Herr, unser Gott, wir haben uns im Namen deines Sohnes versammelt und rufen zu dir: Erhöre die Bitten deines Volkes, mach uns hellhörig für unseren Auftrag in dieser Zeit und gib uns die Kraft, ihn zu erfüllen. Darum bitten wir durch Jesus Christus."
+          "oration": "Herr, unser Gott, wir haben uns im Namen deines Sohnes versammelt und rufen zu dir: Erhöre die Bitten deines Volkes, mach uns hellhörig für unseren Auftrag in dieser Zeit und gib uns die Kraft, ihn zu erfüllen.^orV"
         }
       }
     },
     "2": {
       "0": {
         "each": {
-          "oration": "Allmächtiger Gott, du gebietest über Himmel und Erde, du hast Macht über die Herzen der Menschen. Darum kommen wir voll Vertrauen zu dir; stärke alle, die sich um die Gerechtigkeit mühen, und schenke unserer Zeit deinen Frieden. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, du gebietest über Himmel und Erde, du hast Macht über die Herzen der Menschen. Darum kommen wir voll Vertrauen zu dir; stärke alle, die sich um die Gerechtigkeit mühen, und schenke unserer Zeit deinen Frieden.^orV"
         },
         "ErsteV": {
           "ant_a": "Ich mache dich zum Licht für alle Völker; trage mein Heil bis an die Enden der Erde.",
           "ant_b": "Hier bin ich, Herr, du hast mich gerufen.",
           "ant_c": "Wie der Bräutigam sich freut über die Braut, so freut sich über dich dein Gott.",
-          "oration": "Allmächtiger Gott, du gebietest über Himmel und Erde, du hast Macht über die Herzen der Menschen. Darum kommen wir voll Vertrauen zu dir; stärke alle, die sich um die Gerechtigkeit mühen, und schenke unserer Zeit deinen Frieden. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, du gebietest über Himmel und Erde, du hast Macht über die Herzen der Menschen. Darum kommen wir voll Vertrauen zu dir; stärke alle, die sich um die Gerechtigkeit mühen, und schenke unserer Zeit deinen Frieden.^orV"
         },
         "Laudes": {
           "ant_a": "Seht das Lamm Gottes, das hinwegnimmt die Sünde der Welt.",
@@ -6985,20 +6985,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Allmächtiger Gott, du gebietest über Himmel und Erde, du hast Macht über die Herzen der Menschen. Darum kommen wir voll Vertrauen zu dir; stärke alle, die sich um die Gerechtigkeit mühen, und schenke unserer Zeit deinen Frieden. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, du gebietest über Himmel und Erde, du hast Macht über die Herzen der Menschen. Darum kommen wir voll Vertrauen zu dir; stärke alle, die sich um die Gerechtigkeit mühen, und schenke unserer Zeit deinen Frieden.^orV"
         }
       }
     },
     "3": {
       "0": {
         "each": {
-          "oration": "Allmächtiger, ewiger Gott, lenke unser Tun nach deinem Willen und gib, dass wir im Namen deines geliebten Sohnes reich werden an guten Werken. Darum bitten wir durch ihn, Jesus Christus."
+          "oration": "Allmächtiger, ewiger Gott, lenke unser Tun nach deinem Willen und gib, dass wir im Namen deines geliebten Sohnes reich werden an guten Werken.^orVr"
         },
         "ErsteV": {
           "ant_a": "Das Volk inmitten der Völker sieht ein helles Licht; für jene, die in Finsternis wohnen, strahlt ein Licht auf.",
           "ant_b": "Das Wort des Herrn erging an Jona. Und Jona machte sich auf den Weg, wie der Herr ihm befahl.",
           "ant_c": "Esra schlug das Buch des Gesetzes auf und pries den Herrn, den großen Gott. Und das ganze Volk rief mit erhobenen Händen: Amen, amen!",
-          "oration": "Allmächtiger, ewiger Gott, lenke unser Tun nach deinem Willen und gib, dass wir im Namen deines geliebten Sohnes reich werden an guten Werken. Darum bitten wir durch ihn, Jesus Christus."
+          "oration": "Allmächtiger, ewiger Gott, lenke unser Tun nach deinem Willen und gib, dass wir im Namen deines geliebten Sohnes reich werden an guten Werken.^orVr"
         },
         "Laudes": {
           "ant_a": "Kehrt um! Denn das Himmelreich ist nahe.",
@@ -7013,20 +7013,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Allmächtiger, ewiger Gott, lenke unser Tun nach deinem Willen und gib, dass wir im Namen deines geliebten Sohnes reich werden an guten Werken. Darum bitten wir durch ihn, Jesus Christus."
+          "oration": "Allmächtiger, ewiger Gott, lenke unser Tun nach deinem Willen und gib, dass wir im Namen deines geliebten Sohnes reich werden an guten Werken.^orVr"
         }
       }
     },
     "4": {
       "0": {
         "each": {
-          "oration": "Herr, unser Gott, du hast uns erschaffen, damit wir dich preisen. Gib, dass wir dich mit ungeteiltem Herzen anbeten und die Menschen lieben, wie du sie liebst. Darum bitten wir durch Jesus Christus."
+          "oration": "Herr, unser Gott, du hast uns erschaffen, damit wir dich preisen. Gib, dass wir dich mit ungeteiltem Herzen anbeten und die Menschen lieben, wie du sie liebst.^orV"
         },
         "ErsteV": {
           "ant_a": "Sucht Gerechtigkeit und Demut! Die Armen finden Zuflucht beim Namen des Herrn.",
           "ant_b": "Einen Propheten will ich erwecken aus deinen Brüdern. Ich lege meine Worte in seinen Mund.",
           "ant_c": "Tritt vor sie hin und verkünde, was ich dir sage! Fürchte dich nicht vor ihnen, denn ich bin mit dir.",
-          "oration": "Herr, unser Gott, du hast uns erschaffen, damit wir dich preisen. Gib, dass wir dich mit ungeteiltem Herzen anbeten und die Menschen lieben, wie du sie liebst. Darum bitten wir durch Jesus Christus."
+          "oration": "Herr, unser Gott, du hast uns erschaffen, damit wir dich preisen. Gib, dass wir dich mit ungeteiltem Herzen anbeten und die Menschen lieben, wie du sie liebst.^orV"
         },
         "Laudes": {
           "ant_a": "Als Jesus die vielen Menschen sah, stieg er auf einen Berg. Dann begann er zu reden und lehrte sie.",
@@ -7041,20 +7041,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Herr, unser Gott, du hast uns erschaffen, damit wir dich preisen. Gib, dass wir dich mit ungeteiltem Herzen anbeten und die Menschen lieben, wie du sie liebst. Darum bitten wir durch Jesus Christus."
+          "oration": "Herr, unser Gott, du hast uns erschaffen, damit wir dich preisen. Gib, dass wir dich mit ungeteiltem Herzen anbeten und die Menschen lieben, wie du sie liebst.^orV"
         }
       }
     },
     "5": {
       "0": {
         "each": {
-          "oration": "Gott, unser Vater, wir sind dein Eigentum und setzen unsere Hoffnung allein auf deine Gnade. Bleibe uns nahe in jeder Not und Gefahr und schütze uns. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, unser Vater, wir sind dein Eigentum und setzen unsere Hoffnung allein auf deine Gnade. Bleibe uns nahe in jeder Not und Gefahr und schütze uns.^orV"
         },
         "ErsteV": {
           "ant_a": "Brich dem Hungrigen dein Brot, dann geht dein Licht auf in der Finsternis, und deine Nacht wird hell wie der Tag.",
           "ant_b": "Wie das Schiffchen des Webers eilen meine Tage dahin. Gedenke, Herr, mein Leben ist nur ein Hauch.",
           "ant_c": "Ich hörte die Stimme des Herrn: Wen soll ich senden? Und ich sprach: Hier bin ich, sende mich!",
-          "oration": "Gott, unser Vater, wir sind dein Eigentum und setzen unsere Hoffnung allein auf deine Gnade. Bleibe uns nahe in jeder Not und Gefahr und schütze uns. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, unser Vater, wir sind dein Eigentum und setzen unsere Hoffnung allein auf deine Gnade. Bleibe uns nahe in jeder Not und Gefahr und schütze uns.^orV"
         },
         "Laudes": {
           "ant_a": "Ihr seid das Licht der Welt. Euer Licht soll vor den Menschen leuchten, damit sie eure guten Taten sehen und euren Vater im Himmel preisen.",
@@ -7069,20 +7069,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Gott, unser Vater, wir sind dein Eigentum und setzen unsere Hoffnung allein auf deine Gnade. Bleibe uns nahe in jeder Not und Gefahr und schütze uns. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, unser Vater, wir sind dein Eigentum und setzen unsere Hoffnung allein auf deine Gnade. Bleibe uns nahe in jeder Not und Gefahr und schütze uns.^orV"
         }
       }
     },
     "6": {
       "0": {
         "each": {
-          "oration": "Gott, du liebst deine Geschöpfe, und es ist deine Freude, bei den Menschen zu wohnen. Gib uns ein neues und reines Herz, das bereit ist, dich aufzunehmen. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, du liebst deine Geschöpfe, und es ist deine Freude, bei den Menschen zu wohnen. Gib uns ein neues und reines Herz, das bereit ist, dich aufzunehmen.^orV"
         },
         "ErsteV": {
           "ant_a": "Gottes Augen schauen auf das Tun der Menschen, er kennt all ihre Taten.",
           "ant_b": "Ob ihr esst oder trinkt oder was immer ihr tut: tut alles zur Verherrlichung Gottes.",
           "ant_c": "Selig der Mann, der auf den Herrn vertraut und dessen Hoffnung der Herr ist.",
-          "oration": "Gott, du liebst deine Geschöpfe, und es ist deine Freude, bei den Menschen zu wohnen. Gib uns ein neues und reines Herz, das bereit ist, dich aufzunehmen. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, du liebst deine Geschöpfe, und es ist deine Freude, bei den Menschen zu wohnen. Gib uns ein neues und reines Herz, das bereit ist, dich aufzunehmen.^orV"
         },
         "Laudes": {
           "ant_a": "Versöhne dich zuerst mit deinem Bruder; dann komm und opfere deine Gabe.",
@@ -7097,20 +7097,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Gott, du liebst deine Geschöpfe, und es ist deine Freude, bei den Menschen zu wohnen. Gib uns ein neues und reines Herz, das bereit ist, dich aufzunehmen. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, du liebst deine Geschöpfe, und es ist deine Freude, bei den Menschen zu wohnen. Gib uns ein neues und reines Herz, das bereit ist, dich aufzunehmen.^orV"
         }
       }
     },
     "7": {
       "0": {
         "each": {
-          "oration": "Barmherziger Gott, du hast durch deinen Sohn zu uns gesprochen. Lass uns immer wieder über dein Wort nachsinnen, damit wir reden und tun, was dir gefällt. Darum bitten wir durch Jesus Christus."
+          "oration": "Barmherziger Gott, du hast durch deinen Sohn zu uns gesprochen. Lass uns immer wieder über dein Wort nachsinnen, damit wir reden und tun, was dir gefällt.^orV"
         },
         "ErsteV": {
           "ant_a": "Seid heilig, denn ich, der Herr, euer Gott, bin heilig.",
           "ant_b": "So spricht der Herr: Ich tilge deine Vergehen, ich denke nicht mehr an deine Sünden.",
           "ant_c": "Der Herr belohnt den, der rechtschaffen ist und treu.",
-          "oration": "Barmherziger Gott, du hast durch deinen Sohn zu uns gesprochen. Lass uns immer wieder über dein Wort nachsinnen, damit wir reden und tun, was dir gefällt. Darum bitten wir durch Jesus Christus."
+          "oration": "Barmherziger Gott, du hast durch deinen Sohn zu uns gesprochen. Lass uns immer wieder über dein Wort nachsinnen, damit wir reden und tun, was dir gefällt.^orV"
         },
         "Laudes": {
           "ant_a": "Wer dich bittet, dem gib, und wer von dir borgen will, den weise nicht ab.",
@@ -7125,20 +7125,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Barmherziger Gott, du hast durch deinen Sohn zu uns gesprochen. Lass uns immer wieder über dein Wort nachsinnen, damit wir reden und tun, was dir gefällt. Darum bitten wir durch Jesus Christus."
+          "oration": "Barmherziger Gott, du hast durch deinen Sohn zu uns gesprochen. Lass uns immer wieder über dein Wort nachsinnen, damit wir reden und tun, was dir gefällt.^orV"
         }
       }
     },
     "8": {
       "0": {
         "each": {
-          "oration": "Allmächtiger Gott, deine Vorsehung bestimmt den Lauf der Dinge und das Schicksal der Menschen. Lenke die Welt in den Bahnen deiner Ordnung, damit die Kirche in Frieden deinen Auftrag erfüllen kann. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, deine Vorsehung bestimmt den Lauf der Dinge und das Schicksal der Menschen. Lenke die Welt in den Bahnen deiner Ordnung, damit die Kirche in Frieden deinen Auftrag erfüllen kann.^orV"
         },
         "ErsteV": {
           "ant_a": "Kann eine Frau ihr Kind vergessen, eine Mutter den Sohn ihres Schoßes? Und wenn sie ihn vergäße – ich vergesse dich nicht.",
           "ant_b": "Mein Volk, ich traue dich mir an auf ewig; ich traue dich mir an um den Brautpreis von Liebe und Erbarmen.",
           "ant_c": "Wie der Baum, so seine Frucht; wie ein Mensch gesinnt ist, so wird er beurteilt.",
-          "oration": "Allmächtiger Gott, deine Vorsehung bestimmt den Lauf der Dinge und das Schicksal der Menschen. Lenke die Welt in den Bahnen deiner Ordnung, damit die Kirche in Frieden deinen Auftrag erfüllen kann. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, deine Vorsehung bestimmt den Lauf der Dinge und das Schicksal der Menschen. Lenke die Welt in den Bahnen deiner Ordnung, damit die Kirche in Frieden deinen Auftrag erfüllen kann.^orV"
         },
         "Laudes": {
           "ant_a": "Ihr könnt nicht Gott dienen und zugleich dem Mammon.",
@@ -7153,20 +7153,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Allmächtiger Gott, deine Vorsehung bestimmt den Lauf der Dinge und das Schicksal der Menschen. Lenke die Welt in den Bahnen deiner Ordnung, damit die Kirche in Frieden deinen Auftrag erfüllen kann. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, deine Vorsehung bestimmt den Lauf der Dinge und das Schicksal der Menschen. Lenke die Welt in den Bahnen deiner Ordnung, damit die Kirche in Frieden deinen Auftrag erfüllen kann.^orV"
         }
       }
     },
     "9": {
       "0": {
         "each": {
-          "oration": "Gott, unser Vater, deine Vorsehung geht niemals fehl. Halte von uns fern, was uns schadet, und gewähre uns alles, was zum Heile dient. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, unser Vater, deine Vorsehung geht niemals fehl. Halte von uns fern, was uns schadet, und gewähre uns alles, was zum Heile dient.^orV"
         },
         "ErsteV": {
           "ant_a": "Hört auf die Gebote des Herrn, eures Gottes, und er wird euch segnen.",
           "ant_b": "Halte den Sabbat heilig; denn er ist ein Ruhetag, geweiht dem Herrn, deinem Gott.",
           "ant_c": "Alle Völker werden erkennen, dass dein Name ausgerufen ist über diesem Haus.",
-          "oration": "Gott, unser Vater, deine Vorsehung geht niemals fehl. Halte von uns fern, was uns schadet, und gewähre uns alles, was zum Heile dient. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, unser Vater, deine Vorsehung geht niemals fehl. Halte von uns fern, was uns schadet, und gewähre uns alles, was zum Heile dient.^orV"
         },
         "Laudes": {
           "ant_a": "Wer meine Worte hört und sie befolgt, der gleicht einem klugen Mann, der sein Haus auf Fels gebaut hat.",
@@ -7181,20 +7181,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Gott, unser Vater, deine Vorsehung geht niemals fehl. Halte von uns fern, was uns schadet, und gewähre uns alles, was zum Heile dient. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, unser Vater, deine Vorsehung geht niemals fehl. Halte von uns fern, was uns schadet, und gewähre uns alles, was zum Heile dient.^orV"
         }
       }
     },
     "10": {
       "0": {
         "each": {
-          "oration": "Gott, unser Vater, alles Gute kommt allein von dir. Schenke uns deinen Geist, damit wir erkennen, was recht ist, und es mit deiner Hilfe auch tun. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, unser Vater, alles Gute kommt allein von dir. Schenke uns deinen Geist, damit wir erkennen, was recht ist, und es mit deiner Hilfe auch tun.^orV"
         },
         "ErsteV": {
           "ant_a": "Barmherzigkeit will ich, nicht Opfer, nicht Brandopfer, sondern Erkenntnis Gottes.",
           "ant_b": "Gott, der Herr, sprach zur Schlange: Feindschaft stifte ich zwischen dir und der Frau, zwischen deinem Spross und ihrem Spross. Er wird dir den Kopf zertreten.",
           "ant_c": "Elija nahm den Knaben und gab ihn seiner Mutter und sprach: Siehe, dein Sohn ist wieder am Leben.",
-          "oration": "Gott, unser Vater, alles Gute kommt allein von dir. Schenke uns deinen Geist, damit wir erkennen, was recht ist, und es mit deiner Hilfe auch tun. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, unser Vater, alles Gute kommt allein von dir. Schenke uns deinen Geist, damit wir erkennen, was recht ist, und es mit deiner Hilfe auch tun.^orV"
         },
         "Laudes": {
           "ant_a": "Zöllner und Sünder kamen und aßen mit Jesus und seinen Jüngern.",
@@ -7209,20 +7209,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Gott, unser Vater, alles Gute kommt allein von dir. Schenke uns deinen Geist, damit wir erkennen, was recht ist, und es mit deiner Hilfe auch tun. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, unser Vater, alles Gute kommt allein von dir. Schenke uns deinen Geist, damit wir erkennen, was recht ist, und es mit deiner Hilfe auch tun.^orV"
         }
       }
     },
     "11": {
       "0": {
         "each": {
-          "oration": "Gott, du unsere Hoffnung und unsere Kraft, ohne dich vermögen wir nichts. Steh uns mit deiner Gnade bei, damit wir denken, reden und tun, was dir gefällt. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, du unsere Hoffnung und unsere Kraft, ohne dich vermögen wir nichts. Steh uns mit deiner Gnade bei, damit wir denken, reden und tun, was dir gefällt.^orV"
         },
         "ErsteV": {
           "ant_a": "Mein ist die ganze Erde, ihr aber sollt mir gehören als ein heiliges Volk.",
           "ant_b": "Ich pflanze ein Reis auf einem hohen, ragenden Berg. Dort treibt es Zweige, trägt Früchte und wird zur prächtigen Zeder.",
           "ant_c": "Natan sprach zu David: Der Herr hat dir deine Sünde vergeben; du wirst nicht sterben.",
-          "oration": "Gott, du unsere Hoffnung und unsere Kraft, ohne dich vermögen wir nichts. Steh uns mit deiner Gnade bei, damit wir denken, reden und tun, was dir gefällt. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, du unsere Hoffnung und unsere Kraft, ohne dich vermögen wir nichts. Steh uns mit deiner Gnade bei, damit wir denken, reden und tun, was dir gefällt.^orV"
         },
         "Laudes": {
           "ant_a": "Die Ernte ist groß, doch der Arbeiter sind wenige. Bittet also den Herrn, dass er Arbeiter sende in seine Ernte.",
@@ -7237,20 +7237,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Gott, du unsere Hoffnung und unsere Kraft, ohne dich vermögen wir nichts. Steh uns mit deiner Gnade bei, damit wir denken, reden und tun, was dir gefällt. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, du unsere Hoffnung und unsere Kraft, ohne dich vermögen wir nichts. Steh uns mit deiner Gnade bei, damit wir denken, reden und tun, was dir gefällt.^orV"
         }
       }
     },
     "12": {
       "0": {
         "each": {
-          "oration": "Heiliger Gott, gib, dass wir deinen Namen allezeit fürchten und lieben. Denn du entziehst keinem deine väterliche Hand, der fest in deiner Liebe verwurzelt ist. Darum bitten wir durch Jesus Christus."
+          "oration": "Heiliger Gott, gib, dass wir deinen Namen allezeit fürchten und lieben. Denn du entziehst keinem deine väterliche Hand, der fest in deiner Liebe verwurzelt ist.^orV"
         },
         "ErsteV": {
           "ant_a": "Rühmt den Namen des Herrn; er rettet das Leben der Armen.",
           "ant_b": "Wer verschloss das Meer mit Toren, wer bändigte den Stolz seiner Wogen? Wer anders als der Herr.",
           "ant_c": "Sie schauen auf zu dem, den sie durchbohrten; sie halten Klage wie um den einzigen Sohn.",
-          "oration": "Heiliger Gott, gib, dass wir deinen Namen allezeit fürchten und lieben. Denn du entziehst keinem deine väterliche Hand, der fest in deiner Liebe verwurzelt ist. Darum bitten wir durch Jesus Christus."
+          "oration": "Heiliger Gott, gib, dass wir deinen Namen allezeit fürchten und lieben. Denn du entziehst keinem deine väterliche Hand, der fest in deiner Liebe verwurzelt ist.^orV"
         },
         "Laudes": {
           "ant_a": "Was ich euch im Dunkeln sage, das verkündet am hellen Tag.",
@@ -7265,20 +7265,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Heiliger Gott, gib, dass wir deinen Namen allezeit fürchten und lieben. Denn du entziehst keinem deine väterliche Hand, der fest in deiner Liebe verwurzelt ist. Darum bitten wir durch Jesus Christus."
+          "oration": "Heiliger Gott, gib, dass wir deinen Namen allezeit fürchten und lieben. Denn du entziehst keinem deine väterliche Hand, der fest in deiner Liebe verwurzelt ist.^orV"
         }
       }
     },
     "13": {
       "0": {
         "each": {
-          "oration": "Gott, unser Vater, du hast uns in der Taufe zu Kindern des Lichtes gemacht. Lass nicht zu, dass die Finsternis des Irrtums über uns Macht gewinnt, sondern hilf uns, im Licht deiner Wahrheit zu bleiben. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, unser Vater, du hast uns in der Taufe zu Kindern des Lichtes gemacht. Lass nicht zu, dass die Finsternis des Irrtums über uns Macht gewinnt, sondern hilf uns, im Licht deiner Wahrheit zu bleiben.^orV"
         },
         "ErsteV": {
           "ant_a": "Ihr seid tot für die Sünde, aber ihr lebt für Gott in Christus Jesus.",
           "ant_b": "Gott hat den Tod nicht gemacht, er hat keine Freude am Untergang der Lebenden.",
           "ant_c": "Elija warf seinen Mantel über Elischa. Dieser verließ sogleich seine Rinder und eilte ihm nach.",
-          "oration": "Gott, unser Vater, du hast uns in der Taufe zu Kindern des Lichtes gemacht. Lass nicht zu, dass die Finsternis des Irrtums über uns Macht gewinnt, sondern hilf uns, im Licht deiner Wahrheit zu bleiben. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, unser Vater, du hast uns in der Taufe zu Kindern des Lichtes gemacht. Lass nicht zu, dass die Finsternis des Irrtums über uns Macht gewinnt, sondern hilf uns, im Licht deiner Wahrheit zu bleiben.^orV"
         },
         "Laudes": {
           "ant_a": "Wer nicht sein Kreuz auf sich nimmt und mir nachfolgt, ist meiner nicht würdig.",
@@ -7293,20 +7293,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Gott, unser Vater, du hast uns in der Taufe zu Kindern des Lichtes gemacht. Lass nicht zu, dass die Finsternis des Irrtums über uns Macht gewinnt, sondern hilf uns, im Licht deiner Wahrheit zu bleiben. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, unser Vater, du hast uns in der Taufe zu Kindern des Lichtes gemacht. Lass nicht zu, dass die Finsternis des Irrtums über uns Macht gewinnt, sondern hilf uns, im Licht deiner Wahrheit zu bleiben.^orV"
         }
       }
     },
     "14": {
       "0": {
         "each": {
-          "oration": "Barmherziger Gott, durch die Erniedrigung deines Sohnes hast du die gefallene Menschheit wieder aufgerichtet und aus der Knechtschaft der Sünde befreit. Erfülle uns mit Freude über die Erlösung und führe uns zur ewigen Seligkeit. Darum bitten wir durch Jesus Christus."
+          "oration": "Barmherziger Gott, durch die Erniedrigung deines Sohnes hast du die gefallene Menschheit wieder aufgerichtet und aus der Knechtschaft der Sünde befreit. Erfülle uns mit Freude über die Erlösung und führe uns zur ewigen Seligkeit.^orV"
         },
         "ErsteV": {
           "ant_a": "Freue dich, du neues Zion! Siehe, dein König kommt, sein Volk zu erlösen.",
           "ant_b": "Ob sie auf dich hören oder nicht, sie müssen erkennen, dass mitten unter ihnen ein Prophet war.",
           "ant_c": "Wie einen Strom leitet der Herr den Frieden nach Jerusalem.",
-          "oration": "Barmherziger Gott, durch die Erniedrigung deines Sohnes hast du die gefallene Menschheit wieder aufgerichtet und aus der Knechtschaft der Sünde befreit. Erfülle uns mit Freude über die Erlösung und führe uns zur ewigen Seligkeit. Darum bitten wir durch Jesus Christus."
+          "oration": "Barmherziger Gott, durch die Erniedrigung deines Sohnes hast du die gefallene Menschheit wieder aufgerichtet und aus der Knechtschaft der Sünde befreit. Erfülle uns mit Freude über die Erlösung und führe uns zur ewigen Seligkeit.^orV"
         },
         "Laudes": {
           "ant_a": "Lernt von mir, denn ich bin gütig und demütig von Herzen; und ihr werdet Ruhe finden.",
@@ -7321,20 +7321,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Barmherziger Gott, durch die Erniedrigung deines Sohnes hast du die gefallene Menschheit wieder aufgerichtet und aus der Knechtschaft der Sünde befreit. Erfülle uns mit Freude über die Erlösung und führe uns zur ewigen Seligkeit. Darum bitten wir durch Jesus Christus."
+          "oration": "Barmherziger Gott, durch die Erniedrigung deines Sohnes hast du die gefallene Menschheit wieder aufgerichtet und aus der Knechtschaft der Sünde befreit. Erfülle uns mit Freude über die Erlösung und führe uns zur ewigen Seligkeit.^orV"
         }
       }
     },
     "15": {
       "0": {
         "each": {
-          "oration": "Gott, du bist unser Ziel, du zeigst den Irrenden das Licht der Wahrheit und führst sie auf den rechten Weg zurück. Gib allen, die sich Christen nennen, die Kraft, zu meiden, was diesem Namen widerspricht, und zu tun, was unserem Glauben entspricht. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, du bist unser Ziel, du zeigst den Irrenden das Licht der Wahrheit und führst sie auf den rechten Weg zurück. Gib allen, die sich Christen nennen, die Kraft, zu meiden, was diesem Namen widerspricht, und zu tun, was unserem Glauben entspricht.^orV"
         },
         "ErsteV": {
           "ant_a": "Mein Wort bewirkt, was ich will, und führt aus, wozu ich es sende.",
           "ant_b": "Der Herr hat mich von meiner Herde weggeholt und zu mir gesagt: Geh und rede als Prophet zu meinem Volk Israel!",
           "ant_c": "Das Wort ist ganz nahe bei dir: in deinem Mund und in deinem Herzen. Du kannst es halten.",
-          "oration": "Gott, du bist unser Ziel, du zeigst den Irrenden das Licht der Wahrheit und führst sie auf den rechten Weg zurück. Gib allen, die sich Christen nennen, die Kraft, zu meiden, was diesem Namen widerspricht, und zu tun, was unserem Glauben entspricht. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, du bist unser Ziel, du zeigst den Irrenden das Licht der Wahrheit und führst sie auf den rechten Weg zurück. Gib allen, die sich Christen nennen, die Kraft, zu meiden, was diesem Namen widerspricht, und zu tun, was unserem Glauben entspricht.^orV"
         },
         "Laudes": {
           "ant_a": "Der Same ist das Wort Gottes, und Christus ist der Sämann: wer das Wort aufnimmt, hat das ewige Leben.",
@@ -7349,20 +7349,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Gott, du bist unser Ziel, du zeigst den Irrenden das Licht der Wahrheit und führst sie auf den rechten Weg zurück. Gib allen, die sich Christen nennen, die Kraft, zu meiden, was diesem Namen widerspricht, und zu tun, was unserem Glauben entspricht. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, du bist unser Ziel, du zeigst den Irrenden das Licht der Wahrheit und führst sie auf den rechten Weg zurück. Gib allen, die sich Christen nennen, die Kraft, zu meiden, was diesem Namen widerspricht, und zu tun, was unserem Glauben entspricht.^orV"
         }
       }
     },
     "16": {
       "0": {
         "each": {
-          "oration": "Herr, unser Gott, sieh gnädig auf alle, die du in deinen Dienst gerufen hast. Mach uns stark im Glauben, in der Hoffnung und in der Liebe, damit wir immer wachsam sind und auf dem Weg deiner Gebote bleiben. Darum bitten wir durch Jesus Christus."
+          "oration": "Herr, unser Gott, sieh gnädig auf alle, die du in deinen Dienst gerufen hast. Mach uns stark im Glauben, in der Hoffnung und in der Liebe, damit wir immer wachsam sind und auf dem Weg deiner Gebote bleiben.^orV"
         },
         "ErsteV": {
           "ant_a": "Weil du stark bist, o°Herr, richtest du in Milde und mit großer Nachsicht.",
           "ant_b": "Ich gebe meinen Schafen Hirten, die sie weiden. Sie werden sich nicht mehr fürchten und nie mehr verlorengehen.",
           "ant_c": "Mein Herr, geh doch an deinem Knecht nicht vorbei.",
-          "oration": "Herr, unser Gott, sieh gnädig auf alle, die du in deinen Dienst gerufen hast. Mach uns stark im Glauben, in der Hoffnung und in der Liebe, damit wir immer wachsam sind und auf dem Weg deiner Gebote bleiben. Darum bitten wir durch Jesus Christus."
+          "oration": "Herr, unser Gott, sieh gnädig auf alle, die du in deinen Dienst gerufen hast. Mach uns stark im Glauben, in der Hoffnung und in der Liebe, damit wir immer wachsam sind und auf dem Weg deiner Gebote bleiben.^orV"
         },
         "Laudes": {
           "ant_a": "Mit dem Himmelreich ist es wie mit dem Sauerteig: unter das Mehl gemischt, durchsäuert er das Ganze.",
@@ -7377,20 +7377,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Herr, unser Gott, sieh gnädig auf alle, die du in deinen Dienst gerufen hast. Mach uns stark im Glauben, in der Hoffnung und in der Liebe, damit wir immer wachsam sind und auf dem Weg deiner Gebote bleiben. Darum bitten wir durch Jesus Christus."
+          "oration": "Herr, unser Gott, sieh gnädig auf alle, die du in deinen Dienst gerufen hast. Mach uns stark im Glauben, in der Hoffnung und in der Liebe, damit wir immer wachsam sind und auf dem Weg deiner Gebote bleiben.^orV"
         }
       }
     },
     "17": {
       "0": {
         "each": {
-          "oration": "Gott, du Beschützer aller, die auf dich hoffen, ohne dich ist nichts gesund und nichts heilig. Führe uns in deinem Erbarmen den rechten Weg und hilf uns, die vergänglichen Güter so zu gebrauchen, dass wir die ewigen nicht verlieren. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, du Beschützer aller, die auf dich hoffen, ohne dich ist nichts gesund und nichts heilig. Führe uns in deinem Erbarmen den rechten Weg und hilf uns, die vergänglichen Güter so zu gebrauchen, dass wir die ewigen nicht verlieren.^orV"
         },
         "ErsteV": {
           "ant_a": "Verleih deinem Knecht ein hörendes Herz, damit er das Gute vom Bösen zu unterscheiden versteht.",
           "ant_b": "Gib den Leuten das Brot zu essen; denn so spricht der Herr: Man wird essen, und es wird noch übrig sein.",
           "ant_c": "An dem Tag, als ich rief, hast du mich erhört; du gabst meiner Seele große Kraft.",
-          "oration": "Gott, du Beschützer aller, die auf dich hoffen, ohne dich ist nichts gesund und nichts heilig. Führe uns in deinem Erbarmen den rechten Weg und hilf uns, die vergänglichen Güter so zu gebrauchen, dass wir die ewigen nicht verlieren. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, du Beschützer aller, die auf dich hoffen, ohne dich ist nichts gesund und nichts heilig. Führe uns in deinem Erbarmen den rechten Weg und hilf uns, die vergänglichen Güter so zu gebrauchen, dass wir die ewigen nicht verlieren.^orV"
         },
         "Laudes": {
           "ant_a": "Mit dem Himmelreich ist es wie mit einem Kaufmann, der wertvolle Perlen suchte. Als er eine besonders kostbare fand, verkaufte er alles, was er besaß, und kaufte sie.",
@@ -7405,20 +7405,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Gott, du Beschützer aller, die auf dich hoffen, ohne dich ist nichts gesund und nichts heilig. Führe uns in deinem Erbarmen den rechten Weg und hilf uns, die vergänglichen Güter so zu gebrauchen, dass wir die ewigen nicht verlieren. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, du Beschützer aller, die auf dich hoffen, ohne dich ist nichts gesund und nichts heilig. Führe uns in deinem Erbarmen den rechten Weg und hilf uns, die vergänglichen Güter so zu gebrauchen, dass wir die ewigen nicht verlieren.^orV"
         }
       }
     },
     "18": {
       "0": {
         "each": {
-          "oration": "Gott, unser Vater, steh deinen Dienern bei und erweise allen, die zu dir rufen, Tag für Tag deine Liebe. Du bist unser Schöpfer und der Lenker unseres Lebens. Erneuere deine Gnade in uns, damit wir dir gefallen, und erhalte, was du erneuert hast. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, unser Vater, steh deinen Dienern bei und erweise allen, die zu dir rufen, Tag für Tag deine Liebe. Du bist unser Schöpfer und der Lenker unseres Lebens. Erneuere deine Gnade in uns, damit wir dir gefallen, und erhalte, was du erneuert hast.^orV"
         },
         "ErsteV": {
           "ant_a": "Hört doch auf mich, und ihr werdet euch laben an köstlicher Speise.",
           "ant_b": "Der Herr sprach zu Mose: Ich will euch Brot geben vom Himmel, und ihr werdet erkennen, dass ich der Herr, euer Gott, bin.",
           "ant_c": "Richtet euren Sinn auf das Himmlische, denn euer neues Leben ist mit Christus verborgen in Gott.",
-          "oration": "Gott, unser Vater, steh deinen Dienern bei und erweise allen, die zu dir rufen, Tag für Tag deine Liebe. Du bist unser Schöpfer und der Lenker unseres Lebens. Erneuere deine Gnade in uns, damit wir dir gefallen, und erhalte, was du erneuert hast. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, unser Vater, steh deinen Dienern bei und erweise allen, die zu dir rufen, Tag für Tag deine Liebe. Du bist unser Schöpfer und der Lenker unseres Lebens. Erneuere deine Gnade in uns, damit wir dir gefallen, und erhalte, was du erneuert hast.^orV"
         },
         "Laudes": {
           "ant_a": "Jesus rief seine Jünger zu sich und sprach: Ich habe Mitleid mit diesen Menschen, die nichts zu essen haben.",
@@ -7433,20 +7433,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Gott, unser Vater, steh deinen Dienern bei und erweise allen, die zu dir rufen, Tag für Tag deine Liebe. Du bist unser Schöpfer und der Lenker unseres Lebens. Erneuere deine Gnade in uns, damit wir dir gefallen, und erhalte, was du erneuert hast. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, unser Vater, steh deinen Dienern bei und erweise allen, die zu dir rufen, Tag für Tag deine Liebe. Du bist unser Schöpfer und der Lenker unseres Lebens. Erneuere deine Gnade in uns, damit wir dir gefallen, und erhalte, was du erneuert hast.^orV"
         }
       }
     },
     "19": {
       "0": {
         "each": {
-          "oration": "Allmächtiger Gott, wir dürfen dich Vater nennen, denn du hast uns an Kindes Statt angenommen und uns den Geist deines Sohnes gesandt. Gib, dass wir in diesem Geist wachsen und einst das verheißene Erbe empfangen. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, wir dürfen dich Vater nennen, denn du hast uns an Kindes Statt angenommen und uns den Geist deines Sohnes gesandt. Gib, dass wir in diesem Geist wachsen und einst das verheißene Erbe empfangen.^orV"
         },
         "ErsteV": {
           "ant_a": "Jesus stieg auf einen Berg, um in der Einsamkeit zu beten. Und als die Nacht hereinbrach, war er immer noch dort.",
           "ant_b": "Der Engel des Herrn rührte Elija an und sprach: Steh auf und iss! Du hast noch einen weiten Weg vor dir.",
           "ant_c": "Unseren Vätern hat Gott die Nacht der Rettung verheißen; auf sein Wort haben sie vertraut.",
-          "oration": "Allmächtiger Gott, wir dürfen dich Vater nennen, denn du hast uns an Kindes Statt angenommen und uns den Geist deines Sohnes gesandt. Gib, dass wir in diesem Geist wachsen und einst das verheißene Erbe empfangen. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, wir dürfen dich Vater nennen, denn du hast uns an Kindes Statt angenommen und uns den Geist deines Sohnes gesandt. Gib, dass wir in diesem Geist wachsen und einst das verheißene Erbe empfangen.^orV"
         },
         "Laudes": {
           "ant_a": "Beim Morgengrauen kam Jesus über den See und sprach zu seinen Jüngern: Habt Vertrauen: ich bin es, fürchtet euch nicht!",
@@ -7461,20 +7461,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Allmächtiger Gott, wir dürfen dich Vater nennen, denn du hast uns an Kindes Statt angenommen und uns den Geist deines Sohnes gesandt. Gib, dass wir in diesem Geist wachsen und einst das verheißene Erbe empfangen. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, wir dürfen dich Vater nennen, denn du hast uns an Kindes Statt angenommen und uns den Geist deines Sohnes gesandt. Gib, dass wir in diesem Geist wachsen und einst das verheißene Erbe empfangen.^orV"
         }
       }
     },
     "20": {
       "0": {
         "each": {
-          "oration": "Barmherziger Gott, was kein Auge geschaut und kein Ohr gehört hat, das hast du denen bereitet, die dich lieben. Gib uns ein Herz, das dich in allem und über alles liebt, damit wir den Reichtum deiner Verheißungen erlangen, der alles übersteigt, was wir ersehnen. Darum bitten wir durch Jesus Christus."
+          "oration": "Barmherziger Gott, was kein Auge geschaut und kein Ohr gehört hat, das hast du denen bereitet, die dich lieben. Gib uns ein Herz, das dich in allem und über alles liebt, damit wir den Reichtum deiner Verheißungen erlangen, der alles übersteigt, was wir ersehnen.^orV"
         },
         "ErsteV": {
           "ant_a": "So spricht der Herr: Mein Haus wird ein Haus des Gebets sein für alle Völker.",
           "ant_b": "Kommt, esst von meinem Mahl und trinkt vom Wein, den ich gemischt.",
           "ant_c": "Der Herr hörte mein Schreien. Er zog mich heraus aus der Grube des Grauens und legte mir ein neues Lied in den Mund.",
-          "oration": "Barmherziger Gott, was kein Auge geschaut und kein Ohr gehört hat, das hast du denen bereitet, die dich lieben. Gib uns ein Herz, das dich in allem und über alles liebt, damit wir den Reichtum deiner Verheißungen erlangen, der alles übersteigt, was wir ersehnen. Darum bitten wir durch Jesus Christus."
+          "oration": "Barmherziger Gott, was kein Auge geschaut und kein Ohr gehört hat, das hast du denen bereitet, die dich lieben. Gib uns ein Herz, das dich in allem und über alles liebt, damit wir den Reichtum deiner Verheißungen erlangen, der alles übersteigt, was wir ersehnen.^orV"
         },
         "Laudes": {
           "ant_a": "Hab Erbarmen mit mir, Herr, du Sohn Davids!",
@@ -7489,20 +7489,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Barmherziger Gott, was kein Auge geschaut und kein Ohr gehört hat, das hast du denen bereitet, die dich lieben. Gib uns ein Herz, das dich in allem und über alles liebt, damit wir den Reichtum deiner Verheißungen erlangen, der alles übersteigt, was wir ersehnen. Darum bitten wir durch Jesus Christus."
+          "oration": "Barmherziger Gott, was kein Auge geschaut und kein Ohr gehört hat, das hast du denen bereitet, die dich lieben. Gib uns ein Herz, das dich in allem und über alles liebt, damit wir den Reichtum deiner Verheißungen erlangen, der alles übersteigt, was wir ersehnen.^orV"
         }
       }
     },
     "21": {
       "0": {
         "each": {
-          "oration": "Gott, unser Herr, du verbindest alle, die an dich glauben, zum gemeinsamen Streben. Gib, dass wir lieben, was du befiehlst, und ersehnen, was du uns verheißen hast, damit in der Unbeständigkeit dieses Lebens unsere Herzen dort verankert seien, wo die wahren Freuden sind. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, unser Herr, du verbindest alle, die an dich glauben, zum gemeinsamen Streben. Gib, dass wir lieben, was du befiehlst, und ersehnen, was du uns verheißen hast, damit in der Unbeständigkeit dieses Lebens unsere Herzen dort verankert seien, wo die wahren Freuden sind.^orV"
         },
         "ErsteV": {
           "ant_a": "Ich berufe meinen Knecht und lege den Schlüssel des Hauses David auf seine Schulter.",
           "ant_b": "Das sei uns fern, dass wir den Herrn verlassen und fremden Göttern dienen.",
           "ant_c": "Alle Völker will ich versammeln. Sie werden kommen und meine Herrlichkeit schauen.",
-          "oration": "Gott, unser Herr, du verbindest alle, die an dich glauben, zum gemeinsamen Streben. Gib, dass wir lieben, was du befiehlst, und ersehnen, was du uns verheißen hast, damit in der Unbeständigkeit dieses Lebens unsere Herzen dort verankert seien, wo die wahren Freuden sind. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, unser Herr, du verbindest alle, die an dich glauben, zum gemeinsamen Streben. Gib, dass wir lieben, was du befiehlst, und ersehnen, was du uns verheißen hast, damit in der Unbeständigkeit dieses Lebens unsere Herzen dort verankert seien, wo die wahren Freuden sind.^orV"
         },
         "Laudes": {
           "ant_a": "Petrus bekannte und sagte: Du bist der Messias, der Sohn des lebendigen Gottes. Jesus sprach zu ihm: Selig bist du, Simon Petrus.",
@@ -7517,20 +7517,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Gott, unser Herr, du verbindest alle, die an dich glauben, zum gemeinsamen Streben. Gib, dass wir lieben, was du befiehlst, und ersehnen, was du uns verheißen hast, damit in der Unbeständigkeit dieses Lebens unsere Herzen dort verankert seien, wo die wahren Freuden sind. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, unser Herr, du verbindest alle, die an dich glauben, zum gemeinsamen Streben. Gib, dass wir lieben, was du befiehlst, und ersehnen, was du uns verheißen hast, damit in der Unbeständigkeit dieses Lebens unsere Herzen dort verankert seien, wo die wahren Freuden sind.^orV"
         }
       }
     },
     "22": {
       "0": {
         "each": {
-          "oration": "Allmächtiger Gott, von dir kommt alles Gute. Pflanze in unser Herz die Liebe zu deinem Namen ein. Binde uns immer mehr an dich, damit in uns wächst, was gut und heilig ist. Wache über uns und erhalte, was du gewirkt hast. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, von dir kommt alles Gute. Pflanze in unser Herz die Liebe zu deinem Namen ein. Binde uns immer mehr an dich, damit in uns wächst, was gut und heilig ist. Wache über uns und erhalte, was du gewirkt hast.^orV"
         },
         "ErsteV": {
           "ant_a": "Gleicht euch dieser Welt nicht an, sondern wandelt euch durch ein neues Denken.",
           "ant_b": "Achtet auf die Gebote des Herrn, eures Gottes, und haltet sie; denn sie sind eure Weisheit.",
           "ant_c": "Halte dich selbst für gering, dann wirst du Gnade finden bei Gott.",
-          "oration": "Allmächtiger Gott, von dir kommt alles Gute. Pflanze in unser Herz die Liebe zu deinem Namen ein. Binde uns immer mehr an dich, damit in uns wächst, was gut und heilig ist. Wache über uns und erhalte, was du gewirkt hast. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, von dir kommt alles Gute. Pflanze in unser Herz die Liebe zu deinem Namen ein. Binde uns immer mehr an dich, damit in uns wächst, was gut und heilig ist. Wache über uns und erhalte, was du gewirkt hast.^orV"
         },
         "Laudes": {
           "ant_a": "Der Menschensohn wird kommen in der Herrlichkeit seines Vaters. Dann wird er jedem geben, was er für seine Taten verdient.",
@@ -7545,20 +7545,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Allmächtiger Gott, von dir kommt alles Gute. Pflanze in unser Herz die Liebe zu deinem Namen ein. Binde uns immer mehr an dich, damit in uns wächst, was gut und heilig ist. Wache über uns und erhalte, was du gewirkt hast. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, von dir kommt alles Gute. Pflanze in unser Herz die Liebe zu deinem Namen ein. Binde uns immer mehr an dich, damit in uns wächst, was gut und heilig ist. Wache über uns und erhalte, was du gewirkt hast.^orV"
         }
       }
     },
     "23": {
       "0": {
         "each": {
-          "oration": "Gütiger Gott, du hast uns durch deinen Sohn erlöst und als deine geliebten Kinder angenommen. Sieh voll Güte auf alle, die an Christus glauben, und schenke ihnen die wahre Freiheit und das ewige Erbe. Darum bitten wir durch Jesus Christus."
+          "oration": "Gütiger Gott, du hast uns durch deinen Sohn erlöst und als deine geliebten Kinder angenommen. Sieh voll Güte auf alle, die an Christus glauben, und schenke ihnen die wahre Freiheit und das ewige Erbe.^orV"
         },
         "ErsteV": {
           "ant_a": "Ich gebe dich dem Haus Israel als Wächter. Warne den Schuldigen vor seinem Weg, damit er sich bekehrt.",
           "ant_b": "Der Herr wird kommen und euch retten. Dann werden die Ohren des Tauben sich öffnen, und die Zunge des Stummen wird jubeln.",
           "ant_c": "Welcher Mensch kann Gottes Plan erkennen, oder wer begreift, was der Wille des Herrn ist?",
-          "oration": "Gütiger Gott, du hast uns durch deinen Sohn erlöst und als deine geliebten Kinder angenommen. Sieh voll Güte auf alle, die an Christus glauben, und schenke ihnen die wahre Freiheit und das ewige Erbe. Darum bitten wir durch Jesus Christus."
+          "oration": "Gütiger Gott, du hast uns durch deinen Sohn erlöst und als deine geliebten Kinder angenommen. Sieh voll Güte auf alle, die an Christus glauben, und schenke ihnen die wahre Freiheit und das ewige Erbe.^orV"
         },
         "Laudes": {
           "ant_a": "Was ihr auf Erden bindet, das wird auch im Himmel gebunden sein, und was ihr auf Erden löst, das wird auch im Himmel gelöst sein.",
@@ -7573,20 +7573,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Gütiger Gott, du hast uns durch deinen Sohn erlöst und als deine geliebten Kinder angenommen. Sieh voll Güte auf alle, die an Christus glauben, und schenke ihnen die wahre Freiheit und das ewige Erbe. Darum bitten wir durch Jesus Christus."
+          "oration": "Gütiger Gott, du hast uns durch deinen Sohn erlöst und als deine geliebten Kinder angenommen. Sieh voll Güte auf alle, die an Christus glauben, und schenke ihnen die wahre Freiheit und das ewige Erbe.^orV"
         }
       }
     },
     "24": {
       "0": {
         "each": {
-          "oration": "Gott, du Schöpfer und Lenker aller Dinge, sieh gnädig auf uns. Gib, dass wir dir mit ganzem Herzen dienen und die Macht deiner Liebe an uns erfahren. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, du Schöpfer und Lenker aller Dinge, sieh gnädig auf uns. Gib, dass wir dir mit ganzem Herzen dienen und die Macht deiner Liebe an uns erfahren.^orV"
         },
         "ErsteV": {
           "ant_a": "Vergib deinem Nächsten das Unrecht, dann werden auch dir deine Sünden vergeben.",
           "ant_b": "Der Herr wird mir helfen; darum werde ich nicht in Schande enden.",
           "ant_c": "Warum, Herr, ist dein Zorn gegen dein Volk entbrannt? Du hast es doch mit starker Hand aus Ägypten herausgeführt.",
-          "oration": "Gott, du Schöpfer und Lenker aller Dinge, sieh gnädig auf uns. Gib, dass wir dir mit ganzem Herzen dienen und die Macht deiner Liebe an uns erfahren. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, du Schöpfer und Lenker aller Dinge, sieh gnädig auf uns. Gib, dass wir dir mit ganzem Herzen dienen und die Macht deiner Liebe an uns erfahren.^orV"
         },
         "Laudes": {
           "ant_a": "Der Herr sprach zu Petrus: Nicht siebenmal sollst du vergeben, sondern siebenundsiebzigmal.",
@@ -7601,20 +7601,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Gott, du Schöpfer und Lenker aller Dinge, sieh gnädig auf uns. Gib, dass wir dir mit ganzem Herzen dienen und die Macht deiner Liebe an uns erfahren. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, du Schöpfer und Lenker aller Dinge, sieh gnädig auf uns. Gib, dass wir dir mit ganzem Herzen dienen und die Macht deiner Liebe an uns erfahren.^orV"
         }
       }
     },
     "25": {
       "0": {
         "each": {
-          "oration": "Heiliger Gott, du hast uns das Gebot der Liebe zu dir und zu unserem Nächsten aufgetragen als die Erfüllung des ganzen Gesetzes. Gib uns die Kraft, dieses Gebot treu zu befolgen, damit wir das ewige Leben erlangen. Darum bitten wir durch Jesus Christus."
+          "oration": "Heiliger Gott, du hast uns das Gebot der Liebe zu dir und zu unserem Nächsten aufgetragen als die Erfüllung des ganzen Gesetzes. Gib uns die Kraft, dieses Gebot treu zu befolgen, damit wir das ewige Leben erlangen.^orV"
         },
         "ErsteV": {
           "ant_a": "Meine Gedanken sind nicht eure Gedanken, und eure Wege sind nicht meine Wege.",
           "ant_b": "Gott nimmt sich des Gerechten an und entreißt ihn der Hand seiner Feinde.",
           "ant_c": "Die ihr die Schwachen verfolgt und die Armen im Land unterdrückt: Keine eurer Taten wird der Herr jemals vergessen.",
-          "oration": "Heiliger Gott, du hast uns das Gebot der Liebe zu dir und zu unserem Nächsten aufgetragen als die Erfüllung des ganzen Gesetzes. Gib uns die Kraft, dieses Gebot treu zu befolgen, damit wir das ewige Leben erlangen. Darum bitten wir durch Jesus Christus."
+          "oration": "Heiliger Gott, du hast uns das Gebot der Liebe zu dir und zu unserem Nächsten aufgetragen als die Erfüllung des ganzen Gesetzes. Gib uns die Kraft, dieses Gebot treu zu befolgen, damit wir das ewige Leben erlangen.^orV"
         },
         "Laudes": {
           "ant_a": "Der Herr des Weinbergs ging am frühen Morgen aus, um Arbeiter für seinen Weinberg zu werben.",
@@ -7629,20 +7629,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Heiliger Gott, du hast uns das Gebot der Liebe zu dir und zu unserem Nächsten aufgetragen als die Erfüllung des ganzen Gesetzes. Gib uns die Kraft, dieses Gebot treu zu befolgen, damit wir das ewige Leben erlangen. Darum bitten wir durch Jesus Christus."
+          "oration": "Heiliger Gott, du hast uns das Gebot der Liebe zu dir und zu unserem Nächsten aufgetragen als die Erfüllung des ganzen Gesetzes. Gib uns die Kraft, dieses Gebot treu zu befolgen, damit wir das ewige Leben erlangen.^orV"
         }
       }
     },
     "26": {
       "0": {
         "each": {
-          "oration": "Großer Gott, du offenbarst deine Macht vor allem im Erbarmen und im Verschonen. Darum nimm uns in Gnaden auf, wenn uns auch Schuld belastet. Gib, dass wir unseren Lauf vollenden und zur Herrlichkeit des Himmels gelangen. Darum bitten wir durch Jesus Christus."
+          "oration": "Großer Gott, du offenbarst deine Macht vor allem im Erbarmen und im Verschonen. Darum nimm uns in Gnaden auf, wenn uns auch Schuld belastet. Gib, dass wir unseren Lauf vollenden und zur Herrlichkeit des Himmels gelangen.^orV"
         },
         "ErsteV": {
           "ant_a": "Wenn sich der Schuldige vom Unrecht abwendet und nach Recht und Gerechtigkeit handelt, wird er sein Leben bewahren.",
           "ant_b": "Möchten doch alle im Volk des Herrn Propheten sein, möchte der Herr seinen Geist auf sie alle legen.",
           "ant_c": "Wehe denen, die sorglos leben auf dem Zion, die sich in Sicherheit wähnen auf dem Berg von Samaria.",
-          "oration": "Großer Gott, du offenbarst deine Macht vor allem im Erbarmen und im Verschonen. Darum nimm uns in Gnaden auf, wenn uns auch Schuld belastet. Gib, dass wir unseren Lauf vollenden und zur Herrlichkeit des Himmels gelangen. Darum bitten wir durch Jesus Christus."
+          "oration": "Großer Gott, du offenbarst deine Macht vor allem im Erbarmen und im Verschonen. Darum nimm uns in Gnaden auf, wenn uns auch Schuld belastet. Gib, dass wir unseren Lauf vollenden und zur Herrlichkeit des Himmels gelangen.^orV"
         },
         "Laudes": {
           "ant_a": "Wer den Willen meines Vaters tut, kommt in das Himmelreich.",
@@ -7657,20 +7657,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Großer Gott, du offenbarst deine Macht vor allem im Erbarmen und im Verschonen. Darum nimm uns in Gnaden auf, wenn uns auch Schuld belastet. Gib, dass wir unseren Lauf vollenden und zur Herrlichkeit des Himmels gelangen. Darum bitten wir durch Jesus Christus."
+          "oration": "Großer Gott, du offenbarst deine Macht vor allem im Erbarmen und im Verschonen. Darum nimm uns in Gnaden auf, wenn uns auch Schuld belastet. Gib, dass wir unseren Lauf vollenden und zur Herrlichkeit des Himmels gelangen.^orV"
         }
       }
     },
     "27": {
       "0": {
         "each": {
-          "oration": "Allmächtiger Gott, du gibst uns in deiner Güte mehr, als wir verdienen, und Größeres, als wir erbitten. Nimm weg, was unser Gewissen belastet, und schenke uns jenen Frieden, den nur deine Barmherzigkeit geben kann. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, du gibst uns in deiner Güte mehr, als wir verdienen, und Größeres, als wir erbitten. Nimm weg, was unser Gewissen belastet, und schenke uns jenen Frieden, den nur deine Barmherzigkeit geben kann.^orV"
         },
         "ErsteV": {
           "ant_a": "Der Weinberg des Herrn der Heere ist das Haus Israel.",
           "ant_b": "Gott sprach: Es ist nicht gut, dass der Mensch allein bleibt. Ich will ihm eine Hilfe machen, die ihm entspricht.",
           "ant_c": "Gott hat uns nicht einen Geist der Verzagtheit gegeben, sondern den Geist der Kraft.",
-          "oration": "Allmächtiger Gott, du gibst uns in deiner Güte mehr, als wir verdienen, und Größeres, als wir erbitten. Nimm weg, was unser Gewissen belastet, und schenke uns jenen Frieden, den nur deine Barmherzigkeit geben kann. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, du gibst uns in deiner Güte mehr, als wir verdienen, und Größeres, als wir erbitten. Nimm weg, was unser Gewissen belastet, und schenke uns jenen Frieden, den nur deine Barmherzigkeit geben kann.^orV"
         },
         "Laudes": {
           "ant_a": "Der Stein, den die Bauleute verwarfen, er ist zum Eckstein geworden.",
@@ -7685,20 +7685,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Allmächtiger Gott, du gibst uns in deiner Güte mehr, als wir verdienen, und Größeres, als wir erbitten. Nimm weg, was unser Gewissen belastet, und schenke uns jenen Frieden, den nur deine Barmherzigkeit geben kann. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, du gibst uns in deiner Güte mehr, als wir verdienen, und Größeres, als wir erbitten. Nimm weg, was unser Gewissen belastet, und schenke uns jenen Frieden, den nur deine Barmherzigkeit geben kann.^orV"
         }
       }
     },
     "28": {
       "0": {
         "each": {
-          "oration": "Herr, unser Gott, deine Gnade komme uns zuvor und begleite uns, damit wir dein Wort im Herzen bewahren und immer bereit sind, das Gute zu tun. Darum bitten wir durch Jesus Christus."
+          "oration": "Herr, unser Gott, deine Gnade komme uns zuvor und begleite uns, damit wir dein Wort im Herzen bewahren und immer bereit sind, das Gute zu tun.^orV"
         },
         "ErsteV": {
           "ant_a": "Der Herr der Heere wird allen Völkern ein Mahl bereiten auf seinem heiligen Berg.",
           "ant_b": "Die Weisheit zog ich dem Lichte vor; denn nie erlischt der Glanz, der von ihr ausstrahlt.",
           "ant_c": "Als Naaman vom Aussatz geheilt war, trat er vor den Propheten hin und sagte: Jetzt weiß ich, dass es keinen Gott gibt außer in Israel.",
-          "oration": "Herr, unser Gott, deine Gnade komme uns zuvor und begleite uns, damit wir dein Wort im Herzen bewahren und immer bereit sind, das Gute zu tun. Darum bitten wir durch Jesus Christus."
+          "oration": "Herr, unser Gott, deine Gnade komme uns zuvor und begleite uns, damit wir dein Wort im Herzen bewahren und immer bereit sind, das Gute zu tun.^orV"
         },
         "Laudes": {
           "ant_a": "Geht hinaus auf die Straßen und ladet alle zur Hochzeit ein, so viele ihr findet.",
@@ -7713,20 +7713,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Herr, unser Gott, deine Gnade komme uns zuvor und begleite uns, damit wir dein Wort im Herzen bewahren und immer bereit sind, das Gute zu tun. Darum bitten wir durch Jesus Christus."
+          "oration": "Herr, unser Gott, deine Gnade komme uns zuvor und begleite uns, damit wir dein Wort im Herzen bewahren und immer bereit sind, das Gute zu tun.^orV"
         }
       }
     },
     "29": {
       "0": {
         "each": {
-          "oration": "Allmächtiger Gott, du bist unser Herr und Gebieter. Mach unseren Willen bereit, deinen Weisungen zu folgen, und gib uns ein Herz, das dir aufrichtig dient. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, du bist unser Herr und Gebieter. Mach unseren Willen bereit, deinen Weisungen zu folgen, und gib uns ein Herz, das dir aufrichtig dient.^orV"
         },
         "ErsteV": {
           "ant_a": "Vom Osten bis zum Westen sollen alle erkennen, dass es außer mir keinen Gott gibt. Ich bin der Herr, und sonst niemand.",
           "ant_b": "Lasst uns mit Zuversicht hintreten zum Thron der Gnade, damit wir Erbarmen finden.",
           "ant_c": "Solange Mose seine Hände erhoben hielt, war Israel stärker als der Feind.",
-          "oration": "Allmächtiger Gott, du bist unser Herr und Gebieter. Mach unseren Willen bereit, deinen Weisungen zu folgen, und gib uns ein Herz, das dir aufrichtig dient. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, du bist unser Herr und Gebieter. Mach unseren Willen bereit, deinen Weisungen zu folgen, und gib uns ein Herz, das dir aufrichtig dient.^orV"
         },
         "Laudes": {
           "ant_a": "Meister, wir wissen, dass du die Wahrheit sagst und in Wahrheit den Weg Gottes lehrst.",
@@ -7741,20 +7741,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Allmächtiger Gott, du bist unser Herr und Gebieter. Mach unseren Willen bereit, deinen Weisungen zu folgen, und gib uns ein Herz, das dir aufrichtig dient. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, du bist unser Herr und Gebieter. Mach unseren Willen bereit, deinen Weisungen zu folgen, und gib uns ein Herz, das dir aufrichtig dient.^orV"
         }
       }
     },
     "30": {
       "0": {
         "each": {
-          "oration": "Allmächtiger, ewiger Gott, mehre in uns den Glauben, die Hoffnung und die Liebe. Gib uns die Gnade, zu lieben, was du gebietest, damit wir erlangen, was du verheißen hast. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger, ewiger Gott, mehre in uns den Glauben, die Hoffnung und die Liebe. Gib uns die Gnade, zu lieben, was du gebietest, damit wir erlangen, was du verheißen hast.^orV"
         },
         "ErsteV": {
           "ant_a": "Die Erfüllung des Gesetzes ist die Liebe; wer den Nächsten liebt, hat das Gesetz erfüllt.",
           "ant_b": "Der Herr sammelt sein Volk von den Enden der Erde und bringt es heim. Auch die Blinden und Lahmen kehren zurück.",
           "ant_c": "Das Flehen des Armen dringt durch die Wolken, es ruht nicht, bis es am Ziel ist.",
-          "oration": "Allmächtiger, ewiger Gott, mehre in uns den Glauben, die Hoffnung und die Liebe. Gib uns die Gnade, zu lieben, was du gebietest, damit wir erlangen, was du verheißen hast. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger, ewiger Gott, mehre in uns den Glauben, die Hoffnung und die Liebe. Gib uns die Gnade, zu lieben, was du gebietest, damit wir erlangen, was du verheißen hast.^orV"
         },
         "Laudes": {
           "ant_a": "Du sollst deinen Nächsten lieben wie dich selbst.",
@@ -7769,20 +7769,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Allmächtiger, ewiger Gott, mehre in uns den Glauben, die Hoffnung und die Liebe. Gib uns die Gnade, zu lieben, was du gebietest, damit wir erlangen, was du verheißen hast. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger, ewiger Gott, mehre in uns den Glauben, die Hoffnung und die Liebe. Gib uns die Gnade, zu lieben, was du gebietest, damit wir erlangen, was du verheißen hast.^orV"
         }
       }
     },
     "31": {
       "0": {
         "each": {
-          "oration": "Allmächtiger, barmherziger Gott, es ist deine Gabe und dein Werk, wenn das gläubige Volk dir würdig und aufrichtig dient. Nimm alles von uns, was uns auf dem Weg zu dir aufhält, damit wir ungehindert der Freude entgegeneilen, die du uns verheißen hast. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger, barmherziger Gott, es ist deine Gabe und dein Werk, wenn das gläubige Volk dir würdig und aufrichtig dient. Nimm alles von uns, was uns auf dem Weg zu dir aufhält, damit wir ungehindert der Freude entgegeneilen, die du uns verheißen hast.^orV"
         },
         "ErsteV": {
           "ant_a": "Alle haben wir denselben Vater, uns alle hat der eine Gott erschaffen. Warum handeln wir treulos einer gegen den andern?",
           "ant_b": "Höre, Israel! Der Herr, unser Gott, ist der einzige Herr. Diese Worte sollen auf dein Herz geschrieben sein.",
           "ant_c": "Du erbarmst dich aller, o°Gott, und siehst über die Sünden der Menschen hinweg, damit sie sich bekehren.",
-          "oration": "Allmächtiger, barmherziger Gott, es ist deine Gabe und dein Werk, wenn das gläubige Volk dir würdig und aufrichtig dient. Nimm alles von uns, was uns auf dem Weg zu dir aufhält, damit wir ungehindert der Freude entgegeneilen, die du uns verheißen hast. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger, barmherziger Gott, es ist deine Gabe und dein Werk, wenn das gläubige Volk dir würdig und aufrichtig dient. Nimm alles von uns, was uns auf dem Weg zu dir aufhält, damit wir ungehindert der Freude entgegeneilen, die du uns verheißen hast.^orV"
         },
         "Laudes": {
           "ant_a": "Nur einer ist euer Meister, ihr alle aber seid Brüder. Der Größte unter euch soll euer Diener sein.",
@@ -7797,20 +7797,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Allmächtiger, barmherziger Gott, es ist deine Gabe und dein Werk, wenn das gläubige Volk dir würdig und aufrichtig dient. Nimm alles von uns, was uns auf dem Weg zu dir aufhält, damit wir ungehindert der Freude entgegeneilen, die du uns verheißen hast. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger, barmherziger Gott, es ist deine Gabe und dein Werk, wenn das gläubige Volk dir würdig und aufrichtig dient. Nimm alles von uns, was uns auf dem Weg zu dir aufhält, damit wir ungehindert der Freude entgegeneilen, die du uns verheißen hast.^orV"
         }
       }
     },
     "32": {
       "0": {
         "each": {
-          "oration": "Allmächtiger und barmherziger Gott, wir sind dein Eigentum, du hast uns in deine Hand geschrieben. Halte von uns fern, was uns gefährdet, und nimm weg, was uns an Seele und Leib bedrückt, damit wir freien Herzens deinen Willen tun. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger und barmherziger Gott, wir sind dein Eigentum, du hast uns in deine Hand geschrieben. Halte von uns fern, was uns gefährdet, und nimm weg, was uns an Seele und Leib bedrückt, damit wir freien Herzens deinen Willen tun.^orV"
         },
         "ErsteV": {
           "ant_a": "Wer nach der Weisheit verlangt, wird sie erkennen. Wer ihretwegen wacht und an sie denkt, dem kommt sie entgegen.",
           "ant_b": "Die Witwe tat, was der Herr ihr durch Elija sagen ließ. Und sie hatten viele Tage zu essen.",
           "ant_c": "Gott hat uns die Hoffnung gegeben, dass er uns auferweckt. Darauf warten wir.",
-          "oration": "Allmächtiger und barmherziger Gott, wir sind dein Eigentum, du hast uns in deine Hand geschrieben. Halte von uns fern, was uns gefährdet, und nimm weg, was uns an Seele und Leib bedrückt, damit wir freien Herzens deinen Willen tun. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger und barmherziger Gott, wir sind dein Eigentum, du hast uns in deine Hand geschrieben. Halte von uns fern, was uns gefährdet, und nimm weg, was uns an Seele und Leib bedrückt, damit wir freien Herzens deinen Willen tun.^orV"
         },
         "Laudes": {
           "ant_a": "Seid wachsam! Denn ihr kennt nicht den Tag, noch wisst ihr die Stunde.",
@@ -7825,20 +7825,20 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Allmächtiger und barmherziger Gott, wir sind dein Eigentum, du hast uns in deine Hand geschrieben. Halte von uns fern, was uns gefährdet, und nimm weg, was uns an Seele und Leib bedrückt, damit wir freien Herzens deinen Willen tun. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger und barmherziger Gott, wir sind dein Eigentum, du hast uns in deine Hand geschrieben. Halte von uns fern, was uns gefährdet, und nimm weg, was uns an Seele und Leib bedrückt, damit wir freien Herzens deinen Willen tun.^orV"
         }
       }
     },
     "33": {
       "0": {
         "each": {
-          "oration": "Gott, du Urheber alles Guten, du bist unser Herr. Lass uns begreifen, dass wir frei werden, wenn wir uns deinem Willen unterwerfen, und dass wir die vollkommene Freude finden, wenn wir in deinem Dienst treu bleiben. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, du Urheber alles Guten, du bist unser Herr. Lass uns begreifen, dass wir frei werden, wenn wir uns deinem Willen unterwerfen, und dass wir die vollkommene Freude finden, wenn wir in deinem Dienst treu bleiben.^orV"
         },
         "ErsteV": {
           "ant_a": "Selig der Knecht, den der Herr wachend findet, wenn er kommt.",
           "ant_b": "Eine Zeit der Drangsal wird kommen, wie noch keine war. Doch dein Volk wird gerettet in jener Zeit.",
           "ant_c": "Der Tag, der kommt, wird die Frevler verbrennen, doch für euch wird die Sonne der Gerechtigkeit aufgehen.",
-          "oration": "Gott, du Urheber alles Guten, du bist unser Herr. Lass uns begreifen, dass wir frei werden, wenn wir uns deinem Willen unterwerfen, und dass wir die vollkommene Freude finden, wenn wir in deinem Dienst treu bleiben. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, du Urheber alles Guten, du bist unser Herr. Lass uns begreifen, dass wir frei werden, wenn wir uns deinem Willen unterwerfen, und dass wir die vollkommene Freude finden, wenn wir in deinem Dienst treu bleiben.^orV"
         },
         "Laudes": {
           "ant_a": "Wir gehören nicht der Finsternis: Wir sind Söhne des Lichts und Kinder des Tages. So lasst uns wachsam und nüchtern sein, dass uns der Tag des Herrn nicht überfällt.",
@@ -7853,7 +7853,7 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Gott, du Urheber alles Guten, du bist unser Herr. Lass uns begreifen, dass wir frei werden, wenn wir uns deinem Willen unterwerfen, und dass wir die vollkommene Freude finden, wenn wir in deinem Dienst treu bleiben. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, du Urheber alles Guten, du bist unser Herr. Lass uns begreifen, dass wir frei werden, wenn wir uns deinem Willen unterwerfen, und dass wir die vollkommene Freude finden, wenn wir in deinem Dienst treu bleiben.^orV"
         }
       }
     },
@@ -7868,7 +7868,7 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Gott, unser Vater, erwecke deine Gläubigen zu neuem Eifer, damit das Werk deines Erbarmens in unserem Leben reiche Frucht trägt und wir einst die Fülle des heils empfangen. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, unser Vater, erwecke deine Gläubigen zu neuem Eifer, damit das Werk deines Erbarmens in unserem Leben reiche Frucht trägt und wir einst die Fülle des heils empfangen.^orV"
         }
       }
     },
@@ -7949,7 +7949,7 @@ export const brevierData = {
       },
       "3": {
         "each": {
-          "oration": "Allmächtiger Gott, dein Sohn ist durch die Geburt aus der Jungfrau uns in allem gleich geworden, außer der Sünde. Gib, dass wir in unserem Denken und Tun den alten Menschen ablegen und als neue Menschen ein neues Leben beginnen. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Allmächtiger Gott, dein Sohn ist durch die Geburt aus der Jungfrau uns in allem gleich geworden, außer der Sünde. Gib, dass wir in unserem Denken und Tun den alten Menschen ablegen und als neue Menschen ein neues Leben beginnen.^orV"
         },
         "Laudes": {
           "les_buch": "Jes",
@@ -8112,7 +8112,7 @@ export const brevierData = {
       },
       "8": {
         "each": {
-          "oration": "Gütiger Gott, wir gehen durch eine Welt voll Zwielicht und Schatten. Lass dein Licht in unseren Herzen aufstrahlen und führe uns durch das Dunkel dieses Lebens in deine unvergängliche Klarheit. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Gütiger Gott, wir gehen durch eine Welt voll Zwielicht und Schatten. Lass dein Licht in unseren Herzen aufstrahlen und führe uns durch das Dunkel dieses Lebens in deine unvergängliche Klarheit.^orV"
         },
         "Laudes": {
           "les_buch": "Jes",
@@ -8190,7 +8190,7 @@ export const brevierData = {
       },
       "10": {
         "each": {
-          "oration": "Gott, du Licht der Völker, du hast unsere Väter durch die Propheten erleuchtet, uns aber hast du in deinem Sohn die Fülle der Wahrheit und des Friedens geschenkt. Gib uns die Gnade, diese Wahrheit zu bezeugen und deinen Frieden hineinzutragen in unsere Welt. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Gott, du Licht der Völker, du hast unsere Väter durch die Propheten erleuchtet, uns aber hast du in deinem Sohn die Fülle der Wahrheit und des Friedens geschenkt. Gib uns die Gnade, diese Wahrheit zu bezeugen und deinen Frieden hineinzutragen in unsere Welt.^orV"
         },
         "Laudes": {
           "les_buch": "Jes",
@@ -8996,7 +8996,7 @@ export const brevierData = {
     "each": {
       "each": {
         "each": {
-          "oration": "^rIn der Kirche, deren Weihefest begangen wird:^0r^lGroßer und heiliger Gott, jedes Jahr feiern wir den Weihetag dieses heiligen Hauses. Höre auf die Bitten deines Volkes. Hilf uns, dass wir an diesem Ort in rechter Gesinnung den heiligen Dienst vollziehen und den Reichtum der Erlösungsgnade empfangen. Darum bitten wir durch Jesus Christus.^p^rAußerhalb der Kirche, deren Weihefest begangen wird:^0r^lErhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in Ewigkeit.^p^rOder:^0r^lAllmächtiger Gott, du hast gewollt, dass dein Volk Kirche heiße, denn wir sind das Haus, in dem deine Herrlichkeit wohnt. Gib, dass die Gläubigen, die sich in deinem Namen ver¬sam-meln, dich ehren, dich lieben und dir gehorchen damit sie unter deiner Führung das ewige Erbe erlangen. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in Ewigkeit."
+          "oration": "^rIn der Kirche, deren Weihefest begangen wird:^0r^lGroßer und heiliger Gott, jedes Jahr feiern wir den Weihetag dieses heiligen Hauses. Höre auf die Bitten deines Volkes. Hilf uns, dass wir an diesem Ort in rechter Gesinnung den heiligen Dienst vollziehen und den Reichtum der Erlösungsgnade empfangen.^orV^p^rAußerhalb der Kirche, deren Weihefest begangen wird:^0r^lErhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in Ewigkeit.^p^rOder:^0r^lAllmächtiger Gott, du hast gewollt, dass dein Volk Kirche heiße, denn wir sind das Haus, in dem deine Herrlichkeit wohnt. Gib, dass die Gläubigen, die sich in deinem Namen ver¬sam-meln, dich ehren, dich lieben und dir gehorchen damit sie unter deiner Führung das ewige Erbe erlangen. Darum bitten wir durch Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in Ewigkeit."
         },
         "ErsteK": {
           "hymn_1": 2500.0,
@@ -9188,7 +9188,7 @@ export const brevierData = {
     "1": {
       "0": {
         "each": {
-          "oration": "Allmächtiger, ewiger Gott, am heutigen Tag hast du durch deinen Sohn den Tod besiegt und uns den Zugang zum ewigen Leben erschlossen. Darum begehen wir in Freude das Fest seiner Auferstehung. Schaffe uns neu durch deinen Geist, damit auch wir auferstehen und im Licht des Lebens wandeln. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger, ewiger Gott, am heutigen Tag hast du durch deinen Sohn den Tod besiegt und uns den Zugang zum ewigen Leben erschlossen. Darum begehen wir in Freude das Fest seiner Auferstehung. Schaffe uns neu durch deinen Geist, damit auch wir auferstehen und im Licht des Lebens wandeln.^orV"
         },
         "Laudes": {
           "ant_ev": "Am frühen Morgen des ersten Tages kamen sie zum Grab, als die Sonne schon aufgegangen war.^ö"
@@ -9214,7 +9214,7 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "oration": "Gott, du Herr allen Lebens, durch die Taufe schenkst du deiner Kirche Jahr für Jahr neue Söhne und Töchter. Gib, dass alle Christen in ihrem Leben dem Sakrament treu bleiben, das sie im Glauben empfangen haben. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, du Herr allen Lebens, durch die Taufe schenkst du deiner Kirche Jahr für Jahr neue Söhne und Töchter. Gib, dass alle Christen in ihrem Leben dem Sakrament treu bleiben, das sie im Glauben empfangen haben.^orV"
         },
         "Laudes": {
           "ant_ev": "Geht eilends hin und sagt den Jüngern: Der Herr ist auferstanden.^ö"
@@ -9238,7 +9238,7 @@ export const brevierData = {
       },
       "2": {
         "each": {
-          "oration": "Allmächtiger Gott, du hast dein Volk durch die österlichen Geheimnisse befreit und gestärkt. Bleibe bei uns mit deiner Gnade und führe uns zur vollkommenen Freiheit, damit der Osterjubel, der uns heute erfüllt, sich in der Freude des Himmels vollendet. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, du hast dein Volk durch die österlichen Geheimnisse befreit und gestärkt. Bleibe bei uns mit deiner Gnade und führe uns zur vollkommenen Freiheit, damit der Osterjubel, der uns heute erfüllt, sich in der Freude des Himmels vollendet.^orV"
         },
         "Laudes": {
           "ant_ev": "Jesus sprach: Maria! Da wandte sich Maria um und sagte: Meister! Er sprach: Halte mich nicht fest, denn ich bin noch nicht aufgefahren zu meinem Vater.^ö"
@@ -9262,7 +9262,7 @@ export const brevierData = {
       },
       "3": {
         "each": {
-          "oration": "Gnädiger Gott, du schenkst deinem Volk jedes Jahr die österliche Freude durch das hohe Fest der Auferstehung Christi. Führe uns durch die Feier, die wir auf Erden begehen, zur unvergänglichen Freude im Himmel. Darum bitten wir durch Jesus Christus."
+          "oration": "Gnädiger Gott, du schenkst deinem Volk jedes Jahr die österliche Freude durch das hohe Fest der Auferstehung Christi. Führe uns durch die Feier, die wir auf Erden begehen, zur unvergänglichen Freude im Himmel.^orV"
         },
         "Laudes": {
           "ant_ev": "Jesus legte ihnen dar, ausgehend von Mose und allen Propheten, was über ihn geschrieben steht in der gesamten Schrift.^ö"
@@ -9286,7 +9286,7 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "oration": "Gott und Vater, du hast die vielen Völker im Bekenntnis deines Namens geeint. Gib, dass alle, die aus dem Wasser der Taufe wiedergeboren sind, eins werden im Glauben und in Werken der Liebe. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott und Vater, du hast die vielen Völker im Bekenntnis deines Namens geeint. Gib, dass alle, die aus dem Wasser der Taufe wiedergeboren sind, eins werden im Glauben und in Werken der Liebe.^orV"
         },
         "Laudes": {
           "ant_ev": "Jesus trat in die Mitte seiner Jünger und sprach: Friede sei mit euch.^ö"
@@ -9310,7 +9310,7 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "oration": "Allmächtiger, ewiger Gott, du hast den Bund der Versöhnung mit der Menschheit geschlossen und ihr die österlichen Geheimnisse geschenkt. Gib uns die Gnade, dass wir deine Heilstaten nicht nur im Bekenntnis feiern, sondern sie auch durch unser Leben bezeugen. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger, ewiger Gott, du hast den Bund der Versöhnung mit der Menschheit geschlossen und ihr die österlichen Geheimnisse geschenkt. Gib uns die Gnade, dass wir deine Heilstaten nicht nur im Bekenntnis feiern, sondern sie auch durch unser Leben bezeugen.^orV"
         },
         "Laudes": {
           "ant_ev": "Am Ufer des Sees offenbarte sich Jesus zum dritten Mal, seit er von den Toten erstanden war.^ö"
@@ -9334,7 +9334,7 @@ export const brevierData = {
       },
       "6": {
         "each": {
-          "oration": "Gnädiger Gott, in deiner übergroßen Liebe schenkst du der Kirche neues Wachstum. Wache über das Volk, das du dir erwählt hast, bewahre alle Getauften in deiner Gnade und bekleide sie einst mit dem Gewand der Unsterblichkeit. Darum bitten wir durch Jesus Christus."
+          "oration": "Gnädiger Gott, in deiner übergroßen Liebe schenkst du der Kirche neues Wachstum. Wache über das Volk, das du dir erwählt hast, bewahre alle Getauften in deiner Gnade und bekleide sie einst mit dem Gewand der Unsterblichkeit.^orV"
         },
         "Laudes": {
           "ant_ev": "Als Jesus auferstanden war, am ersten Tag der Woche, erschien er zuerst Maria Magdalena, die er von sieben Dämonen befreit hatte.^ö"
@@ -9417,7 +9417,7 @@ export const brevierData = {
     "2": {
       "0": {
         "each": {
-          "oration": "Barmherziger Gott, durch die jährliche Osterfeier erneuerst du den Glauben deines Volkes. Lass uns immer tiefer erkennen, wie heilig das Bad der Taufe ist, das uns gereinigt hat, wie mächtig dein Geist, aus dem wir wiedergeboren sind, und wie kostbar das Blut, durch das wir erkauft sind. Darum bitten wir durch Jesus Christus."
+          "oration": "Barmherziger Gott, durch die jährliche Osterfeier erneuerst du den Glauben deines Volkes. Lass uns immer tiefer erkennen, wie heilig das Bad der Taufe ist, das uns gereinigt hat, wie mächtig dein Geist, aus dem wir wiedergeboren sind, und wie kostbar das Blut, durch das wir erkauft sind.^orV"
         },
         "ErsteV": {
           "hymn_1": 0.0,
@@ -9472,7 +9472,7 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "oration": "Allmächtiger, ewiger Gott, wir dürfen dich Vater nennen, denn du hast uns an Kindes Statt angenommen. Gib, dass wir mehr und mehr aus dem Geist der Kindschaft leben, damit wir die wahre Freiheit finden und das unvergängliche Erbe erlangen. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger, ewiger Gott, wir dürfen dich Vater nennen, denn du hast uns an Kindes Statt angenommen. Gib, dass wir mehr und mehr aus dem Geist der Kindschaft leben, damit wir die wahre Freiheit finden und das unvergängliche Erbe erlangen.^orV"
         },
         "Laudes": {
           "ant_ev": "Amen, amen, ich sage euch: Wenn jemand nicht von oben geboren wird, kann er das Reich Gottes nicht schauen.^ö"
@@ -9494,7 +9494,7 @@ export const brevierData = {
       },
       "3": {
         "each": {
-          "oration": "Allmächtiger Gott, in den österlichen Geheimnissen, die wir jedes Jahr feiern, hast du dem Menschen seine ursprüngliche Würde wiedergeschenkt und uns die sichere Hoffnung gegeben, dass wir auferstehen werden. Gib, dass die Erlösung, die wir gläubig feiern, in täglichen Werken der Liebe an uns sichtbar wird. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, in den österlichen Geheimnissen, die wir jedes Jahr feiern, hast du dem Menschen seine ursprüngliche Würde wiedergeschenkt und uns die sichere Hoffnung gegeben, dass wir auferstehen werden. Gib, dass die Erlösung, die wir gläubig feiern, in täglichen Werken der Liebe an uns sichtbar wird.^orV"
         },
         "Laudes": {
           "ant_ev": "So sehr hat Gott die Welt geliebt, dass er seinen einzigen Sohn dahingab, damit alle, die an ihn glauben, nicht verlorengehen, sondern das ewige Leben haben.^ö"
@@ -9505,7 +9505,7 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "oration": "Barmherziger Gott, gib, dass die Gnade, die wir in der Feier der österlichen Geheimnisse empfangen haben, durch alle Tage unseres Lebens fruchtbar bleibt. Darum bitten wir durch Jesus Christus."
+          "oration": "Barmherziger Gott, gib, dass die Gnade, die wir in der Feier der österlichen Geheimnisse empfangen haben, durch alle Tage unseres Lebens fruchtbar bleibt.^orV"
         },
         "Laudes": {
           "ant_ev": "Der Vater liebt den Sohn und hat alles in seine Hand gegeben.^ö"
@@ -9516,7 +9516,7 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "oration": "Heiliger Gott, du hast deinen Sohn der Schmach des Kreuzes unterworfen, um uns der Gewalt des Bösen zu entreißen. Gib uns die Gnade, dass auch wir deinem Willen gehorchen und einst in Herrlichkeit auferstehen. Darum bitten wir durch ihn, Jesus Christus."
+          "oration": "Heiliger Gott, du hast deinen Sohn der Schmach des Kreuzes unterworfen, um uns der Gewalt des Bösen zu entreißen. Gib uns die Gnade, dass auch wir deinem Willen gehorchen und einst in Herrlichkeit auferstehen.^orVr"
         },
         "Laudes": {
           "ant_ev": "Jesus nahm die Brote, sprach das Dankgebet und teilte sie aus an alle, die dort saßen.^ö"
@@ -9527,7 +9527,7 @@ export const brevierData = {
       },
       "6": {
         "each": {
-          "oration": "Gott, unser Vater, du hast uns durch deinen Sohn erlöst und als deine geliebten Kinder angenommen. Sieh voll Güte auf alle, die an Christus glauben, und schenke ihnen die wahre Freiheit und das ewige Erbe. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, unser Vater, du hast uns durch deinen Sohn erlöst und als deine geliebten Kinder angenommen. Sieh voll Güte auf alle, die an Christus glauben, und schenke ihnen die wahre Freiheit und das ewige Erbe.^orV"
         },
         "Laudes": {
           "ant_ev": "Friede sei mit euch, ich bin es, fürchtet euch nicht.^ö"
@@ -9537,7 +9537,7 @@ export const brevierData = {
     "3": {
       "0": {
         "each": {
-          "oration": "Allmächtiger Gott, lass die österliche Freude in uns fortdauern, denn du hast deiner Kirche neue Lebenskraft geschenkt und die Würde unserer Gotteskindschaft in neuem Glanz erstrahlen lassen. Gib, dass wir den Tag der Auferstehung voll Zuversicht erwarten als einen Tag des Jubels und des Dankes. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, lass die österliche Freude in uns fortdauern, denn du hast deiner Kirche neue Lebenskraft geschenkt und die Würde unserer Gotteskindschaft in neuem Glanz erstrahlen lassen. Gib, dass wir den Tag der Auferstehung voll Zuversicht erwarten als einen Tag des Jubels und des Dankes.^orV"
         },
         "ErsteV": {
           "ant_1": "Der Herr ist erhaben über alle Himmel, er hebt den Schwachen aus dem Staub empor.^ö",
@@ -9560,22 +9560,22 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "oration": "Gott, du bist unser Ziel, du zeigst den Irrenden das Licht der Wahrheit und führst sie auf den rechten Weg zurück. Gib allen, die sich Christen nennen, die Kraft, zu meiden, was diesem Namen widerspricht, und zu tun, was unserem Glauben entspricht. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, du bist unser Ziel, du zeigst den Irrenden das Licht der Wahrheit und führst sie auf den rechten Weg zurück. Gib allen, die sich Christen nennen, die Kraft, zu meiden, was diesem Namen widerspricht, und zu tun, was unserem Glauben entspricht.^orV"
         }
       },
       "2": {
         "each": {
-          "oration": "Herr, unser Gott, du öffnest dein Reich allen, die aus dem Wasser und dem Heiligen Geist wiedergeboren sind. Stärke in uns das Leben der Gnade, damit wir von Schuld frei bleiben und die Herrlichkeit erlangen, die du uns verheißen hast. Darum bitten wir durch Jesus Christus."
+          "oration": "Herr, unser Gott, du öffnest dein Reich allen, die aus dem Wasser und dem Heiligen Geist wiedergeboren sind. Stärke in uns das Leben der Gnade, damit wir von Schuld frei bleiben und die Herrlichkeit erlangen, die du uns verheißen hast.^orV"
         }
       },
       "3": {
         "each": {
-          "oration": "Herr, unser Gott, erhöre die Bitten deines Volkes und komm uns zu Hilfe. Du hast uns die Gnade des Glaubens geschenkt, gib uns durch die Auferstehung deines Sohnes auch Anteil am ewigen Leben. Darum bitten wir durch Jesus Christus."
+          "oration": "Herr, unser Gott, erhöre die Bitten deines Volkes und komm uns zu Hilfe. Du hast uns die Gnade des Glaubens geschenkt, gib uns durch die Auferstehung deines Sohnes auch Anteil am ewigen Leben.^orV"
         }
       },
       "4": {
         "each": {
-          "oration": "Ewiger Gott, in dieser österlichen Zeit erfahren wir deine Barmherzigkeit in reicher Fülle, denn du hast uns aus der Finsternis des Irrtums herausgeführt. Gib, dass wir deine Wahrheit gläubig erfassen und in unserem Leben festhalten. Darum bitten wir durch Jesus Christus."
+          "oration": "Ewiger Gott, in dieser österlichen Zeit erfahren wir deine Barmherzigkeit in reicher Fülle, denn du hast uns aus der Finsternis des Irrtums herausgeführt. Gib, dass wir deine Wahrheit gläubig erfassen und in unserem Leben festhalten.^orV"
         },
         "Vesper": {
           "ant_ev": "Ich bin das lebendige Brot, das vom Himmel ge­kommen ist. Wer von diesem Brot isst, wird leben in Ewigkeit. Das Brot, das ich geben werde, ist mein Fleisch. Ich gebe es hin für das Leben der Welt.^ö"
@@ -9588,14 +9588,14 @@ export const brevierData = {
       },
       "6": {
         "each": {
-          "oration": "Allmächtiger Gott, du hast uns durch das Wasser der Taufe neu geschaffen; schütze dieses neue Leben, damit alle, die an dich glauben, dem Ansturm des Bösen standhalten und das Geschenk deiner Gnade treu bewahren. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, du hast uns durch das Wasser der Taufe neu geschaffen; schütze dieses neue Leben, damit alle, die an dich glauben, dem Ansturm des Bösen standhalten und das Geschenk deiner Gnade treu bewahren.^orV"
         }
       }
     },
     "4": {
       "0": {
         "each": {
-          "oration": "Allmächtiger, ewiger Gott, dein Sohn ist der Kirche siegreich vorangegangen als der Gute Hirt. Geleite auch die Herde, für die er sein Leben dahingab, aus aller Not zur ewigen Freude. Darum bitten wir durch ihn, Jesus Christus."
+          "oration": "Allmächtiger, ewiger Gott, dein Sohn ist der Kirche siegreich vorangegangen als der Gute Hirt. Geleite auch die Herde, für die er sein Leben dahingab, aus aller Not zur ewigen Freude.^orVr"
         },
         "ErsteV": {
           "ant_1": "Der Friede Christi herrsche in euren Herzen.^ö",
@@ -9618,7 +9618,7 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "oration": "Erhabener Gott, durch die Erniedrigung deines Sohnes hast du die gefallene Welt wieder aufgerichtet und aus der Knechtschaft der Sünde befreit. Erfülle uns mit österlicher Freude und schenke uns einst die ewige Seligkeit. Darum bitten wir durch Jesus Christus."
+          "oration": "Erhabener Gott, durch die Erniedrigung deines Sohnes hast du die gefallene Welt wieder aufgerichtet und aus der Knechtschaft der Sünde befreit. Erfülle uns mit österlicher Freude und schenke uns einst die ewige Seligkeit.^orV"
         }
       },
       "2": {
@@ -9628,12 +9628,12 @@ export const brevierData = {
       },
       "3": {
         "each": {
-          "oration": "Gütiger Gott, du bist das Leben der Gläubigen, der Reichtum der Armen, die Freude der Auserwählten. Wir sehnen uns nach deinen Verheißungen. Stärke unsere Hoffnung und schenke uns überreiche Erfüllung. Darum bitten wir durch Jesus Christus."
+          "oration": "Gütiger Gott, du bist das Leben der Gläubigen, der Reichtum der Armen, die Freude der Auserwählten. Wir sehnen uns nach deinen Verheißungen. Stärke unsere Hoffnung und schenke uns überreiche Erfüllung.^orV"
         }
       },
       "4": {
         "each": {
-          "oration": "Gott und Vater, du erneuerst den Menschen und schenkst ihm eine größere Würde, als er sie im Anfang besaß. Blicke auf das Werk deiner Liebe, segne alle, die im Sakrament der Taufe das neue Leben empfangen haben, und erhalte sie in deiner Gnade. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott und Vater, du erneuerst den Menschen und schenkst ihm eine größere Würde, als er sie im Anfang besaß. Blicke auf das Werk deiner Liebe, segne alle, die im Sakrament der Taufe das neue Leben empfangen haben, und erhalte sie in deiner Gnade.^orV"
         },
         "Vesper": {
           "ant_ev": "Ich bin der Hirt der Schafe; ich bin gekommen, damit sie das Leben haben und es in Fülle haben.^ö"
@@ -9641,19 +9641,19 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "oration": "Allmächtiger Gott, dir verdanken wir unsere Freiheit und unser Heil, denn du hast uns durch das kostbare Blut deines Sohnes erlöst. Lass uns aus deiner Kraft leben und unter deinem beständigen Schutz geborgen sein. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, dir verdanken wir unsere Freiheit und unser Heil, denn du hast uns durch das kostbare Blut deines Sohnes erlöst. Lass uns aus deiner Kraft leben und unter deinem beständigen Schutz geborgen sein.^orV"
         }
       },
       "6": {
         "each": {
-          "oration": "Allmächtiger, ewiger Gott, du hast uns im Sakrament der Taufe neues Leben geschenkt. Festige unsere Verbundenheit mit Christus, damit wir Früchte bringen, die bleiben, und die Freude des ewigen Lebens erlangen. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger, ewiger Gott, du hast uns im Sakrament der Taufe neues Leben geschenkt. Festige unsere Verbundenheit mit Christus, damit wir Früchte bringen, die bleiben, und die Freude des ewigen Lebens erlangen.^orV"
         }
       }
     },
     "5": {
       "0": {
         "each": {
-          "oration": "Gott, unser Vater, du hast uns durch deinen Sohn erlöst und als deine geliebten Kinder angenommen. Sieh voll Güte auf alle, die an Christus glauben, und schenke ihnen die wahre Freiheit und das ewige Erbe. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, unser Vater, du hast uns durch deinen Sohn erlöst und als deine geliebten Kinder angenommen. Sieh voll Güte auf alle, die an Christus glauben, und schenke ihnen die wahre Freiheit und das ewige Erbe.^orV"
         },
         "ErsteV": {
           "ant_1": "Zu dir erhebe ich die Hände; Herr, nimm mein Abendopfer an.^ö",
@@ -9676,22 +9676,22 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "oration": "Gott, unser Herr, du verbindest alle, die an dich glauben, zum gemeinsamen Streben. Gib, dass wir lieben, was du befiehlst, und ersehnen, was du uns verheißen hast, damit in der Unbeständigkeit dieses Lebens unsere Herzen dort verankert seien, wo die wahren Freuden sind. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, unser Herr, du verbindest alle, die an dich glauben, zum gemeinsamen Streben. Gib, dass wir lieben, was du befiehlst, und ersehnen, was du uns verheißen hast, damit in der Unbeständigkeit dieses Lebens unsere Herzen dort verankert seien, wo die wahren Freuden sind.^orV"
         }
       },
       "2": {
         "each": {
-          "oration": "Allmächtiger Gott, durch die Auferstehung deines Sohnes hast du uns neu geschaffen für das ewige Leben. Festige uns im Glauben und in der Hoffnung, damit wir die Erfüllung deiner Verheißung voll Zuversicht erwarten. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, durch die Auferstehung deines Sohnes hast du uns neu geschaffen für das ewige Leben. Festige uns im Glauben und in der Hoffnung, damit wir die Erfüllung deiner Verheißung voll Zuversicht erwarten.^orV"
         }
       },
       "3": {
         "each": {
-          "oration": "Treuer Gott, du liebst die Unschuld und führst den Sünder zu dir zurück. Darum hast du uns aus der Finsternis des Unglaubens befreit und in die Gemeinschaft mit dir aufgenommen. Gib, dass wir dich mit ganzem Herzen suchen und das Licht deiner Wahrheit nie verlieren. Darum bitten wir durch Jesus Christus."
+          "oration": "Treuer Gott, du liebst die Unschuld und führst den Sünder zu dir zurück. Darum hast du uns aus der Finsternis des Unglaubens befreit und in die Gemeinschaft mit dir aufgenommen. Gib, dass wir dich mit ganzem Herzen suchen und das Licht deiner Wahrheit nie verlieren.^orV"
         }
       },
       "4": {
         "each": {
-          "oration": "Heiliger Gott, deine Gnade macht die Sünder gerecht und führt sie aus dem Elend ins Glück. Erhalte das Werk deines Erbarmens, damit alle, die durch den Glauben gerechtfertigt sind, im Guten ausharren bis ans Ende. Darum bitten wir durch Jesus Christus."
+          "oration": "Heiliger Gott, deine Gnade macht die Sünder gerecht und führt sie aus dem Elend ins Glück. Erhalte das Werk deines Erbarmens, damit alle, die durch den Glauben gerechtfertigt sind, im Guten ausharren bis ans Ende.^orV"
         },
         "Vesper": {
           "ant_ev": "Dies alles habe ich zu euch gesagt, damit meine Freude in euch ist und eure Freude vollkommen wird.^ö"
@@ -9704,14 +9704,14 @@ export const brevierData = {
       },
       "6": {
         "each": {
-          "oration": "Gott, du Ursprung unseres Heils, durch die Wiedergeburt in der Taufe hast du uns gerecht gemacht und uns befähigt, ewiges Leben zu empfangen. Schenke uns die Fülle dieses Lebens in deiner Herrlichkeit. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, du Ursprung unseres Heils, durch die Wiedergeburt in der Taufe hast du uns gerecht gemacht und uns befähigt, ewiges Leben zu empfangen. Schenke uns die Fülle dieses Lebens in deiner Herrlichkeit.^orV"
         }
       }
     },
     "6": {
       "0": {
         "each": {
-          "oration": "Allmächtiger Gott, lass uns die österliche Zeit in herzlicher Freude begehen und die Auferstehung unseres Herrn preisen, damit das Ostergeheimnis, das wir in diesen fünfzig Tagen feiern, unser ganzes Leben prägt und verwandelt. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, lass uns die österliche Zeit in herzlicher Freude begehen und die Auferstehung unseres Herrn preisen, damit das Ostergeheimnis, das wir in diesen fünfzig Tagen feiern, unser ganzes Leben prägt und verwandelt.^orV"
         },
         "ErsteV": {
           "ant_1": "Wer die Wahrheit tut, der kommt zum Licht.^ö",
@@ -9734,12 +9734,12 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "oration": "Barmherziger Gott, gib, dass die Gnade, die wir in der Feier der österlichen Geheimnisse empfangen haben, durch alle Tage unseres Lebens fruchtbar bleibt. Darum bitten wir durch Jesus Christus."
+          "oration": "Barmherziger Gott, gib, dass die Gnade, die wir in der Feier der österlichen Geheimnisse empfangen haben, durch alle Tage unseres Lebens fruchtbar bleibt.^orV"
         }
       },
       "2": {
         "each": {
-          "oration": "Allmächtiger Gott, lass die österliche Freude in uns fortdauern, denn du hast deiner Kirche neue Lebenskraft geschenkt und die Würde unserer Gotteskindschaft in neuem Glanz erstrahlen lassen. Gib, dass wir den Tag der Auferstehung voll Zuversicht erwarten als einen Tag des Jubels und des Dankes. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, lass die österliche Freude in uns fortdauern, denn du hast deiner Kirche neue Lebenskraft geschenkt und die Würde unserer Gotteskindschaft in neuem Glanz erstrahlen lassen. Gib, dass wir den Tag der Auferstehung voll Zuversicht erwarten als einen Tag des Jubels und des Dankes.^orV"
         }
       },
       "3": {
@@ -9869,7 +9869,7 @@ export const brevierData = {
       },
       "6": {
         "each": {
-          "oration": "Herr, unser Gott, dein Sohn hat vor seiner Himmelfahrt seinen Aposteln den Heiligen Geist verheißen. Sie haben den Reichtum der göttlichen Weisheit empfangen; schenke auch uns die Gaben deines Geistes. Darum bitten wir durch Jesus Christus."
+          "oration": "Herr, unser Gott, dein Sohn hat vor seiner Himmelfahrt seinen Aposteln den Heiligen Geist verheißen. Sie haben den Reichtum der göttlichen Weisheit empfangen; schenke auch uns die Gaben deines Geistes.^orV"
         },
         "Laudes": {
           "ant_ev": "Amen, amen, ich sage euch: Was immer ihr vom Vater erbittet, er wird es euch geben in meinem Namen.^ö",
@@ -9902,7 +9902,7 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "oration": "Herr, unser Gott, sende uns die Kraft von oben, den Heiligen Geist, damit wir deinen Willen gläubig bejahen und in einem heiligen Leben erfüllen. Darum bitten wir durch Jesus Christus."
+          "oration": "Herr, unser Gott, sende uns die Kraft von oben, den Heiligen Geist, damit wir deinen Willen gläubig bejahen und in einem heiligen Leben erfüllen.^orV"
         },
         "Laudes": {
           "ant_ev": "In der Welt seid ihr in Bedrängnis; aber habt Mut: Ich habe die Welt besiegt.^ö",
@@ -9922,7 +9922,7 @@ export const brevierData = {
       },
       "2": {
         "each": {
-          "oration": "Allmächtiger und barmherziger Gott, sende den Heiligen Geist auf uns herab. Er wohne in uns und mache uns zum Tempel seiner Herrlichkeit. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger und barmherziger Gott, sende den Heiligen Geist auf uns herab. Er wohne in uns und mache uns zum Tempel seiner Herrlichkeit.^orV"
         },
         "Laudes": {
           "ant_ev": "Der Herr ist von den Toten erstanden, wie er gesagt hat. Lasst uns frohlocken und jubeln; denn er ist König für immer und ewig.^ö",
@@ -9942,7 +9942,7 @@ export const brevierData = {
       },
       "3": {
         "each": {
-          "oration": "Barmherziger Gott, du versammelst deine Kirche im Heiligen Geist. Gib, dass sie dir von ganzem Herzen dient und in aufrichtiger Liebe die Einheit bewahrt. Darum bitten wir durch Jesus Christus."
+          "oration": "Barmherziger Gott, du versammelst deine Kirche im Heiligen Geist. Gib, dass sie dir von ganzem Herzen dient und in aufrichtiger Liebe die Einheit bewahrt.^orV"
         },
         "Laudes": {
           "ant_ev": "Dank sei Gott! Er hat uns den Sieg geschenkt durch Jesus Christus, unseren Herrn.^ö",
@@ -9962,7 +9962,7 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "oration": "Wir bitten dich, Herr, unser Gott, der Heilige Geist erfülle uns mit dem Reichtum seiner Gaben. Er schenke uns eine Gesinnung, die dir wohlgefällt, damit wir deinem Willen immer mehr entsprechen. Darum bitten wir durch Jesus Christus."
+          "oration": "Wir bitten dich, Herr, unser Gott, der Heilige Geist erfülle uns mit dem Reichtum seiner Gaben. Er schenke uns eine Gesinnung, die dir wohlgefällt, damit wir deinem Willen immer mehr entsprechen.^orV"
         },
         "Laudes": {
           "ant_ev": "Geht hinaus in alle Welt und lehrt alle Völker und tauft sie im Namen des Vaters und des Sohnes und des Heiligen Geistes.^ö",
@@ -9982,7 +9982,7 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "oration": "Allmächtiger Gott, du hast deinen Sohn erhöht und den Heiligen Geist gesandt, um uns zum ewigen Leben zu führen. Gib, dass wir durch den Empfang dieser großen Gabe im Glauben wachsen und dir aus ganzem Herzen dienen. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, du hast deinen Sohn erhöht und den Heiligen Geist gesandt, um uns zum ewigen Leben zu führen. Gib, dass wir durch den Empfang dieser großen Gabe im Glauben wachsen und dir aus ganzem Herzen dienen.^orV"
         },
         "Laudes": {
           "ant_ev": "Christus Jesus ist für uns gestorben und auferstanden. Er sitzt zur Rechten Gottes und tritt beim Vater für uns ein.^ö",
@@ -10015,7 +10015,7 @@ export const brevierData = {
     "8": {
       "0": {
         "each": {
-          "oration": "Allmächtiger, ewiger Gott, durch das Geheimnis des heutigen Tages heiligst du deine Kirche in allen Völkern und Nationen. Erfülle die ganze Welt mit den Gaben des Heiligen Geistes, und was deine Liebe am Anfang der Kirche gewirkt hat, das wirke sie auch heute in den Herzen aller, die an dich glauben. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger, ewiger Gott, durch das Geheimnis des heutigen Tages heiligst du deine Kirche in allen Völkern und Nationen. Erfülle die ganze Welt mit den Gaben des Heiligen Geistes, und was deine Liebe am Anfang der Kirche gewirkt hat, das wirke sie auch heute in den Herzen aller, die an dich glauben.^orV"
         },
         "ErsteV": {
           "name": "1. Vesper zu Pfingsten",
@@ -10205,7 +10205,7 @@ export const brevierData = {
       "6": {
         "each": {
           "comm_1": "Maria",
-          "oration": "Gott, du hast dem Heiligen Geist im Herzen der seligen Jungfrau Maria eine würdige Wohnung bereitet. Auf ihre Fürbitte hin erfülle auch unser Leben mit deiner Gegenwart und mache uns zu einem Tempeln deiner Herrlichkeit. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, du hast dem Heiligen Geist im Herzen der seligen Jungfrau Maria eine würdige Wohnung bereitet. Auf ihre Fürbitte hin erfülle auch unser Leben mit deiner Gegenwart und mache uns zu einem Tempeln deiner Herrlichkeit.^orV"
         },
         "Laudes": {
           "ant_ev": "Mein Herz und mein Leib jauchzen ihm zu, ihm, dem lebendigen Gott."
@@ -10761,7 +10761,7 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Christus, unser Erlöser. Zu ihm lasst uns beten:",
           "bitten_r": "Schenke uns deinen Geist.",
           "bitten": "Herr, hilf uns, heute ohne Sünde vor dir zu leben,^qdamit wir am Abend dir danken können.^pSchenke uns das Licht deines Geistes^qund segne unser Tagewerk.^pLass dein Antlitz über uns leuchten^qund schütze uns mit starker Hand.^pSteh allen bei, die wir dir heute anempfehlen;^qnimm unser Beten gnädig an.",
-          "oration": "Herr, unser Gott, komm unserem Beten und Arbeiten mit deiner Gnade zuvor und begleite es, damit alles, was wir beginnen, bei dir seinen Anfang nehme und durch dich vollendet werde. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Herr, unser Gott, komm unserem Beten und Arbeiten mit deiner Gnade zuvor und begleite es, damit alles, was wir beginnen, bei dir seinen Anfang nehme und durch dich vollendet werde.^orV"
         },
         "Lesehore": {
           "hymn_1": 2111.0,
@@ -10822,7 +10822,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu Gott, dem allmächtigen Vater, der die Menschen liebt:",
           "bitten_r": "Erbarme dich über dein Volk.",
           "bitten": "Herr, rette dein Volk^qund segne dein Erbe.^pFühre die Christen zur Einheit zusammen,^qdamit die Welt an Christus glauben kann.^pSegne unsere Freunde und Bekannten;^qsei ihnen nahe mit deiner Liebe.^pStehe den Sterbenden bei^qund lass sie dein Heil schauen.^pSei unseren Verstorbenen gnädig^qund rufe sie zum Gastmahl des ewigen Lebens.",
-          "oration": "Dich, großer Gott, preise unser Lobgesang. Um unseres Heiles willen hast du auf die Niedrigkeit der Jungfrau Maria geschaut und sie erhöht. Erhöhe auch uns und schenke uns die Fülle der Erlösung. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Dich, großer Gott, preise unser Lobgesang. Um unseres Heiles willen hast du auf die Niedrigkeit der Jungfrau Maria geschaut und sie erhöht. Erhöhe auch uns und schenke uns die Fülle der Erlösung.^orV"
         }
       },
       "2": {
@@ -10845,7 +10845,7 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, unser Hoherpriester. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, unser Gott und Heiland.",
           "bitten": "Du hast uns Anteil an deinem Priestertum gegeben;^qhilf uns, das Opfer des Lobes darzubringen.^pGib, dass wir deine Gebote halten,^qdamit wir in dir bleiben und du in uns.^pSchenke uns die Gabe der Weisheit,^qdamit wir den Auftrag dieses Tages erkennen.^pGib, dass wir heute niemand kränken^qund gut sind zu allen, die mit uns leben.",
-          "oration": "Herr, neige dein Ohr und vernimm das Morgengebet deiner Gläubigen. Erhelle und heile, was in der Tiefe unseres Herzens krank ist, damit kein Begehren uns in seinem Bann gefangenhält, die wir erleuchtet wurden durch das Licht der himmlischen Gnade. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Herr, neige dein Ohr und vernimm das Morgengebet deiner Gläubigen. Erhelle und heile, was in der Tiefe unseres Herzens krank ist, damit kein Begehren uns in seinem Bann gefangenhält, die wir erleuchtet wurden durch das Licht der himmlischen Gnade.^orV"
         },
         "Lesehore": {
           "hymn_1": 2112.0,
@@ -10907,7 +10907,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu Jesus Christus, dem Heiland der Welt:",
           "bitten_r": "Herr, erhöre uns.",
           "bitten": "Schau gnädig herab auf die Völker der Erde^qund stehe denen bei, die für sie Verantwortung tragen.^pDu hast uns die Freiheit der Kinder Gottes erworben;^qerlöse die Menschen aus der Knechtschaft der Sünde.^pSegne die Kinder (dieser Gemeinde)^qund lass sie zu guten Christen heranwachsen.^pGib den jungen Menschen (unserer Gemeinde) das Verlangen, das Rechte zu tun^qund dir zu folgen, wenn du sie rufst.^pNimm unsere Verstorbenen auf in dein Reich^qund stärke in uns die Hoffnung auf das ewige Leben.",
-          "oration": "Wir danken dir, allmächtiger Vater, für diesen Abend. Voll Vertrauen heben wir unsere Hände zu dir empor; nimm unser Beten an als ein Opfer, das dir gefällt. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Wir danken dir, allmächtiger Vater, für diesen Abend. Voll Vertrauen heben wir unsere Hände zu dir empor; nimm unser Beten an als ein Opfer, das dir gefällt.^orV"
         }
       },
       "3": {
@@ -10929,7 +10929,7 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Christus, der unser Bruder geworden ist. Zu ihm lasst uns beten:",
           "bitten_r": "Herr Jesus Christus, steh uns bei.",
           "bitten": "Am Beginn dieses Tages gedenken wir deiner Auferstehung;^qgib uns Zuversicht für den ganzen Tag.^pDu schenkst uns diesen neuen Tag zu unserem Heil;^qlass uns ihn zu deiner Ehre vollenden.^pLehre uns heute, in allen Menschen dir zu begegnen^qund in den Armen und Betrübten dich zu erkennen.^pLass uns heute mit allen in Frieden leben^qund keinem Böses mit Bösem vergelten.",
-          "oration": "Erhöre uns, Gott, unser Heiland, und gib, dass wir in deinem Lichte leben und die Wahrheit tun; denn als Kinder des Lichtes sind wir aus dir geboren. Mache uns zu deinen Zeugen unter den Menschen. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Erhöre uns, Gott, unser Heiland, und gib, dass wir in deinem Lichte leben und die Wahrheit tun; denn als Kinder des Lichtes sind wir aus dir geboren. Mache uns zu deinen Zeugen unter den Menschen.^orV"
         },
         "Lesehore": {
           "hymn_1": 2113.0,
@@ -10991,7 +10991,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns zu Gott, dem Vater, beten, der für sein Volk in Liebe sorgt:",
           "bitten_r": "Wir bitten dich, erhöre uns.",
           "bitten": "Herr, gedenke deiner Kirche^qund bewahre sie vor aller Spaltung.^pGib, dass die Völker dich erkennen^qund den du gesandt hast: Jesus Christus, deinen Sohn.^pErbarme dich derer, die uns nahestehen;^qschenke ihnen Leben und Segen in Fülle.^pTröste die Mühseligen und Beladenen;^qschaffe Recht den Entrechteten.^pÖffne denen, die heute gestorben sind, die Tür deines Hauses;^qnimm sie auf in die Seligkeit des Himmels.",
-          "oration": "Höre unser Gebet, o°Herr, und beschütze uns bei Tag und Nacht. Wir sind dem Wandel der Zeit unterworfen; schenke uns festen Halt in dir, dem unwandelbaren Gott. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Höre unser Gebet, o°Herr, und beschütze uns bei Tag und Nacht. Wir sind dem Wandel der Zeit unterworfen; schenke uns festen Halt in dir, dem unwandelbaren Gott.^orV"
         }
       },
       "4": {
@@ -11075,7 +11075,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu Gott, denn er ist der Grund unserer Hoffnung:",
           "bitten_r": "Herr, erhöre unser Gebet.",
           "bitten": "Du hast mit deinem Volk einen ewigen Bund geschlossen;^qgib, dass es allezeit deiner Taten gedenkt.^pStärke den Glauben der Bischöfe, Priester und Diakone;^qbewahre sie in deiner Liebe.^pSende Arbeiter in deine Ernte,^qdamit dein Name den Völkern verkündet wird.^pSteh denen bei, die für Staat und Gesellschaft Verantwortung tragen;^qgib, dass sie sich nicht vergebens mühen.^pLass unsere verstorbenen Verwandten und Wohltäter bei dir geborgen sein^qund stärke in uns die Hoffnung, auf ewig bei dir zu sein.",
-          "oration": "Gott, du bist unser Licht in der Nacht und schenkst uns nach der Finsternis einen neuen Tag. Beschütze uns vor der Macht des bösen Feindes, damit wir heil durch das Dunkel der kommenden Nacht gelangen und am Morgen vor deinem Angesicht dir Dank sagen können. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Gott, du bist unser Licht in der Nacht und schenkst uns nach der Finsternis einen neuen Tag. Beschütze uns vor der Macht des bösen Feindes, damit wir heil durch das Dunkel der kommenden Nacht gelangen und am Morgen vor deinem Angesicht dir Dank sagen können.^orV"
         }
       },
       "5": {
@@ -11098,7 +11098,7 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, der durch sein Kreuz das Heil gebracht hat. Zu ihm lasst uns beten:",
           "bitten_r": "Schenke uns dein Erbarmen.",
           "bitten": "Christus, du hast durch deinen Tod die Welt hell gemacht;^qvertreibe das Dunkel aus unseren Herzen.^pWende dein Angesicht ab von unseren Sünden^qund tilge all unsere Schuld.^pWache heute über unseren Gedanken, Worten und Werken,^qdamit wir dir gefallen können.^pRette uns durch dein Kreuz und deine Auferstehung;^qschenke uns in Schmerz und Leid den Trost deines Geistes.",
-          "oration": "Gott, durch das Licht deines Wortes vertreibst du das Dunkel der Unwissenheit. Mehre in unserem Herzen die Kraft des Glaubens, damit das Feuer, das deine Gnade in uns entfacht hat, durch keine Anfechtung ausgelöscht wird. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Gott, durch das Licht deines Wortes vertreibst du das Dunkel der Unwissenheit. Mehre in unserem Herzen die Kraft des Glaubens, damit das Feuer, das deine Gnade in uns entfacht hat, durch keine Anfechtung ausgelöscht wird.^orV"
         },
         "Lesehore": {
           "hymn_1": 2112.0,
@@ -11182,7 +11182,7 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Christus, unser Fürsprecher beim Vater. Zu ihm lasst uns beten:",
           "bitten_r": "Christus, höre uns.",
           "bitten": "In der Taufe bist du unser Licht geworden;^qführe uns durch diesen Tag.^pDu bist uns nahe alle Stunden dieses Tages;^qhilf uns in Geduld ertragen, was uns heute widerfährt.^pMaria, deine Mutter, bewahrte dein Wort in ihrem Herzen;^qhilf uns, dein Wort zu hören und zu befolgen.^pLass uns in dieser vergänglichen Welt das Unvergängliche erwarten^qund im Glauben erhoffen, was uns verheißen ist.",
-          "oration": "Heiliger Gott, mache unser Herz hell durch den Glanz der Auferstehung deines Sohnes, damit das Dunkel des Todes uns nicht befalle und wir zum ewigen Licht gelangen. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Heiliger Gott, mache unser Herz hell durch den Glanz der Auferstehung deines Sohnes, damit das Dunkel des Todes uns nicht befalle und wir zum ewigen Licht gelangen.^orV"
         },
         "Lesehore": {
           "hymn_1": 2113.0,
@@ -11352,7 +11352,7 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei der Gott und Vater unseres Herrn Jesus Christus. Zu ihm lasst uns beten:",
           "bitten_r": "Bewahre uns in deinem Dienst.",
           "bitten": "Gott, du hast uns zu einem priesterlichen Volk gemacht;^qlass uns ganz dir gehören.^pDu spendest uns die Gaben deines Geistes;^qschenke uns heute Freundlichkeit und Geduld.^pGib, dass wir dich allezeit lieben^qund dich durch unser Leben preisen.^pMach uns bereit, einander zu dienen,^qdamit wir miteinander das Heil erlangen.",
-          "oration": "Herr, allmächtiger Gott, du hast uns diesen neuen Tag geschenkt. Bewahre uns an ihm vor Unheil und Sünde und lenke unsere Gedanken, Worte und Werke, dass wir stets deinen Willen tun. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Herr, allmächtiger Gott, du hast uns diesen neuen Tag geschenkt. Bewahre uns an ihm vor Unheil und Sünde und lenke unsere Gedanken, Worte und Werke, dass wir stets deinen Willen tun.^orV"
         },
         "Lesehore": {
           "hymn_1": 2111.0,
@@ -11414,7 +11414,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu Jesus Christus, der seine Kirche liebt:",
           "bitten_r": "Erfülle die Bitten deines Volkes.",
           "bitten": "Herr, du willst, dass keiner verlorengeht;^qgib, dass alle Menschen zur Erkenntnis der Wahrheit gelangen.^pZeige, dass du der Anwalt der Armen bist;^qstehe ihnen bei in ihrer Bedrängnis.^pGib, dass alle Menschen Arbeit finden,^qdamit sie in Sicherheit leben können.^pBeschütze unseren Papst ^N und unseren Bischof ^N;^qführe sie durch deinen Heiligen Geist.^pWir empfehlen dir die verstorbenen Bischöfe, Priester und Diakone;^qnimm all unsere Verstorbenen bei dir auf.",
-          "oration": "Allmächtiger Gott, wir danken dir für alles, was wir heute empfangen haben, denn du hast uns unnützen Knechten die Kraft für unser Tagewerk gegeben. Nimm unser Abendgebet als Opfer des Lobes an. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Allmächtiger Gott, wir danken dir für alles, was wir heute empfangen haben, denn du hast uns unnützen Knechten die Kraft für unser Tagewerk gegeben. Nimm unser Abendgebet als Opfer des Lobes an.^orV"
         }
       },
       "2": {
@@ -11437,7 +11437,7 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, unser Erlöser. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, erbarme dich.",
           "bitten": "In der Frühe des Tages gedenken wir deiner Auferstehung;^qlass uns den Tag beginnen in der Hoffnung auf dich.^pBegleite unser Tagewerk mit deiner Gnade;^qlass gelingen, was wir heute tun.^pGib, dass alles, was heute geschieht, uns dir näher bringt;^qlass uns wachsen in der Liebe zu dir.^pLass uns heute deine Güte erfahren^qund hilf uns, den Menschen Gutes zu tun.",
-          "oration": "Herr Jesus Christus, du wahres Licht, das alle Menschen erleuchtet, damit sie das Heil finden, gib uns die Kraft, deinem Frieden und deiner Gerechtigkeit den Weg zu bereiten. Der du in der Einheit des Heiligen Geistes mit Gott dem Vater lebst und herrschest in alle Ewigkeit."
+          "oration": "Herr Jesus Christus, du wahres Licht, das alle Menschen erleuchtet, damit sie das Heil finden, gib uns die Kraft, deinem Frieden und deiner Gerechtigkeit den Weg zu bereiten.^orS"
         },
         "Lesehore": {
           "hymn_1": 2112.0,
@@ -11499,7 +11499,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns zu Christus beten, auf den wir unsere Hoffnung setzen:",
           "bitten_r": "Herr, erbarme dich deines Volkes.",
           "bitten": "Behüte unseren Bischof ^N^qund stärke seine Mitarbeiter in ihrem Dienst.^pSteh den Regierenden bei^qund erleuchte die Gesetzgeber.^pVerhilf den Armen zu ihrem Recht;^qgib allen Menschen, was sie zum Leben brauchen.^pSieh auf die Menschen, die bedrängt und verfolgt werden,^qund komm ihnen zu Hilfe.^pErbarme dich der Verstorbenen;^qlass sie teilnehmen am Hochzeitsmahl des ewigen Lebens.",
-          "oration": "Herr, unser Gott, dein ist der Tag, und dein ist die Nacht. Lass Christus, die Sonne der Gerechtigkeit, in unseren Herzen nicht untergehen, damit wir aus dem Dunkel dieser Zeit in das Licht gelangen, in dem du wohnst. Darum bitten wir durch ihn, Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Herr, unser Gott, dein ist der Tag, und dein ist die Nacht. Lass Christus, die Sonne der Gerechtigkeit, in unseren Herzen nicht untergehen, damit wir aus dem Dunkel dieser Zeit in das Licht gelangen, in dem du wohnst.^oVr"
         }
       },
       "3": {
@@ -11523,7 +11523,7 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei unser Erlöser, der bei seiner Kirche bleiben wird bis zum Ende der Welt. Zu ihm lasst uns beten:",
           "bitten_r": "Kyrie, eleison.",
           "bitten": "Führe uns durch diesen Tag;^qbegleite uns mit deiner Gnade.^pUnser Tagewerk sei dir geweiht;^qgib, dass wir nichts Böses tun und kein Unrecht gutheißen.^pMach deine Gläubigen zum Licht der Welt;^qmach sie zum Salz der Erde.^pDein Heiliger Geist lenke unser Herz,^qdamit unser Mund dein Lob verkünde.",
-          "oration": "Gütiger Gott, lass es hellen Tag werden in unserem Herzen, damit wir nicht in die Irre gehen, sondern auf dem Weg deiner Gebote bleiben. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Gütiger Gott, lass es hellen Tag werden in unserem Herzen, damit wir nicht in die Irre gehen, sondern auf dem Weg deiner Gebote bleiben.^orV"
         },
         "Lesehore": {
           "hymn_1": 2113.0,
@@ -11585,7 +11585,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu Gott, dem allmächtigen Vater, der den Menschen Gutes tut:",
           "bitten_r": "Wir bitten dich, erhöre uns.",
           "bitten": "Gott, schütze unsere Stadt ^(unsere Gemeinde^)^qund bewahre ihre Bewohner vor Schaden.^pSieh auf die Kinder und die jungen Menschen;^qlass sie zu aufrechten Christen heranwachsen.^pErbarme dich der Kranken;^qsei den alten Menschen nahe.^pSegne die Früchte der Erde;^qspende Nahrung allem, was lebt.^pLass den Verstorbenen das Licht deines Angesichtes leuchten^qund schenke ihnen deinen Frieden.",
-          "oration": "Gott, dein Name ist heilig, und deine Barmherzigkeit wird gerühmt von Geschlecht zu Geschlecht. Nimm das Abendgebet deiner Kirche an und gib, dass in ihr dein Lobpreis niemals verstumme. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Gott, dein Name ist heilig, und deine Barmherzigkeit wird gerühmt von Geschlecht zu Geschlecht. Nimm das Abendgebet deiner Kirche an und gib, dass in ihr dein Lobpreis niemals verstumme.^orV"
         }
       },
       "4": {
@@ -11608,7 +11608,7 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, der Sohn des lebendigen Gottes. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, steh uns bei.",
           "bitten": "Du bist das Licht der Welt;^qleuchte uns an diesem Tag.^pDu bist die ewige Weisheit;^qschenke uns Einsicht und Geduld.^pDu gibst Kraft, die Last des Tages zu tragen;^qhilf uns, dir großherzig zu dienen.^pDu lenkst unser Denken, Fühlen und Tun;^qlass uns deiner Weisung folgen.",
-          "oration": "Herr und Gott, du wahres Licht, gib, dass wir in der Tiefe unseres Herzens gläubig erfassen, was heilig ist, und in der Klarheit deines Lichtes diesen Tag verbringen. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Herr und Gott, du wahres Licht, gib, dass wir in der Tiefe unseres Herzens gläubig erfassen, was heilig ist, und in der Klarheit deines Lichtes diesen Tag verbringen.^orV"
         },
         "Lesehore": {
           "hymn_1": 2111.0,
@@ -11670,7 +11670,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu unserem Herrn und Erlöser Jesus Christus:",
           "bitten_r": "Herr, segne dein Volk.",
           "bitten": "Behüte unser Land ^(unsere Stadt, unsere Gemeinde^)^qund bewahre es ^(sie^) vor Schaden.^pSchütze unseren Papst ^N. und unseren Bischof ^N.;^qgib, dass sie deiner Kirche als gute Hirten dienen.^pRufe junge Männer in deine Nachfolge;^qmach sie zu treuen Dienern deines Altars.^pBehüte die dir geweihten Jungfrauen;^qschenke ihnen Freude in deinem Dienst.^pNimm unsere Verstorbenen auf zu dir;^qlass sie ruhen in deinem Frieden.",
-          "oration": "Gütiger Gott, nimm unser Abendopfer an. Gib, dass unser Herz niemals aufhört, über deine Weisung nachzusinnen, und schenke uns als Lohn das Licht des ewigen Lebens. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Gütiger Gott, nimm unser Abendopfer an. Gib, dass unser Herz niemals aufhört, über deine Weisung nachzusinnen, und schenke uns als Lohn das Licht des ewigen Lebens.^orV"
         }
       },
       "5": {
@@ -11693,7 +11693,7 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Christus, der uns mit seinem kostbaren Blut erkauft hat. Zu ihm lasst uns beten:",
           "bitten_r": "Lamm Gottes, erbarme dich unser.",
           "bitten": "Als du am Kreuze hingst, floss Blut und Wasser aus deiner Seite;^qwasche uns rein von unseren Sünden.^pDu hast den Neuen Bund in deinem Blut gestiftet;^qgib, dass wir dir die Treue halten.^pDurch dein Kreuz hast du die ganze Welt erlöst;^qgib, dass wir in allen Dingen deine Spur erkennen.^pDu hast uns den Anfang dieses Tages geschenkt;^qstärke uns auf dem Weg deiner Nachfolge.",
-          "oration": "Allmächtiger Gott, wir bringen dir unser Morgenlob dar. Gib, dass unser Lied einst sich vollende im Chor deiner Heiligen. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Allmächtiger Gott, wir bringen dir unser Morgenlob dar. Gib, dass unser Lied einst sich vollende im Chor deiner Heiligen.^orV"
         },
         "Lesehore": {
           "hymn_1": 2112.0,
@@ -11755,7 +11755,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu unserem Heiland Jesus Christus, der sich für uns dahingegeben hat:",
           "bitten_r": "Herr, erbarme dich deines Volkes.",
           "bitten": "Du bist denen nahe, die dich suchen;^qtröste alle, die im Elend leben.^pNimm dich der Vertriebenen und Verbannten an;^qlass sie an dir nicht irre werden.^pGib, dass die Sünder deinem Ruf nicht widerstehen^qund dass wir alle uns zu dir bekehren.^pSieh an die Not der Sterbenden;^qsende deine Engel, dass sie ihnen beistehen.^pSchenke den Verstorbenen dein Heil^qund vollende an ihnen das Werk der Erlösung.",
-          "oration": "Herr, unser Gott, im Ärgernis des Kreuzes hast du deine unerforschliche Weisheit kundgetan. Lass uns die verborgene Herrlichkeit des Leidens Christi erkennen, damit wir niemals an seinem Kreuz irre werden, sondern allezeit uns im Kreuze rühmen. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Herr, unser Gott, im Ärgernis des Kreuzes hast du deine unerforschliche Weisheit kundgetan. Lass uns die verborgene Herrlichkeit des Leidens Christi erkennen, damit wir niemals an seinem Kreuz irre werden, sondern allezeit uns im Kreuze rühmen.^orV"
         }
       },
       "6": {
@@ -12014,7 +12014,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu unserem Herrn Jesus Christus, der alle Menschen an sich ziehen will:",
           "bitten_r": "Herr, führe alle Menschen zum Heil.",
           "bitten": "Du hast uns aus der Knechtschaft der Sünde befreit;^qhilf deiner Kirche, die Vergebung der Sünden zu verkünden.^pStärke unseren Bischof ^N und alle Hirten der Kirche,^qdamit sie dir mit ganzer Hingabe dienen.^pGib, dass alle, die nach der Wahrheit suchen, dich finden^qund nicht aufhören, nach deiner Wahrheit zu streben.^pStehe den Witwen und Waisen und allen Verlassenen bei;^qlass sie deine Nähe erfahren.^pGedenke unserer Verstorbenen;^qnimm sie auf in dein himmlisches Reich.",
-          "oration": "Gott, du bist das Licht, das sich nie verzehrt. Du hast uns durch diesen Tag geführt. Verzeihe uns, was wir gefehlt haben, und sei unser Licht auch in der Nacht. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Gott, du bist das Licht, das sich nie verzehrt. Du hast uns durch diesen Tag geführt. Verzeihe uns, was wir gefehlt haben, und sei unser Licht auch in der Nacht.^orV"
         }
       },
       "2": {
@@ -12038,7 +12038,7 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, unser Erlöser. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, erbarme dich unser.",
           "bitten": "Zum Beginn dieses Tages nimm das Lobgebet deiner Kirche an;^qlehre uns deine Herrlichkeit preisen.^pAuf dich vertrauen wir;^qlass uns nicht zuschanden werden.^pEile uns zu Hilfe;^qdenn ohne dich können wir nichts tun.^pMach uns verständnisvoll und barmherzig,^qdass wir helfen können, wo Hilfe not tut.",
-          "oration": "Allmächtiger Gott, alles, was du erschaffen hast, ist gut und schön. Lass uns diesen Tag in deinem Namen freudig beginnen und in Wort und Tat aus Liebe zu dir und den Menschen vollenden. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Allmächtiger Gott, alles, was du erschaffen hast, ist gut und schön. Lass uns diesen Tag in deinem Namen freudig beginnen und in Wort und Tat aus Liebe zu dir und den Menschen vollenden.^orV"
         },
         "Lesehore": {
           "hymn_1": 2112.0,
@@ -12101,7 +12101,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zum Gott unserer Hoffnung:",
           "bitten_r": "Herr, erhöre uns.",
           "bitten": "In Christus hast du uns reich gemacht;^qführe alle Menschen zur Erkenntnis deines Sohnes.^pDu hast Macht über die Herzen der Mächtigen;^qgib den Staatsmännern Klugkeit und Maß.^pDu gibst den Künstlern schöpferische Kraft;^qschenke durch ihre Werke den Menschen Freude und Hoffnung.^pDu lässt nicht zu, dass jemand über seine Kraft versucht wird;^qstärke die Schwachen und richte die Gefallenen auf.^pGedenke unserer Verstorbenen;^qlass sie auferstehen zum ewigen Leben.",
-          "oration": "Gütiger Gott, unser Abendgebet steige zu dir empor, und dein Segen komme auf uns herab, damit wir mit deiner Hilfe das Heil erlangen und frei werden, hier und auf ewig. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Gütiger Gott, unser Abendgebet steige zu dir empor, und dein Segen komme auf uns herab, damit wir mit deiner Hilfe das Heil erlangen und frei werden, hier und auf ewig.^orV"
         }
       },
       "3": {
@@ -12124,7 +12124,7 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, der bei uns bleibt bis ans Ende der Zeiten. Zu ihm lasst uns beten:",
           "bitten_r": "Kyrie, eleison.",
           "bitten": "Du schenkst uns heute Licht und Leben;^qmach uns dankbar für deine Gaben.^pDu hast uns in dein Volk gerufen;^qfestige uns in der Treue zu dir.^pDu führst die Kirche auf den Weg deiner Gebote;^qbewahre uns vor Schuld und Sünde.^pDu nährst uns am Tisch des Wortes und des Sakramentes,^qgib, dass wir in der Kraft dieser Speise dir folgen.",
-          "oration": "Allmächtiger Gott, deine Weisheit hat uns erschaffen, und deine Vorsehung leitet uns. Lass dein heiliges Licht in unseren Herzen leuchten, damit wir in allem, was wir heute sinnen und tun, dir in Treue dienen. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Allmächtiger Gott, deine Weisheit hat uns erschaffen, und deine Vorsehung leitet uns. Lass dein heiliges Licht in unseren Herzen leuchten, damit wir in allem, was wir heute sinnen und tun, dir in Treue dienen.^orV"
         },
         "Lesehore": {
           "hymn_1": 2113.0,
@@ -12187,7 +12187,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu Gott, der sich aller Menschen erbarmt:",
           "bitten_r": "Wir bitten dich, erhöre uns.",
           "bitten": "Du rufst alle Menschen zum Heil;^qgib, dass sie deinen Ruf vernehmen.^pGedenke aller, die sich zu dir bekennen;^qlass sie spüren, dass sie Kinder eines Vaters sind.^pDein Sohn hat auf Erden mit seinen eigenen Händen gearbeitet;^qgedenke derer, die durch ihrer Hände Arbeit ihr Brot verdienen.^pSchenke neue Hoffnung denen, die durch Misserfolg und Undank entmutigt sind,^qund bewahre vor Hochmut die Erfolgreichen, damit sie nicht überheblich werden.^pGedenke unserer verstorbenen Brüder und Schwestern^qund schenke ihnen das ewige Leben.",
-          "oration": "Gütiger Gott und Vater, höre auf die Stimme deiner Kirche und nimm ihr Abendgebet an. Verzeih uns unsere Sünden. Gib, dass wir dir in Treue dienen und in deiner Liebe geborgen sind. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Gütiger Gott und Vater, höre auf die Stimme deiner Kirche und nimm ihr Abendgebet an. Verzeih uns unsere Sünden. Gib, dass wir dir in Treue dienen und in deiner Liebe geborgen sind.^orV"
         }
       },
       "4": {
@@ -12273,7 +12273,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu Jesus Christus, unserem Helfer:",
           "bitten_r": "Herr, erhöre uns.",
           "bitten": "Du hast Menschen aller Völker in deine Kirche gerufen;^qlass sie die Kraft der Glaubensgemeischaft erfahren.^pDu hast unserem Papst ^N die Sorge für die ganze Kirche aufgetragen;^qstärke ihn im Glauben und in der Liebe.^pSchenke den Sündern die Gnade der Bekehrung;^qführe uns alle durch Buße zum Heil.^pDu hast als Mensch das Los der Fremde auf dich genommen;^qgedenke aller, die getrennt von Heimat und Familie leben müssen.^pGewähre den Verstorbenen den ewigen Frieden,^qdenn auf dich haben sie gehofft.",
-          "oration": "Allmächtiger Gott, wir sagen dir Dank für den Tag, der nun zu Ende geht. Bewahre uns deine Huld und verzeihe uns, was wir in unserer Schwachheit gesündigt haben. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Allmächtiger Gott, wir sagen dir Dank für den Tag, der nun zu Ende geht. Bewahre uns deine Huld und verzeihe uns, was wir in unserer Schwachheit gesündigt haben.^orV"
         }
       },
       "5": {
@@ -12297,7 +12297,7 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Christus, der für uns gestorben und auferstanden ist. Zu ihm lasst uns beten:",
           "bitten_r": "Christe, eleison.",
           "bitten": "Du hast nicht gezögert, am Kreuz für uns dein Blut zu vergießen;^qlass uns heute dankbar deines Leidens gedenken.^pDu lässt die Deinen teilhaben an deinem Kreuz;^qgib uns Kraft und Geduld, wenn wir leiden müssen.^pDu hast uns das lebendige Wasser versprochen, das hinüberströmt ins ewige Leben;^qgieße deinen Geist über uns aus.^pDu hast deinen Jüngern aufgetragen, den Menschen das Evangelium zu bringen;^qhilf uns, durch unser Leben die Botschaft vom Kreuz zu verkünden.",
-          "oration": "Allmächtiger Vater, komm in unser Herz und erleuchte es durch dein Licht, damit wir deine Weisungen erkennen und dir als unserem König folgen auf dem Weg, den du uns führst. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Allmächtiger Vater, komm in unser Herz und erleuchte es durch dein Licht, damit wir deine Weisungen erkennen und dir als unserem König folgen auf dem Weg, den du uns führst.^orV"
         },
         "Lesehore": {
           "hymn_1": 2112.0,
@@ -12360,7 +12360,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu Jesus Christus, den der Vater um unserer Sünden willen in den Tod gegeben hat:",
           "bitten_r": "Herr, erbarme dich.",
           "bitten": "Wir haben viel gesündigt, doch du hast dich unser erbarmt;^qschenke den Sündern die Gnade der Bekehrung.^pHabe Nachsicht mit denen, die ihre Sünden bekennen;^qgewähre ihnen Verzeihung und Frieden.^pErbarme dich aller, die um deines Namens willen verfolgt werden,^qund vergib denen, die ihnen Unrecht tun.^pRichte auf die Kranken und Schwachen;^qtröste die Einsamen und vom Leid Geprüften.^pDu hast dem Schächer das Paradies geöffnet, weil er dich als Heiland bekannt hat;^qöffne unseren Verstorbenen die Pforten des Himmels.",
-          "oration": "Herr, heiliger Vater, du hast deinen Sohn Jesus Christus zum Lösegeld für unser Heil gemacht. Hilf uns, so zu leben, dass wir durch die Teilnahme an seinem Leiden die Kraft seiner Auferstehung erfahren. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Herr, heiliger Vater, du hast deinen Sohn Jesus Christus zum Lösegeld für unser Heil gemacht. Hilf uns, so zu leben, dass wir durch die Teilnahme an seinem Leiden die Kraft seiner Auferstehung erfahren.^orV"
         }
       },
       "6": {
@@ -12383,7 +12383,7 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Gott, der Maria, die Mutter Christi, über alle Geschöpfe erhoben hat. Zu ihm lasst uns beten:",
           "bitten_r": "Schenke uns dein Erbarmen.",
           "bitten": "Herr, unser Gott, du hast Maria geheiligt und zur Mutter deines Sohnes gemacht;^qhöre auf ihre Fürsprache und heilige uns.^pDu hast uns Maria als Mutter und Vorbild geschenkt;^qhöre auf ihre Fürsprache und beschütze uns.^pDu hast Maria unter dem Kreuz gestärkt;^qhöre auf ihre Fürsprache und stärke uns, wenn wir leiden müssen.^pDu hast Maria durch die Auferweckung deines Sohnes froh gemacht;^qhöre auf ihre Fürsprache und festige unsere Hoffnung.",
-          "oration": "Gott, du Quell und Ursprung unseres Heils, mach unser ganzes Leben zu einem Loblied deiner Herrlichkeit, damit wir einst im Himmel dich preisen können ohne Ende. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Gott, du Quell und Ursprung unseres Heils, mach unser ganzes Leben zu einem Loblied deiner Herrlichkeit, damit wir einst im Himmel dich preisen können ohne Ende.^orV"
         },
         "Lesehore": {
           "hymn_1": 2113.0,
@@ -12557,7 +12557,7 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei unser Herr Jesus Christus, denn er rettet alle, die auf ihn vertrauen. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, wir hoffen auf dich.",
           "bitten": "Du bist reich an Erbarmen;^qwir sagen dir Dank für deine Liebe.^pDu schenkst uns allezeit deine Gnade;^qerneuere uns heute im Heiligen Geist.^pÖffne die Augen unseres Herzens,^qdamit wir deine Gegenwart in uns erkennen.^pDu hast uns in deinen Dienst gerufen;^qmache uns heute zu Dienern deines Erbarmens.",
-          "oration": "Gott, du hast den Menschen die Erde anvertraut, sie zu hüten und zu bebauen, und lässt die Sonne über ihnen aufgehen, damit sie ihnen leuchte. Gib, dass unser Tagewerk gelinge, zu deiner Ehre und zum Wohl unseres Nächsten. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Gott, du hast den Menschen die Erde anvertraut, sie zu hüten und zu bebauen, und lässt die Sonne über ihnen aufgehen, damit sie ihnen leuchte. Gib, dass unser Tagewerk gelinge, zu deiner Ehre und zum Wohl unseres Nächsten.^orV"
         },
         "Lesehore": {
           "hymn_1": 2111.0,
@@ -12643,7 +12643,7 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Gott, der uns diese Morgenstunde schenkt. Zu ihm lasst uns beten:",
           "bitten_r": "Wir bitten dich, erhöre uns.",
           "bitten": "Gott, wir danken dir für Jesus Christus, deinen Sohn;^qschenke uns durch ihn die Wahrheit und das Leben.^pWir danken dir für deinen Heiligen Geist;^qlass uns heute leben aus seiner Kraft.^pMache unser Herz demütig,^qdamit wir bereitwillig einander dienen.^pDu lässt uns mitwirken an deiner Schöpfung;^qgib, dass unsere Arbeit beitrage zu deinem Lob.",
-          "oration": "Gott und Herr, mehre in uns den Glauben an dich, damit unser Lobgebet Frucht bringt für Zeit und Ewigkeit. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Gott und Herr, mehre in uns den Glauben an dich, damit unser Lobgebet Frucht bringt für Zeit und Ewigkeit.^orV"
         },
         "Lesehore": {
           "hymn_1": 2112.0,
@@ -12706,7 +12706,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu unserem Herrn Jesus Christus, denn er ist die Kraft seines Volkes:",
           "bitten_r": "Herr, erhöre uns.",
           "bitten": "Mach standhaft alle, die du zum Glauben berufen hast,^qdamit sie an deiner Wahrheit festhalten.^pGib, dass der Glaube wachse und sich ausbreite;^qsende Arbeiter in deinen Weinberg.^pLenke das Tun der Männer und Frauen, die uns regieren;^qdamit sie den Frieden sichern.^pErbarme dich der Hungernden und Armen;^qzeige uns Wege, ihnen zu helfen.^pWenn du die Toten auferweckst,^qlass unsere Verstorbenen auferstehen zum ewigen Leben.",
-          "oration": "Herr, unser Gott, nimm unser Abendlob an. Gib, dass wir allezeit im Herzen bewahren, was wir mit den Lippen bekennen. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Herr, unser Gott, nimm unser Abendlob an. Gib, dass wir allezeit im Herzen bewahren, was wir mit den Lippen bekennen.^orV"
         }
       },
       "3": {
@@ -12729,7 +12729,7 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei unser Herr Jesus Christus, der durch sein Wort unser Leben erleuchtet. Zu ihm lasst uns beten:",
           "bitten_r": "Erhöre uns, König der Herrlichkeit.",
           "bitten": "Du hast uns aus der Finsternis in dein wunderbares Licht gerufen;^qlenke heute unser Denken und Tun.^pDu hast den Blinden die Augen geöffnet;^qhilf unserem Unglauben.^pGib, dass wir im Unglück nicht verzagen^qund in den Tagen des Glücks dir danken.^pLass uns in deiner Liebe bleiben,^qdamit wir nie von dir getrennt werden.",
-          "oration": "Herr, gedenke deines heiligen Bundes, den das Blut des Lammes neu besiegelt hat. Schenke deinem Volk die Vergebung der Sünden und mehre sein Heil Tag für Tag, bis zur Vollendung der Erlösung. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Herr, gedenke deines heiligen Bundes, den das Blut des Lammes neu besiegelt hat. Schenke deinem Volk die Vergebung der Sünden und mehre sein Heil Tag für Tag, bis zur Vollendung der Erlösung.^orV"
         },
         "Lesehore": {
           "hymn_1": 2113.0,
@@ -12792,7 +12792,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu Gott, dem ewigen Vater, dessen Erbarmen ohne Grenzen ist:",
           "bitten_r": "Wir bitten dich, erhöre uns.",
           "bitten": "Gott, du hast deinen Sohn gesandt, dass er die Welt rette;^qgib, dass alle Völker ihn als ihren Erlöser erkennen.^pDu hast den Menschen als Mann und Frau erschaffen;^qwache über unseren Familien und bewahre sie in der Liebe.^pHilf allen, die du zur Ehelosigkeit berufen hast;^qgib, dass sie in Freude deinem Sohn nachfolgen.^pDu hast deine Priester zu Ausspendern deiner Geheimnisse bestellt;^qschenke ihnen Weisheit und stärke sie in der Treue.^pDurch den Tod und die Auferstehung deines Sohnes hast du die Sünde der Welt hinweggenommen;^qerbarme dich unserer Verstorbenen und schenke ihnen das ewige Leben.",
-          "oration": "Gütiger Gott, du sättigst die Hungernden, die zu dir rufen. Gedenke deiner Huld und schenke unserer Armut den Reichtum deiner Gaben. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Gütiger Gott, du sättigst die Hungernden, die zu dir rufen. Gedenke deiner Huld und schenke unserer Armut den Reichtum deiner Gaben.^orV"
         }
       },
       "4": {
@@ -12815,7 +12815,7 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Gott, die Quelle unseres Heils. Zu ihm lasst uns beten:",
           "bitten_r": "Schenke uns dein Erbarmen.",
           "bitten": "Gott, du hast uns durch die Auferweckung deines Sohnes neue Hoffnung geschenkt;^qgib, dass diese Zuversicht unser Tagewerk begleite.^pDu hast uns durch den Heiligen Geist deine Liebe eingegossen;^qheile unsere Herzen von Missgunst und Neid.^pDu hast uns in der Kirche zu einer neuen Gemeinschaft zusammengeführt;^qgib, dass wir einander dienen in Geduld.^pDu willst das gute Werk vollenden, das du in uns begonnen hast;^qlass uns den Glauben bewahren bis ans Ende.",
-          "oration": "Herr, lass uns heute und immerdar bedenken, dass wir erlöst und aus Feindeshand befreit sind. Gib, dass wir dir furchtlos dienen in Heiligkeit und Gerechtigkeit alle Tage unseres Lebens. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Herr, lass uns heute und immerdar bedenken, dass wir erlöst und aus Feindeshand befreit sind. Gib, dass wir dir furchtlos dienen in Heiligkeit und Gerechtigkeit alle Tage unseres Lebens.^orV"
         },
         "Lesehore": {
           "hymn_1": 2111.0,
@@ -12901,7 +12901,7 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, unsere Freude und Hoffnung. Zu ihm lasst uns beten:",
           "bitten_r": "Christus, höre uns.",
           "bitten": "Herr, du hast uns in deine Kirche berufen;^qlass uns dich loben mit allen, die glauben.^pWir vertrauen auf dich,^qlass uns nicht zuschanden werden.^pLeite heute unsere Schritte;^qgib, dass wir tun, was wahr und gerecht ist.^pBleibe bei uns, Herr;^qdenn ohne dich können wir nichts tun.",
-          "oration": "Herr und Gott, schenk uns den Reichtum deiner Gnade und lenke unsere Schritte auf dem Weg deiner Gebote, damit wir schon in diesem Leben Trost und Frieden finden und einst die ewige Freude erlangen. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Herr und Gott, schenk uns den Reichtum deiner Gnade und lenke unsere Schritte auf dem Weg deiner Gebote, damit wir schon in diesem Leben Trost und Frieden finden und einst die ewige Freude erlangen.^orV"
         },
         "Lesehore": {
           "hymn_1": 2112.0,
@@ -12964,7 +12964,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu Jesus Christus, der Hoffnung aller, die zu ihm aufschauen:",
           "bitten_r": "Herr, erbarme dich unser.",
           "bitten": "Du hast das schwere Kreuz auf dich genommen;^qstärke alle, die schwer tragen an der Last des Lebens.^pDu bist unter dem Kreuz zusammengebrochen;^qrichte die auf, die nicht mehr weiterkönnen.^pDu hast den Spott der Menge erduldet;^qverzeih denen, die andere verachten und beschimpfen.^pDu hast dem reumütigen Schächer das Paradies verheißen;^qwende dich den Sündern zu, damit sie sich zu dir bekehren.^pDu hast dein Leben in die Hände des Vaters zurückgegeben;^qnimm unsere Verstorbenen auf in deine Herrlichkeit.",
-          "oration": "Allmächtiger Gott, so sehr hast du die Welt geliebt, dass du deinen einzigen Sohn dahingabst für das Heil der Welt. Schenke deiner Kirche die Bereitschaft, sich dir als lebendiges Opfer zu weihen, damit sie ganz erfüllt werde von deiner Liebe. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Allmächtiger Gott, so sehr hast du die Welt geliebt, dass du deinen einzigen Sohn dahingabst für das Heil der Welt. Schenke deiner Kirche die Bereitschaft, sich dir als lebendiges Opfer zu weihen, damit sie ganz erfüllt werde von deiner Liebe.^orV"
         }
       },
       "6": {
@@ -12987,7 +12987,7 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Gott, der durch seinen Sohn der Welt Hoffnung und Leben schenkt. Zu ihm lasst uns beten:",
           "bitten_r": "Höre unser Gebet.",
           "bitten": "Gott, du schenkst uns diesen neuen Tag;^qgib, dass wir ihn zu deiner Ehre vollenden.^pDu hast Glaube, Hoffnung und Liebe in unsere Herzen eingesenkt;^qerhalte in uns allezeit deine Gaben.^pUnsere Augen seien stets auf dich gerichtet;^qmach uns bereit, deinem Ruf zu folgen.^pBewahre uns vor den Verlockungen des Bösen^qund schütze uns auf allen unseren Wegen.",
-          "oration": "Allmächtiger Gott, du wahres Licht und ewiger Tag, du schenkst uns im Kreislauf der Zeit immer wieder einen neuen Morgen. Vertreibe die Nacht des Bösen und erleuchte unser Herz durch den hellen Glanz deines Kommens. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Allmächtiger Gott, du wahres Licht und ewiger Tag, du schenkst uns im Kreislauf der Zeit immer wieder einen neuen Morgen. Vertreibe die Nacht des Bösen und erleuchte unser Herz durch den hellen Glanz deines Kommens.^orV"
         },
         "Lesehore": {
           "hymn_1": 2113.0,
@@ -13401,7 +13401,7 @@ export const brevierData = {
     "0": {
       "3": {
         "each": {
-          "oration": "Getreuer Gott, im Vertrauen auf dich beginnen wir die vierzig Tage der Umkehr und Buße. Gib uns die Kraft zu christlicher Zucht, damit wir dem Bösen absagen und mit Entschiedenheit das Gute tun. Darum bitten wir durch Jesus Christus."
+          "oration": "Getreuer Gott, im Vertrauen auf dich beginnen wir die vierzig Tage der Umkehr und Buße. Gib uns die Kraft zu christlicher Zucht, damit wir dem Bösen absagen und mit Entschiedenheit das Gute tun.^orV"
         },
         "Laudes": {
           "ant_ev": "Wenn ihr fastet und Buße tut, macht kein finsteres Gesicht wie die Heuchler."
@@ -13412,7 +13412,7 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "oration": "Herr, unser Gott, komm unserem Beten und Arbeiten mit deiner Gnade zuvor und begleite es, damit alles, was wir beginnen, bei dir seinen Anfang nehme und durch dich vollendet werde. Darum bitten wir durch Jesus Christus."
+          "oration": "Herr, unser Gott, komm unserem Beten und Arbeiten mit deiner Gnade zuvor und begleite es, damit alles, was wir beginnen, bei dir seinen Anfang nehme und durch dich vollendet werde.^orV"
         },
         "Laudes": {
           "ant_ev": "Wer mein Jünger sein will, der verleugne sich selbst. Er nehme täglich sein Kreuz auf sich und folge mir nach."
@@ -13423,7 +13423,7 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "oration": "Allwissender Gott, du siehst nicht auf unsere äußeren Werke, sondern auf unser Herz. Gib, dass wir mit reiner Gesinnung vollbringen, was wir in diesen vierzig Tagen an Buße und Verzicht auf uns nehmen. Darum bitten wir durch Jesus Christus."
+          "oration": "Allwissender Gott, du siehst nicht auf unsere äußeren Werke, sondern auf unser Herz. Gib, dass wir mit reiner Gesinnung vollbringen, was wir in diesen vierzig Tagen an Buße und Verzicht auf uns nehmen.^orV"
         },
         "Laudes": {
           "ant_ev": "Brich den Hungrigen dein Brot und nimm die Armen auf. Dann wird dein Licht aufleuchten wie das Morgenrot, und bald bist du geheilt."
@@ -13434,7 +13434,7 @@ export const brevierData = {
       },
       "6": {
         "each": {
-          "oration": "Allmächtiger Gott, übe Nachsicht mit unserer Schwäche, und damit wir imstande sind, den Kampf mit den Mächten des Bösen zu bestehen, strecke deine Hand aus und schütze uns. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, übe Nachsicht mit unserer Schwäche, und damit wir imstande sind, den Kampf mit den Mächten des Bösen zu bestehen, strecke deine Hand aus und schütze uns.^orV"
         },
         "Laudes": {
           "ant_ev": "Sammelt euch Schätze im Himmel, wo weder Rost noch Motten sie zerstören."
@@ -13467,7 +13467,7 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "oration": "Gott, unser Heil, gib uns die Gnade, umzukehren zu dir. Erleuchte unseren Verstand und stärke unseren Willen, damit uns diese Zeit der Buße zum Segen wird. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, unser Heil, gib uns die Gnade, umzukehren zu dir. Erleuchte unseren Verstand und stärke unseren Willen, damit uns diese Zeit der Buße zum Segen wird.^orV"
         },
         "Laudes": {
           "ant_ev": "Kommt, ihr Gesegneten meines Vaters, nehmt das Reich in Besitz, das euch bereitet ist seit Anbeginn der Welt."
@@ -13478,7 +13478,7 @@ export const brevierData = {
       },
       "2": {
         "each": {
-          "oration": "Herr, unser Gott, sieh gütig auf deine Gemeinde. Da wir durch Mäßigung den Leib in Zucht halten und Buße tun, schenke unserem Geist die wahre Sehnsucht nach dir. Darum bitten wir durch Jesus Christus."
+          "oration": "Herr, unser Gott, sieh gütig auf deine Gemeinde. Da wir durch Mäßigung den Leib in Zucht halten und Buße tun, schenke unserem Geist die wahre Sehnsucht nach dir.^orV"
         },
         "Laudes": {
           "ant_ev": "Herr, lehre uns beten, wie auch Johannes seine Jünger beten gelehrt hat."
@@ -13489,7 +13489,7 @@ export const brevierData = {
       },
       "3": {
         "each": {
-          "oration": "Barmherziger Gott, sieh gnädig auf die Hingabe deines Volkes. Gib, dass wir unseren Leib in Zucht nehmen und durch gute Werke im Geist neu werden. Darum bitten wir durch Jesus Christus."
+          "oration": "Barmherziger Gott, sieh gnädig auf die Hingabe deines Volkes. Gib, dass wir unseren Leib in Zucht nehmen und durch gute Werke im Geist neu werden.^orV"
         },
         "Laudes": {
           "ant_ev": "Dieses Volk ist ein böses Volk. Es fordert ein Zeichen. Aber es wird ihm kein anderes Zeichen gegeben als das Zeichen des Jona."
@@ -13500,7 +13500,7 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "oration": "Allmächtiger Gott, gib uns die Gnade, dass wir stets auf das Rechte bedacht sind und es auch entschlossen tun. Da wir ohne dich nicht bestehen können, hilf uns, nach deinem Willen zu leben. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, gib uns die Gnade, dass wir stets auf das Rechte bedacht sind und es auch entschlossen tun. Da wir ohne dich nicht bestehen können, hilf uns, nach deinem Willen zu leben.^orV"
         },
         "Laudes": {
           "ant_ev": "Wenn schon ihr, die ihr böse seid, euren Kindern Gutes gebt, um wieviel mehr wird euer Vater im Himmel denen Gutes geben, die ihn darum bitten?"
@@ -13511,7 +13511,7 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "oration": "Allmächtiger Gott, gib, dass deine Gläubigen sich in rechter Weise auf Ostern vorbereiten, und was wir dem Leib an Entsagung auferlegen, das trage reiche Frucht und erneuere unseren Geist. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, gib, dass deine Gläubigen sich in rechter Weise auf Ostern vorbereiten, und was wir dem Leib an Entsagung auferlegen, das trage reiche Frucht und erneuere unseren Geist.^orV"
         },
         "Laudes": {
           "ant_ev": "Wenn eure Gerechtigkeit nicht noch viel größer ist als die der Schriftgelehrten und der Pharisäer, so werdet ihr nicht in das Himmelreich kommen."
@@ -13522,7 +13522,7 @@ export const brevierData = {
       },
       "6": {
         "each": {
-          "oration": "Ewiger Vater, wende unsere Herzen zu dir hin, damit wir das eine Notwendige suchen und dich in Werken der Liebe verherrlichen. Darum bitten wir durch Jesus Christus."
+          "oration": "Ewiger Vater, wende unsere Herzen zu dir hin, damit wir das eine Notwendige suchen und dich in Werken der Liebe verherrlichen.^orV"
         },
         "Laudes": {
           "ant_ev": "Betet für die, die euch verfolgen und verleumden, dann seid ihr Söhne eures Vaters, der im Himmel ist."
@@ -13532,7 +13532,7 @@ export const brevierData = {
     "2": {
       "0": {
         "each": {
-          "oration": "Gott, du hast uns geboten, auf deinen geliebten Sohn zu hören. Nähre uns mit deinem Wort und reinige die Augen unseres Geistes, damit wir fähig werden, deine Herrlichkeit zu erkennen. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, du hast uns geboten, auf deinen geliebten Sohn zu hören. Nähre uns mit deinem Wort und reinige die Augen unseres Geistes, damit wir fähig werden, deine Herrlichkeit zu erkennen.^orV"
         },
         "ErsteV": {
           "ant_1": "Jesus nahm Petrus, Jakobus und Johannes mit sich und führte sie auf einen hohen Berg. Dort wurde er vor ihren Augen verklärt.",
@@ -13555,7 +13555,7 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "oration": "Ewiger Gott, zum Heil unserer Seele verlangst du, dass wir den Leib in Zucht nehmen und Buße tun. Gib uns die Kraft, dass wir uns von Sünden freihalten und die Gebote erfüllen, die uns deine Liebe gegeben hat. Darum bitten wir durch Jesus Christus."
+          "oration": "Ewiger Gott, zum Heil unserer Seele verlangst du, dass wir den Leib in Zucht nehmen und Buße tun. Gib uns die Kraft, dass wir uns von Sünden freihalten und die Gebote erfüllen, die uns deine Liebe gegeben hat.^orV"
         },
         "Laudes": {
           "ant_ev": "Seid barmherzig, wie euer Vater barmherzig ist."
@@ -13566,7 +13566,7 @@ export const brevierData = {
       },
       "2": {
         "each": {
-          "oration": "Herr, unser Gott, behüte deine Kirche und verlass sie nicht. Wir sind dem Tod verfallen und gehen ohne dich zugrunde. Hilf uns, alles zu meiden, was uns schadet, und zu suchen, was uns zum Heil dient. Darum bitten wir durch Jesus Christus."
+          "oration": "Herr, unser Gott, behüte deine Kirche und verlass sie nicht. Wir sind dem Tod verfallen und gehen ohne dich zugrunde. Hilf uns, alles zu meiden, was uns schadet, und zu suchen, was uns zum Heil dient.^orV"
         },
         "Laudes": {
           "ant_ev": "Niemand auf Erden sollt ihr Vater nennen. Nur einer ist euer Vater: der im Himmel. Ihr alle aber seid Brüder."
@@ -13577,7 +13577,7 @@ export const brevierData = {
       },
       "3": {
         "each": {
-          "oration": "Herr, unser Gott, erhalte deiner Kirche die Bereitschaft, das Gute zu tun. Ermutige uns in diesem Leben durch deinen Schutz und führe uns zu den ewigen Gütern. Darum bitten wir durch Jesus Christus."
+          "oration": "Herr, unser Gott, erhalte deiner Kirche die Bereitschaft, das Gute zu tun. Ermutige uns in diesem Leben durch deinen Schutz und führe uns zu den ewigen Gütern.^orV"
         },
         "Laudes": {
           "ant_ev": "Der Menschensohn ist nicht gekommen, um sich bedienen zu lassen, sondern um zu dienen und sein Leben hinzugeben als Lösegeld für viele."
@@ -13588,7 +13588,7 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "oration": "Heiliger Gott, du liebst die Unschuld und schenkst dem Sünder zurück, der reumütig zu dir heimkehrt. Wende unser Herz zu dir und schenke uns neuen Eifer im Heiligen Geist, damit wir im Glauben standhaft bleiben und stets bereit sind, das Gute zu tun. Darum bitten wir durch Jesus Christus."
+          "oration": "Heiliger Gott, du liebst die Unschuld und schenkst dem Sünder zurück, der reumütig zu dir heimkehrt. Wende unser Herz zu dir und schenke uns neuen Eifer im Heiligen Geist, damit wir im Glauben standhaft bleiben und stets bereit sind, das Gute zu tun.^orV"
         },
         "Laudes": {
           "ant_ev": "Mein Sohn, denke daran, dass du im Leben schon alles Gute bekommen hast, Lazarus aber nur Schlechtes. Jetzt wird er dafür getröstet."
@@ -13599,7 +13599,7 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "oration": "Allmächtiger Gott, reinige uns in diesen Tagen, in denen wir für unsere Sünden Buße tun, damit wir mit lauterem Herzen das Osterfest erwarten. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, reinige uns in diesen Tagen, in denen wir für unsere Sünden Buße tun, damit wir mit lauterem Herzen das Osterfest erwarten.^orV"
         },
         "Laudes": {
           "ant_ev": "Den Bösen wird er ein böses Ende bereiten und den Weinberg anderen verpachten, die ihm Früchte liefern zur rechten Zeit."
@@ -13610,7 +13610,7 @@ export const brevierData = {
       },
       "6": {
         "each": {
-          "oration": "Gütiger Gott, durch das Wirken deiner Gnade schenkst du uns schon auf Erden den Anfang des ewigen Lebens. Vollende, was du in uns begonnen hast, und führe uns hin zu jenem Licht, in dem du selber wohnst. Darum bitten wir durch Jesus Christus."
+          "oration": "Gütiger Gott, durch das Wirken deiner Gnade schenkst du uns schon auf Erden den Anfang des ewigen Lebens. Vollende, was du in uns begonnen hast, und führe uns hin zu jenem Licht, in dem du selber wohnst.^orV"
         },
         "Laudes": {
           "ant_ev": "Vater, ich habe gegen dich gesündigt und bin nicht mehr wert, dein Sohn zu sein; mach mich zu einem deiner Knechte."
@@ -13620,7 +13620,7 @@ export const brevierData = {
     "3": {
       "0": {
         "each": {
-          "oration": "Gott, unser Vater, du bist der Quell des Erbarmens und der Güte. Wir stehen als Sünder vor dir, und unser Gewissen klagt uns an. Sieh auf unsere Not und lass uns Vergebung finden durch Fasten, Gebet und Werke der Liebe. Darum bitten wir durch Jesus Christus."
+          "oration": "Gott, unser Vater, du bist der Quell des Erbarmens und der Güte. Wir stehen als Sünder vor dir, und unser Gewissen klagt uns an. Sieh auf unsere Not und lass uns Vergebung finden durch Fasten, Gebet und Werke der Liebe.^orV"
         },
         "ErsteV": {
           "ant_1": "So spricht der Herr: Bekehrt euch und glaubt der Frohen Botschaft.",
@@ -13643,7 +13643,7 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "oration": "Barmherziger Gott, deine Kirche kann nicht bestehen ohne dich, sie lebt allein von deiner Gnade. Reinige und festige sie und führe sie mit starker Hand. Darum bitten wir durch Jesus Christus."
+          "oration": "Barmherziger Gott, deine Kirche kann nicht bestehen ohne dich, sie lebt allein von deiner Gnade. Reinige und festige sie und führe sie mit starker Hand.^orV"
         },
         "Laudes": {
           "ant_ev": "Wahrlich, ich sage euch: Kein Prophet ist anerkannt in seiner Vaterstadt."
@@ -13654,7 +13654,7 @@ export const brevierData = {
       },
       "2": {
         "each": {
-          "oration": "Herr, unser Gott, verlass uns nicht in diesen Tagen der Buße. Steh uns mit deiner Gnade bei, damit wir mit ganzer Bereitschaft den Dienst vollziehen, den du uns aufgetragen hast. Darum bitten wir durch Jesus Christus."
+          "oration": "Herr, unser Gott, verlass uns nicht in diesen Tagen der Buße. Steh uns mit deiner Gnade bei, damit wir mit ganzer Bereitschaft den Dienst vollziehen, den du uns aufgetragen hast.^orV"
         },
         "Laudes": {
           "ant_ev": "Der Herr sprach zu Petrus: Nicht siebenmal sollst du vergeben, sondern siebenundsiebzigmal."
@@ -13665,7 +13665,7 @@ export const brevierData = {
       },
       "3": {
         "each": {
-          "oration": "Barmherziger Gott, erneuere uns im Geist durch die Feier der heiligen vierzig Tage, damit wir für dein Wort empfänglich werden, bereit zu Gehorsam und Verzicht, demütig im Gebet und eifrig in Werken der Liebe. Darum bitten wir durch Jesus Christus."
+          "oration": "Barmherziger Gott, erneuere uns im Geist durch die Feier der heiligen vierzig Tage, damit wir für dein Wort empfänglich werden, bereit zu Gehorsam und Verzicht, demütig im Gebet und eifrig in Werken der Liebe.^orV"
         },
         "Laudes": {
           "ant_ev": "Denkt nicht, ich sei gekommen, das Gesetz und die Propheten aufzuheben – spricht der Herr. Nicht um aufzuheben, bin ich gekommen, sondern um zu erfüllen."
@@ -13676,7 +13676,7 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "oration": "Allmächtiger Gott, gib, dass wir dem Ruf deiner Gnade folgen und uns mit um so größerem Eifer auf die Feier der österlichen Geheimnisse vorbereiten, je näher das Fest der Erlösung herankommt. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, gib, dass wir dem Ruf deiner Gnade folgen und uns mit um so größerem Eifer auf die Feier der österlichen Geheimnisse vorbereiten, je näher das Fest der Erlösung herankommt.^orV"
         },
         "Laudes": {
           "ant_ev": "Wenn ich Dämonen austreibe mit der Kraft Gottes, wahrlich, dann ist das Reich Gottes zu euch gekommen."
@@ -13687,7 +13687,7 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "oration": "Gütiger Gott, lass deine Gnade mächtig werden in unseren Herzen, damit wir imstande sind, unser eigenes Begehren zu meistern und den Anregungen deines Geistes zu folgen. Darum bitten wir durch Jesus Christus."
+          "oration": "Gütiger Gott, lass deine Gnade mächtig werden in unseren Herzen, damit wir imstande sind, unser eigenes Begehren zu meistern und den Anregungen deines Geistes zu folgen.^orV"
         },
         "Laudes": {
           "ant_ev": "Meister, welches ist das größte Gebot? Jesus gab zur Antwort: Du sollst den Herrn, deinen Gott, lieben von ganzem Herzen."
@@ -13698,7 +13698,7 @@ export const brevierData = {
       },
       "6": {
         "each": {
-          "oration": "Gütiger Gott, in geistlicher Freude begehen wir diese Tage der Buße. Gib, dass wir aus dem österlichen Geheimnis leben, damit uns sein voller Gnadenreichtum zuteilwird. Darum bitten wir durch Jesus Christus."
+          "oration": "Gütiger Gott, in geistlicher Freude begehen wir diese Tage der Buße. Gib, dass wir aus dem österlichen Geheimnis leben, damit uns sein voller Gnadenreichtum zuteilwird.^orV"
         },
         "Laudes": {
           "ant_ev": "Der Zöllner wagte nicht, die Augen zum Himmel zu erheben. Er schlug an seine Brust und betete: Gott, sei mir Sünder gnädig."
@@ -13708,7 +13708,7 @@ export const brevierData = {
     "4": {
       "0": {
         "each": {
-          "oration": "Herr, unser Gott, du hast in deinem Sohn die Menschheit auf wunderbare Weise mit dir versöhnt. Gib deinem Volk einen hochherzigen Glauben, damit es mit froher Hingabe dem Osterfest entgegeneilt. Darum bitten wir durch Jesus Christus."
+          "oration": "Herr, unser Gott, du hast in deinem Sohn die Menschheit auf wunderbare Weise mit dir versöhnt. Gib deinem Volk einen hochherzigen Glauben, damit es mit froher Hingabe dem Osterfest entgegeneilt.^orV"
         },
         "ErsteV": {
           "ps_1": 122.101,
@@ -13732,7 +13732,7 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "oration": "Allherrschender Gott, du schenkst uns im österlichen Geheimnis jenes wunderbare Leben, das die Welt unablässig erneuert. Lass das Werk deiner Gnade in der Kirche mächtig werden und gib ihr alles, was sie in dieser Zeit braucht. Darum bitten wir durch Jesus Christus."
+          "oration": "Allherrschender Gott, du schenkst uns im österlichen Geheimnis jenes wunderbare Leben, das die Welt unablässig erneuert. Lass das Werk deiner Gnade in der Kirche mächtig werden und gib ihr alles, was sie in dieser Zeit braucht.^orV"
         },
         "Laudes": {
           "ant_ev": "Ein Mann in königlichem Dienst kam zu Jesus und bat ihn, seinen Sohn zu heilen, der im Sterben lag. Und Jesus sprach: Geh hin, dein Sohn lebt."
@@ -13754,7 +13754,7 @@ export const brevierData = {
       },
       "3": {
         "each": {
-          "oration": "Gütiger Gott, du schenkst den Gerechten ihren Lohn und verzeihst den Sündern ihre Schuld um der Buße willen. Wir bekennen dir unser Versagen; hab Erbarmen mit unserer Schwachheit, und vergib uns, was wir gefehlt haben. Darum bitten wir durch Jesus Christus."
+          "oration": "Gütiger Gott, du schenkst den Gerechten ihren Lohn und verzeihst den Sündern ihre Schuld um der Buße willen. Wir bekennen dir unser Versagen; hab Erbarmen mit unserer Schwachheit, und vergib uns, was wir gefehlt haben.^orV"
         },
         "Laudes": {
           "ant_ev": "Amen, amen, ich sage euch: Wer mein Wort hört und dem, der mich gesandt hat, glaubt, der hat das ewige Leben."
@@ -13765,7 +13765,7 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "oration": "Gütiger Gott, heilige uns in dieser Zeit der Buße. Gib uns Kraft zu guten Werken und Ausdauer in der Beobachtung deiner Gebote, damit wir fähig werden, das Osterfest mit reinem Herzen zu feiern. Darum bitten wir durch Jesus Christus."
+          "oration": "Gütiger Gott, heilige uns in dieser Zeit der Buße. Gib uns Kraft zu guten Werken und Ausdauer in der Beobachtung deiner Gebote, damit wir fähig werden, das Osterfest mit reinem Herzen zu feiern.^orV"
         },
         "Laudes": {
           "ant_ev": "So spricht der Herr: Ich habe ein größeres Zeugnis als das des Johannes: die Werke, die mein Vater mir übertragen hat."
@@ -13776,7 +13776,7 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "oration": "Barmherziger Gott, du kennst unsere Schwachheit und unsere Not. Doch je hinfälliger wir sind, um so mächtiger ist deine Hilfe. Gib, dass wir das Geschenk dieser Gnadenzeit freudig und dankbar annehmen und dein Wirken in unserem Leben bezeugen. Darum bitten wir durch Jesus Christus."
+          "oration": "Barmherziger Gott, du kennst unsere Schwachheit und unsere Not. Doch je hinfälliger wir sind, um so mächtiger ist deine Hilfe. Gib, dass wir das Geschenk dieser Gnadenzeit freudig und dankbar annehmen und dein Wirken in unserem Leben bezeugen.^orV"
         },
         "Laudes": {
           "ant_ev": "Als Jesus im Tempel lehrte, rief er: Ich bin nicht in meinem eigenen Namen gekommen, sondern mein Vater hat mich gesandt."
@@ -13787,7 +13787,7 @@ export const brevierData = {
       },
       "6": {
         "each": {
-          "oration": "Barmherziger Gott, lenke du selbst unsere Herzen zu dir hin; denn ohne deine Hilfe können wir dir nicht gefallen. Darum bitten wir durch Jesus Christus."
+          "oration": "Barmherziger Gott, lenke du selbst unsere Herzen zu dir hin; denn ohne deine Hilfe können wir dir nicht gefallen.^orV"
         },
         "Laudes": {
           "ant_ev": "Die Knechte, die Jesus festnehmen sollten, kamen zurück und sagten: Noch nie hat ein Mensch so gesprochen wie dieser Mensch."
@@ -13797,7 +13797,7 @@ export const brevierData = {
     "5": {
       "0": {
         "each": {
-          "oration": "Herr, unser Gott, dein Sohn hat sich aus Liebe zur Welt dem Tod überliefert. Lass uns in seiner Liebe bleiben und mit deiner Gnade aus ihr leben. Darum bitten wir durch Jesus Christus."
+          "oration": "Herr, unser Gott, dein Sohn hat sich aus Liebe zur Welt dem Tod überliefert. Lass uns in seiner Liebe bleiben und mit deiner Gnade aus ihr leben.^orV"
         },
         "ErsteV": {
           "ant_1": "Ich lege mein Gesetz in ihr Herz. Ich werde ihr Gott sein, und sie werden mein Volk sein.",
@@ -13844,7 +13844,7 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "oration": "Barmherziger Gott, in deinem Sohn hast du uns die Fülle des Segens geschenkt. Gib uns Kraft, unsere sündhaften Gewohnheiten abzulegen und in der neuen Wirklichkeit zu leben, damit einst die Herrlichkeit deines Reiches an uns offenbar wird. Darum bitten wir durch Jesus Christus."
+          "oration": "Barmherziger Gott, in deinem Sohn hast du uns die Fülle des Segens geschenkt. Gib uns Kraft, unsere sündhaften Gewohnheiten abzulegen und in der neuen Wirklichkeit zu leben, damit einst die Herrlichkeit deines Reiches an uns offenbar wird.^orV"
         },
         "Laudes": {
           "les_buch": "Jer",
@@ -13876,7 +13876,7 @@ export const brevierData = {
       },
       "2": {
         "each": {
-          "oration": "Gütiger Gott, schenke uns Beharrlichkeit und Ausdauer auf dem Weg deiner Gebote, damit auch in unseren Tagen viele Menschen zu dir finden und deine Kirche dir immer eifriger dient. Darum bitten wir durch Jesus Christus."
+          "oration": "Gütiger Gott, schenke uns Beharrlichkeit und Ausdauer auf dem Weg deiner Gebote, damit auch in unseren Tagen viele Menschen zu dir finden und deine Kirche dir immer eifriger dient.^orV"
         },
         "Laudes": {
           "les_buch": "Sach",
@@ -13908,7 +13908,7 @@ export const brevierData = {
       },
       "3": {
         "each": {
-          "oration": "Barmherziger Gott, du selber weckst in uns das Verlangen, dir zu dienen. Heilige uns durch Werke der Buße, erleuchte und stärke uns, damit wir treu den Weg deiner Gebote gehen. Darum bitten wir durch Jesus Christus."
+          "oration": "Barmherziger Gott, du selber weckst in uns das Verlangen, dir zu dienen. Heilige uns durch Werke der Buße, erleuchte und stärke uns, damit wir treu den Weg deiner Gebote gehen.^orV"
         },
         "Laudes": {
           "les_buch": "Jes",
@@ -13940,7 +13940,7 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "oration": "Allmächtiger Gott, erhöre unser Gebet und beschütze uns, denn wir setzen unsere ganze Hoffnung auf dich. Reinige uns von aller Sünde und hilf uns, in deiner Gnade zu leben, damit wir Erben deiner Verheißung werden. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, erhöre unser Gebet und beschütze uns, denn wir setzen unsere ganze Hoffnung auf dich. Reinige uns von aller Sünde und hilf uns, in deiner Gnade zu leben, damit wir Erben deiner Verheißung werden.^orV"
         },
         "Laudes": {
           "les_buch": "Hebr",
@@ -13972,7 +13972,7 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "oration": "Barmherziger Gott, wir haben aus menschlicher Schwachheit gefehlt und können aus eigener Kraft dem Netz der Sünde nicht entrinnen. Komm uns in deiner Güte zu Hilfe und befreie uns von aller Schuld. Darum bitten wir durch Jesus Christus."
+          "oration": "Barmherziger Gott, wir haben aus menschlicher Schwachheit gefehlt und können aus eigener Kraft dem Netz der Sünde nicht entrinnen. Komm uns in deiner Güte zu Hilfe und befreie uns von aller Schuld.^orV"
         },
         "Laudes": {
           "les_buch": "Jes",
@@ -14004,7 +14004,7 @@ export const brevierData = {
       },
       "6": {
         "each": {
-          "oration": "Barmherziger Gott, du wirkst das Heil der Menschen zu jeder Zeit; in diesen Tagen aber bist du uns besonders nahe. Trage Sorge für dein Volk, schütze die Getauften und alle, die sich auf die Taufe vorbereiten. Darum bitten wir durch Jesus Christus."
+          "oration": "Barmherziger Gott, du wirkst das Heil der Menschen zu jeder Zeit; in diesen Tagen aber bist du uns besonders nahe. Trage Sorge für dein Volk, schütze die Getauften und alle, die sich auf die Taufe vorbereiten.^orV"
         },
         "Laudes": {
           "les_buch": "Jes",
@@ -14049,7 +14049,7 @@ export const brevierData = {
     "6": {
       "0": {
         "each": {
-          "oration": "Allmächtiger, ewiger Gott, deinem Willen gehorsam, hat unser Erlöser Fleisch angenommen, er hat sich selbst erniedrigt und sich unter das Kreuz gebeugt. Hilf uns, dass wir ihm auf dem Weg des Leidens nachfolgen und an seiner Auferstehung Anteil erlangen. Darum bitten wir durch ihn, Jesus Christus."
+          "oration": "Allmächtiger, ewiger Gott, deinem Willen gehorsam, hat unser Erlöser Fleisch angenommen, er hat sich selbst erniedrigt und sich unter das Kreuz gebeugt. Hilf uns, dass wir ihm auf dem Weg des Leidens nachfolgen und an seiner Auferstehung Anteil erlangen.^orVr"
         },
         "ErsteV": {
           "ant_1": "So lange war ich bei euch im Tempel und lehrte, und ihr habt mich nicht ergriffen; nun werdet ihr mich geißeln und kreuzigen.",
@@ -14105,7 +14105,7 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "oration": "Allmächtiger Gott, in unserer Schwachheit versagen wir und sind anfällig für das Böse. Schau hin auf das Leiden deines Sohnes, richte uns wieder auf und schenke uns neues Leben. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, in unserer Schwachheit versagen wir und sind anfällig für das Böse. Schau hin auf das Leiden deines Sohnes, richte uns wieder auf und schenke uns neues Leben.^orV"
         },
         "Laudes": {
           "ant_1": "Meine Seele ist betrübt bis zum Tode. Bleibt hier und wachet mit mir.",
@@ -14143,7 +14143,7 @@ export const brevierData = {
       },
       "2": {
         "each": {
-          "oration": "Allmächtiger, ewiger Gott, hilf uns, das Gedächtnis des Leidens Christi so zu begehen, dass wir von dir Verzeihung erlangen. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger, ewiger Gott, hilf uns, das Gedächtnis des Leidens Christi so zu begehen, dass wir von dir Verzeihung erlangen.^orV"
         },
         "Laudes": {
           "ant_1": "Führe du meine Sache, Herr; rette mich vor bösen und tückischen Menschen.",
@@ -14181,7 +14181,7 @@ export const brevierData = {
       },
       "3": {
         "each": {
-          "oration": "Heiliger Gott, du hast deinen Sohn der Schmach des Kreuzes unterworfen, um uns der Gewalt des Bösen zu entreißen. Gib uns die Gnade, dass auch wir deinem Willen gehorchen und einst in Herrlichkeit auferstehen. Darum bitten wir durch ihn, Jesus Christus."
+          "oration": "Heiliger Gott, du hast deinen Sohn der Schmach des Kreuzes unterworfen, um uns der Gewalt des Bösen zu entreißen. Gib uns die Gnade, dass auch wir deinem Willen gehorchen und einst in Herrlichkeit auferstehen.^orVr"
         },
         "Laudes": {
           "ant_1": "Am Tag meiner Not suche ich Gott mit ausgestreckten Armen.",
@@ -14219,7 +14219,7 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "oration": "Gott, es ist würdig und recht, dich über alles zu lieben. Mehre in uns den Reichtum deiner Gnade. Durch den Tod deines Sohnes lässt du uns erhoffen, was wir glauben. Gib, dass wir durch seine Auferstehung erlangen, was wir ersehnen. Darum bitten wir durch ihn, Jesus Christus."
+          "oration": "Gott, es ist würdig und recht, dich über alles zu lieben. Mehre in uns den Reichtum deiner Gnade. Durch den Tod deines Sohnes lässt du uns erhoffen, was wir glauben. Gib, dass wir durch seine Auferstehung erlangen, was wir ersehnen.^orVr"
         },
         "Komplet": {
           "hymn_2": 2510.0,
@@ -14280,7 +14280,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu Jesus Christus, der seiner Kirche aufgetragen hat, das Gedächtnis seines Leidens und seiner Auferstehung zu feiern.",
           "bitten_r": "Heilige das Volk, das du mit deinem Blut erkauft hast.",
           "bitten": "Du hast das Reich Gottes verkündet und zur Umkehr aufgerufen;^qerneuere deine Kirche im Geist des Evangeliums.^pDu hast ein Herz gehabt für die Armen und Bedrängten;^qsteh denen bei, die keinen Helfer haben.^pDu berufst immer wieder Menschen in deine Kirche;^qerleuchte die Katechumenen, die sich auf die Taufe vorbereiten.^pDu willst nicht den Tod des Sünders, sondern dass er lebe;^qerbarme dich derer, die mit uns in diesen vierzig Tagen Buße tun.^pNimm unsere Verstorbenen gnädig auf^qund lass sie teilhaben an deiner Auferstehung.",
-          "oration": "Allmächtiger Gott, zu deiner Ehre und zum Heil der Menschen hast du Christus als ewigen Hohenpriester eingesetzt. Er hat dir durch sein kostbares Blut ein heiliges Volk erworben. Gib, dass wir das Gedächtnis deines Sohnes in Ehrfurcht feiern und die Kraft seines Kreuzes und seiner Auferstehung empfangen. Darum bitten wir durch ihn, Jesus Christus."
+          "oration": "Allmächtiger Gott, zu deiner Ehre und zum Heil der Menschen hast du Christus als ewigen Hohenpriester eingesetzt. Er hat dir durch sein kostbares Blut ein heiliges Volk erworben. Gib, dass wir das Gedächtnis deines Sohnes in Ehrfurcht feiern und die Kraft seines Kreuzes und seiner Auferstehung empfangen.^orVr"
         }
       },
       "5": {
@@ -14389,7 +14389,7 @@ export const brevierData = {
       },
       "6": {
         "each": {
-          "oration": "Allmächtiger, ewiger Gott, dein eingeborener Sohn ist in das Reich des Todes hinabgestiegen und von den Toten glorreich auferstanden. Gib, dass deine Gläubigen, die durch die Taufe mit ihm begraben wurden, durch seine Auferstehung zum ewigen Leben gelangen. Darum bitten wir durch ihn, Jesus Christus."
+          "oration": "Allmächtiger, ewiger Gott, dein eingeborener Sohn ist in das Reich des Todes hinabgestiegen und von den Toten glorreich auferstanden. Gib, dass deine Gläubigen, die durch die Taufe mit ihm begraben wurden, durch seine Auferstehung zum ewigen Leben gelangen.^orVr"
         },
         "Invitatorium": {
           "ant_0": "Christus, unser Herr, hat für uns den Tod erlitten und wurde ins Grab gelegt; kommt, wir beten ihn an!"
@@ -15056,7 +15056,7 @@ export const brevierData = {
     "each": {
       "each": {
         "each": {
-          "oration": "Allmächtiger Gott, wir glauben und bekennen, dass du deinen Sohn als Ersten von den Toten auferweckt hast. Stärke in uns die Hoffnung, dass du auch unseren Bruder ^(unsere Schwester^) ^N auferwecken wirst zum ewigen Leben. Darum bitten wir durch Jesus Christus.^p^rOder:^0r^lHerr, unser Gott, du bist das Licht der Glaubenden und das Leben der Heiligen. Du hast uns durch den Tod und die Auferstehung deines Sohnes erlöst. Sei deinem Diener ^(deiner Dienerin^) ^N gnädig, der ^(die^) das Geheimnis unserer Auferstehung gläubig bekannt hat, und lass ihn ^(sie^) auf ewig deine Herrlichkeit schauen. Darum bitten wir durch Jesus Christus."
+          "oration": "Allmächtiger Gott, wir glauben und bekennen, dass du deinen Sohn als Ersten von den Toten auferweckt hast. Stärke in uns die Hoffnung, dass du auch unseren Bruder ^(unsere Schwester^) ^N auferwecken wirst zum ewigen Leben.^orV^p^rOder:^0r^lHerr, unser Gott, du bist das Licht der Glaubenden und das Leben der Heiligen. Du hast uns durch den Tod und die Auferstehung deines Sohnes erlöst. Sei deinem Diener ^(deiner Dienerin^) ^N gnädig, der ^(die^) das Geheimnis unserer Auferstehung gläubig bekannt hat, und lass ihn ^(sie^) auf ewig deine Herrlichkeit schauen.^orV"
         },
         "Invitatorium": {
           "ant_0": "Den König, dem alles lebt, Christus, den Herrn - kommt, wir beten ihn an!"
@@ -15180,7 +15180,7 @@ export const brevierData = {
     "2": {
       "0": {
         "each": {
-          "oration": "Allmächtiger, ewiger Gott, du erleuchtest alle, die an dich glauben. Offenbare dich den Völkern der Erde, damit alle Menschen das Licht deiner Herrlichkeit schauen. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Allmächtiger, ewiger Gott, du erleuchtest alle, die an dich glauben. Offenbare dich den Völkern der Erde, damit alle Menschen das Licht deiner Herrlichkeit schauen.^orV"
         },
         "ErsteV": {
           "ant_1": "Durch das Wort hat die Jungfrau empfangen. Jungfrau blieb sie. Als Jungfrau gebar sie den König der Könige.",

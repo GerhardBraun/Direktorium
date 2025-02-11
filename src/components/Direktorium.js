@@ -1098,7 +1098,7 @@ const PrayerTextDisplay = ({
     const [localPrefInv, setLocalPrefInv] = useState(texts?.prefInv || 95);
 
     if (!hour || !texts || !texts[hour]) {
-        return <div className="p-4">Keine Daten verfügbar</div>;
+        return <div className="p-4">Keine Daten hier verfügbar</div>;
     }
 
     const { rank_wt = 0, rank_date = 0, isCommemoration } = texts;
@@ -1156,8 +1156,8 @@ const PrayerTextDisplay = ({
         </span>
     );
 
-    const formatPrayerText = (provText, ant = '') => {
-        return extFormatPrayerText(provText, ant, season, texts?.week);
+    const formatPrayerText = (provText, marker = '') => {
+        return extFormatPrayerText(provText, marker, hour, season, texts?.week);
     };
 
     const PrayerResponse = ({ resp1_3, resp1_2 }) => {

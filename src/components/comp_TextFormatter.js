@@ -4,6 +4,16 @@ import formatBibleRef from './comp_BibleRefFormatter.js';
 const doxology = "Ehre sei dem Vater und dem Sohn^*und dem Heiligen Geist,^pwie im Anfang so auch jetzt und alle Zeit^*und in Ewigkeit. Amen.";
 const easterAntiphon = "^p^rAnstelle des Responsoriums wird die°folgende°Antiphon°genommen:^0r^lDas ist der Tag, den der Herr gemacht hat. Lasst°uns°jubeln und seiner uns freuen. Halleluja.";
 
+const orVater = " Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.";
+const orVaterRel = " Darum bitten wir durch ihn, Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.";
+const orRel = " Der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.";
+const orSohn = " Der du in der Einheit des Heiligen Geistes mit Gott dem Vater lebst und herrschest in alle Ewigkeit.";
+
+const orKurzVater = " Darum bitten wir durch Christus, unseren Herrn.";
+const orKurzVaterRel = " Darum bitten wir durch ihn, Christus, unseren Herrn.";
+const orKurzRel = " Der mit dir lebt und herrscht in alle Ewigkeit.";
+const orKurzSohn = " Der du lebst und herrschest in alle Ewigkeit.";
+
 // Formatiert Psalmen mit Nummer, Versen, Titel und Text
 export const formatPsalm = (number, verses, title, quote, text) => {
     if (!text) return null;
@@ -57,13 +67,19 @@ export const formatText = (text) => {
 };
 
 // Formatiert Gebetstext mit speziellen Tags und saisonalen Anpassungen
-export const formatPrayerText = (provText, ant = '', season = '', week = null) => {
+export const formatPrayerText = (provText, marker = '', hour = '', season = '', week = null) => {
     if (!provText || provText === 'LEER') return null;
+    const isTSN = ['terz', 'sext', 'non'].includes(hour);
 
-    let text = ant ? `^r${ant}^0r${provText}` : provText;
+    let text = marker ? `^r${marker}^0r${provText}` : provText;
     text = text
         .replace(/\^ö/g, season === 'o' ? ' Halleluja.' : '')
-        .replace(/\^R/g, (season === 'o' && week === 1) ? easterAntiphon : '');
+        .replace(/\^Ö/g, season === 'q' ? '' : ' Halleluja.')
+        .replace(/\^R/g, (season === 'o' && week === 1) ? easterAntiphon : '')
+        .replace(/\^orV/g, isTSN ? orKurzVater : orVater)
+        .replace(/\^orVr/g, isTSN ? orKurzVaterRel : orVaterRel)
+        .replace(/\^orR/g, isTSN ? orKurzRel : orRel)
+        .replace(/\^orS/g, isTSN ? orKurzSohn : orSohn);
 
     // Inline-Formatierungen als React-Elemente verarbeiten
     const processInlineFormats = (text) => {
