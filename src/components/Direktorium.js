@@ -17,6 +17,7 @@ import KompletSelector from './comp_KompletSelector.js';
 import HymnSelector from './comp_HymnSelector.js';
 import { formatPsalm, formatText, formatPrayerText as extFormatPrayerText } from './comp_TextFormatter.js';
 import NavigationButtons from './comp_NavigationButtons.js';
+import PersonalSettings from './PersonalSettings.js';
 
 const fontFamily = 'Cambria, serif';
 const hangingIndent = '3.2em'; // Variable für den Einzug
@@ -2310,6 +2311,10 @@ export default function LiturgicalCalendar() {
                                 </button>
                             </div>
                         </div>
+                        {/* Personal Settings Section */}
+                        <PersonalSettings />
+
+                        <div className="border-t dark:border-gray-700"></div>
                     </div>
                 )}
             </div>

@@ -1,10 +1,19 @@
 import { brevierData } from './data_Brevier.ts';
-import { personalData } from './data_Personal.ts';
 import { lecture1Data } from './data_Lecture1.ts';
 import { lecture2Data } from './data_Lecture2.ts';
 import { psalmsData } from './data_PsHymn.ts';
 import { adlibData } from './data_AdLib.ts';
 import { getLiturgicalInfo } from './comp_LitCalendar.js';
+
+const personalData = (() => {
+    try {
+        const stored = localStorage.getItem('personalData');
+        return stored ? JSON.parse(stored) : {};
+    } catch (error) {
+        console.error('Fehler beim Laden der personalisierten Daten:', error);
+        return {};
+    }
+})();
 
 // Fields that should be processed as references to psalmsData
 const referenceFields = [
@@ -119,7 +128,7 @@ function mergeData(hours, newData, source) {
 }
 
 
-function getPrayerTexts(date, calendarDate = 0) {   // für verschobene Hochfeste kann deren calendarDate eigens angegeben werden
+function getPrayerTexts(personalData, date, calendarDate = 0) {   // für verschobene Hochfeste kann deren calendarDate eigens angegeben werden
     if (calendarDate === 0) { calendarDate = date }
     const {
         season,
@@ -516,6 +525,7 @@ function processInvitatoriumPsalms(hours) {
             });
         });
     });
+
     // Erstelle Array mit verfügbaren Invitatorium-Psalmen
     const invitatorium = [95];
     searchPsalms.forEach(psalm => {
@@ -658,8 +668,8 @@ export function processBrevierData(todayDate) {
     }
 
     // Hole Stundendaten für den aktuellen Tag
-    const todayData = getPrayerTexts(todayDate, calendarDate);
-    const tomorrowData = getPrayerTexts(tomorrowDate, nextDate);
+    const todayData = getPrayerTexts(personalData, todayDate, calendarDate);
+    const tomorrowData = getPrayerTexts(personalData, tomorrowDate, nextDate);
 
     // Prüfe, ob erste Vesper benötigt wird
     const rankWt = todayData.rank_wt;
