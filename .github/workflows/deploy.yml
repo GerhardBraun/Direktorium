@@ -1,11 +1,13 @@
 name: Deploy to GitHub Pages
 on:
   push:
-    branches: [main]  # oder 'main', entsprechend deinem Branch-Namen
+    branches: [main]  # Hier auf main geändert!
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write    # Dies explizit hinzugefügt
     steps:
       - uses: actions/checkout@v3
       
@@ -20,7 +22,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          CI: false  # Dies deaktiviert die Behandlung von Warnungen als Fehler
+          CI: false
           DISABLE_ESLINT_PLUGIN: true
           
       - name: Deploy
