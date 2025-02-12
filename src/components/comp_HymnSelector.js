@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
 
-const HymnSelector = ({ texts, hour, prefSrc, prefSollemnity, formatPrayerText }) => {
+const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, formatPrayerText }) => {
     const [selectedHymn, setSelectedHymn] = useState(null);
     let localPrefSrc = prefSrc;
     if (['kirchw', 'verst'].includes(prefSollemnity)) { localPrefSrc = prefSollemnity; }
@@ -9,8 +9,15 @@ const HymnSelector = ({ texts, hour, prefSrc, prefSollemnity, formatPrayerText }
         const hasOnlyWtSources = availableHymns.every(hymn => hymn.id.split('_')[0] === 'wt');
 
         if (sourcePath === 'wt' && !hasOnlyWtSources) {
-            return 'bg-green-700/50 text-white hover:bg-green-600/50';
-        }
+            if (season === 'j') {
+                return 'bg-green-700/50 text-white hover:bg-green-600/50';
+            } else if (season === 'a' || season === 'q') {
+                return 'bg-purple-900/50 text-white hover:bg-purple-800/60';
+            } else {
+                return 'bg-yellow-100/80 text-gray-900 hover:bg-yellow-50';
+            }
+        };
+
 
         // Prüfe auf rote Farbe im localPrefSrc
         const pathParts = sourcePath.split('_')[0].split('.');

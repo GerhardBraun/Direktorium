@@ -18,6 +18,7 @@ import HymnSelector from './comp_HymnSelector.js';
 import { formatPsalm, formatText, formatPrayerText as extFormatPrayerText } from './comp_TextFormatter.js';
 import NavigationButtons from './comp_NavigationButtons.js';
 import PersonalSettings from './PersonalSettings.js';
+import TitleBar from './comp_TitleBar.js';
 
 const fontFamily = 'Cambria, serif';
 const hangingIndent = '3.2em'; // Variable für den Einzug
@@ -902,41 +903,15 @@ const PrayerMenu = ({ title, onSelectHour, viewMode, setViewMode, season,
         }
     }, [selectedDate, prefSrc]);
 
-    useEffect(() => {
-        setPrefSrc('eig');
-        setPrefSollemnity('');
-    }, [selectedDate]);
-
     return (
         <div className="flex flex-col p-4 bg-white dark:bg-gray-900">
             {/* Title bar with navigation */}
-            <div className="flex items-center justify-between mb-2">
-                <button
-                    onClick={onPrevDay}
-                    className="shrink-0 px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
-                    title="Vorheriger Tag"
-                >
-                    ‹
-                </button>
-                <div className="text-center">
-                    <h1 className="text-xl font-bold text-gray-900 dark:text-gray-100">
-                        {title}
-                    </h1>
-                    {liturgicalInfo && (
-                        <div className="text-sm text-gray-600 dark:text-gray-400">
-                            {liturgicalInfo.writtenSWD}
-                        </div>
-                    )}
-                </div>
-                <button
-                    onClick={onNextDay}
-                    className="shrink-0 px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
-                    title="Nächster Tag"
-                >
-                    ›
-                </button>
-            </div>
-
+            <TitleBar
+                title={title}
+                onPrevDay={onPrevDay}
+                onNextDay={onNextDay}
+                liturgicalInfo={liturgicalInfo}
+            />
             {/* Source Selector */}
             <SourceSelector
                 prayerTexts={prayerTexts}
@@ -1084,10 +1059,11 @@ const BackButton = ({ onClick }) => (
 
 // Prayer Text Display Component
 const PrayerTextDisplay = ({
-    hour, texts, season, onBack, viewMode, onUpdateTexts,
+    hour, texts, season, liturgicalInfo, title = '',
+    onBack, viewMode, onUpdateTexts,
     prefSrc, setPrefSrc, prefSollemnity, setPrefSollemnity,
     useCommemoration, setUseCommemoration,
-    onSelectHour
+    onSelectHour, onPrevDay, onNextDay
 }) => {
     const [localPrefComm, setLocalPrefComm] = useState(texts?.prefComm || 0);
     const [localPrefLatin, setLocalPrefLatin] = useState(false);
@@ -1200,6 +1176,12 @@ const PrayerTextDisplay = ({
 
     return (
         <div className="leading-[1.33em] pb-8">
+            <TitleBar
+                title={title}
+                onPrevDay={onPrevDay}
+                onNextDay={onNextDay}
+                liturgicalInfo={liturgicalInfo}
+            />
             <NavigationButtons
                 hour={hour}
                 topButton={true}
@@ -1242,6 +1224,7 @@ const PrayerTextDisplay = ({
                         <HymnSelector
                             texts={texts}
                             hour={hour}
+                            season={season}
                             prefSrc={prefSrc}
                             prefSollemnity={prefSollemnity}
                             formatPrayerText={formatPrayerText}
@@ -1773,6 +1756,40 @@ export default function LiturgicalCalendar() {
             wakeLock.releaseWakeLock();
         }
     }, [viewMode]);
+
+    useEffect(() => {
+        // Formatiere das Datum zu YYYY-MM-DD
+        const formatDate = (date) => {
+            if (!date) return false;
+            return new Date(date).toISOString().split('T')[0];
+        };
+
+        const savedDate = localStorage.getItem('selectedDate');
+        const currentDateFormatted = formatDate(selectedDate);
+
+        if (savedDate !== currentDateFormatted) {
+            console.log('Restoring selected date:', savedDate);
+            setPrefSrc('eig');
+            setPrefSollemnity('');
+        }
+
+        let newSelectedDate = false;
+        if (viewMode === 'prayer' || viewMode === 'prayerText') {
+            newSelectedDate = currentDateFormatted;
+        }
+
+        localStorage.setItem('selectedDate', newSelectedDate);
+    }, [selectedDate, viewMode]);
+
+    useEffect(() => {
+        const info = getLiturgicalInfo(selectedDate);
+        setLiturgicalInfo(info);
+
+        if (info) {
+            const processedData = processBrevierData(selectedDate);
+            setPrayerTexts(processedData);
+        }
+    }, [selectedDate, prefSrc]);
 
     // Effect für die visibleEntries-Berechnung
     useEffect(() => {
@@ -2409,7 +2426,7 @@ export default function LiturgicalCalendar() {
                         <ThemeMenu />
 
                         <div className="flex items-center gap-2 flex-1 min-w-0">
-                            {viewMode !== 'prayerText' && (
+                            {viewMode !== 'prayerTex' && (
                                 <>
                                     <button
                                         onClick={handlePrevWeek}
@@ -2552,6 +2569,8 @@ export default function LiturgicalCalendar() {
                         <PrayerTextDisplay
                             hour={selectedHour}
                             texts={prayerTexts}
+                            liturgicalInfo={liturgicalInfo}
+                            title={formatDate(selectedDate)}
                             viewMode={viewMode}
                             season={currentSeason}
                             prefSrc={prefSrc}
@@ -2564,7 +2583,16 @@ export default function LiturgicalCalendar() {
                             onSelectHour={(hour) => {
                                 setSelectedHour(hour);
                                 setPrayerTexts(prayerTexts);
-                            }} />
+                            }}
+                            onPrevDay={() => {
+                                setDateChangeSource('navigation');
+                                setSelectedDate(new Date(selectedDate.setDate(selectedDate.getDate() - 1)));
+                            }}
+                            onNextDay={() => {
+                                setDateChangeSource('navigation');
+                                setSelectedDate(new Date(selectedDate.setDate(selectedDate.getDate() + 1)));
+                            }}
+                        />
                     )}
 
                     {/* Original ScrollableContainer for directory/deceased views */}

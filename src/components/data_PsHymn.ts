@@ -2203,9 +2203,9 @@ export const psalmsData = {
   },
   1027: {
     0.0: {
-        "title": "Sei gegrüßt, die den König gebar, du heilige Mutter",
+        "title": "Sei gegrüßt, die den König gebar",
         "quote": "Lesehore zu Maria am Samstag",
-        "text": "Sei gegrüßt, die den König gebar, du heilige Mutter,^lihn, der Himmel und Erde erhält im Wandel der Zeiten,^ldessen Walten das All umfasst mit ewigem Kreise, dessen Reich ohne Ende besteht:^pDein seliger Leib hat^lFreuden der Mutter gepaart mit reiner Ehre der Jungfrau,^ldir, der keine je glich, wird keine fürderhin gleichen,^ldenn vor allen Frauen erwählte dich, Einzige, Christus."
+        "text": "Sei gegrüßt, die den König gebar, du°heilige°Mutter,^lihn, der Himmel und Erde erhält im°Wandel°der°Zeiten,^ldessen Walten das All umfasst mit°ewigem°Kreise,^ldessen Reich ohne Ende besteht:^pDein seliger Leib hat^lFreuden der Mutter gepaart mit°reiner°Ehre°der°Jungfrau,^ldir, der keine je glich, wird°keine°fürderhin°gleichen,^ldenn vor allen Frauen erwählte dich,°Einzige,°Christus."
       }
   },
   1038: {
@@ -2893,7 +2893,7 @@ export const psalmsData = {
     0.0: {
         "title": "Erwacht und singt in der Nacht",
         "quote": "Lh Di^+Fr Nacht",
-        "text": "Erwacht und singt in der Nacht;^les kommt das göttliche Wort, der Sohn,^lder Himmel und Erde gemacht,^lvom Thron in unsere Zeit und Niedrigkeit.^pErhebt euch ihr Menschen, und gebt ihm Ehr’,^lder über das All ward gesetzt,^ldem Kyrios Christ, der lebt im Jetzt^lvon Ewigkeit zu Ewigkeit. Amen."
+        "text": "Erwacht und singt in der Nacht;^les kommt das göttliche Wort, der Sohn,^lder Himmel und Erde gemacht,^lvom Thron in unsere Zeit und Niedrigkeit.^pErhebt euch, Menschen, und gebt ihm Ehr’,^lder über das All ward gesetzt,^ldem Kyrios Christ, der lebt im Jetzt^lvon Ewigkeit zu Ewigkeit. Amen."
       }
   },
   3214: {

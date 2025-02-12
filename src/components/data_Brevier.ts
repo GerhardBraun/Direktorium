@@ -39,7 +39,7 @@ interface BrevierEntry {
   oration_komplet?: string;
   marant?: number;
   marant_lat?: number;
-}
+  }
 
 interface BrevierData {
   [season: string]: {
@@ -6166,7 +6166,7 @@ export const brevierData = {
           "bitten_e": "Lob und Preis und Ehre dem Worte Gottes! Es war bei Gott vor aller Zeit und wurde für uns Mensch in der Zeit. Zu ihm lasst uns rufen:",
           "bitten_r": "Es jauchze die Erde, denn du bist gekommen.",
           "bitten": "Christus, ewiges Wort, du bist Fleisch geworden und hast unter uns gewohnt;^qmach unser Herz froh über deine Geburt.^pDu, unser Heiland, in dir ist die Treue Gottes offenbar geworden,^qgib, dass wir Gott die Treue halten.^pKönig des Himmels und der Erde, durch die Engel hast du den Menschen Frieden verkündet;^qbewahre uns in deinem Frieden.^pDu Spross Davids, du wurdest in die Welt eingepflanzt als der wahre Weinstock;^qgib, dass wir in dir bleiben und du in uns.",
-          "oration": "Allmächtiger Gott, dein ewiges Wort ist Fleisch geworden, um uns mit dem Glanz deines Lichtes zu erfüllen. Gib, dass in unseren Werken widerstrahlt, was durch den Glauben in unserem Herzen leuchtet. Darum bitten wir durch ihn, Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Allmächtiger Gott, dein ewiges Wort ist Fleisch geworden, um uns mit dem Glanz deines Lichtes zu erfüllen. Gib, dass in unseren Werken widerstrahlt, was durch den Glauben in unserem Herzen leuchtet.^orVr"
         },
         "Lesehore": {
           "comm_2": "LEER "
@@ -7988,7 +7988,7 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "oration": "Allmächtiger Gott, zu unserem Heil ist dein Sohn als Licht der Welt erschienen. Lass dieses Licht in unseren Herzen aufstrahlen, damit sich unser Leben von Tag zu Tag erneuert. Darum bitten wir durch ihn, Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Allmächtiger Gott, zu unserem Heil ist dein Sohn als Licht der Welt erschienen. Lass dieses Licht in unseren Herzen aufstrahlen, damit sich unser Leben von Tag zu Tag erneuert.^orVr"
         },
         "Laudes": {
           "les_buch": "Jes",
@@ -11160,7 +11160,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu Gott, dem Vater aller Menschen:",
           "bitten_r": "Zeige uns dein Erbarmen.",
           "bitten": "Dein eingeborener Sohn hat sich als Abendopfer für die Welt dargebracht;^qerbarme dich aller Menschen auf der ganzen Erde.^pRichte auf, die ungerecht verfolgt und gefangen gehalten werden;^qnimm dich derer an, die einsam und traurig sind.^pSei du die Kraft deiner Gläubigen,^qdamit sie den Angriffen des Bösen standhalten können.^pUmgib die Sterbenden mit deinem Erbarmen;^qlass sie heimkehren zu dir.^pFühre unsere Verstorbenen in das Licht, in dem du wohnst,^qdass sie dich schauen in Ewigkeit.",
-          "oration": "Herr, wir schauen hin auf das Kreuz deines Sohnes. Gib, dass wir sein Leiden und Sterben besser verstehen und fähig werden, sein Joch auf uns zu nehmen. Darum bitten wir durch ihn, Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Herr, wir schauen hin auf das Kreuz deines Sohnes. Gib, dass wir sein Leiden und Sterben besser verstehen und fähig werden, sein Joch auf uns zu nehmen.^orVr"
         }
       },
       "6": {
@@ -11437,7 +11437,7 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, unser Erlöser. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, erbarme dich.",
           "bitten": "In der Frühe des Tages gedenken wir deiner Auferstehung;^qlass uns den Tag beginnen in der Hoffnung auf dich.^pBegleite unser Tagewerk mit deiner Gnade;^qlass gelingen, was wir heute tun.^pGib, dass alles, was heute geschieht, uns dir näher bringt;^qlass uns wachsen in der Liebe zu dir.^pLass uns heute deine Güte erfahren^qund hilf uns, den Menschen Gutes zu tun.",
-          "oration": "Herr Jesus Christus, du wahres Licht, das alle Menschen erleuchtet, damit sie das Heil finden, gib uns die Kraft, deinem Frieden und deiner Gerechtigkeit den Weg zu bereiten.^orS"
+          "oration": "Herr Jesus Christus, du wahres Licht, das alle Menschen erleuchtet, damit sie das Heil finden, gib uns die Kraft, deinem Frieden und deiner Gerechtigkeit den Weg zu bereiten. Der du in der Einheit des Heiligen Geistes mit Gott dem Vater lebst und herrschest in alle Ewigkeit."
         },
         "Lesehore": {
           "hymn_1": 2112.0,
@@ -11499,7 +11499,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns zu Christus beten, auf den wir unsere Hoffnung setzen:",
           "bitten_r": "Herr, erbarme dich deines Volkes.",
           "bitten": "Behüte unseren Bischof ^N^qund stärke seine Mitarbeiter in ihrem Dienst.^pSteh den Regierenden bei^qund erleuchte die Gesetzgeber.^pVerhilf den Armen zu ihrem Recht;^qgib allen Menschen, was sie zum Leben brauchen.^pSieh auf die Menschen, die bedrängt und verfolgt werden,^qund komm ihnen zu Hilfe.^pErbarme dich der Verstorbenen;^qlass sie teilnehmen am Hochzeitsmahl des ewigen Lebens.",
-          "oration": "Herr, unser Gott, dein ist der Tag, und dein ist die Nacht. Lass Christus, die Sonne der Gerechtigkeit, in unseren Herzen nicht untergehen, damit wir aus dem Dunkel dieser Zeit in das Licht gelangen, in dem du wohnst.^oVr"
+          "oration": "Herr, unser Gott, dein ist der Tag, und dein ist die Nacht. Lass Christus, die Sonne der Gerechtigkeit, in unseren Herzen nicht untergehen, damit wir aus dem Dunkel dieser Zeit in das Licht gelangen, in dem du wohnst.^orVr"
         }
       },
       "3": {
@@ -12878,7 +12878,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu Christus, dem Licht der Völker:",
           "bitten_r": "Christus, erhöre uns.",
           "bitten": "Du Licht, das keinen Abend kennt,^qführe alle Menschen zur vollen Erkenntnis der Wahrheit.^pSteh denen bei, die sich dem Dienst an den Kranken widmen,^qschenke ihnen Herzlichkeit und Geduld.^pDu lässt die Menschen die Geheimnisse der Natur erforschen;^qlenke ihr Wissen zum Wohl aller, die diese Erde bewohnen.^pErbarme dich derer, die sich in Schuld verstrickt haben;^qschenke ihnen Einsicht und Umkehr.^pDu öffnest, und niemand kann schließen;^qöffne unseren Verstorbenen das Tor zum ewigen Leben.",
-          "oration": "Herr, höre auf unser Abendgebet. Gib, dass wir dem Beispiel deines Sohnes folgen und in Geduld einander jene Liebe erweisen, die er den Seinen am Abend vor seinem Leiden erwiesen hat. Darum bitten wir durch ihn, Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Herr, höre auf unser Abendgebet. Gib, dass wir dem Beispiel deines Sohnes folgen und in Geduld einander jene Liebe erweisen, die er den Seinen am Abend vor seinem Leiden erwiesen hat.^orVr"
         }
       },
       "5": {
