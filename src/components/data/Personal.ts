@@ -51,118 +51,151 @@ export const personalData = {
   "j": {
     "each": {
       "1": {
+        "Lesehore": {
+          "hymn_1": 2111.0
+        },
         "Non": {
-          "hymn_1": 1301.0
+          "hymn_1": 2901.0
         },
         "Sext": {
-          "hymn_1": 1301.0
+          "hymn_1": 2601.0
         },
         "Terz": {
-          "hymn_1": 1301.0
+          "hymn_1": 2301.0
         }
       },
       "2": {
+        "Lesehore": {
+          "hymn_1": 2112.0
+        },
         "Non": {
-          "hymn_1": 1302.0
+          "hymn_1": 2902.0
         },
         "Sext": {
-          "hymn_1": 1302.0
+          "hymn_1": 2602.0
         },
         "Terz": {
-          "hymn_1": 1302.0
+          "hymn_1": 2302.0
         }
       },
       "3": {
+        "Lesehore": {
+          "hymn_1": 3112.0
+        },
         "Non": {
-          "hymn_1": 1303.0
+          "hymn_1": 2903.0
         },
         "Sext": {
-          "hymn_1": 1303.0
+          "hymn_1": 2603.0
         },
         "Terz": {
-          "hymn_1": 1303.0
+          "hymn_1": 2303.0
         }
       },
       "4": {
+        "Lesehore": {
+          "hymn_1": 2114.0
+        },
         "Non": {
-          "hymn_1": 1304.0
+          "hymn_1": 2904.0
         },
         "Sext": {
-          "hymn_1": 1304.0
+          "hymn_1": 2604.0
         },
         "Terz": {
-          "hymn_1": 1304.0
+          "hymn_1": 2304.0
         }
       },
       "5": {
+        "Lesehore": {
+          "hymn_1": 3212.0
+        },
         "Non": {
-          "hymn_1": 3991.0
+          "hymn_1": 2517.0
         },
         "Sext": {
-          "hymn_1": 3991.0
+          "hymn_1": 3902.0
         },
         "Terz": {
-          "hymn_1": 3991.0
+          "hymn_1": 3418.0
         }
       },
       "6": {
+        "Lesehore": {
+          "hymn_1": 2113.0
+        },
         "Non": {
-          "hymn_1": 1305.0
+          "hymn_1": 2516.0
         },
         "Sext": {
-          "hymn_1": 1305.0
+          "hymn_1": 8325.0
         },
         "Terz": {
-          "hymn_1": 1305.0
+          "hymn_1": 3428.0
         }
       }
     },
     "even": {
       "1": {
+        "Lesehore": {
+          "hymn_1": 3229.0
+        },
         "Non": {
-          "hymn_1": 1306.0
+          "hymn_1": 9101.1
         },
         "Sext": {
-          "hymn_1": 1306.0
+          "hymn_1": 9101.1
         },
         "Terz": {
-          "hymn_1": 1306.0
+          "hymn_1": 9101.1
         }
       },
       "2": {
+        "Lesehore": {
+          "hymn_1": 1306.0
+        },
         "Non": {
-          "hymn_1": 1307.0
+          "hymn_1": 8222.0
         },
         "Sext": {
-          "hymn_1": 1307.0
+          "hymn_1": 8222.0
         },
         "Terz": {
-          "hymn_1": 1307.0
+          "hymn_1": 8222.0
         }
       },
       "3": {
+        "Lesehore": {
+          "hymn_1": 9002.0
+        },
         "Non": {
-          "hymn_1": 1310.0
+          "hymn_1": 8929.1
         },
         "Sext": {
-          "hymn_1": 1310.0
+          "hymn_1": 8929.1
         },
         "Terz": {
-          "hymn_1": 1310.0
+          "hymn_1": 8929.1
         }
       },
       "4": {
+        "Lesehore": {
+          "hymn_1": 3942.0
+        },
         "Non": {
-          "hymn_1": 1311.0
+          "hymn_1": 9201.0
         },
         "Sext": {
-          "hymn_1": 1311.0
+          "hymn_1": 9201.0
         },
         "Terz": {
-          "hymn_1": 1311.0
+          "hymn_1": 9201.0
         }
       },
       "5": {
+        "Lesehore": {
+          "hymn_1": 3952.0
+        },
         "Non": {
           "hymn_1": 3991.0
         },
@@ -174,14 +207,17 @@ export const personalData = {
         }
       },
       "6": {
+        "Lesehore": {
+          "hymn_1": 8101.4
+        },
         "Non": {
-          "hymn_1": 1312.0
+          "hymn_1": 1020.0
         },
         "Sext": {
-          "hymn_1": 1312.0
+          "hymn_1": 1020.0
         },
         "Terz": {
-          "hymn_1": 1312.0
+          "hymn_1": 1020.0
         }
       }
     }

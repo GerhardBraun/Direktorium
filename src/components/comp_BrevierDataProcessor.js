@@ -1,8 +1,8 @@
-import { brevierData } from './data_Brevier.ts';
-import { lecture1Data } from './data_Lecture1.ts';
-import { lecture2Data } from './data_Lecture2.ts';
-import { psalmsData } from './data_PsHymn.ts';
-import { adlibData } from './data_AdLib.ts';
+import { brevierData } from './data/Brevier.ts';
+import { lecture1Data } from './data/Lecture1.ts';
+import { lecture2Data } from './data/Lecture2.ts';
+import { psalmsData } from './data/PsHymn.ts';
+import { adlibData } from './data/AdLib.ts';
 import { getLiturgicalInfo } from './comp_LitCalendar.js';
 
 const personalData = (() => {
@@ -607,7 +607,7 @@ function processKompletData(data, calendarDate) {
 
 // Hauptfunktion zur Verarbeitung der Brevier-Daten
 export function processBrevierData(todayDate) {
-
+    console.log('Start der Verarbeitung in DataProcessor')
     // Berechne die verschiedenen relevanten Tage
     const todayInfo = getLiturgicalInfo(todayDate);
     const todayDay = todayDate.getDate();
@@ -730,5 +730,6 @@ export function processBrevierData(todayDate) {
     }
 
     finalData.prefInv = prefInv;
+    console.log('texts:', finalData)
     return finalData;
 }

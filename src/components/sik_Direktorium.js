@@ -1,18 +1,18 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { Menu } from 'lucide-react';
 import React from 'react';
-import { liturgicalData } from './data_Direktorium.ts';
-import { deceasedData } from './data_Deceased.ts';
+import { liturgicalData } from './data/Direktorium.js';
+import { deceasedData } from './data/Deceased.js';
 import { ReferenceDialog, parseTextWithReferences } from './comp_RefLink.jsx';
 import { getLiturgicalInfo } from './comp_LitCalendar.js';
 import { processBrevierData } from './comp_BrevierDataProcessor.js';
 import formatBibleRef from './comp_BibleRefFormatter.js';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from './ui/tooltip.jsx';
-import SourceSelector from './comp_SourceSelector.js';
+import SourceSelector from './selectors/SourceSelector.js';
 import { getValue as extGetValue } from './comp_GetValue.js';
-import { SectionHeader as extSectionHeader } from './comp_SectionHeader.js';
-import { psalmsData } from './data_PsHymn.ts';
-import KompletSelector from './comp_KompletSelector.js';
+import { SectionHeader as extSectionHeader } from './selectors/SectionHeader.js';
+import { psalmsData } from './data/PsHymn.js';
+import KompletSelector from './selectors/KompletSelector.js';
 
 const fontFamily = 'Cambria, serif';
 const hangingIndent = '3.2em'; // Variable für den Einzug

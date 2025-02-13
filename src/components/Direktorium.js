@@ -2,19 +2,19 @@ import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { Menu, MonitorCheck } from 'lucide-react';
 import useWakeLock from './comp_WakeLock.js';
 import React from 'react';
-import { liturgicalData } from './data_Direktorium.ts';
-import { deceasedData } from './data_Deceased.ts';
+import { liturgicalData } from './data/Direktorium.ts';
+import { deceasedData } from './data/Deceased.ts';
 import { ReferenceDialog, parseTextWithReferences } from './comp_RefLink.jsx';
 import { getLiturgicalInfo } from './comp_LitCalendar.js';
 import { processBrevierData } from './comp_BrevierDataProcessor.js';
 import formatBibleRef from './comp_BibleRefFormatter.js';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from './ui/tooltip.jsx';
-import SourceSelector from './comp_SourceSelector.js';
+import SourceSelector from './selectors/SourceSelector.js';
 import { getValue as extGetValue } from './comp_GetValue.js';
-import { SectionHeader as extSectionHeader } from './comp_SectionHeader.js';
-import { psalmsData } from './data_PsHymn.ts';
-import KompletSelector from './comp_KompletSelector.js';
-import HymnSelector from './comp_HymnSelector.js';
+import { SectionHeader as extSectionHeader } from './selectors/SectionHeader.js';
+import { psalmsData } from './data/PsHymn.ts';
+import KompletSelector from './selectors/KompletSelector.js';
+import HymnSelector from './selectors/HymnSelector.js';
 import { formatPsalm, formatText, formatPrayerText as extFormatPrayerText } from './comp_TextFormatter.js';
 import NavigationButtons from './comp_NavigationButtons.js';
 import PersonalSettings from './PersonalSettings.js';
@@ -882,26 +882,15 @@ const DeceasedEntry = ({
 
 // Prayer Menu Component
 const PrayerMenu = ({ title, onSelectHour, viewMode, setViewMode, season,
+    liturgicalInfo, prayerTexts,
     onPrevDay, onNextDay, selectedDate,
     prefSrc, setPrefSrc,
     prefSollemnity, setPrefSollemnity,
     useCommemoration, setUseCommemoration
 }) => {
-    const [liturgicalInfo, setLiturgicalInfo] = useState(null);
-    const [prayerTexts, setPrayerTexts] = useState(null);  // Neuer State für die Gebetstext-Daten
     const rank_wt = prayerTexts?.rank_wt || 0
     const rank_date = prayerTexts?.rank_date || 0
     const sollemnityErsteVesper = () => ['soll', 'kirchw'].includes(prefSollemnity)
-
-    useEffect(() => {
-        const info = getLiturgicalInfo(selectedDate);
-        setLiturgicalInfo(info);
-
-        if (info) {
-            const processedData = processBrevierData(selectedDate);
-            setPrayerTexts(processedData);
-        }
-    }, [selectedDate, prefSrc]);
 
     return (
         <div className="flex flex-col p-4 bg-white dark:bg-gray-900">
@@ -1044,18 +1033,6 @@ const PrayerMenu = ({ title, onSelectHour, viewMode, setViewMode, season,
         </div >
     );
 };
-
-const BackButton = ({ onClick }) => (
-    <button
-        onClick={onClick}
-        className="w-full p-2 mb-1 rounded-sm bg-gray-100 dark:bg-gray-800 
-                 hover:bg-gray-200 dark:hover:bg-gray-700 
-                 text-rubric text-left text-sm"
-    >
-        ← zurück zur Stundengebetauswahl
-    </button>
-);
-
 
 // Prayer Text Display Component
 const PrayerTextDisplay = ({
@@ -1784,6 +1761,7 @@ export default function LiturgicalCalendar() {
     useEffect(() => {
         const info = getLiturgicalInfo(selectedDate);
         setLiturgicalInfo(info);
+        if (info?.season) { setCurrentSeason(info.season); }
 
         if (info) {
             const processedData = processBrevierData(selectedDate);
@@ -1800,13 +1778,6 @@ export default function LiturgicalCalendar() {
                 setIsReady(true);
             }, 100);
         }
-
-        const info = getLiturgicalInfo(selectedDate);
-        setLiturgicalInfo(info);
-        if (info?.season) {
-            setCurrentSeason(info.season);
-        }
-
     }, [selectedDate]);
 
     useEffect(() => {
@@ -2542,6 +2513,8 @@ export default function LiturgicalCalendar() {
                             viewMode={viewMode}
                             season={currentSeason}
                             selectedDate={selectedDate}
+                            liturgicalInfo={liturgicalInfo}
+                            prayerTexts={prayerTexts}
                             prefSrc={prefSrc}
                             setPrefSrc={setPrefSrc}
                             prefSollemnity={prefSollemnity}
