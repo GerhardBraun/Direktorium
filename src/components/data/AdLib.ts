@@ -5560,11 +5560,11 @@ export const adlibData = {
   },
   "12": {
     "1": {
-      "n1": {
-        "name": "Hl. Bischofsweihe des hl. Bonifatius",
+      "siehe Export": {
+        "name": "Bischofsweihe des hl. Bonifatius",
         "genitiv": "",
         "ErsteV": {
-          "name": "Hl. Bischofsweihe des hl. Bonifatius",
+          "name": "Bischofsweihe des hl. Bonifatius",
           "comm_1": "Hirten",
           "oration": "Ewiger Gott, bei seiner Bischofsweihe hat der heilige Bonifatius am Grab des heiligen Petrus ein feierliches Bekenntnis zum katholischen Glauben und zur Einheit der Kirche abgelegt. Erhalte dein Volk im gleichen Bekenntnis und sende ihm allzeit würdige Hirten.^orV"
         },
@@ -5579,13 +5579,13 @@ export const adlibData = {
           "oration": "Ewiger Gott, bei seiner Bischofsweihe hat der heilige Bonifatius am Grab des heiligen Petrus ein feierliches Bekenntnis zum katholischen Glauben und zur Einheit der Kirche abgelegt. Erhalte dein Volk im gleichen Bekenntnis und sende ihm allzeit würdige Hirten.^orV"
         },
         "Laudes": {
-          "name": "Hl. Bischofsweihe des hl. Bonifatius",
+          "name": "Bischofsweihe des hl. Bonifatius",
           "comm_1": "Hirten",
           "ant_ev": "Jeder Hohepriester wird aus den Menschen ausgewählt und für die Menschen eingesetzt zum Dienst vor Gott. Keiner nimmt sich eigenmächtig diese Würde, sondern er wird von Gott berufen.",
           "oration": "Ewiger Gott, bei seiner Bischofsweihe hat der heilige Bonifatius am Grab des heiligen Petrus ein feierliches Bekenntnis zum katholischen Glauben und zur Einheit der Kirche abgelegt. Erhalte dein Volk im gleichen Bekenntnis und sende ihm allzeit würdige Hirten.^orV"
         },
         "Vesper": {
-          "name": "Hl. Bischofsweihe des hl. Bonifatius",
+          "name": "Bischofsweihe des hl. Bonifatius",
           "comm_1": "Hirten",
           "ant_ev": "Dank sei dir, Christus, guter Hirte! Du hast mich zur Herrlichkeit geführt, gib auch der Herde, die du mir anvertraut hast, Anteil an deiner Gnade auf ewig.",
           "oration": "Ewiger Gott, bei seiner Bischofsweihe hat der heilige Bonifatius am Grab des heiligen Petrus ein feierliches Bekenntnis zum katholischen Glauben und zur Einheit der Kirche abgelegt. Erhalte dein Volk im gleichen Bekenntnis und sende ihm allzeit würdige Hirten.^orV"

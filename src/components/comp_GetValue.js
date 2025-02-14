@@ -20,14 +20,14 @@ export const getValue = ({ hour, texts, field,
         return null;
     }
 
-    const { rank_date = 0, rank_wt = 0, isCommemoration, hasErsteVesper = false } = texts;
+    const { rank_date = 0, rank_wt = 0, isCommemoration, hasErsteVesper = false, combinedSWD, dayOfWeek } = texts;
     const sollemnityErsteVesper = () => ['soll', 'kirchw'].includes(prefSollemnity)
     const isTSN = ['terz', 'sext', 'non'].includes(hour)
     const isKirchwVerst = prefSollemnity === 'kirchw' || prefSollemnity === 'verst';
 
     // Feier wie ein Hochfest
     const isSollemnity = (hour === 'vesper' && hasErsteVesper)
-        || prefSollemnity || rank_date === 5 || rank_wt === 5
+        || prefSollemnity || rank_date === 5 || (rank_wt === 5 && combinedSWD !== 'q-0-3' && dayOfWeek !== 0);
 
     // Bei Vesper als Hochfest
     if (hour === 'vesper' && sollemnityErsteVesper()) { hour = 'prefsollemnity'; }

@@ -1,7 +1,7 @@
 
 const daysToMilliseconds = (days) => days * 24 * 60 * 60 * 1000;
 
-const writeOut = (season, week, dayOfWeek, combinedSWD) => {
+const writeOut = (season, week, dayOfWeek, combinedSWD, day) => {
 
     const days = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
     const dayName = days[dayOfWeek];
@@ -38,6 +38,10 @@ const writeOut = (season, week, dayOfWeek, combinedSWD) => {
         else if (dayOfWeek > 3) {  // Donnerstag, Freitag, Samstag
             return `${dayName} nach Aschermittwoch`;
         }
+    }
+
+    if (season === 'w' && (day > 24 || day === 1)) {
+        return `${dayName} in der Weihnachtsoktav`;
     }
 
     if (season === 'q' && week === 6) {
@@ -100,7 +104,6 @@ function calculateRanks(date, season, week, dayOfWeek, combinedSWD) {
             'o-6-4',    // Christi Himmelfahrt
             'o-9-4',  // Fronleichnam
             'o-9-5',  // Herz Jesu
-            'j-34-0'  // Christkönig
         ].includes(combinedSWD)) { return 5; }
 
         // 6. Gebotene Gedenktage und Kommemoration
@@ -255,7 +258,7 @@ const getLiturgicalInfo = (provDate) => {
         season = 'q';
         week = weeksBetween(lentSunday, date);
     }
-    // Easter through Pentecost Monday
+    // Easter through Pentecost
     else if (date <= pentecost) {
         season = 'o';
         week = weeksBetween(easter, date);
@@ -283,14 +286,19 @@ const getLiturgicalInfo = (provDate) => {
     }
 
     const dayOfWeek = date.getUTCDay();
-    const combinedSWD = `${season}-${week}-${dayOfWeek}`;
-    const writtenSWD = writeOut(season, week, dayOfWeek, combinedSWD);
-    if (!weekOfPsalter) { weekOfPsalter = ((week + 3) % 4) + 1 }
-    const ranks = calculateRanks(date, season, week, dayOfWeek, combinedSWD);
     const month = (date.getUTCMonth() + 1);
     const day = date.getUTCDate();
-    const isCommemoration = (season === 'q' && ranks.rank_date < 3)
-        || (month === 12 && day > 16);
+
+    if (season === 'a' && week === 4 && day > 24) {
+        week = 0;
+        season = 'w';
+    }
+    const combinedSWD = `${season}-${week}-${dayOfWeek}`;
+    const writtenSWD = writeOut(season, week, dayOfWeek, combinedSWD, day);
+    if (!weekOfPsalter) { weekOfPsalter = ((week + 3) % 4) + 1 }
+    const ranks = calculateRanks(date, season, week, dayOfWeek, combinedSWD);
+    const isCommemoration = ranks.rank_date < 3 &&
+        (season === 'q' || (month === 12 && day > 16));
 
     return {
         season,
@@ -299,7 +307,7 @@ const getLiturgicalInfo = (provDate) => {
         weekOfPsalter,
         combinedSWD,
         writtenSWD,
-        ...ranks,  // Fügt rank_wt, rank_date und combinedSWD zum Return-Objekt hinzu
+        ...ranks,  // Fügt rank_wt und rank_date zum Return-Objekt hinzu
         isCommemoration
     };
 };

@@ -928,7 +928,6 @@ const PrayerMenu = ({ title, onSelectHour, viewMode, setViewMode, season,
                                         <button
                                             key={tsnHour}
                                             onClick={() => {
-                                                console.log('Daten:', { hour, texts: prayerTexts });
                                                 onSelectHour(tsnHour, prayerTexts)
                                             }}
                                             className="flex-1 p-3 text-center rounded-lg bg-gray-100 dark:bg-gray-800 
@@ -949,7 +948,6 @@ const PrayerMenu = ({ title, onSelectHour, viewMode, setViewMode, season,
                             return (
                                 <button
                                     onClick={() => {
-                                        console.log('Daten:', { hour, texts: prayerTexts });
                                         onSelectHour(hour, prayerTexts)
                                     }}
                                     className="w-full p-3 text-center rounded-lg bg-gray-100 dark:bg-gray-800 
@@ -986,7 +984,6 @@ const PrayerMenu = ({ title, onSelectHour, viewMode, setViewMode, season,
                         <button
                             key={hour}
                             onClick={() => {
-                                console.log('Daten:', { hour, texts: prayerTexts });
                                 onSelectHour(hour, prayerTexts)
                             }}
                             className="w-full p-3 text-center rounded-lg bg-gray-100 dark:bg-gray-800 
@@ -1766,6 +1763,7 @@ export default function LiturgicalCalendar() {
         if (info) {
             const processedData = processBrevierData(selectedDate);
             setPrayerTexts(processedData);
+            console.log('neue Texte:', processedData);
         }
     }, [selectedDate, prefSrc]);
 

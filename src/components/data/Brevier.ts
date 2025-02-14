@@ -416,6 +416,9 @@ export const brevierData = {
           "les_buch": "1 Thess",
           "les_stelle": "5,23-24",
           "les_text": "Der Gott des Friedens heilige euch ganz und gar und bewahre euren Geist, eure Seele und euren Leib unversehrt, damit ihr ohne Tadel seid, wenn Jesus Christus, unser Herr, kommt. Gott, der euch beruft, ist treu; er wird es tun.",
+          "resp1_1": "Herr, zeig uns dein Erbarmen,",
+          "resp1_2": "gewähre uns dein Heil.",
+          "resp1_3": "Lass deine Herrlichkeit in unserm Lande wohnen.",
           "bitten_e": "Lasst uns beten zu Christus, der Freude aller, die sein Kommen erwarten:",
           "bitten_r": "Komm, Herr, und säume nicht.",
           "bitten": "Wir bitten dich für alle, die deine Ankunft erwarten;^qkomm, Herr Jesus.^pDu bist vor aller Zeit;^qkomm in unsere Zeit und offenbare dich denen, die dich nicht kennen.^pDu hast die Erde erschaffen und alle, die auf ihr wohnen;^qkomm und erlöse das Werk deiner Hände.^pDu hast dich nicht gescheut, unsere sterbliche Natur anzunehmen;^qkomm und entreiße die Welt der Macht des Todes.^pDu willst alle Menschen in deinem Reich vereinen;^qlass die Verstorbenen dein Angesicht schauen."
@@ -424,6 +427,8 @@ export const brevierData = {
           "les_buch": "Röm",
           "les_stelle": "13,11b-12",
           "les_text": "Die Stunde ist gekommen, sich vom Schlaf zu erheben. Denn jetzt ist das Heil uns näher als zu der Zeit, da wir gläubig wurden. Die Nacht ist vorgerückt, der Tag ist nahe. Darum lasst uns ablegen die Werke der Finsternis und anlegen die Waffen des Lichts!",
+          "resp1_1": "Christus, du Sohn des lebendigen Gottes,",
+          "resp1_2": "erbarme dich unser.",
           "resp1_3": "Als Richter und Retter kommst du in diese Welt.",
           "bitten_e": "Gepriesen sei Gott, der uns die Gnade schenkt, das Erscheinen unseres Herrn Jesus Christus zu erwarten. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, erweise uns deine Huld.",
@@ -2302,6 +2307,7 @@ export const brevierData = {
           "resp0_1": "Doch deine Gebote machen mich froh.^ö",
           "les_buch": "Aus dem zweiten Brief an die Korinther.",
           "les_stelle": "4,7-5,8",
+          "les_text": "^hLeidensgemeinschaft mit Christus^pWir tragen den Schatz (unseres Glaubens) in zerbrechlichen Gefäßen; so wird deutlich, dass das Übermaß der Kraft von Gott und nicht von uns kommt. Von allen Seiten werden wir in die Enge getrieben und finden doch noch Raum; wir wissen weder aus noch ein und verzweifeln dennoch nicht; wir werden gehetzt und sind doch nicht verlassen; wir werden niedergestreckt und doch nicht vernichtet. Wohin wir auch kommen, immer tragen wir das Todesleiden Jesu an unserem Leib, damit auch das Leben Jesu an unserem Leib sichtbar wird.^pDenn immer werden wir, obgleich wir leben, um Jesu willen dem Tod ausgeliefert, damit auch das Leben Jesu an unserem sterblichen Fleisch offenbar wird. So erweist an uns der Tod, an euch aber das Leben seine Macht. Doch haben wir den gleichen Geist des Glaubens, von dem es in der Schrift heißt: Ich habe geglaubt, darum habe ich geredet. Auch wir glauben und darum reden wir. Denn wir wissen, dass der, welcher Jesus, den Herrn, auferweckt hat, auch uns mit Jesus auferwecken und uns zusammen mit euch vor sein Angesicht stellen wird.^pAlles tun wir euretwegen, damit immer mehr Menschen aufgrund der überreich gewordenen Gnade den Dank vervielfachen, Gott zur Ehre. Darum werden wir nicht müde; wenn auch unser äußerer Mensch aufgerieben wird, der innere wird Tag für Tag erneuert. Denn die kleine Last unserer gegenwärtigen Not schafft uns in maßlosem Übermaß ein ewiges Gewicht an Herrlichkeit, uns, die wir nicht auf das Sichtbare starren, sondern nach dem Unsichtbaren ausblicken; denn das Sichtbare ist vergänglich, das Unsichtbare ist ewig. Wir wissen: Wenn unser irdisches Zelt abgebrochen wird, dann haben wir eine Wohnung von Gott, ein nicht von Menschenhand errichtetes ewiges Haus im Himmel. Im gegenwärtigen Zustand seufzen wir und sehnen uns danach, mit dem himmlischen Haus überkleidet zu werden. So bekleidet, werden wir nicht nackt erscheinen. Solange wir nämlich in diesem Zelt leben, seufzen wir unter schwerem Druck, weil wir nicht entkleidet, sondern überkleidet werden möchten, damit so das Sterbliche vom Leben verschlungen werde. Gott aber, der uns gerade dazu fähig gemacht hat, er hat uns auch als ersten Anteil den Geist gegeben.^pWir sind also immer zuversichtlich, auch wenn wir wissen, dass wir fern vom Herrn in der Fremde leben, solange wir in diesem Leib zu Hause sind; denn als Glaubende gehen wir unseren Weg, nicht als Schauende. Weil wir aber zuversichtlich sind, ziehen wir es vor, aus dem Leib auszuwandern und daheim beim Herrn zu sein.",
           "resp1_1": "Selig seid ihr, wenn ihr um meinetwillen beschimpft und verfolgt und auf alle mögliche Weise verleumdet werdet. Freut euch und jubelt.",
           "resp1_2": "euer Lohn wird groß sein im Himmel.",
           "resp1_3": "Selig, die um der Gerechtigkeit willen verfolgt werden; denn ihnen gehört das Himmelreich.",
@@ -2451,7 +2457,7 @@ export const brevierData = {
           "hymn_nacht": 0.0,
           "les_buch": "Aus der Offenbarung des Johannes.",
           "les_stelle": "7,9-17",
-          "les_text": "Danach sah ich: eine große Schar aus allen Nationen und Stämmen, Völkern und Sprachen; niemand konnte sie zählen. Sie standen in weißen Gewändern vor dem Thron und vor dem Lamm und trugen Palmzweige in den Händen. Sie riefen mit lauter Stimme: Die Rettung kommt von unserem Gott, der auf dem Thron sitzt, und von dem Lamm.^pUnd alle Engel standen rings um den Thron, um die Ältesten und die vier Lebewesen. Sie warfen sich vor dem Thron nieder, beteten Gott an und sprachen: ^pAmen, Lob und Herrlichkeit, ^lWeisheit und Dank, ^lEhre und Macht und Stärke ^lunserem Gott in alle Ewigkeit! Amen. ^pDa fragte mich einer der Ältesten: Wer sind diese, die weiße Gewänder tragen, und woher sind sie gekommen? Ich erwiderte ihm: Mein Herr, das musst du wissen. Und er sagte zu mir: Es sind die, die aus der großen Bedrängnis kommen; sie haben ihre Gewänder gewaschen und im Blut des Lammes weiß gemacht. Deshalb stehen sie vor dem Thron Gottes und dienen ihm bei Tag und Nacht in seinem Tempel; und der, der auf dem Thron sitzt, wird sein Zelt über ihnen aufschlagen. Sie werden keinen Hunger und keinen Durst mehr leiden und weder Sonnenglut noch irgendeine sengende Hitze wird auf ihnen lasten. Denn das Lamm in der Mitte vor dem Thron wird sie weiden und zu den Quellen führen, aus denen das Wasser des Lebens strömt, und Gott wird alle Tränen von ihren Augen abwischen.",
+          "les_text": "^hDie große Schar vor Gottes Thron^pIch, Johannes, sah: eine große Schar aus allen Nationen und Stämmen, Völkern und Sprachen; niemand konnte sie zählen. Sie standen in weißen Gewändern vor dem Thron und vor dem Lamm und trugen Palmzweige in den Händen. Sie riefen mit lauter Stimme: Die Rettung kommt von unserem Gott, der auf dem Thron sitzt, und von dem Lamm.^pUnd alle Engel standen rings um den Thron, um die Ältesten und die vier Lebewesen. Sie warfen sich vor dem Thron nieder, beteten Gott an und sprachen: ^pAmen, Lob und Herrlichkeit, ^lWeisheit und Dank, ^lEhre und Macht und Stärke ^lunserem Gott in alle Ewigkeit! Amen. ^pDa fragte mich einer der Ältesten: Wer sind diese, die weiße Gewänder tragen, und woher sind sie gekommen? Ich erwiderte ihm: Mein Herr, das musst du wissen. Und er sagte zu mir: Es sind die, die aus der großen Bedrängnis kommen; sie haben ihre Gewänder gewaschen und im Blut des Lammes weiß gemacht. Deshalb stehen sie vor dem Thron Gottes und dienen ihm bei Tag und Nacht in seinem Tempel; und der, der auf dem Thron sitzt, wird sein Zelt über ihnen aufschlagen. Sie werden keinen Hunger und keinen Durst mehr leiden und weder Sonnenglut noch irgendeine sengende Hitze wird auf ihnen lasten. Denn das Lamm in der Mitte vor dem Thron wird sie weiden und zu den Quellen führen, aus denen das Wasser des Lebens strömt, und Gott wird alle Tränen von ihren Augen abwischen.",
           "resp1_1": "Sei treu bis in den Tod, dann werde ich dir den Kranz des Lebens geben.",
           "resp1_2": "Wer siegt, dem kann der zweite Tod nichts anhaben. Halleluja.",
           "resp1_3": "Bis zum Tode setze dich ein für das Recht, dann wird der Herr für dich kämpfen."
@@ -2503,6 +2509,7 @@ export const brevierData = {
           "hymn_nacht": 0.0,
           "les_buch": "Aus dem Buch Jesus Sirach.",
           "les_stelle": "51,1-12",
+          "les_text": "^hDanklied^pIch will dich preisen, mein Herr und König, ich will dich loben, Gott meines Heils. Ich will deinen Namen verkünden, du Hort meines Lebens, denn du hast mich vom Tod errettet. Du hast meinen Leib vor dem Grab bewahrt, meinen Fuß dem Griff der Unterwelt entrissen. Du hast mich befreit von der Geißel böser Zungen, von den Lippen treuloser Lügner. Gegen meine Widersacher standest du mir zur Seite, in deiner großen Huld hast du mir geholfen aus der Schlinge derer, die auf meinen Fall lauern, aus der Hand jener, die mir nach dem Leben trachten.^pAus vielen Nöten hast du mich erlöst, aus der Bedrängnis der Flammen, die mich umringten, aus Gluten, die nicht (wirklich) geschürt, aus dem Schoß der Flut, nicht (wirklich) von Wasser, (sondern) von schändlichen Lippen und Erfindern von Lüge, von den Pfeilen der falschen Zunge.^pSchon war ich dem Tod nahe und mein Leben den Tiefen der Unterwelt. Ich wandte mich nach allen Seiten und fand keinen Helfer, ich spähte nach einem Beistand, doch keiner war da. Da dachte ich an das Erbarmen des Herrn, an die Taten seiner Huld, die seit Ewigkeit bestehen. Er hilft allen, die auf ihn vertrauen, und erlöst sie aus jeder Gefahr. So erhob ich von der Erde meine Stimme, ich schrie von den Toren der Unterwelt her. Ich rief:^pHerr, mein Vater bist du,^lmein Gott, mein rettender Held.^lVerlass mich nicht am Tag der Not,^lam Tag der Vernichtung und Verwüstung!^l Deinen Namen will ich allzeit loben,^lan dich denken im Gebet.^pDa hörte der Herr meine Stimme^lund achtete auf mein Flehen.^l Er erlöste mich von allem Unheil^lund rettete mich am Tag der Not.^lDarum danke ich dem Herrn^lund will seinen Namen loben und verherrlichen.",
           "resp1_1": "Ich will deinen Namen verkünden, Herr, du Hort meines Lebens.",
           "resp1_2": "Denn du hast mich vom Tod errettet.",
           "resp1_3": "Ich will jubeln und mich freuen über deine Huld."
@@ -6002,44 +6009,6 @@ export const brevierData = {
           "bitten": "Du hast Maria zur Mutter deines Sohnes auserwählt;^qlass die Kirche unter ihrem Schutz geborgen sein.^pDu hast Maria den Menschen zur Mutter gegeben;^qauf ihre Fürsprache gewähre den Kranken Heilung und den Trauernden Trost.^pDu hast Maria die Fülle deiner Gnade geschenkt;^qauf ihre Fürsprache schenke den Sündern Vergebung und allen Menschen Frieden und Heil.^pDu hast Maria zum Urbild deiner Kirche gemacht;^qgib, dass deine Gläubigen einmütig mit Maria im Gebet verharren.^pDu hast die unbefleckte Jungfrau mit Leib und Seele in den Himmel aufgenommen;^qschenke unseren Verstorbenen die ewige Freude mit Maria und all deinen Heiligen."
         }
       },
-      "13": {
-        "each": {
-          "comm_1": "Mar",
-          "comm_2": "LEER eig-12-13-each-Oration",
-          "oration": "eig-12-13-each-Oration"
-        },
-        "Invitatorium": {
-          "comm_2": "LEER "
-        },
-        "Laudes": {
-          "comm_2": "LEER "
-        },
-        "Lesehore": {
-          "comm_2": "LEER "
-        },
-        "Vesper": {
-          "comm_2": "LEER "
-        }
-      },
-      "14": {
-        "each": {
-          "comm_1": "Mar",
-          "comm_2": "LEER eig-12-14-each-Oration",
-          "oration": "eig-12-14-each-Oration"
-        },
-        "Invitatorium": {
-          "comm_2": "LEER "
-        },
-        "Laudes": {
-          "comm_2": "LEER "
-        },
-        "Lesehore": {
-          "comm_2": "LEER "
-        },
-        "Vesper": {
-          "comm_2": "LEER "
-        }
-      },
       "16": {
         "each": {
           "comm_1": "Mar",
@@ -6073,260 +6042,67 @@ export const brevierData = {
           "comm_1": "Mar",
           "comm_2": "LEER eig-12-17-each-Oration",
           "oration": "eig-12-17-each-Oration"
-        },
-        "Invitatorium": {
-          "comm_2": "LEER "
-        },
-        "Laudes": {
-          "comm_2": "LEER "
-        },
-        "Lesehore": {
-          "comm_2": "LEER "
-        },
-        "Non": {
-          "comm_2": "LEER "
-        },
-        "Sext": {
-          "comm_2": "LEER "
-        },
-        "Terz": {
-          "comm_2": "LEER "
-        },
-        "Vesper": {
-          "comm_2": "LEER "
-        }
-      },
-      "18": {
-        "each": {
-          "comm_1": "Mar",
-          "comm_2": "LEER eig-12-18-each-Oration",
-          "oration": "eig-12-18-each-Oration"
-        },
-        "Invitatorium": {
-          "comm_2": "LEER "
-        },
-        "Laudes": {
-          "comm_2": "LEER "
-        },
-        "Lesehore": {
-          "comm_2": "LEER "
-        },
-        "Non": {
-          "comm_2": "LEER "
-        },
-        "Sext": {
-          "comm_2": "LEER "
-        },
-        "Terz": {
-          "comm_2": "LEER "
-        },
-        "Vesper": {
-          "comm_2": "LEER "
-        }
-      },
-      "19": {
-        "each": {
-          "comm_1": "Mar",
-          "comm_2": "LEER eig-12-19-each-Oration",
-          "oration": "eig-12-19-each-Oration"
-        },
-        "Invitatorium": {
-          "comm_2": "LEER "
-        },
-        "Laudes": {
-          "comm_2": "LEER "
-        },
-        "Lesehore": {
-          "comm_2": "LEER "
-        },
-        "Non": {
-          "comm_2": "LEER "
-        },
-        "Sext": {
-          "comm_2": "LEER "
-        },
-        "Terz": {
-          "comm_2": "LEER "
-        },
-        "Vesper": {
-          "comm_2": "LEER "
-        }
-      },
-      "20": {
-        "each": {
-          "comm_1": "Mar",
-          "comm_2": "LEER eig-12-20-each-Oration",
-          "oration": "eig-12-20-each-Oration"
-        },
-        "Invitatorium": {
-          "comm_2": "LEER "
-        },
-        "Laudes": {
-          "comm_2": "LEER "
-        },
-        "Lesehore": {
-          "comm_2": "LEER "
-        },
-        "Non": {
-          "comm_2": "LEER "
-        },
-        "Sext": {
-          "comm_2": "LEER "
-        },
-        "Terz": {
-          "comm_2": "LEER "
-        },
-        "Vesper": {
-          "comm_2": "LEER "
-        }
-      },
-      "21": {
-        "each": {
-          "comm_1": "Mar",
-          "comm_2": "LEER eig-12-21-each-Oration",
-          "oration": "eig-12-21-each-Oration"
-        },
-        "Invitatorium": {
-          "comm_2": "LEER "
-        },
-        "Laudes": {
-          "comm_2": "LEER "
-        },
-        "Lesehore": {
-          "comm_2": "LEER "
-        },
-        "Non": {
-          "comm_2": "LEER "
-        },
-        "Sext": {
-          "comm_2": "LEER "
-        },
-        "Terz": {
-          "comm_2": "LEER "
-        },
-        "Vesper": {
-          "comm_2": "LEER "
-        }
-      },
-      "22": {
-        "each": {
-          "comm_1": "Mar",
-          "comm_2": "LEER eig-12-22-each-Oration",
-          "oration": "eig-12-22-each-Oration"
-        },
-        "Invitatorium": {
-          "comm_2": "LEER "
-        },
-        "Laudes": {
-          "comm_2": "LEER "
-        },
-        "Lesehore": {
-          "comm_2": "LEER "
-        },
-        "Non": {
-          "comm_2": "LEER "
-        },
-        "Sext": {
-          "comm_2": "LEER "
-        },
-        "Terz": {
-          "comm_2": "LEER "
-        },
-        "Vesper": {
-          "comm_2": "LEER "
-        }
-      },
-      "23": {
-        "each": {
-          "comm_1": "Mar",
-          "comm_2": "LEER eig-12-23-each-Oration",
-          "oration": "eig-12-23-each-Oration"
-        },
-        "Invitatorium": {
-          "comm_2": "LEER "
-        },
-        "Laudes": {
-          "comm_2": "LEER "
-        },
-        "Lesehore": {
-          "comm_2": "LEER "
-        },
-        "Non": {
-          "comm_2": "LEER "
-        },
-        "Sext": {
-          "comm_2": "LEER "
-        },
-        "Terz": {
-          "comm_2": "LEER "
-        },
-        "Vesper": {
-          "comm_2": "LEER "
         }
       },
       "24": {
-        "each": {
-          "comm_1": "Mar",
-          "comm_2": "LEER eig-12-24-each-Oration",
-          "oration": "eig-12-24-each-Oration"
-        },
         "Invitatorium": {
-          "comm_2": "LEER "
+          "ant_0": "Heute sollt ihr wissen, dass der Herr kommt, und morgen werdet ihr schauen seine Herrlichkeit."
         },
         "Laudes": {
-          "comm_2": "LEER "
+          "ant_1": "Du, Betlehem im Lande Juda, bist nicht die kleinste unter Judas Städten. Aus dir geht ja hervor der Herrscher, der Israel, mein Volk, regieren soll.",
+          "ant_2": "Erhebet eure Häupter; siehe, eure Erlösung ist nahe.",
+          "ant_3": "Morgen werdet ihr sehen, wie der Herr euch Rettung schafft. Juda und Jerusalem, fürchtet euch nicht: morgen erscheint euer Heil.",
+          "les_buch": "Jes",
+          "les_stelle": "11,1-2",
+          "les_text": "Aus dem Baumstumpf Isais wächst ein Reis hervor, ein junger Trieb aus seinen Wurzeln bringt Frucht. Der Geist des Herrn lässt sich nieder auf ihm: der Geist der Weisheit und der Einsicht, der Geist des Rates und der Stärke, der Geist der Erkenntnis und der Gottesfurcht.",
+          "resp1_1": "Nur noch ein Tag,",
+          "resp1_2": "dann wird die Sünde der Erde vernichtet.",
+          "resp1_3": "Der Retter der Welt wird über uns herrschen.",
+          "ant_ev": "Für Maria erfüllte sich die Zeit, dass sie gebären sollte.",
+          "bitten_e": "Gepriesen sei unser Erlöser, der mit großer Macht und Herrlichkeit wiederkommen wird. Zu ihm lasst uns beten:",
+          "bitten_r": "Komm, Herr Jesus.",
+          "bitten": "Du bist gekommen, um den Menschen die Heilsbotschaft zu verkünden;^qhilf uns, dass wir heute von dir Zeugnis geben.^pNach dir verlangen wir;^qsei du im ganzen Leben unser Trost.^pDu wirst einst wiederkommen;^qgib, dass wir dich in Freude erwarten.^pDu wirst alle Menschen richten;^qmach uns deines Erbarmens würdig."
         },
-        "Lesehore": {
-          "comm_2": "LEER "
-        },
+        "Lesehore": {},
         "Non": {
-          "comm_2": "LEER "
+          "les_buch": "Jes",
+          "les_stelle": "61,11",
+          "les_text": "Wie die Erde die Saat wachsen lässt und der Garten die Pflanzen hervorbringt, so bringt Gott, der Herr, Gerechtigkeit hervor und Ruhm vor allen Völkern."
         },
         "Sext": {
-          "comm_2": "LEER "
+          "les_buch": "Jes",
+          "les_stelle": "4,3",
+          "les_text": "Der Rest von Zion und wer in Jerusalem noch übrig ist, wird heilig genannt werden, jeder, der in Jerusalem in das Verzeichnis derer, die am Leben bleiben sollen, eingetragen ist."
         },
         "Terz": {
-          "comm_2": "LEER "
-        },
-        "Vesper": {
-          "hymn_1": 3241.0,
-          "hymn_2": 0.0,
-          "hymn_3": 0.0,
-          "hymn_kl": 0.0,
-          "ps_1": 113.0,
-          "ps_2": 147.2,
-          "ps_3": 157.0,
-          "ant_0": "",
-          "ant_1": "Dem König des Friedens sei Ehre und Herrlichkeit. Nach seinem Angesicht verlangt die ganze Erde.",
-          "ant_2": "Er sendet sein Wort zur Erde, rasch eilt sein Befehl dahin.",
-          "ant_3": "Er sendet sein Wort zur Erde, rasch eilt sein Befehl dahin.",
-          "les_buch": "Gal",
-          "les_stelle": "4,4–5",
-          "les_text": "Als die Zeit erfüllt war, sandte Gott seinen Sohn, geboren von einer Frau und dem Gesetz unterstellt, damit er die freikaufte, die unter dem Gesetz stehen, und damit wir die Sohnschaft erlangten.",
-          "resp1_1": "Heute sollt ihr wissen, dass der Herr kommt.",
-          "resp1_2": "Und morgen werdet ihr schauen seine Herrlichkeit.",
-          "resp1_3": "Heiligt euch heute und macht euch bereit.",
-          "ant_ev": "Wenn die Sonne am Himmel ihren Lauf beginnt, schaut ihr den König der Könige. Wie ein Bräutigam aus seinem Gemach, so geht er aus dem Vater hervor.",
-          "bitten_e": "Lasst uns beten zu unserem Herrn Jesus Christus, der sich selbst erniedrigte und Mensch geworden ist.",
-          "bitten_r": "Herr, durch deine Geburt komm uns zu Hilfe.",
-          "bitten": "Mit deinem Kommen hast du die neue Weltzeit heraufgeführt,^qgib, dass deine Kirche sich immer wieder erneuert.^pDu hast die Gebrechen der Menschen auf dich genommen;^qsei den Blinden Licht, den Schwachen Kraft und den Leidenden Trost.^pIn Armut und Niedrigkeit wurdest du geboren;^qerbarme dich der Armen und mache uns bereit, ihnen zu helfen.^pDeine Geburt auf Erden brachte Freude durch die Verheißung ewigen Lebens;^qschenke den Sterbenden die Zuversicht, dass sie im Tod zum Leben geboren werden.^pDu bist auf die Erde herabgekommen, um alle Menschen zum Himmel zu führen;^qvereine die Toten mit dir in der ewigen Herrlichkeit.",
-          "oration": "Gütiger Gott, Jahr für Jahr erwarten wir voll Freude das Fest unserer Erlösung. Gib, dass wir deinen Sohn von ganzem Herzen als unseren Retter und Heiland aufnehmen, damit wir ihm voll Zuversicht entgegengehen können, wenn er am Ende der Zeiten als Richter wiederkommt. Er, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "les_buch": "Jes",
+          "les_stelle": "4,2",
+          "les_text": "An jenem Tag wird der Spross des Herrn für alle Israeliten, die entronnen sind, eine Zierde und Ehre sein; die Früchte des Landes sind ihr Stolz und Ruhm."
         }
       },
       "25": {
         "each": {
-          "comm_1": "Mar",
           "comm_2": "LEER Allmächtiger Gott, du hast den Menschen in seiner Würde wunderbar erschaffen und noch wunderbarer wiederhergestellt. lass uns teilhaben an der Gottheit deines Sohnes, der unsere Menschennatur angenommen hat. Er, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
           "oration": "Allmächtiger Gott, du hast den Menschen in seiner Würde wunderbar erschaffen und noch wunderbarer wiederhergestellt. lass uns teilhaben an der Gottheit deines Sohnes, der unsere Menschennatur angenommen hat. Er, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+        },
+        "ErsteV": {
+          "ps_1": 113.0,
+          "ps_2": 147.2,
+          "ps_3": 157.0,
+          "resp0_1": "Gal 4,4-5",
+          "les_buch": "Gal",
+          "les_stelle": "4,4–5",
+          "les_text": "Als die Zeit erfüllt war, sandte Gott seinen Sohn, geboren von einer Frau und dem Gesetz unterstellt, damit er die freikaufte, die unter dem Gesetz stehen, und damit wir die Sohnschaft erlangten.",
+          "bitten": "eig-12-25-ErsteV-Bitten"
         },
         "Invitatorium": {
           "ant_0": "Christus ist uns geboren; kommt, wir beten ihn an!",
           "ant_1": "",
           "ant_2": "",
-          "ant_3": "",
-          "oration": ""
+          "ant_3": ""
         },
         "Laudes": {
+          "name": "Weihnachten",
           "hymn_1": 3221.0,
           "hymn_kl": 0.0,
           "ant_1": "Ihr Hirten, wen habt ihr gesehen? Sagt und verkündet uns: Wer ist auf Erden erschienen? – Wir sahen das Kind und hörten die Chöre der Engel; die sangen das Lob des Herrn. Halleluja.",
@@ -6345,7 +6121,8 @@ export const brevierData = {
           "oration": "Allmächtiger Gott, dein ewiges Wort ist Fleisch geworden, um uns mit dem Glanz deines Lichtes zu erfüllen. Gib, dass in unseren Werken widerstrahlt, was durch den Glauben in unserem Herzen leuchtet.^orVr"
         },
         "Lesehore": {
-          "comm_2": "LEER "
+          "comm_2": "Texte ",
+          "bitten": "Bitten"
         },
         "Non": {
           "ant_0": "Meine Augen haben das Heil gesehen, das du vor allen Völkern bereitet hast.",
@@ -6569,148 +6346,6 @@ export const brevierData = {
           "bitten_r": "Die Gnade deines Sohnes sei mit uns.",
           "bitten": "Gott, beschütze deine Kirche in Verfolgung und Not^lund schenke ihr den Frieden, den die Welt nicht geben kann. ^pTröste die Trauernden.^lGib den Verzweifelten neue Zuversicht.^pWecke Hoffnung in den Herzen der Armen.^lRichte die Kranken und Alten auf.^pGedenke aller, die ihrer Freiheit beraubt sind.^lBeschütze die aus ihrer Heimat Vertriebe­nen.^pBei der Geburt deines Sohnes verkündeten Engel deine Herrlichkeit.^lNimm unsere Verstorbenen auf in den Glanz deines Lichtes.",
           "oration": "Allmächtiger Gott, du hast den Men­schen in seiner Würde wunderbar erschaffen und noch wunderbarer wiederhergestellt. lass uns teilhaben an der Gottheit deines Sohnes, der unsere Menschennatur angenommen hat. Er, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
-        }
-      },
-      "29": {
-        "each": {
-          "comm_1": "Mar",
-          "comm_2": "LEER Unsichtbarer Gott, dein Licht ist in die Welt gekommen und hat die Finsternis überwun­den. Sieh gnädig auf uns und lass uns die Herr­lichkeit der Geburt Christi mit würdigem Lob feiern, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
-          "oration": "Unsichtbarer Gott, dein Licht ist in die Welt gekommen und hat die Finsternis überwun­den. Sieh gnädig auf uns und lass uns die Herr­lichkeit der Geburt Christi mit würdigem Lob feiern, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
-        },
-        "Invitatorium": {
-          "comm_2": "LEER "
-        },
-        "Laudes": {
-          "hymn_1": 3221.0,
-          "hymn_kl": 0.0,
-          "ant_1": "Ihr Hirten, wen habt ihr gesehen? Sagt und verkündet uns: Wer ist auf Erden erschienen? – Wir sahen das Kind und hörten die Chöre der Engel; die sangen das Lob des Herrn. Halleluja.",
-          "ant_2": "Der Engel sprach zu den Hirten: Ich verkünde euch große Freude; heute ist euch der Heiland geboren, der Retter der Welt. Halleluja.",
-          "ant_3": "Ein Kind ist uns heute geboren. „Starker Gott“ ist sein Name. Halleluja.",
-          "resp1_1": "Der Herr hat kundgemacht sein Heil.",
-          "resp1_2": "Halleluja,°halleluja.",
-          "resp1_3": "Vor den Augen der Völker hat er sein Walten enthüllt."
-        },
-        "Lesehore": {
-          "comm_2": "LEER "
-        },
-        "Non": {
-          "comm_2": "LEER "
-        },
-        "Sext": {
-          "comm_2": "LEER "
-        },
-        "Terz": {
-          "comm_2": "LEER "
-        },
-        "Vesper": {
-          "hymn_1": 3241.0,
-          "hymn_2": 0.0,
-          "hymn_3": 0.0,
-          "hymn_kl": 0.0,
-          "ps_1": 110.0,
-          "ps_2": 130.0,
-          "ps_3": 154.0,
-          "ant_0": "",
-          "ant_1": "Dein ist die Herrschaft am Tag deiner Macht, wenn du erscheinst in heiligem Schmuck; ich habe dich gezeugt noch vor dem Morgenstern.",
-          "ant_2": "Beim Herrn ist die Huld, bei ihm ist Erlösung in Fülle.",
-          "ant_3": "Das Wort war Gott – im Anfang und vor aller Zeit; heute ist er geboren als Heiland der Welt.",
-          "les_buch": "1°Joh",
-          "les_stelle": "1,1–3",
-          "les_text": "Was von Anfang an war, was wir gehört haben, was wir mit unseren Augen gesehen, was wir geschaut und was unsere Hände angefasst haben, das verkünden wir, vom Wort des Lebens sprechen wir. Denn das Leben wurde offenbart; wir haben gesehen und bezeugen und verkünden euch das ewige Leben, das beim Vater war und uns offenbart wurde. Was wir gesehen und gehört haben, das verkünden wir auch euch, damit auch ihr Gemeinschaft mit uns habt. Wir aber haben Gemeinschaft mit dem Vater und mit seinem Sohn Jesus Christus.",
-          "resp1_1": "Das Wort ist Fleisch geworden und hat unter uns gewohnt.",
-          "resp1_2": "Halleluja,°halleluja.",
-          "resp1_3": "Aus seiner Fülle haben wir empfangen, Gnade über Gnade.",
-          "ant_ev": "Der König des Himmels wurde von einer Jungfrau geboren. Er rief den Menschen, der verloren war, in das Reich des Himmels zurück.",
-          "bitten_e": "lasst uns beten zu Gott, dem barmherzigen Vater, der seinen Sohn als Heiland der Welt gesandt hat:",
-          "bitten_r": "Barmherziger Gott, erbarme dich unser.",
-          "bitten": "Du willst, dass alle Menschen zur Erkenntnis deines Sohnes gelangen.^lErfülle die ganze Erde mit Freude über seine Geburt.^pDu hast ihn gesandt, den Armen das Evangelium zu verkünden.^lSchenke der Welt Freiheit und Frieden.^pDu hast die Weisen zu ihm geführt, dass sie ihn anbeten.^lGib, dass alle Völker zu ihm kommen und ihm huldigen.^pDu hast deinen Sohn erhöht über alles im Himmel und auf Erden.^lGib, dass jedes Knie vor dem Namen Jesu sich beuge.^pDu hast der Welt in Christus den Abglanz deines Lichtes geschenkt.^llass dein Angesicht leuchten über unseren verstorbenen Brüdern und Schwestern."
-        }
-      },
-      "30": {
-        "each": {
-          "comm_1": "Mar",
-          "comm_2": "LEER Allmächtiger Gott, die Knechtschaft der Sünde hält uns Menschen gefangen. Nimm dieses alte Joch von uns und schenke uns die neue Freiheit durch die Geburt deines Sohnes in unserem sterblichen Fleisch. Darum bitten wir durch ihn, Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in Ewigkeit. ",
-          "oration": "Allmächtiger Gott, die Knechtschaft der Sünde hält uns Menschen gefangen. Nimm dieses alte Joch von uns und schenke uns die neue Freiheit durch die Geburt deines Sohnes in unserem sterblichen Fleisch. Darum bitten wir durch ihn, Jesus Christus, deinen Sohn, unsern Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in Ewigkeit. "
-        },
-        "Invitatorium": {
-          "comm_2": "LEER "
-        },
-        "Laudes": {
-          "hymn_1": 3221.0,
-          "hymn_kl": 0.0,
-          "ant_1": "Ihr Hirten, wen habt ihr gesehen? Sagt und verkündet uns: Wer ist auf Erden erschienen? – Wir sahen das Kind und hörten die Chöre der Engel; die sangen das Lob des Herrn. Halleluja.",
-          "ant_2": "Der Engel sprach zu den Hirten: Ich verkünde euch große Freude; heute ist euch der Heiland geboren, der Retter der Welt. Halleluja.",
-          "ant_3": "Ein Kind ist uns heute geboren. „Starker Gott“ ist sein Name. Halleluja.",
-          "resp1_1": "Der Herr hat kundgemacht sein Heil.",
-          "resp1_2": "Halleluja,°halleluja.",
-          "resp1_3": "Vor den Augen der Völker hat er sein Walten enthüllt."
-        },
-        "Lesehore": {
-          "comm_2": "LEER "
-        },
-        "Non": {
-          "comm_2": "LEER "
-        },
-        "Sext": {
-          "comm_2": "LEER "
-        },
-        "Terz": {
-          "comm_2": "LEER "
-        },
-        "Vesper": {
-          "hymn_1": 3241.0,
-          "hymn_2": 0.0,
-          "hymn_3": 0.0,
-          "hymn_kl": 0.0,
-          "ps_1": 110.0,
-          "ps_2": 130.0,
-          "ps_3": 154.0,
-          "ant_0": "",
-          "ant_1": "Dein ist die Herrschaft am Tag deiner Macht, wenn du erscheinst in heiligem Schmuck; ich habe dich gezeugt noch vor dem Morgenstern.",
-          "ant_2": "Beim Herrn ist die Huld, bei ihm ist Erlösung in Fülle.",
-          "ant_3": "Das Wort war Gott – im Anfang und vor aller Zeit; heute ist er geboren als Heiland der Welt.",
-          "les_buch": "2°Petr",
-          "les_stelle": "1,3–4",
-          "les_text": "Alles, was für unser Leben und unsere Frömmigkeit gut ist, hat Gottes Macht uns geschenkt; sie hat uns den erkennen lassen, der uns durch seine Herrlichkeit und Kraft berufen hat. Durch sie wurden uns die kostbaren und überaus großen Verheißungen geschenkt, damit ihr der verderblichen Begierde, die in der Welt herrscht, entflieht und an der göttlichen Natur Anteil erhaltet.",
-          "resp1_1": "Das Wort ist Fleisch geworden und hat unter uns gewohnt.",
-          "resp1_2": "Halleluja,°halleluja.",
-          "resp1_3": "Aus seiner Fülle haben wir empfangen, Gnade über Gnade.",
-          "ant_ev": "Wir preisen dich, Gottesmutter Maria, denn aus dir ist Christus geboren, unser Heiland. Hilf allen, die dein Lob verkünden.",
-          "bitten_e": "lasst uns beten zu Jesus Christus, dem Heiland der Welt:",
-          "bitten_r": "Erhöre uns, Christus.",
-          "bitten": "Du Sehnsucht der Heiden, öffne dem Evangelium eine Tür bei allen Völkern.^lZiehe das Herz eines jeden Menschen an dich.^pHerr der ganzen Welt, mache weit den Raum deiner Kirche.^llass sie eine Heimstatt sein für alle Menschen.^pHerr der Herrscher, lenke Herz und Sinn der Mächtigen.^lGib, dass sie die Gerechtigkeit suchen und Frieden schaffen.^pDu Kraft der Schwachen, stärke die Angefochte­nen und richte die Gefallenen auf.^lSchütze alle, die von Gefahren umgeben sind.^pDu Trost in der Traurigkeit, stehe den Sterben­den bei in ihrem Todeskampf.^lFühre die Verstorbenen in deinen Frieden."
-        }
-      },
-      "31": {
-        "each": {
-          "comm_1": "Mar",
-          "comm_2": "LEER Allmächtiger, ewiger Gott, in der Menschwerdung deines Sohnes hat alles menschliche Streben nach dir seinen Ursprung und kommt darin zur Vollendung. lass uns zu Christus gehören, in dem das Heil aller Menschen begründet ist, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit. ",
-          "oration": "Allmächtiger, ewiger Gott, in der Menschwerdung deines Sohnes hat alles menschliche Streben nach dir seinen Ursprung und kommt darin zur Vollendung. lass uns zu Christus gehören, in dem das Heil aller Menschen begründet ist, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit. "
-        },
-        "Invitatorium": {
-          "comm_2": "LEER "
-        },
-        "Laudes": {
-          "hymn_1": 3221.0,
-          "hymn_kl": 0.0,
-          "ant_1": "Ihr Hirten, wen habt ihr gesehen? Sagt und verkündet uns: Wer ist auf Erden erschienen? – Wir sahen das Kind und hörten die Chöre der Engel; die sangen das Lob des Herrn. Halleluja.",
-          "ant_2": "Der Engel sprach zu den Hirten: Ich verkünde euch große Freude; heute ist euch der Heiland geboren, der Retter der Welt. Halleluja.",
-          "ant_3": "Ein Kind ist uns heute geboren. „Starker Gott“ ist sein Name. Halleluja.",
-          "resp1_1": "Der Herr hat kundgemacht sein Heil.",
-          "resp1_2": "Halleluja,°halleluja.",
-          "resp1_3": "Vor den Augen der Völker hat er sein Walten enthüllt."
-        },
-        "Lesehore": {
-          "comm_2": "LEER "
-        },
-        "Non": {
-          "comm_2": "LEER "
-        },
-        "Sext": {
-          "comm_2": "LEER "
-        },
-        "Terz": {
-          "comm_2": "LEER "
         }
       }
     }
@@ -8076,46 +7711,6 @@ export const brevierData = {
   },
   "k": {
     "1": {
-      "1": {
-        "each": {
-          "oration": "k-1-1-each-Oration"
-        },
-        "Laudes": {
-          "les_buch": "Hebr",
-          "les_stelle": "1,1-2",
-          "les_text": "Viele Male und auf vielerlei Weise hat Gott einst zu den Vätern gesprochen durch die Propheten; in dieser Endzeit aber hat er zu uns gesprochen durch den Sohn, den er zum Erben des Alls eingesetzt und durch den er auch die Welt erschaffen hat.",
-          "ant_ev": "k-1-1-Laudes-Ant_Ev",
-          "bitten_e": "k-1-1-Laudes-Bitten_E",
-          "bitten_r": "k-1-1-Laudes-Bitten_R",
-          "bitten": "k-1-1-Laudes-Bitten"
-        },
-        "Lesehore": {},
-        "Non": {
-          "les_buch": "Apg",
-          "les_stelle": "10,36",
-          "les_text": "Gott hat das Wort den Israeliten gesandt, indem er den Frieden verkündete durch Jesus Christus; dieser ist der Herr aller."
-        },
-        "Sext": {
-          "les_buch": "1°Joh",
-          "les_stelle": "4,9",
-          "les_text": "Die Liebe Gottes wurde unter uns dadurch offenbart, dass Gott seinen einzigen Sohn in die Welt gesandt hat, damit wir durch ihn leben."
-        },
-        "Terz": {
-          "les_buch": "Tit",
-          "les_stelle": "2,11-12",
-          "les_text": "Die Gnade Gottes ist erschienen, um alle Menschen zu retten. Sie erzieht uns dazu, uns von der Gottlosigkeit und den irdischen Begierden loszusagen und besonnen, gerecht und fromm in dieser Welt zu leben."
-        },
-        "Vesper": {
-          "resp0_1": "Gal 4,4-5",
-          "les_buch": "Gal",
-          "les_stelle": "4,4–5",
-          "les_text": "Als die Zeit erfüllt war, sandte Gott seinen Sohn, geboren von einer Frau und dem Gesetz unterstellt, damit er die freikaufte, die unter dem Gesetz stehen, und damit wir die Sohnschaft erlangten.",
-          "ant_ev": "k-1-1-Vesper-Ant_Ev",
-          "bitten_e": "k-1-1-Vesper-Bitten_E",
-          "bitten_r": "k-1-1-Vesper-Bitten_R",
-          "bitten": "k-1-1-Vesper-Bitten"
-        }
-      },
       "2": {
         "each": {
           "oration": "k-1-2-each-Oration"
@@ -8782,80 +8377,6 @@ export const brevierData = {
       "24": {
         "each": {
           "oration": "k-12-24-each-Oration"
-        },
-        "Laudes": {
-          "ant_1": "Du, Betlehem im Lande Juda, bist nicht die kleinste unter Judas Städten. Aus dir geht ja hervor der Herrscher, der Israel, mein Volk, regieren soll.",
-          "ant_2": "Erhebet eure Häupter; siehe, eure Erlösung ist nahe.",
-          "ant_3": "Morgen werdet ihr sehen, wie der Herr euch Rettung schafft. Juda und Jerusalem, fürchtet euch nicht: morgen erscheint euer Heil.",
-          "les_buch": "Jes",
-          "les_stelle": "11,1-2",
-          "les_text": "Aus dem Baumstumpf Isais wächst ein Reis hervor, ein junger Trieb aus seinen Wurzeln bringt Frucht. Der Geist des Herrn lässt sich nieder auf ihm: der Geist der Weisheit und der Einsicht, der Geist des Rates und der Stärke, der Geist der Erkenntnis und der Gottesfurcht.",
-          "ant_ev": "Für Maria erfüllte sich die Zeit, dass sie gebären sollte.",
-          "bitten_e": "Gepriesen sei unser Erlöser, der mit großer Macht und Herrlichkeit wiederkommen wird. Zu ihm lasst uns beten:",
-          "bitten_r": "Komm, Herr Jesus.",
-          "bitten": "Du bist gekommen, um den Menschen die Heilsbotschaft zu verkünden;^qhilf uns, dass wir heute von dir Zeugnis geben.^pNach dir verlangen wir;^qsei du im ganzen Leben unser Trost.^pDu wirst einst wiederkommen;^qgib, dass wir dich in Freude erwarten.^pDu wirst alle Menschen richten;^qmach uns deines Erbarmens würdig."
-        },
-        "Lesehore": {},
-        "Non": {
-          "les_buch": "Jes",
-          "les_stelle": "61,11",
-          "les_text": "Wie die Erde die Saat wachsen lässt und der Garten die Pflanzen hervorbringt, so bringt Gott, der Herr, Gerechtigkeit hervor und Ruhm vor allen Völkern."
-        },
-        "Sext": {
-          "les_buch": "Jes",
-          "les_stelle": "4,3",
-          "les_text": "Der Rest von Zion und wer in Jerusalem noch übrig ist, wird heilig genannt werden, jeder, der in Jerusalem in das Verzeichnis derer, die am Leben bleiben sollen, eingetragen ist."
-        },
-        "Terz": {
-          "les_buch": "Jes",
-          "les_stelle": "4,2",
-          "les_text": "An jenem Tag wird der Spross des Herrn für alle Israeliten, die entronnen sind, eine Zierde und Ehre sein; die Früchte des Landes sind ihr Stolz und Ruhm."
-        }
-      },
-      "25": {
-        "each": {
-          "oration": "k-12-25-each-Oration"
-        },
-        "ErsteV": {
-          "resp0_1": "Gal 4,4-5",
-          "les_buch": "Gal",
-          "les_stelle": "4,4–5",
-          "les_text": "Als die Zeit erfüllt war, sandte Gott seinen Sohn, geboren von einer Frau und dem Gesetz unterstellt, damit er die freikaufte, die unter dem Gesetz stehen, und damit wir die Sohnschaft erlangten.",
-          "bitten": "k-12-25-ErsteV-Bitten"
-        },
-        "Laudes": {
-          "les_buch": "Hebr",
-          "les_stelle": "1,1-2",
-          "les_text": "Viele Male und auf vielerlei Weise hat Gott einst zu den Vätern gesprochen durch die Propheten; in dieser Endzeit aber hat er zu uns gesprochen durch den Sohn, den er zum Erben des Alls eingesetzt und durch den er auch die Welt erschaffen hat.",
-          "ant_ev": "k-12-25-Laudes-Ant_Ev",
-          "bitten_e": "k-12-25-Laudes-Bitten_E",
-          "bitten_r": "k-12-25-Laudes-Bitten_R",
-          "bitten": "k-12-25-Laudes-Bitten"
-        },
-        "Lesehore": {},
-        "Non": {
-          "les_buch": "Apg",
-          "les_stelle": "10,36",
-          "les_text": "Gott hat das Wort den Israeliten gesandt, indem er den Frieden verkündete durch Jesus Christus; dieser ist der Herr aller."
-        },
-        "Sext": {
-          "les_buch": "1°Joh",
-          "les_stelle": "4,9",
-          "les_text": "Die Liebe Gottes wurde unter uns dadurch offenbart, dass Gott seinen einzigen Sohn in die Welt gesandt hat, damit wir durch ihn leben."
-        },
-        "Terz": {
-          "les_buch": "Tit",
-          "les_stelle": "2,11-12",
-          "les_text": "Die Gnade Gottes ist erschienen, um alle Menschen zu retten. Sie erzieht uns dazu, uns von der Gottlosigkeit und den irdischen Begierden loszusagen und besonnen, gerecht und fromm in dieser Welt zu leben."
-        },
-        "Vesper": {
-          "les_buch": "1°Joh",
-          "les_stelle": "1,1-3",
-          "les_text": "Was von Anfang an war, was wir gehört haben, was wir mit unseren Augen gesehen, was wir geschaut und was unsere Hände angefasst haben, das verkünden wir, vom Wort des Lebens sprechen wir. Denn das Leben wurde offenbart; wir haben gesehen und bezeugen und verkünden euch das ewige Leben, das beim Vater war und uns offenbart wurde. Was wir gesehen und gehört haben, das verkünden wir auch euch, damit auch ihr Gemeinschaft mit uns habt. Wir aber haben Gemeinschaft mit dem Vater und mit seinem Sohn Jesus Christus.",
-          "ant_ev": "k-12-25-Vesper-Ant_Ev",
-          "bitten_e": "k-12-25-Vesper-Bitten_E",
-          "bitten_r": "k-12-25-Vesper-Bitten_R",
-          "bitten": "k-12-25-Vesper-Bitten"
         }
       },
       "26": {
@@ -9348,6 +8869,40 @@ export const brevierData = {
           "resp1_1": "Alles, was zwei von euch auf Erden gemeinsam erbitten, werden sie von meinem Vater im Himmel erhalten.",
           "resp1_2": "Wo zwei oder drei in meinem Namen versammelt sind, da bin ich mitten unter ihnen.",
           "resp1_3": "Wenn einer an diesem Orte betet, so wird mein Ohr für seine Bitten offen sein."
+        }
+      }
+    }
+  },
+  "n1": {
+    "12": {
+      "1": {
+        "Invitatorium": {
+          "ant_0": "Christus, den Herrn, den Hirten und Bischof unserer Seelen – kommt, wir beten ihn an!"
+        },
+        "Laudes": {
+          "comm_1": "Hirten",
+          "name": "Bischofsweihe des hl. Bonifatius",
+          "hymn_1": 9201.0,
+          "hymn_2": 0.0,
+          "ant_ev": "Jeder Hohepriester wird aus den Menschen ausgewählt und für die Menschen eingesetzt zum Dienst vor Gott. Keiner nimmt sich eigenmächtig diese Würde, sondern er wird von Gott berufen.",
+          "oration": "Ewiger Gott, bei seiner Bischofsweihe hat der heilige Bonifatius am Grab des heiligen Petrus ein feierliches Bekenntnis zum katholischen Glauben und zur Einheit der Kirche abgelegt. Erhalte dein Volk im gleichen Bekenntnis und sende ihm allzeit würdige Hirten.^orV"
+        },
+        "Lesehore": {
+          "hymn_1": 9201.0,
+          "hymn_2": 0.0,
+          "patr_autor": "LEER",
+          "patr_werk": "LEER",
+          "patr_text": "^hTreue zur Kirche Roms^pVor seiner Bischofsweihe leistete der heilige Bonifatius den folgenden Eid:^pIm Namen Gottes des Herrn und unseres Heilands Jesus Christus. Ich, Bonifatius, durch Gottes Gnade Bischof, verspreche euch, dem heiligen Apostelfürsten Petrus und deinem Stellvertreter, dem seligen Papst Gregor sowie dessen Nachfolgern, bei dem Vater, dem Sohn und dem Heiligen Geist, der untrennbaren Dreifaltigkeit, und bei diesem deinem hochheiligen Leib: Ich will den katholischen Glauben in aller Treue und Reinheit bekennen und mit Gottes Hilfe in der Einheit dieses Glaubens verharren. Denn es steht zweifelsfrei fest, dass in diesem Glauben alles Heil der Christen beschlossen ist. Auf keinen Fall will ich mich von irgendjemand überreden lassen, mich gegen die Einheit gemeinsamen und allgemeinen Kirche zu verfehlen; vielmehr will ich, wie gesagt, dir und dem Wohl deiner Kirche, der von Gott dem Herrn die Vollmacht zu binden und zu lösen übertragen ist (vgl.°Mt 16,19), sowie deinem erwähnten Stellvertreter und seinen Nachfolgern in allem Treue, Loyalität und Hilfe zuteil werden lassen.^pFerner will ich, wenn ich erfahre, dass Bischöfe sich entgegen den überlieferten Weisungen der heiligen Väter verhalten, mit diesen keine Gemeinschaft oder Verbindung halten; vielmehr will ich sie an ihrem Treiben hindern, wenn ich es vermag, andernfalls unverzüglich meinem apostolischen Herrn wahrheitsgemäß berichten.^pWenn ich, was ferne sei, versuchen sollte, etwas entgegen diesen meinen Versprechungen zu unternehmen, auf welche Weise, mit welcher Absicht und bei welcher Gelegenheit auch immer, will ich dafür im ewigen Gericht schuldig befunden werden und die Strafe des Hananias und der Saphira (vgl.°Apg 5,1–6) erleiden, die euch vorsätzlich um ihr Eigentum betrogen und belogen haben.^pDiese Eidesformel habe ich, der geringe Bischof Bonifatius, eigenhändig unterschrieben und auf deinen hochheiligen Leib niedergelegt. So habe ich den obenstehenden Eid vor Gott als Zeugen und Richter geleistet, und ich verspreche, ihn auch zu halten.",
+          "patr_resp1": "Wir sollen alle zur Einheit im Glauben und in der Erkenntnis des Sohnes Gottes gelangen, damit wir Christus in seiner vollendeten Gestalt darstellen.",
+          "patr_resp2": "Er, Christus, ist das Haupt.",
+          "patr_resp3": "Wir wollen uns, von der Liebe geleitet, an die Wahrheit halten und in allem wachsen, bis wir ihn erreicht haben. ",
+          "oration": "Ewiger Gott, bei seiner Bischofsweihe hat der heilige Bonifatius am Grab des heiligen Petrus ein feierliches Bekenntnis zum katholischen Glauben und zur Einheit der Kirche abgelegt. Erhalte dein Volk im gleichen Bekenntnis und sende ihm allzeit würdige Hirten.^orV"
+        },
+        "Vesper": {
+          "hymn_1": 9201.0,
+          "hymn_2": 0.0,
+          "ant_ev": "Dank sei dir, Christus, guter Hirte! Du hast mich zur Herrlichkeit geführt, gib auch der Herde, die du mir anvertraut hast, Anteil an deiner Gnade auf ewig.",
+          "oration": "Ewiger Gott, bei seiner Bischofsweihe hat der heilige Bonifatius am Grab des heiligen Petrus ein feierliches Bekenntnis zum katholischen Glauben und zur Einheit der Kirche abgelegt. Erhalte dein Volk im gleichen Bekenntnis und sende ihm allzeit würdige Hirten.^orV"
         }
       }
     }
@@ -10495,6 +10050,9 @@ export const brevierData = {
         }
       },
       "3": {
+        "Komplet": {
+          "ps_2": 130.101
+        },
         "Laudes": {
           "les_buch": "Röm",
           "les_stelle": "6,8-11",
@@ -10561,6 +10119,9 @@ export const brevierData = {
         }
       },
       "5": {
+        "Komplet": {
+          "ps_1": 88.0
+        },
         "Laudes": {
           "les_buch": "Apg",
           "les_stelle": "5,30-32",
@@ -13515,18 +13076,6 @@ export const brevierData = {
           "ant_1": "Wie groß sind deine Werke, o Herr!^ö",
           "ant_2": "Ich gieße reines Wasser über euch aus, und ihr werdet rein.^ö",
           "ant_3": "Gott hat ihm alles zu Füßen gelegt und ihn, der alles als Haupt überragt, über die Kirche gesetzt.^ö"
-        }
-      }
-    },
-    "each": {
-      "3": {
-        "Komplet": {
-          "ps_2": 130.101
-        }
-      },
-      "5": {
-        "Komplet": {
-          "ps_1": 88.0
         }
       }
     }

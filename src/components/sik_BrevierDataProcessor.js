@@ -1,8 +1,8 @@
-import { brevierData } from './data/Brevier.ts';
-import { lecture1Data } from './data/Lecture1.ts';
-import { lecture2Data } from './data/Lecture2.ts';
-import { psalmsData } from './data/PsHymn.ts';
-import { adlibData } from './data/AdLib.ts';
+import { brevierData } from './data/Brevier.js';
+import { lecture1Data } from './data/Lecture1.js';
+import { lecture2Data } from './data/Lecture2.js';
+import { psalmsData } from './data/PsHymn.js';
+import { adlibData } from './data/AdLib.js';
 import { getLiturgicalInfo } from './comp_LitCalendar.js';
 
 const personalData = (() => {
@@ -183,73 +183,127 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
             }
         });
 
-        function addLayer(source, week, dayOfWeek, komplet = false) {
+        function addLayer(source, week, dayOfWeek) {
             const layerData = brevierData?.[source]?.[week]?.[dayOfWeek];
             const personalLayerData = personalData?.[source]?.[week]?.[dayOfWeek];
             const lectureLayerData = lectureData?.[source]?.[week]?.[dayOfWeek];
             mergeData(hours, layerData, 'wt');
             mergeData(hours, personalLayerData, 'pers');
             mergeData(hours, lectureLayerData, 'wt');
-            if (komplet) {
-                mergeData(hours, layerData, 'k1');
-                mergeData(hours, layerData, 'k2');
-            }
         }
 
-        addLayer('p', weekOfPsalter, dayOfWeek);     // Layer 1: Base layer from 4-week schema
-        if (season === 'j') { addLayer('pj', weekOfPsalter, dayOfWeek); }
-        if (season === 'o') { addLayer('po', weekOfPsalter, dayOfWeek); }
+        // Layer 1: Base layer from 4-week schema
+        addLayer('p', weekOfPsalter, dayOfWeek);
 
-        addLayer(season, 'each', 'each', true);     // Layer 2: Season-wide texts
-        addLayer(season, 'each', dayOfWeek);        // Layer 3: Weekly schema for the season
-        if (week % 2 === 0) { addLayer(season, 'even', dayOfWeek); }// Layer 4: Bi-weekly schema
+        // Layer 1.1: Psalmen in der Lesehore
+        if (season === 'j') {
+            const ordbaseData = brevierData['pj']?.[weekOfPsalter]?.[dayOfWeek];
+            const persOrdBaseData = personalData['pj']?.[weekOfPsalter]?.[dayOfWeek];
+            mergeData(hours, ordbaseData, 'wt');
+            mergeData(hours, persOrdBaseData, 'pers');
+        }
 
-        // Layer 5.1: 'last' für letzte Adventstage, nach Erscheinung und Pfingstnovene
+        if (season === 'o') {
+            const ordbaseData = brevierData['po']?.[weekOfPsalter]?.[dayOfWeek];
+            const persOrdBaseData = personalData['po']?.[weekOfPsalter]?.[dayOfWeek];
+            mergeData(hours, ordbaseData, 'wt');
+            mergeData(hours, persOrdBaseData, 'pers');
+        }
+
+        // Layer 2: Season-wide texts
+        const seasonData = brevierData[season]?.['each']?.['each'];
+        const persSeasonData = personalData[season]?.['each']?.['each'];
+        mergeData(hours, seasonData, 'wt');
+        mergeData(hours, persSeasonData, 'pers');
+        mergeData(hours, seasonData, 'k1');
+        mergeData(hours, seasonData, 'k2');
+
+        // Layer 3: Weekly schema for the season
+        const weeklyData = brevierData[season]?.['each']?.[dayOfWeek];
+        const persWeeklyData = personalData[season]?.['each']?.[dayOfWeek];
+        mergeData(hours, weeklyData, 'wt');
+        mergeData(hours, persWeeklyData, 'pers');
+
+        // Layer 4: Bi-weekly schema
+        if (week % 2 === 0) {
+            const evenData = brevierData[season]?.['even']?.[dayOfWeek];
+            const persEvenData = personalData[season]?.['even']?.[dayOfWeek];
+            mergeData(hours, evenData, 'wt');
+            mergeData(hours, persEvenData, 'pers');
+        }
+
+        // Layer 5.1: Special seasonal handling
         const shouldUseLast = (
             (season === 'a' && calendarDay > 16) ||
             (season === 'w' && calendarDay > 5 && calendarDay < 13) ||
             (season === 'o' && (week > 6 || (week === 6 && dayOfWeek > 3)))
         );
+
         if (shouldUseLast) {
-            addLayer(season, 'last', 'each');
-            addLayer(season, 'last', dayOfWeek);
+            const lastweeklyData = brevierData[season]?.['last']?.['each'];
+            const persLastWeeklyData = personalData[season]?.['last']?.['each'];
+            const lastData = brevierData[season]?.['last']?.[dayOfWeek];
+            const persLastData = personalData[season]?.['last']?.[dayOfWeek];
+
+            mergeData(hours, lastweeklyData, 'wt');
+            mergeData(hours, persLastWeeklyData, 'pers');
+            mergeData(hours, lastData, 'wt');
+            mergeData(hours, persLastData, 'pers');
         }
 
-        // Layer 5.2: 17. Dez. bis Taufe des Herrn (Kalendertage) mit Weihnachtsoktav
+        // Layer 5.2: 17. Dez. bis Taufe des Herrn mit Weihnachtsoktav
         if (season === "a" || season === "w") {
-            if (calendarDay > 24) { addLayer('w', 'okt', 'each') };
-            addLayer('k', calendarMonth, calendarDay);
+            const octaveData = calendarDay > 24 ? brevierData['w']?.['okt']?.['each'] : null;
+            const persOctaveData = calendarDay > 24 ? personalData['w']?.['okt']?.['each'] : null;
+            const daywiseData = brevierData['k']?.[calendarMonth]?.[calendarDay];
+            const persDaywiseData = personalData['k']?.[calendarMonth]?.[calendarDay];
+            const daywiseLect = lectureData['k']?.[calendarMonth]?.[calendarDay];
+
+            mergeData(hours, octaveData, 'wt');
+            mergeData(hours, persOctaveData, 'pers');
+            mergeData(hours, daywiseData, 'wt');
+            mergeData(hours, persDaywiseData, 'pers');
+            mergeData(hours, daywiseLect, 'wt');
         }
 
         // Layer 6: Specific day data
-        addLayer(season, week, 'each');
-        addLayer(season, week, dayOfWeek);
+        const specificWeeklyData = brevierData[season]?.[week]?.['each'];
+        const persSpecificWeeklyData = personalData[season]?.[week]?.['each'];
+        const specificData = brevierData[season]?.[week]?.[dayOfWeek];
+        const persSpecificData = personalData[season]?.[week]?.[dayOfWeek];
+        const specificLect = lectureData[season]?.[week]?.[dayOfWeek];
+
+        mergeData(hours, specificWeeklyData, 'wt');
+        mergeData(hours, persSpecificWeeklyData, 'pers');
+        mergeData(hours, specificData, 'wt');
+        mergeData(hours, persSpecificData, 'pers');
+        mergeData(hours, specificLect, 'wt');
 
         // Oration der Komplet in der Osteroktav
         if (season === 'o' && week === '1' && dayOfWeek > 0 && dayOfWeek < 6) {
             const easterKomplet1 = brevierData['k1']?.['o']?.['6']
             const easterKomplet2 = brevierData['k2']?.['o']?.['0']
+
             mergeData(hours, easterKomplet1, 'k1')
             mergeData(hours, easterKomplet2, 'k2')
         }
 
         // Process Heiligenfeste only if rank is appropriate
         if ((rank_date > 1 && rank_date > rank_wt) || (rank_date === 2 && rank_wt === 2)) {
-            processHeiligenfeste(hours, season, rank_date, dayOfWeek, calendarMonth, calendarDay, 'eig');
+            processHeiligenfeste(hours, season, rank_date, dayOfWeek, calendarMonth, calendarDay);
         }
 
         // Layer 9: nichtgebotene Gedenktage
         if (rank_wt < 3) {
-            processHeiligenfeste(hours, season, rank_date, dayOfWeek, calendarMonth, calendarDay, 'n1');
             processNichtgeboteneGedenktage(hours, season, calendarMonth, calendarDay);
         }
 
         return {
-            season, week, dayOfWeek,
+            prefComm: (rank_date > 2 || rank_wt > 2) ? 1 : 0,
             rank_wt,
             rank_date,
             isCommemoration,
-            prefComm: (rank_date > 2 || rank_wt > 2) ? 1 : 0,
+            season, week, dayOfWeek,
             ...cleanupZeroReferences(hours)
         };
 
@@ -357,36 +411,36 @@ function processNichtgeboteneGedenktage(hours, season, calendarMonth, calendarDa
 }
 
 // Modified processHeiligenfeste function
-function processHeiligenfeste(hours, season, rank_date, dayOfWeek, calendarMonth, calendarDay, sourceKey = 'eig') {
+function processHeiligenfeste(hours, season, rank_date, dayOfWeek, calendarMonth, calendarDay) {
     // Commune texts processing
-    const communeData = brevierData?.[sourceKey]?.[calendarMonth]?.[calendarDay];
+    const communeData = brevierData?.['eig']?.[calendarMonth]?.[calendarDay];
     if (communeData) {
-        mergeData(hours, communeData, sourceKey);
+        mergeData(hours, communeData, 'eig');
 
         // Process Commune categories
         ['1', '2'].forEach(commNumber => {
             const commField = `comm_${commNumber}`;
             Object.keys(hours).forEach(hour => {
-                const foundComm = hours[hour]?.[sourceKey]?.[commField];
+                const foundComm = hours[hour].eig?.[commField];
                 if (foundComm) {
-                    processCommune(hours, foundComm, season, sourceKey, commNumber);
+                    processCommune(hours, foundComm, season, 'eig', commNumber);
                     // Remove the comm_1/2 field after processing
-                    delete hours[hour][sourceKey][commField];
+                    delete hours[hour].eig[commField];
                 }
             });
         });
     }
 
     const rankData = brevierData?.[rank_date]?.['each']?.['each'];
-    if (rankData) mergeData(hours, rankData, sourceKey);
+    if (rankData) mergeData(hours, rankData, 'eig');
 
     if (rank_date > 3 && dayOfWeek === 0) {
         const sundayData = brevierData?.[rank_date]?.['each']?.['0'];
-        if (sundayData) mergeData(hours, sundayData, sourceKey);
+        if (sundayData) mergeData(hours, sundayData, 'eig');
     }
 
-    const calendarData = brevierData?.[sourceKey]?.[calendarMonth]?.[calendarDay];
-    if (calendarData) mergeData(hours, calendarData, sourceKey);
+    const calendarData = brevierData?.['eig']?.[calendarMonth]?.[calendarDay];
+    if (calendarData) mergeData(hours, calendarData, 'eig');
 }
 
 function processTerzPsalms(hours) {
@@ -603,9 +657,10 @@ export function processBrevierData(todayDate) {
     // Verschiebung Verkündigung des Herrn
     if (todayInfo.combinedSWD === 'o-2-1' &&
         (todayMonth === 3 || (todayMonth === 4 && todayDay < 10))) {
+        // Erstelle ein neues Date-Objekt für den 25. März
         const verkuendigungDate = new Date(todayDate.getFullYear(), 2, 25); // Monat ist 0-basiert
         calendarDate = verkuendigungDate;
-        console.log('Verschiebung: Verkündigung des Herrn auf Montag nach der Osteroktav');
+        console.log('Verschiebung: Verkündigung des Herrn am Montag nach der Osteroktav');
     }
 
     if (isSacredHeart === 1 && tomorrowInfo.rank_date === 5) {
@@ -674,7 +729,9 @@ export function processBrevierData(todayDate) {
                     24;  // Dienstag oder Samstag
 
         // Prüfe ob der bevorzugte Psalm verfügbar ist
-        if (invPsalms.includes(preferredPsalm)) { prefInv = preferredPsalm; }
+        if (invPsalms.includes(preferredPsalm)) {
+            prefInv = preferredPsalm;
+        }
     }
 
     finalData.prefInv = prefInv;
