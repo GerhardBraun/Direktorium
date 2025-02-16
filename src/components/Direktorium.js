@@ -963,10 +963,10 @@ const PrayerMenu = ({ title, onSelectHour, viewMode, setViewMode, season,
 
                     let displayText = hour.charAt(0).toUpperCase() + hour.slice(1);
                     if (hour === 'vesper') {
-                        if (prayerTexts?.vesper?.eig?.name && prayerTexts.hasErsteVesper) {
-                            displayText = prayerTexts.vesper.eig.name;
-                        } else if (prayerTexts?.vesper?.wt?.name) {
-                            displayText = prayerTexts.vesper.wt.name;
+                        if (prayerTexts?.vesper?.eig?.button && prayerTexts.hasErsteVesper) {
+                            displayText = prayerTexts.vesper.eig.button;
+                        } else if (prayerTexts?.vesper?.wt?.button) {
+                            displayText = prayerTexts.vesper.wt.button;
                         } else {
                             const dayOfWeek = selectedDate.getDay();
                             if (dayOfWeek === 6 && rank_date < 4 &&
@@ -1632,7 +1632,9 @@ export default function LiturgicalCalendar() {
     const [prayerTexts, setPrayerTexts] = useState(null);
     const [expandedDeceased, setExpandedDeceased] = useState({});
     const [deceasedMode, setDeceasedMode] = useState('recent');
-    const [viewMode, setViewMode] = useState('directory'); // 'directory', 'deceased', 'prayer', or 'prayerText'
+    const [viewMode, setViewMode] = useState(() =>
+        localStorage.getItem('startViewMode') || 'directory'
+    ); // 'directory', 'deceased', 'prayer', or 'prayerText'
     const [baseFontSize, setBaseFontSize] = useTouchZoom(14, 8, 24, 0.7, showDatePicker);
     const [isReady, setIsReady] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);

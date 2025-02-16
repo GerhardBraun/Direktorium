@@ -79,7 +79,10 @@ export const formatPrayerText = (provText, marker = '', hour = '', season = '', 
         .replace(/\^orV/g, isTSN ? orKurzVater : orVater)
         .replace(/\^orVr/g, isTSN ? orKurzVaterRel : orVaterRel)
         .replace(/\^orR/g, isTSN ? orKurzRel : orRel)
-        .replace(/\^orS/g, isTSN ? orKurzSohn : orSohn);
+        .replace(/\^orS/g, isTSN ? orKurzSohn : orSohn)
+        .replace(/\^NP/g, localStorage.getItem('popeName') || '^N')
+        .replace(/\^NB/g, localStorage.getItem('bishopName') || '^N')
+        .replace(/\^NH/g, '^N');
 
     // Inline-Formatierungen als React-Elemente verarbeiten
     const processInlineFormats = (text) => {

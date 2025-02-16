@@ -90,9 +90,9 @@ const SourceSelector = ({
         <div className={`space-y-1 ${className}`}>
             {/* Bezeichnung Hochfest/Fest/Gedenktag */}
 
-            {prayerTexts.laudes?.wt?.name && !hasEig && (
+            {prayerTexts.laudes?.wt?.button && !hasEig && (
                 <div className="text-center text-xl font-bold text-gray-900 dark:text-gray-100">
-                    {prayerTexts.laudes.wt.name}
+                    {prayerTexts.laudes.wt.button}
                 </div>
             )}
             {/* Weekday Button */}
@@ -128,7 +128,7 @@ const SourceSelector = ({
                                     ${getButtonColor(prayerTexts, source)}
                                     ${(doUnderline) ? 'ring-2 ring-yellow-500' : ''}`}
                     >
-                        {prayerTexts.laudes[source].name || "ein Heiliger"}
+                        {prayerTexts.laudes[source].button || "ein Heiliger"}
                     </button>
                 );
             })}

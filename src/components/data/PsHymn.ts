@@ -153,6 +153,10 @@ export const psalmsData = {
       }
   },
   17: {
+    0.0: {
+        "verses": "1–15",
+        "text": "Höre, Herr, die gerechte Sache,^+achte auf mein Flehen,^*vernimm mein Gebet von Lippen ohne Falsch!^pVon deinem Angesicht ergehe mein Urteil;^*denn deine Augen sehen, was recht ist.^pPrüfst du mein Herz,^+suchst du mich heim in der Nacht und erprobst mich,^*dann findest du an mir kein Unrecht.^pMein Mund verging sich nicht,^+trotz allem, was die Menschen auch treiben;^*ich halte mich an das Wort deiner Lippen.^pAuf dem Weg deiner Gebote gehn meine Schritte,^*meine Füße wanken nicht auf deinen Pfaden.^pIch rufe dich an, denn du, Gott, erhörst mich.^*Wende dein Ohr mir zu, vernimm meine Rede!^pWunderbar erweise deine Huld!^*Du rettest alle, die sich an deiner Rechten vor den Feinden bergen.^pHerr, behüte mich wie den Augapfel, den Stern des Auges,^*birg mich im Schatten deiner Flügel^pvor den Frevlern, die mich hart bedrängen,^*vor den Feinden, die mich wütend umringen.^pSie haben ihr hartes Herz verschlossen,^*sie führen stolze Worte im Mund,^psie lauern mir auf, jetzt kreisen sie mich ein;^*sie trachten danach, mich zu Boden zu strecken,^pso wie der Löwe voll Gier ist zu zerreißen,^*wie der junge Löwe, der im Hinterhalt lauert.^pErheb dich, Herr, tritt dem Frevler entgegen!^*Wirf ihn zu Boden, mit deinem Schwert entreiß mich ihm!^pRette mich, Herr, mit deiner Hand vor diesen Leuten,^*vor denen, die im Leben schon alles haben.^pDu füllst ihren Leib mit Gütern,^+auch ihre Söhne werden noch satt^*und hinterlassen den Enkeln, was übrig bleibt.^pIch aber will in Gerechtigkeit dein Angesicht schauen,^*mich satt sehen an deiner Gestalt, wenn ich erwache."
+      },
     1.0: {
         "verses": "1-7",
         "title": "Birg mich im Schatten deiner Flügel",
@@ -3040,7 +3044,7 @@ export const psalmsData = {
     0.0: {
         "title": "Der Herr, zur Höhe heimgekehrt",
         "quote": "Pfingsten",
-        "text": "Der Herr, zur Höhe heimgekehrt,^lzum Vater, der sein Ursprung ist,^lgibt uns als sein Geschenk den Geist,^lden uns des Vaters Huld verhieß.^pVom Himmel kommt ein Brausen her,^lund jäher Donner schreckt die Welt.^lDie Jünger, die versammelt sind,^lerkennen schaudernd: Gott ist da!^pGewaltig flammt das Feuer auf,^ldas aus dem Licht des Vaters stammt,^lund jedes Herz, das Christus glaubt,^lwird mit des Wortes Glut erfüllt.^pDa jauchzen die Erfüllten auf,^ldurchdrungen von des Geistes Hauch,^lin allen Sprachen reden sie^lund machen Gottes Taten kund.^pDir, Gott und Vater, sei der Ruhm,^ldem Sohne, der vom Tod erstand,^ldem Beistand auch, dem Heil´gen Geist,^ldurch alle Zeit und Ewigkeit. Amen."
+        "text": "Der Herr, zur Höhe heimgekehrt,^lzum Vater, der sein Ursprung ist,^lgibt uns als sein Geschenk den Geist,^lden uns des Vaters Huld verhieß.^pVom Himmel kommt ein Brausen her,^lund jäher Donner schreckt die Welt.^lDie Jünger, die versammelt sind,^lerkennen schaudernd: Gott ist da!^pGewaltig flammt das Feuer auf,^ldas aus dem Licht des Vaters stammt,^lund jedes Herz, das Christus glaubt,^lwird mit des Wortes Glut erfüllt.^pDa jauchzen die Erfüllten auf,^ldurchdrungen von des Geistes Hauch,^lin allen Sprachen reden sie^lund machen Gottes Taten kund.^pDir, Gott und Vater, sei der Ruhm,^ldem Sohne, der vom Tod erstand,^ldem Beistand auch, dem Heil’gen Geist,^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   3421: {
@@ -3257,7 +3261,7 @@ export const psalmsData = {
     0.0: {
         "title": "Nun soll es wissen alle Welt",
         "quote": "Verkündigung",
-        "text": "Nun soll es wissen alle Welt:^lGekommen ist, der Leben bringt,^lerschienen ist, der Rettung schafft^lund aus des Feindes Joch uns löst.^pDenn was Jesaja einst verhieß,^list in der Jungfrau jetzt erfüllt;^lwas Gabriel ihr kundgetan,^ldas wirkt in ihr des Höchsten Kraft.^pEmpfangen hat Mariens Schoß^ldes Vaters Wort, den ew´gen Sohn;^lihn, den die ganze Welt nicht fasst,^lumschließt und trägt der Jungfrau Leib.^pZur Erde kam das Licht vom Licht,^lverscheucht die Nacht, besiegt den Tod.^lKommt alle, glaubt und betet an^lden Gott im Schoße einer Frau.^pHerr Jesus, dir sei Ruhm und Preis,^lGott, den die Jungfrau uns gebar,^lLob auch dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."
+        "text": "Nun soll es wissen alle Welt:^lGekommen ist, der Leben bringt,^lerschienen ist, der Rettung schafft^lund aus des Feindes Joch uns löst.^pDenn was Jesaja einst verhieß,^list in der Jungfrau jetzt erfüllt;^lwas Gabriel ihr kundgetan,^ldas wirkt in ihr des Höchsten Kraft.^pEmpfangen hat Mariens Schoß^ldes Vaters Wort, den ew’gen Sohn;^lihn, den die ganze Welt nicht fasst,^lumschließt und trägt der Jungfrau Leib.^pZur Erde kam das Licht vom Licht,^lverscheucht die Nacht, besiegt den Tod.^lKommt alle, glaubt und betet an^lden Gott im Schoße einer Frau.^pHerr Jesus, dir sei Ruhm und Preis,^lGott, den die Jungfrau uns gebar,^lLob auch dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   8605: {
