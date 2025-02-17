@@ -301,9 +301,10 @@ function processNichtgeboteneGedenktage(hours, season, calendarMonth, calendarDa
     if (nichtgebData) {
         // Array mit allen zu durchsuchenden Schlüsseln
         const sourceKeys = ['eig', 'n1', 'n2', 'n3', 'n4', 'n5'];
+        const hourKeys = ['invitatorium', 'lesehore', 'laudes', 'terz', 'sext', 'non', 'vesper']
 
         // Map über alle Schlüssel
-        sourceKeys.map(sourceKey => {
+        sourceKeys.forEach(sourceKey => {
             const sourceData = nichtgebData[sourceKey];
 
             if (sourceData) {
@@ -311,14 +312,15 @@ function processNichtgeboteneGedenktage(hours, season, calendarMonth, calendarDa
 
                 ['1', '2'].forEach(commNumber => {
                     const commField = `comm_${commNumber}`;
-                    Object.keys(hours).forEach(hour => {
-                        const foundComm = hours[hour][sourceKey]?.[commField];
-                        if (foundComm) {
+                    const foundLaudesComm = hours?.laudes?.[sourceKey]?.[commField];
+                    if (foundLaudesComm) {
+                        hourKeys.forEach(hour => {
+                            const foundComm = hours?.[hour]?.[sourceKey]?.[commField] || foundLaudesComm;
                             processCommune(hours, hour, foundComm, season, sourceKey, commNumber);
                             // Remove the comm_1/2 field after processing
                             delete hours[hour][sourceKey][commField];
-                        }
-                    });
+                        });
+                    };
                 });
             }
         });
