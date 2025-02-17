@@ -11,9 +11,12 @@ const PersonalSettings = () => {
     const [bishopName, setBishopName] = useState(() =>
         localStorage.getItem('bishopName') || ''
     );
+    const [sequenceInv, setSequenceInv] = useState(() => {
+        const stored = localStorage.getItem('sequenceInv');
+        return stored ? JSON.parse(stored) : [95, 100, 24, 67, 67, 100, 24];
+    });
 
     useEffect(() => {
-        // Lade die personalisierten Daten beim Komponenten-Mount
         const loadedData = localStorage.getItem('personalData');
         if (loadedData) {
             setPersonalData(JSON.parse(loadedData));
@@ -31,6 +34,20 @@ const PersonalSettings = () => {
     useEffect(() => {
         localStorage.setItem('bishopName', bishopName);
     }, [bishopName]);
+
+    useEffect(() => {
+        localStorage.setItem('sequenceInv', JSON.stringify(sequenceInv));
+    }, [sequenceInv]);
+
+    const handleSequenceChange = (event, index) => {
+        const value = parseInt(event.target.value);
+        if (!isNaN(value)) {
+            const newSequence = [...sequenceInv];
+            newSequence[index] = value;
+            setSequenceInv(newSequence);
+        }
+    };
+
 
     const handleImport = async (e) => {
         const file = e.target.files[0];
@@ -50,14 +67,12 @@ const PersonalSettings = () => {
                 data = JSON.parse(dataMatch[1]);
             }
 
-            // Validiere das Format
             const isValid = validateDataStructure(data);
 
             if (isValid) {
                 localStorage.setItem('personalData', JSON.stringify(data));
                 setPersonalData(data);
 
-                // Zusätzliche Einstellungen aus den importierten Daten laden
                 if (data.settings) {
                     if (data.settings.startViewMode) {
                         setStartView(data.settings.startViewMode);
@@ -70,6 +85,10 @@ const PersonalSettings = () => {
                     if (data.settings.bishopName) {
                         setBishopName(data.settings.bishopName);
                         localStorage.setItem('bishopName', data.settings.bishopName);
+                    }
+                    if (data.settings.sequenceInv) {
+                        setSequenceInv(data.settings.sequenceInv);
+                        localStorage.setItem('sequenceInv', JSON.stringify(data.settings.sequenceInv));
                     }
                 }
 
@@ -87,14 +106,13 @@ const PersonalSettings = () => {
         const data = localStorage.getItem('personalData');
         let exportData = data ? JSON.parse(data) : {};
 
-        // Füge die zusätzlichen Einstellungen hinzu
         exportData.settings = {
             startViewMode: startView,
             popeName,
-            bishopName
+            bishopName,
+            sequenceInv
         };
 
-        // Exportiere als formatierte JSON-Datei
         const formattedData = JSON.stringify(exportData, null, 2);
         const blob = new Blob([formattedData], { type: 'application/json' });
         const url = URL.createObjectURL(blob);
@@ -113,25 +131,34 @@ const PersonalSettings = () => {
         return Object.keys(data).some(key => expectKeys.includes(key));
     };
 
+    const weekdays = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
+    const availablePsalms = [95, 100, 67, 24];
+
+    const handlePsalmSelect = (dayIndex, psalm) => {
+        const newSequence = [...sequenceInv];
+        newSequence[dayIndex] = psalm;
+        setSequenceInv(newSequence);
+    };
+
     return (
-        <>
+        <div className="space-y-6 pt-2">
             {/* Start View Section */}
-            <div className="px-3 py-2 border-t dark:border-gray-700">
+            <div className="px-3 py-2">
                 <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
                     Startansicht
                 </div>
-                <div className="flex gap-1">
+                <div className="flex gap-2">
                     <button
                         onClick={() => setStartView('directory')}
-                        className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded 
-                            ${startView === 'directory' ? 'bg-orange-100 dark:bg-yellow-400/60' : ''}`}
+                        className={`flex-1 px-3 py-2 text-center text-sm text-gray-700 dark:text-gray-300 rounded 
+                            ${startView === 'directory' ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
                     >
                         Direktorium
                     </button>
                     <button
                         onClick={() => setStartView('prayer')}
-                        className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded 
-                            ${startView === 'prayer' ? 'bg-orange-100 dark:bg-yellow-400/60' : ''}`}
+                        className={`flex-1 px-3 py-2 text-center text-sm text-gray-700 dark:text-gray-300 rounded 
+                            ${startView === 'prayer' ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
                     >
                         Stundengebet
                     </button>
@@ -139,50 +166,77 @@ const PersonalSettings = () => {
             </div>
 
             {/* Names Section */}
-            <div className="px-3 py-2 border-t dark:border-gray-700">
+            <div className="px-3">
                 <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
                     Namen für die Fürbitten
                 </div>
-                <div className="space-y-2">
-                    <div>
-                        <label className="block text-xs text-gray-500 dark:text-gray-400 mb-1">
-                            Papst
-                        </label>
-                        <input
-                            type="text"
-                            value={popeName}
-                            onChange={(e) => setPopeName(e.target.value)}
-                            className="w-full px-2 py-1 text-sm bg-gray-100 dark:bg-gray-800 
-                                border dark:border-gray-600 rounded 
-                                text-gray-900 dark:text-gray-100"
-                            placeholder="Name des Papstes"
-                        />
-                    </div>
-                    <div>
-                        <label className="block text-xs text-gray-500 dark:text-gray-400 mb-1">
-                            Bischof
-                        </label>
-                        <input
-                            type="text"
-                            value={bishopName}
-                            onChange={(e) => setBishopName(e.target.value)}
-                            className="w-full px-2 py-1 text-sm bg-gray-100 dark:bg-gray-800 
-                                border dark:border-gray-600 rounded 
-                                text-gray-900 dark:text-gray-100"
-                            placeholder="Name des Bischofs"
-                        />
-                    </div>
+                <div className="grid gap-2 items-center mb-1"
+                    style={{ gridTemplateColumns: '6em 1fr' }}>
+                    <label className="text-sm text-gray-500 dark:text-gray-400">
+                        Papst
+                    </label>
+                    <input
+                        type="text"
+                        value={popeName}
+                        onChange={(e) => setPopeName(e.target.value)}
+                        className="px-3 py-1 text-sm bg-gray-100 dark:bg-gray-800 
+            border dark:border-gray-600 rounded 
+            text-gray-900 dark:text-gray-100"
+                        placeholder="Name des Papstes"
+                    />
+                </div>
+                <div className="grid gap-2 items-center"
+                    style={{ gridTemplateColumns: '6em 1fr' }}>
+                    <label className="text-sm text-gray-500 dark:text-gray-400">
+                        Bischof
+                    </label>
+                    <input
+                        type="text"
+                        value={bishopName}
+                        onChange={(e) => setBishopName(e.target.value)}
+                        className="px-3 py-1 text-sm bg-gray-100 dark:bg-gray-800 
+            border dark:border-gray-600 rounded 
+            text-gray-900 dark:text-gray-100"
+                        placeholder="Name des Bischofs"
+                    />
+                </div></div>
+            {/* Invitatorium Psalms Section - Neu als Auswahlraster */}
+            <div className="px-3 py-2">
+                <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-4">
+                    Invitatoriumspsalmen an den Wochentagen
+                </div>
+                <div className="space-y-3">
+                    {weekdays.map((day, dayIndex) => (
+                        <div key={day} className="grid gap-2 items-center"
+                            style={{ gridTemplateColumns: '6em 1fr 1fr 1fr 1fr' }}>
+                            <div className="text-sm text-gray-500 dark:text-gray-400">
+                                {day}
+                            </div>
+                            {availablePsalms.map(psalm => (
+                                <button
+                                    key={psalm}
+                                    onClick={() => handlePsalmSelect(dayIndex, psalm)}
+                                    className={`p-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded 
+                                  ${sequenceInv[dayIndex] === psalm
+                                            ? 'bg-orange-100 dark:bg-yellow-400/60'
+                                            : 'bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700'}`}
+                                >
+                                    {psalm}
+                                </button>
+                            ))}
+                        </div>
+                    ))}
                 </div>
             </div>
 
             {/* Import/Export Section */}
-            <div className="px-3 py-2 border-t dark:border-gray-700">
+            <div className="px-3 py-2">
                 <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
                     Personalisierung
                 </div>
 
-                <div className="flex gap-1">
-                    <div className="w-1/2">
+                <div className="flex gap-2">
+                    <div className="flex-1">
                         <input
                             type="file"
                             onChange={handleImport}
@@ -192,16 +246,20 @@ const PersonalSettings = () => {
                         />
                         <label
                             htmlFor="fileInput"
-                            className="block px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 cursor-pointer"
+                            className="block px-3 py-2 text-center text-sm text-gray-700 dark:text-gray-300 
+                                rounded bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 
+                                dark:hover:bg-gray-700 cursor-pointer"
                         >
                             Importieren
                         </label>
                     </div>
 
-                    <div className="w-1/2">
+                    <div className="flex-1">
                         <button
                             onClick={handleExport}
-                            className="w-full px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700"
+                            className="w-full px-3 py-2 text-center text-sm text-gray-700 
+                                dark:text-gray-300 rounded bg-gray-100 dark:bg-gray-800 
+                                hover:bg-gray-200 dark:hover:bg-gray-700"
                         >
                             Exportieren
                         </button>
@@ -212,7 +270,7 @@ const PersonalSettings = () => {
                     <p>Format: JSON (.json)</p>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 

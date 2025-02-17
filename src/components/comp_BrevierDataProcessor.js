@@ -636,17 +636,10 @@ export function processBrevierData(todayDate) {
 
     const invPsalms = processInvitatoriumPsalms(finalData);
     finalData.invitatorium.psalms = invPsalms
-    let prefInv = 95; // Standardwert und Wert für Sonntag
 
-    if (dayOfWeek !== 0) { // Nicht Sonntag
-        const preferredPsalm =
-            (dayOfWeek === 1 || dayOfWeek === 5) ? 100 : // Montag oder Freitag
-                (dayOfWeek === 3 || dayOfWeek === 4) ? 67 :  // Mittwoch oder Donnerstag
-                    24;  // Dienstag oder Samstag
-
-        // Prüfe ob der bevorzugte Psalm verfügbar ist
-        if (invPsalms.includes(preferredPsalm)) { prefInv = preferredPsalm; }
-    }
+    const sequenceInv = JSON.parse(localStorage.getItem('sequenceInv')) || [95, 100, 24, 67, 67, 100, 24];
+    let prefInv = sequenceInv[dayOfWeek];
+    if (!invPsalms.includes(prefInv)) { prefInv = 95; }
 
     finalData.prefInv = prefInv;
     return finalData;

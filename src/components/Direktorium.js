@@ -1623,7 +1623,7 @@ export default function LiturgicalCalendar() {
     const [deceasedMode, setDeceasedMode] = useState('recent');
     const [viewMode, setViewMode] = useState(() =>
         localStorage.getItem('startViewMode') || 'directory'
-    ); // 'directory', 'deceased', 'prayer', or 'prayerText'
+    ); // 'directory', 'deceased', 'prayer', 'prayerText', 'settings'
     const [baseFontSize, setBaseFontSize] = useTouchZoom(14, 8, 24, 0.7, showDatePicker);
     const [isReady, setIsReady] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -2289,8 +2289,21 @@ export default function LiturgicalCalendar() {
                             </div>
                         </div>
                         {/* Personal Settings Section */}
-                        <PersonalSettings />
 
+                        <div className="px-3 py-2 border-t dark:border-gray-700">
+                            <button
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    e.stopPropagation();
+                                    setViewMode('settings');
+                                    toggleMenu();
+                                }}
+                                className="w-full px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 
+            rounded bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700"
+                            >
+                                Einstellungen
+                            </button>
+                        </div>
                         <div className="border-t dark:border-gray-700"></div>
                     </div>
                 )}
@@ -2464,6 +2477,15 @@ export default function LiturgicalCalendar() {
 
                 {/* Main Content Area */}
                 <div className="mt-4">
+                    {viewMode === 'settings' && (
+                        <div className="px-4">
+                            <TitleBar
+                                title="Einstellungen"
+                                onBack={() => setViewMode('directory')}
+                            />
+                            <PersonalSettings />
+                        </div>
+                    )}
                     {/* Prayer Views */}
                     {viewMode === 'prayer' && (
                         <PrayerMenu
