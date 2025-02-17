@@ -24,7 +24,6 @@ const fontFamily = 'Cambria, serif';
 const hangingIndent = '3.2em'; // Variable für den Einzug
 const deceasedSizeRatio = 0.9;
 const DAYS_BUFFER = 7; // Anzahl der Tage vor/nach dem ausgewählten Datum
-const rubricColor = '#b6a03a';
 
 const months = ["Januar", "Februar", "März", "April", "Mai", "Juni",
     "Juli", "August", "September", "Oktober", "November", "Dezember"];
@@ -1132,7 +1131,7 @@ const PrayerTextDisplay = ({
                 <Rubric>V&nbsp;&nbsp;</Rubric>
                 <div>
                     {formatPrayerText(resp1_3)}
-                    <span className="text-rubric"> *&nbsp;</span>
+                    <Rubric> *&nbsp;</Rubric>
                     {formatPrayerText(formatSecondResponse(resp1_3, resp1_2))}
                 </div>
             </div>
@@ -1320,12 +1319,10 @@ const PrayerTextDisplay = ({
                                 <Rubric>R&nbsp;&nbsp;</Rubric>
                                 <div>
                                     {formatPrayerText(getValue('resp1_1'))}
-                                    <span className="text-rubric"> *&nbsp;</span>
+                                    <Rubric> *&nbsp;</Rubric>
                                     {formatPrayerText(getValue('resp1_2'))}
                                     {hour !== 'lesehore' && (
-                                        <span className="text-rubric">
-                                            &nbsp;–&nbsp;R
-                                        </span>
+                                        <Rubric>&nbsp;–&nbsp;R</Rubric>
                                     )}
                                 </div>
                             </div>
@@ -1338,9 +1335,7 @@ const PrayerTextDisplay = ({
                                 />
                                 {(hour !== 'lesehore') && (
                                     <div>Ehre sei dem Vater.
-                                        <span className="text-rubric">
-                                            &nbsp;–&nbsp;R
-                                        </span>
+                                        <Rubric>&nbsp;–&nbsp;R</Rubric>
                                     </div>
                                 )}
                             </>
@@ -1369,12 +1364,10 @@ const PrayerTextDisplay = ({
                                 <Rubric>R&nbsp;&nbsp;</Rubric>
                                 <div>
                                     {formatPrayerText(getValue('patr_resp1'))}
-                                    <span className="text-rubric"> *&nbsp;</span>
+                                    <Rubric> *&nbsp;</Rubric>
                                     {formatPrayerText(getValue('patr_resp2'))}
                                     {hour !== 'lesehore' && (
-                                        <span className="text-rubric">
-                                            &nbsp;–&nbsp;R
-                                        </span>
+                                        <Rubric>&nbsp;–&nbsp;R</Rubric>
                                     )}
                                 </div>
                             </div>
@@ -1428,12 +1421,11 @@ const PrayerTextDisplay = ({
                             </div>
                         )}
                         {getValue('bitten') && (
-                            <div className="">
+                            <div className="mb-[-0.75em]">
                                 {formatPrayerText(getValue('bitten'))}
                             </div>
                         )}
-                    </div>)
-                }
+                    </div>)}
 
                 {getValue('vu') && (
                     <div className="mb-0">
@@ -1448,8 +1440,7 @@ const PrayerTextDisplay = ({
                             </div>
                         )}
 
-                    </div>)
-                }
+                    </div>)}
 
                 {(hour !== "invitatorium") && (hour !== "komplet") && (
                     <div className="mb-0">
@@ -1459,8 +1450,7 @@ const PrayerTextDisplay = ({
                                 {formatPrayerText(getValue('oration'))}
                             </div>
                         )}
-                    </div>)
-                }
+                    </div>)}
 
                 {getValue('oration_komplet') && (
                     <div className="mb-0">
@@ -1484,8 +1474,7 @@ const PrayerTextDisplay = ({
                             </div>
                         )}
 
-                    </div>)
-                }
+                    </div>)}
             </div>
 
             <div className="mt-2">
@@ -1541,12 +1530,10 @@ const PrayerTextDisplay = ({
                                             <Rubric>R&nbsp;&nbsp;</Rubric>
                                             <div>
                                                 {formatPrayerText(getValue('c_patr_resp1'))}
-                                                <span className="text-rubric"> *&nbsp;</span>
+                                                <Rubric> *&nbsp;</Rubric>
                                                 {formatPrayerText(getValue('c_patr_resp2'))}
                                                 {hour !== 'lesehore' && (
-                                                    <span className="text-rubric">
-                                                        &nbsp;–&nbsp;R
-                                                    </span>
+                                                    <Rubric>&nbsp;–&nbsp;R</Rubric>
                                                 )}
                                             </div>
                                         </div>
@@ -2281,23 +2268,23 @@ export default function LiturgicalCalendar() {
                                     onClick={(e) => {
                                         e.preventDefault();
                                         e.stopPropagation();
-                                        setViewMode('deceased');
-                                        toggleMenu();
-                                    }}
-                                    className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${viewMode === 'deceased' ? 'bg-orange-100 dark:bg-yellow-400/60' : ''}`}
-                                >
-                                    Totenverzeichnis
-                                </button>
-                                <button
-                                    onClick={(e) => {
-                                        e.preventDefault();
-                                        e.stopPropagation();
                                         setViewMode('directory');
                                         toggleMenu();
                                     }}
                                     className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${viewMode === 'directory' ? 'bg-orange-100 dark:bg-yellow-400/60' : ''}`}
                                 >
                                     Direktorium
+                                </button>
+                                <button
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        e.stopPropagation();
+                                        setViewMode('deceased');
+                                        toggleMenu();
+                                    }}
+                                    className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${viewMode === 'deceased' ? 'bg-orange-100 dark:bg-yellow-400/60' : ''}`}
+                                >
+                                    Totenverzeichnis
                                 </button>
                             </div>
                         </div>

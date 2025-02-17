@@ -34,8 +34,8 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, formatPray
 
     const sourceOrder = useMemo(() => {
         // Prüfe die Ränge
-        const rank_date = texts?.rank_date || 0;
-        const rank_wt = texts?.rank_wt || 0;
+        const { rank_date = 0, rank_wt = 0, isCommemoration = false } = texts;
+
         const useWt = (prefSollemnity
             && !(['terz', 'sext', 'non'].includes(hour)))
             ? '' : 'wt'
@@ -45,7 +45,8 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, formatPray
         let sources = [localPrefSrc, 'pers'];
 
         // Ermittle Commune-Sources nur wenn nötig
-        const communeSources = !texts[hour]?.[localPrefSrc]?.hymn_1?.text
+        const communeSources = (!isCommemoration &&
+            !texts[hour]?.[localPrefSrc]?.hymn_1?.text)
             ? ['com1', 'com2']
                 .filter(com =>
                     texts[hour]?.[localPrefSrc]?.[com]?.hymn_1?.text ||

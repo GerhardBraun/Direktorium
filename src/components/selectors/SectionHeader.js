@@ -90,37 +90,27 @@ export const SectionHeader = ({
         return <h2 className="prayer-heading">{title}</h2>;
     }
 
+    const ButtonGroup = ({ children }) => (
+        <span
+            className="inline-block font-normal text-[0.85em]"
+        >
+            {children}
+        </span>
+    );
+
     return (
         <h2 className="prayer-heading inline-block space-x-3 items-baseline">
             <span className="inline-block">{title}</span>
             {hasLatin && (
-                <span className="inline-block">
+                <ButtonGroup>
                     <button
                         onClick={() => setLocalPrefLatin(prev => !prev)}
-                        className="font-normal text-[0.85em]"
                     >
                         (dt./lat.)
                     </button>
-                </span>)}
-            {invPsalms && (
-                <span className="inline-block font-normal text-[0.85em]">
-                    {[95, 100, 67, 24].map((psalmNumber, index) => (
-                        invPsalms?.includes(psalmNumber) ? (
-                            <React.Fragment key={psalmNumber}>
-                                {index > 0 && " | "}
-                                <button
-                                    onClick={() => setLocalPrefInv(psalmNumber)}
-                                    className={`${localPrefInv === psalmNumber ? 'underline' : ''}`}
-                                >
-                                    {psalmNumber === 95 ? `Ps ${psalmNumber}` : psalmNumber}
-                                </button>
-                            </React.Fragment>
-                        ) : null
-                    ))}
-                </span>
-            )}
+                </ButtonGroup>)}
             {showPsalmsWt && (
-                <span className="inline-block font-normal text-[0.85em]">
+                <ButtonGroup>
                     <button
                         onClick={() => setLocalPrefPsalmsWt(false)}
                         className={!localPrefPsalmsWt && 'underline'}
@@ -134,10 +124,10 @@ export const SectionHeader = ({
                     >
                         vom Wt
                     </button>
-                </span>
+                </ButtonGroup>
             )}
             {showErgPs && (
-                <span className="inline-block font-normal text-[0.85em]">
+                <ButtonGroup>
                     <button
                         onClick={() => setLocalPrefErgPs(false)}
                         className={!localPrefErgPs && 'underline'}
@@ -150,10 +140,10 @@ export const SectionHeader = ({
                         className={localPrefErgPs && 'underline'}                >
                         ErgPs
                     </button>
-                </span>
+                </ButtonGroup>
             )}
             {showContinuous && (
-                <span className="inline-block font-normal text-[0.85em]">
+                <ButtonGroup>
                     <button
                         onClick={() => setLocalPrefContinuous(false)}
                         className={!localPrefContinuous && 'underline'}
@@ -167,10 +157,10 @@ export const SectionHeader = ({
                     >
                         Bahnlesung
                     </button>
-                </span>
+                </ButtonGroup>
             )}
             {showSources && !skipCommune && (
-                <span className="inline-block font-normal text-[0.85em]">
+                <ButtonGroup>
                     <button
                         onClick={() => setLocalPrefComm(1)}
                         className={`${localPrefComm === 1 ? 'underline' : ''}`}
@@ -200,10 +190,10 @@ export const SectionHeader = ({
                             </button>
                         </>
                     )}
-                </span>
+                </ButtonGroup>
             )}
             {showTSN && (
-                <span className="inline-block font-normal text-[0.85em]">
+                <ButtonGroup>
                     <button
                         onClick={() => onSelectHour('terz')}
                         className={`${hour === 'terz' ? 'underline' : ''}`}
@@ -224,7 +214,24 @@ export const SectionHeader = ({
                     >
                         Non
                     </button>
-                </span>
+                </ButtonGroup>
+            )}
+            {invPsalms && (
+                <ButtonGroup>
+                    {[95, 100, 67, 24].map((psalmNumber, index) => (
+                        invPsalms?.includes(psalmNumber) ? (
+                            <React.Fragment key={psalmNumber}>
+                                {index > 0 && " | "}
+                                <button
+                                    onClick={() => setLocalPrefInv(psalmNumber)}
+                                    className={`${localPrefInv === psalmNumber ? 'underline' : ''}`}
+                                >
+                                    {psalmNumber === 95 ? `Ps ${psalmNumber}` : psalmNumber}
+                                </button>
+                            </React.Fragment>
+                        ) : null
+                    ))}
+                </ButtonGroup>
             )}
         </h2>
     );
