@@ -269,7 +269,7 @@ function processCommune(hours, targetHour, commune, season, targetSource, commun
         commune.split('_') : [commune, null];
 
     const targetKey = `com${communeNumber}`;
-
+    const readingHour = targetHour.charAt(0).toUpperCase() + targetHour.slice(1)
     // Ensure commune container exists for the target hour
     if (!hours[targetHour][targetSource]) {
         hours[targetHour][targetSource] = {};
@@ -279,7 +279,7 @@ function processCommune(hours, targetHour, commune, season, targetSource, commun
     }
 
     function addLayer(layerComm, layerSeason) {
-        const communeData = brevierData?.com?.[layerComm]?.[layerSeason]?.[targetHour];
+        const communeData = brevierData?.com?.[layerComm]?.[layerSeason]?.[readingHour];
         if (communeData) {
             Object.assign(
                 hours[targetHour][targetSource][targetKey],
@@ -589,7 +589,6 @@ export function processBrevierData(todayDate) {
     // Hole Stundendaten für den aktuellen Tag
     const todayData = getPrayerTexts(brevierData, personalData, todayDate, calendarDate);
     const tomorrowData = getPrayerTexts(brevierData, personalData, tomorrowDate, nextDate);
-    console.log('brevierDataProcessor:\nHeute / Morgen:\n', todayData, tomorrowData);
 
     // Prüfe, ob erste Vesper benötigt wird
     const rankWt = todayData.rank_wt;

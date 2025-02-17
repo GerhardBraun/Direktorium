@@ -1187,7 +1187,7 @@ const PrayerTextDisplay = ({
                     />
                 )}
                 {getValue('hymn_1') && (
-                    <div className="mb-2">
+                    <div className="mb-0">
                         <SectionHeader
                             title="HYMNUS"
                             field="hymn_1"
@@ -1208,7 +1208,7 @@ const PrayerTextDisplay = ({
                 )}
 
                 {(getValue('ps_1') || hour === "invitatorium") && (
-                    <div className="mb-1">
+                    <div className="mb-0">
                         <SectionHeader title="PSALMODIE" field="ps_1" />
                         {getValue('ant_0') && (
                             <div className="mb-4">
@@ -1259,7 +1259,7 @@ const PrayerTextDisplay = ({
                     </div>
                 )}
                 {getValue('resp0_0') && (
-                    <div className="mb-1">
+                    <div className="mb-0">
                         <SectionHeader title="VERSIKEL" field="resp0_0" />
                         {getValue('resp0_0') && (
                             <div className="mb-0 flex gap-0">
@@ -1273,29 +1273,30 @@ const PrayerTextDisplay = ({
                         )}
                     </div>)}
 
-                {getValue('les_buch') && getValue('les_stelle') && (<div className="mb-1">
-                    <SectionHeader
-                        title={hour === "lesehore" ? "ERSTE LESUNG" : "KURZLESUNG"}
-                        field="les_text"
-                        askContinuous={true}
-                        askTSN={true}
-                        onSelectHour={onSelectHour}
-                    />
-                    <div>
-                        {(hour !== "lesehore") && (
-                            <div className='text-[0.9em] text-gray-400'>{formatPrayerText(getValue('les_buch'))} {formatBibleRef(getValue('les_stelle'))}</div>
-                        )}
-                        {(hour === "lesehore") && (
-                            <>
-                                <div className='flex gap-3 items-baseline'>{formatPrayerText(getValue('les_buch'))}
-                                    <span className='text-[0.9em] text-gray-400'>{formatBibleRef(getValue('les_stelle'))}</span></div>
-                            </>)}
-                        {formatPrayerText(getValue('les_text'))}
-                    </div>
-                </div>)}
+                {getValue('les_buch') && getValue('les_stelle') && (
+                    <div className="mb-0">
+                        <SectionHeader
+                            title={hour === "lesehore" ? "ERSTE LESUNG" : "KURZLESUNG"}
+                            field="les_text"
+                            askContinuous={true}
+                            askTSN={true}
+                            onSelectHour={onSelectHour}
+                        />
+                        <div>
+                            {(hour !== "lesehore") && (
+                                <div className='text-[0.9em] text-gray-400'>{formatPrayerText(getValue('les_buch'))} {formatBibleRef(getValue('les_stelle'))}</div>
+                            )}
+                            {(hour === "lesehore") && (
+                                <>
+                                    <div><span className='mr-3'>{formatPrayerText(getValue('les_buch'))}</span>
+                                        <span className='inline-block whitespace-nowrap text-[0.9em] text-gray-400'>{formatBibleRef(getValue('les_stelle'))}</span></div>
+                                </>)}
+                            {formatPrayerText(getValue('les_text'))}
+                        </div>
+                    </div>)}
 
                 {getValue('resp1_1') && (
-                    <div className="mb-1 whitespace-pre-wrap">
+                    <div className="mb-0 whitespace-pre-wrap">
                         <SectionHeader title="RESPONSORIUM" field="resp1_1" />
                         {getValue('resp1_0') && getValue('resp1_1') && (
                             <div className="mb-0 flex gap-0">
@@ -1347,7 +1348,7 @@ const PrayerTextDisplay = ({
                     </div>)}
 
                 {getValue('patr_text') && (
-                    <div className="mb-1">
+                    <div className="mb-0">
                         <SectionHeader
                             title="ZWEITE LESUNG"
                             field="patr_text"
@@ -1361,7 +1362,7 @@ const PrayerTextDisplay = ({
                     </div>)}
 
                 {getValue('patr_resp1') && (
-                    <div className="mb-1">
+                    <div className="mb-0">
                         <SectionHeader title="RESPONSORIUM" field="resp1_1" />
                         {getValue('patr_resp1') && getValue('patr_resp2') && (
                             <div className="mb-0 flex gap-0">
@@ -1387,7 +1388,7 @@ const PrayerTextDisplay = ({
                     </div>)}
 
                 {getValue('ev') && (
-                    <div className="mb-1">
+                    <div className="mb-0">
                         <SectionHeader
                             title={getCanticleTitle(hour)}
                             field='ant_ev'
@@ -1404,14 +1405,14 @@ const PrayerTextDisplay = ({
                             </div>
                         )}
                         {getValue('ant_ev') && (
-                            <div className="mb-4">
+                            <div className="mb-0">
                                 {formatPrayerText(getValue('ant_ev'), 'Ant.°°')}
                             </div>
                         )}
                     </div>)}
 
                 {getValue('bitten') && (
-                    <div className="mb-1">
+                    <div className="mb-0">
                         <SectionHeader
                             title={hour === "laudes" ? "BITTEN" : "FÜRBITTEN"}
                             field="bitten"
@@ -1435,7 +1436,7 @@ const PrayerTextDisplay = ({
                 }
 
                 {getValue('vu') && (
-                    <div className="mb-1">
+                    <div className="mb-0">
                         <SectionHeader
                             title={hour === "lesehore" ? "TE DEUM" : "VATERUNSER"}
                             field="vu"
@@ -1451,7 +1452,7 @@ const PrayerTextDisplay = ({
                 }
 
                 {(hour !== "invitatorium") && (hour !== "komplet") && (
-                    <div className="mb-1">
+                    <div className="mb-0">
                         <SectionHeader title="ORATION" field="oration" />
                         {getValue('oration') && (
                             <div className="whitespace-pre-wrap">
@@ -1461,16 +1462,17 @@ const PrayerTextDisplay = ({
                     </div>)
                 }
 
-                {getValue('oration_komplet') && (<div className="mb-1">
-                    <SectionHeader title="ORATION" field="oration_komplet"
-                    />
-                    <div>
-                        {formatPrayerText(getValue('oration_komplet'))}
-                    </div>
-                </div>)}
+                {getValue('oration_komplet') && (
+                    <div className="mb-0">
+                        <SectionHeader title="ORATION" field="oration_komplet"
+                        />
+                        <div>
+                            {formatPrayerText(getValue('oration_komplet'))}
+                        </div>
+                    </div>)}
 
                 {getValue('marant') && (
-                    <div className="mb-1">
+                    <div className="mb-0">
                         <SectionHeader
                             title={"MARIANISCHE ANTIPHON"}
                             field="marant"
@@ -1517,7 +1519,7 @@ const PrayerTextDisplay = ({
                             />
 
                             {getValue('c_patr_text') && (
-                                <div className="mb-1">
+                                <div className="mb-0">
                                     <SectionHeader
                                         title="ZWEITE LESUNG"
                                         field="patr_text"
@@ -1532,7 +1534,7 @@ const PrayerTextDisplay = ({
                                 </div>)}
 
                             {getValue('c_patr_resp1') && (
-                                <div className="mb-1">
+                                <div className="mb-0">
                                     <SectionHeader title="RESPONSORIUM" field="resp1_1" />
                                     {getValue('c_patr_resp1') && getValue('c_patr_resp2') && (
                                         <div className="mb-0 flex gap-0">
@@ -1558,7 +1560,7 @@ const PrayerTextDisplay = ({
                                 </div>)}
 
                             {getValue('c_ant_ev') && (
-                                <div className="mb-1">
+                                <div className="mb-0">
                                     <SectionHeader
                                         title={`${getCanticleTitle(hour)}-ANTIPHON`}
                                         field='ant_ev'
@@ -1569,7 +1571,7 @@ const PrayerTextDisplay = ({
                                 </div>)}
 
                             {getValue('c_oration') && (
-                                <div className="mb-1">
+                                <div className="mb-0">
                                     <SectionHeader title="ORATION" field="oration" />
                                     <div className="whitespace-pre-wrap">
                                         {formatPrayerText(getValue('c_oration'))}
@@ -2326,37 +2328,6 @@ export default function LiturgicalCalendar() {
         fontSize: '10pt'
     };
 
-    useEffect(() => {
-        const styleElement = document.createElement('style');
-        styleElement.textContent = `
-            .formatVerse {
-                font-size: 0.9em;
-            }
-            .formatKleiner {
-                font-size: 0.94em;
-            }
-            .formatHochfest {
-                font-weight: bold;
-                text-transform: uppercase;
-            }
-            .formatFest {
-                font-weight: bold;
-                font-variant: small-caps;
-            }
-            .formatGesperrt {
-                letter-spacing: 0.2em;        
-            }
-            .prayer-heading {
-                font-weight: bold;
-                margin-top: 1em;
-                color: ${rubricColor};
-            }
-        `;
-        document.head.appendChild(styleElement);
-        return () => {
-            document.head.removeChild(styleElement);
-        };
-    }, []);
 
     useEffect(() => {
         const checkScreenWidth = () => {
@@ -2408,7 +2379,7 @@ export default function LiturgicalCalendar() {
                                     </button>
                                     <button
                                         onClick={handleToday}
-                                        className="shrink-0 px-4 py-2 bg-orange-100 dark:bg-yellow-400/60 hover:bg-orange-200 dark:hover:bg-yellow-400/70 rounded"
+                                        className="shrink-0 p-2 bg-orange-100 dark:bg-yellow-400/60 hover:bg-orange-200 dark:hover:bg-yellow-400/70 rounded"
                                     >
                                         Heute
                                     </button>
@@ -2494,7 +2465,7 @@ export default function LiturgicalCalendar() {
                                 {/* StB Button */}
                                 <button
                                     onClick={() => setViewMode('prayer')}
-                                    className="shrink-0 px-3 py-2 bg-orange-100 dark:bg-yellow-400/60 hover:bg-orange-200 dark:hover:bg-yellow-400/70 rounded"
+                                    className="shrink-0 px-3 p-2 bg-orange-100 dark:bg-yellow-400/60 hover:bg-orange-200 dark:hover:bg-yellow-400/70 rounded"
                                     title="Stundengebet"
                                 >
                                     StB

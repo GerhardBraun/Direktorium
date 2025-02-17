@@ -5,8 +5,8 @@ const checkSources = (texts, hour, prefSrc, field) => {
     const hasWt = texts[hour]['wt']?.[field];
     const hasComm1 = texts[hour][prefSrc]?.['com1']?.[field];
     const hasComm2 = texts[hour][prefSrc]?.['com2']?.[field];
-    const nameComm1 = texts['laudes'][prefSrc]?.['com1']?.['name'] || '1';
-    const nameComm2 = texts['laudes'][prefSrc]?.['com2']?.['name'] || '2';
+    const nameComm1 = texts['laudes'][prefSrc]?.['com1']?.['button'] || '1';
+    const nameComm2 = texts['laudes'][prefSrc]?.['com2']?.['button'] || '2';
 
     return {
         hasEig, hasWt,
@@ -91,18 +91,19 @@ export const SectionHeader = ({
     }
 
     return (
-        <h2 className="prayer-heading flex items-baseline gap-3 text-rubric">
-            {title}
+        <h2 className="prayer-heading inline-block space-x-3 items-baseline">
+            <span className="inline-block">{title}</span>
             {hasLatin && (
-                <button
-                    onClick={() => setLocalPrefLatin(prev => !prev)}
-                    className="font-normal text-[0.85em]"
-                >
-                    (dt./lat.)
-                </button>
-            )}
+                <span className="inline-block">
+                    <button
+                        onClick={() => setLocalPrefLatin(prev => !prev)}
+                        className="font-normal text-[0.85em]"
+                    >
+                        (dt./lat.)
+                    </button>
+                </span>)}
             {invPsalms && (
-                <span className="font-normal text-[0.85em]">
+                <span className="inline-block font-normal text-[0.85em]">
                     {[95, 100, 67, 24].map((psalmNumber, index) => (
                         invPsalms?.includes(psalmNumber) ? (
                             <React.Fragment key={psalmNumber}>
@@ -119,7 +120,7 @@ export const SectionHeader = ({
                 </span>
             )}
             {showPsalmsWt && (
-                <span className="font-normal text-[0.85em]">
+                <span className="inline-block font-normal text-[0.85em]">
                     <button
                         onClick={() => setLocalPrefPsalmsWt(false)}
                         className={!localPrefPsalmsWt && 'underline'}
@@ -136,7 +137,7 @@ export const SectionHeader = ({
                 </span>
             )}
             {showErgPs && (
-                <span className="font-normal text-[0.85em]">
+                <span className="inline-block font-normal text-[0.85em]">
                     <button
                         onClick={() => setLocalPrefErgPs(false)}
                         className={!localPrefErgPs && 'underline'}
@@ -152,7 +153,7 @@ export const SectionHeader = ({
                 </span>
             )}
             {showContinuous && (
-                <span className="font-normal text-[0.85em]">
+                <span className="inline-block font-normal text-[0.85em]">
                     <button
                         onClick={() => setLocalPrefContinuous(false)}
                         className={!localPrefContinuous && 'underline'}
@@ -169,7 +170,7 @@ export const SectionHeader = ({
                 </span>
             )}
             {showSources && !skipCommune && (
-                <span className="font-normal text-[0.85em]">
+                <span className="inline-block font-normal text-[0.85em]">
                     <button
                         onClick={() => setLocalPrefComm(1)}
                         className={`${localPrefComm === 1 ? 'underline' : ''}`}
@@ -202,7 +203,7 @@ export const SectionHeader = ({
                 </span>
             )}
             {showTSN && (
-                <span className="font-normal text-[0.85em]">
+                <span className="inline-block font-normal text-[0.85em]">
                     <button
                         onClick={() => onSelectHour('terz')}
                         className={`${hour === 'terz' ? 'underline' : ''}`}

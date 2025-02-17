@@ -1,9 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: 'class',
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -15,35 +13,33 @@ module.exports = {
       },
       letterSpacing: {
         'gesperrt': '0.2em',
-      },
+      }
     },
   },
   plugins: [
     function ({ addComponents }) {
       addComponents({
         '.format-verse': {
-          fontSize: '0.9em',
+          '@apply text-verse': {}
         },
         '.format-kleiner': {
-          fontSize: '0.94em',
+          '@apply text-kleiner': {}
         },
         '.format-hochfest': {
-          fontWeight: 'bold',
-          textTransform: 'uppercase',
+          '@apply font-bold uppercase': {}
         },
         '.format-fest': {
-          fontWeight: 'bold',
-          fontVariant: 'small-caps',
+          '@apply font-bold': {},
+          'font-variant': 'small-caps'
         },
         '.format-gesperrt': {
-          letterSpacing: '0.2em',
+          '@apply tracking-gesperrt': {}
         },
         '.prayer-heading': {
-          fontWeight: 'bold',
-          marginTop: '1em',
-          color: '#b6a03a', // oder '@theme(colors.rubric)'
-        },
+          '@apply font-bold text-rubric': {},
+          'margin-top': '1em'  // relative Einheit beibehalten
+        }
       })
     }
-  ],
+  ]
 };
