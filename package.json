@@ -18,7 +18,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "set \"DISABLE_ESLINT_PLUGIN=true\" && npm run build",
+    "commit": "git add . && git commit",
+    "predeploy": "set \"DISABLE_ESLINT_PLUGIN=true\" && git push && npm run build",
     "deploy": "gh-pages -d build && gh workflow run pages-build-deployment.yml",
     "start": "react-scripts start",
     "build": "set \"DISABLE_ESLINT_PLUGIN=true\" && react-scripts build",
