@@ -47,77 +47,6 @@ const TextSources = {
     WT: 'wt'
 };
 
-const useSwipeNavigation = (onSwipeLeft, onSwipeRight, isDatePickerOpen) => {
-    const [touchStart, setTouchStart] = useState(null);
-    const [touchEnd, setTouchEnd] = useState(null);
-
-    const minSwipeDistance = 50;
-
-    const onTouchStart = (e) => {
-        // Wenn DatePicker offen ist, keine Swipe-Gesten verarbeiten
-        if (isDatePickerOpen) return;
-
-        if (e.touches.length === 1) {
-            setTouchEnd(null);
-            setTouchStart({
-                x: e.targetTouches[0].clientX,
-                y: e.targetTouches[0].clientY
-            });
-        }
-    };
-
-    const onTouchMove = (e) => {
-        // Wenn DatePicker offen ist, keine Swipe-Gesten verarbeiten
-        if (isDatePickerOpen) return;
-
-        if (e.touches.length === 1) {
-            setTouchEnd({
-                x: e.targetTouches[0].clientX,
-                y: e.targetTouches[0].clientY
-            });
-        }
-    };
-
-    const onTouchEnd = () => {
-        // Wenn DatePicker offen ist, keine Swipe-Gesten verarbeiten
-        if (isDatePickerOpen) return;
-
-        if (!touchStart || !touchEnd) return;
-
-        const distanceX = touchStart.x - touchEnd.x;
-        const distanceY = Math.abs(touchStart.y - touchEnd.y);
-        const angle = Math.abs(Math.atan2(distanceY, Math.abs(distanceX)) * (180 / Math.PI));
-        const maxAngle = 30;
-        const isHorizontalSwipe = angle <= maxAngle;
-
-        if (isHorizontalSwipe && Math.abs(distanceX) > minSwipeDistance) {
-            if (distanceX > 0) {
-                onSwipeLeft();
-            } else {
-                onSwipeRight();
-            }
-        }
-
-        setTouchStart(null);
-        setTouchEnd(null);
-    };
-
-    useEffect(() => {
-        // Nur Event-Listener hinzufügen, wenn DatePicker nicht geöffnet ist
-        if (!isDatePickerOpen) {
-            document.addEventListener('touchstart', onTouchStart);
-            document.addEventListener('touchmove', onTouchMove);
-            document.addEventListener('touchend', onTouchEnd);
-
-            return () => {
-                document.removeEventListener('touchstart', onTouchStart);
-                document.removeEventListener('touchmove', onTouchMove);
-                document.removeEventListener('touchend', onTouchEnd);
-            };
-        }
-    }, [touchStart, touchEnd, isDatePickerOpen]);
-};
-
 // Ähnliche Anpassung für den useTouchZoom Hook
 const useTouchZoom = (initialFontSize, minSize = 8, maxSize = 24, sensitivity = 1.0, isDatePickerOpen) => {
     // Initialisierung mit gespeichertem Wert aus localStorage
@@ -1106,7 +1035,7 @@ const PrayerTextDisplay = ({
     );
 
     const formatPrayerText = (provText, marker = '') => {
-        return extFormatPrayerText(provText, marker, hour, season, texts?.week);
+        return extFormatPrayerText(provText, marker, hour, texts, prefSrc);
     };
 
     const PrayerResponse = ({ resp1_3, resp1_2 }) => {
@@ -1223,33 +1152,36 @@ const PrayerTextDisplay = ({
                                 )}
                             </div>
                         )}
-                        {hour !== "invitatorium" && [1, 2, 3].map(num => {
-                            const psalm = getValue(`ps_${num}`);
-                            const ant = getValue(`ant_${num}`);
-                            if (!psalm && !ant) return null;
+                        {hour !== "invitatorium" && (
+                            [1, 2, 3].map(num => {
+                                const psalm = getValue(`ps_${num}`);
+                                const ant = getValue(`ant_${num}`);
+                                if (!psalm && !ant) return null;
 
-                            return (
-                                <div key={num} className="mb-6">
-                                    {ant && (
-                                        <div className="mb-3" >
-                                            {formatPrayerText(ant, `${num}. Ant.°°`)}
-                                        </div>
-                                    )}
-                                    {psalm && formatPsalm(
-                                        psalm.number,
-                                        psalm.verses,
-                                        psalm.title,
-                                        psalm.quote,
-                                        psalm.text
-                                    )}
-                                    {ant && (
-                                        <div >
-                                            {formatPrayerText(ant, `${num}. Ant.°°`)}
-                                        </div>
-                                    )}
-                                </div>
-                            );
-                        })}
+                                return (
+                                    <div key={num} >
+                                        {ant && (
+                                            <div className="mb-3" >
+                                                {formatPrayerText(ant, `${num}. Ant.°°`)}
+                                            </div>
+                                        )}
+                                        {psalm && formatPsalm(
+                                            psalm.number,
+                                            psalm.verses,
+                                            psalm.title,
+                                            psalm.quote,
+                                            psalm.text
+                                        )}
+                                        {ant && (
+                                            <div className="mb-6">
+                                                {formatPrayerText(ant, `${num}. Ant.°°`)}
+                                            </div>
+                                        )}
+                                    </div>
+                                );
+                            })
+                        )
+                        }
                         {getValue('ant_0') && (
                             <div>
                                 {formatPrayerText(getValue('ant_0'), "Ant.°°")}
@@ -1694,20 +1626,6 @@ export default function LiturgicalCalendar() {
             }
         }
     }, [selectedDate, isScrolling, formatDate]);
-
-    const handleSwipeLeft = () => {
-        // Nur navigieren wenn nicht im Text-View
-        if (viewMode !== 'prayerText') {
-            setViewMode(getNextView(viewMode, 'right'));
-        }
-    };
-
-    const handleSwipeRight = () => {
-        // Nur navigieren wenn nicht im Text-View
-        if (viewMode !== 'prayerText') {
-            setViewMode(getNextView(viewMode, 'left'));
-        }
-    };
 
     // Touch-Navigation Hook
     //  - bis auf Weiteres deaktiviert, weil die Scroll-Funktionen beeinträchtigt werden

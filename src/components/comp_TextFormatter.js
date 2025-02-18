@@ -1,4 +1,3 @@
-import { parseTextWithReferences } from './comp_RefLink.jsx';
 import formatBibleRef from './comp_BibleRefFormatter.js';
 
 const doxology = "Ehre sei dem Vater und dem Sohn^*und dem Heiligen Geist,^pwie im Anfang so auch jetzt und alle Zeit^*und in Ewigkeit. Amen.";
@@ -66,23 +65,48 @@ export const formatText = (text) => {
     return formattedText;
 };
 
+
 // Formatiert Gebetstext mit speziellen Tags und saisonalen Anpassungen
-export const formatPrayerText = (provText, marker = '', hour = '', season = '', week = null) => {
+export const formatPrayerText = (provText, marker = '',
+    hour = '', texts = {}, prefSrc = '') => {
     if (!provText || provText === 'LEER') return null;
     const isTSN = ['terz', 'sext', 'non'].includes(hour);
+    const { season, week } = texts;
+    const { nominativ, genitiv, vokativ } = texts?.laudes?.[prefSrc] || {};
 
     let text = marker ? `^r${marker}^0r${provText}` : provText;
     text = text
         .replace(/\^ö/g, season === 'o' ? ' Halleluja.' : '')
         .replace(/\^Ö/g, season === 'q' ? '' : ' Halleluja.')
         .replace(/\^R/g, (season === 'o' && week === 1) ? easterAntiphon : '')
-        .replace(/\^orV/g, isTSN ? orKurzVater : orVater)
-        .replace(/\^orVr/g, isTSN ? orKurzVaterRel : orVaterRel)
-        .replace(/\^orR/g, isTSN ? orKurzRel : orRel)
-        .replace(/\^orS/g, isTSN ? orKurzSohn : orSohn)
+        .replace(/\^ORvR/g, isTSN ? orKurzVaterRel : orVaterRel)
+        .replace(/\^ORV/g, isTSN ? orKurzVater : orVater)
+        .replace(/\^ORR/g, isTSN ? orKurzRel : orRel)
+        .replace(/\^ORS/g, isTSN ? orKurzSohn : orSohn)
         .replace(/\^NP/g, localStorage.getItem('popeName') || '^N')
         .replace(/\^NB/g, localStorage.getItem('bishopName') || '^N')
         .replace(/\^NH/g, '^N');
+
+    if (nominativ) {
+        text = text.replace(/Der heilige \^NOM/g, nominativ);
+        text = text.replace(/Die heilige \^NOM/g, nominativ);
+        text = text.replace(/Die heiligen \^NOM/g, nominativ);
+    }
+
+    if (genitiv) {
+        text = text.replace(/des heiligen \^GEN/g, genitiv);
+        text = text.replace(/der heiligen \^GEN/g, genitiv);
+    }
+
+    if (vokativ) {
+        text = text.replace(/Heiliger \^VOK/g, vokativ);
+        text = text.replace(/Heilige \^VOK/g, vokativ);
+    }
+
+    text = text
+        .replace(/\^NOM/g, '^N')
+        .replace(/\^GEN/g, '^N')
+        .replace(/\^VOK/g, '^N');
 
     // Inline-Formatierungen als React-Elemente verarbeiten
     const processInlineFormats = (text) => {

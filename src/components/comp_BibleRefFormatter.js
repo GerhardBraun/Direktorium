@@ -17,7 +17,7 @@ const formatBibleRef = (text) => {
         if (currentText) {
             if (inVerseSection) {
                 result.push(
-                    <span className='formatVerse' key={`verse-${result.length}`}>
+                    <span className='format-verse' key={`verse-${result.length}`}>
                         {currentText}
                     </span>
                 );
