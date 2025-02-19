@@ -18,8 +18,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "commit": "git add . && git commit",
-    "update": "git add . && git commit && git push",
+    "converter": "python C:/AppProjekte/excel-liturgical-converter/converter.py",
+    "brevier": "python C:/AppProjekte/excel-liturgical-converter/converter.py -m 1",
+    "deceased": "python C:/AppProjekte/excel-liturgical-converter/converter.py -m 2",
+    "update": "git add . && ([ \"$npm_config_m\" ] && git commit -m \"$npm_config_m\" || git commit) && git push",
     "predeploy": "set \"DISABLE_ESLINT_PLUGIN=true\" && git push && npm run build",
     "deploy": "gh-pages -d build && gh workflow run pages-build-deployment.yml",
     "start": "react-scripts start",
