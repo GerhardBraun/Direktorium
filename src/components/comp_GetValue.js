@@ -10,12 +10,12 @@ export const getValue = ({ hour, texts, field,
     if (hour === 'komplet') {
         if (localPrefKomplet === 'wt') {
             if (!texts?.komplet?.showKompletWt) { return null }
-            if (texts['komplet']['eig']?.[field]) {
-                return texts['komplet']['eig']?.[field];
+            if (texts.komplet.eig?.[field]) {
+                return texts.komplet.eig?.[field];
             }
         }
-        if (texts['komplet'][localPrefKomplet]?.[field]) {
-            return texts['komplet'][localPrefKomplet]?.[field];
+        if (texts.komplet[localPrefKomplet]?.[field]) {
+            return texts.komplet[localPrefKomplet]?.[field];
         }
         return null;
     }
@@ -34,8 +34,8 @@ export const getValue = ({ hour, texts, field,
 
     // Bei lokaler Feier als Hochfest Oration immer aus den Laudes
     if (prefSollemnity === 'soll' && field === 'oration') {
-        if (texts['laudes'][prefSrc]?.['oration']) {
-            return texts['laudes'][prefSrc]['oration'];
+        if (texts.laudes[prefSrc]?.oration) {
+            return texts.laudes[prefSrc].oration;
         }
         return null;
     }
@@ -57,11 +57,11 @@ export const getValue = ({ hour, texts, field,
         if (texts[hour][prefSrc]?.[field]) {
             return texts[hour][prefSrc][field];
         }
-        if (field === 'ant_ev' && texts[hour][prefSrc]?.['ant_komm']) {
-            return texts[hour][prefSrc]['ant_komm'];
+        if (field === 'ant_ev' && texts[hour][prefSrc]?.ant_komm) {
+            return texts[hour][prefSrc].ant_komm;
         }
-        if (texts[hour][prefSrc]?.['com1']?.[field]) {
-            return texts[hour][prefSrc]?.['com1'][field];
+        if (texts[hour][prefSrc]?.com1?.[field]) {
+            return texts[hour][prefSrc]?.com1[field];
         }
         return null;
     }
@@ -86,15 +86,16 @@ export const getValue = ({ hour, texts, field,
     if (isKirchwVerst) { skipCommune = true }
 
     let prefTexts = texts[hour]?.[prefSrc];
+    if (!prefTexts) { prefTexts = texts[hour]?.pers }
     if (isKirchwVerst) { prefTexts = texts[hour]?.[prefSollemnity] }
 
     let prefCommTexts = '';
     if (!skipCommune) {
         if (localPrefComm === 1
             || (isSollemnity && localPrefComm === 0)
-        ) { prefCommTexts = prefTexts?.['com1'] }
+        ) { prefCommTexts = prefTexts?.com1 }
         if (localPrefComm === 2
-        ) { prefCommTexts = prefTexts?.['com2'] }
+        ) { prefCommTexts = prefTexts?.com2 }
     }
 
     if ((!isCommemoration && !(rank_date < 3 && isTSN)) // an Tagen mit Kommemoration und in Kl. Horen an Gedenktagen nur wt-Werte
@@ -102,18 +103,18 @@ export const getValue = ({ hour, texts, field,
 
         //Sonderfall Antiphonen: entweder ant_0 oder ant_1-3
         if (field === 'ant_0' &&
-            (prefTexts?.['ant_1'] || prefCommTexts?.['ant_1'])
+            (prefTexts?.ant_1 || prefCommTexts?.ant_1)
         ) { return null }
 
         if ((field === 'ant_1' || field === 'ant_2' || field === 'ant_3') &&
-            (prefTexts?.['ant_0'] || prefCommTexts?.['ant_0'])
+            (prefTexts?.ant_0 || prefCommTexts?.ant_0)
         ) { return null }
 
         //Sonderfall Wochentagspsalmen
         if (localPrefPsalmsWt &&
             hour !== 'invitatorium' && hour !== 'komplet' &&
             field.startsWith('ps_')
-        ) { return texts[hour]?.['wt']?.[field] }
+        ) { return texts[hour]?.wt?.[field] }
 
         //Sonderfall Bahnlesung
         if (localPrefContinuous &&
@@ -121,7 +122,7 @@ export const getValue = ({ hour, texts, field,
             (field.startsWith('les_')
                 || field.startsWith('resp1_')
                 || field.startsWith('patr_'))
-        ) { return texts[hour]?.['wt']?.[field] }
+        ) { return texts[hour]?.wt?.[field] }
 
         // 1. Prüfe zuerst prefSrc
         if (prefTexts?.[field]) {
@@ -132,9 +133,12 @@ export const getValue = ({ hour, texts, field,
             return prefCommTexts[field]
         }
     }
+    if (texts[hour].pers?.[field]) {
+        return texts[hour].pers[field];
+    }
     // 3. Verwende "wt" als letzte Option
-    if (texts[hour]['wt']?.[field]) {
-        return texts[hour]['wt'][field];
+    if (texts[hour].wt?.[field]) {
+        return texts[hour].wt[field];
     }
     return null;
 }

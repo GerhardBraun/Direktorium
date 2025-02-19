@@ -202,7 +202,10 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
 
         addLayer(season, 'each', 'each', true);     // Layer 2: Season-wide texts
         addLayer(season, 'each', dayOfWeek);        // Layer 3: Weekly schema for the season
-        if (week % 2 === 0) { addLayer(season, 'even', dayOfWeek); }// Layer 4: Bi-weekly schema
+        if (week % 2 === 0) {                       // Layer 4: Bi-weekly schema
+            addLayer(season, 'even', 'each');
+            addLayer(season, 'even', dayOfWeek);
+        }
 
         // Layer 5.1: 'last' für letzte Adventstage, nach Erscheinung und Pfingstnovene
         const shouldUseLast = (
