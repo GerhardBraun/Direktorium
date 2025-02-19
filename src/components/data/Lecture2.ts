@@ -62,7 +62,7 @@ export const lecture2Data = {
       },
       "3": {
         "Lesehore": {
-          "les_buch": "Aus dem Buch Genesis.",
+          "les_buch": "Aus dem Buch Genisis.",
           "les_text": "(…)"
         }
       },
