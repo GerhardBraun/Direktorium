@@ -182,6 +182,26 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
                 }
             }
         });
+        //Ordinary data from personalData
+        const ordData = personalData?.wt?.each;
+        const ordSeasonData = personalData?.wt?.[season];
+        if (ordData) {
+            if (ordData.each) {
+                mergeData(hours, ordData.each, 'pers');
+            }
+            if (ordData[dayOfWeek]) {
+                mergeData(hours, ordData[dayOfWeek], 'pers');
+            }
+        }
+        if (ordSeasonData) {
+            if (ordSeasonData.each) {
+                mergeData(hours, ordSeasonData.each, 'pers');
+            }
+            if (ordSeasonData[dayOfWeek]) {
+                mergeData(hours, ordSeasonData[dayOfWeek], 'pers');
+            }
+        }
+
 
         function addLayer(source, week, dayOfWeek, komplet = false) {
             const layerData = brevierData?.[source]?.[week]?.[dayOfWeek];
