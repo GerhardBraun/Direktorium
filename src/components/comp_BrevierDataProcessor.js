@@ -218,6 +218,7 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         // Layer 5.2: 17. Dez. bis Taufe des Herrn (Kalendertage) mit Weihnachtsoktav
         if (season === "a" || season === "w") {
             if (calendarDay > 24) { addLayer('w', 'okt', 'each') };
+            addLayer('k', calendarMonth, 'each');
             addLayer('k', calendarMonth, calendarDay);
         }
 

@@ -906,7 +906,7 @@ export const brevierData = {
       "each": {
         "Vesper": {
           "hymn_1": 3141.0,
-          "hymn_2": 3143.0,
+          "hymn_2": 3142.1,
           "hymn_kl": 0.0
         }
       }
@@ -10810,7 +10810,7 @@ export const brevierData = {
         },
         "Vesper": {
           "hymn_1": 2412.0,
-          "hymn_kl": 2516.0,
+          "hymn_kl": 2501.0,
           "ps_1": 125.0,
           "ps_2": 131.0,
           "ps_3": 153.0,
@@ -11328,7 +11328,7 @@ export const brevierData = {
         },
         "Vesper": {
           "hymn_1": 2421.0,
-          "hymn_kl": 2517.0,
+          "hymn_kl": 2502.0,
           "ps_1": 136.1,
           "ps_2": 136.2,
           "ps_3": 152.0,
@@ -14362,7 +14362,7 @@ export const brevierData = {
           "ant_3": ""
         },
         "Komplet": {
-          "hymn_2": 2506.0,
+          "hymn_2": 2516.0,
           "ps_1": 4.0,
           "ps_2": 134.0,
           "ant_1": "Sei mir gnädig, Herr, und höre auf mein Flehen.",
