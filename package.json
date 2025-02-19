@@ -21,7 +21,7 @@
     "converter": "python C:/AppProjekte/excel-liturgical-converter/converter.py",
     "brevier": "python C:/AppProjekte/excel-liturgical-converter/converter.py -m 1",
     "deceased": "python C:/AppProjekte/excel-liturgical-converter/converter.py -m 2",
-    "update": "git add . && (if \"%npm_config_m%\"==\"\" (git commit) else (git commit -m \"%npm_config_m%\")) && git push",
+    "update": "git add . && (if %npm_config_m%==\"\" (git commit) else (git commit -m %npm_config_m%)) && git push",
     "predeploy": "set \"DISABLE_ESLINT_PLUGIN=true\" && git push && npm run build",
     "deploy": "gh-pages -d build && gh workflow run pages-build-deployment.yml",
     "start": "react-scripts start",
