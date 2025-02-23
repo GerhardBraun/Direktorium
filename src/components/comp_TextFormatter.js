@@ -3,16 +3,6 @@ import formatBibleRef from './comp_BibleRefFormatter.js';
 const doxology = "Ehre sei dem Vater und dem Sohn^*und dem Heiligen Geist,^pwie im Anfang so auch jetzt und alle Zeit^*und in Ewigkeit. Amen.";
 const easterAntiphon = "^p^rAnstelle des Responsoriums wird die°folgende°Antiphon°genommen:^0r^lDas ist der Tag, den der Herr gemacht hat. Lasst°uns°jubeln und seiner uns freuen. Halleluja.";
 
-const orVater = " Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.";
-const orVaterRel = " Darum bitten wir durch ihn, Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.";
-const orRel = " Der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.";
-const orSohn = " Der du in der Einheit des Heiligen Geistes mit Gott dem Vater lebst und herrschest in alle Ewigkeit.";
-
-const orKurzVater = " Darum bitten wir durch Christus, unseren Herrn.";
-const orKurzVaterRel = " Darum bitten wir durch ihn, Christus, unseren Herrn.";
-const orKurzRel = " Der mit dir lebt und herrscht in alle Ewigkeit.";
-const orKurzSohn = " Der du lebst und herrschest in alle Ewigkeit.";
-
 // Formatiert Psalmen mit Nummer, Versen, Titel und Text
 export const formatPsalm = (number, verses, title, quote, text) => {
     if (!text) return null;
@@ -70,19 +60,39 @@ export const formatText = (text) => {
 export const formatPrayerText = (provText, marker = '',
     hour = '', texts = {}, prefSrc = '') => {
     if (!provText || provText === 'LEER') return null;
-    const isTSN = ['terz', 'sext', 'non'].includes(hour);
     const { season, week } = texts;
     const { nominativ, genitiv, vokativ } = texts?.laudes?.[prefSrc] || {};
+
+
+    const orSchluss = ['lesehore', 'laudes', 'vesper'].includes(hour)
+        ? {
+            vR: " Darum bitten wir durch ihn, Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
+            V: " Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
+            S: ", der du in der Einheit des Heiligen Geistes mit Gott dem Vater lebst und herrschest in alle Ewigkeit.",
+            R: ", der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
+            Sgroß: ". Der du in der Einheit des Heiligen Geistes mit Gott dem Vater lebst und herrschest in alle Ewigkeit.",
+            Rgroß: ". Der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+        }
+        : {
+            vR: " Darum bitten wir durch ihn, Christus, unseren Herrn.",
+            V: " Darum bitten wir durch Christus, unseren Herrn.",
+            S: ", der du lebst und herrschest in alle Ewigkeit.",
+            R: ", der mit dir lebt und herrscht in alle Ewigkeit.",
+            Sgroß: ". Der du lebst und herrschest in alle Ewigkeit.",
+            Rgroß: ". Der mit dir lebt und herrscht in alle Ewigkeit."
+        }
 
     let text = marker ? `^r${marker}^0r${provText}` : provText;
     text = text
         .replace(/\^ö/g, season === 'o' ? ' Halleluja.' : '')
         .replace(/\^Ö/g, season === 'q' ? '' : ' Halleluja.')
         .replace(/\^R/g, (season === 'o' && week === 1) ? easterAntiphon : '')
-        .replace(/\^ORvR/g, isTSN ? orKurzVaterRel : orVaterRel)
-        .replace(/\^ORV/g, isTSN ? orKurzVater : orVater)
-        .replace(/\^ORR/g, isTSN ? orKurzRel : orRel)
-        .replace(/\^ORS/g, isTSN ? orKurzSohn : orSohn)
+        .replace(/\^ORvR/g, orSchluss.vR)
+        .replace(/\^ORV/g, orSchluss.V)
+        .replace(/,\^ORS/g, orSchluss.S)
+        .replace(/,\^ORR/g, orSchluss.R)
+        .replace(/.\^ORS/g, orSchluss.Sgroß)
+        .replace(/.\^ORR/g, orSchluss.Rgroß)
         .replace(/\^NP/g, localStorage.getItem('popeName') || '^N')
         .replace(/\^NB/g, localStorage.getItem('bishopName') || '^N')
         .replace(/\^NH/g, '^N');

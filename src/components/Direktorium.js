@@ -1254,7 +1254,7 @@ const PrayerTextDisplay = ({
                                     <Rubric> *&nbsp;</Rubric>
                                     {formatPrayerText(getValue('resp1_2'))}
                                     {hour !== 'lesehore' && (
-                                        <Rubric>&nbsp;–&nbsp;R</Rubric>
+                                        <Rubric> –&#8204;&nbsp;R</Rubric>
                                     )}
                                 </div>
                             </div>
@@ -1267,7 +1267,7 @@ const PrayerTextDisplay = ({
                                 />
                                 {(hour !== 'lesehore') && (
                                     <div>Ehre sei dem Vater.
-                                        <Rubric>&nbsp;–&nbsp;R</Rubric>
+                                        <Rubric> –&#8204;&nbsp;R</Rubric>
                                     </div>
                                 )}
                             </>
@@ -1299,7 +1299,7 @@ const PrayerTextDisplay = ({
                                     <Rubric> *&nbsp;</Rubric>
                                     {formatPrayerText(getValue('patr_resp2'))}
                                     {hour !== 'lesehore' && (
-                                        <Rubric>&nbsp;–&nbsp;R</Rubric>
+                                        <Rubric> –&#8204;&nbsp;R</Rubric>
                                     )}
                                 </div>
                             </div>
@@ -1465,7 +1465,7 @@ const PrayerTextDisplay = ({
                                                 <Rubric> *&nbsp;</Rubric>
                                                 {formatPrayerText(getValue('c_patr_resp2'))}
                                                 {hour !== 'lesehore' && (
-                                                    <Rubric>&nbsp;–&nbsp;R</Rubric>
+                                                    <Rubric> –&#8204;&nbsp;R</Rubric>
                                                 )}
                                             </div>
                                         </div>

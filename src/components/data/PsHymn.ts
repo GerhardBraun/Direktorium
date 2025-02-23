@@ -837,6 +837,10 @@ export const psalmsData = {
       }
   },
   72: {
+    0.0: {
+        "verses": "1–19",
+        "text": "Verleih dein Richteramt, o°Gott, dem König,^*dem Königssohn gib dein gerechtes Walten!^pEr regiere dein Volk in Gerechtigkeit^*und deine Armen durch rechtes Urteil.^pDann tragen die Berge Frieden für das Volk^*und die Höhen Gerechtigkeit.^pEr wird Recht verschaffen den Gebeugten im Volk,^+Hilfe bringen den Kindern der Armen,^*er wird die Unterdrücker zermalmen.^pEr soll leben, solange die Sonne bleibt und der Mond,^*bis zu den fernsten Geschlechtern.^pEr ströme wie Regen herab auf die Felder,^*wie Regenschauer, die die Erde benetzen.^pDie Gerechtigkeit blühe auf in seinen Tagen^*und großer Friede, bis der Mond nicht mehr da ist.^pEr herrsche von Meer zu Meer,^*vom Strom bis an die Enden der Erde.^pVor ihm sollen seine Gegner sich beugen,^*Staub sollen lecken all seine Feinde.^pDie Könige von Tarschisch und von den Inseln bringen Geschenke,^*die Könige von Saba und Seba kommen mit Gaben.^pAlle Könige müssen ihm huldigen,^*alle Völker ihm dienen.^pDenn er rettet den Gebeugten, der um Hilfe schreit,^*den Armen und den, der keinen Helfer hat.^pEr erbarmt sich des Gebeugten und Schwachen,^*er rettet das Leben der Armen.^pVon Unterdrückung und Gewalttat befreit er sie,^*ihr Blut ist in seinen Augen kostbar.^pEr lebe, und Gold von Saba soll man ihm geben!^+Man soll für ihn allezeit beten,^*stets für ihn Segen erflehen.^pIm Land gebe es Korn in Fülle.^*Es rausche auf dem Gipfel der Berge.^pSeine Frucht wird sein wie die Bäume des Libanon.^*Menschen blühn in der Stadt wie das Gras der Erde.^pSein Name soll ewig bestehen;^*solange die Sonne bleibt, sprosse sein Name.^pGlücklich preisen sollen ihn alle Völker^*und in ihm sich segnen.^pGepriesen sei der Herr, der Gott Israels!^*Er allein tut Wunder.^pGepriesen sei sein herrlicher Name in Ewigkeit!^*Seine Herrlichkeit erfülle die ganze Erde. Amen, ja amen."
+      },
     1.0: {
         "verses": "1-11",
         "title": "Der Friedenskönig und sein Reich",
@@ -1015,6 +1019,10 @@ export const psalmsData = {
         "title": "Gott ist barmherzig und gnädig",
         "quote": "Gepriesen sei Gott … er tröstet uns in all unserer Not. (2°Kor°1,3.4)",
         "text": "Wende dein Ohr mir zu, erhöre mich, Herr!^*Denn ich bin arm und gebeugt.^pBeschütze mich, denn ich bin dir ergeben!^*Hilf deinem Knecht, der dir vertraut!^pDu bist mein Gott. Sei mir gnädig, o°Herr!^*Den ganzen Tag rufe ich zu dir.^pHerr, erfreue deinen Knecht,^*denn ich erhebe meine Seele zu dir.^pHerr, du bist gütig und bereit zu verzeihen,^*für alle, die zu dir rufen, reich an Gnade.^pHerr, vernimm mein Beten,^*achte auf mein lautes Flehen!^pAm Tag meiner Not rufe ich zu dir,^*denn du wirst mich erhören.^pHerr, unter den Göttern ist keiner wie du,^*und nichts gleicht den Werken, die du geschaffen hast.^pAlle Völker kommen und beten dich an,^*sie geben, Herr, deinem Namen die Ehre.^pDenn du bist groß und tust Wunder;^*du allein bist Gott.^pWeise mir, Herr, deinen Weg;^*ich will ihn gehen in Treue zu dir.^pRichte mein Herz darauf hin,^*allein deinen Namen zu fürchten!^pIch will dir danken, Herr, mein Gott, aus ganzem Herzen,^*will deinen Namen ehren immer und ewig.^pDu hast mich den Tiefen des Totenreichs entrissen.^*Denn groß ist über mir deine Huld.^pGott, freche Menschen haben sich gegen mich erhoben,^+die Rotte der Gewalttäter trachtet mir nach dem Leben;^*doch dich haben sie nicht vor Augen.^pDu aber, Herr, bist ein barmherziger und gnädiger Gott,^*du bist langmütig, reich an Huld und Treue.^pWende dich mir zu und sei mir gnädig,^+gib deinem Knecht wieder Kraft^*und hilf dem Sohn deiner Magd!^pTu ein Zeichen und schenke mir Glück!^+Alle, die mich hassen, sollen es sehen und sich schämen,^*weil du, Herr, mich gerettet und getröstet hast."
+      },
+    1.0: {
+        "verses": "1–10",
+        "text": "Wende dein Ohr mir zu, erhöre mich, Herr!^*Denn ich bin arm und gebeugt.^pBeschütze mich, denn ich bin dir ergeben!^*Hilf deinem Knecht, der dir vertraut!^pDu bist mein Gott. Sei mir gnädig, o°Herr!^*Den ganzen Tag rufe ich zu dir.^pHerr, erfreue deinen Knecht,^*denn ich erhebe meine Seele zu dir.^pHerr, du bist gütig und bereit zu verzeihen,^*für alle, die zu dir rufen, reich an Gnade.^pHerr, vernimm mein Beten,^*achte auf mein lautes Flehen!^pAm Tag meiner Not rufe ich zu dir,^*denn du wirst mich erhören.^pHerr, unter den Göttern ist keiner wie du,^*und nichts gleicht den Werken, die du geschaffen hast.^pAlle Völker kommen und beten dich an,^*sie geben, Herr, deinem Namen die Ehre.^pDenn du bist groß und tust Wunder;^*du allein bist Gott."
       }
   },
   87: {
@@ -3187,7 +3195,7 @@ export const psalmsData = {
     4.0: {
         "title": "Aus des Vaters Herz geboren",
         "quote": "Gottesmutter",
-        "text": "Aus des Vaters Herz geboren,^lehe Welt und Zeit begann,^lChristus, A und o°der Schöpfung,^lZiel und Ursprung aller Welt,^lallen Seins, das je gewesen,^ldas jetzt ist und kommen wird^limmer und in Ewigkeit.^pDie Gestalt des schwachen Fleisches^lund des Leibes Totenkleid^lzogst du an, dass wir nicht sterben^lan dem ersten Todeskeim^lund im Abgrund des Gesetzes^lohne Rettung untergehn^limmer und in Ewigkeit.^pSeht, nun strahlt ein neuer Morgen:^lChristus, unser Heil, erscheint,^lden die Kraft des Geistes zeugte,^lden die Jungfrau uns gebar.^lUnd im Kinde offenbart sich^lder Erlöser aller Welt^limmer und in Ewigkeit.^pDen der Seher dunkle Rede^luns als Retter angesagt,^lden in langer Zeit des Harrens^lder Propheten Glaube sah:^lEr ist da, den sie verheißen.^lGrüßt ihn jubelnd mit Gesang^limmer und in Ewigkeit.^pGott dem Vater sei die Ehre,^lder uns seinen Sohn gesandt,^lEhre Christus, unserm Retter,^lden die Jungfrau uns gebar,^lEhre auch dem Heil’gen Geiste,^lRuhm und Preis und Lobgesang^limmer und in Ewigkeit. Amen."
+        "text": "Aus des Vaters Herz geboren,^lehe Welt und Zeit begann,^lChristus, A und O der Schöpfung,^lZiel und Ursprung aller Welt,^lallen Seins, das je gewesen,^ldas jetzt ist und kommen wird^limmer und in Ewigkeit.^pDie Gestalt des schwachen Fleisches^lund des Leibes Totenkleid^lzogst du an, dass wir nicht sterben^lan dem ersten Todeskeim^lund im Abgrund des Gesetzes^lohne Rettung untergehn^limmer und in Ewigkeit.^pSeht, nun strahlt ein neuer Morgen:^lChristus, unser Heil, erscheint,^lden die Kraft des Geistes zeugte,^lden die Jungfrau uns gebar.^lUnd im Kinde offenbart sich^lder Erlöser aller Welt^limmer und in Ewigkeit.^pDen der Seher dunkle Rede^luns als Retter angesagt,^lden in langer Zeit des Harrens^lder Propheten Glaube sah:^lEr ist da, den sie verheißen.^lGrüßt ihn jubelnd mit Gesang^limmer und in Ewigkeit.^pGott dem Vater sei die Ehre,^lder uns seinen Sohn gesandt,^lEhre Christus, unserm Retter,^lden die Jungfrau uns gebar,^lEhre auch dem Heil’gen Geiste,^lRuhm und Preis und Lobgesang^limmer und in Ewigkeit. Amen."
       }
   },
   8125: {
@@ -3286,24 +3294,24 @@ export const psalmsData = {
     6.0: {
         "title": "A. Sankt Bonifatius, wir deine Kinder",
         "quote": "Bonifatius",
-        "text": "^r1. Teil eines Hymnus für Lesehore und Laudes:^0r^lSankt Bonifatius, wir, deine Kinder,^lbegehn voll Freude diesen Tag,^lder deinem Blutzeugnis geweiht.^lNimm unser Lob, hör, Vater, unsre Lieder!^pDir danken wir das Licht des wahren Glaubens,^ldas du den Ahnen einst gebracht.^lDu hast die Finsternis verscheucht,^laus unserm Land das Heidentum vertrieben.^pDen Wotanshain, die alten Götterbäume,^lden Opferstein hast du gestürzt,^lum der Germanen Stämme so^lvom Wahn des Götterkultes abzubringen.^pWelch schwerer Kampf, die unbeugsamen Herzen^lzu öffnen für das Wort des Herrn,^ldie Liebe sie zu lehren und^lsie unter Christi sanftes Joch zu beugen!^pDie Nacht des Irrtums will so schnell nicht weichen.^lDoch du führst mit Beharrlichkeit^lden ersten Strahl des Tags herauf,^lreißt Unkraut aus und säst des Wortes Samen.^pLob, Preis und Herrlichkeit sei Gott dem Vater,^lLob sei des Vaters ew’gem Sohn,^lder durch sein Blut die Welt erlöst,^lund Lob in Ewigkeit dem Heil’gen Geiste.^lAmen.^p^rDieser Hymnus wird in den der jeweils anderen Hore mit dem auch dort angezeigten 2. Teil fortgesetzt.^0r^p"
+        "text": "^r1. Teil eines Hymnus für Lesehore und Laudes:^0r^lSankt Bonifatius, wir, deine Kinder,^lbegehn voll Freude diesen Tag,^lder deinem Blutzeugnis geweiht.^lNimm unser Lob, hör, Vater, unsre Lieder!^pDir danken wir das Licht des wahren Glaubens,^ldas du den Ahnen einst gebracht.^lDu hast die Finsternis verscheucht,^laus unserm Land das Heidentum vertrieben.^pDen Wotanshain, die alten Götterbäume,^lden Opferstein hast du gestürzt,^lum der Germanen Stämme so^lvom Wahn des Götterkultes abzubringen.^pWelch schwerer Kampf, die unbeugsamen Herzen^lzu öffnen für das Wort des Herrn,^ldie Liebe sie zu lehren und^lsie unter Christi sanftes Joch zu beugen!^pDie Nacht des Irrtums will so schnell nicht weichen.^lDoch du führst mit Beharrlichkeit^lden ersten Strahl des Tags herauf,^lreißt Unkraut aus und säst des Wortes Samen.^pLob, Preis und Herrlichkeit sei Gott dem Vater,^lLob sei des Vaters ew’gem Sohn,^lder durch sein Blut die Welt erlöst,^lund Lob in Ewigkeit dem Heil’gen Geiste.^lAmen.^p^rDieser Hymnus wird in der jeweils anderen Hore mit dem auch dort angezeigten 2. Teil fortgesetzt.^0r"
       },
     7.0: {
         "title": "B. Du lehrst, dass Gott in Christus …",
         "quote": "Bonifatius",
-        "text": "^r2. Teil des in Lesehore bzw. Laudes begonnenen Hymnus:^0r^lDu lehrst, dass Gott in Christus Mensch geworden,^lder aus Erbarmen alle Schuld^lder Welt durch seinen Tod gesühnt.^lDoch solchen Gott verlachen deine Hörer.^pDu gibst nicht auf, bis dass dein Glaubenszeugnis^lmit Gottes Gnade sie bekehrt.^lDich schreckt nicht die Gefahr. Du willst^lzu ihrem Heil dem Herrn dein Leben opfern.^pGott nimmt dein Opfer an, schenkt dir die Krone.^lDein Leichnam kehrt nach Fulda heim,^lwie lebend du geboten hast.^lUnschätzbares Vermächtnis deiner Liebe!^pSchau unsre Heimat, Vater, wo du einstens^lHerd und Altar gegründet hast.^lSchau, himmlischer Patron, auf uns,^lerhalt uns deinen Geist und festen Glauben!^pLob, Dank und Anbetung sei stets erwiesen^ldem einen und dreifalt’gen Gott.^lEr führe uns zum ew’gen Heil^lauf unsres sel’gen Vaters fromme Bitten. Amen.^p"
+        "text": "^r2. Teil des in Lesehore bzw. Laudes begonnenen Hymnus:^0r^lDu lehrst, dass Gott in Christus Mensch geworden,^lder aus Erbarmen alle Schuld^lder Welt durch seinen Tod gesühnt.^lDoch solchen Gott verlachen deine Hörer.^pDu gibst nicht auf, bis dass dein Glaubenszeugnis^lmit Gottes Gnade sie bekehrt.^lDich schreckt nicht die Gefahr. Du willst^lzu ihrem Heil dem Herrn dein Leben opfern.^pGott nimmt dein Opfer an, schenkt dir die Krone.^lDein Leichnam kehrt nach Fulda heim,^lwie lebend du geboten hast.^lUnschätzbares Vermächtnis deiner Liebe!^pSchau unsre Heimat, Vater, wo du einstens^lHerd und Altar gegründet hast.^lSchau, himmlischer Patron, auf uns,^lerhalt uns deinen Geist und festen Glauben!^pLob, Dank und Anbetung sei stets erwiesen^ldem einen und dreifalt’gen Gott.^lEr führe uns zum ew’gen Heil^lauf unsres sel’gen Vaters fromme Bitten. Amen."
       }
   },
   8624: {
     1.0: {
         "title": "Christus, dem Herren, dientest du als Herold",
         "quote": "JohannesdT",
-        "text": "Christus, dem Herren, dientest du als Herold.^lEwiger Ratschluss fand in dir den Boten.^lGlücklich wir preisen alle deinen Namen:^lGruß dir, Johannes!^pStimme des Rufers, der den Weg ihm ebnet, ^ldich hat vor allen sich der Herr erkoren: ^lJesus, der Heiland, lässt von dir sich taufen, ^ler, das Lamm Gottes.^pLobpreis und Ehre Gott, dem ew’gen Vater, ^lEhre dem Sohne, den du uns verkündet, ^lEhre dem Geiste, der ihn dir bezeugte, ^limmer und ewig.^pPsalmodie"
+        "text": "Christus, dem Herren, dientest du als Herold.^lEwiger Ratschluss fand in dir den Boten.^lGlücklich wir preisen alle deinen Namen:^lGruß dir, Johannes!^pStimme des Rufers, der den Weg ihm ebnet, ^ldich hat vor allen sich der Herr erkoren: ^lJesus, der Heiland, lässt von dir sich taufen, ^ler, das Lamm Gottes.^pLobpreis und Ehre Gott, dem ew’gen Vater, ^lEhre dem Sohne, den du uns verkündet, ^lEhre dem Geiste, der ihn dir bezeugte, ^limmer und ewig."
       },
     2.0: {
         "title": "Christus, dem Herren, dientest du als Herold",
         "quote": "JohannesdT",
-        "text": "Christus, dem Herren, dientest du als Herold.^lEwiger Ratschluss fand in dir den Boten.^lGlücklich wir preisen alle deinen Namen:^lGruß dir, Johannes!^pNoch trägt die Mutter dich in ihrem Schoße, ^ldu aber fühlst schon, dass sich naht der König; ^lFreude bewegt dich, drängt dich, ihn zu grüßen, ^leh’ er geboren.^pWüste und Wildnis wählst du dir zur Wohnstatt, ^lkündest die Ankunft des ersehnten Retters, ^lpredigst die Umkehr, rufst das Volk zur Buße, ^ldass es bereit sei.^pDen einst die Seher als das Licht verheißen, ^ldas sie nur ahnend aus der Ferne schauten, ^lihn, der hinwegnimmt alle Schuld der Erde, ^lrufst du beim Namen.^pStimme des Rufers, der den Weg ihm ebnet, ^ldich hat vor allen sich der Herr erkoren: ^lJesus, der Heiland, lässt von dir sich taufen, ^ler, das Lamm Gottes.^pLobpreis und Ehre Gott, dem ew’gen Vater, ^lEhre dem Sohne, den du uns verkündet, ^lEhre dem Geiste, der ihn dir bezeugte, ^limmer und ewig.^pPsalmodie"
+        "text": "Christus, dem Herren, dientest du als Herold.^lEwiger Ratschluss fand in dir den Boten.^lGlücklich wir preisen alle deinen Namen:^lGruß dir, Johannes!^pNoch trägt die Mutter dich in ihrem Schoße, ^ldu aber fühlst schon, dass sich naht der König; ^lFreude bewegt dich, drängt dich, ihn zu grüßen, ^leh’ er geboren.^pWüste und Wildnis wählst du dir zur Wohnstatt, ^lkündest die Ankunft des ersehnten Retters, ^lpredigst die Umkehr, rufst das Volk zur Buße, ^ldass es bereit sei.^pDen einst die Seher als das Licht verheißen, ^ldas sie nur ahnend aus der Ferne schauten, ^lihn, der hinwegnimmt alle Schuld der Erde, ^lrufst du beim Namen.^pStimme des Rufers, der den Weg ihm ebnet, ^ldich hat vor allen sich der Herr erkoren: ^lJesus, der Heiland, lässt von dir sich taufen, ^ler, das Lamm Gottes.^pLobpreis und Ehre Gott, dem ew’gen Vater, ^lEhre dem Sohne, den du uns verkündet, ^lEhre dem Geiste, der ihn dir bezeugte, ^limmer und ewig"
       }
   },
   8629: {
@@ -3318,6 +3326,30 @@ export const psalmsData = {
         "text": "Goldenes Leuchten^lstrahlt vom Himmel heut herab,^lVater des Lichtes,^ldu erfüllst die Welt mit Glanz,^lzierest den Himmel,^lda im Feste wir begehn^ldeiner Apostel^lherrliches Martyrium.^pHeiliger Petrus,^lFels, auf dem die Kirche steht,^lHüter der Herde,^ldie dir Christus anvertraut,^leinst hast du weinend^lden Verrat am Herrn bereut,^lzeigst nun im Tode,^ldass du wirklich ihn geliebt.^pHeiliger Paulus,^lBote du des neuen Heils,^lKünder des Wortes,^lder die Völker Wahrheit lehrt,^leinst hast du eifernd^lChristi Jüngern nachgestellt,^llegst nun im Sterben^lZeugnis ab mit deinem Blut.^pGöttliche Dreiheit,^lVater, Sohn und Heil’ger Geist,^lhöre den Lobpreis,^lden wir deiner Größe weihn,^lda das Gedächtnis^ldeiner Zeugen uns erfreut.^lGib uns wie ihnen^leinst den Thron der Seligkeit."
       }
   },
+  8711: {
+    0.0: {
+        "title": "Was in der Vorzeit rühmend ward besungen",
+        "quote": "Benedikt",
+        "text": "Was in der Vorzeit rühmend ward besungen,^lwas wir vernahmen von der Väter Größe,^ldas macht dein Leben, heil’ger Benediktus,^lleuchtend uns sichtbar.^pAbraham gleichend, folgtest du dem Rufe,^lzogst aus der Heimat, wie dir Gott geboten,^lsuchtest die Stätte, die er dir verheißen,^lgläubigen Herzens.^pEin zweiter Mose, gabst du deinen Söhnen^lWeisung und Regel für den Weg des Lebens,^lWas ihr Beruf sei, lehrtest du die Mönche:^lGott nur zu suchen.^pLob sei dem Vater auf dem höchsten Throne,^lLob sei dem Sohne, Gott aus Gott geboren,^lLob sei dem Geiste, der von beiden ausgeht,^limmer und ewig. Amen."
+      }
+  },
+  8806: {
+    1.0: {
+        "title": "Während du betest, Herr",
+        "quote": "Verklärung",
+        "text": "Während du betest, Herr,^lstrahlt dein Gewand^lwie von Sonne und Schnee.^lLass uns drei Hütten, Herr,^lbauen am Rand^lunsrer Tage voll Weh.^pWenn wir ermatten, Herr,^lhol uns herein^lin den Schatten voll Licht.^lLass uns dich schauen, Herr,^lJesus, allein,^lvon Gesicht zu Gesicht.^pSo wirst du kommen, Herr,^lschon bricht aus dir^ldein urewiger Glanz.^lKommst du am Ende, Herr,^lglühen auch wir^lmit den Sonnen im Tanz."
+      },
+    2.0: {
+        "title": "Des ew’gen Glanzes Lichtgestalt",
+        "quote": "Verklärung",
+        "text": "Des ew’gen Glanzes Lichtgestalt,^ldie unsre Hoffnung sehnend sucht,^lmacht heute der verklärte Herr^lden Seinen strahlend offenbar.^pEr führt die Jünger auf den Berg^lund zeigt sich in der Herrlichkeit:^lSein Leib die Sonne überstrahlt,^lund sein Gewand ist weiß wie Schnee.^pUnd aus der lichten Wolke dringt^ldes Vaters Stimme, die bezeugt:^l„Seht, dies ist mein geliebter Sohn,^lauf dem mein Wohlgefallen ruht.“^pHerr, führ uns aus der dunklen Welt^lzum Lichte, das du selber bist,^lund wandle unsern armen Leib^lzum Bilde deiner Herrlichkeit.^pGott Vater, dir sei Preis und Ruhm,^ldem Sohne, deinem Ebenbild,^ldem Geiste, der euch beide eint,^ljetzt, immer und in Ewigkeit. Amen."
+      },
+    4.0: {
+        "title": "Sieger im Tode, strahlend Verklärter",
+        "quote": "Verklärung",
+        "text": "Sieger im Tode, strahlend°Verklärter,^ldich hat der Vater heu-te°verherrlicht.^lDort auf dem Berge sprach°aus°der°Wolke^lmachtvoll die Stimme: „Ihn°sollt°ihr°hören.“^pChristus, dich schauten stau-nend°die°Jünger.^lFurcht und Entsetzen warf°sie°zu°Boden.^lJubelnd bekennt dichheu-te°die°Kirche:^lHerrlicher Sieger, du°bist°das°Leben.^pDu schenkst den Deinen Kraft°auf°dem°Wege,^lführst sie durch Drangsal bis°zur°Vollendung.^lSchenk uns des Geistes machtvol-les°Wirken,^llass uns beim Vater ewig°dich°schauen."
+      }
+  },
   8815: {
     0.0: {
         "title": "Herrlich strahlst du im Licht",
@@ -3330,6 +3362,43 @@ export const psalmsData = {
         "title": "Christi Mutter stand mit Schmerzen",
         "quote": "MarSchmerzen",
         "text": "Christi Mutter stand mit Schmerzen^lbei dem Kreuz und weint’ von Herzen,^lals ihr lieber Sohn da hing.^pDurch die Seele voller Trauer,^lschneidend unter Todesschauer,^ljetzt das Schwert des Leidens ging.^pWelch ein Schmerz der Auserkornen,^lda sie sah den Eingebornen,^lwie er mit dem Tode rang.^pAngst uns Jammer, Qual und Bangen,^lalles Leid hielt sie umfangen,^ldas nur je ein Herz durchdrang.^pDrücke deines Sohnes Wunden,^lwie du selber sie empfunden,^lheil’ge Mutter, in mein Herz.^pDass ich weiß, was ich verschuldet,^lwas dein Sohn für mich erduldet,^lgib mir teil an deinem Schmerz.^pChristus, lass bei meinem Sterben^lmich mit deiner Mutter erben^lSieg und Preis nach letztem Streit.^pWenn der Leib dann sinkt zur Erde,^lgib mir, dass ich teilhaft werde^ldeiner sel’gen Herrlichkeit."
+      },
+    1.0: {
+        "title": "Gib, o Mutter, Born der Liebe",
+        "quote": "MarSchmerzen",
+        "text": "Gib, o Mutter, Born der Liebe,^ldass ich mich mit dir betrübe,^ldass ich fühl’ die Schmerzen dein.^pDass mein Herz von Lieb’ entbrenne,^ldass ich nur noch Jesus kenne,^ldass ich liebe Gott allein.^pDrücke deines Sohnes Wunden,^lwie du selber sie empfunden,^lheil’ge Mutter, in mein Herz.^pDass ich weiß, was ich verschuldet,^lwas dein Sohn für mich erduldet,^lgib mir teil an deinem Schmerz.^pLass mit dir mich herzlich weinen,^lmich mit Jesu Leid vereinen,^lsolang hier mein Leben währt.^pUnterm Kreuz mit dir zu stehen,^ldort zu teilen deine Wehen,^list es, was mein Herz begehrt."
+      }
+  },
+  8928: {
+    1.0: {
+        "title": "Heute preisen wir froh",
+        "quote": "Lioba",
+        "text": "Heute preisen wir froh^lunseren großen Gott,^lder dich berufen hat,^lheilige Lioba.^lSiegreich trägst du den Kranz,^lleuchtest in weißem Kleid,^lstrahlst als Jungfrau auf immerdar.^pSchon im Dunkel der Welt^lfolgtest du seinem Licht,^lhörtest den großen Ruf,^lbotst Dich ihm willig dar,^lbrachtest ins deutsche Land^lKunde von seinem Wort.^lAllen wurdest du Lehrerin.^pLiebe war dein Gewand,^lLiebe teiltest du aus,^lliebend gabst du dich hin,^lum allen Liebe zu sein.^lHilf uns, gütige Frau,^ldass wir vereint mit dir^lBoten seien für Christi Reich.^pHöre, ewiger Gott,^lhöre auf unser Lob.^lGnädig blicke uns an,^lführe uns hin zu dir.^lLass uns jubelnd im Chor^lsingen das neue Lied^ldir, dem Herrn aller Welt und Zeit."
+      },
+    2.0: {
+        "title": "Lioba, heilige Frau",
+        "quote": "Lioba",
+        "text": "Lioba, heilige Frau,^lLiebende, Gottes Vertraute,^lhorchend auf göttlichen Ruf^lfolgst du des Bräutigams Stimme,^lträgst in die Ferne sein Licht:^lLiebe ist ganz dein Wesen.^pLioba, wissende Frau,^lschöpfend aus göttlicher Klarheit^llehrst du in unserem Land^lkundig die Wege der Weisheit,^lleuchtest im Heiligen Geist:^lLiebe ist ganz dein Wesen.^pLioba, liebende Frau,^ltreu und verlässlich erfunden^lstehst du am Thron vor dem Lamm,^lschaust deines Bräutigams Wonne,^lbist ihm auf ewig vermählt:^lLiebe ist ganz dein Wesen."
+      },
+    4.0: {
+        "title": "Du Krone deiner Heiligen",
+        "quote": "Lioba",
+        "text": "Du Krone deiner Heiligen,^lder ew’gen Wahrheit tiefstes Wort,^laus deiner Hand empfängt den Lohn,^lwer hier auf Erden dir gelebt.^pWir danken dir für diesen Tag,^lder deiner Dienerin geweiht,^ldie ganz von Liebeskraft durchglüht^lsich deiner Liebe dargebracht.^pDie Liebe war ihr Lebenswerk,^ldie Liebe schenkst du ihr als Lohn.^lWenn nun das Tageslicht sich neigt,^llass auch in Liebe uns erglühn.^pHerr Jesus, dir sei Preis und Ruhm^lsowie dem Vater, der uns schuf,^ldem Beistand auch, dem Heil’gen Geist,^ldurch alle Zeit und Ewigkeit. Amen."
+      },
+    5.0: {
+        "title": "Gruß dir auf der Weisheit Stuhle",
+        "quote": "Lioba",
+        "text": "Gruß dir auf der Weisheit Stuhle,^lLehrerin der Glaubensschule,^lgottgetreue Lioba!^lGruß dir, die aus fernem Lande^lGott zu unsern Vätern sandte,^lGlaubensbotin Lioba.^pAve, Jungfrau, Gott vermählet,^ldie doch viele Töchter zählet,^lliebe Mutter Lioba.^lDir war höchstes Ziel auf Erden,^lChristi Jüngerin zu werden,^lkluge Jungfrau Lioba.^pHeiden Gottes Wort zu künden,^lkalte Herzen zu entzünden,^ldazu warst du stets bereit;^lChristus in den Kranken lieben,^lArme speisen, Güte üben,^ldas war deine Seligkeit.^pHilf, dass böse Wetter weichen,^lhilf, wenn finstre Mächte schleichen,^lsei uns Schutz in dieser Zeit.^lGott dem Vater und dem Sohne^lund dem Geist auf einem Throne^lsei Lobpreis in Ewigkeit. Amen."
+      },
+    6.0: {
+        "title": "A. Sankt Lioba, du kamst auf Winfrieds Bitten",
+        "quote": "Lioba",
+        "text": "^r1. Teil eines Hymnus für Lesehore und Laudes:^0r^l^pSankt Lioba, du kamst auf Winfrieds Bitten^lzu uns aus England übers Meer,^lgehorsam Gottes Ruf, der dich^lschon früh zu Deutschlands Lehrerin bestimmte.^pDie Liebe prägt’ dich schon im Kindesalter^l(drum nannte man dich Lioba);^lsie wuchs mit dir heran und ward^lBeweggrund aller deiner guten Taten.^pIn Klosters Obhut wurdest du gebildet,^lin Wissenschaft geübt dein Geist.^lVor allem aber zog dich an^ldie Lehre Christi, Wissenschaft des Heiles.^pMit solchen Gaben ausgestattet, hast du^ldann mitgetragen Winfrieds Werk.^lDu warst dem großen Missionar^lmehr durch den Geist als durch das Blut verbunden.^pTreue Gehilfin bist du ihm geworden,^lTrost seiner ird’schen Pilgerfahrt,^lund solltest, seinem Wort gemäß,^leinst auch mit ihm im gleichen Grabe ruhen.^pLob, Preis und Herrlichkeit sei Gott dem Vater,^lLob sei des Vaters ew’gem Sohn,^lder durch sein Blut die Welt erlöst’,^lund Lob in Ewigkeit dem Heil’gen Geiste. Amen.^p^rDieser Hymnus wird in der jeweils anderen Hore mit dem auch dort angezeigten 2. Teil fortgesetzt.^0r"
+      },
+    7.0: {
+        "title": "B. Bald geht von deinem Kloster an der Tauber",
+        "quote": "Lioba",
+        "text": "^r2. Teil des in Lesehore bzw. Laudes begonnenen Hymnus:^0r^lBald geht von deinem Kloster an der Tauber^lein Segensstrom hinaus ins Land.^lGläubige Frauen bildest du,^ldas Christentum im Volke zu verwurzeln.^pJungfrauen auch verstehst du zu begeistern^lzur Ganzhingabe an den Herrn.^lDein Werk hat Zukunft, wird schon bald^lgestützt von ersten deutschen Ordensfrauen.^pMan setzt in dich ein schrankenlos’ Vertrauen:^lBei Wetter oder Feuersbrunst,^lbei Krankheit oder Tod: Auf dir^lruht, Lioba, die Hoffnung dieses Volkes.^pStill kehrst du heim zu Gott im Greisenalter,^lgetreu bis in den Tod dem Werk,^ldas Bonifatius dir vertraut.^lIm Tode noch bleibst du in seiner Nähe.^pBis heute währt der Gläubigen Vertrauen^lin deinen mütterlichen Schutz;^lschon viele haben ihn verspürt,^ldie kamen, um an deinem Grab zu beten.^pSieh gnädig, Gott, auf Liobas Verdienste,^lhör ihre Fürbitte für uns.^lDir, Einer und Dreifaltiger,^lsei Lob und Anbetung durch alle Zeiten. Amen."
       }
   },
   8929: {
@@ -3363,6 +3432,38 @@ export const psalmsData = {
         "text": "Himmlische Chöre preisen den Höchsten.^lEngel und Menschen danken ihm ewig.^pSterbliche Wesen rief er zum Leben,^lgab seine Gnade Sündern und Armen.^pHeilige Freunde, Zeichen der Hoffnung.^lTod und Verderben habt ihr bestanden.^pIhr seid vollendet, lebt in der Freude.^lUns ruft von Ferne eure Gemeinschaft.^pJenseits des Todes wartet das Leben,^ldas für uns alle Christus erwirkt hat.^pIhm sei die Ehre, der uns berufen,^lewig im Lichte vor ihm zu stehen. Amen."
       }
   },
+  9119: {
+    1.0: {
+        "title": "Elisabeth, du Fürstin mild",
+        "quote": "Elisabeth",
+        "text": "Elisabeth, du Fürstin mild,^lin dir erstrahlt uns wie ein Bild^ldie Liebe der Dreieinigkeit,^ldie rettet, tröstet und verzeiht.^pWeil du verachtet Glanz und Pracht,^lhat Gott dich wahrhaft groß gemacht;^ldu stehst im Chor an seinem Thron,^lund hundertfältig ist dein Lohn.^pDu hast den Herrn am Kreuz geschaut,^ldas Gotteslamm, – du, seine Braut.^lDer Herr hat sterbend dir gezeigt,^lwie sich sein Herz uns Sündern neigt.^pSo neigest mitleidsvoll auch du^ldich tröstend allen Kranken zu.^lUnd wenn in Not ein Armer klagt,^lstehst du ihm bei, liebreiche Magd.^pLehr uns den Weg der Liebe gehn,^llehr uns den Herrn im Ärmsten sehn^lund mache unsre Herzen weit,^ldu Vorbild der Barmherzigkeit.^pHilf uns auf Jesus Christus schaun^lund nicht auf eigne Kraft vertraun,^ldamit auch heut sich Gottes Geist^lin unsrer Schwachheit stark erweist."
+      },
+    2.0: {
+        "title": "Brüder, preiset im Lob heute Elisabeth",
+        "quote": "Elisabeth",
+        "text": "Brüder, preiset im Lob^lheute Elisabeth,^lrühmt ihr herrliches Los,^lrühmt ihren hohen Mut.^lGlühen muss uns das Herz,^lwenn wir im Lied erhöhn^lSieg und Krone der edlen Frau.^pGroß von hoher Geburt,^lFürstin aus edlem Stamm,^lleuchtend strahlt ihr Gewand,^ldas ihr die Gnade wob.^lAnmut zeichnet sie aus,^lSchönheit und edler Sinn:^lGott gehört ihre Seele ganz.^pLiebe lenkt ihren Weg,^löffnet ihr Herz und Hand. ^lReichlich spendet sie aus,^lHungrigen reicht sie Brot,^lKranke richtet sie auf,^lkleidet die Nackten ein:^lChristus dient sie wie eine Magd.^pStandhaft trägt sie den Hass,^lgibt sich der Bosheit preis.^lEinsam steigt sie hinab,^lschreitet durch bittre Not.^lFreudig bringt sie ihr Lob^lChristus, dem Herrn der Welt,^lgibt ihr Leben aus Liebe hin.^pHöre, ewiger Gott,^lhöre auf unser Lob.^lGnädig blicke uns an,^lführe uns hin zu dir.^lLass uns jubelnd im Chor^lsingen das neue Lied^ldir, dem Herrn aller Welt und Zeit."
+      },
+    3.0: {
+        "title": "Der hehre Tag bricht an, da, hohe Frau",
+        "quote": "Elisabeth",
+        "text": "Der hehre Tag bricht an, da, hohe Frau,^ldu bei den Heiligen des Himmels Einzug hieltest,^lstrahlend im Glanze deiner guten Taten,^ldie dir zur Krone wurden in der Ewigkeit.^pFürstliche Macht und Würde war dir eigen;^lsie galt dir nichts, du gabst sie frohen Herzens hin.^lSelbst als man dich von Haus und Hof vertreibt,^lbleibst fröhlich du; nichts kann den heitren Blick dir trüben.^pDu kennst kein Sorgen um vergänglich Gut;^lnach dem, was droben ist, geht einzig dein Verlangen.^lHilf uns, den Herrn so großherzig zu lieben,^ldass gern wir alles lassen, was uns von ihm trennt.^pDu leidest mit den Armen und den Kranken,^lbekleidest Nackte, nährst die Scharen Hungriger.^lO zeig dich auch barmherzig gegen uns,^lmach frei, die schmählich in der Sünde Netz gefangen.^pVon allen Kreaturen werde Lob zuteil^lGott Vater und dem eingebornen Sohne,^lder durch sein Blut die ganze Welt erlöst,^lund ebenso dem Heil’gen Geist in Ewigkeiten. Amen."
+      },
+    4.0: {
+        "title": "Du Quell der Liebe, großer Gott",
+        "quote": "Elisabeth",
+        "text": "Du Quell der Liebe, großer Gott,^lder ew’gen Weisheit tiefster Grund,^lin deiner Magd Elisabeth^lhast du die Kirche reich gemacht.^pIn ihr strahlt deine Liebe auf,^ldie Liebe, die sich ganz verströmt;^lsie sucht den Armen in der Not,^ldem Schmerzgebeugten bringt sie Trost.^pRasch wie das Abendrot verglüht,^lso endet ihres Lebens Lauf.^lUns bleiben Wärme, Hoffnung, Licht,^lwir blicken froh zum Himmel auf.^pWir danken, Herr, für diesen Tag,^lan dem du deine treue Magd,^lder Finsternis der Zeit entrückt,^lmit Freuden krönst in deinem Licht.^pSo bitten wir am Abend nun:^lErleuchte unsern dunklen Pfad.^lLass deine treue Dienerin^luns auf dem Weg Gefährtin sein.^pGott Vater, dir sei Preis und Ruhm^lund deinem eingebornen Sohn,^ldem Beistand auch, dem Heil’gen Geist,^ldurch alle Zeit und Ewigkeit. Amen."
+      },
+    5.0: {
+        "title": "Lass dich, Elisabeth, noch einmal grüßen",
+        "quote": "Elisabeth",
+        "text": "Lass dich, Elisabeth, noch einmal grüßen,^lda sich der Tag zum Abend neigt.^lNimm an das Lied, das wir dir weihn.^lSend uns vom Himmel deinen Schutz und Segen.^pHeimatlos warst du, von der Burg vertrieben. –^lWir sind auf Erden Fremdlinge.^lNimm dich in Liebe unser an,^ldass wir dereinst des Himmels Heimat finden.^pArm warst du. – Schau uns Arme an und teile^luns von des Himmels Schätzen mit. –^lDu hast gefastet und gebüßt. –^lHilf, dass den Leib wir durch den Geist beherrschen.^pSiegerin warst du über Welt und Teufel,^lhast überwunden ihre List. –^lErfleh uns Kraft, damit auch wir^ldes Feindes Trug durchschauen und besiegen.^pGott sei in seinen Heiligen gepriesen.^lDem Vater und dem ew’gen Sohn^lzusammen mit dem Heil’gen Geist^lsei jetzt und immer Lob und Dank erwiesen."
+      },
+    6.0: {
+        "title": "Nicht Abstammung von königlichen Ahnen",
+        "quote": "Elisabeth",
+        "text": "Nicht Abstammung von königlichen Ahnen,^lnicht Fürsten- oder Adelsstand^lbegründen, Sankt Elisabeth,^ldie Größe dein, die freudig wir verehren.^pDu leuchtest, eine Zierde unsers Landes,^lals Vorbild der Vollkommenheit;^ldu starke Frau, die überwand^lder Hölle Trug, die Geld und Gut verachtet.^pDes Hofes Feste hast du gern gemieden^lals Kind schon und als Landgräfin.^lVom Thron verjagt, hast du erst recht^lallein den ew’gen Freuden dich verschrieben.^pMit deinen Kindern musst du Obdach suchen,^lschmerzlich entbehrend Haus und Herd;^lda singst du Gott ein Dankeslied,^lähnlich dem Herrn, der für uns arm geworden.^pUnd weil du weißt, dein Kreuz kommt dir von Christus,^lnimmst du’s bereiten Herzens an^lund trägst es gern dein Leben lang,^lbis heim dich ruft der Herr in seine Freude.^pDreiein’ger Gott, hör auf die frommen Bitten^lder heiligen Elisabeth.^lSchenk uns Erbarmen und die Kraft,^lwie sie so tapfer Kreuz und Leid zu tragen.^pGott sei in seinen Heiligen gepriesen.^lDem Vater und dem ew’gen Sohn^lzusammen mit dem Heil’gen Geist^lsei jetzt und immer Lob und Dank erwiesen."
+      }
+  },
   9201: {
     0.0: {
         "title": "Mit Jubel sollst du, deutsches Land",
@@ -3375,6 +3476,43 @@ export const psalmsData = {
         "title": "O Jungfrau, rein und makellos",
         "quote": "MarEmpf",
         "text": "O Jungfrau, rein und makellos,^lo Mutter, die uns Gott gebar,^ldu bist des Himmels offnes Tor,^lder Engel Freude, unser Ruhm.^pDich hat vor allem Anbeginn^ldes Vaters Liebe auserwählt,^ldass du, vor jeder Schuld bewahrt,^lder Welt den neuen Adam schenkst.^pNoch ehe unser Retter kam,^lward dir in Fülle schon zuteil,^lwas er in Tod und Auferstehn^lerwirkte der verlornen Welt.^pDu reine Jungfrau, sei gegrüßt,^lin der wir unsre Hoffnung schaun:^lDu stehst als großes Zeichen da,^lder neuen Schöpfung klares Bild.^pDem Herrn sei Preis und Herrlichkeit,^lder uns befreit vom Joch der Schuld,^ldem Vater und dem Geiste Lob^ldurch alle Zeit und Ewigkeit. Amen."
+      },
+    1.0: {
+        "title": "Sei gegrüßt, du Himmelstür",
+        "quote": "MarEmpf",
+        "text": "Sei gegrüßt, du Himmelstür,^lStern, der leuchtet für und für,^lHeiligste im Himmelsheer,^lo Maria, Gottes Mutter, hoch und hehr.^pDie des höchsten Königs Sinn^lals die einzige im Chor^lhuldvoll sich zur Magd erkor^lschon vor aller Zeiten Anbeginn.^pSünde hat mit böser Macht^lnie dein Innerstes betört,^lda du Gottes Wort gehört,^lhast du Erd’ und Himmel Fröhlichkeit gebracht.^pPreis dem Vater und dem Sohn^lund dem Geist auf gleichem Thron,^lderen Ruhm und Herrlichkeit^lmachtvoll währt durch alle Zeit und Ewigkeit. Amen."
+      }
+  },
+  9216: {
+    1.0: {
+        "title": "Bote der Wahrheit, Diener unsrer Freude",
+        "quote": "Sturmius",
+        "text": "Bote der Wahrheit, Diener unsrer Freude,^lBaumeister Gottes, Christi treuer Jünger,^ldir gilt der Lobpreis, den wir heute singen,^lheiliger Sturmius.^pDu folgst gehorsam deines Meisters Spuren,^lziehst durch die Lande, kündest frohe Botschaft,^lwehrst allem Irrtum, taufst zu neuem Leben,^lwirst allen Vater.^pNach Gottes Weisung sammelst du Gefährten,^lführst sie zusammen treu der heil’gen Regel,^lgründest ein Kloster, Stätte frommen Lobes:^lFulda darf jubeln.^pLob sei dem Vater auf dem höchsten Throne^lLob sei dem Sohne, Gott aus Gott geboren,^lLob sei dem Geiste, der von beiden ausgeht,^limmer und ewig. Amen."
+      },
+    2.0: {
+        "title": "Sendbote Christi, Kämpfer für die Wahrheit",
+        "quote": "Sturmius",
+        "text": "Sendbote Christi, Kämpfer für die Wahrheit,^lHirte der Herde, Segen unsrer Heimat,^ldich, den Getreuen, wollen wir verehren,^lheiliger Sturmius.^pDu wirst geläutert wie das Gold im Feuer,^lduldest mit Starkmut Unbill und Verbannung.^lAuch in der Fremde bleibst du voll Vertrauen^lfest in der Wahrheit.^pDem Kloster Fulda bist du wie ein Vater.^lIn aller Demut mahnest du zur Regel,^lstärkest die Schwachen, rufst zum Lobe Gottes,^lallen ein Vorbild.^pLob sei dem Vater auf dem höchsten Throne,^lLob sei dem Sohne, Gott aus Gott geboren,^lLob sei dem Geiste, der von beiden ausgeht,^limmer und ewig. Amen."
+      },
+    4.0: {
+        "title": "Preiset den tüchtigen Mann",
+        "quote": "Sturmius",
+        "text": "Preiset den tüchtigen Mann,^lder als ein Gründer des Glaubens^lunserem Volke gedient, ^lschaffend in rastloser Arbeit.^lSiegreich bestand er den Kampf.^lGott war in seinem Herzen.^pPreiset den tapferen Mann,^lder in der Mühsal des Lebens^lLeiden ertrug in Geduld,^lstärkend die mutlosen Brüder.^lBahnbrechend schritt er voran.^lGott war in seinem Herzen.^pPreiset den gläubigen Mann,^lder im Vertrauen nicht wankte.^lGott gab dem Treuen die Kraft,^lsegnend das Werk seiner Hände.^lNun ruht er selig bei ihm.^lGott ist in seinem Herzen. Amen."
+      },
+    5.0: {
+        "title": "Ein Stern ging auf im Buchenland",
+        "quote": "Sturmius",
+        "text": "Ein Stern ging auf im Buchenland^lin tiefer Nacht;^ldes Todes finstre Schatten bannt’^ldes Sternes Pracht:^lDa brach der helle Tag herein,^lder Wahrheit Licht, des Heiles Schein.^pDenn Gott hat uns Sankt Sturmius^lzum Heil gesandt;^lder schlug den Wald am Fuldafluss^lmit starker Hand^lund baute in der Wälder Kreis^lein hohes Haus zu Gottes Preis.^pUnd weiter trug von diesem Haus^ldes Heil’gen Mund^lins weite Sachsenland hinaus^ldie frohe Kund’,^ldass Gottes Sohn, Herr Jesus Christ,^lzum Heiland uns geworden ist.^pUnd die betört, umnachtet war^lvom falschen Wahn,^lder Heidenvölker blinde Schar^lführt er die Bahn,^lden rechten Pfad, den sichern Steg:^lIhn, der uns Leben, Wahrheit, Weg.^pWir danken dir von Herzen sehr,^ldu Gottesmann!^lWas du uns warst, uns keiner mehr^lje werden kann:^lDu bist uns Vater, Führer, Licht;^lso bleib bei uns, verlass uns nicht!^pGott Vater, Sohn und Heil’ger Geist,^ldich loben wir.^lDein Volk, das dich auf Erden preist,^lschaut auf zu dir.^lSei du ihm Halt in dieser Zeit^lund einst sein Lohn in Ewigkeit. Amen^p^p"
+      },
+    6.0: {
+        "title": "A. Der Herr, der hundertfachen Lohn verheißen",
+        "quote": "Sturmius",
+        "text": "^r1. Teil eines Hymnus für Lesehore und Laudes:^0r^lDer Herr, der hundertfachen Lohn verheißen^ldem, der ihm folgt, verlassend Hab und Gut,^ler rief aus Norikum Sankt Sturmius,^lum selbst ihm Heimat, Schutz und Licht zu werden.^pDer später Fuldas Gründer werden sollte,^lschloss sich dem Glaubensboten Winfried an^lund übt’ als Mönch geduldig Geist und Hand,^lwie es verlangt Sankt Benedikti Regel.^pAm Fuldafluss ein Heiligtum zu gründen,^lwird er von Bonifatius gesandt.^lSchon weicht der Wald, es sprießen Korn und Frucht,^lein Gotteshaus entsteht und Klosterzellen.^pVon diesem Stützpunkt zieht er aus und predigt^ldem Sachsenstamm das Evangelium;^lkehrt dann zurück zur stillen Einsamkeit,^lzu siedeln in Buchoniens tiefen Wäldern.^pFür Fulda legt Abt Sturm mit seinen Brüdern^lden Grund durch Frömmigkeit und Wissenschaft^lund sichert ihm durch Winfrieds Ruhestatt^ldes Vaters und Apostels reichen Segen.^pDie ganze Welt lobpreise Gott den Vater^lund auch sein wesensgleiches Ebenbild,^lden ew’gen Sohn, sowie den Heil’gen Geist,^lden einen Gott im unerschaffnen Lichte. Amen.^p^rDieser Hymnus wird in der jeweils anderen Hore mit dem auch dort angezeigten 2. Teil fortgesetzt.^0r"
+      },
+    7.0: {
+        "title": "B. Gott prüft die Heiligen wie Gold im Feuer",
+        "quote": "Sturmius",
+        "text": "^r2. Teil des in Lesehore bzw. Laudes begonnenen Hymnus:^0r^lGott prüft die Heiligen wie Gold im Feuer.^lFälschlich verklagt muss Sturmius ins Exil^ldurch Königs Bannspruch – bis die Wahrheit siegt^lund er in Ehren heimkehrt in sein Kloster.^pMönche und Bürger jubeln da entgegen^ldem Abt; der geht alsbald erneut ans Werk,^lverzeiht den Neidern, bessert Schäden aus,^lwird der Buchonia ein echter Vater. –^pRuh aus nun, Sturmius! Vom Himmel winkt dir,^ldem treuen Knechte, der gerechte Lohn.^lDu gehst zu Gott. Die Brüder sind verwaist.^lTrost ist nur dein Gebet, das du verheißen.^pDrum bleibe, Sturmius, wie einst auf Erden,^lso jetzt vom Himmel Beistand deinem Volk,^ldass ständig Fuldas Heil gesichert sei,^ldas aus dem Glauben kommt, den du uns brachtest.^pDie ganze Welt lobpreise Gott den Vater^lund auch sein wesensgleiches Ebenbild,^lden ew’gen Sohn, sowie den Heil’gen Geist,^lden einen Gott im unerschaffnen Lichte. Amen."
       }
   },
   9226: {
