@@ -2581,7 +2581,7 @@ export const psalmsData = {
   2410: {
     0.0: {
         "title": "Des Lichtes guter Schöpfer du",
-        "text": "Des Lichtes guter Schöpfer du,^lder uns den Glanz des Lichtes schenkt,^lder mit dem ersten Strahl des Lichts^lder Welterschaffung Werk beginnt.^pDu rufst den Morgen aus der Nacht^lund führst den ersten Tag herauf;^ldas düst’re Chaos sinkt dahin –^ldurch deines Wortes Macht gebannt.^pGib, dass der Mensch durch eig’ne Schuld^ldas Gut des Lebens nicht verliert,^lwenn er des Ew’gen nicht gedenkt^lund in das Böse sich verstrickt.^pEr poche an des Himmels Tor,^lerringe sich des Lebens Preis.^lFern bleibe, was uns Schaden bringt,^lund rein von Schuld sei unser Herz.^pDies schenk uns, Vater voller Macht,^lund du, sein Sohn und Ebenbild,^ldie ihr in Einheit mit dem Geist^ldie Schöpfung zur Vollendung führt. Amen."
+        "text": "Des Lichtes guter Schöpfer du,^lder uns den Glanz des Lichtes schenkt,^lder mit dem ersten Strahl des Lichts^lder Welterschaffung Werk beginnt.^pDu rufst den Morgen aus der Nacht^lund führst den ersten Tag herauf;^ldas düst’re Chaos sinkt dahin –^ldurch deines Wortes Macht gebannt.^pGib, dass der Mensch durch eigne Schuld^ldas Gut des Lebens nicht verliert,^lwenn er des Ew’gen nicht gedenkt^lund in das Böse sich verstrickt.^pEr poche an des Himmels Tor,^lerringe sich des Lebens Preis.^lFern bleibe, was uns Schaden bringt,^lund rein von Schuld sei unser Herz.^pDies schenk uns, Vater voller Macht,^lund du, sein Sohn und Ebenbild,^ldie ihr in Einheit mit dem Geist^ldie Schöpfung zur Vollendung führt. Amen."
       }
   },
   2411: {

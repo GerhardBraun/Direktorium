@@ -84,6 +84,16 @@ export const formatPrayerText = (provText, marker = '',
 
     let text = marker ? `^r${marker}^0r${provText}` : provText;
     text = text
+        .replace(/\^l/g, '\n')
+        .replace(/°/g, '\u00A0')
+        .replace(/\^\*/g, '\u00A0*\n')
+        .replace(/\^\+/g, '\u00A0†\n')
+        .replace(/\^\//g, '    ')
+        .replace(/}/g, ')')
+        .replace(/\{(\d{1,2})#/g, '(')
+        .replace(/(\w)–/g, '$1\u200C–')
+        .replace(/–(\w)/g, '–\u200C$1')
+        .replace(/([0-9])-([0-9])/g, '$1\u200C\u2013\u200C$2')
         .replace(/\^ö/g, season === 'o' ? ' Halleluja.' : '')
         .replace(/\^Ö/g, season === 'q' ? '' : ' Halleluja.')
         .replace(/\^R/g, (season === 'o' && week === 1) ? easterAntiphon : '')
@@ -120,18 +130,8 @@ export const formatPrayerText = (provText, marker = '',
 
     // Inline-Formatierungen als React-Elemente verarbeiten
     const processInlineFormats = (text) => {
-        // Basis-Ersetzungen
-        let processedText = text
-            .replace(/°/g, '\u00A0')
-            .replace(/\^\*/g, '\u00A0*\n')
-            .replace(/\^\+/g, '\u00A0†\n')
-            .replace(/\^\//g, '    ')
-            .replace(/\^l/g, '\n')
-            .replace(/}/g, ')')
-            .replace(/\{(\d{1,2})#/g, '(');
-
         // Split text into segments
-        const segments = processedText.split(/(\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^\(|\^\)|\^N)/g).filter(Boolean);
+        const segments = text.split(/(\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^\(|\^\)|\^N)/g).filter(Boolean);
 
         return segments.map((segment, index) => {
             if (segment.startsWith('^r')) {

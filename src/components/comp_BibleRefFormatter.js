@@ -66,23 +66,21 @@ const formatBibleRef = (text) => {
             case '–':
                 if (!inVerseSection) {
                     addCurrentText();
-                    currentText = '–';
+                    currentText = '–\u200c'; // Gedankenstrich + ZWNJ
                 } else {
                     if (!nextPunctuationType) {
-                        currentText += '–';
+                        currentText += '–\u200c';
                     } else if (nextPunctuationType === ',') {
-                        currentText += '–';
-                        addCurrentText();
-                        inVerseSection = false;
-                        result.push('\u00A0');
+                        addCurrentText();              // Fügt den bisherigen Vers-Text formatiert hinzu
+                        inVerseSection = false;        // Beendet die Vers-Sektion
+                        result.push('\u00a0–\u200c\u00A0');  // Fügt die komplette bis-Strich-Gruppe als normalen Text hinzu
                     } else if (nextPunctuationType === '–') {
                         return originalText;
                     } else {
-                        currentText += '–';
+                        currentText += '–\u200c';
                     }
                 }
                 break;
-
             default:
                 currentText += char;
         }

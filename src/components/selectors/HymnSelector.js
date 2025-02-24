@@ -5,7 +5,7 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, formatPray
     let localPrefSrc = prefSrc;
     if (['kirchw', 'verst'].includes(prefSollemnity)) { localPrefSrc = prefSollemnity; }
 
-    const getButtonColor = (sourcePath) => {
+    const getButtonColor = (sourcePath, sourceLabel) => {
         const hasOnlyWtSources = availableHymns.every(hymn => hymn.id.split('_')[0] === 'wt');
 
         if (sourcePath === 'wt' && !hasOnlyWtSources) {
@@ -21,15 +21,19 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, formatPray
 
         // Prüfe auf rote Farbe im localPrefSrc
         const pathParts = sourcePath.split('_')[0].split('.');
-        let currentLevel = texts['laudes'];
+        let currentLevel = texts.laudes;
         pathParts.forEach(part => {
             currentLevel = currentLevel?.[part];
         });
 
         const color = currentLevel?.farbe;
-        return color?.startsWith('r')
-            ? 'bg-red-700/80 text-white hover:bg-red-600/80'
-            : 'bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100 hover:bg-gray-200 dark:hover:bg-gray-700';
+        if (color?.startsWith('r')) {
+            return 'bg-red-700/80 text-white hover:bg-red-600/80'
+        }
+        if (sourceLabel === 'Comm:') {
+            return 'bg-[#964b00]/70 text-white hover:bg-[#964b00]/80';
+        }
+        return 'bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100 hover:bg-gray-200 dark:hover:bg-gray-700'
     };
 
     const sourceOrder = useMemo(() => {
@@ -157,7 +161,7 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, formatPray
                     key={hymn.id}
                     onClick={() => setSelectedHymn(hymn.id)}
                     className={`w-full text-sm text-left pl-2 pt-2 pb-1 mt-1 rounded 
-                        ${getButtonColor(hymn.id.split('_')[0])}
+                        ${getButtonColor(hymn.id.split('_')[0], hymn.source)}
                         ${selectedHymn === hymn.id ? 'ring-2 ring-yellow-500' : ''}`}
                 >
                     {hymn.isNachtHymn ? (
