@@ -63,7 +63,7 @@ export const formatPrayerText = (provText, marker = '',
     if (!provText || provText === 'LEER') return null;
     const { season, week } = texts;
     const { nominativ, genitiv, vokativ } = texts?.laudes?.[prefSrc] || {};
-    const useFootnoteList = localStorage.getItem('prefFootnotes') === 'true';
+
 
     const orSchluss = ['lesehore', 'laudes', 'vesper'].includes(hour)
         ? {
@@ -129,25 +129,17 @@ export const formatPrayerText = (provText, marker = '',
 
     let footnoteCounter = 0;
     const footnoteMap = new Map();
-    const footnoteNumbers = new Map();
-    const allFootnotes = [];
 
-    text = text.replace(/\s*\{(\d{1,2})#(.*?)\}/g, (match, number, content) => {
+    text = text.replace(/\{(\d{1,2})#(.*?)\}/g, (match, footnoteNumber, bibleRef) => {
         const marker = `§FN${footnoteCounter}§`;
-        footnoteMap.set(marker, content);
-        footnoteNumbers.set(marker, number);
-        allFootnotes.push({
-            number: number,
-            content: content
-        });
+        footnoteMap.set(marker, bibleRef);
         footnoteCounter++;
-        return useFootnoteList ? marker : ` ${marker}`;
+        return marker;
     });
-
     // Inline-Formatierungen als React-Elemente verarbeiten
     const processInlineFormats = (text) => {
+        // Split text into segments
         const segments = text.split(/(\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^\(|\^\)|\^N|§FN\d+§)/g).filter(Boolean);
-
         return segments.map((segment, index) => {
             if (segment.startsWith('^r')) {
                 const content = segment.substring(2, segment.length - 3);
@@ -167,20 +159,14 @@ export const formatPrayerText = (provText, marker = '',
                 return <span key={`close-${index}`} className="text-rubric">)</span>;
             } else if (segment === '^N') {
                 return <span key={`name-${index}`} className="text-rubric">N.</span>;
-            } else if (segment.match(/^§FN\d+§$/)) {
-                const number = footnoteNumbers.get(segment);
-                const content = footnoteMap.get(segment);
-
-                if (useFootnoteList) {
-                    // Fußnote zur Gesamtliste hinzufügen
-                    return <sup key={`footnote-ref-${index}`}>{number}</sup>;
-                } else {
-                    return (
-                        <Fragment key={`footnote-${index}`}>
-                            <span className="inline-block">{formatBibleRef(content, true)}</span>
-                        </Fragment>
-                    );
-                }
+            }
+            if (segment.match(/^§FN\d+§$/)) {
+                const bibleRef = footnoteMap.get(segment);
+                return (
+                    <Fragment key={`footnote-${index}`}>
+                        <span className="inline-block">{formatBibleRef(bibleRef, true)}</span>
+                    </Fragment>
+                );
             }
             return segment;
         });
@@ -214,58 +200,49 @@ export const formatPrayerText = (provText, marker = '',
         segments = [segments[0], ...segments.slice(1)];
     }
 
-    return (
-        <>
-            {segments
-                .filter(segment => segment.trim().length > 0)
-                .map((segment, index) => {
-                    let format = 'p';
-                    let content = segment;
+    return segments
+        .filter(segment => segment.trim().length > 0)
+        .map((segment, index) => {
+            // Format bestimmen
+            let format = 'p'; // Standard-Format
+            let content = segment;
 
-                    if (segment.startsWith('^')) {
-                        format = segment[1];
-                        content = segment.slice(2);
-                    }
+            // Format aus dem Segment extrahieren, falls vorhanden
+            if (segment.startsWith('^')) {
+                format = segment[1];
+                content = segment.slice(2);
+            }
 
-                    let originalContent = content;
-                    for (const [marker, originalTag] of markerMap) {
-                        originalContent = originalContent.replace(marker, originalTag);
-                    }
+            // Marker zurück in Inline-Formatierungen umwandeln
+            let originalContent = content;
+            for (const [marker, originalTag] of markerMap) {
+                originalContent = originalContent.replace(marker, originalTag);
+            }
 
-                    const processedContent = processInlineFormats(originalContent);
+            // Inline-Formatierungen verarbeiten
+            const processedContent = processInlineFormats(originalContent);
 
-                    switch (format) {
-                        case 'h':
-                            return (
-                                <div key={index} className="whitespace-pre-wrap font-bold text-[0.9em] mt-2">
-                                    {processedContent}
-                                </div>
-                            );
-                        case 'q':
-                            return (
-                                <div key={index} className="whitespace-pre-wrap flex -mt-[0.75em] mb-[0.75em]">
-                                    <span className="w-[0.8em] flex-shrink-0">–</span>
-                                    <div>{processedContent}</div>
-                                </div>
-                            );
-                        default:
-                            return (
-                                <div key={index} className="whitespace-pre-wrap mb-[0.75em]">
-                                    {processedContent}
-                                </div>
-                            );
-                    }
-                })}
-            {useFootnoteList && allFootnotes.length > 0 && (
-                <div className="mt-4 text-sm ">
-                    {allFootnotes.map(fn => (
-                        <div key={`footnote-${fn.number}`} className="flex gap-3">
-                            <span className="w-3 text-gray-400">{fn.number}</span>
-                            <span>{formatBibleRef(fn.content)}</span>
+            // Entsprechendes React-Element zurückgeben
+            switch (format) {
+                case 'h':
+                    return (
+                        <div key={index} className="whitespace-pre-wrap font-bold text-[0.9em] mt-2">
+                            {processedContent}
                         </div>
-                    ))}
-                </div>
-            )}
-        </>
-    );
+                    );
+                case 'q':
+                    return (
+                        <div key={index} className="whitespace-pre-wrap flex -mt-[0.75em] mb-[0.75em]">
+                            <span className="w-[0.8em] flex-shrink-0">–</span>
+                            <div>{processedContent}</div>
+                        </div>
+                    );
+                default: // 'p'
+                    return (
+                        <div key={index} className="whitespace-pre-wrap mb-[0.75em]">
+                            {processedContent}
+                        </div>
+                    );
+            }
+        });
 };

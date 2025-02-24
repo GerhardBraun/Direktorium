@@ -38,6 +38,11 @@ module.exports = {
         '.prayer-heading': {
           '@apply font-bold text-rubric': {},
           'margin-top': '1em'  // relative Einheit beibehalten
+        },
+        'sup': {
+          fontSize: '0.7em',
+          lineHeight: '0',
+          verticalAlign: '-0.15em',
         }
       })
     }

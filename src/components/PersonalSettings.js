@@ -5,6 +5,9 @@ const PersonalSettings = () => {
     const [startView, setStartView] = useState(() =>
         localStorage.getItem('startViewMode') || 'directory'
     );
+    const [prefFootnotes, setPrefFootnotes] = useState(() =>
+        localStorage.getItem('prefFootnotes') === 'true'
+    );
     const [popeName, setPopeName] = useState(() =>
         localStorage.getItem('popeName') || ''
     );
@@ -26,6 +29,10 @@ const PersonalSettings = () => {
     useEffect(() => {
         localStorage.setItem('startViewMode', startView);
     }, [startView]);
+
+    useEffect(() => {
+        localStorage.setItem('prefFootnotes', prefFootnotes);
+    }, [prefFootnotes]);
 
     useEffect(() => {
         localStorage.setItem('popeName', popeName);
@@ -78,6 +85,10 @@ const PersonalSettings = () => {
                         setStartView(data.settings.startViewMode);
                         localStorage.setItem('startViewMode', data.settings.startViewMode);
                     }
+                    if (data.settings.prefFootnotes !== undefined) {
+                        setPrefFootnotes(data.settings.prefFootnotes);
+                        localStorage.setItem('prefFootnotes', data.settings.prefFootnotes);
+                    }
                     if (data.settings.popeName) {
                         setPopeName(data.settings.popeName);
                         localStorage.setItem('popeName', data.settings.popeName);
@@ -108,6 +119,7 @@ const PersonalSettings = () => {
 
         exportData.settings = {
             startViewMode: startView,
+            prefFootnotes,
             popeName,
             bishopName,
             sequenceInv
@@ -141,26 +153,49 @@ const PersonalSettings = () => {
     };
 
     return (
-        <div className="space-y-6 pt-2">
+        <div className="space-y-2 pt-2">
             {/* Start View Section */}
-            <div className="px-3 py-2">
-                <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
-                    Startansicht
-                </div>
-                <div className="flex gap-2">
+            <div className="px-3 py-0">
+                <div className="grid gap-2 items-center" style={{ gridTemplateColumns: '6em 1fr 1fr' }}>
+                    <div className="text-sm text-gray-500 dark:text-gray-400">
+                        Startansicht
+                    </div>
                     <button
                         onClick={() => setStartView('directory')}
-                        className={`flex-1 px-3 py-2 text-center text-sm text-gray-700 dark:text-gray-300 rounded 
-                            ${startView === 'directory' ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
+                        className={`px-3 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded 
+                ${startView === 'directory' ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
                     >
                         Direktorium
                     </button>
                     <button
                         onClick={() => setStartView('prayer')}
-                        className={`flex-1 px-3 py-2 text-center text-sm text-gray-700 dark:text-gray-300 rounded 
-                            ${startView === 'prayer' ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
+                        className={`px-3 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded 
+                ${startView === 'prayer' ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
                     >
                         Stundengebet
+                    </button>
+                </div>
+            </div>
+
+            {/* Fußnoten Section */}
+            <div className="px-3 py-0">
+                <div className="grid gap-2 items-center" style={{ gridTemplateColumns: '6em 1fr 1fr' }}>
+                    <div className="text-sm text-gray-500 dark:text-gray-400">
+                        Fußnoten
+                    </div>
+                    <button
+                        onClick={() => setPrefFootnotes(false)}
+                        className={`px-3 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded 
+                ${!prefFootnotes ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
+                    >
+                        im Text
+                    </button>
+                    <button
+                        onClick={() => setPrefFootnotes(true)}
+                        className={`px-3 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded 
+                ${prefFootnotes ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
+                    >
+                        unter dem Text
                     </button>
                 </div>
             </div>
@@ -199,7 +234,9 @@ const PersonalSettings = () => {
             text-gray-900 dark:text-gray-100"
                         placeholder="Name des Bischofs"
                     />
-                </div></div>
+                </div>
+            </div>
+
             {/* Invitatorium Psalms Section - Neu als Auswahlraster */}
             <div className="px-3 py-2">
                 <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-4">
