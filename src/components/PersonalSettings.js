@@ -156,30 +156,37 @@ const PersonalSettings = () => {
         <div className="space-y-2 pt-2">
             {/* Start View Section */}
             <div className="px-3 py-0">
-                <div className="grid gap-2 items-center" style={{ gridTemplateColumns: '6em 1fr 1fr' }}>
+                <div className="grid gap-2 items-center" style={{ gridTemplateColumns: '6rem 2fr 1fr 2fr' }}>
                     <div className="text-sm text-gray-500 dark:text-gray-400">
                         Startansicht
                     </div>
                     <button
                         onClick={() => setStartView('directory')}
                         className={`px-3 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded 
-                ${startView === 'directory' ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
+            ${startView === 'directory' ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
                     >
-                        Direktorium
+                        Direk&shy;torium
+                    </button>
+                    <button
+                        onClick={() => setStartView('auto')}
+                        className={`px-3 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded 
+            ${startView === 'auto' ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
+                    >
+                        Auto
                     </button>
                     <button
                         onClick={() => setStartView('prayer')}
                         className={`px-3 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded 
-                ${startView === 'prayer' ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
+            ${startView === 'prayer' ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
                     >
-                        Stundengebet
+                        Stunden&shy;gebet
                     </button>
                 </div>
             </div>
 
             {/* Fußnoten Section */}
             <div className="px-3 py-0">
-                <div className="grid gap-2 items-center" style={{ gridTemplateColumns: '6em 1fr 1fr' }}>
+                <div className="grid gap-2 items-center" style={{ gridTemplateColumns: '6rem 1fr 1fr' }}>
                     <div className="text-sm text-gray-500 dark:text-gray-400">
                         Fußnoten
                     </div>
@@ -195,7 +202,7 @@ const PersonalSettings = () => {
                         className={`px-3 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded 
                 ${prefFootnotes ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
                     >
-                        unter dem Text
+                        unter dem&nbsp;Text
                     </button>
                 </div>
             </div>
@@ -206,7 +213,7 @@ const PersonalSettings = () => {
                     Namen für die Fürbitten
                 </div>
                 <div className="grid gap-2 items-center mb-1"
-                    style={{ gridTemplateColumns: '6em 1fr' }}>
+                    style={{ gridTemplateColumns: '6rem 1fr' }}>
                     <label className="text-sm text-gray-500 dark:text-gray-400">
                         Papst
                     </label>
@@ -221,7 +228,7 @@ const PersonalSettings = () => {
                     />
                 </div>
                 <div className="grid gap-2 items-center"
-                    style={{ gridTemplateColumns: '6em 1fr' }}>
+                    style={{ gridTemplateColumns: '6rem 1fr' }}>
                     <label className="text-sm text-gray-500 dark:text-gray-400">
                         Bischof
                     </label>
@@ -245,7 +252,7 @@ const PersonalSettings = () => {
                 <div className="space-y-3">
                     {weekdays.map((day, dayIndex) => (
                         <div key={day} className="grid gap-2 items-center"
-                            style={{ gridTemplateColumns: '6em 1fr 1fr 1fr 1fr' }}>
+                            style={{ gridTemplateColumns: '6rem 1fr 1fr 1fr 1fr' }}>
                             <div className="text-sm text-gray-500 dark:text-gray-400">
                                 {day}
                             </div>

@@ -1553,9 +1553,6 @@ export default function LiturgicalCalendar() {
     const [prayerTexts, setPrayerTexts] = useState(null);
     const [expandedDeceased, setExpandedDeceased] = useState({});
     const [deceasedMode, setDeceasedMode] = useState('recent');
-    const [viewMode, setViewMode] = useState(() =>
-        localStorage.getItem('startViewMode') || 'directory'
-    ); // 'directory', 'deceased', 'prayer', 'prayerText', 'settings'
     const [baseFontSize, setBaseFontSize] = useTouchZoom(14, 8, 24, 0.7, showDatePicker);
     const [isReady, setIsReady] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -1568,6 +1565,15 @@ export default function LiturgicalCalendar() {
     const scrollTimeoutRef = useRef(null);
     const [liturgicalInfo, setLiturgicalInfo] = useState(null);
     const [currentSeason, setCurrentSeason] = useState(null);
+
+    const startViewMode = localStorage.getItem('startViewMode') || 'directory'
+    const lastVisit = localStorage.getItem('lastVisit') || null
+    const todayVisit = new Date().toISOString().split('T')[0] // Format YYYY-MM-DD
+    const [viewMode, setViewMode] = useState(() =>
+        (startViewMode === 'directory' ||
+            (startViewMode === 'auto' && todayVisit === lastVisit))
+            ? 'directory' : 'prayer'
+    ); // 'directory', 'deceased', 'prayer', 'prayerText', 'settings'
 
     const formatDate = useCallback((date, forDisplay = false) => {
         if (forDisplay && isNarrowScreen) {
@@ -1639,6 +1645,12 @@ export default function LiturgicalCalendar() {
             wakeLock.releaseWakeLock();
         }
     }, [viewMode]);
+
+    useEffect(() => {
+        if (viewMode === 'directory') {
+            localStorage.setItem('lastVisit', todayVisit);
+        }
+    }, [viewMode, todayVisit]);
 
     useEffect(() => {
         // Formatiere das Datum zu YYYY-MM-DD
