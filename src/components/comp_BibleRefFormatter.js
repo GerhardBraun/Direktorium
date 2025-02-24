@@ -1,13 +1,22 @@
 import React from 'react';
 
-const formatBibleRef = (text) => {
+const formatBibleRef = (text, bracket = false) => {
     const originalText = text;
+    let formattedText = text;
 
-    // Alle Leerzeichen entfernen, außer die mit ° markierten
-    text = text.replace(/[^\S°]/g, '');
+    // Relevante Satzzeichen für Bibelstellen
+    const relevantPunctuation = ['-', ',', '.', ';', '–'];
+
+    // Leerzeichen vor und nach relevanten Satzzeichen entfernen
+    relevantPunctuation.forEach(punct => {
+        formattedText = formattedText.replace(new RegExp(`\\s*\\${punct}\\s*`, 'g'), punct);
+    });
+
+    // Verbleibende Leerzeichen durch ° ersetzen
+    formattedText = formattedText.replace(/\s/g, '°');
 
     // Bindestriche durch Gedankenstriche ersetzen
-    text = text.replace(/-/g, '–');
+    formattedText = formattedText.replace(/-/g, '–');
 
     let result = [];
     let currentText = '';
@@ -28,9 +37,9 @@ const formatBibleRef = (text) => {
         }
     };
 
-    for (let i = 0; i < text.length; i++) {
-        const char = text[i];
-        const nextPunctuation = text.slice(i + 1).match(/[,\.;–]/);
+    for (let i = 0; i < formattedText.length; i++) {
+        const char = formattedText[i];
+        const nextPunctuation = formattedText.slice(i + 1).match(/[,\.;–]/);
         const nextPunctuationType = nextPunctuation ? nextPunctuation[0] : null;
 
         switch (char) {
@@ -38,7 +47,7 @@ const formatBibleRef = (text) => {
                 if (inVerseSection) {
                     addCurrentText();
                     inVerseSection = false;
-                    currentText = '\u00A0'; // Unicode für geschütztes Leerzeichen
+                    currentText = '\u00A0';
                 } else {
                     currentText += '\u00A0';
                 }
@@ -66,14 +75,14 @@ const formatBibleRef = (text) => {
             case '–':
                 if (!inVerseSection) {
                     addCurrentText();
-                    currentText = '–\u200c'; // Gedankenstrich + ZWNJ
+                    currentText = '–\u200c';
                 } else {
                     if (!nextPunctuationType) {
                         currentText += '–\u200c';
                     } else if (nextPunctuationType === ',') {
-                        addCurrentText();              // Fügt den bisherigen Vers-Text formatiert hinzu
-                        inVerseSection = false;        // Beendet die Vers-Sektion
-                        result.push('\u00a0–\u200c\u00A0');  // Fügt die komplette bis-Strich-Gruppe als normalen Text hinzu
+                        addCurrentText();
+                        inVerseSection = false;
+                        result.push('\u00a0–\u200c\u00A0');
                     } else if (nextPunctuationType === '–') {
                         return originalText;
                     } else {
@@ -87,6 +96,7 @@ const formatBibleRef = (text) => {
     }
 
     addCurrentText();
+
     // Doppelte ° durch einzelnes ° ersetzen
     const finalResult = result.map(item =>
         typeof item === 'string'
@@ -94,7 +104,12 @@ const formatBibleRef = (text) => {
             : React.cloneElement(item, {}, item.props.children.replace(/°°/g, '°'))
     );
 
-    return finalResult.length > 0 ? <>{finalResult}</> : originalText.replace(/°°/g, '°');
+    let output = finalResult.length > 0 ? <>{finalResult}</> : originalText.replace(/°°/g, '°');
+
+    // Optional in Klammern einschließen
+    if (bracket) { output = <>({output})</>; }
+
+    return output;
 };
 
 export default formatBibleRef;

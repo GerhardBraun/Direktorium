@@ -2057,7 +2057,7 @@ export default function LiturgicalCalendar() {
             <div className="relative" ref={menuRef}>
                 <button
                     onClick={toggleMenu}
-                    className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700"
+                    className="py-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700"
                     aria-label="Theme menu"
                 >
                     <Menu className="w-6 h-6 text-gray-700 dark:text-gray-300" />

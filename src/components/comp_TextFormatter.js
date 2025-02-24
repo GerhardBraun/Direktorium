@@ -1,4 +1,5 @@
 import formatBibleRef from './comp_BibleRefFormatter.js';
+import React, { Fragment } from 'react';
 
 const doxology = "Ehre sei dem Vater und dem Sohn^*und dem Heiligen Geist,^pwie im Anfang so auch jetzt und alle Zeit^*und in Ewigkeit. Amen.";
 const easterAntiphon = "^p^rAnstelle des Responsoriums wird die°folgende°Antiphon°genommen:^0r^lDas ist der Tag, den der Herr gemacht hat. Lasst°uns°jubeln und seiner uns freuen. Halleluja.";
@@ -89,8 +90,6 @@ export const formatPrayerText = (provText, marker = '',
         .replace(/\^\*/g, '\u00A0*\n')
         .replace(/\^\+/g, '\u00A0†\n')
         .replace(/\^\//g, '    ')
-        .replace(/}/g, ')')
-        .replace(/\{(\d{1,2})#/g, '(')
         .replace(/(\w)–/g, '$1\u200C–')
         .replace(/–(\w)/g, '–\u200C$1')
         .replace(/([0-9])-([0-9])/g, '$1\u200C\u2013\u200C$2')
@@ -128,11 +127,19 @@ export const formatPrayerText = (provText, marker = '',
         .replace(/\^GEN/g, '^N')
         .replace(/\^VOK/g, '^N');
 
+    let footnoteCounter = 0;
+    const footnoteMap = new Map();
+
+    text = text.replace(/\{(\d{1,2})#(.*?)\}/g, (match, footnoteNumber, bibleRef) => {
+        const marker = `§FN${footnoteCounter}§`;
+        footnoteMap.set(marker, bibleRef);
+        footnoteCounter++;
+        return marker;
+    });
     // Inline-Formatierungen als React-Elemente verarbeiten
     const processInlineFormats = (text) => {
         // Split text into segments
-        const segments = text.split(/(\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^\(|\^\)|\^N)/g).filter(Boolean);
-
+        const segments = text.split(/(\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^\(|\^\)|\^N|§FN\d+§)/g).filter(Boolean);
         return segments.map((segment, index) => {
             if (segment.startsWith('^r')) {
                 const content = segment.substring(2, segment.length - 3);
@@ -152,6 +159,14 @@ export const formatPrayerText = (provText, marker = '',
                 return <span key={`close-${index}`} className="text-rubric">)</span>;
             } else if (segment === '^N') {
                 return <span key={`name-${index}`} className="text-rubric">N.</span>;
+            }
+            if (segment.match(/^§FN\d+§$/)) {
+                const bibleRef = footnoteMap.get(segment);
+                return (
+                    <Fragment key={`footnote-${index}`}>
+                        <span className="inline-block">{formatBibleRef(bibleRef, true)}</span>
+                    </Fragment>
+                );
             }
             return segment;
         });

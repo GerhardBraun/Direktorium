@@ -33,6 +33,9 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, formatPray
         if (sourceLabel === 'Comm:') {
             return 'bg-[#964b00]/70 text-white hover:bg-[#964b00]/80';
         }
+        if (sourceLabel === 'pers:') {
+            return 'bg-[#f0d060]/70 text-white hover:bg-[#f0d060]/80';
+        }
         return 'bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100 hover:bg-gray-200 dark:hover:bg-gray-700'
     };
 
