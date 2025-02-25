@@ -85,7 +85,6 @@ export const formatPrayerText = (provText, marker = '',
 
     let text = marker ? `^r${marker}^0r${provText}` : provText;
     text = text
-        .replace(/\^l/g, '\n')
         .replace(/°/g, '\u00A0')
         .replace(/\^\*/g, '\u00A0*\n')
         .replace(/\^\+/g, '\u00A0†\n')
@@ -146,6 +145,8 @@ export const formatPrayerText = (provText, marker = '',
 
     // Inline-Formatierungen als React-Elemente verarbeiten
     const processInlineFormats = (text) => {
+        text = text
+            .replace(/\^l/g, '\n')
         const segments = text.split(/(\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^\(|\^\)|\^N|§FN\d+§)/g).filter(Boolean);
 
         return segments.map((segment, index) => {
@@ -259,10 +260,10 @@ export const formatPrayerText = (provText, marker = '',
             {useFootnoteList && allFootnotes.length > 0 && (
                 <div className="mt-4 text-sm ">
                     {allFootnotes.map(fn => (
-                        <div key={`footnote-${fn.number}`} className="flex gap-3">
-                            <span className="w-3 text-gray-400">{fn.number}</span>
+                        <span key={`footnote-${fn.number}`} className="inline-block mr-3">
+                            <sup>{fn.number}&nbsp;&nbsp;</sup>
                             <span>{formatBibleRef(fn.content)}</span>
-                        </div>
+                        </span>
                     ))}
                 </div>
             )}

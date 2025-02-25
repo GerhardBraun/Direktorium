@@ -3,17 +3,17 @@ import React from 'react';
 const formatBibleRef = (text, bracket = false) => {
     const originalText = text;
     let formattedText = text;
-
+    if (['vgl.'].includes(text)) { console.log('BibleRefFormatter: ', text) }
     // Relevante Satzzeichen für Bibelstellen
     const relevantPunctuation = ['-', ',', '.', ';', '–'];
 
     // Leerzeichen vor und nach relevanten Satzzeichen entfernen
     relevantPunctuation.forEach(punct => {
-        formattedText = formattedText.replace(new RegExp(`\\s*\\${punct}\\s*`, 'g'), punct);
+        formattedText = formattedText.replace(new RegExp(`[ ]*\\${punct}[ ]*`, 'g'), punct);
     });
 
     // Verbleibende Leerzeichen durch ° ersetzen
-    formattedText = formattedText.replace(/\s/g, '°');
+    formattedText = formattedText.replace(/[ ]]/g, '°');
 
     // Bindestriche durch Gedankenstriche ersetzen
     formattedText = formattedText.replace(/-/g, '–');

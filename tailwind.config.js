@@ -43,6 +43,7 @@ module.exports = {
           fontSize: '0.7em',
           lineHeight: '0',
           verticalAlign: '-0.15em',
+          '@apply text-gray-400': {}
         }
       })
     }
