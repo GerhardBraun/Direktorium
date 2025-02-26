@@ -799,6 +799,7 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "U.L.Fr. in Lourdes",
+          "farbe": "m",
           "comm_1": "Maria",
           "ant_ev": "Du Morgenröte des Heils, Jungfrau Maria! Aus dir ging hervor die Sonne der Gerechtigkeit, Christus, das aufstrahlende Licht aus der Höhe.",
           "ant_komm": "Du Morgenröte des Heils, Jungfrau Maria! Aus dir ging hervor die Sonne der Gerechtigkeit, Christus, das aufstrahlende Licht aus der Höhe.",
@@ -2088,6 +2089,7 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Unsere Liebe Frau in Fatima",
+          "farbe": "m",
           "comm_1": "Maria",
           "oration": "Gott, unser Vater, du hast die Mutter deines Sohnes auch uns zur Mutter gegeben. Gewähre uns, dass wir in Buße und Gebet für das Heil der Welt verharren und von Tag zu Tag wirk­samer zum Kommen des Reiches Christi beitragen.^ORV"
         },
@@ -2304,6 +2306,7 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Maria, Hilfe der Christen",
+          "farbe": "m",
           "comm_1": "Maria",
           "oration": "Gott, du hast die Mutter deines geliebten Sohnes zur Mutter und Helferin des christlichen Volkes bestellt. Gib, dass wir unter ihrem Schutz geborgen sind und dass sich die Kirche eines dauerhaften Friedens erfreut.^ORvR"
         },
@@ -2484,6 +2487,35 @@ export const adlibData = {
         "Vesper": {
           "comm_1": "Hirten",
           "oration": "Gott, du hast dem heiligen Papst Paul aufgetragen, als unermüdlicher Apostel des Evangeliums deine Kirche zu leiten. Hilf uns, dass wir im Licht seiner Weisungen mitwirken, eine Kultur der Liebe in der ganzen Welt zu verbreiten.^ORV"
+        }
+      }
+    },
+    "32": {
+      "eig": {
+        "ErsteV": {
+          "comm_1": "Maria",
+          "oration": "Gott, du hast dem Heiligen Geist im Herzen der seligen Jungfrau Maria eine würdige Wohnung bereitet. Auf ihre Fürbitte hin erfülle auch unser Leben mit deiner Gegenwart und mache uns zu einem Tempeln deiner Herrlichkeit.^ORV"
+        },
+        "Lesehore": {
+          "comm_1": "Maria",
+          "patr_autor": "Laurentius Justiniani (†°1455)",
+          "patr_werk": "Aus einer Predigt am Fest der Darstellung des Herrn.",
+          "patr_text": "^hMaria bewahrte alles, was geschehen war, in°ihrem°Herzen^pAls Maria all das bei sich erwog, was sie durch Lesen, Hören und Sehen erkannt hatte, wie sehr wuchsen da ihr Glaube und ihre Verdienste! Mehr und mehr wurde sie erleuchtet durch die Weisheit und entzündet von der Glut der Liebe.^pÜber die alte Offenbarung der himmlischen Geheimnisse hinaus wurde sie weitergeführt, ihre Freude wurde vollendet, im Übermaß wurde sie befruchtet durch den Heiligen Geist. Sie wurde zu Gott hingeführt und wurde doch in der Demut bewahrt.^pVon solcher Art ist die Wirkung der göttlichen Gnade, dass sie den Menschen aus der Tiefe erhebt zur Höhe und ihn umgestaltet von Klarheit zu Klarheit.^pJa, selig das Herz der Jungfrau, das durch die Einwohnung und Führung des Heiligen Geistes allezeit und in allem dem Befehl des Wortes Gottes gehorchte. Nicht von ihrem eigenen Sinn, nicht von ihrem eigenen Willen ließ sie sich leiten, sondern, was die Weisheit in ihrem Herzen sie zu glauben aufforderte, das wurde nach außen hin durch den Dienst des Leibes der Jungfrau bewirkt. Es ziemte sich nämlich für die göttliche Weisheit, als sie sich das Haus der Kirche als Wohnung erbauen wollte, dass sie die selige Jungfrau Maria wegen ihrer Gesetzestreue und Herzensreinheit, wegen ihrer beispielhaften Demut und ihrer geistlichen Hingabe als Mittel dazu benutze.^pGläubige Seele, ahme Maria nach! Geh in den Tempel deines Herzens, damit du im Geist gereinigt werden kannst von der Befleckung der Sünden. Gott achtet nämlich in allem, was wir tun, mehr auf unsere Gesinnung als auf unser Werk. Sei es daher, dass wir durch die Übung der Betrachtung in unserem Herzen Gott Raum geben und für ihn frei sind, sei es, dass wir durch die Übung der Tugenden und durch gute Werke danach streben, enthaltsam zu sein zum Wohl unseres Nächsten, immer sollen wir so handeln, dass allein die Liebe Christi uns drängt. Das nämlich ist das wohlgefällige Opfer geistlicher Reinigung, das nicht in einem von Menschenhand gebauten Tempel dargebracht wird, sondern in einem Herzen, in das der Herr Jesus Christus mit Freuden eintritt.",
+          "patr_resp1": "Heilige und makellose Jungfrau, du bist allen Lobes würdig.",
+          "patr_resp2": "Den die Himmel nicht fassen, ihn trugst du in deinem Schoß.",
+          "patr_resp3": "Gebenedeit bist du unter den Frauen, und gebenedeit die Frucht deines Leibes.",
+          "oration": "Gott, du hast dem Heiligen Geist im Herzen der seligen Jungfrau Maria eine würdige Wohnung bereitet. Auf ihre Fürbitte hin erfülle auch unser Leben mit deiner Gegenwart und mache uns zu einem Tempeln deiner Herrlichkeit.^ORV"
+        },
+        "Laudes": {
+          "button": "Unbeflecktes Herz Mariens",
+          "farbe": "m",
+          "comm_1": "Maria",
+          "ant_ev": "Mein Herz und mein Leib jauchzen ihm zu, ihm, dem lebendigen Gott.",
+          "oration": "Gott, du hast dem Heiligen Geist im Herzen der seligen Jungfrau Maria eine würdige Wohnung bereitet. Auf ihre Fürbitte hin erfülle auch unser Leben mit deiner Gegenwart und mache uns zu einem Tempeln deiner Herrlichkeit.^ORV"
+        },
+        "Vesper": {
+          "comm_1": "Maria",
+          "oration": "Gott, du hast dem Heiligen Geist im Herzen der seligen Jungfrau Maria eine würdige Wohnung bereitet. Auf ihre Fürbitte hin erfülle auch unser Leben mit deiner Gegenwart und mache uns zu einem Tempeln deiner Herrlichkeit.^ORV"
         }
       }
     }
@@ -3513,6 +3545,7 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Unsere Liebe Frau auf dem Berge Karmel",
+          "farbe": "m",
           "comm_1": "Maria",
           "ant_ev": "Im Gebete verlangte ich nach Weisheit, und wie die erste Frucht des Weinstocks erfreute sie mein Herz.",
           "oration": "Großer und heiliger Gott, du hast den Berg Karmel schon im Alten Bund durch das Wirken der Propheten ausgezeichnet und ihn auch im Neuen Bund zu einer Stätte der Beschauung erwählt, zu einem Heiligtum der jungfräulichen Mutter Maria. Gib uns auf ihre Fürsprache die Freude, im Gebet deine Nähe zu erfahren.^ORV"
@@ -3920,6 +3953,7 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Weihe der Basilika S. Maria Maggiore in Rom",
+          "farbe": "m",
           "comm_1": "Maria",
           "ant_ev": "Heilige Jungfrau und Gottesmutter Maria, gebenedeit bist du unter den Frauen, und gebenedeit ist die Frucht deines Leibes.",
           "oration": "Barmherziger Gott, mit unserem eigenen Tun können wir vor dir nicht bestehen. Darum höre auf die Fürsprache der seligen Jungfrau Maria. Schau nicht auf unser Versagen, sondern sei uns gnädig und rette uns.^ORV"
@@ -4377,6 +4411,7 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Maria Königin",
+          "farbe": "m",
           "comm_1": "Maria",
           "ant_ev": "Erhabene Königin der Welt, Maria, immerwährende Jungfrau, du hast Christus geboren, unsern Herrn und Erlöser.",
           "oration": "Gott, du hast die Mutter deines Sohnes auch uns zur Mutter gegeben. Wir ehren sie als unsere Königin und vertrauen auf ihre Fürsprache. Lass uns im himmlischen Reich an der Herrlichkeit deiner Kinder teilhaben.^ORV"
@@ -4696,6 +4731,7 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Heiligster Name Mariens (Mariä Namen)",
+          "farbe": "m",
           "comm_1": "Maria",
           "oration": "Gott, unser Retter, der Name der seligen Jungfrau Maria ist für uns ein Zeichen der Hoffnung geworden. Befreie uns auf ihre Fürsprache aus allen Gefahren und vollende an uns das Werk der Erlösung.^ORV"
         },
@@ -6298,6 +6334,7 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Unsere Liebe Frau in Jerusalem",
+          "farbe": "m",
           "comm_1": "Maria",
           "ant_ev": "Selig bist du, Maria, weil du geglaubt hast. Was dir vom Herrn gesagt ist, wird sich an dir erfüllen.",
           "oration": "Gütiger Gott, wir gedenken am heutigen Tag der seligen Jungfrau Maria, die du mit der Fülle deiner Gnade beschenkt hast. Höre auf ihre Fürsprache und lass auch uns am Reichtum deiner Gnade teilhaben, damit wir mit ganzer Hingabe und frohem Vertrauen vor dir leben.^ORV"

@@ -3134,14 +3134,14 @@ export const psalmsData = {
     0.0: {
         "title": "Jubelnder Freude Lied",
         "quote": "1. Vp an Fronleichnam",
-        "text": "Jubelnder Freude Lied"
+        "text": "Jubelnder Freude Lied^ltöne am heil’gen Tag.^lFestlicher Lobgesang^lsteige aus jedem Herz.^lAltes sei abgetan,^lalles sei heute neu:^lWort und Tat und das ganze Herz.^pDenn wir begehn das Mahl,^lwie es der Herr gebot,^lda er als Lamm sich gab,^lOpfer zu unserm Heil.^lWas nur im Bild geahnt,^lmacht er nun sterbend wahr,^lschenkt sich selber den Seinen ganz.^pSiehe, er reicht im Brot^lSchwachen das eigne Fleisch,^lgibt den Verzagten Kraft,^llabt sie mit seinem Blut.^lSo gibt er sich selbst hin,^lda er zu ihnen sagt:^l„Trinket alle aus diesem Kelch.“^pHeiland und Herr der Welt,^lhöre auf unser Flehn:^lBleibe nicht fern von uns,^lsei uns im Brote nah,^lführ uns auf deinem Weg^lhin zu der Hoffnung Ziel,^lwo uns selig dein Licht umfängt. Amen."
       }
   },
   3941: {
     0.0: {
         "title": "Geheimnis seiner Herrlichkeit",
         "quote": "Lh an Fronleichnam",
-        "text": "Geheimnis seiner Herrlichkeit"
+        "text": "Geheimnis seiner Herrlichkeit^lversenkt sich ein^lin Brot und Wein.^lDas höchste Gut^lhat Leib und Blut^lfür unser Heil dem Tod geweiht.^lKommt, lasset uns anbeten.^pGeheimnis seiner Gegenwart^lseit jener Nacht^luns übermacht,^lda er sich bot^lals Wein und Brot^lund sich als Gott uns offenbart.^lKommt, lasset uns anbeten.^pGeheimnis der Dreifaltigkeit,^ldas einverleibt^lin uns verbleibt^lund Leben heißt^lund Glut und Geist^lund Auferstehung uns verleiht.^lKommt, lasset uns anbeten."
       }
   },
   3942: {
@@ -3155,7 +3155,7 @@ export const psalmsData = {
     0.0: {
         "title": "Das Geheimnis lasst uns künden",
         "quote": "2. Vp an Fronleichnam",
-        "text": "Das Geheimnis lasst uns künden"
+        "text": "Das Geheimnis lasst uns künden,^ldas uns Gott im Zeichen bot:^lJesu Leib, für unsre Sünden^lhingegeben in den Tod,^lJesu Blut, in dem wir finden^lHeil und Rettung aus der Not.^pVon Maria uns geboren,^lward Gott Sohn uns Menschen gleich,^lkam, zu suchen, was verloren,^lsprach das Wort vom Himmelreich,^lhat den Seinen zugeschworen:^lAllezeit bin ich bei euch.^pAuf geheimnisvolle Weise^lmacht er dies Versprechen wahr;^lals er in der Jünger Kreise^lbei dem Osterlamme war,^lgab in Brot und Wein zur Speise^lsich der Herr den Seinen dar.^pGottes Wort, ins Fleisch gekommen,^lwandelt durch sein Wort den Wein^lund das Brot zum Mahl der Frommen,^llädt auch die Verlornen ein.^lDer Verstand verstummt beklommen,^lnur das Herz begreift’s allein.^pGott ist nah in diesem Zeichen:^lkniet hin und betet an.^lDas Gesetz der Furcht muss weichen,^lda der neue Bund begann;^lMahl der Liebe ohnegleichen:^lnehmt im Glauben teil daran.^pGott dem Vater und dem Sohne^lsinge Lob, du Christenheit;^lauch dem Geist auf gleichem Throne^lsei der Lobgesang geweiht.^lBringet Gott im Jubeltone^lEhre, Ruhm und Herrlichkeit. Amen."
       }
   },
   3952: {

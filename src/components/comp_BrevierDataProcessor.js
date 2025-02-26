@@ -136,7 +136,8 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         dayOfWeek,
         weekOfPsalter,
         rank_wt,
-        isCommemoration
+        isCommemoration,
+        isImmacHeart
     } = getLiturgicalInfo(date);
     const { rank_date } = getLiturgicalInfo(calendarDate);
 
@@ -258,12 +259,20 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         }
 
         // Process Heiligenfeste only if rank is appropriate
-        if ((rank_date > 1 && rank_date > rank_wt) || (rank_date === 2 && rank_wt === 2)) {
+        if (rank_date > 1 && rank_date > rank_wt) {
             processHeiligenfeste(hours, season, rank_date, dayOfWeek, calendarMonth, calendarDay, 'eig');
         }
 
+        // Sonderfall: Herz Mariae und gebotener Gedenktag
+        if (isImmacHeart) {
+            processNichtgeboteneGedenktage(hours, season, '5', '32');
+            if (rank_date === 2) {
+                processHeiligenfeste(hours, season, rank_date, dayOfWeek, calendarMonth, calendarDay, 'eig', 'n1');
+                processNichtgeboteneGedenktage(hours, season, calendarMonth, calendarDay, true);
+            }
+        }
         // Layer 9: nichtgebotene Gedenktage
-        if (rank_wt < 3) {
+        else if (rank_wt < 3) {
             processHeiligenfeste(hours, season, rank_date, dayOfWeek, calendarMonth, calendarDay, 'n1');
             processNichtgeboteneGedenktage(hours, season, calendarMonth, calendarDay);
         }
@@ -273,7 +282,7 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
             rank_wt,
             rank_date,
             isCommemoration,
-            prefComm: (rank_date > 2 || rank_wt > 2) ? 1 : 0,
+            prefComm: (rank_date > 2 || rank_wt > 2 || isImmacHeart) ? 1 : 0,
             ...cleanupZeroReferences(hours)
         };
 
@@ -288,25 +297,25 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
     }
 }
 
-function processCommune(hours, targetHour, commune, season, targetSource, communeNumber) {
-    const [readComm, addComm] = commune.includes('_') ?
-        commune.split('_') : [commune, null];
+function processCommune(hours, hour, foundComm, season, targetSource, communeNumber) {
+    const [readComm, addComm] = foundComm.includes('_') ?
+        foundComm.split('_') : [foundComm, null];
 
     const targetKey = `com${communeNumber}`;
-    const readingHour = targetHour.charAt(0).toUpperCase() + targetHour.slice(1)
+    const readingHour = hour.charAt(0).toUpperCase() + hour.slice(1)
     // Ensure commune container exists for the target hour
-    if (!hours[targetHour][targetSource]) {
-        hours[targetHour][targetSource] = {};
+    if (!hours[hour][targetSource]) {
+        hours[hour][targetSource] = {};
     }
-    if (!hours[targetHour][targetSource][targetKey]) {
-        hours[targetHour][targetSource][targetKey] = {};
+    if (!hours[hour][targetSource][targetKey]) {
+        hours[hour][targetSource][targetKey] = {};
     }
 
     function addLayer(layerComm, layerSeason) {
         const communeData = brevierData?.com?.[layerComm]?.[layerSeason]?.[readingHour];
         if (communeData) {
             Object.assign(
-                hours[targetHour][targetSource][targetKey],
+                hours[hour][targetSource][targetKey],
                 processReferenceFields(communeData, false)
             );
         }
@@ -320,7 +329,7 @@ function processCommune(hours, targetHour, commune, season, targetSource, commun
     }
 }
 // Modified processNichtgeboteneGedenktage function
-function processNichtgeboteneGedenktage(hours, season, calendarMonth, calendarDay) {
+function processNichtgeboteneGedenktage(hours, season, calendarMonth, calendarDay, sameRank = false) {
     const nichtgebData = adlibData?.[calendarMonth]?.[calendarDay];
     if (nichtgebData) {
         // Array mit allen zu durchsuchenden Schlüsseln
@@ -330,19 +339,20 @@ function processNichtgeboteneGedenktage(hours, season, calendarMonth, calendarDa
         // Map über alle Schlüssel
         sourceKeys.forEach(sourceKey => {
             const sourceData = nichtgebData[sourceKey];
+            const targetKey = sameRank ? 'n1' : sourceKey;
 
             if (sourceData) {
-                mergeData(hours, sourceData, sourceKey);
+                mergeData(hours, sourceData, targetKey);
 
                 ['1', '2'].forEach(commNumber => {
                     const commField = `comm_${commNumber}`;
-                    const foundLaudesComm = hours?.laudes?.[sourceKey]?.[commField];
+                    const foundLaudesComm = hours?.laudes?.[targetKey]?.[commField];
                     if (foundLaudesComm) {
                         hourKeys.forEach(hour => {
-                            const foundComm = hours?.[hour]?.[sourceKey]?.[commField] || foundLaudesComm;
-                            processCommune(hours, hour, foundComm, season, sourceKey, commNumber);
+                            const foundComm = hours?.[hour]?.[targetKey]?.[commField] || foundLaudesComm;
+                            processCommune(hours, hour, foundComm, season, targetKey, commNumber);
                             // Remove the comm_1/2 field after processing
-                            delete hours[hour][sourceKey][commField];
+                            delete hours[hour][targetKey][commField];
                         });
                     };
                 });
@@ -352,11 +362,13 @@ function processNichtgeboteneGedenktage(hours, season, calendarMonth, calendarDa
 }
 
 // Modified processHeiligenfeste function
-function processHeiligenfeste(hours, season, rank_date, dayOfWeek, calendarMonth, calendarDay, sourceKey = 'eig') {
+function processHeiligenfeste(hours, season, rank_date, dayOfWeek, calendarMonth, calendarDay,
+    sourceKey = 'eig', targetKey = '') {
     // Commune texts processing
+    if (!targetKey) { targetKey = sourceKey }
     const communeData = brevierData?.[sourceKey]?.[calendarMonth]?.[calendarDay];
     if (communeData) {
-        mergeData(hours, communeData, sourceKey);
+        mergeData(hours, communeData, targetKey);
 
         // Process Commune categories
         ['1', '2'].forEach(commNumber => {
@@ -364,7 +376,7 @@ function processHeiligenfeste(hours, season, rank_date, dayOfWeek, calendarMonth
             Object.keys(hours).forEach(hour => {
                 const foundComm = hours[hour]?.[sourceKey]?.[commField];
                 if (foundComm) {
-                    processCommune(hours, hour, foundComm, season, sourceKey, commNumber);
+                    processCommune(hours, hour, foundComm, season, targetKey, commNumber);
                     // Remove the comm_1/2 field after processing
                     delete hours[hour][sourceKey][commField];
                 }
@@ -664,7 +676,7 @@ export function processBrevierData(todayDate) {
     const sequenceInv = JSON.parse(localStorage.getItem('sequenceInv')) || [95, 100, 24, 67, 67, 100, 24];
     let prefInv = sequenceInv[dayOfWeek];
     if (!invPsalms.includes(prefInv)) { prefInv = 95; }
-
     finalData.prefInv = prefInv;
+
     return finalData;
 }

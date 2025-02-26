@@ -7,19 +7,21 @@ const hasValidSource = (prayerTexts, source) => {
 
 // Hilfsfunktion für Button-Farben basierend auf der Quellenfarbe
 const getButtonColor = (prayerTexts, source) => {
-    const color = prayerTexts?.laudes?.[source]?.farbe;
-    return color?.startsWith('r')
-        ? 'bg-red-700/80 text-white hover:bg-red-600/80'
-        : 'bg-gray-200 text-gray-900 hover:bg-gray-100';
+    const color = prayerTexts?.laudes?.[source]?.farbe?.charAt(0)?.toLowerCase();
+    return color === 'r'
+        ? 'btn-red'
+        : color === 'm'
+            ? 'btn-blue'
+            : 'btn-white';
 };
 
 const getWeekdayButtonColor = (season) => {
     if (season === 'j') {
-        return 'bg-green-700/50 text-white hover:bg-green-600/50';
+        return 'btn-green';
     } else if (season === 'a' || season === 'q') {
-        return 'bg-purple-900/50 text-white hover:bg-purple-800/60';
+        return 'btn-violett';
     } else {
-        return 'bg-yellow-100/80 text-gray-900 hover:bg-yellow-50';
+        return 'btn-yellow';
     }
 };
 

@@ -10,11 +10,11 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, formatPray
 
         if (sourcePath === 'wt' && !hasOnlyWtSources) {
             if (season === 'j') {
-                return 'bg-green-700/50 text-white hover:bg-green-600/50';
+                return 'btn-green';
             } else if (season === 'a' || season === 'q') {
-                return 'bg-purple-900/50 text-white hover:bg-purple-800/60';
+                return 'btn-violett';
             } else {
-                return 'bg-yellow-100/80 text-gray-900 hover:bg-yellow-50';
+                return 'btn-gold';
             }
         };
 
@@ -28,15 +28,18 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, formatPray
 
         const color = currentLevel?.farbe;
         if (color?.startsWith('r')) {
-            return 'bg-red-700/80 text-white hover:bg-red-600/80'
+            return 'btn-red'
+        }
+        if (color?.startsWith('m')) {
+            return 'btn-blue'
         }
         if (sourceLabel === 'Comm:') {
-            return 'bg-[#964b00]/70 text-white hover:bg-[#964b00]/80';
+            return 'btn-brown';
         }
         if (sourceLabel === 'pers:') {
-            return 'bg-[#f0d060]/70 text-white hover:bg-[#f0d060]/80';
+            return 'btn-pers';
         }
-        return 'bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100 hover:bg-gray-200 dark:hover:bg-gray-700'
+        return 'btn-default'
     };
 
     const sourceOrder = useMemo(() => {
