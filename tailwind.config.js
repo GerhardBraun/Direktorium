@@ -108,7 +108,7 @@ module.exports = {
           '@apply bg-liturgical-brown text-hell hover:bg-liturgical-brown-hover': {}
         },
         '.btn-pers': {
-          '@apply bg-liturgical-personal text-dunkel hover:bg-liturgical-personal-hover': {}
+          '@apply bg-liturgical-personal text-hell hover:bg-liturgical-personal-hover': {}
         }
       })
     }

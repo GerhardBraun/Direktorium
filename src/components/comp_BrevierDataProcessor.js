@@ -144,7 +144,7 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
     const calendarDay = calendarDate.getDate();
     const calendarMonth = calendarDate.getMonth() + 1;
     const lectureYear = date.getFullYear() + (
-        (season === 'a' || (season === 'w' && calendarMonth === 12))
+        (season === 'a' || (calendarMonth === 12 && season !== 'j'))
             ? 1 : 0);
     const lectureData = lectureYear % 2 === 0 ? lecture2Data : lecture1Data;
 

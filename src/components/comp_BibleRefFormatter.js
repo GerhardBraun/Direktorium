@@ -1,7 +1,7 @@
 import React from 'react';
 
 const formatBibleRef = (text, bracket = false) => {
-    const originalText = text;
+    const originalText = bracket ? `(${text})` : text;
     let formattedText = text
         .replace(/-/g, '–')
         .replace(/°/g, ' ')
@@ -39,28 +39,24 @@ const formatBibleRef = (text, bracket = false) => {
         const nextPunctuationType = nextPunctuation ? nextPunctuation[0] : null;
 
         switch (char) {
+            case '@': return originalText.replace('@', '');
             case ' ':
                 if (inVerseSection) {
                     addCurrentText();
                     inVerseSection = false;
                 }
                 currentText += '\u00A0';
-
                 break;
 
             case ',':
-                if (inVerseSection) {
-                    return originalText;
-                }
+                if (inVerseSection) { return originalText; }
                 addCurrentText();
                 inVerseSection = true;
                 currentText += ',';
                 break;
 
             case ';':
-                if (!inVerseSection) {
-                    return originalText;
-                }
+                if (!inVerseSection) { return originalText; }
                 addCurrentText();
                 inVerseSection = false;
                 currentText += ';\u00A0';
@@ -84,6 +80,7 @@ const formatBibleRef = (text, bracket = false) => {
                     }
                 }
                 break;
+
             default:
                 currentText += char;
         }
