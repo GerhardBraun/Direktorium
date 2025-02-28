@@ -1567,11 +1567,11 @@ export default function LiturgicalCalendar() {
     const [currentSeason, setCurrentSeason] = useState(null);
 
     const startViewMode = localStorage.getItem('startViewMode') || 'directory'
-    const lastVisit = localStorage.getItem('lastVisit') || null
-    const todayVisit = new Date().toISOString().split('T')[0] // Format YYYY-MM-DD
+    const lastVisit = () => localStorage.getItem('lastVisit') || null
+    const todayVisit = () => new Date().toISOString().split('T')[0] // Format YYYY-MM-DD
     const [viewMode, setViewMode] = useState(() =>
         (startViewMode === 'directory' ||
-            (startViewMode === 'auto' && todayVisit === lastVisit))
+            (startViewMode === 'auto' && todayVisit() !== lastVisit()))
             ? 'directory' : 'prayer'
     ); // 'directory', 'deceased', 'prayer', 'prayerText', 'settings'
 
@@ -1647,8 +1647,12 @@ export default function LiturgicalCalendar() {
     }, [viewMode]);
 
     useEffect(() => {
-        if (viewMode === 'directory') {
-            localStorage.setItem('lastVisit', todayVisit);
+        if (lastVisit() !== todayVisit()) {
+            if (viewMode === 'directory') {
+                localStorage.setItem('lastVisit', 'directory');
+            } else if (lastVisit() === 'directory') {
+                localStorage.setItem('lastVisit', todayVisit())
+            }
         }
     }, [viewMode, todayVisit]);
 

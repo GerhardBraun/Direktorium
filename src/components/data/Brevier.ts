@@ -115,8 +115,7 @@ export const brevierData = {
     "1": {
       "0": {
         "each": {
-          "comm_2": "LEER a-1-0-each-Oration",
-          "oration": "a-1-0-each-Oration"
+          "oration": "Herr, unser Gott, alles steht in deiner Macht; du schenkst das Wollen und das Vollbringen. Hilf uns, dass wir auf dem Weg der Gerechtigkeit Christus entgegengehen und uns durch Taten der Liebe auf seine Ankunft vorbereiten, damit wir den Platz zu seiner Rechten erhalten, wenn er wiederkommt in Herrlichkeit. Er,^ORR"
         },
         "ErsteV": {
           "ant_1": "Verkündet unter den Völkern: Seht, Gott kommt, unser Retter.",
@@ -139,8 +138,7 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "comm_2": "LEER a-1-1-each-Oration",
-          "oration": "a-1-1-each-Oration"
+          "oration": "Hilf uns, Gott, dass wir voll Freude in diesen Tagen die Ankunft deines Sohnes erwarten. Nimm alle Trägheit von uns und mache uns bereit, zu wachen und zu beten, damit uns Christus nicht schlafend findet, wenn er kommt und anklopft. Er,^ORR"
         },
         "Laudes": {
           "ant_ev": "Erhebe die Augen, Jerusalem, schau die Macht deines Königs. Siehe, dein Retter kommt, deine Fesseln zu lösen."
@@ -151,8 +149,7 @@ export const brevierData = {
       },
       "2": {
         "each": {
-          "comm_2": "LEER a-1-2-each-Oration",
-          "oration": "a-1-2-each-Oration"
+          "oration": "Herr und Gott, in unserer Bedrängnis rufen wir zu dir, erhöre die Bitten deines Volkes. Bewahre uns vor aller Ansteckung des Bösen und tröste uns durch die Ankunft deines Sohnes, unseres Herrn Jesus Christus,^ORR"
         },
         "Laudes": {
           "ant_ev": "Ein Reis wird sprossen aus Isais Wurzelstock. Die ganze Erde wird von der Herrlichkeit des Herrn erfüllt, und alles Fleisch wird schauen Gottes Heil."
@@ -163,8 +160,7 @@ export const brevierData = {
       },
       "3": {
         "each": {
-          "comm_2": "LEER a-1-3-each-Oration",
-          "oration": "a-1-3-each-Oration"
+          "oration": "Herr, unser Gott, bereite durch das Wirken deiner Gnade unser Herz, damit wir bei der Ankunft deines Sohnes würdig sind, am himmlischen Gastmahl teilzunehmen und aus seiner Hand die Speise des ewigen Lebens zu empfangen.^ORvR"
         },
         "Laudes": {
           "ant_ev": "Der nach mir kommt, ist stärker als ich. Ich bin nicht wert, die Riemen seiner Schuhe zu lösen."
@@ -175,8 +171,7 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "comm_2": "LEER a-1-4-each-Oration",
-          "oration": "a-1-4-each-Oration"
+          "oration": "Biete auf deine Macht, Herr, unser Gott, und komm. Eile uns zu Hilfe mit göttlicher Kraft, damit durch dein gnädiges Erbarmen bald das Heil kommt, das unsere Sünden noch aufhalten.^ORV"
         },
         "Laudes": {
           "ant_ev": "Ich schaue aus nach dem Herrn, meinem Retter: in Geduld will ich warten, bis er sich naht.^Ö"
@@ -187,8 +182,7 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "comm_2": "LEER a-1-5-each-Oration",
-          "oration": "a-1-5-each-Oration"
+          "oration": "Biete auf deine Macht, Herr, unser Gott, und komm. Entreiße uns den Gefahren, in die unsere Sünden uns bringen. Mache uns frei und rette uns.^ORV"
         },
         "Laudes": {
           "ant_ev": "Siehe, Gott kommt als ein Mensch aus Davids Geschlecht und lässt sich nieder auf seinem Thron."
@@ -199,8 +193,7 @@ export const brevierData = {
       },
       "6": {
         "each": {
-          "comm_2": "LEER a-1-6-each-Oration",
-          "oration": "a-1-6-each-Oration"
+          "oration": "Barmherziger Gott, du hast deinen Sohn in diese Welt gesandt, um die Menschen aus der alten Knechtschaft zu erlösen. Schenke allen, die auf deine Hilfe warten, die Freiheit des neuen Lebens.^ORvR"
         },
         "Laudes": {
           "ant_ev": "Zion, fürchte dich nicht: siehe, dein Gott wird kommen.^Ö"
@@ -210,8 +203,7 @@ export const brevierData = {
     "2": {
       "0": {
         "each": {
-          "comm_2": "LEER a-2-0-each-Oration",
-          "oration": "a-2-0-each-Oration"
+          "oration": "Allmächtiger und barmherziger Gott, deine Weisheit allein zeigt uns den rechten Weg. Lass nicht zu, dass irdische Aufgaben und Sorgen uns hindern, deinem Sohn entgegenzugehen. Führe uns durch dein Wort und deine Gnade zur Gemeinschaft mit ihm,^ORR"
         },
         "ErsteV": {
           "ant_1": "Freue dich und juble, neues Jerusalem; dein König kommt. Er ist gütig und rettet uns.",
@@ -234,8 +226,7 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "comm_2": "LEER a-2-1-each-Oration",
-          "oration": "a-2-1-each-Oration"
+          "oration": "Gott, unser Vater, wir bereiten uns in diesen Tagen darauf vor, die Menschwerdung deines Sohnes würdig zu feiern. Lass unser Gebet zu dir dringen und segne unser Bemühen, damit unser Leben sich erneuert und die ursprüngliche Reinheit wiedergewinnt.^ORV"
         },
         "Laudes": {
           "ant_ev": "So spricht der Herr: Bekehrt euch, denn das Reich Gottes ist nahe.^Ö"
@@ -246,8 +237,7 @@ export const brevierData = {
       },
       "2": {
         "each": {
-          "comm_2": "LEER a-2-2-each-Oration",
-          "oration": "a-2-2-each-Oration"
+          "oration": "Gott des Erbarmens, du hast allen Völkern der Erde das Heil zugesagt. Lass uns voll Freude das Fest der Geburt Christi erwarten und das große Geheimnis seiner Menschwerdung feiern,^ORR"
         },
         "Laudes": {
           "ant_ev": "Freue dich und juble, Tochter Zion; denn siehe, ich komme und wohne in deiner Mitte – Spruch des Herrn."
@@ -258,8 +248,7 @@ export const brevierData = {
       },
       "3": {
         "each": {
-          "comm_2": "LEER a-2-3-each-Oration",
-          "oration": "a-2-3-each-Oration"
+          "oration": "Allmächtiger Gott, du hast uns durch Johannes den Täufer gemahnt, Christus, dem Herrn, den Weg zu bereiten. Stärke uns mit deiner Kraft, damit wir nicht müde werden, diesem Ruf zu folgen, sondern die tröstende Ankunft dessen erwarten, der uns Heilung bringt.^ORvR"
         },
         "Laudes": {
           "ant_ev": "Auf dem Throne Davids wird er sitzen und herrschen über sein Reich in Ewigkeit.^Ö"
@@ -270,8 +259,7 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "comm_2": "LEER a-2-4-each-Oration",
-          "oration": "a-2-4-each-Oration"
+          "oration": "Rüttle unsere Herzen auf, allmächtiger Gott, damit wir deinem Sohn den Weg bereiten und durch seine Ankunft fähig werden, dir in aufrichtiger Gesinnung zu dienen. Darum bitten wir durch ihn,^ORR"
         },
         "Laudes": {
           "ant_ev": "Ich bin dein Helfer – Spruch des Herrn –, ich, der Heilige Israels, bin dein Retter."
@@ -282,8 +270,7 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "comm_2": "LEER a-2-5-each-Oration",
-          "oration": "a-2-5-each-Oration"
+          "oration": "Allmächtiger Gott, gib, dass wir die Ankunft deines Sohnes mit großer Wachsamkeit erwarten und unserem Erlöser und Heiland Jesus Christus mit brennenden Lampen entgegengehen. Darum bitten wir durch ihn,^ORR"
         },
         "Laudes": {
           "ant_ev": "Sagt den verzagten Herzen: Seid stark und fürchtet euch nicht. Seht da, euer Gott."
@@ -294,8 +281,7 @@ export const brevierData = {
       },
       "6": {
         "each": {
-          "comm_2": "LEER a-2-6-each-Oration",
-          "oration": "a-2-6-each-Oration"
+          "oration": "Allmächtiger Gott, lass deine Herrlichkeit in unseren Herzen aufstrahlen und nimm den Todesschatten der Sünde von uns, damit wir bei der Ankunft deines Sohnes als Kinder des Lichtes offenbar werden. Darum bitten wir durch ihn,^ORR"
         },
         "Laudes": {
           "ant_ev": "Der Herr richtet ein Zeichen auf unter den Völkern und sammelt die Versprengten Israels."
@@ -305,8 +291,7 @@ export const brevierData = {
     "3": {
       "0": {
         "each": {
-          "comm_2": "LEER a-3-0-each-Oration",
-          "oration": "a-3-0-each-Oration"
+          "oration": "Allmächtiger Gott, sieh gütig auf dein Volk, das mit gläubigem Verlangen das Fest der Geburt Christi erwartet. Mache unser Herz bereit für das Geschenk der Erlösung, damit Weihnachten für uns alle ein Tag der Freude und der Zuversicht werde.^ORV"
         },
         "ErsteV": {
           "ant_1": "Jerusalem, jauchze auf in großer Freude; denn dein Erlöser kommt zu dir.^Ö",
@@ -329,8 +314,7 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "comm_2": "LEER a-3-1-each-Oration",
-          "oration": "a-3-1-each-Oration"
+          "oration": "Gütiger Gott, neige dein Ohr und erhöre unsere Bitten. Erleuchte die Finsternis unseres Herzens durch die Ankunft deines Sohnes,^ORR"
         },
         "Laudes": {
           "ant_ev": "Vom Himmel kommt der Gebieter, der Herr; in seiner Hand sind Ehre und Herrschertum."
@@ -341,8 +325,7 @@ export const brevierData = {
       },
       "2": {
         "each": {
-          "comm_2": "LEER a-3-2-each-Oration",
-          "oration": "a-3-2-each-Oration"
+          "oration": "Herr, unser Gott, durch dein Erbarmen sind wir in Christus eine neue Schöpfung geworden. Wende deine Augen nicht von uns ab, sondern heile alle Wunden der alten Schuld durch die Ankunft deines Sohnes,^ORR"
         },
         "Laudes": {
           "ant_ev": "Steh auf, Jerusalem, erhebe dich! Von deinem Halse streif die Fesseln ab, gefangene Tochter Zion."
@@ -353,8 +336,7 @@ export const brevierData = {
       },
       "3": {
         "each": {
-          "comm_2": "LEER a-3-3-each-Oration",
-          "oration": "a-3-3-each-Oration"
+          "oration": "Allmächtiger Gott, gib, dass wir die Ankunft deines Sohnes mit Freude erwarten. Sie schenke uns in diesem Leben heilende Kraft und in der Ewigkeit den verheißenen Lohn.^ORvR"
         },
         "Laudes": {
           "ant_ev": "Tröstet, ja, tröstet mein Volk! – so spricht der Herr, euer Gott."
@@ -365,8 +347,7 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "comm_2": "LEER a-3-4-each-Oration",
-          "oration": "a-3-4-each-Oration"
+          "oration": "Heiliger Gott, wir sind vor dir schuldig geworden, und die Sünde belastet uns. Schenke deinen unwürdigen Dienern die Freude wieder durch die heilbringende Ankunft deines Sohnes,^ORR"
         },
         "Laudes": {
           "ant_ev": "Wach auf, wach auf! Zeige deine Macht, du Arm des Herrn."
@@ -377,8 +358,7 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "comm_2": "LEER a-3-5-each-Oration",
-          "oration": "a-3-5-each-Oration"
+          "oration": "Allmächtiger Gott, deine Gnade komme unserem Bemühen zuvor und begleite unser Tun, damit wir Hilfe erlangen für unser Leben und mit großer Sehnsucht die Ankunft deines Sohnes erwarten,^ORR"
         },
         "Laudes": {
           "ant_ev": "Wahrt das Recht und übt Gerechtigkeit, denn das Heil ist nahe."
@@ -2778,7 +2758,6 @@ export const brevierData = {
           "patr_resp3": "Ein heiliger Tag ist uns aufgestrahlt; kommt, ihr Völker, und betet den Herrn an."
         },
         "Non": {
-          "comm_2": "Texte ",
           "les_buch": "Sach",
           "les_stelle": "2,15",
           "les_text": "An jenem Tag werden sich viele Völker dem Herrn anschließen, und sie werden mein Volk sein, und ich werde in deiner Mitte wohnen. Dann wirst du erkennen, dass der Herr der Heere mich zu dir gesandt hat.",
@@ -2786,7 +2765,6 @@ export const brevierData = {
           "resp1_1": "Erhebt die Stimme zu seinem Lob."
         },
         "Sext": {
-          "comm_2": "Texte ",
           "les_buch": "Jes",
           "les_stelle": "49,6",
           "les_text": "Der Herr sagte zu mir: Es ist zu wenig, dass du mein Knecht bist, nur um die Stämme Jakobs wieder aufzurichten und die Verschonten Israels heimzuführen. Ich mache dich zum Licht der Völker, damit mein Heil bis an das Ende der Erde reicht.",
@@ -2794,7 +2772,6 @@ export const brevierData = {
           "resp1_1": "Alle Könige den Herrn der Herrlichkeit."
         },
         "Terz": {
-          "comm_2": "Texte ",
           "ps_1": 47.0,
           "ps_2": 86.1,
           "ps_3": 98.0,
@@ -2805,7 +2782,6 @@ export const brevierData = {
           "resp1_1": "Er hat mit den Menschen gelebt."
         },
         "Vesper": {
-          "comm_2": "Texte ",
           "ps_1": 110.0,
           "ps_2": 112.0,
           "ps_3": 159.0,
@@ -4444,7 +4420,6 @@ export const brevierData = {
           "ant_ev": "Fürchte dich nicht, mein Knecht, ich bin bei dir. Gehst du durch Feuer, so wirst du nicht verbrennen, die Flamme wird dich nicht versengen."
         },
         "Lesehore": {
-          "comm_2": "Texte ",
           "resp0_0": "Mich trafen Not und Bedrängnis,",
           "resp0_1": "doch deine Gebote machen mich froh.",
           "les_buch": "Aus der Apostelgeschichte.",
@@ -4461,7 +4436,6 @@ export const brevierData = {
           "patr_resp3": "Mein Gott ist mein Helfer, auf ihn hoffe ich."
         },
         "Vesper": {
-          "comm_2": "Texte ",
           "ant_1": "Laurentius wurde aufgenommen in die Schar der Märtyrer, denn er hatte sich zum Namen Jesu Christi bekannt.",
           "ant_2": "Der heilige Laurentius rief: Ich freue mich von Herzen, dass ich eine Opfergabe Christi werden darf.",
           "ant_3": "Der heilige Laurentius betete und sprach: Ich sage dir Dank, o Herr, dass du mich aufgenommen hast in deine Herrlichkeit.",
@@ -4998,7 +4972,6 @@ export const brevierData = {
           "patr_resp3": "Lasst euch vom Geist entflammen und dient dem Herrn! Seid fröhlich in der Hoffnung, geduldig in der Bedrängnis, beharrlich im Gebet!"
         },
         "Non": {
-          "comm_2": "Texte ",
           "les_buch": "1°Kor",
           "les_stelle": "9,24–25",
           "les_text": "Wisst ihr nicht, dass die Läufer im Stadion zwar alle laufen, aber dass nur einer den Siegespreis  gewinnt? Lauft so, dass ihr ihn gewinnt. Jeder Wettkämpfer lebt aber völlig enthaltsam; jene tun dies, um einen vergänglichen, wir aber, um einen unvergänglichen Siegeskranz zu gewinnen.",
@@ -5006,7 +4979,6 @@ export const brevierData = {
           "resp1_1": "Er bewirke in uns, was ihm gefällt."
         },
         "Sext": {
-          "comm_2": "Texte ",
           "les_buch": "Spr",
           "les_stelle": "8,6–8",
           "les_text": "Hört her! Aufrichtig rede ich. Redlich ist, was meine Lippen reden. Die Wahrheit spricht meine Zunge, Unrechtes ist meinen Lippen ein Gräuel. Alle meine Worte sind recht, keines von ihnen ist hinterhältig und falsch.",
@@ -5014,7 +4986,6 @@ export const brevierData = {
           "resp1_1": "All ihre Pfade führen zum Glück."
         },
         "Terz": {
-          "comm_2": "Texte ",
           "les_buch": "Kol",
           "les_stelle": "3,12.14.16",
           "les_text": "Bekleidet euch mit aufrichtigem Erbarmen, mit Güte, Demut, Milde, Geduld! Vor allem aber liebt einander, denn die Liebe ist das Band, das alles zusammenhält und vollkommen macht. Das Wort Christi wohne mit seinem ganzen Reichtum bei euch. Belehrt und ermahnt einander in aller Weisheit!",
@@ -5022,7 +4993,6 @@ export const brevierData = {
           "resp1_1": "Durch den Heiligen Geist, der uns gegeben ist."
         },
         "Vesper": {
-          "comm_2": "Texte ",
           "hymn_1": 8928.4,
           "hymn_2": 8928.5,
           "ant_1": "Lioba sorgte sich um die Sache des Herrn, sie wollte dem Herrn gefallen.",
@@ -5662,6 +5632,7 @@ export const brevierData = {
           "oration": "Gott, du Vater der Armen, du hast der heiligen Elisabeth ein waches Herz für die Armen gegeben, in denen sie Christus erkannte und verehrte. Auf ihre Fürsprache gib auch uns den Geist deiner Liebe und leite uns an zu helfen, wo Menschen in Not und Bedrängnis sind.^ORV"
         },
         "ErsteV": {
+          "button": "1. Vesper zur hl. Elisabeth",
           "hymn_1": 9119.2,
           "hymn_2": 9119.3,
           "ant_1": "Elisabeth erhielt ihren Sitz bei den Edlen des Volkes Gottes.",
@@ -5864,7 +5835,6 @@ export const brevierData = {
           "patr_resp3": "Siehe, von nun an preisen mich selig alle Geschlechter."
         },
         "Non": {
-          "comm_2": "Texte ",
           "ant_0": "In Gerechtigkeit hat Gott mich geschaffen; er hat mich bei der Hand gefasst und mich behütet.",
           "les_buch": "Eph",
           "les_stelle": "5,25b–27",
@@ -5873,7 +5843,6 @@ export const brevierData = {
           "resp1_1": "Kündet Freude der ganzen Welt."
         },
         "Sext": {
-          "comm_2": "Texte ",
           "ant_0": "Der Herr hat an dir sein Gefallen, es freut sich über dich dein Gott.",
           "les_buch": "Eph",
           "les_stelle": "1,11–12a",
@@ -5882,7 +5851,6 @@ export const brevierData = {
           "resp1_1": "Ihm, dem lebendigen Gott."
         },
         "Terz": {
-          "comm_2": "Texte ",
           "ant_0": "Es lebe der Herr! Die Fülle seines Erbarmens hat er mir geschenkt.",
           "les_buch": "Eph",
           "les_stelle": "1,4",
@@ -6405,7 +6373,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Herr, unser Gott, wir haben uns im Namen deines Sohnes versammelt und rufen zu dir: Erhöre die Bitten deines Volkes, mach uns hellhörig für unseren Auftrag in dieser Zeit und gib uns die Kraft, ihn zu erfüllen.^ORV",
           "oration": "Herr, unser Gott, wir haben uns im Namen deines Sohnes versammelt und rufen zu dir: Erhöre die Bitten deines Volkes, mach uns hellhörig für unseren Auftrag in dieser Zeit und gib uns die Kraft, ihn zu erfüllen.^ORV"
         }
       }
@@ -6413,7 +6380,6 @@ export const brevierData = {
     "2": {
       "0": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, du gebietest über Himmel und Erde, du hast Macht über die Herzen der Menschen. Darum kommen wir voll Vertrauen zu dir; stärke alle, die sich um die Gerechtigkeit mühen, und schenke unserer Zeit deinen Frieden.^ORV",
           "oration": "Allmächtiger Gott, du gebietest über Himmel und Erde, du hast Macht über die Herzen der Menschen. Darum kommen wir voll Vertrauen zu dir; stärke alle, die sich um die Gerechtigkeit mühen, und schenke unserer Zeit deinen Frieden.^ORV"
         },
         "ErsteV": {
@@ -6435,7 +6401,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Allmächtiger Gott, du gebietest über Himmel und Erde, du hast Macht über die Herzen der Menschen. Darum kommen wir voll Vertrauen zu dir; stärke alle, die sich um die Gerechtigkeit mühen, und schenke unserer Zeit deinen Frieden.^ORV",
           "oration": "Allmächtiger Gott, du gebietest über Himmel und Erde, du hast Macht über die Herzen der Menschen. Darum kommen wir voll Vertrauen zu dir; stärke alle, die sich um die Gerechtigkeit mühen, und schenke unserer Zeit deinen Frieden.^ORV"
         }
       }
@@ -6443,7 +6408,6 @@ export const brevierData = {
     "3": {
       "0": {
         "each": {
-          "comm_2": "LEER Allmächtiger, ewiger Gott, lenke unser Tun nach deinem Willen und gib, dass wir im Namen deines geliebten Sohnes reich werden an guten Werken.^ORvR",
           "oration": "Allmächtiger, ewiger Gott, lenke unser Tun nach deinem Willen und gib, dass wir im Namen deines geliebten Sohnes reich werden an guten Werken.^ORvR"
         },
         "ErsteV": {
@@ -6465,7 +6429,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Allmächtiger, ewiger Gott, lenke unser Tun nach deinem Willen und gib, dass wir im Namen deines geliebten Sohnes reich werden an guten Werken.^ORvR",
           "oration": "Allmächtiger, ewiger Gott, lenke unser Tun nach deinem Willen und gib, dass wir im Namen deines geliebten Sohnes reich werden an guten Werken.^ORvR"
         }
       }
@@ -6473,7 +6436,6 @@ export const brevierData = {
     "4": {
       "0": {
         "each": {
-          "comm_2": "LEER Herr, unser Gott, du hast uns erschaffen, damit wir dich preisen. Gib, dass wir dich mit ungeteiltem Herzen anbeten und die Menschen lieben, wie du sie liebst.^ORV",
           "oration": "Herr, unser Gott, du hast uns erschaffen, damit wir dich preisen. Gib, dass wir dich mit ungeteiltem Herzen anbeten und die Menschen lieben, wie du sie liebst.^ORV"
         },
         "ErsteV": {
@@ -6495,7 +6457,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Herr, unser Gott, du hast uns erschaffen, damit wir dich preisen. Gib, dass wir dich mit ungeteiltem Herzen anbeten und die Menschen lieben, wie du sie liebst.^ORV",
           "oration": "Herr, unser Gott, du hast uns erschaffen, damit wir dich preisen. Gib, dass wir dich mit ungeteiltem Herzen anbeten und die Menschen lieben, wie du sie liebst.^ORV"
         }
       }
@@ -6503,7 +6464,6 @@ export const brevierData = {
     "5": {
       "0": {
         "each": {
-          "comm_2": "LEER Gott, unser Vater, wir sind dein Eigentum und setzen unsere Hoffnung allein auf deine Gnade. Bleibe uns nahe in jeder Not und Gefahr und schütze uns.^ORV",
           "oration": "Gott, unser Vater, wir sind dein Eigentum und setzen unsere Hoffnung allein auf deine Gnade. Bleibe uns nahe in jeder Not und Gefahr und schütze uns.^ORV"
         },
         "ErsteV": {
@@ -6525,7 +6485,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Gott, unser Vater, wir sind dein Eigentum und setzen unsere Hoffnung allein auf deine Gnade. Bleibe uns nahe in jeder Not und Gefahr und schütze uns.^ORV",
           "oration": "Gott, unser Vater, wir sind dein Eigentum und setzen unsere Hoffnung allein auf deine Gnade. Bleibe uns nahe in jeder Not und Gefahr und schütze uns.^ORV"
         }
       }
@@ -6533,7 +6492,6 @@ export const brevierData = {
     "6": {
       "0": {
         "each": {
-          "comm_2": "LEER Gott, du liebst deine Geschöpfe, und es ist deine Freude, bei den Menschen zu wohnen. Gib uns ein neues und reines Herz, das bereit ist, dich aufzunehmen.^ORV",
           "oration": "Gott, du liebst deine Geschöpfe, und es ist deine Freude, bei den Menschen zu wohnen. Gib uns ein neues und reines Herz, das bereit ist, dich aufzunehmen.^ORV"
         },
         "ErsteV": {
@@ -6555,7 +6513,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Gott, du liebst deine Geschöpfe, und es ist deine Freude, bei den Menschen zu wohnen. Gib uns ein neues und reines Herz, das bereit ist, dich aufzunehmen.^ORV",
           "oration": "Gott, du liebst deine Geschöpfe, und es ist deine Freude, bei den Menschen zu wohnen. Gib uns ein neues und reines Herz, das bereit ist, dich aufzunehmen.^ORV"
         }
       }
@@ -6563,7 +6520,6 @@ export const brevierData = {
     "7": {
       "0": {
         "each": {
-          "comm_2": "LEER Barmherziger Gott, du hast durch deinen Sohn zu uns gesprochen. Lass uns immer wieder über dein Wort nachsinnen, damit wir reden und tun, was dir gefällt.^ORV",
           "oration": "Barmherziger Gott, du hast durch deinen Sohn zu uns gesprochen. Lass uns immer wieder über dein Wort nachsinnen, damit wir reden und tun, was dir gefällt.^ORV"
         },
         "ErsteV": {
@@ -6585,7 +6541,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Barmherziger Gott, du hast durch deinen Sohn zu uns gesprochen. Lass uns immer wieder über dein Wort nachsinnen, damit wir reden und tun, was dir gefällt.^ORV",
           "oration": "Barmherziger Gott, du hast durch deinen Sohn zu uns gesprochen. Lass uns immer wieder über dein Wort nachsinnen, damit wir reden und tun, was dir gefällt.^ORV"
         }
       }
@@ -6593,7 +6548,6 @@ export const brevierData = {
     "8": {
       "0": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, deine Vorsehung bestimmt den Lauf der Dinge und das Schicksal der Menschen. Lenke die Welt in den Bahnen deiner Ordnung, damit die Kirche in Frieden deinen Auftrag erfüllen kann.^ORV",
           "oration": "Allmächtiger Gott, deine Vorsehung bestimmt den Lauf der Dinge und das Schicksal der Menschen. Lenke die Welt in den Bahnen deiner Ordnung, damit die Kirche in Frieden deinen Auftrag erfüllen kann.^ORV"
         },
         "ErsteV": {
@@ -6615,7 +6569,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Allmächtiger Gott, deine Vorsehung bestimmt den Lauf der Dinge und das Schicksal der Menschen. Lenke die Welt in den Bahnen deiner Ordnung, damit die Kirche in Frieden deinen Auftrag erfüllen kann.^ORV",
           "oration": "Allmächtiger Gott, deine Vorsehung bestimmt den Lauf der Dinge und das Schicksal der Menschen. Lenke die Welt in den Bahnen deiner Ordnung, damit die Kirche in Frieden deinen Auftrag erfüllen kann.^ORV"
         }
       }
@@ -6623,7 +6576,6 @@ export const brevierData = {
     "9": {
       "0": {
         "each": {
-          "comm_2": "LEER Gott, unser Vater, deine Vorsehung geht niemals fehl. Halte von uns fern, was uns schadet, und gewähre uns alles, was zum Heile dient.^ORV",
           "oration": "Gott, unser Vater, deine Vorsehung geht niemals fehl. Halte von uns fern, was uns schadet, und gewähre uns alles, was zum Heile dient.^ORV"
         },
         "ErsteV": {
@@ -6645,7 +6597,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Gott, unser Vater, deine Vorsehung geht niemals fehl. Halte von uns fern, was uns schadet, und gewähre uns alles, was zum Heile dient.^ORV",
           "oration": "Gott, unser Vater, deine Vorsehung geht niemals fehl. Halte von uns fern, was uns schadet, und gewähre uns alles, was zum Heile dient.^ORV"
         }
       }
@@ -6653,7 +6604,6 @@ export const brevierData = {
     "10": {
       "0": {
         "each": {
-          "comm_2": "LEER Gott, unser Vater, alles Gute kommt allein von dir. Schenke uns deinen Geist, damit wir erkennen, was recht ist, und es mit deiner Hilfe auch tun.^ORV",
           "oration": "Gott, unser Vater, alles Gute kommt allein von dir. Schenke uns deinen Geist, damit wir erkennen, was recht ist, und es mit deiner Hilfe auch tun.^ORV"
         },
         "ErsteV": {
@@ -6675,7 +6625,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Gott, unser Vater, alles Gute kommt allein von dir. Schenke uns deinen Geist, damit wir erkennen, was recht ist, und es mit deiner Hilfe auch tun.^ORV",
           "oration": "Gott, unser Vater, alles Gute kommt allein von dir. Schenke uns deinen Geist, damit wir erkennen, was recht ist, und es mit deiner Hilfe auch tun.^ORV"
         }
       }
@@ -6683,7 +6632,6 @@ export const brevierData = {
     "11": {
       "0": {
         "each": {
-          "comm_2": "LEER Gott, du unsere Hoffnung und unsere Kraft, ohne dich vermögen wir nichts. Steh uns mit deiner Gnade bei, damit wir denken, reden und tun, was dir gefällt.^ORV",
           "oration": "Gott, du unsere Hoffnung und unsere Kraft, ohne dich vermögen wir nichts. Steh uns mit deiner Gnade bei, damit wir denken, reden und tun, was dir gefällt.^ORV"
         },
         "ErsteV": {
@@ -6705,7 +6653,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Gott, du unsere Hoffnung und unsere Kraft, ohne dich vermögen wir nichts. Steh uns mit deiner Gnade bei, damit wir denken, reden und tun, was dir gefällt.^ORV",
           "oration": "Gott, du unsere Hoffnung und unsere Kraft, ohne dich vermögen wir nichts. Steh uns mit deiner Gnade bei, damit wir denken, reden und tun, was dir gefällt.^ORV"
         }
       }
@@ -6713,7 +6660,6 @@ export const brevierData = {
     "12": {
       "0": {
         "each": {
-          "comm_2": "LEER Heiliger Gott, gib, dass wir deinen Namen allezeit fürchten und lieben. Denn du entziehst keinem deine väterliche Hand, der fest in deiner Liebe verwurzelt ist.^ORV",
           "oration": "Heiliger Gott, gib, dass wir deinen Namen allezeit fürchten und lieben. Denn du entziehst keinem deine väterliche Hand, der fest in deiner Liebe verwurzelt ist.^ORV"
         },
         "ErsteV": {
@@ -6735,7 +6681,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Heiliger Gott, gib, dass wir deinen Namen allezeit fürchten und lieben. Denn du entziehst keinem deine väterliche Hand, der fest in deiner Liebe verwurzelt ist.^ORV",
           "oration": "Heiliger Gott, gib, dass wir deinen Namen allezeit fürchten und lieben. Denn du entziehst keinem deine väterliche Hand, der fest in deiner Liebe verwurzelt ist.^ORV"
         }
       }
@@ -6743,7 +6688,6 @@ export const brevierData = {
     "13": {
       "0": {
         "each": {
-          "comm_2": "LEER Gott, unser Vater, du hast uns in der Taufe zu Kindern des Lichtes gemacht. Lass nicht zu, dass die Finsternis des Irrtums über uns Macht gewinnt, sondern hilf uns, im Licht deiner Wahrheit zu bleiben.^ORV",
           "oration": "Gott, unser Vater, du hast uns in der Taufe zu Kindern des Lichtes gemacht. Lass nicht zu, dass die Finsternis des Irrtums über uns Macht gewinnt, sondern hilf uns, im Licht deiner Wahrheit zu bleiben.^ORV"
         },
         "ErsteV": {
@@ -6765,7 +6709,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Gott, unser Vater, du hast uns in der Taufe zu Kindern des Lichtes gemacht. Lass nicht zu, dass die Finsternis des Irrtums über uns Macht gewinnt, sondern hilf uns, im Licht deiner Wahrheit zu bleiben.^ORV",
           "oration": "Gott, unser Vater, du hast uns in der Taufe zu Kindern des Lichtes gemacht. Lass nicht zu, dass die Finsternis des Irrtums über uns Macht gewinnt, sondern hilf uns, im Licht deiner Wahrheit zu bleiben.^ORV"
         }
       }
@@ -6773,7 +6716,6 @@ export const brevierData = {
     "14": {
       "0": {
         "each": {
-          "comm_2": "LEER Barmherziger Gott, durch die Erniedrigung deines Sohnes hast du die gefallene Menschheit wieder aufgerichtet und aus der Knechtschaft der Sünde befreit. Erfülle uns mit Freude über die Erlösung und führe uns zur ewigen Seligkeit.^ORV",
           "oration": "Barmherziger Gott, durch die Erniedrigung deines Sohnes hast du die gefallene Menschheit wieder aufgerichtet und aus der Knechtschaft der Sünde befreit. Erfülle uns mit Freude über die Erlösung und führe uns zur ewigen Seligkeit.^ORV"
         },
         "ErsteV": {
@@ -6795,7 +6737,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Barmherziger Gott, durch die Erniedrigung deines Sohnes hast du die gefallene Menschheit wieder aufgerichtet und aus der Knechtschaft der Sünde befreit. Erfülle uns mit Freude über die Erlösung und führe uns zur ewigen Seligkeit.^ORV",
           "oration": "Barmherziger Gott, durch die Erniedrigung deines Sohnes hast du die gefallene Menschheit wieder aufgerichtet und aus der Knechtschaft der Sünde befreit. Erfülle uns mit Freude über die Erlösung und führe uns zur ewigen Seligkeit.^ORV"
         }
       }
@@ -6803,7 +6744,6 @@ export const brevierData = {
     "15": {
       "0": {
         "each": {
-          "comm_2": "LEER Gott, du bist unser Ziel, du zeigst den Irrenden das Licht der Wahrheit und führst sie auf den rechten Weg zurück. Gib allen, die sich Christen nennen, die Kraft, zu meiden, was diesem Namen widerspricht, und zu tun, was unserem Glauben entspricht.^ORV",
           "oration": "Gott, du bist unser Ziel, du zeigst den Irrenden das Licht der Wahrheit und führst sie auf den rechten Weg zurück. Gib allen, die sich Christen nennen, die Kraft, zu meiden, was diesem Namen widerspricht, und zu tun, was unserem Glauben entspricht.^ORV"
         },
         "ErsteV": {
@@ -6825,7 +6765,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Gott, du bist unser Ziel, du zeigst den Irrenden das Licht der Wahrheit und führst sie auf den rechten Weg zurück. Gib allen, die sich Christen nennen, die Kraft, zu meiden, was diesem Namen widerspricht, und zu tun, was unserem Glauben entspricht.^ORV",
           "oration": "Gott, du bist unser Ziel, du zeigst den Irrenden das Licht der Wahrheit und führst sie auf den rechten Weg zurück. Gib allen, die sich Christen nennen, die Kraft, zu meiden, was diesem Namen widerspricht, und zu tun, was unserem Glauben entspricht.^ORV"
         }
       }
@@ -6833,7 +6772,6 @@ export const brevierData = {
     "16": {
       "0": {
         "each": {
-          "comm_2": "LEER Herr, unser Gott, sieh gnädig auf alle, die du in deinen Dienst gerufen hast. Mach uns stark im Glauben, in der Hoffnung und in der Liebe, damit wir immer wachsam sind und auf dem Weg deiner Gebote bleiben.^ORV",
           "oration": "Herr, unser Gott, sieh gnädig auf alle, die du in deinen Dienst gerufen hast. Mach uns stark im Glauben, in der Hoffnung und in der Liebe, damit wir immer wachsam sind und auf dem Weg deiner Gebote bleiben.^ORV"
         },
         "ErsteV": {
@@ -6855,7 +6793,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Herr, unser Gott, sieh gnädig auf alle, die du in deinen Dienst gerufen hast. Mach uns stark im Glauben, in der Hoffnung und in der Liebe, damit wir immer wachsam sind und auf dem Weg deiner Gebote bleiben.^ORV",
           "oration": "Herr, unser Gott, sieh gnädig auf alle, die du in deinen Dienst gerufen hast. Mach uns stark im Glauben, in der Hoffnung und in der Liebe, damit wir immer wachsam sind und auf dem Weg deiner Gebote bleiben.^ORV"
         }
       }
@@ -6863,7 +6800,6 @@ export const brevierData = {
     "17": {
       "0": {
         "each": {
-          "comm_2": "LEER Gott, du Beschützer aller, die auf dich hoffen, ohne dich ist nichts gesund und nichts heilig. Führe uns in deinem Erbarmen den rechten Weg und hilf uns, die vergänglichen Güter so zu gebrauchen, dass wir die ewigen nicht verlieren.^ORV",
           "oration": "Gott, du Beschützer aller, die auf dich hoffen, ohne dich ist nichts gesund und nichts heilig. Führe uns in deinem Erbarmen den rechten Weg und hilf uns, die vergänglichen Güter so zu gebrauchen, dass wir die ewigen nicht verlieren.^ORV"
         },
         "ErsteV": {
@@ -6885,7 +6821,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Gott, du Beschützer aller, die auf dich hoffen, ohne dich ist nichts gesund und nichts heilig. Führe uns in deinem Erbarmen den rechten Weg und hilf uns, die vergänglichen Güter so zu gebrauchen, dass wir die ewigen nicht verlieren.^ORV",
           "oration": "Gott, du Beschützer aller, die auf dich hoffen, ohne dich ist nichts gesund und nichts heilig. Führe uns in deinem Erbarmen den rechten Weg und hilf uns, die vergänglichen Güter so zu gebrauchen, dass wir die ewigen nicht verlieren.^ORV"
         }
       }
@@ -6893,7 +6828,6 @@ export const brevierData = {
     "18": {
       "0": {
         "each": {
-          "comm_2": "LEER Gott, unser Vater, steh deinen Dienern bei und erweise allen, die zu dir rufen, Tag für Tag deine Liebe. Du bist unser Schöpfer und der Lenker unseres Lebens. Erneuere deine Gnade in uns, damit wir dir gefallen, und erhalte, was du erneuert hast.^ORV",
           "oration": "Gott, unser Vater, steh deinen Dienern bei und erweise allen, die zu dir rufen, Tag für Tag deine Liebe. Du bist unser Schöpfer und der Lenker unseres Lebens. Erneuere deine Gnade in uns, damit wir dir gefallen, und erhalte, was du erneuert hast.^ORV"
         },
         "ErsteV": {
@@ -6915,7 +6849,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Gott, unser Vater, steh deinen Dienern bei und erweise allen, die zu dir rufen, Tag für Tag deine Liebe. Du bist unser Schöpfer und der Lenker unseres Lebens. Erneuere deine Gnade in uns, damit wir dir gefallen, und erhalte, was du erneuert hast.^ORV",
           "oration": "Gott, unser Vater, steh deinen Dienern bei und erweise allen, die zu dir rufen, Tag für Tag deine Liebe. Du bist unser Schöpfer und der Lenker unseres Lebens. Erneuere deine Gnade in uns, damit wir dir gefallen, und erhalte, was du erneuert hast.^ORV"
         }
       }
@@ -6923,7 +6856,6 @@ export const brevierData = {
     "19": {
       "0": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, wir dürfen dich Vater nennen, denn du hast uns an Kindes Statt angenommen und uns den Geist deines Sohnes gesandt. Gib, dass wir in diesem Geist wachsen und einst das verheißene Erbe empfangen.^ORV",
           "oration": "Allmächtiger Gott, wir dürfen dich Vater nennen, denn du hast uns an Kindes Statt angenommen und uns den Geist deines Sohnes gesandt. Gib, dass wir in diesem Geist wachsen und einst das verheißene Erbe empfangen.^ORV"
         },
         "ErsteV": {
@@ -6945,7 +6877,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Allmächtiger Gott, wir dürfen dich Vater nennen, denn du hast uns an Kindes Statt angenommen und uns den Geist deines Sohnes gesandt. Gib, dass wir in diesem Geist wachsen und einst das verheißene Erbe empfangen.^ORV",
           "oration": "Allmächtiger Gott, wir dürfen dich Vater nennen, denn du hast uns an Kindes Statt angenommen und uns den Geist deines Sohnes gesandt. Gib, dass wir in diesem Geist wachsen und einst das verheißene Erbe empfangen.^ORV"
         }
       }
@@ -6953,7 +6884,6 @@ export const brevierData = {
     "20": {
       "0": {
         "each": {
-          "comm_2": "LEER Barmherziger Gott, was kein Auge geschaut und kein Ohr gehört hat, das hast du denen bereitet, die dich lieben. Gib uns ein Herz, das dich in allem und über alles liebt, damit wir den Reichtum deiner Verheißungen erlangen, der alles übersteigt, was wir ersehnen.^ORV",
           "oration": "Barmherziger Gott, was kein Auge geschaut und kein Ohr gehört hat, das hast du denen bereitet, die dich lieben. Gib uns ein Herz, das dich in allem und über alles liebt, damit wir den Reichtum deiner Verheißungen erlangen, der alles übersteigt, was wir ersehnen.^ORV"
         },
         "ErsteV": {
@@ -6975,7 +6905,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Barmherziger Gott, was kein Auge geschaut und kein Ohr gehört hat, das hast du denen bereitet, die dich lieben. Gib uns ein Herz, das dich in allem und über alles liebt, damit wir den Reichtum deiner Verheißungen erlangen, der alles übersteigt, was wir ersehnen.^ORV",
           "oration": "Barmherziger Gott, was kein Auge geschaut und kein Ohr gehört hat, das hast du denen bereitet, die dich lieben. Gib uns ein Herz, das dich in allem und über alles liebt, damit wir den Reichtum deiner Verheißungen erlangen, der alles übersteigt, was wir ersehnen.^ORV"
         }
       }
@@ -6983,7 +6912,6 @@ export const brevierData = {
     "21": {
       "0": {
         "each": {
-          "comm_2": "LEER Gott, unser Herr, du verbindest alle, die an dich glauben, zum gemeinsamen Streben. Gib, dass wir lieben, was du befiehlst, und ersehnen, was du uns verheißen hast, damit in der Unbeständigkeit dieses Lebens unsere Herzen dort verankert seien, wo die wahren Freuden sind.^ORV",
           "oration": "Gott, unser Herr, du verbindest alle, die an dich glauben, zum gemeinsamen Streben. Gib, dass wir lieben, was du befiehlst, und ersehnen, was du uns verheißen hast, damit in der Unbeständigkeit dieses Lebens unsere Herzen dort verankert seien, wo die wahren Freuden sind.^ORV"
         },
         "ErsteV": {
@@ -7005,7 +6933,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Gott, unser Herr, du verbindest alle, die an dich glauben, zum gemeinsamen Streben. Gib, dass wir lieben, was du befiehlst, und ersehnen, was du uns verheißen hast, damit in der Unbeständigkeit dieses Lebens unsere Herzen dort verankert seien, wo die wahren Freuden sind.^ORV",
           "oration": "Gott, unser Herr, du verbindest alle, die an dich glauben, zum gemeinsamen Streben. Gib, dass wir lieben, was du befiehlst, und ersehnen, was du uns verheißen hast, damit in der Unbeständigkeit dieses Lebens unsere Herzen dort verankert seien, wo die wahren Freuden sind.^ORV"
         }
       }
@@ -7013,7 +6940,6 @@ export const brevierData = {
     "22": {
       "0": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, von dir kommt alles Gute. Pflanze in unser Herz die Liebe zu deinem Namen ein. Binde uns immer mehr an dich, damit in uns wächst, was gut und heilig ist. Wache über uns und erhalte, was du gewirkt hast.^ORV",
           "oration": "Allmächtiger Gott, von dir kommt alles Gute. Pflanze in unser Herz die Liebe zu deinem Namen ein. Binde uns immer mehr an dich, damit in uns wächst, was gut und heilig ist. Wache über uns und erhalte, was du gewirkt hast.^ORV"
         },
         "ErsteV": {
@@ -7035,7 +6961,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Allmächtiger Gott, von dir kommt alles Gute. Pflanze in unser Herz die Liebe zu deinem Namen ein. Binde uns immer mehr an dich, damit in uns wächst, was gut und heilig ist. Wache über uns und erhalte, was du gewirkt hast.^ORV",
           "oration": "Allmächtiger Gott, von dir kommt alles Gute. Pflanze in unser Herz die Liebe zu deinem Namen ein. Binde uns immer mehr an dich, damit in uns wächst, was gut und heilig ist. Wache über uns und erhalte, was du gewirkt hast.^ORV"
         }
       }
@@ -7043,7 +6968,6 @@ export const brevierData = {
     "23": {
       "0": {
         "each": {
-          "comm_2": "LEER Gütiger Gott, du hast uns durch deinen Sohn erlöst und als deine geliebten Kinder angenommen. Sieh voll Güte auf alle, die an Christus glauben, und schenke ihnen die wahre Freiheit und das ewige Erbe.^ORV",
           "oration": "Gütiger Gott, du hast uns durch deinen Sohn erlöst und als deine geliebten Kinder angenommen. Sieh voll Güte auf alle, die an Christus glauben, und schenke ihnen die wahre Freiheit und das ewige Erbe.^ORV"
         },
         "ErsteV": {
@@ -7065,7 +6989,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Gütiger Gott, du hast uns durch deinen Sohn erlöst und als deine geliebten Kinder angenommen. Sieh voll Güte auf alle, die an Christus glauben, und schenke ihnen die wahre Freiheit und das ewige Erbe.^ORV",
           "oration": "Gütiger Gott, du hast uns durch deinen Sohn erlöst und als deine geliebten Kinder angenommen. Sieh voll Güte auf alle, die an Christus glauben, und schenke ihnen die wahre Freiheit und das ewige Erbe.^ORV"
         }
       }
@@ -7073,7 +6996,6 @@ export const brevierData = {
     "24": {
       "0": {
         "each": {
-          "comm_2": "LEER Gott, du Schöpfer und Lenker aller Dinge, sieh gnädig auf uns. Gib, dass wir dir mit ganzem Herzen dienen und die Macht deiner Liebe an uns erfahren.^ORV",
           "oration": "Gott, du Schöpfer und Lenker aller Dinge, sieh gnädig auf uns. Gib, dass wir dir mit ganzem Herzen dienen und die Macht deiner Liebe an uns erfahren.^ORV"
         },
         "ErsteV": {
@@ -7095,7 +7017,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Gott, du Schöpfer und Lenker aller Dinge, sieh gnädig auf uns. Gib, dass wir dir mit ganzem Herzen dienen und die Macht deiner Liebe an uns erfahren.^ORV",
           "oration": "Gott, du Schöpfer und Lenker aller Dinge, sieh gnädig auf uns. Gib, dass wir dir mit ganzem Herzen dienen und die Macht deiner Liebe an uns erfahren.^ORV"
         }
       }
@@ -7103,7 +7024,6 @@ export const brevierData = {
     "25": {
       "0": {
         "each": {
-          "comm_2": "LEER Heiliger Gott, du hast uns das Gebot der Liebe zu dir und zu unserem Nächsten aufgetragen als die Erfüllung des ganzen Gesetzes. Gib uns die Kraft, dieses Gebot treu zu befolgen, damit wir das ewige Leben erlangen.^ORV",
           "oration": "Heiliger Gott, du hast uns das Gebot der Liebe zu dir und zu unserem Nächsten aufgetragen als die Erfüllung des ganzen Gesetzes. Gib uns die Kraft, dieses Gebot treu zu befolgen, damit wir das ewige Leben erlangen.^ORV"
         },
         "ErsteV": {
@@ -7125,7 +7045,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Heiliger Gott, du hast uns das Gebot der Liebe zu dir und zu unserem Nächsten aufgetragen als die Erfüllung des ganzen Gesetzes. Gib uns die Kraft, dieses Gebot treu zu befolgen, damit wir das ewige Leben erlangen.^ORV",
           "oration": "Heiliger Gott, du hast uns das Gebot der Liebe zu dir und zu unserem Nächsten aufgetragen als die Erfüllung des ganzen Gesetzes. Gib uns die Kraft, dieses Gebot treu zu befolgen, damit wir das ewige Leben erlangen.^ORV"
         }
       }
@@ -7133,7 +7052,6 @@ export const brevierData = {
     "26": {
       "0": {
         "each": {
-          "comm_2": "LEER Großer Gott, du offenbarst deine Macht vor allem im Erbarmen und im Verschonen. Darum nimm uns in Gnaden auf, wenn uns auch Schuld belastet. Gib, dass wir unseren Lauf vollenden und zur Herrlichkeit des Himmels gelangen.^ORV",
           "oration": "Großer Gott, du offenbarst deine Macht vor allem im Erbarmen und im Verschonen. Darum nimm uns in Gnaden auf, wenn uns auch Schuld belastet. Gib, dass wir unseren Lauf vollenden und zur Herrlichkeit des Himmels gelangen.^ORV"
         },
         "ErsteV": {
@@ -7155,7 +7073,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Großer Gott, du offenbarst deine Macht vor allem im Erbarmen und im Verschonen. Darum nimm uns in Gnaden auf, wenn uns auch Schuld belastet. Gib, dass wir unseren Lauf vollenden und zur Herrlichkeit des Himmels gelangen.^ORV",
           "oration": "Großer Gott, du offenbarst deine Macht vor allem im Erbarmen und im Verschonen. Darum nimm uns in Gnaden auf, wenn uns auch Schuld belastet. Gib, dass wir unseren Lauf vollenden und zur Herrlichkeit des Himmels gelangen.^ORV"
         }
       }
@@ -7163,7 +7080,6 @@ export const brevierData = {
     "27": {
       "0": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, du gibst uns in deiner Güte mehr, als wir verdienen, und Größeres, als wir erbitten. Nimm weg, was unser Gewissen belastet, und schenke uns jenen Frieden, den nur deine Barmherzigkeit geben kann.^ORV",
           "oration": "Allmächtiger Gott, du gibst uns in deiner Güte mehr, als wir verdienen, und Größeres, als wir erbitten. Nimm weg, was unser Gewissen belastet, und schenke uns jenen Frieden, den nur deine Barmherzigkeit geben kann.^ORV"
         },
         "ErsteV": {
@@ -7185,7 +7101,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Allmächtiger Gott, du gibst uns in deiner Güte mehr, als wir verdienen, und Größeres, als wir erbitten. Nimm weg, was unser Gewissen belastet, und schenke uns jenen Frieden, den nur deine Barmherzigkeit geben kann.^ORV",
           "oration": "Allmächtiger Gott, du gibst uns in deiner Güte mehr, als wir verdienen, und Größeres, als wir erbitten. Nimm weg, was unser Gewissen belastet, und schenke uns jenen Frieden, den nur deine Barmherzigkeit geben kann.^ORV"
         }
       }
@@ -7193,7 +7108,6 @@ export const brevierData = {
     "28": {
       "0": {
         "each": {
-          "comm_2": "LEER Herr, unser Gott, deine Gnade komme uns zuvor und begleite uns, damit wir dein Wort im Herzen bewahren und immer bereit sind, das Gute zu tun.^ORV",
           "oration": "Herr, unser Gott, deine Gnade komme uns zuvor und begleite uns, damit wir dein Wort im Herzen bewahren und immer bereit sind, das Gute zu tun.^ORV"
         },
         "ErsteV": {
@@ -7215,7 +7129,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Herr, unser Gott, deine Gnade komme uns zuvor und begleite uns, damit wir dein Wort im Herzen bewahren und immer bereit sind, das Gute zu tun.^ORV",
           "oration": "Herr, unser Gott, deine Gnade komme uns zuvor und begleite uns, damit wir dein Wort im Herzen bewahren und immer bereit sind, das Gute zu tun.^ORV"
         }
       }
@@ -7223,7 +7136,6 @@ export const brevierData = {
     "29": {
       "0": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, du bist unser Herr und Gebieter. Mach unseren Willen bereit, deinen Weisungen zu folgen, und gib uns ein Herz, das dir aufrichtig dient.^ORV",
           "oration": "Allmächtiger Gott, du bist unser Herr und Gebieter. Mach unseren Willen bereit, deinen Weisungen zu folgen, und gib uns ein Herz, das dir aufrichtig dient.^ORV"
         },
         "ErsteV": {
@@ -7245,7 +7157,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Allmächtiger Gott, du bist unser Herr und Gebieter. Mach unseren Willen bereit, deinen Weisungen zu folgen, und gib uns ein Herz, das dir aufrichtig dient.^ORV",
           "oration": "Allmächtiger Gott, du bist unser Herr und Gebieter. Mach unseren Willen bereit, deinen Weisungen zu folgen, und gib uns ein Herz, das dir aufrichtig dient.^ORV"
         }
       }
@@ -7253,7 +7164,6 @@ export const brevierData = {
     "30": {
       "0": {
         "each": {
-          "comm_2": "LEER Allmächtiger, ewiger Gott, mehre in uns den Glauben, die Hoffnung und die Liebe. Gib uns die Gnade, zu lieben, was du gebietest, damit wir erlangen, was du verheißen hast.^ORV",
           "oration": "Allmächtiger, ewiger Gott, mehre in uns den Glauben, die Hoffnung und die Liebe. Gib uns die Gnade, zu lieben, was du gebietest, damit wir erlangen, was du verheißen hast.^ORV"
         },
         "ErsteV": {
@@ -7275,7 +7185,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Allmächtiger, ewiger Gott, mehre in uns den Glauben, die Hoffnung und die Liebe. Gib uns die Gnade, zu lieben, was du gebietest, damit wir erlangen, was du verheißen hast.^ORV",
           "oration": "Allmächtiger, ewiger Gott, mehre in uns den Glauben, die Hoffnung und die Liebe. Gib uns die Gnade, zu lieben, was du gebietest, damit wir erlangen, was du verheißen hast.^ORV"
         }
       }
@@ -7283,7 +7192,6 @@ export const brevierData = {
     "31": {
       "0": {
         "each": {
-          "comm_2": "LEER Allmächtiger, barmherziger Gott, es ist deine Gabe und dein Werk, wenn das gläubige Volk dir würdig und aufrichtig dient. Nimm alles von uns, was uns auf dem Weg zu dir aufhält, damit wir ungehindert der Freude entgegeneilen, die du uns verheißen hast.^ORV",
           "oration": "Allmächtiger, barmherziger Gott, es ist deine Gabe und dein Werk, wenn das gläubige Volk dir würdig und aufrichtig dient. Nimm alles von uns, was uns auf dem Weg zu dir aufhält, damit wir ungehindert der Freude entgegeneilen, die du uns verheißen hast.^ORV"
         },
         "ErsteV": {
@@ -7305,7 +7213,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Allmächtiger, barmherziger Gott, es ist deine Gabe und dein Werk, wenn das gläubige Volk dir würdig und aufrichtig dient. Nimm alles von uns, was uns auf dem Weg zu dir aufhält, damit wir ungehindert der Freude entgegeneilen, die du uns verheißen hast.^ORV",
           "oration": "Allmächtiger, barmherziger Gott, es ist deine Gabe und dein Werk, wenn das gläubige Volk dir würdig und aufrichtig dient. Nimm alles von uns, was uns auf dem Weg zu dir aufhält, damit wir ungehindert der Freude entgegeneilen, die du uns verheißen hast.^ORV"
         }
       }
@@ -7313,7 +7220,6 @@ export const brevierData = {
     "32": {
       "0": {
         "each": {
-          "comm_2": "LEER Allmächtiger und barmherziger Gott, wir sind dein Eigentum, du hast uns in deine Hand geschrieben. Halte von uns fern, was uns gefährdet, und nimm weg, was uns an Seele und Leib bedrückt, damit wir freien Herzens deinen Willen tun.^ORV",
           "oration": "Allmächtiger und barmherziger Gott, wir sind dein Eigentum, du hast uns in deine Hand geschrieben. Halte von uns fern, was uns gefährdet, und nimm weg, was uns an Seele und Leib bedrückt, damit wir freien Herzens deinen Willen tun.^ORV"
         },
         "ErsteV": {
@@ -7335,7 +7241,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Allmächtiger und barmherziger Gott, wir sind dein Eigentum, du hast uns in deine Hand geschrieben. Halte von uns fern, was uns gefährdet, und nimm weg, was uns an Seele und Leib bedrückt, damit wir freien Herzens deinen Willen tun.^ORV",
           "oration": "Allmächtiger und barmherziger Gott, wir sind dein Eigentum, du hast uns in deine Hand geschrieben. Halte von uns fern, was uns gefährdet, und nimm weg, was uns an Seele und Leib bedrückt, damit wir freien Herzens deinen Willen tun.^ORV"
         }
       }
@@ -7343,7 +7248,6 @@ export const brevierData = {
     "33": {
       "0": {
         "each": {
-          "comm_2": "LEER Gott, du Urheber alles Guten, du bist unser Herr. Lass uns begreifen, dass wir frei werden, wenn wir uns deinem Willen unterwerfen, und dass wir die vollkommene Freude finden, wenn wir in deinem Dienst treu bleiben.^ORV",
           "oration": "Gott, du Urheber alles Guten, du bist unser Herr. Lass uns begreifen, dass wir frei werden, wenn wir uns deinem Willen unterwerfen, und dass wir die vollkommene Freude finden, wenn wir in deinem Dienst treu bleiben.^ORV"
         },
         "ErsteV": {
@@ -7365,7 +7269,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Gott, du Urheber alles Guten, du bist unser Herr. Lass uns begreifen, dass wir frei werden, wenn wir uns deinem Willen unterwerfen, und dass wir die vollkommene Freude finden, wenn wir in deinem Dienst treu bleiben.^ORV",
           "oration": "Gott, du Urheber alles Guten, du bist unser Herr. Lass uns begreifen, dass wir frei werden, wenn wir uns deinem Willen unterwerfen, und dass wir die vollkommene Freude finden, wenn wir in deinem Dienst treu bleiben.^ORV"
         }
       }
@@ -7376,6 +7279,7 @@ export const brevierData = {
           "oration": "Allmächtiger, ewiger Gott, du hast deinem geliebten Sohn alle Gewalt gegeben im Himmel und auf Erden und ihn zum Haupt der neuen Schöpfung gemacht. Befreie alle Geschöpfe von der Macht des Bösen, damit sie allein dir dienen und dich in Ewigkeit rühmen.^ORV"
         },
         "ErsteV": {
+          "button": "1. Vesper zum Christkönigsfest",
           "hymn_nacht": 3994.0,
           "ps_1": 113.0,
           "ps_2": 117.0,
@@ -7468,7 +7372,6 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "comm_2": "LEER Gott, unser Vater, erwecke deine Gläubigen zu neuem Eifer, damit das Werk deines Erbarmens in unserem Leben reiche Frucht trägt und wir einst die Fülle des heils empfangen.^ORV",
           "oration": "Gott, unser Vater, erwecke deine Gläubigen zu neuem Eifer, damit das Werk deines Erbarmens in unserem Leben reiche Frucht trägt und wir einst die Fülle des heils empfangen.^ORV"
         }
       }
@@ -7564,7 +7467,6 @@ export const brevierData = {
     "1": {
       "2": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, gläubig bekennen wir, dass dein ewiger Sohn Fleisch angenommen hat aus der jungfräulichen Mutter und wahrhaft Mensch geworden ist. Lass uns diesen Glauben treu bewahren und einst aus dieser friedlosen Welt zur ewigen Freude gelangen.^ORV",
           "oration": "Allmächtiger Gott, gläubig bekennen wir, dass dein ewiger Sohn Fleisch angenommen hat aus der jungfräulichen Mutter und wahrhaft Mensch geworden ist. Lass uns diesen Glauben treu bewahren und einst aus dieser friedlosen Welt zur ewigen Freude gelangen.^ORV"
         },
         "Laudes": {
@@ -7607,7 +7509,6 @@ export const brevierData = {
       },
       "3": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, dein Sohn ist durch die Geburt aus der Jungfrau uns in allem gleich geworden, außer der Sünde. Gib, dass wir in unserem Denken und Tun den alten Menschen ablegen und als neue Menschen ein neues Leben beginnen.^ORV",
           "oration": "Allmächtiger Gott, dein Sohn ist durch die Geburt aus der Jungfrau uns in allem gleich geworden, außer der Sünde. Gib, dass wir in unserem Denken und Tun den alten Menschen ablegen und als neue Menschen ein neues Leben beginnen.^ORV"
         },
         "Laudes": {
@@ -7650,7 +7551,6 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, zu unserem Heil ist dein Sohn als Licht der Welt erschienen. Lass dieses Licht in unseren Herzen aufstrahlen, damit sich unser Leben von Tag zu Tag erneuert.^ORvR",
           "oration": "Allmächtiger Gott, zu unserem Heil ist dein Sohn als Licht der Welt erschienen. Lass dieses Licht in unseren Herzen aufstrahlen, damit sich unser Leben von Tag zu Tag erneuert.^ORvR"
         },
         "Laudes": {
@@ -7693,7 +7593,6 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "comm_2": "LEER Getreuer Gott, in der Geburt deines Sohnes hast du uns auf wunderbare Weise den Anfang des Heiles geschenkt. Stärke in uns den Glauben, dass Christus dein Volk durch die Mühen dieser Zeit zum Land der Verheißung hinführt. Er,^ORR",
           "oration": "Getreuer Gott, in der Geburt deines Sohnes hast du uns auf wunderbare Weise den Anfang des Heiles geschenkt. Stärke in uns den Glauben, dass Christus dein Volk durch die Mühen dieser Zeit zum Land der Verheißung hinführt. Er,^ORR"
         },
         "Laudes": {
@@ -7736,7 +7635,6 @@ export const brevierData = {
       },
       "7": {
         "each": {
-          "comm_2": "LEER Allmächtiger, ewiger Gott, du hast uns durch deinen Sohn neu geschaffen zum Lob deiner Herrlichkeit. Mache uns durch die Gnade deinem Sohn gleichförmig, in dem unsere menschliche Natur mit deinem göttlichen Wesen vereint ist,^ORR",
           "oration": "Allmächtiger, ewiger Gott, du hast uns durch deinen Sohn neu geschaffen zum Lob deiner Herrlichkeit. Mache uns durch die Gnade deinem Sohn gleichförmig, in dem unsere menschliche Natur mit deinem göttlichen Wesen vereint ist,^ORR"
         },
         "Laudes": {
@@ -7785,7 +7683,6 @@ export const brevierData = {
       },
       "8": {
         "each": {
-          "comm_2": "LEER Gütiger Gott, wir gehen durch eine Welt voll Zwielicht und Schatten. Lass dein Licht in unseren Herzen aufstrahlen und führe uns durch das Dunkel dieses Lebens in deine unvergängliche Klarheit.^ORV",
           "oration": "Gütiger Gott, wir gehen durch eine Welt voll Zwielicht und Schatten. Lass dein Licht in unseren Herzen aufstrahlen und führe uns durch das Dunkel dieses Lebens in deine unvergängliche Klarheit.^ORV"
         },
         "Laudes": {
@@ -7828,7 +7725,6 @@ export const brevierData = {
       },
       "9": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, dein einziger Sohn, vor aller Zeit aus dir geboren, ist in unserem Fleisch sichtbar erschienen. Wie er uns gleich geworden ist in der menschlichen Gestalt, so werde unser Inneres neu geschaffen nach seinem Bild. Darum bitten wir durch ihn,^ORR",
           "oration": "Allmächtiger Gott, dein einziger Sohn, vor aller Zeit aus dir geboren, ist in unserem Fleisch sichtbar erschienen. Wie er uns gleich geworden ist in der menschlichen Gestalt, so werde unser Inneres neu geschaffen nach seinem Bild. Darum bitten wir durch ihn,^ORR"
         },
         "Laudes": {
@@ -7871,7 +7767,6 @@ export const brevierData = {
       },
       "10": {
         "each": {
-          "comm_2": "LEER Gott, du Licht der Völker, du hast unsere Väter durch die Propheten erleuchtet, uns aber hast du in deinem Sohn die Fülle der Wahrheit und des Friedens geschenkt. Gib uns die Gnade, diese Wahrheit zu bezeugen und deinen Frieden hineinzutragen in unsere Welt.^ORV",
           "oration": "Gott, du Licht der Völker, du hast unsere Väter durch die Propheten erleuchtet, uns aber hast du in deinem Sohn die Fülle der Wahrheit und des Friedens geschenkt. Gib uns die Gnade, diese Wahrheit zu bezeugen und deinen Frieden hineinzutragen in unsere Welt.^ORV"
         },
         "Laudes": {
@@ -7914,7 +7809,6 @@ export const brevierData = {
       },
       "11": {
         "each": {
-          "comm_2": "LEER Heiliger Gott, in Christus hast du den Völkern deine ewige Herrlichkeit geoffenbart. Gib uns die Gnade, das Geheimnis unseres Erlösers immer tiefer zu erfassen, damit wir durch ihn zum unvergänglichen Leben gelangen,^ORR",
           "oration": "Heiliger Gott, in Christus hast du den Völkern deine ewige Herrlichkeit geoffenbart. Gib uns die Gnade, das Geheimnis unseres Erlösers immer tiefer zu erfassen, damit wir durch ihn zum unvergänglichen Leben gelangen,^ORR"
         },
         "Laudes": {
@@ -7957,7 +7851,6 @@ export const brevierData = {
       },
       "12": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, du hast den Heiden die Geburt des Welterlösers geoffenbart und die Weisen durch den Stern zu ihm geführt. Lass uns immer tiefer erfassen, dass Christus zu unserem Heil Mensch geworden ist. Er,^ORR",
           "oration": "Allmächtiger Gott, du hast den Heiden die Geburt des Welterlösers geoffenbart und die Weisen durch den Stern zu ihm geführt. Lass uns immer tiefer erfassen, dass Christus zu unserem Heil Mensch geworden ist. Er,^ORR"
         },
         "Laudes": {
@@ -7993,8 +7886,7 @@ export const brevierData = {
     "12": {
       "17": {
         "each": {
-          "comm_2": "LEER k-12-17-each-Oration",
-          "oration": "k-12-17-each-Oration"
+          "oration": "Gott, unser Schöpfer und Erlöser, dein ewiges Wort ist Fleisch geworden aus Maria, der allzeit jungfräulichen Mutter. Dein Sohn, der unsere menschliche Natur angenommen hat, schenke uns Anteil an seinem göttlichen Leben. Er,^ORR"
         },
         "Laudes": {
           "les_buch": "Jes",
@@ -8036,8 +7928,7 @@ export const brevierData = {
       },
       "18": {
         "each": {
-          "comm_2": "LEER k-12-18-each-Oration",
-          "oration": "k-12-18-each-Oration"
+          "oration": "Allmächtiger Gott, noch lastet die alte Knechtschaft auf uns, noch drückt uns das Joch der Sünde. Schenke uns die wahre Freiheit und mach uns neu durch die Geburt deines Sohnes, auf die wir gläubig warten. Darum bitten wir durch ihn,^ORR"
         },
         "Laudes": {
           "les_buch": "Röm",
@@ -8079,8 +7970,7 @@ export const brevierData = {
       },
       "19": {
         "each": {
-          "comm_2": "LEER k-12-19-each-Oration",
-          "oration": "k-12-19-each-Oration"
+          "oration": "Ewiger Gott, durch die Geburt deines Sohnes aus der Jungfrau Maria hast du vor der Welt deine Herrlichkeit offenbar gemacht. Lass uns das unfassbare Geheimnis der Menschwerdung in unverfälschtem Glauben bewahren und in liebender Hingabe feiern.^ORV"
         },
         "Laudes": {
           "les_buch": "Jes",
@@ -8122,8 +8012,7 @@ export const brevierData = {
       },
       "20": {
         "each": {
-          "comm_2": "LEER k-12-20-each-Oration",
-          "oration": "k-12-20-each-Oration"
+          "oration": "Vater im Himmel, du hast die selige, ohne Sünde empfangene Jungfrau Maria dazu erwählt, dein ewiges Wort aufzunehmen. Du hast sie zur Wohnstatt Gottes gemacht und mit dem Licht des Heiligen Geistes erfüllt. Gib uns die Gnade, gleich deiner demütigen Magd stets deinem Willen zu gehorchen.^ORV"
         },
         "Laudes": {
           "les_buch": "Gen",
@@ -8165,8 +8054,7 @@ export const brevierData = {
       },
       "21": {
         "each": {
-          "comm_2": "LEER k-12-21-each-Oration",
-          "oration": "k-12-21-each-Oration"
+          "oration": "Gnädiger Gott, du erfüllst uns mit Freude über das Kommen deines Sohnes in unserem Fleisch. Schenke uns bei seinem Kommen in Herrlichkeit das ewige Leben, das du uns verheißen hast.^ORvR"
         },
         "Laudes": {
           "les_buch": "Jes",
@@ -8208,8 +8096,7 @@ export const brevierData = {
       },
       "22": {
         "each": {
-          "comm_2": "LEER k-12-22-each-Oration",
-          "oration": "k-12-22-each-Oration"
+          "oration": "Barmherziger Gott, du hast die Not des Menschen gesehen, der dem Tod verfallen war, und hast ihn erlöst durch die Ankunft deines Sohnes. Gib uns die Gnade, das Geheimnis der Menschwerdung in Ehrfurcht zu bekennen und in der Gemeinschaft mit unserem Erlöser das Heil zu finden.^ORvR"
         },
         "Laudes": {
           "les_buch": "Jes",
@@ -8251,8 +8138,7 @@ export const brevierData = {
       },
       "23": {
         "each": {
-          "comm_2": "LEER k-12-23-each-Oration",
-          "oration": "k-12-23-each-Oration"
+          "oration": "Allmächtiger Gott, schon naht das Fest der Geburt deines Sohnes, der aus Maria, der Jungfrau, Fleisch angenommen hat, um unser Los zu teilen. Wir bitten dich: Dein ewiges Wort komme und wohne unter uns mit seinem Erbarmen, unser Herr Jesus Christus,^ORR"
         },
         "Laudes": {
           "les_buch": "Jer",
@@ -8294,8 +8180,7 @@ export const brevierData = {
       },
       "24": {
         "each": {
-          "comm_2": "LEER k-12-24-each-Oration",
-          "oration": "k-12-24-each-Oration"
+          "oration": "Herr Jesus Christus, komm bald und säume nicht. Richte uns auf durch deine tröstliche Ankunft, denn wir hoffen auf deine Güte.^ORS"
         }
       },
       "26": {
@@ -8336,7 +8221,6 @@ export const brevierData = {
       },
       "29": {
         "each": {
-          "comm_2": "LEER Unsichtbarer Gott, dein Licht ist in die Welt gekommen und hat die Finsternis überwunden. Sieh gnädig auf uns und lass uns die Herrlichkeit der Geburt Christi in würdigem Lob feiern.^ORR",
           "oration": "Unsichtbarer Gott, dein Licht ist in die Welt gekommen und hat die Finsternis überwunden. Sieh gnädig auf uns und lass uns die Herrlichkeit der Geburt Christi in würdigem Lob feiern.^ORR"
         },
         "Laudes": {
@@ -8385,7 +8269,6 @@ export const brevierData = {
       },
       "30": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, die Knechtschaft der Sünde hält uns Menschen gefangen. Nimm dieses alte Joch von uns und schenke uns die neue Freiheit durch die Geburt deines Sohnes in unserem sterblichen Fleisch.^ORvR",
           "oration": "Allmächtiger Gott, die Knechtschaft der Sünde hält uns Menschen gefangen. Nimm dieses alte Joch von uns und schenke uns die neue Freiheit durch die Geburt deines Sohnes in unserem sterblichen Fleisch.^ORvR"
         },
         "Laudes": {
@@ -8434,7 +8317,6 @@ export const brevierData = {
       },
       "31": {
         "each": {
-          "comm_2": "LEER Allmächtiger, ewiger Gott, in der Menschwerdung deines Sohnes hat alles menschliche Streben nach dir seinen Ursprung und kommt darin zur Vollendung. Lass uns zu Christus gehören, in dem das Heil aller Menschen begründet ist,^ORR",
           "oration": "Allmächtiger, ewiger Gott, in der Menschwerdung deines Sohnes hat alles menschliche Streben nach dir seinen Ursprung und kommt darin zur Vollendung. Lass uns zu Christus gehören, in dem das Heil aller Menschen begründet ist,^ORR"
         },
         "Laudes": {
@@ -8577,7 +8459,6 @@ export const brevierData = {
     "each": {
       "each": {
         "each": {
-          "comm_2": "LEER ^rIn der Kirche, deren Weihefest begangen wird:^0r^lGroßer und heiliger Gott, jedes Jahr feiern wir den Weihetag dieses heiligen Hauses. Höre auf die Bitten deines Volkes. Hilf uns, dass wir an diesem Ort in rechter Gesinnung den heiligen Dienst vollziehen und den Reichtum der Erlösungsgnade empfangen.^ORV^p^rAußerhalb der Kirche, deren Weihefest begangen wird:^0r^lErhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird.^ORV^p^rOder:^0r^lAllmächtiger Gott, du hast gewollt, dass dein Volk Kirche heiße, denn wir sind das Haus, in dem deine Herrlichkeit wohnt. Gib, dass die Gläubigen, die sich in deinem Namen ver¬sam-meln, dich ehren, dich lieben und dir gehorchen damit sie unter deiner Führung das ewige Erbe erlangen.^ORV",
           "oration": "^rIn der Kirche, deren Weihefest begangen wird:^0r^lGroßer und heiliger Gott, jedes Jahr feiern wir den Weihetag dieses heiligen Hauses. Höre auf die Bitten deines Volkes. Hilf uns, dass wir an diesem Ort in rechter Gesinnung den heiligen Dienst vollziehen und den Reichtum der Erlösungsgnade empfangen.^ORV^p^rAußerhalb der Kirche, deren Weihefest begangen wird:^0r^lErhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird.^ORV^p^rOder:^0r^lAllmächtiger Gott, du hast gewollt, dass dein Volk Kirche heiße, denn wir sind das Haus, in dem deine Herrlichkeit wohnt. Gib, dass die Gläubigen, die sich in deinem Namen ver¬sam-meln, dich ehren, dich lieben und dir gehorchen damit sie unter deiner Führung das ewige Erbe erlangen.^ORV"
         },
         "ErsteK": {
@@ -8799,7 +8680,6 @@ export const brevierData = {
     "1": {
       "0": {
         "each": {
-          "comm_2": "LEER Allmächtiger, ewiger Gott, am heutigen Tag hast du durch deinen Sohn den Tod besiegt und uns den Zugang zum ewigen Leben erschlossen. Darum begehen wir in Freude das Fest seiner Auferstehung. Schaffe uns neu durch deinen Geist, damit auch wir auferstehen und im Licht des Lebens wandeln.^ORV",
           "oration": "Allmächtiger, ewiger Gott, am heutigen Tag hast du durch deinen Sohn den Tod besiegt und uns den Zugang zum ewigen Leben erschlossen. Darum begehen wir in Freude das Fest seiner Auferstehung. Schaffe uns neu durch deinen Geist, damit auch wir auferstehen und im Licht des Lebens wandeln.^ORV"
         },
         "Laudes": {
@@ -8825,7 +8705,6 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "comm_2": "LEER Gott, du Herr allen Lebens, durch die Taufe schenkst du deiner Kirche Jahr für Jahr neue Söhne und Töchter. Gib, dass alle Christen in ihrem Leben dem Sakrament treu bleiben, das sie im Glauben empfangen haben.^ORV",
           "oration": "Gott, du Herr allen Lebens, durch die Taufe schenkst du deiner Kirche Jahr für Jahr neue Söhne und Töchter. Gib, dass alle Christen in ihrem Leben dem Sakrament treu bleiben, das sie im Glauben empfangen haben.^ORV"
         },
         "Laudes": {
@@ -8852,7 +8731,6 @@ export const brevierData = {
       },
       "2": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, du hast dein Volk durch die österlichen Geheimnisse befreit und gestärkt. Bleibe bei uns mit deiner Gnade und führe uns zur vollkommenen Freiheit, damit der Osterjubel, der uns heute erfüllt, sich in der Freude des Himmels vollendet.^ORV",
           "oration": "Allmächtiger Gott, du hast dein Volk durch die österlichen Geheimnisse befreit und gestärkt. Bleibe bei uns mit deiner Gnade und führe uns zur vollkommenen Freiheit, damit der Osterjubel, der uns heute erfüllt, sich in der Freude des Himmels vollendet.^ORV"
         },
         "Laudes": {
@@ -8879,7 +8757,6 @@ export const brevierData = {
       },
       "3": {
         "each": {
-          "comm_2": "LEER Gnädiger Gott, du schenkst deinem Volk jedes Jahr die österliche Freude durch das hohe Fest der Auferstehung Christi. Führe uns durch die Feier, die wir auf Erden begehen, zur unvergänglichen Freude im Himmel.^ORV",
           "oration": "Gnädiger Gott, du schenkst deinem Volk jedes Jahr die österliche Freude durch das hohe Fest der Auferstehung Christi. Führe uns durch die Feier, die wir auf Erden begehen, zur unvergänglichen Freude im Himmel.^ORV"
         },
         "Laudes": {
@@ -8906,7 +8783,6 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "comm_2": "LEER Gott und Vater, du hast die vielen Völker im Bekenntnis deines Namens geeint. Gib, dass alle, die aus dem Wasser der Taufe wiedergeboren sind, eins werden im Glauben und in Werken der Liebe.^ORV",
           "oration": "Gott und Vater, du hast die vielen Völker im Bekenntnis deines Namens geeint. Gib, dass alle, die aus dem Wasser der Taufe wiedergeboren sind, eins werden im Glauben und in Werken der Liebe.^ORV"
         },
         "Laudes": {
@@ -8933,7 +8809,6 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "comm_2": "LEER Allmächtiger, ewiger Gott, du hast den Bund der Versöhnung mit der Menschheit geschlossen und ihr die österlichen Geheimnisse geschenkt. Gib uns die Gnade, dass wir deine Heilstaten nicht nur im Bekenntnis feiern, sondern sie auch durch unser Leben bezeugen.^ORV",
           "oration": "Allmächtiger, ewiger Gott, du hast den Bund der Versöhnung mit der Menschheit geschlossen und ihr die österlichen Geheimnisse geschenkt. Gib uns die Gnade, dass wir deine Heilstaten nicht nur im Bekenntnis feiern, sondern sie auch durch unser Leben bezeugen.^ORV"
         },
         "Laudes": {
@@ -8960,7 +8835,6 @@ export const brevierData = {
       },
       "6": {
         "each": {
-          "comm_2": "LEER Gnädiger Gott, in deiner übergroßen Liebe schenkst du der Kirche neues Wachstum. Wache über das Volk, das du dir erwählt hast, bewahre alle Getauften in deiner Gnade und bekleide sie einst mit dem Gewand der Unsterblichkeit.^ORV",
           "oration": "Gnädiger Gott, in deiner übergroßen Liebe schenkst du der Kirche neues Wachstum. Wache über das Volk, das du dir erwählt hast, bewahre alle Getauften in deiner Gnade und bekleide sie einst mit dem Gewand der Unsterblichkeit.^ORV"
         },
         "Laudes": {
@@ -9044,7 +8918,6 @@ export const brevierData = {
     "2": {
       "0": {
         "each": {
-          "comm_2": "LEER Barmherziger Gott, durch die jährliche Osterfeier erneuerst du den Glauben deines Volkes. Lass uns immer tiefer erkennen, wie heilig das Bad der Taufe ist, das uns gereinigt hat, wie mächtig dein Geist, aus dem wir wiedergeboren sind, und wie kostbar das Blut, durch das wir erkauft sind.^ORV",
           "oration": "Barmherziger Gott, durch die jährliche Osterfeier erneuerst du den Glauben deines Volkes. Lass uns immer tiefer erkennen, wie heilig das Bad der Taufe ist, das uns gereinigt hat, wie mächtig dein Geist, aus dem wir wiedergeboren sind, und wie kostbar das Blut, durch das wir erkauft sind.^ORV"
         },
         "ErsteV": {
@@ -9099,7 +8972,6 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "comm_2": "LEER Allmächtiger, ewiger Gott, wir dürfen dich Vater nennen, denn du hast uns an Kindes Statt angenommen. Gib, dass wir mehr und mehr aus dem Geist der Kindschaft leben, damit wir die wahre Freiheit finden und das unvergängliche Erbe erlangen.^ORV",
           "oration": "Allmächtiger, ewiger Gott, wir dürfen dich Vater nennen, denn du hast uns an Kindes Statt angenommen. Gib, dass wir mehr und mehr aus dem Geist der Kindschaft leben, damit wir die wahre Freiheit finden und das unvergängliche Erbe erlangen.^ORV"
         },
         "Laudes": {
@@ -9111,7 +8983,6 @@ export const brevierData = {
       },
       "2": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, du hast uns in den österlichen Sakramenten das Unterpfand der kommenden Herrlichkeit gegeben. Hilf uns, den Sieg des Auferstandenen zu verkünden, und lass die Fülle seiner Herrlichkeit an uns offenbar werden, wenn er wiederkommt. Er,^ORR",
           "oration": "Allmächtiger Gott, du hast uns in den österlichen Sakramenten das Unterpfand der kommenden Herrlichkeit gegeben. Hilf uns, den Sieg des Auferstandenen zu verkünden, und lass die Fülle seiner Herrlichkeit an uns offenbar werden, wenn er wiederkommt. Er,^ORR"
         },
         "Laudes": {
@@ -9123,7 +8994,6 @@ export const brevierData = {
       },
       "3": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, in den österlichen Geheimnissen, die wir jedes Jahr feiern, hast du dem Menschen seine ursprüngliche Würde wiedergeschenkt und uns die sichere Hoffnung gegeben, dass wir auferstehen werden. Gib, dass die Erlösung, die wir gläubig feiern, in täglichen Werken der Liebe an uns sichtbar wird.^ORV",
           "oration": "Allmächtiger Gott, in den österlichen Geheimnissen, die wir jedes Jahr feiern, hast du dem Menschen seine ursprüngliche Würde wiedergeschenkt und uns die sichere Hoffnung gegeben, dass wir auferstehen werden. Gib, dass die Erlösung, die wir gläubig feiern, in täglichen Werken der Liebe an uns sichtbar wird.^ORV"
         },
         "Laudes": {
@@ -9135,7 +9005,6 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "comm_2": "LEER Barmherziger Gott, gib, dass die Gnade, die wir in der Feier der österlichen Geheimnisse empfangen haben, durch alle Tage unseres Lebens fruchtbar bleibt.^ORV",
           "oration": "Barmherziger Gott, gib, dass die Gnade, die wir in der Feier der österlichen Geheimnisse empfangen haben, durch alle Tage unseres Lebens fruchtbar bleibt.^ORV"
         },
         "Laudes": {
@@ -9147,7 +9016,6 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "comm_2": "LEER Heiliger Gott, du hast deinen Sohn der Schmach des Kreuzes unterworfen, um uns der Gewalt des Bösen zu entreißen. Gib uns die Gnade, dass auch wir deinem Willen gehorchen und einst in Herrlichkeit auferstehen.^ORvR",
           "oration": "Heiliger Gott, du hast deinen Sohn der Schmach des Kreuzes unterworfen, um uns der Gewalt des Bösen zu entreißen. Gib uns die Gnade, dass auch wir deinem Willen gehorchen und einst in Herrlichkeit auferstehen.^ORvR"
         },
         "Laudes": {
@@ -9159,7 +9027,6 @@ export const brevierData = {
       },
       "6": {
         "each": {
-          "comm_2": "LEER Gott, unser Vater, du hast uns durch deinen Sohn erlöst und als deine geliebten Kinder angenommen. Sieh voll Güte auf alle, die an Christus glauben, und schenke ihnen die wahre Freiheit und das ewige Erbe.^ORV",
           "oration": "Gott, unser Vater, du hast uns durch deinen Sohn erlöst und als deine geliebten Kinder angenommen. Sieh voll Güte auf alle, die an Christus glauben, und schenke ihnen die wahre Freiheit und das ewige Erbe.^ORV"
         },
         "Laudes": {
@@ -9170,7 +9037,6 @@ export const brevierData = {
     "3": {
       "0": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, lass die österliche Freude in uns fortdauern, denn du hast deiner Kirche neue Lebenskraft geschenkt und die Würde unserer Gotteskindschaft in neuem Glanz erstrahlen lassen. Gib, dass wir den Tag der Auferstehung voll Zuversicht erwarten als einen Tag des Jubels und des Dankes.^ORV",
           "oration": "Allmächtiger Gott, lass die österliche Freude in uns fortdauern, denn du hast deiner Kirche neue Lebenskraft geschenkt und die Würde unserer Gotteskindschaft in neuem Glanz erstrahlen lassen. Gib, dass wir den Tag der Auferstehung voll Zuversicht erwarten als einen Tag des Jubels und des Dankes.^ORV"
         },
         "ErsteV": {
@@ -9194,25 +9060,21 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "comm_2": "LEER Gott, du bist unser Ziel, du zeigst den Irrenden das Licht der Wahrheit und führst sie auf den rechten Weg zurück. Gib allen, die sich Christen nennen, die Kraft, zu meiden, was diesem Namen widerspricht, und zu tun, was unserem Glauben entspricht.^ORV",
           "oration": "Gott, du bist unser Ziel, du zeigst den Irrenden das Licht der Wahrheit und führst sie auf den rechten Weg zurück. Gib allen, die sich Christen nennen, die Kraft, zu meiden, was diesem Namen widerspricht, und zu tun, was unserem Glauben entspricht.^ORV"
         }
       },
       "2": {
         "each": {
-          "comm_2": "LEER Herr, unser Gott, du öffnest dein Reich allen, die aus dem Wasser und dem Heiligen Geist wiedergeboren sind. Stärke in uns das Leben der Gnade, damit wir von Schuld frei bleiben und die Herrlichkeit erlangen, die du uns verheißen hast.^ORV",
           "oration": "Herr, unser Gott, du öffnest dein Reich allen, die aus dem Wasser und dem Heiligen Geist wiedergeboren sind. Stärke in uns das Leben der Gnade, damit wir von Schuld frei bleiben und die Herrlichkeit erlangen, die du uns verheißen hast.^ORV"
         }
       },
       "3": {
         "each": {
-          "comm_2": "LEER Herr, unser Gott, erhöre die Bitten deines Volkes und komm uns zu Hilfe. Du hast uns die Gnade des Glaubens geschenkt, gib uns durch die Auferstehung deines Sohnes auch Anteil am ewigen Leben.^ORV",
           "oration": "Herr, unser Gott, erhöre die Bitten deines Volkes und komm uns zu Hilfe. Du hast uns die Gnade des Glaubens geschenkt, gib uns durch die Auferstehung deines Sohnes auch Anteil am ewigen Leben.^ORV"
         }
       },
       "4": {
         "each": {
-          "comm_2": "LEER Ewiger Gott, in dieser österlichen Zeit erfahren wir deine Barmherzigkeit in reicher Fülle, denn du hast uns aus der Finsternis des Irrtums herausgeführt. Gib, dass wir deine Wahrheit gläubig erfassen und in unserem Leben festhalten.^ORV",
           "oration": "Ewiger Gott, in dieser österlichen Zeit erfahren wir deine Barmherzigkeit in reicher Fülle, denn du hast uns aus der Finsternis des Irrtums herausgeführt. Gib, dass wir deine Wahrheit gläubig erfassen und in unserem Leben festhalten.^ORV"
         },
         "Vesper": {
@@ -9221,13 +9083,11 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, wir glauben und bekennen, dass unser Herr Jesus Christus für uns gestorben und auferstanden ist. Erwecke auch uns durch die Kraft des Heiligen Geistes zum neuen Leben. Darum bitten wir durch ihn,^ORR",
           "oration": "Allmächtiger Gott, wir glauben und bekennen, dass unser Herr Jesus Christus für uns gestorben und auferstanden ist. Erwecke auch uns durch die Kraft des Heiligen Geistes zum neuen Leben. Darum bitten wir durch ihn,^ORR"
         }
       },
       "6": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, du hast uns durch das Wasser der Taufe neu geschaffen; schütze dieses neue Leben, damit alle, die an dich glauben, dem Ansturm des Bösen standhalten und das Geschenk deiner Gnade treu bewahren.^ORV",
           "oration": "Allmächtiger Gott, du hast uns durch das Wasser der Taufe neu geschaffen; schütze dieses neue Leben, damit alle, die an dich glauben, dem Ansturm des Bösen standhalten und das Geschenk deiner Gnade treu bewahren.^ORV"
         }
       }
@@ -9235,7 +9095,6 @@ export const brevierData = {
     "4": {
       "0": {
         "each": {
-          "comm_2": "LEER Allmächtiger, ewiger Gott, dein Sohn ist der Kirche siegreich vorangegangen als der Gute Hirt. Geleite auch die Herde, für die er sein Leben dahingab, aus aller Not zur ewigen Freude.^ORvR",
           "oration": "Allmächtiger, ewiger Gott, dein Sohn ist der Kirche siegreich vorangegangen als der Gute Hirt. Geleite auch die Herde, für die er sein Leben dahingab, aus aller Not zur ewigen Freude.^ORvR"
         },
         "ErsteV": {
@@ -9259,25 +9118,21 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "comm_2": "LEER Erhabener Gott, durch die Erniedrigung deines Sohnes hast du die gefallene Welt wieder aufgerichtet und aus der Knechtschaft der Sünde befreit. Erfülle uns mit österlicher Freude und schenke uns einst die ewige Seligkeit.^ORV",
           "oration": "Erhabener Gott, durch die Erniedrigung deines Sohnes hast du die gefallene Welt wieder aufgerichtet und aus der Knechtschaft der Sünde befreit. Erfülle uns mit österlicher Freude und schenke uns einst die ewige Seligkeit.^ORV"
         }
       },
       "2": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, in dieser österlichen Zeit feiern wir voll Dankbarkeit die Auferstehung unseres Herrn. Wir bitten dich: Erfülle uns mit Freude darüber, dass wir durch ihn erlöst sind,^ORR",
           "oration": "Allmächtiger Gott, in dieser österlichen Zeit feiern wir voll Dankbarkeit die Auferstehung unseres Herrn. Wir bitten dich: Erfülle uns mit Freude darüber, dass wir durch ihn erlöst sind,^ORR"
         }
       },
       "3": {
         "each": {
-          "comm_2": "LEER Gütiger Gott, du bist das Leben der Gläubigen, der Reichtum der Armen, die Freude der Auserwählten. Wir sehnen uns nach deinen Verheißungen. Stärke unsere Hoffnung und schenke uns überreiche Erfüllung.^ORV",
           "oration": "Gütiger Gott, du bist das Leben der Gläubigen, der Reichtum der Armen, die Freude der Auserwählten. Wir sehnen uns nach deinen Verheißungen. Stärke unsere Hoffnung und schenke uns überreiche Erfüllung.^ORV"
         }
       },
       "4": {
         "each": {
-          "comm_2": "LEER Gott und Vater, du erneuerst den Menschen und schenkst ihm eine größere Würde, als er sie im Anfang besaß. Blicke auf das Werk deiner Liebe, segne alle, die im Sakrament der Taufe das neue Leben empfangen haben, und erhalte sie in deiner Gnade.^ORV",
           "oration": "Gott und Vater, du erneuerst den Menschen und schenkst ihm eine größere Würde, als er sie im Anfang besaß. Blicke auf das Werk deiner Liebe, segne alle, die im Sakrament der Taufe das neue Leben empfangen haben, und erhalte sie in deiner Gnade.^ORV"
         },
         "Vesper": {
@@ -9286,13 +9141,11 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, dir verdanken wir unsere Freiheit und unser Heil, denn du hast uns durch das kostbare Blut deines Sohnes erlöst. Lass uns aus deiner Kraft leben und unter deinem beständigen Schutz geborgen sein.^ORV",
           "oration": "Allmächtiger Gott, dir verdanken wir unsere Freiheit und unser Heil, denn du hast uns durch das kostbare Blut deines Sohnes erlöst. Lass uns aus deiner Kraft leben und unter deinem beständigen Schutz geborgen sein.^ORV"
         }
       },
       "6": {
         "each": {
-          "comm_2": "LEER Allmächtiger, ewiger Gott, du hast uns im Sakrament der Taufe neues Leben geschenkt. Festige unsere Verbundenheit mit Christus, damit wir Früchte bringen, die bleiben, und die Freude des ewigen Lebens erlangen.^ORV",
           "oration": "Allmächtiger, ewiger Gott, du hast uns im Sakrament der Taufe neues Leben geschenkt. Festige unsere Verbundenheit mit Christus, damit wir Früchte bringen, die bleiben, und die Freude des ewigen Lebens erlangen.^ORV"
         }
       }
@@ -9300,7 +9153,6 @@ export const brevierData = {
     "5": {
       "0": {
         "each": {
-          "comm_2": "LEER Gott, unser Vater, du hast uns durch deinen Sohn erlöst und als deine geliebten Kinder angenommen. Sieh voll Güte auf alle, die an Christus glauben, und schenke ihnen die wahre Freiheit und das ewige Erbe.^ORV",
           "oration": "Gott, unser Vater, du hast uns durch deinen Sohn erlöst und als deine geliebten Kinder angenommen. Sieh voll Güte auf alle, die an Christus glauben, und schenke ihnen die wahre Freiheit und das ewige Erbe.^ORV"
         },
         "ErsteV": {
@@ -9324,25 +9176,21 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "comm_2": "LEER Gott, unser Herr, du verbindest alle, die an dich glauben, zum gemeinsamen Streben. Gib, dass wir lieben, was du befiehlst, und ersehnen, was du uns verheißen hast, damit in der Unbeständigkeit dieses Lebens unsere Herzen dort verankert seien, wo die wahren Freuden sind.^ORV",
           "oration": "Gott, unser Herr, du verbindest alle, die an dich glauben, zum gemeinsamen Streben. Gib, dass wir lieben, was du befiehlst, und ersehnen, was du uns verheißen hast, damit in der Unbeständigkeit dieses Lebens unsere Herzen dort verankert seien, wo die wahren Freuden sind.^ORV"
         }
       },
       "2": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, durch die Auferstehung deines Sohnes hast du uns neu geschaffen für das ewige Leben. Festige uns im Glauben und in der Hoffnung, damit wir die Erfüllung deiner Verheißung voll Zuversicht erwarten.^ORV",
           "oration": "Allmächtiger Gott, durch die Auferstehung deines Sohnes hast du uns neu geschaffen für das ewige Leben. Festige uns im Glauben und in der Hoffnung, damit wir die Erfüllung deiner Verheißung voll Zuversicht erwarten.^ORV"
         }
       },
       "3": {
         "each": {
-          "comm_2": "LEER Treuer Gott, du liebst die Unschuld und führst den Sünder zu dir zurück. Darum hast du uns aus der Finsternis des Unglaubens befreit und in die Gemeinschaft mit dir aufgenommen. Gib, dass wir dich mit ganzem Herzen suchen und das Licht deiner Wahrheit nie verlieren.^ORV",
           "oration": "Treuer Gott, du liebst die Unschuld und führst den Sünder zu dir zurück. Darum hast du uns aus der Finsternis des Unglaubens befreit und in die Gemeinschaft mit dir aufgenommen. Gib, dass wir dich mit ganzem Herzen suchen und das Licht deiner Wahrheit nie verlieren.^ORV"
         }
       },
       "4": {
         "each": {
-          "comm_2": "LEER Heiliger Gott, deine Gnade macht die Sünder gerecht und führt sie aus dem Elend ins Glück. Erhalte das Werk deines Erbarmens, damit alle, die durch den Glauben gerechtfertigt sind, im Guten ausharren bis ans Ende.^ORV",
           "oration": "Heiliger Gott, deine Gnade macht die Sünder gerecht und führt sie aus dem Elend ins Glück. Erhalte das Werk deines Erbarmens, damit alle, die durch den Glauben gerechtfertigt sind, im Guten ausharren bis ans Ende.^ORV"
         },
         "Vesper": {
@@ -9351,13 +9199,11 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "comm_2": "LEER Wir bitten dich, allmächtiger Gott, präge und forme unser Leben durch die österlichen Geheimnisse, die wir in diesen Tagen feiern. Heile und schütze uns durch die Macht unseres auferstandenen Herrn Jesus Christus,^ORR",
           "oration": "Wir bitten dich, allmächtiger Gott, präge und forme unser Leben durch die österlichen Geheimnisse, die wir in diesen Tagen feiern. Heile und schütze uns durch die Macht unseres auferstandenen Herrn Jesus Christus,^ORR"
         }
       },
       "6": {
         "each": {
-          "comm_2": "LEER Gott, du Ursprung unseres Heils, durch die Wiedergeburt in der Taufe hast du uns gerecht gemacht und uns befähigt, ewiges Leben zu empfangen. Schenke uns die Fülle dieses Lebens in deiner Herrlichkeit.^ORV",
           "oration": "Gott, du Ursprung unseres Heils, durch die Wiedergeburt in der Taufe hast du uns gerecht gemacht und uns befähigt, ewiges Leben zu empfangen. Schenke uns die Fülle dieses Lebens in deiner Herrlichkeit.^ORV"
         }
       }
@@ -9388,25 +9234,21 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "comm_2": "LEER Barmherziger Gott, gib, dass die Gnade, die wir in der Feier der österlichen Geheimnisse empfangen haben, durch alle Tage unseres Lebens fruchtbar bleibt.^ORV",
           "oration": "Barmherziger Gott, gib, dass die Gnade, die wir in der Feier der österlichen Geheimnisse empfangen haben, durch alle Tage unseres Lebens fruchtbar bleibt.^ORV"
         }
       },
       "2": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, lass die österliche Freude in uns fortdauern, denn du hast deiner Kirche neue Lebenskraft geschenkt und die Würde unserer Gotteskindschaft in neuem Glanz erstrahlen lassen. Gib, dass wir den Tag der Auferstehung voll Zuversicht erwarten als einen Tag des Jubels und des Dankes.^ORV",
           "oration": "Allmächtiger Gott, lass die österliche Freude in uns fortdauern, denn du hast deiner Kirche neue Lebenskraft geschenkt und die Würde unserer Gotteskindschaft in neuem Glanz erstrahlen lassen. Gib, dass wir den Tag der Auferstehung voll Zuversicht erwarten als einen Tag des Jubels und des Dankes.^ORV"
         }
       },
       "3": {
         "each": {
-          "comm_2": "LEER Herr, unser Gott, sieh auf deine Gemeinde, die in dieser österlichen Zeit der Auferstehung Sohnes gedenkt. Gib, dass wir mit allen Heiligen die ewige Freude erlangen, wenn er in der Herrlichkeit wiederkommt,^ORR",
           "oration": "Herr, unser Gott, sieh auf deine Gemeinde, die in dieser österlichen Zeit der Auferstehung Sohnes gedenkt. Gib, dass wir mit allen Heiligen die ewige Freude erlangen, wenn er in der Herrlichkeit wiederkommt,^ORR"
         }
       },
       "4": {
         "each": {
-          "comm_2": "LEER Allmächtiger, ewiger Gott, erfülle uns mit Freude und Dankbarkeit, denn in der Himmelfahrt deines Sohnes hast du den Menschen erhöht. Schenke uns das feste Vertrauen, dass auch wir zu der Herrlichkeit gerufen sind, in die Christus uns vorausgegangen ist,^ORR",
           "oration": "Allmächtiger, ewiger Gott, erfülle uns mit Freude und Dankbarkeit, denn in der Himmelfahrt deines Sohnes hast du den Menschen erhöht. Schenke uns das feste Vertrauen, dass auch wir zu der Herrlichkeit gerufen sind, in die Christus uns vorausgegangen ist,^ORR"
         },
         "ErsteV": {
@@ -9510,7 +9352,6 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, in der Auferstehung und Himmelfahrt deines Sohnes öffnest du uns das Tor zum ewigen Leben. Lenke unser Herz, dass wir auf ihn schauen, den Urheber unseres Heiles, der zu deiner Rechten thront, und schenke allen Getauften das unsterbliche Leben, wenn er in Herrlichkeit wiederkommt,^ORR",
           "oration": "Allmächtiger Gott, in der Auferstehung und Himmelfahrt deines Sohnes öffnest du uns das Tor zum ewigen Leben. Lenke unser Herz, dass wir auf ihn schauen, den Urheber unseres Heiles, der zu deiner Rechten thront, und schenke allen Getauften das unsterbliche Leben, wenn er in Herrlichkeit wiederkommt,^ORR"
         },
         "Laudes": {
@@ -9528,7 +9369,6 @@ export const brevierData = {
       },
       "6": {
         "each": {
-          "comm_2": "LEER Herr, unser Gott, dein Sohn hat vor seiner Himmelfahrt seinen Aposteln den Heiligen Geist verheißen. Sie haben den Reichtum der göttlichen Weisheit empfangen; schenke auch uns die Gaben deines Geistes.^ORV",
           "oration": "Herr, unser Gott, dein Sohn hat vor seiner Himmelfahrt seinen Aposteln den Heiligen Geist verheißen. Sie haben den Reichtum der göttlichen Weisheit empfangen; schenke auch uns die Gaben deines Geistes.^ORV"
         },
         "Laudes": {
@@ -9579,7 +9419,6 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "comm_2": "LEER Herr, unser Gott, sende uns die Kraft von oben, den Heiligen Geist, damit wir deinen Willen gläubig bejahen und in einem heiligen Leben erfüllen.^ORV",
           "oration": "Herr, unser Gott, sende uns die Kraft von oben, den Heiligen Geist, damit wir deinen Willen gläubig bejahen und in einem heiligen Leben erfüllen.^ORV"
         },
         "Laudes": {
@@ -9600,7 +9439,6 @@ export const brevierData = {
       },
       "2": {
         "each": {
-          "comm_2": "LEER Allmächtiger und barmherziger Gott, sende den Heiligen Geist auf uns herab. Er wohne in uns und mache uns zum Tempel seiner Herrlichkeit.^ORV",
           "oration": "Allmächtiger und barmherziger Gott, sende den Heiligen Geist auf uns herab. Er wohne in uns und mache uns zum Tempel seiner Herrlichkeit.^ORV"
         },
         "Laudes": {
@@ -9621,7 +9459,6 @@ export const brevierData = {
       },
       "3": {
         "each": {
-          "comm_2": "LEER Barmherziger Gott, du versammelst deine Kirche im Heiligen Geist. Gib, dass sie dir von ganzem Herzen dient und in aufrichtiger Liebe die Einheit bewahrt.^ORV",
           "oration": "Barmherziger Gott, du versammelst deine Kirche im Heiligen Geist. Gib, dass sie dir von ganzem Herzen dient und in aufrichtiger Liebe die Einheit bewahrt.^ORV"
         },
         "Laudes": {
@@ -9642,7 +9479,6 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "comm_2": "LEER Wir bitten dich, Herr, unser Gott, der Heilige Geist erfülle uns mit dem Reichtum seiner Gaben. Er schenke uns eine Gesinnung, die dir wohlgefällt, damit wir deinem Willen immer mehr entsprechen.^ORV",
           "oration": "Wir bitten dich, Herr, unser Gott, der Heilige Geist erfülle uns mit dem Reichtum seiner Gaben. Er schenke uns eine Gesinnung, die dir wohlgefällt, damit wir deinem Willen immer mehr entsprechen.^ORV"
         },
         "Laudes": {
@@ -9663,7 +9499,6 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, du hast deinen Sohn erhöht und den Heiligen Geist gesandt, um uns zum ewigen Leben zu führen. Gib, dass wir durch den Empfang dieser großen Gabe im Glauben wachsen und dir aus ganzem Herzen dienen.^ORV",
           "oration": "Allmächtiger Gott, du hast deinen Sohn erhöht und den Heiligen Geist gesandt, um uns zum ewigen Leben zu führen. Gib, dass wir durch den Empfang dieser großen Gabe im Glauben wachsen und dir aus ganzem Herzen dienen.^ORV"
         },
         "Laudes": {
@@ -9684,7 +9519,6 @@ export const brevierData = {
       },
       "6": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, am Ende der heiligen fünfzig Tage bitten wir dich: Gib uns die Gnade, dass wir in einem Leben aus dem Glauben das Ostergeheimnis deines Sohnes bewahren,^ORR",
           "oration": "Allmächtiger Gott, am Ende der heiligen fünfzig Tage bitten wir dich: Gib uns die Gnade, dass wir in einem Leben aus dem Glauben das Ostergeheimnis deines Sohnes bewahren,^ORR"
         },
         "Laudes": {
@@ -9816,10 +9650,10 @@ export const brevierData = {
     "9": {
       "0": {
         "each": {
-          "comm_2": "LEER Herr, himmlischer Vater, du hast dein Wort und deinen Geist in die Welt gesandt, um das Geheimnis des göttlichen Lebens zu offenbaren. Gib, dass wir im wahren Glauben die Größe der göttlichen Dreifaltigkeit bekennen und die Einheit der drei Personen in ihrem machtvollen Wirken verehren.^ORV",
           "oration": "Herr, himmlischer Vater, du hast dein Wort und deinen Geist in die Welt gesandt, um das Geheimnis des göttlichen Lebens zu offenbaren. Gib, dass wir im wahren Glauben die Größe der göttlichen Dreifaltigkeit bekennen und die Einheit der drei Personen in ihrem machtvollen Wirken verehren.^ORV"
         },
         "ErsteV": {
+          "button": "1. Vesper zum Dreifaltigkeitssonntag",
           "hymn_1": 3904.0,
           "ps_1": 113.0,
           "ps_2": 147.2,
@@ -9923,10 +9757,10 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "comm_2": "LEER Herr Jesus Christus, im wunderbaren Sakrament des Altares hast du uns das Gedächtnis deines Leidens und deiner Auferstehung hinterlassen. Gib uns die Gnade, die heiligen Geheimnisse deines Leibes und Blutes so zu verehren, dass uns die Frucht der Erlösung zuteil wird.^ORS",
           "oration": "Herr Jesus Christus, im wunderbaren Sakrament des Altares hast du uns das Gedächtnis deines Leidens und deiner Auferstehung hinterlassen. Gib uns die Gnade, die heiligen Geheimnisse deines Leibes und Blutes so zu verehren, dass uns die Frucht der Erlösung zuteil wird.^ORS"
         },
         "ErsteV": {
+          "button": "1. Vesper zu Fronleichnam",
           "hymn_1": 3940.0,
           "ps_1": 111.0,
           "ps_2": 147.2,
@@ -10035,10 +9869,10 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "comm_2": "LEER o-9-5-each-Oration",
           "oration": "Allmächtiger Gott, wir verehren das Herz deines geliebten Sohnes und preisen die großen Taten seiner Liebe. Gib, dass wir aus dieser Quelle göttlichen Erbarmens die Fülle der Gnade und des Lebens empfangen.^ORV"
         },
         "ErsteV": {
+          "button": "1. Vesper zum Herz-Jesu-Fest",
           "hymn_1": 3954.0,
           "ps_1": 113.0,
           "ps_2": 146.0,
@@ -13301,7 +13135,6 @@ export const brevierData = {
     "0": {
       "3": {
         "each": {
-          "comm_2": "LEER Getreuer Gott, im Vertrauen auf dich beginnen wir die vierzig Tage der Umkehr und Buße. Gib uns die Kraft zu christlicher Zucht, damit wir dem Bösen absagen und mit Entschiedenheit das Gute tun.^ORV",
           "oration": "Getreuer Gott, im Vertrauen auf dich beginnen wir die vierzig Tage der Umkehr und Buße. Gib uns die Kraft zu christlicher Zucht, damit wir dem Bösen absagen und mit Entschiedenheit das Gute tun.^ORV"
         },
         "Laudes": {
@@ -13313,7 +13146,6 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "comm_2": "LEER Herr, unser Gott, komm unserem Beten und Arbeiten mit deiner Gnade zuvor und begleite es, damit alles, was wir beginnen, bei dir seinen Anfang nehme und durch dich vollendet werde.^ORV",
           "oration": "Herr, unser Gott, komm unserem Beten und Arbeiten mit deiner Gnade zuvor und begleite es, damit alles, was wir beginnen, bei dir seinen Anfang nehme und durch dich vollendet werde.^ORV"
         },
         "Laudes": {
@@ -13325,7 +13157,6 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "comm_2": "LEER Allwissender Gott, du siehst nicht auf unsere äußeren Werke, sondern auf unser Herz. Gib, dass wir mit reiner Gesinnung vollbringen, was wir in diesen vierzig Tagen an Buße und Verzicht auf uns nehmen.^ORV",
           "oration": "Allwissender Gott, du siehst nicht auf unsere äußeren Werke, sondern auf unser Herz. Gib, dass wir mit reiner Gesinnung vollbringen, was wir in diesen vierzig Tagen an Buße und Verzicht auf uns nehmen.^ORV"
         },
         "Laudes": {
@@ -13337,7 +13168,6 @@ export const brevierData = {
       },
       "6": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, übe Nachsicht mit unserer Schwäche, und damit wir imstande sind, den Kampf mit den Mächten des Bösen zu bestehen, strecke deine Hand aus und schütze uns.^ORV",
           "oration": "Allmächtiger Gott, übe Nachsicht mit unserer Schwäche, und damit wir imstande sind, den Kampf mit den Mächten des Bösen zu bestehen, strecke deine Hand aus und schütze uns.^ORV"
         },
         "Laudes": {
@@ -13348,7 +13178,6 @@ export const brevierData = {
     "1": {
       "0": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, du schenkst uns die heiligen vierzig Tage als eine Zeit der Umkehr und der Buße. Gib uns durch ihre Feier die Gnade, dass wir in der Erkenntnis Jesu Christi voranschreiten und die Kraft seiner Erlösungstat durch ein Leben aus dem Glauben sichtbar machen. Darum bitten wir durch ihn,^ORR",
           "oration": "Allmächtiger Gott, du schenkst uns die heiligen vierzig Tage als eine Zeit der Umkehr und der Buße. Gib uns durch ihre Feier die Gnade, dass wir in der Erkenntnis Jesu Christi voranschreiten und die Kraft seiner Erlösungstat durch ein Leben aus dem Glauben sichtbar machen. Darum bitten wir durch ihn,^ORR"
         },
         "ErsteV": {
@@ -13372,7 +13201,6 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "comm_2": "LEER Gott, unser Heil, gib uns die Gnade, umzukehren zu dir. Erleuchte unseren Verstand und stärke unseren Willen, damit uns diese Zeit der Buße zum Segen wird.^ORV",
           "oration": "Gott, unser Heil, gib uns die Gnade, umzukehren zu dir. Erleuchte unseren Verstand und stärke unseren Willen, damit uns diese Zeit der Buße zum Segen wird.^ORV"
         },
         "Laudes": {
@@ -13384,7 +13212,6 @@ export const brevierData = {
       },
       "2": {
         "each": {
-          "comm_2": "LEER Herr, unser Gott, sieh gütig auf deine Gemeinde. Da wir durch Mäßigung den Leib in Zucht halten und Buße tun, schenke unserem Geist die wahre Sehnsucht nach dir.^ORV",
           "oration": "Herr, unser Gott, sieh gütig auf deine Gemeinde. Da wir durch Mäßigung den Leib in Zucht halten und Buße tun, schenke unserem Geist die wahre Sehnsucht nach dir.^ORV"
         },
         "Laudes": {
@@ -13396,7 +13223,6 @@ export const brevierData = {
       },
       "3": {
         "each": {
-          "comm_2": "LEER Barmherziger Gott, sieh gnädig auf die Hingabe deines Volkes. Gib, dass wir unseren Leib in Zucht nehmen und durch gute Werke im Geist neu werden.^ORV",
           "oration": "Barmherziger Gott, sieh gnädig auf die Hingabe deines Volkes. Gib, dass wir unseren Leib in Zucht nehmen und durch gute Werke im Geist neu werden.^ORV"
         },
         "Laudes": {
@@ -13408,7 +13234,6 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, gib uns die Gnade, dass wir stets auf das Rechte bedacht sind und es auch entschlossen tun. Da wir ohne dich nicht bestehen können, hilf uns, nach deinem Willen zu leben.^ORV",
           "oration": "Allmächtiger Gott, gib uns die Gnade, dass wir stets auf das Rechte bedacht sind und es auch entschlossen tun. Da wir ohne dich nicht bestehen können, hilf uns, nach deinem Willen zu leben.^ORV"
         },
         "Laudes": {
@@ -13420,7 +13245,6 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, gib, dass deine Gläubigen sich in rechter Weise auf Ostern vorbereiten, und was wir dem Leib an Entsagung auferlegen, das trage reiche Frucht und erneuere unseren Geist.^ORV",
           "oration": "Allmächtiger Gott, gib, dass deine Gläubigen sich in rechter Weise auf Ostern vorbereiten, und was wir dem Leib an Entsagung auferlegen, das trage reiche Frucht und erneuere unseren Geist.^ORV"
         },
         "Laudes": {
@@ -13432,7 +13256,6 @@ export const brevierData = {
       },
       "6": {
         "each": {
-          "comm_2": "LEER Ewiger Vater, wende unsere Herzen zu dir hin, damit wir das eine Notwendige suchen und dich in Werken der Liebe verherrlichen.^ORV",
           "oration": "Ewiger Vater, wende unsere Herzen zu dir hin, damit wir das eine Notwendige suchen und dich in Werken der Liebe verherrlichen.^ORV"
         },
         "Laudes": {
@@ -13443,7 +13266,6 @@ export const brevierData = {
     "2": {
       "0": {
         "each": {
-          "comm_2": "LEER Gott, du hast uns geboten, auf deinen geliebten Sohn zu hören. Nähre uns mit deinem Wort und reinige die Augen unseres Geistes, damit wir fähig werden, deine Herrlichkeit zu erkennen.^ORV",
           "oration": "Gott, du hast uns geboten, auf deinen geliebten Sohn zu hören. Nähre uns mit deinem Wort und reinige die Augen unseres Geistes, damit wir fähig werden, deine Herrlichkeit zu erkennen.^ORV"
         },
         "ErsteV": {
@@ -13467,7 +13289,6 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "comm_2": "LEER Ewiger Gott, zum Heil unserer Seele verlangst du, dass wir den Leib in Zucht nehmen und Buße tun. Gib uns die Kraft, dass wir uns von Sünden freihalten und die Gebote erfüllen, die uns deine Liebe gegeben hat.^ORV",
           "oration": "Ewiger Gott, zum Heil unserer Seele verlangst du, dass wir den Leib in Zucht nehmen und Buße tun. Gib uns die Kraft, dass wir uns von Sünden freihalten und die Gebote erfüllen, die uns deine Liebe gegeben hat.^ORV"
         },
         "Laudes": {
@@ -13479,7 +13300,6 @@ export const brevierData = {
       },
       "2": {
         "each": {
-          "comm_2": "LEER Herr, unser Gott, behüte deine Kirche und verlass sie nicht. Wir sind dem Tod verfallen und gehen ohne dich zugrunde. Hilf uns, alles zu meiden, was uns schadet, und zu suchen, was uns zum Heil dient.^ORV",
           "oration": "Herr, unser Gott, behüte deine Kirche und verlass sie nicht. Wir sind dem Tod verfallen und gehen ohne dich zugrunde. Hilf uns, alles zu meiden, was uns schadet, und zu suchen, was uns zum Heil dient.^ORV"
         },
         "Laudes": {
@@ -13491,7 +13311,6 @@ export const brevierData = {
       },
       "3": {
         "each": {
-          "comm_2": "LEER Herr, unser Gott, erhalte deiner Kirche die Bereitschaft, das Gute zu tun. Ermutige uns in diesem Leben durch deinen Schutz und führe uns zu den ewigen Gütern.^ORV",
           "oration": "Herr, unser Gott, erhalte deiner Kirche die Bereitschaft, das Gute zu tun. Ermutige uns in diesem Leben durch deinen Schutz und führe uns zu den ewigen Gütern.^ORV"
         },
         "Laudes": {
@@ -13503,7 +13322,6 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "comm_2": "LEER Heiliger Gott, du liebst die Unschuld und schenkst dem Sünder zurück, der reumütig zu dir heimkehrt. Wende unser Herz zu dir und schenke uns neuen Eifer im Heiligen Geist, damit wir im Glauben standhaft bleiben und stets bereit sind, das Gute zu tun.^ORV",
           "oration": "Heiliger Gott, du liebst die Unschuld und schenkst dem Sünder zurück, der reumütig zu dir heimkehrt. Wende unser Herz zu dir und schenke uns neuen Eifer im Heiligen Geist, damit wir im Glauben standhaft bleiben und stets bereit sind, das Gute zu tun.^ORV"
         },
         "Laudes": {
@@ -13515,7 +13333,6 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, reinige uns in diesen Tagen, in denen wir für unsere Sünden Buße tun, damit wir mit lauterem Herzen das Osterfest erwarten.^ORV",
           "oration": "Allmächtiger Gott, reinige uns in diesen Tagen, in denen wir für unsere Sünden Buße tun, damit wir mit lauterem Herzen das Osterfest erwarten.^ORV"
         },
         "Laudes": {
@@ -13527,7 +13344,6 @@ export const brevierData = {
       },
       "6": {
         "each": {
-          "comm_2": "LEER Gütiger Gott, durch das Wirken deiner Gnade schenkst du uns schon auf Erden den Anfang des ewigen Lebens. Vollende, was du in uns begonnen hast, und führe uns hin zu jenem Licht, in dem du selber wohnst.^ORV",
           "oration": "Gütiger Gott, durch das Wirken deiner Gnade schenkst du uns schon auf Erden den Anfang des ewigen Lebens. Vollende, was du in uns begonnen hast, und führe uns hin zu jenem Licht, in dem du selber wohnst.^ORV"
         },
         "Laudes": {
@@ -13538,7 +13354,6 @@ export const brevierData = {
     "3": {
       "0": {
         "each": {
-          "comm_2": "LEER Gott, unser Vater, du bist der Quell des Erbarmens und der Güte. Wir stehen als Sünder vor dir, und unser Gewissen klagt uns an. Sieh auf unsere Not und lass uns Vergebung finden durch Fasten, Gebet und Werke der Liebe.^ORV",
           "oration": "Gott, unser Vater, du bist der Quell des Erbarmens und der Güte. Wir stehen als Sünder vor dir, und unser Gewissen klagt uns an. Sieh auf unsere Not und lass uns Vergebung finden durch Fasten, Gebet und Werke der Liebe.^ORV"
         },
         "ErsteV": {
@@ -13562,7 +13377,6 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "comm_2": "LEER Barmherziger Gott, deine Kirche kann nicht bestehen ohne dich, sie lebt allein von deiner Gnade. Reinige und festige sie und führe sie mit starker Hand.^ORV",
           "oration": "Barmherziger Gott, deine Kirche kann nicht bestehen ohne dich, sie lebt allein von deiner Gnade. Reinige und festige sie und führe sie mit starker Hand.^ORV"
         },
         "Laudes": {
@@ -13574,7 +13388,6 @@ export const brevierData = {
       },
       "2": {
         "each": {
-          "comm_2": "LEER Herr, unser Gott, verlass uns nicht in diesen Tagen der Buße. Steh uns mit deiner Gnade bei, damit wir mit ganzer Bereitschaft den Dienst vollziehen, den du uns aufgetragen hast.^ORV",
           "oration": "Herr, unser Gott, verlass uns nicht in diesen Tagen der Buße. Steh uns mit deiner Gnade bei, damit wir mit ganzer Bereitschaft den Dienst vollziehen, den du uns aufgetragen hast.^ORV"
         },
         "Laudes": {
@@ -13586,7 +13399,6 @@ export const brevierData = {
       },
       "3": {
         "each": {
-          "comm_2": "LEER Barmherziger Gott, erneuere uns im Geist durch die Feier der heiligen vierzig Tage, damit wir für dein Wort empfänglich werden, bereit zu Gehorsam und Verzicht, demütig im Gebet und eifrig in Werken der Liebe.^ORV",
           "oration": "Barmherziger Gott, erneuere uns im Geist durch die Feier der heiligen vierzig Tage, damit wir für dein Wort empfänglich werden, bereit zu Gehorsam und Verzicht, demütig im Gebet und eifrig in Werken der Liebe.^ORV"
         },
         "Laudes": {
@@ -13598,7 +13410,6 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, gib, dass wir dem Ruf deiner Gnade folgen und uns mit um so größerem Eifer auf die Feier der österlichen Geheimnisse vorbereiten, je näher das Fest der Erlösung herankommt.^ORV",
           "oration": "Allmächtiger Gott, gib, dass wir dem Ruf deiner Gnade folgen und uns mit um so größerem Eifer auf die Feier der österlichen Geheimnisse vorbereiten, je näher das Fest der Erlösung herankommt.^ORV"
         },
         "Laudes": {
@@ -13610,7 +13421,6 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "comm_2": "LEER Gütiger Gott, lass deine Gnade mächtig werden in unseren Herzen, damit wir imstande sind, unser eigenes Begehren zu meistern und den Anregungen deines Geistes zu folgen.^ORV",
           "oration": "Gütiger Gott, lass deine Gnade mächtig werden in unseren Herzen, damit wir imstande sind, unser eigenes Begehren zu meistern und den Anregungen deines Geistes zu folgen.^ORV"
         },
         "Laudes": {
@@ -13622,7 +13432,6 @@ export const brevierData = {
       },
       "6": {
         "each": {
-          "comm_2": "LEER Gütiger Gott, in geistlicher Freude begehen wir diese Tage der Buße. Gib, dass wir aus dem österlichen Geheimnis leben, damit uns sein voller Gnadenreichtum zuteilwird.^ORV",
           "oration": "Gütiger Gott, in geistlicher Freude begehen wir diese Tage der Buße. Gib, dass wir aus dem österlichen Geheimnis leben, damit uns sein voller Gnadenreichtum zuteilwird.^ORV"
         },
         "Laudes": {
@@ -13633,7 +13442,6 @@ export const brevierData = {
     "4": {
       "0": {
         "each": {
-          "comm_2": "LEER Herr, unser Gott, du hast in deinem Sohn die Menschheit auf wunderbare Weise mit dir versöhnt. Gib deinem Volk einen hochherzigen Glauben, damit es mit froher Hingabe dem Osterfest entgegeneilt.^ORV",
           "oration": "Herr, unser Gott, du hast in deinem Sohn die Menschheit auf wunderbare Weise mit dir versöhnt. Gib deinem Volk einen hochherzigen Glauben, damit es mit froher Hingabe dem Osterfest entgegeneilt.^ORV"
         },
         "ErsteV": {
@@ -13658,7 +13466,6 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "comm_2": "LEER Allherrschender Gott, du schenkst uns im österlichen Geheimnis jenes wunderbare Leben, das die Welt unablässig erneuert. Lass das Werk deiner Gnade in der Kirche mächtig werden und gib ihr alles, was sie in dieser Zeit braucht.^ORV",
           "oration": "Allherrschender Gott, du schenkst uns im österlichen Geheimnis jenes wunderbare Leben, das die Welt unablässig erneuert. Lass das Werk deiner Gnade in der Kirche mächtig werden und gib ihr alles, was sie in dieser Zeit braucht.^ORV"
         },
         "Laudes": {
@@ -13670,7 +13477,6 @@ export const brevierData = {
       },
       "2": {
         "each": {
-          "comm_2": "LEER Barmherziger Gott, diese heilige Zeit der Buße und des Gebetes mache unsere Herzen bereit, die Ostergnade zu empfangen und das Lob des Erlösers zu verkünden,^ORR",
           "oration": "Barmherziger Gott, diese heilige Zeit der Buße und des Gebetes mache unsere Herzen bereit, die Ostergnade zu empfangen und das Lob des Erlösers zu verkünden,^ORR"
         },
         "Laudes": {
@@ -13682,7 +13488,6 @@ export const brevierData = {
       },
       "3": {
         "each": {
-          "comm_2": "LEER Gütiger Gott, du schenkst den Gerechten ihren Lohn und verzeihst den Sündern ihre Schuld um der Buße willen. Wir bekennen dir unser Versagen; hab Erbarmen mit unserer Schwachheit, und vergib uns, was wir gefehlt haben.^ORV",
           "oration": "Gütiger Gott, du schenkst den Gerechten ihren Lohn und verzeihst den Sündern ihre Schuld um der Buße willen. Wir bekennen dir unser Versagen; hab Erbarmen mit unserer Schwachheit, und vergib uns, was wir gefehlt haben.^ORV"
         },
         "Laudes": {
@@ -13694,7 +13499,6 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "comm_2": "LEER Gütiger Gott, heilige uns in dieser Zeit der Buße. Gib uns Kraft zu guten Werken und Ausdauer in der Beobachtung deiner Gebote, damit wir fähig werden, das Osterfest mit reinem Herzen zu feiern.^ORV",
           "oration": "Gütiger Gott, heilige uns in dieser Zeit der Buße. Gib uns Kraft zu guten Werken und Ausdauer in der Beobachtung deiner Gebote, damit wir fähig werden, das Osterfest mit reinem Herzen zu feiern.^ORV"
         },
         "Laudes": {
@@ -13706,7 +13510,6 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "comm_2": "LEER Barmherziger Gott, du kennst unsere Schwachheit und unsere Not. Doch je hinfälliger wir sind, um so mächtiger ist deine Hilfe. Gib, dass wir das Geschenk dieser Gnadenzeit freudig und dankbar annehmen und dein Wirken in unserem Leben bezeugen.^ORV",
           "oration": "Barmherziger Gott, du kennst unsere Schwachheit und unsere Not. Doch je hinfälliger wir sind, um so mächtiger ist deine Hilfe. Gib, dass wir das Geschenk dieser Gnadenzeit freudig und dankbar annehmen und dein Wirken in unserem Leben bezeugen.^ORV"
         },
         "Laudes": {
@@ -13718,7 +13521,6 @@ export const brevierData = {
       },
       "6": {
         "each": {
-          "comm_2": "LEER Barmherziger Gott, lenke du selbst unsere Herzen zu dir hin; denn ohne deine Hilfe können wir dir nicht gefallen.^ORV",
           "oration": "Barmherziger Gott, lenke du selbst unsere Herzen zu dir hin; denn ohne deine Hilfe können wir dir nicht gefallen.^ORV"
         },
         "Laudes": {
@@ -13729,7 +13531,6 @@ export const brevierData = {
     "5": {
       "0": {
         "each": {
-          "comm_2": "LEER Herr, unser Gott, dein Sohn hat sich aus Liebe zur Welt dem Tod überliefert. Lass uns in seiner Liebe bleiben und mit deiner Gnade aus ihr leben.^ORV",
           "oration": "Herr, unser Gott, dein Sohn hat sich aus Liebe zur Welt dem Tod überliefert. Lass uns in seiner Liebe bleiben und mit deiner Gnade aus ihr leben.^ORV"
         },
         "ErsteV": {
@@ -13777,7 +13578,6 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "comm_2": "LEER Barmherziger Gott, in deinem Sohn hast du uns die Fülle des Segens geschenkt. Gib uns Kraft, unsere sündhaften Gewohnheiten abzulegen und in der neuen Wirklichkeit zu leben, damit einst die Herrlichkeit deines Reiches an uns offenbar wird.^ORV",
           "oration": "Barmherziger Gott, in deinem Sohn hast du uns die Fülle des Segens geschenkt. Gib uns Kraft, unsere sündhaften Gewohnheiten abzulegen und in der neuen Wirklichkeit zu leben, damit einst die Herrlichkeit deines Reiches an uns offenbar wird.^ORV"
         },
         "Laudes": {
@@ -13810,7 +13610,6 @@ export const brevierData = {
       },
       "2": {
         "each": {
-          "comm_2": "LEER Gütiger Gott, schenke uns Beharrlichkeit und Ausdauer auf dem Weg deiner Gebote, damit auch in unseren Tagen viele Menschen zu dir finden und deine Kirche dir immer eifriger dient.^ORV",
           "oration": "Gütiger Gott, schenke uns Beharrlichkeit und Ausdauer auf dem Weg deiner Gebote, damit auch in unseren Tagen viele Menschen zu dir finden und deine Kirche dir immer eifriger dient.^ORV"
         },
         "Laudes": {
@@ -13843,7 +13642,6 @@ export const brevierData = {
       },
       "3": {
         "each": {
-          "comm_2": "LEER Barmherziger Gott, du selber weckst in uns das Verlangen, dir zu dienen. Heilige uns durch Werke der Buße, erleuchte und stärke uns, damit wir treu den Weg deiner Gebote gehen.^ORV",
           "oration": "Barmherziger Gott, du selber weckst in uns das Verlangen, dir zu dienen. Heilige uns durch Werke der Buße, erleuchte und stärke uns, damit wir treu den Weg deiner Gebote gehen.^ORV"
         },
         "Laudes": {
@@ -13876,7 +13674,6 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, erhöre unser Gebet und beschütze uns, denn wir setzen unsere ganze Hoffnung auf dich. Reinige uns von aller Sünde und hilf uns, in deiner Gnade zu leben, damit wir Erben deiner Verheißung werden.^ORV",
           "oration": "Allmächtiger Gott, erhöre unser Gebet und beschütze uns, denn wir setzen unsere ganze Hoffnung auf dich. Reinige uns von aller Sünde und hilf uns, in deiner Gnade zu leben, damit wir Erben deiner Verheißung werden.^ORV"
         },
         "Laudes": {
@@ -13909,7 +13706,6 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "comm_2": "LEER Barmherziger Gott, wir haben aus menschlicher Schwachheit gefehlt und können aus eigener Kraft dem Netz der Sünde nicht entrinnen. Komm uns in deiner Güte zu Hilfe und befreie uns von aller Schuld.^ORV",
           "oration": "Barmherziger Gott, wir haben aus menschlicher Schwachheit gefehlt und können aus eigener Kraft dem Netz der Sünde nicht entrinnen. Komm uns in deiner Güte zu Hilfe und befreie uns von aller Schuld.^ORV"
         },
         "Laudes": {
@@ -13942,7 +13738,6 @@ export const brevierData = {
       },
       "6": {
         "each": {
-          "comm_2": "LEER Barmherziger Gott, du wirkst das Heil der Menschen zu jeder Zeit; in diesen Tagen aber bist du uns besonders nahe. Trage Sorge für dein Volk, schütze die Getauften und alle, die sich auf die Taufe vorbereiten.^ORV",
           "oration": "Barmherziger Gott, du wirkst das Heil der Menschen zu jeder Zeit; in diesen Tagen aber bist du uns besonders nahe. Trage Sorge für dein Volk, schütze die Getauften und alle, die sich auf die Taufe vorbereiten.^ORV"
         },
         "Laudes": {
@@ -13988,10 +13783,10 @@ export const brevierData = {
     "6": {
       "0": {
         "each": {
-          "comm_2": "LEER Allmächtiger, ewiger Gott, deinem Willen gehorsam, hat unser Erlöser Fleisch angenommen, er hat sich selbst erniedrigt und sich unter das Kreuz gebeugt. Hilf uns, dass wir ihm auf dem Weg des Leidens nachfolgen und an seiner Auferstehung Anteil erlangen.^ORvR",
           "oration": "Allmächtiger, ewiger Gott, deinem Willen gehorsam, hat unser Erlöser Fleisch angenommen, er hat sich selbst erniedrigt und sich unter das Kreuz gebeugt. Hilf uns, dass wir ihm auf dem Weg des Leidens nachfolgen und an seiner Auferstehung Anteil erlangen.^ORvR"
         },
         "ErsteV": {
+          "button": "1. Vesper zum Palmsonntag",
           "ant_1": "So lange war ich bei euch im Tempel und lehrte, und ihr habt mich nicht ergriffen; nun werdet ihr mich geißeln und kreuzigen.",
           "ant_2": "Der Herr wird mir helfen; darum werde ich nicht in Schande enden.",
           "ant_3": "Jesus, der Herr, erniedrigte sich. Er war gehorsam bis zum Tod am Kreuze.",
@@ -14045,7 +13840,6 @@ export const brevierData = {
       },
       "1": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, in unserer Schwachheit versagen wir und sind anfällig für das Böse. Schau hin auf das Leiden deines Sohnes, richte uns wieder auf und schenke uns neues Leben.^ORV",
           "oration": "Allmächtiger Gott, in unserer Schwachheit versagen wir und sind anfällig für das Böse. Schau hin auf das Leiden deines Sohnes, richte uns wieder auf und schenke uns neues Leben.^ORV"
         },
         "Laudes": {
@@ -14084,7 +13878,6 @@ export const brevierData = {
       },
       "2": {
         "each": {
-          "comm_2": "LEER Allmächtiger, ewiger Gott, hilf uns, das Gedächtnis des Leidens Christi so zu begehen, dass wir von dir Verzeihung erlangen.^ORV",
           "oration": "Allmächtiger, ewiger Gott, hilf uns, das Gedächtnis des Leidens Christi so zu begehen, dass wir von dir Verzeihung erlangen.^ORV"
         },
         "Laudes": {
@@ -14123,7 +13916,6 @@ export const brevierData = {
       },
       "3": {
         "each": {
-          "comm_2": "LEER Heiliger Gott, du hast deinen Sohn der Schmach des Kreuzes unterworfen, um uns der Gewalt des Bösen zu entreißen. Gib uns die Gnade, dass auch wir deinem Willen gehorchen und einst in Herrlichkeit auferstehen.^ORvR",
           "oration": "Heiliger Gott, du hast deinen Sohn der Schmach des Kreuzes unterworfen, um uns der Gewalt des Bösen zu entreißen. Gib uns die Gnade, dass auch wir deinem Willen gehorchen und einst in Herrlichkeit auferstehen.^ORvR"
         },
         "Laudes": {
@@ -14162,7 +13954,6 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "comm_2": "LEER Gott, es ist würdig und recht, dich über alles zu lieben. Mehre in uns den Reichtum deiner Gnade. Durch den Tod deines Sohnes lässt du uns erhoffen, was wir glauben. Gib, dass wir durch seine Auferstehung erlangen, was wir ersehnen.^ORvR",
           "oration": "Gott, es ist würdig und recht, dich über alles zu lieben. Mehre in uns den Reichtum deiner Gnade. Durch den Tod deines Sohnes lässt du uns erhoffen, was wir glauben. Gib, dass wir durch seine Auferstehung erlangen, was wir ersehnen.^ORvR"
         },
         "Komplet": {
@@ -14229,7 +14020,6 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "comm_2": "LEER Herr, unser Gott, sieh herab auf deine Familie, für die unser Herr Jesus Christus sich willig den Händen der Frevler überliefert und die Marter des Kreuzes auf sich genommen hat. Darum bitten wir durch ihn,^ORR",
           "oration": "Herr, unser Gott, sieh herab auf deine Familie, für die unser Herr Jesus Christus sich willig den Händen der Frevler überliefert und die Marter des Kreuzes auf sich genommen hat. Darum bitten wir durch ihn,^ORR"
         },
         "Invitatorium": {
@@ -14334,7 +14124,6 @@ export const brevierData = {
       },
       "6": {
         "each": {
-          "comm_2": "LEER Allmächtiger, ewiger Gott, dein eingeborener Sohn ist in das Reich des Todes hinabgestiegen und von den Toten glorreich auferstanden. Gib, dass deine Gläubigen, die durch die Taufe mit ihm begraben wurden, durch seine Auferstehung zum ewigen Leben gelangen.^ORvR",
           "oration": "Allmächtiger, ewiger Gott, dein eingeborener Sohn ist in das Reich des Todes hinabgestiegen und von den Toten glorreich auferstanden. Gib, dass deine Gläubigen, die durch die Taufe mit ihm begraben wurden, durch seine Auferstehung zum ewigen Leben gelangen.^ORvR"
         },
         "Invitatorium": {
@@ -15000,7 +14789,6 @@ export const brevierData = {
     "each": {
       "each": {
         "each": {
-          "comm_2": "LEER Allmächtiger Gott, wir glauben und bekennen, dass du deinen Sohn als Ersten von den Toten auferweckt hast. Stärke in uns die Hoffnung, dass du auch unseren Bruder ^(unsere Schwester^) ^N auferwecken wirst zum ewigen Leben.^ORV^p^rOder:^0r^lHerr, unser Gott, du bist das Licht der Glaubenden und das Leben der Heiligen. Du hast uns durch den Tod und die Auferstehung deines Sohnes erlöst. Sei deinem Diener ^(deiner Dienerin^) ^N gnädig, der ^(die^) das Geheimnis unserer Auferstehung gläubig bekannt hat, und lass ihn ^(sie^) auf ewig deine Herrlichkeit schauen.^ORV",
           "oration": "Allmächtiger Gott, wir glauben und bekennen, dass du deinen Sohn als Ersten von den Toten auferweckt hast. Stärke in uns die Hoffnung, dass du auch unseren Bruder ^(unsere Schwester^) ^N auferwecken wirst zum ewigen Leben.^ORV^p^rOder:^0r^lHerr, unser Gott, du bist das Licht der Glaubenden und das Leben der Heiligen. Du hast uns durch den Tod und die Auferstehung deines Sohnes erlöst. Sei deinem Diener ^(deiner Dienerin^) ^N gnädig, der ^(die^) das Geheimnis unserer Auferstehung gläubig bekannt hat, und lass ihn ^(sie^) auf ewig deine Herrlichkeit schauen.^ORV"
         },
         "Invitatorium": {
