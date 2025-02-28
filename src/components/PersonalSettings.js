@@ -6,7 +6,7 @@ const PersonalSettings = () => {
         localStorage.getItem('startViewMode') || 'directory'
     );
     const [prefFootnotes, setPrefFootnotes] = useState(() =>
-        localStorage.getItem('prefFootnotes') === 'true'
+        localStorage.getItem('prefFootnotes') || 'true'
     );
     const [popeName, setPopeName] = useState(() =>
         localStorage.getItem('popeName') || ''
