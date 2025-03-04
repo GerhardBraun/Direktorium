@@ -1865,6 +1865,14 @@ export const deceasedData =  {
         "birth": "3.°Juli°1947°in°Petersberg",
         "grave": "Friedhof°Petersberg",
         "age": 68
+      },
+      {
+        "year": 2025,
+        "birthdate": "2237-12-30",
+        "name": "Lothar°Sperling°(Schneidemühl/Fulda), Pfr.i.R., GR, Hanau",
+        "birth": "30.°Dezember°1937°in°Fraustadt (Wschowa,°PL¥-67¥-400)",
+        "grave": "Waldfriedhof°Großauheim",
+        "age": 87
       }
     ],
     "24": [
