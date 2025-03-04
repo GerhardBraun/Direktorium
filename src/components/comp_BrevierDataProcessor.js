@@ -663,7 +663,7 @@ export function processBrevierData(todayDate) {
     finalData.prefsollemnity = JSON.parse(JSON.stringify(finalData.vesper));
 
     // Ersetze Vesper-Daten wenn nötig
-    if ((hasErsteVesper_wt || hasErsteVesper_date) && tomorrowData?.erstev) {
+    if (hasErsteVesper_wt || hasErsteVesper_date) {
         finalData.vesper = tomorrowData.erstev;
         finalData.hasErsteVesper = true;
     }

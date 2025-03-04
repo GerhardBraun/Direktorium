@@ -3756,7 +3756,7 @@ export const brevierData = {
       "11": {
         "each": {
           "comm_1": "Apostel",
-          "oration": "Gott, du hast den heiligen Barnabas, einen Mann voll des Glaubens und des Heiligen Geistes, als Boten des Evangeliums zu den Heiden gesandt. Berufe auch heute Männer und Frauen, die in Wort und Tat die Botschaft Jesu Christi verkünden, der in der Ein­heit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Gott, du hast den heiligen Barnabas, einen Mann voll des Glaubens und des Heiligen Geistes, als Boten des Evangeliums zu den Heiden gesandt. Berufe auch heute Männer und Frauen, die in Wort und Tat die Botschaft Jesu Christi verkünden,^ORR"
         },
         "Invitatorium": {
           "ant_0": "Durch Propheten und Lehrer hat Gottes Geist zu uns gesprochen; kommt, wir beten ihn an!^ö"
@@ -7408,10 +7408,10 @@ export const brevierData = {
           "oration": "Gott, unser Herr, zur neunten Stunde, als Petrus und Johannes zum Tempel hinaufgingen, um zu beten, bitten auch wir dich im Namen Jesu: Schenke allen, die diesen Namen anrufen, dein Heil. Durch ihn, Christus, unseren Herrn."
         },
         "Sext": {
-          "oration": "Gott, du bist Herr und Hüter von Weinberg und Ernte; du teilst die Arbeit zu und gibst gerechten Lohn. Verleihe uns die Kraft, deine Fügung anzunehmen und die Last des Tages ohne Murren zu tragen. Darum bitten wir durch Christus, unseren Herrn."
+          "oration": "Gott, du bist Herr und Hüter von Weinberg und Ernte; du teilst die Arbeit zu und gibst gerechten Lohn. Verleihe uns die Kraft, deine Fügung anzunehmen und die Last des Tages ohne Murren zu tragen.^ORV"
         },
         "Terz": {
-          "oration": "Gütiger Gott und Vater, du hast die Menschen zu gemeinsamer Arbeit berufen, damit sie einander ergänzen und jeder die Fähigkeit entfaltet, die du ihm gegeben hast, zum Wohle aller. Gib, dass wir unser Werk als deine Kinder verrichten, beseelt von deinem Geist und von der Liebe zu allen Menschen. Darum bitten wir durch Christus, unseren Herrn."
+          "oration": "Gütiger Gott und Vater, du hast die Menschen zu gemeinsamer Arbeit berufen, damit sie einander ergänzen und jeder die Fähigkeit entfaltet, die du ihm gegeben hast, zum Wohle aller. Gib, dass wir unser Werk als deine Kinder verrichten, beseelt von deinem Geist und von der Liebe zu allen Menschen.^ORV"
         }
       },
       "2": {
@@ -7425,13 +7425,13 @@ export const brevierData = {
           "hymn_nacht": 3212.0
         },
         "Non": {
-          "oration": "Gott, um die neunte Stunde hast du dem Hauptmann Kornelius deinen Engel geschickt, dass er ihm den Weg des Heiles weise. Mach uns bereit, in der Gemeinschaft der Kirche mitzuwirken an der Rettung der Menschen. Darum bitten wir durch Christus, unseren Herrn."
+          "oration": "Gott, um die neunte Stunde hast du dem Hauptmann Kornelius deinen Engel geschickt, dass er ihm den Weg des Heiles weise. Mach uns bereit, in der Gemeinschaft der Kirche mitzuwirken an der Rettung der Menschen.^ORV"
         },
         "Sext": {
-          "oration": "Gütiger Gott, als Petrus um die sechste Stunde betete, hast du ihn belehrt, dass das Heil allen Völkern zuteil werden soll. Bewirke durch deine Gnade, dass unser Tagewerk dir gefällt und dem Heilsplan deiner Liebe dient. Darum bitten wir durch Christus, unseren Herrn."
+          "oration": "Gütiger Gott, als Petrus um die sechste Stunde betete, hast du ihn belehrt, dass das Heil allen Völkern zuteil werden soll. Bewirke durch deine Gnade, dass unser Tagewerk dir gefällt und dem Heilsplan deiner Liebe dient.^ORV"
         },
         "Terz": {
-          "oration": "Allmächtiger, ewiger Gott. Um die dritte Stunde hast du deinen Heiligen Geist über die Apostel ausgegossen. Sende den Geist der Liebe auch in unser Herz, damit wir in Treue für dich Zeugnis geben vor den Menschen. Darum bitten wir durch Christus, unseren Herrn."
+          "oration": "Allmächtiger, ewiger Gott. Um die dritte Stunde hast du deinen Heiligen Geist über die Apostel ausgegossen. Sende den Geist der Liebe auch in unser Herz, damit wir in Treue für dich Zeugnis geben vor den Menschen.^ORV"
         }
       },
       "3": {
@@ -7448,10 +7448,10 @@ export const brevierData = {
           "oration": "Herr Jesus Christus, am Kreuz hast du die Arme ausgebreitet, um alle Menschen zu retten. Lass unsere Werke dir gefallen und sichtbar machen, dass du die Welt erlöst hast.^ORS"
         },
         "Sext": {
-          "oration": "Allmächtiger, gütiger Gott, in der Mitte des Tages lässt du uns innehalten und zur Ruhe kommen. Schau gnädig auf unsere Arbeit. Mache gut, was wir falsch gemacht haben und gib, dass am Abend unser ganzes Tagewerk dir gefallen kann. Darum bitten wir durch Christus, unseren Herrn."
+          "oration": "Allmächtiger, gütiger Gott, in der Mitte des Tages lässt du uns innehalten und zur Ruhe kommen. Schau gnädig auf unsere Arbeit. Mache gut, was wir falsch gemacht haben und gib, dass am Abend unser ganzes Tagewerk dir gefallen kann.^ORV"
         },
         "Terz": {
-          "oration": "Herr, heiliger Vater, Gott, auf dessen Treue wir bauen, du hast den verheißenen Geist gesandt, um die Menschen zusammenzuführen, die durch die Sünde getrennt sind. Gib, dass wir die Einheit und den Frieden als deinen Auftrag erkennen und nach Kräften fördern. Darum bitten wir durch Christus, unseren Herrn."
+          "oration": "Herr, heiliger Vater, Gott, auf dessen Treue wir bauen, du hast den verheißenen Geist gesandt, um die Menschen zusammenzuführen, die durch die Sünde getrennt sind. Gib, dass wir die Einheit und den Frieden als deinen Auftrag erkennen und nach Kräften fördern.^ORV"
         }
       },
       "4": {
@@ -7465,13 +7465,13 @@ export const brevierData = {
           "hymn_nacht": 2114.0
         },
         "Non": {
-          "oration": "Herr, gib uns die Kraft, dem Leidensmut deines eingeborenen Sohnes zu folgen und die Widrigkeiten des Lebens in Geduld zu ertragen. Darum bitten wir durch ihn, Christus, unseren Herrn."
+          "oration": "Herr, gib uns die Kraft, dem Leidensmut deines eingeborenen Sohnes zu folgen und die Widrigkeiten des Lebens in Geduld zu ertragen.^ORvR"
         },
         "Sext": {
-          "oration": "Allmächtiger, ewiger Gott, bei dir gibt es keine Finsternis, denn du wohnst im Licht. Sende einen Strahl deines Lichtes in unser Herz, damit wir den Sinn deiner Gebote erkennen und bereitwillig deine Wege gehen. Darum bitten wir durch Christus, unseren Herrn."
+          "oration": "Allmächtiger, ewiger Gott, bei dir gibt es keine Finsternis, denn du wohnst im Licht. Sende einen Strahl deines Lichtes in unser Herz, damit wir den Sinn deiner Gebote erkennen und bereitwillig deine Wege gehen.^ORV"
         },
         "Terz": {
-          "oration": "Herr und Gott, als die Apostel um die dritte Stunde zum Gebet versammelt waren, hast du ihnen den Heiligen Geist geschenkt. Mache auch uns zu einer Wohnstatt deines Geistes. Darum bitten wir durch Christus, unseren Herrn."
+          "oration": "Herr und Gott, als die Apostel um die dritte Stunde zum Gebet versammelt waren, hast du ihnen den Heiligen Geist geschenkt. Mache auch uns zu einer Wohnstatt deines Geistes.^ORV"
         }
       },
       "5": {
@@ -7505,13 +7505,24 @@ export const brevierData = {
           "hymn_nacht": 3112.0
         },
         "Non": {
-          "oration": "Herr, unser Gott, höre auf die Fürsprache der seligen Jungfrau Maria und erfülle unsere Sehnsucht nach Frieden, damit wir alle Tage unseres Lebens frei sind für den Dienst vor deinem Angesicht und ohne Gefährdung zu dir gelangen. Darum bitten wir durch Christus, unseren Herrn."
+          "oration": "Herr, unser Gott, höre auf die Fürsprache der seligen Jungfrau Maria und erfülle unsere Sehnsucht nach Frieden, damit wir alle Tage unseres Lebens frei sind für den Dienst vor deinem Angesicht und ohne Gefährdung zu dir gelangen.^ORV"
         },
         "Sext": {
-          "oration": "Herr, du Feuer ewiger Liebe, entzünde unser Herz mit deiner Glut, damit wir dich über alles lieben und aus Liebe zu dir auch unsere Brüder. Darum bitten wir durch Christus, unseren Herrn."
+          "oration": "Herr, du Feuer ewiger Liebe, entzünde unser Herz mit deiner Glut, damit wir dich über alles lieben und aus Liebe zu dir auch unsere Brüder.^ORV"
         },
         "Terz": {
-          "oration": "Gott, allmächtiger Vater, du unser Herr, wir neigen uns vor dir. Sende uns das Licht des Heiligen Geistes, damit wir sicher sind vor jedem Feind und in der Freude des Herzens dir unser Lob weihen, heute und alle Tage. Darum bitten wir durch Christus, unseren Herrn."
+          "oration": "Gott, allmächtiger Vater, du unser Herr, wir neigen uns vor dir. Sende uns das Licht des Heiligen Geistes, damit wir sicher sind vor jedem Feind und in der Freude des Herzens dir unser Lob weihen, heute und alle Tage.^ORV"
+        }
+      },
+      "each": {
+        "Non": {
+          "hymn_2": 2903.0
+        },
+        "Sext": {
+          "hymn_2": 2603.0
+        },
+        "Terz": {
+          "hymn_2": 2303.0
         }
       }
     },
@@ -8432,7 +8443,7 @@ export const brevierData = {
     "each": {
       "0": {
         "Komplet": {
-          "oration_komplet": "Allmächtiger Gott, wir haben heute das Geheimnis der Auferstehung unseres Herrn gefeiert. Am Abend rufen wir zu dir: Bewahre uns in dieser Nacht vor allem Bösen. Lass uns in deinem Frieden ruhen und morgen den neuen Tag mit deinem Lob beginnen. Darum bitten wir durch Christus, unseren Herrn."
+          "oration_komplet": "Allmächtiger Gott, wir haben heute das Geheimnis der Auferstehung unseres Herrn gefeiert. Am Abend rufen wir zu dir: Bewahre uns in dieser Nacht vor allem Bösen. Lass uns in deinem Frieden ruhen und morgen den neuen Tag mit deinem Lob beginnen.^ORV"
         }
       },
       "6": {
@@ -8477,7 +8488,7 @@ export const brevierData = {
     "each": {
       "0": {
         "Komplet": {
-          "oration_komplet": "Allmächtiger Gott, wir haben heute das Geheimnis der Auferstehung unseres Herrn gefeiert. Am Abend rufen wir zu dir: Bewahre uns in dieser Nacht vor allem Bösen. Lass uns in deinem Frieden ruhen und morgen den neuen Tag mit deinem Lob beginnen. Darum bitten wir durch Christus, unseren Herrn."
+          "oration_komplet": "Allmächtiger Gott, wir haben heute das Geheimnis der Auferstehung unseres Herrn gefeiert. Am Abend rufen wir zu dir: Bewahre uns in dieser Nacht vor allem Bösen. Lass uns in deinem Frieden ruhen und morgen den neuen Tag mit deinem Lob beginnen.^ORV"
         }
       },
       "6": {
@@ -8513,7 +8524,7 @@ export const brevierData = {
           "resp1_1": "",
           "resp1_2": "",
           "resp1_3": "",
-          "oration_komplet": "Allmächtiger Gott, wir haben heute das Geheimnis der Auferstehung unseres Herrn gefeiert. Am Abend rufen wir zu dir: Bewahre uns in dieser Nacht vor allem Bösen. Lass uns in deinem Frieden ruhen und morgen den neuen Tag mit deinem Lob beginnen. Darum bitten wir durch Christus, unseren Herrn."
+          "oration_komplet": "Allmächtiger Gott, wir haben heute das Geheimnis der Auferstehung unseres Herrn gefeiert. Am Abend rufen wir zu dir: Bewahre uns in dieser Nacht vor allem Bösen. Lass uns in deinem Frieden ruhen und morgen den neuen Tag mit deinem Lob beginnen.^ORV"
         }
       }
     }
@@ -15201,7 +15212,7 @@ export const brevierData = {
           "les_buch": "Offb",
           "les_stelle": "22,4–5",
           "les_text": "Sie werden sein Angesicht schauen, und sein Name ist auf ihre Stirn geschrieben. Es wird keine Nacht mehr geben, und sie brauchen weder das Licht einer Lampe noch das Licht der Sonne. Denn der Herr, ihr Gott, wird über ihnen leuchten, und sie werden herrschen in alle Ewigkeit.",
-          "oration_komplet": "Allmächtiger Gott, wir haben heute das Geheimnis der Auferstehung unseres Herrn gefeiert. Am Abend rufen wir zu dir: Bewahre uns in dieser Nacht vor allem Bösen. Lass uns in deinem Frieden ruhen und morgen den neuen Tag mit deinem Lob beginnen. Darum bitten wir durch Christus, unseren Herrn."
+          "oration_komplet": "Allmächtiger Gott, wir haben heute das Geheimnis der Auferstehung unseres Herrn gefeiert. Am Abend rufen wir zu dir: Bewahre uns in dieser Nacht vor allem Bösen. Lass uns in deinem Frieden ruhen und morgen den neuen Tag mit deinem Lob beginnen.^ORV"
         },
         "Lesehore": {
           "vu": 211.0,
@@ -15219,7 +15230,7 @@ export const brevierData = {
           "les_buch": "1°Thess",
           "les_stelle": "5,9–10",
           "les_text": "Gott hat uns nicht für das Gericht seines Zornes bestimmt, sondern dafür, dass wir durch Jesus Christus, unseren Herrn, das Heil erlangen. Er ist für uns gestorben, damit wir vereint mit ihm leben, ob wir nun wachen oder schlafen.",
-          "oration_komplet": "Herr, schenke uns eine ruhige Nacht und erholsamen Schlaf. Was wir heute durch Wort und Werk an Gutem ausgesät haben, das lass Wurzel schlagen und wachsen und heranreifen für die ewige Ernte. Darum bitten wir durch Christus, unseren Herrn."
+          "oration_komplet": "Herr, schenke uns eine ruhige Nacht und erholsamen Schlaf. Was wir heute durch Wort und Werk an Gutem ausgesät haben, das lass Wurzel schlagen und wachsen und heranreifen für die ewige Ernte.^ORV"
         }
       },
       "2": {
@@ -15233,7 +15244,7 @@ export const brevierData = {
           "les_buch": "1°Petr",
           "les_stelle": "5,8–9",
           "les_text": "Seid nüchtern und wachsam! Euer Widersacher, der Teufel, geht wie ein brüllender Löwe umher und sucht, wen er verschlingen kann. Leistet ihm Widerstand in der Kraft des Glaubens!",
-          "oration_komplet": "Herr, gütiger Vater, sei du unsere Leuchte im Dunkel der Nacht. Gib, dass wir in Frieden schlafen, damit wir uns beim Anbruch des neuen Tages in deinem Namen freudig erheben. Darum bitten wir durch Christus, unseren Herrn."
+          "oration_komplet": "Herr, gütiger Vater, sei du unsere Leuchte im Dunkel der Nacht. Gib, dass wir in Frieden schlafen, damit wir uns beim Anbruch des neuen Tages in deinem Namen freudig erheben.^ORV"
         }
       },
       "3": {
@@ -15274,7 +15285,7 @@ export const brevierData = {
           "les_buch": "Jer",
           "les_stelle": "14,9",
           "les_text": "Du bist in unsrer Mitte, Herr, und dein Name ist über uns ausgerufen; verlass uns nicht, Herr, unser Gott!",
-          "oration_komplet": "Allmächtiger Gott, dein eingeborener Sohn ist hinabgestiegen in die Nacht des Todes und auferstanden. Gib, dass wir alle Tage durch den Glauben ihm verbunden bleiben, damit wir einst mit ihm auferstehen zum neuen Leben. Darum bitten wir durch ihn, Christus, unseren Herrn."
+          "oration_komplet": "Allmächtiger Gott, dein eingeborener Sohn ist hinabgestiegen in die Nacht des Todes und auferstanden. Gib, dass wir alle Tage durch den Glauben ihm verbunden bleiben, damit wir einst mit ihm auferstehen zum neuen Leben.^ORvR"
         }
       },
       "6": {
