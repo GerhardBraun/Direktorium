@@ -168,6 +168,7 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         const sourcesToCheck = ['wt', 'k1', 'k2', 'soll', 'kirchw', 'verst'];
         sourcesToCheck.forEach(source => {
             const ordData = brevierData?.[source]?.['each'];
+            const ordEvenData = brevierData?.[source]?.['even'];
             const ordSeasonData = brevierData?.[source]?.[season];
             if (ordData) {
                 if (ordData['each']) {
@@ -175,6 +176,14 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
                 }
                 if (ordData[dayOfWeek]) {
                     mergeData(hours, ordData[dayOfWeek], source);
+                }
+            }
+            if (week % 2 === 0 && ordEvenData) {
+                if (ordEvenData.each) {
+                    mergeData(hours, ordEvenData.each, source);
+                }
+                if (ordEvenData[dayOfWeek]) {
+                    mergeData(hours, ordEvenData[dayOfWeek], source);
                 }
             }
             if (ordSeasonData) {
@@ -188,13 +197,23 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         });
         //Ordinary data from personalData
         const ordData = personalData?.wt?.each;
+        const ordEvenData = personalData?.wt?.even;
         const ordSeasonData = personalData?.wt?.[season];
+        console.log('DataProcessor: PersonalData each/season', ordData, ordSeasonData)
         if (ordData) {
             if (ordData.each) {
                 mergeData(hours, ordData.each, 'pers');
             }
             if (ordData[dayOfWeek]) {
                 mergeData(hours, ordData[dayOfWeek], 'pers');
+            }
+        }
+        if (week % 2 === 0 && ordEvenData) {
+            if (ordEvenData.each) {
+                mergeData(hours, ordEvenData.each, 'pers');
+            }
+            if (ordEvenData[dayOfWeek]) {
+                mergeData(hours, ordEvenData[dayOfWeek], 'pers');
             }
         }
         if (ordSeasonData) {
