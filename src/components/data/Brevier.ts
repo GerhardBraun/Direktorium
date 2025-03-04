@@ -4514,7 +4514,7 @@ export const brevierData = {
           "resp1_3": "Die Engel freuen sich, die Erzengel jubeln über die Jungfrau Maria.",
           "patr_autor": "Pius XII. († 1958)",
           "patr_werk": "Aus der Konstitution „Munificentissimus Deus“.",
-          "patr_text": "^hMariä Leib ist herrlich und heilig^pWenn die heiligen Väter und Lehrer die Aufnahme der Gottesmutter in den Himmel mit einem Festtag begingen, richteten sie Homilien und Reden an das Volk und sprachen von ihrer Aufnahme wie von einer bekannten und anerkannten Tatsache. Sie erklärten sie ausführlicher, legten ihren Sinn und ihre Wirklichkeit vertieft vor. Vor allem rückten sie ins rechte Licht, dass dieses Fest nicht nur daran erinnert, dass es bei Maria keine Verwesung des entseelten Leibes gab, sondern dass sie im Triumph dem Tod entrissen wurde und wie ihr Sohn in die Herrlichkeit des Himmels einging.^pDer heilige Johannes von Damaskus war mehr als alle ein Herold dieser überlieferten Wahrheit. Er verglich die Aufnahme in den Himmel mit den sonstigen Gnadengaben der erhabenen Gottesmutter und sagte mit großer Beredsamkeit: „In der Geburt des Herrn blieb ihre Jungfräulichkeit unverletzt. So musste ihr Leib auch nach dem Tod unversehrt bleiben. Sie hat den Schöpfer als ihr Kind an ihrer Brust getragen, darum musste sie auch mit ihm im Himmelszelt weilen. Die Braut, die der Vater sich verlobt hatte, musste das Brautgemach im Himmel bewohnen. Sie hatte ihren Sohn am Kreuz gesehen. Das Schwert der Schmerzen, dem sie bei der Geburt des Kindes entgangen war, durchbohrte ihre Brust. Nun musste sie ihn auf dem Thron des Vaters schauen. Die Mutter Gottes musste besitzen, was ihrem Sohn gehört, und sie musste von allen Geschöpfen als Mutter und Magd Gottes verehrt werden.“ {1#vgl.°Joh. Damascenus, Encomium in Dormitionem, Hom. 2,14}^pDer heilige Germanus von Konstantinopel hielt es nicht nur wegen ihrer Gottesmutterschaft für angemessen, dass der Leib der jungfräulichen Gottesmutter Maria unversehrt blieb. Er begründete es auch mit der einzigartigen Heiligkeit ihres jungfräulichen Leibes: „Du erscheinst in Heiligkeit, wie die Schrift sagt: dein jungfräulicher Leib ist ganz und gar heilig, ganz keusch, ganz Gottes Wohnstatt. Daher ist er fortan der Auflösung in Staub entzogen. Verwandelt in seiner Menschlichkeit, geht er in das unvergängliche Leben des Himmels ein. Er lebt herrlich, unzerstört und teilhaft des vollkommenen Lebens.“ {2#vgl.°Germanus v. Konstantinopel, In s. Dei genitricis Dormitionem, Serm. 1}^pEin anderer alter Kirchenschriftsteller versichert: „Als ruhmreiche Mutter Christi, des Erlösers und Spenders von Leben und Unsterblichkeit, wird sie von ihm lebendig gemacht und hat auf ewig in Unvergänglichkeit einen Leib mit ihm, der sie aus dem Grab erweckt und zu sich aufgenommen hat, wie er allein weiß.“ {3#vgl.°Ps.-Modestus von Jerusalem, Encomium in Dormitionem, Nr. 14}^pAll diese Äußerungen und Überlegungen der Väter gründen in der Heiligen Schrift als ihrem letzten Fundament. Diese stellt uns die erhabene Gottesmutter in ihrer innigen Verbindung mit dem göttlichen Sohn vor Augen, an dessen Geschick sie immer teilhat.^pVor allem ist es bemerkenswert, dass die heiligen Väter vom zweiten Jahrhundert an die heilige Jungfrau als zweite Eva dem neuen Adam gegenüberstellen. Wenn sie ihm auch untergeordnet ist, so ist sie ihm doch aufs engste verbunden im Kampf gegen den Feind aus der Welt des Todes, dem Kampf, der im Protevangelium {4#vgl.°Gen 3,15} vorgebildet ist und zum vollen Sieg führen wird über Sünde und Tod, die nach den Schriften des Heidenapostels eng zusammenhängen. Wie die ruhmreiche Auferstehung Christi ein wesentlicher Teil dieses Sieges ist und sein letztes Siegesdenkmal, so muss auch der Kampf, den die heilige Jungfrau zusammen mit ihrem Sohn führt, in der Verherrlichung des jungfräulichen Leibes seinen Abschluss finden, wie der Apostel ruft: „Wenn dieses Sterbliche mit Unsterblichkeit bekleidet wird, dann erfüllt sich das Wort der Schrift: Verschlungen ist der Tod vom Sieg.“ {5#1 Kor 15,54}^pDie erhabene Gottesmutter ist mit Jesus Christus von Ewigkeit her „in einem und demselben Ratschluss“ vorherbestimmt und geheimisvoll verbunden. Unbefleckt in der Empfängnis, unversehrte Jungfrau, freigebige Gefährtin des Erlösers, der über die Sünde und ihre Folgen den Sieg davongetragen hat. Schließlich ist es sozusagen die Krönung ihres Lebens, dass sie vor der Verwesung im Grab bewahrt blieb und wie ihr Sohn nach Überwindung des Todes mit Leib und Seele zur hohen Herrlichkeit des Himmels emporgehoben wurde, wo sie als Königin glänzt an der Rechten ihres Sohnes, des unsterblichen Königs der Ewigkeit {6#vgl.°1°Tim°1,17}.",
+          "patr_text": "^hMariä Leib ist herrlich und heilig^pWenn die heiligen Väter und Lehrer die Aufnahme der Gottesmutter in den Himmel mit einem Festtag begingen, richteten sie Homilien und Reden an das Volk und sprachen von ihrer Aufnahme wie von einer bekannten und anerkannten Tatsache. Sie erklärten sie ausführlicher, legten ihren Sinn und ihre Wirklichkeit vertieft vor. Vor allem rückten sie ins rechte Licht, dass dieses Fest nicht nur daran erinnert, dass es bei Maria keine Verwesung des entseelten Leibes gab, sondern dass sie im Triumph dem Tod entrissen wurde und wie ihr Sohn in die Herrlichkeit des Himmels einging.^pDer heilige Johannes von Damaskus war mehr als alle ein Herold dieser überlieferten Wahrheit. Er verglich die Aufnahme in den Himmel mit den sonstigen Gnadengaben der erhabenen Gottesmutter und sagte mit großer Beredsamkeit: „In der Geburt des Herrn blieb ihre Jungfräulichkeit unverletzt. So musste ihr Leib auch nach dem Tod unversehrt bleiben. Sie hat den Schöpfer als ihr Kind an ihrer Brust getragen, darum musste sie auch mit ihm im Himmelszelt weilen. Die Braut, die der Vater sich verlobt hatte, musste das Brautgemach im Himmel bewohnen. Sie hatte ihren Sohn am Kreuz gesehen. Das Schwert der Schmerzen, dem sie bei der Geburt des Kindes entgangen war, durchbohrte ihre Brust. Nun musste sie ihn auf dem Thron des Vaters schauen. Die Mutter Gottes musste besitzen, was ihrem Sohn gehört, und sie musste von allen Geschöpfen als Mutter und Magd Gottes verehrt werden.“ {1#@vgl.°Joh. Damascenus, Encomium in Dormitionem, Hom. 2,14}^pDer heilige Germanus von Konstantinopel hielt es nicht nur wegen ihrer Gottesmutterschaft für angemessen, dass der Leib der jungfräulichen Gottesmutter Maria unversehrt blieb. Er begründete es auch mit der einzigartigen Heiligkeit ihres jungfräulichen Leibes: „Du erscheinst in Heiligkeit, wie die Schrift sagt: dein jungfräulicher Leib ist ganz und gar heilig, ganz keusch, ganz Gottes Wohnstatt. Daher ist er fortan der Auflösung in Staub entzogen. Verwandelt in seiner Menschlichkeit, geht er in das unvergängliche Leben des Himmels ein. Er lebt herrlich, unzerstört und teilhaft des vollkommenen Lebens.“ {2#@vgl.°Germanus v. Konstantinopel, In s. Dei genitricis Dormitionem, Serm. 1}^pEin anderer alter Kirchenschriftsteller versichert: „Als ruhmreiche Mutter Christi, des Erlösers und Spenders von Leben und Unsterblichkeit, wird sie von ihm lebendig gemacht und hat auf ewig in Unvergänglichkeit einen Leib mit ihm, der sie aus dem Grab erweckt und zu sich aufgenommen hat, wie er allein weiß.“ {3#@vgl.°Ps.-Modestus von Jerusalem, Encomium in Dormitionem, Nr. 14}^pAll diese Äußerungen und Überlegungen der Väter gründen in der Heiligen Schrift als ihrem letzten Fundament. Diese stellt uns die erhabene Gottesmutter in ihrer innigen Verbindung mit dem göttlichen Sohn vor Augen, an dessen Geschick sie immer teilhat.^pVor allem ist es bemerkenswert, dass die heiligen Väter vom zweiten Jahrhundert an die heilige Jungfrau als zweite Eva dem neuen Adam gegenüberstellen. Wenn sie ihm auch untergeordnet ist, so ist sie ihm doch aufs engste verbunden im Kampf gegen den Feind aus der Welt des Todes, dem Kampf, der im Protevangelium {4#vgl.°Gen 3,15} vorgebildet ist und zum vollen Sieg führen wird über Sünde und Tod, die nach den Schriften des Heidenapostels eng zusammenhängen. Wie die ruhmreiche Auferstehung Christi ein wesentlicher Teil dieses Sieges ist und sein letztes Siegesdenkmal, so muss auch der Kampf, den die heilige Jungfrau zusammen mit ihrem Sohn führt, in der Verherrlichung des jungfräulichen Leibes seinen Abschluss finden, wie der Apostel ruft: „Wenn dieses Sterbliche mit Unsterblichkeit bekleidet wird, dann erfüllt sich das Wort der Schrift: Verschlungen ist der Tod vom Sieg.“ {5#1 Kor 15,54}^pDie erhabene Gottesmutter ist mit Jesus Christus von Ewigkeit her „in einem und demselben Ratschluss“ vorherbestimmt und geheimisvoll verbunden. Unbefleckt in der Empfängnis, unversehrte Jungfrau, freigebige Gefährtin des Erlösers, der über die Sünde und ihre Folgen den Sieg davongetragen hat. Schließlich ist es sozusagen die Krönung ihres Lebens, dass sie vor der Verwesung im Grab bewahrt blieb und wie ihr Sohn nach Überwindung des Todes mit Leib und Seele zur hohen Herrlichkeit des Himmels emporgehoben wurde, wo sie als Königin glänzt an der Rechten ihres Sohnes, des unsterblichen Königs der Ewigkeit {6#vgl.°1°Tim°1,17}.",
           "patr_resp1": "Heute stieg die jungfräuliche Gottesmutter zum Himmel empor,",
           "patr_resp2": "wir rufen: „Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes.“",
           "patr_resp3": "Selig bist du, heilige Jungfrau Maria, denn aus dir ging die Sonne der Gerechtigkeit hervor, Christus, unser Gott."
@@ -7383,6 +7383,15 @@ export const brevierData = {
           "ant_1": "",
           "ant_2": "",
           "ant_3": ""
+        },
+        "Non": {
+          "oration": "0"
+        },
+        "Sext": {
+          "oration": "0"
+        },
+        "Terz": {
+          "oration": "0"
         }
       },
       "1": {
@@ -7394,6 +7403,15 @@ export const brevierData = {
         },
         "Lesehore": {
           "hymn_nacht": 2114.0
+        },
+        "Non": {
+          "oration": "Gott, unser Herr, zur neunten Stunde, als Petrus und Johannes zum Tempel hinaufgingen, um zu beten, bitten auch wir dich im Namen Jesu: Schenke allen, die diesen Namen anrufen, dein Heil. Durch ihn, Christus, unseren Herrn."
+        },
+        "Sext": {
+          "oration": "Gott, du bist Herr und Hüter von Weinberg und Ernte; du teilst die Arbeit zu und gibst gerechten Lohn. Verleihe uns die Kraft, deine Fügung anzunehmen und die Last des Tages ohne Murren zu tragen. Darum bitten wir durch Christus, unseren Herrn."
+        },
+        "Terz": {
+          "oration": "Gütiger Gott und Vater, du hast die Menschen zu gemeinsamer Arbeit berufen, damit sie einander ergänzen und jeder die Fähigkeit entfaltet, die du ihm gegeben hast, zum Wohle aller. Gib, dass wir unser Werk als deine Kinder verrichten, beseelt von deinem Geist und von der Liebe zu allen Menschen. Darum bitten wir durch Christus, unseren Herrn."
         }
       },
       "2": {
@@ -7405,6 +7423,15 @@ export const brevierData = {
         },
         "Lesehore": {
           "hymn_nacht": 3212.0
+        },
+        "Non": {
+          "oration": "Gott, um die neunte Stunde hast du dem Hauptmann Kornelius deinen Engel geschickt, dass er ihm den Weg des Heiles weise. Mach uns bereit, in der Gemeinschaft der Kirche mitzuwirken an der Rettung der Menschen. Darum bitten wir durch Christus, unseren Herrn."
+        },
+        "Sext": {
+          "oration": "Gütiger Gott, als Petrus um die sechste Stunde betete, hast du ihn belehrt, dass das Heil allen Völkern zuteil werden soll. Bewirke durch deine Gnade, dass unser Tagewerk dir gefällt und dem Heilsplan deiner Liebe dient. Darum bitten wir durch Christus, unseren Herrn."
+        },
+        "Terz": {
+          "oration": "Allmächtiger, ewiger Gott. Um die dritte Stunde hast du deinen Heiligen Geist über die Apostel ausgegossen. Sende den Geist der Liebe auch in unser Herz, damit wir in Treue für dich Zeugnis geben vor den Menschen. Darum bitten wir durch Christus, unseren Herrn."
         }
       },
       "3": {
@@ -7416,6 +7443,15 @@ export const brevierData = {
         },
         "Lesehore": {
           "hymn_nacht": 3112.0
+        },
+        "Non": {
+          "oration": "Herr Jesus Christus, am Kreuz hast du die Arme ausgebreitet, um alle Menschen zu retten. Lass unsere Werke dir gefallen und sichtbar machen, dass du die Welt erlöst hast.^ORS"
+        },
+        "Sext": {
+          "oration": "Allmächtiger, gütiger Gott, in der Mitte des Tages lässt du uns innehalten und zur Ruhe kommen. Schau gnädig auf unsere Arbeit. Mache gut, was wir falsch gemacht haben und gib, dass am Abend unser ganzes Tagewerk dir gefallen kann. Darum bitten wir durch Christus, unseren Herrn."
+        },
+        "Terz": {
+          "oration": "Herr, heiliger Vater, Gott, auf dessen Treue wir bauen, du hast den verheißenen Geist gesandt, um die Menschen zusammenzuführen, die durch die Sünde getrennt sind. Gib, dass wir die Einheit und den Frieden als deinen Auftrag erkennen und nach Kräften fördern. Darum bitten wir durch Christus, unseren Herrn."
         }
       },
       "4": {
@@ -7427,6 +7463,15 @@ export const brevierData = {
         },
         "Lesehore": {
           "hymn_nacht": 2114.0
+        },
+        "Non": {
+          "oration": "Herr, gib uns die Kraft, dem Leidensmut deines eingeborenen Sohnes zu folgen und die Widrigkeiten des Lebens in Geduld zu ertragen. Darum bitten wir durch ihn, Christus, unseren Herrn."
+        },
+        "Sext": {
+          "oration": "Allmächtiger, ewiger Gott, bei dir gibt es keine Finsternis, denn du wohnst im Licht. Sende einen Strahl deines Lichtes in unser Herz, damit wir den Sinn deiner Gebote erkennen und bereitwillig deine Wege gehen. Darum bitten wir durch Christus, unseren Herrn."
+        },
+        "Terz": {
+          "oration": "Herr und Gott, als die Apostel um die dritte Stunde zum Gebet versammelt waren, hast du ihnen den Heiligen Geist geschenkt. Mache auch uns zu einer Wohnstatt deines Geistes. Darum bitten wir durch Christus, unseren Herrn."
         }
       },
       "5": {
@@ -7438,6 +7483,15 @@ export const brevierData = {
         },
         "Lesehore": {
           "hymn_nacht": 3212.0
+        },
+        "Non": {
+          "oration": "Herr Jesus Christus, um die neunte Stunde hast du dem reumütigen Schächer vom Marterpfahl des Kreuzes aus dein Reich versprochen. Wir bekennen dir, dass wir Sünder sind und bitten dich voll Vertrauen: Lass auch uns nach dem Tod bei dir im Paradiese sein.^ORS"
+        },
+        "Sext": {
+          "oration": "Herr, Jesus Christus, um die sechste Stunde kam Finsternis über die ganze Welt, als du unschuldig das Kreuz bestiegst, um uns von unserer Schuld zu erlösen. Erleuchte unsere Dunkelheit, damit wir zum ewigen Leben finden in deinem Licht.^ORS"
+        },
+        "Terz": {
+          "oration": "Herr Jesus Christus, um die dritte Stunde wurdest du zur Kreuzigung geführt für das Heil der Welt. Wir bitten dich, vergib, was wir Böses getan haben und bewahre uns vor neuer Schuld.^ORS"
         }
       },
       "6": {
@@ -7449,6 +7503,15 @@ export const brevierData = {
         },
         "Lesehore": {
           "hymn_nacht": 3112.0
+        },
+        "Non": {
+          "oration": "Herr, unser Gott, höre auf die Fürsprache der seligen Jungfrau Maria und erfülle unsere Sehnsucht nach Frieden, damit wir alle Tage unseres Lebens frei sind für den Dienst vor deinem Angesicht und ohne Gefährdung zu dir gelangen. Darum bitten wir durch Christus, unseren Herrn."
+        },
+        "Sext": {
+          "oration": "Herr, du Feuer ewiger Liebe, entzünde unser Herz mit deiner Glut, damit wir dich über alles lieben und aus Liebe zu dir auch unsere Brüder. Darum bitten wir durch Christus, unseren Herrn."
+        },
+        "Terz": {
+          "oration": "Gott, allmächtiger Vater, du unser Herr, wir neigen uns vor dir. Sende uns das Licht des Heiligen Geistes, damit wir sicher sind vor jedem Feind und in der Freude des Herzens dir unser Lob weihen, heute und alle Tage. Darum bitten wir durch Christus, unseren Herrn."
         }
       }
     },
@@ -10482,16 +10545,14 @@ export const brevierData = {
           "les_stelle": "6,9–10",
           "les_text": "Lasst uns nicht müde werden, das Gute zu tun; denn wenn wir darin nicht nachlassen, werden wir ernten, sobald die Zeit dafür gekommen ist. Deshalb wollen wir, solange wir noch Zeit haben, allen Menschen Gutes tun, besonders aber denen, die mit uns im Glauben verbunden sind.",
           "resp1_0": "Erhöre mich, Herr, ich rufe zu dir.",
-          "resp1_1": "Deine Gesetze will ich befolgen.",
-          "oration": "0"
+          "resp1_1": "Deine Gesetze will ich befolgen."
         },
         "Sext": {
           "les_buch": "Gal",
           "les_stelle": "6,7b–8",
           "les_text": "Was der Mensch sät, das wird er auch ernten. Wer im Vertrauen auf das Fleisch sät, wird vom Fleisch Verderben ernten; wer aber im Vertrauen auf den Geist sät, wird vom Geist ewiges Leben ernten.",
           "resp1_0": "Herr, dein Wort bleibt auf ewig.",
-          "resp1_1": "Deine Treue währt von Geschlecht zu Geschlecht.",
-          "oration": "0"
+          "resp1_1": "Deine Treue währt von Geschlecht zu Geschlecht."
         },
         "Terz": {
           "ps_1": 118.1,
@@ -10504,8 +10565,7 @@ export const brevierData = {
           "les_stelle": "4,16",
           "les_text": "Wir haben die Liebe, die Gott zu uns hat, erkannt und gläubig angenommen. Gott ist die Liebe, und wer in der Liebe bleibt, bleibt in Gott und Gott bleibt in ihm.",
           "resp1_0": "Zu deinen Vorschriften neige mein Herz.",
-          "resp1_1": "Belebe mich durch dein Wort.",
-          "oration": "0"
+          "resp1_1": "Belebe mich durch dein Wort."
         },
         "Vesper": {
           "hymn_1": 2410.0,
@@ -10564,16 +10624,14 @@ export const brevierData = {
           "les_buch": "1°Petr",
           "les_stelle": "1,17b–19",
           "les_text": "Führt, solange ihr in der Fremde seid, ein Leben in Gottesfurcht! Ihr wisst, dass ihr aus eurer sinnlosen, von den Vätern ererbten Lebensweise nicht um einen vergänglichen Preis losgekauft wurdet, nicht um Silber oder Gold, sondern mit dem kostbaren Blut Christi, des Lammes ohne Fehl und Makel.",
-          "resp1_0": "Erlöse mich, Herr, und sei mir gnädig.",
-          "oration": "Gott, unser Herr, zur neunten Stunde, als Petrus und Johannes zum Tempel hinaufgingen, um zu beten, bitten auch wir dich im Namen Jesu: Schenke allen, die diesen Namen anrufen, dein Heil. Durch ihn, Christus, unseren Herrn."
+          "resp1_0": "Erlöse mich, Herr, und sei mir gnädig."
         },
         "Sext": {
           "les_buch": "Jak",
           "les_stelle": "1,19b–20.26",
           "les_text": "Jeder Mensch soll schnell bereit sein zu hören, aber zurückhaltend im Reden und nicht schnell zum Zorn bereit; denn im Zorn tut der Mensch nicht das, was vor Gott recht ist. Wer meint, er diene Gott, aber seine Zunge nicht im Zaum hält, der betrügt sich selbst und sein Gottesdienst ist wertlos.",
           "resp1_0": "Allezeit will ich den Herrn lobpreisen.",
-          "resp1_1": "Sein Lob sei stets in meinem Munde.",
-          "oration": "Gott, du bist Herr und Hüter von Weinberg und Ernte; du teilst die Arbeit zu und gibst gerechten Lohn. Verleihe uns die Kraft, deine Fügung anzunehmen und die Last des Tages ohne Murren zu tragen. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Sein Lob sei stets in meinem Munde."
         },
         "Terz": {
           "ps_1": 19.2,
@@ -10586,8 +10644,7 @@ export const brevierData = {
           "les_stelle": "13,8.10",
           "les_text": "Bleibt niemand etwas schuldig; nur die Liebe schuldet ihr einander immer. Wer den andern liebt, hat das Gesetz erfüllt. Die Liebe tut dem Nächsten nichts Böses. Also ist die Liebe die Erfüllung des Gesetzes.",
           "resp1_0": "Verstoß mich nicht, o°Herr, sei du mein Helfer.",
-          "resp1_1": "Verlass mich nicht, du Gott meines Heiles.",
-          "oration": "Gütiger Gott und Vater, du hast die Menschen zu gemeinsamer Arbeit berufen, damit sie einander ergänzen und jeder die Fähigkeit entfaltet, die du ihm gegeben hast, zum Wohle aller. Gib, dass wir unser Werk als deine Kinder verrichten, beseelt von deinem Geist und von der Liebe zu allen Menschen. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Verlass mich nicht, du Gott meines Heiles."
         },
         "Vesper": {
           "hymn_1": 2411.0,
@@ -10647,16 +10704,14 @@ export const brevierData = {
           "les_stelle": "5,17–18",
           "les_text": "Wohl dem Mann, den Gott zurechtweist! Die Zucht des Allmächtigen verschmähe nicht! Denn er verwundet und er verbindet, er schlägt, doch seine Hände heilen auch.",
           "resp1_0": "Handle an deinem Knecht nach deiner Huld.",
-          "resp1_1": "Lehre mich deine Gesetze.",
-          "oration": "Gott, um die neunte Stunde hast du dem Hauptmann Kornelius deinen Engel geschickt, dass er ihm den Weg des Heiles weise. Mach uns bereit, in der Gemeinschaft der Kirche mitzuwirken an der Rettung der Menschen. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Lehre mich deine Gesetze."
         },
         "Sext": {
           "les_buch": "Spr",
           "les_stelle": "3,13–15",
           "les_text": "Glücklich der Mann, der Weisheit gefunden, der Mann, der Einsicht gewonnen hat. Denn sie zu erwerben ist besser als Silber, sie zu gewinnen ist besser als Gold. Sie übertrifft die Perlen an Wert, keine kostbaren Steine kommen ihr gleich.",
           "resp1_0": "Ein lauteres Herz gefällt dir, o°Herr.",
-          "resp1_1": "In der Stille lehrst du mich Weisheit.",
-          "oration": "Gütiger Gott, als Petrus um die sechste Stunde betete, hast du ihn belehrt, dass das Heil allen Völkern zuteil werden soll. Bewirke durch deine Gnade, dass unser Tagewerk dir gefällt und dem Heilsplan deiner Liebe dient. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "In der Stille lehrst du mich Weisheit."
         },
         "Terz": {
           "ps_1": 119.001,
@@ -10669,8 +10724,7 @@ export const brevierData = {
           "les_stelle": "17,7–8",
           "les_text": "Gesegnet der Mann, der auf den Herrn sich verlässt und dessen Hoffnung der Herr ist. Er ist wie ein Baum, der am Wasser gepflanzt ist und am Bach seine Wurzeln ausstreckt: Er hat nichts zu fürchten, wenn Hitze kommt; seine Blätter bleiben grün; auch in einem trockenen Jahr ist er ohne Sorge, unablässig bringt er seine Früchte.",
           "resp1_0": "Den Redlichen versagt der Herr kein Gut.",
-          "resp1_1": "Herr der Heerscharen, wohl dem, der dir vertraut.",
-          "oration": "Allmächtiger, ewiger Gott. Um die dritte Stunde hast du deinen Heiligen Geist über die Apostel ausgegossen. Sende den Geist der Liebe auch in unser Herz, damit wir in Treue für dich Zeugnis geben vor den Menschen. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Herr der Heerscharen, wohl dem, der dir vertraut."
         },
         "Vesper": {
           "hymn_1": 2412.0,
@@ -10730,16 +10784,14 @@ export const brevierData = {
           "les_stelle": "4,7–8a.10",
           "les_text": "Ordnet euch Gott unter, leistet dem Teufel Widerstand; dann wird er vor euch fliehen. Sucht die Nähe Gottes; dann wird er sich euch nähern. Demütigt euch vor dem Herrn; dann wird er euch erhöhen.",
           "resp1_0": "Das Auge des Herrn ruht auf allen, die ihn fürchten.",
-          "resp1_1": "Die Ausschau halten nach seine Güte.",
-          "oration": "Herr Jesus Christus, am Kreuz hast du die Arme ausgebreitet, um alle Menschen zu retten. Lass unsere Werke dir gefallen und sichtbar machen, dass du die Welt erlöst hast.^ORS"
+          "resp1_1": "Die Ausschau halten nach seine Güte."
         },
         "Sext": {
           "les_buch": "1°Petr",
           "les_stelle": "1,15–16",
           "les_text": "Wie er, der euch berufen hat, heilig ist, so soll auch euer ganzes Leben heilig werden. Denn es heißt in der Schrift: Seid heilig, denn ich bin heilig.",
           "resp1_0": "Deine Priester sollen sich bekleiden mit Gerechtigkeit.",
-          "resp1_1": "Deine Frommen sollen jauchzen und jubeln.",
-          "oration": "Allmächtiger, gütiger Gott, in der Mitte des Tages lässt du uns innehalten und zur Ruhe kommen. Schau gnädig auf unsere Arbeit. Mache gut, was wir falsch gemacht haben und gib, dass am Abend unser ganzes Tagewerk dir gefallen kann. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Deine Frommen sollen jauchzen und jubeln."
         },
         "Terz": {
           "ps_1": 119.009,
@@ -10752,8 +10804,7 @@ export const brevierData = {
           "les_stelle": "1,13–14",
           "les_text": "Umgürtet euch und macht euch bereit! Seid nüchtern und setzt eure Hoffnung ganz auf die Gnade, die euch bei der Offenbarung Jesu Christi geschenkt wird! Seid gehorsame Kinder und lasst euch nicht mehr von euren Begierden treiben wie früher, in der Zeit eurer Unwissenheit!",
           "resp1_0": "Zeige mir, Herr, deine Wege.",
-          "resp1_1": "Lehre mich deine Pfade.",
-          "oration": "Herr, heiliger Vater, Gott, auf dessen Treue wir bauen, du hast den verheißenen Geist gesandt, um die Menschen zusammenzuführen, die durch die Sünde getrennt sind. Gib, dass wir die Einheit und den Frieden als deinen Auftrag erkennen und nach Kräften fördern. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Lehre mich deine Pfade."
         },
         "Vesper": {
           "hymn_1": 2413.0,
@@ -10813,16 +10864,14 @@ export const brevierData = {
           "les_stelle": "9,6",
           "les_text": "Er erbaut seine Hallen im Himmel und gründet sein Gewölbe auf die Erde; er ruft das Wasser des Meeres und gießt es aus über die Erde – Jahwe ist sein Name.",
           "resp1_0": "Die Himmel rühmen Gottes Herrlichkeit.",
-          "resp1_1": "Vom Werk seiner Hände kündet das Firmament.",
-          "oration": "Herr, gib uns die Kraft, dem Leidensmut deines eingeborenen Sohnes zu folgen und die Widrigkeiten des Lebens in Geduld zu ertragen. Darum bitten wir durch ihn, Christus, unseren Herrn."
+          "resp1_1": "Vom Werk seiner Hände kündet das Firmament."
         },
         "Sext": {
           "les_buch": "Am",
           "les_stelle": "5,8",
           "les_text": "Er hat das Siebengestirn und den Orion erschaffen; er verwandelt die Finsternis in den hellen Morgen, er verdunkelt den Tag zur Nacht, er ruft das Wasser des Meeres und gießt es aus über die Erde – Jahwe ist sein Name.",
           "resp1_0": "Hoheit und Pracht sind vor seinem Angesicht.",
-          "resp1_1": "Macht und Glanz erfüllen sein Heiligtum.",
-          "oration": "Allmächtiger, ewiger Gott, bei dir gibt es keine Finsternis, denn du wohnst im Licht. Sende einen Strahl deines Lichtes in unser Herz, damit wir den Sinn deiner Gebote erkennen und bereitwillig deine Wege gehen. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Macht und Glanz erfüllen sein Heiligtum."
         },
         "Terz": {
           "ps_1": 119.017,
@@ -10835,8 +10884,7 @@ export const brevierData = {
           "les_stelle": "4,13",
           "les_text": "Siehe, er formt die Berge, er erschafft den Wind, er verkündet den Menschen, was er im Sinn hat, er macht das Morgenrot und die Finsternis, er schreitet über die Höhen der Erde dahin – Jahwe, Gott der Heere, ist sein Name.",
           "resp1_0": "Preiset den Herrn, all ihr Werke des Herrn.",
-          "resp1_1": "Lobt und erhebt ihn in Ewigkeit.",
-          "oration": "Herr und Gott, als die Apostel um die dritte Stunde zum Gebet versammelt waren, hast du ihnen den Heiligen Geist geschenkt. Mache auch uns zu einer Wohnstatt deines Geistes. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Lobt und erhebt ihn in Ewigkeit."
         },
         "Vesper": {
           "hymn_1": 2414.0,
@@ -10896,16 +10944,14 @@ export const brevierData = {
           "les_stelle": "3,12–13",
           "les_text": "Ihr seid von Gott geliebt, seid seine auserwählten Heiligen; darum bekleidet euch mit aufrichtigem Erbarmen, mit Güte, Demut, Milde, Geduld! Ertragt euch gegenseitig und vergebt einander, wenn einer dem andern etwas vorzuwerfen hat! Wie der Herr euch vergeben hat, so vergebt auch ihr!",
           "resp1_0": "Barmherzig und gnädig ist der Herr.",
-          "resp1_1": "Langmütig und reich an Güte.",
-          "oration": "Herr Jesus Christus, um die neunte Stunde hast du dem reumütigen Schächer vom Marterpfahl des Kreuzes aus dein Reich versprochen. Wir bekennen dir, dass wir Sünder sind und bitten dich voll Vertrauen: Lass auch uns nach dem Tod bei dir im Paradiese sein.^ORS"
+          "resp1_1": "Langmütig und reich an Güte."
         },
         "Sext": {
           "les_buch": "2°Kor",
           "les_stelle": "13,4",
           "les_text": "Zwar wurde Christus in seiner Schwachheit gekreuzigt, aber er lebt aus Gottes Kraft. Auch wir sind schwach in ihm, aber wir werden zusammen mit ihm vor euren Augen aus Gottes Kraft leben.",
           "resp1_0": "Am Boden klebt meine Seele.",
-          "resp1_1": "Belebe mich, Herr, durch dein Wort.",
-          "oration": "Herr, Jesus Christus, um die sechste Stunde kam Finsternis über die ganze Welt, als du unschuldig das Kreuz bestiegst, um uns von unserer Schuld zu erlösen. Erleuchte unsere Dunkelheit, damit wir zum ewigen Leben finden in deinem Licht.^ORS"
+          "resp1_1": "Belebe mich, Herr, durch dein Wort."
         },
         "Terz": {
           "ps_1": 119.025,
@@ -10918,8 +10964,7 @@ export const brevierData = {
           "les_stelle": "2,2b–4",
           "les_text": "Seid eines Sinnes, einander in Liebe verbunden, einmütig und einträchtig! Tut nichts aus Ehrgeiz und nichts aus Prahlerei, sondern in Demut schätze einer den andern höher ein als sich selbst. Jeder achte nicht nur auf das eigene Wohl, sondern auch auf das der anderen.",
           "resp1_0": "Alle Pfade des Herrn sind Huld und Treue.",
-          "resp1_1": "Für alle, die seine Gebote bewahren und seinen Bund.",
-          "oration": "Herr Jesus Christus, um die dritte Stunde wurdest du zur Kreuzigung geführt für das Heil der Welt. Wir bitten dich, vergib, was wir Böses getan haben und bewahre uns vor neuer Schuld.^ORS"
+          "resp1_1": "Für alle, die seine Gebote bewahren und seinen Bund."
         },
         "Vesper": {
           "hymn_1": 2415.0,
@@ -10979,16 +11024,14 @@ export const brevierData = {
           "les_stelle": "7,27a; 8,1",
           "les_text": "Die Weisheit ist nur eine und vermag doch alles; ohne sich zu ändern, erneuert sie alles. Machtvoll entfaltet sie ihre Kraft von einem Ende zum andern und durchwaltet voll Güte das All.",
           "resp1_0": "Wie groß sind deine Werke, o°Herr.",
-          "resp1_1": "Wie tief sind deine Gedanken.",
-          "oration": "Herr, unser Gott, höre auf die Fürsprache der seligen Jungfrau Maria und erfülle unsere Sehnsucht nach Frieden, damit wir alle Tage unseres Lebens frei sind für den Dienst vor deinem Angesicht und ohne Gefährdung zu dir gelangen. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Wie tief sind deine Gedanken."
         },
         "Sext": {
           "les_buch": "Jer",
           "les_stelle": "17,9–10",
           "les_text": "Arglistig ohnegleichen ist das Herz und unverbesserlich. Wer kann es ergründen? Ich, der Herr, erforsche das Herz und prüfe die Nieren, um jedem zu vergelten, wie es sein Verhalten verdient.",
           "resp1_0": "Reinige mich von verborgener Schuld.",
-          "resp1_1": "Behüte deinen Knecht vor vermessenen Menschen.",
-          "oration": "Herr, du Feuer ewiger Liebe, entzünde unser Herz mit deiner Glut, damit wir dich über alles lieben und aus Liebe zu dir auch unsere Brüder. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Behüte deinen Knecht vor vermessenen Menschen."
         },
         "Terz": {
           "ps_1": 119.033,
@@ -11001,8 +11044,7 @@ export const brevierData = {
           "les_stelle": "8,60–61",
           "les_text": "Alle Völker der Erde sollen erkennen, dass niemand Gott ist als der Herr allein. Euer Herz aber bleibe ungeteilt beim Herrn, unserem Gott, sodass ihr seinen Gesetzen folgt und auf seine Gebote beachtet.",
           "resp1_0": "Lehre mich, Herr, deine Pfade.",
-          "resp1_1": "Führe mich in deiner Treue.",
-          "oration": "Gott, allmächtiger Vater, du unser Herr, wir neigen uns vor dir. Sende uns das Licht des Heiligen Geistes, damit wir sicher sind vor jedem Feind und in der Freude des Herzens dir unser Lob weihen, heute und alle Tage. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Führe mich in deiner Treue."
         }
       }
     },
@@ -11064,16 +11106,14 @@ export const brevierData = {
           "les_stelle": "1,21–22",
           "les_text": "Gott, der uns und euch in der Treue zu Christus festigt und der uns alle gesalbt hat, er ist es auch, der uns sein Siegel aufgedrückt und als ersten Anteil (am verheißenen Heil) den Geist in unser Herz gegeben hat.",
           "resp1_0": "Der Herr ist mein Licht und mein Heil.",
-          "resp1_1": "Er ist die Kraft meines Lebens.",
-          "oration": "0"
+          "resp1_1": "Er ist die Kraft meines Lebens."
         },
         "Sext": {
           "les_buch": "Röm",
           "les_stelle": "8,26",
           "les_text": "Der Geist nimmt sich unserer Schwachheit an. Denn wir wissen nicht, worum wir in rechter Weise beten sollen; der Geist selber tritt jedoch für uns ein mit Seufzen, das wir nicht in Worte fassen können.",
           "resp1_0": "Herr, mein Rufen dringe zu dir.",
-          "resp1_1": "Gib mir Einsicht nach deinem Wort.",
-          "oration": "0"
+          "resp1_1": "Gib mir Einsicht nach deinem Wort."
         },
         "Terz": {
           "ps_1": 23.0,
@@ -11086,8 +11126,7 @@ export const brevierData = {
           "les_stelle": "5,1–2.5",
           "les_text": "Gerecht gemacht aus Glauben, haben wir Frieden mit Gott durch Jesus Christus, unseren Herrn. Durch ihn haben wir auch den Zugang zu der Gnade erhalten, in der wir stehen, und rühmen uns unserer Hoffnung auf die Herrlichkeit Gottes. Die Hoffnung aber lässt nicht zugrunde gehen; denn die Liebe Gottes ist ausgegossen in unsere Herzen durch den Heiligen Geist, der uns gegeben ist.",
           "resp1_0": "Von den Taten deiner Huld will ich ewig singen.",
-          "resp1_1": "Bis zum fernsten Geschlecht deine Treue verkünden.",
-          "oration": "0"
+          "resp1_1": "Bis zum fernsten Geschlecht deine Treue verkünden."
         },
         "Vesper": {
           "hymn_1": 2420.0,
@@ -11148,16 +11187,14 @@ export const brevierData = {
           "les_stelle": "34,31",
           "les_text": "Ihr seid meine Schafe, ihr seid die Herde meiner Weide. Ich bin euer Gott – Spruch Gottes, des Herrn.",
           "resp1_0": "Der Herr ist mein Hirte, nichts wird mir fehlen.",
-          "resp1_1": "Er lässt mich lagern auf grünen Auen.",
-          "oration": "Gott, unser Herr, zur neunten Stunde, als Petrus und Johannes zum Tempel hinaufgingen, um zu beten, bitten auch wir dich im Namen Jesu: Schenke allen, die diesen Namen anrufen, dein Heil. Durch ihn, Christus, unseren Herrn."
+          "resp1_1": "Er lässt mich lagern auf grünen Auen."
         },
         "Sext": {
           "les_buch": "Jer",
           "les_stelle": "32,4",
           "les_text": "Ich schließe mit ihnen einen ewigen Bund, dass ich mich nicht von ihnen abwenden will, sondern ihnen Gutes erweise. Ich lege ihnen die Furcht vor mir ins Herz, damit sie nicht von mir weichen.",
           "resp1_0": "Bei Gott ist mein Heil und meine Ehre.",
-          "resp1_1": "Er ist meine Zuflucht.",
-          "oration": "Gott, du bist Herr und Hüter von Weinberg und Ernte; du teilst die Arbeit zu und gibst gerechten Lohn. Verleihe uns die Kraft, deine Fügung anzunehmen und die Last des Tages ohne Murren zu tragen. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Er ist meine Zuflucht."
         },
         "Terz": {
           "ps_1": 119.041,
@@ -11170,8 +11207,7 @@ export const brevierData = {
           "les_stelle": "31,33",
           "les_text": "Das wird der Bund sein, den ich nach diesen Tagen mit dem Haus Israel schließe – Spruch des Herrn: Ich lege mein Gesetz in sie hinein und schreibe es auf ihr Herz. Ich werde ihr Gott sein, und sie werden mein Volk sein.",
           "resp1_0": "Ein reines Herz erschaffe mir, o°Gott.",
-          "resp1_1": "Verwirf mich nicht vor deinem Angesicht.",
-          "oration": "Gütiger Gott und Vater, du hast die Menschen zu gemeinsamer Arbeit berufen, damit sie einander ergänzen und jeder die Fähigkeit entfaltet, die du ihm gegeben hast, zum Wohle aller. Gib, dass wir unser Werk als deine Kinder verrichten, beseelt von deinem Geist und von der Liebe zu allen Menschen. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Verwirf mich nicht vor deinem Angesicht."
         },
         "Vesper": {
           "hymn_1": 2421.0,
@@ -11232,16 +11268,14 @@ export const brevierData = {
           "les_stelle": "12,24–26",
           "les_text": "Gott hat den Leib so zusammengefügt, dass in ihm kein Zwiespalt entsteht, sondern alle Glieder einträchtig füreinander sorgen. Wenn darum ein Glied leidet, leiden alle Glieder mit; wenn ein Glied geehrt wird, freuen sich alle anderen mit ihm. Ihr aber seid der Leib Christi und jeder einzelne ist ein Glied an ihm.",
           "resp1_0": "Herr, unser Gott, führe uns zusammen aus den Völkern.",
-          "resp1_1": "Damit wir deinen heiligen Namen preisen.",
-          "oration": "Gott, um die neunte Stunde hast du dem Hauptmann Kornelius deinen Engel geschickt, dass er ihm den Weg des Heiles weise. Mach uns bereit, in der Gemeinschaft der Kirche mitzuwirken an der Rettung der Menschen. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Damit wir deinen heiligen Namen preisen."
         },
         "Sext": {
           "les_buch": "1°Kor",
           "les_stelle": "12,12–13",
           "les_text": "Wie der Leib eine Einheit ist, doch viele Glieder hat, alle Glieder des Leibes aber, obgleich es viele sind, einen einzigen Leib bilden: So ist es auch mit Christus. Durch den einen Geist wurden wir in der Taufe alle in einen einzigen Leib aufgenommen, Juden und Griechen, Sklaven und Freie; und alle wurden wir mit dem einen Geist getränkt.",
           "resp1_0": "Heiliger Vater, bewahre uns in deinem Namen.",
-          "resp1_1": "Damit wir eins sind in dir.",
-          "oration": "Gütiger Gott, als Petrus um die sechste Stunde betete, hast du ihn belehrt, dass das Heil allen Völkern zuteil werden soll. Bewirke durch deine Gnade, dass unser Tagewerk dir gefällt und dem Heilsplan deiner Liebe dient. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Damit wir eins sind in dir."
         },
         "Terz": {
           "ps_1": 119.049,
@@ -11254,8 +11288,7 @@ export const brevierData = {
           "les_stelle": "12,4–6",
           "les_text": "Es gibt verschiedene Gnadengaben, aber nur den einen Geist. Es gibt verschiedene Dienste, aber nur den einen Herrn. Es gibt verschiedene Kräfte, die wirken, aber nur den einen Gott: Er wirkt alles in allen.",
           "resp1_0": "Sein Heil ist denen nahe, die ihn fürchten.",
-          "resp1_1": "Seine Herrlichkeit wohne in unserem Lande.",
-          "oration": "Allmächtiger, ewiger Gott. Um die dritte Stunde hast du deinen Heiligen Geist über die Apostel ausgegossen. Sende den Geist der Liebe auch in unser Herz, damit wir in Treue für dich Zeugnis geben vor den Menschen. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Seine Herrlichkeit wohne in unserem Lande."
         },
         "Vesper": {
           "hymn_1": 2422.0,
@@ -11316,16 +11349,14 @@ export const brevierData = {
           "les_stelle": "16,7b",
           "les_text": "Gott sieht nicht auf das, worauf der Mensch sieht. Der Mensch sieht, was vor den Augen ist, der Herr aber sieht das Herz.",
           "resp1_0": "Erforsche mich, Gott, und erkenne mein Herz.",
-          "resp1_1": "Leite mich auf dem Weg zum Leben.",
-          "oration": "Herr Jesus Christus, am Kreuz hast du die Arme ausgebreitet, um alle Menschen zu retten. Lass unsere Werke dir gefallen und sichtbar machen, dass du die Welt erlöst hast.^ORS"
+          "resp1_1": "Leite mich auf dem Weg zum Leben."
         },
         "Sext": {
           "les_buch": "Jes",
           "les_stelle": "55,8–9",
           "les_text": "Meine Gedanken sind nicht eure Gedanken und eure Wege sind nicht meine Wege – Spruch des Herrn. So hoch der Himmel über der Erde ist, so hoch erhaben sind meine Wege über eure Wege und meine Gedanken über eure Gedanken.",
           "resp1_0": "Herr der Scharen, wer ist wie du?",
-          "resp1_1": "Mächtig bist du, von Treue umgeben.",
-          "oration": "Allmächtiger, gütiger Gott, in der Mitte des Tages lässt du uns innehalten und zur Ruhe kommen. Schau gnädig auf unsere Arbeit. Mache gut, was wir falsch gemacht haben und gib, dass am Abend unser ganzes Tagewerk dir gefallen kann. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Mächtig bist du, von Treue umgeben."
         },
         "Terz": {
           "ps_1": 119.057,
@@ -11338,8 +11369,7 @@ export const brevierData = {
           "les_stelle": "1,16–17a",
           "les_text": "Ich habe eure Richter verpflichtet: Lasst jeden Streit zwischen euren Brüdern vor euch kommen. Entscheidet gerecht, es sei der Streit eines Mannes mit einem Bruder oder mit einem Fremden. Kennt vor Gericht kein Ansehen der Person! Klein wie Groß hört an! Fürchtet euch nicht vor angesehenen Leuten, denn das Gericht hat mit Gott zu tun.",
           "resp1_0": "Der Herr ist gerecht, er liebt gerechtes Handeln.",
-          "resp1_1": "Wer rechtschaffen ist, darf sein Angesicht schauen.",
-          "oration": "Herr, heiliger Vater, Gott, auf dessen Treue wir bauen, du hast den verheißenen Geist gesandt, um die Menschen zusammenzuführen, die durch die Sünde getrennt sind. Gib, dass wir die Einheit und den Frieden als deinen Auftrag erkennen und nach Kräften fördern. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Wer rechtschaffen ist, darf sein Angesicht schauen."
         },
         "Vesper": {
           "hymn_1": 2423.0,
@@ -11400,16 +11430,14 @@ export const brevierData = {
           "les_stelle": "5,22–23a.25",
           "les_text": "Die Frucht des Geistes ist Liebe, Freude, Friede, Langmut, Freundlichkeit, Güte, Treue, Sanftmut und Selbstbeherrschung. Wenn wir aus dem Geist leben, dann wollen wir dem Geist auch folgen.",
           "resp1_0": "Herr, zeige mir den Weg, den ich gehen soll.",
-          "resp1_1": "Dein guter Geist geleite mich auf ebenem Pfad.",
-          "oration": "Herr, gib uns die Kraft, dem Leidensmut deines eingeborenen Sohnes zu folgen und die Widrigkeiten des Lebens in Geduld zu ertragen. Darum bitten wir durch ihn, Christus, unseren Herrn."
+          "resp1_1": "Dein guter Geist geleite mich auf ebenem Pfad."
         },
         "Sext": {
           "les_buch": "Gal",
           "les_stelle": "5,16–17",
           "les_text": "Lasst euch vom Geist leiten, dann werdet ihr das Begehren des Fleisches nicht erfüllen. Denn das Begehren des Fleisches richtet sich gegen den Geist, das Begehren des Geistes aber gegen das Fleisch; beide stehen sich als Feinde gegenüber, sodass ihr nicht imstande seid, das zu tun, was ihr wollt.",
           "resp1_0": "Herr, du bist gut, du schenkst uns das Gute.",
-          "resp1_1": "Lehre uns deine Gesetze.",
-          "oration": "Allmächtiger, ewiger Gott, bei dir gibt es keine Finsternis, denn du wohnst im Licht. Sende einen Strahl deines Lichtes in unser Herz, damit wir den Sinn deiner Gebote erkennen und bereitwillig deine Wege gehen. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Lehre uns deine Gesetze."
         },
         "Terz": {
           "ps_1": 119.065,
@@ -11422,8 +11450,7 @@ export const brevierData = {
           "les_stelle": "5,13–14",
           "les_text": "Ihr seid zur Freiheit berufen, Brüder. Nur nehmt die Freiheit nicht zum Vorwand für das Fleisch, sondern dient einander in Liebe! Denn das ganze Gesetz ist in dem einen Wort zusammengefasst: Du sollst deinen Nächsten lieben wie dich selbst!",
           "resp1_0": "Ich eile voran auf dem Weg deiner Gebote.",
-          "resp1_1": "Denn mein Herz machst du mir weit.",
-          "oration": "Herr und Gott, als die Apostel um die dritte Stunde zum Gebet versammelt waren, hast du ihnen den Heiligen Geist geschenkt. Mache auch uns zu einer Wohnstatt deines Geistes. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Denn mein Herz machst du mir weit."
         },
         "Vesper": {
           "hymn_1": 2424.0,
@@ -11484,16 +11511,14 @@ export const brevierData = {
           "les_stelle": "1,13–14",
           "les_text": "Gott hat den Tod nicht gemacht und hat keine Freude am Untergang der Lebenden. Zum Dasein hat er alles geschaffen und heilbringend sind die Geschöpfe der Welt. Kein Gift des Verderbens ist in ihnen, das Reich des Todes hat keine Macht auf der Erde; denn die Gerechtigkeit ist unsterblich.",
           "resp1_0": "Der Herr entriss mein Leben dem Tod.",
-          "resp1_1": "Ich gehe meinen Weg vor ihm im Lande der Lebenden.",
-          "oration": "Herr Jesus Christus, um die neunte Stunde hast du dem reumütigen Schächer vom Marterpfahl des Kreuzes aus dein Reich versprochen. Wir bekennen dir, dass wir Sünder sind und bitten dich voll Vertrauen: Lass auch uns nach dem Tod bei dir im Paradiese sein.^ORS"
+          "resp1_1": "Ich gehe meinen Weg vor ihm im Lande der Lebenden."
         },
         "Sext": {
           "les_buch": "Bar",
           "les_stelle": "4,28–29",
           "les_text": "Wie euer Sinn auf den Abfall von Gott gerichtet war, so zeigt nun zehnfachen Eifer, umzukehren und ihn zu suchen. Er, der über euch das Unheil gebracht hat, wird mit eurer Rettung euch ewige Freude bringen.",
           "resp1_0": "Beim Herrn ist die Huld.",
-          "resp1_1": "Bei ihm ist Erlösung in Fülle.",
-          "oration": "Herr, Jesus Christus, um die sechste Stunde kam Finsternis über die ganze Welt, als du unschuldig das Kreuz bestiegst, um uns von unserer Schuld zu erlösen. Erleuchte unsere Dunkelheit, damit wir zum ewigen Leben finden in deinem Licht.^ORS"
+          "resp1_1": "Bei ihm ist Erlösung in Fülle."
         },
         "Terz": {
           "ps_1": 119.073,
@@ -11506,8 +11531,7 @@ export const brevierData = {
           "les_stelle": "1,31b",
           "les_text": "Der Herr, dein Gott, hat dich auf dem ganzen Weg, den ihr gewandert seid, getragen, wie ein Vater seinen Sohn trägt.",
           "resp1_0": "Nimm mich auf, o°Herr, nach deiner Verheißung, und ich werde leben.",
-          "resp1_1": "Lass mich nicht scheitern in meiner Hoffnung.",
-          "oration": "Herr Jesus Christus, um die dritte Stunde wurdest du zur Kreuzigung geführt für das Heil der Welt. Wir bitten dich, vergib, was wir Böses getan haben und bewahre uns vor neuer Schuld.^ORS"
+          "resp1_1": "Lass mich nicht scheitern in meiner Hoffnung."
         },
         "Vesper": {
           "hymn_1": 2425.0,
@@ -11568,16 +11592,14 @@ export const brevierData = {
           "les_stelle": "6,16",
           "les_text": "Stellt euch an die Wege und haltet Ausschau, fragt nach den Pfaden der Vorzeit, fragt, wo der Weg zum Guten liegt; geht auf ihm, so werdet ihr Ruhe finden für eure Seele!",
           "resp1_0": "Deine Vorschriften sind mein Erbteil auf ewig.",
-          "resp1_1": "Sie erfreuen mein Herz.",
-          "oration": "Herr, unser Gott, höre auf die Fürsprache der seligen Jungfrau Maria und erfülle unsere Sehnsucht nach Frieden, damit wir alle Tage unseres Lebens frei sind für den Dienst vor deinem Angesicht und ohne Gefährdung zu dir gelangen. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Sie erfreuen mein Herz."
         },
         "Sext": {
           "les_buch": "1°Kön",
           "les_stelle": "2,2b–3",
           "les_text": "Sei stark und mannhaft! Erfülle deine Pflicht gegen den Herrn, deinen Gott: Geh auf seinen Wegen und befolge alle Gebote, Befehle, Satzungen und Anordnungen, die im Gesetz des Mose niedergeschrieben sind. Dann wirst du Erfolg haben bei allem, was du tust, und in allem, was du unternimmst.",
           "resp1_0": "Herr, führe mich auf dem Pfade deiner Gebote.",
-          "resp1_1": "An ihm habe ich Gefallen.",
-          "oration": "Herr, du Feuer ewiger Liebe, entzünde unser Herz mit deiner Glut, damit wir dich über alles lieben und aus Liebe zu dir auch unsere Brüder. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "An ihm habe ich Gefallen."
         },
         "Terz": {
           "ps_1": 119.081,
@@ -11590,8 +11612,7 @@ export const brevierData = {
           "les_stelle": "8,5b–6",
           "les_text": "Der Herr, dein Gott, erzieht dich, wie ein Vater seinen Sohn erzieht. Du sollst auf die Gebote des Herrn, deines Gottes, achten, auf seinen Wegen gehen und ihn fürchten.",
           "resp1_0": "Die Furcht des Herrn ist rein, sie besteht für immer.",
-          "resp1_1": "Die Entscheide des Herrn sind wahr, gerecht sind sie alle.",
-          "oration": "Gott, allmächtiger Vater, du unser Herr, wir neigen uns vor dir. Sende uns das Licht des Heiligen Geistes, damit wir sicher sind vor jedem Feind und in der Freude des Herzens dir unser Lob weihen, heute und alle Tage. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Die Entscheide des Herrn sind wahr, gerecht sind sie alle."
         }
       }
     },
@@ -11655,16 +11676,14 @@ export const brevierData = {
           "les_stelle": "1,9",
           "les_text": "Gott hat uns gerettet; mit einem heiligen Ruf hat er uns gerufen, nicht aufgrund unserer Werke, sondern aus eigenem Entschluss und aus Gnade, die uns schon vor ewigen Zeiten in Christus Jesus geschenkt wurde.",
           "resp1_0": "Der Herr führte sie sicher, sie fürchteten nichts.",
-          "resp1_1": "Er brachte sie in sein heiliges Land.",
-          "oration": "0"
+          "resp1_1": "Er brachte sie in sein heiliges Land."
         },
         "Sext": {
           "les_buch": "Röm",
           "les_stelle": "8,22–23",
           "les_text": "Wir wissen, dass die gesamte Schöpfung bis zum heutigen Tag seufzt und in Geburtswehen liegt. Aber auch wir, obwohl wir als Erstlingsgabe den Geist haben, seufzen in unserem Herzen und warten darauf, dass wir mit der Erlösung unseres Leibes als Söhne offenbar werden.",
           "resp1_0": "Lobe den Herrn, meine Seele.",
-          "resp1_1": "Er rettet dein Leben vor dem Untergang.",
-          "oration": "0"
+          "resp1_1": "Er rettet dein Leben vor dem Untergang."
         },
         "Terz": {
           "ps_1": 118.1,
@@ -11677,8 +11696,7 @@ export const brevierData = {
           "les_stelle": "8,15–16",
           "les_text": "Ihr habt nicht einen Geist empfangen, der euch zu Sklaven macht, so dass ihr euch immer noch fürchten müsstet, sondern ihr habt den Geist empfangen, der euch zu Söhnen macht, den Geist, in dem wir rufen: Abba, Vater! So bezeugt der Geist selber unserem Geist, dass wir Kinder Gottes sind.",
           "resp1_0": "Bei dir, o°Herr, ist die Quelle des Lebens.",
-          "resp1_1": "In deinem Licht schauen wir das Licht.",
-          "oration": "0"
+          "resp1_1": "In deinem Licht schauen wir das Licht."
         },
         "Vesper": {
           "hymn_1": 2410.0,
@@ -11740,16 +11758,14 @@ export const brevierData = {
           "les_stelle": "1,21–22",
           "les_text": "Auch ihr standet Christus einst fremd und feindlich gegenüber; denn euer Sinn trieb euch zu bösen Taten. Jetzt aber hat er euch durch den Tod seines sterblichen Leibes versöhnt, um euch heilig, untadelig und schuldlos vor sich treten zu lassen.",
           "resp1_0": "Singt dem Herrn, ihr, seine Frommen.",
-          "resp1_1": "Preist seinen heiligen Namen.",
-          "oration": "Gott, unser Herr, zur neunten Stunde, als Petrus und Johannes zum Tempel hinaufgingen, um zu beten, bitten auch wir dich im Namen Jesu: Schenke allen, die diesen Namen anrufen, dein Heil. Durch ihn, Christus, unseren Herrn."
+          "resp1_1": "Preist seinen heiligen Namen."
         },
         "Sext": {
           "les_buch": "Röm",
           "les_stelle": "6,22",
           "les_text": "Jetzt, da ihr aus der Macht der Sünde befreit wurdet und zu Sklaven Gottes geworden seid, habt ihr einen Gewinn, der zu eurer Heiligung führt und das ewige Leben bringt.",
           "resp1_0": "Gott, wende dich uns zu und schenk uns neues Leben.",
-          "resp1_1": "Dann wird dein Volk sich an dir freuen.",
-          "oration": "Gott, du bist Herr und Hüter von Weinberg und Ernte; du teilst die Arbeit zu und gibst gerechten Lohn. Verleihe uns die Kraft, deine Fügung anzunehmen und die Last des Tages ohne Murren zu tragen. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Dann wird dein Volk sich an dir freuen."
         },
         "Terz": {
           "ps_1": 119.089,
@@ -11762,8 +11778,7 @@ export const brevierData = {
           "les_stelle": "13,11",
           "les_text": "Liebe Brüder, freut euch, kehrt zur Ordnung zurück, lasst euch ermahnen, seid eines Sinnes und lebt in Frieden! Dann wird der Gott der Liebe und des Friedens mit euch sein.",
           "resp1_0": "Die Augen des Herrn blicken auf die Gerechten.",
-          "resp1_1": "Seine Ohren hören auf ihr Rufen.",
-          "oration": "Gütiger Gott und Vater, du hast die Menschen zu gemeinsamer Arbeit berufen, damit sie einander ergänzen und jeder die Fähigkeit entfaltet, die du ihm gegeben hast, zum Wohle aller. Gib, dass wir unser Werk als deine Kinder verrichten, beseelt von deinem Geist und von der Liebe zu allen Menschen. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Seine Ohren hören auf ihr Rufen."
         },
         "Vesper": {
           "hymn_1": 2411.0,
@@ -11825,16 +11840,14 @@ export const brevierData = {
           "les_stelle": "22,22–23",
           "les_text": "Beraube den Schwachen nicht, denn er ist ja so schwach, zertritt den Armen nicht am Tor! Denn der Herr führt den Rechtsstreit für sie und raubt denen das Leben, die sie berauben.",
           "resp1_0": "Der Herr rettet den Armen, der keinen Helfer hat.",
-          "resp1_1": "Er erbarmt sich des Gebeugten und Schwachen.",
-          "oration": "Gott, um die neunte Stunde hast du dem Hauptmann Kornelius deinen Engel geschickt, dass er ihm den Weg des Heiles weise. Mach uns bereit, in der Gemeinschaft der Kirche mitzuwirken an der Rettung der Menschen. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Er erbarmt sich des Gebeugten und Schwachen."
         },
         "Sext": {
           "les_buch": "Dtn",
           "les_stelle": "15,7–8",
           "les_text": "Wenn bei dir ein Armer lebt, irgendeiner deiner Brüder in irgendeinem deiner Stadtbereiche in dem Land, das der Herr, dein Gott, dir gibt, dann sollst du nicht hartherzig sein und sollst deinem armen Bruder deine Hand nicht verschließen. Du sollst ihm deine Hand öffnen und ihm gegen Pfand leihen, was der Not, die ihn bedrückt, abhilft.",
           "resp1_0": "Herr, du hast die Sehnsucht der Armen gestillt.",
-          "resp1_1": "Du stärkst ihr Herz, dein Ohr vernimmt ihr Rufen.",
-          "oration": "Gütiger Gott, als Petrus um die sechste Stunde betete, hast du ihn belehrt, dass das Heil allen Völkern zuteil werden soll. Bewirke durch deine Gnade, dass unser Tagewerk dir gefällt und dem Heilsplan deiner Liebe dient. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Du stärkst ihr Herz, dein Ohr vernimmt ihr Rufen."
         },
         "Terz": {
           "ps_1": 119.097,
@@ -11847,8 +11860,7 @@ export const brevierData = {
           "les_stelle": "22,3",
           "les_text": "Sorgt für Recht und Gerechtigkeit und rettet den Ausgeplünderten aus der Hand des Gewalttäters! Fremde, Waisen und Witwen bedrängt und misshandelt nicht; vergießt kein unschuldiges Blut an diesem Ort!",
           "resp1_0": "Der Herr richtet den Erdkreis gerecht.",
-          "resp1_1": "Er spricht den Völkern das Urteil, das sie verdienen.",
-          "oration": "Allmächtiger, ewiger Gott. Um die dritte Stunde hast du deinen Heiligen Geist über die Apostel ausgegossen. Sende den Geist der Liebe auch in unser Herz, damit wir in Treue für dich Zeugnis geben vor den Menschen. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Er spricht den Völkern das Urteil, das sie verdienen."
         },
         "Vesper": {
           "hymn_1": 2412.0,
@@ -11910,16 +11922,14 @@ export const brevierData = {
           "les_stelle": "3,14–15",
           "les_text": "Liebt einander, denn die Liebe ist das Band, das alles zusammenhält und vollkommen macht. In eurem Herzen herrsche der Friede Christi; dazu seid ihr berufen als Glieder des einen Leibes. Seid dankbar!",
           "resp1_0": "Die Armen erben das Land.",
-          "resp1_1": "Sie genießen Glück in Fülle.",
-          "oration": "Herr Jesus Christus, am Kreuz hast du die Arme ausgebreitet, um alle Menschen zu retten. Lass unsere Werke dir gefallen und sichtbar machen, dass du die Welt erlöst hast.^ORS"
+          "resp1_1": "Sie genießen Glück in Fülle."
         },
         "Sext": {
           "les_buch": "1°Kor",
           "les_stelle": "13,8–9.13",
           "les_text": "Die Liebe hört niemals auf. Prophetisches Reden hat ein Ende, verzückte Rede verstummt, Erkenntnis vergeht. Denn Stückwerk ist unser Erkennen, Stückwerk unser prophetisches Reden; Für jetzt bleiben Glaube, Hoffnung, Liebe, diese drei; doch am größten unter ihnen ist die Liebe.",
           "resp1_0": "Deine Güte, o°Herr, lass über uns walten.",
-          "resp1_1": "Denn nach dir schauen wir aus.",
-          "oration": "Allmächtiger, gütiger Gott, in der Mitte des Tages lässt du uns innehalten und zur Ruhe kommen. Schau gnädig auf unsere Arbeit. Mache gut, was wir falsch gemacht haben und gib, dass am Abend unser ganzes Tagewerk dir gefallen kann. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Denn nach dir schauen wir aus."
         },
         "Terz": {
           "ps_1": 119.105,
@@ -11932,8 +11942,7 @@ export const brevierData = {
           "les_stelle": "13,4–7",
           "les_text": "Die Liebe ist langmütig, die Liebe ist gütig. Sie ereifert sich nicht, sie prahlt nicht, sie bläht sich nicht auf. Sie handelt nicht ungehörig, sucht nicht ihren Vorteil, lässt sich nicht zum Zorn reizen, trägt das Böse nicht nach. Sie freut sich nicht über das Unrecht, sondern freut sich an der Wahrheit. Sie erträgt alles, glaubt alles, hofft alles, hält allem stand.",
           "resp1_0": "Die dich suchen, Herr, sollen sich freuen und jubeln.",
-          "resp1_1": "Sie sollen immerdar sprechen: Gepriesen sei der Herr.",
-          "oration": "Herr, heiliger Vater, Gott, auf dessen Treue wir bauen, du hast den verheißenen Geist gesandt, um die Menschen zusammenzuführen, die durch die Sünde getrennt sind. Gib, dass wir die Einheit und den Frieden als deinen Auftrag erkennen und nach Kräften fördern. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Sie sollen immerdar sprechen: Gepriesen sei der Herr."
         },
         "Vesper": {
           "hymn_1": 2413.0,
@@ -11995,16 +12004,14 @@ export const brevierData = {
           "les_stelle": "10,3f",
           "les_text": "Mein Volk, das sind die Israeliten; sie haben zu Gott geschrien und sind gerettet worden. Der Herr hat sein Volk gerettet, der Herr hat uns von allen diesen Heiden erlöst. Gott hat große Zeichen und Wunder getan, wie sie unter den Völkern noch nie geschehen sind.",
           "resp1_0": "Ich danke dir, du hast mich erhört.",
-          "resp1_1": "Herr, du bist mein Retter.",
-          "oration": "Herr, gib uns die Kraft, dem Leidensmut deines eingeborenen Sohnes zu folgen und die Widrigkeiten des Lebens in Geduld zu ertragen. Darum bitten wir durch ihn, Christus, unseren Herrn."
+          "resp1_1": "Herr, du bist mein Retter."
         },
         "Sext": {
           "les_buch": "Dtn",
           "les_stelle": "4,7",
           "les_text": "Welche große Nation hätte Götter, die ihr so nah sind, wie Jahwe, unser Gott, uns nah ist, wo immer wir ihn anrufen?",
           "resp1_0": "Nahe ist der Herr allen, die zu ihm rufen.",
-          "resp1_1": "Er erhört ihr Schreien und rettet sie.",
-          "oration": "Allmächtiger, ewiger Gott, bei dir gibt es keine Finsternis, denn du wohnst im Licht. Sende einen Strahl deines Lichtes in unser Herz, damit wir den Sinn deiner Gebote erkennen und bereitwillig deine Wege gehen. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Er erhört ihr Schreien und rettet sie."
         },
         "Terz": {
           "ps_1": 119.113,
@@ -12017,8 +12024,7 @@ export const brevierData = {
           "les_stelle": "19,22",
           "les_text": "In allem hast du, Herr, dein Volk groß gemacht und verherrlicht; du hast es nicht im Stich gelassen, sondern bist ihm immer und überall beigestanden.",
           "resp1_0": "Du allein bist der Gott, der Wunder vollbringt.",
-          "resp1_1": "Du hast deine Macht den Völkern kundgetan.",
-          "oration": "Herr und Gott, als die Apostel um die dritte Stunde zum Gebet versammelt waren, hast du ihnen den Heiligen Geist geschenkt. Mache auch uns zu einer Wohnstatt deines Geistes. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Du hast deine Macht den Völkern kundgetan."
         },
         "Vesper": {
           "hymn_1": 2414.0,
@@ -12080,16 +12086,14 @@ export const brevierData = {
           "les_stelle": "2,8–9",
           "les_text": "Aus Gnade seid ihr durch den Glauben gerettet, nicht aus eigener Kraft – Gott hat es geschenkt –, nicht aufgrund eurer Werke, damit keiner sich rühmen kann.",
           "resp1_0": "Herr, dein Weg werde auf Erden erkannt.",
-          "resp1_1": "Dein Heil unter allen Völkern.",
-          "oration": "Herr Jesus Christus, um die neunte Stunde hast du dem reumütigen Schächer vom Marterpfahl des Kreuzes aus dein Reich versprochen. Wir bekennen dir, dass wir Sünder sind und bitten dich voll Vertrauen: Lass auch uns nach dem Tod bei dir im Paradiese sein.^ORS"
+          "resp1_1": "Dein Heil unter allen Völkern."
         },
         "Sext": {
           "les_buch": "Röm",
           "les_stelle": "3,21–22a",
           "les_text": "Jetzt ist unabhängig vom Gesetz die Gerechtigkeit Gottes offenbart worden, bezeugt vom Gesetz und von den Propheten: die Gerechtigkeit Gottes aus dem Glauben an Jesus Christus, offenbart für alle, die glauben.",
           "resp1_0": "Die Befehle des Herrn sind richtig, sie erfreuen das Herz.",
-          "resp1_1": "Das Gebot des Herrn ist lauter, es erleuchtet die Augen.",
-          "oration": "Herr, Jesus Christus, um die sechste Stunde kam Finsternis über die ganze Welt, als du unschuldig das Kreuz bestiegst, um uns von unserer Schuld zu erlösen. Erleuchte unsere Dunkelheit, damit wir zum ewigen Leben finden in deinem Licht.^ORS"
+          "resp1_1": "Das Gebot des Herrn ist lauter, es erleuchtet die Augen."
         },
         "Terz": {
           "ps_1": 22.1,
@@ -12102,8 +12106,7 @@ export const brevierData = {
           "les_stelle": "1,16b–17",
           "les_text": "Das Evangelium ist eine Kraft Gottes, die jeden rettet, der glaubt, zuerst den Juden, aber ebenso den Griechen. Denn im Evangelium wird die Gerechtigkeit Gottes offenbart aus Glauben zum Glauben, wie es in der Schrift steht: Der aus Glauben Gerechte wird leben.",
           "resp1_0": "Am Herrn freut sich unser Herz.",
-          "resp1_1": "Wir vertrauen auf seinen heiligen Namen.",
-          "oration": "Herr Jesus Christus, um die dritte Stunde wurdest du zur Kreuzigung geführt für das Heil der Welt. Wir bitten dich, vergib, was wir Böses getan haben und bewahre uns vor neuer Schuld.^ORS"
+          "resp1_1": "Wir vertrauen auf seinen heiligen Namen."
         },
         "Vesper": {
           "hymn_1": 2415.0,
@@ -12165,16 +12168,14 @@ export const brevierData = {
           "les_stelle": "6,8",
           "les_text": "Es ist dir gesagt worden, Mensch, was gut ist und was der Herr von dir erwartet: Nichts anderes, als das Rechte zu tun, die Treue zu lieben und in Ehrfurcht deinen Weg zu gehen mit deinem Gott.",
           "resp1_0": "Ich habe meine Freude an deinen Gesetzen.",
-          "resp1_1": "Dein Wort will ich nicht vergessen.",
-          "oration": "Herr, unser Gott, höre auf die Fürsprache der seligen Jungfrau Maria und erfülle unsere Sehnsucht nach Frieden, damit wir alle Tage unseres Lebens frei sind für den Dienst vor deinem Angesicht und ohne Gefährdung zu dir gelangen. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Dein Wort will ich nicht vergessen."
         },
         "Sext": {
           "les_buch": "Gal",
           "les_stelle": "5,26; 6,2",
           "les_text": "Wir wollen nicht prahlen, nicht miteinander streiten und einander nichts nachtragen. Einer trage des anderen Last; so werdet ihr das Gesetz Christi erfüllen.",
           "resp1_0": "Wie gut ist es doch und wie schön, wenn Brüder miteinander wohnen in Eintracht.",
-          "resp1_1": "Dort spendet der Herr Segen und Leben in Ewigkeit.",
-          "oration": "Herr, du Feuer ewiger Liebe, entzünde unser Herz mit deiner Glut, damit wir dich über alles lieben und aus Liebe zu dir auch unsere Brüder. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Dort spendet der Herr Segen und Leben in Ewigkeit."
         },
         "Terz": {
           "ps_1": 119.121,
@@ -12187,8 +12188,7 @@ export const brevierData = {
           "les_stelle": "15,22",
           "les_text": "Hat der Herr an Brandopfern und Schlachtopfern das gleiche Gefallen wie am Gehorsam gegenüber der Stimme des Herrn? Wahrhaftig, Gehorsam ist besser als Opfer, Hinhören besser als das Fett von Widdern.",
           "resp1_0": "Wer Opfer des Lobes bringt, der ehrt mich.",
-          "resp1_1": "Wer rechtschaffen lebt, dem zeige ich mein Heil.",
-          "oration": "Gott, allmächtiger Vater, du unser Herr, wir neigen uns vor dir. Sende uns das Licht des Heiligen Geistes, damit wir sicher sind vor jedem Feind und in der Freude des Herzens dir unser Lob weihen, heute und alle Tage. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Wer rechtschaffen lebt, dem zeige ich mein Heil."
         }
       }
     },
@@ -12252,16 +12252,14 @@ export const brevierData = {
           "les_stelle": "8,6b–7",
           "les_text": "Stark wie der Tod ist die Liebe, die Leidenschaft ist hart wie die Unterwelt. Ihre Gluten sind Feuergluten, gewaltige Flammen. Auch mächtige Wasser können die Liebe nicht löschen; auch Ströme schwemmen sie nicht weg. Böte einer für die Liebe den ganzen Reichtum seines Hauses, nur verachten würde man ihn.",
           "resp1_0": "Ich will dich lieben, Herr, meine Stärke.",
-          "resp1_1": "Gott, du mein Fels, meine Burg und mein Retter.",
-          "oration": "0"
+          "resp1_1": "Gott, du mein Fels, meine Burg und mein Retter."
         },
         "Sext": {
           "les_buch": "Dtn",
           "les_stelle": "10,12",
           "les_text": "Was fordert der Herr, dein Gott, von dir außer dem einen: dass du den Herrn, deinen Gott, fürchtest, indem du auf allen seinen Wegen gehst, ihn liebst und dem Herrn, deinem Gott, mit ganzem Herzen und mit ganzer Seele dienst;",
           "resp1_0": "Herr, wer darf Gast sein in deinem Zelt?",
-          "resp1_1": "Wer makellos lebt und von Herzen die Wahrheit sagt.",
-          "oration": "0"
+          "resp1_1": "Wer makellos lebt und von Herzen die Wahrheit sagt."
         },
         "Terz": {
           "ps_1": 23.0,
@@ -12274,8 +12272,7 @@ export const brevierData = {
           "les_stelle": "6,19–20",
           "les_text": "Wisst ihr nicht, dass euer Leib ein Tempel des Heiligen Geistes ist, der in euch wohnt und den ihr von Gott habt? Ihr gehört nicht euch selbst; denn um einen teuren Preis seid ihr erkauft worden. Verherrlicht also Gott in eurem Leib!",
           "resp1_0": "Meine Seele verzehrt sich in Sehnsucht nach dem Tempel des Herrn.",
-          "resp1_1": "Mein Herz und mein Leib jauchzen ihm zu, ihm, dem lebendigen Gott.",
-          "oration": "0"
+          "resp1_1": "Mein Herz und mein Leib jauchzen ihm zu, ihm, dem lebendigen Gott."
         },
         "Vesper": {
           "hymn_1": 2420.0,
@@ -12337,16 +12334,14 @@ export const brevierData = {
           "les_stelle": "4,21–22",
           "les_text": "Habt Vertrauen, meine Kinder, schreit zu Gott! Er wird euch der Gewalt entreißen, den Händen der Feinde. Denn ich erhoffe vom Ewigen eure Rettung; schon wurde mir vom Heiligen Freude zuteil wegen der Erbarmung, die bald zu euch kommt vom Ewigen, eurem Retter.",
           "resp1_0": "Herr, denk an dein Erbarmen.",
-          "resp1_1": "An die Taten deiner Huld; sie sind ja von Ewigkeit.",
-          "oration": "Gott, unser Herr, zur neunten Stunde, als Petrus und Johannes zum Tempel hinaufgingen, um zu beten, bitten auch wir dich im Namen Jesu: Schenke allen, die diesen Namen anrufen, dein Heil. Durch ihn, Christus, unseren Herrn."
+          "resp1_1": "An die Taten deiner Huld; sie sind ja von Ewigkeit."
         },
         "Sext": {
           "les_buch": "Weish",
           "les_stelle": "15,1.3",
           "les_text": "Du, unser Gott, bist gütig, wahrhaftig und langmütig; voll Erbarmen durchwaltest du das All. Es ist vollendete Gerechtigkeit, dich zu verstehen; und deine Stärke zu kennen ist die Wurzel der Unsterblichkeit.",
           "resp1_0": "Gnädig ist der Herr und barmherzig.",
-          "resp1_1": "Langmütig, reich an Güte und Treue.",
-          "oration": "Gott, du bist Herr und Hüter von Weinberg und Ernte; du teilst die Arbeit zu und gibst gerechten Lohn. Verleihe uns die Kraft, deine Fügung anzunehmen und die Last des Tages ohne Murren zu tragen. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Langmütig, reich an Güte und Treue."
         },
         "Terz": {
           "ps_1": 119.129,
@@ -12359,8 +12354,7 @@ export const brevierData = {
           "les_stelle": "20,26",
           "les_text": "Seid mir geheiligt; denn ich, der Herr, bin heilig und ich habe euch von all diesen Völkern ausgesondert, damit ihr mir gehört.",
           "resp1_0": "Selig das Volk, dessen Gott der Herr ist.",
-          "resp1_1": "Die Nation, die er sich zum Erbteil erwählt hat.",
-          "oration": "Gütiger Gott und Vater, du hast die Menschen zu gemeinsamer Arbeit berufen, damit sie einander ergänzen und jeder die Fähigkeit entfaltet, die du ihm gegeben hast, zum Wohle aller. Gib, dass wir unser Werk als deine Kinder verrichten, beseelt von deinem Geist und von der Liebe zu allen Menschen. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Die Nation, die er sich zum Erbteil erwählt hat."
         },
         "Vesper": {
           "hymn_1": 2421.0,
@@ -12381,7 +12375,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu unserem Herrn Jesus Christus, denn er verlässt keinen, der auf ihn seine Hoffnung setzt.",
           "bitten_r": "Christus, erhöre uns.",
           "bitten": "Stärke die Kirche mit deinem Geist,^qdamit sie unter den Völkern dein Geheimnis verkündet.^pBeschütze alle, die in deiner Kirche zum Dienst der Predigt bestellt sind,^qdamit sie selbst nicht verlorengehen.^pBefreie die Welt von Zwietracht und Krieg,^qdamit die Menschen in Frieden miteinander leben können.^pSchenke den Eheleuten deine Gnade;^qmach unsere Familien zu Heimstätten des Glaubens und der Liebe.^pGewähre allen Verstorbenen die Vergebung ihrer Sünden^qund schenke ihnen dein Erbarmen.",
-          "oration": "Bleibe bei uns, Herr Jesus, denn es wird Abend. Begleite uns auf dem Weg, mache unser Herz brennen und wecke unsere Hoffnung. Gib, dass wir in der Gemeinschaft der Brüder, in den Heiligen Schriften und beim Brechen des Brotes dich erkennen.^OSS"
+          "oration": "Bleibe bei uns, Herr Jesus, denn es wird Abend. Begleite uns auf dem Weg, mache unser Herz brennen und wecke unsere Hoffnung. Gib, dass wir in der Gemeinschaft der Brüder, in den Heiligen Schriften und beim Brechen des Brotes dich erkennen.^ORS"
         }
       },
       "2": {
@@ -12422,16 +12416,14 @@ export const brevierData = {
           "les_stelle": "55,10–11",
           "les_text": "Wie der Regen und der Schnee vom Himmel fällt und nicht dorthin zurückkehrt, sondern die Erde tränkt und sie zum Keimen und Sprossen bringt, wie er dem Sämann Samen gibt und Brot zum Essen, so ist es auch mit dem Wort, das meinen Mund verlässt: Es kehrt nicht leer zu mir zurück, sondern bewirkt, was ich will, und erreicht all das, wozu ich es ausgesandt habe.",
           "resp1_0": "Der Herr sendet sein Wort zur Erde.",
-          "resp1_1": "Rasch eilt dahin sein Befehl.",
-          "oration": "Gott, um die neunte Stunde hast du dem Hauptmann Kornelius deinen Engel geschickt, dass er ihm den Weg des Heiles weise. Mach uns bereit, in der Gemeinschaft der Kirche mitzuwirken an der Rettung der Menschen. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Rasch eilt dahin sein Befehl."
         },
         "Sext": {
           "les_buch": "Dtn",
           "les_stelle": "30,11.14",
           "les_text": "Dieses Gebot, auf das ich dich heute verpflichte, geht nicht über deine Kraft und ist nicht fern von dir. Nein, das Wort ist ganz nah bei dir, es ist in deinem Mund und in deinem Herzen, du kannst es halten.",
           "resp1_0": "Herr, dein Wort ist meinem Fuß eine Leuchte.",
-          "resp1_1": "Ein Licht für meine Pfade.",
-          "oration": "Gütiger Gott, als Petrus um die sechste Stunde betete, hast du ihn belehrt, dass das Heil allen Völkern zuteil werden soll. Bewirke durch deine Gnade, dass unser Tagewerk dir gefällt und dem Heilsplan deiner Liebe dient. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Ein Licht für meine Pfade."
         },
         "Terz": {
           "ps_1": 119.137,
@@ -12444,8 +12436,7 @@ export const brevierData = {
           "les_stelle": "3,17–18",
           "les_text": "Wenn jemand Vermögen hat und sein Herz vor dem Bruder verschließt, den er in Not sieht, wie kann die Gottesliebe in ihm bleiben? Meine Kinder, wir wollen nicht mit Wort und Zunge lieben, sondern in Tat und Wahrheit.",
           "resp1_0": "Wohl dem, der gütig und hilfreich ist.",
-          "resp1_1": "Fest ist sein Herz, er vertraut auf den Herrn.",
-          "oration": "Allmächtiger, ewiger Gott. Um die dritte Stunde hast du deinen Heiligen Geist über die Apostel ausgegossen. Sende den Geist der Liebe auch in unser Herz, damit wir in Treue für dich Zeugnis geben vor den Menschen. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Fest ist sein Herz, er vertraut auf den Herrn."
         },
         "Vesper": {
           "hymn_1": 2422.0,
@@ -12507,16 +12498,14 @@ export const brevierData = {
           "les_stelle": "3,23–24",
           "les_text": "Tut eure Arbeit gern, als wäre sie für den Herrn und nicht für Menschen; ihr wisst, dass ihr vom Herrn euer Erbe als Lohn empfangen werdet. Dient Christus, dem Herrn!",
           "resp1_0": "Du gibst mir das Erbe und reichst mir den Becher.",
-          "resp1_1": "In deinen Händen hältst du mein Los.",
-          "oration": "Herr Jesus Christus, am Kreuz hast du die Arme ausgebreitet, um alle Menschen zu retten. Lass unsere Werke dir gefallen und sichtbar machen, dass du die Welt erlöst hast.^ORS"
+          "resp1_1": "In deinen Händen hältst du mein Los."
         },
         "Sext": {
           "les_buch": "Kol",
           "les_stelle": "3,17",
           "les_text": "Alles, was ihr in Worten und Werken tut, geschehe im Namen Jesu, des Herrn; durch ihn dankt Gott, dem Vater!",
           "resp1_0": "Ein Opfer des Dankes will ich dir bringen.",
-          "resp1_1": "Anrufen will ich deinen Namen.",
-          "oration": "Allmächtiger, gütiger Gott, in der Mitte des Tages lässt du uns innehalten und zur Ruhe kommen. Schau gnädig auf unsere Arbeit. Mache gut, was wir falsch gemacht haben und gib, dass am Abend unser ganzes Tagewerk dir gefallen kann. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Anrufen will ich deinen Namen."
         },
         "Terz": {
           "ps_1": 119.145,
@@ -12529,8 +12518,7 @@ export const brevierData = {
           "les_stelle": "10,24.31",
           "les_text": "Denkt nicht an euch selbst, sondern an die anderen. Ob ihr also esst oder trinkt oder etwas anderes tut: tut alles zur Verherrlichung Gottes!",
           "resp1_0": "Gut ist es, dem Herrn zu danken.",
-          "resp1_1": "Deinem Namen zu singen, du Höchster.",
-          "oration": "Herr, heiliger Vater, Gott, auf dessen Treue wir bauen, du hast den verheißenen Geist gesandt, um die Menschen zusammenzuführen, die durch die Sünde getrennt sind. Gib, dass wir die Einheit und den Frieden als deinen Auftrag erkennen und nach Kräften fördern. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Deinem Namen zu singen, du Höchster."
         },
         "Vesper": {
           "hymn_1": 2423.0,
@@ -12592,16 +12580,14 @@ export const brevierData = {
           "les_stelle": "12,1b–2",
           "les_text": "Wir wollen alle Last und die Fesseln der Sünde abwerfen. Lasst uns mit Ausdauer in dem Wettkampf laufen, der uns aufgetragen ist, und dabei auf Jesus blicken, den Urheber und Vollender des Glaubens; er hat angesichts der vor ihm liegenden Freude das Kreuz auf sich genommen, ohne auf die Schande zu achten, und sich zur Rechten von Gottes Thron gesetzt.",
           "resp1_0": "Meine Seele hofft auf den Herrn.",
-          "resp1_1": "Ich warte voll Vertrauen auf sein Wort.",
-          "oration": "Herr, gib uns die Kraft, dem Leidensmut deines eingeborenen Sohnes zu folgen und die Widrigkeiten des Lebens in Geduld zu ertragen. Darum bitten wir durch ihn, Christus, unseren Herrn."
+          "resp1_1": "Ich warte voll Vertrauen auf sein Wort."
         },
         "Sext": {
           "les_buch": "Weish",
           "les_stelle": "1,1–2",
           "les_text": "Liebt Gerechtigkeit, ihr Herrscher der Erde, denkt in Frömmigkeit an den Herrn, sucht ihn mit reinem Herzen! Denn er lässt sich finden von denen, die ihn nicht versuchen, und zeigt sich denen, die ihm nicht misstrauen.",
           "resp1_0": "Vertrau auf den Herrn und tu das Gute.",
-          "resp1_1": "Bleib wohnen im Land und bewahre die Treue.",
-          "oration": "Allmächtiger, ewiger Gott, bei dir gibt es keine Finsternis, denn du wohnst im Licht. Sende einen Strahl deines Lichtes in unser Herz, damit wir den Sinn deiner Gebote erkennen und bereitwillig deine Wege gehen. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Bleib wohnen im Land und bewahre die Treue."
         },
         "Terz": {
           "ps_1": 119.153,
@@ -12614,8 +12600,7 @@ export const brevierData = {
           "les_stelle": "3,23–24",
           "les_text": "Das ist das Gebot Gottes: Wir sollen an den Namen seines Sohnes Jesus Christus glauben und einander lieben, wie es seinem Gebot entspricht. Wer seine Gebote hält, bleibt in Gott und Gott in ihm. Und dass er in uns bleibt, erkennen wir an dem Geist, den er uns gegeben hat.",
           "resp1_0": "Herr, du gibst dem Gerechten Bestand.",
-          "resp1_1": "Du rettest die Menschen mit redlichem Herzen.",
-          "oration": "Herr und Gott, als die Apostel um die dritte Stunde zum Gebet versammelt waren, hast du ihnen den Heiligen Geist geschenkt. Mache auch uns zu einer Wohnstatt deines Geistes. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Du rettest die Menschen mit redlichem Herzen."
         },
         "Vesper": {
           "hymn_1": 2424.0,
@@ -12677,16 +12662,14 @@ export const brevierData = {
           "les_stelle": "4,9–11",
           "les_text": "Die Liebe Gottes wurde unter uns dadurch offenbart, dass Gott seinen einzigen Sohn in die Welt gesandt hat, damit wir durch ihn leben. Nicht darin besteht die Liebe, dass wir Gott geliebt haben, sondern dass er uns geliebt und seinen Sohn als Sühne für unsere Sünden gesandt hat. Liebe Brüder, wenn Gott uns so geliebt hat, müssen auch wir einander lieben.",
           "resp1_0": "Sieh her, o°Gott, du, unser Beschützer.",
-          "resp1_1": "Schau auf das Antlitz deines Gesalbten.",
-          "oration": "Herr Jesus Christus, um die neunte Stunde hast du dem reumütigen Schächer vom Marterpfahl des Kreuzes aus dein Reich versprochen. Wir bekennen dir, dass wir Sünder sind und bitten dich voll Vertrauen: Lass auch uns nach dem Tod bei dir im Paradiese sein.^ORS"
+          "resp1_1": "Schau auf das Antlitz deines Gesalbten."
         },
         "Sext": {
           "les_buch": "1°Joh",
           "les_stelle": "3,16",
           "les_text": "Daran haben wir die Liebe erkannt, dass Er sein Leben für uns hingegeben hat. So müssen auch wir für die Brüder das Leben hingeben.",
           "resp1_0": "Danket dem Herrn, denn er ist gütig.",
-          "resp1_1": "Denn seine Huld währt ewig.",
-          "oration": "Herr, Jesus Christus, um die sechste Stunde kam Finsternis über die ganze Welt, als du unschuldig das Kreuz bestiegst, um uns von unserer Schuld zu erlösen. Erleuchte unsere Dunkelheit, damit wir zum ewigen Leben finden in deinem Licht.^ORS"
+          "resp1_1": "Denn seine Huld währt ewig."
         },
         "Terz": {
           "ps_1": 119.161,
@@ -12699,8 +12682,7 @@ export const brevierData = {
           "les_stelle": "12,17a.19b–21",
           "les_text": "Vergeltet niemand Böses mit Bösem. Denn in der Schrift steht: Mein ist die Rache, ich werde vergelten, spricht der Herr. Vielmehr: Wenn dein Feind Hunger hat, gib ihm zu essen, wenn er Durst hat, gib ihm zu trinken; tust du das, dann sammelst du glühende Kohlen auf sein Haupt. Lass dich nicht vom Bösen besiegen, sondern besiege das Böse durch das Gute!",
           "resp1_0": "Die Huld des Herrn währt immer und ewig.",
-          "resp1_1": "Für alle, die seinen Bund bewahren.",
-          "oration": "Herr Jesus Christus, um die dritte Stunde wurdest du zur Kreuzigung geführt für das Heil der Welt. Wir bitten dich, vergib, was wir Böses getan haben und bewahre uns vor neuer Schuld.^ORS"
+          "resp1_1": "Für alle, die seinen Bund bewahren."
         },
         "Vesper": {
           "hymn_1": 2425.0,
@@ -12762,16 +12744,14 @@ export const brevierData = {
           "les_stelle": "4,8.9b",
           "les_text": "Was immer wahrhaft, edel, recht, was lauter, liebenswert, ansprechend ist, was Tugend heißt und lobenswert ist, darauf seid bedacht! Und der Gott des Friedens wird mit euch sein.",
           "resp1_0": "Ich will dich rühmen, mein Gott und König.",
-          "resp1_1": "Deinen Namen preisen immer und ewig.",
-          "oration": "Herr, unser Gott, höre auf die Fürsprache der seligen Jungfrau Maria und erfülle unsere Sehnsucht nach Frieden, damit wir alle Tage unseres Lebens frei sind für den Dienst vor deinem Angesicht und ohne Gefährdung zu dir gelangen. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Deinen Namen preisen immer und ewig."
         },
         "Sext": {
           "les_buch": "Röm",
           "les_stelle": "15,5–7",
           "les_text": "Der Gott der Geduld und des Trostes schenke euch die Einmütigkeit, die Christus Jesus entspricht, damit ihr Gott, den Vater unseres Herrn Jesus Christus, einträchtig und mit einem Munde preist. Darum nehmt einander an, wie auch Christus uns angenommen hat, zur Ehre Gottes.",
           "resp1_0": "Der Herr hat Gefallen an seinem Volk.",
-          "resp1_1": "Er krönt die Gebeugten mit Sieg.",
-          "oration": "Herr, du Feuer ewiger Liebe, entzünde unser Herz mit deiner Glut, damit wir dich über alles lieben und aus Liebe zu dir auch unsere Brüder. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Er krönt die Gebeugten mit Sieg."
         },
         "Terz": {
           "ps_1": 119.169,
@@ -12784,8 +12764,7 @@ export const brevierData = {
           "les_stelle": "6,27b–28a",
           "les_text": "Der Gott Israels ist der lebendige Gott; er lebt in Ewigkeit. Sein Reich geht niemals unter; seine Herrschaft hat kein Ende. Er rettet und befreit; er wirkt Zeichen und Wunder am Himmel und auf der Erde.",
           "resp1_0": "Erkennt, dass ich Gott bin.",
-          "resp1_1": "Erhaben über die Völker, erhaben auf Erden.",
-          "oration": "Gott, allmächtiger Vater, du unser Herr, wir neigen uns vor dir. Sende uns das Licht des Heiligen Geistes, damit wir sicher sind vor jedem Feind und in der Freude des Herzens dir unser Lob weihen, heute und alle Tage. Darum bitten wir durch Christus, unseren Herrn."
+          "resp1_1": "Erhaben über die Völker, erhaben auf Erden."
         }
       }
     }

@@ -135,6 +135,7 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         week,
         dayOfWeek,
         weekOfPsalter,
+        combinedSWD,
         rank_wt,
         isCommemoration,
         isImmacHeart
@@ -281,6 +282,7 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
 
         return {
             season, week, dayOfWeek,
+            combinedSWD,
             rank_wt,
             rank_date,
             isCommemoration,
@@ -631,18 +633,22 @@ export function processBrevierData(todayDate) {
     const tomorrowData = getPrayerTexts(brevierData, personalData, tomorrowDate, nextDate);
 
     // Prüfe, ob erste Vesper benötigt wird
+    const dayOfWeek = todayData.dayOfWeek;
     const rankWt = todayData.rank_wt;
     const rankDate = todayData.rank_date;
     const nextRankWt = tomorrowData.rank_wt;
     const nextRankDate = tomorrowData.rank_date;
-    const dayOfWeek = todayData.dayOfWeek;
+    const nextCombinedSWD = tomorrowData.combinedSWD;
 
     const hasErsteVesper_wt = rankWt < 5 && rankDate < 5 &&
-        ((dayOfWeek === 6 && rankDate < 4) || nextRankWt === 5);
+        ((dayOfWeek === 6 && rankDate < 4) ||
+            (nextRankWt === 5 && nextCombinedSWD !== 'q-0-3'));
     const hasErsteVesper_date = rankWt < 5 && rankDate < 5 && nextRankDate > nextRankWt &&
         (nextRankDate === 5 || (nextRankDate === 4 && dayOfWeek === 6));
-    console.log('brevierDataProcessor:\n(rank_Wt/Date) / (nextRank_Wt/Date) / dayOfWeek:\n(',
-        rankWt, rankDate, ') (', nextRankWt, nextRankDate, ') ', dayOfWeek, '\n1. Vesper wt/date: ', hasErsteVesper_wt, hasErsteVesper_date)
+    console.log('brevierDataProcessor:\nrank_Wt/Date:', rankWt, rankDate,
+        '\nnextRank_Wt/Date:', nextRankWt, nextRankDate,
+        '\ndayOfWeek:', dayOfWeek,
+        '\n1. Vesper wt/date: ', hasErsteVesper_wt, hasErsteVesper_date)
 
     // Stelle die endgültigen Daten zusammen
     const finalData = {
