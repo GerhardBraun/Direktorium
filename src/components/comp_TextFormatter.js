@@ -66,17 +66,18 @@ export const formatPrayerText = (provText, marker = '',
     const useFootnoteList = localStorage.getItem('prefFootnotes') === 'true';
 
     // Wenn marker='oration' und isCommemoration=true, dann leere orSchluss-Elemente
-    const orSchluss = (marker === 'commemoration' && isCommemoration === true)
-        ? {
-            vR: "",
-            V: "",
-            S: "",
-            R: "",
-            Sgroß: "",
-            Rgroß: ""
-        }
-        : ['lesehore', 'laudes', 'vesper'].includes(hour)
+    const orSchluss = ['lesehore', 'laudes', 'vesper'].includes(hour)
+        ? (marker === 'commemoration' && isCommemoration === true)
             ? {
+                vR: "",
+                V: "",
+                S: "",
+                R: "",
+                Sgroß: "",
+                Rgroß: ""
+            }
+            :
+            {
                 vR: " Darum bitten wir durch ihn, Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
                 V: " Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
                 S: ", der du in der Einheit des Heiligen Geistes mit Gott dem Vater lebst und herrschest in alle Ewigkeit.",
@@ -84,16 +85,16 @@ export const formatPrayerText = (provText, marker = '',
                 Sgroß: ". Der du in der Einheit des Heiligen Geistes mit Gott dem Vater lebst und herrschest in alle Ewigkeit.",
                 Rgroß: ". Der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
             }
-            : {
-                vR: " Darum bitten wir durch ihn, Christus, unseren Herrn.",
-                V: " Darum bitten wir durch Christus, unseren Herrn.",
-                S: ", der du lebst und herrschest in alle Ewigkeit.",
-                R: ", der mit dir lebt und herrscht in alle Ewigkeit.",
-                Sgroß: ". Der du lebst und herrschest in alle Ewigkeit.",
-                Rgroß: ". Der mit dir lebt und herrscht in alle Ewigkeit."
-            }
+        : {
+            vR: " Darum bitten wir durch ihn, Christus, unseren Herrn.",
+            V: " Darum bitten wir durch Christus, unseren Herrn.",
+            S: ", der du lebst und herrschest in alle Ewigkeit.",
+            R: ", der mit dir lebt und herrscht in alle Ewigkeit.",
+            Sgroß: ". Der du lebst und herrschest in alle Ewigkeit.",
+            Rgroß: ". Der mit dir lebt und herrscht in alle Ewigkeit."
+        }
 
-    marker = 'commemoration' ? '' : marker;
+    marker = (marker === 'commemoration') ? '' : marker;
     let text = marker ? `^r${marker}^0r${provText}` : provText;
     text = text
         .replace(/°/g, '\u00A0')
