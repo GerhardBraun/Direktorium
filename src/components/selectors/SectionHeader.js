@@ -73,6 +73,8 @@ export const SectionHeader = ({
         (field.startsWith('ps_') || field.startsWith('ant_'))
     ) { skipCommune = true };
 
+    if (texts?.isCommemoration) { skipCommune = true }
+
     if (prefSollemnity === 'soll' ||   // Hochfeste und 1. Vesper: Comm, wenn nicht eigen, nicht vom Wt
         (texts?.hasErsteVesper && hour === 'vesper')
     ) { skipCommune = false };

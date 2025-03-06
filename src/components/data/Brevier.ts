@@ -6003,7 +6003,6 @@ export const brevierData = {
           "ant_1": "Dem König des Friedens sei Ehre und Herrlichkeit. Nach seinem Angesicht verlangt die ganze Erde.",
           "ant_2": "Er sendet sein Wort zur Erde, rasch eilt sein Befehl dahin.",
           "ant_3": "Das göttliche Wort, vor aller Zeit vom Vater gezeugt, hat sich selbst entäußert: Heute ist es Mensch geworden für uns.",
-          "resp0_1": "Gal 4,4-5",
           "les_buch": "Gal",
           "les_stelle": "4,4–5",
           "les_text": "Als die Zeit erfüllt war, sandte Gott seinen Sohn, geboren von einer Frau und dem Gesetz unterstellt, damit er die freikaufte, die unter dem Gesetz stehen, und damit wir die Sohnschaft erlangten.",
@@ -13128,6 +13127,12 @@ export const brevierData = {
           "oration": "Getreuer Gott, im Vertrauen auf dich beginnen wir die vierzig Tage der Umkehr und Buße. Gib uns die Kraft zu christlicher Zucht, damit wir dem Bösen absagen und mit Entschiedenheit das Gute tun.^ORV"
         },
         "Laudes": {
+          "ps_1": 51.0,
+          "ps_2": 185.0,
+          "ps_3": 100.0,
+          "ant_1": "Herr, gegen dich allein hab’ ich gesündigt; erbarme dich meiner.",
+          "ant_2": "Herr, wir erkennen unsere Schuld; wir haben gegen dich gesündigt.",
+          "ant_3": "Der Herr allein ist Gott; wir sind sein Volk, die Herde seiner Weide.",
           "ant_ev": "Wenn ihr fastet und Buße tut, macht kein finsteres Gesicht wie die Heuchler."
         },
         "Vesper": {
@@ -14418,7 +14423,7 @@ export const brevierData = {
       "3": {
         "Laudes": {
           "les_buch": "Dtn",
-          "les_stelle": "7,6–8–9",
+          "les_stelle": "7,6.8–9",
           "les_text": "Dich hat der Herr, dein Gott, ausgewählt, damit du unter allen Völkern, die auf der Erde leben, das Volk wirst, das ihm persönlich gehört. Weil der Herr euch liebt und weil er auf den Schwur achtet, den er euren Vätern geleistet hat, deshalb hat der Herr euch mit starker Hand herausgeführt und euch aus dem Sklavenhaus freigekauft, aus der Hand des Pharao, des Königs von Ägypten. Daran sollst du erkennen: Jahwe, dein Gott, ist der Gott; er ist der treue Gott; noch nach tausend Generationen achtet er auf den Bund und erweist denen seine Huld, die ihn lieben und auf seine Gebote achten.",
           "bitten_e": "Gepriesen sei Christus, der Urheber unseres Heiles. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, erbarme dich.",
@@ -14570,7 +14575,7 @@ export const brevierData = {
           "hymn_1": 3321.0,
           "hymn_kl": 0.0,
           "resp1_1": "Er rettet mich aus der Schlinge des Jägers,",
-          "resp1_2": "er befreit mich aus allem Verderben.",
+          "resp1_2": "er°befreit mich aus allem Verderben.",
           "resp1_3": "Der Herr ist meine Zuflucht, zum Schutze hab’ ich mir erwählt den Höchsten."
         },
         "Lesehore": {

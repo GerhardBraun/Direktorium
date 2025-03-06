@@ -1379,7 +1379,7 @@ const PrayerTextDisplay = ({
                         <SectionHeader title="ORATION" field="oration" />
                         {getValue('oration') && (
                             <div className="whitespace-pre-wrap">
-                                {formatPrayerText(getValue('oration'))}
+                                {formatPrayerText(getValue('oration'), useCommemoration ? 'commemoration' : '')}
                             </div>
                         )}
                     </div>)}
