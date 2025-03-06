@@ -44,11 +44,12 @@ export const SectionHeader = ({
 }) => {
     const field = (hour === 'invitatorium' && provField === 'ps_1')
         ? 'ant_0' : provField;
-    const invPsalms = (hour === 'invitatorium' ? texts?.invitatorium?.psalms : null);
+    const invPsalms = hour === 'invitatorium' ? texts?.invitatorium?.psalms : null;
+    const isCommemoration = texts?.isCommemoration || false
     const { hasEig, hasWt, nameComm1, nameComm2, showSources, showComm2 } =
         checkSources(texts, hour, prefSrc, field);
     const hasLatin = latinField && texts[hour]['wt']?.[latinField];
-    const showContinuous = hasEig && hasWt && askContinuous && hour === 'lesehore';
+    const showContinuous = hasEig && hasWt && askContinuous && hour === 'lesehore' && !isCommemoration;
     const showPsalmsWt = hasEig && hasWt &&
         title === 'PSALMODIE' && (hour !== 'invitatorium' && hour !== 'komplet');
     const showTSN = askTSN && ["terz", "sext", "non"].includes(hour);
@@ -73,7 +74,7 @@ export const SectionHeader = ({
         (field.startsWith('ps_') || field.startsWith('ant_'))
     ) { skipCommune = true };
 
-    if (texts?.isCommemoration) { skipCommune = true }
+    if (isCommemoration) { skipCommune = true }
 
     if (prefSollemnity === 'soll' ||   // Hochfeste und 1. Vesper: Comm, wenn nicht eigen, nicht vom Wt
         (texts?.hasErsteVesper && hour === 'vesper')

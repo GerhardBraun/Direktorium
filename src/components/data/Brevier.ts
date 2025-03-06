@@ -2309,7 +2309,7 @@ export const brevierData = {
           "les_buch": "Aus dem zweiten Brief an die Korinther.",
           "les_stelle": "4,7–5,8",
           "les_text": "^hLeidensgemeinschaft mit Christus^pWir tragen den Schatz (unseres Glaubens) in zerbrechlichen Gefäßen; so wird deutlich, dass das Übermaß der Kraft von Gott und nicht von uns kommt. Von allen Seiten werden wir in die Enge getrieben und finden doch noch Raum; wir wissen weder aus noch ein und verzweifeln dennoch nicht; wir werden gehetzt und sind doch nicht verlassen; wir werden niedergestreckt und doch nicht vernichtet. Wohin wir auch kommen, immer tragen wir das Todesleiden Jesu an unserem Leib, damit auch das Leben Jesu an unserem Leib sichtbar wird.^pDenn immer werden wir, obgleich wir leben, um Jesu willen dem Tod ausgeliefert, damit auch das Leben Jesu an unserem sterblichen Fleisch offenbar wird. So erweist an uns der Tod, an euch aber das Leben seine Macht. Doch haben wir den gleichen Geist des Glaubens, von dem es in der Schrift heißt: Ich habe geglaubt, darum habe ich geredet. Auch wir glauben und darum reden wir. Denn wir wissen, dass der, welcher Jesus, den Herrn, auferweckt hat, auch uns mit Jesus auferwecken und uns zusammen mit euch vor sein Angesicht stellen wird.^pAlles tun wir euretwegen, damit immer mehr Menschen aufgrund der überreich gewordenen Gnade den Dank vervielfachen, Gott zur Ehre. Darum werden wir nicht müde; wenn auch unser äußerer Mensch aufgerieben wird, der innere wird Tag für Tag erneuert. Denn die kleine Last unserer gegenwärtigen Not schafft uns in maßlosem Übermaß ein ewiges Gewicht an Herrlichkeit, uns, die wir nicht auf das Sichtbare starren, sondern nach dem Unsichtbaren ausblicken; denn das Sichtbare ist vergänglich, das Unsichtbare ist ewig. Wir wissen: Wenn unser irdisches Zelt abgebrochen wird, dann haben wir eine Wohnung von Gott, ein nicht von Menschenhand errichtetes ewiges Haus im Himmel. Im gegenwärtigen Zustand seufzen wir und sehnen uns danach, mit dem himmlischen Haus überkleidet zu werden. So bekleidet, werden wir nicht nackt erscheinen. Solange wir nämlich in diesem Zelt leben, seufzen wir unter schwerem Druck, weil wir nicht entkleidet, sondern überkleidet werden möchten, damit so das Sterbliche vom Leben verschlungen werde. Gott aber, der uns gerade dazu fähig gemacht hat, er hat uns auch als ersten Anteil den Geist gegeben.^pWir sind also immer zuversichtlich, auch wenn wir wissen, dass wir fern vom Herrn in der Fremde leben, solange wir in diesem Leib zu Hause sind; denn als Glaubende gehen wir unseren Weg, nicht als Schauende. Weil wir aber zuversichtlich sind, ziehen wir es vor, aus dem Leib auszuwandern und daheim beim Herrn zu sein.",
-          "resp1_1": "Selig seid ihr, wenn ihr um meinetwillen beschimpft und verfolgt und auf alle mögliche Weise verleumdet werdet. Freut euch und jubelt.",
+          "resp1_1": "Selig seid ihr, wenn ihr um meinetwillen beschimpft und verfolgt und auf alle mögliche Weise verleumdet werdet. Freut euch und jubelt,",
           "resp1_2": "euer Lohn wird groß sein im Himmel.",
           "resp1_3": "Selig, die um der Gerechtigkeit willen verfolgt werden; denn ihnen gehört das Himmelreich.",
           "patr_autor": "Augustinus (†°430)",
@@ -7289,9 +7289,9 @@ export const brevierData = {
           "les_buch": "vgl.°Eph",
           "les_stelle": "1,20-23",
           "les_text": "Gott hat Christus von den Toten erweckt und im Himmel auf den Platz zu seiner Rechten erhoben, hoch über alle Fürsten und Gewalten, Mächte und Herrschaften und über jeden Namen, der nicht nur in dieser Welt, sondern auch in der zukünftigen genannt wird. Alles hat er ihm zu Füßen gelegt und ihn, der als Haupt alles überragt, über die Kirche gesetzt. Sie ist sein Leib und wird von ihm erfüllt, der das All ganz und gar beherrscht.",
-          "resp1_0": "Dein, o Herr, sind Größe und Macht,",
-          "resp1_1": "dein ist die Herrschaft und das Königtum.",
-          "resp1_2": "Du erhebst dich als Haupt über alles.",
+          "resp1_1": "Dein, o Herr, sind Größe und Macht,",
+          "resp1_2": "dein ist die Herrschaft und das Königtum.",
+          "resp1_3": "Du erhebst dich als Haupt über alles.",
           "ant_ev": "Gott, der Herr, wird ihm den Thron seines Vaters David geben. Er wird herrschen über Jakobs Haus in Ewigkeit, und seine Herrschaft wird ohne Ende sein.^Ö",
           "bitten_e": "Lasst uns beten zu Christus, der am Kreuz unser König geworden ist:",
           "bitten_r": "Sohn Davids, erbarme dich unser.",
@@ -10634,7 +10634,8 @@ export const brevierData = {
           "les_buch": "1°Petr",
           "les_stelle": "1,17b–19",
           "les_text": "Führt, solange ihr in der Fremde seid, ein Leben in Gottesfurcht! Ihr wisst, dass ihr aus eurer sinnlosen, von den Vätern ererbten Lebensweise nicht um einen vergänglichen Preis losgekauft wurdet, nicht um Silber oder Gold, sondern mit dem kostbaren Blut Christi, des Lammes ohne Fehl und Makel.",
-          "resp1_0": "Erlöse mich, Herr, und sei mir gnädig."
+          "resp1_0": "Erlöse mich, Herr, und sei mir gnädig.",
+          "resp1_1": "In der Gemeinde will ich dich preisen."
         },
         "Sext": {
           "les_buch": "Jak",
@@ -14081,8 +14082,8 @@ export const brevierData = {
           "les_buch": "Jes",
           "les_stelle": "53,4–5",
           "les_text": "Er hat unsere Krankheiten getragen und unsere Schmerzen auf sich geladen. Wir meinten, er sei von Gott geschlagen, von ihm getroffen und gebeugt. Doch er wurde durchbohrt wegen unserer Verbrechen, wegen unserer Sünden zermalmt. Zu unserem Heil lag die Strafe auf ihm, durch seine Wunden sind wir geheilt.",
-          "resp1_0": "Herr, gedenke meiner,",
-          "resp1_1": "wenn du in dein Reich kommst."
+          "resp1_0": "Herr, gedenke meiner.",
+          "resp1_1": "Wenn du in dein Reich kommst."
         },
         "Terz": {
           "ps_1": 40.0,
@@ -14610,7 +14611,7 @@ export const brevierData = {
           "hymn_1": 3341.0,
           "hymn_2": 3342.0,
           "hymn_kl": 0.0,
-          "resp1_1": "Sei mir gnädig und heile mich, ",
+          "resp1_1": "Sei mir gnädig und heile mich,",
           "resp1_2": "ich habe vor dir gesündigt.",
           "resp1_3": "Verschließe mir nicht dein Erbarmen; Herr, eile mir zu Hilfe."
         }
