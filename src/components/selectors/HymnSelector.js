@@ -9,13 +9,9 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, formatPray
         const hasOnlyWtSources = availableHymns.every(hymn => hymn.id.split('_')[0] === 'wt');
 
         if (sourcePath === 'wt' && !hasOnlyWtSources) {
-            if (season === 'j') {
-                return 'btn-green';
-            } else if (season === 'a' || season === 'q') {
-                return 'btn-violett';
-            } else {
-                return 'btn-gold';
-            }
+            if (season === 'j') { return 'btn-green'; }
+            else if (season === 'a' || season === 'q') { return 'btn-violett'; }
+            else { return 'btn-gold'; }
         };
 
 
@@ -27,18 +23,10 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, formatPray
         });
 
         const color = currentLevel?.farbe;
-        if (color?.startsWith('r')) {
-            return 'btn-red'
-        }
-        if (color?.startsWith('m')) {
-            return 'btn-blue'
-        }
-        if (sourceLabel === 'Comm:') {
-            return 'btn-brown';
-        }
-        if (sourceLabel === 'pers:') {
-            return 'btn-pers';
-        }
+        if (color?.startsWith('r')) { return 'btn-red' }
+        if (color?.startsWith('m')) { return 'btn-blue' }
+        if (sourceLabel === 'Comm:') { return 'btn-brown'; }
+        if (sourceLabel === 'pers:') { return 'btn-pers'; }
         return 'btn-default'
     };
 
@@ -55,7 +43,7 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, formatPray
         let sources = [localPrefSrc, 'pers'];
 
         // Ermittle Commune-Sources nur wenn nötig
-        const communeSources = (!isCommemoration &&
+        const communeSources = ((!isCommemoration || prefSollemnity === 'soll') &&
             !texts[hour]?.[localPrefSrc]?.hymn_1?.text)
             ? ['com1', 'com2']
                 .filter(com =>

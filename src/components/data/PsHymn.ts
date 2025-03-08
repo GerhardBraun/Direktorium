@@ -2959,7 +2959,7 @@ export const psalmsData = {
     0.0: {
         "title": "Nun ruft ein heil’ges Fasten aus",
         "quote": "Fastenzeit",
-        "text": "Nun ruft ein heil’ges Fasten aus,^lwie es die Väter uns gelehrt.^lGekommen ist im Jahreslauf^lder vierzig Tage heil’ge Zeit.^pSo hat es das Gesetz verlangt^lso der Propheten ernster Ruf.^lUnd Christus selbst hat diese Zeit^lgeheiligt durch sein eignes Tun.^pNach seinem Beispiel lasst auch uns^ldas Fasten üben in Geduld,^luns Abbruch tun in Speis und Trank,^lnachsinnen über Gottes Wort.^pDas Böse schwinde kraftlos hin,^ldas Gute blühe machtvoll auf,^lVersöhnung finde jedes Herz,^ldas sich dem Werk der Busse weiht.^pDir, höchster Gott, Dreifaltigkeit,^llobsinge alles, was da lebt.^lLass uns, durch deine Gnade neu,^ldich preisen durch ein neues Lied."
+        "text": "Nun ruft ein heil’ges Fasten aus,^lwie es die Väter uns gelehrt.^lGekommen ist im Jahreslauf^lder vierzig Tage heil’ge Zeit.^pSo hat es das Gesetz verlangt^lso der Propheten ernster Ruf.^lUnd Christus selbst hat diese Zeit^lgeheiligt durch sein eignes Tun.^pNach seinem Beispiel lasst auch uns^ldas Fasten üben in Geduld,^luns Abbruch tun in Speis und Trank,^lnachsinnen über Gottes Wort.^pDas Böse schwinde kraftlos hin,^ldas Gute blühe machtvoll auf,^lVersöhnung finde jedes Herz,^ldas sich dem Werk der Buße weiht.^pDir, höchster Gott, Dreifaltigkeit,^llobsinge alles, was da lebt.^lLass uns, durch deine Gnade neu,^ldich preisen durch ein neues Lied."
       }
   },
   3312: {
