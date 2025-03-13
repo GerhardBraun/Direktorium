@@ -10068,6 +10068,16 @@ export const brevierData = {
     },
     "each": {
       "0": {
+        "Laudes": {
+          "les_buch": "Apg",
+          "les_stelle": "10,40-43",
+          "resp1_1": "Christus, du Sohn des lebendigen Gottes,",
+          "resp1_2": "erbarme dich unser.",
+          "resp1_3": "Du bist wahrhaft vom Tode erstanden.",
+          "bitten_e": "Lob und Ehre sei Christus, dem Urheber des Lebens! Zu ihm lasst uns rufen:",
+          "bitten_r": "Christus, unser Leben, rette uns.",
+          "bitten": "Du Licht, das in der Finsternis leuchtet, du Fürst des Lebens, der rettet und heiligt, was dem Tod verfallen ist,^qlass uns mit österlichem Lobpreis das Fest deiner Auferstehung feiern.^pHerr, du bist durch Leiden und Tod in deine Herrlichkeit eingegangen;^qführe auch uns durch die Leiden dieser Zeit zur Auferstehung.^pSohn des ewigen Vaters, unser Meister und Bruder, du hast uns zu einem heiligen Volk gemacht für unseren Gott;^qlass uns die großen Taten Gottes verkünden.^pDu König der Herrlichkeit, wir erwarten den Tag, an dem du auch uns erscheinen wirst;^qlass uns dein Angesicht schauen und dir ähnlich werden auf ewig."
+        },
         "Lesehore": {
           "ant_1": "Halleluja. Der Stein ist weggewälzt vom Eingang des Grabes.^ö",
           "ant_2": "Halleluja. Was sucht ihr den, der lebt, bei den Toten?^ö",
@@ -14286,6 +14296,8 @@ export const brevierData = {
           "les_buch": "Neh",
           "les_stelle": "8,9b.10b",
           "les_text": "Heute ist ein heiliger Tag zu Ehren des Herrn, unseres Gottes. Seid nicht traurig und weint nicht! Macht euch keine Sorgen; denn die Freude am Herrn ist eure Stärke!",
+          "resp1_1": "Christus, du Sohn des lebendigen Gottes,",
+          "resp1_2": "erbarme dich unser.",
           "resp1_3": "Du wurdest misshandelt wegen unserer Sünden, wegen unserer Verbrechen durchbohrt.",
           "bitten_e": "Gepriesen sei Jesus Christus, unser Erlöser, der uns diese Zeit der Gnade gewährt. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, gib uns deinen Geist.",

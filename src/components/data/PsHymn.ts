@@ -133,7 +133,7 @@ export const psalmsData = {
         "verses": "1-7",
         "title": "Die Torheit der Gottesleugner",
         "quote": "Wo die Sünde mächtig wurde, da ist die Gnade übergroß geworden. (Röm 5,20)",
-        "text": "Die Toren sagen in ihrem Herzen:^*„Es gibt keinen Gott.“^pSie handeln verwerflich und schnöde;^*da ist keiner, der Gutes tut.^pDer Herr blickt vom Himmel herab auf die Menschen,^*ob noch ein Verständiger da ist, der Gott sucht.^pAlle sind sie abtrünnig und verdorben,^*keiner tut Gutes, auch nicht ein Einziger.^pHaben denn all die Übeltäter keine Einsicht?^*Sie verschlingen mein Volk.^pSie essen das Brot des Herrn,^*doch seinen Namen rufen sie nicht an.^pEs trifft sie Furcht und Schrecken,^*denn Gott steht auf der Seite der Gerechten.^pDie Pläne der Armen wollt ihr vereiteln,^*doch ihre Zuflucht ist der Herr.^pAch, käme doch vom Zion Hilfe für Israel!+^lWenn einst der Herr das Geschick seines Volkes wendet,^*dann jubelt Jakob, dann freut sich Israel."
+        "text": "Die Toren sagen in ihrem Herzen:^*„Es gibt keinen Gott.“^pSie handeln verwerflich und schnöde;^*da ist keiner, der Gutes tut.^pDer Herr blickt vom Himmel herab auf die Menschen,^*ob noch ein Verständiger da ist, der Gott sucht.^pAlle sind sie abtrünnig und verdorben,^*keiner tut Gutes, auch nicht ein Einziger.^pHaben denn all die Übeltäter keine Einsicht?^*Sie verschlingen mein Volk.^pSie essen das Brot des Herrn,^*doch seinen Namen rufen sie nicht an.^pEs trifft sie Furcht und Schrecken,^*denn Gott steht auf der Seite der Gerechten.^pDie Pläne der Armen wollt ihr vereiteln,^*doch ihre Zuflucht ist der Herr.^pAch, käme doch vom Zion Hilfe für Israel!^+^lWenn einst der Herr das Geschick seines Volkes wendet,^*dann jubelt Jakob, dann freut sich Israel."
       }
   },
   15: {
@@ -267,7 +267,7 @@ export const psalmsData = {
         "verses": "1-10",
         "title": "Der König der Herrlichkeit zieht ein in sein Heiligtum",
         "quote": "Durch die leibliche Aufnahme wurden Christus die Tore des Himmels geöffnet. (Irenäus)",
-        "text": "Dem Herrn gehört die Erde und was sie erfüllt,^*der Erdkreis und seine Bewohner.^pDenn er hat ihn auf Meere gegründet,^*ihn über Strömen befestigt.^pWer darf hinaufziehn zum Berg des Herrn,^*wer darf stehn an seiner heiligen Stätte?^pDer reine Hände hat und ein lauteres Herz,^*der nicht betrügt und keinen Meineid schwört.^pEr wird Segen empfangen vom Herrn^*und Heil von Gott, seinem Helfer.^pDas sind die Menschen, die nach ihm fragen,^*die dein Antlitz suchen, Gott Jakobs.^pIhr Tore, hebt euch nach oben,^+hebt euch, ihr uralten Pforten;^*denn es kommt der König der Herrlichkeit.^pWer ist der König der Herrlichkeit?^*Der Herr, stark und gewaltig, der Herr, mächtig im Kampf.^pIhr Tore, hebt euch nach oben,^+hebt euch, ihr uralten Pforten;^*denn es kommt der König der Herrlichkeit.^pWer ist der König der Herrlichkeit?^*Der Herr der Heerscharen, er ist der König der Herrlichkeit."
+        "text": "Dem Herrn gehört die Erde und°was°sie°erfüllt,^*der Erdkreis und seine Bewohner.^pDenn er hat ihn auf Meere gegründet,^*ihn über Strömen befestigt.^pWer darf hinaufziehn zum°Berg°des°Herrn,^*wer darf stehn an seiner heiligen Stätte?^pDer reine Hände hat und°ein°lauteres°Herz,^*der nicht betrügt und keinen Meineid schwört.^pEr wird Segen empfangen vom Herrn^*und Heil von Gott, seinem Helfer.^pDas sind die Menschen, die°nach°ihm°fragen,^*die dein Antlitz suchen, Gott Jakobs.^pIhr Tore, hebt euch nach oben,^+hebt euch, ihr uralten Pforten;^*denn es kommt der König der Herrlichkeit.^pWer ist der König der Herrlichkeit?^*Der Herr, stark und gewaltig, der°Herr,°mächtig°im°Kampf.^pIhr Tore, hebt euch nach oben,^+hebt euch, ihr uralten Pforten;^*denn es kommt der König der Herrlichkeit.^pWer ist der König der Herrlichkeit?^*Der Herr der Heerscharen, er°ist°der°König°der°Herrlichkeit."
       }
   },
   25: {
@@ -771,7 +771,7 @@ export const psalmsData = {
         "verses": "2-8",
         "title": "Dank für Gottes Segen",
         "quote": "Ihr sollt wissen: Den Heiden ist das Heil Gottes gesandt worden. (Apg 28,28)",
-        "text": "Gott sei uns gnädig und segne uns.^*Er lasse über uns sein Angesicht leuchten,^pdamit auf Erden sein Weg erkannt wird^*und unter allen Völkern sein Heil.^pDie Völker sollen dir danken, o°Gott,^*danken sollen dir die Völker alle.^pDie Nationen sollen sich freuen und jubeln.^*Denn du richtest den Erdkreis gerecht.^pDu richtest die Völker nach Recht^*und regierst die Nationen auf Erden.^pDie Völker sollen dir danken, o°Gott,^*danken sollen dir die Völker alle.^pDas Land gab seinen Ertrag.^*Es segne uns Gott, unser Gott!^pEs segne uns Gott!^*Alle Welt fürchte und ehre ihn!"
+        "text": "Gott sei uns gnädig und segne uns.^*Er lasse über uns sein Angesicht leuchten,^pdamit auf Erden sein Weg erkannt wird^*und unter allen Völkern sein Heil.^pDie Völker sollen dir danken, o°Gott,^*danken sollen dir die Völker alle.^pDie Nationen sollen sich freuen und°jubeln.^*Denn du richtest den Erdkreis gerecht.^pDu richtest die Völker nach Recht^*und regierst die Nationen auf Erden.^pDie Völker sollen dir danken, o°Gott,^*danken sollen dir die Völker alle.^pDas Land gab seinen Ertrag.^*Es segne uns Gott, unser Gott!^pEs segne uns Gott!^*Alle Welt fürchte und ehre ihn!"
       }
   },
   68: {
@@ -1152,7 +1152,7 @@ export const psalmsData = {
         "verses": "1-16",
         "title": "Aufruf zum Lobpreis Gottes",
         "quote": "Ermahnt einander jeden Tag, solange es noch heißt: Heute! (Hebr 3,13)",
-        "text": "Kommt, lasst uns jubeln vor dem Herrn^*und zujauchzen dem Fels unsres Heiles!^pLasst uns mit Lob seinem Angesicht nahen,^*vor ihm jauchzen mit Liedern!^pDenn der Herr ist ein großer Gott,^*ein großer König über allen Göttern.^pIn seiner Hand sind die Tiefen der Erde,^*sein sind die Gipfel der Berge.^pSein ist das Meer, das er gemacht hat,^*das trockene Land, das seine Hände gebildet.^pKommt, lasst uns niederfallen, uns vor ihm verneigen,^*lasst uns niederknien vor dem Herrn, unserm Schöpfer!^pDenn er ist unser Gott,^+wir sind das Volk seiner Weide,^*die Herde, von seiner Hand geführt.^pAch, würdet ihr doch heute auf seine Stimme hören!^+„Verhärtet euer Herz nicht wie in Meríba,^*wie in der Wüste am Tag von Massa!^pDort haben eure Väter mich versucht,^*sie haben mich auf die Probe gestellt und hatten doch mein Tun gesehen.^pVierzig Jahre war mir dies Geschlecht zuwider,^+und ich sagte: Sie sind ein Volk, dessen Herz in die Irre geht;^*denn meine Wege kennen sie nicht.^pDarum habe ich in meinem Zorn geschworen:^*Sie sollen nicht kommen in das Land meiner Ruhe.“"
+        "text": "Kommt, lasst uns jubeln vor dem Herrn^*und zujauchzen dem Fels unsres Heiles!^pLasst uns mit Lob seinem°Angesicht°nahen,^*vor ihm jauchzen mit Liedern!^pDenn der Herr ist ein großer Gott,^*ein großer König über allen Göttern.^pIn seiner Hand sind die Tiefen der Erde,^*sein sind die Gipfel der Berge.^pSein ist das Meer, das er gemacht hat,^*das trockene Land, das seine Hände gebildet.^pKommt, lasst uns niederfallen, uns°vor°ihm°verneigen,^*lasst uns niederknien vor dem Herrn, unserm Schöpfer!^pDenn er ist unser Gott,^+wir sind das Volk seiner Weide,^*die Herde, von seiner Hand geführt.^pAch, würdet ihr doch heute auf°seine°Stimme°hören!^+„Verhärtet euer Herz nicht wie in Meríba,^*wie in der Wüste am Tag von Massa!^pDort haben eure Väter mich versucht,^*sie haben mich auf die Probe gestellt und°hatten°doch°mein°Tun°gesehen.^pVierzig Jahre war mir dies Geschlecht zuwider,^+und ich sagte: Sie sind ein Volk, dessen°Herz°in°die°Irre°geht;^*denn meine Wege kennen sie nicht.^pDarum habe ich in meinem Zorn geschworen:^*Sie sollen nicht kommen in das Land meiner°Ruhe.“"
       }
   },
   96: {
@@ -1206,7 +1206,7 @@ export const psalmsData = {
         "verses": "1-5",
         "title": "Lobgesang beim Einzug in den Tempel",
         "quote": "Der Erlöser heißt uns das Siegeslied singen. (Athanasius)",
-        "text": "Jauchzt vor dem Herrn, alle Länder der Erde!^+Dient dem Herrn mit Freude!^*Kommt vor sein Antlitz mit Jubel!^pErkennt: Der Herr allein ist Gott.^+Er hat uns geschaffen, wir sind sein Eigentum,^*sein Volk und die Herde seiner Weide.^pTretet mit Dank durch seine Tore ein!^+Kommt mit Lobgesang in die Vorhöfe seines Tempels!^*Dankt ihm, preist seinen Namen!^pDenn der Herr ist gütig,^+ewig währt seine Huld,^*von Geschlecht zu Geschlecht seine Treue."
+        "text": "Jauchzt vor dem Herrn, alle°Länder°der°Erde!^+Dient dem Herrn mit Freude!^*Kommt vor sein Antlitz mit Jubel!^pErkennt: Der Herr allein ist Gott.^+Er hat uns geschaffen, wir°sind°sein°Eigentum,^*sein Volk und die Herde seiner Weide.^pTretet mit Dank durch seine Tore ein!^+Kommt mit Lobgesang in die Vorhöfe seines°Tempels!^*Dankt ihm, preist seinen Namen!^pDenn der Herr ist gütig,^+ewig währt seine Huld,^*von Geschlecht zu Geschlecht seine Treue."
       }
   },
   101: {
@@ -2980,7 +2980,7 @@ export const psalmsData = {
     0.0: {
         "title": "Du Sonne der Gerechtigkeit",
         "quote": "Fastenzeit",
-        "text": "Du Sonne der Gerechtigkeit,^lChristus vertreib in uns die Nacht,^ldass mit dem Licht des neuen Tags^lauch unser Herz sich neu erhellt.^pDu schenkst uns diese Gnadenzeit,^lgib auch ein reuevolles Herz^lund führe auf den Weg zurück,^ldie deine Langmut irren sah.^pEs kommt der Tag, dein Tag erscheint,^lda alles neu in Blüte steht;^lder Tag, der unsre Freude ist,^lder Tag der uns mit dir versöhnt.^pDir, höchster Gott, Dreifaltigkeit,^llobsinge alles, was da lebt.^lLass uns, durch deine Gnade neu,^ldich preisen durch ein neues Lied."
+        "text": "Du Sonne der Gerechtigkeit,^lChristus vertreib in uns die Nacht,^ldass mit dem Licht des neuen Tags^lauch unser Herz sich neu erhellt.^pDu schenkst uns diese Gnadenzeit,^lgib auch ein reuevolles Herz^lund führe auf den Weg zurück,^ldie deine Langmut irren sah.^pEs kommt der Tag, dein Tag erscheint,^lda alles neu in Blüte steht;^lder Tag, der unsre Freude ist,^lder Tag, der uns mit dir versöhnt.^pDir, höchster Gott, Dreifaltigkeit,^llobsinge alles, was da lebt.^lLass uns, durch deine Gnade neu,^ldich preisen durch ein neues Lied."
       }
   },
   3323: {
