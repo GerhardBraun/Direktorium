@@ -14543,7 +14543,7 @@ export const brevierData = {
           "les_text": "Bekennt einander eure Sünden und betet füreinander, damit ihr geheilt werdet! Viel vermag das inständige Gebet eines Gerechten. Meine Brüder, wenn einer bei euch von der Wahrheit abirrt und jemand ihn zur Umkehr bewegt, dann sollt ihr wissen: Wer einen Sünder, der auf Irrwegen ist, zur Umkehr bewegt, der rettet ihn vor dem Tod und deckt viele Sünden zu.",
           "bitten_e": "Lasst uns beten zu Jesus Christus, der durch sein Blut die Menschen heiligt:",
           "bitten_r": "Herr, erbarme dich deines Volkes.",
-          "bitten": "Steh deiner Kirche bei im Kampf gegen das Böse;^qlass sie gestärkt dem Osterfest entgegengehen.^pHilf den Bischöfen, Priestern und Diakonen, ihren Auftrag zu erfüllen;^qgib, dass sie durch ihren Dienst dich verkünden.^pSteh allen bei, die um deines Namens willen verfolgt und verspottet werden;^qhilf ihnen, auszuhalten im Gedanken an dein Kreuz."
+          "bitten": "Steh deiner Kirche bei im Kampf gegen das Böse;^qlass sie gestärkt dem Osterfest entgegengehen.^pHilf den Bischöfen, Priestern und Diakonen, ihren Auftrag zu erfüllen;^qgib, dass sie durch ihren Dienst dich verkünden.^pSteh allen bei, die um deines Namens willen verfolgt und verspottet werden;^qhilf ihnen, auszuhalten im Gedanken an dein Kreuz.^pErbarme dich aller, die aus Not und Bedrängnis zu dir rufen;^qlass dein Heil an ihnen sichtbar werden.^pGedenke aller, die in der Hoffnung auf dich aus dieser Welt geschieden sind;^qlass sie wohnen bei dir in ewiger Freude."
         }
       },
       "6": {

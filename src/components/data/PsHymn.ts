@@ -285,7 +285,7 @@ export const psalmsData = {
   26: {
     0.0: {
         "verses": "1-12",
-        "title": "Schaffe mir recht, o°Herr",
+        "title": "Schaffe mir recht, o Herr",
         "quote": "Gott hat uns in Christus erwählt, damit wir heilig und untadelig vor Gott leben. (Eph 1,4)",
         "text": "Verschaff mir Recht, o°Herr; denn ich habe ohne Schuld gelebt.^*Dem Herrn habe ich vertraut, ohne zu wanken.^pErprobe mich, Herr, und durchforsche mich,^*prüfe mich auf Herz und Nieren!^pDenn mir stand deine Huld vor Augen,^*ich ging meinen Weg in Treue zu dir.^pIch saß nicht bei falschen Menschen,^*mit Heuchlern hatte ich keinen Umgang.^pVerhasst ist mir die Schar derer, die Unrecht tun;^*ich sitze nicht bei den Frevlern.^pIch wasche meine Hände in Unschuld;^*ich umschreite, Herr, deinen Altar,^pum laut dein Lob zu verkünden^*und all deine Wunder zu erzählen.^pHerr, ich liebe den Ort, wo dein Tempel steht,^*die Stätte, wo deine Herrlichkeit wohnt.^pRaff mich nicht hinweg mit den Sündern,^*nimm mir nicht das Leben zusammen mit dem der Mörder!^pAn ihren Händen klebt Schandtat,^*ihre Rechte ist voll von Bestechung.^pIch aber gehe meinen Weg ohne Schuld.^*Erlöse mich und sei mir gnädig!^pMein Fuß steht auf festem Grund.^*Den Herrn will ich preisen in der Gemeinde."
       }
