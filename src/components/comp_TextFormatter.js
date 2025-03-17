@@ -33,6 +33,7 @@ export const formatText = (text) => {
     // Basis-Formatierungen
     let formattedText = text
         .replace(/¥°/g, ' \uFEFF')
+        .replace(/°in°/g, ' in\u00A0')
         .replace(/°/g, '\u00A0')
         .replace(/¥a/g, '\u2002\u2720')
         .replace(/¥-/g, '\u2011')
