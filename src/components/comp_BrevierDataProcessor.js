@@ -137,6 +137,7 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         weekOfPsalter,
         combinedSWD,
         rank_wt,
+        hasErsteVesper,
         isCommemoration,
         isImmacHeart
     } = getLiturgicalInfo(date);

@@ -76,9 +76,7 @@ export const formatPrayerText = (provText, marker = '',
                 R: "",
                 Sgroß: "",
                 Rgroß: ""
-            }
-            :
-            {
+            } : {
                 vR: " Darum bitten wir durch ihn, Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
                 V: " Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
                 S: ", der du in der Einheit des Heiligen Geistes mit Gott dem Vater lebst und herrschest in alle Ewigkeit.",
