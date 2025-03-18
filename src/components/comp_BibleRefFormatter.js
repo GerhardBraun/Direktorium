@@ -4,6 +4,7 @@ const formatBibleRef = (text, bracket = false) => {
     const originalText = bracket ? `(${text})` : text;
     let formattedText = text
         .replace(/-/g, '–')
+        .replace(/°°°/g, '¥')
         .replace(/°/g, ' ')
         .replace(/\u00a0/g, ' ');
     formattedText = formattedText.replace(/[ ]+/g, ' ');
@@ -40,6 +41,10 @@ const formatBibleRef = (text, bracket = false) => {
 
         switch (char) {
             case '@': return originalText.replace('@', '');
+            case '¥':
+                currentText += '\u00A0\u00A0\u00A0';
+                break;
+
             case ' ':
                 if (inVerseSection) {
                     addCurrentText();
