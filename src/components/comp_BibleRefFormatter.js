@@ -41,10 +41,6 @@ const formatBibleRef = (text, bracket = false) => {
 
         switch (char) {
             case '@': return originalText.replace('@', '');
-            case '¥':
-                currentText += '\u00A0\u00A0\u00A0';
-                break;
-
             case ' ':
                 if (inVerseSection) {
                     addCurrentText();
@@ -96,8 +92,13 @@ const formatBibleRef = (text, bracket = false) => {
     // Doppelte ° durch einzelnes ° ersetzen
     const finalResult = result.map(item =>
         typeof item === 'string'
-            ? item.replace(/\u00A0\u00A0/g, '\u00a0')
-            : React.cloneElement(item, {}, item.props.children.replace(/\u00A0\u00A0/g, '\u00A0'))
+            ? item
+                .replace(/\u00A0\u00A0/g, '\u00a0')
+                .replace(/¥/g, '\u00A0\u00A0\u00A0')
+            : React.cloneElement(item, {},
+                item.props.children
+                    .replace(/\u00A0\u00A0/g, '\u00A0')
+                    .replace(/¥/g, '\u00A0\u00A0\u00A0'))
     );
 
     let output = finalResult.length > 0 ? <>{finalResult}</> : originalText;
