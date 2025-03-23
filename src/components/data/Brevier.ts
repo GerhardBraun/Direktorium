@@ -14303,6 +14303,7 @@ export const brevierData = {
         "ErsteV": {
           "hymn_1": 3341.0,
           "hymn_2": 3342.0,
+          "hymn_kl": 0.0,
           "les_buch": "2°Kor",
           "les_stelle": "6,1–4a",
           "les_text": "Wir ermahnen euch, dass ihr die Gnade Gottes nicht vergebens empfangt. Denn es heißt: Zur Zeit der Gnade erhöre ich dich, am Tag der Rettung helfe ich dir. Jetzt ist sie da, die Zeit der Gnade; jetzt ist er da, der Tag der Rettung. Niemand geben wir auch nur den geringsten Anstoß, damit unser Dienst nicht getadelt werden kann. In allem erweisen wir uns als Gottes Diener.",

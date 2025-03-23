@@ -1,7 +1,7 @@
 import formatBibleRef from './comp_BibleRefFormatter.js';
 import React, { Fragment } from 'react';
 
-const doxology = "Ehre sei dem Vater und dem Sohn^*und dem Heiligen Geist,^pwie im Anfang so auch jetzt und alle Zeit^*und in Ewigkeit. Amen.";
+const doxology = "Ehre sei dem Vater und dem Sohn^*und dem Heiligen Geist,^pwie im Anfang so auch jetzt und°alle°Zeit^*und in Ewigkeit. Amen.";
 const easterAntiphon = "^p^rAnstelle des Responsoriums wird die°folgende°Antiphon°genommen:^0r^lDas ist der Tag, den der Herr gemacht hat. Lasst°uns°jubeln und seiner uns freuen. Halleluja.";
 
 // Formatiert Psalmen mit Nummer, Versen, Titel und Text
@@ -33,7 +33,7 @@ export const formatText = (text) => {
     // Basis-Formatierungen
     let formattedText = text
         .replace(/¥°/g, ' \uFEFF')
-        .replace(/°in°/g, ' in\u00A0')
+        .replace(/(d)°in°/g, '$1 in\u00A0')
         .replace(/°/g, '\u00A0')
         .replace(/¥a/g, '\u2002\u2720')
         .replace(/¥-/g, '\u2011')
@@ -189,7 +189,7 @@ export const formatPrayerText = (provText, marker = '',
                 } else {
                     return (
                         <Fragment key={`footnote-${index}`}>
-                            <span className="inline-block">{formatBibleRef(content, true)}</span>
+                            <span className="inline-block text-fussnote">{formatBibleRef(content, true)}</span>
                         </Fragment>
                     );
                 }

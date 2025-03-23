@@ -9,6 +9,7 @@ module.exports = {
         // Neue Farbdefinitionen für Buttons
         hell: '#e5e7eb',// text-gray-200
         dunkel: '#111827',// text-gray-900
+        grau: '#9ca3af',// text-gray-400
         liturgical: {
           green: {
             DEFAULT: 'rgba(21, 128, 61, 0.5)', // bg-green-700/50
@@ -75,6 +76,10 @@ module.exports = {
         '.prayer-heading': {
           '@apply font-bold text-rubric': {},
           'margin-top': '1em'  // relative Einheit beibehalten
+        },
+        '.text-fussnote': {
+          fontSize: '0.9em',
+          '@apply text-gray-400': {}
         },
         'sup': {
           fontSize: '0.7em',

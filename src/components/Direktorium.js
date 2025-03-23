@@ -1215,12 +1215,16 @@ const PrayerTextDisplay = ({
                         />
                         <div>
                             {(hour !== "lesehore") && (
-                                <div className='text-[0.9em] text-gray-400'>{formatPrayerText(getValue('les_buch'))} {formatBibleRef(getValue('les_stelle'))}</div>
+                                <div className='text-[0.9em] text-gray-400'>
+                                    {formatPrayerText(getValue('les_buch'))} {formatBibleRef(getValue('les_stelle'))}
+                                </div>
                             )}
                             {(hour === "lesehore") && (
                                 <>
                                     <div><span className='mr-3'>{formatPrayerText(getValue('les_buch'))}</span>
-                                        <span className='inline-block whitespace-nowrap text-[0.9em] text-gray-400'>{formatBibleRef(getValue('les_stelle'))}</span></div>
+                                        <span className='inline-block whitespace-nowrap text-[0.9em] text-gray-400'>
+                                            {formatBibleRef(getValue('les_stelle'))}
+                                        </span></div>
                                 </>)}
                             {formatPrayerText(getValue('les_text'))}
                         </div>
