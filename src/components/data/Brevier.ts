@@ -42,7 +42,7 @@ interface BrevierEntry {
   oration_komplet?: string;
   marant?: number;
   marant_lat?: number;
-  }
+}
 
 interface BrevierData {
   [season: string]: {
@@ -71,6 +71,47 @@ export const brevierData = {
     }
   },
   "4": {
+    "each": {
+      "0": {
+        "Non": {
+          "ps_1": 118.1,
+          "ps_2": 118.2,
+          "ps_3": 118.3,
+          "ant_1": "Gut ist es, sich zu bergen beim Herrn; seine Huld währt ewig.^Ö",
+          "ant_2": "Meine Stärke und mein Lied ist der Herr.^Ö",
+          "ant_3": "Ich danke dir, Herr, denn du hast mich erhört.^Ö"
+        },
+        "Sext": {
+          "ps_1": 118.1,
+          "ps_2": 118.2,
+          "ps_3": 118.3,
+          "ant_1": "Gut ist es, sich zu bergen beim Herrn; seine Huld währt ewig.^Ö",
+          "ant_2": "Meine Stärke und mein Lied ist der Herr.^Ö",
+          "ant_3": "Ich danke dir, Herr, denn du hast mich erhört.^Ö"
+        },
+        "Terz": {
+          "ps_1": 118.1,
+          "ps_2": 118.2,
+          "ps_3": 118.3,
+          "ant_1": "Gut ist es, sich zu bergen beim Herrn; seine Huld währt ewig.^Ö",
+          "ant_2": "Meine Stärke und mein Lied ist der Herr.^Ö",
+          "ant_3": "Ich danke dir, Herr, denn du hast mich erhört.^Ö"
+        }
+      },
+      "each": {
+        "Laudes": {
+          "ps_1": 63.0,
+          "ps_2": 160.0,
+          "ps_3": 149.0
+        },
+        "Lesehore": {
+          "vu": 211.0,
+          "vu_lat": 211.1
+        }
+      }
+    }
+  },
+  "5": {
     "each": {
       "0": {
         "Non": {
