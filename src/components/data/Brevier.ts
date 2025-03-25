@@ -3392,7 +3392,7 @@ export const brevierData = {
       },
       "25": {
         "each": {
-          "oration": "Allmächtiger Gott, du hast Jesus, unseren Heiland, und seine Mutter Maria der treuen Sorge des heiligen Josef anvertraut. Höre auf seine Fürsprache und hilf deiner Kirche, die Geheimnisse der Erlösung treu zu verwalten, bis das Werk des Heiles vollendet ist.^ORV"
+          "oration": "Gott, du bist groß und unbegreiflich. Nach deinem Willen ist dein ewiges Wort im Schoß der Jungfrau Maria Mensch geworden. Gläubig bekonnen wir, dass unser Erlöser wahrer Gott und wahrer Mensch ist. Mache uns würdig, Anteil zu erhalten an seinem göttlichen Leben.^ORV"
         },
         "ErsteV": {
           "button": "1. Vesper zu Verkündigung des Herrn",
