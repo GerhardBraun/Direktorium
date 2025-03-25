@@ -3418,7 +3418,7 @@ export const brevierData = {
           "bitten": "Du hast die Jungfrau Maria auserwählt, die Mutter deines Sohnes zu werden;^qerbarme dich aller Menschen, die auf die Erlösung warten.^pDurch den Engel Gabriel hast du den König angekündigt, dessen Reich kein Ende hat;^qschenke der ganzen Welt seinen Frieden.^pMaria hat dein göttliches Wort vom Heiligen Geist empfangen;^qmache alle Menschen bereit, Christus aufzunehmen.^pDu hast herabgeschaut auf deine niedrige Magd;^qrichte die Armen und Niedergedrückten auf.^pDu bist die Quelle des Lebens;^qauf die Fürsprache der seligen Jungfrau Maria schenke unseren Verstorbenen das ewige Leben."
         },
         "Invitatorium": {
-          "ant_0": "Lasst uns Gott loben am Fest des heiligen Josef!"
+          "ant_0": "Christus, das ewige Wort, nahm heute Fleisch an für uns; kommt, wir beten ihn an!^ö"
         },
         "Laudes": {
           "button": "Verkündigung des Herrn",
@@ -11789,8 +11789,8 @@ export const brevierData = {
           "ps_1": 50.1,
           "ps_2": 50.2,
           "ps_3": 50.3,
-          "ant_1": "Bring Gott, dem Höchsten, als Opfer dein Lob.^ö",
-          "ant_2": "Barmherzigkeit will ich, nicht Opfer, nicht Brandopfer, sondern Erkenntnis Gottes.^ö",
+          "ant_1": "Unser Gott schweigt nicht; er wird kommen und seine Stimme erheben.^ö",
+          "ant_2": "Bring Gott, dem Höchsten, als Opfer dein Lob.^ö",
           "ant_3": "Barmherzigkeit will ich, nicht Opfer, nicht Brandopfer, sondern Erkenntnis Gottes.^ö",
           "resp0_0": "Höre, mein Volk, ich will reden.",
           "resp0_1": "Höre, denn ich bin dein Gott."
