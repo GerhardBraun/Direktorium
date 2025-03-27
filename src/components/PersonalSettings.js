@@ -5,9 +5,10 @@ const PersonalSettings = () => {
     const [startView, setStartView] = useState(() =>
         localStorage.getItem('startViewMode') || 'directory'
     );
-    const [prefFootnotes, setPrefFootnotes] = useState(() =>
-        localStorage.getItem('prefFootnotes') || 'true'
-    );
+    const [prefFootnotes, setPrefFootnotes] = useState(() => {
+        const storedValue = localStorage.getItem('prefFootnotes');
+        return storedValue === 'false' ? false : true;
+    });
     const [popeName, setPopeName] = useState(() =>
         localStorage.getItem('popeName') || ''
     );

@@ -42,7 +42,7 @@ interface BrevierEntry {
   oration_komplet?: string;
   marant?: number;
   marant_lat?: number;
-}
+  }
 
 interface BrevierData {
   [season: string]: {
@@ -12078,7 +12078,7 @@ export const brevierData = {
           "ps_3": 90.0,
           "ant_1": "Herr, denk daran, was uns geschehen, blick her und sieh unsere Schmach.",
           "ant_2": "Ich bin die Wurzel Davids und sein Stamm, ich bin der leuchtende Stern, der Morgenstern.^ö",
-          "ant_3": "Unsere Jahre vergehen wie Gras, Du aber, Gott, bleibst in Ewigkeit.^ö",
+          "ant_3": "Unsere Jahre vergehen wie Gras. Du aber, Gott, bleibst in Ewigkeit.^ö",
           "resp0_0": "Herr, bei dir ist die Quelle des Lebens.",
           "resp0_1": "In deinem Licht schauen wir das Licht."
         },
