@@ -1674,6 +1674,7 @@ export default function LiturgicalCalendar() {
             console.log('Restoring selected date:', savedDate);
             setPrefSrc('eig');
             setPrefSollemnity('');
+            setUseCommemoration(false);
         }
 
         let newSelectedDate = false;
