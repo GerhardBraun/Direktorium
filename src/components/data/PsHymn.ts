@@ -1559,7 +1559,7 @@ export const psalmsData = {
     0.0: {
         "title": "Brüderliche Eintracht",
         "quote": "Die Gemeinde der Gläubigen war ein Herz und eine Seele. (Apg°4,32)",
-        "text": "Seht doch, wie gut und schön ist es,^*wenn Brüder miteinander in Eintracht wohnen.^pDas ist wie köstliches Salböl,^+das vom Kopf hinabfließt auf den Bart, auf Aarons Bart,^*das auf sein Gewand hinabfließt.^pDas ist wie der Tau des Hermon,^+der auf den Berg Zion niederfällt.^*Denn dort spendet der Herr Segen und Leben in Ewigkeit."
+        "text": "Seht doch, wie gut und schön ist es,^*wenn Brüder miteinander in Eintracht wohnen.^pDas ist wie köstliches Salböl,^+das vom Kopf hinabfließt auf den Bart, auf°Aarons°Bart,^*das auf sein Gewand hinabfließt.^pDas ist wie der Tau des Hermon,^+der auf den Berg Zion niederfällt.^*Denn dort spendet der Herr Segen und Leben in Ewigkeit."
       }
   },
   134: {
