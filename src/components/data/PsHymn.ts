@@ -1329,7 +1329,7 @@ export const psalmsData = {
         "verses": "1–9",
         "title": "Dank für Rettung und Heil",
         "quote": "Er ist der Stein, der von euch Bauleuten verworfen wurde, der aber zum Eckstein geworden ist. (Apg°4,11)",
-        "text": "Danket dem Herrn, denn er ist gütig,^*denn seine Huld währt ewig!^pSo soll Israel sagen:^*Denn seine Huld währt ewig.^pSo soll das Haus Aaron sagen:^*Denn seine Huld währt ewig.^pSo sollen alle sagen, die den Herrn fürchten und ehren:^*Denn seine Huld währt ewig.^pIn der Bedrängnis rief ich zum Herrn;^*der Herr hat mich erhört und mich frei gemacht.^pDer Herr ist bei mir, ich°fürchte°mich°nicht.^*Was können Menschen mir antun?^pDer Herr ist bei mir, er ist mein Helfer;^*ich aber schaue auf meine Hasser herab.^pBesser, sich zu bergen beim Herrn,^*als auf Menschen zu bauen.^pBesser, sich zu bergen beim Herrn,^*als auf Fürsten zu bauen."
+        "text": "Danket dem Herrn, denn er ist gütig,^*denn seine Huld währt ewig!^pSo soll Israel sagen:^*Denn seine Huld währt ewig.^pSo soll das Haus Aaron sagen:^*Denn seine Huld währt ewig.^pSo sollen alle sagen, die°den°Herrn°fürchten°und°ehren:^*Denn seine Huld währt ewig.^pIn der Bedrängnis rief ich zum Herrn;^*der Herr hat mich erhört und mich frei gemacht.^pDer Herr ist bei mir, ich°fürchte°mich°nicht.^*Was können Menschen mir antun?^pDer Herr ist bei mir, er ist mein Helfer;^*ich aber schaue auf meine Hasser herab.^pBesser, sich zu bergen beim Herrn,^*als auf Menschen zu bauen.^pBesser, sich zu bergen beim Herrn,^*als auf Fürsten zu bauen."
       },
     2.0: {
         "verses": "10–18",

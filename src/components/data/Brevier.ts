@@ -13831,20 +13831,8 @@ export const brevierData = {
         }
       },
       "each": {
-        "Laudes": {
-          "hymn_3": 3323.0,
-          "resp1_1": "Mit deinem heiligen Blute",
-          "resp1_2": "hast du uns losgekauft.",
-          "resp1_3": "Aus allen Stämmen und Sprachen"
-        },
         "Lesehore": {
           "hymn_3": 3313.0
-        },
-        "Vesper": {
-          "hymn_3": 3343.0,
-          "resp1_1": "Wir beten dich an, Herr, Jesus Christus,",
-          "resp1_2": "wir preisen dein heiliges Leiden.",
-          "resp1_3": "Durch deinen Tod am Kreuz hast du die Welt erlöst."
         }
       }
     },
@@ -14411,9 +14399,6 @@ export const brevierData = {
           "les_buch": "Ex",
           "les_stelle": "19,4bc–6a",
           "les_text": "Ihr habt gesehen, wie ich euch auf Adlerflügeln getragen und hierher zu mir gebracht habe. Jetzt aber, wenn ihr auf meine Stimme hört und meinen Bund haltet, werdet ihr unter allen Völkern mein besonderes Eigentum sein. Mir gehört die ganze Erde, ihr aber sollt mir als ein Reich von Priestern und als ein heiliges Volk gehören.",
-          "resp1_1": "Er rettet mich aus der Schlinge des Jägers,",
-          "resp1_2": "er befreit mich aus allem Verderben.",
-          "resp1_3": "Der Herr ist meine Zuflucht, zum Schutze hab’ ich mir erwählt den Höchsten.",
           "bitten_e": "Gepriesen sei Jesus Christus, unser Erlöser, der uns in seinem Tod den Weg des Heiles erschlossen hat. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, führe uns.",
           "bitten": "In der Taufe hast du uns nach deinem Bild neu geschaffen;^qlass uns dir immer ähnlicher werden.^pGib, dass wir in den Notleidenden dich erkennen,^qund mach uns bereit, ihnen zu helfen.^pHilf uns, dich mit ganzem Herzen zu suchen^qund heute zu tun, was recht und gut ist vor dir.^pVerzeihe uns, was wir gegen die Liebe gesündigt haben;^qlass uns untereinander ein Herz und eine Seele sein."
@@ -14447,9 +14432,6 @@ export const brevierData = {
           "les_buch": "Röm",
           "les_stelle": "12,1–2",
           "les_text": "Angesichts des Erbarmens Gottes ermahne ich euch, meine Brüder, euch selbst als lebendiges und heiliges Opfer darzubringen, das Gott gefällt; das ist für euch der wahre und angemessene Gottesdienst. Gleicht euch nicht dieser Welt an, sondern wandelt euch durch ein neues Denken, damit ihr prüfen und erkennen könnt, was der Wille Gottes ist: was ihm gefällt, was gut und vollkommen ist.",
-          "resp1_1": "Sei mir gnädig und heile mich,",
-          "resp1_2": "ich habe vor dir gesündigt.",
-          "resp1_3": "Verschließe mir nicht dein Erbarmen; Herr, eile mir zu Hilfe.",
           "bitten_e": "Lasst uns beten zum Herrn Jesus Christus, der sein Volk von der Macht der Sünde befreit hat:",
           "bitten_r": "Jesus, Sohn Davids, erbarme dich unser.",
           "bitten": "Du hast dich dahingegeben für deine Kirche;^qschenke ihr neues Leben durch Fasten und Buße.^pDu gibst den Menschen in der Taufe eine neue Würde;^qlass die Katechumenen die Größe ihrer Berufung erkennen.^pDu gibst den jungen Menschen ein Ziel ihres Strebens;^qzeige ihnen den rechten Weg.^pDu hast Mitleid mit allen, die krank sind und leiden;^qrichte sie auf und mache sie wieder gesund.^pDu lässt keinen im Stich, der auf dich vertraut;^qgib unseren Verstorbenen das ewige Leben."
