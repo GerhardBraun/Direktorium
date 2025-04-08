@@ -13599,6 +13599,7 @@ export const brevierData = {
     "5": {
       "0": {
         "each": {
+          "hymn_3": 0.0,
           "oration": "Herr, unser Gott, dein Sohn hat sich aus Liebe zur Welt dem Tod überliefert. Lass uns in seiner Liebe bleiben und mit deiner Gnade aus ihr leben.^ORV"
         },
         "ErsteV": {
@@ -13833,6 +13834,12 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "hymn_3": 3313.0
+        },
+        "Laudes": {
+          "hymn_3": 3323.0
+        },
+        "Vesper": {
+          "hymn_3": 3343.0
         }
       }
     },
