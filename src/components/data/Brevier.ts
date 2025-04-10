@@ -8818,6 +8818,8 @@ export const brevierData = {
           "oration": "Allmächtiger, ewiger Gott, am heutigen Tag hast du durch deinen Sohn den Tod besiegt und uns den Zugang zum ewigen Leben erschlossen. Darum begehen wir in Freude das Fest seiner Auferstehung. Schaffe uns neu durch deinen Geist, damit auch wir auferstehen und im Licht des Lebens wandeln.^ORV"
         },
         "Laudes": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_ev": "Am frühen Morgen des ersten Tages kamen sie zum Grab, als die Sonne schon aufgegangen war.^ö"
         },
         "Lesehore": {
@@ -8835,6 +8837,8 @@ export const brevierData = {
           "resp0_1": ""
         },
         "Vesper": {
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_ev": "Am Abend des ersten Tages waren die Jünger versammelt hinter verschlossenen Türen. Da trat Jesus in ihre Mitte und sprach: Friede sei mit euch.^ö"
         }
       },
@@ -8993,9 +8997,6 @@ export const brevierData = {
       },
       "each": {
         "Laudes": {
-          "hymn_1": 0.0,
-          "hymn_2": 0.0,
-          "hymn_3": 0.0,
           "hymn_kl": 0.0,
           "ps_1": 63.0,
           "ps_2": 160.0,
@@ -9033,9 +9034,6 @@ export const brevierData = {
           "resp1_1": "Lasst uns jubeln und seiner uns freuen.^ö"
         },
         "Vesper": {
-          "hymn_1": 0.0,
-          "hymn_2": 0.0,
-          "hymn_3": 0.0,
           "hymn_kl": 0.0,
           "ps_1": 110.0,
           "ps_2": 114.0,
@@ -9056,9 +9054,6 @@ export const brevierData = {
           "oration": "Barmherziger Gott, durch die jährliche Osterfeier erneuerst du den Glauben deines Volkes. Lass uns immer tiefer erkennen, wie heilig das Bad der Taufe ist, das uns gereinigt hat, wie mächtig dein Geist, aus dem wir wiedergeboren sind, und wie kostbar das Blut, durch das wir erkauft sind.^ORV"
         },
         "ErsteV": {
-          "hymn_1": 0.0,
-          "hymn_2": 0.0,
-          "hymn_3": 0.0,
           "hymn_kl": 0.0,
           "ps_1": 110.0,
           "ps_2": 114.0,
@@ -9069,9 +9064,6 @@ export const brevierData = {
           "ant_ev": "Acht Tage darauf kam Jesus wiederum bei verschlossenen Türen und sprach zu den Jüngern: Friede sei mit euch.^ö"
         },
         "Laudes": {
-          "hymn_1": 0.0,
-          "hymn_2": 0.0,
-          "hymn_3": 0.0,
           "hymn_kl": 0.0,
           "ps_1": 63.0,
           "ps_2": 160.0,
@@ -9092,9 +9084,6 @@ export const brevierData = {
           "resp0_1": "Sie sahen ihn und freuten sich.^ö"
         },
         "Vesper": {
-          "hymn_1": 0.0,
-          "hymn_2": 0.0,
-          "hymn_3": 0.0,
           "hymn_kl": 0.0,
           "ps_1": 110.0,
           "ps_2": 114.0,
@@ -10133,6 +10122,7 @@ export const brevierData = {
         "Laudes": {
           "les_buch": "Apg",
           "les_stelle": "10,40-43",
+          "les_text": "Gott hat Jesus ihn am dritten Tag auferweckt und hat ihn erscheinen lassen, zwar nicht dem ganzen Volk, wohl aber den von Gott vorherbestimmten Zeugen: uns, die wir mit ihm nach seiner Auferstehung von den Toten gegessen und getrunken haben. Und er hat uns geboten, dem Volk zu verkünden und zu bezeugen: Dieser ist der von Gott eingesetzte Richter der Lebenden und der Toten. Von ihm bezeugen alle Propheten, dass jeder, der an ihn glaubt, durch seinen Namen die Vergebung der Sünden empfängt.^R",
           "resp1_1": "Christus, du Sohn des lebendigen Gottes,",
           "resp1_2": "erbarme dich unser.",
           "resp1_3": "Du bist wahrhaft vom Tode erstanden.",
@@ -10175,7 +10165,7 @@ export const brevierData = {
         "Laudes": {
           "les_buch": "Röm",
           "les_stelle": "10,8b–10",
-          "les_text": "Das Wort ist dir nahe, es ist in deinem Mund und in deinem Herzen. Gemeint ist das Wort des Glaubens, das wir verkündigen; denn wenn du mit deinem Mund bekennst: \"Jesus ist der Herr\" und in deinem Herzen glaubst: \"Gott hat ihn von den Toten auferweckt\", so wirst du gerettet werden. Wer mit dem Herzen glaubt und mit dem Mund bekennt, wird Gerechtigkeit und Heil erlangen.^R",
+          "les_text": "Das Wort ist dir nahe, es ist in deinem Mund und in deinem Herzen. Gemeint ist das Wort des Glaubens, das wir verkündigen; denn wenn du mit deinem Mund bekennst: „Jesus ist der Herr“ und in deinem Herzen glaubst: „Gott hat ihn von den Toten auferweckt“, so wirst du gerettet werden. Wer mit dem Herzen glaubt und mit dem Mund bekennt, wird Gerechtigkeit und Heil erlangen.^R",
           "bitten_e": "Gepriesen sei unser Herr Jesus Christus, den der Vater verherrlicht und zum Erben der Völker gemacht hat:",
           "bitten_r": "Christus, unser Leben, rette uns.",
           "bitten": "Du hast dem Tod die Macht genommen und uns das neue Leben geschenkt;^qgib, dass wir als neue Menschen leben.^pDu hast Sünde und Tod bezwungen;^qhilf uns, dem Bösen zu widerstehen.^pDu hast das ganze Menschengeschlecht in die Freiheit der Kinder Gottes geführt;^qlass uns wachsen in dieser Freiheit.^pDu hast den Jüngern auf dem Weg nach Emmaus die Schriften aufgeschlossen;^qlass auch uns dich erkennen beim Brechen des Brotes."
@@ -13832,11 +13822,11 @@ export const brevierData = {
         }
       },
       "each": {
-        "Lesehore": {
-          "hymn_3": 3313.0
-        },
         "Laudes": {
           "hymn_3": 3323.0
+        },
+        "Lesehore": {
+          "hymn_3": 3313.0
         },
         "Vesper": {
           "hymn_3": 3343.0
@@ -13850,12 +13840,18 @@ export const brevierData = {
         },
         "ErsteV": {
           "button": "1. Vesper zum Palmsonntag",
+          "hymn_1": 3343.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "ant_1": "So lange war ich bei euch im Tempel und lehrte, und ihr habt mich nicht ergriffen; nun werdet ihr mich geißeln und kreuzigen.",
           "ant_2": "Der Herr wird mir helfen; darum werde ich nicht in Schande enden.",
           "ant_3": "Jesus, der Herr, erniedrigte sich. Er war gehorsam bis zum Tod am Kreuze.",
           "les_buch": "1°Petr",
           "les_stelle": "1,18–21",
           "les_text": "Ihr wisst, dass ihr aus eurer sinnlosen, von den Vätern ererbten Lebensweise nicht um einen vergänglichen Preis losgekauft wurdet, nicht um Silber oder Gold, sondern mit dem kostbaren Blut Christi, des Lammes ohne Fehl und Makel. Er war schon vor der Erschaffung der Welt dazu ausersehen, und euretwegen ist er am Ende der Zeiten erschienen. Durch ihn seid ihr zum Glauben an Gott gekommen, der ihn von den Toten auferweckt und ihm die Herrlichkeit gegeben hat, so dass ihr an Gott glauben und auf ihn hoffen könnt.",
+          "resp1_1": "Wir beten dich an, Herr, Jesus Christus,",
+          "resp1_2": "wir preisen dein heiliges Leiden.",
+          "resp1_3": "Durch deinen Tod am Kreuz hast du die Welt erlöst.",
           "ant_ev": "Sei gegrüßt, Sohn Davids, du unser König, von den Propheten verkündet als Retter der Welt.",
           "bitten_e": "Lasst uns beten zu Jesus Christus, der über die Stadt Jerusalem geweint hat:",
           "bitten_r": "Herr, erbarme dich deines Volkes.",
@@ -14036,28 +14032,37 @@ export const brevierData = {
           "oration_komplet": "Herr und Gott, kehre ein in dieses Haus und halte alle Nachstellungen des Feindes von ihm fern. Deine heiligen Engel mögen darin wohnen und uns im Frieden bewahren. Und dein Segen sei über uns allezeit. Darum bitten wir durch Christus, unsern Herrn. Amen."
         },
         "Laudes": {
+          "ps_1": 80.0,
+          "ps_2": 174.0,
+          "ps_3": 81.1,
           "ant_1": "Sieh her, mein Gott, verbirg nicht dein Gesicht, denn mir ist angst: erhöre mich bald.",
           "ant_2": "Gott ist mein Retter; ihm will ich vertrauen und niemals verzagen.",
           "ant_3": "Mit bestem Weizen nährt uns der Herr und sättigt uns mit Honig aus dem Felsen.",
           "les_buch": "Hebr",
           "les_stelle": "2,9b–10",
-          "les_text": "Wir sehen Jesus um seines Todesleidens willen mit Herrlichkeit und Ehre gekrönt; so war es Gottes gnädiger Wille, dass er für alle den Tod erlitten hat. Denn es war angemessen, dass Gott, für den und durch den das All ist und der viele Söhne zur Herrlichkeit führen wollte, den Urheber ihres Heils durch Leiden vollendete.^p^rAnstelle des Responsoriums wird die folgende Antiphon genommen:^0r^lChristus war für uns gehorsam bis zum Tod.",
-          "resp1_1": "",
-          "resp1_2": "",
-          "resp1_3": "",
+          "les_text": "Wir sehen Jesus um seines Todesleidens willen mit Herrlichkeit und Ehre gekrönt; so war es Gottes gnädiger Wille, dass er für alle den Tod erlitten hat. Denn es war angemessen, dass Gott, für den und durch den das All ist und der viele Söhne zur Herrlichkeit führen wollte, den Urheber ihres Heils durch Leiden vollendete.",
           "ant_ev": "Mit Sehnsucht habe ich danach verlangt, dieses Ostermahl mit euch zu halten, bevor ich leide."
         },
         "Non": {
+          "ps_1": 119.065,
+          "ps_2": 56.0,
+          "ps_3": 57.0,
           "les_buch": "Hebr",
           "les_stelle": "9,11–12",
           "les_text": "Christus ist gekommen als Hoherpriester der künftigen Güter; und durch das erhabenere und vollkommenere Zelt, das nicht von Menschenhand gemacht, das heißt nicht von dieser Welt ist, ist er ein für allemal in das Heiligtum hineingegangen, nicht mit dem Blut von Böcken und jungen Stieren, sondern mit seinem eigenen Blut, und so hat er eine ewige Erlösung bewirkt."
         },
         "Sext": {
+          "ps_1": 119.065,
+          "ps_2": 56.0,
+          "ps_3": 57.0,
           "les_buch": "Hebr",
           "les_stelle": "7,26–27",
           "les_text": "Ein solcher Hoherpriester war für uns in der Tat notwendig: einer, der heilig ist, unschuldig, makellos, abgesondert von den Sündern und erhöht über die Himmel; einer, der es nicht Tag für Tag nötig hat, wie die Hohenpriester zuerst für die eigenen Sünden Opfer darzubringen und dann für die des Volkes; denn das hat er ein für allemal getan, als er sich selbst dargebracht hat."
         },
         "Terz": {
+          "ps_1": 119.065,
+          "ps_2": 56.0,
+          "ps_3": 57.0,
           "les_buch": "Hebr",
           "les_stelle": "4,14–15",
           "les_text": "Da wir einen erhabenen Hohenpriester haben, der die Himmel durchschritten hat, Jesus, den Sohn Gottes, lasst uns an dem Bekenntnis festhalten. Wir haben ja nicht einen Hohenpriester, der nicht mitfühlen könnte mit unserer Schwäche, sondern einen, der in allem wie wir in Versuchung geführt worden ist, aber nicht gesündigt hat."
@@ -14212,6 +14217,9 @@ export const brevierData = {
           "ps_1": 64.0,
           "ps_2": 172.0,
           "ps_3": 150.0,
+          "ant_1": "Sie klagen um ihn, wie man klagt um den einzigen Sohn; denn er wurde getötet – und war doch ohne Schuld.",
+          "ant_2": "Vor den Pforten der Unterwelt rette, o Herr, mein Leben.",
+          "ant_3": "Ich war tot, doch ich lebe in Ewigkeit. Ich habe die Schlüssel des Todes und der Unterwelt.",
           "les_buch": "Hos",
           "les_stelle": "6,1–2",
           "les_text": "Kommt, wir kehren zum Herrn zurück! Denn er hat (Wunden) gerissen, er wird uns auch heilen; er hat verwundet, er wird auch verbinden. Nach zwei Tagen gibt er uns das Leben zurück, am dritten Tag richtet er uns wieder auf, und wir leben vor seinem Angesicht.^p^rAnstelle des Responsoriums wird die folgende Antiphon genommen:^0r^lChristus war für uns gehorsam bis zum Tod, bis zum Tod am Kreuze. Darum hat ihn Gott über alle erhöht und ihm den Namen verliehen, der jeden Namen übertrifft.",
@@ -14232,6 +14240,7 @@ export const brevierData = {
           "ant_3": "Hebt euch, ihr uralten Pforten! Es kommt der König der Herrlichkeit."
         },
         "Non": {
+          "ant_0": "Er darf weilen an der Stätte des Friedens. Der Zion wurde seine Wohnung.",
           "les_buch": "1°Joh",
           "les_stelle": "2,8b–10",
           "les_text": "Die Finsternis geht vorüber, und schon leuchtet das wahre Licht. Wer sagt, er sei im Licht, aber seinen Bruder hasst, ist noch in der Finsternis. Wer seinen Bruder liebt, bleibt im Licht; da gibt es für ihn kein Straucheln.",
@@ -14239,6 +14248,7 @@ export const brevierData = {
           "resp1_1": "Und ließen eine Wache von Soldaten am Grabe zurück."
         },
         "Sext": {
+          "ant_0": "Herr, mein Gott, du hast mich herausgeholt aus dem Reich des Todes.",
           "les_buch": "1°Joh",
           "les_stelle": "2,1b–2",
           "les_text": "Wir haben einen Beistand beim Vater: Jesus Christus, den Gerechten. Er ist die Sühne für unsere Sünden, aber nicht nur für unsere Sünden, sondern auch für die der ganzen Welt.",
@@ -14249,6 +14259,7 @@ export const brevierData = {
           "ps_1": 27.0,
           "ps_2": 30.0,
           "ps_3": 76.0,
+          "ant_0": "Ich werde schauen Gottes Güte im Lande der Lebenden.",
           "les_buch": "1°Joh",
           "les_stelle": "1,8–9",
           "les_text": "Wenn wir sagen, dass wir keine Sünde haben, führen wir uns selbst in die Irre, und die Wahrheit ist nicht in uns. Wenn wir unsere Sünden bekennen, ist er treu und gerecht; er vergibt uns die Sünden und reinigt uns von allem Unrecht.",

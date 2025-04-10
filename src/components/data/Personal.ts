@@ -314,6 +314,9 @@ export const personalData = {
     },
     "6": {
       "each": {
+        "Invitatorium": {
+          "ant_0": ""
+        },
         "Lesehore": {
           "hymn_1": 0.0
         }

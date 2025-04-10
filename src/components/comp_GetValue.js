@@ -27,7 +27,12 @@ export const getValue = ({ hour, texts, field,
 
     // Feier wie ein Hochfest
     const isSollemnity = (hour === 'vesper' && hasErsteVesper)
-        || prefSollemnity || rank_date === 5 || (rank_wt === 5 && combinedSWD !== 'q-0-3' && dayOfWeek !== 0);
+        || prefSollemnity || rank_date === 5 ||
+        (rank_wt === 5 &&
+            combinedSWD !== 'q-0-3' &&
+            !combinedSWD.startsWith('q-6-') &&
+            !combinedSWD.startsWith('o-1-') &&
+            dayOfWeek !== 0);
 
     // Bei Vesper als Hochfest
     if (hour === 'vesper' && sollemnityErsteVesper()) { hour = 'prefsollemnity'; }
