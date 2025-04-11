@@ -1413,14 +1413,15 @@ const PrayerTextDisplay = ({
                     </div>)}
             </div>
 
-            <div className="mt-2">
-                <NavigationButtons
-                    hour={hour}
-                    onBack={onBack}
-                    onSelectHour={onSelectHour}
-                    texts={texts}
-                />
-            </div>
+            {!(useCommemoration && ['laudes', 'vesper'].includes(hour)) && (
+                <div className="mt-2">
+                    <NavigationButtons
+                        hour={hour}
+                        onBack={onBack}
+                        onSelectHour={onSelectHour}
+                        texts={texts}
+                    />
+                </div>)}
 
 
             {isCommemoration && !prefSollemnity && !(hour === 'vesper' && texts.hasErsteVesper) &&
@@ -1443,7 +1444,7 @@ const PrayerTextDisplay = ({
                                 reduced={true}
                             />
 
-                            {getValue('c_patr_text') && (
+                            {getValue('c_patr_text') && useCommemoration && (
                                 <div className="mb-0">
                                     <SectionHeader
                                         title="ZWEITE LESUNG"
@@ -1458,7 +1459,7 @@ const PrayerTextDisplay = ({
                                     </div>
                                 </div>)}
 
-                            {getValue('c_patr_resp1') && (
+                            {getValue('c_patr_resp1') && useCommemoration && (
                                 <div className="mb-0">
                                     <SectionHeader title="RESPONSORIUM" field="resp1_1" />
                                     {getValue('c_patr_resp1') && getValue('c_patr_resp2') && (
@@ -1482,7 +1483,7 @@ const PrayerTextDisplay = ({
                                     )}
                                 </div>)}
 
-                            {getValue('c_ant_ev') && (
+                            {getValue('c_ant_ev') && useCommemoration && (
                                 <div className="mb-0">
                                     <SectionHeader
                                         title={`${getCanticleTitle(hour)}-ANTIPHON`}
@@ -1493,7 +1494,7 @@ const PrayerTextDisplay = ({
                                     </div>
                                 </div>)}
 
-                            {getValue('c_oration') && (
+                            {getValue('c_oration') && useCommemoration && (
                                 <div className="mb-0">
                                     <SectionHeader title="ORATION" field="oration" />
                                     <div className="whitespace-pre-wrap">
@@ -1501,14 +1502,15 @@ const PrayerTextDisplay = ({
                                     </div>
                                 </div>)}
                         </div>
-                        <div className="mt-2">
-                            <NavigationButtons
-                                hour={hour}
-                                onBack={onBack}
-                                onSelectHour={onSelectHour}
-                                texts={texts}
-                            />
-                        </div>
+                        {useCommemoration && (
+                            <div className="mt-2">
+                                <NavigationButtons
+                                    hour={hour}
+                                    onBack={onBack}
+                                    onSelectHour={onSelectHour}
+                                    texts={texts}
+                                />
+                            </div>)}
                     </>)}
         </div>
     );
