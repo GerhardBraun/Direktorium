@@ -1361,7 +1361,7 @@ export const psalmsData = {
       },
     25.0: {
         "verses": "25–32°°°IV°·°Dalet",
-        "text": "Meine Seele klebt am Boden.^*Durch dein Wort belebe mich!^pIch habe dir mein Geschick erzählt, und°du°erhörtest°mich.^*Lehre mich deine Gesetze!^pLass mich den Weg begreifen, den deine Befehle mir zeigen,^*dann will ich nachsinnen über deine Wunder.^pMeine Seele zerfließt vor Kummer.^*Richte mich auf durch dein Wort!^pHalte mich fern vom Weg der Lüge;^*begnade mich mit deiner Weisung!^pIch wählte den Weg der Wahrheit;^*nach deinen Urteilen hab’ ich Verlangen.^pIch halte an deinen Vorschriften fest.^*Herr, lass mich niemals scheitern!^pIch eile voran auf°dem°Weg°deiner°Gebote,^*denn mein Herz machst du weit."
+        "text": "Meine Seele klebt am Boden.^*Durch dein Wort belebe mich!^pIch habe dir mein Geschick erzählt, und°du°erhörtest°mich.^*Lehre mich deine Gesetze!^pLass mich den Weg begreifen, den°deine°Befehle°mir°zeigen,^*dann will ich nachsinnen über deine Wunder.^pMeine Seele zerfließt vor Kummer.^*Richte mich auf durch dein Wort!^pHalte mich fern vom Weg der Lüge;^*begnade mich mit deiner Weisung!^pIch wählte den Weg der Wahrheit;^*nach deinen Urteilen hab’ ich Verlangen.^pIch halte an deinen Vorschriften fest.^*Herr, lass mich niemals scheitern!^pIch eile voran auf°dem°Weg°deiner°Gebote,^*denn mein Herz machst du weit."
       },
     33.0: {
         "verses": "33–40°°°V°·°He",
