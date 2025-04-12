@@ -37,7 +37,7 @@ export const psalmsData = {
     0.0: {
         "title": "Gebet am Abend",
         "quote": "Wunderbar hat der Herr an ihm gehandelt, den er von den Toten auferweckte. (Augustinus)",
-        "text": "Wenn ich rufe, erhöre mich,^*Gott, du mein Retter!^pDu hast mir Raum geschaffen, als°mir°angst°war.^*Sei mir gnädig und hör auf mein Flehen!^pIhr Mächtigen, wie lange noch schmäht°ihr°meine°Ehre,^*warum liebt ihr den Schein und°sinnt°auf°Lügen?^pErkennt doch: Wunderbar handelt°der°Herr an°den°Frommen;^*der Herr erhört mich, wenn ich zu ihm rufe.^pEreifert ihr euch, so sündigt nicht!^*Bedenkt es auf eurem Lager und werdet still!^pBringt rechte Opfer dar^*und vertraut auf den Herrn!^pViele sagen: „Wer°lässt°uns°Gutes°erleben?“^*Herr, lass dein Angesicht über uns leuchten!^pDu legst mir größere Freude ins Herz,^*als andere haben bei Korn und Wein in°Fülle.^pIn Frieden leg ich mich nieder und°schlafe°ein;^*denn du allein, Herr, lässt mich sorglos°ruhen.^p"
+        "text": "Wenn ich rufe, erhöre mich,^*Gott, du mein Retter!^pDu hast mir Raum geschaffen, als°mir°angst°war.^*Sei mir gnädig und hör auf mein Flehen!^pIhr Mächtigen, wie lange noch schmäht°ihr°meine°Ehre,^*warum liebt ihr den Schein und°sinnt°auf°Lügen?^pErkennt doch: Wunderbar handelt°der°Herr an°den°Frommen;^*der Herr erhört mich, wenn ich zu ihm rufe.^pEreifert ihr euch, so sündigt nicht!^*Bedenkt es auf eurem Lager und werdet still!^pBringt rechte Opfer dar^*und vertraut auf den Herrn!^pViele sagen: „Wer°lässt°uns°Gutes°erleben?“^*Herr, lass dein Angesicht über uns leuchten!^pDu legst mir größere Freude ins Herz,^*als andere haben bei Korn und Wein in°Fülle.^pIn Frieden leg’ ich mich nieder und°schlafe°ein;^*denn du allein, Herr, lässt mich sorglos°ruhen.^p"
       }
   },
   5: {
