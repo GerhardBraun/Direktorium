@@ -13836,7 +13836,7 @@ export const brevierData = {
     "6": {
       "0": {
         "each": {
-          "oration": "Allmächtiger, ewiger Gott, deinem Willen gehorsam, hat unser Erlöser Fleisch angenommen, er hat sich selbst erniedrigt und sich unter das Kreuz gebeugt. Hilf uns, dass wir ihm auf dem Weg des Leidens nachfolgen und an seiner Auferstehung Anteil erlangen.^ORvR"
+          "oration": "Allmächtiger, ewiger Gott, deinem Willen gehorsam, hat unser Erlöser Fleisch angenommen, er hat sich selbst erniedrigt und sich unter die Schmach des Kreuzes gebeugt. Hilf uns, dass wir ihm auf dem Weg des Leidens nachfolgen und an seiner Auferstehung Anteil erlangen.^ORvR"
         },
         "ErsteV": {
           "button": "1. Vesper zum Palmsonntag",
