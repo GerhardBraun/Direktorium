@@ -577,7 +577,8 @@ function processKompletData(data, calendarDate) {
     else if ((kompletMonth === 12 && kompletDay > 25) || (combinedSWD.startsWith('o-1-'))) {
         showKompletWt = false; prefKomplet = 'wt'
     }
-    else if (rank_wt === 5 && combinedSWD !== 'q-0-3') {
+    else if (rank_wt === 5 && 
+        !['q-0-3', 'q-6-1', 'q-6-2', 'q-6-3'].includes(combinedSWD)) {
         showKompletWt = false; prefKomplet = 'k2'
     }
     return {
