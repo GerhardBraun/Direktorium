@@ -13940,12 +13940,13 @@ export const brevierData = {
           "oration": "Allmächtiger, ewiger Gott, hilf uns, das Gedächtnis des Leidens Christi so zu begehen, dass wir von dir Verzeihung erlangen.^ORV"
         },
         "Laudes": {
+          "ps_3": 65.0,
           "ant_1": "Führe du meine Sache, Herr; rette mich vor bösen und tückischen Menschen.",
           "ant_2": "Du hast meine Sache geführt; Herr, mein Gott, du hast mein Leben erlöst.",
           "ant_3": "Mein Knecht ist gerecht, darum macht er viele gerecht; ihre Schuld nimmt er auf sich.",
           "les_buch": "Sach",
           "les_stelle": "12,10–11a",
-          "les_text": "Über das Haus David und über die Einwohner Jerusalems werde ich den Geist des Mitleids und des Gebets ausgießen. Und sie werden auf den blicken, den sie durchbohrt haben. Sie werden um ihn klagen, wie man um den einzigen Sohn klagt; sie werden bitter um ihn weinen, wie man um den Erstgeborenen weint. An jenem Tag wird die Totenklage sein in Jerusalem.",
+          "les_text": "Über das Haus David und über die Einwohner Jerusalems werde ich den Geist des Mitleids und des Gebets ausgießen. Und sie werden auf den blicken, den sie durchbohrt haben. Sie werden um ihn klagen, wie man um den einzigen Sohn klagt; sie werden bitter um ihn weinen, wie man um den Erstgeborenen weint. An jenem Tag wird laute Totenklage sein in Jerusalem.",
           "ant_ev": "Vater, verherrliche du mich bei dir mit der Herrlichkeit, die ich bei dir hatte, bevor die Welt geschaffen war."
         },
         "Non": {

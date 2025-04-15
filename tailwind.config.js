@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        rubric: '#b6a03a',
+        rubric: '#DC2626', // rot
+        rubric: '#b6a03a', // gold
         // Neue Farbdefinitionen für Buttons
         hell: '#e5e7eb',// text-gray-200
         dunkel: '#111827',// text-gray-900
