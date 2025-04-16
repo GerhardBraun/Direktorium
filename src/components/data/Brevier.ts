@@ -13979,6 +13979,7 @@ export const brevierData = {
           "oration": "Heiliger Gott, du hast deinen Sohn der Schmach des Kreuzes unterworfen, um uns der Gewalt des Bösen zu entreißen. Gib uns die Gnade, dass auch wir deinem Willen gehorchen und einst in Herrlichkeit auferstehen.^ORvR"
         },
         "Laudes": {
+          "ps_3": 97.0,
           "ant_1": "Am Tag meiner Not suche ich Gott mit ausgestreckten Armen.",
           "ant_2": "Sind wir mit Christus gestorben, so werden wir auch mit ihm leben.",
           "ant_3": "Christus Jesus wurde für uns Weisheit von Gott, Gerechtigkeit und Heiligung und Erlösung.",
