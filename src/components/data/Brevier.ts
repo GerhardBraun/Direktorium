@@ -10158,7 +10158,7 @@ export const brevierData = {
           "les_text": "Christus hat nur ein einziges Opfer für die Sünden dargebracht und sich dann für immer zur Rechten Gottes gesetzt; seitdem wartet er, bis seine Feinde ihm als Schemel unter die Füße gelegt werden. Denn durch ein einziges Opfer hat er die, die geheiligt werden, für immer zur Vollendung geführt.^R",
           "bitten_e": "Lasst uns beten zu Jesus Christus, unserem Herrn, der im Tode den Tod überwunden hat:",
           "bitten_r": "Du König der Herrlichkeit, höre uns.",
-          "bitten": "Christus, siegreich von den Toten erstanden;^qgib allen in der Welt österliche Freude, die heute das Fest deiner Auferstehung feiern.^pGedenke aller Neugetauften, die wiedergeboren wurden aus dem Wasser und dem Heiligen Geist;^qlass das neue Leben in ihnen wachsen.^psegne alle, die in diesem Jahr zum erstenmal zu deinem Tisch hinzutreten;^qstärke sie auf ihrem Lebensweg.^plenke die Herzen derer, die uns regieren,^qund schenke allen Völkern der Erde Freiheit und Frieden.^pDu hast die Bande des Todes zerbrochen;^qschenke unseren Verstorbenen Anteil an deinem Ostersieg."
+          "bitten": "Christus, siegreich von den Toten erstanden;^qgib allen in der Welt österliche Freude, die heute das Fest deiner Auferstehung feiern.^pGedenke aller Neugetauften, die wiedergeboren wurden aus dem Wasser und dem Heiligen Geist;^qlass das neue Leben in ihnen wachsen.^pSegne alle, die in diesem Jahr zum erstenmal zu deinem Tisch hinzutreten;^qstärke sie auf ihrem Lebensweg.^pLenke die Herzen derer, die uns regieren,^qund schenke allen Völkern der Erde Freiheit und Frieden.^pDu hast die Bande des Todes zerbrochen;^qschenke unseren Verstorbenen Anteil an deinem Ostersieg."
         }
       },
       "1": {

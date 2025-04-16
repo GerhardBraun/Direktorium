@@ -29,7 +29,7 @@ const KompletSelector = ({
         const isDisabled = (value === 'wt' && !showKompletWt) ||
             (value === 'k1' && !showKompletK1) ||
             (value === 'k2' && !showKompletK2);
-        console.log('KompletSelector: value/isDefault', value, isDefault)
+        //console.log('KompletSelector: value/isDefault', value, isDefault)
         return `p-1 pt-2 text-sm ${(askSelection && value === 'wt') ? 'text-right' : 'text-center'} rounded-sm
             ${isDefault ? `text-rubric` : isDisabled ? 'text-gray-400 dark:text-gray-600' :
                 'text-gray-900 dark:text-gray-100'}

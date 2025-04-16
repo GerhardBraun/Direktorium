@@ -274,7 +274,7 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         addLayer(season, week, dayOfWeek);
 
         // Oration der Komplet in der Osteroktav
-        if (season === 'o' && week === '1' && dayOfWeek > 0 && dayOfWeek < 6) {
+        if (season === 'o' && week === 1 && dayOfWeek > 0 && dayOfWeek < 6) {
             const easterKomplet1 = brevierData['k1']?.['o']?.['6']
             const easterKomplet2 = brevierData['k2']?.['o']?.['0']
             mergeData(hours, easterKomplet1, 'k1')
@@ -577,7 +577,7 @@ function processKompletData(data, calendarDate) {
     else if ((kompletMonth === 12 && kompletDay > 25) || (combinedSWD.startsWith('o-1-'))) {
         showKompletWt = false; prefKomplet = 'wt'
     }
-    else if (rank_wt === 5 && 
+    else if (rank_wt === 5 &&
         !['q-0-3', 'q-6-1', 'q-6-2', 'q-6-3'].includes(combinedSWD)) {
         showKompletWt = false; prefKomplet = 'k2'
     }
