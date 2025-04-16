@@ -14081,7 +14081,7 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "oration": "Herr, unser Gott, sieh herab auf deine Familie, für die unser Herr Jesus Christus sich willig den Händen der Frevler überliefert und die Marter des Kreuzes auf sich genommen hat. Darum bitten wir durch ihn,^ORR"
+          "oration": "Herr, unser Gott, sieh herab auf deine Familie, für die unser Herr Jesus Christus sich willig den Händen der Frevler überliefert und die Marter des Kreuzes auf sich genommen hat. Er,^ORR"
         },
         "Invitatorium": {
           "ant_0": "Christus, der Sohn Gottes, hat uns mit seinem Blut erkauft; kommt, wir beten ihn an!"
@@ -14200,7 +14200,7 @@ export const brevierData = {
           "ant_3": "",
           "les_buch": "Offb",
           "les_stelle": "22,4–5",
-          "les_text": "Sie werden sein Angesicht schauen, und sein Name ist auf ihre Stirn geschrieben. Es wird keine Nacht mehr geben, und sie brauchen weder das Licht einer Lampe noch das Licht der Sonne. Denn der Herr, ihr Gott, wird über ihnen leuchten, und sie werden herrschen in alle Ewigkeit.^p^rAnstelle des Responsoriums wird die°folgende°Antiphon°genommen:^0r^lChristus war für uns gehorsam bis zum Tod, bis°zum°Tod°am°Kreuze. Darum hat ihn Gott über alle erhöht und ihm den Namen verliehen, der jeden Namen übertrifft.",
+          "les_text": "Sie werden sein Angesicht schauen, und sein Name ist auf ihre Stirn geschrieben. Es wird keine Nacht mehr geben, und sie brauchen weder das Licht einer Lampe noch das Licht der Sonne. Denn der Herr, ihr Gott, wird über ihnen leuchten, und sie werden herrschen in alle Ewigkeit.^p^rAnstelle des Responsoriums wird die°folgende°Antiphon°genommen:^0r^lChristus war für uns gehorsam bis zum Tod, bis°zum°Tod°am°Kreuze. Darum hat ihn Gott über alle erhöht und ihm den Namen verliehen, der größer ist als alle Namen.",
           "resp1_1": "",
           "resp1_2": "",
           "resp1_3": "",
@@ -14215,7 +14215,7 @@ export const brevierData = {
           "ant_3": "Ich war tot, doch ich lebe in Ewigkeit. Ich habe die Schlüssel des Todes und der Unterwelt.",
           "les_buch": "Hos",
           "les_stelle": "6,1–2",
-          "les_text": "Kommt, wir kehren zum Herrn zurück! Denn er hat (Wunden) gerissen, er wird uns auch heilen; er hat verwundet, er wird auch verbinden. Nach zwei Tagen gibt er uns das Leben zurück, am dritten Tag richtet er uns wieder auf, und wir leben vor seinem Angesicht.^p^rAnstelle des Responsoriums wird die°folgende°Antiphon°genommen:^0r^lChristus war für uns gehorsam bis zum Tod, bis°zum°Tod°am°Kreuze. Darum hat ihn Gott über alle erhöht und ihm den Namen verliehen, der jeden Namen übertrifft.",
+          "les_text": "Kommt, wir kehren zum Herrn zurück! Denn er hat (Wunden) gerissen, er wird uns auch heilen; er hat verwundet, er wird auch verbinden. Nach zwei Tagen gibt er uns das Leben zurück, am dritten Tag richtet er uns wieder auf, und wir leben vor seinem Angesicht.^p^rAnstelle des Responsoriums wird die°folgende°Antiphon°genommen:^0r^lChristus war für uns gehorsam bis zum Tod, bis°zum°Tod°am°Kreuze. Darum hat ihn Gott über alle erhöht und ihm den Namen verliehen, der größer ist als alle Namen.",
           "resp1_1": "",
           "resp1_2": "",
           "resp1_3": "",
@@ -14268,7 +14268,7 @@ export const brevierData = {
           "ant_3": "Jesus sprach: Reißt diesen Tempel nieder – in drei Tagen richte ich ihn wieder auf. Er meinte den Tempel seines Leibes.",
           "les_buch": "1°Petr",
           "les_stelle": "1,18–21",
-          "les_text": "Ihr wisst, dass ihr aus eurer sinnlosen, von den Vätern ererbten Lebensweise nicht um einen vergänglichen Preis losgekauft wurdet, nicht um Silber oder Gold, sondern mit dem kostbaren Blut Christi, des Lammes ohne Fehl und Makel. Er war schon vor der Erschaffung der Welt dazu ausersehen, und euretwegen ist er am Ende der Zeiten erschienen. Durch ihn seid ihr zum Glauben an Gott gekommen, der ihn von den Toten auferweckt und ihm die Herrlichkeit gegeben hat, so dass ihr an Gott glauben und auf ihn hoffen könnt.^p^rAnstelle des Responsoriums wird die°folgende°Antiphon°genommen:^0r^lChristus war für uns gehorsam bis zum Tod, bis°zum°Tod°am°Kreuze. Darum hat ihn Gott über alle erhöht und ihm den Namen verliehen, der jeden Namen übertrifft.",
+          "les_text": "Ihr wisst, dass ihr aus eurer sinnlosen, von den Vätern ererbten Lebensweise nicht um einen vergänglichen Preis losgekauft wurdet, nicht um Silber oder Gold, sondern mit dem kostbaren Blut Christi, des Lammes ohne Fehl und Makel. Er war schon vor der Erschaffung der Welt dazu ausersehen, und euretwegen ist er am Ende der Zeiten erschienen. Durch ihn seid ihr zum Glauben an Gott gekommen, der ihn von den Toten auferweckt und ihm die Herrlichkeit gegeben hat, so dass ihr an Gott glauben und auf ihn hoffen könnt.^p^rAnstelle des Responsoriums wird die°folgende°Antiphon°genommen:^0r^lChristus war für uns gehorsam bis zum Tod, bis°zum°Tod°am°Kreuze. Darum hat ihn Gott über alle erhöht und ihm den Namen verliehen, der größer ist als alle Namen.",
           "resp1_1": "",
           "resp1_2": "",
           "resp1_3": "",
