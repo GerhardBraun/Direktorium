@@ -14036,7 +14036,7 @@ export const brevierData = {
         "Laudes": {
           "ps_1": 80.0,
           "ps_2": 174.0,
-          "ps_3": 81.1,
+          "ps_3": 81.0,
           "ant_1": "Sieh her, mein Gott, verbirg nicht dein Gesicht, denn mir ist angst: erhöre mich bald.",
           "ant_2": "Gott ist mein Retter; ihm will ich vertrauen und niemals verzagen.",
           "ant_3": "Mit bestem Weizen nährt uns der Herr und sättigt uns mit Honig aus dem Felsen.",
@@ -14046,25 +14046,16 @@ export const brevierData = {
           "ant_ev": "Mit Sehnsucht habe ich danach verlangt, dieses Ostermahl mit euch zu halten, bevor ich leide."
         },
         "Non": {
-          "ps_1": 119.065,
-          "ps_2": 56.0,
-          "ps_3": 57.0,
           "les_buch": "Hebr",
           "les_stelle": "9,11–12",
           "les_text": "Christus ist gekommen als Hoherpriester der künftigen Güter; und durch das erhabenere und vollkommenere Zelt, das nicht von Menschenhand gemacht, das heißt nicht von dieser Welt ist, ist er ein für allemal in das Heiligtum hineingegangen, nicht mit dem Blut von Böcken und jungen Stieren, sondern mit seinem eigenen Blut, und so hat er eine ewige Erlösung bewirkt."
         },
         "Sext": {
-          "ps_1": 119.065,
-          "ps_2": 56.0,
-          "ps_3": 57.0,
           "les_buch": "Hebr",
           "les_stelle": "7,26–27",
           "les_text": "Ein solcher Hoherpriester war für uns in der Tat notwendig: einer, der heilig ist, unschuldig, makellos, abgesondert von den Sündern und erhöht über die Himmel; einer, der es nicht Tag für Tag nötig hat, wie die Hohenpriester zuerst für die eigenen Sünden Opfer darzubringen und dann für die des Volkes; denn das hat er ein für allemal getan, als er sich selbst dargebracht hat."
         },
         "Terz": {
-          "ps_1": 119.065,
-          "ps_2": 56.0,
-          "ps_3": 57.0,
           "les_buch": "Hebr",
           "les_stelle": "4,14–15",
           "les_text": "Da wir einen erhabenen Hohenpriester haben, der die Himmel durchschritten hat, Jesus, den Sohn Gottes, lasst uns an dem Bekenntnis festhalten. Wir haben ja nicht einen Hohenpriester, der nicht mitfühlen könnte mit unserer Schwäche, sondern einen, der in allem wie wir in Versuchung geführt worden ist, aber nicht gesündigt hat."
