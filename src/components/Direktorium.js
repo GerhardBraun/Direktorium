@@ -1196,15 +1196,18 @@ const PrayerMenu = ({
         })}
       </div>
 
-      {/* Mass */}
-      <button
-        onClick={() => onSelectHour("mass")}
-        className="w-full p-3 mb-6 text-center rounded-lg bg-gray-100 dark:bg-gray-800
-                           hover:bg-gray-200 dark:hover:bg-gray-700
-                           text-gray-900 dark:text-gray-100"
-      >
-        Messfeier
-      </button>
+      {/* Mass - ausgeblendet */}
+      {viewMode === "ausblenden" && (<>
+
+        <button
+          onClick={() => onSelectHour("mass")}
+          className="w-full p-3 mb-6 text-center rounded-lg bg-gray-100 dark:bg-gray-800
+        hover:bg-gray-200 dark:hover:bg-gray-700
+        text-gray-900 dark:text-gray-100"
+        >
+          Messfeier
+        </button>
+      </>)}
 
       {/* View Selection with spacing */}
       <div className="pt-4 border-t dark:border-gray-700">
@@ -2820,32 +2823,34 @@ export default function LiturgicalCalendar() {
                     {showDatePicker && <DatePicker />}
                   </div>
 
-                  {viewMode === "ausblenden" && (
-                    <>
-                      <button
-                        onClick={handleNextWeek}
-                        className="shrink-0 px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
-                        title="1 Woche vor"
-                      >
-                        »
-                      </button>
-                    </>)}
+                  {viewMode === "ausblenden" && (<>
+                    <button
+                      onClick={handleNextWeek}
+                      className="shrink-0 px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
+                      title="1 Woche vor"
+                    >
+                      »
+                    </button>
+                  </>)}
                 </>
               )}
 
               {/* Right-aligned controls wrapper */}
+
               <div className="flex items-center gap-2 ml-auto">
                 {/* WakeLock indicator */}
-                {wakeLock.isSupported ? (
-                  <MonitorCheck
-                    className={`w-4 ${wakeLock.isActive
-                      ? "text-orange-500 dark:text-yellow-400"
-                      : "text-gray-400 dark:text-gray-600"
-                      }`}
-                  />
-                ) : (
-                  <MonitorCheck className="w-4 text-red-600/60 dark:text-red-800/80" />
-                )}
+                {viewMode === "ausblenden" && (<>
+                  {wakeLock.isSupported ? (
+                    <MonitorCheck
+                      className={`w-4 ${wakeLock.isActive
+                        ? "text-orange-500 dark:text-yellow-400"
+                        : "text-gray-400 dark:text-gray-600"
+                        }`}
+                    />
+                  ) : (
+                    <MonitorCheck className="w-4 text-red-600/60 dark:text-red-800/80" />
+                  )}
+                </>)}
 
                 {/* StB Button */}
                 <button
