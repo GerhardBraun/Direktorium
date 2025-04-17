@@ -44,7 +44,8 @@ export const SectionHeader = ({
 }) => {
     const field = (hour === 'invitatorium' && provField === 'ps_1')
         ? 'ant_0' : provField;
-    const invPsalms = hour === 'invitatorium' ? texts?.invitatorium?.psalms : null;
+    const invPsalms = (hour === 'invitatorium' && title === 'PSALMODIE')
+        ? texts?.invitatorium?.psalms : null;
     const isCommemoration = texts?.isCommemoration || false
     const { hasEig, hasWt, nameComm1, nameComm2, showSources, showComm2 } =
         checkSources(texts, hour, prefSrc, field);
@@ -60,7 +61,7 @@ export const SectionHeader = ({
     // Prüfe, ob Commune übersprungen werden soll
     let skipCommune = false;
     if (rank_date < 3 && (  // an Gedenktagen
-        (hour === 'lesehore' && // Lesehore: nur Hymnus und Oration ggf. Commune 
+        (hour === 'lesehore' && // Lesehore: nur Hymnus und Oration ggf. Commune
             !field.startsWith('hymn_') && field !== 'oration') ||
         ((hour === 'laudes' || hour === 'vesper') &&  // Laudes/Vesper Psalmodie
             (field.startsWith('ps_') ||

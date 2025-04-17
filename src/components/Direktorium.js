@@ -1372,6 +1372,29 @@ const PrayerTextDisplay = ({
     }
   };
 
+  let eröffnung_1 = "O Gott, komm mir zu Hilfe."
+  let eröffnung_2 = "Herr, eile, mir zu helfen."
+  const eröffnung_3 = "Ehre sei dem Vater und dem Sohn und°dem°Heiligen°Geist."
+  const eröffnung_4 = "Wie im Anfang, so auch jetzt und°alle°Zeit und°in°Ewigkeit.°Amen."
+  if (hour === 'invitatorium') {
+    eröffnung_1 = "Herr, öffne meine Lippen."
+    eröffnung_2 = "Damit mein Mund dein Lob verkünde."
+  }
+  let abschluss_1, abschluss_2
+  if (['lesehore', 'terz', 'sext', 'non'].includes(hour)) {
+    abschluss_1 = "Singet Lob und Preis.";
+    abschluss_2 = "Dank sei Gott, dem Herrn."
+  }
+  if (['laudes', 'vesper'].includes(hour)) {
+    abschluss_1 = "Der Herr segne uns, er°bewahre°uns°vor°Unheil und°führe°uns°zum°ewigen°Leben.";
+    abschluss_2 = "Amen."
+  }
+  if (['komplet'].includes(hour)) {
+    abschluss_1 = "Eine ruhige Nacht und ein gutes Ende gewähre°uns°der°allmächtige°Herr.";
+    abschluss_2 = "Amen."
+  }
+
+
   return (
     <div className="leading-[1.33em] pb-8">
       <TitleBar
@@ -1410,6 +1433,30 @@ const PrayerTextDisplay = ({
             className="mb-4"
           />
         )}
+        {/*Eröffnung*/}
+        {eröffnung_1 && (
+          <div className="mb-0 mt-0">
+            <SectionHeader title="ERÖFFNUNG" field="resp0_0" />
+            <div>
+              {formatPrayerText(eröffnung_1, "V°°")}
+            </div>
+            <div>
+              {formatPrayerText(eröffnung_2, "R°°")}
+            </div>
+          </div>
+        )}
+        {hour !== 'invitatorium' && eröffnung_3 && (
+          <div className="mb-0 mt-0">
+            <div>
+              {formatPrayerText(eröffnung_3)}
+            </div>
+            <div>
+              {formatPrayerText(eröffnung_4)}
+            </div>
+          </div>
+        )}
+
+
         {getValue("hymn_1") && (
           <div className="mb-0">
             <SectionHeader
@@ -1701,6 +1748,18 @@ const PrayerTextDisplay = ({
           <div className="mb-0">
             <SectionHeader title="ORATION" field="oration_komplet" />
             <div>{formatPrayerText(getValue("oration_komplet"))}</div>
+          </div>
+        )}
+
+        {abschluss_1 && (
+          <div className="mb-0 mt-0">
+            <SectionHeader title="ABSCHLUSS" field="resp0_0" />
+            <div className="flex gap-0">
+              {formatPrayerText(abschluss_1, "V°°")}
+            </div>
+            <div className="flex gap-0">
+              {formatPrayerText(abschluss_2, "R°°")}
+            </div>
           </div>
         )}
 
