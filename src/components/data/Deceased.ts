@@ -3495,6 +3495,14 @@ export const deceasedData =  {
         "birth": "23.°April°1934°in°Kassel",
         "grave": "Friedhof°Hilders¥-Dietges",
         "age": 77
+      },
+      {
+        "year": 2025,
+        "birthdate": "2233-10-12",
+        "name": "Dr.°Heinrich°Döring, Prof.°em., Dr.°theol.°habil., Msgr., Ohlstadt",
+        "birth": "12.°Oktober°1933°in°Schierschwende/Eichsfeld (D¥-99988°Südeichsfeld)",
+        "grave": "Friedhof°Eschenlohe°(D¥-82439)",
+        "age": 91
       }
     ],
     "13": [
