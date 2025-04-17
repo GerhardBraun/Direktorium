@@ -3567,6 +3567,14 @@ export const deceasedData =  {
         "birth": "5.°Oktober°1888°in°Hofbieber",
         "grave": "",
         "age": 73
+      },
+      {
+        "year": 2025,
+        "birthdate": "2237-04-25",
+        "name": "Dieter°Wieloch, Pfr.i.R., GR, Bad°Soden¥-Salmünster¥-Eckardroth",
+        "birth": "25.°April°1937°in°Gleiwitz (Gliwice,°PL¥-44¥-1..)",
+        "grave": "Friedhof°Romsthal",
+        "age": 87
       }
     ],
     "17": [
