@@ -14045,6 +14045,14 @@ export const brevierData = {
           "les_text": "Wir sehen Jesus um seines Todesleidens willen mit Herrlichkeit und Ehre gekrönt; so war es Gottes gnädiger Wille, dass er für alle den Tod erlitten hat. Denn es war angemessen, dass Gott, für den und durch den das All ist und der viele Söhne zur Herrlichkeit führen wollte, den Urheber ihres Heils durch Leiden vollendete.",
           "ant_ev": "Mit Sehnsucht habe ich danach verlangt, dieses Ostermahl mit euch zu halten, bevor ich leide."
         },
+        "Lesehore": {
+          "ps_1": 69.1,
+          "ps_2": 69.2,
+          "ps_3": 69.3,
+          "ant_1": "Ich bin müde vom Rufen, mir versagen die Augen, während ich warte auf meinen Gott.",
+          "ant_2": "Sie gaben mir Galle als Speise und reichten mir Essig in meinem Durst.",
+          "ant_3": "Ihr, die ihr Gott sucht: euer Herz lebe auf.^ö"
+        },
         "Non": {
           "les_buch": "Hebr",
           "les_stelle": "9,11–12",
