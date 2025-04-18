@@ -1259,9 +1259,7 @@ const PrayerTextDisplay = ({
   const [localPrefContinuous, setLocalPrefContinuous] = useState(false);
   const [localPrefPsalmsWt, setLocalPrefPsalmsWt] = useState(false);
   const [localPrefErgPs, setLocalPrefErgPs] = useState(false);
-  const [localPrefKomplet, setLocalPrefKomplet] = useState(
-    texts?.komplet?.prefKomplet || "wt"
-  );
+  const [localPrefKomplet, setLocalPrefKomplet] = useState(texts?.komplet?.prefKomplet || "wt");
   const [localPrefInv, setLocalPrefInv] = useState(texts?.prefInv || 95);
 
   if (!hour || !texts || !texts[hour]) {
@@ -1374,11 +1372,16 @@ const PrayerTextDisplay = ({
 
   let eröffnung_1 = "O Gott, komm mir zu Hilfe."
   let eröffnung_2 = "Herr, eile, mir zu helfen."
-  const eröffnung_3 = "Ehre sei dem Vater und dem Sohn und°dem°Heiligen°Geist."
-  const eröffnung_4 = "Wie im Anfang, so auch jetzt und°alle°Zeit und°in°Ewigkeit.°Amen."
+  let eröffnung_3 = "Ehre sei dem Vater und dem Sohn und°dem°Heiligen°Geist."
+  let eröffnung_4 = "Wie im Anfang, so auch jetzt und°alle°Zeit und°in°Ewigkeit.°Amen.^Ö"
   if (hour === 'invitatorium') {
     eröffnung_1 = "Herr, öffne meine Lippen."
     eröffnung_2 = "Damit mein Mund dein Lob verkünde."
+    eröffnung_3 = ""
+  }
+  if (localStorage.getItem('ommitOpening') === 'true') {
+    eröffnung_1 = ""
+    eröffnung_3 = ""
   }
   let abschluss_1, abschluss_2
   if (['lesehore', 'terz', 'sext', 'non'].includes(hour)) {
@@ -1957,6 +1960,7 @@ export default function LiturgicalCalendar() {
   const [currentSeason, setCurrentSeason] = useState(null);
 
   const startViewMode = localStorage.getItem("startViewMode") || "directory";
+  const openMyLips = () => localStorage.getItem("openMyLips") || null;
   const lastVisit = () => localStorage.getItem("lastVisit") || null;
   const todayVisit = () => new Date().toISOString().split("T")[0]; // Format YYYY-MM-DD
   const [viewMode, setViewMode] = useState(() =>
@@ -2039,6 +2043,9 @@ export default function LiturgicalCalendar() {
 
   // Aktiviere Wake Lock wenn die App im prayer oder prayerText Modus ist
   useEffect(() => {
+    if (viewMode !== "prayerText") {
+      localStorage.setItem('ommitOpening', 'false')
+    }
     if (viewMode === "prayer" || viewMode === "prayerText") {
       wakeLock.requestWakeLock();
     } else {

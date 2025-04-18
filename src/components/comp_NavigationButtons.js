@@ -25,6 +25,8 @@ const NavigationButtons = ({ hour, onBack, onSelectHour, topButton = false, text
 
     const handleHourChange = (nextHour) => {
         if (nextHour) {
+            console.log('NavigationButton: ommitOpening=true')
+            localStorage.setItem('ommitOpening', 'true')
             // Zuerst zur nächsten Hore wechseln
             onSelectHour(nextHour, texts);
             // Dann nach oben scrollen
@@ -40,8 +42,8 @@ const NavigationButtons = ({ hour, onBack, onSelectHour, topButton = false, text
             <div className="grid grid-cols-4 gap-0 mb-2">
                 <button
                     onClick={onBack}
-                    className="pl-2 rounded-sm bg-gray-100 dark:bg-gray-800 
-                   hover:bg-gray-200 dark:hover:bg-gray-700 
+                    className="pl-2 rounded-sm bg-gray-100 dark:bg-gray-800
+                   hover:bg-gray-200 dark:hover:bg-gray-700
                    text-rubric text-left text-sm"
                 >
                     ← Auswahl
@@ -57,8 +59,8 @@ const NavigationButtons = ({ hour, onBack, onSelectHour, topButton = false, text
         return (
             <button
                 onClick={onBack}
-                className="w-full p-2 mb-1 rounded-sm bg-gray-100 dark:bg-gray-800 
-                   hover:bg-gray-200 dark:hover:bg-gray-700 
+                className="w-full p-2 mb-1 rounded-sm bg-gray-100 dark:bg-gray-800
+                   hover:bg-gray-200 dark:hover:bg-gray-700
                    text-rubric text-left text-sm"
             >
                 ← zurück zur Stundengebetauswahl
@@ -70,8 +72,8 @@ const NavigationButtons = ({ hour, onBack, onSelectHour, topButton = false, text
         <div className="grid grid-cols-3 gap-2 mb-1">
             <button
                 onClick={onBack}
-                className="p-2 rounded-sm bg-gray-100 dark:bg-gray-800 
-                   hover:bg-gray-200 dark:hover:bg-gray-700 
+                className="p-2 rounded-sm bg-gray-100 dark:bg-gray-800
+                   hover:bg-gray-200 dark:hover:bg-gray-700
                    text-rubric text-left text-sm"
             >
                 ← Auswahl
