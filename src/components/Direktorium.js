@@ -1374,15 +1374,33 @@ const PrayerTextDisplay = ({
   let eröffnung_2 = "Herr, eile, mir zu helfen."
   let eröffnung_3 = "Ehre sei dem Vater und dem Sohn und°dem°Heiligen°Geist."
   let eröffnung_4 = "Wie im Anfang, so auch jetzt und°alle°Zeit und°in°Ewigkeit.°Amen.^Ö"
+
+  const openMyLips = () => localStorage.getItem("openMyLips") || '';
+  const todayVisit = () => new Date().toISOString().split("T")[0]; // Format YYYY-MM-DD
+
   if (hour === 'invitatorium') {
+    localStorage.setItem("openMyLips", todayVisit())
     eröffnung_1 = "Herr, öffne meine Lippen."
     eröffnung_2 = "Damit mein Mund dein Lob verkünde."
     eröffnung_3 = ""
   }
+  if (['lesehore', 'laudes'].includes(hour)
+    && openMyLips() !== todayVisit()) {
+    if (!openMyLips().startsWith('l') || openMyLips() === hour) {
+      localStorage.setItem("openMyLips", hour)
+      eröffnung_1 = "Herr, öffne meine Lippen."
+      eröffnung_2 = "Damit mein Mund dein Lob verkünde."
+      eröffnung_3 = ""
+    } else {
+      localStorage.setItem("openMyLips", todayVisit())
+    }
+  }
+
   if (localStorage.getItem('ommitOpening') === 'true') {
     eröffnung_1 = ""
     eröffnung_3 = ""
   }
+
   let abschluss_1, abschluss_2
   if (['lesehore', 'terz', 'sext', 'non'].includes(hour)) {
     abschluss_1 = "Singet Lob und Preis.";
@@ -1396,7 +1414,6 @@ const PrayerTextDisplay = ({
     abschluss_1 = "Eine ruhige Nacht und ein gutes Ende gewähre°uns°der°allmächtige°Herr.";
     abschluss_2 = "Amen."
   }
-
 
   return (
     <div className="leading-[1.33em] pb-8">
@@ -1436,7 +1453,6 @@ const PrayerTextDisplay = ({
             className="mb-4"
           />
         )}
-        {/*Eröffnung*/}
         {eröffnung_1 && (
           <div className="mb-0 mt-0">
             <SectionHeader title="ERÖFFNUNG" field="resp0_0" />
@@ -1448,7 +1464,7 @@ const PrayerTextDisplay = ({
             </div>
           </div>
         )}
-        {hour !== 'invitatorium' && eröffnung_3 && (
+        {eröffnung_3 && (
           <div className="mb-0 mt-0">
             <div>
               {formatPrayerText(eröffnung_3)}
@@ -1458,7 +1474,6 @@ const PrayerTextDisplay = ({
             </div>
           </div>
         )}
-
 
         {getValue("hymn_1") && (
           <div className="mb-0">
