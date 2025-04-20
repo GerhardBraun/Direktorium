@@ -10122,7 +10122,7 @@ export const brevierData = {
         "Laudes": {
           "les_buch": "Apg",
           "les_stelle": "10,40-43",
-          "les_text": "Gott hat Jesus ihn am dritten Tag auferweckt und hat ihn erscheinen lassen, zwar nicht dem ganzen Volk, wohl aber den von Gott vorherbestimmten Zeugen: uns, die wir mit ihm nach seiner Auferstehung von den Toten gegessen und getrunken haben. Und er hat uns geboten, dem Volk zu verkünden und zu bezeugen: Dieser ist der von Gott eingesetzte Richter der Lebenden und der Toten. Von ihm bezeugen alle Propheten, dass jeder, der an ihn glaubt, durch seinen Namen die Vergebung der Sünden empfängt.^R",
+          "les_text": "Gott hat Jesus am dritten Tag auferweckt und hat ihn erscheinen lassen, zwar nicht dem ganzen Volk, wohl aber den von Gott vorherbestimmten Zeugen: uns, die wir mit ihm nach seiner Auferstehung von den Toten gegessen und getrunken haben. Und er hat uns geboten, dem Volk zu verkünden und zu bezeugen: Dieser ist der von Gott eingesetzte Richter der Lebenden und der Toten. Von ihm bezeugen alle Propheten, dass jeder, der an ihn glaubt, durch seinen Namen die Vergebung der Sünden empfängt.^R",
           "resp1_1": "Christus, du Sohn des lebendigen Gottes,",
           "resp1_2": "erbarme dich unser.",
           "resp1_3": "Du bist wahrhaft vom Tode erstanden.",
