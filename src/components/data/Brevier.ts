@@ -9010,7 +9010,7 @@ export const brevierData = {
           "resp1_3": ""
         },
         "Non": {
-          "ant_0": "Ihr seid mit Christus auferweckt. Sucht also, was droben ist, wo Christus thront zur Rechten des Vaters.^ö",
+          "ant_0": "Ihr seid mit Christus auferweckt. Sucht°also, was droben ist, wo°Christus thront zur Rechten des Vaters.^ö",
           "ant_1": "",
           "ant_2": "",
           "ant_3": "",
@@ -9018,7 +9018,7 @@ export const brevierData = {
           "resp1_1": "Lasst uns jubeln und seiner uns freuen.^ö"
         },
         "Sext": {
-          "ant_0": "Er wurde hingegeben wegen unserer Sünden. Er wurde auferweckt, um uns gerecht zu machen.^ö",
+          "ant_0": "Er wurde hingegeben wegen unserer Sünden. Er°wurde auferweckt, um uns gerecht zu machen.^ö",
           "ant_1": "",
           "ant_2": "",
           "ant_3": "",
@@ -9026,7 +9026,7 @@ export const brevierData = {
           "resp1_1": "Lasst uns jubeln und seiner uns freuen.^ö"
         },
         "Terz": {
-          "ant_0": "Christus ist von den Toten erstanden. Er stirbt nicht mehr.^ö",
+          "ant_0": "Christus ist von den Toten erstanden. Er°stirbt nicht mehr.^ö",
           "ant_1": "",
           "ant_2": "",
           "ant_3": "",
