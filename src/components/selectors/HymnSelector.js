@@ -62,7 +62,7 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, localPrefK
         }
 
         return sources;
-    }, [texts, hour, localPrefSrc, prefSollemnity]);
+    }, [texts, hour, localPrefSrc, localPrefKomplet, prefSollemnity]);
 
     // Sammle alle verfügbaren Hymnen
     const availableHymns = useMemo(() => {
