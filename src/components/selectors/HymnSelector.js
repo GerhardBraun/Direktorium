@@ -6,7 +6,8 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, formatPray
     if (['kirchw', 'verst'].includes(prefSollemnity)) { localPrefSrc = prefSollemnity; }
 
     const getButtonColor = (sourcePath, sourceLabel) => {
-        const hasOnlyWtSources = availableHymns.every(hymn => hymn.id.split('_')[0] === 'wt');
+        const hasOnlyWtSources = availableHymns.every(
+            hymn => ['wt', 'pers'].includes(hymn.id.split('_')[0]));
 
         if (sourcePath === 'wt' && !hasOnlyWtSources) {
             if (season === 'j') { return 'btn-green'; }
@@ -154,7 +155,7 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, formatPray
                 <button
                     key={hymn.id}
                     onClick={() => setSelectedHymn(hymn.id)}
-                    className={`w-full text-sm text-left pl-2 pt-2 pb-1 mt-1 rounded 
+                    className={`w-full text-sm text-left pl-2 pt-2 pb-1 mt-1 rounded
                         ${getButtonColor(hymn.id.split('_')[0], hymn.source)}
                         ${selectedHymn === hymn.id ? 'ring-2 ring-yellow-500' : ''}`}
                 >

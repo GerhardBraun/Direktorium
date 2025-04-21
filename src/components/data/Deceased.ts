@@ -3721,6 +3721,14 @@ export const deceasedData =  {
         "birth": "14.°Februar°1911°in°Beberstedt/Eichsfeld (D¥-99976)",
         "grave": "Neuer°Friedhof°Hünfeld",
         "age": 81
+      },
+      {
+        "year": 2025,
+        "birthdate": "2236-12-17",
+        "name": "¥fPapst°Franziskus¥0f, Bischof von Rom",
+        "birth": "17.°Dezember°1936°in°Buenos°Aires (RA¥-C1…)",
+        "grave": "Basilika°S.°Maria°Maggiore°in°Rom",
+        "age": 88
       }
     ],
     "22": [
