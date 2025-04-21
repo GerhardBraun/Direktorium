@@ -8515,7 +8515,7 @@ export const brevierData = {
       "each": {
         "Komplet": {
           "hymn_1": 2500.0,
-          "hymn_2": 2506.0,
+          "hymn_2": 2516.0,
           "ps_1": 4.0,
           "ps_2": 134.0,
           "ant_1": "Sei mir gnädig, Herr, und höre auf mein Flehen.",

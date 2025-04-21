@@ -1490,6 +1490,7 @@ const PrayerTextDisplay = ({
               season={season}
               prefSrc={prefSrc}
               prefSollemnity={prefSollemnity}
+              localPrefKomplet={localPrefKomplet}
               formatPrayerText={formatPrayerText}
             />
           </div>

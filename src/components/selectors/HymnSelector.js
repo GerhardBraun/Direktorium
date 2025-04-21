@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
 
-const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, formatPrayerText }) => {
+const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, localPrefKomplet, formatPrayerText }) => {
     const [selectedHymn, setSelectedHymn] = useState(null);
     let localPrefSrc = prefSrc;
     if (['kirchw', 'verst'].includes(prefSollemnity)) { localPrefSrc = prefSollemnity; }
@@ -41,7 +41,7 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, formatPray
         const isHighRank = rank_date > 2 || rank_wt > 2;
 
         // Stelle die Basis-Quellen zusammen
-        let sources = [localPrefSrc, 'pers'];
+        let sources = [localPrefSrc, 'pers', localPrefKomplet];
 
         // Ermittle Commune-Sources nur wenn nötig
         const communeSources = ((!isCommemoration || prefSollemnity === 'soll') &&
@@ -98,7 +98,7 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, formatPray
                             sourceLabel = prefSollemnity.charAt(0).toUpperCase() + prefSollemnity.slice(1);
                         } else if (sourcePath === 'pers') {
                             sourceLabel = 'pers:';
-                        } else if (sourcePath === 'wt') {
+                        } else if (['wt', 'k1', 'k2'].includes(sourcePath)) {
                             if (hymnType === 'hymn_nacht') {
                                 sourceLabel = 'In der Nacht oder am frühen Morgen:';
                             } else if (hymnType === 'hymn_kl') {
