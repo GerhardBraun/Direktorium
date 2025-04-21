@@ -9009,6 +9009,10 @@ export const brevierData = {
           "resp1_2": "",
           "resp1_3": ""
         },
+        "Lesehore": {
+          "vu": 211.0,
+          "vu_lat": 211.1
+        },
         "Non": {
           "ant_0": "Ihr seid mit Christus auferweckt. Sucht°also, was droben ist, wo°Christus thront zur Rechten des Vaters.^ö",
           "ant_1": "",
