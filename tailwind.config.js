@@ -41,8 +41,8 @@ module.exports = {
             hover: 'rgba(150, 75, 0, 0.8)'       // bg-[#964b00]/80
           },
           personal: {
-            DEFAULT: 'rgba(240, 175, 96, 0.7)',  // bg-[#f0d060]/70
-            hover: 'rgba(240, 175, 96, 0.8)'     // bg-[#f0d060]/80
+            DEFAULT: 'rgba(230, 175, 96, 0.7)',  // bg-[#f0d060]/70
+            hover: 'rgba(230, 175, 96, 0.8)'     // bg-[#f0d060]/80
           }
         }
       },
