@@ -10276,7 +10276,7 @@ export const brevierData = {
           "les_text": "Jesus hat, weil er auf ewig bleibt, ein unvergängliches Priestertum. Darum kann er auch die, die durch ihn vor Gott hintreten, für immer retten; denn er lebt allezeit, um für sie einzutreten. Ein solcher Hoherpriester war für uns in der Tat notwendig: einer, der heilig ist, unschuldig, makellos, abgesondert von den Sündern und erhöht über die Himmel; einer, der es nicht Tag für Tag nötig hat, wie die Hohenpriester zuerst für die eigenen Sünden Opfer darzubringen und dann für die des Volkes; denn das hat er ein für allemal getan, als er sich selbst dargebracht hat.^R",
           "bitten_e": "Lasst uns zu Christus beten, der von den Toten erstanden ist:",
           "bitten_r": "Du König der Herrlichkeit, höre uns.",
-          "bitten": "Du Licht, das nicht vergeht, wenn der Tag sich neigt;^qnimm das Abendlob deiner Kirche an.^pGedenke aller, die deinem Volke vorstehen;^qhilf ihnen, das Beispiel eines Lebens aus dem Glauben zu geben.^pGib den Regierenden den Geist der Gerechtigkeit, damit die Menschen in Eintracht miteinander leben können.^qSchenke unserer Zeit deinen Frieden;^plass die Armen teilhaben an den Gütern der Erde.^qErbarme dich unserer Verstorbenen;^plass ihnen das Licht deiner Herrlichkeit leuchten."
+          "bitten": "Du Licht, das nicht vergeht, wenn der Tag sich neigt;^qnimm das Abendlob deiner Kirche an.^pGedenke aller, die deinem Volke vorstehen;^qhilf ihnen, das Beispiel eines Lebens aus dem Glauben zu geben.^pGib den Regierenden den Geist der Gerechtigkeit,^qdamit die Menschen in Eintracht miteinander leben können.^pSchenke unserer Zeit deinen Frieden;^qlass die Armen teilhaben an den Gütern der Erde.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten."
         }
       },
       "4": {
@@ -10313,7 +10313,7 @@ export const brevierData = {
           "les_text": "Christus ist der Sünden wegen ein einziges Mal gestorben, er, der Gerechte, für die Ungerechten, um euch zu Gott hinzuführen; dem Fleisch nach wurde er getötet, dem Geist nach lebendig gemacht. Er ist in den Himmel gegangen; dort ist er zur Rechten Gottes, und Engel, Gewalten und Mächte sind ihm unterworfen.^R",
           "bitten_e": "Lasst uns beten zu Christus, dem Erstling der Entschlafenen:",
           "bitten_r": "Sohn des lebendigen Gottes, erbarme dich.",
-          "bitten": "Du Licht, das nicht vergeht, wenn der Tag sich neigt;^qnimm das Abendlob deiner Kirche an.^pDu hast auf dem Fundament der Apostel deine Kirche erbaut;^qBreite sie aus bis an die Grenzen der Erde.^pDu bist der Arzt für Seele und Leib;^qRichte die Kranken auf und stärke die Trauernden.^pDu bist der Freund der Armen und Bedrängten;^qHilf denen, die von der Mühsal des Lebens erschöpft sind.^pErbarme dich unserer Verstorbenen;^qLass ihnen das Licht deiner Herrlichkeit leuchten."
+          "bitten": "Du Licht, das nicht vergeht, wenn der Tag sich neigt;^qnimm das Abendlob deiner Kirche an.^pDu hast auf dem Fundament der Apostel deine Kirche erbaut;^qbreite sie aus bis an die Grenzen der Erde.^pDu bist der Arzt für Seele und Leib;^qrichte die Kranken auf und stärke die Trauernden.^pDu bist der Freund der Armen und Bedrängten;^qhilf denen, die von der Mühsal des Lebens erschöpft sind.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten."
         }
       },
       "5": {
