@@ -41,6 +41,14 @@ const formatBibleRef = (text, bracket = false) => {
 
         switch (char) {
             case '@': return originalText.replace('@', '');
+            case '¥':
+                if (inVerseSection) {
+                    addCurrentText();
+                    inVerseSection = false;
+                }
+                currentText += '¥';
+                break;
+
             case ' ':
                 if (inVerseSection) {
                     addCurrentText();
