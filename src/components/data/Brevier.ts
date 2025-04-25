@@ -8993,6 +8993,15 @@ export const brevierData = {
           "ps_1": 119.033,
           "ps_2": 96.1,
           "ps_3": 96.2
+        },
+        "Vesper": {
+          "les_buch": "1°Petr",
+          "les_stelle": "2,9-10",
+          "les_text": "Ihr seid ein auserwähltes Geschlecht, eine königliche Priesterschaft, ein heiliger Stamm, ein Volk, das sein besonderes Eigentum wurde, damit ihr die großen Taten dessen verkündet, der euch aus der Finsternis in sein wunderbares Licht gerufen hat. Einst wart ihr nicht sein Volk, jetzt aber seid ihr Gottes Volk; einst gab es für euch kein Erbarmen, jetzt aber habt ihr Erbarmen gefunden.^R",
+          "bitten_e": "Lasst uns beten zu Jesus Christus, den der Vater von den Toten auferweckt hat:",
+          "bitten_r": "Sohn des lebendigen Gottes, erbarme dich.",
+          "bitten": "Du bist der treue und wahrhaftige Zeuge;^qhilf deiner Kirche, von dir Zeugnis zu geben.^pDu willst, dass deine Gläubigen einander im Glauben bestärken;^qhilf den Paten der Neugetauften, ein Beispiel lebendigen Glaubens zu geben.^pDu bist der Stein, den die Bauleute verworfen haben und der zum Eckstein geworden ist;^qführe Juden und Heiden in deiner Kirche zusammen.^pErbarme dich unserer Verstorbenen;^qlass sie das Licht deiner Herrlichkeit schauen.",
+          "oration": "Barmherziger Gott, durch die jährliche Osterfeier erneuerst du den Glauben deines Volkes. Lass uns immer tiefer erkennen, wie heilig das Bad der Taufe ist, das uns gereinigt hat, wie mächtig dein Geist, aus dem wir wiedergeboren sind, und wie kostbar das Blut, durch das wir erkauft sind.^ORV"
         }
       },
       "each": {
@@ -10123,6 +10132,14 @@ export const brevierData = {
     },
     "each": {
       "0": {
+        "ErsteV": {
+          "les_buch": "1°Petr",
+          "les_stelle": "2,9-10",
+          "les_text": "Ihr seid ein auserwähltes Geschlecht, eine königliche Priesterschaft, ein heiliger Stamm, ein Volk, das sein besonderes Eigentum wurde, damit ihr die großen Taten dessen verkündet, der euch aus der Finsternis in sein wunderbares Licht gerufen hat. Einst wart ihr nicht sein Volk, jetzt aber seid ihr Gottes Volk; einst gab es für euch kein Erbarmen, jetzt aber habt ihr Erbarmen gefunden.^R",
+          "bitten_e": "Lasst uns beten zu Jesus Christus, denn er ist unser Leben und unsere Auferstehung:",
+          "bitten_r": "Sohn des lebendigen Gottes, erbarme dich.",
+          "bitten": "Wir bitten dich für deine Kirche auf der ganzen Erde:^qVollende dein Volk in der Liebe.^pFür alle, die von Krankheit und Trauer niedergedrückt sind:^qSchenke ihnen Trost und Hilfe.^pFür alle, die von deinen Wegen abgeirrt sind:^qVerzeihe ihnen und lass sie zurückfinden zu dir.^pFür die Menschen, die nicht zu ihrem Recht kommen können:^qSende ihnen Hilfe und Helfer.^pFür unsere Verstorbenen:^qLass ihnen das Licht deiner Herrlichkeit leuchten."
+        },
         "Laudes": {
           "les_buch": "Apg",
           "les_stelle": "10,40-43",
