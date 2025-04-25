@@ -2465,7 +2465,7 @@ export const psalmsData = {
     0.0: {
         "title": "Geist des Vaters und des Sohnes Jesu Christ",
         "quote": "Terz",
-        "text": "Geist des Vaters und des Sohnes Jesu Christ,^lder das All erhält.^lGieß dich aus, und als ein Zeichen, dass du bist,^lüberkomm die Welt.^pDeine Ankunft wird die Wirren wieder klärn,^lwenn sie uns befällt.^lGeist der Wahrheit, wandle uns in unsres Herrn^lOffenbarungszelt."
+        "text": "Geist des Vaters und des Sohnes Jesus Christ,^lder das All erhält.^lGieß dich aus, und als ein Zeichen, dass du bist,^lüberkomm die Welt.^pDeine Ankunft wird die Wirren wieder klärn,^lwenn sie uns befällt.^lGeist der Wahrheit, wandle uns in unsres Herrn^lOffenbarungszelt."
       }
   },
   2406: {
@@ -2710,7 +2710,7 @@ export const psalmsData = {
     0.0: {
         "title": "Wo lagerst du mit deiner Herde",
         "quote": "Sext",
-        "text": "Wo lagerst du mit deiner Herde^lmittags in der heißen Heide?^lDu Wasserquell, des Lebens Schattenbaum^lund deiner Schafe Weide?^pGib uns zu trinken aus dem Strome^ldeiner aufgebrochenen Seite^ldie Gabe Gottes, die wir kennen^lals das Heil, das uns befreite.^pWir suchen dich, du bleibst am Tage^loft im Dunkel uns entschwunden.^lSo komm, Geliebter, wir verloren dich,^ldoch du hast uns gefunden."
+        "text": "Wo lagerst du mit deiner Herde^lmittags in der heißen Heide?^lDu Wasserquell, des Lebens Schattenbaum^lund deiner Schafe Weide?^pGib uns zu trinken aus dem Strome^ldeiner aufgebrochenen Seite^ldie Gabe Gottes, die wir kennen^lals das Heil, das uns befreite.^pWir suchen dich, du bleibst am Tage^loft im Dunkel uns entschwunden.^lSo komm, Geliebter, wir verloren dich,^ldoch du hast uns gefunden.^pGib uns zu trinken aus dem Strome^ldeiner aufgebrochenen Seite^ldie Gabe Gottes, die wir kennen^lals das Heil, das uns befreite.^pDer Mittag brennt, hör uns, wir singen,^lloben dich, in dieser Stunde.^lWir lieben dich, Herr, unsre Seligkeit,^laus unsres Herzens Grunde.^pGib uns zu trinken aus dem Strome^ldeiner aufgebrochenen Seite^ldie Gabe Gottes, die wir kennen^lals das Heil, das uns befreite. Amen."
       }
   },
   2900: {
