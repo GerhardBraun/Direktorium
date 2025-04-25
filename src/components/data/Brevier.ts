@@ -10351,9 +10351,9 @@ export const brevierData = {
           "les_buch": "Hebr",
           "les_stelle": "5,8–10",
           "les_text": "Obwohl Christus der Sohn war, hat er durch Leiden den Gehorsam gelernt; zur Vollendung gelangt, ist er für alle, die ihm gehorchen, der Urheber des ewigen Heils geworden und wurde von Gott angeredet als „Hoherpriester nach der Ordnung Melchisedeks“.^R",
-          "bitten_e": "Lasst uns zu Christus beten, dem gekreuzigten und auferstan¬denen Herrn:",
+          "bitten_e": "Lasst uns zu Christus beten, dem gekreuzigten und auferstandenen Herrn:",
           "bitten_r": "Du König der Herrlichkeit, höre uns.",
-          "bitten": "Du Licht, das nicht vergeht, wenn der Tag sich neigt;^qnimm das Abendlob deiner Kirche an.^pWir bitten dich für das ganze christliche Volk:^qHilf ihm, die Einheit des Geistes zu wahren.^pFür die Priester und Diakone:^qMache sie zu freudigen Boten deiner Auferstehung.^pFür die Regierenden:^qGib, dass sie ihr Amt weise und gerecht ausüben.^pFür unsere Verstorbenen:# Lass ihnen das Licht deiner Herrlichkeit leuchten."
+          "bitten": "Du Licht, das nicht vergeht, wenn der Tag sich neigt;^qnimm das Abendlob deiner Kirche an.^pWir bitten dich für das ganze christliche Volk:^qHilf ihm, die Einheit des Geistes zu wahren.^pFür die Priester und Diakone:^qMache sie zu freudigen Boten deiner Auferstehung.^pFür die Regierenden:^qGib, dass sie ihr Amt weise und gerecht ausüben.^pFür unsere Verstorbenen:^qLass ihnen das Licht deiner Herrlichkeit leuchten."
         }
       },
       "6": {
