@@ -8998,9 +8998,10 @@ export const brevierData = {
           "les_buch": "1°Petr",
           "les_stelle": "2,9-10",
           "les_text": "Ihr seid ein auserwähltes Geschlecht, eine königliche Priesterschaft, ein heiliger Stamm, ein Volk, das sein besonderes Eigentum wurde, damit ihr die großen Taten dessen verkündet, der euch aus der Finsternis in sein wunderbares Licht gerufen hat. Einst wart ihr nicht sein Volk, jetzt aber seid ihr Gottes Volk; einst gab es für euch kein Erbarmen, jetzt aber habt ihr Erbarmen gefunden.^R",
+          "ant_ev": "Acht Tage darauf kam Jesus wiederum bei verschlossenen Türen und sprach zu den Jüngern: Friede sei mit euch.^ö",
           "bitten_e": "Lasst uns beten zu Jesus Christus, den der Vater von den Toten auferweckt hat:",
           "bitten_r": "Sohn des lebendigen Gottes, erbarme dich.",
-          "bitten": "Du bist der treue und wahrhaftige Zeuge;^qhilf deiner Kirche, von dir Zeugnis zu geben.^pDu willst, dass deine Gläubigen einander im Glauben bestärken;^qhilf den Paten der Neugetauften, ein Beispiel lebendigen Glaubens zu geben.^pDu bist der Stein, den die Bauleute verworfen haben und der zum Eckstein geworden ist;^qführe Juden und Heiden in deiner Kirche zusammen.^pErbarme dich unserer Verstorbenen;^qlass sie das Licht deiner Herrlichkeit schauen.",
+          "bitten": "Du bist der treue und wahrhaftige Zeuge;^qhilf deiner Kirche, von dir Zeugnis zu geben.^pDu bist der Erste und der Letzte, du warst tot, und du lebst;^qerhalte in den Neugetauften dein Leben.^pDu willst, dass deine Gläubigen einander im Glauben bestärken;^qhilf den Paten der Neugetauften, ein Beispiel lebendigen Glaubens zu geben.^pDu bist der Stein, den die Bauleute verworfen haben und der zum Eckstein geworden ist;^qführe Juden und Heiden in deiner Kirche zusammen.^pErbarme dich unserer Verstorbenen;^qlass sie das Licht deiner Herrlichkeit schauen.",
           "oration": "Barmherziger Gott, durch die jährliche Osterfeier erneuerst du den Glauben deines Volkes. Lass uns immer tiefer erkennen, wie heilig das Bad der Taufe ist, das uns gereinigt hat, wie mächtig dein Geist, aus dem wir wiedergeboren sind, und wie kostbar das Blut, durch das wir erkauft sind.^ORV"
         }
       },
@@ -9084,6 +9085,10 @@ export const brevierData = {
           "ant_1": "Auferstanden ist Christus; er erleuchtet sein Volk, das er mit seinem Blut erlöst hat.^Ö",
           "ant_2": "Unser Erlöser ist aus dem Grab erstanden; singt unserem Herrn und Gott den Lobgesang.^Ö",
           "ant_3": "Halleluja. Auferstanden ist der Herr, wie er euch gesagt hat.^Ö",
+          "resp1_0": "",
+          "resp1_1": "",
+          "resp1_2": "",
+          "resp1_3": "",
           "ant_ev": "Strecke deine Hand aus und lege sie in meine Seite und sei nicht ungläubig, sondern gläubig.^ö"
         },
         "Lesehore": {
@@ -9096,6 +9101,33 @@ export const brevierData = {
           "resp0_0": "Der Herr ist den Jüngern erschienen.^ö",
           "resp0_1": "Sie sahen ihn und freuten sich.^ö"
         },
+        "Non": {
+          "ant_0": "Ihr seid mit Christus auferweckt. Sucht°also, was droben ist, wo°Christus thront zur Rechten des Vaters.^ö",
+          "ant_1": "",
+          "ant_2": "",
+          "ant_3": "",
+          "resp1_0": "Das ist der Tag, den der Herr gemacht hat.^ö",
+          "resp1_1": "Lasst uns jubeln und seiner uns freuen.^ö"
+        },
+        "Sext": {
+          "ant_0": "Er wurde hingegeben wegen unserer Sünden. Er°wurde auferweckt, um uns gerecht zu machen.^ö",
+          "ant_1": "",
+          "ant_2": "",
+          "ant_3": "",
+          "resp1_0": "Das ist der Tag, den der Herr gemacht hat.^ö",
+          "resp1_1": "Lasst uns jubeln und seiner uns freuen.^ö"
+        },
+        "Terz": {
+          "ps_1": 118.1,
+          "ps_2": 118.2,
+          "ps_3": 118.3,
+          "ant_0": "Christus ist von den Toten erstanden. Er°stirbt nicht mehr.^ö",
+          "ant_1": "",
+          "ant_2": "",
+          "ant_3": "",
+          "resp1_0": "Das ist der Tag, den der Herr gemacht hat.^ö",
+          "resp1_1": "Lasst uns jubeln und seiner uns freuen.^ö"
+        },
         "Vesper": {
           "hymn_kl": 0.0,
           "ps_1": 110.0,
@@ -9104,6 +9136,10 @@ export const brevierData = {
           "ant_1": "Maria Magdalena und die andere Maria kamen, um nach dem Grab zu sehen.^Ö",
           "ant_2": "Kommt her und seht die Stelle, wo der Herr gelegen hat.^ö",
           "ant_3": "Jesus sprach: Fürchtet euch nicht! Geht und sagt meinen Brüdern, sie sollen nach Galiläa gehen. Dort werdet ihr mich sehen.^ö",
+          "resp1_0": "",
+          "resp1_1": "",
+          "resp1_2": "",
+          "resp1_3": "",
           "ant_ev": "Weil du mich gesehen hast, Thomas, glaubst du. Selig, die nicht sehen und doch glauben.^ö"
         }
       },
@@ -10471,7 +10507,7 @@ export const brevierData = {
         "ErsteV": {
           "bitten_e": "Lasst uns beten zu Jesus Christus, den der Vater von den Toten auferweckt hat:",
           "bitten_r": "Sohn des lebendigen Gottes, erbarme dich.",
-          "bitten": "Du bist der treue und wahrhaftige Zeuge;^qhilf deiner Kirche, von dir Zeugnis zu geben.^pDu willst, dass deine Gläubigen einander im Glauben bestärken;^qhilf den Paten der Neugetauften, ein Beispiel lebendigen Glaubens zu geben.^pDu bist der Stein, den die Bauleute verworfen haben und der zum Eckstein geworden ist;^qführe Juden und Heiden in deiner Kirche zusammen.^pErbarme dich unserer Verstorbenen;^qlass sie das Licht deiner Herrlichkeit schauen."
+          "bitten": "Du bist der treue und wahrhaftige Zeuge;^qhilf deiner Kirche, von dir Zeugnis zu geben.^pDu bist der Erste und der Letzte, du warst tot, und du lebst;^qerhalte in den Neugetauften dein Leben.^pDu willst, dass deine Gläubigen einander im Glauben bestärken;^qhilf den Paten der Neugetauften, ein Beispiel lebendigen Glaubens zu geben.^pDu bist der Stein, den die Bauleute verworfen haben und der zum Eckstein geworden ist;^qführe Juden und Heiden in deiner Kirche zusammen.^pErbarme dich unserer Verstorbenen;^qlass sie das Licht deiner Herrlichkeit schauen."
         },
         "Laudes": {
           "bitten_e": "Gepriesen sei Christus, der Auferstandene, der dem Apostel Thomas erschienen ist. Zu ihm lasst uns beten:",
@@ -10481,7 +10517,7 @@ export const brevierData = {
         "Vesper": {
           "bitten_e": "Lasst uns beten zu Christus, dem Auferstandenen, der in seinen Sakramenten bei uns ist:",
           "bitten_r": "Christus, unser Leben, rette uns.",
-          "bitten": "Sende der Kirche deinen Heiligen Geist;^qmache sie zum Sakrament der Einheit für alle Menschen.^pWir bitten dich für die Neugetauften und für alle, die heute in unserer Mitte zum erstenmal zu deinem Tisch hinzugetreten sind;^qbewahre sie in deiner Freude.^pWir bitten dich für alle Menschen, die ohne Freude sind;^qlass sie erfahren, dass du sie liebst.^pTröste alle, die in Elend und Unfreiheit leben müssen,^qund erbarme dich der Kranken.^pWir bitten dich für unsere Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten."
+          "bitten": "Sende der Kirche deinen Heiligen Geist;^qmache sie zum Sakrament der Einheit für alle Menschen.^pWir bitten dich für die Neugetauften und für alle, die ^(heute in unserer Mitte^) zum erstenmal zu deinem Tisch hinzugetreten sind;^qbewahre sie in deiner Freude.^pWir bitten dich für alle Menschen, die ohne Freude sind;^qlass sie erfahren, dass du sie liebst.^pTröste alle, die in Elend und Unfreiheit leben müssen,^qund erbarme dich der Kranken.^pWir bitten dich für unsere Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten."
         }
       },
       "1": {

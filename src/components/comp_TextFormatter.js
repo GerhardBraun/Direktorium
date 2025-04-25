@@ -62,7 +62,8 @@ export const formatText = (text) => {
 export const formatPrayerText = (provText, marker = '',
     hour = '', texts = {}, prefSrc = '') => {
     if (!provText || provText === 'LEER') return null;
-    const { season, week, isCommemoration } = texts;
+    const { season, week, isCommemoration, combinedSWD = '' } = texts;
+    console.log('formatPrayerText: texts/combinedSWD', texts, combinedSWD)
     const { nominativ, genitiv, vokativ } = texts?.laudes?.[prefSrc] || {};
     const useFootnoteList = localStorage.getItem('prefFootnotes') === 'true';
 
@@ -105,7 +106,7 @@ export const formatPrayerText = (provText, marker = '',
         .replace(/([0-9])-([0-9])/g, '$1\u200C\u2013\u200C$2')
         .replace(/\^ö/g, season === 'o' ? ' Halleluja.' : '')
         .replace(/\^Ö/g, season === 'q' ? '' : ' Halleluja.')
-        .replace(/\^R/g, (season === 'o' && week === 1) ? easterAntiphon : '')
+        .replace(/\^R/g, (combinedSWD.startsWith('o-1-') || combinedSWD === 'o-2-0') ? easterAntiphon : '')
         .replace(/\^ORvR/g, orSchluss.vR)
         .replace(/\^ORV/g, orSchluss.V)
         .replace(/,\^ORS/g, orSchluss.S)
