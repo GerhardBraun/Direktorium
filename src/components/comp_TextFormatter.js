@@ -62,8 +62,7 @@ export const formatText = (text) => {
 export const formatPrayerText = (provText, marker = '',
     hour = '', texts = {}, prefSrc = '') => {
     if (!provText || provText === 'LEER') return null;
-    const { season, week, isCommemoration, combinedSWD = '' } = texts;
-    console.log('formatPrayerText: texts/combinedSWD', texts, combinedSWD)
+    const { season, isCommemoration, combinedSWD = '' } = texts;
     const { nominativ, genitiv, vokativ } = texts?.laudes?.[prefSrc] || {};
     const useFootnoteList = localStorage.getItem('prefFootnotes') === 'true';
 

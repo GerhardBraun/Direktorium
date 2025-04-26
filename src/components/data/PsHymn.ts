@@ -1683,26 +1683,26 @@ export const psalmsData = {
   },
   145: {
     1.0: {
-        "verses": "1–13b",
-        "title": "Gottes Größe und Güte",
-        "quote": "Gerecht bist du, der du bist und der du warst, du Heiliger. (Offb°16,5)",
-        "text": "Ich will dich rühmen, mein°Gott°und°König,^*und deinen Namen preisen immer und ewig;^pIch will dich preisen Tag für Tag^*und deinen Namen loben immer und ewig.^pGroß ist der Herr und hoch zu loben,^*seine Größe ist unerforschlich.^pEin Geschlecht verkünde dem andern den°Ruhm°deiner°Werke^*und erzähle von deinen gewaltigen Taten.^pSie sollen vom herrlichen Glanz deiner°Hoheit°reden;^*ich will deine Wunder besingen.^pSie sollen sprechen von der Gewalt deiner°erschreckenden°Taten;^*ich will von deinen großen Taten berichten.^pSie sollen die Erinnerung an°deine°große°Güte°wecken^*und über deine Gerechtigkeit jubeln.^pDer Herr ist gnädig und barmherzig,^*langmütig und reich an Gnade.^pDer Herr ist gütig zu allen,^*sein Erbarmen waltet über all seinen Werken.^pDanken sollen dir, Herr, all deine Werke^*und deine Frommen dich preisen.^pSie sollen von der Herrlichkeit deines°Königtums°reden,^*sollen sprechen von deiner Macht,^pden Menschen deine machtvollen Taten verkünden^*und den herrlichen Glanz deines Königtums.^pDein Königtum ist ein Königtum für°ewige°Zeiten,^*deine Herrschaft währt von Geschlecht zu Geschlecht."
-      },
-    2.0: {
         "verses": "1–9",
         "title": "Gottes Größe und Güte",
         "quote": "Gerecht bist du, der du bist und der du warst, du Heiliger. (Offb°16,5)",
         "text": "Ich will dich rühmen, mein°Gott°und°König,^*und deinen Namen preisen immer und ewig;^pIch will dich preisen Tag für Tag^*und deinen Namen loben immer und ewig.^pGroß ist der Herr und hoch zu loben,^*seine Größe ist unerforschlich.^pEin Geschlecht verkünde dem andern den°Ruhm°deiner°Werke^*und erzähle von deinen gewaltigen Taten.^pSie sollen vom herrlichen Glanz deiner Hoheit reden;^*ich will deine Wunder besingen.^pSie sollen sprechen von der Gewalt deiner°erschreckenden°Taten;^*ich will von deinen großen Taten berichten.^pSie sollen die Erinnerung an deine große Güte wecken^*und über deine Gerechtigkeit jubeln.^pDer Herr ist gnädig und barmherzig,^*langmütig und reich an Gnade.^pDer Herr ist gütig zu allen,^*sein Erbarmen waltet über all seinen Werken."
       },
-    3.0: {
+    2.0: {
         "verses": "10–13b",
         "text": "Danken sollen dir, Herr, all deine Werke^*und deine Frommen dich preisen.^pSie sollen von der Herrlichkeit deines°Königtums°reden,^*sollen sprechen von deiner Macht,^pden Menschen deine machtvollen Taten verkünden^*und den herrlichen Glanz deines Königtums.^pDein Königtum ist ein Königtum für°ewige°Zeiten,^*deine Herrschaft währt von Geschlecht zu Geschlecht."
       },
-    4.0: {
+    3.0: {
         "verses": "13c–21",
         "text": "Der Herr ist treu in all seinen Worten,^*voll Huld in all seinen Taten.^pDer Herr stützt alle, die fallen,^*und richtet alle Gebeugten auf.^pAller Augen warten auf dich^*und du gibst ihnen Speise zur rechten Zeit.^pDu öffnest deine Hand^*und sättigst alles, was lebt, nach deinem Gefallen.^pGerecht ist der Herr in allem, was er tut,^*voll Huld in all seinen Werken.^pDer Herr ist allen, die ihn anrufen, nahe,^*allen, die zu ihm aufrichtig rufen.^pDie Wünsche derer, die ihn fürchten, erfüllt°er,^*er hört ihr Schreien und rettet sie.^pAlle, die ihn lieben, behütet der Herr,^*doch alle Frevler vernichtet er.^pMein Mund verkünde°das°Lob°des°Herrn.^*Alles, was lebt, preise seinen heiligen Namen immer und ewig!"
       },
-    401.0: {
+    4.0: {
+        "verses": "1–13b",
+        "title": "Gottes Größe und Güte",
+        "quote": "Gerecht bist du, der du bist und der du warst, du Heiliger. (Offb°16,5)",
+        "text": "Ich will dich rühmen, mein°Gott°und°König,^*und deinen Namen preisen immer und ewig;^pIch will dich preisen Tag für Tag^*und deinen Namen loben immer und ewig.^pGroß ist der Herr und hoch zu loben,^*seine Größe ist unerforschlich.^pEin Geschlecht verkünde dem andern den°Ruhm°deiner°Werke^*und erzähle von deinen gewaltigen Taten.^pSie sollen vom herrlichen Glanz deiner°Hoheit°reden;^*ich will deine Wunder besingen.^pSie sollen sprechen von der Gewalt deiner°erschreckenden°Taten;^*ich will von deinen großen Taten berichten.^pSie sollen die Erinnerung an°deine°große°Güte°wecken^*und über deine Gerechtigkeit jubeln.^pDer Herr ist gnädig und barmherzig,^*langmütig und reich an Gnade.^pDer Herr ist gütig zu allen,^*sein Erbarmen waltet über all seinen Werken.^pDanken sollen dir, Herr, all deine Werke^*und deine Frommen dich preisen.^pSie sollen von der Herrlichkeit deines°Königtums°reden,^*sollen sprechen von deiner Macht,^pden Menschen deine machtvollen Taten verkünden^*und den herrlichen Glanz deines Königtums.^pDein Königtum ist ein Königtum für°ewige°Zeiten,^*deine Herrschaft währt von Geschlecht zu Geschlecht."
+      },
+    301.0: {
         "verses": "13c–21",
         "text": "^(Der Herr ist treu in all seinen Worten,^*voll Huld in all seinen Taten.^)^pDer Herr stützt alle, die fallen,^*und richtet alle Gebeugten auf.^pAller Augen warten auf dich^*und du gibst ihnen Speise zur rechten Zeit.^pDu öffnest deine Hand^*und sättigst alles, was lebt, nach deinem Gefallen.^pGerecht ist der Herr in allem, was er tut,^*voll Huld in all seinen Werken.^pDer Herr ist allen, die ihn anrufen, nahe,^*allen, die zu ihm aufrichtig rufen.^pDie Wünsche derer, die ihn fürchten, erfüllt°er,^*er hört ihr Schreien und rettet sie.^pAlle, die ihn lieben, behütet der Herr,^*doch alle Frevler vernichtet er.^pMein Mund verkünde°das°Lob°des°Herrn.^*Alles, was lebt, preise seinen heiligen Namen immer und ewig!"
       }

@@ -7414,7 +7414,7 @@ export const brevierData = {
         "Vesper": {
           "hymn_nacht": 3994.0,
           "ps_1": 110.0,
-          "ps_2": 145.1,
+          "ps_2": 145.4,
           "ps_3": 151.0,
           "ant_1": "Auf dem Thron Davids wird er sitzen und König sein für immer und ewig.^Ö",
           "ant_2": "Dein Königtum währt für ewige Zeiten, deine Herrschaft von Geschlecht zu Geschlecht.",
@@ -8980,9 +8980,9 @@ export const brevierData = {
           "ant_ev": "Als Jesus auferstanden war, am ersten Tag der Woche, erschien er zuerst Maria Magdalena, die er von sieben Dämonen befreit hatte.^ö"
         },
         "Lesehore": {
-          "ps_1": 145.2,
-          "ps_2": 145.3,
-          "ps_3": 145.4,
+          "ps_1": 145.1,
+          "ps_2": 145.2,
+          "ps_3": 145.3,
           "ant_1": "Groß ist der Herr und hoch zu loben. Seine Größe ist ohne Grenzen.^ö",
           "ant_2": "Die Herrlichkeit seines Königtums hat der Herr kundgetan.^ö",
           "ant_3": "Alles, was lebt, preise Gottes heiligen Namen immer und ewig.^ö",
@@ -8995,6 +8995,7 @@ export const brevierData = {
           "ps_3": 96.2
         },
         "Vesper": {
+          "button": "1. Vesper vom Sonntag",
           "les_buch": "1°Petr",
           "les_stelle": "2,9-10",
           "les_text": "Ihr seid ein auserwähltes Geschlecht, eine königliche Priesterschaft, ein heiliger Stamm, ein Volk, das sein besonderes Eigentum wurde, damit ihr die großen Taten dessen verkündet, der euch aus der Finsternis in sein wunderbares Licht gerufen hat. Einst wart ihr nicht sein Volk, jetzt aber seid ihr Gottes Volk; einst gab es für euch kein Erbarmen, jetzt aber habt ihr Erbarmen gefunden.^R",
@@ -9223,6 +9224,9 @@ export const brevierData = {
           "ant_2": "Auch die Schöpfung wird befreit zur Freiheit und Herrlichkeit der Kinder Gottes.^ö",
           "ant_3": "Der Name des Herrn ist erhaben. Seine Hoheit strahlt über Erde und Himmel.^ö",
           "ant_ev": "Christus musste leiden und am dritten Tag auferstehen von den Toten.^ö"
+        },
+        "Lesehore": {
+          "ps_3": 145.3
         },
         "Vesper": {
           "ant_1": "Christus, der Erbe des Alls, hat die Reinigung von den Sünden vollbracht. Dann setzte er sich zur Rechten der Herrlichkeit Gottes in der Höhe.^ö",
@@ -9576,6 +9580,7 @@ export const brevierData = {
           "bitten": "Gib, dass wir uns vom Geiste Gottes leiten lassen^q und allezeit als Kinder Gottes leben.^pDein Heiliger Geist leite uns an diesem Tag,^q damit alles, was wir tun, zum Guten führt.^pLass nicht zu, dass wir den Geist auslöschen;^q hilf uns das Böse meiden.^pGewähre uns die Gabe der Erkenntnis Gottes^q und lehre uns die Furcht des Herrn."
         },
         "Lesehore": {
+          "ps_3": 145.3,
           "ant_1": "Halleluja. Gott hat Christus von den Toten auferweckt und ihm die Herrlichkeit gegeben.^ö",
           "ant_2": "Halleluja. Du bist hoch erhoben, Herr, über alle Himmel.^ö",
           "ant_3": "Halleluja. Mir ist alle Gewalt gegeben im Himmel und auf Erden.^ö"
@@ -10439,6 +10444,14 @@ export const brevierData = {
         }
       },
       "each": {
+        "ErsteV": {
+          "hymn_1": 3441.0,
+          "hymn_2": 3442.0,
+          "hymn_kl": 0.0,
+          "resp1_1": "Der Herr ist den Jüngern erschienen.",
+          "resp1_2": "Halleluja,°halleluja.",
+          "resp1_3": "Sie sahen ihn und freuten sich."
+        },
         "Invitatorium": {
           "ant_0": "Christus ist erstanden; kommt, wir beten ihn an!^ö",
           "ant_1": "",
@@ -11792,9 +11805,9 @@ export const brevierData = {
         },
         "Lesehore": {
           "hymn_1": 2110.0,
-          "ps_1": 145.2,
-          "ps_2": 145.3,
-          "ps_3": 145.401,
+          "ps_1": 145.1,
+          "ps_2": 145.2,
+          "ps_3": 145.301,
           "ant_1": "Ich will dich preisen Tag für Tag und deinen Namen loben immer und ewig.^Ö",
           "ant_2": "Dein Königtum, o°Herr, ist ein Königtum für ewige Zeiten.^Ö",
           "ant_3": "Der Herr ist treu in all seinen Worten, voll Huld in all seinen Taten.^Ö",
@@ -12817,8 +12830,8 @@ export const brevierData = {
         "Vesper": {
           "hymn_1": 2425.0,
           "hymn_kl": 3952.0,
-          "ps_1": 145.1,
-          "ps_2": 145.4,
+          "ps_1": 145.4,
+          "ps_2": 145.3,
           "ps_3": 156.0,
           "ant_1": "Tag um Tag will ich dich preisen, Herr, und deine Wunder besingen.",
           "ant_2": "Aller Augen warten auf dich, o°Herr; nahe bist du allen, die zu dir rufen.",
