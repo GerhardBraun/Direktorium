@@ -8993,17 +8993,6 @@ export const brevierData = {
           "ps_1": 119.033,
           "ps_2": 96.1,
           "ps_3": 96.2
-        },
-        "Vesper": {
-          "button": "1. Vesper vom Sonntag",
-          "les_buch": "1°Petr",
-          "les_stelle": "2,9-10",
-          "les_text": "Ihr seid ein auserwähltes Geschlecht, eine königliche Priesterschaft, ein heiliger Stamm, ein Volk, das sein besonderes Eigentum wurde, damit ihr die großen Taten dessen verkündet, der euch aus der Finsternis in sein wunderbares Licht gerufen hat. Einst wart ihr nicht sein Volk, jetzt aber seid ihr Gottes Volk; einst gab es für euch kein Erbarmen, jetzt aber habt ihr Erbarmen gefunden.^R",
-          "ant_ev": "Acht Tage darauf kam Jesus wiederum bei verschlossenen Türen und sprach zu den Jüngern: Friede sei mit euch.^ö",
-          "bitten_e": "Lasst uns beten zu Jesus Christus, den der Vater von den Toten auferweckt hat:",
-          "bitten_r": "Sohn des lebendigen Gottes, erbarme dich.",
-          "bitten": "Du bist der treue und wahrhaftige Zeuge;^qhilf deiner Kirche, von dir Zeugnis zu geben.^pDu bist der Erste und der Letzte, du warst tot, und du lebst;^qerhalte in den Neugetauften dein Leben.^pDu willst, dass deine Gläubigen einander im Glauben bestärken;^qhilf den Paten der Neugetauften, ein Beispiel lebendigen Glaubens zu geben.^pDu bist der Stein, den die Bauleute verworfen haben und der zum Eckstein geworden ist;^qführe Juden und Heiden in deiner Kirche zusammen.^pErbarme dich unserer Verstorbenen;^qlass sie das Licht deiner Herrlichkeit schauen.",
-          "oration": "Barmherziger Gott, durch die jährliche Osterfeier erneuerst du den Glauben deines Volkes. Lass uns immer tiefer erkennen, wie heilig das Bad der Taufe ist, das uns gereinigt hat, wie mächtig dein Geist, aus dem wir wiedergeboren sind, und wie kostbar das Blut, durch das wir erkauft sind.^ORV"
         }
       },
       "each": {
@@ -9069,6 +9058,7 @@ export const brevierData = {
           "oration": "Barmherziger Gott, durch die jährliche Osterfeier erneuerst du den Glauben deines Volkes. Lass uns immer tiefer erkennen, wie heilig das Bad der Taufe ist, das uns gereinigt hat, wie mächtig dein Geist, aus dem wir wiedergeboren sind, und wie kostbar das Blut, durch das wir erkauft sind.^ORV"
         },
         "ErsteV": {
+          "button": "1. Vesper vom Sonntag",
           "hymn_kl": 0.0,
           "ps_1": 110.0,
           "ps_2": 114.0,
@@ -9076,6 +9066,10 @@ export const brevierData = {
           "ant_1": "Maria Magdalena und die andere Maria kamen, um nach dem Grab zu sehen.^Ö",
           "ant_2": "Kommt her und seht die Stelle, wo der Herr gelegen hat.^ö",
           "ant_3": "Jesus sprach: Fürchtet euch nicht! Geht und sagt meinen Brüdern, sie sollen nach Galiläa gehen. Dort werdet ihr mich sehen.^ö",
+          "resp1_0": "",
+          "resp1_1": "",
+          "resp1_2": "",
+          "resp1_3": "",
           "ant_ev": "Acht Tage darauf kam Jesus wiederum bei verschlossenen Türen und sprach zu den Jüngern: Friede sei mit euch.^ö"
         },
         "Laudes": {

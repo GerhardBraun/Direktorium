@@ -274,7 +274,7 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         addLayer(season, week, dayOfWeek);
 
         // Oration der Komplet in der Osteroktav
-        if (season === 'o' && week === 1 && dayOfWeek > 0 && dayOfWeek < 6) {
+        if (season === 'o' && (week === 1 || week === 2 && dayOfWeek === 0)) {
             const easterKomplet1 = brevierData['k1']?.['o']?.['6']
             const easterKomplet2 = brevierData['k2']?.['o']?.['0']
             mergeData(hours, easterKomplet1, 'k1')
@@ -654,19 +654,18 @@ export function processBrevierData(todayDate) {
     const tomorrowData = getPrayerTexts(brevierData, personalData, tomorrowDate, nextDate);
 
     // Prüfe, ob erste Vesper benötigt wird
-    const dayOfWeek = todayData.dayOfWeek;
-    const rankWt = todayData.rank_wt;
-    const rankDate = todayData.rank_date;
+    const { dayOfWeek, combinedSWD, rank_wt, rank_date } = todayData;
     const nextRankWt = tomorrowData.rank_wt;
     const nextRankDate = tomorrowData.rank_date;
     const nextCombinedSWD = tomorrowData.combinedSWD;
 
-    const hasErsteVesper_wt = rankWt < 5 && rankDate < 5 &&
-        ((dayOfWeek === 6 && rankDate < 4) ||
-            (nextRankWt === 5 && nextCombinedSWD !== 'q-0-3'));
-    const hasErsteVesper_date = rankWt < 5 && rankDate < 5 && nextRankDate > nextRankWt &&
+    const hasErsteVesper_wt = combinedSWD === 'o-1-6' ||
+        (rank_wt < 5 && rank_date < 5 &&
+            ((dayOfWeek === 6 && rank_date < 4) ||
+                (nextRankWt === 5 && nextCombinedSWD !== 'q-0-3')));
+    const hasErsteVesper_date = rank_wt < 5 && rank_date < 5 && nextRankDate > nextRankWt &&
         (nextRankDate === 5 || (nextRankDate === 4 && dayOfWeek === 6));
-    console.log('brevierDataProcessor:\nrank_Wt/Date:', rankWt, rankDate,
+    console.log('brevierDataProcessor:\nrank_Wt/Date:', rank_wt, rank_date,
         '\nnextRank_Wt/Date:', nextRankWt, nextRankDate,
         '\ndayOfWeek:', dayOfWeek,
         '\n1. Vesper wt/date: ', hasErsteVesper_wt, hasErsteVesper_date)
