@@ -118,19 +118,28 @@ export const formatPrayerText = (provText, marker = '',
         .replace(/\^NH/g, '^N');
 
     if (nominativ) {
-        text = text.replace(/Der heilige \^NOM/g, nominativ);
-        text = text.replace(/Die heilige \^NOM/g, nominativ);
-        text = text.replace(/Die heiligen \^NOM/g, nominativ);
+        text = text
+            .replace(/Der heilige \^NOM/g, nominativ)
+            .replace(/Die heilige \^NOM/g, nominativ)
+            .replace(/Die heiligen \^NOM/g, nominativ);
     }
 
     if (genitiv) {
-        text = text.replace(/des heiligen \^GEN/g, genitiv);
-        text = text.replace(/der heiligen \^GEN/g, genitiv);
+        text = text
+            .replace(/des heiligen \^GEN/g, genitiv)
+            .replace(/der heiligen \^GEN/g, genitiv)
+            .replace(/auf seine Fürbitte/g, match =>
+                genitiv.startsWith('der') ? 'auf ihre Fürbitte' : match);
     }
 
     if (vokativ) {
-        text = text.replace(/Heiliger \^VOK/g, vokativ);
-        text = text.replace(/Heilige \^VOK/g, vokativ);
+        text = text
+            .replace(/Heiliger \^VOK/g, vokativ)
+            .replace(/Heilige \^VOK/g, vokativ)
+            .replace(/tat ihm den/g, match =>
+                vokativ.startsWith('Heilige ') ? 'tat ihr den' : match)
+            .replace(/gab ihm Weisheit/g, match =>
+                vokativ.startsWith('Heilige ') ? 'gab ihr Weisheit' : match);
     }
 
     text = text

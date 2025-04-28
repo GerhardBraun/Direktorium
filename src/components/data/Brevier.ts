@@ -1495,8 +1495,9 @@ export const brevierData = {
           "ant_3": "",
           "les_buch": "Offb",
           "les_stelle": "19,6b–7",
-          "les_text": "Denn der Herr ist König geworden, unser Gott, der Herrscher über die ganze Schöpfung! Wir wollen uns freuen und jubeln und ihm die Ehre erweisen! Denn die Hochzeit des Lammes ist gekommen, und seine Frau hat sich bereit gemacht.",
-          "resp1_0": "Ich fand ihn, den meine Seele liebt.^öIch halte ihn fest und will ihn nicht lassen.^ö"
+          "les_text": "Der Herr ist König geworden, unser Gott, der Herrscher über die ganze Schöpfung! Wir wollen uns freuen und jubeln und ihm die Ehre erweisen! Denn die Hochzeit des Lammes ist gekommen, und seine Frau hat sich bereit gemacht.",
+          "resp1_0": "Ich fand ihn, den meine Seele liebt.^ö",
+          "resp1_1": "Ich halte ihn fest und will ihn nicht lassen.^ö"
         },
         "Sext": {
           "hymn_2": 0.0,
@@ -1521,7 +1522,8 @@ export const brevierData = {
           "les_buch": "Weish",
           "les_stelle": "8,21",
           "les_text": "Ich erkannte, dass ich die Weisheit nur als Geschenk Gottes erhalten könne – und schon hier war es die Klugheit, die mich erkennen ließ, wessen Gnadengeschenk sie ist.",
-          "resp1_0": "Dies ist eine weise Jungfrau.^öDer Herr findet sie wachend, wenn er kommt.^ö"
+          "resp1_0": "Dies ist eine weise Jungfrau.^ö",
+          "resp1_1": "Der Herr findet sie wachend, wenn er kommt.^ö"
         },
         "Vesper": {
           "hymn_1": 1185.0,
@@ -1572,7 +1574,7 @@ export const brevierData = {
           "hymn_3": 0.0,
           "hymn_kl": 0.0,
           "ant_ev": "Ihr klugen Jungfrauen, macht eure Lampen bereit! Der Bräutigam kommt. Geht ihm entgegen!^ö",
-          "bitten": "Du hast dir die Kirche zur Braut erwählt;^qheilige sie, damit sie ohne Makel vor dir stehe.^pDurch deine Gnade hat die Kirche dir die Treue bewahrt;^qerneuere sie immer wieder durch dein Evangelium.^pDu hast der Kirche das Vorbild der heiligen ^GEN geschenkt;^qrufe junge Menschen in den Stand der Jungfräulichkeit.^pDie heiligen ^NOM ist dir ungeteilten Herzens nachgefolgt;^qauf ihre Fürbitte stärke die Ordensfrauen in ihrem Dienst.^pDie heiligen Jungfrauen hast du aufgenommen zum Hochzeitsmahl des ewigen Lebens;^qlass auch unsere Verstorbenen teilhaben am himmlischen Mahl."
+          "bitten": "Du hast dir die Kirche zur Braut erwählt;^qheilige sie, damit sie ohne Makel vor dir stehe.^pDurch deine Gnade hat die Kirche dir die Treue bewahrt;^qerneuere sie immer wieder durch dein Evangelium.^pDu hast der Kirche das Vorbild der heiligen ^GEN geschenkt;^qrufe junge Menschen in den Stand der Jungfräulichkeit.^pDie heiligen ^NOM sind dir ungeteilten Herzens nachgefolgt;^qauf ihre Fürbitte stärke die Ordensfrauen in ihrem Dienst.^pDie heiligen Jungfrauen hast du aufgenommen zum Hochzeitsmahl des ewigen Lebens;^qlass auch unsere Verstorbenen teilhaben am himmlischen Mahl."
         },
         "Laudes": {
           "hymn_2": 0.0,
@@ -1585,7 +1587,7 @@ export const brevierData = {
           "hymn_3": 0.0,
           "hymn_kl": 0.0,
           "ant_ev": "Das sind die Menschen, die den Herrn suchen, die dein Antlitz suchen, o°Gott.^ö",
-          "bitten": "Du hast dir die Kirche zur Braut erwählt;^qheilige sie, damit sie ohne Makel vor dir stehe.^pDurch deine Gnade hat die Kirche dir die Treue bewahrt;^qerneuere sie immer wieder durch dein Evangelium.^pDu hast der Kirche das Vorbild der heiligen ^GEN geschenkt;^qrufe junge Menschen in den Stand der Jungfräulichkeit.^pDie heiligen ^NOM ist dir ungeteilten Herzens nachgefolgt;^qauf ihre Fürbitte stärke die Ordensfrauen in ihrem Dienst.^pDie heiligen Jungfrauen hast du aufgenommen zum Hochzeitsmahl des ewigen Lebens;^qlass auch unsere Verstorbenen teilhaben am himmlischen Mahl."
+          "bitten": "Du hast dir die Kirche zur Braut erwählt;^qheilige sie, damit sie ohne Makel vor dir stehe.^pDurch deine Gnade hat die Kirche dir die Treue bewahrt;^qerneuere sie immer wieder durch dein Evangelium.^pDu hast der Kirche das Vorbild der heiligen ^GEN geschenkt;^qrufe junge Menschen in den Stand der Jungfräulichkeit.^pDie heiligen ^NOM sind dir ungeteilten Herzens nachgefolgt;^qauf ihre Fürbitte stärke die Ordensfrauen in ihrem Dienst.^pDie heiligen Jungfrauen hast du aufgenommen zum Hochzeitsmahl des ewigen Lebens;^qlass auch unsere Verstorbenen teilhaben am himmlischen Mahl."
         }
       }
     },

@@ -926,6 +926,7 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Petrus Damiani",
           "genitiv": "des heiligen Petrus Damiani",
+          "vokativ": "Heiliger Petrus Damiani",
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
           "ant_komm": "Die Weisen strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig.",
@@ -3140,6 +3141,7 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Cyrill von Alexandrien",
           "genitiv": "des heiligen Cyrill",
+          "vokativ": "Heiliger Cyrill",
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
           "oration": "Vater unseres Herrn Jesus Christus, durch deine Gnade ist der heilige Bischof Cyrill von Alexandrien unerschrocken eingetreten für den Glauben, dass Maria deinen ewigen Sohn geboren hat. Auch wir bekennen sie als wahre Gottesmutter und bitten dich: Rette uns durch die Menschwerdung deines Sohnes Jesus Christus,^ORR"
@@ -3636,6 +3638,7 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Bonaventura",
           "genitiv": "des heiligen Bonaventura",
+          "vokativ": "Heiliger Bonaventura",
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
           "oration": "Gott, du ewige Weisheit und Liebe, gib uns die Gnade, dass wir nach dem Vorbild des heiligen Bonaventura beharrlich deine Wahrheit suchen und nach immer größerer Liebe streben.^ORV"
@@ -3757,6 +3760,7 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Laurentius von Brindisi",
           "genitiv": "des heiligen Laurentius",
+          "vokativ": "Heiliger Laurentius",
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
           "oration": "Allmächtiger Gott, du hast dem heiligen Laurentius von Brindisi den Geist des Rates und der Stärke verliehen, damit er als Prediger und Seelsorger zu deiner Ehre und zum Heil der Menschen wirke. Erleuchte auch uns durch deinen Geist, damit wir unsere Aufgaben erkennen und sie in deiner Kraft erfüllen.^ORV"
@@ -3895,6 +3899,7 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Petrus Chrysologus",
           "genitiv": "des heiligen Petrus Chrysologus",
+          "vokativ": "Heiliger Petrus Chrysologus",
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
           "oration": "Erhabener Gott, du hast den Bischof Petrus Chrysologus zu einem begnadeten Verkünder deines ewigen Wortes gemacht, das unsere Menschennatur angenommen hat. Gewähre uns auf seine Fürsprache, dass wir die Geheimnisse der Erlösung allezeit im Herzen erwägen und in unseren Werken davon Zeugnis geben.^ORV"
@@ -3964,6 +3969,7 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Alfons Maria von Liguori",
           "genitiv": "des heiligen Alfons Maria",
+          "vokativ": "Heiliger Alfons",
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
           "oration": "Gott, du Hirt deines Volkes, du schenkst der Kirche zu allen Zeiten Menschen, die durch ihren Glauben und ihre Liebe ein Vorbild sind. Gib, dass uns gleich dem heiligen Alfons das Heil der Menschen am Herzen liegt, und schenke uns im Himmel den Lohn, den er schon empfangen hat.^ORV"
@@ -4950,6 +4956,7 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Hildegard von Bingen",
           "genitiv": "der heiligen Hildegard",
+          "vokativ": "Heilige Hildegard",
           "comm_1": "Hirten_Kl",
           "comm_2": "Frau_Ord",
           "oration": "Gott, du Quelle des Lebens, du hast die heilige Hildegard mit prophetischem Geist erfüllt. Hilf uns, nach ihrem Vorbild über deine Wege nachzusinnen und deiner Führung zu folgen, damit wir in der Dunkelheit dieser Welt das Licht deiner Klarheit erkennen.^ORV"
@@ -5597,6 +5604,7 @@ export const adlibData = {
           "button": "Hl. Theresia von Jesus",
           "nominativ": "Die heilige Theresia",
           "genitiv": "der heiligen Theresia",
+          "vokativ": "Heilige Theresia",
           "comm_1": "Hirten_Kl",
           "comm_2": "Jgfr",
           "oration": "Allmächtiger Gott, du hast die heilige Theresia von Avila durch deinen Geist erweckt und sie der Kirche als Lehrmeisterin des Weges zur Vollkommenheit geschenkt. Gib, dass wir in ihren Schriften Nahrung für unser geistliches Leben finden. Durchdringe uns mit der Gewissheit, dass du allein genügst, und entzünde in uns das Verlangen nach Heiligkeit.^ORV"
