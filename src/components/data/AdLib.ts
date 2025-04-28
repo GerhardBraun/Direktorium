@@ -1983,7 +1983,7 @@ export const adlibData = {
       }
     }
   },
-  "5": {
+  "15": {
     "1": {
       "n1": {
         "ErsteV": {
@@ -2006,7 +2006,9 @@ export const adlibData = {
           "oration": "Gott, du Schöpfer der Welt, du hast den Menschen zum Schaffen und Wirken bestimmt. Auf die Fürsprache unseres Schutzpatrons, des heiligen Josef, der mit seiner Hände Arbeit die Heilige Familie ernährte, gib uns Kraft und Ausdauer, damit wir deinen Auftrag auf Erden erfüllen und so den verheißenen Lohn empfangen.^ORV"
         }
       }
-    },
+    }
+  },
+  "5": {
     "2": {
       "eig": {
         "ErsteV": {

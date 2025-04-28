@@ -297,6 +297,7 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         // Layer 9: nichtgebotene Gedenktage
         else if (rank_wt < 3) {
             processHeiligenfeste(hours, season, rank_date, dayOfWeek, calendarMonth, calendarDay, 'n1');
+            processHeiligenfeste(hours, season, rank_date, dayOfWeek, calendarMonth, calendarDay, 'n2');
             processNichtgeboteneGedenktage(hours, season, calendarMonth, calendarDay);
         }
 

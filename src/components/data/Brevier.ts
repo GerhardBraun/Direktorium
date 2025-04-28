@@ -8780,6 +8780,62 @@ export const brevierData = {
     }
   },
   "n1": {
+    "5": {
+      "1": {
+        "each": {
+          "comm_1": "Mann",
+          "oration": "Gott, du Schöpfer der Welt, du hast den Menschen zum Schaffen und Wirken bestimmt. Auf die Fürsprache unseres Schutzpatrons, des heiligen Josef, der mit seiner Hände Arbeit die Heilige Familie ernährte, gib uns Kraft und Ausdauer, damit wir deinen Auftrag auf Erden erfüllen und so den verheißenen Lohn empfangen.^ORV"
+        },
+        "Invitatorium": {
+          "ant_0": "Christus, den Sohn Gottes, der sich nicht gescheut hat, als Sohn des Zimmermanns zu gelten – kommt, wir beten ihn an!^ö"
+        },
+        "Laudes": {
+          "button": "Hl. Josef der Arbeiter",
+          "hymn_1": 8319.2,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
+          "les_buch": "2°Sam",
+          "les_stelle": "7,28–29",
+          "les_text": "Mein Herr und Gott, du bist der einzige Gott und deine Worte sind wahr. Du hast deinem Knecht ein solches Glück zugesagt. So segne jetzt gnädig das Haus deines Knechtes, damit es ewig vor deinen Augen Bestand hat. Denn du, mein Herr und Gott, hast es versprochen und mit deinem Segen wird das Haus deines Knechtes für immer gesegnet sein.",
+          "resp1_1": "Zum Herrn hat Gott ihn bestellt",
+          "resp1_2": "über sein ganzes Haus.",
+          "resp1_3": "Und zum Gebieter über seinen Besitz.",
+          "ant_ev": "Gewissenhaft hat der heilige Josef sein Handwerk ausgeübt als leuchtendes Beispiel für uns alle.^ö",
+          "bitten_e": "Gepriesen sei Gott, der sich seine Diener beruft. Zu ihm lasst uns beten:",
+          "bitten_r": "Wir bitten dich, erhöre uns.",
+          "bitten": "Herr, unser Gott, du hast unsere Väter im Glauben berufen, vor dir zu leben;^qgib uns die Kraft, ihrem Beispiel zu folgen.^pOhne zu zögern, hat Josef deinen Willen erfüllt;^qhilf uns, auf dich zu hören und dir zu gehorchen.^pDu hast Josef, dem Gerechten, Kindheit und Jugend deines menschgewordenen Sohnes anvertraut;^qgib, dass wir Christus in unseren Brüdern und Schwestern dienen.^pDu hast Josef erwählt, dass er mit seiner Hände Arbeit für Jesus und Maria sorge;^qsegne unsere Arbeit."
+        },
+        "Lesehore": {
+          "hymn_1": 8319.1,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_nacht": 0.0,
+          "patr_autor": "II. Vatikanisches Konzil (1962–1965)",
+          "patr_werk": "Aus der Pastoralkonstitution über die Kirche in der Welt von heute.",
+          "patr_text": "^hDie Regsamkeit des Menschen in der ganzen Welt^pDurch Arbeit und Geisteskraft hat der Mensch immer versucht, sein Leben reicher zu entfalten. Heute jedoch hat er, vor allem mit den Mitteln der Wissenschaft und der Technik, seine Herrschaft über beinahe die gesamte Natur ausgebreitet und breitet sie ständig weiter aus. Vor allem dank den zwischen den Völkern zunehmenden Beziehungen der mannigfaltigsten Art erfährt und gestaltet sich die Menschheitsfamilie allmählich als eine die ganze Welt umfassende Gemeinschaft. Die Folge von alldem ist, dass sich der Mensch heute viele Güter, die er einst vor allem von höheren Mächten erwartete, durch seine eigene Tat beschafft.^pAngesichts dieses unermesslichen Unternehmens, das schon die ganze Menschheit erfasst, stellen sich den Menschen viele Fragen: Was ist der Sinn und der Wert dieser angestrengten Tätigkeit? Wie sind all diese Güter zu nutzen? Was ist das Ziel dieses individuellen und kollektiven Bemühens? Die Kirche hütet das bei ihr hinterlegte Wort Gottes, aus dem die Grundsätze der religiösen und sittlichen Ordnung gewonnen werden, wenn sie auch nicht immer zu allen einzelnen Fragen eine fertige Antwort bereit hat; und so ist es ihr Wunsch, das Licht der Offenbarung mit der Sachkenntnis aller Menschen in Verbindung zu bringen, damit der Weg, den die Menschheit neuerdings nimmt, erhellt werde.^pEines steht für die Glaubenden fest: das persönliche und gemeinsame menschliche Schaffen, dieses gewaltige Bemühen der Menschen im Lauf der Jahrhunderte, ihre Lebensbedingungen stets zu verbessern, entspricht als solches der Absicht Gottes. Der nach Gottes Bild geschaffene Mensch hat ja den Auftrag erhalten, sich die Erde mit allem, was zu ihr gehört, zu unterwerfen, die Welt in Gerechtigkeit und Heiligkeit zu regieren {1#vgl.°Gen 1,26–27} und durch die Anerkennung Gottes als des Schöpfers aller Dinge sich selbst und die Gesamtheit der Wirklichkeit auf Gott hinzuordnen, so dass alles dem Menschen unterworfen und Gottes Name wunderbar sei auf der ganzen Erde {2#vgl.°Ps 8,7–10}.^pDas gilt auch für das gewöhnliche alltägliche Tun; denn Männer und Frauen, die, etwa beim Erwerb des Lebensunterhalts für sich und ihre Familie, ihre Tätigkeit so ausüben, dass sie ein entsprechender Dienst für die Gemeinschaft ist, dürfen überzeugt sein, dass sie durch ihre Arbeit das Werk des Schöpfers weiterentwickeln, dass sie für die Wohlfahrt ihrer Brüder sorgen und durch ihre persönliche Bemühung zur geschichtlichen Erfüllung des göttlichen Plans beitragen {3#@AAS 55 (1963) 297}.^pDen Christen liegt es deshalb fern, zu glauben, dass die von des Menschen Geist und Kraft geschaffenen Werke einen Gegensatz zu Gottes Macht bilden oder dass das mit Vernunft begabte Geschöpf sozusagen als Rivale dem Schöpfer gegenübertrete. Im Gegenteil, sie sind überzeugt, dass die Siege der Menschheit ein Zeichen der Größe Gottes und die Frucht seines unergründlichen Ratschlusses sind. Je mehr aber die Macht der Menschen wächst, desto mehr weitet sich ihre Verantwortung, sowohl die der Einzelnen wie die der Gemeinschaften. Daraus wird klar, dass die christliche Botschaft die Menschen nicht vom Aufbau der Welt ablenkt noch zur Vernachlässigung des Wohls ihrer Mitmenschen hintreibt, sondern sie vielmehr strenger zur Bewältigung dieser Aufgaben verpflichtet {4#@AAS 54 (1962) 822f}.",
+          "patr_resp1": "Gott, der Herr. nahm den Menschen und setzte ihn in den Garten Eden;",
+          "patr_resp2": "er sollte den Garten bebauen und hüten.",
+          "patr_resp3": "Das war die Bestimmung des Menschen von Anbeginn."
+        },
+        "Vesper": {
+          "hymn_1": 8319.1,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
+          "les_buch": "Kol",
+          "les_stelle": "3,23–24",
+          "les_text": "Tut eure Arbeit gern, als wäre sie für den Herrn und nicht für Menschen; ihr wisst, dass ihr vom Herrn euer Erbe als Lohn empfangen werdet. Dient Christus, dem Herrn!",
+          "resp1_1": "Der Herr ist gerecht,",
+          "resp1_2": "er liebt gerechte Taten.",
+          "resp1_3": "Redliche dürfen sein Angesicht schauen.",
+          "ant_ev": "Christus, der Herr, scheute sich nicht, als Sohn des Zimmermanns zu gelten.^ö",
+          "bitten_e": "Lasst uns beten zu Gott, unserem Vater:",
+          "bitten_r": "Wir bitten dich, erhöre uns.",
+          "bitten": "Vater im Himmel, du hast Josef durch den Engel deine Wege kundgetan;^qnimm dich der Ratlosen an.^pJosef hat mit seiner Hände Arbeit für Jesus und Maria das tägliche Brot verdient;^qschenke allen Schaffenden die Frucht ihrer Arbeit.^pJosef hat in Demut deinem Sohn gedient;^qsei allen nahe, die in Stille ihren Dienst tun.^pAuf die Fürsprache des heiligen Josef erbarme dich der Sterbenden;^qschenke ihnen einen gnädigen Tod.^pNimm unsere Verstorbenen auf in die Gemeinschaft deiner Heiligen;^qlass sie mit Maria und Josef bei dir selig sein."
+        }
+      }
+    },
     "12": {
       "1": {
         "Invitatorium": {
@@ -8809,6 +8865,83 @@ export const brevierData = {
           "hymn_2": 0.0,
           "ant_ev": "Dank sei dir, Christus, guter Hirte! Du hast mich zur Herrlichkeit geführt, gib auch der Herde, die du mir anvertraut hast, Anteil an deiner Gnade auf ewig.",
           "oration": "Ewiger Gott, bei seiner Bischofsweihe hat der heilige Bonifatius am Grab des heiligen Petrus ein feierliches Bekenntnis zum katholischen Glauben und zur Einheit der Kirche abgelegt. Erhalte dein Volk im gleichen Bekenntnis und sende ihm allzeit würdige Hirten.^ORV"
+        }
+      }
+    }
+  },
+  "n2": {
+    "5": {
+      "1": {
+        "each": {
+          "oration": "Gott, du Schöpfer der Welt, du hast den Menschen zum Schaffen und Wirken bestimmt. Auf die Fürsprache unseres Schutzpatrons, des heiligen Josef, der mit seiner Hände Arbeit die Heilige Familie ernährte, gib uns Kraft und Ausdauer, damit wir deinen Auftrag auf Erden erfüllen und so den verheißenen Lohn empfangen.^ORV"
+        },
+        "Invitatorium": {
+          "ant_0": "Christus, den Sohn Gottes, der sich nicht gescheut hat, als Sohn des Zimmermanns zu gelten – kommt, wir beten ihn an!^ö"
+        },
+        "Laudes": {
+          "button": "Hl. Josef (auch Ant und Ps vom 19. März)",
+          "hymn_1": 8319.2,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
+          "ps_1": 63.0,
+          "ps_2": 160.0,
+          "ps_3": 149.0,
+          "ant_1": "Die Hirten eilten hin und fanden Maria und Josef und das Kind, das in der Krippe lag.^ö",
+          "ant_2": "Josef und Maria, die Mutter Jesu, hörten voll Staunen, was man über Jesus sagte. Und Simeon segnete sie.^ö",
+          "ant_3": "Noch in der Nacht stand Josef auf, nahm das Kind und seine Mutter und floh nach Ägypten. Dort blieb er bis zum Tode des Herodes.^ö",
+          "les_buch": "2°Sam",
+          "les_stelle": "7,28–29",
+          "les_text": "Mein Herr und Gott, du bist der einzige Gott und deine Worte sind wahr. Du hast deinem Knecht ein solches Glück zugesagt. So segne jetzt gnädig das Haus deines Knechtes, damit es ewig vor deinen Augen Bestand hat. Denn du, mein Herr und Gott, hast es versprochen und mit deinem Segen wird das Haus deines Knechtes für immer gesegnet sein.",
+          "resp1_1": "Zum Herrn hat Gott ihn bestellt",
+          "resp1_2": "über sein ganzes Haus.",
+          "resp1_3": "Und zum Gebieter über seinen Besitz.",
+          "ant_ev": "Gewissenhaft hat der heilige Josef sein Handwerk ausgeübt als leuchtendes Beispiel für uns alle.^ö",
+          "bitten_e": "Gepriesen sei Gott, der sich seine Diener beruft. Zu ihm lasst uns beten:",
+          "bitten_r": "Wir bitten dich, erhöre uns.",
+          "bitten": "Herr, unser Gott, du hast unsere Väter im Glauben berufen, vor dir zu leben;^qgib uns die Kraft, ihrem Beispiel zu folgen.^pOhne zu zögern, hat Josef deinen Willen erfüllt;^qhilf uns, auf dich zu hören und dir zu gehorchen.^pDu hast Josef, dem Gerechten, Kindheit und Jugend deines menschgewordenen Sohnes anvertraut;^qgib, dass wir Christus in unseren Brüdern und Schwestern dienen.^pDu hast Josef erwählt, dass er mit seiner Hände Arbeit für Jesus und Maria sorge;^qsegne unsere Arbeit."
+        },
+        "Lesehore": {
+          "hymn_1": 8319.1,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_nacht": 0.0,
+          "ps_1": 21.0,
+          "ps_2": 92.1,
+          "ps_3": 92.2,
+          "ant_1": "Ein Engel des Herrn erschien dem Josef und sprach: Josef, Sohn Davids, fürchte dich nicht, Maria als deine Frau zu dir zu nehmen. Sie wird einen Sohn gebären; ihm sollst du den Namen Jesus geben.^ö",
+          "ant_2": "Als Josef erwachte, tat er, was der Engel des Herrn ihm geboten hatte, und nahm Maria zu sich.^ö",
+          "ant_3": "Josef zog von Nazaret hinauf in die Stadt Davids, die Betlehem heißt, um sich eintragen zu lassen mit Maria, seiner Vermählten.^ö",
+          "resp0_0": "Der Gerechte gedeiht wie die Palme.^ö",
+          "resp0_1": "Gepflanzt im Hause des Herrn.^ö",
+          "patr_autor": "II. Vatikanisches Konzil (1962–1965)",
+          "patr_werk": "Aus der Pastoralkonstitution über die Kirche in der Welt von heute.",
+          "patr_text": "^hDie Regsamkeit des Menschen in der ganzen Welt^pDurch Arbeit und Geisteskraft hat der Mensch immer versucht, sein Leben reicher zu entfalten. Heute jedoch hat er, vor allem mit den Mitteln der Wissenschaft und der Technik, seine Herrschaft über beinahe die gesamte Natur ausgebreitet und breitet sie ständig weiter aus. Vor allem dank den zwischen den Völkern zunehmenden Beziehungen der mannigfaltigsten Art erfährt und gestaltet sich die Menschheitsfamilie allmählich als eine die ganze Welt umfassende Gemeinschaft. Die Folge von alldem ist, dass sich der Mensch heute viele Güter, die er einst vor allem von höheren Mächten erwartete, durch seine eigene Tat beschafft.^pAngesichts dieses unermesslichen Unternehmens, das schon die ganze Menschheit erfasst, stellen sich den Menschen viele Fragen: Was ist der Sinn und der Wert dieser angestrengten Tätigkeit? Wie sind all diese Güter zu nutzen? Was ist das Ziel dieses individuellen und kollektiven Bemühens? Die Kirche hütet das bei ihr hinterlegte Wort Gottes, aus dem die Grundsätze der religiösen und sittlichen Ordnung gewonnen werden, wenn sie auch nicht immer zu allen einzelnen Fragen eine fertige Antwort bereit hat; und so ist es ihr Wunsch, das Licht der Offenbarung mit der Sachkenntnis aller Menschen in Verbindung zu bringen, damit der Weg, den die Menschheit neuerdings nimmt, erhellt werde.^pEines steht für die Glaubenden fest: das persönliche und gemeinsame menschliche Schaffen, dieses gewaltige Bemühen der Menschen im Lauf der Jahrhunderte, ihre Lebensbedingungen stets zu verbessern, entspricht als solches der Absicht Gottes. Der nach Gottes Bild geschaffene Mensch hat ja den Auftrag erhalten, sich die Erde mit allem, was zu ihr gehört, zu unterwerfen, die Welt in Gerechtigkeit und Heiligkeit zu regieren {1#vgl.°Gen 1,26–27} und durch die Anerkennung Gottes als des Schöpfers aller Dinge sich selbst und die Gesamtheit der Wirklichkeit auf Gott hinzuordnen, so dass alles dem Menschen unterworfen und Gottes Name wunderbar sei auf der ganzen Erde {2#vgl.°Ps 8,7–10}.^pDas gilt auch für das gewöhnliche alltägliche Tun; denn Männer und Frauen, die, etwa beim Erwerb des Lebensunterhalts für sich und ihre Familie, ihre Tätigkeit so ausüben, dass sie ein entsprechender Dienst für die Gemeinschaft ist, dürfen überzeugt sein, dass sie durch ihre Arbeit das Werk des Schöpfers weiterentwickeln, dass sie für die Wohlfahrt ihrer Brüder sorgen und durch ihre persönliche Bemühung zur geschichtlichen Erfüllung des göttlichen Plans beitragen {3#@AAS 55 (1963) 297}.^pDen Christen liegt es deshalb fern, zu glauben, dass die von des Menschen Geist und Kraft geschaffenen Werke einen Gegensatz zu Gottes Macht bilden oder dass das mit Vernunft begabte Geschöpf sozusagen als Rivale dem Schöpfer gegenübertrete. Im Gegenteil, sie sind überzeugt, dass die Siege der Menschheit ein Zeichen der Größe Gottes und die Frucht seines unergründlichen Ratschlusses sind. Je mehr aber die Macht der Menschen wächst, desto mehr weitet sich ihre Verantwortung, sowohl die der Einzelnen wie die der Gemeinschaften. Daraus wird klar, dass die christliche Botschaft die Menschen nicht vom Aufbau der Welt ablenkt noch zur Vernachlässigung des Wohls ihrer Mitmenschen hintreibt, sondern sie vielmehr strenger zur Bewältigung dieser Aufgaben verpflichtet {4#@AAS 54 (1962) 822f}.",
+          "patr_resp1": "Gott, der Herr. nahm den Menschen und setzte ihn in den Garten Eden;",
+          "patr_resp2": "er sollte den Garten bebauen und hüten.",
+          "patr_resp3": "Das war die Bestimmung des Menschen von Anbeginn."
+        },
+        "Vesper": {
+          "hymn_1": 8319.2,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
+          "ps_1": 15.0,
+          "ps_2": 112.0,
+          "ps_3": 156.0,
+          "ant_1": "Nach drei Tagen fanden sie Jesus im Tempel; er saß mitten unter den Lehrern, hörte ihnen zu und stellte Fragen.^ö",
+          "ant_2": "Die Mutter Jesu sagte zu ihm: Kind, wie konntest du uns das antun! Dein Vater und ich haben dich voll Angst gesucht.^ö",
+          "ant_3": "Jesus zog mit ihnen hinab und kam nach Nazaret – und er war ihnen untertan.^ö",
+          "les_buch": "Kol",
+          "les_stelle": "3,23–24",
+          "les_text": "Tut eure Arbeit gern, als wäre sie für den Herrn und nicht für Menschen; ihr wisst, dass ihr vom Herrn euer Erbe als Lohn empfangen werdet. Dient Christus, dem Herrn!",
+          "resp1_1": "Der Herr ist gerecht,",
+          "resp1_2": "er liebt gerechte Taten.",
+          "resp1_3": "Redliche dürfen sein Angesicht schauen.",
+          "ant_ev": "Christus, der Herr, scheute sich nicht, als Sohn des Zimmermanns zu gelten.^ö",
+          "bitten_e": "Lasst uns beten zu Gott, unserem Vater:",
+          "bitten_r": "Wir bitten dich, erhöre uns.",
+          "bitten": "Vater im Himmel, du hast Josef durch den Engel deine Wege kundgetan;^qnimm dich der Ratlosen an.^pJosef hat mit seiner Hände Arbeit für Jesus und Maria das tägliche Brot verdient;^qschenke allen Schaffenden die Frucht ihrer Arbeit.^pJosef hat in Demut deinem Sohn gedient;^qsei allen nahe, die in Stille ihren Dienst tun.^pAuf die Fürsprache des heiligen Josef erbarme dich der Sterbenden;^qschenke ihnen einen gnädigen Tod.^pNimm unsere Verstorbenen auf in die Gemeinschaft deiner Heiligen;^qlass sie mit Maria und Josef bei dir selig sein."
         }
       }
     }
