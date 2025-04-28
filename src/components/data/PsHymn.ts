@@ -3320,7 +3320,7 @@ export const psalmsData = {
     1.0: {
         "title": "Christus, du Heiland aller Welt",
         "quote": "Allerheiligen",
-        "text": "Christus, du Heiland aller Welt,^lder uns des Vaters Reich verheißt,^ldich rühmt vor deinem ew’gen Thron^lDie große Schar, die niemand zählt.^pSie freun sich deiner Gegenwart^lund schauen deine Herrlichkeit;^lim Lichte folgen sie dem Lamm^lund singen dir das neue Lied.^pWir jubeln über ihren Sieg^lund stimmen in ihr Loblied ein.^lGib uns, wenn du einst wiederkommst,^lAnteil an ihrer Herrlichkeit.^pHerr Christus, dir sei Preis und Ruhm,^lder seine Diener herrlich krönt,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
+        "text": "Christus, du Heiland aller Welt,^lder uns des Vaters Reich verheißt,^ldich rühmt vor deinem ew’gen Thron^ldie große Schar, die niemand zählt.^pSie freun sich deiner Gegenwart^lund schauen deine Herrlichkeit;^lim Lichte folgen sie dem Lamm^lund singen dir das neue Lied.^pWir jubeln über ihren Sieg^lund stimmen in ihr Loblied ein.^lGib uns, wenn du einst wiederkommst,^lAnteil an ihrer Herrlichkeit.^pHerr Christus, dir sei Preis und Ruhm,^lder seine Diener herrlich krönt,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
       },
     4.0: {
         "title": "Himmlische Chöre preisen den Höchsten",

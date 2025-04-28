@@ -10624,7 +10624,7 @@ export const brevierData = {
           "ant_2": "",
           "ant_3": "",
           "resp1_0": "Der Herr ist den Jüngern erschienen.^Ö",
-          "resp1_1": "Sie sahen ihn und freuten sich."
+          "resp1_1": "Sie sahen ihn und freuten sich.^ö"
         },
         "Terz": {
           "ant_0": "Halleluja,°halleluja, halleluja.",
