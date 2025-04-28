@@ -100,6 +100,7 @@ export const formatPrayerText = (provText, marker = '',
         .replace(/\^\*/g, '\u00A0*\n')
         .replace(/\^\+/g, '\u00A0†\n')
         .replace(/\^\//g, '    ')
+        .replace(/\^-/g, '\u2011')
         .replace(/(\w)–/g, '$1\u200C–')
         .replace(/–(\w)/g, '–\u200C$1')
         .replace(/([0-9])-([0-9])/g, '$1\u200C\u2013\u200C$2')
