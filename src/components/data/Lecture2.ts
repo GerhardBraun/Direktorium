@@ -569,7 +569,7 @@ export const lecture2Data = {
     "1": {
       "2": {
         "Lesehore": {
-          "les_buch": "Aus dem Hohenlied.",
+          "les_buch": "Aus dem Hohelied.",
           "les_stelle": "4,1a.8-5,1",
           "les_text": "^hChristus verlangt nach der Liebe der Kirche^p^r(Stimme des Bräutigams)^0r^lSchön bist du, meine Freundin,^lja, du bist schön.^pKomm doch mit mir, meine Braut, vom°Libanon,^lweg vom Libanon komm du mit mir!^lWeg vom Gipfel des Amana,^lvon den Höhen des Senir und Hermon;^lweg von den Lagern der Löwen,^lden Bergen der Panther!^pVerzaubert hast du mich,^lmeine Schwester Braut;^lja verzaubert^lmit einem (Blick) deiner Augen,^lmit einer Perle deiner Halskette.^lWie schön ist deine Liebe,^lmeine Schwester Braut;^lwieviel süßer ist deine Liebe als Wein,^lder Duft deiner Salben köstlicher^lals alle Balsamdüfte!^lVon deinen Lippen, Braut, tropft Honig;^lMilch und Honig ist unter deiner Zunge.^lDer Duft deiner Kleider ist wie des Libanon Duft.^pEin verschlossener Garten^list meine Schwester Braut,^lein verschlossener Garten,^lein versiegelter Quell.^pEin Lustgarten sprosst aus dir,^lGranatbäume mit köstlichen Früchten,^lHennadolden, Nardenblüten,^lNarde, Krokus, Gewürzrohr und Zimt,^lalle Weihrauchbäume,^lMyrrhe und Aloë,^lallerbester Balsam.^lDie Quelle des Gartens bist du,^lein Brunnen lebendigen Wassers,^lWasser vom Libanon.^p^r(Stimme der Braut)^0r^lNordwind, erwache! Südwind, herbei!^lDurchweht meinen Garten,^llasst strömen die Balsamdüfte!^pMein Geliebter komme in seinen Garten^lund esse von den köstlichen Früchten.^p^r(Stimme des Bräutigams)^0r^lIch komme in meinen Garten, Schwester°Braut;^lich pflücke meine Myrrhe, den Balsam;^lesse meine Wabe samt dem Honig,^ltrinke meinen Wein und die Milch.^lFreunde, esst und trinkt,^lberauscht euch an der Liebe!",
           "resp1_1": "Alles an dir ist schön, kein Makel haftet dir an,",
@@ -585,7 +585,7 @@ export const lecture2Data = {
       },
       "3": {
         "Lesehore": {
-          "les_buch": "Aus dem Hohenlied.",
+          "les_buch": "Aus dem Hohelied.",
           "les_stelle": "5,2.6-11a.15b-6,1",
           "les_text": "^hDie Kirche sucht Christus^p^r(Stimme der Braut)^0r^lIch schlief, doch mein Herz war wach.^lHorch, mein Geliebter klopft:^p^r(Stimme des Bräutigams)^0r^lMach auf, meine Schwester und Freundin,^lmeine Taube, du Makellose!^lMein Kopf ist voll Tau,^laus meinen Locken tropft die Nacht.^p^r(Stimme der Braut)^0r^lIch öffnete meinem Geliebten:^lDoch der Geliebte war weg, verschwunden.^lMir stockte der Atem: Er war weg.^lIch suchte ihn, ich fand ihn nicht.^lIch rief ihn, er antwortete nicht.^pDa fanden mich die Wächter^lbei ihrer Runde durch die Stadt;^lsie schlugen, sie verletzten mich.^lDen Mantel entrissen sie mir,^ldie Wächter der Mauern.^pIch beschwöre euch, Jerusalems Töchter:^lWenn ihr meinen Geliebten findet,^lsagt ihm,^lich bin krank vor Liebe.^p^r(Stimme der Gefährtinnen)^0r^lWas hat dein Geliebter den andern voraus,^ldu schönste der Frauen?^lWas hat dein Geliebter den andern voraus,^ldass du uns beschwörst?^p^r(Stimme der Braut)^0r^lMein Geliebter ist weiß und rot,^list ausgezeichnet vor Tausenden.^lSein Haupt ist reines Gold.^lSeine Gestalt ist wie der Libanon,^lerlesen wie Zedern.^lSein Mund ist voll Süße;^lalles ist Wonne an ihm.^lDas ist mein Geliebter,^lja, das ist mein Freund,^lihr Töchter Jerusalems.^p^r(Stimme der Gefährtinnen)^0r^lWohin ist dein Geliebter gegangen,^ldu schönste der Frauen?^lWohin wandte sich dein Geliebter?^lWir wollen ihn suchen mit dir.",
           "resp1_1": "Dein Geliebter ist ausgezeichnet vor Tausenden.",
@@ -604,7 +604,7 @@ export const lecture2Data = {
       },
       "4": {
         "Lesehore": {
-          "les_buch": "Aus dem Hohenlied.",
+          "les_buch": "Aus dem Hohelied.",
           "les_stelle": "6,3-4.9-10;7,7",
           "les_text": "^hLob der Braut^p^r(Stimme der Braut)^0r^lMeinem Geliebten gehöre ich,^lund mir gehört der Geliebte,^lder in den Lilien weidet.^p^r(Stimme des Bräutigams)^0r^lSchön wie Tirza bist du, meine Freundin,^llieblich wie Jerusalem,^lprächtig wie Himmelsbilder.^pEinzig ist meine Taube, die Makellose,^ldie Einzige ihrer Mutter,^ldie Erwählte ihrer Gebärerin.^lErblicken sie die Mädchen,^lsie preisen sie;^lKöniginnen rühmen sie.^pWer ist, die da erscheint wie das Morgenrot,^lwie der Mond so schön,^lstrahlend rein wie die Sonne,^lprächtig wie Himmelsbilder?^lWie schön bist du und wie reizend,^ldu Liebe voller Wonnen!",
           "resp1_1": "Meine Augen warten auf dich, Herr;",
@@ -623,7 +623,7 @@ export const lecture2Data = {
       },
       "5": {
         "Lesehore": {
-          "les_buch": "Aus dem Hohenlied.",
+          "les_buch": "Aus dem Hohelied.",
           "les_stelle": "7,11-14;8,4-7",
           "les_text": "^hLob der Liebe^p^r(Stimme der Braut)^0r^lIch gehöre meinem Geliebten,^lund ihn verlangt nach mir.^lKomm, mein Geliebter,^lwandern wir auf das Land,^lschlafen wir in den Dörfern.^lFrüh wollen wir dann zu den Weinbergen gehen^lund sehen, ob der Weinstock schon treibt,^lob die Rebenblüte sich öffnet,^lob die Granatbäume blühen.^lDort schenke ich dir meine Liebe.^pAch, wärst du doch mein Bruder,^lgenährt an der Brust meiner Mutter.^lTräfe ich dich dann draußen,^lich würde dich küssen;^lniemand dürfte mich deshalb verachten.^lFühren wollte ich dich,^lin das Haus meiner Mutter dich bringen,^ldie mich erzogen hat.^lWürzwein gäbe ich dir zu trinken,^lGranatapfelmost.^lSeine Linke liegt unter meinem Kopf,^lseine Rechte umfängt mich.^p^r(Stimme des Bräutigams)^0r^lIch beschwöre euch, Jerusalems Töchter:^lWas stört ihr die Liebe auf,^lwarum weckt ihr sie,^lehe ihr selbst es gefällt!^pWer ist sie,^ldie aus der Steppe heraufsteigt,^lauf ihren Geliebten gestützt?^lUnter dem Apfelbaum hab’ ich dich geweckt,^ldort, wo deine Mutter dich empfing,^lwo deine Gebärerin in Wehen lag.^pLeg mich wie ein Siegel auf dein Herz,^lwie ein Siegel an deinen Arm!^lStark wie der Tod ist die Liebe,^ldie Leidenschaft ist hart wie die Unterwelt.^lIhre Gluten sind Feuergluten,^lgewaltige Flammen.^pAuch mächtige Wasser^lkönnen die Liebe nicht löschen;^lauch Ströme schwemmen sie nicht weg.^lBöte einer für die Liebe^lden ganzen Reichtum seines Hauses,^lnur verachten würde man ihn.",
           "resp1_1": "Am Himmel erschien ein großes Zeichen: eine Frau, umkleidet mit der Sonne, der Mond unter ihren Füßen.",
