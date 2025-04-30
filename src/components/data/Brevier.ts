@@ -10474,7 +10474,7 @@ export const brevierData = {
       },
       "3": {
         "Komplet": {
-          "ps_2": 130.101
+          "ps_2": 130.0
         },
         "Laudes": {
           "les_buch": "Röm",
