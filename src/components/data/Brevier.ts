@@ -944,7 +944,7 @@ export const brevierData = {
         "Invitatorium": {
           "hymn_2": 0.0,
           "hymn_3": 0.0,
-          "ant_0": "Den Herr, den König der Apostel – kommt, wir beten ihn an!",
+          "ant_0": "Den Herr, den König der Apostel – kommt, wir beten ihn an!^ö",
           "ant_1": "",
           "ant_2": "",
           "ant_3": ""
@@ -955,9 +955,9 @@ export const brevierData = {
           "hymn_2": 0.0,
           "hymn_3": 0.0,
           "hymn_kl": 0.0,
-          "ant_1": "Das ist mein Gebot: Liebt einander, so wie ich euch geliebt habe.",
-          "ant_2": "Größere Liebe hat niemand, als wer sein Leben gibt für seine Freunde.",
-          "ant_3": "Ihr seid meine Freunde, wenn ihr tut, was ich euch gebiete.",
+          "ant_1": "Das ist mein Gebot: Liebt einander, so wie ich euch geliebt habe.^ö",
+          "ant_2": "Größere Liebe hat niemand, als wer sein Leben gibt für seine Freunde.^ö",
+          "ant_3": "Ihr seid meine Freunde, wenn ihr tut, was ich euch gebiete.^ö",
           "les_buch": "Eph",
           "les_stelle": "2,19–22",
           "les_text": "Ihr seid jetzt nicht mehr Fremde ohne Bürgerrecht, sondern Mitbürger der Heiligen und Hausgenossen Gottes. Ihr seid auf das Fundament der Apostel und Propheten gebaut; der Schlussstein ist Christus Jesus selbst. Durch ihn wird der ganze Bau zusammengehalten und wächst zu einem heiligen Tempel im Herrn. Durch ihn werdet auch ihr im Geist zu einer Wohnung Gottes erbaut.",
@@ -992,41 +992,41 @@ export const brevierData = {
         "Non": {
           "hymn_2": 0.0,
           "hymn_3": 0.0,
-          "ant_0": "Bleibt standhaft, und ihr werdet das Leben gewinnen.",
+          "ant_0": "Bleibt standhaft, und ihr werdet das Leben gewinnen.^ö",
           "ant_1": "",
           "ant_2": "",
           "ant_3": "",
           "les_buch": "Apg",
           "les_stelle": "5,41–42",
           "les_text": "Die Apostel gingen weg vom Hohen Rat und freuten sich, dass sie gewürdigt worden waren, für den Namen Jesu Schmach zu erleiden. Und Tag für Tag lehrten sie unermüdlich im Tempel und in den Häusern und verkündeten das Evangelium von Jesus, dem Christus.",
-          "resp1_0": "So spricht der Herr: Freut euch und jubelt.",
-          "resp1_1": "Denn eure Namen sind im Himmel verzeichnet."
+          "resp1_0": "So spricht der Herr: Freut euch und jubelt.^ö",
+          "resp1_1": "Denn eure Namen sind im Himmel verzeichnet.^ö"
         },
         "Sext": {
           "hymn_2": 0.0,
           "hymn_3": 0.0,
-          "ant_0": "Seht, ich bin alle Tage bei euch, bis zum Ende der Welt.",
+          "ant_0": "Seht, ich bin alle Tage bei euch, bis zum Ende der Welt.^ö",
           "ant_1": "",
           "ant_2": "",
           "ant_3": "",
           "les_buch": "Apg",
           "les_stelle": "5,12a.14",
           "les_text": "Durch die Hände der Apostel geschahen viele Zeichen und Wunder im Volk. Immer mehr wurden im Glauben zum Herrn geführt, Scharen von Männern und Frauen.",
-          "resp1_0": "Sie hielten fest am Zeugnis Gottes.",
-          "resp1_1": "Und bewahrten seine Gebote."
+          "resp1_0": "Sie hielten fest am Zeugnis Gottes.^ö",
+          "resp1_1": "Und bewahrten seine Gebote.^ö"
         },
         "Terz": {
           "hymn_2": 0.0,
           "hymn_3": 0.0,
-          "ant_0": "Geht hin und verkündet das Evangelium vom Reich. Umsonst habt ihr empfangen, umsonst sollt ihr geben.",
+          "ant_0": "Geht hin und verkündet das Evangelium vom Reich. Umsonst habt ihr empfangen, umsonst sollt ihr geben.^ö",
           "ant_1": "",
           "ant_2": "",
           "ant_3": "",
           "les_buch": "2°Kor",
           "les_stelle": "5,19b–20",
           "les_text": "Uns Aposteln hat Gott das Wort von der Versöhnung anvertraut. Wir sind also Gesandte an Christi statt, und Gott ist es, der durch uns mahnt. Wir bitten an Christi statt: Lasst euch mit Gott versöhnen!",
-          "resp1_0": "Ihre Botschaft geht hinaus in die ganze Welt.",
-          "resp1_1": "Ihre Kunde bis hin zu den Enden der Erde."
+          "resp1_0": "Ihre Botschaft geht hinaus in die ganze Welt.^ö",
+          "resp1_1": "Ihre Kunde bis hin zu den Enden der Erde.^ö"
         },
         "Vesper": {
           "hymn_1": 1076.0,
