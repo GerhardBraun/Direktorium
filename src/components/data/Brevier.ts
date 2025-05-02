@@ -1052,6 +1052,9 @@ export const brevierData = {
         }
       },
       "o": {
+        "Laudes": {
+          "hymn_1": 1072.1
+        },
         "Lesehore": {
           "les_buch": "Aus der Apostelgeschichte.",
           "les_stelle": "5,12-31",

@@ -2142,6 +2142,11 @@ export const psalmsData = {
         "title": "Christus, du Licht vom wahren Licht",
         "quote": "Ap-Ld",
         "text": "Christus, du Licht vom wahren Licht,^ldes höchsten Vaters einz’ger Sohn,^ldu hast durch der Apostel Wort^lder ganzen Welt das Heil geschenkt.^pAls deine Zeugen riefst du sie,^lgabst ihnen Auftrag und Gewalt,^ldie Saat des Evangeliums^lin allen Ländern auszustreuen.^pDurch ihre Predigt glauben wir,^ldass du der Weg zum Leben bist.^lHilf uns, der Botschaft treu zu sein,^ldie sie im Tode uns bezeugt.^pHerr Jesus, dir sei Ruhm und Preis,^lder seine Zeugen uns gesandt,^lLob auch dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."
+      },
+    1.0: {
+        "title": "Der österlichen Sonne Glanz",
+        "quote": "Ap-Ld-Osterzeit",
+        "text": "Der österlichen Sonne Glanz^lstrahlt auf zur Freude aller Welt;^ldie Jünger schauen ihren Herrn^lverklärt in herrlicher Gestalt.^pAn seinem Leibe sehn sie glühn^ldie Wunden, die das Leid ihm schlug,^lund froh vernehmen sie sein Wort:^l„Ich bin es! Friede sei mit euch!“^pNun eilt hinaus in alle Welt^lund ruft die frohe Botschaft aus;^lsagt allen Völkern, dass er lebt,^ler dessen Tod den Tod bezwang.^pDem Herrn sei Preis und Herrlichkeit,^lder aus dem Grabe auferstand,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   1076: {
