@@ -2154,6 +2154,11 @@ export const psalmsData = {
         "title": "Der Himmel jauchze Lobgesang",
         "quote": "Ap-Vp",
         "text": "Der Himmel jauchze Lobgesang,^lin Freude juble alle Welt:^lDer heiligen Apostel Ruhm^lerschallt in festlichem Gesang.^pGerechte Richter dieser Zeit^lund wahre Leuchten für die Welt,^lihr ersten Zeugen unsres Heils,^lvernehmt, was unser Lied erfleht.^pDer Herr gab euch Gewalt und Amt,^lihr bindet und ihr löst die Schuld;^lso löst auch uns, wir bitten euch,^ldie Schuld, in die wir uns verstrickt.^pWenn dann am Ende dieser Zeit^lder Herr als Richter wiederkommt,^lgewähre er in seiner Huld^luns seiner Freude Ewigkeit.^pGott Vater, dir sei Preis und Ruhm^lund deinem eingebornen Sohn,^ldem Beistand auch, dem Heil’gen Geist,^ldurch alle Zeit und Ewigkeit. Amen."
+      },
+    1.0: {
+        "title": "Voll Trauer war der Jünger Schar",
+        "quote": "Ap-Vp-Osterzeit",
+        "text": "Voll Trauer war der Jünger Schar,^lvom Mord an ihren Herrn verstört,^lversprengt wie Schafe, deren Hirt^lder Räuber Hand zum Opfer fiel.^pIndes verheißt den Frauen schon^lder Engel tröstend, was geschehn:^lDer tot am Kreuze hing – er lebt.^lVom Grab erstanden ist der Herr.^pDen Jüngern wird die Botschaft kund,^lnach Galiläa eilen sie.^lIn neuer, herrlicher Gestalt^lschaun sie das Antlitz ihres Herrn.^pDem Herrn sei Preis und Herrlichkeit,^lder aus dem Grabe auferstand,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   1110: {

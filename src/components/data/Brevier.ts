@@ -1062,6 +1062,9 @@ export const brevierData = {
           "resp1_1": "Mit großer Kraft legten die Apostel Zeugnis ab von der Auferstehung des Herrn Jesus.",
           "resp1_2": "Und reiche Gnade ruhte auf ihnen allen.^ö",
           "resp1_3": "Mit dem Heiligen Geist erfüllt, verkündeten sie freimütig das Wort Gottes."
+        },
+        "Vesper": {
+          "hymn_1": 1076.1
         }
       }
     },
