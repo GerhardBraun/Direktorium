@@ -9432,21 +9432,42 @@ export const brevierData = {
       "1": {
         "each": {
           "oration": "Gott, du bist unser Ziel, du zeigst den Irrenden das Licht der Wahrheit und führst sie auf den rechten Weg zurück. Gib allen, die sich Christen nennen, die Kraft, zu meiden, was diesem Namen widerspricht, und zu tun, was unserem Glauben entspricht.^ORV"
+        },
+        "Laudes": {
+          "ant_ev": "Müht euch nicht um die Speise, die verdirbt, sondern um jene, die bliebt für das ewige Leben.^ö"
+        },
+        "Vesper": {
+          "ant_ev": "Das ist das Werk Gottes, dass ihr an den glaubt, den er gesandt hat.^ö"
         }
       },
       "2": {
         "each": {
           "oration": "Herr, unser Gott, du öffnest dein Reich allen, die aus dem Wasser und dem Heiligen Geist wiedergeboren sind. Stärke in uns das Leben der Gnade, damit wir von Schuld frei bleiben und die Herrlichkeit erlangen, die du uns verheißen hast.^ORV"
+        },
+        "Laudes": {
+          "ant_ev": "Amen, amen, ich sage euch: Nicht Mose hat euch das Brot vom Himmel gegeben, sondern mein Vater gibt euch das wahre Brot vom Himmel.^ö"
+        },
+        "Vesper": {
+          "ant_ev": "Das Brot, das Gott gibt, kommt vom Himmel herab und gibt der Welt das Leben.^ö"
         }
       },
       "3": {
         "each": {
           "oration": "Herr, unser Gott, erhöre die Bitten deines Volkes und komm uns zu Hilfe. Du hast uns die Gnade des Glaubens geschenkt, gib uns durch die Auferstehung deines Sohnes auch Anteil am ewigen Leben.^ORV"
+        },
+        "Laudes": {
+          "ant_ev": "Alle, die den Sohn sehen und an ihn glauben, haben das ewige Leben. Ich werde sie auferwecken am Jüngsten Tag.^ö"
+        },
+        "Vesper": {
+          "ant_ev": "Alles, was der Vater mir gibt, wird zu mir kommen, und wer zu mir kommt, den weise ich nicht zurück.^ö"
         }
       },
       "4": {
         "each": {
           "oration": "Ewiger Gott, in dieser österlichen Zeit erfahren wir deine Barmherzigkeit in reicher Fülle, denn du hast uns aus der Finsternis des Irrtums herausgeführt. Gib, dass wir deine Wahrheit gläubig erfassen und in unserem Leben festhalten.^ORV"
+        },
+        "Laudes": {
+          "ant_ev": "Amen, amen, ich sage euch: Wer an mich glaubt, hat das ewige Leben.^ö"
         },
         "Vesper": {
           "ant_ev": "Ich bin das lebendige Brot, das vom Himmel ge­kommen ist. Wer von diesem Brot isst, wird leben in Ewigkeit. Das Brot, das ich geben werde, ist mein Fleisch. Ich gebe es hin für das Leben der Welt.^ö"
@@ -9455,11 +9476,20 @@ export const brevierData = {
       "5": {
         "each": {
           "oration": "Allmächtiger Gott, wir glauben und bekennen, dass unser Herr Jesus Christus für uns gestorben und auferstanden ist. Erwecke auch uns durch die Kraft des Heiligen Geistes zum neuen Leben. Darum bitten wir durch ihn,^ORR"
+        },
+        "Laudes": {
+          "ant_ev": "Wer mein Fleisch isst und mein Blut trinkt, der bleibt in mir und ich in ihm.^ö"
+        },
+        "Vesper": {
+          "ant_ev": "Der am Kreuze starb, ist von den Toten erstanden und hat uns erlöst.^ö"
         }
       },
       "6": {
         "each": {
           "oration": "Allmächtiger Gott, du hast uns durch das Wasser der Taufe neu geschaffen; schütze dieses neue Leben, damit alle, die an dich glauben, dem Ansturm des Bösen standhalten und das Geschenk deiner Gnade treu bewahren.^ORV"
+        },
+        "Laudes": {
+          "ant_ev": "Zu wem sollen wir gehen? Du, Herr, hast Worte des ewigen Lebens. Wir haben geglaubt und erkannt: Du bist der Heilige Gottes.^ö"
         }
       }
     },
@@ -9490,21 +9520,42 @@ export const brevierData = {
       "1": {
         "each": {
           "oration": "Erhabener Gott, durch die Erniedrigung deines Sohnes hast du die gefallene Welt wieder aufgerichtet und aus der Knechtschaft der Sünde befreit. Erfülle uns mit österlicher Freude und schenke uns einst die ewige Seligkeit.^ORV"
+        },
+        "Laudes": {
+          "ant_ev": "Ich bin der Gute Hirt. Ich weide meine Schafe und geben mein Leben für sie hin.^ö"
+        },
+        "Vesper": {
+          "ant_ev": "Ich habe noch andere Schafe, die nicht aus deisem Pferch sind; auch sie muss ich führen; dann wird nur eine Herde sein und ein Hirt.^ö"
         }
       },
       "2": {
         "each": {
           "oration": "Allmächtiger Gott, in dieser österlichen Zeit feiern wir voll Dankbarkeit die Auferstehung unseres Herrn. Wir bitten dich: Erfülle uns mit Freude darüber, dass wir durch ihn erlöst sind,^ORR"
+        },
+        "Laudes": {
+          "ant_ev": "Die Werke, die ich im Namen meines Vaters tue, legen Zeugnis ab für mich.^ö"
+        },
+        "Vesper": {
+          "ant_ev": "Ich kenne meine Schafe, und sie folgen mir. Ich gebe ihnen ewiges Leben.^ö"
         }
       },
       "3": {
         "each": {
           "oration": "Gütiger Gott, du bist das Leben der Gläubigen, der Reichtum der Armen, die Freude der Auserwählten. Wir sehnen uns nach deinen Verheißungen. Stärke unsere Hoffnung und schenke uns überreiche Erfüllung.^ORV"
+        },
+        "Laudes": {
+          "ant_ev": "Ich bin als Licht in diese Welt gekommen, damit jeder, der an mich glaubt, nicht in der Finsternis bleibt.^ö"
+        },
+        "Vesper": {
+          "ant_ev": "Gott hat seinen Sohn in die Welt gesandt, nicht um die Welt zu richten, sondern um die Welt durch ihn zu retten.^ö"
         }
       },
       "4": {
         "each": {
           "oration": "Gott und Vater, du erneuerst den Menschen und schenkst ihm eine größere Würde, als er sie im Anfang besaß. Blicke auf das Werk deiner Liebe, segne alle, die im Sakrament der Taufe das neue Leben empfangen haben, und erhalte sie in deiner Gnade.^ORV"
+        },
+        "Laudes": {
+          "ant_ev": "Der Jünger ist nicht mehr als sein Meister; doch wenn er alles gelernt hat, wird er wie sein Meister sein.^ö"
         },
         "Vesper": {
           "ant_ev": "Ich bin der Hirt der Schafe; ich bin gekommen, damit sie das Leben haben und es in Fülle haben.^ö"
@@ -9513,11 +9564,20 @@ export const brevierData = {
       "5": {
         "each": {
           "oration": "Allmächtiger Gott, dir verdanken wir unsere Freiheit und unser Heil, denn du hast uns durch das kostbare Blut deines Sohnes erlöst. Lass uns aus deiner Kraft leben und unter deinem beständigen Schutz geborgen sein.^ORV"
+        },
+        "Laudes": {
+          "ant_ev": "Ich gehe hin, euch eine Wohnung zu bereiten. Ich werde wiederkommen und euch zu mir holen, damit auch ihr dort seid, wo ich bin.^ö"
+        },
+        "Vesper": {
+          "ant_ev": "Der Gute Hirt gibt sein Leben hin für seine Schafe.^ö"
         }
       },
       "6": {
         "each": {
           "oration": "Allmächtiger, ewiger Gott, du hast uns im Sakrament der Taufe neues Leben geschenkt. Festige unsere Verbundenheit mit Christus, damit wir Früchte bringen, die bleiben, und die Freude des ewigen Lebens erlangen.^ORV"
+        },
+        "Laudes": {
+          "ant_ev": "Wenn der oberste Hirt erscheint, werdet ihr den Kranz der Herrlichkeit empfangen, der nie verwelkt.^ö"
         }
       }
     },
@@ -9548,21 +9608,42 @@ export const brevierData = {
       "1": {
         "each": {
           "oration": "Gott, unser Herr, du verbindest alle, die an dich glauben, zum gemeinsamen Streben. Gib, dass wir lieben, was du befiehlst, und ersehnen, was du uns verheißen hast, damit in der Unbeständigkeit dieses Lebens unsere Herzen dort verankert seien, wo die wahren Freuden sind.^ORV"
+        },
+        "Laudes": {
+          "ant_ev": "Wer mich liebt, den wird mein Vater lieben, und auch ich werde ihn lieben und mich ihm offenbaren.^ö"
+        },
+        "Vesper": {
+          "ant_ev": "Der Beistand, der Heilige Geist, den der Vater senden wird in meinem Namen, er wird euch alles lehren. An alles, was ich euch sagte, wird er euch erinnern.^ö"
         }
       },
       "2": {
         "each": {
           "oration": "Allmächtiger Gott, durch die Auferstehung deines Sohnes hast du uns neu geschaffen für das ewige Leben. Festige uns im Glauben und in der Hoffnung, damit wir die Erfüllung deiner Verheißung voll Zuversicht erwarten.^ORV"
+        },
+        "Laudes": {
+          "ant_ev": "Frieden hinterlasse ich euch, meinen Frieden gebe ich euch.^ö"
+        },
+        "Vesper": {
+          "ant_ev": "Wenn ihr mich liebt, müsst ihr euch freuen, dass ich zum Vater gehe.^ö"
         }
       },
       "3": {
         "each": {
           "oration": "Treuer Gott, du liebst die Unschuld und führst den Sünder zu dir zurück. Darum hast du uns aus der Finsternis des Unglaubens befreit und in die Gemeinschaft mit dir aufgenommen. Gib, dass wir dich mit ganzem Herzen suchen und das Licht deiner Wahrheit nie verlieren.^ORV"
+        },
+        "Laudes": {
+          "ant_ev": "Ich bin der Weinstock, ihr seid die Reben.^ö"
+        },
+        "Vesper": {
+          "ant_ev": "Wenn ihr in mir bleibt und wenn meine Worte in euch bleiben, dann bittet um alles, was ihr wollt: Ihr werdet es erhalten.^ö"
         }
       },
       "4": {
         "each": {
           "oration": "Heiliger Gott, deine Gnade macht die Sünder gerecht und führt sie aus dem Elend ins Glück. Erhalte das Werk deines Erbarmens, damit alle, die durch den Glauben gerechtfertigt sind, im Guten ausharren bis ans Ende.^ORV"
+        },
+        "Laudes": {
+          "ant_ev": "Haltet meine Gebote, dann bleibt ihr in meiner Liebe.^ö"
         },
         "Vesper": {
           "ant_ev": "Dies alles habe ich zu euch gesagt, damit meine Freude in euch ist und eure Freude vollkommen wird.^ö"
@@ -9571,11 +9652,20 @@ export const brevierData = {
       "5": {
         "each": {
           "oration": "Wir bitten dich, allmächtiger Gott, präge und forme unser Leben durch die österlichen Geheimnisse, die wir in diesen Tagen feiern. Heile und schütze uns durch die Macht unseres auferstandenen Herrn Jesus Christus,^ORR"
+        },
+        "Laudes": {
+          "ant_ev": "Das ist mein Gebot: Liebt einander, so wie ich euch geliebt habe!^ö"
+        },
+        "Vesper": {
+          "ant_ev": "Größere Liebe hat niemand, als wer sein Leben hingibt für seine Freunde.^ö"
         }
       },
       "6": {
         "each": {
           "oration": "Gott, du Ursprung unseres Heils, durch die Wiedergeburt in der Taufe hast du uns gerecht gemacht und uns befähigt, ewiges Leben zu empfangen. Schenke uns die Fülle dieses Lebens in deiner Herrlichkeit.^ORV"
+        },
+        "Laudes": {
+          "ant_ev": "Dafür ist Christus gestorben und zum Leben erstanden: um Herr zu sein über Lebende und Tote.^ö"
         }
       }
     },
@@ -9606,16 +9696,31 @@ export const brevierData = {
       "1": {
         "each": {
           "oration": "Barmherziger Gott, gib, dass die Gnade, die wir in der Feier der österlichen Geheimnisse empfangen haben, durch alle Tage unseres Lebens fruchtbar bleibt.^ORV"
+        },
+        "Laudes": {
+          "ant_ev": "Durch die Auferstehung Jesu Christi hat Gott uns neu geboren, damit wir eine lebendige Hoffnung haben und das unvergängliche Erbe empfangen.^ö"
+        },
+        "Vesper": {
+          "ant_ev": "Wenn der Geist der Wahrheit kommt, der vom Vater ausgeht, dann wird der Zeugnis geben für mich. Und auch ihr werdet Zeugen sein."
         }
       },
       "2": {
         "each": {
           "oration": "Allmächtiger Gott, lass die österliche Freude in uns fortdauern, denn du hast deiner Kirche neue Lebenskraft geschenkt und die Würde unserer Gotteskindschaft in neuem Glanz erstrahlen lassen. Gib, dass wir den Tag der Auferstehung voll Zuversicht erwarten als einen Tag des Jubels und des Dankes.^ORV"
+        },
+        "Laudes": {
+          "ant_ev": "Noch eine kleine Weile, und die Welt sieht mich nicht mehr; ihr aber seht mich, denn ich lebe, und auch ihr werdet leben.^ö"
+        },
+        "Vesper": {
+          "ant_ev": "Ich sage euch die Wahrheit: Es ist gut für euch, dass ich fortgehe. Denn wenn ich nicht gehe, wird der Beistand nicht zu euch kommen."
         }
       },
       "3": {
         "each": {
           "oration": "Herr, unser Gott, sieh auf deine Gemeinde, die in dieser österlichen Zeit der Auferstehung Sohnes gedenkt. Gib, dass wir mit allen Heiligen die ewige Freude erlangen, wenn er in der Herrlichkeit wiederkommt,^ORR"
+        },
+        "Laudes": {
+          "ant_ev": "Noch vieles habe ich euch zu sagen, aber ihr könnt es jetzt nicht tragen. Wenn aber jener kommt, der Geist der Wahrheit, wird er euch in die volle Wahrheit führen.^ö"
         }
       },
       "4": {

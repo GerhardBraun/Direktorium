@@ -2055,7 +2055,7 @@ export const adlibData = {
           "comm_1": "Hirten",
           "patr_autor": "Augustinus (†°430)",
           "patr_werk": "Zu Psalm 127 (126),^v2–3^0v.",
-          "patr_text": "^hWenn nicht der Herr das Haus baut, müht sich jeder umsonst^p‚Der Herr baut sein Haus‘: der Herr Jesus Christus baut sein Haus. Viele mühen sich bei diesem Bauen ab, aber „wenn nicht der Herr das Haus baut, müht sich jeder umsonst, der daran baut“ {1#Ps 127,1}. Wer sind jene, die unter Mühen bauen? Es sind alle, die in der Kirche das Wort Gottes verkünden, die Diener der Geheimnisse Gottes. Wir also reden außen, er baut innen. Wir merken, wie ihr zuhört; aber was ihr denkt, weiß er allein, der eure Gedanken sieht. Er ist es, der baut, der ermahnt, der aufschreckt, der die Einsicht auftut, der euer Verständnis dem Glauben anpasst. Und doch arbeiten auch wir wie Werkleute; aber „wenn nicht der Herr das Haus baut. müht sich jeder umsonst, der daran baut“.^pWie die Kirche ihre Bauleute hat, so hat sie auch ihre Wächter. Dazu sind die Bischöfe da. Und darum ist der Platz der Bischöfe erhöht, damit sie einen Überblick haben und gleichsam über dem Volke wachen. Denn das griechische Wort ‚Episkopos‘ (Bischof) bedeutet in unserer Sprache ,Aufseher‘. Und über diesen erhöhten Platz wird eine gefährliche Rechenschaft gefordert, wenn wir nicht mit solchem Herzen hier stehen, dass wir in Demut euch zu Füßen sind und für euch beten, dass er, der eure Seelen kennt, selbst die Wache übernehme. Denn wir können euch nur herein- und hinausgehen sehen, aber was ihr in eurem Herzen denkt, das Wissen wir so wenig, dass wir nicht einmal sehen, was ihr in euren Häusern tut. Wie halten wir also Wache? Wie Menschen: so gut wir es können, soweit wir es empfangen haben.^pDa wir also nur auf Menschenweise Aufsicht halten, vollkommene Wache aber nicht halten können, bleibt ihr deshalb ohne Aufsicht? Keineswegs! Denn wo ist er, von dem es heißt: „Wenn nicht der Herr das Haus baut, müht sich jeder umsonst, der daran baut“? Wir bemühen uns, Aufsicht zu halten, aber unser Bemühen ist umsonst, wenn nicht er die Aufsicht führt, der eure Gedanken sieht. Er hält Wache, wenn ihr wach seid; er hält auch Wache, wenn ihr schlaft. Wir wachen über euch als Ausspender der Geheimnisse Christi {2#vgl.°1°Kor°4,1; vgl.°2°Kor°5,18}; aber wir möchten Mit euch zusammen behütet werden. Wir sind eure Hirten, aber unter jenem Hirten sind wir mit euch zusammen Schafe. Wir sind für euch von diesem Platz aus Lehrer, aber unter dem einen Lehrer sind wir in dieser Schule alle zusammen Mitschüler.",
+          "patr_text": "^hWenn nicht der Herr das Haus baut, müht sich jeder umsonst^p‚Der Herr baut sein Haus‘: der Herr Jesus Christus baut sein Haus. Viele mühen sich bei diesem Bauen ab, aber „wenn nicht der Herr das Haus baut, müht sich jeder umsonst, der daran baut“ {1#Ps 127,1}. Wer sind jene, die unter Mühen bauen? Es sind alle, die in der Kirche das Wort Gottes verkünden, die Diener der Geheimnisse Gottes. Wir also reden außen, er baut innen. Wir merken, wie ihr zuhört; aber was ihr denkt, weiß er allein, der eure Gedanken sieht. Er ist es, der baut, der ermahnt, der aufschreckt, der die Einsicht auftut, der euer Verständnis dem Glauben anpasst. Und doch arbeiten auch wir wie Werkleute; aber „wenn nicht der Herr das Haus baut, müht sich jeder umsonst, der daran baut“.^pWie die Kirche ihre Bauleute hat, so hat sie auch ihre Wächter. Dazu sind die Bischöfe da. Und darum ist der Platz der Bischöfe erhöht, damit sie einen Überblick haben und gleichsam über dem Volke wachen. Denn das griechische Wort ‚Episkopos‘ (Bischof) bedeutet in unserer Sprache ,Aufseher‘. Und über diesen erhöhten Platz wird eine gefährliche Rechenschaft gefordert, wenn wir nicht mit solchem Herzen hier stehen, dass wir in Demut euch zu Füßen sind und für euch beten, dass er, der eure Seelen kennt, selbst die Wache übernehme. Denn wir können euch nur herein- und hinausgehen sehen, aber was ihr in eurem Herzen denkt, das wissen wir so wenig, dass wir nicht einmal sehen, was ihr in euren Häusern tut. Wie halten wir also Wache? Wie Menschen: so gut wir es können, soweit wir es empfangen haben.^pDa wir also nur auf Menschenweise Aufsicht halten, vollkommene Wache aber nicht halten können, bleibt ihr deshalb ohne Aufsicht? Keineswegs! Denn wo ist er, von dem es heißt: „Wenn nicht der Herr das Haus baut, müht sich jeder umsonst, der daran baut“? Wir bemühen uns, Aufsicht zu halten, aber unser Bemühen ist umsonst, wenn nicht er die Aufsicht führt, der eure Gedanken sieht. Er hält Wache, wenn ihr wach seid; er hält auch Wache, wenn ihr schlaft. Wir wachen über euch als Ausspender der Geheimnisse Christi {2#vgl.°1°Kor°4,1; vgl.°2°Kor°5,18}; aber wir möchten mit euch zusammen behütet werden. Wir sind eure Hirten, aber unter jenem Hirten sind wir mit euch zusammen Schafe. Wir sind für euch von diesem Platz aus Lehrer, aber unter dem einen Lehrer sind wir in dieser Schule alle zusammen Mitschüler.",
           "patr_resp1": "Komm, du guter und treuer Knecht, du bist im Kleinen ein treuer Verwalter gewesen, darum will ich dir eine große Aufgabe übertragen.",
           "patr_resp2": "Komm, nimm teil an der Freude deines Herrn.",
           "patr_resp3": "Herr, fünf Talente hast du mir gegeben; siehe, ich habe noch fünf dazugewonnen.",
@@ -2374,21 +2374,21 @@ export const adlibData = {
       "n1": {
         "ErsteV": {
           "comm_1": "Frau_Ord",
-          "oration": "Schenke uns, so bitten wir, Herr, die Weisheit des Kreuzes und die Kraft, mit denen du die heilige Rita ausgezeichnet hast, damit wir,  wenn wir mit Christus in Bedrängnis leiden, um so tiefer an seinem österlichen Geheimnis teilhaben,^ORR"
+          "oration": "Schenke uns, so bitten wir, Herr, die Weisheit des Kreuzes und die Kraft, mit denen du die heilige Rita ausgezeichnet hast, damit wir, wenn wir mit Christus in Bedrängnis leiden, um so tiefer an seinem österlichen Geheimnis teilhaben,^ORR"
         },
         "Lesehore": {
           "comm_1": "Frau_Ord",
-          "oration": "Schenke uns, so bitten wir, Herr, die Weisheit des Kreuzes und die Kraft, mit denen du die heilige Rita ausgezeichnet hast, damit wir,  wenn wir mit Christus in Bedrängnis leiden, um so tiefer an seinem österlichen Geheimnis teilhaben,^ORR"
+          "oration": "Schenke uns, so bitten wir, Herr, die Weisheit des Kreuzes und die Kraft, mit denen du die heilige Rita ausgezeichnet hast, damit wir, wenn wir mit Christus in Bedrängnis leiden, um so tiefer an seinem österlichen Geheimnis teilhaben,^ORR"
         },
         "Laudes": {
           "button": "Hl. Rita von Cascia",
           "genitiv": "der heiligen Rita",
           "comm_1": "Frau_Ord",
-          "oration": "Schenke uns, so bitten wir, Herr, die Weisheit des Kreuzes und die Kraft, mit denen du die heilige Rita ausgezeichnet hast, damit wir,  wenn wir mit Christus in Bedrängnis leiden, um so tiefer an seinem österlichen Geheimnis teilhaben,^ORR"
+          "oration": "Schenke uns, so bitten wir, Herr, die Weisheit des Kreuzes und die Kraft, mit denen du die heilige Rita ausgezeichnet hast, damit wir, wenn wir mit Christus in Bedrängnis leiden, um so tiefer an seinem österlichen Geheimnis teilhaben,^ORR"
         },
         "Vesper": {
           "comm_1": "Frau_Ord",
-          "oration": "Schenke uns, so bitten wir, Herr, die Weisheit des Kreuzes und die Kraft, mit denen du die heilige Rita ausgezeichnet hast, damit wir,  wenn wir mit Christus in Bedrängnis leiden, um so tiefer an seinem österlichen Geheimnis teilhaben,^ORR"
+          "oration": "Schenke uns, so bitten wir, Herr, die Weisheit des Kreuzes und die Kraft, mit denen du die heilige Rita ausgezeichnet hast, damit wir, wenn wir mit Christus in Bedrängnis leiden, um so tiefer an seinem österlichen Geheimnis teilhaben,^ORR"
         }
       }
     },
@@ -3373,7 +3373,7 @@ export const adlibData = {
       "n2": {
         "ErsteV": {
           "comm_1": "Hirten",
-          "oration": "Allmächtiger Gott, aus Liebe zu deinem Sohn hat der heilige Willibald die Stätten des Lebens Christi aufgesucht und als Glaubensbote unserem Volk das Evangelium verkündet. Hilf uns, im Licht deiner Wahrheit zu leben und treu zu bleiben im Glauben an Jesus Christus, deinen Sohn, unseren Herrn und Gott, der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Allmächtiger Gott, aus Liebe zu deinem Sohn hat der heilige Willibald die Stätten des Lebens Christi aufgesucht und als Glaubensbote unserem Volk das Evangelium verkündet. Hilf uns, im Licht deiner Wahrheit zu leben und treu zu bleiben im Glauben an Jesus Christus, deinen Sohn, unseren Herrn und Gott,^ORR"
         },
         "Lesehore": {
           "comm_1": "Hirten",
@@ -3383,17 +3383,17 @@ export const adlibData = {
           "patr_resp1": "Wir rühmen uns des Kreuzes unseres Herrn Jesus Christus.",
           "patr_resp2": "In ihm ist uns Heil geworden und Auferstehung und Leben.",
           "patr_resp3": "Durch ihn sind wir erlöst und befreit.",
-          "oration": "Allmächtiger Gott, aus Liebe zu deinem Sohn hat der heilige Willibald die Stätten des Lebens Christi aufgesucht und als Glaubensbote unserem Volk das Evangelium verkündet. Hilf uns, im Licht deiner Wahrheit zu leben und treu zu bleiben im Glauben an Jesus Christus, deinen Sohn, unseren Herrn und Gott, der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Allmächtiger Gott, aus Liebe zu deinem Sohn hat der heilige Willibald die Stätten des Lebens Christi aufgesucht und als Glaubensbote unserem Volk das Evangelium verkündet. Hilf uns, im Licht deiner Wahrheit zu leben und treu zu bleiben im Glauben an Jesus Christus, deinen Sohn, unseren Herrn und Gott,^ORR"
         },
         "Laudes": {
           "button": "Hl. Willibald: Aus dem Stundenbuch",
           "genitiv": "des heiligen Willibald: Aus dem Stundenbuch",
           "comm_1": "Hirten",
-          "oration": "Allmächtiger Gott, aus Liebe zu deinem Sohn hat der heilige Willibald die Stätten des Lebens Christi aufgesucht und als Glaubensbote unserem Volk das Evangelium verkündet. Hilf uns, im Licht deiner Wahrheit zu leben und treu zu bleiben im Glauben an Jesus Christus, deinen Sohn, unseren Herrn und Gott, der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Allmächtiger Gott, aus Liebe zu deinem Sohn hat der heilige Willibald die Stätten des Lebens Christi aufgesucht und als Glaubensbote unserem Volk das Evangelium verkündet. Hilf uns, im Licht deiner Wahrheit zu leben und treu zu bleiben im Glauben an Jesus Christus, deinen Sohn, unseren Herrn und Gott,^ORR"
         },
         "Vesper": {
           "comm_1": "Hirten",
-          "oration": "Allmächtiger Gott, aus Liebe zu deinem Sohn hat der heilige Willibald die Stätten des Lebens Christi aufgesucht und als Glaubensbote unserem Volk das Evangelium verkündet. Hilf uns, im Licht deiner Wahrheit zu leben und treu zu bleiben im Glauben an Jesus Christus, deinen Sohn, unseren Herrn und Gott, der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
+          "oration": "Allmächtiger Gott, aus Liebe zu deinem Sohn hat der heilige Willibald die Stätten des Lebens Christi aufgesucht und als Glaubensbote unserem Volk das Evangelium verkündet. Hilf uns, im Licht deiner Wahrheit zu leben und treu zu bleiben im Glauben an Jesus Christus, deinen Sohn, unseren Herrn und Gott,^ORR"
         }
       }
     },
