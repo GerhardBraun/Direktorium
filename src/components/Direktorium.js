@@ -1631,7 +1631,7 @@ const PrayerTextDisplay = ({
                 />
                 {hour !== "lesehore" && (
                   <div>
-                    Ehre sei dem Vater.
+                    Ehre sei dem Vater und&nbsp;dem&nbsp;Sohn und&nbsp;dem&nbsp;Heiligen&nbsp;Geist.
                     <Rubric> –&#8204;&nbsp;R</Rubric>
                   </div>
                 )}
