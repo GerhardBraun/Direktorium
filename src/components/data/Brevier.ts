@@ -10764,6 +10764,7 @@ export const brevierData = {
           "ant_3": "",
           "resp1_1": "Herr, auf dich vertraue ich, in deine Hände lege ich mein Leben.",
           "resp1_2": "Halleluja,°halleluja.",
+          "resp1_3": "Lass leuchten über deinem Knecht dein Antlitz, hilf mir in deiner Güte.",
           "marant": 2524.0,
           "marant_lat": 2524.1
         },
