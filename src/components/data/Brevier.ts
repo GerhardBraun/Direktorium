@@ -9414,6 +9414,7 @@ export const brevierData = {
           "ant_ev": "Herr, bleibe bei uns, denn es will Abend werden, und der Tag hat sich schon geneigt.^ö"
         },
         "Laudes": {
+          "ps_1": 93.101,
           "ant_1": "Der Herr ist König, bekleidet mit Hoheit.^ö",
           "ant_2": "Auch die Schöpfung wird befreit zur Freiheit und Herrlichkeit der Kinder Gottes.^ö",
           "ant_3": "Der Name des Herrn ist erhaben. Seine Hoheit strahlt über Erde und Himmel.^ö",
