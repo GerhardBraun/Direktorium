@@ -581,7 +581,7 @@ export const psalmsData = {
       },
     3.0: {
         "verses": "16–23",
-        "text": "Zum Frevler spricht Gott:^+„Was zählst du meine Gebote auf^*und nimmst meinen Bund in deinen Mund?^pDabei ist Zucht dir verhasst,^*meine Worte wirfst du hinter dich.^pSiehst du einen Dieb, so läufst du mit,^*du machst dich mit Ehebrechern gemein.^pDein Mund redet böse Worte^*und deine Zunge stiftet Betrug an.^pVon deinem Bruder redest du schändlich,^*auf den Sohn deiner Mutter häufst du Verleumdung.^pDas hast du getan und°ich°soll°schweigen?^+Meinst du, ich bin wie du?^*Ich halte es dir vor Augen und rüge dich.^pBegreift es doch, ihr,°die°ihr°Gott°vergesst!^*Sonst zerreiße ich euch und niemand kann euch retten.^pWer Opfer des Lobes bringt, ehrt mich;^*wer rechtschaffen lebt, dem zeig ich mein Heil.“"
+        "text": "Zum Frevler spricht Gott:^+„Was zählst du meine Gebote auf^*und nimmst meinen Bund in deinen Mund?^pDabei ist Zucht dir verhasst,^*meine Worte wirfst du hinter dich.^pSiehst du einen Dieb, so läufst du mit,^*du machst dich mit Ehebrechern gemein.^pDein Mund redet böse Worte^*und deine Zunge stiftet Betrug an.^pVon deinem Bruder redest du schändlich,^*auf den Sohn deiner Mutter häufst du Verleumdung.^pDas hast du getan und°ich°soll°schweigen?^+Meinst du, ich bin wie du?^*Ich halte es dir vor Augen und rüge dich.^pBegreift es doch, ihr,°die°ihr°Gott°vergesst!^*Sonst zerreiße ich euch und niemand kann euch retten.^pWer Opfer des Lobes bringt, ehrt mich;^*wer rechtschaffen lebt, dem zeig’ ich mein Heil.“"
       }
   },
   51: {
