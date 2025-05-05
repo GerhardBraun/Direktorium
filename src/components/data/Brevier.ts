@@ -9435,7 +9435,7 @@ export const brevierData = {
           "oration": "Gott, du bist unser Ziel, du zeigst den Irrenden das Licht der Wahrheit und führst sie auf den rechten Weg zurück. Gib allen, die sich Christen nennen, die Kraft, zu meiden, was diesem Namen widerspricht, und zu tun, was unserem Glauben entspricht.^ORV"
         },
         "Laudes": {
-          "ant_ev": "Müht euch nicht um die Speise, die verdirbt, sondern um jene, die bliebt für das ewige Leben.^ö"
+          "ant_ev": "Müht euch nicht um die Speise, die verdirbt, sondern um jene, die bleibt für das ewige Leben.^ö"
         },
         "Vesper": {
           "ant_ev": "Das ist das Werk Gottes, dass ihr an den glaubt, den er gesandt hat.^ö"
