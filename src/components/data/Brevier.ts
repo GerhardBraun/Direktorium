@@ -9702,7 +9702,7 @@ export const brevierData = {
           "ant_ev": "Durch die Auferstehung Jesu Christi hat Gott uns neu geboren, damit wir eine lebendige Hoffnung haben und das unvergängliche Erbe empfangen.^ö"
         },
         "Vesper": {
-          "ant_ev": "Wenn der Geist der Wahrheit kommt, der vom Vater ausgeht, dann wird der Zeugnis geben für mich. Und auch ihr werdet Zeugen sein."
+          "ant_ev": "Wenn der Geist der Wahrheit kommt, der vom Vater ausgeht, dann wird er Zeugnis geben für mich. Und auch ihr werdet Zeugen sein."
         }
       },
       "2": {
@@ -10118,7 +10118,7 @@ export const brevierData = {
           "resp1_1": "Der Geist des Herrn erfüllt den Erdkreis.",
           "resp1_2": "Halleluja, halleluja.",
           "resp1_3": "Er, der das All umfängt, kennt jede Sprache.",
-          "ant_ev": "Heute sind die fünfzig Tage erfüllt. Heute erschien der Heilige Geist den Jüngern im Zeichen des Feuers. Heute schenkte er ihnen die Gaben der Gnade. Er sandte sie aus in die ganze Welt, zu predigen und zu bezeugen: Wer glaubt und sich taufen lässt, der wird gerettet. Halleluja, halleluja,^Ö",
+          "ant_ev": "Heute sind die fünfzig Tage erfüllt. Heute erschien der Heilige Geist den Jüngern im Zeichen des Feuers. Heute schenkte er ihnen die Gaben der Gnade. Er sandte sie aus in die ganze Welt, zu predigen und zu bezeugen: Wer glaubt und sich taufen lässt, der wird gerettet. Halleluja, halleluja,halleluja.",
           "bitten_e": "Lasst uns beten zu Gott, dem Vater, der durch Christus seine Kirche im Heiligen Geist zusammenführt:",
           "bitten_r": "Sende aus deinen Geist und erneuere die Welt.",
           "bitten": "Gott und Vater aller, du berufst deine Kinder aus allen Völkern und Rassen;^qerleuchte die Berufenen mit der Gnade des Heiligen Geistes.^pDu willst alle Menschen, die Christi Namen tragen, durch die eine Taufe vereinigen;^qgib, dass die Glaubenden ein Herz und eine Seele sind.^pDu hast den Heiligen Geist über den ganzen Erdkreis ausgegossen;^qstehe allen bei, die sich um den Frieden der Erde mühen.^pDu machst alles neu durch den Heiligen Geist;^qgib den Kranken und Betrübten neue Kraft.^pDurch den Heiligen Geist hast du deinen Sohn von den Toten auferweckt;^qerwecke die Verstorbenen zum ewigen Leben."
@@ -10252,7 +10252,7 @@ export const brevierData = {
           "resp1_0": "Brot vom Himmel hat er ihnen gegeben.",
           "resp1_1": "Halleluja, halleluja.",
           "resp1_2": "Brot der Engel aßen die Menschen.",
-          "ant_ev": "Wie gut und freundlich bist du, Herr, wie groß ist deine Liebe! Vom Himmel gibst du deinen Kindern zum Zeichen deiner Huld. Den Hungernden schenkst du deine Gaben, die Reichen aber lässt du leer ausgehen.",
+          "ant_ev": "Wie gut und freundlich bist du, Herr, wie groß ist deine Liebe! Brot vom Himmel gibst du deinen Kindern zum Zeichen deiner Huld. Den Hungernden schenkst du deine Gaben, die Reichen aber lässt du leer ausgehen.",
           "bitten_e": "Lasst uns beten zu Christus, unserem Herrn, der beim heiligen Mahl seinen Leib und sein Blut hingibt für das Leben der Welt:",
           "bitten_r": "Du Brot vom Himmel, gib uns das ewige Leben.",
           "bitten": "Du Sohn des lebendigen Gottes, du hast uns aufgetragen, das Mahl der Eucharistie zu halten zu deinem Gedächtnis;^qmache deine Kirche reich an Gnaden durch die gläubige Feier deiner Geheimnisse.^pDu einziger Priester des Höchsten Gottes, du hast den Priestern die Feier deines Opfers anvertraut;^qlass in ihrem Leben wirksam werden, was sie unter heiligen Zeichen begehen.^pDu Herr des himmlischen Mahles, du fügst zu einem Leib zusammen, die an dem einen Brot teilhaben;^qfestige den Frieden und die Eintracht unter denen, die an dich glauben.^pDu göttlicher Arzt, du reichst uns in deinem Brot die Arznei der Unsterblichkeit;^qschenke den Sündern lebendige Hoffnung."
@@ -10451,23 +10451,6 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu Jesus Christus, unserem Erlöser, der uns den Frieden schenkt:",
           "bitten_r": "Jesus, Heiland und Erlöser, erbarme dich.",
           "bitten": "Jesus, aus deiner geöffneten Seite wurde die Kirche geboren;^qreinige sie von allem Makel und heilige sie.^pJesus, du König und Mitte aller Herzen;^qnimm alle Menschen auf in den Neuen Bund.^pJesus, unser Leben und unsere Auferstehung;^qsei den Sündern gnädig und ziehe sie an dich.^pJesus, unser Friede und unsere Versöhnung;^qversöhne miteinander, die sich entzweit haben.^pJesus, du bist die Quelle des Lebens;^qgib ewiges Leben denen, die in deinem Frieden entschlafen sind."
-        }
-      },
-      "6": {
-        "each": {
-          "comm_1": "Maria"
-        },
-        "Laudes": {
-          "farbe": "m",
-          "bitten_e": "Mein Herz und mein Leib jauchzen ihm zu, ihm, dem lebendigen Gott."
-        },
-        "Lesehore": {
-          "patr_werk": "Laurentius Justiniani (†°1455)",
-          "patr_text": "Aus einer Predigt am Fest der Darstellung des Herrn.",
-          "patr_resp1": "^hMaria bewahrte alles, was geschehen war, in°ihrem°Herzen^pAls Maria all das bei sich erwog, was sie durch Lesen, Hören und Sehen erkannt hatte, wie sehr wuchsen da ihr Glaube und ihre Verdienste! Mehr und mehr wurde sie erleuchtet durch die Weisheit und entzündet von der Glut der Liebe.^pÜber die alte Offenbarung der himmlischen Geheimnisse hinaus wurde sie weitergeführt, ihre Freude wurde vollendet, im Übermaß wurde sie befruchtet durch den Heiligen Geist. Sie wurde zu Gott hingeführt und wurde doch in der Demut bewahrt.^pVon solcher Art ist die Wirkung der göttlichen Gnade, dass sie den Menschen aus der Tiefe erhebt zur Höhe und ihn umgestaltet von Klarheit zu Klarheit.^pJa, selig das Herz der Jungfrau, das durch die Einwohnung und Führung des Heiligen Geistes allezeit und in allem dem Befehl des Wortes Gottes gehorchte. Nicht von ihrem eigenen Sinn, nicht von ihrem eigenen Willen ließ sie sich leiten, sondern, was die Weisheit in ihrem Herzen sie zu glauben aufforderte, das wurde nach außen hin durch den Dienst des Leibes der Jungfrau bewirkt. Es ziemte sich nämlich für die göttliche Weisheit, als sie sich das Haus der Kirche als Wohnung erbauen wollte, dass sie die selige Jungfrau Maria wegen ihrer Gesetzestreue und Herzensreinheit, wegen ihrer beispielhaften Demut und ihrer geistlichen Hingabe als Mittel dazu benutze.^pGläubige Seele, ahme Maria nach! Geh in den Tempel deines Herzens, damit du im Geist gereinigt werden kannst von der Befleckung der Sünden. Gott achtet nämlich in allem, was wir tun, mehr auf unsere Gesinnung als auf unser Werk. Sei es daher, dass wir durch die Übung der Betrachtung in unserem Herzen Gott Raum geben und für ihn frei sind, sei es, dass wir durch die Übung der Tugenden und durch gute Werke danach streben, enthaltsam zu sein zum Wohl unseres Nächsten, immer sollen wir so handeln, dass allein die Liebe Christi uns drängt. Das nämlich ist das wohlgefällige Opfer geistlicher Reinigung, das nicht in einem von Menschenhand gebauten Tempel dargebracht wird, sondern in einem Herzen, in das der Herr Jesus Christus mit Freuden eintritt.",
-          "patr_resp2": "Heilige und makellose Jungfrau, du bist allen Lobes würdig.",
-          "patr_resp3": "Den die Himmel nicht fassen, ihn trugst du in deinem Schoß.",
-          "ant_ev": "Gebenedeit bist du unter den Frauen, und gebenedeit die Frucht deines Leibes."
         }
       }
     },
