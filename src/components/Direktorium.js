@@ -1539,7 +1539,7 @@ const PrayerTextDisplay = ({
                       )}
                     {ant && (
                       <div className="mb-6">
-                        {formatPrayerText(ant, `${num}. Ant.°°`)}
+                        {formatPrayerText(ant, `Ant.°°`)}
                       </div>
                     )}
                   </div>

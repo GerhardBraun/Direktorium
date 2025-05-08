@@ -113,7 +113,7 @@ export const formatPrayerText = (provText, marker = '',
         .replace(/,\^ORR/g, orSchluss.R)
         .replace(/.\^ORS/g, orSchluss.Sgroß)
         .replace(/.\^ORR/g, orSchluss.Rgroß)
-        .replace(/\^NP/g, localStorage.getItem('popeName') || '^N')
+        .replace(/\^NP/g, localStorage.getItem('popeName') || 'Leo')
         .replace(/\^NB/g, localStorage.getItem('bishopName') || '^N')
         .replace(/\^NH/g, '^N');
 

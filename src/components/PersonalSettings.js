@@ -10,7 +10,7 @@ const PersonalSettings = () => {
         return storedValue === 'false' ? false : true;
     });
     const [popeName, setPopeName] = useState(() =>
-        localStorage.getItem('popeName') || ''
+        localStorage.getItem('popeName') || 'Leo'
     );
     const [bishopName, setBishopName] = useState(() =>
         localStorage.getItem('bishopName') || ''
@@ -163,21 +163,21 @@ const PersonalSettings = () => {
                     </div>
                     <button
                         onClick={() => setStartView('directory')}
-                        className={`px-3 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded 
+                        className={`px-3 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded
             ${startView === 'directory' ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
                     >
                         Direk&shy;torium
                     </button>
                     <button
                         onClick={() => setStartView('auto')}
-                        className={`px-3 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded 
+                        className={`px-3 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded
             ${startView === 'auto' ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
                     >
                         Auto
                     </button>
                     <button
                         onClick={() => setStartView('prayer')}
-                        className={`px-3 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded 
+                        className={`px-3 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded
             ${startView === 'prayer' ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
                     >
                         Stunden&shy;gebet
@@ -193,14 +193,14 @@ const PersonalSettings = () => {
                     </div>
                     <button
                         onClick={() => setPrefFootnotes(false)}
-                        className={`px-3 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded 
+                        className={`px-3 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded
                 ${!prefFootnotes ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
                     >
                         im Text
                     </button>
                     <button
                         onClick={() => setPrefFootnotes(true)}
-                        className={`px-3 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded 
+                        className={`px-3 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded
                 ${prefFootnotes ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
                     >
                         unter dem&nbsp;Text
@@ -222,8 +222,8 @@ const PersonalSettings = () => {
                         type="text"
                         value={popeName}
                         onChange={(e) => setPopeName(e.target.value)}
-                        className="px-3 py-1 text-sm bg-gray-100 dark:bg-gray-800 
-            border dark:border-gray-600 rounded 
+                        className="px-3 py-1 text-sm bg-gray-100 dark:bg-gray-800
+            border dark:border-gray-600 rounded
             text-gray-900 dark:text-gray-100"
                         placeholder="Name des Papstes"
                     />
@@ -237,8 +237,8 @@ const PersonalSettings = () => {
                         type="text"
                         value={bishopName}
                         onChange={(e) => setBishopName(e.target.value)}
-                        className="px-3 py-1 text-sm bg-gray-100 dark:bg-gray-800 
-            border dark:border-gray-600 rounded 
+                        className="px-3 py-1 text-sm bg-gray-100 dark:bg-gray-800
+            border dark:border-gray-600 rounded
             text-gray-900 dark:text-gray-100"
                         placeholder="Name des Bischofs"
                     />
@@ -261,7 +261,7 @@ const PersonalSettings = () => {
                                 <button
                                     key={psalm}
                                     onClick={() => handlePsalmSelect(dayIndex, psalm)}
-                                    className={`p-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded 
+                                    className={`p-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded
                                   ${sequenceInv[dayIndex] === psalm
                                             ? 'bg-orange-100 dark:bg-yellow-400/60'
                                             : 'bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700'}`}
@@ -291,8 +291,8 @@ const PersonalSettings = () => {
                         />
                         <label
                             htmlFor="fileInput"
-                            className="block px-3 py-2 text-center text-sm text-gray-700 dark:text-gray-300 
-                                rounded bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 
+                            className="block px-3 py-2 text-center text-sm text-gray-700 dark:text-gray-300
+                                rounded bg-gray-100 dark:bg-gray-800 hover:bg-gray-200
                                 dark:hover:bg-gray-700 cursor-pointer"
                         >
                             Importieren
@@ -302,8 +302,8 @@ const PersonalSettings = () => {
                     <div className="flex-1">
                         <button
                             onClick={handleExport}
-                            className="w-full px-3 py-2 text-center text-sm text-gray-700 
-                                dark:text-gray-300 rounded bg-gray-100 dark:bg-gray-800 
+                            className="w-full px-3 py-2 text-center text-sm text-gray-700
+                                dark:text-gray-300 rounded bg-gray-100 dark:bg-gray-800
                                 hover:bg-gray-200 dark:hover:bg-gray-700"
                         >
                             Exportieren
