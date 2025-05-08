@@ -2468,7 +2468,7 @@ export const psalmsData = {
     0.0: {
         "title": "Die Stunde steigt und ruft zum Werk",
         "quote": "Terz",
-        "text": "Die Stunde steigt und ruft zum Werk;^ldes Tages Anspruch lockt und drängt:^lKomm, Heil’ger Geist, tritt für uns ein,^ldenn nichts gelingt uns ohne dich.^pDu atme in uns, treibe uns,^lerleuchte uns und sprich uns zu,^ldu mache unser Herz geneigt,^ldass wir zur Liebe fähig sind.^pDies schenke uns, o°Heil’ger Geist,^lder mit dem Vater und dem Sohn^lverherrlicht und gepriesen sei^ldurch alle Zeit und Ewigkeit. Amen."
+        "text": "Die Stunde steigt und ruft zum Werk;^ldes Tages Anspruch lockt und drängt.^lKomm, Heil’ger Geist, tritt für uns ein,^ldenn nichts gelingt uns ohne dich.^pDu atme in uns, treibe uns,^lerleuchte uns und sprich uns zu,^ldu mache unser Herz geneigt,^ldass wir zur Liebe fähig sind.^pDies schenke uns, o°Heil’ger Geist,^lder mit dem Vater und dem Sohn^lverherrlicht und gepriesen sei^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   2304: {
@@ -2713,7 +2713,7 @@ export const psalmsData = {
     0.0: {
         "title": "Die Glut des Mittags treibt uns um",
         "quote": "Sext",
-        "text": "Die Glut des Mittags treibt uns um,^ldie Stunden eilen wie im Flug;^ldu, Gott vor dem die Zeiten stehn,^llass uns ein wenig bei dir ruhn.^pWir atmen fiebrig und gehetzt,^lder Streit flammt auf, das rasche Wort;^lin deiner Nähe, starker Gott,^list Kühlung, Frieden und Geduld.^pGewähr uns dies, o°guter Gott,^ldu, Vater, und du, einz’ger Sohn,^ldie ihr mit ihm, dem Heil’gen Geist,^lregiert durch Zeit und Ewigkeit. Amen."
+        "text": "Die Glut des Mittags treibt uns um,^ldie Stunden eilen wie im Flug.^lDu, Gott vor dem die Zeiten stehn,^llass uns ein wenig bei dir ruhn.^pWir atmen fiebrig und gehetzt,^lder Streit flammt auf, das rasche Wort.^lIn deiner Nähe, starker Gott,^list Kühlung, Frieden und Geduld.^pGewähr uns dies, o°guter Gott,^ldu, Vater, und du, einz’ger Sohn,^ldie ihr mit ihm, dem Heil’gen Geist,^lregiert durch Zeit und Ewigkeit. Amen."
       }
   },
   2604: {

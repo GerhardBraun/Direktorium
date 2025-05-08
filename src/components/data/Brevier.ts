@@ -10604,7 +10604,7 @@ export const brevierData = {
         "Sext": {
           "les_buch": "1°Joh",
           "les_stelle": "5,5–6a",
-          "les_text": "Wer sonst besiegt die Welt außer dem, der glaubt, dass Jesus der Sohn Gottes ist! Dieser ist es, der durch Wasser und Blut gekommen ist: Jesus Christus."
+          "les_text": "Wer sonst besiegt die Welt außer dem, der glaubt, dass Jesus der Sohn Gottes ist? Dieser ist es, der durch Wasser und Blut gekommen ist: Jesus Christus."
         },
         "Terz": {
           "les_buch": "vgl.°Röm",
@@ -10613,7 +10613,7 @@ export const brevierData = {
         },
         "Vesper": {
           "les_buch": "Hebr",
-          "les_stelle": "7,24–25",
+          "les_stelle": "7,24–27",
           "les_text": "Jesus hat, weil er auf ewig bleibt, ein unvergängliches Priestertum. Darum kann er auch die, die durch ihn vor Gott hintreten, für immer retten; denn er lebt allezeit, um für sie einzutreten. Ein solcher Hoherpriester war für uns in der Tat notwendig: einer, der heilig ist, unschuldig, makellos, abgesondert von den Sündern und erhöht über die Himmel; einer, der es nicht Tag für Tag nötig hat, wie die Hohenpriester zuerst für die eigenen Sünden Opfer darzubringen und dann für die des Volkes; denn das hat er ein für allemal getan, als er sich selbst dargebracht hat.^R",
           "bitten_e": "Lasst uns zu Christus beten, der von den Toten erstanden ist:",
           "bitten_r": "Du König der Herrlichkeit, höre uns.",
