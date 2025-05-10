@@ -2580,7 +2580,7 @@ export const psalmsData = {
     0.0: {
         "title": "Hinunter ist der Sonne Schein",
         "quote": "Auswahl-Hymnen zur Komplet",
-        "text": "Hinunter ist der Sonne Schein;^ldie finstre Nacht bricht stark herein.^lLeucht uns, Herr Christ, du wahres Licht;^llass uns im Finstern tappen nicht.^pDir sei Dank, dass du uns den Tag^lvor Schaden, G’fahr und mancher Plag^ldurch deine Engel hast behüt’^laus Gnad und väterlicher Güt’.^pWomit wir heut erzürnet dich,^ldasselb verzeih uns gnädiglich^lund rechn’ es unsrer Seel’ nicht zu;^llass schlafen uns mit Fried’ und Ruh’.^pDein’ Engel uns zur Wach bestell,^ldass uns der böse Feind nicht fäll’.^lVor Schrecken, Angst und Feuersnot^lbehüte uns, o°lieber Gott."
+        "text": "Hinunter ist der Sonne Schein;^ldie finstre Nacht bricht stark herein.^lLeucht uns, Herr Christ, du wahres Licht;^llass uns im Finstern tappen nicht.^pDir sei Dank, dass du uns den Tag^lvor Schaden, G’fahr und mancher Plag^ldurch deine Engel hast behüt’^laus Gnad und väterlicher Güt’.^pWomit wir heut erzürnet dich,^ldasselb verzeih uns gnädiglich^lund rechn’ es unsrer Seel’ nicht zu;^llass schlafen uns mit Fried’ und Ruh’.^pDein’ Engel uns zur Wach’ bestell,^ldass uns der böse Feind nicht fäll’.^lVor Schrecken, Angst und Feuersnot^lbehüte uns, o°lieber Gott."
       }
   },
   2510: {
