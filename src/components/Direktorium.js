@@ -1454,7 +1454,7 @@ const PrayerTextDisplay = ({
           />
         )}
         {eröffnung_1 && (
-          <div className="mb-0 mt-0">
+          <div className="mt-0 mb-0">
             <SectionHeader title="ERÖFFNUNG" field="resp0_0" />
             <div>
               {formatPrayerText(eröffnung_1, "V°°")}
@@ -1465,8 +1465,8 @@ const PrayerTextDisplay = ({
           </div>
         )}
         {eröffnung_3 && (
-          <div className="mb-0 mt-0">
-            <div>
+          <div className="mt-0 mb-0">
+            <div className="mt-1">
               {formatPrayerText(eröffnung_3)}
             </div>
             <div>
