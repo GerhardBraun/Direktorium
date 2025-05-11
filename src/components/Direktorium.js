@@ -1423,7 +1423,7 @@ const PrayerTextDisplay = ({
     closing = ["", ""];
   }
   if (hour === 'lesehore') {
-    closing[2] = "Wenn Laudes oder Vesper unmittelbar\u00a0angeschlossen\u00a0werden, entfallen hier Oration und Abschluss; es folgt jetzt der Hymnus der anschließenden Hore.";
+    closing[2] = "Wenn Laudes oder Vesper unmittelbar angeschlossen werden, entfallen hier Oration und Abschluss; dann folgt jetzt der Hymnus der anschließenden Hore.";
   }
 
   return (
