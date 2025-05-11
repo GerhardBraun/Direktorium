@@ -1423,7 +1423,7 @@ const PrayerTextDisplay = ({
     closing = ["", ""];
   }
   if (hour === 'lesehore') {
-    closing[2] = "(entfällt, wenn Laudes oder Vesper unmittelbar angeschlossen werden)";
+    closing[2] = "(entfällt, wenn Laudes oder Vesper unmittelbar\u00a0angeschlossen\u00a0werden)";
   }
 
   return (
