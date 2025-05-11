@@ -1423,7 +1423,7 @@ const PrayerTextDisplay = ({
     closing = ["", ""];
   }
   if (hour === 'lesehore') {
-    closing[2] = "(entfällt, wenn Laudes oder Vesper unmittelbar\u00a0angeschlossen\u00a0werden)";
+    closing[2] = "Wenn Laudes oder Vesper unmittelbar\u00a0angeschlossen\u00a0werden, entfallen hier Oration und Abschluss; es folgt jetzt der Hymnus der anschließenden Hore.";
   }
 
   return (
@@ -1759,6 +1759,7 @@ const PrayerTextDisplay = ({
             )}
           </div>
         )}
+        <div className="text-rubric text-verse">{closing[2]}</div>
 
         {hour !== "invitatorium" && hour !== "komplet" && (
           <div className="mb-0">
@@ -1784,7 +1785,6 @@ const PrayerTextDisplay = ({
         {closing[0] && (
           <div className="mb-0 mt-0">
             <SectionHeader title="ABSCHLUSS" field="resp0_0" />
-            <div className="text-rubric text-verse">{closing[2]}</div>
             <div className="flex gap-0">
               {formatPrayerText(closing[0], "V°°")}
             </div>
