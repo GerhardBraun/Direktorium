@@ -1370,49 +1370,60 @@ const PrayerTextDisplay = ({
     }
   };
 
-  let eröffnung_1 = "O Gott, komm mir zu Hilfe."
-  let eröffnung_2 = "Herr, eile, mir zu helfen."
-  let eröffnung_3 = "Ehre sei dem Vater und dem Sohn und°dem°Heiligen°Geist."
-  let eröffnung_4 = "Wie im Anfang, so auch jetzt und°alle°Zeit und°in°Ewigkeit.°Amen.^Ö"
-
+  let opening = [
+    "O Gott, komm mir zu Hilfe.",
+    "Herr, eile, mir zu helfen.",
+    "Ehre sei dem Vater und dem Sohn und°dem°Heiligen°Geist.",
+    "Wie im Anfang, so auch jetzt und°alle°Zeit und°in°Ewigkeit.°Amen.^Ö"
+  ];
   const openMyLips = () => localStorage.getItem("openMyLips") || '';
   const todayVisit = () => new Date().toISOString().split("T")[0]; // Format YYYY-MM-DD
 
   if (hour === 'invitatorium') {
     localStorage.setItem("openMyLips", todayVisit())
-    eröffnung_1 = "Herr, öffne meine Lippen."
-    eröffnung_2 = "Damit mein Mund dein Lob verkünde."
-    eröffnung_3 = ""
+    opening = [
+      "Herr, öffne meine Lippen.",
+      "Damit mein Mund dein Lob verkünde.",
+      "", ""
+    ];
   }
   if (['lesehore', 'laudes'].includes(hour)
     && openMyLips() !== todayVisit()) {
     if (!openMyLips().startsWith('l') || openMyLips() === hour) {
       localStorage.setItem("openMyLips", hour)
-      eröffnung_1 = "Herr, öffne meine Lippen."
-      eröffnung_2 = "Damit mein Mund dein Lob verkünde."
-      eröffnung_3 = ""
+      opening = [
+        "Herr, öffne meine Lippen.",
+        "Damit mein Mund dein Lob verkünde.",
+        "", ""
+      ];
     } else {
       localStorage.setItem("openMyLips", todayVisit())
     }
   }
 
   if (localStorage.getItem('ommitOpening') === 'true') {
-    eröffnung_1 = ""
-    eröffnung_3 = ""
+    opening = ["", "", "", ""];
   }
 
-  let abschluss_1, abschluss_2
-  if (['lesehore', 'terz', 'sext', 'non'].includes(hour)) {
-    abschluss_1 = "Singet Lob und Preis.";
-    abschluss_2 = "Dank sei Gott, dem Herrn."
-  }
+  let closing = [
+    "Singet Lob und Preis.",
+    "Dank sei Gott, dem Herrn."
+  ];
   if (['laudes', 'vesper'].includes(hour)) {
-    abschluss_1 = "Der Herr segne uns, er°bewahre°uns°vor°Unheil und°führe°uns°zum°ewigen°Leben.";
-    abschluss_2 = "Amen."
+    closing = [
+      "Der Herr segne uns, er°bewahre°uns°vor°Unheil und°führe°uns°zum°ewigen°Leben.",
+      "Amen."
+    ];
+  } else if (hour === 'komplet') {
+    closing = [
+      "Eine ruhige Nacht und ein gutes Ende gewähre°uns°der°allmächtige°Herr.",
+      "Amen."
+    ];
+  } else if (hour === 'invitatorium') {
+    closing = ["", ""];
   }
-  if (['komplet'].includes(hour)) {
-    abschluss_1 = "Eine ruhige Nacht und ein gutes Ende gewähre°uns°der°allmächtige°Herr.";
-    abschluss_2 = "Amen."
+  if (hour === 'lesehore') {
+    closing[2] = "(entfällt, wenn Laudes oder Vesper unmittelbar angeschlossen werden)";
   }
 
   return (
@@ -1453,28 +1464,28 @@ const PrayerTextDisplay = ({
             className="mb-4"
           />
         )}
-        {eröffnung_1 && (
+        {opening[0] && (
           <div className="mt-0 mb-0">
             <SectionHeader title="ERÖFFNUNG" field="resp0_0" />
             <div>
-              {formatPrayerText(eröffnung_1, "V°°")}
+              {formatPrayerText(opening[0], "V°°")}
             </div>
             <div>
-              {formatPrayerText(eröffnung_2, "R°°")}
-            </div>
-          </div>
-        )}
-        {eröffnung_3 && (
-          <div className="mt-0 mb-0">
-            <div className="mt-1">
-              {formatPrayerText(eröffnung_3)}
-            </div>
-            <div>
-              {formatPrayerText(eröffnung_4)}
+              {formatPrayerText(opening[1], "R°°")}
             </div>
           </div>
         )}
 
+        {opening[2] && (
+          <div className="mt-0 mb-0">
+            <div className="mt-1">
+              {formatPrayerText(opening[2])}
+            </div>
+            <div>
+              {formatPrayerText(opening[3])}
+            </div>
+          </div>
+        )}
         {getValue("hymn_1") && (
           <div className="mb-0">
             <SectionHeader
@@ -1770,14 +1781,15 @@ const PrayerTextDisplay = ({
           </div>
         )}
 
-        {abschluss_1 && (
+        {closing[0] && (
           <div className="mb-0 mt-0">
             <SectionHeader title="ABSCHLUSS" field="resp0_0" />
+            <div className="text-rubric text-verse">{closing[2]}</div>
             <div className="flex gap-0">
-              {formatPrayerText(abschluss_1, "V°°")}
+              {formatPrayerText(closing[0], "V°°")}
             </div>
             <div className="flex gap-0">
-              {formatPrayerText(abschluss_2, "R°°")}
+              {formatPrayerText(closing[1], "R°°")}
             </div>
           </div>
         )}
