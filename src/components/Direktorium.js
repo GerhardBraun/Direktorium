@@ -1759,7 +1759,10 @@ const PrayerTextDisplay = ({
             )}
           </div>
         )}
-        <div className="text-rubric text-verse">{closing[2]}</div>
+
+        <div className="mt-3 text-rubric text-verse">
+          {closing[2]}
+        </div>
 
         {hour !== "invitatorium" && hour !== "komplet" && (
           <div className="mb-0">
