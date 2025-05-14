@@ -14,16 +14,13 @@ export const getValue = ({ hour, texts, field,
                 return texts.komplet.eig?.[field];
             }
         }
-        if (texts.komplet[localPrefKomplet]?.[field]) {
-            return texts.komplet[localPrefKomplet]?.[field];
-        }
-        return null;
+        return texts.komplet[localPrefKomplet]?.[field] || null;
     }
 
     const { rank_date = 0, rank_wt = 0, isCommemoration, hasErsteVesper = false, combinedSWD, dayOfWeek } = texts;
     const sollemnityErsteVesper = () => ['soll', 'kirchw'].includes(prefSollemnity)
     const isTSN = ['terz', 'sext', 'non'].includes(hour)
-    const isKirchwVerst = prefSollemnity === 'kirchw' || prefSollemnity === 'verst';
+    const isKirchwVerst = ['kirchw', 'verst'].includes(prefSollemnity)
 
     // Feier wie ein Hochfest
     const isSollemnity = (hour === 'vesper' && hasErsteVesper)

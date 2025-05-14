@@ -1376,8 +1376,16 @@ const PrayerTextDisplay = ({
     "Ehre sei dem Vater und dem Sohn und°dem°Heiligen°Geist.",
     "Wie im Anfang, so auch jetzt und°alle°Zeit und°in°Ewigkeit.°Amen.^Ö"
   ];
-  const openMyLips = () => localStorage.getItem("openMyLips") || '';
+
   const todayVisit = () => new Date().toISOString().split("T")[0]; // Format YYYY-MM-DD
+  const openMyLips = () => {
+    try {
+      return localStorage.getItem("openMyLips") || '';
+    } catch (error) {
+      console.error("localStorage-Zugriff fehlgeschlagen:", error);
+      return 'l-ERROR'; // Oder einen anderen Fallback-Wert
+    }
+  };
 
   if (hour === 'invitatorium') {
     localStorage.setItem("openMyLips", todayVisit())
