@@ -274,7 +274,7 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         addLayer(season, week, dayOfWeek);
 
         // Oration der Komplet in der Osteroktav
-        if (season === 'o' && (week === 1 || week === 2 && dayOfWeek === 0)) {
+        if (season === 'o' && (week === 1 || (week === 2 && dayOfWeek === 0))) {
             const easterKomplet1 = brevierData['k1']?.['o']?.['6']
             const easterKomplet2 = brevierData['k2']?.['o']?.['0']
             mergeData(hours, easterKomplet1, 'k1')

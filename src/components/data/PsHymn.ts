@@ -1427,7 +1427,7 @@ export const psalmsData = {
       },
     153.0: {
         "verses": "153–160°°°XX°·°Resch",
-        "text": "Sieh mein Elend an und rette mich;^*denn ich habe deine Weisung nicht vergessen.^pVerschaff mir Recht und erlöse mich;^*nach deiner Weisung erhalte mein Leben!^pFern bleibt den Frevlern das Heil;^*denn sie fragen nicht nach deinen Gesetzen.^pHerr, groß ist dein Erbarmen;^*durch deine Entscheide belebe mich!^pViele verfolgen und quälen mich,^*doch von deinen Vorschriften weich ich nicht ab.^pWenn ich Abtrünnige sehe, empfinde°ich°Abscheu,^*weil sie dein Wort nicht befolgen.^pSieh an, wie sehr ich deine°Vorschriften°liebe;^*Herr, in deiner Huld belebe mich!^pDas Wesen deines Wortes ist Wahrheit,^*deine gerechten Urteile haben alle auf ewig Bestand."
+        "text": "Sieh mein Elend an und rette mich;^*denn ich habe deine Weisung nicht vergessen.^pVerschaff mir Recht und erlöse mich;^*nach deiner Weisung erhalte mein Leben!^pFern bleibt den Frevlern das Heil;^*denn sie fragen nicht nach deinen Gesetzen.^pHerr, groß ist dein Erbarmen;^*durch deine Entscheide belebe mich!^pViele verfolgen und quälen mich,^*doch von deinen Vorschriften weich’ ich nicht ab.^pWenn ich Abtrünnige sehe, empfinde°ich°Abscheu,^*weil sie dein Wort nicht befolgen.^pSieh an, wie sehr ich deine°Vorschriften°liebe;^*Herr, in deiner Huld belebe mich!^pDas Wesen deines Wortes ist Wahrheit,^*deine gerechten Urteile haben alle auf ewig Bestand."
       },
     161.0: {
         "verses": "161–168°°°XXI°·°Schin",
@@ -1514,7 +1514,7 @@ export const psalmsData = {
     0.0: {
         "title": "Haussegen",
         "quote": "„Es segne dich der Herr vom Zion her“, das heißt: von seiner Kirche aus. (Arnobius)",
-        "text": "Wohl dem Mann, der°den°Herrn°fürchtet°und°ehrt^*und der auf seinen Wegen geht!^pWas deine Hände erwarben, kannst°du°genießen;^*wohl dir, es wird dir gut ergehn.^pWie ein fruchtbarer Weinstock ist°deine°Frau^*drinnen in deinem Haus.^pWie junge Ölbäume sind deine Kinder^*rings um deinen Tisch.^pSo wird der Mann gesegnet,^*der den Herrn fürchtet und ehrt.^pEs segne dich der Herr vom Zion her.^*Du sollst dein Leben lang das Glück Jerusalems schauen.^pund die Kinder deiner Kinder sehn.^*Frieden über Israel!"
+        "text": "Wohl dem Mann, der°den°Herrn°fürchtet°und°ehrt^*und der auf seinen Wegen geht!^pWas deine Hände erwarben, kannst°du°genießen;^*wohl dir, es wird dir gut ergehn.^pWie ein fruchtbarer Weinstock ist°deine°Frau^*drinnen in deinem Haus.^pWie junge Ölbäume sind deine Kinder^*rings um deinen Tisch.^pSo wird der Mann gesegnet,^*der den Herrn fürchtet und ehrt.^pEs segne dich der Herr vom Zion her.^*Du sollst dein Leben lang das Glück Jerusalems schauen^pund die Kinder deiner Kinder sehn.^*Frieden über Israel!"
       }
   },
   129: {
