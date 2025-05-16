@@ -1,18 +1,15 @@
 import formatBibleRef from './comp_BibleRefFormatter.js';
 import React, { Fragment } from 'react';
-import { getLocalStorage, setLocalStorage } from './utils/localStorage.js';
-
-const prefLanguage = getLocalStorage('prefLanguage') || '';
-const doxology = prefLanguage === "_lat"
-    ? "Glória Patri, et Fílio,^*et Spirítui Sancto.^pSicut erat in princípio, et°nunc,°et°semper,^*et in sǽcula sæculórum. Amen."
-    : "Ehre sei dem Vater und dem Sohn^*und dem Heiligen Geist,^pwie im Anfang, so°auch°jetzt°und°alle°Zeit^*und in Ewigkeit. Amen.";
-const easterAntiphon = prefLanguage === "_lat"
-    ? "^p^rLoco responsorii dicitur:^0r^lHæc est dies quam fecit Dóminus: exsultémus\u00a0et\u00a0lætémur\u00a0in\u00a0ea.\u00a0Allelúia."
-    : "^p^rAnstelle des Responsoriums wird die\u00a0folgende\u00a0Antiphon\u00a0genommen:^0r^lDas ist der Tag, den der Herr gemacht hat. Lasst\u00a0uns\u00a0jubeln und seiner uns freuen. Halleluja.";
+import { getLocalStorage } from './utils/localStorage.js';
 
 // Formatiert Psalmen mit Nummer, Versen, Titel und Text
 export const formatPsalm = (psalm) => {
     if (!psalm || !psalm.text) return null;
+
+    const prefLanguage = getLocalStorage('prefLanguage') || '';
+    const doxology = prefLanguage === "_lat"
+        ? "Glória Patri et Fílio^*et Spirítui Sancto.^pSicut erat in princípio, et°nunc°et°semper^*et in sǽcula sæculórum. Amen."
+        : "Ehre sei dem Vater und dem Sohn^*und dem Heiligen Geist,^pwie im Anfang, so°auch°jetzt°und°alle°Zeit^*und in Ewigkeit. Amen.";
 
     const number = psalm[`number${prefLanguage}`] || psalm.number;
     const verses = psalm[`verses${prefLanguage}`] || psalm.verses || "";
@@ -76,7 +73,11 @@ export const formatPrayerText = (provText, marker = '',
     if (!provText || provText === 'LEER') return null;
     const { season, isCommemoration, combinedSWD = '' } = texts;
     const { nominativ, genitiv, vokativ } = texts?.laudes?.[prefSrc] || {};
-    const useFootnoteList = localStorage.getItem('prefFootnotes') === 'true';
+
+    const useFootnoteList = getLocalStorage('prefFootnotes') === 'true';
+    const easterAntiphon = getLocalStorage('prefLanguage') === "_lat"
+        ? "^p^rLoco responsorii dicitur:^0r^lHæc est dies quam fecit Dóminus: exsultémus\u00a0et\u00a0lætémur\u00a0in\u00a0ea.\u00a0Allelúia."
+        : "^p^rAnstelle des Responsoriums wird die\u00a0folgende\u00a0Antiphon\u00a0genommen:^0r^lDas ist der Tag, den der Herr gemacht hat. Lasst\u00a0uns\u00a0jubeln und seiner uns freuen. Halleluja.";
 
     // Wenn marker='oration' und isCommemoration=true, dann leere orSchluss-Elemente
     const orSchluss = ['lesehore', 'laudes', 'vesper'].includes(hour)
@@ -125,8 +126,8 @@ export const formatPrayerText = (provText, marker = '',
         .replace(/,\^ORR/g, orSchluss.R)
         .replace(/.\^ORS/g, orSchluss.Sgroß)
         .replace(/.\^ORR/g, orSchluss.Rgroß)
-        .replace(/\^NP/g, localStorage.getItem('popeName') || 'Leo')
-        .replace(/\^NB/g, localStorage.getItem('bishopName') || '^N')
+        .replace(/\^NP/g, getLocalStorage('popeName') || 'Leo')
+        .replace(/\^NB/g, getLocalStorage('bishopName') || '^N')
         .replace(/\^NH/g, '^N');
 
     if (nominativ) {

@@ -231,7 +231,7 @@ const PersonalSettings = () => {
                         className={`px-3 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded
                 ${prefLanguage === '' ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
                     >
-                        Stundenbuch
+                        Stunden&shy;buch
                     </button>
                     <button
                         onClick={() => setPrefLanguage('_lat')}
