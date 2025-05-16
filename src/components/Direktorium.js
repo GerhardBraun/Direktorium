@@ -1377,17 +1377,10 @@ const PrayerTextDisplay = ({
   ];
 
   const todayVisit = () => new Date().toISOString().split("T")[0]; // Format YYYY-MM-DD
-  const openMyLips = () => {
-    try {
-      return localStorage.getItem("openMyLips") || '';
-    } catch (error) {
-      console.error("localStorage-Zugriff fehlgeschlagen:", error);
-      return 'l-ERROR'; // Oder einen anderen Fallback-Wert
-    }
-  };
+  const openMyLips = () => getLocalStorage("openMyLips", "l-ERROR") || '';
 
   if (hour === 'invitatorium') {
-    localStorage.setItem("openMyLips", todayVisit())
+    setLocalStorage("openMyLips", todayVisit())
     opening = [
       "Herr, öffne meine Lippen.",
       "Damit mein Mund dein Lob verkünde.",
@@ -1397,18 +1390,18 @@ const PrayerTextDisplay = ({
   if (['lesehore', 'laudes'].includes(hour)
     && openMyLips() !== todayVisit()) {
     if (!openMyLips().startsWith('l') || openMyLips() === hour) {
-      localStorage.setItem("openMyLips", hour)
+      setLocalStorage("openMyLips", hour)
       opening = [
         "Herr, öffne meine Lippen.",
         "Damit mein Mund dein Lob verkünde.",
         "", ""
       ];
     } else {
-      localStorage.setItem("openMyLips", todayVisit())
+      setLocalStorage("openMyLips", todayVisit())
     }
   }
 
-  if (localStorage.getItem('ommitOpening') === 'true') {
+  if (getLocalStorage('ommitOpening') === 'true') {
     opening = ["", "", "", ""];
   }
 
@@ -1953,10 +1946,7 @@ export default function LiturgicalCalendar() {
   const wakeLock = useWakeLock();
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [showDatePicker, setShowDatePicker] = useState(false);
-  const [theme, setTheme] = useState(() => {
-    const savedTheme = localStorage.getItem("theme");
-    return savedTheme || "dark";
-  });
+  const [theme, setTheme] = useState(() => getLocalStorage("theme") || "dark");
   const [prefSrc, setPrefSrc] = useState("eig");
   const [prefSollemnity, setPrefSollemnity] = useState("");
   const [useCommemoration, setUseCommemoration] = useState(false);
@@ -1986,9 +1976,8 @@ export default function LiturgicalCalendar() {
   const [liturgicalInfo, setLiturgicalInfo] = useState(null);
   const [currentSeason, setCurrentSeason] = useState(null);
 
-  const startViewMode = localStorage.getItem("startViewMode") || "directory";
-  const openMyLips = () => localStorage.getItem("openMyLips") || null;
-  const lastVisit = () => localStorage.getItem("lastVisit") || null;
+  const startViewMode = getLocalStorage("startViewMode") || "directory";
+  const lastVisit = () => getLocalStorage("lastVisit") || null;
   const todayVisit = () => new Date().toISOString().split("T")[0]; // Format YYYY-MM-DD
   const [viewMode, setViewMode] = useState(() =>
     startViewMode === "directory" ||
@@ -2071,7 +2060,7 @@ export default function LiturgicalCalendar() {
   // Aktiviere Wake Lock wenn die App im prayer oder prayerText Modus ist
   useEffect(() => {
     if (viewMode !== "prayerText") {
-      localStorage.setItem('ommitOpening', 'false')
+      setLocalStorage('ommitOpening', 'false')
     }
     if (viewMode === "prayer" || viewMode === "prayerText") {
       wakeLock.requestWakeLock();
@@ -2083,9 +2072,9 @@ export default function LiturgicalCalendar() {
   useEffect(() => {
     if (lastVisit() !== todayVisit()) {
       if (viewMode === "directory") {
-        localStorage.setItem("lastVisit", "directory");
+        setLocalStorage("lastVisit", "directory");
       } else if (lastVisit() === "directory") {
-        localStorage.setItem("lastVisit", todayVisit());
+        setLocalStorage("lastVisit", todayVisit());
       }
     }
   }, [viewMode, todayVisit]);
@@ -2097,7 +2086,7 @@ export default function LiturgicalCalendar() {
       return new Date(date).toISOString().split("T")[0];
     };
 
-    const savedDate = localStorage.getItem("selectedDate");
+    const savedDate = getLocalStorage("selectedDate");
     const currentDateFormatted = formatDate(selectedDate);
 
     if (savedDate !== currentDateFormatted) {
@@ -2112,7 +2101,7 @@ export default function LiturgicalCalendar() {
       newSelectedDate = currentDateFormatted;
     }
 
-    localStorage.setItem("selectedDate", newSelectedDate);
+    setLocalStorage("selectedDate", newSelectedDate);
   }, [selectedDate, viewMode]);
 
   useEffect(() => {
@@ -2167,12 +2156,12 @@ export default function LiturgicalCalendar() {
   useEffect(() => {
     document.documentElement.classList.toggle("dark", theme === "dark");
     document.body.classList.toggle("dark", theme === "dark");
-    localStorage.setItem("theme", theme);
+    setLocalStorage("theme", theme);
   }, [theme]);
 
   useEffect(() => {
     document.documentElement.style.fontSize = baseFontSize;
-    localStorage.setItem("baseFontSize", baseFontSize);
+    setLocalStorage("baseFontSize", baseFontSize);
   }, [baseFontSize]);
 
   useEffect(() => {

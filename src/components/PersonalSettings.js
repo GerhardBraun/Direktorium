@@ -9,6 +9,9 @@ const PersonalSettings = () => {
         const storedValue = localStorage.getItem('prefFootnotes');
         return storedValue === 'false' ? false : true;
     });
+    const [prefLanguage, setPrefLanguage] = useState(() =>
+        localStorage.getItem('prefLanguage') || ''
+    );
     const [popeName, setPopeName] = useState(() =>
         localStorage.getItem('popeName') || 'Leo'
     );
@@ -34,6 +37,10 @@ const PersonalSettings = () => {
     useEffect(() => {
         localStorage.setItem('prefFootnotes', prefFootnotes);
     }, [prefFootnotes]);
+
+    useEffect(() => {
+        localStorage.setItem('prefLanguage', prefLanguage);
+    }, [prefLanguage]);
 
     useEffect(() => {
         localStorage.setItem('popeName', popeName);
@@ -90,6 +97,10 @@ const PersonalSettings = () => {
                         setPrefFootnotes(data.settings.prefFootnotes);
                         localStorage.setItem('prefFootnotes', data.settings.prefFootnotes);
                     }
+                    if (data.settings.prefLanguage) {
+                        setPrefLanguage(data.settings.prefLanguage);
+                        localStorage.setItem('prefLanguage', data.settings.prefLanguage);
+                    }
                     if (data.settings.popeName) {
                         setPopeName(data.settings.popeName);
                         localStorage.setItem('popeName', data.settings.popeName);
@@ -121,6 +132,7 @@ const PersonalSettings = () => {
         exportData.settings = {
             startViewMode: startView,
             prefFootnotes,
+            prefLanguage,
             popeName,
             bishopName,
             sequenceInv
@@ -204,6 +216,36 @@ const PersonalSettings = () => {
                 ${prefFootnotes ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
                     >
                         unter dem&nbsp;Text
+                    </button>
+                </div>
+            </div>
+
+            {/* Übersetzung Section */}
+            <div className="px-3 py-0">
+                <div className="grid gap-2 items-center" style={{ gridTemplateColumns: '6rem 1fr 1fr 1fr' }}>
+                    <div className="text-sm text-gray-500 dark:text-gray-400">
+                        Übersetzung
+                    </div>
+                    <button
+                        onClick={() => setPrefLanguage('')}
+                        className={`px-3 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded
+                ${prefLanguage === '' ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
+                    >
+                        Stundenbuch
+                    </button>
+                    <button
+                        onClick={() => setPrefLanguage('_lat')}
+                        className={`px-3 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded
+                ${prefLanguage === '_lat' ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
+                    >
+                        Latein
+                    </button>
+                    <button
+                        onClick={() => setPrefLanguage('_neu')}
+                        className={`px-3 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded
+                ${prefLanguage === '_neu' ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
+                    >
+                        neue EÜ
                     </button>
                 </div>
             </div>

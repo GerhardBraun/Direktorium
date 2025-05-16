@@ -1,14 +1,24 @@
 import formatBibleRef from './comp_BibleRefFormatter.js';
 import React, { Fragment } from 'react';
+import { getLocalStorage, setLocalStorage } from './utils/localStorage.js';
 
-const doxology = "Ehre sei dem Vater und dem Sohn^*und dem Heiligen Geist,^pwie im Anfang, so°auch°jetzt°und°alle°Zeit^*und in Ewigkeit. Amen.";
-const easterAntiphon = "^p^rAnstelle des Responsoriums wird die\u00a0folgende\u00a0Antiphon\u00a0genommen:^0r^lDas ist der Tag, den der Herr gemacht hat. Lasst\u00a0uns\u00a0jubeln und seiner uns freuen. Halleluja.";
+const prefLanguage = getLocalStorage('prefLanguage') || '';
+const doxology = prefLanguage === "_lat"
+    ? "Glória Patri, et Fílio,^*et Spirítui Sancto.^pSicut erat in princípio, et°nunc,°et°semper,^*et in sǽcula sæculórum. Amen."
+    : "Ehre sei dem Vater und dem Sohn^*und dem Heiligen Geist,^pwie im Anfang, so°auch°jetzt°und°alle°Zeit^*und in Ewigkeit. Amen.";
+const easterAntiphon = prefLanguage === "_lat"
+    ? "^p^rLoco responsorii dicitur:^0r^lHæc est dies quam fecit Dóminus: exsultémus\u00a0et\u00a0lætémur\u00a0in\u00a0ea.\u00a0Allelúia."
+    : "^p^rAnstelle des Responsoriums wird die\u00a0folgende\u00a0Antiphon\u00a0genommen:^0r^lDas ist der Tag, den der Herr gemacht hat. Lasst\u00a0uns\u00a0jubeln und seiner uns freuen. Halleluja.";
 
 // Formatiert Psalmen mit Nummer, Versen, Titel und Text
 export const formatPsalm = (psalm) => {
     if (!psalm || !psalm.text) return null;
 
-    const { number, verses = "", title = "", quote = "", text } = psalm;
+    const number = psalm[`number${prefLanguage}`] || psalm.number;
+    const verses = psalm[`verses${prefLanguage}`] || psalm.verses || "";
+    const title = psalm[`title${prefLanguage}`] || psalm.title || "";
+    const quote = psalm[`quote${prefLanguage}`] || psalm.quote || "";
+    const text = psalm[`text${prefLanguage}`] || psalm.text;
 
     return (
         <div className="mb-4">

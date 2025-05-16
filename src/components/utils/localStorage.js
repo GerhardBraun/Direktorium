@@ -4,13 +4,13 @@
  * @param {*} defaultValue - Rückgabewert bei Fehler (Standard: '')
  * @returns {*} Der gespeicherte Wert oder defaultValue bei Fehler
  */
-export function getLocalStorage(key, defaultValue = '') {
+export function getLocalStorage(key, errorValue = '') {
     try {
         const value = localStorage.getItem(key);
-        return value !== null ? value : defaultValue;
+        return value !== null ? value : '';
     } catch (error) {
         console.error(`localStorage.getItem('${key}') fehlgeschlagen:`, error);
-        return defaultValue;
+        return errorValue;
     }
 }
 
