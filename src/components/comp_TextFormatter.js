@@ -1,12 +1,14 @@
 import formatBibleRef from './comp_BibleRefFormatter.js';
 import React, { Fragment } from 'react';
 
-const doxology = "Ehre sei dem Vater und dem Sohn^*und dem Heiligen Geist,^pwie im Anfang, so auch jetzt und°alle°Zeit^*und in Ewigkeit. Amen.";
+const doxology = "Ehre sei dem Vater und dem Sohn^*und dem Heiligen Geist,^pwie im Anfang, so°auch°jetzt°und°alle°Zeit^*und in Ewigkeit. Amen.";
 const easterAntiphon = "^p^rAnstelle des Responsoriums wird die\u00a0folgende\u00a0Antiphon\u00a0genommen:^0r^lDas ist der Tag, den der Herr gemacht hat. Lasst\u00a0uns\u00a0jubeln und seiner uns freuen. Halleluja.";
 
 // Formatiert Psalmen mit Nummer, Versen, Titel und Text
-export const formatPsalm = (number, verses, title, quote, text) => {
-    if (!text) return null;
+export const formatPsalm = (psalm) => {
+    if (!psalm || !psalm.text) return null;
+
+    const { number, verses = "", title = "", quote = "", text } = psalm;
 
     return (
         <div className="mb-4">

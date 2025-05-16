@@ -21,13 +21,12 @@ import { psalmsData } from "./data/PsHymn.ts";
 import KompletSelector from "./selectors/KompletSelector.js";
 import HymnSelector from "./selectors/HymnSelector.js";
 import {
-  formatPsalm,
-  formatText,
-  formatPrayerText as extFormatPrayerText,
+  formatPsalm, formatText, formatPrayerText as extFormatPrayerText,
 } from "./comp_TextFormatter.js";
 import NavigationButtons from "./comp_NavigationButtons.js";
 import PersonalSettings from "./PersonalSettings.js";
 import TitleBar from "./comp_TitleBar.js";
+import { getLocalStorage, setLocalStorage } from './utils/localStorage.js';
 
 const fontFamily = "Cambria, serif";
 const hangingIndent = "3.2em"; // Variable für den Einzug
@@ -78,7 +77,7 @@ const useTouchZoom = (
 ) => {
   // Initialisierung mit gespeichertem Wert aus localStorage
   const getInitialFontSize = () => {
-    const savedSize = localStorage.getItem("baseFontSize");
+    const savedSize = getLocalStorage("baseFontSize");
     return savedSize ? parseFloat(savedSize) : initialFontSize;
   };
 
@@ -88,7 +87,7 @@ const useTouchZoom = (
 
   // Speichern der Schriftgröße im localStorage bei Änderungen
   useEffect(() => {
-    localStorage.setItem("baseFontSize", currentFontSize.toString());
+    setLocalStorage("baseFontSize", currentFontSize.toString());
   }, [currentFontSize]);
 
   const getTouchDistance = useCallback((touches) => {
@@ -1431,7 +1430,7 @@ const PrayerTextDisplay = ({
     closing = ["", ""];
   }
   if (hour === 'lesehore') {
-    closing[2] = "Wenn Laudes oder Vesper unmittelbar angeschlossen werden, entfallen hier Oration und Abschluss; dann folgt jetzt der Hymnus der anschließenden Hore.";
+    closing[2] = "Wenn eine andere Hore unmittelbar angeschlossen wird, entfallen hier Oration und Abschluss; dann folgt jetzt der Hymnus der anschließenden Hore.";
   }
 
   return (
@@ -1526,13 +1525,10 @@ const PrayerTextDisplay = ({
             {hour === "invitatorium" &&
               texts?.invitatorium?.psalms?.includes(localPrefInv) && (
                 <div className="mb-4">
-                  {formatPsalm(
-                    localPrefInv, // number
-                    "",
-                    "",
-                    "", // verses, title, quote
-                    psalmsData[localPrefInv][0].text // text
-                  )}
+                  {formatPsalm({
+                    number: localPrefInv,
+                    text: psalmsData[localPrefInv][0].text
+                  })}
                 </div>
               )}
             {hour !== "invitatorium" &&
@@ -1549,13 +1545,7 @@ const PrayerTextDisplay = ({
                       </div>
                     )}
                     {psalm &&
-                      formatPsalm(
-                        psalm.number,
-                        psalm.verses,
-                        psalm.title,
-                        psalm.quote,
-                        psalm.text
-                      )}
+                      formatPsalm(psalm)}
                     {ant && (
                       <div className="mb-6">
                         {formatPrayerText(ant, `Ant.°°`)}
@@ -1714,9 +1704,7 @@ const PrayerTextDisplay = ({
             )}
             {getValue("ev") && (
               <div className="mb-4">
-                {localPrefLatin
-                  ? formatPrayerText(getValue("ev_lat").text)
-                  : formatPsalm(0, "", "", "", getValue("ev").text)}
+                {formatPrayerText(getValue(localPrefLatin ? "ev_lat" : "ev").text)}
               </div>
             )}
             {getValue("ant_ev") && (
