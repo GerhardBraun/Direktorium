@@ -220,36 +220,6 @@ const PersonalSettings = () => {
                 </div>
             </div>
 
-            {/* Übersetzung Section */}
-            <div className="px-3 py-0">
-                <div className="grid gap-2 items-center" style={{ gridTemplateColumns: '6rem 1fr 1fr 1fr' }}>
-                    <div className="text-sm text-gray-500 dark:text-gray-400">
-                        Übersetzung
-                    </div>
-                    <button
-                        onClick={() => setPrefLanguage('')}
-                        className={`px-3 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded
-                ${prefLanguage === '' ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
-                    >
-                        Stunden&shy;buch
-                    </button>
-                    <button
-                        onClick={() => setPrefLanguage('_lat')}
-                        className={`px-3 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded
-                ${prefLanguage === '_lat' ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
-                    >
-                        Latein
-                    </button>
-                    <button
-                        onClick={() => setPrefLanguage('_neu')}
-                        className={`px-3 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded
-                ${prefLanguage === '_neu' ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
-                    >
-                        neue EÜ
-                    </button>
-                </div>
-            </div>
-
             {/* Names Section */}
             <div className="px-3">
                 <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">

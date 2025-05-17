@@ -21,7 +21,7 @@ import { psalmsData } from "./data/PsHymn.ts";
 import KompletSelector from "./selectors/KompletSelector.js";
 import HymnSelector from "./selectors/HymnSelector.js";
 import {
-  formatPsalm, formatText, formatPrayerText as extFormatPrayerText,
+  formatPsalm as extFormatPsalm, formatText, formatPrayerText as extFormatPrayerText,
 } from "./comp_TextFormatter.js";
 import NavigationButtons from "./comp_NavigationButtons.js";
 import PersonalSettings from "./PersonalSettings.js";
@@ -1249,6 +1249,7 @@ const PrayerTextDisplay = ({
   setPrefSollemnity,
   useCommemoration,
   setUseCommemoration,
+  localPrefLanguage,
   onSelectHour,
   onPrevDay,
   onNextDay,
@@ -1325,7 +1326,11 @@ const PrayerTextDisplay = ({
   );
 
   const formatPrayerText = (provText, marker = "") => {
-    return extFormatPrayerText(provText, marker, hour, texts, prefSrc);
+    return extFormatPrayerText(provText, marker, hour, texts, prefSrc, localPrefLanguage);
+  };
+
+  const formatPsalm = (psalm) => {
+    return extFormatPsalm(psalm, localPrefLanguage);
   };
 
   const PrayerResponse = ({ resp1_3, resp1_2 }) => {
@@ -1954,6 +1959,7 @@ export default function LiturgicalCalendar() {
   const [prayerTexts, setPrayerTexts] = useState(null);
   const [expandedDeceased, setExpandedDeceased] = useState({});
   const [deceasedMode, setDeceasedMode] = useState("recent");
+  const [localPrefLanguage, setLocalPrefLanguage] = useState(() => getLocalStorage("prefLanguage") || "");
   const [baseFontSize, setBaseFontSize] = useTouchZoom(
     14,
     8,
@@ -2439,7 +2445,10 @@ export default function LiturgicalCalendar() {
   const ThemeMenu = () => {
     const [tempFontSize, setTempFontSize] = useState(baseFontSize);
     const menuRef = useRef(null);
-    const sections = ["fontSize", "theme", "deceased", "view"];
+    const longPressTimeoutRef = useRef(null);
+    const [isLongPressing, setIsLongPressing] = useState(false);
+    const sections = ["fontSize", "theme", "language", "deceased", "view"];
+    const storedPrefLanguage = getLocalStorage("prefLanguage") || "";
 
     const toggleMenu = () => {
       setIsMenuOpen((prev) => !prev);
@@ -2456,6 +2465,28 @@ export default function LiturgicalCalendar() {
       setViewMode((prev) => (prev === "directory" ? "deceased" : "directory"));
     };
 
+    // Funktion für langes Drücken
+    const handleLanguageLongPress = (value) => {
+      setIsLongPressing(true);
+      longPressTimeoutRef.current = setTimeout(() => {
+        // Speichere die Grundeinstellung im LocalStorage
+        setLocalStorage("prefLanguage", value);
+        // Aktualisiere auch die lokale Einstellung
+        setLocalPrefLanguage(value);
+        // Zeige kurze Feedbackanimation oder Nachricht
+        // alert("Grundeinstellung gespeichert");
+        setIsLongPressing(false);
+      }, 800); // 800ms für langes Drücken
+    };
+
+    const clearLongPressTimeout = () => {
+      if (longPressTimeoutRef.current) {
+        clearTimeout(longPressTimeoutRef.current);
+        longPressTimeoutRef.current = null;
+      }
+      setIsLongPressing(false);
+    };
+
     // Modified to prevent menu closing
     const handleOptionChange = (e, isRight) => {
       e.preventDefault();
@@ -2467,6 +2498,9 @@ export default function LiturgicalCalendar() {
           break;
         case "theme":
           handleThemeChange(isRight);
+          break;
+        case "language":
+          handleLanguageChange(isRight);
           break;
         case "deceased":
           handleDeceasedModeChange(isRight);
@@ -2492,6 +2526,21 @@ export default function LiturgicalCalendar() {
       setTheme((prev) => {
         const newTheme = prev === "light" ? "dark" : "light";
         return newTheme;
+      });
+    };
+
+    const handleLanguageChange = (isRight) => {
+      // Zykluswechsel zwischen "", "_lat" und "_neu"
+      setLocalPrefLanguage(prev => {
+        if (isRight) {
+          if (prev === "") return "_lat";
+          if (prev === "_lat") return "_neu";
+          return "";
+        } else {
+          if (prev === "") return "_neu";
+          if (prev === "_neu") return "_lat";
+          return "";
+        }
       });
     };
 
@@ -2562,6 +2611,25 @@ export default function LiturgicalCalendar() {
       toggleMenu,
     ]);
 
+    // Cleanup longpress timeout bei Unmount
+    useEffect(() => {
+      return () => {
+        if (longPressTimeoutRef.current) {
+          clearTimeout(longPressTimeoutRef.current);
+        }
+      };
+    }, []);
+
+    // Hilfsfunktion zur Anzeige des Sprachnamens
+    const getLanguageName = (code) => {
+      switch (code) {
+        case "": return "Stundenbuch";
+        case "_lat": return "Latein";
+        case "_neu": return "neue EÜ";
+        default: return "Unbekannt";
+      }
+    };
+
     return (
       <div className="relative" ref={menuRef}>
         <button
@@ -2573,7 +2641,7 @@ export default function LiturgicalCalendar() {
         </button>
 
         {isMenuOpen && (
-          <div className="fixed sm:absolute left-0 sm:left-auto right-0 sm:right-auto top-16 sm:top-auto sm:mt-2 mx-4 sm:mx-0 w-60 bg-white dark:bg-gray-700 rounded-lg shadow-lg border dark:border-gray-600 z-50">
+          <div className="fixed sm:absolute left-0 sm:left-auto right-0 sm:right-auto top-16 sm:top-auto sm:mt-2 mx-4 sm:mx-0 w-80 bg-white dark:bg-gray-700 rounded-lg shadow-lg border dark:border-gray-600 z-50">
             {/* Font Size Section */}
             <div
               className={`px-3 py-2 cursor-pointer ${activeSection === "fontSize"
@@ -2655,6 +2723,93 @@ export default function LiturgicalCalendar() {
 
             <div className="border-t dark:border-gray-700"></div>
 
+            {/* Sprache Section */}
+            <div
+              className={`px-3 py-2 cursor-pointer ${activeSection === "language" ? "bg-gray-100 dark:bg-gray-600" : ""
+                }`}
+              onClick={() => handleSectionChange(sections.indexOf("language"))}
+            >
+              <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-0">
+                Sprache/Übersetzung <span className="text-xs text-gray-400 ml-2">(←/→)</span>
+              </div>
+              <div className="mb-2 text-xs text-gray-500 dark:text-gray-400">
+                <p><span className="text-gray-700 dark:text-gray-300">Stundenbuch: </span>Einheitsübersetzung von 1983</p>
+                <p><span className="text-gray-700 dark:text-gray-300">lat.:</span>&nbsp;&nbsp;&nbsp;&nbsp;Nova Vulgata</p>
+                <p><span className="text-gray-700 dark:text-gray-300">neu:&nbsp;&nbsp;&nbsp;</span>Einheitsübersetzung von 2016</p>
+              </div>
+              <div className="flex gap-0">
+                <button
+                  onMouseDown={() => handleLanguageLongPress("")}
+                  onMouseUp={clearLongPressTimeout}
+                  onMouseLeave={clearLongPressTimeout}
+                  onTouchStart={() => handleLanguageLongPress("")}
+                  onTouchEnd={clearLongPressTimeout}
+                  onTouchCancel={clearLongPressTimeout}
+                  onClick={(e) => {
+                    if (!isLongPressing) {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      setLocalPrefLanguage("");
+                    }
+                  }}
+                  className={`flex-3 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${localPrefLanguage === ""
+                    ? "bg-orange-100 dark:bg-yellow-400/60"
+                    : ""
+                    }`}
+                >
+                  Stundenbuch
+                </button>
+                <button
+                  onMouseDown={() => handleLanguageLongPress("_lat")}
+                  onMouseUp={clearLongPressTimeout}
+                  onMouseLeave={clearLongPressTimeout}
+                  onTouchStart={() => handleLanguageLongPress("_lat")}
+                  onTouchEnd={clearLongPressTimeout}
+                  onTouchCancel={clearLongPressTimeout}
+                  onClick={(e) => {
+                    if (!isLongPressing) {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      setLocalPrefLanguage("_lat");
+                    }
+                  }}
+                  className={`flex-1 px-1 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${localPrefLanguage === "_lat"
+                    ? "bg-orange-100 dark:bg-yellow-400/60"
+                    : ""
+                    }`}
+                >
+                  lat.
+                </button>
+                <button
+                  onMouseDown={() => handleLanguageLongPress("_neu")}
+                  onMouseUp={clearLongPressTimeout}
+                  onMouseLeave={clearLongPressTimeout}
+                  onTouchStart={() => handleLanguageLongPress("_neu")}
+                  onTouchEnd={clearLongPressTimeout}
+                  onTouchCancel={clearLongPressTimeout}
+                  onClick={(e) => {
+                    if (!isLongPressing) {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      setLocalPrefLanguage("_neu");
+                    }
+                  }}
+                  className={`flex-1 px-1 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${localPrefLanguage === "_neu"
+                    ? "bg-orange-100 dark:bg-yellow-400/60"
+                    : ""
+                    }`}
+                >
+                  neu
+                </button>
+              </div>
+              <div className="mt-2 text-xs text-gray-500 dark:text-gray-400">
+                <p><b>Grundeinstellung:</b> {getLanguageName(storedPrefLanguage)}</p>
+                <p className="text-xs italic">Lange drücken zum Speichern</p>
+              </div>
+            </div>
+
+            <div className="border-t dark:border-gray-700"></div>
+
             {/* Deceased Section */}
             <div
               className={`px-3 py-2 cursor-pointer ${activeSection === "deceased"
@@ -2699,11 +2854,11 @@ export default function LiturgicalCalendar() {
               </div>
               <div className="mt-2 text-xs text-gray-500 dark:text-gray-400">
                 <p>
-                  <b>kurz:</b> Verstorbene der letzten 30 Jahre
+                  <span className="text-gray-700 dark:text-gray-300">kurz:</span> Verstorbene der letzten 30 Jahre
                   (wie&nbsp;im&nbsp;gedruckten&nbsp;Direktorium)
                 </p>
                 <p>
-                  <b>voll:</b> alle Verstorbene seit 1920
+                  <span className="text-gray-700 dark:text-gray-300">voll:</span> alle Verstorbene seit 1920
                 </p>
               </div>
             </div>
@@ -3008,6 +3163,7 @@ export default function LiturgicalCalendar() {
               setPrefSollemnity={setPrefSollemnity}
               useCommemoration={useCommemoration}
               setUseCommemoration={setUseCommemoration}
+              localPrefLanguage={localPrefLanguage}
               onBack={() => setViewMode("prayer")}
               onSelectHour={(hour) => {
                 setSelectedHour(hour);
