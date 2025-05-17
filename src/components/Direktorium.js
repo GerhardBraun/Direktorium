@@ -2631,7 +2631,7 @@ export default function LiturgicalCalendar() {
     };
 
     // Hilfsfunktion für die Sprachauswahl-Buttons
-    const LanguageButton = ({ value, label, className = "flex-1" }) => {
+    const LanguageButton = (value, label, className = "flex-1") => {
       return (
         <button
           onMouseDown={() => handleLanguageLongPress(value)}
@@ -2763,7 +2763,7 @@ export default function LiturgicalCalendar() {
                 <p><span className="text-gray-700 dark:text-gray-300">neu:&nbsp;&nbsp;&nbsp;</span>Einheitsübersetzung von 2016</p>
               </div>
               <div className="flex gap-0">
-                <LanguageButton value="" label="Stundenbuch" className="flex-3" />
+                {LanguageButton("", "Stundenbuch", "flex-3")}
                 <button
                   onMouseDown={() => handleLanguageLongPress("_lat")}
                   onMouseUp={clearLongPressTimeout}
