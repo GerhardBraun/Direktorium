@@ -2630,6 +2630,31 @@ export default function LiturgicalCalendar() {
       }
     };
 
+    // Hilfsfunktion für die Sprachauswahl-Buttons
+    const LanguageButton = ({ value, label, className = "flex-1" }) => {
+      return (
+        <button
+          onMouseDown={() => handleLanguageLongPress(value)}
+          onMouseUp={clearLongPressTimeout}
+          onMouseLeave={clearLongPressTimeout}
+          onTouchStart={() => handleLanguageLongPress(value)}
+          onTouchEnd={clearLongPressTimeout}
+          onTouchCancel={clearLongPressTimeout}
+          onClick={(e) => {
+            if (!isLongPressing) {
+              e.preventDefault();
+              e.stopPropagation();
+              setLocalPrefLanguage(value);
+            }
+          }}
+          className={`${className} px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${localPrefLanguage === value ? "bg-orange-100 dark:bg-yellow-400/60" : ""
+            }`}
+        >
+          {label}
+        </button>
+      );
+    };
+
     return (
       <div className="relative" ref={menuRef}>
         <button
@@ -2737,70 +2762,11 @@ export default function LiturgicalCalendar() {
                 <p><span className="text-gray-700 dark:text-gray-300">lat.:</span>&nbsp;&nbsp;&nbsp;&nbsp;Nova Vulgata</p>
                 <p><span className="text-gray-700 dark:text-gray-300">neu:&nbsp;&nbsp;&nbsp;</span>Einheitsübersetzung von 2016</p>
               </div>
+
               <div className="flex gap-0">
-                <button
-                  onMouseDown={() => handleLanguageLongPress("")}
-                  onMouseUp={clearLongPressTimeout}
-                  onMouseLeave={clearLongPressTimeout}
-                  onTouchStart={() => handleLanguageLongPress("")}
-                  onTouchEnd={clearLongPressTimeout}
-                  onTouchCancel={clearLongPressTimeout}
-                  onClick={(e) => {
-                    if (!isLongPressing) {
-                      e.preventDefault();
-                      e.stopPropagation();
-                      setLocalPrefLanguage("");
-                    }
-                  }}
-                  className={`flex-3 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${localPrefLanguage === ""
-                    ? "bg-orange-100 dark:bg-yellow-400/60"
-                    : ""
-                    }`}
-                >
-                  Stundenbuch
-                </button>
-                <button
-                  onMouseDown={() => handleLanguageLongPress("_lat")}
-                  onMouseUp={clearLongPressTimeout}
-                  onMouseLeave={clearLongPressTimeout}
-                  onTouchStart={() => handleLanguageLongPress("_lat")}
-                  onTouchEnd={clearLongPressTimeout}
-                  onTouchCancel={clearLongPressTimeout}
-                  onClick={(e) => {
-                    if (!isLongPressing) {
-                      e.preventDefault();
-                      e.stopPropagation();
-                      setLocalPrefLanguage("_lat");
-                    }
-                  }}
-                  className={`flex-1 px-1 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${localPrefLanguage === "_lat"
-                    ? "bg-orange-100 dark:bg-yellow-400/60"
-                    : ""
-                    }`}
-                >
-                  lat.
-                </button>
-                <button
-                  onMouseDown={() => handleLanguageLongPress("_neu")}
-                  onMouseUp={clearLongPressTimeout}
-                  onMouseLeave={clearLongPressTimeout}
-                  onTouchStart={() => handleLanguageLongPress("_neu")}
-                  onTouchEnd={clearLongPressTimeout}
-                  onTouchCancel={clearLongPressTimeout}
-                  onClick={(e) => {
-                    if (!isLongPressing) {
-                      e.preventDefault();
-                      e.stopPropagation();
-                      setLocalPrefLanguage("_neu");
-                    }
-                  }}
-                  className={`flex-1 px-1 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${localPrefLanguage === "_neu"
-                    ? "bg-orange-100 dark:bg-yellow-400/60"
-                    : ""
-                    }`}
-                >
-                  neu
-                </button>
+                <LanguageButton value="" label="Stundenbuch" className="flex-3" />
+                <LanguageButton value="_lat" label="lat." />
+                <LanguageButton value="_neu" label="neu" />
               </div>
               <div className="mt-2 text-xs text-gray-500 dark:text-gray-400">
                 <p><b>Grundeinstellung:</b> {getLanguageName(storedPrefLanguage)}</p>
