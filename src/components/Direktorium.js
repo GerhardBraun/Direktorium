@@ -2777,7 +2777,7 @@ export default function LiturgicalCalendar() {
                       setLocalPrefLanguage("");
                     }
                   }}
-                  className={`flex-3 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${localPrefLanguage === ""
+                  className={`flex-3 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded select-none touch-none ${localPrefLanguage === ""
                     ? "bg-orange-100 dark:bg-yellow-400/60"
                     : ""
                     }`}
@@ -2798,7 +2798,7 @@ export default function LiturgicalCalendar() {
                       setLocalPrefLanguage("_lat");
                     }
                   }}
-                  className={`flex-1 px-1 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${localPrefLanguage === "_lat"
+                  className={`flex-1 px-1 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded select-none touch-none ${localPrefLanguage === "_lat"
                     ? "bg-orange-100 dark:bg-yellow-400/60"
                     : ""
                     }`}
@@ -2819,7 +2819,7 @@ export default function LiturgicalCalendar() {
                       setLocalPrefLanguage("_neu");
                     }
                   }}
-                  className={`flex-1 px-1 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${localPrefLanguage === "_neu"
+                  className={`flex-1 px-1 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded select-none touch-none ${localPrefLanguage === "_neu"
                     ? "bg-orange-100 dark:bg-yellow-400/60"
                     : ""
                     }`}
