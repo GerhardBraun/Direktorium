@@ -2647,7 +2647,7 @@ export default function LiturgicalCalendar() {
               setLocalPrefLanguage(value);
             }
           }}
-          className={`${className} px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${localPrefLanguage === value ? "bg-orange-100 dark:bg-yellow-400/60" : ""
+          className={`${className} px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded select-none touch-none ${localPrefLanguage === value ? "bg-orange-100 dark:bg-yellow-400/60" : ""
             }`}
         >
           {label}
@@ -2763,27 +2763,7 @@ export default function LiturgicalCalendar() {
                 <p><span className="text-gray-700 dark:text-gray-300">neu:&nbsp;&nbsp;&nbsp;</span>Einheitsübersetzung von 2016</p>
               </div>
               <div className="flex gap-0">
-                <button
-                  onMouseDown={() => handleLanguageLongPress("")}
-                  onMouseUp={clearLongPressTimeout}
-                  onMouseLeave={clearLongPressTimeout}
-                  onTouchStart={() => handleLanguageLongPress("")}
-                  onTouchEnd={clearLongPressTimeout}
-                  onTouchCancel={clearLongPressTimeout}
-                  onClick={(e) => {
-                    if (!isLongPressing) {
-                      e.preventDefault();
-                      e.stopPropagation();
-                      setLocalPrefLanguage("");
-                    }
-                  }}
-                  className={`flex-3 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded select-none touch-none ${localPrefLanguage === ""
-                    ? "bg-orange-100 dark:bg-yellow-400/60"
-                    : ""
-                    }`}
-                >
-                  Stundenbuch
-                </button>
+                <LanguageButton value="" label="Stundenbuch" className="flex-3" />
                 <button
                   onMouseDown={() => handleLanguageLongPress("_lat")}
                   onMouseUp={clearLongPressTimeout}
