@@ -4,6 +4,8 @@ import useWakeLock from "./comp_WakeLock.js";
 import React from "react";
 import { liturgicalData } from "./data/Direktorium.ts";
 import { deceasedData } from "./data/Deceased.ts";
+import { psalmsData } from "./data/PsHymn.ts";
+import { ordinariumData } from "./data/Ordinarium.ts";
 import { ReferenceDialog, parseTextWithReferences } from "./comp_RefLink.jsx";
 import { getLiturgicalInfo } from "./comp_LitCalendar.js";
 import { processBrevierData } from "./comp_BrevierDataProcessor.js";
@@ -17,9 +19,9 @@ import {
 import SourceSelector from "./selectors/SourceSelector.js";
 import { getValue as extGetValue } from "./comp_GetValue.js";
 import { SectionHeader as extSectionHeader } from "./selectors/SectionHeader.js";
-import { psalmsData } from "./data/PsHymn.ts";
 import KompletSelector from "./selectors/KompletSelector.js";
 import HymnSelector from "./selectors/HymnSelector.js";
+import MarAntSelector from "./selectors/MarAntSelector.js";
 import {
   formatPsalm as extFormatPsalm, formatText, formatPrayerText as extFormatPrayerText,
 } from "./comp_TextFormatter.js";
@@ -1362,17 +1364,11 @@ const PrayerTextDisplay = ({
     );
   };
 
-  const getCanticleTitle = (hour) => {
-    switch (hour) {
-      case "laudes":
-        return "BENEDICTUS";
-      case "komplet":
-        return "NUNC DIMITTIS";
-      case "vesper":
-      default:
-        return "MAGNIFICAT";
-    }
-  };
+  const language = (localPrefLatin || localPrefLanguage === "lat") ? "lat" : "dt";
+  let ordinarium = ordinariumData?.[hour]?.[language] || ''
+  if (hour === 'lesehore'
+    && ((texts.rank_wt > 2 && season !== 'p') || texts.rank_date > 2)
+  ) { ordinarium = ordinariumData?.TeDeum?.[language] }
 
   let opening = [
     "O Gott, komm mir zu Hilfe.",
@@ -1688,10 +1684,10 @@ const PrayerTextDisplay = ({
           </div>
         )}
 
-        {getValue("ev") && (
+        {ordinarium.cant && (
           <div className="mb-0">
             <SectionHeader
-              title={getCanticleTitle(hour)}
+              title={ordinarium.titel}
               field="ant_ev"
               askLatin={true}
             />
@@ -1700,14 +1696,9 @@ const PrayerTextDisplay = ({
                 {formatPrayerText(getValue("ant_ev"), "Ant.°°")}
               </div>
             )}
-            {getValue("ev") && (
-              <div className="mb-4">
-                {formatPrayerText(
-                  (localPrefLatin || localPrefLanguage === "_lat")
-                    ? getValue("ev").text_lat
-                    : getValue("ev").text)}
-              </div>
-            )}
+            <div className="mb-4">
+              {formatPrayerText(ordinarium.cant)}
+            </div>
             {getValue("ant_ev") && (
               <div className="mb-0">
                 {formatPrayerText(getValue("ant_ev"), "Ant.°°")}
@@ -1740,7 +1731,7 @@ const PrayerTextDisplay = ({
           </div>
         )}
 
-        {getValue("vu") && (
+        {ordinarium.vu && (
           <div className="mb-0">
             <SectionHeader
               title={hour === "lesehore" ? "TE DEUM" : "VATERUNSER"}
@@ -1749,10 +1740,7 @@ const PrayerTextDisplay = ({
             />
             {getValue("vu") && (
               <div className="mb-4 whitespace-pre-wrap">
-                {formatPrayerText(
-                  (localPrefLatin || localPrefLanguage === "_lat")
-                    ? getValue("vu").text_lat
-                    : getValue("vu").text)}
+                {formatPrayerText(ordinarium.vu)}
               </div>
             )}
           </div>
@@ -1795,21 +1783,19 @@ const PrayerTextDisplay = ({
           </div>
         )}
 
-        {getValue("marant") && (
+        {(hour === 'komplet') && (
           <div className="mb-0">
             <SectionHeader
               title={"MARIANISCHE ANTIPHON"}
               field="marant"
               askLatin={true}
             />
-            {getValue("marant") && (
-              <div className="mb-4">
-                {formatPrayerText(
-                  (localPrefLatin || localPrefLanguage === "_lat")
-                    ? getValue("marant").text_lat
-                    : getValue("marant").text)}
-              </div>
-            )}
+            <MarAntSelector
+              season={season}
+              localPrefLatin={localPrefLatin}
+              formatPrayerText={formatPrayerText}
+            />
+
           </div>
         )}
       </div>
@@ -1888,7 +1874,7 @@ const PrayerTextDisplay = ({
               {getValue("c_ant_ev") && useCommemoration && (
                 <div className="mb-0">
                   <SectionHeader
-                    title={`${getCanticleTitle(hour)}-ANTIPHON`}
+                    title={`${ordinarium.titel}-ANTIPHON`}
                     field="ant_ev"
                   />
                   <div className="mb-4">
