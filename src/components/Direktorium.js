@@ -1252,12 +1252,13 @@ const PrayerTextDisplay = ({
   useCommemoration,
   setUseCommemoration,
   localPrefLanguage,
+  localPrefLatin,
+  setLocalPrefLatin,
   onSelectHour,
   onPrevDay,
   onNextDay,
 }) => {
   const [localPrefComm, setLocalPrefComm] = useState(texts?.prefComm || 0);
-  const [localPrefLatin, setLocalPrefLatin] = useState(false);
   const [localPrefContinuous, setLocalPrefContinuous] = useState(false);
   const [localPrefPsalmsWt, setLocalPrefPsalmsWt] = useState(false);
   const [localPrefErgPs, setLocalPrefErgPs] = useState(false);
@@ -1364,17 +1365,34 @@ const PrayerTextDisplay = ({
     );
   };
 
-  const language = (localPrefLatin || localPrefLanguage === "lat") ? "lat" : "dt";
+  const language = localPrefLatin ? "lat" : "dt";
   let ordinarium = ordinariumData?.[hour]?.[language] || ''
-  if (hour === 'lesehore'
-    && ((texts.rank_wt > 2 && season !== 'p') || texts.rank_date > 2)
-  ) { ordinarium = ordinariumData?.TeDeum?.[language] }
+  if (
+    hour === 'lesehore' &&
+    ((texts.rank_wt > 2 && season !== 'p') || texts.rank_date > 2)
+  ) {
+    ordinarium = ordinariumData?.TeDeum?.[language]
+  }
 
-  let opening = [
+  let opening = localPrefLatin ? [
+    "Deus, in adiutórium meum inténde.",
+    "Dómine, ad adiuvándum me festína.",
+    "Glória Patri et Fílio et Spirítui Sancto.",
+    "Sicut erat in princípio, et nunc et semper, et°in°sǽcula°sæculórum.°Amen.^Ö"
+  ] : [
     "O Gott, komm mir zu Hilfe.",
     "Herr, eile, mir zu helfen.",
     "Ehre sei dem Vater und dem Sohn und°dem°Heiligen°Geist.",
     "Wie im Anfang, so auch jetzt und°alle°Zeit und°in°Ewigkeit.°Amen.^Ö"
+  ];
+  const opening_inv = localPrefLatin ? [
+    "Dómine, lábia mea apéries.",
+    "Et os meum annuntiábit laudem tuam.",
+    "", ""
+  ] : [
+    "Herr, öffne meine Lippen.",
+    "Damit mein Mund dein Lob verkünde.",
+    "", ""
   ];
 
   const todayVisit = () => new Date().toISOString().split("T")[0]; // Format YYYY-MM-DD
@@ -1382,21 +1400,13 @@ const PrayerTextDisplay = ({
 
   if (hour === 'invitatorium') {
     setLocalStorage("openMyLips", todayVisit())
-    opening = [
-      "Herr, öffne meine Lippen.",
-      "Damit mein Mund dein Lob verkünde.",
-      "", ""
-    ];
+    opening = opening_inv;
   }
   if (['lesehore', 'laudes'].includes(hour)
     && openMyLips() !== todayVisit()) {
     if (!openMyLips().startsWith('l') || openMyLips() === hour) {
       setLocalStorage("openMyLips", hour)
-      opening = [
-        "Herr, öffne meine Lippen.",
-        "Damit mein Mund dein Lob verkünde.",
-        "", ""
-      ];
+      opening = opening_inv;
     } else {
       setLocalStorage("openMyLips", todayVisit())
     }
@@ -1406,17 +1416,26 @@ const PrayerTextDisplay = ({
     opening = ["", "", "", ""];
   }
 
-  let closing = [
+  let closing = localPrefLatin ? [
+    "Benedicámus Dómino.",
+    "Deo grátias."
+  ] : [
     "Singet Lob und Preis.",
     "Dank sei Gott, dem Herrn."
   ];
   if (['laudes', 'vesper'].includes(hour)) {
-    closing = [
+    closing = localPrefLatin ? [
+      "Dóminus nos benedícat, et°ab°omni°malo°deféndat, et°ad°vitam°perdúcat°ætérnam.",
+      "Amen."
+    ] : [
       "Der Herr segne uns, er°bewahre°uns°vor°Unheil und°führe°uns°zum°ewigen°Leben.",
       "Amen."
     ];
   } else if (hour === 'komplet') {
-    closing = [
+    closing = localPrefLatin ? [
+      "Noctem quiétam et finem perféctum concédat°Dóminus°omnípotens.",
+      "Amen."
+    ] : [
       "Eine ruhige Nacht und ein gutes Ende gewähre°uns°der°allmächtige°Herr.",
       "Amen."
     ];
@@ -1622,7 +1641,7 @@ const PrayerTextDisplay = ({
                   {formatPrayerText(getValue("resp1_1"))}
                   <Rubric> *&nbsp;</Rubric>
                   {formatPrayerText(getValue("resp1_2"))}
-                  {hour !== "lesehore" && <Rubric> –&#8204;&nbsp;R</Rubric>}
+                  {hour !== "lesehore" && <Rubric> –&#8288;&#160;R</Rubric>}
                 </div>
               </div>
             )}
@@ -1635,7 +1654,7 @@ const PrayerTextDisplay = ({
                 {hour !== "lesehore" && (
                   <div>
                     Ehre sei dem Vater und&nbsp;dem&nbsp;Sohn und&nbsp;dem&nbsp;Heiligen&nbsp;Geist.
-                    <Rubric> –&#8204;&nbsp;R</Rubric>
+                    <Rubric> –&#8288;&#160;R</Rubric>
                   </div>
                 )}
               </>
@@ -1671,7 +1690,7 @@ const PrayerTextDisplay = ({
                   {formatPrayerText(getValue("patr_resp1"))}
                   <Rubric> *&nbsp;</Rubric>
                   {formatPrayerText(getValue("patr_resp2"))}
-                  {hour !== "lesehore" && <Rubric> –&#8204;&nbsp;R</Rubric>}
+                  {hour !== "lesehore" && <Rubric> –&#8288;&#160;R</Rubric>}
                 </div>
               </div>
             )}
@@ -1949,6 +1968,10 @@ export default function LiturgicalCalendar() {
   const [expandedDeceased, setExpandedDeceased] = useState({});
   const [deceasedMode, setDeceasedMode] = useState("recent");
   const [localPrefLanguage, setLocalPrefLanguage] = useState(() => getLocalStorage("prefLanguage") || "");
+  const [localPrefLatin, setLocalPrefLatin] = useState(() => {
+    const savedPrefLanguage = getLocalStorage("prefLanguage") || "";
+    return savedPrefLanguage === "_lat";
+  });
   const [baseFontSize, setBaseFontSize] = useTouchZoom(
     14,
     8,
@@ -2462,8 +2485,7 @@ export default function LiturgicalCalendar() {
         setLocalStorage("prefLanguage", value);
         // Aktualisiere auch die lokale Einstellung
         setLocalPrefLanguage(value);
-        // Zeige kurze Feedbackanimation oder Nachricht
-        // alert("Grundeinstellung gespeichert");
+        setLocalPrefLatin(value === '_lat');
         setIsLongPressing(false);
       }, 800); // 800ms für langes Drücken
     };
@@ -2521,15 +2543,13 @@ export default function LiturgicalCalendar() {
     const handleLanguageChange = (isRight) => {
       // Zykluswechsel zwischen "", "_lat" und "_neu"
       setLocalPrefLanguage(prev => {
-        if (isRight) {
-          if (prev === "") return "_lat";
-          if (prev === "_lat") return "_neu";
-          return "";
-        } else {
-          if (prev === "") return "_neu";
-          if (prev === "_neu") return "_lat";
-          return "";
-        }
+        const newValue = isRight
+          ? (prev === "" ? "_lat" : prev === "_lat" ? "_neu" : "")
+          : (prev === "" ? "_neu" : prev === "_neu" ? "_lat" : "");
+
+        setLocalPrefLatin(newValue === "_lat");
+
+        return newValue;
       });
     };
 
@@ -2634,6 +2654,7 @@ export default function LiturgicalCalendar() {
               e.preventDefault();
               e.stopPropagation();
               setLocalPrefLanguage(value);
+              setLocalPrefLatin(value === "_lat");
             }
           }}
           className={`${className} px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded select-none touch-none ${localPrefLanguage === value ? "bg-orange-100 dark:bg-yellow-400/60" : ""
@@ -3121,6 +3142,8 @@ export default function LiturgicalCalendar() {
               useCommemoration={useCommemoration}
               setUseCommemoration={setUseCommemoration}
               localPrefLanguage={localPrefLanguage}
+              localPrefLatin={localPrefLatin}
+              setLocalPrefLatin={setLocalPrefLatin}
               onBack={() => setViewMode("prayer")}
               onSelectHour={(hour) => {
                 setSelectedHour(hour);

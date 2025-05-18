@@ -77,6 +77,8 @@ export const formatPrayerText = (provText, marker = '',
     const easterAntiphon = localPrefLanguage === "_lat"
         ? "^p^rLoco responsorii dicitur:^0r^lHæc est dies quam fecit Dóminus: exsultémus\u00a0et\u00a0lætémur\u00a0in\u00a0ea.\u00a0Allelúia."
         : "^p^rAnstelle des Responsoriums wird die\u00a0folgende\u00a0Antiphon\u00a0genommen:^0r^lDas ist der Tag, den der Herr gemacht hat. Lasst\u00a0uns\u00a0jubeln und seiner uns freuen. Halleluja.";
+    const replHalleluja = localPrefLanguage === "_lat"
+        ? " Allelúia." : " Halleluja."
 
     // Wenn marker='oration' und isCommemoration=true, dann leere orSchluss-Elemente
     const orSchluss = ['lesehore', 'laudes', 'vesper'].includes(hour)
@@ -87,22 +89,39 @@ export const formatPrayerText = (provText, marker = '',
                 S: "",
                 R: "",
                 Sgroß: "",
-                Rgroß: ""
+                Rgroß: "",
+                vR_lat: "",
+                V_lat: "",
+                S_lat: "",
+                R_lat: "",
+                Sgroß_lat: "",
+                Rgroß_lat: ""
             } : {
                 vR: " Darum bitten wir durch ihn, Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
                 V: " Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
                 S: ", der du in der Einheit des Heiligen Geistes mit Gott dem Vater lebst und herrschest in alle Ewigkeit.",
                 R: ", der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
                 Sgroß: ". Der du in der Einheit des Heiligen Geistes mit Gott dem Vater lebst und herrschest in alle Ewigkeit.",
-                Rgroß: ". Der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit."
-            }
-        : {
+                Rgroß: ". Der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
+                vR_lat: " Qui técum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum. Amen.",
+                V_lat: " Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum. Amen.",
+                S_lat: ", qui vivis et regnas in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum. Amen.",
+                R_lat: ", qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum. Amen.",
+                Sgroß_lat: ". Qui vivis et regnas in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum. Amen.",
+                Rgroß_lat: ". Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum. Amen.",
+            } : {
             vR: " Darum bitten wir durch ihn, Christus, unseren Herrn.",
             V: " Darum bitten wir durch Christus, unseren Herrn.",
             S: ", der du lebst und herrschest in alle Ewigkeit.",
             R: ", der mit dir lebt und herrscht in alle Ewigkeit.",
             Sgroß: ". Der du lebst und herrschest in alle Ewigkeit.",
-            Rgroß: ". Der mit dir lebt und herrscht in alle Ewigkeit."
+            Rgroß: ". Der mit dir lebt und herrscht in alle Ewigkeit.",
+            vR_lat: " Qui vivit et regnat in sǽcula sæculórum. Amen.",
+            V_lat: " Per Christum Dóminum nostrum. Amen.",
+            S_lat: ", qui vivis et regnas in sǽcula sæculórum. Amen.",
+            R_lat: ", qui vivit et regnat in sǽcula sæculórum. Amen.",
+            Sgroß_lat: ". Qui vivis et regnas in sǽcula sæculórum. Amen.",
+            Rgroß_lat: ". Qui vivit et regnat in sǽcula sæculórum. Amen.",
         }
 
     marker = (marker === 'commemoration') ? '' : marker;
@@ -116,8 +135,8 @@ export const formatPrayerText = (provText, marker = '',
         .replace(/(\w)–/g, '$1\u200C–')
         .replace(/–(\w)/g, '–\u200C$1')
         .replace(/([0-9])-([0-9])/g, '$1\u200C\u2013\u200C$2')
-        .replace(/\^ö/g, season === 'o' ? ' Halleluja.' : '')
-        .replace(/\^Ö/g, season === 'q' ? '' : ' Halleluja.')
+        .replace(/\^ö/g, season === 'o' ? replHalleluja : '')
+        .replace(/\^Ö/g, season === 'q' ? '' : replHalleluja)
         .replace(/\^R/g, (combinedSWD.startsWith('o-1-') || combinedSWD === 'o-2-0') ? easterAntiphon : '')
         .replace(/\^ORvR/g, orSchluss.vR)
         .replace(/\^ORV/g, orSchluss.V)
@@ -125,6 +144,12 @@ export const formatPrayerText = (provText, marker = '',
         .replace(/,\^ORR/g, orSchluss.R)
         .replace(/.\^ORS/g, orSchluss.Sgroß)
         .replace(/.\^ORR/g, orSchluss.Rgroß)
+        .replace(/\^ORlvR/g, orSchluss.vR_lat)
+        .replace(/\^ORlV/g, orSchluss.V_lat)
+        .replace(/,\^ORlS/g, orSchluss.S_lat)
+        .replace(/,\^ORlR/g, orSchluss.R_lat)
+        .replace(/.\^ORlS/g, orSchluss.Sgroß_lat)
+        .replace(/.\^ORlR/g, orSchluss.Rgroß_lat)
         .replace(/\^NP/g, getLocalStorage('popeName') || 'Leo')
         .replace(/\^NB/g, getLocalStorage('bishopName') || '^N')
         .replace(/\^NH/g, '^N');

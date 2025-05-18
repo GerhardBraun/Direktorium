@@ -2187,7 +2187,7 @@ export const brevierData = {
           "les_stelle": "3,10–12",
           "les_text": "Du hast dich an mein Gebot gehalten, standhaft zu bleiben; daher werde auch ich zu dir halten und dich bewahren vor der Stunde der Versuchung, die über die ganze Erde kommen soll, um die Bewohner der Erde auf die Probe zu stellen. Ich komme bald. Halte fest, was du hast, damit kein anderer deinen Kranz bekommt.^pWer siegt, den werde ich zu einer Säule im Tempel meines Gottes machen und er wird immer darin bleiben. Und ich werde auf ihn den Namen meines Gottes schreiben und den Namen der Stadt meines Gottes, des neuen Jerusalem, das aus dem Himmel herabkommt von meinem Gott, und ich werde auf ihn auch meinen neuen Namen schreiben.",
           "resp1_1": "Freut euch im Herrn, ihr Gerechten.",
-          "resp1_2": "Halleluja, halleluja.",
+          "resp1_2": "Halleluja,°halleluja.",
           "resp1_3": "Euch hat der Herr sich zum Erbe erkoren.",
           "ant_ev": "Ewiges Licht leuchtet deinen Heiligen, o Herr: Unsterblichkeit ist ihr Besitz.^Ö"
         },
@@ -2199,7 +2199,7 @@ export const brevierData = {
           "les_stelle": "5,3–5",
           "les_text": "Die Liebe zu Gott besteht darin, dass wir seine Gebote halten. Seine Gebote sind nicht schwer. Denn alles, was von Gott stammt, besiegt die Welt. Und das ist der Sieg, der die Welt besiegt hat: unser Glaube. Wer sonst besiegt die Welt, außer dem, der glaubt, dass Jesus der Sohn Gottes ist?",
           "resp1_1": "Ewige Freude leuchtet aus ihren Gesichtern.",
-          "resp1_2": "Halleluja, halleluja.",
+          "resp1_2": "Halleluja,°halleluja.",
           "resp1_3": "Sie erlangen Freude und Wonne.",
           "ant_ev": "Ihr Heiligen alle, freut euch und jubelt; denn groß ist euer Lohn im Himmel.^Ö"
         },
@@ -2255,7 +2255,7 @@ export const brevierData = {
           "les_stelle": "7,14b–17",
           "les_text": "Das sind die, die aus der großen Bedrängnis kommen; sie haben ihre Gewänder gewaschen und im Blut des Lammes weiß gemacht. Deshalb stehen sie vor dem Thron Gottes und dienen ihm bei Tag und Nacht in seinem Tempel; und der, der auf dem Thron sitzt, wird sein Zelt über ihnen aufschlagen. Sie werden keinen Hunger und keinen Durst mehr leiden und weder Sonnenglut noch irgendeine sengende Hitze wird auf ihnen lasten. Denn das Lamm in der Mitte vor dem Thron wird sie weiden und zu den Quellen führen, aus denen das Wasser des Lebens strömt, und Gott wird alle Tränen von ihren Augen abwischen.",
           "resp1_1": "Die Gerechten werden leuchten vor dem Antlitz Gottes.",
-          "resp1_2": "Halleluja, halleluja.",
+          "resp1_2": "Halleluja,°halleluja.",
           "resp1_3": "Die redlichen Herzens sind, werden sich freuen.",
           "ant_ev": "Freut euch, ihr Heiligen, vor dem Angesicht des Lammes; euch ist das Reich bereitet seit Anbeginn der Welt.^Ö"
         }
@@ -2478,7 +2478,7 @@ export const brevierData = {
           "les_stelle": "3,10–12",
           "les_text": "Du hast dich an mein Gebot gehalten, standhaft zu bleiben; daher werde auch ich zu dir halten und dich bewahren vor der Stunde der Versuchung, die über die ganze Erde kommen soll, um die Bewohner der Erde auf die Probe zu stellen. Ich komme bald. Halte fest, was du hast, damit kein anderer deinen Kranz bekommt.^pWer siegt, den werde ich zu einer Säule im Tempel meines Gottes machen und er wird immer darin bleiben. Und ich werde auf ihn den Namen meines Gottes schreiben und den Namen der Stadt meines Gottes, des neuen Jerusalem, das aus dem Himmel herabkommt von meinem Gott, und ich werde auf ihn auch meinen neuen Namen schreiben.",
           "resp1_1": "Freut euch im Herrn, ihr Gerechten.",
-          "resp1_2": "Halleluja, halleluja.",
+          "resp1_2": "Halleluja,°halleluja.",
           "resp1_3": "Euch hat der Herr sich zum Erbe erkoren.",
           "ant_ev": "Ewiges Licht leuchtet deinen Heiligen, o Herr: Unsterblichkeit ist ihr Besitz.^Ö"
         },
@@ -2490,7 +2490,7 @@ export const brevierData = {
           "les_stelle": "5,3–5",
           "les_text": "Die Liebe zu Gott besteht darin, dass wir seine Gebote halten. Seine Gebote sind nicht schwer. Denn alles, was von Gott stammt, besiegt die Welt. Und das ist der Sieg, der die Welt besiegt hat: unser Glaube. Wer sonst besiegt die Welt, außer dem, der glaubt, dass Jesus der Sohn Gottes ist?",
           "resp1_1": "Ewige Freude leuchtet aus ihren Gesichtern.",
-          "resp1_2": "Halleluja, halleluja.",
+          "resp1_2": "Halleluja,°halleluja.",
           "resp1_3": "Sie erlangen Freude und Wonne.",
           "ant_ev": "Ihr Heiligen alle, freut euch und jubelt; denn groß ist euer Lohn im Himmel.^Ö"
         },
@@ -2540,7 +2540,7 @@ export const brevierData = {
           "les_stelle": "7,14b–17",
           "les_text": "Das sind die, die aus der großen Bedrängnis kommen; sie haben ihre Gewänder gewaschen und im Blut des Lammes weiß gemacht. Deshalb stehen sie vor dem Thron Gottes und dienen ihm bei Tag und Nacht in seinem Tempel; und der, der auf dem Thron sitzt, wird sein Zelt über ihnen aufschlagen. Sie werden keinen Hunger und keinen Durst mehr leiden und weder Sonnenglut noch irgendeine sengende Hitze wird auf ihnen lasten. Denn das Lamm in der Mitte vor dem Thron wird sie weiden und zu den Quellen führen, aus denen das Wasser des Lebens strömt, und Gott wird alle Tränen von ihren Augen abwischen.",
           "resp1_1": "Die Gerechten werden leuchten vor dem Antlitz Gottes.",
-          "resp1_2": "Halleluja, halleluja.",
+          "resp1_2": "Halleluja,°halleluja.",
           "resp1_3": "Die redlichen Herzens sind, werden sich freuen.",
           "ant_ev": "Wenn das Weizenkorn nicht in die Erde fällt und stirbt, bleibt es allein; wenn es aber stirbt, bringt es reiche Frucht.^Ö"
         }
@@ -4399,7 +4399,8 @@ export const brevierData = {
           "les_stelle": "3,20–21",
           "les_text": "Unsere Heimat ist im Himmel. Von dorther erwarten wir auch Jesus Christus, den Herrn, als Retter, der unseren armseligen Leib verwandeln wird in die Gestalt seines verherrlichten Leibes, in der Kraft, mit der er sich alles unterwerfen kann.",
           "resp1_1": "In Herrlichkeit bist du heute erschienen.",
-          "resp1_2": "Halleluja, halleluja. Mit Pracht hat der Herr dich bekleidet.",
+          "resp1_2": "Halleluja,°halleluja.",
+          "resp1_3": "Mit Pracht hat der Herr dich bekleidet.",
           "ant_ev": "Heute ist der Herr auf der Höhe des Berges in Herrlichkeit erschienen. Christus Jesus, der Abglanz der Herrlichkeit des Vaters und das Abbild seines Wesens, der das All trägt durch sein machtvolles Wort."
         },
         "Invitatorium": {
@@ -4418,7 +4419,7 @@ export const brevierData = {
           "les_stelle": "21,10–11.23",
           "les_text": "Der Engel entrückte mich in der Verzückung auf einen großen, hohen Berg und zeigte mir die heilige Stadt Jerusalem, wie sie von Gott her aus dem Himmel herabkam. Die Stadt braucht weder Sonne noch Mond, die ihr leuchten. Denn die Herrlichkeit Gottes erleuchtet sie, und ihre Leuchte ist das Lamm.",
           "resp1_1": "Herr, du hast ihn gekrönt mit Herrlichkeit und Ehre.",
-          "resp1_2": "Halleluja, halleluja.",
+          "resp1_2": "Halleluja,°halleluja.",
           "resp1_3": "Du hast ihn eingesetzt als Herrscher über das Werk deiner Hände.",
           "ant_ev": "Und siehe, aus der Wolke rief eine Stimme: Dieser ist mein geliebter Sohn, an ihm habe ich mein Gefallen. Ihn sollt ihr hören!",
           "bitten_e": "Gepriesen sei Jesus Christus, der heute vor den Augen der Jünger verklärt wurde. Zu ihm lasst uns beten:",
@@ -4485,7 +4486,7 @@ export const brevierData = {
           "les_stelle": "8,16–17",
           "les_text": "Der Geist selber bezeugt unserem Geist, dass wir Kinder Gottes sind. Sind wir aber Kinder, dann auch Erben; wir sind Erben Gottes und sind Miterben Christi, wenn wir mit ihm leiden, um mit ihm auch verherrlicht zu werden.",
           "resp1_1": "Hoheit und Pracht sind vor seinem Angesicht.",
-          "resp1_2": "Halleluja, halleluja.",
+          "resp1_2": "Halleluja,°halleluja.",
           "resp1_3": "Macht und Glanz in seinem Heiligtum.",
           "ant_ev": "Als die Jünger die Stimme aus der Wolke hörten, fielen sie auf ihr Angesicht nieder und fürchteten sich sehr. Da trat Jesus zu ihnen, faßte sie an und sprach: Steht auf und seid ohne Furcht.",
           "bitten_e": "Lasst uns beten zu Jesus Christus, der vor den Augen seiner Jünger verklärt wurde:",
@@ -8789,7 +8790,7 @@ export const brevierData = {
         "Vesper": {
           "ant_3": "Lobt unseren Gott, preist ihn, all seine Heiligen!^ö",
           "resp1_1": "Selig, die in deinem Hause wohnen.",
-          "resp1_2": "Halleluja, halleluja.",
+          "resp1_2": "Halleluja,°halleluja.",
           "resp1_3": "Sie loben dich in Ewigkeit."
         }
       }
@@ -9704,7 +9705,7 @@ export const brevierData = {
           "les_stelle": "2,4–6",
           "les_text": "Gott, der voll Erbarmen ist, hat uns, die wir durch unsere Sünden tot waren, in seiner großen Liebe, mit der er uns geliebt hat, zusammen mit Christus lebendig gemacht. Aus Gnade seid ihr gerettet. Er hat uns mit Christus auferweckt und uns zusammen mit ihm einen Platz im Himmel gegeben.",
           "resp1_1": "Gott steigt empor unter Jubel.",
-          "resp1_2": "Halleluja, halleluja.",
+          "resp1_2": "Halleluja,°halleluja.",
           "resp1_3": "Der Herr beim Schall der Posaunen.",
           "ant_ev": "Vater, ich habe deinen Namen den Menschen offenbart, die du mir gegeben hast. Bewahre sie in deinem Namen; denn ich gehe zu dir.^ö",
           "bitten_e": "Lasst uns zu Jesus Christus beten, der in den Himmel aufgefahren ist und zur Rechten des Vaters sitzt:",
@@ -9722,7 +9723,7 @@ export const brevierData = {
           "les_stelle": "10,12–14",
           "les_text": "Jesus hat nur ein einziges Opfer für die Sünden dargebracht und sich dann für immer zur Rechten Gottes gesetzt; seitdem wartet er, bis seine Feinde ihm als Schemel unter die Füße gelegt werden. Denn durch ein einziges Opfer hat er die, die geheiligt werden, für immer zur Vollendung geführt.",
           "resp1_1": "Christus zog hinauf zur Höhe.",
-          "resp1_2": "Halleluja, halleluja",
+          "resp1_2": "Halleluja,°halleluja.",
           "resp1_3": "Gefangene hat er mitgeführt.",
           "ant_ev": "Ich steige auf zu meinem Vater und zu eurem Vater, zu meinem Gott und zu eurem Gott.^ö",
           "bitten_e": "Gepriesen sei Jesus Christus, der von der Erde erhöht ist und alles an sich zieht. Zu ihm lasst uns beten:",
@@ -9779,7 +9780,7 @@ export const brevierData = {
           "les_stelle": "3,18.22",
           "les_text": "Christus ist der Sünden wegen ein einziges Mal gestorben, er, der Gerechte, für die Ungerechten, um euch zu Gott hinzuführen; dem Fleisch nach wurde er getötet, dem Geist nach lebendig gemacht. Er ist in den Himmel gegangen; dort ist er zur Rechten Gottes, und Engel, Gewalten und Mächte sind ihm unterworfen.",
           "resp1_1": "Ich steige auf zu meinem Vater und zu eurem Vater.",
-          "resp1_2": "Halleluja, halleluja",
+          "resp1_2": "Halleluja,°halleluja.",
           "resp1_3": "Zu meinem Gott und zu eurem Gott.",
           "ant_ev": "O König der Herrlichkeit und Herr der Scharen! Als Sieger steigst du heute empor über alle Himmel; lass uns nicht als Waisen zurück, sondern sende uns die Verheißung des Vaters: den Geist der Wahrheit.^ö",
           "bitten_e": "Lasst uns zu Jesus Christus beten, der in den Himmel aufgefahren ist und zur Rechten des Vaters sitzt:",
@@ -10013,7 +10014,7 @@ export const brevierData = {
           "les_stelle": "5,30–32",
           "les_text": "Der Gott unserer Väter hat Jesus auferweckt, den ihr ans Holz gehängt und ermordet habt. Ihn hat Gott als Herrscher und Retter an seine rechte Seite erhoben, um Israel die Umkehr und Vergebung der Sünden zu schenken. Zeugen dieser Ereignisse sind wir und der Heilige Geist, den Gott allen verliehen hat, die ihm gehorchen.",
           "resp1_1": "Alle wurden erfüllt vom Heiligen Geist.",
-          "resp1_2": "Halleluja, halleluja.",
+          "resp1_2": "Halleluja,°halleluja.",
           "resp1_3": "Sie redeten in fremden Zungen, wie der Geist es ihnen eingab.",
           "ant_ev": "Empfangt den Heiligen Geist. Wem ihr die Sünden nachlasst, dem sind sie erlassen.^ö",
           "bitten_e": "Gepriesen sei Jesus Christus, der seine Kirche im Heiligen Geist zusammenführt. Zu ihm lasst uns beten:",
@@ -10076,7 +10077,7 @@ export const brevierData = {
           "les_stelle": "4,3–6",
           "les_text": "Bemüht euch, die Einheit des Geistes zu wahren durch den Frieden, der euch zusammenhält.^w Ein^0w Leib und^w ein^0w Geist, wie euch auch durch eure Berufung^w eine^0w gemeinsame Hoffnung gegeben ist:^w ein^0w Herr,^w ein^0w Glaube,^w eine^0w Taufe,^w ein^0w Gott und Vater aller, der über allem und durch alles und in allem ist.",
           "resp1_1": "Der Geist des Herrn erfüllt den Erdkreis.",
-          "resp1_2": "Halleluja, halleluja.",
+          "resp1_2": "Halleluja,°halleluja.",
           "resp1_3": "Er, der das All umfängt, kennt jede Sprache.",
           "ant_ev": "Heute sind die fünfzig Tage erfüllt. Heute erschien der Heilige Geist den Jüngern im Zeichen des Feuers. Heute schenkte er ihnen die Gaben der Gnade. Er sandte sie aus in die ganze Welt, zu predigen und zu bezeugen: Wer glaubt und sich taufen lässt, der wird gerettet. Halleluja, halleluja,halleluja.",
           "bitten_e": "Lasst uns beten zu Gott, dem Vater, der durch Christus seine Kirche im Heiligen Geist zusammenführt:",
@@ -10229,7 +10230,7 @@ export const brevierData = {
           "les_stelle": "1,11",
           "les_text": "Vom Aufgang der Sonne bis zu ihrem Untergang steht mein Name groß da bei den Völkern, und an jedem Ort wird meinem Namen ein Rauchopfer dargebracht und eine reine Opfergabe; ja, mein Name steht groß da bei den Völkern, spricht der Herr der Heere.",
           "resp1_1": "Nach deinem Willen bringt die Erde Brot hervor.",
-          "resp1_2": "Halleluja, halleluja.",
+          "resp1_2": "Halleluja,°halleluja.",
           "resp1_3": "Und Wein, das Herz des Menschen zu erfreuen.",
           "ant_ev": "Ich bin das lebendige Brot, das vom Himmel gekommen ist. Wer von diesem Brot isst, wird leben in Ewigkeit.^Ö",
           "bitten_e": "Gepriesen sei Jesus Christus, das Brot des Lebens. Zu ihm lasst uns beten:",
@@ -10297,7 +10298,7 @@ export const brevierData = {
           "les_stelle": "11,23-25",
           "les_text": "Ich habe vom Herrn empfangen, was ich euch überliefert habe: Jesus, der Herr, nahm in der Nacht, in der er ausgeliefert wurde, Brot, sprach das Dankgebet, brach das Brot und sagte: Das ist mein Leib für euch. Tut dies zu meinem Gedächtnis! Ebenso nahm er nach dem Mahl den Kelch und sprach: Dieser Kelch ist der Neue Bund in meinem Blut. Tut dies, sooft ihr daraus trinkt, zu meinem Gedächtnis! Denn sooft ihr von diesem Brot esst und aus dem Kelch trinkt, verkündet ihr den Tod des Herrn, bis er kommt.",
           "resp1_1": "Brot vom Himmel hat er ihnen gegeben.",
-          "resp1_2": "Halleluja, halleluja.",
+          "resp1_2": "Halleluja,°halleluja.",
           "resp1_3": "Brot der Engel aßen die Menschen.",
           "ant_ev": "O heiliges Mahl, in dem Christus unsere Speise ist: Gedächtnis seines Leidens, Fülle der Gnade, Unterpfand der künftigen Herrlichkeit.^Ö",
           "bitten_e": "Lasst uns beten zu Gott, dem Vater, durch Jesus Christus, seinen Sohn, im Heiligen Geist:",
@@ -10429,7 +10430,7 @@ export const brevierData = {
           "les_stelle": "10,40-43",
           "les_text": "Gott hat Jesus am dritten Tag auferweckt und hat ihn erscheinen lassen, zwar nicht dem ganzen Volk, wohl aber den von Gott vorherbestimmten Zeugen: uns, die wir mit ihm nach seiner Auferstehung von den Toten gegessen und getrunken haben. Und er hat uns geboten, dem Volk zu verkünden und zu bezeugen: Dieser ist der von Gott eingesetzte Richter der Lebenden und der Toten. Von ihm bezeugen alle Propheten, dass jeder, der an ihn glaubt, durch seinen Namen die Vergebung der Sünden empfängt.^R",
           "resp1_1": "Christus, du Sohn des lebendigen Gottes!",
-          "resp1_2": "Halleluja, halleluja",
+          "resp1_2": "Halleluja,°halleluja.",
           "resp1_3": "Du bist wahrhaft vom Tode erstanden.",
           "bitten_e": "Lob und Ehre sei Christus, dem Urheber des Lebens! Zu ihm lasst uns rufen:",
           "bitten_r": "Christus, unser Leben, rette uns.",
