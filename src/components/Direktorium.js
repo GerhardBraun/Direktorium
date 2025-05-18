@@ -1735,14 +1735,12 @@ const PrayerTextDisplay = ({
           <div className="mb-0">
             <SectionHeader
               title={hour === "lesehore" ? "TE DEUM" : "VATERUNSER"}
-              field="vu"
+              field=""
               askLatin={true}
             />
-            {getValue("vu") && (
-              <div className="mb-4 whitespace-pre-wrap">
-                {formatPrayerText(ordinarium.vu)}
-              </div>
-            )}
+            <div className="mb-4 whitespace-pre-wrap">
+              {formatPrayerText(ordinarium.vu)}
+            </div>
           </div>
         )}
 

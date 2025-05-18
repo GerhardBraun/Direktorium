@@ -18,8 +18,7 @@ const personalData = (() => {
 // Fields that should be processed as references to psalmsData
 const referenceFields = [
     'ps_1', 'ps_2', 'ps_3',
-    'hymn_1', 'hymn_2', 'hymn_3', 'hymn_nacht', 'hymn_kl',
-    'ev', 'ev_lat', 'vu', 'vu_lat', 'marant', 'marant_lat'
+    'hymn_1', 'hymn_2', 'hymn_3', 'hymn_nacht', 'hymn_kl'
 ];
 
 

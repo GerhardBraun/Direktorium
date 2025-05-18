@@ -31,17 +31,11 @@ interface BrevierEntry {
   ant_a?: string;
   ant_b?: string;
   ant_c?: string;
-  ev?: number;
-  ev_lat?: number;
   bitten_e?: string;
   bitten_r?: string;
   bitten?: string;
-  vu?: number;
-  vu_lat?: number;
   oration?: string;
   oration_komplet?: string;
-  marant?: number;
-  marant_lat?: number;
   }
 
 interface BrevierData {
@@ -63,10 +57,7 @@ export const brevierData = {
           "ps_2": 160.0,
           "ps_3": 149.0
         },
-        "Lesehore": {
-          "vu": 211.0,
-          "vu_lat": 211.1
-        }
+        "Lesehore": {}
       }
     }
   },
@@ -104,10 +95,7 @@ export const brevierData = {
           "ps_2": 160.0,
           "ps_3": 149.0
         },
-        "Lesehore": {
-          "vu": 211.0,
-          "vu_lat": 211.1
-        }
+        "Lesehore": {}
       }
     }
   },
@@ -145,10 +133,7 @@ export const brevierData = {
           "ps_2": 160.0,
           "ps_3": 149.0
         },
-        "Lesehore": {
-          "vu": 211.0,
-          "vu_lat": 211.1
-        }
+        "Lesehore": {}
       }
     }
   },
@@ -704,10 +689,7 @@ export const brevierData = {
         "Invitatorium": {
           "ant_0": "Der Herr ist nahe; kommt, wir beten ihn an."
         },
-        "Komplet": {
-          "marant": 2521.0,
-          "marant_lat": 2521.1
-        },
+        "Komplet": {},
         "Laudes": {
           "hymn_1": 3121.0,
           "hymn_kl": 0.0,
@@ -1680,9 +1662,7 @@ export const brevierData = {
           "patr_text": "^hAus uns als lebendigen Bausteinen wird der Tempel und Altar Gottes aufgebaut^pWir alle, die an Christus Jesus glauben, werden „lebendige Steine“ genannt, wie die Schrift sagt: „Ihr seid als lebendige Steine zu einem geistigen Haus aufgebaut, zu einer heiligen Priesterschaft, um durch Jesus Christus geistige Opfer darzubringen, die Gott gefallen“ {1#1 Petr 2,5}.^pBekanntlich legt man bei unseren irdischen Steinen die stärkeren und tragfähigeren als erste in die Fundamente, damit man ihnen die Last des ganzen Bauwerks anvertrauen und aufbürden kann. Es leuchtet ein, dass es auch in den Fundamenten dieses geistigen Bauwerks einige von den lebendigen Steinen gibt. Welche erhalten nun ihren Platz in den Fundamenten? Die Apostel und Propheten. Denn so lehrt Paulus: „Ihr seid auf das Fundament der Apostel und Propheten gebaut; der Schlussstein ist unser Herr Christus Jesus selbst“ {2#Eph 2,20}.^pDamit du dich aber williger für die Errichtung dieses Bauwerks bereitmachst, lieber Zuhörer, damit du dich erweist als Stein näher dem Fundament, nimm zur Kenntnis, dass Christus selbst das Fundament dieses von mir jetzt beschriebenen Bauwerks ist. Denn Paulus lehrt: „Einen anderen Grund kann niemand legen als den, der gelegt ist: Jesus Christus“ {3#1 Kor 3,11}. Wohl also denen, die auf diesem so edlen Fundament gottgefällige und heilige Bauwerke errichtet haben.^pIn diesem Bauwerk Kirche muss aber auch ein Altar stehen. So meine ich denn, dass der eine und andere von euch lebendigen Steinen dort eingefügt und also bereit ist, sich dem Gebet zu widmen, Tag und Nacht Bittrufe vor Gott zu bringen und Bußgebete als Gabe zu opfern - die sind es, aus denen Jesus den Altar baut.^pSchau, welches Lob den Altarsteinen gespendet wird, wenn es heißt: „Der Gesetzgeber Mose hat geboten, den Altar aus unversehrten Steinen zu bauen, an die kein Eisen gekommen ist“ {4#Dtn 27,5; Jos 8,31}. Wer sind diese unversehrten Steine? Vielleicht könnten die heiligen Apostel jene unversehrten und unverdorbenen Steine sein, die wegen ihrer Einmütigkeit und Eintracht alle zusammen einen Altar bilden. Denn von ihnen wird berichtet, sie hätten alle einmütig miteinander gebetet, ihren Mund aufgetan und gesprochen: „Herr, du kennst die Herzen aller“ {5#Apg 1,24}. Vielleicht also sind sie, die es verstanden haben, eines Sinnes mit einer Stimme und in einem Geist zu beten, würdig, alle zusammen den einen Altar zu bilden, damit auf ihm Jesus dem Vater das Opfer darbringt.^pDoch sollen auch wir uns mühe alle einmütig in Gedanken und Worten dasselbe zu sprechen, indem wir eines Sinnes sind, ohne etwas aus Lust am Streit oder aus Sucht nach eitler Ehre zu betreiben. Wir sollten vielmehr in der gleichen Sinnesart und Denkweise verharren; vielleicht könnten dann auch wir passende Steine für den Altar werden.",
           "patr_resp1": "Festgegründet steht das Haus des Herrn auf dem höchsten der Berge; es ragt empor über alle Hügel.",
           "patr_resp2": "Alle Völker strömen zu ihm und rufen: Ehre sei dir, o Herr!^ö",
-          "patr_resp3": "Mit Jubel kommen sie und bringen ihre Garben ein.",
-          "vu": 211.0,
-          "vu_lat": 211.1
+          "patr_resp3": "Mit Jubel kommen sie und bringen ihre Garben ein."
         },
         "Non": {
           "ps_1": 126.0,
@@ -4599,10 +4579,7 @@ export const brevierData = {
         "Invitatorium": {
           "ant_0": "Heute wurde die Mutter Christi in den Himmel erhoben; kommt, wir beten ihren Sohn an, den König der Könige!"
         },
-        "Komplet": {
-          "marant": 2523.0,
-          "marant_lat": 2523.1
-        },
+        "Komplet": {},
         "Laudes": {
           "button": "Aufnahme Mariens in den Himmel",
           "farbe": "m",
@@ -4687,10 +4664,7 @@ export const brevierData = {
         "Invitatorium": {
           "ant_0": "Christus, der König, gab seiner Mutter die Krone der Herrlichkeit; kommt, wir beten ihn an!"
         },
-        "Komplet": {
-          "marant": 2523.0,
-          "marant_lat": 2523.1
-        }
+        "Komplet": {}
       },
       "24": {
         "each": {
@@ -5621,9 +5595,7 @@ export const brevierData = {
           "patr_text": "^hLasst uns mit Christus sterben, um mit ihm aufzuerstehen^pPaulus sagt: „Für mich ist Christus das Leben, und Sterben Gewinn.“ {1#Phil 1,21} Was bedeutet Christus, wenn nicht Tod des Leibes und Geist des Lebens? Darum lasst uns mit ihm sterben, um mit ihm zu leben! Täglich sei uns das Leben Umgang mit dem Tod und Liebe zu ihm. Durch diese Loslösung lerne unsere Seele, sich aus den leiblichen Begierden zurückzuziehen, als wäre sie auf eine Höhe versetzt, wohin irdische Gelüste nicht gelangen und an ihr haften können.^pDurch den Tod des einen ist die Welt erlöst. Christus brauchte nicht zu sterben, wenn er nicht gewollt hätte. Auch gedachte er den Tod nicht zu verjagen, als tauge er nichts, longer hätte er uns nicht retten können als durch sein Sterben. So ist sein Tod das Leben aller. Von seinem Tod sind wir geprägt, seinen Tod verkünden wir im Gebet, ihn predigen wir beim Opfer; sein Tod ist Sieg, sein Tod ist Mysterium und das (Neu-)Jahresfest der Welt.^pWas sollen wir sonst noch von seinem Tod sagen, da uns das göttliche Beispiel beweist, dass der Tod nur die Unsterblichkeit gesucht hat und dass er sich selbst losgekauft hat. Daher sollen wir den Tod nicht beklagen, da er doch die Ursache des allgemeinen Heils ist. Wir sollen den Tod nicht fliehen, denn der Sohn Gottes hat ihn nicht verschmäht und geflohen.^pDer Tod sitzt nicht in der Natur, sondern ist über die Natur gekommen. Gott hat den Tod nicht von Anfang an eingeführt, sondern ihn als Heilmittel gegeben. Denn wegen der Übertretungen verurteilt, begann das Leben der Menschen in täglicher Arbeit und unerträglichem Stöhnen unglücklich zu werden. Die Leiden mussten beendet werden, und der Tod musste wiederherstellen, was das Leben verloren hatte. Die Unsterblichkeit ist eher eine Last als ein Vorzug, wenn die Gnade nicht weht.^pDer Geist hat die Möglichkeit, sich aus diesen Winden und dem Wirrwarr des Lebens und dem Wirrwarr des Leibes zu lösen und der Versammlung im Himmel entgegenzueilen, wenn auch nur Heilige dahin gelangen können. Der Geist hat die Möglichkeit, Gott zu loben, wie jene Zitherspieler, von denen wir aus der prophetischen Lesung erfahren: „Groß und wunderbar sind deine Taten, Herr, Gott und Herrscher über die ganze Schöpfung. Gerecht und zuverlässig sind deine Wege, du König der Völker. Wer wird dich nicht fürchten, Herr, wer wird deinen Namen nicht preisen? Denn du allein bist heilig: Alle Völker kommen und beten dich an.“ {2#Offb 15,3.4} Der Geist wird deine Hochzeit schauen dürfen, Jesus, wenn die Braut unter den Freudengesängen aller Geschöpfe von der Erde zum Himmel geleitet wird – „alle Menschen kommen zu dir“ {3#Ps 65,3} – sie ist nicht mehr der Welt verhaftet, sondern dem Geist vermählt.",
           "patr_resp1": "Ich weiß, dass mein Erlöser lebt, ",
           "patr_resp2": "meine Augen werden ihn schauen.",
-          "patr_resp3": "Ich werde Gott in meinem Fleische schauen, danach sehnt sich mein Herz.",
-          "vu": 211.0,
-          "vu_lat": 211.1
+          "patr_resp3": "Ich werde Gott in meinem Fleische schauen, danach sehnt sich mein Herz."
         },
         "Non": {
           "hymn_1": 1440.0,
@@ -6402,10 +6374,7 @@ export const brevierData = {
           "ant_2": "",
           "ant_3": ""
         },
-        "Komplet": {
-          "marant": 2521.0,
-          "marant_lat": 2521.1
-        },
+        "Komplet": {},
         "Laudes": {
           "hymn_1": 3229.0,
           "hymn_kl": 0.0,
@@ -8595,8 +8564,6 @@ export const brevierData = {
           "resp1_2": "in deine Hände lege ich mein Leben.",
           "resp1_3": "Lass leuchten über deinem Knecht dein Antlitz, hilf mir in deiner Güte.",
           "ant_ev": "Sei unser Heil, o°Herr, wenn wir wachen, und unser Schutz, wenn wir schlafen, damit wir wachen mit Christus und ruhen in Frieden.^ö",
-          "ev": 250.0,
-          "ev_lat": 250.1,
           "oration_komplet": "Herr und Gott, kehre ein in dieses Haus und halte alle Nachstellungen des Feindes von ihm fern. Deine heiligen Engel mögen darin wohnen und uns im Frieden bewahren. Und dein Segen sei über uns allezeit. Darum bitten wir durch Christus, unsern Herrn."
         }
       }
@@ -8640,8 +8607,6 @@ export const brevierData = {
           "resp1_2": "in deine Hände lege ich mein Leben.",
           "resp1_3": "Lass leuchten über deinem Knecht dein Antlitz, hilf mir in deiner Güte.",
           "ant_ev": "Sei unser Heil, o°Herr, wenn wir wachen, und unser Schutz, wenn wir schlafen, damit wir wachen mit Christus und ruhen in Frieden.^ö",
-          "ev": 250.0,
-          "ev_lat": 250.1,
           "oration_komplet": "Herr und Gott, kehre ein in dieses Haus und halte alle Nachstellungen des Feindes von ihm fern. Deine heiligen Engel mögen darin wohnen und uns im Frieden bewahren. Und dein Segen sei über uns allezeit. Darum bitten wir durch Christus, unsern Herrn."
         }
       }
@@ -8750,9 +8715,7 @@ export const brevierData = {
           "patr_text": "^hAus uns als lebendigen Bausteinen wird der Tempel und Altar Gottes aufgebaut^pWir alle, die an Christus Jesus glauben, werden „lebendige Steine“ genannt, wie die Schrift sagt: „Ihr seid als lebendige Steine zu einem geistigen Haus aufgebaut, zu einer heiligen Priesterschaft, um durch Jesus Christus geistige Opfer darzubringen, die Gott gefallen“ {1#1 Petr 2,5}.^pBekanntlich legt man bei unseren irdischen Steinen die stärkeren und tragfähigeren als erste in die Fundamente, damit man ihnen die Last des ganzen Bauwerks anvertrauen und aufbürden kann. Es leuchtet ein, dass es auch in den Fundamenten dieses geistigen Bauwerks einige von den lebendigen Steinen gibt. Welche erhalten nun ihren Platz in den Fundamenten? Die Apostel und Propheten. Denn so lehrt Paulus: „Ihr seid auf das Fundament der Apostel und Propheten gebaut; der Schlussstein ist unser Herr Christus Jesus selbst“ {2#Eph 2,20}.^pDamit du dich aber williger für die Errichtung dieses Bauwerks bereitmachst, lieber Zuhörer, damit du dich erweist als Stein näher dem Fundament, nimm zur Kenntnis, dass Christus selbst das Fundament dieses von mir jetzt beschriebenen Bauwerks ist. Denn Paulus lehrt: „Einen anderen Grund kann niemand legen als den, der gelegt ist: Jesus Christus“ {3#1 Kor 3,11}. Wohl also denen, die auf diesem so edlen Fundament gottgefällige und heilige Bauwerke errichtet haben.^pIn diesem Bauwerk Kirche muss aber auch ein Altar stehen. So meine ich denn, dass der eine und andere von euch lebendigen Steinen dort eingefügt und also bereit ist, sich dem Gebet zu widmen, Tag und Nacht Bittrufe vor Gott zu bringen und Bußgebete als Gabe zu opfern - die sind es, aus denen Jesus den Altar baut.^pSchau, welches Lob den Altarsteinen gespendet wird, wenn es heißt: „Der Gesetzgeber Mose hat geboten, den Altar aus unversehrten Steinen zu bauen, an die kein Eisen gekommen ist“ {4#Dtn 27,5; Jos 8,31}. Wer sind diese unversehrten Steine? Vielleicht könnten die heiligen Apostel jene unversehrten und unverdorbenen Steine sein, die wegen ihrer Einmütigkeit und Eintracht alle zusammen einen Altar bilden. Denn von ihnen wird berichtet, sie hätten alle einmütig miteinander gebetet, ihren Mund aufgetan und gesprochen: „Herr, du kennst die Herzen aller“ {5#Apg 1,24}. Vielleicht also sind sie, die es verstanden haben, eines Sinnes mit einer Stimme und in einem Geist zu beten, würdig, alle zusammen den einen Altar zu bilden, damit auf ihm Jesus dem Vater das Opfer darbringt.^pDoch sollen auch wir uns mühe alle einmütig in Gedanken und Worten dasselbe zu sprechen, indem wir eines Sinnes sind, ohne etwas aus Lust am Streit oder aus Sucht nach eitler Ehre zu betreiben. Wir sollten vielmehr in der gleichen Sinnesart und Denkweise verharren; vielleicht könnten dann auch wir passende Steine für den Altar werden.",
           "patr_resp1": "Festgegründet steht das Haus des Herrn auf dem höchsten der Berge; es ragt empor über alle Hügel.",
           "patr_resp2": "Alle Völker strömen zu ihm und rufen: Ehre sei dir, o Herr!^ö",
-          "patr_resp3": "Mit Jubel kommen sie und bringen ihre Garben ein.",
-          "vu": 211.0,
-          "vu_lat": 211.1
+          "patr_resp3": "Mit Jubel kommen sie und bringen ihre Garben ein."
         },
         "Non": {
           "ps_1": 126.0,
@@ -9209,10 +9172,7 @@ export const brevierData = {
           "resp1_2": "",
           "resp1_3": ""
         },
-        "Lesehore": {
-          "vu": 211.0,
-          "vu_lat": 211.1
-        },
+        "Lesehore": {},
         "Non": {
           "ant_0": "Ihr seid mit Christus auferweckt. Sucht°also, was droben ist, wo°Christus thront zur Rechten des Vaters.^ö",
           "ant_1": "",
@@ -10748,9 +10708,7 @@ export const brevierData = {
           "ant_3": "",
           "resp1_1": "Herr, auf dich vertraue ich, in deine Hände lege ich mein Leben.",
           "resp1_2": "Halleluja,°halleluja.",
-          "resp1_3": "Lass leuchten über deinem Knecht dein Antlitz, hilf mir in deiner Güte.",
-          "marant": 2524.0,
-          "marant_lat": 2524.1
+          "resp1_3": "Lass leuchten über deinem Knecht dein Antlitz, hilf mir in deiner Güte."
         },
         "Laudes": {
           "hymn_1": 3421.0,
@@ -14729,9 +14687,7 @@ export const brevierData = {
         },
         "Lesehore": {
           "hymn_1": 3311.0,
-          "hymn_2": 3312.0,
-          "vu": 0.0,
-          "vu_lat": 0.0
+          "hymn_2": 3312.0
         },
         "Non": {
           "les_buch": "Dtn",
@@ -15000,10 +14956,7 @@ export const brevierData = {
           "ant_2": "",
           "ant_3": ""
         },
-        "Komplet": {
-          "marant": 2523.0,
-          "marant_lat": 2523.1
-        },
+        "Komplet": {},
         "Laudes": {
           "hymn_1": 3321.0,
           "hymn_kl": 0.0,
@@ -15191,10 +15144,7 @@ export const brevierData = {
           "ps_2": 160.0,
           "ps_3": 149.0
         },
-        "Lesehore": {
-          "vu": 211.0,
-          "vu_lat": 211.1
-        },
+        "Lesehore": {},
         "Non": {
           "ps_1": 126.0,
           "ps_2": 127.0,
@@ -15259,9 +15209,7 @@ export const brevierData = {
           "patr_text": "^hChristus wird unsern Leib verwandeln^p„Christus ist gestorben und wieder lebendig geworden, um Herr zu sein über Lebende und Tote“ {1#Röm 14,9}. Doch Gott ist „ein Gott von Lebenden, nicht von Toten“ {2#Mt 22,32 par.}. Also sind die Toten, über die der Lebende herrscht, nicht länger tot, sondern sie leben. Deswegen herrscht das Leben über sie, dass sie leben, ohne den Tod fürchten zu müssen, wie „Christus, von den Toten auferweckt, nicht mehr stirbt“ {3#Röm 6,9}.^pSo werden auch die den Tod nicht mehr zu fürchten haben, die auferweckt und von der Vergänglichkeit des Fleisches befreit sind. Sie werden teilhaft der Auferstehung Christi, wie dieser selbst ihres Todes teilhaftig wurde.^pEben deswegen kam er auf die Erde, die durch ewige Riegel versperrt ist, um „die ehernen Tore zu zerbrechen und die eisernen Riegel zu zerschlagen“ {4#vgl. Ps 107,16}, um uns statt der Knechtschaft die Freiheit zu schenken, unser Leben aus der Vergänglichkeit zu retten und mit dem seinen zu vereinigen.^pDieser Heilsplan scheint noch nicht voll verwirklicht zu sein. Denn noch sterben Menschen, der Leib geht zugrunde und löst sich auf. Aber das darf nicht Anlass sein, dass wir Unrecht tun. Denn schon vor der vollen Verwirklichung haben wir ein Unterpfand in unserem Erstling, durch den wir zum Himmel aufgestiegen sind und zur Rechten des Herrn sitzen, der uns zur Höhe mitgenommen hat, wie Paulus sagt: „Er hat uns mit Christus auferweckt und uns mit ihm einen Platz im Himmel gegeben“ {5#Eph 2,6}.^pWenn aber die vom Vater festgesetzte Zeit kommt, werden wir die Vollendung erlangen. Wir werden ablegen, was kindlich ist, und das volle Mannesalter erreichen. Der ewige Vater hat das so gewollt, damit die Gabe, die er uns geschenkt hat, Bestand hat und unser Geist nicht wieder in das Kindesalter zurückfällt.^pEs braucht kaum darauf hingewiesen zu werden, dass der auferstandene Leib überirdisch ist, da doch Paulus vom Leib bezeugt, dass Irdisches gesät wird, Überirdisches aber aufersteht {6#vgl. 1 Kor 15,44}. Das Irdische wird verwandelt wie Christus, der in herrlicher Verklärung vorangegangen ist.^pAuch Paulus war sich ganz klar darüber, dass dies dem ganzen Menschengeschlecht geschehen soll durch Christus, „der unseren armseligen Leib verwandeln wird in die Gestalt seines verherrlichten Leibes“ {7#Phil 3,21}.^pDie Verklärung besteht darin, dass der Leib in der Verwandlung überirdisch wird und die verherrlichte Gestalt Christi erhält. Mit einem überirdischen Leib ist Christus auferstanden. Aber der Leib ist der gleiche, der in Armseligkeit gesät, aber in Herrlichkeit verwandelt wurde.^pChristus hat die Erstlinge unserer Natur zum Vater geführt, er wird auch die ganze Welt zu ihm geleiten, wie er versprochen hat: „Wenn ich von der Erde erhöht bin, werde ich alle an mich ziehen“ {8#Joh 12,32}.",
           "patr_resp1": "Alle, die in den Gräbern sind, werden die Stimme des Menschensohnes hören; und sie werden herauskommen.",
           "patr_resp2": "Die das Gute getan haben, werden zum Leben auferstehen, die das Böse getan haben, zum Gericht.",
-          "patr_resp3": "Plötzlich, in einem Augenblick, beim letzten Posaunenschall werden die Toten auferweckt zur Unvergänglichkeit.",
-          "vu": 211.0,
-          "vu_lat": 211.1
+          "patr_resp3": "Plötzlich, in einem Augenblick, beim letzten Posaunenschall werden die Toten auferweckt zur Unvergänglichkeit."
         },
         "Non": {
           "hymn_1": 1440.0,
@@ -15504,10 +15452,7 @@ export const brevierData = {
           "ant_2": "",
           "ant_3": ""
         },
-        "Komplet": {
-          "marant": 2521.0,
-          "marant_lat": 2521.1
-        },
+        "Komplet": {},
         "Laudes": {
           "hymn_1": 3221.0,
           "hymn_kl": 0.0,
@@ -15614,10 +15559,7 @@ export const brevierData = {
           "ant_2": "Der Engel sprach zu den Hirten: Ich verkünde euch große Freude; heute ist euch der Heiland geboren, der Retter der Welt.^Ö",
           "ant_3": "Ein Kind ist uns heute geboren. „Starker Gott“ ist sein Name.^Ö"
         },
-        "Lesehore": {
-          "vu": 211.0,
-          "vu_lat": 211.1
-        },
+        "Lesehore": {},
         "Vesper": {
           "hymn_1": 3241.0,
           "hymn_2": 0.0,
@@ -15652,10 +15594,7 @@ export const brevierData = {
           "les_text": "Sie werden sein Angesicht schauen, und sein Name ist auf ihre Stirn geschrieben. Es wird keine Nacht mehr geben, und sie brauchen weder das Licht einer Lampe noch das Licht der Sonne. Denn der Herr, ihr Gott, wird über ihnen leuchten, und sie werden herrschen in alle Ewigkeit.",
           "oration_komplet": "Allmächtiger Gott, wir haben heute das Geheimnis der Auferstehung unseres Herrn gefeiert. Am Abend rufen wir zu dir: Bewahre uns in dieser Nacht vor allem Bösen. Lass uns in deinem Frieden ruhen und morgen den neuen Tag mit deinem Lob beginnen.^ORV"
         },
-        "Lesehore": {
-          "vu": 211.0,
-          "vu_lat": 211.1
-        }
+        "Lesehore": {}
       },
       "1": {
         "Komplet": {
@@ -15741,29 +15680,15 @@ export const brevierData = {
         }
       },
       "each": {
-        "ErsteV": {
-          "ev": 240.0,
-          "ev_lat": 240.1,
-          "vu": 221.0,
-          "vu_lat": 221.1
-        },
+        "ErsteV": {},
         "Komplet": {
           "hymn_1": 2500.0,
           "resp1_1": "Herr, auf dich vertraue ich,",
           "resp1_2": "in deine Hände lege ich mein Leben.",
           "resp1_3": "Lass leuchten über deinem Knecht dein Antlitz, hilf mir in deiner Güte.",
-          "ant_ev": "Sei unser Heil, o°Herr, wenn wir wachen, und unser Schutz, wenn wir schlafen, damit wir wachen mit Christus und ruhen in Frieden.^ö",
-          "ev": 250.0,
-          "ev_lat": 250.1,
-          "marant": 2525.0,
-          "marant_lat": 2525.1
+          "ant_ev": "Sei unser Heil, o°Herr, wenn wir wachen, und unser Schutz, wenn wir schlafen, damit wir wachen mit Christus und ruhen in Frieden.^ö"
         },
-        "Laudes": {
-          "ev": 220.0,
-          "ev_lat": 220.1,
-          "vu": 221.0,
-          "vu_lat": 221.1
-        },
+        "Laudes": {},
         "Non": {
           "hymn_1": 2900.0,
           "hymn_2": 2901.0
@@ -15776,12 +15701,7 @@ export const brevierData = {
           "hymn_1": 2300.0,
           "hymn_2": 2301.0
         },
-        "Vesper": {
-          "ev": 240.0,
-          "ev_lat": 240.1,
-          "vu": 221.0,
-          "vu_lat": 221.1
-        }
+        "Vesper": {}
       }
     }
   }
