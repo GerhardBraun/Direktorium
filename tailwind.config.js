@@ -88,6 +88,9 @@ module.exports = {
           verticalAlign: '-0.15em',
           '@apply text-gray-400': {}
         },
+        'menu': {
+          '@apply text-gray-700 dark:text-gray-300': {}
+        },
         // Neue Button-Komponenten
         '.btn-default': {
           '@apply bg-gray-100 dark:bg-gray-800 text-dunkel dark:text-gray-100 hover:bg-gray-200 dark:hover:bg-gray-700': {}

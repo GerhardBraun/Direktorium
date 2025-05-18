@@ -20,7 +20,7 @@ const checkSources = (texts, hour, prefSrc, field) => {
 export const SectionHeader = ({
     title,
     provField,
-    latinField,
+    askLatin,
     askContinuous,
     askTSN,
     onSelectHour,
@@ -49,7 +49,6 @@ export const SectionHeader = ({
     const isCommemoration = texts?.isCommemoration || false
     const { hasEig, hasWt, nameComm1, nameComm2, showSources, showComm2 } =
         checkSources(texts, hour, prefSrc, field);
-    const hasLatin = latinField && texts[hour]['wt']?.[latinField];
     const showContinuous = hasEig && hasWt && askContinuous && hour === 'lesehore' && !isCommemoration;
     const showPsalmsWt = hasEig && hasWt &&
         title === 'PSALMODIE' && (hour !== 'invitatorium' && hour !== 'komplet');
@@ -89,7 +88,7 @@ export const SectionHeader = ({
     if (title === "HYMNUS") { skipCommune = true };
 
     if (title === "RESPONSORIUM" ||
-        (!invPsalms && !showSources && !hasLatin
+        (!invPsalms && !showSources && !askLatin
             && !showPsalmsWt && !showContinuous && !showTSN && !showErgPs)) {
         return <h2 className="prayer-heading">{title}</h2>;
     }
@@ -105,7 +104,7 @@ export const SectionHeader = ({
     return (
         <h2 className="prayer-heading inline-block space-x-3 items-baseline">
             <span className="inline-block">{title}</span>
-            {hasLatin && (
+            {askLatin && (
                 <ButtonGroup>
                     <button
                         onClick={() => setLocalPrefLatin(prev => !prev)}

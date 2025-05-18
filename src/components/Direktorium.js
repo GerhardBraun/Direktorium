@@ -1287,7 +1287,7 @@ const PrayerTextDisplay = ({
   const SectionHeader = ({
     title,
     field: provField,
-    latinField,
+    askLatin,
     askContinuous,
     askTSN,
     onSelectHour,
@@ -1295,7 +1295,7 @@ const PrayerTextDisplay = ({
     extSectionHeader({
       title,
       provField,
-      latinField,
+      askLatin,
       askContinuous,
       askTSN,
       onSelectHour,
@@ -1693,7 +1693,7 @@ const PrayerTextDisplay = ({
             <SectionHeader
               title={getCanticleTitle(hour)}
               field="ant_ev"
-              latinField="ev_lat"
+              askLatin={true}
             />
             {getValue("ant_ev") && (
               <div className="mb-4">
@@ -1702,7 +1702,10 @@ const PrayerTextDisplay = ({
             )}
             {getValue("ev") && (
               <div className="mb-4">
-                {formatPrayerText(getValue(localPrefLatin ? "ev_lat" : "ev").text)}
+                {formatPrayerText(
+                  (localPrefLatin || localPrefLanguage === "_lat")
+                    ? getValue("ev").text_lat
+                    : getValue("ev").text)}
               </div>
             )}
             {getValue("ant_ev") && (
@@ -1742,13 +1745,14 @@ const PrayerTextDisplay = ({
             <SectionHeader
               title={hour === "lesehore" ? "TE DEUM" : "VATERUNSER"}
               field="vu"
-              latinField="vu_lat"
+              askLatin={true}
             />
             {getValue("vu") && (
               <div className="mb-4 whitespace-pre-wrap">
-                {localPrefLatin
-                  ? formatPrayerText(getValue("vu_lat").text)
-                  : formatPrayerText(getValue("vu").text)}
+                {formatPrayerText(
+                  (localPrefLatin || localPrefLanguage === "_lat")
+                    ? getValue("vu").text_lat
+                    : getValue("vu").text)}
               </div>
             )}
           </div>
@@ -1796,13 +1800,14 @@ const PrayerTextDisplay = ({
             <SectionHeader
               title={"MARIANISCHE ANTIPHON"}
               field="marant"
-              latinField="marant_lat"
+              askLatin={true}
             />
             {getValue("marant") && (
               <div className="mb-4">
-                {localPrefLatin
-                  ? formatPrayerText(getValue("marant_lat").text)
-                  : formatPrayerText(getValue("marant").text)}
+                {formatPrayerText(
+                  (localPrefLatin || localPrefLanguage === "_lat")
+                    ? getValue("marant").text_lat
+                    : getValue("marant").text)}
               </div>
             )}
           </div>
@@ -2654,7 +2659,16 @@ export default function LiturgicalCalendar() {
         </button>
       );
     };
-
+    const renderDescriptionItem = (label, description, spacing = 1) => {
+      const spacingString = '\u00A0'.repeat(spacing);
+      return (
+        <p>
+          <span className="text-gray-700 dark:text-gray-300">{label}</span>
+          {spacingString}
+          {description}
+        </p>
+      );
+    };
     return (
       <div className="relative" ref={menuRef}>
         <button
@@ -2754,62 +2768,21 @@ export default function LiturgicalCalendar() {
                 }`}
               onClick={() => handleSectionChange(sections.indexOf("language"))}
             >
-              <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-0">
+              <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-1">
                 Sprache/Übersetzung <span className="text-xs text-gray-400 ml-2">(←/→)</span>
               </div>
               <div className="mb-2 text-xs text-gray-500 dark:text-gray-400">
-                <p><span className="text-gray-700 dark:text-gray-300">Stundenbuch: </span>Einheitsübersetzung von 1983</p>
-                <p><span className="text-gray-700 dark:text-gray-300">lat.:</span>&nbsp;&nbsp;&nbsp;&nbsp;Nova Vulgata</p>
-                <p><span className="text-gray-700 dark:text-gray-300">neu:&nbsp;&nbsp;&nbsp;</span>Einheitsübersetzung von 2016</p>
-              </div>
+                {renderDescriptionItem("Stundenbuch:", "Einheitsübersetzung von 1983")}
+                {renderDescriptionItem("lat.:", "Nova Vulgata", 4)}
+                {renderDescriptionItem("neu:", "Einheitsübersetzung von 2016", 3)}              </div>
               <div className="flex gap-0">
                 {LanguageButton("", "Stundenbuch", "flex-3")}
-                <button
-                  onMouseDown={() => handleLanguageLongPress("_lat")}
-                  onMouseUp={clearLongPressTimeout}
-                  onMouseLeave={clearLongPressTimeout}
-                  onTouchStart={() => handleLanguageLongPress("_lat")}
-                  onTouchEnd={clearLongPressTimeout}
-                  onTouchCancel={clearLongPressTimeout}
-                  onClick={(e) => {
-                    if (!isLongPressing) {
-                      e.preventDefault();
-                      e.stopPropagation();
-                      setLocalPrefLanguage("_lat");
-                    }
-                  }}
-                  className={`flex-1 px-1 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded select-none touch-none ${localPrefLanguage === "_lat"
-                    ? "bg-orange-100 dark:bg-yellow-400/60"
-                    : ""
-                    }`}
-                >
-                  lat.
-                </button>
-                <button
-                  onMouseDown={() => handleLanguageLongPress("_neu")}
-                  onMouseUp={clearLongPressTimeout}
-                  onMouseLeave={clearLongPressTimeout}
-                  onTouchStart={() => handleLanguageLongPress("_neu")}
-                  onTouchEnd={clearLongPressTimeout}
-                  onTouchCancel={clearLongPressTimeout}
-                  onClick={(e) => {
-                    if (!isLongPressing) {
-                      e.preventDefault();
-                      e.stopPropagation();
-                      setLocalPrefLanguage("_neu");
-                    }
-                  }}
-                  className={`flex-1 px-1 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded select-none touch-none ${localPrefLanguage === "_neu"
-                    ? "bg-orange-100 dark:bg-yellow-400/60"
-                    : ""
-                    }`}
-                >
-                  neu
-                </button>
+                {LanguageButton("_lat", "lat.")}
+                {LanguageButton("_neu", "neu")}
               </div>
               <div className="mt-2 text-xs text-gray-500 dark:text-gray-400">
                 <p><b>Grundeinstellung:</b> {getLanguageName(storedPrefLanguage)}</p>
-                <p className="text-xs italic">Lange drücken zum Speichern</p>
+                <p className="text-xs italic">(lange drücken zum Speichern als Grundeinstellung)</p>
               </div>
             </div>
 
@@ -2858,13 +2831,8 @@ export default function LiturgicalCalendar() {
                 </button>
               </div>
               <div className="mt-2 text-xs text-gray-500 dark:text-gray-400">
-                <p>
-                  <span className="text-gray-700 dark:text-gray-300">kurz:</span> Verstorbene der letzten 30 Jahre
-                  (wie&nbsp;im&nbsp;gedruckten&nbsp;Direktorium)
-                </p>
-                <p>
-                  <span className="text-gray-700 dark:text-gray-300">voll:</span> alle Verstorbene seit 1920
-                </p>
+                {renderDescriptionItem("kurz:", "Verstorbene der letzten 30 Jahre (wie\u00a0im\u00a0gedruckten\u00a0Direktorium)")}
+                {renderDescriptionItem("voll:", "alle Verstorbene seit 1920")}
               </div>
             </div>
 
