@@ -3071,7 +3071,7 @@ export const psalmsData = {
     0.0: {
         "title": "Jerusalem, du neue Stadt",
         "quote": "Osterzeit",
-        "text": "Jerusalem, du neue Stadt,^lgib deinen Liedern neuen Klang,^lin reiner Freude darfst du jetzt^lder Ostern hohes Fest begehn.^pDes Todes Drache unterliegt,^lder Held aus Juda siegt mit Macht,^lda seiner Stimme heller Schall^ldie Toten aus den Gräbern ruft.^pWas mit Gewalt der Tod geraubt,^lgibt jetzt die Unterwelt zurück.^lBefreit aus der Gefangenschaft,^lfolgt Jesus die erlöste Schar.^pEr triumphiert in Herrlichkeit,^lund weithin spannt sich seine Macht,^ler eint den Himmel und die Welt^lzum Reich, in dem er ewig herrscht.^pDem Herrn sei Preis und Herrlichkeit,^lder aus dem Grabe auferstand,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
+        "text": "Jerusalem, du neue Stadt,^lgib deinen Liedern neuen Klang!^lIn reiner Freude darfst du jetzt^lder Ostern hohes Fest begehn!^pDes Todes Drache unterliegt,^lder Held aus Juda siegt mit Macht,^lda seiner Stimme heller Schall^ldie Toten aus den Gräbern ruft.^pWas mit Gewalt der Tod geraubt,^lgibt jetzt die Unterwelt zurück.^lBefreit aus der Gefangenschaft,^lfolgt Jesus die erlöste Schar.^pEr triumphiert in Herrlichkeit,^lund weithin spannt sich seine Macht,^ler eint den Himmel und die Welt^lzum Reich, in dem er ewig herrscht.^pDem Herrn sei Preis und Herrlichkeit,^lder aus dem Grabe auferstand,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   3424: {

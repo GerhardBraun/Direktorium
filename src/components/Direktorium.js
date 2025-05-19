@@ -1968,10 +1968,7 @@ export default function LiturgicalCalendar() {
   const [expandedDeceased, setExpandedDeceased] = useState({});
   const [deceasedMode, setDeceasedMode] = useState("recent");
   const [localPrefLanguage, setLocalPrefLanguage] = useState(() => getLocalStorage("prefLanguage") || "");
-  const [localPrefLatin, setLocalPrefLatin] = useState(() => {
-    const savedPrefLanguage = getLocalStorage("prefLanguage") || "";
-    return savedPrefLanguage === "_lat";
-  });
+  const [localPrefLatin, setLocalPrefLatin] = useState(() => getLocalStorage("prefLanguage") === "_lat");
   const [baseFontSize, setBaseFontSize] = useTouchZoom(
     14,
     8,
@@ -2252,6 +2249,10 @@ export default function LiturgicalCalendar() {
     setVisibleRange({ startDate, endDate });
   }, [selectedDate]);
 
+  useEffect(() => {
+    setLocalPrefLatin(localPrefLanguage === "_lat");
+  }, [localPrefLanguage]);
+
   const allEntries = useMemo(() => {
     const entries = [];
     Object.entries(liturgicalData).forEach(([year, yearData]) => {
@@ -2485,7 +2486,6 @@ export default function LiturgicalCalendar() {
         setLocalStorage("prefLanguage", value);
         // Aktualisiere auch die lokale Einstellung
         setLocalPrefLanguage(value);
-        setLocalPrefLatin(value === '_lat');
         setIsLongPressing(false);
       }, 800); // 800ms für langes Drücken
     };
@@ -2543,13 +2543,15 @@ export default function LiturgicalCalendar() {
     const handleLanguageChange = (isRight) => {
       // Zykluswechsel zwischen "", "_lat" und "_neu"
       setLocalPrefLanguage(prev => {
-        const newValue = isRight
-          ? (prev === "" ? "_lat" : prev === "_lat" ? "_neu" : "")
-          : (prev === "" ? "_neu" : prev === "_neu" ? "_lat" : "");
-
-        setLocalPrefLatin(newValue === "_lat");
-
-        return newValue;
+        if (isRight) {
+          if (prev === "") return "_lat";
+          if (prev === "_lat") return "_neu";
+          return "";
+        } else {
+          if (prev === "") return "_neu";
+          if (prev === "_neu") return "_lat";
+          return "";
+        }
       });
     };
 
@@ -2654,7 +2656,6 @@ export default function LiturgicalCalendar() {
               e.preventDefault();
               e.stopPropagation();
               setLocalPrefLanguage(value);
-              setLocalPrefLatin(value === "_lat");
             }
           }}
           className={`${className} px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded select-none touch-none ${localPrefLanguage === value ? "bg-orange-100 dark:bg-yellow-400/60" : ""
