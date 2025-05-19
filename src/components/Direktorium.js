@@ -1486,7 +1486,10 @@ const PrayerTextDisplay = ({
         )}
         {opening[0] && (
           <div className="mt-0 mb-0">
-            <SectionHeader title="ERÖFFNUNG" field="resp0_0" />
+            <SectionHeader
+              title="ERÖFFNUNG"
+              field="resp0_0"
+              askLatin={true} />
             <div>
               {formatPrayerText(opening[0], "V°°")}
             </div>
@@ -1790,7 +1793,10 @@ const PrayerTextDisplay = ({
 
         {closing[0] && (
           <div className="mb-0 mt-0">
-            <SectionHeader title="ABSCHLUSS" field="resp0_0" />
+            <SectionHeader
+              title="ABSCHLUSS"
+              field="resp0_0"
+              askLatin={true} />
             <div className="flex gap-0">
               {formatPrayerText(closing[0], "V°°")}
             </div>
