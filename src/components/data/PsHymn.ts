@@ -2286,7 +2286,7 @@ export const psalmsData = {
     0.0: {
         "title": "Sei gegrüßt, die den König gebar",
         "quote": "Lesehore zu Maria am Samstag",
-        "text": "Sei gegrüßt, die den König gebar, du°heilige°Mutter,^lihn, der Himmel und Erde erhält im°Wandel°der°Zeiten,^ldessen Walten das All umfasst mit°ewigem°Kreise,^ldessen Reich ohne Ende besteht:^pDein seliger Leib hat^lFreuden der Mutter gepaart mit°reiner°Ehre°der°Jungfrau,^ldir, der keine je glich, wird°keine°fürderhin°gleichen,^ldenn vor allen Frauen erwählte dich,°Einzige,°Christus."
+        "text": "Sei gegrüßt, die den König gebar,^/du°heilige°Mutter,^lihn, der Himmel und Erde erhält^/im°Wandel°der°Zeiten,^ldessen Walten das All umfasst^/mit°ewigem°Kreise,^ldessen Reich ohne Ende besteht:^/Dein seliger Leib hat^lFreuden der Mutter gepaart^/mit°reiner°Ehre°der°Jungfrau.^lDir, der keine je glich,^/wird°keine°fürderhin°gleichen,^ldenn vor allen Frauen erwählte^/dich,°Einzige,°Christus."
       }
   },
   1038: {
@@ -2300,7 +2300,7 @@ export const psalmsData = {
     0.0: {
         "title": "Meerstern, sei gegrüßet",
         "quote": "2. Vesper an Marienfesten",
-        "text": "Meerstern, sei gegrüßet,^lGottes hohe Mutter,^lallzeit reine Jungfrau,^lselig Tor zum Himmel!^pDu nahmst an das AVE^laus des Engels Munde.^lWend den Namen EVA,^lbring uns Gottes Frieden.^pZeige dich als Mutter,^ldenn dich wird erhören,^lder auf sich genommen,^lhier dein Sohn zu werden.^pJungfrau ohnegleichen,^lGütige vor allen,^luns, die wir erlöst sind,^lmach auch rein und gütig.^pLös der Schuldner Ketten,^lmach die Blinden sehend,^lallem Übel wehre,^ljeglich Gut erwirke.^pGib ein lautres Leben,^lsicher uns geleite,^ldass wir einst in Freuden^lJesus mit dir schauen.^pLob sei Gott dem Vater,^lChrist, dem Höchsten, Ehre^lund dem Heil’gen Geiste:^ldreifach ^weine^0w Preisung.^lAmen"
+        "text": "Meerstern, sei gegrüßet,^/Gottes hohe Mutter,^lallzeit reine Jungfrau,^/selig Tor zum Himmel!^pDu nahmst an das AVE^/aus des Engels Munde.^lWend den Namen EVA,^/bring uns Gottes Frieden.^pZeige dich als Mutter,^/denn dich wird erhören,^lder auf sich genommen,^/hier dein Sohn zu werden.^pJungfrau ohnegleichen,^/Gütige vor allen,^luns, die wir erlöst sind,^/mach auch rein und gütig.^pLös der Schuldner Ketten,^/mach die Blinden sehend,^lallem Übel wehre,^/jeglich Gut erwirke.^pGib ein lautres Leben,^/sicher uns geleite,^ldass wir einst in Freuden^/Jesus mit dir schauen.^pLob sei Gott dem Vater,^/Christ, dem Höchsten, Ehre^lund dem Heil’gen Geiste:^/dreifach^w eine^0w Preisung. Amen."
       }
   },
   1068: {
@@ -2373,7 +2373,7 @@ export const psalmsData = {
     0.0: {
         "title": "„Halleluja“ hebt an",
         "quote": "Kirchweihe",
-        "text": "„Halleluja“ hebt an, hallendes°Gotteslob.^lBürger himmlischer Stadt, singt°ohne°Unterlass^l– ewiges Halleluja!^pEuer seliges Lob nehmen°die°Engel°auf,^ldie Bewohner des Lichts jubeln°im°Chore°laut^l– ewiges Halleluja.^pGottes herrliche Stadt tönt°im°Gesange°auf,^lwirft im Echo zurück euer°frohlockend’°Lied^l– ewiges Halleluja.^pGroßer Schöpfer der Welt, siehe,°auch°unser°Mund^lsingt dir jauchzend das Lob, das°deiner°Größe°ziemt^l– ewiges Halleluja.^pDich, o Christus erhebt unserer°Stimmen°Preis,^ldir, allmächtiger Gott, rufen°wir°jubelnd°zu^l– ewiges Halleluja."
+        "text": "„Halleluja“ hebt an hallendes°Gotteslob.^lBürger himmlischer Stadt, singt°ohne°Unterlass^l– ewiges Halleluja!^pEuer seliges Lob nehmen°die°Engel°auf,^ldie Bewohner des Lichts jubeln°im°Chore°laut^l– ewiges Halleluja.^pGottes herrliche Stadt tönt°im°Gesange°auf,^lwirft im Echo zurück euer°frohlockend’°Lied^l– ewiges Halleluja.^pGroßer Schöpfer der Welt, siehe,°auch°unser°Mund^lsingt dir jauchzend das Lob, das°deiner°Größe°ziemt^l– ewiges Halleluja.^pDich, o Christus erhebt unserer°Stimmen°Preis,^ldir, allmächtiger Gott, rufen°wir°jubelnd°zu^l– ewiges Halleluja."
       }
   },
   1151: {
@@ -2774,7 +2774,7 @@ export const psalmsData = {
     0.0: {
         "title": "Tod und Vergehen waltet in allem",
         "quote": "Komplet",
-        "text": "Tod und Vergehen^lwaltet in allem,^lsteht über Menschen,^lPflanzen und Tieren,^lSternbild und Zeit.^pDu hast ins Leben^lalles gerufen,^lHerr, deine Schöpfung^lneigt sich zum Tode:^lHole sie heim.^pSchenke im Ende^lauch die Vollendung.^lNicht in die Leere^lfalle die Vielfalt^lirdischen Seins.^pHerr, deine Pläne^lbleiben uns dunkel. –^lDoch singen Lob wir^ldir, dem dreieinen,^lewigen Gott. Amen."
+        "text": "Tod und Vergehen^/waltet in allem,^lsteht über Menschen,^/Pflanzen und Tieren,^lSternbild und Zeit.^pDu hast ins Leben^/alles gerufen,^lHerr, deine Schöpfung^/neigt sich zum Tode:^lHole sie heim.^pSchenke im Ende^/auch die Vollendung.^lNicht in die Leere^/falle die Vielfalt^lirdischen Seins.^pHerr, deine Pläne^/bleiben uns dunkel. –^lDoch singen Lob wir^/dir, dem dreieinen,^lewigen Gott. Amen."
       }
   },
   2513: {
@@ -3346,14 +3346,14 @@ export const psalmsData = {
     4.0: {
         "title": "Goldenes Leuchten strahlt vom Himmel heut herab",
         "quote": "PetrPaul",
-        "text": "Goldenes Leuchten^lstrahlt vom Himmel heut herab,^lVater des Lichtes,^ldu erfüllst die Welt mit Glanz,^lzierest den Himmel,^lda im Feste wir begehn^ldeiner Apostel^lherrliches Martyrium.^pHeiliger Petrus,^lFels, auf dem die Kirche steht,^lHüter der Herde,^ldie dir Christus anvertraut,^leinst hast du weinend^lden Verrat am Herrn bereut,^lzeigst nun im Tode,^ldass du wirklich ihn geliebt.^pHeiliger Paulus,^lBote du des neuen Heils,^lKünder des Wortes,^lder die Völker Wahrheit lehrt,^leinst hast du eifernd^lChristi Jüngern nachgestellt,^llegst nun im Sterben^lZeugnis ab mit deinem Blut.^pGöttliche Dreiheit,^lVater, Sohn und Heil’ger Geist,^lhöre den Lobpreis,^lden wir deiner Größe weihn,^lda das Gedächtnis^ldeiner Zeugen uns erfreut.^lGib uns wie ihnen^leinst den Thron der Seligkeit."
+        "text": "Goldenes Leuchten^/strahlt vom Himmel heut herab,^lVater des Lichtes,^/du erfüllst die Welt mit Glanz,^lzierest den Himmel,^/da im Feste wir begehn^ldeiner Apostel^/herrliches Martyrium.^pHeiliger Petrus,^/Fels, auf dem die Kirche steht,^lHüter der Herde,^/die dir Christus anvertraut,^leinst hast du weinend^/den Verrat am Herrn bereut,^lzeigst nun im Tode,^/dass du wirklich ihn geliebt.^pHeiliger Paulus,^/Bote du des neuen Heils,^lKünder des Wortes,^/der die Völker Wahrheit lehrt,^leinst hast du eifernd^/Christi Jüngern nachgestellt,^llegst nun im Sterben^/Zeugnis ab mit deinem Blut.^pGöttliche Dreiheit,^/Vater, Sohn und Heil’ger Geist,^/höre den Lobpreis,^lden wir deiner Größe weihn,^/da das Gedächtnis^ldeiner Zeugen uns erfreut.^lGib uns wie ihnen^/einst den Thron der Seligkeit."
       }
   },
   8711: {
     0.0: {
         "title": "Was in der Vorzeit rühmend ward besungen",
         "quote": "Benedikt",
-        "text": "Was in der Vorzeit rühmend ward besungen,^lwas wir vernahmen von der Väter Größe,^ldas macht dein Leben, heil’ger Benediktus,^lleuchtend uns sichtbar.^pAbraham gleichend, folgtest du dem Rufe,^lzogst aus der Heimat, wie dir Gott geboten,^lsuchtest die Stätte, die er dir verheißen,^lgläubigen Herzens.^pEin zweiter Mose, gabst du deinen Söhnen^lWeisung und Regel für den Weg des Lebens,^lWas ihr Beruf sei, lehrtest du die Mönche:^lGott nur zu suchen.^pLob sei dem Vater auf dem höchsten Throne,^lLob sei dem Sohne, Gott aus Gott geboren,^lLob sei dem Geiste, der von beiden ausgeht,^limmer und ewig. Amen."
+        "text": "Was in der Vorzeit^/rühmend ward besungen,^lwas wir vernahmen^/von der Väter Größe,^ldas macht dein Leben,^/heil’ger Benediktus,^lleuchtend uns sichtbar.^pAbraham gleichend,^/folgtest du dem Rufe,^lzogst aus der Heimat,^/wie dir Gott geboten,^lsuchtest die Stätte,^/die er dir verheißen,^lgläubigen Herzens.^pEin zweiter Mose,^/gabst du deinen Söhnen^lWeisung und Regel^/für den Weg des Lebens,^lWas ihr Beruf sei,^/lehrtest du die Mönche:^lGott nur zu suchen.^pLob sei dem Vater^/auf dem höchsten Throne,^lLob sei dem Sohne,^/Gott aus Gott geboren,^lLob sei dem Geiste,^/der von beiden ausgeht,^limmer und ewig. Amen."
       }
   },
   8806: {
@@ -3370,7 +3370,7 @@ export const psalmsData = {
     4.0: {
         "title": "Sieger im Tode, strahlend Verklärter",
         "quote": "Verklärung",
-        "text": "Sieger im Tode, strahlend°Verklärter,^ldich hat der Vater heu-te°verherrlicht.^lDort auf dem Berge sprach°aus°der°Wolke^lmachtvoll die Stimme: „Ihn°sollt°ihr°hören.“^pChristus, dich schauten stau-nend°die°Jünger.^lFurcht und Entsetzen warf°sie°zu°Boden.^lJubelnd bekennt dichheu-te°die°Kirche:^lHerrlicher Sieger, du°bist°das°Leben.^pDu schenkst den Deinen Kraft°auf°dem°Wege,^lführst sie durch Drangsal bis°zur°Vollendung.^lSchenk uns des Geistes machtvol-les°Wirken,^llass uns beim Vater ewig°dich°schauen."
+        "text": "Sieger im Tode,^/strahlend°Verklärter,^ldich hat der Vater^/heute°verherrlicht.^lDort auf dem Berge^/sprach°aus°der°Wolke^lmachtvoll die Stimme:^/„Ihn°sollt°ihr°hören.“^pChristus, dich schauten^/staunend°die°Jünger.^lFurcht und Entsetzen^/warf°sie°zu°Boden.^lJubelnd bekennt dich^/heute°die°Kirche:^lHerrlicher Sieger,^/du°bist°das°Leben.^pDu schenkst den Deinen^/Kraft°auf°dem°Wege,^lführst sie durch Drangsal^/bis°zur°Vollendung.^lSchenk uns des Geistes^/machtvolles°Wirken,^llass uns beim Vater^/ewig°dich°schauen."
       }
   },
   8815: {
@@ -3396,7 +3396,7 @@ export const psalmsData = {
     1.0: {
         "title": "Heute preisen wir froh",
         "quote": "Lioba",
-        "text": "Heute preisen wir froh^lunseren großen Gott,^lder dich berufen hat,^lheilige Lioba.^lSiegreich trägst du den Kranz,^lleuchtest in weißem Kleid,^lstrahlst als Jungfrau auf immerdar.^pSchon im Dunkel der Welt^lfolgtest du seinem Licht,^lhörtest den großen Ruf,^lbotst Dich ihm willig dar,^lbrachtest ins deutsche Land^lKunde von seinem Wort.^lAllen wurdest du Lehrerin.^pLiebe war dein Gewand,^lLiebe teiltest du aus,^lliebend gabst du dich hin,^lum allen Liebe zu sein.^lHilf uns, gütige Frau,^ldass wir vereint mit dir^lBoten seien für Christi Reich.^pHöre, ewiger Gott,^lhöre auf unser Lob.^lGnädig blicke uns an,^lführe uns hin zu dir.^lLass uns jubelnd im Chor^lsingen das neue Lied^ldir, dem Herrn aller Welt und Zeit."
+        "text": "Heute preisen wir froh^/unseren großen Gott,^lder dich berufen hat,^/heilige Lioba.^lSiegreich trägst du den Kranz,^/leuchtest in weißem Kleid,^lstrahlst als Jungfrau auf immerdar.^pSchon im Dunkel der Welt^/folgtest du seinem Licht,^lhörtest den großen Ruf,^/botst Dich ihm willig dar,^lbrachtest ins deutsche Land^/Kunde von seinem Wort.^lAllen wurdest du Lehrerin.^pLiebe war dein Gewand,^/Liebe teiltest du aus,^lliebend gabst du dich hin,^/um allen Liebe zu sein.^lHilf uns, gütige Frau,^/dass wir vereint mit dir^lBoten seien für Christi Reich.^pHöre, ewiger Gott,^/höre auf unser Lob.^lGnädig blicke uns an,^/führe uns hin zu dir.^lLass uns jubelnd im Chor^/singen das neue Lied^ldir, dem Herrn aller Welt und Zeit."
       },
     2.0: {
         "title": "Lioba, heilige Frau",
@@ -3433,14 +3433,14 @@ export const psalmsData = {
     2.0: {
         "title": "Michael, kämpfe für die Ehre Gottes",
         "quote": "Erzengel-Ld",
-        "text": "Michael, kämpfe für die Ehre Gottes,^lEngel des Friedens, banne Krieg und Unheil,^lschütze die Kirche, schütze die Erlösten^lvor allem Bösen.^pGabriel, künde Gottes Plan und Ratschluss,^lBote des Heiles, lehre uns, zu glauben^lund das Geheimnis, das du offenbartest,^lneu zu verkünden.^pRafael, heile Krankheit und Gebrechen,^llindre die Schmerzen, spende Trost und Hilfe,^lführe uns Blinde aus der Erde Dunkel^lzum Paradiese.^pChristus, du Freude aller heil’gen Engel,^lHeiland der Menschen, König der Erlösten,^llass uns auf ewig mit den Engeln singen:^lLob dem Dreieinen. Amen."
+        "text": "Michael, kämpfe^/für die Ehre Gottes,^lEngel des Friedens,^/banne Krieg und Unheil,^lschütze die Kirche,^/schütze die Erlösten^lvor allem Bösen.^pGabriel, künde Gottes^/Plan und Ratschluss,^lBote des Heiles,^/lehre uns, zu glauben^lund das Geheimnis,^/das du offenbartest,^lneu zu verkünden.^pRafael, heile^/Krankheit und Gebrechen,^llindre die Schmerzen,^/spende Trost und Hilfe,^lführe uns Blinde^/aus der Erde Dunkel^lzum Paradiese.^pChristus, du Freude^/aller heil’gen Engel,^lHeiland der Menschen,^/König der Erlösten,^llass uns auf ewig^/mit den Engeln singen:^lLob dem Dreieinen. Amen."
       }
   },
   9002: {
     0.0: {
         "title": "Herr aller Mächte, Throne und Gewalten",
         "quote": "Schutzengel",
-        "text": "Herr aller Mächte,^lThrone und Gewalten,^ldir gilt der Lobpreis,^lden die Schöpfung darbringt.^lZu deiner Ehre^lsingen alle Wesen,^ldie du erschaffen.^pVor deiner Größe^lneigen sich in Ehrfurcht^lChöre der Engel,^ldienen dir voll Freude.^lAlle Erlösten^ldanken dir auf ewig^lfür deine Liebe.^pUnd deine Kirche^ljubelt heut mit ihnen,^ldenn du bist nahe,^lführst sie durch die Zeiten,^lwehrest dem Bösen,^lsendest deine Engel,^luns zu behüten.^pLob sei dem Vater^lauf dem höchsten Throne,^lLob sei dem Sohne,^ldem die Engel dienen,^lLob sei dem Geiste,^lder von beiden ausgeht,^limmer und ewig. Amen."
+        "text": "Herr aller Mächte,^/Throne und Gewalten,^ldir gilt der Lobpreis,^/den die Schöpfung darbringt.^lZu deiner Ehre^/singen alle Wesen,^ldie du erschaffen.^pVor deiner Größe^/neigen sich in Ehrfurcht^lChöre der Engel,^/dienen dir voll Freude.^lAlle Erlösten^/danken dir auf ewig^lfür deine Liebe.^pUnd deine Kirche^/jubelt heut mit ihnen,^ldenn du bist nahe,^/führst sie durch die Zeiten,^lwehrest dem Bösen,^/sendest deine Engel,^luns zu behüten.^pLob sei dem Vater^/auf dem höchsten Throne,^lLob sei dem Sohne,^/dem die Engel dienen,^lLob sei dem Geiste,^/der von beiden ausgeht,^limmer und ewig. Amen."
       }
   },
   9101: {
@@ -3464,7 +3464,7 @@ export const psalmsData = {
     2.0: {
         "title": "Brüder, preiset im Lob heute Elisabeth",
         "quote": "Elisabeth",
-        "text": "Brüder, preiset im Lob^lheute Elisabeth,^lrühmt ihr herrliches Los,^lrühmt ihren hohen Mut.^lGlühen muss uns das Herz,^lwenn wir im Lied erhöhn^lSieg und Krone der edlen Frau.^pGroß von hoher Geburt,^lFürstin aus edlem Stamm,^lleuchtend strahlt ihr Gewand,^ldas ihr die Gnade wob.^lAnmut zeichnet sie aus,^lSchönheit und edler Sinn:^lGott gehört ihre Seele ganz.^pLiebe lenkt ihren Weg,^löffnet ihr Herz und Hand. ^lReichlich spendet sie aus,^lHungrigen reicht sie Brot,^lKranke richtet sie auf,^lkleidet die Nackten ein:^lChristus dient sie wie eine Magd.^pStandhaft trägt sie den Hass,^lgibt sich der Bosheit preis.^lEinsam steigt sie hinab,^lschreitet durch bittre Not.^lFreudig bringt sie ihr Lob^lChristus, dem Herrn der Welt,^lgibt ihr Leben aus Liebe hin.^pHöre, ewiger Gott,^lhöre auf unser Lob.^lGnädig blicke uns an,^lführe uns hin zu dir.^lLass uns jubelnd im Chor^lsingen das neue Lied^ldir, dem Herrn aller Welt und Zeit."
+        "text": "Brüder, preiset im Lob^/heute Elisabeth,^lrühmt ihr herrliches Los,^/rühmt ihren hohen Mut.^lGlühen muss uns das Herz,^/wenn wir im Lied erhöhn^lSieg und Krone der edlen Frau.^pGroß von hoher Geburt,^/Fürstin aus edlem Stamm,^lleuchtend strahlt ihr Gewand,^/das ihr die Gnade wob.^lAnmut zeichnet sie aus,^/Schönheit und edler Sinn:^lGott gehört ihre Seele ganz.^pLiebe lenkt ihren Weg,^/öffnet ihr Herz und Hand. ^lReichlich spendet sie aus,^/Hungrigen reicht sie Brot,^lKranke richtet sie auf,^/kleidet die Nackten ein:^lChristus dient sie wie eine Magd.^pStandhaft trägt sie den Hass,^/gibt sich der Bosheit preis.^lEinsam steigt sie hinab,^/schreitet durch bittre Not.^lFreudig bringt sie ihr Lob^/Christus, dem Herrn der Welt,^lgibt ihr Leben aus Liebe hin.^pHöre, ewiger Gott,^/höre auf unser Lob.^lGnädig blicke uns an,^/führe uns hin zu dir.^lLass uns jubelnd im Chor^/singen das neue Lied^ldir, dem Herrn aller Welt und Zeit."
       },
     3.0: {
         "title": "Der hehre Tag bricht an, da, hohe Frau",

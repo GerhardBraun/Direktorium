@@ -70,7 +70,8 @@ export const formatText = (text) => {
 
 // Formatiert Gebetstext mit speziellen Tags und saisonalen Anpassungen
 export const formatPrayerText = (provText, marker = '',
-    hour = '', texts = {}, prefSrc = '', localPrefLanguage = '') => {
+    hour = '', texts = {},
+    prefSrc = '', localPrefLanguage = '', isNarrowScreen = false) => {
     if (!provText || provText === 'LEER') return null;
     const { season, isCommemoration, combinedSWD = '' } = texts;
     const { nominativ, genitiv, vokativ } = texts?.laudes?.[prefSrc] || {};
@@ -130,7 +131,7 @@ export const formatPrayerText = (provText, marker = '',
         .replace(/°/g, '\u00A0')
         .replace(/\^\*/g, '\u00A0*\n')
         .replace(/\^\+/g, '\u00A0†\n')
-        .replace(/\^\//g, '    ')
+        .replace(/\^\//g, isNarrowScreen ? '\n' : '    ')
         .replace(/\^-/g, '\u2011')
         .replace(/(\w)–/g, '$1\u200C–')
         .replace(/–(\w)/g, '–\u200C$1')
