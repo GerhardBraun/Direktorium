@@ -113,11 +113,10 @@ const MarAntSelector = ({ season, localPrefLatin, formatPrayerText }) => {
                     key={ant.season}
                     onClick={() => setSelectedAntSeason(ant.season)}
                     className={`w-full text-sm text-left pl-3 pt-1 pb-0 mt-1 rounded
-                    ${ant.season === (season === 'w' ? 'a' : season) ? 'btn-blue' : 'btn-default'}
-                    hover:bg-gray-200 dark:hover:bg-gray-700
-
-                    ${selectedAntSeason === ant.season ? 'ring-2 ring-yellow-500' : ''}`}
-                >
+                    ${ant.season === (season === 'w' ? 'a' : season)
+                            ? 'btn-blue' : 'btn-default'}
+                    ${selectedAntSeason === ant.season
+                            ? 'ring-2 ring-yellow-500' : ''}`}                >
                     <div className="flex items-baseline">
                         <div>
                             {localPrefLatin ? ant.title_lat : ant.title}

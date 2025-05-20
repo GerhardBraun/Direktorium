@@ -93,7 +93,7 @@ module.exports = {
         },
         // Neue Button-Komponenten
         '.btn-default': {
-          '@apply bg-gray-200 dark:bg-gray-700 text-dunkel dark:text-gray-100 hover:bg-gray-200 dark:hover:bg-gray-700': {}
+          '@apply bg-gray-200 dark:bg-gray-700 text-dunkel dark:text-gray-100 hover:bg-gray-300 dark:hover:bg-gray-600': {}
         },
         '.btn-green': {
           '@apply bg-liturgical-green text-hell hover:bg-liturgical-green-hover': {}

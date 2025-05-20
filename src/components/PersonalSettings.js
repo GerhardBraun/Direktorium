@@ -1,57 +1,58 @@
 import React, { useState, useEffect } from 'react';
+import { getLocalStorage, setLocalStorage } from './utils/localStorage.js';
 
 const PersonalSettings = () => {
     const [personalData, setPersonalData] = useState(null);
     const [startView, setStartView] = useState(() =>
-        localStorage.getItem('startViewMode') || 'directory'
+        getLocalStorage('startViewMode') || 'directory'
     );
     const [prefFootnotes, setPrefFootnotes] = useState(() => {
-        const storedValue = localStorage.getItem('prefFootnotes');
+        const storedValue = getLocalStorage('prefFootnotes');
         return storedValue === 'false' ? false : true;
     });
     const [prefLanguage, setPrefLanguage] = useState(() =>
-        localStorage.getItem('prefLanguage') || ''
+        getLocalStorage('prefLanguage') || ''
     );
     const [popeName, setPopeName] = useState(() =>
-        localStorage.getItem('popeName') || 'Leo'
+        getLocalStorage('popeName') || 'Leo'
     );
     const [bishopName, setBishopName] = useState(() =>
-        localStorage.getItem('bishopName') || ''
+        getLocalStorage('bishopName') || ''
     );
     const [sequenceInv, setSequenceInv] = useState(() => {
-        const stored = localStorage.getItem('sequenceInv');
+        const stored = getLocalStorage('sequenceInv');
         return stored ? JSON.parse(stored) : [95, 100, 24, 67, 67, 100, 24];
     });
 
     useEffect(() => {
-        const loadedData = localStorage.getItem('personalData');
+        const loadedData = getLocalStorage('personalData');
         if (loadedData) {
             setPersonalData(JSON.parse(loadedData));
         }
     }, []);
 
     useEffect(() => {
-        localStorage.setItem('startViewMode', startView);
+        setLocalStorage('startViewMode', startView);
     }, [startView]);
 
     useEffect(() => {
-        localStorage.setItem('prefFootnotes', prefFootnotes);
+        setLocalStorage('prefFootnotes', prefFootnotes);
     }, [prefFootnotes]);
 
     useEffect(() => {
-        localStorage.setItem('prefLanguage', prefLanguage);
+        setLocalStorage('prefLanguage', prefLanguage);
     }, [prefLanguage]);
 
     useEffect(() => {
-        localStorage.setItem('popeName', popeName);
+        setLocalStorage('popeName', popeName);
     }, [popeName]);
 
     useEffect(() => {
-        localStorage.setItem('bishopName', bishopName);
+        setLocalStorage('bishopName', bishopName);
     }, [bishopName]);
 
     useEffect(() => {
-        localStorage.setItem('sequenceInv', JSON.stringify(sequenceInv));
+        setLocalStorage('sequenceInv', JSON.stringify(sequenceInv));
     }, [sequenceInv]);
 
     const handleSequenceChange = (event, index) => {
@@ -85,36 +86,35 @@ const PersonalSettings = () => {
             const isValid = validateDataStructure(data);
 
             if (isValid) {
-                localStorage.setItem('personalData', JSON.stringify(data));
+                setLocalStorage('personalData', JSON.stringify(data));
                 setPersonalData(data);
 
                 if (data.settings) {
                     if (data.settings.startViewMode) {
                         setStartView(data.settings.startViewMode);
-                        localStorage.setItem('startViewMode', data.settings.startViewMode);
+                        setLocalStorage('startViewMode', data.settings.startViewMode);
                     }
                     if (data.settings.prefFootnotes !== undefined) {
                         setPrefFootnotes(data.settings.prefFootnotes);
-                        localStorage.setItem('prefFootnotes', data.settings.prefFootnotes);
+                        setLocalStorage('prefFootnotes', data.settings.prefFootnotes);
                     }
                     if (data.settings.prefLanguage) {
                         setPrefLanguage(data.settings.prefLanguage);
-                        localStorage.setItem('prefLanguage', data.settings.prefLanguage);
+                        setLocalStorage('prefLanguage', data.settings.prefLanguage);
                     }
                     if (data.settings.popeName) {
                         setPopeName(data.settings.popeName);
-                        localStorage.setItem('popeName', data.settings.popeName);
+                        setLocalStorage('popeName', data.settings.popeName);
                     }
                     if (data.settings.bishopName) {
                         setBishopName(data.settings.bishopName);
-                        localStorage.setItem('bishopName', data.settings.bishopName);
+                        setLocalStorage('bishopName', data.settings.bishopName);
                     }
                     if (data.settings.sequenceInv) {
                         setSequenceInv(data.settings.sequenceInv);
-                        localStorage.setItem('sequenceInv', JSON.stringify(data.settings.sequenceInv));
+                        setLocalStorage('sequenceInv', JSON.stringify(data.settings.sequenceInv));
                     }
                 }
-
                 alert('Persönliche Einstellungen erfolgreich importiert');
             } else {
                 alert('Ungültiges Dateiformat');
@@ -126,7 +126,7 @@ const PersonalSettings = () => {
     };
 
     const handleExport = () => {
-        const data = localStorage.getItem('personalData');
+        const data = getLocalStorage('personalData');
         let exportData = data ? JSON.parse(data) : {};
 
         exportData.settings = {
