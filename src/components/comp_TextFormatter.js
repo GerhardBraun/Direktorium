@@ -6,15 +6,17 @@ import { getLocalStorage } from './utils/localStorage.js';
 export const formatPsalm = (psalm, localPrefLanguage = '') => {
     if (!psalm || !psalm.text) return null;
 
-    const doxology = localPrefLanguage === "_lat"
-        ? "Glória Patri et Fílio^*et Spirítui Sancto.^pSicut erat in princípio, et°nunc°et°semper^*et in sǽcula sæculórum. Amen."
-        : "Ehre sei dem Vater und dem Sohn^*und dem Heiligen Geist,^pwie im Anfang, so°auch°jetzt°und°alle°Zeit^*und in Ewigkeit. Amen.";
-
     const number = psalm[`number${localPrefLanguage}`] || psalm.number;
     const verses = psalm[`verses${localPrefLanguage}`] || psalm.verses || "";
     const title = psalm[`title${localPrefLanguage}`] || psalm.title || "";
     const quote = psalm[`quote${localPrefLanguage}`] || psalm.quote || "";
     const text = psalm[`text${localPrefLanguage}`] || psalm.text;
+
+    const hasLatin = localPrefLanguage === "_lat"
+        && psalm[`text${localPrefLanguage}`];
+    const doxology = hasLatin
+        ? "Glória Patri et Fílio^*et Spirítui Sancto.^pSicut erat in princípio, et°nunc°et°semper^*et in sǽcula sæculórum. Amen."
+        : "Ehre sei dem Vater und dem Sohn^*und dem Heiligen Geist,^pwie im Anfang, so°auch°jetzt°und°alle°Zeit^*und in Ewigkeit. Amen.";
 
     return (
         <div className="mb-4">
@@ -74,12 +76,8 @@ export const formatPrayerText = (provText, marker = '',
     const { nominativ, genitiv, vokativ } = texts?.laudes?.[prefSrc] || {};
 
     const useFootnoteList = getLocalStorage('prefFootnotes') === 'true';
-    const easterAntiphon = localPrefLanguage === "_lat"
-        ? "^p^rLoco responsorii dicitur:^0r^lHæc est dies quam fecit Dóminus: exsultémus\u00a0et\u00a0lætémur\u00a0in\u00a0ea.\u00a0Allelúia."
-        : "^p^rAnstelle des Responsoriums wird die\u00a0folgende\u00a0Antiphon\u00a0genommen:^0r^lDas ist der Tag, den der Herr gemacht hat. Lasst\u00a0uns\u00a0jubeln und seiner uns freuen. Halleluja.";
-    const replHalleluja = localPrefLanguage === "_lat"
-        ? " Allelúia." : " Halleluja."
-
+    const latinEasterAntiphon = "^p^rLoco responsorii dicitur:^0r^lHæc est dies quam fecit Dóminus: exsultémus\u00a0et\u00a0lætémur\u00a0in\u00a0ea.\u00a0Allelúia."
+    const easterAntiphon = "^p^rAnstelle des Responsoriums wird die\u00a0folgende\u00a0Antiphon\u00a0genommen:^0r^lDas ist der Tag, den der Herr gemacht hat. Lasst\u00a0uns\u00a0jubeln und seiner uns freuen. Halleluja.";
     // Wenn marker='oration' und isCommemoration=true, dann leere orSchluss-Elemente
     const orSchluss = ['lesehore', 'laudes', 'vesper'].includes(hour)
         ? (marker === 'commemoration' && isCommemoration === true)
@@ -127,6 +125,8 @@ export const formatPrayerText = (provText, marker = '',
     marker = (marker === 'commemoration') ? '' : marker;
     let text = marker ? `^r${marker}^0r${provText}` : provText;
     text = text
+        .replace(/_lat/g, '')
+        .replace(/_neu/g, '')
         .replace(/°/g, '\u00A0')
         .replace(/\^\*/g, '\u00A0*\n')
         .replace(/\^\+/g, '\u00A0†\n')
@@ -135,9 +135,12 @@ export const formatPrayerText = (provText, marker = '',
         .replace(/(\w)–/g, '$1\u200C–')
         .replace(/–(\w)/g, '–\u200C$1')
         .replace(/([0-9])-([0-9])/g, '$1\u200C\u2013\u200C$2')
-        .replace(/\^ö/g, season === 'o' ? replHalleluja : '')
-        .replace(/\^Ö/g, season === 'q' ? '' : replHalleluja)
+        .replace(/\^ö/g, season === 'o' ? ' Halleluja.' : '')
+        .replace(/\^Ö/g, season === 'q' ? '' : ' Halleluja.')
+        .replace(/\^Lö/g, season === 'o' ? ' Allelúia.' : '')
+        .replace(/\^LÖ/g, season === 'q' ? '' : ' Allelúia.')
         .replace(/\^R/g, (combinedSWD.startsWith('o-1-') || combinedSWD === 'o-2-0') ? easterAntiphon : '')
+        .replace(/\^LR/g, (combinedSWD.startsWith('o-1-') || combinedSWD === 'o-2-0') ? latinEasterAntiphon : '')
         .replace(/\^ORvR/g, orSchluss.vR)
         .replace(/\^ORV/g, orSchluss.V)
         .replace(/,\^ORS/g, orSchluss.S)

@@ -1272,8 +1272,8 @@ const PrayerTextDisplay = ({
   const { rank_wt = 0, rank_date = 0, isCommemoration } = texts;
 
   // Get value from sources in priority order: prefSrc -> com1/com2 -> wt
-  const getValue = (field) =>
-    extGetValue({
+  const getValue = (field) => {
+    const resultLanguage = extGetValue({
       hour,
       prefSrc,
       prefSollemnity,
@@ -1283,8 +1283,25 @@ const PrayerTextDisplay = ({
       localPrefContinuous,
       localPrefKomplet,
       texts,
-      field,
-    });
+      field: `${field}${localPrefLanguage}`,
+    })
+    return resultLanguage ?
+      (typeof resultLanguage === 'string'
+        ? resultLanguage + `${localPrefLanguage}`
+        : resultLanguage)
+      : extGetValue({
+        hour,
+        prefSrc,
+        prefSollemnity,
+        localPrefComm,
+        localPrefPsalmsWt,
+        localPrefErgPs,
+        localPrefContinuous,
+        localPrefKomplet,
+        texts,
+        field,
+      })
+  };
 
   // Component for section headers with source indicators
   const SectionHeader = ({
@@ -1365,13 +1382,19 @@ const PrayerTextDisplay = ({
     );
   };
 
-  const language = localPrefLatin ? "lat" : "dt";
-  let ordinarium = ordinariumData?.[hour]?.[language] || ''
+  const invText = () => {
+    const prop = 'text' + `${localPrefLanguage}`
+    return psalmsData[localPrefInv][0][prop]
+      || psalmsData[localPrefInv][0].text;
+  }
+
+  const languageToRead = localPrefLatin ? "lat" : "dt";
+  let ordinarium = ordinariumData?.[hour]?.[languageToRead] || ''
   if (
     hour === 'lesehore' &&
     ((texts.rank_wt > 2 && season !== 'p') || texts.rank_date > 2)
   ) {
-    ordinarium = ordinariumData?.TeDeum?.[language]
+    ordinarium = ordinariumData?.TeDeum?.[languageToRead]
   }
 
   let opening = localPrefLatin ? [
@@ -1543,7 +1566,7 @@ const PrayerTextDisplay = ({
                 <div className="mb-4">
                   {formatPsalm({
                     number: localPrefInv,
-                    text: psalmsData[localPrefInv][0].text
+                    text: invText()
                   })}
                 </div>
               )}
@@ -1656,7 +1679,9 @@ const PrayerTextDisplay = ({
                 />
                 {hour !== "lesehore" && (
                   <div>
-                    Ehre sei dem Vater und&nbsp;dem&nbsp;Sohn und&nbsp;dem&nbsp;Heiligen&nbsp;Geist.
+                    {getValue("resp1_3").endsWith("_lat")
+                      ? 'Glória Patri et Fílio et\u00a0Spirítui\u00a0Sancto.'
+                      : 'Ehre sei dem Vater und\u00a0dem\u00a0Sohn und\u00a0dem\u00a0Heiligen\u00a0Geist.'}
                     <Rubric> –&#8288;&#160;R</Rubric>
                   </div>
                 )}
