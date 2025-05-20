@@ -93,7 +93,7 @@ module.exports = {
         },
         // Neue Button-Komponenten
         '.btn-default': {
-          '@apply bg-gray-100 dark:bg-gray-800 text-dunkel dark:text-gray-100 hover:bg-gray-200 dark:hover:bg-gray-700': {}
+          '@apply bg-gray-200 dark:bg-gray-700 text-dunkel dark:text-gray-100 hover:bg-gray-200 dark:hover:bg-gray-700': {}
         },
         '.btn-green': {
           '@apply bg-liturgical-green text-hell hover:bg-liturgical-green-hover': {}
@@ -111,7 +111,7 @@ module.exports = {
           '@apply bg-liturgical-red text-hell hover:bg-liturgical-red-hover': {}
         },
         '.btn-blue': {
-          '@apply bg-liturgical-blue text-hell hover:bg-liturgical-blue-hover': {}
+          '@apply bg-liturgical-blue text-dunkel dark:text-hell hover:bg-liturgical-blue-hover': {}
         },
         '.btn-brown': {
           '@apply bg-liturgical-brown text-hell hover:bg-liturgical-brown-hover': {}
