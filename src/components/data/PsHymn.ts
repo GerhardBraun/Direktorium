@@ -1977,28 +1977,36 @@ export const psalmsData = {
     0.0: {
         "verses": "Offb°4,11;°5,9–10.12",
         "title": "Danklied der Erlösten",
-        "text": "Würdig bist du, Herr, unser Gott,^*Herrlichkeit zu empfangen und Ehre und Macht.^pDenn du bist es, der°die°Welt°erschaffen°hat,^*durch deinen Willen war sie und wurde durch ihn erschaffen.^pHerr, du bist würdig,^*das Buch zu nehmen und seine Siegel zu öffnen;^pdenn du wurdest geschlachtet^+und hast mit deinem Blut Menschen°für°Gott°erworben^*aus allen Stämmen und Sprachen, aus allen Nationen und Völkern,^pund du hast sie zu Königen und Priestern gemacht für°unseren°Gott;^*und sie werden auf der Erde herrschen.^pWürdig ist das Lamm, das°geschlachtet°ist,^+Macht zu empfangen, Reichtum°und°Weisheit,^*Kraft und Ehre, Lob und Herrlichkeit."
+        "text": "Würdig bist du, Herr, unser Gott,^*Herrlichkeit zu empfangen und Ehre und Macht.^pDenn du bist es, der°die°Welt°erschaffen°hat,^*durch deinen Willen war sie und wurde durch ihn erschaffen.^pHerr, du bist würdig,^*das Buch zu nehmen und seine Siegel zu öffnen;^pdenn du wurdest geschlachtet^+und hast mit deinem Blut Menschen°für°Gott°erworben^*aus allen Stämmen und Sprachen, aus allen Nationen und Völkern,^pund du hast sie zu Königen und Priestern gemacht für°unseren°Gott;^*und sie werden auf der Erde herrschen.^pWürdig ist das Lamm, das°geschlachtet°ist,^+Macht zu empfangen, Reichtum°und°Weisheit,^*Kraft und Ehre, Lob und Herrlichkeit.",
+        "title_lat": "Hymnus redemptorum",
+        "text_lat": "Dignus es, Dómine et Deus noster,^*accípere glóriam et honórem et virtútem,^pquia tu creásti ómnia,^*et propter voluntátem tuam erant et creáta sunt.^pDignus es, Dómine, accípere librum^*et aperíre signácula eius,^pquóniam occísus es^+et redemísti Deo in sánguine tuo^*ex omni tribu et língua et pópulo et natióne;^pet fecísti eos Deo nostro regnum et sacerdótes,^*et regnábunt super terram.^pDignus est Agnus, qui occísus est,^+accípere virtútem et divítias et sapiéntiam^*et fortitúdinem et honórem et glóriam et benedictiónem."
       }
   },
   154: {
     0.0: {
         "verses": "Kol°1,12–20",
         "title": "Christus, der Erstgeborene der ganzen Schöpfung",
-        "text": "Dankt dem Vater mit Freude!^*Er hat euch fähig gemacht, Anteil zu haben am Los der Heiligen, die im Licht sind.^pEr hat uns der°Macht°der°Finsternis°entrissen^*und aufgenommen in das Reich seines geliebten Sohnes.^pDurch ihn haben wir die Erlösung,^*die Vergebung der Sünden.^pEr ist das Ebenbild des°unsichtbaren°Gottes,^*der Erstgeborene der ganzen Schöpfung.^pDenn in ihm wurde alles erschaffen^*im Himmel und auf Erden,^pdas Sichtbare und das Unsichtbare,^+Throne und Herrschaften, Mächte°und°Gewalten;^*alles ist durch ihn und auf ihn hin geschaffen.^pEr ist vor aller Schöpfung,^*in ihm hat alles Bestand.^pEr ist das Haupt des Leibes,^*der Leib aber ist die Kirche.^pEr ist der Ursprung,^+der Erstgeborene der Toten;^*so hat er in allem den Vorrang.^pDenn Gott wollte mit seiner ganzen Fülle in°ihm°wohnen,^*um durch ihn alles zu versöhnen.^pAlles im Himmel und auf Erden wollte°er°zu°Christus°führen,^*der Frieden gestiftet hat am Kreuz durch sein Blut."
+        "text": "Dankt dem Vater mit Freude!^*Er hat euch fähig gemacht, Anteil zu haben am Los der Heiligen, die im Licht sind.^pEr hat uns der°Macht°der°Finsternis°entrissen^*und aufgenommen in das Reich seines geliebten Sohnes.^pDurch ihn haben wir die Erlösung,^*die Vergebung der Sünden.^pEr ist das Ebenbild des°unsichtbaren°Gottes,^*der Erstgeborene der ganzen Schöpfung.^pDenn in ihm wurde alles erschaffen^*im Himmel und auf Erden,^pdas Sichtbare und das Unsichtbare,^+Throne und Herrschaften, Mächte°und°Gewalten;^*alles ist durch ihn und auf ihn hin geschaffen.^pEr ist vor aller Schöpfung,^*in ihm hat alles Bestand.^pEr ist das Haupt des Leibes,^*der Leib aber ist die Kirche.^pEr ist der Ursprung,^+der Erstgeborene der Toten;^*so hat er in allem den Vorrang.^pDenn Gott wollte mit seiner ganzen Fülle in°ihm°wohnen,^*um durch ihn alles zu versöhnen.^pAlles im Himmel und auf Erden wollte°er°zu°Christus°führen,^*der Frieden gestiftet hat am Kreuz durch sein Blut.",
+        "title_lat": "Christus primogenitus omnis creaturae et primogenitus ex mortuis",
+        "text_lat": "Grátias agámus Patri,^*qui idóneos vos fecit in partem sortis sanctórum in lúmine;^pqui erípuit nos de potestáte tenebrárum^*et tránstulit in regnum Fílii diléctionis suæ,^pin quo habémus redemptiónem,^*remissiónem peccatórum;^pqui est imágo Dei invisíbilis,^*primogénitus omnis creatúræ,^pquia in ipso cóndita sunt univérsa^+in cælis et in terra,^*visibília et invisibília,^psive throni sive dominatiónes^*sive principátus sive potestátes.^pOmnia per ipsum et in ipsum creáta sunt,^+et ipse est ante ómnia,^*et ómnia in ipso constant.^pEt ipse est caput córporis ecclésiæ;^+qui est princípium, primogénitus ex mórtuis,^*ut sit in ómnibus ipse primátum tenens,^pquia in ipso complácuit omnem plenitúdinem habitáre^*et per eum reconciliáre ómnia in ipsum,^ppacíficans per sánguinem crucis eius,^*sive quæ in terris sive quæ in cælis sunt."
       }
   },
   155: {
     0.0: {
         "verses": "Offb°11,17–18;°12,10b–12a",
         "title": "Das Gericht Gottes",
-        "text": "Wir danken dir, Herr und Gott,^+du Herrscher über die ganze Schöpfung,^*der du bist und der du warst:^pdenn du nahmst deine große Macht in°Anspruch^*und tratst deine Herrschaft an.^pDie Völker gerieten in Zorn.^*Da kam dein Zorn: die Zeit, die Toten zu richten,^pdie Zeit, deine Knechte zu belohnen,^*die Propheten und die Heiligen^pund alle, die deinen Namen fürchten,^*die Großen und die Kleinen,^pdie Zeit, alle zu verderben,^*die die Erde verderben.^pJetzt ist er da, der rettende Sieg,^+die Macht und die Herrschaft unsres°Gottes^*und die Vollmacht seines Gesalbten;^pdenn gestürzt wurde der°Ankläger°unsrer°Brüder,^*der sie bei Tag und bei Nacht vor unserm Gott verklagte.^pSie haben ihn besiegt durch°das°Blut°des°Lammes^*und durch ihr Wort und ihr Zeugnis.^pSie hielten ihr Leben nicht fest,^*bis hinein in den Tod.^pDarum jubelt, ihr Himmel^*und alle, die darin wohnen."
+        "text": "Wir danken dir, Herr und Gott,^+du Herrscher über die ganze Schöpfung,^*der du bist und der du warst:^pdenn du nahmst deine große Macht in°Anspruch^*und tratst deine Herrschaft an.^pDie Völker gerieten in Zorn.^*Da kam dein Zorn: die Zeit, die Toten zu richten,^pdie Zeit, deine Knechte zu belohnen,^*die Propheten und die Heiligen^pund alle, die deinen Namen fürchten,^*die Großen und die Kleinen,^pdie Zeit, alle zu verderben,^*die die Erde verderben.^pJetzt ist er da, der rettende Sieg,^+die Macht und die Herrschaft unsres°Gottes^*und die Vollmacht seines Gesalbten;^pdenn gestürzt wurde der°Ankläger°unsrer°Brüder,^*der sie bei Tag und bei Nacht vor unserm Gott verklagte.^pSie haben ihn besiegt durch°das°Blut°des°Lammes^*und durch ihr Wort und ihr Zeugnis.^pSie hielten ihr Leben nicht fest,^*bis hinein in den Tod.^pDarum jubelt, ihr Himmel^*und alle, die darin wohnen.",
+        "title_lat": "De iudicio Die",
+        "text_lat": "Grátias ágimus tibi,^*Dómine, Deus omnípotens,^pqui es et qui eras,^*quia accepísti virtútem tuam magnam et regnásti.^pEt irátæ sunt gentes,^*et advénit ira tua, et tempus mortuórum iudicári^pet réddere mercédem servis tuis prophétis et sanctis^+et timéntibus nomen tuum, pusíllis et magnis,^*et extermináre eos, qui extérminant terram.^pNunc facta est salus et virtus et regnum Dei nostri^*et potéstas Christi eius,^pquia proiéctus est accusátor fratrum nostrórum,^*qui accusábat illos ante conspéctum Dei nostri die ac nocte.^pEt ipsi vicérunt illum propter sánguinem Agni^*et propter verbum testimónii sui;^pet non dilexérunt ánimam suam^*usque ad mortem.^pProptérea lætámini, cæli^*et qui habitátis in eis."
       }
   },
   156: {
     0.0: {
         "verses": "Offb°15,3–4",
         "title": "Alle Völker beten Gott an",
-        "text": "Groß und wunderbar sind deine Taten,^*Herr und Gott, du Herrscher über die ganze Schöpfung!^pGerecht und zuverlässig sind°deine°Wege,^*du König der Völker.^pWer wird dich nicht fürchten, Herr,^*wer wird deinen Namen nicht preisen?^pDenn du allein bist heilig:^+Alle Völker kommen und beten dich an;^*denn offenbar geworden sind deine gerechten Taten."
+        "text": "Groß und wunderbar sind deine Taten,^*Herr und Gott, du Herrscher über die ganze Schöpfung!^pGerecht und zuverlässig sind°deine°Wege,^*du König der Völker.^pWer wird dich nicht fürchten, Herr,^*wer wird deinen Namen nicht preisen?^pDenn du allein bist heilig:^+Alle Völker kommen und beten dich an;^*denn offenbar geworden sind deine gerechten Taten.",
+        "title_lat": "Hymnus adorationis",
+        "text_lat": "Magna et mirabília ópera tua,^*Dómine, Deus omnípotens;^piustæ et veræ viæ tuæ,^*Rex géntium!^pQuis non timébit, Dómine,^*et glorificábit nomen tuum?^pQuia solus Sanctus,^+quóniam ómnes gentes vénient et adorábunt in conspéctu tuo,^*quóniam iudícia tua manifestáta sunt.^p^p"
       }
   },
   157: {
@@ -2061,7 +2069,10 @@ export const psalmsData = {
         "verses": "Jdt°16,1–2a.13–15",
         "title": "Die ganze Schöpfung diene dem Herrn",
         "quote": "Sie sangen ein neues Lied. (Offb°5,9)",
-        "text": "Stimmt ein Lied an für meinen Gott unter°Paukenschall,^*singt für den Herrn unter Zimbelklang!^pPreist ihn und singt sein Lob,^+rühmt seinen Namen und ruft ihn an!^*Denn der Herr ist ein Gott, der den Kriegen ein Ende setzt.^pIch singe meinem Gott ein neues Lied;^*Herr, du bist groß und voll Herrlichkeit.^pWunderbar bist du in deiner Stärke,^*keiner kann dich übertreffen.^pDienen muss dir deine°ganze°Schöpfung.^*Denn du hast gesprochen, und alles entstand.^pDu sandtest deinen Geist, um°den°Bau°zu°vollenden.^*Kein Mensch kann deinem Wort widerstehen.^pMeere und Berge erbeben°in°ihrem°Grund,^+vor dir zerschmelzen die Felsen wie°Wachs.^*Doch wer dich fürchtet, der erfährt deine Gnade."
+        "text": "Stimmt ein Lied an für meinen Gott unter°Paukenschall,^*singt für den Herrn unter Zimbelklang!^pPreist ihn und singt sein Lob,^+rühmt seinen Namen und ruft ihn an!^*Denn der Herr ist ein Gott, der den Kriegen ein Ende setzt.^pIch singe meinem Gott ein neues Lied;^*Herr, du bist groß und voll Herrlichkeit.^pWunderbar bist du in deiner Stärke,^*keiner kann dich übertreffen.^pDienen muss dir deine°ganze°Schöpfung.^*Denn du hast gesprochen, und alles entstand.^pDu sandtest deinen Geist, um°den°Bau°zu°vollenden.^*Kein Mensch kann deinem Wort widerstehen.^pMeere und Berge erbeben°in°ihrem°Grund,^+vor dir zerschmelzen die Felsen wie°Wachs.^*Doch wer dich fürchtet, der erfährt deine Gnade.",
+        "title_lat": "Dominus, creator mundi, populum suum protegit",
+        "quote_lat": "Cantabant canticum novum. (Ap 5,9)",
+        "text_lat": "Incípite Deo meo in týmpanis,^*cantáte Dómino meo in cýmbalis,^pmodulámini illi psalmum novum,^+exaltáte et invocáte nomen ipsíus.^*Tu es Deus cónterens bella.^pCantábo Deo meo hymnum novum:^+Dómine, magnus es tu et clarus,^*mirábilis in virtúte et insuperábilis.^pTibi sérviat omnis creatúra tua,^*quóniam dixísti, et facta sunt,^pmisísti spíritum tuum, et ædificáta sunt,^*et non est qui resístat voci tuæ.^pMontes enim a fundaméntis agitabúntur cum áquis,^*petræ autem a fácie tua tamquam cera liquéscent.^pIllis autem, qui timent te, ^*propítius adhuc eris."
       }
   },
   164: {
@@ -2812,7 +2823,7 @@ export const psalmsData = {
     0.0: {
         "title": "Der Tag strebt seiner Höhe zu",
         "quote": "Sext",
-        "text": "Der Tag strebt seiner Höhe zu,^lder Mittag ruft uns zum Gebet:^lwir loben Gott und bitten ihn^lum Segen für den heil’gen Dienst.^pEs leuchtet uns die Stunde auf,^lda Jesus Christus, Gottes Sohn,^lals Opferlamm am Kreuz erhöht,^lzu unsrem Heil sich dargebracht.^pO wahre Sonne dieser Welt,^lvor dir verblasst des Mittags Schein;^ldie Menschheit ist durch dich erlöst,^ldie Welt erstrahlt verklärt im Licht.^pDen ew’gen Vater preisen wir^lund Jesus Christus, seinen Sohn,^lden Beistand auch, den Heil’gen Geist,^lder uns erleuchtet, stärkt und führt."
+        "text": "Der Tag strebt seiner Höhe zu,^lder Mittag ruft uns zum Gebet:^lWir loben Gott und bitten ihn^lum Segen für den heil’gen Dienst.^pEs leuchtet uns die Stunde auf,^lda Jesus Christus, Gottes Sohn,^lals Opferlamm am Kreuz erhöht,^lzu unsrem Heil sich dargebracht.^pO wahre Sonne dieser Welt,^lvor dir verblasst des Mittags Schein;^ldie Menschheit ist durch dich erlöst,^ldie Welt erstrahlt verklärt im Licht.^pDen ew’gen Vater preisen wir^lund Jesus Christus, seinen Sohn,^lden Beistand auch, den Heil’gen Geist,^lder uns erleuchtet, stärkt und führt."
       }
   },
   2603: {
@@ -3048,7 +3059,7 @@ export const psalmsData = {
     0.0: {
         "title": "Dies ist der klare Tag",
         "quote": "Osterzeit",
-        "text": "Dies ist der klare Tag,^lvon klaren Tagen der klarste,^ldies ist der heilige Tag,^lder heiligste heiliger Tage,^ledler leuchtet er auf,^lals edle Krone der Tage.^pFestlicher als das ganze Jahr^lerglänzt seine Leuchte,^lda unser Gott den Tod überwand,^lvom Tode erstehend,^lund aus höllischem Schlund^ldie gefangenen Seelen befreite."
+        "text": "Dies ist der klare Tag,^lvon klaren Tagen der klarste,^ldies ist der heilige Tag,^lder heiligste heiliger Tage;^ledler leuchtet er auf,^lals edle Krone der Tage.^pFestlicher als das ganze Jahr^lerglänzt seine Leuchte,^lda unser Gott den Tod überwand,^lvom Tode erstehend,^lund aus höllischem Schlund^ldie gefangenen Seelen befreite."
       }
   },
   3414: {

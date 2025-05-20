@@ -5,7 +5,6 @@ import React from "react";
 import { liturgicalData } from "./data/Direktorium.ts";
 import { deceasedData } from "./data/Deceased.ts";
 import { psalmsData } from "./data/PsHymn.ts";
-import { ordinariumData } from "./data/Ordinarium.ts";
 import { ReferenceDialog, parseTextWithReferences } from "./comp_RefLink.jsx";
 import { getLiturgicalInfo } from "./comp_LitCalendar.js";
 import { processBrevierData } from "./comp_BrevierDataProcessor.js";
@@ -29,6 +28,7 @@ import NavigationButtons from "./comp_NavigationButtons.js";
 import PersonalSettings from "./PersonalSettings.js";
 import TitleBar from "./comp_TitleBar.js";
 import { getLocalStorage, setLocalStorage } from './utils/localStorage.js';
+import { ordinarium } from "./utils/ordinarium.js";
 
 const fontFamily = "Cambria, serif";
 const hangingIndent = "3.2em"; // Variable für den Einzug
@@ -1382,86 +1382,7 @@ const PrayerTextDisplay = ({
     );
   };
 
-  const languageToRead = localPrefLatin ? "lat" : "dt";
-  let ordinarium = ordinariumData?.[hour]?.[languageToRead] || ''
-  if (
-    hour === 'lesehore' &&
-    ((texts.rank_wt > 2 && season !== 'p') || texts.rank_date > 2)
-  ) {
-    ordinarium = ordinariumData?.TeDeum?.[languageToRead]
-  }
-
-  let opening = localPrefLatin ? [
-    "Deus, in adiutórium meum inténde.",
-    "Dómine, ad adiuvándum me festína.",
-    "Glória Patri et Fílio et Spirítui Sancto.",
-    "Sicut erat in princípio, et nunc et semper, et°in°sǽcula°sæculórum.°Amen.^Ö"
-  ] : [
-    "O Gott, komm mir zu Hilfe.",
-    "Herr, eile, mir zu helfen.",
-    "Ehre sei dem Vater und dem Sohn und°dem°Heiligen°Geist.",
-    "Wie im Anfang, so auch jetzt und°alle°Zeit und°in°Ewigkeit.°Amen.^Ö"
-  ];
-  const opening_inv = localPrefLatin ? [
-    "Dómine, lábia mea apéries.",
-    "Et os meum annuntiábit laudem tuam.",
-    "", ""
-  ] : [
-    "Herr, öffne meine Lippen.",
-    "Damit mein Mund dein Lob verkünde.",
-    "", ""
-  ];
-
-  const todayVisit = () => new Date().toISOString().split("T")[0]; // Format YYYY-MM-DD
-  const openMyLips = () => getLocalStorage("openMyLips", "l-ERROR") || '';
-
-  if (hour === 'invitatorium') {
-    setLocalStorage("openMyLips", todayVisit())
-    opening = opening_inv;
-  }
-  if (['lesehore', 'laudes'].includes(hour)
-    && openMyLips() !== todayVisit()) {
-    if (!openMyLips().startsWith('l') || openMyLips() === hour) {
-      setLocalStorage("openMyLips", hour)
-      opening = opening_inv;
-    } else {
-      setLocalStorage("openMyLips", todayVisit())
-    }
-  }
-
-  if (getLocalStorage('ommitOpening') === 'true') {
-    opening = ["", "", "", ""];
-  }
-
-  let closing = localPrefLatin ? [
-    "Benedicámus Dómino.",
-    "Deo grátias."
-  ] : [
-    "Singet Lob und Preis.",
-    "Dank sei Gott, dem Herrn."
-  ];
-  if (['laudes', 'vesper'].includes(hour)) {
-    closing = localPrefLatin ? [
-      "Dóminus nos benedícat, et°ab°omni°malo°deféndat, et°ad°vitam°perdúcat°ætérnam.",
-      "Amen."
-    ] : [
-      "Der Herr segne uns, er°bewahre°uns°vor°Unheil und°führe°uns°zum°ewigen°Leben.",
-      "Amen."
-    ];
-  } else if (hour === 'komplet') {
-    closing = localPrefLatin ? [
-      "Noctem quiétam et finem perféctum concédat°Dóminus°omnípotens.",
-      "Amen."
-    ] : [
-      "Eine ruhige Nacht und ein gutes Ende gewähre°uns°der°allmächtige°Herr.",
-      "Amen."
-    ];
-  } else if (hour === 'invitatorium') {
-    closing = ["", ""];
-  }
-  if (hour === 'lesehore') {
-    closing[2] = "Wenn eine andere Hore unmittelbar angeschlossen wird, entfallen hier Oration und Abschluss; dann folgt jetzt der Hymnus der anschließenden Hore.";
-  }
+  const ordinariumTexts = ordinarium(texts, hour, localPrefLatin, prefSollemnity)
 
   return (
     <div className="leading-[1.33em] pb-8">
@@ -1501,28 +1422,28 @@ const PrayerTextDisplay = ({
             className="mb-4"
           />
         )}
-        {opening[0] && (
+        {ordinariumTexts.opening[0] && (
           <div className="mt-0 mb-0">
             <SectionHeader
               title="ERÖFFNUNG"
               field="resp0_0"
               askLatin={true} />
             <div>
-              {formatPrayerText(opening[0], "V°°")}
+              {formatPrayerText(ordinariumTexts.opening[0], "V°°")}
             </div>
             <div>
-              {formatPrayerText(opening[1], "R°°")}
+              {formatPrayerText(ordinariumTexts.opening[1], "R°°")}
             </div>
           </div>
         )}
 
-        {opening[2] && (
+        {ordinariumTexts.opening[2] && (
           <div className="mt-0 mb-0">
             <div className="mt-1">
-              {formatPrayerText(opening[2])}
+              {formatPrayerText(ordinariumTexts.opening[2])}
             </div>
             <div>
-              {formatPrayerText(opening[3])}
+              {formatPrayerText(ordinariumTexts.opening[3])}
             </div>
           </div>
         )}
@@ -1727,10 +1648,10 @@ const PrayerTextDisplay = ({
           </div>
         )}
 
-        {ordinarium.cant && (
+        {ordinariumTexts.cant && (
           <div className="mb-0">
             <SectionHeader
-              title={ordinarium.titel}
+              title={ordinariumTexts.titel}
               field="ant_ev"
               askLatin={true}
             />
@@ -1740,7 +1661,7 @@ const PrayerTextDisplay = ({
               </div>
             )}
             <div className="mb-4">
-              {formatPrayerText(ordinarium.cant)}
+              {formatPrayerText(ordinariumTexts.cant)}
             </div>
             {getValue("ant_ev") && (
               <div className="mb-0">
@@ -1774,7 +1695,7 @@ const PrayerTextDisplay = ({
           </div>
         )}
 
-        {ordinarium.vu && (
+        {ordinariumTexts.vu && (
           <div className="mb-0">
             <SectionHeader
               title={hour === "lesehore" ? "TE DEUM" : "VATERUNSER"}
@@ -1782,13 +1703,13 @@ const PrayerTextDisplay = ({
               askLatin={true}
             />
             <div className="mb-4 whitespace-pre-wrap">
-              {formatPrayerText(ordinarium.vu)}
+              {formatPrayerText(ordinariumTexts.vu)}
             </div>
           </div>
         )}
 
         <div className="mt-3 text-rubric text-verse">
-          {closing[2]}
+          {ordinariumTexts.closing[2]}
         </div>
 
         {hour !== "invitatorium" && hour !== "komplet" && (
@@ -1812,17 +1733,17 @@ const PrayerTextDisplay = ({
           </div>
         )}
 
-        {closing[0] && (
+        {ordinariumTexts.closing[0] && (
           <div className="mb-0 mt-0">
             <SectionHeader
               title="ABSCHLUSS"
               field="resp0_0"
               askLatin={true} />
             <div className="flex gap-0">
-              {formatPrayerText(closing[0], "V°°")}
+              {formatPrayerText(ordinariumTexts.closing[0], "V°°")}
             </div>
             <div className="flex gap-0">
-              {formatPrayerText(closing[1], "R°°")}
+              {formatPrayerText(ordinariumTexts.closing[1], "R°°")}
             </div>
           </div>
         )}
@@ -1918,7 +1839,7 @@ const PrayerTextDisplay = ({
               {getValue("c_ant_ev") && useCommemoration && (
                 <div className="mb-0">
                   <SectionHeader
-                    title={`${ordinarium.titel}-ANTIPHON`}
+                    title={`${ordinariumTexts.titel}-ANTIPHON`}
                     field="ant_ev"
                   />
                   <div className="mb-4">
@@ -2279,6 +2200,10 @@ export default function LiturgicalCalendar() {
   useEffect(() => {
     setLocalPrefLatin(localPrefLanguage === "_lat");
   }, [localPrefLanguage]);
+
+  useEffect(() => {
+    setLocalPrefLanguage(localPrefLatin ? "_lat" : "");
+  }, [localPrefLatin]);
 
   const allEntries = useMemo(() => {
     const entries = [];

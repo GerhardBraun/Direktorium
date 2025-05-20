@@ -10525,7 +10525,7 @@ export const brevierData = {
         "Sext": {
           "les_buch": "1°Petr",
           "les_stelle": "3,21–22a",
-          "les_text": "Die Taufe, die euch jetzt rettet, dient nicht dazu, den Körper von Schmutz zu reinigen, sondern sie ist eine Bitte an Gott um ein reines Gewissen aufgrund der Auferstehung Jesu Christi, der zur Rechten Gottes ist."
+          "les_text": "Die Taufe, die jetzt euch rettet, dient nicht dazu, den Körper von Schmutz zu reinigen, sondern sie ist eine Bitte an Gott um ein reines Gewissen aufgrund der Auferstehung Jesu Christi, der zur Rechten Gottes ist."
         },
         "Terz": {
           "les_buch": "Apg",

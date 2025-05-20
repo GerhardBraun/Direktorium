@@ -76,9 +76,9 @@ export const formatPrayerText = (provText, marker = '',
     const { nominativ, genitiv, vokativ } = texts?.laudes?.[prefSrc] || {};
 
     const useFootnoteList = getLocalStorage('prefFootnotes') === 'true';
-    const latinEasterAntiphon = "^p^rLoco responsorii dicitur:^0r^lHæc est dies quam fecit Dóminus: exsultémus\u00a0et\u00a0lætémur\u00a0in\u00a0ea.\u00a0Allelúia."
     const easterAntiphon = "^p^rAnstelle des Responsoriums wird die\u00a0folgende\u00a0Antiphon\u00a0genommen:^0r^lDas ist der Tag, den der Herr gemacht hat. Lasst\u00a0uns\u00a0jubeln und seiner uns freuen. Halleluja.";
-    // Wenn marker='oration' und isCommemoration=true, dann leere orSchluss-Elemente
+    const latinEasterAntiphon = "^p^rLoco responsorii dicitur:^0r^lHæc est dies quam fecit Dóminus: exsultémus\u00a0et\u00a0lætémur\u00a0in\u00a0ea.\u00a0Allelúia."
+
     const orSchluss = ['lesehore', 'laudes', 'vesper'].includes(hour)
         ? (marker === 'commemoration' && isCommemoration === true)
             ? {

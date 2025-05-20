@@ -85,7 +85,7 @@ export const SectionHeader = ({
     if (prefSollemnity === 'kirchw' || prefSollemnity === 'verst'
     ) { skipCommune = true }
 
-    if (title === "HYMNUS") { skipCommune = true };
+    if (["ERÖFFNUNG", "HYMNUS", "ABSCHLUSS"].includes(title)) { skipCommune = true };
 
     if (title === "RESPONSORIUM" ||
         (!invPsalms && !showSources && !askLatin
