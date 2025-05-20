@@ -1382,12 +1382,6 @@ const PrayerTextDisplay = ({
     );
   };
 
-  const invText = () => {
-    const prop = 'text' + `${localPrefLanguage}`
-    return psalmsData[localPrefInv][0][prop]
-      || psalmsData[localPrefInv][0].text;
-  }
-
   const languageToRead = localPrefLatin ? "lat" : "dt";
   let ordinarium = ordinariumData?.[hour]?.[languageToRead] || ''
   if (
@@ -1566,7 +1560,9 @@ const PrayerTextDisplay = ({
                 <div className="mb-4">
                   {formatPsalm({
                     number: localPrefInv,
-                    text: invText()
+                    text: psalmsData[localPrefInv][0].text,
+                    text_lat: psalmsData[localPrefInv][0].text_lat,
+                    text_neu: psalmsData[localPrefInv][0].text_neu,
                   })}
                 </div>
               )}
