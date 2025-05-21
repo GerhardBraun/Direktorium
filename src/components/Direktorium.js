@@ -2652,7 +2652,7 @@ export default function LiturgicalCalendar() {
         </button>
 
         {isMenuOpen && (
-          <div className="fixed sm:absolute left-0 sm:left-auto right-0 sm:right-auto top-16 sm:top-auto sm:mt-2 mx-4 sm:mx-0 w-80 bg-white dark:bg-gray-700 rounded-lg shadow-lg border dark:border-gray-600 z-50">
+          <div className="fixed sm:absolute left-0 sm:left-auto right-0 sm:right-auto top-16 sm:top-auto sm:mt-2 mx-4 sm:mx-0 w-80 bg-white/90 dark:bg-gray-700/95 rounded-lg shadow-lg border dark:border-gray-600 z-50">
             {/* Font Size Section */}
             <div
               className={`px-3 py-2 cursor-pointer ${activeSection === "fontSize"
