@@ -3832,7 +3832,7 @@ export const brevierData = {
           "resp1_1": "Sie verkündeten die Stärke des Herrn",
           "resp1_2": "und seine ruhmreichen Taten.",
           "resp1_3": "Sie erzählten die Wunder, die er getan.",
-          "ant_ev": "Barnabas zog nach Tarsus, Er suchte Saulus auf und nahm ihn mit nach Antiochia. Dort wirkten sie in der Gemeinde und verkündeten das Wort des Herrn.^ö",
+          "ant_ev": "Barnabas zog nach Tarsus. Er suchte Saulus auf und nahm ihn mit nach Antiochia. Dort wirkten sie in der Gemeinde und verkündeten das Wort des Herrn.^ö",
           "bitten_e": "Gepriesen sei Jesus Christus, der uns das unvergängliche Leben geoffenbart hat. Zu ihm lasst uns beten:",
           "bitten_r": "Stärke unseren Glauben.",
           "bitten": "Du hast deiner Kirche immer wieder heilige Menschen als Hirten geschenkt;^qsende deinen Gläubigen allezeit gute Seelsorger.^pDu hast den Hirten der Kirche den Dienst der Versöhnung anvertraut;^qgib, dass sie ihn treu verwalten.^pDu bist es, der den Seelsorgern Kraft von oben verleiht;^qerfülle alle, die dein Volk führen, mit Heiligem Geist.^pDu selber bist das Erbteil aller, die du zu Seelsorgern berufen hast;^qlass keinen von ihnen verlorengehen.^pDu bist der ewige Lohn deiner Diener;^qschenke den verstorbenen Seelsorgern und allen Gläubigen das ewige Leben."
@@ -13252,7 +13252,7 @@ export const brevierData = {
         "Laudes": {
           "ps_3": 48.0,
           "ant_1": "Erhebe dich über die Himmel, o Gott.^ö",
-          "ant_2": "Der Herr hat sein Volk erlöst, Er hat es befreit aus der Hand seiner Feinde.^ö",
+          "ant_2": "Der Herr hat sein Volk erlöst. Er hat es befreit aus der Hand seiner Feinde.^ö",
           "ant_3": "Der Herr ist unser Gott für immer und ewig.^ö"
         },
         "Vesper": {

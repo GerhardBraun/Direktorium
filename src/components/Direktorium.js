@@ -2895,7 +2895,7 @@ export default function LiturgicalCalendar() {
 
   useEffect(() => {
     const checkScreenWidth = () => {
-      setIsNarrowScreen(window.innerWidth < 640); // 640px is the 'sm' breakpoint in Tailwind
+      setIsNarrowScreen(window.innerWidth < 400); // 640px is the 'sm' breakpoint in Tailwind
     };
 
     // Initial check
