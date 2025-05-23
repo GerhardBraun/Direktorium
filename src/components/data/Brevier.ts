@@ -12114,10 +12114,10 @@ export const brevierData = {
           "ant_1_lat": "Sei mir gnädig, Herr, und höre auf mein Flehen.",
           "ant_2_lat": "Zu nächtlicher Stunde preiset den Herrn.",
           "ant_3_lat": "",
-          "resp1_1_lat": "Herr, auf dich vertraue ich,",
-          "resp1_2_lat": "in deine Hände lege ich mein Leben.",
-          "resp1_3_lat": "Lass leuchten über deinem Knecht dein Antlitz, hilf mir in deiner Güte.",
-          "ant_ev_lat": "Sei unser Heil, o°Herr, wenn wir wachen, und unser Schutz, wenn wir schlafen, damit wir wachen mit Christus und ruhen in Frieden.^ö",
+          "resp1_1_lat": "In manus tuas, Dómine,",
+          "resp1_2_lat": "comméndo spíritum meum.",
+          "resp1_3_lat": "Redemísti nos, Dómine Deus veritátis.",
+          "ant_ev_lat": "Salva nos, Dómine, vigilántes, custódi nos dormiéntes, ut vigilémus cum Christo et requiescámus in pace.^Lö",
           "les_text_lat": "Höre, Israel! Jahwe, unser Gott, Jahwe ist einzig. Dar­um sollst du den Herrn, deinen Gott, lieben mit gan­zem Herzen, mit ganzer Seele und mit ganzer Kraft. Diese Worte, auf die ich dich heute verpflichte, sollen auf deinem Herzen geschrieben stehen. Du sollst sie deinen Söhnen wiederholen. Du sollst von ihnen reden, wenn du zu Hause sitzt und wenn du auf der Straße gehst, wenn du dich schlafen legst und wenn du aufstehst.^R"
         }
       }
@@ -12169,10 +12169,10 @@ export const brevierData = {
           "ant_1_lat": "",
           "ant_2_lat": "",
           "ant_3_lat": "",
-          "resp1_1_lat": "Herr, auf dich vertraue ich,",
-          "resp1_2_lat": "in deine Hände lege ich mein Leben.",
-          "resp1_3_lat": "Lass leuchten über deinem Knecht dein Antlitz, hilf mir in deiner Güte.",
-          "ant_ev_lat": "Sei unser Heil, o°Herr, wenn wir wachen, und unser Schutz, wenn wir schlafen, damit wir wachen mit Christus und ruhen in Frieden.^ö",
+          "resp1_1_lat": "In manus tuas, Dómine,",
+          "resp1_2_lat": "comméndo spíritum meum.",
+          "resp1_3_lat": "Redemísti nos, Dómine Deus veritátis.",
+          "ant_ev_lat": "Salva nos, Dómine, vigilántes, custódi nos dormiéntes, ut vigilémus cum Christo et requiescámus in pace.^Lö",
           "les_text_lat": "Sie werden sein Angesicht schauen, und sein Name ist auf ihre Stirn geschrieben. Es wird keine Nacht mehr geben, und sie brauchen weder das Licht einer Lampe noch das Licht der Sonne. Denn der Herr, ihr Gott, wird über ihnen leuchten, und sie werden herrschen in alle Ewigkeit.^R"
         }
       }
@@ -22205,10 +22205,10 @@ export const brevierData = {
           "resp1_2": "in deine Hände lege ich mein Leben.",
           "resp1_3": "Lass leuchten über deinem Knecht dein Antlitz, hilf mir in deiner Güte.",
           "ant_ev": "Sei unser Heil, o°Herr, wenn wir wachen, und unser Schutz, wenn wir schlafen, damit wir wachen mit Christus und ruhen in Frieden.^ö",
-          "resp1_1_lat": "Herr, auf dich vertraue ich,",
-          "resp1_2_lat": "in deine Hände lege ich mein Leben.",
-          "resp1_3_lat": "Lass leuchten über deinem Knecht dein Antlitz, hilf mir in deiner Güte.",
-          "ant_ev_lat": "Sei unser Heil, o°Herr, wenn wir wachen, und unser Schutz, wenn wir schlafen, damit wir wachen mit Christus und ruhen in Frieden.^ö"
+          "resp1_1_lat": "In manus tuas, Dómine,",
+          "resp1_2_lat": "comméndo spíritum meum.",
+          "resp1_3_lat": "Redemísti nos, Dómine Deus veritátis.",
+          "ant_ev_lat": "Salva nos, Dómine, vigilántes, custódi nos dormiéntes, ut vigilémus cum Christo et requiescámus in pace.^Lö"
         },
         "Laudes": {},
         "Non": {
