@@ -86,7 +86,7 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, localPrefK
 
             hymnTypes.forEach(hymnType => {
                 if (currentLevel[hymnType]?.text) {
-                    const hymnNumber = currentLevel[hymnType]?.number;
+                    const hymnNumber = currentLevel[hymnType]?.reference;
 
                     // Füge nur hinzu, wenn die Nummer noch nicht verwendet wurde
                     if (!hymnNumber || !usedHymnNumbers.has(hymnNumber)) {
@@ -128,7 +128,6 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, localPrefK
                 }
             });
         });
-
         return hymns;
     }, [texts, hour, localPrefSrc, sourceOrder]);
 
