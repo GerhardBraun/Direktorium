@@ -35,7 +35,9 @@ export const SectionHeader = ({
     localPrefErgPs,
     localPrefContinuous,
     localPrefInv,
+    localPrefLatin,
     setLocalPrefLatin,
+    setLocalPrefLanguage,
     setLocalPrefInv,
     setLocalPrefPsalmsWt,
     setLocalPrefErgPs,
@@ -107,135 +109,152 @@ export const SectionHeader = ({
             {askLatin && (
                 <ButtonGroup>
                     <button
-                        onClick={() => setLocalPrefLatin(prev => !prev)}
-                    >
+                        onClick={() => {
+                            const newLatinValue = !localPrefLatin;
+                            setLocalPrefLatin(newLatinValue);
+                            setLocalPrefLanguage(newLatinValue ? '_lat' : '');
+                        }}                    >
                         (dt./lat.)
                     </button>
-                </ButtonGroup>)}
-            {showPsalmsWt && (
-                <ButtonGroup>
-                    <button
-                        onClick={() => setLocalPrefPsalmsWt(false)}
-                        className={!localPrefPsalmsWt && 'underline'}
-                    >
-                        Ps eig
-                    </button>
-                    {" | "}
-                    <button
-                        onClick={() => setLocalPrefPsalmsWt(true)}
-                        className={localPrefPsalmsWt && 'underline'}
-                    >
-                        vom Wt
-                    </button>
-                </ButtonGroup>
-            )}
-            {showErgPs && (
-                <ButtonGroup>
-                    <button
-                        onClick={() => setLocalPrefErgPs(false)}
-                        className={!localPrefErgPs && 'underline'}
-                    >
-                        vom Wt
-                    </button>
-                    {" | "}
-                    <button
-                        onClick={() => setLocalPrefErgPs(true)}
-                        className={localPrefErgPs && 'underline'}                >
-                        ErgPs
-                    </button>
-                </ButtonGroup>
-            )}
-            {showContinuous && (
-                <ButtonGroup>
-                    <button
-                        onClick={() => setLocalPrefContinuous(false)}
-                        className={!localPrefContinuous && 'underline'}
-                    >
-                        Eigenlesung
-                    </button>
-                    {" | "}
-                    <button
-                        onClick={() => setLocalPrefContinuous(true)}
-                        className={localPrefContinuous && 'underline'}
-                    >
-                        Bahnlesung
-                    </button>
-                </ButtonGroup>
-            )}
-            {showSources && !skipCommune && (
-                <ButtonGroup>
-                    <button
-                        onClick={() => setLocalPrefComm(1)}
-                        className={`${localPrefComm === 1 ? 'underline' : ''}`}
-                    >
-                        Comm {nameComm1}
-                    </button>
-                    {showComm2 && (
-                        <>
-                            {"  |  "}
-                            <button
-                                onClick={() => setLocalPrefComm(2)}
-                                className={`${localPrefComm === 2 ? 'underline' : ''}`}
-                            >
-                                {nameComm2}
-                            </button>
-
-                        </>
-                    )}
-                    {!prefSollemnity && (
-                        <>
-                            {" | "}
-                            <button
-                                onClick={() => setLocalPrefComm(0)}
-                                className={`${localPrefComm === 0 ? 'underline' : ''}`}
-                            >
-                                Wt
-                            </button>
-                        </>
-                    )}
-                </ButtonGroup>
-            )}
-            {showTSN && (
-                <ButtonGroup>
-                    <button
-                        onClick={() => onSelectHour('terz')}
-                        className={`${hour === 'terz' ? 'underline' : ''}`}
-                    >
-                        Terz
-                    </button>
-                    {" | "}
-                    <button
-                        onClick={() => onSelectHour('sext')}
-                        className={`${hour === 'sext' ? 'underline' : ''}`}
-                    >
-                        Sext
-                    </button>
-                    {" | "}
-                    <button
-                        onClick={() => onSelectHour('non')}
-                        className={`${hour === 'non' ? 'underline' : ''}`}
-                    >
-                        Non
-                    </button>
-                </ButtonGroup>
-            )}
-            {invPsalms && (
-                <ButtonGroup>
-                    {[95, 100, 67, 24].map((psalmNumber, index) => (
-                        invPsalms?.includes(psalmNumber) ? (
-                            <React.Fragment key={psalmNumber}>
-                                {index > 0 && " | "}
+                </ButtonGroup>)
+            }
+            {
+                showPsalmsWt && (
+                    <ButtonGroup>
+                        <button
+                            onClick={() => setLocalPrefPsalmsWt(false)}
+                            className={!localPrefPsalmsWt && 'underline'}
+                        >
+                            Ps eig
+                        </button>
+                        {" | "}
+                        <button
+                            onClick={() => setLocalPrefPsalmsWt(true)}
+                            className={localPrefPsalmsWt && 'underline'}
+                        >
+                            vom Wt
+                        </button>
+                    </ButtonGroup>
+                )
+            }
+            {
+                showErgPs && (
+                    <ButtonGroup>
+                        <button
+                            onClick={() => setLocalPrefErgPs(false)}
+                            className={!localPrefErgPs && 'underline'}
+                        >
+                            vom Wt
+                        </button>
+                        {" | "}
+                        <button
+                            onClick={() => setLocalPrefErgPs(true)}
+                            className={localPrefErgPs && 'underline'}
+                        >
+                            ErgPs
+                        </button>
+                    </ButtonGroup>
+                )
+            }
+            {
+                showContinuous && (
+                    <ButtonGroup>
+                        <button
+                            onClick={() => setLocalPrefContinuous(false)}
+                            className={!localPrefContinuous && 'underline'}
+                        >
+                            Eigenlesung
+                        </button>
+                        {" | "}
+                        <button
+                            onClick={() => setLocalPrefContinuous(true)}
+                            className={localPrefContinuous && 'underline'}
+                        >
+                            Bahnlesung
+                        </button>
+                    </ButtonGroup>
+                )
+            }
+            {
+                showSources && !skipCommune && (
+                    <ButtonGroup>
+                        <button
+                            onClick={() => setLocalPrefComm(1)}
+                            className={`${localPrefComm === 1 ? 'underline' : ''}`}
+                        >
+                            Comm {nameComm1}
+                        </button>
+                        {showComm2 && (
+                            <>
+                                {"  |  "}
                                 <button
-                                    onClick={() => setLocalPrefInv(psalmNumber)}
-                                    className={`${localPrefInv === psalmNumber ? 'underline' : ''}`}
+                                    onClick={() => setLocalPrefComm(2)}
+                                    className={`${localPrefComm === 2 ? 'underline' : ''}`}
                                 >
-                                    {psalmNumber === 95 ? `Ps ${psalmNumber}` : psalmNumber}
+                                    {nameComm2}
                                 </button>
-                            </React.Fragment>
-                        ) : null
-                    ))}
-                </ButtonGroup>
-            )}
-        </h2>
+
+                            </>
+                        )}
+                        {!prefSollemnity && (
+                            <>
+                                {" | "}
+                                <button
+                                    onClick={() => setLocalPrefComm(0)}
+                                    className={`${localPrefComm === 0 ? 'underline' : ''}`}
+                                >
+                                    Wt
+                                </button>
+                            </>
+                        )}
+                    </ButtonGroup>
+                )
+            }
+            {
+                showTSN && (
+                    <ButtonGroup>
+                        <button
+                            onClick={() => onSelectHour('terz')}
+                            className={`${hour === 'terz' ? 'underline' : ''}`}
+                        >
+                            Terz
+                        </button>
+                        {" | "}
+                        <button
+                            onClick={() => onSelectHour('sext')}
+                            className={`${hour === 'sext' ? 'underline' : ''}`}
+                        >
+                            Sext
+                        </button>
+                        {" | "}
+                        <button
+                            onClick={() => onSelectHour('non')}
+                            className={`${hour === 'non' ? 'underline' : ''}`}
+                        >
+                            Non
+                        </button>
+                    </ButtonGroup>
+                )
+            }
+            {
+                invPsalms && (
+                    <ButtonGroup>
+                        {[95, 100, 67, 24].map((psalmNumber, index) => (
+                            invPsalms?.includes(psalmNumber) ? (
+                                <React.Fragment key={psalmNumber}>
+                                    {index > 0 && " | "}
+                                    <button
+                                        onClick={() => setLocalPrefInv(psalmNumber)}
+                                        className={`${localPrefInv === psalmNumber ? 'underline' : ''}`}
+                                    >
+                                        {psalmNumber === 95 ? `Ps ${psalmNumber}` : psalmNumber}
+                                    </button>
+                                </React.Fragment>
+                            ) : null
+                        ))}
+                    </ButtonGroup>
+                )
+            }
+        </h2 >
     );
 };

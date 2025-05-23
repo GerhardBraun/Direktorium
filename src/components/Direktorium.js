@@ -1089,7 +1089,7 @@ const PrayerMenu = ({
     <div className="flex flex-col p-4 bg-white dark:bg-gray-900">
       {/* Title bar with navigation */}
       <TitleBar
-        title={title}
+        title={''}
         onPrevDay={onPrevDay}
         onNextDay={onNextDay}
         liturgicalInfo={liturgicalInfo}
@@ -1254,6 +1254,7 @@ const PrayerTextDisplay = ({
   localPrefLanguage,
   localPrefLatin,
   setLocalPrefLatin,
+  setLocalPrefLanguage,
   onSelectHour,
   onPrevDay,
   onNextDay,
@@ -1331,7 +1332,9 @@ const PrayerTextDisplay = ({
       localPrefErgPs,
       localPrefContinuous,
       localPrefInv,
+      localPrefLatin,
       setLocalPrefLatin,
+      setLocalPrefLanguage,
       setLocalPrefInv,
       setLocalPrefPsalmsWt,
       setLocalPrefErgPs,
@@ -1389,7 +1392,7 @@ const PrayerTextDisplay = ({
   return (
     <div className="leading-[1.33em] pb-8">
       <TitleBar
-        title={title}
+        title={''}
         onPrevDay={onPrevDay}
         onNextDay={onNextDay}
         liturgicalInfo={liturgicalInfo}
@@ -2214,10 +2217,6 @@ export default function LiturgicalCalendar() {
   useEffect(() => {
     setLocalPrefLatin(localPrefLanguage === "_lat");
   }, [localPrefLanguage]);
-
-  useEffect(() => {
-    setLocalPrefLanguage(localPrefLatin ? "_lat" : "");
-  }, [localPrefLatin]);
 
   const allEntries = useMemo(() => {
     const entries = [];
@@ -3111,6 +3110,7 @@ export default function LiturgicalCalendar() {
               localPrefLanguage={localPrefLanguage}
               localPrefLatin={localPrefLatin}
               setLocalPrefLatin={setLocalPrefLatin}
+              setLocalPrefLanguage={setLocalPrefLanguage}
               isNarrowForHymns={isNarrowForHymns}
               onBack={() => setViewMode("prayer")}
               onSelectHour={(hour) => {

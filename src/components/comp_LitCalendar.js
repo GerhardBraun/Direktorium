@@ -66,16 +66,16 @@ const writeOut = (season, week, dayOfWeek, combinedSWD, day) => {
     }
 
     // Reguläre Formatierung für andere Wochentage
-    return `${dayName} der ${week}. ${getSeasonName(season)}`;
+    return `${dayName} der ${week}.\u00a0${getSeasonName(season)}`;
 };
 
 const getSeasonName = (season) => {
     switch (season) {
         case 'a': return 'Adventswoche';
-        case 'w': return 'Woche der Weihnachtszeit';
-        case 'j': return 'Woche im Jahreskreis';
+        case 'w': return 'Woche der\u00a0Weihnachtszeit';
+        case 'j': return 'Woche im\u00a0Jahreskreis';
         case 'q': return 'Fastenwoche';
-        case 'o': return 'Woche der Osterzeit';
+        case 'o': return 'Woche der\u00a0Osterzeit';
         default:
             return '';
     }

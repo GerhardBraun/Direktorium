@@ -4014,6 +4014,7 @@ export const brevierData = {
           "button": "Hl. Petrus und hl. Paulus",
           "farbe": "r",
           "hymn_1": 8629.2,
+          "hymn_2": 8629.4,
           "ant_1": "Ich weiß, wem ich glaube, und ich bin sicher: er, mein gerechter Richter, hat die Macht, das mir anvertraute Gut zu bewahren bis zu seinem Tag.",
           "ant_2": "Durch die Gnade Gottes bin ich, was ich bin. Sein gnädiges Handeln an mir blieb nicht ohne Wirkung.",
           "ant_3": "Ich habe den guten Kampf gekämpft, den Lauf vollendet, den Glauben bewahrt.",

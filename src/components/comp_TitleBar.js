@@ -15,7 +15,7 @@ const TitleBar = ({ title, onPrevDay, onNextDay, liturgicalInfo }) => {
                     {title}
                 </h1>
                 {liturgicalInfo && (
-                    <div className="text-sm text-gray-600 dark:text-gray-400">
+                    <div className="text-base text-gray-600 dark:text-gray-400">
                         {liturgicalInfo.writtenSWD}
                     </div>
                 )}
