@@ -15606,7 +15606,7 @@ export const brevierData = {
           "ant_1": "",
           "ant_2": "",
           "ant_3": "",
-          "ant_0_lat": "Christus, den Herrn, der uns den Heiligen Geist verheißen hat – kommt, wir beten ihn an!^Ö",
+          "ant_0_lat": "Christum Dóminum, qui Sanctum nobis promísit Spíritum, veníte, adorémus!^Ö",
           "ant_1_lat": "",
           "ant_2_lat": "",
           "ant_3_lat": ""
@@ -15626,9 +15626,9 @@ export const brevierData = {
           "resp1_1": "Der Beistand, den der Vater senden wird, er wird euch alles lehren.",
           "resp1_2": "Halleluja,°halleluja.",
           "resp1_3": "An alles, was ich euch sagte, wird er euch erinnern.",
-          "resp1_1_lat": "Der Beistand, den der Vater senden wird, er wird euch alles lehren.",
-          "resp1_2_lat": "Halleluja,°halleluja.",
-          "resp1_3_lat": "An alles, was ich euch sagte, wird er euch erinnern."
+          "resp1_1_lat": "Spíritus Paráclitus,",
+          "resp1_2_lat": "allelúia,°allelúia.",
+          "resp1_3_lat": "Docébit vos ómnia."
         }
       }
     }
