@@ -1362,6 +1362,10 @@ const PrayerTextDisplay = ({
     const formatSecondResponse = (firstResp, secondResp) => {
       if (!firstResp || !secondResp) return secondResp;
 
+      firstResp = firstResp
+        .replace(/_lat/g, '')
+        .replace(/_neu/g, '')
+
       // Prüfe, ob resp1_3 mit einem Punkt endet
       const endsWithPeriod =
         firstResp.trim().endsWith(".") ||

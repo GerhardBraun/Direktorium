@@ -67,7 +67,7 @@ export const formatText = (text) => {
     return formattedText;
 };
 
-
+// Formatiert Gebetstext mit speziellen Tags und saisonalen Anpassungen
 // Formatiert Gebetstext mit speziellen Tags und saisonalen Anpassungen
 export const formatPrayerText = (provText, marker = '',
     hour = '', texts = {},
@@ -156,7 +156,11 @@ export const formatPrayerText = (provText, marker = '',
         .replace(/.\^ORlR/g, orSchluss.Rgroß_lat)
         .replace(/\^NP/g, getLocalStorage('popeName') || 'Leo')
         .replace(/\^NB/g, getLocalStorage('bishopName') || '^N')
-        .replace(/\^NH/g, '^N');
+        .replace(/\^NH/g, '^N')
+        // HERRN und HERR in Kapitälchen umwandeln
+        // HERRN und HERR in Kapitälchen umwandeln
+        .replace(/\bHERRN\b/g, '^cHerrn^0c')
+        .replace(/\bHERR\b/g, '^cHerr^0c');
 
     if (nominativ) {
         text = text
@@ -209,7 +213,7 @@ export const formatPrayerText = (provText, marker = '',
     const processInlineFormats = (text) => {
         text = text
             .replace(/\^l/g, '\n')
-        const segments = text.split(/(\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^\(|\^\)|\^N|§FN\d+§)/g).filter(Boolean);
+        const segments = text.split(/(\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^c.*?\^0c|\^\(|\^\)|\^N|§FN\d+§)/g).filter(Boolean);
 
         return segments.map((segment, index) => {
             if (segment.startsWith('^r')) {
@@ -224,6 +228,9 @@ export const formatPrayerText = (provText, marker = '',
             } else if (segment.startsWith('^v')) {
                 const content = segment.substring(2, segment.length - 3);
                 return <span key={`small-${index}`} className='format-verse'>{content}</span>;
+            } else if (segment.startsWith('^c')) {
+                const content = segment.substring(2, segment.length - 3);
+                return <span key={`smallcaps-${index}`} style={{ fontVariant: 'small-caps' }}>{content}</span>;
             } else if (segment === '^(') {
                 return <span key={`open-${index}`} className="text-rubric">(</span>;
             } else if (segment === '^)') {
@@ -262,7 +269,7 @@ export const formatPrayerText = (provText, marker = '',
     const markerMap = new Map();
     let markerCounter = 0;
 
-    processedText = processedText.replace(/(\^r.*?\^0r|\^v.*?\^0v|\^\(|\^\))/g, (match) => {
+    processedText = processedText.replace(/(\^r.*?\^0r|\^v.*?\^0v|\^c.*?\^0c|\^\(|\^\))/g, (match) => {
         const marker = `§MARKER${markerCounter}§`;
         markerMap.set(marker, match);
         markerCounter++;

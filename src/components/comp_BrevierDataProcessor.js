@@ -424,7 +424,9 @@ function processTerzPsalms(hours) {
     // Definiere die zu prüfenden Stunden
     const targetHours = ['sext', 'non'];
     // Definiere die relevanten Psalm-Felder
-    const psalmFields = ['ps_1', 'ps_2', 'ps_3', 'ant_1', 'ant_2', 'ant_3'];
+    const psalmFields = ['ps_1', 'ps_2', 'ps_3',
+        'ant_1', 'ant_2', 'ant_3',
+        'ant_1_lat', 'ant_2_lat', 'ant_3_lat'];
 
     // Finde alle vorhandenen Sources durch Inspektion der Terz
     const sources = hours.terz ? Object.keys(hours.terz) : [];
@@ -544,14 +546,19 @@ function processEasterResponses(hours) {
 }
 
 function processResponseSet(data) {
-    if (!data.resp1_1 || !data.resp1_2) return;
+    if (data.resp1_1 && data.resp1_2) {
+        if (!data.resp1_2.startsWith('Hall')) {
+            data.resp1_1 = `${data.resp1_1} ${data.resp1_2}`;
+            data.resp1_2 = 'Halleluja,°halleluja.';
+        }
+    }
 
-    // Prüfen ob resp1_2 nicht mit "Hall" beginnt
-    if (!data.resp1_2.startsWith('Hall')) {
-        // Texte kombinieren
-        data.resp1_1 = `${data.resp1_1} ${data.resp1_2}`;
-        // Neuen Halleluja-Text setzen
-        data.resp1_2 = 'Halleluja,°halleluja.';
+    // Lateinische Responsorien verarbeiten
+    if (data.resp1_1_lat && data.resp1_2_lat) {
+        if (!data.resp1_2_lat.startsWith('Alle')) {
+            data.resp1_1_lat = `${data.resp1_1_lat} ${data.resp1_2_lat}`;
+            data.resp1_2_lat = 'Allelúia,°allelúia.';
+        }
     }
 }
 
