@@ -9704,6 +9704,7 @@ export const brevierData = {
           "ant_ev": "Wie mich der Vater geliebt hat, so habe auch ich euch geliebt. Bleibt in meiner Liebe!^ö"
         },
         "Vesper": {
+          "ps_3": 151.101,
           "ant_1": "Gott hat Christus von den Toten erweckt und ihn in den Himmel erhoben auf den Platz zu seiner Rechten.^ö",
           "ant_2": "Ihr habt euch von den Götzen bekehrt zum lebendigen Gott.^ö",
           "ant_3": "Halleluja. Das Heil und die Herrlichkeit und die Macht ist bei unserem Gott.^ö",
@@ -10363,7 +10364,8 @@ export const brevierData = {
       },
       "5": {
         "each": {
-          "oration": "Allmächtiger Gott, wir verehren das Herz deines geliebten Sohnes und preisen die großen Taten seiner Liebe. Gib, dass wir aus dieser Quelle göttlichen Erbarmens die Fülle der Gnade und des Lebens empfangen.^ORV"
+          "oration": "Allmächtiger Gott, wir verehren das Herz deines geliebten Sohnes und preisen die großen Taten seiner Liebe. Gib, dass wir aus dieser Quelle göttlichen Erbarmens die Fülle der Gnade und des Lebens empfangen.^ORV",
+          "oration_lat": "Concéde, quǽsumus, omnípotens Deus, ut qui, dilécti Fílii tui corde gloriántes, eius præcípua in nos benefícia recólimus caritátis, de illo donórum fonte cælésti supereffluéntem grátiam mereámur accípere.^ORlV"
         },
         "ErsteV": {
           "button": "1. Vesper zum Herz-Jesu-Fest",
@@ -10385,7 +10387,10 @@ export const brevierData = {
           "bitten_r": "Jesus, Heiland und Erlöser, erbarme dich.",
           "bitten": "Jesus, aus deiner geöffneten Seite wurde die Kirche geboren;^qreinige sie von allem Makel und heilige sie.^pJesus, du König und Mitte aller Herzen;^qnimm alle Menschen auf in den Neuen Bund.^pJesus, unser Leben und unsere Auferstehung;^qsei den Sündern gnädig und ziehe sie an dich.^pJesus, unser Friede und unsere Versöhnung;^qversöhne miteinander, die sich entzweit haben.^pJesus, du bist die Quelle des Lebens;^qgib ewiges Leben denen, die in deinem Frieden entschlafen sind."
         },
-        "Invitatorium": {},
+        "Invitatorium": {
+          "ant_0": "Jesu Herz ist verwundet aus Liebe zu uns; kommt, wir fallen nieder und beten an!",
+          "ant_0_lat": "Cor Iesu, amóre nostri vulnerátum, veníte, adorémus."
+        },
         "Laudes": {
           "hymn_1": 3952.0,
           "ant_1": "Jesus stand da und rief: Wer dürstet, komme zu mir und trinke.",
@@ -10400,7 +10405,17 @@ export const brevierData = {
           "ant_ev": "In seiner barmherzigen Liebe hat uns Gott besucht und seinem Volk Erlösung geschaffen.",
           "bitten_e": "Gepriesen sei Jesus Christus, denn er ist gütig und demütig von Herzen. Zu ihm lasst uns beten:",
           "bitten_r": "Jesus, Heiland und Erlöser, erbarme dich.",
-          "bitten": "Jesus, in dem die ganze Fülle der Gottheit wohnt,^qgib uns Anteil an deinem Leben.^pJesus, in dem alle Schätze der Weisheit und der Erkenntnis verborgen sind,^qoffenbare uns durch deine Kirche den Reichtum der Weisheit Gottes.^pJesus, an dem der Vater sein Wohlgefallen hat,^qführe uns zum Vater.^pJesus, du Quell des Lebens und der Heiligkeit,^qmache uns heilig und lauter in unserer Liebe."
+          "bitten": "Jesus, in dem die ganze Fülle der Gottheit wohnt,^qgib uns Anteil an deinem Leben.^pJesus, in dem alle Schätze der Weisheit und der Erkenntnis verborgen sind,^qoffenbare uns durch deine Kirche den Reichtum der Weisheit Gottes.^pJesus, an dem der Vater sein Wohlgefallen hat,^qführe uns zum Vater.^pJesus, du Quell des Lebens und der Heiligkeit,^qmache uns heilig und lauter in unserer Liebe.",
+          "ant_1_lat": "Stans Iesus clamábat dicens: Si quis sitit, véniat ad me et bibat.",
+          "ant_2_lat": "Veníte ad me, omnes qui laborátis et oneráti estis, et ego refíciam vos.",
+          "ant_3_lat": "Fili, præbe mihi cor tuum, et óculi tui custódiant vias meas.",
+          "resp1_1_lat": "Tóllite iugum meum super vos,",
+          "resp1_2_lat": "Et díscite a me.",
+          "resp1_3_lat": "Quia mitis sum et húmilis corde.",
+          "ant_ev_lat": "Per víscera misericórdiæ suæ visitávit nos Deus, et fecit redemptiónem pópuli sui, allelúia.",
+          "bitten_e_lat": "Iesum, qui est mitis et húmilis corde, deprecémur, fratres, eíque supplicémus:",
+          "bitten_r_lat": "Rex amantíssime, miserére.",
+          "les_text_lat": "Hoc erit pactum, quod fériam cum domo Israel post dies illos, dicit Dóminus: Dabo legem meam in viscéribus eórum et in corde eórum scribam eam; et ero eis in Deum, et ipsi erunt mihi in pópulum."
         },
         "Lesehore": {
           "hymn_1": 2516.0,
@@ -10423,7 +10438,12 @@ export const brevierData = {
           "patr_text": "^hBei dir ist die Quelle des Lebens^pBetrachte auch, du erlöster Mensch, wer es ist, der für dich am Kreuz hängt, wie groß und heilig er ist, er, dessen Tod die Toten lebendig macht, bei dessen Hinübergang Himmel und Erde trauerten und harte Felsen zersprangen.^pAus der Seite des am Kreuz entschlafenen Christus sollte die Kirche gebildet werden, und es sollte sich die Schrift erfüllen: „Sie werden auf den blicken, den sie durchbohrt haben.“ {1#Sach 12,10; vgl.°Joh°19,37} Darum verfügte Gott, dass einer der Soldaten diese Seite durchbohrte und öffnete. Blut und Wasser flossen heraus, der Lösepreis unseres Heils. Ausgegossen aus dem Quell, dem Allerheiligsten des Herzens, sollte dieser Preis den Sakramenten der Kirche die Kraft geben, das Leben der Gnade zu gewähren. Den bereits in Christus Lebenden sollte er der Becher lebendigen Wassers für das ewige Leben sein {2#vgl.°Joh°4,14}.^pEile hin zu diesem Quell des Lebens und des Lichtes mit lebendigem Verlangen, du gottliebende Seele, wer immer du bist, und rufe zu ihm mit der innersten Kraft des Herzens: Du unsagbare Schönheit des höchsten Gottes, du reinster Abglanz des ewigen Lichtes, du Leben, das allem Leben das Leben gibt, du Licht, das allem Licht das Licht verleiht und seit dem ersten Morgenrot die vielfältigen Lichter des Himmels in immerwährendem Glanz erhält, vor dem Thron deiner Gottheit.^pDu ewiger, unzugänglicher, lauterer und süßer Strom aus der Quelle, die vor den Augen der sterblichen Menschen verborgen ist, deren Tiefe ohne Grund, deren Höhe ohne Grenzen, deren Weite ohne Schranken ist und deren Reinheit nicht getrübt werden kann! Aus ihr entspringt der Fluss, der die Gottesstadt erfreut {3#vgl.°Ps 46,5}, damit wir unter Jubel und Dank Loblieder singen und uns die Erfahrung bezeuge: „Bei dir ist die Quelle des Lebens, in deinem Licht schauen wir das Licht.“ {4#Ps 36,10}",
           "patr_resp1": "Lobe den Herrn, meine Seele, und vergiss nicht, was er dir Gutes getan hat,",
           "patr_resp2": "der dein Leben vor dem Untergang rettet und dich mit Huld und Erbarmen krönt.",
-          "patr_resp3": "Kostet und seht, wie gütig der Herr ist."
+          "patr_resp3": "Kostet und seht, wie gütig der Herr ist.",
+          "ant_1_lat": "Apud te est fons vitæ; torrénte voluptátis tuæ potábis nos.",
+          "ant_2_lat": "Dum anxiarétur cor meum, in petra exaltásti me.",
+          "ant_3_lat": "Vidérunt omnes términi terræ salutáre Dei nostri.",
+          "resp0_0_lat": "Memor ero óperum Dómini,",
+          "resp0_1_lat": "Memor ero ab inítio mirabílium suórum."
         },
         "Non": {
           "ant_0": "Einer der Soldaten öffnete mit der Lanze die Seite Jesu, und sogleich floss Blut und Wasser heraus.",
@@ -13027,31 +13047,46 @@ export const brevierData = {
           "ps_1": 143.0,
           "ps_2": 194.0,
           "ps_3": 147.101,
-          "ant_1": "Herr, lass mich deine Huld erfahren am frühen Morgen.",
-          "ant_2": "Wie einen Strom leitet der Herr den Frieden nach Jerusalem.",
-          "ant_3": "Gut ist es, unserem Gott zu singen, schön ist es, ihn zu loben.",
+          "ant_1": "Audítam fac mihi mane misericórdiam tuam, Dómine.",
+          "ant_2": "Declinábit Dóminus super Ierúsalem flúvium pacis.",
+          "ant_3": "Deo nostro iucúnda sit laudátio.",
           "les_buch": "Röm",
           "les_stelle": "8,18–21",
-          "les_text": "Die Leiden der gegenwärtigen Zeit bedeuten nichts im Vergleich zu der Herrlichkeit, die an uns offenbar werden soll. Denn die ganze Schöpfung wartet sehnsüchtig auf das Offenbarwerden der Söhne Gottes. Die Schöpfung ist der Vergänglichkeit unterworfen, nicht aus eigenem Willen, sondern durch den, der sie unterworfen hat; aber zugleich gab er ihr Hoffnung: auch die Schöpfung soll von der Sklaverei und Verlorenheit befreit werden zur Freiheit und Herrlichkeit der Kinder Gottes.",
-          "resp1_1": "Am Morgen denke ich an dich.",
-          "resp1_2": "Herr, deine Huld ist besser als das Leben.",
-          "resp1_3": "Du wurdest meine Hilfe, darum preisen dich meine Lippen.",
-          "ant_ev": "Lass uns, Herr, dein Heil erfahren und vergib uns unsere Sünden.",
-          "bitten_e": "Gepriesen sei Gott, die Quelle unseres Heils. Zu ihm lasst uns beten:",
-          "bitten_r": "Schenke uns dein Erbarmen.",
+          "les_text": "Non sunt condígnæ passiónes huius témporis ad futúram glóriam, quæ revelánda est in nobis. Nam exspectátio creatúræ revelatiónem filiórum Dei exspéctat; vanitáti enim creatúra subiécta est, non volens sed propter eum, qui subiécit, in spem, quia et ipsa creatúra liberábitur a servitúte corruptiónis in libertátem glóriæ filiórum Dei.",
+          "resp1_1": "In matutínis, Dómine,",
+          "resp1_2": "meditábor de te.",
+          "resp1_3": "Quia factus es adiútor meus.",
+          "ant_ev": "Da sciéntiam salútis plebi tuæ, Dómine, et dimítte nobis peccáta nostra.",
+          "bitten_e": "Deum, a quo óbvenit salus pópulo suo, celebrémus ita dicéntes:",
+          "bitten_r": "Tu es vita nostra, Dómine.",
           "bitten": "Gott, du hast uns durch die Auferweckung deines Sohnes neue Hoffnung geschenkt;^qgib, dass diese Zuversicht unser Tagewerk begleite.^pDu hast uns durch den Heiligen Geist deine Liebe eingegossen;^qheile unsere Herzen von Missgunst und Neid.^pDu hast uns in der Kirche zu einer neuen Gemeinschaft zusammengeführt;^qgib, dass wir einander dienen in Geduld.^pDu willst das gute Werk vollenden, das du in uns begonnen hast;^qlass uns den Glauben bewahren bis ans Ende.",
-          "oration": "Herr, lass uns heute und immerdar bedenken, dass wir erlöst und aus Feindeshand befreit sind. Gib, dass wir dir furchtlos dienen in Heiligkeit und Gerechtigkeit alle Tage unseres Lebens.^ORV"
+          "oration": "Herr, lass uns heute und immerdar bedenken, dass wir erlöst und aus Feindeshand befreit sind. Gib, dass wir dir furchtlos dienen in Heiligkeit und Gerechtigkeit alle Tage unseres Lebens.^ORV",
+          "ant_1_lat": "Herr, lass mich deine Huld erfahren am frühen Morgen.",
+          "ant_2_lat": "Wie einen Strom leitet der Herr den Frieden nach Jerusalem.",
+          "ant_3_lat": "Gut ist es, unserem Gott zu singen, schön ist es, ihn zu loben.",
+          "resp1_1_lat": "Am Morgen denke ich an dich.",
+          "resp1_2_lat": "Herr, deine Huld ist besser als das Leben.",
+          "resp1_3_lat": "Du wurdest meine Hilfe, darum preisen dich meine Lippen.",
+          "ant_ev_lat": "Lass uns, Herr, dein Heil erfahren und vergib uns unsere Sünden.",
+          "bitten_e_lat": "Gepriesen sei Gott, die Quelle unseres Heils. Zu ihm lasst uns beten:",
+          "bitten_r_lat": "Schenke uns dein Erbarmen.",
+          "les_text_lat": "Die Leiden der gegenwärtigen Zeit bedeuten nichts im Vergleich zu der Herrlichkeit, die an uns offenbar werden soll. Denn die ganze Schöpfung wartet sehnsüchtig auf das Offenbarwerden der Söhne Gottes. Die Schöpfung ist der Vergänglichkeit unterworfen, nicht aus eigenem Willen, sondern durch den, der sie unterworfen hat; aber zugleich gab er ihr Hoffnung: auch die Schöpfung soll von der Sklaverei und Verlorenheit befreit werden zur Freiheit und Herrlichkeit der Kinder Gottes."
         },
         "Lesehore": {
           "hymn_1": 2111.0,
           "ps_1": 44.1,
           "ps_2": 44.2,
           "ps_3": 44.3,
-          "ant_1": "Nicht ihr eigener Arm hat ihnen den Sieg verschafft, nein, deine Rechte, o°Herr, und dein leuchtendes Angesicht.^ö",
-          "ant_2": "Wenn ihr euch zum Herrn bekehrt, wird er sein Angesicht nicht von euch wenden.^ö",
-          "ant_3": "Wach auf! Warum schläfst du, o°Herr? Erwache, verstoß uns nicht für immer.^ö",
-          "resp0_0": "Lass dein Angesicht leuchten über deinem Knecht.",
-          "resp0_1": "Lehre mich deine Gesetze."
+          "ant_1": "Bráchium eórum non salvábit eos, sed déxtera tua et illuminátio vultus tui.^Lö",
+          "ant_2": "Non avértet Dóminus fáciem suam a vobis, si revérsi fuéritis ad eum.^Lö",
+          "ant_3": "Exsúrge, Dómine, et ne repéllas in finem.^Lö",
+          "resp0_0": "Fáciem tuam illúmina super servum tuum, Dómine.",
+          "resp0_1": "Et doce me iustificatiónes tuas.",
+          "ant_1_lat": "Nicht ihr eigener Arm hat ihnen den Sieg verschafft, nein, deine Rechte, o°Herr, und dein leuchtendes Angesicht.^ö",
+          "ant_2_lat": "Wenn ihr euch zum Herrn bekehrt, wird er sein Angesicht nicht von euch wenden.^ö",
+          "ant_3_lat": "Wach auf! Warum schläfst du, o°Herr? Erwache, verstoß uns nicht für immer.^ö",
+          "resp0_0_lat": "Lass dein Angesicht leuchten über deinem Knecht.",
+          "resp0_1_lat": "Lehre mich deine Gesetze."
         },
         "Non": {
           "les_buch": "Hebr",
