@@ -247,7 +247,7 @@ export const formatPrayerText = (provText, marker = '',
                 } else {
                     return (
                         <Fragment key={`footnote-${index}`}>
-                            <span className="inline-block text-fussnote">{formatBibleRef(content, true)}</span>
+                            <span className=" text-fussnote">{formatBibleRef(content, true)}</span>
                         </Fragment>
                     );
                 }

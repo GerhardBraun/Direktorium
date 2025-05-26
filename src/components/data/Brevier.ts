@@ -10510,6 +10510,7 @@ export const brevierData = {
           "bitten_e": "Lob und Ehre sei Christus, dem Urheber des Lebens! Zu ihm lasst uns rufen:",
           "bitten_r": "Christus, unser Leben, rette uns.",
           "bitten": "Du Licht, das in der Finsternis leuchtet, du Fürst des Lebens, der rettet und heiligt, was dem Tod verfallen ist,^qlass uns mit österlichem Lobpreis das Fest deiner Auferstehung feiern.^pHerr, du bist durch Leiden und Tod in deine Herrlichkeit eingegangen;^qführe auch uns durch die Leiden dieser Zeit zur Auferstehung.^pSohn des ewigen Vaters, unser Meister und Bruder, du hast uns zu einem heiligen Volk gemacht für unseren Gott;^qlass uns die großen Taten Gottes verkünden.^pDu König der Herrlichkeit, wir erwarten den Tag, an dem du auch uns erscheinen wirst;^qlass uns dein Angesicht schauen und dir ähnlich werden auf ewig.",
+          "resp1_1_lat": "Christe, Fili Dei vivi, miserére nobis.",
           "resp1_2_lat": "Allelúia, allelúia.",
           "resp1_3_lat": "Qui surrexísti a mórtuis."
         },
@@ -10956,7 +10957,8 @@ export const brevierData = {
           "ant_0": "Christus, den Herrn, der uns den Heiligen Geist verheißen hat – kommt, wir beten ihn an!^Ö",
           "ant_1": "",
           "ant_2": "",
-          "ant_3": ""
+          "ant_3": "",
+          "ant_0_lat": "Christum Dóminum, qui Sanctum nobis promísit Spíritum, veníte, adorémus!^Ö"
         },
         "Laudes": {
           "hymn_1": 3424.0,
@@ -14527,7 +14529,10 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu Jesus Christus, der seiner Kirche aufgetragen hat, das Gedächtnis seines Leidens und seiner Auferstehung zu feiern.",
           "bitten_r": "Heilige das Volk, das du mit deinem Blut erkauft hast.",
           "bitten": "Du hast das Reich Gottes verkündet und zur Umkehr aufgerufen;^qerneuere deine Kirche im Geist des Evangeliums.^pDu hast ein Herz gehabt für die Armen und Bedrängten;^qsteh denen bei, die keinen Helfer haben.^pDu berufst immer wieder Menschen in deine Kirche;^qerleuchte die Katechumenen, die sich auf die Taufe vorbereiten.^pDu willst nicht den Tod des Sünders, sondern dass er lebe;^qerbarme dich derer, die mit uns in diesen vierzig Tagen Buße tun.^pNimm unsere Verstorbenen gnädig auf^qund lass sie teilhaben an deiner Auferstehung.",
-          "oration": "Allmächtiger Gott, zu deiner Ehre und zum Heil der Menschen hast du Christus als ewigen Hohenpriester eingesetzt. Er hat dir durch sein kostbares Blut ein heiliges Volk erworben. Gib, dass wir das Gedächtnis deines Sohnes in Ehrfurcht feiern und die Kraft seines Kreuzes und seiner Auferstehung empfangen.^ORvR"
+          "oration": "Allmächtiger Gott, zu deiner Ehre und zum Heil der Menschen hast du Christus als ewigen Hohenpriester eingesetzt. Er hat dir durch sein kostbares Blut ein heiliges Volk erworben. Gib, dass wir das Gedächtnis deines Sohnes in Ehrfurcht feiern und die Kraft seines Kreuzes und seiner Auferstehung empfangen.^ORvR",
+          "ant_1_lat": "Fecit nos Deo et Patri suo regnum, primogénitus mortuórum et princeps regum terrae.",
+          "ant_2_lat": "Liberábit Dóminus páuperem a poténte, et ínopem cui non erat adiútor.",
+          "ant_3_lat": "Sancti vicérunt propter sánguinem Agni et propter verbum testimónii sui."
         }
       },
       "5": {

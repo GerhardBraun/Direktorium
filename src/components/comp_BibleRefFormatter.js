@@ -68,7 +68,7 @@ const formatBibleRef = (text, bracket = false) => {
                 if (!inVerseSection) { return originalText; }
                 addCurrentText();
                 inVerseSection = false;
-                currentText += ';\u00A0';
+                currentText += '; ';
                 break;
 
             case '–':
