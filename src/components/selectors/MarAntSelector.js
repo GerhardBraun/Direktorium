@@ -44,7 +44,7 @@ const MarAntSelector = ({ season, localPrefLatin, formatPrayerText }) => {
             title: "Unter deinen Schutz und Schirm",
             text: "Unter deinen Schutz und Schirm^lfliehen wir, o°heilige Gottesgebärerin;^lverschmähe nicht unser Gebet in°unsern°Nöten,^lsondern erlöse uns jederzeit von°allen°Gefahren,^lo du glorreiche und°gebenedeite°Jungfrau,^lunsere Frau, unsere Mittlerin,^lunsere Fürsprecherin.^lVersöhne uns mit deinem Sohne,^lempfiehl uns deinem Sohne,^lstelle uns vor deinem Sohne.",
             title_lat: "Sub tuum præsidium",
-            text_lat: "Sub tuum præsídium confúgimus,^lsancta Dei Génetrix;^lnostras deprecatiónes ne°despícias^lin°necessitátibus,^lsed a perículis cunctis líbera°nos°semper,^lVirgo gloriósa et benedícta.^l^(Dómina nostra, mediátrix°nostra,^ladvocáta nostra,^ltuo Fílio nos reconcília,^ltuo Fílio nos commenda,^ltuo Fílio nos repræsénta!^)"
+            text_lat: "Sub tuum præsídium confúgimus,^lsancta Dei Génetrix;^lnostras deprecatiónes ne°despícias^lin°necessitátibus,^lsed a perículis cunctis líbera°nos°semper,^lVirgo gloriósa et benedícta.^l^(Dómina nostra, mediátrix°nostra,^ladvocáta nostra,^ltuo Fílio nos reconcília,^ltuo Fílio nos comménda,^ltuo Fílio nos repræsénta!^)"
         },
         // Ave Maria (zusätzliche Option)
         {
