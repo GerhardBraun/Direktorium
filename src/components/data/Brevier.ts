@@ -2782,7 +2782,7 @@ export const brevierData = {
           "les_buch": "2°Tim",
           "les_stelle": "1,9–10",
           "les_text": "Gott hat uns gerettet; mit einem heiligen Ruf hat er uns gerufen, nicht aufgrund unserer Werke, sondern aus eigenem Entschluss und aus Gnade, die uns schon vor ewigen Zeiten in Christus Jesus geschenkt wurde; jetzt aber wurde sie durch das Erscheinen unseres Retters Christus Jesus offenbart. Er hat dem Tod die Macht genommen und uns das Licht des unvergänglichen Lebens gebracht durch das Evangelium.",
-          "ant_ev": "Die Weisen sahen den Stern und sprachen zueinander: Das ist das Zeichen des großen Königs. Kommt, laßt uns hingehen, ihm zu huldigen.",
+          "ant_ev": "Die Weisen sahen den Stern und sprachen zueinander: Das ist das Zeichen des großen Königs. Kommt, lasst uns hingehen, ihm zu huldigen.",
           "bitten_e": "Lasst uns beten zu unserem Herrn Jesus Christus, der heute der Welt erschienen ist:",
           "bitten_r": "Lass uns deine Herrlichkeit sehen.",
           "bitten": "Herr, du hast die Weisen als erste aus den Heiden zu dir ge­rufen;^qoffenbare dich den Menschen, die dich noch nicht kennen.^pDurch den Stern hast du die Weisen auf ihrem Weg geführt;^qführe alle zu dir, die dich suchen.^pAls die Weisen dich fanden, war ihre Freude übergroß;^qgib, dass deine Kirche dich heute auf der ganzen Erde voll Freude preist. ^pDu bist der König der Herrlichkeit;^qgib der Welt den Frieden.^pDein Licht ist heute der Welt erschienen;^qlass es unseren Toten für immer leuchten."
@@ -9766,7 +9766,10 @@ export const brevierData = {
           "ant_ev": "Vater, ich habe deinen Namen den Menschen offenbart, die du mir gegeben hast. Bewahre sie in deinem Namen; denn ich gehe zu dir.^ö",
           "bitten_e": "Lasst uns zu Jesus Christus beten, der in den Himmel aufgefahren ist und zur Rechten des Vaters sitzt:",
           "bitten_r": "Du König der Herrlichkeit, höre uns.",
-          "bitten": "Wir bitten für alle Christen, die heute das Fest deiner Himmelfahrt begehen;^qgib, dass sie in Freude deine Wiederkunft erwarten.^pDeine Jünger sind vom Berg der Himmelfahrt voll Freude heimgekehrt und haben Gott gepriesen;^qhilf deiner Kirche, allezeit dem Vater zu danken.^pVor deiner Himmelfahrt hast du deine Jünger ausgesandt;^qsende auch heute Arbeiter in deine Ernte.^pBeschütze alle, die heute unterwegs sind;^qbewahre sie vor Unglück und führe sie an das Ziel ihrer Reise.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten."
+          "bitten": "Wir bitten für alle Christen, die heute das Fest deiner Himmelfahrt begehen;^qgib, dass sie in Freude deine Wiederkunft erwarten.^pDeine Jünger sind vom Berg der Himmelfahrt voll Freude heimgekehrt und haben Gott gepriesen;^qhilf deiner Kirche, allezeit dem Vater zu danken.^pVor deiner Himmelfahrt hast du deine Jünger ausgesandt;^qsende auch heute Arbeiter in deine Ernte.^pBeschütze alle, die heute unterwegs sind;^qbewahre sie vor Unglück und führe sie an das Ziel ihrer Reise.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten.",
+          "bitten_e_lat": "Christum, sedéntem ad déxteram Patris, cum gáudio spíritus acclamémus:",
+          "bitten_r_lat": "Tu rex glóriæ, Christe.",
+          "bitten_lat": "O rex glóriæ, qui carnis nostræ fragilitátem tecum glorificándam ad súperos evexísti,^qvéterum culpárum tolle pravitátem, et redde nobis vitæ prístinæ dignitátem.^pQui, per dilectiónis viam ad nos descendísti,^qper hanc ad te nos ascéndere concéde.^pQui fore promisísti, ut omnes tráheres ad teípsum,^qnéminem ex nobis patiáris a tuo córpore divélli.^pQuo tu ascendísti glorificátus,^qilluc te nunc prǽvium mente sequámur et corde.^pQuem nunc verum Deum iúdicem præstolámur,^qfac ut aliquándo te Dóminum cum defúnctis in maiestáte tua misericórdem contemplémur."
         },
         "Invitatorium": {
           "ant_0": "Christus, der Herr, ist aufgestiegen zum Himmel; kommt, wir beten ihn an!^ö"
@@ -9784,7 +9787,10 @@ export const brevierData = {
           "ant_ev": "Ich steige auf zu meinem Vater und zu eurem Vater, zu meinem Gott und zu eurem Gott.^ö",
           "bitten_e": "Gepriesen sei Jesus Christus, der von der Erde erhöht ist und alles an sich zieht. Zu ihm lasst uns beten:",
           "bitten_r": "Christus, höre uns.",
-          "bitten": "Du bist als Sieger emporgestiegen zur Rechten des Vaters;^qlenke unser Sinnen und Verlangen zum Himmel.^pDu bist unser Hoherpriester;^qtritt für uns ein beim Vater.^pDu bleibst bei uns alle Tage bis zum Ende der Welt;^qstärke unseren Glauben.^pDu hast heute die Apostel zu deinen Zeugen bestellt;^qgib auch unserem Zeugnis Kraft durch den Heiligen Geist."
+          "bitten": "Du bist als Sieger emporgestiegen zur Rechten des Vaters;^qlenke unser Sinnen und Verlangen zum Himmel.^pDu bist unser Hoherpriester;^qtritt für uns ein beim Vater.^pDu bleibst bei uns alle Tage bis zum Ende der Welt;^qstärke unseren Glauben.^pDu hast heute die Apostel zu deinen Zeugen bestellt;^qgib auch unserem Zeugnis Kraft durch den Heiligen Geist.",
+          "bitten_e_lat": "Dóminum, exaltátum a terra et ómnia ad seípsum trahéntem, invocémus cum exsultatióne, acclamántes:",
+          "bitten_r_lat": "Tu rex glóriæ, Christe.",
+          "bitten_lat": "O rex glóriæ, Dómine Iesu, qui, semel oblátus ut hóstia pro peccátis, victor ad Patris déxteram ascendísti,^qin sempitérnum consúmma sanctificátos.^pSacérdos ætérne et novi miníster testaménti, semper vivens ad interpellándum pro nobis,^qsalva pópulum deprecántem.^pQui te præbuísti vivum post passiónem tuam et per dies quadragínta discípulis apparuísti,^qhódie fidem nostram confírma.^pQui hódie Spíritum Apóstolis promisísti, ut tibi testes fíerent usque ad últimum terræ,^qper virtútem Spíritus testimónium róbora nostrum."
         },
         "Lesehore": {
           "ps_1": 68.1,
@@ -9800,7 +9806,9 @@ export const brevierData = {
           "les_stelle": "3,1–2",
           "les_text": "Ihr seid mit Christus auferweckt; darum strebt nach dem, was im Himmel ist, wo Christus zur Rechten Gottes sitzt. Richtet euren Sinn auf das Himmlische und nicht auf das Irdische.",
           "resp1_0": "Preist den König der Könige.^ö",
-          "resp1_1": "Singt das Lob unseres Gottes.^ö"
+          "resp1_1": "Singt das Lob unseres Gottes.^ö",
+          "bitten_r_lat": "Tu rex glóriæ, Christe.",
+          "bitten_lat": "O rex glóriæ, Dómine Iesu, qui, semel oblátus ut hóstia pro peccátis, victor ad Patris déxteram ascendísti,^qin sempitérnum consúmma sanctificátos.^pSacérdos ætérne et novi miníster testaménti, semper vivens ad interpellándum pro nobis,^qsalva pópulum deprecántem.^pQui te præbuísti vivum post passiónem tuam et per dies quadragínta discípulis apparuísti,^qhódie fidem nostram confírma.^pQui hódie Spíritum Apóstolis promisísti, ut tibi testes fíerent usque ad últimum terræ,^qper virtútem Spíritus testimónium róbora nostrum."
         },
         "Sext": {
           "ant_0": "Frohlockend wie ein Held vollendet er den Lauf, zum höchsten Himmel kehrt der Herr zurück.^ö",
@@ -10027,7 +10035,8 @@ export const brevierData = {
     "8": {
       "0": {
         "each": {
-          "oration": "Allmächtiger, ewiger Gott, durch das Geheimnis des heutigen Tages heiligst du deine Kirche in allen Völkern und Nationen. Erfülle die ganze Welt mit den Gaben des Heiligen Geistes, und was deine Liebe am Anfang der Kirche gewirkt hat, das wirke sie auch heute in den Herzen aller, die an dich glauben.^ORV"
+          "oration": "Allmächtiger, ewiger Gott, durch das Geheimnis des heutigen Tages heiligst du deine Kirche in allen Völkern und Nationen. Erfülle die ganze Welt mit den Gaben des Heiligen Geistes, und was deine Liebe am Anfang der Kirche gewirkt hat, das wirke sie auch heute in den Herzen aller, die an dich glauben.^ORV",
+          "oration_lat": "Deus, qui sacraménto festivitátis hodiérnæ univérsam Ecclésiam tuam in omni gente et natióne sanctíficas, in totam mundi latitúdinem Spíritus Sancti dona defúnde, et, quod inter ipsa evangélicæ prædicatiónis exórdia operáta est divína dignátio, nunc quoque per credéntium corda perfúnde. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
         },
         "ErsteV": {
           "button": "1. Vesper zu Pfingsten",
@@ -10050,7 +10059,10 @@ export const brevierData = {
           "ant_ev": "Komm, Heiliger Geist, erfülle die Herzen deiner Gläubigen und entzünde in ihnen das Feuer deiner Liebe, du, der über alle Grenzen der Sprachen hinweg die Völker in einem Glauben sammelt.^ö",
           "bitten_e": "Lasst uns beten zu Gott, dem allmächtigen Vater, der am Pfingsttag die Apostel Christi mit Heiligem Geist erfüllt hat:",
           "bitten_r": "Sende aus deinen Geist und erneuere die Welt.",
-          "bitten": "Du hast Himmel und Erde geschaffen und willst durch Christus im Heiligen Geist alles erneuern;^qschaffe neu das Angesicht der Erde und schenke ihr dein Heil.^pDem ersten Menschen hast du den Lebensatem eingehaucht;^qgieße deinen Geist aus über die Kirche, damit sie allezeit aus ihm lebt.^pLenke durch deinen Geist die Pläne der Mächtigen;^qgib, dass sie Gedanken des Friedens und der Versöhnung denken.^pErbarme dich aller, die unter Krieg, Aufruhr und Unterdrückung leiden;^qdein Heiliger Geist richte sie auf und tröste sie.^pDurch den Heiligen Geist führst du die Menschen zur Herrlichkeit des ewigen Lebens;^qgib, dass die Verstorbenen die Gemeinschaft der Heiligen erfahren."
+          "bitten": "Du hast Himmel und Erde geschaffen und willst durch Christus im Heiligen Geist alles erneuern;^qschaffe neu das Angesicht der Erde und schenke ihr dein Heil.^pDem ersten Menschen hast du den Lebensatem eingehaucht;^qgieße deinen Geist aus über die Kirche, damit sie allezeit aus ihm lebt.^pLenke durch deinen Geist die Pläne der Mächtigen;^qgib, dass sie Gedanken des Friedens und der Versöhnung denken.^pErbarme dich aller, die unter Krieg, Aufruhr und Unterdrückung leiden;^qdein Heiliger Geist richte sie auf und tröste sie.^pDurch den Heiligen Geist führst du die Menschen zur Herrlichkeit des ewigen Lebens;^qgib, dass die Verstorbenen die Gemeinschaft der Heiligen erfahren.",
+          "bitten_e_lat": "Deum magnis láudibus celebrántes, qui, Pentecóstes complétis diébus, Apóstolos Spíritu Sancto de cælis replévit, lætántibus devotísque méntibus implorémus:",
+          "bitten_r_lat": "Emítte Spíritum tuum et rénova mundum.",
+          "bitten_lat": "Qui in princípio cælum et terram creásti, et in plenitúdine témporum ómnia per Christum instaurásti,^qfáciem terræ per Spíritum tuum semper rénova in salútem.^pQui spiráculum vitæ in Adæ fáciem inspirásti,^qmitte Spíritum tuum in Ecclésiam, ut ipso vivat, iuvenéscat mundúmque vivíficet.^pLúmine Spíritus tui hómines univérsos illústra et calíginem nostri témporis dispélle,^qut ódia in amórem, dolóres in gáudium, bella in pacem convertántur optábilem.^pIrriga genus humánum aqua Spíritus tui, a Christi látere fluénte,^qut terram nostram ab ómnibus spinis líberet malórum.^pQui per Spíritum Sanctum hómines in vitam et glóriam introdúcis,^qper ipsum da defúnctos amóris gáudiis in pátria pérfrui."
         },
         "Invitatorium": {
           "ant_0": "Halleluja. Der Geist des Herrn erfüllt den Erdkreis; kommt, wir fallen vor ihm nieder und beten an!^ö"
@@ -10075,7 +10087,17 @@ export const brevierData = {
           "ant_ev": "Empfangt den Heiligen Geist. Wem ihr die Sünden nachlasst, dem sind sie erlassen.^ö",
           "bitten_e": "Gepriesen sei Jesus Christus, der seine Kirche im Heiligen Geist zusammenführt. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, schaffe alles neu.",
-          "bitten": "Du hast am heutigen Tag vom Vater her deinen Jüngern den Heiligen Geist gesandt;^qerfülle auch uns mit dem Heiligen Geist.^pDu hast Ströme lebendigen Wassers verheißen einem jeden, der glaubt;^qerneuere unseren Glauben.^pDu hast uns den Geist der Wahrheit gesandt, der von dir Zeugnis gibt;^qmache uns zu treuen Zeugen.^pIm Heiligen Geist heiligst du deine Kirche;^qnimm hinweg, was böse ist in uns."
+          "bitten": "Du hast am heutigen Tag vom Vater her deinen Jüngern den Heiligen Geist gesandt;^qerfülle auch uns mit dem Heiligen Geist.^pDu hast Ströme lebendigen Wassers verheißen einem jeden, der glaubt;^qerneuere unseren Glauben.^pDu hast uns den Geist der Wahrheit gesandt, der von dir Zeugnis gibt;^qmache uns zu treuen Zeugen.^pIm Heiligen Geist heiligst du deine Kirche;^qnimm hinweg, was böse ist in uns.",
+          "ant_1_lat": "O quam bonus et suávis est, Dómine, Spíritus tuus in nobis! allelúia.",
+          "ant_2_lat": "Fontes et ómnia quæ movéntur in aquis, hymnum dícite Deo, allelúia.",
+          "ant_3_lat": "Loquebántur váriis linguis Apóstoli magnália Dei, allelúia.",
+          "resp1_1_lat": "Repléti sunt omnes Spíritu Sancto,",
+          "resp1_3_lat": "Et cœpérunt loqui.",
+          "ant_ev_lat": "Accípite Spíritum Sanctum: quorum remiséritis peccáta, remittúntur eis, allelúia.",
+          "bitten_e_lat": "Christum Dóminum, qui Ecclésiam suam per Spíritum congregávit, spe firma implorémus:",
+          "bitten_r_lat": "Rénova, Dómine, fáciem terræ.",
+          "bitten_lat": "Dómine Iesu, qui, in cruce exaltátus, de látere tuo flúmina aquæ vivæ fudísti,^qSpíritum emítte nobis vivificántem.^pTu, qui, déxtera Dei glorificátus, Donum Patris discípulis es largítus,^qSpíritum emítte, ut ipse mundum effíciat novum.^pTu, qui Apóstolis, in Spíritu tuo potestátem contulísti peccáta remitténdi,^qdéstrue peccátum in mundo.^pTu, qui promisísti Spíritum Sanctum, ut nos docéret ómnia, et quæcúmque dixísti, suggéreret nobis,^qSpíritum emítte fídei nostræ illustratórem.^pQui promisísti te missúrum Spíritum veritátis, ut testimónium de te perhibéret,^qSpíritum emítte, ut nos testes fidéles effíciat.",
+          "les_text_lat": "Deus patrum nostrórum suscitávit Iesum, quem vos interemístis suspendéntes in ligno; hunc Deus Príncipem et Salvatórem exaltávit déxtera sua ad dandam pæniténtiam Israel et remissiónem peccatórum. Et nos sumus testes horum verbórum, et Spíritus Sanctus, quem dedit Deus obœdiéntibus sibi."
         },
         "Lesehore": {
           "hymn_1": 3418.0,
@@ -10138,7 +10160,11 @@ export const brevierData = {
           "ant_ev": "Heute sind die fünfzig Tage erfüllt. Heute erschien der Heilige Geist den Jüngern im Zeichen des Feuers. Heute schenkte er ihnen die Gaben der Gnade. Er sandte sie aus in die ganze Welt, zu predigen und zu bezeugen: Wer glaubt und sich taufen lässt, der wird gerettet. Halleluja, halleluja,halleluja.",
           "bitten_e": "Lasst uns beten zu Gott, dem Vater, der durch Christus seine Kirche im Heiligen Geist zusammenführt:",
           "bitten_r": "Sende aus deinen Geist und erneuere die Welt.",
-          "bitten": "Gott und Vater aller, du berufst deine Kinder aus allen Völkern und Rassen;^qerleuchte die Berufenen mit der Gnade des Heiligen Geistes.^pDu willst alle Menschen, die Christi Namen tragen, durch die eine Taufe vereinigen;^qgib, dass die Glaubenden ein Herz und eine Seele sind.^pDu hast den Heiligen Geist über den ganzen Erdkreis ausgegossen;^qstehe allen bei, die sich um den Frieden der Erde mühen.^pDu machst alles neu durch den Heiligen Geist;^qgib den Kranken und Betrübten neue Kraft.^pDurch den Heiligen Geist hast du deinen Sohn von den Toten auferweckt;^qerwecke die Verstorbenen zum ewigen Leben."
+          "bitten": "Gott und Vater aller, du berufst deine Kinder aus allen Völkern und Rassen;^qerleuchte die Berufenen mit der Gnade des Heiligen Geistes.^pDu willst alle Menschen, die Christi Namen tragen, durch die eine Taufe vereinigen;^qgib, dass die Glaubenden ein Herz und eine Seele sind.^pDu hast den Heiligen Geist über den ganzen Erdkreis ausgegossen;^qstehe allen bei, die sich um den Frieden der Erde mühen.^pDu machst alles neu durch den Heiligen Geist;^qgib den Kranken und Betrübten neue Kraft.^pDurch den Heiligen Geist hast du deinen Sohn von den Toten auferweckt;^qerwecke die Verstorbenen zum ewigen Leben.",
+          "ant_ev_lat": "Hódie compléti sunt dies Pentecóstes, allelúia; hódie Spíritus Sanctus in igne discípulis appáruit, et tríbuit eis charísmatum dona; misit eos in univérsum mundum prædicáre et testificári: Qui credíderit et baptizátus fúerit, salvus erit, allelúia.",
+          "bitten_e_lat": "Deum Patrem, qui per Christum suam congregávit Ecclésiam, cum exsultatióne deprecémur, dicéntes:",
+          "bitten_r_lat": "Spíritum Sanctum tuum in Ecclésiam mitte.",
+          "bitten_lat": "Tu, qui univérsos hómines, Christi nómine decorátos, uno baptísmate in Spíritu vis adunáre,^qcredéntes fíeri concéde cor unum et ánimam unam.^pQui Spíritu orbem terrárum repléri voluísti,^qcunctis homínibus concéde mundum iuste et pacífice ædificáre.^pDómine Deus, universórum Pater, qui una fide vis fílios dispérsos congregári,^qgrátia Spíritus Sancti orbem terrárum illústra.^pTu, qui per Spíritum rénovas ómnia,^qsana ægrótos, consoláre afflíctos, cunctísque salútem largíre.^pQui per Spíritum Fílium tuum a mórtuis suscitásti,^qmortália córpora in æternitátem vivífica."
         }
       }
     },
@@ -10899,7 +10925,7 @@ export const brevierData = {
         "Laudes": {
           "bitten_e": "Gepriesen sei Gott, der Vater, der seinen Sohn dahingegeben hat für die Sünde der Welt. Zu ihm lasst uns beten:",
           "bitten_r": "Höre unser Gebet.",
-          "bitten": "Du bist der Urheber des Lebens;^qschenke uns in deinem Sohn das neue Leben.^pHilf uns, dem Bösen zu widerstehen^qund rein und wahr vor dir zu leben.^pMach weit unser Herz,^qdamit wir helfen, wo es not tut.^pLaß den Samen des Wortes in uns aufgehen,^qhilf uns, nach dem Evangelium zu leben."
+          "bitten": "Du bist der Urheber des Lebens;^qschenke uns in deinem Sohn das neue Leben.^pHilf uns, dem Bösen zu widerstehen^qund rein und wahr vor dir zu leben.^pMach weit unser Herz,^qdamit wir helfen, wo es not tut.^pLass den Samen des Wortes in uns aufgehen,^qhilf uns, nach dem Evangelium zu leben."
         },
         "Vesper": {
           "bitten_e": "Lasst uns beten zu Christus, der uns durch seine Auferstehung mit neuer Hoffnung erfüllt hat:",
