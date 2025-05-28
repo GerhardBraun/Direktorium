@@ -36,8 +36,6 @@ interface PersonalEntry {
   bitten_e?: string;
   bitten_r?: string;
   bitten?: string;
-  vu?: number;
-  vu_lat?: number;
   oration?: string;
 }
 

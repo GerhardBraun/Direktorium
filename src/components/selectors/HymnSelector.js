@@ -35,13 +35,19 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, localPrefK
         // Prüfe die Ränge
         const { rank_date = 0, rank_wt = 0, isCommemoration = false } = texts;
 
-        const useWt = (prefSollemnity
+        let useWt = (prefSollemnity
             && !(['terz', 'sext', 'non'].includes(hour)))
             ? '' : 'wt'
+
         const isHighRank = rank_date > 2 || rank_wt > 2;
 
         // Stelle die Basis-Quellen zusammen
         let sources = [localPrefSrc, 'pers', localPrefKomplet];
+
+        if (isHighRank && rank_wt > rank_date) {
+            sources = ['wt', ...sources];
+            useWt = ''
+        }
 
         // Ermittle Commune-Sources nur wenn nötig
         const communeSources = ((!isCommemoration || prefSollemnity === 'soll') &&
