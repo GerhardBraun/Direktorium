@@ -1,36 +1,59 @@
-export const getKompletValue = ({ texts, field, localPrefKomplet }) => {
+export const getKompletValue = ({ texts, field, localPrefKomplet, localPrefLanguage = '' }) => {
     if (!texts || !texts.komplet) {
         return null;
     }
+
     let { season, dayOfWeek, combinedSWD } = texts;
 
-    if (field.startsWith('oration') && localPrefKomplet !== 'wt') {
-        if ([0, 6].includes(dayOfWeek) && combinedSWD !== 'q-6-6') {
-            return data?.[dayOfWeek]?.[field]
-        } else if
-            (!combinedSWD.startsWith('o-1-') && combinedSWD !== 'o-2-0') {
-            return data.sollemnity[field]
+    // Helper function to get value with optional language suffix
+    const getValue = (targetField) => {
+        // Erst mit Sprachsuffix versuchen (falls vorhanden)
+        if (localPrefLanguage) {
+            const languageField = `${targetField}${localPrefLanguage}`;
+            const languageResult = getFieldValue(languageField);
+            if (languageResult) {
+                return languageResult;
+            }
         }
-    }
 
-    if (field === 'resp1_1' &&
-        (combinedSWD.startsWith('o-1-') ||
-            ['q-6-4', 'q-6-5', 'q-6-6', 'o-2-0'].includes(combinedSWD))
-    ) { return '' }
+        // Fallback auf Standard-Feld
+        return getFieldValue(targetField);
+    };
 
-    if (combinedSWD.startsWith('o-9-')) { season = 'j' }
-    if (localPrefKomplet === 'k1') { dayOfWeek = 6 }
-    if (localPrefKomplet === 'k2') { dayOfWeek = 0 }
+    // Helper function to actually retrieve the field value
+    const getFieldValue = (targetField) => {
+        if (targetField.startsWith('oration') && localPrefKomplet !== 'wt') {
+            if ([0, 6].includes(dayOfWeek) && combinedSWD !== 'q-6-6') {
+                return data?.[dayOfWeek]?.[targetField];
+            } else if (!combinedSWD.startsWith('o-1-') && combinedSWD !== 'o-2-0') {
+                return data.sollemnity[targetField];
+            }
+        }
 
-    return data?.[season]?.[field]
-        || data?.[season]?.[dayOfWeek]?.[field]
-        || data?.[dayOfWeek]?.[field]
-        || data?.each?.[field]
-        || null;
+        if (targetField === 'resp1_1' &&
+            (combinedSWD.startsWith('o-1-') ||
+                ['q-6-4', 'q-6-5', 'q-6-6', 'o-2-0'].includes(combinedSWD))
+        ) {
+            return '';
+        }
 
-    return texts.komplet[localPrefKomplet]?.[field] || null;
-}
+        // Anpassungen für Saison und Wochentag
+        if (combinedSWD.startsWith('o-9-')) { season = 'j'; }
+        if (localPrefKomplet === 'k1') { dayOfWeek = 6; }
+        if (localPrefKomplet === 'k2') { dayOfWeek = 0; }
 
+        return data?.[season]?.[targetField]
+            || data?.[season]?.[dayOfWeek]?.[targetField]
+            || data?.[dayOfWeek]?.[targetField]
+            || data?.each?.[targetField]
+            || null;
+    };
+
+    // Hauptaufruf mit Sprachlogik
+    return getValue(field);
+};
+
+// Daten bleiben unverändert
 const data = {
     "o": {
         "ant_0": "Halleluja,°halleluja,°halleluja.",
@@ -47,8 +70,19 @@ const data = {
         "5": { "ps_1": 88, },
     },
     "sollemnity": {
-        "oration_komplet": "Herr und Gott, kehre ein in dieses Haus und halte alle Nachstellungen des Feindes von ihm fern. Deine heiligen Engel mögen darin wohnen und uns im Frieden bewahren. Und dein Segen sei über uns allezeit.^ORV",
+        "oration_komplet": "Herr und Gott, kehre ein in dieses Haus und halte alle Nachstellungen des Feindes von ihm fern. Deine heiligen Engel mögen darin wohnen und uns im Frieden bewahren. Und dein Segen sei über uns allezeit.^ORV",
         "oration_komplet_lat": "Vísita, quǽsumus, Dómine, habitatiónem istam, et omnes insídias inimíci ab ea longe repélle; ángeli tui sancti hábitent in ea, qui nos in pace custódiant; et benedíctio tua sit super nos semper.^ORlV"
+    },
+    "each": {
+        "hymn_1": 2500.0,
+        "resp1_1": "Herr, auf dich vertraue ich,",
+        "resp1_2": "in deine Hände lege ich mein Leben.",
+        "resp1_3": "Lass leuchten über deinem Knecht dein Antlitz, hilf mir in deiner Güte.",
+        "ant_ev": "Sei unser Heil, o°Herr, wenn wir wachen, und unser Schutz, wenn wir schlafen, damit wir wachen mit Christus und ruhen in Frieden.^ö",
+        "resp1_1_lat": "In manus tuas, Dómine,",
+        "resp1_2_lat": "comméndo spíritum meum.",
+        "resp1_3_lat": "Redemísti nos, Dómine Deus veritátis.",
+        "ant_ev_lat": "Salva nos, Dómine, vigilántes, custódi nos dormiéntes, ut vigilémus cum Christo et requiescámus in pace.^Lö"
     },
     "0": {
         "hymn_2": 2510.0,
@@ -139,16 +173,5 @@ const data = {
         "ant_2_lat": "In nóctibus benedícite Dóminum.",
         "les_text_lat": "Audi Israel: Dóminus Deus noster Dóminus unus est. Díliges Dóminum Deum tuum ex toto corde tuo et ex tota ánima tua et ex tota fortitúdine tua. Erúntque verba hæc, quæ ego præcípio tibi hódie, in corde tuo, et inculcábis ea fíliis tuis et loquéris ea sedens in domo tua et ámbulans in itínere, decúmbens atque consúrgens.^LR",
         "oration_komplet_lat": "Vísita nos, quǽsumus, Dómine, hac nocte præsénti, ut, dilúculo tua virtúte surgéntes, de resurrectióne Christi tui gaudére valeámus.^ORlvR"
-    },
-    "each": {
-        "hymn_1": 2500.0,
-        "resp1_1": "Herr, auf dich vertraue ich,",
-        "resp1_2": "in deine Hände lege ich mein Leben.",
-        "resp1_3": "Lass leuchten über deinem Knecht dein Antlitz, hilf mir in deiner Güte.",
-        "ant_ev": "Sei unser Heil, o°Herr, wenn wir wachen, und unser Schutz, wenn wir schlafen, damit wir wachen mit Christus und ruhen in Frieden.^ö",
-        "resp1_1_lat": "In manus tuas, Dómine,",
-        "resp1_2_lat": "comméndo spíritum meum.",
-        "resp1_3_lat": "Redemísti nos, Dómine Deus veritátis.",
-        "ant_ev_lat": "Salva nos, Dómine, vigilántes, custódi nos dormiéntes, ut vigilémus cum Christo et requiescámus in pace.^Lö"
     }
-}
+};

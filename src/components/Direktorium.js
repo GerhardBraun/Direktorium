@@ -1279,22 +1279,14 @@ const PrayerTextDisplay = ({
   // Get value from sources in priority order: prefSrc -> com1/com2 -> wt
   const getValue = (field) => {
     if (hour === 'komplet') {
-      const resultKomplet = getKompletValue({
+      return getKompletValue({
         localPrefKomplet,
         texts,
-        field: `${field}${localPrefLanguage}`,
-      })
-      return resultKomplet ?
-        (typeof resultKomplet === 'string'
-          ? resultKomplet + `${localPrefLanguage}`
-          : resultKomplet)
-        : getKompletValue({
-          localPrefKomplet,
-          texts,
-          field,
-        })
+        field,
+        localPrefLanguage
+      });
     } else {
-      const resultLanguage = extGetValue({
+      return extGetValue({
         hour,
         prefSrc,
         prefSollemnity,
@@ -1302,24 +1294,10 @@ const PrayerTextDisplay = ({
         localPrefPsalmsWt,
         localPrefErgPs,
         localPrefContinuous,
+        localPrefLanguage,
         texts,
-        field: `${field}${localPrefLanguage}`,
+        field,
       })
-      return resultLanguage ?
-        (typeof resultLanguage === 'string'
-          ? resultLanguage + `${localPrefLanguage}`
-          : resultLanguage)
-        : extGetValue({
-          hour,
-          prefSrc,
-          prefSollemnity,
-          localPrefComm,
-          localPrefPsalmsWt,
-          localPrefErgPs,
-          localPrefContinuous,
-          texts,
-          field,
-        })
     };
   }
   // Component for section headers with source indicators
@@ -1489,6 +1467,7 @@ const PrayerTextDisplay = ({
               prefSrc={prefSrc}
               prefSollemnity={prefSollemnity}
               localPrefKomplet={localPrefKomplet}
+              localPrefLanguage={localPrefLanguage}
               formatPrayerText={formatPrayerText}
             />
           </div>

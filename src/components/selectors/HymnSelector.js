@@ -1,7 +1,7 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { psalmsData } from '../data/PsHymn.ts'; // Import hinzufügen
 
-const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, localPrefKomplet, formatPrayerText }) => {
+const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, localPrefKomplet, localPrefLanguage = '', formatPrayerText }) => {
     const [selectedHymn, setSelectedHymn] = useState(null);
     let localPrefSrc = prefSrc;
     if (['kirchw', 'verst'].includes(prefSollemnity)) { localPrefSrc = prefSollemnity; }
@@ -82,76 +82,99 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, localPrefK
         return sources;
     }, [texts, hour, localPrefSrc, localPrefKomplet, prefSollemnity]);
 
+
+
     // Sammle alle verfügbaren Hymnen
     const availableHymns = useMemo(() => {
-        const hymns = [];
-        const usedHymnNumbers = new Set();
-        const hasNachtHymn = texts[hour]?.wt?.hymn_nacht; // Geändert
+        const collectHymns = (localPrefLanguage = '') => {
+            const hymns = [];
+            const usedHymnNumbers = new Set();
+            const hasNachtHymn = texts[hour]?.wt?.hymn_nacht;
 
-        let hymnTypes = ['hymn_nacht', 'hymn_1', 'hymn_2', 'hymn_3', 'hymn_kl'];
-        if (prefSollemnity) {
-            hymnTypes = ['hymn_1', 'hymn_2', 'hymn_3']
-        }
+            let hymnTypes = ['hymn_nacht', 'hymn_1', 'hymn_2', 'hymn_3',
+                'hymn_1_lat', 'hymn_2_lat', 'hymn_3_lat', 'hymn_kl'];
+            if (prefSollemnity) {
+                hymnTypes = ['hymn_1', 'hymn_2', 'hymn_3',
+                    'hymn_1_lat', 'hymn_2_lat', 'hymn_3_lat']
+            }
 
-        sourceOrder.forEach(sourcePath => {
-            const pathParts = sourcePath.split('.');
-            let currentLevel = texts[hour];
-            pathParts.forEach(part => {
-                currentLevel = currentLevel?.[part];
-            });
+            sourceOrder.forEach(sourcePath => {
+                const pathParts = sourcePath.split('.');
+                let currentLevel = texts[hour];
+                pathParts.forEach(part => {
+                    currentLevel = currentLevel?.[part];
+                });
 
-            if (!currentLevel) return;
+                if (!currentLevel) return;
 
-            hymnTypes.forEach(hymnType => {
-                if (currentLevel[hymnType]) { // Geändert: Prüfe auf reference
-                    const hymnNumber = currentLevel[hymnType];
+                hymnTypes.forEach(hymnType => {
+                    if (currentLevel[hymnType]) {
+                        const hymnNumber = currentLevel[hymnType];
 
-                    // Füge nur hinzu, wenn die Nummer noch nicht verwendet wurde
-                    if (!hymnNumber || !usedHymnNumbers.has(hymnNumber)) {
-                        // Löse die Referenz auf, um Text und Titel zu bekommen
-                        const hymnData = resolveHymnReference(hymnNumber);
+                        // Füge nur hinzu, wenn die Nummer noch nicht verwendet wurde
+                        if (!hymnNumber || !usedHymnNumbers.has(hymnNumber)) {
+                            // Löse die Referenz auf, um Text und Titel zu bekommen
+                            const hymnData = resolveHymnReference(hymnNumber);
 
-                        let sourceLabel;
+                            // Prüfe auf gewünschte Sprache
+                            const textField = `text${localPrefLanguage}`;
+                            const titleField = `title${localPrefLanguage}`;
 
-                        if (sourcePath === prefSrc) {
-                            sourceLabel = 'eigen:';
-                        } else if (sourcePath === prefSollemnity) {
-                            sourceLabel = prefSollemnity.charAt(0).toUpperCase() + prefSollemnity.slice(1);
-                        } else if (sourcePath === 'pers') {
-                            sourceLabel = 'pers:';
-                        } else if (['wt', 'k1', 'k2'].includes(sourcePath)) {
-                            if (hymnType === 'hymn_nacht') {
-                                sourceLabel = 'In der Nacht oder am frühen Morgen:';
-                            } else if (hymnType === 'hymn_kl') {
-                                sourceLabel = 'kl. Stb:';
-                            } else if (hymnType === 'hymn_1' && hasNachtHymn) {
-                                sourceLabel = 'Am Tag:';
+                            // Nur hinzufügen, wenn der Text in der gewünschten Sprache existiert
+                            if (!hymnData[textField]) return;
+
+                            let sourceLabel;
+
+                            if (sourcePath === prefSrc) {
+                                sourceLabel = 'eigen:';
+                            } else if (sourcePath === prefSollemnity) {
+                                sourceLabel = prefSollemnity.charAt(0).toUpperCase() + prefSollemnity.slice(1);
+                            } else if (sourcePath === 'pers') {
+                                sourceLabel = 'pers:';
+                            } else if (['wt', 'k1', 'k2'].includes(sourcePath)) {
+                                if (hymnType === 'hymn_nacht') {
+                                    sourceLabel = 'In der Nacht oder am frühen Morgen:';
+                                } else if (hymnType === 'hymn_kl') {
+                                    sourceLabel = 'kl. Stb:';
+                                } else if (hymnType === 'hymn_1' && hasNachtHymn) {
+                                    sourceLabel = 'Am Tag:';
+                                } else {
+                                    sourceLabel = 'vom Tag:';
+                                }
                             } else {
-                                sourceLabel = 'vom Tag:';
+                                sourceLabel = 'Comm:';
                             }
-                        } else {
-                            sourceLabel = 'Comm:';
-                        }
 
-                        hymns.push({
-                            id: `${sourcePath.replace('.', '_')}_${hymnType}`,
-                            source: sourceLabel,
-                            text: hymnData.text,        // Aus psalmsData aufgelöst
-                            title: hymnData.title,      // Aus psalmsData aufgelöst
-                            hymnNumber,
-                            isNachtHymn: hymnType === 'hymn_nacht'
-                        });
+                            hymns.push({
+                                id: `${sourcePath.replace('.', '_')}_${hymnType}`,
+                                source: sourceLabel,
+                                text: hymnData[textField],
+                                title: hymnData[titleField],
+                                hymnNumber,
+                                isNachtHymn: hymnType === 'hymn_nacht'
+                            });
 
-                        if (hymnNumber) {
-                            usedHymnNumbers.add(hymnNumber);
+                            if (hymnNumber) {
+                                usedHymnNumbers.add(hymnNumber);
+                            }
                         }
                     }
-                }
+                });
             });
-        });
-        return hymns;
-    }, [texts, hour, localPrefSrc, sourceOrder]);
 
+            return hymns;
+        };
+
+        // Erster Durchlauf: Mit Sprachpräferenz (oder Standard wenn nicht gesetzt)
+        const firstPass = collectHymns(localPrefLanguage);
+        if (firstPass.length > 0) {
+            return firstPass;
+        }
+
+        // Fallback: Standard-Sprache (nur wenn erster Durchlauf leer war)
+        return collectHymns('');
+
+    }, [texts, hour, localPrefSrc, sourceOrder, localPrefLanguage]);
     // Setze den ersten gefundenen Hymnus als ausgewählt
     useEffect(() => {
         if (availableHymns.length > 0) {

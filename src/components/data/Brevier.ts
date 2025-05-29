@@ -715,7 +715,6 @@ export const brevierData = {
         "Invitatorium": {
           "ant_0": "Der Herr ist nahe; kommt, wir beten ihn an."
         },
-        "Komplet": {},
         "Laudes": {
           "hymn_1": 3121.0,
           "hymn_kl": 0.0,
@@ -4758,7 +4757,6 @@ export const brevierData = {
         "Invitatorium": {
           "ant_0": "Heute wurde die Mutter Christi in den Himmel erhoben; kommt, wir beten ihren Sohn an, den König der Könige!"
         },
-        "Komplet": {},
         "Laudes": {
           "button": "Aufnahme Mariens in den Himmel",
           "farbe": "m",
@@ -4842,8 +4840,7 @@ export const brevierData = {
       "22": {
         "Invitatorium": {
           "ant_0": "Christus, der König, gab seiner Mutter die Krone der Herrlichkeit; kommt, wir beten ihn an!"
-        },
-        "Komplet": {}
+        }
       },
       "24": {
         "each": {
@@ -6580,7 +6577,6 @@ export const brevierData = {
           "ant_2_lat": "",
           "ant_3_lat": ""
         },
-        "Komplet": {},
         "Laudes": {
           "hymn_1": 3229.0,
           "hymn_kl": 0.0,
@@ -8778,144 +8774,11 @@ export const brevierData = {
       }
     }
   },
-  "k1": {
-    "each": {
-      "0": {
-        "Komplet": {
-          "oration_komplet": "Allmächtiger Gott, wir haben heute das Geheimnis der Auferstehung unseres Herrn gefeiert. Am Abend rufen wir zu dir: Bewahre uns in dieser Nacht vor allem Bösen. Lass uns in deinem Frieden ruhen und morgen den neuen Tag mit deinem Lob beginnen.^ORV",
-          "oration_komplet_lat": "Vox nostra te, Dómine, humíliter deprecétur, ut, domínicæ resurrectiónis hac die mystério celebráto, in pace tua secúri a malis ómnibus quiescámus, et in tua resurgámus laude gaudéntes.^ORlV"
-        }
-      },
-      "6": {
-        "Komplet": {
-          "oration_komplet": "Herr, bleibe bei uns in dieser Nacht, und wenn wir uns am Morgen erheben, dann lass uns in Freude der Auferstehung deines Sohnes gedenken,^ORR",
-          "oration_komplet_lat": "Vísita nos, quǽsumus, Dómine, hac nocte præsénti, ut, dilúculo tua virtúte surgéntes, de resurrectióne Christi tui gaudére valeámus.^ORlvR"
-        }
-      },
-      "each": {
-        "Komplet": {
-          "hymn_1": 2500.0,
-          "hymn_2": 2516.0,
-          "ps_1": 4.0,
-          "ps_2": 134.0,
-          "ant_1": "Sei mir gnädig, Herr, und höre auf mein Flehen.",
-          "ant_2": "Zu nächtlicher Stunde preiset den Herrn.",
-          "ant_3": "",
-          "les_buch": "Dtn",
-          "les_stelle": "6,4–7",
-          "les_text": "Höre, Israel! Jahwe, unser Gott, Jahwe ist einzig. Dar­um sollst du den Herrn, deinen Gott, lieben mit gan­zem Herzen, mit ganzer Seele und mit ganzer Kraft. Diese Worte, auf die ich dich heute verpflichte, sollen auf deinem Herzen geschrieben stehen. Du sollst sie deinen Söhnen wiederholen. Du sollst von ihnen reden, wenn du zu Hause sitzt und wenn du auf der Straße gehst, wenn du dich schlafen legst und wenn du aufstehst.^R",
-          "resp1_1": "Herr, auf dich vertraue ich,",
-          "resp1_2": "in deine Hände lege ich mein Leben.",
-          "resp1_3": "Lass leuchten über deinem Knecht dein Antlitz, hilf mir in deiner Güte.",
-          "ant_ev": "Sei unser Heil, o°Herr, wenn wir wachen, und unser Schutz, wenn wir schlafen, damit wir wachen mit Christus und ruhen in Frieden.^ö",
-          "oration_komplet": "Herr und Gott, kehre ein in dieses Haus und halte alle Nachstellungen des Feindes von ihm fern. Deine heiligen Engel mögen darin wohnen und uns im Frieden bewahren. Und dein Segen sei über uns allezeit.^ORV",
-          "ant_1_lat": "Miserére mei, Dómine, et exáudi oratiónem meam.",
-          "ant_2_lat": "In nóctibus benedícite Dóminum.",
-          "ant_3_lat": "",
-          "resp1_1_lat": "In manus tuas, Dómine,",
-          "resp1_2_lat": "comméndo spíritum meum.",
-          "resp1_3_lat": "Redemísti nos, Dómine Deus veritátis.",
-          "ant_ev_lat": "Salva nos, Dómine, vigilántes, custódi nos dormiéntes, ut vigilémus cum Christo et requiescámus in pace.^Lö",
-          "les_text_lat": "Audi Israel: Dóminus Deus noster Dóminus unus est. Díliges Dóminum Deum tuum ex toto corde tuo et ex tota ánima tua et ex tota fortitúdine tua. Erúntque verba hæc, quæ ego præcípio tibi hódie, in corde tuo, et inculcábis ea fíliis tuis et loquéris ea sedens in domo tua et ámbulans in itínere, decúmbens atque consúrgens.",
-          "oration_komplet_lat": "Vísita, quǽsumus, Dómine, habitatiónem istam, et omnes insídias inimíci ab ea longe repélle; ángeli tui sancti hábitent in ea, qui nos in pace custódiant; et benedíctio tua sit super nos semper.^ORlV"
-        }
-      }
-    },
-    "o": {
-      "6": {
-        "Komplet": {
-          "resp1_1": "",
-          "resp1_2": "",
-          "resp1_3": "",
-          "oration_komplet": "Herr, bleibe bei uns in dieser Nacht, und wenn wir uns am Morgen erheben, dann lass uns in Freude der Auferstehung deines Sohnes gedenken,^ORR",
-          "resp1_1_lat": "",
-          "resp1_2_lat": "",
-          "resp1_3_lat": "",
-          "oration_komplet_lat": "Vísita nos, quǽsumus, Dómine, hac nocte præsénti, ut, dilúculo tua virtúte surgéntes, de resurrectióne Christi tui gaudére valeámus.^ORlvR"
-        }
-      }
-    }
-  },
-  "k2": {
-    "each": {
-      "0": {
-        "Komplet": {
-          "oration_komplet": "Allmächtiger Gott, wir haben heute das Geheimnis der Auferstehung unseres Herrn gefeiert. Am Abend rufen wir zu dir: Bewahre uns in dieser Nacht vor allem Bösen. Lass uns in deinem Frieden ruhen und morgen den neuen Tag mit deinem Lob beginnen.^ORV",
-          "oration_komplet_lat": "Vox nostra te, Dómine, humíliter deprecétur, ut, domínicæ resurrectiónis hac die mystério celebráto, in pace tua secúri a malis ómnibus quiescámus, et in tua resurgámus laude gaudéntes.^ORlV"
-        }
-      },
-      "6": {
-        "Komplet": {
-          "oration_komplet": "Herr, bleibe bei uns in dieser Nacht, und wenn wir uns am Morgen erheben, dann lass uns in Freude der Auferstehung deines Sohnes gedenken,^ORR",
-          "oration_komplet_lat": "Vísita nos, quǽsumus, Dómine, hac nocte præsénti, ut, dilúculo tua virtúte surgéntes, de resurrectióne Christi tui gaudére valeámus.^ORlvR"
-        }
-      },
-      "each": {
-        "Komplet": {
-          "hymn_1": 2500.0,
-          "hymn_2": 2510.0,
-          "ps_1": 91.0,
-          "ant_0": "Mit seinen Flügeln beschirmt dich der Herr; du brauchst dich nicht zu fürchten vor dem Schrecken der Nacht.",
-          "ant_1": "",
-          "ant_2": "",
-          "ant_3": "",
-          "les_buch": "Offb",
-          "les_stelle": "22,4–5",
-          "les_text": "Sie werden sein Angesicht schauen, und sein Name ist auf ihre Stirn geschrieben. Es wird keine Nacht mehr geben, und sie brauchen weder das Licht einer Lampe noch das Licht der Sonne. Denn der Herr, ihr Gott, wird über ihnen leuchten, und sie werden herrschen in alle Ewigkeit.^R",
-          "resp1_1": "Herr, auf dich vertraue ich,",
-          "resp1_2": "in deine Hände lege ich mein Leben.",
-          "resp1_3": "Lass leuchten über deinem Knecht dein Antlitz, hilf mir in deiner Güte.",
-          "ant_ev": "Sei unser Heil, o°Herr, wenn wir wachen, und unser Schutz, wenn wir schlafen, damit wir wachen mit Christus und ruhen in Frieden.^ö",
-          "oration_komplet": "Herr und Gott, kehre ein in dieses Haus und halte alle Nachstellungen des Feindes von ihm fern. Deine heiligen Engel mögen darin wohnen und uns im Frieden bewahren. Und dein Segen sei über uns allezeit.^ORV",
-          "ant_0_lat": "Alis suis obumbrábit tibi; non timébis a timóre noctúrno.",
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": "",
-          "resp1_1_lat": "In manus tuas, Dómine,",
-          "resp1_2_lat": "comméndo spíritum meum.",
-          "resp1_3_lat": "Redemísti nos, Dómine Deus veritátis.",
-          "ant_ev_lat": "Salva nos, Dómine, vigilántes, custódi nos dormiéntes, ut vigilémus cum Christo et requiescámus in pace.^Lö",
-          "les_text_lat": "Vidébunt fáciem Dómini, et nomen eius in fróntibus eórum. Et nox ultra non erit, et non egent lúmine lucérnæ neque lúmine solis, quóniam Dóminus Deus illuminábit super illos, et regnábunt in sǽcula sæculórum.",
-          "oration_komplet_lat": "Vísita, quǽsumus, Dómine, habitatiónem istam, et omnes insídias inimíci ab ea longe repélle; ángeli tui sancti hábitent in ea, qui nos in pace custódiant; et benedíctio tua sit super nos semper.^ORlV"
-        }
-      }
-    },
-    "o": {
-      "0": {
-        "Komplet": {
-          "resp1_1": "",
-          "resp1_2": "",
-          "resp1_3": "",
-          "oration_komplet": "Allmächtiger Gott, wir haben heute das Geheimnis der Auferstehung unseres Herrn gefeiert. Am Abend rufen wir zu dir: Bewahre uns in dieser Nacht vor allem Bösen. Lass uns in deinem Frieden ruhen und morgen den neuen Tag mit deinem Lob beginnen.^ORV",
-          "resp1_1_lat": "",
-          "resp1_2_lat": "",
-          "resp1_3_lat": "",
-          "oration_komplet_lat": "Vox nostra te, Dómine, humíliter deprecétur, ut, domínicæ resurrectiónis hac die mystério celebráto, in pace tua secúri a malis ómnibus quiescámus, et in tua resurgámus laude gaudéntes.^ORlV"
-        }
-      }
-    }
-  },
   "kirchw": {
     "each": {
       "each": {
         "each": {
           "oration": "^rIn der Kirche, deren Weihefest begangen wird:^0r^lGroßer und heiliger Gott, jedes Jahr feiern wir den Weihetag dieses heiligen Hauses. Höre auf die Bitten deines Volkes. Hilf uns, dass wir an diesem Ort in rechter Gesinnung den heiligen Dienst vollziehen und den Reichtum der Erlösungsgnade empfangen.^ORV^p^rAußerhalb der Kirche, deren Weihefest begangen wird:^0r^lErhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird.^ORV^p^rOder:^0r^lAllmächtiger Gott, du hast gewollt, dass dein Volk Kirche heiße, denn wir sind das Haus, in dem deine Herrlichkeit wohnt. Gib, dass die Gläubigen, die sich in deinem Namen versammeln, dich ehren, dich lieben und dir gehorchen damit sie unter deiner Führung das ewige Erbe erlangen.^ORV"
-        },
-        "ErsteK": {
-          "hymn_1": 2500.0,
-          "hymn_2": 2506.0,
-          "ps_1": 4.0,
-          "ps_2": 134.0,
-          "ant_1": "Sei mir gnädig, Herr, und höre auf mein Flehen.",
-          "ant_2": "Zu nächtlicher Stunde preiset den Herrn.",
-          "les_buch": "Dtn",
-          "les_stelle": "6,4–7",
-          "les_text": "Höre, Israel! Jahwe, unser Gott, Jahwe ist einzig. Darum sollst du den Herrn, deinen Gott, lieben mit gan­zem Herzen, mit ganzer Seele und mit ganzer Kraft. Diese Worte, auf die ich dich heute verpflichte, sollen auf deinem Herzen geschrieben stehen. Du sollst sie deinen Söhnen wiederholen. Du sollst von ihnen reden, wenn du zu Hause sitzt und wenn du auf der Straße gehst, wenn du dich schlafen legst und wenn du aufstehst.",
-          "oration_komplet": "Herr und Gott, kehre ein in dieses Haus und halte alle Nachstellungen des Feindes von ihm fern. Deine heiligen Engel mögen darin wohnen und uns im Frieden bewahren. Und dein Segen sei über uns allezeit.^ORV",
-          "ant_1_lat": "Miserére mei, Dómine, et exáudi oratiónem meam.",
-          "ant_2_lat": "In nóctibus benedícite Dóminum.",
-          "les_text_lat": "Audi Israel: Dóminus Deus noster Dóminus unus est. Díliges Dóminum Deum tuum ex toto corde tuo et ex tota ánima tua et ex tota fortitúdine tua. Erúntque verba hæc, quæ ego præcípio tibi hódie, in corde tuo, et inculcábis ea fíliis tuis et loquéris ea sedens in domo tua et ámbulans in itínere, decúmbens atque consúrgens.",
-          "oration_komplet_lat": "Vísita, quǽsumus, Dómine, habitatiónem istam, et omnes insídias inimíci ab ea longe repélle; ángeli tui sancti hábitent in ea, qui nos in pace custódiant; et benedíctio tua sit super nos semper.^ORlV"
         },
         "ErsteV": {
           "button": "1. Vesper zur Kirchweihe",
@@ -8939,20 +8802,6 @@ export const brevierData = {
         },
         "Invitatorium": {
           "ant_0": "Wie ein Bräutigam liebt Christus seine Kirche; kommt, wir beten ihn an!^ö^p^rOder:^0r^l^rAnt.^0r°°Christus, den Herrn, der seine Kirche liebt – kommt, wir beten ihn an!^ö"
-        },
-        "Komplet": {
-          "hymn_1": 2500.0,
-          "hymn_2": 2510.0,
-          "ps_1": 91.0,
-          "ps_2": 0.0,
-          "ant_0": "Mit seinen Flügeln beschirmt dich der Herr; du brauchst dich nicht zu fürchten vor dem Schrecken der Nacht.",
-          "les_buch": "Offb",
-          "les_stelle": "22,4–5",
-          "les_text": "Sie werden sein Angesicht schauen, und sein Name ist auf ihre Stirn geschrieben. Es wird keine Nacht mehr geben, und sie brauchen weder das Licht einer Lampe noch das Licht der Sonne. Denn der Herr, ihr Gott, wird über ihnen leuchten, und sie werden herrschen in alle Ewigkeit.",
-          "oration_komplet": "Herr und Gott, kehre ein in dieses Haus und halte alle Nachstellungen des Feindes von ihm fern. Deine heiligen Engel mögen darin wohnen und uns im Frieden bewahren. Und dein Segen sei über uns allezeit.^ORV",
-          "ant_0_lat": "Alis suis obumbrábit tibi; non timébis a timóre noctúrno.",
-          "les_text_lat": "Vidébunt fáciem Dómini, et nomen eius in fróntibus eórum. Et nox ultra non erit, et non egent lúmine lucérnæ neque lúmine solis, quóniam Dóminus Deus illuminábit super illos, et regnábunt in sǽcula sæculórum.",
-          "oration_komplet_lat": "Vísita, quǽsumus, Dómine, habitatiónem istam, et omnes insídias inimíci ab ea longe repélle; ángeli tui sancti hábitent in ea, qui nos in pace custódiant; et benedíctio tua sit super nos semper.^ORlV"
         },
         "Laudes": {
           "hymn_1": 1150.0,
@@ -10150,7 +9999,8 @@ export const brevierData = {
           "ant_ev_lat": "O rex glóriæ, Dómine virtútum, qui triumphátor hódie super omnes cælos ascendísti, ne derelínquas nos órphanos; sed mitte promíssum Patris in nos, Spíritum veritátis, allelúia.",
           "bitten_e_lat": "Christum, sedéntem ad déxteram Patris, cum gáudio spíritus acclamémus:",
           "bitten_r_lat": "Tu rex glóriæ, Christe.",
-          "bitten_lat": "O rex glóriæ, qui carnis nostræ fragilitátem tecum glorificándam ad súperos evexísti,^qvéterum culpárum tolle pravitátem, et redde nobis vitæ prístinæ dignitátem.^pQui, per dilectiónis viam ad nos descendísti,^qper hanc ad te nos ascéndere concéde.^pQui fore promisísti, ut omnes tráheres ad teípsum,^qnéminem ex nobis patiáris a tuo córpore divélli.^pQuo tu ascendísti glorificátus,^qilluc te nunc prǽvium mente sequámur et corde.^pQuem nunc verum Deum iúdicem præstolámur,^qfac ut aliquándo te Dóminum cum defúnctis in maiestáte tua misericórdem contemplémur."
+          "bitten_lat": "O rex glóriæ, qui carnis nostræ fragilitátem tecum glorificándam ad súperos evexísti,^qvéterum culpárum tolle pravitátem, et redde nobis vitæ prístinæ dignitátem.^pQui, per dilectiónis viam ad nos descendísti,^qper hanc ad te nos ascéndere concéde.^pQui fore promisísti, ut omnes tráheres ad teípsum,^qnéminem ex nobis patiáris a tuo córpore divélli.^pQuo tu ascendísti glorificátus,^qilluc te nunc prǽvium mente sequámur et corde.^pQuem nunc verum Deum iúdicem præstolámur,^qfac ut aliquándo te Dóminum cum defúnctis in maiestáte tua misericórdem contemplémur.",
+          "les_text_lat": "Christus semel pro peccátis passus est, iustus pro iniústis, ut vos addúceret ad Deum, mortificátus quidem carne, vivificátus autem Spíritu. Et vos nunc salvos facit, non carnis deposítio sórdium sed consciéntiæ bonæ rogátio in Deum, per resurrectiónem Iesu Christi, qui est in déxtera Dei, proféctus in cælum, subiéctis sibi ángelis et potestátibus et virtútibus."
         }
       },
       "5": {
@@ -10837,6 +10687,7 @@ export const brevierData = {
           "bitten_e": "Lob und Ehre sei Christus, dem Urheber des Lebens! Zu ihm lasst uns rufen:",
           "bitten_r": "Christus, unser Leben, rette uns.",
           "bitten": "Du Licht, das in der Finsternis leuchtet, du Fürst des Lebens, der rettet und heiligt, was dem Tod verfallen ist,^qlass uns mit österlichem Lobpreis das Fest deiner Auferstehung feiern.^pHerr, du bist durch Leiden und Tod in deine Herrlichkeit eingegangen;^qführe auch uns durch die Leiden dieser Zeit zur Auferstehung.^pSohn des ewigen Vaters, unser Meister und Bruder, du hast uns zu einem heiligen Volk gemacht für unseren Gott;^qlass uns die großen Taten Gottes verkünden.^pDu König der Herrlichkeit, wir erwarten den Tag, an dem du auch uns erscheinen wirst;^qlass uns dein Angesicht schauen und dir ähnlich werden auf ewig.",
+          "resp1_1_lat": "Christe, Fili Dei vivi, miserére nobis.",
           "resp1_2_lat": "Allelúia, allelúia.",
           "resp1_3_lat": "Qui surrexísti a mórtuis."
         },
@@ -10952,9 +10803,6 @@ export const brevierData = {
         }
       },
       "3": {
-        "Komplet": {
-          "ps_2": 130.0
-        },
         "Laudes": {
           "les_buch": "Röm",
           "les_stelle": "6,8–11",
@@ -11029,9 +10877,6 @@ export const brevierData = {
         }
       },
       "5": {
-        "Komplet": {
-          "ps_1": 88.0
-        },
         "Laudes": {
           "les_buch": "Apg",
           "les_stelle": "5,30–32",
@@ -11118,22 +10963,6 @@ export const brevierData = {
           "ant_1_lat": "",
           "ant_2_lat": "",
           "ant_3_lat": ""
-        },
-        "Komplet": {
-          "ant_0": "Halleluja,°halleluja, halleluja.",
-          "ant_1": "",
-          "ant_2": "",
-          "ant_3": "",
-          "resp1_1": "Herr, auf dich vertraue ich, in deine Hände lege ich mein Leben.",
-          "resp1_2": "Halleluja,°halleluja.",
-          "resp1_3": "Lass leuchten über deinem Knecht dein Antlitz, hilf mir in deiner Güte.",
-          "ant_0_lat": "Allelúia,°allelúia,°allelúia.",
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": "",
-          "resp1_1_lat": "In manus tuas, Dómine, comméndo spíritum meum.",
-          "resp1_2_lat": "Allelúia,°allelúia.",
-          "resp1_3_lat": "Redemísti nos, Dómine Deus veritátis."
         },
         "Laudes": {
           "hymn_1": 3421.0,
@@ -11299,6 +11128,7 @@ export const brevierData = {
           "ant_1": "",
           "ant_2": "",
           "ant_3": "",
+          "ant_0_lat": "Christum Dóminum, qui Sanctum nobis promísit Spíritum, veníte, adorémus!^Ö",
           "ant_1_lat": "",
           "ant_2_lat": "",
           "ant_3_lat": ""
@@ -14830,31 +14660,6 @@ export const brevierData = {
         "each": {
           "oration": "Gott, es ist würdig und recht, dich über alles zu lieben. Mehre in uns den Reichtum deiner Gnade. Durch den Tod deines Sohnes lässt du uns erhoffen, was wir glauben. Gib, dass wir durch seine Auferstehung erlangen, was wir ersehnen.^ORvR"
         },
-        "Komplet": {
-          "hymn_2": 2510.0,
-          "ps_1": 91.0,
-          "ps_2": 0,
-          "ant_0": "Mit seinen Flügeln beschirmt dich der Herr; du brauchst dich nicht zu fürchten vor dem Schrecken der Nacht.",
-          "ant_1": "",
-          "ant_2": "",
-          "ant_3": "",
-          "les_buch": "Offb",
-          "les_stelle": "22,4–5",
-          "les_text": "Sie werden sein Angesicht schauen, und sein Name ist auf ihre Stirn geschrieben. Es wird keine Nacht mehr geben, und sie brauchen weder das Licht einer Lampe noch das Licht der Sonne. Denn der Herr, ihr Gott, wird über ihnen leuchten, und sie werden herrschen in alle Ewigkeit.^R",
-          "resp1_1": "",
-          "resp1_2": "",
-          "resp1_3": "",
-          "oration_komplet": "Herr und Gott, kehre ein in dieses Haus und halte alle Nachstellungen des Feindes von ihm fern. Deine heiligen Engel mögen darin wohnen und uns im Frieden bewahren. Und dein Segen sei über uns allezeit.^ORV",
-          "ant_0_lat": "Alis suis obumbrábit tibi; non timébis a timóre noctúrno.",
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": "",
-          "resp1_1_lat": "",
-          "resp1_2_lat": "",
-          "resp1_3_lat": "",
-          "les_text_lat": "Vidébunt fáciem Dómini, et nomen eius in fróntibus eórum. Et nox ultra non erit, et non egent lúmine lucérnæ neque lúmine solis, quóniam Dóminus Deus illuminábit super illos, et regnábunt in sǽcula sæculórum.",
-          "oration_komplet_lat": "Vísita, quǽsumus, Dómine, habitatiónem istam, et omnes insídias inimíci ab ea longe repélle; ángeli tui sancti hábitent in ea, qui nos in pace custódiant; et benedíctio tua sit super nos semper.^ORlV"
-        },
         "Laudes": {
           "ps_1": 80.0,
           "ps_2": 174.0,
@@ -14921,31 +14726,6 @@ export const brevierData = {
         },
         "Invitatorium": {
           "ant_0": "Christus, der Sohn Gottes, hat uns mit seinem Blut erkauft; kommt, wir beten ihn an!"
-        },
-        "Komplet": {
-          "hymn_2": 2510.0,
-          "ps_1": 91.0,
-          "ps_2": 0,
-          "ant_0": "Mit seinen Flügeln beschirmt dich der Herr; du brauchst dich nicht zu fürchten vor dem Schrecken der Nacht.",
-          "ant_1": "",
-          "ant_2": "",
-          "ant_3": "",
-          "les_buch": "Offb",
-          "les_stelle": "22,4–5",
-          "les_text": "Sie werden sein Angesicht schauen, und sein Name ist auf ihre Stirn geschrieben. Es wird keine Nacht mehr geben, und sie brauchen weder das Licht einer Lampe noch das Licht der Sonne. Denn der Herr, ihr Gott, wird über ihnen leuchten, und sie werden herrschen in alle Ewigkeit.^R",
-          "resp1_1": "",
-          "resp1_2": "",
-          "resp1_3": "",
-          "oration_komplet": "Herr und Gott, kehre ein in dieses Haus und halte alle Nachstellungen des Feindes von ihm fern. Deine heiligen Engel mögen darin wohnen und uns im Frieden bewahren. Und dein Segen sei über uns allezeit.^ORV",
-          "ant_0_lat": "Alis suis obumbrábit tibi; non timébis a timóre noctúrno.",
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": "",
-          "resp1_1_lat": "",
-          "resp1_2_lat": "",
-          "resp1_3_lat": "",
-          "les_text_lat": "Vidébunt fáciem Dómini, et nomen eius in fróntibus eórum. Et nox ultra non erit, et non egent lúmine lucérnæ neque lúmine solis, quóniam Dóminus Deus illuminábit super illos, et regnábunt in sǽcula sæculórum.",
-          "oration_komplet_lat": "Vísita, quǽsumus, Dómine, habitatiónem istam, et omnes insídias inimíci ab ea longe repélle; ángeli tui sancti hábitent in ea, qui nos in pace custódiant; et benedíctio tua sit super nos semper.^ORlV"
         },
         "Laudes": {
           "ps_1": 51.0,
@@ -15049,31 +14829,6 @@ export const brevierData = {
         },
         "Invitatorium": {
           "ant_0": "Christus, unser Herr, hat für uns den Tod erlitten und wurde ins Grab gelegt; kommt, wir beten ihn an!"
-        },
-        "Komplet": {
-          "hymn_2": 2510.0,
-          "ps_1": 91.0,
-          "ps_2": 0,
-          "ant_0": "Mit seinen Flügeln beschirmt dich der Herr; du brauchst dich nicht zu fürchten vor dem Schrecken der Nacht.",
-          "ant_1": "",
-          "ant_2": "",
-          "ant_3": "",
-          "les_buch": "Offb",
-          "les_stelle": "22,4–5",
-          "les_text": "Sie werden sein Angesicht schauen, und sein Name ist auf ihre Stirn geschrieben. Es wird keine Nacht mehr geben, und sie brauchen weder das Licht einer Lampe noch das Licht der Sonne. Denn der Herr, ihr Gott, wird über ihnen leuchten, und sie werden herrschen in alle Ewigkeit.^R",
-          "resp1_1": "",
-          "resp1_2": "",
-          "resp1_3": "",
-          "oration_komplet": "Herr und Gott, kehre ein in dieses Haus und halte alle Nachstellungen des Feindes von ihm fern. Deine heiligen Engel mögen darin wohnen und uns im Frieden bewahren. Und dein Segen sei über uns allezeit.^ORV",
-          "ant_0_lat": "Alis suis obumbrábit tibi; non timébis a timóre noctúrno.",
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": "",
-          "resp1_1_lat": "",
-          "resp1_2_lat": "",
-          "resp1_3_lat": "",
-          "les_text_lat": "Vidébunt fáciem Dómini, et nomen eius in fróntibus eórum. Et nox ultra non erit, et non egent lúmine lucérnæ neque lúmine solis, quóniam Dóminus Deus illuminábit super illos, et regnábunt in sǽcula sæculórum.",
-          "oration_komplet_lat": "Vísita, quǽsumus, Dómine, habitatiónem istam, et omnes insídias inimíci ab ea longe repélle; ángeli tui sancti hábitent in ea, qui nos in pace custódiant; et benedíctio tua sit super nos semper.^ORlV"
         },
         "Laudes": {
           "ps_1": 64.0,
@@ -15526,7 +15281,6 @@ export const brevierData = {
           "ant_2_lat": "",
           "ant_3_lat": ""
         },
-        "Komplet": {},
         "Laudes": {
           "hymn_1": 3321.0,
           "hymn_kl": 0.0,
@@ -15697,34 +15451,6 @@ export const brevierData = {
         }
       },
       "each": {
-        "ErsteK": {
-          "hymn_2": 2506.0,
-          "ps_1": 4.0,
-          "ps_2": 134.0,
-          "ant_1": "Sei mir gnädig, Herr, und höre auf mein Flehen.",
-          "ant_2": "Zu nächtlicher Stunde preiset den Herrn.",
-          "les_buch": "Dtn",
-          "les_stelle": "6,4–7",
-          "les_text": "Höre, Israel! Jahwe, unser Gott, Jahwe ist einzig. Dar­um sollst du den Herrn, deinen Gott, lieben mit gan­zem Herzen, mit ganzer Seele und mit ganzer Kraft. Diese Worte, auf die ich dich heute verpflichte, sollen auf deinem Herzen geschrieben stehen. Du sollst sie deinen Söhnen wiederholen. Du sollst von ihnen reden, wenn du zu Hause sitzt und wenn du auf der Straße gehst, wenn du dich schlafen legst und wenn du aufstehst.",
-          "oration_komplet": "Herr und Gott, kehre ein in dieses Haus und halte alle Nachstellungen des Feindes von ihm fern. Deine heiligen Engel mögen darin wohnen und uns im Frieden bewahren. Und dein Segen sei über uns allezeit.^ORV",
-          "ant_1_lat": "Miserére mei, Dómine, et exáudi oratiónem meam.",
-          "ant_2_lat": "In nóctibus benedícite Dóminum.",
-          "les_text_lat": "Audi Israel: Dóminus Deus noster Dóminus unus est. Díliges Dóminum Deum tuum ex toto corde tuo et ex tota ánima tua et ex tota fortitúdine tua. Erúntque verba hæc, quæ ego præcípio tibi hódie, in corde tuo, et inculcábis ea fíliis tuis et loquéris ea sedens in domo tua et ámbulans in itínere, decúmbens atque consúrgens.",
-          "oration_komplet_lat": "Vísita, quǽsumus, Dómine, habitatiónem istam, et omnes insídias inimíci ab ea longe repélle; ángeli tui sancti hábitent in ea, qui nos in pace custódiant; et benedíctio tua sit super nos semper.^ORlV"
-        },
-        "Komplet": {
-          "hymn_2": 2510.0,
-          "ps_1": 91.0,
-          "ps_2": 0.0,
-          "ant_0": "Mit seinen Flügeln beschirmt dich der Herr; du brauchst dich nicht zu fürchten vor dem Schrecken der Nacht.",
-          "les_buch": "Offb",
-          "les_stelle": "22,4–5",
-          "les_text": "Sie werden sein Angesicht schauen, und sein Name ist auf ihre Stirn geschrieben. Es wird keine Nacht mehr geben, und sie brauchen weder das Licht einer Lampe noch das Licht der Sonne. Denn der Herr, ihr Gott, wird über ihnen leuchten, und sie werden herrschen in alle Ewigkeit.",
-          "oration_komplet": "Herr und Gott, kehre ein in dieses Haus und halte alle Nachstellungen des Feindes von ihm fern. Deine heiligen Engel mögen darin wohnen und uns im Frieden bewahren. Und dein Segen sei über uns allezeit.^ORV",
-          "ant_0_lat": "Alis suis obumbrábit tibi; non timébis a timóre noctúrno.",
-          "les_text_lat": "Vidébunt fáciem Dómini, et nomen eius in fróntibus eórum. Et nox ultra non erit, et non egent lúmine lucérnæ neque lúmine solis, quóniam Dóminus Deus illuminábit super illos, et regnábunt in sǽcula sæculórum.",
-          "oration_komplet_lat": "Vísita, quǽsumus, Dómine, habitatiónem istam, et omnes insídias inimíci ab ea longe repélle; ángeli tui sancti hábitent in ea, qui nos in pace custódiant; et benedíctio tua sit super nos semper.^ORlV"
-        },
         "Laudes": {
           "ps_1": 63.0,
           "ps_2": 160.0,
@@ -16041,7 +15767,6 @@ export const brevierData = {
           "ant_2_lat": "",
           "ant_3_lat": ""
         },
-        "Komplet": {},
         "Laudes": {
           "hymn_1": 3221.0,
           "hymn_kl": 0.0,
@@ -16194,153 +15919,44 @@ export const brevierData = {
     "each": {
       "0": {
         "Komplet": {
-          "hymn_2": 2510.0,
-          "ps_1": 91.0,
-          "ant_0": "Mit seinen Flügeln beschirmt dich der Herr; du brauchst dich nicht zu fürchten vor dem Schrecken der Nacht.",
-          "ant_1": "",
-          "ant_2": "",
-          "ant_3": "",
-          "les_buch": "Offb",
-          "les_stelle": "22,4–5",
-          "les_text": "Sie werden sein Angesicht schauen, und sein Name ist auf ihre Stirn geschrieben. Es wird keine Nacht mehr geben, und sie brauchen weder das Licht einer Lampe noch das Licht der Sonne. Denn der Herr, ihr Gott, wird über ihnen leuchten, und sie werden herrschen in alle Ewigkeit.",
-          "oration_komplet": "Allmächtiger Gott, wir haben heute das Geheimnis der Auferstehung unseres Herrn gefeiert. Am Abend rufen wir zu dir: Bewahre uns in dieser Nacht vor allem Bösen. Lass uns in deinem Frieden ruhen und morgen den neuen Tag mit deinem Lob beginnen.^ORV",
-          "ant_0_lat": "Alis suis obumbrábit tibi; non timébis a timóre noctúrno.",
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": "",
-          "les_text_lat": "Vidébunt fáciem Dómini, et nomen eius in fróntibus eórum. Et nox ultra non erit, et non egent lúmine lucérnæ neque lúmine solis, quóniam Dóminus Deus illuminábit super illos, et regnábunt in sǽcula sæculórum.",
-          "oration_komplet_lat": "Vox nostra te, Dómine, humíliter deprecétur, ut, domínicæ resurrectiónis hac die mystério celebráto, in pace tua secúri a malis ómnibus quiescámus, et in tua resurgámus laude gaudéntes.^ORlV"
+          "hymn_2": 2510.0
         },
         "Lesehore": {}
       },
       "1": {
         "Komplet": {
-          "hymn_2": 2511.0,
-          "ps_1": 86.0,
-          "ant_0": "Herr, du bist ein gnädiger Gott, voll Langmut und reich an Erbarmen.",
-          "ant_1": "",
-          "ant_2": "",
-          "ant_3": "",
-          "les_buch": "1°Thess",
-          "les_stelle": "5,9–10",
-          "les_text": "Gott hat uns nicht für das Gericht seines Zornes bestimmt, sondern dafür, dass wir durch Jesus Christus, unseren Herrn, das Heil erlangen. Er ist für uns gestorben, damit wir vereint mit ihm leben, ob wir nun wachen oder schlafen.",
-          "oration_komplet": "Herr, schenke uns eine ruhige Nacht und erholsamen Schlaf. Was wir heute durch Wort und Werk an Gutem ausgesät haben, das lass Wurzel schlagen und wachsen und heranreifen für die ewige Ernte.^ORV",
-          "ant_0_lat": "Tu, Dómine Deus, pátiens et multæ misericórdiæ.",
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": "",
-          "les_text_lat": "Pósuit nos Deus in acquisitiónem salútis per Dóminum nostrum Iesum Christum, qui mórtuus est pro nobis, ut sive vigilémus sive dormiámus, simul cum illo vivámus.",
-          "oration_komplet_lat": "Quiétem, Dómine, corpóribus nostris tríbue salutárem, et quæ fúdimus hódie sémina per labórem, fac ut messem gérminent sempitérnam.^ORlV"
+          "hymn_2": 2511.0
         }
       },
       "2": {
         "Komplet": {
-          "hymn_2": 2512.0,
-          "ps_1": 143.0,
-          "ant_0": "Verbirg dein Antlitz nicht vor mir; auf dich, o°Herr, vertraue ich.",
-          "ant_1": "",
-          "ant_2": "",
-          "ant_3": "",
-          "les_buch": "1°Petr",
-          "les_stelle": "5,8–9",
-          "les_text": "Seid nüchtern und wachsam! Euer Widersacher, der Teufel, geht wie ein brüllender Löwe umher und sucht, wen er verschlingen kann. Leistet ihm Widerstand in der Kraft des Glaubens!",
-          "oration_komplet": "Herr, gütiger Vater, sei du unsere Leuchte im Dunkel der Nacht. Gib, dass wir in Frieden schlafen, damit wir uns beim Anbruch des neuen Tages in deinem Namen freudig erheben.^ORV",
-          "ant_0_lat": "Non abscóndas fáciem tuam a me, quia in te sperávi.",
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": "",
-          "les_text_lat": "Sóbrii estóte, vigiláte. Adversárius vester Diábolus tamquam leo rúgiens círcuit quærens quem dévoret. Cui resístite fortes fide.",
-          "oration_komplet_lat": "Noctem istam, quǽsumus, Dómine, benígnus illúmina, et ita fac in pace nos tuos fámulos obdormíre, ut læti ad novi diéi claritátem in tuo nómine suscitémur.^ORlV"
+          "hymn_2": 2512.0
         }
       },
       "3": {
         "Komplet": {
-          "hymn_2": 2513.0,
-          "ps_1": 31.4,
-          "ps_2": 130.101,
-          "ant_1": "Sei mir ein schützender Fels, eine feste Burg, die mich rettet.",
-          "ant_2": "Aus der Tiefe rufe ich, Herr, zu dir.",
-          "les_buch": "Eph",
-          "les_stelle": "4,26–27",
-          "les_text": "Lasst euch durch den Zorn nicht zur Sünde hinreißen! Die Sonne soll über eurem Zorn nicht untergehen. Gebt dem Teufel keinen Raum!",
-          "oration_komplet": "Herr Jesus Christus, du bist gütig und von Herzen demütig. Das Joch, das du denen auflegst, die dir nachfolgen, ist nicht drückend, und deine Last ist leicht. Nimm gnädig an, was wir uns heute vorgenommen und was wir vollbracht haben. Erneuere uns durch die Ruhe der Nacht und mache uns morgen eifriger in deinem Dienst.^ORS",
-          "ant_1_lat": "Esto mihi in Deum protectórem et in domum refúgii.",
-          "ant_2_lat": "De profúndis clamávi ad te, Dómine.",
-          "les_text_lat": "Irascímini et nolíte peccáre; sol non óccidat super iracúndiam vestram, et nolíte locum dare Diábolo.",
-          "oration_komplet_lat": "Dómine Iesu Christe, qui iugum suáve te sequéntibus onúsque leve pérhibes mitis et húmilis, dignáre huius diéi vota et ópera nostra suscípere, et quiétem tribúere, qua tuo nos fácias servítio promptióres.^ORS"
+          "hymn_2": 2513.0
         }
       },
       "4": {
         "Komplet": {
-          "hymn_2": 2514.0,
-          "ps_1": 16.0,
-          "ant_0": "Mein Leib wird ruhen in Sicherheit.",
-          "ant_1": "",
-          "ant_2": "",
-          "ant_3": "",
-          "les_buch": "1°Thess",
-          "les_stelle": "5,23",
-          "les_text": "Der Gott des Friedens heilige euch ganz und gar und bewahre euren Geist, eure Seele und euren Leib unversehrt, damit ihr ohne Tadel seid, wenn Jesus Christus, unser Herr, kommt.",
-          "oration_komplet": "Herr, unser Gott, sende uns in dieser Nacht einen ruhigen Schlaf, damit wir uns von der Mühe des Tages erholen und morgen mit neuer Kraft dir dienen können.^ORV",
-          "ant_0_lat": "Caro mea requiéscet in spe.",
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": "",
-          "les_text_lat": "Ipse Deus pacis sanctíficet vos per ómnia, et ínteger spíritus vester et ánima et corpus sine queréla in advéntu Dómini nostri Iesu Christi servétur.",
-          "oration_komplet_lat": "Dómine Deus noster, diúrno labóre fatigátos quiéto sopóre nos réfove, ut, tuo semper auxílio recreáti, tibi córpore simus et mente devóti.^ORlV"
+          "hymn_2": 2514.0
         }
       },
       "5": {
         "Komplet": {
-          "hymn_2": 2515.0,
-          "ps_1": 88.101,
-          "ant_0": "Herr, du Gott meines Heils, zu dir schreie ich am Tag und bei Nacht.",
-          "ant_1": "",
-          "ant_2": "",
-          "ant_3": "",
-          "les_buch": "Jer",
-          "les_stelle": "14,9",
-          "les_text": "Du bist in unsrer Mitte, Herr, und dein Name ist über uns ausgerufen; verlass uns nicht, Herr, unser Gott!",
-          "oration_komplet": "Allmächtiger Gott, dein eingeborener Sohn ist hinabgestiegen in die Nacht des Todes und auferstanden. Gib, dass wir alle Tage durch den Glauben ihm verbunden bleiben, damit wir einst mit ihm auferstehen zum neuen Leben.^ORvR",
-          "ant_0_lat": "In die clamávi et nocte coram te, Dómine.",
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": "",
-          "les_text_lat": "Tu autem in médio nostri es, Dómine, et nomen tuum invocátum est super nos; ne derelínquas nos, Dómine Deus noster.",
-          "oration_komplet_lat": "Concéde nos, omnípotens Deus, ita sepúlto Unigénito tuo fidéliter inhærére, ut cum ipso in novitáte vitæ resúrgere mereámur.^ORlvR"
+          "hymn_2": 2515.0
         }
       },
       "6": {
         "Komplet": {
-          "hymn_2": 2516.0,
-          "ps_1": 4.0,
-          "ps_2": 134.0,
-          "ant_1": "Sei mir gnädig, Herr, und höre auf mein Flehen.",
-          "ant_2": "Zu nächtlicher Stunde preiset den Herrn.",
-          "ant_3": "",
-          "les_buch": "Dtn",
-          "les_stelle": "6,4–7",
-          "les_text": "Höre, Israel! Jahwe, unser Gott, Jahwe ist einzig. Dar­um sollst du den Herrn, deinen Gott, lieben mit gan­zem Herzen, mit ganzer Seele und mit ganzer Kraft. Diese Worte, auf die ich dich heute verpflichte, sollen auf deinem Herzen geschrieben stehen. Du sollst sie deinen Söhnen wiederholen. Du sollst von ihnen reden, wenn du zu Hause sitzt und wenn du auf der Straße gehst, wenn du dich schlafen legst und wenn du aufstehst.",
-          "oration_komplet": "Herr, bleibe bei uns in dieser Nacht, und wenn wir uns am Morgen erheben, dann lass uns in Freude der Auferstehung deines Sohnes gedenken,^ORR",
-          "ant_1_lat": "Miserére mei, Dómine, et exáudi oratiónem meam.",
-          "ant_2_lat": "In nóctibus benedícite Dóminum.",
-          "ant_3_lat": "",
-          "les_text_lat": "Audi Israel: Dóminus Deus noster Dóminus unus est. Díliges Dóminum Deum tuum ex toto corde tuo et ex tota ánima tua et ex tota fortitúdine tua. Erúntque verba hæc, quæ ego præcípio tibi hódie, in corde tuo, et inculcábis ea fíliis tuis et loquéris ea sedens in domo tua et ámbulans in itínere, decúmbens atque consúrgens.",
-          "oration_komplet_lat": "Vísita nos, quǽsumus, Dómine, hac nocte præsénti, ut, dilúculo tua virtúte surgéntes, de resurrectióne Christi tui gaudére valeámus.^ORlvR"
+          "hymn_2": 2516.0
         }
       },
       "each": {
         "ErsteV": {},
         "Komplet": {
-          "hymn_1": 2500.0,
-          "resp1_1": "Herr, auf dich vertraue ich,",
-          "resp1_2": "in deine Hände lege ich mein Leben.",
-          "resp1_3": "Lass leuchten über deinem Knecht dein Antlitz, hilf mir in deiner Güte.",
-          "ant_ev": "Sei unser Heil, o°Herr, wenn wir wachen, und unser Schutz, wenn wir schlafen, damit wir wachen mit Christus und ruhen in Frieden.^ö",
-          "resp1_1_lat": "In manus tuas, Dómine,",
-          "resp1_2_lat": "comméndo spíritum meum.",
-          "resp1_3_lat": "Redemísti nos, Dómine Deus veritátis.",
-          "ant_ev_lat": "Salva nos, Dómine, vigilántes, custódi nos dormiéntes, ut vigilémus cum Christo et requiescámus in pace.^Lö"
+          "hymn_1": 2500.0
         },
         "Laudes": {},
         "Non": {

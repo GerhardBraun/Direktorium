@@ -3465,7 +3465,9 @@ export const psalmsData = {
     0.0: {
         "title": "Jesus, du Quelle unsres Heils",
         "quote": "Non/1.+2. Vp Christi Himmelfahrt",
-        "text": "Jesus, du Quelle unsres Heils,^lder Liebe und der Sehnsucht Ziel,^ldu Gott und Schöpfer aller Welt^lund Mensch am Abend dieser Zeit.^pWie groß muss deine Liebe sein!^lDu nimmst der Sünde Last auf dich;^ldu lieferst dich dem Tode aus,^lum uns vom Tode zu befrein.^pMit Macht sprengst du der Hölle Tor,^lbefreist die Deinen aus der Haft.^lAls Sieger thronst du jetzt im Licht^lzu deines Vaters rechter Hand.^pSei unsre Freude, unser Trost,^lsei unsres Lebens reicher Lohn^lund stille unser Sehnen, Herr,^lwenn wir dein Antlitz ewig schaun. Amen."
+        "text": "Jesus, du Quelle unsres Heils,^lder Liebe und der Sehnsucht Ziel,^ldu Gott und Schöpfer aller Welt^lund Mensch am Abend dieser Zeit.^pWie groß muss deine Liebe sein!^lDu nimmst der Sünde Last auf dich;^ldu lieferst dich dem Tode aus,^lum uns vom Tode zu befrein.^pMit Macht sprengst du der Hölle Tor,^lbefreist die Deinen aus der Haft.^lAls Sieger thronst du jetzt im Licht^lzu deines Vaters rechter Hand.^pSei unsre Freude, unser Trost,^lsei unsres Lebens reicher Lohn^lund stille unser Sehnen, Herr,^lwenn wir dein Antlitz ewig schaun. Amen.",
+        "title_lat": "Iesu, nostra redémptio",
+        "text_lat": "Iesu, nostra redémptio^lamor et desidérium,^lDeus creátor ómnium,^lhomo in fine témporum,^pQuæ te vicit cleméntia,^lut ferres nostra crímina,^lcrudélem mortem pátiens,^lut nos a morte tólleres;^pInférni claustra pénetrans,^ltuos captívos rédimens;^lvictor triúmpho nóbili^lad dextram Patris résidens?^pIpsa te cogat píetas,^lut mala nostra súperes^lparcéndo, et voti cómpotes^lnos tuo vultu sáties.^pTu esto nostrum gáudium,^lqui es futúrus prǽmium;^lsit nostra in te glória^lper cuncta semper sǽcula. Amen."
       }
   },
   3111: {
