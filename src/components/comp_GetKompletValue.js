@@ -56,7 +56,7 @@ export const getKompletValue = ({ texts, field, localPrefKomplet, localPrefLangu
 // Daten bleiben unverändert
 const data = {
     "o": {
-        "ant_0": "Halleluja,°halleluja,°halleluja.",
+        "ant_0": "Halleluja, halleluja, halleluja.",
         "ant_0_lat": "Allelúia, allelúia, allelúia.",
         "ant_1": "LEER",
         "ant_2": "LEER",

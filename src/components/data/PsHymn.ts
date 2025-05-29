@@ -3325,7 +3325,8 @@ export const psalmsData = {
   2425: {
     0.0: {
         "title": "Christus, du bist der helle Tag",
-        "text": "Christus, du bist der helle Tag,^ldein Glanz durchbricht die dunkle Nacht,^lDu Gott des Lichtes kündest uns^ldas Licht, das wahrhaft selig macht.^pGib, dass nichts Arges uns bedrängt,^lder böse Feind uns nicht verführt,^lund lass nicht zu, dass Geist und Leib^lvor deinem Auge schuldig wird.^pSei deiner Diener eingedenk,^ldie du mit deinem Blut erkauft.^lStärk uns durch deines Leidens Kraft;^lwir sind auf deinen Tod getauft.^pAus ganzem Herzen preisen wir^ldich, Christus, Herr der Herrlichkeit,^lder mit dem Vater und dem Geist^luns liebt in alle Ewigkeit. Amen."
+        "text": "Christus, du bist der helle Tag,^ldein Glanz durchbricht die dunkle Nacht,^lDu Gott des Lichtes kündest uns^ldas Licht, das wahrhaft selig macht.^pGib, dass nichts Arges uns bedrängt,^lder böse Feind uns nicht verführt,^lund lass nicht zu, dass Geist und Leib^lvor deinem Auge schuldig wird.^pSei deiner Diener eingedenk,^ldie du mit deinem Blut erkauft.^lStärk uns durch deines Leidens Kraft;^lwir sind auf deinen Tod getauft.^pAus ganzem Herzen preisen wir^ldich, Christus, Herr der Herrlichkeit,^lder mit dem Vater und dem Geist^luns liebt in alle Ewigkeit. Amen.",
+        "title_lat": "Christe, qui, splendor et dies"
       }
   },
   2500: {
@@ -3333,6 +3334,18 @@ export const psalmsData = {
         "title": "Bevor des Tages Licht vergeht",
         "quote": "Komplet",
         "text": "Bevor des Tages Licht vergeht,^lo Herr der Welt, hör dies Gebet:^lBehüte uns in dieser Nacht^ldurch deine große Güt’ und Macht.^pHüllt Schlaf die müden Glieder ein,^llass uns in dir geborgen sein^lund mach am Morgen uns bereit^lzum Lobe deiner Herrlichkeit.^pDank dir, o°Vater, reich an Macht,^lder über uns voll Güte wacht^lund mit dem Sohn und Heil’gen Geist^ldes Lebens Fülle uns verheißt. Amen."
+      },
+    1.0: {
+        "title_lat": "Te lucis ante términum",
+        "text_lat": "Te lucis ante términum,^lrerum creátor, póscimus,^lut sólita cleméntia^lsis præsul ad custódiam.^pTe corda nostra sómnient,^lte per sopórem séntiant,^ltuámque semper glóriam^lvicína luce cóncinant.^pVitam salúbrem tríbue,^lnostrum calórem réfice^ltætram noctis calíginem^ltua collústret cláritas.^pPræsta, Pater omnípotens,^lper Iesum Christum Dóminum,^lqui tecum in perpétuum^lregnat cum Sancto Spíritu. Amen."
+      },
+    2.0: {
+        "title_lat": "Christe, qui, splendor et dies",
+        "text_lat": "Christe, qui, splendor et dies,^lnoctis tenébras détegis,^llucísque lumen créderis,^llumen beátis prǽdicans,^pPrecámur, sancte Dómine,^lhac nocte nos custódias;^lsit nobis in te réquies,^lquiétas horas tríbue.^pSomno si dantur óculi,^lcor semper ad te vígilet;^ltuáque dextra prótegas^lfidéles, qui te díligunt.^pDefénsor noster, áspice,^linsidiántes réprime,^lgubérna tuos fámulos,^lquos sánguine mercátus es.^pSit, Christe, rex piíssime,^ltibi Patríque glória,^lcum Spíritu Paráclito,^lin sempitérna sǽcula. Amen."
+      },
+    3.0: {
+        "title_lat": "Iesu, redémptor sǽculi",
+        "text_lat": "Iesu, redémptor sǽculi,^lVerbum Patris altíssimi,^llux lucis invisíbilis,^lcustos tuórum pérvigil:^pTu fabricátor ómnium^ldiscrétor atque témporum,^lfessa labóre córpora^lnoctis quiéte récrea.^pQui frangis ima tártara,^ltu nos ab hoste líbera,^lne váleat sedúcere^ltuo redémptos sánguine,^pUt, dum graváti córpore^lbrevi manémus témpore,^lsic caro nostra dórmiat^lut mens sopórem nésciat.^pIesu, tibi sit glória,^lqui morte victa prǽnites,^lcum Patre et almo Spíritu,^lin sempitérna sǽcula. Amen."
       }
   },
   2501: {

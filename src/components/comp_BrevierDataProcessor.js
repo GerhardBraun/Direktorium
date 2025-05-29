@@ -46,7 +46,7 @@ function mergeData(hours, newData, source) {
     if (!newData) return;
 
     // Festlegen, welche Stunden für die jeweilige Source verarbeitet werden sollen
-    const targetHours = (source === 'k1' || source === 'k2') ? ['komplet'] : Object.keys(hours);
+    const targetHours = Object.keys(hours);
 
     // Process "each" data if available
     if (newData.each) {
@@ -117,7 +117,7 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
 
     try {
         // Layer 0: Ordinary texts from multiple sources
-        const sourcesToCheck = ['wt', 'k1', 'k2', 'soll', 'kirchw', 'verst'];
+        const sourcesToCheck = ['wt', 'soll', 'kirchw', 'verst'];
         sourcesToCheck.forEach(source => {
             const ordData = brevierData?.[source]?.['each'];
             const ordEvenData = brevierData?.[source]?.['even'];
@@ -178,17 +178,13 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         }
 
 
-        function addLayer(source, week, dayOfWeek, komplet = false) {
+        function addLayer(source, week, dayOfWeek) {
             const layerData = brevierData?.[source]?.[week]?.[dayOfWeek];
             const personalLayerData = personalData?.[source]?.[week]?.[dayOfWeek];
             const lectureLayerData = lectureData?.[source]?.[week]?.[dayOfWeek];
             mergeData(hours, layerData, 'wt');
             mergeData(hours, personalLayerData, 'pers');
             mergeData(hours, lectureLayerData, 'wt');
-            if (komplet) {
-                mergeData(hours, layerData, 'k1');
-                mergeData(hours, layerData, 'k2');
-            }
         }
 
         addLayer('p', weekOfPsalter, dayOfWeek);     // Layer 1: Base layer from 4-week schema
@@ -223,14 +219,6 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         // Layer 6: Specific day data
         addLayer(season, week, 'each');
         addLayer(season, week, dayOfWeek);
-
-        // Oration der Komplet in der Osteroktav
-        if (season === 'o' && (week === 1 || (week === 2 && dayOfWeek === 0))) {
-            const easterKomplet1 = brevierData['k1']?.['o']?.['6']
-            const easterKomplet2 = brevierData['k2']?.['o']?.['0']
-            mergeData(hours, easterKomplet1, 'k1')
-            mergeData(hours, easterKomplet2, 'k2')
-        }
 
         // Process Heiligenfeste only if rank is appropriate
         if (rank_date > 1 && rank_date > rank_wt) {
