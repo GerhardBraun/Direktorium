@@ -210,6 +210,19 @@ export const personalData = {
           "hymn_1": 3442.0
         }
       }
+    },
+    "last": {
+      "each": {
+        "Laudes": {
+          "hymn_1": 0.0
+        },
+        "Lesehore": {
+          "hymn_1": 0.0
+        },
+        "Vesper": {
+          "hymn_1": 0.0
+        }
+      }
     }
   },
   "q": {

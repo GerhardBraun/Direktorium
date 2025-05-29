@@ -198,6 +198,10 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
             addLayer(season, 'even', dayOfWeek);
         }
 
+        // Layer 6: Specific day data
+        addLayer(season, week, 'each');
+        addLayer(season, week, dayOfWeek);
+
         // Layer 5.1: 'last' für letzte Adventstage, nach Erscheinung und Pfingstnovene
         const shouldUseLast = (
             (season === 'a' && calendarDay > 16) ||
@@ -215,10 +219,6 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
             addLayer('k', calendarMonth, 'each');
             addLayer('k', calendarMonth, calendarDay);
         }
-
-        // Layer 6: Specific day data
-        addLayer(season, week, 'each');
-        addLayer(season, week, dayOfWeek);
 
         // Process Heiligenfeste only if rank is appropriate
         if (rank_date > 1 && rank_date > rank_wt) {
