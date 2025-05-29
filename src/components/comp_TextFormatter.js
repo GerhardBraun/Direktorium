@@ -1,22 +1,38 @@
 import formatBibleRef from './comp_BibleRefFormatter.js';
 import React, { Fragment } from 'react';
 import { getLocalStorage } from './utils/localStorage.js';
+import { psalmsData } from './data/PsHymn.ts';
 
+const resolveReference = (ref) => {
+    if (!ref) return null;
+
+    const wholePart = Math.floor(ref);
+    const decimalStr = (ref % 1).toFixed(3).split('.')[1];
+    const multiplier = decimalStr.replace(/0+$/, '').length === 1 ? 10 : 1000;
+    const decimalPart = Math.round((ref % 1) * multiplier);
+
+    const data = psalmsData[wholePart]?.[decimalPart] || {};
+
+    return { number: wholePart, ...data };
+};
 // Formatiert Psalmen mit Nummer, Versen, Titel und Text
-export const formatPsalm = (psalm, localPrefLanguage = '') => {
+export const formatPsalm = (psalmRef, inv, localPrefLanguage = '') => {
+    if (!psalmRef) return null;
+
+    const psalm = resolveReference(psalmRef);
     if (!psalm || !psalm.text) return null;
 
     const number = psalm[`number${localPrefLanguage}`] || psalm.number;
-    const verses = psalm[`verses${localPrefLanguage}`] || psalm.verses || "";
-    const title = psalm[`title${localPrefLanguage}`] || psalm.title || "";
-    const quote = psalm[`quote${localPrefLanguage}`] || psalm.quote || "";
     const text = psalm[`text${localPrefLanguage}`] || psalm.text;
+    const verses = inv ? '' : psalm[`verses${localPrefLanguage}`] || psalm.verses || "";
+    const title = inv ? '' : psalm[`title${localPrefLanguage}`] || psalm.title || "";
+    const quote = inv ? '' : psalm[`quote${localPrefLanguage}`] || psalm.quote || "";
 
-    const hasLatin = localPrefLanguage === "_lat"
-        && psalm[`text${localPrefLanguage}`];
-    const doxology = hasLatin
-        ? "Glória Patri et Fílio^*et Spirítui Sancto.^pSicut erat in princípio, et°nunc°et°semper^*et in sǽcula sæculórum. Amen."
-        : "Ehre sei dem Vater und dem Sohn^*und dem Heiligen Geist,^pwie im Anfang, so°auch°jetzt°und°alle°Zeit^*und in Ewigkeit. Amen.";
+    const doxology =
+        (localPrefLanguage === "_lat"
+            && psalm.text_lat)
+            ? "Glória Patri et Fílio^*et Spirítui Sancto.^pSicut erat in princípio, et°nunc°et°semper^*et in sǽcula sæculórum. Amen."
+            : "Ehre sei dem Vater und dem Sohn^*und dem Heiligen Geist,^pwie im Anfang, so°auch°jetzt°und°alle°Zeit^*und in Ewigkeit. Amen.";
 
     return (
         <div className="mb-4">
@@ -72,14 +88,32 @@ export const formatText = (text) => {
 export const formatPrayerText = (provText, marker = '',
     hour = '', texts = {},
     prefSrc = '', localPrefLanguage = '', isNarrowScreen = false) => {
-    if (!provText || provText === 'LEER') return null;
+    if (!provText || provText === 'LEER' || provText === 'LEER_lat') return null;
     const { season, isCommemoration, combinedSWD = '' } = texts;
     const { nominativ, genitiv, vokativ } = texts?.laudes?.[prefSrc] || {};
 
     const useFootnoteList = getLocalStorage('prefFootnotes') === 'true';
-    const easterAntiphon = "^p^rAnstelle des Responsoriums wird die\u00a0folgende\u00a0Antiphon\u00a0genommen:^0r^lDas ist der Tag, den der Herr gemacht hat. Lasst\u00a0uns\u00a0jubeln und seiner uns freuen. Halleluja.";
-    const latinEasterAntiphon = "^p^rLoco responsorii dicitur:^0r^lHæc est dies quam fecit Dóminus: exsultémus\u00a0et\u00a0lætémur\u00a0in\u00a0ea.\u00a0Allelúia."
 
+    let easterAntiphon = '';
+    let latinEasterAntiphon = '';
+
+    if (combinedSWD.startsWith('o-1-') || combinedSWD === 'o-2-0') {
+        // Wenn es sich um Ostern handelt, setze die Antiphon
+        easterAntiphon = "^p^rAnstelle des Responsoriums wird die\u00a0folgende\u00a0Antiphon\u00a0genommen:^0r^lDas ist der Tag, den der Herr gemacht hat. Lasst\u00a0uns\u00a0jubeln und seiner uns freuen. Halleluja.";
+        latinEasterAntiphon = "^p^rLoco responsorii dicitur:^0r^lHæc est dies quam fecit Dóminus: exsultémus\u00a0et\u00a0lætémur\u00a0in\u00a0ea.\u00a0Allelúia."
+    }
+    if (combinedSWD === 'q-6-4') {
+        easterAntiphon = "^p^rAnstelle des Responsoriums wird die°folgende°Antiphon°genommen:^0r^lChristus war für uns gehorsam bis zum Tod.";
+        latinEasterAntiphon = "^p^rLoco responsorii dicitur:^0r^lChristus factus est pro nobis obœ́diens usque ad mortem.";
+    }
+    if (combinedSWD === 'q-6-5') {
+        easterAntiphon = "^p^rAnstelle des Responsoriums wird die°folgende°Antiphon°genommen:^0r^lChristus war für uns gehorsam bis zum Tod, bis°zum°Tod°am°Kreuze.";
+        latinEasterAntiphon = "^p^rLoco responsorii dicitur:^0r^lChristus factus est pro nobis obœ́diens usque ad mortem, mortem autem crucis.";
+    }
+    if (combinedSWD === 'q-6-6') {
+        easterAntiphon = "^p^rAnstelle des Responsoriums wird die°folgende°Antiphon°genommen:^0r^lChristus war für uns gehorsam bis zum Tod, bis°zum°Tod°am°Kreuze. Darum hat ihn Gott über alle erhöht und ihm den Namen verliehen, der größer ist als alle Namen.";
+        latinEasterAntiphon = "^p^rLoco responsorii dicitur:^0r^lChristus factus est pro nobis obœ́diens usque ad mortem, mortem autem crucis. Propter quod et Deus exaltávit illum, et dedit illi nomen, quod est super omne nomen.";
+    }
     const orSchluss = ['lesehore', 'laudes', 'vesper'].includes(hour)
         ? (marker === 'commemoration' && isCommemoration === true)
             ? {
@@ -128,6 +162,8 @@ export const formatPrayerText = (provText, marker = '',
     text = text
         .replace(/_lat/g, '')
         .replace(/_neu/g, '')
+        .replace(/\^R/g, easterAntiphon)
+        .replace(/\^LR/g, latinEasterAntiphon)
         .replace(/°/g, '\u00A0')
         .replace(/\^\*/g, '\u00A0*\n')
         .replace(/\^\+/g, '\u00A0†\n')
@@ -140,8 +176,6 @@ export const formatPrayerText = (provText, marker = '',
         .replace(/\^Ö/g, season === 'q' ? '' : ' Halleluja.')
         .replace(/\^Lö/g, season === 'o' ? ' Allelúia.' : '')
         .replace(/\^LÖ/g, season === 'q' ? '' : ' Allelúia.')
-        .replace(/\^R/g, (combinedSWD.startsWith('o-1-') || combinedSWD === 'o-2-0') ? easterAntiphon : '')
-        .replace(/\^LR/g, (combinedSWD.startsWith('o-1-') || combinedSWD === 'o-2-0') ? latinEasterAntiphon : '')
         .replace(/\^ORvR/g, orSchluss.vR)
         .replace(/\^ORV/g, orSchluss.V)
         .replace(/,\^ORS/g, orSchluss.S)

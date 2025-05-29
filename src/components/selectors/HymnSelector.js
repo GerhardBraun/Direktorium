@@ -1,9 +1,22 @@
 import React, { useState, useMemo, useEffect } from 'react';
+import { psalmsData } from '../data/PsHymn.ts'; // Import hinzufügen
 
 const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, localPrefKomplet, formatPrayerText }) => {
     const [selectedHymn, setSelectedHymn] = useState(null);
     let localPrefSrc = prefSrc;
     if (['kirchw', 'verst'].includes(prefSollemnity)) { localPrefSrc = prefSollemnity; }
+
+    // Neue Hilfsfunktion zum Auflösen der Hymnen-Referenz
+    const resolveHymnReference = (ref) => {
+        if (!ref) return null;
+
+        const wholePart = Math.floor(ref);
+        const decimalStr = (ref % 1).toFixed(3).split('.')[1];
+        const multiplier = decimalStr.replace(/0+$/, '').length === 1 ? 10 : 1000;
+        const decimalPart = Math.round((ref % 1) * multiplier);
+
+        return psalmsData[wholePart]?.[decimalPart] || {};
+    };
 
     const getButtonColor = (sourcePath, sourceLabel) => {
         const hasOnlyWtSources = availableHymns.every(
@@ -14,7 +27,6 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, localPrefK
             else if (season === 'a' || season === 'q') { return 'btn-violett'; }
             else { return 'btn-gold'; }
         };
-
 
         // Prüfe auf rote Farbe im localPrefSrc
         const pathParts = sourcePath.split('_')[0].split('.');
@@ -51,11 +63,11 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, localPrefK
 
         // Ermittle Commune-Sources nur wenn nötig
         const communeSources = ((!isCommemoration || prefSollemnity === 'soll') &&
-            !texts[hour]?.[localPrefSrc]?.hymn_1?.text)
+            !texts[hour]?.[localPrefSrc]?.hymn_1) // Geändert: Prüfe auf reference statt text
             ? ['com1', 'com2']
                 .filter(com =>
-                    texts[hour]?.[localPrefSrc]?.[com]?.hymn_1?.text ||
-                    texts[hour]?.[localPrefSrc]?.[com]?.hymn_2?.text
+                    texts[hour]?.[localPrefSrc]?.[com]?.hymn_1 || // Geändert
+                    texts[hour]?.[localPrefSrc]?.[com]?.hymn_2    // Geändert
                 )
                 .map(com => `${localPrefSrc}.${com}`)
             : [];
@@ -74,7 +86,7 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, localPrefK
     const availableHymns = useMemo(() => {
         const hymns = [];
         const usedHymnNumbers = new Set();
-        const hasNachtHymn = texts[hour]?.wt?.hymn_nacht?.text;
+        const hasNachtHymn = texts[hour]?.wt?.hymn_nacht; // Geändert
 
         let hymnTypes = ['hymn_nacht', 'hymn_1', 'hymn_2', 'hymn_3', 'hymn_kl'];
         if (prefSollemnity) {
@@ -91,11 +103,14 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, localPrefK
             if (!currentLevel) return;
 
             hymnTypes.forEach(hymnType => {
-                if (currentLevel[hymnType]?.text) {
-                    const hymnNumber = currentLevel[hymnType]?.reference;
+                if (currentLevel[hymnType]) { // Geändert: Prüfe auf reference
+                    const hymnNumber = currentLevel[hymnType];
 
                     // Füge nur hinzu, wenn die Nummer noch nicht verwendet wurde
                     if (!hymnNumber || !usedHymnNumbers.has(hymnNumber)) {
+                        // Löse die Referenz auf, um Text und Titel zu bekommen
+                        const hymnData = resolveHymnReference(hymnNumber);
+
                         let sourceLabel;
 
                         if (sourcePath === prefSrc) {
@@ -121,8 +136,8 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, localPrefK
                         hymns.push({
                             id: `${sourcePath.replace('.', '_')}_${hymnType}`,
                             source: sourceLabel,
-                            text: currentLevel[hymnType].text,
-                            title: currentLevel[hymnType].title,
+                            text: hymnData.text,        // Aus psalmsData aufgelöst
+                            title: hymnData.title,      // Aus psalmsData aufgelöst
                             hymnNumber,
                             isNachtHymn: hymnType === 'hymn_nacht'
                         });

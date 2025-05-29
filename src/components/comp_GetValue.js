@@ -1,20 +1,9 @@
 export const getValue = ({ hour, texts, field,
     prefSrc, prefSollemnity, localPrefComm,
     localPrefPsalmsWt, localPrefErgPs,
-    localPrefContinuous, localPrefKomplet }) => {
+    localPrefContinuous }) => {
     if (!hour || !texts || !texts[hour]) {
         return null;
-    }
-
-    // Sonderfall Komplet
-    if (hour === 'komplet') {
-        if (localPrefKomplet === 'wt') {
-            if (!texts?.komplet?.showKompletWt) { return null }
-            if (texts.komplet.eig?.[field]) {
-                return texts.komplet.eig?.[field];
-            }
-        }
-        return texts.komplet[localPrefKomplet]?.[field] || null;
     }
 
     const { rank_date = 0, rank_wt = 0, isCommemoration, hasErsteVesper = false, combinedSWD, dayOfWeek } = texts;

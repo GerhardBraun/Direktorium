@@ -15,64 +15,19 @@ const personalData = (() => {
     }
 })();
 
-// Fields that should be processed as references to psalmsData
-const referenceFields = [
-    'ps_1', 'ps_2', 'ps_3',
-    'hymn_1', 'hymn_2', 'hymn_3', 'hymn_nacht', 'hymn_kl'
-];
-
-
-// Helper function to process references and get additional data from psalmsData
-function processReference(ref) {
-    if (!ref) return null;
-
-    const wholePart = Math.floor(ref);
-
-    // Dezimalanteil als String, um die Länge zu prüfen
-    const decimalStr = (ref % 1).toFixed(3).split('.')[1];
-
-    // Multipliziere mit 10 für einstellige, mit 1000 für dreistellige Dezimalzahlen
-    const multiplier = decimalStr.replace(/0+$/, '').length === 1 ? 10 : 1000;
-    const decimalPart = Math.round((ref % 1) * multiplier);
-
-    const data = psalmsData[wholePart]?.[decimalPart] || {};
-
-    return {
-        number: wholePart,
-        ...data
-    };
-}
-
-// Helper function to process all reference fields in an object
-function processReferenceFields(data, removeZeros = false) {
-    if (!data) return {};
-
-    const processedData = { ...data };
-
-    referenceFields.forEach(field => {
-        if (processedData[field]) {
-            // If removeZeros is true and value is 0, remove the field
-            if (removeZeros && processedData[field] === 0) {
-                delete processedData[field];
-            } else {
-                processedData[field] = {
-                    reference: processedData[field],
-                    ...processReference(processedData[field])
-                };
-            }
-        }
-    });
-
-    return processedData;
-}
-
 // Helper function to clean up zero-value reference fields after all processing
 function cleanupZeroReferences(hours) {
+
+    // Fields that should be processed as references to psalmsData
+    const referenceFields = [
+        'ps_1', 'ps_2', 'ps_3',
+        'hymn_1', 'hymn_2', 'hymn_3', 'hymn_nacht', 'hymn_kl'
+    ];
+
     Object.keys(hours).forEach(hour => {
         Object.keys(hours[hour]).forEach(source => {
             referenceFields.forEach(field => {
-                const fieldData = hours[hour][source][field];
-                if (fieldData === 0 || fieldData?.reference === 0) {
+                if (hours[hour][source][field] === 0) {
                     delete hours[hour][source][field];
                 }
             });
@@ -95,8 +50,7 @@ function mergeData(hours, newData, source) {
 
     // Process "each" data if available
     if (newData.each) {
-        const processedEachData = processReferenceFields(newData.each, false);
-        Object.entries(processedEachData).forEach(([field, value]) => {
+        Object.entries(newData.each).forEach(([field, value]) => {
             if (!field.startsWith(source)) {
                 targetHours.forEach(hour => {
                     if (!hours[hour][source]) {
@@ -116,8 +70,7 @@ function mergeData(hours, newData, source) {
             if (!hours[hour][source]) {
                 hours[hour][source] = {};
             }
-            const processedHourData = processReferenceFields(hourData, false);
-            Object.entries(processedHourData).forEach(([field, value]) => {
+            Object.entries(hourData).forEach(([field, value]) => {
                 if (!field.startsWith(source)) {
                     hours[hour][source][field] = value;
                 }
@@ -125,7 +78,6 @@ function mergeData(hours, newData, source) {
         }
     });
 }
-
 
 function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   // für verschobene Hochfeste kann deren calendarDate eigens angegeben werden
     calendarDate = calendarDate ?? date
@@ -340,7 +292,7 @@ function processCommune(hours, hour, foundComm, season, targetSource, communeNum
         if (communeData) {
             Object.assign(
                 hours[hour][targetSource][targetKey],
-                processReferenceFields(communeData, false)
+                communeData
             );
         }
     }
@@ -573,7 +525,7 @@ function processKompletData(data, calendarDate) {
     let prefKomplet = 'wt'
 
     if (['q-6-4', 'q-6-5', 'q-6-6'].includes(combinedSWD)) {
-        showKompletK1 = false; showKompletK2 = false; prefKomplet = 'wt'
+        showKompletWt = false; showKompletK1 = false; prefKomplet = 'k2'
     }
     else if (hasErsteVesper) {
         showKompletWt = false; prefKomplet = 'k1'
@@ -581,7 +533,8 @@ function processKompletData(data, calendarDate) {
     else if (dayOfWeek === 0 || rank_date === 5) {
         showKompletWt = false; prefKomplet = 'k2'
     }
-    else if ((kompletMonth === 12 && kompletDay > 25) || (combinedSWD.startsWith('o-1-'))) {
+    else if ((kompletMonth === 12 && kompletDay > 25)
+        || (combinedSWD.startsWith('o-1-'))) {
         showKompletWt = false; prefKomplet = 'wt'
     }
     else if (rank_wt === 5 &&

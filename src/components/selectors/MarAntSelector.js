@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
 
-const MarAntSelector = ({ season, localPrefLatin, formatPrayerText }) => {
+const MarAntSelector = ({ season, selectedDate, combinedSWD, localPrefLatin, formatPrayerText }) => {
     // Verwende direkt das season-Kürzel zur Identifizierung der Antiphon
     const [selectedAntSeason, setSelectedAntSeason] = useState(null);
 
@@ -56,32 +56,47 @@ const MarAntSelector = ({ season, localPrefLatin, formatPrayerText }) => {
         },
     ], []);
 
-    // Effizientere Sortierung basierend auf der Jahreszeit
+    // Funktion zur Bestimmung der Standardantiphon basierend auf besonderen Regeln
+    const getDefaultAntiphonSeason = useMemo(() => {
+        // Spezifische Datumsausnahmen prüfen
+        if (selectedDate) {
+            const month = selectedDate.getMonth() + 1; // getMonth() ist 0-basiert
+            const day = selectedDate.getDate();
+
+            // 15.8. (Mariä Himmelfahrt) und 22.8. (Maria Königin) -> Ave Regina Caelorum (q)
+            if ((month === 8 && [14, 15, 22].includes(day))) { return 'q'; }
+        }
+
+        // Weihnachtszeit einschl. Fest der Taufe Jesu -> Alma Redemptoris Mater (a)
+        if (season === 'w' || combinedSWD === 'j-1-0') { return 'a'; }
+
+        // Sonst verwende die normale Jahreszeit
+        return season;
+    }, [selectedDate, combinedSWD, season]);
+
+    // Effizientere Sortierung basierend auf der berechneten Standardantiphon
     const sortedAntiphons = useMemo(() => {
         const antiphons = [...marianAntiphons];
+        const defaultSeason = getDefaultAntiphonSeason;
 
-        // Weihnachtszeit verwendet die gleiche Antiphon wie Advent
-        const currentSeason = season === 'w' ? 'a' : season;
-
-        // Sortieren: Die Antiphon der aktuellen Jahreszeit kommt zuerst
+        // Sortieren: Die Standardantiphon kommt zuerst
         return antiphons.sort((a, b) => {
-            // Wenn a der aktuellen Jahreszeit entspricht, kommt es zuerst
-            if (a.season === season) return -1;
-            // Wenn b der aktuellen Jahreszeit entspricht, kommt es zuerst
-            if (b.season === season) return 1;
+            // Wenn a der Standardantiphon entspricht, kommt es zuerst
+            if (a.season === defaultSeason) return -1;
+            // Wenn b der Standardantiphon entspricht, kommt es zuerst
+            if (b.season === defaultSeason) return 1;
             // Sonst behält die ursprüngliche Reihenfolge bei
             return 0;
         });
-    }, [marianAntiphons, season]);
+    }, [marianAntiphons, getDefaultAntiphonSeason]);
 
-    // Setze Antiphon für aktuelle Jahreszeit als ausgewählt
+    // Setze die berechnete Standardantiphon als ausgewählt
     useEffect(() => {
         if (sortedAntiphons.length > 0 && !selectedAntSeason) {
-            // Verwende für die Weihnachtszeit die Advent-Antiphon
-            const currentSeason = season === 'w' ? 'a' : season;
+            const defaultSeason = getDefaultAntiphonSeason;
 
-            // Suche die Antiphon für die aktuelle Jahreszeit
-            const seasonalAnt = sortedAntiphons.find(ant => ant.season === currentSeason);
+            // Suche die Antiphon für die berechnete Standardzeit
+            const seasonalAnt = sortedAntiphons.find(ant => ant.season === defaultSeason);
 
             // Wenn gefunden, setze als ausgewählt, sonst nimm die erste
             if (seasonalAnt) {
@@ -90,7 +105,7 @@ const MarAntSelector = ({ season, localPrefLatin, formatPrayerText }) => {
                 setSelectedAntSeason(sortedAntiphons[0].season);
             }
         }
-    }, [sortedAntiphons, selectedAntSeason, season]);
+    }, [sortedAntiphons, selectedAntSeason, getDefaultAntiphonSeason]);
 
     // Wenn keine Antiphonen verfügbar sind (sollte nicht vorkommen)
     if (sortedAntiphons.length === 0) return null;
@@ -113,7 +128,7 @@ const MarAntSelector = ({ season, localPrefLatin, formatPrayerText }) => {
                     key={ant.season}
                     onClick={() => setSelectedAntSeason(ant.season)}
                     className={`w-full text-sm text-left pl-3 pt-1 pb-0 mt-1 rounded
-                    ${ant.season === (season === 'w' ? 'a' : season)
+                    ${ant.season === getDefaultAntiphonSeason
                             ? 'btn-blue' : 'btn-default'}
                     ${selectedAntSeason === ant.season
                             ? 'ring-2 ring-yellow-500' : ''}`}                >
@@ -138,4 +153,5 @@ const MarAntSelector = ({ season, localPrefLatin, formatPrayerText }) => {
         </div>
     );
 };
+
 export default MarAntSelector;

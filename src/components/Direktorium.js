@@ -1,10 +1,9 @@
+import React from "react";
 import { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import { Menu, MonitorCheck } from "lucide-react";
 import useWakeLock from "./comp_WakeLock.js";
-import React from "react";
 import { liturgicalData } from "./data/Direktorium.ts";
 import { deceasedData } from "./data/Deceased.ts";
-import { psalmsData } from "./data/PsHymn.ts";
 import { ReferenceDialog, parseTextWithReferences } from "./comp_RefLink.jsx";
 import { getLiturgicalInfo } from "./comp_LitCalendar.js";
 import { processBrevierData } from "./comp_BrevierDataProcessor.js";
@@ -16,13 +15,16 @@ import {
   TooltipTrigger,
 } from "./ui/tooltip.jsx";
 import SourceSelector from "./selectors/SourceSelector.js";
-import { getValue as extGetValue } from "./comp_GetValue.js";
 import { SectionHeader as extSectionHeader } from "./selectors/SectionHeader.js";
 import KompletSelector from "./selectors/KompletSelector.js";
 import HymnSelector from "./selectors/HymnSelector.js";
 import MarAntSelector from "./selectors/MarAntSelector.js";
+import { getValue as extGetValue } from "./comp_GetValue.js";
+import { getKompletValue } from "./comp_GetKompletValue.js";
 import {
-  formatPsalm as extFormatPsalm, formatText, formatPrayerText as extFormatPrayerText,
+  formatPsalm as extFormatPsalm,
+  formatText,
+  formatPrayerText as extFormatPrayerText,
 } from "./comp_TextFormatter.js";
 import NavigationButtons from "./comp_NavigationButtons.js";
 import PersonalSettings from "./PersonalSettings.js";
@@ -1240,6 +1242,7 @@ const PrayerTextDisplay = ({
   hour,
   texts,
   season,
+  selectedDate,
   liturgicalInfo,
   title = "",
   onBack,
@@ -1275,23 +1278,23 @@ const PrayerTextDisplay = ({
 
   // Get value from sources in priority order: prefSrc -> com1/com2 -> wt
   const getValue = (field) => {
-    const resultLanguage = extGetValue({
-      hour,
-      prefSrc,
-      prefSollemnity,
-      localPrefComm,
-      localPrefPsalmsWt,
-      localPrefErgPs,
-      localPrefContinuous,
-      localPrefKomplet,
-      texts,
-      field: `${field}${localPrefLanguage}`,
-    })
-    return resultLanguage ?
-      (typeof resultLanguage === 'string'
-        ? resultLanguage + `${localPrefLanguage}`
-        : resultLanguage)
-      : extGetValue({
+    if (hour === 'komplet') {
+      const resultKomplet = getKompletValue({
+        localPrefKomplet,
+        texts,
+        field: `${field}${localPrefLanguage}`,
+      })
+      return resultKomplet ?
+        (typeof resultKomplet === 'string'
+          ? resultKomplet + `${localPrefLanguage}`
+          : resultKomplet)
+        : getKompletValue({
+          localPrefKomplet,
+          texts,
+          field,
+        })
+    } else {
+      const resultLanguage = extGetValue({
         hour,
         prefSrc,
         prefSollemnity,
@@ -1299,12 +1302,26 @@ const PrayerTextDisplay = ({
         localPrefPsalmsWt,
         localPrefErgPs,
         localPrefContinuous,
-        localPrefKomplet,
         texts,
-        field,
+        field: `${field}${localPrefLanguage}`,
       })
-  };
-
+      return resultLanguage ?
+        (typeof resultLanguage === 'string'
+          ? resultLanguage + `${localPrefLanguage}`
+          : resultLanguage)
+        : extGetValue({
+          hour,
+          prefSrc,
+          prefSollemnity,
+          localPrefComm,
+          localPrefPsalmsWt,
+          localPrefErgPs,
+          localPrefContinuous,
+          texts,
+          field,
+        })
+    };
+  }
   // Component for section headers with source indicators
   const SectionHeader = ({
     title,
@@ -1354,8 +1371,8 @@ const PrayerTextDisplay = ({
       prefSrc, localPrefLanguage, isNarrowForHymns);
   };
 
-  const formatPsalm = (psalm) => {
-    return extFormatPsalm(psalm, localPrefLanguage);
+  const formatPsalm = (psalm, inv = false) => {
+    return extFormatPsalm(psalm, inv, localPrefLanguage);
   };
 
   const PrayerResponse = ({ resp1_3, resp1_2 }) => {
@@ -1488,12 +1505,7 @@ const PrayerTextDisplay = ({
             {hour === "invitatorium" &&
               texts?.invitatorium?.psalms?.includes(localPrefInv) && (
                 <div className="mb-4">
-                  {formatPsalm({
-                    number: localPrefInv,
-                    text: psalmsData[localPrefInv][0].text,
-                    text_lat: psalmsData[localPrefInv][0].text_lat,
-                    text_neu: psalmsData[localPrefInv][0].text_neu,
-                  })}
+                  {formatPsalm(localPrefInv, true)}
                 </div>
               )}
             {hour !== "invitatorium" &&
@@ -1766,6 +1778,8 @@ const PrayerTextDisplay = ({
             />
             <MarAntSelector
               season={season}
+              selectedDate={selectedDate}
+              combinedSWD={texts?.combinedSWD}
               localPrefLatin={localPrefLatin}
               formatPrayerText={formatPrayerText}
             />
@@ -3101,6 +3115,7 @@ export default function LiturgicalCalendar() {
             <PrayerTextDisplay
               hour={selectedHour}
               texts={prayerTexts}
+              selectedDate={selectedDate}
               liturgicalInfo={liturgicalInfo}
               title={formatDate(selectedDate)}
               viewMode={viewMode}

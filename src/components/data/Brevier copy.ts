@@ -10010,8 +10010,7 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "oration": "Allmächtiger, ewiger Gott, erfülle uns mit Freude und Dankbarkeit, denn in der Himmelfahrt deines Sohnes hast du den Menschen erhöht. Schenke uns das feste Vertrauen, dass auch wir zu der Herrlichkeit gerufen sind, in die Christus uns vorausgegangen ist,^ORR",
-          "oration_lat": "Fac nos, omnípotens Deus, sanctis exsultáre gáudiis, et pia gratiárum actióne lætári, quia Christi Fílii tui ascénsio est nostra provéctio, et, quo procéssit glória cápitis, eo spes vocátur et córporis.^ORlR"
+          "oration": "Allmächtiger, ewiger Gott, erfülle uns mit Freude und Dankbarkeit, denn in der Himmelfahrt deines Sohnes hast du den Menschen erhöht. Schenke uns das feste Vertrauen, dass auch wir zu der Herrlichkeit gerufen sind, in die Christus uns vorausgegangen ist,^ORR"
         },
         "ErsteV": {
           "button": "1. Vesper zu Christi Himmelfahrt",
@@ -10041,8 +10040,7 @@ export const brevierData = {
           "bitten_lat": "O rex glóriæ, qui carnis nostræ fragilitátem tecum glorificándam ad súperos evexísti,^qvéterum culpárum tolle pravitátem, et redde nobis vitæ prístinæ dignitátem.^pQui, per dilectiónis viam ad nos descendísti,^qper hanc ad te nos ascéndere concéde.^pQui fore promisísti, ut omnes tráheres ad teípsum,^qnéminem ex nobis patiáris a tuo córpore divélli.^pQuo tu ascendísti glorificátus,^qilluc te nunc prǽvium mente sequámur et corde.^pQuem nunc verum Deum iúdicem præstolámur,^qfac ut aliquándo te Dóminum cum defúnctis in maiestáte tua misericórdem contemplémur."
         },
         "Invitatorium": {
-          "ant_0": "Christus, der Herr, ist aufgestiegen zum Himmel; kommt, wir beten ihn an!^ö",
-          "ant_0_lat": "Allelúia, Christum Dóminum, ascendéntem in cælum, veníte, adorémus, allelúia."
+          "ant_0": "Christus, der Herr, ist aufgestiegen zum Himmel; kommt, wir beten ihn an!^ö"
         },
         "Laudes": {
           "ant_1": "Ihr Männer von Galiläa, was schaut ihr auf zum Himmel? Wie dieser Jesus vor euren Augen zum Himmel emporstieg, so kommt er wieder.^ö",
