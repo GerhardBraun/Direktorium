@@ -716,7 +716,8 @@ export const brevierData = {
       },
       "each": {
         "Invitatorium": {
-          "ant_0": "Der Herr ist nahe; kommt, wir beten ihn an."
+          "ant_0": "Der Herr ist nahe; kommt, wir beten ihn an.",
+          "ant_0_lat": "Regem ventúrum Dóminum, veníte, adorémus."
         },
         "Laudes": {
           "hymn_1": 3121.0,
@@ -932,6 +933,9 @@ export const brevierData = {
           "hymn_2": 3142.1,
           "hymn_kl": 0.0
         },
+        "Invitatorium": {
+          "ant_0_lat": "Prope est iam Dóminus: veníte, adorémus."
+        },
         "Komplet": {
           "hymn_1_lat": 2500.2
         }
@@ -974,9 +978,7 @@ export const brevierData = {
           "ant_3": "",
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": ""
+          "ant_0_lat": "Regem Apostolórum Dóminum, veníte, adorémus."
         },
         "Laudes": {
           "button": "Ap",
@@ -1155,10 +1157,7 @@ export const brevierData = {
           "ant_2": "",
           "ant_3": "",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": ""
+          "hymn_3_lat": 0.0
         },
         "Laudes": {
           "button": "Hl",
@@ -1349,10 +1348,7 @@ export const brevierData = {
           "ant_2": "",
           "ant_3": "",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": ""
+          "hymn_3_lat": 0.0
         },
         "Laudes": {
           "button": "Hi",
@@ -1518,10 +1514,7 @@ export const brevierData = {
           "ant_2": "",
           "ant_3": "",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": ""
+          "hymn_3_lat": 0.0
         },
         "Laudes": {
           "button": "Kl",
@@ -1594,10 +1587,7 @@ export const brevierData = {
           "ant_2": "",
           "ant_3": "",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": ""
+          "hymn_3_lat": 0.0
         },
         "Laudes": {
           "button": "Jgfr",
@@ -1952,10 +1942,7 @@ export const brevierData = {
           "ant_2": "",
           "ant_3": "",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": ""
+          "hymn_3_lat": 0.0
         },
         "Laudes": {
           "button": "Hl",
@@ -2116,10 +2103,7 @@ export const brevierData = {
           "ant_2": "",
           "ant_3": "",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": ""
+          "hymn_3_lat": 0.0
         },
         "Laudes": {
           "hymn_2": 0.0,
@@ -2173,10 +2157,7 @@ export const brevierData = {
           "ant_2": "",
           "ant_3": "",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": ""
+          "hymn_3_lat": 0.0
         },
         "Laudes": {
           "button": "Mar",
@@ -2309,10 +2290,7 @@ export const brevierData = {
           "ant_2": "",
           "ant_3": "",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": ""
+          "hymn_3_lat": 0.0
         },
         "Laudes": {
           "button": "Märt",
@@ -2624,10 +2602,7 @@ export const brevierData = {
           "ant_2": "",
           "ant_3": "",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": ""
+          "hymn_3_lat": 0.0
         },
         "Laudes": {
           "button": "Märt",
@@ -3055,10 +3030,7 @@ export const brevierData = {
           "ant_0": "Wir preisen die Mutterschaft der seligen Jungfrau Maria und beten an ihren Sohn, Jesus Christus, unsern Herrn.",
           "ant_1": "",
           "ant_2": "",
-          "ant_3": "",
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": ""
+          "ant_3": ""
         },
         "Laudes": {
           "button": "Hochfest der Gottesmutter Maria",
@@ -3293,10 +3265,7 @@ export const brevierData = {
           "ant_0": "Lasst uns Gott loben am Fest der Bekehrung des heiligen Paulus!",
           "ant_1": "",
           "ant_2": "",
-          "ant_3": "",
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": ""
+          "ant_3": ""
         },
         "Laudes": {
           "button": "Bekehrung des hl. Apostels Paulus",
@@ -3419,10 +3388,7 @@ export const brevierData = {
           "ant_0": "Zu seinem heiligen Tempel kommt der Herrscher, der Herr; kommt, wir beten ihn an!",
           "ant_1": "",
           "ant_2": "",
-          "ant_3": "",
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": ""
+          "ant_3": ""
         },
         "Laudes": {
           "button": "Darstellung des Herrn",
@@ -4243,7 +4209,8 @@ export const brevierData = {
           "oration": "Gott, du hast den heiligen Barnabas, einen Mann voll des Glaubens und des Heiligen Geistes, als Boten des Evangeliums zu den Heiden gesandt. Berufe auch heute Männer und Frauen, die in Wort und Tat die Botschaft Jesu Christi verkünden,^ORR"
         },
         "Invitatorium": {
-          "ant_0": "Durch Propheten und Lehrer hat Gottes Geist zu uns gesprochen; kommt, wir beten ihn an!^ö"
+          "ant_0": "Durch Propheten und Lehrer hat Gottes Geist zu uns gesprochen; kommt, wir beten ihn an!^ö",
+          "ant_0_lat": "Spíritum Sanctum, qui per prophétas et doctóres nobis locútus est, veníte, adorémus."
         },
         "Laudes": {
           "button": "Hl. Barnabas",
@@ -4325,7 +4292,8 @@ export const brevierData = {
           "oration": "Allmächtiger Gott, führe deine Kirche auf dem Weg des Heiles und gib uns die Gnade, den Weisungen Johannes des Täufers zu folgen, damit wir zu dem gelangen, den er vorausverkündet hat, zu unserem Herrn Jesus Christus, deinem Sohn,^ORR"
         },
         "Invitatorium": {
-          "ant_0": "Das Lamm Gottes, das Johannes voll Freude bezeugte – kommt, wir beten es an!"
+          "ant_0": "Das Lamm Gottes, das Johannes voll Freude bezeugte – kommt, wir beten es an!",
+          "ant_0_lat": "Agnum Dei, quem lætus monstrávit Ioánnes, veníte, adorémus."
         },
         "Laudes": {
           "button": "Geburt des hl. Johannes des Täufers",
@@ -4827,7 +4795,8 @@ export const brevierData = {
           "ant_ev": "Heute ist der Herr auf der Höhe des Berges in Herrlichkeit erschienen. Christus Jesus, der Abglanz der Herrlichkeit des Vaters und das Abbild seines Wesens, der das All trägt durch sein machtvolles Wort."
         },
         "Invitatorium": {
-          "ant_0": "Christus, den König der Herrlichkeit – kommt, wir beten ihn an!"
+          "ant_0": "Christus, den König der Herrlichkeit – kommt, wir beten ihn an!",
+          "ant_0_lat": "Summum Regem glóriæ, veníte, adorémus."
         },
         "Laudes": {
           "button": "Verklärung des Herrn",
@@ -5001,7 +4970,8 @@ export const brevierData = {
           "oration": "Allmächtiger Gott, du hast die Jungfrau Maria zur Mutter deines ewigen Sohnes erwählt. Du hast auf deine niedrige Magd geschaut und sie mit Herrlichkeit gekrönt. Höre auf ihre Fürsprache und nimm auch uns in deine Herrlichkeit auf, da du uns erlöst hast durch den Tod deines Sohnes, unseres Herrn Jesus Christus,^ORV"
         },
         "Invitatorium": {
-          "ant_0": "Heute wurde die Mutter Christi in den Himmel erhoben; kommt, wir beten ihren Sohn an, den König der Könige!"
+          "ant_0": "Heute wurde die Mutter Christi in den Himmel erhoben; kommt, wir beten ihren Sohn an, den König der Könige!",
+          "ant_0_lat": "Veníte adorémus Regem regum, cuius hódie ad æthéreum Virgo Mater assúmpta est cælum."
         },
         "Laudes": {
           "button": "Aufnahme Mariens in den Himmel",
@@ -5085,7 +5055,8 @@ export const brevierData = {
       },
       "22": {
         "Invitatorium": {
-          "ant_0": "Christus, der König, gab seiner Mutter die Krone der Herrlichkeit; kommt, wir beten ihn an!"
+          "ant_0": "Christus, der König, gab seiner Mutter die Krone der Herrlichkeit; kommt, wir beten ihn an!",
+          "ant_0_lat": "Christum regem, qui suam coronávit Matrem, veníte, adorémus."
         }
       },
       "24": {
@@ -5111,7 +5082,8 @@ export const brevierData = {
           "oration": "Gott, unser Herr, der Apostel Bartholomäus hat mit aufrichtigem Herzen deinem Sohn die Treue gehalten. Stärke auf seine Fürsprache auch unseren Glauben und mache deine Kirche zum wirksamen Zeichen des Heiles für alle Völker.^ORV"
         },
         "Invitatorium": {
-          "ant_0": "Das Lamm Gottes, dem Johannes im Leben vorausging – kommt, wir beten es an!"
+          "ant_0": "Das Lamm Gottes, dem Johannes im Leben vorausging – kommt, wir beten es an!",
+          "ant_0_lat": "Agnum Dei, quem in passióne Ioánnes præcéssit, veníte, adorémus."
         },
         "Laudes": {
           "button": "Enthauptung des hl. Johannes des Täufers",
@@ -5173,7 +5145,8 @@ export const brevierData = {
           "oration": "Barmherziger Gott, öffne deinen Gläubigen die Schätze der himmlischen Gnade. Die Geburt des Erlösers aus Maria war für uns der Anfang des Heiles; das Geburtsfest seiner all­zeit jungfräulichen Mutter festige und mehre den Frieden auf Erden.^ORV"
         },
         "Invitatorium": {
-          "ant_0": "Wir feiern die Geburt der seligen Jungfrau Maria und beten ihren Sohn an, Christus, unseren Herrn."
+          "ant_0": "Wir feiern die Geburt der seligen Jungfrau Maria und beten ihren Sohn an, Christus, unseren Herrn.",
+          "ant_0_lat": "Nativitátem Vírginis Maríæ celebrémus: Christum eius Fílium adorémus Dóminum."
         },
         "Laudes": {
           "button": "Mariae Geburt",
@@ -5265,7 +5238,8 @@ export const brevierData = {
           "bitten": "Du hast dich entäußert, du wurdest wie ein Sklave und den Menschen gleich;^qgib, dass die Welt deine Liebe erkennt.^pDu wurdest gehorsam bis zum Tod am Kreuz;^qhilf den Leidenden, ihr Geschick anzunehmen.^pGott hat dir den Namen verliehen, der alle Namen übertrifft;^qsteh allen bei, die sich zu diesem Namen bekennen.^pVor dir beugen die Knie alle Mächte im Himmel, auf der Erde und unter der Erde;^qgib, dass alle Menschen dich anbeten.^pDurch dein Kreuz hast du das Tor des Himmels geöffnet;^qnimm unsere verstorbenen Brüder und Schwestern auf."
         },
         "Invitatorium": {
-          "ant_0": "Christus, den König, der am Kreuz für uns erhöht ist – kommt, wir beten ihn an!"
+          "ant_0": "Christus, den König, der am Kreuz für uns erhöht ist – kommt, wir beten ihn an!",
+          "ant_0_lat": "Christum regem pro nobis in cruce exaltátum, veníte, adorémus."
         },
         "Laudes": {
           "button": "Kreuzerhöhung",
@@ -5364,7 +5338,8 @@ export const brevierData = {
           "oration": "Allmächtiger Gott, du hast der Mutter Jesu die Kraft verliehen, unter dem Kreuz zu stehen und das Leiden ihres Sohnes zu teilen. Hilf uns, täglich unser Kreuz anzunehmen, damit wir auch an der Auferstehung unseres Herrn Jesus Christus teilhaben.^ORR"
         },
         "Invitatorium": {
-          "ant_0": "Den Heiland der Welt, mit dem seine Mutter im Leiden vereint war – kommt, wir beten ihn an!"
+          "ant_0": "Den Heiland der Welt, mit dem seine Mutter im Leiden vereint war – kommt, wir beten ihn an!",
+          "ant_0_lat": "Salvatórem mundi, qui passióni suæ Matrem sociávit, veníte, adorémus."
         },
         "Laudes": {
           "button": "Mariae Schmerzen",
@@ -5535,9 +5510,7 @@ export const brevierData = {
           "ant_1": "",
           "ant_2": "",
           "ant_3": "",
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": ""
+          "ant_0_lat": "In conspéctu angelórum, veníte, adorémus Dóminum."
         },
         "Laudes": {
           "button": "Hll. Erzengel Michael, Gabriel und Rafael",
@@ -5652,9 +5625,7 @@ export const brevierData = {
           "ant_1": "",
           "ant_2": "",
           "ant_3": "",
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": ""
+          "ant_0_lat": "Dóminum, cui minístrant ángeli, veníte, adorémus."
         },
         "Laudes": {
           "button": "Hll. Schutzengel",
@@ -5775,7 +5746,8 @@ export const brevierData = {
           "oration": "Herr, unser Gott, du hast den Evangeli­sten Lukas auserwählt, in Wort und Schrift das Geheimnis deiner Liebe zu den Armen zu verkünden. Gib, dass alle, die sich Chri­sten nennen, ein Herz und eine Seele sind, und lass alle Völker der Erde das Heil schauen, das du ihnen bereitet hast.^ORV"
         },
         "Invitatorium": {
-          "ant_0": "Christus, den Herrn, der im Evangelium spricht – kommt, wir beten ihn an!^ö"
+          "ant_0": "Christus, den Herrn, der im Evangelium spricht – kommt, wir beten ihn an!^ö",
+          "ant_0_lat": "Dóminum in Evangélio loquéntem, veníte, adorémus."
         },
         "Laudes": {
           "button": "Hl. Lukas",
@@ -5889,7 +5861,8 @@ export const brevierData = {
           "bitten": "Herr, du hast die Apostel zum Fundament deiner Kirche gemacht;^qbewahre die Gläubigen in der apostolischen Lehre.^pDu hast den Märtyrern die Tapferkeit gegeben, von dir Zeugnis abzulegen;^qmache die Christen zu deinen treuen Zeugen.^pDu hast den heiligen Jungfrauen die Gnade der Jungfräulichkeit geschenkt;^qsegne alle, die um des Himmelreiches willen ehelos leben.^pDu offenbarst in den Heiligen deine Gegenwart;^qschenke auch unserer Zeit heilige Menschen.^pErbarme dich all unserer Verstorbenen^qund nimm sie auf in die Gemeinschaft der Heiligen."
         },
         "Invitatorium": {
-          "ant_0": "Inmitten seiner Heiligen wird Gott verherrlicht; kommt, wir beten ihn an!"
+          "ant_0": "Inmitten seiner Heiligen wird Gott verherrlicht; kommt, wir beten ihn an!",
+          "ant_0_lat": "Deum, qui glorificátur in concílio sanctórum, veníte, adorémus."
         },
         "Laudes": {
           "button": "Allerheiligen",
@@ -6341,7 +6314,8 @@ export const brevierData = {
           "bitten": "Du hast Maria zur Mutter deines Sohnes auserwählt;^qlass die Kirche unter ihrem Schutz geborgen sein.^pDu hast Maria den Menschen zur Mutter gegeben;^qauf ihre Fürsprache gewähre den Kranken Heilung und den Trauernden Trost.^pDu hast Maria die Fülle deiner Gnade geschenkt;^qauf ihre Fürsprache schenke den Sündern Vergebung und allen Menschen Frieden und Heil.^pDu hast Maria zum Urbild deiner Kirche gemacht;^qgib, dass deine Gläubigen einmütig mit Maria im Gebet verharren.^pDu hast die unbefleckte Jungfrau mit Leib und Seele in den Himmel aufgenommen;^qschenke unseren Verstorbenen die ewige Freude mit Maria und all deinen Heiligen."
         },
         "Invitatorium": {
-          "ant_0": "Ohne Makel ist die Jungfrau Maria empfangen, die Mutter des Erlösers; kommt, wir beten Christus an, ihren Sohn, unsern Herrn!"
+          "ant_0": "Ohne Makel ist die Jungfrau Maria empfangen, die Mutter des Erlösers; kommt, wir beten Christus an, ihren Sohn, unsern Herrn!",
+          "ant_0_lat": "Immaculátam Conceptiónem Vírginis Maríæ celebrémus: Christum, eius Fílium, adorémus Dóminum."
         },
         "Laudes": {
           "button": "Unbefleckte Empfängnis Mariens",
@@ -6500,7 +6474,8 @@ export const brevierData = {
       },
       "24": {
         "Invitatorium": {
-          "ant_0": "Heute sollt ihr wissen, dass der Herr kommt, und morgen werdet ihr schauen seine Herrlichkeit."
+          "ant_0": "Heute sollt ihr wissen, dass der Herr kommt, und morgen werdet ihr schauen seine Herrlichkeit.",
+          "ant_0_lat": "Hódie sciétis quia véniet Dóminus, et mane vidébitis glóriam eius."
         },
         "Laudes": {
           "button": "Heiliger Abend",
@@ -6635,7 +6610,8 @@ export const brevierData = {
           "oration": "Allmächtiger Gott, wir ehren am heutigen Fest den ersten Märtyrer deiner Kirche. Gib, dass auch wir unsere Feinde lieben und so das Beispiel des heiligen Stephanus nachahmen, der sterbend für seine Verfolger gebetet hat.^ORV"
         },
         "Invitatorium": {
-          "ant_0": "Christus, der Herr, der für uns Mensch geworden ist, hat Stephanus gekrönt; kommt, wir beten ihn an!"
+          "ant_0": "Christus, der Herr, der für uns Mensch geworden ist, hat Stephanus gekrönt; kommt, wir beten ihn an!",
+          "ant_0_lat": "Christum natum, qui beátum coronávit Stéphanum, veníte, adorémus."
         },
         "Laudes": {
           "button": "Hl. Stephanus",
@@ -6818,10 +6794,7 @@ export const brevierData = {
           "ant_0": "Christus, den geliebten Sohn, der dem Vater wohlgefällt; kommt, wir beten ihn an!",
           "ant_1": "",
           "ant_2": "",
-          "ant_3": "",
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": ""
+          "ant_3": ""
         },
         "Laudes": {
           "hymn_1": 3229.0,
@@ -7937,9 +7910,7 @@ export const brevierData = {
           "ant_1": "",
           "ant_2": "",
           "ant_3": "",
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": ""
+          "ant_0_lat": "Veníte, exsultémus Dómino, iubilémus Deo salutári nostro, allelúia."
         },
         "Non": {
           "oration": "0",
@@ -7960,9 +7931,7 @@ export const brevierData = {
           "ant_1": "",
           "ant_2": "",
           "ant_3": "",
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": ""
+          "ant_0_lat": "Præoccupémus fáciem Dómini in confessióne."
         },
         "Lesehore": {
           "hymn_nacht": 2114.0
@@ -7983,9 +7952,7 @@ export const brevierData = {
           "ant_1": "",
           "ant_2": "",
           "ant_3": "",
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": ""
+          "ant_0_lat": "Regem magnum Dóminum, veníte, adorémus."
         },
         "Lesehore": {
           "hymn_nacht": 3212.0
@@ -8006,9 +7973,7 @@ export const brevierData = {
           "ant_1": "",
           "ant_2": "",
           "ant_3": "",
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": ""
+          "ant_0_lat": "Adorémus Dóminum, quóniam ipse fecit nos."
         },
         "Lesehore": {
           "hymn_nacht": 3112.0
@@ -8029,9 +7994,7 @@ export const brevierData = {
           "ant_1": "",
           "ant_2": "",
           "ant_3": "",
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": ""
+          "ant_0_lat": "Veníte, adorémus Dóminum, quia ipse est Deus noster."
         },
         "Lesehore": {
           "hymn_nacht": 2114.0
@@ -8052,9 +8015,7 @@ export const brevierData = {
           "ant_1": "",
           "ant_2": "",
           "ant_3": "",
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": ""
+          "ant_0_lat": "Confitémini Dómino, quia in ætérnum misericórdia eius."
         },
         "Lesehore": {
           "hymn_nacht": 3212.0
@@ -8075,9 +8036,7 @@ export const brevierData = {
           "ant_1": "",
           "ant_2": "",
           "ant_3": "",
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": ""
+          "ant_0_lat": "Dómini est terra et plenitúdo eius; veníte, adorémus eum."
         },
         "Lesehore": {
           "hymn_nacht": 3112.0
@@ -8114,9 +8073,37 @@ export const brevierData = {
           "ant_1": "",
           "ant_2": "",
           "ant_3": "",
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": ""
+          "ant_0_lat": "Pópulus Dómini et oves páscuæ eius, veníte, adorémus eum, allelúia."
+        }
+      },
+      "1": {
+        "Invitatorium": {
+          "ant_0_lat": "Exsultémus Dómino, et in psalmis iubilémus ei."
+        }
+      },
+      "2": {
+        "Invitatorium": {
+          "ant_0_lat": "Deum magnum Dóminum, veníte, adorémus."
+        }
+      },
+      "3": {
+        "Invitatorium": {
+          "ant_0_lat": "Iubiláte Deo, omnis terra, servíte Dómino in lætítia."
+        }
+      },
+      "4": {
+        "Invitatorium": {
+          "ant_0_lat": "Introíte in conspéctu Dómini in exsultatióne."
+        }
+      },
+      "5": {
+        "Invitatorium": {
+          "ant_0_lat": "Suávis est Dóminus, benedícite nómini eius."
+        }
+      },
+      "6": {
+        "Invitatorium": {
+          "ant_0_lat": "Audiámus vocem Dómini, ut ingrediámur in réquiem eius."
         }
       }
     }
@@ -9193,7 +9180,8 @@ export const brevierData = {
           "oration": "Gott, du Schöpfer der Welt, du hast den Menschen zum Schaffen und Wirken bestimmt. Auf die Fürsprache unseres Schutzpatrons, des heiligen Josef, der mit seiner Hände Arbeit die Heilige Familie ernährte, gib uns Kraft und Ausdauer, damit wir deinen Auftrag auf Erden erfüllen und so den verheißenen Lohn empfangen.^ORV"
         },
         "Invitatorium": {
-          "ant_0": "Christus, den Sohn Gottes, der sich nicht gescheut hat, als Sohn des Zimmermanns zu gelten – kommt, wir beten ihn an!^ö"
+          "ant_0": "Christus, den Sohn Gottes, der sich nicht gescheut hat, als Sohn des Zimmermanns zu gelten – kommt, wir beten ihn an!^ö",
+          "ant_0_lat": "Christum Dóminum, qui putári dignátus est fabri fílius, veníte, adorémus, allelúia."
         },
         "Laudes": {
           "button": "Hl. Josef der Arbeiter",
@@ -9251,7 +9239,8 @@ export const brevierData = {
     "12": {
       "1": {
         "Invitatorium": {
-          "ant_0": "Christus, den Herrn, den Hirten und Bischof unserer Seelen – kommt, wir beten ihn an!"
+          "ant_0": "Christus, den Herrn, den Hirten und Bischof unserer Seelen – kommt, wir beten ihn an!",
+          "ant_0_lat": "Christum Dóminum, pastórem et epíscopum animárum nostrárum, veníte, adorémus."
         },
         "Laudes": {
           "comm_1": "Hirten",
@@ -9291,7 +9280,8 @@ export const brevierData = {
           "oration": "Gott, du Schöpfer der Welt, du hast den Menschen zum Schaffen und Wirken bestimmt. Auf die Fürsprache unseres Schutzpatrons, des heiligen Josef, der mit seiner Hände Arbeit die Heilige Familie ernährte, gib uns Kraft und Ausdauer, damit wir deinen Auftrag auf Erden erfüllen und so den verheißenen Lohn empfangen.^ORV"
         },
         "Invitatorium": {
-          "ant_0": "Christus, den Sohn Gottes, der sich nicht gescheut hat, als Sohn des Zimmermanns zu gelten – kommt, wir beten ihn an!^ö"
+          "ant_0": "Christus, den Sohn Gottes, der sich nicht gescheut hat, als Sohn des Zimmermanns zu gelten – kommt, wir beten ihn an!^ö",
+          "ant_0_lat": "Christum Dóminum, qui putári dignátus est fabri fílius, veníte, adorémus, allelúia."
         },
         "Laudes": {
           "button": "Hl. Josef (auch Ant und Ps vom 19. März)",
@@ -10493,7 +10483,8 @@ export const brevierData = {
           "bitten_lat": "Qui in princípio cælum et terram creásti, et in plenitúdine témporum ómnia per Christum instaurásti,^qfáciem terræ per Spíritum tuum semper rénova in salútem.^pQui spiráculum vitæ in Adæ fáciem inspirásti,^qmitte Spíritum tuum in Ecclésiam, ut ipso vivat, iuvenéscat mundúmque vivíficet.^pLúmine Spíritus tui hómines univérsos illústra et calíginem nostri témporis dispélle,^qut ódia in amórem, dolóres in gáudium, bella in pacem convertántur optábilem.^pIrriga genus humánum aqua Spíritus tui, a Christi látere fluénte,^qut terram nostram ab ómnibus spinis líberet malórum.^pQui per Spíritum Sanctum hómines in vitam et glóriam introdúcis,^qper ipsum da defúnctos amóris gáudiis in pátria pérfrui."
         },
         "Invitatorium": {
-          "ant_0": "Halleluja. Der Geist des Herrn erfüllt den Erdkreis; kommt, wir fallen vor ihm nieder und beten an!^ö"
+          "ant_0": "Halleluja. Der Geist des Herrn erfüllt den Erdkreis; kommt, wir fallen vor ihm nieder und beten an!^ö",
+          "ant_0_lat": "Allelúia, Spíritus Dómini replévit orbem terrárum: veníte, adorémus, allelúia."
         },
         "Laudes": {
           "hymn_1": 3428.0,
@@ -10627,7 +10618,8 @@ export const brevierData = {
           "bitten": "Vater im Himmel, du bist mit dem Sohn und dem Heiligen Geist ein Gott;^qbewahre deine Kirche in der Einheit der Liebe.^qSende Arbeiter in deine Ernte, dass sie alle Völker lehren^qund sie taufen auf den Namen des Vaters und des Sohnes und des Heiligen Geistes.^pSteh allen bei, die um deines Sohnes willen Verfolgung leiden;^qdenn er hat versprochen, dass dein Geist in ihnen reden werde.^pLass alle Menschen erkennen, dass du mit dem Sohn und dem Heiligen Geist der eine Gott bist,^qdamit die ganze Welt dir huldige.^pVater der Lebenden, nimm die Verstorbenen auf in dein Reich,^qin dem du mit deinem Sohn und dem Heiligen Geist lebst und regierst in Ewigkeit."
         },
         "Invitatorium": {
-          "ant_0": "Gott ist einer in der Dreiheit und dreifaltig in der Einheit; kommt, wir beten ihn an!"
+          "ant_0": "Gott ist einer in der Dreiheit und dreifaltig in der Einheit; kommt, wir beten ihn an!",
+          "ant_0_lat": "Deum verum, unum in Trinitáte et Trinitátem in Unitáte, veníte, adorémus."
         },
         "Laudes": {
           "hymn_1": 3902.0,
@@ -10735,7 +10727,8 @@ export const brevierData = {
           "bitten": "Du Sohn des lebendigen Gottes, du hast uns aufgetragen, das Mahl der Eucharistie zu halten zu deinem Gedächtnis;^qmache deine Kirche reich an Gnaden durch die gläubige Feier deiner Geheimnisse.^pDu einziger Priester des Höchsten Gottes, du hast den Priestern die Feier deines Opfers anvertraut;^qlass in ihrem Leben wirksam werden, was sie unter heiligen Zeichen begehen.^pDu Herr des himmlischen Mahles, du fügst zu einem Leib zusammen, die an dem einen Brot teilhaben;^qfestige den Frieden und die Eintracht unter denen, die an dich glauben.^pDu göttlicher Arzt, du reichst uns in deinem Brot die Arznei der Unsterblichkeit;^qschenke den Sündern lebendige Hoffnung."
         },
         "Invitatorium": {
-          "ant_0": "Christus, unser Herr, ist das Brot des Lebens; kommt, wir beten ihn an!"
+          "ant_0": "Christus, unser Herr, ist das Brot des Lebens; kommt, wir beten ihn an!",
+          "ant_0_lat": "Panem vitæ, Christum Dóminum, veníte, adorémus."
         },
         "Laudes": {
           "hymn_1": 3942.0,
@@ -11242,10 +11235,7 @@ export const brevierData = {
           "ant_1": "",
           "ant_2": "",
           "ant_3": "",
-          "ant_0_lat": "Surréxit Dóminus vere.^LÖ",
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": ""
+          "ant_0_lat": "Surréxit Dóminus vere.^LÖ"
         },
         "Laudes": {
           "hymn_1": 3421.0,
@@ -11415,10 +11405,7 @@ export const brevierData = {
           "ant_1": "",
           "ant_2": "",
           "ant_3": "",
-          "ant_0_lat": "Christum Dóminum, qui Sanctum nobis promísit Spíritum, veníte, adorémus!^Ö",
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": ""
+          "ant_0_lat": "Christum Dóminum, qui Sanctum nobis promísit Spíritum, veníte, adorémus!^LÖ"
         },
         "Laudes": {
           "hymn_1": 3424.0,
@@ -15205,10 +15192,7 @@ export const brevierData = {
           "ant_0": "Christus, der Herr, wurde für uns versucht und hat für uns gelitten; kommt, wir beten ihn an.",
           "ant_1": "",
           "ant_2": "",
-          "ant_3": "",
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": ""
+          "ant_3": ""
         },
         "Laudes": {
           "hymn_1": 3323.0,
@@ -15571,10 +15555,7 @@ export const brevierData = {
           "ant_0": "Christus, der Herr, wurde für uns versucht und hat für uns gelitten; kommt, wir beten ihn an.^p^rOder:^0r^l^rAnt.°°^0rVerhärtet eure Herzen nicht, hört auf die Stimme des Herrn!",
           "ant_1": "",
           "ant_2": "",
-          "ant_3": "",
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": ""
+          "ant_3": ""
         },
         "Laudes": {
           "hymn_1": 3321.0,
@@ -16063,9 +16044,7 @@ export const brevierData = {
           "ant_1": "",
           "ant_2": "",
           "ant_3": "",
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": ""
+          "ant_0_lat": "Christus natus est nobis: veníte, adorémus."
         },
         "Laudes": {
           "hymn_1": 3221.0,
@@ -16126,10 +16105,7 @@ export const brevierData = {
           "ant_0": "Christus ist uns erschienen; kommt, wir beten ihn an.",
           "ant_1": "",
           "ant_2": "",
-          "ant_3": "",
-          "ant_1_lat": "",
-          "ant_2_lat": "",
-          "ant_3_lat": ""
+          "ant_3": ""
         },
         "Laudes": {
           "hymn_1": 3224.0,
