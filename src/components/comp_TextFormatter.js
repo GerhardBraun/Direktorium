@@ -84,7 +84,6 @@ export const formatText = (text) => {
 };
 
 // Formatiert Gebetstext mit speziellen Tags und saisonalen Anpassungen
-// Formatiert Gebetstext mit speziellen Tags und saisonalen Anpassungen
 export const formatPrayerText = (provText, marker = '',
     hour = '', texts = {},
     prefSrc = '', localPrefLanguage = '', isNarrowScreen = false) => {
@@ -284,7 +283,7 @@ export const formatPrayerText = (provText, marker = '',
                 } else {
                     return (
                         <Fragment key={`footnote-${index}`}>
-                            <span className="inline-block">{formatBibleRef(content, true)}</span>
+                            <span className="text-fussnote">{formatBibleRef(content, true)}</span>
                         </Fragment>
                     );
                 }
