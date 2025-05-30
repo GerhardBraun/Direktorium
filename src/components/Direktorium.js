@@ -1357,19 +1357,14 @@ const PrayerTextDisplay = ({
     const formatSecondResponse = (firstResp, secondResp) => {
       if (!firstResp || !secondResp) return secondResp;
 
-      firstResp = firstResp
+      firstResp = firstResp.trim()
         .replace(/_lat/g, '')
-        .replace(/_neu/g, '')
+        .replace(/_neu/g, '');
 
-      // Prüfe, ob resp1_3 mit einem Punkt endet
-      const endsWithPeriod =
-        firstResp.trim().endsWith(".") ||
-        firstResp.trim().endsWith("!") ||
-        firstResp.trim().endsWith("?");
+      secondResp = secondResp.trim()
+        .replace(/[,;]$/, '.');
 
-      // Wenn ja, beginne resp1_2 mit Großbuchstaben, ansonsten mit Kleinbuchstaben
-      // Nur bei Punkt am Ende von resp1_3 wird resp1_2 großgeschrieben
-      return endsWithPeriod
+      return (/[.!?]$/.test(firstResp))
         ? secondResp.charAt(0).toUpperCase() + secondResp.slice(1)
         : secondResp;
     };
@@ -1387,6 +1382,11 @@ const PrayerTextDisplay = ({
   };
 
   const ordinariumTexts = ordinarium(texts, hour, localPrefLatin, prefSollemnity)
+  const { advResp, advVers } =
+    (texts.combinedSWD === 'a-1-0'
+      && hour === 'lesehore'
+      && !getValue('patr_resp1'))
+      ? ordinarium('advent') : { advResp: '', advVers: '' };
 
   return (
     <div className="leading-[1.33em] pb-8">
@@ -1645,6 +1645,49 @@ const PrayerTextDisplay = ({
                 resp1_2={getValue("patr_resp2")}
               />
             )}
+          </div>
+        )}
+
+        {/* erweitertes Responsorium am 1. Adventssonntag Jahr II */}
+        {advResp && (
+          <div className="mb-0">
+            <SectionHeader title="RESPONSORIUM" field="resp1_1" />
+            <div className="mb-0 flex gap-0">
+              <Rubric>R&nbsp;&nbsp;</Rubric>
+              <div>
+                {advResp.map((respPart, index) => (
+                  <span key={`resp-main-${index}`}>
+                    {formatPrayerText(respPart)}
+                    {index < advResp.length - 1 && <Rubric> *&nbsp;</Rubric>}
+                  </span>
+                ))}
+              </div>
+            </div>
+            {/* Drei PrayerResponse-Abschnitte */}
+            {advVers.slice(0, 3).map((versText, index) => (
+              <PrayerResponse
+                key={`prayer-response-${index}`}
+                resp1_3={versText}
+                resp1_2={advResp[index + 1]}
+              />
+            ))}
+            {/* Letzter Vers ohne Response */}
+            <div className="flex gap-0">
+              <Rubric>V&nbsp;&nbsp;</Rubric>
+              <div>{formatPrayerText(advVers[3])}</div>
+            </div>
+            {/* Wiederholung der vier resp-Elemente */}
+            <div className="mb-0 flex gap-0">
+              <Rubric>R&nbsp;&nbsp;</Rubric>
+              <div>
+                {advResp.map((respPart, index) => (
+                  <span key={`resp-main-${index}`}>
+                    {formatPrayerText(respPart)}
+                    {index < advResp.length - 1 && <Rubric> *&nbsp;</Rubric>}
+                  </span>
+                ))}
+              </div>
+            </div>
           </div>
         )}
 
