@@ -10836,7 +10836,7 @@ export const brevierData = {
         "ErsteV": {
           "les_buch": "1°Petr",
           "les_stelle": "2,9-10",
-          "les_text": "Ihr seid ein auserwähltes Geschlecht, eine königliche Priesterschaft, ein heiliger Stamm, ein Volk, das sein besonderes Eigentum wurde, damit ihr die großen Taten dessen verkündet, der euch aus der Finsternis in sein wunderbares Licht gerufen hat. Einst wart ihr nicht sein Volk, jetzt aber seid ihr Gottes Volk; einst gab es für euch kein Erbarmen, jetzt aber habt ihr Erbarmen gefunden.^R",
+          "les_text": "Ihr seid ein auserwähltes Geschlecht, eine königliche Priesterschaft, ein heiliger Stamm, ein Volk, das sein besonderes Eigentum wurde, damit ihr die großen Taten dessen verkündet, der euch aus der Finsternis in sein wunderbares Licht gerufen hat. Einst wart ihr nicht sein Volk, jetzt aber seid ihr Gottes Volk; einst gab es für euch kein Erbarmen, jetzt aber habt ihr Erbarmen gefunden.^RESP",
           "bitten_e": "Lasst uns beten zu Jesus Christus, denn er ist unser Leben und unsere Auferstehung:",
           "bitten_r": "Sohn des lebendigen Gottes, erbarme dich.",
           "bitten": "Wir bitten dich für deine Kirche auf der ganzen Erde:^qVollende dein Volk in der Liebe.^pFür alle, die von Krankheit und Trauer niedergedrückt sind:^qSchenke ihnen Trost und Hilfe.^pFür alle, die von deinen Wegen abgeirrt sind:^qVerzeihe ihnen und lass sie zurückfinden zu dir.^pFür die Menschen, die nicht zu ihrem Recht kommen können:^qSende ihnen Hilfe und Helfer.^pFür unsere Verstorbenen:^qLass ihnen das Licht deiner Herrlichkeit leuchten."
@@ -10844,7 +10844,7 @@ export const brevierData = {
         "Laudes": {
           "les_buch": "Apg",
           "les_stelle": "10,40-43",
-          "les_text": "Gott hat Jesus am dritten Tag auferweckt und hat ihn erscheinen lassen, zwar nicht dem ganzen Volk, wohl aber den von Gott vorherbestimmten Zeugen: uns, die wir mit ihm nach seiner Auferstehung von den Toten gegessen und getrunken haben. Und er hat uns geboten, dem Volk zu verkünden und zu bezeugen: Dieser ist der von Gott eingesetzte Richter der Lebenden und der Toten. Von ihm bezeugen alle Propheten, dass jeder, der an ihn glaubt, durch seinen Namen die Vergebung der Sünden empfängt.^R",
+          "les_text": "Gott hat Jesus am dritten Tag auferweckt und hat ihn erscheinen lassen, zwar nicht dem ganzen Volk, wohl aber den von Gott vorherbestimmten Zeugen: uns, die wir mit ihm nach seiner Auferstehung von den Toten gegessen und getrunken haben. Und er hat uns geboten, dem Volk zu verkünden und zu bezeugen: Dieser ist der von Gott eingesetzte Richter der Lebenden und der Toten. Von ihm bezeugen alle Propheten, dass jeder, der an ihn glaubt, durch seinen Namen die Vergebung der Sünden empfängt.^RESP",
           "resp1_1": "Christus, du Sohn des lebendigen Gottes!",
           "resp1_2": "Halleluja,°halleluja.",
           "resp1_3": "Du bist wahrhaft vom Tode erstanden.",
@@ -10880,7 +10880,7 @@ export const brevierData = {
         "Vesper": {
           "les_buch": "Hebr",
           "les_stelle": "10,12–14",
-          "les_text": "Christus hat nur ein einziges Opfer für die Sünden dargebracht und sich dann für immer zur Rechten Gottes gesetzt; seitdem wartet er, bis seine Feinde ihm als Schemel unter die Füße gelegt werden. Denn durch ein einziges Opfer hat er die, die geheiligt werden, für immer zur Vollendung geführt.^R",
+          "les_text": "Christus hat nur ein einziges Opfer für die Sünden dargebracht und sich dann für immer zur Rechten Gottes gesetzt; seitdem wartet er, bis seine Feinde ihm als Schemel unter die Füße gelegt werden. Denn durch ein einziges Opfer hat er die, die geheiligt werden, für immer zur Vollendung geführt.^RESP",
           "resp1_1": "Der Herr ist wahrhaft auferstanden.",
           "resp1_2": "Halleluja,°halleluja.",
           "resp1_3": "Er ist dem Simon erschienen.",
@@ -10896,7 +10896,7 @@ export const brevierData = {
         "Laudes": {
           "les_buch": "Röm",
           "les_stelle": "10,8b–10",
-          "les_text": "Das Wort ist dir nahe, es ist in deinem Mund und in deinem Herzen. Gemeint ist das Wort des Glaubens, das wir verkündigen; denn wenn du mit deinem Mund bekennst: „Jesus ist der Herr“ und in deinem Herzen glaubst: „Gott hat ihn von den Toten auferweckt“, so wirst du gerettet werden. Wer mit dem Herzen glaubt und mit dem Mund bekennt, wird Gerechtigkeit und Heil erlangen.^R",
+          "les_text": "Das Wort ist dir nahe, es ist in deinem Mund und in deinem Herzen. Gemeint ist das Wort des Glaubens, das wir verkündigen; denn wenn du mit deinem Mund bekennst: „Jesus ist der Herr“ und in deinem Herzen glaubst: „Gott hat ihn von den Toten auferweckt“, so wirst du gerettet werden. Wer mit dem Herzen glaubt und mit dem Mund bekennt, wird Gerechtigkeit und Heil erlangen.^RESP",
           "bitten_e": "Gepriesen sei unser Herr Jesus Christus, den der Vater verherrlicht und zum Erben der Völker gemacht hat:",
           "bitten_r": "Christus, unser Leben, rette uns.",
           "bitten": "Du hast dem Tod die Macht genommen und uns das neue Leben geschenkt;^qgib, dass wir als neue Menschen leben.^pDu hast Sünde und Tod bezwungen;^qhilf uns, dem Bösen zu widerstehen.^pDu hast das ganze Menschengeschlecht in die Freiheit der Kinder Gottes geführt;^qlass uns wachsen in dieser Freiheit.^pDu hast den Jüngern auf dem Weg nach Emmaus die Schriften aufgeschlossen;^qlass auch uns dich erkennen beim Brechen des Brotes."
@@ -10923,7 +10923,7 @@ export const brevierData = {
         "Vesper": {
           "les_buch": "Hebr",
           "les_stelle": "8,1b–3a",
-          "les_text": "Wir haben einen Hohenpriester, der sich zur Rechten des Thrones der Majestät im Himmel gesetzt hat, als Diener des Heiligtums und des wahren Zeltes, das der Herr selbst aufgeschlagen hat, nicht etwa ein Mensch. Denn jeder Hohepriester wird eingesetzt, um Gaben und Opfer darzubringen.^R",
+          "les_text": "Wir haben einen Hohenpriester, der sich zur Rechten des Thrones der Majestät im Himmel gesetzt hat, als Diener des Heiligtums und des wahren Zeltes, das der Herr selbst aufgeschlagen hat, nicht etwa ein Mensch. Denn jeder Hohepriester wird eingesetzt, um Gaben und Opfer darzubringen.^RESP",
           "bitten_e": "Lasst uns zu Christus beten, der für die Welt zur Quelle des Lebens geworden ist:",
           "bitten_r": "Sohn des lebendigen Gottes, erbarme dich.",
           "bitten": "Du Licht, das nicht vergeht, wenn der Tag sich neigt;^qnimm das Abendlob deiner Kirche an.^pDu hast dich deinen Jüngern beim Brechen des Brotes als der Auferstandene geoffenbart;^qbleibe bei deiner Kirche durch alle Zeiten.^pSei den Kranken und Leidenden nahe;^qlass sie teilhaben an der österlichen Freude.^pDu Sieger über den Tod;^qsteh den Sterbenden in ihrer letzten Stunde bei.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten."
@@ -10933,7 +10933,7 @@ export const brevierData = {
         "Laudes": {
           "les_buch": "Apg",
           "les_stelle": "13,30–33",
-          "les_text": "Gott hat Jesus von den Toten auferweckt, und er ist viele Tage hindurch denen erschienen, die mit ihm zusammen von Galiläa nach Jerusalem hinaufgezogen waren und die jetzt vor dem Volk seine Zeugen sind. So verkünden wir euch das Evangelium: Gott hat die Verheißung, die an die Väter ergangen ist, an uns, ihren Kindern, erfüllt, indem er Jesus auferweckt hat, wie es schon im zweiten Psalm heißt: Mein Sohn bist du, heute habe ich dich gezeugt.^R",
+          "les_text": "Gott hat Jesus von den Toten auferweckt, und er ist viele Tage hindurch denen erschienen, die mit ihm zusammen von Galiläa nach Jerusalem hinaufgezogen waren und die jetzt vor dem Volk seine Zeugen sind. So verkünden wir euch das Evangelium: Gott hat die Verheißung, die an die Väter ergangen ist, an uns, ihren Kindern, erfüllt, indem er Jesus auferweckt hat, wie es schon im zweiten Psalm heißt: Mein Sohn bist du, heute habe ich dich gezeugt.^RESP",
           "bitten_e": "Gepriesen sei Christus, der Auferstandene, der den Seinen erschienen ist:",
           "bitten_r": "Christus, unser Leben, rette uns.",
           "bitten": "Du hast Maria von Magdala bei ihrem Namen gerufen;^qlass unsere Namen aufgeschrieben sein im Buch des Lebens.^pDu hast allen Glaubenden die Auferstehung zum ewigen Leben verheißen;^qmach uns zu Kündern dieser Frohen Botschaft.^pDu bist den Aposteln erschienen und hast ihnen deinen Heiligen Geist gegeben;^qlass uns als deine Erlösten aus diesem Geiste leben.^pDu hast deinen Jüngern versprochen, bei ihnen zu bleiben bis zum Ende der Welt;^qbleibe bei uns, heute und alle Tage unseres Lebens."
@@ -10960,7 +10960,7 @@ export const brevierData = {
         "Vesper": {
           "les_buch": "1°Petr",
           "les_stelle": "2,4–5",
-          "les_text": "Kommt zum Herrn, dem lebendigen Stein, der von den Menschen verworfen, aber von Gott auserwählt und geehrt worden ist! Lasst euch als lebendige Steine zu einem geistigen Haus aufbauen, zu einer heiligen Priesterschaft, um durch Jesus Christus geistige Opfer darzubringen, die Gott gefallen!^R",
+          "les_text": "Kommt zum Herrn, dem lebendigen Stein, der von den Menschen verworfen, aber von Gott auserwählt und geehrt worden ist! Lasst euch als lebendige Steine zu einem geistigen Haus aufbauen, zu einer heiligen Priesterschaft, um durch Jesus Christus geistige Opfer darzubringen, die Gott gefallen!^RESP",
           "bitten_e": "Lasst uns beten zu Christus, der zur Herrlichkeit des neuen Lebens erstanden ist:",
           "bitten_r": "Du König der Herrlichkeit, höre uns.",
           "bitten": "Du Licht, das nicht vergeht, wenn der Tag sich neigt;^qnimm das Abendlob deiner Kirche an.^pWir bitten für alle Gläubigen,^qdass sie den Glauben bewahren.^pWir bitten dich für die Bischöfe, Priester und Diakone,^qdass sie in Freude die Osterbotschaft verkünden.^pWir bitten für alle Lehrer des Glaubens in der Kirche,^qdass sie an deiner Wahrheit festhalten.^pWir bitten dich für unsere Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten."
@@ -10970,7 +10970,7 @@ export const brevierData = {
         "Laudes": {
           "les_buch": "Röm",
           "les_stelle": "6,8–11",
-          "les_text": "Sind wir mit Christus gestorben, so glauben wir, dass wir auch mit ihm leben werden. Wir wissen, dass Christus, von den Toten auferweckt, nicht mehr stirbt; der Tod hat keine Macht mehr über ihn. Denn durch sein Sterben ist er ein für allemal gestorben für die Sünde, sein Leben aber lebt er für Gott. So sollt auch ihr euch als Menschen begreifen, die für die Sünde tot sind, aber für Gott leben in Christus Jesus.^R",
+          "les_text": "Sind wir mit Christus gestorben, so glauben wir, dass wir auch mit ihm leben werden. Wir wissen, dass Christus, von den Toten auferweckt, nicht mehr stirbt; der Tod hat keine Macht mehr über ihn. Denn durch sein Sterben ist er ein für allemal gestorben für die Sünde, sein Leben aber lebt er für Gott. So sollt auch ihr euch als Menschen begreifen, die für die Sünde tot sind, aber für Gott leben in Christus Jesus.^RESP",
           "bitten_e": "Gepriesen sei Christus, der von den Toten erstanden ist, um uns gerecht zu machen:",
           "bitten_r": "Christus, unser Leben, rette uns.",
           "bitten": "Du hast durch deinen Sieg Freude in die Welt gebracht;^qlass uns in dieser Freude leben.^pDu hast Tod und Hölle überwunden;^qbehüte uns an diesem Tag vor allem Bösen.^pDu wirst im Himmel von den Engeln verherrlicht und auf Erden von den Menschen gepriesen;^qnimm den Lobpreis an, den wir dir heute darbringen.^pUnser neues Leben ist verborgen in Gott;^qlass es einst offenbar werden in Herrlichkeit."
@@ -10997,7 +10997,7 @@ export const brevierData = {
         "Vesper": {
           "les_buch": "Hebr",
           "les_stelle": "7,24–27",
-          "les_text": "Jesus hat, weil er auf ewig bleibt, ein unvergängliches Priestertum. Darum kann er auch die, die durch ihn vor Gott hintreten, für immer retten; denn er lebt allezeit, um für sie einzutreten. Ein solcher Hoherpriester war für uns in der Tat notwendig: einer, der heilig ist, unschuldig, makellos, abgesondert von den Sündern und erhöht über die Himmel; einer, der es nicht Tag für Tag nötig hat, wie die Hohenpriester zuerst für die eigenen Sünden Opfer darzubringen und dann für die des Volkes; denn das hat er ein für allemal getan, als er sich selbst dargebracht hat.^R",
+          "les_text": "Jesus hat, weil er auf ewig bleibt, ein unvergängliches Priestertum. Darum kann er auch die, die durch ihn vor Gott hintreten, für immer retten; denn er lebt allezeit, um für sie einzutreten. Ein solcher Hoherpriester war für uns in der Tat notwendig: einer, der heilig ist, unschuldig, makellos, abgesondert von den Sündern und erhöht über die Himmel; einer, der es nicht Tag für Tag nötig hat, wie die Hohenpriester zuerst für die eigenen Sünden Opfer darzubringen und dann für die des Volkes; denn das hat er ein für allemal getan, als er sich selbst dargebracht hat.^RESP",
           "bitten_e": "Lasst uns zu Christus beten, der von den Toten erstanden ist:",
           "bitten_r": "Du König der Herrlichkeit, höre uns.",
           "bitten": "Du Licht, das nicht vergeht, wenn der Tag sich neigt;^qnimm das Abendlob deiner Kirche an.^pGedenke aller, die deinem Volke vorstehen;^qhilf ihnen, das Beispiel eines Lebens aus dem Glauben zu geben.^pGib den Regierenden den Geist der Gerechtigkeit,^qdamit die Menschen in Eintracht miteinander leben können.^pSchenke unserer Zeit deinen Frieden;^qlass die Armen teilhaben an den Gütern der Erde.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten."
@@ -11007,7 +11007,7 @@ export const brevierData = {
         "Laudes": {
           "les_buch": "Röm",
           "les_stelle": "8,10–11",
-          "les_text": "Wenn Christus in euch ist, dann ist zwar der Leib tot aufgrund der Sünde, der Geist aber ist Leben aufgrund der Gerechtigkeit. Wenn der Geist dessen in euch wohnt, der Jesus von den Toten auferweckt hat, dann wird er, der Christus Jesus von den Toten auferweckt hat, auch euren sterblichen Leib lebendig machen durch seinen Geist, der in euch wohnt.^R",
+          "les_text": "Wenn Christus in euch ist, dann ist zwar der Leib tot aufgrund der Sünde, der Geist aber ist Leben aufgrund der Gerechtigkeit. Wenn der Geist dessen in euch wohnt, der Jesus von den Toten auferweckt hat, dann wird er, der Christus Jesus von den Toten auferweckt hat, auch euren sterblichen Leib lebendig machen durch seinen Geist, der in euch wohnt.^RESP",
           "bitten_e": "Gepriesen sei Christus, der auferstandene Herr, der allezeit bei seiner Kirche ist:",
           "bitten_r": "Herr, bleibe bei uns.",
           "bitten": "Du bist der Sieger über Sünde und Tod;^qgeleite uns in deiner Macht durch diesen Tag.^pBleib uns bei mit deinem Geist^qund zeige uns deine Liebe.^pDu hast Frieden gestiftet zwischen Himmel und Erde;^qmach uns zu Boten deines Friedens.^pDu wirst am Ende der Zeit deinen Sieg vollenden;^qlass uns voll Zuversicht dein Kommen erwarten."
@@ -11034,7 +11034,7 @@ export const brevierData = {
         "Vesper": {
           "les_buch": "1°Petr",
           "les_stelle": "3,18–22",
-          "les_text": "Christus ist der Sünden wegen ein einziges Mal gestorben, er, der Gerechte, für die Ungerechten, um euch zu Gott hinzuführen; dem Fleisch nach wurde er getötet, dem Geist nach lebendig gemacht. Er ist in den Himmel gegangen; dort ist er zur Rechten Gottes, und Engel, Gewalten und Mächte sind ihm unterworfen.^R",
+          "les_text": "Christus ist der Sünden wegen ein einziges Mal gestorben, er, der Gerechte, für die Ungerechten, um euch zu Gott hinzuführen; dem Fleisch nach wurde er getötet, dem Geist nach lebendig gemacht. Er ist in den Himmel gegangen; dort ist er zur Rechten Gottes, und Engel, Gewalten und Mächte sind ihm unterworfen.^RESP",
           "bitten_e": "Lasst uns beten zu Christus, dem Erstling der Entschlafenen:",
           "bitten_r": "Sohn des lebendigen Gottes, erbarme dich.",
           "bitten": "Du Licht, das nicht vergeht, wenn der Tag sich neigt;^qnimm das Abendlob deiner Kirche an.^pDu hast auf dem Fundament der Apostel deine Kirche erbaut;^qbreite sie aus bis an die Grenzen der Erde.^pDu bist der Arzt für Seele und Leib;^qrichte die Kranken auf und stärke die Trauernden.^pDu bist der Freund der Armen und Bedrängten;^qhilf denen, die von der Mühsal des Lebens erschöpft sind.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten."
@@ -11044,7 +11044,7 @@ export const brevierData = {
         "Laudes": {
           "les_buch": "Apg",
           "les_stelle": "5,30–32",
-          "les_text": "Der Gott unserer Väter hat Jesus auferweckt, den ihr ans Holz gehängt und ermordet habt. Ihn hat Gott als Herrscher und Retter an seine rechte Seite erhoben, um Israel die Umkehr und Vergebung der Sünden zu schenken. Zeugen dieser Ereignisse sind wir und der Heilige Geist, den Gott allen verliehen hat, die ihm gehorchen.^R",
+          "les_text": "Der Gott unserer Väter hat Jesus auferweckt, den ihr ans Holz gehängt und ermordet habt. Ihn hat Gott als Herrscher und Retter an seine rechte Seite erhoben, um Israel die Umkehr und Vergebung der Sünden zu schenken. Zeugen dieser Ereignisse sind wir und der Heilige Geist, den Gott allen verliehen hat, die ihm gehorchen.^RESP",
           "bitten_e": "Gepriesen sei Christus, der Auferstandene, der seinen Jüngern am Ufer des Sees erschienen ist. Zu ihm lasst uns beten:",
           "bitten_r": "Christus, unser Leben, rette uns.",
           "bitten": "In der Morgenfrühe hast du deine Jünger am Ufer erwartet;^qlass uns in der Frühe dieses Tages voll Vertrauen zu dir kommen.^pDie Jünger haben dich erkannt als ihren auferstandenen Herrn;^qlass auch uns dich erkennen.^pDu hast deinen Jüngern ein Mahl bereitet und gesagt: „Kommt und esst“;^qlass dein Ostermahl die Quelle unserer Freude sein.^pDu hast Petrus gefragt: „Liebst du mich?“;^qgib, dass wir dich lieben."
@@ -11071,7 +11071,7 @@ export const brevierData = {
         "Vesper": {
           "les_buch": "Hebr",
           "les_stelle": "5,8–10",
-          "les_text": "Obwohl Christus der Sohn war, hat er durch Leiden den Gehorsam gelernt; zur Vollendung gelangt, ist er für alle, die ihm gehorchen, der Urheber des ewigen Heils geworden und wurde von Gott angeredet als „Hoherpriester nach der Ordnung Melchisedeks“.^R",
+          "les_text": "Obwohl Christus der Sohn war, hat er durch Leiden den Gehorsam gelernt; zur Vollendung gelangt, ist er für alle, die ihm gehorchen, der Urheber des ewigen Heils geworden und wurde von Gott angeredet als „Hoherpriester nach der Ordnung Melchisedeks“.^RESP",
           "bitten_e": "Lasst uns zu Christus beten, dem gekreuzigten und auferstandenen Herrn:",
           "bitten_r": "Du König der Herrlichkeit, höre uns.",
           "bitten": "Du Licht, das nicht vergeht, wenn der Tag sich neigt;^qnimm das Abendlob deiner Kirche an.^pWir bitten dich für das ganze christliche Volk:^qHilf ihm, die Einheit des Geistes zu wahren.^pFür die Priester und Diakone:^qMache sie zu freudigen Boten deiner Auferstehung.^pFür die Regierenden:^qGib, dass sie ihr Amt weise und gerecht ausüben.^pFür unsere Verstorbenen:^qLass ihnen das Licht deiner Herrlichkeit leuchten."
@@ -11081,7 +11081,7 @@ export const brevierData = {
         "Laudes": {
           "les_buch": "Röm",
           "les_stelle": "14,7–9",
-          "les_text": "Keiner von uns lebt sich selber, und keiner stirbt sich selber: Leben wir, so leben wir dem Herrn, sterben wir, so sterben wir dem Herrn. Ob wir leben oder ob wir sterben, wir gehören dem Herrn. Denn Christus ist gestorben und lebendig geworden, um Herr zu sein über Tote und Lebende.^R",
+          "les_text": "Keiner von uns lebt sich selber, und keiner stirbt sich selber: Leben wir, so leben wir dem Herrn, sterben wir, so sterben wir dem Herrn. Ob wir leben oder ob wir sterben, wir gehören dem Herrn. Denn Christus ist gestorben und lebendig geworden, um Herr zu sein über Tote und Lebende.^RESP",
           "bitten_e": "Gepriesen sei Jesus Christus, der Fürst des Lebens, zu ihm lasst uns beten:",
           "bitten_r": "Schenke uns Frieden und Freude.",
           "bitten": "Sohn Gottes, auferstanden von den Toten,^qrette und heilige uns.^pLass uns aufatmen, weil du gesiegt hast;^qlass uns leben als Kinder des Lichtes.^pStärke unseren Glauben,^qdamit wir dich vor den Menschen bezeugen können.^pDurch Leiden bist du in die Herrlichkeit eingegangen;^qsei unser Trost im Leiden."
@@ -14864,7 +14864,7 @@ export const brevierData = {
           "ant_3": "Die Heiligen haben gesiegt durch das Blut des Lammes und durch ihr Wort und ihr Zeugnis.",
           "les_buch": "Hebr",
           "les_stelle": "13,12–15",
-          "les_text": "Jesus hat, um durch sein eigenes Blut das Volk zu heiligen, außerhalb des Tores gelitten. Lasst uns also zu ihm vor das Lager hinausziehen und seine Schmach auf uns nehmen. Denn wir haben hier keine Stadt, die bestehen bleibt, sondern wir suchen die künftige. Durch ihn also lasst uns Gott allezeit das Opfer des Lobes darbringen, nämlich die Frucht der Lippen, die seinen Namen preisen.^R",
+          "les_text": "Jesus hat, um durch sein eigenes Blut das Volk zu heiligen, außerhalb des Tores gelitten. Lasst uns also zu ihm vor das Lager hinausziehen und seine Schmach auf uns nehmen. Denn wir haben hier keine Stadt, die bestehen bleibt, sondern wir suchen die künftige. Durch ihn also lasst uns Gott allezeit das Opfer des Lobes darbringen, nämlich die Frucht der Lippen, die seinen Namen preisen.^RESP",
           "resp1_1": "",
           "resp1_2": "",
           "resp1_3": "",
@@ -14897,7 +14897,7 @@ export const brevierData = {
           "ant_3": "Dein Kreuz, o Herr, verehren wir, und deine heilige Auferstehung preisen und rühmen wir; denn siehe, durch das Holz des Kreuzes kam Freude in alle Welt.",
           "les_buch": "Jes",
           "les_stelle": "52,13–15",
-          "les_text": "Seht, mein Knecht hat Erfolg, er wird groß sein und hoch erhaben. Viele haben sich über ihn entsetzt, so entstellt sah er aus, nicht mehr wie ein Mensch, seine Gestalt war nicht mehr die eines Menschen. Jetzt aber setzt er viele Völker in Staunen, Könige müssen vor ihm verstummen. Denn was man ihnen noch nie erzählt hat, das sehen sie nun; was sie niemals hörten, das erfahren sie jetzt.^R",
+          "les_text": "Seht, mein Knecht hat Erfolg, er wird groß sein und hoch erhaben. Viele haben sich über ihn entsetzt, so entstellt sah er aus, nicht mehr wie ein Mensch, seine Gestalt war nicht mehr die eines Menschen. Jetzt aber setzt er viele Völker in Staunen, Könige müssen vor ihm verstummen. Denn was man ihnen noch nie erzählt hat, das sehen sie nun; was sie niemals hörten, das erfahren sie jetzt.^RESP",
           "resp1_1": "",
           "resp1_2": "",
           "resp1_3": "",
@@ -14971,7 +14971,7 @@ export const brevierData = {
           "ant_3": "Jesus nahm von dem Essig. Dann sprach er: Es ist vollbracht. Und er neigte sein Haupt und starb.",
           "les_buch": "1°Petr",
           "les_stelle": "2,21b.24",
-          "les_text": "Christus hat für euch gelitten und euch ein Beispiel gegeben, damit ihr seinen Spuren folgt. Er hat keine Sünde begangen, und kein trügerisches Wort war in seinem Mund. Er wurde geschmäht, schmähte aber nicht; er litt, drohte aber nicht, sondern überließ seine Sache dem gerechten Richter. Er hat unsere Sünden mit seinem Leib auf das Holz des Kreuzes hinaufgetragen, damit wir tot seien für die Sünden und für die Gerechtigkeit leben. Durch seine Wunden seid ihr geheilt.^R",
+          "les_text": "Christus hat für euch gelitten und euch ein Beispiel gegeben, damit ihr seinen Spuren folgt. Er hat keine Sünde begangen, und kein trügerisches Wort war in seinem Mund. Er wurde geschmäht, schmähte aber nicht; er litt, drohte aber nicht, sondern überließ seine Sache dem gerechten Richter. Er hat unsere Sünden mit seinem Leib auf das Holz des Kreuzes hinaufgetragen, damit wir tot seien für die Sünden und für die Gerechtigkeit leben. Durch seine Wunden seid ihr geheilt.^RESP",
           "resp1_1": "",
           "resp1_2": "",
           "resp1_3": "",
@@ -15000,7 +15000,7 @@ export const brevierData = {
           "ant_3": "Ich war tot, doch ich lebe in Ewigkeit. Ich habe die Schlüssel des Todes und der Unterwelt.",
           "les_buch": "Hos",
           "les_stelle": "6,1–2",
-          "les_text": "Kommt, wir kehren zum Herrn zurück! Denn er hat (Wunden) gerissen, er wird uns auch heilen; er hat verwundet, er wird auch verbinden. Nach zwei Tagen gibt er uns das Leben zurück, am dritten Tag richtet er uns wieder auf, und wir leben vor seinem Angesicht.^R",
+          "les_text": "Kommt, wir kehren zum Herrn zurück! Denn er hat (Wunden) gerissen, er wird uns auch heilen; er hat verwundet, er wird auch verbinden. Nach zwei Tagen gibt er uns das Leben zurück, am dritten Tag richtet er uns wieder auf, und wir leben vor seinem Angesicht.^RESP",
           "resp1_1": "",
           "resp1_2": "",
           "resp1_3": "",
@@ -15056,7 +15056,7 @@ export const brevierData = {
           "ant_3": "Jesus sprach: Reißt diesen Tempel nieder – in drei Tagen richte ich ihn wieder auf. Er meinte den Tempel seines Leibes.",
           "les_buch": "1°Petr",
           "les_stelle": "1,18–21",
-          "les_text": "Ihr wisst, dass ihr aus eurer sinnlosen, von den Vätern ererbten Lebensweise nicht um einen vergänglichen Preis losgekauft wurdet, nicht um Silber oder Gold, sondern mit dem kostbaren Blut Christi, des Lammes ohne Fehl und Makel. Er war schon vor der Erschaffung der Welt dazu ausersehen, und euretwegen ist er am Ende der Zeiten erschienen. Durch ihn seid ihr zum Glauben an Gott gekommen, der ihn von den Toten auferweckt und ihm die Herrlichkeit gegeben hat, so dass ihr an Gott glauben und auf ihn hoffen könnt.^R",
+          "les_text": "Ihr wisst, dass ihr aus eurer sinnlosen, von den Vätern ererbten Lebensweise nicht um einen vergänglichen Preis losgekauft wurdet, nicht um Silber oder Gold, sondern mit dem kostbaren Blut Christi, des Lammes ohne Fehl und Makel. Er war schon vor der Erschaffung der Welt dazu ausersehen, und euretwegen ist er am Ende der Zeiten erschienen. Durch ihn seid ihr zum Glauben an Gott gekommen, der ihn von den Toten auferweckt und ihm die Herrlichkeit gegeben hat, so dass ihr an Gott glauben und auf ihn hoffen könnt.^RESP",
           "resp1_1": "",
           "resp1_2": "",
           "resp1_3": "",
