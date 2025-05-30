@@ -1708,7 +1708,7 @@ const PrayerTextDisplay = ({
           </div>
         )}
 
-        <div className="mt-3 text-rubric text-verse">
+        <div className="mt-3 long-rubric">
           {ordinariumTexts.closing[2]}
         </div>
 

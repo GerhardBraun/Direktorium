@@ -162,8 +162,8 @@ export const formatPrayerText = (provText, marker = '',
     text = text
         .replace(/_lat/g, '')
         .replace(/_neu/g, '')
-        .replace(/\^R/g, easterAntiphon)
-        .replace(/\^LR/g, latinEasterAntiphon)
+        .replace(/\^RESP/g, easterAntiphon)
+        .replace(/\^LRESP/g, latinEasterAntiphon)
         .replace(/°/g, '\u00A0')
         .replace(/\^\*/g, '\u00A0*\n')
         .replace(/\^\+/g, '\u00A0†\n')
@@ -247,7 +247,7 @@ export const formatPrayerText = (provText, marker = '',
     const processInlineFormats = (text) => {
         text = text
             .replace(/\^l/g, '\n')
-        const segments = text.split(/(\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^c.*?\^0c|\^\(|\^\)|\^N|§FN\d+§)/g).filter(Boolean);
+        const segments = text.split(/(\^RUBR.*?\^0RUBR|\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^c.*?\^0c|\^\(|\^\)|\^N|§FN\d+§)/g).filter(Boolean);
 
         return segments.map((segment, index) => {
             if (segment.startsWith('^r')) {
@@ -265,6 +265,9 @@ export const formatPrayerText = (provText, marker = '',
             } else if (segment.startsWith('^c')) {
                 const content = segment.substring(2, segment.length - 3);
                 return <span key={`smallcaps-${index}`} style={{ fontVariant: 'small-caps' }}>{content}</span>;
+            } else if (segment.startsWith('^RUBR')) {
+                const content = segment.substring(5, segment.length - 6);
+                return <span key={`long-rubric-${index}`} className="long-rubric">{content}</span>;
             } else if (segment === '^(') {
                 return <span key={`open-${index}`} className="text-rubric">(</span>;
             } else if (segment === '^)') {
@@ -281,7 +284,7 @@ export const formatPrayerText = (provText, marker = '',
                 } else {
                     return (
                         <Fragment key={`footnote-${index}`}>
-                            <span className=" text-fussnote">{formatBibleRef(content, true)}</span>
+                            <span className="inline-block">{formatBibleRef(content, true)}</span>
                         </Fragment>
                     );
                 }
@@ -289,7 +292,6 @@ export const formatPrayerText = (provText, marker = '',
             return segment;
         });
     };
-
     // Prüfen, ob der Text Absatz-Tags enthält
     const hasParagraphTags = /\^[phql]/.test(text);
 
@@ -313,8 +315,9 @@ export const formatPrayerText = (provText, marker = '',
     // Text in Absätze aufteilen
     let segments = processedText.split(/(?=\^[phq])/);
 
-    // Wenn der Text nicht mit einem Format-Tag beginnt, als Standard-Absatz behandeln
-    if (!segments[0].startsWith('^')) {
+    // KORREKTUR: Prüfen ob der Text mit einem ERKANNTEN Format-Tag beginnt
+    if (!segments[0].match(/^\^[phq]/)) {
+        // Wenn NICHT mit ^p, ^h oder ^q beginnt, als Standard-Absatz behandeln
         segments = [segments[0], ...segments.slice(1)];
     }
 
@@ -323,10 +326,11 @@ export const formatPrayerText = (provText, marker = '',
             {segments
                 .filter(segment => segment.trim().length > 0)
                 .map((segment, index) => {
-                    let format = 'p';
+                    let format = 'p';  // Standard-Format
                     let content = segment;
 
-                    if (segment.startsWith('^')) {
+                    // KORREKTUR: Nur bei erkannten Format-Tags verarbeiten
+                    if (segment.match(/^\^[phq]/)) {
                         format = segment[1];
                         content = segment.slice(2);
                     }

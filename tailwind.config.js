@@ -78,6 +78,9 @@ module.exports = {
           '@apply font-bold text-rubric': {},
           'margin-top': '1em'  // relative Einheit beibehalten
         },
+        '.long-rubric': {
+          '@apply text-verse text-rubric': {}
+        },
         '.text-fussnote': {
           fontSize: '0.9em',
           '@apply text-gray-400': {}
