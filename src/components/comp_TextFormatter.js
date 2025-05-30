@@ -246,7 +246,7 @@ export const formatPrayerText = (provText, marker = '',
     const processInlineFormats = (text) => {
         text = text
             .replace(/\^l/g, '\n')
-        const segments = text.split(/(\^RUBR.*?\^0RUBR|\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^c.*?\^0c|\^\(|\^\)|\^N|§FN\d+§)/g).filter(Boolean);
+        const segments = text.split(/(\^RUBR.*?\^0RUBR|\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^c.*?\^0c|\^\(|\^\)|\^\[|\^\]|\^N|§FN\d+§)/g).filter(Boolean);
 
         return segments.map((segment, index) => {
             if (segment.startsWith('^r')) {
@@ -271,6 +271,10 @@ export const formatPrayerText = (provText, marker = '',
                 return <span key={`open-${index}`} className="text-rubric">(</span>;
             } else if (segment === '^)') {
                 return <span key={`close-${index}`} className="text-rubric">)</span>;
+            } else if (segment === '^[') {
+                return <span key={`open-${index}`} className="text-rubric">[</span>;
+            } else if (segment === '^]') {
+                return <span key={`close-${index}`} className="text-rubric">]</span>;
             } else if (segment === '^N') {
                 return <span key={`name-${index}`} className="text-rubric">N.</span>;
             } else if (segment.match(/^§FN\d+§$/)) {
