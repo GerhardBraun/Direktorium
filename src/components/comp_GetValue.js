@@ -11,7 +11,7 @@ export const getValue = ({ hour, texts, field,
             const languageField = `${field}${localPrefLanguage}`;
             const languageResult = getFieldValue(languageField);
             if (languageResult) {
-                return languageResult;
+                return `${languageResult}${localPrefLanguage}`;
             }
         }
         return getFieldValue(field);

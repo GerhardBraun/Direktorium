@@ -2784,6 +2784,9 @@ export default function LiturgicalCalendar() {
                 Sprache/Übersetzung <span className="text-xs text-gray-400 ml-2">(←/→)</span>
               </div>
               <div className="mb-2 text-xs text-gray-500 dark:text-gray-400">
+                <div className="mb-1 italic">
+                  Der Bestand der Texte für die alternativen Sprachen wird nach und nach aufgebaut. Wo diese noch fehlen, werden die Texte aus dem Stundenbuch angezeigt.
+                </div>
                 {renderDescriptionItem("Stundenbuch:", "Einheitsübersetzung von 1983")}
                 {renderDescriptionItem("lat.:", "Nova Vulgata", 4)}
                 {renderDescriptionItem("neu:", "Einheitsübersetzung von 2016", 3)}              </div>
