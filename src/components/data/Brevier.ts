@@ -11285,6 +11285,15 @@ export const brevierData = {
     },
     "last": {
       "each": {
+        "ErsteV": {
+          "hymn_1": 3444.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
+          "resp1_1": "Der Beistand, den der Vater senden wird, er wird euch alles lehren.",
+          "resp1_2": "Halleluja,°halleluja.",
+          "resp1_3": "An alles, was ich euch sagte, wird er euch erinnern."
+        },
         "Invitatorium": {
           "ant_0": "Christus, den Herrn, der uns den Heiligen Geist verheißen hat – kommt, wir beten ihn an!^Ö",
           "ant_0_lat": "Christum Dóminum, qui Sanctum nobis promísit Spíritum, veníte, adorémus!^LÖ"
