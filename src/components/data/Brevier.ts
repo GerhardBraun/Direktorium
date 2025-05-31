@@ -11292,7 +11292,10 @@ export const brevierData = {
           "hymn_kl": 0.0,
           "resp1_1": "Der Beistand, den der Vater senden wird, er wird euch alles lehren.",
           "resp1_2": "Halleluja,°halleluja.",
-          "resp1_3": "An alles, was ich euch sagte, wird er euch erinnern."
+          "resp1_3": "An alles, was ich euch sagte, wird er euch erinnern.",
+          "resp1_1_lat": "Spíritus Paráclitus,",
+          "resp1_2_lat": "allelúia,°allelúia.",
+          "resp1_3_lat": "Docébit vos ómnia."
         },
         "Invitatorium": {
           "ant_0": "Christus, den Herrn, der uns den Heiligen Geist verheißen hat – kommt, wir beten ihn an!^Ö",
