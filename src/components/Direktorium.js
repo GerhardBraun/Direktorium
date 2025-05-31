@@ -1095,7 +1095,7 @@ const PrayerMenu = ({
         title={''}
         onPrevDay={onPrevDay}
         onNextDay={onNextDay}
-        liturgicalInfo={liturgicalInfo}
+        writtenSWD={liturgicalInfo?.writtenSWD}
       />
       {/* Source Selector */}
       <SourceSelector
@@ -1386,8 +1386,8 @@ const PrayerTextDisplay = ({
   const { advResp, advVers } =
     (texts.combinedSWD === 'a-1-0'
       && hour === 'lesehore'
-      && !getValue('patr_resp1'))
-      ? ordinarium('advent') : { advResp: '', advVers: '' };
+      && (!getValue('patr_resp1') || localPrefLatin))
+      ? ordinarium('advent', hour, localPrefLatin) : { advResp: '', advVers: '' };
 
   return (
     <div className="leading-[1.33em] pb-8">
@@ -1395,7 +1395,7 @@ const PrayerTextDisplay = ({
         title={''}
         onPrevDay={onPrevDay}
         onNextDay={onNextDay}
-        liturgicalInfo={liturgicalInfo}
+        writtenSWD={liturgicalInfo?.writtenSWD}
       />
       <NavigationButtons
         hour={hour}
@@ -1673,11 +1673,11 @@ const PrayerTextDisplay = ({
               />
             ))}
             {/* Letzter Vers ohne Response */}
-            <div className="flex gap-0">
+            {advVers[3] && (<div className="flex gap-0">
               <Rubric>V&nbsp;&nbsp;</Rubric>
               <div>{formatPrayerText(advVers[3])}</div>
             </div>
-            {/* Wiederholung der vier resp-Elemente */}
+            )}            {/* Wiederholung der vier resp-Elemente */}
             <div className="mb-0 flex gap-0">
               <Rubric>R&nbsp;&nbsp;</Rubric>
               <div>
@@ -2331,7 +2331,7 @@ export default function LiturgicalCalendar() {
   }, [allEntries, visibleRange, selectedDate]);
 
   const parseDateString = (dateStr) => {
-    const match = dateStr.match(/^(\d{1,2})[.-](\d{1,2})[.-](\d{2}|\d{4})$/);
+    const match = dateStr.match(/^(\d{1,2})[.-/](\d{1,2})[.-/](\d{2}|\d{4})$/);
     if (!match) return null;
 
     let [, day, month, year] = match;

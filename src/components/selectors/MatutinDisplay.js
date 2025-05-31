@@ -5,12 +5,11 @@ import formatBibleRef from '../comp_BibleRefFormatter.js';
 
 const MatutinDisplay = ({
     texts,
-    liturgicalInfo,
-    title = '',
     onBack,
     onSelectHour,
     onPrevDay,
     onNextDay,
+    localPrefLanguage = '',
     localPrefLatin = false,
     TitleBar,
     NavigationButtons,
@@ -18,7 +17,7 @@ const MatutinDisplay = ({
     // Hole die Matutin-Daten
     const { matEinführung, matBuch, matStelle, matText,
         matPsalm, matAnt, matOration }
-        = ordinarium('matutin');
+        = ordinarium('matutin', 'lesehore', localPrefLatin, true);
     const { closing, vu: TeDeum } = ordinarium(texts, 'lesehore', localPrefLatin, true);
     const ordinalZahlen = ['ERSTE', 'ZWEITE', 'DRITTE', 'VIERTE']
 
@@ -27,7 +26,7 @@ const MatutinDisplay = ({
             <TitleBar
                 onPrevDay={onPrevDay}
                 onNextDay={onNextDay}
-                liturgicalInfo={liturgicalInfo}
+                writtenSWD={'Ostersonntag'}
             />
             <NavigationButtons
                 hour="lesehore"
@@ -72,7 +71,7 @@ const MatutinDisplay = ({
                                             {formatPrayerText(matAnt[index], 'Ant.°°')}
                                         </div>
                                     )}
-                                    {formatPsalm(matPsalm[index], false)}
+                                    {formatPsalm(matPsalm[index], false, localPrefLanguage)}
                                     {matAnt[index] && (
                                         <div className="mb-0">
                                             {formatPrayerText(matAnt[index], 'Ant.°°')}
