@@ -56,6 +56,7 @@ const ordinariumData = {
             "Ehre sei dem Vater und dem Sohn und°dem°Heiligen°Geist."]
     },
     'matutin': {
+        'matEinführung': "Die Feier der Osternacht tritt an die Stelle der Lesehore. Wer an dieser Feier nicht teilnimmt, soll daraus wenigstens vier Lesungen nehmen mit den zugehörigen Gesängen und Orationen. Es empfiehlt sich, die hier angebotenen Texte zu nehmen.^lDie Hore beginnt ohne Eröffnung unmittelbar mit den Lesungen.",
         'matBuch': [
             "Aus dem Buch Exodus.",
             "Aus dem Buch Ezechiel.",
@@ -75,17 +76,18 @@ const ordinariumData = {
             "^hDie Botschaft des Engels am leeren Grab^pNach dem Sabbat kamen in der Morgendämmerung des ersten Tages der Woche Maria aus Mágdala und die andere Maria, um nach dem Grab zu sehen. Plötzlich entstand ein gewaltiges Erdbeben; denn ein Engel des Herrn kam vom Himmel herab, trat an das Grab, wälzte den Stein weg und setzte sich darauf. Seine Gestalt leuchtete wie ein Blitz und sein Gewand war weiß wie Schnee. Die Wächter begannen vor Angst zu zittern und fielen wie tot zu Boden. Der Engel aber sagte zu den Frauen: Fürchtet euch nicht! Ich weiß, ihr sucht Jesus, den Gekreuzigten. Er ist nicht hier; denn er ist auferstanden, wie er gesagt hat. Kommt her und seht euch die Stelle an, wo er lag. Dann geht schnell zu seinen Jüngern und sagt ihnen: Er ist von den Toten auferstanden. Er geht euch voraus nach Galiläa, dort werdet ihr ihn sehen. Ich habe es euch gesagt. Sogleich verließen sie das Grab und eilten voll Furcht und großer Freude zu seinen Jüngern, um ihnen die Botschaft zu verkünden.^hDie Erscheinung Jesu vor den Frauen^pPlötzlich kam ihnen Jesus entgegen und sagte: Seid gegrüßt! Sie gingen auf ihn zu, warfen sich vor ihm nieder und umfassten seine Füße. Da sagte Jesus zu ihnen: Fürchtet euch nicht! Geht und sagt meinen Brüdern, sie sollen nach Galiläa gehen und dort werden sie mich sehen.",
         ],
         'matAnt': [
-            "Ich singe dem Herrn ein Lied, denn er ist hoch und erhaben.^l^rOder:^0r^l^rAnt.^0r°°Dem Herrn will ich singen, machtvoll hat er sich kundgetan.",
-            "Wie der Hirsch lechzt nach frischem Wasser,^*so lechzt meine Seele, Gott, nach dir.",
+            "Ich singe dem Herrn ein Lied, denn er ist hoch und erhaben.^l^RUBROder:^0RUBR^l^rAnt.^0r°°Dem Herrn will ich singen, machtvoll hat er sich kundgetan.",
+            "Wie der Hirsch lechzt nach frischem Wasser, so lechzt meine Seele, Gott, nach dir.",
             "Halleluja, halleluja, halleluja.",
             "",
         ],
-        'matPsalm': [166.9, 42.9, 118, 0],
+        'matPsalm': [166.9, 42.9, 118.9, 0],
         'matOration': [
             "Herr, unser Gott, du hast uns durch das Licht des Neuen Bundes den Sinn der Wunder erschlossen, die du im Alten Bund gewirkt hast: Das Rote Meer ist ein Bild für das Wasser der Taufe; das befreite Volk Israel deutet hin auf das heilige Volk des Neuen Bundes. Gib, dass alle Menschen durch den Glauben an der Würde Israels teilhaben und im Heiligen Geist die Gnade der Wiedergeburt empfangen. Darum bitten wir durch Christus, unseren Herrn.",
             "Gott, du unwandelbare Kraft, du ewiges Licht, schau gütig auf deine Kirche und wirke durch sie das Heil der Menschen. So erfahre die Welt, was du von Ewigkeit her bestimmt hast: Was alt ist, wird neu, was dunkel ist, wird licht, was tot war, steht auf zum Leben, und alles wird wieder heil in dem, der der Ursprung von allem ist, in unserem Herrn Jesus Christus,^ORR",
             "",
             "",
+            "Allmächtiger, ewiger Gott, am heutigen Tag hast du durch deinen Sohn den Tod besiegt und uns den Zugang zum ewigen Leben erschlossen. Darum begehen wir in Freude das Fest seiner Auferstehung. Schaffe uns neu durch deinen Geist, damit auch wir auferstehen und im Licht des Lebens wandeln. Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
         ],
     },
 }
@@ -170,8 +172,8 @@ export const ordinarium = (texts, hour = '', localPrefLatin = '', prefSollemnity
     let ordinariumTexts = ordinariumData?.[hour]?.[languageToRead] || {};
 
     if (hour === 'lesehore' &&
-        ((texts.rank_wt > 2 && texts.season !== 'p')
-            || texts.rank_date > 2
+        ((texts?.rank_wt > 2 && texts?.season !== 'p')
+            || texts?.rank_date > 2
             || prefSollemnity)) {
         ordinariumTexts = ordinariumData?.TeDeum?.[languageToRead] || {};
     }

@@ -19,6 +19,7 @@ import { SectionHeader as extSectionHeader } from "./selectors/SectionHeader.js"
 import KompletSelector from "./selectors/KompletSelector.js";
 import HymnSelector from "./selectors/HymnSelector.js";
 import MarAntSelector from "./selectors/MarAntSelector.js";
+import { MatutinDisplay } from "./selectors/MatutinDisplay.js";
 import { getValue as extGetValue } from "./comp_GetValue.js";
 import { getKompletValue } from "./comp_GetKompletValue.js";
 import {
@@ -3133,45 +3134,89 @@ export default function LiturgicalCalendar() {
             />
           )}
 
-          {viewMode === "prayerText" && (
-            <PrayerTextDisplay
-              hour={selectedHour}
-              texts={prayerTexts}
-              selectedDate={selectedDate}
-              liturgicalInfo={liturgicalInfo}
-              title={formatDate(selectedDate)}
-              viewMode={viewMode}
-              season={currentSeason}
-              prefSrc={prefSrc}
-              setPrefSrc={setPrefSrc}
-              prefSollemnity={prefSollemnity}
-              setPrefSollemnity={setPrefSollemnity}
-              useCommemoration={useCommemoration}
-              setUseCommemoration={setUseCommemoration}
-              localPrefLanguage={localPrefLanguage}
-              localPrefLatin={localPrefLatin}
-              setLocalPrefLatin={setLocalPrefLatin}
-              setLocalPrefLanguage={setLocalPrefLanguage}
-              isNarrowForHymns={isNarrowForHymns}
-              onBack={() => setViewMode("prayer")}
-              onSelectHour={(hour) => {
-                setSelectedHour(hour);
-                setPrayerTexts(prayerTexts);
-              }}
-              onPrevDay={() => {
-                setDateChangeSource("navigation");
-                setSelectedDate(
-                  new Date(selectedDate.setDate(selectedDate.getDate() - 1))
-                );
-              }}
-              onNextDay={() => {
-                setDateChangeSource("navigation");
-                setSelectedDate(
-                  new Date(selectedDate.setDate(selectedDate.getDate() + 1))
-                );
-              }}
-            />
-          )}
+          {viewMode === "prayerText" &&
+            prayerTexts.combinedSWD === 'o-1-0' && selectedHour === 'lesehore' && (
+              <MatutinDisplay
+                TitleBar={TitleBar}
+                NavigationButtons={NavigationButtons}
+                hour={selectedHour}
+                texts={prayerTexts}
+                selectedDate={selectedDate}
+                liturgicalInfo={liturgicalInfo}
+                title={formatDate(selectedDate)}
+                viewMode={viewMode}
+                season={currentSeason}
+                prefSrc={prefSrc}
+                setPrefSrc={setPrefSrc}
+                prefSollemnity={prefSollemnity}
+                setPrefSollemnity={setPrefSollemnity}
+                useCommemoration={useCommemoration}
+                setUseCommemoration={setUseCommemoration}
+                localPrefLanguage={localPrefLanguage}
+                localPrefLatin={localPrefLatin}
+                setLocalPrefLatin={setLocalPrefLatin}
+                setLocalPrefLanguage={setLocalPrefLanguage}
+                isNarrowForHymns={isNarrowForHymns}
+                onBack={() => setViewMode("prayer")}
+                onSelectHour={(hour) => {
+                  setSelectedHour(hour);
+                  setPrayerTexts(prayerTexts);
+                }}
+                onPrevDay={() => {
+                  setDateChangeSource("navigation");
+                  setSelectedDate(
+                    new Date(selectedDate.setDate(selectedDate.getDate() - 1))
+                  );
+                }}
+                onNextDay={() => {
+                  setDateChangeSource("navigation");
+                  setSelectedDate(
+                    new Date(selectedDate.setDate(selectedDate.getDate() + 1))
+                  );
+                }}
+              />
+            )}
+
+          {viewMode === "prayerText" &&
+            !(prayerTexts.combinedSWD === 'o-1-0' && selectedHour === 'lesehore') && (
+              <PrayerTextDisplay
+                hour={selectedHour}
+                texts={prayerTexts}
+                selectedDate={selectedDate}
+                liturgicalInfo={liturgicalInfo}
+                title={formatDate(selectedDate)}
+                viewMode={viewMode}
+                season={currentSeason}
+                prefSrc={prefSrc}
+                setPrefSrc={setPrefSrc}
+                prefSollemnity={prefSollemnity}
+                setPrefSollemnity={setPrefSollemnity}
+                useCommemoration={useCommemoration}
+                setUseCommemoration={setUseCommemoration}
+                localPrefLanguage={localPrefLanguage}
+                localPrefLatin={localPrefLatin}
+                setLocalPrefLatin={setLocalPrefLatin}
+                setLocalPrefLanguage={setLocalPrefLanguage}
+                isNarrowForHymns={isNarrowForHymns}
+                onBack={() => setViewMode("prayer")}
+                onSelectHour={(hour) => {
+                  setSelectedHour(hour);
+                  setPrayerTexts(prayerTexts);
+                }}
+                onPrevDay={() => {
+                  setDateChangeSource("navigation");
+                  setSelectedDate(
+                    new Date(selectedDate.setDate(selectedDate.getDate() - 1))
+                  );
+                }}
+                onNextDay={() => {
+                  setDateChangeSource("navigation");
+                  setSelectedDate(
+                    new Date(selectedDate.setDate(selectedDate.getDate() + 1))
+                  );
+                }}
+              />
+            )}
 
           {/* Original ScrollableContainer for directory/deceased views */}
           {(viewMode === "directory" || viewMode === "deceased") && (
