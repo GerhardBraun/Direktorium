@@ -5,7 +5,7 @@ import {
     DialogHeader,
     DialogTitle,
     DialogTrigger,
-} from './ui/dialog';
+} from './dialog';
 
 // Singleton für den Dialog-Zustand
 const dialogState = {
@@ -124,9 +124,9 @@ const referenceMap = {
 const createReferenceHTML = (reference, includeParentheses = false) => {
     if (reference.includes('S.\u00A087')) {
         const linkText = includeParentheses ? '(mehr...)' : 'mehr...';
-        return `<a href="https://www.direktorium.bistum-fulda.de" 
-                   target="_blank" 
-                   rel="noopener noreferrer" 
+        return `<a href="https://www.direktorium.bistum-fulda.de"
+                   target="_blank"
+                   rel="noopener noreferrer"
                    class="text-blue-600 dark:text-blue-400 hover:underline">
                    ${linkText}
                 </a>`;
@@ -139,7 +139,7 @@ const createReferenceHTML = (reference, includeParentheses = false) => {
     if (!referenceMap[chapter]) return reference;
 
     const buttonText = includeParentheses ? '(mehr...)' : 'mehr...';
-    return `<button 
+    return `<button
               class="text-blue-600 dark:text-blue-400 hover:underline cursor-pointer"
               data-reference="${chapter}"
               style="display: inline-flex; vertical-align: baseline; white-space: nowrap;"

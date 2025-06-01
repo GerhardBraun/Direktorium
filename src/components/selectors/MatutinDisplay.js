@@ -1,7 +1,7 @@
 import React from 'react';
 import { ordinarium } from '../utils/ordinarium.js';
-import { formatPsalm, formatPrayerText } from '../comp_TextFormatter.js';
-import formatBibleRef from '../comp_BibleRefFormatter.js';
+import { formatPsalm, formatPrayerText } from '../dataHandlers/TextFormatter.js';
+import formatBibleRef from '../dataHandlers/BibleRefFormatter.js';
 
 const MatutinDisplay = ({
     texts,

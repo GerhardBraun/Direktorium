@@ -1,9 +1,9 @@
-import { brevierData } from './data/Brevier.ts';
-import { lecture1Data } from './data/Lecture1.ts';
-import { lecture2Data } from './data/Lecture2.ts';
-import { psalmsData } from './data/PsHymn.ts';
-import { adlibData } from './data/AdLib.ts';
-import { getLiturgicalInfo } from './comp_LitCalendar.js';
+import { brevierData } from '../data/Brevier.ts';
+import { lecture1Data } from '../data/Lecture1.ts';
+import { lecture2Data } from '../data/Lecture2.ts';
+import { psalmsData } from '../data/PsHymn.ts';
+import { adlibData } from '../data/AdLib.ts';
+import { getLiturgicalInfo } from './LitCalendar.js';
 
 const personalData = (() => {
     try {

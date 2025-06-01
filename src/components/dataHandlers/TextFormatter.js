@@ -1,7 +1,7 @@
-import formatBibleRef from './comp_BibleRefFormatter.js';
 import React, { Fragment } from 'react';
-import { getLocalStorage } from './utils/localStorage.js';
-import { psalmsData } from './data/PsHymn.ts';
+import { getLocalStorage } from '../utils/localStorage.js';
+import formatBibleRef from './BibleRefFormatter.js';
+import { psalmsData } from '../data/PsHymn.ts';
 
 const resolveReference = (ref) => {
     if (!ref) return null;

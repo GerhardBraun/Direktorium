@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { getLocalStorage, setLocalStorage } from './utils/localStorage.js';
+import { getLocalStorage, setLocalStorage } from './localStorage.js';
 
 const PersonalSettings = () => {
     const [personalData, setPersonalData] = useState(null);

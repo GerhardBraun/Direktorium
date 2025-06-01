@@ -1,18 +1,15 @@
 import React from "react";
 import { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import { Menu, MonitorCheck } from "lucide-react";
-import useWakeLock from "./comp_WakeLock.js";
+import useWakeLock from "./utils/WakeLock.js";
 import { liturgicalData } from "./data/Direktorium.ts";
 import { deceasedData } from "./data/Deceased.ts";
-import { ReferenceDialog, parseTextWithReferences } from "./comp_RefLink.jsx";
-import { getLiturgicalInfo } from "./comp_LitCalendar.js";
-import { processBrevierData } from "./comp_BrevierDataProcessor.js";
-import formatBibleRef from "./comp_BibleRefFormatter.js";
+import { ReferenceDialog, parseTextWithReferences } from "./ui/RefLink.jsx";
+import { getLiturgicalInfo } from "./dataHandlers/LitCalendar.js";
+import { processBrevierData } from "./dataHandlers/BrevierDataProcessor.js";
+import formatBibleRef from "./dataHandlers/BibleRefFormatter.js";
 import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
+  Tooltip, TooltipContent, TooltipProvider, TooltipTrigger,
 } from "./ui/tooltip.jsx";
 import SourceSelector from "./selectors/SourceSelector.js";
 import { SectionHeader as extSectionHeader } from "./selectors/SectionHeader.js";
@@ -20,16 +17,16 @@ import KompletSelector from "./selectors/KompletSelector.js";
 import HymnSelector from "./selectors/HymnSelector.js";
 import MarAntSelector from "./selectors/MarAntSelector.js";
 import { MatutinDisplay } from "./selectors/MatutinDisplay.js";
-import { getValue as extGetValue } from "./comp_GetValue.js";
-import { getKompletValue } from "./comp_GetKompletValue.js";
+import { getValue as extGetValue } from "./dataHandlers/GetValue.js";
+import { getKompletValue } from "./dataHandlers/GetKompletValue.js";
 import {
   formatPsalm as extFormatPsalm,
   formatText,
   formatPrayerText as extFormatPrayerText,
-} from "./comp_TextFormatter.js";
-import NavigationButtons from "./comp_NavigationButtons.js";
-import PersonalSettings from "./PersonalSettings.js";
-import TitleBar from "./comp_TitleBar.js";
+} from "./dataHandlers/TextFormatter.js";
+import NavigationButtons from "./ui/NavigationButtons.js";
+import PersonalSettings from "./utils/PersonalSettings.js";
+import TitleBar from "./ui/TitleBar.js";
 import { getLocalStorage, setLocalStorage } from './utils/localStorage.js';
 import { ordinarium } from "./utils/ordinarium.js";
 
