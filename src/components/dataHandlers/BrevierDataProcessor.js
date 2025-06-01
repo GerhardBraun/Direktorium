@@ -604,26 +604,26 @@ export function processBrevierData(todayDate) {
 
     // Prüfe, ob erste Vesper benötigt wird
     const { dayOfWeek, swdCombined, rank_wt, rank_date } = todayData;
-    const nextRankWt = tomorrowData.rank_wt;
-    const nextRankDate = tomorrowData.rank_date;
+    const rankNextWt = tomorrowData.rank_wt;
+    const rankNextDate = tomorrowData.rank_date;
     const nextCombinedSWD = tomorrowData.swdCombined;
 
     const hasErsteVesper_wt = swdCombined === 'o-1-6' ||
         (rank_wt < 5 && rank_date < 5 &&
             ((dayOfWeek === 6 && rank_date < 4) ||
-                (nextRankWt === 5 && nextCombinedSWD !== 'q-0-3')));
-    const hasErsteVesper_date = rank_wt < 5 && rank_date < 5 && nextRankDate > nextRankWt &&
-        (nextRankDate === 5 || (nextRankDate === 4 && dayOfWeek === 6));
+                (rankNextWt === 5 && nextCombinedSWD !== 'q-0-3')));
+    const hasErsteVesper_date = rank_wt < 5 && rank_date < 5 && rankNextDate > rankNextWt &&
+        (rankNextDate === 5 || (rankNextDate === 4 && dayOfWeek === 6));
     console.log('brevierDataProcessor:\nrank_Wt/Date:', rank_wt, rank_date,
-        '\nnextRank_Wt/Date:', nextRankWt, nextRankDate,
+        '\nrankNext_Wt/Date:', rankNextWt, rankNextDate,
         '\ndayOfWeek:', dayOfWeek,
         '\n1. Vesper wt/date: ', hasErsteVesper_wt, hasErsteVesper_date)
 
     // Stelle die endgültigen Daten zusammen
     const finalData = {
         ...todayData,
-        nextRank_wt: nextRankWt,
-        nextRank_date: nextRankDate,
+        rankNextWt: rankNextWt,
+        rankNextDate: rankNextDate,
         swdCombined: todayInfo.swdCombined
     };
 

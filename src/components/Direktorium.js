@@ -1068,7 +1068,7 @@ const PrayerMenu = ({
   viewMode,
   setViewMode,
   season,
-  prayerTexts,
+  texts,
   onPrevDay,
   onNextDay,
   selectedDate,
@@ -1079,8 +1079,8 @@ const PrayerMenu = ({
   useCommemoration,
   setUseCommemoration,
 }) => {
-  const rank_wt = prayerTexts?.rank_wt || 0;
-  const rank_date = prayerTexts?.rank_date || 0;
+  const rank_wt = texts?.rank_wt || 0;
+  const rank_date = texts?.rank_date || 0;
   const sollemnityErsteVesper = () =>
     ["soll", "kirchw"].includes(prefSollemnity);
 
@@ -1091,11 +1091,11 @@ const PrayerMenu = ({
         title={''}
         onPrevDay={onPrevDay}
         onNextDay={onNextDay}
-        swdWritten={prayerTexts?.swdWritten}
+        swdWritten={texts?.swdWritten}
       />
       {/* Source Selector */}
       <SourceSelector
-        texts={prayerTexts}
+        texts={texts}
         prefSrc={prefSrc}
         prefSollemnity={prefSollemnity}
         useCommemoration={useCommemoration}
@@ -1119,7 +1119,7 @@ const PrayerMenu = ({
                     <button
                       key={tsnHour}
                       onClick={() => {
-                        onSelectHour(tsnHour, prayerTexts);
+                        onSelectHour(tsnHour, texts);
                       }}
                       className="flex-1 p-3 text-center rounded-lg bg-gray-100 dark:bg-gray-800
                                                 hover:bg-gray-200 dark:hover:bg-gray-700
@@ -1139,7 +1139,7 @@ const PrayerMenu = ({
               return (
                 <button
                   onClick={() => {
-                    onSelectHour(hour, prayerTexts);
+                    onSelectHour(hour, texts);
                   }}
                   className="w-full p-3 text-center rounded-lg bg-gray-100 dark:bg-gray-800
                                     hover:bg-gray-200 dark:hover:bg-gray-700
@@ -1155,12 +1155,12 @@ const PrayerMenu = ({
           let displayText = hour.charAt(0).toUpperCase() + hour.slice(1);
           if (hour === "vesper") {
             if (
-              prayerTexts?.vesper?.eig?.button &&
-              prayerTexts.hasErsteVesper
+              texts?.vesper?.eig?.button &&
+              texts.hasErsteVesper
             ) {
-              displayText = prayerTexts.vesper.eig.button;
-            } else if (prayerTexts?.vesper?.wt?.button) {
-              displayText = prayerTexts.vesper.wt.button;
+              displayText = texts.vesper.eig.button;
+            } else if (texts?.vesper?.wt?.button) {
+              displayText = texts.vesper.wt.button;
             } else {
               const dayOfWeek = selectedDate.getDay();
               if (
@@ -1184,7 +1184,7 @@ const PrayerMenu = ({
             <button
               key={hour}
               onClick={() => {
-                onSelectHour(hour, prayerTexts);
+                onSelectHour(hour, texts);
               }}
               className="w-full p-3 text-center rounded-lg bg-gray-100 dark:bg-gray-800
                                 hover:bg-gray-200 dark:hover:bg-gray-700
@@ -1953,7 +1953,7 @@ export default function LiturgicalCalendar() {
   const [prefSollemnity, setPrefSollemnity] = useState("");
   const [useCommemoration, setUseCommemoration] = useState(false);
   const [selectedHour, setSelectedHour] = useState(null);
-  const [prayerTexts, setPrayerTexts] = useState(null);
+  const [texts, setTexts] = useState(null);
   const [expandedDeceased, setExpandedDeceased] = useState({});
   const [deceasedMode, setDeceasedMode] = useState("recent");
   const [localPrefLanguage, setLocalPrefLanguage] = useState(() => getLocalStorage("prefLanguage") || "");
@@ -2120,7 +2120,7 @@ export default function LiturgicalCalendar() {
 
   useEffect(() => {
     const processedData = processBrevierData(selectedDate);
-    setPrayerTexts(processedData);
+    setTexts(processedData);
     console.log("neue Texte:", processedData);
 
   }, [selectedDate, prefSrc]);
@@ -3092,9 +3092,9 @@ export default function LiturgicalCalendar() {
             <PrayerMenu
               title={formatDate(selectedDate)}
               viewMode={viewMode}
-              season={prayerTexts?.season}
+              season={texts?.season}
               selectedDate={selectedDate}
-              prayerTexts={prayerTexts}
+              texts={texts}
               prefSrc={prefSrc}
               setPrefSrc={setPrefSrc}
               prefSollemnity={prefSollemnity}
@@ -3103,7 +3103,7 @@ export default function LiturgicalCalendar() {
               setUseCommemoration={setUseCommemoration}
               onSelectHour={(hour, texts) => {
                 setSelectedHour(hour);
-                setPrayerTexts(texts);
+                setTexts(texts);
                 setViewMode("prayerText");
               }}
               setViewMode={setViewMode}
@@ -3123,12 +3123,12 @@ export default function LiturgicalCalendar() {
           )}
 
           {viewMode === "prayerText" &&
-            prayerTexts.swdCombined === 'o-1-0' && selectedHour === 'lesehore' && (
+            texts.swdCombined === 'o-1-0' && selectedHour === 'lesehore' && (
               <MatutinDisplay
                 TitleBar={TitleBar}
                 NavigationButtons={NavigationButtons}
                 hour={selectedHour}
-                texts={prayerTexts}
+                texts={texts}
                 selectedDate={selectedDate}
                 title={formatDate(selectedDate)}
                 viewMode={viewMode}
@@ -3146,7 +3146,7 @@ export default function LiturgicalCalendar() {
                 onBack={() => setViewMode("prayer")}
                 onSelectHour={(hour) => {
                   setSelectedHour(hour);
-                  setPrayerTexts(prayerTexts);
+                  setTexts(texts);
                 }}
                 onPrevDay={() => {
                   setDateChangeSource("navigation");
@@ -3164,14 +3164,14 @@ export default function LiturgicalCalendar() {
             )}
 
           {viewMode === "prayerText" &&
-            !(prayerTexts.swdCombined === 'o-1-0' && selectedHour === 'lesehore') && (
+            !(texts.swdCombined === 'o-1-0' && selectedHour === 'lesehore') && (
               <PrayerTextDisplay
                 hour={selectedHour}
-                texts={prayerTexts}
+                texts={texts}
                 selectedDate={selectedDate}
                 title={formatDate(selectedDate)}
                 viewMode={viewMode}
-                season={prayerTexts?.season}
+                season={texts?.season}
                 prefSrc={prefSrc}
                 setPrefSrc={setPrefSrc}
                 prefSollemnity={prefSollemnity}
@@ -3186,7 +3186,7 @@ export default function LiturgicalCalendar() {
                 onBack={() => setViewMode("prayer")}
                 onSelectHour={(hour) => {
                   setSelectedHour(hour);
-                  setPrayerTexts(prayerTexts);
+                  setTexts(texts);
                 }}
                 onPrevDay={() => {
                   setDateChangeSource("navigation");
