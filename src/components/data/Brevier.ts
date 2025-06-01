@@ -9401,8 +9401,8 @@ export const brevierData = {
         },
         "Lesehore": {
           "ps_1": 136.1,
-          "ps_2": 136.5,
-          "ps_3": 136.4,
+          "ps_2": 136.2,
+          "ps_3": 136.3,
           "ant_1": "Danket dem Herrn, er allein tut große Wunder.^ö",
           "ant_2": "Danket dem Herrn: Er hat Israel herausgeführt aus Ägypten.^ö",
           "ant_3": "Danket dem Herrn: Er hat uns den Feinden entrissen.^ö",
@@ -13231,7 +13231,7 @@ export const brevierData = {
           "hymn_1": 2421.0,
           "hymn_kl": 2502.0,
           "ps_1": 136.1,
-          "ps_2": 136.2,
+          "ps_2": 136.5,
           "ps_3": 152.0,
           "ant_1": "Danket dem Herrn, denn seine Huld währt ewig.",
           "ant_2": "Herr, allmächtiger Gott! Groß und wunderbar sind all deine Werke.",
@@ -13672,8 +13672,8 @@ export const brevierData = {
       "6": {
         "Lesehore": {
           "ps_1": 136.1,
-          "ps_2": 136.3,
-          "ps_3": 136.4,
+          "ps_2": 136.4,
+          "ps_3": 136.3,
           "ant_1": "Der Herr allein tut große Wunder; seine Huld währt ewig.",
           "ant_2": "Der Herr hat Israel herausgeführt aus Ägypten; seine Huld währt ewig.",
           "ant_3": "Dankt dem Gott des Himmels; seine Huld währt ewig."

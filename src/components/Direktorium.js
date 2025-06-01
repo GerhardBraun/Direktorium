@@ -315,7 +315,7 @@ const DayEntry = ({
   // Modified condition to check if deceased_more exists and is different from deceased
   const hasMoreDeceased =
     entry.deceased_more &&
-    (!entry.deceased || entry.deceased !== entry.deceased_more);
+    entry.deceased !== entry.deceased_more;
   const isExpanded = expandedDeceased[dateKey];
   const shouldShowMore = deceasedMode === "all" || isExpanded;
   const day = entry.date.getDate();
