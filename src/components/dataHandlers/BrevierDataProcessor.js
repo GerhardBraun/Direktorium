@@ -86,7 +86,8 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         week,
         dayOfWeek,
         weekOfPsalter,
-        combinedSWD,
+        swdCombined,
+        swdWritten,
         rank_wt,
         hasErsteVesper,
         isCommemoration,
@@ -242,7 +243,7 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
 
         return {
             season, week, dayOfWeek,
-            combinedSWD,
+            swdCombined, swdWritten,
             rank_wt,
             rank_date,
             isCommemoration,
@@ -503,7 +504,7 @@ function processResponseSet(data) {
 }
 
 function processKompletData(data, calendarDate) {
-    const { hasErsteVesper = false, dayOfWeek, rank_date, rank_wt, combinedSWD } = data
+    const { hasErsteVesper = false, dayOfWeek, rank_date, rank_wt, swdCombined } = data
     const kompletDay = calendarDate.getDate();
     const kompletMonth = calendarDate.getMonth() + 1;
 
@@ -512,7 +513,7 @@ function processKompletData(data, calendarDate) {
     let showKompletK2 = true;
     let prefKomplet = 'wt'
 
-    if (['q-6-4', 'q-6-5', 'q-6-6'].includes(combinedSWD)) {
+    if (['q-6-4', 'q-6-5', 'q-6-6'].includes(swdCombined)) {
         showKompletWt = false; showKompletK1 = false; prefKomplet = 'k2'
     }
     else if (hasErsteVesper) {
@@ -522,11 +523,11 @@ function processKompletData(data, calendarDate) {
         showKompletWt = false; prefKomplet = 'k2'
     }
     else if ((kompletMonth === 12 && kompletDay > 25)
-        || (combinedSWD.startsWith('o-1-'))) {
+        || (swdCombined.startsWith('o-1-'))) {
         showKompletWt = false; prefKomplet = 'wt'
     }
     else if (rank_wt === 5 &&
-        !['q-0-3', 'q-6-1', 'q-6-2', 'q-6-3'].includes(combinedSWD)) {
+        !['q-0-3', 'q-6-1', 'q-6-2', 'q-6-3'].includes(swdCombined)) {
         showKompletWt = false; prefKomplet = 'k2'
     }
     return {
@@ -557,9 +558,9 @@ export function processBrevierData(todayDate) {
     const dayAfterTomorrowInfo = getLiturgicalInfo(dayAfterTomorrowDate);
 
     let isSacredHeart = 0;
-    if (yesterdayInfo.combinedSWD === 'o-9-5') { isSacredHeart = -1; }
-    else if (tomorrowInfo.combinedSWD === 'o-9-5') { isSacredHeart = 1; }
-    else if (dayAfterTomorrowInfo.combinedSWD === 'o-9-5') { isSacredHeart = 2; }
+    if (yesterdayInfo.swdCombined === 'o-9-5') { isSacredHeart = -1; }
+    else if (tomorrowInfo.swdCombined === 'o-9-5') { isSacredHeart = 1; }
+    else if (dayAfterTomorrowInfo.swdCombined === 'o-9-5') { isSacredHeart = 2; }
 
     // Bestimme die tatsächlich zu verwendenden Tage basierend auf den Rängen
     let calendarDate = todayDate;
@@ -572,7 +573,7 @@ export function processBrevierData(todayDate) {
     }
 
     // Verschiebung Josef
-    if (todayInfo.combinedSWD === 'q-5-6' &&
+    if (todayInfo.swdCombined === 'q-5-6' &&
         (todayMonth === 3 && todayDay < 19)) {
         // Erstelle ein neues Date-Objekt für den 19. März
         const josefDate = new Date(todayDate.getFullYear(), 2, 19); // Monat ist 0-basiert
@@ -581,7 +582,7 @@ export function processBrevierData(todayDate) {
     }
 
     // Verschiebung Verkündigung des Herrn
-    if (todayInfo.combinedSWD === 'o-2-1' &&
+    if (todayInfo.swdCombined === 'o-2-1' &&
         (todayMonth === 3 || (todayMonth === 4 && todayDay < 10))) {
         const verkuendigungDate = new Date(todayDate.getFullYear(), 2, 25); // Monat ist 0-basiert
         calendarDate = verkuendigungDate;
@@ -602,12 +603,12 @@ export function processBrevierData(todayDate) {
     const tomorrowData = getPrayerTexts(brevierData, personalData, tomorrowDate, nextDate);
 
     // Prüfe, ob erste Vesper benötigt wird
-    const { dayOfWeek, combinedSWD, rank_wt, rank_date } = todayData;
+    const { dayOfWeek, swdCombined, rank_wt, rank_date } = todayData;
     const nextRankWt = tomorrowData.rank_wt;
     const nextRankDate = tomorrowData.rank_date;
-    const nextCombinedSWD = tomorrowData.combinedSWD;
+    const nextCombinedSWD = tomorrowData.swdCombined;
 
-    const hasErsteVesper_wt = combinedSWD === 'o-1-6' ||
+    const hasErsteVesper_wt = swdCombined === 'o-1-6' ||
         (rank_wt < 5 && rank_date < 5 &&
             ((dayOfWeek === 6 && rank_date < 4) ||
                 (nextRankWt === 5 && nextCombinedSWD !== 'q-0-3')));
@@ -623,7 +624,7 @@ export function processBrevierData(todayDate) {
         ...todayData,
         nextRank_wt: nextRankWt,
         nextRank_date: nextRankDate,
-        combinedSWD: todayInfo.combinedSWD
+        swdCombined: todayInfo.swdCombined
     };
 
     // Sichere Vesper-Daten für etwaige Nutzung bei lokalem Hochfest

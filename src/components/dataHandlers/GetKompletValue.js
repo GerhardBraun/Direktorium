@@ -3,7 +3,7 @@ export const getKompletValue = ({ texts, field, localPrefKomplet, localPrefLangu
         return null;
     }
 
-    let { season, dayOfWeek, combinedSWD } = texts;
+    let { season, dayOfWeek, swdCombined } = texts;
 
     // Helper function to get value with optional language suffix
     const getValue = (targetField) => {
@@ -23,22 +23,22 @@ export const getKompletValue = ({ texts, field, localPrefKomplet, localPrefLangu
     // Helper function to actually retrieve the field value
     const getFieldValue = (targetField) => {
         if (targetField.startsWith('oration') && localPrefKomplet !== 'wt') {
-            if ([0, 6].includes(dayOfWeek) && combinedSWD !== 'q-6-6') {
+            if ([0, 6].includes(dayOfWeek) && swdCombined !== 'q-6-6') {
                 return data?.[dayOfWeek]?.[targetField];
-            } else if (!combinedSWD.startsWith('o-1-') && combinedSWD !== 'o-2-0') {
+            } else if (!swdCombined.startsWith('o-1-') && swdCombined !== 'o-2-0') {
                 return data.sollemnity[targetField];
             }
         }
 
         if (targetField === 'resp1_1' &&
-            (combinedSWD.startsWith('o-1-') ||
-                ['q-6-4', 'q-6-5', 'q-6-6', 'o-2-0'].includes(combinedSWD))
+            (swdCombined.startsWith('o-1-') ||
+                ['q-6-4', 'q-6-5', 'q-6-6', 'o-2-0'].includes(swdCombined))
         ) {
             return '';
         }
 
         // Anpassungen für Saison und Wochentag
-        if (combinedSWD.startsWith('o-9-')) { season = 'j'; }
+        if (swdCombined.startsWith('o-9-')) { season = 'j'; }
         if (localPrefKomplet === 'k1') { dayOfWeek = 6; }
         if (localPrefKomplet === 'k2') { dayOfWeek = 0; }
 

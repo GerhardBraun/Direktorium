@@ -88,7 +88,7 @@ export const formatPrayerText = (provText, marker = '',
     hour = '', texts = {},
     prefSrc = '', localPrefLanguage = '', isNarrowScreen = false) => {
     if (!provText || provText === 'LEER' || provText === 'LEER_lat') return null;
-    const { season, isCommemoration, combinedSWD = '' } = texts;
+    const { season, isCommemoration, swdCombined = '' } = texts;
     const { nominativ, genitiv, vokativ } = texts?.laudes?.[prefSrc] || {};
 
     const useFootnoteList = getLocalStorage('prefFootnotes') === 'true';
@@ -96,20 +96,20 @@ export const formatPrayerText = (provText, marker = '',
     let easterAntiphon = '';
     let latinEasterAntiphon = '';
 
-    if (combinedSWD.startsWith('o-1-') || combinedSWD === 'o-2-0') {
+    if (swdCombined.startsWith('o-1-') || swdCombined === 'o-2-0') {
         // Wenn es sich um Ostern handelt, setze die Antiphon
         easterAntiphon = "^p^rAnstelle des Responsoriums wird die\u00a0folgende\u00a0Antiphon\u00a0genommen:^0r^lDas ist der Tag, den der Herr gemacht hat. Lasst\u00a0uns\u00a0jubeln und seiner uns freuen. Halleluja.";
         latinEasterAntiphon = "^p^rLoco responsorii dicitur:^0r^lHæc est dies quam fecit Dóminus: exsultémus\u00a0et\u00a0lætémur\u00a0in\u00a0ea.\u00a0Allelúia."
     }
-    if (combinedSWD === 'q-6-4') {
+    if (swdCombined === 'q-6-4') {
         easterAntiphon = "^p^rAnstelle des Responsoriums wird die°folgende°Antiphon°genommen:^0r^lChristus war für uns gehorsam bis zum Tod.";
         latinEasterAntiphon = "^p^rLoco responsorii dicitur:^0r^lChristus factus est pro nobis obœ́diens usque ad mortem.";
     }
-    if (combinedSWD === 'q-6-5') {
+    if (swdCombined === 'q-6-5') {
         easterAntiphon = "^p^rAnstelle des Responsoriums wird die°folgende°Antiphon°genommen:^0r^lChristus war für uns gehorsam bis zum Tod, bis°zum°Tod°am°Kreuze.";
         latinEasterAntiphon = "^p^rLoco responsorii dicitur:^0r^lChristus factus est pro nobis obœ́diens usque ad mortem, mortem autem crucis.";
     }
-    if (combinedSWD === 'q-6-6') {
+    if (swdCombined === 'q-6-6') {
         easterAntiphon = "^p^rAnstelle des Responsoriums wird die°folgende°Antiphon°genommen:^0r^lChristus war für uns gehorsam bis zum Tod, bis°zum°Tod°am°Kreuze. Darum hat ihn Gott über alle erhöht und ihm den Namen verliehen, der größer ist als alle Namen.";
         latinEasterAntiphon = "^p^rLoco responsorii dicitur:^0r^lChristus factus est pro nobis obœ́diens usque ad mortem, mortem autem crucis. Propter quod et Deus exaltávit illum, et dedit illi nomen, quod est super omne nomen.";
     }

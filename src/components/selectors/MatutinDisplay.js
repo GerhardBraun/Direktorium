@@ -5,14 +5,14 @@ import formatBibleRef from '../dataHandlers/BibleRefFormatter.js';
 
 const MatutinDisplay = ({
     texts,
-    onBack,
-    onSelectHour,
-    onPrevDay,
-    onNextDay,
     localPrefLanguage = '',
     localPrefLatin = false,
     TitleBar,
     NavigationButtons,
+    onBack,
+    onSelectHour,
+    onPrevDay,
+    onNextDay,
 }) => {
     // Hole die Matutin-Daten
     const { matEinführung, matBuch, matStelle, matText,
@@ -26,7 +26,7 @@ const MatutinDisplay = ({
             <TitleBar
                 onPrevDay={onPrevDay}
                 onNextDay={onNextDay}
-                writtenSWD={'Ostersonntag'}
+                swdWritten={'Ostersonntag'}
             />
             <NavigationButtons
                 hour="lesehore"

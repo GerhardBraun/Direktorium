@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
 
-const MarAntSelector = ({ season, selectedDate, combinedSWD, localPrefLatin, formatPrayerText }) => {
+const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, formatPrayerText }) => {
     // Verwende direkt das season-Kürzel zur Identifizierung der Antiphon
     const [selectedAntSeason, setSelectedAntSeason] = useState(null);
 
@@ -68,11 +68,11 @@ const MarAntSelector = ({ season, selectedDate, combinedSWD, localPrefLatin, for
         }
 
         // Weihnachtszeit einschl. Fest der Taufe Jesu -> Alma Redemptoris Mater (a)
-        if (season === 'w' || combinedSWD === 'j-1-0') { return 'a'; }
+        if (season === 'w' || swdCombined === 'j-1-0') { return 'a'; }
 
         // Sonst verwende die normale Jahreszeit
         return season;
-    }, [selectedDate, combinedSWD, season]);
+    }, [selectedDate, swdCombined, season]);
 
     // Effizientere Sortierung basierend auf der berechneten Standardantiphon
     const sortedAntiphons = useMemo(() => {

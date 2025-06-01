@@ -1,13 +1,13 @@
 import React from 'react';
 
 // Hilfsfunktion zum Prüfen, ob eine Quelle gültige Daten hat
-const hasValidSource = (prayerTexts, source) => {
-    return prayerTexts?.laudes?.[source]?.oration;
+const hasValidSource = (texts, source) => {
+    return texts?.laudes?.[source]?.oration;
 };
 
 // Hilfsfunktion für Button-Farben basierend auf der Quellenfarbe
-const getButtonColor = (prayerTexts, source) => {
-    const color = prayerTexts?.laudes?.[source]?.farbe?.charAt(0)?.toLowerCase();
+const getButtonColor = (texts, source) => {
+    const color = texts?.laudes?.[source]?.farbe?.charAt(0)?.toLowerCase();
     return color === 'r'
         ? 'btn-red'
         : color === 'm'
@@ -26,7 +26,7 @@ const getWeekdayButtonColor = (season) => {
 };
 
 const SourceSelector = ({
-    prayerTexts,
+    texts,
     prefSrc, setPrefSrc,
     prefSollemnity, setPrefSollemnity,
     useCommemoration, setUseCommemoration,
@@ -43,7 +43,7 @@ const SourceSelector = ({
 
         // Wenn "Vom Wochentag" gewählt wird, prefSollemnity zurücksetzen,
         // ebenso wenn der schon gewählte Button angeklickt wird;
-        // wenn ein Heiliger gewählt wird, bleibt prefSollemnity auf 'soll', 
+        // wenn ein Heiliger gewählt wird, bleibt prefSollemnity auf 'soll',
         // 'kirchw' und 'verst' werden aber zurückgesetzt
         let newPrefSollemnity = setSollemnity;
         if (setSollemnity === prefSollemnity) { newPrefSollemnity = '' };
@@ -74,11 +74,11 @@ const SourceSelector = ({
         }
     };
 
-    if (!prayerTexts) return null;
+    if (!texts) return null;
 
-    const { rank_date = 0, rank_wt = 0, isCommemoration } = prayerTexts
-    const hasEig = hasValidSource(prayerTexts, 'eig') // G, F oder H
-    const hasN1 = hasValidSource(prayerTexts, 'n1') // nichtgebotener Gedenktag
+    const { rank_date = 0, rank_wt = 0, isCommemoration } = texts
+    const hasEig = hasValidSource(texts, 'eig') // G, F oder H
+    const hasN1 = hasValidSource(texts, 'n1') // nichtgebotener Gedenktag
     const showWt = rank_wt < 3
         && (
             (hasN1 && !hasEig) ||   // nur nichtgebotener Gedenktag
@@ -92,9 +92,9 @@ const SourceSelector = ({
         <div className={`space-y-1 ${className}`}>
             {/* Bezeichnung Hochfest/Fest/Gedenktag */}
 
-            {prayerTexts.laudes?.wt?.button && !hasEig && (
+            {texts.laudes?.wt?.button && !hasEig && (
                 <div className="text-center text-xl font-bold text-gray-900 dark:text-gray-100">
-                    {prayerTexts.laudes.wt.button}
+                    {texts.laudes.wt.button}
                 </div>
             )}
             {/* Weekday Button */}
@@ -119,18 +119,18 @@ const SourceSelector = ({
             )}
             {/* Saint Selection Buttons */}
             {['eig', 'n1', 'n2', 'n3', 'n4', 'n5'].map(source => {
-                if (!hasValidSource(prayerTexts, source)) return null;
+                if (!hasValidSource(texts, source)) return null;
                 const doUnderline = prefSrc === source &&
                     (!isCommemoration || (isCommemoration && useCommemoration))
                 return (
                     <button
                         key={source}
                         onClick={() => handleSourceSelect(source)}
-                        className={`w-full p-1 pt-2 text-sm text-center rounded-sm 
-                                    ${getButtonColor(prayerTexts, source)}
+                        className={`w-full p-1 pt-2 text-sm text-center rounded-sm
+                                    ${getButtonColor(texts, source)}
                                     ${(doUnderline) ? 'ring-2 ring-yellow-500' : ''}`}
                     >
-                        {prayerTexts.laudes[source].button || "ein Heiliger"}
+                        {texts.laudes[source].button || "ein Heiliger"}
                     </button>
                 );
             })}
@@ -138,7 +138,7 @@ const SourceSelector = ({
                 <div className="flex gap-1">
                     <button
                         onClick={() => handleSourceSelect('', 'kirchw')}
-                        className={`flex-1 pt-2 text-center rounded-sm 
+                        className={`flex-1 pt-2 text-center rounded-sm
                             bg-gray-100 dark:bg-gray-900 text-xs
                             text-yellow-600 dark:text-yellow-500
                             hover:bg-gray-100 dark:hover:bg-gray-800
@@ -150,9 +150,9 @@ const SourceSelector = ({
                     {(rank_date < 5 && (hasEig || hasN1)) && (
                         <button
                             onClick={() => handleSourceSelect('lokal', 'soll')}
-                            className={`flex-1 pt-2 text-center rounded-sm 
+                            className={`flex-1 pt-2 text-center rounded-sm
                                 bg-gray-100 dark:bg-gray-900 text-xs
-                                ${useToggle ? 'text-yellow-600 dark:text-yellow-500' : 'text-gray-200 dark:text-gray-800'} 
+                                ${useToggle ? 'text-yellow-600 dark:text-yellow-500' : 'text-gray-200 dark:text-gray-800'}
                                 hover:bg-gray-100 dark:hover:bg-gray-800
                                 ${prefSollemnity === 'soll' ? 'ring-2 ring-yellow-500' : ''}`}
                             disabled={!useToggle}
@@ -163,7 +163,7 @@ const SourceSelector = ({
 
                     <button
                         onClick={() => handleSourceSelect('', 'verst')}
-                        className={`flex-1 pt-2 text-center rounded-sm 
+                        className={`flex-1 pt-2 text-center rounded-sm
                             bg-gray-100 dark:bg-gray-900 text-xs
                             text-yellow-600 dark:text-yellow-500
                             hover:bg-gray-100 dark:hover:bg-gray-800

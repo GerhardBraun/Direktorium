@@ -19,7 +19,7 @@ export const getValue = ({ hour, texts, field,
 
     // Helper function für die eigentliche Feldabfrage
     const getFieldValue = (field) => {
-        const { rank_date = 0, rank_wt = 0, isCommemoration, hasErsteVesper = false, combinedSWD, dayOfWeek } = texts;
+        const { rank_date = 0, rank_wt = 0, isCommemoration, hasErsteVesper = false, swdCombined, dayOfWeek } = texts;
         const sollemnityErsteVesper = () => ['soll', 'kirchw'].includes(prefSollemnity)
         const isTSN = ['terz', 'sext', 'non'].includes(hour)
         const isKirchwVerst = ['kirchw', 'verst'].includes(prefSollemnity)
@@ -28,9 +28,9 @@ export const getValue = ({ hour, texts, field,
         const isSollemnity = (hour === 'vesper' && hasErsteVesper)
             || prefSollemnity || rank_date === 5 ||
             (rank_wt === 5 &&
-                combinedSWD !== 'q-0-3' &&
-                !combinedSWD.startsWith('q-6-') &&
-                !combinedSWD.startsWith('o-1-') &&
+                swdCombined !== 'q-0-3' &&
+                !swdCombined.startsWith('q-6-') &&
+                !swdCombined.startsWith('o-1-') &&
                 dayOfWeek !== 0);
 
         // Bei Vesper als Hochfest

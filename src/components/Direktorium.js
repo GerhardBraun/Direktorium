@@ -1068,7 +1068,6 @@ const PrayerMenu = ({
   viewMode,
   setViewMode,
   season,
-  liturgicalInfo,
   prayerTexts,
   onPrevDay,
   onNextDay,
@@ -1092,11 +1091,11 @@ const PrayerMenu = ({
         title={''}
         onPrevDay={onPrevDay}
         onNextDay={onNextDay}
-        writtenSWD={liturgicalInfo?.writtenSWD}
+        swdWritten={prayerTexts?.swdWritten}
       />
       {/* Source Selector */}
       <SourceSelector
-        prayerTexts={prayerTexts}
+        texts={prayerTexts}
         prefSrc={prefSrc}
         prefSollemnity={prefSollemnity}
         useCommemoration={useCommemoration}
@@ -1241,7 +1240,6 @@ const PrayerTextDisplay = ({
   texts,
   season,
   selectedDate,
-  liturgicalInfo,
   title = "",
   onBack,
   viewMode,
@@ -1381,7 +1379,7 @@ const PrayerTextDisplay = ({
 
   const ordinariumTexts = ordinarium(texts, hour, localPrefLatin, prefSollemnity)
   const { advResp, advVers } =
-    (texts.combinedSWD === 'a-1-0'
+    (texts.swdCombined === 'a-1-0'
       && hour === 'lesehore'
       && (!getValue('patr_resp1') || localPrefLatin))
       ? ordinarium('advent', hour, localPrefLatin) : { advResp: '', advVers: '' };
@@ -1392,7 +1390,7 @@ const PrayerTextDisplay = ({
         title={''}
         onPrevDay={onPrevDay}
         onNextDay={onNextDay}
-        writtenSWD={liturgicalInfo?.writtenSWD}
+        swdWritten={texts?.swdWritten}
       />
       <NavigationButtons
         hour={hour}
@@ -1411,7 +1409,7 @@ const PrayerTextDisplay = ({
           />
         ) : (
           <SourceSelector
-            prayerTexts={texts}
+            texts={texts}
             prefSrc={prefSrc}
             prefSollemnity={prefSollemnity}
             useCommemoration={useCommemoration}
@@ -1799,7 +1797,7 @@ const PrayerTextDisplay = ({
             <MarAntSelector
               season={season}
               selectedDate={selectedDate}
-              combinedSWD={texts?.combinedSWD}
+              swdCombined={texts?.swdCombined}
               localPrefLatin={localPrefLatin}
               formatPrayerText={formatPrayerText}
             />
@@ -1827,7 +1825,7 @@ const PrayerTextDisplay = ({
           <>
             <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6 pb-1">
               <SourceSelector
-                prayerTexts={texts}
+                texts={texts}
                 prefSrc={prefSrc}
                 prefSollemnity={prefSollemnity}
                 useCommemoration={useCommemoration}
@@ -1979,8 +1977,6 @@ export default function LiturgicalCalendar() {
   });
   const [isScrolling, setIsScrolling] = useState(false);
   const scrollTimeoutRef = useRef(null);
-  const [liturgicalInfo, setLiturgicalInfo] = useState(null);
-  const [currentSeason, setCurrentSeason] = useState(null);
 
   const startViewMode = getLocalStorage("startViewMode") || "directory";
   const lastVisit = () => getLocalStorage("lastVisit") || null;
@@ -2123,17 +2119,10 @@ export default function LiturgicalCalendar() {
   }, [selectedDate, viewMode]);
 
   useEffect(() => {
-    const info = getLiturgicalInfo(selectedDate);
-    setLiturgicalInfo(info);
-    if (info?.season) {
-      setCurrentSeason(info.season);
-    }
+    const processedData = processBrevierData(selectedDate);
+    setPrayerTexts(processedData);
+    console.log("neue Texte:", processedData);
 
-    if (info) {
-      const processedData = processBrevierData(selectedDate);
-      setPrayerTexts(processedData);
-      console.log("neue Texte:", processedData);
-    }
   }, [selectedDate, prefSrc]);
 
   // Effect für die visibleEntries-Berechnung
@@ -3103,9 +3092,8 @@ export default function LiturgicalCalendar() {
             <PrayerMenu
               title={formatDate(selectedDate)}
               viewMode={viewMode}
-              season={currentSeason}
+              season={prayerTexts?.season}
               selectedDate={selectedDate}
-              liturgicalInfo={liturgicalInfo}
               prayerTexts={prayerTexts}
               prefSrc={prefSrc}
               setPrefSrc={setPrefSrc}
@@ -3135,17 +3123,15 @@ export default function LiturgicalCalendar() {
           )}
 
           {viewMode === "prayerText" &&
-            prayerTexts.combinedSWD === 'o-1-0' && selectedHour === 'lesehore' && (
+            prayerTexts.swdCombined === 'o-1-0' && selectedHour === 'lesehore' && (
               <MatutinDisplay
                 TitleBar={TitleBar}
                 NavigationButtons={NavigationButtons}
                 hour={selectedHour}
                 texts={prayerTexts}
                 selectedDate={selectedDate}
-                liturgicalInfo={liturgicalInfo}
                 title={formatDate(selectedDate)}
                 viewMode={viewMode}
-                season={currentSeason}
                 prefSrc={prefSrc}
                 setPrefSrc={setPrefSrc}
                 prefSollemnity={prefSollemnity}
@@ -3178,15 +3164,14 @@ export default function LiturgicalCalendar() {
             )}
 
           {viewMode === "prayerText" &&
-            !(prayerTexts.combinedSWD === 'o-1-0' && selectedHour === 'lesehore') && (
+            !(prayerTexts.swdCombined === 'o-1-0' && selectedHour === 'lesehore') && (
               <PrayerTextDisplay
                 hour={selectedHour}
                 texts={prayerTexts}
                 selectedDate={selectedDate}
-                liturgicalInfo={liturgicalInfo}
                 title={formatDate(selectedDate)}
                 viewMode={viewMode}
-                season={currentSeason}
+                season={prayerTexts?.season}
                 prefSrc={prefSrc}
                 setPrefSrc={setPrefSrc}
                 prefSollemnity={prefSollemnity}

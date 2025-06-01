@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TitleBar = ({ title, onPrevDay, onNextDay, writtenSWD }) => {
+const TitleBar = ({ title, onPrevDay, onNextDay, swdWritten }) => {
     return (
         <div className="flex items-center justify-between mb-2">
             <button
@@ -14,9 +14,9 @@ const TitleBar = ({ title, onPrevDay, onNextDay, writtenSWD }) => {
                 <h1 className="text-xl font-bold text-gray-900 dark:text-gray-100">
                     {title}
                 </h1>
-                {writtenSWD && (
+                {swdWritten && (
                     <div className="text-base text-gray-600 dark:text-gray-400">
-                        {writtenSWD}
+                        {swdWritten}
                     </div>
                 )}
             </div>

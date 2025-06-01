@@ -1,12 +1,12 @@
 
 const daysToMilliseconds = (days) => days * 24 * 60 * 60 * 1000;
 
-const writeOut = (season, week, dayOfWeek, combinedSWD, day) => {
+const writeOut = (season, week, dayOfWeek, swdCombined, day) => {
 
     const days = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
     const dayName = days[dayOfWeek];
 
-    // Spezielle Festtage basierend auf combinedSWD
+    // Spezielle Festtage basierend auf swdCombined
     const specialFeastDays = {
         'w-1-0': 'Fest der Heiligen Familie',
         'j-1-0': 'Fest der Taufe Jesu',
@@ -28,8 +28,8 @@ const writeOut = (season, week, dayOfWeek, combinedSWD, day) => {
     };
 
     // Prüfe zuerst auf spezielle Festtage
-    if (specialFeastDays[combinedSWD]) {
-        return specialFeastDays[combinedSWD];
+    if (specialFeastDays[swdCombined]) {
+        return specialFeastDays[swdCombined];
     }
 
     // Spezielle Behandlung für die Aschermittwochswoche (0. Fastenwoche)
@@ -82,7 +82,7 @@ const getSeasonName = (season) => {
 };
 
 // Helper function to calculate rank for a specific date
-function calculateRanks(date, season, week, dayOfWeek, combinedSWD, isImmacHeart) {
+function calculateRanks(date, season, week, dayOfWeek, swdCombined, isImmacHeart) {
 
     // Rank für Wochentag (rank_wt) bestimmen
     function calculateRankWt() {
@@ -96,15 +96,15 @@ function calculateRanks(date, season, week, dayOfWeek, combinedSWD, isImmacHeart
         }
 
         // 3. Karwoche und Osteroktav
-        if (combinedSWD.startsWith('q-6-')) { return 5; }
-        if (combinedSWD.startsWith('o-1-')) { return 5; }
+        if (swdCombined.startsWith('q-6-')) { return 5; }
+        if (swdCombined.startsWith('o-1-')) { return 5; }
 
         // 5. Einzelne Hochfeste
         if (['q-0-3',  // Aschermittwoch
             'o-6-4',    // Christi Himmelfahrt
             'o-9-4',  // Fronleichnam
             'o-9-5',  // Herz Jesu
-        ].includes(combinedSWD)) { return 5; }
+        ].includes(swdCombined)) { return 5; }
 
         // 6. Gebotene Gedenktage und Kommemoration
         if ((date.getMonth() + 1 === 12 && date.getDate() > 16) ||  // letzte Adventstage und Weihnachtszeit
@@ -295,10 +295,10 @@ const getLiturgicalInfo = (provDate) => {
         week = 0;
         season = 'w';
     }
-    const combinedSWD = `${season}-${week}-${dayOfWeek}`;
-    const writtenSWD = writeOut(season, week, dayOfWeek, combinedSWD, day);
+    const swdCombined = `${season}-${week}-${dayOfWeek}`;
+    const swdWritten = writeOut(season, week, dayOfWeek, swdCombined, day);
     if (!weekOfPsalter) { weekOfPsalter = ((week + 3) % 4) + 1 }
-    const ranks = calculateRanks(date, season, week, dayOfWeek, combinedSWD, isImmacHeart);
+    const ranks = calculateRanks(date, season, week, dayOfWeek, swdCombined, isImmacHeart);
     const isCommemoration = ranks.rank_date < 3 &&
         (season === 'q' || (month === 12 && day > 16));
 
@@ -307,8 +307,8 @@ const getLiturgicalInfo = (provDate) => {
         week,
         dayOfWeek,
         weekOfPsalter,
-        combinedSWD,
-        writtenSWD,
+        swdCombined,
+        swdWritten,
         ...ranks,  // Fügt rank_wt und rank_date zum Return-Objekt hinzu
         isCommemoration,
         isImmacHeart
