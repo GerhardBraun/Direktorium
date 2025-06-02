@@ -171,6 +171,7 @@ export const formatPrayerText = (provText, marker = '',
         .replace(/(\w)–/g, '$1\u200C–')
         .replace(/–(\w)/g, '–\u200C$1')
         .replace(/([0-9])-([0-9])/g, '$1\u200C\u2013\u200C$2')
+        .replace(/>([aeiouæ])(\s)/g, '^k$1^0k$2')
         .replace(/\^ö/g, season === 'o' ? ' Halleluja.' : '')
         .replace(/\^Ö/g, season === 'q' ? '' : ' Halleluja.')
         .replace(/\^Lö/g, season === 'o' ? ' Allelúia.' : '')
@@ -189,9 +190,11 @@ export const formatPrayerText = (provText, marker = '',
         .replace(/.\^ORlR/g, orSchluss.Rgroß_lat)
         .replace(/\^NP/g, getLocalStorage('popeName') || 'Leo')
         .replace(/\^NB/g, getLocalStorage('bishopName') || '^N')
+        .replace(/\^NdatP/g, getLocalStorage('popeNameDat') || 'Leoni')
+        .replace(/\^NdatB/g, getLocalStorage('bishopNameDat') || '^N')
+        .replace(/\^NakkP/g, getLocalStorage('popeNameAkk') || 'Leonem')
+        .replace(/\^NakkB/g, getLocalStorage('bishopNameAkk') || '^N')
         .replace(/\^NH/g, '^N')
-        // HERRN und HERR in Kapitälchen umwandeln
-        // HERRN und HERR in Kapitälchen umwandeln
         .replace(/\bHERRN\b/g, '^cHerrn^0c')
         .replace(/\bHERR\b/g, '^cHerr^0c');
 
@@ -246,7 +249,7 @@ export const formatPrayerText = (provText, marker = '',
     const processInlineFormats = (text) => {
         text = text
             .replace(/\^l/g, '\n')
-        const segments = text.split(/(\^RUBR.*?\^0RUBR|\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^c.*?\^0c|\^\(|\^\)|\^\[|\^\]|\^N|§FN\d+§)/g).filter(Boolean);
+        const segments = text.split(/(\^RUBR.*?\^0RUBR|\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^c.*?\^0c|\^k.*?\^0k|\^\(|\^\)|\^\[|\^\]|\^N|§FN\d+§)/g).filter(Boolean);
 
         return segments.map((segment, index) => {
             if (segment.startsWith('^r')) {
@@ -264,6 +267,9 @@ export const formatPrayerText = (provText, marker = '',
             } else if (segment.startsWith('^c')) {
                 const content = segment.substring(2, segment.length - 3);
                 return <span key={`smallcaps-${index}`} style={{ fontVariant: 'small-caps' }}>{content}</span>;
+            } else if (segment.startsWith('^k')) {
+                const content = segment.substring(2, segment.length - 3);
+                return <span key={`italic-${index}`} style={{ fontStyle: 'italic' }}>{content}</span>;
             } else if (segment.startsWith('^RUBR')) {
                 const content = segment.substring(5, segment.length - 6);
                 return <span key={`long-rubric-${index}`} className="long-rubric">{content}</span>;

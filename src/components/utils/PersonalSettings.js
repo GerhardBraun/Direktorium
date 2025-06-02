@@ -16,8 +16,20 @@ const PersonalSettings = () => {
     const [popeName, setPopeName] = useState(() =>
         getLocalStorage('popeName') || 'Leo'
     );
+    const [popeNameDat, setPopeNameDat] = useState(() =>
+        getLocalStorage('popeNameDat') || 'Leóni'
+    );
+    const [popeNameAkk, setPopeNameAkk] = useState(() =>
+        getLocalStorage('popeNameAkk') || 'Leónem'
+    );
     const [bishopName, setBishopName] = useState(() =>
         getLocalStorage('bishopName') || ''
+    );
+    const [bishopNameDat, setBishopNameDat] = useState(() =>
+        getLocalStorage('bishopNameDat') || ''
+    );
+    const [bishopNameAkk, setBishopNameAkk] = useState(() =>
+        getLocalStorage('bishopNameAkk') || ''
     );
     const [sequenceInv, setSequenceInv] = useState(() => {
         const stored = getLocalStorage('sequenceInv');
@@ -48,8 +60,24 @@ const PersonalSettings = () => {
     }, [popeName]);
 
     useEffect(() => {
+        setLocalStorage('popeNameDat', popeNameDat);
+    }, [popeNameDat]);
+
+    useEffect(() => {
+        setLocalStorage('popeNameAkk', popeNameAkk);
+    }, [popeNameAkk]);
+
+    useEffect(() => {
         setLocalStorage('bishopName', bishopName);
     }, [bishopName]);
+
+    useEffect(() => {
+        setLocalStorage('bishopNameDat', bishopNameDat);
+    }, [bishopNameDat]);
+
+    useEffect(() => {
+        setLocalStorage('bishopNameAkk', bishopNameAkk);
+    }, [bishopNameAkk]);
 
     useEffect(() => {
         setLocalStorage('sequenceInv', JSON.stringify(sequenceInv));
@@ -63,7 +91,6 @@ const PersonalSettings = () => {
             setSequenceInv(newSequence);
         }
     };
-
 
     const handleImport = async (e) => {
         const file = e.target.files[0];
@@ -106,9 +133,25 @@ const PersonalSettings = () => {
                         setPopeName(data.settings.popeName);
                         setLocalStorage('popeName', data.settings.popeName);
                     }
+                    if (data.settings.popeNameDat) {
+                        setPopeNameDat(data.settings.popeNameDat);
+                        setLocalStorage('popeNameDat', data.settings.popeNameDat);
+                    }
+                    if (data.settings.popeNameAkk) {
+                        setPopeNameAkk(data.settings.popeNameAkk);
+                        setLocalStorage('popeNameAkk', data.settings.popeNameAkk);
+                    }
                     if (data.settings.bishopName) {
                         setBishopName(data.settings.bishopName);
                         setLocalStorage('bishopName', data.settings.bishopName);
+                    }
+                    if (data.settings.bishopNameDat) {
+                        setBishopNameDat(data.settings.bishopNameDat);
+                        setLocalStorage('bishopNameDat', data.settings.bishopNameDat);
+                    }
+                    if (data.settings.bishopNameAkk) {
+                        setBishopNameAkk(data.settings.bishopNameAkk);
+                        setLocalStorage('bishopNameAkk', data.settings.bishopNameAkk);
                     }
                     if (data.settings.sequenceInv) {
                         setSequenceInv(data.settings.sequenceInv);
@@ -134,7 +177,11 @@ const PersonalSettings = () => {
             prefFootnotes,
             prefLanguage,
             popeName,
+            popeNameDat,
+            popeNameAkk,
             bishopName,
+            bishopNameDat,
+            bishopNameAkk,
             sequenceInv
         };
 
@@ -225,8 +272,10 @@ const PersonalSettings = () => {
                 <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
                     Namen für die Fürbitten
                 </div>
-                <div className="grid gap-2 items-center mb-1"
-                    style={{ gridTemplateColumns: '6rem 1fr' }}>
+
+                {/* Papst Section */}
+                <div className="grid gap-1 items-center mb-1"
+                    style={{ gridTemplateColumns: '6rem minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr)' }}>
                     <label className="text-sm text-gray-500 dark:text-gray-400">
                         Papst
                     </label>
@@ -234,14 +283,34 @@ const PersonalSettings = () => {
                         type="text"
                         value={popeName}
                         onChange={(e) => setPopeName(e.target.value)}
-                        className="px-3 py-1 text-sm bg-gray-100 dark:bg-gray-800
+                        className="px-2 py-1 text-sm bg-gray-100 dark:bg-gray-800
             border dark:border-gray-600 rounded
-            text-gray-900 dark:text-gray-100"
-                        placeholder="Name des Papstes"
+            text-gray-900 dark:text-gray-100 min-w-0"
+                        placeholder="Nom."
+                    />
+                    <input
+                        type="text"
+                        value={popeNameDat}
+                        onChange={(e) => setPopeNameDat(e.target.value)}
+                        className="px-2 py-1 text-sm bg-gray-100 dark:bg-gray-800
+            border dark:border-gray-600 rounded
+            text-gray-900 dark:text-gray-100 min-w-0"
+                        placeholder="lat. Dativ"
+                    />
+                    <input
+                        type="text"
+                        value={popeNameAkk}
+                        onChange={(e) => setPopeNameAkk(e.target.value)}
+                        className="px-2 py-1 text-sm bg-gray-100 dark:bg-gray-800
+            border dark:border-gray-600 rounded
+            text-gray-900 dark:text-gray-100 min-w-0"
+                        placeholder="lat. Akkusativ"
                     />
                 </div>
-                <div className="grid gap-2 items-center"
-                    style={{ gridTemplateColumns: '6rem 1fr' }}>
+
+                {/* Bischof Section */}
+                <div className="grid gap-1 items-center"
+                    style={{ gridTemplateColumns: '6rem minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr)' }}>
                     <label className="text-sm text-gray-500 dark:text-gray-400">
                         Bischof
                     </label>
@@ -249,10 +318,28 @@ const PersonalSettings = () => {
                         type="text"
                         value={bishopName}
                         onChange={(e) => setBishopName(e.target.value)}
-                        className="px-3 py-1 text-sm bg-gray-100 dark:bg-gray-800
+                        className="px-2 py-1 text-sm bg-gray-100 dark:bg-gray-800
             border dark:border-gray-600 rounded
-            text-gray-900 dark:text-gray-100"
-                        placeholder="Name des Bischofs"
+            text-gray-900 dark:text-gray-100 min-w-0"
+                        placeholder="Nom."
+                    />
+                    <input
+                        type="text"
+                        value={bishopNameDat}
+                        onChange={(e) => setBishopNameDat(e.target.value)}
+                        className="px-2 py-1 text-sm bg-gray-100 dark:bg-gray-800
+            border dark:border-gray-600 rounded
+            text-gray-900 dark:text-gray-100 min-w-0"
+                        placeholder="lat. Dativ"
+                    />
+                    <input
+                        type="text"
+                        value={bishopNameAkk}
+                        onChange={(e) => setBishopNameAkk(e.target.value)}
+                        className="px-2 py-1 text-sm bg-gray-100 dark:bg-gray-800
+            border dark:border-gray-600 rounded
+            text-gray-900 dark:text-gray-100 min-w-0"
+                        placeholder="lat. Akkusativ"
                     />
                 </div>
             </div>
