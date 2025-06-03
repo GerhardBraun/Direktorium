@@ -13,10 +13,10 @@ interface PersonalEntry {
   ps_1?: number;
   ps_2?: number;
   ps_3?: number;
-  ant_0?: string;
-  ant_1?: string;
-  ant_2?: string;
-  ant_3?: string;
+  ant0?: string;
+  ant1?: string;
+  ant2?: string;
+  ant3?: string;
   versikel0?: string;
   versikel1?: string;
   les_buch?: string;
@@ -32,7 +32,7 @@ interface PersonalEntry {
   patr_resp1?: string;
   patr_resp2?: string;
   patr_resp3?: string;
-  ant_ev?: string;
+  antEv?: string;
   bitten_e?: string;
   bitten_r?: string;
   bitten?: string;
@@ -54,7 +54,7 @@ export const personalData = {
     "2": {
       "each": {
         "Invitatorium": {
-          "ant_0": "Fallt nieder vor dem Herrn, unserm König; er wird kommen und uns retten."
+          "ant0": "Fallt nieder vor dem Herrn, unserm König; er wird kommen und uns retten."
         }
       }
     },
@@ -71,14 +71,14 @@ export const personalData = {
     "each": {
       "each": {
         "Invitatorium": {
-          "ant_0": "Den Herrn, den König, der kommen wird – kommt, wir beten ihn an!"
+          "ant0": "Den Herrn, den König, der kommen wird – kommt, wir beten ihn an!"
         }
       }
     },
     "last": {
       "each": {
         "Invitatorium": {
-          "ant_0": "Der Herr ist nahe – kommt, wir beten ihn an!"
+          "ant0": "Der Herr ist nahe – kommt, wir beten ihn an!"
         },
         "Lesehore": {
           "hymn_1": 3112.0
@@ -229,14 +229,14 @@ export const personalData = {
     "2": {
       "each": {
         "Invitatorium": {
-          "ant_0": "Verhärtet eure Herzen nicht, hört auf die Stimme des Herrn!"
+          "ant0": "Verhärtet eure Herzen nicht, hört auf die Stimme des Herrn!"
         }
       }
     },
     "3": {
       "each": {
         "Invitatorium": {
-          "ant_0": "Verhärtet eure Herzen nicht, hört auf die Stimme des Herrn!"
+          "ant0": "Verhärtet eure Herzen nicht, hört auf die Stimme des Herrn!"
         },
         "Vesper": {
           "hymn_1": 3342.0
@@ -295,13 +295,13 @@ export const personalData = {
       },
       "each": {
         "Invitatorium": {
-          "ant_0": "Verhärtet eure Herzen nicht, hört auf die Stimme des Herrn!"
+          "ant0": "Verhärtet eure Herzen nicht, hört auf die Stimme des Herrn!"
         },
         "Terz": {
-          "ant_0": "Es war vor dem Paschafest. Jesus wusste, dass seine Stunde gekommen war. Und da er die Seinen liebte, liebte er sie bis zur Vollendung.",
-          "ant_1": "",
-          "ant_2": "",
-          "ant_3": "",
+          "ant0": "Es war vor dem Paschafest. Jesus wusste, dass seine Stunde gekommen war. Und da er die Seinen liebte, liebte er sie bis zur Vollendung.",
+          "ant1": "",
+          "ant2": "",
+          "ant3": "",
           "resp0": "Er wurde geopfert, weil er selbst es wollte.",
           "resp1": "Und tat seinen Mund nicht auf."
         },
@@ -326,7 +326,7 @@ export const personalData = {
     "6": {
       "each": {
         "Invitatorium": {
-          "ant_0": ""
+          "ant0": ""
         },
         "Lesehore": {
           "hymn_1": 0.0
@@ -336,7 +336,7 @@ export const personalData = {
     "each": {
       "each": {
         "Invitatorium": {
-          "ant_0": "Christus, der Herr, wurde für uns versucht und hat für uns gelitten; kommt, wir beten ihn an."
+          "ant0": "Christus, der Herr, wurde für uns versucht und hat für uns gelitten; kommt, wir beten ihn an."
         },
         "Lesehore": {
           "hymn_1": 3312.0

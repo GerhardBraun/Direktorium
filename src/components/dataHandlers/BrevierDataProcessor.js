@@ -366,8 +366,8 @@ function processTerzPsalms(hours) {
     const targetHours = ['sext', 'non'];
     // Definiere die relevanten Psalm-Felder
     const psalmFields = ['ps_1', 'ps_2', 'ps_3',
-        'ant_1', 'ant_2', 'ant_3',
-        'ant_1_lat', 'ant_2_lat', 'ant_3_lat'];
+        'ant1', 'ant2', 'ant3',
+        'ant1_lat', 'ant2_lat', 'ant3_lat'];
 
     // Finde alle vorhandenen Sources durch Inspektion der Terz
     const sources = hours.terz ? Object.keys(hours.terz) : [];
@@ -403,15 +403,15 @@ function processTerzPsalms(hours) {
 
 function processBenMagnAntiphons(hours, date) {
     Object.keys(hours).forEach(hour => {
-        if (hours[hour].wt?.ant_a) {
+        if (hours[hour].wt?.antA) {
             const year = date.getFullYear();
             const remainder = year % 3;
 
-            let antField = remainder === 1 ? 'ant_a' :
-                remainder === 2 ? 'ant_b' : 'ant_c';
+            let antField = remainder === 1 ? 'antA' :
+                remainder === 2 ? 'antB' : 'antC';
 
             if (hours[hour].wt[antField]) {
-                hours[hour].wt.ant_ev = hours[hour].wt[antField];
+                hours[hour].wt.antEv = hours[hour].wt[antField];
             }
         }
     });

@@ -18,7 +18,7 @@ interface LaudesData {
   vokativ: string;
   comm_1?: string;
   comm_2?: string;
-  ant_ev?: string;
+  antEv?: string;
   ant_komm?: string;
   oration?: string;
 }
@@ -32,7 +32,7 @@ interface ErsteVData {
 interface VesperData {
   comm_1?: string;
   comm_2?: string;
-  ant_ev?: string;
+  antEv?: string;
   ant_komm?: string;
   oration?: string;
 }
@@ -80,13 +80,13 @@ export const adlibData = {
           "vokativ": "Heiliger Basilius und heiliger Gregor",
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
-          "ant_ev": "Die Weisen werden strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig.",
+          "antEv": "Die Weisen werden strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig.",
           "oration": "Gott, unser Vater, du hast deiner Kirche in den Bischöfen Basilius und Gregor heilige Hirten gegeben, die uns durch ihre Lehre und ihr Leben den Weg der Wahrheit zeigen. Hilf uns auf ihre Fürsprache, dein Wort in Demut aufzunehmen und in Werken der Liebe zu bezeugen.^ORV"
         },
         "Vesper": {
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
-          "ant_ev": "Wer Gottes Gebote hält und sie halten lehrt, wird groß sein im Himmelreich.",
+          "antEv": "Wer Gottes Gebote hält und sie halten lehrt, wird groß sein im Himmelreich.",
           "oration": "Gott, unser Vater, du hast deiner Kirche in den Bischöfen Basilius und Gregor heilige Hirten gegeben, die uns durch ihre Lehre und ihr Leben den Weg der Wahrheit zeigen. Hilf uns auf ihre Fürsprache, dein Wort in Demut aufzunehmen und in Werken der Liebe zu bezeugen.^ORV"
         }
       }
@@ -463,12 +463,12 @@ export const adlibData = {
           "button": "Hl. Timotheus und hl. Titus",
           "genitiv": "der Heiligen Timotheus und Titus",
           "comm_1": "Hirten",
-          "ant_ev": "Verkünde das Wort, tritt dafür ein, ob man es hören will oder nicht; weise zurecht, tadle und ermahne in geduldiger Belehrung.",
+          "antEv": "Verkünde das Wort, tritt dafür ein, ob man es hören will oder nicht; weise zurecht, tadle und ermahne in geduldiger Belehrung.",
           "oration": "Gott, unser Vater, du hast die Apostelschüler Timotheus und Titus mit den Gaben des Heiligen Geistes beschenkt und sie deiner Kirche als Hirten gegeben. Höre auf ihre Fürsprache und hilf uns, dass wir gerecht und fromm in dieser Welt leben und so zur Gemeinschaft mit deinen Heiligen gelangen.^ORV"
         },
         "Vesper": {
           "comm_1": "Hirten",
-          "ant_ev": "Gerecht und heilig wollen wir leben in der Hoffnung auf die Wiederkunft des Herrn.",
+          "antEv": "Gerecht und heilig wollen wir leben in der Hoffnung auf die Wiederkunft des Herrn.",
           "oration": "Gott, unser Vater, du hast die Apostelschüler Timotheus und Titus mit den Gaben des Heiligen Geistes beschenkt und sie deiner Kirche als Hirten gegeben. Höre auf ihre Fürsprache und hilf uns, dass wir gerecht und fromm in dieser Welt leben und so zur Gemeinschaft mit deinen Heiligen gelangen.^ORV"
         }
       }
@@ -527,12 +527,12 @@ export const adlibData = {
           "genitiv": "des heiligen Thomas",
           "vokativ": "Heiliger Thomas",
           "comm_1": "Hirten_Kl",
-          "ant_ev": "Gepriesen sei der Herr! Aus Liebe zu ihm hat Thomas geforscht, hat Nächte durchwacht und sich abgemüht.",
+          "antEv": "Gepriesen sei der Herr! Aus Liebe zu ihm hat Thomas geforscht, hat Nächte durchwacht und sich abgemüht.",
           "oration": "Gott, du Quell der Weisheit, du hast dem heiligen Thomas von Aquin ein leidenschaftliches Verlangen geschenkt, nach Heiligkeit zu streben und deine Wahrheit zu erfassen. Hilf uns verstehen, was er gelehrt, und nachahmen, was er uns vorgelebt hat.^ORV"
         },
         "Vesper": {
           "comm_1": "Hirten_Kl",
-          "ant_ev": "Gott gab ihm Weisheit in Fülle; redlich mühte er sich, sie zu erfassen, und gab sie selbstlos weiter.",
+          "antEv": "Gott gab ihm Weisheit in Fülle; redlich mühte er sich, sie zu erfassen, und gab sie selbstlos weiter.",
           "oration": "Gott, du Quell der Weisheit, du hast dem heiligen Thomas von Aquin ein leidenschaftliches Verlangen geschenkt, nach Heiligkeit zu streben und deine Wahrheit zu erfassen. Hilf uns verstehen, was er gelehrt, und nachahmen, was er uns vorgelebt hat.^ORV"
         }
       }
@@ -656,13 +656,13 @@ export const adlibData = {
           "genitiv": "der heiligen Agatha",
           "comm_1": "MärtSg_Jgfr",
           "comm_2": "Jgfr",
-          "ant_ev": "Vor Freude strahlend, ging Agatha in den Kerker, als ginge sie zu einem Gastmahl, und betend empfahl sie dem Herrn ihren Kampf.",
+          "antEv": "Vor Freude strahlend, ging Agatha in den Kerker, als ginge sie zu einem Gastmahl, und betend empfahl sie dem Herrn ihren Kampf.",
           "oration": "Allmächtiger Gott, du hast die heilige Agatha zur Jungfräulichkeit um Christi willen berufen und ihr die Gnade des Martyriums geschenkt. Höre auf ihre Fürsprache und hilf uns, in aller Bedrängnis auszuharren und dir in Lauterkeit und Treue zu dienen.^ORV"
         },
         "Vesper": {
           "comm_1": "MärtSg_Jgfr",
           "comm_2": "Jgfr",
-          "ant_ev": "Herr Jesus Christus, guter Meister, ich sage dir Dank. Du gabst mir Kraft, die Folter zu bestehen. Nun nimm mich auf in deine Herrlichkeit, die niemals enden wird.",
+          "antEv": "Herr Jesus Christus, guter Meister, ich sage dir Dank. Du gabst mir Kraft, die Folter zu bestehen. Nun nimm mich auf in deine Herrlichkeit, die niemals enden wird.",
           "oration": "Allmächtiger Gott, du hast die heilige Agatha zur Jungfräulichkeit um Christi willen berufen und ihr die Gnade des Martyriums geschenkt. Höre auf ihre Fürsprache und hilf uns, in aller Bedrängnis auszuharren und dir in Lauterkeit und Treue zu dienen.^ORV"
         }
       }
@@ -772,7 +772,7 @@ export const adlibData = {
           "nominativ": "Die heilige Scholastika",
           "genitiv": "der heiligen Scholastika",
           "comm_1": "Jgfr",
-          "ant_ev": "Die kluge Jungfrau ging Christus entgegen. Wie die Sonne strahlt sie im Chor der Heiligen.",
+          "antEv": "Die kluge Jungfrau ging Christus entgegen. Wie die Sonne strahlt sie im Chor der Heiligen.",
           "oration": "Erhabener Gott, wir begehen das Gedächtnis der heiligen Jungfrau Scholastika. Lass uns nach ihrem Beispiel dir stets in aufrichtiger Liebe dienen und gewähre uns in deiner Güte einst einen seligen Heimgang zu dir.^ORV"
         },
         "Vesper": {
@@ -801,13 +801,13 @@ export const adlibData = {
           "button": "U.L.Fr. in Lourdes",
           "farbe": "m",
           "comm_1": "Maria",
-          "ant_ev": "Du Morgenröte des Heils, Jungfrau Maria! Aus dir ging hervor die Sonne der Gerechtigkeit, Christus, das aufstrahlende Licht aus der Höhe.",
+          "antEv": "Du Morgenröte des Heils, Jungfrau Maria! Aus dir ging hervor die Sonne der Gerechtigkeit, Christus, das aufstrahlende Licht aus der Höhe.",
           "ant_komm": "Du Morgenröte des Heils, Jungfrau Maria! Aus dir ging hervor die Sonne der Gerechtigkeit, Christus, das aufstrahlende Licht aus der Höhe.",
           "oration": "Barmherziger Gott, in unserer Schwachheit suchen wir bei dir Hilfe und Schutz. Höre auf die Fürsprache der jungfräulichen Gottesmutter Maria, die du vor der Erbschuld bewahrt hast, und heile uns von aller Krankheit des Leibes und der Seele.^ORV"
         },
         "Vesper": {
           "comm_1": "Maria",
-          "ant_ev": "Gegrüßet seist du, Maria, voll der Gnade; der Herr ist mit dir. Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes.",
+          "antEv": "Gegrüßet seist du, Maria, voll der Gnade; der Herr ist mit dir. Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes.",
           "ant_komm": "Gegrüßet seist du, Maria, voll der Gnade; der Herr ist mit dir. Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes.",
           "oration": "Barmherziger Gott, in unserer Schwachheit suchen wir bei dir Hilfe und Schutz. Höre auf die Fürsprache der jungfräulichen Gottesmutter Maria, die du vor der Erbschuld bewahrt hast, und heile uns von aller Krankheit des Leibes und der Seele.^ORV"
         }
@@ -960,12 +960,12 @@ export const adlibData = {
           "button": "Hl. Polykarp",
           "farbe": "r",
           "comm_1": "MärtSg",
-          "ant_ev": "Sechsundachtzig Jahre habe ich Christus gedient und habe von ihm kein Unrecht erfahren. Wie könnte ich meinen König schmähen, der mich erlöst hat!",
+          "antEv": "Sechsundachtzig Jahre habe ich Christus gedient und habe von ihm kein Unrecht erfahren. Wie könnte ich meinen König schmähen, der mich erlöst hat!",
           "oration": "Gott, du Herr der ganzen Schöpfung, du hast den heiligen Bischof Polykarp zum standhaften Bekenntnis des Glaubens gestärkt und in die Schar deiner Märtyrer aufgenommen. Gib auch uns deine Kraft, wenn wir am Kelch des Leidens Christi teilhaben, damit wir auferstehen zum ewigen Leben.^ORV"
         },
         "Vesper": {
           "comm_1": "MärtSg",
-          "ant_ev": "Ich preise dich, Herr, allmächtiger Gott. Du nahmst mich auf in die Schar deiner Märtyrer und gabst mir Anteil am Kelch deines Gesalbten.",
+          "antEv": "Ich preise dich, Herr, allmächtiger Gott. Du nahmst mich auf in die Schar deiner Märtyrer und gabst mir Anteil am Kelch deines Gesalbten.",
           "oration": "Gott, du Herr der ganzen Schöpfung, du hast den heiligen Bischof Polykarp zum standhaften Bekenntnis des Glaubens gestärkt und in die Schar deiner Märtyrer aufgenommen. Gib auch uns deine Kraft, wenn wir am Kelch des Leidens Christi teilhaben, damit wir auferstehen zum ewigen Leben.^ORV"
         }
       }
@@ -2608,7 +2608,7 @@ export const adlibData = {
           "button": "Unbeflecktes Herz Mariens",
           "farbe": "m",
           "comm_1": "Maria",
-          "ant_ev": "Mein Herz und mein Leib jauchzen ihm zu, ihm, dem lebendigen Gott.",
+          "antEv": "Mein Herz und mein Leib jauchzen ihm zu, ihm, dem lebendigen Gott.",
           "oration": "Gott, du hast dem Heiligen Geist im Herzen der seligen Jungfrau Maria eine würdige Wohnung bereitet. Auf ihre Fürbitte hin erfülle auch unser Leben mit deiner Gegenwart und mache uns zu einem Tempeln deiner Herrlichkeit.^ORV"
         },
         "Vesper": {
@@ -2639,12 +2639,12 @@ export const adlibData = {
           "button": "Hl. Justin",
           "farbe": "r",
           "comm_1": "MärtSg",
-          "ant_ev": "Mit jeder Gabe, die wir opfern, loben wir den Schöpfer aller Dinge durch seinen Sohn Jesus Christus im Heiligen Geist.^ö",
+          "antEv": "Mit jeder Gabe, die wir opfern, loben wir den Schöpfer aller Dinge durch seinen Sohn Jesus Christus im Heiligen Geist.^ö",
           "oration": "Gott, du hast den heiligen Märtyrer Justin in der Torheit des Kreuzes die erhabene Weisheit Jesu Christi erkennen lassen. Hilf uns auf seine Fürsprache, dass wir nicht falschen Lehren folgen, sondern im wahren Glauben feststehen.^ORV"
         },
         "Vesper": {
           "comm_1": "MärtSg",
-          "ant_ev": "Ein Feuer entbrannte in meinem Herzen, und es erfasste mich die Liebe zu den Propheten und zu all den Menschen, die Christi Freude sind.^ö",
+          "antEv": "Ein Feuer entbrannte in meinem Herzen, und es erfasste mich die Liebe zu den Propheten und zu all den Menschen, die Christi Freude sind.^ö",
           "oration": "Gott, du hast den heiligen Märtyrer Justin in der Torheit des Kreuzes die erhabene Weisheit Jesu Christi erkennen lassen. Hilf uns auf seine Fürsprache, dass wir nicht falschen Lehren folgen, sondern im wahren Glauben feststehen.^ORV"
         }
       }
@@ -2754,12 +2754,12 @@ export const adlibData = {
           "button": "Hll. Eoban, Adelar und übrige Gefährten des hl. Bonifatius",
           "farbe": "r",
           "comm_1": "MärtPl",
-          "ant_ev": "Die mit dem heiligen Bonifatius die Saat des ewigen Lebens ausstreuten, waren ein Herz und eine Seele und erlangten vereint die eine Palme des Martyriums.",
+          "antEv": "Die mit dem heiligen Bonifatius die Saat des ewigen Lebens ausstreuten, waren ein Herz und eine Seele und erlangten vereint die eine Palme des Martyriums.",
           "oration": "Allmächtiger und barmherziger Gott, durch die Predigt und das Zeugnis der heiligen Märtyrer Eoban, Adelar und Gefährten hast du vielen Menschen deinen Sohn als Erlöser geoffenbart. Höre auf ihre Fürsprache und festige uns im Glauben zum Lob und zur Ehre deines Namens.^ORV"
         },
         "Vesper": {
           "comm_1": "MärtPl",
-          "ant_ev": "Bonifatius sprach zu seinen Gefährten: Erschreckt nicht vor denen, die den Leib töten, die Seele aber nicht töten können; sondern freut euch im Herrn und nehmt standhaft den Tod auf euch, dann könnt ihr in Ewigkeit mit Christus herrschen.",
+          "antEv": "Bonifatius sprach zu seinen Gefährten: Erschreckt nicht vor denen, die den Leib töten, die Seele aber nicht töten können; sondern freut euch im Herrn und nehmt standhaft den Tod auf euch, dann könnt ihr in Ewigkeit mit Christus herrschen.",
           "oration": "Allmächtiger und barmherziger Gott, durch die Predigt und das Zeugnis der heiligen Märtyrer Eoban, Adelar und Gefährten hast du vielen Menschen deinen Sohn als Erlöser geoffenbart. Höre auf ihre Fürsprache und festige uns im Glauben zum Lob und zur Ehre deines Namens.^ORV"
         }
       }
@@ -3154,7 +3154,7 @@ export const adlibData = {
           "genitiv": "des heiligen Irenäus",
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
-          "ant_ev": "Irenäus, wahrhaft ein Mann des Friedens, war voll Eifer bemüht um Frieden und Eintracht unter den Kirchen.",
+          "antEv": "Irenäus, wahrhaft ein Mann des Friedens, war voll Eifer bemüht um Frieden und Eintracht unter den Kirchen.",
           "oration": "Gott der Wahrheit und des Friedens, in deiner Kraft hat der heilige Irenäus die wahre Lehre verteidigt und der Kirche den Frieden erhalten. Auf seine Fürsprache erneuere in uns den Glauben und die Liebe und mache uns bereit, Frieden und Eintracht zu fördern.^ORV"
         },
         "Vesper": {
@@ -3184,12 +3184,12 @@ export const adlibData = {
           "button": "Die ersten hll. Märtyrer der Stadt Rom",
           "farbe": "r",
           "comm_1": "MärtPl",
-          "ant_ev": "Die gewaltige Schar der Märtyrer verharrte in brüderlicher Liebe, denn EIN Geist und EIN Glaube beseelte sie.",
+          "antEv": "Die gewaltige Schar der Märtyrer verharrte in brüderlicher Liebe, denn EIN Geist und EIN Glaube beseelte sie.",
           "oration": "Allmächtiger, ewiger Gott, du hast die Anfänge der Kirche von Rom durch das Blut vieler Märtyrer geheiligt. Das Opfer ihres Lebens werde uns zum Segen, ihr herrlicher Sieg stärke deine Kirche.^ORV"
         },
         "Vesper": {
           "comm_1": "MärtPl",
-          "ant_ev": "Im Leben haben sie Christus geliebt, im Tode sind sie ihm nachgefolgt; deshalb herrschen sie mit ihm auf ewig.",
+          "antEv": "Im Leben haben sie Christus geliebt, im Tode sind sie ihm nachgefolgt; deshalb herrschen sie mit ihm auf ewig.",
           "oration": "Allmächtiger, ewiger Gott, du hast die Anfänge der Kirche von Rom durch das Blut vieler Märtyrer geheiligt. Das Opfer ihres Lebens werde uns zum Segen, ihr herrlicher Sieg stärke deine Kirche.^ORV"
         }
       },
@@ -3647,12 +3647,12 @@ export const adlibData = {
           "button": "Unsere Liebe Frau auf dem Berge Karmel",
           "farbe": "m",
           "comm_1": "Maria",
-          "ant_ev": "Im Gebete verlangte ich nach Weisheit, und wie die erste Frucht des Weinstocks erfreute sie mein Herz.",
+          "antEv": "Im Gebete verlangte ich nach Weisheit, und wie die erste Frucht des Weinstocks erfreute sie mein Herz.",
           "oration": "Großer und heiliger Gott, du hast den Berg Karmel schon im Alten Bund durch das Wirken der Propheten ausgezeichnet und ihn auch im Neuen Bund zu einer Stätte der Beschauung erwählt, zu einem Heiligtum der jungfräulichen Mutter Maria. Gib uns auf ihre Fürsprache die Freude, im Gebet deine Nähe zu erfahren.^ORV"
         },
         "Vesper": {
           "comm_1": "Maria",
-          "ant_ev": "Maria hörte Gottes Wort und bewahrte es in ihrem Herzen.",
+          "antEv": "Maria hörte Gottes Wort und bewahrte es in ihrem Herzen.",
           "oration": "Großer und heiliger Gott, du hast den Berg Karmel schon im Alten Bund durch das Wirken der Propheten ausgezeichnet und ihn auch im Neuen Bund zu einer Stätte der Beschauung erwählt, zu einem Heiligtum der jungfräulichen Mutter Maria. Gib uns auf ihre Fürsprache die Freude, im Gebet deine Nähe zu erfahren.^ORV"
         }
       }
@@ -3818,12 +3818,12 @@ export const adlibData = {
           "button": "Hll. Marta, Maria und Lazarus",
           "genitiv": "der Heiligen Marta, Maria und Lazarus",
           "comm_1": "Frau_Pl",
-          "ant_ev": "Marta sagte zu Jesus: Du bist der Messias, der Sohn des lebendigen Gottes, der in die Welt kommen soll.",
+          "antEv": "Marta sagte zu Jesus: Du bist der Messias, der Sohn des lebendigen Gottes, der in die Welt kommen soll.",
           "oration": "Allmächtiger, ewiger Gott, die heilige Marta durfte deinen Sohn in ihr Haus aufnehmen und bewirten. Auf ihre Fürsprache hin mache uns bereit, in unseren Mitmenschen Christus zu dienen, damit wir einst bei dir Aufnahme finden.^ORV"
         },
         "Vesper": {
           "comm_1": "Frau_Pl",
-          "ant_ev": "Jesus liebte Marta und ihre Schwester Maria und ihren Bruder Lazarus.",
+          "antEv": "Jesus liebte Marta und ihre Schwester Maria und ihren Bruder Lazarus.",
           "oration": "Allmächtiger, ewiger Gott, die heilige Marta durfte deinen Sohn in ihr Haus aufnehmen und bewirten. Auf ihre Fürsprache hin mache uns bereit, in unseren Mitmenschen Christus zu dienen, damit wir einst bei dir Aufnahme finden.^ORV"
         }
       },
@@ -3912,13 +3912,13 @@ export const adlibData = {
           "genitiv": "des heiligen Ignatius",
           "comm_1": "Hirten",
           "comm_2": "Mann_Ord",
-          "ant_ev": "Christus will ich erkennen und die Macht seiner Auferstehung und die Gemeinschaft mit seinem Leiden.",
+          "antEv": "Christus will ich erkennen und die Macht seiner Auferstehung und die Gemeinschaft mit seinem Leiden.",
           "oration": "Allmächtiger, ewiger Gott, du hast den heiligen Ignatius von Loyola berufen, in der Nachfolge Christi zur größeren Ehre deines Namens zu wirken. Lass uns nach seinem Beispiel und mit seiner Hilfe auf Erden den guten Kampf bestehen, damit wir auch im Himmel den Siegeskranz empfangen.^ORV"
         },
         "Vesper": {
           "comm_1": "Hirten",
           "comm_2": "Mann_Ord",
-          "ant_ev": "Was nützt es einem Menschen, wenn er die ganze Welt gewinnt, dabei aber sein Leben verliert?",
+          "antEv": "Was nützt es einem Menschen, wenn er die ganze Welt gewinnt, dabei aber sein Leben verliert?",
           "oration": "Allmächtiger, ewiger Gott, du hast den heiligen Ignatius von Loyola berufen, in der Nachfolge Christi zur größeren Ehre deines Namens zu wirken. Lass uns nach seinem Beispiel und mit seiner Hilfe auf Erden den guten Kampf bestehen, damit wir auch im Himmel den Siegeskranz empfangen.^ORV"
         }
       }
@@ -4058,12 +4058,12 @@ export const adlibData = {
           "button": "Weihe der Basilika S. Maria Maggiore in Rom",
           "farbe": "m",
           "comm_1": "Maria",
-          "ant_ev": "Heilige Jungfrau und Gottesmutter Maria, gebenedeit bist du unter den Frauen, und gebenedeit ist die Frucht deines Leibes.",
+          "antEv": "Heilige Jungfrau und Gottesmutter Maria, gebenedeit bist du unter den Frauen, und gebenedeit ist die Frucht deines Leibes.",
           "oration": "Barmherziger Gott, mit unserem eigenen Tun können wir vor dir nicht bestehen. Darum höre auf die Fürsprache der seligen Jungfrau Maria. Schau nicht auf unser Versagen, sondern sei uns gnädig und rette uns.^ORV"
         },
         "Vesper": {
           "comm_1": "Maria",
-          "ant_ev": "Heilige Maria, Mutter Gottes, bitte für uns Sünder, jetzt und in der Stunde unseres Todes.",
+          "antEv": "Heilige Maria, Mutter Gottes, bitte für uns Sünder, jetzt und in der Stunde unseres Todes.",
           "oration": "Barmherziger Gott, mit unserem eigenen Tun können wir vor dir nicht bestehen. Darum höre auf die Fürsprache der seligen Jungfrau Maria. Schau nicht auf unser Versagen, sondern sei uns gnädig und rette uns.^ORV"
         }
       }
@@ -4457,13 +4457,13 @@ export const adlibData = {
           "vokativ": "Heiliger Bernhard",
           "comm_1": "Hirten_Kl",
           "comm_2": "Mann_Ord",
-          "ant_ev": "Bernhards Seele war erleuchtet vom Glanz des ewigen Wortes; nun strahlt das Licht seines Glaubens in der ganzen Kirche.",
+          "antEv": "Bernhards Seele war erleuchtet vom Glanz des ewigen Wortes; nun strahlt das Licht seines Glaubens in der ganzen Kirche.",
           "oration": "Allmächtiger Gott, du hast den heiligen Abt Bernhard mit brennender Sorge für deine Kirche erfüllt und ihn in den Wirren seiner Zeit zu einem hellen Licht gemacht. Erwecke auch heute Menschen, die vom Geist Christi ergriffen sind und als Kinder des Lichtes leben.^ORV"
         },
         "Vesper": {
           "comm_1": "Hirten_Kl",
           "comm_2": "Mann_Ord",
-          "ant_ev": "Bernhard, wachsamer Hirte und Lehrer der Kirche, Freund des göttlichen Bräutigams, Herold der heiligen Jungfrau Maria!",
+          "antEv": "Bernhard, wachsamer Hirte und Lehrer der Kirche, Freund des göttlichen Bräutigams, Herold der heiligen Jungfrau Maria!",
           "oration": "Allmächtiger Gott, du hast den heiligen Abt Bernhard mit brennender Sorge für deine Kirche erfüllt und ihn in den Wirren seiner Zeit zu einem hellen Licht gemacht. Erwecke auch heute Menschen, die vom Geist Christi ergriffen sind und als Kinder des Lichtes leben.^ORV"
         }
       }
@@ -4516,12 +4516,12 @@ export const adlibData = {
           "button": "Maria Königin",
           "farbe": "m",
           "comm_1": "Maria",
-          "ant_ev": "Erhabene Königin der Welt, Maria, immerwährende Jungfrau, du hast Christus geboren, unsern Herrn und Erlöser.",
+          "antEv": "Erhabene Königin der Welt, Maria, immerwährende Jungfrau, du hast Christus geboren, unsern Herrn und Erlöser.",
           "oration": "Gott, du hast die Mutter deines Sohnes auch uns zur Mutter gegeben. Wir ehren sie als unsere Königin und vertrauen auf ihre Fürsprache. Lass uns im himmlischen Reich an der Herrlichkeit deiner Kinder teilhaben.^ORV"
         },
         "Vesper": {
           "comm_1": "Maria",
-          "ant_ev": "Selig bist du, Maria; du hast geglaubt, was der Herr dir gesagt hat: Mit Christus herrschest du auf ewig.",
+          "antEv": "Selig bist du, Maria; du hast geglaubt, was der Herr dir gesagt hat: Mit Christus herrschest du auf ewig.",
           "oration": "Gott, du hast die Mutter deines Sohnes auch uns zur Mutter gegeben. Wir ehren sie als unsere Königin und vertrauen auf ihre Fürsprache. Lass uns im himmlischen Reich an der Herrlichkeit deiner Kinder teilhaben.^ORV"
         }
       }
@@ -4657,12 +4657,12 @@ export const adlibData = {
           "button": "Hl. Monika",
           "genitiv": "der heiligen Monika",
           "comm_1": "Frau",
-          "ant_ev": "Du hast sie erhört, o Herr, und ihre Tränen nicht verschmäht.",
+          "antEv": "Du hast sie erhört, o Herr, und ihre Tränen nicht verschmäht.",
           "oration": "Allmächtiger Gott, du hast auf die Tränen der heiligen Monika geschaut; du hast ihr Flehen erhört und ihrem Sohn Augustinus die Gnade der Bekehrung geschenkt. Gib uns auf die Fürsprache dieser heiligen Mutter und ihres Sohnes die Gnade, dass wir unsere Sünden bereuen und bei dir Verzeihung finden.^ORV"
         },
         "Vesper": {
           "comm_1": "Frau",
-          "ant_ev": "Monikas Glaube und Leben waren ein Lob auf den Namen des Herrn: Schon in dieser Welt lebte sie mit Christus vereint.",
+          "antEv": "Monikas Glaube und Leben waren ein Lob auf den Namen des Herrn: Schon in dieser Welt lebte sie mit Christus vereint.",
           "oration": "Allmächtiger Gott, du hast auf die Tränen der heiligen Monika geschaut; du hast ihr Flehen erhört und ihrem Sohn Augustinus die Gnade der Bekehrung geschenkt. Gib uns auf die Fürsprache dieser heiligen Mutter und ihres Sohnes die Gnade, dass wir unsere Sünden bereuen und bei dir Verzeihung finden.^ORV"
         }
       }
@@ -4691,13 +4691,13 @@ export const adlibData = {
           "vokativ": "Heiliger Augustinus",
           "comm_1": "Hirten_Kl",
           "comm_2": "Hirten",
-          "ant_ev": "Deine Gnade ist es, o Herr, dass es mir Freude macht, dich zu loben, denn auf dich hin hast du uns geschaffen; und unruhig ist unser Herz, bis es ruht in dir.",
+          "antEv": "Deine Gnade ist es, o Herr, dass es mir Freude macht, dich zu loben, denn auf dich hin hast du uns geschaffen; und unruhig ist unser Herz, bis es ruht in dir.",
           "oration": "Allmächtiger Gott, wir rufen dich an: Erwecke in deiner Kirche aufs neue den Geist, mit dem du den heiligen Bischof Augustinus erfüllt hast. Gib auch uns die Sehnsucht nach dir, dem Quell der wahren Weisheit und dem Ursprung der Liebe.^ORV"
         },
         "Vesper": {
           "comm_1": "Hirten_Kl",
           "comm_2": "Hirten",
-          "ant_ev": "Spät habe ich begonnen dich zu lieben, o Schönheit, alt und ewig neu. Du hast gerufen und geschrien und meine Taubheit durchbrochen.",
+          "antEv": "Spät habe ich begonnen dich zu lieben, o Schönheit, alt und ewig neu. Du hast gerufen und geschrien und meine Taubheit durchbrochen.",
           "oration": "Allmächtiger Gott, wir rufen dich an: Erwecke in deiner Kirche aufs neue den Geist, mit dem du den heiligen Bischof Augustinus erfüllt hast. Gib auch uns die Sehnsucht nach dir, dem Quell der wahren Weisheit und dem Ursprung der Liebe.^ORV"
         }
       }
@@ -4756,13 +4756,13 @@ export const adlibData = {
           "vokativ": "Heiliger Gregor",
           "comm_1": "Hirten_Kl",
           "comm_2": "Hirten",
-          "ant_ev": "Als guter Hirt seiner Herde hat Gregor der Kirche das Beispiel seines Lebens hinterlassen und die Weisung seiner Lehre.",
+          "antEv": "Als guter Hirt seiner Herde hat Gregor der Kirche das Beispiel seines Lebens hinterlassen und die Weisung seiner Lehre.",
           "oration": "Gott, du bist deinem Volk gnädig und leitest es in Liebe. Höre auf die Fürsprache des heiligen Papstes Gregor und schenke allen, die in der Kirche am Amt der Leitung teilhaben, den Geist der Weisheit, damit dein Volk wachse und seinen Hirten zur ewigen Freude werde.^ORV"
         },
         "Vesper": {
           "comm_1": "Hirten_Kl",
           "comm_2": "Hirten",
-          "ant_ev": "Was Gregor predigte, hat er in seinem Tun verwirklicht; und das Geheimnis Christi, das er verkündete, hat er in seinem Leben sichtbar gemacht.",
+          "antEv": "Was Gregor predigte, hat er in seinem Tun verwirklicht; und das Geheimnis Christi, das er verkündete, hat er in seinem Leben sichtbar gemacht.",
           "oration": "Gott, du bist deinem Volk gnädig und leitest es in Liebe. Höre auf die Fürsprache des heiligen Papstes Gregor und schenke allen, die in der Kirche am Amt der Leitung teilhaben, den Geist der Weisheit, damit dein Volk wachse und seinen Hirten zur ewigen Freude werde.^ORV"
         }
       }
@@ -4901,13 +4901,13 @@ export const adlibData = {
           "genitiv": "der Heiligen Kornelius und Cyprian",
           "comm_1": "MärtPl",
           "comm_2": "Hirten",
-          "ant_ev": "O kostbarer Tod, der um den Preis des Blutes die Unsterblichkeit erkauft!",
+          "antEv": "O kostbarer Tod, der um den Preis des Blutes die Unsterblichkeit erkauft!",
           "oration": "Ewiger Gott, du hast deiner Kirche in den heiligen Bischöfen Kornelius und Cyprian eifrige Hirten geschenkt und ihnen die Kraft gegeben, treu bis in den Tod ihren Glauben zu bekennen. Höre auf ihre Fürsprache und festige unseren Glauben, damit wir bereit sind, für die Einheit der Kirche zu beten und zu arbeiten.^ORV"
         },
         "Vesper": {
           "comm_1": "MärtPl",
           "comm_2": "Hirten",
-          "ant_ev": "Selig bist du zu preisen, heilige Kirche, in dir leuchtet das Blut der Märtyrer Christi.",
+          "antEv": "Selig bist du zu preisen, heilige Kirche, in dir leuchtet das Blut der Märtyrer Christi.",
           "oration": "Ewiger Gott, du hast deiner Kirche in den heiligen Bischöfen Kornelius und Cyprian eifrige Hirten geschenkt und ihnen die Kraft gegeben, treu bis in den Tod ihren Glauben zu bekennen. Höre auf ihre Fürsprache und festige unseren Glauben, damit wir bereit sind, für die Einheit der Kirche zu beten und zu arbeiten.^ORV"
         }
       }
@@ -5140,12 +5140,12 @@ export const adlibData = {
           "button": "Hl. Rupert und hl. Virgil",
           "genitiv": "der Heiligen Rupert und Virgil",
           "comm_1": "Hirten",
-          "ant_ev": "Weise Hirten sandte Christus seinem Volk, die ihm den Weg zum Lichte wiesen.",
+          "antEv": "Weise Hirten sandte Christus seinem Volk, die ihm den Weg zum Lichte wiesen.",
           "oration": "Gott, du Herr aller Völker, du hast durch die heiligen Bischöfe Rupert und Virgil Menschen verschiedener Sprache und Herkunft in die Gemeinschaft der Kirche eingefügt. Erhalte uns auf die Fürsprache dieser Heiligen in der Einheit des Glaubens und der Liebe.^ORV"
         },
         "Vesper": {
           "comm_1": "Hirten",
-          "ant_ev": "Das sind die heiligen Männer, die Boten des Evangeliums, die uns auf den Weg des Heiles führten.",
+          "antEv": "Das sind die heiligen Männer, die Boten des Evangeliums, die uns auf den Weg des Heiles führten.",
           "oration": "Gott, du Herr aller Völker, du hast durch die heiligen Bischöfe Rupert und Virgil Menschen verschiedener Sprache und Herkunft in die Gemeinschaft der Kirche eingefügt. Erhalte uns auf die Fürsprache dieser Heiligen in der Einheit des Glaubens und der Liebe.^ORV"
         }
       }
@@ -5171,12 +5171,12 @@ export const adlibData = {
           "nominativ": "Der heilige Niklaus von Flüe",
           "genitiv": "des heiligen Niklaus von Flüe",
           "comm_1": "Mann",
-          "ant_ev": "Der Herr hat mich erleuchtet. Er lenkte meine Schritte auf den Weg des Friedens.",
+          "antEv": "Der Herr hat mich erleuchtet. Er lenkte meine Schritte auf den Weg des Friedens.",
           "oration": "Herr, unser Gott, deinem Ruf gehorsam, hat der heilige Bruder Klaus Familie und Besitz verlassen, um in der Einsamkeit für dich allein zu leben; du aber hast ihn zu einem Ratgeber für viele und zu einem Mittler des Friedens gemacht. Höre auf seine Fürsprache: Nimm alles von uns, was uns trennt von dir, und mache uns zu einem Werkzeug deines Friedens.^ORV"
         },
         "Vesper": {
           "comm_1": "Mann",
-          "ant_ev": "Mit dem Brot des Lebens nährte ihn der Herr. Er schenkte ihm Klugheit und Einsicht.",
+          "antEv": "Mit dem Brot des Lebens nährte ihn der Herr. Er schenkte ihm Klugheit und Einsicht.",
           "oration": "Herr, unser Gott, deinem Ruf gehorsam, hat der heilige Bruder Klaus Familie und Besitz verlassen, um in der Einsamkeit für dich allein zu leben; du aber hast ihn zu einem Ratgeber für viele und zu einem Mittler des Friedens gemacht. Höre auf seine Fürsprache: Nimm alles von uns, was uns trennt von dir, und mache uns zu einem Werkzeug deines Friedens.^ORV"
         }
       }
@@ -5234,13 +5234,13 @@ export const adlibData = {
           "genitiv": "des heiligen Vinzenz",
           "comm_1": "Hirten",
           "comm_2": "Mann_Liebe",
-          "ant_ev": "Vinzenz, ein Freund der Armen, tröstete die Trauernden, sorgte für die Witwen und trat für die Waisen ein.",
+          "antEv": "Vinzenz, ein Freund der Armen, tröstete die Trauernden, sorgte für die Witwen und trat für die Waisen ein.",
           "oration": "Barmherziger Gott, du hast den heiligen Vinzenz von Paul berufen, den Armen zu helfen und für die Ausbildung guter Priester zu sorgen. Schenke auch uns apostolischen Eifer; hilf uns, die Not der Armen zu sehen, und mach uns bereit, ihnen zu helfen.^ORV"
         },
         "Vesper": {
           "comm_1": "Hirten",
           "comm_2": "Mann_Liebe",
-          "ant_ev": "Was ihr dem Geringsten meiner Brüder getan habt, das habt ihr mir getan.",
+          "antEv": "Was ihr dem Geringsten meiner Brüder getan habt, das habt ihr mir getan.",
           "oration": "Barmherziger Gott, du hast den heiligen Vinzenz von Paul berufen, den Armen zu helfen und für die Ausbildung guter Priester zu sorgen. Schenke auch uns apostolischen Eifer; hilf uns, die Not der Armen zu sehen, und mach uns bereit, ihnen zu helfen.^ORV"
         }
       }
@@ -5297,12 +5297,12 @@ export const adlibData = {
           "nominativ": "Die heilige Therese",
           "genitiv": "der heiligen Therese",
           "comm_1": "Jgfr",
-          "ant_ev": "Amen, ich sage euch: Wenn ihr nicht umkehrt und werdet wie die Kinder, kommt ihr nicht in das Himmelreich.",
+          "antEv": "Amen, ich sage euch: Wenn ihr nicht umkehrt und werdet wie die Kinder, kommt ihr nicht in das Himmelreich.",
           "oration": "Großer Gott, du rufst Menschen in deine Nähe, die nichts von sich selbst erwarten, sondern alles von dir erhoffen. Führe uns den Weg der Demut und der Gotteskindschaft, den du der heiligen Theresia gezeigt hast. Vollende auf ihre Fürsprache auch unser Leben in deiner Herrlichkeit und lass uns dein Antlitz schauen.^ORV"
         },
         "Vesper": {
           "comm_1": "Jgfr",
-          "ant_ev": "Freut euch und jubelt; denn eure Namen sind im Himmel verzeichnet.",
+          "antEv": "Freut euch und jubelt; denn eure Namen sind im Himmel verzeichnet.",
           "oration": "Großer Gott, du rufst Menschen in deine Nähe, die nichts von sich selbst erwarten, sondern alles von dir erhoffen. Führe uns den Weg der Demut und der Gotteskindschaft, den du der heiligen Theresia gezeigt hast. Vollende auf ihre Fürsprache auch unser Leben in deiner Herrlichkeit und lass uns dein Antlitz schauen.^ORV"
         }
       }
@@ -5328,12 +5328,12 @@ export const adlibData = {
           "nominativ": "Der heilige Franz von Assisi",
           "genitiv": "des heiligen Franz von Assisi",
           "comm_1": "Mann_Ord",
-          "ant_ev": "Franziskus, arm und gering auf Erden, zieht reich in den Himmel ein, und festlicher Gesang erklingt zu seiner Ehre.",
+          "antEv": "Franziskus, arm und gering auf Erden, zieht reich in den Himmel ein, und festlicher Gesang erklingt zu seiner Ehre.",
           "oration": "Gott, du Vater der Armen, du hast den heiligen Franz von Assisi auserwählt, in vollkommener Armut und Demut Christus ähnlich zu werden. Mache uns bereit, auf den Spuren des heiligen Franz deinem Sohn nachzufolgen, damit wir in Freude und Liebe mit dir verbunden bleiben.^ORV"
         },
         "Vesper": {
           "comm_1": "Mann_Ord",
-          "ant_ev": "Im Kreuze unseres Herrn Jesus Christus muss ich mich rühmen, denn ich trage die Male Jesu an meinem Leib.",
+          "antEv": "Im Kreuze unseres Herrn Jesus Christus muss ich mich rühmen, denn ich trage die Male Jesu an meinem Leib.",
           "oration": "Gott, du Vater der Armen, du hast den heiligen Franz von Assisi auserwählt, in vollkommener Armut und Demut Christus ähnlich zu werden. Mache uns bereit, auf den Spuren des heiligen Franz deinem Sohn nachzufolgen, damit wir in Freude und Liebe mit dir verbunden bleiben.^ORV"
         }
       }
@@ -5670,12 +5670,12 @@ export const adlibData = {
           "button": "Hl. Hedwig",
           "genitiv": "der heiligen Hedwig",
           "comm_1": "Frau_Liebe",
-          "ant_ev": "Gottes Wille sei auch unser Wille. Was immer unserem Herrn gefällt, soll auch uns gefallen.",
+          "antEv": "Gottes Wille sei auch unser Wille. Was immer unserem Herrn gefällt, soll auch uns gefallen.",
           "oration": "Allmächtiger Gott, du hast die heilige Herzogin Hedwig zu einer Botin des Friedens gemacht und ihr die Gnade geschenkt, inmitten weltlicher Aufgaben ein Beispiel barmherziger Liebe zu geben. Hilf auf ihre Fürsprache auch uns, für Versöhnung und Frieden unter den Menschen zu wirken und dir in den Notleidenden zu dienen.^ORV"
         },
         "Vesper": {
           "comm_1": "Frau_Liebe",
-          "ant_ev": "Hedwig, du große Frau, im Himmelreich gekrönt, vergiss der Heimatlosen nicht in diesem Tal der Tränen.",
+          "antEv": "Hedwig, du große Frau, im Himmelreich gekrönt, vergiss der Heimatlosen nicht in diesem Tal der Tränen.",
           "oration": "Allmächtiger Gott, du hast die heilige Herzogin Hedwig zu einer Botin des Friedens gemacht und ihr die Gnade geschenkt, inmitten weltlicher Aufgaben ein Beispiel barmherziger Liebe zu geben. Hilf auf ihre Fürsprache auch uns, für Versöhnung und Frieden unter den Menschen zu wirken und dir in den Notleidenden zu dienen.^ORV"
         }
       },
@@ -5735,13 +5735,13 @@ export const adlibData = {
           "genitiv": "des heiligen Ignatius",
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
-          "ant_ev": "Ihn suche ich, der für uns starb, nach ihm verlange ich, der für uns auferstand.",
+          "antEv": "Ihn suche ich, der für uns starb, nach ihm verlange ich, der für uns auferstand.",
           "oration": "Allmächtiger, ewiger Gott, das Blutzeugnis deiner Märtyrer ist der Ruhm der ganzen Kirche. Gib, dass das glorreiche Leiden, das den heiligen Ignatius zur ewigen Herrlichkeit führte, uns deinen beständigen Schutz erwirke.^ORV"
         },
         "Vesper": {
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
-          "ant_ev": "Gottes Brot will ich essen, das Fleisch Jesu Christi, aus Davids Samen stammt, und sein Blut will ich trinken, die unvergängliche Liebe.",
+          "antEv": "Gottes Brot will ich essen, das Fleisch Jesu Christi, aus Davids Samen stammt, und sein Blut will ich trinken, die unvergängliche Liebe.",
           "oration": "Allmächtiger, ewiger Gott, das Blutzeugnis deiner Märtyrer ist der Ruhm der ganzen Kirche. Gib, dass das glorreiche Leiden, das den heiligen Ignatius zur ewigen Herrlichkeit führte, uns deinen beständigen Schutz erwirke.^ORV"
         }
       }
@@ -6088,12 +6088,12 @@ export const adlibData = {
           "nominativ": "Der heilige Martin",
           "genitiv": "des heiligen Martin",
           "comm_1": "Mann_Ord",
-          "ant_ev": "Gepriesen sei der Herr, denn er hat allen Völkern Erlösung geschaffen und sie aus der Finsternis in sein wunderbares Licht gerufen.",
+          "antEv": "Gepriesen sei der Herr, denn er hat allen Völkern Erlösung geschaffen und sie aus der Finsternis in sein wunderbares Licht gerufen.",
           "oration": "Barmherziger Gott, du hast den heiligen Martin von Porres auf dem Weg der Armut zur himmlischen Herrlichkeit geführt. Mit großer Hingabe hat er den Notleidenden seiner Vaterstadt gedient. Wecke auch in uns die Bereitschaft, den Mitmenschen in Not und Krankheit beizustehen, und lass uns zusammen mit ihnen die Fülle des Lebens empfangen.^ORV"
         },
         "Vesper": {
           "comm_1": "Mann_Ord",
-          "ant_ev": "Lasst und preisen die Größe des Herrn, der seinen niedrigen Knecht erhöht und mit himmlischen Gaben bekleidet hat!",
+          "antEv": "Lasst und preisen die Größe des Herrn, der seinen niedrigen Knecht erhöht und mit himmlischen Gaben bekleidet hat!",
           "oration": "Barmherziger Gott, du hast den heiligen Martin von Porres auf dem Weg der Armut zur himmlischen Herrlichkeit geführt. Mit großer Hingabe hat er den Notleidenden seiner Vaterstadt gedient. Wecke auch in uns die Bereitschaft, den Mitmenschen in Not und Krankheit beizustehen, und lass uns zusammen mit ihnen die Fülle des Lebens empfangen.^ORV"
         }
       },
@@ -6200,12 +6200,12 @@ export const adlibData = {
           "button": "Hl. Willibrord",
           "genitiv": "des heiligen Willibrord",
           "comm_1": "Hirten",
-          "ant_ev": "Wie herrlich leuchten die Taten des heiligen Willibrord! Vielen Völkern hat er das Licht des Glaubens gebracht; ewiger Lohn wurde ihm zuteil.",
+          "antEv": "Wie herrlich leuchten die Taten des heiligen Willibrord! Vielen Völkern hat er das Licht des Glaubens gebracht; ewiger Lohn wurde ihm zuteil.",
           "oration": "Gott, du Heil aller Menschen, du hast den heiligen Bischof Willibrord gesandt, vielen Völkern die Frohe Botschaft zu verkünden (und unsere Väter im Glauben zu festigen). Höre auf seine Fürsprache und hilf, dass auch wir deine Güte in Wort und Tat bezeugen, damit deine Kirche erstarke und wachse.^ORV"
         },
         "Vesper": {
           "comm_1": "Hirten",
-          "ant_ev": "Heiliger Willibrord, du hast die Freude des Paradieses erlangt. Bitte bei Gott für alle, die in Not und Bedrängnis zu dir rufen.",
+          "antEv": "Heiliger Willibrord, du hast die Freude des Paradieses erlangt. Bitte bei Gott für alle, die in Not und Bedrängnis zu dir rufen.",
           "oration": "Gott, du Heil aller Menschen, du hast den heiligen Bischof Willibrord gesandt, vielen Völkern die Frohe Botschaft zu verkünden (und unsere Väter im Glauben zu festigen). Höre auf seine Fürsprache und hilf, dass auch wir deine Güte in Wort und Tat bezeugen, damit deine Kirche erstarke und wachse.^ORV"
         }
       }
@@ -6231,12 +6231,12 @@ export const adlibData = {
           "genitiv": "des heiligen Leo",
           "vokativ": "Heiliger Leo",
           "comm_1": "Hirten_Kl",
-          "ant_ev": "Der Herr hat Petrus die Festigkeit eines Felsens verliehen und ihm die Leitung seiner Kirche anvertraut. Was Christus ihm übergab, hat Petrus treu bewahrt.",
+          "antEv": "Der Herr hat Petrus die Festigkeit eines Felsens verliehen und ihm die Leitung seiner Kirche anvertraut. Was Christus ihm übergab, hat Petrus treu bewahrt.",
           "oration": "Gott, du hast deine Kirche auf den festen Glauben der Apostel gebaut und lässt nicht zu, dass die Pforten der Hölle sie überwältigen. Auf die Fürsprache des heiligen Papstes Leo stärke in der Kirche den Glauben und schenke ihr Einheit und Frieden.^ORV"
         },
         "Vesper": {
           "comm_1": "Hirten_Kl",
-          "ant_ev": "Tag für Tag legt Petrus durch die Kirche das Bekenntnis ab: Du bist der Messias, der Sohn des lebendigen Gottes.",
+          "antEv": "Tag für Tag legt Petrus durch die Kirche das Bekenntnis ab: Du bist der Messias, der Sohn des lebendigen Gottes.",
           "oration": "Gott, du hast deine Kirche auf den festen Glauben der Apostel gebaut und lässt nicht zu, dass die Pforten der Hölle sie überwältigen. Auf die Fürsprache des heiligen Papstes Leo stärke in der Kirche den Glauben und schenke ihr Einheit und Frieden.^ORV"
         }
       }
@@ -6410,12 +6410,12 @@ export const adlibData = {
         "Laudes": {
           "button": "Weihetag der Basiliken St. Peter und St. Paul zu Rom",
           "comm_1": "Apostel",
-          "ant_ev": "Petrus, der Apostel, und Paulus, der Lehrer der Völker, sie haben uns dein Gesetz gelehrt, o°Herr.",
+          "antEv": "Petrus, der Apostel, und Paulus, der Lehrer der Völker, sie haben uns dein Gesetz gelehrt, o°Herr.",
           "oration": "Ewiger Gott, steh deiner Kirche bei und bewahre sie unter dem Schutz der Apostel Petrus und Paulus, von denen sie den Glauben und das Leben in Christus empfangen hat. Lass sie wachsen in deiner Gnade bis ans Ende der Zeiten.^ORV"
         },
         "Vesper": {
           "comm_1": "Apostel",
-          "ant_ev": "Der Leib der Heiligen ist in Frieden bestattet, ihr Name lebt fort auf ewig.",
+          "antEv": "Der Leib der Heiligen ist in Frieden bestattet, ihr Name lebt fort auf ewig.",
           "oration": "Ewiger Gott, steh deiner Kirche bei und bewahre sie unter dem Schutz der Apostel Petrus und Paulus, von denen sie den Glauben und das Leben in Christus empfangen hat. Lass sie wachsen in deiner Gnade bis ans Ende der Zeiten.^ORV"
         }
       }
@@ -6440,12 +6440,12 @@ export const adlibData = {
           "button": "Unsere Liebe Frau in Jerusalem",
           "farbe": "m",
           "comm_1": "Maria",
-          "ant_ev": "Selig bist du, Maria, weil du geglaubt hast. Was dir vom Herrn gesagt ist, wird sich an dir erfüllen.",
+          "antEv": "Selig bist du, Maria, weil du geglaubt hast. Was dir vom Herrn gesagt ist, wird sich an dir erfüllen.",
           "oration": "Gütiger Gott, wir gedenken am heutigen Tag der seligen Jungfrau Maria, die du mit der Fülle deiner Gnade beschenkt hast. Höre auf ihre Fürsprache und lass auch uns am Reichtum deiner Gnade teilhaben, damit wir mit ganzer Hingabe und frohem Vertrauen vor dir leben.^ORV"
         },
         "Vesper": {
           "comm_1": "Maria",
-          "ant_ev": "Selige Mutter Gottes, Maria, allzeit reine Jungfrau, Wohnstatt des Herrn, Tempel des Heiligen Geistes. Wie keine hast du Christus, dem Herrn, gefallen.",
+          "antEv": "Selige Mutter Gottes, Maria, allzeit reine Jungfrau, Wohnstatt des Herrn, Tempel des Heiligen Geistes. Wie keine hast du Christus, dem Herrn, gefallen.",
           "oration": "Gütiger Gott, wir gedenken am heutigen Tag der seligen Jungfrau Maria, die du mit der Fülle deiner Gnade beschenkt hast. Höre auf ihre Fürsprache und lass auch uns am Reichtum deiner Gnade teilhaben, damit wir mit ganzer Hingabe und frohem Vertrauen vor dir leben.^ORV"
         }
       }
@@ -6474,13 +6474,13 @@ export const adlibData = {
           "genitiv": "der heiligen Cäcilia",
           "comm_1": "MärtSg_Jgfr",
           "comm_2": "Jgfr_Märt",
-          "ant_ev": "Als die Nacht zu Ende ging, rief Cäcilia: Auf, ihr Streiter Christi, legt ab die Werke der Finsternis und zieht die Waffen des Lichtes an.",
+          "antEv": "Als die Nacht zu Ende ging, rief Cäcilia: Auf, ihr Streiter Christi, legt ab die Werke der Finsternis und zieht die Waffen des Lichtes an.",
           "oration": "Großer Gott, du hast uns geschaffen, damit wir dich loben und preisen. Erhöre auf die Fürsprache der heiligen Cäcilia unser Gebet und lass uns mit Freude und Hingabe dein Lob verkünden.^ORV"
         },
         "Vesper": {
           "comm_1": "MärtSg_Jgfr",
           "comm_2": "Jgfr_Märt",
-          "ant_ev": "Die Jungfrau Cäcilia trug die Frohe Botschaft allzeit in ihrem Herzen. Bei Tag und Nacht ließ sie nicht ab von geistlichen Gesprächen und vom Gebet.",
+          "antEv": "Die Jungfrau Cäcilia trug die Frohe Botschaft allzeit in ihrem Herzen. Bei Tag und Nacht ließ sie nicht ab von geistlichen Gesprächen und vom Gebet.",
           "oration": "Großer Gott, du hast uns geschaffen, damit wir dich loben und preisen. Erhöre auf die Fürsprache der heiligen Cäcilia unser Gebet und lass uns mit Freude und Hingabe dein Lob verkünden.^ORV"
         }
       }
@@ -6646,12 +6646,12 @@ export const adlibData = {
           "button": "Bischofsweihe des hl. Bonifatius",
           "genitiv": "des heiligen Bonifatius",
           "comm_1": "Hirten",
-          "ant_ev": "Jeder Hohepriester wird aus den Menschen ausgewählt und für die Menschen eingesetzt zum Dienst vor Gott. Keiner nimmt sich eigenmächtig diese Würde, sondern er wird von Gott berufen.",
+          "antEv": "Jeder Hohepriester wird aus den Menschen ausgewählt und für die Menschen eingesetzt zum Dienst vor Gott. Keiner nimmt sich eigenmächtig diese Würde, sondern er wird von Gott berufen.",
           "oration": "Ewiger Gott, bei seiner Bischofsweihe hat der heilige Bonifatius am Grab des heiligen Petrus ein feierliches Bekenntnis zum katholischen Glauben und zur Einheit der Kirche abgelegt. Erhalte dein Volk im gleichen Bekenntnis und sende ihm allzeit würdige Hirten.^ORV"
         },
         "Vesper": {
           "comm_1": "Hirten",
-          "ant_ev": "Dank sei dir, Christus, guter Hirte! Du hast mich zur Herrlichkeit geführt, gib auch der Herde, die du mir anvertraut hast, Anteil an deiner Gnade auf ewig.",
+          "antEv": "Dank sei dir, Christus, guter Hirte! Du hast mich zur Herrlichkeit geführt, gib auch der Herde, die du mir anvertraut hast, Anteil an deiner Gnade auf ewig.",
           "oration": "Ewiger Gott, bei seiner Bischofsweihe hat der heilige Bonifatius am Grab des heiligen Petrus ein feierliches Bekenntnis zum katholischen Glauben und zur Einheit der Kirche abgelegt. Erhalte dein Volk im gleichen Bekenntnis und sende ihm allzeit würdige Hirten.^ORV"
         }
       },
@@ -6954,13 +6954,13 @@ export const adlibData = {
           "genitiv": "des seligen Liborius Wagner",
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
-          "ant_ev": "Des alten Glaubens neuer Zeuge, ward Liborius in seinem Leiden den Märtyrern der frühen Kirche gleich. So sollte Gott in seinem treuen Knecht verherrlicht werden.",
+          "antEv": "Des alten Glaubens neuer Zeuge, ward Liborius in seinem Leiden den Märtyrern der frühen Kirche gleich. So sollte Gott in seinem treuen Knecht verherrlicht werden.",
           "oration": "Gott, du Vater aller Gläubigen, in deinem Dienst hat der Märtyrerpriester Liborius für die Wiedervereinigung der getrennten Christen gelebt und gelitten. Gib auch uns Ausdauer und Geduld, damit wir nicht müde werden, für die Einheit der Kirche zu wirken.^ORV"
         },
         "Vesper": {
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
-          "ant_ev": "Allen Folterungen, die je Tyrannen in ihrer Wut erdachten, wurde Liborius unterworfen. Er ertrug sie in der ungebrochenen Kraft des Zeugen Christi.",
+          "antEv": "Allen Folterungen, die je Tyrannen in ihrer Wut erdachten, wurde Liborius unterworfen. Er ertrug sie in der ungebrochenen Kraft des Zeugen Christi.",
           "oration": "Gott, du Vater aller Gläubigen, in deinem Dienst hat der Märtyrerpriester Liborius für die Wiedervereinigung der getrennten Christen gelebt und gelitten. Gib auch uns Ausdauer und Geduld, damit wir nicht müde werden, für die Einheit der Kirche zu wirken.^ORV"
         }
       },
@@ -7065,13 +7065,13 @@ export const adlibData = {
           "genitiv": "der heiligen Luzia",
           "comm_1": "MärtSg_Jgfr",
           "comm_2": "Jgfr_Märt",
-          "ant_ev": "Ich habe keinem anderen geopfert als dem lebendigen Gott. Nun, da mir nichts mehr geblieben ist, bringe ich mich selbst zum Opfer dar.",
+          "antEv": "Ich habe keinem anderen geopfert als dem lebendigen Gott. Nun, da mir nichts mehr geblieben ist, bringe ich mich selbst zum Opfer dar.",
           "oration": "Herr, unser Gott, wir feiern den Gedenktag der heiligen Jungfrau und Märtyrerin Luzia, die du uns als Fürsprecherin gegeben hast. Gibt, dass wir nach ihrem Beispiel als Kinder des Lichtes leben und einst in der Gemeinschaft der Heiligen den Glanz deiner Herrlichkeit schauen.^ORV"
         },
         "Vesper": {
           "comm_1": "MärtSg_Jgfr",
           "comm_2": "Jgfr_Märt",
-          "ant_ev": "Heilige Luzia, du Braut des Herrn! Weil du standhaft bliebst, hast du das Leben gewonnen. Den Reichtum dieser Welt hast du verachtet und durch dein Blut den Feind besiegt. Nun strahlt dein Licht inmitten der Engel.",
+          "antEv": "Heilige Luzia, du Braut des Herrn! Weil du standhaft bliebst, hast du das Leben gewonnen. Den Reichtum dieser Welt hast du verachtet und durch dein Blut den Feind besiegt. Nun strahlt dein Licht inmitten der Engel.",
           "oration": "Herr, unser Gott, wir feiern den Gedenktag der heiligen Jungfrau und Märtyrerin Luzia, die du uns als Fürsprecherin gegeben hast. Gibt, dass wir nach ihrem Beispiel als Kinder des Lichtes leben und einst in der Gemeinschaft der Heiligen den Glanz deiner Herrlichkeit schauen.^ORV"
         }
       }

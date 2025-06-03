@@ -45,7 +45,7 @@ export const SectionHeader = ({
     setLocalPrefComm
 }) => {
     const field = (hour === 'invitatorium' && provField === 'ps_1')
-        ? 'ant_0' : provField;
+        ? 'ant0' : provField;
     const invPsalms = (hour === 'invitatorium' && title === 'PSALMODIE')
         ? texts?.invitatorium?.psalms : null;
     const isCommemoration = texts?.isCommemoration || false
@@ -66,14 +66,14 @@ export const SectionHeader = ({
             !field.startsWith('hymn_') && field !== 'oration') ||
         ((hour === 'laudes' || hour === 'vesper') &&  // Laudes/Vesper Psalmodie
             (field.startsWith('ps_') ||
-                (field.startsWith('ant_') && !field.startsWith('ant_ev'))
+                (field.startsWith('ant') && !field.startsWith('antEv'))
             )) ||
         ['terz', 'sext', 'non'].includes(hour)) // Kleinen Horen: ganz vom Wt
     ) { skipCommune = true };
 
     if (rank_date < 5 &&    // an Festen: Ant und Ps in Kleinen Horen vom Wt
         ['terz', 'sext', 'non'].includes(hour) &&
-        (field.startsWith('ps_') || field.startsWith('ant_'))
+        (field.startsWith('ps_') || field.startsWith('ant'))
     ) { skipCommune = true };
 
     if (isCommemoration) { skipCommune = true }

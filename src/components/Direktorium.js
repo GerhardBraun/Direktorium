@@ -1472,9 +1472,9 @@ const PrayerTextDisplay = ({
         {(getValue("ps_1") || hour === "invitatorium") && (
           <div className="mb-0">
             <SectionHeader title="PSALMODIE" field="ps_1" />
-            {getValue("ant_0") && (
+            {getValue("ant0") && (
               <div className="mb-4">
-                {formatPrayerText(getValue("ant_0"), "Ant.°°")}
+                {formatPrayerText(getValue("ant0"), "Ant.°°")}
               </div>
             )}
             {hour === "invitatorium" &&
@@ -1486,7 +1486,7 @@ const PrayerTextDisplay = ({
             {hour !== "invitatorium" &&
               [1, 2, 3].map((num) => {
                 const psalm = getValue(`ps_${num}`);
-                const ant = getValue(`ant_${num}`);
+                const ant = getValue(`ant${num}`);
                 if (!psalm && !ant) return null;
 
                 return (
@@ -1506,8 +1506,8 @@ const PrayerTextDisplay = ({
                   </div>
                 );
               })}
-            {getValue("ant_0") && (
-              <div>{formatPrayerText(getValue("ant_0"), "Ant.°°")}</div>
+            {getValue("ant0") && (
+              <div>{formatPrayerText(getValue("ant0"), "Ant.°°")}</div>
             )}
           </div>
         )}
@@ -1691,20 +1691,20 @@ const PrayerTextDisplay = ({
           <div className="mb-0">
             <SectionHeader
               title={ordinariumTexts.titel}
-              field="ant_ev"
+              field="antEv"
               askLatin={true}
             />
-            {getValue("ant_ev") && (
+            {getValue("antEv") && (
               <div className="mb-4">
-                {formatPrayerText(getValue("ant_ev"), "Ant.°°")}
+                {formatPrayerText(getValue("antEv"), "Ant.°°")}
               </div>
             )}
             <div className="mb-4">
               {formatPrayerText(ordinariumTexts.cant)}
             </div>
-            {getValue("ant_ev") && (
+            {getValue("antEv") && (
               <div className="mb-0">
-                {formatPrayerText(getValue("ant_ev"), "Ant.°°")}
+                {formatPrayerText(getValue("antEv"), "Ant.°°")}
               </div>
             )}
           </div>
@@ -1877,14 +1877,14 @@ const PrayerTextDisplay = ({
                 </div>
               )}
 
-              {getValue("c_ant_ev") && useCommemoration && (
+              {getValue("c_antEv") && useCommemoration && (
                 <div className="mb-0">
                   <SectionHeader
                     title={`${ordinariumTexts.titel}-ANTIPHON`}
-                    field="ant_ev"
+                    field="antEv"
                   />
                   <div className="mb-4">
-                    {formatPrayerText(getValue("c_ant_ev"))}
+                    {formatPrayerText(getValue("c_antEv"))}
                   </div>
                 </div>
               )}

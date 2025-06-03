@@ -46,7 +46,7 @@ export const getValue = ({ hour, texts, field,
 
         // Sonderfall Ergänzungspsalmodie
         if ((field.startsWith('ps_') ||
-            (field.startsWith('ant_') && !field.startsWith('ant_ev'))
+            (field.startsWith('ant') && !field.startsWith('antEv'))
         ) && (isSollemnity || (localPrefErgPs && isTSN))
         ) {
             let sollSource = prefSollemnity ? prefSollemnity : 'soll';
@@ -61,7 +61,7 @@ export const getValue = ({ hour, texts, field,
             if (texts[hour][prefSrc]?.[field]) {
                 return texts[hour][prefSrc][field];
             }
-            if (field === 'ant_ev' && texts[hour][prefSrc]?.ant_komm) {
+            if (field === 'antEv' && texts[hour][prefSrc]?.ant_komm) {
                 return texts[hour][prefSrc].ant_komm;
             }
             if (texts[hour][prefSrc]?.com1?.[field]) {
@@ -77,13 +77,13 @@ export const getValue = ({ hour, texts, field,
 
                 ((hour === 'laudes' || hour === 'vesper') &&  // Laudes/Vesper Psalmodie
                     (field.startsWith('ps_') ||
-                        (field.startsWith('ant_') && !field.startsWith('ant_ev'))
+                        (field.startsWith('ant') && !field.startsWith('antEv'))
                     )) ||
                 isTSN) // Kleine Horen: ganz vom Wt
         ) { skipCommune = true }
 
         if (rank_date < 5 && isTSN &&  // an Festen: Ant und Ps in Kleinen Horen vom Wt
-            (field.startsWith('ps_') || field.startsWith('ant_'))
+            (field.startsWith('ps_') || field.startsWith('ant'))
         ) { skipCommune = true }
 
         if (isSollemnity) { skipCommune = false }
@@ -105,13 +105,13 @@ export const getValue = ({ hour, texts, field,
         if ((!isCommemoration && !(rank_date < 3 && isTSN)) // an Tagen mit Kommemoration und in Kl. Horen an Gedenktagen nur wt-Werte
             || isSollemnity) {
 
-            //Sonderfall Antiphonen: entweder ant_0 oder ant_1-3
-            if (field === 'ant_0' &&
-                (prefTexts?.ant_1 || prefCommTexts?.ant_1)
+            //Sonderfall Antiphonen: entweder ant0 oder ant1-3
+            if (field === 'ant0' &&
+                (prefTexts?.ant1 || prefCommTexts?.ant1)
             ) { return null }
 
-            if ((field === 'ant_1' || field === 'ant_2' || field === 'ant_3') &&
-                (prefTexts?.ant_0 || prefCommTexts?.ant_0)
+            if ((field === 'ant1' || field === 'ant2' || field === 'ant3') &&
+                (prefTexts?.ant0 || prefCommTexts?.ant0)
             ) { return null }
 
             //Sonderfall Wochentagspsalmen
