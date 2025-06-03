@@ -119,7 +119,8 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, localPrefK
                             // Prüfe auf gewünschte Sprache
                             const textField = `text${localPrefLanguage}`;
                             const titleField = `title${localPrefLanguage}`;
-                            const hymnText = hymnData?.[textField].replace('LEER', '')
+                            let hymnText = hymnData?.[textField]
+                            if (hymnText) { hymnText = hymnText.replace('LEER', '') }
 
                             // Nur hinzufügen, wenn der Text in der gewünschten Sprache existiert
                             if (!hymnText) return;
