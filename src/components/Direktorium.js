@@ -2164,6 +2164,10 @@ export default function LiturgicalCalendar() {
     document.documentElement.classList.toggle("dark", theme === "dark");
     document.body.classList.toggle("dark", theme === "dark");
     setLocalStorage("theme", theme);
+
+    // Pull-to-Refresh verhindern
+    document.documentElement.style.overscrollBehavior = 'none';
+    document.body.style.overscrollBehavior = 'none';
   }, [theme]);
 
   useEffect(() => {
