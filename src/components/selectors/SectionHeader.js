@@ -66,7 +66,7 @@ export const SectionHeader = ({
             !field.startsWith('hymn_') && field !== 'oration') ||
         ((hour === 'laudes' || hour === 'vesper') &&  // Laudes/Vesper Psalmodie
             (field.startsWith('psalm') ||
-                (field.startsWith('ant') && !field.startsWith('antEv'))
+                (field.startsWith('ant') && !field.startsWith('antev'))
             )) ||
         ['terz', 'sext', 'non'].includes(hour)) // Kleinen Horen: ganz vom Wt
     ) { skipCommune = true };

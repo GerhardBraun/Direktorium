@@ -119,9 +119,10 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, localPrefK
                             // Prüfe auf gewünschte Sprache
                             const textField = `text${localPrefLanguage}`;
                             const titleField = `title${localPrefLanguage}`;
+                            const hymnText = hymnData?.[textField].replace('LEER', '')
 
                             // Nur hinzufügen, wenn der Text in der gewünschten Sprache existiert
-                            if (!hymnData[textField]) return;
+                            if (!hymnText) return;
 
                             let sourceLabel;
 
@@ -148,7 +149,7 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, localPrefK
                             hymns.push({
                                 id: `${sourcePath.replace('.', '_')}_${hymnType}`,
                                 source: sourceLabel,
-                                text: hymnData[textField],
+                                text: hymnText,
                                 title: hymnData[titleField],
                                 hymnNumber,
                                 isNachtHymn: hymnType === 'hymn_nacht'

@@ -32,7 +32,7 @@ interface PersonalEntry {
   patr_resp1?: string;
   patr_resp2?: string;
   patr_resp3?: string;
-  antEv?: string;
+  antev?: string;
   bitten_e?: string;
   bitten_r?: string;
   bitten?: string;

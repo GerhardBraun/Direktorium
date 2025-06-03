@@ -403,15 +403,15 @@ function processTerzPsalms(hours) {
 
 function processBenMagnAntiphons(hours, date) {
     Object.keys(hours).forEach(hour => {
-        if (hours[hour].wt?.antA) {
+        if (hours[hour].wt?.anta) {
             const year = date.getFullYear();
             const remainder = year % 3;
 
-            let antField = remainder === 1 ? 'antA' :
-                remainder === 2 ? 'antB' : 'antC';
+            let antField = remainder === 1 ? 'anta' :
+                remainder === 2 ? 'antb' : 'antc';
 
             if (hours[hour].wt[antField]) {
-                hours[hour].wt.antEv = hours[hour].wt[antField];
+                hours[hour].wt.antev = hours[hour].wt[antField];
             }
         }
     });

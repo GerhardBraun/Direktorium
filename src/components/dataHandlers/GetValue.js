@@ -46,7 +46,7 @@ export const getValue = ({ hour, texts, field,
 
         // Sonderfall Ergänzungspsalmodie
         if ((field.startsWith('psalm') ||
-            (field.startsWith('ant') && !field.startsWith('antEv'))
+            (field.startsWith('ant') && !field.startsWith('antev'))
         ) && (isSollemnity || (localPrefErgPs && isTSN))
         ) {
             let sollSource = prefSollemnity ? prefSollemnity : 'soll';
@@ -61,7 +61,7 @@ export const getValue = ({ hour, texts, field,
             if (texts[hour][prefSrc]?.[field]) {
                 return texts[hour][prefSrc][field];
             }
-            if (field === 'antEv' && texts[hour][prefSrc]?.ant_komm) {
+            if (field === 'antev' && texts[hour][prefSrc]?.ant_komm) {
                 return texts[hour][prefSrc].ant_komm;
             }
             if (texts[hour][prefSrc]?.com1?.[field]) {
@@ -77,7 +77,7 @@ export const getValue = ({ hour, texts, field,
 
                 ((hour === 'laudes' || hour === 'vesper') &&  // Laudes/Vesper Psalmodie
                     (field.startsWith('psalm') ||
-                        (field.startsWith('ant') && !field.startsWith('antEv'))
+                        (field.startsWith('ant') && !field.startsWith('antev'))
                     )) ||
                 isTSN) // Kleine Horen: ganz vom Wt
         ) { skipCommune = true }

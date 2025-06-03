@@ -1691,20 +1691,20 @@ const PrayerTextDisplay = ({
           <div className="mb-0">
             <SectionHeader
               title={ordinariumTexts.titel}
-              field="antEv"
+              field="antev"
               askLatin={true}
             />
-            {getValue("antEv") && (
+            {getValue("antev") && (
               <div className="mb-4">
-                {formatPrayerText(getValue("antEv"), "Ant.°°")}
+                {formatPrayerText(getValue("antev"), "Ant.°°")}
               </div>
             )}
             <div className="mb-4">
               {formatPrayerText(ordinariumTexts.cant)}
             </div>
-            {getValue("antEv") && (
+            {getValue("antev") && (
               <div className="mb-0">
-                {formatPrayerText(getValue("antEv"), "Ant.°°")}
+                {formatPrayerText(getValue("antev"), "Ant.°°")}
               </div>
             )}
           </div>
@@ -1881,7 +1881,7 @@ const PrayerTextDisplay = ({
                 <div className="mb-0">
                   <SectionHeader
                     title={`${ordinariumTexts.titel}-ANTIPHON`}
-                    field="antEv"
+                    field="antev"
                   />
                   <div className="mb-4">
                     {formatPrayerText(getValue("c_antEv"))}

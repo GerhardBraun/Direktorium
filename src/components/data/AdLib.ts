@@ -18,7 +18,7 @@ interface LaudesData {
   vokativ: string;
   comm_1?: string;
   comm_2?: string;
-  antEv?: string;
+  antev?: string;
   ant_komm?: string;
   oration?: string;
 }
@@ -32,7 +32,7 @@ interface ErsteVData {
 interface VesperData {
   comm_1?: string;
   comm_2?: string;
-  antEv?: string;
+  antev?: string;
   ant_komm?: string;
   oration?: string;
 }
@@ -80,13 +80,13 @@ export const adlibData = {
           "vokativ": "Heiliger Basilius und heiliger Gregor",
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
-          "antEv": "Die Weisen werden strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig.",
+          "antev": "Die Weisen werden strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig.",
           "oration": "Gott, unser Vater, du hast deiner Kirche in den Bischöfen Basilius und Gregor heilige Hirten gegeben, die uns durch ihre Lehre und ihr Leben den Weg der Wahrheit zeigen. Hilf uns auf ihre Fürsprache, dein Wort in Demut aufzunehmen und in Werken der Liebe zu bezeugen.^ORV"
         },
         "Vesper": {
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
-          "antEv": "Wer Gottes Gebote hält und sie halten lehrt, wird groß sein im Himmelreich.",
+          "antev": "Wer Gottes Gebote hält und sie halten lehrt, wird groß sein im Himmelreich.",
           "oration": "Gott, unser Vater, du hast deiner Kirche in den Bischöfen Basilius und Gregor heilige Hirten gegeben, die uns durch ihre Lehre und ihr Leben den Weg der Wahrheit zeigen. Hilf uns auf ihre Fürsprache, dein Wort in Demut aufzunehmen und in Werken der Liebe zu bezeugen.^ORV"
         }
       }
@@ -463,12 +463,12 @@ export const adlibData = {
           "button": "Hl. Timotheus und hl. Titus",
           "genitiv": "der Heiligen Timotheus und Titus",
           "comm_1": "Hirten",
-          "antEv": "Verkünde das Wort, tritt dafür ein, ob man es hören will oder nicht; weise zurecht, tadle und ermahne in geduldiger Belehrung.",
+          "antev": "Verkünde das Wort, tritt dafür ein, ob man es hören will oder nicht; weise zurecht, tadle und ermahne in geduldiger Belehrung.",
           "oration": "Gott, unser Vater, du hast die Apostelschüler Timotheus und Titus mit den Gaben des Heiligen Geistes beschenkt und sie deiner Kirche als Hirten gegeben. Höre auf ihre Fürsprache und hilf uns, dass wir gerecht und fromm in dieser Welt leben und so zur Gemeinschaft mit deinen Heiligen gelangen.^ORV"
         },
         "Vesper": {
           "comm_1": "Hirten",
-          "antEv": "Gerecht und heilig wollen wir leben in der Hoffnung auf die Wiederkunft des Herrn.",
+          "antev": "Gerecht und heilig wollen wir leben in der Hoffnung auf die Wiederkunft des Herrn.",
           "oration": "Gott, unser Vater, du hast die Apostelschüler Timotheus und Titus mit den Gaben des Heiligen Geistes beschenkt und sie deiner Kirche als Hirten gegeben. Höre auf ihre Fürsprache und hilf uns, dass wir gerecht und fromm in dieser Welt leben und so zur Gemeinschaft mit deinen Heiligen gelangen.^ORV"
         }
       }
@@ -527,12 +527,12 @@ export const adlibData = {
           "genitiv": "des heiligen Thomas",
           "vokativ": "Heiliger Thomas",
           "comm_1": "Hirten_Kl",
-          "antEv": "Gepriesen sei der Herr! Aus Liebe zu ihm hat Thomas geforscht, hat Nächte durchwacht und sich abgemüht.",
+          "antev": "Gepriesen sei der Herr! Aus Liebe zu ihm hat Thomas geforscht, hat Nächte durchwacht und sich abgemüht.",
           "oration": "Gott, du Quell der Weisheit, du hast dem heiligen Thomas von Aquin ein leidenschaftliches Verlangen geschenkt, nach Heiligkeit zu streben und deine Wahrheit zu erfassen. Hilf uns verstehen, was er gelehrt, und nachahmen, was er uns vorgelebt hat.^ORV"
         },
         "Vesper": {
           "comm_1": "Hirten_Kl",
-          "antEv": "Gott gab ihm Weisheit in Fülle; redlich mühte er sich, sie zu erfassen, und gab sie selbstlos weiter.",
+          "antev": "Gott gab ihm Weisheit in Fülle; redlich mühte er sich, sie zu erfassen, und gab sie selbstlos weiter.",
           "oration": "Gott, du Quell der Weisheit, du hast dem heiligen Thomas von Aquin ein leidenschaftliches Verlangen geschenkt, nach Heiligkeit zu streben und deine Wahrheit zu erfassen. Hilf uns verstehen, was er gelehrt, und nachahmen, was er uns vorgelebt hat.^ORV"
         }
       }
@@ -656,13 +656,13 @@ export const adlibData = {
           "genitiv": "der heiligen Agatha",
           "comm_1": "MärtSg_Jgfr",
           "comm_2": "Jgfr",
-          "antEv": "Vor Freude strahlend, ging Agatha in den Kerker, als ginge sie zu einem Gastmahl, und betend empfahl sie dem Herrn ihren Kampf.",
+          "antev": "Vor Freude strahlend, ging Agatha in den Kerker, als ginge sie zu einem Gastmahl, und betend empfahl sie dem Herrn ihren Kampf.",
           "oration": "Allmächtiger Gott, du hast die heilige Agatha zur Jungfräulichkeit um Christi willen berufen und ihr die Gnade des Martyriums geschenkt. Höre auf ihre Fürsprache und hilf uns, in aller Bedrängnis auszuharren und dir in Lauterkeit und Treue zu dienen.^ORV"
         },
         "Vesper": {
           "comm_1": "MärtSg_Jgfr",
           "comm_2": "Jgfr",
-          "antEv": "Herr Jesus Christus, guter Meister, ich sage dir Dank. Du gabst mir Kraft, die Folter zu bestehen. Nun nimm mich auf in deine Herrlichkeit, die niemals enden wird.",
+          "antev": "Herr Jesus Christus, guter Meister, ich sage dir Dank. Du gabst mir Kraft, die Folter zu bestehen. Nun nimm mich auf in deine Herrlichkeit, die niemals enden wird.",
           "oration": "Allmächtiger Gott, du hast die heilige Agatha zur Jungfräulichkeit um Christi willen berufen und ihr die Gnade des Martyriums geschenkt. Höre auf ihre Fürsprache und hilf uns, in aller Bedrängnis auszuharren und dir in Lauterkeit und Treue zu dienen.^ORV"
         }
       }
@@ -772,7 +772,7 @@ export const adlibData = {
           "nominativ": "Die heilige Scholastika",
           "genitiv": "der heiligen Scholastika",
           "comm_1": "Jgfr",
-          "antEv": "Die kluge Jungfrau ging Christus entgegen. Wie die Sonne strahlt sie im Chor der Heiligen.",
+          "antev": "Die kluge Jungfrau ging Christus entgegen. Wie die Sonne strahlt sie im Chor der Heiligen.",
           "oration": "Erhabener Gott, wir begehen das Gedächtnis der heiligen Jungfrau Scholastika. Lass uns nach ihrem Beispiel dir stets in aufrichtiger Liebe dienen und gewähre uns in deiner Güte einst einen seligen Heimgang zu dir.^ORV"
         },
         "Vesper": {
@@ -801,13 +801,13 @@ export const adlibData = {
           "button": "U.L.Fr. in Lourdes",
           "farbe": "m",
           "comm_1": "Maria",
-          "antEv": "Du Morgenröte des Heils, Jungfrau Maria! Aus dir ging hervor die Sonne der Gerechtigkeit, Christus, das aufstrahlende Licht aus der Höhe.",
+          "antev": "Du Morgenröte des Heils, Jungfrau Maria! Aus dir ging hervor die Sonne der Gerechtigkeit, Christus, das aufstrahlende Licht aus der Höhe.",
           "ant_komm": "Du Morgenröte des Heils, Jungfrau Maria! Aus dir ging hervor die Sonne der Gerechtigkeit, Christus, das aufstrahlende Licht aus der Höhe.",
           "oration": "Barmherziger Gott, in unserer Schwachheit suchen wir bei dir Hilfe und Schutz. Höre auf die Fürsprache der jungfräulichen Gottesmutter Maria, die du vor der Erbschuld bewahrt hast, und heile uns von aller Krankheit des Leibes und der Seele.^ORV"
         },
         "Vesper": {
           "comm_1": "Maria",
-          "antEv": "Gegrüßet seist du, Maria, voll der Gnade; der Herr ist mit dir. Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes.",
+          "antev": "Gegrüßet seist du, Maria, voll der Gnade; der Herr ist mit dir. Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes.",
           "ant_komm": "Gegrüßet seist du, Maria, voll der Gnade; der Herr ist mit dir. Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes.",
           "oration": "Barmherziger Gott, in unserer Schwachheit suchen wir bei dir Hilfe und Schutz. Höre auf die Fürsprache der jungfräulichen Gottesmutter Maria, die du vor der Erbschuld bewahrt hast, und heile uns von aller Krankheit des Leibes und der Seele.^ORV"
         }
@@ -960,12 +960,12 @@ export const adlibData = {
           "button": "Hl. Polykarp",
           "farbe": "r",
           "comm_1": "MärtSg",
-          "antEv": "Sechsundachtzig Jahre habe ich Christus gedient und habe von ihm kein Unrecht erfahren. Wie könnte ich meinen König schmähen, der mich erlöst hat!",
+          "antev": "Sechsundachtzig Jahre habe ich Christus gedient und habe von ihm kein Unrecht erfahren. Wie könnte ich meinen König schmähen, der mich erlöst hat!",
           "oration": "Gott, du Herr der ganzen Schöpfung, du hast den heiligen Bischof Polykarp zum standhaften Bekenntnis des Glaubens gestärkt und in die Schar deiner Märtyrer aufgenommen. Gib auch uns deine Kraft, wenn wir am Kelch des Leidens Christi teilhaben, damit wir auferstehen zum ewigen Leben.^ORV"
         },
         "Vesper": {
           "comm_1": "MärtSg",
-          "antEv": "Ich preise dich, Herr, allmächtiger Gott. Du nahmst mich auf in die Schar deiner Märtyrer und gabst mir Anteil am Kelch deines Gesalbten.",
+          "antev": "Ich preise dich, Herr, allmächtiger Gott. Du nahmst mich auf in die Schar deiner Märtyrer und gabst mir Anteil am Kelch deines Gesalbten.",
           "oration": "Gott, du Herr der ganzen Schöpfung, du hast den heiligen Bischof Polykarp zum standhaften Bekenntnis des Glaubens gestärkt und in die Schar deiner Märtyrer aufgenommen. Gib auch uns deine Kraft, wenn wir am Kelch des Leidens Christi teilhaben, damit wir auferstehen zum ewigen Leben.^ORV"
         }
       }
@@ -2608,7 +2608,7 @@ export const adlibData = {
           "button": "Unbeflecktes Herz Mariens",
           "farbe": "m",
           "comm_1": "Maria",
-          "antEv": "Mein Herz und mein Leib jauchzen ihm zu, ihm, dem lebendigen Gott.",
+          "antev": "Mein Herz und mein Leib jauchzen ihm zu, ihm, dem lebendigen Gott.",
           "oration": "Gott, du hast dem Heiligen Geist im Herzen der seligen Jungfrau Maria eine würdige Wohnung bereitet. Auf ihre Fürbitte hin erfülle auch unser Leben mit deiner Gegenwart und mache uns zu einem Tempeln deiner Herrlichkeit.^ORV"
         },
         "Vesper": {
@@ -2639,12 +2639,12 @@ export const adlibData = {
           "button": "Hl. Justin",
           "farbe": "r",
           "comm_1": "MärtSg",
-          "antEv": "Mit jeder Gabe, die wir opfern, loben wir den Schöpfer aller Dinge durch seinen Sohn Jesus Christus im Heiligen Geist.^ö",
+          "antev": "Mit jeder Gabe, die wir opfern, loben wir den Schöpfer aller Dinge durch seinen Sohn Jesus Christus im Heiligen Geist.^ö",
           "oration": "Gott, du hast den heiligen Märtyrer Justin in der Torheit des Kreuzes die erhabene Weisheit Jesu Christi erkennen lassen. Hilf uns auf seine Fürsprache, dass wir nicht falschen Lehren folgen, sondern im wahren Glauben feststehen.^ORV"
         },
         "Vesper": {
           "comm_1": "MärtSg",
-          "antEv": "Ein Feuer entbrannte in meinem Herzen, und es erfasste mich die Liebe zu den Propheten und zu all den Menschen, die Christi Freude sind.^ö",
+          "antev": "Ein Feuer entbrannte in meinem Herzen, und es erfasste mich die Liebe zu den Propheten und zu all den Menschen, die Christi Freude sind.^ö",
           "oration": "Gott, du hast den heiligen Märtyrer Justin in der Torheit des Kreuzes die erhabene Weisheit Jesu Christi erkennen lassen. Hilf uns auf seine Fürsprache, dass wir nicht falschen Lehren folgen, sondern im wahren Glauben feststehen.^ORV"
         }
       }
@@ -2754,12 +2754,12 @@ export const adlibData = {
           "button": "Hll. Eoban, Adelar und übrige Gefährten des hl. Bonifatius",
           "farbe": "r",
           "comm_1": "MärtPl",
-          "antEv": "Die mit dem heiligen Bonifatius die Saat des ewigen Lebens ausstreuten, waren ein Herz und eine Seele und erlangten vereint die eine Palme des Martyriums.",
+          "antev": "Die mit dem heiligen Bonifatius die Saat des ewigen Lebens ausstreuten, waren ein Herz und eine Seele und erlangten vereint die eine Palme des Martyriums.",
           "oration": "Allmächtiger und barmherziger Gott, durch die Predigt und das Zeugnis der heiligen Märtyrer Eoban, Adelar und Gefährten hast du vielen Menschen deinen Sohn als Erlöser geoffenbart. Höre auf ihre Fürsprache und festige uns im Glauben zum Lob und zur Ehre deines Namens.^ORV"
         },
         "Vesper": {
           "comm_1": "MärtPl",
-          "antEv": "Bonifatius sprach zu seinen Gefährten: Erschreckt nicht vor denen, die den Leib töten, die Seele aber nicht töten können; sondern freut euch im Herrn und nehmt standhaft den Tod auf euch, dann könnt ihr in Ewigkeit mit Christus herrschen.",
+          "antev": "Bonifatius sprach zu seinen Gefährten: Erschreckt nicht vor denen, die den Leib töten, die Seele aber nicht töten können; sondern freut euch im Herrn und nehmt standhaft den Tod auf euch, dann könnt ihr in Ewigkeit mit Christus herrschen.",
           "oration": "Allmächtiger und barmherziger Gott, durch die Predigt und das Zeugnis der heiligen Märtyrer Eoban, Adelar und Gefährten hast du vielen Menschen deinen Sohn als Erlöser geoffenbart. Höre auf ihre Fürsprache und festige uns im Glauben zum Lob und zur Ehre deines Namens.^ORV"
         }
       }
@@ -3154,7 +3154,7 @@ export const adlibData = {
           "genitiv": "des heiligen Irenäus",
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
-          "antEv": "Irenäus, wahrhaft ein Mann des Friedens, war voll Eifer bemüht um Frieden und Eintracht unter den Kirchen.",
+          "antev": "Irenäus, wahrhaft ein Mann des Friedens, war voll Eifer bemüht um Frieden und Eintracht unter den Kirchen.",
           "oration": "Gott der Wahrheit und des Friedens, in deiner Kraft hat der heilige Irenäus die wahre Lehre verteidigt und der Kirche den Frieden erhalten. Auf seine Fürsprache erneuere in uns den Glauben und die Liebe und mache uns bereit, Frieden und Eintracht zu fördern.^ORV"
         },
         "Vesper": {
@@ -3184,12 +3184,12 @@ export const adlibData = {
           "button": "Die ersten hll. Märtyrer der Stadt Rom",
           "farbe": "r",
           "comm_1": "MärtPl",
-          "antEv": "Die gewaltige Schar der Märtyrer verharrte in brüderlicher Liebe, denn EIN Geist und EIN Glaube beseelte sie.",
+          "antev": "Die gewaltige Schar der Märtyrer verharrte in brüderlicher Liebe, denn EIN Geist und EIN Glaube beseelte sie.",
           "oration": "Allmächtiger, ewiger Gott, du hast die Anfänge der Kirche von Rom durch das Blut vieler Märtyrer geheiligt. Das Opfer ihres Lebens werde uns zum Segen, ihr herrlicher Sieg stärke deine Kirche.^ORV"
         },
         "Vesper": {
           "comm_1": "MärtPl",
-          "antEv": "Im Leben haben sie Christus geliebt, im Tode sind sie ihm nachgefolgt; deshalb herrschen sie mit ihm auf ewig.",
+          "antev": "Im Leben haben sie Christus geliebt, im Tode sind sie ihm nachgefolgt; deshalb herrschen sie mit ihm auf ewig.",
           "oration": "Allmächtiger, ewiger Gott, du hast die Anfänge der Kirche von Rom durch das Blut vieler Märtyrer geheiligt. Das Opfer ihres Lebens werde uns zum Segen, ihr herrlicher Sieg stärke deine Kirche.^ORV"
         }
       },
@@ -3647,12 +3647,12 @@ export const adlibData = {
           "button": "Unsere Liebe Frau auf dem Berge Karmel",
           "farbe": "m",
           "comm_1": "Maria",
-          "antEv": "Im Gebete verlangte ich nach Weisheit, und wie die erste Frucht des Weinstocks erfreute sie mein Herz.",
+          "antev": "Im Gebete verlangte ich nach Weisheit, und wie die erste Frucht des Weinstocks erfreute sie mein Herz.",
           "oration": "Großer und heiliger Gott, du hast den Berg Karmel schon im Alten Bund durch das Wirken der Propheten ausgezeichnet und ihn auch im Neuen Bund zu einer Stätte der Beschauung erwählt, zu einem Heiligtum der jungfräulichen Mutter Maria. Gib uns auf ihre Fürsprache die Freude, im Gebet deine Nähe zu erfahren.^ORV"
         },
         "Vesper": {
           "comm_1": "Maria",
-          "antEv": "Maria hörte Gottes Wort und bewahrte es in ihrem Herzen.",
+          "antev": "Maria hörte Gottes Wort und bewahrte es in ihrem Herzen.",
           "oration": "Großer und heiliger Gott, du hast den Berg Karmel schon im Alten Bund durch das Wirken der Propheten ausgezeichnet und ihn auch im Neuen Bund zu einer Stätte der Beschauung erwählt, zu einem Heiligtum der jungfräulichen Mutter Maria. Gib uns auf ihre Fürsprache die Freude, im Gebet deine Nähe zu erfahren.^ORV"
         }
       }
@@ -3818,12 +3818,12 @@ export const adlibData = {
           "button": "Hll. Marta, Maria und Lazarus",
           "genitiv": "der Heiligen Marta, Maria und Lazarus",
           "comm_1": "Frau_Pl",
-          "antEv": "Marta sagte zu Jesus: Du bist der Messias, der Sohn des lebendigen Gottes, der in die Welt kommen soll.",
+          "antev": "Marta sagte zu Jesus: Du bist der Messias, der Sohn des lebendigen Gottes, der in die Welt kommen soll.",
           "oration": "Allmächtiger, ewiger Gott, die heilige Marta durfte deinen Sohn in ihr Haus aufnehmen und bewirten. Auf ihre Fürsprache hin mache uns bereit, in unseren Mitmenschen Christus zu dienen, damit wir einst bei dir Aufnahme finden.^ORV"
         },
         "Vesper": {
           "comm_1": "Frau_Pl",
-          "antEv": "Jesus liebte Marta und ihre Schwester Maria und ihren Bruder Lazarus.",
+          "antev": "Jesus liebte Marta und ihre Schwester Maria und ihren Bruder Lazarus.",
           "oration": "Allmächtiger, ewiger Gott, die heilige Marta durfte deinen Sohn in ihr Haus aufnehmen und bewirten. Auf ihre Fürsprache hin mache uns bereit, in unseren Mitmenschen Christus zu dienen, damit wir einst bei dir Aufnahme finden.^ORV"
         }
       },
@@ -3912,13 +3912,13 @@ export const adlibData = {
           "genitiv": "des heiligen Ignatius",
           "comm_1": "Hirten",
           "comm_2": "Mann_Ord",
-          "antEv": "Christus will ich erkennen und die Macht seiner Auferstehung und die Gemeinschaft mit seinem Leiden.",
+          "antev": "Christus will ich erkennen und die Macht seiner Auferstehung und die Gemeinschaft mit seinem Leiden.",
           "oration": "Allmächtiger, ewiger Gott, du hast den heiligen Ignatius von Loyola berufen, in der Nachfolge Christi zur größeren Ehre deines Namens zu wirken. Lass uns nach seinem Beispiel und mit seiner Hilfe auf Erden den guten Kampf bestehen, damit wir auch im Himmel den Siegeskranz empfangen.^ORV"
         },
         "Vesper": {
           "comm_1": "Hirten",
           "comm_2": "Mann_Ord",
-          "antEv": "Was nützt es einem Menschen, wenn er die ganze Welt gewinnt, dabei aber sein Leben verliert?",
+          "antev": "Was nützt es einem Menschen, wenn er die ganze Welt gewinnt, dabei aber sein Leben verliert?",
           "oration": "Allmächtiger, ewiger Gott, du hast den heiligen Ignatius von Loyola berufen, in der Nachfolge Christi zur größeren Ehre deines Namens zu wirken. Lass uns nach seinem Beispiel und mit seiner Hilfe auf Erden den guten Kampf bestehen, damit wir auch im Himmel den Siegeskranz empfangen.^ORV"
         }
       }
@@ -4021,7 +4021,7 @@ export const adlibData = {
           "comm_1": "Hirten",
           "patr_autor": "Johannes Maria Vianney († 1859)",
           "patr_werk": "Aus einer Katechese über das Gebet.",
-          "patr_text": "^hSchön ist die Aufgabe des Menschen: Gebet und Liebe^pSchaut, meine Lieben, der Schatz des Christen ist nicht auf der Erde, sondern im Himmel. Unser Denken muss sich also dahin richten, wo unser Schatz ist.^pDies ist die schöne Aufgabe des Menschen: zu beten und zu lieben. Wenn ihr betet und liebt, seht, das ist das Glück des Menschen auf Erden. Das Gebet ist nichts anderes als Vereinigung mit Gott. Wenn jemand ein reines, mit Gott verbundenes Herz hat, dann überkommt ihn ein berausschendes Gefühl von Wonne und Glück, ein Licht, das ihn wunderbar umleuchtet. In dieser tiefen Vereinigung sind Gott und die Seele wie zwei ineinander verschmolzene Kerzen, die keiner mehr trennen kann. Überaus schön ist die Vereinigung Gottes mit seinem geringen Geschöpf; es ist ein Glück, das niemand begreifen kann.^pWir waren nicht würdig, zu beten; aber Gott erlaubte uns in seiner Güte, mit ihm zu reden. Unser Gebet ist der Weihrauch, der ihm am besten gefällt.^pMeine Kinder, ihr habt ein enges Herz, aber das Gebet weitet es und macht es fähig, Gott zu lieben. Das Gebet gibt uns einen Vorgeschmack des Himmels, etwas vom Paradies steigt zu uns herab. Es lässt uns niemals ohne Süßigkeit zurück. Es ist Honig, der in der Seele fließt und alles versüßt. Im rechten Gebet schmelzen die Schmerzen wie Schnee in der Sonne.^pDas Gebet bewirkt, dass die Zeit schnell und mit solcher Freude voranschreitet, dass der Mensch die lange Dauer nicht merkt. Hört: Als ich Pfarrer in Bresse war und einmal fast alle meine Mitbrüder krank waren, betete ich auf den weiten Wegen zu Gott, und - glaubt mir - die Zeit schien mir nicht lang.^pEs gibt Menschen, die sich ganz ins Gebet versenken wie die Fische ins Meer, weil sie ganz Gott hingegeben sind. In ihrem Herzen gibt es keinen Zwiespalt. Wie sehr liebe ich diese hochherzigen Seelen! Der heilige Franz und die heilige Coleta sahen unsern Herrn und sprachen mit ihm so, wie wir miteinander reden.^pWenn wir dagegen zur Kirche kommen, wie oft wissen wir nicht, was wir tun oder auch nur was wir beten sollen! Wenn wir aber zu irgendeinem Menschen gehen, wissen wir gut, weshalb wir ihn aufsuchen. Ja, es gibt Menschen, die Gott zu sagen scheinen: 'Ich will dir nur zwei Worte sagen, damit du zu deinem Recht kommst'.^pWenn wir kommen, um den Herrn anzubeten, denke ich oftmals: Käme unser Gebet doch aus lebendigem Glauben und aus reinem Herzen, dann würden all unsere Wünsche erfüllt.",
+          "patr_text": "^hSchön ist die Aufgabe des Menschen: Gebet und Liebe^pSchaut, meine Lieben, der Schatz des Christen ist nicht auf der Erde, sondern im Himmel. Unser Denken muss sich also dahin richten, wo unser Schatz ist.^pDies ist die schöne Aufgabe des Menschen: zu beten und zu lieben. Wenn ihr betet und liebt, seht, das ist das Glück des Menschen auf Erden. Das Gebet ist nichts anderes als Vereinigung mit Gott. Wenn jemand ein reines, mit Gott verbundenes Herz hat, dann überkommt ihn ein berausschendes Gefühl von Wonne und Glück, ein Licht, das ihn wunderbar umleuchtet. In dieser tiefen Vereinigung sind Gott und die Seele wie zwei ineinander verschmolzene Kerzen, die keiner mehr trennen kann. Überaus schön ist die Vereinigung Gottes mit seinem geringen Geschöpf; es ist ein Glück, das niemand begreifen kann.^pWir waren nicht würdig, zu beten; aber Gott erlaubte uns in seiner Güte, mit ihm zu reden. Unser Gebet ist der Weihrauch, der ihm am besten gefällt.^pMeine Kinder, ihr habt ein enges Herz, aber das Gebet weitet es und macht es fähig, Gott zu lieben. Das Gebet gibt uns einen Vorgeschmack des Himmels, etwas vom Paradies steigt zu uns herab. Es lässt uns niemals ohne Süßigkeit zurück. Es ist Honig, der in der Seele fließt und alles versüßt. Im rechten Gebet schmelzen die Schmerzen wie Schnee in der Sonne.^pDas Gebet bewirkt, dass die Zeit schnell und mit solcher Freude voranschreitet, dass der Mensch die lange Dauer nicht merkt. Hört: Als ich Pfarrer in Bresse war und einmal fast alle meine Mitbrüder krank waren, betete ich auf den weiten Wegen zu Gott, und – glaubt mir – die Zeit schien mir nicht lang.^pEs gibt Menschen, die sich ganz ins Gebet versenken wie die Fische ins Meer, weil sie ganz Gott hingegeben sind. In ihrem Herzen gibt es keinen Zwiespalt. Wie sehr liebe ich diese hochherzigen Seelen! Der heilige Franz und die heilige Coleta sahen unsern Herrn und sprachen mit ihm so, wie wir miteinander reden.^pWenn wir dagegen zur Kirche kommen, wie oft wissen wir nicht, was wir tun oder auch nur was wir beten sollen! Wenn wir aber zu irgendeinem Menschen gehen, wissen wir gut, weshalb wir ihn aufsuchen. Ja, es gibt Menschen, die Gott zu sagen scheinen: „Ich will dir nur zwei Worte sagen, damit du zu deinem Recht kommst“.^pWenn wir kommen, um den Herrn anzubeten, denke ich oftmals: Käme unser Gebet doch aus lebendigem Glauben und aus reinem Herzen, dann würden all unsere Wünsche erfüllt.",
           "patr_resp1": "Was kein Auge gesehen und kein Ohr gehört hat, was keinem Menschen in den Sinn gekommen ist, das hat Gott denen bereitet, die ihn lieben.",
           "patr_resp2": "Die kleine Last unserer gegenwärtigen Not bringt uns dereinst ein Übermaß an Herrlichkeit.",
           "patr_resp3": "Gott hat es denen bereitet, die ihn lieben.",
@@ -4058,12 +4058,12 @@ export const adlibData = {
           "button": "Weihe der Basilika S. Maria Maggiore in Rom",
           "farbe": "m",
           "comm_1": "Maria",
-          "antEv": "Heilige Jungfrau und Gottesmutter Maria, gebenedeit bist du unter den Frauen, und gebenedeit ist die Frucht deines Leibes.",
+          "antev": "Heilige Jungfrau und Gottesmutter Maria, gebenedeit bist du unter den Frauen, und gebenedeit ist die Frucht deines Leibes.",
           "oration": "Barmherziger Gott, mit unserem eigenen Tun können wir vor dir nicht bestehen. Darum höre auf die Fürsprache der seligen Jungfrau Maria. Schau nicht auf unser Versagen, sondern sei uns gnädig und rette uns.^ORV"
         },
         "Vesper": {
           "comm_1": "Maria",
-          "antEv": "Heilige Maria, Mutter Gottes, bitte für uns Sünder, jetzt und in der Stunde unseres Todes.",
+          "antev": "Heilige Maria, Mutter Gottes, bitte für uns Sünder, jetzt und in der Stunde unseres Todes.",
           "oration": "Barmherziger Gott, mit unserem eigenen Tun können wir vor dir nicht bestehen. Darum höre auf die Fürsprache der seligen Jungfrau Maria. Schau nicht auf unser Versagen, sondern sei uns gnädig und rette uns.^ORV"
         }
       }
@@ -4444,7 +4444,7 @@ export const adlibData = {
           "comm_2": "Mann_Ord",
           "patr_autor": "Bernhard von Clairvaux († 1153)",
           "patr_werk": "Aus einer Auslegung zum Hohelied.",
-          "patr_text": "^hIch liebe, weil ich liebe. Ich liebe, um zu lieben.^pDie Liebe genügt sich selbst, sie gefällt durch sich selbst und um ihrer selbst willen. Sie ist sich selbst Verdienst und Lohn. Außerhalb ihrer selbst sucht sie keinen Grund und keine Frucht. Ihre Frucht ist es, dass man sie übt. Ich liebe, weil ich liebe; ich liebe, um zu lieben. Die Liebe ist etwas Großes, aber sie muss zu ihrem Anfang zurückkehren, sie muss ihrem Ursprung wiederstattet werden, muss immer wieder zu ihrem Quell und zurückfließen, um ihm ständig entströmen zu können.^pUnter allen Regungen der Seele, unter allen Sinnen und Gemütsbewegungen ist die Liebe allein, in der das Geschöpf dem Schöpfer antworten kann, wenn auch nicht in ebenbürtiger Weise. Denn wenn Gott liebt, so will er nichts anderes als geliebt werden. Er liebt, um geliebt zu werden.^pZu keinem anderen Zweck liebt er, als um geliebt zu werden; denn er weiß, dass alle, die ihn geliebt haben, so durch seine Liebe selig werden.^pJa es ist der Bräutigam, vielmehr der Bräutigam, der die Liebe selber ist, nichts anderes sucht er als Liebe und Treue. So sei es der Geliebten erlaubt, ihren Liebhaber wiederzulieben. Wie könnte die Braut nicht lieben, die doch Braut der Liebe ist? Wie könnte die Liebe nicht wieder geliebt werden?^pMit Recht verzichtet die Braut auf alle anderen Gefühle und widmet sich ganz der Liebe allein; ihre Aufgabe ist es, der Liebe durch Liebe zu antworten. Denn wenn sie sich auch in der Liebe völlig verausgabte, wie wenig wäre das, verglichen mit dem, was ewig jenem Quell entströmt! Denn nicht die gleiche Fülle haben beiden: der Liebende und die Liebe, die Seele und das Wort, die Braut und der Bräutigam, der Schöpfer und das Geschöpf, der Dürstende und die Quelle.^pWas folgt daraus? Wird dadurch alles andere wertlos? Ist das Gelöbnis der Braut nichts, das Sehnen der Seufzenden, nichts die Glut der Liebenden, nichts das Wagnis des Vertrauens, wenn es nicht möglich ist, mit dem Schritt des Riesen Schritt zu halten, wettzueifern an Süßigkeit mit dem Honig, an Milde mit dem Lamm, an Glanz mit der Liebe, an Helligkeit mit der Sonne, in der Liebe mit dem, der die Liebe ist? Nein! Denn wenn das Geschöpf auch weniger liebt, weil es geringer ist - wenn es mit seinem ganzen Sein liebt, fehlt nichts, weil da das Ganze ist. So lieben kommt einer Hochzeit gleich; keiner kann so lieben und dann weniger geliebt werden; denn in der gegenseitigen und vollen Übereinstimmung besteht die ganze und vollendete Ehe. Doch darf niemand bezweifeln, dass die Seele vom göttlichen Wort zuerst und mehr geliebt wird.",
+          "patr_text": "^hIch liebe, weil ich liebe. Ich liebe, um zu lieben.^pDie Liebe genügt sich selbst, sie gefällt durch sich selbst und um ihrer selbst willen. Sie ist sich selbst Verdienst und Lohn. Außerhalb ihrer selbst sucht sie keinen Grund und keine Frucht. Ihre Frucht ist es, dass man sie übt. Ich liebe, weil ich liebe; ich liebe, um zu lieben. Die Liebe ist etwas Großes, aber sie muss zu ihrem Anfang zurückkehren, sie muss ihrem Ursprung wiederstattet werden, muss immer wieder zu ihrem Quell und zurückfließen, um ihm ständig entströmen zu können.^pUnter allen Regungen der Seele, unter allen Sinnen und Gemütsbewegungen ist die Liebe allein, in der das Geschöpf dem Schöpfer antworten kann, wenn auch nicht in ebenbürtiger Weise. Denn wenn Gott liebt, so will er nichts anderes als geliebt werden. Er liebt, um geliebt zu werden.^pZu keinem anderen Zweck liebt er, als um geliebt zu werden; denn er weiß, dass alle, die ihn geliebt haben, so durch seine Liebe selig werden.^pJa es ist der Bräutigam, vielmehr der Bräutigam, der die Liebe selber ist, nichts anderes sucht er als Liebe und Treue. So sei es der Geliebten erlaubt, ihren Liebhaber wiederzulieben. Wie könnte die Braut nicht lieben, die doch Braut der Liebe ist? Wie könnte die Liebe nicht wieder geliebt werden?^pMit Recht verzichtet die Braut auf alle anderen Gefühle und widmet sich ganz der Liebe allein; ihre Aufgabe ist es, der Liebe durch Liebe zu antworten. Denn wenn sie sich auch in der Liebe völlig verausgabte, wie wenig wäre das, verglichen mit dem, was ewig jenem Quell entströmt! Denn nicht die gleiche Fülle haben beiden: der Liebende und die Liebe, die Seele und das Wort, die Braut und der Bräutigam, der Schöpfer und das Geschöpf, der Dürstende und die Quelle.^pWas folgt daraus? Wird dadurch alles andere wertlos? Ist das Gelöbnis der Braut nichts, das Sehnen der Seufzenden, nichts die Glut der Liebenden, nichts das Wagnis des Vertrauens, wenn es nicht möglich ist, mit dem Schritt des Riesen Schritt zu halten, wettzueifern an Süßigkeit mit dem Honig, an Milde mit dem Lamm, an Glanz mit der Liebe, an Helligkeit mit der Sonne, in der Liebe mit dem, der die Liebe ist? Nein! Denn wenn das Geschöpf auch weniger liebt, weil es geringer ist – wenn es mit seinem ganzen Sein liebt, fehlt nichts, weil da das Ganze ist. So lieben kommt einer Hochzeit gleich; keiner kann so lieben und dann weniger geliebt werden; denn in der gegenseitigen und vollen Übereinstimmung besteht die ganze und vollendete Ehe. Doch darf niemand bezweifeln, dass die Seele vom göttlichen Wort zuerst und mehr geliebt wird.",
           "patr_resp1": "Wie groß ist deine Güte, o Herr, die du bereithältst für alle, die dich lieben.",
           "patr_resp2": "Sie werden trunken vom Überfluss deines Hauses.",
           "patr_resp3": "Du tränkst sie mit dem Strom deiner Wonnen.",
@@ -4457,13 +4457,13 @@ export const adlibData = {
           "vokativ": "Heiliger Bernhard",
           "comm_1": "Hirten_Kl",
           "comm_2": "Mann_Ord",
-          "antEv": "Bernhards Seele war erleuchtet vom Glanz des ewigen Wortes; nun strahlt das Licht seines Glaubens in der ganzen Kirche.",
+          "antev": "Bernhards Seele war erleuchtet vom Glanz des ewigen Wortes; nun strahlt das Licht seines Glaubens in der ganzen Kirche.",
           "oration": "Allmächtiger Gott, du hast den heiligen Abt Bernhard mit brennender Sorge für deine Kirche erfüllt und ihn in den Wirren seiner Zeit zu einem hellen Licht gemacht. Erwecke auch heute Menschen, die vom Geist Christi ergriffen sind und als Kinder des Lichtes leben.^ORV"
         },
         "Vesper": {
           "comm_1": "Hirten_Kl",
           "comm_2": "Mann_Ord",
-          "antEv": "Bernhard, wachsamer Hirte und Lehrer der Kirche, Freund des göttlichen Bräutigams, Herold der heiligen Jungfrau Maria!",
+          "antev": "Bernhard, wachsamer Hirte und Lehrer der Kirche, Freund des göttlichen Bräutigams, Herold der heiligen Jungfrau Maria!",
           "oration": "Allmächtiger Gott, du hast den heiligen Abt Bernhard mit brennender Sorge für deine Kirche erfüllt und ihn in den Wirren seiner Zeit zu einem hellen Licht gemacht. Erwecke auch heute Menschen, die vom Geist Christi ergriffen sind und als Kinder des Lichtes leben.^ORV"
         }
       }
@@ -4516,12 +4516,12 @@ export const adlibData = {
           "button": "Maria Königin",
           "farbe": "m",
           "comm_1": "Maria",
-          "antEv": "Erhabene Königin der Welt, Maria, immerwährende Jungfrau, du hast Christus geboren, unsern Herrn und Erlöser.",
+          "antev": "Erhabene Königin der Welt, Maria, immerwährende Jungfrau, du hast Christus geboren, unsern Herrn und Erlöser.",
           "oration": "Gott, du hast die Mutter deines Sohnes auch uns zur Mutter gegeben. Wir ehren sie als unsere Königin und vertrauen auf ihre Fürsprache. Lass uns im himmlischen Reich an der Herrlichkeit deiner Kinder teilhaben.^ORV"
         },
         "Vesper": {
           "comm_1": "Maria",
-          "antEv": "Selig bist du, Maria; du hast geglaubt, was der Herr dir gesagt hat: Mit Christus herrschest du auf ewig.",
+          "antev": "Selig bist du, Maria; du hast geglaubt, was der Herr dir gesagt hat: Mit Christus herrschest du auf ewig.",
           "oration": "Gott, du hast die Mutter deines Sohnes auch uns zur Mutter gegeben. Wir ehren sie als unsere Königin und vertrauen auf ihre Fürsprache. Lass uns im himmlischen Reich an der Herrlichkeit deiner Kinder teilhaben.^ORV"
         }
       }
@@ -4657,12 +4657,12 @@ export const adlibData = {
           "button": "Hl. Monika",
           "genitiv": "der heiligen Monika",
           "comm_1": "Frau",
-          "antEv": "Du hast sie erhört, o Herr, und ihre Tränen nicht verschmäht.",
+          "antev": "Du hast sie erhört, o Herr, und ihre Tränen nicht verschmäht.",
           "oration": "Allmächtiger Gott, du hast auf die Tränen der heiligen Monika geschaut; du hast ihr Flehen erhört und ihrem Sohn Augustinus die Gnade der Bekehrung geschenkt. Gib uns auf die Fürsprache dieser heiligen Mutter und ihres Sohnes die Gnade, dass wir unsere Sünden bereuen und bei dir Verzeihung finden.^ORV"
         },
         "Vesper": {
           "comm_1": "Frau",
-          "antEv": "Monikas Glaube und Leben waren ein Lob auf den Namen des Herrn: Schon in dieser Welt lebte sie mit Christus vereint.",
+          "antev": "Monikas Glaube und Leben waren ein Lob auf den Namen des Herrn: Schon in dieser Welt lebte sie mit Christus vereint.",
           "oration": "Allmächtiger Gott, du hast auf die Tränen der heiligen Monika geschaut; du hast ihr Flehen erhört und ihrem Sohn Augustinus die Gnade der Bekehrung geschenkt. Gib uns auf die Fürsprache dieser heiligen Mutter und ihres Sohnes die Gnade, dass wir unsere Sünden bereuen und bei dir Verzeihung finden.^ORV"
         }
       }
@@ -4691,13 +4691,13 @@ export const adlibData = {
           "vokativ": "Heiliger Augustinus",
           "comm_1": "Hirten_Kl",
           "comm_2": "Hirten",
-          "antEv": "Deine Gnade ist es, o Herr, dass es mir Freude macht, dich zu loben, denn auf dich hin hast du uns geschaffen; und unruhig ist unser Herz, bis es ruht in dir.",
+          "antev": "Deine Gnade ist es, o Herr, dass es mir Freude macht, dich zu loben, denn auf dich hin hast du uns geschaffen; und unruhig ist unser Herz, bis es ruht in dir.",
           "oration": "Allmächtiger Gott, wir rufen dich an: Erwecke in deiner Kirche aufs neue den Geist, mit dem du den heiligen Bischof Augustinus erfüllt hast. Gib auch uns die Sehnsucht nach dir, dem Quell der wahren Weisheit und dem Ursprung der Liebe.^ORV"
         },
         "Vesper": {
           "comm_1": "Hirten_Kl",
           "comm_2": "Hirten",
-          "antEv": "Spät habe ich begonnen dich zu lieben, o Schönheit, alt und ewig neu. Du hast gerufen und geschrien und meine Taubheit durchbrochen.",
+          "antev": "Spät habe ich begonnen dich zu lieben, o Schönheit, alt und ewig neu. Du hast gerufen und geschrien und meine Taubheit durchbrochen.",
           "oration": "Allmächtiger Gott, wir rufen dich an: Erwecke in deiner Kirche aufs neue den Geist, mit dem du den heiligen Bischof Augustinus erfüllt hast. Gib auch uns die Sehnsucht nach dir, dem Quell der wahren Weisheit und dem Ursprung der Liebe.^ORV"
         }
       }
@@ -4744,7 +4744,7 @@ export const adlibData = {
           "comm_2": "Hirten",
           "patr_autor": "Gregor der Große († 604)",
           "patr_werk": "Aus einer Auslegung zum Buch Ezechiel.",
-          "patr_text": "^hAus Liebe zu Christus schone ich mich nicht in der Erklärung seiner Worte^p„Menschensohn, ich gebe dich dem Haus Israel als Wächter.“ {1#Ez 3,17} Es ist bemerkenswert, dass der Herr einen Mann, den er zum Predigen sendet, „Wächter“ nennt. Der Wächter steht immer erhöht, um zu sehen, was von weitem kommt. Wer daher zum Wächter für sein Volk bestellt wird, muss durch seine Lebensführung hoch stehen, damit er durch Voraussicht nützen kann.^pWie hart ist für mich, was ich da sage: im Sprechen treffe ich mich selbst; denn meine Zunge ist der Predigt nicht so gewachsen, wie sie es müsste, und soweit sie ihr gewachsen ist, bleibt das Leben hinter dem zurück, was die Zunge predigt.^pIch weigere mich nicht, meine Schuld zu bekennen. Ich sehe meine Stumpfheit und Nachlässigkeit. Vielleicht erwirkt mir meine Einsicht in die Schuld bei dem gütigen Richter Vergebung. Als Mönch im Kloster hatte ich die Möglichkeit, die Zunge von allem überflüssigen Reden fernzuhalten und das immerwährende Gebet des Herzens fast ununterbrochen zu üben. Seitdem ich aber die Schultern unter die Last des Hirtenamtes beugen muss, kann sich mein Geist nicht mehr völlig gesammelt auf sich selbst besinnen, weil er sich teilen und auf vieles richten muss.^pBald muss ich mich um die Angelegenheiten der Kirche, bald die der Klöster kümmern, oft über das Leben und das Tun einzelner Menschen nachdenken. Bald muss ich geschäftliche Dinge der Bürger über mich ergehen lassen, bald stöhne ich über die andringende Kriegsmacht der Barbaren und muss die Wolfsrachen fürchten, die der mir anvertrauten Herde nachstellen. Bald muss ich mich um das Vermögen sorgen, damit die Mittel nicht ausgehen für die, denen es nach der Regel geschuldet wird. Dazu wieder muss ich mit Gleichmut gewisse Räuber dulden oder ihnen begegnen mit dem Bemühen, die Liebe zu wahren.^pIst aber der Geist gespalten und zerrissen und gezwungen, so viele und wichtige Dinge zu bedenken, wann soll er sich dann auf sich selbst zurückziehen, um sich für die Predigt zu sammeln, wenn er sich dem Dienst der Wortverkündigung nicht entziehen will? Da ich, genötigt durch meine Stellung, oft mit Männern der Welt zusammenkomme, lockere ich manchmal die Zucht der Sprache. Verhalte ich mich nämlich anders, entsprechend der Strenge meines eigenen Urteils, dann fliehen mich - ich weiß es - die Schwächeren, und ich bringe sie niemals zu dem, wohin ich möchte. So kommt es, dass ich oft auch ihre nichtssagenden Reden anhöre. Weil aber auch ich selbst schwach bin, ziehen mich diese unnützen Reden doch auch an, und ich beginne sie gerne zu führen, obwohl ich sie doch anfangs nicht einmal gern hörte. Früher fürchtete ich zu fallen, jetzt macht es mir Vergnügen, am Boden zu liegen.^pWer bin ich also und was für ein Wächter bin ich, dass ich nicht auf dem Berg meiner Aufgabe stehe, sondern im Tal der Schwachheit liege! Doch der Schöpfer und Erlöser des Menschengeschlechtes hat die Macht, mir, dem Unwürdigen, die Höhe der Lebensführung und die Wirksamkeit der Predigt zu schenken, da ich mich aus Liebe zu ihm in der Darlegung seiner Worte nicht schone.",
+          "patr_text": "^hAus Liebe zu Christus schone ich mich nicht in der Erklärung seiner Worte^p„Menschensohn, ich gebe dich dem Haus Israel als Wächter.“ {1#Ez 3,17} Es ist bemerkenswert, dass der Herr einen Mann, den er zum Predigen sendet, „Wächter“ nennt. Der Wächter steht immer erhöht, um zu sehen, was von weitem kommt. Wer daher zum Wächter für sein Volk bestellt wird, muss durch seine Lebensführung hoch stehen, damit er durch Voraussicht nützen kann.^pWie hart ist für mich, was ich da sage: im Sprechen treffe ich mich selbst; denn meine Zunge ist der Predigt nicht so gewachsen, wie sie es müsste, und soweit sie ihr gewachsen ist, bleibt das Leben hinter dem zurück, was die Zunge predigt.^pIch weigere mich nicht, meine Schuld zu bekennen. Ich sehe meine Stumpfheit und Nachlässigkeit. Vielleicht erwirkt mir meine Einsicht in die Schuld bei dem gütigen Richter Vergebung. Als Mönch im Kloster hatte ich die Möglichkeit, die Zunge von allem überflüssigen Reden fernzuhalten und das immerwährende Gebet des Herzens fast ununterbrochen zu üben. Seitdem ich aber die Schultern unter die Last des Hirtenamtes beugen muss, kann sich mein Geist nicht mehr völlig gesammelt auf sich selbst besinnen, weil er sich teilen und auf vieles richten muss.^pBald muss ich mich um die Angelegenheiten der Kirche, bald die der Klöster kümmern, oft über das Leben und das Tun einzelner Menschen nachdenken. Bald muss ich geschäftliche Dinge der Bürger über mich ergehen lassen, bald stöhne ich über die andringende Kriegsmacht der Barbaren und muss die Wolfsrachen fürchten, die der mir anvertrauten Herde nachstellen. Bald muss ich mich um das Vermögen sorgen, damit die Mittel nicht ausgehen für die, denen es nach der Regel geschuldet wird. Dazu wieder muss ich mit Gleichmut gewisse Räuber dulden oder ihnen begegnen mit dem Bemühen, die Liebe zu wahren.^pIst aber der Geist gespalten und zerrissen und gezwungen, so viele und wichtige Dinge zu bedenken, wann soll er sich dann auf sich selbst zurückziehen, um sich für die Predigt zu sammeln, wenn er sich dem Dienst der Wortverkündigung nicht entziehen will? Da ich, genötigt durch meine Stellung, oft mit Männern der Welt zusammenkomme, lockere ich manchmal die Zucht der Sprache. Verhalte ich mich nämlich anders, entsprechend der Strenge meines eigenen Urteils, dann fliehen mich – ich weiß es – die Schwächeren, und ich bringe sie niemals zu dem, wohin ich möchte. So kommt es, dass ich oft auch ihre nichtssagenden Reden anhöre. Weil aber auch ich selbst schwach bin, ziehen mich diese unnützen Reden doch auch an, und ich beginne sie gerne zu führen, obwohl ich sie doch anfangs nicht einmal gern hörte. Früher fürchtete ich zu fallen, jetzt macht es mir Vergnügen, am Boden zu liegen.^pWer bin ich also und was für ein Wächter bin ich, dass ich nicht auf dem Berg meiner Aufgabe stehe, sondern im Tal der Schwachheit liege! Doch der Schöpfer und Erlöser des Menschengeschlechtes hat die Macht, mir, dem Unwürdigen, die Höhe der Lebensführung und die Wirksamkeit der Predigt zu schenken, da ich mich aus Liebe zu ihm in der Darlegung seiner Worte nicht schone.",
           "patr_resp1": "Deine Vorschriften sind mein Erbe für immer, sie sind meines Herzens Freude",
           "patr_resp2": "Mein Herz ist willig, dein Gesetz zu erfüllen",
           "patr_resp3": "Ich bin dein Knecht, gib mir Einsicht, dass ich verstehe, was du gebietest",
@@ -4756,13 +4756,13 @@ export const adlibData = {
           "vokativ": "Heiliger Gregor",
           "comm_1": "Hirten_Kl",
           "comm_2": "Hirten",
-          "antEv": "Als guter Hirt seiner Herde hat Gregor der Kirche das Beispiel seines Lebens hinterlassen und die Weisung seiner Lehre.",
+          "antev": "Als guter Hirt seiner Herde hat Gregor der Kirche das Beispiel seines Lebens hinterlassen und die Weisung seiner Lehre.",
           "oration": "Gott, du bist deinem Volk gnädig und leitest es in Liebe. Höre auf die Fürsprache des heiligen Papstes Gregor und schenke allen, die in der Kirche am Amt der Leitung teilhaben, den Geist der Weisheit, damit dein Volk wachse und seinen Hirten zur ewigen Freude werde.^ORV"
         },
         "Vesper": {
           "comm_1": "Hirten_Kl",
           "comm_2": "Hirten",
-          "antEv": "Was Gregor predigte, hat er in seinem Tun verwirklicht; und das Geheimnis Christi, das er verkündete, hat er in seinem Leben sichtbar gemacht.",
+          "antev": "Was Gregor predigte, hat er in seinem Tun verwirklicht; und das Geheimnis Christi, das er verkündete, hat er in seinem Leben sichtbar gemacht.",
           "oration": "Gott, du bist deinem Volk gnädig und leitest es in Liebe. Höre auf die Fürsprache des heiligen Papstes Gregor und schenke allen, die in der Kirche am Amt der Leitung teilhaben, den Geist der Weisheit, damit dein Volk wachse und seinen Hirten zur ewigen Freude werde.^ORV"
         }
       }
@@ -4856,7 +4856,7 @@ export const adlibData = {
           "comm_2": "Hirten",
           "patr_autor": "Johannes Chrysostomus († 407)",
           "patr_werk": "Aus einer Homilie vor seiner Verbannung.",
-          "patr_text": "^hFür mich ist Christus das Leben und Sterben Gewinn^pViele Wogen und schwere Brandung ringsum, doch wir fürchten nicht, dass wir untergehen; denn wir stehen auf dem Felsen. Mag das Meer toben, es kann den Felsen nicht zerstören. Mögen sich die Wogen türmen, sie können das Schiff Jesu nicht verschlingen. Sag mir: Was sollten wir fürchten? Den Tod? „Für mich ist Christus das Leben und Sterben Gewinn.“ {1#Phil 1,21} Oder Verbannung? „Dem Herrn gehört die Erde und was sie erfüllt.“ {2#Ps 24,1} Oder Einziehung des Vermögens? „Wir haben nichts in die Welt mitgebracht, und wir können auch nichts aus ihr mitnehmen.“ {3#1 Tim 6,7} Die Schrecken der Welt verachte ich, und ihre Annehmlichkeiten verlache ich. Armut fürchte ich nicht, und Reichtum begehre ich nicht. Ich fürchte nicht zu sterben und wünsche nicht zu leben, es sei denn zu eurem Nutzen. Darum denke ich an die Gegenwart und mahne euch: Habt Zuversicht. Hörst du nicht, wie der Herr sagt: „Wo zwei oder drei in meinem Namen versammelt sind, da bin ich mitten unter ihnen“? {4#Mt 18,20}^pWo so viel Volk in Liebe geeint ist, da sollte er nicht gegenwärtig sein? Ich habe sein Pfand! Vertraue ich etwa auf meine eigene Kraft? Ich habe die Urkunde. Sie ist mein Stab und meine Sicherheit, sie ist der Hafen, der mich schützt vor dem Sturm. Wankte auch der ganze Erdkreis, ich habe eine Schrift, die ich lesen kann, sie ist mir Mauer und Schutz. Was sagt diese Schrift? „Ich bin bei euch alle Tage bis zum Ende der Welt.“ {5#Mt 28,20}^pChristus ist mit mir, wen sollte ich fürchten? Wenn sich auch Wogen gegen mich türmen oder das Meer oder die Mächte - all das ist mir weniger als ein Spinngewebe. Wäre es nicht wegen der Liebe zu euch, wollte ich mich nicht dagegen wehren, Abschied zu nehmen von dieser Welt. Stets sage ich: „Dein Wille geschehe!“ {6#Mt 6,10} Nicht wenn dieser oder jener es will, sondern wenn du es so willst. Das ist mir ein Turm, das mein unbeweglicher Fels, dies mein starker Stab. Wenn Gott will, dass dies geschehe, so geschehe es. Wenn er will, dass ich hier bleibe, so danke ich ihm. Wo immer er will, dass ich bin, da danke ich ihm.^pWo ich bin, da seid auch ihr, und wo ihr seid, da bin auch ich. Wir sind ein Leib. Der Leib wird nicht vom Haupt, das Haupt nicht vom Leib getrennt. Dem Raum nach werden wir geschieden, aber geeint in der Liebe. Der Tod kann uns nicht scheiden. Wenn auch mein Leib stirbt, die Seele lebt und gedenkt des Volkes.^pIhr seid mir Mitbürger, Väter, Brüder und Kinder, Glieder und Leib, ihr seid mir Licht, ja lieber als das Licht. Was könnte mir so viel schenken wie der Lichtstrahl eurer Liebe? Der Strahl des Lichtes nützt mir im gegenwärtigen Leben, und eure Liebe flicht mir den Kranz im kommenden.",
+          "patr_text": "^hFür mich ist Christus das Leben und Sterben Gewinn^pViele Wogen und schwere Brandung ringsum, doch wir fürchten nicht, dass wir untergehen; denn wir stehen auf dem Felsen. Mag das Meer toben, es kann den Felsen nicht zerstören. Mögen sich die Wogen türmen, sie können das Schiff Jesu nicht verschlingen. Sag mir: Was sollten wir fürchten? Den Tod? „Für mich ist Christus das Leben und Sterben Gewinn.“ {1#Phil 1,21} Oder Verbannung? „Dem Herrn gehört die Erde und was sie erfüllt.“ {2#Ps 24,1} Oder Einziehung des Vermögens? „Wir haben nichts in die Welt mitgebracht, und wir können auch nichts aus ihr mitnehmen.“ {3#1 Tim 6,7} Die Schrecken der Welt verachte ich, und ihre Annehmlichkeiten verlache ich. Armut fürchte ich nicht, und Reichtum begehre ich nicht. Ich fürchte nicht zu sterben und wünsche nicht zu leben, es sei denn zu eurem Nutzen. Darum denke ich an die Gegenwart und mahne euch: Habt Zuversicht. Hörst du nicht, wie der Herr sagt: „Wo zwei oder drei in meinem Namen versammelt sind, da bin ich mitten unter ihnen“? {4#Mt 18,20}^pWo so viel Volk in Liebe geeint ist, da sollte er nicht gegenwärtig sein? Ich habe sein Pfand! Vertraue ich etwa auf meine eigene Kraft? Ich habe die Urkunde. Sie ist mein Stab und meine Sicherheit, sie ist der Hafen, der mich schützt vor dem Sturm. Wankte auch der ganze Erdkreis, ich habe eine Schrift, die ich lesen kann, sie ist mir Mauer und Schutz. Was sagt diese Schrift? „Ich bin bei euch alle Tage bis zum Ende der Welt.“ {5#Mt 28,20}^pChristus ist mit mir, wen sollte ich fürchten? Wenn sich auch Wogen gegen mich türmen oder das Meer oder die Mächte – all das ist mir weniger als ein Spinngewebe. Wäre es nicht wegen der Liebe zu euch, wollte ich mich nicht dagegen wehren, Abschied zu nehmen von dieser Welt. Stets sage ich: „Dein Wille geschehe!“ {6#Mt 6,10} Nicht wenn dieser oder jener es will, sondern wenn du es so willst. Das ist mir ein Turm, das mein unbeweglicher Fels, dies mein starker Stab. Wenn Gott will, dass dies geschehe, so geschehe es. Wenn er will, dass ich hier bleibe, so danke ich ihm. Wo immer er will, dass ich bin, da danke ich ihm.^pWo ich bin, da seid auch ihr, und wo ihr seid, da bin auch ich. Wir sind ein Leib. Der Leib wird nicht vom Haupt, das Haupt nicht vom Leib getrennt. Dem Raum nach werden wir geschieden, aber geeint in der Liebe. Der Tod kann uns nicht scheiden. Wenn auch mein Leib stirbt, die Seele lebt und gedenkt des Volkes.^pIhr seid mir Mitbürger, Väter, Brüder und Kinder, Glieder und Leib, ihr seid mir Licht, ja lieber als das Licht. Was könnte mir so viel schenken wie der Lichtstrahl eurer Liebe? Der Strahl des Lichtes nützt mir im gegenwärtigen Leben, und eure Liebe flicht mir den Kranz im kommenden.",
           "patr_resp1": "Ich leide für das Evangelium, gefesselt wie ein Verbrecher; aber das Wort Gottes ist nicht gebunden",
           "patr_resp2": "Alles erdulde ich für die Erwählten",
           "patr_resp3": "Der Herr ist mein Licht und mein Heil; wen sollte ich fürchten",
@@ -4889,7 +4889,7 @@ export const adlibData = {
           "comm_2": "Hirten",
           "patr_autor": "LEER",
           "patr_werk": "Aus den Akten über das Martyrium des heiligen Cyprian.",
-          "patr_text": "^hCyprian starb unter der Königsherrschaft Jesu Christi^pAm 18. Tag vor den Kalenden des Monats Oktober (14. September) kam auf Befehl des Prokonsuls Galerius Maximus viel Volk morgens früh zum Ager Sexti. Der Prokonsul saß an diesem Tag im Atrium Sauciolum zu Gericht und ließ den Cyprian vor sich bringen. Als er vorgeführt war, sagte der Prokonsul Galerius Maximus zum Bischof Cyprian: „Du bist Thascius Cyprianus?“ Der Bischof Cyprian antwortete: „Ich bin es.“ Der Prokonsul Galerius Maximus sagte: „Du hast dich gottlos gesinnten Menschen als Papst zur Verfügung gestellt.“ Der Bischof Cyprian antwortete: „Ja, ich habe es getan!“ Der Prokonsul Galerius Maximus sagte: „Die heiligen Kaiser haben dir befohlen zu opfern.“ Der Bischof Cyprian erwiderte: „Das tue ich nicht!“ Galerius Maximus sagte: „Überlege es dir!“ Der Bischof Cyprian antwortete: „Tu, was dir befohlen ist; in einer so gerechten Sache gibt es nichts zu überlegen.“^pGalerius Maximus besprach sich mit seinen Räten und gab dann widerwillig das Urteil ab mit den Worten: „Du hast lange in einem ruchlosen Geist gelebt, viele Menschen in einer ruchlosen Verschwörung um dich versammelt und dich zum Feind der römischen Götter und der heiligen Bräuche gemacht. Die frommen und heiligen Fürsten, die Kaiser Valerianus und Gallienus und der erlauchte Unterkaiser Valerianus konnten dich nicht zur Gemeinschaft ihrer heiligen Riten zurückrufen. Da du also als Urheber und Rädelsführer schlimmer Verbrechen erfasst bist, soll - für diese, die du für deinen Frevel gewonnen hast, zum warnenden Beispiel - die heilige Ordnung mit deinem Blut bestätigt werden.“ Nach diesen Worten verlas er aus der Tabelle das Urteil: „Thascius Cyprianus soll mit dem Schwert hingerichtet werden.“ Der Bischof Cyprian sprach: „Dank sei Gott!“^pNach diesem Urteilsspruch sagte die Schar der Brüder: „Auch wir wollen mit ihm enthauptet werden.“ Darum gab es laute Unruhe unter den Brüdern, und eine große Menge folgte ihm. So wurde Cyprian zum Ager Sexti geführt. Dort legte er den roten Mantel ab, kniete nieder und warf sich zu Boden, um zum Herrn zu beten. Dann zog er die Dalmatik aus und reichte sie den Diakonen. Nun stand er im Linnengewand da und wartete auf den Scharfrichter. Als dieser kam, gebot Cyprian den Seinen, ihm 25 Goldstücke zu reichen. Leintücher und Handbinden wurden ihm von den Brüdern hingehalten. Dann verband sich Cyprian mit eigener Hand die Augen. Da er sich die Streifen für die Hände nicht selbst binden konnte, banden sie ihm der Presbyter Julian und der Subdiakon Julian.^pSo litt der heilige Cyprian. Wegen der Neugierde der Heiden wurde der Leib in der Nähe beigesetzt. Von dort holte man ihn bei Nacht mit Kerzen und Fackeln ab und brachte ihn unter Gebet in großem Triumphzug zur Grabstätte des Prokurators Macrobius Candidus, die an der Straße nach Mappalia bei den Fischteichen liegt. Der Prokonsul Galerius Maximus starb wenige Tage später.^pDer heilige Märtyrer Cyprian starb am 18. Tag vor den Kalenden des Oktobers (14. September) unter den Kaisern Valerian und Gallienus, unter der Königsherrschaft Jesu Christi, dem Ehre und Herrlichkeit ist in Ewigkeit. Amen.",
+          "patr_text": "^hCyprian starb unter der Königsherrschaft Jesu Christi^pAm 18. Tag vor den Kalenden des Monats Oktober (14. September) kam auf Befehl des Prokonsuls Galerius Maximus viel Volk morgens früh zum Ager Sexti. Der Prokonsul saß an diesem Tag im Atrium Sauciolum zu Gericht und ließ den Cyprian vor sich bringen. Als er vorgeführt war, sagte der Prokonsul Galerius Maximus zum Bischof Cyprian: „Du bist Thascius Cyprianus?“ Der Bischof Cyprian antwortete: „Ich bin es.“ Der Prokonsul Galerius Maximus sagte: „Du hast dich gottlos gesinnten Menschen als Papst zur Verfügung gestellt.“ Der Bischof Cyprian antwortete: „Ja, ich habe es getan!“ Der Prokonsul Galerius Maximus sagte: „Die heiligen Kaiser haben dir befohlen zu opfern.“ Der Bischof Cyprian erwiderte: „Das tue ich nicht!“ Galerius Maximus sagte: „Überlege es dir!“ Der Bischof Cyprian antwortete: „Tu, was dir befohlen ist; in einer so gerechten Sache gibt es nichts zu überlegen.“^pGalerius Maximus besprach sich mit seinen Räten und gab dann widerwillig das Urteil ab mit den Worten: „Du hast lange in einem ruchlosen Geist gelebt, viele Menschen in einer ruchlosen Verschwörung um dich versammelt und dich zum Feind der römischen Götter und der heiligen Bräuche gemacht. Die frommen und heiligen Fürsten, die Kaiser Valerianus und Gallienus und der erlauchte Unterkaiser Valerianus konnten dich nicht zur Gemeinschaft ihrer heiligen Riten zurückrufen. Da du also als Urheber und Rädelsführer schlimmer Verbrechen erfasst bist, soll – für diese, die du für deinen Frevel gewonnen hast, zum warnenden Beispiel – die heilige Ordnung mit deinem Blut bestätigt werden.“ Nach diesen Worten verlas er aus der Tabelle das Urteil: „Thascius Cyprianus soll mit dem Schwert hingerichtet werden.“ Der Bischof Cyprian sprach: „Dank sei Gott!“^pNach diesem Urteilsspruch sagte die Schar der Brüder: „Auch wir wollen mit ihm enthauptet werden.“ Darum gab es laute Unruhe unter den Brüdern, und eine große Menge folgte ihm. So wurde Cyprian zum Ager Sexti geführt. Dort legte er den roten Mantel ab, kniete nieder und warf sich zu Boden, um zum Herrn zu beten. Dann zog er die Dalmatik aus und reichte sie den Diakonen. Nun stand er im Linnengewand da und wartete auf den Scharfrichter. Als dieser kam, gebot Cyprian den Seinen, ihm 25 Goldstücke zu reichen. Leintücher und Handbinden wurden ihm von den Brüdern hingehalten. Dann verband sich Cyprian mit eigener Hand die Augen. Da er sich die Streifen für die Hände nicht selbst binden konnte, banden sie ihm der Presbyter Julian und der Subdiakon Julian.^pSo litt der heilige Cyprian. Wegen der Neugierde der Heiden wurde der Leib in der Nähe beigesetzt. Von dort holte man ihn bei Nacht mit Kerzen und Fackeln ab und brachte ihn unter Gebet in großem Triumphzug zur Grabstätte des Prokurators Macrobius Candidus, die an der Straße nach Mappalia bei den Fischteichen liegt. Der Prokonsul Galerius Maximus starb wenige Tage später.^pDer heilige Märtyrer Cyprian starb am 18. Tag vor den Kalenden des Oktobers (14. September) unter den Kaisern Valerian und Gallienus, unter der Königsherrschaft Jesu Christi, dem Ehre und Herrlichkeit ist in Ewigkeit. Amen.",
           "patr_resp1": "Wenn wir in der Schlacht stehen und für den Glauben kämpfen, schaut Gott auf uns herab",
           "patr_resp2": "Zuschauer sind die Engel, und auch Christus blickt auf uns",
           "patr_resp3": "Wir wollen uns wappnen mit aller Kraft und uns zum Kampf rüsten mit lauterem Gewissen, zuversichtlichem Glauben und liebender Tugend",
@@ -4901,13 +4901,13 @@ export const adlibData = {
           "genitiv": "der Heiligen Kornelius und Cyprian",
           "comm_1": "MärtPl",
           "comm_2": "Hirten",
-          "antEv": "O kostbarer Tod, der um den Preis des Blutes die Unsterblichkeit erkauft!",
+          "antev": "O kostbarer Tod, der um den Preis des Blutes die Unsterblichkeit erkauft!",
           "oration": "Ewiger Gott, du hast deiner Kirche in den heiligen Bischöfen Kornelius und Cyprian eifrige Hirten geschenkt und ihnen die Kraft gegeben, treu bis in den Tod ihren Glauben zu bekennen. Höre auf ihre Fürsprache und festige unseren Glauben, damit wir bereit sind, für die Einheit der Kirche zu beten und zu arbeiten.^ORV"
         },
         "Vesper": {
           "comm_1": "MärtPl",
           "comm_2": "Hirten",
-          "antEv": "Selig bist du zu preisen, heilige Kirche, in dir leuchtet das Blut der Märtyrer Christi.",
+          "antev": "Selig bist du zu preisen, heilige Kirche, in dir leuchtet das Blut der Märtyrer Christi.",
           "oration": "Ewiger Gott, du hast deiner Kirche in den heiligen Bischöfen Kornelius und Cyprian eifrige Hirten geschenkt und ihnen die Kraft gegeben, treu bis in den Tod ihren Glauben zu bekennen. Höre auf ihre Fürsprache und festige unseren Glauben, damit wir bereit sind, für die Einheit der Kirche zu beten und zu arbeiten.^ORV"
         }
       }
@@ -5140,12 +5140,12 @@ export const adlibData = {
           "button": "Hl. Rupert und hl. Virgil",
           "genitiv": "der Heiligen Rupert und Virgil",
           "comm_1": "Hirten",
-          "antEv": "Weise Hirten sandte Christus seinem Volk, die ihm den Weg zum Lichte wiesen.",
+          "antev": "Weise Hirten sandte Christus seinem Volk, die ihm den Weg zum Lichte wiesen.",
           "oration": "Gott, du Herr aller Völker, du hast durch die heiligen Bischöfe Rupert und Virgil Menschen verschiedener Sprache und Herkunft in die Gemeinschaft der Kirche eingefügt. Erhalte uns auf die Fürsprache dieser Heiligen in der Einheit des Glaubens und der Liebe.^ORV"
         },
         "Vesper": {
           "comm_1": "Hirten",
-          "antEv": "Das sind die heiligen Männer, die Boten des Evangeliums, die uns auf den Weg des Heiles führten.",
+          "antev": "Das sind die heiligen Männer, die Boten des Evangeliums, die uns auf den Weg des Heiles führten.",
           "oration": "Gott, du Herr aller Völker, du hast durch die heiligen Bischöfe Rupert und Virgil Menschen verschiedener Sprache und Herkunft in die Gemeinschaft der Kirche eingefügt. Erhalte uns auf die Fürsprache dieser Heiligen in der Einheit des Glaubens und der Liebe.^ORV"
         }
       }
@@ -5171,12 +5171,12 @@ export const adlibData = {
           "nominativ": "Der heilige Niklaus von Flüe",
           "genitiv": "des heiligen Niklaus von Flüe",
           "comm_1": "Mann",
-          "antEv": "Der Herr hat mich erleuchtet. Er lenkte meine Schritte auf den Weg des Friedens.",
+          "antev": "Der Herr hat mich erleuchtet. Er lenkte meine Schritte auf den Weg des Friedens.",
           "oration": "Herr, unser Gott, deinem Ruf gehorsam, hat der heilige Bruder Klaus Familie und Besitz verlassen, um in der Einsamkeit für dich allein zu leben; du aber hast ihn zu einem Ratgeber für viele und zu einem Mittler des Friedens gemacht. Höre auf seine Fürsprache: Nimm alles von uns, was uns trennt von dir, und mache uns zu einem Werkzeug deines Friedens.^ORV"
         },
         "Vesper": {
           "comm_1": "Mann",
-          "antEv": "Mit dem Brot des Lebens nährte ihn der Herr. Er schenkte ihm Klugheit und Einsicht.",
+          "antev": "Mit dem Brot des Lebens nährte ihn der Herr. Er schenkte ihm Klugheit und Einsicht.",
           "oration": "Herr, unser Gott, deinem Ruf gehorsam, hat der heilige Bruder Klaus Familie und Besitz verlassen, um in der Einsamkeit für dich allein zu leben; du aber hast ihn zu einem Ratgeber für viele und zu einem Mittler des Friedens gemacht. Höre auf seine Fürsprache: Nimm alles von uns, was uns trennt von dir, und mache uns zu einem Werkzeug deines Friedens.^ORV"
         }
       }
@@ -5234,13 +5234,13 @@ export const adlibData = {
           "genitiv": "des heiligen Vinzenz",
           "comm_1": "Hirten",
           "comm_2": "Mann_Liebe",
-          "antEv": "Vinzenz, ein Freund der Armen, tröstete die Trauernden, sorgte für die Witwen und trat für die Waisen ein.",
+          "antev": "Vinzenz, ein Freund der Armen, tröstete die Trauernden, sorgte für die Witwen und trat für die Waisen ein.",
           "oration": "Barmherziger Gott, du hast den heiligen Vinzenz von Paul berufen, den Armen zu helfen und für die Ausbildung guter Priester zu sorgen. Schenke auch uns apostolischen Eifer; hilf uns, die Not der Armen zu sehen, und mach uns bereit, ihnen zu helfen.^ORV"
         },
         "Vesper": {
           "comm_1": "Hirten",
           "comm_2": "Mann_Liebe",
-          "antEv": "Was ihr dem Geringsten meiner Brüder getan habt, das habt ihr mir getan.",
+          "antev": "Was ihr dem Geringsten meiner Brüder getan habt, das habt ihr mir getan.",
           "oration": "Barmherziger Gott, du hast den heiligen Vinzenz von Paul berufen, den Armen zu helfen und für die Ausbildung guter Priester zu sorgen. Schenke auch uns apostolischen Eifer; hilf uns, die Not der Armen zu sehen, und mach uns bereit, ihnen zu helfen.^ORV"
         }
       }
@@ -5255,7 +5255,7 @@ export const adlibData = {
           "comm_1": "Hirten_Kl",
           "patr_autor": "Hieronymus († 419/420)",
           "patr_werk": "Aus einer Auslegung zum Buch Jesaja.",
-          "patr_text": "^hDie Schrift nicht kennen heißt Christus nicht kennen^pIch leiste, was ich schuldig bin im Gehorsam gegen die Gebote Christi, der sagt: „Erforscht die Schriften!“ {1#Joh 5,39} und: „Sucht, dann werdet ihr finden!“ {2#Mt 7,7} Ich möchte nicht das Wort hören: „Ihr irrt euch; ihr kennt weder die Schrift noch die Macht Gottes.“ {3#Mt 22,29} Denn wenn Christus nach dem Wort des Apostels Paulus „Gottes Kraft und Gottes Weisheit“ ist {4#1 Kor 1,24}, dann kennt die Kraft und Weisheit Gottes nicht, wer die Schrift nicht kennt. Wenn die Kenntnis der Schrift fehlt, fehlt die Kenntnis Christi.^pIch will darum handeln wie ein Hausherr, der aus seinem Vorrat Neues und Altes hervorholt{5#vgl. Mt 13,52}, und wie die Braut im Hohenlied: „Köstliche Früchte, frische und solche von früher, habe ich für dich aufgehoben, Geliebter.“ {6#Hld 7,14} So will ich Jesaja erklären: Ich will ihn nicht nur als Propheten aufzeigen, sondern auch als Evangelisten und Apostel. Denn er sagt von sich und den andern Kündern der frohen Botschaft: „Wie willkommen sind die Füße derer, die eine frohe Botschaft bringen, die den Frieden verkünden.“ {7#Jes 52,7} Zu ihm sprach Gott wie zu einem Apostel: „Wen soll ich senden? Wer wird zu diesem Volk gehen?“ Er antwortete: „Hier bin ich, sende mich!“ {8#Jes 6,8}^pNiemand meine, ich wollte den Inhalt dieses Buches in einer kurzen Rede zusammenfassen, da die vorliegende Schrift doch alle Geheimnisse des Herrn enthält. Sowohl die Geburt des Immanuel aus der Jungfrau wird verkündet als auch die Botschaft von dem berühmten Mann, der Zeichen und Wunder tat, der starb und begraben wurde, der aus der Welt des Todes erstand und Heiland aller Völker genannt wird. Was soll ich über die Lehre von der Natur, der Ethik, Logik sprechen? Alles, was zur Heiligen Schrift gehört, was menschliche Zunge aussprechen und der Sinn der Sterblichen fassen kann, ist in diesem Buch enthalten. Von seinen Geheimnissen zeugt, der geschrieben hat: „Die Offenbarung wurde für euch wie die Worte in einem versiegelten Buch: Wenn man es einem Menschen gibt, der lesen kann, und zu ihm sagt: Lies es mir vor!, dann antwortet er: Ich kann es nicht lesen, denn es ist versiegelt.“ {9#Jes 29,11} Und wenn man das Buch einem Mann gibt, der nicht lesen kann, und zu ihm sagt: Lies es mir vor!, dann antwortet er: Ich kann nicht lesen.^pWenn diese Ausführung zu schwach erscheint, der höre das Wort des Apostels: „Zwei oder drei Propheten sollen zu Wort kommen; die andern sollen urteilen. Wenn aber noch einem andern der Anwesenden eine Offenbarung zuteil wird, soll der erste schweigen.“ {10#1 Kor 14,29.30} Aus welchem Grund schweigen, wenn der Heilige Geist, der durch die Propheten spricht, zu entscheiden hat, ob zu schweigen oder zu reden ist? Wenn sie verstanden, was sie sagten, war alles voll Weisheit und Vernunft, und es drang nicht bloß durch die Stimme in Schwingung gebrachte Luft an ihre Ohren. Vielmehr sprach Gott im Herzen der Propheten - wie ein anderer Prophet es ausdrückt: „Der Engel, der in mir redete“ {11#vgl.°Mt 13,10}, und wieder ein anderer: „Der in uns ruft: Abba, Vater!“ {12#Gal 4,6} und wieder einer: „Ich will hören, was Gott in mir redet.“ {13#Ps 85,9}",
+          "patr_text": "^hDie Schrift nicht kennen heißt Christus nicht kennen^pIch leiste, was ich schuldig bin im Gehorsam gegen die Gebote Christi, der sagt: „Erforscht die Schriften!“ {1#Joh 5,39} und: „Sucht, dann werdet ihr finden!“ {2#Mt 7,7} Ich möchte nicht das Wort hören: „Ihr irrt euch; ihr kennt weder die Schrift noch die Macht Gottes.“ {3#Mt 22,29} Denn wenn Christus nach dem Wort des Apostels Paulus „Gottes Kraft und Gottes Weisheit“ ist {4#1 Kor 1,24}, dann kennt die Kraft und Weisheit Gottes nicht, wer die Schrift nicht kennt. Wenn die Kenntnis der Schrift fehlt, fehlt die Kenntnis Christi.^pIch will darum handeln wie ein Hausherr, der aus seinem Vorrat Neues und Altes hervorholt{5#vgl. Mt 13,52}, und wie die Braut im Hohenlied: „Köstliche Früchte, frische und solche von früher, habe ich für dich aufgehoben, Geliebter.“ {6#Hld 7,14} So will ich Jesaja erklären: Ich will ihn nicht nur als Propheten aufzeigen, sondern auch als Evangelisten und Apostel. Denn er sagt von sich und den andern Kündern der frohen Botschaft: „Wie willkommen sind die Füße derer, die eine frohe Botschaft bringen, die den Frieden verkünden.“ {7#Jes 52,7} Zu ihm sprach Gott wie zu einem Apostel: „Wen soll ich senden? Wer wird zu diesem Volk gehen?“ Er antwortete: „Hier bin ich, sende mich!“ {8#Jes 6,8}^pNiemand meine, ich wollte den Inhalt dieses Buches in einer kurzen Rede zusammenfassen, da die vorliegende Schrift doch alle Geheimnisse des Herrn enthält. Sowohl die Geburt des Immanuel aus der Jungfrau wird verkündet als auch die Botschaft von dem berühmten Mann, der Zeichen und Wunder tat, der starb und begraben wurde, der aus der Welt des Todes erstand und Heiland aller Völker genannt wird. Was soll ich über die Lehre von der Natur, der Ethik, Logik sprechen? Alles, was zur Heiligen Schrift gehört, was menschliche Zunge aussprechen und der Sinn der Sterblichen fassen kann, ist in diesem Buch enthalten. Von seinen Geheimnissen zeugt, der geschrieben hat: „Die Offenbarung wurde für euch wie die Worte in einem versiegelten Buch: Wenn man es einem Menschen gibt, der lesen kann, und zu ihm sagt: Lies es mir vor!, dann antwortet er: Ich kann es nicht lesen, denn es ist versiegelt.“ {9#Jes 29,11} Und wenn man das Buch einem Mann gibt, der nicht lesen kann, und zu ihm sagt: Lies es mir vor!, dann antwortet er: Ich kann nicht lesen.^pWenn diese Ausführung zu schwach erscheint, der höre das Wort des Apostels: „Zwei oder drei Propheten sollen zu Wort kommen; die andern sollen urteilen. Wenn aber noch einem andern der Anwesenden eine Offenbarung zuteil wird, soll der erste schweigen.“ {10#1 Kor 14,29.30} Aus welchem Grund schweigen, wenn der Heilige Geist, der durch die Propheten spricht, zu entscheiden hat, ob zu schweigen oder zu reden ist? Wenn sie verstanden, was sie sagten, war alles voll Weisheit und Vernunft, und es drang nicht bloß durch die Stimme in Schwingung gebrachte Luft an ihre Ohren. Vielmehr sprach Gott im Herzen der Propheten – wie ein anderer Prophet es ausdrückt: „Der Engel, der in mir redete“ {11#vgl.°Mt 13,10}, und wieder ein anderer: „Der in uns ruft: Abba, Vater!“ {12#Gal 4,6} und wieder einer: „Ich will hören, was Gott in mir redet.“ {13#Ps 85,9}",
           "patr_resp1": "Der Mund des Gerechten bewegt Worte der Weisheit, und seine Zunge redet, was recht ist",
           "patr_resp2": "Er hat die Weisung seines Gottes im Herzen, und seine Schritte wanken nicht",
           "patr_resp3": "Und seine Zunge redet, was recht ist",
@@ -5297,12 +5297,12 @@ export const adlibData = {
           "nominativ": "Die heilige Therese",
           "genitiv": "der heiligen Therese",
           "comm_1": "Jgfr",
-          "antEv": "Amen, ich sage euch: Wenn ihr nicht umkehrt und werdet wie die Kinder, kommt ihr nicht in das Himmelreich.",
+          "antev": "Amen, ich sage euch: Wenn ihr nicht umkehrt und werdet wie die Kinder, kommt ihr nicht in das Himmelreich.",
           "oration": "Großer Gott, du rufst Menschen in deine Nähe, die nichts von sich selbst erwarten, sondern alles von dir erhoffen. Führe uns den Weg der Demut und der Gotteskindschaft, den du der heiligen Theresia gezeigt hast. Vollende auf ihre Fürsprache auch unser Leben in deiner Herrlichkeit und lass uns dein Antlitz schauen.^ORV"
         },
         "Vesper": {
           "comm_1": "Jgfr",
-          "antEv": "Freut euch und jubelt; denn eure Namen sind im Himmel verzeichnet.",
+          "antev": "Freut euch und jubelt; denn eure Namen sind im Himmel verzeichnet.",
           "oration": "Großer Gott, du rufst Menschen in deine Nähe, die nichts von sich selbst erwarten, sondern alles von dir erhoffen. Führe uns den Weg der Demut und der Gotteskindschaft, den du der heiligen Theresia gezeigt hast. Vollende auf ihre Fürsprache auch unser Leben in deiner Herrlichkeit und lass uns dein Antlitz schauen.^ORV"
         }
       }
@@ -5328,12 +5328,12 @@ export const adlibData = {
           "nominativ": "Der heilige Franz von Assisi",
           "genitiv": "des heiligen Franz von Assisi",
           "comm_1": "Mann_Ord",
-          "antEv": "Franziskus, arm und gering auf Erden, zieht reich in den Himmel ein, und festlicher Gesang erklingt zu seiner Ehre.",
+          "antev": "Franziskus, arm und gering auf Erden, zieht reich in den Himmel ein, und festlicher Gesang erklingt zu seiner Ehre.",
           "oration": "Gott, du Vater der Armen, du hast den heiligen Franz von Assisi auserwählt, in vollkommener Armut und Demut Christus ähnlich zu werden. Mache uns bereit, auf den Spuren des heiligen Franz deinem Sohn nachzufolgen, damit wir in Freude und Liebe mit dir verbunden bleiben.^ORV"
         },
         "Vesper": {
           "comm_1": "Mann_Ord",
-          "antEv": "Im Kreuze unseres Herrn Jesus Christus muss ich mich rühmen, denn ich trage die Male Jesu an meinem Leib.",
+          "antev": "Im Kreuze unseres Herrn Jesus Christus muss ich mich rühmen, denn ich trage die Male Jesu an meinem Leib.",
           "oration": "Gott, du Vater der Armen, du hast den heiligen Franz von Assisi auserwählt, in vollkommener Armut und Demut Christus ähnlich zu werden. Mache uns bereit, auf den Spuren des heiligen Franz deinem Sohn nachzufolgen, damit wir in Freude und Liebe mit dir verbunden bleiben.^ORV"
         }
       }
@@ -5670,12 +5670,12 @@ export const adlibData = {
           "button": "Hl. Hedwig",
           "genitiv": "der heiligen Hedwig",
           "comm_1": "Frau_Liebe",
-          "antEv": "Gottes Wille sei auch unser Wille. Was immer unserem Herrn gefällt, soll auch uns gefallen.",
+          "antev": "Gottes Wille sei auch unser Wille. Was immer unserem Herrn gefällt, soll auch uns gefallen.",
           "oration": "Allmächtiger Gott, du hast die heilige Herzogin Hedwig zu einer Botin des Friedens gemacht und ihr die Gnade geschenkt, inmitten weltlicher Aufgaben ein Beispiel barmherziger Liebe zu geben. Hilf auf ihre Fürsprache auch uns, für Versöhnung und Frieden unter den Menschen zu wirken und dir in den Notleidenden zu dienen.^ORV"
         },
         "Vesper": {
           "comm_1": "Frau_Liebe",
-          "antEv": "Hedwig, du große Frau, im Himmelreich gekrönt, vergiss der Heimatlosen nicht in diesem Tal der Tränen.",
+          "antev": "Hedwig, du große Frau, im Himmelreich gekrönt, vergiss der Heimatlosen nicht in diesem Tal der Tränen.",
           "oration": "Allmächtiger Gott, du hast die heilige Herzogin Hedwig zu einer Botin des Friedens gemacht und ihr die Gnade geschenkt, inmitten weltlicher Aufgaben ein Beispiel barmherziger Liebe zu geben. Hilf auf ihre Fürsprache auch uns, für Versöhnung und Frieden unter den Menschen zu wirken und dir in den Notleidenden zu dienen.^ORV"
         }
       },
@@ -5735,13 +5735,13 @@ export const adlibData = {
           "genitiv": "des heiligen Ignatius",
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
-          "antEv": "Ihn suche ich, der für uns starb, nach ihm verlange ich, der für uns auferstand.",
+          "antev": "Ihn suche ich, der für uns starb, nach ihm verlange ich, der für uns auferstand.",
           "oration": "Allmächtiger, ewiger Gott, das Blutzeugnis deiner Märtyrer ist der Ruhm der ganzen Kirche. Gib, dass das glorreiche Leiden, das den heiligen Ignatius zur ewigen Herrlichkeit führte, uns deinen beständigen Schutz erwirke.^ORV"
         },
         "Vesper": {
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
-          "antEv": "Gottes Brot will ich essen, das Fleisch Jesu Christi, aus Davids Samen stammt, und sein Blut will ich trinken, die unvergängliche Liebe.",
+          "antev": "Gottes Brot will ich essen, das Fleisch Jesu Christi, aus Davids Samen stammt, und sein Blut will ich trinken, die unvergängliche Liebe.",
           "oration": "Allmächtiger, ewiger Gott, das Blutzeugnis deiner Märtyrer ist der Ruhm der ganzen Kirche. Gib, dass das glorreiche Leiden, das den heiligen Ignatius zur ewigen Herrlichkeit führte, uns deinen beständigen Schutz erwirke.^ORV"
         }
       }
@@ -6088,12 +6088,12 @@ export const adlibData = {
           "nominativ": "Der heilige Martin",
           "genitiv": "des heiligen Martin",
           "comm_1": "Mann_Ord",
-          "antEv": "Gepriesen sei der Herr, denn er hat allen Völkern Erlösung geschaffen und sie aus der Finsternis in sein wunderbares Licht gerufen.",
+          "antev": "Gepriesen sei der Herr, denn er hat allen Völkern Erlösung geschaffen und sie aus der Finsternis in sein wunderbares Licht gerufen.",
           "oration": "Barmherziger Gott, du hast den heiligen Martin von Porres auf dem Weg der Armut zur himmlischen Herrlichkeit geführt. Mit großer Hingabe hat er den Notleidenden seiner Vaterstadt gedient. Wecke auch in uns die Bereitschaft, den Mitmenschen in Not und Krankheit beizustehen, und lass uns zusammen mit ihnen die Fülle des Lebens empfangen.^ORV"
         },
         "Vesper": {
           "comm_1": "Mann_Ord",
-          "antEv": "Lasst und preisen die Größe des Herrn, der seinen niedrigen Knecht erhöht und mit himmlischen Gaben bekleidet hat!",
+          "antev": "Lasst und preisen die Größe des Herrn, der seinen niedrigen Knecht erhöht und mit himmlischen Gaben bekleidet hat!",
           "oration": "Barmherziger Gott, du hast den heiligen Martin von Porres auf dem Weg der Armut zur himmlischen Herrlichkeit geführt. Mit großer Hingabe hat er den Notleidenden seiner Vaterstadt gedient. Wecke auch in uns die Bereitschaft, den Mitmenschen in Not und Krankheit beizustehen, und lass uns zusammen mit ihnen die Fülle des Lebens empfangen.^ORV"
         }
       },
@@ -6200,12 +6200,12 @@ export const adlibData = {
           "button": "Hl. Willibrord",
           "genitiv": "des heiligen Willibrord",
           "comm_1": "Hirten",
-          "antEv": "Wie herrlich leuchten die Taten des heiligen Willibrord! Vielen Völkern hat er das Licht des Glaubens gebracht; ewiger Lohn wurde ihm zuteil.",
+          "antev": "Wie herrlich leuchten die Taten des heiligen Willibrord! Vielen Völkern hat er das Licht des Glaubens gebracht; ewiger Lohn wurde ihm zuteil.",
           "oration": "Gott, du Heil aller Menschen, du hast den heiligen Bischof Willibrord gesandt, vielen Völkern die Frohe Botschaft zu verkünden (und unsere Väter im Glauben zu festigen). Höre auf seine Fürsprache und hilf, dass auch wir deine Güte in Wort und Tat bezeugen, damit deine Kirche erstarke und wachse.^ORV"
         },
         "Vesper": {
           "comm_1": "Hirten",
-          "antEv": "Heiliger Willibrord, du hast die Freude des Paradieses erlangt. Bitte bei Gott für alle, die in Not und Bedrängnis zu dir rufen.",
+          "antev": "Heiliger Willibrord, du hast die Freude des Paradieses erlangt. Bitte bei Gott für alle, die in Not und Bedrängnis zu dir rufen.",
           "oration": "Gott, du Heil aller Menschen, du hast den heiligen Bischof Willibrord gesandt, vielen Völkern die Frohe Botschaft zu verkünden (und unsere Väter im Glauben zu festigen). Höre auf seine Fürsprache und hilf, dass auch wir deine Güte in Wort und Tat bezeugen, damit deine Kirche erstarke und wachse.^ORV"
         }
       }
@@ -6231,12 +6231,12 @@ export const adlibData = {
           "genitiv": "des heiligen Leo",
           "vokativ": "Heiliger Leo",
           "comm_1": "Hirten_Kl",
-          "antEv": "Der Herr hat Petrus die Festigkeit eines Felsens verliehen und ihm die Leitung seiner Kirche anvertraut. Was Christus ihm übergab, hat Petrus treu bewahrt.",
+          "antev": "Der Herr hat Petrus die Festigkeit eines Felsens verliehen und ihm die Leitung seiner Kirche anvertraut. Was Christus ihm übergab, hat Petrus treu bewahrt.",
           "oration": "Gott, du hast deine Kirche auf den festen Glauben der Apostel gebaut und lässt nicht zu, dass die Pforten der Hölle sie überwältigen. Auf die Fürsprache des heiligen Papstes Leo stärke in der Kirche den Glauben und schenke ihr Einheit und Frieden.^ORV"
         },
         "Vesper": {
           "comm_1": "Hirten_Kl",
-          "antEv": "Tag für Tag legt Petrus durch die Kirche das Bekenntnis ab: Du bist der Messias, der Sohn des lebendigen Gottes.",
+          "antev": "Tag für Tag legt Petrus durch die Kirche das Bekenntnis ab: Du bist der Messias, der Sohn des lebendigen Gottes.",
           "oration": "Gott, du hast deine Kirche auf den festen Glauben der Apostel gebaut und lässt nicht zu, dass die Pforten der Hölle sie überwältigen. Auf die Fürsprache des heiligen Papstes Leo stärke in der Kirche den Glauben und schenke ihr Einheit und Frieden.^ORV"
         }
       }
@@ -6253,7 +6253,7 @@ export const adlibData = {
           "comm_2": "Hirten",
           "patr_autor": "Pius XI. († 1939)",
           "patr_werk": "Aus der Enzyklika „Ecclesiam Dei“.",
-          "patr_text": "^hEr vergoss sein Blut für die Einheit der Kirche^pDie Kirche ist durch den wunderbaren Ratschluss so gegründet, dass sie in der Fülle der Zeiten wie eine einzige Familie erscheint, die das ganze Menschengeschlecht umfasst. Unter ihren glänzenden Merkmalen, so wissen wir, ist es besonders die weltumspannende Einheit, durch die Gott sie erkennbar gemacht hat. Christus hat die Aufgabe, die er selbst vom Vater empfangen hatte, nur den Aposteln übertragen, indem er sprach: „Mir ist alle Gewalt gegeben im Himmel und auf Erden. Darum geht hin und lehrt alle Völker.“ {1#vgl. Mt 28,18} Aber nicht das allein: Er wollte auch, dass die Apostel zusammen ein Kollegium bildeten, innigst geeint durch ein doppeltes Band: innerlich durch den gleichen Glauben und die gleiche Liebe, die in unsere Herzen ausgegossen ist durch den Heiligen Geist {2#vgl. Röm 5,5}; äußerlich durch die Leitung eines einzigen über alle, indem er dem Petrus den Vorrang über die Apostel übertrug, als ein dauerndes Prinzip und Fundament der Einheit. Damit aber diese Einheit und Übereinstimmung dauernd besteht, weihte Gott sie in seiner Vorsehung durch Heiligkeit und Martyrium wie mit einem Siegel.^pDieses hohe Lob erwarb Josaphat, der Erzbischof von Polozk vom ostslawischen Ritus. Wir anerkennen ihn mit Recht als eine Zierde und Säule der Ostslawen; denn kaum ein anderer hat ihrem Namen solche Herrlichkeit gebracht und mehr zu ihrem Heil beigetragen als dieser ihr Hirte und Apostel, besonders dadurch, dass er sein Blut für die Einheit der Kirche vergossen hat. Vor allem hat er, von einer inneren Eingebung bewegt, erkannt, dass er zur Wiederherstellung der Einheit dadurch sehr viel beitragen konnte, indem er in der Einheit der Gesamtkirche den ostslawischen Ritus und das Mönchtum der Regel des heiligen Basilius beibehielt.^pInzwischen aber war er vor allem darum bemüht, seine Mitbürger zur Einheit mit dem Stuhl Petri zu führen. Er suchte überall nach Wegen, diese Einheit zu fördern, und nach Gelegenheiten, sie zu sichern. Besonders durchforschte er die liturgischen Bücher, die von den Orientalen - auch von den Getrennten - nach der Vorschrift der Väter benutzt werden. Nach sorgfältiger Vorbereitung nahm er die Wiederherstellung der Einheit in Angriff. Er wirkte mit solcher Kraft und Milde zugleich und mit solchem Erfolg, dass er von seinen Gegnern „Seelenräuber“ genannt wurde.",
+          "patr_text": "^hEr vergoss sein Blut für die Einheit der Kirche^pDie Kirche ist durch den wunderbaren Ratschluss so gegründet, dass sie in der Fülle der Zeiten wie eine einzige Familie erscheint, die das ganze Menschengeschlecht umfasst. Unter ihren glänzenden Merkmalen, so wissen wir, ist es besonders die weltumspannende Einheit, durch die Gott sie erkennbar gemacht hat. Christus hat die Aufgabe, die er selbst vom Vater empfangen hatte, nur den Aposteln übertragen, indem er sprach: „Mir ist alle Gewalt gegeben im Himmel und auf Erden. Darum geht hin und lehrt alle Völker.“ {1#vgl. Mt 28,18} Aber nicht das allein: Er wollte auch, dass die Apostel zusammen ein Kollegium bildeten, innigst geeint durch ein doppeltes Band: innerlich durch den gleichen Glauben und die gleiche Liebe, die in unsere Herzen ausgegossen ist durch den Heiligen Geist {2#vgl. Röm 5,5}; äußerlich durch die Leitung eines einzigen über alle, indem er dem Petrus den Vorrang über die Apostel übertrug, als ein dauerndes Prinzip und Fundament der Einheit. Damit aber diese Einheit und Übereinstimmung dauernd besteht, weihte Gott sie in seiner Vorsehung durch Heiligkeit und Martyrium wie mit einem Siegel.^pDieses hohe Lob erwarb Josaphat, der Erzbischof von Polozk vom ostslawischen Ritus. Wir anerkennen ihn mit Recht als eine Zierde und Säule der Ostslawen; denn kaum ein anderer hat ihrem Namen solche Herrlichkeit gebracht und mehr zu ihrem Heil beigetragen als dieser ihr Hirte und Apostel, besonders dadurch, dass er sein Blut für die Einheit der Kirche vergossen hat. Vor allem hat er, von einer inneren Eingebung bewegt, erkannt, dass er zur Wiederherstellung der Einheit dadurch sehr viel beitragen konnte, indem er in der Einheit der Gesamtkirche den ostslawischen Ritus und das Mönchtum der Regel des heiligen Basilius beibehielt.^pInzwischen aber war er vor allem darum bemüht, seine Mitbürger zur Einheit mit dem Stuhl Petri zu führen. Er suchte überall nach Wegen, diese Einheit zu fördern, und nach Gelegenheiten, sie zu sichern. Besonders durchforschte er die liturgischen Bücher, die von den Orientalen – auch von den Getrennten – nach der Vorschrift der Väter benutzt werden. Nach sorgfältiger Vorbereitung nahm er die Wiederherstellung der Einheit in Angriff. Er wirkte mit solcher Kraft und Milde zugleich und mit solchem Erfolg, dass er von seinen Gegnern „Seelenräuber“ genannt wurde.",
           "patr_resp1": "Heiliger Vater, bewahre sie in deinem Namen, die du mir gegeben hast",
           "patr_resp2": "Damit sie vollkommen eins werden wie auch wir und die Welt erkennt, dass du mich gesandt hast",
           "patr_resp3": "Die Herrlichkeit, die du mir gegeben hast, habe ich ihnen gegeben",
@@ -6410,12 +6410,12 @@ export const adlibData = {
         "Laudes": {
           "button": "Weihetag der Basiliken St. Peter und St. Paul zu Rom",
           "comm_1": "Apostel",
-          "antEv": "Petrus, der Apostel, und Paulus, der Lehrer der Völker, sie haben uns dein Gesetz gelehrt, o°Herr.",
+          "antev": "Petrus, der Apostel, und Paulus, der Lehrer der Völker, sie haben uns dein Gesetz gelehrt, o°Herr.",
           "oration": "Ewiger Gott, steh deiner Kirche bei und bewahre sie unter dem Schutz der Apostel Petrus und Paulus, von denen sie den Glauben und das Leben in Christus empfangen hat. Lass sie wachsen in deiner Gnade bis ans Ende der Zeiten.^ORV"
         },
         "Vesper": {
           "comm_1": "Apostel",
-          "antEv": "Der Leib der Heiligen ist in Frieden bestattet, ihr Name lebt fort auf ewig.",
+          "antev": "Der Leib der Heiligen ist in Frieden bestattet, ihr Name lebt fort auf ewig.",
           "oration": "Ewiger Gott, steh deiner Kirche bei und bewahre sie unter dem Schutz der Apostel Petrus und Paulus, von denen sie den Glauben und das Leben in Christus empfangen hat. Lass sie wachsen in deiner Gnade bis ans Ende der Zeiten.^ORV"
         }
       }
@@ -6440,12 +6440,12 @@ export const adlibData = {
           "button": "Unsere Liebe Frau in Jerusalem",
           "farbe": "m",
           "comm_1": "Maria",
-          "antEv": "Selig bist du, Maria, weil du geglaubt hast. Was dir vom Herrn gesagt ist, wird sich an dir erfüllen.",
+          "antev": "Selig bist du, Maria, weil du geglaubt hast. Was dir vom Herrn gesagt ist, wird sich an dir erfüllen.",
           "oration": "Gütiger Gott, wir gedenken am heutigen Tag der seligen Jungfrau Maria, die du mit der Fülle deiner Gnade beschenkt hast. Höre auf ihre Fürsprache und lass auch uns am Reichtum deiner Gnade teilhaben, damit wir mit ganzer Hingabe und frohem Vertrauen vor dir leben.^ORV"
         },
         "Vesper": {
           "comm_1": "Maria",
-          "antEv": "Selige Mutter Gottes, Maria, allzeit reine Jungfrau, Wohnstatt des Herrn, Tempel des Heiligen Geistes. Wie keine hast du Christus, dem Herrn, gefallen.",
+          "antev": "Selige Mutter Gottes, Maria, allzeit reine Jungfrau, Wohnstatt des Herrn, Tempel des Heiligen Geistes. Wie keine hast du Christus, dem Herrn, gefallen.",
           "oration": "Gütiger Gott, wir gedenken am heutigen Tag der seligen Jungfrau Maria, die du mit der Fülle deiner Gnade beschenkt hast. Höre auf ihre Fürsprache und lass auch uns am Reichtum deiner Gnade teilhaben, damit wir mit ganzer Hingabe und frohem Vertrauen vor dir leben.^ORV"
         }
       }
@@ -6474,13 +6474,13 @@ export const adlibData = {
           "genitiv": "der heiligen Cäcilia",
           "comm_1": "MärtSg_Jgfr",
           "comm_2": "Jgfr_Märt",
-          "antEv": "Als die Nacht zu Ende ging, rief Cäcilia: Auf, ihr Streiter Christi, legt ab die Werke der Finsternis und zieht die Waffen des Lichtes an.",
+          "antev": "Als die Nacht zu Ende ging, rief Cäcilia: Auf, ihr Streiter Christi, legt ab die Werke der Finsternis und zieht die Waffen des Lichtes an.",
           "oration": "Großer Gott, du hast uns geschaffen, damit wir dich loben und preisen. Erhöre auf die Fürsprache der heiligen Cäcilia unser Gebet und lass uns mit Freude und Hingabe dein Lob verkünden.^ORV"
         },
         "Vesper": {
           "comm_1": "MärtSg_Jgfr",
           "comm_2": "Jgfr_Märt",
-          "antEv": "Die Jungfrau Cäcilia trug die Frohe Botschaft allzeit in ihrem Herzen. Bei Tag und Nacht ließ sie nicht ab von geistlichen Gesprächen und vom Gebet.",
+          "antev": "Die Jungfrau Cäcilia trug die Frohe Botschaft allzeit in ihrem Herzen. Bei Tag und Nacht ließ sie nicht ab von geistlichen Gesprächen und vom Gebet.",
           "oration": "Großer Gott, du hast uns geschaffen, damit wir dich loben und preisen. Erhöre auf die Fürsprache der heiligen Cäcilia unser Gebet und lass uns mit Freude und Hingabe dein Lob verkünden.^ORV"
         }
       }
@@ -6646,12 +6646,12 @@ export const adlibData = {
           "button": "Bischofsweihe des hl. Bonifatius",
           "genitiv": "des heiligen Bonifatius",
           "comm_1": "Hirten",
-          "antEv": "Jeder Hohepriester wird aus den Menschen ausgewählt und für die Menschen eingesetzt zum Dienst vor Gott. Keiner nimmt sich eigenmächtig diese Würde, sondern er wird von Gott berufen.",
+          "antev": "Jeder Hohepriester wird aus den Menschen ausgewählt und für die Menschen eingesetzt zum Dienst vor Gott. Keiner nimmt sich eigenmächtig diese Würde, sondern er wird von Gott berufen.",
           "oration": "Ewiger Gott, bei seiner Bischofsweihe hat der heilige Bonifatius am Grab des heiligen Petrus ein feierliches Bekenntnis zum katholischen Glauben und zur Einheit der Kirche abgelegt. Erhalte dein Volk im gleichen Bekenntnis und sende ihm allzeit würdige Hirten.^ORV"
         },
         "Vesper": {
           "comm_1": "Hirten",
-          "antEv": "Dank sei dir, Christus, guter Hirte! Du hast mich zur Herrlichkeit geführt, gib auch der Herde, die du mir anvertraut hast, Anteil an deiner Gnade auf ewig.",
+          "antev": "Dank sei dir, Christus, guter Hirte! Du hast mich zur Herrlichkeit geführt, gib auch der Herde, die du mir anvertraut hast, Anteil an deiner Gnade auf ewig.",
           "oration": "Ewiger Gott, bei seiner Bischofsweihe hat der heilige Bonifatius am Grab des heiligen Petrus ein feierliches Bekenntnis zum katholischen Glauben und zur Einheit der Kirche abgelegt. Erhalte dein Volk im gleichen Bekenntnis und sende ihm allzeit würdige Hirten.^ORV"
         }
       },
@@ -6954,13 +6954,13 @@ export const adlibData = {
           "genitiv": "des seligen Liborius Wagner",
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
-          "antEv": "Des alten Glaubens neuer Zeuge, ward Liborius in seinem Leiden den Märtyrern der frühen Kirche gleich. So sollte Gott in seinem treuen Knecht verherrlicht werden.",
+          "antev": "Des alten Glaubens neuer Zeuge, ward Liborius in seinem Leiden den Märtyrern der frühen Kirche gleich. So sollte Gott in seinem treuen Knecht verherrlicht werden.",
           "oration": "Gott, du Vater aller Gläubigen, in deinem Dienst hat der Märtyrerpriester Liborius für die Wiedervereinigung der getrennten Christen gelebt und gelitten. Gib auch uns Ausdauer und Geduld, damit wir nicht müde werden, für die Einheit der Kirche zu wirken.^ORV"
         },
         "Vesper": {
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
-          "antEv": "Allen Folterungen, die je Tyrannen in ihrer Wut erdachten, wurde Liborius unterworfen. Er ertrug sie in der ungebrochenen Kraft des Zeugen Christi.",
+          "antev": "Allen Folterungen, die je Tyrannen in ihrer Wut erdachten, wurde Liborius unterworfen. Er ertrug sie in der ungebrochenen Kraft des Zeugen Christi.",
           "oration": "Gott, du Vater aller Gläubigen, in deinem Dienst hat der Märtyrerpriester Liborius für die Wiedervereinigung der getrennten Christen gelebt und gelitten. Gib auch uns Ausdauer und Geduld, damit wir nicht müde werden, für die Einheit der Kirche zu wirken.^ORV"
         }
       },
@@ -7065,13 +7065,13 @@ export const adlibData = {
           "genitiv": "der heiligen Luzia",
           "comm_1": "MärtSg_Jgfr",
           "comm_2": "Jgfr_Märt",
-          "antEv": "Ich habe keinem anderen geopfert als dem lebendigen Gott. Nun, da mir nichts mehr geblieben ist, bringe ich mich selbst zum Opfer dar.",
+          "antev": "Ich habe keinem anderen geopfert als dem lebendigen Gott. Nun, da mir nichts mehr geblieben ist, bringe ich mich selbst zum Opfer dar.",
           "oration": "Herr, unser Gott, wir feiern den Gedenktag der heiligen Jungfrau und Märtyrerin Luzia, die du uns als Fürsprecherin gegeben hast. Gibt, dass wir nach ihrem Beispiel als Kinder des Lichtes leben und einst in der Gemeinschaft der Heiligen den Glanz deiner Herrlichkeit schauen.^ORV"
         },
         "Vesper": {
           "comm_1": "MärtSg_Jgfr",
           "comm_2": "Jgfr_Märt",
-          "antEv": "Heilige Luzia, du Braut des Herrn! Weil du standhaft bliebst, hast du das Leben gewonnen. Den Reichtum dieser Welt hast du verachtet und durch dein Blut den Feind besiegt. Nun strahlt dein Licht inmitten der Engel.",
+          "antev": "Heilige Luzia, du Braut des Herrn! Weil du standhaft bliebst, hast du das Leben gewonnen. Den Reichtum dieser Welt hast du verachtet und durch dein Blut den Feind besiegt. Nun strahlt dein Licht inmitten der Engel.",
           "oration": "Herr, unser Gott, wir feiern den Gedenktag der heiligen Jungfrau und Märtyrerin Luzia, die du uns als Fürsprecherin gegeben hast. Gibt, dass wir nach ihrem Beispiel als Kinder des Lichtes leben und einst in der Gemeinschaft der Heiligen den Glanz deiner Herrlichkeit schauen.^ORV"
         }
       }
