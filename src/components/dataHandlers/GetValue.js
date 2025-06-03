@@ -124,7 +124,7 @@ export const getValue = ({ hour, texts, field,
             if (localPrefContinuous &&
                 hour === 'lesehore' &&
                 (field.startsWith('les_')
-                    || field.startsWith('resp1_')
+                    || field.startsWith('resp')
                     || field.startsWith('patr_'))
             ) { return texts[hour]?.wt?.[field] }
 

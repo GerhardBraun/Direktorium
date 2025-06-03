@@ -487,18 +487,18 @@ function processEasterResponses(hours) {
 }
 
 function processResponseSet(data) {
-    if (data.resp1_1 && data.resp1_2) {
-        if (!data.resp1_2.startsWith('Hall')) {
-            data.resp1_1 = `${data.resp1_1} ${data.resp1_2}`;
-            data.resp1_2 = 'Halleluja,°halleluja.';
+    if (data.resp1 && data.resp2) {
+        if (!data.resp2.startsWith('Hall')) {
+            data.resp1 = `${data.resp1} ${data.resp2}`;
+            data.resp2 = 'Halleluja,°halleluja.';
         }
     }
 
     // Lateinische Responsorien verarbeiten
-    if (data.resp1_1_lat && data.resp1_2_lat) {
-        if (!data.resp1_2_lat.startsWith('Alle')) {
-            data.resp1_1_lat = `${data.resp1_1_lat} ${data.resp1_2_lat}`;
-            data.resp1_2_lat = 'Allelúia,°allelúia.';
+    if (data.resp1_lat && data.resp2_lat) {
+        if (!data.resp2_lat.startsWith('Alle')) {
+            data.resp1_lat = `${data.resp1_lat} ${data.resp2_lat}`;
+            data.resp2_lat = 'Allelúia,°allelúia.';
         }
     }
 }

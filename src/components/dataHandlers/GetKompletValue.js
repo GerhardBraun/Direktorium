@@ -30,7 +30,7 @@ export const getKompletValue = ({ texts, field, localPrefKomplet, localPrefLangu
             }
         }
 
-        if (targetField === 'resp1_1' &&
+        if (targetField === 'resp1' &&
             (swdCombined.startsWith('o-1-') ||
                 ['q-6-4', 'q-6-5', 'q-6-6', 'o-2-0'].includes(swdCombined))
         ) {
@@ -62,10 +62,10 @@ const data = {
         "ant_2": "LEER",
         "ant_1_lat": "LEER",
         "ant_2_lat": "LEER",
-        "resp1_1": "Herr, auf dich vertraue ich, in deine Hände lege ich mein Leben.",
-        "resp1_2": "Halleluja,°halleluja.",
-        "resp1_1_lat": "In manus tuas, Dómine, comméndo spíritum meum.",
-        "resp1_2_lat": "Allelúia,°allelúia.",
+        "resp1": "Herr, auf dich vertraue ich, in deine Hände lege ich mein Leben.",
+        "resp2": "Halleluja,°halleluja.",
+        "resp1_lat": "In manus tuas, Dómine, comméndo spíritum meum.",
+        "resp2_lat": "Allelúia,°allelúia.",
         "3": { "ps_2": 130, },
         "5": { "ps_1": 88, },
     },
@@ -75,13 +75,13 @@ const data = {
     },
     "each": {
         "hymn_1": 2500.0,
-        "resp1_1": "Herr, auf dich vertraue ich,",
-        "resp1_2": "in deine Hände lege ich mein Leben.",
-        "resp1_3": "Lass leuchten über deinem Knecht dein Antlitz, hilf mir in deiner Güte.",
+        "resp1": "Herr, auf dich vertraue ich,",
+        "resp2": "in deine Hände lege ich mein Leben.",
+        "resp3": "Lass leuchten über deinem Knecht dein Antlitz, hilf mir in deiner Güte.",
         "ant_ev": "Sei unser Heil, o°Herr, wenn wir wachen, und unser Schutz, wenn wir schlafen, damit wir wachen mit Christus und ruhen in Frieden.^ö",
-        "resp1_1_lat": "In manus tuas, Dómine,",
-        "resp1_2_lat": "comméndo spíritum meum.",
-        "resp1_3_lat": "Redemísti nos, Dómine Deus veritátis._lat",
+        "resp1_lat": "In manus tuas, Dómine,",
+        "resp2_lat": "comméndo spíritum meum.",
+        "resp3_lat": "Redemísti nos, Dómine Deus veritátis._lat",
         "ant_ev_lat": "Salva nos, Dómine, vigilántes, custódi nos dormiéntes, ut vigilémus cum Christo et requiescámus in pace.^Lö"
     },
     "0": {

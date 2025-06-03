@@ -17,15 +17,15 @@ interface PersonalEntry {
   ant_1?: string;
   ant_2?: string;
   ant_3?: string;
-  resp0_0?: string;
-  resp0_1?: string;
+  versikel0?: string;
+  versikel1?: string;
   les_buch?: string;
   les_stelle?: string;
   les_text?: string;
-  resp1_0?: string;
-  resp1_1?: string;
-  resp1_2?: string;
-  resp1_3?: string;
+  resp0?: string;
+  resp1?: string;
+  resp2?: string;
+  resp3?: string;
   patr_autor?: string;
   patr_werk?: string;
   patr_text?: string;
@@ -302,8 +302,8 @@ export const personalData = {
           "ant_1": "",
           "ant_2": "",
           "ant_3": "",
-          "resp1_0": "Er wurde geopfert, weil er selbst es wollte.",
-          "resp1_1": "Und tat seinen Mund nicht auf."
+          "resp0": "Er wurde geopfert, weil er selbst es wollte.",
+          "resp1": "Und tat seinen Mund nicht auf."
         },
         "Vesper": {
           "hymn_1": 3342.0

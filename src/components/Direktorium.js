@@ -1349,7 +1349,7 @@ const PrayerTextDisplay = ({
     return extFormatPsalm(psalm, inv, localPrefLanguage);
   };
 
-  const PrayerResponse = ({ resp1_3, resp1_2 }) => {
+  const PrayerResponse = ({ resp3, resp2 }) => {
     const formatSecondResponse = (firstResp, secondResp) => {
       if (!firstResp || !secondResp) return secondResp;
 
@@ -1369,9 +1369,9 @@ const PrayerTextDisplay = ({
       <div className="flex gap-0">
         <Rubric>V&nbsp;&nbsp;</Rubric>
         <div>
-          {formatPrayerText(resp1_3)}
+          {formatPrayerText(resp3)}
           <Rubric> *&nbsp;</Rubric>
-          {formatPrayerText(formatSecondResponse(resp1_3, resp1_2))}
+          {formatPrayerText(formatSecondResponse(resp3, resp2))}
         </div>
       </div>
     );
@@ -1426,7 +1426,7 @@ const PrayerTextDisplay = ({
           <div className="mt-0 mb-0">
             <SectionHeader
               title="ERÖFFNUNG"
-              field="resp0_0"
+              field="versikel0"
               askLatin={true} />
             <div>
               {formatPrayerText(ordinariumTexts.opening[0], "V°°")}
@@ -1511,17 +1511,17 @@ const PrayerTextDisplay = ({
             )}
           </div>
         )}
-        {getValue("resp0_0") && (
+        {getValue("versikel0") && (
           <div className="mb-0">
-            <SectionHeader title="VERSIKEL" field="resp0_0" />
-            {getValue("resp0_0") && (
+            <SectionHeader title="VERSIKEL" field="versikel0" />
+            {getValue("versikel0") && (
               <div className="mb-0 flex gap-0">
-                <div>{formatPrayerText(getValue("resp0_0"), "V°°")}</div>
+                <div>{formatPrayerText(getValue("versikel0"), "V°°")}</div>
               </div>
             )}
-            {getValue("resp0_1") && (
+            {getValue("versikel1") && (
               <div className="flex gap-0">
-                <div>{formatPrayerText(getValue("resp0_1"), "R°°")}</div>
+                <div>{formatPrayerText(getValue("versikel1"), "R°°")}</div>
               </div>
             )}
           </div>
@@ -1560,39 +1560,39 @@ const PrayerTextDisplay = ({
           </div>
         )}
 
-        {getValue("resp1_1") && (
+        {getValue("resp1") && (
           <div className="mb-0 whitespace-pre-wrap">
-            <SectionHeader title="RESPONSORIUM" field="resp1_1" />
-            {getValue("resp1_0") && getValue("resp1_1") && (
+            <SectionHeader title="RESPONSORIUM" field="resp1" />
+            {getValue("resp0") && getValue("resp1") && (
               <div className="mb-0 flex gap-0">
-                <div>{formatPrayerText(getValue("resp1_0"), "V°°")}</div>
+                <div>{formatPrayerText(getValue("resp0"), "V°°")}</div>
               </div>
             )}
-            {getValue("resp1_0") && getValue("resp1_1") && (
+            {getValue("resp0") && getValue("resp1") && (
               <div className="mb-0 flex gap-0">
-                <div>{formatPrayerText(getValue("resp1_1"), "R°°")}</div>
+                <div>{formatPrayerText(getValue("resp1"), "R°°")}</div>
               </div>
             )}
-            {getValue("resp1_1") && getValue("resp1_2") && (
+            {getValue("resp1") && getValue("resp2") && (
               <div className="mb-0 flex gap-0">
                 <Rubric>R&nbsp;&nbsp;</Rubric>
                 <div>
-                  {formatPrayerText(getValue("resp1_1"))}
+                  {formatPrayerText(getValue("resp1"))}
                   <Rubric> *&nbsp;</Rubric>
-                  {formatPrayerText(getValue("resp1_2"))}
+                  {formatPrayerText(getValue("resp2"))}
                   {hour !== "lesehore" && <Rubric> –&#8288;&#160;R</Rubric>}
                 </div>
               </div>
             )}
-            {getValue("resp1_3") && getValue("resp1_2") && (
+            {getValue("resp3") && getValue("resp2") && (
               <>
                 <PrayerResponse
-                  resp1_3={getValue("resp1_3")}
-                  resp1_2={getValue("resp1_2")}
+                  resp3={getValue("resp3")}
+                  resp2={getValue("resp2")}
                 />
                 {hour !== "lesehore" && (
                   <div>
-                    {getValue("resp1_3").endsWith("_lat")
+                    {getValue("resp3").endsWith("_lat")
                       ? 'Glória Patri et Fílio et\u00a0Spirítui\u00a0Sancto.'
                       : 'Ehre sei dem Vater und\u00a0dem\u00a0Sohn und\u00a0dem\u00a0Heiligen\u00a0Geist.'}
                     <Rubric> –&#8288;&#160;R</Rubric>
@@ -1623,7 +1623,7 @@ const PrayerTextDisplay = ({
 
         {getValue("patr_resp1") && (
           <div className="mb-0">
-            <SectionHeader title="RESPONSORIUM" field="resp1_1" />
+            <SectionHeader title="RESPONSORIUM" field="resp1" />
             {getValue("patr_resp1") && getValue("patr_resp2") && (
               <div className="mb-0 flex gap-0">
                 <Rubric>R&nbsp;&nbsp;</Rubric>
@@ -1637,8 +1637,8 @@ const PrayerTextDisplay = ({
             )}
             {getValue("patr_resp3") && getValue("patr_resp2") && (
               <PrayerResponse
-                resp1_3={getValue("patr_resp3")}
-                resp1_2={getValue("patr_resp2")}
+                resp3={getValue("patr_resp3")}
+                resp2={getValue("patr_resp2")}
               />
             )}
           </div>
@@ -1647,7 +1647,7 @@ const PrayerTextDisplay = ({
         {/* erweitertes Responsorium am 1. Adventssonntag Jahr II */}
         {advResp && (
           <div className="mb-0">
-            <SectionHeader title="RESPONSORIUM" field="resp1_1" />
+            <SectionHeader title="RESPONSORIUM" field="resp1" />
             <div className="mb-0 flex gap-0">
               <Rubric>R&nbsp;&nbsp;</Rubric>
               <div>
@@ -1663,8 +1663,8 @@ const PrayerTextDisplay = ({
             {advVers.slice(0, 3).map((versText, index) => (
               <PrayerResponse
                 key={`prayer-response-${index}`}
-                resp1_3={versText}
-                resp1_2={advResp[index + 1]}
+                resp3={versText}
+                resp2={advResp[index + 1]}
               />
             ))}
             {/* Letzter Vers ohne Response */}
@@ -1776,7 +1776,7 @@ const PrayerTextDisplay = ({
           <div className="mb-0 mt-0">
             <SectionHeader
               title="ABSCHLUSS"
-              field="resp0_0"
+              field="versikel0"
               askLatin={true} />
             <div className="flex gap-0">
               {formatPrayerText(ordinariumTexts.closing[0], "V°°")}
@@ -1854,7 +1854,7 @@ const PrayerTextDisplay = ({
 
               {getValue("c_patr_resp1") && useCommemoration && (
                 <div className="mb-0">
-                  <SectionHeader title="RESPONSORIUM" field="resp1_1" />
+                  <SectionHeader title="RESPONSORIUM" field="resp1" />
                   {getValue("c_patr_resp1") && getValue("c_patr_resp2") && (
                     <div className="mb-0 flex gap-0">
                       <Rubric>R&nbsp;&nbsp;</Rubric>
@@ -1870,8 +1870,8 @@ const PrayerTextDisplay = ({
                   )}
                   {getValue("c_patr_resp3") && getValue("c_patr_resp2") && (
                     <PrayerResponse
-                      resp1_3={getValue("c_patr_resp3")}
-                      resp1_2={getValue("c_patr_resp2")}
+                      resp3={getValue("c_patr_resp3")}
+                      resp2={getValue("c_patr_resp2")}
                     />
                   )}
                 </div>
