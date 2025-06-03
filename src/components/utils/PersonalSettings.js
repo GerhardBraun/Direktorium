@@ -16,25 +16,60 @@ const PersonalSettings = () => {
     const [popeName, setPopeName] = useState(() =>
         getLocalStorage('popeName') || 'Leo'
     );
-    const [popeNameDat, setPopeNameDat] = useState(() =>
-        getLocalStorage('popeNameDat') || 'Leóni'
-    );
-    const [popeNameAkk, setPopeNameAkk] = useState(() =>
-        getLocalStorage('popeNameAkk') || 'Leónem'
+    const [popeNameLat, setPopeNameLat] = useState(() =>
+        getLocalStorage('popeNameLat') || 'Leóni'
     );
     const [bishopName, setBishopName] = useState(() =>
         getLocalStorage('bishopName') || ''
     );
-    const [bishopNameDat, setBishopNameDat] = useState(() =>
-        getLocalStorage('bishopNameDat') || ''
+    const [bishopNameLat, setBishopNameLat] = useState(() =>
+        getLocalStorage('bishopNameLat') || ''
     );
-    const [bishopNameAkk, setBishopNameAkk] = useState(() =>
-        getLocalStorage('bishopNameAkk') || ''
+
+    // Lokale States für die Eingabefelder (um Umwandlung zu verzögern)
+    const [popeNameLatInput, setPopeNameLatInput] = useState(() =>
+        getLocalStorage('popeNameLat') || ''
     );
+    const [bishopNameLatInput, setBishopNameLatInput] = useState(() =>
+        getLocalStorage('bishopNameLat') || ''
+    );
+    const [popeNameAccInput, setPopeNameAccInput] = useState('');
+    const [bishopNameAccInput, setBishopNameAccInput] = useState('');
+
     const [sequenceInv, setSequenceInv] = useState(() => {
         const stored = getLocalStorage('sequenceInv');
         return stored ? JSON.parse(stored) : [95, 100, 24, 67, 67, 100, 24];
     });
+
+    // Hilfsfunktion für Kasuswechsel → Dativ
+    const convertToDative = (name) => {
+        if (!name) return name;
+        return name
+            .replace(/(em|is|e)(?![a-záéíóúýæǽœ])/g, 'i')
+            .replace(/(um|us)(?![a-záéíóúýæǽœ])/g, 'o');
+    };
+
+    // Hilfsfunktion für Kasuswechsel Dativ → Akkusativ
+    const convertToAccusative = (name) => {
+        if (!name) return name;
+        return name
+            .replace(/i(?![a-záéíóúýæǽœ])/g, 'em')
+            .replace(/o(?![a-záéíóúýæǽœ])/g, 'um');
+    };
+
+    // Handler für Dativ-Eingabe (beim Verlassen des Feldes)
+    const handleDativeBlur = (value, setter, inputSetter) => {
+        const dativeForm = convertToDative(value);
+        setter(dativeForm);
+        inputSetter(dativeForm);
+    };
+
+    // Handler für Akkusativ-Eingabe (beim Verlassen des Feldes)
+    const handleAccusativeBlur = (value, setter, inputSetter) => {
+        const dativeForm = convertToDative(value);
+        setter(dativeForm);
+        inputSetter(convertToAccusative(dativeForm));
+    };
 
     useEffect(() => {
         const loadedData = getLocalStorage('personalData');
@@ -60,24 +95,27 @@ const PersonalSettings = () => {
     }, [popeName]);
 
     useEffect(() => {
-        setLocalStorage('popeNameDat', popeNameDat);
-    }, [popeNameDat]);
-
-    useEffect(() => {
-        setLocalStorage('popeNameAkk', popeNameAkk);
-    }, [popeNameAkk]);
+        setLocalStorage('popeNameLat', popeNameLat);
+    }, [popeNameLat]);
 
     useEffect(() => {
         setLocalStorage('bishopName', bishopName);
     }, [bishopName]);
 
     useEffect(() => {
-        setLocalStorage('bishopNameDat', bishopNameDat);
-    }, [bishopNameDat]);
+        setLocalStorage('bishopNameLat', bishopNameLat);
+    }, [bishopNameLat]);
+
+    // Synchronisiere die Eingabefelder mit den gespeicherten Werten
+    useEffect(() => {
+        setPopeNameLatInput(popeNameLat);
+        setPopeNameAccInput(convertToAccusative(popeNameLat));
+    }, [popeNameLat]);
 
     useEffect(() => {
-        setLocalStorage('bishopNameAkk', bishopNameAkk);
-    }, [bishopNameAkk]);
+        setBishopNameLatInput(bishopNameLat);
+        setBishopNameAccInput(convertToAccusative(bishopNameLat));
+    }, [bishopNameLat]);
 
     useEffect(() => {
         setLocalStorage('sequenceInv', JSON.stringify(sequenceInv));
@@ -133,25 +171,17 @@ const PersonalSettings = () => {
                         setPopeName(data.settings.popeName);
                         setLocalStorage('popeName', data.settings.popeName);
                     }
-                    if (data.settings.popeNameDat) {
-                        setPopeNameDat(data.settings.popeNameDat);
-                        setLocalStorage('popeNameDat', data.settings.popeNameDat);
-                    }
-                    if (data.settings.popeNameAkk) {
-                        setPopeNameAkk(data.settings.popeNameAkk);
-                        setLocalStorage('popeNameAkk', data.settings.popeNameAkk);
+                    if (data.settings.popeNameLat) {
+                        setPopeNameLat(data.settings.popeNameLat);
+                        setLocalStorage('popeNameLat', data.settings.popeNameLat);
                     }
                     if (data.settings.bishopName) {
                         setBishopName(data.settings.bishopName);
                         setLocalStorage('bishopName', data.settings.bishopName);
                     }
-                    if (data.settings.bishopNameDat) {
-                        setBishopNameDat(data.settings.bishopNameDat);
-                        setLocalStorage('bishopNameDat', data.settings.bishopNameDat);
-                    }
-                    if (data.settings.bishopNameAkk) {
-                        setBishopNameAkk(data.settings.bishopNameAkk);
-                        setLocalStorage('bishopNameAkk', data.settings.bishopNameAkk);
+                    if (data.settings.bishopNameLat) {
+                        setBishopNameLat(data.settings.bishopNameLat);
+                        setLocalStorage('bishopNameLat', data.settings.bishopNameLat);
                     }
                     if (data.settings.sequenceInv) {
                         setSequenceInv(data.settings.sequenceInv);
@@ -177,11 +207,9 @@ const PersonalSettings = () => {
             prefFootnotes,
             prefLanguage,
             popeName,
-            popeNameDat,
-            popeNameAkk,
+            popeNameLat,
             bishopName,
-            bishopNameDat,
-            bishopNameAkk,
+            bishopNameLat,
             sequenceInv
         };
 
@@ -270,14 +298,14 @@ const PersonalSettings = () => {
             {/* Names Section */}
             <div className="px-3">
                 <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
-                    Namen für die Fürbitten
+                    Namen des Papstes und des Bischofs für&nbsp;die&nbsp;Fürbitten
                 </div>
 
-                {/* Papst Section */}
+                {/* Deutsche Namen */}
                 <div className="grid gap-1 items-center mb-1"
-                    style={{ gridTemplateColumns: '6rem minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr)' }}>
+                    style={{ gridTemplateColumns: '6rem minmax(0, 1fr) minmax(0, 1fr)' }}>
                     <label className="text-sm text-gray-500 dark:text-gray-400">
-                        Papst
+                        Deutsch
                     </label>
                     <input
                         type="text"
@@ -286,34 +314,8 @@ const PersonalSettings = () => {
                         className="px-2 py-1 text-sm bg-gray-100 dark:bg-gray-800
             border dark:border-gray-600 rounded
             text-gray-900 dark:text-gray-100 min-w-0"
-                        placeholder="Nom."
+                        placeholder="Name des Papstes"
                     />
-                    <input
-                        type="text"
-                        value={popeNameDat}
-                        onChange={(e) => setPopeNameDat(e.target.value)}
-                        className="px-2 py-1 text-sm bg-gray-100 dark:bg-gray-800
-            border dark:border-gray-600 rounded
-            text-gray-900 dark:text-gray-100 min-w-0"
-                        placeholder="lat. Dativ"
-                    />
-                    <input
-                        type="text"
-                        value={popeNameAkk}
-                        onChange={(e) => setPopeNameAkk(e.target.value)}
-                        className="px-2 py-1 text-sm bg-gray-100 dark:bg-gray-800
-            border dark:border-gray-600 rounded
-            text-gray-900 dark:text-gray-100 min-w-0"
-                        placeholder="lat. Akkusativ"
-                    />
-                </div>
-
-                {/* Bischof Section */}
-                <div className="grid gap-1 items-center"
-                    style={{ gridTemplateColumns: '6rem minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr)' }}>
-                    <label className="text-sm text-gray-500 dark:text-gray-400">
-                        Bischof
-                    </label>
                     <input
                         type="text"
                         value={bishopName}
@@ -321,30 +323,68 @@ const PersonalSettings = () => {
                         className="px-2 py-1 text-sm bg-gray-100 dark:bg-gray-800
             border dark:border-gray-600 rounded
             text-gray-900 dark:text-gray-100 min-w-0"
-                        placeholder="Nom."
+                        placeholder="Name des Bischofs"
                     />
+                </div>
+
+                {/* Lateinisch (Dativ) */}
+                <div className="grid gap-1 items-center mb-1"
+                    style={{ gridTemplateColumns: '6rem minmax(0, 1fr) minmax(0, 1fr)' }}>
+                    <label className="text-sm text-gray-500 dark:text-gray-400">
+                        Latein (Dat.)
+                    </label>
                     <input
                         type="text"
-                        value={bishopNameDat}
-                        onChange={(e) => setBishopNameDat(e.target.value)}
+                        value={popeNameLatInput}
+                        onChange={(e) => setPopeNameLatInput(e.target.value)}
+                        onBlur={(e) => handleDativeBlur(e.target.value, setPopeNameLat, setPopeNameLatInput)}
                         className="px-2 py-1 text-sm bg-gray-100 dark:bg-gray-800
             border dark:border-gray-600 rounded
             text-gray-900 dark:text-gray-100 min-w-0"
-                        placeholder="lat. Dativ"
+                        placeholder="nomen Papae"
                     />
                     <input
                         type="text"
-                        value={bishopNameAkk}
-                        onChange={(e) => setBishopNameAkk(e.target.value)}
+                        value={bishopNameLatInput}
+                        onChange={(e) => setBishopNameLatInput(e.target.value)}
+                        onBlur={(e) => handleDativeBlur(e.target.value, setBishopNameLat, setBishopNameLatInput)}
                         className="px-2 py-1 text-sm bg-gray-100 dark:bg-gray-800
             border dark:border-gray-600 rounded
             text-gray-900 dark:text-gray-100 min-w-0"
-                        placeholder="lat. Akkusativ"
+                        placeholder="nomen Episcopi"
+                    />
+                </div>
+
+                {/* Lateinisch (Akkusativ) - nur Anzeige */}
+                <div className="grid gap-1 items-center"
+                    style={{ gridTemplateColumns: '6rem minmax(0, 1fr) minmax(0, 1fr)' }}>
+                    <label className="text-sm text-gray-500 dark:text-gray-400">
+                        Latein (Akk.)
+                    </label>
+                    <input
+                        type="text"
+                        value={popeNameAccInput}
+                        onChange={(e) => setPopeNameAccInput(e.target.value)}
+                        onBlur={(e) => handleAccusativeBlur(e.target.value, setPopeNameLat, setPopeNameAccInput)}
+                        className="px-2 py-1 text-sm bg-gray-100 dark:bg-gray-800
+            border dark:border-gray-600 rounded
+            text-gray-900 dark:text-gray-100 min-w-0"
+                        placeholder="nomen Papae"
+                    />
+                    <input
+                        type="text"
+                        value={bishopNameAccInput}
+                        onChange={(e) => setBishopNameAccInput(e.target.value)}
+                        onBlur={(e) => handleAccusativeBlur(e.target.value, setBishopNameLat, setBishopNameAccInput)}
+                        className="px-2 py-1 text-sm bg-gray-100 dark:bg-gray-800
+            border dark:border-gray-600 rounded
+            text-gray-900 dark:text-gray-100 min-w-0"
+                        placeholder="nomen Episcopi"
                     />
                 </div>
             </div>
 
-            {/* Invitatorium Psalms Section - Neu als Auswahlraster */}
+            {/* Invitatorium Psalms Section */}
             <div className="px-3 py-2">
                 <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-4">
                     Invitatoriumspsalmen an den Wochentagen

@@ -66,8 +66,8 @@ const data = {
         "resp2": "Halleluja,°halleluja.",
         "resp1_lat": "In manus tuas, Dómine, comméndo spíritum meum.",
         "resp2_lat": "Allelúia,°allelúia.",
-        "3": { "ps_2": 130, },
-        "5": { "ps_1": 88, },
+        "3": { "psalm2": 130, },
+        "5": { "psalm1": 88, },
     },
     "sollemnity": {
         "oration_komplet": "Herr und Gott, kehre ein in dieses Haus und halte alle Nachstellungen des Feindes von ihm fern. Deine heiligen Engel mögen darin wohnen und uns im Frieden bewahren. Und dein Segen sei über uns allezeit.^ORV",
@@ -86,7 +86,7 @@ const data = {
     },
     "0": {
         "hymn_2": 2510.0,
-        "ps_1": 91.0,
+        "psalm1": 91.0,
         "ant0": "Mit seinen Flügeln beschirmt dich der Herr; du brauchst dich nicht zu fürchten vor dem Schrecken der Nacht.",
         "les_buch": "Offb",
         "les_stelle": "22,4–5",
@@ -98,7 +98,7 @@ const data = {
     },
     "1": {
         "hymn_2": 2511.0,
-        "ps_1": 86.0,
+        "psalm1": 86.0,
         "ant0": "Herr, du bist ein gnädiger Gott, voll Langmut und reich an Erbarmen.",
         "les_buch": "1°Thess",
         "les_stelle": "5,9–10",
@@ -110,7 +110,7 @@ const data = {
     },
     "2": {
         "hymn_2": 2512.0,
-        "ps_1": 143.0,
+        "psalm1": 143.0,
         "ant0": "Verbirg dein Antlitz nicht vor mir; auf dich, o°Herr, vertraue ich.",
         "les_buch": "1°Petr",
         "les_stelle": "5,8–9",
@@ -122,8 +122,8 @@ const data = {
     },
     "3": {
         "hymn_2": 2513.0,
-        "ps_1": 31.4,
-        "ps_2": 130.101,
+        "psalm1": 31.4,
+        "psalm2": 130.101,
         "ant1": "Sei mir ein schützender Fels, eine feste Burg, die mich rettet.",
         "ant2": "Aus der Tiefe rufe ich, Herr, zu dir.",
         "les_buch": "Eph",
@@ -137,7 +137,7 @@ const data = {
     },
     "4": {
         "hymn_2": 2514.0,
-        "ps_1": 16.0,
+        "psalm1": 16.0,
         "ant0": "Mein Leib wird ruhen in Sicherheit.",
         "les_buch": "1°Thess",
         "les_stelle": "5,23",
@@ -149,7 +149,7 @@ const data = {
     },
     "5": {
         "hymn_2": 2515.0,
-        "ps_1": 88.101,
+        "psalm1": 88.101,
         "ant0": "Herr, du Gott meines Heils, zu dir schreie ich am Tag und bei Nacht.",
         "les_buch": "Jer",
         "les_stelle": "14,9",
@@ -161,8 +161,8 @@ const data = {
     },
     "6": {
         "hymn_2": 2516.0,
-        "ps_1": 4.0,
-        "ps_2": 134.0,
+        "psalm1": 4.0,
+        "psalm2": 134.0,
         "ant1": "Sei mir gnädig, Herr, und höre auf mein Flehen.",
         "ant2": "Zu nächtlicher Stunde preiset den Herrn.",
         "les_buch": "Dtn",

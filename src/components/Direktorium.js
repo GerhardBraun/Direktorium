@@ -1469,9 +1469,9 @@ const PrayerTextDisplay = ({
           </div>
         )}
 
-        {(getValue("ps_1") || hour === "invitatorium") && (
+        {(getValue("psalm1") || hour === "invitatorium") && (
           <div className="mb-0">
-            <SectionHeader title="PSALMODIE" field="ps_1" />
+            <SectionHeader title="PSALMODIE" field="psalm1" />
             {getValue("ant0") && (
               <div className="mb-4">
                 {formatPrayerText(getValue("ant0"), "Ant.°°")}
@@ -1485,7 +1485,7 @@ const PrayerTextDisplay = ({
               )}
             {hour !== "invitatorium" &&
               [1, 2, 3].map((num) => {
-                const psalm = getValue(`ps_${num}`);
+                const psalm = getValue(`psalm${num}`);
                 const ant = getValue(`ant${num}`);
                 if (!psalm && !ant) return null;
 

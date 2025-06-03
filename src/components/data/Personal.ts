@@ -10,9 +10,9 @@ interface PersonalEntry {
   hymn_2?: number;
   hymn_3?: number;
   hymn_kl?: number;
-  ps_1?: number;
-  ps_2?: number;
-  ps_3?: number;
+  psalm1?: number;
+  psalm2?: number;
+  psalm3?: number;
   ant0?: string;
   ant1?: string;
   ant2?: string;

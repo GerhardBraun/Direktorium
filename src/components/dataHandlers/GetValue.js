@@ -45,7 +45,7 @@ export const getValue = ({ hour, texts, field,
         }
 
         // Sonderfall Ergänzungspsalmodie
-        if ((field.startsWith('ps_') ||
+        if ((field.startsWith('psalm') ||
             (field.startsWith('ant') && !field.startsWith('antEv'))
         ) && (isSollemnity || (localPrefErgPs && isTSN))
         ) {
@@ -76,14 +76,14 @@ export const getValue = ({ hour, texts, field,
             && ((hour === 'lesehore' && field !== 'oration') ||// Lesehore: nur Hymnus und Oration ggf. Commune
 
                 ((hour === 'laudes' || hour === 'vesper') &&  // Laudes/Vesper Psalmodie
-                    (field.startsWith('ps_') ||
+                    (field.startsWith('psalm') ||
                         (field.startsWith('ant') && !field.startsWith('antEv'))
                     )) ||
                 isTSN) // Kleine Horen: ganz vom Wt
         ) { skipCommune = true }
 
         if (rank_date < 5 && isTSN &&  // an Festen: Ant und Ps in Kleinen Horen vom Wt
-            (field.startsWith('ps_') || field.startsWith('ant'))
+            (field.startsWith('psalm') || field.startsWith('ant'))
         ) { skipCommune = true }
 
         if (isSollemnity) { skipCommune = false }
@@ -117,7 +117,7 @@ export const getValue = ({ hour, texts, field,
             //Sonderfall Wochentagspsalmen
             if (localPrefPsalmsWt &&
                 hour !== 'invitatorium' && hour !== 'komplet' &&
-                field.startsWith('ps_')
+                field.startsWith('psalm')
             ) { return texts[hour]?.wt?.[field] }
 
             //Sonderfall Bahnlesung

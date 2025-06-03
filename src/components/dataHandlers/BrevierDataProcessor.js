@@ -20,7 +20,7 @@ function cleanupZeroReferences(hours) {
 
     // Fields that should be processed as references to psalmsData
     const referenceFields = [
-        'ps_1', 'ps_2', 'ps_3',
+        'psalm1', 'psalm2', 'psalm3',
         'hymn_1', 'hymn_2', 'hymn_3', 'hymn_nacht', 'hymn_kl'
     ];
 
@@ -365,7 +365,7 @@ function processTerzPsalms(hours) {
     // Definiere die zu prüfenden Stunden
     const targetHours = ['sext', 'non'];
     // Definiere die relevanten Psalm-Felder
-    const psalmFields = ['ps_1', 'ps_2', 'ps_3',
+    const psalmFields = ['psalm1', 'psalm2', 'psalm3',
         'ant1', 'ant2', 'ant3',
         'ant1_lat', 'ant2_lat', 'ant3_lat'];
 
@@ -432,7 +432,7 @@ function processInvitatoriumPsalms(hours) {
 
             // Funktion zum Durchsuchen von Psalm-Einträgen
             const searchPsalmEntries = (obj) => {
-                ['ps_1', 'ps_2', 'ps_3'].forEach(psKey => {
+                ['psalm1', 'psalm2', 'psalm3'].forEach(psKey => {
                     const psValue = obj[psKey]?.reference;
                     if (psValue && searchPsalms.includes(Math.floor(psValue))) {
                         found.add(Math.floor(psValue));

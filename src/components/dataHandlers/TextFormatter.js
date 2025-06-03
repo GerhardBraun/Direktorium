@@ -190,10 +190,14 @@ export const formatPrayerText = (provText, marker = '',
         .replace(/.\^ORlR/g, orSchluss.Rgroß_lat)
         .replace(/\^NP/g, getLocalStorage('popeName') || 'Leo')
         .replace(/\^NB/g, getLocalStorage('bishopName') || '^N')
-        .replace(/\^NdatP/g, getLocalStorage('popeNameDat') || 'Leoni')
-        .replace(/\^NdatB/g, getLocalStorage('bishopNameDat') || '^N')
-        .replace(/\^NakkP/g, getLocalStorage('popeNameAkk') || 'Leonem')
-        .replace(/\^NakkB/g, getLocalStorage('bishopNameAkk') || '^N')
+        .replace(/\^NdatP/g, getLocalStorage('popeNameLat') || 'Leóni')
+        .replace(/\^NdatB/g, getLocalStorage('bishopNameLat') || '^N')
+        .replace(/\^NakkP/g,
+            getLocalStorage('popeNameLat')
+                .replace(/i\b/g, 'em').replace(/o\b/g, 'um') || 'Leónem')
+        .replace(/\^NakkB/g,
+            getLocalStorage('bishopNameLat')
+                .replace(/i\b/g, 'em').replace(/o\b/g, 'um') || '^N')
         .replace(/\^NH/g, '^N')
         .replace(/\bHERRN\b/g, '^cHerrn^0c')
         .replace(/\bHERR\b/g, '^cHerr^0c');

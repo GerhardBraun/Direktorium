@@ -44,7 +44,7 @@ export const SectionHeader = ({
     setLocalPrefContinuous,
     setLocalPrefComm
 }) => {
-    const field = (hour === 'invitatorium' && provField === 'ps_1')
+    const field = (hour === 'invitatorium' && provField === 'psalm1')
         ? 'ant0' : provField;
     const invPsalms = (hour === 'invitatorium' && title === 'PSALMODIE')
         ? texts?.invitatorium?.psalms : null;
@@ -65,7 +65,7 @@ export const SectionHeader = ({
         (hour === 'lesehore' && // Lesehore: nur Hymnus und Oration ggf. Commune
             !field.startsWith('hymn_') && field !== 'oration') ||
         ((hour === 'laudes' || hour === 'vesper') &&  // Laudes/Vesper Psalmodie
-            (field.startsWith('ps_') ||
+            (field.startsWith('psalm') ||
                 (field.startsWith('ant') && !field.startsWith('antEv'))
             )) ||
         ['terz', 'sext', 'non'].includes(hour)) // Kleinen Horen: ganz vom Wt
@@ -73,7 +73,7 @@ export const SectionHeader = ({
 
     if (rank_date < 5 &&    // an Festen: Ant und Ps in Kleinen Horen vom Wt
         ['terz', 'sext', 'non'].includes(hour) &&
-        (field.startsWith('ps_') || field.startsWith('ant'))
+        (field.startsWith('psalm') || field.startsWith('ant'))
     ) { skipCommune = true };
 
     if (isCommemoration) { skipCommune = true }
