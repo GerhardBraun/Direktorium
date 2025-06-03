@@ -199,8 +199,8 @@ export const formatPrayerText = (provText, marker = '',
             getLocalStorage('bishopNameLat')
                 .replace(/i\b/g, 'em').replace(/o\b/g, 'um') || '^N')
         .replace(/\^NH/g, '^N')
-        .replace(/\bHERRN\b/g, '^cHerrn^0c')
-        .replace(/\bHERR\b/g, '^cHerr^0c');
+        .replace(/HERRN\b/g, '^cHerrn^0c')
+        .replace(/HERR\b/g, '^cHerr^0c');
 
     if (nominativ) {
         text = text
