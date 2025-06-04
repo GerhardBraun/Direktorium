@@ -3868,6 +3868,7 @@ export const brevierData = {
         },
         "ErsteV": {
           "button": "1. Vesper zum Hochfest der Gottesmutter",
+          "farbe": "m",
           "hymn_1": 8101.4,
           "hymn_2": 0.0,
           "hymn_3": 0.0,
@@ -5879,6 +5880,7 @@ export const brevierData = {
         "ErsteV": {
           "comm_1": "Apostel",
           "button": "1. Vesper zu Peter und Paul",
+          "farbe": "r",
           "hymn_1": 8629.4,
           "psalm1": 117.0,
           "psalm2": 147.2,
@@ -6716,6 +6718,7 @@ export const brevierData = {
         },
         "ErsteV": {
           "button": "1. Vesper zu Mariae Himmelfahrt",
+          "farbe": "m",
           "hymn_1": 8815.0,
           "psalm1": 113.0,
           "psalm2": 147.2,
@@ -7110,6 +7113,7 @@ export const brevierData = {
         },
         "ErsteV": {
           "button": "1. Vesper zu Kreuzerhöhung",
+          "farbe": "r",
           "hymn_1": 3343.0,
           "hymn_kl": 0.0,
           "psalm1": 147.1,
@@ -8663,6 +8667,7 @@ export const brevierData = {
         },
         "ErsteV": {
           "button": "1. Vesper zu Mariae Empfängnis",
+          "farbe": "m",
           "hymn_1": 9208.0,
           "psalm1": 113.0,
           "psalm2": 147.2,
