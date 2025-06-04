@@ -1,7 +1,10 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { psalmsData } from '../data/PsHymn.ts'; // Import hinzufügen
 
-const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, localPrefKomplet, localPrefLanguage = '', formatPrayerText }) => {
+const HymnSelector = ({ texts, hour, season,
+    prefSrc, prefSollemnity,
+    localPrefKomplet, localPrefLanguage = '',
+    formatPrayerText }) => {
     const [selectedHymn, setSelectedHymn] = useState(null);
     let localPrefSrc = prefSrc;
     if (['kirchw', 'verst'].includes(prefSollemnity)) { localPrefSrc = prefSollemnity; }
@@ -166,6 +169,36 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, localPrefK
                 });
             });
 
+            // Spezielle Komplet-Hymnen hinzufügen
+            if (hour === 'komplet') {
+                const kompletHymns = {
+                    'k1': 2516,
+                    'k2': 2510
+                };
+
+                const kompletHymnNumber = kompletHymns[localPrefKomplet];
+                if (kompletHymnNumber && !usedHymnNumbers.has(kompletHymnNumber)) {
+                    const kompletHymnData = resolveHymnReference(kompletHymnNumber);
+
+                    const textField = `text${localPrefLanguage}`;
+                    const titleField = `title${localPrefLanguage}`;
+                    let kompletHymnText = kompletHymnData?.[textField]?.replace('LEER', '');
+
+                    if (kompletHymnText) {
+                        hymns.push({
+                            id: 'wt_hymn_2',
+                            source: 'vom Tag:',
+                            text: kompletHymnText,
+                            title: kompletHymnData[titleField],
+                            hymnNumber: kompletHymnNumber,
+                            isNachtHymn: false
+                        });
+
+                        usedHymnNumbers.add(kompletHymnNumber);
+                    }
+                }
+            }
+
             return hymns;
         };
 
@@ -178,7 +211,8 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, localPrefK
         // Fallback: Standard-Sprache (nur wenn erster Durchlauf leer war)
         return collectHymns('');
 
-    }, [texts, hour, localPrefSrc, sourceOrder, localPrefLanguage]);
+    }, [texts, hour, localPrefSrc, sourceOrder, localPrefLanguage, localPrefKomplet]);
+
     // Setze den ersten gefundenen Hymnus als ausgewählt
     useEffect(() => {
         if (availableHymns.length > 0) {

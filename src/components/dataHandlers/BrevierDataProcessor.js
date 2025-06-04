@@ -247,6 +247,7 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
             rank_wt,
             rank_date,
             isCommemoration,
+            shouldUseLast,
             prefComm: (rank_date > 2 || rank_wt > 2 || isImmacHeart) ? 1 : 0,
             ...cleanupZeroReferences(hours)
         };
