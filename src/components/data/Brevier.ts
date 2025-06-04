@@ -5446,6 +5446,7 @@ export const brevierData = {
         },
         "ErsteV": {
           "button": "1. Vesper zum hl. Bonifatius",
+          "farbe": "r",
           "hymn_1": 8605.4,
           "hymn_2": 8605.5,
           "psalm1": 113.0,

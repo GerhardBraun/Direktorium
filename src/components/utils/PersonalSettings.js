@@ -20,10 +20,10 @@ const PersonalSettings = () => {
         getLocalStorage('popeNameLat') || 'Leóni'
     );
     const [bishopName, setBishopName] = useState(() =>
-        getLocalStorage('bishopName') || ''
+        getLocalStorage('bishopName') || 'Michael'
     );
     const [bishopNameLat, setBishopNameLat] = useState(() =>
-        getLocalStorage('bishopNameLat') || ''
+        getLocalStorage('bishopNameLat') || 'Michaéli'
     );
 
     // Lokale States für die Eingabefelder (um Umwandlung zu verzögern)

@@ -31,6 +31,9 @@ const HymnSelector = ({ texts, hour, season, prefSrc, prefSollemnity, localPrefK
         // Prüfe auf rote Farbe im localPrefSrc
         const pathParts = sourcePath.split('_')[0].split('.');
         let currentLevel = texts.laudes;
+        if (texts?.hasErsteVesper && hour === 'vesper') {
+            currentLevel = texts.vesper
+        }
         pathParts.forEach(part => {
             currentLevel = currentLevel?.[part];
         });
