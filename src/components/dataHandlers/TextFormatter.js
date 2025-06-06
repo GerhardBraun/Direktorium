@@ -200,7 +200,8 @@ export const formatPrayerText = (provText, marker = '',
                 .replace(/i\b/g, 'em').replace(/o\b/g, 'um') || '^N')
         .replace(/\^NH/g, '^N')
         .replace(/HERRN\b/g, '^cHerrn^0c')
-        .replace(/HERR\b/g, '^cHerr^0c');
+        .replace(/HERR\b/g, '^cHerr^0c')
+        .replace(/GOTT\b/g, '^cGott^0c');
 
     if (nominativ) {
         text = text

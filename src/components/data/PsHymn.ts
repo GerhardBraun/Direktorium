@@ -3645,7 +3645,7 @@ export const psalmsData = {
       },
     3.0: {
         "title_lat": "Iesu, redémptor sǽculi",
-        "text_lat": "Iesu, redémptor sǽculi,^lVerbum Patris altíssimi,^llux lucis invisíbilis,^lcustos tuórum pérvigil:^pTu fabricátor ómnium^ldiscrétor atque témporum,^lfessa labóre córpora^lnoctis quiéte récrea.^pQui frangis ima tártara,^ltu nos ab hoste líbera,^lne váleat sedúcere^ltuo redémptos sánguine,^pUt, dum graváti córpore^lbrevi manémus témpore,^lsic caro nostra dórmiat^lut mens sopórem nésciat.^pIesu, tibi sit glória,^lqui morte victa prǽnites,^lcum Patre et almo Spíritu,^lin sempitérna sǽcula. Amen."
+        "text_lat": "Iesu, redémptor sǽculi,^lVerbum Patris altíssimi,^llux lucis invisíbilis,^lcustos tuórum pérvigil:^pTu fabricátor ómnium^ldiscrétor atque témporum,^lfessa labóre córpora^lnoctis quiéte récrea.^pQui frangis ima tártara,^ltu nos ab hoste líbera,^lne váleat sedúcere^ltuo redémptos sánguine,^pUt, dum graváti córpore^lbrevi manémus témpore,^lsic caro nostra dórmiat^lut mens sopórem nésciat.^pIesu, tibi sit glória,^lqui morte victa prǽnites,^lcum Patr>e et almo Spíritu,^lin sempitérna sǽcula. Amen."
       }
   },
   2501: {
@@ -3981,7 +3981,9 @@ export const psalmsData = {
     0.0: {
         "title": "Der Herr, zur Höhe heimgekehrt",
         "quote": "Pfingsten",
-        "text": "Der Herr, zur Höhe heimgekehrt,^lzum Vater, der sein Ursprung ist,^lgibt uns als sein Geschenk den Geist,^lden uns des Vaters Huld verhieß.^pVom Himmel kommt ein Brausen her,^lund jäher Donner schreckt die Welt.^lDie Jünger, die versammelt sind,^lerkennen schaudernd: Gott ist da!^pGewaltig flammt das Feuer auf,^ldas aus dem Licht des Vaters stammt,^lund jedes Herz, das Christus glaubt,^lwird mit des Wortes Glut erfüllt.^pDa jauchzen die Erfüllten auf,^ldurchdrungen von des Geistes Hauch,^lin allen Sprachen reden sie^lund machen Gottes Taten kund.^pDir, Gott und Vater, sei der Ruhm,^ldem Sohne, der vom Tod erstand,^ldem Beistand auch, dem Heil’gen Geist,^ldurch alle Zeit und Ewigkeit. Amen."
+        "text": "Der Herr, zur Höhe heimgekehrt,^lzum Vater, der sein Ursprung ist,^lgibt uns als sein Geschenk den Geist,^lden uns des Vaters Huld verhieß.^pVom Himmel kommt ein Brausen her,^lund jäher Donner schreckt die Welt.^lDie Jünger, die versammelt sind,^lerkennen schaudernd: Gott ist da!^pGewaltig flammt das Feuer auf,^ldas aus dem Licht des Vaters stammt,^lund jedes Herz, das Christus glaubt,^lwird mit des Wortes Glut erfüllt.^pDa jauchzen die Erfüllten auf,^ldurchdrungen von des Geistes Hauch,^lin allen Sprachen reden sie^lund machen Gottes Taten kund.^pDir, Gott und Vater, sei der Ruhm,^ldem Sohne, der vom Tod erstand,^ldem Beistand auch, dem Heil’gen Geist,^ldurch alle Zeit und Ewigkeit. Amen.",
+        "title_lat": "Iam Christus astra ascenderat",
+        "text_lat": "Iam Christus astr>a ascénderat,^lregréssus unde vénerat,^lpromíssa Patris múnera,^lSanctum datúrus Spíritum,^pCum hora felix tértia^lrepénte mundo íntonat,^lApóstolis orántibus^lDeum venísse núntians.^pDe Patris ergo lúmine^ldecórus ignis almus est,^lqui fida Christi péctora^lcalóre verbi cómpleat.^pDescénde, Sancte Spíritus,^lac nostra cord>a altária^lorna tibi virtútibus,^ltibíque templa dédica.^pPer te sciámus da Patrem^lnoscámus atque Fílium,^lte utriúsque Spíritum^lcredámus omni témpore. Amen."
       }
   },
   3421: {
@@ -4002,7 +4004,7 @@ export const psalmsData = {
     0.0: {
         "title": "Du höchster Herr der Ewigkeit",
         "quote": "Osterzeit",
-        "text": "Du höchster Herr der Ewigkeit,^ldu Retter der verlornen Welt,^ldurch den der Tod vernichtet ist,^ldas Leben siegreich triumphiert.^pZum Thron des Vaters steigst du auf^lund nimmst zu seiner Rechten Platz;^lder dich erhöht in Herrlichkeit,^ler setzt dich ein in seine Macht.^pIn Ehrfurcht beugen sich vor dir^lder Himmel und das Erdenrund^lund selbst die Unterwelt bekennt:^lDu bist der Herr der ganzen Welt.^pDie Engel nehmen staunend wahr,^lwie sich des Menschen Los gewandt:^lWas Menschen fehlten, sühnt ein Mensch^lund herrscht auf ewig: Mensch und Gott.^pDir, Herr, sei Ruhm und Herrlichkeit,^ldem Sieger, der zur Höhe fährt,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
+        "text": "Du höchster Herr der Ewigkeit,^ldu Retter der verlornen Welt,^ldurch den der Tod vernichtet ist,^ldas Leben siegreich triumphiert.^pZum Thron des Vaters steigst du auf^lund nimmst zu seiner Rechten Platz;^lder dich erhöht in Herrlichkeit,^ler setzt dich ein in seine Macht.^pIn Ehrfurcht beugen sich vor dir^lder Himmel und das Erdenrund,^lund selbst die Unterwelt bekennt:^lDu bist der Herr der ganzen Welt.^pDie Engel nehmen staunend wahr,^lwie sich des Menschen Los gewandt:^lWas Menschen fehlten, sühnt ein Mensch^lund herrscht auf ewig: Mensch und Gott.^pDir, Herr, sei Ruhm und Herrlichkeit,^ldem Sieger, der zur Höhe fährt,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   3428: {
@@ -4117,296 +4119,363 @@ export const psalmsData = {
         "text": "Christus, du Herrscher Himmels und der Erde,^lHerr über Mächte, Throne und Gewalten.^lDu bist der Erste, und du bist der Letzte,^lAnfang und Ende.^pIn deinen Händen ruht der Menschen Schicksal.^lNichts kann auf Erden deiner Macht entgleiten.^lDu sprichst das Urteil über alle Völker,^lvoll des Erbarmens.^pReiche erstehen, blühen und zerfallen,^laber das deine überdauert alle,^ldenn deine Herrschaft ist von Gott verliehen,^lewigen Urspungs.^pKeiner der Großen kann mit dir sich messen;^lHerrscher der Herren, König aller Zeiten,^lAbglanz des Vaters, Spiegel seiner Hoheit,^lthronend im Himmel.^pDir sei die Ehre, dir und deinem Vater,^lund auch dem Geiste sei das Lob gesungen.^lGott, dem Dreieinen, Lob und Preis und Ehre^limmer und ewig. Amen."
       }
   },
+  4003: {
+    1.0: {
+        "quote": "lat. Terz"
+      },
+    2.0: {
+        "quote": "lat. Terz"
+      },
+    3.0: {
+        "quote": "lat. Terz Fastenzeit"
+      },
+    4.0: {
+        "quote": "lat. Terz Palmsonntag"
+      },
+    5.0: {
+        "quote": "lat. Terz Karfreitag u. Karsamstag"
+      },
+    6.0: {
+        "quote": "lat. Terz Osterzeit",
+        "title_lat": "Iam surgit hora tértia",
+        "text_lat": "Iam surgit hora tértia,^lqua Christus ascéndit crucem;^lnil ínsolens mens cógitet,^linténdat afféctum precis.^pQui corde Christum súscipit,^linnóxium sensum gerit^lvotísque præstat sédulis^lSanctum meréri Spíritum.^pHæc hora, quæ finem dedit^ldiri vetérno críminis;^lhinc iam beáta témpora^lcœpére Christi grátia.^pIesu, tibi sit glória,^lqui morte victa prǽnites,^lcum Patr>e et almo Spíritu,^lin sempitérna sǽcula. Amen."
+      }
+  },
+  4006: {
+    1.0: {
+        "quote": "lat. Sext"
+      },
+    2.0: {
+        "quote": "lat. Sext"
+      },
+    3.0: {
+        "quote": "lat. Sext Fastenzeit"
+      },
+    4.0: {
+        "title": "Celsae salutis gaudia",
+        "quote": "lat. Sext Palmsonntag"
+      },
+    5.0: {
+        "quote": "lat. Sext Karfreitag u. Karsamstag"
+      },
+    6.0: {
+        "quote": "lat. Sext Osterzeit",
+        "title_lat": "Veníte, servi, súpplices",
+        "text_lat": "Veníte, servi, súpplices,^let ment>e et or>e extóllite^ldignis beátum láudibus^lnomen Dei cum cántico.^pHoc namque tempus illud est,^lquo sæculórum iúdicem^liniústa morti trádidit^lmortálium senténtia.^pEt nos amóre débito,^ltimóre iusto súbditi,^ladvérsus omnes ímpetus^lquos sævus hostis íncutit,^pUnum rogémus et Patrem^lDeum regémque Fílium^lsimúlque Sanctum Spíritum,^lin Trinitáte Dóminum. Amen."
+      }
+  },
+  4009: {
+    1.0: {
+        "quote": "lat. Non"
+      },
+    2.0: {
+        "quote": "lat. Non"
+      },
+    3.0: {
+        "quote": "lat. Non Fastenzeit"
+      },
+    4.0: {
+        "quote": "lat. Non Palmsonntag"
+      },
+    5.0: {
+        "quote": "lat. Non Karfreitag u. Karsamstag"
+      },
+    6.0: {
+        "quote": "lat. Non Osterzeit",
+        "title_lat": "Hæc hora, quæ resplénduit",
+        "text_lat": "Hæc hora, quæ resplénduit^lcrucísque solvit núbila,^lmundum tenébris éxuens,^lreddens seréna lúmina.^pHæc hora, qua resúscitans^lIesus sepúlcris córpora,^lprodíre mortis líbera^liussit refúso spíritu.^pNováta sæcla crédimus^lmortis solútis légibus,^lvitæ beátæ múnera^lcursum perénnem cúrrere.^pIesu, tibi sit glória,^lqui morte victa prǽnites,^lcum Patr>e et almo Spíritu,^lin sempitérna sǽcula. Amen."
+      }
+  },
   4100: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Deus, creátor ómnium",
         "text_lat": "Deus, creátor ómnium^lpolíque rector, véstiens^ldiem decóro lúmine,^lnoctem sopóris grátia,^pArtus solútos ut quies^lreddat labóris úsui^lmentésque fessas állevet^lluctúsque solvat ánxios,^pGrates perácto iam die^let noctis exórtu preces,^lvoti reos ut ádiuves,^lhymnum canéntes sólvimus.^pTe cordis ima cóncinant,^lte vox canóra cóncrepet,^lte díligat castus amor,^lte mens adóret sóbria,^pUt cum profúnda cláuserit^ldiem calígo nóctium,^lfides tenébras nésciat^let nox fide relúceat.^pChristum rogámus et Patrem,^lChristi Patrísque Spíritum;^lunum potens per ómnia,^lfove precántes, Trínitas. Amen."
       }
   },
   4102: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Primo diérum ómnium",
-        "text_lat": "Primo diérum ómnium,^lquo mundus exstat cónditus^let quo resúrgens cónditor^pnos, morte victa, líberat,^pPulsis procul torpóribus,^lsurgámus omnes ócius,^let nocte quærámus pium,^psicut Prophétam nóvimus,^pNostras preces ut áudiat^lsuámque dextram pórrigat,^let hic piátos sórdibus^preddat polórum sédibus,^pUt, quique sacratíssimo^lhuius diéi témpore^lhoris quiétis psállimus,^pdonis beátis múneret.^pDeo Patri sit glória^leiúsque soli Fílio^lcum Spíritu Paráclito,^pin sempitérna sǽcula. Amen."
+        "text_lat": "Primo diérum ómnium,^lquo mundus exstat cónditus^let quo resúrgens cónditor^lnos, morte victa, líberat,^pPulsis procul torpóribus,^lsurgámus omnes ócius,^let nocte quærámus pium,^lsicut Prophétam nóvimus,^pNostras preces ut áudiat^lsuámque dextram pórrigat,^let hic piátos sórdibus^lreddat polórum sédibus,^pUt, quique sacratíssimo^lhuius diéi témpore^lhoris quiétis psállimus,^ldonis beátis múneret.^pDeo Patri sit glória^leiúsque soli Fílio^lcum Spíritu Paráclito,^lin sempitérna sǽcula. Amen."
       }
   },
   4103: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Ætérne rerum cónditor",
-        "text_lat": "Ætérne rerum cónditor,^lnoctem diémque qui regis,^let témporum das témpora^put álleves fastídium,^pPræco diéi iam sonat,^lnoctis profúndæ pérvigil,^lnoctúrna lux viántibus^pa nocte noctem ségregans.^pHoc excitátus lúcifer^lsolvit polum calígine;^lhoc omnis errónum chorus^pvias nocéndi déserit.^pHoc nauta vires cólligit^lpontíque mitéscunt freta;^lhoc, ipse Petra Ecclésiæ,^pcanénte, culpam díluit.^pIesu, labántes réspice^let nos vidéndo córrige;^lsi réspicis, lapsus cadunt^pfletúque culpa sólvitur.^pTu, lux, refúlge sénsibus^lmentísque somnum díscute;^lte nostra vox primum sonet^pet vota solvámus tibi.^pSit, Christe, rex piíssime,^ltibi Patríque glória^lcum Spíritu Paráclito,^pin sempitérna sǽcula. Amen."
+        "text_lat": "Ætérne rerum cónditor,^lnoctem diémque qui regis,^let témporum das témpora^lut álleves fastídium,^pPræco diéi iam sonat,^lnoctis profúndæ pérvigil,^lnoctúrna lux viántibus^la nocte noctem ségregans.^pHoc excitátus lúcifer^lsolvit polum calígine;^lhoc omnis errónum chorus^lvias nocéndi déserit.^pHoc nauta vires cólligit^lpontíque mitéscunt freta;^lhoc, ipse Petra Ecclésiæ,^lcanénte, culpam díluit.^pIesu, labántes réspice^let nos vidéndo córrige;^lsi réspicis, lapsus cadunt^lfletúque culpa sólvitur.^pTu, lux, refúlge sénsibus^lmentísque somnum díscute;^lte nostra vox primum sonet^let vota solvámus tibi.^pSit, Christe, rex piíssime,^ltibi Patríque glória^lcum Spíritu Paráclito,^lin sempitérna sǽcula. Amen."
       }
   },
   4105: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Lucis creátor óptime",
-        "text_lat": "Lucis creátor óptime,^llucem diérum próferens,^lprimórdiis lucis novæ^pmundi parans oríginem;^pQui mane iunctum vésperi^ldiem vocári prǽcipis:^ltætrum chaos illábitur;^paudi preces cum flétibus.^pNe mens graváta crímine^lvitæ sit exsul múnere,^ldum nil perénne cógitat^pseséque culpis ílligat.^pCælórum pulset íntimum,^lvitále tollat prǽmium;^lvitémus omne nóxium,^ppurgémus omne péssimum.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^pregnans per omne sǽculum. Amen."
+        "text_lat": "Lucis creátor óptime,^llucem diérum próferens,^lprimórdiis lucis novæ^lmundi parans oríginem;^pQui mane iunctum vésperi^ldiem vocári prǽcipis:^ltætrum chaos illábitur;^laudi preces cum flétibus.^pNe mens graváta crímine^lvitæ sit exsul múnere,^ldum nil perénne cógitat^lseséque culpis ílligat.^pCælórum pulset íntimum,^lvitále tollat prǽmium;^lvitémus omne nóxium,^lpurgémus omne péssimum.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^lregnans per omne sǽculum. Amen."
       }
   },
   4112: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Somno reféctis ártubus",
-        "text_lat": "Somno reféctis ártubus,^lspreto cubíli, súrgimus:^lnobis, Pater, canéntibus^padésse te depóscimus.^pTe lingua primum cóncinat,^lte mentis ardor ámbiat,^lut áctuum sequéntium^ptu, sancte, sis exórdium.^pCedant tenébræ lúmini^let nox diúrno síderi,^lut culpa, quam nox íntulit,^plucis labáscat múnere.^pPrecámur idem súpplices^lnoxas ut omnes ámputes,^let ore te canéntium^plaudéris in perpétuum.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^pregnans per omne sǽculum. Amen."
+        "text_lat": "Somno reféctis ártubus,^lspreto cubíli, súrgimus:^lnobis, Pater, canéntibus^ladésse te depóscimus.^pTe lingua primum cóncinat,^lte mentis ardor ámbiat,^lut áctuum sequéntium^ltu, sancte, sis exórdium.^pCedant tenébræ lúmini^let nox diúrno síderi,^lut culpa, quam nox íntulit,^llucis labáscat múnere.^pPrecámur idem súpplices^lnoxas ut omnes ámputes,^let ore te canéntium^llaudéris in perpétuum.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^lregnans per omne sǽculum. Amen."
       }
   },
   4113: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Splendor patérnæ glóriæ",
-        "text_lat": "Splendor patérnæ glóriæ,^lde luce lucem próferens,^llux lucis et fons lúminis,^pdiem dies illúminans,^pVerúsque sol, illábere^lmicans nitóre pérpeti,^liubárque Sancti Spíritus^pinfúnde nostris sénsibus.^pVotis vocémus et Patrem,^lPatrem perénnis glóriæ,^lPatrem poténtis grátiæ,^pculpam reléget lúbricam.^pInfórmet actus strénuos,^ldentem retúndat ínvidi,^lcasus secúndet ásperos,^pdonet geréndi grátiam.^pMentem gubérnet et regat^lcasto, fidéli córpore;^lfides calóre férveat,^pfraudis venéna nésciat.^pChristúsque nobis sit cibus,^lpotúsque noster sit fides;^llæti bibámus sóbriam^pebrietátem Spíritus.^pLætus dies hic tránseat;^lpudor sit ut dilúculum,^lfides velut merídies,^pcrepúsculum mens nésciat.^pAuróra cursus próvehit;^lAuróra totus pródeat,^lin Patre totus Fílius^pet totus in Verbo Pater. Amen."
+        "text_lat": "Splendor patérnæ glóriæ,^lde luce lucem próferens,^llux lucis et fons lúminis,^ldiem dies illúminans,^pVerúsque sol, illábere^lmicans nitóre pérpeti,^liubárque Sancti Spíritus^linfúnde nostris sénsibus.^pVotis vocémus et Patrem,^lPatrem perénnis glóriæ,^lPatrem poténtis grátiæ,^lculpam reléget lúbricam.^pInfórmet actus strénuos,^ldentem retúndat ínvidi,^lcasus secúndet ásperos,^ldonet geréndi grátiam.^pMentem gubérnet et regat^lcasto, fidéli córpore;^lfides calóre férveat,^lfraudis venéna nésciat.^pChristúsque nobis sit cibus,^lpotúsque noster sit fides;^llæti bibámus sóbriam^lebrietátem Spíritus.^pLætus dies hic tránseat;^lpudor sit ut dilúculum,^lfides velut merídies,^lcrepúsculum mens nésciat.^pAuróra cursus próvehit;^lAuróra totus pródeat,^lin Patre totus Fílius^let totus in Verbo Pater. Amen."
       }
   },
   4115: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Imménse cæli cónditor",
-        "text_lat": "Imménse cæli cónditor,^lqui, mixta ne confúnderent,^laquæ fluénta dívidens,^pcælum dedísti límitem,^pFirmans locum cæléstibus^lsimúlque terræ rívulis,^lut unda flammas témperet,^pterræ solum ne díssipet:^pInfúnde nunc, piíssime,^ldonum perénnis grátiæ,^lfraudis novæ ne cásibus^pnos error átterat vetus.^pLucem fides invéniat,^lsic lúminis iubar ferat;^lhæc vana cuncta térreat,^phanc falsa nulla cómprimant.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^pregnans per omne sǽculum. Amen."
+        "text_lat": "Imménse cæli cónditor,^lqui, mixta ne confúnderent,^laquæ fluénta dívidens,^lcælum dedísti límitem,^pFirmans locum cæléstibus^lsimúlque terræ rívulis,^lut unda flammas témperet,^lterræ solum ne díssipet:^pInfúnde nunc, piíssime,^ldonum perénnis grátiæ,^lfraudis novæ ne cásibus^lnos error átterat vetus.^pLucem fides invéniat,^lsic lúminis iubar ferat;^lhæc vana cuncta térreat,^lhanc falsa nulla cómprimant.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^lregnans per omne sǽculum. Amen."
       }
   },
   4122: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Consors patérni lúminis",
-        "text_lat": "Consors patérni lúminis,^llux ipse lucis et dies,^lnoctem canéndo rúmpimus:^passíste postulántibus.^pAufer tenébras méntium,^lfuga catérvas dǽmonum,^lexpélle somnoléntiam^pne pigritántes óbruat.^pSic, Christe, nobis ómnibus^lindúlgeas credéntibus,^lut prosit exorántibus^pquod præcinéntes psállimus.^pSit, Christe, rex piíssime,^ltibi Patríque glória^lcum Spíritu Paráclito,^pin sempitérna sǽcula. Amen."
+        "text_lat": "Consors patérni lúminis,^llux ipse lucis et dies,^lnoctem canéndo rúmpimus:^lassíste postulántibus.^pAufer tenébras méntium,^lfuga catérvas dǽmonum,^lexpélle somnoléntiam^lne pigritántes óbruat.^pSic, Christe, nobis ómnibus^lindúlgeas credéntibus,^lut prosit exorántibus^lquod præcinéntes psállimus.^pSit, Christe, rex piíssime,^ltibi Patríque glória^lcum Spíritu Paráclito,^lin sempitérna sǽcula. Amen."
       }
   },
   4123: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Pergráta mundo núntiat",
-        "text_lat": "Pergráta mundo núntiat^lauróra solis spícula,^lres et colóre véstiens^piam cuncta dat nitéscere.^pQui sol per ævum prǽnites,^lo Christe, nobis vívidus,^lad te canéntes vértimur,^pte gestiéntes pérfrui.^pTu Patris es sciéntia^lVerbúmque per quod ómnia^lmiro refúlgent órdine^pmentésque nostras áttrahunt.^pDa lucis ut nos fílii^lsic ambulémus ímpigri,^lut Patris usque grátiam^pmores et actus éxprimant.^pSincéra præsta ut prófluant^lex ore nostro iúgiter,^let veritátis dúlcibus^put excitémur gáudiis.^pSit, Christe, rex piíssime,^ltibi Patríque glória^lcum Spíritu Paráclito,^pin sempitérna sǽcula. Amen."
+        "text_lat": "Pergráta mundo núntiat^lauróra solis spícula,^lres et colóre véstiens^liam cuncta dat nitéscere.^pQui sol per ævum prǽnites,^lo Christe, nobis vívidus,^lad te canéntes vértimur,^lte gestiéntes pérfrui.^pTu Patris es sciéntia^lVerbúmque per quod ómnia^lmiro refúlgent órdine^lmentésque nostras áttrahunt.^pDa lucis ut nos fílii^lsic ambulémus ímpigri,^lut Patris usque grátiam^lmores et actus éxprimant.^pSincéra præsta ut prófluant^lex ore nostro iúgiter,^let veritátis dúlcibus^lut excitémur gáudiis.^pSit, Christe, rex piíssime,^ltibi Patríque glória^lcum Spíritu Paráclito,^lin sempitérna sǽcula. Amen."
       }
   },
   4125: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Tellúris ingens cónditor",
-        "text_lat": "Tellúris ingens cónditor,^lmundi solum qui éruens,^lpulsis aquæ moléstiis,^pterram dedísti immóbilem.^pUt germen aptum próferens,^lfulvis decóra flóribus,^lfecúnda fructu sísteret^ppastúmque gratum rédderet:^pMentis perústæ vúlnera^lmunda viróre grátiæ,^lut facta fletu díluat^pmotúsque pravos átterat.^pIussis tuis obtémperet,^lnullis malis appróximet,^lbonis repléri gáudeat^pet mortis actum nésciat.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^pregnans per omne sǽculum. Amen."
+        "text_lat": "Tellúris ingens cónditor,^lmundi solum qui éruens,^lpulsis aquæ moléstiis,^lterram dedísti immóbilem.^pUt germen aptum próferens,^lfulvis decóra flóribus,^lfecúnda fructu sísteret^lpastúmque gratum rédderet:^pMentis perústæ vúlnera^lmunda viróre grátiæ,^lut facta fletu díluat^lmotúsque pravos átterat.^pIussis tuis obtémperet,^lnullis malis appróximet,^lbonis repléri gáudeat^let mortis actum nésciat.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^lregnans per omne sǽculum. Amen."
       }
   },
   4132: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Rerum creátor óptime",
-        "text_lat": "Rerum creátor óptime^lrectórque noster, réspice;^lnos a quiéte nóxia^pmersos sopóre líbera.^pTe, sancte Christe, póscimus;^lignósce tu crimínibus,^lad confiténdum súrgimus^pmorásque noctis rúmpimus.^pMentes manúsque tóllimus,^lProphéta sicut nóctibus^lnobis geréndum prǽcipit^pPaulúsque gestis cénsuit.^pVides malum quod géssimus;^loccúlta nostra pándimus,^lpreces geméntes fúndimus;^pdimítte quod peccávimus.^pSit, Christe, rex piíssime^ltibi Patríque glória^lcum Spíritu Paráclito,^pin sempitérna sǽcula. Amen."
+        "text_lat": "Rerum creátor óptime^lrectórque noster, réspice;^lnos a quiéte nóxia^lmersos sopóre líbera.^pTe, sancte Christe, póscimus;^lignósce tu crimínibus,^lad confiténdum súrgimus^lmorásque noctis rúmpimus.^pMentes manúsque tóllimus,^lProphéta sicut nóctibus^lnobis geréndum prǽcipit^lPaulúsque gestis cénsuit.^pVides malum quod géssimus;^loccúlta nostra pándimus,^lpreces geméntes fúndimus;^ldimítte quod peccávimus.^pSit, Christe, rex piíssime^ltibi Patríque glória^lcum Spíritu Paráclito,^lin sempitérna sǽcula. Amen."
       }
   },
   4133: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Nox et tenébræ et núbila",
-        "text_lat": "Nox et tenébr>æ et núbila,^lconfúsa mund>i et túrbida,^llux intrat, albéscit polus:^pChristus venit; discédite.^pCalígo terræ scínditur^lpercússa solis spículo,^lrebúsque iam color redit^pvultu niténtis síderis.^pSic nostra mox obscúritas^lfraudísque pectus cónscium,^lruptis retéctum núbibus,^pregnánte palléscet Deo.^pTe, Christe, solum nóvimus,^lte mente pur>a et símplici^lrogáre curváto genu^pflend>o et canéndo díscimus.^pInténde nostris sénsibus^lvitámque totam díspice:^lsunt multa fucis íllita^pquæ luce purgéntur tua.^pSit, Christe, rex piíssime,^ltibi Patríque glória^lcum Spíritu Paráclito,^pin sempitérna sǽcula. Amen."
+        "text_lat": "Nox et tenébr>æ et núbila,^lconfúsa mund>i et túrbida,^llux intrat, albéscit polus:^pChristus venit; discédite.^pCalígo terræ scínditur^lpercússa solis spículo,^lrebúsque iam color redit^lvultu niténtis síderis.^pSic nostra mox obscúritas^lfraudísque pectus cónscium,^lruptis retéctum núbibus,^lregnánte palléscet Deo.^pTe, Christe, solum nóvimus,^lte mente pur>a et símplici^lrogáre curváto genu^lflend>o et canéndo díscimus.^pInténde nostris sénsibus^lvitámque totam díspice:^lsunt multa fucis íllita^lquæ luce purgéntur tua.^pSit, Christe, rex piíssime,^ltibi Patríque glória^lcum Spíritu Paráclito,^lin sempitérna sǽcula. Amen."
       }
   },
   4135: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Cæli Deus sanctíssime",
-        "text_lat": "Cæli Deus sanctíssime,^lqui lúcidum centrum poli^lcandóre pingis ígneo^paugens decóri lúmina,^pQuarto die qui flámmeam^lsolis rotam constítuens,^llunæ minístras órdini^pvagos recúrsus síderum,^pUt nóctibus vel lúmini^ldiremptiónis términum,^lprimórdiis et ménsium^psignum dares notíssimum:^pIllúmina cor hóminum,^labstérge sordes méntium,^lresólve culpæ vínculum,^pevérte moles críminum.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^pregnans per omne sǽculum. Amen."
+        "text_lat": "Cæli Deus sanctíssime,^lqui lúcidum centrum poli^lcandóre pingis ígneo^laugens decóri lúmina,^pQuarto die qui flámmeam^lsolis rotam constítuens,^llunæ minístras órdini^lvagos recúrsus síderum,^pUt nóctibus vel lúmini^ldiremptiónis términum,^lprimórdiis et ménsium^lsignum dares notíssimum:^pIllúmina cor hóminum,^labstérge sordes méntium,^lresólve culpæ vínculum,^levérte moles críminum.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^lregnans per omne sǽculum. Amen."
       }
   },
   4142: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Nox atra rerum cóntegit",
-        "text_lat": "Nox atra rerum cóntegit^lterræ colóres ómnium:^lnos confiténtes póscimus^pte, iuste iudex córdium,^pUt áuferas piácula^lsordésque mentis ábluas,^ldonésque, Christe, grátiam^put arceántur crímina.^pMens, ecce, torpet ímpia,^lquam culpa mordet nóxia;^lobscúra gestit tóllere^pet te, Redémptor, quǽrere.^pRepélle tu calíginem^lintrínsecus quam máxime,^lut in beáto gáudeat^pse collocári lúmine.^pSit, Christe, rex piíssime,^ltibi Patríque glória^lcum Spíritu Paráclito,^pin sempitérna sǽcula. Amen."
+        "text_lat": "Nox atra rerum cóntegit^lterræ colóres ómnium:^lnos confiténtes póscimus^lte, iuste iudex córdium,^pUt áuferas piácula^lsordésque mentis ábluas,^ldonésque, Christe, grátiam^lut arceántur crímina.^pMens, ecce, torpet ímpia,^lquam culpa mordet nóxia;^lobscúra gestit tóllere^let te, Redémptor, quǽrere.^pRepélle tu calíginem^lintrínsecus quam máxime,^lut in beáto gáudeat^lse collocári lúmine.^pSit, Christe, rex piíssime,^ltibi Patríque glória^lcum Spíritu Paráclito,^lin sempitérna sǽcula. Amen."
       }
   },
   4143: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Sol ecce surgit ígneus",
-        "text_lat": "Sol ecce surgit ígneus:^lpiget, pudéscit, pǽnitet,^lnec teste quisquam lúmine^ppeccáre constánter potest.^pTandem facéssat cǽcitas,^lquæ nosmet in præceps diu^llapsos sinístris gréssibus^perróre traxit dévio.^pHæc lux serénum cónferat^lpurósque nos præstet sibi;^lnihil loquámur súbdolum,^pvolvámus obscúrum nihil.^pSic tota decúrrat dies,^lne lingua mendax, ne manus^l^kocu^0klíve peccent lúbrici,^pne noxa corpus ínquinet.^p^kSpecu^0klátor astat désuper,^lqui nos diébus ómnibus^lactúsque nostros próspicit^pa luce prim>a in vésperum.^pDeo Patri sit glória^leiúsque soli Fílio^lcum Spíritu Paráclito,^pin sempitérna sǽcula. Amen."
+        "text_lat": "Sol ecce surgit ígneus:^lpiget, pudéscit, pǽnitet,^lnec teste quisquam lúmine^lpeccáre constánter potest.^pTandem facéssat cǽcitas,^lquæ nosmet in præceps diu^llapsos sinístris gréssibus^lerróre traxit dévio.^pHæc lux serénum cónferat^lpurósque nos præstet sibi;^lnihil loquámur súbdolum,^lvolvámus obscúrum nihil.^pSic tota decúrrat dies,^lne lingua mendax, ne manus^l^kocu^0klíve peccent lúbrici,^lne noxa corpus ínquinet.^p^kSpecu^0klátor astat désuper,^lqui nos diébus ómnibus^lactúsque nostros próspicit^la luce prim>a in vésperum.^pDeo Patri sit glória^leiúsque soli Fílio^lcum Spíritu Paráclito,^lin sempitérna sǽcula. Amen."
       }
   },
   4145: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Magnæ Deus poténtiæ",
-        "text_lat": "Magnæ Deus poténtiæ,^lqui ex aquis ortum genus^lpartim remíttis gúrgiti,^ppartim levas in áera,^pDemérsa lymphis ímprimens,^lsubvécta cælis írrogans,^lut, stirpe una pródita,^pdivérsa répleant loca:^pLargíre cunctis sérvulis,^lquos mundat unda sánguinis,^lnescíre lapsus críminum^pnec ferre mortis tǽdium,^pUt culpa nullum déprimat,^lnullum levet iactántia,^lelísa mens ne cóncidat,^peláta mens ne córruat.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^pregnans per omne sǽculum. Amen."
+        "text_lat": "Magnæ Deus poténtiæ,^lqui ex aquis ortum genus^lpartim remíttis gúrgiti,^lpartim levas in áera,^pDemérsa lymphis ímprimens,^lsubvécta cælis írrogans,^lut, stirpe una pródita,^ldivérsa répleant loca:^pLargíre cunctis sérvulis,^lquos mundat unda sánguinis,^lnescíre lapsus críminum^lnec ferre mortis tǽdium,^pUt culpa nullum déprimat,^lnullum levet iactántia,^lelísa mens ne cóncidat,^leláta mens ne córruat.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^lregnans per omne sǽculum. Amen."
       }
   },
   4152: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Tu, Trinitátis Unitas",
-        "text_lat": "Tu, Trinitátis Unitas,^lorbem poténter qui regis,^latténde laudum cántica^pquæ excubántes psállimus.^pNam léctulo consúrgimus^lnoctis quiéto témpore,^lut flagitémus vúlnerum^pa te medélam ómnium,^pQuo, fraude quicquid dǽmonum^lin nóctibus delíquimus,^labstérgat illud cǽlitus^ptuæ potéstas glóriæ.^pTe corde fido quǽsumus,^lreple tuo nos lúmine,^lper quod diérum círculis^pnullis ruámus áctibus.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^pregnans per omne sǽculum. Amen."
+        "text_lat": "Tu, Trinitátis Unitas,^lorbem poténter qui regis,^latténde laudum cántica^lquæ excubántes psállimus.^pNam léctulo consúrgimus^lnoctis quiéto témpore,^lut flagitémus vúlnerum^la te medélam ómnium,^pQuo, fraude quicquid dǽmonum^lin nóctibus delíquimus,^labstérgat illud cǽlitus^ltuæ potéstas glóriæ.^pTe corde fido quǽsumus,^lreple tuo nos lúmine,^lper quod diérum círculis^lnullis ruámus áctibus.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^lregnans per omne sǽculum. Amen."
       }
   },
   4153: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Ætérna cæli glória",
-        "text_lat": "Ætérna cæli glória,^lbeáta spes mortálium,^lcelsi Paréntis Unice^pcastǽque proles Vírginis,^pDa déxteram surgéntibus,^lexsúrgat et mens sóbria^lflagrans et in laudem Dei^pgrates repéndat débitas.^pOrtus refúlget lúcifer^lipsámque lucem núntiat,^lcadit calígo nóctium,^plux sancta nos illúminet,^pManénsque nostris sénsibus^lnoctem repéllat sǽculi^lomnìque fine témporis^ppurgáta servet péctora.^pQuæsíta iam primum fides^lradícet altis sénsibus,^lsecúnda spes congáudeat;^ptunc maior exstat cáritas.^pSit, Christe, rex piíssime,^ltibi Patríque glória^lcum Spíritu Paráclito,^pin sempitérna sǽcula. Amen."
+        "text_lat": "Ætérna cæli glória,^lbeáta spes mortálium,^lcelsi Paréntis Unice^lcastǽque proles Vírginis,^pDa déxteram surgéntibus,^lexsúrgat et mens sóbria^lflagrans et in laudem Dei^lgrates repéndat débitas.^pOrtus refúlget lúcifer^lipsámque lucem núntiat,^lcadit calígo nóctium,^llux sancta nos illúminet,^pManénsque nostris sénsibus^lnoctem repéllat sǽculi^lomnìque fine témporis^lpurgáta servet péctora.^pQuæsíta iam primum fides^lradícet altis sénsibus,^lsecúnda spes congáudeat;^ltunc maior exstat cáritas.^pSit, Christe, rex piíssime,^ltibi Patríque glória^lcum Spíritu Paráclito,^lin sempitérna sǽcula. Amen."
       }
   },
   4155: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Plasmátor hóminis, Deus",
-        "text_lat": "Plasmátor hóminis, Deus,^lqui, cuncta solus órdinans,^lhumum iubes prodúcere^preptántis et feræ genus;^pQui magna rerum córpora,^ldictu iubéntis vívida,^lut sérviant per órdinem^psubdens dedísti hómini:^pRepélle a servis tuis^lquicquid per immundítiam^laut móribus se súggerit,^paut áctibus s>e intérserit.^pDa gaudiórum prǽmia,^lda gratiárum múnera;^ldissólve litis víncula,^pastrínge pacis fœ́dera.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^pregnans per omne sǽculum. Amen."
+        "text_lat": "Plasmátor hóminis, Deus,^lqui, cuncta solus órdinans,^lhumum iubes prodúcere^lreptántis et feræ genus;^pQui magna rerum córpora,^ldictu iubéntis vívida,^lut sérviant per órdinem^lsubdens dedísti hómini:^pRepélle a servis tuis^lquicquid per immundítiam^laut móribus se súggerit,^laut áctibus s>e intérserit.^pDa gaudiórum prǽmia,^lda gratiárum múnera;^ldissólve litis víncula,^lastrínge pacis fœ́dera.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^lregnans per omne sǽculum. Amen."
       }
   },
   4162: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Summæ Deus cleméntiæ",
-        "text_lat": "Summæ Deus cleméntiæ^lmundíque factor máchinæ,^lqui trinus almo númine^punúsque firmas ómnia.^pNostros piis cum cánticis^lfletus benígne súscipe,^lquo corde puro sórdibus^pte perfruámur lárgius.^pLumbos adúre cóngruis^ltu caritátis ígnibus,^laccínct>i ut adsint pérpetim^ptuísque prompt>i advéntibus.^pUt, quique horas nóctium^lnunc concinéndo rúmpimus,^ldonis beátæ pátriæ^pditémur omnes áffatim.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^pregnans per omne sǽculum. Amen."
+        "text_lat": "Summæ Deus cleméntiæ^lmundíque factor máchinæ,^lqui trinus almo númine^lunúsque firmas ómnia.^pNostros piis cum cánticis^lfletus benígne súscipe,^lquo corde puro sórdibus^lte perfruámur lárgius.^pLumbos adúre cóngruis^ltu caritátis ígnibus,^laccínct>i ut adsint pérpetim^ltuísque prompt>i advéntibus.^pUt, quique horas nóctium^lnunc concinéndo rúmpimus,^ldonis beátæ pátriæ^lditémur omnes áffatim.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^lregnans per omne sǽculum. Amen."
       }
   },
   4163: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Auróra iam spargit polum",
-        "text_lat": "Auróra iam spargit polum,^lterris dies illábitur,^llucis resúltat spículum:^pdiscédat omne lúbricum.^pIam vana noctis décidant,^lmentis reátus súbruat,^lquicquid tenébris hórridum^pnox áttulit culpæ, cadat,^pUt mane illud últimum,^lquod præstolámur cérnui,^lin lucem nobis éffluat,^pdum hoc canóre cóncrepat.^pDeo Patri sit glória^leiúsque soli Fílio^lcum Spíritu Paráclito,^pin sempitérna sǽcula. Amen."
+        "text_lat": "Auróra iam spargit polum,^lterris dies illábitur,^llucis resúltat spículum:^ldiscédat omne lúbricum.^pIam vana noctis décidant,^lmentis reátus súbruat,^lquicquid tenébris hórridum^lnox áttulit culpæ, cadat,^pUt mane illud últimum,^lquod præstolámur cérnui,^lin lucem nobis éffluat,^ldum hoc canóre cóncrepat.^pDeo Patri sit glória^leiúsque soli Fílio^lcum Spíritu Paráclito,^lin sempitérna sǽcula. Amen."
       }
   },
   4200: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Rerum, Deus, fons ómnium",
-        "text_lat": "Rerum, Deus, fons ómnium,^lqui, rebus actis ómnibus,^ltotíus orbis ámbitum^pcensu replésti múnerum,^pAc, mole tanta cóndita,^ltandem quiétem díceris^lsumpsísse, dans labóribus^put nos levémur grátius:^pConcéde nunc mortálibus^ldeflére vita crímina,^linstáre iam virtútibus^pet munerári prósperis,^pUt cum treméndi iúdicis^lhorror suprémus cœ́perit,^llætémur omnes ínvicem^ppacis repléti múnere.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^pregnans per omne sǽculum. Amen."
+        "text_lat": "Rerum, Deus, fons ómnium,^lqui, rebus actis ómnibus,^ltotíus orbis ámbitum^lcensu replésti múnerum,^pAc, mole tanta cóndita,^ltandem quiétem díceris^lsumpsísse, dans labóribus^lut nos levémur grátius:^pConcéde nunc mortálibus^ldeflére vita crímina,^linstáre iam virtútibus^let munerári prósperis,^pUt cum treméndi iúdicis^lhorror suprémus cœ́perit,^llætémur omnes ínvicem^lpacis repléti múnere.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^lregnans per omne sǽculum. Amen."
       }
   },
   4202: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Médiæ noctis tempus est",
-        "text_lat": "Médiæ noctis tempus est;^lprophética vox ádmonet^ldicámus laudes ut Deo^pPatri semper ac Fílio,^pSancto quoque Spirítui:^lperfécta enim Trínitas^luniúsque substántiæ^plaudánda nobis semper est.^pTerrórem tempus hoc habet,^lquo, cum vastátor ángelus^lÆgýpto mortem íntulit,^pdelévit primogénita.^pHæc iustis hora salus est,^lquos tunc ibídem ángelus^lausus puníre non erat,^psignum formídans sánguinis.^pÆgýptus flebat fórtiter^ltantórum diro fúnere;^lsolus gaudébat Israel^pagni protéctus sánguine.^pNos verus Israel sumus:^llætámur in te, Dómine,^lhostem spernéntes et malum,^pChristi defénsi sánguine.^pDignos nos fac, rex óptime,^lfutúri regni glória,^lut mereámur láudibus^pætérnis te concínere. Amen."
+        "text_lat": "Médiæ noctis tempus est;^lprophética vox ádmonet^ldicámus laudes ut Deo^lPatri semper ac Fílio,^pSancto quoque Spirítui:^lperfécta enim Trínitas^luniúsque substántiæ^llaudánda nobis semper est.^pTerrórem tempus hoc habet,^lquo, cum vastátor ángelus^lÆgýpto mortem íntulit,^ldelévit primogénita.^pHæc iustis hora salus est,^lquos tunc ibídem ángelus^lausus puníre non erat,^lsignum formídans sánguinis.^pÆgýptus flebat fórtiter^ltantórum diro fúnere;^lsolus gaudébat Israel^lagni protéctus sánguine.^pNos verus Israel sumus:^llætámur in te, Dómine,^lhostem spernéntes et malum,^pChristi defénsi sánguine.^pDignos nos fac, rex óptime,^lfutúri regni glória,^lut mereámur láudibus^lætérnis te concínere. Amen."
       }
   },
   4203: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Ecce iam noctis tenuátur umbra",
-        "text_lat": "Ecce iam noctis tenuátur umbra,^llucis auróra rútilans corúscat;^lnísibus totis rogitémus omnes^pcunctipoténtem,^pUt Deus, nostri miserátus, omnem^lpellat angórem, tríbuat salútem,^ldonet et nobis pietáte patris^pregna polórum.^pPræstet hoc nobis Déitas beáta^lPatris ac Nati, paritérque Sancti^lSpíritus, cuius résonat per omnem^pglória mundum. Amen."
+        "text_lat": "Ecce iam noctis tenuátur umbra,^llucis auróra rútilans corúscat;^lnísibus totis rogitémus omnes^lcunctipoténtem,^pUt Deus, nostri miserátus, omnem^lpellat angórem, tríbuat salútem,^ldonet et nobis pietáte patris^lregna polórum.^pPræstet hoc nobis Déitas beáta^lPatris ac Nati, paritérque Sancti^lSpíritus, cuius résonat per omnem^lglória mundum. Amen."
       }
   },
   4205: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "O lux, beáta Trínitas",
-        "text_lat": "O lux, beáta Trínitas^let principális Unitas,^liam sol recédit ígneus:^pinfúnde lumen córdibus.^pTe mane laudum cármine,^lte deprecémur véspere;^lte nostra supplex glória^pper cuncta laudet sǽcula.^pChristum rogámus et Patrem,^lChristi Patrísque Spíritum;^lunum potens per ómnia,^pfove precántes, Trínitas. Amen."
+        "text_lat": "O lux, beáta Trínitas^let principális Unitas,^liam sol recédit ígneus:^linfúnde lumen córdibus.^pTe mane laudum cármine,^lte deprecémur véspere;^lte nostra supplex glória^lper cuncta laudet sǽcula.^pChristum rogámus et Patrem,^lChristi Patrísque Spíritum;^lunum potens per ómnia,^lfove precántes, Trínitas. Amen."
       }
   },
   4212: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Ipsum nunc nobis tempus est",
-        "text_lat": "Ipsum nunc nobis tempus est^lquo voce evangélica^lventúrus sponsus créditur,^pregni cæléstis cónditor.^pOccúrrunt sanctæ vírgines^lóbviam tunc advéntui,^lgestántes claras lámpadas,^pmagno lætántes gáudio.^pStultæ vero quæ rémanent^lexstínctas habent lámpadas,^lfrustra pulsántes iánuam,^pclausa iam regni régia.^pNunc vigilémus sóbrii^lgestántes mentes spléndidas,^lut veniénti Dómino^pdigni currámus óbviam.^pDignos nos fac, rex óptime,^lfutúri regni glória,^lut mereámur láudibus^pætérnis te concínere. Amen."
+        "text_lat": "Ipsum nunc nobis tempus est^lquo voce evangélica^lventúrus sponsus créditur,^lregni cæléstis cónditor.^pOccúrrunt sanctæ vírgines^lóbviam tunc advéntui,^lgestántes claras lámpadas,^lmagno lætántes gáudio.^pStultæ vero quæ rémanent^lexstínctas habent lámpadas,^lfrustra pulsántes iánuam,^lclausa iam regni régia.^pNunc vigilémus sóbrii^lgestántes mentes spléndidas,^lut veniénti Dómino^ldigni currámus óbviam.^pDignos nos fac, rex óptime,^lfutúri regni glória,^lut mereámur láudibus^lætérnis te concínere. Amen."
       }
   },
   4213: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Lucis largítor spléndide",
-        "text_lat": "Lucis largítor spléndide,^lcuius seréno lúmine^lpost lapsa noctis témpora^pdies refúsus pánditur,^pTu verus mundi lúcifer,^lnon is qui parvi síderis^lventúræ lucis núntius^pangústo fulget lúmine,^pSed toto sole clárior,^llux ipse totus et dies,^lintérna nostri péctoris^pillúminans præcórdia.^pEvíncat mentis cástitas^lquæ caro cupit árrogans,^lsanctúmque puri córporis^pdelúbrum servet Spíritus.^pSit, Christe, rex piíssime,^ltibi Patríque glória^lcum Spíritu Paráclito^pin sempitérna sǽcula. Amen."
+        "text_lat": "Lucis largítor spléndide,^lcuius seréno lúmine^lpost lapsa noctis témpora^ldies refúsus pánditur,^pTu verus mundi lúcifer,^lnon is qui parvi síderis^lventúræ lucis núntius^langústo fulget lúmine,^pSed toto sole clárior,^llux ipse totus et dies,^lintérna nostri péctoris^lillúminans præcórdia.^pEvíncat mentis cástitas^lquæ caro cupit árrogans,^lsanctúmque puri córporis^ldelúbrum servet Spíritus.^pSit, Christe, rex piíssime,^ltibi Patríque glória^lcum Spíritu Paráclito,^lin sempitérna sǽcula. Amen."
       }
   },
   4215: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Lúminis fons, lux et orígo lucis",
-        "text_lat": "Lúminis fons, lux et orígo lucis,^ltu pius nostris précibus favéto,^lluxque, peccáti ténebris fugátis,^pnos tu>a adórnet.^pEcce transáctus labor est diéi,^lteque nos tuti sumus adnuénte;^len tibi grates ágimus libéntes^ptempus in omne.^pSolis abscéssus ténebras redúxit:^lille sol nobis rádiet corúscus^lluce qui fulva fovet angelórum^págmina sancta.^pQuas dies culpas hodiérna texit,^lChristus deléto pius atque mitis,^lpectus et puro rútilet nitóre^ptémpore noctis.^pLaus tibi Patri, decus atque Nato,^lFlámini Sancto párilis potéstas,^lcuncta qui sceptro régitis suprémo^pomne per ævum. Amen."
+        "text_lat": "Lúminis fons, lux et orígo lucis,^ltu pius nostris précibus favéto,^lluxque, peccáti ténebris fugátis,^lnos tu>a adórnet.^pEcce transáctus labor est diéi,^lteque nos tuti sumus adnuénte;^len tibi grates ágimus libéntes^ltempus in omne.^pSolis abscéssus ténebras redúxit:^lille sol nobis rádiet corúscus^lluce qui fulva fovet angelórum^lagmina sancta.^pQuas dies culpas hodiérna texit,^lChristus deléto pius atque mitis,^lpectus et puro rútilet nitóre^ltémpore noctis.^pLaus tibi Patri, decus atque Nato,^lFlámini Sancto párilis potéstas,^lcuncta qui sceptro régitis suprémo^lomne per ævum. Amen."
       }
   },
   4222: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Nocte surgéntes vigilémus omnes",
         "text_lat": "Nocte surgéntes vigilémus omnes,^lsemper in psalmis meditémur atque^lvíribus totis Dómino canámus^ldúlciter hymnos,^pUt, pio regi páriter canéntes,^lcum suis sanctis mereámur aulam^língredi cæli, simul et beátam^ldúcere vitam.^pPræstet hoc nobis Déitas beáta^lPatris ac Nati, paritérque Sancti^lSpíritus, cuius résonat per omnem^lglória mundum. Amen."
       }
   },
   4223: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Ætérne lucis cónditor",
         "text_lat": "Ætérne lucis cónditor,^llux ipse totus et dies,^lnoctem nec ullam séntiens^lnatúra lucis pérpeti,^pIam cedit pallens próximo^ldiéi nox advéntui,^lobtúndens lumen síderum^ladest et clarus lúcifer.^pIam stratis læti súrgimus^lgrates canéntes et tuas,^lquod cæcam noctem vícerit^lrevéctans rursus sol diem.^pTe nunc, ne carnis gáudia^lblandis subrépant ǽstibus,^ldolis ne cedat sǽculi^lmens nostra, sancte, quǽsumus.^pIra ne rixas próvocet,^lgulam ne venter íncitet,^lopum pervértat ne famis,^lturpis ne luxus óccupet.^pSed firma mente sóbrii,^lcasto manéntes córpore^ltotum fidéli spíritu^lChristo ducámus hunc diem.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^lregnans per omne sǽculum. Amen."
       }
   },
   4225: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Sator princépsque témporum",
         "text_lat": "Sator princépsque témporum,^lclarum diem labóribus^lnoctémque qui sopóribus^lfixo distínguis órdine,^pMentem tu castam dírige,^lobscúra ne siléntia^lad dira cordis vúlnera^ltelis patéscant ínvidi.^pVacent ardóre péctora,^lfaces nec ullas pérferant,^lquæ nostro hæréntes sénsui^lmentis vigórem sáucient.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lCum Spíritu Paráclito^lregnans per omne sǽculum. Amen."
       }
   },
   4232: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "O sator rerum, reparátor ævi",
         "text_lat": "O sator rerum, reparátor ævi,^lChriste, rex regum, metuénde censor,^ltu preces nostras paritérque laudes^lsúscipe clemens.^pNoctis en cursu tibi vota laudum^lpángimus; præsta tibi sint ut apta,^lnosque concéntu réfove perénni,^llúminis auctor.^pDa dies nobis probitáte faustos^lmortis ignáram tribuéndo vitam,^lsemper ut nostros tua sit per actus^lglória perpes.^pUre cor nostrum, pius ure lumbos^ligne divíno vigilésque nos fac,^lsemper ardéntes mánibus lucérnas^lut teneámus.^pÆqua laus summum célebret Paréntem^lteque, Salvátor, pie rex, per ævum;^lSpíritus Sancti résonet per omnem^lglória mundum. Amen."
       }
   },
   4233: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Fulgéntis auctor ǽtheris",
         "text_lat": "Fulgéntis auctor ǽtheris,^lqui lunam lumen nóctibus,^lsolem diérum cúrsibus^lcerto fundásti trámite,^pNox atra iam depéllitur,^lmundi nitor renáscitur,^lnovúsque iam mentis vigor^ldulces in actus érigit.^pLaudes sonáre iam tuas^ldies relátus ádmonet,^lvultúsque cæli blándior^lnostra serénat péctora.^pVitémus omne lúbricum,^ldeclínet prava spíritus,^lvitam facta non ínquinent,^llinguam culpa non ímplicet;^pSed, sol diem dum cónficit,^lfides profúnda férveat,^lspes ad promíssa próvocet,^lChristo coniúngat cáritas.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^lregnans per omne sǽculum. Amen."
       }
   },
   4235: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Sol, ecce, lentus óccidens",
         "text_lat": "Sol, ecce, lentus óccidens^lmontes et arva et ǽquora^lmæstus relínquit, ínnovat^lsed lucis omen crástinæ,^pMirántibus mortálibus^lsic te, Creátor próvide,^lleges vicésque témporum^lumbris dedísse et lúmini.^pAc dum, tenébris ǽthera^lsiléntio preméntibus,^lvigor labórum déficit,^lquies cupíta quǽritur,^pSpe nos fidéque dívites^ltui beámur lúmine^lVerbi, quod est a sǽculis^lsplendor patérnæ glóriæ.^pEst ille sol qui nésciat^lortum vel umquam vésperum;^lquo terra gestit cóntegi,^lquo cæli in avum iúbilant.^pHac nos seréna pérpetim^lda luce tandem pérfrui,^lcum Nato et almo Spíritu^ltibi novántes cántica. Amen."
       }
   },
   4242: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Ales diéi núntius",
         "text_lat": "Ales diéi núntius^llucem propínquam prǽcinit;^lnos excitátor méntium^liam Christus ad vitam vocat.^p«Auférte – clamat – léctulos^lægros, sopóros, désides;^lcastíque, rect>i ac sóbrii^l^kvigi^0kláte; iam sum próximus ».^pUt, cum corúscis flátibus^lauróra cælum spárserit,^lomnes labór>e exércitos^lconfírmet ad spem lúminis.^pIesum ciámus vócibus^lflentes, precántes, sóbrii;^linténta supplicátio^ldormíre cor mundum vetat.^pTu, Christe, somnum dísice,^ltu rumpe noctis víncula,^ltu solve peccátum vetus^lnovúmque lumen íngere.^pSit, Christe, rex piíssime,^ltibi Patríque glória^lcum Spíritu Paráclito,^lin sempitérna sǽcula. Amen."
       }
   },
   4243: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Iam lucis orto sídere",
         "text_lat": "Iam lucis orto sídere^lDeum precémur súpplices,^lut in diúrnis áctibus^lnos servet a nocéntibus.^pLinguam refrénans témperet,^lne litis horror ínsonet;^lvisum fovéndo cóntegat,^lne vanitátes háuriat.^pSint pura cordis íntima,^labsístat et vecórdia;^lcarnis terat supérbiam^lpotus cibíque párcitas;^pUt, cum dies abscésserit^lnoctémque sors redúxerit,^lmundi per abstinéntiam^lipsi canámus glóriam.^pDeo Patri sit glória^leiúsque soli Fílio^lcum Spíritu Paráclito,^lin sempitérna sǽcula. Amen."
       }
   },
   4245: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Deus, qui claro lúmine",
         "text_lat": "Deus, qui claro lúmine^ldiem fecísti, Dómine,^ltuam rogámus glóriam^ldum pronus dies vólvitur.^pIam sol urgénte véspero^loccásum suum gráditur,^lmundum conclúdens ténebris,^lsuum obsérvans órdinem.^pTu ver>o, excélse Dómine,^lprecántes tuos fámulos^ldiúrno lassos ópere^lne sinas umbris ópprimi,^pUt non fuscátis méntibus^ldies abscédat sǽculi,^lsed tua tecti grátia^lcernámus lucem prósperam.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^lregnans per omne sǽculum. Amen."
       }
   },
   4252: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Galli cantu mediánte",
-        "text_lat": "Galli cantu mediánte^lnoctis iam calíginem^let profúndæ noctis atram^llevánte formídinem,^pDeus alme, te rogámus^lsupplicésque póscimus.^lVigil, potens, lux venísti^latque custos hóminum,^pdum tenérent simul cuncta^lmédium siléntium,^lrédderent necnon mortálem^lmórtui effígiem,^pExcitáres quo nos, Christe,^lde somno malítiæ,^latque gratis liberáres^lnoctúrno de cárcere,^predderésque nobis lucem^lvitæ semper cómitem.^lHonor Patri sit ac tibi,^lSancto sit Spirítui,^pDeo trino sed et uni,^lpaci, vitæ, lúmini,^lnómini præ cunctis dulci^ldivinóque númini. Amen."
+        "text_lat": "Galli cantu mediánte^lnoctis iam calíginem^let profúndæ noctis atram^llevánte formídinem,^lDeus alme, te rogámus^lsupplicésque póscimus.^pVigil, potens, lux venísti^latque custos hóminum,^ldum tenérent simul cuncta^lmédium siléntium,^lrédderent necnon mortálem^lmórtui effígiem,^pExcitáres quo nos, Christe,^lde somno malítiæ,^latque gratis liberáres^lnoctúrno de cárcere,^lredderésque nobis lucem^lvitæ semper cómitem.^pHonor Patri sit ac tibi,^lSancto sit Spirítui,^lDeo trino sed et uni,^lpaci, vitæ, lúmini,^lnómini præ cunctis dulci^ldivinóque númini. Amen."
       }
   },
   4253: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Deus, qui cæli lumen es",
         "text_lat": "Deus, qui cæli lumen es^lsatórque lucis, qui polum^lpatérno fultum brácchio^lpræclára pandis déxtera,^pAuróra stellas iam tegit^lrubrum sustóllens gúrgitem,^luméctis atque flátibus^lterram baptízans róribus.^pIam noctis umbra línquitur,^lpolum calígo déserit,^ltypúsque Christi, lúcifer^ldiem sopítum súscitat.^pDies diérum tu, Deus,^llucísque lumen ipse es,^lUnum potens per ómnia,^lpotens in unum Trínitas.^pTe nunc, Salvátor, quǽsumus^ltibíque genu fléctimus,^lPatrem cum Sancto Spíritu^ltotis laudántes vócibus. Amen."
       }
   },
   4255: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Horis peráctis úndecim",
         "text_lat": "Horis peráctis úndecim^lruit dies in vésperum;^lsolvámus omnes débitum^lmentis libénter cánticum.^pLabor diúrnus tránsiit^lquo, Christe, nos condúxeras;^lda iam colónis víneæ^lpromíssa dona glóriæ.^pMercéde quos nunc ádvocas,^lquos ad futúrum múneras,^lnos in labóre ádiuva^let post labórem récrea.^pSit, Christe, rex piíssime,^ltibi Patríque glória^lcum Spíritu Paráclito,^lin sempitérna sǽcula. Amen."
       }
   },
   4262: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Lux ætérna, lumen potens",
-        "text_lat": "Lux ætérna, lumen potens,^ldies indefíciens,^ldebellátor atræ noctis,^lreparátor lúminis,^pdestructórque tenebrárum,^lillustrátor méntium:^lQuo nascénte suscitámur,^lquo vocánte súrgimus;^pfaciénte quo beáti,^lquo linquénte míseri;^lquo a morte liberáti,^lquo sumus perlúcidi;^pMortis quo victóres facti,^lnoctis atque sǽculi;^lergo nobis, rex ætérne,^llucem illam tríbue,^pquæ fuscátur nulla nocte,^lsolo gaudens lúmine.^lHonor Patri sit ac tibi,^lSancto sit Spirítui,^pDeo trino sed et uni,^lpaci, vitæ, lúmini,^lnómini præ cunctis dulci^ldivinóque númini. Amen."
+        "text_lat": "Lux ætérna, lumen potens,^ldies indefíciens,^ldebellátor atræ noctis,^lreparátor lúminis,^ldestructórque tenebrárum,^lillustrátor méntium:^pQuo nascénte suscitámur,^lquo vocánte súrgimus;^lfaciénte quo beáti,^lquo linquénte míseri;^lquo a morte liberáti,^lquo sumus perlúcidi;^pMortis quo victóres facti,^lnoctis atque sǽculi;^lergo nobis, rex ætérne,^llucem illam tríbue,^lquæ fuscátur nulla nocte,^lsolo gaudens lúmine.^pHonor Patri sit ac tibi,^lSancto sit Spirítui,^lDeo trino sed et uni,^lpaci, vitæ, lúmini,^lnómini præ cunctis dulci^ldivinóque númini. Amen."
       }
   },
   4263: {
     0.0: {
-        "text": "LEER",
+        "quote": "lateinische Hymnen",
         "title_lat": "Diéi luce réddita",
         "text_lat": "Diéi luce réddita,^llætis gratísque vócibus^lDei canámus glóriam,^lChristi faténtes grátiam,^pPer quem creátor ómnium^ldiem noctémque cóndidit,^lætérna lege sánciens^lut semper succédant sibi.^pTu vera lux fidélium,^lquem lex vetérna non tenet,^lnoctis nec ortu súccidens,^lætérno fulgens lúmine.^pPræsta, Pater ingénite,^ltotum ducámus iúgiter^lChristo placéntes hunc diem^lSancto repléti Spíritu. Amen."
       }
@@ -4520,7 +4589,7 @@ export const psalmsData = {
     5.0: {
         "title": "Viel’ Märtyrer seit der Apostel Tagen",
         "quote": "Bonifatius",
-        "text": "Viel’ Märtyrer seit der Apostel Tagen^lbesiegelten ihr christliches Bekenntnis^lmit ihrem Blut und halfen dadurch mit,^ldie Botschaft Christi durch die Zeit zu tragen.^pSind uns drum alle Märtyrer geworden^lBürgen des Glaubens, so verehren wir^lvor allem einen doch als Glaubensvater:^lden heil’gen Bischof Bonifatius.^pDie Lehre, die er unserm Volk verkündet,^list heute noch das Brot, von dem wir leben;^lder Geist, den Gott durch seinen Dienst geschenkt,^list heute noch der Atem unsrer Seelen.^pDer Martertod, den Bonifatius ersehnte,^lerschloss ihm rasch das Tor zum ew’gen Leben,^lschenkt’ ihm den Siegeskranz und lässt auch uns^lim Glauben feststehn und den Tod nicht fürchten.^pSei, Bonifatius, wie einstens unsern Vätern,^lso auch für uns ein guter Hirt! Bewache,^ldie deiner Leitung traun, vom Himmel her^lund lenke unsern Fuß auf gute Weide.^pDu hast uns deinen toten Leib vertraut,^lFulda durft’ deines Grabes Hüter werden;^ldoch mehr noch soll es deines Glaubens Erbe hüten.^lDrum schick zu Gott für Stadt und Bistum dein Gebet.^pDie Ehre sei dem Vater und dem Sohne,^lder durch die Taufe uns gewürdigt hat,^llebend’ge Glieder seines Leibs zu werden,^lund Ehr’ dem Heil’gen Geist in alle Ewigkeiten.^lAmen.^p"
+        "text": "^RUBRDie 1. Zeile ist hier an das Versmaß des Hymnus angepasst. In den gedruckten „Eigenfeiern“ beginnt er:^l„So viele Märtyrer seit der Apostel Tagen ...“^0RUBR^pViel’ Märtyrer seit der Apostel Tagen^lbesiegelten ihr christliches Bekenntnis^lmit ihrem Blut und halfen dadurch mit,^ldie Botschaft Christi durch die Zeit zu tragen.^pSind uns drum alle Märtyrer geworden^lBürgen des Glaubens, so verehren wir^lvor allem einen doch als Glaubensvater:^lden heil’gen Bischof Bonifatius.^pDie Lehre, die er unserm Volk verkündet,^list heute noch das Brot, von dem wir leben;^lder Geist, den Gott durch seinen Dienst geschenkt,^list heute noch der Atem unsrer Seelen.^pDer Martertod, den Bonifatius ersehnte,^lerschloss ihm rasch das Tor zum ew’gen Leben,^lschenkt’ ihm den Siegeskranz und lässt auch uns^lim Glauben feststehn und den Tod nicht fürchten.^pSei, Bonifatius, wie einstens unsern Vätern,^lso auch für uns ein guter Hirt! Bewache,^ldie deiner Leitung traun, vom Himmel her^lund lenke unsern Fuß auf gute Weide.^pDu hast uns deinen toten Leib vertraut,^lFulda durft’ deines Grabes Hüter werden;^ldoch mehr noch soll es deines Glaubens Erbe hüten.^lDrum schick zu Gott für Stadt und Bistum dein Gebet.^pDie Ehre sei dem Vater und dem Sohne,^lder durch die Taufe uns gewürdigt hat,^llebend’ge Glieder seines Leibs zu werden,^lund Ehr’ dem Heil’gen Geist in alle Ewigkeiten.^lAmen.^p"
       },
     6.0: {
         "title": "A. Sankt Bonifatius, wir deine Kinder",

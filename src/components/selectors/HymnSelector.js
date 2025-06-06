@@ -125,7 +125,7 @@ const HymnSelector = ({ texts, hour, season,
                             // Prüfe auf gewünschte Sprache
                             const textField = `text${localPrefLanguage}`;
                             const titleField = `title${localPrefLanguage}`;
-                            let hymnText = hymnData?.[textField]?.replace('LEER', '')
+                            const hymnText = hymnData?.[textField]?.replace('LEER', '')
 
                             // Nur hinzufügen, wenn der Text in der gewünschten Sprache existiert
                             if (!hymnText) return;
@@ -182,11 +182,11 @@ const HymnSelector = ({ texts, hour, season,
 
                     const textField = `text${localPrefLanguage}`;
                     const titleField = `title${localPrefLanguage}`;
-                    let kompletHymnText = kompletHymnData?.[textField]?.replace('LEER', '');
+                    const kompletHymnText = kompletHymnData?.[textField]?.replace('LEER', '');
 
                     if (kompletHymnText) {
                         hymns.push({
-                            id: 'wt_hymn_2',
+                            id: 'wt_hymn_k',
                             source: 'vom Tag:',
                             text: kompletHymnText,
                             title: kompletHymnData[titleField],

@@ -18,7 +18,6 @@ import HymnSelector from "./selectors/HymnSelector.js";
 import MarAntSelector from "./selectors/MarAntSelector.js";
 import { MatutinDisplay } from "./selectors/MatutinDisplay.js";
 import { getValue as extGetValue } from "./dataHandlers/GetValue.js";
-import { getKompletValue } from "./dataHandlers/GetKompletValue.js";
 import {
   formatPsalm as extFormatPsalm,
   formatText,
@@ -1274,27 +1273,19 @@ const PrayerTextDisplay = ({
 
   // Get value from sources in priority order: prefSrc -> com1/com2 -> wt
   const getValue = (field) => {
-    if (hour === 'komplet') {
-      return getKompletValue({
-        localPrefKomplet,
-        texts,
-        field,
-        localPrefLanguage
-      });
-    } else {
-      return extGetValue({
-        hour,
-        prefSrc,
-        prefSollemnity,
-        localPrefComm,
-        localPrefPsalmsWt,
-        localPrefErgPs,
-        localPrefContinuous,
-        localPrefLanguage,
-        texts,
-        field,
-      })
-    };
+    return extGetValue({
+      hour,
+      prefSrc,
+      prefSollemnity,
+      localPrefKomplet,
+      localPrefComm,
+      localPrefPsalmsWt,
+      localPrefErgPs,
+      localPrefContinuous,
+      localPrefLanguage,
+      texts,
+      field,
+    })
   }
   // Component for section headers with source indicators
   const SectionHeader = ({
