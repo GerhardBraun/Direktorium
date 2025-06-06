@@ -270,6 +270,17 @@ const PersonalSettings = () => {
                         Stunden&shy;gebet
                     </button>
                 </div>
+                <div
+                    className="grid gap-2 items-top text-xs mt-1 text-gray-500 dark:text-gray-400"
+                    style={{
+                        gridTemplateColumns: '6rem 2rem 1fr',
+                        fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif',
+                    }}
+                >                    <p></p>
+                    <span className="font-semibold text-gray-700 dark:text-gray-300">Auto: </span>
+                    <p >
+                        Beim ersten Aufruf des Tages wird zunächst das Direktorium angezeigt, bei&nbsp;den&nbsp;weiteren&nbsp;Aufrufen direkt das&nbsp;Stundengebet.
+                    </p></div>
             </div>
 
             {/* Fußnoten Section */}
@@ -454,7 +465,7 @@ const PersonalSettings = () => {
                     <p>Format: JSON (.json)</p>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 
