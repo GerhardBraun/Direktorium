@@ -1275,6 +1275,7 @@ const PrayerTextDisplay = ({
   const getValue = (field) => {
     return extGetValue({
       hour,
+      season,
       prefSrc,
       prefSollemnity,
       localPrefKomplet,
@@ -1340,7 +1341,7 @@ const PrayerTextDisplay = ({
     return extFormatPsalm(psalm, inv, localPrefLanguage);
   };
 
-  const PrayerResponse = ({ resp3, resp2 }) => {
+  const PrayerResponse = ({ resp0, resp1, resp2, resp3 }) => {
     const formatSecondResponse = (firstResp, secondResp) => {
       if (!firstResp || !secondResp) return secondResp;
 
@@ -1356,14 +1357,67 @@ const PrayerTextDisplay = ({
         : secondResp;
     };
 
+    // Prüfung für Osterzeit: resp1 und resp2 kombinieren falls nötig
+    let processedResp1 = resp1;
+    let processedResp2 = resp2;
+
+    if (texts?.season === 'o' && hour !== 'lesehore' && resp1 && resp2) {
+      const testResp2 = resp2
+        .replace(' ', '°')
+        .replace('_lat', '')
+        .replace('_neu', '')
+      if (testResp2 !== 'Halleluja,°halleluja.' &&
+        testResp2 !== 'Allelúia,°allelúia.') {
+        processedResp1 = `${resp1.trim()} ${resp2.trim()}`;
+        processedResp2 = resp1.endsWith('_lat')
+          ? 'Allelúia,°allelúia.'
+          : 'Halleluja,°halleluja.';
+      }
+    }
+
     return (
-      <div className="flex gap-0">
-        <Rubric>V&nbsp;&nbsp;</Rubric>
-        <div>
-          {formatPrayerText(resp3)}
-          <Rubric> *&nbsp;</Rubric>
-          {formatPrayerText(formatSecondResponse(resp3, resp2))}
-        </div>
+      <div className="mb-0 whitespace-pre-wrap">
+        {resp0 && resp1 && (
+          <div className="mb-0 flex gap-0">
+            <div>{formatPrayerText(resp0, "V°°")}</div>
+          </div>
+        )}
+        {resp0 && resp1 && (
+          <div className="mb-0 flex gap-0">
+            <div>{formatPrayerText(processedResp1, "R°°")}</div>
+          </div>
+        )}
+        {resp1 && resp2 && (
+          <div className="mb-0 flex gap-0">
+            <Rubric>R&nbsp;&nbsp;</Rubric>
+            <div>
+              {formatPrayerText(processedResp1)}
+              <Rubric> *&nbsp;</Rubric>
+              {formatPrayerText(processedResp2)}
+              {hour !== "lesehore" && <Rubric> –&#8288;&#160;R</Rubric>}
+            </div>
+          </div>
+        )}
+        {resp3 && resp2 && (
+          <>
+            <div className="flex gap-0">
+              <Rubric>V&nbsp;&nbsp;</Rubric>
+              <div>
+                {formatPrayerText(resp3)}
+                <Rubric> *&nbsp;</Rubric>
+                {formatPrayerText(formatSecondResponse(resp3, processedResp2))}
+              </div>
+            </div>
+            {hour !== "lesehore" && (
+              <div>
+                {resp3.endsWith("_lat")
+                  ? 'Glória Patri et Fílio et\u00a0Spirítui\u00a0Sancto.'
+                  : 'Ehre sei dem Vater und\u00a0dem\u00a0Sohn und\u00a0dem\u00a0Heiligen\u00a0Geist.'}
+                <Rubric> –&#8288;&#160;R</Rubric>
+              </div>
+            )}
+          </>
+        )}
       </div>
     );
   };
@@ -1554,45 +1608,13 @@ const PrayerTextDisplay = ({
         {getValue("resp1") && (
           <div className="mb-0 whitespace-pre-wrap">
             <SectionHeader title="RESPONSORIUM" field="resp1" />
-            {getValue("resp0") && getValue("resp1") && (
-              <div className="mb-0 flex gap-0">
-                <div>{formatPrayerText(getValue("resp0"), "V°°")}</div>
-              </div>
-            )}
-            {getValue("resp0") && getValue("resp1") && (
-              <div className="mb-0 flex gap-0">
-                <div>{formatPrayerText(getValue("resp1"), "R°°")}</div>
-              </div>
-            )}
-            {getValue("resp1") && getValue("resp2") && (
-              <div className="mb-0 flex gap-0">
-                <Rubric>R&nbsp;&nbsp;</Rubric>
-                <div>
-                  {formatPrayerText(getValue("resp1"))}
-                  <Rubric> *&nbsp;</Rubric>
-                  {formatPrayerText(getValue("resp2"))}
-                  {hour !== "lesehore" && <Rubric> –&#8288;&#160;R</Rubric>}
-                </div>
-              </div>
-            )}
-            {getValue("resp3") && getValue("resp2") && (
-              <>
-                <PrayerResponse
-                  resp3={getValue("resp3")}
-                  resp2={getValue("resp2")}
-                />
-                {hour !== "lesehore" && (
-                  <div>
-                    {getValue("resp3").endsWith("_lat")
-                      ? 'Glória Patri et Fílio et\u00a0Spirítui\u00a0Sancto.'
-                      : 'Ehre sei dem Vater und\u00a0dem\u00a0Sohn und\u00a0dem\u00a0Heiligen\u00a0Geist.'}
-                    <Rubric> –&#8288;&#160;R</Rubric>
-                  </div>
-                )}
-              </>
-            )}
-          </div>
-        )}
+            <PrayerResponse
+              resp0={getValue("resp0")}
+              resp1={getValue("resp1")}
+              resp2={getValue("resp2")}
+              resp3={getValue("resp3")}
+            />
+          </div>)}
 
         {getValue("patr_text") && (
           <div className="mb-0">
@@ -1615,25 +1637,13 @@ const PrayerTextDisplay = ({
         {getValue("patr_resp1") && (
           <div className="mb-0">
             <SectionHeader title="RESPONSORIUM" field="resp1" />
-            {getValue("patr_resp1") && getValue("patr_resp2") && (
-              <div className="mb-0 flex gap-0">
-                <Rubric>R&nbsp;&nbsp;</Rubric>
-                <div>
-                  {formatPrayerText(getValue("patr_resp1"))}
-                  <Rubric> *&nbsp;</Rubric>
-                  {formatPrayerText(getValue("patr_resp2"))}
-                  {hour !== "lesehore" && <Rubric> –&#8288;&#160;R</Rubric>}
-                </div>
-              </div>
-            )}
-            {getValue("patr_resp3") && getValue("patr_resp2") && (
-              <PrayerResponse
-                resp3={getValue("patr_resp3")}
-                resp2={getValue("patr_resp2")}
-              />
-            )}
-          </div>
-        )}
+            <PrayerResponse
+              resp0={null}
+              resp1={getValue("patr_resp1")}
+              resp2={getValue("patr_resp2")}
+              resp3={getValue("patr_resp3")}
+            />
+          </div>)}
 
         {/* erweitertes Responsorium am 1. Adventssonntag Jahr II */}
         {advResp && (
@@ -1846,26 +1856,12 @@ const PrayerTextDisplay = ({
               {getValue("c_patr_resp1") && useCommemoration && (
                 <div className="mb-0">
                   <SectionHeader title="RESPONSORIUM" field="resp1" />
-                  {getValue("c_patr_resp1") && getValue("c_patr_resp2") && (
-                    <div className="mb-0 flex gap-0">
-                      <Rubric>R&nbsp;&nbsp;</Rubric>
-                      <div>
-                        {formatPrayerText(getValue("c_patr_resp1"))}
-                        <Rubric> *&nbsp;</Rubric>
-                        {formatPrayerText(getValue("c_patr_resp2"))}
-                        {hour !== "lesehore" && (
-                          <Rubric> –&#8204;&nbsp;R</Rubric>
-                        )}
-                      </div>
-                    </div>
-                  )}
-                  {getValue("c_patr_resp3") && getValue("c_patr_resp2") && (
-                    <PrayerResponse
-                      resp3={getValue("c_patr_resp3")}
-                      resp2={getValue("c_patr_resp2")}
-                    />
-                  )}
-                </div>
+                  <PrayerResponse
+                    resp0={null}
+                    resp1={getValue("c_patr_resp1")}
+                    resp2={getValue("c_patr_resp2")}
+                    resp3={getValue("c_patr_resp3")}
+                  />                </div>
               )}
 
               {getValue("c_antEv") && useCommemoration && (

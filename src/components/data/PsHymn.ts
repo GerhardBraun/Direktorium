@@ -3981,9 +3981,13 @@ export const psalmsData = {
     0.0: {
         "title": "Der Herr, zur Höhe heimgekehrt",
         "quote": "Pfingsten",
-        "text": "Der Herr, zur Höhe heimgekehrt,^lzum Vater, der sein Ursprung ist,^lgibt uns als sein Geschenk den Geist,^lden uns des Vaters Huld verhieß.^pVom Himmel kommt ein Brausen her,^lund jäher Donner schreckt die Welt.^lDie Jünger, die versammelt sind,^lerkennen schaudernd: Gott ist da!^pGewaltig flammt das Feuer auf,^ldas aus dem Licht des Vaters stammt,^lund jedes Herz, das Christus glaubt,^lwird mit des Wortes Glut erfüllt.^pDa jauchzen die Erfüllten auf,^ldurchdrungen von des Geistes Hauch,^lin allen Sprachen reden sie^lund machen Gottes Taten kund.^pDir, Gott und Vater, sei der Ruhm,^ldem Sohne, der vom Tod erstand,^ldem Beistand auch, dem Heil’gen Geist,^ldurch alle Zeit und Ewigkeit. Amen.",
-        "title_lat": "Iam Christus astra ascenderat",
-        "text_lat": "Iam Christus astr>a ascénderat,^lregréssus unde vénerat,^lpromíssa Patris múnera,^lSanctum datúrus Spíritum,^pCum hora felix tértia^lrepénte mundo íntonat,^lApóstolis orántibus^lDeum venísse núntians.^pDe Patris ergo lúmine^ldecórus ignis almus est,^lqui fida Christi péctora^lcalóre verbi cómpleat.^pDescénde, Sancte Spíritus,^lac nostra cord>a altária^lorna tibi virtútibus,^ltibíque templa dédica.^pPer te sciámus da Patrem^lnoscámus atque Fílium,^lte utriúsque Spíritum^lcredámus omni témpore. Amen."
+        "text": "Der Herr, zur Höhe heimgekehrt,^lzum Vater, der sein Ursprung ist,^lgibt uns als sein Geschenk den Geist,^lden uns des Vaters Huld verhieß.^pVom Himmel kommt ein Brausen her,^lund jäher Donner schreckt die Welt.^lDie Jünger, die versammelt sind,^lerkennen schaudernd: Gott ist da!^pGewaltig flammt das Feuer auf,^ldas aus dem Licht des Vaters stammt,^lund jedes Herz, das Christus glaubt,^lwird mit des Wortes Glut erfüllt.^pDa jauchzen die Erfüllten auf,^ldurchdrungen von des Geistes Hauch,^lin allen Sprachen reden sie^lund machen Gottes Taten kund.^pDir, Gott und Vater, sei der Ruhm,^ldem Sohne, der vom Tod erstand,^ldem Beistand auch, dem Heil’gen Geist,^ldurch alle Zeit und Ewigkeit. Amen."
+      },
+    1.0: {
+        "title": "Der Herr, zur Höhe heimgekehrt",
+        "quote": "Pfingsten",
+        "title_lat": "Lux iucúnda, lux insígnis",
+        "text_lat": "Lux iucúnda, lux insígnis,^lqua de throno missus ignis^lin Christi discípulos,^pCorda replet, linguas ditat,^lad concórdes nos invítat^lcordis, linguæ módulos.^pConsolátor alme, veni,^llinguas rege, corda leni:^lnihil fellis aut venéni^lsub tua præséntia.^pNova facti creatúra,^lte laudámus mente pura,^lgrátiæ nunc, sed natúra^lprius iræ fílii.^pTu qui dator es et donum,^lnostri cordis omne bonum,^lcor ad laudem redde pronum,^lnostræ linguæ formans sonum^lin tua præcónia.^pTu nos purges a peccátis,^lauctor ipse pietátis,^let in Christo renovátis^lda perféctæ novitátis^lplena nobis gáudia. Amen."
       }
   },
   3421: {
@@ -4011,7 +4015,16 @@ export const psalmsData = {
     0.0: {
         "title": "Und wieder führt das Jahr herauf",
         "quote": "Pfingsten",
-        "text": "Und wieder führt das Jahr herauf^lder sel’gen Freude hohen Tag:^lDer Beistand, den der Herr verhieß,^lwird seinen Jüngern heut geschenkt.^pIn Flammen stürzt das Licht herab^lund strahlt in Feuerzungen auf,^ldass Glut der Liebe sie durchströmt^lund ihrem Worte Macht verleiht.^pIn allen Sprachen reden sie,^ldie Menge staunt und steht gebannt,^lman glaubt vom Weine sie berauscht,^ldie doch vom Geiste trunken sind.^pWir bitten dich, du guter Gott,^lmit tief geneigtem Angesicht:^lDes Geistes Gaben gieße nun^lauch über uns in Gnaden aus.^pDir, Gott und Vater, sei der Ruhm,^ldem Sohne, der vom Tod erstand,^ldem Geist, der unser Beistand ist,^ldurch alle Zeit und Ewigkeit. Amen."
+        "text": "Und wieder führt das Jahr herauf^lder sel’gen Freude hohen Tag:^lDer Beistand, den der Herr verhieß,^lwird seinen Jüngern heut geschenkt.^pIn Flammen stürzt das Licht herab^lund strahlt in Feuerzungen auf,^ldass Glut der Liebe sie durchströmt^lund ihrem Worte Macht verleiht.^pIn allen Sprachen reden sie,^ldie Menge staunt und steht gebannt,^lman glaubt vom Weine sie berauscht,^ldie doch vom Geiste trunken sind.^pWir bitten dich, du guter Gott,^lmit tief geneigtem Angesicht:^lDes Geistes Gaben gieße nun^lauch über uns in Gnaden aus.^pDir, Gott und Vater, sei der Ruhm,^ldem Sohne, der vom Tod erstand,^ldem Geist, der unser Beistand ist,^ldurch alle Zeit und Ewigkeit. Amen.",
+        "title_lat": "Beáta nobis gáudia",
+        "text_lat": "Beáta nobis gáudia^lanni redúxit órbita,^lcum Spíritus Paráclitus^leffúlsit in discípulos.^pIgnis vibránte lúmine^llinguæ figúram détulit,^lverbis ut essent próflui^let caritáte férvidi.^pLinguis loquúntur ómnium;^lturbæ pavent gentílium,^lmusto madére députant,^lquos Spíritus repléverat.^pPatráta sunt hæc mýstice^lPaschæ perácto témpore,^lsacro diérum número,^lquo lege fit remíssio.^pTe nunc, Deus piíssime,^lvultu precámur cérnuo:^lillápsa nobis cǽlitus^llargíre don>a, o Spíritus.^pDudum sacráta péctora^ltua replésti grátia;^ldimítte nunc peccámina^let da quiéta témpora.^pPer te sciámus da Patrem^lnoscámus atque Fílium,^lte utriúsque Spíritum^lcredámus omni témpore. Amen."
+      }
+  },
+  3438: {
+    1.0: {
+        "quote": "Pfingsten",
+        "title_lat": "Iam Christus astra ascénderat",
+        "text_lat": "Iam Christus astr>a ascénderat,^lregréssus unde vénerat,^lpromíssa Patris múnera,^lSanctum datúrus Spíritum,^pCum hora felix tértia^lrepénte mundo íntonat,^lApóstolis orántibus^lDeum venísse núntians.^pDe Patris ergo lúmine^ldecórus ignis almus est,^lqui fida Christi péctora^lcalóre verbi cómpleat.^pDescénde, Sancte Spíritus,^lac nostra cord>a altária^lorna tibi virtútibus,^ltibíque templa dédica.^pPer te sciámus da Patrem^lnoscámus atque Fílium,^lte utriúsque Spíritum^lcredámus omni témpore. Amen."
       }
   },
   3441: {
@@ -4032,7 +4045,9 @@ export const psalmsData = {
     0.0: {
         "title": "Komm, Heil’ger Geist, der Leben schafft",
         "quote": "Pfingsten",
-        "text": "Komm, Heil’ger Geist, der Leben schafft,^lerfülle uns mit deiner Kraft.^lDein Schöpferwort rief uns zum Sein:^lnun hauch uns Gottes Odem ein.^pKomm, Tröster, der die Herzen lenkt,^ldu Beistand, den der Vater schenkt;^laus dir strömt Leben, Licht und Glut,^ldu gibst uns Schwachen Kraft und Mut.^pDich sendet Gottes Allmacht aus^lim Feuer und in Sturmes Braus;^ldu öffnest uns den stummen Mund^lund machst der Welt die Wahrheit kund.^pEntflamme Sinne und Gemüt,^ldass Liebe unser Herz durchglüht^lund unser schwaches Fleisch und Blut^lin deiner Kraft das Gute tut.^pDie Macht des Bösen banne weit,^lschenk deinen Frieden allezeit.^lErhalte uns auf rechter Bahn,^ldass Unheil uns nicht schaden kann.^pLass gläubig uns den Vater sehn,^lsein Ebenbild, den Sohn, verstehn^lund dir vertraun, der uns durchdringt^lund uns das Leben Gottes bringt.^pDen Vater auf dem ew’gen Thron^lund seinen auferstandnen Sohn,^ldich, Odem Gottes, Heil’ger Geist,^lauf ewig Erd’ und Himmel preist. Amen."
+        "text": "Komm, Heil’ger Geist, der Leben schafft,^lerfülle uns mit deiner Kraft.^lDein Schöpferwort rief uns zum Sein:^lnun hauch uns Gottes Odem ein.^pKomm, Tröster, der die Herzen lenkt,^ldu Beistand, den der Vater schenkt;^laus dir strömt Leben, Licht und Glut,^ldu gibst uns Schwachen Kraft und Mut.^pDich sendet Gottes Allmacht aus^lim Feuer und in Sturmes Braus;^ldu öffnest uns den stummen Mund^lund machst der Welt die Wahrheit kund.^pEntflamme Sinne und Gemüt,^ldass Liebe unser Herz durchglüht^lund unser schwaches Fleisch und Blut^lin deiner Kraft das Gute tut.^pDie Macht des Bösen banne weit,^lschenk deinen Frieden allezeit.^lErhalte uns auf rechter Bahn,^ldass Unheil uns nicht schaden kann.^pLass gläubig uns den Vater sehn,^lsein Ebenbild, den Sohn, verstehn^lund dir vertraun, der uns durchdringt^lund uns das Leben Gottes bringt.^pDen Vater auf dem ew’gen Thron^lund seinen auferstandnen Sohn,^ldich, Odem Gottes, Heil’ger Geist,^lauf ewig Erd’ und Himmel preist. Amen.",
+        "title_lat": "Veni, creátor Spíritus",
+        "text_lat": "Veni, creátor Spíritus,^lmentes tuórum vísita,^limple supérna grátia,^lquæ tu creásti, péctora.^pQui díceris Paráclitus,^ldonum Dei altíssimi,^lfons vivus, ignis, cáritas^let spiritális únctio.^pTu septifórmis múnere,^ldextræ Dei tu dígitus,^ltu rite promíssum Patris^lsermóne ditans gúttura.^pAccénde lumen sénsibus,^linfúnd>e amórem córdibus,^linfírma nostri córporis,^lvirtúte firmans pérpeti.^pHostem repéllas lóngius^lpacémque dones prótinus;^lductóre sic te prǽvio^lvitémus omne nóxium.^pPer te sciámus da Patrem^lnoscámus atque Fílium,^lte utriúsque Spíritum^lcredámus omni témpore. Amen.^p^l"
       }
   },
   3448: {

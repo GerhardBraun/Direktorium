@@ -6,8 +6,6 @@ const HymnSelector = ({ texts, hour, season,
     localPrefKomplet, localPrefLanguage = '',
     formatPrayerText }) => {
     const [selectedHymn, setSelectedHymn] = useState(null);
-    let localPrefSrc = prefSrc;
-    if (['kirchw', 'verst'].includes(prefSollemnity)) { localPrefSrc = prefSollemnity; }
 
     // Neue Hilfsfunktion zum Auflösen der Hymnen-Referenz
     const resolveHymnReference = (ref) => {
@@ -23,15 +21,20 @@ const HymnSelector = ({ texts, hour, season,
 
     const getButtonColor = (sourcePath, sourceLabel) => {
         const hasOnlyWtSources = availableHymns.every(
-            hymn => ['wt', 'pers'].includes(hymn.id.split('_')[0]));
+            // wt und pers ungültig gemacht für Färbung der Buttons in allen Fällen
+            hymn => ['wtt', 'perss'].includes(hymn.id.split('_')[0]));
 
         if (sourcePath === 'wt' && !hasOnlyWtSources) {
-            if (season === 'j') { return 'btn-green'; }
+            if (texts?.laudes?.wt?.farbe === 'r' ||
+                (hour === 'vesper' && texts?.vesper?.wt?.farbe === 'r')) {
+                return 'btn-red';
+            }
+            else if (season === 'j') { return 'btn-green'; }
             else if (season === 'a' || season === 'q') { return 'btn-violett'; }
             else { return 'btn-gold'; }
         };
 
-        // Prüfe auf rote Farbe im localPrefSrc
+        // Prüfe auf rote Farbe im prefSrc
         const pathParts = sourcePath.split('_')[0].split('.');
         let currentLevel = texts.laudes;
         if (texts?.hasErsteVesper && hour === 'vesper') {
@@ -60,7 +63,7 @@ const HymnSelector = ({ texts, hour, season,
         const isHighRank = rank_date > 2 || rank_wt > 2;
 
         // Stelle die Basis-Quellen zusammen
-        let sources = [localPrefSrc, 'pers', localPrefKomplet];
+        let sources = [prefSrc, 'pers'];
 
         if (isHighRank && rank_wt > rank_date) {
             sources = ['wt', ...sources];
@@ -69,13 +72,13 @@ const HymnSelector = ({ texts, hour, season,
 
         // Ermittle Commune-Sources nur wenn nötig
         const communeSources = ((!isCommemoration || prefSollemnity === 'soll') &&
-            !texts[hour]?.[localPrefSrc]?.hymn_1) // Geändert: Prüfe auf reference statt text
+            !texts[hour]?.[prefSrc]?.hymn_1) // Geändert: Prüfe auf reference statt text
             ? ['com1', 'com2']
                 .filter(com =>
-                    texts[hour]?.[localPrefSrc]?.[com]?.hymn_1 || // Geändert
-                    texts[hour]?.[localPrefSrc]?.[com]?.hymn_2    // Geändert
+                    texts[hour]?.[prefSrc]?.[com]?.hymn_1 || // Geändert
+                    texts[hour]?.[prefSrc]?.[com]?.hymn_2    // Geändert
                 )
-                .map(com => `${localPrefSrc}.${com}`)
+                .map(com => `${prefSrc}.${com}`)
             : [];
 
         // Füge die Sources in der richtigen Reihenfolge hinzu
@@ -85,10 +88,9 @@ const HymnSelector = ({ texts, hour, season,
             sources = [...sources, useWt, ...communeSources];
         }
 
+        if (hour === 'komplet') { sources = ['pers', 'wt'] }
         return sources;
-    }, [texts, hour, localPrefSrc, localPrefKomplet, prefSollemnity]);
-
-
+    }, [texts, hour, prefSrc, prefSollemnity]);
 
     // Sammle alle verfügbaren Hymnen
     const availableHymns = useMemo(() => {
@@ -96,6 +98,45 @@ const HymnSelector = ({ texts, hour, season,
             const hymns = [];
             const usedHymnNumbers = new Set();
             const hasNachtHymn = texts[hour]?.wt?.hymn_nacht;
+
+            const addNewHymn = ({ hymnNumber, id, sourceLabel, isNachtHymn = false }) => {
+                // Korrigierte Logik: Nur verarbeiten wenn hymnNumber existiert und noch nicht verwendet
+                if (hymnNumber && !usedHymnNumbers.has(hymnNumber)) {
+                    // Löse die Referenz auf, um Text und Titel zu bekommen
+                    const hymnData = resolveHymnReference(hymnNumber);
+
+                    // Prüfe auf gewünschte Sprache
+                    const textField = `text${localPrefLanguage}`;
+                    const titleField = `title${localPrefLanguage}`;
+                    const hymnText = hymnData?.[textField]?.replace('LEER', '')
+
+                    // Nur hinzufügen, wenn der Text in der gewünschten Sprache existiert
+                    if (!hymnText) return;
+
+                    hymns.push({
+                        id: id,
+                        source: sourceLabel,
+                        text: hymnText,
+                        title: hymnData[titleField],
+                        hymnNumber,
+                        isNachtHymn: isNachtHymn
+                    });
+
+                    usedHymnNumbers.add(hymnNumber);
+                }
+            }
+
+            const specialHymns = dataSpecialHymns?.[prefSollemnity]?.[hour];
+            const hymnNumbers = Array.isArray(specialHymns) ? specialHymns : [specialHymns];
+
+            hymnNumbers.forEach((specialHymn, index) => {
+                addNewHymn({
+                    hymnNumber: specialHymn,
+                    id: `${prefSollemnity}_hymn_${index + 1}`,
+                    sourceLabel: prefSollemnity.charAt(0).toUpperCase() + prefSollemnity.slice(1),
+                    isNachtHymn: false
+                });
+            });
 
             let hymnTypes = ['hymn_nacht', 'hymn_1', 'hymn_2', 'hymn_3',
                 'hymn_1_lat', 'hymn_2_lat', 'hymn_3_lat', 'hymn_kl'];
@@ -114,89 +155,52 @@ const HymnSelector = ({ texts, hour, season,
                 if (!currentLevel) return;
 
                 hymnTypes.forEach(hymnType => {
-                    if (currentLevel[hymnType]) {
+                    if (currentLevel?.[hymnType]) {
                         const hymnNumber = currentLevel[hymnType];
 
-                        // Füge nur hinzu, wenn die Nummer noch nicht verwendet wurde
-                        if (!hymnNumber || !usedHymnNumbers.has(hymnNumber)) {
-                            // Löse die Referenz auf, um Text und Titel zu bekommen
-                            const hymnData = resolveHymnReference(hymnNumber);
-
-                            // Prüfe auf gewünschte Sprache
-                            const textField = `text${localPrefLanguage}`;
-                            const titleField = `title${localPrefLanguage}`;
-                            const hymnText = hymnData?.[textField]?.replace('LEER', '')
-
-                            // Nur hinzufügen, wenn der Text in der gewünschten Sprache existiert
-                            if (!hymnText) return;
-
-                            let sourceLabel;
-
-                            if (sourcePath === prefSrc) {
-                                sourceLabel = 'eigen:';
-                            } else if (sourcePath === prefSollemnity) {
-                                sourceLabel = prefSollemnity.charAt(0).toUpperCase() + prefSollemnity.slice(1);
-                            } else if (sourcePath === 'pers') {
-                                sourceLabel = 'pers:';
-                            } else if (['wt', 'k1', 'k2'].includes(sourcePath)) {
-                                if (hymnType === 'hymn_nacht') {
-                                    sourceLabel = 'In der Nacht oder am frühen Morgen:';
-                                } else if (hymnType === 'hymn_kl') {
-                                    sourceLabel = 'kl. Stb:';
-                                } else if (hymnType === 'hymn_1' && hasNachtHymn) {
-                                    sourceLabel = 'Am Tag:';
-                                } else {
-                                    sourceLabel = 'vom Tag:';
-                                }
+                        let sourceLabel;
+                        if (sourcePath === prefSrc) {
+                            sourceLabel = 'eigen:';
+                        } else if (sourcePath === prefSollemnity) {
+                            sourceLabel = prefSollemnity.charAt(0).toUpperCase() + prefSollemnity.slice(1);
+                        } else if (sourcePath === 'pers') {
+                            sourceLabel = 'pers:';
+                        } else if (['wt', 'k1', 'k2'].includes(sourcePath)) {
+                            if (hymnType === 'hymn_nacht') {
+                                sourceLabel = 'In der Nacht oder am frühen Morgen:';
+                            } else if (hymnType === 'hymn_kl') {
+                                sourceLabel = 'kl. Stb:';
+                            } else if (hymnType === 'hymn_1' && hasNachtHymn) {
+                                sourceLabel = 'Am Tag:';
                             } else {
-                                sourceLabel = 'Comm:';
+                                sourceLabel = 'vom Tag:';
                             }
-
-                            hymns.push({
-                                id: `${sourcePath.replace('.', '_')}_${hymnType}`,
-                                source: sourceLabel,
-                                text: hymnText,
-                                title: hymnData[titleField],
-                                hymnNumber,
-                                isNachtHymn: hymnType === 'hymn_nacht'
-                            });
-
-                            if (hymnNumber) {
-                                usedHymnNumbers.add(hymnNumber);
-                            }
+                        } else {
+                            sourceLabel = 'Comm:';
                         }
+
+                        // Verwende die addNewHymn Funktion
+                        addNewHymn({
+                            hymnNumber,
+                            id: `${sourcePath.replace('.', '_')}_${hymnType}`,
+                            sourceLabel,
+                            isNachtHymn: hymnType === 'hymn_nacht'
+                        });
                     }
                 });
             });
 
             // Spezielle Komplet-Hymnen hinzufügen
             if (hour === 'komplet') {
-                const kompletHymns = {
-                    'k1': 2516,
-                    'k2': 2510
-                };
+                const kompletHymnNumber = dataSpecialHymns[localPrefKomplet];
 
-                const kompletHymnNumber = kompletHymns[localPrefKomplet];
-                if (kompletHymnNumber && !usedHymnNumbers.has(kompletHymnNumber)) {
-                    const kompletHymnData = resolveHymnReference(kompletHymnNumber);
-
-                    const textField = `text${localPrefLanguage}`;
-                    const titleField = `title${localPrefLanguage}`;
-                    const kompletHymnText = kompletHymnData?.[textField]?.replace('LEER', '');
-
-                    if (kompletHymnText) {
-                        hymns.push({
-                            id: 'wt_hymn_k',
-                            source: 'vom Tag:',
-                            text: kompletHymnText,
-                            title: kompletHymnData[titleField],
-                            hymnNumber: kompletHymnNumber,
-                            isNachtHymn: false
-                        });
-
-                        usedHymnNumbers.add(kompletHymnNumber);
-                    }
-                }
+                // Verwende die addNewHymn Funktion auch hier
+                addNewHymn({
+                    hymnNumber: kompletHymnNumber,
+                    id: 'wt_hymn_k',
+                    sourceLabel: 'vom Tag:',
+                    isNachtHymn: false
+                });
             }
 
             return hymns;
@@ -211,7 +215,7 @@ const HymnSelector = ({ texts, hour, season,
         // Fallback: Standard-Sprache (nur wenn erster Durchlauf leer war)
         return collectHymns('');
 
-    }, [texts, hour, localPrefSrc, sourceOrder, localPrefLanguage, localPrefKomplet]);
+    }, [texts, hour, prefSrc, sourceOrder, localPrefLanguage, localPrefKomplet]);
 
     // Setze den ersten gefundenen Hymnus als ausgewählt
     useEffect(() => {
@@ -274,3 +278,22 @@ const HymnSelector = ({ texts, hour, season,
 };
 
 export default HymnSelector;
+
+const dataSpecialHymns = {
+    "k1": 2516,
+    "k2": 2510,
+    "kirchw": {
+        "erstev": 1154,
+        "lesehore": 1139,
+        "laudes": 1150,
+        "vesper": 1154,
+    },
+    "verst": {
+        "lesehore": [2514, 1425],
+        "laudes": 1440,
+        "tert": 1440,
+        "sext": 1440,
+        "non": 1440,
+        "vesper": 2512,
+    }
+}

@@ -118,7 +118,8 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
 
     try {
         // Layer 0: Ordinary texts from multiple sources
-        const sourcesToCheck = ['wt', 'soll', 'kirchw', 'verst'];
+        const sourcesToCheck = ['wt', 'soll', 'kirchww', 'verstt'];
+        // kirchw und verst ungültig gemacht: Verlegung in GetValue und HymnSelector
         sourcesToCheck.forEach(source => {
             const ordData = brevierData?.[source]?.['each'];
             const ordEvenData = brevierData?.[source]?.['even'];
@@ -207,7 +208,7 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         const shouldUseLast = (
             (season === 'a' && calendarDay > 16) ||
             (season === 'w' && calendarDay > 5 && calendarDay < 13) ||
-            (season === 'o' && (week > 6 || (week === 6 && dayOfWeek > 3)))
+            (season === 'o' && (week === 7 || (week === 6 && dayOfWeek > 3)))
         );
         if (shouldUseLast) {
             addLayer(season, 'last', 'each');

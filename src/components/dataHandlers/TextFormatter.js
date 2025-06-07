@@ -159,8 +159,7 @@ export const formatPrayerText = (provText, marker = '',
     marker = (marker === 'commemoration') ? '' : marker;
     let text = marker ? `^r${marker}^0r${provText}` : provText;
     text = text
-        .replace(/_lat/g, '')
-        .replace(/_neu/g, '')
+        .replace(/(_lat|_neu)/g, '')
         .replace(/\^RESP/g, easterAntiphon)
         .replace(/\^LRESP/g, latinEasterAntiphon)
         .replace(/°/g, '\u00A0')
@@ -171,7 +170,8 @@ export const formatPrayerText = (provText, marker = '',
         .replace(/(\w)–/g, '$1\u200C–')
         .replace(/–(\w)/g, '–\u200C$1')
         .replace(/([0-9])-([0-9])/g, '$1\u200C\u2013\u200C$2')
-        .replace(/>([aeiouæ])(\s)/g, '^k$1^0k$2')
+        .replace(/>([aeiouæ])(,;\s)/g, '^k$1^0k$2')
+        .replace(/\^([\(\)\[\]])/g, '^r$1^0r')
         .replace(/\^ö/g, season === 'o' ? ' Halleluja.' : '')
         .replace(/\^Ö/g, season === 'q' ? '' : ' Halleluja.')
         .replace(/\^Lö/g, season === 'o' ? ' Allelúia.' : '')
@@ -198,7 +198,6 @@ export const formatPrayerText = (provText, marker = '',
         .replace(/\^NakkB/g,
             getLocalStorage('bishopNameLat')
                 .replace(/i\b/g, 'em').replace(/o\b/g, 'um') || '^N')
-        .replace(/\^NH/g, '^N')
         .replace(/HERRN\b/g, '^cHerrn^0c')
         .replace(/HERR\b/g, '^cHerr^0c')
         .replace(/GOTT\b/g, '^cGott^0c');
@@ -228,10 +227,7 @@ export const formatPrayerText = (provText, marker = '',
                 vokativ.startsWith('Heilige ') ? 'gab ihr Weisheit' : match);
     }
 
-    text = text
-        .replace(/\^NOM/g, '^N')
-        .replace(/\^GEN/g, '^N')
-        .replace(/\^VOK/g, '^N');
+    text = text.replace(/\^(NOM|GEN|VOK|NH|N)/g, '^rN.^0r');
 
     let footnoteCounter = 0;
     const footnoteMap = new Map();
@@ -254,7 +250,7 @@ export const formatPrayerText = (provText, marker = '',
     const processInlineFormats = (text) => {
         text = text
             .replace(/\^l/g, '\n')
-        const segments = text.split(/(\^RUBR.*?\^0RUBR|\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^c.*?\^0c|\^k.*?\^0k|\^\(|\^\)|\^\[|\^\]|\^N|§FN\d+§)/g).filter(Boolean);
+        const segments = text.split(/(\^RUBR.*?\^0RUBR|\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^c.*?\^0c|\^k.*?\^0k|§FN\d+§)/g).filter(Boolean);
 
         return segments.map((segment, index) => {
             if (segment.startsWith('^r')) {
@@ -278,16 +274,6 @@ export const formatPrayerText = (provText, marker = '',
             } else if (segment.startsWith('^RUBR')) {
                 const content = segment.substring(5, segment.length - 6);
                 return <span key={`long-rubric-${index}`} className="long-rubric">{content}</span>;
-            } else if (segment === '^(') {
-                return <span key={`open-${index}`} className="text-rubric">(</span>;
-            } else if (segment === '^)') {
-                return <span key={`close-${index}`} className="text-rubric">)</span>;
-            } else if (segment === '^[') {
-                return <span key={`open-${index}`} className="text-rubric">[</span>;
-            } else if (segment === '^]') {
-                return <span key={`close-${index}`} className="text-rubric">]</span>;
-            } else if (segment === '^N') {
-                return <span key={`name-${index}`} className="text-rubric">N.</span>;
             } else if (segment.match(/^§FN\d+§$/)) {
                 const number = footnoteNumbers.get(segment);
                 const content = footnoteMap.get(segment);
