@@ -66,7 +66,7 @@ interface BrevierEntry {
   oration_komplet?: string;
   oration_lat?: string;
   oration_komplet_lat?: string;
-}
+  }
 
 interface BrevierData {
   [season: string]: {
@@ -14513,7 +14513,7 @@ export const brevierData = {
           "resp1": "Der Geist des Herrn erfüllt den Erdkreis.",
           "resp2": "Halleluja,°halleluja.",
           "resp3": "Er, der das All umfängt, kennt jede Sprache.",
-          "antev": "Heute sind die fünfzig Tage erfüllt. Heute erschien der Heilige Geist den Jüngern im Zeichen des Feuers. Heute schenkte er ihnen die Gaben der Gnade. Er sandte sie aus in die ganze Welt, zu predigen und zu bezeugen: Wer glaubt und sich taufen lässt, der wird gerettet. Halleluja, halleluja,halleluja.",
+          "antev": "Heute sind die fünfzig Tage erfüllt. Heute erschien der Heilige Geist den Jüngern im Zeichen des Feuers. Heute schenkte er ihnen die Gaben der Gnade. Er sandte sie aus in die ganze Welt, zu predigen und zu bezeugen: Wer glaubt und sich taufen lässt, der wird gerettet. Halleluja, halleluja,°halleluja.",
           "bitten_e": "Lasst uns beten zu Gott, dem Vater, der durch Christus seine Kirche im Heiligen Geist zusammenführt:",
           "bitten_r": "Sende aus deinen Geist und erneuere die Welt.",
           "bitten": "Gott und Vater aller, du berufst deine Kinder aus allen Völkern und Rassen;^qerleuchte die Berufenen mit der Gnade des Heiligen Geistes.^pDu willst alle Menschen, die Christi Namen tragen, durch die eine Taufe vereinigen;^qgib, dass die Glaubenden ein Herz und eine Seele sind.^pDu hast den Heiligen Geist über den ganzen Erdkreis ausgegossen;^qstehe allen bei, die sich um den Frieden der Erde mühen.^pDu machst alles neu durch den Heiligen Geist;^qgib den Kranken und Betrübten neue Kraft.^pDurch den Heiligen Geist hast du deinen Sohn von den Toten auferweckt;^qerwecke die Verstorbenen zum ewigen Leben.",
