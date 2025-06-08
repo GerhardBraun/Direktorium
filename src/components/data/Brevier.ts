@@ -5617,11 +5617,11 @@ export const brevierData = {
         "each": {
           "comm_1": "Apostel",
           "oration": "Gott, du hast den heiligen Barnabas, einen Mann voll des Glaubens und des Heiligen Geistes, als Boten des Evangeliums zu den Heiden gesandt. Berufe auch heute Männer und Frauen, die in Wort und Tat die Botschaft Jesu Christi verkünden,^ORR",
-          "oration_lat": ""
+          "oration_lat": "Deus, qui beátum Bárnabam, plenum fide et Spíritu Sancto, ad géntium conversiónem segregáre præcepísti, concéde, ut Evangélium Christi, quod strénue prædicávit, ore et ópere fidéliter nuntiétur.^ORlV"
         },
         "Invitatorium": {
           "ant0": "Durch Propheten und Lehrer hat Gottes Geist zu uns gesprochen; kommt, wir beten ihn an!^ö",
-          "ant0_lat": "Spíritum Sanctum, qui per prophétas et doctóres nobis locútus est, veníte, adorémus."
+          "ant0_lat": "Spíritum Sanctum, qui per prophétas et doctóres nobis locútus est, veníte, adorémus.^Lö"
         },
         "Lesehore": {
           "patr_autor": "Chromatius von Aquileia († 407)",
@@ -5630,6 +5630,9 @@ export const brevierData = {
           "patr_resp1": "Als Barnabas nach Antiochia kam und die Gnade Gottes erkannte, freute er sich;",
           "patr_resp2": "denn er war ein trefflicher Mann, erfüllt vom Heiligen Geist und reich an Glauben.",
           "patr_resp3": "Alle ermahnte er, dem Herrn treu zu bleiben.",
+          "hymn_1_lat": 8611.1,
+          "versikel0_lat": "Sustínuit ánima mea in verbo eius.",
+          "versikel1_lat": "Sperávit ánima mea in Dómino.",
           "patr_resp1_lat": "",
           "patr_resp2_lat": "",
           "patr_resp3_lat": ""
@@ -5647,14 +5650,15 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, der uns das unvergängliche Leben geoffenbart hat. Zu ihm lasst uns beten:",
           "bitten_r": "Stärke unseren Glauben.",
           "bitten": "Du hast deiner Kirche immer wieder heilige Menschen als Hirten geschenkt;^qsende deinen Gläubigen allezeit gute Seelsorger.^pDu hast den Hirten der Kirche den Dienst der Versöhnung anvertraut;^qgib, dass sie ihn treu verwalten.^pDu bist es, der den Seelsorgern Kraft von oben verleiht;^qerfülle alle, die dein Volk führen, mit Heiligem Geist.^pDu selber bist das Erbteil aller, die du zu Seelsorgern berufen hast;^qlass keinen von ihnen verlorengehen.^pDu bist der ewige Lohn deiner Diener;^qschenke den verstorbenen Seelsorgern und allen Gläubigen das ewige Leben.",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 8611.2,
+          "resp1_lat": "Narravérunt laudes Dómini",
+          "resp2_lat": "Et virtútes eius.",
+          "resp3_lat": "Et mirabília eius, quæ fecit.",
+          "antev_lat": "Proféctus est Bárnabas Tarsum, ut quǽreret Saulum; quem cum invenísset, perdúxit Antiochíam; et conversáti sunt ibi in Ecclésia, et docuérunt turbam multam.^Lö",
+          "bitten_e_lat": "Salvatórem nostrum, qui, mortem déstruens, illuminávit vitam et incorruptiónem per Evangélium, dignis láudibus celebrémus, humíliter deprecántes:",
+          "bitten_r_lat": "Ecclésiam tuam in fide et caritáte confírma.",
+          "bitten_lat": "Qui Ecclésiam tuam per sanctos et exímios doctóres mirabíliter illustrásti,^qfac ut christiáni eódem semper lætificéntur splendóre.^pQui, cum sancti te pastóres sicut Móyses orárent, pópuli peccáta dimisísti,^qper intercessiónem eórum Ecclésiam tuam contínua purificatióne sanctífica.^pQui sanctos tuos unxísti in médio fratrum et Spíritum tuum in illos direxísti,^qreple Spíritu Sancto omnes pópuli tui rectóres.^pQui pastórum sanctórum ipse posséssio exstitísti,^qtríbue nullum ex iis, quos sánguine acquisísti, sine te manére.",
+          "les_text_lat": "Notum vobis fácio, fratres, evangélium, quod evangelizávi vobis, quod et accepístis, in quo et statis, per quod et salvámini. Trádidi enim vobis in primis, quod et accépi, quóniam Christus mórtuus est pro peccátis nostris secúndum Scriptúras et quia sepúltus est et quia suscitátus est tértia die secúndum Scriptúras."
         },
         "Terz": {
           "les_buch": "Röm",
@@ -5662,9 +5666,9 @@ export const brevierData = {
           "les_text": "Ich schäme mich des Evangeliums nicht: es ist eine Kraft Gottes, die jeden rettet, der glaubt, zuerst den Juden, aber ebenso den Griechen. Denn im Evangelium wird die Gerechtigkeit Gottes offenbart aus Glauben zum Glauben, wie in der Schrift steht: Der aus Glauben Gerechte wird leben.",
           "resp0": "Ihre Botschaft geht hinaus in die ganze Welt.^ö",
           "resp1": "Ihre Kunde bis zu den Enden der Erde.^ö",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "resp0_lat": "In omnem terram exívit sonus eórum.",
+          "resp1_lat": "Et in fines orbis terræ verba eórum.",
+          "les_text_lat": "Non erubésco evangélium: virtus enim Dei est in salútem omni credénti, Iudǽo primum et Græco. Iustítia enim Dei in eo revelátur ex fide in fidem, sicut scriptum est: Iustus autem ex fide vivet."
         },
         "Sext": {
           "les_buch": "1°Thess",
@@ -5672,9 +5676,9 @@ export const brevierData = {
           "les_text": "Im Vertrauen auf unseren Gott haben wir das Evangelium Gottes trotz harter Kämpfe freimütig und furchtlos bei euch verkündigt. Denn wir predigen nicht, um euch irrezuführen, in schmutziger Absicht auszunutzen oder zu betrügen, sondern wir tun es, weil Gott uns geprüft und uns das Evangelium anvertraut hat, nicht also um den Menschen, sondern um Gott zu gefallen, der unsere Herzen prüft.",
           "resp0": "Sie hielten fest am Zeugnis Gottes.^ö",
           "resp1": "Und bewahrten seine Gebote.^ö",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "resp0_lat": "Custodiébant testimónia Dei.",
+          "resp1_lat": "Et præcépta eius.",
+          "les_text_lat": "Fidúciam habúimus in Deo nostro loqui ad vos evangélium Dei in multa sollicitúdine. Exhortátio enim nostra non ex erróre neque ex immundítia neque in dolo, sed sicut probáti sumus a Deo, ut crederétur nobis evangélium, ita lóquimur non quasi homínibus placéntes sed Deo."
         },
         "Non": {
           "les_buch": "2°Tim",
@@ -5683,9 +5687,9 @@ export const brevierData = {
           "les_text_neu": "›Leide mit mir für das Evangelium! Gott gibt dazu die Kraft: Er hat uns gerettet; mit einem heiligen Ruf hat er uns gerufen, nicht aufgrund unserer Taten, sondern aus eigenem Entschluss und aus Gnade, die uns schon vor ewigen Zeiten in Christus Jesus geschenkt wurde.",
           "resp0": "So spricht der Herr: Freut euch und jubelt,^ö",
           "resp1": "Denn eure Namen sind im Himmel verzeichnet.^ö",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "resp0_lat": "Gaudéte et exsultáte.",
+          "resp1_lat": "Quia nómina vestra scripta sunt in cælis.",
+          "les_text_lat": "Collábora evangélio secúndum virtútem Dei, qui nos salvos fecit et vocávit vocatióne sancta, non secúndum ópera nostra sed secúndum propósitum suum et grátiam, quæ data est nobis in Christo Iesu."
         },
         "Vesper": {
           "les_buch": "Kol",
@@ -5695,18 +5699,21 @@ export const brevierData = {
           "bitten_e": "Lasst uns zu Jesus Christus beten, der seine Jünger ausgesandt hat als Boten seiner Wahrheit und Liebe:",
           "bitten_r": "Herr, gedenke deiner Kirche.",
           "bitten": "Du hast die Jünger ausgesandt als Zeugen deiner Auferstehung;^qsteh den Bischöfen bei, die du als ihre Nachfolger berufen hast.^pDu hast den Jüngern den Auftrag gegeben, den Samen des Wortes auszusäen;^qhilf den Predigern, den apostolischen Glauben treu zu verkünden.^pDu hast den Jüngern befohlen, allen Menschen dein Reich zu verkünden;^qgedenke aller, die auf deinen Namen getauft sind.^pDu hast den Jüngern den Dienst der Versöhnung aufgetragen;^qlass alle, die ihre Sünden bekennen, deinen Trost erfahren.^pDu hast denen dein Reich verheißen, die an deine Botschaft glauben;^qnimm unsere Verstorbenen auf in das neue Jerusalem.",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 8611.2,
+          "resp1_lat": "Annuntiáte inter gentes",
+          "resp2_lat": "Glóriam Dómini.",
+          "resp3_lat": "In ómnibus pópulis mirabília eius.",
+          "antev_lat": "Tácuit omnis multitúdo, et audiébant Bárnabam et Paulum narrántes quanta Deus fecísset signa et prodígia in géntibus per eos.^Lö",
+          "bitten_e_lat": "Deus, Pater lúminum, ad fidem veritátis nos vocávit per Evangélium Fílii sui. Eum deprecémur pro pópulo sancto eius, dicéntes:",
+          "bitten_r_lat": "Recordáre Ecclésiæ tuæ, Dómine.",
+          "bitten_lat": "Pater, qui Fílium tuum, pastórem magnum óvium, de mórtuis eduxísti,^qpræsta, ut eius testes simus usque ad últimum terræ.^pQui Fílium tuum misísti in mundum evangelizáre paupéribus,^qda, ut omni creatúræ Evangélium prædicétur.^pQui tuum misísti Fílium semináre semen verbi,^qconcéde, ut, verbum seminántes cum labóre, fruges metámus in gáudio.^pQui Fílium tuum misísti reconciliáre tibi mundum per sánguinem suum,^qtríbue, ut ad reconciliatiónem omnes cooperémur.^pQui Fílium tuum ad déxteram tuam in cæléstibus constituísti,^qdefúnctos in regnum beatitúdinis admítte.",
+          "les_text_lat": "Grátias ágimus Deo Patri Dómini nostri Iesu Christi semper pro vobis orántes, audiéntes fidem vestram in Christo Iesu et dilectiónem, quam habétis in sanctos omnes, propter spem, quæ repósita est vobis in cælis, quam ante audístis in verbo veritátis evangélii, quod pervénit ad vos, sicut et in univérso mundo est fructíficans et crescens."
         }
       },
       "24": {
         "each": {
           "comm_1": "Mann",
-          "oration": "Gott, du hast den heiligen Johannes den Täufer berufen, das Volk des Alten Bundes Christus, seinem Erlöser, entgegen­zuführen. Schenke deiner Kirche die Freude im Heiligen Geist und führe alle, die an dich glauben, auf dem Weg des Heiles und des Friedens.^ORV",
-          "oration_lat": ""
+          "oration": "Gott, du hast den heiligen Johannes den Täufer berufen, das Volk des Alten Bundes Christus, seinem Erlöser, entgegen­zuführen. Schenke deiner Kirche die Freude im Heiligen Geist und führe alle, die an dich glauben, auf dem Weg des Heiles und des Friedens.^ORV"
         },
         "ErsteV": {
           "button": "1. Vesper zum Hochfest",

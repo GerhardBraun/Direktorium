@@ -2812,7 +2812,8 @@ export const adlibData = {
       "n1": {
         "ErsteV": {
           "comm_1": "Hirten_Kl",
-          "oration": "Erhabener Gott, wir begehen den Gedächtnistag des heiligen Diakons Ephräm. Erfüllt vom Heiligen Geist, hat er in Hymnen und Liedern deine Größe besungen. Gib auch uns deinen Geist, damit wir dich loben und dir mit ganzer Hingabe dienen.^ORV"
+          "oration": "Erhabener Gott, wir begehen den Gedächtnistag des heiligen Diakons Ephräm. Erfüllt vom Heiligen Geist, hat er in Hymnen und Liedern deine Größe besungen. Gib auch uns deinen Geist, damit wir dich loben und dir mit ganzer Hingabe dienen.^ORV",
+          "oration_lat": "Córdibus nostris, quǽsumus, Dómine, Spíritum Sanctum benígnus infúnde, cuius afflátu beátus Ephræm diáconus in tuis mystériis decantándis exsultávit, eiúsque virtúte tibi soli desérviit.^ORlV"
         },
         "Lesehore": {
           "comm_1": "Hirten_Kl",
@@ -2822,18 +2823,21 @@ export const adlibData = {
           "patr_resp1": "Von ganzem Herzen lobte er den Herrn und liebte Gott, den Schöpfer;",
           "patr_resp2": "er stellte Sänger vor den Altar und gab ihrer Stimme süße Weisen.^ö",
           "patr_resp3": "Schon vor dem Morgen hallte das Heiligtum wider vom Lobpreis seines heiligen Namens.",
-          "oration": "Erhabener Gott, wir begehen den Gedächtnistag des heiligen Diakons Ephräm. Erfüllt vom Heiligen Geist, hat er in Hymnen und Liedern deine Größe besungen. Gib auch uns deinen Geist, damit wir dich loben und dir mit ganzer Hingabe dienen.^ORV"
+          "oration": "Erhabener Gott, wir begehen den Gedächtnistag des heiligen Diakons Ephräm. Erfüllt vom Heiligen Geist, hat er in Hymnen und Liedern deine Größe besungen. Gib auch uns deinen Geist, damit wir dich loben und dir mit ganzer Hingabe dienen.^ORV",
+          "oration_lat": "Córdibus nostris, quǽsumus, Dómine, Spíritum Sanctum benígnus infúnde, cuius afflátu beátus Ephræm diáconus in tuis mystériis decantándis exsultávit, eiúsque virtúte tibi soli desérviit.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Ephräm der Syrer",
           "genitiv": "des heiligen Ephräm",
           "vokativ": "Heiliger Ephräm",
           "comm_1": "Hirten_Kl",
-          "oration": "Erhabener Gott, wir begehen den Gedächtnistag des heiligen Diakons Ephräm. Erfüllt vom Heiligen Geist, hat er in Hymnen und Liedern deine Größe besungen. Gib auch uns deinen Geist, damit wir dich loben und dir mit ganzer Hingabe dienen.^ORV"
+          "oration": "Erhabener Gott, wir begehen den Gedächtnistag des heiligen Diakons Ephräm. Erfüllt vom Heiligen Geist, hat er in Hymnen und Liedern deine Größe besungen. Gib auch uns deinen Geist, damit wir dich loben und dir mit ganzer Hingabe dienen.^ORV",
+          "oration_lat": "Córdibus nostris, quǽsumus, Dómine, Spíritum Sanctum benígnus infúnde, cuius afflátu beátus Ephræm diáconus in tuis mystériis decantándis exsultávit, eiúsque virtúte tibi soli desérviit.^ORlV"
         },
         "Vesper": {
           "comm_1": "Hirten_Kl",
-          "oration": "Erhabener Gott, wir begehen den Gedächtnistag des heiligen Diakons Ephräm. Erfüllt vom Heiligen Geist, hat er in Hymnen und Liedern deine Größe besungen. Gib auch uns deinen Geist, damit wir dich loben und dir mit ganzer Hingabe dienen.^ORV"
+          "oration": "Erhabener Gott, wir begehen den Gedächtnistag des heiligen Diakons Ephräm. Erfüllt vom Heiligen Geist, hat er in Hymnen und Liedern deine Größe besungen. Gib auch uns deinen Geist, damit wir dich loben und dir mit ganzer Hingabe dienen.^ORV",
+          "oration_lat": "Córdibus nostris, quǽsumus, Dómine, Spíritum Sanctum benígnus infúnde, cuius afflátu beátus Ephræm diáconus in tuis mystériis decantándis exsultávit, eiúsque virtúte tibi soli desérviit.^ORlV"
         }
       }
     },

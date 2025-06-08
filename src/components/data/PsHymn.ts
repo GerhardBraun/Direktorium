@@ -4617,6 +4617,18 @@ export const psalmsData = {
         "text": "^RUBR2. Teil des in Lesehore bzw. Laudes begonnenen Hymnus:^0RUBR^lDu lehrst, dass Gott in Christus Mensch geworden,^lder aus Erbarmen alle Schuld^lder Welt durch seinen Tod gesühnt.^lDoch solchen Gott verlachen deine Hörer.^pDu gibst nicht auf, bis dass dein Glaubenszeugnis^lmit Gottes Gnade sie bekehrt.^lDich schreckt nicht die Gefahr. Du willst^lzu ihrem Heil dem Herrn dein Leben opfern.^pGott nimmt dein Opfer an, schenkt dir die Krone.^lDein Leichnam kehrt nach Fulda heim,^lwie lebend du geboten hast.^lUnschätzbares Vermächtnis deiner Liebe!^pSchau unsre Heimat, Vater, wo du einstens^lHerd und Altar gegründet hast.^lSchau, himmlischer Patron, auf uns,^lerhalt uns deinen Geist und festen Glauben!^pLob, Dank und Anbetung sei stets erwiesen^ldem einen und dreifalt’gen Gott.^lEr führe uns zum ew’gen Heil^lauf unsres sel’gen Vaters fromme Bitten. Amen."
       }
   },
+  8611: {
+    1.0: {
+        "quote": "Hl. Barnabas Lesehore",
+        "title_lat": "O vir beáte, Apóstolis",
+        "text_lat": "O vir beát>e, Apóstolis^lcomes labórum sédule^ladiútor atque múneris,^llaudes precésque súscipe.^pChristi per illos núntios^lexórta sunt lætíssima^let veritátis sǽcula^let pacis atque gáudii.^pAssúmptus et tu cǽlitus^lad tanta consors póndera,^lcompar nitéscis glória^lpotentiáque prómines.^pTu, seminátor lúminis,^lfac sole Christi vívido^lvirér>e ubíque gérmina^lcæli replénd>a ad hórrea.^pSimúlque cum primóribus^lsumm>o astitúrus Iúdici,^lda nostra solvi débita,^lnos da fovéri grátia.^pSit Trinitáti glória,^lquæ præstet in cæléstibus^lnos eius omni témpore^lgaudére tecum prǽmiis."
+      },
+    2.0: {
+        "quote": "Hl. Barnabas Ld und Vp",
+        "title_lat": "Bárnabæ clarum cólimus tropǽum",
+        "text_lat": "Bárnabæ clarum cólimus tropǽum,^lquo micat celsus mérita coróna,^lmulta pro Christi veheménter usque^lpassus amóre.^pAbdicans agro, generósus urget^lut, fide vivax ope caritátis,^lnóminis plebes nova christiáni^llæta viréscat.^pQuam libens noscit, petit atque defert^lmáximum Paulum, sócio labóre^lSpíritus nutu péragrans fidélis^llítora multa!^pNil sibi parcit cupidúsque Christo^lplúrimos affert, bonus atque pascit,^ldonec effúso rútila probátur^lsánguine palma.^pDa, Deus, tanto fámulo rogánte,^lnos sequi fortes iter ad salútem,^lut dom>o ætérna tibi concinámus^lcántica laudis."
+      }
+  },
   8624: {
     1.0: {
         "title": "Christus, dem Herren, dientest du als Herold",
