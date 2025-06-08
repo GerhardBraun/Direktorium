@@ -2791,7 +2791,7 @@ export const adlibData = {
           "oration_lat": "Maiestátis tuæ cleméntiam supplíciter deprecámur, omnípotens et miséricors Deus, ut, sicut Unigéniti tui agnitiónem per beatórum mártyrum Eóbani, Adelárii aliorúmque sancti Bonifátii sociórum prædicatiónem populórum córdibus infudísti, ita eórum intercessióne fídei stabilitáte firméntur.^ORlV"
         },
         "Laudes": {
-          "button": "Hll. Eoban, Adelar und übrige Gefährten des hl. Bonifatius",
+          "button": "Hll. Eoban, Adelar und übrige°Gefährten des°hl.°Bonifatius",
           "farbe": "r",
           "comm_1": "MärtPl",
           "antev": "Die mit dem heiligen Bonifatius die Saat des ewigen Lebens ausstreuten, waren ein Herz und eine Seele und erlangten vereint die eine Palme des Martyriums.",

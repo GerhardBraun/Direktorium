@@ -25,6 +25,10 @@ const getWeekdayButtonColor = (season) => {
     }
 };
 
+const formatText = (text) => {
+    return text.replace(/°/g, '\u00a0')
+}
+
 const SourceSelector = ({
     texts,
     prefSrc, setPrefSrc,
@@ -94,7 +98,7 @@ const SourceSelector = ({
 
             {texts.laudes?.wt?.button && !hasEig && (
                 <div className="text-center text-xl font-bold text-gray-900 dark:text-gray-100">
-                    {texts.laudes.wt.button}
+                    {formatText(texts.laudes.wt.button)}
                 </div>
             )}
             {/* Weekday Button */}
@@ -130,7 +134,7 @@ const SourceSelector = ({
                                     ${getButtonColor(texts, source)}
                                     ${(doUnderline) ? 'ring-2 ring-yellow-500' : ''}`}
                     >
-                        {texts.laudes[source].button || "ein Heiliger"}
+                        {formatText(texts.laudes[source].button) || "ein Heiliger"}
                     </button>
                 );
             })}

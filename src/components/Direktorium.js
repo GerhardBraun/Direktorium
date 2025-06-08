@@ -11,6 +11,7 @@ import formatBibleRef from "./dataHandlers/BibleRefFormatter.js";
 import {
   Tooltip, TooltipContent, TooltipProvider, TooltipTrigger,
 } from "./ui/tooltip.jsx";
+import LanguageProgress, { languageProgress } from "./ui/languageProgress.js";
 import SourceSelector from "./selectors/SourceSelector.js";
 import { SectionHeader as extSectionHeader } from "./selectors/SectionHeader.js";
 import KompletSelector from "./selectors/KompletSelector.js";
@@ -1341,7 +1342,7 @@ const PrayerTextDisplay = ({
     return extFormatPsalm(psalm, inv, localPrefLanguage);
   };
 
-  const PrayerResponse = ({ resp0, resp1, resp2, resp3 }) => {
+  const ComposeResponse = ({ resp0, resp1, resp2, resp3 }) => {
     const formatSecondResponse = (firstResp, secondResp) => {
       if (!firstResp || !secondResp) return secondResp;
 
@@ -1608,7 +1609,7 @@ const PrayerTextDisplay = ({
         {getValue("resp1") && (
           <div className="mb-0 whitespace-pre-wrap">
             <SectionHeader title="RESPONSORIUM" field="resp1" />
-            <PrayerResponse
+            <ComposeResponse
               resp0={getValue("resp0")}
               resp1={getValue("resp1")}
               resp2={getValue("resp2")}
@@ -1637,7 +1638,7 @@ const PrayerTextDisplay = ({
         {getValue("patr_resp1") && (
           <div className="mb-0">
             <SectionHeader title="RESPONSORIUM" field="resp1" />
-            <PrayerResponse
+            <ComposeResponse
               resp0={null}
               resp1={getValue("patr_resp1")}
               resp2={getValue("patr_resp2")}
@@ -1660,9 +1661,9 @@ const PrayerTextDisplay = ({
                 ))}
               </div>
             </div>
-            {/* Drei PrayerResponse-Abschnitte */}
+            {/* Drei ComposeResponse-Abschnitte */}
             {advVers.slice(0, 3).map((versText, index) => (
-              <PrayerResponse
+              <ComposeResponse
                 key={`prayer-response-${index}`}
                 resp3={versText}
                 resp2={advResp[index + 1]}
@@ -1856,7 +1857,7 @@ const PrayerTextDisplay = ({
               {getValue("c_patr_resp1") && useCommemoration && (
                 <div className="mb-0">
                   <SectionHeader title="RESPONSORIUM" field="resp1" />
-                  <PrayerResponse
+                  <ComposeResponse
                     resp0={null}
                     resp1={getValue("c_patr_resp1")}
                     resp2={getValue("c_patr_resp2")}
@@ -2761,9 +2762,7 @@ export default function LiturgicalCalendar() {
                 Sprache/Übersetzung <span className="text-xs text-gray-400 ml-2">(←/→)</span>
               </div>
               <div className="mb-2 text-xs text-gray-500 dark:text-gray-400">
-                <div className="mb-1 italic">
-                  Der Bestand der Texte für die alternativen Sprachen wird nach und nach aufgebaut. Wo diese noch fehlen, werden die Texte aus dem Stundenbuch angezeigt.
-                </div>
+                <LanguageProgress />
                 {renderDescriptionItem("Stundenbuch:", "Einheitsübersetzung von 1983")}
                 {renderDescriptionItem("lat.:", "Nova Vulgata", 4)}
                 {renderDescriptionItem("neu:", "Einheitsübersetzung von 2016", 3)}              </div>
