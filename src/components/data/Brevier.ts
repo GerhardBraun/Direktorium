@@ -66,7 +66,7 @@ interface BrevierEntry {
   oration_komplet?: string;
   oration_lat?: string;
   oration_komplet_lat?: string;
-  }
+}
 
 interface BrevierData {
   [season: string]: {
@@ -14458,7 +14458,7 @@ export const brevierData = {
           "les_text": "Durch den einen Geist wurden wir in der Taufe alle in einen einzigen Leib aufgenommen, Juden und Griechen, Sklaven und Freie; und alle wurden wir mit dem einen Geist getränkt.",
           "resp0": "Der Beistand, den der Vater senden wird.^ö",
           "resp1": "Er wird euch alles lehren.^ö",
-          "oration": "Allmächtiger Gott, der Glanz deiner Herrlichkeit strahle über uns auf, und Christus, das Licht von deinem Licht, erleuchte die Herzen aller Getauften und stärke sie durch den Heiligen Geist.ÔRV",
+          "oration": "Allmächtiger Gott, der Glanz deiner Herrlichkeit strahle über uns auf, und Christus, das Licht von deinem Licht, erleuchte die Herzen aller Getauften und stärke sie durch den Heiligen Geist.^ORV",
           "hymn_1_lat": 3438.1,
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
@@ -14475,7 +14475,7 @@ export const brevierData = {
           "les_text": "Gott hat uns gerettet durch das Bad der Wiedergeburt und der Erneuerung im Heiligen Geist. Ihn hat er in reichem Maß über uns ausgegossen durch Jesus Christus, unseren Retter, damit wir durch seine Gnade gerecht gemacht werden und das ewige Leben erben, das wir erhoffen.",
           "resp0": "Der Heilige Geist wird euch alles lehren.^ö",
           "resp1": "An alles, was ich euch sagte, wird er euch erinnern.^ö",
-          "oration": "Allmächtiger Gott, der Glanz deiner Herrlichkeit strahle über uns auf, und Christus, das Licht von deinem Licht, erleuchte die Herzen aller Getauften und stärke sie durch den Heiligen Geist.ÔRV",
+          "oration": "Allmächtiger Gott, der Glanz deiner Herrlichkeit strahle über uns auf, und Christus, das Licht von deinem Licht, erleuchte die Herzen aller Getauften und stärke sie durch den Heiligen Geist.^ORV",
           "ant0_lat": "Auge in nobis, Dómine, fidem tuam, et Spíritus Sancti lucem in nos semper accénde.^Lö",
           "resp0_lat": "Spíritus Sanctus docébit vos.^Lö",
           "resp1_lat": "Quæcúmque díxero vobis.^Lö",
@@ -14489,7 +14489,7 @@ export const brevierData = {
           "les_text": "Gott, der uns und euch in der Treue zu Christus festigt und der uns alle gesalbt hat, er ist es auch, der uns sein Siegel aufgedrückt und als ersten Anteil (am verheißenen Heil) den Geist in unser Herz gegeben hat.",
           "resp0": "Die Apostel redeten in vielerlei Sprachen.^ö",
           "resp1": "Und verkündeten Gottes große Taten.^ö",
-          "oration": "Allmächtiger Gott, der Glanz deiner Herrlichkeit strahle über uns auf, und Christus, das Licht von deinem Licht, erleuchte die Herzen aller Getauften und stärke sie durch den Heiligen Geist.ÔRV",
+          "oration": "Allmächtiger Gott, der Glanz deiner Herrlichkeit strahle über uns auf, und Christus, das Licht von deinem Licht, erleuchte die Herzen aller Getauften und stärke sie durch den Heiligen Geist.^ORV",
           "ant0_lat": "Non enim vos estis, qui loquímini, sed Spíritus Patris vestri, qui lóquitur in vobis.^Lö",
           "resp0_lat": "Loquebántur váriis linguis Apóstoli.^Lö",
           "resp1_lat": "Magnália Dei.^Lö",
