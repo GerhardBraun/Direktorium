@@ -13,6 +13,7 @@ interface BrevierEntry {
   hymn_2_lat?: number;
   hymn_3_lat?: number;
   hymn_nacht?: number;
+  hymn_nacht_lat?: number;
   hymn_kl?: number;
   psalm1?: number;
   psalm2?: number;
@@ -1322,6 +1323,7 @@ export const brevierData = {
           "resp3": "Euch ist es gegeben, die Geheimnisse des Himmelreiches zu erkennen. Selig seid ihr, denn eure Augen sehen und eure Ohren hören.",
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
+          "hymn_nacht_lat": 0.0,
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
@@ -1561,6 +1563,7 @@ export const brevierData = {
           "patr_resp3": "",
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
+          "hymn_nacht_lat": 0.0,
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
@@ -1802,6 +1805,7 @@ export const brevierData = {
           "patr_resp3": "",
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
+          "hymn_nacht_lat": 0.0,
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
@@ -1985,7 +1989,8 @@ export const brevierData = {
           "hymn_3": 0.0,
           "hymn_nacht": 0.0,
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0
+          "hymn_3_lat": 0.0,
+          "hymn_nacht_lat": 0.0
         },
         "Laudes": {
           "button": "Kl",
@@ -2092,6 +2097,7 @@ export const brevierData = {
           "patr_resp3": "",
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
+          "hymn_nacht_lat": 0.0,
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
@@ -2555,6 +2561,7 @@ export const brevierData = {
           "patr_resp3": "",
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
+          "hymn_nacht_lat": 0.0,
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
@@ -2802,6 +2809,7 @@ export const brevierData = {
           "ant3": "Herrliches sagt man von dir, Jungfrau Maria.^ö",
           "versikel0": "Selig, die das Wort Gottes hören.^ö",
           "versikel1": "Und es befolgen.^ö",
+          "hymn_nacht_lat": 0.0,
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
@@ -2994,6 +3002,7 @@ export const brevierData = {
           "patr_resp3": "Wir wollen uns wappnen mit aller Kraft und uns zum Kampf rüsten mit lauterem Geist, zuversichtlichem Glauben und liebender Tugend.",
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
+          "hymn_nacht_lat": 0.0,
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
@@ -3210,6 +3219,7 @@ export const brevierData = {
           "patr_resp3": "Wir wollen uns wappnen mit aller Kraft und uns zum Kampf rüsten mit lauterem Geist, zuversichtlichem Glauben und liebender Tugend.",
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
+          "hymn_nacht_lat": 0.0,
           "resp1_lat": "",
           "resp2_lat": "",
           "resp3_lat": "",
@@ -3318,6 +3328,7 @@ export const brevierData = {
           "patr_resp3": "Wir wollen uns wappnen mit aller Kraft und uns zum Kampf rüsten mit lauterem Geist, zuversichtlichem Glauben und liebender Tugend.",
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
+          "hymn_nacht_lat": 0.0,
           "resp1_lat": "",
           "resp2_lat": "",
           "resp3_lat": "",
@@ -3396,6 +3407,7 @@ export const brevierData = {
           "patr_resp3": "Ich sehe alles als Verlust an, weil die Erkenntnis Christi Jesu, meines Herrn, alles übertrifft. Christus will ich erkennen und die Gemeinschaft mit seinen Leiden; sein Tod soll mich prägen.",
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
+          "hymn_nacht_lat": 0.0,
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
@@ -3649,6 +3661,7 @@ export const brevierData = {
           "resp3": "Bis zum Tode setze dich ein für das Recht, dann wird der Herr für dich kämpfen.",
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
+          "hymn_nacht_lat": 0.0,
           "resp1_lat": "",
           "resp2_lat": "",
           "resp3_lat": "",
@@ -3748,6 +3761,7 @@ export const brevierData = {
           "resp3": "Ich will jubeln und mich freuen über deine Huld.",
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
+          "hymn_nacht_lat": 0.0,
           "resp1_lat": "",
           "resp2_lat": "",
           "resp3_lat": "",
@@ -3832,7 +3846,8 @@ export const brevierData = {
           "hymn_2": 1248.0,
           "hymn_3": 0.0,
           "hymn_nacht": 0.0,
-          "hymn_3_lat": 0.0
+          "hymn_3_lat": 0.0,
+          "hymn_nacht_lat": 0.0
         },
         "Laudes": {
           "button": "Ord",
@@ -4262,6 +4277,7 @@ export const brevierData = {
           "patr_resp1": "Ich habe bei Gott Erbarmen gefunden, weil ich in meinem Unglauben nicht wusste, was ich tat.",
           "patr_resp2": "Übergroß war die Gnade unseres Herrn, die mir den Glauben und die Liebe schenkte.",
           "patr_resp3": "Ich bin nicht wert, Apostel genannt zu werden.",
+          "hymn_nacht_lat": 0.0,
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
@@ -4441,6 +4457,7 @@ export const brevierData = {
           "patr_resp1": "Die Herrlichkeit des Herrn kam in den Tempel,",
           "patr_resp2": "und das Haus Gottes wurde erfüllt von Herrlichkeit.",
           "patr_resp3": "Die Eltern brachten den Knaben Jesus in den Tempel.",
+          "hymn_nacht_lat": 0.0,
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
@@ -4574,6 +4591,7 @@ export const brevierData = {
           "patr_resp1": "Wenn einer meint, er sei zur Erkenntnis gelangt, hat er noch nicht so erkannt, wie man erkennen muss.",
           "patr_resp2": "Wer aber Gott liebt, der ist von ihm erkannt.",
           "patr_resp3": "Wer nicht liebt, hat Gott nicht erkannt; denn Gott ist die Liebe.",
+          "hymn_nacht_lat": 0.0,
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
@@ -4936,6 +4954,7 @@ export const brevierData = {
           "patr_resp3": "Der Herr wurde mir Helfer und Beschützer zum Heil.",
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
+          "hymn_nacht_lat": 0.0,
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
@@ -5123,6 +5142,7 @@ export const brevierData = {
           "patr_resp3": "Sie werden dich nennen „die Gesegnete unter den Frauen“.",
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
+          "hymn_nacht_lat": 0.0,
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
@@ -7178,6 +7198,7 @@ export const brevierData = {
           "patr_resp1": "Dein Kreuz, o Herr, verehren wir, und deine heilige Auferstehung preisen und rühmen wir:",
           "patr_resp2": "Denn siehe, durch das Holz des Kreuzes kam Freude in alle Welt.",
           "patr_resp3": "Gott sei uns gnädig und segne uns. Er lasse sein Angesicht über uns leuchten und erbarme sich unser.",
+          "hymn_nacht_lat": 0.0,
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
@@ -7712,6 +7733,7 @@ export const brevierData = {
           "patr_resp1": "Seine Engel bietet er auf für dich, dich zu behüten auf all deinen Wegen.",
           "patr_resp2": "Auf Händen werden sie dich tragen, damit dein Fuß an keinen Stein stößt.",
           "patr_resp3": "Kein Unheil wird dir begegnen, deinem Zelt keine Plage sich nahen.",
+          "hymn_nacht_lat": 0.0,
           "patr_resp1_lat": "",
           "patr_resp2_lat": "",
           "patr_resp3_lat": ""
@@ -9172,6 +9194,7 @@ export const brevierData = {
           "patr_resp1": "Gestern wurde der Herr auf Erden geboren,",
           "patr_resp2": "damit Stephanus heute für den Himmel geboren wird.",
           "patr_resp3": "Gestern ging unser König aus dem Schoß der Jungfrau hervor und besuchte in Gnaden die Welt.",
+          "hymn_nacht_lat": 0.0,
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
@@ -9382,7 +9405,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Allmächtiger, ewiger Gott, bei der Taufe im Jordan kam der Heilige Geist auf unseren Herrn Jesus Christus herab, und du hast ihn als deinen geliebten Sohn geoffenbart. Gib, dass auch wir, die aus dem Wasser und dem Heiligen Geist wiedergeboren sind, in deinem Wohlgefallen stehen und als deine Kinder aus der Fülle dieses Geistes leben.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Vota, quǽsumus, Dómine, supplicántis pópuli cælésti pietáte proséquere, ut et quæ agénda sunt videant, et ad implénda quæ víderint convaléscant.^ORlV"
         },
         "ErsteV": {
           "hymn_1": 3229.0,
@@ -9573,7 +9596,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Herr, unser Gott, wir haben uns im Namen deines Sohnes versammelt und rufen zu dir: Erhöre die Bitten deines Volkes, mach uns hellhörig für unseren Auftrag in dieser Zeit und gib uns die Kraft, ihn zu erfüllen.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Vota, quǽsumus, Dómine, supplicántis pópuli cælésti pietáte proséquere, ut et quæ agénda sunt videant, et ad implénda quæ víderint convaléscant.^ORlV"
         }
       }
     },
@@ -9581,7 +9604,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Allmächtiger Gott, du gebietest über Himmel und Erde, du hast Macht über die Herzen der Menschen. Darum kommen wir voll Vertrauen zu dir; stärke alle, die sich um die Gerechtigkeit mühen, und schenke unserer Zeit deinen Frieden.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Omnípotens sempitérne Deus, qui cæléstia simul et terréna moderáris, supplicatiónes pópuli tui cleménter exáudi, et pacem tuam nostris concéde tempóribus.^ORlV"
         },
         "ErsteV": {
           "anta": "Ich mache dich zum Licht für alle Völker; trage mein Heil bis an die Enden der Erde.",
@@ -9613,7 +9636,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Allmächtiger Gott, du gebietest über Himmel und Erde, du hast Macht über die Herzen der Menschen. Darum kommen wir voll Vertrauen zu dir; stärke alle, die sich um die Gerechtigkeit mühen, und schenke unserer Zeit deinen Frieden.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Omnípotens sempitérne Deus, qui cæléstia simul et terréna moderáris, supplicatiónes pópuli tui cleménter exáudi, et pacem tuam nostris concéde tempóribus.^ORlV"
         }
       }
     },
@@ -9621,7 +9644,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Allmächtiger, ewiger Gott, lenke unser Tun nach deinem Willen und gib, dass wir im Namen deines geliebten Sohnes reich werden an guten Werken.^ORvR",
-          "oration_lat": ""
+          "oration_lat": "Omnípotens sempitérne Deus, dírige actus nostros in beneplácito tuo, ut in nómine dilécti Fílii tui mereámur bonis opéribus abundáre.^ORlV"
         },
         "ErsteV": {
           "anta": "Das Volk inmitten der Völker sieht ein helles Licht; für jene, die in Finsternis wohnen, strahlt ein Licht auf.",
@@ -9653,7 +9676,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Allmächtiger, ewiger Gott, lenke unser Tun nach deinem Willen und gib, dass wir im Namen deines geliebten Sohnes reich werden an guten Werken.^ORvR",
-          "oration_lat": ""
+          "oration_lat": "Omnípotens sempitérne Deus, dírige actus nostros in beneplácito tuo, ut in nómine dilécti Fílii tui mereámur bonis opéribus abundáre.^ORlV"
         }
       }
     },
@@ -9661,7 +9684,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Herr, unser Gott, du hast uns erschaffen, damit wir dich preisen. Gib, dass wir dich mit ungeteiltem Herzen anbeten und die Menschen lieben, wie du sie liebst.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Concéde nobis, Dómine Deus noster, ut te tota mente venerémur, et omnes hómines rationábili diligámus afféctu.^ORlV"
         },
         "ErsteV": {
           "anta": "Sucht Gerechtigkeit und Demut! Die Armen finden Zuflucht beim Namen des Herrn.",
@@ -9693,7 +9716,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Herr, unser Gott, du hast uns erschaffen, damit wir dich preisen. Gib, dass wir dich mit ungeteiltem Herzen anbeten und die Menschen lieben, wie du sie liebst.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Concéde nobis, Dómine Deus noster, ut te tota mente venerémur, et omnes hómines rationábili diligámus afféctu.^ORlV"
         }
       }
     },
@@ -9701,7 +9724,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Gott, unser Vater, wir sind dein Eigentum und setzen unsere Hoffnung allein auf deine Gnade. Bleibe uns nahe in jeder Not und Gefahr und schütze uns.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Famíliam tuam, quǽsumus, Dómine, contínua pietáte custódi, ut, quæ in sola spe grátiæ cæléstis innititur, tua semper protectióne muniátur.^ORlV"
         },
         "ErsteV": {
           "anta": "Brich dem Hungrigen dein Brot, dann geht dein Licht auf in der Finsternis, und deine Nacht wird hell wie der Tag.",
@@ -9733,7 +9756,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Gott, unser Vater, wir sind dein Eigentum und setzen unsere Hoffnung allein auf deine Gnade. Bleibe uns nahe in jeder Not und Gefahr und schütze uns.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Famíliam tuam, quǽsumus, Dómine, contínua pietáte custódi, ut, quæ in sola spe grátiæ cæléstis innititur, tua semper protectióne muniátur.^ORlV"
         }
       }
     },
@@ -9741,7 +9764,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Gott, du liebst deine Geschöpfe, und es ist deine Freude, bei den Menschen zu wohnen. Gib uns ein neues und reines Herz, das bereit ist, dich aufzunehmen.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, qui te in rectis et sincéris mánere pectóribus asséris, da nobis tua grátia tales exsístere, in quibus habitáre dignéris.^ORlV"
         },
         "ErsteV": {
           "anta": "Gottes Augen schauen auf das Tun der Menschen, er kennt all ihre Taten.",
@@ -9773,7 +9796,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Gott, du liebst deine Geschöpfe, und es ist deine Freude, bei den Menschen zu wohnen. Gib uns ein neues und reines Herz, das bereit ist, dich aufzunehmen.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, qui te in rectis et sincéris mánere pectóribus asséris, da nobis tua grátia tales exsístere, in quibus habitáre dignéris.^ORlV"
         }
       }
     },
@@ -9781,7 +9804,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Barmherziger Gott, du hast durch deinen Sohn zu uns gesprochen. Lass uns immer wieder über dein Wort nachsinnen, damit wir reden und tun, was dir gefällt.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Præsta, quǽsumus, omnípotens Deus, ut, semper rationabília meditántes, quæ tibi sunt plácita, et dictis exsequámur et factis.^ORlV"
         },
         "ErsteV": {
           "anta": "Seid heilig, denn ich, der Herr, euer Gott, bin heilig.",
@@ -9813,7 +9836,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Barmherziger Gott, du hast durch deinen Sohn zu uns gesprochen. Lass uns immer wieder über dein Wort nachsinnen, damit wir reden und tun, was dir gefällt.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Præsta, quǽsumus, omnípotens Deus, ut, semper rationabília meditántes, quæ tibi sunt plácita, et dictis exsequámur et factis.^ORlV"
         }
       }
     },
@@ -9821,7 +9844,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Allmächtiger Gott, deine Vorsehung bestimmt den Lauf der Dinge und das Schicksal der Menschen. Lenke die Welt in den Bahnen deiner Ordnung, damit die Kirche in Frieden deinen Auftrag erfüllen kann.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Da nobis, quǽsumus, Dómine, ut et mundi cursus pacífico nobis tuo órdine dirigátur, et Ecclésia tua tranquílla devotióne lætétur.^ORlV"
         },
         "ErsteV": {
           "anta": "Kann eine Frau ihr Kind vergessen, eine Mutter den Sohn ihres Schoßes? Und wenn sie ihn vergäße – ich vergesse dich nicht.",
@@ -9853,7 +9876,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Allmächtiger Gott, deine Vorsehung bestimmt den Lauf der Dinge und das Schicksal der Menschen. Lenke die Welt in den Bahnen deiner Ordnung, damit die Kirche in Frieden deinen Auftrag erfüllen kann.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Da nobis, quǽsumus, Dómine, ut et mundi cursus pacífico nobis tuo órdine dirigátur, et Ecclésia tua tranquílla devotióne lætétur.^ORlV"
         }
       }
     },
@@ -9861,7 +9884,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Gott, unser Vater, deine Vorsehung geht niemals fehl. Halte von uns fern, was uns schadet, und gewähre uns alles, was zum Heile dient.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, cuius providéntia in sui dispositióne non fállitur, te supplíces exorámus, ut nóxia cuncta submóveas, et ómnia nobis profutúra concédas.^ORlV"
         },
         "ErsteV": {
           "anta": "Hört auf die Gebote des Herrn, eures Gottes, und er wird euch segnen.",
@@ -9893,7 +9916,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Gott, unser Vater, deine Vorsehung geht niemals fehl. Halte von uns fern, was uns schadet, und gewähre uns alles, was zum Heile dient.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, cuius providéntia in sui dispositióne non fállitur, te supplíces exorámus, ut nóxia cuncta submóveas, et ómnia nobis profutúra concédas.^ORlV"
         }
       }
     },
@@ -9901,7 +9924,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Gott, unser Vater, alles Gute kommt allein von dir. Schenke uns deinen Geist, damit wir erkennen, was recht ist, und es mit deiner Hilfe auch tun.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, a quo bona cuncta procédunt, tuis largíre supplícibus, ut cogitémus, te inspiránte, quæ recta sunt, et, te gubernánte, éadem faciámus.^ORlV"
         },
         "ErsteV": {
           "anta": "Barmherzigkeit will ich, nicht Opfer, nicht Brandopfer, sondern Erkenntnis Gottes.",
@@ -9933,7 +9956,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Gott, unser Vater, alles Gute kommt allein von dir. Schenke uns deinen Geist, damit wir erkennen, was recht ist, und es mit deiner Hilfe auch tun.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, a quo bona cuncta procédunt, tuis largíre supplícibus, ut cogitémus, te inspiránte, quæ recta sunt, et, te gubernánte, éadem faciámus.^ORlV"
         }
       }
     },
@@ -9941,7 +9964,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Gott, du unsere Hoffnung und unsere Kraft, ohne dich vermögen wir nichts. Steh uns mit deiner Gnade bei, damit wir denken, reden und tun, was dir gefällt.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, in te sperántium fortitúdo, invocatiónibus nostris adésto propítius, et, quia sine te nihil potest mortális infírmitas, grátiæ tuæ præsta semper auxílium, ut, in exsequéndis mandátis tuis, et voluntáte tibi et actióne placeámus.^ORlV"
         },
         "ErsteV": {
           "anta": "Mein ist die ganze Erde, ihr aber sollt mir gehören als ein heiliges Volk.",
@@ -9973,7 +9996,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Gott, du unsere Hoffnung und unsere Kraft, ohne dich vermögen wir nichts. Steh uns mit deiner Gnade bei, damit wir denken, reden und tun, was dir gefällt.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, in te sperántium fortitúdo, invocatiónibus nostris adésto propítius, et, quia sine te nihil potest mortális infírmitas, grátiæ tuæ præsta semper auxílium, ut, in exsequéndis mandátis tuis, et voluntáte tibi et actióne placeámus.^ORlV"
         }
       }
     },
@@ -9981,7 +10004,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Heiliger Gott, gib, dass wir deinen Namen allezeit fürchten und lieben. Denn du entziehst keinem deine väterliche Hand, der fest in deiner Liebe verwurzelt ist.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Sancti nóminis tui, Dómine, timórem páriter et amórem fac nos habére perpétuum, quia numquam tua gubernatióne destítuis, quos in soliditáte tuæ dilectiónis instrúis.^ORlV"
         },
         "ErsteV": {
           "anta": "Rühmt den Namen des Herrn; er rettet das Leben der Armen.",
@@ -10013,7 +10036,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Heiliger Gott, gib, dass wir deinen Namen allezeit fürchten und lieben. Denn du entziehst keinem deine väterliche Hand, der fest in deiner Liebe verwurzelt ist.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Sancti nóminis tui, Dómine, timórem páriter et amórem fac nos habére perpétuum, quia numquam tua gubernatióne destítuis, quos in soliditáte tuæ dilectiónis instrúis.^ORlV"
         }
       }
     },
@@ -10021,7 +10044,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Gott, unser Vater, du hast uns in der Taufe zu Kindern des Lichtes gemacht. Lass nicht zu, dass die Finsternis des Irrtums über uns Macht gewinnt, sondern hilf uns, im Licht deiner Wahrheit zu bleiben.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, qui, per adoptiónem grátiæ, lucis nos esse fílios voluísti, præsta, quǽsumus, ut errórum non involvátur ténebris, sed in splendóre veritátis semper maneámus conspícui.^ORlV"
         },
         "ErsteV": {
           "anta": "Ihr seid tot für die Sünde, aber ihr lebt für Gott in Christus Jesus.",
@@ -10053,7 +10076,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Gott, unser Vater, du hast uns in der Taufe zu Kindern des Lichtes gemacht. Lass nicht zu, dass die Finsternis des Irrtums über uns Macht gewinnt, sondern hilf uns, im Licht deiner Wahrheit zu bleiben.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, qui, per adoptiónem grátiæ, lucis nos esse fílios voluísti, præsta, quǽsumus, ut errórum non involvátur ténebris, sed in splendóre veritátis semper maneámus conspícui.^ORlV"
         }
       }
     },
@@ -10061,7 +10084,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Barmherziger Gott, durch die Erniedrigung deines Sohnes hast du die gefallene Menschheit wieder aufgerichtet und aus der Knechtschaft der Sünde befreit. Erfülle uns mit Freude über die Erlösung und führe uns zur ewigen Seligkeit.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, qui in Fílii tui humilitáte iacéntem mundum erexísti, fidélibus tuis sanctam concéde lætítiam, ut, quos perpétuæ mortis eripuísti à servitúte peccáti, gáudiis pérfrui sempitérnis.^ORlV"
         },
         "ErsteV": {
           "anta": "Freue dich, du neues Zion! Siehe, dein König kommt, sein Volk zu erlösen.",
@@ -10093,7 +10116,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Barmherziger Gott, durch die Erniedrigung deines Sohnes hast du die gefallene Menschheit wieder aufgerichtet und aus der Knechtschaft der Sünde befreit. Erfülle uns mit Freude über die Erlösung und führe uns zur ewigen Seligkeit.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, qui in Fílii tui humilitáte iacéntem mundum erexísti, fidélibus tuis sanctam concéde lætítiam, ut, quos perpétuæ mortis eripuísti à servitúte peccáti, gáudiis pérfrui sempitérnis.^ORlV"
         }
       }
     },
@@ -10101,7 +10124,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Gott, du bist unser Ziel, du zeigst den Irrenden das Licht der Wahrheit und führst sie auf den rechten Weg zurück. Gib allen, die sich Christen nennen, die Kraft, zu meiden, was diesem Namen widerspricht, und zu tun, was unserem Glauben entspricht.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, qui erréntibus, ut in viam possint redíre, veritátis tuæ lumen osténdis, da cunctis qui christiána professióne censéntur, et illa respúere, quæ huic inimíca sunt nómini, et ea quæ sunt apta sectári.^ORlV"
         },
         "ErsteV": {
           "anta": "Mein Wort bewirkt, was ich will, und führt aus, wozu ich es sende.",
@@ -10133,7 +10156,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Gott, du bist unser Ziel, du zeigst den Irrenden das Licht der Wahrheit und führst sie auf den rechten Weg zurück. Gib allen, die sich Christen nennen, die Kraft, zu meiden, was diesem Namen widerspricht, und zu tun, was unserem Glauben entspricht.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, qui erréntibus, ut in viam possint redíre, veritátis tuæ lumen osténdis, da cunctis qui christiána professióne censéntur, et illa respúere, quæ huic inimíca sunt nómini, et ea quæ sunt apta sectári.^ORlV"
         }
       }
     },
@@ -10141,7 +10164,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Herr, unser Gott, sieh gnädig auf alle, die du in deinen Dienst gerufen hast. Mach uns stark im Glauben, in der Hoffnung und in der Liebe, damit wir immer wachsam sind und auf dem Weg deiner Gebote bleiben.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Propitíáre, Dómine, fámulis tuis, et cleménter inténde votis supplicántium, ut, peccatórum catenis absolúti, in ómnibus tibi gratulátionis hóstias deferámus.^ORlV"
         },
         "ErsteV": {
           "anta": "Weil du stark bist, o°Herr, richtest du in Milde und mit großer Nachsicht.",
@@ -10173,7 +10196,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Herr, unser Gott, sieh gnädig auf alle, die du in deinen Dienst gerufen hast. Mach uns stark im Glauben, in der Hoffnung und in der Liebe, damit wir immer wachsam sind und auf dem Weg deiner Gebote bleiben.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Propitíáre, Dómine, fámulis tuis, et cleménter inténde votis supplicántium, ut, peccatórum catenis absolúti, in ómnibus tibi gratulátionis hóstias deferámus.^ORlV"
         }
       }
     },
@@ -10181,7 +10204,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Gott, du Beschützer aller, die auf dich hoffen, ohne dich ist nichts gesund und nichts heilig. Führe uns in deinem Erbarmen den rechten Weg und hilf uns, die vergänglichen Güter so zu gebrauchen, dass wir die ewigen nicht verlieren.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Protéctor in te sperántium, Deus, sine quo nihil est válidum, nihil sanctum, multiplíca super nos misericórdiam tuam, ut, te rectóre, te duce, sic transeámus per bona temporália, ut non amittámus ætérna.^ORlV"
         },
         "ErsteV": {
           "anta": "Verleih deinem Knecht ein hörendes Herz, damit er das Gute vom Bösen zu unterscheiden versteht.",
@@ -10213,7 +10236,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Gott, du Beschützer aller, die auf dich hoffen, ohne dich ist nichts gesund und nichts heilig. Führe uns in deinem Erbarmen den rechten Weg und hilf uns, die vergänglichen Güter so zu gebrauchen, dass wir die ewigen nicht verlieren.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Protéctor in te sperántium, Deus, sine quo nihil est válidum, nihil sanctum, multiplíca super nos misericórdiam tuam, ut, te rectóre, te duce, sic transeámus per bona temporália, ut non amittámus ætérna.^ORlV"
         }
       }
     },
@@ -10221,7 +10244,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Gott, unser Vater, steh deinen Dienern bei und erweise allen, die zu dir rufen, Tag für Tag deine Liebe. Du bist unser Schöpfer und der Lenker unseres Lebens. Erneuere deine Gnade in uns, damit wir dir gefallen, und erhalte, was du erneuert hast.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Adésto, Dómine, fámulis tuis, et perpétuam benígnitátem largíre poscentibus, ut his, qui te auctórem et gubernatórem gloriántur habére, et creáta restáures, et restauráta consérves.^ORlV"
         },
         "ErsteV": {
           "anta": "Hört doch auf mich, und ihr werdet euch laben an köstlicher Speise.",
@@ -10253,7 +10276,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Gott, unser Vater, steh deinen Dienern bei und erweise allen, die zu dir rufen, Tag für Tag deine Liebe. Du bist unser Schöpfer und der Lenker unseres Lebens. Erneuere deine Gnade in uns, damit wir dir gefallen, und erhalte, was du erneuert hast.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Adésto, Dómine, fámulis tuis, et perpétuam benígnitátem largíre poscentibus, ut his, qui te auctórem et gubernatórem gloriántur habére, et creáta restáures, et restauráta consérves.^ORlV"
         }
       }
     },
@@ -10261,7 +10284,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Allmächtiger Gott, wir dürfen dich Vater nennen, denn du hast uns an Kindes Statt angenommen und uns den Geist deines Sohnes gesandt. Gib, dass wir in diesem Geist wachsen und einst das verheißene Erbe empfangen.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Omnípotens sempitérne Deus, quem patérno nómine invocáre præsúmimus, pérfice in córdibus nostris spíritum adoptiónis, ut promissam hereditátem ingredi mereámur.^ORlV"
         },
         "ErsteV": {
           "anta": "Jesus stieg auf einen Berg, um in der Einsamkeit zu beten. Und als die Nacht hereinbrach, war er immer noch dort.",
@@ -10293,7 +10316,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Allmächtiger Gott, wir dürfen dich Vater nennen, denn du hast uns an Kindes Statt angenommen und uns den Geist deines Sohnes gesandt. Gib, dass wir in diesem Geist wachsen und einst das verheißene Erbe empfangen.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Omnípotens sempitérne Deus, quem patérno nómine invocáre præsúmimus, pérfice in córdibus nostris spíritum adoptiónis, ut promissam hereditátem ingredi mereámur.^ORlV"
         }
       }
     },
@@ -10301,7 +10324,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Barmherziger Gott, was kein Auge geschaut und kein Ohr gehört hat, das hast du denen bereitet, die dich lieben. Gib uns ein Herz, das dich in allem und über alles liebt, damit wir den Reichtum deiner Verheißungen erlangen, der alles übersteigt, was wir ersehnen.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, qui diligéntibus te bona invisibília præparásti, infúnde córdibus nostris tui amóris afféctum, ut, te in ómnibus et super ómnia diligéntes, promissiónes tuas, quæ omne desidérium súperant, consequámur.^ORlV"
         },
         "ErsteV": {
           "anta": "So spricht der Herr: Mein Haus wird ein Haus des Gebets sein für alle Völker.",
@@ -10333,7 +10356,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Barmherziger Gott, was kein Auge geschaut und kein Ohr gehört hat, das hast du denen bereitet, die dich lieben. Gib uns ein Herz, das dich in allem und über alles liebt, damit wir den Reichtum deiner Verheißungen erlangen, der alles übersteigt, was wir ersehnen.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, qui diligéntibus te bona invisibília præparásti, infúnde córdibus nostris tui amóris afféctum, ut, te in ómnibus et super ómnia diligéntes, promissiónes tuas, quæ omne desidérium súperant, consequámur.^ORlV"
         }
       }
     },
@@ -10341,7 +10364,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Gott, unser Herr, du verbindest alle, die an dich glauben, zum gemeinsamen Streben. Gib, dass wir lieben, was du befiehlst, und ersehnen, was du uns verheißen hast, damit in der Unbeständigkeit dieses Lebens unsere Herzen dort verankert seien, wo die wahren Freuden sind.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, qui fidélium mentes uníus éfficis voluntátis, da pópulis tuis id amáre quod præcipis, id desideráre quod promíttis, ut, inter mundánas varietátes, ibi nostra fixa sint corda, ubi vera sunt gáudia.^ORlV"
         },
         "ErsteV": {
           "anta": "Ich berufe meinen Knecht und lege den Schlüssel des Hauses David auf seine Schulter.",
@@ -10373,7 +10396,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Gott, unser Herr, du verbindest alle, die an dich glauben, zum gemeinsamen Streben. Gib, dass wir lieben, was du befiehlst, und ersehnen, was du uns verheißen hast, damit in der Unbeständigkeit dieses Lebens unsere Herzen dort verankert seien, wo die wahren Freuden sind.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, qui fidélium mentes uníus éfficis voluntátis, da pópulis tuis id amáre quod præcipis, id desideráre quod promíttis, ut, inter mundánas varietátes, ibi nostra fixa sint corda, ubi vera sunt gáudia.^ORlV"
         }
       }
     },
@@ -10381,7 +10404,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Allmächtiger Gott, von dir kommt alles Gute. Pflanze in unser Herz die Liebe zu deinem Namen ein. Binde uns immer mehr an dich, damit in uns wächst, was gut und heilig ist. Wache über uns und erhalte, was du gewirkt hast.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus virtútum, cuius est totum quod est óptimum, ínsere pectóribus nostris amórem tui nóminis, et præsta, ut in nobis, religiónis augménto, quæ sunt bona nútrías, ac, vigilánti stúdio, quæ sunt nutríta custódias.^ORlV"
         },
         "ErsteV": {
           "anta": "Gleicht euch dieser Welt nicht an, sondern wandelt euch durch ein neues Denken.",
@@ -10413,7 +10436,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Allmächtiger Gott, von dir kommt alles Gute. Pflanze in unser Herz die Liebe zu deinem Namen ein. Binde uns immer mehr an dich, damit in uns wächst, was gut und heilig ist. Wache über uns und erhalte, was du gewirkt hast.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus virtútum, cuius est totum quod est óptimum, ínsere pectóribus nostris amórem tui nóminis, et præsta, ut in nobis, religiónis augménto, quæ sunt bona nútrías, ac, vigilánti stúdio, quæ sunt nutríta custódias.^ORlV"
         }
       }
     },
@@ -10421,7 +10444,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Gütiger Gott, du hast uns durch deinen Sohn erlöst und als deine geliebten Kinder angenommen. Sieh voll Güte auf alle, die an Christus glauben, und schenke ihnen die wahre Freiheit und das ewige Erbe.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, per quem nobis et redémptio venit et præstátur adóptio, fílios dilectiónis tuæ benígnus inténde, ut in Christo credéntibus et vera tribuátur líbertas et heréditas ætérna.^ORlV"
         },
         "ErsteV": {
           "anta": "Ich gebe dich dem Haus Israel als Wächter. Warne den Schuldigen vor seinem Weg, damit er sich bekehrt.",
@@ -10453,7 +10476,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Gütiger Gott, du hast uns durch deinen Sohn erlöst und als deine geliebten Kinder angenommen. Sieh voll Güte auf alle, die an Christus glauben, und schenke ihnen die wahre Freiheit und das ewige Erbe.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, per quem nobis et redémptio venit et præstátur adóptio, fílios dilectiónis tuæ benígnus inténde, ut in Christo credéntibus et vera tribuátur líbertas et heréditas ætérna.^ORlV"
         }
       }
     },
@@ -10461,7 +10484,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Gott, du Schöpfer und Lenker aller Dinge, sieh gnädig auf uns. Gib, dass wir dir mit ganzem Herzen dienen und die Macht deiner Liebe an uns erfahren.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Réspice nos, rerum ómnium Deus creátor et rector, et, ut tuæ propitiátiónis sentiámus efféctum, toto nos tríbue tibi corde servíre.^ORlV"
         },
         "ErsteV": {
           "anta": "Vergib deinem Nächsten das Unrecht, dann werden auch dir deine Sünden vergeben.",
@@ -10493,7 +10516,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Gott, du Schöpfer und Lenker aller Dinge, sieh gnädig auf uns. Gib, dass wir dir mit ganzem Herzen dienen und die Macht deiner Liebe an uns erfahren.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Réspice nos, rerum ómnium Deus creátor et rector, et, ut tuæ propitiátiónis sentiámus efféctum, toto nos tríbue tibi corde servíre.^ORlV"
         }
       }
     },
@@ -10501,7 +10524,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Heiliger Gott, du hast uns das Gebot der Liebe zu dir und zu unserem Nächsten aufgetragen als die Erfüllung des ganzen Gesetzes. Gib uns die Kraft, dieses Gebot treu zu befolgen, damit wir das ewige Leben erlangen.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, qui sacræ legis ómnia constitúta in tua et próximi dilectióne posuísti, da nobis, ut, tua præcepta serván-tes, ad vitam mereámur perveníre perpétuam.^ORlV"
         },
         "ErsteV": {
           "anta": "Meine Gedanken sind nicht eure Gedanken, und eure Wege sind nicht meine Wege.",
@@ -10533,7 +10556,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Heiliger Gott, du hast uns das Gebot der Liebe zu dir und zu unserem Nächsten aufgetragen als die Erfüllung des ganzen Gesetzes. Gib uns die Kraft, dieses Gebot treu zu befolgen, damit wir das ewige Leben erlangen.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, qui sacræ legis ómnia constitúta in tua et próximi dilectióne posuísti, da nobis, ut, tua præcepta serván-tes, ad vitam mereámur perveníre perpétuam.^ORlV"
         }
       }
     },
@@ -10541,7 +10564,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Großer Gott, du offenbarst deine Macht vor allem im Erbarmen und im Verschonen. Darum nimm uns in Gnaden auf, wenn uns auch Schuld belastet. Gib, dass wir unseren Lauf vollenden und zur Herrlichkeit des Himmels gelangen.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, qui omnipoténtiam tuam parcéndo máxime et miseréndo maniféstas, grátiam tuam super nos indesinénter infúnde, ut, ad tua promíssa curréntes, cæléstium bonórum fácias esse consórtes.^ORlV"
         },
         "ErsteV": {
           "anta": "Wenn sich der Schuldige vom Unrecht abwendet und nach Recht und Gerechtigkeit handelt, wird er sein Leben bewahren.",
@@ -10573,7 +10596,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Großer Gott, du offenbarst deine Macht vor allem im Erbarmen und im Verschonen. Darum nimm uns in Gnaden auf, wenn uns auch Schuld belastet. Gib, dass wir unseren Lauf vollenden und zur Herrlichkeit des Himmels gelangen.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, qui omnipoténtiam tuam parcéndo máxime et miseréndo maniféstas, grátiam tuam super nos indesinénter infúnde, ut, ad tua promíssa curréntes, cæléstium bonórum fácias esse consórtes.^ORlV"
         }
       }
     },
@@ -10581,7 +10604,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Allmächtiger Gott, du gibst uns in deiner Güte mehr, als wir verdienen, und Größeres, als wir erbitten. Nimm weg, was unser Gewissen belastet, und schenke uns jenen Frieden, den nur deine Barmherzigkeit geben kann.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Omnípotens sempitérne Deus, qui abundántia pietátis tuæ et mérita supplícum excédis et vota, effúnde super nos misericórdiam tuam, ut dimíttas quæ consciéntia metuit, et adícias quod orátio non præsúmit.^ORlV"
         },
         "ErsteV": {
           "anta": "Der Weinberg des Herrn der Heere ist das Haus Israel.",
@@ -10613,7 +10636,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Allmächtiger Gott, du gibst uns in deiner Güte mehr, als wir verdienen, und Größeres, als wir erbitten. Nimm weg, was unser Gewissen belastet, und schenke uns jenen Frieden, den nur deine Barmherzigkeit geben kann.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Omnípotens sempitérne Deus, qui abundántia pietátis tuæ et mérita supplícum excédis et vota, effúnde super nos misericórdiam tuam, ut dimíttas quæ consciéntia metuit, et adícias quod orátio non præsúmit.^ORlV"
         }
       }
     },
@@ -10621,7 +10644,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Herr, unser Gott, deine Gnade komme uns zuvor und begleite uns, damit wir dein Wort im Herzen bewahren und immer bereit sind, das Gute zu tun.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Tua nos, quǽsumus, Dómine, grátia semper et prævéniat et sequátur, ac bonis opéribus iúgiter præstet esse inténtos.^ORlV"
         },
         "ErsteV": {
           "anta": "Der Herr der Heere wird allen Völkern ein Mahl bereiten auf seinem heiligen Berg.",
@@ -10653,7 +10676,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Herr, unser Gott, deine Gnade komme uns zuvor und begleite uns, damit wir dein Wort im Herzen bewahren und immer bereit sind, das Gute zu tun.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Tua nos, quǽsumus, Dómine, grátia semper et prævéniat et sequátur, ac bonis opéribus iúgiter præstet esse inténtos.^ORlV"
         }
       }
     },
@@ -10661,7 +10684,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Allmächtiger Gott, du bist unser Herr und Gebieter. Mach unseren Willen bereit, deinen Weisungen zu folgen, und gib uns ein Herz, das dir aufrichtig dient.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Omnípotens sempitérne Deus, fac nos tibi semper et devótam gérere voluntátem, et maiestáti tuæ sincéro corde servíre.^ORlV"
         },
         "ErsteV": {
           "anta": "Vom Osten bis zum Westen sollen alle erkennen, dass es außer mir keinen Gott gibt. Ich bin der Herr, und sonst niemand.",
@@ -10693,7 +10716,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Allmächtiger Gott, du bist unser Herr und Gebieter. Mach unseren Willen bereit, deinen Weisungen zu folgen, und gib uns ein Herz, das dir aufrichtig dient.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Omnípotens sempitérne Deus, fac nos tibi semper et devótam gérere voluntátem, et maiestáti tuæ sincéro corde servíre.^ORlV"
         }
       }
     },
@@ -10701,7 +10724,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Allmächtiger, ewiger Gott, mehre in uns den Glauben, die Hoffnung und die Liebe. Gib uns die Gnade, zu lieben, was du gebietest, damit wir erlangen, was du verheißen hast.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Omnípotens sempitérne Deus, da nobis fídei, spei et caritátis augméntum, et, ut mereámur ássequi quod promíttis, fac nos amáre quod præcipis.^ORlV"
         },
         "ErsteV": {
           "anta": "Die Erfüllung des Gesetzes ist die Liebe; wer den Nächsten liebt, hat das Gesetz erfüllt.",
@@ -10733,7 +10756,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Allmächtiger, ewiger Gott, mehre in uns den Glauben, die Hoffnung und die Liebe. Gib uns die Gnade, zu lieben, was du gebietest, damit wir erlangen, was du verheißen hast.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Omnípotens sempitérne Deus, da nobis fídei, spei et caritátis augméntum, et, ut mereámur ássequi quod promíttis, fac nos amáre quod præcipis.^ORlV"
         }
       }
     },
@@ -10741,7 +10764,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Allmächtiger, barmherziger Gott, es ist deine Gabe und dein Werk, wenn das gläubige Volk dir würdig und aufrichtig dient. Nimm alles von uns, was uns auf dem Weg zu dir aufhält, damit wir ungehindert der Freude entgegeneilen, die du uns verheißen hast.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Omnípotens et miséricors Deus, de cuius múnere venit, ut tibi a fidélibus tuis digne et laudabíliter serviátur, tríbue, quǽsumus, nobis, ut ad promissiónes tuas sine offénsióne currámus.^ORlV"
         },
         "ErsteV": {
           "anta": "Alle haben wir denselben Vater, uns alle hat der eine Gott erschaffen. Warum handeln wir treulos einer gegen den andern?",
@@ -10773,7 +10796,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Allmächtiger, barmherziger Gott, es ist deine Gabe und dein Werk, wenn das gläubige Volk dir würdig und aufrichtig dient. Nimm alles von uns, was uns auf dem Weg zu dir aufhält, damit wir ungehindert der Freude entgegeneilen, die du uns verheißen hast.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Omnípotens et miséricors Deus, de cuius múnere venit, ut tibi a fidélibus tuis digne et laudabíliter serviátur, tríbue, quǽsumus, nobis, ut ad promissiónes tuas sine offénsióne currámus.^ORlV"
         }
       }
     },
@@ -10781,7 +10804,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Allmächtiger und barmherziger Gott, wir sind dein Eigentum, du hast uns in deine Hand geschrieben. Halte von uns fern, was uns gefährdet, und nimm weg, was uns an Seele und Leib bedrückt, damit wir freien Herzens deinen Willen tun.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Omnípotens et miséricors Deus, univérsa nobis adversántia propitiátus exclúde, ut, mente et córpore páriter expedíti, quæ tua sunt líberis méntibus exsequámur.^ORlV"
         },
         "ErsteV": {
           "anta": "Wer nach der Weisheit verlangt, wird sie erkennen. Wer ihretwegen wacht und an sie denkt, dem kommt sie entgegen.",
@@ -10813,7 +10836,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Allmächtiger und barmherziger Gott, wir sind dein Eigentum, du hast uns in deine Hand geschrieben. Halte von uns fern, was uns gefährdet, und nimm weg, was uns an Seele und Leib bedrückt, damit wir freien Herzens deinen Willen tun.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Omnípotens et miséricors Deus, univérsa nobis adversántia propitiátus exclúde, ut, mente et córpore páriter expedíti, quæ tua sunt líberis méntibus exsequámur.^ORlV"
         }
       }
     },
@@ -10821,7 +10844,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Gott, du Urheber alles Guten, du bist unser Herr. Lass uns begreifen, dass wir frei werden, wenn wir uns deinem Willen unterwerfen, und dass wir die vollkommene Freude finden, wenn wir in deinem Dienst treu bleiben.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Da nobis, quǽsumus, Dómine Deus noster, in tua semper devotióne gaudére, quia perpétua est et plena felícitas, si bonórum ómnium iúgiter serviámus auctóri.^ORlV"
         },
         "ErsteV": {
           "anta": "Selig der Knecht, den der Herr wachend findet, wenn er kommt.",
@@ -10853,15 +10876,14 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Gott, du Urheber alles Guten, du bist unser Herr. Lass uns begreifen, dass wir frei werden, wenn wir uns deinem Willen unterwerfen, und dass wir die vollkommene Freude finden, wenn wir in deinem Dienst treu bleiben.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Da nobis, quǽsumus, Dómine Deus noster, in tua semper devotióne gaudére, quia perpétua est et plena felícitas, si bonórum ómnium iúgiter serviámus auctóri.^ORlV"
         }
       }
     },
     "34": {
       "0": {
         "each": {
-          "oration": "Allmächtiger, ewiger Gott, du hast deinem geliebten Sohn alle Gewalt gegeben im Himmel und auf Erden und ihn zum Haupt der neuen Schöpfung gemacht. Befreie alle Geschöpfe von der Macht des Bösen, damit sie allein dir dienen und dich in Ewigkeit rühmen.^ORV",
-          "oration_lat": ""
+          "oration": "Allmächtiger, ewiger Gott, du hast deinem geliebten Sohn alle Gewalt gegeben im Himmel und auf Erden und ihn zum Haupt der neuen Schöpfung gemacht. Befreie alle Geschöpfe von der Macht des Bösen, damit sie allein dir dienen und dich in Ewigkeit rühmen.^ORV"
         },
         "ErsteV": {
           "button": "1. Vesper zum Christkönigsfest",
@@ -11007,7 +11029,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Gott, unser Vater, erwecke deine Gläubigen zu neuem Eifer, damit das Werk deines Erbarmens in unserem Leben reiche Frucht trägt und wir einst die Fülle des heils empfangen.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Excita, quǽsumus, Dómine, tuórum fidélium voluntátes, ut, divíni óperis fructum propénsius exsequéntes, pietátis tuæ remédia maióra percípiant.^ORlV"
         }
       }
     },
@@ -11028,6 +11050,10 @@ export const brevierData = {
         "Non": {
           "oration": "0",
           "oration_lat": ""
+        },
+        "Lesehore": {
+          "hymn_1_lat": 4102.0,
+          "hymn_nacht_lat": 4102.1
         }
       },
       "1": {
@@ -11036,7 +11062,9 @@ export const brevierData = {
           "ant0_lat": "Præoccupémus fáciem Dómini in confessióne."
         },
         "Lesehore": {
-          "hymn_nacht": 2114.0
+          "hymn_nacht": 2114.0,
+          "hymn_1_lat": 4110.0,
+          "hymn_nacht_lat": 4110.1
         },
         "Terz": {
           "oration": "Gütiger Gott und Vater, du hast die Menschen zu gemeinsamer Arbeit berufen, damit sie einander ergänzen und jeder die Fähigkeit entfaltet, die du ihm gegeben hast, zum Wohle aller. Gib, dass wir unser Werk als deine Kinder verrichten, beseelt von deinem Geist und von der Liebe zu allen Menschen.^ORV",
@@ -11057,7 +11085,9 @@ export const brevierData = {
           "ant0_lat": "Regem magnum Dóminum, veníte, adorémus."
         },
         "Lesehore": {
-          "hymn_nacht": 3212.0
+          "hymn_nacht": 3212.0,
+          "hymn_1_lat": 4120.0,
+          "hymn_nacht_lat": 4120.1
         },
         "Terz": {
           "oration": "Allmächtiger, ewiger Gott. Um die dritte Stunde hast du deinen Heiligen Geist über die Apostel ausgegossen. Sende den Geist der Liebe auch in unser Herz, damit wir in Treue für dich Zeugnis geben vor den Menschen.^ORV",
@@ -11078,7 +11108,9 @@ export const brevierData = {
           "ant0_lat": "Adorémus Dóminum, quóniam ipse fecit nos."
         },
         "Lesehore": {
-          "hymn_nacht": 3112.0
+          "hymn_nacht": 3112.0,
+          "hymn_1_lat": 4130.0,
+          "hymn_nacht_lat": 4130.1
         },
         "Terz": {
           "oration": "Herr, heiliger Vater, Gott, auf dessen Treue wir bauen, du hast den verheißenen Geist gesandt, um die Menschen zusammenzuführen, die durch die Sünde getrennt sind. Gib, dass wir die Einheit und den Frieden als deinen Auftrag erkennen und nach Kräften fördern.^ORV",
@@ -11099,7 +11131,9 @@ export const brevierData = {
           "ant0_lat": "Veníte, adorémus Dóminum, quia ipse est Deus noster."
         },
         "Lesehore": {
-          "hymn_nacht": 2114.0
+          "hymn_nacht": 2114.0,
+          "hymn_1_lat": 4140.0,
+          "hymn_nacht_lat": 4140.1
         },
         "Terz": {
           "oration": "Herr und Gott, als die Apostel um die dritte Stunde zum Gebet versammelt waren, hast du ihnen den Heiligen Geist geschenkt. Mache auch uns zu einer Wohnstatt deines Geistes.^ORV",
@@ -11120,7 +11154,9 @@ export const brevierData = {
           "ant0_lat": "Confitémini Dómino, quia in ætérnum misericórdia eius."
         },
         "Lesehore": {
-          "hymn_nacht": 3212.0
+          "hymn_nacht": 3212.0,
+          "hymn_1_lat": 4150.0,
+          "hymn_nacht_lat": 4150.1
         },
         "Terz": {
           "oration": "Herr Jesus Christus, um die dritte Stunde wurdest du zur Kreuzigung geführt für das Heil der Welt. Wir bitten dich, vergib, was wir Böses getan haben und bewahre uns vor neuer Schuld.^ORS",
@@ -11141,7 +11177,9 @@ export const brevierData = {
           "ant0_lat": "Dómini est terra et plenitúdo eius; veníte, adorémus eum."
         },
         "Lesehore": {
-          "hymn_nacht": 3112.0
+          "hymn_nacht": 3112.0,
+          "hymn_1_lat": 4160.0,
+          "hymn_nacht_lat": 4160.1
         },
         "Terz": {
           "oration": "Gott, allmächtiger Vater, du unser Herr, wir neigen uns vor dir. Sende uns das Licht des Heiligen Geistes, damit wir sicher sind vor jedem Feind und in der Freude des Herzens dir unser Lob weihen, heute und alle Tage.^ORV",
@@ -11176,36 +11214,64 @@ export const brevierData = {
         "Invitatorium": {
           "ant0": "Wir sind das Volk des Herrn, die Herde seiner Weide; kommt, wir beten ihn an!^Ö",
           "ant0_lat": "Pópulus Dómini et oves páscuæ eius, veníte, adorémus eum.^Lö"
+        },
+        "Lesehore": {
+          "hymn_1_lat": 4202.0,
+          "hymn_nacht_lat": 4202.1
         }
       },
       "1": {
         "Invitatorium": {
           "ant0_lat": "Exsultémus Dómino, et in psalmis iubilémus ei."
+        },
+        "Lesehore": {
+          "hymn_1_lat": 4212.0,
+          "hymn_nacht_lat": 4212.1
         }
       },
       "2": {
         "Invitatorium": {
           "ant0_lat": "Deum magnum Dóminum, veníte, adorémus."
+        },
+        "Lesehore": {
+          "hymn_1_lat": 4222.0,
+          "hymn_nacht_lat": 4222.1
         }
       },
       "3": {
         "Invitatorium": {
           "ant0_lat": "Iubiláte Deo, omnis terra, servíte Dómino in lætítia."
+        },
+        "Lesehore": {
+          "hymn_1_lat": 4232.0,
+          "hymn_nacht_lat": 4232.1
         }
       },
       "4": {
         "Invitatorium": {
           "ant0_lat": "Introíte in conspéctu Dómini in exsultatióne."
+        },
+        "Lesehore": {
+          "hymn_1_lat": 4242.0,
+          "hymn_nacht_lat": 4242.1
         }
       },
       "5": {
         "Invitatorium": {
           "ant0_lat": "Suávis est Dóminus, benedícite nómini eius."
+        },
+        "Lesehore": {
+          "hymn_1_lat": 4252.0,
+          "hymn_nacht_lat": 4252.1
         }
       },
       "6": {
         "Invitatorium": {
           "ant0_lat": "Audiámus vocem Dómini, ut ingrediámur in réquiem eius."
+        },
+        "Lesehore": {
+          "hymn_1_lat": 4262.0,
+          "hymn_nacht_lat": 4262.1
         }
       }
     }
@@ -12719,6 +12785,7 @@ export const brevierData = {
           "patr_resp3": "Das war die Bestimmung des Menschen von Anbeginn.",
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
+          "hymn_nacht_lat": 0.0,
           "patr_resp1_lat": "",
           "patr_resp2_lat": "",
           "patr_resp3_lat": ""
@@ -12855,6 +12922,7 @@ export const brevierData = {
           "patr_resp3": "Das war die Bestimmung des Menschen von Anbeginn.",
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
+          "hymn_nacht_lat": 0.0,
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
@@ -15757,7 +15825,6 @@ export const brevierData = {
           "ant3": "Du, Herr, bist ein Schild für mich, du richtest mich auf.^Ö",
           "versikel0": "Das Wort Christi wohne bei euch mit seinem ganzen Reichtum.",
           "versikel1": "Belehrt und ermahnt einander in aller Weisheit.",
-          "hymn_1_lat": 4102.0,
           "ant1_lat": "Lignum vitæ in cruce Dómini manifestátum est.",
           "ant2_lat": "Ego constítui Regem meum super Sion.",
           "ant3_lat": "Tu, Dómine, protéctor meus, et exáltans caput meum.",
@@ -15877,7 +15944,6 @@ export const brevierData = {
           "ant3": "Deinen Ruhm will ich verkünden in den Toren von Zion.^ö",
           "versikel0": "Gib mir Einsicht, o°Herr, und ich folge deiner Weisung.",
           "versikel1": "Ich halte mich an sie aus ganzem Herzen.",
-          "hymn_1_lat": 4112.0,
           "ant1_lat": "Salvum me fac, Dómine, propter misericórdiam tuam.",
           "ant2_lat": "Factus est Dóminus refúgium páuperi in tribulatióne.",
           "ant3_lat": "Annuntiábo laudatiónes tuas in portis fíliæ Sion.",
@@ -16003,7 +16069,6 @@ export const brevierData = {
           "ant3": "Die Worte des Herrn sind lautere Worte, Silber geschmolzen im Ofen.^ö",
           "versikel0": "Die Demütigen leitet der Herr nach seinem Recht.",
           "versikel1": "Die Gebeugten lehrt er seinen Weg.",
-          "hymn_1_lat": 4122.0,
           "ant1_lat": "Iudicábit Dóminus in iustítia páuperes.",
           "ant2_lat": "Tu, Dómine, labórem et dolórem consíderas.",
           "ant3_lat": "Elóquia Dómini elóquia casta; argéntum igne examinátum.",
@@ -16127,7 +16192,6 @@ export const brevierData = {
           "ant3": "Herr, lass meine Leuchte erstrahlen, mach meine Finsternis hell.^ö",
           "versikel0": "Alle staunten über die Kraft seiner Rede.",
           "versikel1": "Über die Worte aus seinem Mund.",
-          "hymn_1_lat": 4132.0,
           "ant1_lat": "Díligam te, Dómine, virtus mea.",
           "ant2_lat": "Salvum me fecit Dóminus, quóniam vóluit me.",
           "ant3_lat": "Tu, Dómine, accénde lucérnam meam; illuminábis ténebras meas.",
@@ -16253,7 +16317,6 @@ export const brevierData = {
           "ant3": "Es lebt der Herr, gepriesen sei der Gott meines Heils.^ö",
           "versikel0": "Herr, öffne mir die Augen.",
           "versikel1": "Für das Wunderbare an deiner Weisung.",
-          "hymn_1_lat": 4142.0,
           "ant1_lat": "Elóquium Dómini scutum est ómnium sperántium in eum.",
           "ant2_lat": "Déxtera tua, Dómine, suscépit me.",
           "ant3_lat": "Vivat Dóminus, et exaltétur Deus salútis meæ.",
@@ -16378,7 +16441,6 @@ export const brevierData = {
           "ant3": "Deine Gerechtigkeit will ich verkünden den ganzen Tag.^ö",
           "versikel0": "Mein Sohn, bewahre meine Worte.",
           "versikel1": "Beachte meine Gebote und du wirst leben.",
-          "hymn_1_lat": 4152.0,
           "ant1_lat": "Exsúrge, Dómine, in adiutórium mihi.",
           "ant2_lat": "Iúdica causam meam; defénde, quia potens es, Dómine.",
           "ant3_lat": "Lingua mea, tota die, meditábitur iustítiam tuam.",
@@ -16502,7 +16564,6 @@ export const brevierData = {
           "ant3": "Der Herr dachte an sein heiliges Wort: Er hat sein Volk herausgeführt in Freude.^ö",
           "versikel0": "Kommt und schaut die Taten des Herrn.",
           "versikel1": "Der Wunderbares vollbringt auf der Erde.",
-          "hymn_1_lat": 4162.0,
           "ant1_lat": "Cantáte Dómino, mementóte mirabílium eius quae fecit.^Lö",
           "ant2_lat": "Vénditum iustum Dóminus non derelíquit, sed a peccatóribus liberávit eum.^Lö",
           "ant3_lat": "Memor fuit Dóminus verbi sancti sui, et edúxit pópulum suum in exsultatióne.^Lö",
@@ -16626,7 +16687,6 @@ export const brevierData = {
           "ant3": "Gott sah alles, was er geschaffen, und es war sehr gut.^Ö",
           "versikel0": "Selig seid ihr, denn eure Augen sehen.",
           "versikel1": "Und eure Ohren hören.",
-          "hymn_1_lat": 4202.0,
           "ant1_lat": "Dómine Deus meus, confessiónem et decórem induísti, amíctus lúmine sicut vestiménto.^LÖ",
           "ant2_lat": "Edúxit Dóminus panem de terra, et vinum lætíficans cor hóminis.^LÖ",
           "ant3_lat": "Vidit Deus cuncta quæ fécerat, et erant valde bona.^LÖ",
@@ -16747,7 +16807,6 @@ export const brevierData = {
           "ant3": "Gepriesen sei der Herr, der wunderbar an mir gehandelt hat.^ö",
           "versikel0": "Führe mich in deiner Treue und lehre mich.",
           "versikel1": "Denn du bist der Gott meines Heiles.",
-          "hymn_1_lat": 4212.0,
           "ant1_lat": "Inclína ad me, Dómine, aurem tuam, ut éruas me.",
           "ant2_lat": "Illúmina fáciem tuam super servum tuum, Dómine.",
           "ant3_lat": "Benedíctus Dóminus, quóniam mirificávit misericórdiam suam mihi.",
@@ -16872,7 +16931,6 @@ export const brevierData = {
           "ant3": "Hoffe auf den Herrn und bleib auf seinem Weg.^ö",
           "versikel0": "Lehre mich Erkenntnis und rechtes Urteil.",
           "versikel1": "Ich vertraue auf deine Gebote.",
-          "hymn_1_lat": 4222.0,
           "ant1_lat": "Commítte Dómino viam tuam, et ipse fáciet.",
           "ant2_lat": "Declína a malo et fac bonum; confírmat iustos Dóminus.",
           "ant3_lat": "Exspécta Dóminum, et custódi viam eius.",
@@ -16997,7 +17055,6 @@ export const brevierData = {
           "ant3": "Auf Gottes Huld vertraue ich immer und ewig.^ö",
           "versikel0": "Ich hoffe auf den Herrn.",
           "versikel1": "Ich warte voll Vertrauen auf sein Wort.",
-          "hymn_1_lat": 4232.0,
           "ant1_lat": "Ipsi intra nos gémimus, exspectántes redemptiónem córporis nostri.",
           "ant2_lat": "Exáudi oratiónem meam, Dómine; pércipe lácrimas meas.",
           "ant3_lat": "Ego autem sperávi in misericórdia Dei in ætérnum.",
@@ -17124,7 +17181,6 @@ export const brevierData = {
           "ant3": "Steh auf und hilf uns, Herr; in deiner Huld erlöse uns.^ö",
           "versikel0": "Herr, zu wem sollen wir gehen?",
           "versikel1": "Du hast Worte des ewigen Lebens.",
-          "hymn_1_lat": 4242.0,
           "ant1_lat": "Salvásti nos, Dómine, et in nómine tuo confitébimur in sǽculum.",
           "ant2_lat": "Parce, Dómine, et ne des hereditátem tuam in oppróbrium.",
           "ant3_lat": "Exsúrge, Dómine, et rédime nos propter misericórdiam tuam.",
@@ -17250,7 +17306,6 @@ export const brevierData = {
           "ant3": "Ich bekenne dir meine Schuld; verlass mich nicht, Herr du mein Heil.^ö",
           "versikel0": "Nach deiner Hilfe sehnt sich meine Seele.",
           "versikel1": "Meine Augen sehnen sich nach deiner Verheißung.",
-          "hymn_1_lat": 4252.0,
           "ant1_lat": "Ne in ira tua corrípias me, Dómine.",
           "ant2_lat": "Dómine, ante te omne desidérium meum.",
           "ant3_lat": "Iniquitátem meam annuntiábo tibi; ne derelínquas me, Dómine, salus mea.",
@@ -17375,7 +17430,6 @@ export const brevierData = {
           "ant3": "Hilf uns, Herr, unser Gott, führe uns aus den Völkern zusammen!^ö",
           "versikel0": "Zeige mir, Herr, deine Wege.",
           "versikel1": "Lehre mich deine Pfade.",
-          "hymn_1_lat": 4262.0,
           "ant1_lat": "Meménto nostri, Dómine, vísita nos in salutári tuo.^Lö",
           "ant2_lat": "Cave nequándo obliviscáris pacti Dómini Dei tui.",
           "ant3_lat": "Salvos nos fac, Dómine, et cóngrega nos de natiónibus.^Lö",
@@ -17501,7 +17555,6 @@ export const brevierData = {
           "ant3": "Der Herr ist treu in all seinen Worten, voll Huld in all seinen Taten.^Ö",
           "versikel0": "Mein Sohn, achte auf meine Worte.",
           "versikel1": "Neige dein Ohr meiner Rede.",
-          "hymn_1_lat": 4102.0,
           "ant1_lat": "Per síngulos dies benedícam te, Dómine.^Lö",
           "ant2_lat": "Regnum tuum, Dómine, regnum ómnium sæculórum.^Lö",
           "ant3_lat": "Fidélis Dóminus in ómnibus verbis suis, et sanctus in ómnibus opéribus suis.^Lö",
@@ -17625,7 +17678,6 @@ export const brevierData = {
           "ant3": "Barmherzigkeit will ich, nicht Opfer, nicht Brandopfer, sondern Erkenntnis Gottes.^ö",
           "versikel0": "Höre, mein Volk, ich will reden.",
           "versikel1": "Höre, denn ich bin dein Gott.",
-          "hymn_1_lat": 4112.0,
           "ant1_lat": "Deus noster maniféste véniet, et non silébit.",
           "ant2_lat": "Immola Deo sacrifícium laudis.",
           "ant3_lat": "Misericórdiam vólui, et non sacrifícium: et sciéntiam Dei plus quam holocáusta.",
@@ -17751,7 +17803,6 @@ export const brevierData = {
           "ant3": "Ihr Königreiche der Erde, singt für Gott und spielt für den Herrn.^ö",
           "versikel0": "Ich will hören, was Gott redet.",
           "versikel1": "Frieden verkündet der Herr seinem Volk.",
-          "hymn_1_lat": 4122.0,
           "ant1_lat": "Exsúrgit Deus, et fúgiunt qui odérunt eum a fácie eius.",
           "ant2_lat": "Deus noster, Deus ad salvándum; et Dómini sunt éxitus mortis.",
           "ant3_lat": "Regna terræ, cantáte Deo; psállite Dómino.",
@@ -17877,7 +17928,6 @@ export const brevierData = {
           "ant3": "Ich habe David, meinem Knecht, geschworen: Sein Geschlecht soll bleiben auf ewig.^ö",
           "versikel0": "Herr, deine Worte bringen Erleuchtung.",
           "versikel1": "Den Unerfahrenen schenken sie Einsicht.",
-          "hymn_1_lat": 4132.0,
           "ant1_lat": "Misericórdia et véritas præcédent fáciem tuam, Dómine.",
           "ant2_lat": "Fílius Dei factus est ex sémine David secúndum carnem.",
           "ant3_lat": "Semel iurávi David servo meo: Semen eius in ætérnum manébit.",
@@ -18003,7 +18053,6 @@ export const brevierData = {
           "ant3": "Unsere Jahre vergehen wie Gras. Du aber, Gott, bleibst in Ewigkeit.^ö",
           "versikel0": "Herr, bei dir ist die Quelle des Lebens.",
           "versikel1": "In deinem Licht schauen wir das Licht.",
-          "hymn_1_lat": 4142.0,
           "ant1_lat": "Intuére, Dómine, et réspice oppróbrium nostrum.",
           "ant2_lat": "Ego sum radix et genus David, stella spléndida et matutína.",
           "ant3_lat": "Anni nostri sicut herba tránseunt: a sǽculo tu es, Deus.",
@@ -18130,7 +18179,6 @@ export const brevierData = {
           "ant3": "Ihr, die ihr Gott sucht: euer Herz lebe auf.^ö",
           "versikel0": "Herr, zeige uns deine Wege.",
           "versikel1": "Auf deinen Pfaden wollen wir gehen.",
-          "hymn_1_lat": 4152.0,
           "ant1_lat": "Laborávi clamans, dum spero in Deum meum.",
           "ant2_lat": "Dedérunt in escam meam fel, et in siti mea potavérunt me acéto.",
           "ant3_lat": "Quǽrite Dóminum, et vivet ánima vestra.",
@@ -18256,7 +18304,6 @@ export const brevierData = {
           "ant3": "Die Redlichen sehen, und sie freuen sich; sie begreifen die Huld des Herrn.^ö",
           "versikel0": "Herr, deine Treue reicht, so weit die Wolken ziehn.",
           "versikel1": "Deine Urteile sind tief wie das Meer.",
-          "hymn_1_lat": 4162.0,
           "ant1_lat": "Confiteántur Dómino misericórdiæ eius, et mirabília eius fíliis hóminum.",
           "ant2_lat": "Ipsi vidérunt ópera Dei et mirabília eius.",
           "ant3_lat": "Vidébunt recti et lætabúntur, et intéllegent misericórdias Dómini.",
@@ -18382,7 +18429,6 @@ export const brevierData = {
           "ant3": "Die ihr Gott fürchtet, kommt alle und hört; ich will euch erzählen, was der Herr mir getan.^Ö",
           "versikel0": "Lebendig ist das Wort Gottes und voll Kraft.",
           "versikel1": "Schärfer als jedes zweischneidige Schwert.",
-          "hymn_1_lat": 4202.0,
           "ant1_lat": "Quis ascéndet in montem Dómini, aut quis stabit in loco sancto eius?",
           "ant2_lat": "Benedícite, gentes, Deum nostrum, qui pósuit ánimam nostram ad vitam.^Lö",
           "ant3_lat": "Audíte, omnes, qui timétis Deum, quanta fecit ánimæ meæ.^Lö",
@@ -18505,7 +18551,6 @@ export const brevierData = {
           "ant3": "Wer dir fern ist, Herr, geht zugrunde; ich aber – Gott nahe zu sein ist mein Glück.^ö",
           "versikel0": "Herr, wie köstlich ist deine Verheißung.",
           "versikel1": "Süßer als Honig für meinen Mund.",
-          "hymn_1_lat": 4212.0,
           "ant1_lat": "Quam bonus Israel Deus, his qui recto sunt corde.",
           "ant2_lat": "Risus eórum in luctum convertétur, et gáudium in mærórem.",
           "ant3_lat": "Qui elóngant se a te, períbunt; mihi autem adhærére Deo bonum est.",
@@ -18631,7 +18676,6 @@ export const brevierData = {
           "ant3": "Du, o°Herr, hast der Erde Grund gelegt, die Himmel sind das Werk deiner Hände.^ö",
           "versikel0": "Mein Volk, vernimm meine Weisung.",
           "versikel1": "Wendet euer Ohr zu den Worten meines Mundes.",
-          "hymn_1_lat": 4222.0,
           "ant1_lat": "Clamor meus, Dómine, ad te pervéniat; non abscóndas fáciem tuam a me.",
           "ant2_lat": "Réspice, Dómine, in oratiónem humílium.",
           "ant3_lat": "Tu, Dómine, terram fundásti, et ópera mánuum tuárum sunt cæli.",
@@ -18757,7 +18801,6 @@ export const brevierData = {
           "ant3": "Lobet den Herrn, all seine Werke.^ö",
           "versikel0": "Lass mich den Weg begreifen, den du mir zeigst.",
           "versikel1": "Nachsinnen will ich über deine Wunder.",
-          "hymn_1_lat": 4232.0,
           "ant1_lat": "Bénedic, ánima mea, Dómino, et noli oblivísci omnes retributiónes eius.",
           "ant2_lat": "Quómodo miserétur pater filiórum, misértus est Dóminus timéntibus se.",
           "ant3_lat": "Benedícite Dómino, ómnia ópera eius.",
@@ -18883,7 +18926,6 @@ export const brevierData = {
           "ant3": "Exsúrge, Dómine, et ne repéllas in finem.^Lö",
           "versikel0": "Fáciem tuam illúmina super servum tuum, Dómine.",
           "versikel1": "Et doce me iustificatiónes tuas.",
-          "hymn_1_lat": 4242.0,
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
@@ -19009,7 +19051,6 @@ export const brevierData = {
           "ant3": "Sie dachten daran, dass Gott ihr Fels ist und ihr Erlöser.^ö",
           "versikel0": "Mein Sohn, merke auf meine Weisheit.",
           "versikel1": "Meiner Einsicht neige dein Ohr.",
-          "hymn_1_lat": 4252.0,
           "ant1_lat": "Patres nostri narravérunt nobis virtútes Dómini et mirabília eius quae fecit.^Lö",
           "ant2_lat": "Fílii Israel manducavérunt manna et bibébant de spiritáli, consequénte eos, petra.^Lö",
           "ant3_lat": "Rememoráti sunt quia Deus adiútor et redémptor eórum est.^Lö",
@@ -19136,7 +19177,6 @@ export const brevierData = {
           "ant3": "Der Herr hat sich Juda zum Eigentum erwählt und David zum Hirten seines Volkes.^ö",
           "versikel0": "Wir hören nicht auf, für euch zu beten.",
           "versikel1": "Dass ihr den Willen Gottes erkennt.",
-          "hymn_1_lat": 4262.0,
           "ant1_lat": "Redémit eos Dóminus de manu tribulántis.^Lö",
           "ant2_lat": "Indúxit eos Dóminus in montem sanctificatiónis suae.^Lö",
           "ant3_lat": "Elégit tribum Iuda, et David servum suum páscere Israel hereditátem suam.^Lö",

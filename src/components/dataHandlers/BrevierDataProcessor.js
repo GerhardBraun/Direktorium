@@ -91,6 +91,7 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         rank_wt,
         hasErsteVesper,
         isCommemoration,
+        isMaterEccl,
         isImmacHeart
     } = getLiturgicalInfo(date);
     const { rank_date } = getLiturgicalInfo(calendarDate);
@@ -227,9 +228,17 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
             processHeiligenfeste(hours, season, rank_date, dayOfWeek, calendarMonth, calendarDay, 'eig');
         }
 
+        // Sonderfall: MaterEcclesiae und gebotener Gedenktag
+        if (isMaterEccl) {
+            processNichtgeboteneGedenktage(hours, season, '5', '32');
+            if (rank_date === 2) {
+                processHeiligenfeste(hours, season, rank_date, dayOfWeek, calendarMonth, calendarDay, 'eig', 'n1');
+                processNichtgeboteneGedenktage(hours, season, calendarMonth, calendarDay, true);
+            }
+        }
         // Sonderfall: Herz Mariae und gebotener Gedenktag
         if (isImmacHeart) {
-            processNichtgeboteneGedenktage(hours, season, '5', '32');
+            processNichtgeboteneGedenktage(hours, season, '5', '33');
             if (rank_date === 2) {
                 processHeiligenfeste(hours, season, rank_date, dayOfWeek, calendarMonth, calendarDay, 'eig', 'n1');
                 processNichtgeboteneGedenktage(hours, season, calendarMonth, calendarDay, true);
@@ -249,7 +258,7 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
             rank_date,
             isCommemoration,
             shouldUseLast,
-            prefComm: (rank_date > 2 || rank_wt > 2 || isImmacHeart) ? 1 : 0,
+            prefComm: (rank_date > 2 || rank_wt > 2 || isMaterEccl || isImmacHeart) ? 1 : 0,
             ...cleanupZeroReferences(hours)
         };
 

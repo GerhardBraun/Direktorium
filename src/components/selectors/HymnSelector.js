@@ -97,7 +97,8 @@ const HymnSelector = ({ texts, hour, season,
         const collectHymns = (localPrefLanguage = '') => {
             const hymns = [];
             const usedHymnNumbers = new Set();
-            const hasNachtHymn = texts[hour]?.wt?.hymn_nacht;
+            const hasNachtHymn = texts[hour]?.wt?.[`hymn_nacht${localPrefLanguage}`];
+            console.log('hasNachtHymn', hasNachtHymn);
 
             const addNewHymn = ({ hymnNumber, id, sourceLabel, isNachtHymn = false }) => {
                 // Korrigierte Logik: Nur verarbeiten wenn hymnNumber existiert und noch nicht verwendet
@@ -139,7 +140,7 @@ const HymnSelector = ({ texts, hour, season,
             });
 
             let hymnTypes = ['hymn_nacht', 'hymn_1', 'hymn_2', 'hymn_3',
-                'hymn_1_lat', 'hymn_2_lat', 'hymn_3_lat', 'hymn_kl'];
+                'hymn_nacht_lat', 'hymn_1_lat', 'hymn_2_lat', 'hymn_3_lat', 'hymn_kl'];
             if (prefSollemnity) {
                 hymnTypes = ['hymn_1', 'hymn_2', 'hymn_3',
                     'hymn_1_lat', 'hymn_2_lat', 'hymn_3_lat']
@@ -166,7 +167,7 @@ const HymnSelector = ({ texts, hour, season,
                         } else if (sourcePath === 'pers') {
                             sourceLabel = 'pers:';
                         } else if (['wt', 'k1', 'k2'].includes(sourcePath)) {
-                            if (hymnType === 'hymn_nacht') {
+                            if (hymnType.startsWith('hymn_nacht')) {
                                 sourceLabel = 'In der Nacht oder am frühen Morgen:';
                             } else if (hymnType === 'hymn_kl') {
                                 sourceLabel = 'kl. Stb:';
@@ -179,12 +180,11 @@ const HymnSelector = ({ texts, hour, season,
                             sourceLabel = 'Comm:';
                         }
 
-                        // Verwende die addNewHymn Funktion
                         addNewHymn({
                             hymnNumber,
                             id: `${sourcePath.replace('.', '_')}_${hymnType}`,
                             sourceLabel,
-                            isNachtHymn: hymnType === 'hymn_nacht'
+                            isNachtHymn: hymnType.startsWith('hymn_nacht')
                         });
                     }
                 });

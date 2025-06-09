@@ -82,7 +82,7 @@ const getSeasonName = (season) => {
 };
 
 // Helper function to calculate rank for a specific date
-function calculateRanks(date, season, week, dayOfWeek, swdCombined, isImmacHeart) {
+function calculateRanks(date, season, week, dayOfWeek, swdCombined, isMaterEccl, isImmacHeart) {
 
     // Rank für Wochentag (rank_wt) bestimmen
     function calculateRankWt() {
@@ -109,7 +109,7 @@ function calculateRanks(date, season, week, dayOfWeek, swdCombined, isImmacHeart
         // 6. Gebotene Gedenktage und Kommemoration
         if ((date.getMonth() + 1 === 12 && date.getDate() > 16) ||  // letzte Adventstage und Weihnachtszeit
             (season === 'q') ||                                      // Wochentage der Fastenzeit
-            (isImmacHeart)       // Herz Mariae
+            isMaterEccl || isImmacHeart       // Herz Mariae
         ) { return 2; }
 
         return 0; // Standard-Rang für alle anderen Tage
@@ -203,7 +203,9 @@ const getNextSunday = (date) => {
 const isFeastAfterPentecost = (date, easter) => {
     const daysSinceEaster = Math.floor((date - easter) / daysToMilliseconds(1));
     return [56, 60, 68].includes(daysSinceEaster) ? true
-        : daysSinceEaster === 69 ? 'ImmacHeart' : null;
+        : daysSinceEaster === 50 ? 'MaterEccl'
+            : daysSinceEaster === 69 ? 'ImmacHeart'
+                : null;
 };
 
 // Get liturgical information for a given date
@@ -232,7 +234,7 @@ const getLiturgicalInfo = (provDate) => {
     const weeksBetween = (start, current) =>
         Math.floor((current - start) / daysToMilliseconds(7)) + 1;
 
-    let season, week, weekOfPsalter, isImmacHeart = false;
+    let season, week, weekOfPsalter, isMaterEccl = false, isImmacHeart = false;
 
     // Christmas Season until Baptism
     if (date < baptism) {
@@ -273,6 +275,7 @@ const getLiturgicalInfo = (provDate) => {
     else if (date < advent) {
         season = 'j';
         week = 34 - Math.floor((advent - date - 1) / daysToMilliseconds(7));
+        isMaterEccl = isFeastAfterPentecost(date, easter) === 'MaterEccl';
         isImmacHeart = isFeastAfterPentecost(date, easter) === 'ImmacHeart'
     }
     // Advent
@@ -298,7 +301,7 @@ const getLiturgicalInfo = (provDate) => {
     const swdCombined = `${season}-${week}-${dayOfWeek}`;
     const swdWritten = writeOut(season, week, dayOfWeek, swdCombined, day);
     if (!weekOfPsalter) { weekOfPsalter = ((week + 3) % 4) + 1 }
-    const ranks = calculateRanks(date, season, week, dayOfWeek, swdCombined, isImmacHeart);
+    const ranks = calculateRanks(date, season, week, dayOfWeek, swdCombined, isMaterEccl, isImmacHeart);
     const isCommemoration = ranks.rank_date < 3 &&
         (season === 'q' || (month === 12 && day > 16));
 
@@ -311,6 +314,7 @@ const getLiturgicalInfo = (provDate) => {
         swdWritten,
         ...ranks,  // Fügt rank_wt und rank_date zum Return-Objekt hinzu
         isCommemoration,
+        isMaterEccl,
         isImmacHeart
     };
 };

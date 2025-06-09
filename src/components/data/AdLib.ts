@@ -2630,6 +2630,42 @@ export const adlibData = {
       "eig": {
         "ErsteV": {
           "comm_1": "Maria",
+          "oration": "Gott, du Vater des Erbarmens, dein Sohn hat am Kreuz seine Mutter Maria auch uns zur Mutter gegeben. Schau hin auf seine große Liebe, lass die Kirche zur Mutter vieler Kinder werden, an deren Heiligkeit sie sich freuen kann, und führe alle Völker in ihre Gemeinschaft.^ORV",
+          "oration_lat": "Deus, misericordiárum Pater, cuius Unigénitus, cruci affíxus, beátam Maríam Vírginem, Genetrícem suam, Matrem quoque nostram constítuit, concéde, quǽsumus, ut, eius cooperánte caritáte, Ecclésia tua, in dies fecúndior prolis sanctitáte exsúltet et in grémium suum cunctas áttrahat famílias populórum."
+        },
+        "Lesehore": {
+          "comm_1": "Maria",
+          "patr_autor": "Paul VI. († 1978)",
+          "patr_werk": "Aus der Ansprache zum Abschluss der 3. Sitzungsperiode des II. Vatikanischen Konzils.",
+          "patr_text": "^hMaria, Mutter der Kirche^pDa Wir die engen Beziehungen zwischen Maria und der Kirche erwägen …, erklären Wir denn zum Ruhme der heiligen Jungfrau und zu unserem Troste die heilige Maria zur Mutter der Kirche, das heißt des ganzen christlichen Volkes, der Gläubigen wie der Hirten, die sie ihre liebevolle Mutter nennen. Und Wir legen fest, dass mit diesem holden Namen von nun an das ganze christliche Volk die Gottesmutter noch mehr ehrt und anruft. ^pEs handelt sich um eine Bezeichnung, Ehrwürdige Brüder, die der christlichen Frömmigkeit wohlvertraut ist. Ja mit gerade diesem Namen rufen die Christgläubigen und die ganze Kirche Maria besonders gerne an. Dieser Name gehört in der Tat zum ursprünglichen Kern marianischer Frömmigkeit, da er in eben jener Würde gründet, mit der Maria als Mutter des fleischgewordenen Gotteswortes ausgezeichnet ist. ^pWie die Gottesmutterschaft der Grund ist für die einzigartigen Beziehungen zwischen Christus und Maria und sie im Wirken Jesu Christi für das menschliche Heil zugegen ist, so erwachsen gleichfalls aus der Gottesmutterschaft die besonderen Beziehungen zwischen Maria und der Kirche. Denn so wie Maria die Mutter Christi ist, der alsbald nach seiner Menschwerdung in ihrem jungfräulichen Schoße sich, dem Haupte, seinen Mystischen Leib, die Kirche, anschloss, so ist Maria als die Mutter Christi zugleich als die Mutter aller Gläubigen und Hirten, also der Kirche, zu betrachten. ^pDarum wollen wir, obgleich unwürdig und schwach, dennoch im Vertrauen und kindlicher Liebe zu ihr die Augen erheben. Sie hat uns einst Jesus, den Quell der göttlichen Gnade, geschenkt; sie kann ihre mütterliche Hilfe der Kirche nicht verwehren, zumal nicht jetzt, da die Braut Christi mit frischem Eifer ihr Heilsamt auszufüllen strebt. ^pDieses Vertrauen aber weiter zu nähren und zu stärken, raten uns die engen Bande zwischen unserer himmlischen Mutter und der Menschheit. Wenn sie auch von Gott mit reichen und herrlichen Gaben überhäuft worden ist, dass sie dem fleischgewordenen Wort eine würdige Mutter wäre, steht Maria uns Menschen dennoch überaus nahe. Wie wir ist auch sie ein Nachkomme Adams und darum unsere Schwester nach der gemeinsamen menschlichen Natur. Sie war freilich auf die späteren Verdienste Christi hin unberührt von der Erbsünde, doch fügte sie zu den göttlichen Gaben das hohe Vorbild ihres vollendeten Glaubens, so dass sie das rühmende Wort des Evangeliums verdiente: „Selig, die du geglaubt hast.“ ^pIn diesem Erdenleben verwirklichte sie den reinen Inbegriff des Jüngers Christi, war sie ein Spiegel aller Tugenden, entfaltete in ihrem Wandel jene Seligpreisungen, die Christus verkündet hat. Darum nimmt die ganze Kirche in ihrem vielfältigen Wirken und ihrem tatkräftigen Eifer die jungfräuliche Gottesmutter zum vollkommenen Vorbild, das notwendig zur ganzen Nachfolge Christi führt.",
+          "patr_resp1": "Der Heilige Geist kam auf Maria herab.",
+          "patr_resp2": "Die Kraft des Höchsten überschattete sie.",
+          "patr_resp3": "Erneut erfüllte er sie, die Gefährtin des Leidens ihres Sohnes, als Mutter der Erlösten.",
+          "oration": "Gott, du Vater des Erbarmens, dein Sohn hat am Kreuz seine Mutter Maria auch uns zur Mutter gegeben. Schau hin auf seine große Liebe, lass die Kirche zur Mutter vieler Kinder werden, an deren Heiligkeit sie sich freuen kann, und führe alle Völker in ihre Gemeinschaft.^ORV",
+          "oration_lat": "Deus, misericordiárum Pater, cuius Unigénitus, cruci affíxus, beátam Maríam Vírginem, Genetrícem suam, Matrem quoque nostram constítuit, concéde, quǽsumus, ut, eius cooperánte caritáte, Ecclésia tua, in dies fecúndior prolis sanctitáte exsúltet et in grémium suum cunctas áttrahat famílias populórum."
+        },
+        "Laudes": {
+          "button": "Maria, Mutter der Kirche",
+          "farbe": "m",
+          "comm_1": "Maria",
+          "antev": "Die Jünger verharrten einmütig im Gebet, zusmamen mit Maria, der Mutter Jesu.",
+          "oration": "Gott, du Vater des Erbarmens, dein Sohn hat am Kreuz seine Mutter Maria auch uns zur Mutter gegeben. Schau hin auf seine große Liebe, lass die Kirche zur Mutter vieler Kinder werden, an deren Heiligkeit sie sich freuen kann, und führe alle Völker in ihre Gemeinschaft.^ORV",
+          "antev_lat": "Erant discípuli perseverántes unanímiter in oratióne, cum María matre Iesu.",
+          "oration_lat": "Deus, misericordiárum Pater, cuius Unigénitus, cruci affíxus, beátam Maríam Vírginem, Genetrícem suam, Matrem quoque nostram constítuit, concéde, quǽsumus, ut, eius cooperánte caritáte, Ecclésia tua, in dies fecúndior prolis sanctitáte exsúltet et in grémium suum cunctas áttrahat famílias populórum."
+        },
+        "Vesper": {
+          "comm_1": "Maria",
+          "antev": "Der Herr sagte zu seiner Mutter: Frau, siehe, dein Sohn. Zu dem Jünger aber sagte er: Siehe, deine Mutter.",
+          "oration": "Gott, du Vater des Erbarmens, dein Sohn hat am Kreuz seine Mutter Maria auch uns zur Mutter gegeben. Schau hin auf seine große Liebe, lass die Kirche zur Mutter vieler Kinder werden, an deren Heiligkeit sie sich freuen kann, und führe alle Völker in ihre Gemeinschaft.^ORV",
+          "antev_lat": "Dixit Dóminus matri suæ: Múlier, ecce fílius tuus. Ad discípulum autem: Ecce mater tua.",
+          "oration_lat": "Deus, misericordiárum Pater, cuius Unigénitus, cruci affíxus, beátam Maríam Vírginem, Genetrícem suam, Matrem quoque nostram constítuit, concéde, quǽsumus, ut, eius cooperánte caritáte, Ecclésia tua, in dies fecúndior prolis sanctitáte exsúltet et in grémium suum cunctas áttrahat famílias populórum."
+        }
+      }
+    },
+    "33": {
+      "eig": {
+        "ErsteV": {
+          "comm_1": "Maria",
           "oration": "Gott, du hast dem Heiligen Geist im Herzen der seligen Jungfrau Maria eine würdige Wohnung bereitet. Auf ihre Fürbitte hin erfülle auch unser Leben mit deiner Gegenwart und mache uns zu einem Tempeln deiner Herrlichkeit.^ORV"
         },
         "Lesehore": {
