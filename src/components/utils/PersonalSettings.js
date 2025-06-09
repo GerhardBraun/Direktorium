@@ -273,14 +273,14 @@ const PersonalSettings = () => {
                 <div
                     className="grid gap-2 items-top text-xs mt-1 text-gray-500 dark:text-gray-400"
                     style={{
-                        gridTemplateColumns: '6rem 1fr',
+                        gridTemplateColumns: '2rem 1fr',
                         fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif',
                     }}>
-                    <span className="font-semibold text-gray-700 dark:text-gray-300" style={{ textAlign: 'right' }}>
+                    <span className="font-semibold text-gray-700 dark:text-gray-300" >
                         Auto:&nbsp;
                     </span>
                     <p>
-                        Beim ersten Aufruf des Tages wird zunächst das Direktorium angezeigt, bei&nbsp;den&nbsp;weiteren&nbsp;Aufrufen direkt das&nbsp;Stundengebet.
+                        Beim ersten Aufruf des Tages wird zunächst das Direktorium angezeigt, bei&nbsp;den weiteren Aufrufen direkt das&nbsp;Stundengebet.
                     </p>
                 </div>            </div>
 
