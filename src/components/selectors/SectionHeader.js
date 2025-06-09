@@ -2,11 +2,16 @@ import React from 'react';
 
 const checkSources = (texts, hour, prefSrc, field) => {
     const hasEig = texts[hour][prefSrc]?.[field];
-    const hasWt = texts[hour]['wt']?.[field];
-    const hasComm1 = texts[hour][prefSrc]?.['com1']?.[field];
-    const hasComm2 = texts[hour][prefSrc]?.['com2']?.[field];
-    const nameComm1 = texts['laudes'][prefSrc]?.['com1']?.['button'] || '1';
-    const nameComm2 = texts['laudes'][prefSrc]?.['com2']?.['button'] || '2';
+    const hasWt = texts[hour].wt?.[field];
+    const hasComm1 = texts[hour][prefSrc]?.com1?.[field];
+    const hasComm2 = texts[hour][prefSrc]?.com2?.[field];
+    const nameComm1 = texts.laudes[prefSrc]?.com1?.button || '1';
+    const nameComm2 = texts.laudes[prefSrc]?.com2?.button || '2';
+
+    const hasEig_lat = texts[hour][prefSrc]?.[`${field}_lat`];
+    const hasWt_lat = texts[hour].wt?.[`${field}_lat`];
+    const hasComm1_lat = texts[hour][prefSrc]?.com1?.[`${field}_lat`];
+    const hasComm2_lat = texts[hour][prefSrc]?.com2?.[`${field}_lat`];
 
     return {
         hasEig, hasWt,

@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import {
     Tooltip,
     TooltipContent,
     TooltipProvider,
     TooltipTrigger,
 } from "../ui/tooltip.jsx";
+import { formatPrayerText } from "../dataHandlers/TextFormatter.js";
 
 /**
  * LanguageProgress - Komponente zur Anzeige des Bearbeitungsstands der Sprachversionen
@@ -15,19 +16,22 @@ import {
  * Letzte Aktualisierung: Dezember 2024
  */
 const LanguageProgress = () => {
+    const [isTooltipOpen, setIsTooltipOpen] = useState(false);
+
+    const infoText = "^kDer Bestand der Texte für die alternativen Sprachen wird nach und nach aufgebaut. Wo diese noch fehlen, werden die Texte aus dem Stundenbuch angezeigt.^0k";
+    const progressText = "^kAktueller Bearbeitungsstand^0k^p^fneue Einheitsübersetzung^0f^lAlle Psalmen und Cantica können in der neuen Einheitsübersetzung angezeigt werden.^lDie Kurzlesungen werden voraussichtlich Buch für Buch ergänzt.^lWo eine Kurzlesung bereits in der neuen Einheitsübersetzung steht, wird dies durch das Zeichen°› am Anfang des Textes angezeigt.^lDie Lesungen der Lesehore werden nachrangig behandelt und vorerst nicht eingearbeitet.^p^flateinischer Text der Liturgia Horarum^0f^lFür das Stundengebet im Jahreskreis steht der Vierwochenpsalter vollständig zur Verfügung.^lDie Eigentexte für die Sonntage und die bevorstehenden Hochfeste und Feste werden nach Möglichkeit rechtzeitig zum Gebrauch ergänzt.^lDie Commune-Texte sind noch nicht enthalten.^lDie Lesungen der Lesehore werden nachrangig behandelt und vorerst nicht eingearbeitet.";
+
     return (
-        <div className="m-0 text-xs text-gray-500 dark:text-gray-400">
-            <div className=" flex items-start gap-1">
-                <span className="mb-1 italic">
-                    Der Bestand der Texte für die alternativen Sprachen wird nach und nach aufgebaut.
-                    Wo diese noch fehlen, werden die Texte aus dem Stundenbuch angezeigt.
-                </span>
+        <div className="mb-2 text-xs text-gray-500 dark:text-gray-400">
+            <div className="mb-1 flex items-start gap-1">
+                {formatPrayerText(infoText)}
                 <TooltipProvider>
-                    <Tooltip>
+                    <Tooltip open={isTooltipOpen} onOpenChange={setIsTooltipOpen}>
                         <TooltipTrigger asChild>
                             <button
-                                className="text-blue-500 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 cursor-help flex-shrink-0"
+                                className="text-blue-500 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 cursor-help flex-shrink-0 touch-manipulation"
                                 aria-label="Informationen zum aktuellen Bearbeitungsstand"
+                                onClick={() => setIsTooltipOpen(!isTooltipOpen)}
                             >
                                 ⓘ
                             </button>
@@ -42,34 +46,10 @@ const LanguageProgress = () => {
                             }}
                         >
                             <div style={{
-                                display: 'flex', flexDirection: 'column', gap: '8px',
+                                display: 'flex', flexDirection: 'column', gap: '0px',
                                 whiteSpace: 'normal', margin: 0
                             }}>
-                                <p className="italic">
-                                    Aktueller Bearbeitungsstand
-                                </p>
-                                <p className="mt-0 -mb-1 font-semibold">
-                                    neue Einheitsübersetzung
-                                </p>
-                                <p>
-                                    Alle Psalmen und Cantica können in der neuen Einheitsübersetzung angezeigt werden.
-                                    <br />
-                                    Die Kurzlesungen werden voraussichtlich Buch für Buch ergänzt.
-                                    <br />
-                                    Wo eine Kurzlesung bereits in der neuen Einheitsübersetzung steht, wird dies
-                                    durch das Zeichen › am Anfang des Textes angezeigt.
-                                    <br />
-                                    Die Lesungen der Lesehore werden nachrangig behandelt und vorerst nicht eingearbeitet.
-                                </p>
-                                <p className="mt-2 -mb-1 font-semibold">
-                                    lateinischer Text der Liturgia Horarum
-                                </p>
-                                <p>
-                                    Für das Stundengebet im Jahreskreis steht der Vierwochenpsalter vollständig zur Verfügung.<br />
-                                    Die Eigentexte für die Sonntage und die bevorstehenden Hochfeste und Feste werden nach Möglichkeit
-                                    rechtzeitig zum Gebrauch ergänzt.<br />
-                                    Die Lesungen der Lesehore werden nachrangig behandelt und vorerst nicht eingearbeitet.
-                                </p>
+                                {formatPrayerText(progressText)}
                                 <div style={{
                                     paddingTop: '8px',
                                     borderTop: '1px solid #d1d5db',
@@ -94,3 +74,4 @@ const LanguageProgress = () => {
 };
 
 export default LanguageProgress;
+
