@@ -273,15 +273,16 @@ const PersonalSettings = () => {
                 <div
                     className="grid gap-2 items-top text-xs mt-1 text-gray-500 dark:text-gray-400"
                     style={{
-                        gridTemplateColumns: '6rem 2rem 1fr',
+                        gridTemplateColumns: '6rem 1fr',
                         fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif',
-                    }}
-                >                    <p></p>
-                    <span className="font-semibold text-gray-700 dark:text-gray-300">Auto: </span>
-                    <p >
+                    }}>
+                    <span className="font-semibold text-gray-700 dark:text-gray-300" style={{ textAlign: 'right' }}>
+                        Auto:&nbsp;
+                    </span>
+                    <p>
                         Beim ersten Aufruf des Tages wird zunächst das Direktorium angezeigt, bei&nbsp;den&nbsp;weiteren&nbsp;Aufrufen direkt das&nbsp;Stundengebet.
-                    </p></div>
-            </div>
+                    </p>
+                </div>            </div>
 
             {/* Fußnoten Section */}
             <div className="px-3 py-0">
@@ -313,7 +314,7 @@ const PersonalSettings = () => {
                 </div>
 
                 {/* Deutsche Namen */}
-                <div className="grid gap-1 items-center mb-1"
+                <div className="grid gap-1 items-center mb-3"
                     style={{ gridTemplateColumns: '6rem minmax(0, 1fr) minmax(0, 1fr)' }}>
                     <label className="text-sm text-gray-500 dark:text-gray-400">
                         Deutsch
@@ -400,7 +401,7 @@ const PersonalSettings = () => {
                 <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-4">
                     Invitatoriumspsalmen an den Wochentagen
                 </div>
-                <div className="space-y-3">
+                <div className="space-y-2">
                     {weekdays.map((day, dayIndex) => (
                         <div key={day} className="grid gap-2 items-center"
                             style={{ gridTemplateColumns: '6rem 1fr 1fr 1fr 1fr' }}>

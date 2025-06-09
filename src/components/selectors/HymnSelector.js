@@ -98,7 +98,6 @@ const HymnSelector = ({ texts, hour, season,
             const hymns = [];
             const usedHymnNumbers = new Set();
             const hasNachtHymn = texts[hour]?.wt?.[`hymn_nacht${localPrefLanguage}`];
-            console.log('hasNachtHymn', hasNachtHymn);
 
             const addNewHymn = ({ hymnNumber, id, sourceLabel, isNachtHymn = false }) => {
                 // Korrigierte Logik: Nur verarbeiten wenn hymnNumber existiert und noch nicht verwendet

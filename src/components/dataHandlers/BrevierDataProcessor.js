@@ -228,17 +228,9 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
             processHeiligenfeste(hours, season, rank_date, dayOfWeek, calendarMonth, calendarDay, 'eig');
         }
 
-        // Sonderfall: MaterEcclesiae und gebotener Gedenktag
-        if (isMaterEccl) {
-            processNichtgeboteneGedenktage(hours, season, '5', '32');
-            if (rank_date === 2) {
-                processHeiligenfeste(hours, season, rank_date, dayOfWeek, calendarMonth, calendarDay, 'eig', 'n1');
-                processNichtgeboteneGedenktage(hours, season, calendarMonth, calendarDay, true);
-            }
-        }
-        // Sonderfall: Herz Mariae und gebotener Gedenktag
-        if (isImmacHeart) {
-            processNichtgeboteneGedenktage(hours, season, '5', '33');
+        // Sonderfall: MaterEcclesiae bzw. Herz Mariae und gebotener Gedenktag
+        if (isMaterEccl || isImmacHeart) {
+            processNichtgeboteneGedenktage(hours, season, '5', isMaterEccl ? '32' : '33');
             if (rank_date === 2) {
                 processHeiligenfeste(hours, season, rank_date, dayOfWeek, calendarMonth, calendarDay, 'eig', 'n1');
                 processNichtgeboteneGedenktage(hours, season, calendarMonth, calendarDay, true);
