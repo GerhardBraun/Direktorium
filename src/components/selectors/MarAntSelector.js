@@ -6,6 +6,10 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
     const [Assumption, setAssumption] = useState(false);
     const [Nativity, setNativity] = useState(false);
 
+    const suffixLatin = useMemo(() => {
+        return localPrefLatin ? '_lat' : '';
+    }, [localPrefLatin]);
+
     // Definition der Marianischen Antiphonen mit direkter Zuordnung zur liturgischen Zeit
     const marianAntiphons = useMemo(() => [
         {
@@ -53,6 +57,8 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
         {
             season: "o", // Osterzeit
             color: (season === 'o') ? "btn-gold mb-2" : "btn-default mt-2",
+            rubric: "Diese Antiphon ist der Osterzeit vorbehalten.",
+            rubric_lat: "Hæc antiphona reservata est tempori paschali.",
             title: (season === 'o') ? "O Himmelskönigin, frohlocke" : "[O Himmelskönigin, frohlocke]",
             text: "O Himmelskönigin, frohlocke, Halleluja.^lDenn er, den du zu tragen würdig warst, Halleluja,^list erstanden, wie er sagte. Halleluja.^lBitt Gott für uns, Maria. Halleluja.",
             title_lat: (season === 'o') ? "Regina cæli" : "[Regina cæli]",
@@ -127,10 +133,13 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
         const ant = sortedAntiphons[0];
         return (
             <div className="w-full">
-                {formatPrayerText(localPrefLatin ? ant.text_lat : ant.text)}
+                {formatPrayerText(ant[`text${suffixLatin}`])}
             </div>
         );
     }
+
+    const selectedAntiphon = sortedAntiphons.find(ant => ant.season === selectedAntSeason);
+    if (!selectedAntiphon) return null; // Sicherheitscheck, falls keine Antiphon gefunden wird
 
     return (
         <div className="w-full">
@@ -145,7 +154,7 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
                             ? 'ring-2 ring-yellow-500' : ''}`}                >
                     <div className="flex items-baseline">
                         <div>
-                            {localPrefLatin ? ant.title_lat : ant.title}
+                            {ant[`title${suffixLatin}`]}
                         </div>
                     </div>
                 </button>
@@ -153,12 +162,15 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
 
             {/* Ausgewählte Antiphon anzeigen */}
             {selectedAntSeason && (
-                <div className="mt-5">
-                    {formatPrayerText(
-                        localPrefLatin
-                            ? sortedAntiphons.find(a => a.season === selectedAntSeason)?.text_lat
-                            : sortedAntiphons.find(a => a.season === selectedAntSeason)?.text
+                <div>
+                    {(season !== 'o' && selectedAntiphon?.[`rubric${suffixLatin}`]) && (
+                        <div className='long-rubric mt-4 -mb-4'>
+                            {selectedAntiphon[`rubric${suffixLatin}`]}
+                        </div>
                     )}
+                    <div className="mt-5">
+                        {formatPrayerText(selectedAntiphon[`text${suffixLatin}`])}
+                    </div>
                 </div>
             )}
         </div>
