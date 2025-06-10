@@ -2882,7 +2882,7 @@ export const adlibData = {
         "ErsteV": {
           "comm_1": "Hirten",
           "oration": "Herr und Gott, du hast im heiligen Bischof Bardo den Mönchen ein Vorbild und den Gläubigen einen eifrigen Seelsorger geschenkt. Hilf uns, nach seinem Beispiel in allem auf das Heil der Menschen bedacht zu sein.^ORV",
-          "oration_lat": "Deus, qui Ecclésiæ tuæ per beátum Bardónem epíscopum reguláris disciplínæ ac stúdii pastorális exémpla donásti, fac nos, quaésumus, eius inhæréntes vestígiis, hóminum ad salutem semper esse inténtos.^ORlV"
+          "oration_lat": "Deus, qui Ecclésiæ tuæ per beátum Bardónem epíscopum reguláris disciplínæ ac stúdii pastorális exémpla donásti, fac nos, quǽsumus, eius inhæréntes vestígiis, hóminum ad salutem semper esse inténtos.^ORlV"
         },
         "Lesehore": {
           "comm_1": "Hirten",
@@ -2893,19 +2893,19 @@ export const adlibData = {
           "patr_resp2": "Aus seiner Fülle haben wir alle empfangen, Gnade über Gnade.^ö",
           "patr_resp3": "Was hast du, das du nicht empfangen hättest? Wenn du es aber empfangen hast, warum rühmst du dich, als hättest du es nicht empfangen?",
           "oration": "Herr und Gott, du hast im heiligen Bischof Bardo den Mönchen ein Vorbild und den Gläubigen einen eifrigen Seelsorger geschenkt. Hilf uns, nach seinem Beispiel in allem auf das Heil der Menschen bedacht zu sein.^ORV",
-          "oration_lat": "Deus, qui Ecclésiæ tuæ per beátum Bardónem epíscopum reguláris disciplínæ ac stúdii pastorális exémpla donásti, fac nos, quaésumus, eius inhæréntes vestígiis, hóminum ad salutem semper esse inténtos.^ORlV"
+          "oration_lat": "Deus, qui Ecclésiæ tuæ per beátum Bardónem epíscopum reguláris disciplínæ ac stúdii pastorális exémpla donásti, fac nos, quǽsumus, eius inhæréntes vestígiis, hóminum ad salutem semper esse inténtos.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Bardo",
           "genitiv": "des heiligen Bardo",
           "comm_1": "Hirten",
           "oration": "Herr und Gott, du hast im heiligen Bischof Bardo den Mönchen ein Vorbild und den Gläubigen einen eifrigen Seelsorger geschenkt. Hilf uns, nach seinem Beispiel in allem auf das Heil der Menschen bedacht zu sein.^ORV",
-          "oration_lat": "Deus, qui Ecclésiæ tuæ per beátum Bardónem epíscopum reguláris disciplínæ ac stúdii pastorális exémpla donásti, fac nos, quaésumus, eius inhæréntes vestígiis, hóminum ad salutem semper esse inténtos.^ORlV"
+          "oration_lat": "Deus, qui Ecclésiæ tuæ per beátum Bardónem epíscopum reguláris disciplínæ ac stúdii pastorális exémpla donásti, fac nos, quǽsumus, eius inhæréntes vestígiis, hóminum ad salutem semper esse inténtos.^ORlV"
         },
         "Vesper": {
           "comm_1": "Hirten",
           "oration": "Herr und Gott, du hast im heiligen Bischof Bardo den Mönchen ein Vorbild und den Gläubigen einen eifrigen Seelsorger geschenkt. Hilf uns, nach seinem Beispiel in allem auf das Heil der Menschen bedacht zu sein.^ORV",
-          "oration_lat": "Deus, qui Ecclésiæ tuæ per beátum Bardónem epíscopum reguláris disciplínæ ac stúdii pastorális exémpla donásti, fac nos, quaésumus, eius inhæréntes vestígiis, hóminum ad salutem semper esse inténtos.^ORlV"
+          "oration_lat": "Deus, qui Ecclésiæ tuæ per beátum Bardónem epíscopum reguláris disciplínæ ac stúdii pastorális exémpla donásti, fac nos, quǽsumus, eius inhæréntes vestígiis, hóminum ad salutem semper esse inténtos.^ORlV"
         }
       }
     },

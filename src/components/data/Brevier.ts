@@ -10556,7 +10556,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Heiliger Gott, du hast uns das Gebot der Liebe zu dir und zu unserem Nächsten aufgetragen als die Erfüllung des ganzen Gesetzes. Gib uns die Kraft, dieses Gebot treu zu befolgen, damit wir das ewige Leben erlangen.^ORV",
-          "oration_lat": "Deus, qui sacræ legis ómnia constitúta in tua et próximi dilectióne posuísti, da nobis, ut, tua præcepta serván-tes, ad vitam mereámur perveníre perpétuam.^ORlV"
+          "oration_lat": "Deus, qui sacræ legis ómnia constitúta in tua et próximi dilectióne posuísti, da nobis, ut, tua præcepta servántes, ad vitam mereámur perveníre perpétuam.^ORlV"
         }
       }
     },
