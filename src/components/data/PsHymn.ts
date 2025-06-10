@@ -3904,7 +3904,9 @@ export const psalmsData = {
     0.0: {
         "title": "Preise, Zunge, und verkünde",
         "quote": "Fastenzeit",
-        "text": "Preise, Zunge, und verkünde^lden erhabnen Waffengang;^lauf das Kreuz, das Siegeszeichen,^lsinge den Triumphgesang.^lSinge, wie der Welt Erlöser^lstarb und dennoch Sieg errang.^pDenn verblendet aß sich Adam^leinst vom Baume das Gericht;^ldoch der Schöpfer voll Erbarmen^lwollte sein Verderben nicht^lund hat selbst den Baum erkoren,^lder den Fluch des Baumes bricht.^pGottes Plan, uns zu erlösen,^lhat verlangt die Opfertat,^lund des Vaters ew’ge Weisheit^lmacht’ zuschanden den Verrat^lund verlieh barmherzig Heilung,^lwo der Feind verwundet hat.^pSo ward in der Zeiten Fülle^luns gesandt des Vaters Sohn,^ler, der Schöpfer aller Welten,^lstieg herab vom Himmelsthron^lund ward Fleisch und ward geboren^lund ward einer Jungfrau Sohn.^pAls nach dreißig Erdenjahren^lfür den Herrn die Stunde kam,^ldass er unsres Heiles wegen^lTod und Leiden auf sich nahm,^lwurde er erhöht am Kreuze,^ldargebracht als Gotteslamm.^pSeht den Essig, seht die Galle,^lDornen, Nägel, Speer voll Wut^lseinen zarten Leib durchbohren,^lWasser strömt hervor und Blut;^lErde, Meere, Sterne, Welten^lwerden rein durch solche Flut.^pLob und Ruhm sei ohne Ende^lGott, dem höchsten Herrn, geweiht.^lPreis dem Vater und dem Sohne^lund dem Geist der Heiligkeit.^lEinen Gott in drei Personen^llobe alle Welt und Zeit. Amen."
+        "text": "Preise, Zunge, und verkünde^lden erhabnen Waffengang;^lauf das Kreuz, das Siegeszeichen,^lsinge den Triumphgesang.^lSinge, wie der Welt Erlöser^lstarb und dennoch Sieg errang.^pDenn verblendet aß sich Adam^leinst vom Baume das Gericht;^ldoch der Schöpfer voll Erbarmen^lwollte sein Verderben nicht^lund hat selbst den Baum erkoren,^lder den Fluch des Baumes bricht.^pGottes Plan, uns zu erlösen,^lhat verlangt die Opfertat,^lund des Vaters ew’ge Weisheit^lmacht’ zuschanden den Verrat^lund verlieh barmherzig Heilung,^lwo der Feind verwundet hat.^pSo ward in der Zeiten Fülle^luns gesandt des Vaters Sohn,^ler, der Schöpfer aller Welten,^lstieg herab vom Himmelsthron^lund ward Fleisch und ward geboren^lund ward einer Jungfrau Sohn.^pAls nach dreißig Erdenjahren^lfür den Herrn die Stunde kam,^ldass er unsres Heiles wegen^lTod und Leiden auf sich nahm,^lwurde er erhöht am Kreuze,^ldargebracht als Gotteslamm.^pSeht den Essig, seht die Galle,^lDornen, Nägel, Speer voll Wut^lseinen zarten Leib durchbohren,^lWasser strömt hervor und Blut;^lErde, Meere, Sterne, Welten^lwerden rein durch solche Flut.^pLob und Ruhm sei ohne Ende^lGott, dem höchsten Herrn, geweiht.^lPreis dem Vater und dem Sohne^lund dem Geist der Heiligkeit.^lEinen Gott in drei Personen^llobe alle Welt und Zeit. Amen.",
+        "title_lat": "Pange, lingua, gloriósi",
+        "text_lat": "Pange, lingua, gloriósi^lprœ́lium certáminis,^let super crucis tropǽo^ldic triúmphum nóbilem,^lquáliter redémptor orbis^limmolátus vícerit.^pDe paréntis protoplásti^lfraude factor cóndolens,^lquando pomi noxiális^lmorte morsu córruit,^lipse lignum tunc notávit,^ldamna lign>i ut sólveret.^pHoc opus nostræ salútis^lordo depopóscerat,^lmultifórmis perditóris^lart>e ut artem fálleret,^let medélam ferret inde,^lhostis unde lǽserat.^pQuando venit ergo sacri^lplenitúdo témporis,^lmissus est ab arce Patris^lNatus, orbis cónditor,^latque ventre virgináli^lcarne factus pródiit.^pLustra sex qui iam perácta^ltempus implens córporis,^lse volénte, natus ad hoc,^lpassióni déditus,^lagnus in crucis levátur^limmolándus stípite.^pÆqua Patri Filióque,^línclito Paráclito,^lsempitérna sit beátæ^lTrinitáti glória,^lcuius alma nos redémit^latque servat grátia. Amen."
       }
   },
   3321: {
@@ -4047,7 +4049,7 @@ export const psalmsData = {
         "quote": "Pfingsten",
         "text": "Komm, Heil’ger Geist, der Leben schafft,^lerfülle uns mit deiner Kraft.^lDein Schöpferwort rief uns zum Sein:^lnun hauch uns Gottes Odem ein.^pKomm, Tröster, der die Herzen lenkt,^ldu Beistand, den der Vater schenkt;^laus dir strömt Leben, Licht und Glut,^ldu gibst uns Schwachen Kraft und Mut.^pDich sendet Gottes Allmacht aus^lim Feuer und in Sturmes Braus;^ldu öffnest uns den stummen Mund^lund machst der Welt die Wahrheit kund.^pEntflamme Sinne und Gemüt,^ldass Liebe unser Herz durchglüht^lund unser schwaches Fleisch und Blut^lin deiner Kraft das Gute tut.^pDie Macht des Bösen banne weit,^lschenk deinen Frieden allezeit.^lErhalte uns auf rechter Bahn,^ldass Unheil uns nicht schaden kann.^pLass gläubig uns den Vater sehn,^lsein Ebenbild, den Sohn, verstehn^lund dir vertraun, der uns durchdringt^lund uns das Leben Gottes bringt.^pDen Vater auf dem ew’gen Thron^lund seinen auferstandnen Sohn,^ldich, Odem Gottes, Heil’ger Geist,^lauf ewig Erd’ und Himmel preist. Amen.",
         "title_lat": "Veni, creátor Spíritus",
-        "text_lat": "Veni, creátor Spíritus,^lmentes tuórum vísita,^limple supérna grátia,^lquæ tu creásti, péctora.^pQui díceris Paráclitus,^ldonum Dei altíssimi,^lfons vivus, ignis, cáritas^let spiritális únctio.^pTu septifórmis múnere,^ldextræ Dei tu dígitus,^ltu rite promíssum Patris^lsermóne ditans gúttura.^pAccénde lumen sénsibus,^linfúnd>e amórem córdibus,^linfírma nostri córporis,^lvirtúte firmans pérpeti.^pHostem repéllas lóngius^lpacémque dones prótinus;^lductóre sic te prǽvio^lvitémus omne nóxium.^pPer te sciámus da Patrem^lnoscámus atque Fílium,^lte utriúsque Spíritum^lcredámus omni témpore. Amen.^p^l"
+        "text_lat": "Veni, creátor Spíritus,^lmentes tuórum vísita,^limple supérna grátia,^lquæ tu creásti, péctora.^pQui díceris Paráclitus,^ldonum Dei altíssimi,^lfons vivus, ignis, cáritas^let spiritális únctio.^pTu septifórmis múnere,^ldextræ Dei tu dígitus,^ltu rite promíssum Patris^lsermóne ditans gúttura.^pAccénde lumen sénsibus,^linfúnd>e amórem córdibus,^linfírma nostri córporis,^lvirtúte firmans pérpeti.^pHostem repéllas lóngius^lpacémque dones prótinus;^lductóre sic te prǽvio^lvitémus omne nóxium.^pPer te sciámus da Patrem^lnoscámus atque Fílium,^lte utriúsque Spíritum^lcredámus omni témpore. Amen."
       }
   },
   3448: {
@@ -4136,10 +4138,14 @@ export const psalmsData = {
   },
   4003: {
     1.0: {
-        "quote": "lat. Terz"
+        "quote": "lat. Terz",
+        "title_lat": "Nunc, Sancte, nobis, Spíritus",
+        "text_lat": "Nunc, Sancte, nobis, Spíritus^lunum Patri cum Fílio,^ldignáre promptus íngeri^lnostro refúsus péctori.^pOs, lingua, mens, sensus, vigor^lconfessiónem pérsonent,^lflamméscat igne cáritas,^laccéndat ardor próximos.^pPer te sciámus da Patrem^lnoscámus atque Fílium,^lte utriúsque Spíritum^lcredámus omni témpore. Amen."
       },
     2.0: {
-        "quote": "lat. Terz"
+        "quote": "lat. Terz",
+        "title_lat": "Certum tenéntes órdinem",
+        "text_lat": "Certum tenéntes órdinem,^lpio poscámus péctore^lhora diéi tértia^ltrinæ virtútis glóriam,^pUt simus habitáculum^lilli Sancto Spirítui,^lqui quondam in apóstolis^lhac hora distribútus est.^pHoc gradiénte órdine,^lornávit cuncta spléndide^lregni cæléstis cónditor^lad nostr>a ætérna prǽmia.^pDeo Patri sit glória^leiúsque soli Fílio^lcum Spíritu Paráclito,^lin sempitérna sǽcula. Amen."
       },
     3.0: {
         "quote": "lat. Terz Fastenzeit"
@@ -4158,10 +4164,14 @@ export const psalmsData = {
   },
   4006: {
     1.0: {
-        "quote": "lat. Sext"
+        "quote": "lat. Sext",
+        "title_lat": "Rector potens, verax Deus",
+        "text_lat": "Rector potens, verax Deus,^lqui témperas rerum vices,^lsplendóre mane ínstruis^let ígnibus merídiem,^pExstíngue flammas lítium,^laufer calórem nóxium,^lconfer salútem córporum^lverámque pacem córdium.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^lregnans per omne sǽculum. Amen."
       },
     2.0: {
-        "quote": "lat. Sext"
+        "quote": "lat. Sext",
+        "title_lat": "Dicámus laudes Dómino",
+        "text_lat": "Dicámus laudes Dómino^lfervénte prompti spíritu;^lhora volúta séxies^lnos ad orándum próvocat.^pIn hac enim fidélibus^lveræ salútis glória,^lbeáti Agni hóstia,^lcrucis virtúte rédditur.^pCuius luce claríssima^ltenébricat merídies;^lsumámus toto péctore^ltanti splendóris grátiam.^pDeo Patri sit glória^leiúsque soli Fílio^lcum Spíritu Paráclito,^lin sempitérna sǽcula. Amen."
       },
     3.0: {
         "quote": "lat. Sext Fastenzeit"
@@ -4181,16 +4191,22 @@ export const psalmsData = {
   },
   4009: {
     1.0: {
-        "quote": "lat. Non"
+        "quote": "lat. Non",
+        "title_lat": "Rerum, Deus, tenax vigor",
+        "text_lat": "Rerum, Deus, tenax vigor,^limmótus in te pérmanens,^llucis diúrnæ témpora^lsuccéssibus detérminans,^pLargíre clarum véspere,^lquo vita numquam décidat,^lsed prǽmium mortis sacræ^lperénnis instet glória.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^lregnans per omne sǽculum. Amen."
       },
     2.0: {
-        "quote": "lat. Non"
+        "quote": "lat. Non",
+        "title_lat": "Ternis horárum términis",
+        "text_lat": "Ternis horárum términis^lvolútis, dante Dómino,^ltrinum perféct>e et únicum^lipsum devóti psállimus.^pSacrum Dei mystérium^lpuro tenéntes péctore,^lPetri magístri régula^lsigno salútis pródita,^pEt nos psallámus spíritu,^lhæréntes sic apóstolis,^lut plantas adhuc débiles^lChristi virtúte dírigant.^pDeo Patri sit glória^leiúsque soli Fílio^lcum Spíritu Paráclito,^lin sempitérna sǽcula. Amen."
       },
     3.0: {
         "quote": "lat. Non Fastenzeit"
       },
     4.0: {
-        "quote": "lat. Non Palmsonntag"
+        "quote": "lat. Non Palmsonntag",
+        "title_lat": "Celsæ salútis gáudia",
+        "text_lat": "Celsæ salútis gáudia^lmundus fidélis iúbilet:^lIesus, redémptor ómnium,^lmortis perémit príncipem.^pPalm>æ et olívæ súrculos^lcœtus viándo déferens,^l« Hosánna David fílio »^lclaris frequéntat vócibus.^pNos ergo summo príncipi^lcurrámus omnes óbviam;^lmelos canéntes glóriæ,^lpalmas gerámus gáudii.^pCursúsque nostros lúbricos^ldonis beátis súblevet,^lgrates ut omni témpore^lipsi ferámus débitas.^pDeo Patri sit glória^leiúsque soli Fílio^lcum Spíritu Paráclito^lin sempitérna sǽcula. Amen."
       },
     5.0: {
         "quote": "lat. Non Karfreitag u. Karsamstag"
@@ -4674,7 +4690,7 @@ export const psalmsData = {
     5.0: {
         "title": "Viel’ Märtyrer seit der Apostel Tagen",
         "quote": "Bonifatius",
-        "text": "^RUBRDie 1. Zeile ist hier an das Versmaß des Hymnus angepasst. In den gedruckten „Eigenfeiern“ beginnt er:^l„So viele Märtyrer seit der Apostel Tagen ...“^0RUBR^pViel’ Märtyrer seit der Apostel Tagen^lbesiegelten ihr christliches Bekenntnis^lmit ihrem Blut und halfen dadurch mit,^ldie Botschaft Christi durch die Zeit zu tragen.^pSind uns drum alle Märtyrer geworden^lBürgen des Glaubens, so verehren wir^lvor allem einen doch als Glaubensvater:^lden heil’gen Bischof Bonifatius.^pDie Lehre, die er unserm Volk verkündet,^list heute noch das Brot, von dem wir leben;^lder Geist, den Gott durch seinen Dienst geschenkt,^list heute noch der Atem unsrer Seelen.^pDer Martertod, den Bonifatius ersehnte,^lerschloss ihm rasch das Tor zum ew’gen Leben,^lschenkt’ ihm den Siegeskranz und lässt auch uns^lim Glauben feststehn und den Tod nicht fürchten.^pSei, Bonifatius, wie einstens unsern Vätern,^lso auch für uns ein guter Hirt! Bewache,^ldie deiner Leitung traun, vom Himmel her^lund lenke unsern Fuß auf gute Weide.^pDu hast uns deinen toten Leib vertraut,^lFulda durft’ deines Grabes Hüter werden;^ldoch mehr noch soll es deines Glaubens Erbe hüten.^lDrum schick zu Gott für Stadt und Bistum dein Gebet.^pDie Ehre sei dem Vater und dem Sohne,^lder durch die Taufe uns gewürdigt hat,^llebend’ge Glieder seines Leibs zu werden,^lund Ehr’ dem Heil’gen Geist in alle Ewigkeiten.^lAmen.^p"
+        "text": "^RUBRDie 1. Zeile ist hier an das Versmaß des Hymnus angepasst. In den gedruckten „Eigenfeiern“ beginnt er:^l„So viele Märtyrer seit der Apostel Tagen ...“^0RUBR^pViel’ Märtyrer seit der Apostel Tagen^lbesiegelten ihr christliches Bekenntnis^lmit ihrem Blut und halfen dadurch mit,^ldie Botschaft Christi durch die Zeit zu tragen.^pSind uns drum alle Märtyrer geworden^lBürgen des Glaubens, so verehren wir^lvor allem einen doch als Glaubensvater:^lden heil’gen Bischof Bonifatius.^pDie Lehre, die er unserm Volk verkündet,^list heute noch das Brot, von dem wir leben;^lder Geist, den Gott durch seinen Dienst geschenkt,^list heute noch der Atem unsrer Seelen.^pDer Martertod, den Bonifatius ersehnte,^lerschloss ihm rasch das Tor zum ew’gen Leben,^lschenkt’ ihm den Siegeskranz und lässt auch uns^lim Glauben feststehn und den Tod nicht fürchten.^pSei, Bonifatius, wie einstens unsern Vätern,^lso auch für uns ein guter Hirt! Bewache,^ldie deiner Leitung traun, vom Himmel her^lund lenke unsern Fuß auf gute Weide.^pDu hast uns deinen toten Leib vertraut,^lFulda durft’ deines Grabes Hüter werden;^ldoch mehr noch soll es deines Glaubens Erbe hüten.^lDrum schick zu Gott für Stadt und Bistum dein Gebet.^pDie Ehre sei dem Vater und dem Sohne,^lder durch die Taufe uns gewürdigt hat,^llebend’ge Glieder seines Leibs zu werden,^lund Ehr’ dem Heil’gen Geist in alle Ewigkeiten.^lAmen."
       },
     6.0: {
         "title": "A. Sankt Bonifatius, wir deine Kinder",
@@ -4708,7 +4724,7 @@ export const psalmsData = {
     2.0: {
         "title": "Christus, dem Herren, dientest du als Herold",
         "quote": "JohannesdT",
-        "text": "Christus, dem Herren, dientest du als Herold.^lEwiger Ratschluss fand in dir den Boten.^lGlücklich wir preisen alle deinen Namen:^lGruß dir, Johannes!^pNoch trägt die Mutter dich in ihrem Schoße,^ldu aber fühlst schon, dass sich naht der König;^lFreude bewegt dich, drängt dich, ihn zu grüßen,^leh’ er geboren.^pWüste und Wildnis wählst du dir zur Wohnstatt,^lkündest die Ankunft des ersehnten Retters,^lpredigst die Umkehr, rufst das Volk zur Buße,^ldass es bereit sei.^pDen einst die Seher als das Licht verheißen,^ldas sie nur ahnend aus der Ferne schauten,^lihn, der hinwegnimmt alle Schuld der Erde,^lrufst du beim Namen.^pStimme des Rufers, der den Weg ihm ebnet,^ldich hat vor allen sich der Herr erkoren:^lJesus, der Heiland, lässt von dir sich taufen,^ler, das Lamm Gottes.^pLobpreis und Ehre Gott, dem ew’gen Vater,^lEhre dem Sohne, den du uns verkündet,^lEhre dem Geiste, der ihn dir bezeugte,^limmer und ewig"
+        "text": "Christus, dem Herren, dientest du als Herold.^lEwiger Ratschluss fand in dir den Boten.^lGlücklich wir preisen alle deinen Namen:^lGruß dir, Johannes!^pNoch trägt die Mutter dich in ihrem Schoße,^ldu aber fühlst schon, dass sich naht der König;^lFreude bewegt dich, drängt dich, ihn zu grüßen,^leh’ er geboren.^pWüste und Wildnis wählst du dir zur Wohnstatt,^lkündest die Ankunft des ersehnten Retters,^lpredigst die Umkehr, rufst das Volk zur Buße,^ldass es bereit sei.^pDen einst die Seher als das Licht verheißen,^ldas sie nur ahnend aus der Ferne schauten,^lihn, der hinwegnimmt alle Schuld der Erde,^lrufst du beim Namen.^pStimme des Rufers, der den Weg ihm ebnet,^ldich hat vor allen sich der Herr erkoren:^lJesus, der Heiland, lässt von dir sich taufen,^ler, das Lamm Gottes.^pLobpreis und Ehre Gott, dem ew’gen Vater,^lEhre dem Sohne, den du uns verkündet,^lEhre dem Geiste, der ihn dir bezeugte,^limmer und ewig. Amen."
       }
   },
   8629: {

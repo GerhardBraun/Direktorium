@@ -1379,13 +1379,13 @@ const PrayerTextDisplay = ({
     return (
       <div className="mb-0 whitespace-pre-wrap">
         {resp0 && resp1 && (
-          <div className="mb-0 flex gap-0">
-            <div>{formatPrayerText(resp0, "V°°")}</div>
-          </div>
-        )}
-        {resp0 && resp1 && (
-          <div className="mb-0 flex gap-0">
-            <div>{formatPrayerText(processedResp1, "R°°")}</div>
+          <div>
+            <div className="mb-0 flex gap-0">
+              <div>{formatPrayerText(resp0, "V°°")}</div>
+            </div>
+            <div className="mb-0 flex gap-0">
+              <div>{formatPrayerText(processedResp1, "R°°")}</div>
+            </div>
           </div>
         )}
         {resp1 && resp2 && (

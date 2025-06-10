@@ -22646,7 +22646,7 @@ export const brevierData = {
           "hymn_1": 2900.0,
           "hymn_2": 2901.0,
           "hymn_1_lat": 4009.1,
-          "hymn_2_lat": 4006.3
+          "hymn_2_lat": 4009.2
         },
         "Vesper": {},
         "Komplet": {

@@ -84,6 +84,7 @@ export const formatText = (text) => {
 };
 
 // Formatiert Gebetstext mit speziellen Tags und saisonalen Anpassungen
+// Formatiert Gebetstext mit speziellen Tags und saisonalen Anpassungen
 export const formatPrayerText = (provText, marker = '',
     hour = '', texts = {},
     prefSrc = '', localPrefLanguage = '', isNarrowScreen = false) => {
@@ -170,8 +171,8 @@ export const formatPrayerText = (provText, marker = '',
         .replace(/(\w)–/g, '$1\u200C–')
         .replace(/–(\w)/g, '–\u200C$1')
         .replace(/([0-9])-([0-9])/g, '$1\u200C\u2013\u200C$2')
-        .replace(/>([aeiouæ])(,;\s)/g, '^k$1^0k$2')
-        .replace(/\^([\(\)\[\]])/g, '^r$1^0r')
+        .replace(/>([aeiouæ])(,|;|\s)/g, '^k$1^0k$2')
+        .replace(/\^([()[\]])/g, '^r$1^0r')
         .replace(/\^ö/g, season === 'o' ? ' Halleluja.' : '')
         .replace(/\^Ö/g, season === 'q' ? '' : ' Halleluja.')
         .replace(/\^Lö/g, season === 'o' ? ' Allelúia.' : '')
@@ -234,23 +235,35 @@ export const formatPrayerText = (provText, marker = '',
     const footnoteNumbers = new Map();
     const allFootnotes = [];
 
-    text = text.replace(/\s*\{(\d{1,2})#(.*?)\}/g, (match, number, content) => {
+    // VERBESSERTE FUSSNOTENVERARBEITUNG: Satzzeichen erfassen
+    text = text.replace(/\s*\{(\d{1,2})#(.*?)\}([,.;?!]?)/g, (match, number, content, punctuation) => {
         const marker = `§FN${footnoteCounter}§`;
         footnoteMap.set(marker, content);
         footnoteNumbers.set(marker, number);
+
+        // Satzzeichen separat speichern, falls vorhanden
+        const punctuationMarker = punctuation ? `§PUNCT${footnoteCounter}§` : '';
+        if (punctuation) {
+            footnoteMap.set(punctuationMarker, punctuation);
+        }
+
         allFootnotes.push({
             number: number,
-            content: content
+            content: content,
+            punctuation: punctuation || ''
         });
         footnoteCounter++;
-        return useFootnoteList ? marker : ` ${marker}`;
+
+        return useFootnoteList ? marker + punctuationMarker : ` ${marker}${punctuationMarker}`;
     });
 
     // Inline-Formatierungen als React-Elemente verarbeiten
     const processInlineFormats = (text) => {
         text = text
             .replace(/\^l/g, '\n')
-        const segments = text.split(/(\^RUBR.*?\^0RUBR|\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^c.*?\^0c|\^k.*?\^0k|§FN\d+§)/g).filter(Boolean);
+
+        // ERWEITERTE REGEX um Satzzeichen-Marker zu erfassen
+        const segments = text.split(/(\^RUBR.*?\^0RUBR|\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^c.*?\^0c|\^k.*?\^0k|§FN\d+§|§PUNCT\d+§)/g).filter(Boolean);
 
         return segments.map((segment, index) => {
             if (segment.startsWith('^r')) {
@@ -279,7 +292,6 @@ export const formatPrayerText = (provText, marker = '',
                 const content = footnoteMap.get(segment);
 
                 if (useFootnoteList) {
-                    // Fußnote zur Gesamtliste hinzufügen
                     return <sup key={`footnote-ref-${index}`}>{number}</sup>;
                 } else {
                     return (
@@ -288,10 +300,24 @@ export const formatPrayerText = (provText, marker = '',
                         </Fragment>
                     );
                 }
+            } else if (segment.match(/^§PUNCT\d+§$/)) {
+                // Satzzeichen - nur im Text, nicht in der Fußnotenliste
+                const punctuation = footnoteMap.get(segment);
+
+                if (useFootnoteList) {
+                    // Bei Fußnotenliste: Satzzeichen mit nowrap an die Fußnotenziffer anhängen
+                    return <span key={`punctuation-${index}`} style={{ whiteSpace: 'nowrap' }}>{punctuation}</span>;
+                } else {
+                    // Bei Inline-Fußnoten: Satzzeichen mit nowrap an die Fußnote anhängen
+                    return (
+                        <span key={`footnote-punct-${index}`} style={{ whiteSpace: 'nowrap' }}>{punctuation}</span>
+                    );
+                }
             }
             return segment;
         });
     };
+
     // Prüfen, ob der Text Absatz-Tags enthält
     const hasParagraphTags = /\^[phql]/.test(text);
 

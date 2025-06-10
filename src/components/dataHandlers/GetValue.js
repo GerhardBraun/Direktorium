@@ -27,7 +27,7 @@ export const getValue = ({ season, hour, texts, field,
         const { rank_date = 0, rank_wt = 0, isCommemoration, hasErsteVesper = false, swdCombined, dayOfWeek } = texts;
         const sollemnityErsteVesper = () => ['soll', 'kirchw'].includes(prefSollemnity)
         const isTSN = ['terz', 'sext', 'non'].includes(hour)
-        const isKirchwVerst = ['kirchw', 'verst'].includes(prefSollemnity)
+        const memorialWithTNS = texts?.laudes?.eig?.button?.includes('Barnabas' || 'Schutzengel')
 
         // Feier wie ein Hochfest
         const isSollemnity = (hour === 'vesper' && hasErsteVesper)
@@ -57,7 +57,7 @@ export const getValue = ({ season, hour, texts, field,
             let sollSource = prefSollemnity ? prefSollemnity : 'soll';
             if (texts[hour]?.[sollSource]?.[field]) {
                 return texts[hour]?.[sollSource]?.[field]
-            } else if (isKirchwVerst) { return null; }
+            }
         }
 
         // Abruf der Werte für die Kommemoration
@@ -92,7 +92,6 @@ export const getValue = ({ season, hour, texts, field,
         ) { skipCommune = true }
 
         if (isSollemnity) { skipCommune = false }
-        if (isKirchwVerst) { skipCommune = true }
         if (!localPrefComm &&
             (field.startsWith('psalm') || field.startsWith('psalm'))) {
             skipCommune = true
@@ -100,7 +99,6 @@ export const getValue = ({ season, hour, texts, field,
 
         let prefTexts = texts[hour]?.[prefSrc];
         if (!prefTexts) { prefTexts = texts[hour]?.pers }
-        if (isKirchwVerst) { prefTexts = texts[hour]?.[prefSollemnity] }
 
         let prefCommTexts = '';
         if (!skipCommune) {
@@ -111,7 +109,8 @@ export const getValue = ({ season, hour, texts, field,
             ) { prefCommTexts = prefTexts?.com2 }
         }
 
-        if ((!isCommemoration && !(rank_date < 3 && isTSN)) // an Tagen mit Kommemoration und in Kl. Horen an Gedenktagen nur wt-Werte
+        if ((!isCommemoration // an Tagen mit Kommemoration und in Kl. Horen an Gedenktagen nur wt-Werte
+            && !(rank_date < 3 && isTSN && !memorialWithTNS))
             || isSollemnity) {
 
             //Sonderfall Antiphonen: entweder ant0 oder ant1-3
@@ -125,7 +124,7 @@ export const getValue = ({ season, hour, texts, field,
 
             //Sonderfall Wochentagspsalmen
             if (localPrefPsalmsWt &&
-                hour !== 'invitatorium' && hour !== 'komplet' &&
+                hour !== 'invitatorium' &&
                 field.startsWith('psalm')
             ) {
                 return texts[hour]?.wt?.[field]
