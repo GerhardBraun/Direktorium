@@ -59,9 +59,9 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
             color: (season === 'o') ? "btn-gold mb-2" : "btn-default mt-2",
             rubric: "Diese Antiphon ist der Osterzeit vorbehalten.",
             rubric_lat: "Hæc antiphona reservata est tempori paschali.",
-            title: (season === 'o') ? "O Himmelskönigin, frohlocke" : "[O Himmelskönigin, frohlocke]",
+            title: (season === 'o') ? "O Himmelskönigin, frohlocke" : "^[O Himmelskönigin, frohlocke^]",
             text: "O Himmelskönigin, frohlocke, Halleluja.^lDenn er, den du zu tragen würdig warst, Halleluja,^list erstanden, wie er sagte. Halleluja.^lBitt Gott für uns, Maria. Halleluja.",
-            title_lat: (season === 'o') ? "Regina cæli" : "[Regina cæli]",
+            title_lat: (season === 'o') ? "Regina cæli" : "^[Regina cæli^]",
             text_lat: "Regína cæli, lætáre, allelúia,^lquia quem meruísti portáre, allelúia,^lresurréxit sicut dixit, allelúia;^lora pro nobis Deum, allelúia."
         },
     ], [season, Assumption, Nativity]);
@@ -154,7 +154,7 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
                             ? 'ring-2 ring-yellow-500' : ''}`}                >
                     <div className="flex items-baseline">
                         <div>
-                            {ant[`title${suffixLatin}`]}
+                            {formatPrayerText(ant[`title${suffixLatin}`])}
                         </div>
                     </div>
                 </button>
@@ -165,7 +165,7 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
                 <div>
                     {(season !== 'o' && selectedAntiphon?.[`rubric${suffixLatin}`]) && (
                         <div className='long-rubric mt-4 -mb-4'>
-                            {selectedAntiphon[`rubric${suffixLatin}`]}
+                            {formatPrayerText(selectedAntiphon[`rubric${suffixLatin}`])}
                         </div>
                     )}
                     <div className="mt-5">

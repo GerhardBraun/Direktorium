@@ -91,8 +91,11 @@ export const getValue = ({ season, hour, texts, field,
             (field.startsWith('psalm') || field.startsWith('ant'))
         ) { skipCommune = true }
 
-        if (isSollemnity) { skipCommune = false }
-        if (!localPrefComm &&
+        if (isSollemnity) {
+            console.log('isSollemnity - localPrefComm/field:', localPrefComm, field)
+            skipCommune = false
+        }
+        else if (!localPrefComm &&
             (field.startsWith('psalm') || field.startsWith('psalm'))) {
             skipCommune = true
         }

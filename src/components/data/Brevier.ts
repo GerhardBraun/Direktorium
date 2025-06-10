@@ -1322,17 +1322,12 @@ export const brevierData = {
           "resp2": "ich habe euch alles geoffenbart, was ich von meinem Vater gehört habe.",
           "resp3": "Euch ist es gegeben, die Geheimnisse des Himmelreiches zu erkennen. Selig seid ihr, denn eure Augen sehen und eure Ohren hören.",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "hymn_nacht_lat": 0.0,
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "versikel0_lat": "",
-          "versikel1_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "les_text_lat": ""
+          "ant1_lat": "In omnem terram exívit sonus eórum, et in fines orbis terræ verba eórum.^Lö",
+          "ant2_lat": "Annuntiavérunt ópera Dei, et facta eius intellexérunt.^Lö",
+          "ant3_lat": "Annuntiavérunt iustítiam eius, et vidérunt omnes pópuli glóriam eius.^Lö",
+          "versikel0_lat": "Narravérunt laudes Dómini et virtútes eius.",
+          "versikel1_lat": "Et mirabília eius quæ fecit."
         },
         "Laudes": {
           "button": "Ap",
@@ -1354,18 +1349,17 @@ export const brevierData = {
           "bitten_r": "Herr, dich lobt der Chor der Apostel.",
           "bitten": "Wir danken dir für deine heilige Kirche, die auf das Fundament der Apostel gegründet ist;^qsie führe uns zusammen zur Einheit in dir.^pWir danken dir für das Wort der Wahrheit, das wir von den Aposteln empfangen haben;^qes sei uns Licht und Freude.^pWir danken dir für das Sakrament deines Leibes und Blutes, das uns die Apostel überliefert haben;^qes sei uns Nahrung und Quelle des Lebens.^pWir danken dir für das Sakrament der Versöhnung, das du den Aposteln anvertraut hast;^qes reinige uns immer neu von unserer Schuld.",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "ant1_lat": "Hoc est præcéptum meum, ut diligátis ínvicem, sicut diléxi vos.^Lö",
+          "ant2_lat": "Maiórem caritátem nemo habet, ut ánimam suam ponat quis pro amícis suis.^Lö",
+          "ant3_lat": "Vos amíci mei estis, si fecéritis quæ præcípio vobis, dicit Dóminus.^Lö",
+          "resp1_lat": "Constítues eos príncipes",
+          "resp2_lat": "super omnem terram.",
+          "resp3_lat": "Mémores erunt nóminis tui, Dómine.",
+          "antev_lat": "In fundaméntis civitátis sanctæ Ierúsalem nómina duódecim Apostolórum Agni; et lucérna eius est Agnus.^Lö",
+          "bitten_e_lat": "Fratres caríssimi, hereditátem cæléstem ab Apóstolis habéntes, grátias agámus Patri nostro pro ómnibus donis eius, clamántes:",
+          "bitten_r_lat": "Te laudat Apostolórum chorus, Dómine.",
+          "bitten_lat": "Laus tibi, Dómine, pro mensa Córporis et Sánguinis Christi, nobis ab Apóstolis trádita,^qqua refícimur et vívimus:^pPro mensa verbi tui, nobis ab Apóstolis paráta,^qqua lumen et gáudium nobis dantur:^pPro Ecclésia tua sancta, super Apóstolos ædificáta,^qqua in unum concorporámur:^pPro lavácro baptísmi et pæniténtiæ, Apóstolis concrédito,^qquo ab ómnibus peccátis ablúimur:",
+          "les_text_lat": "Iam non estis extránei et ádvenæ, sed estis concíves sanctórum et doméstici Dei, superædificáti super fundaméntum apostolórum et prophetárum, ipso summo angulári lápide Christo Iesu, in quo omnis ædificátio compácta crescit in templum sanctum in Dómino, in quo et vos coædificámini in habitáculum Dei in Spíritu."
         },
         "Terz": {
           "hymn_2": 0.0,
@@ -1380,14 +1374,10 @@ export const brevierData = {
           "resp0": "Ihre Botschaft geht hinaus in die ganze Welt.^ö",
           "resp1": "Ihre Kunde bis hin zu den Enden der Erde.^ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
-          "ant0_lat": "",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "ant0_lat": "Eúntes, prædicáte Evangélium regni: gratis accepístis, gratis date.^Lö",
+          "resp0_lat": "In omnem terram exívit sonus eórum.",
+          "resp1_lat": "Et in fines orbis terræ verba eórum.",
+          "les_text_lat": "Pósuit in nobis Deus verbum reconciliatiónis. Pro Christo ergo legatióne fúngimur tamquam Deo exhortánte per nos: obsecrámus pro Christo, reconciliámini Deo."
         },
         "Sext": {
           "hymn_2": 0.0,
@@ -1403,14 +1393,10 @@ export const brevierData = {
           "resp0": "Sie hielten fest am Zeugnis Gottes.^ö",
           "resp1": "Und bewahrten seine Gebote.^ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
-          "ant0_lat": "",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "ant0_lat": "Ecce ego vobíscum sum ómnibus diébus, usque ad consummatiónem sǽculi.^Lö",
+          "resp0_lat": "Custodiébant testimónia Dei.",
+          "resp1_lat": "Et præcépta eius.",
+          "les_text_lat": "Per manus apostolórum fiébant signa et prodígia multa in plebe. Magis autem addebántur credéntes Dómino, multitúdines virórum ac mulíerum."
         },
         "Non": {
           "hymn_2": 0.0,
@@ -1426,14 +1412,10 @@ export const brevierData = {
           "resp0": "So spricht der Herr: Freut euch und jubelt.^ö",
           "resp1": "Denn eure Namen sind im Himmel verzeichnet.^ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
-          "ant0_lat": "",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "ant0_lat": "In patiéntia vestra possidébitis ánimas vestras.^Lö",
+          "resp0_lat": "Gaudéte et exsultáte, dicit Dóminus.",
+          "resp1_lat": "Quia nómina vestra scripta sunt in cælis.",
+          "les_text_lat": "Ibant apóstoli gaudéntes a conspéctu concílii quóniam digni hábiti sunt pro nómine contuméliam pati; et omni die in templo et circa domos non cessábant docéntes et evangelizántes Christum, Iesum."
         },
         "Vesper": {
           "hymn_1": 1076.0,
@@ -1457,18 +1439,17 @@ export const brevierData = {
           "bitten_r": "Herr, gedenke deiner Kirche.",
           "bitten": "Du hast die Apostel ausgesandt als Zeugen deiner Auferstehung;^qsteh den Bischöfen bei, die du als Nachfolger der Apostel berufen hast.^pDu hast den Aposteln den Auftrag gegeben, den Samen des Wortes auszusäen;^qhilf den Predigern, den apostolischen Glauben treu zu verkünden.^pDu hast den Aposteln befohlen, alle Menschen zu deinen Jüngern zu machen;^qgedenke aller, die auf deinen Namen getauft sind.^pDu hast den Aposteln den Dienst der Versöhnung aufgetragen;^qlass alle, die ihre Sünden bekennen, deinen Trost erfahren. ^pAuf den Grundsteinen der himmlischen Gottesstadt stehen die Namen deiner zwölf Apostel;^qnimm unsere Verstorbenen auf in das neue Jerusalem.",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "ant1_lat": "Vos estis qui permansístis mecum in tentatiónibus meis.^Lö",
+          "ant2_lat": "Ego in médio vestrum sum, sicut qui minístrat.^Lö",
+          "ant3_lat": "Iam non dicam vos servos, sed amícos meos, quia ómnia quæcúmque audívi a Patre meo, nota feci vobis.^Lö",
+          "resp1_lat": "Annuntiáte inter gentes",
+          "resp2_lat": "glóriam Dómini.",
+          "resp3_lat": "In ómnibus pópulis mirabília eius.",
+          "antev_lat": "In regeneratióne, cum séderit Fílius hóminis in sede maiestátis suæ, sedébitis et vos iudicántes duódecim tribus Israel.^Lö",
+          "bitten_e_lat": "Superædificáti, fratres, super fundaméntum Apostolórum, orémus Patrem omnipoténtem pro pópulo sancto eius, dicéntes:",
+          "bitten_r_lat": "Recordáre Ecclésiæ tuæ, Dómine.",
+          "bitten_lat": "Pater, qui voluísti Fílium tuum, a mórtuis suscitátum, prius Apóstolis fíeri maniféstum,^qpræsta, ut eius testes simus usque ad últimum terræ.^pQui Fílium tuum misísti in mundum evangelizáre paupéribus,^qda, ut omni creatúræ Evangélium prædicémus.^pQui tuum misísti Fílium semináre semen verbi,^qconcéde, ut, verbum seminántes cum labóre, fruges metámus in gáudio.^pQui Fílium tuum misísti reconciliáre tibi mundum per sánguinem suum,^qtríbue, ut ad reconciliatiónem omnes cooperémur.^pQui Fílium tuum ad déxteram tuam in cæléstibus constituísti,^qdefúnctos in regnum beatitúdinis admítte.",
+          "les_text_lat": "Christus dedit quosdam quidem apóstolos, quosdam autem prophétas, álios vero evangelístas, álios autem pastóres et doctóres ad instructiónem sanctórum in opus ministérii, in ædificatiónem córporis Christi, donec occurrámus omnes in unitátem fídei et agnitiónis Fílii Dei, in virum perféctum, in mensúram ætátis plenitúdinis Christi."
         }
       },
       "o": {
@@ -5646,7 +5627,7 @@ export const brevierData = {
         "Lesehore": {
           "patr_autor": "Chromatius von Aquileia († 407)",
           "patr_werk": "Aus einer Auslegung zum Matthäusevangelium.",
-          "patr_text": "^hIhr seid das Licht der Welt^p„Ihr seid das Licht der Welt. Eine Stadt, die auf einem Berg liegt, kann nicht verborgen bleiben. Man zündet auch nicht ein Licht an und stülpt ein Gefäß darüber, sondern man stellt es auf den Leuchter; dann leuchtet es allen im Haus.“{1#Mt 5,14-15} Der Herr hat seine Jünger „Salz der Erde“ genannt. Durch den Teufel war das Herz der Menschen schal geworden. Die Jünger würzten es mit der Weisheit vom Himmel. Hier nennt er sie „Licht der Welt“, weil auch sie, von ihm, dem wahren und ewigen Licht, erleuchtet, Licht für die Finsternis geworden sind.^pWeil er selbst die „Sonne der Gerechtigkeit“ ist{2#Mal 3,20}, nennt er auch seine Jünger nicht zu Unrecht „Licht der Welt“. Durch sie sendet er gleichsam in glänzenden Strahlen dem ganzen Erdkreis das Licht seiner Erkenntnis; denn sie vertreiben aus dem Herzen der Menschen die Finsternis des Irrtums, indem sie das Licht der Wahrheit aufscheinen lassen.^pDurch sie sind auch wir erleuchtet und aus Finsternis Licht geworden, wie der Apostel sagt: „Einst wart ihr Finsternis, jetzt aber seid ihr durch den Herrn Licht geworden. Lebt als Kinder des Lichtes!“{3#Eph 5,8} und wieder: „Ihr leuchtet wie Lichter in der Welt und haltet fest am Wort des Lebens.“{4#Phil 2,15-16}^pTäten wir das nicht, so müsste es scheinen, als versteckten und verdunkelten wir durch unsere Untreue wie unter einem Schleier das so notwendige und nützliche Licht zu unserem Schaden und zum Schaden anderer. So hat auch jener Knecht, der das eine Talent erhalten hatte, um damit zum Vorteil des Himmels zu arbeiten, sich die schuldige Strafe zugezogen. Denn er hatte das Talent vergraben, statt es auf die Bank zu bringen{5#vgl.°Mt 25,26-27}.^pDarum muss die strahlende Lampe, die zu unserem Heil angezündet wurde, immer in uns leuchten. Wir haben die Lampe des göttlichen Gebotes und der Gnade, von der David erklärt: „Dein Wort ist meinem Fuß eine Leuchte, ein Licht für meine Pfade.“{6#Ps 119,105} Salomo sagt darüber: „Eine Leuchte ist das Gebot und die Lehre ein Licht.“{7#Spr 6,23}^pWir dürfen also diese Lampe des Gesetzes und des Glaubens nicht verstecken, müssen sie vielmehr zum Heil der Vielen allzeit in der Kirche auf einen Leuchter stellen, damit wir selbst das Licht der Wahrheit genießen und damit alle Gläubigen erleuchtet werden.",
+          "patr_text": "^hIhr seid das Licht der Welt^p„Ihr seid das Licht der Welt. Eine Stadt, die auf einem Berg liegt, kann nicht verborgen bleiben. Man zündet auch nicht ein Licht an und stülpt ein Gefäß darüber, sondern man stellt es auf den Leuchter; dann leuchtet es allen im Haus.“{1#Mt 5,14-15} Der Herr hat seine Jünger „Salz der Erde“ genannt. Durch den Teufel war das Herz der Menschen schal geworden. Die Jünger würzten es mit der Weisheit vom Himmel. Hier nennt er sie „Licht der Welt“, weil auch sie, von ihm, dem wahren und ewigen Licht, erleuchtet, Licht für die Finsternis geworden sind.^pWeil er selbst die „Sonne der Gerechtigkeit“ ist{2#Mal 3,20}, nennt er auch seine Jünger nicht zu Unrecht „Licht der Welt“. Durch sie sendet er gleichsam in glänzenden Strahlen dem ganzen Erdkreis das Licht seiner Erkenntnis; denn sie vertreiben aus dem Herzen der Menschen die Finsternis des Irrtums, indem sie das Licht der Wahrheit aufscheinen lassen.^pDurch sie sind auch wir erleuchtet und aus Finsternis Licht geworden, wie der Apostel sagt: „Einst wart ihr Finsternis, jetzt aber seid ihr durch den Herrn Licht geworden. Lebt als Kinder des Lichtes!“{3#Eph 5,8} und wieder: „Ihr leuchtet wie Lichter in der Welt und haltet fest am Wort des Lebens.“{4#Phil 2,15-16}^pTäten wir das nicht, so müsste es scheinen, als versteckten und verdunkelten wir durch unsere Untreue wie unter einem Schleier das so notwendige und nützliche Licht zu unserem Schaden und zum Schaden anderer. So hat auch jener Knecht, der das eine Talent erhalten hatte, um damit zum Vorteil des Himmels zu arbeiten, sich die schuldige Strafe zugezogen. Denn er hatte das Talent vergraben, statt es auf die Bank zu bringen{5#vgl.°Mt 25,26-27}.^pDarum muss die strahlende Lampe, die zu unserem Heil angezündet wurde, immer in uns leuchten. Wir haben die Lampe des göttlichen Gebotes und der Gnade, von der David erklärt: „Dein Wort ist meinem Fuß eine Leuchte, ein Licht für meine Pfade.“{6#Ps 119,105} Salomo sagt darüber: „Eine Leuchte ist das Gebot, und die Lehre ein Licht.“{7#Spr 6,23}^pWir dürfen also diese Lampe des Gesetzes und des Glaubens nicht verstecken, müssen sie vielmehr zum Heil der Vielen allzeit in der Kirche auf einen Leuchter stellen, damit wir selbst das Licht der Wahrheit genießen und damit alle Gläubigen erleuchtet werden.",
           "patr_resp1": "Als Barnabas nach Antiochia kam und die Gnade Gottes erkannte, freute er sich;",
           "patr_resp2": "denn er war ein trefflicher Mann, erfüllt vom Heiligen Geist und reich an Glauben.",
           "patr_resp3": "Alle ermahnte er, dem Herrn treu zu bleiben.",
@@ -8014,7 +7995,7 @@ export const brevierData = {
         "each": {
           "comm_1": "Apostel",
           "oration": "Allmächtiger Gott, durch die Botschaft der Apostel hast du uns zur Erkenntnis deines Namens geführt. Mehre auf die Fürsprache der Heiligen Simon und Judas die Zahl der Gläubigen und festige in der Kirche das Vertrauen auf deine Hilfe.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, qui nos per beátos Apóstolos ad agnitiónem tui nóminis veníre tribuísti, intercedéntibus sanctis Simóne et Iuda, concéde propítius, ut semper augeátur Ecclésia increméntis in te credéntium populórum.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Cyrill von Alexandrien († 444)",
@@ -8029,7 +8010,8 @@ export const brevierData = {
         },
         "Laudes": {
           "button": "Hl. Simon und hl. Judas",
-          "farbe": "r"
+          "farbe": "r",
+          "hymn_1_lat": 9028.2
         }
       }
     },
@@ -14615,6 +14597,7 @@ export const brevierData = {
         "ErsteV": {
           "button": "1. Vesper zum Dreifaltigkeitssonntag",
           "hymn_1": 3904.0,
+          "hymn_2": 0.0,
           "psalm1": 113.0,
           "psalm2": 147.2,
           "psalm3": 152.0,
@@ -14648,6 +14631,7 @@ export const brevierData = {
         },
         "Lesehore": {
           "hymn_1": 1303.0,
+          "hymn_2": 0.0,
           "psalm1": 8.0,
           "psalm2": 33.1,
           "psalm3": 33.2,
@@ -14684,6 +14668,7 @@ export const brevierData = {
         },
         "Laudes": {
           "hymn_1": 3902.0,
+          "hymn_2": 0.0,
           "ant1": "Dir sei Ruhm und Herrschaft, Herrlichkeit und Macht, Lob und Jubel auf ewig, o selige Dreifaltigkeit!",
           "ant2": "Alles hast du geschaffen; darum loben dich deine Geschöpfe; sie beten dich an und verherrlichen dich, o selige Dreieinigkeit.",
           "ant3": "Aus ihm und durch ihn und in ihm ist alles. Ihm sei die Ehre in Ewigkeit.",
@@ -14744,6 +14729,7 @@ export const brevierData = {
         },
         "Vesper": {
           "hymn_1": 3904.0,
+          "hymn_2": 0.0,
           "psalm1": 110.0,
           "psalm2": 114.0,
           "psalm3": 151.0,
@@ -14782,6 +14768,7 @@ export const brevierData = {
         "ErsteV": {
           "button": "1. Vesper zu Fronleichnam",
           "hymn_1": 3940.0,
+          "hymn_2": 0.0,
           "psalm1": 111.0,
           "psalm2": 147.2,
           "psalm3": 155.0,
@@ -14817,6 +14804,7 @@ export const brevierData = {
         },
         "Lesehore": {
           "hymn_1": 3941.0,
+          "hymn_2": 0.0,
           "psalm1": 23.0,
           "psalm2": 42.0,
           "psalm3": 81.0,
@@ -14857,6 +14845,7 @@ export const brevierData = {
         },
         "Laudes": {
           "hymn_1": 3942.0,
+          "hymn_2": 0.0,
           "ant1": "Herr, du hast dein Volk genährt mit der Speise der Engel. Brot vom Himmel hast du ihm geschenkt.^Ö",
           "ant2": "Die Priester des Herrn bringen Weihrauch und Brot vor das Angesicht Gottes.^Ö",
           "ant3": "Dem Sieger gebe ich das verborgene Manna und einen neuen Namen.^Ö",
@@ -14922,6 +14911,7 @@ export const brevierData = {
         },
         "Vesper": {
           "hymn_1": 3944.0,
+          "hymn_2": 0.0,
           "psalm1": 110.0,
           "psalm2": 116.2,
           "psalm3": 151.0,
@@ -14960,6 +14950,7 @@ export const brevierData = {
         "ErsteV": {
           "button": "1. Vesper zum Herz-Jesu-Fest",
           "hymn_1": 3954.0,
+          "hymn_2": 0.0,
           "psalm1": 113.0,
           "psalm2": 146.0,
           "psalm3": 153.0,
@@ -14995,6 +14986,7 @@ export const brevierData = {
         },
         "Lesehore": {
           "hymn_1": 2516.0,
+          "hymn_2": 0.0,
           "psalm1": 36.0,
           "psalm2": 61.0,
           "psalm3": 98.0,
@@ -15031,6 +15023,7 @@ export const brevierData = {
         },
         "Laudes": {
           "hymn_1": 3952.0,
+          "hymn_2": 0.0,
           "ant1": "Jesus stand da und rief: Wer dürstet, komme zu mir und trinke.",
           "ant2": "Kommt alle zu mir, die ihr mühselig und beladen seid! Ich will euch erquicken.",
           "ant3": "Mein Sohn, schenke mir dein Herz; lass deine Augen auf meine Wege achten.",
@@ -15095,6 +15088,7 @@ export const brevierData = {
         },
         "Vesper": {
           "hymn_1": 3954.0,
+          "hymn_2": 0.0,
           "psalm1": 110.0,
           "psalm2": 111.0,
           "psalm3": 157.0,
@@ -15123,6 +15117,12 @@ export const brevierData = {
           "bitten_r_lat": "",
           "bitten_lat": "",
           "les_text_lat": ""
+        }
+      },
+      "each": {
+        "Komplet": {
+          "hymn_1_lat": 2500.1,
+          "hymn_2_lat": 2500.2
         }
       }
     },

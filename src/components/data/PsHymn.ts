@@ -3200,7 +3200,9 @@ export const psalmsData = {
     0.0: {
         "title": "Was habt ihr gesehen in jener Zeit",
         "quote": "Ap-Lh",
-        "text": "Was habt ihr gesehen in jener Zeit,^lApostel des Herrn, auf dem See?^lWir sahen das Heil, das Himmel und Welt^lim ewigen Leben erhält.^pO Herrlichkeit Gottes in Jesus Christ!^lIhr habt sie mit Augen geschaut.^pWas habt ihr vernommen in jener Zeit,^lApostel des Herrn, auf dem Berg?^lWir hörten sein Wort: Seid alle bereit!^lDas Himmelreich bricht in die Zeit.^pO Gnade, o°Liebe in Jesus Christ!^lIhr habt sie mit Augen geschaut.^pNun herrscht ihr mit Christus in Ewigkeit^lim Glanze der Stadt, seiner Braut.^lSo preist ihn mit uns in Jubel und Lob,^lder euch auf zwölf Throne erhob.^pO selig, ihr Freunde des Herrn Jesus Christ!^lEuch hat er sein Reich anvertraut."
+        "text": "Was habt ihr gesehen in jener Zeit,^lApostel des Herrn, auf dem See?^lWir sahen das Heil, das Himmel und Welt^lim ewigen Leben erhält.^pO Herrlichkeit Gottes in Jesus Christ!^lIhr habt sie mit Augen geschaut.^pWas habt ihr vernommen in jener Zeit,^lApostel des Herrn, auf dem Berg?^lWir hörten sein Wort: Seid alle bereit!^lDas Himmelreich bricht in die Zeit.^pO Gnade, o°Liebe in Jesus Christ!^lIhr habt sie mit Augen geschaut.^pNun herrscht ihr mit Christus in Ewigkeit^lim Glanze der Stadt, seiner Braut.^lSo preist ihn mit uns in Jubel und Lob,^lder euch auf zwölf Throne erhob.^pO selig, ihr Freunde des Herrn Jesus Christ!^lEuch hat er sein Reich anvertraut.",
+        "title_lat": "O sempitérnæ cúriæ",
+        "text_lat": "O sempitérnæ cúriæ^lregis suprémi príncipes,^lquos ipse Iesus édocens^ldonávit orbi Apóstolos,^pSupérna vos Ierúsalem,^llucérna cuius Agnus est,^lgemmas micántes póssidet,^lpræclára vos fundámina.^pVos et celébrat grátulans^lnunc sponsa Christi Ecclésia,^lquam sermo vester éxciit,^lquam consecrástis sánguine.^pCadéntibus cum sǽculis^liudex Redémptor séderit,^lqua laude vos sedébitis,^lsenátus altæ glóriæ!^pNos ergo vestra iúgiter^lprex adiuvándo róboret,^lfudístis ut quæ sémina^lin grana cæli flóreant.^pÆtérna Christo glória,^lqui fecit esse núntios^lvos Patris, atque Spíritus^lreplévit almo númine."
       }
   },
   1072: {
@@ -3219,7 +3221,9 @@ export const psalmsData = {
     0.0: {
         "title": "Der Himmel jauchze Lobgesang",
         "quote": "Ap-Vp",
-        "text": "Der Himmel jauchze Lobgesang,^lin Freude juble alle Welt:^lDer heiligen Apostel Ruhm^lerschallt in festlichem Gesang.^pGerechte Richter dieser Zeit^lund wahre Leuchten für die Welt,^lihr ersten Zeugen unsres Heils,^lvernehmt, was unser Lied erfleht.^pDer Herr gab euch Gewalt und Amt,^lihr bindet und ihr löst die Schuld;^lso löst auch uns, wir bitten euch,^ldie Schuld, in die wir uns verstrickt.^pWenn dann am Ende dieser Zeit^lder Herr als Richter wiederkommt,^lgewähre er in seiner Huld^luns seiner Freude Ewigkeit.^pGott Vater, dir sei Preis und Ruhm^lund deinem eingebornen Sohn,^ldem Beistand auch, dem Heil’gen Geist,^ldurch alle Zeit und Ewigkeit. Amen."
+        "text": "Der Himmel jauchze Lobgesang,^lin Freude juble alle Welt:^lDer heiligen Apostel Ruhm^lerschallt in festlichem Gesang.^pGerechte Richter dieser Zeit^lund wahre Leuchten für die Welt,^lihr ersten Zeugen unsres Heils,^lvernehmt, was unser Lied erfleht.^pDer Herr gab euch Gewalt und Amt,^lihr bindet und ihr löst die Schuld;^lso löst auch uns, wir bitten euch,^ldie Schuld, in die wir uns verstrickt.^pWenn dann am Ende dieser Zeit^lder Herr als Richter wiederkommt,^lgewähre er in seiner Huld^luns seiner Freude Ewigkeit.^pGott Vater, dir sei Preis und Ruhm^lund deinem eingebornen Sohn,^ldem Beistand auch, dem Heil’gen Geist,^ldurch alle Zeit und Ewigkeit. Amen.",
+        "title_lat": "Exsúltet cælum láudibus",
+        "text_lat": "Exsúltet cælum láudibus,^lresúltet terra gáudiis:^lApostolórum glóriam^lsacra canunt sollémnia.^pVos, sæcli iusti iúdices^let vera mundi lúmina,^lvotis precámur córdium,^laudíte preces súpplicum.^pQui cælum verbo cláuditis^lserásque eius sólvitis,^lnos a peccátis ómnibus^lsólvite iussu, quǽsumus.^pQuorum præcépto súbditur^lsalus et languor ómnium,^lsanáte ægros móribus,^lnos reddéntes virtútibus,^pUt, cum iudex advénerit^lChristus in fine sǽculi,^lnos sempitérni gáudii^lfáciat esse cómpotes.^pDeo sint laudes glóriæ,^lqui dat nos evangélicis^lper vos doctrínis ínstrui^let prósequi cæléstia."
       },
     1.0: {
         "title": "Voll Trauer war der Jünger Schar",
@@ -4831,6 +4835,13 @@ export const psalmsData = {
         "title": "Herr aller Mächte, Throne und Gewalten",
         "quote": "Schutzengel",
         "text": "Herr aller Mächte,^/Throne und Gewalten,^ldir gilt der Lobpreis,^/den die Schöpfung darbringt.^lZu deiner Ehre^/singen alle Wesen,^ldie du erschaffen.^pVor deiner Größe^/neigen sich in Ehrfurcht^lChöre der Engel,^/dienen dir voll Freude.^lAlle Erlösten^/danken dir auf ewig^lfür deine Liebe.^pUnd deine Kirche^/jubelt heut mit ihnen,^ldenn du bist nahe,^/führst sie durch die Zeiten,^lwehrest dem Bösen,^/sendest deine Engel,^luns zu behüten.^pLob sei dem Vater^/auf dem höchsten Throne,^lLob sei dem Sohne,^/dem die Engel dienen,^lLob sei dem Geiste,^/der von beiden ausgeht,^limmer und ewig. Amen."
+      }
+  },
+  9028: {
+    2.0: {
+        "quote": "Simon und Judas",
+        "title_lat": "Commúne vos, apóstoli",
+        "text_lat": "Commúne vos, apóstoli,^lextóllat hymni iúbilum,^lquos ádvocat par grátia,^lcorónat una glória.^pArdóre pulsus cǽlico,^lChristi premis vestígia,^lSimon, et illum núntias^lzelo peráctus ímpigro.^pTu carne frater, ássecla^lfratérque Christi spíritu,^lIuda, Magístrum prǽdicas^lscriptísque fratres érudis.^pNec pertiméscit sánguinem^lutérque purum fúndere,^lut veritátis énitens^lsit testis atque víctima.^pO summa cæli sídera,^lnos detis ut per áspera,^lfide valéntes íntegra,^ltendámus ad cæléstia.^pPatri per ævum glória^lNatóque cum Paráclito,^lquorum supérnis gáudiis^lsimul fruémur pérpetim."
       }
   },
   9101: {

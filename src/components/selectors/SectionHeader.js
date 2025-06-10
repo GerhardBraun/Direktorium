@@ -164,12 +164,13 @@ export const SectionHeader = ({
             {
                 showContinuous && (
                     <ButtonGroup>
-                        <button
+                        {hasEig && (<button
                             onClick={() => setLocalPrefContinuous(false)}
                             className={!localPrefContinuous && 'underline'}
                         >
                             Eigenlesung
                         </button>
+                        )}
                         {" | "}
                         <button
                             onClick={() => setLocalPrefContinuous(true)}
