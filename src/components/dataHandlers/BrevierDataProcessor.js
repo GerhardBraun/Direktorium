@@ -436,9 +436,9 @@ function processInvitatoriumPsalms(hours) {
             // Funktion zum Durchsuchen von Psalm-Einträgen
             const searchPsalmEntries = (obj) => {
                 ['psalm1', 'psalm2', 'psalm3'].forEach(psKey => {
-                    const psValue = obj[psKey]?.reference;
-                    if (psValue && searchPsalms.includes(Math.floor(psValue))) {
-                        found.add(Math.floor(psValue));
+                    const psValue = obj[psKey];
+                    if (psValue && searchPsalms.includes(psValue)) {
+                        found.add(psValue);
                     }
                 });
             };
