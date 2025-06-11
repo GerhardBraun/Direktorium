@@ -14344,6 +14344,7 @@ export const brevierData = {
         "Lesehore": {
           "hymn_1": 1303.0,
           "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "psalm1": 8.0,
           "psalm2": 33.1,
           "psalm3": 33.2,
@@ -14516,6 +14517,7 @@ export const brevierData = {
         "Lesehore": {
           "hymn_1": 3941.0,
           "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "psalm1": 23.0,
           "psalm2": 42.0,
           "psalm3": 81.0,
@@ -14692,6 +14694,7 @@ export const brevierData = {
         "Lesehore": {
           "hymn_1": 2516.0,
           "hymn_2": 0.0,
+          "hymn_3": 0.0,
           "psalm1": 36.0,
           "psalm2": 61.0,
           "psalm3": 98.0,
