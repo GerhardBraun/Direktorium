@@ -93,76 +93,134 @@ export const formatPrayerText = (provText, marker = '',
     const { nominativ, genitiv, vokativ } = texts?.laudes?.[prefSrc] || {};
 
     const useFootnoteList = getLocalStorage('prefFootnotes') === 'true';
+    const useCommemoration = (marker === 'commemoration' && isCommemoration === true)
 
-    let easterAntiphon = '';
-    let latinEasterAntiphon = '';
-
-    if (swdCombined.startsWith('o-1-') || swdCombined === 'o-2-0') {
-        // Wenn es sich um Ostern handelt, setze die Antiphon
-        easterAntiphon = "^p^rAnstelle des Responsoriums wird die\u00a0folgende\u00a0Antiphon\u00a0genommen:^0r^lDas ist der Tag, den der Herr gemacht hat. Lasst\u00a0uns\u00a0jubeln und seiner uns freuen. Halleluja.";
-        latinEasterAntiphon = "^p^rLoco responsorii dicitur:^0r^lHæc est dies quam fecit Dóminus: exsultémus\u00a0et\u00a0lætémur\u00a0in\u00a0ea.\u00a0Allelúia."
-    }
-    if (swdCombined === 'q-6-4') {
-        easterAntiphon = "^p^rAnstelle des Responsoriums wird die°folgende°Antiphon°genommen:^0r^lChristus war für uns gehorsam bis zum Tod.";
-        latinEasterAntiphon = "^p^rLoco responsorii dicitur:^0r^lChristus factus est pro nobis obœ́diens usque ad mortem.";
-    }
-    if (swdCombined === 'q-6-5') {
-        easterAntiphon = "^p^rAnstelle des Responsoriums wird die°folgende°Antiphon°genommen:^0r^lChristus war für uns gehorsam bis zum Tod, bis°zum°Tod°am°Kreuze.";
-        latinEasterAntiphon = "^p^rLoco responsorii dicitur:^0r^lChristus factus est pro nobis obœ́diens usque ad mortem, mortem autem crucis.";
-    }
-    if (swdCombined === 'q-6-6') {
-        easterAntiphon = "^p^rAnstelle des Responsoriums wird die°folgende°Antiphon°genommen:^0r^lChristus war für uns gehorsam bis zum Tod, bis°zum°Tod°am°Kreuze. Darum hat ihn Gott über alle erhöht und ihm den Namen verliehen, der größer ist als alle Namen.";
-        latinEasterAntiphon = "^p^rLoco responsorii dicitur:^0r^lChristus factus est pro nobis obœ́diens usque ad mortem, mortem autem crucis. Propter quod et Deus exaltávit illum, et dedit illi nomen, quod est super omne nomen.";
-    }
-    const orSchluss = ['lesehore', 'laudes', 'vesper'].includes(hour)
-        ? (marker === 'commemoration' && isCommemoration === true)
-            ? {
-                vR: "",
-                V: "",
-                S: "",
-                R: "",
-                Sgroß: "",
-                Rgroß: "",
-                vR_lat: "",
-                V_lat: "",
-                S_lat: "",
-                R_lat: "",
-                Sgroß_lat: "",
-                Rgroß_lat: ""
-            } : {
-                vR: " Darum bitten wir durch ihn, Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
-                V: " Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
-                S: ", der du in der Einheit des Heiligen Geistes mit Gott dem Vater lebst und herrschest in alle Ewigkeit.",
-                R: ", der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
-                Sgroß: ". Der du in der Einheit des Heiligen Geistes mit Gott dem Vater lebst und herrschest in alle Ewigkeit.",
-                Rgroß: ". Der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
-                vR_lat: " Qui técum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum. Amen.",
-                V_lat: " Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum. Amen.",
-                S_lat: ", qui vivis et regnas in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum. Amen.",
-                R_lat: ", qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum. Amen.",
-                Sgroß_lat: ". Qui vivis et regnas in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum. Amen.",
-                Rgroß_lat: ". Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum. Amen.",
-            } : {
-            vR: " Darum bitten wir durch ihn, Christus, unseren Herrn.",
-            V: " Darum bitten wir durch Christus, unseren Herrn.",
-            S: ", der du lebst und herrschest in alle Ewigkeit.",
-            R: ", der mit dir lebt und herrscht in alle Ewigkeit.",
-            Sgroß: ". Der du lebst und herrschest in alle Ewigkeit.",
-            Rgroß: ". Der mit dir lebt und herrscht in alle Ewigkeit.",
-            vR_lat: " Qui vivit et regnat in sǽcula sæculórum. Amen.",
-            V_lat: " Per Christum Dóminum nostrum. Amen.",
-            S_lat: ", qui vivis et regnas in sǽcula sæculórum. Amen.",
-            R_lat: ", qui vivit et regnat in sǽcula sæculórum. Amen.",
-            Sgroß_lat: ". Qui vivis et regnas in sǽcula sæculórum. Amen.",
-            Rgroß_lat: ". Qui vivit et regnat in sǽcula sæculórum. Amen.",
+    const replaceRESP = (text) => {
+        const easterAntiphons = {
+            'oktav': {
+                '^RESP': "Das ist der Tag, den der Herr gemacht hat. Lasst\u00a0uns\u00a0jubeln und seiner uns freuen. Halleluja.",
+                '^LRESP': "Hæc est dies quam fecit Dóminus: exsultémus\u00a0et\u00a0lætémur\u00a0in\u00a0ea.\u00a0Allelúia."
+            },
+            'q-6-4': {
+                '^RESP': "Christus war für uns gehorsam bis zum Tod.",
+                '^LRESP': "Christus factus est pro nobis obœ́diens usque ad mortem."
+            },
+            'q-6-5': {
+                '^RESP': "Christus war für uns gehorsam bis zum Tod, bis\u00a0zum\u00a0Tod\u00a0am\u00a0Kreuze.",
+                '^LRESP': "Christus factus est pro nobis obœ́diens usque ad mortem, mortem autem crucis."
+            },
+            'q-6-6': {
+                '^RESP': "Christus war für uns gehorsam bis zum Tod, bis\u00a0zum\u00a0Tod\u00a0am\u00a0Kreuze. Darum hat ihn Gott über alle erhöht und ihm den Namen verliehen, der größer ist als alle Namen.",
+                '^LRESP': "Christus factus est pro nobis obœ́diens usque ad mortem, mortem autem crucis. Propter quod et Deus exaltávit illum, et dedit illi nomen, quod est super omne nomen."
+            }
         }
+        return text.replace(/(\^L?RESP)/g, (match) => {
+
+            const replaceDay =
+                (swdCombined.startsWith('o-1-') || swdCombined === 'o-2-0')
+                    ? 'oktav' : swdCombined;
+
+            const rubric = match === '^RESP'
+                ? '^p^RUBRAnstelle des Responsoriums wird die\u00a0folgende\u00a0Antiphon\u00a0genommen:^0RUBR^l'
+                : '^p^RUBRLoco responsorii dicitur:^0RUBR^l';
+
+            return rubric + easterAntiphons?.[replaceDay]?.[match] || match;
+        })
+    }
+
+    const replaceOR = (text) => {
+        const orationEnding = {
+            "^OR": {
+                "lang": {
+                    'vR': "Darum bitten wir durch ihn, Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
+                    'V': "Darum bitten wir durch Jesus Christus, deinen Sohn, unseren Herrn und Gott, der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
+                    'S': "der du in der Einheit des Heiligen Geistes mit Gott dem Vater lebst und herrschest in alle Ewigkeit.",
+                    'R': "der in der Einheit des Heiligen Geistes mit dir lebt und herrscht in alle Ewigkeit.",
+                },
+                "kurz": {
+                    'vR': "Darum bitten wir durch ihn, Christus, unseren Herrn.",
+                    'V': "Darum bitten wir durch Christus, unseren Herrn.",
+                    'S': "der du lebst und herrschest in alle Ewigkeit.",
+                    'R': "der mit dir lebt und herrscht in alle Ewigkeit.",
+                },
+            },
+            "^ORl": {
+                "lang": {
+                    'vR': "Qui técum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum. Amen.",
+                    'V': "Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum. Amen.",
+                    'S': "qui vivis et regnas in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum. Amen.",
+                    'R': "qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum. Amen.",
+                },
+                "kurz": {
+                    'vR': "Qui vivit et regnat in sǽcula sæculórum. Amen.",
+                    'V': "Per Christum Dóminum nostrum. Amen.",
+                    'S': "qui vivis et regnas in sǽcula sæculórum. Amen.",
+                    'R': "qui vivit et regnat in sǽcula sæculórum. Amen.",
+                },
+            },
+        };
+
+        // Bei Commemorationen alle Orationsschlüsse entfernen
+        if (useCommemoration) {
+            return text.replace(/([,.])(\^ORl?)(vR|V|S|R)/g, '$1');
+        }
+
+        const formLength = ['lesehore', 'laudes', 'vesper'].includes(hour)
+            ? 'lang' : 'kurz';
+
+        // Regex für Orationsschluss-Tags: (Satzzeichen)(^ORl?)(Kürzel)
+        return text.replace(/([,.])(\^ORl?)(vR|V|S|R)/g, (match, punctuation, language, formula) => {
+
+            let ending = orationEnding[language]?.[formLength]?.[formula];
+
+            if (!ending) {
+                console.warn(`Orationsschluss nicht gefunden: ${language}.${formLength}.${formula}`);
+                return match; // Originaltext beibehalten
+            }
+
+            if (punctuation === '.') {
+                ending = ending.charAt(0).toUpperCase() + ending.slice(1);
+            }
+
+            return punctuation + ' ' + ending;
+        });
+    };
+
+    const replacePronomina = (text) => {
+        if (nominativ) {
+            text = text
+                .replace(/Der heilige \^NOM/g, nominativ)
+                .replace(/Die heilige \^NOM/g, nominativ)
+                .replace(/Die heiligen \^NOM/g, nominativ);
+        }
+
+        if (genitiv) {
+            text = text
+                .replace(/des heiligen \^GEN/g, genitiv)
+                .replace(/der heiligen \^GEN/g, genitiv)
+                .replace(/auf seine Fürbitte/g, match =>
+                    genitiv.startsWith('der') ? 'auf ihre Fürbitte' : match);
+        }
+
+        if (vokativ) {
+            text = text
+                .replace(/Heiliger \^VOK/g, vokativ)
+                .replace(/Heilige \^VOK/g, vokativ)
+                .replace(/tat ihm den/g, match =>
+                    vokativ.startsWith('Heilige ') ? 'tat ihr den' : match)
+                .replace(/gab ihm Weisheit/g, match =>
+                    vokativ.startsWith('Heilige ') ? 'gab ihr Weisheit' : match);
+        }
+
+        text = text.replace(/\^(NOM|GEN|VOK|NH|N)/g, '^rN.^0r');
+        return text;
+    }
 
     marker = (marker === 'commemoration') ? '' : marker;
     let text = marker ? `^r${marker}^0r${provText}` : provText;
+
     text = text
         .replace(/(_lat|_neu)/g, '')
-        .replace(/\^RESP/g, easterAntiphon)
-        .replace(/\^LRESP/g, latinEasterAntiphon)
         .replace(/°/g, '\u00A0')
         .replace(/\^\*/g, '\u00A0*\n')
         .replace(/\^\+/g, '\u00A0†\n')
@@ -177,18 +235,6 @@ export const formatPrayerText = (provText, marker = '',
         .replace(/\^Ö/g, season === 'q' ? '' : ' Halleluja.')
         .replace(/\^Lö/g, season === 'o' ? ' Allelúia.' : '')
         .replace(/\^LÖ/g, season === 'q' ? '' : ' Allelúia.')
-        .replace(/\^ORvR/g, orSchluss.vR)
-        .replace(/\^ORV/g, orSchluss.V)
-        .replace(/,\^ORS/g, orSchluss.S)
-        .replace(/,\^ORR/g, orSchluss.R)
-        .replace(/.\^ORS/g, orSchluss.Sgroß)
-        .replace(/.\^ORR/g, orSchluss.Rgroß)
-        .replace(/\^ORlvR/g, orSchluss.vR_lat)
-        .replace(/\^ORlV/g, orSchluss.V_lat)
-        .replace(/,\^ORlS/g, orSchluss.S_lat)
-        .replace(/,\^ORlR/g, orSchluss.R_lat)
-        .replace(/.\^ORlS/g, orSchluss.Sgroß_lat)
-        .replace(/.\^ORlR/g, orSchluss.Rgroß_lat)
         .replace(/\^NP/g, getLocalStorage('popeName') || 'Leo')
         .replace(/\^NB/g, getLocalStorage('bishopName') || '^N')
         .replace(/\^NdatP/g, getLocalStorage('popeNameLat') || 'Leóni')
@@ -203,32 +249,9 @@ export const formatPrayerText = (provText, marker = '',
         .replace(/HERR\b/g, '^cHerr^0c')
         .replace(/GOTT\b/g, '^cGott^0c');
 
-    if (nominativ) {
-        text = text
-            .replace(/Der heilige \^NOM/g, nominativ)
-            .replace(/Die heilige \^NOM/g, nominativ)
-            .replace(/Die heiligen \^NOM/g, nominativ);
-    }
-
-    if (genitiv) {
-        text = text
-            .replace(/des heiligen \^GEN/g, genitiv)
-            .replace(/der heiligen \^GEN/g, genitiv)
-            .replace(/auf seine Fürbitte/g, match =>
-                genitiv.startsWith('der') ? 'auf ihre Fürbitte' : match);
-    }
-
-    if (vokativ) {
-        text = text
-            .replace(/Heiliger \^VOK/g, vokativ)
-            .replace(/Heilige \^VOK/g, vokativ)
-            .replace(/tat ihm den/g, match =>
-                vokativ.startsWith('Heilige ') ? 'tat ihr den' : match)
-            .replace(/gab ihm Weisheit/g, match =>
-                vokativ.startsWith('Heilige ') ? 'gab ihr Weisheit' : match);
-    }
-
-    text = text.replace(/\^(NOM|GEN|VOK|NH|N)/g, '^rN.^0r');
+    text = replaceRESP(text);
+    text = replaceOR(text);
+    text = replacePronomina(text);
 
     let footnoteCounter = 0;
     const footnoteMap = new Map();
