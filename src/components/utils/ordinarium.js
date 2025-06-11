@@ -240,7 +240,8 @@ function getClosingTexts(hour, localPrefLatin) {
 
     return closing;
 
-} export const ordinarium = (texts, hour = '', localPrefLatin = false, prefSollemnity = false) => {
+}
+export const ordinarium = (texts, hour = '', localPrefLatin = false, prefSollemnity = false) => {
 
     const languageToRead = localPrefLatin ? "lat" : "dt";
 

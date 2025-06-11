@@ -92,7 +92,6 @@ export const getValue = ({ season, hour, texts, field,
         ) { skipCommune = true }
 
         if (isSollemnity) {
-            console.log('isSollemnity - localPrefComm/field:', localPrefComm, field)
             skipCommune = false
         }
         else if (!localPrefComm &&
@@ -192,7 +191,7 @@ const getKompletValue = ({ texts, field, localPrefKomplet, localPrefLanguage = '
             }
         }
 
-        if (targetField === 'resp1' &&
+        if (targetField.startsWith('resp1') &&
             (swdCombined.startsWith('o-1-') ||
                 ['q-6-4', 'q-6-5', 'q-6-6', 'o-2-0'].includes(swdCombined))
         ) {
@@ -226,7 +225,7 @@ const dataKomplet = {
         "ant2_lat": "LEER",
         "resp1": "Herr, auf dich vertraue ich, in deine Hände lege ich mein Leben.",
         "resp2": "Halleluja,°halleluja.",
-        "resp1_lat": "In manus tuas, Dómine, comméndo spíritum meum.",
+        "resp1_lat": "In manus tuas, Dómine, comméndo\u00a0spíritum\u00a0meum.",
         "resp2_lat": "Allelúia,°allelúia.",
         "3": { "psalm2": 130, },
         "5": { "psalm1": 88, },
@@ -242,7 +241,7 @@ const dataKomplet = {
         "resp3": "Lass leuchten über deinem Knecht dein Antlitz, hilf mir in deiner Güte.",
         "antev": "Sei unser Heil, o°Herr, wenn wir wachen, und unser Schutz, wenn wir schlafen, damit wir wachen mit Christus und ruhen in Frieden.^ö",
         "resp1_lat": "In manus tuas, Dómine,",
-        "resp2_lat": "comméndo spíritum meum.",
+        "resp2_lat": "comméndo\u00a0spíritum\u00a0meum.",
         "resp3_lat": "Redemísti nos, Dómine Deus veritátis._lat",
         "antev_lat": "Salva nos, Dómine, vigilántes, custódi nos dormiéntes, ut vigilémus cum Christo et requiescámus in pace.^Lö"
     },
@@ -295,7 +294,7 @@ const dataKomplet = {
         "ant1_lat": "Esto mihi in Deum protectórem et in domum refúgii.",
         "ant2_lat": "De profúndis clamávi ad te, Dómine.",
         "les_text_lat": "Irascímini et nolíte peccáre; sol non óccidat super iracúndiam vestram, et nolíte locum dare Diábolo.",
-        "oration_komplet_lat": "Dómine Iesu Christe, qui iugum suáve te sequéntibus onúsque leve pérhibes mitis et húmilis, dignáre huius diéi vota et ópera nostra suscípere, et quiétem tribúere, qua tuo nos fácias servítio promptióres.^ORS"
+        "oration_komplet_lat": "Dómine Iesu Christe, qui iugum suáve te sequéntibus onúsque leve pérhibes mitis et húmilis, dignáre huius diéi vota et ópera nostra suscípere, et quiétem tribúere, qua tuo nos fácias servítio promptióres.^ORlS"
     },
     "4": {
         "hymn_2": 2514.0,

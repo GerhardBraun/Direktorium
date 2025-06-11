@@ -1362,7 +1362,8 @@ const PrayerTextDisplay = ({
     let processedResp1 = resp1;
     let processedResp2 = resp2;
 
-    if (texts?.season === 'o' && hour !== 'lesehore' && resp1 && resp2) {
+    if ((texts?.season === 'o' && !texts?.swdCombined?.startsWith('o-9-'))
+      && hour !== 'lesehore' && resp1 && resp2) {
       const testResp2 = resp2
         .replace(' ', '°')
         .replace('_lat', '')

@@ -84,7 +84,6 @@ export const formatText = (text) => {
 };
 
 // Formatiert Gebetstext mit speziellen Tags und saisonalen Anpassungen
-// Formatiert Gebetstext mit speziellen Tags und saisonalen Anpassungen
 export const formatPrayerText = (provText, marker = '',
     hour = '', texts = {},
     prefSrc = '', localPrefLanguage = '', isNarrowScreen = false) => {
@@ -102,12 +101,12 @@ export const formatPrayerText = (provText, marker = '',
                 '^LRESP': "Hæc est dies quam fecit Dóminus: exsultémus\u00a0et\u00a0lætémur\u00a0in\u00a0ea.\u00a0Allelúia."
             },
             'q-6-4': {
-                '^RESP': "Christus war für uns gehorsam bis zum Tod.",
-                '^LRESP': "Christus factus est pro nobis obœ́diens usque ad mortem."
+                '^RESP': "Christus war für uns gehorsam bis\u00a0zum\u00a0Tod.",
+                '^LRESP': "Christus factus est pro nobis obœ́diens\u00a0usque\u00a0ad\u00a0mortem."
             },
             'q-6-5': {
                 '^RESP': "Christus war für uns gehorsam bis zum Tod, bis\u00a0zum\u00a0Tod\u00a0am\u00a0Kreuze.",
-                '^LRESP': "Christus factus est pro nobis obœ́diens usque ad mortem, mortem autem crucis."
+                '^LRESP': "Christus factus est pro nobis obœ́diens usque ad mortem, mortem\u00a0autem\u00a0crucis."
             },
             'q-6-6': {
                 '^RESP': "Christus war für uns gehorsam bis zum Tod, bis\u00a0zum\u00a0Tod\u00a0am\u00a0Kreuze. Darum hat ihn Gott über alle erhöht und ihm den Namen verliehen, der größer ist als alle Namen.",
@@ -120,11 +119,16 @@ export const formatPrayerText = (provText, marker = '',
                 (swdCombined.startsWith('o-1-') || swdCombined === 'o-2-0')
                     ? 'oktav' : swdCombined;
 
+            const antiphon = easterAntiphons?.[replaceDay]?.[match];
+
+            if (!antiphon) { return '' }
+
             const rubric = match === '^RESP'
                 ? '^p^RUBRAnstelle des Responsoriums wird die\u00a0folgende\u00a0Antiphon\u00a0genommen:^0RUBR^l'
                 : '^p^RUBRLoco responsorii dicitur:^0RUBR^l';
 
-            return rubric + easterAntiphons?.[replaceDay]?.[match] || match;
+            return rubric + antiphon;
+
         })
     }
 
@@ -146,16 +150,16 @@ export const formatPrayerText = (provText, marker = '',
             },
             "^ORl": {
                 "lang": {
-                    'vR': "Qui técum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum. Amen.",
-                    'V': "Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum. Amen.",
-                    'S': "qui vivis et regnas in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum. Amen.",
-                    'R': "qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum. Amen.",
+                    'vR': "Qui técum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.",
+                    'V': "Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.",
+                    'S': "qui vivis et regnas in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.",
+                    'R': "qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.",
                 },
                 "kurz": {
-                    'vR': "Qui vivit et regnat in sǽcula sæculórum. Amen.",
-                    'V': "Per Christum Dóminum nostrum. Amen.",
-                    'S': "qui vivis et regnas in sǽcula sæculórum. Amen.",
-                    'R': "qui vivit et regnat in sǽcula sæculórum. Amen.",
+                    'vR': "Qui vivit et regnat in sǽcula sæculórum.",
+                    'V': "Per Christum Dóminum nostrum.",
+                    'S': "qui vivis et regnas in sǽcula sæculórum.",
+                    'R': "qui vivit et regnat in sǽcula sæculórum.",
                 },
             },
         };
