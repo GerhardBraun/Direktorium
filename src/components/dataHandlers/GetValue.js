@@ -26,6 +26,7 @@ export const getValue = ({ season, hour, texts, field,
     const getFieldValue = (field) => {
         const { rank_date = 0, rank_wt = 0, isCommemoration, hasErsteVesper = false, swdCombined, dayOfWeek } = texts;
         const sollemnityErsteVesper = () => ['soll', 'kirchw'].includes(prefSollemnity)
+        const isErsteLesung = field.startsWith('les_text') && hour === 'lesehore';
         const isTSN = ['terz', 'sext', 'non'].includes(hour)
         const memorialWithTNS = texts?.laudes?.eig?.button?.includes('Barnabas' || 'Schutzengel')
 
@@ -91,7 +92,7 @@ export const getValue = ({ season, hour, texts, field,
             (field.startsWith('psalm') || field.startsWith('ant'))
         ) { skipCommune = true }
 
-        if (isSollemnity) {
+        if (isSollemnity && (isErsteLesung && localPrefComm)) {
             skipCommune = false
         }
         else if (!localPrefComm &&

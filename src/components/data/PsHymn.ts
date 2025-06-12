@@ -4752,26 +4752,55 @@ export const psalmsData = {
   },
   8624: {
     1.0: {
-        "title": "Christus, dem Herren, dientest du als Herold",
-        "quote": "JohannesdT",
-        "text": "Christus, dem Herren, dientest du als Herold.^lEwiger Ratschluss fand in dir den Boten.^lGlücklich wir preisen alle deinen Namen:^lGruß dir, Johannes!^pStimme des Rufers, der den Weg ihm ebnet,^ldich hat vor allen sich der Herr erkoren:^lJesus, der Heiland, lässt von dir sich taufen,^ler, das Lamm Gottes.^pLobpreis und Ehre Gott, dem ew’gen Vater,^lEhre dem Sohne, den du uns verkündet,^lEhre dem Geiste, der ihn dir bezeugte,^limmer und ewig."
+        "quote": "JohannesdT: Lh",
+        "title_lat": "Antra desérti téneris sub annis",
+        "text_lat": "Antra desérti téneris sub annis,^lcívium turmas fúgiens, petísti,^lne levi saltem maculáre vitam^lfámine posses.^pPrǽbuit hirtum tégimen camélus^lártubus sacris, stróphium bidéntes,^lcui latex haustum, sociáta pastum^lmella locústis.^pCéteri tantum cecinére vatum^lcorde præságo iubar affutúrum;^ltu quidem mundi scelus auferéntem^líndice prodis.^pNon fuit vasti spátium per orbis^lsánctior quisquam génitus Ioánne,^lqui nefas sæcli méruit lavántem^ltíngere lymphis.^pLáudibus cives célebrant supérni^lte, Deus simplex paritérque trine;^lsúpplices ac nos véniam precámur:^lparce redémptis."
       },
     2.0: {
+        "quote": "JohannesdT: Ld",
+        "title_lat": "O nimis felix meritíque celsi",
+        "text_lat": "O nimis felix meritíque celsi,^lnésciens labem nívei pudóris,^lprǽpotens martyr eremíque cultor,^lmáxime vatum.^pNunc potens nostri méritis opímis^lpéctoris duros lápides repélle,^lásperum planans iter, et refléxos^ldírige calles,^pUt pius mundi sator et redémptor,^lméntibus pulsa mácula polítis,^lrite dignétur véniens sacrátos^lpónere gressus.^pLáudibus cives célebrant supérni^lte, Deus simplex paritérque trine;^lsúpplices ac nos véniam precámur:^lparce redémptis."
+      },
+    4.0: {
         "title": "Christus, dem Herren, dientest du als Herold",
-        "quote": "JohannesdT",
-        "text": "Christus, dem Herren, dientest du als Herold.^lEwiger Ratschluss fand in dir den Boten.^lGlücklich wir preisen alle deinen Namen:^lGruß dir, Johannes!^pNoch trägt die Mutter dich in ihrem Schoße,^ldu aber fühlst schon, dass sich naht der König;^lFreude bewegt dich, drängt dich, ihn zu grüßen,^leh’ er geboren.^pWüste und Wildnis wählst du dir zur Wohnstatt,^lkündest die Ankunft des ersehnten Retters,^lpredigst die Umkehr, rufst das Volk zur Buße,^ldass es bereit sei.^pDen einst die Seher als das Licht verheißen,^ldas sie nur ahnend aus der Ferne schauten,^lihn, der hinwegnimmt alle Schuld der Erde,^lrufst du beim Namen.^pStimme des Rufers, der den Weg ihm ebnet,^ldich hat vor allen sich der Herr erkoren:^lJesus, der Heiland, lässt von dir sich taufen,^ler, das Lamm Gottes.^pLobpreis und Ehre Gott, dem ew’gen Vater,^lEhre dem Sohne, den du uns verkündet,^lEhre dem Geiste, der ihn dir bezeugte,^limmer und ewig. Amen."
+        "quote": "JohannesdT: Vp",
+        "text": "Christus, dem Herren, dientest du als Herold.^lEwiger Ratschluss fand in dir den Boten.^lGlücklich wir preisen alle deinen Namen:^lGruß dir, Johannes!^pNoch trägt die Mutter dich in ihrem Schoße,^ldu aber fühlst schon, dass sich naht der König;^lFreude bewegt dich, drängt dich, ihn zu grüßen,^leh’ er geboren.^pWüste und Wildnis wählst du dir zur Wohnstatt,^lkündest die Ankunft des ersehnten Retters,^lpredigst die Umkehr, rufst das Volk zur Buße,^ldass es bereit sei.^pDen einst die Seher als das Licht verheißen,^ldas sie nur ahnend aus der Ferne schauten,^lihn, der hinwegnimmt alle Schuld der Erde,^lrufst du beim Namen.^pStimme des Rufers, der den Weg ihm ebnet,^ldich hat vor allen sich der Herr erkoren:^lJesus, der Heiland, lässt von dir sich taufen,^ler, das Lamm Gottes.^pLobpreis und Ehre Gott, dem ew’gen Vater,^lEhre dem Sohne, den du uns verkündet,^lEhre dem Geiste, der ihn dir bezeugte,^limmer und ewig. Amen.",
+        "title_lat": "Ut queant laxis resonáre fibris",
+        "text_lat": "Ut queant laxis resonáre fibris^lmira gestórum fámuli tuórum,^lsolve pollúti lábii reátum,^lsancte Ioánnes.^pNúntius cælo véniens suprémo,^lte patri magnum fore nascitúrum,^lnomen et vitæ sériem geréndæ^lórdine promit.^pIlle promíssi dúbius supérni^lpérdidit promptæ módulos loquélæ;^lsed reformásti génitus perémptæ^lórgana vocis.^pVentris obstrúso pósitus cubíli^lsénseras regem thálamo manéntem;^lhinc parens nati méritis utérque^lábdita pandit.^pLáudibus cives célebrant supérni^lte, Deus simplex paritérque trine;^lsúpplices ac nos véniam precámur:^lparce redémptis."
+      },
+    5.0: {
+        "title": "Christus, dem Herren, dientest du als Herold",
+        "quote": "JohannesdT: Lh und Ld dt.",
+        "text": "Christus, dem Herren, dientest du als Herold.^lEwiger Ratschluss fand in dir den Boten.^lGlücklich wir preisen alle deinen Namen:^lGruß dir, Johannes!^pStimme des Rufers, der den Weg ihm ebnet,^ldich hat vor allen sich der Herr erkoren:^lJesus, der Heiland, lässt von dir sich taufen,^ler, das Lamm Gottes.^pLobpreis und Ehre Gott, dem ew’gen Vater,^lEhre dem Sohne, den du uns verkündet,^lEhre dem Geiste, der ihn dir bezeugte,^limmer und ewig."
       }
   },
   8629: {
+    0.0: {
+        "quote": "Peter und Paul: 1. Vp.",
+        "title_lat": "Aurea luce et decóre róseo",
+        "text_lat": "Aurea luce et decóre róseo,^llux lucis, omne perfudísti sǽculum,^ldécorans cælos ínclito martýrio^lhac sacra die, quæ dat reis véniam.^pIánitor cæli, doctor orbis páriter,^liúdices sæcli, vera mundi lúmina,^lper crucem alter, alter ense triúmphans,^lvitæ senátum laureáti póssident.^pO Roma felix, quæ tantórum príncipum^les purpuráta pretióso sánguine,^lnon laude tua, sed ipsórum méritis^lexcéllis omnem mundi pulchritúdinem.^pOlívæ binæ pietátis únicæ,^lfide devótos, spe robústos máxime,^lfonte replétos caritátis géminæ^lpost mortem carnis impetráte vívere.^pSit Trinitáti sempitérna glória,^lhonor, potéstas atque iubilátio,^lin unitáte, cui manet impérium^lex tunc et modo per ætérna sǽcula."
+      },
+    1.0: {
+        "quote": "Peter und Paul: Lh",
+        "title_lat": "Felix per omnes festum mundi cárdines",
+        "text_lat": "Felix per omnes festum mundi cárdines^lapostolórum præpóllet alácriter,^lPetri beáti, Pauli sacratíssimi,^lquos Christus almo consecrávit sánguine,^lecclesiárum deputávit príncipes.^pHi sunt olívæ duæ coram Dómino^let candelábra luce radiántia,^lpræclára cæli duo luminária;^lfórtia solvunt peccatórum víncula^lportásque cæli réserant fidélibus.^pGlória Patri per imménsa sǽcula,^lsit tibi, Nate, decus et impérium,^lhonor, potéstas Sanctóque Spirítui;^lsit Trinitáti salus indivídua^lper infiníta sæculórum sǽcula."
+      },
     2.0: {
-        "title": "O Roma felix!",
-        "quote": "PetrPaul",
-        "text": "O Roma felix!^/Der Apostelfürsten Tod^lhat mit dem Purpur^/ihres Blutes dich geschmückt.^lIhr großes Leben,^/nicht dein Ruhm und deine Macht,^lgibt dir den Vorrang^/vor den Städten dieser Welt.^pPförtner des Himmels,^/Petrus, der die Schlüssel trägt,^lVölkerapostel,^/Paulus, der die Heiden ruft:^lLeuchten des Weltalls,^/habt den Glauben ihr bezeugt –^leiner am Kreuze^/und der andre unterm Schwert.^pGöttliche Dreiheit,^/Vater, Sohn und Heil’ger Geist,^lhöre den Lobpreis,^/den wir deiner Größe weihn,^lda das Gedächtnis^/deiner Zeugen uns erfreut.^lGib uns wie ihnen^/einst den Thron der Seligkeit."
+        "quote": "Peter und Paul: Ld",
+        "title_lat": "Apostolórum pássio diem sacrávit sǽculi",
+        "text_lat": "Apostolórum pássio^ldiem sacrávit sǽculi,^lPetri triúmphum nóbilem,^lPauli corónam prǽferens.^pConiúnxit æquáles viros^lcruor triumphális necis;^lDeum secútos prǽsulem^lChristi coronávit fides.^pPrimus Petrus apóstolus;^lnec Paulus impar grátia,^lelectiónis vas sacræ^lPetri adæquávit fidem.^pVerso crucis vestígio^lSimon, honórem dans Deo,^lsuspénsus ascéndit, dati^lnon ímmemor oráculi.^pHinc Roma celsum vérticem^ldevotiónis éxtulit,^lfundáta tali sánguine^let vate tanto nóbilis.^pHuc ire quis mundum putet,^lconcúrrere plebem poli:^lelécta géntium caput^lsedes magístri géntium.^pHorum, Redémptor, quǽsumus,^lut príncipum consórtio^liungas precántes sérvulos^lin sempitérna sǽcula."
       },
     4.0: {
         "title": "Goldenes Leuchten strahlt vom Himmel heut herab",
-        "quote": "PetrPaul",
-        "text": "Goldenes Leuchten^/strahlt vom Himmel heut herab,^lVater des Lichtes,^/du erfüllst die Welt mit Glanz,^lzierest den Himmel,^/da im Feste wir begehn^ldeiner Apostel^/herrliches Martyrium.^pHeiliger Petrus,^/Fels, auf dem die Kirche steht,^lHüter der Herde,^/die dir Christus anvertraut,^leinst hast du weinend^/den Verrat am Herrn bereut,^lzeigst nun im Tode,^/dass du wirklich ihn geliebt.^pHeiliger Paulus,^/Bote du des neuen Heils,^lKünder des Wortes,^/der die Völker Wahrheit lehrt,^leinst hast du eifernd^/Christi Jüngern nachgestellt,^llegst nun im Sterben^/Zeugnis ab mit deinem Blut.^pGöttliche Dreiheit,^/Vater, Sohn und Heil’ger Geist,^lhöre den Lobpreis,^/den wir deiner Größe weihn,^lda das Gedächtnis^/deiner Zeugen uns erfreut.^lGib uns wie ihnen^/einst den Thron der Seligkeit."
+        "quote": "Peter und Paul: Vp",
+        "text": "Goldenes Leuchten^/strahlt vom Himmel heut herab,^lVater des Lichtes,^/du erfüllst die Welt mit Glanz,^lzierest den Himmel,^/da im Feste wir begehn^ldeiner Apostel^/herrliches Martyrium.^pHeiliger Petrus,^/Fels, auf dem die Kirche steht,^lHüter der Herde,^/die dir Christus anvertraut,^leinst hast du weinend^/den Verrat am Herrn bereut,^lzeigst nun im Tode,^/dass du wirklich ihn geliebt.^pHeiliger Paulus,^/Bote du des neuen Heils,^lKünder des Wortes,^/der die Völker Wahrheit lehrt,^leinst hast du eifernd^/Christi Jüngern nachgestellt,^llegst nun im Sterben^/Zeugnis ab mit deinem Blut.^pGöttliche Dreiheit,^/Vater, Sohn und Heil’ger Geist,^lhöre den Lobpreis,^/den wir deiner Größe weihn,^lda das Gedächtnis^/deiner Zeugen uns erfreut.^lGib uns wie ihnen^/einst den Thron der Seligkeit.",
+        "title_lat": "O Roma felix, quæ tantórum príncipum",
+        "text_lat": "O Roma felix, quæ tantórum príncipum^les purpuráta pretióso sánguine!^lExcéllis omnem mundi pulchritúdinem^lnon laude tua, sed sanctórum méritis,^lquos cruentátis iugulásti gládiis.^pVos ergo modo, gloriósi mártyres,^lPetre beáte, Paule, mundi lílium,^lcæléstis aulæ triumpháles mílites,^lprécibus almis vestris nos ab ómnibus^lmuníte malis, ferte super ǽthera.^pGlória Patri per imménsa sǽcula,^lsit tibi, Nate, decus et impérium,^lhonor, potéstas Sanctóque Spirítui;^lsit Trinitáti salus indivídua^lper infiníta sæculórum sǽcula."
+      },
+    5.0: {
+        "title": "O Roma felix!",
+        "quote": "Peter und Paul: Lh und Ld dt.",
+        "text": "O Roma felix!^/Der Apostelfürsten Tod^lhat mit dem Purpur^/ihres Blutes dich geschmückt.^lIhr großes Leben,^/nicht dein Ruhm und deine Macht,^lgibt dir den Vorrang^/vor den Städten dieser Welt.^pPförtner des Himmels,^/Petrus, der die Schlüssel trägt,^lVölkerapostel,^/Paulus, der die Heiden ruft:^lLeuchten des Weltalls,^/habt den Glauben ihr bezeugt –^leiner am Kreuze^/und der andre unterm Schwert.^pGöttliche Dreiheit,^/Vater, Sohn und Heil’ger Geist,^lhöre den Lobpreis,^/den wir deiner Größe weihn,^lda das Gedächtnis^/deiner Zeugen uns erfreut.^lGib uns wie ihnen^/einst den Thron der Seligkeit."
       }
   },
   8711: {

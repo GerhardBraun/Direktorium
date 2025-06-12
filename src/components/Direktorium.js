@@ -1500,6 +1500,7 @@ const PrayerTextDisplay = ({
               title="HYMNUS"
               field="hymn_1"
               askTSN={true}
+              askLatin={true}
               onSelectHour={onSelectHour}
             />
 
@@ -1518,7 +1519,10 @@ const PrayerTextDisplay = ({
 
         {(getValue("psalm1") || hour === "invitatorium") && (
           <div className="mb-0">
-            <SectionHeader title="PSALMODIE" field="psalm1" />
+            <SectionHeader
+              title="PSALMODIE"
+              field="psalm1"
+              askLatin={true} />
             {getValue("ant0") && (
               <div className="mb-4">
                 {formatPrayerText(getValue("ant0"), "Ant.°°")}

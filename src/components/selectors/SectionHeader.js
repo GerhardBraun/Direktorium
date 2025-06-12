@@ -60,6 +60,7 @@ export const SectionHeader = ({
     const showErgPs = title === 'PSALMODIE' && ["terz", "sext", "non"].includes(hour)
         && !(prefSollemnity || rank_date === 5 || rank_wt === 5);
     const showContinuous = hasEig && hasWt && askContinuous && hour === 'lesehore' && !isCommemoration;
+    const isErsteLesung = field.startsWith('les_text') && hour === 'lesehore';
     const showTSN = askTSN && ["terz", "sext", "non"].includes(hour);
     const invPsalms = (hour === 'invitatorium' && title === 'PSALMODIE')
         ? texts?.invitatorium?.psalms : null;
@@ -88,12 +89,16 @@ export const SectionHeader = ({
         (texts?.hasErsteVesper && hour === 'vesper')
     ) { skipCommune = false };
 
-    if (prefSollemnity && !showBothComm) { skipCommune = true }
+    if (prefSollemnity && !showBothComm && !isErsteLesung) { skipCommune = true }
 
     if (prefSollemnity === 'kirchw' || prefSollemnity === 'verst'
     ) { skipCommune = true }
 
     if (["ERÖFFNUNG", "HYMNUS", "ABSCHLUSS"].includes(title)) { skipCommune = true };
+
+    if (field === 'les_text') {
+        console.log("SectionHeader: showSources/skipCommune", showSources, skipCommune);
+    }
 
     if (title === "RESPONSORIUM" ||
         (!invPsalms && !showSources && !askLatin
@@ -174,7 +179,7 @@ export const SectionHeader = ({
                         onClick={() => setLocalPrefContinuous(true)}
                         className={localPrefContinuous && 'underline'}
                     >
-                        Bahnlesung
+                        {`${isErsteLesung ? 'Bahnlesung' : 'vom Wt'}`}
                     </button>
                 </ButtonGroup>
             )
@@ -199,14 +204,14 @@ export const SectionHeader = ({
 
                         </>
                     )}
-                    {!prefSollemnity && (
+                    {(!prefSollemnity || prefSollemnity) && (
                         <>
                             {" | "}
                             <button
                                 onClick={() => setLocalPrefComm(0)}
                                 className={`${localPrefComm === 0 ? 'underline' : ''}`}
                             >
-                                Wt
+                                {`${isErsteLesung ? 'Bahnlesung' : 'Wt'}`}
                             </button>
                         </>
                     )}
