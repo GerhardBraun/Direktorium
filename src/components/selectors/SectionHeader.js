@@ -96,10 +96,6 @@ export const SectionHeader = ({
 
     if (["ERÖFFNUNG", "HYMNUS", "ABSCHLUSS"].includes(title)) { skipCommune = true };
 
-    if (field === 'les_text') {
-        console.log("SectionHeader: showSources/skipCommune", showSources, skipCommune);
-    }
-
     if (title === "RESPONSORIUM" ||
         (!invPsalms && !showSources && !askLatin
             && !showPsalmsWt && !showContinuous && !showTSN && !showErgPs)) {

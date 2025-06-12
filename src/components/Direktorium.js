@@ -1500,7 +1500,6 @@ const PrayerTextDisplay = ({
               title="HYMNUS"
               field="hymn_1"
               askTSN={true}
-              askLatin={true}
               onSelectHour={onSelectHour}
             />
 
