@@ -33,7 +33,7 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
         {
             season: "j", // Jahreskreis
             color: (season === 'j') ? "btn-green" : "btn-default",
-            title: "Sei gegrüßt, o Königin",
+            title: "Sei gegrüßt, o Königin ",
             text: "Sei gegrüßt, o°Königin,^lMutter der Barmherzigkeit;^lunser Leben, unsre Wonne^lund unsre Hoffnung, sei gegrüßt!^lZu dir rufen wir verbannte Kinder Evas;^lzu dir seufzen wir^ltrauernd und weinend in°diesem°Tal°der°Tränen.^lWohlan denn, unsre Fürsprecherin,^lwende deine barmherzigen Augen uns zu^lund nach diesem Elend zeige uns Jesus,^ldie gebenedeite Frucht deines Leibes!^lO gütige, o°milde, o°süße°Jungfrau°Maria!",
             title_lat: "Salve Regina",
             text_lat: "Salve, Regína, mater misericórdiæ,^lvita, dulcédo et spes nostra, salve.^lAd te clamámus, éxsules fílii Evæ.^lAd te suspirámus, geméntes°et°flentes^lin hac lacrimárum valle.^lEia ergo, advocáta nostra,^lillos tuos misericórdes óculos ad°nos°convérte.^lEt Iesum, benedíctum°fructum°ventris°tui,^lnobis post hoc exsílium osténde.^lO clemens, o°pia, o°dulcis°Virgo°María."
