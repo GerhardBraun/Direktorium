@@ -1,4 +1,5 @@
 import React from 'react';
+import { getLocalStorage } from '../utils/localStorage.js';
 
 const checkSources = (texts, hour, prefSrc, field) => {
     const hasEig = texts[hour][prefSrc]?.[field];
@@ -25,7 +26,6 @@ const checkSources = (texts, hour, prefSrc, field) => {
 export const SectionHeader = ({
     title,
     provField,
-    askLatin,
     askContinuous,
     askTSN,
     onSelectHour,
@@ -66,6 +66,14 @@ export const SectionHeader = ({
         ? texts?.invitatorium?.psalms : null;
     const sollemnityErsteVesper = () => ['soll', 'dec'].includes(prefSollemnity)
 
+    let askLatin = true;
+    if (title === 'VERSIKEL'
+        || hour === 'invitatorium' && title === 'PSALMODIE'
+    ) { askLatin = false }
+    else if (title === 'HYMNUS') {
+        askLatin = getLocalStorage('ommitOpening') === 'true' ? true : false
+    }
+
     // Prüfe, ob Commune übersprungen werden soll
     let skipCommune = false;
     if (rank_date < 3 && (  // an Gedenktagen
@@ -96,7 +104,7 @@ export const SectionHeader = ({
 
     if (["ERÖFFNUNG", "HYMNUS", "ABSCHLUSS"].includes(title)) { skipCommune = true };
 
-    if (title === "RESPONSORIUM" ||
+    if (["VERSIKEL", "RESPONSORIUM"].includes(title) ||
         (!invPsalms && !showSources && !askLatin
             && !showPsalmsWt && !showContinuous && !showTSN && !showErgPs)) {
         return <h2 className="prayer-heading">{title}</h2>;
@@ -123,8 +131,8 @@ export const SectionHeader = ({
                         }}                    >
                         (dt./lat.)
                     </button>
-                </ButtonGroup>)
-            }
+                </ButtonGroup>
+            )}
             {showPsalmsWt && (
                 <ButtonGroup>
                     <button
@@ -141,8 +149,7 @@ export const SectionHeader = ({
                         vom Wt
                     </button>
                 </ButtonGroup>
-            )
-            }
+            )}
             {showErgPs && (
                 <ButtonGroup>
                     <button
@@ -159,8 +166,7 @@ export const SectionHeader = ({
                         ErgPs
                     </button>
                 </ButtonGroup>
-            )
-            }
+            )}
             {showContinuous && (
                 <ButtonGroup>
                     {hasEig && (<button
@@ -178,8 +184,7 @@ export const SectionHeader = ({
                         {`${isErsteLesung ? 'Bahnlesung' : 'vom Wt'}`}
                     </button>
                 </ButtonGroup>
-            )
-            }
+            )}
             {showSources && !skipCommune && (
                 <ButtonGroup>
                     <button
@@ -212,8 +217,7 @@ export const SectionHeader = ({
                         </>
                     )}
                 </ButtonGroup>
-            )
-            }
+            )}
             {showTSN && (
                 <ButtonGroup>
                     <button
@@ -237,8 +241,7 @@ export const SectionHeader = ({
                         Non
                     </button>
                 </ButtonGroup>
-            )
-            }
+            )}
             {invPsalms && (
                 <ButtonGroup>
                     {[95, 100, 67, 24].map((psalmNumber, index) => (
@@ -255,8 +258,7 @@ export const SectionHeader = ({
                         ) : null
                     ))}
                 </ButtonGroup>
-            )
-            }
+            )}
         </h2 >
     );
 };

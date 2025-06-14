@@ -1293,15 +1293,12 @@ const PrayerTextDisplay = ({
   const SectionHeader = ({
     title,
     field: provField,
-    askLatin,
     askContinuous,
     askTSN,
-    onSelectHour,
   }) =>
     extSectionHeader({
       title,
       provField,
-      askLatin,
       askContinuous,
       askTSN,
       onSelectHour,
@@ -1474,7 +1471,7 @@ const PrayerTextDisplay = ({
             <SectionHeader
               title="ERÖFFNUNG"
               field="versikel0"
-              askLatin={true} />
+            />
             <div>
               {formatPrayerText(ordinariumTexts.opening[0], "V°°")}
             </div>
@@ -1521,7 +1518,7 @@ const PrayerTextDisplay = ({
             <SectionHeader
               title="PSALMODIE"
               field="psalm1"
-              askLatin={true} />
+            />
             {getValue("ant0") && (
               <div className="mb-4">
                 {formatPrayerText(getValue("ant0"), "Ant.°°")}
@@ -1563,7 +1560,9 @@ const PrayerTextDisplay = ({
         )}
         {getValue("versikel0") && (
           <div className="mb-0">
-            <SectionHeader title="VERSIKEL" field="versikel0" />
+            <SectionHeader
+              title="VERSIKEL"
+              field="versikel0" />
             {getValue("versikel0") && (
               <div className="mb-0 flex gap-0">
                 <div>{formatPrayerText(getValue("versikel0"), "V°°")}</div>
@@ -1612,7 +1611,9 @@ const PrayerTextDisplay = ({
 
         {getValue("resp1") && (
           <div className="mb-0 whitespace-pre-wrap">
-            <SectionHeader title="RESPONSORIUM" field="resp1" />
+            <SectionHeader
+              title="RESPONSORIUM"
+              field="resp1" />
             <ComposeResponse
               resp0={getValue("resp0")}
               resp1={getValue("resp1")}
@@ -1641,7 +1642,9 @@ const PrayerTextDisplay = ({
 
         {getValue("patr_resp1") && (
           <div className="mb-0">
-            <SectionHeader title="RESPONSORIUM" field="resp1" />
+            <SectionHeader
+              title="RESPONSORIUM"
+              field="resp1" />
             <ComposeResponse
               resp0={null}
               resp1={getValue("patr_resp1")}
@@ -1653,7 +1656,9 @@ const PrayerTextDisplay = ({
         {/* erweitertes Responsorium am 1. Adventssonntag Jahr II */}
         {advResp && (
           <div className="mb-0">
-            <SectionHeader title="RESPONSORIUM" field="resp1" />
+            <SectionHeader
+              title="RESPONSORIUM"
+              field="resp1" />
             <div className="mb-0 flex gap-0">
               <Rubric>R&nbsp;&nbsp;</Rubric>
               <div>
@@ -1698,7 +1703,6 @@ const PrayerTextDisplay = ({
             <SectionHeader
               title={ordinariumTexts.titel}
               field="antev"
-              askLatin={true}
             />
             {getValue("antev") && (
               <div className="mb-4">
@@ -1745,7 +1749,6 @@ const PrayerTextDisplay = ({
             <SectionHeader
               title={hour === "lesehore" ? "TE DEUM" : "VATERUNSER"}
               field=""
-              askLatin={true}
             />
             <div className="mb-4 whitespace-pre-wrap">
               {formatPrayerText(ordinariumTexts.vu)}
@@ -1759,7 +1762,9 @@ const PrayerTextDisplay = ({
 
         {hour !== "invitatorium" && hour !== "komplet" && (
           <div className="mb-0">
-            <SectionHeader title="ORATION" field="oration" />
+            <SectionHeader
+              title="ORATION"
+              field="oration" />
             {getValue("oration") && (
               <div className="whitespace-pre-wrap">
                 {formatPrayerText(
@@ -1773,7 +1778,9 @@ const PrayerTextDisplay = ({
 
         {getValue("oration_komplet") && (
           <div className="mb-0">
-            <SectionHeader title="ORATION" field="oration_komplet" />
+            <SectionHeader
+              title="ORATION"
+              field="oration_komplet" />
             <div>{formatPrayerText(getValue("oration_komplet"))}</div>
           </div>
         )}
@@ -1783,7 +1790,7 @@ const PrayerTextDisplay = ({
             <SectionHeader
               title="ABSCHLUSS"
               field="versikel0"
-              askLatin={true} />
+            />
             <div className="flex gap-0">
               {formatPrayerText(ordinariumTexts.closing[0], "V°°")}
             </div>
@@ -1796,9 +1803,8 @@ const PrayerTextDisplay = ({
         {(hour === 'komplet') && (
           <div className="mb-0">
             <SectionHeader
-              title={"MARIANISCHE ANTIPHON"}
+              title="MARIANISCHE ANTIPHON"
               field="marant"
-              askLatin={true}
             />
             <MarAntSelector
               season={season}
@@ -1847,7 +1853,9 @@ const PrayerTextDisplay = ({
 
               {getValue("c_patr_text") && useCommemoration && (
                 <div className="mb-0">
-                  <SectionHeader title="ZWEITE LESUNG" field="patr_text" />
+                  <SectionHeader
+                    title="ZWEITE LESUNG"
+                    field="patr_text" />
                   <div>
                     <div className="text-[0.9em] italic">
                       {formatPrayerText(getValue("c_patr_autor"))}
@@ -1860,7 +1868,9 @@ const PrayerTextDisplay = ({
 
               {getValue("c_patr_resp1") && useCommemoration && (
                 <div className="mb-0">
-                  <SectionHeader title="RESPONSORIUM" field="resp1" />
+                  <SectionHeader
+                    title="RESPONSORIUM"
+                    field="resp1" />
                   <ComposeResponse
                     resp0={null}
                     resp1={getValue("c_patr_resp1")}
@@ -1883,7 +1893,9 @@ const PrayerTextDisplay = ({
 
               {getValue("c_oration") && useCommemoration && (
                 <div className="mb-0">
-                  <SectionHeader title="ORATION" field="oration" />
+                  <SectionHeader
+                    title="ORATION"
+                    field="oration" />
                   <div className="whitespace-pre-wrap">
                     {formatPrayerText(getValue("c_oration"))}
                   </div>

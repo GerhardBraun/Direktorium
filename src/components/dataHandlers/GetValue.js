@@ -26,9 +26,12 @@ export const getValue = ({ season, hour, texts, field,
     const getFieldValue = (field) => {
         const { rank_date = 0, rank_wt = 0, isCommemoration, hasErsteVesper = false, swdCombined, dayOfWeek } = texts;
         const sollemnityErsteVesper = () => ['soll', 'kirchw'].includes(prefSollemnity)
+        const isPsalmodie = field.startsWith('psalm') ||
+            (field.startsWith('ant') && !field.startsWith('antev'))
         const isErsteLesung = field.startsWith('les_text') && hour === 'lesehore';
         const isTSN = ['terz', 'sext', 'non'].includes(hour)
-        const memorialWithTNS = texts?.laudes?.eig?.button?.includes('Barnabas' || 'Schutzengel')
+        const memorialWithTNS = texts?.laudes?.eig?.button
+            ?.includes('Barnabas' || 'Schutzengel')
 
         // Feier wie ein Hochfest
         const isSollemnity = (hour === 'vesper' && hasErsteVesper)
@@ -43,11 +46,8 @@ export const getValue = ({ season, hour, texts, field,
         if (hour === 'vesper' && sollemnityErsteVesper()) { hour = 'prefsollemnity'; }
 
         // Bei lokaler Feier als Hochfest Oration immer aus den Laudes
-        if (prefSollemnity === 'soll' && field === 'oration') {
-            if (texts.laudes[prefSrc]?.oration) {
-                return texts.laudes[prefSrc].oration;
-            }
-            return null;
+        if (prefSollemnity === 'soll' && field.startsWith('oration')) {
+            return texts.laudes[prefSrc]?.[field] ?? null;
         }
 
         // Sonderfall Ergänzungspsalmodie
@@ -80,28 +80,20 @@ export const getValue = ({ season, hour, texts, field,
         let skipCommune = false;
         if (rank_date < 3  // an Gedenktagen
             && ((hour === 'lesehore' && field !== 'oration') ||// Lesehore: nur Hymnus und Oration ggf. Commune
-
-                ((hour === 'laudes' || hour === 'vesper') &&  // Laudes/Vesper Psalmodie
-                    (field.startsWith('psalm') ||
-                        (field.startsWith('ant') && !field.startsWith('antev'))
-                    )) ||
+                (['laudes', 'vesper'].includes(hour) && isPsalmodie) || // Laudes/Vesper Psalmodie
                 isTSN) // Kleine Horen: ganz vom Wt
         ) { skipCommune = true }
 
-        if (rank_date < 5 && isTSN &&  // an Festen: Ant und Ps in Kleinen Horen vom Wt
-            (field.startsWith('psalm') || field.startsWith('ant'))
+        if (rank_date < 5 && isTSN && isPsalmodie // an Festen: Ant und Ps in Kleinen Horen vom Wt
         ) { skipCommune = true }
 
-        if (isSollemnity && (isErsteLesung && localPrefComm)) {
-            skipCommune = false
-        }
-        else if (!localPrefComm &&
-            (field.startsWith('psalm') || field.startsWith('psalm'))) {
-            skipCommune = true
-        }
+        if (isSollemnity
+        ) { skipCommune = false }
 
-        let prefTexts = texts[hour]?.[prefSrc];
-        if (!prefTexts) { prefTexts = texts[hour]?.pers }
+        if (!localPrefComm && isPsalmodie
+        ) { skipCommune = true }
+
+        const prefTexts = texts[hour]?.[prefSrc] || texts[hour]?.pers
 
         let prefCommTexts = '';
         if (!skipCommune) {

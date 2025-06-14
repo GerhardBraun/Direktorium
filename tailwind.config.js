@@ -8,7 +8,10 @@ module.exports = {
         rubric: '#DC2626', // rot
         rubric: '#b6a03a', // gold
         // Neue Farbdefinitionen für Buttons
-        hell: '#e5e7eb',// text-gray-200
+        hell: {
+          DEFAULT: '#ffffff',  // weiß im light-mode
+          dark: '#e5e7eb'      // grau im dark-mode (text-gray-200)
+        },
         dunkel: '#111827',// text-gray-900
         grau: '#9ca3af',// text-gray-400
         liturgical: {

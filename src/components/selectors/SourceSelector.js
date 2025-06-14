@@ -142,7 +142,7 @@ const SourceSelector = ({
                 <div className="flex gap-1">
                     <button
                         onClick={() => handleSourceSelect('', 'kirchw')}
-                        className={`flex-1 pt-2 text-center rounded-sm
+                        className={`flex-1 py-2 text-center rounded-sm
                             bg-gray-100 dark:bg-gray-900 text-xs
                             text-yellow-600 dark:text-yellow-500
                             hover:bg-gray-100 dark:hover:bg-gray-800
@@ -154,7 +154,7 @@ const SourceSelector = ({
                     {(rank_date < 5 && (hasEig || hasN1)) && (
                         <button
                             onClick={() => handleSourceSelect('lokal', 'soll')}
-                            className={`flex-1 pt-2 text-center rounded-sm
+                            className={`flex-1 py-2 text-center rounded-sm
                                 bg-gray-100 dark:bg-gray-900 text-xs
                                 ${useToggle ? 'text-yellow-600 dark:text-yellow-500' : 'text-gray-200 dark:text-gray-800'}
                                 hover:bg-gray-100 dark:hover:bg-gray-800
@@ -167,7 +167,7 @@ const SourceSelector = ({
 
                     <button
                         onClick={() => handleSourceSelect('', 'verst')}
-                        className={`flex-1 pt-2 text-center rounded-sm
+                        className={`flex-1 py-2 text-center rounded-sm
                             bg-gray-100 dark:bg-gray-900 text-xs
                             text-yellow-600 dark:text-yellow-500
                             hover:bg-gray-100 dark:hover:bg-gray-800

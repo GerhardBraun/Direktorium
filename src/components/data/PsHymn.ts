@@ -2699,7 +2699,7 @@ export const psalmsData = {
         "text_neu": "^(Jerusalem, rühme den HERRN!^*Lobe deinen Gott, Zion!^)^pDenn er hat die Riegel deiner Tore festgemacht,^*die Kinder in deiner Mitte gesegnet.^pEr verschafft deinen Grenzen Frieden,^*er sättigt dich mit bestem Weizen.^pEr sendet seinen Spruch zur Erde,^*in Eile läuft sein Wort dahin.^pEr gibt Schnee wie Wolle,^*Reif streut er aus wie Asche.^pEis wirft er herab wie Brocken,^*vor seinem Frost – wer kann da bestehen?^pEr sendet sein Wort und lässt sie schmelzen,^*er lässt seinen Wind wehen – da rieseln die Wasser.^pEr verkündet Jakob sein Wort,^*Israel seine Gesetze und seine Entscheide.^pAn keinem anderen Volk hat er so gehandelt,^*sie kennen sein Recht nicht.",
         "title_lat": "Instauratio Ierusalem",
         "quote_lat": "Veni, et ostendam tibi sponsam, uxorem Agni. (Ap°21,9)",
-        "text_lat": "^(Lauda, Ierúsalem, Dóminum;^*colláuda Deum tuum, Sion.^)^pQuóniam confortávit seras portárum tuárum,^*benedixit filiis tuis in te.^pQui ponit fines tuos pacem^*et ádipe fruménti sátiat te.^pQui emíttit elóquium suum terræ,^*velóciter currit verbum eius.^pQui dat nivem sicut lanam,^*pruínam sicut cínerem spargit.^pMittit crystállum suam sicut buccéllas;^*ante fáciem frígoris eius quis sustinébit?^pEmíttet verbum suum et liquefáciet ea,^*flabit spíritus eius, et fluent aquæ.^pQui annúntiat verbum suum Iacob,^*iustítias et iudícia sua Israel.^pNon fecit táliter omni natióni^*et iudícia sua non manifestávit eis."
+        "text_lat": "^(Lauda, Ierúsalem, Dóminum^);^*colláuda Deum tuum, Sion.^pQuóniam confortávit seras portárum tuárum,^*benedixit filiis tuis in te.^pQui ponit fines tuos pacem^*et ádipe fruménti sátiat te.^pQui emíttit elóquium suum terræ,^*velóciter currit verbum eius.^pQui dat nivem sicut lanam,^*pruínam sicut cínerem spargit.^pMittit crystállum suam sicut buccéllas;^*ante fáciem frígoris eius quis sustinébit?^pEmíttet verbum suum et liquefáciet ea,^*flabit spíritus eius, et fluent aquæ.^pQui annúntiat verbum suum Iacob,^*iustítias et iudícia sua Israel.^pNon fecit táliter omni natióni^*et iudícia sua non manifestávit eis."
       }
   },
   148: {
@@ -3352,9 +3352,9 @@ export const psalmsData = {
   },
   1303: {
     0.0: {
-        "title": "Dich Gott Vater ohne Ursprung und End’",
+        "title": "Dich Gott Vater, ohne Ursprung und End’",
         "quote": "Preisungen und Gebete Nr. 3",
-        "text": "Dich Gott Vater,^lohne Ursprung und End’,^pDich Sohn,^lder liebend den Vater erkennt,^pDich Heiligen Geist,^lder aus beiden entbrennt,^pDich Eine hohe Dreifaltigkeit:^lpreisen die Engel voll Seligkeit,^lfeiert auf Erden die Christenheit^ljetzt und allezeit.^lAmen.^pDich Gott Vater,^lallgewaltig an Macht,^pDich Sohn,^lder ewiges Heil uns gebracht,^pDich Heiligen Geist,^lder die Herzen entfacht.^pDich Eine hohe Dreifaltigkeit:^lpreisen die Engel voll Seligkeit,^lfeiert auf Erden die Christenheit^ljetzt und allezeit.^lAmen."
+        "text": "Dich Gott Vater,^lohne Ursprung und End’,^lDich Sohn,^lder liebend den Vater erkennt,^lDich Heiligen Geist,^lder aus beiden entbrennt,^pDich Eine hohe Dreifaltigkeit:^lpreisen die Engel voll Seligkeit,^lfeiert auf Erden die Christenheit^ljetzt und allezeit.^lAmen.^pDich Gott Vater,^lallgewaltig an Macht,^lDich Sohn,^lder ewiges Heil uns gebracht,^lDich Heiligen Geist,^lder die Herzen entfacht.^pDich Eine hohe Dreifaltigkeit:^lpreisen die Engel voll Seligkeit,^lfeiert auf Erden die Christenheit^ljetzt und allezeit.^lAmen."
       }
   },
   1304: {
@@ -4090,7 +4090,7 @@ export const psalmsData = {
     0.0: {
         "title": "Dreifaltiger verborgner Gott",
         "quote": "Vespern zum Dreifaltgkeitssonntag",
-        "text": "öDreifaltiger verborgner Gott,^l^wein^0w Licht aus dreier Sonnen Glanz,^ldrei Flammen^w einer^0w Liebesglut,^lGott Vater, Sohn und Heil’ger Geist.^pAllherrscher du von Ewigkeit,^lGott Vater, der die Welt erschuf,^ldu lenkst die Werke deiner Hand^lund führst uns durch der Zeiten Lauf.^pGott Sohn, des Vaters Ebenbild,^ldu König der erlösten Welt,^lin dir wird Gott uns Menschen gleich,^lin dir der Mensch zu Gott erhöht.^pDu Atem Gottes, Heil’ger Geist,^ldurchdringst die Welt mit Lebenskraft,^ldu senkst in uns die Liebe ein,^ldie alle eint und göttlich macht.^pDu großer Gott, der in uns wohnt,^lhochheilige Dreifaltigkeit,^ldich loben und bekennen wir^ljetzt und in alle Ewigkeit. Amen.",
+        "text": "Dreifaltiger verborgner Gott,^l^wein^0w Licht aus dreier Sonnen Glanz,^ldrei Flammen^w einer^0w Liebesglut,^lGott Vater, Sohn und Heil’ger Geist.^pAllherrscher du von Ewigkeit,^lGott Vater, der die Welt erschuf,^ldu lenkst die Werke deiner Hand^lund führst uns durch der Zeiten Lauf.^pGott Sohn, des Vaters Ebenbild,^ldu König der erlösten Welt,^lin dir wird Gott uns Menschen gleich,^lin dir der Mensch zu Gott erhöht.^pDu Atem Gottes, Heil’ger Geist,^ldurchdringst die Welt mit Lebenskraft,^ldu senkst in uns die Liebe ein,^ldie alle eint und göttlich macht.^pDu großer Gott, der in uns wohnt,^lhochheilige Dreifaltigkeit,^ldich loben und bekennen wir^ljetzt und in alle Ewigkeit. Amen.",
         "title_lat": "Imménsa et una, Trínitas",
         "text_lat": "Imméns>a et una, Trínitas,^lcuius potéstas ómnia^lfacit regítque témpora^let exstat ante sǽcula,^pTu sola pleno súfficis^ltibi beáta gáudio;^ltu pura, simplex, próvida^lcælos et orbem cóntines.^pOmnis, Pater, fons grátiæ,^lLumen patérnæ glóriæ,^lSanct>e utriúsque Spíritus^lintermináta cáritas,^pEx te suprém>a orígine,^lTrias benígna, prófluit^lcreáta quicquid sústinet,^lquicquid decóre pérficit.^pQuos et coróna múneras^ladoptiónis íntimæ,^lnos templa fac niténtia^ltibi placére iúgiter.^pO viva lux, nos ángelis^lda iung>i in aula cǽlica,^lut grat>i amóris láudibus^lte concinámus pérpetim."
       }
