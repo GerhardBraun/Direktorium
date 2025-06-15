@@ -59,7 +59,7 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
         },
         {
             season: "o", // Osterzeit
-            color: (season === 'o') ? "btn-gold mb-2" : "btn-default mt-2",
+            color: (season === 'o' && !isAfterPentecost) ? "btn-gold mb-2" : "btn-default mt-2",
             rubric: "Diese Antiphon ist der Osterzeit vorbehalten.",
             rubric_lat: "Hæc antiphona reservata est tempori paschali.",
             title: (season === 'o') ? "O Himmelskönigin, frohlocke" : "^[O Himmelskönigin, frohlocke^]",
