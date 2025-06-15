@@ -3333,7 +3333,7 @@ export const psalmsData = {
     0.0: {
         "title": "Selig, wem Christus auf dem Weg begegnet",
         "quote": "Ordensleute",
-        "text": "Selig, wem Christus^lauf dem Weg begegnet,^lum ihn zu rufen,^lalles zu verlassen,^lsein Kreuz zu tragen^lund in seiner Kirche^lfür ihn zu wirken.^pBei ihm ist Christus,^lstärkt ihn in der Wüste,^lschenkt ihm durch Leiden^lAnteil an der Freude.^lUnd seine Brüder^lspüren Christi Liebe^lin seiner Nähe.^pDurch seine Jünger^lspricht zu uns der Meister,^lruft uns zur Umkehr,^lspendet Licht und Hoffnung.^lIn ihren Taten^lwird die Botschaft Christi^lfür uns lebendig.^pVater im Himmel,^lheilig ist dein Name,^ldein Reich wird kommen,^ldas dein Sohn verheißen.^lHilf uns, im Geiste^lihm den Weg bereiten^lals deine Boten. Amen."
+        "text": "Selig, wem Christus^/auf dem Weg begegnet,^lum ihn zu rufen,^/alles zu verlassen,^lsein Kreuz zu tragen^/und in seiner Kirche^lfür ihn zu wirken.^pBei ihm ist Christus,^/stärkt ihn in der Wüste,^lschenkt ihm durch Leiden^/Anteil an der Freude.^lUnd seine Brüder^/spüren Christi Liebe^lin seiner Nähe.^pDurch seine Jünger^/spricht zu uns der Meister,^lruft uns zur Umkehr,^/spendet Licht und Hoffnung.^lIn ihren Taten^/wird die Botschaft Christi^lfür uns lebendig.^pVater im Himmel,^/heilig ist dein Name,^ldein Reich wird kommen,^/das dein Sohn verheißen.^lHilf uns, im Geiste^/ihm den Weg bereiten^lals deine Boten. Amen."
       }
   },
   1301: {
@@ -4808,6 +4808,11 @@ export const psalmsData = {
         "title": "Was in der Vorzeit rühmend ward besungen",
         "quote": "Benedikt",
         "text": "Was in der Vorzeit^/rühmend ward besungen,^lwas wir vernahmen^/von der Väter Größe,^ldas macht dein Leben,^/heil’ger Benediktus,^lleuchtend uns sichtbar.^pAbraham gleichend,^/folgtest du dem Rufe,^lzogst aus der Heimat,^/wie dir Gott geboten,^lsuchtest die Stätte,^/die er dir verheißen,^lgläubigen Herzens.^pEin zweiter Mose,^/gabst du deinen Söhnen^lWeisung und Regel^/für den Weg des Lebens,^lWas ihr Beruf sei,^/lehrtest du die Mönche:^lGott nur zu suchen.^pLob sei dem Vater^/auf dem höchsten Throne,^lLob sei dem Sohne,^/Gott aus Gott geboren,^lLob sei dem Geiste,^/der von beiden ausgeht,^limmer und ewig. Amen."
+      },
+    1.0: {
+        "title": "^[Was in der Vorzeit rühmend ward besungen^]",
+        "quote": "Benedikt",
+        "text": "^RUBRDer eigene Hymnus ist im Stundenbuch erst für die Vesper ausgeschrieben. Für Lesehore und Laudes sind die Commune-Hymnen vorgesehen.^0RUBR^pWas in der Vorzeit^/rühmend ward besungen,^lwas wir vernahmen^/von der Väter Größe,^ldas macht dein Leben,^/heil’ger Benediktus,^lleuchtend uns sichtbar.^pAbraham gleichend,^/folgtest du dem Rufe,^lzogst aus der Heimat,^/wie dir Gott geboten,^lsuchtest die Stätte,^/die er dir verheißen,^lgläubigen Herzens.^pEin zweiter Mose,^/gabst du deinen Söhnen^lWeisung und Regel^/für den Weg des Lebens,^lWas ihr Beruf sei,^/lehrtest du die Mönche:^lGott nur zu suchen.^pLob sei dem Vater^/auf dem höchsten Throne,^lLob sei dem Sohne,^/Gott aus Gott geboren,^lLob sei dem Geiste,^/der von beiden ausgeht,^limmer und ewig. Amen."
       }
   },
   8806: {

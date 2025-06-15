@@ -3823,7 +3823,7 @@ export const brevierData = {
           "antev_lat": ""
         },
         "Lesehore": {
-          "hymn_1": 2506.0,
+          "hymn_1": 2516.0,
           "hymn_2": 1248.0,
           "hymn_3": 0.0,
           "hymn_nacht": 0.0,
@@ -6208,6 +6208,7 @@ export const brevierData = {
           "oration_lat": ""
         },
         "Lesehore": {
+          "hymn_1": 8711.1,
           "versikel0": "Der Herr geleitet den Gerechten auf geraden Wegen.",
           "versikel1": "Und er zeigt ihm das Reich Gottes.",
           "les_buch": "Aus dem Brief an die Kolosser.",
@@ -6236,6 +6237,7 @@ export const brevierData = {
           "button": "Hl. Benedikt",
           "nominativ": "Der heilige Benedikt",
           "genitiv": "des heiligen Benedikt",
+          "hymn_1": 8711.1,
           "antev": "Benedikt, wahrhaft ein Gesegneter des Herrn, ein Mann von verehrungswürdigem Leben!",
           "antev_lat": ""
         },

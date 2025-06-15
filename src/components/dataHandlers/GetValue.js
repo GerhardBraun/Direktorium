@@ -90,7 +90,7 @@ export const getValue = ({ season, hour, texts, field,
         if (isSollemnity
         ) { skipCommune = false }
 
-        if (!localPrefComm && isPsalmodie
+        if (isPsalmodie && localPrefPsalmsWt
         ) { skipCommune = true }
 
         const prefTexts = texts[hour]?.[prefSrc] || texts[hour]?.pers
@@ -108,30 +108,24 @@ export const getValue = ({ season, hour, texts, field,
             && !(rank_date < 3 && isTSN && !memorialWithTNS))
             || isSollemnity) {
 
+            //Sonderfall Wochentagspsalmen
+            if (localPrefPsalmsWt && isPsalmodie &&
+                hour !== 'invitatorium'
+            ) { return texts[hour]?.wt?.[field] }
+
+            //Sonderfall Bahnlesung
+            if (localPrefContinuous && hour === 'lesehore' &&
+                ['les_', 'resp', 'patr_'].includes(field)
+            ) { return texts[hour]?.wt?.[field] }
+
             //Sonderfall Antiphonen: entweder ant0 oder ant1-3
             if (field === 'ant0' &&
                 (prefTexts?.ant1 || prefCommTexts?.ant1)
             ) { return null }
 
-            if ((field === 'ant1' || field === 'ant2' || field === 'ant3') &&
+            if (['ant1', 'ant2', 'ant3'].includes(field) &&
                 (prefTexts?.ant0 || prefCommTexts?.ant0)
             ) { return null }
-
-            //Sonderfall Wochentagspsalmen
-            if (localPrefPsalmsWt &&
-                hour !== 'invitatorium' &&
-                field.startsWith('psalm')
-            ) {
-                return texts[hour]?.wt?.[field]
-            }
-
-            //Sonderfall Bahnlesung
-            if (localPrefContinuous &&
-                hour === 'lesehore' &&
-                (field.startsWith('les_')
-                    || field.startsWith('resp')
-                    || field.startsWith('patr_'))
-            ) { return texts[hour]?.wt?.[field] }
 
             // 1. Prüfe zuerst prefSrc
             if (prefTexts?.[field]) {

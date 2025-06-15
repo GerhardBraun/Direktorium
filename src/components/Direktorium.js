@@ -1294,13 +1294,11 @@ const PrayerTextDisplay = ({
     title,
     field: provField,
     askContinuous,
-    askTSN,
   }) =>
     extSectionHeader({
       title,
       provField,
       askContinuous,
-      askTSN,
       onSelectHour,
       texts,
       hour,
@@ -1496,7 +1494,6 @@ const PrayerTextDisplay = ({
             <SectionHeader
               title="HYMNUS"
               field="hymn_1"
-              askTSN={true}
               onSelectHour={onSelectHour}
             />
 
@@ -1582,7 +1579,6 @@ const PrayerTextDisplay = ({
               title={hour === "lesehore" ? "ERSTE LESUNG" : "KURZLESUNG"}
               field="les_text"
               askContinuous={true}
-              askTSN={true}
               onSelectHour={onSelectHour}
             />
             <div>

@@ -6,6 +6,8 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
     const [Assumption, setAssumption] = useState(false);
     const [Nativity, setNativity] = useState(false);
 
+    const isAfterPentecost = swdCombined.startsWith('o-9-');
+
     const suffixLatin = useMemo(() => {
         return localPrefLatin ? '_lat' : '';
     }, [localPrefLatin]);
@@ -32,7 +34,8 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
         },
         {
             season: "j", // Jahreskreis
-            color: (season === 'j') ? "btn-green" : "btn-default",
+            color: (season === 'j' || isAfterPentecost)
+                ? "btn-green" : "btn-default",
             title: "Sei gegrüßt, o Königin",
             text: "Sei gegrüßt, o°Königin,^lMutter der Barmherzigkeit;^lunser Leben, unsre Wonne^lund unsre Hoffnung, sei gegrüßt!^lZu dir rufen wir verbannte Kinder Evas;^lzu dir seufzen wir^ltrauernd und weinend in°diesem°Tal°der°Tränen.^lWohlan denn, unsre Fürsprecherin,^lwende deine barmherzigen Augen uns zu^lund nach diesem Elend zeige uns Jesus,^ldie gebenedeite Frucht deines Leibes!^lO gütige, o°milde, o°süße°Jungfrau°Maria!",
             title_lat: "Salve Regina",
@@ -87,6 +90,8 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
             return 'a';
         }
         else { setNativity(false); }
+
+        if (isAfterPentecost) { return 'j' }
 
         // Sonst verwende die normale Jahreszeit
         return season;

@@ -27,7 +27,6 @@ export const SectionHeader = ({
     title,
     provField,
     askContinuous,
-    askTSN,
     onSelectHour,
     texts,
     hour,
@@ -55,13 +54,17 @@ export const SectionHeader = ({
     const { hasEig, hasWt, nameComm1, nameComm2, showSources, showBothComm } =
         checkSources(texts, hour, prefSrc, field);
 
-    const showPsalmsWt = hasEig && hasWt &&
-        title === 'PSALMODIE' && (hour !== 'invitatorium' && hour !== 'komplet');
-    const showErgPs = title === 'PSALMODIE' && ["terz", "sext", "non"].includes(hour)
-        && !(prefSollemnity || rank_date === 5 || rank_wt === 5);
-    const showContinuous = hasEig && hasWt && askContinuous && hour === 'lesehore' && !isCommemoration;
+    const showPsalmsWt = hasEig && hasWt
+        && title === 'PSALMODIE'
+        && !['invitatorium', 'komplet'].includes(hour);
+    const showContinuous = hasEig && hasWt && askContinuous
+        && hour === 'lesehore' && !isCommemoration;
     const isErsteLesung = field.startsWith('les_text') && hour === 'lesehore';
-    const showTSN = askTSN && ["terz", "sext", "non"].includes(hour);
+    const isTSN = ["terz", "sext", "non"].includes(hour);
+    const showTSN = isTSN && ['HYMNUS', 'PSALMODIE', 'KURZLESUNG'].includes(title);
+    const showErgPs = isTSN
+        && title === 'PSALMODIE'
+        && !(prefSollemnity || rank_date === 5 || rank_wt === 5);
     const invPsalms = (hour === 'invitatorium' && title === 'PSALMODIE')
         ? texts?.invitatorium?.psalms : null;
     const sollemnityErsteVesper = () => ['soll', 'dec'].includes(prefSollemnity)
@@ -69,6 +72,7 @@ export const SectionHeader = ({
     let askLatin = true;
     if (title === 'VERSIKEL'
         || hour === 'invitatorium' && title === 'PSALMODIE'
+        || isTSN && title === 'ORATION'
     ) { askLatin = false }
     else if (title === 'HYMNUS') {
         askLatin = getLocalStorage('ommitOpening') === 'true' ? true : false
@@ -102,6 +106,11 @@ export const SectionHeader = ({
     if (prefSollemnity === 'kirchw' || prefSollemnity === 'verst'
     ) { skipCommune = true }
 
+    if (['PSALMODIE', 'ERSTE LESUNG'].includes(title)) {
+        console.log(title, 'skipCommune:', skipCommune, 'prefSollemnity:', prefSollemnity,
+            'isErsteLesung:', isErsteLesung, 'showSources:', showSources
+        );
+    }
     if (["ERÖFFNUNG", "HYMNUS", "ABSCHLUSS"].includes(title)) { skipCommune = true };
 
     if (["VERSIKEL", "RESPONSORIUM"].includes(title) ||

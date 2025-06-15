@@ -51,6 +51,15 @@ const HymnSelector = ({ texts, hour, season,
         if (sourceLabel === 'pers:') { return 'btn-pers'; }
         return 'btn-default'
     };
+    const hasEigenHymn = (sourceData) => {
+        if (!sourceData?.hymn_1) return false;
+
+        const hymnData = resolveHymnReference(sourceData.hymn_1);
+        const title = hymnData?.title || '';
+
+        // Wenn der Titel mit ^[ beginnt, ist es kein eigener Hymnus
+        return !title.startsWith('^[');
+    };
 
     const sourceOrder = useMemo(() => {
         // Prüfe die Ränge
@@ -71,15 +80,16 @@ const HymnSelector = ({ texts, hour, season,
         }
 
         // Ermittle Commune-Sources nur wenn nötig
-        const communeSources = ((!isCommemoration || prefSollemnity === 'soll') &&
-            !texts[hour]?.[prefSrc]?.hymn_1) // Geändert: Prüfe auf reference statt text
-            ? ['com1', 'com2']
-                .filter(com =>
-                    texts[hour]?.[prefSrc]?.[com]?.hymn_1 || // Geändert
-                    texts[hour]?.[prefSrc]?.[com]?.hymn_2    // Geändert
-                )
-                .map(com => `${prefSrc}.${com}`)
-            : [];
+        const communeSources =
+            ((!isCommemoration || prefSollemnity === 'soll') &&
+                !hasEigenHymn(texts[hour]?.[prefSrc])) // Geändert: Verwende hasEigenHymn
+                ? ['com1', 'com2']
+                    .filter(com =>
+                        texts[hour]?.[prefSrc]?.[com]?.hymn_1 || // Geändert
+                        texts[hour]?.[prefSrc]?.[com]?.hymn_2    // Geändert
+                    )
+                    .map(com => `${prefSrc}.${com}`)
+                : [];
 
         // Füge die Sources in der richtigen Reihenfolge hinzu
         if (isHighRank) {
