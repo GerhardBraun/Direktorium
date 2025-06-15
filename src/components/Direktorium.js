@@ -1257,7 +1257,7 @@ const PrayerTextDisplay = ({
   onSelectHour,
   onPrevDay,
   onNextDay,
-  isNarrowForHymns
+  widthForHymns
 }) => {
   const [localPrefComm, setLocalPrefComm] = useState(texts?.prefComm || 0);
   const [localPrefContinuous, setLocalPrefContinuous] = useState(false);
@@ -1332,7 +1332,7 @@ const PrayerTextDisplay = ({
 
   const formatPrayerText = (provText, marker = "") => {
     return extFormatPrayerText(provText, marker, hour, texts,
-      prefSrc, localPrefLanguage, isNarrowForHymns);
+      prefSrc, localPrefLanguage, widthForHymns);
   };
 
   const formatPsalm = (psalm, inv = false) => {
@@ -2009,18 +2009,30 @@ export default function LiturgicalCalendar() {
   ); // months ist konstant, daher keine Dependency nötig
 
   const [dateChangeSource, setDateChangeSource] = useState("navigation"); // 'navigation' oder 'scroll'
-  const [isNarrowForHymns, setIsNarrowForHymns] = useState(false);
+  const [widthForHymns, setWidthForHymns] = useState(window.innerWidth / baseFontSize);
 
   useEffect(() => {
     const checkScreenWidthInEm = () => {
-      setIsNarrowForHymns((window.innerWidth / baseFontSize) < 35); // Grenzwert von 30em für Hymnen
+      // Erstelle ein temporäres Element mit 1em Breite
+      const testElement = document.createElement('div');
+      testElement.style.width = '1em';
+      testElement.style.visibility = 'hidden';
+      testElement.style.position = 'absolute';
+      document.body.appendChild(testElement);
+
+      const emInPixels = testElement.offsetWidth;
+      document.body.removeChild(testElement);
+
+      setWidthForHymns((window.innerWidth / emInPixels) - 2);
     };
+
     checkScreenWidthInEm();
     window.addEventListener('resize', checkScreenWidthInEm);
+    console.log("Screen width in em:", widthForHymns);
     return () => {
       window.removeEventListener('resize', checkScreenWidthInEm);
     };
-  }, [baseFontSize]);
+  }, [window.innerWidth, baseFontSize]);
 
   const handleScroll = useCallback(
     (event) => {
@@ -3148,7 +3160,7 @@ export default function LiturgicalCalendar() {
                 localPrefLatin={localPrefLatin}
                 setLocalPrefLatin={setLocalPrefLatin}
                 setLocalPrefLanguage={setLocalPrefLanguage}
-                isNarrowForHymns={isNarrowForHymns}
+                widthForHymns={widthForHymns}
                 onBack={() => setViewMode("prayer")}
                 onSelectHour={(hour) => {
                   setSelectedHour(hour);
@@ -3188,7 +3200,7 @@ export default function LiturgicalCalendar() {
                 localPrefLatin={localPrefLatin}
                 setLocalPrefLatin={setLocalPrefLatin}
                 setLocalPrefLanguage={setLocalPrefLanguage}
-                isNarrowForHymns={isNarrowForHymns}
+                widthForHymns={widthForHymns}
                 onBack={() => setViewMode("prayer")}
                 onSelectHour={(hour) => {
                   setSelectedHour(hour);

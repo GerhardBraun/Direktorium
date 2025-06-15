@@ -15,6 +15,83 @@ const resolveReference = (ref) => {
 
     return { number: wholePart, ...data };
 };
+// Hilfsfunktion zur Berechnung der maximalen Zeilenlänge in einem Hymnus
+const calculateMaxLineLength = (text) => {
+    if (!text.includes('^/')) {
+        return 0; // Kein ^/-Tag vorhanden, keine Berechnung nötig
+    }
+
+    // Entferne alle Formatierungs-Tags außer ^l und ^p für die Längenberechnung
+    let cleanText = text
+        .replace(/\^r.*?\^0r/g, '') // Rubriken entfernen
+        .replace(/\^w.*?\^0w/g, '$1') // Gesperrten Text normal zählen
+        .replace(/\^f.*?\^0f/g, '$1') // Fetten Text normal zählen
+        .replace(/\^v.*?\^0v/g, '$1') // Kleinen Text normal zählen
+        .replace(/\^c.*?\^0c/g, '$1') // Kapitälchen normal zählen
+        .replace(/\^k.*?\^0k/g, '$1') // Kursiven Text normal zählen
+        .replace(/\^RUBR.*?\^0RUBR/g, '') // Lange Rubriken entfernen
+        .replace(/°/g, ' ') // Geschützte Leerzeichen als normale Leerzeichen
+        .replace(/>/g, '')
+        .replace(/\^\//g, '    ') // Asterisk-Marker
+        .replace(/\^\*/g, ' *') // Asterisk-Marker
+        .replace(/\^\+/g, ' †') // Kreuz-Marker
+        .replace(/\^-/g, '-') // Bindestriche
+        .replace(/\{(\d{1,2})#.*?\}/g, '$1') // Fußnoten nur als Nummer zählen
+        .replace(/\^[öÖLö]/g, ' Halleluja'); // Halleluja-Marker
+
+    // Funktion zur Berechnung der Zeichenbreite in em
+    const calculateCharWidth = (char) => {
+        // Sehr schmale Zeichen (ca. 0.3em)
+        if (/[ijl\.,;:!|]/.test(char)) return 0.3;
+
+        // Schmale Zeichen (ca. 0.4em)
+        if (/[Ijlt\(\)\[\]{}'"´`]/.test(char)) return 0.4;
+
+        // Etwas schmalere Zeichen (ca. 0.5em)
+        if (/[frs]/.test(char)) return 0.5;
+
+        // Sehr breite Zeichen (ca. 0.9em) - inkl. Ligaturen
+        if (/[mwMW]|æ|œ|Æ|Œ/.test(char)) return 0.9;
+
+        // Breite Zeichen (ca. 0.7em)
+        if (/[ABCDEFGHIJKLMNOPQRSTUVWXYZ0-9]/.test(char)) return 0.7;
+
+        // Leerzeichen
+        if (/\s/.test(char)) return 0.3;
+
+        // Normale Zeichen (ca. 0.6em) - Standardbreite für Kleinbuchstaben
+        return 0.6;
+    };
+
+    // Teile den Text in Strophen (^p) und dann in Zeilen (^l oder ^/)
+    const strophes = cleanText.split(/\^p/);
+    let maxLength = 0;
+    let zeile = 0;
+
+    strophes.forEach(strophe => {
+        // Teile jede Strophe in Zeilen auf
+        // Dabei sowohl ^l als auch ^/ als potentielle Zeilenenden betrachten
+        const lines = strophe.split(/\^l/);
+        lines.forEach(line => {
+            // Entferne führende/nachfolgende Leerzeichen
+            const trimmedLine = line.trim();
+            zeile = zeile + 1
+            if (trimmedLine.length > 0) {
+                // Berechne die Breite durch Summierung der einzelnen Zeichenbreiten
+                let lineWidth = 0;
+                for (let i = 0; i < trimmedLine.length; i++) {
+                    lineWidth += calculateCharWidth(trimmedLine[i]);
+                }
+                maxLength = Math.max(maxLength, lineWidth);
+                if (maxLength === lineWidth) {
+                    console.log(`Zeilenlänge ${zeile}: ${lineWidth}em`);
+                }
+            }
+        });
+    });
+    console.log(`Maximale Zeilenlänge: ${maxLength}em`);
+    return maxLength;
+};
 // Formatiert Psalmen mit Nummer, Versen, Titel und Text
 export const formatPsalm = (psalmRef, inv, localPrefLanguage = '') => {
     if (!psalmRef) return null;
@@ -86,7 +163,7 @@ export const formatText = (text) => {
 // Formatiert Gebetstext mit speziellen Tags und saisonalen Anpassungen
 export const formatPrayerText = (provText, marker = '',
     hour = '', texts = {},
-    prefSrc = '', localPrefLanguage = '', isNarrowScreen = false) => {
+    prefSrc = '', localPrefLanguage = '', widthForHymns = false) => {
     if (!provText || provText === 'LEER' || provText === 'LEER_lat') return null;
     const { season, isCommemoration, swdCombined = '' } = texts;
     const { nominativ, genitiv, vokativ } = texts?.laudes?.[prefSrc] || {};
@@ -228,7 +305,12 @@ export const formatPrayerText = (provText, marker = '',
         .replace(/°/g, '\u00A0')
         .replace(/\^\*/g, '\u00A0*\n')
         .replace(/\^\+/g, '\u00A0†\n')
-        .replace(/\^\//g, isNarrowScreen ? '\n' : '    ')
+        .replace(/\^\//g, (() => {
+            const maxLineLength = calculateMaxLineLength(text);
+            // Wenn keine ^/-Tags vorhanden oder maxLineLength <= widthForHymns, dann Leerzeichen
+            // Andernfalls Zeilenumbruch
+            return (maxLineLength > 0 && maxLineLength > widthForHymns) ? '\n' : '    ';
+        })())
         .replace(/\^-/g, '\u2011')
         .replace(/(\w)–/g, '$1\u200C–')
         .replace(/–(\w)/g, '–\u200C$1')
