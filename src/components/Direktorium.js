@@ -2013,17 +2013,8 @@ export default function LiturgicalCalendar() {
 
   useEffect(() => {
     const checkScreenWidthInEm = () => {
-      // Erstelle ein temporäres Element mit 1em Breite
-      const testElement = document.createElement('div');
-      testElement.style.width = '1em';
-      testElement.style.visibility = 'hidden';
-      testElement.style.position = 'absolute';
-      document.body.appendChild(testElement);
-
-      const emInPixels = testElement.offsetWidth;
-      document.body.removeChild(testElement);
-
-      setWidthForHymns((window.innerWidth / emInPixels) - 2);
+      // 1pt=4/3px, 0.7 als Puffer für Padding
+      setWidthForHymns((window.innerWidth / baseFontSize * .75) - .7);
     };
 
     checkScreenWidthInEm();
