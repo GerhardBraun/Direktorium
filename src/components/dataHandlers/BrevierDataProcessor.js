@@ -154,7 +154,7 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         const ordData = personalData?.wt?.each;
         const ordEvenData = personalData?.wt?.even;
         const ordSeasonData = personalData?.wt?.[season];
-        console.log('DataProcessor: PersonalData each/season', ordData, ordSeasonData)
+
         if (ordData) {
             if (ordData.each) {
                 mergeData(hours, ordData.each, 'pers');
@@ -617,10 +617,6 @@ export function processBrevierData(todayDate) {
                 (rankNextWt === 5 && nextCombinedSWD !== 'q-0-3')));
     const hasErsteVesper_date = rank_wt < 5 && rank_date < 5 && rankNextDate > rankNextWt &&
         (rankNextDate === 5 || (rankNextDate === 4 && dayOfWeek === 6));
-    console.log('brevierDataProcessor:\nrank_Wt/Date:', rank_wt, rank_date,
-        '\nrankNext_Wt/Date:', rankNextWt, rankNextDate,
-        '\ndayOfWeek:', dayOfWeek,
-        '\n1. Vesper wt/date: ', hasErsteVesper_wt, hasErsteVesper_date)
 
     // Stelle die endgültigen Daten zusammen
     const finalData = {

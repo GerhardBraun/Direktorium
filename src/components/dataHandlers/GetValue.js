@@ -11,7 +11,7 @@ export const getValue = ({ season, hour, texts, field,
         return getKompletValue({ texts, field, localPrefKomplet, localPrefLanguage })
     }
     if (['kirchw', 'verst'].includes(prefSollemnity)) {
-        const data = dataKirchwVerst?.[prefSollemnity]
+        const data = dataSollemnities[prefSollemnity]
         const languageField = `${field}${localPrefLanguage}`
         return data?.[season]?.[hour]?.[languageField]
             || data?.each?.[hour]?.[languageField]
@@ -36,6 +36,7 @@ export const getValue = ({ season, hour, texts, field,
         // Feier wie ein Hochfest
         const isSollemnity = (hour === 'vesper' && hasErsteVesper)
             || prefSollemnity || rank_date === 5 ||
+            (rank_date === 4 && dayOfWeek === 0) ||
             (rank_wt === 5 &&
                 swdCombined !== 'q-0-3' &&
                 !swdCombined.startsWith('q-6-') &&
@@ -46,19 +47,22 @@ export const getValue = ({ season, hour, texts, field,
         if (hour === 'vesper' && sollemnityErsteVesper()) { hour = 'prefsollemnity'; }
 
         // Bei lokaler Feier als Hochfest Oration immer aus den Laudes
-        if (prefSollemnity === 'soll' && field.startsWith('oration')) {
+        if (isSollemnity && field.startsWith('oration')) {
             return texts.laudes[prefSrc]?.[field] ?? null;
         }
 
         // Sonderfall Ergänzungspsalmodie
-        if (((field.startsWith('psalm') && !localPrefPsalmsWt) ||
-            (field.startsWith('ant') && !field.startsWith('antev'))
-        ) && (isSollemnity || (localPrefErgPs && isTSN))
-        ) {
-            let sollSource = prefSollemnity ? prefSollemnity : 'soll';
-            if (texts[hour]?.[sollSource]?.[field]) {
-                return texts[hour]?.[sollSource]?.[field]
-            }
+        if (isPsalmodie && !localPrefPsalmsWt
+            && (isSollemnity
+                || (localPrefErgPs && isTSN)
+                || (hour === 'laudes' && (rank_date > 2 || rank_wt > 2)) // an Gedenktagen und Festen    )
+            )) {
+            const languageField = `${field}${localPrefLanguage}`
+            const data = dataSollemnities.soll?.[dayOfWeek]?.[hour]?.[languageField]
+                || dataSollemnities.soll?.[dayOfWeek]?.[hour]?.[field]
+                || dataSollemnities.soll.each?.[hour]?.[languageField]
+                || dataSollemnities.soll.each?.[hour]?.[field]
+            if (data) { return data }
         }
 
         // Abruf der Werte für die Kommemoration
@@ -323,7 +327,66 @@ const dataKomplet = {
         "oration_komplet_lat": "Vísita nos, quǽsumus, Dómine, hac nocte præsénti, ut, dilúculo tua virtúte surgéntes, de resurrectióne Christi tui gaudére valeámus.^ORlvR"
     }
 };
-const dataKirchwVerst = {
+const dataSollemnities = {
+    "soll": {
+        "0": {
+            "terz": {
+                "psalm1": 118.1,
+                "psalm2": 118.2,
+                "psalm3": 118.3,
+                "ant1": "Gut ist es, sich zu bergen beim Herrn; seine Huld währt ewig.^Ö",
+                "ant2": "Meine Stärke und mein Lied ist der Herr.^Ö",
+                "ant3": "Ich danke dir, Herr, denn du hast mich erhört.^Ö",
+                "ant1_lat": "Bonum est confúgere ad Dóminum; in sǽculum misericórdia eius.^LÖ",
+                "ant2_lat": "Fortitúdo mea et laus mea Dóminus.^LÖ",
+                "ant3_lat": "Confitébor tibi, Dómine, quóniam exaudísti me.^LÖ"
+            },
+            "sext": {
+                "psalm1": 118.1,
+                "psalm2": 118.2,
+                "psalm3": 118.3,
+                "ant1": "Gut ist es, sich zu bergen beim Herrn; seine Huld währt ewig.^Ö",
+                "ant2": "Meine Stärke und mein Lied ist der Herr.^Ö",
+                "ant3": "Ich danke dir, Herr, denn du hast mich erhört.^Ö",
+                "ant1_lat": "Bonum est confúgere ad Dóminum; in sǽculum misericórdia eius.^LÖ",
+                "ant2_lat": "Fortitúdo mea et laus mea Dóminus.^LÖ",
+                "ant3_lat": "Confitébor tibi, Dómine, quóniam exaudísti me.^LÖ"
+            },
+            "non": {
+                "psalm1": 118.1,
+                "psalm2": 118.2,
+                "psalm3": 118.3,
+                "ant1": "Gut ist es, sich zu bergen beim Herrn; seine Huld währt ewig.^Ö",
+                "ant2": "Meine Stärke und mein Lied ist der Herr.^Ö",
+                "ant3": "Ich danke dir, Herr, denn du hast mich erhört.^Ö",
+                "ant1_lat": "Bonum est confúgere ad Dóminum; in sǽculum misericórdia eius.^LÖ",
+                "ant2_lat": "Fortitúdo mea et laus mea Dóminus.^LÖ",
+                "ant3_lat": "Confitébor tibi, Dómine, quóniam exaudísti me.^LÖ"
+            }
+        },
+        "each": {
+            "laudes": {
+                "psalm1": 63.0,
+                "psalm2": 160.0,
+                "psalm3": 149.0
+            },
+            "terz": {
+                "psalm1": 120.0,
+                "psalm2": 121.0,
+                "psalm3": 122.0
+            },
+            "sext": {
+                "psalm1": 123.0,
+                "psalm2": 124.0,
+                "psalm3": 125.0
+            },
+            "non": {
+                "psalm1": 126.0,
+                "psalm2": 127.0,
+                "psalm3": 128.0
+            }
+        }
+    },
     "kirchw": {
         "each": {
             "each": {
