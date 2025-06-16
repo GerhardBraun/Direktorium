@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { getLocalStorage } from '../utils/localStorage.js';
+import { getValue } from '../dataHandlers/GetValue.js';
 
 const checkSources = (texts, hour, prefSrc, field) => {
     const hasEig = texts[hour][prefSrc]?.[field];
@@ -54,6 +55,46 @@ export const SectionHeader = ({
     const { hasEig, hasWt, nameComm1, nameComm2, showSources, showBothComm } =
         checkSources(texts, hour, prefSrc, field);
 
+    // Prüfe ob Terz/Sext/Non identische Psalmodie haben
+    const isIdenticalTerzSext = useMemo(() => {
+        if (!["terz", "sext", "non"].includes(hour) || title !== 'PSALMODIE') {
+            return false;
+        }
+
+        const getValueTS = (hour, field) => {
+            return getValue({
+                season: texts?.season,
+                hour,
+                field,
+                texts,
+                prefSrc,
+                prefSollemnity,
+                localPrefKomplet: 'wt', // nicht relevant für TSN
+                localPrefComm,
+                localPrefPsalmsWt,
+                localPrefErgPs,
+                localPrefContinuous,
+                localPrefLanguage: ''
+            })
+        };
+
+        // Vergleiche relevante Felder zwischen Terz und Sext
+        const fieldsToCompare = ['ant0', 'ant1', 'psalm1'];
+
+        for (const fieldToCheck of fieldsToCompare) {
+            const terzValue = getValueTS('terz', fieldToCheck);
+            const sextValue = getValueTS('sext', fieldToCheck);
+
+            // Wenn ein Wert unterschiedlich ist, sind sie nicht identisch
+            if (terzValue !== sextValue) {
+                return false;
+            }
+        }
+
+        return true;
+    }, [hour, title, texts, prefSrc, prefSollemnity, localPrefComm,
+        localPrefPsalmsWt, localPrefErgPs, localPrefContinuous]);
+
     const showPsalmsWt = hasEig && hasWt
         && title === 'PSALMODIE'
         && !['invitatorium', 'komplet'].includes(hour);
@@ -61,7 +102,10 @@ export const SectionHeader = ({
         && hour === 'lesehore' && !isCommemoration;
     const isErsteLesung = field.startsWith('les_text') && hour === 'lesehore';
     const isTSN = ["terz", "sext", "non"].includes(hour);
-    const showTSN = isTSN && ['HYMNUS', 'PSALMODIE', 'KURZLESUNG'].includes(title);
+    const showTSN = isTSN && ['HYMNUS', 'PSALMODIE', 'KURZLESUNG'].includes(title)
+        && !(title === 'PSALMODIE' && ['j', 'o'].includes(texts?.season)
+            && prefSrc === 'eig' && !localPrefErgPs)
+        && !(title === 'PSALMODIE' && isIdenticalTerzSext); // Neue Bedingung hinzugefügt
     const showErgPs = isTSN
         && title === 'PSALMODIE'
         && !(prefSollemnity || rank_date === 5 || rank_wt === 5);
@@ -106,11 +150,6 @@ export const SectionHeader = ({
     if (prefSollemnity === 'kirchw' || prefSollemnity === 'verst'
     ) { skipCommune = true }
 
-    if (['PSALMODIE', 'ERSTE LESUNG'].includes(title)) {
-        console.log(title, 'skipCommune:', skipCommune, 'prefSollemnity:', prefSollemnity,
-            'isErsteLesung:', isErsteLesung, 'showSources:', showSources
-        );
-    }
     if (["ERÖFFNUNG", "HYMNUS", "ABSCHLUSS"].includes(title)) { skipCommune = true };
 
     if (["VERSIKEL", "RESPONSORIUM"].includes(title) ||

@@ -2015,7 +2015,6 @@ export default function LiturgicalCalendar() {
 
     checkScreenWidthInEm();
     window.addEventListener('resize', checkScreenWidthInEm);
-    console.log("Screen width in em:", widthForHymns);
     return () => {
       window.removeEventListener('resize', checkScreenWidthInEm);
     };
