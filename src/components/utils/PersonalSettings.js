@@ -244,7 +244,7 @@ const PersonalSettings = () => {
         <div className="space-y-2 pt-2">
             {/* Start View Section */}
             <div className="px-3 py-0">
-                <div className="grid gap-2 items-center" style={{ gridTemplateColumns: '6rem 2fr 1fr 2fr' }}>
+                <div className="grid gap-2 items-center" style={{ gridTemplateColumns: '6rem 1fr 3rem 1fr' }}>
                     <div className="text-sm text-gray-500 dark:text-gray-400">
                         Startansicht
                     </div>
@@ -257,7 +257,7 @@ const PersonalSettings = () => {
                     </button>
                     <button
                         onClick={() => setStartView('auto')}
-                        className={`px-3 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded
+                        className={`px-0 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded
             ${startView === 'auto' ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
                     >
                         Auto

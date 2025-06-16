@@ -123,13 +123,15 @@ export const getValue = ({ season, hour, texts, field,
             ) { return texts[hour]?.wt?.[field] }
 
             //Sonderfall Antiphonen: entweder ant0 oder ant1-3
-            if (field === 'ant0' &&
-                (prefTexts?.ant1 || prefCommTexts?.ant1)
-            ) { return null }
+            if (field === `ant0${localPrefLanguage}` &&
+                (prefTexts?.[`ant1${localPrefLanguage}`] || prefCommTexts?.[`ant1${localPrefLanguage}`])
+            ) { return 'STOP' }
 
-            if (['ant1', 'ant2', 'ant3'].includes(field) &&
-                (prefTexts?.ant0 || prefCommTexts?.ant0)
-            ) { return null }
+            if ([`ant1${localPrefLanguage}`, `ant2${localPrefLanguage}`, `ant3${localPrefLanguage}`].includes(field) &&
+                (prefTexts?.[`ant0${localPrefLanguage}`] || prefCommTexts?.[`ant0${localPrefLanguage}`])
+            ) {
+                return 'STOP'
+            }
 
             // 1. Prüfe zuerst prefSrc
             if (prefTexts?.[field]) {
@@ -151,7 +153,8 @@ export const getValue = ({ season, hour, texts, field,
     };
 
     const languageResult = getFieldValue(`${field}${localPrefLanguage}`);
-    if (languageResult) {
+    if (languageResult === 'STOP') { return null }
+    else if (languageResult) {
         return `${languageResult}${localPrefLanguage}`;
     }
     return getFieldValue(field);

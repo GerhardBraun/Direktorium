@@ -120,7 +120,6 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
     try {
         // Layer 0: Ordinary texts from multiple sources
         const sourcesToCheck = ['wt', 'soll', 'kirchww', 'verstt'];
-        // kirchw und verst ungültig gemacht: Verlegung in GetValue und HymnSelector
         sourcesToCheck.forEach(source => {
             const ordData = brevierData?.[source]?.['each'];
             const ordEvenData = brevierData?.[source]?.['even'];
@@ -352,14 +351,6 @@ function processHeiligenfeste(hours, season, rank_date, dayOfWeek, calendarMonth
         });
     }
 
-    const rankData = brevierData?.[rank_date]?.['each']?.['each'];
-    if (rankData) mergeData(hours, rankData, sourceKey);
-
-    if (rank_date > 3 && dayOfWeek === 0) {
-        const sundayData = brevierData?.[rank_date]?.['each']?.['0'];
-        if (sundayData) mergeData(hours, sundayData, sourceKey);
-    }
-
     const calendarData = brevierData?.[sourceKey]?.[calendarMonth]?.[calendarDay];
     if (calendarData) mergeData(hours, calendarData, sourceKey);
 }
@@ -410,8 +401,7 @@ function processBenMagnAntiphons(hours, date) {
             const year = date.getFullYear();
             const remainder = year % 3;
 
-            let antField = remainder === 1 ? 'anta' :
-                remainder === 2 ? 'antb' : 'antc';
+            const antField = ['antc', 'anta', 'antb'][remainder];
 
             if (hours[hour].wt[antField]) {
                 hours[hour].wt.antev = hours[hour].wt[antField];

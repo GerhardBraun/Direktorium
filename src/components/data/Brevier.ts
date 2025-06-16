@@ -9794,7 +9794,7 @@ export const brevierData = {
         "Laudes": {
           "anta": "Was ich euch im Dunkeln sage, das verkündet am hellen Tag.",
           "antb": "Jesus stand auf und drohte dem Wind und der See. Da legte sich der Wind, und es ward große Stille.",
-          "antc": "Der Menschensohn muss vieles erleiden; Man wird ihn verwerfen und töten, doch er wird auferstehen am dritten Tag."
+          "antc": "Der Menschensohn muss vieles erleiden: Man wird ihn verwerfen und töten, doch er wird auferstehen am dritten Tag."
         },
         "Vesper": {
           "anta": "Wer sich zu mir bekennt vor den Menschen, zu dem will auch ich mich bekennen vor meinem Vater im Himmel.",

@@ -103,8 +103,6 @@ export const SectionHeader = ({
     const isErsteLesung = field.startsWith('les_text') && hour === 'lesehore';
     const isTSN = ["terz", "sext", "non"].includes(hour);
     const showTSN = isTSN && ['HYMNUS', 'PSALMODIE', 'KURZLESUNG'].includes(title)
-        && !(title === 'PSALMODIE' && ['j', 'o'].includes(texts?.season)
-            && prefSrc === 'eig' && !localPrefErgPs)
         && !(title === 'PSALMODIE' && isIdenticalTerzSext); // Neue Bedingung hinzugefügt
     const showErgPs = isTSN
         && title === 'PSALMODIE'
