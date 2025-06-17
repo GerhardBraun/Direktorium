@@ -29,7 +29,7 @@ const HymnSelector = ({ texts, hour, season,
                 (hour === 'vesper' && texts?.vesper?.wt?.farbe === 'r')) {
                 return 'btn-red';
             }
-            else if (season === 'j') { return 'btn-green'; }
+            else if (season === 'j' || texts.swdCombined.startsWith('o-9-')) { return 'btn-green'; }
             else if (season === 'a' || season === 'q') { return 'btn-violett'; }
             else { return 'btn-gold'; }
         };

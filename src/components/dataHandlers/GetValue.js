@@ -71,7 +71,7 @@ export const getValue = ({ season, hour, texts, field,
         if (hour === 'vesper' && sollemnityErsteVesper()) { hour = 'prefsollemnity'; }
 
         // Bei lokaler Feier als Hochfest Oration immer aus den Laudes
-        if (isSollemnity && field.startsWith('oration')) {
+        if (prefSollemnity && field.startsWith('oration')) {
             return texts.laudes[prefSrc]?.[field] ?? null;
         }
 
@@ -152,11 +152,10 @@ export const getValue = ({ season, hour, texts, field,
 
             //Sonderfall Bahnlesung
             if (localPrefContinuous && hour === 'lesehore' &&
-                ['les_', 'resp', 'patr_'].includes(field)
+                /^(les_|resp|patr_)/.test(field)
             ) {
                 return texts[hour]?.wt?.[field]
             }
-
             //Sonderfall Antiphonen: entweder ant0 oder ant1-3
             if (field === `ant0${localPrefLanguage}` &&
                 (prefTexts?.[`ant1${localPrefLanguage}`] || prefCommTexts?.[`ant1${localPrefLanguage}`])
@@ -184,8 +183,6 @@ export const getValue = ({ season, hour, texts, field,
         }
         // 3. Verwende "wt" als letzte Option
         if (texts[hour].wt?.[field]) {
-            console.log('wt als letzte Option für', field, hour);
-
             return texts[hour].wt[field];
         }
         return null;
