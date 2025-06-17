@@ -9789,17 +9789,20 @@ export const brevierData = {
           "antb": "Wer verschloss das Meer mit Toren, wer bändigte den Stolz seiner Wogen? Wer anders als der Herr.",
           "antc": "Sie schauen auf zu dem, den sie durchbohrten; sie halten Klage wie um den einzigen Sohn.",
           "oration": "Heiliger Gott, gib, dass wir deinen Namen allezeit fürchten und lieben. Denn du entziehst keinem deine väterliche Hand, der fest in deiner Liebe verwurzelt ist.^ORV",
+          "antev_lat": "Dixit Iesus discípulis suis: Vos autem quem me esse dícitis? Respóndens Petrus dixit: Christus Dei.",
           "oration_lat": ""
         },
         "Laudes": {
           "anta": "Was ich euch im Dunkeln sage, das verkündet am hellen Tag.",
           "antb": "Jesus stand auf und drohte dem Wind und der See. Da legte sich der Wind, und es ward große Stille.",
-          "antc": "Der Menschensohn muss vieles erleiden: Man wird ihn verwerfen und töten, doch er wird auferstehen am dritten Tag."
+          "antc": "Der Menschensohn muss vieles erleiden: Man wird ihn verwerfen und töten, doch er wird auferstehen am dritten Tag.",
+          "antev_lat": "Opórtet Fílium hóminis multa pati et reprobári, et occídi, et tértia die resúrgere."
         },
         "Vesper": {
           "anta": "Wer sich zu mir bekennt vor den Menschen, zu dem will auch ich mich bekennen vor meinem Vater im Himmel.",
           "antb": "Große Furcht ergriff die Jünger. Sie sagten zueinander: Was ist das für ein Mensch, dem sogar Wind und Meer gehorchen?",
-          "antc": "Wer mein Jünger sein will, der verleugne sich selbst, er nehme täglich sein Kreuz auf sich und folge mir nach."
+          "antc": "Wer mein Jünger sein will, der verleugne sich selbst, er nehme täglich sein Kreuz auf sich und folge mir nach.",
+          "antev_lat": "Qui vult veníre post me, ábneget seípsum et tollat crucem suam et sequátur me, dicit Dóminus."
         }
       },
       "each": {
@@ -9851,17 +9854,20 @@ export const brevierData = {
           "antb": "Ob sie auf dich hören oder nicht, sie müssen erkennen, dass mitten unter ihnen ein Prophet war.",
           "antc": "Wie einen Strom leitet der Herr den Frieden nach Jerusalem.",
           "oration": "Barmherziger Gott, durch die Erniedrigung deines Sohnes hast du die gefallene Menschheit wieder aufgerichtet und aus der Knechtschaft der Sünde befreit. Erfülle uns mit Freude über die Erlösung und führe uns zur ewigen Seligkeit.^ORV",
+          "antev_lat": "Messis quidem multa, operárii autem pauci. Rogáte ergo Dóminum messis, ut mittat operários in messem suam.",
           "oration_lat": ""
         },
         "Laudes": {
           "anta": "Lernt von mir, denn ich bin gütig und demütig von Herzen; und ihr werdet Ruhe finden.",
           "antb": "Jesus kam in seine Heimatstadt und lehrte in der Synagoge. Doch die ihn hörten, nahmen Anstoß an ihm und lehnten ihn ab.",
-          "antc": "Wenn ihr in ein Haus kommt, so sagt als erstes: Friede diesem Haus! Und wenn dort ein Mann des Friedens wohnt, wird der Friede auf ihm ruhen."
+          "antc": "Wenn ihr in ein Haus kommt, so sagt als erstes: Friede diesem Haus! Und wenn dort ein Mann des Friedens wohnt, wird der Friede auf ihm ruhen.",
+          "antev_lat": "In quamcúmque domum intravéritis, primum dícite: Pax huic dómui. Et requiéscet super illam pax vestra."
         },
         "Vesper": {
           "anta": "Ich preise dich, Vater, Herr des Himmels und der Erde, weil du all das den Weisen und Klugen verborgen, den Kleinen aber offenbart hast.",
           "antb": "Die Jesus hörten, staunten und sagten: Woher hat er das alles? Ist das nicht der Zimmermann, der Sohn der Maria.",
-          "antc": "Die Ernte ist groß, doch der Arbeiter sind wenige. Bittet also den Herrn, dass er Arbeiter sende in seine Ernte."
+          "antc": "Die Ernte ist groß, doch der Arbeiter sind wenige. Bittet also den Herrn, dass er Arbeiter sende in seine Ernte.",
+          "antev_lat": "Gaudéte et exsultáte, quia nómina vestra scripta sunt in cælis, dicit Dóminus."
         }
       },
       "each": {
