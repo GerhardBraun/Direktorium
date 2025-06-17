@@ -1,6 +1,7 @@
 import React, { useMemo } from 'react';
 import { getLocalStorage } from '../utils/localStorage.js';
 import { getValue } from '../dataHandlers/GetValue.js';
+import { getExcludedHours } from '../dataHandlers/ExcludedHours.js';
 
 const checkSources = (texts, hour, prefSrc, field) => {
     const hasEig = texts[hour][prefSrc]?.[field];
@@ -94,6 +95,11 @@ export const SectionHeader = ({
         return true;
     }, [hour, title, texts, prefSrc, prefSollemnity, localPrefComm,
         localPrefPsalmsWt, localPrefErgPs, localPrefContinuous]);
+
+    // Bestimme ausgeschlossene Horen für TSN basierend auf Ergänzungspsalmodie
+    const excludedHours = useMemo(() => {
+        return getExcludedHours(texts, localPrefErgPs, title);
+    }, [texts, localPrefErgPs, title]);
 
     const showPsalmsWt = hasEig && hasWt
         && title === 'PSALMODIE'
@@ -234,7 +240,10 @@ export const SectionHeader = ({
             {showSources && !skipCommune && (
                 <ButtonGroup>
                     <button
-                        onClick={() => setLocalPrefComm(1)}
+                        onClick={() => {
+                            setLocalPrefComm(1)
+                            if (title === 'PSALMODIE') { setLocalPrefPsalmsWt(false) }
+                        }}
                         className={`${localPrefComm === 1 ? 'underline' : ''}`}
                     >
                         Comm {nameComm1}
@@ -243,7 +252,10 @@ export const SectionHeader = ({
                         <>
                             {"  |  "}
                             <button
-                                onClick={() => setLocalPrefComm(2)}
+                                onClick={() => {
+                                    setLocalPrefComm(2)
+                                    if (title === 'PSALMODIE') { setLocalPrefPsalmsWt(false) }
+                                }}
                                 className={`${localPrefComm === 2 ? 'underline' : ''}`}
                             >
                                 {nameComm2}
@@ -255,7 +267,10 @@ export const SectionHeader = ({
                         <>
                             {" | "}
                             <button
-                                onClick={() => setLocalPrefComm(0)}
+                                onClick={() => {
+                                    setLocalPrefComm(0)
+                                    if (title === 'PSALMODIE') { setLocalPrefPsalmsWt(true) }
+                                }}
                                 className={`${localPrefComm === 0 ? 'underline' : ''}`}
                             >
                                 {`${isErsteLesung ? 'Bahnlesung' : 'Wt'}`}
@@ -266,26 +281,23 @@ export const SectionHeader = ({
             )}
             {showTSN && (
                 <ButtonGroup>
-                    <button
-                        onClick={() => onSelectHour('terz')}
-                        className={`${hour === 'terz' ? 'underline' : ''}`}
-                    >
-                        Terz
-                    </button>
-                    {" | "}
-                    <button
-                        onClick={() => onSelectHour('sext')}
-                        className={`${hour === 'sext' ? 'underline' : ''}`}
-                    >
-                        Sext
-                    </button>
-                    {" | "}
-                    <button
-                        onClick={() => onSelectHour('non')}
-                        className={`${hour === 'non' ? 'underline' : ''}`}
-                    >
-                        Non
-                    </button>
+                    {['terz', 'sext', 'non'].map((hourName, index) => {
+                        const isExcluded = excludedHours.includes(hourName);
+                        return (
+                            <React.Fragment key={hourName}>
+                                {index > 0 && " | "}
+                                <button
+                                    onClick={() => !isExcluded && onSelectHour(hourName)}
+                                    disabled={isExcluded}
+                                    className={`${hour === hourName ? 'underline' : ''} ${isExcluded ? 'text-gray-400 cursor-not-allowed' : ''
+                                        }`}
+                                >
+                                    {hourName === 'terz' ? 'Terz' :
+                                        hourName === 'sext' ? 'Sext' : 'Non'}
+                                </button>
+                            </React.Fragment>
+                        );
+                    })}
                 </ButtonGroup>
             )}
             {invPsalms && (

@@ -32,9 +32,7 @@ const calculateMaxLineLength = (text) => {
         .replace(/\^RUBR.*?\^0RUBR/g, '') // Lange Rubriken entfernen
         .replace(/°/g, ' ') // Geschützte Leerzeichen als normale Leerzeichen
         .replace(/>/g, '')
-        .replace(/\^\//g, '    ') // Asterisk-Marker
-        .replace(/\^\*/g, ' *') // Asterisk-Marker
-        .replace(/\^\+/g, ' †') // Kreuz-Marker
+        .replace(/\^\//g, '   ')
         .replace(/\^-/g, '-') // Bindestriche
         .replace(/\{(\d{1,2})#.*?\}/g, '$1') // Fußnoten nur als Nummer zählen
         .replace(/\^[öÖLö]/g, ' Halleluja'); // Halleluja-Marker
@@ -83,13 +81,9 @@ const calculateMaxLineLength = (text) => {
                     lineWidth += calculateCharWidth(trimmedLine[i]);
                 }
                 maxLength = Math.max(maxLength, lineWidth);
-                if (maxLength === lineWidth) {
-                    console.log(`Zeilenlänge ${zeile}: ${lineWidth}em`);
-                }
             }
         });
     });
-    console.log(`Maximale Zeilenlänge: ${maxLength}em`);
     return maxLength;
 };
 // Formatiert Psalmen mit Nummer, Versen, Titel und Text
@@ -309,7 +303,7 @@ export const formatPrayerText = (provText, marker = '',
         .replace(/\^\//g, (() => {
             // Wenn keine ^/-Tags vorhanden oder maxLineLength <= widthForHymns, dann Leerzeichen
             // Andernfalls Zeilenumbruch
-            return (maxLineLength > 0 && maxLineLength > widthForHymns) ? '\n' : '    ';
+            return (maxLineLength > 0 && maxLineLength > widthForHymns) ? '\n' : '   ';
         })())
         .replace(/\^-/g, '\u2011')
         .replace(/(\w)–/g, '$1\u200C–')

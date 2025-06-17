@@ -1,3 +1,5 @@
+import { getExcludedHours } from "./ExcludedHours.js";
+
 export const getValue = ({ season, hour, texts, field,
     prefSrc, prefSollemnity,
     localPrefKomplet, localPrefComm,
@@ -21,6 +23,28 @@ export const getValue = ({ season, hour, texts, field,
             || data?.each?.[hour]?.[field]
             || data?.each?.each?.[field] || null
     }
+
+    const replaceErgPs = (data) => {
+        // Prüfe nur die kritischen Psalmen, die ersetzt werden müssen
+        if (![121, 122, 126, 127].includes(data)) { return data; }
+
+        // Bestimme, ob Commune-Texte geprüft werden sollen
+        const textsEig = texts.vesper?.[prefSrc] || {};
+        const textsCommune = ((prefSollemnity || (texts.rank_date > 2 || texts.rank_wt > 2)) && localPrefComm > 0) &&
+            texts.vesper?.[prefSrc]?.[`com${localPrefComm}`] || {};
+
+        let doReplace = false;
+
+        // Prüfe in der Vesper auf Konflikte mit Eigenpsalmen oder Commune-Psalmen
+        doReplace = [textsEig?.psalm1, textsEig?.psalm2].includes(data) ||
+            [textsCommune?.psalm1, textsCommune?.psalm2].includes(data);
+
+        if (doReplace) {
+            // Ersatzpsalmen: 127→131, andere→129
+            return (data === 127) ? 131 : 129;
+        }
+        return data;
+    };
 
     // Helper function für die eigentliche Feldabfrage
     const getFieldValue = (field) => {
@@ -54,15 +78,22 @@ export const getValue = ({ season, hour, texts, field,
         // Sonderfall Ergänzungspsalmodie
         if (isPsalmodie && !localPrefPsalmsWt
             && (isSollemnity
-                || (localPrefErgPs && isTSN)
-                || (hour === 'laudes' && (rank_date > 2 || rank_wt > 2)) // an Gedenktagen und Festen    )
+                || (isTSN && localPrefErgPs && !getExcludedHours(texts, localPrefErgPs, 'PSALMODIE').includes(hour))
+                || (hour === 'laudes' && (rank_date > 2 || rank_wt > 2)) // Hochfeste und Feste: Ps vom So der I. Woche
             )) {
-            const languageField = `${field}${localPrefLanguage}`
-            const data = dataSollemnities.soll?.[dayOfWeek]?.[hour]?.[languageField]
-                || dataSollemnities.soll?.[dayOfWeek]?.[hour]?.[field]
-                || dataSollemnities.soll.each?.[hour]?.[languageField]
-                || dataSollemnities.soll.each?.[hour]?.[field]
-            if (data) { return data }
+            const checkAnt0 = `ant0${localPrefLanguage}`
+            if (!(field.startsWith('ant') &&
+                (texts[hour][prefSrc]?.[checkAnt0] ||
+                    texts[hour][prefSrc]?.[`com${localPrefComm}`]?.[checkAnt0])
+            )) {
+                const languageField = `${field}${localPrefLanguage}`
+                const data = dataSollemnities.soll?.[dayOfWeek]?.[hour]?.[languageField]
+                    || dataSollemnities.soll?.[dayOfWeek]?.[hour]?.[field]
+                    || dataSollemnities.soll.each?.[hour]?.[languageField]
+                    || dataSollemnities.soll.each?.[hour]?.[field]
+
+                if (data) { return replaceErgPs(data) }
+            }
         }
 
         // Abruf der Werte für die Kommemoration
@@ -115,17 +146,23 @@ export const getValue = ({ season, hour, texts, field,
             //Sonderfall Wochentagspsalmen
             if (localPrefPsalmsWt && isPsalmodie &&
                 hour !== 'invitatorium'
-            ) { return texts[hour]?.wt?.[field] }
+            ) {
+                return texts[hour]?.wt?.[field]
+            }
 
             //Sonderfall Bahnlesung
             if (localPrefContinuous && hour === 'lesehore' &&
                 ['les_', 'resp', 'patr_'].includes(field)
-            ) { return texts[hour]?.wt?.[field] }
+            ) {
+                return texts[hour]?.wt?.[field]
+            }
 
             //Sonderfall Antiphonen: entweder ant0 oder ant1-3
             if (field === `ant0${localPrefLanguage}` &&
                 (prefTexts?.[`ant1${localPrefLanguage}`] || prefCommTexts?.[`ant1${localPrefLanguage}`])
-            ) { return 'STOP' }
+            ) {
+                return 'STOP'
+            }
 
             if ([`ant1${localPrefLanguage}`, `ant2${localPrefLanguage}`, `ant3${localPrefLanguage}`].includes(field) &&
                 (prefTexts?.[`ant0${localPrefLanguage}`] || prefCommTexts?.[`ant0${localPrefLanguage}`])
@@ -147,6 +184,8 @@ export const getValue = ({ season, hour, texts, field,
         }
         // 3. Verwende "wt" als letzte Option
         if (texts[hour].wt?.[field]) {
+            console.log('wt als letzte Option für', field, hour);
+
             return texts[hour].wt[field];
         }
         return null;
@@ -429,7 +468,7 @@ const dataSollemnities = {
             },
             "invitatorium": {
                 "ant0": "Wie ein Bräutigam liebt Christus seine Kirche; kommt, wir beten ihn an!^ö^p^RUBROder:^0RUBR^l^rAnt.^0r°°Christus, den Herrn, der seine Kirche liebt – kommt, wir beten ihn an!^ö",
-                "ant0_lat": ""
+                "ant0_lat": "Christum, Sponsum Ecclésiæ, adorémus in ea.^Lö"
             },
             "lesehore": {
                 "hymn_1": 1139.0,
@@ -453,11 +492,11 @@ const dataSollemnities = {
                 "patr_resp1": "Festgegründet steht das Haus des Herrn auf dem höchsten der Berge; es ragt empor über alle Hügel.",
                 "patr_resp2": "Alle Völker strömen zu ihm und rufen: Ehre sei dir, o Herr!^ö",
                 "patr_resp3": "Mit Jubel kommen sie und bringen ihre Garben ein.",
-                "ant1_lat": "",
-                "ant2_lat": "",
-                "ant3_lat": "",
-                "versikel0_lat": "",
-                "versikel1_lat": "",
+                "ant1_lat": "Attóllite, portæ, cápita vestra, et elevámini, portæ æternáles.^Lö",
+                "ant2_lat": "Quam dilécta tabernácula tua, Dómine virtútum.^Lö",
+                "ant3_lat": "Gloriósa dicta sunt de te, cívitas Dei.^Lö",
+                "versikel0_lat": "Adorábo ad templum sanctum tuum.^Lö",
+                "versikel1_lat": "Et confitébor nómini tuo, Dómine.^Lö",
                 "resp1_lat": "",
                 "resp2_lat": "",
                 "resp3_lat": "",
