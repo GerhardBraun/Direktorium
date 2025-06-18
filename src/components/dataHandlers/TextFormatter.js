@@ -296,7 +296,7 @@ export const formatPrayerText = (provText, marker = '',
     const maxLineLength = calculateMaxLineLength(text);
 
     text = text
-        .replace(/(_lat|_neu)/g, '')
+        .replace(/^›|(_lat|_neu)/g, '')
         .replace(/°/g, '\u00A0')
         .replace(/\^\*/g, '\u00A0*\n')
         .replace(/\^\+/g, '\u00A0†\n')

@@ -1600,6 +1600,11 @@ const PrayerTextDisplay = ({
                   </div>
                 </>
               )}
+              <span className="text-rubric">
+                {(localPrefLanguage === '_neu'
+                  && getValue("les_buch").startsWith('›'))
+                  ? '›' : ''}
+              </span>
               {formatPrayerText(getValue("les_text"))}
             </div>
           </div>
