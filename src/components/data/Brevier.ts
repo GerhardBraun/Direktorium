@@ -10649,8 +10649,8 @@ export const brevierData = {
         },
         "Lesehore": {
           "hymn_nacht": 2114.0,
-          "hymn_1_lat": 4110.0,
-          "hymn_nacht_lat": 4110.1
+          "hymn_1_lat": 4112.0,
+          "hymn_nacht_lat": 4112.1
         },
         "Terz": {
           "oration": "Gütiger Gott und Vater, du hast die Menschen zu gemeinsamer Arbeit berufen, damit sie einander ergänzen und jeder die Fähigkeit entfaltet, die du ihm gegeben hast, zum Wohle aller. Gib, dass wir unser Werk als deine Kinder verrichten, beseelt von deinem Geist und von der Liebe zu allen Menschen.^ORV",
@@ -10672,8 +10672,8 @@ export const brevierData = {
         },
         "Lesehore": {
           "hymn_nacht": 3212.0,
-          "hymn_1_lat": 4120.0,
-          "hymn_nacht_lat": 4120.1
+          "hymn_1_lat": 4122.0,
+          "hymn_nacht_lat": 4122.1
         },
         "Terz": {
           "oration": "Allmächtiger, ewiger Gott. Um die dritte Stunde hast du deinen Heiligen Geist über die Apostel ausgegossen. Sende den Geist der Liebe auch in unser Herz, damit wir in Treue für dich Zeugnis geben vor den Menschen.^ORV",
@@ -10695,8 +10695,8 @@ export const brevierData = {
         },
         "Lesehore": {
           "hymn_nacht": 3112.0,
-          "hymn_1_lat": 4130.0,
-          "hymn_nacht_lat": 4130.1
+          "hymn_1_lat": 4132.0,
+          "hymn_nacht_lat": 4132.1
         },
         "Terz": {
           "oration": "Herr, heiliger Vater, Gott, auf dessen Treue wir bauen, du hast den verheißenen Geist gesandt, um die Menschen zusammenzuführen, die durch die Sünde getrennt sind. Gib, dass wir die Einheit und den Frieden als deinen Auftrag erkennen und nach Kräften fördern.^ORV",
@@ -10718,8 +10718,8 @@ export const brevierData = {
         },
         "Lesehore": {
           "hymn_nacht": 2114.0,
-          "hymn_1_lat": 4140.0,
-          "hymn_nacht_lat": 4140.1
+          "hymn_1_lat": 4142.0,
+          "hymn_nacht_lat": 4142.1
         },
         "Terz": {
           "oration": "Herr und Gott, als die Apostel um die dritte Stunde zum Gebet versammelt waren, hast du ihnen den Heiligen Geist geschenkt. Mache auch uns zu einer Wohnstatt deines Geistes.^ORV",
@@ -10741,8 +10741,8 @@ export const brevierData = {
         },
         "Lesehore": {
           "hymn_nacht": 3212.0,
-          "hymn_1_lat": 4150.0,
-          "hymn_nacht_lat": 4150.1
+          "hymn_1_lat": 4152.0,
+          "hymn_nacht_lat": 4152.1
         },
         "Terz": {
           "oration": "Herr Jesus Christus, um die dritte Stunde wurdest du zur Kreuzigung geführt für das Heil der Welt. Wir bitten dich, vergib, was wir Böses getan haben und bewahre uns vor neuer Schuld.^ORS",
@@ -10764,8 +10764,8 @@ export const brevierData = {
         },
         "Lesehore": {
           "hymn_nacht": 3112.0,
-          "hymn_1_lat": 4160.0,
-          "hymn_nacht_lat": 4160.1
+          "hymn_1_lat": 4162.0,
+          "hymn_nacht_lat": 4162.1
         },
         "Terz": {
           "oration": "Gott, allmächtiger Vater, du unser Herr, wir neigen uns vor dir. Sende uns das Licht des Heiligen Geistes, damit wir sicher sind vor jedem Feind und in der Freude des Herzens dir unser Lob weihen, heute und alle Tage.^ORV",
