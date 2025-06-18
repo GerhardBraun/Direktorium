@@ -119,8 +119,9 @@ export const SectionHeader = ({
 
     let askLatin = true;
     if (title === 'VERSIKEL'
-        || hour === 'invitatorium' && title === 'PSALMODIE'
-        || isTSN && title === 'ORATION'
+        || (hour === 'invitatorium' && title === 'PSALMODIE')
+        || (hour === 'lesehore' && /^(les_|resp|patr_)/.test(field))
+        || (isTSN && title === 'ORATION')
     ) { askLatin = false }
     else if (title === 'HYMNUS') {
         askLatin = getLocalStorage('ommitOpening') === 'true' ? true : false
