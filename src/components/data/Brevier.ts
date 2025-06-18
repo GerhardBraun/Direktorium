@@ -14177,7 +14177,7 @@ export const brevierData = {
           "les_stelle": "10,16-17",
           "les_text": "Ist der Kelch des Segens, über den wir den Segen sprechen, nicht Teilhabe am Blut Christi? Ist das Brot, das wir brechen, nicht Teilhabe am Leib Christi?^w Ein^0w Brot ist es. Darum sind wir viele^w ein^0w Leib; denn wir alle haben teil an dem einen Brot.",
           "resp1": "Brot vom Himmel hat er ihnen gegeben.",
-          "resp2": "Halleluja, halleluja.",
+          "resp2": "Halleluja,°halleluja.",
           "resp3": "Brot der Engel aßen die Menschen.",
           "antev": "Wie gut und freundlich bist du, Herr, wie groß ist deine Liebe! Brot vom Himmel gibst du deinen Kindern zum Zeichen deiner Huld. Den Hungernden schenkst du deine Gaben, die Reichen aber lässt du leer ausgehen.",
           "bitten_e": "Lasst uns beten zu Christus, unserem Herrn, der beim heiligen Mahl seinen Leib und sein Blut hingibt für das Leben der Welt:",

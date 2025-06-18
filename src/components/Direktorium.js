@@ -2889,6 +2889,19 @@ export default function LiturgicalCalendar() {
                 </button>
               </div>
             </div>
+            <div className="px-3 py-2 text-sm mb-2">
+              <div className="font-semibold text-gray-500 dark:text-gray-400">
+                Kontakt
+              </div>
+              <div className="text-center text-gray-700 dark:text-gray-300">
+                <a
+                  href="mailto:direktorium@bistum-fulda.de"
+                  className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
+                >
+                  direktorium@bistum-fulda.de
+                </a>
+              </div>
+            </div>
             {/* Personal Settings Section */}
 
             <div className="px-3 py-2 border-t dark:border-gray-700">
