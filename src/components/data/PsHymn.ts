@@ -4624,6 +4624,32 @@ export const psalmsData = {
         "text_lat": "Diéi luce réddita,^llætis gratísque vócibus^lDei canámus glóriam,^lChristi faténtes grátiam,^pPer quem creátor ómnium^ldiem noctémque cóndidit,^lætérna lege sánciens^lut semper succédant sibi.^pTu vera lux fidélium,^lquem lex vetérna non tenet,^lnoctis nec ortu súccidens,^lætérno fulgens lúmine.^pPræsta, Pater ingénite,^ltotum ducámus iúgiter^lChristo placéntes hunc diem^lSancto repléti Spíritu. Amen."
       }
   },
+  5495: {
+    0.0: {
+        "quote": "Comm Virorum Lh+Vp",
+        "title_lat": "Iesu, redemptor omnium",
+        "text_lat": "Iesu, redémptor ómnium,^lperpes coróna cǽlitum,^lin hac die cleméntius^lnostris favéto vócibus,^pSacri tui qua nóminis^lconféssor almus cláruit,^lcuius celébrat ánnua^ldevóta plebs sollémnia.^pPer illa quæ sunt sǽculi^lgressu seréno tránsiit,^ltibi fidélis iúgiter^liter salútis pérsequens.^pAt rite mundi gáudiis^lnon cor cadúcis ápplicans,^lcum ángelis cæléstibus^llætus potítur prǽmiis.^pHuius benígnus ánnue^lnobis sequi vestígia;^lhuius precátu sérvulis^ldimítte noxam críminis.^pSit, Christe, rex piíssime,^ltibi Patríque glória^lcum Spíritu Paráclito,^lin sempitérna sǽcula."
+      }
+  },
+  5505: {
+    0.0: {
+        "quote": "Comm unius viri Ld",
+        "title_lat": "Iesu, corona celsior",
+        "text_lat": "Iesu, coróna célsior^let véritas sublímior,^lqui confiténti sérvulo^lreddis perénne prǽmium,^pDa supplicánti cœ́tui,^lhuius rogátu cǽlitis,^lremissiónem críminum^lrumpéndo nexum vínculi.^pNil vanitátis díligens,^lterréna sic exércuit,^lut mente tota férvidus^ltibi placéret únice.^pTe, Christe, rex piíssime,^lhic confiténdo iúgiter,^lcalcávit hostem fórtiter^lsupérbum ac satéllitem.^pVirtúte clarus et fide,^loratióni sédulus^lac membra servans sóbria,^ldapes supérnas óbtinet.^pDeo Patri sit glória^ltibíque soli Fílio^lcum Spíritu Paráclito,^lin sempitérna sǽcula."
+      }
+  },
+  5506: {
+    0.0: {
+        "quote": "Comm Virorum Ld",
+        "title_lat": "Beati caeli gaudia"
+      }
+  },
+  5511: {
+    0.0: {
+        "quote": "Comm Virorum Vp",
+        "title_lat": "Inclitos Christi famulos canamus"
+      }
+  },
   8101: {
     2.0: {
         "title": "Zur Pforte Christi ward die Magd",
