@@ -554,7 +554,7 @@ const dataSollemnities = {
                 "psalm3": 125.0,
                 "ant0": "Deinem Haus, o Herr, gebührt Heiligkeit für alle Zeiten.^ö",
                 "les_buch": "2°Kor",
-                "les_stelle": "6,16",
+                "les_stelle": "6,16b",
                 "les_text": "Wir sind der Tempel des lebendigen Gottes; denn Gott hat gesprochen: Ich will unter ihnen wohnen und mit ihnen gehen. Ich werde ihr Gott sein, und sie werden mein Volk sein.",
                 "resp0": "Erbittet für Jerusalem Frieden.^ö",
                 "resp1": "Wer dich liebt, sei in dir geborgen.^ö",

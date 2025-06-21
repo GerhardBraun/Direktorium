@@ -190,14 +190,14 @@ export const SectionHeader = ({
                 <ButtonGroup>
                     <button
                         onClick={() => setLocalPrefPsalmsWt(false)}
-                        className={!localPrefPsalmsWt && 'underline'}
+                        className={!localPrefPsalmsWt ? 'underline' : ''}
                     >
                         Ps eig
                     </button>
                     {" | "}
                     <button
                         onClick={() => setLocalPrefPsalmsWt(true)}
-                        className={localPrefPsalmsWt && 'underline'}
+                        className={localPrefPsalmsWt ? 'underline' : ''}
                     >
                         vom Wt
                     </button>
@@ -207,14 +207,14 @@ export const SectionHeader = ({
                 <ButtonGroup>
                     <button
                         onClick={() => setLocalPrefErgPs(false)}
-                        className={!localPrefErgPs && 'underline'}
+                        className={!localPrefErgPs ? 'underline' : ''}
                     >
                         vom Wt
                     </button>
                     {" | "}
                     <button
                         onClick={() => setLocalPrefErgPs(true)}
-                        className={localPrefErgPs && 'underline'}
+                        className={localPrefErgPs ? 'underline' : ''}
                     >
                         ErgPs
                     </button>
@@ -224,7 +224,7 @@ export const SectionHeader = ({
                 <ButtonGroup>
                     {hasEig && (<button
                         onClick={() => setLocalPrefContinuous(false)}
-                        className={!localPrefContinuous && 'underline'}
+                        className={!localPrefContinuous ? 'underline' : ''}
                     >
                         Eigenlesung
                     </button>
@@ -232,7 +232,7 @@ export const SectionHeader = ({
                     {" | "}
                     <button
                         onClick={() => setLocalPrefContinuous(true)}
-                        className={localPrefContinuous && 'underline'}
+                        className={localPrefContinuous ? 'underline' : ''}
                     >
                         {`${isErsteLesung ? 'Bahnlesung' : 'vom Wt'}`}
                     </button>
@@ -245,7 +245,7 @@ export const SectionHeader = ({
                             setLocalPrefComm(1)
                             if (title === 'PSALMODIE') { setLocalPrefPsalmsWt(false) }
                         }}
-                        className={`${localPrefComm === 1 ? 'underline' : ''}`}
+                        className={localPrefComm === 1 ? 'underline' : ''}
                     >
                         Comm {nameComm1}
                     </button>
@@ -257,7 +257,7 @@ export const SectionHeader = ({
                                     setLocalPrefComm(2)
                                     if (title === 'PSALMODIE') { setLocalPrefPsalmsWt(false) }
                                 }}
-                                className={`${localPrefComm === 2 ? 'underline' : ''}`}
+                                className={localPrefComm === 2 ? 'underline' : ''}
                             >
                                 {nameComm2}
                             </button>
@@ -272,7 +272,7 @@ export const SectionHeader = ({
                                     setLocalPrefComm(0)
                                     if (title === 'PSALMODIE') { setLocalPrefPsalmsWt(true) }
                                 }}
-                                className={`${localPrefComm === 0 ? 'underline' : ''}`}
+                                className={localPrefComm === 0 ? 'underline' : ''}
                             >
                                 {`${isErsteLesung ? 'Bahnlesung' : 'Wt'}`}
                             </button>
@@ -290,11 +290,11 @@ export const SectionHeader = ({
                                 <button
                                     onClick={() => !isExcluded && onSelectHour(hourName)}
                                     disabled={isExcluded}
-                                    className={`${hour === hourName ? 'underline' : ''} ${isExcluded ? 'text-gray-400 cursor-not-allowed' : ''
-                                        }`}
+                                    className={`${hour === hourName ? 'underline' : ''}
+                                    ${isExcluded ? 'text-gray-400 cursor-not-allowed' : ''}`
+                                    }
                                 >
-                                    {hourName === 'terz' ? 'Terz' :
-                                        hourName === 'sext' ? 'Sext' : 'Non'}
+                                    {hourName[0].toUpperCase() + hourName.slice(1)}
                                 </button>
                             </React.Fragment>
                         );
@@ -309,7 +309,7 @@ export const SectionHeader = ({
                                 {index > 0 && " | "}
                                 <button
                                     onClick={() => setLocalPrefInv(psalmNumber)}
-                                    className={`${localPrefInv === psalmNumber ? 'underline' : ''}`}
+                                    className={localPrefInv === psalmNumber ? 'underline' : ''}
                                 >
                                     {psalmNumber === 95 ? `Ps ${psalmNumber}` : psalmNumber}
                                 </button>
