@@ -3176,6 +3176,7 @@ export const psalmsData = {
   },
   1026: {
     0.0: {
+        "stb3": "1026 f.",
         "title": "Den Erde, Meer und Firmament",
         "quote": "Lesehore an Marienfesten",
         "text": "Den Erde, Meer und Firmament^lverehren, loben, beten an,^lder die drei Reiche trägt und lenkt,^lihn birgt Mariens reiner Schoß.^pDem Sonne, Mond und jeder Stern^ldurch alle Zeiten dienstbar sind,^lihn trägt der Leib der reinen Magd,^lvom Hauch der Gnade ganz durchströmt.^pBeglückte Mutter, reich beschenkt:^lIn deinem Schoße schließt sich ein^ler, dessen Hand die Welt umfängt,^lder Höchste, der das All erschuf.^pDir ward des Engels Botschaft kund,^lund du empfingst vom Heil’gen Geist:^lAus deinem Schoße trat hervor,^lder aller Völker Sehnsucht ist.^pHerr Jesus, dir sei Ruhm und Preis,^lGott, den die Jungfrau uns gebar,^lLob auch dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."

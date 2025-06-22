@@ -119,19 +119,20 @@ const HymnSelector = ({ texts, hour, season,
                     const textField = `text${localPrefLanguage}`;
                     const titleField = `title${localPrefLanguage}`;
                     const hymnText = hymnData?.[textField]?.replace('LEER', '')
+                    const stb3 = (['kl. Stb:', 'pers:'].includes(sourceLabel)
+                        && hymnData?.stb3) ? hymnData.stb3 : ''
 
                     // Nur hinzufügen, wenn der Text in der gewünschten Sprache existiert
                     if (!hymnText) return;
 
                     hymns.push({
-                        id: id,
+                        id,
                         source: sourceLabel,
-                        stb3: (sourceLabel === 'kl. Stb:' && hymnData?.stb3)
-                            ? hymnData.stb3 : '',
+                        stb3,
                         text: hymnText,
                         title: hymnData[titleField],
                         hymnNumber,
-                        isNachtHymn: isNachtHymn
+                        isNachtHymn,
                     });
 
                     usedHymnNumbers.add(hymnNumber);
