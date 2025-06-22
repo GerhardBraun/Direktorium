@@ -1,8 +1,14 @@
 interface PsalmSection {
   verses?: string;
+  stb3?: string;
   title?: string;
   quote?: string;
   text?: string;
+  number_lat?: string;
+  verses_lat?: string;
+  title_lat?: string;
+  quote_lat?: string;
+  text_lat?: string;
 }
 
 interface PsalmsData {
@@ -3177,6 +3183,7 @@ export const psalmsData = {
   },
   1027: {
     0.0: {
+        "stb3": "1051",
         "title": "Sei gegrüßt, die den König gebar",
         "quote": "Lesehore zu Maria am Samstag",
         "text": "Sei gegrüßt, die den König gebar,^/du°heilige°Mutter,^lihn, der Himmel und Erde erhält^/im°Wandel°der°Zeiten,^ldessen Walten das All umfasst^/mit°ewigem°Kreise,^ldessen Reich ohne Ende besteht:^/Dein seliger Leib hat^lFreuden der Mutter gepaart^/mit°reiner°Ehre°der°Jungfrau.^lDir, der keine je glich,^/wird°keine°fürderhin°gleichen,^ldenn vor allen Frauen erwählte^/dich,°Einzige,°Christus."
@@ -3191,6 +3198,7 @@ export const psalmsData = {
   },
   1043: {
     0.0: {
+        "stb3": "1043 f.",
         "title": "Meerstern, sei gegrüßet",
         "quote": "2. Vesper an Marienfesten",
         "text": "Meerstern, sei gegrüßet,^/Gottes hohe Mutter,^lallzeit reine Jungfrau,^/selig Tor zum Himmel!^pDu nahmst an das AVE^/aus des Engels Munde.^lWend den Namen EVA,^/bring uns Gottes Frieden.^pZeige dich als Mutter,^/denn dich wird erhören,^lder auf sich genommen,^/hier dein Sohn zu werden.^pJungfrau ohnegleichen,^/Gütige vor allen,^luns, die wir erlöst sind,^/mach auch rein und gütig.^pLös der Schuldner Ketten,^/mach die Blinden sehend,^lallem Übel wehre,^/jeglich Gut erwirke.^pGib ein lautres Leben,^/sicher uns geleite,^ldass wir einst in Freuden^/Jesus mit dir schauen.^pLob sei Gott dem Vater,^/Christ, dem Höchsten, Ehre^lund dem Heil’gen Geiste:^/dreifach^w eine^0w Preisung. Amen."
@@ -3233,6 +3241,7 @@ export const psalmsData = {
   },
   1110: {
     0.0: {
+        "stb3": "1085 f.",
         "title": "Geist, der das Leben weckt",
         "quote": "Lesehore für Märtyrerfeste",
         "text": "Geist, der das Leben weckt,^ldu bist der Schwachen Kraft,^lgibst ihnen Zuversicht^lmitten in Todesnot;^lhell wird uns offenbar,^lwas uns der Glaube sagt:^lChristus hat unsern Tod besiegt.^pAlles verwelkt im Tod,^lStaub wird des Menschen Leib.^lDoch wer in Christus stirbt,^lwird mit ihm auferstehn:^lWer sich zu ihm bekennt,^lfürchtet die Marter nicht,^lwird im Tode mit Christus eins.^pIhm, der als Weizenkorn^lfür uns zerrieben ward,^lfolgen die Jünger nach,^lbringen sich dar mit ihm,^lwerden wie er zum Brot,^lwelches das Leben nährt,^lPilger stärkt auf dem Weg zu Gott.^pDich, Herr, verehren wir,^lKönig der Märtyrer,^lDein ist die Herrlichkeit,^lvon der ihr Glaube zeugt.^lFühr uns durch deinen Geist^lheim in des Vaters Reich,^lwo in Ewigkeit Friede herrscht. Amen."
@@ -3275,6 +3284,7 @@ export const psalmsData = {
   },
   1151: {
     0.0: {
+        "stb3": "1151 f.",
         "title": "Herr Jesus Christus, du gingst heim zum Vater",
         "quote": "Hi-Ld",
         "text": "Herr Jesus Christus,^ldu gingst heim zum Vater,^lthronst ihm zur Rechten^lüber allen Welten;^ldoch deine Jünger^llässt du nicht als Waisen^lhier auf der Erde.^pDu schickst als Beistand^ldeinen Geist der Wahrheit.^lEr schenkt uns Einsicht,^lgibt uns Licht und Hoffnung.^lEr führt die Kirche^lsicher durch die Zeiten^lhin zur Vollendung.^pEr weckt Propheten,^ldie dem Volk vorangehn^lund es voll Umsicht^lauf dem Weg geleiten.^lHirten bestellt er,^list in ihren Worten^lnahe den Deinen.^pSie geben Zeugnis,^lreden unerschrocken,^lstärken die Schwachen,^lsammeln die Zerstreuten,^llehren in Vollmacht,^lhelfen ihren Brüdern,^ldich zu bekennen.^pLob sei dem Vater^lauf dem höchsten Throne,^lLob sei dem Sohne,^lden er uns gesandt hat,^lLob sei dem Geiste,^lder von beiden ausgeht,^limmer und ewig. Amen."
@@ -3338,6 +3348,7 @@ export const psalmsData = {
   },
   1301: {
     0.0: {
+        "stb3": "157",
         "title": "Dir gebührt unser Lob",
         "quote": "Preisungen und Gebete Nr. 1",
         "text": "Dir gebührt unser Lob,^ldir unser rühmendes Lied!^lDir, o°Gott, sei Ehre und Ruhm:^ldem Vater und dem Sohne^lund dem Heiligen Geiste,^ljetzt und immer und in Ewigkeit. Amen."
@@ -3345,6 +3356,7 @@ export const psalmsData = {
   },
   1302: {
     0.0: {
+        "stb3": "157 f.",
         "title": "Dir ziemt das Lob",
         "quote": "Preisungen und Gebete Nr. 2",
         "text": "Dir ziemt das Lob,^lVater, der du reich bist^lan aller Pracht.^pAber nicht weniger Ehre ziemt^ldir, dem Sohn,^lund dir, dem Heiligen Geist.^pEure Herrschaft und Werke sind gleich^lvon Ewigkeit bis in Ewigkeit.^pDies ist die Dreiheit und Einigkeit,^lda drei sind einer^lund einer drei:^lVater und Sohn und Heiliger Geist. Amen."
@@ -3352,6 +3364,7 @@ export const psalmsData = {
   },
   1303: {
     0.0: {
+        "stb3": "158",
         "title": "Dich Gott Vater, ohne Ursprung und End’",
         "quote": "Preisungen und Gebete Nr. 3",
         "text": "Dich Gott Vater,^lohne Ursprung und End’,^lDich Sohn,^lder liebend den Vater erkennt,^lDich Heiligen Geist,^lder aus beiden entbrennt,^pDich Eine hohe Dreifaltigkeit:^lpreisen die Engel voll Seligkeit,^lfeiert auf Erden die Christenheit^ljetzt und allezeit.^lAmen.^pDich Gott Vater,^lallgewaltig an Macht,^lDich Sohn,^lder ewiges Heil uns gebracht,^lDich Heiligen Geist,^lder die Herzen entfacht.^pDich Eine hohe Dreifaltigkeit:^lpreisen die Engel voll Seligkeit,^lfeiert auf Erden die Christenheit^ljetzt und allezeit.^lAmen."
@@ -3359,6 +3372,7 @@ export const psalmsData = {
   },
   1304: {
     0.0: {
+        "stb3": "158 f.",
         "title": "Das erfragte ich unter den Menschen",
         "quote": "Preisungen und Gebete Nr. 4",
         "text": "Das erfragte ich unter den Menschen^lals gewaltigstes Wunder:^lAls Erde nicht war noch hoher Himmel,^lnoch Baum noch Berg nicht war,^lnoch Sonne nicht schien noch Stern,^lnoch Mond nicht leuchtete^lnoch das mächtige Meer,^lals nirgends nichts war aller Enden und Wenden:^lda war der eine allmächtige Gott,^lder Herren mildester;^lbei ihm viele Geister voll Herrlichkeit.^lDoch eher als sie war der heilige Gott.^pAllmächtiger Gott,^lder du Himmel und Erde geschaffen^lund den Menschen viel Gutes gegeben hast,^lverleihe mir in deiner Huld den rechten Glauben,^lgewähre mir Weisheit und Klugheit und Kraft,^ldem Verderber zu widerstehn,^ldas Böse zu meiden^lund deinen Willen zu vollbringen. Amen."
@@ -3366,6 +3380,7 @@ export const psalmsData = {
   },
   1305: {
     0.0: {
+        "stb3": "159",
         "title": "Dich, hoher Schöpfer",
         "quote": "Preisungen und Gebete Nr. 5",
         "text": "Dich, hoher Schöpfer,^llobe der Mensch mit^lLeib und mit Seele,^lHeil sich erhoffend.^lKlein und gering nur^lsteht er im Weltall:^pDoch er allein trägt,^lSchöpfer, dein Abbild,^lleuchtend im Geiste,^lwenn er im Leben^llauteren Herzens,^lHöchster, dir huldigt.^pGott unsrer Seele,^lLicht unsres Lebens,^lLob unsrer Lippen:^lFülle das Herz uns,^ldass wir dich lieben,^lVater im Himmel."
@@ -3373,16 +3388,19 @@ export const psalmsData = {
   },
   1306: {
     0.0: {
+        "stb3": "160",
         "title": "Ewiger, gütiger Gott",
         "quote": "Preisungen und Gebete Nr. 6",
         "text": "Ewiger, gütiger Gott,^ldu Schöpfer und Herr aller Dinge:^lInnig umfängt dich mein Geist^lund die ganze Kraft meiner Seele,^ldu meine Liebe, mein Lob,^ldu Zierde und Licht meines Herzens.^pDu hast den Leib mir erbaut,^lschufst mir Augen zum Schauen der Schöpfung,^lschenkst mir zum Hören das Ohr,^lzum Werken die wendigen Hände.^pWas die Erde auch birgt,^lwas Meer und Himmel umschließen,^lund was immer sich regt,^lwas atmet, begehrt und empfindet,^lall dies schuf deine Hand^lund trägt und erhält uns im Dasein,^lgibt ihm Leben und Kraft^lund lenkt es mit Allmacht und Weisheit.^pLass mich, gütiger Herr,^lmit ganzem Herzen dir dienen,^ldich verkünden im Wort,^ldich tiefer erfassen im Glauben^lund in freudigem Dank^lzu dir die Hände erheben.^pDu bist mein Weg, meine Kraft,^lder sprudelnde Quell meines Lebens,^ldu meiner Mühsale Lohn,^lmein Schöpfer und gütiger Lehrer.^pSieh meine Armut und Not^lund verzeih mir Torheit und Sünde;^lgib, dass ich Gutes nur will^lund mit deiner Kraft es vollbringe.^lDann lass mich, deinen Knecht,^lbeseligt dein Angesicht schauen^lund, von Wonne durchströmt,^lan dir mich ewig erfreuen."
       },
     1.0: {
+        "stb3": "160, 1.–3. Strophe",
         "title": "Ewiger, gütiger Gott",
         "quote": "Preisungen und Gebete Nr. 6 (1. Hälfte)",
         "text": "Ewiger, gütiger Gott,^ldu Schöpfer und Herr aller Dinge:^lInnig umfängt dich mein Geist^lund die ganze Kraft meiner Seele,^ldu meine Liebe, mein Lob,^ldu Zierde und Licht meines Herzens.^pDu hast den Leib mir erbaut,^lschufst mir Augen zum Schauen der Schöpfung,^lschenkst mir zum Hören das Ohr,^lzum Werken die wendigen Hände.^pWas die Erde auch birgt,^lwas Meer und Himmel umschließen,^lund was immer sich regt,^lwas atmet, begehrt und empfindet,^lall dies schuf deine Hand^lund trägt und erhält uns im Dasein,^lgibt ihm Leben und Kraft^lund lenkt es mit Allmacht und Weisheit."
       },
     2.0: {
+        "stb3": "160, 4.–6. Strophe",
         "title": "Lass mich, gütiger Herr",
         "quote": "Preisungen und Gebete Nr. 6 (2. Hälfte)",
         "text": "Lass mich, gütiger Herr,^lmit ganzem Herzen dir dienen,^ldich verkünden im Wort,^ldich tiefer erfassen im Glauben^lund in freudigem Dank^lzu dir die Hände erheben.^pDu bist mein Weg, meine Kraft,^lder sprudelnde Quell meines Lebens,^ldu meiner Mühsale Lohn,^lmein Schöpfer und gütiger Lehrer.^pSieh meine Armut und Not^lund verzeih mir Torheit und Sünde;^lgib, dass ich Gutes nur will^lund mit deiner Kraft es vollbringe.^lDann lass mich, deinen Knecht,^lbeseligt dein Angesicht schauen^lund, von Wonne durchströmt,^lan dir mich ewig erfreuen."
@@ -3390,6 +3408,7 @@ export const psalmsData = {
   },
   1307: {
     0.0: {
+        "stb3": "161",
         "title": "Ewiger Gott, aus dem Nichts",
         "quote": "Preisungen und Gebete Nr. 7",
         "text": "Ewiger Gott, aus dem Nichts^lhast du das Weltall geschaffen;^llag doch kein Urstoff bereit,^lneben dir, ewig wie du.^pEbenso wird einst dein Wille^ldie Welt von Grund auf verwandeln;^ldoch du bleibst immer dir gleich,^lso wie von jeher du warst.^pKlein ist die Spanne der Zeit,^ldurch die unsre Jahrhunderte gleiten,^lkurz bemessen die Frist,^lheilig zu werden wie du.^pKönig der Welten, lass uns^lin Treue dir dienen auf Erden^lund zum heiligen Kampf^lschenke uns göttliche Kraft."
@@ -3397,6 +3416,7 @@ export const psalmsData = {
   },
   1310: {
     0.0: {
+        "stb3": "162",
         "title": "Christus – mächtiger Gott!",
         "quote": "Preisungen und Gebete Nr. 10",
         "text": "Christus – mächtiger Gott!^lDu Allherrscher der Schöpfung^llenkst die kreisenden Welten –^lwandelst auf Wogen,^lwendest die Stürme –^lrufst deine Engel,^lzwingst die Dämonen –^lKönig der Welt!^lAllem verleihst du das Sein,^lWort des allmächtigen Vaters.^pChristus – Heiland der Welt!^lAus dem Schoße des Vaters^lsteigst du rettend hernieder:^lwirst unser Bruder,^lteilst unsre Armut –^lträgst unsre Leiden,^ltilgst unsre Sünden –^lhebst uns empor:^lErster des neuen Geschlechts,^ldas du erlöst und geheiligt.^pChristus – göttliches Haupt!^lWie der Weinstock die Reben^lnährst du uns, deine Glieder:^lsenkst in die Seelen^lgöttliches Leben,^leinigst die Völker^lin deiner Kirche^lheiligem Leib.^lZieh uns auf ewig an dich,^lMittler unsterblichen Lebens."
@@ -3404,6 +3424,7 @@ export const psalmsData = {
   },
   1311: {
     0.0: {
+        "stb3": "163",
         "title": "Öffne meine Augen, Herr",
         "quote": "Preisungen und Gebete Nr. 11",
         "text": "Öffne meine Augen, Herr,^lfür die Wunder deiner Liebe.^lMit dem Blinden rufe ich:^lHeiland, mache, dass ich sehe.^pÖffne, meine Ohren, Herr,^lfür den Anruf meiner Brüder.^lLass nicht zu, dass sich mein Herz^lihrer großen Not verschließe.^pÖffne meine Hände, Herr,^lBettler stehn vor meiner Türe^lund erwarten ihren Teil.^lChristus, mache, dass ich teile."
@@ -3411,6 +3432,7 @@ export const psalmsData = {
   },
   1312: {
     0.0: {
+        "stb3": "163",
         "title": "Herr, du hast die Welt gestaltet",
         "quote": "Preisungen und Gebete Nr. 12",
         "text": "Herr, du hast die Welt gestaltet,^ldass sie sich in dir entfalte:^lDir sei Lob und Dank!^pWas ersteht,^lwas vergeht,^lwas sich jauchzend um dich dreht,^list dein!^pHerr, du bist zur Welt gekommen,^lhast sie in dich aufgenommen:^lDir sei Lob und Dank!^pBliebest hier,^lwohnst in ihr,^lum ein armer Mensch wie wir^lzu sein.^pHerr, so lass dein Werk gelingen,^llass den Geist die Welt durchdringen:^lDir sei Lob und Dank!^pDann erblüht^lsie und glüht,^ldenn der ganze Himmel zieht^lherein."
@@ -3432,6 +3454,7 @@ export const psalmsData = {
   },
   2110: {
     0.0: {
+        "stb3": "196 f.",
         "title": "Das ist dein Tag, Herr Jesus Christ",
         "quote": "Lh So I",
         "text": "Das ist dein Tag, Herr Jesus Christ,^lder Tag, von deinem Glanz erhellt,^lda du vom Tod erstanden bist^lals König der erlösten Welt.^pNun hilf uns aus der Dunkelheit^lmit dir ins Reich des Lichtes gehn^lund lass dereinst auch unsern Leib^lverklärt zum Leben auferstehn.^pRuf uns zu dir, wenn du erscheinst^lam großen Tag des Endgerichts,^ldu Sieger über Welt und Tod,^lmit dir zu herrschen, Gott des Lichts.^pDann schauen wir dein Angesicht^lund werden deinem Bilde gleich,^lund wir erkennen, wie du bist:^lan Herrlichkeit und Güte reich.^pDie siebenfach dein Geist gesalbt,^lerfüllt dein Blick mit Seligkeit;^ldu führst uns deinem Vater zu^lins Leben der Dreieinigkeit. Amen."
@@ -3439,6 +3462,7 @@ export const psalmsData = {
   },
   2111: {
     0.0: {
+        "stb3": "214",
         "title": "Göttliches Wort, der Gottheit Schrein",
         "quote": "Lh Mo^+Do",
         "text": "Göttliches Wort, der Gottheit Schrein,^lführ uns in dein Geheimnis ein.^pBrennender Dornbusch, der nicht verbrennt,^lnenn uns den Namen, den niemand kennt.^pWolkensäule voll Herrlichkeit,^lgeh uns voran im Dunkel der Zeit.^pSchlüssel Davids, der öffnet und schließt,^lweis uns die Quelle, die immer fließt.^pLogos, Wort und Antwort zugleich,^lerschließe uns das Gottesreich."
@@ -3446,6 +3470,7 @@ export const psalmsData = {
   },
   2112: {
     0.0: {
+        "stb3": "231",
         "title": "Wort Gottes, dessen Macht und Ruf",
         "quote": "Lh Di^+Fr",
         "text": "Wort Gottes, dessen Macht und Ruf^lim Urbeginn die Welt erschuf.^lDu bist der Anfang und das Ende.^pDer Himmel und die ganze Welt^lsind deiner Hoheit unterstellt.^lDu bist der Zeiten Lot und Wende.^pDie Weisheit baute sich ein Haus,^ldarin spricht Gott sich selber aus,^lund dieses Wort hat uns getroffen.^pNun ist die Welt nicht mehr so leer,^lnicht mehr die Last so drückend schwer:^lDer Weg zum Vater steht uns offen."
@@ -3453,6 +3478,7 @@ export const psalmsData = {
   },
   2113: {
     0.0: {
+        "stb3": "249 f.",
         "title": "Du Wort, das der Vater spricht",
         "quote": "Lh Mi^+Sa",
         "text": "Du Wort, das der Vater spricht,^lbehältst deine Gottheit nicht^lals Beute und Raub,^ldu springst in den Staub:^lDu Leben, du Licht^lwirst Mensch, der zerbricht,^lda fließen die lebenspendenden Wasser^ldes Heils.^lHalleluja.^pHerr, gib uns zu trinken davon.^lDein Wort ist nicht irgendein Ton.^lEs dringt in uns ein^lwie Feuer, wie Wein:^lWer glaubt, der hat schon^ldas Leben im Sohn,^ldem Urquell der lebenspendenden Wasser^ldes Heils.^lHalleluja.^pDu Wort des Herrn bist ein Schwert,^ldas Sehne und Mark durchfährt^lund Wahrheit heißt^lund Macht ist und Geist,^ldas ewig währt^lund uns verklärt^lin der Kraft der lebenspendenden Wasser^ldes Heils.^lHalleluja."
@@ -3460,6 +3486,7 @@ export const psalmsData = {
   },
   2114: {
     0.0: {
+        "stb3": "213",
         "title": "Du Gott des Lichts, dem Vater gleich",
         "quote": "Lh Mo^+Do Nacht",
         "text": "Du Gott des Lichts, dem Vater gleich,^ldu Licht, dem unser Licht entspringt,^ldu ew’ger Tag: hör unser Flehn,^ldas aus der Nacht zum Himmel dringt.^pEntreiße uns der Finsternis^lund aller Angst der Erdennacht,^lstreif ab von uns die Müdigkeit,^ldie uns zum Guten träge macht.^pDu, Christus, bist das Licht der Welt,^lder Gott, dem gläubig wir vertraun,^lauf den im Dunkel dieser Zeit^lwir alle unsre Hoffnung baun.^pAus ganzem Herzen preisen wir^ldich, Christus, Herr der Herrlichkeit,^lder mit dem Vater und dem Geist^luns liebt in alle Ewigkeit. Amen."
@@ -3515,6 +3542,7 @@ export const psalmsData = {
   },
   2300: {
     0.0: {
+        "stb3": "144",
         "title": "Komm, Heil’ger Geist vom ew’gen Thron",
         "quote": "Terz",
         "text": "Komm, Heil’ger Geist vom ew’gen Thron,^leins mit dem Vater und dem Sohn;^ldurchwirke unsere Seele ganz^lmit deiner Gottheit Kraft und Glanz.^pErfüll mit heil’ger Leidenschaft^lGeist, Zunge, Sinn und Lebenskraft;^lmach stark in uns der Liebe Macht,^ldass sie uns das Herz entfacht.^pLass gläubig uns den Vater sehn,^lsein Ebenbild, den Sohn, verstehn^lund dir vertrauen, der uns durchdringt^lund uns das Leben Gottes bringt. Amen."
@@ -3529,6 +3557,7 @@ export const psalmsData = {
   },
   2302: {
     0.0: {
+        "stb3": "172",
         "title": "Schon schreitet rasch der Tag voran",
         "quote": "Terz",
         "text": "Schon schreitet rasch der Tag voran,^lwir schauen auf zu Gott dem Herrn,^lder, dreifach reich an Liebeskraft,^lzum rechten Handeln uns bewegt.^pUnd Gottes Geist erfülle uns,^lder in uns lebt und durch uns wirkt,^lmit neuer Kraft und Zuversicht^lals Christi Boten in der Welt.^pDen ew’gen Vater preisen wir^lund Jesus Christus, seinen Sohn,^lden Beistand auch, den Heil’gen Geist,^lder uns erleuchtet, stärkt und führt. Amen."
@@ -3536,6 +3565,7 @@ export const psalmsData = {
   },
   2303: {
     0.0: {
+        "stb3": "144",
         "title": "Die Stunde steigt und ruft zum Werk",
         "quote": "Terz",
         "text": "Die Stunde steigt und ruft zum Werk;^ldes Tages Anspruch lockt und drängt.^lKomm, Heil’ger Geist, tritt für uns ein,^ldenn nichts gelingt uns ohne dich.^pDu atme in uns, treibe uns,^lerleuchte uns und sprich uns zu,^ldu mache unser Herz geneigt,^ldass wir zur Liebe fähig sind.^pDies schenke uns, o°Heil’ger Geist,^lder mit dem Vater und dem Sohn^lverherrlicht und gepriesen sei^ldurch alle Zeit und Ewigkeit. Amen."
@@ -3628,6 +3658,7 @@ export const psalmsData = {
   },
   2425: {
     0.0: {
+        "stb3": "174",
         "title": "Christus, du bist der helle Tag",
         "text": "Christus, du bist der helle Tag,^ldein Glanz durchbricht die dunkle Nacht,^lDu Gott des Lichtes kündest uns^ldas Licht, das wahrhaft selig macht.^pGib, dass nichts Arges uns bedrängt,^lder böse Feind uns nicht verführt,^lund lass nicht zu, dass Geist und Leib^lvor deinem Auge schuldig wird.^pSei deiner Diener eingedenk,^ldie du mit deinem Blut erkauft.^lStärk uns durch deines Leidens Kraft;^lwir sind auf deinen Tod getauft.^pAus ganzem Herzen preisen wir^ldich, Christus, Herr der Herrlichkeit,^lder mit dem Vater und dem Geist^luns liebt in alle Ewigkeit. Amen.",
         "title_lat": "Christe, qui, splendor et dies"
@@ -3654,6 +3685,7 @@ export const psalmsData = {
   },
   2501: {
     0.0: {
+        "stb3": "175",
         "title": "Wir haben die Last des Tages getragen",
         "quote": "Auswahl-Hymnen zur Komplet",
         "text": "Wir haben die Last des Tages getragen.^lDie Arbeit war schwer und drückend die Fron.^lNun kommt der Meister und zahlt uns den Lohn.^pOb zur ersten Stunde oder zur elften,^lhier gilt kein Pochen auf Recht und Verdienst,^lnicht dein, sondern sein ist, was du gewinnst.^pDer Herr verachtet das Auge der Neider.^lWer dürfte ihn hindern, gütig zu sein,^ler reicht auch dem Letzten das Brot und den Wein."
@@ -3661,6 +3693,7 @@ export const psalmsData = {
   },
   2502: {
     0.0: {
+        "stb3": "175",
         "title": "Hinunter ist der Sonne Schein",
         "quote": "Auswahl-Hymnen zur Komplet",
         "text": "Hinunter ist der Sonne Schein;^ldie finstre Nacht bricht stark herein.^lLeucht uns, Herr Christ, du wahres Licht;^llass uns im Finstern tappen nicht.^pDir sei Dank, dass du uns den Tag^lvor Schaden, G’fahr und mancher Plag^ldurch deine Engel hast behüt’^laus Gnad und väterlicher Güt’.^pWomit wir heut erzürnet dich,^ldasselb verzeih uns gnädiglich^lund rechn’ es unsrer Seel’ nicht zu;^llass schlafen uns mit Fried’ und Ruh’.^pDein’ Engel uns zur Wach’ bestell,^ldass uns der böse Feind nicht fäll’.^lVor Schrecken, Angst und Feuersnot^lbehüte uns, o°lieber Gott."
@@ -3717,6 +3750,7 @@ export const psalmsData = {
   },
   2600: {
     0.0: {
+        "stb3": "145",
         "title": "O Gott, du lenkst mit starker Hand",
         "quote": "Sext",
         "text": "O Gott, du lenkst mit starker Hand^lden wechselvollen Lauf der Welt,^lmachst, dass den Morgen mildes Licht,^lden Mittag voller Glanz erhellt.^pLösch aus die Glut der Leidenschaft^lund tilge allen Hass und Streit;^lerhalte Geist und Leib gesund,^lschenk Frieden uns und Einigkeit.^pDu Gott des Lichts, auf dessen Reich^lder helle Schein der Sonne weist,^ldich loben wir aus Herzensgrund,^lGott Vater, Sohn und Heil’ger Geist. Amen."
@@ -3731,6 +3765,7 @@ export const psalmsData = {
   },
   2602: {
     0.0: {
+        "stb3": "172 f.",
         "title": "Der Tag strebt seiner Höhe zu",
         "quote": "Sext",
         "text": "Der Tag strebt seiner Höhe zu,^lder Mittag ruft uns zum Gebet:^lWir loben Gott und bitten ihn^lum Segen für den heil’gen Dienst.^pEs leuchtet uns die Stunde auf,^lda Jesus Christus, Gottes Sohn,^lals Opferlamm am Kreuz erhöht,^lzu unsrem Heil sich dargebracht.^pO wahre Sonne dieser Welt,^lvor dir verblasst des Mittags Schein;^ldie Menschheit ist durch dich erlöst,^ldie Welt erstrahlt verklärt im Licht.^pDen ew’gen Vater preisen wir^lund Jesus Christus, seinen Sohn,^lden Beistand auch, den Heil’gen Geist,^lder uns erleuchtet, stärkt und führt."
@@ -3738,6 +3773,7 @@ export const psalmsData = {
   },
   2603: {
     0.0: {
+        "stb3": "145",
         "title": "Die Glut des Mittags treibt uns um",
         "quote": "Sext",
         "text": "Die Glut des Mittags treibt uns um,^ldie Stunden eilen wie im Flug.^lDu, Gott vor dem die Zeiten stehn,^llass uns ein wenig bei dir ruhn.^pWir atmen fiebrig und gehetzt,^lder Streit flammt auf, das rasche Wort.^lIn deiner Nähe, starker Gott,^list Kühlung, Frieden und Geduld.^pGewähr uns dies, o°guter Gott,^ldu, Vater, und du, einz’ger Sohn,^ldie ihr mit ihm, dem Heil’gen Geist,^lregiert durch Zeit und Ewigkeit. Amen."
@@ -3752,6 +3788,7 @@ export const psalmsData = {
   },
   2900: {
     0.0: {
+        "stb3": "146",
         "title": "Du starker Gott, der diese Welt",
         "quote": "Non",
         "text": "Du starker Gott, der diese Welt^lim Innersten zusammenhält,^ldu Angelpunkt, der unbewegt^lden Wandel aller Zeiten trägt.^pGeht unser Erdentag zu End’,^lschenk Leben, das kein Ende kennt:^lFühr uns, dank Jesu Todesleid,^lins Licht der ew’gen Herrlichkeit.^pVollenden wir den Lebenslauf,^lnimm uns in deine Liebe auf,^ldass unser Herz dich ewig preist,^lGott Vater, Sohn und Heil’ger Geist."
@@ -3766,6 +3803,7 @@ export const psalmsData = {
   },
   2902: {
     0.0: {
+        "stb3": "173",
         "title": "Der Tag neigt sich dem Abend zu",
         "quote": "Non",
         "text": "Der Tag neigt sich dem Abend zu,^lwir wenden uns an Gott den Herrn,^lder als der Ew’gen Liebe Bild^lin drei Personen Einer ist.^pEr ist die Quelle unsrer Kraft,^lwie Petrus uns vor Augen führt,^lda er des Lahmen Hand erfasst^lund ihn auf seine Füße stellt.^pAls Jünger Christi rufen wir^ldie Macht des Namens Jesu an,^ldass wir den guten Kampf bestehn^lund aufrecht Gottes Wege gehen.^pDen ew’gen Vater preisen wir^lund Jesus Christus, seinen Sohn,^lden Beistand auch, den Heil’gen Geist,^lder uns erleuchtet, stärkt und führt. Amen."
@@ -3773,6 +3811,7 @@ export const psalmsData = {
   },
   2903: {
     0.0: {
+        "stb3": "146",
         "title": "Der Glanz verfällt, die Zeit flieht hin",
         "quote": "Ordinarium zur Non",
         "text": "Der Glanz verfällt, die Zeit flieht hin,^ldas Tagwerk zehrt an unsrer Kraft.^lHerr, Gott, an den kein Abend rührt,^lnimm uns Erschöpfte liebreich auf.^pWir gehn dahin wie Tag und Traum;^lkein Wunsch hält unser Leben fest.^lDein Glanz, o°Herr, erstrahle uns,^lwenn unser kleines Licht erlischt.^pGewähr uns dies, o°guter Gott,^ldu Vater, und du, einz’ger Sohn,^ldie ihr mit ihm, dem Heil’gen Geist,^lregiert durch Zeit und Ewigkeit. Amen."
@@ -3796,6 +3835,7 @@ export const psalmsData = {
   },
   3112: {
     0.0: {
+        "stb3": "249",
         "title": "Erwartet den Herrn",
         "quote": "Lh Mi^+Sa Nacht",
         "text": "Erwartet den Herrn,^lsteht als Knechte bereit an der Tür.^lSchon jauchzt jeder Stern.^lSeht, er kommt, seht, er kommt, wir sind hier.^pKomm, Herr Jesus, Maranatha.^pEntzündet die Lampen, ihr Mägde,^lerglühet im Geist^lim Kommen des Ewig-Geliebten,^lder Kyrios heißt.^pKomm, Herr Jesus, Maranatha.^pDu wirfst dein Feuer zur Erde^lund willst, dass es brennt,^lund wir sind der Mund,^lder anbetend dein Kommen bekennt.^pKomm, Herr Jesus, Maranatha."
@@ -4056,6 +4096,7 @@ export const psalmsData = {
         "text_lat": "Veni, creátor Spíritus,^lmentes tuórum vísita,^limple supérna grátia,^lquæ tu creásti, péctora.^pQui díceris Paráclitus,^ldonum Dei altíssimi,^lfons vivus, ignis, cáritas^let spiritális únctio.^pTu septifórmis múnere,^ldextræ Dei tu dígitus,^ltu rite promíssum Patris^lsermóne ditans gúttura.^pAccénde lumen sénsibus,^linfúnd>e amórem córdibus,^linfírma nostri córporis,^lvirtúte firmans pérpeti.^pHostem repéllas lóngius^lpacémque dones prótinus;^lductóre sic te prǽvio^lvitémus omne nóxium.^pPer te sciámus da Patrem^lnoscámus atque Fílium,^lte utriúsque Spíritum^lcredámus omni témpore. Amen."
       },
     1.0: {
+        "stb3": "170 f.",
         "title": "Komm, Heil’ger Geist, der Leben schafft",
         "quote": "Pfingsten",
         "text": "Komm, Heil’ger Geist, der Leben schafft,^lerfülle uns mit deiner Kraft.^lDein Schöpferwort rief uns zum Sein:^lnun hauch uns Gottes Odem ein.^pKomm, Tröster, der die Herzen lenkt,^ldu Beistand, den der Vater schenkt;^laus dir strömt Leben, Licht und Glut,^ldu gibst uns Schwachen Kraft und Mut.^pDich sendet Gottes Allmacht aus^lim Feuer und in Sturmes Braus;^ldu öffnest uns den stummen Mund^lund machst der Welt die Wahrheit kund.^pEntflamme Sinne und Gemüt,^ldass Liebe unser Herz durchglüht^lund unser schwaches Fleisch und Blut^lin deiner Kraft das Gute tut.^pDie Macht des Bösen banne weit,^lschenk deinen Frieden allezeit.^lErhalte uns auf rechter Bahn,^ldass Unheil uns nicht schaden kann.^pLass gläubig uns den Vater sehn,^lsein Ebenbild, den Sohn, verstehn^lund dir vertraun, der uns durchdringt^lund uns das Leben Gottes bringt.^pDen Vater auf dem ew’gen Thron^lund seinen auferstandnen Sohn,^ldich, Odem Gottes, Heil’ger Geist,^lauf ewig Erd’ und Himmel preist. Amen."
@@ -4084,6 +4125,7 @@ export const psalmsData = {
   },
   3902: {
     0.0: {
+        "stb3": "81 f.",
         "title": "Erhabene Dreifaltigkeit",
         "quote": "Laudes am Dreifaltgkeitssonntag",
         "text": "Erhabene Dreifaltigkeit,^lim einen Licht der Gottheit eins,^lunendliches Geheimnis du^lund tiefster Ursprung allen Seins.^pDich rühmt des Himmels hehre Schar,^lihr Lied ruft deinen Lobpreis aus,^ldir jubelt deine Schöpfung zu,^lder du dein Bildnis aufgeprägt.^pWir neigen staunend uns vor dir^lund beten deine Größe an.^lVereine mit der Engel Lied^lden Lobgesang, den wir dir weihn.^pWas alle Einsicht übersteigt,^lbekennt der Glaube ehrfurchtsvoll:^lDrei sind in tiefer Liebe eins –^lin^w einer^0w Gottheit leben drei.^pGott Vater, dir sei Ruhm und Preis^lund deinem eingebornen Sohn,^ldem Geiste, der uns Beistand ist,^ljetzt, immer und in Ewigkeit. Amen.",
@@ -4093,6 +4135,7 @@ export const psalmsData = {
   },
   3904: {
     0.0: {
+        "stb3": "73",
         "title": "Dreifaltiger verborgner Gott",
         "quote": "Vespern zum Dreifaltgkeitssonntag",
         "text": "Dreifaltiger verborgner Gott,^l^wein^0w Licht aus dreier Sonnen Glanz,^ldrei Flammen^w einer^0w Liebesglut,^lGott Vater, Sohn und Heil’ger Geist.^pAllherrscher du von Ewigkeit,^lGott Vater, der die Welt erschuf,^ldu lenkst die Werke deiner Hand^lund führst uns durch der Zeiten Lauf.^pGott Sohn, des Vaters Ebenbild,^ldu König der erlösten Welt,^lin dir wird Gott uns Menschen gleich,^lin dir der Mensch zu Gott erhöht.^pDu Atem Gottes, Heil’ger Geist,^ldurchdringst die Welt mit Lebenskraft,^ldu senkst in uns die Liebe ein,^ldie alle eint und göttlich macht.^pDu großer Gott, der in uns wohnt,^lhochheilige Dreifaltigkeit,^ldich loben und bekennen wir^ljetzt und in alle Ewigkeit. Amen.",
@@ -4121,6 +4164,7 @@ export const psalmsData = {
   },
   3942: {
     0.0: {
+        "stb3": "97 f.",
         "title": "Das Wort des Vaters, Gottes Sohn",
         "quote": "Laudes am Fronleichnamsfest",
         "text": "Das Wort des Vaters, Gottes Sohn,^ltritt ein in unsre Erdenzeit;^lda seine Leidensstunde naht,^lkrönt er sein Werk im Opfertod.^pBevor an seiner Feinde Schar^lder eigne Jünger ihn verriet,^lreicht er beim letzten Abendmahl^lden Seinen sich als Speise dar.^pGeheimnisvoll in Brot und Wein^lgibt er sich hin mit Fleisch und Blut^lund stärkt durch seiner Gottheit Kraft^lden ganzen Menschen, Leib und Geist.^pAls Mensch will er uns Bruder sein,^lim Mahle wird er unser Brot,^lim Tode unser Opferlamm,^lim Himmel unser Siegespreis.^pLamm Gottes, das der ganzen Welt^ldas Tor zum Leben aufgetan:^lda uns des Bösen Macht bedrängt,^lgib Mut zum Leiden, Kraft zum Sieg.^pDreieinig hoher Herr und Gott,^lnimm unser Lob, nimm unsren Dank:^llass schauen uns in deinem Reich^ldes ew’gen Sohnes Herrlichkeit. Amen.",
@@ -4149,6 +4193,7 @@ export const psalmsData = {
   },
   3952: {
     0.0: {
+        "stb3": "64 f.",
         "title": "Der höchsten Gottheit ew’ges Bild",
         "quote": "Laudes an Herz Jesu und Christkönig",
         "text": "Der höchsten Gottheit ew’ges Bild,^ldu Licht vom Licht, des Vaters Wort,^ldu unser Retter, dir sei Ruhm^lund Macht und Ehre immerdar.^pVon Ewigkeit bist du allein^lder Zeiten Mitte und ihr Ziel,^ldir gab der Vater die Gewalt,^ldie Herrschaft über alle Welt.^pDoch nicht auf Zwang baut deine Macht^lund nicht auf Furcht dein Königtum:^lIn Liebe ziehst du uns an dich –^lam Kreuz gemartert und erhöht.^pKomm, Herr, erweise deine Macht^lund richte deine Herrschaft auf.^lKomm und vollende jetzt dein Reich^lund führe uns zum Königsmahl.^pDir, Jesus, der durch Leid und Tod^lder Herrschaft Krone sich errang,^lsei mit dem Vater und dem Geist^lLob, Preis und Ruhm in Ewigkeit. Amen.",
@@ -4158,6 +4203,7 @@ export const psalmsData = {
   },
   3954: {
     0.0: {
+        "stb3": "105",
         "title": "O sel’ger Urgrund allen Seins",
         "quote": "1.+2. Vesper zum Herz-Jesu-Fest",
         "text": "O sel’ger Urgrund allen Seins,^lHeiland der Welt, Herr Jesus Christ,^ldu Licht von deines Vaters Licht^lund wahrer Gott vom wahren Gott.^pWie hat die Liebe dich gedrängt,^ldass du für uns den Tod erwählt.^lDu gibst das Leben uns zurück,^ldas Adams Sünde uns geraubt.^pDer Stoß der Lanze trifft dein Herz,^lund Blut und Wasser bricht hervor,^lein Quell des Heils, der nie versiegt^lund aller Schöpfung Freude bringt.^pDir, Herr, sei Preis und Herrlichkeit,^lder uns sein Herz geöffnet hat,^lmit dir dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen.",
@@ -4167,6 +4213,7 @@ export const psalmsData = {
   },
   3991: {
     0.0: {
+        "stb3": "61",
         "title": "Ehre sei dir, Christe",
         "quote": "Lesehore am Christkönigssonntag",
         "text": "Ehre sei dir, Christe,^lder du littest Not,^lan dem Stamm des Kreuzes^lfür uns bittern Tod,^lherrschest mit dem Vater^lin der Ewigkeit:^lHilf uns armen Sündern^lzu der Seligkeit.^lKyrie, eleison."
@@ -4174,6 +4221,7 @@ export const psalmsData = {
   },
   3994: {
     0.0: {
+        "stb3": "57 f.",
         "title": "Christus, du Herrscher Himmels und der Erde",
         "quote": "1.+2. Vesper zum Christkönigssonntag",
         "text": "Christus, du Herrscher Himmels und der Erde,^lHerr über Mächte, Throne und Gewalten.^lDu bist der Erste, und du bist der Letzte,^lAnfang und Ende.^pIn deinen Händen ruht der Menschen Schicksal.^lNichts kann auf Erden deiner Macht entgleiten.^lDu sprichst das Urteil über alle Völker,^lvoll des Erbarmens.^pReiche erstehen, blühen und zerfallen,^laber das deine überdauert alle,^ldenn deine Herrschaft ist von Gott verliehen,^lewigen Urspungs.^pKeiner der Großen kann mit dir sich messen;^lHerrscher der Herren, König aller Zeiten,^lAbglanz des Vaters, Spiegel seiner Hoheit,^lthronend im Himmel.^pDir sei die Ehre, dir und deinem Vater,^lund auch dem Geiste sei das Lob gesungen.^lGott, dem Dreieinen, Lob und Preis und Ehre^limmer und ewig. Amen."

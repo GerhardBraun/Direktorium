@@ -126,6 +126,8 @@ const HymnSelector = ({ texts, hour, season,
                     hymns.push({
                         id: id,
                         source: sourceLabel,
+                        stb3: (sourceLabel === 'kl. Stb:' && hymnData?.stb3)
+                            ? hymnData.stb3 : '',
                         text: hymnText,
                         title: hymnData[titleField],
                         hymnNumber,
@@ -275,6 +277,14 @@ const HymnSelector = ({ texts, hour, season,
                 </button>
             ))}
 
+            {availableHymns.find(h => h.id === selectedHymn)?.stb3 && (
+                <div className="mt-3 -mb-3 long-rubric">
+                    Stundenbuch III/
+                    {formatPrayerText(
+                        availableHymns.find(h => h.id === selectedHymn)?.stb3
+                    )}
+                </div>
+            )}
             {selectedHymn && (
                 <div className="mt-5">
                     {formatPrayerText(
