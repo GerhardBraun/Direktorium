@@ -79,7 +79,7 @@ export const getValue = ({ season, hour, texts, field,
         if (isPsalmodie && !localPrefPsalmsWt
             && (isSollemnity
                 || (isTSN && localPrefErgPs && !getExcludedHours(texts, localPrefErgPs, 'PSALMODIE').includes(hour))
-                || (hour === 'laudes' && (rank_date > 2 || rank_wt > 2)) // Hochfeste und Feste: Ps vom So der I. Woche
+                || (hour === 'laudes' && (rank_date > 2 || rank_wt > 2) && dayOfWeek !== 0) // Hochfeste und Feste: Ps vom So der I. Woche
             )) {
             const checkAnt0 = `ant0${localPrefLanguage}`
             if (!(field.startsWith('ant') &&
