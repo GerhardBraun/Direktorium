@@ -54,7 +54,6 @@ export const getValue = ({ season, hour, texts, field,
         const sollemnityErsteVesper = () => ['soll', 'kirchw'].includes(prefSollemnity)
         const isPsalmodie = field.startsWith('psalm') ||
             (field.startsWith('ant') && !field.startsWith('antev'))
-        const isErsteLesung = field.startsWith('les_text') && hour === 'lesehore';
         const isTSN = ['terz', 'sext', 'non'].includes(hour)
         const memorialWithTNS = texts?.laudes?.eig?.button
             ?.includes('Barnabas' || 'Schutzengel')
@@ -306,8 +305,9 @@ const dataKomplet = {
         "psalm1": 143.0,
         "ant0": "Verbirg dein Antlitz nicht vor mir; auf dich, o°Herr, vertraue ich.",
         "les_buch": "1°Petr",
-        "les_stelle": "5,8–9",
+        "les_stelle": "5,8–9a",
         "les_text": "Seid nüchtern und wachsam! Euer Widersacher, der Teufel, geht wie ein brüllender Löwe umher und sucht, wen er verschlingen kann. Leistet ihm Widerstand in der Kraft des Glaubens!",
+        "les_text_neu": "Seid nüchtern, seid wachsam! Euer Widersacher, der Teufel, geht wie ein brüllender Löwe umher und sucht, wen er verschlingen kann. Leistet ihm Widerstand in der Kraft des Glaubens!",
         "oration_komplet": "Herr, gütiger Vater, sei du unsere Leuchte im Dunkel der Nacht. Gib, dass wir in Frieden schlafen, damit wir uns beim Anbruch des neuen Tages in deinem Namen freudig erheben.^ORV",
         "ant0_lat": "Non abscóndas fáciem tuam a me, quia in te sperávi.",
         "les_text_lat": "Sóbrii estóte, vigiláte. Adversárius vester Diábolus tamquam leo rúgiens círcuit quærens quem dévoret. Cui resístite fortes fide.",
@@ -322,6 +322,7 @@ const dataKomplet = {
         "les_buch": "Eph",
         "les_stelle": "4,26–27",
         "les_text": "Lasst euch durch den Zorn nicht zur Sünde hinreißen! Die Sonne soll über eurem Zorn nicht untergehen. Gebt dem Teufel keinen Raum!",
+        "les_text_neu": "Wenn ihr zürnt, sündigt nicht! Die Sonne soll über eurem Zorn nicht untergehen. Gebt dem Teufel keinen Raum!",
         "oration_komplet": "Herr Jesus Christus, du bist gütig und von Herzen demütig. Das Joch, das du denen auflegst, die dir nachfolgen, ist nicht drückend, und deine Last ist leicht. Nimm gnädig an, was wir uns heute vorgenommen und was wir vollbracht haben. Erneuere uns durch die Ruhe der Nacht und mache uns morgen eifriger in deinem Dienst.^ORS",
         "ant1_lat": "Esto mihi in Deum protectórem et in domum refúgii.",
         "ant2_lat": "De profúndis clamávi ad te, Dómine.",
@@ -335,6 +336,7 @@ const dataKomplet = {
         "les_buch": "1°Thess",
         "les_stelle": "5,23",
         "les_text": "Der Gott des Friedens heilige euch ganz und gar und bewahre euren Geist, eure Seele und euren Leib unversehrt, damit ihr ohne Tadel seid, wenn Jesus Christus, unser Herr, kommt.",
+        "les_text_neu": "Der Gott des Friedens heilige euch ganz und gar und bewahre euren Geist, eure Seele und euren Leib unversehrt, damit ihr ohne Tadel seid bei der Ankunft unseres Herrn Jesus Christus.",
         "oration_komplet": "Herr, unser Gott, sende uns in dieser Nacht einen ruhigen Schlaf, damit wir uns von der Mühe des Tages erholen und morgen mit neuer Kraft dir dienen können.^ORV",
         "ant0_lat": "Caro mea requiéscet in spe.",
         "les_text_lat": "Ipse Deus pacis sanctíficet vos per ómnia, et ínteger spíritus vester et ánima et corpus sine queréla in advéntu Dómini nostri Iesu Christi servétur.",
@@ -345,8 +347,9 @@ const dataKomplet = {
         "psalm1": 88.101,
         "ant0": "Herr, du Gott meines Heils, zu dir schreie ich am Tag und bei Nacht.",
         "les_buch": "Jer",
-        "les_stelle": "14,9",
+        "les_stelle": "14,9b",
         "les_text": "Du bist in unsrer Mitte, Herr, und dein Name ist über uns ausgerufen; verlass uns nicht, Herr, unser Gott!",
+        "les_text_neu": "Du bist in unsrer Mitte, HERR, und dein Name ist über uns ausgerufen. Verlass uns nicht, HERR, unser Gott!",
         "oration_komplet": "Allmächtiger Gott, dein eingeborener Sohn ist hinabgestiegen in die Nacht des Todes und auferstanden. Gib, dass wir alle Tage durch den Glauben ihm verbunden bleiben, damit wir einst mit ihm auferstehen zum neuen Leben.^ORvR",
         "ant0_lat": "In die clamávi et nocte coram te, Dómine.",
         "les_text_lat": "Tu autem in médio nostri es, Dómine, et nomen tuum invocátum est super nos; ne derelínquas nos, Dómine Deus noster.",
@@ -361,6 +364,7 @@ const dataKomplet = {
         "les_buch": "Dtn",
         "les_stelle": "6,4–7",
         "les_text": "Höre, Israel! Jahwe, unser Gott, Jahwe ist einzig. Dar­um sollst du den Herrn, deinen Gott, lieben mit gan­zem Herzen, mit ganzer Seele und mit ganzer Kraft. Diese Worte, auf die ich dich heute verpflichte, sollen auf deinem Herzen geschrieben stehen. Du sollst sie deinen Söhnen wiederholen. Du sollst von ihnen reden, wenn du zu Hause sitzt und wenn du auf der Straße gehst, wenn du dich schlafen legst und wenn du aufstehst.^RESP",
+        "les_text_neu": "Höre, Israel! Der HERR, unser Gott, der HERR ist einzig. Darum sollst du den HERRN, deinen Gott, lieben mit ganzem Herzen, mit ganzer Seele und mit ganzer Kraft. Und diese Worte, auf die ich dich heute verpflichte, sollen auf deinem Herzen geschrieben stehen. Du sollst sie deinen Kindern wiederholen. Du sollst sie sprechen, wenn du zu Hause sitzt und wenn du auf der Straße gehst, wenn du dich schlafen legst und wenn du aufstehst.^RESP",
         "oration_komplet": "Herr, bleibe bei uns in dieser Nacht, und wenn wir uns am Morgen erheben, dann lass uns in Freude der Auferstehung deines Sohnes gedenken,^ORR",
         "ant1_lat": "Miserére mei, Dómine, et exáudi oratiónem meam.",
         "ant2_lat": "In nóctibus benedícite Dóminum.",

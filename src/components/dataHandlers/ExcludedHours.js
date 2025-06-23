@@ -23,14 +23,16 @@ export const getExcludedHours = (texts, localPrefErgPs, title) => {
             if (texts[sourceHour]?.wt) {
                 // Prüfe psalm1, psalm2, psalm3
                 ['psalm1', 'psalm2', 'psalm3'].forEach(psalmField => {
-                    const psalmData = texts[sourceHour].wt[psalmField];
-                    if (psalmData && psalmRange.includes(psalmData)) {
-                        shouldExclude = true;
+                    const psalmValue = texts[sourceHour].wt[psalmField];
+                    if (psalmValue) {
+                        const psalmData = parseInt(psalmValue, 10); // Extrahiert nur den Ganzzahl-Anteil
+                        if (psalmRange.includes(psalmData)) {
+                            shouldExclude = true;
+                        }
                     }
                 });
             }
         });
-
         if (shouldExclude) {
             excludedHours.push(hourName);
         }
