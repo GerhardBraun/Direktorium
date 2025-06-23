@@ -1600,8 +1600,9 @@ const PrayerTextDisplay = ({
                   </div>
                 </>
               )}
+              {/*Kennzeichnung › für neue Einheitsübersetzung - deaktiviert durch _neu*** */}
               <span className="text-rubric">
-                {(localPrefLanguage === '_neu'
+                {(localPrefLanguage === '_neu***'
                   && getValue("les_buch").startsWith('›'))
                   ? '›' : ''}
               </span>

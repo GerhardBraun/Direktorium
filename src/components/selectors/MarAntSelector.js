@@ -67,7 +67,7 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
             title_lat: (season === 'o') ? "Regina cæli" : "^[Regina cæli^]",
             text_lat: "Regína cæli, lætáre, allelúia,^lquia quem meruísti portáre, allelúia,^lresurréxit sicut dixit, allelúia;^lora pro nobis Deum, allelúia."
         },
-    ], [season, Assumption, Nativity]);
+    ], [season, Assumption, Nativity, isAfterPentecost]);
 
     // Funktion zur Bestimmung der Standardantiphon basierend auf besonderen Regeln
     const getDefaultAntiphonSeason = useMemo(() => {
@@ -95,7 +95,7 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
 
         // Sonst verwende die normale Jahreszeit
         return season;
-    }, [selectedDate, swdCombined, season]);
+    }, [selectedDate, swdCombined, season, isAfterPentecost]);
 
     // Effizientere Sortierung basierend auf der berechneten Standardantiphon
     const sortedAntiphons = useMemo(() => {

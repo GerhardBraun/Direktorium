@@ -30,8 +30,10 @@ export const getValue = ({ season, hour, texts, field,
 
         // Bestimme, ob Commune-Texte geprüft werden sollen
         const textsEig = texts.vesper?.[prefSrc] || {};
-        const textsCommune = ((prefSollemnity || (texts.rank_date > 2 || texts.rank_wt > 2)) && localPrefComm > 0) &&
-            texts.vesper?.[prefSrc]?.[`com${localPrefComm}`] || {};
+        const textsCommune = (((prefSollemnity || (texts.rank_date > 2 || texts.rank_wt > 2))
+            && localPrefComm > 0) &&
+            texts.vesper?.[prefSrc]?.[`com${localPrefComm}`])
+            || {};
 
         let doReplace = false;
 

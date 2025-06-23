@@ -40,10 +40,10 @@ const calculateMaxLineLength = (text) => {
     // Funktion zur Berechnung der Zeichenbreite in em
     const calculateCharWidth = (char) => {
         // Sehr schmale Zeichen (ca. 0.3em)
-        if (/[ijl\.,;:!|]/.test(char)) return 0.3;
+        if (/[ijl.,;:!|]/.test(char)) return 0.3;
 
         // Schmale Zeichen (ca. 0.4em)
-        if (/[Ijlt\(\)\[\]{}'"´`]/.test(char)) return 0.4;
+        if (/[Ijlt()[\]{}'"´`]/.test(char)) return 0.4;
 
         // Etwas schmalere Zeichen (ca. 0.5em)
         if (/[frs]/.test(char)) return 0.5;
