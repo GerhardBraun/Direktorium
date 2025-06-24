@@ -117,8 +117,8 @@ export const formatPsalm = (psalmRef, inv, localPrefLanguage = '') => {
             </div>
             {title && <div className="text-[0.9em] text-gray-400 mb-[0.66em]">{title}</div>}
             {quote && <div className="text-[0.9em] leading-[1.1em] italic text-gray-400 -mt-[0.66em] mb-[0.66em]">{formatPrayerText(quote)}</div>}
-            {text && <div className="whitespace-pre-wrap">{formatPrayerText(text)}</div>}
-            {number !== 160 && <div className="whitespace-pre-wrap">{formatPrayerText(doxology)}</div>}
+            {text && <div className="whitespace-pre-wrap">{formatPrayerText(text, localPrefLanguage)}</div>}
+            {number !== 160 && <div className="whitespace-pre-wrap">{formatPrayerText(doxology, localPrefLanguage)}</div>}
         </div>
     );
 };
@@ -155,9 +155,9 @@ export const formatText = (text) => {
 };
 
 // Formatiert Gebetstext mit speziellen Tags und saisonalen Anpassungen
-export const formatPrayerText = (provText, marker = '',
+export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
     hour = '', texts = {},
-    prefSrc = '', localPrefLanguage = '', widthForHymns = false) => {
+    prefSrc = '', widthForHymns = false) => {
     if (!provText || provText === 'LEER' || provText === 'LEER_lat') return null;
     const { season, isCommemoration, swdCombined = '' } = texts;
     const { nominativ, genitiv, vokativ } = texts?.laudes?.[prefSrc] || {};
@@ -319,15 +319,18 @@ export const formatPrayerText = (provText, marker = '',
         .replace(/\^NB/g, getLocalStorage('bishopName') || '^N')
         .replace(/\^NdatP/g, getLocalStorage('popeNameLat') || 'Leóni')
         .replace(/\^NdatB/g, getLocalStorage('bishopNameLat') || '^N')
-        .replace(/\^NakkP/g,
-            getLocalStorage('popeNameLat')
-                .replace(/i\b/g, 'em').replace(/o\b/g, 'um') || 'Leónem')
-        .replace(/\^NakkB/g,
-            getLocalStorage('bishopNameLat')
-                .replace(/i\b/g, 'em').replace(/o\b/g, 'um') || '^N')
-        .replace(/HERRN\b/g, '^cHerrn^0c')
-        .replace(/HERR\b/g, '^cHerr^0c')
-        .replace(/GOTT\b/g, '^cGott^0c');
+        .replace(/\^NakkP/g, getLocalStorage('popeNameLat')
+            .replace(/i\b/g, 'em').replace(/o\b/g, 'um') || 'Leónem')
+        .replace(/\^NakkB/g, getLocalStorage('bishopNameLat')
+            .replace(/i\b/g, 'em').replace(/o\b/g, 'um') || '^N')
+        .replace(/\^NablP/g, getLocalStorage('popeNameLat')
+            .replace(/i\b/g, 'e') || 'Leóne')
+        .replace(/\^NablB/g, getLocalStorage('bishopNameLat')
+            .replace(/i\b/g, 'e') || '^N')
+        .replace(/(HERRN?|GOTT)/g, (match) => {
+            const word = match.charAt(0) + match.slice(1).toLowerCase();
+            return localPrefLanguage === '_neu' ? `^c${word}^0c` : word;
+        })
 
     text = replaceRESP(text);
     text = replaceOR(text);

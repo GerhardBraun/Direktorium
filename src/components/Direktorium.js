@@ -1329,8 +1329,8 @@ const PrayerTextDisplay = ({
   );
 
   const formatPrayerText = (provText, marker = "") => {
-    return extFormatPrayerText(provText, marker, hour, texts,
-      prefSrc, localPrefLanguage, widthForHymns);
+    return extFormatPrayerText(provText, localPrefLanguage, marker, hour, texts,
+      prefSrc, widthForHymns);
   };
 
   const formatPsalm = (psalm, inv = false) => {

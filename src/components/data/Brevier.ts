@@ -628,8 +628,7 @@ export const brevierData = {
         "Sext": {
           "les_buch": "›Jer",
           "les_stelle": "23,6",
-          "les_text": "In seinen Tagen wird Juda gerettet werden, Israel kann in Sicherheit wohnen. Man wird ihm den Namen geben: Der Herr ist unsere Gerechtigkeit.",
-          "les_text_neu": "In seinen Tagen wird Juda gerettet werden, Israel kann in Sicherheit wohnen. Man wird ihm den Namen geben: Der HERR ist unsere Gerechtigkeit.",
+          "les_text": "In seinen Tagen wird Juda gerettet werden, Israel kann in Sicherheit wohnen. Man wird ihm den Namen geben: Der HERR ist unsere Gerechtigkeit.",
           "les_text_lat": ""
         },
         "Non": {
@@ -2771,8 +2770,7 @@ export const brevierData = {
           "ant0": "Sie alle verharrten einmütig im Gebet, zusammen mit den Frauen und mit Maria, der Mutter Jesu.^Ö",
           "les_buch": "›Zef",
           "les_stelle": "3,14.15b",
-          "les_text": "Juble, Tochter Zion! Jauchze, Israel! Freu dich und frohlocke von ganzem Herzen, Tochter Jerusalem! Der König Israels, der Herr, ist in deiner Mitte.",
-          "les_text_neu": "Juble, Tochter Zion! Jauchze, Israel! Freu dich und frohlocke von ganzem Herzen, Tochter Jerusalem! Der König Israels, der HERR, ist in deiner Mitte.",
+          "les_text": "Juble, Tochter Zion! Jauchze, Israel! Freu dich und frohlocke von ganzem Herzen, Tochter Jerusalem! Der König Israels, der HERR, ist in deiner Mitte.",
           "resp0": "Selig, die das Wort Gottes hören.^ö",
           "resp1": "Und es befolgen.^ö",
           "hymn_2_lat": 0.0,
@@ -3917,8 +3915,7 @@ export const brevierData = {
         "Terz": {
           "les_buch": "›Zef",
           "les_stelle": "3,14.15b",
-          "les_text": "Juble, Tochter Zion! Jauchze, Israel! Freu dich und frohlocke von ganzem Herzen, Tochter Jerusalem! Der König Israels, der Herr, ist in deiner Mitte.",
-          "les_text_neu": "Juble, Tochter Zion! Jauchze, Israel! Freu dich und frohlocke von ganzem Herzen, Tochter Jerusalem! Der König Israels, der HERR, ist in deiner Mitte.",
+          "les_text": "Juble, Tochter Zion! Jauchze, Israel! Freu dich und frohlocke von ganzem Herzen, Tochter Jerusalem! Der König Israels, der HERR, ist in deiner Mitte.",
           "les_text_lat": ""
         },
         "Sext": {
@@ -4318,8 +4315,7 @@ export const brevierData = {
           "ant3": "Für mich ist Christus das Leben, und Sterben ist mir Gewinn. Im Kreuze unseres Herrn Jesus Christus muss ich mich rühmen.",
           "les_buch": "›1°Kor",
           "les_stelle": "15,9–10",
-          "les_text": "Ich bin der geringste von den Aposteln; ich bin nicht wert, Apostel genannt zu werden, weil ich die Kirche Gottes verfolgt habe. Doch durch Gottes Gnade bin ich, was ich bin, und sein gnädiges Handeln an mir ist nicht ohne Wirkung geblieben. Mehr als sie alle habe ich mich abgemüht – nicht ich, sondern die Gnade Gottes zusammen mit mir.",
-          "les_text_neu": "Ich bin der Geringste von den Aposteln; ich bin nicht wert, Apostel genannt zu werden, weil ich die Kirche Gottes verfolgt habe. Doch durch Gottes Gnade bin ich, was ich bin, und sein gnädiges Handeln an mir ist nicht ohne Wirkung geblieben. Mehr als sie alle habe ich mich abgemüht – nicht ich, sondern die Gnade Gottes zusammen mit mir.",
+          "les_text": "Ich bin der Geringste von den Aposteln; ich bin nicht wert, Apostel genannt zu werden, weil ich die Kirche Gottes verfolgt habe. Doch durch Gottes Gnade bin ich, was ich bin, und sein gnädiges Handeln an mir ist nicht ohne Wirkung geblieben. Mehr als sie alle habe ich mich abgemüht – nicht ich, sondern die Gnade Gottes zusammen mit mir.",
           "resp1": "Ich will dir danken, Herr, mein Gott,",
           "resp2": "aus ganzem Herzen dir lobsingen.",
           "resp3": "Unter den Heiden will ich deinen Namen ehren.",
@@ -4459,13 +4455,12 @@ export const brevierData = {
         "Sext": {
           "les_buch": "›Jes",
           "les_stelle": "42,13",
-          "les_text": "Der Herr zieht in den Kampf wie ein Held, er entfacht seine Leidenschaft wie ein Krieger. Er erhebt den Schlachtruf und schreit, er zeigt sich als Held gegenüber den Feinden.",
-          "les_text_neu": "Der HERR zieht in den Kampf wie ein Held, er entfacht seine Leidenschaft wie ein Krieger. Er erhebt den Schlachtruf und schreit, er zeigt sich als Held gegenüber den Feinden.",
+          "les_text": "Der HERR zieht in den Kampf wie ein Held, er entfacht seine Leidenschaft wie ein Krieger. Er erhebt den Schlachtruf und schreit, er zeigt sich als Held gegenüber den Feinden.",
           "resp0": "Alle Enden der Erde.",
           "resp1": "Schauen das Heil unseres Gottes.",
           "resp0_lat": "",
           "resp1_lat": "",
-          "les_text_lat": ""
+          "les_text_lat": "Der Herr zieht in den Kampf wie ein Held, er entfacht seine Leidenschaft wie ein Krieger. Er erhebt den Schlachtruf und schreit, er zeigt sich als Held gegenüber den Feinden."
         },
         "Non": {
           "les_buch": "›Jes",
@@ -4962,8 +4957,7 @@ export const brevierData = {
           "ant0": "Jahr für Jahr zogen die Eltern Jesu hinauf nach Jerusalem, um dort Ostern zu feiern.^ö",
           "les_buch": "›Spr",
           "les_stelle": "2,7–8",
-          "les_text": "Für die Redlichen hält der Herr Hilfe bereit, den Rechtschaffenen ist er ein Schild. Er hütet die Pfade des Rechts und bewacht den Weg seiner Frommen.",
-          "les_text_neu": "Für die Redlichen hält der HERR Hilfe bereit, den Rechtschaffenen ist er ein Schild. Er hütet die Pfade des Rechts und bewacht den Weg seiner Frommen.",
+          "les_text": "Für die Redlichen hält der HERR Hilfe bereit, den Rechtschaffenen ist er ein Schild. Er hütet die Pfade des Rechts und bewacht den Weg seiner Frommen.",
           "resp0": "Gott hat ihn zum Herrn bestellt über sein Haus.^ö",
           "resp1": "Zum Gebieter über seinen ganzen Besitz.^ö",
           "ant0_lat": "",
@@ -5813,8 +5807,7 @@ export const brevierData = {
           "ant0": "Er wird groß sein vor dem Herrn, und schon im Mutterschoß wird er vom Heiligen Geist erfüllt sein.",
           "les_buch": "›Jes",
           "les_stelle": "49,1",
-          "les_text": "Hört auf mich, ihr Inseln, merkt auf, ihr Völker in der Ferne! Der Herr hat mich schon im Mutterleib berufen; als ich noch im Schoß meiner Mutter war, hat er meinen Namen genannt.",
-          "les_text_neu": "Hört auf mich, ihr Inseln, merkt auf, ihr Völker in der Ferne! Der HERR hat mich schon im Mutterleib berufen; als ich noch im Schoß meiner Mutter war, hat er meinen Namen genannt.",
+          "les_text": "Hört auf mich, ihr Inseln, merkt auf, ihr Völker in der Ferne! Der HERR hat mich schon im Mutterleib berufen; als ich noch im Schoß meiner Mutter war, hat er meinen Namen genannt.",
           "resp0": "Ich sah, dass der Geist herabkam und auf ihm blieb.",
           "resp1": "Er ist es, der tauft mit heiligem Geist.",
           "ant0_lat": "Erit magnus coram Dómino, et Spíritu Sancto replébitur adhuc ex útero matris suæ.",
@@ -5839,8 +5832,7 @@ export const brevierData = {
           "ant0": "Dieses Kind wird groß sein vor dem Herrn; denn seine Hand ist mit ihm.",
           "les_buch": "›Jes",
           "les_stelle": "49,7b",
-          "les_text": "Könige werden es sehen und sich erheben, Fürsten werfen sich nieder um des Herrn willen, der treu ist, um des Heiligen Israels willen, der dich erwählt hat.",
-          "les_text_neu": "Könige werden es sehen und sich erheben, Fürsten werfen sich nieder um des HERRN willen, der treu ist, um des Heiligen Israels willen, der dich erwählt hat.",
+          "les_text": "Könige werden es sehen und sich erheben, Fürsten werfen sich nieder um des HERRN willen, der treu ist, um des Heiligen Israels willen, der dich erwählt hat.",
           "resp0": "Siehe, ich lege meine Worte in deinen Mund.",
           "resp1": "Ich setze dich über Völker und Reiche.",
           "ant0_lat": "Iste puer magnus coram Dómino, nam et manus eius cum ipso est.",
@@ -11892,8 +11884,7 @@ export const brevierData = {
         "Sext": {
           "les_buch": "›Jer",
           "les_stelle": "23,6",
-          "les_text": "In seinen Tagen wird Juda gerettet werden, Israel kann in Sicherheit wohnen. Man wird ihm den Namen geben: Der Herr ist unsere Gerechtigkeit.",
-          "les_text_neu": "In seinen Tagen wird Juda gerettet werden, Israel kann in Sicherheit wohnen. Man wird ihm den Namen geben: Der HERR ist unsere Gerechtigkeit.",
+          "les_text": "In seinen Tagen wird Juda gerettet werden, Israel kann in Sicherheit wohnen. Man wird ihm den Namen geben: Der HERR ist unsere Gerechtigkeit.",
           "les_text_lat": ""
         },
         "Non": {
@@ -16386,7 +16377,7 @@ export const brevierData = {
           "resp3_lat": "Super cælos glória eius.",
           "bitten_e_lat": "Deus plebem, quam elégit in hereditátem suam, ádiuvat et tuétur, ut sit beáta. Ei grátias agámus et pietátis eius mémores clamémus:",
           "bitten_r_lat": "In te, Dómine, confídimus.",
-          "bitten_lat": "Orámus te, Pater clementíssime, pro Papa nostro ^NdatP et Epíscopo nostro ^NdatB,^qprótege illos et tua virtúte sanctífica.^pInfírmi se Christi sócios passiónum séntiant^qet consolatiónis eius semper partícipes.^pRéspice in tua pietáte tecto caréntes,^qut locum dignæ habitatiónis váleant inveníre.^pFructus terræ dare et conserváre dignéris,^qut panem omnes cotidiánum repériant.^pTu, Dómine, magna defúnctos pietáte proséquere,^qmansiónem eis concéde cæléstem.",
+          "bitten_lat": "Orámus te, Pater clementíssime, pro Papa nostro ^NablP et Epíscopo nostro ^NablB,^qprótege illos et tua virtúte sanctífica.^pInfírmi se Christi sócios passiónum séntiant^qet consolatiónis eius semper partícipes.^pRéspice in tua pietáte tecto caréntes,^qut locum dignæ habitatiónis váleant inveníre.^pFructus terræ dare et conserváre dignéris,^qut panem omnes cotidiánum repériant.^pTu, Dómine, magna defúnctos pietáte proséquere,^qmansiónem eis concéde cæléstem.",
           "les_text_lat": "Grátia vobis et pax a Deo Patre nostro. Grátias ágimus Deo Patri Dómini nostri Iesu Christi semper pro vobis orántes, audiéntes fidem vestram in Christo Iesu et dilectiónem, quam habétis in sanctos omnes, propter spem, quæ repósita est vobis in cælis, quam ante audístis in verbo veritátis evangélii, quod pervénit ad vos, sicut et in univérso mundo est fructíficans et crescens sicut et in vobis."
         },
         "Lesehore": {
@@ -16844,8 +16835,7 @@ export const brevierData = {
         "Sext": {
           "les_buch": "›Jes",
           "les_stelle": "55,8–9",
-          "les_text": "Meine Gedanken sind nicht eure Gedanken und eure Wege sind nicht meine Wege – Spruch des Herrn. So hoch der Himmel über der Erde ist, so hoch erhaben sind meine Wege über eure Wege und meine Gedanken über eure Gedanken.",
-          "les_text_neu": "Meine Gedanken sind nicht eure Gedanken und eure Wege sind nicht meine Wege – Spruch des HERRN. So hoch der Himmel über der Erde ist, so hoch erhaben sind meine Wege über eure Wege und meine Gedanken über eure Gedanken.",
+          "les_text": "Meine Gedanken sind nicht eure Gedanken und eure Wege sind nicht meine Wege – Spruch des HERRN. So hoch der Himmel über der Erde ist, so hoch erhaben sind meine Wege über eure Wege und meine Gedanken über eure Gedanken.",
           "resp0": "Herr der Scharen, wer ist wie du?",
           "resp1": "Mächtig bist du, von Treue umgeben.",
           "resp0_lat": "Dómine Deus virtútum, quis símilis tibi?",
@@ -16855,8 +16845,7 @@ export const brevierData = {
         "Non": {
           "les_buch": "›1°Sam",
           "les_stelle": "16,7b",
-          "les_text": "Gott sieht nicht auf das, worauf der Mensch sieht. Der Mensch sieht, was vor den Augen ist, der Herr aber sieht das Herz.",
-          "les_text_neu": "Gott sieht nicht auf das, worauf der Mensch sieht. Der Mensch sieht, was vor den Augen ist, der HERR aber sieht das Herz.",
+          "les_text": "Gott sieht nicht auf das, worauf der Mensch sieht. Der Mensch sieht, was vor den Augen ist, der HERR aber sieht das Herz.",
           "resp0": "Erforsche mich, Gott, und erkenne mein Herz.",
           "resp1": "Leite mich auf dem Weg zum Leben.",
           "resp0_lat": "Proba me, Deus, et scito cor meum.",
@@ -17614,8 +17603,7 @@ export const brevierData = {
         "Sext": {
           "les_buch": "›Dtn",
           "les_stelle": "15,7–8",
-          "les_text": "Wenn bei dir ein Armer lebt, irgendeiner deiner Brüder in irgendeinem deiner Stadtbereiche in dem Land, das der Herr, dein Gott, dir gibt, dann sollst du nicht hartherzig sein und sollst deinem armen Bruder deine Hand nicht verschließen. Du sollst ihm deine Hand öffnen und ihm gegen Pfand leihen, was der Not, die ihn bedrückt, abhilft.",
-          "les_text_neu": "Wenn bei dir ein Armer lebt, irgendeiner deiner Brüder in irgendeinem deiner Stadtbereiche in dem Land, das der HERR, dein Gott, dir gibt, dann sollst du nicht hartherzig sein und sollst deinem armen Bruder deine Hand nicht verschließen. Du sollst ihm deine Hand öffnen und ihm gegen Pfand leihen, was der Not, die ihn bedrückt, abhilft.",
+          "les_text": "Wenn bei dir ein Armer lebt, irgendeiner deiner Brüder in irgendeinem deiner Stadtbereiche in dem Land, das der HERR, dein Gott, dir gibt, dann sollst du nicht hartherzig sein und sollst deinem armen Bruder deine Hand nicht verschließen. Du sollst ihm deine Hand öffnen und ihm gegen Pfand leihen, was der Not, die ihn bedrückt, abhilft.",
           "resp0": "Herr, du hast die Sehnsucht der Armen gestillt.",
           "resp1": "Du stärkst ihr Herz, dein Ohr vernimmt ihr Rufen.",
           "resp0_lat": "Desidérium páuperum exaudísti, Dómine.",
@@ -17625,8 +17613,7 @@ export const brevierData = {
         "Non": {
           "les_buch": "›Spr",
           "les_stelle": "22,22–23",
-          "les_text": "Beraube den Schwachen nicht, denn er ist ja so schwach, zertritt den Armen nicht am Tor! Denn der Herr führt den Rechtsstreit für sie und raubt denen das Leben, die sie berauben.",
-          "les_text_neu": "Beraube den Schwachen nicht, denn er ist ja so schwach, zertritt den Armen nicht am Tor! Denn der HERR führt den Rechtsstreit für sie und raubt denen das Leben, die sie berauben.",
+          "les_text": "Beraube den Schwachen nicht, denn er ist ja so schwach, zertritt den Armen nicht am Tor! Denn der HERR führt den Rechtsstreit für sie und raubt denen das Leben, die sie berauben.",
           "resp0": "Der Herr rettet den Armen, der keinen Helfer hat.",
           "resp1": "Er erbarmt sich des Gebeugten und Schwachen.",
           "resp0_lat": "Liberábit Dóminus páuperem, cui non erat adiútor.",
@@ -18115,8 +18102,7 @@ export const brevierData = {
           "ant3": "Nahe ist der Herr den zerbrochenen Herzen.",
           "les_buch": "›1°Sam",
           "les_stelle": "15,22",
-          "les_text": "Hat der Herr an Brandopfern und Schlachtopfern das gleiche Gefallen wie am Gehorsam gegenüber der Stimme des Herrn? Wahrhaftig, Gehorsam ist besser als Opfer, Hinhören besser als das Fett von Widdern.",
-          "les_text_neu": "Hat der HERR an Brandopfern und Schlachtopfern das gleiche Gefallen wie am Gehorsam gegenüber der Stimme des HERRN? Wahrhaftig, Gehorsam ist besser als Opfer, Hinhören besser als das Fett von Widdern.",
+          "les_text": "Hat der HERR an Brandopfern und Schlachtopfern das gleiche Gefallen wie am Gehorsam gegenüber der Stimme des HERRN? Wahrhaftig, Gehorsam ist besser als Opfer, Hinhören besser als das Fett von Widdern.",
           "resp0": "Wer Opfer des Lobes bringt, der ehrt mich.",
           "resp1": "Wer rechtschaffen lebt, dem zeige ich mein Heil.",
           "ant1_lat": "Súscipe, Dómine, servum tuum in bonum.",
@@ -18256,8 +18242,7 @@ export const brevierData = {
         "Sext": {
           "les_buch": "›Dtn",
           "les_stelle": "10,12",
-          "les_text": "Was fordert der Herr, dein Gott, von dir außer dem einen: dass du den Herrn, deinen Gott, fürchtest, indem du auf allen seinen Wegen gehst, ihn liebst und dem Herrn, deinem Gott, mit ganzem Herzen und mit ganzer Seele dienst.",
-          "les_text_neu": "Was fordert der HERR, dein Gott, von dir außer dem einen: dass du den HERRN, deinen Gott, fürchtest, indem du auf allen seinen Wegen gehst, ihn liebst und dem HERRN, deinem Gott, mit ganzem Herzen und mit ganzer Seele dienst.",
+          "les_text": "Was fordert der HERR, dein Gott, von dir außer dem einen: dass du den HERRN, deinen Gott, fürchtest, indem du auf allen seinen Wegen gehst, ihn liebst und dem HERRN, deinem Gott, mit ganzem Herzen und mit ganzer Seele dienst.",
           "resp0": "Herr, wer darf Gast sein in deinem Zelt?",
           "resp1": "Wer makellos lebt und von Herzen die Wahrheit sagt.",
           "resp0_lat": "Dómine, quis habitábit in tabernáculo tuo?",
@@ -20306,7 +20291,6 @@ export const brevierData = {
           "les_buch": "›Hebr",
           "les_stelle": "9,11–12",
           "les_text": "Christus ist gekommen als Hoherpriester der künftigen Güter; und durch das erhabenere und vollkommenere Zelt, das nicht von Menschenhand gemacht, das heißt nicht von dieser Welt ist, ist er ein für allemal in das Heiligtum hineingegangen, nicht mit dem Blut von Böcken und jungen Stieren, sondern mit seinem eigenen Blut, und so hat er eine ewige Erlösung bewirkt.",
-          "les_text_neu": "Christus ist gekommen als Hoherpriester der künftigen Güter; und durch das erhabenere und vollkommenere Zelt, das nicht von Menschenhand gemacht, das heißt nicht von dieser Welt ist, ist er ein für allemal in das Heiligtum hineingegangen, nicht mit dem Blut von Böcken und jungen Stieren, sondern mit seinem eigenen Blut, und so hat er eine ewige Erlösung bewirkt.",
           "les_text_lat": ""
         },
         "Vesper": {
@@ -20336,8 +20320,7 @@ export const brevierData = {
         "Terz": {
           "les_buch": "›Jes",
           "les_stelle": "53,2–3",
-          "les_text": "Vor den Augen des Herrn wuchs er auf wie ein junger Spross, wie ein Wurzeltrieb aus trockenem Boden. Er hatte keine schöne und edle Gestalt, so dass wir ihn anschauen mochten. Er sah nicht so aus, dass wir Gefallen fanden an ihm. Er wurde verachtet und von den Menschen gemieden, ein Mann voller Schmerzen, mit Krankheit vertraut. Wie einer, vor dem man das Gesicht verhüllt, war er verachtet; wir schätzten ihn nicht.",
-          "les_text_neu": "Vor den Augen des HERRN wuchs er auf wie ein junger Spross, wie ein Wurzeltrieb aus trockenem Boden. Er hatte keine schöne und edle Gestalt, so dass wir ihn anschauen mochten. Er sah nicht so aus, dass wir Gefallen fanden an ihm. Er wurde verachtet und von den Menschen gemieden, ein Mann voller Schmerzen, mit Krankheit vertraut. Wie einer, vor dem man das Gesicht verhüllt, war er verachtet; wir schätzten ihn nicht.",
+          "les_text": "Vor den Augen des HERRN wuchs er auf wie ein junger Spross, wie ein Wurzeltrieb aus trockenem Boden. Er hatte keine schöne und edle Gestalt, so dass wir ihn anschauen mochten. Er sah nicht so aus, dass wir Gefallen fanden an ihm. Er wurde verachtet und von den Menschen gemieden, ein Mann voller Schmerzen, mit Krankheit vertraut. Wie einer, vor dem man das Gesicht verhüllt, war er verachtet; wir schätzten ihn nicht.",
           "les_text_lat": ""
         },
         "Sext": {
@@ -20732,7 +20715,6 @@ export const brevierData = {
           "les_buch": "›Hebr",
           "les_stelle": "9,11–12",
           "les_text": "Christus ist gekommen als Hoherpriester der künftigen Güter; und durch das erhabenere und vollkommenere Zelt, das nicht von Menschenhand gemacht, das heißt nicht von dieser Welt ist, ist er ein für allemal in das Heiligtum hineingegangen, nicht mit dem Blut von Böcken und jungen Stieren, sondern mit seinem eigenen Blut, und so hat er eine ewige Erlösung bewirkt.",
-          "les_text_neu": "Christus ist gekommen als Hoherpriester der künftigen Güter; und durch das erhabenere und vollkommenere Zelt, das nicht von Menschenhand gemacht, das heißt nicht von dieser Welt ist, ist er ein für allemal in das Heiligtum hineingegangen, nicht mit dem Blut von Böcken und jungen Stieren, sondern mit seinem eigenen Blut, und so hat er eine ewige Erlösung bewirkt.",
           "les_text_lat": ""
         },
         "Vesper": {
@@ -20827,8 +20809,7 @@ export const brevierData = {
           "ant3": "",
           "les_buch": "›Jes",
           "les_stelle": "53,2–3",
-          "les_text": "Vor den Augen des Herrn wuchs er auf wie ein junger Spross, wie ein Wurzeltrieb aus trockenem Boden. Er hatte keine schöne und edle Gestalt, so dass wir ihn anschauen mochten. Er sah nicht so aus, dass wir Gefallen fanden an ihm. Er wurde verachtet und von den Menschen gemieden, ein Mann voller Schmerzen, mit Krankheit vertraut. Wie einer, vor dem man das Gesicht verhüllt, war er verachtet; wir schätzten ihn nicht.",
-          "les_text_neu": "Vor den Augen des HERRN wuchs er auf wie ein junger Spross, wie ein Wurzeltrieb aus trockenem Boden. Er hatte keine schöne und edle Gestalt, so dass wir ihn anschauen mochten. Er sah nicht so aus, dass wir Gefallen fanden an ihm. Er wurde verachtet und von den Menschen gemieden, ein Mann voller Schmerzen, mit Krankheit vertraut. Wie einer, vor dem man das Gesicht verhüllt, war er verachtet; wir schätzten ihn nicht.",
+          "les_text": "Vor den Augen des HERRN wuchs er auf wie ein junger Spross, wie ein Wurzeltrieb aus trockenem Boden. Er hatte keine schöne und edle Gestalt, so dass wir ihn anschauen mochten. Er sah nicht so aus, dass wir Gefallen fanden an ihm. Er wurde verachtet und von den Menschen gemieden, ein Mann voller Schmerzen, mit Krankheit vertraut. Wie einer, vor dem man das Gesicht verhüllt, war er verachtet; wir schätzten ihn nicht.",
           "resp0": "Wir beten dich an, Herr Jesus Christus, und preisen dich.",
           "resp1": "Denn durch dein heiliges Kreuz hast du die Welt erlöst.",
           "hymn_1_lat": 4003.5,
@@ -21159,8 +21140,7 @@ export const brevierData = {
         "Laudes": {
           "les_buch": "›Neh",
           "les_stelle": "8,9b.10b",
-          "les_text": "Heute ist ein heiliger Tag zu Ehren des Herrn, unseres Gottes. Seid nicht traurig und weint nicht! Macht euch keine Sorgen; denn die Freude am Herrn ist eure Stärke!",
-          "les_text_neu": "Heute ist ein heiliger Tag zu Ehren des HERRN, unseres Gottes. Seid nicht traurig und weint nicht! Macht euch keine Sorgen; denn die Freude am HERRN ist eure Stärke!",
+          "les_text": "Heute ist ein heiliger Tag zu Ehren des HERRN, unseres Gottes. Seid nicht traurig und weint nicht! Macht euch keine Sorgen; denn die Freude am HERRN ist eure Stärke!",
           "resp1": "Christus, du Sohn des lebendigen Gottes,",
           "resp2": "erbarme dich unser.",
           "resp3": "Du wurdest misshandelt wegen unserer Sünden, wegen unserer Verbrechen durchbohrt.",
@@ -21329,8 +21309,7 @@ export const brevierData = {
         "Sext": {
           "les_buch": "›Jer",
           "les_stelle": "3,25b",
-          "les_text": "Wir haben gesündigt gegen den Herrn, unsern Gott, wir selbst und unsere Väter, von Jugend an bis auf den heutigen Tag. Wir haben nicht gehört auf die Stimme des Herrn, unseres Gottes.",
-          "les_text_neu": "Wir haben gesündigt gegen den HERRN, unsern Gott, wir selbst und unsere Väter, von Jugend an bis auf den heutigen Tag. Wir haben nicht gehört auf die Stimme des HERRN, unseres Gottes.",
+          "les_text": "Wir haben gesündigt gegen den HERRN, unsern Gott, wir selbst und unsere Väter, von Jugend an bis auf den heutigen Tag. Wir haben nicht gehört auf die Stimme des HERRN, unseres Gottes.",
           "resp0": "Verbirg dein Angesicht vor meinen Sünden.",
           "resp1": "Tilge alle meine Frevel.",
           "resp0_lat": "",
@@ -21849,9 +21828,6 @@ export const brevierData = {
           "resp1_lat": "",
           "resp2_lat": "",
           "resp3_lat": "",
-          "patr_resp1_lat": "",
-          "patr_resp2_lat": "",
-          "patr_resp3_lat": "",
           "les_text_lat": ""
         },
         "Laudes": {

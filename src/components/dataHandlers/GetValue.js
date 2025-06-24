@@ -195,7 +195,6 @@ export const getValue = ({ season, hour, texts, field,
         return `${languageResult}${localPrefLanguage}`;
     }
     return getFieldValue(field);
-
 }
 
 const getKompletValue = ({ texts, field, localPrefKomplet, localPrefLanguage = '' }) => {
