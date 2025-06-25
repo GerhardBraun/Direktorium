@@ -20,6 +20,7 @@ import MarAntSelector from "./selectors/MarAntSelector.js";
 import { MatutinDisplay } from "./selectors/MatutinDisplay.js";
 import { getValue as extGetValue } from "./dataHandlers/GetValue.js";
 import {
+  firstCapital,
   formatPsalm as extFormatPsalm,
   formatText,
   formatPrayerText as extFormatPrayerText,
@@ -1125,7 +1126,7 @@ const PrayerMenu = ({
                                                 hover:bg-gray-200 dark:hover:bg-gray-700
                                                 text-gray-900 dark:text-gray-100"
                     >
-                      {tsnHour.charAt(0).toUpperCase() + tsnHour.slice(1)}
+                      {firstCapital(tsnHour)}
                     </button>
                   ))}
                 </div>
@@ -1152,7 +1153,7 @@ const PrayerMenu = ({
             return null;
           }
 
-          let displayText = hour.charAt(0).toUpperCase() + hour.slice(1);
+          let displayText = firstCapital(hour);
           if (hour === "vesper") {
             if (
               texts?.vesper?.eig?.button &&
@@ -1349,7 +1350,7 @@ const PrayerTextDisplay = ({
         .replace(/[,;]$/, '.');
 
       return (/[.!?]$/.test(firstResp))
-        ? secondResp.charAt(0).toUpperCase() + secondResp.slice(1)
+        ? firstCapital(secondResp)
         : secondResp;
     };
 

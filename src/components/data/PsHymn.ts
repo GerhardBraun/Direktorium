@@ -3117,7 +3117,7 @@ export const psalmsData = {
         "verses": "Jes°61,10–62,5",
         "title": "Jubel über das neue Jerusalem",
         "quote": "Ich sah die heilige Stadt, das neue Jerusalem … sie war bereit wie eine Braut, die sich für ihren Mann geschmückt hat. (Offb°21,2)",
-        "text": "^RUBRDer in Klammern gesetzte  Vers 4c gehört gemäß der Editio typica zum Canticum, fehlt aber im Stundenbuch.^0RUBR^pVon Herzen will ich mich freuen über°den°Herrn.^*Meine Seele soll jubeln über meinen Gott.^pDenn er kleidet mich in°Gewänder°des°Heils,^*er hüllt mich in den Mantel der Gerechtigkeit,^pwie ein Bräutigam sich°festlich°schmückt^*und wie eine Braut ihr Geschmeide anlegt.^pDenn wie die Erde die°Saat°wachsen°lässt^*und der Garten die Pflanzen hervorbringt,^pso bringt Gott, der Herr, Gerechtigkeit°hervor^*und Ruhm vor allen Völkern.^pUm Zions willen kann°ich°nicht°schweigen^*und um Jerusalems willen nicht still sein,^pbis das Recht in ihm aufstrahlt wie°ein°helles°Licht^*und sein Heil aufleuchtet wie eine brennende Fackel.^p^[Dann sehen die Völker deine Gerechtigkeit^*und alle Könige deine strahlende Pracht.^]^pMan ruft dich mit einem neuen Namen,^*den der Mund des Herrn für dich bestimmt.^pDu wirst zu einer prächtigen Krone in°der°Hand°des°Herrn,^*zu einem königlichen Diadem in der Rechten deines Gottes.^pNicht länger nennt man dich „Die°Verlassene“^*und dein Land nicht mehr „Das°Ödland“,^psondern man nennt dich „Meine°Wonne“^*und dein Land „Die°Vermählte“.^pDenn°der°Herr°hat°an dir seine Freude,^*und dein Land wird mit ihm vermählt.^pWie der junge Mann sich°mit°der°Jungfrau°vermählt,^*so vermählt sich mit dir dein Erbauer.^pWie der Bräutigam sich°freut°über°die°Braut,^*so freut sich dein Gott über dich.",
+        "text": "^RUBRDer in Klammern gesetzte Vers 4c gehört gemäß der Editio typica zum Canticum, fehlt aber im Stundenbuch.^0RUBR^pVon Herzen will ich mich freuen über°den°Herrn.^*Meine Seele soll jubeln über meinen Gott.^pDenn er kleidet mich in°Gewänder°des°Heils,^*er hüllt mich in den Mantel der Gerechtigkeit,^pwie ein Bräutigam sich°festlich°schmückt^*und wie eine Braut ihr Geschmeide anlegt.^pDenn wie die Erde die°Saat°wachsen°lässt^*und der Garten die Pflanzen hervorbringt,^pso bringt Gott, der Herr, Gerechtigkeit°hervor^*und Ruhm vor allen Völkern.^pUm Zions willen kann°ich°nicht°schweigen^*und um Jerusalems willen nicht still sein,^pbis das Recht in ihm aufstrahlt wie°ein°helles°Licht^*und sein Heil aufleuchtet wie eine brennende Fackel.^p^[Dann sehen die Völker deine Gerechtigkeit^*und alle Könige deine strahlende Pracht.^]^pMan ruft dich mit einem neuen Namen,^*den der Mund des Herrn für dich bestimmt.^pDu wirst zu einer prächtigen Krone in°der°Hand°des°Herrn,^*zu einem königlichen Diadem in der Rechten deines Gottes.^pNicht länger nennt man dich „Die°Verlassene“^*und dein Land nicht mehr „Das°Ödland“,^psondern man nennt dich „Meine°Wonne“^*und dein Land „Die°Vermählte“.^pDenn°der°Herr°hat°an dir seine Freude,^*und dein Land wird mit ihm vermählt.^pWie der junge Mann sich°mit°der°Jungfrau°vermählt,^*so vermählt sich mit dir dein Erbauer.^pWie der Bräutigam sich°freut°über°die°Braut,^*so freut sich dein Gott über dich.",
         "text_neu": "Von Herzen freue ich mich am HERRN.^*Meine Seele jubelt über meinen Gott.^pDenn er kleidet mich in Gewänder des Heils,^*er hüllt mich in den Mantel der Gerechtigkeit,^pwie ein Bräutigam sich festlich schmückt^*und wie eine Braut ihr Geschmeide anlegt.^pDenn wie die Erde ihr Gewächs hervorbringt^*und der Garten seine Saat sprießen lässt,^pso lässt GOTT, der Herr, Gerechtigkeit sprießen^*und Ruhm vor allen Nationen.^pUm Zions willen werde ich nicht schweigen,^*um Jerusalems willen nicht still sein,^pbis hervorbricht wie ein helles Licht seine Gerechtigkeit^*und sein Heil wie eine brennende Fackel.^pDann sehen die Nationen deine Gerechtigkeit^*und alle Könige deine Herrlichkeit.^pMan ruft dich mit einem neuen Namen,^*den der Mund des HERRN für dich bestimmt.^pDu wirst zu einer prächtigen Krone^*in der Hand des HERRN,^pzu einem königlichen Kopfschmuck^*in der Hand deines Gottes.^pNicht länger nennt man dich „Verlassene“^*und dein Land nicht mehr „Verwüstung“,^psondern du wirst heißen: „Ich habe Gefallen an dir“^*und dein Land wird „Vermählte“ genannt.^pDenn der HERR hat an dir Gefallen^*und dein Land wird vermählt.^pWie ein junger Mann sich mit einer Jungfrau vermählt,^*so nehmen dich deine Söhne in Besitz.^pWie der Bräutigam sich freut über die Braut,^*so freut sich dein Gott über dich.",
         "title_lat": "Iubilatio prophetæ de nova Ierusalem",
         "quote_lat": "Vidi sanctam civitatem Ierusalem novam … paratam sicut sponsam ornatam viro suo. (Ap°21,2)",
@@ -4673,27 +4673,54 @@ export const psalmsData = {
         "text_lat": "Diéi luce réddita,^llætis gratísque vócibus^lDei canámus glóriam,^lChristi faténtes grátiam,^pPer quem creátor ómnium^ldiem noctémque cóndidit,^lætérna lege sánciens^lut semper succédant sibi.^pTu vera lux fidélium,^lquem lex vetérna non tenet,^lnoctis nec ortu súccidens,^lætérno fulgens lúmine.^pPræsta, Pater ingénite,^ltotum ducámus iúgiter^lChristo placéntes hunc diem^lSancto repléti Spíritu. Amen."
       }
   },
-  5495: {
+  5457: {
+    0.0: {
+        "quote": "Maria 1. Vp",
+        "title_lat": "María, quæ mortálium"
+      }
+  },
+  5463: {
+    0.0: {
+        "quote": "Maria Lh",
+        "title_lat": "Quem terra, pontus, ǽthera",
+        "text_lat": "Quem terra, pontus, ǽthera^lcolunt, adórant, prǽdicant^ltrinam regéntem máchinam,^lclaustrum Maríæ báiulat.^pCui luna, sol et ómnia^ldesérviunt per témpora,^lperfúsa cæli grátia^lgestant puéllæ víscera.^pBeáta mater múnere,^lcuius, supérnus ártifex,^lmundum pugíllo cóntinens,^lventris sub arca clausus est.^pBeáta cæli núntio,^lfecúnda Sancto Spíritu,^ldesiderátus géntibus^lcuius per alvum fusus est.^pIesu, tibi sit glória,^lqui natus es de Vírgine,^lcum Patr>e et almo Spíritu,^lin sempitérna sǽcula.Amen."
+      }
+  },
+  5473: {
+    0.0: {
+        "quote": "Maria Ld",
+        "title_lat": "O gloriósa dómina",
+        "text_lat": "O gloriósa dómina^lexcélsa super sídera,^lqui te creávit próvide,^llactas sacráto úbere.^pQuod Eva tristis ábstulit,^ltu reddis almo gérmine;^lintrent ut astra flébiles,^lsternis benígna sémitam.^pTu regis alti iánua^let porta lucis fúlgida;^lvitam datam per Vírginem,^lgentes redémptæ, pláudite.^pPatri sit et Paráclito^ltuóque Nato glória,^lqui veste te mirábili^lcircumdedérunt grátiæ."
+      }
+  },
+  5478: {
+    0.0: {
+        "quote": "Maria Vp",
+        "title_lat": "Ave, maris stella",
+        "text_lat": "Ave, maris stella,^lDei mater alma,^latque semper virgo,^lfelix cæli porta.^pSumens illud „Ave“^lGabriélis ore,^lfunda nos in pace,^lmutans Evæ nomen.^pSolve vincla reis,^lprofer lumen cæcis,^lmala nostra pelle,^lbona cuncta posce.^pMonstra t>e esse matrem,^lsumat per te precem^lqui pro nobis natus^ltulit esse tuus.^pVirgo singuláris,^linter omnes mitis,^lnos culpis solútos^lmites fac et castos.^pVitam præsta puram,^liter para tutum,^lut vidéntes Iesum^lsemper collætémur.^pSit laus Deo Patri,^lsummo Christo decus,^lSpirítui Sancto^lhonor, tribus unus."
+      }
+  },
+  5630: {
     0.0: {
         "quote": "Comm Virorum Lh+Vp",
         "title_lat": "Iesu, redemptor omnium",
         "text_lat": "Iesu, redémptor ómnium,^lperpes coróna cǽlitum,^lin hac die cleméntius^lnostris favéto vócibus,^pSacri tui qua nóminis^lconféssor almus cláruit,^lcuius celébrat ánnua^ldevóta plebs sollémnia.^pPer illa quæ sunt sǽculi^lgressu seréno tránsiit,^ltibi fidélis iúgiter^liter salútis pérsequens.^pAt rite mundi gáudiis^lnon cor cadúcis ápplicans,^lcum ángelis cæléstibus^llætus potítur prǽmiis.^pHuius benígnus ánnue^lnobis sequi vestígia;^lhuius precátu sérvulis^ldimítte noxam críminis.^pSit, Christe, rex piíssime,^ltibi Patríque glória^lcum Spíritu Paráclito,^lin sempitérna sǽcula."
       }
   },
-  5505: {
+  5641: {
     0.0: {
         "quote": "Comm unius viri Ld",
         "title_lat": "Iesu, corona celsior",
         "text_lat": "Iesu, coróna célsior^let véritas sublímior,^lqui confiténti sérvulo^lreddis perénne prǽmium,^pDa supplicánti cœ́tui,^lhuius rogátu cǽlitis,^lremissiónem críminum^lrumpéndo nexum vínculi.^pNil vanitátis díligens,^lterréna sic exércuit,^lut mente tota férvidus^ltibi placéret únice.^pTe, Christe, rex piíssime,^lhic confiténdo iúgiter,^lcalcávit hostem fórtiter^lsupérbum ac satéllitem.^pVirtúte clarus et fide,^loratióni sédulus^lac membra servans sóbria,^ldapes supérnas óbtinet.^pDeo Patri sit glória^ltibíque soli Fílio^lcum Spíritu Paráclito,^lin sempitérna sǽcula."
       }
   },
-  5506: {
+  5642: {
     0.0: {
         "quote": "Comm Virorum Ld",
         "title_lat": "Beati caeli gaudia"
       }
   },
-  5511: {
+  5647: {
     0.0: {
         "quote": "Comm Virorum Vp",
         "title_lat": "Inclitos Christi famulos canamus"

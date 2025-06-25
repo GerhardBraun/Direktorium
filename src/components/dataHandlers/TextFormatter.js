@@ -3,6 +3,10 @@ import { getLocalStorage } from '../utils/localStorage.js';
 import formatBibleRef from './BibleRefFormatter.js';
 import { psalmsData } from '../data/PsHymn.ts';
 
+export const firstCapital = (word) => {
+    return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
+}
+
 const resolveReference = (ref) => {
     if (!ref) return null;
 
@@ -254,7 +258,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
             }
 
             if (punctuation === '.') {
-                ending = ending.charAt(0).toUpperCase() + ending.slice(1);
+                ending = firstCapital(ending);
             }
 
             return punctuation + ' ' + ending;
@@ -328,7 +332,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         .replace(/\^NablB/g, getLocalStorage('bishopNameLat')
             .replace(/i\b/g, 'e') || '^N')
         .replace(/(HERRN?|GOTT)/g, (match) => {
-            const word = match.charAt(0) + match.slice(1).toLowerCase();
+            const word = firstCapital(match);
             return localPrefLanguage === '_neu' ? `^c${word}^0c` : word;
         })
 
