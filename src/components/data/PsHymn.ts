@@ -4189,7 +4189,7 @@ export const psalmsData = {
     0.0: {
         "quote": "Lh an Herz Jesu",
         "title_lat": "Cor, arca legem cóntinens",
-        "text_lat": "Cor, arca legem cóntinens^lnon servitútis véteris,^lsed grátiæ, sed véniæ,^lsed et misericórdiæ;^pCor, sanctuárium novi^lintemerátum fœ́deris,^ltemplum vetústo sánctius^lvelúmque scisso utílius:^pTe vulnerátum cáritas^lictu paténti vóluit,^lamóris invisíbilis^lut venerémur vúlnera.^pHoc sub amóris sýmbolo^lpassus cruénta et mýstica,^lutrúmque sacrifícium^lChristus sacérdos óbtulit.^pQuis non amántem rédamet?^lquis non redémptus díligat^let caritáte iúgiter^lhærére Christo géstiat?^pIesu, tibi sit glória,^lqui corde fundis grátiam,^lcum Patre et almo Spíritu,^lin sempitérna sǽcula."
+        "text_lat": "Cor, arca legem cóntinens^lnon servitútis véteris,^lsed grátiæ, sed véniæ,^lsed et misericórdiæ;^pCor, sanctuárium novi^lintemerátum fœ́deris,^ltemplum vetústo sánctius^lvelúmque sciss>o utílius:^pTe vulnerátum cáritas^lictu paténti vóluit,^lamóris invisíbilis^lut venerémur vúlnera.^pHoc sub amóris sýmbolo^lpassus cruént>a et mýstica,^lutrúmque sacrifícium^lChristus sacérdos óbtulit.^pQuis non amántem rédamet?^lquis non redémptus díligat^let caritáte iúgiter^lhærére Christo géstiat?^pIesu, tibi sit glória,^lqui corde fundis grátiam,^lcum Patr>e et almo Spíritu,^lin sempitérna sǽcula."
       }
   },
   3952: {
@@ -4209,7 +4209,7 @@ export const psalmsData = {
         "quote": "1.+2. Vesper zum Herz-Jesu-Fest",
         "text": "O sel’ger Urgrund allen Seins,^lHeiland der Welt, Herr Jesus Christ,^ldu Licht von deines Vaters Licht^lund wahrer Gott vom wahren Gott.^pWie hat die Liebe dich gedrängt,^ldass du für uns den Tod erwählt.^lDu gibst das Leben uns zurück,^ldas Adams Sünde uns geraubt.^pDer Stoß der Lanze trifft dein Herz,^lund Blut und Wasser bricht hervor,^lein Quell des Heils, der nie versiegt^lund aller Schöpfung Freude bringt.^pDir, Herr, sei Preis und Herrlichkeit,^lder uns sein Herz geöffnet hat,^lmit dir dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen.",
         "title_lat": "Autor beáte sǽculi",
-        "text_lat": "Autor beáte sǽculi,^lChriste, Redémptor ómnium,^llumen Patris de lúmine^lDeúsque verus de Deo:^pAmor coégit te tuus^lmortále corpus súmere,^lut, novus Adam, rédderes^lquod vetus ille abstúlerat:^pIlle amor, almus ártifex^lterræ marísque, et síderum,^lerráta patrum míserans^let nostra rumpens víncula.^pNon corde discédat tuo^lvis illa amóris íncliti:^lhoc fonte gentes háuriant^lremissiónis grátiam.^pAd hoc acérbam lánceam^lpassúmque ad hoc est vúlnera,^lut nos laváret sórdibus^lunda fluénte et sánguine.^pIesu, tibi sit glória,^lqui corde fundis grátiam,^lcum Patre et almo Spíritu^lin sempitérna sǽcula."
+        "text_lat": "Autor beáte sǽculi,^lChriste, Redémptor ómnium,^llumen Patris de lúmine^lDeúsque verus de Deo:^pAmor coégit te tuus^lmortále corpus súmere,^lut, novus Adam, rédderes^lquod vetus ill>e abstúlerat:^pIll>e amor, almus ártifex^lterræ marísqu>e, et síderum,^lerráta patrum míserans^let nostra rumpens víncula.^pNon corde discédat tuo^lvis ill>a amóris íncliti:^lhoc fonte gentes háuriant^lremissiónis grátiam.^pAd hoc acérbam lánceam^lpassúmqu>e ad hoc est vúlnera,^lut nos laváret sórdibus^lunda fluént>e et sánguine.^pIesu, tibi sit glória,^lqui corde fundis grátiam,^lcum Patr>e et almo Spíritu^lin sempitérna sǽcula."
       }
   },
   3991: {
@@ -4888,7 +4888,7 @@ export const psalmsData = {
     0.0: {
         "quote": "Peter und Paul: 1. Vp.",
         "title_lat": "Aurea luce et decóre róseo",
-        "text_lat": "Aurea luce^/et decóre róseo,^llux lucis, omne^/perfudísti sǽculum,^ldécorans cælos^/ínclito martýrio^lhac sacra die,^/quæ dat reis véniam.^pIánitor cæli,^/doctor orbis páriter,^liúdices sæcli,^/vera mundi lúmina,^lper crucem alter,^/alter ense triúmphans,^lvitæ senátum^/laureáti póssident.^pO Roma felix,^/quæ tantórum príncipum^les purpuráta^/pretióso sánguine,^lnon laude tua,^/sed ipsórum méritis^lexcéllis omnem^/mundi pulchritúdinem.^pOlívæ binæ^/pietátis únicæ,^lfide devótos,^/spe robústos máxime,^lfonte replétos^/caritátis géminæ^lpost mortem carnis^/impetráte vívere.^pSit Trinitáti^/sempitérna glória,^lhonor, potéstas^/atque iubilátio,^lin unitáte,^/cui manet impérium^lex tunc et modo^/per ætérna sǽcula."
+        "text_lat": "Aurea luce^/et decóre róseo,^llux lucis, omne^/perfudísti sǽculum,^ldécorans cælos^/ínclito martýrio^lhac sacra die,^/quæ dat reis véniam.^pIánitor cæli,^/doctor orbis páriter,^liúdices sæcli,^/vera mundi lúmina,^lper crucem alter,^/alter ense triúmphans,^lvitæ senátum^/laureáti póssident.^pO Roma felix,^/quæ tantórum príncipum^les purpuráta^/pretióso sánguine,^lnon laude tua,^/sed ipsórum méritis^lexcéllis omnem^/mundi pulchritúdinem.^pOlívæ binæ^/pietátis únicæ,^lfide devótos,^/spe robústos máxime,^lfonte replétos^/caritátis géminæ^lpost mortem carnis^/impetráte vívere.^pSit Trinitáti^/sempitérna glória,^lhonor, potéstas^/atque iubilátio,^lin unitáte,^/c>ui manet impérium^lex tunc et modo^/per ætérna sǽcula."
       },
     1.0: {
         "quote": "Peter und Paul: Lh",
@@ -4900,12 +4900,15 @@ export const psalmsData = {
         "title_lat": "Apostolórum pássio diem sacrávit sǽculi",
         "text_lat": "Apostolórum pássio^ldiem sacrávit sǽculi,^lPetri triúmphum nóbilem,^lPauli corónam prǽferens.^pConiúnxit æquáles viros^lcruor triumphális necis;^lDeum secútos prǽsulem^lChristi coronávit fides.^pPrimus Petrus apóstolus;^lnec Paulus impar grátia,^lelectiónis vas sacræ^lPetri adæquávit fidem.^pVerso crucis vestígio^lSimon, honórem dans Deo,^lsuspénsus ascéndit, dati^lnon ímmemor oráculi.^pHinc Roma celsum vérticem^ldevotiónis éxtulit,^lfundáta tali sánguine^let vate tanto nóbilis.^pHuc ire quis mundum putet,^lconcúrrere plebem poli:^lelécta géntium caput^lsedes magístri géntium.^pHorum, Redémptor, quǽsumus,^lut príncipum consórtio^liungas precántes sérvulos^lin sempitérna sǽcula."
       },
+    3.0: {
+        "quote": "Peter und Paul: Vp",
+        "title_lat": "O Roma felix, quæ tantórum príncipum",
+        "text_lat": "O Roma felix,^/quæ tantórum príncipum^les purpuráta^/pretióso sánguine!^lExcéllis omnem^/mundi pulchritúdinem^lnon laude tua,^/sed sanctórum méritis,^lquos cruentátis^/iugulásti gládiis.^pVos ergo modo,^/gloriósi mártyres,^lPetre beáte,^/Paule, mundi lílium,^lcæléstis aulæ^/triumpháles mílites,^lprécibus almis^/vestris nos ab ómnibus^lmuníte malis,^/ferte super ǽthera.^pGlória Patri^/per imménsa sǽcula,^lsit tibi, Nate,^/decus et impérium,^lhonor, potéstas^/Sanctóque Spirítui;^lsit Trinitáti^/salus indivídua^lper infiníta^/sæculórum sǽcula."
+      },
     4.0: {
         "title": "Goldenes Leuchten strahlt vom Himmel heut herab",
         "quote": "Peter und Paul: Vp",
-        "text": "Goldenes Leuchten^/strahlt vom Himmel heut herab,^lVater des Lichtes,^/du erfüllst die Welt mit Glanz,^lzierest den Himmel,^/da im Feste wir begehn^ldeiner Apostel^/herrliches Martyrium.^pHeiliger Petrus,^/Fels, auf dem die Kirche steht,^lHüter der Herde,^/die dir Christus anvertraut,^leinst hast du weinend^/den Verrat am Herrn bereut,^lzeigst nun im Tode,^/dass du wirklich ihn geliebt.^pHeiliger Paulus,^/Bote du des neuen Heils,^lKünder des Wortes,^/der die Völker Wahrheit lehrt,^leinst hast du eifernd^/Christi Jüngern nachgestellt,^llegst nun im Sterben^/Zeugnis ab mit deinem Blut.^pGöttliche Dreiheit,^/Vater, Sohn und Heil’ger Geist,^lhöre den Lobpreis,^/den wir deiner Größe weihn,^lda das Gedächtnis^/deiner Zeugen uns erfreut.^lGib uns wie ihnen^/einst den Thron der Seligkeit.",
-        "title_lat": "O Roma felix, quæ tantórum príncipum",
-        "text_lat": "O Roma felix,^/quæ tantórum príncipum^les purpuráta^/pretióso sánguine!^lExcéllis omnem^/mundi pulchritúdinem^lnon laude tua,^/sed sanctórum méritis,^lquos cruentátis^/iugulásti gládiis.^pVos ergo modo,^/gloriósi mártyres,^lPetre beáte,^/Paule, mundi lílium,^lcæléstis aulæ^/triumpháles mílites,^lprécibus almis^/vestris nos ab ómnibus^lmuníte malis,^/ferte super ǽthera.^pGlória Patri^/per imménsa sǽcula,^lsit tibi, Nate,^/decus et impérium,^lhonor, potéstas^/Sanctóque Spirítui;^lsit Trinitáti^/salus indivídua^lper infiníta^/sæculórum sǽcula."
+        "text": "Goldenes Leuchten^/strahlt vom Himmel heut herab,^lVater des Lichtes,^/du erfüllst die Welt mit Glanz,^lzierest den Himmel,^/da im Feste wir begehn^ldeiner Apostel^/herrliches Martyrium.^pHeiliger Petrus,^/Fels, auf dem die Kirche steht,^lHüter der Herde,^/die dir Christus anvertraut,^leinst hast du weinend^/den Verrat am Herrn bereut,^lzeigst nun im Tode,^/dass du wirklich ihn geliebt.^pHeiliger Paulus,^/Bote du des neuen Heils,^lKünder des Wortes,^/der die Völker Wahrheit lehrt,^leinst hast du eifernd^/Christi Jüngern nachgestellt,^llegst nun im Sterben^/Zeugnis ab mit deinem Blut.^pGöttliche Dreiheit,^/Vater, Sohn und Heil’ger Geist,^lhöre den Lobpreis,^/den wir deiner Größe weihn,^lda das Gedächtnis^/deiner Zeugen uns erfreut.^lGib uns wie ihnen^/einst den Thron der Seligkeit."
       },
     5.0: {
         "title": "O Roma felix!",

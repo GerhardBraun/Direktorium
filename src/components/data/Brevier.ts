@@ -6036,6 +6036,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu Christus, der seine Kirche auf das Fundament der Apostel gegründet hat:",
           "bitten_r": "Herr, komm deinem Volk zu Hilfe.",
           "bitten": "Du hast Simon Petrus in deine Nachfolge berufen und ihm aufgetragen, die Brüder zu stärken;^qsei mit Papst ^NP, der in der Kirche das Amt des Petrus verwaltet.^pDu hast dem Sturm geboten, damit das Schiff der Jünger nicht unterging;^qbewahre deine Kirche vor jeder Verwirrung.^pNach deiner Auferstehung hast du die versprengte Herde um Petrus gesammelt;^qführe dein Volk zur Einheit zusammen.^pDu hast den Apostel Paulus gesandt, die Heiden zu deinen Jüngern zu machen;^qgib, dass das Wort vom Heil allen Geschöpfen verkündet wird.^pDu hast am heutigen Tag Petrus und Paulus die Krone des Lebens verliehen;^qgib ewiges Leben allen, die im Glauben deiner Apostel gestorben sind.",
+          "hymn_1_lat": 8629.3,
           "ant1_lat": "Ego pro te rogávi, Petre, ut non defíciat fides tua; et tu, aliquándo convérsus, confírma fratres tuos.",
           "ant2_lat": "Libénter gloriábor in infirmitátibus meis, ut inhábitet in me virtus Christi.",
           "ant3_lat": "Tu es pastor óvium, princeps Apostolórum; tibi tráditæ sunt claves regni cælórum.",

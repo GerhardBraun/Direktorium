@@ -4,7 +4,10 @@ import formatBibleRef from './BibleRefFormatter.js';
 import { psalmsData } from '../data/PsHymn.ts';
 
 export const firstCapital = (word) => {
-    return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
+    if (!word) return ''
+    return word.includes(' ')
+        ? word[0].toUpperCase() + word.slice(1)
+        : word[0].toUpperCase() + word.slice(1).toLowerCase()
 }
 
 const resolveReference = (ref) => {
@@ -313,7 +316,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         .replace(/(\w)–/g, '$1\u200C–')
         .replace(/–(\w)/g, '–\u200C$1')
         .replace(/([0-9])-([0-9])/g, '$1\u200C\u2013\u200C$2')
-        .replace(/>([aeiouæ])(,|;|\s)/g, '^k$1^0k$2')
+        .replace(/>([aeiouæ])/g, '^k$1^0k')
         .replace(/\^([()[\]])/g, '^r$1^0r')
         .replace(/\^ö/g, season === 'o' ? ' Halleluja.' : '')
         .replace(/\^Ö/g, season === 'q' ? '' : ' Halleluja.')
