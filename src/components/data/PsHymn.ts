@@ -1064,7 +1064,7 @@ export const psalmsData = {
   },
   63: {
     0.0: {
-        "verses": "2–9…",
+        "verses": "2–9‹",
         "title": "Verlangen nach Gott",
         "quote": "Nach Gott hält Ausschau, wer die Werke der Finsternis ablegt.",
         "text": "Gott, du mein Gott, dich suche ich,^*meine Seele dürstet nach dir.^pNach dir schmachtet mein Leib^*wie dürres, lechzendes Land ohne Wasser.^pDarum halte ich Ausschau nach dir im°Heiligtum,^*um deine Macht und Herrlichkeit zu sehen.^pDenn deine Huld ist°besser°als°das°Leben;^*darum preisen dich meine Lippen.^pIch will dich rühmen mein Leben lang,^*in deinem Namen die Hände erheben.^pWie an Fett und Mark wird°satt°meine°Seele,^*mit jubelnden Lippen soll mein Mund dich preisen.^pIch denke an dich auf°nächtlichem°Lager^*und sinne über dich nach, wenn ich wache.^pJa, du wurdest meine Hilfe;^*jubeln kann ich im Schatten deiner Flügel.^pMeine Seele hängt an dir,^*deine rechte Hand hält mich fest.",
@@ -2501,7 +2501,7 @@ export const psalmsData = {
   },
   137: {
     0.0: {
-        "verses": "1–6…",
+        "verses": "1–6‹",
         "title": "An den Strömen Babels",
         "quote": "Die irdische Gefangenschaft des Volkes ist ein Bild geistiger Gefangenschaft. (Hilarius)",
         "text": "An den Strömen von Babel,^+da saßen wir und weinten,^*wenn wir an Zion dachten.^pWir hängten unsere Harfen^*an die Weiden in jenem Land.^pDort verlangten von uns die°Zwingherren Lieder,^+unsere Peiniger forderten Jubel:^*„Singt uns Lieder vom Zion!“^pWie könnten wir singen die°Lieder°des°Herrn,^*fern, auf fremder Erde?^pWenn ich dich je vergesse, Jerusalem,^*dann soll mir die rechte Hand verdorren!^pDie Zunge soll mir am Gaumen kleben,^+wenn ich an dich nicht mehr denke,^*wenn ich Jerusalem nicht zu meiner höchsten Freude erhebe.",
@@ -2554,7 +2554,7 @@ export const psalmsData = {
   },
   141: {
     0.0: {
-        "verses": "1–9…",
+        "verses": "1–9‹",
         "title": "Bitte um Bewahrung",
         "quote": "Aus der Hand des Engels stieg der Weihrauch vor Gott empor: das sind die Gebete der Heiligen. (Offb°8,4)",
         "text": "Herr, ich rufe zu dir. Eile mir zu Hilfe;^*höre auf meine Stimme, wenn ich zu dir rufe!^pWie ein Rauchopfer steige°mein°Gebet°vor°dir°auf;^*als Abendopfer gelte vor dir, wenn ich meine Hände erhebe.^pHerr, stell eine Wache vor°meinen°Mund,^*eine Wehr vor das Tor meiner Lippen!^pGib, dass mein Herz sich bösen Worten nicht°zuneigt,^*dass ich nichts tue, was schändlich ist,^pzusammen mit Menschen, die°Unrecht°tun.^*Von ihren Leckerbissen will ich nicht kosten.^pDer Gerechte mag mich schlagen aus°Güte:^*wenn er mich bessert, ist es Salböl für mein Haupt;^pda wird sich mein Haupt nicht sträuben.^*Ist er in Not, will ich stets für ihn beten.^pHaben ihre Richter sich auch die°Felsen°hinabgestürzt,^*sie sollen hören, dass mein Wort für sie freundlich ist.^pWie wenn man Furchen zieht und°das°Erdreich°aufreißt,^*so sind unsre Glieder hingestreut an den Rand der Unterwelt.^pMein Herr und Gott, meine°Augen°richten°sich°auf°dich;^*bei dir berge ich mich. Gieß mein Leben nicht aus!^pVor der Schlinge, die sie mir legten, bewahre°mich,^*vor den Fallen derer, die Unrecht tun!",
@@ -2577,7 +2577,7 @@ export const psalmsData = {
   },
   143: {
     0.0: {
-        "verses": "1–11…",
+        "verses": "1–11‹",
         "title": "Bitte um Kraft und Hilfe",
         "quote": "Wir haben erkannt, dass der Mensch nicht durch Werke des Gesetzes gerecht wird, sondern durch den Glauben an Jesus Christus. (Gal°2,16)",
         "text": "Herr, höre mein Gebet, vernimm°mein°Flehen;^*in deiner Treue erhöre mich, in deiner Gerechtigkeit!^pGeh mit deinem Knecht nicht ins°Gericht;^*denn keiner, der lebt, ist gerecht vor dir.^pDer Feind verfolgt mich, tritt°mein°Leben°zu°Boden,^*er lässt mich in der Finsternis wohnen wie längst Verstorbene.^pMein Geist verzagt in mir,^*mir erstarrt das Herz in der Brust.^pIch denke an die vergangenen Tage,^+sinne nach über all deine Taten,^*erwäge das Werk deiner Hände.^pIch breite die Hände aus und°bete°zu°dir;^*meine Seele dürstet nach dir wie lechzendes Land.^pHerr, erhöre mich bald,^*denn mein Geist wird müde;^pverbirg dein Antlitz nicht vor mir,^*damit ich nicht werde wie Menschen, die längst begraben sind.^pLass mich deine Huld erfahren am°frühen°Morgen;^*denn ich vertraue auf dich.^pZeig mir den Weg, den ich gehen soll;^*denn ich erhebe meine Seele zu dir.^pHerr, entreiß mich den Feinden!^*Zu dir nehme ich meine Zuflucht.^pLehre mich, deinen Willen zu tun; denn°du°bist°mein°Gott.^*Dein guter Geist leite mich auf ebenem Pfad.^pUm deines Namens willen, Herr, erhalt°mich°am°Leben,^*führe mich heraus aus der Not in deiner Gerechtigkeit!",
@@ -4835,7 +4835,7 @@ export const psalmsData = {
     5.0: {
         "title": "Viel’ Märtyrer seit der Apostel Tagen",
         "quote": "Bonifatius",
-        "text": "^RUBRDie 1. Zeile ist hier an das Versmaß des Hymnus angepasst. In den gedruckten „Eigenfeiern“ beginnt er:^l„So viele Märtyrer seit der Apostel Tagen ...“^0RUBR^pViel’ Märtyrer seit der Apostel Tagen^lbesiegelten ihr christliches Bekenntnis^lmit ihrem Blut und halfen dadurch mit,^ldie Botschaft Christi durch die Zeit zu tragen.^pSind uns drum alle Märtyrer geworden^lBürgen des Glaubens, so verehren wir^lvor allem einen doch als Glaubensvater:^lden heil’gen Bischof Bonifatius.^pDie Lehre, die er unserm Volk verkündet,^list heute noch das Brot, von dem wir leben;^lder Geist, den Gott durch seinen Dienst geschenkt,^list heute noch der Atem unsrer Seelen.^pDer Martertod, den Bonifatius ersehnte,^lerschloss ihm rasch das Tor zum ew’gen Leben,^lschenkt’ ihm den Siegeskranz und lässt auch uns^lim Glauben feststehn und den Tod nicht fürchten.^pSei, Bonifatius, wie einstens unsern Vätern,^lso auch für uns ein guter Hirt! Bewache,^ldie deiner Leitung traun, vom Himmel her^lund lenke unsern Fuß auf gute Weide.^pDu hast uns deinen toten Leib vertraut,^lFulda durft’ deines Grabes Hüter werden;^ldoch mehr noch soll es deines Glaubens Erbe hüten.^lDrum schick zu Gott für Stadt und Bistum dein Gebet.^pDie Ehre sei dem Vater und dem Sohne,^lder durch die Taufe uns gewürdigt hat,^llebend’ge Glieder seines Leibs zu werden,^lund Ehr’ dem Heil’gen Geist in alle Ewigkeiten.^lAmen."
+        "text": "^RUBRDie 1. Zeile ist hier an das Versmaß des Hymnus angepasst. In den gedruckten „Eigenfeiern“ beginnt er:^l„So viele Märtyrer seit der Apostel Tagen …“^0RUBR^pViel’ Märtyrer seit der Apostel Tagen^lbesiegelten ihr christliches Bekenntnis^lmit ihrem Blut und halfen dadurch mit,^ldie Botschaft Christi durch die Zeit zu tragen.^pSind uns drum alle Märtyrer geworden^lBürgen des Glaubens, so verehren wir^lvor allem einen doch als Glaubensvater:^lden heil’gen Bischof Bonifatius.^pDie Lehre, die er unserm Volk verkündet,^list heute noch das Brot, von dem wir leben;^lder Geist, den Gott durch seinen Dienst geschenkt,^list heute noch der Atem unsrer Seelen.^pDer Martertod, den Bonifatius ersehnte,^lerschloss ihm rasch das Tor zum ew’gen Leben,^lschenkt’ ihm den Siegeskranz und lässt auch uns^lim Glauben feststehn und den Tod nicht fürchten.^pSei, Bonifatius, wie einstens unsern Vätern,^lso auch für uns ein guter Hirt! Bewache,^ldie deiner Leitung traun, vom Himmel her^lund lenke unsern Fuß auf gute Weide.^pDu hast uns deinen toten Leib vertraut,^lFulda durft’ deines Grabes Hüter werden;^ldoch mehr noch soll es deines Glaubens Erbe hüten.^lDrum schick zu Gott für Stadt und Bistum dein Gebet.^pDie Ehre sei dem Vater und dem Sohne,^lder durch die Taufe uns gewürdigt hat,^llebend’ge Glieder seines Leibs zu werden,^lund Ehr’ dem Heil’gen Geist in alle Ewigkeiten.^lAmen."
       },
     6.0: {
         "title": "A. Sankt Bonifatius, wir deine Kinder",

@@ -264,44 +264,59 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
     }
 }
 
-function processCommune(hours, hour, foundComm, season, targetSource, communeNumber) {
-    const [readComm, addComm] = foundComm.includes('_') ?
-        foundComm.split('_') : [foundComm, null];
+function processCommune(hours, season, targetSource) {
+    ['1', '2'].forEach(commNumber => {
+        const commField = `comm_${commNumber}`;
+        const foundLaudesComm = hours?.laudes?.[targetSource]?.[commField];
 
-    const targetKey = `com${communeNumber}`;
-    const readingHour = hour.charAt(0).toUpperCase() + hour.slice(1)
-    // Ensure commune container exists for the target hour
-    if (!hours[hour][targetSource]) {
-        hours[hour][targetSource] = {};
-    }
-    if (!hours[hour][targetSource][targetKey]) {
-        hours[hour][targetSource][targetKey] = {};
-    }
+        if (foundLaudesComm) {
+            Object.keys(hours).forEach(hour => {
+                const foundComm = hours?.[hour]?.[targetSource]?.[commField] || foundLaudesComm;
+                const [readComm, addComm] = foundComm.includes('_') ?
+                    foundComm.split('_') : [foundComm, null];
 
-    function addLayer(layerComm, layerSeason) {
-        const communeData = brevierData?.com?.[layerComm]?.[layerSeason]?.[readingHour];
-        if (communeData) {
-            Object.assign(
-                hours[hour][targetSource][targetKey],
-                communeData
-            );
+                const targetKey = `com${commNumber}`;
+                const readingHour = (hour === 'erstev') ? 'ErsteV'
+                    : hour.charAt(0).toUpperCase() + hour.slice(1);
+
+                // Ensure commune container exists for the target hour
+                if (!hours[hour][targetSource]) {
+                    hours[hour][targetSource] = {};
+                }
+                if (!hours[hour][targetSource][targetKey]) {
+                    hours[hour][targetSource][targetKey] = {};
+                }
+
+                function addLayer(layerComm, layerSeason) {
+                    const communeData = brevierData?.com?.[layerComm]?.[layerSeason]?.[readingHour];
+                    if (communeData) {
+                        Object.assign(
+                            hours[hour][targetSource][targetKey],
+                            communeData
+                        );
+                    }
+                }
+
+                addLayer(readComm, 'each');
+                addLayer(readComm, season);
+                if (addComm) {
+                    ['MärtSg', 'MärtPl', 'MFr', 'Mann', 'Frau', 'Jgfr', 'Hirten'].forEach(category => {
+                        addLayer(category, addComm);
+                    });
+                }
+
+                // Remove the comm_1/2 field after processing
+                delete hours[hour][targetSource][commField];
+            });
         }
-    }
-    addLayer(readComm, 'each');
-    addLayer(readComm, season);
-    if (addComm) {
-        ['MärtSg', 'MärtPl', 'MFr', 'Mann', 'Frau', 'Jgfr', 'Hirten'].forEach(category => {
-            addLayer(category, addComm);
-        });
-    }
+    });
 }
-// Modified processNichtgeboteneGedenktage function
+
 function processNichtgeboteneGedenktage(hours, season, calendarMonth, calendarDay, sameRank = false) {
     const nichtgebData = adlibData?.[calendarMonth]?.[calendarDay];
     if (nichtgebData) {
         // Array mit allen zu durchsuchenden Schlüsseln
         const sourceKeys = ['eig', 'n1', 'n2', 'n3', 'n4', 'n5'];
-        const hourKeys = ['invitatorium', 'lesehore', 'laudes', 'terz', 'sext', 'non', 'vesper']
 
         // Map über alle Schlüssel
         sourceKeys.forEach(sourceKey => {
@@ -310,51 +325,26 @@ function processNichtgeboteneGedenktage(hours, season, calendarMonth, calendarDa
 
             if (sourceData) {
                 mergeData(hours, sourceData, targetKey);
-
-                ['1', '2'].forEach(commNumber => {
-                    const commField = `comm_${commNumber}`;
-                    const foundLaudesComm = hours?.laudes?.[targetKey]?.[commField];
-                    if (foundLaudesComm) {
-                        hourKeys.forEach(hour => {
-                            const foundComm = hours?.[hour]?.[targetKey]?.[commField] || foundLaudesComm;
-                            processCommune(hours, hour, foundComm, season, targetKey, commNumber);
-                            // Remove the comm_1/2 field after processing
-                            delete hours[hour][targetKey][commField];
-                        });
-                    };
-                });
+                processCommune(hours, season, targetKey);
             }
         });
     }
 }
 
-// Modified processHeiligenfeste function
 function processHeiligenfeste(hours, season, rank_date, dayOfWeek, calendarMonth, calendarDay,
     sourceKey = 'eig', targetKey = '') {
     // Commune texts processing
     if (!targetKey) { targetKey = sourceKey }
     const communeData = brevierData?.[sourceKey]?.[calendarMonth]?.[calendarDay];
+
     if (communeData) {
         mergeData(hours, communeData, targetKey);
-
-        // Process Commune categories
-        ['1', '2'].forEach(commNumber => {
-            const commField = `comm_${commNumber}`;
-            Object.keys(hours).forEach(hour => {
-                const foundComm = hours[hour]?.[sourceKey]?.[commField];
-                if (foundComm) {
-                    processCommune(hours, hour, foundComm, season, targetKey, commNumber);
-                    // Remove the comm_1/2 field after processing
-                    delete hours[hour][sourceKey][commField];
-                }
-            });
-        });
+        processCommune(hours, season, targetKey);
     }
 
     const calendarData = brevierData?.[sourceKey]?.[calendarMonth]?.[calendarDay];
     if (calendarData) mergeData(hours, calendarData, sourceKey);
 }
-
 function processTerzPsalms(hours) {
     // Definiere die zu prüfenden Stunden
     const targetHours = ['sext', 'non'];

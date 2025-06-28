@@ -4,7 +4,7 @@ import formatBibleRef from './BibleRefFormatter.js';
 import { psalmsData } from '../data/PsHymn.ts';
 
 export const firstCapital = (word) => {
-    if (!word) return ''
+    if (!word || typeof word !== 'string') { return word }
     return word.includes(' ')
         ? word[0].toUpperCase() + word.slice(1)
         : word[0].toUpperCase() + word.slice(1).toLowerCase()
@@ -75,7 +75,7 @@ const calculateMaxLineLength = (text) => {
 
     strophes.forEach(strophe => {
         // Teile jede Strophe in Zeilen auf
-        // Dabei sowohl ^l als auch ^/ als potentielle Zeilenenden betrachten
+        // Dabei ^l als potentielle Zeilenenden betrachten
         const lines = strophe.split(/\^l/);
         lines.forEach(line => {
             // Entferne führende/nachfolgende Leerzeichen
@@ -318,9 +318,11 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         .replace(/([0-9])-([0-9])/g, '$1\u200C\u2013\u200C$2')
         .replace(/>([aeiouæ])/g, '^k$1^0k')
         .replace(/\^([()[\]])/g, '^r$1^0r')
-        .replace(/\^ö/g, season === 'o' ? ' Halleluja.' : '')
+        .replace(/\^ö/g, (season === 'o' && !swdCombined.startsWith('o-9-'))
+            ? ' Halleluja.' : '')
         .replace(/\^Ö/g, season === 'q' ? '' : ' Halleluja.')
-        .replace(/\^Lö/g, season === 'o' ? ' Allelúia.' : '')
+        .replace(/\^Lö/g, (season === 'o' && !swdCombined.startsWith('o-9-'))
+            ? ' Allelúia.' : '')
         .replace(/\^LÖ/g, season === 'q' ? '' : ' Allelúia.')
         .replace(/\^NP/g, getLocalStorage('popeName') || 'Leo')
         .replace(/\^NB/g, getLocalStorage('bishopName') || '^N')
