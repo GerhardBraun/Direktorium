@@ -1,3 +1,5 @@
+import { getLocalStorage } from '../utils/localStorage.js';
+const diocese = getLocalStorage('diocese') || 'fulda'
 
 const daysToMilliseconds = (days) => days * 24 * 60 * 60 * 1000;
 
@@ -113,35 +115,52 @@ function calculateRanks(date, season, week, dayOfWeek, swdCombined, afterPenteco
     }
 
     // Rank für Datum (rank_date) bestimmen
+    // Rank für Datum (rank_date) bestimmen
     function calculateRankDate() {
-        const hochfeste = [
-            '01-01', '01-06', '03-19', '03-25',
-            '06-05', '06-24', '06-29', '08-15',
-            '11-01', '11-02', '12-08', '12-25'];
-        const christusfeste = ['02-02', '08-06', '09-14', '11-09'];
-        const feste = [
-            '01-25', '02-04', '02-14', '02-22', '02-24', '04-25', '04-29', '05-03',
-            '07-02', '07-03', '07-11', '07-22', '07-23', '07-25', '08-09', '08-10',
-            '08-24', '09-08', '09-21', '09-28', '09-29', '10-18', '10-28', '11-19',
-            '11-30', '12-16', '12-26', '12-27', '12-28'];
-        const gedenktage = [
-            '01-02', '01-17', '01-21', '01-24', '01-26', '01-28', '01-31',
-            '02-05', '02-06', '02-10', '02-23', '03-07', '04-07', '04-11',
-            '04-27', '05-02', '05-26', '06-01', '06-03', '06-11', '06-13',
-            '06-21', '06-28', '07-15', '07-26', '07-29', '07-31', '08-01',
-            '08-04', '08-08', '08-11', '08-17', '08-20', '08-21', '08-22',
-            '08-27', '08-28', '08-29', '09-03', '09-13', '09-15', '09-16',
-            '09-20', '09-23', '09-27', '09-30', '10-01', '10-02', '10-04',
-            '10-07', '10-15', '10-17', '11-04', '11-10', '11-11', '11-12',
-            '11-21', '11-22', '11-24', '12-03', '12-07', '12-13', '12-14'];
+        const tableOfRanks = {
+            5: ['01-01', '01-06', '03-19', '03-25',
+                '06-24', '06-29', '08-15',
+                '11-01', '11-02', '12-08', '12-25'],
+            4: ['02-02', '08-06', '09-14', '11-09'],
+            3: ['01-25', '02-14', '02-22', '02-24',
+                '04-25', '04-29', '05-03', '06-05',
+                '07-02', '07-03', '07-11', '07-22', '07-23', '07-25',
+                '08-09', '08-10', '08-24',
+                '09-08', '09-21', '09-29', '10-18', '10-28',
+                '11-30', '12-26', '12-27', '12-28'],
+            2: ['01-02', '01-17', '01-21', '01-24',
+                '01-26', '01-28', '01-31',
+                '02-05', '02-06', '02-10', '02-23',
+                '03-07', '04-07', '04-11', '05-02', '05-26',
+                '06-01', '06-03', '06-11', '06-13', '06-21', '06-28',
+                '07-15', '07-26', '07-29', '07-31',
+                '08-01', '08-04', '08-08', '08-11',
+                '08-17', '08-20', '08-21', '08-22',
+                '08-27', '08-28', '08-29',
+                '09-03', '09-13', '09-15', '09-16',
+                '09-20', '09-23', '09-27', '09-30',
+                '10-01', '10-02', '10-04',
+                '10-07', '10-15', '10-17',
+                '11-04', '11-10', '11-11', '11-12',
+                '11-19', '11-21', '11-22', '11-24',
+                '12-03', '12-07', '12-13', '12-14'],
+            'fulda': {
+                5: ['06-05'],
+                3: ['02-04', '09-28', '11-19', '12-16'],
+                2: ['04-27']
+            }
+        };
 
         const dateCompare = `${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`;
 
-        if (hochfeste.includes(dateCompare)) return 5;
-        if (christusfeste.includes(dateCompare)) return 4;
-        if (feste.includes(dateCompare)) return 3;
-        if (gedenktage.includes(dateCompare)) return 2;
-        return 0;
+        // Schleife durch die Ränge (von hoch zu niedrig)
+        for (const rank of [5, 4, 3, 2]) {
+            if (tableOfRanks?.[diocese]?.[rank]?.includes(dateCompare) ||
+                tableOfRanks?.[rank]?.includes(dateCompare)) {
+                return rank;
+            }
+        }
+        return 0; // Kein spezieller Rang gefunden
     }
 
     if (!date || !(date instanceof Date)) {
@@ -218,7 +237,9 @@ const getLiturgicalInfo = (provDate) => {
     const daysSinceEaster = Math.floor((date - easter) / daysToMilliseconds(1));
     const afterPentecost = [50, 56, 60, 68, 69].includes(daysSinceEaster)
         ? 40 + (daysSinceEaster % 7)
-        : null;
+        : [66, 67].includes(daysSinceEaster)
+            ? 68 - daysSinceEaster
+            : null;
 
     // Helper function for week calculation
     const weeksBetween = (start, current) =>

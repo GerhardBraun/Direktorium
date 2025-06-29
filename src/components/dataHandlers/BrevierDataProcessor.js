@@ -522,9 +522,9 @@ function processKompletData(data, calendarDate) {
 // Hauptfunktion zur Verarbeitung der Brevier-Daten
 export function processBrevierData(todayDate) {
     // Berechne die verschiedenen relevanten Tage
-    const todayInfo = getLiturgicalInfo(todayDate);
     const todayDay = todayDate.getDate();
     const todayMonth = todayDate.getMonth() + 1;
+    const todayInfo = getLiturgicalInfo(todayDate);
 
     const yesterdayDate = new Date(todayDate);
     yesterdayDate.setDate(yesterdayDate.getDate() - 1);
@@ -532,23 +532,23 @@ export function processBrevierData(todayDate) {
 
     const tomorrowDate = new Date(todayDate);
     tomorrowDate.setDate(tomorrowDate.getDate() + 1);
-    const tomorrowInfo = getLiturgicalInfo(tomorrowDate);
 
-    const dayAfterTomorrowDate = new Date(todayDate);
-    dayAfterTomorrowDate.setDate(dayAfterTomorrowDate.getDate() + 2);
-    const dayAfterTomorrowInfo = getLiturgicalInfo(dayAfterTomorrowDate);
+    const isSacredHeart = [1, 2, 46].includes(todayInfo.afterPentecost)
+        ? todayInfo.afterPentecost : 0;
 
-    let isSacredHeart = 0;
-    if (yesterdayInfo.swdCombined === 'o-9-5') { isSacredHeart = -1; }
-    else if (tomorrowInfo.swdCombined === 'o-9-5') { isSacredHeart = 1; }
-    else if (dayAfterTomorrowInfo.swdCombined === 'o-9-5') { isSacredHeart = 2; }
+    const dateToCheck = (diff) => {
+        const checkDate = new Date(todayDate);
+        checkDate.setDate(todayDate.getDate() + diff);
+        const checkInfo = getLiturgicalInfo(checkDate);
+        return (checkInfo.rank_date === 5) ? checkDate : null
+    }
 
     // Bestimme die tatsächlich zu verwendenden Tage basierend auf den Rängen
     let calendarDate = todayDate;
     let nextDate = tomorrowDate;
 
     if (yesterdayInfo.rank_wt === 5 && yesterdayInfo.rank_date === 5
-        && todayInfo.rank_wt < 5 && isSacredHeart !== -1) {
+        && todayInfo.rank_wt < 5 && isSacredHeart !== 46) {
         calendarDate = yesterdayDate;
         console.log('Verschiebung: Gestriges Hochfest wird heute gefeiert');
     }
@@ -570,12 +570,12 @@ export function processBrevierData(todayDate) {
         console.log('Verschiebung: Verkündigung des Herrn auf Montag nach der Osteroktav');
     }
 
-    if (isSacredHeart === 1 && tomorrowInfo.rank_date === 5) {
-        calendarDate = tomorrowDate;
+    if (isSacredHeart === 1 && dateToCheck(1)) {
+        calendarDate = dateToCheck(1);
         console.log('Verschiebung: Morgiges Hochfest wird heute gefeiert wegen Herz-Jesu-Fest');
     }
-    if (isSacredHeart === 2 && dayAfterTomorrowInfo.rank_date === 5) {
-        nextDate = dayAfterTomorrowDate;
+    if (isSacredHeart === 2 && dateToCheck(2)) {
+        nextDate = dateToCheck(2);
         console.log('Verschiebung: Heute 1. Vesper zum Hochfest, das morgen gefeiert wird wegen Herz-Jesu-Fest');
     }
 
@@ -587,12 +587,12 @@ export function processBrevierData(todayDate) {
     const { dayOfWeek, swdCombined, rank_wt, rank_date } = todayData;
     const rankNextWt = tomorrowData.rank_wt;
     const rankNextDate = tomorrowData.rank_date;
-    const nextCombinedSWD = tomorrowData.swdCombined;
+    const nextSwdCombined = tomorrowData.swdCombined;
 
     const hasErsteVesper_wt = swdCombined === 'o-1-6' ||
         (rank_wt < 5 && rank_date < 5 &&
             ((dayOfWeek === 6 && rank_date < 4) ||
-                (rankNextWt === 5 && nextCombinedSWD !== 'q-0-3')));
+                (rankNextWt === 5 && nextSwdCombined !== 'q-0-3')));
     const hasErsteVesper_date = rank_wt < 5 && rank_date < 5 && rankNextDate > rankNextWt &&
         (rankNextDate === 5 || (rankNextDate === 4 && dayOfWeek === 6));
 
