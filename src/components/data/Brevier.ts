@@ -5938,6 +5938,7 @@ export const brevierData = {
           "patr_resp1": "Heiliger Apostel Paulus, Verkünder der Wahrheit, Lehrer der Völker,",
           "patr_resp2": "wahrhaftig, dir gebührt Lobpreis.",
           "patr_resp3": "Durch dich haben alle Völker die Gnade Gottes erkannt.",
+          "oration": "Herr, unser Gott, durch die Apostel Petrus und Paulus hat du in der Kirche den Grund des Glaubens gelegt. Auf ihre Fürsprache hin erhalte und vollende diesen Glauben, der uns zum ewigen Heil führt. Darum bitten wir durch Jesus Christus, deinen Sohn, un­sern Herrn und Gott,^ORR^p^RUBROder:^0RUBR^lHerr, unser Gott, am Hochfest der Apostel Petrus und Paulus haben wir uns in Freude versammelt. Hilf deiner Kirche, in allem der Weisung deiner Boten zu folgen, durch die sie den Glauben und das Leben in Christus empfangen hat,^ORR",
           "hymn_1_lat": 8629.1,
           "ant1_lat": "Si díligis me, Simon Petre, pasce oves meas.",
           "ant2_lat": "Mihi vívere Christus est, et mori lucrum: gloriári me opórtet in cruce Dómini nostri Iesu Christi.",
