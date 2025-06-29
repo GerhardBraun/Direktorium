@@ -5984,8 +5984,6 @@ export const brevierData = {
           "les_stelle": "15,7b–9",
           "les_text": "Brüder, wie ihr wisst, hat Gott schon längst hier bei euch die Entscheidung getroffen, dass die Heiden durch meinen Mund das Wort des Evangeliums hören und zum Glauben gelangen sollen. Und Gott, der die Herzen kennt, bestätigte dies, indem er ihnen ebenso wie uns den Heiligen Geist gab. Er machte keinerlei Unterschied zwischen uns und ihnen; denn er hat ihre Herzen durch den Glauben gereinigt.",
           "les_text_neu": "Brüder, wie ihr wisst, hat Gott schon längst hier bei euch die Entscheidung getroffen, dass die Heiden durch meinen Mund das Wort des Evangeliums hören und zum Glauben gelangen sollen. Und Gott, der die Herzen kennt, hat dies bestätigt, indem er ihnen ebenso wie uns den Heiligen Geist gab. Er machte keinerlei Unterschied zwischen uns und ihnen; denn er hat ihre Herzen durch den Glauben gereinigt.",
-          "resp0": "Ihre Botschaft geht hinaus in die ganze Welt.",
-          "resp1": "Ihre Kunde bis zu den Enden der Erde.",
           "ant0_lat": "Adhuc loquénte Petro, cécidit Spíritus Sanctus super omnes qui audiébant verbum, et erant loquéntes linguis et magnificántes Deum.",
           "resp0_lat": "In omnem terram exívit sonus eórum.",
           "resp1_lat": "Et in fines orbis terræ verba eórum.",
@@ -5998,8 +5996,6 @@ export const brevierData = {
           "les_stelle": "1,15–16a.17b–18a",
           "les_text": "Als Gott, der mich schon im Mutterleib auserwählt und durch seine Gnade berufen hat, mir in seiner Güte seinen Sohn offenbarte, damit ich ihn unter den Heiden verkündige, da zog ich nach Arabien und kehrte dann wieder nach Damaskus zurück. Drei Jahre später ging ich hinauf nach Jerusalem, um Kephas kennenzulernen.",
           "les_text_neu": "Als es Gott gefiel, der mich schon im Mutterleib auserwählt und durch seine Gnade berufen hat, in mir seinen Sohn zu offenbaren, damit ich ihn unter den Völkern verkünde, da zog nach Arabien und kehrte dann wieder nach Damaskus zurück. Drei Jahre später ging ich nach Jerusalem hinauf, um Kephas kennenzulernen.",
-          "resp0": "Sie hielten fest am Zeugnis Gottes.",
-          "resp1": "Und bewahrten seine Gebote.",
           "ant0_lat": "Ascéndit Petrus in superióra domus, ut oráret circa horam sextam.",
           "resp0_lat": "Custodiébant testimónia Dei.",
           "resp1_lat": "Et præcépta eius.",
@@ -6012,9 +6008,6 @@ export const brevierData = {
           "les_stelle": "4,13–14",
           "les_text": "Wir haben den gleichen Geist des Glaubens, von dem es in der Schrift heißt: Ich habe geglaubt, darum habe ich geredet. Auch wir glauben, und darum reden wir. Denn wir wissen, dass der, welcher Jesus, den Herrn, auferweckt hat, auch uns mit Jesus auferwecken und zusammen mit euch vor sein Angesicht stellen wird.",
           "les_text_neu": "Immer werden wir, obgleich wir leben, um Jesu willen dem Tod ausgeliefert, damit auch das Leben Jesu an unserem sterblichen Fleisch offenbar wird. So erweist an uns der Tod, an euch aber das Leben seine Macht. Doch haben wir den gleichen Geist des Glaubens, von dem es in der Schrift heißt: Ich habe geglaubt, darum habe ich geredet. Auch wir glauben, und darum reden wir. Denn wir wissen, dass der, welcher Jesus, den Herrn, auferweckt hat, auch uns mit Jesus auferwecken und uns zusammen mit euch vor sich stellen wird.",
-          "resp0": "So spricht der Herr: Freut euch und jubelt",
-          "resp1": "Denn eure Namen sind im Himmel verzeichnet.",
-          "resp2": "Ehre sei dem Vater.",
           "ant0_lat": "Petrus et Ioánnes ascendébant in templum ad horam oratiónis nonam.",
           "resp0_lat": "Gaudéte et exsultáte, dicit Dóminus.",
           "resp1_lat": "Quia nómina vestra scripta sunt in cælis.",
@@ -6721,7 +6714,8 @@ export const brevierData = {
       },
       "14": {
         "each": {
-          "comm_1": "Kirchw"
+          "comm_1": "Kirchw",
+          "oration": "^RUBRIn der Fuldaer Kathedrale:^0RUBR^lGroßer und heiliger Gott, jedes Jahr feiern wir den Weihetag dieses heiligen Hauses. Höre auf die Bitten deines Volkes. Hilf uns, dass wir an diesem Ort in rechter Gesinnung den heiligen Dienst vollziehen und den Reichtum der Erlösungsgnade empfangen.^ORV^p^RUBRIn den übrigen Kirchen:^0RUBR^lErhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird.^ORV^p^RUBROder:^0RUBR^lAllmächtiger Gott, du hast gewollt, dass dein Volk Kirche heiße, denn wir sind das Haus, in dem deine Herrlichkeit wohnt. Gib, dass die Gläubigen, die sich in deinem Namen versammeln, dich ehren, dich lieben und dir gehorchen damit sie unter deiner Führung das ewige Erbe erlangen.^ORV"
         },
         "Laudes": {
           "button": "Weihefest der Fuldaer Kathedrale"

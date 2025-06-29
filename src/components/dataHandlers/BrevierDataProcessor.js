@@ -3,6 +3,7 @@ import { lecture1Data } from '../data/Lecture1.ts';
 import { lecture2Data } from '../data/Lecture2.ts';
 import { psalmsData } from '../data/PsHymn.ts';
 import { adlibData } from '../data/AdLib.ts';
+import { dataSollemnities } from '../data/Sollemnities.ts';
 import { getLiturgicalInfo } from './LitCalendar.js';
 
 const personalData = (() => {
@@ -286,7 +287,9 @@ function processCommune(hours, season, targetSource) {
                 }
 
                 function addLayer(layerComm, layerSeason) {
-                    const communeData = brevierData?.com?.[layerComm]?.[layerSeason]?.[readingHour];
+                    const communeData = layerComm === 'Kirchw'
+                        ? dataSollemnities.kirchw?.[layerSeason.toLowerCase()]?.[readingHour.toLowerCase()]
+                        : brevierData?.com?.[layerComm]?.[layerSeason]?.[readingHour];
                     if (communeData) {
                         Object.assign(
                             hours[hour][targetSource][targetKey],
