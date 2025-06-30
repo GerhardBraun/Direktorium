@@ -2848,7 +2848,7 @@ export const brevierData = {
           "antev_lat": "Beáta es, María, quæ credidísti: perficiéntur in te quæ dicta sunt tibi a Dómino.^Lö",
           "bitten_e_lat": "Deum Patrem omnipoténtem magnis láudibus extollámus, qui Maríam matrem Fílii sui ab ómnibus generatiónibus celebrári vóluit, et ab eo súpplices petámus:",
           "bitten_r_lat": "Plena grátia intercédat pro nobis.^p^RUBRVel:^0RUBR^lPlenam grátia intuére, et exáudi nos.",
-          "bitten_lat": "^rSeria prima:^0r^lDeus, mirabílium patrátor, qui immaculátam Vírginem Maríam córpore et ánima cæléstis glóriæ Christi fecísti consórtem,^qfiliórum tuórum corda ad eándem glóriam dírige.^pQui Maríam dedísti nobis matrem, ipsa intercedénte, concéde medélam lánguidis, solámen mæréntibus, véniam peccatóribus,^qet ómnibus salútem et pacem.^pQui Maríam plenam grátia fecísti,^qlætam grátiæ tuæ cópiam ómnibus concéde.^pEcclésia tua sit cor unum et ánima una in caritáte,^qet fidéles persevérent unánimes in oratióne cum María, matre Iesu.^pQui Maríam cæli coronásti regínam,^qfac ut defúncti in regno tuo cum sanctórum ágmine gáudeant in ætérnum.^p^rVel seria secunda:^0r^lQui Maríam matrem misericórdiæ constituísti,^qversántibus in perículis concéde, ut matérnam eius dilectiónem experiántur.^pQui Maríam, in domo Iesu et Ioseph, matrem famílias esse voluísti,^qfac ut, ipsíus intercessióne, omnes matres in famíliis caritátem fóveant et sanctitátem.^pQui Maríam iuxta crucem stantem roborásti et in resurrectióne Fílii tui replésti lætítia,^qtribulátos súbleva spemque eórum confírma.^pQui Maríam tuo inténtam reddidísti verbo et ancíllam tuam fidélem effecísti,^qper eius intercessiónem nos Fílii tui fac servos et discípulos.^pQui Maríam cæli coronásti regínam,^qfac ut defúncti in regno tuo cum sanctórum ágmine gáudeant in ætérnum.",
+          "bitten_lat": "^rSeria prima:^0r^lDeus, mirabílium patrátor, qui immaculátam Vírginem Maríam córpore et ánima cæléstis glóriæ Christi fecísti consórtem,^qfiliórum tuórum corda ad eándem glóriam dírige.^pQui Maríam dedísti nobis matrem, ipsa intercedénte, concéde medélam lánguidis, solámen mæréntibus, véniam peccatóribus,^qet ómnibus salútem et pacem.^pQui Maríam plenam grátia fecísti,^qlætam grátiæ tuæ cópiam ómnibus concéde.^pEcclésia tua sit cor unum et ánima una in caritáte,^qet fidéles persevérent unánimes in oratióne cum María, matre Iesu.^pQui Maríam cæli coronásti regínam,^qfac ut defúncti in regno tuo cum sanctórum ágmine gáudeant in ætérnum.^p^RUBRVel seria secunda:^0RUBR^lQui Maríam matrem misericórdiæ constituísti,^qversántibus in perículis concéde, ut matérnam eius dilectiónem experiántur.^pQui Maríam, in domo Iesu et Ioseph, matrem famílias esse voluísti,^qfac ut, ipsíus intercessióne, omnes matres in famíliis caritátem fóveant et sanctitátem.^pQui Maríam iuxta crucem stantem roborásti et in resurrectióne Fílii tui replésti lætítia,^qtribulátos súbleva spemque eórum confírma.^pQui Maríam tuo inténtam reddidísti verbo et ancíllam tuam fidélem effecísti,^qper eius intercessiónem nos Fílii tui fac servos et discípulos.^pQui Maríam cæli coronásti regínam,^qfac ut defúncti in regno tuo cum sanctórum ágmine gáudeant in ætérnum.",
           "les_text_lat": "Ubi venit plenitúdo témporis, misit Deus Fílium suum, factum ex mulíere, factum sub lege, ut eos, qui sub lege erant, redímeret, ut adoptiónem filiórum reciperémus."
         }
       }
@@ -2920,21 +2920,14 @@ export const brevierData = {
           "patr_resp1": "Wenn wir in der Schlacht stehen und für den Glauben kämpfen, schaut Gott auf uns herab. Zuschauer sind die Engel, und auch Christus blickt auf uns.",
           "patr_resp2": "Welch erhabene Herrlichkeit, welche Glückseligkeit, in der Gegenwart Gottes zu kämpfen und von Christus, dem Richter, den Siegeskranz zu empfangen.^ö",
           "patr_resp3": "Wir wollen uns wappnen mit aller Kraft und uns zum Kampf rüsten mit lauterem Geist, zuversichtlichem Glauben und liebender Tugend.",
+          "hymn_1_lat": 5509.0,
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "hymn_nacht_lat": 0.0,
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "versikel0_lat": "",
-          "versikel1_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "patr_resp1_lat": "",
-          "patr_resp2_lat": "",
-          "patr_resp3_lat": "",
-          "les_text_lat": ""
+          "ant1_lat": "Sanguis sanctórum mártyrum pro Christo effúsus est in terris; ídeo adépti sunt prǽmia ætérna.^Lö",
+          "ant2_lat": "Iusti in perpétuum vivent, et apud Dóminum est merces eórum.^Lö",
+          "ant3_lat": "Sancti mei, qui in isto sǽculo certámen habuístis, mercédem labórum ego reddam vobis.^Lö",
+          "versikel0_lat": "Anima nostra sústinet Dóminum.^Lö",
+          "versikel1_lat": "Quóniam adiútor et protéctor noster est.^Lö"
         },
         "Laudes": {
           "button": "Märt",
@@ -2959,19 +2952,19 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, der treue Zeuge. Zu ihm lasst uns beten:",
           "bitten_r": "Erhöre uns, Christus.",
           "bitten": "Deine Märtyrer haben freiwillig den Tod auf sich genommen;^qschenke uns die wahre Freiheit und die Bereitschaft zum Zeugnis.^pDeine Märtyrer haben den Glauben bekannt bis in den Tod;^qhilf unserem Unglauben.^pDeine Märtyrer haben ihr Kreuz auf sich genommen und sind dir nachgefolgt;^qgib uns Kraft in den Stunden der Entscheidung.^pDeine Märtyrer haben ihre Hoffnung allein auf dich gestellt;^qlass nicht zu, dass wir den Verführungen der Welt erliegen.",
+          "hymn_1_lat": 5517.0,
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "ant1_lat": "Cum essent in torméntis mártyres Christi cæléstia contemplántes, dicébant: Adiuva nos, Dómine.^Lö",
+          "ant2_lat": "Sancti spíritus et ánimæ iustórum, hymnum dícite Deo.^LÖ",
+          "ant3_lat": "Mártyrum chorus, laudáte Dóminum in excélsis.^Lö",
+          "resp1_lat": "Iusti autem",
+          "resp2_lat": "in perpétuum vivent.",
+          "resp3_lat": "Et apud Dóminum est merces eórum.",
+          "antev_lat": "Beáti qui persecutiónem patiúntur propter iustítiam, quóniam ipsórum est regnum cælórum.",
+          "bitten_e_lat": "Fratres, Salvatórem nostrum, testem fidélem, per mártyres interféctos propter verbum Dei, celebrémus, clamántes:",
+          "bitten_r_lat": "Redemísti nos Deo in sánguine tuo.",
+          "bitten_lat": "Per mártyres tuos, qui líbere mortem in testimónium fídei sunt ampléxi,^qda nobis, Dómine, veram spíritus libertátem.^pPer mártyres tuos, qui fidem usque ad sánguinem sunt conféssi,^qda nobis, Dómine, puritátem fideíque constántiam.^pPer mártyres tuos, qui, sustinéntes crucem, tua vestígia sunt secúti,^qda nobis, Dómine, ærúmnas vitæ fórtiter sustinére.^pPer mártyres tuos, qui stolas suas lavérunt in sánguine Agni,^qda nobis, Dómine, omnes insídias carnis mundíque devíncere.",
+          "les_text_lat": "Benedíctus Deus et Pater Dómini nostri Iesu Christi, Pater misericordiárum et Deus totíus consolatiónis, qui consolátur nos in omni tribulatióne nostra, ut possímus et ipsi consolári eos, qui in omni pressúra sunt, per exhortatiónem, qua exhortámur et ipsi a Deo; quóniam, sicut abúndant passiónes Christi in nobis, ita per Christum abúndat et consolátio nostra."
         },
         "Terz": {
           "hymn_2": 0.0,
@@ -2987,14 +2980,10 @@ export const brevierData = {
           "resp0": "Die Heiligen vertrauen auf den Herrn.^ö",
           "resp1": "Er gibt ihnen Kraft, und sie ermatten nicht.^ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
-          "ant0_lat": "",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "ant0_lat": "Certámen forte dedit illis Dóminus, ut víncere scirent, quóniam ómnium poténtior est sapiéntia.^Lö",
+          "resp0_lat": "Sancti, qui sperant in Dómino.^Lö",
+          "resp1_lat": "Habébunt fortitúdinem, et non defícient.^Lö",
+          "les_text_lat": "Deus omnis grátiæ, qui vocávit vos in ætérnam suam glóriam in Christo Iesu, módicum passos ipse perfíciet, confirmábit, solidábit, fundábit. Ipsi impérium in sǽcula sæculórum. Amen."
         },
         "Sext": {
           "hymn_2": 0.0,
@@ -3010,14 +2999,10 @@ export const brevierData = {
           "resp0": "Noch kurze Zeit – und eure Trauer verwandelt sich in Freude.^ö",
           "resp1": "Und eure Freude wird euch niemand nehmen.^ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
-          "ant0_lat": "",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "ant0_lat": "Coronávit eos Dóminus coróna iustítiæ, et dedit illis nomen sanctum glóriæ.^Lö",
+          "resp0_lat": "Tristítia vestra.^Lö",
+          "resp1_lat": "Convertétur in gáudium.^Lö",
+          "les_text_lat": "Sancti per fidem devicérunt regna, operáti sunt iustítiam, adépti sunt repromissiónes in Christo Iesu Dómino nostro."
         },
         "Non": {
           "hymn_2": 0.0,
@@ -3033,14 +3018,10 @@ export const brevierData = {
           "resp0": "Sie kommen mit Jubel.^ö",
           "resp1": "Und bringen ihre Garben ein.^ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
-          "ant0_lat": "",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "ant0_lat": "Eúntes ibant et flebant, mitténtes sémina sua.^Lö",
+          "resp0_lat": "Veniéntes vénient cum exsultatióne.^Lö",
+          "resp1_lat": "Portántes manípulos suos.^Lö",
+          "les_text_lat": "Iustórum ánimæ in manu Dei sunt, et non tanget illos torméntum mortis. Visi sunt óculis insipiéntium mori; illi autem sunt in pace."
         },
         "Vesper": {
           "hymn_1": 1123.0,
@@ -3063,19 +3044,19 @@ export const brevierData = {
           "bitten_e": "Lasst uns zu Jesus Christus beten, dem König der Märtyrer:",
           "bitten_r": "Herr Jesus Christus, wir preisen dich.",
           "bitten": "Du unser Erlöser, du hast dein Blut vergossen für das Heil der Welt;^qerbarme dich aller Menschen.^pDu Urbild der Märtyrer;^qsteh allen Verfolgten bei.^pDu treuer Zeuge;^qhilf denen, die Zeugnis von dir geben.^pDu Stärke der Märtyrer;^qsei deinen Bekennern nahe in der Stunde der Prüfung.^pDu Lohn der Märtyrer;^qsei auch der Lohn all unserer Verstorbenen.",
+          "hymn_1_lat": 5523.0,
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "ant1_lat": "Córpora sanctórum in pace sepúlta sunt, et vivent nómina eórum in ætérnum.^Lö",
+          "ant2_lat": "Vidi ánimas interfectórum propter verbum Dei et propter testimónium quod habébant.^Lö",
+          "ant3_lat": "Isti sunt sancti, qui pro testaménto Dei sua córpora tradidérunt, et in sánguine Agni lavérunt stolas suas.^Lö",
+          "resp1_lat": "Lætámini in Dómino,",
+          "resp2_lat": "Et exsultáte, iusti.",
+          "resp3_lat": "Et gloriámini, omnes recti corde.",
+          "antev_lat": "Gaudent in cælis ánimæ sanctórum, qui Christi vestígia sunt secúti; et quia pro eius amóre sánguinem suum fudérunt, ídeo cum Christo regnábunt in ætérnum.",
+          "bitten_e_lat": "Hac hora, qua Rex mártyrum vitam suam in cena óbtulit et in cruce depósuit, grátias agámus illi, dicéntes:",
+          "bitten_r_lat": "Te, Dómine, celebrámus.",
+          "bitten_lat": "Te, Dómine, celebrámus, quia in finem dilexísti nos, salvátor noster, omnis martýrii fons et exémplum:^pQuia omnes peccatóres pæniténtes in prǽmium vitæ vocásti:^pQuia sánguinem novi et aetérni testaménti, in remissiónem peccatórum effúsum, hódie obtúlimus:^pQuia hac die per grátiam tuam in fide perseverávimus:^pQuia tuæ morti multos fratres hódie sociásti:",
+          "les_text_lat": "Caríssimi, quemádmodum communicátis Christi passiónibus, gaudéte, ut et in revelatióne glóriæ eius gaudeátis exsultántes. Si exprobrámini in nómine Christi, beáti, quóniam Spíritus glóriæ et Dei super vos requiéscit."
         }
       },
       "Jgfr": {
@@ -3263,6 +3244,9 @@ export const brevierData = {
           "patr_resp2_lat": "",
           "patr_resp3_lat": "",
           "les_text_lat": ""
+        },
+        "Laudes": {
+          "ant2_lat": "Mártyres Dómini, Dóminum benedícite in ætérnum.^Lö"
         }
       }
     },
@@ -6050,11 +6034,11 @@ export const brevierData = {
         "each": {
           "comm_1": "Maria",
           "oration": "Allmächtiger, ewiger Gott, vom Heiligen Geist geführt, eilte Maria, die deinen Sohn in ihrem Schoß trug, zu ihrer Ver­wand­ten Elisabet. Hilf auch uns, den Eingebungen deines Geistes zu folgen, damit wir vereint mit Maria deine Größe preisen.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Omnípotens sempitérne Deus, qui beátam Vírginem Maríam, Fílium tuum gestántem, ad visitándam Elísabeth inspirásti, præsta, quǽsumus, ut, afflánti Spirítui obsequéntes, cum ipsa te semper magnificáre possímus.^ORlV"
         },
         "Invitatorium": {
           "ant0": "Wir feiern die Heimsuchung der seligen Jungfrau Maria und beten ihren Sohn an, Christus, unsern Herrn.",
-          "ant0_lat": ""
+          "ant0_lat": "Visitatiónem beátæ Maríæ Vírginis celebrántes, iubilémus Dómino."
         },
         "Lesehore": {
           "versikel0": "Selig, die das Wort Gottes hören.",
@@ -6071,15 +6055,10 @@ export const brevierData = {
           "patr_resp1": "Selig bist du, Maria! Du hast geglaubt, dass sich die Botschaft des Herrn erfüllt!",
           "patr_resp2": "Meine Seele preist die Größe des Herrn.",
           "patr_resp3": "Kommt alle und hört: ich will euch erzählen, was Gott mir Gutes getan hat.",
-          "versikel0_lat": "",
-          "versikel1_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
+          "hymn_1_lat": 8702.1,
           "patr_resp1_lat": "",
           "patr_resp2_lat": "",
-          "patr_resp3_lat": "",
-          "les_text_lat": ""
+          "patr_resp3_lat": ""
         },
         "Laudes": {
           "button": "Mariae Heimsuchung",
@@ -6098,17 +6077,12 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, unser Erlöser, der geboren wurde aus der Jungfrau Maria. Zu ihm lasst uns beten:",
           "bitten_r": "Höre auf die Fürsprache deiner Mutter.",
           "bitten": "Ewiges Wort, deine Mutter Maria bewahrte in ihrem Herzen alles, was an ihr geschehen war;^qhilf uns, deine Weisung zu überdenken.^pHeiland der Welt, du hast Maria vor jeder Makel der Sünde bewahrt;^qbewahre uns heute vor Schuld und Sünde.^pSohn des lebendigen Gottes, du hast dir die Jungfrau Maria als reine Wohnung erwählt;^qmache auch uns zu einem Tempel deines Geistes.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 8702.2,
+          "ant1_lat": "Exsúrgens María ábiit in montána cum festinatióne, in civitátem Iuda.",
+          "ant2_lat": "Ut audívit salutatiónem Maríæ Elísabeth, exsultávit infans in útero eius, et repléta est Spíritu Sancto.",
+          "ant3_lat": "Beáta es, María, quæ credidísti; perficiéntur in te quæ dicta sunt tibi a Dómino.",
+          "antev_lat": "Cum audísset salutatiónem Maríæ, Elísabeth exclamávit voce magna et dixit: Unde hoc mihi, ut véniat mater Dómini mei ad me?",
+          "les_text_lat": "Sciétis quia in médio Israel ego sum, et ego Dóminus Deus vester et non est ámplius; et non confundétur pópulus meus in ætérnum. Et erit post hæc: effúndam spíritum meum super omnem carnem, et prophetábunt fílii vestri et fíliæ vestræ."
         },
         "Terz": {
           "les_buch": "›vgl.°Jdt",
@@ -6116,9 +6090,7 @@ export const brevierData = {
           "les_text": "Gepriesen seist du in allen Zelten Judas und bei allen Völkern. Wer immer deinen Namen hört, wird erzittern vor dem Gott Israels.",
           "resp0": "Selig, die das Wort Gottes hören.",
           "resp1": "Und es befolgen.",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "les_text_lat": "Benedícta tu es, fília, a Deo excélso præ ómnibus muliéribus, quæ sunt super terram. Et benedíctus Dóminus, Deus noster, qui creávit cælum et terram, qui diréxit te in vulnus cápitis príncipis inimicórum nostrórum. Quóniam non discédet laus tua a corde hóminum memorántium virtútis Dei usque in sempitérnum."
         },
         "Sext": {
           "les_buch": "›Tob",
@@ -6127,9 +6099,7 @@ export const brevierData = {
           "les_text_neu": "Preist Gott und bekennt ihm vor allen Lebenden das Gute, was er euch getan hat, damit wir ihn preisen und seinem Namen lobsingen!",
           "resp0": "Selig der Leib der Jungfrau Maria.",
           "resp1": "Der den Sohn des ewigen Vaters getragen.",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "les_text_lat": "Deum benedícite et illi confitémini coram ómnibus vivéntibus, quæ fecit nobíscum bona, ut benedicátis et decantétis nómini eius."
         },
         "Non": {
           "les_buch": "›Weish",
@@ -6137,9 +6107,7 @@ export const brevierData = {
           "les_text": "Ohne sich zu ändern, erneuert die Weisheit alles. Von Geschlecht zu Geschlecht tritt sie in heilige Seelen ein und schafft Freunde Gottes und Propheten; ^[denn Gott liebt nur den, der mit der Weisheit zusammenwohnt.^]^l^RUBRDer letzte Vers fehlt im Stundenbuch, gehört aber gemäß der Editio typica zur Perikope.^0RUBR",
           "resp0": "Du bist gebenedeit unter den Frauen.",
           "resp1": "Und gebenedeit ist die Frucht deines Leibes.",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "les_text_lat": "Sapiéntia in se pérmanens ómnia ínnovat, et per generatiónes in ánimas sanctas se tránsferens amícos Dei et prophétas constítuit. Nihil enim díligit Deus, nisi eum, qui cum sapiéntia inhábitat."
         },
         "Vesper": {
           "ant1": "Maria trat in das Haus des Zacharias und begrüßte Elisabeth.",
@@ -6153,14 +6121,13 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu Gott, dem allmächtigen Vater, der Maria, die Mutter seines Sohnes, den Menschen zur Fürsprecherin gegeben hat:",
           "bitten_r": "Höre auf die Fürbitte der seligen Jungfrau.",
           "bitten": "Du hast Maria den Menschen zur Mutter gegeben;^qauf ihre Fürsprache gewähre den Kranken Heilung und den Trauernden Trost.^pDu hast Maria zum Urbild deiner Kirche gemacht;^qgib, dass deine Gläubigen einmütig mit Maria im Gebet verharren.^pDu hast Maria die Gnade geschenkt, deinem Ruf zu folgen; ^qauf ihre Fürsprache hilf allen, die sich in deinen Dienst gestellt haben.^pDu hast Maria zur Mutter der Heiligen Familie bestellt;^qauf ihre Fürsprache hilf allen Müttern, ihre Aufgaben zu erfüllen.^pDu hast die unbefleckte Jungfrau mit Leib und Seele in den Himmel aufgenommen;^qschenke unseren Verstorbenen die ewige Freude mit Maria und all deinen Heiligen.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 8702.4,
+          "ant1_lat": "Intrávit María in domum Zacharíæ, et salutávit Elísabeth.",
+          "ant2_lat": "Ex quo facta est vox salutatiónis tuæ in áuribus meis, exsultávit infans in útero meo.",
+          "ant3_lat": "Benedícta tu inter mulíeres, et benedíctus fructus ventris tui.",
+          "antev_lat": "Beátam me dicent omnes generatiónes, quia ancíllam húmilem respéxit Deus.",
+          "bitten_lat": "Qui Maríam dedísti nobis matrem, ipsa intercedénte, concéde medélam lánguidis, solámen mæréntibus, véniam peccatóribus,^qet ómnibus salútem et pacem.^pEcclésia tua sit cor unum et ánima una in caritáte,^qet fidéles persevérent unánimes in oratióne cum María, matre Iesu.^pQui Maríam matrem misericórdiæ constituísti,^qversántibus in perículis concéde, ut matérnam eius dilectiónem experiántur.^pQui Maríam, in domo Iesu et Ioseph, matrem famílias esse voluísti,^qfac ut, ipsíus intercessióne, omnes matres in famíliis caritátem fóveant et sanctitátem.^pQui Maríam cæli coronásti regínam,^qfac ut defúncti in regno tuo cum sanctórum ágmine gáudeant in ætérnum.",
+          "les_text_lat": "Omnes ínvicem humilitátem indúite, quia Deus supérbis resístit, humílibus autem dat grátiam. Humiliámini ígitur sub poténti manu Dei, ut vos exáltet in témpore, omnem sollicitúdinem vestram proiciéntes in eum, quóniam ipsi cura est de vobis."
         }
       },
       "3": {

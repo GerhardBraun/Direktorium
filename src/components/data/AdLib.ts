@@ -3313,7 +3313,7 @@ export const adlibData = {
         "ErsteV": {
           "comm_1": "MärtPl",
           "oration": "Allmächtiger, ewiger Gott, du hast die Anfänge der Kirche von Rom durch das Blut vieler Märtyrer geheiligt. Das Opfer ihres Lebens werde uns zum Segen, ihr herrlicher Sieg stärke deine Kirche.^ORV",
-          "oration_lat": "Multitúdo ingens mártyrum in amóre fraternitátis pérstitit, quia unus spíritus et una fides erat in eis.^ORlV"
+          "oration_lat": "Deus, qui Románæ Ecclésiæ copiósa primórdia mártyrum sánguine consecrásti, concéde, quǽsumus, ut firma virtúte de tanti agóne certáminis solidémur, et pia semper victória gaudeámus.^ORlV"
         },
         "Lesehore": {
           "comm_1": "MärtPl",
@@ -3321,10 +3321,10 @@ export const adlibData = {
           "patr_werk": "Aus dem Brief an die Korinther.",
           "patr_text": "^hSie mussten als Opfer des Neides leiden und wurden leuchtende Vorbilder^pIch übergehe die älteren Beispiele und komme zu den Kämpfern der jüngeren Zeit und zu den edlen Gestalten unserer Generation. Als Opfer von Eifersucht und Neid wurden sie, die hohen Säulen der Gerechtigkeit, verfolgt, und sie kämpften bis zum Tod.^pHalten wir uns nur die guten Apostel vor Augen: Petrus, der als Opfer schnöden Neides nicht nur ein- oder zweimal, sondern vielmals leiden musste und so als Zeuge an den ihm gebührenden Ort der Herrlichkeit gelangte. Als Opfer von Neid und Hass hat Paulus den Siegespreis gewonnen. Siebenmal wurde er ins Gefängnis geworfen, musste flüchten und wurde gesteinigt. Er war Verkünder im Osten und Westen und erlangte hohen Ruhm seines Glaubens wegen. Er lehrte die ganze Welt Gerechtigkeit, kam bis an die Grenzen der Erde und legte vor den Behörden Zeugnis ab. Dann schied er aus dieser Welt und ging an den heiligen Ort als erhabenes Vorbild der Geduld.^pZu diesen Männern mit ihren erhabenen Lehren gesellte sich die große Schar der Auserwählten, die als Opfer der Eifersucht viel Schimpf und Misshandlung erdulden mussten und so unter uns zu leuchtenden Vorbildern wurden. Aus Eifersucht wurden Frauen wie Danaiden verfolgt, mussten wie Dirke Schreckliches und Gottloses erdulden und kamen so auf den rechten Weg des Glaubens; schwach dem Leib nach, erlangten sie dennoch den Siegespreis.^pEifersucht entfremdete die Gattin dem Mann und kehrte das Wort unseres Vaters Adam ins Gegenteil: „Das ist Bein von meinem Bein und Fleisch von meinem Fleisch“ {1#Gen 2,23}. Eifersucht und Streit haben große Städte zerstört und mächtige Völker ausgerottet.^pLiebe Brüder, das schreibe ich euch nicht nur, um euch zurechtzuweisen, sondern auch um mich selbst anzuspornen. Denn wir sind in der gleichen Arena, und derselbe Kampf ist uns auferlegt. Darum lasst uns die nichtigen und sinnlosen Sorgen aufgeben und uns an die ruhmreiche und ehrwürdige Regel der Vollkommenheit halten. Lasst uns erkennen, was gut, recht und wohlgefällig ist vor Gott, der uns erschaffen hat. Schauen wir hin auf das Blut Christi und beachten wir, wie hoch Gott, sein Vater, dieses Blut schätzt, das, zu unserem Heil ausgegossen, über die ganze Welt die Gnade der Umkehr gebracht hat.",
           "patr_resp1": "Für Gott gaben sie ihren Leib dem Tode hin",
-          "patr_resp2": "und gewannen den ewigen Siegeskranz.",
+          "patr_resp2": "und°gewannen den ewigen Siegeskranz.",
           "patr_resp3": "Sie haben ihre Kleider gewaschen im Blut des Lammes.",
           "oration": "Allmächtiger, ewiger Gott, du hast die Anfänge der Kirche von Rom durch das Blut vieler Märtyrer geheiligt. Das Opfer ihres Lebens werde uns zum Segen, ihr herrlicher Sieg stärke deine Kirche.^ORV",
-          "oration_lat": "Multitúdo ingens mártyrum in amóre fraternitátis pérstitit, quia unus spíritus et una fides erat in eis.^ORlV"
+          "oration_lat": "Deus, qui Románæ Ecclésiæ copiósa primórdia mártyrum sánguine consecrásti, concéde, quǽsumus, ut firma virtúte de tanti agóne certáminis solidémur, et pia semper victória gaudeámus.^ORlV"
         },
         "Laudes": {
           "button": "Die ersten hll. Märtyrer der Stadt Rom",
@@ -3333,14 +3333,14 @@ export const adlibData = {
           "antev": "Die gewaltige Schar der Märtyrer verharrte in brüderlicher Liebe, denn EIN Geist und EIN Glaube beseelte sie.",
           "oration": "Allmächtiger, ewiger Gott, du hast die Anfänge der Kirche von Rom durch das Blut vieler Märtyrer geheiligt. Das Opfer ihres Lebens werde uns zum Segen, ihr herrlicher Sieg stärke deine Kirche.^ORV",
           "antev_lat": "Multitúdo ingens mártyrum in amóre fraternitátis pérstitit, quia unus spíritus et una fides erat in eis.",
-          "oration_lat": "Multitúdo ingens mártyrum in amóre fraternitátis pérstitit, quia unus spíritus et una fides erat in eis.^ORlV"
+          "oration_lat": "Deus, qui Románæ Ecclésiæ copiósa primórdia mártyrum sánguine consecrásti, concéde, quǽsumus, ut firma virtúte de tanti agóne certáminis solidémur, et pia semper victória gaudeámus.^ORlV"
         },
         "Vesper": {
           "comm_1": "MärtPl",
           "antev": "Im Leben haben sie Christus geliebt, im Tode sind sie ihm nachgefolgt; deshalb herrschen sie mit ihm auf ewig.",
           "oration": "Allmächtiger, ewiger Gott, du hast die Anfänge der Kirche von Rom durch das Blut vieler Märtyrer geheiligt. Das Opfer ihres Lebens werde uns zum Segen, ihr herrlicher Sieg stärke deine Kirche.^ORV",
           "antev_lat": "Amavérunt Christum in vita sua, imitáti sunt eum in morte; et ídeo cum ipso regnant in ætérnum.",
-          "oration_lat": "Multitúdo ingens mártyrum in amóre fraternitátis pérstitit, quia unus spíritus et una fides erat in eis.^ORlV"
+          "oration_lat": "Deus, qui Románæ Ecclésiæ copiósa primórdia mártyrum sánguine consecrásti, concéde, quǽsumus, ut firma virtúte de tanti agóne certáminis solidémur, et pia semper victória gaudeámus.^ORlV"
         }
       },
       "n2": {

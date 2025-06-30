@@ -4700,6 +4700,32 @@ export const psalmsData = {
         "text_lat": "Ave, maris stella,^lDei mater alma,^latque semper virgo,^lfelix cæli porta.^pSumens illud „Ave“^lGabriélis ore,^lfunda nos in pace,^lmutans Evæ nomen.^pSolve vincla reis,^lprofer lumen cæcis,^lmala nostra pelle,^lbona cuncta posce.^pMonstra t>e esse matrem,^lsumat per te precem^lqui pro nobis natus^ltulit esse tuus.^pVirgo singuláris,^linter omnes mitis,^lnos culpis solútos^lmites fac et castos.^pVitam præsta puram,^liter para tutum,^lut vidéntes Iesum^lsemper collætémur.^pSit laus Deo Patri,^lsummo Christo decus,^lSpirítui Sancto^lhonor, tribus unus."
       }
   },
+  5509: {
+    0.0: {
+        "quote": "plurimorum Martyrum Lh",
+        "title_lat": "Rex glorióse mártyrum",
+        "text_lat": "Rex glorióse mártyrum,^lcoróna confiténtium,^lqui respuéntes térrea^lperdúcis ad cæléstia,^pAurem benígnam prótinus^lappóne nostris vócibus;^ltropǽa sacra pángimus,^lignósce quod delíquimus.^pTu vincis in martýribus^lparcéndo confessóribus;^ltu vince nostra crímina^ldonándo indulgéntiam.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^lregnans per omne sǽculum."
+      }
+  },
+  5517: {
+    0.0: {
+        "quote": "plurimorum Martyrum Ld",
+        "title_lat": "Ætérna Christi múnera",
+        "text_lat": "Ætérna Christi múnera^let mártyrum victórias,^llaudes feréntes débitas,^llætis canámus méntibus.^pEcclesiárum príncipes,^lbelli triumpháles duces,^lcæléstis aulæ mílites^let vera mundi lúmina.^pTerróre victo sǽculi^lpœnísque spretis córporis,^lmortis sacræ compéndio^llucem beátam póssident.^pTortóris insáni manu^lsanguis sacrátus fúnditur,^lsed pérmanent immóbiles^lvitæ perénnis grátia.^pDevóta sanctórum fides,^linvícta spes credéntium,^lperfécta Christi cáritas^lmundi triúmphat príncipem.^pIn his patérna glória,^lin his volúntas Spíritus,^lexsúltat in his Fílius,^lcælum replétur gáudio.^pTe nunc, Redémptor, quǽsumus,^lut mártyrum consórtio^liungas precántes sérvulos^lin sempitérna sǽcula."
+      }
+  },
+  5523: {
+    0.0: {
+        "quote": "plurimorum Martyrum Vp Männer",
+        "title_lat": "Sanctórum méritis ínclita gáudia",
+        "text_lat": "Sanctórum méritis ínclita gáudia^lpangámus, sócii, géstaque fórtia;^lnam gliscit ánimus prómere cántibus^lvictórum genus óptimum.^pHi sunt, quos rétinens mundus inhórruit,^lipsum nam stérili flore peráridum^lsprevére pénitus teque secúti sunt,^lrex, Christe, bone cǽlitum.^pHi pro te fúrias sǽvaque sústinent;^lnon murmur résonat, non querimónia,^lsed corde tácito mens bene cónscia^lconsérvat patiéntiam.^pQuæ vox, quæ póterit lingua retéxere^lquæ tu martýribus múnera prǽparas?^lRubri nam flúido sánguine láureis^lditántur bene fúlgidis.^pTe, trina Déitas únaque, póscimus,^lut culpas ábluas, nóxia súbtrahas,^ldes pacem fámulis, nos quoque glóriam^lper cuncta tibi sǽcula."
+      },
+    1.0: {
+        "quote": "plurimorum Martyrum Vp Frauen",
+        "title_lat": "Sanctórum méritis ínclita gáudia",
+        "text_lat": "Sanctórum méritis ínclita gáudia^lpangámus, sócii, géstaque fórtia;^lnam gliscit ánimus prómere cántibus^lvictórum genus óptimum.^pHæ sunt, quas rétinens mundus inhórruit,^lipsum nam stérili flore peráridum^lsprevére pénitus teque secútæ sunt,^lrex, Christe, bone cǽlitum.^pHæ pro te fúrias sǽvaque sústinent;^lnon murmur résonat, non querimónia,^lsed corde tácito mens bene cónscia^lconsérvat patiéntiam.^pQuæ vox, quæ póterit lingua retéxere^lquæ tu martýribus múnera prǽparas?^lRubri nam flúido sánguine láureis^lditántur bene fúlgidis.^pTe, trina Déitas únaque, póscimus,^lut culpas ábluas, nóxia súbtrahas,^ldes pacem fámulis, nos quoque glóriam^lper cuncta tibi sǽcula."
+      }
+  },
   5630: {
     0.0: {
         "quote": "Comm Virorum Lh+Vp",
@@ -4914,6 +4940,21 @@ export const psalmsData = {
         "title": "O Roma felix!",
         "quote": "Peter und Paul: Lh und Ld dt.",
         "text": "O Roma felix!^/Der Apostelfürsten Tod^lhat mit dem Purpur^/ihres Blutes dich geschmückt.^lIhr großes Leben,^/nicht dein Ruhm und deine Macht,^lgibt dir den Vorrang^/vor den Städten dieser Welt.^pPförtner des Himmels,^/Petrus, der die Schlüssel trägt,^lVölkerapostel,^/Paulus, der die Heiden ruft:^lLeuchten des Weltalls,^/habt den Glauben ihr bezeugt –^leiner am Kreuze^/und der andre unterm Schwert.^pGöttliche Dreiheit,^/Vater, Sohn und Heil’ger Geist,^lhöre den Lobpreis,^/den wir deiner Größe weihn,^lda das Gedächtnis^/deiner Zeugen uns erfreut.^lGib uns wie ihnen^/einst den Thron der Seligkeit."
+      }
+  },
+  8702: {
+    1.0: {
+        "title_lat": "Veni, præcélsa Dómina",
+        "text_lat": "Veni, præcélsa Dómina;^lMaría, tu nos vísita,^lquæ iam cognátæ dómui^ltantum portásti gáudii.^pVeni, iuvámen sǽculi,^lsordes aufer piáculi,^lac visitándo pópulum^lpœnæ tolle perículum.^pVeni, stella, lux márium,^linfúnde pacis rádium;^lrege quodcúmque dévium,^lda vitam innocéntium.^pVeni, precámur, vísites^lnobísque vires róbores^lvirtúte sacri ímpetus,^lne fluctuétur ánimus.^pVeni, virga regálium,^lreduc fluctus errántium^lad unitátem fídei,^lin qua salvántur cǽlici.^pVeni, tecúmque Fílium^llaudémus in perpétuum,^lcum Patre et Sancto Spíritu,^lqui nobis dent auxílium."
+      },
+    2.0: {
+        "title_lat": "Véniens, mater ínclita",
+        "text_lat": "Véniens, mater ínclita,^lcum Sancti dono Spíritus,^lnos ut Ioánnem vísita^lin huius carnis sédibus.^pProcéde, portans párvulum,^lut mundus possit crédere^let tuæ laudis títulum^lomnes sciant extóllere.^pSalúta nunc Ecclésiam,^lut tuam vocem áudiens^lexsúrgat in lætítia,^ladvéntum Christi séntiens.^pMaría, levans óculos,^lvide credéntes pópulos:^lte quærunt piis méntibus,^lhis opem feres ómnibus.^pO veræ spes lætítiæ,^lnostræ portus misériæ,^lnos iunge cæli cúriæ^lornátos stola glóriæ.^pTecum, Virgo, magníficat^lánima nostra Dóminum,^lqui laude te nobílitat^let hóminum et cǽlitum."
+      },
+    4.0: {
+        "quote": "Mariae Heimsuchung",
+        "title_lat": "Cóncito gressu petis alta montis",
+        "text_lat": "Cóncito gressu^/petis alta montis,^lVirgo, quam matrem^/Deus ipse fecit,^lut seni matri^/studiós>i amóris^lpígnora promas.^pCum salutántis^/capit illa vocem,^lábditus gestit^/puer exsilíre,^lte parens dicit^/dóminam, salútat^lteque beátam.^pIpsa prædícis^/fore te beátam^lSpíritu fervens^/pénitus loquénte,^lac Deum cantu^/célebras amœ́no^lmagn>a operántem.^pTeque felícem^/pópuli per orbem^lsemper, o mater,^/récitant ovántes^latque te credunt^/Dómini favórum^lesse minístram.^pQuæ, ferens Christum,^/nova semper affers^ldona, tu nobis^/fer opes salútis,^lqui pie tecum^/Tríadem supérnam^lmagnificámus. Amen.^l"
       }
   },
   8711: {
