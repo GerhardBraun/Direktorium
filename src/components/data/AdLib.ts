@@ -3330,7 +3330,7 @@ export const adlibData = {
           "button": "Die ersten hll. Märtyrer der Stadt Rom",
           "farbe": "r",
           "comm_1": "MärtPl",
-          "antev": "Die gewaltige Schar der Märtyrer verharrte in brüderlicher Liebe, denn EIN Geist und EIN Glaube beseelte sie.",
+          "antev": "Die gewaltige Schar der Märtyrer verharrte in brüderlicher Liebe, denn^w ein^0w Geist und^w ein^0w Glaube beseelte sie.",
           "oration": "Allmächtiger, ewiger Gott, du hast die Anfänge der Kirche von Rom durch das Blut vieler Märtyrer geheiligt. Das Opfer ihres Lebens werde uns zum Segen, ihr herrlicher Sieg stärke deine Kirche.^ORV",
           "antev_lat": "Multitúdo ingens mártyrum in amóre fraternitátis pérstitit, quia unus spíritus et una fides erat in eis.",
           "oration_lat": "Deus, qui Románæ Ecclésiæ copiósa primórdia mártyrum sánguine consecrásti, concéde, quǽsumus, ut firma virtúte de tanti agóne certáminis solidémur, et pia semper victória gaudeámus.^ORlV"

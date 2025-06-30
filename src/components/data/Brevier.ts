@@ -6134,7 +6134,7 @@ export const brevierData = {
         "each": {
           "comm_1": "Apostel",
           "oration": "Allmächtiger Gott, am Fest des heiligen Thomas bitten wir dich: Höre auf seine Fürsprache und bewahre unseren Glauben in der Not des Zweifels; öffne unser Herz für das Wort deines Sohnes, damit wir wie Thomas ihn bekennen als unseren Herrn und Gott und das Leben haben im Namen Jesu Christi,^ORR",
-          "oration_lat": ""
+          "oration_lat": "Da nobis, omnípotens Deus, beáti Thomæ apóstoli festivitáte gloriári, ut eius semper et patrocíniis sublevémur, et vitam credéntes habeámus in nómine eius, quem ipse Dóminum agnóvit, Iesum Christum Fílium tuum.^ORlR"
         },
         "Lesehore": {
           "patr_autor": "Gregor der Große († 604)",
@@ -6142,10 +6142,7 @@ export const brevierData = {
           "patr_text": "^hMein Herr und mein Gott!^p„Thomas, genannt Didymus (Zwilling), einer der Zwölf, war nicht bei ihnen, als Jesus kam.“{1#Joh 20,24} Dieser eine Jünger fehlte. Als er zurückkehrte, hörte er, was geschehen war, wollte das Gehörte aber nicht glauben. Da kam Jesus noch einmal und ließ den ungläubigen Jünger die Seite berühren, zeigte ihm die Hände und heilte durch den Anblick der Male die Wunde seines Unglaubens. Liebe Brüder, was fällt euch dabei auf? Haltet ihr es für einen Zufall, dass dieser erwählte Jünger damals nicht dabei war, dann aber kam und hörte, hörte und zweifelte, zweifelte und betastete, betastete und glaubte?^pDas geschah nicht durch Zufall, sondern durch Fügung Gottes. Denn seine Milde bewirkte in wunderbarer Weise, dass dieser zweifelnde Jünger in uns die Wunden des Unglaubens heilte, als er die Wunden am Leib des Meisters berührte. Mehr nützt uns der Unglaube des Thomas zum Glauben als der Glaube der glaubenden Jünger. Denn indem Thomas durch das Betasten zum Glauben zurückgeführt wird, lässt unser Geist jeden Zweifel fallen und wird im Glauben gefestigt.^pSo wurde jener Jünger zweifelnd und betastend Zeuge der wirklichen Auferstehung. Er betastete und rief: „Mein Herr und mein Gott!“ Jesus sagte zu ihm: „Weil du mich gesehen hast, glaubst du.“{2#Joh 20,28.29} Aber Paulus sagt doch: „Glauben aber ist: Feststehen in dem, was man erhofft, Überzeugtsein von Dingen, die man nicht sieht“{3#Hebr 11,1}, sicherlich deswegen, weil der Glaube eine Überzeugung von Wirklichkeiten ist, die nicht sichtbar sein können. Was wir sehen, das glauben wir nicht, sondern das kennen wir. Thomas sieht und berührt. Warum wird dann von ihm gesagt: „Weil du mich gesehen hast, glaubst du“? Nun, was er sah, war etwas anderes als das, was er glaubte. Der sterbliche Mensch konnte Gott nicht sehen. Er sah den Menschen, aber er bekannte Gott: „Mein Herr und mein Gott!“ Im Sehen glaubte er; als er den wirklichen Menschen sah, bekannte er in seinem Ausruf den Gott, den er nicht sehen konnte.^pGroße Freude schafft, was nun folgt: „Selig sind, die nicht sehen und doch glauben!“{4#Joh 20,29} In diesem Ausspruch sind ohne Zweifel zunächst wir gemeint, die wir Gott nicht gesehen haben, aber im Herzen bewahren. Wir sind in dem Sinn gemeint, dass unserem Glauben die Taten folgen sollen. Denn der glaubt im Vollsinn, der in der Tat ausübt, was er glaubt. Paulus aber sagt von denen, die den Glauben nur mit dem Mund bekennen: „Sie beteuern, Gott zu kennen, durch ihr Tun aber verleugnen sie ihn.“{5#Tit 1,16} Darum schreibt Jakobus: „Glaube ohne Werke ist nutzlos.“{6#Jak 2,20}",
           "patr_resp1": "Das Leben ist erschienen; wir haben gesehen und bezeugen und verkünden euch das Leben:",
           "patr_resp2": "es war beim Vater und ist uns erschienen.",
-          "patr_resp3": "Was wir vom Wort des Lebens sahen und hörten, das verkünden wir.",
-          "patr_resp1_lat": "",
-          "patr_resp2_lat": "",
-          "patr_resp3_lat": ""
+          "patr_resp3": "Was wir vom Wort des Lebens sahen und hörten, das verkünden wir."
         },
         "Laudes": {
           "button": "Hl. Thomas",
@@ -6154,20 +6151,20 @@ export const brevierData = {
           "ant2": "Thomas war nicht bei den Jüngern, als Jesus kam. Sie sagten zu ihm: Wir haben den Herrn gesehen.^Ö",
           "ant3": "Lege deine Hand in meine Wunden und erkenne die Male der Nägel, und sei nicht ungläubig, sondern gläubig.",
           "antev": "Weil du mich gesehen hast, Thomas, glaubst du. Selig, die nicht sehen und doch glauben.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "antev_lat": ""
+          "ant1_lat": "Dicit Thomas: Dómine, nescímus quo vadis, et quómodo póssumus viam scire? Dicit ei Iesus: Ego sum via, véritas et vita.",
+          "ant2_lat": "Thomas, qui dícitur Dídymus, non erat cum eis quando venit Iesus; dixérunt álii discípuli: Vídimus Dóminum.^LÖ",
+          "ant3_lat": "Mitte manum tuam et cognósce loca clavórum, et noli esse incrédulus sed fidélis.^LÖ",
+          "antev_lat": "Quia vidísti me, Thoma, credidísti; beáti qui non vidérunt et credidérunt.^LÖ"
         },
         "Vesper": {
           "ant1": "Thomas sagte: Herr, wir wissen nicht, wohin du gehst; wie sollten wir den Weg kennen? Jesus erwiderte ihm: Ich bin der Weg und die Wahrheit und das Leben.",
           "ant2": "Thomas war nicht bei den Jüngern, als Jesus kam. Sie sag-ten zu ihm: Wir haben den Herrn gesehen.^Ö",
           "ant3": "Lege deine Hand in meine Wunden und erkenne die Male der Nägel, und sei nicht ungläubig, sondern gläubig.",
           "antev": "Meine Finger legte ich in seine Wunden und meine Hand in seine Seite, und ich rief: Mein Herr und mein Gott.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "antev_lat": ""
+          "ant1_lat": "Dicit Thomas: Dómine, nescímus quo vadis, et quómodo póssumus viam scire? Dicit ei Iesus: Ego sum via, véritas et vita.",
+          "ant2_lat": "Thomas, qui dícitur Dídymus, non erat cum eis quando venit Iesus; dixérunt álii discípuli: Vídimus Dóminum.^LÖ",
+          "ant3_lat": "Mitte manum tuam et cognósce loca clavórum, et noli esse incrédulus sed fidélis.^LÖ",
+          "antev_lat": "Misi dígitos meos in fixúras clavórum et manus meas in latus eius, et dixi: Dóminus meus et Deus meus.^LÖ"
         }
       },
       "11": {
