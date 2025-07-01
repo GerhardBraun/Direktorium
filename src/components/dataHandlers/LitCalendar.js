@@ -123,10 +123,10 @@ function calculateRanks(date, season, week, dayOfWeek, swdCombined, afterPenteco
 
         // Schleife durch die Ränge (von hoch zu niedrig)
         for (const rank of [5, 4, 3, 2]) {
-            if (tableOfRanks?.[diocese]?.[rank]?.includes(dateCompare) ||
-                tableOfRanks?.[rank]?.includes(dateCompare)) {
-                return rank;
-            }
+            if (tableOfRanks?.[diocese]?.[rank]?.includes(dateCompare)) { return rank; }
+        }
+        for (const rank of [5, 4, 3, 2]) {
+            if (tableOfRanks?.[rank]?.includes(dateCompare)) { return rank; }
         }
         return 0; // Kein spezieller Rang gefunden
     }

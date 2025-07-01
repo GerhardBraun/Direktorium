@@ -298,6 +298,29 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         return text;
     }
 
+    const replaceNames = (text) => {
+        return text
+            .replace(/\^NP/g, getLocalStorage('popeName') || 'Leo')
+            .replace(/\^NB/g, getLocalStorage('bishopName') || '^N')
+            .replace(/\^N(dat|akk|abl)(P|B)/g, (match, casus, person) => {
+                const name = person === 'P'
+                    ? getLocalStorage('popeNameLat') || 'Leóni'
+                    : getLocalStorage('bishopNameLat') || '^N';
+
+                if (casus === 'akk') {
+                    return name.replace(/i\b/g, 'em').replace(/o\b/g, 'um');
+                }
+                if (casus === 'abl') {
+                    return name.replace(/i\b/g, 'e');
+                }
+                return name; // dat case
+            })
+            .replace(/(HERRN?|GOTT)/g, (match) => {
+                const word = firstCapital(match);
+                return localPrefLanguage === '_neu' ? `^c${word}^0c` : word;
+            })
+    }
+
     marker = (marker === 'commemoration') ? '' : marker;
     let text = marker ? `^r${marker}^0r${provText}` : provText;
     const maxLineLength = calculateMaxLineLength(text);
@@ -324,23 +347,8 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         .replace(/\^Lö/g, (season === 'o' && !swdCombined.startsWith('o-9-'))
             ? ' Allelúia.' : '')
         .replace(/\^LÖ/g, season === 'q' ? '' : ' Allelúia.')
-        .replace(/\^NP/g, getLocalStorage('popeName') || 'Leo')
-        .replace(/\^NB/g, getLocalStorage('bishopName') || '^N')
-        .replace(/\^NdatP/g, getLocalStorage('popeNameLat') || 'Leóni')
-        .replace(/\^NdatB/g, getLocalStorage('bishopNameLat') || '^N')
-        .replace(/\^NakkP/g, getLocalStorage('popeNameLat')
-            .replace(/i\b/g, 'em').replace(/o\b/g, 'um') || 'Leónem')
-        .replace(/\^NakkB/g, getLocalStorage('bishopNameLat')
-            .replace(/i\b/g, 'em').replace(/o\b/g, 'um') || '^N')
-        .replace(/\^NablP/g, getLocalStorage('popeNameLat')
-            .replace(/i\b/g, 'e') || 'Leóne')
-        .replace(/\^NablB/g, getLocalStorage('bishopNameLat')
-            .replace(/i\b/g, 'e') || '^N')
-        .replace(/(HERRN?|GOTT)/g, (match) => {
-            const word = firstCapital(match);
-            return localPrefLanguage === '_neu' ? `^c${word}^0c` : word;
-        })
 
+    text = replaceNames(text)
     text = replaceRESP(text);
     text = replaceOR(text);
     text = replacePronomina(text);
