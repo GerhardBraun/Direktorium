@@ -10,7 +10,7 @@ const TitleBar = ({ title, onPrevDay, onNextDay, swdWritten }) => {
             >
                 ‹
             </button>
-            <div className="text-center">
+            <div className="px-2 text-center">
                 <h1 className="text-xl font-bold text-gray-900 dark:text-gray-100">
                     {title}
                 </h1>
