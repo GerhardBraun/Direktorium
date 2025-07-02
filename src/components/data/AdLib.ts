@@ -3402,7 +3402,8 @@ export const adlibData = {
       "n2": {
         "ErsteV": {
           "comm_1": "Frau_Liebe",
-          "oration": "Gott, du Ursprung der Liebe und des Friedens, du hast der heiligen Königin Elisabeth von Portugal die Gnade verliehen, Feinde miteinander zu versöhnen. Auf ihre Fürbitte lehre auch uns, Frieden zu stiften, damit wir uns als deine Kinder erweisen.^ORV"
+          "oration": "Gott, du Ursprung der Liebe und des Friedens, du hast der heiligen Königin Elisabeth von Portugal die Gnade verliehen, Feinde miteinander zu versöhnen. Auf ihre Fürbitte lehre auch uns, Frieden zu stiften, damit wir uns als deine Kinder erweisen.^ORV",
+          "oration_lat": "Deus, auctor pacis et amátor caritátis, qui beátam Elísabeth mira dissidéntes componéndi grátia decorásti, da nobis, eius intercessióne, pacis ópera exercére, ut fílii Dei nominári possímus.^ORlV"
         },
         "Lesehore": {
           "comm_1": "Frau_Liebe",
@@ -3412,17 +3413,20 @@ export const adlibData = {
           "patr_resp1": "Brich den Hungernden dein Brot und führe die Armen und Obdachlosen in dein Haus,",
           "patr_resp2": "dann bricht dein Licht auf wie der Morgen, und deine Gerechtigkeit geht dir voraus.",
           "patr_resp3": "Wenn du einen Nackten siehst, bekleide ihn. Verachte ihn nicht, er ist ein Mensch wie du.",
-          "oration": "Gott, du Ursprung der Liebe und des Friedens, du hast der heiligen Königin Elisabeth von Portugal die Gnade verliehen, Feinde miteinander zu versöhnen. Auf ihre Fürbitte lehre auch uns, Frieden zu stiften, damit wir uns als deine Kinder erweisen.^ORV"
+          "oration": "Gott, du Ursprung der Liebe und des Friedens, du hast der heiligen Königin Elisabeth von Portugal die Gnade verliehen, Feinde miteinander zu versöhnen. Auf ihre Fürbitte lehre auch uns, Frieden zu stiften, damit wir uns als deine Kinder erweisen.^ORV",
+          "oration_lat": "Deus, auctor pacis et amátor caritátis, qui beátam Elísabeth mira dissidéntes componéndi grátia decorásti, da nobis, eius intercessióne, pacis ópera exercére, ut fílii Dei nominári possímus.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Elisabeth von Portugal",
           "genitiv": "der heiligen Elisabeth",
           "comm_1": "Frau_Liebe",
-          "oration": "Gott, du Ursprung der Liebe und des Friedens, du hast der heiligen Königin Elisabeth von Portugal die Gnade verliehen, Feinde miteinander zu versöhnen. Auf ihre Fürbitte lehre auch uns, Frieden zu stiften, damit wir uns als deine Kinder erweisen.^ORV"
+          "oration": "Gott, du Ursprung der Liebe und des Friedens, du hast der heiligen Königin Elisabeth von Portugal die Gnade verliehen, Feinde miteinander zu versöhnen. Auf ihre Fürbitte lehre auch uns, Frieden zu stiften, damit wir uns als deine Kinder erweisen.^ORV",
+          "oration_lat": "Deus, auctor pacis et amátor caritátis, qui beátam Elísabeth mira dissidéntes componéndi grátia decorásti, da nobis, eius intercessióne, pacis ópera exercére, ut fílii Dei nominári possímus.^ORlV"
         },
         "Vesper": {
           "comm_1": "Frau_Liebe",
-          "oration": "Gott, du Ursprung der Liebe und des Friedens, du hast der heiligen Königin Elisabeth von Portugal die Gnade verliehen, Feinde miteinander zu versöhnen. Auf ihre Fürbitte lehre auch uns, Frieden zu stiften, damit wir uns als deine Kinder erweisen.^ORV"
+          "oration": "Gott, du Ursprung der Liebe und des Friedens, du hast der heiligen Königin Elisabeth von Portugal die Gnade verliehen, Feinde miteinander zu versöhnen. Auf ihre Fürbitte lehre auch uns, Frieden zu stiften, damit wir uns als deine Kinder erweisen.^ORV",
+          "oration_lat": "Deus, auctor pacis et amátor caritátis, qui beátam Elísabeth mira dissidéntes componéndi grátia decorásti, da nobis, eius intercessióne, pacis ópera exercére, ut fílii Dei nominári possímus.^ORlV"
         }
       }
     },
@@ -3431,7 +3435,8 @@ export const adlibData = {
         "ErsteV": {
           "comm_1": "Hirten",
           "comm_2": "Mann_Ord",
-          "oration": "Herr, unser Gott, im Geist des Apostels Paulus wollte der heilige Antonius Maria Zaccaria nichts anderes verkünden als Jesus Christus, den Gekreuzigten. Lass auch uns die alles überragende Erkenntnis Christi suchen und in der Torheit des Kreuzes die wahre Weisheit finden.^ORvR"
+          "oration": "Herr, unser Gott, im Geist des Apostels Paulus wollte der heilige Antonius Maria Zaccaria nichts anderes verkünden als Jesus Christus, den Gekreuzigten. Lass auch uns die alles überragende Erkenntnis Christi suchen und in der Torheit des Kreuzes die wahre Weisheit finden.^ORvR",
+          "oration_lat": "Da nobis, Dómine, ut supereminéntem Iesu Christi sciéntiam spíritu Pauli apóstoli prosequámur, qua beátus Antónius María erudítus verbum salútis in Ecclésia tua iúgiter prædicávit.^ORlV"
         },
         "Lesehore": {
           "comm_1": "Hirten",
@@ -3442,7 +3447,8 @@ export const adlibData = {
           "patr_resp1": "Ich bezeuge den Glauben an den Herrn Jesus Christus und fürchte nichts.",
           "patr_resp2": "Ich schäme mich des Evangeliums nicht.",
           "patr_resp3": "Ich will mein Leben geringschätzen, wenn nur das Wort verkündet wird.",
-          "oration": "Herr, unser Gott, im Geist des Apostels Paulus wollte der heilige Antonius Maria Zaccaria nichts anderes verkünden als Jesus Christus, den Gekreuzigten. Lass auch uns die alles überragende Erkenntnis Christi suchen und in der Torheit des Kreuzes die wahre Weisheit finden.^ORvR"
+          "oration": "Herr, unser Gott, im Geist des Apostels Paulus wollte der heilige Antonius Maria Zaccaria nichts anderes verkünden als Jesus Christus, den Gekreuzigten. Lass auch uns die alles überragende Erkenntnis Christi suchen und in der Torheit des Kreuzes die wahre Weisheit finden.^ORvR",
+          "oration_lat": "Da nobis, Dómine, ut supereminéntem Iesu Christi sciéntiam spíritu Pauli apóstoli prosequámur, qua beátus Antónius María erudítus verbum salútis in Ecclésia tua iúgiter prædicávit.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Antonius Maria Zaccaria",
@@ -3450,12 +3456,14 @@ export const adlibData = {
           "genitiv": "des heiligen Antonius Maria Zaccaria",
           "comm_1": "Hirten",
           "comm_2": "Mann_Ord",
-          "oration": "Herr, unser Gott, im Geist des Apostels Paulus wollte der heilige Antonius Maria Zaccaria nichts anderes verkünden als Jesus Christus, den Gekreuzigten. Lass auch uns die alles überragende Erkenntnis Christi suchen und in der Torheit des Kreuzes die wahre Weisheit finden.^ORvR"
+          "oration": "Herr, unser Gott, im Geist des Apostels Paulus wollte der heilige Antonius Maria Zaccaria nichts anderes verkünden als Jesus Christus, den Gekreuzigten. Lass auch uns die alles überragende Erkenntnis Christi suchen und in der Torheit des Kreuzes die wahre Weisheit finden.^ORvR",
+          "oration_lat": "Da nobis, Dómine, ut supereminéntem Iesu Christi sciéntiam spíritu Pauli apóstoli prosequámur, qua beátus Antónius María erudítus verbum salútis in Ecclésia tua iúgiter prædicávit.^ORlV"
         },
         "Vesper": {
           "comm_1": "Hirten",
           "comm_2": "Mann_Ord",
-          "oration": "Herr, unser Gott, im Geist des Apostels Paulus wollte der heilige Antonius Maria Zaccaria nichts anderes verkünden als Jesus Christus, den Gekreuzigten. Lass auch uns die alles überragende Erkenntnis Christi suchen und in der Torheit des Kreuzes die wahre Weisheit finden.^ORvR"
+          "oration": "Herr, unser Gott, im Geist des Apostels Paulus wollte der heilige Antonius Maria Zaccaria nichts anderes verkünden als Jesus Christus, den Gekreuzigten. Lass auch uns die alles überragende Erkenntnis Christi suchen und in der Torheit des Kreuzes die wahre Weisheit finden.^ORvR",
+          "oration_lat": "Da nobis, Dómine, ut supereminéntem Iesu Christi sciéntiam spíritu Pauli apóstoli prosequámur, qua beátus Antónius María erudítus verbum salútis in Ecclésia tua iúgiter prædicávit.^ORlV"
         }
       }
     },

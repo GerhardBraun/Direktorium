@@ -4700,6 +4700,32 @@ export const psalmsData = {
         "text_lat": "Ave, maris stella,^lDei mater alma,^latque semper virgo,^lfelix cæli porta.^pSumens illud „Ave“^lGabriélis ore,^lfunda nos in pace,^lmutans Evæ nomen.^pSolve vincla reis,^lprofer lumen cæcis,^lmala nostra pelle,^lbona cuncta posce.^pMonstra t>e esse matrem,^lsumat per te precem^lqui pro nobis natus^ltulit esse tuus.^pVirgo singuláris,^linter omnes mitis,^lnos culpis solútos^lmites fac et castos.^pVitam præsta puram,^liter para tutum,^lut vidéntes Iesum^lsemper collætémur.^pSit laus Deo Patri,^lsummo Christo decus,^lSpirítui Sancto^lhonor, tribus unus."
       }
   },
+  5493: {
+    0.0: {
+        "quote": "Comm Apostolorum Ld",
+        "title_lat": "O sempitérnæ cúriæ",
+        "text_lat": "O sempitérnæ cúriæ^lregis suprémi príncipes,^lquos ipse Iesus édocens^ldonávit orbi Apóstolos,^pSupérna vos Ierúsalem,^llucérna cuius Agnus est,^lgemmas micántes póssidet,^lpræclára vos fundámina.^pVos et celébrat grátulans^lnunc sponsa Christi Ecclésia,^lquam sermo vester éxciit,^lquam consecrástis sánguine.^pCadéntibus cum sǽculis^liudex Redémptor séderit,^lqua laude vos sedébitis,^lsenátus altæ glóriæ!^pNos ergo vestra iúgiter^lprex adiuvándo róboret,^lfudístis ut quæ sémina^lin grana cæli flóreant.^pÆtérna Christo glória,^lqui fecit esse núntios^lvos Patris, atque Spíritus^lreplévit almo númine."
+      }
+  },
+  5494: {
+    0.0: {
+        "quote": "Comm Apostolorum Ld TP",
+        "title_lat": "Claro paschali gaudio"
+      }
+  },
+  5497: {
+    0.0: {
+        "quote": "Comm Apostolorum Vp",
+        "title_lat": "Exsúltet cælum láudibus",
+        "text_lat": "Exsúltet cælum láudibus,^lresúltet terra gáudiis:^lApostolórum glóriam^lsacra canunt sollémnia.^pVos, sæcli iusti iúdices^let vera mundi lúmina,^lvotis precámur córdium,^laudíte preces súpplicum.^pQui cælum verbo cláuditis^lserásque eius sólvitis,^lnos a peccátis ómnibus^lsólvite iussu, quǽsumus.^pQuorum præcépto súbditur^lsalus et languor ómnium,^lsanáte ægros móribus,^lnos reddéntes virtútibus,^pUt, cum iudex advénerit^lChristus in fine sǽculi,^lnos sempitérni gáudii^lfáciat esse cómpotes.^pDeo sint laudes glóriæ,^lqui dat nos evangélicis^lper vos doctrínis ínstrui^let prósequi cæléstia."
+      }
+  },
+  5498: {
+    0.0: {
+        "quote": "Comm Apostolorum Vp TP",
+        "title_lat": "Tristis erant apostoli"
+      }
+  },
   5509: {
     0.0: {
         "quote": "plurimorum Martyrum Lh",
@@ -4726,6 +4752,60 @@ export const psalmsData = {
         "text_lat": "Sanctórum méritis ínclita gáudia^lpangámus, sócii, géstaque fórtia;^lnam gliscit ánimus prómere cántibus^lvictórum genus óptimum.^pHæ sunt, quas rétinens mundus inhórruit,^lipsum nam stérili flore peráridum^lsprevére pénitus teque secútæ sunt,^lrex, Christe, bone cǽlitum.^pHæ pro te fúrias sǽvaque sústinent;^lnon murmur résonat, non querimónia,^lsed corde tácito mens bene cónscia^lconsérvat patiéntiam.^pQuæ vox, quæ póterit lingua retéxere^lquæ tu martýribus múnera prǽparas?^lRubri nam flúido sánguine láureis^lditántur bene fúlgidis.^pTe, trina Déitas únaque, póscimus,^lut culpas ábluas, nóxia súbtrahas,^ldes pacem fámulis, nos quoque glóriam^lper cuncta tibi sǽcula."
       }
   },
+  5564: {
+    1.0: {
+        "quote": "Comm pro Papa Lh"
+      },
+    2.0: {
+        "quote": "Comm pro Episcopo Lh"
+      },
+    3.0: {
+        "quote": "Comm pro Presbytero Lh",
+        "title_lat": "Christe, pastórum caput atque princeps",
+        "text_lat": "Christe, pastórum caput atque princeps,^lgéstiens huius celebráre festum,^ldébitas sacro pia turba psallit^lcármine laudes,^pHunc tibi eléctum fáciens minístrum^lac sacerdótem sócians, dedísti^ldux ut astáret pópulo fidélis^lac bonus altor.^pHic gregis ductor fuit atque forma,^llux erat cæco, mísero levámen,^lpróvidus cunctis pater omnibúsque^lómnia factus.^pChriste, qui sanctis méritam corónam^lreddis in cælis, dócili magístrum^lfac sequi vita, similíque tandem^lfine potíri.^pÆqua laus summum célebret Paréntem^lteque, Salvátor, pie rex, per ævum;^lSpíritus Sancti résonet per omnem^lglória mundum."
+      }
+  },
+  5565: {
+    0.0: {
+        "quote": "Comm pro pluribus Pastoribus Lh"
+      }
+  },
+  5580: {
+    1.0: {
+        "quote": "Comm pro Papa Ld"
+      },
+    2.0: {
+        "quote": "Comm pro Episcopo Ld"
+      },
+    3.0: {
+        "quote": "Comm pro Presbytero Ld",
+        "title_lat": "Inclitus rector pater atque prudens",
+        "text_lat": "Inclitus rector pater atque prudens,^lcuius insígnem cólimus triúmphum,^liste conféssor sine fine lætus^lregnat in astris.^pIpse dux clarus fuit et magíster,^léxhibens sacræ documénta vitæ^lac Deo semper sátagens placére^lpéctore mundo.^pNunc eum nisu rogitémus omnes,^lábluat nostrum pius ut reátum,^let sua ducat prece nos ad alta^lcúlmina cæli.^pSit Deo soli decus et potéstas,^llaus in excélsis, honor ac perénnis,^lqui suis totum móderans gubérnat^llégibus orbem."
+      }
+  },
+  5581: {
+    0.0: {
+        "quote": "Comm pro pluribus Pastoribus Ld"
+      }
+  },
+  5585: {
+    1.0: {
+        "quote": "Comm pro Papa Vp"
+      },
+    2.0: {
+        "quote": "Comm pro Episcopo Vp"
+      },
+    3.0: {
+        "quote": "Comm pro Presbytero Vp",
+        "title_lat": "Vir celse, forma fúlgida",
+        "text_lat": "Vir celse, forma fúlgida^lvirtútis, hymnum súscipe,^lqui iure dum te prǽdicat,^lDei canit magnália.^pQui sempitérnus Póntifex^lstirpem Deo mortálium^lrevínxit, atque réddidit^lpaci novo nos fœ́dere,^pTe fecit ipse próvidus^lsui minístrum múneris,^lPatri datúrum glóriam^leiúsque vitam plébibus.^pRegális huius cúlminis^ladéptus altitúdinem,^lverbo fuísti et móribus^ldoctor, sacérdos, hóstia.^pLocátus in cæléstibus,^lsanctæ meménto Ecclésiæ,^loves ut omnes páscua^lChristi petant felícia.^pSit Trinitáti glória,^lquæ sancti honóris múnia^ltibi minístro sédulo^ldignis corónat gáudiis."
+      }
+  },
+  5586: {
+    0.0: {
+        "quote": "Comm pro pluribus Pastoribus Vp"
+      }
+  },
   5630: {
     0.0: {
         "quote": "Comm Virorum Lh+Vp",
@@ -4750,6 +4830,54 @@ export const psalmsData = {
     0.0: {
         "quote": "Comm Virorum Vp",
         "title_lat": "Inclitos Christi famulos canamus"
+      }
+  },
+  5656: {
+    0.0: {
+        "quote": "Comm Mulierum Lh",
+        "title_lat": "Hæc fémina laudábilis",
+        "text_lat": "Hæc fémina laudábilis^let honoráta méritis,^lut sanctis pollet móribus,^ltriúmphat sic cum ángelis.^pEx corde devotíssimo^lorans Deum cum lácrimis,^lvigíliis, ieiúniis^lhærébat hæc assíduis.^pContémnens mundi glóriam^lac mente semper íntegra,^lperféctam post iustítiam^lmigrávit super sídera.^pQuæ sanctitátis áctibus^lsua ditávit límina,^llætátur nunc perpétuis^lcæléstis ædis prǽmiis.^pLaus uni ac trino Dómino,^lqui nos eius precátibus,^lperácto vitæ término,^lconiúngat cæli cívibus."
+      }
+  },
+  5657: {
+    0.0: {
+        "quote": "Comm Mulierum Lh Pl"
+      }
+  },
+  5662: {
+    0.0: {
+        "quote": "Comm Mulierum Ld",
+        "title_lat": "Nóbilem Christi fámulam disérta",
+        "text_lat": "Nóbilem Christi^/fámulam disérta^lvoce cantémus,^/decus æmulátam^lféminæ fortis,^/sacra cui profúdit^lpágina laudes.^pCui fides vivax,^/pia spes amórque^lin Deum fervens,^/óperum bonórum^lfértilis radix,^/amor unde fratrum^lnáscitur ultro.^pMotus illíus^/méritis, remítte,^lsóntibus nobis^/scelus omne, Iesu,^lut tibi puro^/resonémus æquas^lpéctore laudes.^pSit Patri summo^/decus atque virtus,^llaus tibi Nato,^/celebrísque cultus,^lFlámini Sancto^/párilis potéstas^lnunc et in ævum. Amen."
+      }
+  },
+  5663: {
+    0.0: {
+        "quote": "Comm Mulierum Ld Pl"
+      }
+  },
+  5667: {
+    1.0: {
+        "quote": "Comm Mulierum Vp",
+        "title_lat": "Fortem viríli péctore",
+        "text_lat": "Fortem viríli péctore^llaudémus omnes féminam,^lquæ sanctitátis glória^lubíque fulget ínclita.^pHæc sancto amóre sáucia,^lhuius cadúca sǽculi^ldum calcat, ad cæléstia^liter perégit árduum.^pCarnem domans ieiúniis,^ldulcíque mentem pábulo^loratiónis nútriens,^lcæli potítur gáudiis.^pRex Christe, virtus fórtium,^lqui magna solus éfficis,^lhuius precátu, quǽsumus,^laudi benígnus súpplices.^pIesu, tibi sit glória,^lqui nos beátæ sérvulæ^lsperáre das suffrágia^let sempitérna prǽmia. Amen."
+      },
+    2.0: {
+        "quote": "Comm Mulierum Vp Pl"
+      }
+  },
+  5677: {
+    0.0: {
+        "quote": "Comm pro religiosis Ld",
+        "title_lat": "O redemptóris píetas colénda",
+        "text_lat": "O redemptóris^/píetas colénda,^lquæ Patr>i exóptans^/hómines dicári,^lSpíritus miro^/varióque ducis^lpéctora nutu!^pQuos tua lympha^/facis esse natos^lex Deo vero,^/nova vis in illis^lgrátiam crebro^/dare caritátis^lgérmina, Christe.^pTu vocas: currunt^/álacres vocáti,^lábdicant cunctis,^/duce te voléntes,^lcalle regáli^/crucis, usque solum^lquǽrere Patrem.^pCǽlitus fervens^/ita sanctus iste^lvíribus totis^/tib>i amánter hæsit,^latque virtútum^/cúpiit tenére^lcúlmina læta.^pLaus Patri summo,^/tibi, Christe princeps,^lFlámini Sancto^/párilis resúltet,^lparva qui danti,^/bona corde magno^lcéntupla fertis. Amen."
+      }
+  },
+  5678: {
+    0.0: {
+        "quote": "Comm pro religiosis Vp",
+        "title_lat": "Læti coléntes fámulum",
+        "text_lat": "Læti coléntes fámulum^lqui te perfécte cóluit,^ltibi gratánter, Dómine,^lamóris hymnum prómimus.^pChristi fidélis ássecla,^lultro relíquit gáudia^lcuncta quæ mundus éxhibet^lfugáces atque cópias.^pTibi se vovit súbditum^lhumilitát>e obœ́diens,^lChristi, carnis mundítie,^lspons>i æmulátor vírginum.^pTibi placére géstiit^ltibíqu>e adhǽsit únice,^lmentem, verba vel ópera^lamóris fovens ígnibus.^pHis caritátis vínculis^lin terris tibi déditus,^lliber ad astra iúgiter^ltriumphatúrus pródiit.^pEius exémplis éxcitos^lda gradi nos alácriter,^lut te cum Nat>o et Spíritu^llaudémus hymnis cǽlicis. Amen."
       }
   },
   8101: {
@@ -4944,17 +5072,26 @@ export const psalmsData = {
   },
   8702: {
     1.0: {
+        "quote": "Mariae Heimsuchung Lh",
         "title_lat": "Veni, præcélsa Dómina",
         "text_lat": "Veni, præcélsa Dómina;^lMaría, tu nos vísita,^lquæ iam cognátæ dómui^ltantum portásti gáudii.^pVeni, iuvámen sǽculi,^lsordes aufer piáculi,^lac visitándo pópulum^lpœnæ tolle perículum.^pVeni, stella, lux márium,^linfúnde pacis rádium;^lrege quodcúmque dévium,^lda vitam innocéntium.^pVeni, precámur, vísites^lnobísque vires róbores^lvirtúte sacri ímpetus,^lne fluctuétur ánimus.^pVeni, virga regálium,^lreduc fluctus errántium^lad unitátem fídei,^lin qua salvántur cǽlici.^pVeni, tecúmque Fílium^llaudémus in perpétuum,^lcum Patre et Sancto Spíritu,^lqui nobis dent auxílium."
       },
     2.0: {
+        "quote": "Mariae Heimsuchung Ld",
         "title_lat": "Véniens, mater ínclita",
         "text_lat": "Véniens, mater ínclita,^lcum Sancti dono Spíritus,^lnos ut Ioánnem vísita^lin huius carnis sédibus.^pProcéde, portans párvulum,^lut mundus possit crédere^let tuæ laudis títulum^lomnes sciant extóllere.^pSalúta nunc Ecclésiam,^lut tuam vocem áudiens^lexsúrgat in lætítia,^ladvéntum Christi séntiens.^pMaría, levans óculos,^lvide credéntes pópulos:^lte quærunt piis méntibus,^lhis opem feres ómnibus.^pO veræ spes lætítiæ,^lnostræ portus misériæ,^lnos iunge cæli cúriæ^lornátos stola glóriæ.^pTecum, Virgo, magníficat^lánima nostra Dóminum,^lqui laude te nobílitat^let hóminum et cǽlitum."
       },
     4.0: {
-        "quote": "Mariae Heimsuchung",
+        "quote": "Mariae Heimsuchung Vp",
         "title_lat": "Cóncito gressu petis alta montis",
         "text_lat": "Cóncito gressu^/petis alta montis,^lVirgo, quam matrem^/Deus ipse fecit,^lut seni matri^/studiós>i amóris^lpígnora promas.^pCum salutántis^/capit illa vocem,^lábditus gestit^/puer exsilíre,^lte parens dicit^/dóminam, salútat^lteque beátam.^pIpsa prædícis^/fore te beátam^lSpíritu fervens^/pénitus loquénte,^lac Deum cantu^/célebras amœ́no^lmagn>a operántem.^pTeque felícem^/pópuli per orbem^lsemper, o mater,^/récitant ovántes^latque te credunt^/Dómini favórum^lesse minístram.^pQuæ, ferens Christum,^/nova semper affers^ldona, tu nobis^/fer opes salútis,^lqui pie tecum^/Tríadem supérnam^lmagnificámus. Amen.^l"
+      }
+  },
+  8703: {
+    2.0: {
+        "quote": "Thomas Ld",
+        "title_lat": "Qui luce splendes órdinis",
+        "text_lat": "Qui luce splendes órdinis^lapostolórum máxima,^lThoma, benígnus áccipe^llaudes tibi quas pángimus.^pTe lúcidis in sédibus^lamóre Christus cóllocat;^lamóre promptus éxpetis^ltu pro Magístro cómmori.^pTe torquet et diléctio^lnarrántibus cum frátribus^lvis certus esse, vísere,^lpalpáre Iesu vúlnera.^pQuantóque cordis gáudio^lipsum misértum cónspicis,^lDeúmque dicis crédulus,^lfervóre adórans péctoris!^pNobísque qui non vídimus^lper te fides fit ácrior,^lfit æstus et poténtior^lquo Christi amórem quǽrimus.^pChristo sit omnis glória,^lqui te rogánte prǽbeat^lnobis fide ambulántibus^lipsum vidére pérpetim."
       }
   },
   8711: {
