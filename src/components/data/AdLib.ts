@@ -3592,21 +3592,25 @@ export const adlibData = {
       "n1": {
         "ErsteV": {
           "comm_1": "MärtPl",
-          "oration": "Gott, in deiner wunderbaren Sorge hast du durch das Bekenntnis des heiligen Märtyrers Augustinus und seiner Gefährten deine Kirche gestärkt. Gewähre, dass dein Volk der Sendung treu bleibt, die ihm aufgetragen ist, damit es in der Freiheit wachse und die Wahrheit vor der Welt bezeuge.^ORV"
+          "oration": "Gott, in deiner wunderbaren Sorge hast du durch das Bekenntnis des heiligen Märtyrers Augustinus und seiner Gefährten deine Kirche gestärkt. Gewähre, dass dein Volk der Sendung treu bleibt, die ihm aufgetragen ist, damit es in der Freiheit wachse und die Wahrheit vor der Welt bezeuge.^ORV",
+          "oration_lat": "Deus, qui per sanctórum mártyrum Augustíni et sociórum confessiónem Ecclésiam tuam mirábili dispensatióne roborásti, concéde ut pópulus tuus, missióni sibi créditæ fidélis, et increménta libertátis accípiat et veritátem coram mundo testificétur.^ORlV"
         },
         "Lesehore": {
           "comm_1": "MärtPl",
-          "oration": "Gott, in deiner wunderbaren Sorge hast du durch das Bekenntnis des heiligen Märtyrers Augustinus und seiner Gefährten deine Kirche gestärkt. Gewähre, dass dein Volk der Sendung treu bleibt, die ihm aufgetragen ist, damit es in der Freiheit wachse und die Wahrheit vor der Welt bezeuge.^ORV"
+          "oration": "Gott, in deiner wunderbaren Sorge hast du durch das Bekenntnis des heiligen Märtyrers Augustinus und seiner Gefährten deine Kirche gestärkt. Gewähre, dass dein Volk der Sendung treu bleibt, die ihm aufgetragen ist, damit es in der Freiheit wachse und die Wahrheit vor der Welt bezeuge.^ORV",
+          "oration_lat": "Deus, qui per sanctórum mártyrum Augustíni et sociórum confessiónem Ecclésiam tuam mirábili dispensatióne roborásti, concéde ut pópulus tuus, missióni sibi créditæ fidélis, et increménta libertátis accípiat et veritátem coram mundo testificétur.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Augustinus Zhao Rong und Gefährten",
           "farbe": "r",
           "comm_1": "MärtPl",
-          "oration": "Gott, in deiner wunderbaren Sorge hast du durch das Bekenntnis des heiligen Märtyrers Augustinus und seiner Gefährten deine Kirche gestärkt. Gewähre, dass dein Volk der Sendung treu bleibt, die ihm aufgetragen ist, damit es in der Freiheit wachse und die Wahrheit vor der Welt bezeuge.^ORV"
+          "oration": "Gott, in deiner wunderbaren Sorge hast du durch das Bekenntnis des heiligen Märtyrers Augustinus und seiner Gefährten deine Kirche gestärkt. Gewähre, dass dein Volk der Sendung treu bleibt, die ihm aufgetragen ist, damit es in der Freiheit wachse und die Wahrheit vor der Welt bezeuge.^ORV",
+          "oration_lat": "Deus, qui per sanctórum mártyrum Augustíni et sociórum confessiónem Ecclésiam tuam mirábili dispensatióne roborásti, concéde ut pópulus tuus, missióni sibi créditæ fidélis, et increménta libertátis accípiat et veritátem coram mundo testificétur.^ORlV"
         },
         "Vesper": {
           "comm_1": "MärtPl",
-          "oration": "Gott, in deiner wunderbaren Sorge hast du durch das Bekenntnis des heiligen Märtyrers Augustinus und seiner Gefährten deine Kirche gestärkt. Gewähre, dass dein Volk der Sendung treu bleibt, die ihm aufgetragen ist, damit es in der Freiheit wachse und die Wahrheit vor der Welt bezeuge.^ORV"
+          "oration": "Gott, in deiner wunderbaren Sorge hast du durch das Bekenntnis des heiligen Märtyrers Augustinus und seiner Gefährten deine Kirche gestärkt. Gewähre, dass dein Volk der Sendung treu bleibt, die ihm aufgetragen ist, damit es in der Freiheit wachse und die Wahrheit vor der Welt bezeuge.^ORV",
+          "oration_lat": "Deus, qui per sanctórum mártyrum Augustíni et sociórum confessiónem Ecclésiam tuam mirábili dispensatióne roborásti, concéde ut pópulus tuus, missióni sibi créditæ fidélis, et increménta libertátis accípiat et veritátem coram mundo testificétur.^ORlV"
         }
       },
       "n2": {

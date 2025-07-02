@@ -2874,7 +2874,7 @@ export const brevierData = {
         },
         "Invitatorium": {
           "ant0": "Den Herrn, den König der Märtyrer – kommt, wir beten ihn an!",
-          "ant0_lat": ""
+          "ant0_lat": "Regem mártyrum Dóminum, veníte, adorémus.^Lö"
         },
         "Lesehore": {
           "hymn_1": 1110.0,
@@ -6031,7 +6031,7 @@ export const brevierData = {
           "versikel1": "Und es befolgen.",
           "les_buch": "Aus dem Hohenlied.",
           "les_stelle": "2,8–14; 8,6–7",
-          "les_text": "^hDas Kommen des Geliebten^pHorch! Mein Geliebter!^lEr kommt.^lEr springt über die Berge,^lhüpft über die Hügel.^lDer Gazelle gleicht mein Geliebter,^ldem jungen Hirsch.^lDraußen steht er^lan der Wand unsres Hauses;^ler blickt durch die Fenster,^lspäht durch die Gitter.^lDer Geliebte spricht zu mir:^lSteh auf, meine Freundin,^lmeine Schöne, so komm doch!^lVorbei ist der Winter,^lverrauscht der Regen.^lAuf der Flur erscheinen die Blumen;^ldie Zeit zum Singen ist da.^lDie Stimme der Turteltaube^list zu hören in unserem Land.^lAm Feigenbaum reifen die ersten Früchte;^ldie blühenden Reben duften.^lSteh auf, meine Freundin,^lmeine Schöne, so komm doch!^lMeine Taube im Felsennest,^lversteckt an der Steilwand,^ldein Gesicht lass mich sehen,^ldeine Stimme hören!^lDenn süß ist deine Stimme,^llieblich dein Gesicht.^lLeg mich wie ein Siegel auf dein Herz,^lwie ein Siegel an deinen Arm!^lStark wie der Tod ist die Liebe,^ldie Leidenschaft ist hart wie die Unterwelt.^lIhre Gluten sind Feuergluten,^lgewaltige Flammen.^lAuch mächtige Wasser^lkönnen die Liebe nicht löschen;^lauch Ströme schwemmen sie nicht weg.^lBöte einer für die Liebe^lden ganzen Reichtum seines Hauses,^lnur verachten würde man ihn.",
+          "les_text": "^hDas Kommen des Geliebten^pHorch!^lMein Geliebter!^lEr kommt.^lEr springt über die Berge,^lhüpft über die Hügel.^lDer Gazelle gleicht mein Geliebter,^ldem jungen Hirsch.^pDraußen steht er^lan der Wand unsres Hauses;^ler blickt durch die Fenster,^lspäht durch die Gitter.^pDer Geliebte spricht zu mir:^lSteh auf, meine Freundin,^lmeine Schöne, so komm doch!^lVorbei ist der Winter,^lverrauscht der Regen.^lAuf der Flur erscheinen die Blumen;^ldie Zeit zum Singen ist da.^lDie Stimme der Turteltaube^list zu hören in unserem Land.^lAm Feigenbaum reifen die ersten Früchte;^ldie blühenden Reben duften.^pSteh auf, meine Freundin,^lmeine Schöne, so komm doch!^lMeine Taube im Felsennest,^lversteckt an der Steilwand,^ldein Gesicht lass mich sehen,^ldeine Stimme hören!^lDenn süß ist deine Stimme,^llieblich dein Gesicht.^pLeg mich wie ein Siegel auf dein Herz,^lwie ein Siegel an deinen Arm!^lStark wie der Tod ist die Liebe,^ldie Leidenschaft ist hart wie die Unterwelt.^lIhre Gluten sind Feuergluten,^lgewaltige Flammen.^lAuch mächtige Wasser^lkönnen die Liebe nicht löschen;^lauch Ströme schwemmen sie nicht weg.^lBöte einer für die Liebe^lden ganzen Reichtum seines Hauses,^lnur verachten würde man ihn.",
           "resp1": "Elisabet wurde vom Heiligen Geist erfüllt und rief mit lauter Stimme: Gesegnet bist du vor allen Frauen, und gesegnet ist die Frucht deines Leibes!",
           "resp2": "Wer bin ich, dass die Mutter meines Herrn zu mir kommt?",
           "resp3": "Als ich deinen Gruß hörte, bewegte sich vor Freude das Kind in meinem Schoß.",
@@ -6161,7 +6161,7 @@ export const brevierData = {
           "oration_lat": ""
         },
         "Lesehore": {
-          "hymn_1": 8711.1,
+          "hymn_1": 8711.101,
           "versikel0": "Der Herr geleitet den Gerechten auf geraden Wegen.",
           "versikel1": "Und er zeigt ihm das Reich Gottes.",
           "les_buch": "Aus dem Brief an die Kolosser.",
@@ -6176,6 +6176,7 @@ export const brevierData = {
           "patr_resp1": "Mein Sohn, gib mir dein Herz! Deine Augen mögen auf meine Wege achten,",
           "patr_resp2": "damit Gnade über dein Haupt komme.",
           "patr_resp3": "Achte, mein Sohn, auf meine Weisheit, neige dein Ohr meinem Wort.",
+          "hymn_1_lat": 8711.1,
           "versikel0_lat": "",
           "versikel1_lat": "",
           "resp1_lat": "",
@@ -6190,13 +6191,15 @@ export const brevierData = {
           "button": "Hl. Benedikt",
           "nominativ": "Der heilige Benedikt",
           "genitiv": "des heiligen Benedikt",
-          "hymn_1": 8711.1,
+          "hymn_1": 8711.101,
           "antev": "Benedikt, wahrhaft ein Gesegneter des Herrn, ein Mann von verehrungswürdigem Leben!",
+          "hymn_1_lat": 8711.2,
           "antev_lat": ""
         },
         "Vesper": {
           "hymn_1": 8711.0,
           "antev": "Er hat Segen empfangen vom Herrn und Heil von Gott, seinem Helfer; denn er gehörte zu jenen, die Gottes Antlitz suchen.",
+          "hymn_1_lat": 8711.4,
           "antev_lat": ""
         }
       },

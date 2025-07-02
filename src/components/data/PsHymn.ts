@@ -3187,7 +3187,7 @@ export const psalmsData = {
         "stb3": "1051",
         "title": "Sei gegrüßt, die den König gebar",
         "quote": "Lesehore zu Maria am Samstag",
-        "text": "Sei gegrüßt, die den König gebar,^/du°heilige°Mutter,^lihn, der Himmel und Erde erhält^/im°Wandel°der°Zeiten,^ldessen Walten das All umfasst^/mit°ewigem°Kreise,^ldessen Reich ohne Ende besteht:^/Dein seliger Leib hat^lFreuden der Mutter gepaart^/mit°reiner°Ehre°der°Jungfrau.^lDir, der keine je glich,^/wird°keine°fürderhin°gleichen,^ldenn vor allen Frauen erwählte^/dich,°Einzige,°Christus."
+        "text": "Sei gegrüßt, die den König gebar,^/du°heilige°Mutter,^lihn, der Himmel und Erde erhält^/im°Wandel°der°Zeiten,^ldessen Walten das All umfasst^/mit°ewigem°Kreise,^ldessen Reich ohne Ende besteht:^pDein seliger Leib hat^lFreuden der Mutter gepaart^/mit°reiner°Ehre°der°Jungfrau.^lDir, der keine je glich,^/wird°keine°fürderhin°gleichen,^ldenn vor allen Frauen erwählte^/dich,°Einzige,°Christus."
       }
   },
   1038: {
@@ -5100,7 +5100,17 @@ export const psalmsData = {
         "quote": "Benedikt",
         "text": "Was in der Vorzeit^/rühmend ward besungen,^lwas wir vernahmen^/von der Väter Größe,^ldas macht dein Leben,^/heil’ger Benediktus,^lleuchtend uns sichtbar.^pAbraham gleichend,^/folgtest du dem Rufe,^lzogst aus der Heimat,^/wie dir Gott geboten,^lsuchtest die Stätte,^/die er dir verheißen,^lgläubigen Herzens.^pEin zweiter Mose,^/gabst du deinen Söhnen^lWeisung und Regel^/für den Weg des Lebens,^lWas ihr Beruf sei,^/lehrtest du die Mönche:^lGott nur zu suchen.^pLob sei dem Vater^/auf dem höchsten Throne,^lLob sei dem Sohne,^/Gott aus Gott geboren,^lLob sei dem Geiste,^/der von beiden ausgeht,^limmer und ewig. Amen."
       },
-    1.0: {
+    2.0: {
+        "quote": "Benedikt lat.",
+        "title_lat": "Légifer prudens, veneránde doctor",
+        "text_lat": "Légifer prudens,^/veneránde doctor,^lqui nites celsis^/méritis per orbem,^ldénuo comple,^/Benedícte, mundum^llúmine Christi.^pFlóruit per te^/novus atque miro^lgéntium nexu^/sociátus ordo;^liúribus sacris^/tua vox subégit^ldúlciter omnes.^pLíberos Iesu^/paritérque servos^lrégula magna^/statuíst>i alúmnos,^lquos amor fotus^/précibus revínxit^let labor unus.^pIamque fratérne,^/duce te, labórent,^lmútuo certent^/pópuli favóre,^lgáudeant pacis^/refovére semper^ldona beátæ.^pCláritas Patri^/genitǽque Proli,^lFlámini Sancto^/decus atque cultus,^lgrátia quorum^/tibi tanta laudis^lglória lucet. Amen."
+      },
+    4.0: {
+        "quote": "Benedikt lat.",
+        "title_lat": "Inter ætérnas súperum corónas",
+        "text_lat": "Inter ætérnas^lsúperum corónas,^lquas sacro partas^lcólimus triúmpho,^lémicas celsis^lméritis corúscus,^lo Benedícte!^pSancta te compsit^lpúerum senéctus,^lnil sibi de te^lrápuit volúptas,^láruit mundi^ltibi flos, ad alta^lmente leváto.^pHinc fuga lapsus^lpátriam, paréntes^ldéseris, fervens^lnémorum colónus;^linde conscríbis^ldocuménta vitæ^lpulchra beátæ.^pIam docens omnes^lpópulos subésse^llégibus tandem^lplacitísque Christi,^lfac tuis cuncti^lprécibus petámus^lcǽlica semper.^pCláritas Patri^lgenitǽque Proli,^lFlámini Sancto^ldecus atque cultus,^lgrátia quorum^ltibi tanta laudis^lglória lucet. Amen."
+      },
+    101.0: {
         "title": "^[Was in der Vorzeit rühmend ward besungen^]",
         "quote": "Benedikt",
         "text": "^RUBRDer eigene Hymnus ist im Stundenbuch erst für die Vesper ausgeschrieben. Für Lesehore und Laudes sind die Commune-Hymnen vorgesehen.^0RUBR^pWas in der Vorzeit^/rühmend ward besungen,^lwas wir vernahmen^/von der Väter Größe,^ldas macht dein Leben,^/heil’ger Benediktus,^lleuchtend uns sichtbar.^pAbraham gleichend,^/folgtest du dem Rufe,^lzogst aus der Heimat,^/wie dir Gott geboten,^lsuchtest die Stätte,^/die er dir verheißen,^lgläubigen Herzens.^pEin zweiter Mose,^/gabst du deinen Söhnen^lWeisung und Regel^/für den Weg des Lebens,^lWas ihr Beruf sei,^/lehrtest du die Mönche:^lGott nur zu suchen.^pLob sei dem Vater^/auf dem höchsten Throne,^lLob sei dem Sohne,^/Gott aus Gott geboren,^lLob sei dem Geiste,^/der von beiden ausgeht,^limmer und ewig. Amen."
