@@ -3518,7 +3518,7 @@ export const adlibData = {
           "oration": "Gott, unser Heil, durch die Predigt und das apostolische Wirken der heiligen Willibald und Wunibald hast du deiner Kirche viele Menschen zugeführt. Gib uns auf ihre Fürsprache neue Kraft und mehre den Glauben und die Heiligkeit in deinem Volk.^ORV"
         },
         "Laudes": {
-          "button": "Hl. Willibald und hl. Wunibald",
+          "button": "Hl. Willibald und hl. Wunibald (FD Eig)",
           "genitiv": "des heiligen Willibald und hl. Wunibald",
           "comm_1": "Hirten",
           "oration": "Gott, unser Heil, durch die Predigt und das apostolische Wirken der heiligen Willibald und Wunibald hast du deiner Kirche viele Menschen zugeführt. Gib uns auf ihre Fürsprache neue Kraft und mehre den Glauben und die Heiligkeit in deinem Volk.^ORV"
@@ -3544,7 +3544,7 @@ export const adlibData = {
           "oration": "Allmächtiger Gott, aus Liebe zu deinem Sohn hat der heilige Willibald die Stätten des Lebens Christi aufgesucht und als Glaubensbote unserem Volk das Evangelium verkündet. Hilf uns, im Licht deiner Wahrheit zu leben und treu zu bleiben im Glauben an Jesus Christus, deinen Sohn, unseren Herrn und Gott,^ORR"
         },
         "Laudes": {
-          "button": "Hl. Willibald: Aus dem Stundenbuch",
+          "button": "Hl. Willibald (Stundenbuch)",
           "genitiv": "des heiligen Willibald: Aus dem Stundenbuch",
           "comm_1": "Hirten",
           "oration": "Allmächtiger Gott, aus Liebe zu deinem Sohn hat der heilige Willibald die Stätten des Lebens Christi aufgesucht und als Glaubensbote unserem Volk das Evangelium verkündet. Hilf uns, im Licht deiner Wahrheit zu leben und treu zu bleiben im Glauben an Jesus Christus, deinen Sohn, unseren Herrn und Gott,^ORR"
