@@ -859,7 +859,7 @@ export const adlibData = {
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
           "oration": " Allmächtiger und barmherziger Gott, mit deiner Hilfe hat der heilige Bischof Valentinus die Qualen des Martyriums ausgehalten. Hilf uns, die wir seinen Sieg feiern, durch deinen mächtigen Schutz, damit wir in allen Angriffen des Feindes bestehen können.^ORV",
-          "oration_lat": "Omnípotens et miséricors Deus, qui mártyrem tuum Valentínum epíscopum passiónis suæ torménta superáre fecísti, Concéde, ut, qui eius triúmphi diem celebrámus, insuperábiles tua protectióne ab hostis insídiis maneámus.^ORlV"
+          "oration_lat": "Omnípotens et miséricors Deus, qui mártyrem tuum Valentínum epíscopum passiónis suæ torménta superáre fecísti, concéde, ut, qui eius triúmphi diem celebrámus, insuperábiles tua protectióne ab hostis insídiis maneámus.^ORlV"
         },
         "Lesehore": {
           "comm_1": "MärtSg",
@@ -871,7 +871,7 @@ export const adlibData = {
           "patr_resp2": "Freut euch und jubelt: Euer Lohn im Himmel wird groß sein.",
           "patr_resp3": "Selig seid ihr, wenn ihr um meinetwillen beschimpft und verfolgt und auf alle mögliche Weise verleumdet werdet.",
           "oration": " Allmächtiger und barmherziger Gott, mit deiner Hilfe hat der heilige Bischof Valentinus die Qualen des Martyriums ausgehalten. Hilf uns, die wir seinen Sieg feiern, durch deinen mächtigen Schutz, damit wir in allen Angriffen des Feindes bestehen können.^ORV",
-          "oration_lat": "Omnípotens et miséricors Deus, qui mártyrem tuum Valentínum epíscopum passiónis suæ torménta superáre fecísti, Concéde, ut, qui eius triúmphi diem celebrámus, insuperábiles tua protectióne ab hostis insídiis maneámus.^ORlV"
+          "oration_lat": "Omnípotens et miséricors Deus, qui mártyrem tuum Valentínum epíscopum passiónis suæ torménta superáre fecísti, concéde, ut, qui eius triúmphi diem celebrámus, insuperábiles tua protectióne ab hostis insídiis maneámus.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Valentin",
@@ -880,13 +880,13 @@ export const adlibData = {
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
           "oration": " Allmächtiger und barmherziger Gott, mit deiner Hilfe hat der heilige Bischof Valentinus die Qualen des Martyriums ausgehalten. Hilf uns, die wir seinen Sieg feiern, durch deinen mächtigen Schutz, damit wir in allen Angriffen des Feindes bestehen können.^ORV",
-          "oration_lat": "Omnípotens et miséricors Deus, qui mártyrem tuum Valentínum epíscopum passiónis suæ torménta superáre fecísti, Concéde, ut, qui eius triúmphi diem celebrámus, insuperábiles tua protectióne ab hostis insídiis maneámus.^ORlV"
+          "oration_lat": "Omnípotens et miséricors Deus, qui mártyrem tuum Valentínum epíscopum passiónis suæ torménta superáre fecísti, concéde, ut, qui eius triúmphi diem celebrámus, insuperábiles tua protectióne ab hostis insídiis maneámus.^ORlV"
         },
         "Vesper": {
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
           "oration": " Allmächtiger und barmherziger Gott, mit deiner Hilfe hat der heilige Bischof Valentinus die Qualen des Martyriums ausgehalten. Hilf uns, die wir seinen Sieg feiern, durch deinen mächtigen Schutz, damit wir in allen Angriffen des Feindes bestehen können.^ORV",
-          "oration_lat": "Omnípotens et miséricors Deus, qui mártyrem tuum Valentínum epíscopum passiónis suæ torménta superáre fecísti, Concéde, ut, qui eius triúmphi diem celebrámus, insuperábiles tua protectióne ab hostis insídiis maneámus.^ORlV"
+          "oration_lat": "Omnípotens et miséricors Deus, qui mártyrem tuum Valentínum epíscopum passiónis suæ torménta superáre fecísti, concéde, ut, qui eius triúmphi diem celebrámus, insuperábiles tua protectióne ab hostis insídiis maneámus.^ORlV"
         }
       }
     },
@@ -1333,7 +1333,7 @@ export const adlibData = {
       "n2": {
         "ErsteV": {
           "oration": "Gütiger Gott, wir ehren heute die Verdienste des heiligen Papstes Zacharias. Du hast ihn berufen, im Geist der Milde und Klugheit für den Frieden zu wirken. Gib, dass wir auf Erden seinem Beispiel folgen und im Himmel mit ihm verherrlicht werden.^ORV",
-          "oration_lat": "Deus, qui beáto Zacharíæ, mitíssimo Fílii tui Vicário, pacis studium ac donum prudéntiæ tribuísti, da nobis tanti pastóris mérita venerántibus, ut ipsíus exémpla sequámur in via et glóriæ consórtes fiámus in pátria.^ORlV"
+          "oration_lat": "Deus, qui beáto Zacharíæ, mitíssimo Fílii tui Vicário, pacis stúdium ac donum prudéntiæ tribuísti, da nobis tanti pastóris mérita venerántibus, ut ipsíus exémpla sequámur in via et glóriæ consórtes fiámus in pátria.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Papst Zacharias (†°752)",
@@ -1343,7 +1343,7 @@ export const adlibData = {
           "patr_resp2": "Wenn du dich wieder bekehrt hast, dann stärke deine Brüder.",
           "patr_resp3": "Seht doch, wie gut und schön es ist, wenn Brüder miteinander in Eintracht wohnen.",
           "oration": "Gütiger Gott, wir ehren heute die Verdienste des heiligen Papstes Zacharias. Du hast ihn berufen, im Geist der Milde und Klugheit für den Frieden zu wirken. Gib, dass wir auf Erden seinem Beispiel folgen und im Himmel mit ihm verherrlicht werden.^ORV",
-          "oration_lat": "Deus, qui beáto Zacharíæ, mitíssimo Fílii tui Vicário, pacis studium ac donum prudéntiæ tribuísti, da nobis tanti pastóris mérita venerántibus, ut ipsíus exémpla sequámur in via et glóriæ consórtes fiámus in pátria.^ORlV"
+          "oration_lat": "Deus, qui beáto Zacharíæ, mitíssimo Fílii tui Vicário, pacis stúdium ac donum prudéntiæ tribuísti, da nobis tanti pastóris mérita venerántibus, ut ipsíus exémpla sequámur in via et glóriæ consórtes fiámus in pátria.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Zacharias",
@@ -1351,13 +1351,13 @@ export const adlibData = {
           "ant_komm": "Nicht ihr werdet reden, sondern der Geist eures Vaters redet durch euch.",
           "oration": "Gütiger Gott, wir ehren heute die Verdienste des heiligen Papstes Zacharias. Du hast ihn berufen, im Geist der Milde und Klugheit für den Frieden zu wirken. Gib, dass wir auf Erden seinem Beispiel folgen und im Himmel mit ihm verherrlicht werden.^ORV",
           "ant_komm_lat": "Non vos estis qui loquímini, sed Spíritus Patris vestri, qui lóquitur in vobis.",
-          "oration_lat": "Deus, qui beáto Zacharíæ, mitíssimo Fílii tui Vicário, pacis studium ac donum prudéntiæ tribuísti, da nobis tanti pastóris mérita venerántibus, ut ipsíus exémpla sequámur in via et glóriæ consórtes fiámus in pátria.^ORlV"
+          "oration_lat": "Deus, qui beáto Zacharíæ, mitíssimo Fílii tui Vicário, pacis stúdium ac donum prudéntiæ tribuísti, da nobis tanti pastóris mérita venerántibus, ut ipsíus exémpla sequámur in via et glóriæ consórtes fiámus in pátria.^ORlV"
         },
         "Vesper": {
           "ant_komm": "Dank sei dir, Christus, guter Hirte! Du hast mich zur Herrlichkeit geführt; gib auch der Herde, die du mir anvertraut hast, Anteil an deiner Gnade auf ewig.",
           "oration": "Gütiger Gott, wir ehren heute die Verdienste des heiligen Papstes Zacharias. Du hast ihn berufen, im Geist der Milde und Klugheit für den Frieden zu wirken. Gib, dass wir auf Erden seinem Beispiel folgen und im Himmel mit ihm verherrlicht werden.^ORV",
           "ant_komm_lat": "Grátias tibi ago, Christe, pastor bone, qui me ad hanc glóriam perdúcere dignátus es; peto ergo ut oves, quas tradidísti mihi, participéntur mecum de grátia tua in sempitérnum.",
-          "oration_lat": "Deus, qui beáto Zacharíæ, mitíssimo Fílii tui Vicário, pacis studium ac donum prudéntiæ tribuísti, da nobis tanti pastóris mérita venerántibus, ut ipsíus exémpla sequámur in via et glóriæ consórtes fiámus in pátria.^ORlV"
+          "oration_lat": "Deus, qui beáto Zacharíæ, mitíssimo Fílii tui Vicário, pacis stúdium ac donum prudéntiæ tribuísti, da nobis tanti pastóris mérita venerántibus, ut ipsíus exémpla sequámur in via et glóriæ consórtes fiámus in pátria.^ORlV"
         }
       }
     },
@@ -2862,7 +2862,7 @@ export const adlibData = {
           "comm_1": "MärtPl",
           "antev": "Bonifatius sprach zu seinen Gefährten: Erschreckt nicht vor denen, die den Leib töten, die Seele aber nicht töten können; sondern freut euch im Herrn und nehmt standhaft den Tod auf euch, dann könnt ihr in Ewigkeit mit Christus herrschen.",
           "oration": "Allmächtiger und barmherziger Gott, durch die Predigt und das Zeugnis der heiligen Märtyrer Eoban, Adelar und Gefährten hast du vielen Menschen deinen Sohn als Erlöser geoffenbart. Höre auf ihre Fürsprache und festige uns im Glauben zum Lob und zur Ehre deines Namens.^ORV",
-          "antev_lat": "Dixit beátus Bonifatius sóciis suis: Ne terreámini ab his, qui occídunt corpus, ánimam autem necáre non possunt; sed gaudéte in Dómino et constánter subíte mortis articulum, ut regnáre cum Christo possitis in ævum.^Lö",
+          "antev_lat": "Dixit beátus Bonifátius sóciis suis: Ne terreámini ab his, qui occídunt corpus, ánimam autem necáre non possunt; sed gaudéte in Dómino et constánter subíte mortis artículum, ut regnáre cum Christo possítis in ævum.^Lö",
           "oration_lat": "Maiestátis tuæ cleméntiam supplíciter deprecámur, omnípotens et miséricors Deus, ut, sicut Unigéniti tui agnitiónem per beatórum mártyrum Eóbani, Adelárii aliorúmque sancti Bonifátii sociórum prædicatiónem populórum córdibus infudísti, ita eórum intercessióne fídei stabilitáte firméntur.^ORlV"
         }
       }
@@ -2905,7 +2905,7 @@ export const adlibData = {
         "ErsteV": {
           "comm_1": "Hirten",
           "oration": "Herr und Gott, du hast im heiligen Bischof Bardo den Mönchen ein Vorbild und den Gläubigen einen eifrigen Seelsorger geschenkt. Hilf uns, nach seinem Beispiel in allem auf das Heil der Menschen bedacht zu sein.^ORV",
-          "oration_lat": "Deus, qui Ecclésiæ tuæ per beátum Bardónem epíscopum reguláris disciplínæ ac stúdii pastorális exémpla donásti, fac nos, quǽsumus, eius inhæréntes vestígiis, hóminum ad salutem semper esse inténtos.^ORlV"
+          "oration_lat": "Deus, qui Ecclésiæ tuæ per beátum Bardónem epíscopum reguláris disciplínæ ac stúdii pastorális exémpla donásti, fac nos, quǽsumus, eius inhæréntes vestígiis, hóminum ad salútem semper esse inténtos.^ORlV"
         },
         "Lesehore": {
           "comm_1": "Hirten",
@@ -2916,19 +2916,19 @@ export const adlibData = {
           "patr_resp2": "Aus seiner Fülle haben wir alle empfangen, Gnade über Gnade.^ö",
           "patr_resp3": "Was hast du, das du nicht empfangen hättest? Wenn du es aber empfangen hast, warum rühmst du dich, als hättest du es nicht empfangen?",
           "oration": "Herr und Gott, du hast im heiligen Bischof Bardo den Mönchen ein Vorbild und den Gläubigen einen eifrigen Seelsorger geschenkt. Hilf uns, nach seinem Beispiel in allem auf das Heil der Menschen bedacht zu sein.^ORV",
-          "oration_lat": "Deus, qui Ecclésiæ tuæ per beátum Bardónem epíscopum reguláris disciplínæ ac stúdii pastorális exémpla donásti, fac nos, quǽsumus, eius inhæréntes vestígiis, hóminum ad salutem semper esse inténtos.^ORlV"
+          "oration_lat": "Deus, qui Ecclésiæ tuæ per beátum Bardónem epíscopum reguláris disciplínæ ac stúdii pastorális exémpla donásti, fac nos, quǽsumus, eius inhæréntes vestígiis, hóminum ad salútem semper esse inténtos.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Bardo",
           "genitiv": "des heiligen Bardo",
           "comm_1": "Hirten",
           "oration": "Herr und Gott, du hast im heiligen Bischof Bardo den Mönchen ein Vorbild und den Gläubigen einen eifrigen Seelsorger geschenkt. Hilf uns, nach seinem Beispiel in allem auf das Heil der Menschen bedacht zu sein.^ORV",
-          "oration_lat": "Deus, qui Ecclésiæ tuæ per beátum Bardónem epíscopum reguláris disciplínæ ac stúdii pastorális exémpla donásti, fac nos, quǽsumus, eius inhæréntes vestígiis, hóminum ad salutem semper esse inténtos.^ORlV"
+          "oration_lat": "Deus, qui Ecclésiæ tuæ per beátum Bardónem epíscopum reguláris disciplínæ ac stúdii pastorális exémpla donásti, fac nos, quǽsumus, eius inhæréntes vestígiis, hóminum ad salútem semper esse inténtos.^ORlV"
         },
         "Vesper": {
           "comm_1": "Hirten",
           "oration": "Herr und Gott, du hast im heiligen Bischof Bardo den Mönchen ein Vorbild und den Gläubigen einen eifrigen Seelsorger geschenkt. Hilf uns, nach seinem Beispiel in allem auf das Heil der Menschen bedacht zu sein.^ORV",
-          "oration_lat": "Deus, qui Ecclésiæ tuæ per beátum Bardónem epíscopum reguláris disciplínæ ac stúdii pastorális exémpla donásti, fac nos, quǽsumus, eius inhæréntes vestígiis, hóminum ad salutem semper esse inténtos.^ORlV"
+          "oration_lat": "Deus, qui Ecclésiæ tuæ per beátum Bardónem epíscopum reguláris disciplínæ ac stúdii pastorális exémpla donásti, fac nos, quǽsumus, eius inhæréntes vestígiis, hóminum ad salútem semper esse inténtos.^ORlV"
         }
       }
     },
@@ -3505,27 +3505,31 @@ export const adlibData = {
       "n1": {
         "ErsteV": {
           "comm_1": "Hirten",
-          "oration": "Gott, unser Heil, durch die Predigt und das apostolische Wirken der heiligen Willibald und Wunibald hast du deiner Kirche viele Menschen zugeführt. Gib uns auf ihre Fürsprache neue Kraft und mehre den Glauben und die Heiligkeit in deinem Volk.^ORV"
+          "oration": "Gott, unser Heil, durch die Predigt und das apostolische Wirken der heiligen Willibald und Wunibald hast du deiner Kirche viele Menschen zugeführt. Gib uns auf ihre Fürsprache neue Kraft und mehre den Glauben und die Heiligkeit in deinem Volk.^ORV",
+          "oration_lat": "Deus, qui Ecclésiam tuam beatórum Willibáldi et Wunibáldi religiónis zelo et apostólicis curis amplificásti, eórum intercessióne concéde, ut fídei et sanctitátis nova semper increménta suscípiat.^ORlV"
         },
         "Lesehore": {
           "comm_1": "Hirten",
           "patr_autor": "Hugeburc (8. Jh.)",
           "patr_werk": "Aus den Lebensbeschreibungen der heiligen Willibald und Wunibald.",
-          "patr_text": "^hZwei eifrige Seelsorger^pAls Willibald von Rom in jene Provinz (Thüringen) gekommen war, empfing er mit 41 Jahren, schon ein weiser und gesetzter Mann, die heilige Bischofsweihe. Dann begann er, an dem Ort, der Eichstätt heißt, ein Kloster zu erbauen. Dort übte er, wie er es früher gewohnt war, weiter die heilige Zucht klösterlichen Lebens.^pWas er in St. Benedikt (Montecassino) gesehen hatte, und nicht nur dort, sondern in vielen andern Mönchsklöstern, in denen er sich landauf, landab mit Geschick und Klugheit eifrig umsah, das übte er nach deren Vorbild und gab selbst das Beispiel einer heiligmäßigen Lebensform. In allen Gemeinschaften, die ihm unterstanden, förderte er das Streben nach guten Sitten und bot ihnen das mustergültige Vorbild seiner eigenen Lebensweise in seinem Reden, in der Bekämpfung der Fehler, in seiner Frömmigkeit, Geduld und ausgewogenen Enthaltsamkeit.^pVon überall her, aus jenen Gegenden wie auch aus fernen Gebieten, begann ein Zustrom zu seiner heilsamen und gelehrten Predigt. Und wie eine Henne ihre Küchlein unter ihren Flügeln schützt und aufzieht, so führten Willibald und die Kirche als Vater und Mutter im Lauf der Zeit viele unter dem schützenden Schild ihrer Liebe dem Herrn als angenommene Kinder zu.^pSeht, das ist Willibald, der in vielen Kämpfen dem Herrn ein würdiges Volk erworben hat. Was soll ich noch über ihn, meinen Lehrer und euren Erzieher, sagen? Wer ist ihm überlegen an Frömmigkeit, an Demut und Geduld? Wer ist strenger in der Enthaltsamkeit, größer an Milde als er? Wem stand er jemals nach, wenn es darum ging, Trauernde zu trösten, Armen zu helfen oder Nackte zu bekleiden?^pDies alles ist nicht aus Ruhmsucht gesagt, sondern schlicht so, wie ich es gesehen und gehört habe. Es sind Werke der Gnade Gottes, nicht Leistungen eines Menschen; dieser spricht vielmehr mit dem Apostel: „Wer sich rühmen will, der rühme sich des Herrn.“ {1#1°Kor°1,31}.^pWunibald, der heiligmäßige und untadelige Edelmann, lebte nach der Mönchsregel, deren Forderungen er in Gesinnung und Tat erfüllte, und wurde, von Gott mit geistlichen Gaben reich ausgestattet, durch den heiligen Bonifatius zum Priester geweiht.^pDann wurde ihm zunächst die geistliche Leitung von sieben Kirchen (Gemeinden) anvertraut, denen er vorstehen und den Weg zum ewigen Heil bahnen sollte. So nahm er die alten Weissagungen der Propheten und die Erklärungen der heiligen (Väter) zu täglicher beschaulicher Betrachtung und ständiger Schriftlesung zur Hand. Vor allem prägte er die Lebensgeschichte des Herrn nach den Berichten der Evangelien täglich seinem Gedächtnis ein. Und worüber er im Geist meditierte, das verkündete er kraft der Gnade Gottes im Wort und erfüllte es im Werk.^pEr richtete seine Lehre und Mahnungen in gleicher Weise an alle, an Mächtige und Geringe, an Reiche und Arme, das besagt, dass er die göttliche Botschaft in Demut allen gleichermaßen verkündete, ohne Scheu vor den Mächtigen und voll Mitleid mit den Armen; denn „die Natur hat alle Menschen gleich geschaffen, erst durch die Verschiedenheit ihres sittlichen Verhaltens“ wurden sie verschieden {2#@Gregor d. Gr., Reg. Past. II,6}.^pGegenüber den Übeltätern war sein Verhalten so differenziert, dass er den Sünder mit strengen Worten zurechtwies, aber Nachsicht und mitleidige Liebe zu ihm im Herzen bewahrte. Allen ist er alles geworden, um alle (für Gott) zu gewinnen {3#vgl.°1°Kor°9,22}.^pSeine große Standhaftigkeit in der Entsagung hielt der ehrwürdige, vollkommene Gottesmann heimlich in den Gedanken seines Herzens verborgen. Er übte sie so, dass sie nach Möglichkeit niemandem bekannt wurde als allein dem Blick des höchsten Richters, vor dessen Augen alles nackt und bloß liegt {4#vgl.°Hebr 4,13}.^pAnderseits kannte sein demütiger und gottergebener Geist nie einen Stolz auf die Verdienste seiner Tugenden, noch menschlich-überhebliche Prahlerei, noch verfiel er in Selbstgefälligkeit, wenn er gelobt wurde. Er ließ sich nicht zum Zorn hinreißen, wenn schlechte Menschen ihn beschimpften, außer wenn er das verderbliche Treiben der Unverschämten trotz beschwörender Mahnungen nicht bessern konnte.",
+          "patr_text": "^hZwei eifrige Seelsorger^pAls Willibald von Rom in jene Provinz (Thüringen) gekommen war, empfing er mit 41 Jahren, schon ein weiser und gesetzter Mann, die heilige Bischofsweihe. Dann begann er, an dem Ort, der Eichstätt heißt, ein Kloster zu erbauen. Dort übte er, wie er es früher gewohnt war, weiter die heilige Zucht klösterlichen Lebens.^pWas er in St. Benedikt (Montecassino) gesehen hatte, und nicht nur dort, sondern in vielen andern Mönchsklöstern, in denen er sich landauf, landab mit Geschick und Klugheit eifrig umsah, das übte er nach deren Vorbild und gab selbst das Beispiel einer heiligmäßigen Lebensform. In allen Gemeinschaften, die ihm unterstanden, förderte er das Streben nach guten Sitten und bot ihnen das mustergültige Vorbild seiner eigenen Lebensweise in seinem Reden, in der Bekämpfung der Fehler, in seiner Frömmigkeit, Geduld und ausgewogenen Enthaltsamkeit.^pVon überall her, aus jenen Gegenden wie auch aus fernen Gebieten, begann ein Zustrom zu seiner heilsamen und gelehrten Predigt. Und wie eine Henne ihre Küchlein unter ihren Flügeln schützt und aufzieht, so führten Willibald und die Kirche als Vater und Mutter im Lauf der Zeit viele unter dem schützenden Schild ihrer Liebe dem Herrn als angenommene Kinder zu.^pSeht, das ist Willibald, der in vielen Kämpfen dem Herrn ein würdiges Volk erworben hat. Was soll ich noch über ihn, meinen Lehrer und euren Erzieher, sagen? Wer ist ihm überlegen an Frömmigkeit, an Demut und Geduld? Wer ist strenger in der Enthaltsamkeit, größer an Milde als er? Wem stand er jemals nach, wenn es darum ging, Trauernde zu trösten, Armen zu helfen oder Nackte zu bekleiden?^pDies alles ist nicht aus Ruhmsucht gesagt, sondern schlicht so, wie ich es gesehen und gehört habe. Es sind Werke der Gnade Gottes, nicht Leistungen eines Menschen; dieser spricht vielmehr mit dem Apostel: „Wer sich rühmen will, der rühme sich des Herrn.“ {1#1°Kor°1,31}^pWunibald, der heiligmäßige und untadelige Edelmann, lebte nach der Mönchsregel, deren Forderungen er in Gesinnung und Tat erfüllte, und wurde, von Gott mit geistlichen Gaben reich ausgestattet, durch den heiligen Bonifatius zum Priester geweiht.^pDann wurde ihm zunächst die geistliche Leitung von sieben Kirchen (Gemeinden) anvertraut, denen er vorstehen und den Weg zum ewigen Heil bahnen sollte. So nahm er die alten Weissagungen der Propheten und die Erklärungen der heiligen (Väter) zu täglicher beschaulicher Betrachtung und ständiger Schriftlesung zur Hand. Vor allem prägte er die Lebensgeschichte des Herrn nach den Berichten der Evangelien täglich seinem Gedächtnis ein. Und worüber er im Geist meditierte, das verkündete er kraft der Gnade Gottes im Wort und erfüllte es im Werk.^pEr richtete seine Lehre und Mahnungen in gleicher Weise an alle, an Mächtige und Geringe, an Reiche und Arme. Das besagt, dass er die göttliche Botschaft in Demut allen gleichermaßen verkündete, ohne Scheu vor den Mächtigen und voll Mitleid mit den Armen; denn „die Natur hat alle Menschen gleich geschaffen, erst durch die Verschiedenheit ihres sittlichen Verhaltens“ wurden sie verschieden {2#@Gregor d. Gr., Reg. Past. II,6}.^pGegenüber den Übeltätern war sein Verhalten so differenziert, dass er den Sünder mit strengen Worten zurechtwies, aber Nachsicht und mitleidige Liebe zu ihm im Herzen bewahrte. Allen ist er alles geworden, um alle (für Gott) zu gewinnen {3#vgl.°1°Kor°9,22}.^pSeine große Standhaftigkeit in der Entsagung hielt der ehrwürdige, vollkommene Gottesmann heimlich in den Gedanken seines Herzens verborgen. Er übte sie so, dass sie nach Möglichkeit niemandem bekannt wurde als allein dem Blick des höchsten Richters, vor dessen Augen alles nackt und bloß liegt {4#vgl.°Hebr 4,13}.^pAnderseits kannte sein demütiger und gottergebener Geist nie einen Stolz auf die Verdienste seiner Tugenden, noch menschlich-überhebliche Prahlerei, noch verfiel er in Selbstgefälligkeit, wenn er gelobt wurde. Er ließ sich nicht zum Zorn hinreißen, wenn schlechte Menschen ihn beschimpften, außer wenn er das verderbliche Treiben der Unverschämten trotz beschwörender Mahnungen nicht bessern konnte.",
           "patr_resp1": "Nicht wer sich selbst empfiehlt, ist anerkannt, sondern der, den der Herr empfiehlt.",
           "patr_resp2": "Wer sich also rühmen will, der rühme sich des Herrn.",
           "patr_resp3": "Selig, die arm sind vor Gott; denn ihnen gehört das Himmelreich.",
-          "oration": "Gott, unser Heil, durch die Predigt und das apostolische Wirken der heiligen Willibald und Wunibald hast du deiner Kirche viele Menschen zugeführt. Gib uns auf ihre Fürsprache neue Kraft und mehre den Glauben und die Heiligkeit in deinem Volk.^ORV"
+          "oration": "Gott, unser Heil, durch die Predigt und das apostolische Wirken der heiligen Willibald und Wunibald hast du deiner Kirche viele Menschen zugeführt. Gib uns auf ihre Fürsprache neue Kraft und mehre den Glauben und die Heiligkeit in deinem Volk.^ORV",
+          "oration_lat": "Deus, qui Ecclésiam tuam beatórum Willibáldi et Wunibáldi religiónis zelo et apostólicis curis amplificásti, eórum intercessióne concéde, ut fídei et sanctitátis nova semper increménta suscípiat.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Willibald und hl. Wunibald (FD Eig)",
           "genitiv": "des heiligen Willibald und hl. Wunibald",
           "comm_1": "Hirten",
-          "oration": "Gott, unser Heil, durch die Predigt und das apostolische Wirken der heiligen Willibald und Wunibald hast du deiner Kirche viele Menschen zugeführt. Gib uns auf ihre Fürsprache neue Kraft und mehre den Glauben und die Heiligkeit in deinem Volk.^ORV"
+          "oration": "Gott, unser Heil, durch die Predigt und das apostolische Wirken der heiligen Willibald und Wunibald hast du deiner Kirche viele Menschen zugeführt. Gib uns auf ihre Fürsprache neue Kraft und mehre den Glauben und die Heiligkeit in deinem Volk.^ORV",
+          "oration_lat": "Deus, qui Ecclésiam tuam beatórum Willibáldi et Wunibáldi religiónis zelo et apostólicis curis amplificásti, eórum intercessióne concéde, ut fídei et sanctitátis nova semper increménta suscípiat.^ORlV"
         },
         "Vesper": {
           "comm_1": "Hirten",
-          "oration": "Gott, unser Heil, durch die Predigt und das apostolische Wirken der heiligen Willibald und Wunibald hast du deiner Kirche viele Menschen zugeführt. Gib uns auf ihre Fürsprache neue Kraft und mehre den Glauben und die Heiligkeit in deinem Volk.^ORV"
+          "oration": "Gott, unser Heil, durch die Predigt und das apostolische Wirken der heiligen Willibald und Wunibald hast du deiner Kirche viele Menschen zugeführt. Gib uns auf ihre Fürsprache neue Kraft und mehre den Glauben und die Heiligkeit in deinem Volk.^ORV",
+          "oration_lat": "Deus, qui Ecclésiam tuam beatórum Willibáldi et Wunibáldi religiónis zelo et apostólicis curis amplificásti, eórum intercessióne concéde, ut fídei et sanctitátis nova semper increménta suscípiat.^ORlV"
         }
       },
       "n2": {
@@ -3560,7 +3564,8 @@ export const adlibData = {
         "ErsteV": {
           "comm_1": "MärtPl",
           "comm_2": "Hirten",
-          "oration": "Allmächtiger und barmherziger Gott, durch die Missionsarbeit des heiligen Kilian und seiner Gefährten hast du im fränkischen Land den christlichen Glauben grundgelegt. Auf die Fürsprache dieser Glaubensboten festige uns alle in der Treue zu unserem Herrn Jesus Christus,^ORR"
+          "oration": "Allmächtiger und barmherziger Gott, durch die Missionsarbeit des heiligen Kilian und seiner Gefährten hast du im fränkischen Land den christlichen Glauben grundgelegt. Auf die Fürsprache dieser Glaubensboten festige uns alle in der Treue zu unserem Herrn Jesus Christus,^ORR",
+          "oration_lat": "Omnípotens et miséricors Deus, qui beáti Kiliáni et sociórum éius apostólico labóre christiánæ religiónis fundaménta in terra Francórum iácere dignátus es, fac, ut, eórum intercessióne, in fídei stabilitáte firmémur.^ORlV"
         },
         "Lesehore": {
           "comm_1": "MärtPl",
@@ -3571,7 +3576,8 @@ export const adlibData = {
           "patr_resp1": "Sie haben für den Herrn ihr Blut vergossen, sie haben Christus geliebt im Leben und sind ihm gleich geworden im Tod;",
           "patr_resp2": "darum haben sie den Siegeskranz erlangt.",
           "patr_resp3": "^wEin^0w Geist und^w ein^0w Glaube beseelte sie.",
-          "oration": "Allmächtiger und barmherziger Gott, durch die Missionsarbeit des heiligen Kilian und seiner Gefährten hast du im fränkischen Land den christlichen Glauben grundgelegt. Auf die Fürsprache dieser Glaubensboten festige uns alle in der Treue zu unserem Herrn Jesus Christus,^ORR"
+          "oration": "Allmächtiger und barmherziger Gott, durch die Missionsarbeit des heiligen Kilian und seiner Gefährten hast du im fränkischen Land den christlichen Glauben grundgelegt. Auf die Fürsprache dieser Glaubensboten festige uns alle in der Treue zu unserem Herrn Jesus Christus,^ORR",
+          "oration_lat": "Omnípotens et miséricors Deus, qui beáti Kiliáni et sociórum éius apostólico labóre christiánæ religiónis fundaménta in terra Francórum iácere dignátus es, fac, ut, eórum intercessióne, in fídei stabilitáte firmémur.^ORlV"
         },
         "Laudes": {
           "button": "Hll. Kilian und Gefährten",
@@ -3579,12 +3585,14 @@ export const adlibData = {
           "genitiv": "des heiligen Kilian und seiner Gefährten",
           "comm_1": "MärtPl",
           "comm_2": "Hirten",
-          "oration": "Allmächtiger und barmherziger Gott, durch die Missionsarbeit des heiligen Kilian und seiner Gefährten hast du im fränkischen Land den christlichen Glauben grundgelegt. Auf die Fürsprache dieser Glaubensboten festige uns alle in der Treue zu unserem Herrn Jesus Christus,^ORR"
+          "oration": "Allmächtiger und barmherziger Gott, durch die Missionsarbeit des heiligen Kilian und seiner Gefährten hast du im fränkischen Land den christlichen Glauben grundgelegt. Auf die Fürsprache dieser Glaubensboten festige uns alle in der Treue zu unserem Herrn Jesus Christus,^ORR",
+          "oration_lat": "Omnípotens et miséricors Deus, qui beáti Kiliáni et sociórum éius apostólico labóre christiánæ religiónis fundaménta in terra Francórum iácere dignátus es, fac, ut, eórum intercessióne, in fídei stabilitáte firmémur.^ORlV"
         },
         "Vesper": {
           "comm_1": "MärtPl",
           "comm_2": "Hirten",
-          "oration": "Allmächtiger und barmherziger Gott, durch die Missionsarbeit des heiligen Kilian und seiner Gefährten hast du im fränkischen Land den christlichen Glauben grundgelegt. Auf die Fürsprache dieser Glaubensboten festige uns alle in der Treue zu unserem Herrn Jesus Christus,^ORR"
+          "oration": "Allmächtiger und barmherziger Gott, durch die Missionsarbeit des heiligen Kilian und seiner Gefährten hast du im fränkischen Land den christlichen Glauben grundgelegt. Auf die Fürsprache dieser Glaubensboten festige uns alle in der Treue zu unserem Herrn Jesus Christus,^ORR",
+          "oration_lat": "Omnípotens et miséricors Deus, qui beáti Kiliáni et sociórum éius apostólico labóre christiánæ religiónis fundaménta in terra Francórum iácere dignátus es, fac, ut, eórum intercessióne, in fídei stabilitáte firmémur.^ORlV"
         }
       }
     },
@@ -3616,7 +3624,8 @@ export const adlibData = {
       "n2": {
         "ErsteV": {
           "comm_1": "MärtSg",
-          "oration": "Herr und Gott, du schenkst uns die Freude, die Grabstätte des heiligen Bonifatius zu besitzen. Festige in uns den Glauben an die Auferstehung und gib uns einst Anteil an der ewigen Herrlichkeit.^ORV"
+          "oration": "Herr und Gott, du schenkst uns die Freude, die Grabstätte des heiligen Bonifatius zu besitzen. Festige in uns den Glauben an die Auferstehung und gib uns einst Anteil an der ewigen Herrlichkeit.^ORV",
+          "oration_lat": "Auge in nobis, quǽsumus, Dómine, resurrectiónis fidem, et fac nos immortális glóriæ partícipes, quos donásti de beáti Bonifátii sepúlcro gloriári.^ORlV"
         },
         "Lesehore": {
           "comm_1": "MärtSg",
@@ -3626,16 +3635,19 @@ export const adlibData = {
           "patr_resp1": "Jene sind die ehrwürdigen Männer, deren Hoffnung nicht vergeht. Ihr Ruhm wird niemals ausgelöscht.",
           "patr_resp2": "Ihr Leib ist in Frieden bestattet.",
           "patr_resp3": "Von ihrer Weisheit erzählt die Gemeinde, ihr Lob verkündet das versammelte Volk.",
-          "oration": "Herr und Gott, du schenkst uns die Freude, die Grabstätte des heiligen Bonifatius zu besitzen. Festige in uns den Glauben an die Auferstehung und gib uns einst Anteil an der ewigen Herrlichkeit.^ORV"
+          "oration": "Herr und Gott, du schenkst uns die Freude, die Grabstätte des heiligen Bonifatius zu besitzen. Festige in uns den Glauben an die Auferstehung und gib uns einst Anteil an der ewigen Herrlichkeit.^ORV",
+          "oration_lat": "Auge in nobis, quǽsumus, Dómine, resurrectiónis fidem, et fac nos immortális glóriæ partícipes, quos donásti de beáti Bonifátii sepúlcro gloriári.^ORlV"
         },
         "Laudes": {
           "button": "Übertragung des hl. Bonifatius",
           "comm_1": "MärtSg",
-          "oration": "Herr und Gott, du schenkst uns die Freude, die Grabstätte des heiligen Bonifatius zu besitzen. Festige in uns den Glauben an die Auferstehung und gib uns einst Anteil an der ewigen Herrlichkeit.^ORV"
+          "oration": "Herr und Gott, du schenkst uns die Freude, die Grabstätte des heiligen Bonifatius zu besitzen. Festige in uns den Glauben an die Auferstehung und gib uns einst Anteil an der ewigen Herrlichkeit.^ORV",
+          "oration_lat": "Auge in nobis, quǽsumus, Dómine, resurrectiónis fidem, et fac nos immortális glóriæ partícipes, quos donásti de beáti Bonifátii sepúlcro gloriári.^ORlV"
         },
         "Vesper": {
           "comm_1": "MärtSg",
-          "oration": "Herr und Gott, du schenkst uns die Freude, die Grabstätte des heiligen Bonifatius zu besitzen. Festige in uns den Glauben an die Auferstehung und gib uns einst Anteil an der ewigen Herrlichkeit.^ORV"
+          "oration": "Herr und Gott, du schenkst uns die Freude, die Grabstätte des heiligen Bonifatius zu besitzen. Festige in uns den Glauben an die Auferstehung und gib uns einst Anteil an der ewigen Herrlichkeit.^ORV",
+          "oration_lat": "Auge in nobis, quǽsumus, Dómine, resurrectiónis fidem, et fac nos immortális glóriæ partícipes, quos donásti de beáti Bonifátii sepúlcro gloriári.^ORlV"
         }
       }
     },
@@ -3699,7 +3711,8 @@ export const adlibData = {
         "ErsteV": {
           "comm_1": "Mann_Pl",
           "comm_2": "Frau_Pl",
-          "oration": "Allmächtiger Gott, du hast dem heiligen Kaiser Heinrich und seiner Gemahlin Kunigunde irdische Macht anvertraut und ihr Wirken mit der ewigen Herrlichkeit belohnt. Gib auch uns die Gnade, dass wir unsere Aufgabe in dieser Welt erfüllen und Erben deines Reiches werden.^ORV"
+          "oration": "Allmächtiger Gott, du hast dem heiligen Kaiser Heinrich und seiner Gemahlin Kunigunde irdische Macht anvertraut und ihr Wirken mit der ewigen Herrlichkeit belohnt. Gib auch uns die Gnade, dass wir unsere Aufgabe in dieser Welt erfüllen und Erben deines Reiches werden.^ORV",
+          "oration_lat": "Deus, qui beátum Henrícum eiúsque uxórem Cunigúndam e terréni cúlmine impérii ad regnum ætérnum transtulísti, fac nos, ambórum exémplo, ita constántes in fide et actuósos in caritáte, ut regnum tuum promoveámus in terra et glóriam tuam participémus in cælis.^ORlV"
         },
         "Lesehore": {
           "comm_1": "Mann_Pl",
@@ -3710,7 +3723,8 @@ export const adlibData = {
           "patr_resp1": "Der Herr gab ihm Ehre und bewahrte ihn vor seinen Feinden.",
           "patr_resp2": "Er verlieh ihm die ewige Herrlichkeit.",
           "patr_resp3": "Der Herr führte den Gerechten auf seinen Wegen und zeigte ihm das Reich Gottes.",
-          "oration": "Allmächtiger Gott, du hast dem heiligen Kaiser Heinrich und seiner Gemahlin Kunigunde irdische Macht anvertraut und ihr Wirken mit der ewigen Herrlichkeit belohnt. Gib auch uns die Gnade, dass wir unsere Aufgabe in dieser Welt erfüllen und Erben deines Reiches werden.^ORV"
+          "oration": "Allmächtiger Gott, du hast dem heiligen Kaiser Heinrich und seiner Gemahlin Kunigunde irdische Macht anvertraut und ihr Wirken mit der ewigen Herrlichkeit belohnt. Gib auch uns die Gnade, dass wir unsere Aufgabe in dieser Welt erfüllen und Erben deines Reiches werden.^ORV",
+          "oration_lat": "Deus, qui beátum Henrícum eiúsque uxórem Cunigúndam e terréni cúlmine impérii ad regnum ætérnum transtulísti, fac nos, ambórum exémplo, ita constántes in fide et actuósos in caritáte, ut regnum tuum promoveámus in terra et glóriam tuam participémus in cælis.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Heinrich II. und hl. Kunigunde",
@@ -3718,12 +3732,14 @@ export const adlibData = {
           "genitiv": "der Heiligen Heinrich und Kunigunde",
           "comm_1": "Mann_Pl",
           "comm_2": "Frau_Pl",
-          "oration": "Allmächtiger Gott, du hast dem heiligen Kaiser Heinrich und seiner Gemahlin Kunigunde irdische Macht anvertraut und ihr Wirken mit der ewigen Herrlichkeit belohnt. Gib auch uns die Gnade, dass wir unsere Aufgabe in dieser Welt erfüllen und Erben deines Reiches werden.^ORV"
+          "oration": "Allmächtiger Gott, du hast dem heiligen Kaiser Heinrich und seiner Gemahlin Kunigunde irdische Macht anvertraut und ihr Wirken mit der ewigen Herrlichkeit belohnt. Gib auch uns die Gnade, dass wir unsere Aufgabe in dieser Welt erfüllen und Erben deines Reiches werden.^ORV",
+          "oration_lat": "Deus, qui beátum Henrícum eiúsque uxórem Cunigúndam e terréni cúlmine impérii ad regnum ætérnum transtulísti, fac nos, ambórum exémplo, ita constántes in fide et actuósos in caritáte, ut regnum tuum promoveámus in terra et glóriam tuam participémus in cælis.^ORlV"
         },
         "Vesper": {
           "comm_1": "Mann_Pl",
           "comm_2": "Frau_Pl",
-          "oration": "Allmächtiger Gott, du hast dem heiligen Kaiser Heinrich und seiner Gemahlin Kunigunde irdische Macht anvertraut und ihr Wirken mit der ewigen Herrlichkeit belohnt. Gib auch uns die Gnade, dass wir unsere Aufgabe in dieser Welt erfüllen und Erben deines Reiches werden.^ORV"
+          "oration": "Allmächtiger Gott, du hast dem heiligen Kaiser Heinrich und seiner Gemahlin Kunigunde irdische Macht anvertraut und ihr Wirken mit der ewigen Herrlichkeit belohnt. Gib auch uns die Gnade, dass wir unsere Aufgabe in dieser Welt erfüllen und Erben deines Reiches werden.^ORV",
+          "oration_lat": "Deus, qui beátum Henrícum eiúsque uxórem Cunigúndam e terréni cúlmine impérii ad regnum ætérnum transtulísti, fac nos, ambórum exémplo, ita constántes in fide et actuósos in caritáte, ut regnum tuum promoveámus in terra et glóriam tuam participémus in cælis.^ORlV"
         }
       }
     },
@@ -4357,7 +4373,8 @@ export const adlibData = {
       "n1": {
         "ErsteV": {
           "comm_1": "Frau_Ord",
-          "oration": "Barmherziger Gott, du hast die heilige Radegunde aus dem Glanz und der Bedrängnis der Welt in die Stille der Klosterzelle und in deinen Frieden geführt. Hilf uns, dass wir unsere Hoffnung nicht auf irdische Mittel setzen, sondern vertrauensvoll alles von dir erwarten.^ORV"
+          "oration": "Barmherziger Gott, du hast die heilige Radegunde aus dem Glanz und der Bedrängnis der Welt in die Stille der Klosterzelle und in deinen Frieden geführt. Hilf uns, dass wir unsere Hoffnung nicht auf irdische Mittel setzen, sondern vertrauensvoll alles von dir erwarten.^ORV",
+          "oration_lat": "Deus, qui beátæ Radegúndis mundi splendórem et angústias fugiénti pacem tuam in claustri solitúdine præbuísti, doce, quǽsumus, nos fámulos tuos, ut terrénis óptibus diffidéntes omnem in te solo spem habeámus.^ORlV"
         },
         "Lesehore": {
           "comm_1": "Frau_Ord",
@@ -4367,17 +4384,20 @@ export const adlibData = {
           "patr_resp1": "Ich will mich allein des Kreuzes Jesu Christi, unseres Herrn, rühmen,",
           "patr_resp2": "durch das mir die Welt gekreuzigt ist und ich der Welt.",
           "patr_resp3": "Denn er ist unser Friede. Er brachte Versöhnung mit Gott durch das Kreuz,",
-          "oration": "Barmherziger Gott, du hast die heilige Radegunde aus dem Glanz und der Bedrängnis der Welt in die Stille der Klosterzelle und in deinen Frieden geführt. Hilf uns, dass wir unsere Hoffnung nicht auf irdische Mittel setzen, sondern vertrauensvoll alles von dir erwarten.^ORV"
+          "oration": "Barmherziger Gott, du hast die heilige Radegunde aus dem Glanz und der Bedrängnis der Welt in die Stille der Klosterzelle und in deinen Frieden geführt. Hilf uns, dass wir unsere Hoffnung nicht auf irdische Mittel setzen, sondern vertrauensvoll alles von dir erwarten.^ORV",
+          "oration_lat": "Deus, qui beátæ Radegúndis mundi splendórem et angústias fugiénti pacem tuam in claustri solitúdine præbuísti, doce, quǽsumus, nos fámulos tuos, ut terrénis óptibus diffidéntes omnem in te solo spem habeámus.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Radegunde",
           "genitiv": "der heiligen Radegunde",
           "comm_1": "Frau_Ord",
-          "oration": "Barmherziger Gott, du hast die heilige Radegunde aus dem Glanz und der Bedrängnis der Welt in die Stille der Klosterzelle und in deinen Frieden geführt. Hilf uns, dass wir unsere Hoffnung nicht auf irdische Mittel setzen, sondern vertrauensvoll alles von dir erwarten.^ORV"
+          "oration": "Barmherziger Gott, du hast die heilige Radegunde aus dem Glanz und der Bedrängnis der Welt in die Stille der Klosterzelle und in deinen Frieden geführt. Hilf uns, dass wir unsere Hoffnung nicht auf irdische Mittel setzen, sondern vertrauensvoll alles von dir erwarten.^ORV",
+          "oration_lat": "Deus, qui beátæ Radegúndis mundi splendórem et angústias fugiénti pacem tuam in claustri solitúdine præbuísti, doce, quǽsumus, nos fámulos tuos, ut terrénis óptibus diffidéntes omnem in te solo spem habeámus.^ORlV"
         },
         "Vesper": {
           "comm_1": "Frau_Ord",
-          "oration": "Barmherziger Gott, du hast die heilige Radegunde aus dem Glanz und der Bedrängnis der Welt in die Stille der Klosterzelle und in deinen Frieden geführt. Hilf uns, dass wir unsere Hoffnung nicht auf irdische Mittel setzen, sondern vertrauensvoll alles von dir erwarten.^ORV"
+          "oration": "Barmherziger Gott, du hast die heilige Radegunde aus dem Glanz und der Bedrängnis der Welt in die Stille der Klosterzelle und in deinen Frieden geführt. Hilf uns, dass wir unsere Hoffnung nicht auf irdische Mittel setzen, sondern vertrauensvoll alles von dir erwarten.^ORV",
+          "oration_lat": "Deus, qui beátæ Radegúndis mundi splendórem et angústias fugiénti pacem tuam in claustri solitúdine præbuísti, doce, quǽsumus, nos fámulos tuos, ut terrénis óptibus diffidéntes omnem in te solo spem habeámus.^ORlV"
         }
       },
       "n2": {
@@ -4412,7 +4432,8 @@ export const adlibData = {
         "ErsteV": {
           "comm_1": "Hirten",
           "comm_2": "Mann_Ord",
-          "oration": "Herr, unser Gott, du hast dem heiligen Abt Wigbert einen besonderen Eifer verliehen, junge Menschen zur Nachfolge Christi zu führen. Hilf uns, deine Gebote treu zu beobachten und so für uns und unsere Brüder das Heil zu finden.^ORV"
+          "oration": "Herr, unser Gott, du hast dem heiligen Abt Wigbert einen besonderen Eifer verliehen, junge Menschen zur Nachfolge Christi zu führen. Hilf uns, deine Gebote treu zu beobachten und so für uns und unsere Brüder das Heil zu finden.^ORV",
+          "oration_lat": "Deus, qui beáto Wigbérto exímium in informánda iuventúte zelum tribuísti, concéde, quǽsumus, ut quæ te dante divínæ legis háusimus mandáta, ad própriam et próximi salútem fidéliter exsequámur.^ORlV"
         },
         "Lesehore": {
           "comm_1": "Hirten",
@@ -4423,7 +4444,8 @@ export const adlibData = {
           "patr_resp1": "Ich erduldete Mühsal und Plage, ertrug Hunger und Durst, Kälte und Blöße. – Aber was liegt daran?",
           "patr_resp2": "Wenn nur auf jede Weise Christus verkündigt wird.",
           "patr_resp3": "Betet für uns, damit Gott uns eine Tür öffnet für das Wort.",
-          "oration": "Herr, unser Gott, du hast dem heiligen Abt Wigbert einen besonderen Eifer verliehen, junge Menschen zur Nachfolge Christi zu führen. Hilf uns, deine Gebote treu zu beobachten und so für uns und unsere Brüder das Heil zu finden.^ORV"
+          "oration": "Herr, unser Gott, du hast dem heiligen Abt Wigbert einen besonderen Eifer verliehen, junge Menschen zur Nachfolge Christi zu führen. Hilf uns, deine Gebote treu zu beobachten und so für uns und unsere Brüder das Heil zu finden.^ORV",
+          "oration_lat": "Deus, qui beáto Wigbérto exímium in informánda iuventúte zelum tribuísti, concéde, quǽsumus, ut quæ te dante divínæ legis háusimus mandáta, ad própriam et próximi salútem fidéliter exsequámur.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Wigbert",
@@ -4431,12 +4453,14 @@ export const adlibData = {
           "genitiv": "des heiligen Wigbert",
           "comm_1": "Hirten",
           "comm_2": "Mann_Ord",
-          "oration": "Herr, unser Gott, du hast dem heiligen Abt Wigbert einen besonderen Eifer verliehen, junge Menschen zur Nachfolge Christi zu führen. Hilf uns, deine Gebote treu zu beobachten und so für uns und unsere Brüder das Heil zu finden.^ORV"
+          "oration": "Herr, unser Gott, du hast dem heiligen Abt Wigbert einen besonderen Eifer verliehen, junge Menschen zur Nachfolge Christi zu führen. Hilf uns, deine Gebote treu zu beobachten und so für uns und unsere Brüder das Heil zu finden.^ORV",
+          "oration_lat": "Deus, qui beáto Wigbérto exímium in informánda iuventúte zelum tribuísti, concéde, quǽsumus, ut quæ te dante divínæ legis háusimus mandáta, ad própriam et próximi salútem fidéliter exsequámur.^ORlV"
         },
         "Vesper": {
           "comm_1": "Hirten",
           "comm_2": "Mann_Ord",
-          "oration": "Herr, unser Gott, du hast dem heiligen Abt Wigbert einen besonderen Eifer verliehen, junge Menschen zur Nachfolge Christi zu führen. Hilf uns, deine Gebote treu zu beobachten und so für uns und unsere Brüder das Heil zu finden.^ORV"
+          "oration": "Herr, unser Gott, du hast dem heiligen Abt Wigbert einen besonderen Eifer verliehen, junge Menschen zur Nachfolge Christi zu führen. Hilf uns, deine Gebote treu zu beobachten und so für uns und unsere Brüder das Heil zu finden.^ORV",
+          "oration_lat": "Deus, qui beáto Wigbérto exímium in informánda iuventúte zelum tribuísti, concéde, quǽsumus, ut quæ te dante divínæ legis háusimus mandáta, ad própriam et próximi salútem fidéliter exsequámur.^ORlV"
         }
       },
       "n2": {
@@ -4475,7 +4499,8 @@ export const adlibData = {
       "n1": {
         "ErsteV": {
           "comm_1": "Mann_Liebe",
-          "oration": "Gütiger Gott, du hast den heiligen Rochus berufen, in schwerer Zeit den Kranken und Armen beizustehen. Höre auf seine Fürsprache: Bewahre uns vor Schaden an Leib und Seele und mache auch uns bereit, unseren Mitmenschen in Krankheit und Not zu helfen.^ORV"
+          "oration": "Gütiger Gott, du hast den heiligen Rochus berufen, in schwerer Zeit den Kranken und Armen beizustehen. Höre auf seine Fürsprache: Bewahre uns vor Schaden an Leib und Seele und mache auch uns bereit, unseren Mitmenschen in Krankheit und Not zu helfen.^ORV",
+          "oration_lat": "Clementíssime Deus, qui beátum Rochum temporibus advérsis in adiuvándis infírmis et egénis virtúte constantíæ et patiéntiæ roborásti: præsta, quǽsumus, ut qui eius festum cólimus, ipsíus précibus a córporis et ánimæ noxa liberáti ægrótis et afflíctis subveniámus.^ORlV"
         },
         "Lesehore": {
           "comm_1": "Mann_Liebe",
@@ -4485,18 +4510,21 @@ export const adlibData = {
           "patr_resp1": "Ich war hungrig, und ihr habt mir zu essen gegeben; ich war durstig, und ihr habt mir zu trinken gegeben; ich war krank, und ihr habt mich besucht.",
           "patr_resp2": "Was ihr für einen meiner geringsten Brüder getan habt, das habt ihr mir getan.",
           "patr_resp3": "Kommt her, die ihr von meinem Vater gesegnet seid, nehmt das Reich in Besitz.",
-          "oration": "Gütiger Gott, du hast den heiligen Rochus berufen, in schwerer Zeit den Kranken und Armen beizustehen. Höre auf seine Fürsprache: Bewahre uns vor Schaden an Leib und Seele und mache auch uns bereit, unseren Mitmenschen in Krankheit und Not zu helfen.^ORV"
+          "oration": "Gütiger Gott, du hast den heiligen Rochus berufen, in schwerer Zeit den Kranken und Armen beizustehen. Höre auf seine Fürsprache: Bewahre uns vor Schaden an Leib und Seele und mache auch uns bereit, unseren Mitmenschen in Krankheit und Not zu helfen.^ORV",
+          "oration_lat": "Clementíssime Deus, qui beátum Rochum temporibus advérsis in adiuvándis infírmis et egénis virtúte constantíæ et patiéntiæ roborásti: præsta, quǽsumus, ut qui eius festum cólimus, ipsíus précibus a córporis et ánimæ noxa liberáti ægrótis et afflíctis subveniámus.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Rochus",
           "nominativ": "Der heilige Rochus",
           "genitiv": "des heiligen Rochus",
           "comm_1": "Mann_Liebe",
-          "oration": "Gütiger Gott, du hast den heiligen Rochus berufen, in schwerer Zeit den Kranken und Armen beizustehen. Höre auf seine Fürsprache: Bewahre uns vor Schaden an Leib und Seele und mache auch uns bereit, unseren Mitmenschen in Krankheit und Not zu helfen.^ORV"
+          "oration": "Gütiger Gott, du hast den heiligen Rochus berufen, in schwerer Zeit den Kranken und Armen beizustehen. Höre auf seine Fürsprache: Bewahre uns vor Schaden an Leib und Seele und mache auch uns bereit, unseren Mitmenschen in Krankheit und Not zu helfen.^ORV",
+          "oration_lat": "Clementíssime Deus, qui beátum Rochum temporibus advérsis in adiuvándis infírmis et egénis virtúte constantíæ et patiéntiæ roborásti: præsta, quǽsumus, ut qui eius festum cólimus, ipsíus précibus a córporis et ánimæ noxa liberáti ægrótis et afflíctis subveniámus.^ORlV"
         },
         "Vesper": {
           "comm_1": "Mann_Liebe",
-          "oration": "Gütiger Gott, du hast den heiligen Rochus berufen, in schwerer Zeit den Kranken und Armen beizustehen. Höre auf seine Fürsprache: Bewahre uns vor Schaden an Leib und Seele und mache auch uns bereit, unseren Mitmenschen in Krankheit und Not zu helfen.^ORV"
+          "oration": "Gütiger Gott, du hast den heiligen Rochus berufen, in schwerer Zeit den Kranken und Armen beizustehen. Höre auf seine Fürsprache: Bewahre uns vor Schaden an Leib und Seele und mache auch uns bereit, unseren Mitmenschen in Krankheit und Not zu helfen.^ORV",
+          "oration_lat": "Clementíssime Deus, qui beátum Rochum temporibus advérsis in adiuvándis infírmis et egénis virtúte constantíæ et patiéntiæ roborásti: præsta, quǽsumus, ut qui eius festum cólimus, ipsíus précibus a córporis et ánimæ noxa liberáti ægrótis et afflíctis subveniámus.^ORlV"
         }
       },
       "n2": {
@@ -4532,7 +4560,8 @@ export const adlibData = {
         "ErsteV": {
           "comm_1": "MärtSg",
           "comm_2": "Mann_Ord",
-          "oration": "Gott, in deiner Kraft hat der heilige Maximilian Kolbe die Qualen des Martyriums ausgehalten und sein Leben für den Bruder in Christus hingegeben. Sieh auf unsere Schwachheit und gib uns die Kraft, deine Wahrheit und deine Liebe in unserem Leben und Sterben zu bezeugen.^ORV"
+          "oration": "Gott, in deiner Kraft hat der heilige Maximilian Kolbe die Qualen des Martyriums ausgehalten und sein Leben für den Bruder in Christus hingegeben. Sieh auf unsere Schwachheit und gib uns die Kraft, deine Wahrheit und deine Liebe in unserem Leben und Sterben zu bezeugen.^ORV",
+          "oration_lat": "Deus, in cuius virtúte beátus martyr tuus Maximiliánus, ut ánimam suam pro fratre póneret, passiónis suæ torménta superávit, nostræ, quǽsumus, infirmitáti medére, ut sive per vitam sive per mortem veritátis et caritátis tuæ ostendámus vigórem.^ORlV"
         },
         "Lesehore": {
           "comm_1": "MärtSg",
@@ -4543,7 +4572,8 @@ export const adlibData = {
           "patr_resp1": "Ich vertraue auf Gott und fürchte mich nicht. Was können Menschen mir antun?",
           "patr_resp2": "Gott hat die Macht für ewige Zeiten.",
           "patr_resp3": "Nur kurze Zeit müsst ihr leiden. Gott wird euch aufrichten und stärken.",
-          "oration": "Gott, in deiner Kraft hat der heilige Maximilian Kolbe die Qualen des Martyriums ausgehalten und sein Leben für den Bruder in Christus hingegeben. Sieh auf unsere Schwachheit und gib uns die Kraft, deine Wahrheit und deine Liebe in unserem Leben und Sterben zu bezeugen.^ORV"
+          "oration": "Gott, in deiner Kraft hat der heilige Maximilian Kolbe die Qualen des Martyriums ausgehalten und sein Leben für den Bruder in Christus hingegeben. Sieh auf unsere Schwachheit und gib uns die Kraft, deine Wahrheit und deine Liebe in unserem Leben und Sterben zu bezeugen.^ORV",
+          "oration_lat": "Deus, in cuius virtúte beátus martyr tuus Maximiliánus, ut ánimam suam pro fratre póneret, passiónis suæ torménta superávit, nostræ, quǽsumus, infirmitáti medére, ut sive per vitam sive per mortem veritátis et caritátis tuæ ostendámus vigórem.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Maximilian Maria Kolbe",
@@ -4552,12 +4582,14 @@ export const adlibData = {
           "genitiv": "des heiligen Maximilian Maria Kolbe",
           "comm_1": "MärtSg",
           "comm_2": "Mann_Ord",
-          "oration": "Gott, in deiner Kraft hat der heilige Maximilian Kolbe die Qualen des Martyriums ausgehalten und sein Leben für den Bruder in Christus hingegeben. Sieh auf unsere Schwachheit und gib uns die Kraft, deine Wahrheit und deine Liebe in unserem Leben und Sterben zu bezeugen.^ORV"
+          "oration": "Gott, in deiner Kraft hat der heilige Maximilian Kolbe die Qualen des Martyriums ausgehalten und sein Leben für den Bruder in Christus hingegeben. Sieh auf unsere Schwachheit und gib uns die Kraft, deine Wahrheit und deine Liebe in unserem Leben und Sterben zu bezeugen.^ORV",
+          "oration_lat": "Deus, in cuius virtúte beátus martyr tuus Maximiliánus, ut ánimam suam pro fratre póneret, passiónis suæ torménta superávit, nostræ, quǽsumus, infirmitáti medére, ut sive per vitam sive per mortem veritátis et caritátis tuæ ostendámus vigórem.^ORlV"
         },
         "Vesper": {
           "comm_1": "MärtSg",
           "comm_2": "Mann_Ord",
-          "oration": "Gott, in deiner Kraft hat der heilige Maximilian Kolbe die Qualen des Martyriums ausgehalten und sein Leben für den Bruder in Christus hingegeben. Sieh auf unsere Schwachheit und gib uns die Kraft, deine Wahrheit und deine Liebe in unserem Leben und Sterben zu bezeugen.^ORV"
+          "oration": "Gott, in deiner Kraft hat der heilige Maximilian Kolbe die Qualen des Martyriums ausgehalten und sein Leben für den Bruder in Christus hingegeben. Sieh auf unsere Schwachheit und gib uns die Kraft, deine Wahrheit und deine Liebe in unserem Leben und Sterben zu bezeugen.^ORV",
+          "oration_lat": "Deus, in cuius virtúte beátus martyr tuus Maximiliánus, ut ánimam suam pro fratre póneret, passiónis suæ torménta superávit, nostræ, quǽsumus, infirmitáti medére, ut sive per vitam sive per mortem veritátis et caritátis tuæ ostendámus vigórem.^ORlV"
         }
       }
     },
@@ -5564,7 +5596,8 @@ export const adlibData = {
       "n1": {
         "ErsteV": {
           "comm_1": "Mann_Ord",
-          "oration": "Allmächtiger Gott, der heilige Einsiedler Gunther hat den Menschen als Helfer in der Not und als Friedensstifter gedient. Gib, dass wir aus christlichem Geist unseren Brüdern in selbstloser Liebe begegnen und stets für den Frieden eintreten.^ORV"
+          "oration": "Allmächtiger Gott, der heilige Einsiedler Gunther hat den Menschen als Helfer in der Not und als Friedensstifter gedient. Gib, dass wir aus christlichem Geist unseren Brüdern in selbstloser Liebe begegnen und stets für den Frieden eintreten.^ORV",
+          "oration_lat": "Deus, qui beátum Gunthérum mónachum miræ caritátis próximi et dissidéntes conciliándi grátia decorásti, concéde, quǽsumus, eius intercessióne, ut caritátis ópera exercéntes, ad pacem concordiámque fovéndam semper simus inténti.^ORlV"
         },
         "Lesehore": {
           "comm_1": "Mann_Ord",
@@ -5574,18 +5607,21 @@ export const adlibData = {
           "patr_resp1": "Auch wenn mein Leib und mein Herz verschmachten, ",
           "patr_resp2": "Gott ist der Fels meines Herzens und mein Anteil auf ewig.",
           "patr_resp3": "Ich will mich allein des Kreuzes Jesu Christi, unseres Herrn, rühmen, durch das mir die Welt gekreuzigt ist und ich der Welt. ",
-          "oration": "Allmächtiger Gott, der heilige Einsiedler Gunther hat den Menschen als Helfer in der Not und als Friedensstifter gedient. Gib, dass wir aus christlichem Geist unseren Brüdern in selbstloser Liebe begegnen und stets für den Frieden eintreten.^ORV"
+          "oration": "Allmächtiger Gott, der heilige Einsiedler Gunther hat den Menschen als Helfer in der Not und als Friedensstifter gedient. Gib, dass wir aus christlichem Geist unseren Brüdern in selbstloser Liebe begegnen und stets für den Frieden eintreten.^ORV",
+          "oration_lat": "Deus, qui beátum Gunthérum mónachum miræ caritátis próximi et dissidéntes conciliándi grátia decorásti, concéde, quǽsumus, eius intercessióne, ut caritátis ópera exercéntes, ad pacem concordiámque fovéndam semper simus inténti.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Gunther von Thüringen",
           "nominativ": "Der heilige Gunther",
           "genitiv": "des heiligen Gunther",
           "comm_1": "Mann_Ord",
-          "oration": "Allmächtiger Gott, der heilige Einsiedler Gunther hat den Menschen als Helfer in der Not und als Friedensstifter gedient. Gib, dass wir aus christlichem Geist unseren Brüdern in selbstloser Liebe begegnen und stets für den Frieden eintreten.^ORV"
+          "oration": "Allmächtiger Gott, der heilige Einsiedler Gunther hat den Menschen als Helfer in der Not und als Friedensstifter gedient. Gib, dass wir aus christlichem Geist unseren Brüdern in selbstloser Liebe begegnen und stets für den Frieden eintreten.^ORV",
+          "oration_lat": "Deus, qui beátum Gunthérum mónachum miræ caritátis próximi et dissidéntes conciliándi grátia decorásti, concéde, quǽsumus, eius intercessióne, ut caritátis ópera exercéntes, ad pacem concordiámque fovéndam semper simus inténti.^ORlV"
         },
         "Vesper": {
           "comm_1": "Mann_Ord",
-          "oration": "Allmächtiger Gott, der heilige Einsiedler Gunther hat den Menschen als Helfer in der Not und als Friedensstifter gedient. Gib, dass wir aus christlichem Geist unseren Brüdern in selbstloser Liebe begegnen und stets für den Frieden eintreten.^ORV"
+          "oration": "Allmächtiger Gott, der heilige Einsiedler Gunther hat den Menschen als Helfer in der Not und als Friedensstifter gedient. Gib, dass wir aus christlichem Geist unseren Brüdern in selbstloser Liebe begegnen und stets für den Frieden eintreten.^ORV",
+          "oration_lat": "Deus, qui beátum Gunthérum mónachum miræ caritátis próximi et dissidéntes conciliándi grátia decorásti, concéde, quǽsumus, eius intercessióne, ut caritátis ópera exercéntes, ad pacem concordiámque fovéndam semper simus inténti.^ORlV"
         }
       },
       "n2": {
@@ -5759,7 +5795,8 @@ export const adlibData = {
       "n1": {
         "ErsteV": {
           "comm_1": "Hirten",
-          "oration": "Herr, unser Gott, du hast den heiligen Lullus mit apostolischem Eifer erfüllt und ihn dem heiligen Bonifatius zum Mitarbeiter und Nachfolger gegeben. Höre auf seine Fürsprache, mache uns treu im Glauben und stark in der Hoffnung, die uns das Evangelium schenkt.^ORV"
+          "oration": "Herr, unser Gott, du hast den heiligen Lullus mit apostolischem Eifer erfüllt und ihn dem heiligen Bonifatius zum Mitarbeiter und Nachfolger gegeben. Höre auf seine Fürsprache, mache uns treu im Glauben und stark in der Hoffnung, die uns das Evangelium schenkt.^ORV",
+          "oration_lat": "Dómine Deus, qui beátum Lullum epíscopum, apostólico zelo succénsum, sancto Bonifátio fidum dedísti sócium ac successórem, da nobis, eius intercessióne, in fídei stabilitáte consístere, et in spe Evangélii, quod prædicávit, constántes permanére.^ORlV"
         },
         "Lesehore": {
           "comm_1": "Hirten",
@@ -5769,17 +5806,20 @@ export const adlibData = {
           "patr_resp1": "Sorgt als Hirten für die euch anvertraute Herde Gottes, nicht aus Gewinnsucht, sondern aus Neigung.",
           "patr_resp2": "Seid nicht Beherrscher eurer Gemeinden, sondern Vorbilder für die Herde.",
           "patr_resp3": "Einer ordne sich dem andern unter in der gemeinsamen Ehrfurcht vor Christus.",
-          "oration": "Herr, unser Gott, du hast den heiligen Lullus mit apostolischem Eifer erfüllt und ihn dem heiligen Bonifatius zum Mitarbeiter und Nachfolger gegeben. Höre auf seine Fürsprache, mache uns treu im Glauben und stark in der Hoffnung, die uns das Evangelium schenkt.^ORV"
+          "oration": "Herr, unser Gott, du hast den heiligen Lullus mit apostolischem Eifer erfüllt und ihn dem heiligen Bonifatius zum Mitarbeiter und Nachfolger gegeben. Höre auf seine Fürsprache, mache uns treu im Glauben und stark in der Hoffnung, die uns das Evangelium schenkt.^ORV",
+          "oration_lat": "Dómine Deus, qui beátum Lullum epíscopum, apostólico zelo succénsum, sancto Bonifátio fidum dedísti sócium ac successórem, da nobis, eius intercessióne, in fídei stabilitáte consístere, et in spe Evangélii, quod prædicávit, constántes permanére.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Lullus",
           "genitiv": "des heiligen Lullus",
           "comm_1": "Hirten",
-          "oration": "Herr, unser Gott, du hast den heiligen Lullus mit apostolischem Eifer erfüllt und ihn dem heiligen Bonifatius zum Mitarbeiter und Nachfolger gegeben. Höre auf seine Fürsprache, mache uns treu im Glauben und stark in der Hoffnung, die uns das Evangelium schenkt.^ORV"
+          "oration": "Herr, unser Gott, du hast den heiligen Lullus mit apostolischem Eifer erfüllt und ihn dem heiligen Bonifatius zum Mitarbeiter und Nachfolger gegeben. Höre auf seine Fürsprache, mache uns treu im Glauben und stark in der Hoffnung, die uns das Evangelium schenkt.^ORV",
+          "oration_lat": "Dómine Deus, qui beátum Lullum epíscopum, apostólico zelo succénsum, sancto Bonifátio fidum dedísti sócium ac successórem, da nobis, eius intercessióne, in fídei stabilitáte consístere, et in spe Evangélii, quod prædicávit, constántes permanére.^ORlV"
         },
         "Vesper": {
           "comm_1": "Hirten",
-          "oration": "Herr, unser Gott, du hast den heiligen Lullus mit apostolischem Eifer erfüllt und ihn dem heiligen Bonifatius zum Mitarbeiter und Nachfolger gegeben. Höre auf seine Fürsprache, mache uns treu im Glauben und stark in der Hoffnung, die uns das Evangelium schenkt.^ORV"
+          "oration": "Herr, unser Gott, du hast den heiligen Lullus mit apostolischem Eifer erfüllt und ihn dem heiligen Bonifatius zum Mitarbeiter und Nachfolger gegeben. Höre auf seine Fürsprache, mache uns treu im Glauben und stark in der Hoffnung, die uns das Evangelium schenkt.^ORV",
+          "oration_lat": "Dómine Deus, qui beátum Lullum epíscopum, apostólico zelo succénsum, sancto Bonifátio fidum dedísti sócium ac successórem, da nobis, eius intercessióne, in fídei stabilitáte consístere, et in spe Evangélii, quod prædicávit, constántes permanére.^ORlV"
         }
       },
       "n2": {
@@ -6123,7 +6163,8 @@ export const adlibData = {
       "n1": {
         "ErsteV": {
           "comm_1": "Hirten",
-          "oration": "Allmächtiger Gott, du hast den heiligen Witta mit deiner Liebe erfüllt; du hast ihm jenen Glauben geschenkt, der die Welt überwindet, und ihn aufgenommen in die Schar der heiligen Bischöfe. Mache auch uns auf seine Fürsprache treu im Glauben und beharrlich in der Liebe, damit wir an seiner Herrlichkeit Anteil erlangen.^ORV"
+          "oration": "Allmächtiger Gott, du hast den heiligen Witta mit deiner Liebe erfüllt; du hast ihm jenen Glauben geschenkt, der die Welt überwindet, und ihn aufgenommen in die Schar der heiligen Bischöfe. Mache auch uns auf seine Fürsprache treu im Glauben und beharrlich in der Liebe, damit wir an seiner Herrlichkeit Anteil erlangen.^ORV",
+          "oration_lat": "Deus, qui beátum Albuínum divína caritáte flagrántem, fidéque, quæ vincit mundum, insígnem, sanctis pastóribus mirabíliter aggregásti, præsta, quǽsumus, ut, ipso intercedénte, nos quoque, in fide et caritáte perseverántes, eius glóriæ consórtes fíeri mereámur.^ORlV"
         },
         "Lesehore": {
           "comm_1": "Hirten",
@@ -6133,17 +6174,20 @@ export const adlibData = {
           "patr_resp1": "Verkünde das Wort, tritt dafür ein, ob man es hören will oder nicht.",
           "patr_resp2": "Wenn du das tust, rettest du dich und alle, die auf dich hören.",
           "patr_resp3": "Weise zurecht, tadle, ermahne, in unermüdlicher und geduldiger Belehrung.",
-          "oration": "Allmächtiger Gott, du hast den heiligen Witta mit deiner Liebe erfüllt; du hast ihm jenen Glauben geschenkt, der die Welt überwindet, und ihn aufgenommen in die Schar der heiligen Bischöfe. Mache auch uns auf seine Fürsprache treu im Glauben und beharrlich in der Liebe, damit wir an seiner Herrlichkeit Anteil erlangen.^ORV"
+          "oration": "Allmächtiger Gott, du hast den heiligen Witta mit deiner Liebe erfüllt; du hast ihm jenen Glauben geschenkt, der die Welt überwindet, und ihn aufgenommen in die Schar der heiligen Bischöfe. Mache auch uns auf seine Fürsprache treu im Glauben und beharrlich in der Liebe, damit wir an seiner Herrlichkeit Anteil erlangen.^ORV",
+          "oration_lat": "Deus, qui beátum Albuínum divína caritáte flagrántem, fidéque, quæ vincit mundum, insígnem, sanctis pastóribus mirabíliter aggregásti, præsta, quǽsumus, ut, ipso intercedénte, nos quoque, in fide et caritáte perseverántes, eius glóriæ consórtes fíeri mereámur.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Witta (Albuin)",
           "genitiv": "des heiligen Witta",
           "comm_1": "Hirten",
-          "oration": "Allmächtiger Gott, du hast den heiligen Witta mit deiner Liebe erfüllt; du hast ihm jenen Glauben geschenkt, der die Welt überwindet, und ihn aufgenommen in die Schar der heiligen Bischöfe. Mache auch uns auf seine Fürsprache treu im Glauben und beharrlich in der Liebe, damit wir an seiner Herrlichkeit Anteil erlangen.^ORV"
+          "oration": "Allmächtiger Gott, du hast den heiligen Witta mit deiner Liebe erfüllt; du hast ihm jenen Glauben geschenkt, der die Welt überwindet, und ihn aufgenommen in die Schar der heiligen Bischöfe. Mache auch uns auf seine Fürsprache treu im Glauben und beharrlich in der Liebe, damit wir an seiner Herrlichkeit Anteil erlangen.^ORV",
+          "oration_lat": "Deus, qui beátum Albuínum divína caritáte flagrántem, fidéque, quæ vincit mundum, insígnem, sanctis pastóribus mirabíliter aggregásti, præsta, quǽsumus, ut, ipso intercedénte, nos quoque, in fide et caritáte perseverántes, eius glóriæ consórtes fíeri mereámur.^ORlV"
         },
         "Vesper": {
           "comm_1": "Hirten",
-          "oration": "Allmächtiger Gott, du hast den heiligen Witta mit deiner Liebe erfüllt; du hast ihm jenen Glauben geschenkt, der die Welt überwindet, und ihn aufgenommen in die Schar der heiligen Bischöfe. Mache auch uns auf seine Fürsprache treu im Glauben und beharrlich in der Liebe, damit wir an seiner Herrlichkeit Anteil erlangen.^ORV"
+          "oration": "Allmächtiger Gott, du hast den heiligen Witta mit deiner Liebe erfüllt; du hast ihm jenen Glauben geschenkt, der die Welt überwindet, und ihn aufgenommen in die Schar der heiligen Bischöfe. Mache auch uns auf seine Fürsprache treu im Glauben und beharrlich in der Liebe, damit wir an seiner Herrlichkeit Anteil erlangen.^ORV",
+          "oration_lat": "Deus, qui beátum Albuínum divína caritáte flagrántem, fidéque, quæ vincit mundum, insígnem, sanctis pastóribus mirabíliter aggregásti, præsta, quǽsumus, ut, ipso intercedénte, nos quoque, in fide et caritáte perseverántes, eius glóriæ consórtes fíeri mereámur.^ORlV"
         }
       }
     },
@@ -7011,7 +7055,8 @@ export const adlibData = {
       "n2": {
         "ErsteV": {
           "comm_1": "Hirten",
-          "oration": "Gütiger Gott, ein großes Verlangen nach dir führte den heiligen Sola in die Einsamkeit und Stille. Hilf uns, in dem wechselnden Vielerlei dieser Welt dich mit ganzem Herzen zu suchen und in dir Ruhe zu finden.^ORV"
+          "oration": "Gütiger Gott, ein großes Verlangen nach dir führte den heiligen Sola in die Einsamkeit und Stille. Hilf uns, in dem wechselnden Vielerlei dieser Welt dich mit ganzem Herzen zu suchen und in dir Ruhe zu finden.^ORV",
+          "oration_lat": "Deus, qui beátum Solam ad tui desidérium et amórem solitúdinis excitásti: da nobis eius intercessióne, ut, peregrinántes in hoc sǽculo, te sincére quærámus atque inveniámus.^ORlV"
         },
         "Lesehore": {
           "comm_1": "Hirten",
@@ -7021,17 +7066,20 @@ export const adlibData = {
           "patr_resp1": "Geh in deine Kammer, wenn du betest, und schließ die Tür zu. ",
           "patr_resp2": "Dein Vater, der auch das Verborgene sieht, wird es dir vergelten.",
           "patr_resp3": "Hütet euch, eure Gerechtigkeit vor den Menschen zur Schau zu stellen.",
-          "oration": "Gütiger Gott, ein großes Verlangen nach dir führte den heiligen Sola in die Einsamkeit und Stille. Hilf uns, in dem wechselnden Vielerlei dieser Welt dich mit ganzem Herzen zu suchen und in dir Ruhe zu finden.^ORV"
+          "oration": "Gütiger Gott, ein großes Verlangen nach dir führte den heiligen Sola in die Einsamkeit und Stille. Hilf uns, in dem wechselnden Vielerlei dieser Welt dich mit ganzem Herzen zu suchen und in dir Ruhe zu finden.^ORV",
+          "oration_lat": "Deus, qui beátum Solam ad tui desidérium et amórem solitúdinis excitásti: da nobis eius intercessióne, ut, peregrinántes in hoc sǽculo, te sincére quærámus atque inveniámus.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Sola",
           "genitiv": "des heiligen Sola",
           "comm_1": "Hirten",
-          "oration": "Gütiger Gott, ein großes Verlangen nach dir führte den heiligen Sola in die Einsamkeit und Stille. Hilf uns, in dem wechselnden Vielerlei dieser Welt dich mit ganzem Herzen zu suchen und in dir Ruhe zu finden.^ORV"
+          "oration": "Gütiger Gott, ein großes Verlangen nach dir führte den heiligen Sola in die Einsamkeit und Stille. Hilf uns, in dem wechselnden Vielerlei dieser Welt dich mit ganzem Herzen zu suchen und in dir Ruhe zu finden.^ORV",
+          "oration_lat": "Deus, qui beátum Solam ad tui desidérium et amórem solitúdinis excitásti: da nobis eius intercessióne, ut, peregrinántes in hoc sǽculo, te sincére quærámus atque inveniámus.^ORlV"
         },
         "Vesper": {
           "comm_1": "Hirten",
-          "oration": "Gütiger Gott, ein großes Verlangen nach dir führte den heiligen Sola in die Einsamkeit und Stille. Hilf uns, in dem wechselnden Vielerlei dieser Welt dich mit ganzem Herzen zu suchen und in dir Ruhe zu finden.^ORV"
+          "oration": "Gütiger Gott, ein großes Verlangen nach dir führte den heiligen Sola in die Einsamkeit und Stille. Hilf uns, in dem wechselnden Vielerlei dieser Welt dich mit ganzem Herzen zu suchen und in dir Ruhe zu finden.^ORV",
+          "oration_lat": "Deus, qui beátum Solam ad tui desidérium et amórem solitúdinis excitásti: da nobis eius intercessióne, ut, peregrinántes in hoc sǽculo, te sincére quærámus atque inveniámus.^ORlV"
         }
       }
     },
@@ -7097,7 +7145,8 @@ export const adlibData = {
         "ErsteV": {
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
-          "oration": "Gott, du Vater aller Gläubigen, in deinem Dienst hat der Märtyrerpriester Liborius für die Wiedervereinigung der getrennten Christen gelebt und gelitten. Gib auch uns Ausdauer und Geduld, damit wir nicht müde werden, für die Einheit der Kirche zu wirken.^ORV"
+          "oration": "Gott, du Vater aller Gläubigen, in deinem Dienst hat der Märtyrerpriester Liborius für die Wiedervereinigung der getrennten Christen gelebt und gelitten. Gib auch uns Ausdauer und Geduld, damit wir nicht müde werden, für die Einheit der Kirche zu wirken.^ORV",
+          "oration_lat": "Cunctórum Pater fidélium, omnípotens Deus, patiéntiam nobis concéde perseverántem in promoéndo Ecclésiæ unitátem; pro qua beáto Libório presbýtero et mártýri donásti vitam impéndere et passiónem subíre.^ORlV"
         },
         "Lesehore": {
           "comm_1": "MärtSg",
@@ -7108,7 +7157,8 @@ export const adlibData = {
           "patr_resp1": "Das Lamm in der Mitte vor dem Thron wird sie weiden und zu den Quellen führen, aus denen das Wasser des Lebens strömt.",
           "patr_resp2": "Und Gott wird alle Tränen von ihren Augen abwischen.",
           "patr_resp3": "Das sind die, die aus der großen Bedrängnis kommen; sie haben ihre Gewänder gewaschen und im Blut des Lammes weiß gemacht.",
-          "oration": "Gott, du Vater aller Gläubigen, in deinem Dienst hat der Märtyrerpriester Liborius für die Wiedervereinigung der getrennten Christen gelebt und gelitten. Gib auch uns Ausdauer und Geduld, damit wir nicht müde werden, für die Einheit der Kirche zu wirken.^ORV"
+          "oration": "Gott, du Vater aller Gläubigen, in deinem Dienst hat der Märtyrerpriester Liborius für die Wiedervereinigung der getrennten Christen gelebt und gelitten. Gib auch uns Ausdauer und Geduld, damit wir nicht müde werden, für die Einheit der Kirche zu wirken.^ORV",
+          "oration_lat": "Cunctórum Pater fidélium, omnípotens Deus, patiéntiam nobis concéde perseverántem in promoéndo Ecclésiæ unitátem; pro qua beáto Libório presbýtero et mártýri donásti vitam impéndere et passiónem subíre.^ORlV"
         },
         "Laudes": {
           "button": "Sel. Liborius Wagner",
@@ -7117,13 +7167,17 @@ export const adlibData = {
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
           "antev": "Des alten Glaubens neuer Zeuge, ward Liborius in seinem Leiden den Märtyrern der frühen Kirche gleich. So sollte Gott in seinem treuen Knecht verherrlicht werden.",
-          "oration": "Gott, du Vater aller Gläubigen, in deinem Dienst hat der Märtyrerpriester Liborius für die Wiedervereinigung der getrennten Christen gelebt und gelitten. Gib auch uns Ausdauer und Geduld, damit wir nicht müde werden, für die Einheit der Kirche zu wirken.^ORV"
+          "oration": "Gott, du Vater aller Gläubigen, in deinem Dienst hat der Märtyrerpriester Liborius für die Wiedervereinigung der getrennten Christen gelebt und gelitten. Gib auch uns Ausdauer und Geduld, damit wir nicht müde werden, für die Einheit der Kirche zu wirken.^ORV",
+          "antev_lat": "Antiquíssimæ fídei novus martyr, Libórius véterum mártyrum factus est novum exémplar, ut in servo fidéli glorificarétur Deus.",
+          "oration_lat": "Cunctórum Pater fidélium, omnípotens Deus, patiéntiam nobis concéde perseverántem in promoéndo Ecclésiæ unitátem; pro qua beáto Libório presbýtero et mártýri donásti vitam impéndere et passiónem subíre.^ORlV"
         },
         "Vesper": {
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
           "antev": "Allen Folterungen, die je Tyrannen in ihrer Wut erdachten, wurde Liborius unterworfen. Er ertrug sie in der ungebrochenen Kraft des Zeugen Christi.",
-          "oration": "Gott, du Vater aller Gläubigen, in deinem Dienst hat der Märtyrerpriester Liborius für die Wiedervereinigung der getrennten Christen gelebt und gelitten. Gib auch uns Ausdauer und Geduld, damit wir nicht müde werden, für die Einheit der Kirche zu wirken.^ORV"
+          "oration": "Gott, du Vater aller Gläubigen, in deinem Dienst hat der Märtyrerpriester Liborius für die Wiedervereinigung der getrennten Christen gelebt und gelitten. Gib auch uns Ausdauer und Geduld, damit wir nicht müde werden, für die Einheit der Kirche zu wirken.^ORV",
+          "antev_lat": "Torménta, quæ in plúribus olim tyránnis excogitávit, in Libório furor exércuit omnia. Hæc ánimo tulit, qui mártyres decet, constánti.",
+          "oration_lat": "Cunctórum Pater fidélium, omnípotens Deus, patiéntiam nobis concéde perseverántem in promoéndo Ecclésiæ unitátem; pro qua beáto Libório presbýtero et mártýri donásti vitam impéndere et passiónem subíre.^ORlV"
         }
       },
       "n2": {

@@ -12433,10 +12433,7 @@ export const brevierData = {
           "patr_resp3": "Wir wollen uns, von der Liebe geleitet, an die Wahrheit halten und in allem wachsen, bis wir ihn erreicht haben. ",
           "oration": "Ewiger Gott, bei seiner Bischofsweihe hat der heilige Bonifatius am Grab des heiligen Petrus ein feierliches Bekenntnis zum katholischen Glauben und zur Einheit der Kirche abgelegt. Erhalte dein Volk im gleichen Bekenntnis und sende ihm allzeit würdige Hirten.^ORV",
           "hymn_2_lat": 0.0,
-          "patr_resp1_lat": "",
-          "patr_resp2_lat": "",
-          "patr_resp3_lat": "",
-          "oration_lat": ""
+          "oration_lat": "Dignáre, Dómine, pópulum tuum pastóribus dignis semper instrúere, ut in fide et unitáte cathólica persevéret, quam sanctus Bonifátius, epíscopus consecrándus, sollémníter est proféssus ad beáti Petri sepúlcrum.^ORlV"
         },
         "Laudes": {
           "comm_1": "Hirten",
@@ -12446,8 +12443,8 @@ export const brevierData = {
           "antev": "Jeder Hohepriester wird aus den Menschen ausgewählt und für die Menschen eingesetzt zum Dienst vor Gott. Keiner nimmt sich eigenmächtig diese Würde, sondern er wird von Gott berufen.",
           "oration": "Ewiger Gott, bei seiner Bischofsweihe hat der heilige Bonifatius am Grab des heiligen Petrus ein feierliches Bekenntnis zum katholischen Glauben und zur Einheit der Kirche abgelegt. Erhalte dein Volk im gleichen Bekenntnis und sende ihm allzeit würdige Hirten.^ORV",
           "hymn_2_lat": 0.0,
-          "antev_lat": "",
-          "oration_lat": ""
+          "antev_lat": "Omnis póntifex ex homínibus assúmptus pro homínibus constitúitur in his, quæ sunt ad Deum. Nec quisquam sumit sibi illum honórem, sed qui vocátur a Deo.",
+          "oration_lat": "Dignáre, Dómine, pópulum tuum pastóribus dignis semper instrúere, ut in fide et unitáte cathólica persevéret, quam sanctus Bonifátius, epíscopus consecrándus, sollémníter est proféssus ad beáti Petri sepúlcrum.^ORlV"
         },
         "Vesper": {
           "hymn_1": 9201.0,
@@ -12455,8 +12452,8 @@ export const brevierData = {
           "antev": "Dank sei dir, Christus, guter Hirte! Du hast mich zur Herrlichkeit geführt, gib auch der Herde, die du mir anvertraut hast, Anteil an deiner Gnade auf ewig.",
           "oration": "Ewiger Gott, bei seiner Bischofsweihe hat der heilige Bonifatius am Grab des heiligen Petrus ein feierliches Bekenntnis zum katholischen Glauben und zur Einheit der Kirche abgelegt. Erhalte dein Volk im gleichen Bekenntnis und sende ihm allzeit würdige Hirten.^ORV",
           "hymn_2_lat": 0.0,
-          "antev_lat": "",
-          "oration_lat": ""
+          "antev_lat": "Grátias tibi ago, Christe, pastor bone, qui me ad hanc glóriam perdúcere dignátus es; peto ergo ut oves, quas tradidísti mihi, participéntur mecum de grátia tua in sempitérnum.",
+          "oration_lat": "Dignáre, Dómine, pópulum tuum pastóribus dignis semper instrúere, ut in fide et unitáte cathólica persevéret, quam sanctus Bonifátius, epíscopus consecrándus, sollémníter est proféssus ad beáti Petri sepúlcrum.^ORlV"
         }
       }
     }
