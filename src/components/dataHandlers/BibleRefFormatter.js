@@ -36,7 +36,7 @@ const formatBibleRef = (text, bracket = false) => {
 
     for (let i = 0; i < formattedText.length; i++) {
         const char = formattedText[i];
-        const nextPunctuation = formattedText.slice(i + 1).match(/[,.;–]/);
+        const nextPunctuation = formattedText.slice(i + 1).match(/[,.;–=]/);
         const nextPunctuationType = nextPunctuation ? nextPunctuation[0] : null;
 
         switch (char) {
