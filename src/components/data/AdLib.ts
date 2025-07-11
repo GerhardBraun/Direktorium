@@ -17,6 +17,8 @@ interface LaudesData {
   nominativ: string;
   genitiv: string;
   vokativ: string;
+  genitiv_lat: string;
+  vokativ_lat: string;
   comm_1?: string;
   comm_2?: string;
   antev?: string;

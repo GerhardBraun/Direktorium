@@ -298,12 +298,13 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
             text = text
                 .replace(/sancti \^GEN/g, genitiv_lat)
                 .replace(/sanctæ \^GEN/g, genitiv_lat)
+                .replace(/sanctae \^GEN/g, genitiv_lat)
         }
 
         if (vokativ_lat) {
             text = text
-                .replace(/sancte \^GEN/g, vokativ_lat)
-                .replace(/sancta \^GEN/g, vokativ_lat)
+                .replace(/sancte \^VOK/g, vokativ_lat)
+                .replace(/sancta \^VOK/g, vokativ_lat)
         }
 
         text = text.replace(/\^(NOM|GEN|VOK|NH|N)/g, '^rN.^0r');
