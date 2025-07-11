@@ -5104,7 +5104,7 @@ export const psalmsData = {
     4.0: {
         "quote": "Benedikt lat.",
         "title_lat": "Inter ætérnas súperum corónas",
-        "text_lat": "Inter ætérnas^lsúperum corónas,^lquas sacro partas^lcólimus triúmpho,^lémicas celsis^lméritis corúscus,^lo Benedícte!^pSancta te compsit^lpúerum senéctus,^lnil sibi de te^lrápuit volúptas,^láruit mundi^ltibi flos, ad alta^lmente leváto.^pHinc fuga lapsus^lpátriam, paréntes^ldéseris, fervens^lnémorum colónus;^linde conscríbis^ldocuménta vitæ^lpulchra beátæ.^pIam docens omnes^lpópulos subésse^llégibus tandem^lplacitísque Christi,^lfac tuis cuncti^lprécibus petámus^lcǽlica semper.^pCláritas Patri^lgenitǽque Proli,^lFlámini Sancto^ldecus atque cultus,^lgrátia quorum^ltibi tanta laudis^lglória lucet. Amen."
+        "text_lat": "Inter ætérnas^/súperum corónas,^lquas sacro partas^/cólimus triúmpho,^lémicas celsis^/méritis corúscus,^lo Benedícte!^pSancta te compsit^/púerum senéctus,^lnil sibi de te^/rápuit volúptas,^láruit mundi^/tibi flos, ad alta^lmente leváto.^pHinc fuga lapsus^/pátriam, paréntes^ldéseris, fervens^/némorum colónus;^linde conscríbis^/documénta vitæ^lpulchra beátæ.^pIam docens omnes^/pópulos subésse^llégibus tandem^/placitísque Christi,^lfac tuis cuncti^/précibus petámus^lcǽlica semper.^pCláritas Patri^/genitǽque Proli,^lFlámini Sancto^/decus atque cultus,^lgrátia quorum^/tibi tanta laudis^lglória lucet. Amen."
       },
     101.0: {
         "title": "^[Was in der Vorzeit rühmend ward besungen^]",

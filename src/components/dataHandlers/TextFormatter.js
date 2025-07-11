@@ -167,7 +167,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
     prefSrc = '', widthForHymns = false) => {
     if (!provText || provText === 'LEER' || provText === 'LEER_lat') return null;
     const { season, isCommemoration, swdCombined = '' } = texts;
-    const { nominativ, genitiv, vokativ } = texts?.laudes?.[prefSrc] || {};
+    const { nominativ, genitiv, vokativ, genitiv_lat, vokativ_lat } = texts?.laudes?.[prefSrc] || {};
 
     const useFootnoteList = getLocalStorage('prefFootnotes') === 'true';
     const useCommemoration = (marker === 'commemoration' && isCommemoration === true)
@@ -292,6 +292,18 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
                     vokativ.startsWith('Heilige ') ? 'tat ihr den' : match)
                 .replace(/gab ihm Weisheit/g, match =>
                     vokativ.startsWith('Heilige ') ? 'gab ihr Weisheit' : match);
+        }
+
+        if (genitiv_lat) {
+            text = text
+                .replace(/sancti \^GEN/g, genitiv_lat)
+                .replace(/sanctæ \^GEN/g, genitiv_lat)
+        }
+
+        if (vokativ_lat) {
+            text = text
+                .replace(/sancte \^GEN/g, vokativ_lat)
+                .replace(/sancta \^GEN/g, vokativ_lat)
         }
 
         text = text.replace(/\^(NOM|GEN|VOK|NH|N)/g, '^rN.^0r');

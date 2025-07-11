@@ -6,6 +6,8 @@ interface BrevierEntry {
   nominativ?: string;
   genitiv?: string;
   vokativ?: string;
+  genitiv_lat?: string;
+  vokativ_lat?: string;
   hymn_1?: number;
   hymn_2?: number;
   hymn_3?: number;
@@ -2452,10 +2454,10 @@ export const brevierData = {
           "versikel1": "Und er zeigt ihm das Reich Gottes.",
           "les_buch": "Aus dem Brief an die Kolosser.",
           "les_stelle": "3,1–17",
-          "les_text": "",
-          "resp1": "",
-          "resp2": "",
-          "resp3": "",
+          "les_text": "^hDer alte und der neue Mensch^pIhr seid mit Christus auferweckt; darum strebt nach dem, was im Himmel ist, wo Christus zur Rechten Gottes sitzt. Richtet euren Sinn auf das Himmlische und nicht auf das Irdische! Denn ihr seid gestorben, und euer Leben ist mit Christus verborgen in Gott. Wenn Christus, unser Leben, offenbar wird, dann werdet auch ihr mit ihm offenbar werden in Herrlichkeit.^pDarum tötet, was irdisch an euch ist: die Unzucht, die Schamlosigkeit, die Leidenschaft, die bösen Begierden und die Habsucht, die ein Götzendienst ist. All das zieht den Zorn Gottes nach sich. Früher seid auch ihr darin gefangen gewesen und habt euer Leben davon beherrschen lassen. Jetzt aber sollt ihr das alles ablegen: Zorn, Wut und Bosheit; auch Lästerungen und Zoten sollen nicht mehr über eure Lippen kommen. Belügt einander nicht; denn ihr habt den alten Menschen mit seinen Taten abgelegt und seid zu einem neuen Menschen geworden, der nach dem Bild seines Schöpfers erneuert wird, um ihn zu erkennen. Wo das geschieht, gibt es nicht mehr Griechen oder Juden, Beschnittene oder Unbeschnittene, Fremde, Skythen, Sklaven oder Freie, sondern Christus ist alles und in allen.^pIhr seid von Gott geliebt, seid seine auserwählten Heiligen. Darum Bekleidet euch mit aufrichtigem Erbarmen, mit Güte, Demut, Milde, Geduld! Ertragt euch gegenseitig und vergebt einander, wenn einer dem andern etwas vorzuwerfen hat. Wie der Herr euch vergeben hat, so vergebt auch ihr! Vor allem aber liebt einander, denn die Liebe ist das Band, das alles zusammenhält und Vollkommen macht. In eurem Herzen herrsche der Friede Christi; dazu seid ihr berufen als Glieder des einen Leibes. Seid dankbar!^pDas Wort Christi wohne mit seinem ganzen Reichtum bei euch! Belehrt und ermahnt einander in aller Weisheit! Singt Gott in eurem Herzen Psalmen, Hymnen und Lieder, wie sie der Geist eingibt, denn ihr seid in Gottes Gnade.^pAlles, was ihr in Worten und Werken tut, geschehe im Namen Jesu, des Herrn. Durch ihn dankt Gott, dem Vater!",
+          "resp1": "Ihr alle, die ihr auf Christus getauft seid, habt Christus als Gewand angelegt. Es gibt nicht mehr Juden und Griechen;",
+          "resp2": "denn ihr alle seid „einer“ in Christus Jesus.",
+          "resp3": "Zieht den neuen Menschen an, der nach dem Bild Gottes geschaffen ist, damit ihr wahrhaft gerecht und heilig lebt.",
           "patr_autor": "",
           "patr_werk": "",
           "patr_text": "",
@@ -2500,7 +2502,7 @@ export const brevierData = {
           "ant2_lat": "Servi Dómini, Dóminum benedícite in ætérnum.",
           "ant3_lat": "Exsultábunt sancti in glória, lætabúntur in cubílibus suis.",
           "resp1_lat": "Lex Dei eius",
-          "resp2_lat": "In corde ipsíus.",
+          "resp2_lat": "in corde ipsíus.",
           "resp3_lat": "Et non supplantabúntur gressus eius.",
           "antev_lat": "Qui facit veritátem, venit ad lucem, ut manifesténtur ópera eius, quia in Deo sunt facta.",
           "bitten_e_lat": "Christum Deum sanctum, fratres, exaltémus, orántes ut serviámus illi in sanctitáte et iustítia coram ipso ómnibus diébus nostris, et acclamémus:",
@@ -2592,7 +2594,7 @@ export const brevierData = {
           "ant2_lat": "Grátia Dei et misericórdia est in sanctos eius, et respéctus in eléctis illíus.",
           "ant3_lat": "Cantábant sancti cánticum novum ante sedem Dei et Agni, et resonábat terra in voces illórum.",
           "resp1_lat": "Iustus Dóminus,",
-          "resp2_lat": "Et iustítiam diléxit.",
+          "resp2_lat": "et iustítiam diléxit.",
           "resp3_lat": "Æquitátem vidit vultus eius.",
           "antev_lat": "Serve bone et fidélis, intra in gáudium Dómini tui.",
           "bitten_e_lat": "Implorémus Patrem, fontem omnis sanctitátis, ut, per sanctórum exémpla et intercessiónem, ad vitam sanctam nos perdúcat, et dicámus:",
@@ -3747,6 +3749,12 @@ export const brevierData = {
           "hymn_2": 1248.0,
           "hymn_3": 0.0,
           "hymn_nacht": 0.0,
+          "les_buch": "Aus dem Brief an die Philipper.",
+          "les_stelle": "3,7-4,1.4-9",
+          "les_text": "^hFreut euch im Herrn zu jeder Zeit^pWas mir ein Gewinn war, das habe ich um Christi Willen als Verlust erkannt. Ja noch mehr: ich sehe alles als Verlust an, weil die Erkenntnis Christi Jesu, meines Herrn, alles übertrifft. Seinetwegen habe ich alles aufgegeben und halte es für Unrat, um Christus zu gewinnen und in ihm zu sein. Nicht meine eigene Gerechtigkeit suche ich, die aus dem Gesetz hervorgeht, sondern jene, die durch den Glauben an Christus kommt, die Gerechtigkeit, die Gott aufgrund des Glaubens schenkt. Christus will ich erkennen und die Macht seiner Auferstehung und die Gemeinschaft mit seinen Leiden; sein Tod soll mich prägen. So hoffe ich, auch zur Auferstehung von den Toten zu gelangen.^pNicht dass ich es schon erreicht hätte oder dass ich schon vollendet wäre. Aber ich strebe danach, es zu ergreifen, weil auch ich von Christus Jesus ergriffen worden bin. Brüder, ich bilde mir nicht ein, dass ich es schon ergriffen hätte. Eines aber tue ich: Ich vergesse, was hinter mir liegt, und strecke mich nach dem aus, was vor mir ist. Das Ziel vor Augen, jage ich nach dem Siegespreis: der himmlischen Berufung, die Gott uns in Christus Jesus schenkt.^pDas wollen wir bedenken, wir Vollkommenen. Und wenn ihr anders über etwas denkt, wird Gott euch auch das offenbaren. Nur müssen wir festhalten, was wir erreicht haben.^pAhmt auch ihr mich nach, Brüder, und achtet auf jene, die nach dem Vorbild leben, das ihr an uns habt. Denn viele – von denen ich oft zu euch gesprochen habe, doch jetzt unter Tränen spreche – leben als Feinde des Kreuzes Christi. Ihr Ende ist das Verderben, ihr Gott der Bauch; ihr Ruhm besteht in ihrer Schande; Irdisches haben sie im Sinn.^pUnsere Heimat aber ist im Himmel. Von dorther erwarten wir auch Jesus Christus, den Herrn, als Retter, der unseren armseligen Leib verwandeln wird in die Gestalt seines verherrlichten Leibes, in der Kraft, mit der er sich alles unterwerfen kann.^pDarum, meine geliebten Brüder, nach denen ich mich sehne, meine Freude und mein Ehrenkranz, steht fest in der Gemeinschaft mit dem Herrn, liebe Brüder.^pFreut euch im Herrn zu jeder Zeit! Noch einmal sage ich: Freut euch! Eure Güte werde allen Menschen bekannt. Der Herr ist nahe. Sorgt euch um nichts, sondern bringt in jeder Lage betend und flehend eure Bitten mit Dank vor Gott! Und der Friede Gottes, der alles Verstehen übersteigt, wird eure Herzen und eure Gedanken in der Gemeinschaft mit Christus Jesus bewahren.^pSchließlich, Brüder: Was immer wahrhaft, edel, recht, was lauter, liebenswert, ansprechend ist, was Tugend heißt und lobenswert ist, darauf seid bedacht! Was ihr gelernt und angenommen, gehört und an mir gesehen habt, das tut! Und der Gott des Friedens wird mit euch sein.",
+          "resp1": "Legt euren Gürtel nicht ab und lasst eure Lampen brennen.",
+          "resp2": "Seid wie Menschen, die auf die Rückkehr ihres Herrn warten, der auf einer Hochzeit ist.",
+          "resp3": "Seid wachsam, denn ihr wisst nicht, an welchem Tag euer Herr kommt.",
           "hymn_1_lat": 5678.0,
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
@@ -4125,6 +4133,7 @@ export const brevierData = {
           "resp2": "er steht ihr bei, sie wird nicht wanken.",
           "resp3": "Gott ist ihr Zuflucht und Stärke, ein Helfer in allen Nöten.",
           "antev": "Schon schaue ich, wonach ich mich sehnte, schon besitze ich, was ich erhoffte. Den ich auf Erden von Herzen geliebt, mit dem bin ich im Himmel vereint.",
+          "genitiv_lat": "",
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
@@ -4542,6 +4551,7 @@ export const brevierData = {
           "resp2": "damit das Kreuz Christi nicht um seine Kraft gebracht wird. ",
           "resp3": "Vielmehr verkündigen wir das Geheimnis der verborgenen Weisheit Gottes.",
           "antev": "Von seiner Weisheit erzählt die Gemeinde, sein Lob verkündet das versammelte Volk.",
+          "genitiv_lat": "",
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
@@ -4647,6 +4657,7 @@ export const brevierData = {
           "nominativ": "Die Heiligen Cyrill und Methodius",
           "genitiv": "der Heiligen Cyrill und Methodius",
           "antev": "In Heiligkeit und Gerechtigkeit dienten sie dem Herrn all ihre Tage.",
+          "genitiv_lat": "",
           "antev_lat": ""
         },
         "Vesper": {
@@ -5347,6 +5358,8 @@ export const brevierData = {
           "genitiv": "der heiligen Katharina",
           "vokativ": "Heilige Katharina",
           "antev": "Die heilige Jungfrau Katharina flehte unablässig zum Herrn, dass er seiner Kirche den Frieden schenke.^ö",
+          "genitiv_lat": "",
+          "vokativ_lat": "",
           "antev_lat": ""
         },
         "Vesper": {
@@ -6158,34 +6171,17 @@ export const brevierData = {
         "each": {
           "comm_1": "Mann_Ord",
           "oration": "Allmächtiger Gott, du hast uns im heiligen Benedikt einen Meister und Lehrer geschenkt, der uns anleitet, dich zu suchen und dir zu dienen. Gib, dass wir der Liebe zu dir nichts vorziehen, sondern voll Freude und Zuversicht auf dem Weg deiner Gebote dir entgegeneilen.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, qui beátum Benedíctum abbátem in schola divíni servítii præclárum constituísti magístrum, tríbue, quǽsumus, ut, amóri tuo nihil præponéntes, viam mandatórum tuórum dilatáto corde currámus.^ORlV"
         },
         "Lesehore": {
           "hymn_1": 8711.101,
-          "versikel0": "Der Herr geleitet den Gerechten auf geraden Wegen.",
-          "versikel1": "Und er zeigt ihm das Reich Gottes.",
-          "les_buch": "Aus dem Brief an die Kolosser.",
-          "les_stelle": "3,1–17",
-          "les_text": "^hDer alte und der neue Mensch^pIhr seid mit Christus auferweckt; darum strebt nach dem, was im Himmel ist, wo Christus zur Rechten Gottes sitzt. Richtet euren Sinn auf das Himmlische und nicht auf das Irdische! Denn ihr seid gestorben, und euer Leben ist mit Christus verborgen in Gott. Wenn Christus, unser Leben, offenbar wird, dann werdet auch ihr mit ihm offenbar werden in Herrlichkeit.^pDarum tötet, was irdisch an euch ist: die Unzucht, die Schamlosigkeit, die Leidenschaft, die bösen Begierden und die Habsucht, die ein Götzendienst ist. All das zieht den Zorn Gottes nach sich. Früher seid auch ihr darin gefangen gewesen und habt euer Leben davon beherrschen lassen. Jetzt aber sollt ihr das alles ablegen: Zorn, Wut und Bosheit; auch Lästerungen und Zoten sollen nicht mehr über eure Lippen kommen. Belügt einander nicht; denn ihr habt den alten Menschen mit seinen Taten abgelegt und seid zu einem neuen Menschen geworden, der nach dem Bild seines Schöpfers erneuert wird, um ihn zu erkennen. Wo das geschieht, gibt es nicht mehr Griechen oder Juden, Beschnittene oder Unbeschnittene, Fremde, Skythen, Sklaven oder Freie, sondern Christus ist alles und in allen.^pIhr seid von Gott geliebt, seid seine auserwählten Heiligen. Darum Bekleidet euch mit aufrichtigem Erbarmen, mit Güte, Demut, Milde, Geduld! Ertragt euch gegenseitig und vergebt einander, wenn einer dem andern etwas vorzuwerfen hat. Wie der Herr euch vergeben hat, so vergebt auch ihr! Vor allem aber liebt einander, denn die Liebe ist das Band, das alles zusammenhält und Vollkommen macht. In eurem Herzen herrsche der Friede Christi; dazu seid ihr berufen als Glieder des einen Leibes. Seid dankbar!^pDas Wort Christi wohne mit seinem ganzen Reichtum bei euch! Belehrt und ermahnt einander in aller Weisheit! Singt Gott in eurem Herzen Psalmen, Hymnen und Lieder, wie sie der Geist eingibt, denn ihr seid in Gottes Gnade.^pAlles, was ihr in Worten und Werken tut, geschehe im Namen Jesu, des Herrn. Durch ihn dankt Gott, dem Vater!",
-          "resp1": "Ihr alle, die ihr auf Christus getauft seid, habt Christus als Gewand angelegt. Es gibt nicht mehr Juden und Griechen;",
-          "resp2": "denn ihr alle seid „einer“ in Christus Jesus.",
-          "resp3": "Zieht den neuen Menschen an, der nach dem Bild Gottes geschaffen ist, damit ihr wahrhaft gerecht und heilig lebt.",
           "patr_autor": "Benedikt von Nursia († 547)",
           "patr_werk": "Aus seiner Regel – Prolog.",
           "patr_text": "^hSie sollen Christus nichts vorziehen^pSooft du etwas Gutes zu tun beginnst, bitte zuerst inständig darum, dass Gott es vollende. Dann braucht er, der uns jetzt gnädig unter seine Söhne aufgenommen hat, nicht dereinst über unser böses Tun betrübt zu sein. Denn immer müssen wir ihm mit den Gaben, die er in uns legt, so gehorchen, dass er nie als erzürnter Vater uns, seine Söhne, enterbt oder als strenger Herr, zornig über unsere Sünden, uns wie nichtsnutzige Knechte der ewigen Strafe überantwortet, weil wir ihm zur Herrlichkeit nicht folgen wollten.^pStehen wir also endlich einmal auf; die Schrift weckt uns und sagt: Die Stunde ist gekommen, sich vom Schlaf zu erheben {1#vgl.°Röm 13,11}. Öffnen wir unsere Augen dem göttlichen Licht, und hören wir mit aufmerksamem Ohr, was die Stimme Gottes uns jeden Tag mahnend zuruft: „Wenn ihr heute seine Stimme hört, verhärtet euer Herz nicht!“ {2#Ps 95,7-8 Vg.} Ferner: „Wer Ohren hat zum Hören, der höre, was der Geist den Gemeinden sagt.“ {3#Mk 4,11; Offb 2,7} Und was sagt er? „Kommt, meine Söhne, hört mir zu! Ich will euch in der Furcht des Herrn unterweisen.“ {4#Ps°34,12} „Lauft, solange ihr noch das Licht des Lebens habt, damit euch nicht die Finsternis des Todes überfällt.“ {5#vgl.°Joh 12,35}^pDas ruft der Herr der Volksmenge zu, der er seinen Arbeiter sucht; er ruft noch einmal: „Wer ist der Mensch, der das Leben liebt und gute Tage zu sehen wünscht?“ {6#Ps 34,13} Wenn du das hörst und antwortest: „Ich“, dann sagt Gott zu dir: Willst du das wahre und ewige Leben haben, so „bewahre deine Zunge vor dem Bösen und deine Lippen vor falscher Rede! Meide das Böse und tu das Gute, suche Frieden und jage ihm nach!“ {7#Ps 34,14-15} Wenn ihr das tut, dann richte ich mein Augen auf euch und höre eure Gebete, und noch ehe ihr mich anruft, sage ich zu euch: „Hier bin ich.“ {8#Jes 58,9}^pWas könnte uns, liebe Brüder, willkommener sein als diese Stimme des Herrn, der uns einlädt? Seht doch, in seiner Güte zeigt uns der Herr den Weg zum Leben. Umgürten wir uns also mit dem Glauben {9#vgl.°Eph 6,14-15} und der Übung der guten Werke, und gehen wir unter der Führung des Evangeliums seine Wege, damit wir ihn schauen dürfen, der uns in sein Reich gerufen hat {10#vgl.°1 Thess 2,12}. Wenn wir im Zelt seines Reiches wohnen wollen, müssen wir mit guten Taten vorwärtseilen; sonst werden wir nie dorthin gelangen.^pWie es einen bösen und bitteren Eifer gibt, der von Gott trennt und zur Hölle führt, so gibt es auch einen guten Eifer, der von der Sünde trennt und zu Gott und zum ewigen Leben führt. Das ist der Eifer, den die Mönche in glühender Liebe betätigen sollen: „Sie sollen einander in gegenseitiger Achtung übertreffen.“ {11#Röm 12,10} Sie sollen ihre leiblichen und charakterlichen Schwächen mit größter Geduld ertragen. Sie sollen sich im gegenseitigen Gehorsam zu überbieten suchen. Keiner soll den eigenen Vorteil suchen, sondern mehr den des anderen. Sie sollen selbstlos die brüderliche Liebe erweisen. Gott sollen sie in Liebe fürchten. Ihrem Abt seien sie in aufrichtiger und demütiger Liebe zugetan. Christus sollen sie gar nichts vorziehen, der uns alle zusammen zum ewigen Leben führen möge.",
           "patr_resp1": "Mein Sohn, gib mir dein Herz! Deine Augen mögen auf meine Wege achten,",
           "patr_resp2": "damit Gnade über dein Haupt komme.",
           "patr_resp3": "Achte, mein Sohn, auf meine Weisheit, neige dein Ohr meinem Wort.",
-          "hymn_1_lat": 8711.1,
-          "versikel0_lat": "",
-          "versikel1_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "patr_resp1_lat": "",
-          "patr_resp2_lat": "",
-          "patr_resp3_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 8711.4
         },
         "Laudes": {
           "button": "Hl. Benedikt",
@@ -6193,14 +6189,15 @@ export const brevierData = {
           "genitiv": "des heiligen Benedikt",
           "hymn_1": 8711.101,
           "antev": "Benedikt, wahrhaft ein Gesegneter des Herrn, ein Mann von verehrungswürdigem Leben!",
+          "genitiv_lat": "sancti Benedicti",
           "hymn_1_lat": 8711.2,
-          "antev_lat": ""
+          "antev_lat": "Fuit vir vitæ venerábilis, grátia Benedíctus et nómine."
         },
         "Vesper": {
           "hymn_1": 8711.0,
           "antev": "Er hat Segen empfangen vom Herrn und Heil von Gott, seinem Helfer; denn er gehörte zu jenen, die Gottes Antlitz suchen.",
           "hymn_1_lat": 8711.4,
-          "antev_lat": ""
+          "antev_lat": "Hic accépit benedictiónem a Dómino et misericórdiam a Deo salutári suo; quia hæc est generátio quæréntium Dóminum."
         }
       },
       "22": {
@@ -6249,6 +6246,7 @@ export const brevierData = {
           "resp2": "Der Herr ist vom Tode erstanden.",
           "resp3": "Geh hin zu den Brüdern und verkünde:",
           "antev": "Als Jesus auferstanden war, am ersten Tag der Woche, erschien er zuerst Maria Magdalena, die er von sieben Dämonen befreit hatte.",
+          "genitiv_lat": "",
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
@@ -6314,7 +6312,8 @@ export const brevierData = {
         "Laudes": {
           "button": "Hl. Birgitta von Schweden",
           "nominativ": "Die heilige Birgitta",
-          "genitiv": "der heiligen Birgitta"
+          "genitiv": "der heiligen Birgitta",
+          "genitiv_lat": ""
         }
       },
       "25": {
@@ -6401,6 +6400,7 @@ export const brevierData = {
           "resp2": "in seiner barmherzigen Liebe.",
           "resp3": "Aus dem Geschlecht Davids ließ er Jesus hervorgehen, den Retter.",
           "antev": "Gepriesen sei der Herr, der Gott Israels! Er hat uns einen starken Retter erweckt im Hause seines Knechtes David.",
+          "genitiv_lat": "",
           "resp1_lat": "",
           "resp2_lat": "",
           "resp3_lat": "",
@@ -6609,7 +6609,8 @@ export const brevierData = {
           "button": "Hl. Theresia Benedicta vom Kreuz",
           "farbe": "r",
           "nominativ": "Die heilige Theresia Benedicta vom Kreuz",
-          "genitiv": "der heiligen Theresia Benedicta vom Kreuz"
+          "genitiv": "der heiligen Theresia Benedicta vom Kreuz",
+          "genitiv_lat": ""
         }
       },
       "10": {
@@ -7443,6 +7444,7 @@ export const brevierData = {
           "resp2": "mehr als Rotgold und Weißgold.",
           "resp3": "Deine Weisung macht mich froh,",
           "antev": "Bonifatius empfing die Jungfrau Lioba bei ihrer Ankunft in aller Ehrerbietung wegen der Heiligkeit ihres Lebens und ihrer Gelehrsamkeit.",
+          "genitiv_lat": "",
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
@@ -8403,6 +8405,7 @@ export const brevierData = {
           "resp2": "den Namen Gottes sollen sie verkünden.",
           "resp3": "Sie dürfen nicht schweigen bei Tag und bei Nacht.",
           "antev": "O seliger Mann, du hast die Freude des Paradieses erlangt! Jubelnd begrüßen dich Engel und Heilige, und die Jungfrauen heißen dich willkommen: Der Himmel sei deine Stätte in Ewigkeit.",
+          "genitiv_lat": "",
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
@@ -8534,6 +8537,7 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, der Elisabeth ein Herz voll Erbarmen geschenkt hat. Zu ihm rufen wir:",
           "bitten_r": "Schenke uns den Geist deiner Liebe.",
           "bitten": "Du hast Elisabeth mit der Anmut deiner Gnade ausgezeichnet;^qmache uns zu Tempeln deines Heiligen Geistes.^pDu hast in Elisabeth den Armen und Unterdrückten eine Anwältin des Erbarmens geschenkt;^qgib uns ein Herz für die rechtlosen und verachteten Menschen.^pDu bist Elisabeth in den Kranken und Leidenden begegnet;^qlass auch uns heute in allen Bedürftigen dich erkennen.^pElisabeth hat um deinetwillen alles aufgegeben, um in dir alles zu finden;^qlass uns vor dir arm werden, um andere reich zu machen.",
+          "genitiv_lat": "",
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
@@ -8894,6 +8898,7 @@ export const brevierData = {
           "resp2": "wie köstliches Salböl auf dem Haupt.",
           "resp3": "Dort spendet der Herr Segen.",
           "antev": "Das ist der Freund seiner Brüder und des Vol­kes. Er ist es, der viel betet für das Volk und für die ganze heilige Stadt.",
+          "genitiv_lat": "",
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
@@ -10003,7 +10008,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Barmherziger Gott, durch die Erniedrigung deines Sohnes hast du die gefallene Menschheit wieder aufgerichtet und aus der Knechtschaft der Sünde befreit. Erfülle uns mit Freude über die Erlösung und führe uns zur ewigen Seligkeit.^ORV",
-          "oration_lat": "Deus, qui in Fílii tui humilitáte iacéntem mundum erexísti, fidélibus tuis sanctam concéde lætítiam, ut, quos perpétuæ mortis eripuísti à servitúte peccáti, gáudiis pérfrui sempitérnis.^ORlV"
+          "oration_lat": "Deus, qui in Fílii tui humilitáte iacéntem mundum erexísti, fidélibus tuis sanctam concéde lætítiam, ut, quos eripuísti a servitúte peccáti, gáudiis pérfrui sempitérnis.^ORlV"
         }
       }
     },
