@@ -300,10 +300,9 @@ function processCommune(hours, season, targetSource) {
 
                 addLayer(readComm, 'each');
                 addLayer(readComm, season);
-                if (addComm) {
-                    ['MärtSg', 'MärtPl', 'MFr', 'Mann', 'Frau', 'Jgfr', 'Hirten'].forEach(category => {
-                        addLayer(category, addComm);
-                    });
+                addLayer(readComm, addComm);
+                if (['Mann', 'Frau'].includes(readComm)) {
+                    addLayer('MFr', addComm);
                 }
 
                 // Remove the comm_1/2 field after processing
@@ -393,9 +392,13 @@ function processBenMagnAntiphons(hours, date) {
             const remainder = year % 3;
 
             const antField = ['antc', 'anta', 'antb'][remainder];
+            const antFieldLat = `${antField}_lat`;
 
             if (hours[hour].wt[antField]) {
                 hours[hour].wt.antev = hours[hour].wt[antField];
+            }
+            if (hours[hour].wt[antFieldLat]) {
+                hours[hour].wt.antev_lat = hours[hour].wt[antFieldLat];
             }
         }
     });

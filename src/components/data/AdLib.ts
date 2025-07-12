@@ -3685,26 +3685,26 @@ export const adlibData = {
     "12": {
       "n1": {
         "ErsteV": {
-          "comm_1": "Mann_Pl",
-          "comm_2": "Frau_Pl",
+          "comm_1": "Mann_Paar",
+          "comm_2": "Frau_Paar",
           "oration": "Gott, du hast dem heiligen Louis und der heiligen Marie Zelie die Gnade gegeben, als christliche Eheleute und Eltern den Weg der Heiligkeit zu gehen; gewähre uns auf ihre Fürsprache und durch ihr Vorbild, dich zu lieben und dir treu zu dienen und dadurch der eigenen Berufung würdig zu entsprechen.^ORV"
         },
         "Lesehore": {
-          "comm_1": "Mann_Pl",
-          "comm_2": "Frau_Pl",
+          "comm_1": "Mann_Paar",
+          "comm_2": "Frau_Paar",
           "oration": "Gott, du hast dem heiligen Louis und der heiligen Marie Zelie die Gnade gegeben, als christliche Eheleute und Eltern den Weg der Heiligkeit zu gehen; gewähre uns auf ihre Fürsprache und durch ihr Vorbild, dich zu lieben und dir treu zu dienen und dadurch der eigenen Berufung würdig zu entsprechen.^ORV"
         },
         "Laudes": {
           "button": "Hll. Louis und Marie Zelie Martin",
           "nominativ": "Die Heiligen Louis und Marie Zelie",
           "genitiv": "der Heiligen Louis und Marie Zelie Martin",
-          "comm_1": "Mann_Pl",
-          "comm_2": "Frau_Pl",
+          "comm_1": "Mann_Paar",
+          "comm_2": "Frau_Paar",
           "oration": "Gott, du hast dem heiligen Louis und der heiligen Marie Zelie die Gnade gegeben, als christliche Eheleute und Eltern den Weg der Heiligkeit zu gehen; gewähre uns auf ihre Fürsprache und durch ihr Vorbild, dich zu lieben und dir treu zu dienen und dadurch der eigenen Berufung würdig zu entsprechen.^ORV"
         },
         "Vesper": {
-          "comm_1": "Mann_Pl",
-          "comm_2": "Frau_Pl",
+          "comm_1": "Mann_Paar",
+          "comm_2": "Frau_Paar",
           "oration": "Gott, du hast dem heiligen Louis und der heiligen Marie Zelie die Gnade gegeben, als christliche Eheleute und Eltern den Weg der Heiligkeit zu gehen; gewähre uns auf ihre Fürsprache und durch ihr Vorbild, dich zu lieben und dir treu zu dienen und dadurch der eigenen Berufung würdig zu entsprechen.^ORV"
         }
       }
@@ -3712,14 +3712,14 @@ export const adlibData = {
     "13": {
       "n1": {
         "ErsteV": {
-          "comm_1": "Mann_Pl",
-          "comm_2": "Frau_Pl",
+          "comm_1": "Mann_Paar",
+          "comm_2": "Frau_Paar",
           "oration": "Allmächtiger Gott, du hast dem heiligen Kaiser Heinrich und seiner Gemahlin Kunigunde irdische Macht anvertraut und ihr Wirken mit der ewigen Herrlichkeit belohnt. Gib auch uns die Gnade, dass wir unsere Aufgabe in dieser Welt erfüllen und Erben deines Reiches werden.^ORV",
           "oration_lat": "Deus, qui beátum Henrícum eiúsque uxórem Cunigúndam e terréni cúlmine impérii ad regnum ætérnum transtulísti, fac nos, ambórum exémplo, ita constántes in fide et actuósos in caritáte, ut regnum tuum promoveámus in terra et glóriam tuam participémus in cælis.^ORlV"
         },
         "Lesehore": {
-          "comm_1": "Mann_Pl",
-          "comm_2": "Frau_Pl",
+          "comm_1": "Mann_Paar",
+          "comm_2": "Frau_Paar",
           "patr_autor": "Adalbert von Bamberg (12. Jh.)",
           "patr_werk": "Aus einer alten Lebensbeschreibung Kaiser Heinrichs.",
           "patr_text": "^hEr verschaffte der Kirche das Gut des Friedens und der Ruhe^pZum König gekrönt, gab sich der heilige Heinrich als Diener Gottes nicht zufrieden mit den Sorgen für das zeitliche Königtum. Um die Krone der Unsterblichkeit zu erlangen, entschloss er sich, Kriegsdienst zu leisten für den höchsten König, dem zu dienen herrschen bedeutet. Er verwandte große Sorgfalt darauf, den Glauben und den Dienst Gottes auszubreiten, und begann, die Kirchen mit reichen Gütern auszustatten und ihre Kunstschätze zu mehren. Er gründete in seinem Besitztum das Bistum Bamberg und weihte es den Apostelfürsten Petrus und Paulus und dem heiligen Märtyrer Georg. Er übergab es durch Sonderrecht der römischen Kirche, um, von Gott erleuchtet, auch dem obersten Bischofssitz Ehre zu erweisen und seine Gründung Bamberg unter dieser hohen Schutzherrschaft zu festigen und zu sichern.^pDamit aber deutlich wird, mit welcher Umsicht dieser heilige Herrscher auch für die kommenden Zeiten auf Frieden und Ruhe für seine neue Kirche bedacht war, fügen wir hier einen Bestätigungsbrief ein:^pHeinrich, König durch das Erbarmen der göttlichen Vorsehung, an alle Söhne der Kirche, künftige wie gegenwärtige. Durch heilbringende Weisung der Heiligen Schrift werden wir gelehrt und gemahnt, die zeitlichen Güter zu lassen und irdische Bequemlichkeit zurückzustellen, um die Wohnungen im Himmel zu erstreben, die ewig dauern. Der Besitz irdischer Herrlichkeit ist flüchtig und wertlos, wenn wir in ihr nicht etwas von der Ewigkeit des Himmels sehen. In seinem Erbarmen hat Gott dem Menschengeschlecht ein nützliches Heilmittel bereitgestellt, als er den irdischen Besitz zum Kaufpreis für den Erwerb des himmlischen Vaterlandes machte.^pDieses Erbarmens Gottes sind Wir eingedenk und wissen sehr wohl, dass Wir ohne Unser Verdienst durch göttliche Huld zur Würde des Königtums erhoben wurden. Darum hielten Wir es für richtig, nicht nur die von Unsern Vorgängern errichteten Kirchen zu fördern, sondern zur größeren Ehre Gottes auch neue zu erbauen und sie zu ehren durch Geschenke, die von Unserer Dankbarkeit und Frömmigkeit zeugen. Darum waren Unsere Ohren nicht taub für die Gebote des Herrn. Vielmehr hörten Wir hin und gehorchten den Anregungen Gottes. Die Uns von Gott freigebig verliehenen Schätze möchten Wir im Himmel hinterlegen, wo keine Diebe einbrechen und sie stehlen, wo weder Motte noch Wurm sie zerstören {1#vgl.°Mt 6,19}. Während Wir der Schätze gedenken, die Wir im Himmel gesammelt haben {2#vgl.°ebd.), möchte Unser Herz mehr und mehr dort in Sehnsucht und Liebe verweilen.^pDaher wollen Wir, dass es allen Gläubigen bekannt sei, dass Wir aus Unserem väterlichen Erbe den Ort Bamberg zum hohen Sitz eines Bischofs erhoben haben, damit dort das feierliche Gedächtnis für Uns und Unsere Eltern gehalten und unaufhörlich für alle Rechtgläubigen das heilbringende Opfer gefeiert werde.",
@@ -3733,14 +3733,14 @@ export const adlibData = {
           "button": "Hl. Heinrich II. und hl. Kunigunde",
           "nominativ": "der Heiligen Heinrich und Kunigunde",
           "genitiv": "der Heiligen Heinrich und Kunigunde",
-          "comm_1": "Mann_Pl",
-          "comm_2": "Frau_Pl",
+          "comm_1": "Mann_Paar",
+          "comm_2": "Frau_Paar",
           "oration": "Allmächtiger Gott, du hast dem heiligen Kaiser Heinrich und seiner Gemahlin Kunigunde irdische Macht anvertraut und ihr Wirken mit der ewigen Herrlichkeit belohnt. Gib auch uns die Gnade, dass wir unsere Aufgabe in dieser Welt erfüllen und Erben deines Reiches werden.^ORV",
           "oration_lat": "Deus, qui beátum Henrícum eiúsque uxórem Cunigúndam e terréni cúlmine impérii ad regnum ætérnum transtulísti, fac nos, ambórum exémplo, ita constántes in fide et actuósos in caritáte, ut regnum tuum promoveámus in terra et glóriam tuam participémus in cælis.^ORlV"
         },
         "Vesper": {
-          "comm_1": "Mann_Pl",
-          "comm_2": "Frau_Pl",
+          "comm_1": "Mann_Paar",
+          "comm_2": "Frau_Paar",
           "oration": "Allmächtiger Gott, du hast dem heiligen Kaiser Heinrich und seiner Gemahlin Kunigunde irdische Macht anvertraut und ihr Wirken mit der ewigen Herrlichkeit belohnt. Gib auch uns die Gnade, dass wir unsere Aufgabe in dieser Welt erfüllen und Erben deines Reiches werden.^ORV",
           "oration_lat": "Deus, qui beátum Henrícum eiúsque uxórem Cunigúndam e terréni cúlmine impérii ad regnum ætérnum transtulísti, fac nos, ambórum exémplo, ita constántes in fide et actuósos in caritáte, ut regnum tuum promoveámus in terra et glóriam tuam participémus in cælis.^ORlV"
         }
