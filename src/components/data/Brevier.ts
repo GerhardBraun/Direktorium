@@ -1938,7 +1938,7 @@ export const brevierData = {
           "resp1_lat": "",
           "resp2_lat": "",
           "resp3_lat": "",
-          "antev_lat": "",
+          "antev_lat": "O doctor óptime, Ecclésiæ sanctæ lumen, beáte ^VOK, divínæ legis amátor, deprecáre pro nobis Fílium Dei.^Lö",
           "les_text_lat": ""
         }
       }

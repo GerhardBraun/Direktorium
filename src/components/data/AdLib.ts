@@ -3768,6 +3768,8 @@ export const adlibData = {
           "button": "Hl. Kamillus von Lellis",
           "nominativ": "Der heilige Kamillus",
           "genitiv": "des heiligen Kamillus",
+          "genitiv_lat": "sancti Camílli",
+          "vokativ_lat": "sancte Camílle",
           "comm_1": "Mann_Liebe",
           "oration": "Barmherziger Gott, du hast dem heiligen Kamillus eine außergewöhnliche Liebe zu den Kranken und Sterbenden geschenkt. Sieh auf sein heiliges Leben und gib auch uns den Geist der Barmherzigkeit, damit wir dir in unseren Mitmenschen dienen und in der Stunde unseres Todes voll Zuversicht zu dir hinübergehen.^ORV",
           "oration_lat": "Deus, qui sanctum Camíllum presbýterum caritátis in infírmos singulári grátia decorásti, eius méritis, spíritum nobis tuæ dilectiónis infúnde, ut, tibi in frátribus serviéntes, ad te, hora éxitus nostri, secúri transíre possímus.^ORlV"
@@ -3803,6 +3805,7 @@ export const adlibData = {
           "button": "Hl. Bonaventura",
           "genitiv": "des heiligen Bonaventura",
           "vokativ": "Heiliger Bonaventura",
+          "vokativ_lat": "sancte Bonaventúra",
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
           "oration": "Gott, du ewige Weisheit und Liebe, gib uns die Gnade, dass wir nach dem Vorbild des heiligen Bonaventura beharrlich deine Wahrheit suchen und nach immer größerer Liebe streben.^ORV",
@@ -3927,6 +3930,7 @@ export const adlibData = {
           "button": "Hl. Laurentius von Brindisi",
           "genitiv": "des heiligen Laurentius",
           "vokativ": "Heiliger Laurentius",
+          "vokativ_lat": "sancte Laurénti",
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
           "oration": "Allmächtiger Gott, du hast dem heiligen Laurentius von Brindisi den Geist des Rates und der Stärke verliehen, damit er als Prediger und Seelsorger zu deiner Ehre und zum Heil der Menschen wirke. Erleuchte auch uns durch deinen Geist, damit wir unsere Aufgaben erkennen und sie in deiner Kraft erfüllen.^ORV"
@@ -4066,6 +4070,7 @@ export const adlibData = {
           "button": "Hl. Petrus Chrysologus",
           "genitiv": "des heiligen Petrus Chrysologus",
           "vokativ": "Heiliger Petrus Chrysologus",
+          "vokativ_lat": "sancte Petre Chrysologe",
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
           "oration": "Erhabener Gott, du hast den Bischof Petrus Chrysologus zu einem begnadeten Verkünder deines ewigen Wortes gemacht, das unsere Menschennatur angenommen hat. Gewähre uns auf seine Fürsprache, dass wir die Geheimnisse der Erlösung allezeit im Herzen erwägen und in unseren Werken davon Zeugnis geben.^ORV"
@@ -4136,6 +4141,7 @@ export const adlibData = {
           "button": "Hl. Alfons Maria von Liguori",
           "genitiv": "des heiligen Alfons Maria",
           "vokativ": "Heiliger Alfons",
+          "vokativ_lat": "sancte Alfonse",
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
           "oration": "Gott, du Hirt deines Volkes, du schenkst der Kirche zu allen Zeiten Menschen, die durch ihren Glauben und ihre Liebe ein Vorbild sind. Gib, dass uns gleich dem heiligen Alfons das Heil der Menschen am Herzen liegt, und schenke uns im Himmel den Lohn, den er schon empfangen hat.^ORV"

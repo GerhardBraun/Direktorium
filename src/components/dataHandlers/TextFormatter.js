@@ -271,23 +271,19 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
     const replacePronomina = (text) => {
         if (nominativ) {
             text = text
-                .replace(/Der heilige \^NOM/g, nominativ)
-                .replace(/Die heilige \^NOM/g, nominativ)
-                .replace(/Die heiligen \^NOM/g, nominativ);
+                .replace(/(Der|Die) heiligen? \^NOM/g, nominativ)
         }
 
         if (genitiv) {
             text = text
-                .replace(/des heiligen \^GEN/g, genitiv)
-                .replace(/der heiligen \^GEN/g, genitiv)
+                .replace(/(des|der) heiligen \^GEN/g, genitiv)
                 .replace(/auf seine Fürbitte/g, match =>
                     genitiv.startsWith('der') ? 'auf ihre Fürbitte' : match);
         }
 
         if (vokativ) {
             text = text
-                .replace(/Heiliger \^VOK/g, vokativ)
-                .replace(/Heilige \^VOK/g, vokativ)
+                .replace(/Heiliger? \^VOK/g, vokativ)
                 .replace(/tat ihm den/g, match =>
                     vokativ.startsWith('Heilige ') ? 'tat ihr den' : match)
                 .replace(/gab ihm Weisheit/g, match =>
@@ -296,18 +292,19 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
 
         if (genitiv_lat) {
             text = text
-                .replace(/sancti \^GEN/g, genitiv_lat)
-                .replace(/sanctæ \^GEN/g, genitiv_lat)
-                .replace(/sanctae \^GEN/g, genitiv_lat)
+                .replace(/(sancti|sanctæ|sanctae) \^GEN/g, genitiv_lat)
         }
 
         if (vokativ_lat) {
             text = text
-                .replace(/sancte \^VOK/g, vokativ_lat)
-                .replace(/sancta \^VOK/g, vokativ_lat)
+                .replace(/(sancte|sancta) \^VOK/g, vokativ_lat)
+                .replace(/(beate|beata) \^VOK/g, vokativ_lat
+                    .replace(/sancte/g, 'beate')
+                    .replace(/sancta/g, 'beata')
+                )
         }
 
-        text = text.replace(/\^(NOM|GEN|VOK|NH|N)/g, '^rN.^0r');
+        text = text.replace(/\^(NOM|GEN|VOK|NH|N).?/g, '^rN.^0r');
         return text;
     }
 
