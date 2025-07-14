@@ -1447,7 +1447,7 @@ export const brevierData = {
         },
         "Invitatorium": {
           "ant0": "Wunderbar ist Gott in seinen Heiligen; kommt, wir beten ihn an!^ö^p^RUBROder:^0RUBR^l^rAnt.°°^0rLasst uns Gott loben am Fest der heiligen ^GEN!^ö",
-          "ant0_lat": ""
+          "ant0_lat": "Mirábilem Deum in sanctis suis, veníte, adorémus.^Lö^p^RUBRVel:^0RUBR^l^rAnt.°°^0rLaudémus Deum nostrum in celebritáte sanctæ ^GEN.^Lö"
         },
         "Lesehore": {
           "hymn_1": 3112.0,
@@ -1889,7 +1889,7 @@ export const brevierData = {
         },
         "Invitatorium": {
           "ant0": "Christus, den Quell der Weisheit – kommt, wir beten ihn an!^ö",
-          "ant0_lat": ""
+          "ant0_lat": "Fontem sapiéntiæ, Dóminum, veníte, adorémus.^Lö"
         },
         "Lesehore": {
           "hymn_1": 2111.0,
@@ -2681,7 +2681,7 @@ export const brevierData = {
           "bitten_lat": "Du bist wunderbar in deinen Heiligen;^qsende auch unserer Zeit heilige Männer.^pDu hast immer wieder heilige Männer berufen, dass sie deine Herrschaft in der Welt sichtbar machen;^qsteh allen bei, denen ein Dienst ^(Amt^) in der Welt aufgetragen ist.^pAuf die Fürsprache der heiligen ^GEN stärke alle, die an dich glauben;^qhilf ihnen, deinen Auftrag auszuführen, wo immer sie stehen.^pDie heiligen ^NOM haben in den Prüfungen des Lebens standgehalten;^qgib allen Christen Großmut und Tapferkeit.^pVergib den Sündern ihre Schuld^qund lass dein Antlitz leuchten über unseren Verstorbenen."
         },
         "Invitatorium": {
-          "ant0_lat": "Wunderbar ist Gott in seinen Heiligen; kommt, wir beten ihn an!^ö^p^RUBROder:^0RUBR^l^rAnt.°°^0rLasst uns Gott loben am Fest der heiligen ^GEN!^ö"
+          "ant0_lat": "Mirábilem Deum in sanctis suis, veníte, adorémus.^Lö^p^RUBRVel:^0RUBR^l^rAnt.°°^0rLaudémus Deum nostrum in celebritáte sanctórum ^GEN.^Lö"
         },
         "Lesehore": {
           "hymn_1_lat": 5647.0

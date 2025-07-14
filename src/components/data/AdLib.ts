@@ -3750,7 +3750,8 @@ export const adlibData = {
       "n1": {
         "ErsteV": {
           "comm_1": "Mann_Liebe",
-          "oration": "Barmherziger Gott, du hast dem heiligen Kamillus eine außergewöhnliche Liebe zu den Kranken und Sterbenden geschenkt. Sieh auf sein heiliges Leben und gib auch uns den Geist der Barmherzigkeit, damit wir dir in unseren Mitmenschen dienen und in der Stunde unseres Todes voll Zuversicht zu dir hinübergehen.^ORV"
+          "oration": "Barmherziger Gott, du hast dem heiligen Kamillus eine außergewöhnliche Liebe zu den Kranken und Sterbenden geschenkt. Sieh auf sein heiliges Leben und gib auch uns den Geist der Barmherzigkeit, damit wir dir in unseren Mitmenschen dienen und in der Stunde unseres Todes voll Zuversicht zu dir hinübergehen.^ORV",
+          "oration_lat": "Deus, qui sanctum Camíllum presbýterum caritátis in infírmos singulári grátia decorásti, eius méritis, spíritum nobis tuæ dilectiónis infúnde, ut, tibi in frátribus serviéntes, ad te, hora éxitus nostri, secúri transíre possímus.^ORlV"
         },
         "Lesehore": {
           "comm_1": "Mann_Liebe",
@@ -3760,18 +3761,21 @@ export const adlibData = {
           "patr_resp1": "Nehmt euch der Kranken an und seid für alle um das Gute bemüht;",
           "patr_resp2": "denn das will Gott von euch, die ihr Christus Jesus gehört.",
           "patr_resp3": "Nehmt einander an, wie auch Christus euch angenommen hat, zur Ehre Gottes,",
-          "oration": "Barmherziger Gott, du hast dem heiligen Kamillus eine außergewöhnliche Liebe zu den Kranken und Sterbenden geschenkt. Sieh auf sein heiliges Leben und gib auch uns den Geist der Barmherzigkeit, damit wir dir in unseren Mitmenschen dienen und in der Stunde unseres Todes voll Zuversicht zu dir hinübergehen.^ORV"
+          "oration": "Barmherziger Gott, du hast dem heiligen Kamillus eine außergewöhnliche Liebe zu den Kranken und Sterbenden geschenkt. Sieh auf sein heiliges Leben und gib auch uns den Geist der Barmherzigkeit, damit wir dir in unseren Mitmenschen dienen und in der Stunde unseres Todes voll Zuversicht zu dir hinübergehen.^ORV",
+          "oration_lat": "Deus, qui sanctum Camíllum presbýterum caritátis in infírmos singulári grátia decorásti, eius méritis, spíritum nobis tuæ dilectiónis infúnde, ut, tibi in frátribus serviéntes, ad te, hora éxitus nostri, secúri transíre possímus.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Kamillus von Lellis",
           "nominativ": "Der heilige Kamillus",
           "genitiv": "des heiligen Kamillus",
           "comm_1": "Mann_Liebe",
-          "oration": "Barmherziger Gott, du hast dem heiligen Kamillus eine außergewöhnliche Liebe zu den Kranken und Sterbenden geschenkt. Sieh auf sein heiliges Leben und gib auch uns den Geist der Barmherzigkeit, damit wir dir in unseren Mitmenschen dienen und in der Stunde unseres Todes voll Zuversicht zu dir hinübergehen.^ORV"
+          "oration": "Barmherziger Gott, du hast dem heiligen Kamillus eine außergewöhnliche Liebe zu den Kranken und Sterbenden geschenkt. Sieh auf sein heiliges Leben und gib auch uns den Geist der Barmherzigkeit, damit wir dir in unseren Mitmenschen dienen und in der Stunde unseres Todes voll Zuversicht zu dir hinübergehen.^ORV",
+          "oration_lat": "Deus, qui sanctum Camíllum presbýterum caritátis in infírmos singulári grátia decorásti, eius méritis, spíritum nobis tuæ dilectiónis infúnde, ut, tibi in frátribus serviéntes, ad te, hora éxitus nostri, secúri transíre possímus.^ORlV"
         },
         "Vesper": {
           "comm_1": "Mann_Liebe",
-          "oration": "Barmherziger Gott, du hast dem heiligen Kamillus eine außergewöhnliche Liebe zu den Kranken und Sterbenden geschenkt. Sieh auf sein heiliges Leben und gib auch uns den Geist der Barmherzigkeit, damit wir dir in unseren Mitmenschen dienen und in der Stunde unseres Todes voll Zuversicht zu dir hinübergehen.^ORV"
+          "oration": "Barmherziger Gott, du hast dem heiligen Kamillus eine außergewöhnliche Liebe zu den Kranken und Sterbenden geschenkt. Sieh auf sein heiliges Leben und gib auch uns den Geist der Barmherzigkeit, damit wir dir in unseren Mitmenschen dienen und in der Stunde unseres Todes voll Zuversicht zu dir hinübergehen.^ORV",
+          "oration_lat": "Deus, qui sanctum Camíllum presbýterum caritátis in infírmos singulári grátia decorásti, eius méritis, spíritum nobis tuæ dilectiónis infúnde, ut, tibi in frátribus serviéntes, ad te, hora éxitus nostri, secúri transíre possímus.^ORlV"
         }
       }
     },
@@ -3780,7 +3784,8 @@ export const adlibData = {
         "ErsteV": {
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
-          "oration": "Gott, du ewige Weisheit und Liebe, gib uns die Gnade, dass wir nach dem Vorbild des heiligen Bonaventura beharrlich deine Wahrheit suchen und nach immer größerer Liebe streben.^ORV"
+          "oration": "Gott, du ewige Weisheit und Liebe, gib uns die Gnade, dass wir nach dem Vorbild des heiligen Bonaventura beharrlich deine Wahrheit suchen und nach immer größerer Liebe streben.^ORV",
+          "oration_lat": "Da, quǽsumus, omnípotens Deus, ut, beáti Bonaventúræ epíscopi natalícia celebrántes, et ipsíus proficiámus eruditióne præclára, et caritátis ardórem iúgiter æmulémur.^ORlV"
         },
         "Lesehore": {
           "comm_1": "Hirten",
@@ -3791,7 +3796,8 @@ export const adlibData = {
           "patr_resp1": "Wer die Gebote hält, bleibt in Gott und Gott in ihm",
           "patr_resp2": "Dass er in uns bleibt, erkennen wir an dem Geist, den er uns gab",
           "patr_resp3": "Gott hat die Weisheit geschaffen durch seinen Geist und sie ausgegossen über all seine Werke",
-          "oration": "Gott, du ewige Weisheit und Liebe, gib uns die Gnade, dass wir nach dem Vorbild des heiligen Bonaventura beharrlich deine Wahrheit suchen und nach immer größerer Liebe streben.^ORV"
+          "oration": "Gott, du ewige Weisheit und Liebe, gib uns die Gnade, dass wir nach dem Vorbild des heiligen Bonaventura beharrlich deine Wahrheit suchen und nach immer größerer Liebe streben.^ORV",
+          "oration_lat": "Da, quǽsumus, omnípotens Deus, ut, beáti Bonaventúræ epíscopi natalícia celebrántes, et ipsíus proficiámus eruditióne præclára, et caritátis ardórem iúgiter æmulémur.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Bonaventura",
@@ -3799,12 +3805,14 @@ export const adlibData = {
           "vokativ": "Heiliger Bonaventura",
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
-          "oration": "Gott, du ewige Weisheit und Liebe, gib uns die Gnade, dass wir nach dem Vorbild des heiligen Bonaventura beharrlich deine Wahrheit suchen und nach immer größerer Liebe streben.^ORV"
+          "oration": "Gott, du ewige Weisheit und Liebe, gib uns die Gnade, dass wir nach dem Vorbild des heiligen Bonaventura beharrlich deine Wahrheit suchen und nach immer größerer Liebe streben.^ORV",
+          "oration_lat": "Da, quǽsumus, omnípotens Deus, ut, beáti Bonaventúræ epíscopi natalícia celebrántes, et ipsíus proficiámus eruditióne præclára, et caritátis ardórem iúgiter æmulémur.^ORlV"
         },
         "Vesper": {
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
-          "oration": "Gott, du ewige Weisheit und Liebe, gib uns die Gnade, dass wir nach dem Vorbild des heiligen Bonaventura beharrlich deine Wahrheit suchen und nach immer größerer Liebe streben.^ORV"
+          "oration": "Gott, du ewige Weisheit und Liebe, gib uns die Gnade, dass wir nach dem Vorbild des heiligen Bonaventura beharrlich deine Wahrheit suchen und nach immer größerer Liebe streben.^ORV",
+          "oration_lat": "Da, quǽsumus, omnípotens Deus, ut, beáti Bonaventúræ epíscopi natalícia celebrántes, et ipsíus proficiámus eruditióne præclára, et caritátis ardórem iúgiter æmulémur.^ORlV"
         }
       }
     },
