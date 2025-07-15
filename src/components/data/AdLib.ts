@@ -3823,29 +3823,35 @@ export const adlibData = {
       "n1": {
         "ErsteV": {
           "comm_1": "Maria",
-          "oration": "Großer und heiliger Gott, du hast den Berg Karmel schon im Alten Bund durch das Wirken der Propheten ausgezeichnet und ihn auch im Neuen Bund zu einer Stätte der Beschauung erwählt, zu einem Heiligtum der jungfräulichen Mutter Maria. Gib uns auf ihre Fürsprache die Freude, im Gebet deine Nähe zu erfahren.^ORV"
+          "oration": "Großer und heiliger Gott, du hast den Berg Karmel schon im Alten Bund durch das Wirken der Propheten ausgezeichnet und ihn auch im Neuen Bund zu einer Stätte der Beschauung erwählt, zu einem Heiligtum der jungfräulichen Mutter Maria. Gib uns auf ihre Fürsprache die Freude, im Gebet deine Nähe zu erfahren.^ORV",
+          "oration_lat": "Adiuvet nos, quǽsumus, Dómine, gloriósæ Vírginis Maríæ intercéssio veneránda, ut, eius muníti præsídiis, ad montem, qui Christus est, perveníre valeámus.^ORlR"
         },
         "Lesehore": {
           "comm_1": "Maria",
           "patr_autor": "Leo der Große (†°461)",
           "patr_werk": "Aus einer Weihnachtspredigt.",
-          "patr_text": "^hMaria empfing in ihrem Geist, bevor sie in ihrem Leib empfing^pEine Jungfrau aus dem königlichen Geschlecht Davids wird erwählt. Sie wird schwanger von heiliger Frucht. Sie sollte diesen Sohn, der zugleich Gott ist und Mensch, in ihrem Geist empfangen, bevor sie ihn in ihrem Leib empfing.^pDamit sie nicht in Unkenntnis des göttlichen Ratschlusses über die ungewöhnlichen Vorgänge erschrecke, erfuhr sie aus dem Gespräch mit dem Engel, was der Heilige Geist in ihr wirken sollte. So denkt sie denn nicht an die Verletzung ihrer Keuschheit, obwohl sie schon bald Gott gebären sollte. Wie sollte sie der nie gehörten Art der Empfängnis misstrauen, da das versprochene Ereignis doch durch die Kraft des Allerhöchsten gewirkt werden wird?^pDas Vertrauen ihres Glaubens wird durch ein Wunder gestärkt, das vorher geschehen soll: Elisabet wird fruchtbar gegen alle Erwartung. Maria soll nicht daran zweifeln, dass Gott, der der Unfruchtbaren die Kraft gibt zu empfangen, sie auch der Jungfrau verleihen wird.^pDas Wort Gottes also, Gott selbst, der Sohn Gottes, der ‚im Anfang bei Gott war, durch den alles geworden ist und ohne den nichts geworden ist‘ {1#vgl.°Joh°1,1.3}, er ist Mensch geworden, um die Menschen vom ewigen Tod zu befreien. Er ließ sich ohne Minderung seiner Herrlichkeit dazu herab, unsere Niedrigkeit anzunehmen. Er blieb, was er war, und nahm an, was er nicht war, und vereinigte so die Knechtsgestalt mit der Gottesgestalt, in der er dem Vater gleich war.^pBeide Naturen verband er so eng, dass die Verherrlichung das Niedere nicht verschlang und dass die Annahme des Niederen das Höhere nicht minderte. Beide Naturen behielten ihre Besonderheit und vereinigten sich zu einer Person. So wurde die Niedrigkeit von der Majestät angenommen, die Schwachheit von der Kraft, die Sterblichkeit von der Ewigkeit.^pUm die Schuld, in der wir stehen, abzuzahlen, wurde die unverletzliche Natur mit der leidensfähigen verbunden; der wahre Gott mit dem wahren Menschen zur Einheit des Herrn zusammengefügt. So konnte, wie es für unser Heil angemessen war, der ‚eine‘ und gleiche ‚Mittler zwischen Gott und den Menschen‘ {2#vgl.°1°Tim 2,6} in der einen Natur sterben und durch die andere auferstehen. Mit Recht fügte die Geburt des Heils der Unversehrtheit der Jungfrau keinen Schaden zu; denn die Geburt der Wahrheit bewahrte die Keuschheit.^pMeine Lieben, für Christus, die Kraft und Weisheit Gottes, ziemte sich eine solche Geburt, durch die er sich das Menschsein anpasste und uns durch die Gottheit überragte. Denn wäre er nicht wahrer Gott, könnte er uns keine Heilung bringen, und wäre er nicht wahrer Mensch, könnte er uns nicht Vorbild sein.^pDarum jubeln die Engel bei der Geburt des Herrn und singen: „Ehre sei Gott in der Höhe!“, und sie verkünden: „Friede auf Erden den Menschen seiner Gnade“ {3#vgl.°Lk 2,24}. Denn sie sehen, wie aus allen Völkern der Welt das himmlische Jerusalem erbaut wird. Wie sehr muss sich der Mensch in seiner Erniedrigung freuen über diese unfassbare Liebe Gottes, wenn schon die Engel in der Höhe darüber voll Freude jubeln?",
+          "patr_text": "^hMaria empfing in ihrem Geist, bevor sie in ihrem Leib empfing^pEine Jungfrau aus dem königlichen Geschlecht Davids wird erwählt. Sie wird schwanger von heiliger Frucht. Sie sollte diesen Sohn, der zugleich Gott ist und Mensch, in ihrem Geist empfangen, bevor sie ihn in ihrem Leib empfing.^pDamit sie nicht in Unkenntnis des göttlichen Ratschlusses über die ungewöhnlichen Vorgänge erschrecke, erfuhr sie aus dem Gespräch mit dem Engel, was der Heilige Geist in ihr wirken sollte. So denkt sie denn nicht an die Verletzung ihrer Keuschheit, obwohl sie schon bald Gott gebären sollte. Wie sollte sie der nie gehörten Art der Empfängnis misstrauen, da das versprochene Ereignis doch durch die Kraft des Allerhöchsten gewirkt werden wird?^pDas Vertrauen ihres Glaubens wird durch ein Wunder gestärkt, das vorher geschehen soll: Elisabet wird fruchtbar gegen alle Erwartung. Maria soll nicht daran zweifeln, dass Gott, der der Unfruchtbaren die Kraft gibt zu empfangen, sie auch der Jungfrau verleihen wird.^pDas Wort Gottes also, Gott selbst, der Sohn Gottes, der ‚im Anfang bei Gott war, durch den alles geworden ist und ohne den nichts geworden ist‘ {1#vgl.°Joh°1,1.3}, er ist Mensch geworden, um die Menschen vom ewigen Tod zu befreien. Er ließ sich ohne Minderung seiner Herrlichkeit dazu herab, unsere Niedrigkeit anzunehmen. Er blieb, was er war, und nahm an, was er nicht war, und vereinigte so die Knechtsgestalt mit der Gottesgestalt, in der er dem Vater gleich war.^pBeide Naturen verband er so eng, dass die Verherrlichung das Niedere nicht verschlang und dass die Annahme des Niederen das Höhere nicht minderte. Beide Naturen behielten ihre Besonderheit und vereinigten sich zu einer Person. So wurde die Niedrigkeit von der Majestät angenommen, die Schwachheit von der Kraft, die Sterblichkeit von der Ewigkeit.^pUm die Schuld, in der wir stehen, abzuzahlen, wurde die unverletzliche Natur mit der leidensfähigen verbunden; der wahre Gott mit dem wahren Menschen zur Einheit des Herrn zusammengefügt. So konnte, wie es für unser Heil angemessen war, der ‚eine‘ und gleiche ‚Mittler zwischen Gott und den Menschen‘ {2#vgl.°1°Tim 2,6} in der einen Natur sterben und durch die andere auferstehen.^pMit Recht fügte die Geburt des Heils der Unversehrtheit der Jungfrau keinen Schaden zu; denn die Geburt der Wahrheit bewahrte die Keuschheit.^pMeine Lieben, für Christus, die Kraft und Weisheit Gottes, ziemte sich eine solche Geburt, durch die er sich das Menschsein anpasste und uns durch die Gottheit überragte. Denn wäre er nicht wahrer Gott, könnte er uns keine Heilung bringen, und wäre er nicht wahrer Mensch, könnte er uns nicht Vorbild sein.^pDarum jubeln die Engel bei der Geburt des Herrn und singen: „Ehre sei Gott in der Höhe!“, und sie verkünden: „Friede auf Erden den Menschen seiner Gnade“ {3#vgl.°Lk 2,24}. Denn sie sehen, wie aus allen Völkern der Welt das himmlische Jerusalem erbaut wird. Wie sehr muss sich der Mensch in seiner Erniedrigung freuen über diese unfassbare Liebe Gottes, wenn schon die Engel in der Höhe darüber voll Freude jubeln?",
           "patr_resp1": "Selig preisen mich alle Geschlechter, denn Großes hat der Herr an mir getan.",
           "patr_resp2": "Heilig ist sein Name.",
           "patr_resp3": "Von Geschlecht zu Geschlecht währt sein Erbarmen über jenen, welche ihn fürchten.",
-          "oration": "Großer und heiliger Gott, du hast den Berg Karmel schon im Alten Bund durch das Wirken der Propheten ausgezeichnet und ihn auch im Neuen Bund zu einer Stätte der Beschauung erwählt, zu einem Heiligtum der jungfräulichen Mutter Maria. Gib uns auf ihre Fürsprache die Freude, im Gebet deine Nähe zu erfahren.^ORV"
+          "oration": "Großer und heiliger Gott, du hast den Berg Karmel schon im Alten Bund durch das Wirken der Propheten ausgezeichnet und ihn auch im Neuen Bund zu einer Stätte der Beschauung erwählt, zu einem Heiligtum der jungfräulichen Mutter Maria. Gib uns auf ihre Fürsprache die Freude, im Gebet deine Nähe zu erfahren.^ORV",
+          "oration_lat": "Adiuvet nos, quǽsumus, Dómine, gloriósæ Vírginis Maríæ intercéssio veneránda, ut, eius muníti præsídiis, ad montem, qui Christus est, perveníre valeámus.^ORlR"
         },
         "Laudes": {
           "button": "Unsere Liebe Frau auf dem Berge Karmel",
           "farbe": "m",
           "comm_1": "Maria",
           "antev": "Im Gebete verlangte ich nach Weisheit, und wie die erste Frucht des Weinstocks erfreute sie mein Herz.",
-          "oration": "Großer und heiliger Gott, du hast den Berg Karmel schon im Alten Bund durch das Wirken der Propheten ausgezeichnet und ihn auch im Neuen Bund zu einer Stätte der Beschauung erwählt, zu einem Heiligtum der jungfräulichen Mutter Maria. Gib uns auf ihre Fürsprache die Freude, im Gebet deine Nähe zu erfahren.^ORV"
+          "oration": "Großer und heiliger Gott, du hast den Berg Karmel schon im Alten Bund durch das Wirken der Propheten ausgezeichnet und ihn auch im Neuen Bund zu einer Stätte der Beschauung erwählt, zu einem Heiligtum der jungfräulichen Mutter Maria. Gib uns auf ihre Fürsprache die Freude, im Gebet deine Nähe zu erfahren.^ORV",
+          "antev_lat": "Quæsívi sapiéntiam palam in oratióne mea, et efflóruit tamquam præcox uva.",
+          "oration_lat": "Adiuvet nos, quǽsumus, Dómine, gloriósæ Vírginis Maríæ intercéssio veneránda, ut, eius muníti præsídiis, ad montem, qui Christus est, perveníre valeámus.^ORlR"
         },
         "Vesper": {
           "comm_1": "Maria",
           "antev": "Maria hörte Gottes Wort und bewahrte es in ihrem Herzen.",
-          "oration": "Großer und heiliger Gott, du hast den Berg Karmel schon im Alten Bund durch das Wirken der Propheten ausgezeichnet und ihn auch im Neuen Bund zu einer Stätte der Beschauung erwählt, zu einem Heiligtum der jungfräulichen Mutter Maria. Gib uns auf ihre Fürsprache die Freude, im Gebet deine Nähe zu erfahren.^ORV"
+          "oration": "Großer und heiliger Gott, du hast den Berg Karmel schon im Alten Bund durch das Wirken der Propheten ausgezeichnet und ihn auch im Neuen Bund zu einer Stätte der Beschauung erwählt, zu einem Heiligtum der jungfräulichen Mutter Maria. Gib uns auf ihre Fürsprache die Freude, im Gebet deine Nähe zu erfahren.^ORV",
+          "antev_lat": "María audiébat verbum Dei et custodiébat illud, cónferens in corde suo.",
+          "oration_lat": "Adiuvet nos, quǽsumus, Dómine, gloriósæ Vírginis Maríæ intercéssio veneránda, ut, eius muníti præsídiis, ad montem, qui Christus est, perveníre valeámus.^ORlR"
         }
       }
     },
@@ -3886,12 +3892,14 @@ export const adlibData = {
         "ErsteV": {
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
-          "oration": "Leite deine Gläubigen, Herr, auf den Weg des ewigen Heiles, den der heilige Bischof Apollinaris durch seine Lehre und sein Martyrium gewiesen hat. Lass uns auf seine Fürsprache so in deinen Geboten verharren, dass wir würdig werden, mit ihm die Krone des ewigen Lebens zu empfangen.^ORV"
+          "oration": "Leite deine Gläubigen, Herr, auf den Weg des ewigen Heiles, den der heilige Bischof Apollinaris durch seine Lehre und sein Martyrium gewiesen hat. Lass uns auf seine Fürsprache so in deinen Geboten verharren, dass wir würdig werden, mit ihm die Krone des ewigen Lebens zu empfangen.^ORV",
+          "oration_lat": "Dírige fidéles tuos, Dómine, in viam salútis ætérnæ, quam beátus Apollináris epíscopus doctrína et martýrio monstrávit, et fac nos, eódem intercedénte, sic in mandátis tuis perseveráre, ut cum ipso coronári mereámur.^ORlV"
         },
         "Lesehore": {
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
-          "oration": "Leite deine Gläubigen, Herr, auf den Weg des ewigen Heiles, den der heilige Bischof Apollinaris durch seine Lehre und sein Martyrium gewiesen hat. Lass uns auf seine Fürsprache so in deinen Geboten verharren, dass wir würdig werden, mit ihm die Krone des ewigen Lebens zu empfangen.^ORV"
+          "oration": "Leite deine Gläubigen, Herr, auf den Weg des ewigen Heiles, den der heilige Bischof Apollinaris durch seine Lehre und sein Martyrium gewiesen hat. Lass uns auf seine Fürsprache so in deinen Geboten verharren, dass wir würdig werden, mit ihm die Krone des ewigen Lebens zu empfangen.^ORV",
+          "oration_lat": "Dírige fidéles tuos, Dómine, in viam salútis ætérnæ, quam beátus Apollináris epíscopus doctrína et martýrio monstrávit, et fac nos, eódem intercedénte, sic in mandátis tuis perseveráre, ut cum ipso coronári mereámur.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Apollinaris",
@@ -3899,12 +3907,14 @@ export const adlibData = {
           "genitiv": "des heiligen Apollinaris",
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
-          "oration": "Leite deine Gläubigen, Herr, auf den Weg des ewigen Heiles, den der heilige Bischof Apollinaris durch seine Lehre und sein Martyrium gewiesen hat. Lass uns auf seine Fürsprache so in deinen Geboten verharren, dass wir würdig werden, mit ihm die Krone des ewigen Lebens zu empfangen.^ORV"
+          "oration": "Leite deine Gläubigen, Herr, auf den Weg des ewigen Heiles, den der heilige Bischof Apollinaris durch seine Lehre und sein Martyrium gewiesen hat. Lass uns auf seine Fürsprache so in deinen Geboten verharren, dass wir würdig werden, mit ihm die Krone des ewigen Lebens zu empfangen.^ORV",
+          "oration_lat": "Dírige fidéles tuos, Dómine, in viam salútis ætérnæ, quam beátus Apollináris epíscopus doctrína et martýrio monstrávit, et fac nos, eódem intercedénte, sic in mandátis tuis perseveráre, ut cum ipso coronári mereámur.^ORlV"
         },
         "Vesper": {
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
-          "oration": "Leite deine Gläubigen, Herr, auf den Weg des ewigen Heiles, den der heilige Bischof Apollinaris durch seine Lehre und sein Martyrium gewiesen hat. Lass uns auf seine Fürsprache so in deinen Geboten verharren, dass wir würdig werden, mit ihm die Krone des ewigen Lebens zu empfangen.^ORV"
+          "oration": "Leite deine Gläubigen, Herr, auf den Weg des ewigen Heiles, den der heilige Bischof Apollinaris durch seine Lehre und sein Martyrium gewiesen hat. Lass uns auf seine Fürsprache so in deinen Geboten verharren, dass wir würdig werden, mit ihm die Krone des ewigen Lebens zu empfangen.^ORV",
+          "oration_lat": "Dírige fidéles tuos, Dómine, in viam salútis ætérnæ, quam beátus Apollináris epíscopus doctrína et martýrio monstrávit, et fac nos, eódem intercedénte, sic in mandátis tuis perseveráre, ut cum ipso coronári mereámur.^ORlV"
         }
       }
     },
@@ -5126,12 +5136,12 @@ export const adlibData = {
     "17": {
       "n1": {
         "ErsteV": {
-          "comm_1": "Hirten_Kl",
+          "comm_1": "Jgfr_Kl",
           "comm_2": "Frau_Ord",
           "oration": "Gott, du Quelle des Lebens, du hast die heilige Hildegard mit prophetischem Geist erfüllt. Hilf uns, nach ihrem Vorbild über deine Wege nachzusinnen und deiner Führung zu folgen, damit wir in der Dunkelheit dieser Welt das Licht deiner Klarheit erkennen.^ORV"
         },
         "Lesehore": {
-          "comm_1": "Hirten_Kl",
+          "comm_1": "Jgfr_Kl",
           "comm_2": "Frau_Ord",
           "patr_autor": "Hildegard von Bingen (†°1179)",
           "patr_werk": "Aus einem Brief an Werner von Kirchbolanden und seine Priestergemeinschaft.",
@@ -5145,12 +5155,12 @@ export const adlibData = {
           "button": "Hl. Hildegard von Bingen",
           "genitiv": "der heiligen Hildegard",
           "vokativ": "Heilige Hildegard",
-          "comm_1": "Hirten_Kl",
+          "comm_1": "Jgfr_Kl",
           "comm_2": "Frau_Ord",
           "oration": "Gott, du Quelle des Lebens, du hast die heilige Hildegard mit prophetischem Geist erfüllt. Hilf uns, nach ihrem Vorbild über deine Wege nachzusinnen und deiner Führung zu folgen, damit wir in der Dunkelheit dieser Welt das Licht deiner Klarheit erkennen.^ORV"
         },
         "Vesper": {
-          "comm_1": "Hirten_Kl",
+          "comm_1": "Jgfr_Kl",
           "comm_2": "Frau_Ord",
           "oration": "Gott, du Quelle des Lebens, du hast die heilige Hildegard mit prophetischem Geist erfüllt. Hilf uns, nach ihrem Vorbild über deine Wege nachzusinnen und deiner Führung zu folgen, damit wir in der Dunkelheit dieser Welt das Licht deiner Klarheit erkennen.^ORV"
         }
@@ -5490,11 +5500,11 @@ export const adlibData = {
     "1": {
       "eig": {
         "ErsteV": {
-          "comm_1": "Jgfr",
+          "comm_1": "Jgfr_Kl",
           "oration": "Großer Gott, du rufst Menschen in deine Nähe, die nichts von sich selbst erwarten, sondern alles von dir erhoffen. Führe uns den Weg der Demut und der Gotteskindschaft, den du der heiligen Theresia gezeigt hast. Vollende auf ihre Fürsprache auch unser Leben in deiner Herrlichkeit und lass uns dein Antlitz schauen.^ORV"
         },
         "Lesehore": {
-          "comm_1": "Jgfr",
+          "comm_1": "Jgfr_Kl",
           "patr_autor": "Theresia vom Kinde Jesus († 1897)",
           "patr_werk": "Aus ihrer Selbstbiographie.",
           "patr_text": "^hIch will die Liebe im Herzen der Kirche sein^pDa ich ein überaus großes Verlangen nach dem Martyrium hatte, nahm ich die Briefe des heiligen Paulus zur Hand, um endlich eine Antwort zu finden. Zufällig fielen meine Augen auf das zwölfte und dreizehnte Kapitel des ersten Korintherbriefes. Im ersteren las ich, dass nicht alle zugleich Apostel, Propheten und Lehrer sein können, dass die Kirche aus verschiedenartigen Gliedern besteht und dass das Auge nicht zugleich Hand sein kann. Das war eine deutliche Antwort, aber sie konnte mein Verlangen nicht stillen und mir den Frieden nicht bringen.^pIch fuhr fort zu lesen und gab keine Ruhe. Da fand ich eine Stelle, die mir Erleichterung brachte: „Strebt nach den höheren Gnadengaben! Ich zeige euch jetzt noch einen anderen Weg, einen, der alles übersteigt.“ {1#1 Kor 12,31} Der Apostel gibt zu bedenken, dass die höheren Geistesgaben nichts sind ohne die Liebe und dass diese Liebe vorzüglicher ist; denn sie ist der Weg, der sicher zu Gott führt. Nun endlich hatte ich Ruhe gefunden.^pAls ich den mystischen Leib der Kirche betrachtete, erkannte ich in keinem der Glieder, die der heilige Paulus beschreibt, mich selbst oder richtiger: in jedem Glied hätte ich mich gern gesehen. Die Liebe gab mir den Angelpunkt für meine Berufung. Ich erkannte, dass der Leib der Kirche zwar aus verschiedengearteten Gliedern besteht und dass an diesem Leib kein notwendiges und vornehmes Glied fehlt. Ich sah, dass die Kirche ein Herz hat und dass dieses Herz von Liebe brennt. Ich sah ein, dass die eine Liebe die Glieder der Kirche zur Tätigkeit antreibt, und wenn die Liebe erlöschen würde, würden die Apostel nicht mehr das Evangelium verkünden und keine Märtyrer mehr ihr Blut vergießen werden. Ich schaute und erkannte, dass die Liebe alle Berufungen in sich schließt, dass die Liebe alles ist, dass sie alle Zeiten und Orte umfasst, mit einem Wort, dass die Liebe ewig ist.^pDa wurde mein Herz trunken von höchster Freude, und ich rief aus: Jesus, meine Liebe, endlich habe ich meine Berufung gefunden: Mein Beruf ist die Liebe! Ja, ich habe meinen Platz in der Kirche gefunden. Du hast ihn mir gegeben, mein Gott. Im Herzen der Kirche, meiner Mutter, will ich die Liebe sein, und so werde ich alles sein, und meine Sehnsucht wird gestillt.",
@@ -5507,12 +5517,12 @@ export const adlibData = {
           "button": "Hl. Theresia vom Kinde Jesus",
           "nominativ": "Die heilige Therese",
           "genitiv": "der heiligen Therese",
-          "comm_1": "Jgfr",
+          "comm_1": "Jgfr_Kl",
           "antev": "Amen, ich sage euch: Wenn ihr nicht umkehrt und werdet wie die Kinder, kommt ihr nicht in das Himmelreich.",
           "oration": "Großer Gott, du rufst Menschen in deine Nähe, die nichts von sich selbst erwarten, sondern alles von dir erhoffen. Führe uns den Weg der Demut und der Gotteskindschaft, den du der heiligen Theresia gezeigt hast. Vollende auf ihre Fürsprache auch unser Leben in deiner Herrlichkeit und lass uns dein Antlitz schauen.^ORV"
         },
         "Vesper": {
-          "comm_1": "Jgfr",
+          "comm_1": "Jgfr_Kl",
           "antev": "Freut euch und jubelt; denn eure Namen sind im Himmel verzeichnet.",
           "oration": "Großer Gott, du rufst Menschen in deine Nähe, die nichts von sich selbst erwarten, sondern alles von dir erhoffen. Führe uns den Weg der Demut und der Gotteskindschaft, den du der heiligen Theresia gezeigt hast. Vollende auf ihre Fürsprache auch unser Leben in deiner Herrlichkeit und lass uns dein Antlitz schauen.^ORV"
         }
@@ -5777,13 +5787,11 @@ export const adlibData = {
     "15": {
       "eig": {
         "ErsteV": {
-          "comm_1": "Hirten_Kl",
-          "comm_2": "Jgfr",
+          "comm_1": "Jgfr_Kl",
           "oration": "Allmächtiger Gott, du hast die heilige Theresia von Avila durch deinen Geist erweckt und sie der Kirche als Lehrmeisterin des Weges zur Vollkommenheit geschenkt. Gib, dass wir in ihren Schriften Nahrung für unser geistliches Leben finden. Durchdringe uns mit der Gewissheit, dass du allein genügst, und entzünde in uns das Verlangen nach Heiligkeit.^ORV"
         },
         "Lesehore": {
-          "comm_1": "Hirten_Kl",
-          "comm_2": "Jgfr",
+          "comm_1": "Jgfr_Kl",
           "patr_autor": "Theresia von Jesus († 1582)",
           "patr_werk": "Aus der Abhandlung „Über das Buch des Lebens“.",
           "patr_text": "^hLass uns stets an die Liebe Christi denken^pWer Jesus als Freund und hochherzigen Führer an seiner Seite hat, kann alles tragen; denn Jesus hilft uns und gibt uns Kraft. Er lässt keinen im Stich und ist ein wahrer und aufrichtiger Freund. Ich sehe deutlich: wenn wir Gott gefallen und große Gnaden von ihm empfangen möchten, muss uns nach seinem Willen die Hand der heiligen Menschheit des Sohnes helfen, an dem seine göttliche Herrlichkeit Gefallen findet, wie er selbst gesagt hat.^pSehr oft habe ich die Erfahrung gemacht, und der Herr hat es mir selbst gesagt – ja ich möchte behaupten, ich habe es mit eigenen Augen gesehen –, dass wir durch diese Tür eintreten müssen, wenn wir wollen, dass die höchste Majestät uns Geheimes und Verborgenes offenbaren soll. Selbst auf dem höchsten Gipfel der Beschauung soll keiner einen anderen Weg suchen; denn auf diesem geht man sicher und zuverlässig. Hier ist unser Herr, von dem und durch den uns alles Gute kommt. Er wird uns lehren. Auf sein Leben müssen wir schauen; denn ein besseres und vollkommeneres Vorbild für die Nachfolge werden wir nicht finden.^pWas wollen wir mehr als einen treuen Freund an unserer Seite, der uns in Mühsal und Not nicht verlässt, wie es weltliche Freunde tun? Wohl dem, der ihn wirklich und aufrichtig liebt und ihn immer neben sich hat!^pSchauen wir auf den Apostel Paulus, der Jesus eingeschrieben und eingeprägt in seinem Herzen trug und gar nicht anders konnte, als Jesus auch im Munde zu führen. Als ich das eingesehen hatte, forschte ich sorgfältig und lernte, dass die der Beschauung besonders ergebenen Heiligen keinen anderen Weg gegangen waren, so zum Beispiel Franziskus, Antonius von Padua, Bernhardin und Katharina von Siena. Diesen Weg müssen wir in großer Freiheit gehen und uns ganz in die Hand Gottes geben. Gerne wollen wir gehorchen, wenn er uns unter seine Diener und Helfer aufnehmen will.^pWann immer wir an Christus denken, immer wollen wir beachten, von welcher Liebe er getrieben wurde, uns so viele Gnaden und Wohltaten zu gewähren, und welche Liebe uns Gott gezeigt hat, dass er uns ein solches Pfand seiner Zuneigung schenkte, denn Liebe verlangt Gegenliebe. Darum wollen wir uns Mühe geben, das immer vor Augen zu haben und dadurch die Liebe in uns zu wecken. Denn wenn Gott uns die Gnade erweist, unseren Herzen diese Liebe tief einzuprägen, wird uns alles ganz leicht, und in kurzer Zeit bringen wir mit wenig Mühe sehr viel zustande.",
@@ -5797,13 +5805,11 @@ export const adlibData = {
           "nominativ": "Die heilige Theresia",
           "genitiv": "der heiligen Theresia",
           "vokativ": "Heilige Theresia",
-          "comm_1": "Hirten_Kl",
-          "comm_2": "Jgfr",
+          "comm_1": "Jgfr_Kl",
           "oration": "Allmächtiger Gott, du hast die heilige Theresia von Avila durch deinen Geist erweckt und sie der Kirche als Lehrmeisterin des Weges zur Vollkommenheit geschenkt. Gib, dass wir in ihren Schriften Nahrung für unser geistliches Leben finden. Durchdringe uns mit der Gewissheit, dass du allein genügst, und entzünde in uns das Verlangen nach Heiligkeit.^ORV"
         },
         "Vesper": {
-          "comm_1": "Hirten_Kl",
-          "comm_2": "Jgfr",
+          "comm_1": "Jgfr_Kl",
           "oration": "Allmächtiger Gott, du hast die heilige Theresia von Avila durch deinen Geist erweckt und sie der Kirche als Lehrmeisterin des Weges zur Vollkommenheit geschenkt. Gib, dass wir in ihren Schriften Nahrung für unser geistliches Leben finden. Durchdringe uns mit der Gewissheit, dass du allein genügst, und entzünde in uns das Verlangen nach Heiligkeit.^ORV"
         }
       }

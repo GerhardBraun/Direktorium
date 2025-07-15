@@ -300,10 +300,8 @@ function processCommune(hours, season, targetSource) {
 
                 addLayer(readComm, 'each');
                 addLayer(readComm, season);
+                addLayer('MFr', addComm);
                 addLayer(readComm, addComm);
-                if (['Mann', 'Frau'].includes(readComm)) {
-                    addLayer('MFr', addComm);
-                }
 
                 // Remove the comm_1/2 field after processing
                 delete hours[hour][targetSource][commField];

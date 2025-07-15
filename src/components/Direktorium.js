@@ -1544,7 +1544,7 @@ const PrayerTextDisplay = ({
                     {psalm &&
                       formatPsalm(psalm)}
                     {ant && (
-                      <div className="mb-6">
+                      <div className={num === 3 ? '' : 'mb-6'}>
                         {formatPrayerText(ant, `Ant.°°`)}
                       </div>
                     )}

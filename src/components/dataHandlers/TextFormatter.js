@@ -284,10 +284,12 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         if (vokativ) {
             text = text
                 .replace(/Heiliger? \^VOK/g, vokativ)
-                .replace(/tat ihm den/g, match =>
-                    vokativ.startsWith('Heilige ') ? 'tat ihr den' : match)
-                .replace(/gab ihm Weisheit/g, match =>
-                    vokativ.startsWith('Heilige ') ? 'gab ihr Weisheit' : match);
+            if (vokativ.startsWith('Heilige ')) {
+                text = text
+                    .replace(/tat ihm den/g, 'tat ihr den')
+                    .replace(/gab ihm Weisheit/g, 'gab ihr Weisheit')
+                    .replace(/O Lehrer/g, 'O Lehrerin')
+            }
         }
 
         if (genitiv_lat) {
@@ -298,11 +300,15 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         if (vokativ_lat) {
             text = text
                 .replace(/(sancte|sancta) \^VOK/g, vokativ_lat)
-                .replace(/(beátie|beáta) \^VOK/g, vokativ_lat
+                .replace(/(beáte|beáta) \^VOK/g, vokativ_lat
                     .replace(/sancte/g, 'beáte')
                     .replace(/sancta/g, 'beáta'))
-                .replace(/implévit eum/g, match =>
-                    vokativ_lat.startsWith('sancta ') ? 'implévit eam' : match)
+            if (vokativ_lat.startsWith('sancta ')) {
+                text = text
+                    .replace(/implévit eum/g, 'implévit eam')
+                    .replace(/doctor óptime/g, 'doctrix óptime')
+                    .replace(/amátor legis/g, 'amátrix legis')
+            }
         }
 
         text = text.replace(/\^(NOM|GEN|VOK|NH|N)\.?/g, '^rN.^0r');
