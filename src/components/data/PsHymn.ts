@@ -4368,7 +4368,7 @@ export const psalmsData = {
     0.0: {
         "quote": "lateinische Hymnen",
         "title_lat": "O sacrosáncta Trínitas",
-        "text_lat": "O sacrosáncta Trínitas,^lquæ cuncta condens órdinas,^ldiem labóri députans^lnoctem quiéti dédicas,^pTe mane, simul véspere,^lte noct<e ac die cánimus;^lin tua nos tu glória^lper cuncta serva témpora.^pNos ádsumus te cérnui^len adorántes fámuli;^lvota precésque súpplicum^lhymnis adiúnge cǽlitum.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^lregnans per omne sǽculum. Amen."
+        "text_lat": "O sacrosáncta Trínitas,^lquæ cuncta condens órdinas,^ldiem labóri députans^lnoctem quiéti dédicas,^pTe mane, simul véspere,^lte noct>e ac die cánimus;^lin tua nos tu glória^lper cuncta serva témpora.^pNos ádsumus te cérnui^len adorántes fámuli;^lvota precésque súpplicum^lhymnis adiúnge cǽlitum.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^lregnans per omne sǽculum. Amen."
       },
     1.0: {
         "quote": "lateinische Hymnen",
@@ -4602,7 +4602,7 @@ export const psalmsData = {
     0.0: {
         "quote": "lateinische Hymnen",
         "title_lat": "Amóris sensus érige",
-        "text_lat": "Amóris sensus érige^lad te, largítor véniæ,^lut fias clemens córdibus^lpurgátis inde sórdibus.^pExtérni huc advénimus^let éxsules ingémimus;^ltu portus es et pátria,^lad vitæ duc nos átria.^pFelix quæ sitit cáritas^lte fontem vit<æ, o Véritas;^lbeáti valde óculi^lte speculántis pópuli.^pGrandis est tibi glória^ltuæ laudis memória,^lquam sine fine célebrant^lqui cor ab imis élevant.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^lregnans per omne sǽculum. Amen."
+        "text_lat": "Amóris sensus érige^lad te, largítor véniæ,^lut fias clemens córdibus^lpurgátis inde sórdibus.^pExtérni huc advénimus^let éxsules ingémimus;^ltu portus es et pátria,^lad vitæ duc nos átria.^pFelix quæ sitit cáritas^lte fontem vit>æ, o Véritas;^lbeáti valde óculi^lte speculántis pópuli.^pGrandis est tibi glória^ltuæ laudis memória,^lquam sine fine célebrant^lqui cor ab imis élevant.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^lregnans per omne sǽculum. Amen."
       },
     1.0: {
         "quote": "lateinische Hymnen",
@@ -4800,6 +4800,20 @@ export const psalmsData = {
   5586: {
     0.0: {
         "quote": "Comm pro pluribus Pastoribus Vp"
+      }
+  },
+  5599: {
+    0.0: {
+        "quote": "Comm Doctor Eccl Ld",
+        "title_lat": "Doctor ætérnus cóleris piúsque",
+        "text_lat": "Doctor ætérnus^/cóleris piúsque,^lChriste, qui leges^/áperis salútis,^lverba qui vitæ^/mérito putáris^lsolus habére.^pTeque clamámus,^/bone Pastor orbis,^lcǽlitus semper^/solidásse Sponsæ^lverba, constánter^/quibus illa mundo^llumen adésset.^pIpse quin præbes^/fámulos corúscos,^láureas stellas^/velut emicántes,^lcerta qui nobis^/réserent beátæ^ldógmata vitæ.^pUnde te laudes^/récinant, Magíster,^lSpíritus fundis^/bona qui stupénda^lore doctórum,^/tua quo poténter^llux patet alma.^pQuique nunc iustus^/celebrátur, instet^lut tuam plebem^/per amœ́na lucis^ldes gradi, donec^/tibi dicat hymnos^llúmine pleno. Amen.^p^l"
+      }
+  },
+  5600: {
+    0.0: {
+        "quote": "Comm Doctor Eccl Lh+Vp",
+        "title_lat": "Ætérne sol, qui lúmine",
+        "text_lat": "Ætérne sol, qui lúmine^lcreáta comples ómnia,^lsupréma lux et méntium,^lte corda nostra cóncinunt.^pTuo fovénte Spíritu,^lhic viva luminária^lfulsére, per quæ sǽculis^lpatent salútis sémitæ.^pQuod verba missa cǽlitus,^lnatíva mens quod éxhibet,^lper hos minístros grátiæ^lnovo nitóre cláruit.^pHorum corónæ párticeps,^ldoctrín>a honéstus lúcida,^lhic vir beátus splénduit^lquem prædicámus láudibus.^pIpso favénte, quǽsumus,^lnobis, Deus, percúrrere^lda veritátis trámitem,^lpossímus ut te cónsequi.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^lregnans per omne sǽculum. Amen."
       }
   },
   5630: {

@@ -298,13 +298,14 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         if (vokativ_lat) {
             text = text
                 .replace(/(sancte|sancta) \^VOK/g, vokativ_lat)
-                .replace(/(beate|beata) \^VOK/g, vokativ_lat
-                    .replace(/sancte/g, 'beate')
-                    .replace(/sancta/g, 'beata')
-                )
+                .replace(/(beátie|beáta) \^VOK/g, vokativ_lat
+                    .replace(/sancte/g, 'beáte')
+                    .replace(/sancta/g, 'beáta'))
+                .replace(/implévit eum/g, match =>
+                    vokativ_lat.startsWith('sancta ') ? 'implévit eam' : match)
         }
 
-        text = text.replace(/\^(NOM|GEN|VOK|NH|N).?/g, '^rN.^0r');
+        text = text.replace(/\^(NOM|GEN|VOK|NH|N)\.?/g, '^rN.^0r');
         return text;
     }
 

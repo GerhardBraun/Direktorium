@@ -1879,13 +1879,14 @@ export const brevierData = {
           "resp2": "und seine Zunge redet, was recht ist.",
           "resp3": "Die Weisung Gottes trägt er im Herzen.",
           "antev": "Wer die Gebote Gottes hält und sie halten lehrt, der wird groß sein im Himmelreich.^ö",
+          "hymn_1_lat": 5600.0,
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "les_text_lat": ""
+          "resp1_lat": "Os iusti",
+          "resp2_lat": "meditábitur sapiéntiam.",
+          "resp3_lat": "Et lingua eius loquétur iudícium.",
+          "antev_lat": "Qui fécerit et docúerit, hic magnus vocábitur in regno cælórum.^Lö",
+          "les_text_lat": "Quæ desúrsum est sapiéntia primum quidem pudíca est, deínde pacífica, modésta, suadíbilis, plena misericórdia et frúctibus bonis, non iúdicans, sine simulatióne; fructus autem iustítiæ in pace seminátur faciéntibus pacem."
         },
         "Invitatorium": {
           "ant0": "Christus, den Quell der Weisheit – kommt, wir beten ihn an!^ö",
@@ -1896,6 +1897,7 @@ export const brevierData = {
           "hymn_2": 0.0,
           "hymn_3": 0.0,
           "hymn_nacht": 0.0,
+          "hymn_1_lat": 5600.0,
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
           "hymn_nacht_lat": 0.0
@@ -1913,13 +1915,14 @@ export const brevierData = {
           "resp2": "das Lob der Heiligen verkündet das ganze Volk.",
           "resp3": "Ihr Name lebt weiter von Geschlecht zu Geschlecht.",
           "antev": "Die Weisen werden strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig.^ö",
+          "hymn_1_lat": 5599.0,
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "les_text_lat": ""
+          "resp1_lat": "Sapiéntiam sanctórum",
+          "resp2_lat": "narrent pópuli.",
+          "resp3_lat": "Et laudes eórum núntiet Ecclésia.",
+          "antev_lat": "Qui docti fúerint, fulgébunt quasi splendor firmaménti, et qui ad iustítiam erúdiunt multos, quasi stellæ in perpétuas æternitátes.^Lö",
+          "les_text_lat": "Sapiéntiam sine fictióne dídici et sine invídia commúnico; divítias illíus non abscóndo. Infinítus enim thesáurus est homínibus; quem qui acquisiérunt, ad amicítiam in Deum se paravérunt propter disciplínæ dona commendáti."
         },
         "Vesper": {
           "hymn_2": 0.0,
@@ -1935,11 +1938,11 @@ export const brevierData = {
           "antev": "O Lehrer des Glaubens und Licht der Kirche, du hast Gottes Weisung geliebt. Heiliger ^VOK, bitte für uns bei Gottes Sohn.^ö",
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
+          "resp1_lat": "In médio Ecclésiæ",
+          "resp2_lat": "apéruit os eius.",
+          "resp3_lat": "Et implévit eum Dóminus spíritu sapiéntiæ et intelléctus.",
           "antev_lat": "O doctor óptime, Ecclésiæ sanctæ lumen, beáte ^VOK, divínæ legis amátor, deprecáre pro nobis Fílium Dei.^Lö",
-          "les_text_lat": ""
+          "les_text_lat": "Quæ desúrsum est sapiéntia primum quidem pudíca est, deínde pacífica, modésta, suadíbilis, plena misericórdia et frúctibus bonis, non iúdicans, sine simulatióne; fructus autem iustítiæ in pace seminátur faciéntibus pacem."
         }
       }
     },
@@ -1964,6 +1967,7 @@ export const brevierData = {
           "resp3": "Der Herr ist gütig zur Seele, die ihn sucht.",
           "antev": "Seht, nun folgt die Jungfrau dem Lamm, das für uns gekreuzigt ist. Furchtlos gab sie ihr Leben hin als makelloses Opfer für Gott.^ö",
           "bitten": "Du hast dir die Kirche zur Braut erwählt;^qheilige sie, damit sie ohne Makel vor dir stehe.^pDurch deine Gnade hat die Kirche dir die Treue bewahrt;^qerneuere sie immer wieder durch dein Evangelium.^pDu hast der Kirche das Vorbild der heiligen ^GEN geschenkt;^qrufe junge Menschen in den Stand der Jungfräulichkeit.^pDie heilige ^NOM ist dir ungeteilten Herzens nachgefolgt;^qauf ihre Fürbitte stärke die Ordensfrauen in ihrem Dienst.^pDie heiligen Jungfrauen hast du aufgenommen zum Hochzeitsmahl des ewigen Lebens;^qlass auch unsere Verstorbenen teilhaben am himmlischen Mahl.",
+          "hymn_1_lat": 5600.0,
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
           "ant1_lat": "",
