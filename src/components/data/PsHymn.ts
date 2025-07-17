@@ -3504,7 +3504,7 @@ export const psalmsData = {
   2212: {
     0.0: {
         "title": "Schon zieht herauf des Tages Licht",
-        "text": "Schon zieht herauf des Tages Licht,^lwir flehn zu Gott voll Zuversicht:^lBewahre uns an diesem Tag^lvor allem, was uns schaden mag.^pBezähme unsrer Zunge Macht,^ldass sie nicht Hass und Streit entfacht;^llass unsrer Augen hellen Schein^ldurch Böses nicht verdunkelt sein.^pRein sei das Herz und unversehrt^lund allem Guten zugekehrt.^lUnd gib uns jeden Tag das Brot^lfür unsre und der Brüder Not.^pSenkt sich hernieder dann die Nacht^lund ist das Tagewerk vollbracht,^lsei dir all unser Tun geweiht^lzum Lobe deiner Herrlichkeit.^pDich, Vater, Sohn und Heil’ger Geist,^lvoll Freude alle Schöpfung preist,^lder jeden neuen Tag uns schenkt^lund unser ganzes Leben lenkt. Amen."
+        "text": "Schon zieht herauf des Tages Licht.^lWir flehn zu Gott voll Zuversicht:^lBewahre uns an diesem Tag^lvor allem, was uns schaden mag.^pBezähme unsrer Zunge Macht,^ldass sie nicht Hass und Streit entfacht;^llass unsrer Augen hellen Schein^ldurch Böses nicht verdunkelt sein.^pRein sei das Herz und unversehrt^lund allem Guten zugekehrt,^lund gib uns jeden Tag das Brot^lfür unsre und der Brüder Not.^pSenkt sich hernieder dann die Nacht^lund ist das Tagewerk vollbracht,^lsei dir all unser Tun geweiht^lzum Lobe deiner Herrlichkeit.^pDich, Vater, Sohn und Heil’ger Geist,^lvoll Freude alle Schöpfung preist,^lder jeden neuen Tag uns schenkt^lund unser ganzes Leben lenkt. Amen."
       }
   },
   2213: {
@@ -3578,7 +3578,7 @@ export const psalmsData = {
   2406: {
     0.0: {
         "title": "O Gott, dein Wille schuf die Welt",
-        "text": "O Gott, dein Wille schuf die Welt^lund ordnet der Gestirne Bahn,^lumgibt den Tag mit hellem Licht,^lgewährt zur Ruhe uns die Nacht.^pAls Dank für den vollbrachten Tag,^lden deine Güte uns geschenkt,^lnimm an des Wortes heil’gen Dienst,^lden Lobgesang zu deinem Ruhm.^pDir schließt sich unsre Seele auf,^lvoll Freude preist dich unser Mund,^lin Ehrfurcht dient dir unser Geist,^lin Liebe sucht dich unser Herz.^pWenn uns die Sonne untergeht^lund Finsternis den Tag beschließt,^lkennt unser Glaube keine Nacht:^lIm Dunkel strahlt sein Licht uns auf.^pDen Sohn und Vater bitten wir^lund auch den Geist, der beide eint:^lDu starker Gott, Dreifaltigkeit,^lbehüte, die auf dich vertraun. Amen."
+        "text": "O Gott, dein Wille schuf die Welt^lund ordnet’ der Gestirne Bahn,^lumgibt den Tag mit hellem Licht,^lgewährt zur Ruhe uns die Nacht.^pAls Dank für den vollbrachten Tag,^lden deine Güte uns geschenkt,^lnimm an des Wortes heil’gen Dienst,^lden Lobgesang zu deinem Ruhm.^pDir schließt sich unsre Seele auf,^lvoll Freude preist dich unser Mund,^lin Ehrfurcht dient dir unser Geist,^lin Liebe sucht dich unser Herz.^pWenn uns die Sonne untergeht^lund Finsternis den Tag beschließt,^lkennt unser Glaube keine Nacht:^lIm Dunkel strahlt sein Licht uns auf.^pDen Sohn und Vater bitten wir^lund auch den Geist, der beide eint:^lDu starker Gott, Dreifaltigkeit,^lbehüte, die auf dich vertraun. Amen."
       }
   },
   2410: {
@@ -3590,7 +3590,7 @@ export const psalmsData = {
   2411: {
     0.0: {
         "title": "Des Himmels Schöpfer, großer Gott",
-        "text": "Des Himmels Schöpfer, großer Gott.^lDu hast das Firmament gebaut^lund so geschieden Flut von Flut,^ldass sie nicht wirr zusammenströmt.^pDen Wolken wiesest du die Bahn,^lden Flüssen zeigtest du ihr Bett;^lnun hemmt die Flut des Feuers Macht,^ldamit die Erde nicht verbrennt.^pSo gieße denn, o°guter Gott,^lder Gnaden Ströme in uns ein,^ldamit uns nicht mit neuem Trug^ldie alte Schwachheit bringt zu Fall.^pDer Glaube, den die Nacht bedrängt,^lden Kleinmut zu verwirren droht,^ler überwinde Trug und Wahn:^lEr finde Licht und spende Licht.^pDies schenk uns, Vater voller Macht,^lund du, sein Sohn und Ebenbild,^ldie ihr in Einheit mit dem Geist^ldie Schöpfung zur Vollendung führt. Amen."
+        "text": "Des Himmels Schöpfer, großer Gott,^ldu hast das Firmament gebaut^lund so geschieden Flut von Flut,^ldass sie nicht wirr zusammenströmt.^pDen Wolken wiesest du die Bahn,^lden Flüssen zeigtest du ihr Bett;^lnun hemmt die Flut des Feuers Macht,^ldamit die Erde nicht verbrennt.^pSo gieße denn, o°guter Gott,^lder Gnaden Ströme in uns ein,^ldamit uns nicht mit neuem Trug^ldie alte Schwachheit bringt zu Fall.^pDer Glaube, den die Nacht bedrängt,^lden Kleinmut zu verwirren droht,^ler überwinde Trug und Wahn:^lEr finde Licht und spende Licht.^pDies schenk uns, Vater voller Macht,^lund du, sein Sohn und Ebenbild,^ldie ihr in Einheit mit dem Geist^ldie Schöpfung zur Vollendung führt. Amen."
       }
   },
   2412: {
