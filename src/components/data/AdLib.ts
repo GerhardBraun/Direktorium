@@ -280,7 +280,8 @@ export const adlibData = {
       "n2": {
         "ErsteV": {
           "comm_1": "MärtSg",
-          "oration": "Herr, unser Gott, wir schauen heute auf das Beispiel der Standhaftigkeit, das der heilige Märtyrer Sebastian durch sein mutiges Bekenntnis gegeben hat. Schenke auch uns den Geist der Stärke, damit wir dir mehr gehorchen als den Menschen.^ORV"
+          "oration": "Herr, unser Gott, wir schauen heute auf das Beispiel der Standhaftigkeit, das der heilige Märtyrer Sebastian durch sein mutiges Bekenntnis gegeben hat. Schenke auch uns den Geist der Stärke, damit wir dir mehr gehorchen als den Menschen.^ORV",
+          "oration_lat": "Præsta nobis, quǽsumus, Dómine, spíritum fortitúdinis, ut, glorióso exémplo beáti Sebastiáni mártyris tui edócti, tibi magis quam homínibus obœdíre discámus.^ORlV"
         },
         "Lesehore": {
           "comm_1": "MärtSg",
@@ -290,17 +291,20 @@ export const adlibData = {
           "patr_resp1": "Er kämpfte bis zum Tod für das Gesetz seines Gottes und fürchtete sich nicht vor den Worten der Bösen,",
           "patr_resp2": "denn er war auf einen starken Felsen gegründet.",
           "patr_resp3": "Er achtete das Leben der Welt gering und gelangte zum Himmelreich.",
-          "oration": "Herr, unser Gott, wir schauen heute auf das Beispiel der Standhaftigkeit, das der heilige Märtyrer Sebastian durch sein mutiges Bekenntnis gegeben hat. Schenke auch uns den Geist der Stärke, damit wir dir mehr gehorchen als den Menschen.^ORV"
+          "oration": "Herr, unser Gott, wir schauen heute auf das Beispiel der Standhaftigkeit, das der heilige Märtyrer Sebastian durch sein mutiges Bekenntnis gegeben hat. Schenke auch uns den Geist der Stärke, damit wir dir mehr gehorchen als den Menschen.^ORV",
+          "oration_lat": "Præsta nobis, quǽsumus, Dómine, spíritum fortitúdinis, ut, glorióso exémplo beáti Sebastiáni mártyris tui edócti, tibi magis quam homínibus obœdíre discámus.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Sebastian",
           "farbe": "r",
           "comm_1": "MärtSg",
-          "oration": "Herr, unser Gott, wir schauen heute auf das Beispiel der Standhaftigkeit, das der heilige Märtyrer Sebastian durch sein mutiges Bekenntnis gegeben hat. Schenke auch uns den Geist der Stärke, damit wir dir mehr gehorchen als den Menschen.^ORV"
+          "oration": "Herr, unser Gott, wir schauen heute auf das Beispiel der Standhaftigkeit, das der heilige Märtyrer Sebastian durch sein mutiges Bekenntnis gegeben hat. Schenke auch uns den Geist der Stärke, damit wir dir mehr gehorchen als den Menschen.^ORV",
+          "oration_lat": "Præsta nobis, quǽsumus, Dómine, spíritum fortitúdinis, ut, glorióso exémplo beáti Sebastiáni mártyris tui edócti, tibi magis quam homínibus obœdíre discámus.^ORlV"
         },
         "Vesper": {
           "comm_1": "MärtSg",
-          "oration": "Herr, unser Gott, wir schauen heute auf das Beispiel der Standhaftigkeit, das der heilige Märtyrer Sebastian durch sein mutiges Bekenntnis gegeben hat. Schenke auch uns den Geist der Stärke, damit wir dir mehr gehorchen als den Menschen.^ORV"
+          "oration": "Herr, unser Gott, wir schauen heute auf das Beispiel der Standhaftigkeit, das der heilige Märtyrer Sebastian durch sein mutiges Bekenntnis gegeben hat. Schenke auch uns den Geist der Stärke, damit wir dir mehr gehorchen als den Menschen.^ORV",
+          "oration_lat": "Præsta nobis, quǽsumus, Dómine, spíritum fortitúdinis, ut, glorióso exémplo beáti Sebastiáni mártyris tui edócti, tibi magis quam homínibus obœdíre discámus.^ORlV"
         }
       }
     },
@@ -3923,7 +3927,8 @@ export const adlibData = {
         "ErsteV": {
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
-          "oration": "Allmächtiger Gott, du hast dem heiligen Laurentius von Brindisi den Geist des Rates und der Stärke verliehen, damit er als Prediger und Seelsorger zu deiner Ehre und zum Heil der Menschen wirke. Erleuchte auch uns durch deinen Geist, damit wir unsere Aufgaben erkennen und sie in deiner Kraft erfüllen.^ORV"
+          "oration": "Allmächtiger Gott, du hast dem heiligen Laurentius von Brindisi den Geist des Rates und der Stärke verliehen, damit er als Prediger und Seelsorger zu deiner Ehre und zum Heil der Menschen wirke. Erleuchte auch uns durch deinen Geist, damit wir unsere Aufgaben erkennen und sie in deiner Kraft erfüllen.^ORV",
+          "oration_lat": "Deus, qui pro nóminis tui glória et animárum salúte beáto Lauréntio presbýtero spíritum consílii et fortitúdinis contulísti, da nobis, in eódem spíritu, et agénda cognóscere, et cógnita, eius intercessióne, perfícere.^ORlV"
         },
         "Lesehore": {
           "comm_1": "Hirten",
@@ -3934,7 +3939,8 @@ export const adlibData = {
           "patr_resp1": "Steig auf einen hohen Berg, du Künder der Frohen Botschaft für Zion;",
           "patr_resp2": "sag den Städten Judas: Siehe da: dein Gott!",
           "patr_resp3": "Folge mir nach; geh und verkünde das Reich Gottes.",
-          "oration": "Allmächtiger Gott, du hast dem heiligen Laurentius von Brindisi den Geist des Rates und der Stärke verliehen, damit er als Prediger und Seelsorger zu deiner Ehre und zum Heil der Menschen wirke. Erleuchte auch uns durch deinen Geist, damit wir unsere Aufgaben erkennen und sie in deiner Kraft erfüllen.^ORV"
+          "oration": "Allmächtiger Gott, du hast dem heiligen Laurentius von Brindisi den Geist des Rates und der Stärke verliehen, damit er als Prediger und Seelsorger zu deiner Ehre und zum Heil der Menschen wirke. Erleuchte auch uns durch deinen Geist, damit wir unsere Aufgaben erkennen und sie in deiner Kraft erfüllen.^ORV",
+          "oration_lat": "Deus, qui pro nóminis tui glória et animárum salúte beáto Lauréntio presbýtero spíritum consílii et fortitúdinis contulísti, da nobis, in eódem spíritu, et agénda cognóscere, et cógnita, eius intercessióne, perfícere.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Laurentius von Brindisi",
@@ -3943,12 +3949,31 @@ export const adlibData = {
           "vokativ_lat": "sancte Laurénti",
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
-          "oration": "Allmächtiger Gott, du hast dem heiligen Laurentius von Brindisi den Geist des Rates und der Stärke verliehen, damit er als Prediger und Seelsorger zu deiner Ehre und zum Heil der Menschen wirke. Erleuchte auch uns durch deinen Geist, damit wir unsere Aufgaben erkennen und sie in deiner Kraft erfüllen.^ORV"
+          "oration": "Allmächtiger Gott, du hast dem heiligen Laurentius von Brindisi den Geist des Rates und der Stärke verliehen, damit er als Prediger und Seelsorger zu deiner Ehre und zum Heil der Menschen wirke. Erleuchte auch uns durch deinen Geist, damit wir unsere Aufgaben erkennen und sie in deiner Kraft erfüllen.^ORV",
+          "oration_lat": "Deus, qui pro nóminis tui glória et animárum salúte beáto Lauréntio presbýtero spíritum consílii et fortitúdinis contulísti, da nobis, in eódem spíritu, et agénda cognóscere, et cógnita, eius intercessióne, perfícere.^ORlV"
         },
         "Vesper": {
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
-          "oration": "Allmächtiger Gott, du hast dem heiligen Laurentius von Brindisi den Geist des Rates und der Stärke verliehen, damit er als Prediger und Seelsorger zu deiner Ehre und zum Heil der Menschen wirke. Erleuchte auch uns durch deinen Geist, damit wir unsere Aufgaben erkennen und sie in deiner Kraft erfüllen.^ORV"
+          "oration": "Allmächtiger Gott, du hast dem heiligen Laurentius von Brindisi den Geist des Rates und der Stärke verliehen, damit er als Prediger und Seelsorger zu deiner Ehre und zum Heil der Menschen wirke. Erleuchte auch uns durch deinen Geist, damit wir unsere Aufgaben erkennen und sie in deiner Kraft erfüllen.^ORV",
+          "oration_lat": "Deus, qui pro nóminis tui glória et animárum salúte beáto Lauréntio presbýtero spíritum consílii et fortitúdinis contulísti, da nobis, in eódem spíritu, et agénda cognóscere, et cógnita, eius intercessióne, perfícere.^ORlV"
+        }
+      }
+    },
+    "23": {
+      "eig": {
+        "ErsteV": {
+          "oration_lat": "Dómine Deus noster, qui beátæ Birgíttæ, Fílii tui passiónem meditánti, secréta cæléstia revelásti, da nobis fámulis tuis in revelatióne glóriæ tuæ gaudére lætántes.^ORlV"
+        },
+        "Lesehore": {
+          "oration_lat": "Dómine Deus noster, qui beátæ Birgíttæ, Fílii tui passiónem meditánti, secréta cæléstia revelásti, da nobis fámulis tuis in revelatióne glóriæ tuæ gaudére lætántes.^ORlV"
+        },
+        "Laudes": {
+          "genitiv_lat": "sanctæ Brigittæ",
+          "oration_lat": "Dómine Deus noster, qui beátæ Birgíttæ, Fílii tui passiónem meditánti, secréta cæléstia revelásti, da nobis fámulis tuis in revelatióne glóriæ tuæ gaudére lætántes.^ORlV"
+        },
+        "Vesper": {
+          "oration_lat": "Dómine Deus noster, qui beátæ Birgíttæ, Fílii tui passiónem meditánti, secréta cæléstia revelásti, da nobis fámulis tuis in revelatióne glóriæ tuæ gaudére lætántes.^ORlV"
         }
       }
     },

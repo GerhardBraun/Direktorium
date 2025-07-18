@@ -2676,6 +2676,18 @@ export const brevierData = {
         "Lesehore": {
           "hymn_1_lat": 5647.0
         }
+      },
+      "Ord": {
+        "ErsteV": {
+          "hymn_1_lat": 5678.0
+        },
+        "Lesehore": {
+          "hymn_1_lat": 5678.0,
+          "hymn_nacht_lat": 0.0
+        },
+        "Vesper": {
+          "hymn_1_lat": 5678.0
+        }
       }
     },
     "Maria": {
@@ -3279,6 +3291,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns zu Jesus Christus beten, dem König der Märtyrer:",
           "bitten_r": "Herr Jesus Christus, wir preisen dich.",
           "bitten": "Du unser Erlöser, du hast dein Blut vergossen für das Heil der Welt;^qerbarme dich aller Menschen.^pDu Urbild der Märtyrer;^qsteh allen Verfolgten bei.^pDu treuer Zeuge;^qhilf denen, die Zeugnis von dir geben.^pDu Stärke der Märtyrer;^qsei deinen Bekennern nahe in der Stunde der Prüfung.^pDu Lohn der Märtyrer;^qsei auch der Lohn all unserer Verstorbenen.",
+          "hymn_1_lat": 5552.0,
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
           "ant1_lat": "",
@@ -3295,7 +3308,7 @@ export const brevierData = {
         },
         "Invitatorium": {
           "ant0": "Den Herrn, den König der Märtyrer – kommt, wir beten ihn an!^ö",
-          "ant0_lat": ""
+          "ant0_lat": "Regem mártyrum Dóminum, veníte, adorémus.^Lö"
         },
         "Lesehore": {
           "hymn_1": 1110.0,
@@ -3322,21 +3335,15 @@ export const brevierData = {
           "patr_resp1": "Ich habe den guten Kampf gekämpft, den Lauf vollendet, die Treue gehalten.",
           "patr_resp2": "Schon jetzt liegt für mich der Kranz der Gerechtigkeit bereit.^ö",
           "patr_resp3": "Ich sehe alles als Verlust an, weil die Erkenntnis Christi Jesu, meines Herrn, alles übertrifft. Christus will ich erkennen und die Gemeinschaft mit seinen Leiden; sein Tod soll mich prägen.",
+          "hymn_1_lat": 5536.0,
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
           "hymn_nacht_lat": 0.0,
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "versikel0_lat": "",
-          "versikel1_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "patr_resp1_lat": "",
-          "patr_resp2_lat": "",
-          "patr_resp3_lat": "",
-          "les_text_lat": ""
+          "ant1_lat": "Eritis ódio ómnibus propter nomen meum; qui autem perseveráverit usque in finem, hic salvus erit.^Lö",
+          "ant2_lat": "Non sunt condígnæ passiónes huius témporis ad futúram glóriam, quæ revelábitur in nobis.^Lö",
+          "ant3_lat": "Tamquam aurum in fornáce probávit eléctos Dóminus, et quasi holocáusta accépit eos in ætérnum.^Lö",
+          "versikel0_lat": "Tribulátio et angústia invenérunt me.^Lö",
+          "versikel1_lat": "Mandáta tua meditátio mea est.^Lö"
         },
         "Laudes": {
           "button": "Märt",
@@ -3361,19 +3368,20 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, der treue Zeuge. Zu ihm lasst uns beten:",
           "bitten_r": "Erhöre uns, Christus.",
           "bitten": "Deine Märtyrer haben freiwillig den Tod auf sich genommen;^qschenke uns die wahre Freiheit und die Bereitschaft zum Zeugnis.^pDeine Märtyrer haben den Glauben bekannt bis in den Tod;^qhilf unserem Unglauben.^pDeine Märtyrer haben ihr Kreuz auf sich genommen und sind dir nachgefolgt;^qgib uns Kraft in den Stunden der Entscheidung.^pDeine Märtyrer haben ihre Hoffnung allein auf dich gestellt;^qlass nicht zu, dass wir den Verführungen der Welt erliegen.",
+          "hymn_1_lat": 5545.0,
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "ant1_lat": "Lábia mea laudábunt te, Dómine, quóniam mélior est misericórdia tua super vitas.^Lö",
+          "ant2_lat": "Mártyres Dómini, Dóminum benedícite in ætérnum.^Lö",
+          "ant3_lat": "Qui vícerit, fáciam illum colúmnam in templo meo, dicit Dóminus.^Lö",
+          "resp1_lat": "Fortitúdo mea",
+          "resp2_lat": "et laus mea Dóminus.",
+          "resp3_lat": "Et factus est mihi in salútem.",
+          "antev_lat": "Qui odit ánimam suam in hoc mundo, in vitam ætérnam custódit eam.",
+          "bitten_e_lat": "Fratres, Salvatórem nostrum, testem fidélem, per mártyres interféctos propter verbum Dei, celebrémus, clamántes:",
+          "bitten_r_lat": "Redemísti nos Deo in sánguine tuo.",
+          "bitten_lat": "Per mártyres tuos, qui líbere mortem in testimónium fídei sunt ampléxi,^qda nobis, Dómine, veram spíritus libertátem.^pPer mártyres tuos, qui fidem usque ad sánguinem sunt conféssi,^qda nobis, Dómine, puritátem fideíque constántiam.^pPer mártyres tuos, qui, sustinéntes crucem, tua vestígia sunt secúti,^qda nobis, Dómine, ærúmnas vitæ fórtiter sustinére.^pPer mártyres tuos, qui stolas suas lavérunt in sánguine Agni,^qda nobis, Dómine, omnes insídias carnis mundíque devíncere.",
+          "les_text_lat": "Benedíctus Deus et Pater Dómini nostri Iesu Christi, Pater misericordiárum et Deus totíus consolatiónis, qui consolátur nos in omni tribulatióne nostra, ut possímus et ipsi consolári eos, qui in omni pressúra sunt, per exhortatiónem, qua exhortámur et ipsi a Deo; quóniam, sicut abúndant passiónes Christi in nobis, ita per Christum abúndat et consolátio nostra."
         },
         "Terz": {
           "hymn_2": 0.0,
@@ -3390,13 +3398,10 @@ export const brevierData = {
           "resp1": "Die Krone der Schönheit hat er ihm aufs Haupt gesetzt.^ö",
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
-          "ant0_lat": "",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "ant0_lat": "Certámen forte dedit illi Dóminus, ut víncere sciret, quóniam ómnium poténtior est sapiéntia.^Lö",
+          "resp0_lat": "Stola iucunditátis índuit eum Dóminus.^Lö",
+          "resp1_lat": "Et corónam pulchritúdinis pósuit super caput eius.^Lö",
+          "les_text_lat": "Deus omnis grátiæ, qui vocávit vos in ætérnam suam glóriam in Christo Iesu, módicum passos ipse perfíciet, confirmábit, solidábit, fundábit. Ipsi impérium in sǽcula sæculórum. Amen."
         },
         "Sext": {
           "hymn_2": 0.0,
@@ -3413,13 +3418,10 @@ export const brevierData = {
           "resp1": "Was können Menschen mir antun?^ö",
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
-          "ant0_lat": "",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "ant0_lat": "Coronávit eum Dóminus coróna iustítiæ, et dedit illi nomen sanctum glóriæ.^Lö",
+          "resp0_lat": "In Deo sperávi.^Lö",
+          "resp1_lat": "Non timébo quid fáciat mihi homo.^Lö",
+          "les_text_lat": "Beátus vir, qui suffert tentatiónem, quia, cum probátus fúerit, accípiet corónam vitæ, quam repromísit Deus diligéntibus se."
         },
         "Non": {
           "hymn_2": 0.0,
@@ -3436,13 +3438,10 @@ export const brevierData = {
           "resp1": "Und bringen ihre Garben ein.^ö",
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
-          "ant0_lat": "",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "ant0_lat": "Eúntes ibant et flebant, mitténtes sémina sua.^Lö",
+          "resp0_lat": "Veniéntes vénient cum exsultatióne.^Lö",
+          "resp1_lat": "Portántes manípulos suos.^Lö",
+          "les_text_lat": "Iustórum ánimæ in manu Dei sunt, et non tanget illos torméntum mortis. Visi sunt óculis insipiéntium mori; illi autem sunt in pace."
         },
         "Vesper": {
           "hymn_1": 1123.0,
@@ -3465,19 +3464,20 @@ export const brevierData = {
           "bitten_e": "Lasst uns zu Jesus Christus beten, dem König der Märtyrer:",
           "bitten_r": "Herr Jesus Christus, wir preisen dich.",
           "bitten": "Du unser Erlöser, du hast dein Blut vergossen für das Heil der Welt;^qerbarme dich aller Menschen.^pDu Urbild der Märtyrer;^qsteh allen Verfolgten bei.^pDu treuer Zeuge;^qhilf denen, die Zeugnis von dir geben.^pDu Stärke der Märtyrer;^qsei deinen Bekennern nahe in der Stunde der Prüfung.^pDu Lohn der Märtyrer;^qsei auch der Lohn all unserer Verstorbenen.",
+          "hymn_1_lat": 5552.0,
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "ant1_lat": "Qui vult veníre post me, ábneget semetípsum, et tollat crucem suam et sequátur me.^Lö",
+          "ant2_lat": "Si quis mihi ministráverit, honorificábit eum Pater meus, qui est in cælis.^Lö",
+          "ant3_lat": "Qui perdíderit ánimam suam propter me, invéniet eam in ætérnum.^Lö",
+          "resp1_lat": "Probásti nos, Deus,",
+          "resp2_lat": "et eduxísti nos in refrigérium.",
+          "resp3_lat": "Igne nos examinásti, sicut examinátur argéntum.",
+          "antev_lat": "In cæléstibus regnis sanctórum habitátio est, et in ætérnum réquies eórum.",
+          "bitten_e_lat": "Hac hora, qua Rex mártyrum vitam suam in cena óbtulit et in cruce depósuit, grátias agámus illi, dicéntes:",
+          "bitten_r_lat": "Te, Dómine, celebrámus.",
+          "bitten_lat": "Te, Dómine, celebrámus, quia in finem dilexísti nos, salvátor noster, omnis martýrii fons et exémplum:^pQuia omnes peccatóres pæniténtes in prǽmium vitæ vocásti:^pQuia sánguinem novi et ætérni testaménti, in remissiónem peccatórum effúsum, hódie obtúlimus:^pQuia hac die per grátiam tuam in fide perseverávimus:^pQuia tuæ morti multos fratres hódie sociásti:",
+          "les_text_lat": "Caríssimi, quemádmodum communicátis Christi passiónibus, gaudéte, ut et in revelatióne glóriæ eius gaudeátis exsultántes. Si exprobrámini in nómine Christi, beáti, quóniam Spíritus glóriæ et Dei super vos requiéscit."
         }
       },
       "Frau": {
@@ -3489,8 +3489,7 @@ export const brevierData = {
           "resp2": "vor allen hat er sie erkoren.",
           "resp3": "In seinem Zelt lässt er sie wohnen.",
           "antev": "Ihr Gürtel war die Tapferkeit, sie kämpfte mit kraftvollem Arm. Ihre Lampe erlischt nicht in Ewigkeit.^ö",
-          "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
+          "hymn_1_lat": 5552.1,
           "resp1_lat": "",
           "resp2_lat": "vor°allen°hat°er°sie°erkoren.",
           "resp3_lat": "",
@@ -3501,10 +3500,19 @@ export const brevierData = {
           "hymn_3": 0.0,
           "resp0": "Mit dem Gewand der Freude hat sie der Herr bekleidet.^ö",
           "resp1": "Die Krone der Schönheit hat er ihr aufs Haupt gesetzt.^ö",
-          "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
-          "resp0_lat": "",
-          "resp1_lat": ""
+          "resp0_lat": "Stola iucunditátis índuit eum Dóminus.^Lö"
+        },
+        "Lesehore": {
+          "hymn_1_lat": 5536.1
+        },
+        "Laudes": {
+          "hymn_1_lat": 5545.1
+        },
+        "Sext": {
+          "ant0_lat": "Coronávit eam Dóminus coróna iustítiæ, et dedit illi nomen sanctum glóriæ.^Lö"
+        },
+        "Vesper": {
+          "hymn_1_lat": 5552.1
         }
       },
       "Jgfr": {
@@ -3516,37 +3524,34 @@ export const brevierData = {
           "resp1": "Der Herr hat sie erwählt,",
           "resp2": "vor allen hat er sie erkoren.",
           "resp3": "In seinem Zelt lässt er sie wohnen.",
-          "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
-          "resp1_lat": "",
-          "resp2_lat": "vor°allen°hat°er°sie°erkoren.",
-          "resp3_lat": ""
+          "hymn_1_lat": 5553.0
         },
         "Laudes": {
           "hymn_1": 1119.0,
           "hymn_2": 0.0,
           "hymn_3": 0.0,
           "hymn_kl": 0.0,
-          "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0
+          "hymn_1_lat": 5546.0
         },
         "Terz": {
           "hymn_2": 0.0,
           "hymn_3": 0.0,
           "resp0": "Mit dem Gewand der Freude hat sie der Herr bekleidet.^ö",
           "resp1": "Die Krone der Schönheit hat er ihr aufs Haupt gesetzt.^ö",
-          "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
-          "resp0_lat": "",
-          "resp1_lat": ""
+          "resp0_lat": "Stola iucunditátis índuit eum Dóminus.^Lö"
         },
         "Vesper": {
           "hymn_1": 1119.0,
           "hymn_2": 0.0,
           "hymn_3": 0.0,
           "hymn_kl": 0.0,
-          "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0
+          "hymn_1_lat": 5553.0
+        },
+        "Lesehore": {
+          "hymn_1_lat": 5537.0
+        },
+        "Sext": {
+          "ant0_lat": "Coronávit eam Dóminus coróna iustítiæ, et dedit illi nomen sanctum glóriæ.^Lö"
         }
       },
       "o": {
@@ -3561,8 +3566,6 @@ export const brevierData = {
           "resp2": "Halleluja,°halleluja.",
           "resp3": "Euch hat der Herr sich zum Erbe erkoren.",
           "antev": "Ewiges Licht leuchtet deinen Heiligen, o Herr: Unsterblichkeit ist ihr Besitz.^Ö",
-          "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "resp1_lat": "",
           "resp2_lat": "",
           "resp3_lat": "",
@@ -3579,8 +3582,6 @@ export const brevierData = {
           "resp1": "Sei treu bis in den Tod, dann werde ich dir den Kranz des Lebens geben.",
           "resp2": "Wer siegt, dem kann der zweite Tod nichts anhaben.^Ö",
           "resp3": "Bis zum Tode setze dich ein für das Recht, dann wird der Herr für dich kämpfen.",
-          "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "hymn_nacht_lat": 0.0,
           "resp1_lat": "",
           "resp2_lat": "",
@@ -3599,8 +3600,6 @@ export const brevierData = {
           "resp2": "Halleluja,°halleluja.",
           "resp3": "Sie erlangen Freude und Wonne.",
           "antev": "Ihr Heiligen alle, freut euch und jubelt; denn groß ist euer Lohn im Himmel.^Ö",
-          "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "resp1_lat": "",
           "resp2_lat": "",
           "resp3_lat": "",
@@ -3616,8 +3615,6 @@ export const brevierData = {
           "les_text_neu": "Fürchte dich nicht vor dem, was du noch erleiden musst: Siehe, der Teufel wird einige von euch ins Gefängnis werfen, um euch auf die Probe zu stellen, und ihr werdet in Bedrängnis sein, zehn Tage lang. Sei treu bis in den Tod; dann werde ich dir den Kranz des Lebens geben.^lWer Ohren hat, der höre, was der Geist den Gemeinden sagt: Wer siegt, dem kann der zweite Tod nichts anhaben.",
           "resp0": "Mit dem Gewand der Freude hat ihn der Herr bekleidet.^ö",
           "resp1": "Die Krone der Schönheit hat er ihm aufs Haupt gesetzt.^ö",
-          "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "resp0_lat": "",
           "resp1_lat": "",
           "les_text_lat": ""
@@ -3630,8 +3627,6 @@ export const brevierData = {
           "les_text": "Wer siegt, der darf mit mir auf meinem Thron sitzen, so wie auch ich gesiegt habe und mich mit meinem Vater auf seinen Thron gesetzt habe.",
           "resp0": "Ich vertraue auf Gott und fürchte mich nicht.^ö",
           "resp1": "Was können Menschen mir antun?^ö",
-          "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "resp0_lat": "",
           "resp1_lat": "",
           "les_text_lat": ""
@@ -3645,8 +3640,6 @@ export const brevierData = {
           "les_text_neu": "Wir wollen uns freuen und jubeln und ihm die Ehre erweisen! Denn die Hochzeit des Lammes ist gekommen, und seine Frau hat sich bereit gemacht.^lJemand sagte zu mir: Schreib auf: Selig, wer zum Hochzeitsmahl des Lammes eingeladen ist! Dann sagte er zu mir: Das sind zuverlässige Worte Gottes.",
           "resp0": "Sie kommen mit Jubel.^ö",
           "resp1": "Und bringen ihre Garben ein.^ö",
-          "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "resp0_lat": "",
           "resp1_lat": "",
           "les_text_lat": ""
@@ -3663,8 +3656,6 @@ export const brevierData = {
           "resp2": "Halleluja,°halleluja.",
           "resp3": "Die redlichen Herzens sind, werden sich freuen.",
           "antev": "Wenn das Weizenkorn nicht in die Erde fällt und stirbt, bleibt es allein; wenn es aber stirbt, bringt es reiche Frucht.^Ö",
-          "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "resp1_lat": "",
           "resp2_lat": "",
           "resp3_lat": "",
@@ -3683,8 +3674,6 @@ export const brevierData = {
           "resp1": "Ich will deinen Namen verkünden, Herr, du Hort meines Lebens.",
           "resp2": "Denn du hast mich vom Tod errettet.",
           "resp3": "Ich will jubeln und mich freuen über deine Huld.",
-          "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "hymn_nacht_lat": 0.0,
           "resp1_lat": "",
           "resp2_lat": "",
@@ -3837,7 +3826,6 @@ export const brevierData = {
           "hymn_3": 0.0,
           "hymn_kl": 0.0,
           "antev": "So spricht der Herr: Wenn jemand nicht auf alles, was er hat, verzichtet, kann er mein Jünger nicht sein.^ö",
-          "hymn_1_lat": 5678.0,
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
           "antev_lat": "Nisi quis renuntiáverit ómnibus quæ póssidet, non potest meus esse discípulus, dicit Dóminus.^Lö"
@@ -3853,7 +3841,6 @@ export const brevierData = {
           "resp1": "Legt euren Gürtel nicht ab und lasst eure Lampen brennen.",
           "resp2": "Seid wie Menschen, die auf die Rückkehr ihres Herrn warten, der auf einer Hochzeit ist.",
           "resp3": "Seid wachsam, denn ihr wisst nicht, an welchem Tag euer Herr kommt.",
-          "hymn_1_lat": 5678.0,
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
           "hymn_nacht_lat": 0.0
@@ -3876,7 +3863,6 @@ export const brevierData = {
           "hymn_3": 0.0,
           "hymn_kl": 0.0,
           "antev": "Ihr habt alles verlassen und seid mir nachgefolgt: Das Hundertfache werdet ihr dafür erhalten und das ewige Leben gewinnen.^ö^p^RUBROder:^0RUBR^l^rAnt.°°^0rWo Brüder in Eintracht Gottes Herrlichkeit preisen, da spendet der Herr seinen Segen.^ö",
-          "hymn_1_lat": 5678.0,
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
           "antev_lat": "Vos qui reliquístis ómnia et secúti estis me, céntuplum accipiétis et vitam ætérnam possidébitis.^Lö^l^RUBRVel:^0RUBR^l^rAnt.°°^0rUbi fratres in unum gloríficant Deum, ibi dabit Dóminus benedictiónem.^ö"
@@ -6300,7 +6286,7 @@ export const brevierData = {
         "each": {
           "comm_1": "Frau",
           "oration": "Gott und Vater unseres Herrn Jesus Christus, die heilige Maria Magdalena durfte den Auferstandenen sehen und als erste den Jüngern die österliche Freude verkünden. Gib auf ihre Fürsprache auch uns den Mut, zu bezeugen, dass Christus lebt, damit wir ihn einst schauen in seiner Herrlichkeit,^ORR",
-          "oration_lat": ""
+          "oration_lat": "Deus, cuius Unigénitus Maríæ Magdalénæ ante omnes gáudium nuntiándum paschále commísit, præsta, quǽsumus, ut, eius intercessióne et exémplo, Christum vivéntem prædicémus, et in glória tua regnántem videámus.^ORlR"
         },
         "Lesehore": {
           "versikel0": "Du zeigst mir den Pfad zum Leben.",
@@ -6317,15 +6303,7 @@ export const brevierData = {
           "patr_resp1": "Jesus sagte zu Maria: Halte mich nicht fest! Geh zu meinen Brüdern und sage ihnen:",
           "patr_resp2": "Ich gehe zu meinem Vater und zu eurem Vater, zu meinem Gott und zu eurem Gott.",
           "patr_resp3": "Maria ging hin und verkündete den Jüngern, was der Herr ihr gesagt hatte:",
-          "versikel0_lat": "",
-          "versikel1_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "patr_resp1_lat": "",
-          "patr_resp2_lat": "",
-          "patr_resp3_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 8722.4
         },
         "Laudes": {
           "button": "Hl. Maria Magdalena",
@@ -6342,15 +6320,15 @@ export const brevierData = {
           "resp2": "Der Herr ist vom Tode erstanden.",
           "resp3": "Geh hin zu den Brüdern und verkünde:",
           "antev": "Als Jesus auferstanden war, am ersten Tag der Woche, erschien er zuerst Maria Magdalena, die er von sieben Dämonen befreit hatte.",
-          "genitiv_lat": "",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "les_text_lat": ""
+          "genitiv_lat": "sanctæ Maríæ Magdalénæ",
+          "hymn_1_lat": 8722.2,
+          "ant1_lat": "Una sábbati, María Magdaléne venit mane, cum adhuc ténebræ essent, ad monuméntum.",
+          "ant2_lat": "Ardens est cor meum: desídero vidére Dóminum meum; quæro, et non invénio ubi posuérunt eum.^LÖ",
+          "ant3_lat": "Dum fleret María, inclinávit se et prospéxit in monuméntum; et vidit duos ángelos in albis sedéntes.^LÖ",
+          "resp1_lat": "María, noli iam flere:",
+          "resp2_lat": "Surréxit Dóminus a mórtuis.",
+          "resp3_lat": "Vade ad fratres meos, et dic eis:",
+          "antev_lat": "Surgens Iesus mane prima sábbati, appáruit primo Maríæ Magdalénæ, de qua eiécerat septem dæmónia."
         },
         "Vesper": {
           "ant1": "Jesus sprach zu Maria: Frau, warum weinst du? Wen suchst du?",
@@ -6364,21 +6342,20 @@ export const brevierData = {
           "resp2": "Der Herr ist vom Tode erstanden.",
           "resp3": "Geh hin zu den Brüdern und verkünde:",
           "antev": "Maria ging hin und verkündete den Jüngern: Ich habe den Herrn gesehen.^Ö",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 8722.4,
+          "ant1_lat": "Dicit Iesus Maríæ: Múlier, quid ploras? Quem quæris?",
+          "ant2_lat": "Tulérunt Dóminum meum, et néscio ubi posuérunt eum.",
+          "ant3_lat": "Dicit Iesus: María. Convérsa illa dicit ei: Rabbóni, quod dícitur: Magíster.",
+          "resp1_lat": "María, noli iam flere:",
+          "resp2_lat": "Surréxit Dóminus a mórtuis.",
+          "resp3_lat": "Vade ad fratres meos, et dic eis:",
+          "antev_lat": "Venit María, núntians discípulis quia vidit Dóminum.^LÖ"
         }
       },
       "23": {
         "each": {
           "comm_1": "Frau_Ord",
-          "oration": "Herr, unser Gott, du hast der heiligen Birgitta eine innige Liebe zum Gekreuzigten geschenkt und ihr den Reichtum deines Erbarmens geoffenbart. Hilf uns, dass wir Christus auf seinem Leidensweg nachfolgen, damit wir ihn auch in seiner Herrlichkeit schauen,^ORR",
-          "oration_lat": ""
+          "oration": "Herr, unser Gott, du hast der heiligen Birgitta eine innige Liebe zum Gekreuzigten geschenkt und ihr den Reichtum deines Erbarmens geoffenbart. Hilf uns, dass wir Christus auf seinem Leidensweg nachfolgen, damit wir ihn auch in seiner Herrlichkeit schauen,^ORR"
         },
         "Lesehore": {
           "versikel0": "Was ich im Herzen erwäge, stehe dir vor Augen.",
@@ -6394,22 +6371,12 @@ export const brevierData = {
           "patr_text": "^hDie Erhebung des Geistes zu Christus, dem Heiland^pSei gepriesen, mein Herr Jesus Christus! Du hast deinen Tod vorausgesagt und beim Letzten Mahl irdisches Brot in deinen kostbaren Leib verwandelt. Aus Liebe hast du ihn deinen Aposteln gegeben als Gedächtnis deines kostbaren Leidens. Du hast ihnen mit deinen heiligen und ehrwürdigen Händen die Füße gewaschen und ihnen demütig deine ganze Herablassung gezeigt.^pEhre sei dir, mein Herr Jesus Christus! In der Angst vor deinem Leiden und deinem Tod hat dein unschuldiger Leib Blut statt Wasser geschwitzt. Und doch hast du unsere Erlösung, die du dir vorgenommen hattest, vollbracht und so die Liebe offenbart, die du zum Menschengeschlecht hegtest.^pSei gepriesen, mein Herr Jesus Christus! Du wurdest zu Kajaphas geführt. Du, der Richter der Welt, hast es in Demut geschehen lassen, dass du dem Pilatus zur Verurteilung übergeben wurdest.^pEhre sei dir, mein Herr Jesus Christus! Wegen der Verspottung, die du ertrugst, als du dich ins Purpur kleidest und mit spitzem Dornenkranz und es geduldig ertrugst, dass die Bösen dir in das herrliche Antlitz spien, dir die Augen verhüllten, dich mit ihren mordgierigen Händen roh auf die Wangen und auf den Nacken schlugen.^pLob sei dir, mein Herr Jesus Christus! Du hast es geduldig geschehen lassen, dass sie dich an die Säule banden, dich grausam geißelten und dich blutüberströmt vor das Gericht des Pilatus schleppten, dich, das unschuldige Lamm.^pEhre sei dir, mein Herr Jesus Christus! Mit deinem ganzen herrlichen blutenden Leib wurdest du zum Tod am Kreuz verurteilt, trugst auf deinen heiligen Schultern unter Schmerzen das Kreuz. Von Wut erfüllt, führten sie dich an den Ort des Leidens, beraubten dich der Kleider und hefteten dich ans Kreuz. Du hast es so gewollt.^pEhre sei dir, mein Herr Jesus Christus! Als du in solcher Not warst, da blicktest du in Demut mit den gütigen Augen deiner Liebe auf deine erhabene Mutter. Sie zu trösten, vertrautest du sie der treuen Obhut deines Jüngers an.^pEwiges Lob sei dir, mein Herr Jesus Christus! Du warst im Todeskampf und gabst allen Sündern Hoffnung auf Vergebung, als du huldvoll dem Räuber, der sich zu dir bekannte, die Herrlichkeit des Paradieses versprachst.^pEwiges Lob sei dir, mein Herr Jesus Christus! Für jede Stunde, in der du am Kreuz die größte Bitterkeit und Not für uns Sünder ertragen hast.^pGepriesen seist du, mein Herr Jesus Christus! Mit deinem kostbaren Blut und durch deinen heiligen Tod hast du die Seelen losgekauft und sie huldvoll aus der Verbannung zum ewigen Leben zurückgeführt.^pEwige Ehre sei dir, mein Herr Jesus Christus! Du bist am dritten Tag von den Toten erstanden und hast dich lebend denen offenbart, denen du dich zeigen wolltest. Nach vierzig Tagen bist du vor den Augen vieler Jünger zum Himmel aufgestiegen und hast deine aus der Welt des Todes befreiten Freunde in hohen Ehren dorthin geführt. Jubel und ewiges Lob sei dir, mein Herr Jesus Christus! Du hast den Heiligen Geist in die Herzen der Jünger gesandt und in ihrem Geist eine unermessliche Gottesliebe entfacht.^pSei gepriesen, gelobt und verherrlicht in Ewigkeit, mein Herr Jesus Christus! Du sitzest in deinem himmlischen Reich auf dem Thron deiner Gottheit und lebst leibhaft mit all deinen heiligen Gliedern, die du aus dem Fleisch der Jungfrau genommen hast. Und so wirst du kommen am Tag des Gerichtes, die Seelen aller Lebenden und Toten zu richten, der du mit dem Vater und dem Heiligen Geist lebst und herrschst in Ewigkeit. Amen.",
           "patr_resp1": "Christus hat uns geliebt und durch sein Blut befreit von unseren Sünden.",
           "patr_resp2": "Er hat uns die Würde von Königen verliehen und uns zu Priestern gemacht für seinen Gott und Vater.",
-          "patr_resp3": "Übt die Liebe, denn Christus hat uns geliebt und sich für uns dahingegeben.",
-          "versikel0_lat": "",
-          "versikel1_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "patr_resp1_lat": "",
-          "patr_resp2_lat": "",
-          "patr_resp3_lat": "",
-          "les_text_lat": ""
+          "patr_resp3": "Übt die Liebe, denn Christus hat uns geliebt und sich für uns dahingegeben."
         },
         "Laudes": {
           "button": "Hl. Birgitta von Schweden",
           "nominativ": "Die heilige Birgitta",
-          "genitiv": "der heiligen Birgitta",
-          "genitiv_lat": ""
+          "genitiv": "der heiligen Birgitta"
         }
       },
       "25": {

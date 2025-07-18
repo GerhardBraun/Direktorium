@@ -4748,6 +4748,60 @@ export const psalmsData = {
         "text_lat": "Sanctórum méritis ínclita gáudia^lpangámus, sócii, géstaque fórtia;^lnam gliscit ánimus prómere cántibus^lvictórum genus óptimum.^pHæ sunt, quas rétinens mundus inhórruit,^lipsum nam stérili flore peráridum^lsprevére pénitus teque secútæ sunt,^lrex, Christe, bone cǽlitum.^pHæ pro te fúrias sǽvaque sústinent;^lnon murmur résonat, non querimónia,^lsed corde tácito mens bene cónscia^lconsérvat patiéntiam.^pQuæ vox, quæ póterit lingua retéxere^lquæ tu martýribus múnera prǽparas?^lRubri nam flúido sánguine láureis^lditántur bene fúlgidis.^pTe, trina Déitas únaque, póscimus,^lut culpas ábluas, nóxia súbtrahas,^ldes pacem fámulis, nos quoque glóriam^lper cuncta tibi sǽcula."
       }
   },
+  5536: {
+    0.0: {
+        "quote": "unius Martyris Lh",
+        "title_lat": "Beáte martyr, próspera",
+        "text_lat": "Beáte martyr, próspera^ldiem triumphálem tuum,^lquo sánguinis merces tibi^lcoróna vincénti datur.^pHic t>e ex tenébris sǽculi,^ltortóre vict>o et iúdice,^levéxit ad cælum dies^lChristóqu>e ovántem réddidit.^pNunc angelórum párticeps^lcollúces insígni stola,^lquam testis indomábilis^lrivis cruóris láveras.^pAdésto nunc et óbsecra,^lplacátus ut Christus suis^linclínet aurem prósperam,^lnoxas nec omnes ímputet.^pPaulísper huc illábere^lChristi favórem déferens,^lsensus gravát>i ut séntiant^llevámen indulgéntiæ.^pHonor Patri cum Fílio^let Spíritu Paráclito,^lqui te coróna pérpeti^lcingunt in aula glóriæ."
+      },
+    1.0: {
+        "quote": "unius Martyris Lh/Frau",
+        "title_lat": "Beáta martyr, próspera",
+        "text_lat": "Beáta martyr, próspera^ldiem triumphálem tuum,^lquo sánguinis merces tibi^lcoróna vincénti datur.^pHic t>e ex tenébris sǽculi,^ltortóre vict>o et iúdice,^levéxit ad cælum dies^lChristóqu>e ovántem réddidit.^pNunc angelórum párticeps^lcollúces insígni stola,^lquam testis indomábilis^lrivis cruóris láveras.^pAdésto nunc et óbsecra,^lplacátus ut Christus suis^linclínet aurem prósperam,^lnoxas nec omnes ímputet.^pPaulísper huc illábere^lChristi favórem déferens,^lsensus gravát>i ut séntiant^llevámen indulgéntiæ.^pHonor Patri cum Fílio^let Spíritu Paráclito,^lqui te coróna pérpeti^lcingunt in aula glóriæ."
+      }
+  },
+  5537: {
+    0.0: {
+        "quote": "unius Martyris Lh/Jgfr",
+        "title_lat": "O Christe, flos convállium"
+      }
+  },
+  5545: {
+    0.0: {
+        "quote": "unius Martyris Ld",
+        "title_lat": "Martyr Dei, qui únicum",
+        "text_lat": "Martyr Dei, qui únicum^lPatris sequéndo Fílium^lvictis triúmphas hóstibus,^lvictor fruens cæléstibus.^pTui precátus múnere^lnostrum reátum dílue,^larcens mali contágium,^lvitæ repéllens tǽdium.^pSolúta sunt iam víncula^ltui sacráti córporis;^lnos solve vinclis sǽculi^lamóre Fílii Dei.^pHonor Patri cum Fílio^let Spíritu Paráclito,^lqui te coróna pérpeti^lcingunt in aula glóriæ."
+      },
+    1.0: {
+        "quote": "unius Martyris Ld/Frau",
+        "title_lat": "Martyr Dei, quæ únicum",
+        "text_lat": "Martyr Dei, quæ únicum^lPatris sequéndo Fílium^lvictis triúmphas hóstibus,^lvictrix fruens cæléstibus.^pTui precátus múnere^lnostrum reátum dílue,^larcens mali contágium,^lvitæ repéllens tǽdium.^pSolúta sunt iam víncula^ltui sacráti córporis;^lnos solve vinclis sǽculi^lamóre Fílii Dei.^pHonor Patri cum Fílio^let Spíritu Paráclito,^lqui te coróna pérpeti^lcingunt in aula glóriæ."
+      }
+  },
+  5546: {
+    0.0: {
+        "quote": "unius Martyris Ld/Jgfr",
+        "title_lat": "O castitátis sígnifer"
+      }
+  },
+  5552: {
+    0.0: {
+        "quote": "unius Martyris Vp",
+        "title_lat": "Deus, tuórum mílitum",
+        "text_lat": "Deus, tuórum mílitum^lsors et coróna, prǽmium,^llaudes canéntes mártyris^labsólve nexu críminis.^pHic testis ore prótulit^lquod cordis arca crédidit,^lChristum sequéndo répperit^leffusióne sánguinis.^pHic nempe mundi gáudia^let blandiménta nóxia^lcadúca rite députans,^lpervénit ad cæléstia.^pPœnas cucúrrit fórtiter^let sústulit viríliter;^lpro te refúndens sánguinem,^lætérna dona póssidet.^pOb hoc precátu súpplici^lte póscimus, piíssime;^lin hoc triúmpho mártyris^ldimítte noxam sérvulis.^pUt consequámur múneris^lipsíus et consórtia,^llætémur ac perénniter^liuncti polórum sédibus.^pLaus et perénnis glória^ltibi, Pater, cum Fílio,^lSancto simul Paráclito^lin sæculórum sǽcula."
+      },
+    1.0: {
+        "quote": "unius Martyris Vp/Frau",
+        "title_lat": "Deus, tuórum mílitum",
+        "text_lat": "Deus, tuórum mílitum^lsors et coróna, prǽmium,^llaudes canéntes mártyris^labsólve nexu críminis.^pHæc testis ore prótulit^lquod cordis arca crédidit,^lChristum sequéndo répperit^leffusióne sánguinis.^pHæc nempe mundi gáudia^let blandiménta nóxia^lcadúca rite députans,^lpervénit ad cæléstia.^pPœnas cucúrrit fórtiter^let sústulit viríliter;^lpro te refúndens sánguinem,^lætérna dona póssidet.^pOb hoc precátu súpplici^lte póscimus, piíssime;^lin hoc triúmpho mártyris^ldimítte noxam sérvulis.^pUt consequámur múneris^lipsíus et consórtia,^llætémur ac perénniter^liuncti polórum sédibus.^pLaus et perénnis glória^ltibi, Pater, cum Fílio,^lSancto simul Paráclito^lin sæculórum sǽcula."
+      }
+  },
+  5553: {
+    0.0: {
+        "quote": "unius Martyris Vp/Jgfr",
+        "title_lat": "Vírginis Proles opiféxque Matris"
+      }
+  },
   5564: {
     1.0: {
         "quote": "Comm pro Papa Lh"
@@ -4846,7 +4900,7 @@ export const psalmsData = {
     0.0: {
         "quote": "Comm Mulierum Lh",
         "title_lat": "Hæc fémina laudábilis",
-        "text_lat": "Hæc fémina laudábilis^let honoráta méritis,^lut sanctis pollet móribus,^ltriúmphat sic cum ángelis.^pEx corde devotíssimo^lorans Deum cum lácrimis,^lvigíliis, ieiúniis^lhærébat hæc assíduis.^pContémnens mundi glóriam^lac mente semper íntegra,^lperféctam post iustítiam^lmigrávit super sídera.^pQuæ sanctitátis áctibus^lsua ditávit límina,^llætátur nunc perpétuis^lcæléstis ædis prǽmiis.^pLaus uni ac trino Dómino,^lqui nos eius precátibus,^lperácto vitæ término,^lconiúngat cæli cívibus."
+        "text_lat": "Hæc fémina laudábilis^let honoráta méritis,^lut sanctis pollet móribus,^ltriúmphat sic cum ángelis.^pEx corde devotíssimo^lorans Deum cum lácrimis,^lvigíliis, ieiúniis^lhærébat hæc assíduis.^pContémnens mundi glóriam^lac mente semper íntegra,^lperféctam post iustítiam^lmigrávit super sídera.^pQuæ sanctitátis áctibus^lsua ditávit límina,^llætátur nunc perpétuis^lcæléstis ædis prǽmiis.^pLaus un>i ac trino Dómino,^lqui nos eius precátibus,^lperácto vitæ término,^lconiúngat cæli cívibus."
       }
   },
   5657: {
@@ -5124,6 +5178,18 @@ export const psalmsData = {
         "title": "^[Was in der Vorzeit rühmend ward besungen^]",
         "quote": "Benedikt",
         "text": "^RUBRDer eigene Hymnus ist im Stundenbuch erst für die Vesper ausgeschrieben. Für Lesehore und Laudes sind die Commune-Hymnen vorgesehen.^0RUBR^pWas in der Vorzeit^/rühmend ward besungen,^lwas wir vernahmen^/von der Väter Größe,^ldas macht dein Leben,^/heil’ger Benediktus,^lleuchtend uns sichtbar.^pAbraham gleichend,^/folgtest du dem Rufe,^lzogst aus der Heimat,^/wie dir Gott geboten,^lsuchtest die Stätte,^/die er dir verheißen,^lgläubigen Herzens.^pEin zweiter Mose,^/gabst du deinen Söhnen^lWeisung und Regel^/für den Weg des Lebens,^lWas ihr Beruf sei,^/lehrtest du die Mönche:^lGott nur zu suchen.^pLob sei dem Vater^/auf dem höchsten Throne,^lLob sei dem Sohne,^/Gott aus Gott geboren,^lLob sei dem Geiste,^/der von beiden ausgeht,^limmer und ewig. Amen."
+      }
+  },
+  8722: {
+    2.0: {
+        "quote": "Maria Magdalena Ld",
+        "title_lat": "Auróra surgit lúcida",
+        "text_lat": "Auróra surgit lúcida^lChristi triúmphos áfferens,^lcum corpus eius vísere,^lMaría, vis et úngere.^pAnhéla curris; ángelus^lat ecce lætus prǽdocet^lmortis refráctis póstibus^lredísse quem desíderas.^pSed te manet iucúndius^lintáct>i amóris prǽmium,^lcum, voce pulsans vílicum,^ltuum Magístrum cónspicis.^pQuæ cum dolénti Vírgine^lhæsíst>i acérbo stípiti,^ltu prima viv>i ab ínferis^les testis atque núntia.^pO flos venúste Mágdalæ,^lo Christ>i amóre sáucia,^ltu caritátis ígnibus^lfac nostra corda férveant.^pDa, Christe, tantæ sérvulæ^ldilectiónem pérsequi,^let nos tu in cæléstibus^ltibi canámus glóriam. Amen.^p^l"
+      },
+    4.0: {
+        "quote": "Maria Magdalena Vp",
+        "title_lat": "Mágdalæ sidus, múlier beáta",
+        "text_lat": "Mágdalæ sidus,^/múlier beáta,^lte pio cultu^/venerámur omnes,^lquam sibi Christus^/sociávit arcti^lfœ́der>e amóris.^pCum tib>i illíus^/pátefit potéstas^ldǽmonum vires^/ábigens treménda,^ltu fide gaudes^/potióre necti^lgrata medénti.^pHæret hinc urgens^/tibi caritátis^lvis ut insístas^/pédibus Magístri,^lférvidis illum^/comitáta semper^lsédula curis.^pTuque complóras^/Dóminum, crucíque^límpetu flagrans^/pietátis astas;^lmembra tu terges^/studiós>a et ungis^ldanda sepúlcro.^pQuos amor Christi^/péperit, triúmphis^lnos fac adiúngi^/sócios per ævum,^latque Dilécto^/simul affluénter^lpángere laudes. Amen."
       }
   },
   8806: {
