@@ -358,7 +358,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         .replace(/([0-9])-([0-9])/g, '$1\u200C\u2013\u200C$2')
         .replace(/>([aeiouæ])/g, '^k$1^0k')
         .replace(/\^([()[\]])/g, '^r$1^0r')
-        .replace(/( EINE?N?)/g, (match) => '^w' + match.toLowerCase() + '^0w')
+        .replace(/( EINE?[RMN]?)/g, (match) => '^w' + match.toLowerCase() + '^0w')
         .replace(/\^ö/g, (season === 'o' && !swdCombined.startsWith('o-9-'))
             ? ' Halleluja.' : '')
         .replace(/\^Ö/g, season === 'q' ? '' : ' Halleluja.')
