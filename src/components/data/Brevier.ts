@@ -15557,7 +15557,7 @@ export const brevierData = {
           "versikel1_lat": "In omni sapiéntia commonéntes vosmetípsum."
         },
         "Laudes": {
-          "hymn_1": 2220.0,
+          "hymn_1": 2210.0,
           "psalm1": 63.0,
           "psalm2": 160.0,
           "psalm3": 149.0,
@@ -18236,7 +18236,7 @@ export const brevierData = {
           "versikel1_lat": "Et penetrabílior omni gládio ancípiti."
         },
         "Laudes": {
-          "hymn_1": 2210.0,
+          "hymn_1": 2220.0,
           "hymn_kl": 2110.0,
           "psalm1": 118.0,
           "psalm2": 170.0,
