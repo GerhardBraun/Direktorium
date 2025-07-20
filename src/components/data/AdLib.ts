@@ -3691,12 +3691,14 @@ export const adlibData = {
         "ErsteV": {
           "comm_1": "Mann_Paar",
           "comm_2": "Frau_Paar",
-          "oration": "Gott, du hast dem heiligen Louis und der heiligen Marie Zelie die Gnade gegeben, als christliche Eheleute und Eltern den Weg der Heiligkeit zu gehen; gewähre uns auf ihre Fürsprache und durch ihr Vorbild, dich zu lieben und dir treu zu dienen und dadurch der eigenen Berufung würdig zu entsprechen.^ORV"
+          "oration": "Gott, du hast dem heiligen Louis und der heiligen Marie Zelie die Gnade gegeben, als christliche Eheleute und Eltern den Weg der Heiligkeit zu gehen; gewähre uns auf ihre Fürsprache und durch ihr Vorbild, dich zu lieben und dir treu zu dienen und dadurch der eigenen Berufung würdig zu entsprechen.^ORV",
+          "oration_lat": "^RK:Effúnde super nos, Dómine, spíritum agnitiónis et dilectiónis tuæ, quo fámulos tuos Ludovícum et Cæcíliam implevísti, ut, sédula eórum imitatióne tibi sincére obsequéntes, fide et ópere placeámus.^ORlV"
         },
         "Lesehore": {
           "comm_1": "Mann_Paar",
           "comm_2": "Frau_Paar",
-          "oration": "Gott, du hast dem heiligen Louis und der heiligen Marie Zelie die Gnade gegeben, als christliche Eheleute und Eltern den Weg der Heiligkeit zu gehen; gewähre uns auf ihre Fürsprache und durch ihr Vorbild, dich zu lieben und dir treu zu dienen und dadurch der eigenen Berufung würdig zu entsprechen.^ORV"
+          "oration": "Gott, du hast dem heiligen Louis und der heiligen Marie Zelie die Gnade gegeben, als christliche Eheleute und Eltern den Weg der Heiligkeit zu gehen; gewähre uns auf ihre Fürsprache und durch ihr Vorbild, dich zu lieben und dir treu zu dienen und dadurch der eigenen Berufung würdig zu entsprechen.^ORV",
+          "oration_lat": "^RK:Effúnde super nos, Dómine, spíritum agnitiónis et dilectiónis tuæ, quo fámulos tuos Ludovícum et Cæcíliam implevísti, ut, sédula eórum imitatióne tibi sincére obsequéntes, fide et ópere placeámus.^ORlV"
         },
         "Laudes": {
           "button": "Hll. Louis und Marie Zelie Martin",
@@ -3704,12 +3706,14 @@ export const adlibData = {
           "genitiv": "der Heiligen Louis und Marie Zelie Martin",
           "comm_1": "Mann_Paar",
           "comm_2": "Frau_Paar",
-          "oration": "Gott, du hast dem heiligen Louis und der heiligen Marie Zelie die Gnade gegeben, als christliche Eheleute und Eltern den Weg der Heiligkeit zu gehen; gewähre uns auf ihre Fürsprache und durch ihr Vorbild, dich zu lieben und dir treu zu dienen und dadurch der eigenen Berufung würdig zu entsprechen.^ORV"
+          "oration": "Gott, du hast dem heiligen Louis und der heiligen Marie Zelie die Gnade gegeben, als christliche Eheleute und Eltern den Weg der Heiligkeit zu gehen; gewähre uns auf ihre Fürsprache und durch ihr Vorbild, dich zu lieben und dir treu zu dienen und dadurch der eigenen Berufung würdig zu entsprechen.^ORV",
+          "oration_lat": "^RK:Effúnde super nos, Dómine, spíritum agnitiónis et dilectiónis tuæ, quo fámulos tuos Ludovícum et Cæcíliam implevísti, ut, sédula eórum imitatióne tibi sincére obsequéntes, fide et ópere placeámus.^ORlV"
         },
         "Vesper": {
           "comm_1": "Mann_Paar",
           "comm_2": "Frau_Paar",
-          "oration": "Gott, du hast dem heiligen Louis und der heiligen Marie Zelie die Gnade gegeben, als christliche Eheleute und Eltern den Weg der Heiligkeit zu gehen; gewähre uns auf ihre Fürsprache und durch ihr Vorbild, dich zu lieben und dir treu zu dienen und dadurch der eigenen Berufung würdig zu entsprechen.^ORV"
+          "oration": "Gott, du hast dem heiligen Louis und der heiligen Marie Zelie die Gnade gegeben, als christliche Eheleute und Eltern den Weg der Heiligkeit zu gehen; gewähre uns auf ihre Fürsprache und durch ihr Vorbild, dich zu lieben und dir treu zu dienen und dadurch der eigenen Berufung würdig zu entsprechen.^ORV",
+          "oration_lat": "^RK:Effúnde super nos, Dómine, spíritum agnitiónis et dilectiónis tuæ, quo fámulos tuos Ludovícum et Cæcíliam implevísti, ut, sédula eórum imitatióne tibi sincére obsequéntes, fide et ópere placeámus.^ORlV"
         }
       }
     },
@@ -3864,7 +3868,8 @@ export const adlibData = {
         "ErsteV": {
           "comm_1": "MärtSg_Jgfr",
           "comm_2": "Jgfr_Märt",
-          "oration": "Herr, unser Gott, du offenbarst uns in der Bedrängnis die Macht deines Erbarmens. Von dir empfing die heilige Margareta die Gnade, das Martyrium zu bestehen. Stärke auch uns mit deiner Kraft und lass uns in aller Not auf deine Hilfe vertrauen.^ORV"
+          "oration": "Herr, unser Gott, du offenbarst uns in der Bedrängnis die Macht deines Erbarmens. Von dir empfing die heilige Margareta die Gnade, das Martyrium zu bestehen. Stärke auch uns mit deiner Kraft und lass uns in aller Not auf deine Hilfe vertrauen.^ORV",
+          "oration_lat": "^RK:Deus, qui nos hódie beátæ Margaretæ ánnua commemoratióne lætíficas, concéde propítius, ut eius adiuvémur méritis, cuius castitátis et fortitúdinis irradiámur exémplis.^ORlV"
         },
         "Lesehore": {
           "comm_1": "MärtSg_Jgfr",
@@ -3875,7 +3880,8 @@ export const adlibData = {
           "patr_resp1": "Ich habe den guten Kampf gekämpft, den Lauf vollendet, die Treue gehalten.",
           "patr_resp2": "Schon jetzt liegt für mich der Kranz der Gerechtigkeit bereit.",
           "patr_resp3": "Ich sehe alles als Verlust an, weil die Erkenntnis Christi Jesu, meines Herrn, alles übertrifft. Christus will ich erkennen und die Gemeinschaft mit seinen Leiden; sein Tod soll mich prägen.",
-          "oration": "Herr, unser Gott, du offenbarst uns in der Bedrängnis die Macht deines Erbarmens. Von dir empfing die heilige Margareta die Gnade, das Martyrium zu bestehen. Stärke auch uns mit deiner Kraft und lass uns in aller Not auf deine Hilfe vertrauen.^ORV"
+          "oration": "Herr, unser Gott, du offenbarst uns in der Bedrängnis die Macht deines Erbarmens. Von dir empfing die heilige Margareta die Gnade, das Martyrium zu bestehen. Stärke auch uns mit deiner Kraft und lass uns in aller Not auf deine Hilfe vertrauen.^ORV",
+          "oration_lat": "^RK:Deus, qui nos hódie beátæ Margaretæ ánnua commemoratióne lætíficas, concéde propítius, ut eius adiuvémur méritis, cuius castitátis et fortitúdinis irradiámur exémplis.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Margareta",
@@ -3884,12 +3890,14 @@ export const adlibData = {
           "genitiv": "der heiligen Margareta",
           "comm_1": "MärtSg_Jgfr",
           "comm_2": "Jgfr_Märt",
-          "oration": "Herr, unser Gott, du offenbarst uns in der Bedrängnis die Macht deines Erbarmens. Von dir empfing die heilige Margareta die Gnade, das Martyrium zu bestehen. Stärke auch uns mit deiner Kraft und lass uns in aller Not auf deine Hilfe vertrauen.^ORV"
+          "oration": "Herr, unser Gott, du offenbarst uns in der Bedrängnis die Macht deines Erbarmens. Von dir empfing die heilige Margareta die Gnade, das Martyrium zu bestehen. Stärke auch uns mit deiner Kraft und lass uns in aller Not auf deine Hilfe vertrauen.^ORV",
+          "oration_lat": "^RK:Deus, qui nos hódie beátæ Margaretæ ánnua commemoratióne lætíficas, concéde propítius, ut eius adiuvémur méritis, cuius castitátis et fortitúdinis irradiámur exémplis.^ORlV"
         },
         "Vesper": {
           "comm_1": "MärtSg_Jgfr",
           "comm_2": "Jgfr_Märt",
-          "oration": "Herr, unser Gott, du offenbarst uns in der Bedrängnis die Macht deines Erbarmens. Von dir empfing die heilige Margareta die Gnade, das Martyrium zu bestehen. Stärke auch uns mit deiner Kraft und lass uns in aller Not auf deine Hilfe vertrauen.^ORV"
+          "oration": "Herr, unser Gott, du offenbarst uns in der Bedrängnis die Macht deines Erbarmens. Von dir empfing die heilige Margareta die Gnade, das Martyrium zu bestehen. Stärke auch uns mit deiner Kraft und lass uns in aller Not auf deine Hilfe vertrauen.^ORV",
+          "oration_lat": "^RK:Deus, qui nos hódie beátæ Margaretæ ánnua commemoratióne lætíficas, concéde propítius, ut eius adiuvémur méritis, cuius castitátis et fortitúdinis irradiámur exémplis.^ORlV"
         }
       },
       "n2": {
@@ -3981,7 +3989,8 @@ export const adlibData = {
       "n1": {
         "ErsteV": {
           "comm_1": "MärtSg",
-          "oration": "Allmächtiger Gott, auf unserem Lebensweg bedrohen uns viele Gefahren. Höre auf die Fürsprache des heiligen Märtyrers Christophorus. Gib, dass wir Christus in uns tragen und mit unseren Weggefährten sicher zu dem Ziel gelangen, für das wir geschaffen sind.^ORvR"
+          "oration": "Allmächtiger Gott, auf unserem Lebensweg bedrohen uns viele Gefahren. Höre auf die Fürsprache des heiligen Märtyrers Christophorus. Gib, dass wir Christus in uns tragen und mit unseren Weggefährten sicher zu dem Ziel gelangen, für das wir geschaffen sind.^ORvR",
+          "oration_lat": "^RK:Omnípotens et miséricors Deus, qui mártyrem tuum Christóphorum passiónis suæ torménta superáre fecísti, concéde, ut, qui eius triúmphi diem celebrámus, insuperábiles tua protectióne ab hostis insídiis maneámus.^ORlV"
         },
         "Lesehore": {
           "comm_1": "MärtSg",
@@ -3991,17 +4000,20 @@ export const adlibData = {
           "patr_resp1": "Ich habe den guten Kampf gekämpft, den Lauf vollendet, die Treue gehalten.",
           "patr_resp2": "Schon jetzt liegt für mich der Kranz der Gerechtigkeit bereit.",
           "patr_resp3": "Christus will ich erkennen und die Gemeinschaft mit seinem Leiden; sein Tod soll mich prägen.",
-          "oration": "Allmächtiger Gott, auf unserem Lebensweg bedrohen uns viele Gefahren. Höre auf die Fürsprache des heiligen Märtyrers Christophorus. Gib, dass wir Christus in uns tragen und mit unseren Weggefährten sicher zu dem Ziel gelangen, für das wir geschaffen sind.^ORvR"
+          "oration": "Allmächtiger Gott, auf unserem Lebensweg bedrohen uns viele Gefahren. Höre auf die Fürsprache des heiligen Märtyrers Christophorus. Gib, dass wir Christus in uns tragen und mit unseren Weggefährten sicher zu dem Ziel gelangen, für das wir geschaffen sind.^ORvR",
+          "oration_lat": "^RK:Omnípotens et miséricors Deus, qui mártyrem tuum Christóphorum passiónis suæ torménta superáre fecísti, concéde, ut, qui eius triúmphi diem celebrámus, insuperábiles tua protectióne ab hostis insídiis maneámus.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Christophorus",
           "farbe": "r",
           "comm_1": "MärtSg",
-          "oration": "Allmächtiger Gott, auf unserem Lebensweg bedrohen uns viele Gefahren. Höre auf die Fürsprache des heiligen Märtyrers Christophorus. Gib, dass wir Christus in uns tragen und mit unseren Weggefährten sicher zu dem Ziel gelangen, für das wir geschaffen sind.^ORvR"
+          "oration": "Allmächtiger Gott, auf unserem Lebensweg bedrohen uns viele Gefahren. Höre auf die Fürsprache des heiligen Märtyrers Christophorus. Gib, dass wir Christus in uns tragen und mit unseren Weggefährten sicher zu dem Ziel gelangen, für das wir geschaffen sind.^ORvR",
+          "oration_lat": "^RK:Omnípotens et miséricors Deus, qui mártyrem tuum Christóphorum passiónis suæ torménta superáre fecísti, concéde, ut, qui eius triúmphi diem celebrámus, insuperábiles tua protectióne ab hostis insídiis maneámus.^ORlV"
         },
         "Vesper": {
           "comm_1": "MärtSg",
-          "oration": "Allmächtiger Gott, auf unserem Lebensweg bedrohen uns viele Gefahren. Höre auf die Fürsprache des heiligen Märtyrers Christophorus. Gib, dass wir Christus in uns tragen und mit unseren Weggefährten sicher zu dem Ziel gelangen, für das wir geschaffen sind.^ORvR"
+          "oration": "Allmächtiger Gott, auf unserem Lebensweg bedrohen uns viele Gefahren. Höre auf die Fürsprache des heiligen Märtyrers Christophorus. Gib, dass wir Christus in uns tragen und mit unseren Weggefährten sicher zu dem Ziel gelangen, für das wir geschaffen sind.^ORvR",
+          "oration_lat": "^RK:Omnípotens et miséricors Deus, qui mártyrem tuum Christóphorum passiónis suæ torménta superáre fecísti, concéde, ut, qui eius triúmphi diem celebrámus, insuperábiles tua protectióne ab hostis insídiis maneámus.^ORlV"
         }
       },
       "n2": {

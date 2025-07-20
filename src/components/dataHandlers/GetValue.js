@@ -192,6 +192,13 @@ export const getValue = ({ season, hour, texts, field,
 
     const languageResult = getFieldValue(`${field}${localPrefLanguage}`);
     if (languageResult === 'STOP') { return null }
+    if (typeof languageResult === 'string' && languageResult.startsWith('^RK:')) {
+        return "^RUBRLateinische Commune-Oration:^0RUBR^l"
+            + languageResult.replace('^RK:', '')
+            + "^p^RUBROder: Eigene°Oration°auf°Deutsch:^0RUBR^l"
+            + getFieldValue(field)
+            + localPrefLanguage;
+    }
     else if (languageResult) {
         return `${languageResult}${localPrefLanguage}`;
     }
