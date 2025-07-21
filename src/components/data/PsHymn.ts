@@ -3542,7 +3542,7 @@ export const psalmsData = {
         "stb3": "144",
         "title": "Komm, Heil’ger Geist vom ew’gen Thron",
         "quote": "Terz",
-        "text": "Komm, Heil’ger Geist vom ew’gen Thron,^leins mit dem Vater und dem Sohn;^ldurchwirke unsere Seele ganz^lmit deiner Gottheit Kraft und Glanz.^pErfüll mit heil’ger Leidenschaft^lGeist, Zunge, Sinn und Lebenskraft;^lmach stark in uns der Liebe Macht,^ldass sie uns das Herz entfacht.^pLass gläubig uns den Vater sehn,^lsein Ebenbild, den Sohn, verstehn^lund dir vertrauen, der uns durchdringt^lund uns das Leben Gottes bringt. Amen."
+        "text": "Komm, Heil’ger Geist vom ew’gen Thron,^leins mit dem Vater und dem Sohn;^ldurchwirke unsere Seele ganz^lmit deiner Gottheit Kraft und Glanz.^pErfüll mit heil’ger Leidenschaft^lGeist, Zunge, Sinn und Lebenskraft;^lmach stark in uns der Liebe Macht,^ldass sie der Brüder Herz entfacht.^pLass gläubig uns den Vater sehn,^lsein Ebenbild, den Sohn, verstehn^lund dir vertrauen, der uns durchdringt^lund uns das Leben Gottes bringt. Amen."
       }
   },
   2301: {
