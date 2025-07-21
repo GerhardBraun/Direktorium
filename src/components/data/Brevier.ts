@@ -6299,7 +6299,7 @@ export const brevierData = {
           "resp3": "Du vermählst dich Gott, dem König, der dich beschenkt und geschmückt hat, der dich erlöst und geheiligt hat.",
           "patr_autor": "Gregor der Große († 604)",
           "patr_werk": "Aus einer Homilie zu den Evangelien.",
-          "patr_text": "^hMaria Magdalena meinte, man habe Christus weggebracht, und sie suchte ihn^pAls Maria Magdalena zum Grabe kam und dort den Leib Christi nicht fand, meinte sie, man habe ihn weggebracht, und sie meldete es den Jüngern. Diese kamen, sahen und glaubten, dass es sich so verhielt, wie die Frau gesagt hatte. Anschließend sagt die Heilige Schrift von ihnen: „Die Jünger kehrten wieder nach Hause zurück.\" {1#Joh 20,10} Dann heißt es: „Maria aber stand draußen vor dem Grab und weinte.\" {2#Joh 20,11}^pHierbei ist zu beachten, welche Kraft der Liebe das Herz dieser Frau entzündet hatte, da sie das Grab des Herrn nicht verließ, als selbst die Jünger weggingen. Sie suchte den, den sie nicht gefunden hatte, und weinte beim Suchen. Vom Feuer der Liebe entzündet, glühte sie in Sehnsucht nach ihm, weil sie meinte, man habe ihn weggebracht. So kam es, dass sie allein ihn dort sah, weil sie geblieben war, um ihn zu suchen. Beharrlichkeit ist die Kraft guter Tat, und die Stimme der Wahrheit spricht: „Wer bis zum Ende standhaft bleibt, der wird gerettet.\" {3#Mt 10,22}^pSie begann zu suchen und konnte nicht finden. Sie suchte beharrlich weiter, und sie fand. Durch den Aufschub wuchs die Sehnsucht, und im Wachsen ergriff sie, was sie gefunden hatte: Heilige Sehnsucht wächst durch den Aufschub. Nimmt sie durch den Aufschub ab, so war es keine Sehnsucht. Von dieser Liebe glühte ein jeder, der zur Wahrheit gelangt ist. Darum sagt David: „Meine Seele dürstet nach dem lebendigen Gott. Wann darf ich kommen und Gottes Antlitz schauen?\" {4#Ps 42,3} Darum spricht auch die Kirche im Hohenlied: „Ich bin krank vor Liebe.\" {5#Hld 2,5} „Frau, warum weinst du? Wen suchst du?\" {6#Joh 20,15} Über ihren Schmerz wird Maria Magdalena gefragt, damit ihre Sehnsucht stärker werde. Wenn sie den Namen dessen nennt, den sie sucht, soll sie noch heißer in Liebe erglühen.^pJesus sagte zu ihr: „Maria!\" {7#Joh 20,16} Er hat sie zuerst nur als ‚Frau' angesprochen, und sie erkannte ihn nicht. Dann nennt er sie bei ihrem Namen, als sagte er deutlich: ‚Erkenne den, von dem du erkannt bist. Ich kenne dich nicht nur im allgemeinen, wie die anderen dich kennen; ich kenne dich in deiner Einmaligkeit!' Da Maria bei ihrem Namen gerufen wird, erkennt sie ihren Schöpfer und nennt ihn sofort: ‚Rabbuni', das heißt: Meister; denn er war es, den sie draußen suchte und der sie in ihrem Innern das Suchen lehrte.",
+          "patr_text": "^hMaria Magdalena meinte, man habe Christus weggebracht, und sie suchte ihn^pAls Maria Magdalena zum Grabe kam und dort den Leib Christi nicht fand, meinte sie, man habe ihn weggebracht, und sie meldete es den Jüngern. Diese kamen, sahen und glaubten, dass es sich so verhielt, wie die Frau gesagt hatte. Anschließend sagt die Heilige Schrift von ihnen: „Die Jünger kehrten wieder nach Hause zurück.\" {1#Joh 20,10} Dann heißt es: „Maria aber stand draußen vor dem Grab und weinte.\" {2#Joh 20,11}^pHierbei ist zu beachten, welche Kraft der Liebe das Herz dieser Frau entzündet hatte, da sie das Grab des Herrn nicht verließ, als selbst die Jünger weggingen. Sie suchte den, den sie nicht gefunden hatte, und weinte beim Suchen. Vom Feuer der Liebe entzündet, glühte sie in Sehnsucht nach ihm, weil sie meinte, man habe ihn weggebracht. So kam es, dass sie allein ihn dort sah, weil sie geblieben war, um ihn zu suchen. Beharrlichkeit ist die Kraft guter Tat, und die Stimme der Wahrheit spricht: „Wer bis zum Ende standhaft bleibt, der wird gerettet.\" {3#Mt 10,22}^pSie begann zu suchen und konnte nicht finden. Sie suchte beharrlich weiter, und sie fand. Durch den Aufschub wuchs die Sehnsucht, und im Wachsen ergriff sie, was sie gefunden hatte: Heilige Sehnsucht wächst durch den Aufschub; nimmt sie durch den Aufschub ab, so war es keine Sehnsucht. Von dieser Liebe glühte ein jeder, der zur Wahrheit gelangt ist. Darum sagt David: „Meine Seele dürstet nach dem lebendigen Gott. Wann darf ich kommen und Gottes Antlitz schauen?\" {4#Ps 42,3} Darum spricht auch die Kirche im Hohenlied: „Ich bin krank vor Liebe.\" {5#Hld 2,5}^p„Frau, warum weinst du? Wen suchst du?\" {6#Joh 20,15} Über ihren Schmerz wird Maria Magdalena gefragt, damit ihre Sehnsucht stärker werde. Wenn sie den Namen dessen nennt, den sie sucht, soll sie noch heißer in Liebe erglühen.^pJesus sagte zu ihr: „Maria!\" {7#Joh 20,16} Er hat sie zuerst nur als ‚Frau' angesprochen, und sie erkannte ihn nicht. Dann nennt er sie bei ihrem Namen, als sagte er deutlich: ‚Erkenne den, von dem du erkannt bist. Ich kenne dich nicht nur im allgemeinen, wie die anderen dich kennen; ich kenne dich in deiner Einmaligkeit!' Da Maria bei ihrem Namen gerufen wird, erkennt sie ihren Schöpfer und nennt ihn sofort: ‚Rabbuni', das heißt: Meister; denn er war es, den sie draußen suchte und der sie in ihrem Innern das Suchen lehrte.",
           "patr_resp1": "Jesus sagte zu Maria: Halte mich nicht fest! Geh zu meinen Brüdern und sage ihnen:",
           "patr_resp2": "Ich gehe zu meinem Vater und zu eurem Vater, zu meinem Gott und zu eurem Gott.",
           "patr_resp3": "Maria ging hin und verkündete den Jüngern, was der Herr ihr gesagt hatte:",
@@ -6362,13 +6362,13 @@ export const brevierData = {
           "versikel1": "Herr, mein Fels und mein Erlöser.",
           "les_buch": "Aus dem Brief an die Epheser.",
           "les_stelle": "4,1-24",
-          "les_text": "^hGnadengaben zum Aufbau der Kirche^pIch, der ich um des Herrn willen im Gefängnis bin, ermahne euch, ein Leben zu führen, das des Rufes würdig ist, der an euch erging. Seid demütig, friedfertig und geduldig, ertragt einander in Liebe und bemüht euch, die Einheit des Geistes zu wahren durch den Frieden, der euch zusammenhält. EIN Leib und EIN Geist, wie euch durch eure Berufung auch EIN gemeinsame Hoffnung gegeben ist; EIN Herr, EIN Glaube, EIN Taufe, EIN Gott und Vater aller, der über allem und durch alles und in allem ist.^hDie Gnadengaben zum Aufbau der Kirche^pAber jeder von uns empfing die Gnade in dem Maß, wie Christus sie ihm geschenkt hat. Deshalb heißt es: Er stieg hinauf zur Höhe und erbeutete Gefangene, er gab den Menschen Geschenke. Wenn er aber hinaufstieg, was bedeutet dies anderes, als dass er auch zur Erde herabstieg? Derselbe, der herabstieg, ist auch hinaufgestiegen bis zum höchsten Himmel, um das All zu beherrschen.^pUnd er gab den einen das Apostelamt, andere setzte er als Propheten ein, andere als Evangelisten, andere als Hirten und Lehrer, um die Heiligen für die Erfüllung ihres Dienstes zu rüsten, für den Aufbau des Leibes Christi. So sollen wir alle zur Einheit im Glauben und in der Erkenntnis des Sohnes Gottes gelangen, damit wir zum vollkommenen Menschen werden und Christus in seiner vollendeten Gestalt darstellen.^pWir sollen nicht mehr unmündige Kinder sein, ein Spiel der Wellen, hin und her getrieben von jedem Widerstreit der Meinungen, dem Betrug der Menschen ausgeliefert, der Verschlagenheit, die in die Irre führt. Wir wollen uns, von der Liebe geleitet, an die Wahrheit halten und in allem wachsen, bis wir ihn erreicht haben. Er, Christus, ist das Haupt. Durch ihn wird der ganze Leib zusammengefügt und gefestigt in jedem einzelnen Gelenk. Jedes trägt mit der Kraft, die ihm zugemessen ist. So wächst der Leib und wird in Liebe aufgebaut.^pIch sage es euch und beschwöre euch im Herrn: Lebt nicht mehr wie die Heiden in ihrem nichtigen Denken! Ihr Sinn ist verfinstert. Sie sind dem Leben, das Gott schenkt, entfremdet durch die Unwissenheit, in der sie befangen sind, und durch die Verhärtung ihres Herzens. Haltlos wie sie sind, geben sie sich der Ausschweifung hin, um voll Gier jede Art von Gemeinheit zu begehen. Das aber entspricht nicht dem, was ihr von Christus gelernt habt. Ihr habt doch von ihm gehört und seid unterrichtet worden in der Wahrheit, die Jesus ist. Legt den alten Menschen ab, der in Verblendung und Begierde zugrunde geht, ändert euer früheres Leben und erneuert euren Geist und Sinn! Zieht den neuen Menschen an, der nach dem Bild Gottes geschaffen ist in wahrer Gerechtigkeit und Heiligkeit.",
+          "les_text": "^hGnadengaben zum Aufbau der Kirche^pIch, der ich um des Herrn willen im Gefängnis bin, ermahne euch, ein Leben zu führen, das des Rufes würdig ist, der an euch erging. Seid demütig, friedfertig und geduldig, ertragt einander in Liebe und bemüht euch, die Einheit des Geistes zu wahren durch den Frieden, der euch zusammenhält. EIN Leib und EIN Geist, wie euch durch eure Berufung auch EIN gemeinsame Hoffnung gegeben ist; EIN Herr, EIN Glaube, EIN Taufe, EIN Gott und Vater aller, der über allem und durch alles und in allem ist.^hDie Gnadengaben zum Aufbau der Kirche^pAber jeder von uns empfing die Gnade in dem Maß, wie Christus sie ihm geschenkt hat. Deshalb heißt es: Er stieg hinauf zur Höhe und erbeutete Gefangene, er gab den Menschen Geschenke. Wenn er aber hinaufstieg, was bedeutet dies anderes, als dass er auch zur Erde herabstieg? Derselbe, der herabstieg, ist auch hinaufgestiegen bis zum höchsten Himmel, um das All zu beherrschen.^pUnd er gab den einen das Apostelamt, andere setzte er als Propheten ein, andere als Evangelisten, andere als Hirten und Lehrer, um die Heiligen für die Erfüllung ihres Dienstes zu rüsten, für den Aufbau des Leibes Christi. So sollen wir alle zur Einheit im Glauben und in der Erkenntnis des Sohnes Gottes gelangen, damit wir zum vollkommenen Menschen werden und Christus in seiner vollendeten Gestalt darstellen.^pWir sollen nicht mehr unmündige Kinder sein, ein Spiel der Wellen, hin und her getrieben von jedem Widerstreit der Meinungen, dem Betrug der Menschen ausgeliefert, der Verschlagenheit, die in die Irre führt. Wir wollen uns, von der Liebe geleitet, an die Wahrheit halten und in allem wachsen, bis wir ihn erreicht haben. Er, Christus, ist das Haupt. Durch ihn wird der ganze Leib zusammengefügt und gefestigt in jedem einzelnen Gelenk. Jedes trägt mit der Kraft, die ihm zugemessen ist. So wächst der Leib und wird in Liebe aufgebaut.^pIch sage es euch und beschwöre euch im Herrn: Lebt nicht mehr wie die Heiden in ihrem nichtigen Denken! Ihr Sinn ist verfinstert. Sie sind dem Leben, das Gott schenkt, entfremdet durch die Unwissenheit, in der sie befangen sind, und durch die Verhärtung ihres Herzens. Haltlos wie sie sind, geben sie sich der Ausschweifung hin, um voll Gier jede Art von Gemeinheit zu begehen.^pDas aber entspricht nicht dem, was ihr von Christus gelernt habt. Ihr habt doch von ihm gehört und seid unterrichtet worden in der Wahrheit, die Jesus ist. Legt den alten Menschen ab, der in Verblendung und Begierde zugrunde geht, ändert euer früheres Leben und erneuert euren Geist und Sinn! Zieht den neuen Menschen an, der nach dem Bild Gottes geschaffen ist in wahrer Gerechtigkeit und Heiligkeit.",
           "resp1": "Legt euren Gürtel nicht ab und lasst eure Lampen brennen.",
           "resp2": "Seid wie Menschen, die auf die Rückkehr ihres Herrn warten, der auf einer Hochzeit ist.",
           "resp3": "Seid wachsam, denn ihr wisst nicht, an welchem Tag euer Herr kommt.",
           "patr_autor": "Birgitta († 1373) zugeschrieben",
           "patr_werk": "Aus einem der heiligen Birgitta zugeschriebenen Gebet.",
-          "patr_text": "^hDie Erhebung des Geistes zu Christus, dem Heiland^pSei gepriesen, mein Herr Jesus Christus! Du hast deinen Tod vorausgesagt und beim Letzten Mahl irdisches Brot in deinen kostbaren Leib verwandelt. Aus Liebe hast du ihn deinen Aposteln gegeben als Gedächtnis deines kostbaren Leidens. Du hast ihnen mit deinen heiligen und ehrwürdigen Händen die Füße gewaschen und ihnen demütig deine ganze Herablassung gezeigt.^pEhre sei dir, mein Herr Jesus Christus! In der Angst vor deinem Leiden und deinem Tod hat dein unschuldiger Leib Blut statt Wasser geschwitzt. Und doch hast du unsere Erlösung, die du dir vorgenommen hattest, vollbracht und so die Liebe offenbart, die du zum Menschengeschlecht hegtest.^pSei gepriesen, mein Herr Jesus Christus! Du wurdest zu Kajaphas geführt. Du, der Richter der Welt, hast es in Demut geschehen lassen, dass du dem Pilatus zur Verurteilung übergeben wurdest.^pEhre sei dir, mein Herr Jesus Christus! Wegen der Verspottung, die du ertrugst, als du dich ins Purpur kleidest und mit spitzem Dornenkranz und es geduldig ertrugst, dass die Bösen dir in das herrliche Antlitz spien, dir die Augen verhüllten, dich mit ihren mordgierigen Händen roh auf die Wangen und auf den Nacken schlugen.^pLob sei dir, mein Herr Jesus Christus! Du hast es geduldig geschehen lassen, dass sie dich an die Säule banden, dich grausam geißelten und dich blutüberströmt vor das Gericht des Pilatus schleppten, dich, das unschuldige Lamm.^pEhre sei dir, mein Herr Jesus Christus! Mit deinem ganzen herrlichen blutenden Leib wurdest du zum Tod am Kreuz verurteilt, trugst auf deinen heiligen Schultern unter Schmerzen das Kreuz. Von Wut erfüllt, führten sie dich an den Ort des Leidens, beraubten dich der Kleider und hefteten dich ans Kreuz. Du hast es so gewollt.^pEhre sei dir, mein Herr Jesus Christus! Als du in solcher Not warst, da blicktest du in Demut mit den gütigen Augen deiner Liebe auf deine erhabene Mutter. Sie zu trösten, vertrautest du sie der treuen Obhut deines Jüngers an.^pEwiges Lob sei dir, mein Herr Jesus Christus! Du warst im Todeskampf und gabst allen Sündern Hoffnung auf Vergebung, als du huldvoll dem Räuber, der sich zu dir bekannte, die Herrlichkeit des Paradieses versprachst.^pEwiges Lob sei dir, mein Herr Jesus Christus! Für jede Stunde, in der du am Kreuz die größte Bitterkeit und Not für uns Sünder ertragen hast.^pGepriesen seist du, mein Herr Jesus Christus! Mit deinem kostbaren Blut und durch deinen heiligen Tod hast du die Seelen losgekauft und sie huldvoll aus der Verbannung zum ewigen Leben zurückgeführt.^pEwige Ehre sei dir, mein Herr Jesus Christus! Du bist am dritten Tag von den Toten erstanden und hast dich lebend denen offenbart, denen du dich zeigen wolltest. Nach vierzig Tagen bist du vor den Augen vieler Jünger zum Himmel aufgestiegen und hast deine aus der Welt des Todes befreiten Freunde in hohen Ehren dorthin geführt. Jubel und ewiges Lob sei dir, mein Herr Jesus Christus! Du hast den Heiligen Geist in die Herzen der Jünger gesandt und in ihrem Geist eine unermessliche Gottesliebe entfacht.^pSei gepriesen, gelobt und verherrlicht in Ewigkeit, mein Herr Jesus Christus! Du sitzest in deinem himmlischen Reich auf dem Thron deiner Gottheit und lebst leibhaft mit all deinen heiligen Gliedern, die du aus dem Fleisch der Jungfrau genommen hast. Und so wirst du kommen am Tag des Gerichtes, die Seelen aller Lebenden und Toten zu richten, der du mit dem Vater und dem Heiligen Geist lebst und herrschst in Ewigkeit. Amen.",
+          "patr_text": "^hDie Erhebung des Geistes zu Christus, dem Heiland^pSei gepriesen, mein Herr Jesus Christus! Du hast deinen Tod vorausgesagt und beim Letzten Mahl irdisches Brot in deinen kostbaren Leib verwandelt. Aus Liebe hast du ihn deinen Aposteln gegeben als Gedächtnis deines kostbaren Leidens. Du hast ihnen mit deinen heiligen und ehrwürdigen Händen die Füße gewaschen und ihnen demütig deine ganze Herablassung gezeigt.^pEhre sei dir, mein Herr Jesus Christus! In der Angst vor deinem Leiden und deinem Tod hat dein unschuldiger Leib Blut statt Wasser geschwitzt. Und doch hast du unsere Erlösung, die du dir vorgenommen hattest, vollbracht und so die Liebe offenbart, die du zum Menschengeschlecht hegtest.^pSei gepriesen, mein Herr Jesus Christus! Du wurdest zu Kajaphas geführt. Du, der Richter der Welt, hast es in Demut geschehen lassen, dass du dem Pilatus zur Verurteilung übergeben wurdest.^pEhre sei dir, mein Herr Jesus Christus! Wegen der Verspottung, die du ertrugst, als du dastandest, in Purpur gekleidet und mit spitzen Dornen gekrönt, und es geduldig ertrugst, dass die Bösen dir in das herrliche Antlitz spien, dir die Augen verhüllten, dich mit ihren mordgierigen Händen roh auf die Wangen und auf den Nacken schlugen.^pLob sei dir, mein Herr Jesus Christus! Du hast es geduldig geschehen lassen, dass sie dich an die Säule banden, dich grausam geißelten und dich blutüberströmt vor das Gericht des Pilatus schleppten, dich, das unschuldige Lamm.^pEhre sei dir, mein Herr Jesus Christus! Mit deinem ganzen herrlichen blutenden Leib wurdest du zum Tod am Kreuz verurteilt, trugst auf deinen heiligen Schultern unter Schmerzen das Kreuz. Von Wut erfüllt, führten sie dich an den Ort des Leidens, beraubten dich der Kleider und hefteten dich ans Kreuz. Du hast es so gewollt.^pEhre sei dir, mein Herr Jesus Christus! Als du in solcher Not warst, da blicktest du in Demut mit den gütigen Augen deiner Liebe auf deine erhabene Mutter. Sie zu trösten, vertrautest du sie der treuen Obhut deines Jüngers an.^pEwiges Lob sei dir, mein Herr Jesus Christus! Du warst im Todeskampf und gabst allen Sündern Hoffnung auf Vergebung, als du huldvoll dem Räuber, der sich zu dir bekannte, die Herrlichkeit des Paradieses versprachst.^pEwiges Lob sei dir, mein Herr Jesus Christus! Für jede Stunde, in der du am Kreuz die größte Bitterkeit und Not für uns Sünder ertragen hast.^pGepriesen seist du, mein Herr Jesus Christus! Mit deinem kostbaren Blut und durch deinen heiligen Tod hast du die Seelen losgekauft und sie huldvoll aus der Verbannung zum ewigen Leben zurückgeführt.^pEwige Ehre sei dir, mein Herr Jesus Christus! Du bist am dritten Tag von den Toten erstanden und hast dich lebend denen offenbart, denen du dich zeigen wolltest. Nach vierzig Tagen bist du vor den Augen vieler Jünger zum Himmel aufgestiegen und hast deine aus der Welt des Todes befreiten Freunde in hohen Ehren dorthin geführt.^pJubel und ewiges Lob sei dir, mein Herr Jesus Christus! Du hast den Heiligen Geist in die Herzen der Jünger gesandt und in ihrem Geist eine unermessliche Gottesliebe entfacht.^pSei gepriesen, gelobt und verherrlicht in Ewigkeit, mein Herr Jesus Christus! Du sitzest in deinem himmlischen Reich auf dem Thron deiner Gottheit und lebst leibhaft mit all deinen heiligen Gliedern, die du aus dem Fleisch der Jungfrau genommen hast. Und so wirst du kommen am Tag des Gerichtes, die Seelen aller Lebenden und Toten zu richten, der du mit dem Vater und dem Heiligen Geist lebst und herrschst in Ewigkeit. Amen.",
           "patr_resp1": "Christus hat uns geliebt und durch sein Blut befreit von unseren Sünden.",
           "patr_resp2": "Er hat uns die Würde von Königen verliehen und uns zu Priestern gemacht für seinen Gott und Vater.",
           "patr_resp3": "Übt die Liebe, denn Christus hat uns geliebt und sich für uns dahingegeben."
@@ -10351,30 +10351,33 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Gütiger Gott, du hast uns durch deinen Sohn erlöst und als deine geliebten Kinder angenommen. Sieh voll Güte auf alle, die an Christus glauben, und schenke ihnen die wahre Freiheit und das ewige Erbe.^ORV",
-          "oration_lat": "Deus, per quem nobis et redémptio venit et præstátur adóptio, fílios dilectiónis tuæ benígnus inténde, ut in Christo credéntibus et vera tribuátur líbertas et heréditas ætérna.^ORlV"
+          "oration_lat": "Deus, per quem nobis et redémptio venit et præstátur adóptio, fílios dilectiónis tuæ benígnus inténde, ut in Christo credéntibus et vera tribuátur libértas et heréditas ætérna.^ORlV"
         },
         "ErsteV": {
           "anta": "Ich gebe dich dem Haus Israel als Wächter. Warne den Schuldigen vor seinem Weg, damit er sich bekehrt.",
           "antb": "Der Herr wird kommen und euch retten. Dann werden die Ohren des Tauben sich öffnen, und die Zunge des Stummen wird jubeln.",
           "antc": "Welcher Mensch kann Gottes Plan erkennen, oder wer begreift, was der Wille des Herrn ist?",
           "oration": "Gütiger Gott, du hast uns durch deinen Sohn erlöst und als deine geliebten Kinder angenommen. Sieh voll Güte auf alle, die an Christus glauben, und schenke ihnen die wahre Freiheit und das ewige Erbe.^ORV",
-          "oration_lat": "Deus, per quem nobis et redémptio venit et præstátur adóptio, fílios dilectiónis tuæ benígnus inténde, ut in Christo credéntibus et vera tribuátur líbertas et heréditas ætérna.^ORlV"
+          "antc_lat": "Si quis venit ad me et non odit adhuc et ánimam suam, non potest esse meus discípulus.",
+          "oration_lat": "Deus, per quem nobis et redémptio venit et præstátur adóptio, fílios dilectiónis tuæ benígnus inténde, ut in Christo credéntibus et vera tribuátur libértas et heréditas ætérna.^ORlV"
         },
         "Laudes": {
           "anta": "Was ihr auf Erden bindet, das wird auch im Himmel gebunden sein, und was ihr auf Erden löst, das wird auch im Himmel gelöst sein.",
           "antb": "Jesus sprach zu dem Kranken: Effata! Öffne dich! Da wurden seine Ohren aufgetan, und die Fessel seiner Zunge löste sich.",
-          "antc": "So spricht der Herr: Wenn jemand nicht auf alles, was er hat, verzichtet, kann er mein Jünger nicht sein."
+          "antc": "So spricht der Herr: Wenn jemand nicht auf alles, was er hat, verzichtet, kann er mein Jünger nicht sein.",
+          "antc_lat": "Qui non báiulat crucem suam et venit post me non potest esse meus discípulus."
         },
         "Vesper": {
           "anta": "Wo zwei oder drei in meinem Namen versammelt sind, da bin ich mitten unter ihnen.",
           "antb": "Er hat alles gut gemacht: Dem Tauben gibt er das Gehör und dem Stummen die Sprache.",
-          "antc": "Wer nicht sein Kreuz trägt und mir nachfolgt, der kann nicht mein Jünger sein."
+          "antc": "Wer nicht sein Kreuz trägt und mir nachfolgt, der kann nicht mein Jünger sein.",
+          "antc_lat": "Qui non renúntiat ómnibus quæ póssidet, non potest meus esse discípulus."
         }
       },
       "each": {
         "Lesehore": {
           "oration": "Gütiger Gott, du hast uns durch deinen Sohn erlöst und als deine geliebten Kinder angenommen. Sieh voll Güte auf alle, die an Christus glauben, und schenke ihnen die wahre Freiheit und das ewige Erbe.^ORV",
-          "oration_lat": "Deus, per quem nobis et redémptio venit et præstátur adóptio, fílios dilectiónis tuæ benígnus inténde, ut in Christo credéntibus et vera tribuátur líbertas et heréditas ætérna.^ORlV"
+          "oration_lat": "Deus, per quem nobis et redémptio venit et præstátur adóptio, fílios dilectiónis tuæ benígnus inténde, ut in Christo credéntibus et vera tribuátur libértas et heréditas ætérna.^ORlV"
         }
       }
     },
@@ -10382,30 +10385,33 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Gott, du Schöpfer und Lenker aller Dinge, sieh gnädig auf uns. Gib, dass wir dir mit ganzem Herzen dienen und die Macht deiner Liebe an uns erfahren.^ORV",
-          "oration_lat": "Réspice nos, rerum ómnium Deus creátor et rector, et, ut tuæ propitiátiónis sentiámus efféctum, toto nos tríbue tibi corde servíre.^ORlV"
+          "oration_lat": "Réspice nos, rerum ómnium Deus creátor et rector, et, ut tuæ propitiatiónis sentiámus efféctum, toto nos tríbue tibi corde servíre.^ORlV"
         },
         "ErsteV": {
           "anta": "Vergib deinem Nächsten das Unrecht, dann werden auch dir deine Sünden vergeben.",
           "antb": "Der Herr wird mir helfen; darum werde ich nicht in Schande enden.",
           "antc": "Warum, Herr, ist dein Zorn gegen dein Volk entbrannt? Du hast es doch mit starker Hand aus Ägypten herausgeführt.",
           "oration": "Gott, du Schöpfer und Lenker aller Dinge, sieh gnädig auf uns. Gib, dass wir dir mit ganzem Herzen dienen und die Macht deiner Liebe an uns erfahren.^ORV",
-          "oration_lat": "Réspice nos, rerum ómnium Deus creátor et rector, et, ut tuæ propitiátiónis sentiámus efféctum, toto nos tríbue tibi corde servíre.^ORlV"
+          "antc_lat": "Quis ex vobis homo, qui habet centum oves, et si perdíderit unam ex illis, nonne dimíttit nonagintanóvem in desérto, et vadit ad illam quæ períerat, donec invéniat eam?",
+          "oration_lat": "Réspice nos, rerum ómnium Deus creátor et rector, et, ut tuæ propitiatiónis sentiámus efféctum, toto nos tríbue tibi corde servíre.^ORlV"
         },
         "Laudes": {
           "anta": "Der Herr sprach zu Petrus: Nicht siebenmal sollst du vergeben, sondern siebenundsiebzigmal.",
           "antb": "Wer mein Jünger sein will, der verleugne sich selbst; er nehme sein Kreuz auf sich und folge mir nach.",
-          "antc": "Mein Sohn, du bist immer bei mir, und alles, was mein ist, ist dein. Heute aber müssen wir feiern und fröhlich sein; denn dein Bruder war tot – und er lebt, er war verloren – und wurde gefunden."
+          "antc": "Mein Sohn, du bist immer bei mir, und alles, was mein ist, ist dein. Heute aber müssen wir feiern und fröhlich sein; denn dein Bruder war tot – und er lebt, er war verloren – und wurde gefunden.",
+          "antc_lat": "Dico vobis: Gáudium est ángelis Dei super uno peccatóre pæniténtiam agénte."
         },
         "Vesper": {
           "anta": "Der Herr sagte zum Knecht: Deine ganze Schuld habe ich dir erlassen. Musst nicht auch du deines Mitknechtes dich erbarmen, so wie ich mich deiner erbarmte?",
           "antb": "Wer sein Leben retten will, wird es verlieren; wer aber sein Leben um meinetwillen verliert, der wird es retten.",
-          "antc": "Ich sage euch: Bei den Engeln Gottes herrscht große Freude über einen einzigen Sünder, der umkehrt."
+          "antc": "Ich sage euch: Bei den Engeln Gottes herrscht große Freude über einen einzigen Sünder, der umkehrt.",
+          "antc_lat": "Quæ múlier habens drachmas decem, et si perdíderit drachmam unam, nonne accéndit lucérnam, et quærit diligénter donec invéniat?"
         }
       },
       "each": {
         "Lesehore": {
           "oration": "Gott, du Schöpfer und Lenker aller Dinge, sieh gnädig auf uns. Gib, dass wir dir mit ganzem Herzen dienen und die Macht deiner Liebe an uns erfahren.^ORV",
-          "oration_lat": "Réspice nos, rerum ómnium Deus creátor et rector, et, ut tuæ propitiátiónis sentiámus efféctum, toto nos tríbue tibi corde servíre.^ORlV"
+          "oration_lat": "Réspice nos, rerum ómnium Deus creátor et rector, et, ut tuæ propitiatiónis sentiámus efféctum, toto nos tríbue tibi corde servíre.^ORlV"
         }
       }
     },
@@ -10413,30 +10419,33 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Heiliger Gott, du hast uns das Gebot der Liebe zu dir und zu unserem Nächsten aufgetragen als die Erfüllung des ganzen Gesetzes. Gib uns die Kraft, dieses Gebot treu zu befolgen, damit wir das ewige Leben erlangen.^ORV",
-          "oration_lat": "Deus, qui sacræ legis ómnia constitúta in tua et próximi dilectióne posuísti, da nobis, ut, tua præcepta serván-tes, ad vitam mereámur perveníre perpétuam.^ORlV"
+          "oration_lat": "Deus, qui sacræ legis ómnia constitúta in tua et próximi dilectióne posuísti, da nobis, ut, tua præcépta servántes, ad vitam mereámur perveníre perpétuam.^ORlV"
         },
         "ErsteV": {
           "anta": "Meine Gedanken sind nicht eure Gedanken, und eure Wege sind nicht meine Wege.",
           "antb": "Gott nimmt sich des Gerechten an und entreißt ihn der Hand seiner Feinde.",
           "antc": "Die ihr die Schwachen verfolgt und die Armen im Land unterdrückt: Keine eurer Taten wird der Herr jemals vergessen.",
           "oration": "Heiliger Gott, du hast uns das Gebot der Liebe zu dir und zu unserem Nächsten aufgetragen als die Erfüllung des ganzen Gesetzes. Gib uns die Kraft, dieses Gebot treu zu befolgen, damit wir das ewige Leben erlangen.^ORV",
-          "oration_lat": "Deus, qui sacræ legis ómnia constitúta in tua et próximi dilectióne posuísti, da nobis, ut, tua præcepta serván-tes, ad vitam mereámur perveníre perpétuam.^ORlV"
+          "antc_lat": "Fácite vobis amícos de mammóna iniquitátis, ut, cum defécerit, recípiant vos in ætérna tabernácula.",
+          "oration_lat": "Deus, qui sacræ legis ómnia constitúta in tua et próximi dilectióne posuísti, da nobis, ut, tua præcépta servántes, ad vitam mereámur perveníre perpétuam.^ORlV"
         },
         "Laudes": {
           "anta": "Der Herr des Weinbergs ging am frühen Morgen aus, um Arbeiter für seinen Weinberg zu werben.",
           "antb": "Wer mich aufnimmt, nimmt den auf, der mich gesandt hat.",
-          "antc": "Ihr könnt nicht Gott dienen und zugleich dem Mammon."
+          "antc": "Ihr könnt nicht Gott dienen und zugleich dem Mammon.",
+          "antc_lat": "Qui fidélis est in mínimo, et in maióri fidélis est, dicit Dóminus."
         },
         "Vesper": {
           "anta": "Geht auch ihr in meinen Weinberg! Ich werde euch geben, was recht ist.",
           "antb": "Will einer der Erste sein, so soll er der Letzte von allen sein und der Diener aller.",
-          "antc": "Macht euch Freunde mit dem ungerechten Mammon, damit man euch, wenn es zu Ende geht, in die ewigen Wohnungen aufnimmt."
+          "antc": "Macht euch Freunde mit dem ungerechten Mammon, damit man euch, wenn es zu Ende geht, in die ewigen Wohnungen aufnimmt.",
+          "antc_lat": "Nemo servus potest duóbus dóminis servíre. Non potéstis Deo servíre et mammónæ, dicit Dóminus."
         }
       },
       "each": {
         "Lesehore": {
           "oration": "Heiliger Gott, du hast uns das Gebot der Liebe zu dir und zu unserem Nächsten aufgetragen als die Erfüllung des ganzen Gesetzes. Gib uns die Kraft, dieses Gebot treu zu befolgen, damit wir das ewige Leben erlangen.^ORV",
-          "oration_lat": "Deus, qui sacræ legis ómnia constitúta in tua et próximi dilectióne posuísti, da nobis, ut, tua præcepta servántes, ad vitam mereámur perveníre perpétuam.^ORlV"
+          "oration_lat": "Deus, qui sacræ legis ómnia constitúta in tua et próximi dilectióne posuísti, da nobis, ut, tua præcépta servántes, ad vitam mereámur perveníre perpétuam.^ORlV"
         }
       }
     },
@@ -10444,30 +10453,33 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Großer Gott, du offenbarst deine Macht vor allem im Erbarmen und im Verschonen. Darum nimm uns in Gnaden auf, wenn uns auch Schuld belastet. Gib, dass wir unseren Lauf vollenden und zur Herrlichkeit des Himmels gelangen.^ORV",
-          "oration_lat": "Deus, qui omnipoténtiam tuam parcéndo máxime et miseréndo maniféstas, grátiam tuam super nos indesinénter infúnde, ut, ad tua promíssa curréntes, cæléstium bonórum fácias esse consórtes.^ORlV"
+          "oration_lat": "Deus, qui omnipoténtiam tuam parcéndo máxime et miserándo maniféstas, grátiam tuam super nos indesinénter infúnde, ut, ad tua promíssa curréntes, cæléstium bonórum fácias esse consórtes..^ORlV"
         },
         "ErsteV": {
           "anta": "Wenn sich der Schuldige vom Unrecht abwendet und nach Recht und Gerechtigkeit handelt, wird er sein Leben bewahren.",
           "antb": "Möchten doch alle im Volk des Herrn Propheten sein, möchte der Herr seinen Geist auf sie alle legen.",
           "antc": "Wehe denen, die sorglos leben auf dem Zion, die sich in Sicherheit wähnen auf dem Berg von Samaria.",
           "oration": "Großer Gott, du offenbarst deine Macht vor allem im Erbarmen und im Verschonen. Darum nimm uns in Gnaden auf, wenn uns auch Schuld belastet. Gib, dass wir unseren Lauf vollenden und zur Herrlichkeit des Himmels gelangen.^ORV",
-          "oration_lat": "Deus, qui omnipoténtiam tuam parcéndo máxime et miseréndo maniféstas, grátiam tuam super nos indesinénter infúnde, ut, ad tua promíssa curréntes, cæléstium bonórum fácias esse consórtes.^ORlV"
+          "antc_lat": "Factum est ut morerétur pauper et portarétur ab ángelis in sinum Abrahæ.",
+          "oration_lat": "Deus, qui omnipoténtiam tuam parcéndo máxime et miserándo maniféstas, grátiam tuam super nos indesinénter infúnde, ut, ad tua promíssa curréntes, cæléstium bonórum fácias esse consórtes..^ORlV"
         },
         "Laudes": {
           "anta": "Wer den Willen meines Vaters tut, kommt in das Himmelreich.",
           "antb": "Wer nicht gegen uns ist, der ist für uns, spricht Christus, der Herr.",
-          "antc": "Als Lazarus starb, wurde er von den Engeln in Abrahams Schoß getragen."
+          "antc": "Als Lazarus starb, wurde er von den Engeln in Abrahams Schoß getragen.",
+          "antc_lat": "Fili, recordáre quia recepísti bona tua in vita tua, et Lázarus simíliter mala; nunc autem tu vero cruciáris et ille consolátur."
         },
         "Vesper": {
           "anta": "Nicht jeder, der zu mir sagt: Herr! Herr!, wird in das Himmelreich kommen, sondern nur, wer den Willen meines Vaters erfüllt.",
           "antb": "Wer euch einen Becher Wasser zu trinken gibt um meinetwillen, wahrlich, sein Lohn ist ihm gewiss.",
-          "antc": "Mein Sohn, denke daran, dass du im Leben schon alles Gute bekommen hast, Lazarus aber nur Schlechtes. Jetzt wird er dafür getröstet."
+          "antc": "Mein Sohn, denke daran, dass du im Leben schon alles Gute bekommen hast, Lazarus aber nur Schlechtes. Jetzt wird er dafür getröstet.",
+          "antc_lat": "Beáti páuperes, quia vestrum est regnum Dei. Beáti, qui nunc esurítis, quia saturabímini. Beáti, qui nunc fletis, quia ridébitis."
         }
       },
       "each": {
         "Lesehore": {
           "oration": "Großer Gott, du offenbarst deine Macht vor allem im Erbarmen und im Verschonen. Darum nimm uns in Gnaden auf, wenn uns auch Schuld belastet. Gib, dass wir unseren Lauf vollenden und zur Herrlichkeit des Himmels gelangen.^ORV",
-          "oration_lat": "Deus, qui omnipoténtiam tuam parcéndo máxime et miseréndo maniféstas, grátiam tuam super nos indesinénter infúnde, ut, ad tua promíssa curréntes, cæléstium bonórum fácias esse consórtes.^ORlV"
+          "oration_lat": "Deus, qui omnipoténtiam tuam parcéndo máxime et miserándo maniféstas, grátiam tuam super nos indesinénter infúnde, ut, ad tua promíssa curréntes, cæléstium bonórum fácias esse consórtes..^ORlV"
         }
       }
     },
