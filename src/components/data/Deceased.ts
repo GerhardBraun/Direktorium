@@ -13,7 +13,7 @@ interface DeceasedData {
   };
 }
 
-export const deceasedData =  {
+export const deceasedData = {
   "1": {
     "1": [
       {
@@ -6265,7 +6265,7 @@ export const deceasedData =  {
       {
         "year": 1964,
         "birthdate": "2193-10-04",
-        "name": "Karl°Dietz, Rektor°i.R., Amöneburg",
+        "name": "Karl°Diez, Rektor°i.R., GR, Amöneburg",
         "birth": "4.°Oktober°1893°in°Nüst",
         "grave": "",
         "age": 70
