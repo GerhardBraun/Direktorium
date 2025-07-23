@@ -2443,7 +2443,7 @@ export const brevierData = {
         },
         "Invitatorium": {
           "ant0": "Wunderbar ist Gott in seinen Heiligen; kommt, wir beten ihn an!^ö^ODER^rAnt.°°^0rLasst uns Gott loben am Fest des heiligen ^GEN!^ö",
-          "ant0_lat": "Mirábilem Deum in sanctis suis, veníte, adorémus.^Lö^p^RUBRVel:^0RUBR^l^rAnt.°°^0rLaudémus Deum nostrum in celebritáte sancti ^GEN.^Lö"
+          "ant0_lat": "Mirábilem Deum in sanctis suis, veníte, adorémus.^Lö^VEL^rAnt.°°^0rLaudémus Deum nostrum in celebritáte sancti ^GEN.^Lö"
         },
         "Lesehore": {
           "hymn_1": 1199.0,
@@ -2671,7 +2671,7 @@ export const brevierData = {
           "bitten_lat": "Du bist wunderbar in deinen Heiligen;^qsende auch unserer Zeit heilige Männer.^pDu hast immer wieder heilige Männer berufen, dass sie deine Herrschaft in der Welt sichtbar machen;^qsteh allen bei, denen ein Dienst ^(Amt^) in der Welt aufgetragen ist.^pAuf die Fürsprache der heiligen ^GEN stärke alle, die an dich glauben;^qhilf ihnen, deinen Auftrag auszuführen, wo immer sie stehen.^pDie heiligen ^NOM haben in den Prüfungen des Lebens standgehalten;^qgib allen Christen Großmut und Tapferkeit.^pVergib den Sündern ihre Schuld^qund lass dein Antlitz leuchten über unseren Verstorbenen."
         },
         "Invitatorium": {
-          "ant0_lat": "Mirábilem Deum in sanctis suis, veníte, adorémus.^Lö^p^RUBRVel:^0RUBR^l^rAnt.°°^0rLaudémus Deum nostrum in celebritáte sanctórum ^GEN.^Lö"
+          "ant0_lat": "Mirábilem Deum in sanctis suis, veníte, adorémus.^Lö^VEL^rAnt.°°^0rLaudémus Deum nostrum in celebritáte sanctórum ^GEN.^Lö"
         },
         "Lesehore": {
           "hymn_1_lat": 5647.0
@@ -6362,7 +6362,7 @@ export const brevierData = {
           "versikel1": "Herr, mein Fels und mein Erlöser.",
           "les_buch": "Aus dem Brief an die Epheser.",
           "les_stelle": "4,1-24",
-          "les_text": "^hGnadengaben zum Aufbau der Kirche^pIch, der ich um des Herrn willen im Gefängnis bin, ermahne euch, ein Leben zu führen, das des Rufes würdig ist, der an euch erging. Seid demütig, friedfertig und geduldig, ertragt einander in Liebe und bemüht euch, die Einheit des Geistes zu wahren durch den Frieden, der euch zusammenhält. EIN Leib und EIN Geist, wie euch durch eure Berufung auch EIN gemeinsame Hoffnung gegeben ist; EIN Herr, EIN Glaube, EIN Taufe, EIN Gott und Vater aller, der über allem und durch alles und in allem ist.^hDie Gnadengaben zum Aufbau der Kirche^pAber jeder von uns empfing die Gnade in dem Maß, wie Christus sie ihm geschenkt hat. Deshalb heißt es: Er stieg hinauf zur Höhe und erbeutete Gefangene, er gab den Menschen Geschenke. Wenn er aber hinaufstieg, was bedeutet dies anderes, als dass er auch zur Erde herabstieg? Derselbe, der herabstieg, ist auch hinaufgestiegen bis zum höchsten Himmel, um das All zu beherrschen.^pUnd er gab den einen das Apostelamt, andere setzte er als Propheten ein, andere als Evangelisten, andere als Hirten und Lehrer, um die Heiligen für die Erfüllung ihres Dienstes zu rüsten, für den Aufbau des Leibes Christi. So sollen wir alle zur Einheit im Glauben und in der Erkenntnis des Sohnes Gottes gelangen, damit wir zum vollkommenen Menschen werden und Christus in seiner vollendeten Gestalt darstellen.^pWir sollen nicht mehr unmündige Kinder sein, ein Spiel der Wellen, hin und her getrieben von jedem Widerstreit der Meinungen, dem Betrug der Menschen ausgeliefert, der Verschlagenheit, die in die Irre führt. Wir wollen uns, von der Liebe geleitet, an die Wahrheit halten und in allem wachsen, bis wir ihn erreicht haben. Er, Christus, ist das Haupt. Durch ihn wird der ganze Leib zusammengefügt und gefestigt in jedem einzelnen Gelenk. Jedes trägt mit der Kraft, die ihm zugemessen ist. So wächst der Leib und wird in Liebe aufgebaut.^pIch sage es euch und beschwöre euch im Herrn: Lebt nicht mehr wie die Heiden in ihrem nichtigen Denken! Ihr Sinn ist verfinstert. Sie sind dem Leben, das Gott schenkt, entfremdet durch die Unwissenheit, in der sie befangen sind, und durch die Verhärtung ihres Herzens. Haltlos wie sie sind, geben sie sich der Ausschweifung hin, um voll Gier jede Art von Gemeinheit zu begehen.^pDas aber entspricht nicht dem, was ihr von Christus gelernt habt. Ihr habt doch von ihm gehört und seid unterrichtet worden in der Wahrheit, die Jesus ist. Legt den alten Menschen ab, der in Verblendung und Begierde zugrunde geht, ändert euer früheres Leben und erneuert euren Geist und Sinn! Zieht den neuen Menschen an, der nach dem Bild Gottes geschaffen ist in wahrer Gerechtigkeit und Heiligkeit.",
+          "les_text": "^hGnadengaben zum Aufbau der Kirche^pIch, der ich um des Herrn willen im Gefängnis bin, ermahne euch, ein Leben zu führen, das des Rufes würdig ist, der an euch erging. Seid demütig, friedfertig und geduldig, ertragt einander in Liebe und bemüht euch, die Einheit des Geistes zu wahren durch den Frieden, der euch zusammenhält. EIN Leib und EIN Geist, wie euch durch eure Berufung auch EINE gemeinsame Hoffnung gegeben ist; EIN Herr, EIN Glaube, EIN Taufe, EIN Gott und Vater aller, der über allem und durch alles und in allem ist.^hDie Gnadengaben zum Aufbau der Kirche^pAber jeder von uns empfing die Gnade in dem Maß, wie Christus sie ihm geschenkt hat. Deshalb heißt es: Er stieg hinauf zur Höhe und erbeutete Gefangene, er gab den Menschen Geschenke. Wenn er aber hinaufstieg, was bedeutet dies anderes, als dass er auch zur Erde herabstieg? Derselbe, der herabstieg, ist auch hinaufgestiegen bis zum höchsten Himmel, um das All zu beherrschen.^pUnd er gab den einen das Apostelamt, andere setzte er als Propheten ein, andere als Evangelisten, andere als Hirten und Lehrer, um die Heiligen für die Erfüllung ihres Dienstes zu rüsten, für den Aufbau des Leibes Christi. So sollen wir alle zur Einheit im Glauben und in der Erkenntnis des Sohnes Gottes gelangen, damit wir zum vollkommenen Menschen werden und Christus in seiner vollendeten Gestalt darstellen.^pWir sollen nicht mehr unmündige Kinder sein, ein Spiel der Wellen, hin und her getrieben von jedem Widerstreit der Meinungen, dem Betrug der Menschen ausgeliefert, der Verschlagenheit, die in die Irre führt. Wir wollen uns, von der Liebe geleitet, an die Wahrheit halten und in allem wachsen, bis wir ihn erreicht haben. Er, Christus, ist das Haupt. Durch ihn wird der ganze Leib zusammengefügt und gefestigt in jedem einzelnen Gelenk. Jedes trägt mit der Kraft, die ihm zugemessen ist. So wächst der Leib und wird in Liebe aufgebaut.^pIch sage es euch und beschwöre euch im Herrn: Lebt nicht mehr wie die Heiden in ihrem nichtigen Denken! Ihr Sinn ist verfinstert. Sie sind dem Leben, das Gott schenkt, entfremdet durch die Unwissenheit, in der sie befangen sind, und durch die Verhärtung ihres Herzens. Haltlos wie sie sind, geben sie sich der Ausschweifung hin, um voll Gier jede Art von Gemeinheit zu begehen.^pDas aber entspricht nicht dem, was ihr von Christus gelernt habt. Ihr habt doch von ihm gehört und seid unterrichtet worden in der Wahrheit, die Jesus ist. Legt den alten Menschen ab, der in Verblendung und Begierde zugrunde geht, ändert euer früheres Leben und erneuert euren Geist und Sinn! Zieht den neuen Menschen an, der nach dem Bild Gottes geschaffen ist in wahrer Gerechtigkeit und Heiligkeit.",
           "resp1": "Legt euren Gürtel nicht ab und lasst eure Lampen brennen.",
           "resp2": "Seid wie Menschen, die auf die Rückkehr ihres Herrn warten, der auf einer Hochzeit ist.",
           "resp3": "Seid wachsam, denn ihr wisst nicht, an welchem Tag euer Herr kommt.",
@@ -6383,7 +6383,7 @@ export const brevierData = {
         "each": {
           "comm_1": "Apostel",
           "oration": "Allmächtiger, ewiger Gott, als erster der Apostel hat der heilige Jakobus das Zeugnis für Christus mit seinem Blut besiegelt. Sein Bekennermut stärke uns, seine Fürbitte erwirke deiner Kirche Schutz und Sicherheit.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Omnípotens sempitérne Deus, qui Apostolórum tuórum primítias beáti Iacóbi sánguine dedicásti, da, quǽsumus, Ecclésiæ tuæ ipsíus confessióne firmári, et iúgiter patrocíniis confovéri.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Johannes Chrysostomus († 407)",
@@ -6391,10 +6391,7 @@ export const brevierData = {
           "patr_text": "^hDie Leidensgefährten Christi^pDie Söhne des Zebedäus bedrängten Jesus mit den folgenden Worten: „Lass in deinem Reich den einen von uns rechts und den anderen links neben dir sitzen!“ {1#Mk 10,37} Was antwortet Jesus? Er weist darauf hin, dass sie etwas Ungeistliches erbeten haben und dass sie es nicht gewagt hätten zu bitten, hätten sie gewusst, um was sie baten. Er sagt: „Ihr wisst nicht, um was ihr bittet“ {2#Mk 10,38}, wie groß und wunderbar das ist und wie sehr es selbst die Kraft der Mächte im Himmel übersteigt. Dann fährt er fort: „Könnt ihr den Kelch trinken, den ich trinke, und die Taufe auf euch nehmen, mit der ich getauft werde?“ {3#Mk 10,38} Er will damit sagen: Ihr sprecht von Ehren und Kränzen, ich aber rede von Kampf und Schweiß. Denn noch ist nicht die Zeit für den Siegerpreis, noch erscheint meine Herrlichkeit nicht. Die Gegenwart ist eine Zeit von Mord, Kampf und Gefahr.^pBeachte auch, wie er sie durch die Art seines Fragens behutsam in die von ihm gewollte Richtung lenkt! Er sagt nicht: „Könnt ihr den gewaltsamen Tod auf euch nehmen? Könnt ihr euer Blut vergießen?“, sondern er fragt: „Könnt ihr den Kelch trinken?“, und um sie an sich zu ziehen, fügt er hinzu: „den ich trinke“, damit sie durch die Gemeinschaft mit seiner Person bereitwilliger werden. Das Trinken des Bechers eine Taufe, um zu zeigen, dass der Erdkreis dadurch die große Läuterung erfahren soll. Sie antworten ihm: „Wir können es.“^pIn der Bereitwilligkeit ihres Herzens versprechen sie es sogleich, ohne zu wissen, was sie da sagten und erwarten die Gewährung ihrer Bitte. Und was sagt Jesus? „Ihr werdet den Kelch trinken, den ich trinke, und die Taufe empfangen, mit der ich getauft werde.“ {4#Mk 10,39} Eine große und schöne Verheißung gibt er ihnen, nämlich, ihr werdet des Martyriums gewürdigt und müsst ebenso leiden wie ich. Mit einem gewaltsamen Tod werdet ihr euer Leben beschließen, und darin werdet ihr meine Gefährten sein. „Doch den Platz zu meiner Rechten und zu meiner Linken habe ich nicht zu vergeben; dort werden die sitzen, die für diese Plätze bestimmt sind.“ {5#Mk 10,40}^pErst erhebt er ihren Geist auf eine höhere Ebene und wappnet sie gegen Traurigkeit, dann erst rückt er ihre Bitte zurecht.^p„Die zehn anderen Jünger wurden sehr ärgerlich über Jakobus und Johannes.“ {6#Mk 10,41} Sieh, wie unvollkommen sie alle waren, die einen, weil sie Vorrang vor den zehn haben wollten, die anderen, weil sie die beiden beneideten. Doch zeige mir, was dann aus ihnen geworden ist, und du wirst sehen, dass sie von all diesen Leidenschaften frei geworden sind. Höre, wie derselbe Johannes, der jetzt mit dieser Bitte an den Herrn herangetreten ist, überall dem Petrus den Vortritt lässt, sowohl in den Reden zum Volk als auch bei den Wundertaten in der Apostelgeschichte. Und was Jakobus anbelangt: er lebte nicht mehr lange. Von Anfang an erfüllte ihn eine solche Glut, dass er alles Menschliche hinter sich ließ, zu unsagbarer Höhe emporstieg und schon bald den Tod erlitt.",
           "patr_resp1": "Sie hielten ihr Leben nicht fest, sondern gaben es in den Tod;",
           "patr_resp2": "sie tranken den Kelch des Herrn und wurden Gottes Freunde.",
-          "patr_resp3": "Ihre Botschaft ging in die ganze Welt hinaus, ihre Kunde bis zu den Enden der Erde.",
-          "patr_resp1_lat": "",
-          "patr_resp2_lat": "",
-          "patr_resp3_lat": ""
+          "patr_resp3": "Ihre Botschaft ging in die ganze Welt hinaus, ihre Kunde bis zu den Enden der Erde."
         },
         "Laudes": {
           "button": "Hl. Jakobus",
@@ -6403,20 +6400,21 @@ export const brevierData = {
           "ant2": "Ohne zu zögern, verließen sie das Boot und ihren Vater und folgten Jesus.",
           "ant3": "Den Kelch, den ich trinke, werdet ihr trinken, und die Taufe, die ich empfangen muss, werdet auch ihr empfangen.",
           "antev": "Jesus nahm Petrus, Jakobus und Johannes mit sich und führte sie auf einen hohen Berg. Dort wurde er vor ihren Augen verklärt.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "antev_lat": ""
+          "hymn_1_lat": 8725.0,
+          "ant1_lat": "Procédens Iesus vidit Iacóbum Zebedǽi et Ioánnem fratrem eius, et vocávit eos.",
+          "ant2_lat": "Illi autem statim, relíctis rétibus et patre, secúti sunt eum.",
+          "ant3_lat": "Cálicem quem ego bibo, bibétis, et baptísmo quo ego baptízor, baptizabímini.",
+          "antev_lat": "Assúmpsit Iesus Petrum et Iacóbum et Ioánnem fratrem eius, et duxit eos in montem excélsum seórsum, et transfigurátus est ante eos."
         },
         "Vesper": {
           "ant1": "Jesus nahm Petrus, Jakobus und Johannes mit sich nach Getsémani. Da ergriff ihn Furcht und Angst.",
           "ant2": "Wachet und betet, damit ihr nicht in Versuchung geratet.",
           "ant3": "Der König Herodes ließ einige aus der Gemeinde verhaften und misshandeln. Jakobus, den Bruder des Johannes, ließ er hinrichten mit dem Schwert.",
           "antev": "Wer bei euch groß sein will, soll euer Diener sein; und wer bei euch der Erste sein will, der sei der Sklave aller.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "antev_lat": ""
+          "ant1_lat": "Assúmpsit Iesus Petrum et Iacóbum et Ioánnem secum, et cœpit pavére et tædére.",
+          "ant2_lat": "Tunc ait illis: Vigiláte et oráte, ut non intrétis in tentatiónem.",
+          "ant3_lat": "Misit Heródes rex manus, ut afflígeret quosdam de Ecclésia. Occídit autem Iacóbum fratrem Ioánnis gládio.",
+          "antev_lat": "Quicúmque volúerit fíeri maior, erit vester miníster; et quicúmque volúerit in vobis primus esse, erit ómnium servus."
         }
       },
       "26": {
@@ -6424,7 +6422,7 @@ export const brevierData = {
           "comm_1": "Mann_Paar",
           "comm_2": "Frau_Paar",
           "oration": "Herr, du Gott unserer Väter, du hast Joachim und Anna erwählt, der Mutter deines menschgewordenen Sohnes das Leben zu schenken. Auf die Fürbitte dieser heiligen Eltern gib uns das Heil, das du deinem Volk versprochen hast.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Dómine, Deus patrum nostrórum, qui beátis Ióachim et Annæ hanc grátiam contulísti, ut ex eis incarnáti Fílii tui Mater nascerétur, utriúsque précibus concéde, ut salútem tuo promíssam pópulo consequámur.^ORlV"
         },
         "Lesehore": {
           "versikel0": "Der Herr geleitet den Gerechten auf geraden Wegen.",
@@ -6441,15 +6439,7 @@ export const brevierData = {
           "patr_resp1": "Mit Fasten und Beten dienten sie dem Herrn bei Tag und bei Nacht.",
           "patr_resp2": "Sie warteten auf die Erlösung Israels.",
           "patr_resp3": "Sie beteten zu Gott, dass er sein Volk besuche.",
-          "versikel0_lat": "",
-          "versikel1_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "patr_resp1_lat": "",
-          "patr_resp2_lat": "",
-          "patr_resp3_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 8726.4
         },
         "Laudes": {
           "button": "Hl. Joachim und hl. Anna",
@@ -6463,12 +6453,13 @@ export const brevierData = {
           "resp2": "in seiner barmherzigen Liebe.",
           "resp3": "Aus dem Geschlecht Davids ließ er Jesus hervorgehen, den Retter.",
           "antev": "Gepriesen sei der Herr, der Gott Israels! Er hat uns einen starken Retter erweckt im Hause seines Knechtes David.",
-          "genitiv_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "in°seiner°barmherzigen°Liebe.",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "les_text_lat": ""
+          "genitiv_lat": "sanctórum Ioáchim et Annæ",
+          "hymn_1_lat": 8726.2,
+          "resp1_lat": "Per víscera misericórdiæ suæ",
+          "resp2_lat": "visitávit nos Dóminus.",
+          "resp3_lat": "Ex sémine David edúxit salvatórem Iesum.",
+          "antev_lat": "Benedíctus Dóminus Deus Israel, quia eréxit cornu salútis nobis in domo David púeri sui.",
+          "les_text_lat": "Inclináte aurem vestram et veníte ad me; audíte, ut vivat ánima vestra, et fériam vobíscum pactum sempitérnum, misericórdias David fidéles."
         },
         "Vesper": {
           "les_buch": "›Röm",
@@ -6479,11 +6470,12 @@ export const brevierData = {
           "resp2": "eingedenk seines Erbarmens.",
           "resp3": "So hat er es verheißen unseren Vätern für ewige Zeiten.",
           "antev": "Isaias edler Stamm bringt ein liebliches Reis hervor, aus ihm entsprießt eine Blüte von wunderbarem Duft.",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 8726.4,
+          "resp1_lat": "Suscépit Israel púerum suum,",
+          "resp2_lat": "recordátus misericórdiæ suæ.",
+          "resp3_lat": "Sicut locútus est ad patres nostros.",
+          "antev_lat": "Inclita stirps Iesse virgam prodúxit amœ́nam, de qua procéssit flos miro plenus odóre.",
+          "les_text_lat": "Sunt Israelítæ, quorum adóptio est filiórum et glória et testaménta et legislátio et cultus et promissiónes, quorum sunt patres, et ex quibus Christus secúndum carnem: qui est super ómnia Deus benedíctus in sǽcula. Amen."
         }
       }
     },

@@ -4019,22 +4019,26 @@ export const adlibData = {
       "n2": {
         "ErsteV": {
           "comm_1": "Mann_Ord",
-          "oration": "Gott, du hast den heiligen Priester Scharbel Mahluf zu einem einzigartigen Kampf in der Wüste berufen und ihn mit aller Gnade beschenkt. Gewähre uns, dass wir den Herrn in seinem Leiden nachahmen und so würdig werden, an seinem Reich Anteil zu erhalten.^ORvR"
+          "oration": "Gott, du hast den heiligen Priester Scharbel Mahluf zu einem einzigartigen Kampf in der Wüste berufen und ihn mit aller Gnade beschenkt. Gewähre uns, dass wir den Herrn in seinem Leiden nachahmen und so würdig werden, an seinem Reich Anteil zu erhalten.^ORvR",
+          "oration_lat": "Deus, qui sanctum Sarbélium, presbýterum, ad singulárem pugnam erémi vocásti et omni génere pietátis imbuísti, concéde nobis, quǽsumus, ut imitatóres domínicæ passiónis effécti regno eius mereámur esse consórtes.^ORlV"
         },
         "Lesehore": {
           "comm_1": "Mann_Ord",
-          "oration": "Gott, du hast den heiligen Priester Scharbel Mahluf zu einem einzigartigen Kampf in der Wüste berufen und ihn mit aller Gnade beschenkt. Gewähre uns, dass wir den Herrn in seinem Leiden nachahmen und so würdig werden, an seinem Reich Anteil zu erhalten.^ORvR"
+          "oration": "Gott, du hast den heiligen Priester Scharbel Mahluf zu einem einzigartigen Kampf in der Wüste berufen und ihn mit aller Gnade beschenkt. Gewähre uns, dass wir den Herrn in seinem Leiden nachahmen und so würdig werden, an seinem Reich Anteil zu erhalten.^ORvR",
+          "oration_lat": "Deus, qui sanctum Sarbélium, presbýterum, ad singulárem pugnam erémi vocásti et omni génere pietátis imbuísti, concéde nobis, quǽsumus, ut imitatóres domínicæ passiónis effécti regno eius mereámur esse consórtes.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Scharbel Mahluf",
           "nominativ": "Der heilige Scharbel Mahluf",
           "genitiv": "des heiligen Scharbel Mahluf",
           "comm_1": "Mann_Ord",
-          "oration": "Gott, du hast den heiligen Priester Scharbel Mahluf zu einem einzigartigen Kampf in der Wüste berufen und ihn mit aller Gnade beschenkt. Gewähre uns, dass wir den Herrn in seinem Leiden nachahmen und so würdig werden, an seinem Reich Anteil zu erhalten.^ORvR"
+          "oration": "Gott, du hast den heiligen Priester Scharbel Mahluf zu einem einzigartigen Kampf in der Wüste berufen und ihn mit aller Gnade beschenkt. Gewähre uns, dass wir den Herrn in seinem Leiden nachahmen und so würdig werden, an seinem Reich Anteil zu erhalten.^ORvR",
+          "oration_lat": "Deus, qui sanctum Sarbélium, presbýterum, ad singulárem pugnam erémi vocásti et omni génere pietátis imbuísti, concéde nobis, quǽsumus, ut imitatóres domínicæ passiónis effécti regno eius mereámur esse consórtes.^ORlV"
         },
         "Vesper": {
           "comm_1": "Mann_Ord",
-          "oration": "Gott, du hast den heiligen Priester Scharbel Mahluf zu einem einzigartigen Kampf in der Wüste berufen und ihn mit aller Gnade beschenkt. Gewähre uns, dass wir den Herrn in seinem Leiden nachahmen und so würdig werden, an seinem Reich Anteil zu erhalten.^ORvR"
+          "oration": "Gott, du hast den heiligen Priester Scharbel Mahluf zu einem einzigartigen Kampf in der Wüste berufen und ihn mit aller Gnade beschenkt. Gewähre uns, dass wir den Herrn in seinem Leiden nachahmen und so würdig werden, an seinem Reich Anteil zu erhalten.^ORvR",
+          "oration_lat": "Deus, qui sanctum Sarbélium, presbýterum, ad singulárem pugnam erémi vocásti et omni génere pietátis imbuísti, concéde nobis, quǽsumus, ut imitatóres domínicæ passiónis effécti regno eius mereámur esse consórtes.^ORlV"
         }
       }
     },

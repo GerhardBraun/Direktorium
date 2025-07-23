@@ -2285,7 +2285,7 @@ export const psalmsData = {
         "text_neu": "Ich freute mich, als man mir sagte:^*„Zum Haus des HERRN wollen wir gehen!“^pSchon stehen unsere Füße in deinen Toren, Jerusalem:^*Jerusalem, als Stadt erbaut, die fest in sich gefügt ist.^pDorthin zogen die Stämme hinauf, die Stämme des HERRN,^+wie es Gebot ist für Israel,^*den Namen des HERRN zu preisen.^pDenn dort stehen Throne für das Gericht,^*die Throne des Hauses David.^pErbittet Frieden für Jerusalem:^*„Geborgen seien, die dich lieben.^pFriede sei in deinen Mauern,^*Geborgenheit in deinen Häusern!“^pWegen meiner Brüder und meiner Freunde^*will ich sagen: „In dir sei Friede!“^pWegen des Hauses des HERRN, unseres Gottes,^*will ich dir Glück erflehen.",
         "title_lat": "Civitas sancta Ierusalem",
         "quote_lat": "Accessistis ad Sion montem et civitatem Dei viventis, Ierusalem cælestem. (Hebr°12,22)",
-        "text_lat": "Lætátus sum in eo, quod dixérunt mihi:^*„In domum Dómini íbimus.“^pStantes iam sunt pedes nostri^*in portis tuis, Ierúsalem.^pIerúsalem, quæ ædificáta est ut cívitas,^*sibi compácta in idípsum.^pIlluc enim ascendérunt tribus, tribus Dómini,^*testimónium Israel, ad confiténdum nómini Dómini.^pQuia illic sedérunt sedes ad iudícium,^*sedes domus David.^pRogáte, quæ ad pacem sunt Ierúsalem:^*„Secúri sint diligéntes te!^pFiat pax in muris tuis,^*et secúritas in túrribus tuis!“^pPropter fratres meos et próximos meos^*loquar: „Pax in te!.“^pPropter domum Dómini Dei nostri^*exquíram bona tibi."
+        "text_lat": "Lætátus sum in eo, quod dixérunt mihi:^*„In domum Dómini íbimus.“^pStantes iam sunt pedes nostri^*in portis tuis, Ierúsalem.^pIerúsalem, quæ ædificáta est ut cívitas,^*sibi compácta in idípsum.^pIlluc enim ascendérunt tribus, tribus Dómini,^*testimónium Israel, ad confiténdum nómini Dómini.^pQuia illic sedérunt sedes ad iudícium,^*sedes domus David.^pRogáte, quæ ad pacem sunt Ierúsalem:^*„Secúri sint diligéntes te!^pFiat pax in muris tuis,^*et secúritas in túrribus tuis!“^pPropter fratres meos et próximos meos^*loquar: „Pax in te!“^pPropter domum Dómini Dei nostri^*exquíram bona tibi."
       },
     101.0: {
         "title": "Wallfahrt nach Jerusalem",
@@ -2294,7 +2294,7 @@ export const psalmsData = {
         "text_neu": "^(Ich freute mich, als man mir sagte:^*„Zum Haus des HERRN wollen wir gehen!“^)^pSchon stehen unsere Füße in deinen Toren, Jerusalem:^*Jerusalem, als Stadt erbaut, die fest in sich gefügt ist.^pDorthin zogen die Stämme hinauf, die Stämme des HERRN,^+wie es Gebot ist für Israel,^*den Namen des HERRN zu preisen.^pDenn dort stehen Throne für das Gericht,^*die Throne des Hauses David.^pErbittet Frieden für Jerusalem:^*„Geborgen seien, die dich lieben.^pFriede sei in deinen Mauern,^*Geborgenheit in deinen Häusern!“^pWegen meiner Brüder und meiner Freunde^*will ich sagen: „In dir sei Friede!“^pWegen des Hauses des HERRN, unseres Gottes,^*will ich dir Glück erflehen.",
         "title_lat": "Civitas sancta Ierusalem",
         "quote_lat": "Accessistis ad Sion montem et civitatem Dei viventis, Ierusalem cælestem. (Hebr°12,22)",
-        "text_lat": "^(Lætátus sum in eo, quod dixérunt mihi:^*„In domum Dómini íbimus.“^)^pStantes iam sunt pedes nostri^*in portis tuis, Ierúsalem.^pIerúsalem, quæ ædificáta est ut cívitas,^*sibi compácta in idípsum.^pIlluc enim ascendérunt tribus, tribus Dómini,^*testimónium Israel, ad confiténdum nómini Dómini.^pQuia illic sedérunt sedes ad iudícium,^*sedes domus David.^pRogáte, quæ ad pacem sunt Ierúsalem:^*„Secúri sint diligéntes te!^pFiat pax in muris tuis,^*et secúritas in túrribus tuis!“^pPropter fratres meos et próximos meos^*loquar: „Pax in te!.“^pPropter domum Dómini Dei nostri^*exquíram bona tibi."
+        "text_lat": "^(Lætátus sum in eo, quod dixérunt mihi:^*„In domum Dómini íbimus.“^)^pStantes iam sunt pedes nostri^*in portis tuis, Ierúsalem.^pIerúsalem, quæ ædificáta est ut cívitas,^*sibi compácta in idípsum.^pIlluc enim ascendérunt tribus, tribus Dómini,^*testimónium Israel, ad confiténdum nómini Dómini.^pQuia illic sedérunt sedes ad iudícium,^*sedes domus David.^pRogáte, quæ ad pacem sunt Ierúsalem:^*„Secúri sint diligéntes te!^pFiat pax in muris tuis,^*et secúritas in túrribus tuis!“^pPropter fratres meos et próximos meos^*loquar: „Pax in te!“^pPropter domum Dómini Dei nostri^*exquíram bona tibi."
       }
   },
   123: {
@@ -5190,6 +5190,23 @@ export const psalmsData = {
         "quote": "Maria Magdalena Vp",
         "title_lat": "Mágdalæ sidus, múlier beáta",
         "text_lat": "Mágdalæ sidus,^/múlier beáta,^lte pio cultu^/venerámur omnes,^lquam sibi Christus^/sociávit arcti^lfœ́der>e amóris.^pCum tib>i illíus^/pátefit potéstas^ldǽmonum vires^/ábigens treménda,^ltu fide gaudes^/potióre necti^lgrata medénti.^pHæret hinc urgens^/tibi caritátis^lvis ut insístas^/pédibus Magístri,^lférvidis illum^/comitáta semper^lsédula curis.^pTuque complóras^/Dóminum, crucíque^límpetu flagrans^/pietátis astas;^lmembra tu terges^/studiós>a et ungis^ldanda sepúlcro.^pQuos amor Christi^/péperit, triúmphis^lnos fac adiúngi^/sócios per ævum,^latque Dilécto^/simul affluénter^lpángere laudes. Amen."
+      }
+  },
+  8725: {
+    0.0: {
+        "quote": "Jakobus Ld",
+        "title_lat": "Te nostra lætis láudibus, Iacóbe",
+        "text_lat": "Te nostra lætis láudibus,^lIacóbe, tollunt cántica,^lquem Christus arte ex rétium^lad tanta vexit cúlmina.^pIpso vocánte, cóncitus^lcum fratre linquis ómnia,^lipsíus et fis nóminis^lverbíque præco férvidus.^pTestis poténtis déxteræ^lpræclárus alta cónspicis,^lin monte celsam glóriam,^ltristes in hort>o angústias.^pQui promptus exstas, póscitur^lcum passiónis póculum,^ltu primus ex apóstolis^lpro Christ>i amóre plécteris.^pIesu fidélis ássecla^lsatórque lucis cǽlicæ,^lmentes fide claréscere,^lda spe fovéri péctora.^pChristi sequi da sédulos^lpræcépta nos in sǽculo,^lhymnos ut olim glóriæ^lfundámus illi pérpetim."
+      }
+  },
+  8726: {
+    2.0: {
+        "title_lat": "Nocti succédit lúcifer",
+        "text_lat": "Nocti succédit lúcifer,^lquem mox auróra séquitur,^lsolis ortum prænúntians^lmundum lustrántis lúmine.^pChristus sol est iustítiæ,^lauróra Mater grátiæ,^lquam, Anna, præis rútilans^llegis propéllens ténebras.^pAnna, radix ubérrima,^larbor tu salutífera,^lvirgam prodúcens flóridam^lquæ Christum nobis áttulit.^pO matris Christi génetrix^ltuque parens sanctíssime,^lnatæ favénte mérito,^lnobis rogáte véniam.^pIesu, tibi sit glória,^lqui natus es de Vírgine,^lcum Patr>e et almo Spíritu,^lin sempitérna sǽcula."
+      },
+    4.0: {
+        "title_lat": "Dum tuas festo, pater o colénde",
+        "text_lat": "Dum tuas festo,^/pater o colénde,^lcántico laudes^/habet hæc coróna,^lvocis ac mentis,^/Ióachim, benígne^láccipe munus.^pLonga te regum^/séries avórum^lAbrahæ prolem^/tulit atque David;^lclárior mundi^/dómina corúscas^lprole María.^pSic tuum germen^/benedícta ab Anna^léditum, patrum^/repetíta vota^limplet, et mæsto^/próperat reférre^lgáudia mundo.^pLaus tibi, Prolis^/Pater increátæ;^llaus tibi, summi^/Súboles Paréntis;^lsumma laus, compar,^/tibi sit per omne,^lSpíritus, ævum."
       }
   },
   8806: {
