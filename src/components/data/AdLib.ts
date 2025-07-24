@@ -4104,7 +4104,8 @@ export const adlibData = {
         "ErsteV": {
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
-          "oration": "Erhabener Gott, du hast den Bischof Petrus Chrysologus zu einem begnadeten Verkünder deines ewigen Wortes gemacht, das unsere Menschennatur angenommen hat. Gewähre uns auf seine Fürsprache, dass wir die Geheimnisse der Erlösung allezeit im Herzen erwägen und in unseren Werken davon Zeugnis geben.^ORV"
+          "oration": "Erhabener Gott, du hast den Bischof Petrus Chrysologus zu einem begnadeten Verkünder deines ewigen Wortes gemacht, das unsere Menschennatur angenommen hat. Gewähre uns auf seine Fürsprache, dass wir die Geheimnisse der Erlösung allezeit im Herzen erwägen und in unseren Werken davon Zeugnis geben.^ORV",
+          "oration_lat": "Deus, qui beátum Petrum Chrysólogum epíscopum Verbi tui incarnáti præcónem egrégium effecísti, eius nobis intercessióne concéde, ut tuæ salútis mystéria et iúgiter scrutémur in corde, et fidéliter significémus in ópere.^ORlV"
         },
         "Lesehore": {
           "comm_1": "Hirten",
@@ -4115,7 +4116,8 @@ export const adlibData = {
           "patr_resp1": "Kommt zum Herrn, zu dem lebendigen Stein;",
           "patr_resp2": "lasst euch als lebendige Steine aufbauen.",
           "patr_resp3": "Er ist der Stein, der zum Eckstein geworden ist.",
-          "oration": "Erhabener Gott, du hast den Bischof Petrus Chrysologus zu einem begnadeten Verkünder deines ewigen Wortes gemacht, das unsere Menschennatur angenommen hat. Gewähre uns auf seine Fürsprache, dass wir die Geheimnisse der Erlösung allezeit im Herzen erwägen und in unseren Werken davon Zeugnis geben.^ORV"
+          "oration": "Erhabener Gott, du hast den Bischof Petrus Chrysologus zu einem begnadeten Verkünder deines ewigen Wortes gemacht, das unsere Menschennatur angenommen hat. Gewähre uns auf seine Fürsprache, dass wir die Geheimnisse der Erlösung allezeit im Herzen erwägen und in unseren Werken davon Zeugnis geben.^ORV",
+          "oration_lat": "Deus, qui beátum Petrum Chrysólogum epíscopum Verbi tui incarnáti præcónem egrégium effecísti, eius nobis intercessióne concéde, ut tuæ salútis mystéria et iúgiter scrutémur in corde, et fidéliter significémus in ópere.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Petrus Chrysologus",
@@ -4124,12 +4126,14 @@ export const adlibData = {
           "vokativ_lat": "sancte Petre Chrysologe",
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
-          "oration": "Erhabener Gott, du hast den Bischof Petrus Chrysologus zu einem begnadeten Verkünder deines ewigen Wortes gemacht, das unsere Menschennatur angenommen hat. Gewähre uns auf seine Fürsprache, dass wir die Geheimnisse der Erlösung allezeit im Herzen erwägen und in unseren Werken davon Zeugnis geben.^ORV"
+          "oration": "Erhabener Gott, du hast den Bischof Petrus Chrysologus zu einem begnadeten Verkünder deines ewigen Wortes gemacht, das unsere Menschennatur angenommen hat. Gewähre uns auf seine Fürsprache, dass wir die Geheimnisse der Erlösung allezeit im Herzen erwägen und in unseren Werken davon Zeugnis geben.^ORV",
+          "oration_lat": "Deus, qui beátum Petrum Chrysólogum epíscopum Verbi tui incarnáti præcónem egrégium effecísti, eius nobis intercessióne concéde, ut tuæ salútis mystéria et iúgiter scrutémur in corde, et fidéliter significémus in ópere.^ORlV"
         },
         "Vesper": {
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
-          "oration": "Erhabener Gott, du hast den Bischof Petrus Chrysologus zu einem begnadeten Verkünder deines ewigen Wortes gemacht, das unsere Menschennatur angenommen hat. Gewähre uns auf seine Fürsprache, dass wir die Geheimnisse der Erlösung allezeit im Herzen erwägen und in unseren Werken davon Zeugnis geben.^ORV"
+          "oration": "Erhabener Gott, du hast den Bischof Petrus Chrysologus zu einem begnadeten Verkünder deines ewigen Wortes gemacht, das unsere Menschennatur angenommen hat. Gewähre uns auf seine Fürsprache, dass wir die Geheimnisse der Erlösung allezeit im Herzen erwägen und in unseren Werken davon Zeugnis geben.^ORV",
+          "oration_lat": "Deus, qui beátum Petrum Chrysólogum epíscopum Verbi tui incarnáti præcónem egrégium effecísti, eius nobis intercessióne concéde, ut tuæ salútis mystéria et iúgiter scrutémur in corde, et fidéliter significémus in ópere.^ORlV"
         }
       }
     },

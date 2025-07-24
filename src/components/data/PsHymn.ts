@@ -5201,12 +5201,33 @@ export const psalmsData = {
   },
   8726: {
     2.0: {
+        "quote": "Joachim und Anna Ld",
         "title_lat": "Nocti succédit lúcifer",
         "text_lat": "Nocti succédit lúcifer,^lquem mox auróra séquitur,^lsolis ortum prænúntians^lmundum lustrántis lúmine.^pChristus sol est iustítiæ,^lauróra Mater grátiæ,^lquam, Anna, præis rútilans^llegis propéllens ténebras.^pAnna, radix ubérrima,^larbor tu salutífera,^lvirgam prodúcens flóridam^lquæ Christum nobis áttulit.^pO matris Christi génetrix^ltuque parens sanctíssime,^lnatæ favénte mérito,^lnobis rogáte véniam.^pIesu, tibi sit glória,^lqui natus es de Vírgine,^lcum Patr>e et almo Spíritu,^lin sempitérna sǽcula."
       },
     4.0: {
+        "quote": "Joachim und Anna Vp",
         "title_lat": "Dum tuas festo, pater o colénde",
         "text_lat": "Dum tuas festo,^/pater o colénde,^lcántico laudes^/habet hæc coróna,^lvocis ac mentis,^/Ióachim, benígne^láccipe munus.^pLonga te regum^/séries avórum^lAbrahæ prolem^/tulit atque David;^lclárior mundi^/dómina corúscas^lprole María.^pSic tuum germen^/benedícta ab Anna^léditum, patrum^/repetíta vota^limplet, et mæsto^/próperat reférre^lgáudia mundo.^pLaus tibi, Prolis^/Pater increátæ;^llaus tibi, summi^/Súboles Paréntis;^lsumma laus, compar,^/tibi sit per omne,^lSpíritus, ævum."
+      }
+  },
+  8729: {
+    2.0: {
+        "quote": "Martha, Maria und Lazarus Ld",
+        "title_lat": "Quas tibi laudes ferimúsque vota",
+        "text_lat": "Quas tibi laudes^/ferimúsque vota,^lnos tuis possint^/méritis iuváre,^lMartha, quam mire^/sibi corde iungit^lChristo amíco.^pTe frequens visit^/Dóminus tuáque^lin domo degit^/plácida quiéte^lac tuis verbis^/studiísque lætans^lteque minístra.^pTu prior fratrem^/quéreris perísse,^lcumque María^/lacrimáta multum,^láspicis vitæ^/súbita Magístri^lvoce redíre.^pQuæ fide prompta^/stábilem fatéris^lspem resurgéndi,^/Dómino probánte,^límpetra nobis^/cúpid>e in perénne^lpérgere regnum.^pLaus Deo Patri,^/Genitóque virtus,^lFlámini Sancto^/párilis potéstas,^lglóriam quorum^/pétimus per ævum^lcérnere tecum."
+      },
+    4.0: {
+        "quote": "Martha, Maria und Lazarus Vp",
+        "title_lat": "Te gratulántes pángimus",
+        "text_lat": "Te gratulántes pángimus,^lMartha, cum tuis frátribus,^lquæ meruísti sǽpius^lChristum domi recípere.^pTantum libénter hóspitem^lcuris ornábas sédulis,^lin plúrima sollícita^lamóris dulci stímulo.^pPascis dum læta Dóminum,^lMaría atque Lázarus^lpossunt ab illo grátiæ^lvitǽque cibum súmere.^pCaptúro mortis trámitem^ldante sorór>e arómata,^lextrémi tu servítii^lvigil donásti múnera.^pIesu felíces hóspites,^lcorda nostra accéndite,^lut illi gratæ iúgiter^lsint sedes amicítiæ.^pSit Trinitáti glória,^lquæ nos in domum cǽlicam^ladmítti tandem tríbuat^ltecúmque laudes cánere."
+      }
+  },
+  8731: {
+    0.0: {
+        "quote": "Ignatius Ld und Vp",
+        "title_lat": "Magnæ cohórtis príncipem",
+        "text_lat": "Magnæ cohórtis príncipem^lIgnátium laus cóncinat,^lclarum loquélis, áctibus^lducem ciéntem mílites.^pRegi suprémo cǽlitum^lamóre vinctus único,^leius fovénda glória^lnil cénsuit iucúndius.^pHinc se suósque dévovet,^lurgéntis instar ágminis,^lut iura Christi víndicet,^lerróris umbras díssipet.^pSancto monénte Spíritu,^lcertam salútis sémitam^lscrutátor altus sǽculis^ldoctórque prudens dénotat.^pSuis alúmnis díssita^lmissis in orbis lítora,^lEcclésiam quot éxpetit^lfrondére lætam géntibus!^pSit Trinitáti glória,^lquæ nos det huius mílitis^lexémpla fortes pérsequi^lin Christ>i honórem pérpetim. Amen."
       }
   },
   8806: {

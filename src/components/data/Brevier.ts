@@ -6477,6 +6477,41 @@ export const brevierData = {
           "antev_lat": "Inclita stirps Iesse virgam prodúxit amœ́nam, de qua procéssit flos miro plenus odóre.",
           "les_text_lat": "Sunt Israelítæ, quorum adóptio est filiórum et glória et testaménta et legislátio et cultus et promissiónes, quorum sunt patres, et ex quibus Christus secúndum carnem: qui est super ómnia Deus benedíctus in sǽcula. Amen."
         }
+      },
+      "29": {
+        "each": {
+          "oration_lat": "Deus, cuius Fílius de sepúlcro ad vitam Lázarum revocávit, et in domo Marthæ dignátus est hospitári, da nobis, quǽsumus, ut ipsi in frátribus nostris fidéliter ministrántes, cum María verbi eius meditatióne pasci mereámur.^ORlS"
+        },
+        "Lesehore": {
+          "hymn_1_lat": 8729.4
+        },
+        "Laudes": {
+          "genitiv_lat": "sanctórum Marthæ, Maríæ et Lázari",
+          "hymn_1_lat": 8729.2,
+          "resp1_lat": "Exsúltent iusti",
+          "resp2_lat": "In conspéctu Dei.",
+          "resp3_lat": "Et delecténtur in lætítia.",
+          "antev_lat": "Elevántis sursum óculis, voce magna Iesus clamávit: Lázare, veni foras!"
+        },
+        "Vesper": {
+          "hymn_1_lat": 8729.4,
+          "antev_lat": "Diligébat Iesus Martham et sorórem eius Maríam et Lázarum fratrem eius."
+        }
+      },
+      "31": {
+        "each": {
+          "oration_lat": "Deus, qui, ad maiórem tui nóminis glóriam propagándam, beátum Ignátium in Ecclésia tua suscitásti, concéde, ut, eius auxílio et imitatióne certántes in terris, coronári cum ipso mereámur in cælis.^ORlV"
+        },
+        "Laudes": {
+          "genitiv_lat": "sancti Ignátii",
+          "vokativ_lat": "sancte Ignáti",
+          "hymn_1_lat": 8731.0,
+          "antev_lat": "Utinam possim cognóscere Christum et virtútem resurrectiónis eius et societátem passiónum illíus!"
+        },
+        "Vesper": {
+          "hymn_1_lat": 8731.0,
+          "antev_lat": "Quid prodest hómini si mundum univérsum lucrétur, ánimæ vero suæ detriméntum patiátur?"
+        }
       }
     },
     "8": {
