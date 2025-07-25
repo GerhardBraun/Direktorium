@@ -5196,7 +5196,7 @@ export const psalmsData = {
     0.0: {
         "quote": "Jakobus Ld",
         "title_lat": "Te nostra lætis láudibus, Iacóbe",
-        "text_lat": "Te nostra lætis láudibus,^lIacóbe, tollunt cántica,^lquem Christus arte ex rétium^lad tanta vexit cúlmina.^pIpso vocánte, cóncitus^lcum fratre linquis ómnia,^lipsíus et fis nóminis^lverbíque præco férvidus.^pTestis poténtis déxteræ^lpræclárus alta cónspicis,^lin monte celsam glóriam,^ltristes in hort>o angústias.^pQui promptus exstas, póscitur^lcum passiónis póculum,^ltu primus ex apóstolis^lpro Christ>i amóre plécteris.^pIesu fidélis ássecla^lsatórque lucis cǽlicæ,^lmentes fide claréscere,^lda spe fovéri péctora.^pChristi sequi da sédulos^lpræcépta nos in sǽculo,^lhymnos ut olim glóriæ^lfundámus illi pérpetim."
+        "text_lat": "Te nostra lætis láudibus,^lIacóbe, tollunt cántica,^lquem Christus art>e ex rétium^lad tanta vexit cúlmina.^pIpso vocánte, cóncitus^lcum fratre linquis ómnia,^lipsíus et fis nóminis^lverbíque præco férvidus.^pTestis poténtis déxteræ^lpræclárus alta cónspicis,^lin monte celsam glóriam,^ltristes in hort>o angústias.^pQui promptus exstas, póscitur^lcum passiónis póculum,^ltu primus ex apóstolis^lpro Christ>i amóre plécteris.^pIesu fidélis ássecla^lsatórque lucis cǽlicæ,^lmentes fide claréscere,^lda spe fovéri péctora.^pChristi sequi da sédulos^lpræcépta nos in sǽculo,^lhymnos ut olim glóriæ^lfundámus illi pérpetim."
       }
   },
   8726: {
