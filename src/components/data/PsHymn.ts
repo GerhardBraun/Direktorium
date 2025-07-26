@@ -4213,7 +4213,7 @@ export const psalmsData = {
         "stb3": "61",
         "title": "Ehre sei dir, Christe",
         "quote": "Lesehore am Christkönigssonntag",
-        "text": "Ehre sei dir, Christe,^lder du littest Not,^lan dem Stamm des Kreuzes^lfür uns bittern Tod,^lherrschest mit dem Vater^lin der Ewigkeit:^lHilf uns armen Sündern^lzu der Seligkeit.^lKyrie, eleison."
+        "text": "Ehre sei dir, Christe,^/der du littest Not,^lan dem Stamm des Kreuzes^/für uns bittern Tod,^lherrschest mit dem Vater^/in der Ewigkeit:^lHilf uns armen Sündern^/zu der Seligkeit.^lKyrie, eleison."
       }
   },
   3994: {
