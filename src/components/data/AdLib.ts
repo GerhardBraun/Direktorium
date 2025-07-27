@@ -4179,7 +4179,8 @@ export const adlibData = {
         "ErsteV": {
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
-          "oration": "Gott, du Hirt deines Volkes, du schenkst der Kirche zu allen Zeiten Menschen, die durch ihren Glauben und ihre Liebe ein Vorbild sind. Gib, dass uns gleich dem heiligen Alfons das Heil der Menschen am Herzen liegt, und schenke uns im Himmel den Lohn, den er schon empfangen hat.^ORV"
+          "oration": "Gott, du Hirt deines Volkes, du schenkst der Kirche zu allen Zeiten Menschen, die durch ihren Glauben und ihre Liebe ein Vorbild sind. Gib, dass uns gleich dem heiligen Alfons das Heil der Menschen am Herzen liegt, und schenke uns im Himmel den Lohn, den er schon empfangen hat.^ORV",
+          "oration_lat": "Deus, qui in Ecclésia tua nova semper instáuras exémpla virtútum, da nobis in zelo animárum beáti Alfónsi Maríæ epíscopi ita vestígiis adhærére, ut eius in cælis assequámur et prǽmia.^ORlV"
         },
         "Lesehore": {
           "comm_1": "Hirten",
@@ -4190,7 +4191,8 @@ export const adlibData = {
           "patr_resp1": "Was die Gottesfürchtigen begehren, erfüllt Gott. Er hört ihr Schreien und rettet sie.",
           "patr_resp2": "Der Herr behütet alle, die ihn lieben.",
           "patr_resp3": "Wer aus Gott geboren ist, tut keine Sünde, weil das Wort des Vaters in ihm bleibt.",
-          "oration": "Gott, du Hirt deines Volkes, du schenkst der Kirche zu allen Zeiten Menschen, die durch ihren Glauben und ihre Liebe ein Vorbild sind. Gib, dass uns gleich dem heiligen Alfons das Heil der Menschen am Herzen liegt, und schenke uns im Himmel den Lohn, den er schon empfangen hat.^ORV"
+          "oration": "Gott, du Hirt deines Volkes, du schenkst der Kirche zu allen Zeiten Menschen, die durch ihren Glauben und ihre Liebe ein Vorbild sind. Gib, dass uns gleich dem heiligen Alfons das Heil der Menschen am Herzen liegt, und schenke uns im Himmel den Lohn, den er schon empfangen hat.^ORV",
+          "oration_lat": "Deus, qui in Ecclésia tua nova semper instáuras exémpla virtútum, da nobis in zelo animárum beáti Alfónsi Maríæ epíscopi ita vestígiis adhærére, ut eius in cælis assequámur et prǽmia.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Alfons Maria von Liguori",
@@ -4199,12 +4201,14 @@ export const adlibData = {
           "vokativ_lat": "sancte Alfonse",
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
-          "oration": "Gott, du Hirt deines Volkes, du schenkst der Kirche zu allen Zeiten Menschen, die durch ihren Glauben und ihre Liebe ein Vorbild sind. Gib, dass uns gleich dem heiligen Alfons das Heil der Menschen am Herzen liegt, und schenke uns im Himmel den Lohn, den er schon empfangen hat.^ORV"
+          "oration": "Gott, du Hirt deines Volkes, du schenkst der Kirche zu allen Zeiten Menschen, die durch ihren Glauben und ihre Liebe ein Vorbild sind. Gib, dass uns gleich dem heiligen Alfons das Heil der Menschen am Herzen liegt, und schenke uns im Himmel den Lohn, den er schon empfangen hat.^ORV",
+          "oration_lat": "Deus, qui in Ecclésia tua nova semper instáuras exémpla virtútum, da nobis in zelo animárum beáti Alfónsi Maríæ epíscopi ita vestígiis adhærére, ut eius in cælis assequámur et prǽmia.^ORlV"
         },
         "Vesper": {
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
-          "oration": "Gott, du Hirt deines Volkes, du schenkst der Kirche zu allen Zeiten Menschen, die durch ihren Glauben und ihre Liebe ein Vorbild sind. Gib, dass uns gleich dem heiligen Alfons das Heil der Menschen am Herzen liegt, und schenke uns im Himmel den Lohn, den er schon empfangen hat.^ORV"
+          "oration": "Gott, du Hirt deines Volkes, du schenkst der Kirche zu allen Zeiten Menschen, die durch ihren Glauben und ihre Liebe ein Vorbild sind. Gib, dass uns gleich dem heiligen Alfons das Heil der Menschen am Herzen liegt, und schenke uns im Himmel den Lohn, den er schon empfangen hat.^ORV",
+          "oration_lat": "Deus, qui in Ecclésia tua nova semper instáuras exémpla virtútum, da nobis in zelo animárum beáti Alfónsi Maríæ epíscopi ita vestígiis adhærére, ut eius in cælis assequámur et prǽmia.^ORlV"
         }
       }
     },
@@ -4212,7 +4216,8 @@ export const adlibData = {
       "n1": {
         "ErsteV": {
           "comm_1": "Hirten",
-          "oration": "Wir bitten dich, Herr, unser Gott, gib, dass wir die Glaubenstreue des heiligen Bischofs Eusebius nachahmen, der die Lehre von der Gottheit Christi unerschrocken verteidigt hat, und lass uns teilhaben am göttlichen Leben deines Sohnes,^ORR"
+          "oration": "Wir bitten dich, Herr, unser Gott, gib, dass wir die Glaubenstreue des heiligen Bischofs Eusebius nachahmen, der die Lehre von der Gottheit Christi unerschrocken verteidigt hat, und lass uns teilhaben am göttlichen Leben deines Sohnes,^ORR",
+          "oration_lat": "Fac nos, Dómine Deus, in asserénda Fílii tui divinitáte, sancti Eusébii epíscopi constántiam imitári, ut, fidem servántes quam ipse dócuit, eiúsdem Fílii tui vitæ partícipes esse mereámur.^ORlV"
         },
         "Lesehore": {
           "comm_1": "Hirten",
@@ -4222,29 +4227,34 @@ export const adlibData = {
           "patr_resp1": "Legt euren Gürtel nicht ab und lasst eure Lampen brennen!",
           "patr_resp2": "Seid wie Menschen, die auf die Rückkehr ihres Herrn warten.",
           "patr_resp3": "Seid also wachsam! Denn ihr wisst nicht, an welchem Tag euer Herr kommt.",
-          "oration": "Wir bitten dich, Herr, unser Gott, gib, dass wir die Glaubenstreue des heiligen Bischofs Eusebius nachahmen, der die Lehre von der Gottheit Christi unerschrocken verteidigt hat, und lass uns teilhaben am göttlichen Leben deines Sohnes,^ORR"
+          "oration": "Wir bitten dich, Herr, unser Gott, gib, dass wir die Glaubenstreue des heiligen Bischofs Eusebius nachahmen, der die Lehre von der Gottheit Christi unerschrocken verteidigt hat, und lass uns teilhaben am göttlichen Leben deines Sohnes,^ORR",
+          "oration_lat": "Fac nos, Dómine Deus, in asserénda Fílii tui divinitáte, sancti Eusébii epíscopi constántiam imitári, ut, fidem servántes quam ipse dócuit, eiúsdem Fílii tui vitæ partícipes esse mereámur.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Eusebius",
           "genitiv": "des heiligen Eusebius",
           "comm_1": "Hirten",
-          "oration": "Wir bitten dich, Herr, unser Gott, gib, dass wir die Glaubenstreue des heiligen Bischofs Eusebius nachahmen, der die Lehre von der Gottheit Christi unerschrocken verteidigt hat, und lass uns teilhaben am göttlichen Leben deines Sohnes,^ORR"
+          "oration": "Wir bitten dich, Herr, unser Gott, gib, dass wir die Glaubenstreue des heiligen Bischofs Eusebius nachahmen, der die Lehre von der Gottheit Christi unerschrocken verteidigt hat, und lass uns teilhaben am göttlichen Leben deines Sohnes,^ORR",
+          "oration_lat": "Fac nos, Dómine Deus, in asserénda Fílii tui divinitáte, sancti Eusébii epíscopi constántiam imitári, ut, fidem servántes quam ipse dócuit, eiúsdem Fílii tui vitæ partícipes esse mereámur.^ORlV"
         },
         "Vesper": {
           "comm_1": "Hirten",
-          "oration": "Wir bitten dich, Herr, unser Gott, gib, dass wir die Glaubenstreue des heiligen Bischofs Eusebius nachahmen, der die Lehre von der Gottheit Christi unerschrocken verteidigt hat, und lass uns teilhaben am göttlichen Leben deines Sohnes,^ORR"
+          "oration": "Wir bitten dich, Herr, unser Gott, gib, dass wir die Glaubenstreue des heiligen Bischofs Eusebius nachahmen, der die Lehre von der Gottheit Christi unerschrocken verteidigt hat, und lass uns teilhaben am göttlichen Leben deines Sohnes,^ORR",
+          "oration_lat": "Fac nos, Dómine Deus, in asserénda Fílii tui divinitáte, sancti Eusébii epíscopi constántiam imitári, ut, fidem servántes quam ipse dócuit, eiúsdem Fílii tui vitæ partícipes esse mereámur.^ORlV"
         }
       },
       "n2": {
         "ErsteV": {
           "comm_1": "Mann_Ord",
           "comm_2": "Hirten",
-          "oration": "Gütiger Gott, du hast den heiligen Petrus Julianus mit einer wunderbaren Liebe zum heiligen Sakrament des Leibes und Blutes deines Sohnes erfüllt. Gewähre gnädig, dass auch wir denselben Reichtum erlangen, den er aus dem göttlichen Geheimnis empfangen hat.^ORV"
+          "oration": "Gütiger Gott, du hast den heiligen Petrus Julianus mit einer wunderbaren Liebe zum heiligen Sakrament des Leibes und Blutes deines Sohnes erfüllt. Gewähre gnädig, dass auch wir denselben Reichtum erlangen, den er aus dem göttlichen Geheimnis empfangen hat.^ORV",
+          "oration_lat": "Deus, qui sanctum Petrum Iuliánum, erga sacra mystéria Córporis et Sánguinis Fílii tui dilectióne decorásti mirífica, concéde propítius, ut, quam ille ex hoc divíno percépit pinguédinem, eándem et nos percípere mereámur.^ORlV"
         },
         "Lesehore": {
           "comm_1": "Mann_Ord",
           "comm_2": "Hirten",
-          "oration": "Gütiger Gott, du hast den heiligen Petrus Julianus mit einer wunderbaren Liebe zum heiligen Sakrament des Leibes und Blutes deines Sohnes erfüllt. Gewähre gnädig, dass auch wir denselben Reichtum erlangen, den er aus dem göttlichen Geheimnis empfangen hat.^ORV"
+          "oration": "Gütiger Gott, du hast den heiligen Petrus Julianus mit einer wunderbaren Liebe zum heiligen Sakrament des Leibes und Blutes deines Sohnes erfüllt. Gewähre gnädig, dass auch wir denselben Reichtum erlangen, den er aus dem göttlichen Geheimnis empfangen hat.^ORV",
+          "oration_lat": "Deus, qui sanctum Petrum Iuliánum, erga sacra mystéria Córporis et Sánguinis Fílii tui dilectióne decorásti mirífica, concéde propítius, ut, quam ille ex hoc divíno percépit pinguédinem, eándem et nos percípere mereámur.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Petrus Julianus Eymard",
@@ -4252,12 +4262,14 @@ export const adlibData = {
           "genitiv": "des heiligen Petrus Julianus",
           "comm_1": "Mann_Ord",
           "comm_2": "Hirten",
-          "oration": "Gütiger Gott, du hast den heiligen Petrus Julianus mit einer wunderbaren Liebe zum heiligen Sakrament des Leibes und Blutes deines Sohnes erfüllt. Gewähre gnädig, dass auch wir denselben Reichtum erlangen, den er aus dem göttlichen Geheimnis empfangen hat.^ORV"
+          "oration": "Gütiger Gott, du hast den heiligen Petrus Julianus mit einer wunderbaren Liebe zum heiligen Sakrament des Leibes und Blutes deines Sohnes erfüllt. Gewähre gnädig, dass auch wir denselben Reichtum erlangen, den er aus dem göttlichen Geheimnis empfangen hat.^ORV",
+          "oration_lat": "Deus, qui sanctum Petrum Iuliánum, erga sacra mystéria Córporis et Sánguinis Fílii tui dilectióne decorásti mirífica, concéde propítius, ut, quam ille ex hoc divíno percépit pinguédinem, eándem et nos percípere mereámur.^ORlV"
         },
         "Vesper": {
           "comm_1": "Mann_Ord",
           "comm_2": "Hirten",
-          "oration": "Gütiger Gott, du hast den heiligen Petrus Julianus mit einer wunderbaren Liebe zum heiligen Sakrament des Leibes und Blutes deines Sohnes erfüllt. Gewähre gnädig, dass auch wir denselben Reichtum erlangen, den er aus dem göttlichen Geheimnis empfangen hat.^ORV"
+          "oration": "Gütiger Gott, du hast den heiligen Petrus Julianus mit einer wunderbaren Liebe zum heiligen Sakrament des Leibes und Blutes deines Sohnes erfüllt. Gewähre gnädig, dass auch wir denselben Reichtum erlangen, den er aus dem göttlichen Geheimnis empfangen hat.^ORV",
+          "oration_lat": "Deus, qui sanctum Petrum Iuliánum, erga sacra mystéria Córporis et Sánguinis Fílii tui dilectióne decorásti mirífica, concéde propítius, ut, quam ille ex hoc divíno percépit pinguédinem, eándem et nos percípere mereámur.^ORlV"
         }
       }
     },
@@ -4265,7 +4277,8 @@ export const adlibData = {
       "eig": {
         "ErsteV": {
           "comm_1": "Hirten",
-          "oration": "Allmächtiger und barmherziger Gott, du hast dem heiligen Pfarrer von Ars die Geduld und Sorge eines guten Hirten gegeben, der sich für das Heil seiner Mitmenschen verzehrt. Hilf auf seine Fürsprache auch uns, Menschen für Christus zu gewinnen und zusammen mit unseren Brüdern und Schwestern das ewige Heil zu finden.^ORV"
+          "oration": "Allmächtiger und barmherziger Gott, du hast dem heiligen Pfarrer von Ars die Geduld und Sorge eines guten Hirten gegeben, der sich für das Heil seiner Mitmenschen verzehrt. Hilf auf seine Fürsprache auch uns, Menschen für Christus zu gewinnen und zusammen mit unseren Brüdern und Schwestern das ewige Heil zu finden.^ORV",
+          "oration_lat": "Omnípotens et miséricors Deus, qui sanctum Ioánnem Maríam presbýterum pastoráli stúdio mirábilem effecísti, da, quǽsumus, ut, eius exémplo et intercessióne, fratres in caritáte Christi tibi lucrémur, et cum eis ætérnam glóriam cónsequi valeámus.^ORlV"
         },
         "Lesehore": {
           "comm_1": "Hirten",
@@ -4275,16 +4288,19 @@ export const adlibData = {
           "patr_resp1": "Was kein Auge gesehen und kein Ohr gehört hat, was keinem Menschen in den Sinn gekommen ist, das hat Gott denen bereitet, die ihn lieben.",
           "patr_resp2": "Die kleine Last unserer gegenwärtigen Not bringt uns dereinst ein Übermaß an Herrlichkeit.",
           "patr_resp3": "Gott hat es denen bereitet, die ihn lieben.",
-          "oration": "Allmächtiger und barmherziger Gott, du hast dem heiligen Pfarrer von Ars die Geduld und Sorge eines guten Hirten gegeben, der sich für das Heil seiner Mitmenschen verzehrt. Hilf auf seine Fürsprache auch uns, Menschen für Christus zu gewinnen und zusammen mit unseren Brüdern und Schwestern das ewige Heil zu finden.^ORV"
+          "oration": "Allmächtiger und barmherziger Gott, du hast dem heiligen Pfarrer von Ars die Geduld und Sorge eines guten Hirten gegeben, der sich für das Heil seiner Mitmenschen verzehrt. Hilf auf seine Fürsprache auch uns, Menschen für Christus zu gewinnen und zusammen mit unseren Brüdern und Schwestern das ewige Heil zu finden.^ORV",
+          "oration_lat": "Omnípotens et miséricors Deus, qui sanctum Ioánnem Maríam presbýterum pastoráli stúdio mirábilem effecísti, da, quǽsumus, ut, eius exémplo et intercessióne, fratres in caritáte Christi tibi lucrémur, et cum eis ætérnam glóriam cónsequi valeámus.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Pfarrer von Ars",
           "comm_1": "Hirten",
-          "oration": "Allmächtiger und barmherziger Gott, du hast dem heiligen Pfarrer von Ars die Geduld und Sorge eines guten Hirten gegeben, der sich für das Heil seiner Mitmenschen verzehrt. Hilf auf seine Fürsprache auch uns, Menschen für Christus zu gewinnen und zusammen mit unseren Brüdern und Schwestern das ewige Heil zu finden.^ORV"
+          "oration": "Allmächtiger und barmherziger Gott, du hast dem heiligen Pfarrer von Ars die Geduld und Sorge eines guten Hirten gegeben, der sich für das Heil seiner Mitmenschen verzehrt. Hilf auf seine Fürsprache auch uns, Menschen für Christus zu gewinnen und zusammen mit unseren Brüdern und Schwestern das ewige Heil zu finden.^ORV",
+          "oration_lat": "Omnípotens et miséricors Deus, qui sanctum Ioánnem Maríam presbýterum pastoráli stúdio mirábilem effecísti, da, quǽsumus, ut, eius exémplo et intercessióne, fratres in caritáte Christi tibi lucrémur, et cum eis ætérnam glóriam cónsequi valeámus.^ORlV"
         },
         "Vesper": {
           "comm_1": "Hirten",
-          "oration": "Allmächtiger und barmherziger Gott, du hast dem heiligen Pfarrer von Ars die Geduld und Sorge eines guten Hirten gegeben, der sich für das Heil seiner Mitmenschen verzehrt. Hilf auf seine Fürsprache auch uns, Menschen für Christus zu gewinnen und zusammen mit unseren Brüdern und Schwestern das ewige Heil zu finden.^ORV"
+          "oration": "Allmächtiger und barmherziger Gott, du hast dem heiligen Pfarrer von Ars die Geduld und Sorge eines guten Hirten gegeben, der sich für das Heil seiner Mitmenschen verzehrt. Hilf auf seine Fürsprache auch uns, Menschen für Christus zu gewinnen und zusammen mit unseren Brüdern und Schwestern das ewige Heil zu finden.^ORV",
+          "oration_lat": "Omnípotens et miséricors Deus, qui sanctum Ioánnem Maríam presbýterum pastoráli stúdio mirábilem effecísti, da, quǽsumus, ut, eius exémplo et intercessióne, fratres in caritáte Christi tibi lucrémur, et cum eis ætérnam glóriam cónsequi valeámus.^ORlV"
         }
       }
     },
@@ -4292,7 +4308,8 @@ export const adlibData = {
       "n1": {
         "ErsteV": {
           "comm_1": "Maria",
-          "oration": "Barmherziger Gott, mit unserem eigenen Tun können wir vor dir nicht bestehen. Darum höre auf die Fürsprache der seligen Jungfrau Maria. Schau nicht auf unser Versagen, sondern sei uns gnädig und rette uns.^ORV"
+          "oration": "Barmherziger Gott, mit unserem eigenen Tun können wir vor dir nicht bestehen. Darum höre auf die Fürsprache der seligen Jungfrau Maria. Schau nicht auf unser Versagen, sondern sei uns gnädig und rette uns.^ORV",
+          "oration_lat": "Famulórum tuórum, quǽsumus, Dómine, delíctis ignósce, ut, qui tibi placére de áctibus nostris non valémus, Genetrícis Fílii tui intercessióne salvémur.^ORlV"
         },
         "Lesehore": {
           "comm_1": "Maria",
@@ -4302,19 +4319,24 @@ export const adlibData = {
           "patr_resp1": "Selig preisen mich alle Geschlechter, denn Großes hat der Herr an mir getan.",
           "patr_resp2": "Heilig ist sein Name.",
           "patr_resp3": "Von Geschlecht zu Geschlecht währt sein Erbarmen über jenen, welche ihn fürchten.",
-          "oration": "Barmherziger Gott, mit unserem eigenen Tun können wir vor dir nicht bestehen. Darum höre auf die Fürsprache der seligen Jungfrau Maria. Schau nicht auf unser Versagen, sondern sei uns gnädig und rette uns.^ORV"
+          "oration": "Barmherziger Gott, mit unserem eigenen Tun können wir vor dir nicht bestehen. Darum höre auf die Fürsprache der seligen Jungfrau Maria. Schau nicht auf unser Versagen, sondern sei uns gnädig und rette uns.^ORV",
+          "oration_lat": "Famulórum tuórum, quǽsumus, Dómine, delíctis ignósce, ut, qui tibi placére de áctibus nostris non valémus, Genetrícis Fílii tui intercessióne salvémur.^ORlV"
         },
         "Laudes": {
           "button": "Weihe der Basilika S. Maria Maggiore in Rom",
           "farbe": "m",
           "comm_1": "Maria",
           "antev": "Heilige Jungfrau und Gottesmutter Maria, gebenedeit bist du unter den Frauen, und gebenedeit ist die Frucht deines Leibes.",
-          "oration": "Barmherziger Gott, mit unserem eigenen Tun können wir vor dir nicht bestehen. Darum höre auf die Fürsprache der seligen Jungfrau Maria. Schau nicht auf unser Versagen, sondern sei uns gnädig und rette uns.^ORV"
+          "oration": "Barmherziger Gott, mit unserem eigenen Tun können wir vor dir nicht bestehen. Darum höre auf die Fürsprache der seligen Jungfrau Maria. Schau nicht auf unser Versagen, sondern sei uns gnädig und rette uns.^ORV",
+          "antev_lat": "Sancta Dei Génetrix María, Virgo perpétua, benedícta tu in muliéribus et benedíctus fructus ventris tui.",
+          "oration_lat": "Famulórum tuórum, quǽsumus, Dómine, delíctis ignósce, ut, qui tibi placére de áctibus nostris non valémus, Genetrícis Fílii tui intercessióne salvémur.^ORlV"
         },
         "Vesper": {
           "comm_1": "Maria",
           "antev": "Heilige Maria, Mutter Gottes, bitte für uns Sünder, jetzt und in der Stunde unseres Todes.",
-          "oration": "Barmherziger Gott, mit unserem eigenen Tun können wir vor dir nicht bestehen. Darum höre auf die Fürsprache der seligen Jungfrau Maria. Schau nicht auf unser Versagen, sondern sei uns gnädig und rette uns.^ORV"
+          "oration": "Barmherziger Gott, mit unserem eigenen Tun können wir vor dir nicht bestehen. Darum höre auf die Fürsprache der seligen Jungfrau Maria. Schau nicht auf unser Versagen, sondern sei uns gnädig und rette uns.^ORV",
+          "antev_lat": "Sancta María, mater Dei, ora pro nobis peccatóribus, nunc et in hora mortis nostræ.",
+          "oration_lat": "Famulórum tuórum, quǽsumus, Dómine, delíctis ignósce, ut, qui tibi placére de áctibus nostris non valémus, Genetrícis Fílii tui intercessióne salvémur.^ORlV"
         }
       }
     },
@@ -4322,7 +4344,8 @@ export const adlibData = {
       "n1": {
         "ErsteV": {
           "comm_1": "MärtPl",
-          "oration": "Allmächtiger Gott, du hast dem heiligen Xystus und seinen Gefährten die Kraft geschenkt, für dein Wort und das Zeugnis von Jesus ihr Leben dahinzugeben. Stärke uns mit dem Heiligen Geist, damit auch wir deine Botschaft gläubig hören und standhaft bekennen.^ORV"
+          "oration": "Allmächtiger Gott, du hast dem heiligen Xystus und seinen Gefährten die Kraft geschenkt, für dein Wort und das Zeugnis von Jesus ihr Leben dahinzugeben. Stärke uns mit dem Heiligen Geist, damit auch wir deine Botschaft gläubig hören und standhaft bekennen.^ORV",
+          "oration_lat": "Quǽsumus, omnípotens Deus, ut nos, virtúte Spíritus Sancti, et ad credéndum dóciles et ad confiténdum fortes effícias, qui beáto Xysto eiúsque sóciis, propter verbum tuum et testimónium Iesu, ánimas suas pónere tribuísti.^ORlV"
         },
         "Lesehore": {
           "comm_1": "MärtPl",
@@ -4332,24 +4355,28 @@ export const adlibData = {
           "patr_resp1": "Um Jesu willen werden wir dem Tod überliefert, damit auch sein Leben an unserem sterblichen Leib offenbar wird.",
           "patr_resp2": "Um Jesu willen werden wir gemordet Tag um Tag.",
           "patr_resp3": "Wir werden behandelt wie Schafe, die zum Schlachten bestimmt sind.",
-          "oration": "Allmächtiger Gott, du hast dem heiligen Xystus und seinen Gefährten die Kraft geschenkt, für dein Wort und das Zeugnis von Jesus ihr Leben dahinzugeben. Stärke uns mit dem Heiligen Geist, damit auch wir deine Botschaft gläubig hören und standhaft bekennen.^ORV"
+          "oration": "Allmächtiger Gott, du hast dem heiligen Xystus und seinen Gefährten die Kraft geschenkt, für dein Wort und das Zeugnis von Jesus ihr Leben dahinzugeben. Stärke uns mit dem Heiligen Geist, damit auch wir deine Botschaft gläubig hören und standhaft bekennen.^ORV",
+          "oration_lat": "Quǽsumus, omnípotens Deus, ut nos, virtúte Spíritus Sancti, et ad credéndum dóciles et ad confiténdum fortes effícias, qui beáto Xysto eiúsque sóciis, propter verbum tuum et testimónium Iesu, ánimas suas pónere tribuísti.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Xystus II. und Gefährten",
           "farbe": "r",
           "comm_1": "MärtPl",
-          "oration": "Allmächtiger Gott, du hast dem heiligen Xystus und seinen Gefährten die Kraft geschenkt, für dein Wort und das Zeugnis von Jesus ihr Leben dahinzugeben. Stärke uns mit dem Heiligen Geist, damit auch wir deine Botschaft gläubig hören und standhaft bekennen.^ORV"
+          "oration": "Allmächtiger Gott, du hast dem heiligen Xystus und seinen Gefährten die Kraft geschenkt, für dein Wort und das Zeugnis von Jesus ihr Leben dahinzugeben. Stärke uns mit dem Heiligen Geist, damit auch wir deine Botschaft gläubig hören und standhaft bekennen.^ORV",
+          "oration_lat": "Quǽsumus, omnípotens Deus, ut nos, virtúte Spíritus Sancti, et ad credéndum dóciles et ad confiténdum fortes effícias, qui beáto Xysto eiúsque sóciis, propter verbum tuum et testimónium Iesu, ánimas suas pónere tribuísti.^ORlV"
         },
         "Vesper": {
           "comm_1": "MärtPl",
-          "oration": "Allmächtiger Gott, du hast dem heiligen Xystus und seinen Gefährten die Kraft geschenkt, für dein Wort und das Zeugnis von Jesus ihr Leben dahinzugeben. Stärke uns mit dem Heiligen Geist, damit auch wir deine Botschaft gläubig hören und standhaft bekennen.^ORV"
+          "oration": "Allmächtiger Gott, du hast dem heiligen Xystus und seinen Gefährten die Kraft geschenkt, für dein Wort und das Zeugnis von Jesus ihr Leben dahinzugeben. Stärke uns mit dem Heiligen Geist, damit auch wir deine Botschaft gläubig hören und standhaft bekennen.^ORV",
+          "oration_lat": "Quǽsumus, omnípotens Deus, ut nos, virtúte Spíritus Sancti, et ad credéndum dóciles et ad confiténdum fortes effícias, qui beáto Xysto eiúsque sóciis, propter verbum tuum et testimónium Iesu, ánimas suas pónere tribuísti.^ORlV"
         }
       },
       "n2": {
         "ErsteV": {
           "comm_1": "Hirten",
           "comm_2": "Mann_Ord",
-          "oration": "Herr, unser Gott, du hast den Priester und Ordensgründer Kajetan berufen, in frei gewählter Armut die Apostel nachzuahmen. Höre auf seine Fürsprache und hilf uns, nach seinem Beispiel auf dich allein zu vertrauen und unser Leben im Geist des Evangeliums zu erneuern.^ORV"
+          "oration": "Herr, unser Gott, du hast den Priester und Ordensgründer Kajetan berufen, in frei gewählter Armut die Apostel nachzuahmen. Höre auf seine Fürsprache und hilf uns, nach seinem Beispiel auf dich allein zu vertrauen und unser Leben im Geist des Evangeliums zu erneuern.^ORV",
+          "oration_lat": "Deus, qui beáto Caietáno presbýtero apostólicam vivéndi formam imitári tribuísti, eius nobis exémplo et intercessióne concéde in te semper confídere, et regnum tuum indesinénter quǽrere.^ORlV"
         },
         "Lesehore": {
           "comm_1": "Hirten",
@@ -4360,7 +4387,8 @@ export const adlibData = {
           "patr_resp1": "Heilig die Predigt des seligen Mannes, unschätzbar seine Liebe!",
           "patr_resp2": "Er verachtete den Prunk der Welt und erhielt das ewige Leben.",
           "patr_resp3": "Christus bedeutete ihm Leben und Sterben Gewinn.",
-          "oration": "Herr, unser Gott, du hast den Priester und Ordensgründer Kajetan berufen, in frei gewählter Armut die Apostel nachzuahmen. Höre auf seine Fürsprache und hilf uns, nach seinem Beispiel auf dich allein zu vertrauen und unser Leben im Geist des Evangeliums zu erneuern.^ORV"
+          "oration": "Herr, unser Gott, du hast den Priester und Ordensgründer Kajetan berufen, in frei gewählter Armut die Apostel nachzuahmen. Höre auf seine Fürsprache und hilf uns, nach seinem Beispiel auf dich allein zu vertrauen und unser Leben im Geist des Evangeliums zu erneuern.^ORV",
+          "oration_lat": "Deus, qui beáto Caietáno presbýtero apostólicam vivéndi formam imitári tribuísti, eius nobis exémplo et intercessióne concéde in te semper confídere, et regnum tuum indesinénter quǽrere.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Kajetan",
@@ -4368,12 +4396,14 @@ export const adlibData = {
           "genitiv": "des heiligen Kajetan",
           "comm_1": "Hirten",
           "comm_2": "Mann_Ord",
-          "oration": "Herr, unser Gott, du hast den Priester und Ordensgründer Kajetan berufen, in frei gewählter Armut die Apostel nachzuahmen. Höre auf seine Fürsprache und hilf uns, nach seinem Beispiel auf dich allein zu vertrauen und unser Leben im Geist des Evangeliums zu erneuern.^ORV"
+          "oration": "Herr, unser Gott, du hast den Priester und Ordensgründer Kajetan berufen, in frei gewählter Armut die Apostel nachzuahmen. Höre auf seine Fürsprache und hilf uns, nach seinem Beispiel auf dich allein zu vertrauen und unser Leben im Geist des Evangeliums zu erneuern.^ORV",
+          "oration_lat": "Deus, qui beáto Caietáno presbýtero apostólicam vivéndi formam imitári tribuísti, eius nobis exémplo et intercessióne concéde in te semper confídere, et regnum tuum indesinénter quǽrere.^ORlV"
         },
         "Vesper": {
           "comm_1": "Hirten",
           "comm_2": "Mann_Ord",
-          "oration": "Herr, unser Gott, du hast den Priester und Ordensgründer Kajetan berufen, in frei gewählter Armut die Apostel nachzuahmen. Höre auf seine Fürsprache und hilf uns, nach seinem Beispiel auf dich allein zu vertrauen und unser Leben im Geist des Evangeliums zu erneuern.^ORV"
+          "oration": "Herr, unser Gott, du hast den Priester und Ordensgründer Kajetan berufen, in frei gewählter Armut die Apostel nachzuahmen. Höre auf seine Fürsprache und hilf uns, nach seinem Beispiel auf dich allein zu vertrauen und unser Leben im Geist des Evangeliums zu erneuern.^ORV",
+          "oration_lat": "Deus, qui beáto Caietáno presbýtero apostólicam vivéndi formam imitári tribuísti, eius nobis exémplo et intercessióne concéde in te semper confídere, et regnum tuum indesinénter quǽrere.^ORlV"
         }
       }
     },

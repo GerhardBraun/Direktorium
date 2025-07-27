@@ -6517,8 +6517,8 @@ export const brevierData = {
     "8": {
       "6": {
         "each": {
-          "oration": "Allmächtiger Gott, bei der Verklärung deines eingeborenen Sohnes hast du durch das Zeugnis der Väter die Geheimnisse unseres Glaubens bekräftigt. Du hast uns gezeigt, was wir erhoffen dürfen, wenn unsere Annahme an Kindes statt sich einmal vollendet. Hilf uns, auf das Wort deines Sohnes zu hören, damit wir Anteil erhalten an seiner Herrlichkeit.^ORV",
-          "oration_lat": ""
+          "oration": "Allmächtiger Gott, bei der Verklärung deines eingeborenen Sohnes hast du durch das Zeugnis der Väter die Geheimnisse unseres Glaubens bekräftigt. Du hast uns gezeigt, was wir erhoffen dürfen, wenn unsere Annahme an Kindes statt sich einmal vollendet. Hilf uns, auf das Wort deines Sohnes zu hören, damit wir Anteil erhalten an seiner Herrlichkeit.^ORlR",
+          "oration_lat": "Deus, qui fídei sacraménta in Unigéniti tui gloriósa Transfiguratióne patrum testimónio roborásti, et adoptiónem filiórum perféctam mirabíliter præsignásti, concéde nobis fámulis tuis, ut, ipsíus dilécti Fílii tui vocem audiéntes, eiúsdem coherédes éffici mereámur.^ORlR"
         },
         "ErsteV": {
           "button": "1. Vesper zu Verklärung des Herrn",
@@ -6536,14 +6536,17 @@ export const brevierData = {
           "resp2": "Halleluja,°halleluja.",
           "resp3": "Mit Pracht hat der Herr dich bekleidet.",
           "antev": "Heute ist der Herr auf der Höhe des Berges in Herrlichkeit erschienen. Christus Jesus, der Abglanz der Herrlichkeit des Vaters und das Abbild seines Wesens, der das All trägt durch sein machtvolles Wort.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "les_text_lat": ""
+          "ant1_lat": "Assúmpsit Iesus discípulos suos, et ascéndit in montem, et transfigurátus est ante eos.",
+          "ant2_lat": "Et ecce apparuérunt eis Móyses et Elías loquéntes cum Iesu.",
+          "ant3_lat": "Dómine, bonum est nos hic esse; si vis, faciámus hic tria tabernácula: tibi unum, Móysi unum et Elíæ unum.",
+          "resp1_lat": "Gloriósus apparuísti in conspéctu Dómini.",
+          "resp2_lat": "Allelúia,°allelúia.",
+          "resp3_lat": "Proptérea decórem índuit te Dóminus.",
+          "antev_lat": "Christus Iesus splendor Patris et figúra substántiæ eius, portans ómnia verbo virtútis suæ, purgatiónem peccatórum fáciens, in monte excélso gloriósus apparére hódie dignátus est.",
+          "bitten_e_lat": "Salvatórem nostrum, qui in monte ante discípulos mirabíliter transfigurátus est, fidénter deprecémur:",
+          "bitten_r_lat": "Deus noster, illúmina ténebras nostras.",
+          "bitten_lat": "Christe, qui transfigurátus revelásti discípulis tuis resurrectiónem ante passiónem, orámus te pro Ecclésia tua sancta laboránte in necessitátibus mundi,^qut in tribulatióne semper transfigurétur victóriæ tuæ gáudio.^pChriste, qui assumpsísti Petrum cum Iacóbo et Ioánne et duxísti eos in montem excélsum seórsum, orámus te pro Papa nostro N. et epíscopis,^qut pópulo tuo in spe resurrectiónis minístrent.^pChriste, qui in monte illuminásti fáciem tuam super Móysen et Elíam, orámus te pro Iudǽis, pópulo acquisitiónis antíquæ,^qut ad redemptiónis mereántur plenitúdinem perveníre.^pChriste, qui terræ illuxísti, cum glória Creatóris super te orta est, orámus te pro homínibus bonæ voluntátis,^qut ámbulent in lúmine tuo.^pChriste, qui reformábis corpus humilitátis nostræ configurátum córpori claritátis tuæ, orámus te pro frátribus nostris defúnctis,^qut intrent in glóriam tuam.",
+          "les_text_lat": "Noster municipátus in cælis est, unde étiam salvatórem exspectámus Dóminum Iesum Christum, qui transfigurábit corpus humilitátis nostræ confórme fíeri córpori glóriæ suæ secúndum operatiónem, qua possit étiam subícere sibi ómnia."
         },
         "Invitatorium": {
           "ant0": "Christus, den König der Herrlichkeit – kommt, wir beten ihn an!",
@@ -6572,19 +6575,11 @@ export const brevierData = {
           "patr_resp2": "von Herrlichkeit zu Herrlichkeit.",
           "patr_resp3": "Wir werden in sein eigenes Bild verwandelt werden,",
           "antev": "von Herrlichkeit zu Herrlichkeit.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "versikel0_lat": "",
-          "versikel1_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "patr_resp1_lat": "",
-          "patr_resp2_lat": "",
-          "patr_resp3_lat": "",
-          "antev_lat": "",
-          "les_text_lat": ""
+          "ant1_lat": "Mélior est dies una in átriis tuis super mília.",
+          "ant2_lat": "Lux orta est iusto, et rectis corde lætítia, allelúia.",
+          "ant3_lat": "Exaltáte Dóminum Deum nostrum, et adoráte ad montem sanctum eius.",
+          "versikel0_lat": "In colúmna nubis loquebátur ad eos.",
+          "versikel1_lat": "Custodiébant testimónia eius."
         },
         "Laudes": {
           "button": "Verklärung des Herrn",
@@ -6605,17 +6600,17 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, der heute vor den Augen der Jünger verklärt wurde. Zu ihm lasst uns beten:",
           "bitten_r": "Lob sei dir, Christus.",
           "bitten": "Dein Angesicht wurde leuchtend wie die Sonne;^qlass deine Gnade über uns leuchten heute und immerdar.^pDeine Kleider wurden weiß wie das Licht;^qlass uns immer mehr von deinem Licht erfasst werden.^pDie Stimme aus der Wolke bezeugte dich als den geliebten Sohn Gottes;^qhilf uns, dass wir mit ganzem Herzen an dich glauben.^pDu hast den Jüngern dein Leiden vorausgesagt;^qlass uns nicht irre werden, wenn unser Glaube geprüft wird.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "ant1_lat": "Hódie Dóminus Iesus Christus fácie ut sol in monte resplénduit, et vestiméntis tamquam nix cándidus enítuit.",
+          "ant2_lat": "Hódie, transfiguráto ac Patris voce testificáto Dómino, Móyses et Elías affuérunt spléndidi, excéssum eius quem completúrus erat loquéntes.",
+          "ant3_lat": "Lex per Móysen data est et prophetía per Elíam, qui in maiestáte visi sunt cum Dómino loquéntes, in monte fulgéntes.",
+          "resp1_lat": "Glória et honóre coronásti eum, Dómine.",
+          "resp2_lat": "Allelúia,°allelúia.",
+          "resp3_lat": "Et constituísti eum super ópera mánuum tuárum.",
+          "antev_lat": "Ecce vox de nube dicens: Hic est Fílius meus diléctus, in quo mihi complácui; ipsum audíte.^Lö",
+          "bitten_e_lat": "Deum Patrem Dómini et Salvatóris nostri Iesu Christi, qui in monte ante discípulos mirabíliter transfigurátus est, fidénter deprecémur:",
+          "bitten_r_lat": "In lúmine tuo, Dómine, lumen videámus.",
+          "bitten_lat": "Pater clementíssime, qui Fílium tuum diléctum transfigurásti et in nube lúcida teípsum manifestásti,^qfac ut verbum Christi fidéliter audiámus.^pDeus, qui eléctos inebriásti ab ubertáte domus tuæ et torrénte voluptátis tuæ illos potásti,^qconcéde, ut in córpore Christi fontem vitæ nostræ inveniámus.^pDeus, qui fecísti de ténebris lumen splendéscere et illuxísti in córdibus nostris ad contemplándam claritátem tuam in fácie Christi Iesu,^qfove in nobis spíritum contemplatiónis Fílii tui dilécti.^pDeus, qui nos vocásti vocatióne tua sancta, secúndum grátiam tuam nunc manifestátam per illuminatiónem salvatóris nostri Iesu Christi,^qillústra per Evangélium inter hómines vitam incorruptíbilem.^pPater amantíssime, qui talem caritátem dedísti nobis ut fílii Dei nominémur et simus,^qpræsta, ut, cum apparúerit Christus, símiles ei fiámus.",
+          "les_text_lat": "Sústulit me ángelus in spíritu super montem magnum et altum et osténdit mihi civitátem sanctam Ierúsalem descendéntem de cælo a Deo. Et cívitas non eget sole neque luna, ut lúceant ei, nam cláritas Dei illuminávit eam, et lucérna eius est Agnus."
         },
         "Terz": {
           "ant0": "Jesus erschien zwischen Mose und Elija, damit ihn Gesetz und Propheten bezeugten.",
@@ -6625,10 +6620,10 @@ export const brevierData = {
           "les_text_neu": "Der HERR sprach zu Mose: Ich werde zu dir in einer dichten Wolke kommen; das Volk soll es hören, wenn ich mit dir rede, damit sie auch dir für immer vertrauen. ",
           "resp0": "Du bist der Schönste von allen Menschen.",
           "resp1": "Anmut ist ausgegossen über deine Lippen.",
-          "ant0_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "ant0_lat": "Ut testimónium habéret a lege et prophétis, in médio Móysi et Elíæ transfigurátus appáruit Iesus.",
+          "resp0_lat": "Speciósus forma es præ fíliis hóminum.",
+          "resp1_lat": "Diffúsa est grátia in lábiis tuis.",
+          "les_text_lat": "Cumque rettulísset Móyses verba pópuli ad Dóminum ait ei Dóminus: „Ecce ego véniam ad te in calígine nubis, ut áudiat me pópulus loquéntem ad te et tibi quoque credat in perpétuum.“"
         },
         "Sext": {
           "ant0": "Jesus Christus, unser Herr, hat uns das Licht des unvergänglichen Lebens gebracht durch das Evangelium.",
@@ -6638,10 +6633,10 @@ export const brevierData = {
           "les_text_neu": "Sobald Mose das Zelt betrat, ließ sich die Wolkensäule herab und blieb am Zelteingang stehen. Dann redete der HERR mit Mose. Der HERR und Mose redeten miteinander von Angesicht zu Angesicht, wie einer mit seinem Freund spricht.",
           "resp0": "Blickt auf zum Herrn, und euer Antlitz wird leuchten.",
           "resp1": "Ihr braucht nicht zu erröten.",
-          "ant0_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "ant0_lat": "Dóminus Deus salvátor noster illuminávit vitam et incorruptiónem per Evangélium.",
+          "resp0_lat": "Respícite ad Dóminum, et illuminámini.",
+          "resp1_lat": "Et fácies vestræ non confundéntur.",
+          "les_text_lat": "Ingrésso Móyse tabernáculum, descendébat colúmna nubis et stabat ad óstium; loquebatúrque cum Móyse. Loquebátur autem Dóminus ad Móysen fácie ad fáciem, sicut solet loqui homo ad amícum suum."
         },
         "Non": {
           "ant0": "Als die Jünger die Stimme aus der Wolke hörten, fielen sie auf ihr Angesicht nieder und fürchteten sich sehr.",
@@ -6651,10 +6646,10 @@ export const brevierData = {
           "les_text_neu": "Wir alle schauen mit enthülltem Angesicht die Herrlichkeit des Herrn wie in einem Spiegel und werden so in sein eigenes Bild verwandelt, von Herrlichkeit zu Herrlichkeit, durch den Geist des Herrn.",
           "resp0": "Bei dir ist die Quelle des Lebens.",
           "resp1": "In deinem Lichte schauen wir das Licht.",
-          "ant0_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "ant0_lat": "Audiéntes discípuli Patris vocem, cecidérunt in fácies suas et timuérunt valde.",
+          "resp0_lat": "Dómine, apud te est fons vitæ",
+          "resp1_lat": "Et in lúmine tuo vidébimus lumen.",
+          "les_text_lat": "Nos omnes reveláta fácie glóriam Dómini speculántes, in eándem imáginem transformámur a claritáte in claritátem tamquam a Dómini Spíritu."
         },
         "Vesper": {
           "hymn_1": 8806.4,
@@ -6675,17 +6670,17 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu Jesus Christus, der vor den Augen seiner Jünger verklärt wurde:",
           "bitten_r": "Kyrie, eleison.",
           "bitten": "Auf dem Berg der Verklärung hast du den Jüngern ein Bild deiner Osterherrlichkeit gezeigt;^qgib deiner Kirche Hoffnung in der Drangsal.^pDu hast Petrus, Jakobus und Johannes zu Zeugen deiner Verherrlichung gemacht;^qhilf den Nachfolgern der Apostel, deine Auferstehung zu verkünden.^pAuf dem Berge hast du mit Mose und Elija geredet;^qlass das Volk des Alten Bundes zum vollen Licht der Erlösung gelangen.^pDie Stimme aus der Wolke bezeugte dich als den geliebten Sohn des Vaters;^qgib, dass alle Menschen guten Willens dich als Sohn Gottes erkennen.^pDu wirst uns einst verwandeln in die Gestalt deines verklärten Leibes;^qnimm unsere verstorbenen Brüder und Schwestern auf in deine Herrlichkeit.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "ant1_lat": "Assúmpsit Iesus Petrum et Iacóbum et Ioánnem fratrem eius, et duxit eos in montem excélsum seórsum, et transfigurátus est ante eos.",
+          "ant2_lat": "Nubes lúcida obumbrávit eos; et ecce vox de nube, dicens: Hic est Fílius meus diléctus, in quo mihi complácui.",
+          "ant3_lat": "Descendéntibus illis de monte, præcépit Iesus dicens: Némini dixéritis visiónem, donec Fílius hóminis a mórtuis resúrgat, allelúia.",
+          "resp1_lat": "Magnificéntia et pulchritúdo in conspéctu eius.",
+          "resp2_lat": "Allelúia,°allelúia.",
+          "resp3_lat": "Decor et poténtia in sanctuário eius.",
+          "antev_lat": "Et audiéntes discípuli cecidérunt in fáciem suam et timuérunt valde; et accéssit Iesus et tétigit eos dixítque eis: Súrgite et nolíte timére.^Lö",
+          "bitten_e_lat": "Salvatórem nostrum, qui in monte ante discípulos mirabíliter transfigurátus est, fidénter deprecémur:",
+          "bitten_r_lat": "Deus noster, illúmina ténebras nostras.",
+          "bitten_lat": "Christe, qui transfigurátus revelásti discípulis tuis resurrectiónem ante passiónem, orámus te pro Ecclésia tua sancta laboránte in necessitátibus mundi,^qut in tribulatióne semper transfigurétur victóriæ tuæ gáudio.^pChriste, qui assumpsísti Petrum cum Iacóbo et Ioánne et duxísti eos in montem excélsum seórsum, orámus te pro Papa nostro N. et epíscopis,^qut pópulo tuo in spe resurrectiónis minístrent.^pChriste, qui in monte illuminásti fáciem tuam super Móysen et Elíam, orámus te pro Iudǽis, pópulo acquisitiónis antíquæ,^qut ad redemptiónis mereántur plenitúdinem perveníre.^pChriste, qui terræ illuxísti, cum glória Creatóris super te orta est, orámus te pro homínibus bonæ voluntátis,^qut ámbulent in lúmine tuo.^pChriste, qui reformábis corpus humilitátis nostræ configurátum córpori claritátis tuæ, orámus te pro frátribus nostris defúnctis,^qut intrent in glóriam tuam.",
+          "les_text_lat": "Ipse Spíritus testimónium reddit una cum spíritu nostro quod sumus fílii Dei. Si autem fílii, et herédes: herédes quidem Dei, coherédes autem Christi; si tamen compátimur, ut et conglorificémur."
         }
       },
       "9": {
