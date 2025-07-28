@@ -63,11 +63,26 @@ function mergeData(hours, newData, source) {
         });
     }
 
+    // Process "major" data if available
+    if (newData.major) {
+        Object.entries(newData.major).forEach(([field, value]) => {
+            if (!field.startsWith(source)) {
+                ['erstev', 'lesehore', 'laudes', 'vesper'].forEach(hour => {
+                    if (!hours[hour][source]) {
+                        hours[hour][source] = {};
+                    }
+                    hours[hour][source][field] = value;
+                });
+            }
+        });
+    }
+
     // Process hour-specific data
     Object.entries(newData).forEach(([hourName, hourData]) => {
         const hour = hourName.toLowerCase();
         // Prüfe, ob die Stunde in den Zielstunden enthalten ist
-        if (hours[hour] && hourName !== 'each' && targetHours.includes(hour)) {
+        if (hours[hour] && targetHours.includes(hour) &&
+            !['each', 'major'].includes(hourName)) {
             if (!hours[hour][source]) {
                 hours[hour][source] = {};
             }
@@ -383,7 +398,7 @@ function processTerzPsalms(hours) {
     return hours;
 }
 
-function processBenMagnAntiphons(hours, date) {
+function processAntABC(hours, date) {
     Object.keys(hours).forEach(hour => {
         if (hours[hour].wt?.anta) {
             const year = date.getFullYear();
@@ -620,7 +635,7 @@ export function processBrevierData(todayDate) {
 
     // Wende die finalen Verarbeitungsschritte an
     processTerzPsalms(finalData);
-    processBenMagnAntiphons(finalData, calendarDate);
+    processAntABC(finalData, calendarDate);
     const kompletSettings = processKompletData(finalData, calendarDate);
     finalData.komplet = {
         ...finalData.komplet,

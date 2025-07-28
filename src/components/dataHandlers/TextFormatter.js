@@ -320,6 +320,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
             .replace(/\^NP/g, getLocalStorage('popeName') || 'Leo')
             .replace(/\^NB/g, getLocalStorage('bishopName') || '^N')
             .replace(/\^N(dat|akk|abl)(P|B)/g, (match, casus, person) => {
+                if (!casus || !person) return match;
                 const name = person === 'P'
                     ? getLocalStorage('popeNameLat') || 'Leóni'
                     : getLocalStorage('bishopNameLat') || '^N';
