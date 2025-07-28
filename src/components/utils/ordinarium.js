@@ -244,6 +244,7 @@ function getClosingTexts(hour, localPrefLatin) {
 export const ordinarium = (texts, hour = '', localPrefLatin = false, prefSollemnity = false) => {
 
     const languageToRead = localPrefLatin ? "lat" : "dt";
+    if (hour === 'erstev') { hour = 'vesper' }
 
     if (ordinariumData?.[texts]?.[languageToRead]) {
         return ordinariumData[texts][languageToRead]

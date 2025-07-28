@@ -2803,7 +2803,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "MärtPl",
-          "oration": "Herr, unser Gott, wir danken dir für deine Blutzeugen Simplicius, Faustinus und Beatrix, die durch ihr Martyrium wahrhaft Geschwister geworden sind. Die Gemeinschaft mit ihnen gebe unserem Glauben neue Kraft; ihre Fürbitte schenke uns Mut und Zuversicht.^ORV"
+          "oration": "Herr, unser Gott, wir danken dir für deine Blutzeugen Simplicius, Faustinus und Beatrix, die durch ihr Martyrium wahrhaft Geschwister geworden sind. Die Gemeinschaft mit ihnen gebe unserem Glauben neue Kraft; ihre Fürbitte schenke uns Mut und Zuversicht.^ORV",
+          "oration_lat": "Fratérna nos, Dómine, mártyrum tuórum Simplícii, Faustíni et Beatrícis coróna lætíficet, quæ et fídei nostræ prǽbeat increménta virtútum, et multíplici nos suffrágio consolétur.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Cyprian von Karthago (†°258)",
