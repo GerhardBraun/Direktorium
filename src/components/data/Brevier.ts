@@ -6489,7 +6489,7 @@ export const brevierData = {
         "Laudes": {
           "genitiv_lat": "sanctórum Marthæ, Maríæ et Lázari",
           "hymn_1_lat": 8729.2,
-          "antev_lat": "Elevántis sursum óculis, voce magna Iesus clamávit: Lázare, veni foras!"
+          "antev_lat": "Elevátis sursum óculis, voce magna Iesus clamávit: Lázare, veni foras!"
         },
         "Vesper": {
           "hymn_1_lat": 8729.4,
