@@ -6481,7 +6481,7 @@ export const brevierData = {
       },
       "29": {
         "each": {
-          "oration_lat": "Deus, cuius Fílius de sepúlcro ad vitam Lázarum revocávit, et in domo Marthæ dignátus est hospitári, da nobis, quǽsumus, ut ipsi in frátribus nostris fidéliter ministrántes, cum María verbi eius meditatióne pasci mereámur.^ORlS"
+          "oration_lat": "Deus, cuius Fílius de sepúlcro ad vitam Lázarum revocávit, et in domo Marthæ dignátus est hospitári, da nobis, quǽsumus, ut ipsi in frátribus nostris fidéliter ministrántes, cum María verbi eius meditatióne pasci mereámur.^ORlvR"
         },
         "Lesehore": {
           "hymn_1_lat": 8729.4
