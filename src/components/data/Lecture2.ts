@@ -560,6 +560,705 @@ export const lecture2Data = {
           "les_text": "(…)"
         }
       }
+    },
+    "5": {
+      "0": {
+        "Lesehore": {}
+      },
+      "1": {
+        "Lesehore": {}
+      },
+      "2": {
+        "Lesehore": {}
+      },
+      "3": {
+        "Lesehore": {}
+      },
+      "4": {
+        "Lesehore": {}
+      },
+      "5": {
+        "Lesehore": {}
+      },
+      "6": {
+        "Lesehore": {}
+      }
+    },
+    "6": {
+      "0": {
+        "Lesehore": {}
+      },
+      "1": {
+        "Lesehore": {}
+      },
+      "2": {
+        "Lesehore": {}
+      },
+      "3": {
+        "Lesehore": {}
+      },
+      "4": {
+        "Lesehore": {}
+      },
+      "5": {
+        "Lesehore": {}
+      },
+      "6": {
+        "Lesehore": {}
+      }
+    },
+    "7": {
+      "0": {
+        "Lesehore": {}
+      },
+      "1": {
+        "Lesehore": {}
+      },
+      "2": {
+        "Lesehore": {}
+      },
+      "3": {
+        "Lesehore": {}
+      },
+      "4": {
+        "Lesehore": {}
+      },
+      "5": {
+        "Lesehore": {}
+      },
+      "6": {
+        "Lesehore": {}
+      }
+    },
+    "8": {
+      "0": {
+        "Lesehore": {}
+      },
+      "1": {
+        "Lesehore": {}
+      },
+      "2": {
+        "Lesehore": {}
+      },
+      "3": {
+        "Lesehore": {}
+      },
+      "4": {
+        "Lesehore": {}
+      },
+      "5": {
+        "Lesehore": {}
+      },
+      "6": {
+        "Lesehore": {}
+      }
+    },
+    "9": {
+      "0": {
+        "Lesehore": {}
+      },
+      "1": {
+        "Lesehore": {}
+      },
+      "2": {
+        "Lesehore": {}
+      },
+      "3": {
+        "Lesehore": {}
+      },
+      "4": {
+        "Lesehore": {}
+      },
+      "5": {
+        "Lesehore": {}
+      },
+      "6": {
+        "Lesehore": {}
+      }
+    },
+    "10": {
+      "0": {
+        "Lesehore": {}
+      },
+      "1": {
+        "Lesehore": {}
+      },
+      "2": {
+        "Lesehore": {}
+      },
+      "3": {
+        "Lesehore": {}
+      },
+      "4": {
+        "Lesehore": {}
+      },
+      "5": {
+        "Lesehore": {}
+      },
+      "6": {
+        "Lesehore": {}
+      }
+    },
+    "11": {
+      "0": {
+        "Lesehore": {}
+      },
+      "1": {
+        "Lesehore": {}
+      },
+      "2": {
+        "Lesehore": {
+          "les_buch_alt": "Aus dem Buch der Richter.",
+          "les_stelle_alt": "5,1-21",
+          "les_text_alt": "^hDas Debora-Lied^pDebora und Barak, der Sohn Abinoams, sangen an jenem Tag dieses Lied:^l^lDass Führer Israel führten^lund das Volk sich bereit zeigte,^ldafür preist den Herrn!^l^lHört, ihr Könige, horcht auf, ihr Fürsten!^lIch will dem Herrn zu Ehren singen,^lich will zu Ehren des Herrn,^ldes Gottes Israels, spielen.^l^lHerr, als du auszogst aus Seir,^lals du vom Grünland Edoms heranschrittest,^lda bebte die Erde, die Himmel ergossen sich,^lja, aus den Wolken ergoss sich das Wasser.^lDie Berge wankten vor dem Blick des Herrn,^lvor dem Blick des Herrn, des Gottes Israels.^l^lIn den Tagen Schamgars, des Sohnes des Anat,^lin den Tagen Jaëls lagen die Wege verlassen da;^lwer unterwegs war,^lmusste Umwege machen.^lBewohner des offenen Landes gab es nicht mehr,^les gab sie nicht mehr in Israel,^lbis du dich erhobst, Debora,^lbis du dich erhobst, Mutter in Israel.^lMan hatte sich neue Götter erwählt.^lEs gab kein Brot an den Toren.^lSchild und Speer waren nicht mehr zu sehen^lbei den Vierzigtausend in Israel.^l^lMein Herz gehört Israels Führern.^lIhr, die ihr bereit seid im Volk,^lpreist den Herrn!^lIhr, die ihr auf weißen Eselinnen reitet,^ldie ihr auf Teppichen sitzt,^ldie ihr auf der Straße dahinzieht,^lsingt!^l^lHorch, sie jubeln zwischen den Tränken,^ldort besingt man die rettenden Taten des Herrn,^lseine hilfreiche Tat an den Bauern in Israel.^lDamals zog das Volk des Herrn^lhinab zu den Toren.^l^lAuf, auf, Debora! Auf, auf, sing ein Lied!^lErheb dich, Barak,^lführ deine Gefangenen heim,^lSohn Abinoams!^lDann stieg herab,^lwas übrig ist unter den Herrlichen des Volkes.^lDer Herr steige herab^lmit mir unter den Helden.^l^lAus Efraim zogen sie hinunter ins Tal,^lhinter ihnen Benjamin mit seinen Scharen;^lvon Machir stiegen die Führer hinab,^lvon Sebulon die, die das Zepter tragen.^lDie Fürsten Issachars zusammen mit Debora^lund wie Issachar so auch Barak,^lins Tal getragen von seinen Füßen.^l^lIn Rubens Bezirken^lüberlegte man lange.^lGilead bleibt jenseits des Jordan.^lWarum verweilt Dan bei den Schiffen?^lAscher sitzt am Ufer des Meeres,^lbleibt ruhig an seinen Buchten.^lSebulon ist ein Volk,^ldas sein Leben aufs Spiel setzt,^lauch Naftali auf den Höhen des Feldes.^l^lKönige kamen und kämpften,^ldamals kämpften Kanaans Könige^lin Taanach, an den Wassern Megiddos,^ldoch Beute an Silber machten sie nicht.^lVom Himmel her kämpften die Sterne,^lvon ihren Bahnen aus^lkämpften sie gegen Sisera.^lDer Bach Kischon schwemmte sie fort,^lder altberühmte Bach, der Bach Kischon.^lMeine Seele soll auftreten mit Macht.^lDamals stampften die Hufe der Pferde^lim Jagen, im Dahinjagen der Hengste.^lIhr sollt Meros verfluchen,^lspricht der Engel des Herrn.^lMit Flüchen flucht seinen Bewohnern;^ldenn sie kamen dem Herrn nicht zu Hilfe,^lzu Hilfe dem Herrn unter den Helden.^l^lGepriesen sei Jaël unter den Frauen,^ldie Frau des Keniters Heber,^lgepriesen unter den Frauen im Zelt.^lEr hatte Wasser verlangt, sie gab ihm Milch,^lin einer prächtigen Schale reichte sie Sahne.^lIhre Hand streckte sie aus nach dem Pflock,^lihre Rechte nach dem Hammer des Schmieds.^lSie erschlug Sisera, zermalmte sein Haupt,^lzerschlug, durchbohrte seine Schläfe.^lZu ihren Füßen brach er zusammen,^lfiel nieder, lag da,^lzu ihren Füßen brach er zusammen, fiel nieder.^lWo er zusammenbrach, da lag er vernichtet.^l^lAus ihrem Fenster blickt Siseras Mutter^lund klagt durch das Gitter:^lWarum säumt sein Wagen zu kommen,^lwarum zögert der Hufschlag seiner Gespanne?^lEine Kluge aus ihren Fürstinnen antwortet ihr,^lund sie selbst wiederholt deren Worte:^lSicher machen und teilen sie Beute,^lein, zwei Frauen für jeden Mann,^lBeute an Kleidern für Sisera,^lBeute an Kleidern,^lfür meinen Hals als Beute ein, zwei bunte^lTücher.^l^lSo gehen all deine Feinde zugrunde, Herr.^lDoch die, die ihn lieben, sind wie die Sonne,^lwenn sie aufgeht in ihrer Kraft.^l^lDann hatte das Land vierzig Jahre lang Ruhe.",
+          "resp1_alt": "Hört, ihr Könige, horcht auf, ihr Fürsten!",
+          "resp2_alt": "Ich will jubeln vor dem Gott Israels.",
+          "resp3_alt": "Wer dich liebt, ist wie der prachtvolle Aufgang der Sonne."
+        }
+      },
+      "3": {
+        "Lesehore": {}
+      },
+      "4": {
+        "Lesehore": {}
+      },
+      "5": {
+        "Lesehore": {}
+      },
+      "6": {
+        "Lesehore": {}
+      }
+    },
+    "12": {
+      "0": {
+        "Lesehore": {}
+      },
+      "1": {
+        "Lesehore": {}
+      },
+      "2": {
+        "Lesehore": {}
+      },
+      "3": {
+        "Lesehore": {}
+      },
+      "4": {
+        "Lesehore": {}
+      },
+      "5": {
+        "Lesehore": {}
+      },
+      "6": {
+        "Lesehore": {}
+      }
+    },
+    "13": {
+      "0": {
+        "Lesehore": {}
+      },
+      "1": {
+        "Lesehore": {}
+      },
+      "2": {
+        "Lesehore": {}
+      },
+      "3": {
+        "Lesehore": {}
+      },
+      "4": {
+        "Lesehore": {}
+      },
+      "5": {
+        "Lesehore": {}
+      },
+      "6": {
+        "Lesehore": {}
+      }
+    },
+    "14": {
+      "0": {
+        "Lesehore": {}
+      },
+      "1": {
+        "Lesehore": {}
+      },
+      "2": {
+        "Lesehore": {}
+      },
+      "3": {
+        "Lesehore": {}
+      },
+      "4": {
+        "Lesehore": {}
+      },
+      "5": {
+        "Lesehore": {
+          "les_stelle_alt": "157.3194"
+        }
+      },
+      "6": {
+        "Lesehore": {}
+      }
+    },
+    "15": {
+      "0": {
+        "Lesehore": {}
+      },
+      "1": {
+        "Lesehore": {}
+      },
+      "2": {
+        "Lesehore": {}
+      },
+      "3": {
+        "Lesehore": {}
+      },
+      "4": {
+        "Lesehore": {}
+      },
+      "5": {
+        "Lesehore": {}
+      },
+      "6": {
+        "Lesehore": {}
+      }
+    },
+    "16": {
+      "0": {
+        "Lesehore": {}
+      },
+      "1": {
+        "Lesehore": {}
+      },
+      "2": {
+        "Lesehore": {}
+      },
+      "3": {
+        "Lesehore": {}
+      },
+      "4": {
+        "Lesehore": {}
+      },
+      "5": {
+        "Lesehore": {}
+      },
+      "6": {
+        "Lesehore": {}
+      }
+    },
+    "17": {
+      "0": {
+        "Lesehore": {}
+      },
+      "1": {
+        "Lesehore": {}
+      },
+      "2": {
+        "Lesehore": {}
+      },
+      "3": {
+        "Lesehore": {}
+      },
+      "4": {
+        "Lesehore": {}
+      },
+      "5": {
+        "Lesehore": {}
+      },
+      "6": {
+        "Lesehore": {}
+      }
+    },
+    "18": {
+      "0": {
+        "Lesehore": {}
+      },
+      "1": {
+        "Lesehore": {}
+      },
+      "2": {
+        "Lesehore": {}
+      },
+      "3": {
+        "Lesehore": {}
+      },
+      "4": {
+        "Lesehore": {}
+      },
+      "5": {
+        "Lesehore": {}
+      },
+      "6": {
+        "Lesehore": {}
+      }
+    },
+    "19": {
+      "0": {
+        "Lesehore": {}
+      },
+      "1": {
+        "Lesehore": {}
+      },
+      "2": {
+        "Lesehore": {}
+      },
+      "3": {
+        "Lesehore": {}
+      },
+      "4": {
+        "Lesehore": {}
+      },
+      "5": {
+        "Lesehore": {}
+      },
+      "6": {
+        "Lesehore": {}
+      }
+    },
+    "20": {
+      "0": {
+        "Lesehore": {}
+      },
+      "1": {
+        "Lesehore": {}
+      },
+      "2": {
+        "Lesehore": {}
+      },
+      "3": {
+        "Lesehore": {}
+      },
+      "4": {
+        "Lesehore": {}
+      },
+      "5": {
+        "Lesehore": {}
+      },
+      "6": {
+        "Lesehore": {}
+      }
+    },
+    "21": {
+      "0": {
+        "Lesehore": {}
+      },
+      "1": {
+        "Lesehore": {}
+      },
+      "2": {
+        "Lesehore": {}
+      },
+      "3": {
+        "Lesehore": {}
+      },
+      "4": {
+        "Lesehore": {}
+      },
+      "5": {
+        "Lesehore": {}
+      },
+      "6": {
+        "Lesehore": {}
+      }
+    },
+    "22": {
+      "0": {
+        "Lesehore": {}
+      },
+      "1": {
+        "Lesehore": {}
+      },
+      "2": {
+        "Lesehore": {}
+      },
+      "3": {
+        "Lesehore": {}
+      },
+      "4": {
+        "Lesehore": {}
+      },
+      "5": {
+        "Lesehore": {}
+      },
+      "6": {
+        "Lesehore": {}
+      }
+    },
+    "23": {
+      "0": {
+        "Lesehore": {}
+      },
+      "1": {
+        "Lesehore": {}
+      },
+      "2": {
+        "Lesehore": {}
+      },
+      "3": {
+        "Lesehore": {}
+      },
+      "4": {
+        "Lesehore": {}
+      },
+      "5": {
+        "Lesehore": {}
+      },
+      "6": {
+        "Lesehore": {}
+      }
+    },
+    "24": {
+      "0": {
+        "Lesehore": {}
+      },
+      "1": {
+        "Lesehore": {}
+      },
+      "2": {
+        "Lesehore": {}
+      },
+      "3": {
+        "Lesehore": {}
+      },
+      "4": {
+        "Lesehore": {}
+      },
+      "5": {
+        "Lesehore": {}
+      },
+      "6": {
+        "Lesehore": {}
+      }
+    },
+    "25": {
+      "0": {
+        "Lesehore": {}
+      },
+      "1": {
+        "Lesehore": {}
+      },
+      "2": {
+        "Lesehore": {}
+      },
+      "3": {
+        "Lesehore": {}
+      },
+      "4": {
+        "Lesehore": {}
+      },
+      "5": {
+        "Lesehore": {}
+      },
+      "6": {
+        "Lesehore": {}
+      }
+    },
+    "26": {
+      "0": {
+        "Lesehore": {}
+      },
+      "1": {
+        "Lesehore": {}
+      },
+      "2": {
+        "Lesehore": {}
+      },
+      "3": {
+        "Lesehore": {}
+      },
+      "4": {
+        "Lesehore": {}
+      },
+      "5": {
+        "Lesehore": {}
+      },
+      "6": {
+        "Lesehore": {}
+      }
+    },
+    "27": {
+      "0": {
+        "Lesehore": {}
+      },
+      "1": {
+        "Lesehore": {}
+      },
+      "2": {
+        "Lesehore": {}
+      },
+      "3": {
+        "Lesehore": {}
+      },
+      "4": {
+        "Lesehore": {}
+      },
+      "5": {
+        "Lesehore": {}
+      },
+      "6": {
+        "Lesehore": {}
+      }
+    },
+    "28": {
+      "0": {
+        "Lesehore": {}
+      },
+      "1": {
+        "Lesehore": {}
+      },
+      "2": {
+        "Lesehore": {}
+      },
+      "3": {
+        "Lesehore": {}
+      },
+      "4": {
+        "Lesehore": {}
+      },
+      "5": {
+        "Lesehore": {}
+      },
+      "6": {
+        "Lesehore": {}
+      }
+    },
+    "29": {
+      "0": {
+        "Lesehore": {}
+      },
+      "1": {
+        "Lesehore": {}
+      },
+      "2": {
+        "Lesehore": {}
+      },
+      "3": {
+        "Lesehore": {}
+      },
+      "4": {
+        "Lesehore": {}
+      },
+      "5": {
+        "Lesehore": {}
+      },
+      "6": {
+        "Lesehore": {}
+      }
+    },
+    "30": {
+      "0": {
+        "Lesehore": {}
+      },
+      "1": {
+        "Lesehore": {}
+      },
+      "2": {
+        "Lesehore": {}
+      },
+      "3": {
+        "Lesehore": {}
+      },
+      "4": {
+        "Lesehore": {}
+      },
+      "5": {
+        "Lesehore": {}
+      },
+      "6": {
+        "Lesehore": {}
+      }
+    },
+    "31": {
+      "0": {
+        "Lesehore": {}
+      },
+      "1": {
+        "Lesehore": {}
+      },
+      "2": {
+        "Lesehore": {}
+      },
+      "3": {
+        "Lesehore": {}
+      },
+      "4": {
+        "Lesehore": {}
+      },
+      "5": {
+        "Lesehore": {}
+      },
+      "6": {
+        "Lesehore": {}
+      }
+    },
+    "32": {
+      "0": {
+        "Lesehore": {}
+      },
+      "1": {
+        "Lesehore": {}
+      },
+      "2": {
+        "Lesehore": {}
+      },
+      "3": {
+        "Lesehore": {}
+      },
+      "4": {
+        "Lesehore": {}
+      },
+      "5": {
+        "Lesehore": {}
+      },
+      "6": {
+        "Lesehore": {}
+      }
+    },
+    "33": {
+      "0": {
+        "Lesehore": {}
+      },
+      "1": {
+        "Lesehore": {}
+      },
+      "2": {
+        "Lesehore": {}
+      },
+      "3": {
+        "Lesehore": {}
+      },
+      "4": {
+        "Lesehore": {}
+      },
+      "5": {
+        "Lesehore": {}
+      },
+      "6": {
+        "Lesehore": {}
+      }
+    },
+    "34": {
+      "0": {
+        "Lesehore": {}
+      },
+      "1": {
+        "Lesehore": {}
+      },
+      "2": {
+        "Lesehore": {}
+      },
+      "3": {
+        "Lesehore": {}
+      },
+      "4": {
+        "Lesehore": {}
+      },
+      "5": {
+        "Lesehore": {}
+      },
+      "6": {
+        "Lesehore": {}
+      }
     }
   },
   "k": {

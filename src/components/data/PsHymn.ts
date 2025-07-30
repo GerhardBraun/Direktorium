@@ -3838,11 +3838,36 @@ export const psalmsData = {
         "text": "Erwartet den Herrn,^lsteht als Knechte bereit an der Tür.^lSchon jauchzt jeder Stern.^lSeht, er kommt, seht, er kommt, wir sind hier.^pKomm, Herr Jesus, Maranatha.^pEntzündet die Lampen, ihr Mägde,^lerglühet im Geist^lim Kommen des Ewig-Geliebten,^lder Kyrios heißt.^pKomm, Herr Jesus, Maranatha.^pDu wirfst dein Feuer zur Erde^lund willst, dass es brennt,^lund wir sind der Mund,^lder anbetend dein Kommen bekennt.^pKomm, Herr Jesus, Maranatha."
       }
   },
+  3113: {
+    0.0: {
+        "quote": "Advent",
+        "title_lat": "Verbum supérnum pródiens",
+        "text_lat": "Verbum supérnum pródiens,^la Patre lumen éxiens,^lqui natus orbi súbvenis^lcursu declívi témporis:^pIllúmina nunc péctora^ltuóque amóre cóncrema;^laudíta per præcónia^lsint pulsa tandem lúbrica.^pIudéxque cum post áderis^lrimári facta péctoris,^lreddens vicem pro ábditis^liustísque regnum pro bonis,^pNon demum artémur malis^lpro qualitáte críminis,^lsed cum beátis cómpotes^lsimus perénnes cǽlites.^pSit, Christe, rex piíssime,^ltibi Patríque glória^lcum Spíritu Paráclito,^lin sempitérna sǽcula."
+      }
+  },
+  3114: {
+    0.0: {
+        "title_lat": "Veni, redémptor géntium",
+        "text_lat": "Veni, redémptor géntium,^losténde partum Vírginis;^lmirétur omne sǽculum:^ltalis decet partus Deum.^pNon ex viríli sémine,^lsed mýstico spirámine^lVerbum Dei fact>u>m est caro^lfructúsque ventris flóruit.^pAlvus tuméscit Vírginis,^lclaustrum pudóris pérmanet,^lvexílla virtútum micant,^lversátur in templo Deus.^pProcédat e thál>amo suo,^lpudóris aula régia,^lgém>inæ gigas substántiæ^lalácris ut currat viam.^pÆquális ætérno Patri,^lcarnis tropǽo cíngere,^linfírma nostri córporis^lvirtúte firmans pérpeti.^pPræsépe iam fulget tuum^lluménque nox spirat novum,^lquod nulla nox intérpolet^lfidéque iugi lúceat.^pSit, Christe, rex piíssime,^ltibi Patríque glória^lcum Spíritu Paráclito,^lin sempitérna sǽcula. Amen."
+      }
+  },
   3121: {
     0.0: {
         "title": "Hört, eine helle Stimme ruft",
         "quote": "Advent",
         "text": "Hört, eine helle Stimme ruft^lund dringt durch Nacht und Finsternis:^lWacht auf und lasset Traum und Schlaf –^lam Himmel leuchtet Christus auf.^pDies ist der Hoffnung lichte Zeit;^lder Morgen kommt, der Tag bricht an:^lEin neuer Stern geht strahlend auf,^lvor dessen Schein das Dunkel flieht.^pVom Himmel wird als Lamm gesandt,^lder alle Sünde auf sich nimmt.^lWir blicken gläubig zu ihm auf^lund bitten ihn um sein Verzeihn,^pdass, wenn im Licht er wiederkommt,^lsein Glanz die Welt mit Schrecken schlägt,^ler nicht die Sünde strafend rächt,^luns liebend vielmehr bei sich birgt.^pRuhm, Ehre, Macht und Herrlichkeit^lsei Gott dem Vater und dem Sohn,^ldem Geiste, der uns Beistand ist,^ldurch alle Zeit und Ewigkeit. Amen."
+      }
+  },
+  3123: {
+    0.0: {
+        "title_lat": "Vox clara ecce íntonat",
+        "text_lat": "Vox clara ecce íntonat,^lobscúra quæque íncrepat:^lprocul fugéntur sómnia;^lab æthre Christus prómicat.^pMens iam resúrgat tórpida^lquæ sorde exstat sáucia;^lsidus refúlget iam novum,^lut tollat omne nóxium.^pE sursum Agnus míttitur^llaxáre gratis débitum;^lomnes pro indulgéntia^lvocem demus cum lácrimis,^pSecúndo ut cum fúlserit^lmundúmque horror cínxerit,^lnon pro reátu púniat,^lsed nos pius tunc prótegat.^pSummo Parénti glória^lNatóque sit victória,^let Flámini laus débita^lper sæculórum sǽcula."
+      }
+  },
+  3124: {
+    0.0: {
+        "title_lat": "Magnis prophétæ vócibus",
+        "text_lat": "Magnis prophétæ vócibus^lveníre Christum núntiant,^llætæ salútis prǽvia,^lqua nos redémit, grátia.^pHinc mane nostrum prómicat^let corda læt>a exǽstuant,^lcum vox fidélis pérsonat^lprænuntiátrix glóriæ.^pAdvéntus hic primus fuit,^lpuníre quo non sǽculum^lvenit, sed ulcus térgere,^lsalvándo quod períerat.^pAt nos secúndus prǽmonet^ladésse Christum iánuis,^lsanctis corónas réddere^lcælíque regna pándere.^pÆtérna lux promíttitur^lsidúsque salvans prómitur;^liam nos iubar præfúlgidum^lad ius vocat cæléstium.^pTe, Christe, solum quǽrimus^lvidére, sicut es Deus,^lut perpes hæc sit vísio^lperénne laudis cánticum. Amen."
       }
   },
   3141: {
@@ -3862,6 +3887,18 @@ export const psalmsData = {
         "title": "Du Heiland aller Völker, komm",
         "quote": "Advent",
         "text": "Du Heiland aller Völker, komm,^lund zeig dich als der Jungfrau Sohn,^ldass Staunen fasse alle Welt^lob solchem Wunder der Geburt.^pDer Sonne gleich tritt nun hervor^laus dem Gemach der reinen Braut^lund eile strahlend deine Bahn^lals Held, der Gott und Mensch zugleich!^pVon deinem Vater gehst du aus,^lgehst siegreich wieder zu ihm ein;^lbis in die Hölle dringst du vor^lund kehrst zu Gottes Thron zurück.^pSchon leuchtet deine Krippe auf,^les haucht die Nacht ein neues Licht,^ldas keine Nacht mehr trüben kann,^ldas stets im Glauben uns erhellt.^pRuhm, Ehre, Macht und Herrlichkeit^lsei Gott dem Vater und dem Sohn,^ldem Geiste, der uns Beistand ist,^ldurch alle Zeit und Ewigkeit. Amen."
+      }
+  },
+  3143: {
+    0.0: {
+        "title_lat": "Cónditor alme síderum",
+        "text_lat": "Cónditor alme síderum,^lætérna lux credéntium,^lChriste, redémptor ómnium,^lexáudi preces súpplicum.^pQui cóndolens intéritu^lmortis períre sǽculum,^lsalvásti mundum lánguidum,^ldonans reis remédium,^pVergénte mundi véspere,^luti sponsus de thálamo,^legréssus honestíssima^lVírginis matris cláusula.^pCuius forti poténtiæ^lgenu curvántur ómnia;^lcæléstia, terréstria^lnutu faténtur súbdita.^pTe, Sancte, fide quǽsumus,^lventúre iudex sǽculi,^lconsérva nos in témpore^lhostis a telo pérfidi.^pSit, Christe, rex piíssime,^ltibi Patríque glória^lcum Spíritu Paráclito,^lin sempitérna sǽcula."
+      }
+  },
+  3144: {
+    0.0: {
+        "title_lat": "Verbum salútis ómnium",
+        "text_lat": "Verbum salútis ómnium,^lPatris ab ore pródiens,^lVirgo beáta, súscipe^lcasto, María, víscere.^pTe nunc illústrat cǽlitus^lumbra fecúndi Spíritus,^lgestes ut Christum Dóminum,^læquálem Patri Fílium.^pHæc est sacráti iánua^ltempli seráta iúgiter,^lsoli suprémo Príncipi^lpandens beáta límina.^pOlim promíssus vátibus,^lnatus ante lucíferum,^lquem Gábriel annúntiat,^lterris descéndit Dóminus.^pLæténtur simul ángeli,^lomnes exsúltent pópuli:^lexcélsus venit húmilis^lsalváre quod períerat.^pSit, Christe, rex piíssime,^ltibi Patríque glória^lcum Spíritu Paráclito,^lin sempitérna sǽcula. Amen.^p^l"
       }
   },
   3211: {

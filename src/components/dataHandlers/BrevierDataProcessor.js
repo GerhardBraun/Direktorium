@@ -399,20 +399,18 @@ function processTerzPsalms(hours) {
 }
 
 function processAntABC(hours, date) {
-    Object.keys(hours).forEach(hour => {
-        if (hours[hour].wt?.anta) {
-            const year = date.getFullYear();
-            const remainder = year % 3;
+    ['erstev', 'laudes', 'vesper'].forEach(hour => {
+        const year = date.getFullYear();
+        const remainder = year % 3;
 
-            const antField = ['antc', 'anta', 'antb'][remainder];
-            const antFieldLat = `${antField}_lat`;
+        const antField = ['antc', 'anta', 'antb'][remainder];
+        const antFieldLat = `${antField}_lat`;
 
-            if (hours[hour].wt[antField]) {
-                hours[hour].wt.antev = hours[hour].wt[antField];
-            }
-            if (hours[hour].wt[antFieldLat]) {
-                hours[hour].wt.antev_lat = hours[hour].wt[antFieldLat];
-            }
+        if (hours[hour].wt?.[antField]) {
+            hours[hour].wt.antev = hours[hour].wt[antField];
+        }
+        if (hours[hour].wt?.[antFieldLat]) {
+            hours[hour].wt.antev_lat = hours[hour].wt[antFieldLat];
         }
     });
 }
@@ -488,7 +486,7 @@ function processEasterResponses(hours) {
 
 function processResponseSet(data) {
     if (data.resp1 && data.resp2) {
-        if (!data.resp2.startsWith('Hall')) {
+        if (!data.resp2.startsWith('Hallel')) {
             data.resp1 = `${data.resp1} ${data.resp2}`;
             data.resp2 = 'Halleluja,°halleluja.';
         }
@@ -496,7 +494,7 @@ function processResponseSet(data) {
 
     // Lateinische Responsorien verarbeiten
     if (data.resp1_lat && data.resp2_lat) {
-        if (!data.resp2_lat.startsWith('Alle')) {
+        if (!data.resp2_lat.startsWith('Allel')) {
             data.resp1_lat = `${data.resp1_lat} ${data.resp2_lat}`;
             data.resp2_lat = 'Allelúia,°allelúia.';
         }
