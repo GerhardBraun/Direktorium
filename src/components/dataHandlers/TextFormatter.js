@@ -5,7 +5,7 @@ import { psalmsData } from '../data/PsHymn.ts';
 
 export const firstCapital = (word) => {
     if (!word || typeof word !== 'string') { return word }
-    return word.includes(' ')
+    return /\s|°/.test(word)
         ? word[0].toUpperCase() + word.slice(1)
         : word[0].toUpperCase() + word.slice(1).toLowerCase()
 }
@@ -360,6 +360,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         .replace(/>([aeiouæm])/g, '^k$1^0k')
         .replace(/\^([()[\]])/g, '^r$1^0r')
         .replace(/ \^w/g, '^w ')
+        .replace(/^\^A:[^:]+:/, '')
         .replace(/\^(ODER|VEL)/g, (match, text) => '^l^RUBR' + firstCapital(text) + ':^0RUBR^l')
         .replace(/([.?!]|)( |)(EINE?[RMN]?)/g, (match, punctuation, space, text) => {
             if (!punctuation && space) { return '^w' + match.toLowerCase() + '^0w' }
