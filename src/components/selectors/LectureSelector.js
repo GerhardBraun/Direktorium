@@ -30,18 +30,27 @@ const LectureSelector = ({
         const firstData = lectureAlternatives[firstKeyword]?.first;
         const secondData = lectureAlternatives[secondKeyword]?.second;
 
+        const chain = (text1, text2, connector = '') => {
+            if (!text1 || text1.startsWith('LEER')) return text2;
+            text1 = text1.replace(/ \(.*$/, '').trim()
+            if (text1) {
+                return text1 + connector + ' ' + text2
+            }
+            else { return text2 }
+        }
+
         return {
             first: {
                 hasAlternative: firstKeyword && firstData,
                 keyword: firstKeyword,
-                standard: getValue('les_buch') + ' ' + getValue('les_stelle'),
-                button: firstData?.les_buch + ' ' + firstData?.les_stelle || ''
+                standard: chain(getValue('les_buch'), getValue('les_stelle')),
+                button: chain(firstData?.les_buch, firstData?.les_stelle)
             },
             second: {
                 hasAlternative: secondKeyword && secondData,
                 keyword: secondKeyword,
-                standard: getValue('patr_autor') + ': ' + getValue('patr_werk'),
-                button: secondData?.patr_autor + ': ' + secondData?.patr_werk || ''
+                standard: chain(getValue('patr_autor'), getValue('patr_werk'), ':'),
+                button: chain(secondData?.patr_autor, secondData?.patr_werk, ':')
             }
         };
     }, [getValue]);
@@ -247,7 +256,6 @@ const lectureAlternatives = {
             les_buch: "Test für Buch",
             les_stelle: "Test für Stelle 12,1-9",
             les_text: "Test für Text",
-            resp1: "Test für Responsorium 1",
             resp2: "Test für Responsorium 2",
             resp3: "Test für Responsorium 3"
         },
