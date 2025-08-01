@@ -69,6 +69,17 @@ export const getValue = ({ season, hour, texts, field,
                 !swdCombined.startsWith('o-1-') &&
                 dayOfWeek !== 0);
 
+        // Sonderfall 4. Adventssonntag
+        if (swdCombined === 'a-4-0' &&
+            !texts.laudes.wt.oration.startsWith('Herr Jesus Christus')) {
+            if (field === 'oration') {
+                return 'Allmächtiger Gott, gieße deine Gnade in unsere Herzen ein. Durch die Botschaft des Engels haben wir die Menschwerdung Christi, deines Sohnes, erkannt. Führe uns durch sein Leiden und Kreuz zur Herrlichkeit der Auferstehung.^ORvR'
+            }
+            if (field === 'oration_lat') {
+                return 'Grátiam tuam, quǽsumus, Dómine, méntibus nostris infúnde, ut qui, Angelo nuntiánte, Christi Fílii tui incarnatiónem cognóvimus, per passiónem eius et crucem ad resurrectiónis glóriam perducámur.^ORlV'
+            }
+        }
+
         // Bei Vesper als Hochfest
         if (hour === 'vesper' && sollemnityErsteVesper()) { hour = 'prefsollemnity'; }
 

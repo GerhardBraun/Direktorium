@@ -429,6 +429,9 @@ export const brevierData = {
     },
     "4": {
       "0": {
+        "each": {
+          "oration": "Allmächtiger Gott, gieße deine Gnade in unsere Herzen ein. Durch die Botschaft des Engels haben wir die Menschwerdung Christi, deines Sohnes, erkannt. Führe uns durch sein Leiden und Kreuz zur Herrlichkeit der Auferstehung.^ORvR"
+        },
         "ErsteV": {
           "ant1": "Siehe, es kommt der Ersehnte der Völker; mit Herrlichkeit wird erfüllt das Haus des Herrn.^ö",
           "ant2": "Komm, o Herr, und säume nicht. Befreie dein Volk von seiner Schuld.",
@@ -9177,27 +9180,21 @@ export const brevierData = {
           "les_buch": "Aus dem Buch Jesaja.",
           "les_stelle": "11,1–9",
           "les_text": "^hAnkündigung des messianischen Reiches^pAus dem Baumstumpf Isais wächst ein Reis hervor, ein junger Trieb aus seinen Wurzeln bringt Frucht. Der Geist des Herrn lässt sich nieder auf ihm: der Geist der Weisheit und der Einsicht, der Geist des Rates und der Stärke, der Geist der Erkenntnis und der Gottesfurcht. Er richtet nicht nach dem Augenschein, und nicht nur nach dem Hörensagen entscheidet er, sondern er richtet die Hilflosen gerecht und entscheidet für die Armen des Landes, wie es recht ist. Er schlägt die Gewalttätigen mit dem Stock seines Wortes und tötet den Schuldigen mit dem Hauch seines Mundes. Gerechtigkeit ist der Gürtel um seine Hüften, Treue der Gürtel um seinen Leib.^pDann wohnt der Wolf beim Lamm, der Panther liegt beim Böcklein. Kalb und Löwe weiden zusammen, ein kleiner Knabe kann sie hüten. Kuh und Bärin freunden sich an, ihre Jungen liegen beieinander. Der Löwe frisst Stroh wie das Rind. Der Säugling spielt vor dem Schlupfloch der Natter, das Kind streckt seine Hand in die Höhle der Schlange. Man tut nichts Böses mehr und begeht kein Verbrechen auf meinem ganzen heiligen Berg; denn das Land ist erfüllt von der Erkenntnis des Herrn, so wie das Meer mit Wasser gefüllt ist. An jenem Tag wird es der Spross aus der Wurzel Isais sein, der dasteht als Zeichen für die Nationen; die Völker suchen ihn auf; sein Wohnsitz ist prächtig.",
-          "resp1": "Heute wurde der König des Himmels von der Jungfrau geboren, um den Menschen, der verloren war, zum Himmelreich zurückzurufen.",
-          "resp2": "Das Heer der Engel freut sich, weil dem Menschengeschlecht das ewige Heil erschienen ist.",
-          "resp3": "Ehre sei Gott in der Höhe und auf Erden Friede den Menschen seiner Gnade.",
           "patr_autor": "Leo der Große (+ 461)",
           "patr_werk": "Aus einer Weihnachtspredigt.",
           "patr_text": "^hChrist, erkenne deine Würde!^pLasst uns froh sein: Heute ist unser Retter geboren, Traurigkeit hat keinen Raum am Geburtstag des Lebens, das uns die Angst vor dem Sterben genommen hat und uns die Freude über die verheißene Ewigkeit bringt.^pNiemand wird von der Fröhlichkeit ausgeschlossen, alle haben den einen Grund zur Freude gemeinsam: Denn unser Herr, der Sünde und Tod vernichtet hat, fand keinen, der von Schuld frei war. Deshalb kam er, um alle zu befreien. Der Heilige juble, weil ihm die Siegespalme winkt. Der Sünder freue sich, weil er zur Versöhnung eingeladen ist. Der Heide atme auf; denn er ist zum Leben gerufen.^pDie Fülle der Zeit ist gekommen, die Gottes unerforschlicher Ratschluss festgesetzt hat: Der Sohn Gottes hat die Natur des Menschengeschlechts angenommen, um sie mit ihrem Schöpfer zu versöhnen und den Urheber des Todes, den Teufel, durch eben jene Natur zu besiegen, durch die er einst selbst gesiegt hat.^pDie jubelnden Engel singen bei der Geburt des Herrn: „Ehre sei Gott in der Höhe!“, und auf Erden wird den Menschen seiner Gnade Friede verkündet {1#vgl.°Lk 2,14}. Denn die Engel sehen, wie aus allen Völkern der Erde das himmlische Jerusalem erbaut wird. Wie sehr muss sich der geringe Mensch über dieses Werk der unsagbaren Güte Gottes freuen, wenn schon die erhabenen Engel vor Freude jubeln.^pLasst also Gott dem Vater danken durch seinen Sohn im Heiligen Geist, dass er uns in seiner übergroßen Huld geliebt und sich unser erbarmt hat; wir waren durch unsere Sünden tot, aber er hat uns zusammen mit Christus wieder lebendig gemacht {2#vgl.°Eph 2,5}, um uns in ihm zu einer neuen Schöpfung {3#vgl.°2Kor 5,17}, zu einem neuen Menschen umzumachen. Lasst uns also den alten Menschen mit seinen Werken ablegen {4#vgl.°2°Petr°1,4}, und da wir an der Geburt Christi teilhaben, lasst uns den Werken des Fleisches entsagen.^pChrist, erkenne deine Würde! Du bist der göttlichen Natur teilhaftig geworden {5#vgl.°Kol 1,13}, kehre nicht zu der alten Erbärmlichkeit zurück und lebe nicht unter deiner Würde. Denk an das Haupt und den Leib, dem du als Glied angehörst! Bedenke, dass du der Macht der Finsternis entrissen und in das Licht und das Reich Gottes aufgenommen bist {6#vgl.°2Petr 1,4}. Durch das Sakrament der Taufe wurdest du ein Tempel des Heiligen Geistes. Verjage nicht durch deine Sünden den hohen Gast, der in dir Wohnung genommen hat. Unterwirf dich nicht wieder der Knechtschaft Satans; denn der Preis für deine Freiheit ist das Blut Christi.",
-          "patr_resp1": "Heute ist der wahre Friede vom Himmel zur Erde herabgekommen;",
-          "patr_resp2": "heute leuchtet der Himmel freundlich über der ganzen Welt.",
-          "patr_resp3": "Der Tag neuer Erlösung ist aufgegangen, der Tag, von alters her vorbereitet, der Tag ewigen Glückes.",
           "oration": "Allmächtiger Gott, dein ewiges Wort ist Fleisch geworden, um uns mit dem Glanz deines Lichtes zu erfüllen. Gib, dass in unseren Werken widerstrahlt, was durch den Glauben in unserem Herzen leuchtet.^ORvR",
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
           "versikel0_lat": "",
           "versikel1_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "patr_resp1_lat": "",
-          "patr_resp2_lat": "",
-          "patr_resp3_lat": "",
+          "resp1_lat": "Heute wurde der König des Himmels von der Jungfrau geboren, um den Menschen, der verloren war, zum Himmelreich zurückzurufen.",
+          "resp2_lat": "Das Heer der Engel freut sich, weil dem Menschengeschlecht das ewige Heil erschienen ist.",
+          "resp3_lat": "Ehre sei Gott in der Höhe und auf Erden Friede den Menschen seiner Gnade.",
+          "patr_resp1_lat": "Heute ist der wahre Friede vom Himmel zur Erde herabgekommen;",
+          "patr_resp2_lat": "heute leuchtet der Himmel freundlich über der ganzen Welt.",
+          "patr_resp3_lat": "Der Tag neuer Erlösung ist aufgegangen, der Tag, von alters her vorbereitet, der Tag ewigen Glückes.",
           "les_text_lat": "",
           "oration_lat": ""
         },
@@ -10997,7 +10994,7 @@ export const brevierData = {
         },
         "ErsteV": {
           "button": "1. Vesper zum Christkönigsfest",
-          "hymn_nacht": 3994.0,
+          "hymn_1": 3994.0,
           "psalm1": 113.0,
           "psalm2": 117.0,
           "psalm3": 153.0,
@@ -11015,6 +11012,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu Christus, der am Kreuz unser König geworden ist:",
           "bitten_r": "Sohn Davids, erbarme dich unser.",
           "bitten": "Du unser König und Hirt, gedenke deines Volkes^qund führe es zusammen von den Enden der Erde.^pDu unser Meister und Heiland,^qrichte die Mutlosen auf.^pDu Fürst des Friedens,^qversöhne die Völker.^pDu König der Herrlichkeit,^qkomm mit deinem Frieden.^pDu Erstgeborener von den Toten,^qnimm die Verstorbenen auf in deine Herrlichkeit.",
+          "hymn_nacht_lat": 3994.0,
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
@@ -11032,7 +11030,8 @@ export const brevierData = {
           "ant0_lat": ""
         },
         "Lesehore": {
-          "hymn_nacht": 3991.0,
+          "hymn_1": 3991.0,
+          "hymn_nacht": 0.0,
           "psalm1": 2.0,
           "psalm2": 72.1,
           "psalm3": 72.2,
@@ -11046,7 +11045,7 @@ export const brevierData = {
           "ant3_lat": ""
         },
         "Laudes": {
-          "hymn_nacht": 3952.0,
+          "hymn_1": 3952.0,
           "ant1": "O wahre Sonne, Aufgang des neuen Lichts! Seht, unser König sitzt auf seinem Thron und herrscht. Frieden verkündet er den Völkern.",
           "ant2": "Bis an die Enden der Erde reicht sein Ruhm. Er wird der Friede sein.",
           "ant3": "Herrschaft, Würde und Königtum hat ihm der Herr gegeben; alle Völker, Stämme und Sprachen werden ihm dienen.",
@@ -11061,6 +11060,7 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, unser Herr und König, in dem alles seinen Bestand hat. Zu ihm lasst uns beten:",
           "bitten_r": "Kyrie, eleison.",
           "bitten": "Du bist als König eingesetzt über die ganze Erde;^qherrsche in unserem Denken und Tun.^pDu bist in die Welt gekommen, um von der Wahrheit Zeugnis zu geben;^qmach uns zu deinen Zeugen.^pDu hast uns in dein Reich gerufen;^qgib, dass wir untadelig vor dir leben.^pDu hast dein Leben für uns hingegeben;^qlass uns nicht verlorengehen.",
+          "hymn_nacht_lat": 3952.0,
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
@@ -11112,7 +11112,7 @@ export const brevierData = {
           "les_text_lat": ""
         },
         "Vesper": {
-          "hymn_nacht": 3994.0,
+          "hymn_1": 3994.0,
           "psalm1": 110.0,
           "psalm2": 145.4,
           "psalm3": 151.0,
@@ -11130,6 +11130,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu Christus, der am Kreuz unser König geworden ist:",
           "bitten_r": "Sohn Davids, erbarme dich unser.",
           "bitten": "Du unser König und Hirt, gedenke deines Volkes^qund führe es zusammen von den Enden der Erde.^pDu unser Meister und Heiland,^qrichte die Mutlosen auf.^pDu Fürst des Friedens,^qversöhne die Völker.^pDu König der Herrlichkeit,^qkomm mit deinem Frieden.^pDu Erstgeborener von den Toten,^qnimm die Verstorbenen auf in deine Herrlichkeit.",
+          "hymn_nacht_lat": 3994.0,
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",

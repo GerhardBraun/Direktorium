@@ -31,12 +31,12 @@ const LectureSelector = ({
         const secondData = lectureAlternatives[secondKeyword]?.second;
 
         const chain = (text1, text2, connector = '') => {
-            if (!text1 || text1.startsWith('LEER')) return text2;
-            text1 = text1.replace(/ \(.*$/, '').trim()
-            if (text1) {
-                return text1 + connector + ' ' + text2
-            }
-            else { return text2 }
+            text1 = (!text1 || text1?.startsWith('LEER'))
+                ? '' : text1.replace(/ \(.*$/, '').trim();
+            text2 = (!text2 || text2?.startsWith('LEER'))
+                ? '' : text2;
+            connector = text1 && text2 ? connector + ' ' : '';
+            return text1 + connector + text2
         }
 
         return {
@@ -79,7 +79,7 @@ const LectureSelector = ({
         if (source === 'Standard:') {
             return 'btn-default';
         }
-        return 'btn-brown';
+        return 'btn-default';
     };
 
     // Reset selections when alternatives change
@@ -252,38 +252,17 @@ export default LectureSelector;
 // Datenbank für alternative Lesungen
 const lectureAlternatives = {
     "Christkönig": {
-        first: {
-            les_buch: "Test für Buch",
-            les_stelle: "Test für Stelle 12,1-9",
-            les_text: "Test für Text",
-            resp2: "Test für Responsorium 2",
-            resp3: "Test für Responsorium 3"
-        },
         second: {
-            patr_autor: "Test für Autor",
-            patr_werk: "Test für Werk",
-            patr_text: "^hTest für Text",
-            patr_resp1: "Test für Responsorium 1.",
-            patr_resp2: "test",
-            patr_resp3: "Test für Responsorium 3."
+            patr_autor: "Romano Guardini († 1968)",
+            patr_werk: "Aus dem Buch „Der Herr“.",
+            patr_text: "^hGottes Trost in der Bedrängnis^pDie Geheime Offenbarung ist ein Buch des Trostes. Keine Theologie der Geschichte oder der letzten Dinge, sondern ein Trost, den Gott beim Ausgang der Apostelzeit seiner Kirche in die Hand gegeben hat. Dieses Trostes bedurfte sie, denn sie war sehr bedrängt.^pWie tröstet aber Gott? Nicht so, dass er sagte: „Die Not sei im Grunde nicht so schlimm“; sie ist schlimm und wird auch schlimm gesehen. Gott verheißt auch keine wunderbaren Eingriffe. Die Geschichte hat ihre Zeit und ihre Macht, auch wo sie sich wider Gott richtet, und die werden nicht aufgehoben.^pDoch über der irdischen Wirklichkeit wird die himmlische gezeigt. Über den bedrängenden Mächten der Geschichte erscheint, schweigend und wartend, der, den sie angreifen, Christus. Ihm gehört die Ewigkeit. Er sieht alles, wägt alles, vom innersten Beginn im Herzen bis zur letzten Auswirkung im Gang der Ereignisse, und schreibt alles in „das Buch“ seines unfehlbaren Wissens.^pUnd einmal schlägt die Stunde, da alle Dinge ihre Zeit gehabt haben. Dann vergehen sie, Christus aber lebt. Alles wird vor Ihn kommen, und Er wird das Wort sprechen, das jedes Menschenwerk enthüllt, jedem seinen genauen Wert gibt und ewig währt.^pDas ist der Trost. Ein Trost des Glaubens, der voraussetzt, dass der Hörende die Überwindung des Glaubens vollbringe. Und er ist nicht auf morgen und das nächste Jahr bezogen, überhaupt nicht auf dieses Leben, sondern über den Tod hinweg auf die Ewigkeit, und hilft soviel, als den Hörenden Gott und Christus und Ewigkeit wirklich sind.",
         }
     },
-    "Weihnachten": {
-        first: {
-            les_buch: "",
-            les_stelle: "",
-            les_text: "",
-            resp1: "",
-            resp2: "",
-            resp3: ""
-        },
+    "Ursula": {
         second: {
-            patr_autor: "",
-            patr_werk: "",
-            patr_text: "",
-            patr_resp1: "",
-            patr_resp2: "",
-            patr_resp3: ""
+            patr_autor: "Breviarium Coloniense (1521)",
+            patr_werk: "LEER",
+            patr_text: "^hDient untadelig eurem himmlischen König^pDie heilige Ursula setzte ihr Vertrauen auf das Wort der göttlichen Verheißung. Dennoch war sie auch bemüht um die menschliche Gebrechlichkeit. Sie hatte ihre Mitjungfrauen schon mit Worten und durch das christliche Beispiel belehrt. Doch nun ermahnte sie alle: In eurer bedrängten Lage müsst ihr um so entschlossener an der Tür des göttlichen Erbarmens pochen! Den Gürtel der Keuschheit dürft ihr niemals verlieren! Er ist ja das Zeichen, unter dem ihr eurem himmlischen König untadelig dient.^pMit diesen Worten „gab sie einen Sporn denen, die schon liefen“! Die gottverlobten Jungfrauen brachen in Tränen aus. Von ganzem Herzen und in der Glut des Geistes begannen sie die göttliche Hilfe anzurufen: Gott möge jeder einzelnen, besonders aber der Königin, die Jungfräulichkeit erhalten!^pDer gütige Gott ist allzeit denen nahe, die ihn in der Wahrheit anrufen. Darum wies er ein so frommes Gebet nicht ab. Aus seinen Schatzkammern holte er den Wind hervor. Von ihm wurden die Schiffe so angetrieben, dass sie in einem Tag und einer Nacht in glücklicher Fahrt zum Hafen gelangten, der Tyele heißt. Die Zahl der Schiffe und die Schar der Mädchen erlitt unterdessen keinen Schaden.^pSie gingen ans Ufer, das ihr Ziel war. Die Frau, die ihre Anführerin war, wurde Maria der Prophetin ähnlicher, als sie das Rote Meer vor den Heeren des Pharao durchschritten hatte. Sie sang dem himmlischen Bräutigam das hochzeitliche Lob, das sie ihm schuldete. Die Gemeinschaft der Mädchen stimmte darin ein, nicht mit lautem Rufen, sondern in der Harmonie des Gesanges. Sie sangen das frohe Lied der Schwester des Mose. Es klang empor zum Ohr Gott Zebaots wie lieblicher Klang.^pDort machten sie zur Nacht Station. Am folgenden Tag kauften sie, was sie notwendig hatten. Es war dort Markt. Dann gingen sie zu den Schiffen zurück und lichteten die Anker. Gegen die Strömung des Flusses ruderten sie. So kamen sie zu jener berühmten Stadt Köln, wo heute noch ihre Leiber in Frieden ruhen.^pSie gingen an Land. Nach dem Abendbrot überwältigte der Schlaf die von gottgefälliger Arbeit Übermüdeten. Die heilige Jungfrau Ursula hatte Gottes Wohlgefallen gefunden durch das Bekenntnis zur engelgleichen Keuschheit. Darum sah sie im Traum eine Engelsgestalt voll Licht und Hoheit. Er sagte ihr: Wisse, Tochter, was du so sehr ersehnt hast, wirst du unter dem himmlischen Schutz Gottes mit dieser lieben Gemeinschaft deiner Schwestern erlangen. Du wirst nach Rom gelangen. Die Zahl deiner Gefährtinnen wird keine Minderung erfahren. Die Gelöbnisse werden unvermindert erhalten. Gott hat euch hier die Ruhe in Ewigkeit bestimmt. Hier werdet ihr in Frieden ruhen.",
         }
     },
     "Ostern": {
