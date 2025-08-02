@@ -24,7 +24,7 @@ const resolveReference = (ref) => {
 };
 // Hilfsfunktion zur Berechnung der maximalen Zeilenlänge in einem Hymnus
 const calculateMaxLineLength = (text) => {
-    if (!text.includes('^/')) {
+    if (!text.includes('^/') && !text.includes('^ß')) {
         return 0; // Kein ^/-Tag vorhanden, keine Berechnung nötig
     }
 
@@ -40,6 +40,7 @@ const calculateMaxLineLength = (text) => {
         .replace(/°/g, ' ') // Geschützte Leerzeichen als normale Leerzeichen
         .replace(/>/g, '')
         .replace(/\^\//g, '   ')
+        .replace(/\^ß/g, ' ')
         .replace(/\^-/g, '-') // Bindestriche
         .replace(/\{(\d{1,2})#.*?\}/g, '$1') // Fußnoten nur als Nummer zählen
         .replace(/\^[öÖLö]/g, ' Halleluja'); // Halleluja-Marker
@@ -352,6 +353,9 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
             // Wenn keine ^/-Tags vorhanden oder maxLineLength <= widthForHymns, dann Leerzeichen
             // Andernfalls Zeilenumbruch
             return (maxLineLength > 0 && maxLineLength > widthForHymns) ? '\n' : '   ';
+        })())
+        .replace(/\^ß/g, (() => {
+            return (maxLineLength > 0 && maxLineLength > widthForHymns) ? '\n      ' : ' ';
         })())
         .replace(/\^-/g, '\u2011')
         .replace(/(\w)–/g, '$1\u200C–')

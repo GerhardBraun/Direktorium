@@ -2683,7 +2683,7 @@ export const adlibData = {
         },
         "Lesehore": {
           "patr_autor": "Laktanz (4. Jh.)",
-          "patr_werk": "Aus dem „Abriß der göttlichen Unterweisungen“.",
+          "patr_werk": "Aus dem „Abriss der göttlichen Unterweisungen“.",
           "patr_text": "^hKraft aus der Hoffnung auf das ewige Leben^pWenn mit dem Tode alles zu Ende ist, dann handelt töricht, wer das Leben des Mitmenschen zum Schaden seines eigenen schont. Wenn der Tod die Seele auslöscht, so braucht man sich nur um ein langes und gemächliches Leben zu bemühen; wenn uns aber nach dem Tode ein Leben erwartet, das ewig und glückselig ist, dann wird der Gerechte und Weise dieses leibliche Leben mit allen Gütern der Erde geringschätzen, weil er weiß, welche Belohnung er von Gott empfangen soll.^pWenn es den Menschen auch albern und töricht erscheint, lieber Marter und Tod auf sich zu nehmen, als den Göttern zu opfern und heil und wohlbehalten davonzukommen, so wollen wir uns mit aller Kraft und aller Geduld bemühen, Gott die Treue zu halten. Der Tod darf uns nicht schrecken noch der Schmerz uns beugen; wir müssen die Kraft des Geistes und die Standhaftigkeit unerschütterlich bewahren.^pMögen die uns dann Toren schelten, die selbst die größten Toren sind: sie, die blind und stumpf und unvernünftigen Tieren gleich sind; sie, die nicht einsehen, dass es zum Tode führt, den lebendigen Gott zu verlassen und sich vor irdischen Dingen in den Staub zu werfen; sie, die nicht wissen, dass ewige Strafe auf jene wartet, die empfindungslose Gebilde anbeten, und dass der bereitwilligen Übernahme von Martern und Tod für den Dienst und die Ehre des wahren Gottes das immerwährende Leben folgt.",
           "patr_resp1": "Ich habe den guten Kampf gekämpft, den Lauf vollendet, die Treue gehalten.",
           "patr_resp2": "Schon jetzt liegt für mich der Kranz der Gerechtigkeit bereit.",
@@ -2740,7 +2740,7 @@ export const adlibData = {
           "oration_lat": "Dómine Deus noster, qui beátæ Birgíttæ, Fílii tui passiónem meditánti, secréta cæléstia revelásti, da nobis fámulis tuis in revelatióne glóriæ tuæ gaudére lætántes.^ORlV"
         },
         "Laudes": {
-          "genitiv_lat": "sanctæ Brigittæ"
+          "genitiv_lat": "sanctæ Brigíttæ"
         }
       }
     },
@@ -2841,7 +2841,7 @@ export const adlibData = {
           "button": "Hl. Petrus Chrysologus",
           "genitiv": "des heiligen Petrus Chrysologus",
           "vokativ": "Heiliger Petrus Chrysologus",
-          "vokativ_lat": "sancte Petre Chrysologe"
+          "vokativ_lat": "sancte Petre Chrysóloge"
         }
       }
     },
@@ -2893,7 +2893,7 @@ export const adlibData = {
           "button": "Hl. Alfons Maria von Liguori",
           "genitiv": "des heiligen Alfons Maria",
           "vokativ": "Heiliger Alfons",
-          "vokativ_lat": "sancte Alfonse"
+          "vokativ_lat": "sancte Alfónse"
         }
       }
     },
