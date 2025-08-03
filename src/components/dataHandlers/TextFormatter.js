@@ -365,6 +365,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         .replace(/\^([()[\]])/g, '^r$1^0r')
         .replace(/ \^w/g, '^w ')
         .replace(/^\^A:[^:]+:/, '')
+        .replace(/\^SLICE/, '')
         .replace(/\^(ODER|VEL)/g, (match, text) => '^l^RUBR' + firstCapital(text) + ':^0RUBR^l')
         .replace(/([.?!]|)( |)(EINE?[RMN]?)/g, (match, punctuation, space, text) => {
             if (!punctuation && space) { return '^w' + match.toLowerCase() + '^0w' }

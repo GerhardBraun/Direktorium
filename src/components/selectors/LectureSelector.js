@@ -12,8 +12,11 @@ const LectureSelector = ({
     SectionHeader,
     ComposeResponse
 }) => {
-    const [selectedFirstLecture, setSelectedFirstLecture] = useState('standard');
-    const [selectedSecondLecture, setSelectedSecondLecture] = useState('standard');
+    // Array-basierter State für beide Lesungen
+    const [selectedLecture, setSelectedLecture] = useState({
+        first: 'standard',
+        second: 'standard'
+    });
 
     // Hilfsfunktion zum Extrahieren des Stichworts
     const extractKeyword = (field) => {
@@ -39,18 +42,36 @@ const LectureSelector = ({
             return text1 + connector + text2
         }
 
+        const abbreviate = (text) => {
+            if (!text) return text;
+
+            const sliceIndex = text.indexOf('^SLICE');
+            if (sliceIndex !== -1) {
+                text = text.substring(0, sliceIndex);
+            }
+
+            return text.replace(/[.!?;:,]+$/, '') + ' …';
+        };
         return {
             first: {
                 hasAlternative: firstKeyword && firstData,
+                hasAlternativeText: firstKeyword && firstData?.les_text,
+                onlyAlternativeResp: firstKeyword && !firstData?.les_text && firstData?.resp1,
                 keyword: firstKeyword,
                 standard: chain(getValue('les_buch'), getValue('les_stelle')),
-                button: chain(firstData?.les_buch, firstData?.les_stelle)
+                alternative: chain(firstData?.les_buch, firstData?.les_stelle),
+                respStandard: abbreviate(getValue('resp1')),
+                respAlternative: abbreviate(firstData?.resp1)
             },
             second: {
                 hasAlternative: secondKeyword && secondData,
+                hasAlternativeText: secondKeyword && secondData?.patr_text,
+                onlyAlternativeResp: secondKeyword && !secondData?.patr_text && secondData?.patr_resp1,
                 keyword: secondKeyword,
                 standard: chain(getValue('patr_autor'), getValue('patr_werk'), ':'),
-                button: chain(secondData?.patr_autor, secondData?.patr_werk, ':')
+                alternative: chain(secondData?.patr_autor, secondData?.patr_werk, ':'),
+                respStandard: abbreviate(getValue('patr_resp1')),
+                respAlternative: abbreviate(secondData?.patr_resp1)
             }
         };
     }, [getValue]);
@@ -58,9 +79,7 @@ const LectureSelector = ({
     // Funktion für die Auswahl der anzuzeigenden Daten
     const selected = (field) => {
         const lectureType = field.startsWith('patr_') ? 'second' : 'first';
-        const isAlternativeSelected = lectureType === 'first'
-            ? selectedFirstLecture === 'alternative'
-            : selectedSecondLecture === 'alternative';
+        const isAlternativeSelected = selectedLecture[lectureType] === 'alternative';
 
         if (!isAlternativeSelected) {
             return getValue(field);
@@ -75,26 +94,59 @@ const LectureSelector = ({
         return alternativeData?.[field] || getValue(field);
     };
 
-    const getButtonColor = (source) => {
-        if (source === 'Standard:') {
-            return 'btn-default';
-        }
-        return 'btn-default';
+    // DRY: Gemeinsame Funktion für Auswahl-Buttons
+    const renderSelectionButtons = (lectureType, alternatives) => {
+        const { standard, alternative, respStandard, respAlternative } = alternatives;
+        const currentSelection = selectedLecture[lectureType];
+
+        const handleSelectionChange = (selection) => {
+            setSelectedLecture(prev => ({
+                ...prev,
+                [lectureType]: selection
+            }));
+        };
+
+        const getButtonColor = () => 'btn-default';
+
+        return (
+            <div className="mb-4">
+                <button
+                    onClick={() => handleSelectionChange('standard')}
+                    className={`w-full text-sm text-left pl-2 pt-2 pb-1 mt-1 rounded mr-2
+                        ${getButtonColor()}
+                        ${currentSelection === 'standard' ? 'ring-2 ring-yellow-500' : ''}`}
+                >
+                    <div className="flex items-baseline gap-0">
+                        <div className="opacity-70 shrink-0 w-10"></div>
+                        <div>{alternatives.onlyAlternativeResp ? respStandard : formatPrayerText(standard)}</div>
+                    </div>
+                </button>
+                <button
+                    onClick={() => handleSelectionChange('alternative')}
+                    className={`w-full text-sm text-left pl-2 pt-2 pb-1 mt-1 rounded
+                        ${getButtonColor()}
+                        ${currentSelection === 'alternative' ? 'ring-2 ring-yellow-500' : ''}`}
+                >
+                    <div className="flex items-baseline gap-0">
+                        <div className="opacity-70 shrink-0 w-10">Oder:</div>
+                        <div>{alternatives.onlyAlternativeResp ? respAlternative : formatPrayerText(alternative)}</div>
+                    </div>
+                </button>
+            </div>
+        );
     };
 
     // Reset selections when alternatives change
     useEffect(() => {
-        if (!availableAlternatives.first.hasAlternative) {
-            setSelectedFirstLecture('standard');
-        }
-        if (!availableAlternatives.second.hasAlternative) {
-            setSelectedSecondLecture('standard');
-        }
+        setSelectedLecture(prev => ({
+            first: availableAlternatives.first.hasAlternative ? prev.first : 'standard',
+            second: availableAlternatives.second.hasAlternative ? prev.second : 'standard'
+        }));
     }, [availableAlternatives]);
 
     // Prüfe ob überhaupt Lesungen vorhanden sind
-    const hasFirstLecture = selected('les_buch') && selected('les_stelle');
-    const hasSecondLecture = selected('patr_text');
+    const hasFirstLecture = getValue('les_text');
+    const hasSecondLecture = getValue('patr_text');
 
     if (!hasFirstLecture && !hasSecondLecture) {
         return null;
@@ -111,33 +163,9 @@ const LectureSelector = ({
                         askContinuous={true}
                     />
 
-                    {/* Auswahl-Buttons für erste Lesung */}
-                    {availableAlternatives.first.hasAlternative && (
-                        <div className="mb-4">
-                            <button
-                                onClick={() => setSelectedFirstLecture('standard')}
-                                className={`w-full text-sm text-left pl-2 pt-2 pb-1 mt-1 rounded mr-2
-                                    ${getButtonColor('Standard:')}
-                                    ${selectedFirstLecture === 'standard' ? 'ring-2 ring-yellow-500' : ''}`}
-                            >
-                                <div className="flex items-baseline gap-0">
-                                    <div className="opacity-70 shrink-0 w-10"></div>
-                                    <div>{formatPrayerText(availableAlternatives.first.standard)}</div>
-                                </div>
-                            </button>
-                            <button
-                                onClick={() => setSelectedFirstLecture('alternative')}
-                                className={`w-full text-sm text-left pl-2 pt-2 pb-1 mt-1 rounded
-                                    ${getButtonColor('Alternative:')}
-                                    ${selectedFirstLecture === 'alternative' ? 'ring-2 ring-yellow-500' : ''}`}
-                            >
-                                <div className="flex items-baseline gap-0">
-                                    <div className="opacity-70 shrink-0 w-10">Oder:</div>
-                                    <div>{availableAlternatives.first.button}</div>
-                                </div>
-                            </button>
-                        </div>
-                    )}
+                    {/* Auswahl-Buttons für erste Lesung (nur bei alternativen Texten) */}
+                    {availableAlternatives.first.hasAlternativeText &&
+                        renderSelectionButtons('first', availableAlternatives.first)}
 
                     {/* Anzeige der ersten Lesung */}
                     <div>
@@ -171,6 +199,11 @@ const LectureSelector = ({
                         title="RESPONSORIUM"
                         field="resp1"
                     />
+
+                    {/* Auswahl-Buttons für erste Lesung (nur bei alternativen Responsorien) */}
+                    {availableAlternatives.first.onlyAlternativeResp &&
+                        renderSelectionButtons('first', availableAlternatives.first)}
+
                     <ComposeResponse
                         resp0={selected("resp0")}
                         resp1={selected("resp1")}
@@ -189,33 +222,9 @@ const LectureSelector = ({
                         askContinuous={true}
                     />
 
-                    {/* Auswahl-Buttons für zweite Lesung */}
-                    {availableAlternatives.second.hasAlternative && (
-                        <div className="mb-4">
-                            <button
-                                onClick={() => setSelectedSecondLecture('standard')}
-                                className={`w-full text-sm text-left pl-2 pt-2 pb-1 mt-1 rounded mr-2
-                                    ${getButtonColor('Standard:')}
-                                    ${selectedSecondLecture === 'standard' ? 'ring-2 ring-yellow-500' : ''}`}
-                            >
-                                <div className="flex items-baseline gap-0">
-                                    <div className="opacity-70 shrink-0 w-10"></div>
-                                    <div>{formatPrayerText(availableAlternatives.second.standard)}</div>
-                                </div>
-                            </button>
-                            <button
-                                onClick={() => setSelectedSecondLecture('alternative')}
-                                className={`w-full text-sm text-left pl-2 pt-2 pb-1 mt-1 rounded
-                                    ${getButtonColor('Alternative:')}
-                                    ${selectedSecondLecture === 'alternative' ? 'ring-2 ring-yellow-500' : ''}`}
-                            >
-                                <div className="flex items-baseline gap-0">
-                                    <div className="opacity-70 shrink-0 w-10">Oder:</div>
-                                    <div>{availableAlternatives.second.button}</div>
-                                </div>
-                            </button>
-                        </div>
-                    )}
+                    {/* Auswahl-Buttons für zweite Lesung (nur bei alternativen Texten) */}
+                    {availableAlternatives.second.hasAlternativeText &&
+                        renderSelectionButtons('second', availableAlternatives.second)}
 
                     {/* Anzeige der zweiten Lesung */}
                     <div>
@@ -235,6 +244,11 @@ const LectureSelector = ({
                         title="RESPONSORIUM"
                         field="resp1"
                     />
+
+                    {/* Auswahl-Buttons für zweite Lesung (nur bei alternativen Responsorien) */}
+                    {availableAlternatives.second.onlyAlternativeResp &&
+                        renderSelectionButtons('second', availableAlternatives.second)}
+
                     <ComposeResponse
                         resp0={null}
                         resp1={selected("patr_resp1")}
@@ -291,6 +305,18 @@ const lectureAlternatives = {
             patr_autor: "Franz von Sales († 1622)",
             patr_werk: "Aus einer Predigt zur Vigil von Weihnachten.",
             patr_text: "^hMorgen werdet ihr seine Herrlichkeit sehen^pDie heilige Kirche ist gewohnt, uns am Vorabend der großen Feste vorzubereiten, damit wir begierig sind, die großen Gnadenerweise zu erkennen, die wir in ihnen von Gott empfangen haben. Wenn die Christen der Urkirche unserem Herrn gewissermaßen Genugtuung leisten wollten für sein Blut, das er bei seinem Tod am Kreuz so freigebig vergossen hat, dann waren sie sorgsam bedacht, die Zeit der Feste recht zu nutzen und sie möglichst ganz zu feiern.^pDie heilige Kirche will also, dass wir uns in der Vigil des heiligen Weihnachtsfestes vorbereiten, und als ganz liebenswürdige Mutter will sie nicht, dass wir von einem so großen Geheimnis unvorbereitet überrascht werden; deshalb sagt sie uns die Worte: „Heute sollt ihr wissen, dass unser Herr morgen kommt.“ Das heißt soviel wie: Morgen wird er geboren, und ihr werdet ihn als ganz kleines Kind in einer Krippe liegend sehen{1#vgl. Lk 2,12}. Dabei hat sie keine andere Absicht, als zu erreichen, dass wir unseren Verstand in die Betrachtung der Größe des Geheimnisses der hochheiligen Geburt unseres Herrn versenken.^pUm das möglichst gut zu machen, werden wir vor allem unseren Verstand demütigen und anerkennen, dass er in keiner Weise fähig ist, auf den Grund dieses großen Geheimnisses vorzudringen, das ein wahrhaft christliches Mysterium ist.^pIch sage „christlich“, weil nur die Christen jemals begreifen konnten, dass Gott Mensch und der Mensch vergöttlicht wurde. Es ist ja ein Geheimnis, das verborgen ist im Dunkel und in der Finsternis der Nacht; nicht als ob das Geheimnis dunkel in sich selbst wäre, denn Gott ist nur Licht{2#vgl. Joh 1,5.9}.^pMan weiß ja, dass unsere Augen nicht fähig sind, das Licht oder die Klarheit der Sonne zu betrachten, ohne zu erblinden (wenn wir es unternehmen wollten, dieses Licht zu betrachten, sind wir gezwungen, die Augen zu schließen, und sind einige Zeit unfähig, etwas zu sehen). Ebenso liegt das, was uns daran hindert, das Geheimnis der hochheiligen Geburt unseres Herrn zu begreifen, nicht daran, dass es in sich dunkel wäre, sondern daran, dass es nichts als helles Licht ist.^pUnser Verstand, der das Auge unserer Seele ist, kann es nicht lange betrachten, ohne sich zu trüben, und muss demütig bekennen, dass er dieses Geheimnis nicht ergründen kann, um zu begreifen, wie Gott im jungfräulichen Schoß der allerseligsten Jungfrau Fleisch angenommen hat und Mensch geworden ist gleich uns, um uns Gott ähnlich zu machen."
+        }
+    },
+    "Dez25": {
+        first: {
+            resp1: "Vom Himmel stieg herab der wahre Gott^SLICE, vom Vater geboren. Er scheute nicht den Schoß der Jungfrau und nahm an das Fleisch des Menschen, in dem Adam geschaffen war,",
+            resp2: "und ist uns sichtbar erschienen, Gott und Mensch, Licht und Leben, Schöpfer der Welt.",
+            resp3: "Durch ihn ist alles geschaffen, für uns Menschen und um unseres Heiles willen stieg er vom Himmel herab"
+        },
+        second: {
+            patr_resp1: "Das Wort ist Fleisch geworden und hat unter uns gewohnt,",
+            patr_resp2: "und wir haben seine Herrlichkeit gesehen, die Herrlichkeit des einzigen Sohnes vom Vater, voll Gnade und Wahrheit.",
+            patr_resp3: "Er erschien auf der Erde und verkehrte unter den Menschen,"
         }
     },
     "Dez31": {
@@ -352,6 +378,6 @@ const lectureAlternatives = {
             patr_resp2: "",
             patr_resp3: ""
         }
-    }
+    },
     // Weitere Stichwörter können hier ergänzt werden
 };

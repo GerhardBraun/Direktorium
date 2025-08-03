@@ -2264,14 +2264,7 @@ export const lecture2Data = {
         }
       },
       "25": {
-        "Lesehore": {
-          "resp1": "Vom Himmel stieg herab der wahre Gott, vom Vater geboren. Er scheute nicht den Schoß der Jungfrau und nahm an das Fleisch des Menschen, in dem Adam geschaffen war,",
-          "resp2": "und ist uns sichtbar erschienen, Gott und Mensch, Licht und Leben, Schöpfer der Welt.",
-          "resp3": "Durch ihn ist alles geschaffen, für uns Menschen und um unseres Heiles willen stieg er vom Himmel herab",
-          "patr_resp1": "Das Wort ist Fleisch geworden und hat unter uns gewohnt,",
-          "patr_resp2": "und wir haben seine Herrlichkeit gesehen, die Herrlichkeit des einzigen Sohnes vom Vater, voll Gnade und Wahrheit.",
-          "patr_resp3": "Er erschien auf der Erde und verkehrte unter den Menschen,"
-        }
+        "Lesehore": {}
       },
       "29": {
         "Lesehore": {
