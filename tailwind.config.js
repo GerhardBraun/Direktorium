@@ -5,6 +5,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        rubric: '#780f2d', // Reichstagsblau
+        rubric: '#5f316e', // Reichstagsblau hell
         rubric: '#DC2626', // rot
         rubric: '#b6a03a', // gold
         // Neue Farbdefinitionen für Buttons

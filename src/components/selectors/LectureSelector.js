@@ -18,20 +18,15 @@ const LectureSelector = ({
         second: 'standard'
     });
 
-    // Hilfsfunktion zum Extrahieren des Stichworts
-    const extractKeyword = (field) => {
-        const text = getValue(field)
-        if (!text || !text.startsWith('^A:')) return null;
-        const match = text.match(/^\^A:([^:]+):/);
-        return match ? match[1] : null;
-    };
-
     // Prüfe verfügbare Alternativen
     const availableAlternatives = useMemo(() => {
-        const firstKeyword = extractKeyword('les_buch');
-        const secondKeyword = extractKeyword('patr_autor');
-        const firstData = lectureAlternatives[firstKeyword]?.first;
-        const secondData = lectureAlternatives[secondKeyword]?.second;
+
+        const extractKeyword = (field) => {
+            const text = getValue(field)
+            if (!text || !text.startsWith('^A:')) return null;
+            const match = text.match(/^\^A:([^:]+):/);
+            return match ? match[1] : null;
+        };
 
         const chain = (text1, text2, connector = '') => {
             text1 = (!text1 || text1?.startsWith('LEER'))
@@ -50,28 +45,42 @@ const LectureSelector = ({
                 text = text.substring(0, sliceIndex);
             }
 
-            return text.replace(/[.!?;:,]+$/, '') + ' …';
+            return text.replace(/[.!?;:,]+$/, '') + '\u00a0…';
         };
+
+        const firstKeyword = extractKeyword('les_buch');
+        const secondKeyword = extractKeyword('patr_autor');
+        const firstData = lectureAlternatives[firstKeyword]?.first;
+        const secondData = lectureAlternatives[secondKeyword]?.second;
+
         return {
             first: {
                 hasAlternative: firstKeyword && firstData,
                 hasAlternativeText: firstKeyword && firstData?.les_text,
                 onlyAlternativeResp: firstKeyword && !firstData?.les_text && firstData?.resp1,
                 keyword: firstKeyword,
-                standard: chain(getValue('les_buch'), getValue('les_stelle')),
-                alternative: chain(firstData?.les_buch, firstData?.les_stelle),
-                respStandard: abbreviate(getValue('resp1')),
-                respAlternative: abbreviate(firstData?.resp1)
+                button: {
+                    standard: chain(getValue('les_buch'), getValue('les_stelle')),
+                    alternative: chain(firstData?.les_buch, firstData?.les_stelle)
+                },
+                resp: {
+                    standard: abbreviate(getValue('resp1')),
+                    alternative: abbreviate(firstData?.resp1)
+                }
             },
             second: {
                 hasAlternative: secondKeyword && secondData,
                 hasAlternativeText: secondKeyword && secondData?.patr_text,
                 onlyAlternativeResp: secondKeyword && !secondData?.patr_text && secondData?.patr_resp1,
                 keyword: secondKeyword,
-                standard: chain(getValue('patr_autor'), getValue('patr_werk'), ':'),
-                alternative: chain(secondData?.patr_autor, secondData?.patr_werk, ':'),
-                respStandard: abbreviate(getValue('patr_resp1')),
-                respAlternative: abbreviate(secondData?.patr_resp1)
+                button: {
+                    standard: chain(getValue('patr_autor'), getValue('patr_werk'), ':'),
+                    alternative: chain(secondData?.patr_autor, secondData?.patr_werk, ':')
+                },
+                resp: {
+                    standard: abbreviate(getValue('patr_resp1')),
+                    alternative: abbreviate(secondData?.patr_resp1)
+                }
             }
         };
     }, [getValue]);
@@ -96,7 +105,7 @@ const LectureSelector = ({
 
     // DRY: Gemeinsame Funktion für Auswahl-Buttons
     const renderSelectionButtons = (lectureType, alternatives) => {
-        const { standard, alternative, respStandard, respAlternative } = alternatives;
+        const { button, resp } = alternatives;
         const currentSelection = selectedLecture[lectureType];
 
         const handleSelectionChange = (selection) => {
@@ -106,30 +115,35 @@ const LectureSelector = ({
             }));
         };
 
-        const getButtonColor = () => 'btn-default';
+        const getButtonColor = (source) => {
+            if (source === 'standard') {
+                return 'btn-default';
+            }
+            return 'btn-brown';
+        };
 
         return (
             <div className="mb-4">
                 <button
                     onClick={() => handleSelectionChange('standard')}
                     className={`w-full text-sm text-left pl-2 pt-2 pb-1 mt-1 rounded mr-2
-                        ${getButtonColor()}
+                        ${getButtonColor('standard')}
                         ${currentSelection === 'standard' ? 'ring-2 ring-yellow-500' : ''}`}
                 >
                     <div className="flex items-baseline gap-0">
                         <div className="opacity-70 shrink-0 w-10"></div>
-                        <div>{alternatives.onlyAlternativeResp ? respStandard : formatPrayerText(standard)}</div>
+                        <div>{alternatives.onlyAlternativeResp ? resp.standard : formatPrayerText(button.standard)}</div>
                     </div>
                 </button>
                 <button
                     onClick={() => handleSelectionChange('alternative')}
                     className={`w-full text-sm text-left pl-2 pt-2 pb-1 mt-1 rounded
-                        ${getButtonColor()}
+                        ${getButtonColor('alternative')}
                         ${currentSelection === 'alternative' ? 'ring-2 ring-yellow-500' : ''}`}
                 >
                     <div className="flex items-baseline gap-0">
                         <div className="opacity-70 shrink-0 w-10">Oder:</div>
-                        <div>{alternatives.onlyAlternativeResp ? respAlternative : formatPrayerText(alternative)}</div>
+                        <div>{alternatives.onlyAlternativeResp ? resp.alternative : formatPrayerText(button.alternative)}</div>
                     </div>
                 </button>
             </div>

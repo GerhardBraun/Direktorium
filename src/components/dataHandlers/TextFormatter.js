@@ -371,12 +371,12 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
             if (!punctuation && space) { return '^w' + match.toLowerCase() + '^0w' }
             else return punctuation + space + '^w' + firstCapital(text) + '^0w';
         })
-        .replace(/\^ö/g, (season === 'o' && !swdCombined.startsWith('o-9-'))
+        .replace(/\^Ö/g, (season === 'o' && !swdCombined.startsWith('o-9-'))
             ? ' Halleluja.' : '')
-        .replace(/\^Ö/g, season === 'q' ? '' : ' Halleluja.')
-        .replace(/\^Lö/g, (season === 'o' && !swdCombined.startsWith('o-9-'))
+        .replace(/\^ö/g, season === 'q' ? '' : ' Halleluja.')
+        .replace(/\^LÖ/g, (season === 'o' && !swdCombined.startsWith('o-9-'))
             ? ' Allelúia.' : '')
-        .replace(/\^LÖ/g, season === 'q' ? '' : ' Allelúia.')
+        .replace(/\^Lö/g, season === 'q' ? '' : ' Allelúia.')
 
     text = replaceNames(text)
     text = replaceRESP(text);
