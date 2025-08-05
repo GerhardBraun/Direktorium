@@ -502,56 +502,46 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
 
     return (
         <>
-            {maxLineLength < 0 && (
-                // Kontrollanzeige ausgeschaltet durch <-Zeichen
-                <div className="text-xs text-gray-500 mb-2">
-                    <div>Maximale Zeilenlänge: {maxLineLength}em</div>
-                    <div>Bildschirmbreite: {widthForHymns}em</div >
-                    <div>baseFontSize: {getLocalStorage('baseFontSize')}pt</div >
-                    <div>innerWidth: {window.innerWidth}pt</div >
-                </div>)}
-            {
-                segments
-                    .filter(segment => segment.trim().length > 0)
-                    .map((segment, index) => {
-                        let format = 'p';  // Standard-Format
-                        let content = segment;
+            {segments
+                .filter(segment => segment.trim().length > 0)
+                .map((segment, index) => {
+                    let format = 'p';  // Standard-Format
+                    let content = segment;
 
-                        // KORREKTUR: Nur bei erkannten Format-Tags verarbeiten
-                        if (segment.match(/^\^[phq]/)) {
-                            format = segment[1];
-                            content = segment.slice(2);
-                        }
+                    if (segment.match(/^\^[phq]/)) {
+                        format = segment[1];
+                        content = segment.slice(2);
+                    }
 
-                        let originalContent = content;
-                        for (const [marker, originalTag] of markerMap) {
-                            originalContent = originalContent.replace(marker, originalTag);
-                        }
+                    let originalContent = content;
+                    for (const [marker, originalTag] of markerMap) {
+                        originalContent = originalContent.replace(marker, originalTag);
+                    }
 
-                        const processedContent = processInlineFormats(originalContent);
+                    const processedContent = processInlineFormats(originalContent);
 
-                        switch (format) {
-                            case 'h':
-                                return (
-                                    <div key={index} className="whitespace-pre-wrap font-bold text-[0.9em] mt-2">
-                                        {processedContent}
-                                    </div>
-                                );
-                            case 'q':
-                                return (
-                                    <div key={index} className="whitespace-pre-wrap flex -mt-[0.75em] mb-[0.75em]">
-                                        <span className="w-[0.8em] flex-shrink-0">–</span>
-                                        <div>{processedContent}</div>
-                                    </div>
-                                );
-                            default:
-                                return (
-                                    <div key={index} className="whitespace-pre-wrap mb-[0.75em]">
-                                        {processedContent}
-                                    </div>
-                                );
-                        }
-                    })
+                    switch (format) {
+                        case 'h':
+                            return (
+                                <div key={index} className="whitespace-pre-wrap font-bold text-[0.9em] mt-2">
+                                    {processedContent}
+                                </div>
+                            );
+                        case 'q':
+                            return (
+                                <div key={index} className="whitespace-pre-wrap flex -mt-[0.75em] mb-[0.75em]">
+                                    <span className="w-[0.8em] flex-shrink-0">–</span>
+                                    <div>{processedContent}</div>
+                                </div>
+                            );
+                        default:
+                            return (
+                                <div key={index} className="whitespace-pre-wrap mb-[0.75em]">
+                                    {processedContent}
+                                </div>
+                            );
+                    }
+                })
             }
             {
                 useFootnoteList && allFootnotes.length > 0 && (

@@ -13,7 +13,7 @@ interface DeceasedData {
   };
 }
 
-export const deceasedData = {
+export const deceasedData =  {
   "1": {
     "1": [
       {
@@ -6585,6 +6585,14 @@ export const deceasedData = {
         "birth": "28.°August°1943°in°Karlsbad (Karlovy°Vary,°CZ¥-360°01)",
         "grave": "Neuer°Friedhof°Bruchköbel",
         "age": 72
+      },
+      {
+        "year": 2025,
+        "birthdate": "2239-04-28",
+        "name": "Dr.°Willi Paulo°Link, Msgr., GR, Carapicuíba/Brasilien",
+        "birth": "28.°April°1939°in°Stellberg/Krs. Fulda",
+        "grave": "",
+        "age": 86
       }
     ],
     "2": [
