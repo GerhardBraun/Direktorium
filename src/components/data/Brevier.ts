@@ -6692,7 +6692,7 @@ export const brevierData = {
           "resp1": "Hoheit und Pracht sind vor seinem Angesicht.",
           "resp2": "Halleluja,°halleluja.",
           "resp3": "Macht und Glanz in seinem Heiligtum.",
-          "antev": "Als die Jünger die Stimme aus der Wolke hörten, fielen sie auf ihr Angesicht nieder und fürchteten sich sehr. Da trat Jesus zu ihnen, faßte sie an und sprach: Steht auf und seid ohne Furcht.",
+          "antev": "Als die Jünger die Stimme aus der Wolke hörten, fielen sie auf ihr Angesicht nieder und fürchteten sich sehr. Da trat Jesus zu ihnen, fasste sie an und sprach: Steht auf und seid ohne Furcht.",
           "bitten_e": "Lasst uns beten zu Jesus Christus, der vor den Augen seiner Jünger verklärt wurde:",
           "bitten_r": "Kyrie, eleison.",
           "bitten": "Auf dem Berg der Verklärung hast du den Jüngern ein Bild deiner Osterherrlichkeit gezeigt;^qgib deiner Kirche Hoffnung in der Drangsal.^pDu hast Petrus, Jakobus und Johannes zu Zeugen deiner Verherrlichung gemacht;^qhilf den Nachfolgern der Apostel, deine Auferstehung zu verkünden.^pAuf dem Berge hast du mit Mose und Elija geredet;^qlass das Volk des Alten Bundes zum vollen Licht der Erlösung gelangen.^pDie Stimme aus der Wolke bezeugte dich als den geliebten Sohn des Vaters;^qgib, dass alle Menschen guten Willens dich als Sohn Gottes erkennen.^pDu wirst uns einst verwandeln in die Gestalt deines verklärten Leibes;^qnimm unsere verstorbenen Brüder und Schwestern auf in deine Herrlichkeit.",
