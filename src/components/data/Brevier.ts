@@ -6543,8 +6543,8 @@ export const brevierData = {
     "8": {
       "6": {
         "each": {
-          "oration": "Allmächtiger Gott, bei der Verklärung deines eingeborenen Sohnes hast du durch das Zeugnis der Väter die Geheimnisse unseres Glaubens bekräftigt. Du hast uns gezeigt, was wir erhoffen dürfen, wenn unsere Annahme an Kindes statt sich einmal vollendet. Hilf uns, auf das Wort deines Sohnes zu hören, damit wir Anteil erhalten an seiner Herrlichkeit.^ORlR",
-          "oration_lat": "Deus, qui fídei sacraménta in Unigéniti tui gloriósa Transfiguratióne patrum testimónio roborásti, et adoptiónem filiórum perféctam mirabíliter præsignásti, concéde nobis fámulis tuis, ut, ipsíus dilécti Fílii tui vocem audiéntes, eiúsdem coherédes éffici mereámur.^ORlR"
+          "oration": "Allmächtiger Gott, bei der Verklärung deines eingeborenen Sohnes hast du durch das Zeugnis der Väter die Geheimnisse unseres Glaubens bekräftigt. Du hast uns gezeigt, was wir erhoffen dürfen, wenn unsere Annahme an Kindes statt sich einmal vollendet. Hilf uns, auf das Wort deines Sohnes zu hören, damit wir Anteil erhalten an seiner Herrlichkeit.^ORvR",
+          "oration_lat": "Deus, qui fídei sacraménta in Unigéniti tui gloriósa Transfiguratióne patrum testimónio roborásti, et adoptiónem filiórum perféctam mirabíliter præsignásti, concéde nobis fámulis tuis, ut, ipsíus dilécti Fílii tui vocem audiéntes, eiúsdem coherédes éffici mereámur.^ORlvR"
         },
         "ErsteV": {
           "button": "1. Vesper zu Verklärung des Herrn",
