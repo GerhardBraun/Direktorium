@@ -2825,7 +2825,7 @@ export const psalmsData = {
     0.0: {
         "verses": "vgl.°1°Tim°3,16",
         "title": "Das Christusmysterium",
-        "text": "^rR^0r°Lobet den Herrn, alle Völker.^pEr wurde offenbart im Fleisch,^*gerechtfertigt durch den Geist,^l–°^rR^0r°Lobet den Herrn, alle Völker. –^pgeschaut von den Engeln,^*verkündet unter den Heiden,^l–°^rR^0r°Lobet den Herrn, alle Völker. –^pgeglaubt in der Welt,^*aufgenommen in die Herrlichkeit.^l^rR^0r°Lobet den Herrn, alle Völker.",
+        "text": "^rR^0r°Lobet den Herrn, alle Völker.^pEr wurde offenbart im Fleisch,^*gerechtfertigt durch den Geist,^p–°^rR^0r°Lobet den Herrn, alle Völker. –^pgeschaut von den Engeln,^*verkündet unter den Heiden,^p–°^rR^0r°Lobet den Herrn, alle Völker. –^pgeglaubt in der Welt,^*aufgenommen in die Herrlichkeit.^p^rR^0r°Lobet den Herrn, alle Völker.",
         "title_lat": "De mysterio et gloria Christi",
         "text_lat": "^rR^0r°Laudáte Dóminum, omnes gentes. –^pQui manifestátus est in cárne,^*iustificátus est in Spíritu,^l–°^rR^0r°Laudáte Dóminum, omnes gentes. –^pappáruit ángelis,^*prædicátus est in géntibus,^l–°^rR^0r°Laudáte Dóminum, omnes gentes. –^pcréditus est in mumdo,^*assúmptus est in glória.^l–°^rR^0r°Laudáte Dóminum, omnes gentes."
       }
