@@ -5290,6 +5290,25 @@ export const psalmsData = {
         "text_lat": "O nata lux de lúmine,^lIesu, redémptor sǽculi,^ldignáre clemens súpplicum^llaudes precésque súmere.^pPræ sole vultu flámmeus,^lut nix amíctu cándidus,^lin monte dignis téstibus^lapparuísti cónditor.^pVates alúmnis ábditos^lnovis vetústos cónferens,^lutrísque te divínitus^lDeum dedísti crédere.^pTe vox patérna cǽlitus^lsuum vocávit Fílium,^lquem nos fidéli péctore^lregem fatémur cǽlitum.^pQui carne quondam cóntegi^ldignátus es pro pérditis,^lnos membra confer éffici^ltui beáti córporis.^pLaudes tibi nos pángimus,^ldiléctus es qui Fílius,^lquem Patris atque Spíritus^lsplendor revélat ínclitus."
       }
   },
+  8808: {
+    0.0: {
+        "quote": "Dominikus Ld und Vp",
+        "title_lat": "Novus athléta Dómini",
+        "text_lat": "Novus athléta Dómini^lcollaudétur Domínicus,^lqui rem confórmat nómini,^lvir factus evangélicus.^pConsérvans sine mácula^lvirginitátis lílium,^lardébat quasi fácula^lpro zelo pereúntium.^pMundum calcans sub pédibus^laccínxit cor ad prœ́lia,^lnudus occúrrens hóstibus,^lChristi suffúltus grátia.^pPugnat verbo, miráculis,^lmissis per orbem frátribus,^lcrebros adiúngens sédulis^lfletus oratiónibus.^pSit trino De>o et símplici^llaus, honor, decus, glória,^lqui nos prece Domínici^lducat ad cæli gáudia. Amen."
+      }
+  },
+  8810: {
+    2.0: {
+        "quote": "Laurentius Ld",
+        "title_lat": "In mártyris Lauréntii",
+        "text_lat": "In mártyris Lauréntii^lnon incruénto prœ́lio,^larmáta pugnávit Fides^lprópr>ii cruóris pródiga.^pHic primus e septem viris^lqui stant ad aram próximi,^llevíta sublímis gradu^let céteris præstántior.^pHic dímicans fortíssimus^lnon ense præcínxit latus,^lhostíle sed ferrum retro^ltorquens in auctórem tulit.^pSic, sancte Laurénti, tuam^lnos passiónem quǽrimus;^lquod quisque supplex póstulat,^lfert impetrátum próspere,^pDum cæl>i inenarrábili^lalléctus urbi múniceps,^lætérn>æ in arce cúriæ^lgestas corónam cívicam.^pHonor Patri cum Fílio^let Spíritu Paráclito,^lqui nos tuis suffrágiis^lditent perénni láurea. Amen."
+      },
+    4.0: {
+        "quote": "Laurentius Lh und Vp",
+        "title_lat": "Mártyris Christi cólimus triúmphum",
+        "text_lat": "Mártyris Christi^/cólimus triúmphum,^ldona qui mundi^/peritúra spernit,^lfert opem nudis,^/aliménta, nummos^ltradit egénis.^pIgne torquétur,^/stábili tenóre^lcordis accénsus^/súperat mináces^lígnium flammas^/in amóre vitæ^lsemper opímæ.^pSpíritum sumpsit^/chorus angelórum,^líntulit cælo^/bene laureándum,^lut scelus laxet^/hóminum, precándo^lomnipoténtem.^pSúpplici voto^/rogitámus ergo^lómnibus, martyr,^/véniam precéris,^lcordis ardóres,^/fídei tenácem^lusque vigórem.^pGlóriam Patri resonémus omnes,^leius et Nato modulémur apte,^lcum quibus regnat simul et creátor^lSpíritus almus. Amen."
+      }
+  },
   8815: {
     0.0: {
         "title": "Herrlich strahlst du im Licht",

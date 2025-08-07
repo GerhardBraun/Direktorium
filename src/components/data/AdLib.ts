@@ -3042,12 +3042,30 @@ export const adlibData = {
         }
       }
     },
+    "9": {
+      "eig": {
+        "major": {
+          "comm_1": "MärtSg",
+          "comm_2": "Frau_Ord",
+          "oration": "Gott unserer Väter, du hast die heilige Märtyrin Edith Stein ^(Theresia Benedicta vom Kreuz^) zur Erkenntnis deines gekreuzigten Sohnes geführt und in seine Nachfolge bis zum Tode gerufen. Auf ihre Fürsprache lass alle Menschen in Christus den Erlöser erkennen und durch ihn zur Schau deiner Herrlichkeit gelangen.^ORvR",
+          "oration_lat": "Deus patrum nostrórum, qui beátam Terésiam Benedíctam mártyrem ad cognitiónem Fílii tui crucifíxi eiúsque imitatiónem usque ad mortem perduxísti, ipsa intercedénte concéde, ut omnes hómines Christum Salvatórem agnóscant et per eum ad perpétuam tui visiónem advéniant.^ORlvR"
+        },
+        "Laudes": {
+          "button": "Hl. Theresia Benedicta vom Kreuz",
+          "farbe": "r",
+          "nominativ": "Die heilige Theresia Benedicta vom Kreuz",
+          "genitiv": "der heiligen Theresia Benedicta vom Kreuz",
+          "genitiv_lat": "sanctæ Therésiæ Benedíctæ"
+        }
+      }
+    },
     "11": {
       "eig": {
         "major": {
           "comm_1": "Jgfr",
           "comm_2": "Frau_Ord",
-          "oration": "Barmherziger Gott, aus Liebe zu dir hat die heilige Klara ein Leben der Armut geführt. Hilf uns auf ihre Fürsprache, dass wir unsere Wünsche mäßigen und mit ganzer Hingabe Christus nachfolgen, damit wir im Himmel dich, unser höchstes Gut, schauen dürfen.^ORV"
+          "oration": "Barmherziger Gott, aus Liebe zu dir hat die heilige Klara ein Leben der Armut geführt. Hilf uns auf ihre Fürsprache, dass wir unsere Wünsche mäßigen und mit ganzer Hingabe Christus nachfolgen, damit wir im Himmel dich, unser höchstes Gut, schauen dürfen.^ORV",
+          "oration_lat": "Deus, qui beátam Claram ad paupertátis amórem misericórditer adduxísti, eius nobis intercessióne concéde, ut, in paupertáte spíritus Christum sequéntes, ad tui contemplatiónem in cælésti regno perveníre mereámur.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Klara von Assisi († 1253)",
@@ -3085,7 +3103,8 @@ export const adlibData = {
       "n2": {
         "major": {
           "comm_1": "Frau_Ord",
-          "oration": "Gott, du hast die heilige Johanna Franziska auf den verschiedenen Wegen ihres Lebens zu großen Taten befähigt. Höre auf ihre Fürsprache. Hilf jedem von uns, seine Berufung zu erkennen und deinen Auftrag zu erfüllen, damit wir Zeugen deines Lichtes werden.^ORV"
+          "oration": "Gott, du hast die heilige Johanna Franziska auf den verschiedenen Wegen ihres Lebens zu großen Taten befähigt. Höre auf ihre Fürsprache. Hilf jedem von uns, seine Berufung zu erkennen und deinen Auftrag zu erfüllen, damit wir Zeugen deines Lichtes werden.^ORV",
+          "oration_lat": "Deus, qui beátam Ioánnam Francíscam per várias vitæ sémitas præcláris méritis illustrásti, ipsíus nobis intercessióne concéde, ut, in vocatióne nostra fidéliter ambulántes, lucis exémpla iúgiter ostendámus.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "LEER",
@@ -3127,7 +3146,8 @@ export const adlibData = {
         "major": {
           "comm_1": "MärtPl",
           "comm_2": "Hirten",
-          "oration": "Herr, unser Gott, wir gedenken der heiligen Märtyrer Pontianus und Hippolyt und ehren ihr ruhmvolles Sterben für Christus. Das Beispiel ihrer Treue mehre in uns die Liebe zu dir und stärke unseren Glauben.^ORV"
+          "oration": "Herr, unser Gott, wir gedenken der heiligen Märtyrer Pontianus und Hippolyt und ehren ihr ruhmvolles Sterben für Christus. Das Beispiel ihrer Treue mehre in uns die Liebe zu dir und stärke unseren Glauben.^ORV",
+          "oration_lat": "Patiéntia pretiósa iustórum tuæ nobis, Dómine, quǽsumus, afféctum dilectiónis accúmulet, et in córdibus nostris sacræ fídei semper exérceat firmitátem.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Cyprian von Karthago (†°258)",

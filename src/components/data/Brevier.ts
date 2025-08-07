@@ -1278,8 +1278,8 @@ export const brevierData = {
           "ant1_lat": "In omnem terram exívit sonus eórum, et in fines orbis terræ verba eórum.^LÖ",
           "ant2_lat": "Annuntiavérunt ópera Dei, et facta eius intellexérunt.^LÖ",
           "ant3_lat": "Annuntiavérunt iustítiam eius, et vidérunt omnes pópuli glóriam eius.^LÖ",
-          "versikel0_lat": "Narravérunt laudes Dómini et virtútes eius.",
-          "versikel1_lat": "Et mirabília eius quæ fecit."
+          "versikel0_lat": "Narravérunt laudes Dómini et virtútes eius.^LÖ",
+          "versikel1_lat": "Et mirabília eius quæ fecit.^LÖ"
         },
         "Laudes": {
           "button": "Ap",
@@ -6709,26 +6709,11 @@ export const brevierData = {
           "les_text_lat": "Ipse Spíritus testimónium reddit una cum spíritu nostro quod sumus fílii Dei. Si autem fílii, et herédes: herédes quidem Dei, coherédes autem Christi; si tamen compátimur, ut et conglorificémur."
         }
       },
-      "9": {
-        "each": {
-          "comm_1": "MärtSg",
-          "comm_2": "Frau_Ord",
-          "oration": "Gott unserer Väter, du hast die heilige Märtyrin Edith Stein ^(Theresia Benedicta vom Kreuz^) zur Erkenntnis deines gekreuzigten Sohnes geführt und in seine Nachfolge bis zum Tode gerufen. Auf ihre Fürsprache lass alle Menschen in Christus den Erlöser erkennen und durch ihn zur Schau deiner Herrlichkeit gelangen.^ORvR",
-          "oration_lat": ""
-        },
-        "Laudes": {
-          "button": "Hl. Theresia Benedicta vom Kreuz",
-          "farbe": "r",
-          "nominativ": "Die heilige Theresia Benedicta vom Kreuz",
-          "genitiv": "der heiligen Theresia Benedicta vom Kreuz",
-          "genitiv_lat": ""
-        }
-      },
       "10": {
         "each": {
           "comm_1": "MärtSg",
           "oration": "Barmherziger Gott, die glühende Liebe zu dir hat dem heiligen Diakon Laurentius die Kraft gegeben, dir und den Armen treu zu dienen und furchtlos für dich zu sterben. Hilf uns, dich zu lieben, wie er dich geliebt hat, und den Armen zu dienen, wie er ihnen gedient hat.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, cuius caritátis ardóre beátus Lauréntius servítio cláruit fidélis et martýrio gloriósus, fac nos amáre quod amávit, et ópere exercére quod dócuit.^ORlV"
         },
         "Lesehore": {
           "versikel0": "Mich trafen Not und Bedrängnis,",
@@ -6745,15 +6730,7 @@ export const brevierData = {
           "patr_resp1": "Laurentius rief: Meinen Gott verehre ich, ihm diene ich allein;",
           "patr_resp2": "ich fürchte deine Foltern nicht.",
           "patr_resp3": "Mein Gott ist mein Helfer, auf ihn hoffe ich.",
-          "versikel0_lat": "",
-          "versikel1_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "patr_resp1_lat": "",
-          "patr_resp2_lat": "",
-          "patr_resp3_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 8810.4
         },
         "Laudes": {
           "button": "Hl. Laurentius",
@@ -6762,20 +6739,22 @@ export const brevierData = {
           "ant2": "Der Herr hat seinen Engel gesandt und mich befreit aus der lodernden Flamme, aus der Mitte des Feuers.",
           "ant3": "Der heilige Laurentius betete und sprach: Ich sage dir Dank, o Herr, dass du mich aufgenommen hast in deine Herrlichkeit.",
           "antev": "Fürchte dich nicht, mein Knecht, ich bin bei dir. Gehst du durch Feuer, so wirst du nicht verbrennen, die Flamme wird dich nicht versengen.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "antev_lat": ""
+          "hymn_1_lat": 8810.2,
+          "ant1_lat": "Adhǽsit ánima mea post te, quia caro mea igne cremáta est pro te, Deus meus.",
+          "ant2_lat": "Misit Dóminus ángelum suum et liberávit me de médio ignis, et non sum æstuátus.",
+          "ant3_lat": "Beátus Lauréntius orábat dicens: Grátias tibi ago, Dómine, quia iánuas tuas íngredi mérui.",
+          "antev_lat": "Puer meus, noli timére, quia ego sum tecum; si transíeris per ignem, flamma non nocébit tibi, et odor ignis non erit in te."
         },
         "Vesper": {
           "ant1": "Laurentius wurde aufgenommen in die Schar der Märtyrer, denn er hatte sich zum Namen Jesu Christi bekannt.",
           "ant2": "Der heilige Laurentius rief: Ich freue mich von Herzen, dass ich eine Opfergabe Christi werden darf.",
           "ant3": "Der heilige Laurentius betete und sprach: Ich sage dir Dank, o Herr, dass du mich aufgenommen hast in deine Herrlichkeit.",
           "antev": "Der heilige Laurentius sprach: Meine Nacht kennt keine Dunkelheit, sie ist hell wie der Tag.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "antev_lat": ""
+          "hymn_1_lat": 8810.4,
+          "ant1_lat": "Lauréntius ingréssus est martyr, et conféssus est nomen Dómini Iesu Christi.",
+          "ant2_lat": "Beátus Lauréntius clamávit dicens: Gáudeo plane, quia hóstia Christi éffici mérui.",
+          "ant3_lat": "Grátias ago, Dómine Iesu Christe, quia iánuas tuas íngredi mérui.",
+          "antev_lat": "Beátus Lauréntius dixit: Mea nox obscúrum non habet, sed ómnia in luce claréscunt."
         }
       },
       "14": {
@@ -7074,6 +7053,19 @@ export const brevierData = {
           "bitten_lat": "",
           "les_text_lat": "",
           "oration_lat": ""
+        }
+      },
+      "8": {
+        "each": {
+          "oration_lat": "Adiuvet Ecclésiam tuam, Dómine, beátus Domínicus méritis et doctrínis, atque pro nobis efficiátur piíssimus intervéntor, qui tuæ veritátis éxstitit prædicátor exímius.^ORlV"
+        },
+        "Laudes": {
+          "genitiv_lat": "sancti Domínici",
+          "vokativ_lat": "sancte Domínice",
+          "hymn_1_lat": 8808.0
+        },
+        "Vesper": {
+          "hymn_1_lat": 8808.0
         }
       }
     },

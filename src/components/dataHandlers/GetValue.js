@@ -13,16 +13,20 @@ export const getValue = ({ season, hour, texts, field,
     if (hour === 'komplet') {
         return getKompletValue({ texts, field, localPrefKomplet, localPrefLanguage })
     }
+
+    const languageField = `${field}${localPrefLanguage}`
+
     if (['kirchw', 'verst'].includes(prefSollemnity)) {
         const data = dataSollemnities[prefSollemnity]
-        const languageField = `${field}${localPrefLanguage}`
         return data?.[season]?.[hour]?.[languageField]
             || data?.each?.[hour]?.[languageField]
             || data?.each?.each?.[languageField]
             ||
             data?.[season]?.[hour]?.[field]
             || data?.each?.[hour]?.[field]
-            || data?.each?.each?.[field] || null
+            || data?.each?.each?.[field]
+            ||
+            null
     }
 
     const replaceErgPs = (data) => {
@@ -70,7 +74,7 @@ export const getValue = ({ season, hour, texts, field,
                 dayOfWeek !== 0);
 
         // Sonderfall 4. Adventssonntag
-        if (swdCombined === 'a-4-0' &&
+        if (((swdCombined === 'a-3-6' && hour === 'vesper') || swdCombined === 'a-4-0') &&
             !texts.laudes.wt.oration.startsWith('Herr Jesus Christus')) {
             if (field === 'oration') {
                 return 'Allmächtiger Gott, gieße deine Gnade in unsere Herzen ein. Durch die Botschaft des Engels haben wir die Menschwerdung Christi, deines Sohnes, erkannt. Führe uns durch sein Leiden und Kreuz zur Herrlichkeit der Auferstehung.^ORvR'
@@ -99,7 +103,6 @@ export const getValue = ({ season, hour, texts, field,
                 (texts[hour][prefSrc]?.[checkAnt0] ||
                     texts[hour][prefSrc]?.[`com${localPrefComm}`]?.[checkAnt0])
             )) {
-                const languageField = `${field}${localPrefLanguage}`
                 const data = dataSollemnities.soll?.[dayOfWeek]?.[hour]?.[languageField]
                     || dataSollemnities.soll?.[dayOfWeek]?.[hour]?.[field]
                     || dataSollemnities.soll.each?.[hour]?.[languageField]
@@ -159,28 +162,20 @@ export const getValue = ({ season, hour, texts, field,
             //Sonderfall Wochentagspsalmen
             if (localPrefPsalmsWt && isPsalmodie &&
                 hour !== 'invitatorium'
-            ) {
-                return texts[hour]?.wt?.[field]
-            }
+            ) { return texts[hour]?.wt?.[field] }
 
             //Sonderfall Bahnlesung
             if (localPrefContinuous && hour === 'lesehore' &&
                 /^(les_|resp|patr_)/.test(field)
-            ) {
-                return texts[hour]?.wt?.[field]
-            }
+            ) { return texts[hour]?.wt?.[field] }
             //Sonderfall Antiphonen: entweder ant0 oder ant1-3
             if (field === `ant0${localPrefLanguage}` &&
                 (prefTexts?.[`ant1${localPrefLanguage}`] || prefCommTexts?.[`ant1${localPrefLanguage}`])
-            ) {
-                return 'STOP'
-            }
+            ) { return 'STOP' }
 
             if ([`ant1${localPrefLanguage}`, `ant2${localPrefLanguage}`, `ant3${localPrefLanguage}`].includes(field) &&
                 (prefTexts?.[`ant0${localPrefLanguage}`] || prefCommTexts?.[`ant0${localPrefLanguage}`])
-            ) {
-                return 'STOP'
-            }
+            ) { return 'STOP' }
 
             // 1. Prüfe zuerst prefSrc
             if (prefTexts?.[field]) {
@@ -201,7 +196,7 @@ export const getValue = ({ season, hour, texts, field,
         return null;
     };
 
-    const languageResult = getFieldValue(`${field}${localPrefLanguage}`);
+    const languageResult = getFieldValue(languageField);
     if (languageResult === 'STOP') { return null }
     if (typeof languageResult === 'string' && languageResult.startsWith('^RK:')) {
         return "^RUBRLateinische Commune-Oration:^0RUBR^l"
@@ -288,11 +283,11 @@ const dataKomplet = {
         "resp1": "Herr, auf dich vertraue ich,",
         "resp2": "in deine Hände lege ich mein Leben.",
         "resp3": "Lass leuchten über deinem Knecht dein Antlitz, hilf mir in deiner Güte.",
-        "antev": "Sei unser Heil, o°Herr, wenn wir wachen, und unser Schutz, wenn wir schlafen, damit wir wachen mit Christus und ruhen in Frieden.^ö",
+        "antev": "Sei unser Heil, o°Herr, wenn wir wachen, und unser Schutz, wenn wir schlafen, damit wir wachen mit Christus und ruhen in Frieden.^Ö",
         "resp1_lat": "In manus tuas, Dómine,",
         "resp2_lat": "comméndo\u00a0spíritum\u00a0meum.",
         "resp3_lat": "Redemísti nos, Dómine Deus veritátis._lat",
-        "antev_lat": "Salva nos, Dómine, vigilántes, custódi nos dormiéntes, ut vigilémus cum Christo et requiescámus in pace.^Lö"
+        "antev_lat": "Salva nos, Dómine, vigilántes, custódi nos dormiéntes, ut vigilémus cum Christo et requiescámus in pace.^LÖ"
     },
     "0": {
         "hymn_2": 2510.0,
