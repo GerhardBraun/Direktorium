@@ -2988,7 +2988,7 @@ export const psalmsData = {
         "text_neu": "Ich danke dir, HERR.^+Du hast mir gezürnt.^*Möge dein Zorn sich wenden, auf dass du mich tröstest.^pSiehe, Gott ist mein Heil;^*ich vertraue und erschrecke nicht.^pDenn meine Stärke und mein Lied ist Gott, der HERR.^*Er wurde mir zum Heil.^pIhr werdet Wasser freudig schöpfen^*aus den Quellen des Heils.^pAn jenem Tag werdet ihr sagen:^*Dankt dem HERRN! Ruft seinen Namen an!^pMacht unter den Völkern seine Taten bekannt,^*verkündet: Sein Name ist erhaben!^pSingt dem HERRN,^*denn Überragendes hat er vollbracht;^*bekannt gemacht sei dies auf der ganzen Erde.^pJauchzt und jubelt, ihr Bewohner Zions;^*denn groß ist in eurer Mitte der Heilige Israels.",
         "title_lat": "Populi redempti exsultatio",
         "quote_lat": "Si quis sitit, veniat ad me et bibat. (Io°7,37)",
-        "text_lat": "Confitébor tibi, Dómine,#^*quóniam cum irátus eras mihi,^*convérsus est furor tuus, et consolátus es me.^pEcce Deus salútis meæ;^*fiduciáliter agam et non timébo,^pquia fortitúdo mea et laus mea Dóminus,^*et factus est mihi in salútem.^pEt hauriétis aquas in gaudio^*de fóntibus salútis.^pEt dicétis in die illa:^*„Confitémini Dómino et invocáte nomen eius,^pnotas fácite in pópulis adinventiónes eius;^*mementóte quóniam excélsum est nomen eius.^pCantáte Dómino, quóniam magnífice fecit;^*notum sit hoc in univérsa terra.^pExsúlta et lauda, quæ hábitas in Sion,^*quia magnus in médio tui Sanctus Israel.“"
+        "text_lat": "Confitébor tibi, Dómine,^+quóniam cum irátus eras mihi,^*convérsus est furor tuus, et consolátus es me.^pEcce Deus salútis meæ;^*fiduciáliter agam et non timébo,^pquia fortitúdo mea et laus mea Dóminus,^*et factus est mihi in salútem.^pEt hauriétis aquas in gaudio^*de fóntibus salútis.^pEt dicétis in die illa:^*„Confitémini Dómino et invocáte nomen eius,^pnotas fácite in pópulis adinventiónes eius;^*mementóte quóniam excélsum est nomen eius.^pCantáte Dómino, quóniam magnífice fecit;^*notum sit hoc in univérsa terra.^pExsúlta et lauda, quæ hábitas in Sion,^*quia magnus in médio tui Sanctus Israel.“"
       }
   },
   175: {
@@ -5323,12 +5323,62 @@ export const psalmsData = {
     2.0: {
         "quote": "MarHimmelf Ld lat.",
         "title_lat": "Solis, o Virgo, rádiis amícta",
-        "text_lat": "Solis, o Virgo, rádiis amícta,^lbis caput senis redimíta stellis,^lluna cui præbet pédibus scabéllum,^línclita fulges.^pMortis, inférni domitríxque culpæ,^lássides Christo studiósa nostri,^lteque regínam célebrat poténtem^lterra polúsque.^pAsseclas diæ fídei tuère;^ldíssitos adduc ad ovíle sacrum;^lquas diu gentes tegit umbra mortis^lúndique coge.^pSóntibus mitis véniam precáre,^ládiuva flentes, ínopes et ægros,^lspes mica cunctis per acútæ vitæ^lcerta salútis.^pLaus sit excélsæ Tríadi perénnis,^lquæ tibi, Virgo, tríbuit corónam,^latque regínam statuítque nostram^lpróvida matrem."
+        "text_lat": "Solis, o Virgo,^/rádiis amícta,^lbis caput senis^/redimíta stellis,^lluna cui præbet^/pédibus scabéllum,^línclita fulges.^pMortis, inférni^/domitríxque culpæ,^lássides Christo^/studiósa nostri,^lteque regínam^/célebrat poténtem^lterra polúsque.^pAsseclas diæ^/fídei tuère;^ldíssitos adduc^/ad ovíle sacrum;^lquas diu gentes^/tegit umbra mortis^lúndique coge.^pSóntibus mitis^/véniam precáre,^ládiuva flentes,^/ínopes et ægros,^lspes mica cunctis^/per acútæ vitæ^lcerta salútis.^pLaus sit excélsæ^/Tríadi perénnis,^lquæ tibi, Virgo,^/tríbuit corónam,^latque regínam^/statuítque nostram^lpróvida matrem."
       },
     4.0: {
         "quote": "MarHimmelf Vp lat.",
         "title_lat": "Gáudium mundi, nova stella cæli",
-        "text_lat": "Gáudium mundi, nova stella cæli,^lprócreans solem, páriens paréntem,^lda manum lapsis, fer opem cadúcis,^lvirgo María.^pTe Deo factam liquet esse scalam^lqua tenens summa petit Altus ima;^lnos ad excélsi remeáre cæli^lcúlmina dona.^pTe beatórum chorus angelórum,^lte prophetárum et apostolórum^lordo prælátam sibi cernit unam^lpost Deitátem.^pLaus sit excélsæ Tríadi perénnis,^lquæ tibi, Virgo, tríbuit corónam,^latque regínam statuítque nostram^lpróvida matrem."
+        "text_lat": "Gáudium mundi,^/nova stella cæli,^lprócreans solem,^/páriens paréntem,^lda manum lapsis,^/fer opem cadúcis,^lvirgo María.^pTe Deo factam^/liquet esse scalam^lqua tenens summa^/petit Altus ima;^lnos ad excélsi^/remeáre cæli^lcúlmina dona.^pTe beatórum^/chorus angelórum,^lte prophetárum^/et apostolórum^lordo prælátam^/sibi cernit unam^lpost Deitátem.^pLaus sit excélsæ^/Tríadi perénnis,^lquæ tibi, Virgo,^/tríbuit corónam,^latque regínam^/statuítque nostram^lpróvida matrem."
+      }
+  },
+  8820: {
+    0.0: {
+        "quote": "Bernhard Ld und Vp",
+        "title_lat": "Bernárde, gemma cǽlitum",
+        "text_lat": "Bernárde, gemma cǽlitum,^llaudes, tibi quas pángimus,^lin nostra verte gáudia^lsalútis atque múnera.^pTe Christus ussit íntimo^ldilectiónis vúlnere^lSponsǽque fecit próvidus^lscutum, colúmnam, lámpada.^pAlmus dedit te Spíritus^los veritátis prófluum^let angelórum pábuli^larcána mella próferens.^pAmóris æstu cándidi^lte Virgo Mater ímbuit,^lquam nemo te facúndius^lvel prædicávit áltius.^pTe quæsiérunt árbitrum^lreges, magístri, prǽsules,^lcultórque solitúdinis^lfama replésti sǽculum.^pSit Trinitáti glória,^lquæ se vidéndam lárgiens,^ltecum benígna gáudio^lnos det perénni pérfrui. Amen."
+      }
+  },
+  8822: {
+    1.0: {
+        "quote": "Maria Königin lat. Lh",
+        "title_lat": "Rerum suprémo in vértice",
+        "text_lat": "Rerum suprém>o in vértice^lregína, Virgo, sísteris,^lexuberánter ómnium^lditáta pulchritúdine.^pPrinceps opus tu cétera^linter creáta prǽnites,^lprædestináta Fílium,^lqui prótulit te, gígnere.^pUt Christus alt>a ab árbore^lrex purpurátus sánguine,^lsic passiónis párticeps^ltu mater es vivéntium.^pTantis decóra láudibus,^lad nos ovántes réspice,^ltibíque sume grátulans^lquod fúndimus præcónium.^pPatri sit et Paráclito^ltuóque Nato glória,^lqui veste te mirábili^lcircumdedérunt grátiæ. Amen."
+      },
+    2.0: {
+        "quote": "Maria Königin lat. Ld",
+        "title_lat": "O quam glorífica luce corúscas",
+        "text_lat": "O quam glorífica luce corúscas,^lstirpis Davídicæ régia proles,^lsublímis résidens, virgo María,^lsupra cælígenas ǽtheris omnes.^pTu, cum virgíneo mater honóre,^lcælórum Dómino péctoris aulam^lsacris viscéribus casta parásti;^lnatus hinc Deus est córpore Christus:^pQuem cunctus vénerans orbis adórat,^lc>ui nunc rite genu fléctitur omne,^la quo te pétimus subveniénte^labiéctis ténebris gáudia lucis.^pHoc largíre, Pater lúminis omnis,^lNatum per próprium, Flámine Sancto,^lqui tecum nítida vivit in æthra^lregnans ac móderans sǽcula cuncta. Amen."
+      },
+    4.0: {
+        "quote": "Maria Königin lat. Vp",
+        "title_lat": "Mole graváti críminum",
+        "text_lat": "Mole graváti críminum^lad te, regína cǽlitum,^lconfugiéntes, póscimus^lnostris ut adsis précibus.^pÆtérnæ vitæ iánua,^laurem nobis accómmoda,^lper quam spes vitæ rédiit,^lquam Eva peccans ábstulit.^pTu princeps, mater Príncipis,^lvitam depósce fámulis,^let pæniténdi spátia^lnobis indúlgens ímpetra.^pOránte te, sanctíssima,^lsanctórum orant ágmina;^ltuis, regína, précibus^lconciliétur Dóminus.^pRegnátrix mater ómnium,^lvota comple fidélium,^lac vitam nos post frágilem^lad veram perduc réquiem.^pSit laus Patri cum Fílio^let Spíritu Paráclito,^lqui te præ cunctis cǽlica^lexornavérunt glória. Amen."
+      }
+  },
+  8824: {
+    0.0: {
+        "quote": "Bartholomäus Ld",
+        "title_lat": "Relúcens inter príncipes",
+        "text_lat": "Relúcens inter príncipes^limménsæ Dei cúriæ,^lBartholomǽe, láudibus^lnostrísqu>e inténde précibus.^pIn te convértit Dóminus^ldilectiónis óculos,^lquem pur>a insígnem cónspicit^lsinceritáte péctoris.^pProphétæ quem cecínerant,^lquem longa clamant témpora,^lMessías en mirífice^ltibi lætánti próditur.^pTeque sibi conglútinat^lsequélæ talis fœ́dere,^lqua petat crucis áspera,^lcæli sedes retríbuat.^pChristi, qui sæclis ímperat,^lamícus et apóstolus,^lMagístro vivis, hómines^lMagístri vita réfoves.^pSit ipsi laus et glória,^lqui, te iuvánte méritis,^lætérnis nos in pátria^lfrui concédat gáudiis. Amen."
+      }
+  },
+  8828: {
+    0.0: {
+        "quote": "Augustinus Ld und Vp",
+        "title_lat": "Fulget in cælis célebris sacérdos",
+        "text_lat": "Fulget in cælis^/célebris sacérdos,^lstella doctórum^/rútilat corúsca,^llumen intáctum^/fídei per orbis^lclímata spargens.^pCive tam claro,^/Sion o supérna,^llæta dic laudes^/Dómino salútis,^lqui modis miris^/sibi vinxit ipsum^llúmine complens.^pHic fidem sacram^/vigil usque firmat,^larm>a et errórum^/súbigit poténter,^lsórdidos mores^/lavat et repéllit^ldógmate claro.^pQui, gregis Christi^/speculátor almus,^lénites clero^/monachísque forma,^ltu Dei nobis^/fáciem benígnam^lfac prece semper.^pLaus, honor, virtus^/Triádi beátæ,^lcuius in terris^/studuíst>i amánter^lalta scrutári^/nitidáqu>e in astris^lluce potíris. Amen."
+      }
+  },
+  8829: {
+    2.0: {
+        "quote": "Enthauptung Joh. Ld",
+        "title_lat": "O nimis felix meritíque celsi",
+        "text_lat": "O nimis felix^/meritíque celsi,^lnésciens labem^/nívei pudóris,^lprǽpotens martyr^/eremíque cultor,^lmáxime vatum.^pNunc potens nostri^/méritis opímis^lpéctoris duros^/lápides repélle,^lásperum planans^/iter, et refléxos^ldírige calles,^pUt pius mundi^/sator et redémptor,^lméntibus pulsa^/mácula polítis,^lrite dignétur^/véniens sacrátos^lpónere gressus.^pLáudibus cives^/célebrant supérni^lte, Deus simplex^/paritérque trine;^lsúpplices ac nos^/véniam precámur:^lparce redémptis."
+      },
+    4.0: {
+        "quote": "Enthauptung Joh. Vp",
+        "title_lat": "Præcéssor almus grátiæ",
+        "text_lat": "Præcéssor almus grátiæ^let veritátis ángelus,^llucérna Christ>i et pérpetis^levangelísta lúminis,^pProphetíæ præcónia,^lquæ voce, vit>a et áctibus^lcantáverat, hæc ástruit^lmortis sacræ signáculo.^pNam nascitúrum sǽculis,^lnascéndo quem prævénerat,^lsed et datórem próprii^lmonstráverat baptísmatis,^pHuiúsce mort>e>m innóxiam,^lqua vita mund>o est réddita,^lsignat sui præságio^lbaptísta martyr sánguinis.^pPræsta, Pater piíssime,^lsequi Ioánnis sémitas,^lmetámus ut pleníssime^lætérna Christi múnera."
       }
   },
   8915: {

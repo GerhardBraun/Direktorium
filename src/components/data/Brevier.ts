@@ -6523,21 +6523,6 @@ export const brevierData = {
           "hymn_1_lat": 8729.4,
           "antev_lat": "Diligébat Iesus Martham et sorórem eius Maríam et Lázarum fratrem eius."
         }
-      },
-      "31": {
-        "each": {
-          "oration_lat": "Deus, qui, ad maiórem tui nóminis glóriam propagándam, beátum Ignátium in Ecclésia tua suscitásti, concéde, ut, eius auxílio et imitatióne certántes in terris, coronári cum ipso mereámur in cælis.^ORlV"
-        },
-        "Laudes": {
-          "genitiv_lat": "sancti Ignátii",
-          "vokativ_lat": "sancte Ignáti",
-          "hymn_1_lat": 8731.0,
-          "antev_lat": "Utinam possim cognóscere Christum et virtútem resurrectiónis eius et societátem passiónum illíus!"
-        },
-        "Vesper": {
-          "hymn_1_lat": 8731.0,
-          "antev_lat": "Quid prodest hómini si mundum univérsum lucrétur, ánimæ vero suæ detriméntum patiátur?"
-        }
       }
     },
     "8": {
@@ -6939,13 +6924,27 @@ export const brevierData = {
         "Invitatorium": {
           "ant0": "Christus, der König, gab seiner Mutter die Krone der Herrlichkeit; kommt, wir beten ihn an!",
           "ant0_lat": "Christum regem, qui suam coronávit Matrem, veníte, adorémus."
+        },
+        "major": {
+          "oration_lat": "Deus, qui Fílii tui Genetrícem, nostram constituísti matrem atque regínam, concéde propítius, ut, ipsíus intercessióne suffúlti, tuórum in regno cælésti consequámur glóriam filiórum.^ORlV"
+        },
+        "Lesehore": {
+          "hymn_1_lat": 8822.1
+        },
+        "Laudes": {
+          "hymn_1_lat": 8822.2,
+          "antev_lat": "Regína mundi digníssima, María virgo perpétua, tu genuísti Christum Dóminum, salvatórem ómnium."
+        },
+        "Vesper": {
+          "hymn_1_lat": 8822.4,
+          "antev_lat": "Beáta es, Virgo María, quia credidísti quæ dicta sunt tibi a Dómino: cum Christo regnas in ætérnum."
         }
       },
       "24": {
         "each": {
           "comm_1": "Apostel",
           "oration": "Gott, unser Herr, der Apostel Bartholomäus hat mit aufrichtigem Herzen deinem Sohn die Treue gehalten. Stärke auf seine Fürsprache auch unseren Glauben und mache deine Kirche zum wirksamen Zeichen des Heiles für alle Völker.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Róbora in nobis, Dómine, fidem, qua Fílio tuo beátus Bartholomǽus apóstolus sincéro ánimo adhǽsit, et præsta, ut, ipso deprecánte, Ecclésia tua cunctis géntibus salútis fiat sacraméntum.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Johannes Chrysostomus (†°407)",
@@ -6953,20 +6952,19 @@ export const brevierData = {
           "patr_text": "^hDas Schwache Gottes ist stärker als die Menschen^pWahrhaftig, das Kreuz überzeugte durch ungelehrte Menschen den ganzen Erdkreis. Dabei redete es nicht über nebensächliche Dinge, sondern über Gott und die wahre Religion, über das Leben nach dem Evangelium und das kommende Gericht. Es machte Bauern und ungelehrte Männer zu Philosophen. Sieh: „Das Törichte an Gott ist weiser als die Menschen, und das Schwache an Gott ist stärker als die Menschen.“ {1#1 Kor 1,25} Wieso stärker? Weil es über die ganze Welt dahinschritt und alle mit seiner Kraft gefangennahm.^pViele versuchten, den Namen des Gekreuzigten auszulöschen. Doch dieser blühte auf und wuchs, sie aber verdarben und gingen unter. Die Lebenden, die gegen den Toten kämpften, konnten nichts ausrichten. Wenn mich daher ein Grieche einen Toren nennt, dann erweist er sich selber als Tor. Wenn ich von ihm für töricht gehalten werde, dann zeigt sich, dass ich weiser bin als er, der Weise. Wenn er mich schwach nennt, dann beweist er, dass er der Schwächere ist. Denn was Zöllner und Fischer durch die Gnade Gottes ausrichten konnten, das vermochten Philosophen, Redner und Herrscher, ja die Weisen der ganzen Welt mit ihren tausend Listen und Künsten sich nicht einmal vorzustellen.^pDaran dachte Paulus, als er sprach: „Das Schwache an Gott ist stärker als die Menschen.“ {2#Ebd.} Auch daran wird offenbar, dass die Verkündigung göttlich ist. Denn wie kamen die zwölf ungelehrten Männer dazu, ein so großes Unternehmen anzufangen, sie, die auf Seen und Flüssen oder in Einöden gelebt hatten und vielleicht noch nicht einmal eine Stadt oder einen Markt gesehen hatten, wie kamen sie dazu, sich gegen eine ganze Welt zu stellen? Dass sie furchtsam und mutlos waren, zeigt der, der über sie geschrieben hat: Er leugnet es nicht und denkt nicht daran, ihre Fehler zu bemänteln, und das ist der größte Beweis für seine Wahrhaftigkeit. Was sagt er also von ihnen? Dass sie nach der Gefangennahme Christi trotz so vieler Wunder flohen und dass der Erste von ihnen den Herrn verleugnete.^pAls Christus noch auf Erden lebte, ertrugen sie den Angriff der Juden nicht, wie sollten sie sich nach seinem Tod gegen eine so große Welt gestellt haben, wenn er, wie ihr behauptet, nicht auferstanden wäre, wenn er nicht mit ihnen gesprochen und ihnen Mut gemacht hätte? Hätten sie nicht bei sich gesagt: Wie ist das? Er konnte sich selbst nicht retten, und uns sollte er helfen? Er konnte sich nicht helfen, als er noch lebte, und uns sollte er die Hand reichen, jetzt, da er tot ist? Als er noch am Leben war, unterwarf er sich nicht ein einziges Volk, und wir wollen die ganze Welt überzeugen, wenn wir seinen Namen nennen? Wie sollte es einen Sinn haben, das zu tun oder auch nur zu denken? So ist es denn offenbar: Wenn sie nicht den Auferstandenen gesehen und den größten Beweis seiner Macht erhalten hätten, dann hätten sie nicht mit so hohem Einsatz gewürfelt.",
           "patr_resp1": "Wir verkündigen Christus als den Gekreuzigten: für die Juden ein Ärgernis, für die Heiden eine Torheit;",
           "patr_resp2": "für die Berufenen aber Christus, Gottes Kraft und Gottes Weisheit.",
-          "patr_resp3": "In allem leiden wir Not, doch wir überwinden alles durch Christus, der uns liebhat.",
-          "patr_resp1_lat": "",
-          "patr_resp2_lat": "",
-          "patr_resp3_lat": ""
+          "patr_resp3": "In allem leiden wir Not, doch wir überwinden alles durch Christus, der uns liebhat."
         },
         "Laudes": {
           "button": "Hl. Bartolomäus",
-          "farbe": "r"
+          "farbe": "r",
+          "hymn_1_lat": 8824.0
         }
       },
       "29": {
-        "each": {
+        "major": {
+          "comm_1": "MärtSg",
           "oration": "Allmächtiger Gott, du hast den heiligen Johannes den Täufer berufen, deinem Sohn im Leben und im Tod voranzugehen und für Recht und Wahrheit Zeugnis zu geben. Gib auch uns die Kraft, für den Anspruch deiner Lehre unerschrocken einzutreten.^ORV",
-          "oration_lat": "Gott, unser Herr, der Apostel Bartholomäus hat mit aufrichtigem Herzen deinem Sohn die Treue gehalten. Stärke auf seine Fürsprache auch unseren Glauben und mache deine Kirche zum wirksamen Zeichen des Heiles für alle Völker.^ORlV"
+          "oration_lat": "Deus, qui beátum Ioánnem Baptístam et nascéntis et moriéntis Fílii tui Præcursórem esse voluísti, concéde, ut, sicut ille veritátis et iustítiæ martyr occúbuit, ita et nos pro tuæ confessióne doctrínæ strénue certémus.^ORlV"
         },
         "Invitatorium": {
           "ant0": "Das Lamm Gottes, dem Johannes im Leben vorausging – kommt, wir beten es an!",
@@ -6980,9 +6978,7 @@ export const brevierData = {
           "patr_resp1": "Wir verkündigen Christus als den Gekreuzigten: für die Juden ein Ärgernis, für die Heiden eine Torheit;",
           "patr_resp2": "für die Berufenen aber Christus, Gottes Kraft und Gottes Weisheit.",
           "patr_resp3": "In allem leiden wir Not, doch wir überwinden alles durch Christus, der uns liebhat.",
-          "patr_resp1_lat": "",
-          "patr_resp2_lat": "",
-          "patr_resp3_lat": ""
+          "hymn_1_lat": 8829.4
         },
         "Laudes": {
           "button": "Enthauptung des hl. Johannes des Täufers",
@@ -7005,20 +7001,20 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Gott, der Johannes den Täufer zum Vorläufer seines Sohnes bestellt hat. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, lenke unsere Schritte auf den Weg des Friedens.",
           "bitten": "Vom Mutterschoß an hast du Johannes berufen, deinem Sohn den Weg zu bereiten;^qwie er dem Herrn vorausging, so lass uns Christus nachfolgen.^pDu wolltest, dass Johannes abnehme, Christus aber wachse;^qlehre uns Christus dienen.^pIm Martyrium des Johannes hast du die Treue deines Propheten offenbar gemacht;^qgib, dass wir ohne Menschenfurcht für deine Wahrheit Zeugnis ablegen.^pBei der Taufe im Jordan hast du Jesus deinen geliebten Sohn genannt;^qhilf uns, auf ihn zu hören.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 8829.2,
+          "ant1_lat": "Misit Dóminus manum suam, et tétigit os meum, et prophétam in géntibus dedit me.",
+          "ant2_lat": "Metuébat Heródes Ioánnem, sciens eum virum iustum et sanctum, et custodiébat eum.",
+          "ant3_lat": "Heródes libénter Ioánnem audiébat, et audíto eo multa faciébat.",
+          "resp1_lat": "Vos misístis ad Ioánnem,",
+          "resp2_lat": "et testimónium perhíbuit veritáti.",
+          "resp3_lat": "Ille erat lucérna ardens et lucens.",
+          "antev_lat": "Amícus sponsi, qui stat et audit eum, gáudio gaudet propter vocem sponsi: hoc ergo gáudium meum implétum est.",
+          "bitten_e_lat": "Christum, qui Ioánnem præcursórem ante fáciem suam misit, ut viam Dómini paráret, fidénter deprecémur:",
+          "bitten_r_lat": "Vísita nos, Oriens ex alto.",
+          "bitten_lat": "Tu, qui Ioánnem exsultáre fecísti in sinu Elísabeth,^qde tuo advéntu in hunc mundum fac nos semper gaudére.^pTu, qui Baptístæ ore et vita viam pæniténtiæ nobis indicásti,^qconvérte corda nostra ad mandáta regni tui.^pTu, qui ore hóminis te prædicári voluísti,^qmitte in orbem totum Evangélii tui præcónes.^pTu, qui in Iordáne a Ioánne baptizári voluísti, ut omnis iustítia implerétur,^qfac nos iustítiæ regni tui adlaboráre.",
+          "les_text_lat": "Dóminus ab útero vocávit me, de ventre matris meæ recordátus est nóminis mei; et pósuit os meum quasi gládium acútum, in umbra manus suæ protéxit me et pósuit me sicut sagíttam eléctam, in pháretra sua abscóndit me."
         },
         "Vesper": {
-          "comm_1": "MärtSg",
           "hymn_1": 1123.0,
           "psalm1": 116.1,
           "psalm2": 116.2,
@@ -7037,32 +7033,18 @@ export const brevierData = {
           "bitten_e": "Lasst uns zu Jesus Christus beten, der Johannes als seinen Vorläufer vor sich her gesandt hat:",
           "bitten_r": "Lamm Gottes, erbarme dich unser.",
           "bitten": "Durch die Botschaft des Johannes wurde dein Kommen angekündigt;^qsende Verkündiger deines Reiches in die ganze Welt.^pDurch die Predigt des Johannes hast du zur Buße aufgerufen;^qwende die Herzen der Sünder hin zu den Geboten Gottes.^pDu hast Johannes gepriesen, der für Gottes Gesetz einen schmählichen Tod auf sich genommen hat;^qsei denen nahe, die um deines Namens willen in Verlassenheit sterben.^pDu bist das Lamm Gottes, auf das Johannes hingewiesen hat;^qlass niemand verloren gehen, für den du dein Blut vergossen hast.^pGedenke aller, die aus dieser Welt geschieden sind,^qund nimm sie auf in deinen Frieden.",
-          "oration": "Allmächtiger Gott, du hast den heiligen Johannes den Täufer berufen, deinem Sohn im Leben und im Tod voranzugehen und für Recht und Wahrheit Zeugnis zu geben. Gib auch uns die Kraft, für den Anspruch deiner Lehre unerschrocken einzutreten.^ORV",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": "",
-          "oration_lat": ""
-        }
-      },
-      "8": {
-        "each": {
-          "oration_lat": "Adiuvet Ecclésiam tuam, Dómine, beátus Domínicus méritis et doctrínis, atque pro nobis efficiátur piíssimus intervéntor, qui tuæ veritátis éxstitit prædicátor exímius.^ORlV"
-        },
-        "Laudes": {
-          "genitiv_lat": "sancti Domínici",
-          "vokativ_lat": "sancte Domínice",
-          "hymn_1_lat": 8808.0
-        },
-        "Vesper": {
-          "hymn_1_lat": 8808.0
+          "hymn_1_lat": 8829.4,
+          "ant1_lat": "Ne tímeas a fácie eórum, quia ego tecum sum, dicit Dóminus.",
+          "ant2_lat": "Misso Heródes spiculatóre, præcépit amputári caput Ioánnis in cárcere.",
+          "ant3_lat": "Ioánnis discípuli venérunt, et tulérunt corpus eius, et posuérunt illud in monuménto.",
+          "resp1_lat": "Amícus sponsi gaudet",
+          "resp2_lat": "Propter vocem sponsi.",
+          "resp3_lat": "Hoc gáudium meum implétum est.",
+          "antev_lat": "Non sum ego Christus, sed missus sum ante illum. Opórtet illum créscere, me autem mínui.",
+          "bitten_e_lat": "Deum, qui elégit Ioánnem Baptístam ut regnum Christi ventúrum homínibus annuntiáret, lætánter deprecémur:",
+          "bitten_r_lat": "Dírige, Dómine, pedes nostros in viam pacis.",
+          "bitten_lat": "Tu, qui Ioánnem a ventre matris eius vocásti ad præparándas vias Fílii tui,^qvoca nos ad Dóminum ita sequéndum, sicut eum ipse præcéssit.^pSicut dedísti Baptístæ Agnum Dei agnóscere, fac ut ipsum Ecclésia tua demónstret,^qet hómines huius témporis agnóscant.^pTu, qui disposuísti prophétam tuum mínui et Christum créscere,^qdoce nos erga álios húmiles esse, ut manifestéris.^pTu, qui per martýrium Ioánnis iustítiam vindicáre voluísti,^qfac nos veritátem tuam indeficiénter testificári.^pMeménto ómnium, qui ex hoc sǽculo transiérunt,^qillos constítue in regióne lucis et pacis.",
+          "les_text_lat": "Deus ex sémine David secúndum promissiónem edúxit Israel salvatórem Iesum, prædicánte Ioánne ante advéntum eius baptísmum pæniténtiæ omni pópulo Israel. Cum impléret autem Ioánnes cursum suum, dicébat: Quid me arbitrámini esse? Non sum ego; sed ecce venit post me, cuius non sum dignus calceaménta pedum sólvere."
         }
       }
     },

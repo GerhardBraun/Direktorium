@@ -12,6 +12,7 @@ interface LeseHoreData {
   patr_resp1?: string;
   patr_resp2?: string;
   patr_resp3?: string;
+  hymn_1_lat?: number;
 }
 
 interface LaudesData {
@@ -26,6 +27,7 @@ interface LaudesData {
   ant_komm?: string;
   antev_lat?: string;
   ant_komm_lat?: string;
+  hymn_1_lat?: number;
 }
 
 interface VesperData {
@@ -33,6 +35,7 @@ interface VesperData {
   ant_komm?: string;
   antev_lat?: string;
   ant_komm_lat?: string;
+  hymn_1_lat?: number;
 }
 
 interface DayEntry {
@@ -2850,7 +2853,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Hirten",
           "comm_2": "Mann_Ord",
-          "oration": "Allmächtiger, ewiger Gott, du hast den heiligen Ignatius von Loyola berufen, in der Nachfolge Christi zur größeren Ehre deines Namens zu wirken. Lass uns nach seinem Beispiel und mit seiner Hilfe auf Erden den guten Kampf bestehen, damit wir auch im Himmel den Siegeskranz empfangen.^ORV"
+          "oration": "Allmächtiger, ewiger Gott, du hast den heiligen Ignatius von Loyola berufen, in der Nachfolge Christi zur größeren Ehre deines Namens zu wirken. Lass uns nach seinem Beispiel und mit seiner Hilfe auf Erden den guten Kampf bestehen, damit wir auch im Himmel den Siegeskranz empfangen.^ORV",
+          "oration_lat": "Deus, qui, ad maiórem tui nóminis glóriam propagándam, beátum Ignátium in Ecclésia tua suscitásti, concéde, ut, eius auxílio et imitatióne certántes in terris, coronári cum ipso mereámur in cælis.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Luis Gonsalvez (16. Jh.)",
@@ -2864,10 +2868,16 @@ export const adlibData = {
           "button": "Hl. Ignatius von Loyola",
           "nominativ": "Der heilige Ignatius",
           "genitiv": "des heiligen Ignatius",
-          "antev": "Christus will ich erkennen und die Macht seiner Auferstehung und die Gemeinschaft mit seinem Leiden."
+          "genitiv_lat": "sancti Ignátii",
+          "vokativ_lat": "sancte Ignáti",
+          "antev": "Christus will ich erkennen und die Macht seiner Auferstehung und die Gemeinschaft mit seinem Leiden.",
+          "antev_lat": "Utinam possim cognóscere Christum et virtútem resurrectiónis eius et societátem passiónum illíus!",
+          "hymn_1_lat": 8731.0
         },
         "Vesper": {
-          "antev": "Was nützt es einem Menschen, wenn er die ganze Welt gewinnt, dabei aber sein Leben verliert?"
+          "antev": "Was nützt es einem Menschen, wenn er die ganze Welt gewinnt, dabei aber sein Leben verliert?",
+          "antev_lat": "Quid prodest hómini si mundum univérsum lucrétur, ánimæ vero suæ detriméntum patiátur?",
+          "hymn_1_lat": 8731.0
         }
       }
     }
@@ -3025,7 +3035,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Hirten",
           "comm_2": "Mann_Ord",
-          "oration": "Herr, unser Gott, stärke deine Kirche durch das Vorbild und die Lehre des heiligen Dominikus, der mit Macht deine Wahrheit verkündet hat. Höre auf seine Fürsprache und erwecke auch in unserer Zeit Prediger, die dein Wort glaubwürdig verkünden.^ORV"
+          "oration": "Herr, unser Gott, stärke deine Kirche durch das Vorbild und die Lehre des heiligen Dominikus, der mit Macht deine Wahrheit verkündet hat. Höre auf seine Fürsprache und erwecke auch in unserer Zeit Prediger, die dein Wort glaubwürdig verkünden.^ORV",
+          "oration_lat": "Adiuvet Ecclésiam tuam, Dómine, beátus Domínicus méritis et doctrínis, atque pro nobis efficiátur piíssimus intervéntor, qui tuæ veritátis éxstitit prædicátor exímius.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "LEER",
@@ -3038,7 +3049,13 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Dominikus",
           "nominativ": "Der heilige Dominikus",
-          "genitiv": "des heiligen Dominikus"
+          "genitiv": "des heiligen Dominikus",
+          "genitiv_lat": "sancti Domínici",
+          "vokativ_lat": "sancte Domínice",
+          "hymn_1_lat": 8808.0
+        },
+        "Vesper": {
+          "hymn_1_lat": 8808.0
         }
       }
     },
@@ -3188,7 +3205,8 @@ export const adlibData = {
       "n2": {
         "major": {
           "comm_1": "Mann",
-          "oration": "Allmächtiger Gott, du hast den heiligen König Stephan berufen, das ungarische Volk zum christlichen Glauben zu führen. Lass uns erfahren, dass er seinem Volk und uns allen vom Himmel her ein mächtiger Helfer ist.^ORV"
+          "oration": "Allmächtiger Gott, du hast den heiligen König Stephan berufen, das ungarische Volk zum christlichen Glauben zu führen. Lass uns erfahren, dass er seinem Volk und uns allen vom Himmel her ein mächtiger Helfer ist.^ORV",
+          "oration_lat": "Concéde, quǽsumus, Ecclésiæ tuæ, omnípotens Deus, ut beátum Stéphanum, quem regnántem in terris propagatórem hábuit, propugnatórem habére mereátur gloriósum in cælis.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Stephan von Ungarn (†°1038)",
@@ -3234,7 +3252,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Hirten",
           "comm_2": "Mann_Ord",
-          "oration": "Gott, in deiner Weisheit hast du den heiligen Johannes Eudes erwählt, den unergründlichen Reichtum Christi neu zu verkünden. Lehre uns durch das Wort und das Beispiel dieses Heiligen, dich immer tiefer zu erkennen und im Licht des Evangeliums voranzuschreiten.^ORV"
+          "oration": "Gott, in deiner Weisheit hast du den heiligen Johannes Eudes erwählt, den unergründlichen Reichtum Christi neu zu verkünden. Lehre uns durch das Wort und das Beispiel dieses Heiligen, dich immer tiefer zu erkennen und im Licht des Evangeliums voranzuschreiten.^ORV",
+          "oration_lat": "Deus, qui beátum Ioánnem presbýterum ad annuntiándum investigábiles Christi divítias mirabíliter elegísti, da nobis, eius exémplis et mónitis, ut in tua sciéntia crescéntes, secúndum Evangélii lumen fidéliter conversémur.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Johannes Eudes (†°1680)",
@@ -3256,7 +3275,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Hirten_Kl",
           "comm_2": "Mann_Ord",
-          "oration": "Allmächtiger Gott, du hast den heiligen Abt Bernhard mit brennender Sorge für deine Kirche erfüllt und ihn in den Wirren seiner Zeit zu einem hellen Licht gemacht. Erwecke auch heute Menschen, die vom Geist Christi ergriffen sind und als Kinder des Lichtes leben.^ORV"
+          "oration": "Allmächtiger Gott, du hast den heiligen Abt Bernhard mit brennender Sorge für deine Kirche erfüllt und ihn in den Wirren seiner Zeit zu einem hellen Licht gemacht. Erwecke auch heute Menschen, die vom Geist Christi ergriffen sind und als Kinder des Lichtes leben.^ORV",
+          "oration_lat": "Deus, qui beátum Bernárdum abbátem, zelo domus tuæ succénsum, in Ecclésia tua lucére simul et ardére fecísti, eius nobis intercessióne concéde, ut, eódem spíritu fervéntes, tamquam fílii lucis iúgiter ambulémus.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Bernhard von Clairvaux († 1153)",
@@ -3271,10 +3291,16 @@ export const adlibData = {
           "nominativ": "Der heilige Bernhard",
           "genitiv": "des heiligen Bernhard",
           "vokativ": "Heiliger Bernhard",
-          "antev": "Bernhards Seele war erleuchtet vom Glanz des ewigen Wortes; nun strahlt das Licht seines Glaubens in der ganzen Kirche."
+          "genitiv_lat": "sancti Bernárdi",
+          "vokativ_lat": "sancte Bernárde",
+          "antev": "Bernhards Seele war erleuchtet vom Glanz des ewigen Wortes; nun strahlt das Licht seines Glaubens in der ganzen Kirche.",
+          "antev_lat": "Beátus Bernárdus, cuius ánima sempitérni Verbi mirífice fuit illustráta splendóribus, in univérsa Ecclésia fídei et doctrínæ lúmine radiávit.",
+          "hymn_1_lat": 8820.0
         },
         "Vesper": {
-          "antev": "Bernhard, wachsamer Hirte und Lehrer der Kirche, Freund des göttlichen Bräutigams, Herold der heiligen Jungfrau Maria!"
+          "antev": "Bernhard, wachsamer Hirte und Lehrer der Kirche, Freund des göttlichen Bräutigams, Herold der heiligen Jungfrau Maria!",
+          "antev_lat": "Bernárdus, doctor mellífluus, amícus Sponsi, Vírginis Matris præco miríficus, in Claraválle pastor effúlsit claríssimus.",
+          "hymn_1_lat": 8820.0
         }
       }
     },
@@ -3282,7 +3308,8 @@ export const adlibData = {
       "eig": {
         "major": {
           "comm_1": "Hirten",
-          "oration": "Herr, unser Gott, du hast dem heiligen Papst Pius X. wahre Frömmigkeit und apostolischen Eifer geschenkt, um den Glauben der Kirche zu schützen und alles in Christus zu erneuern. Hilf uns, seiner Weisung und seinem Beispiel zu folgen und so den ewigen Lohn zu erlangen.^ORV"
+          "oration": "Herr, unser Gott, du hast dem heiligen Papst Pius X. wahre Frömmigkeit und apostolischen Eifer geschenkt, um den Glauben der Kirche zu schützen und alles in Christus zu erneuern. Hilf uns, seiner Weisung und seinem Beispiel zu folgen und so den ewigen Lohn zu erlangen.^ORV",
+          "oration_lat": "Deus, qui, ad tuéndam cathólicam fidem et univérsa in Christo instauránda, sanctum Pium papam cælésti sapiéntia et apostólica fortitúdine replevísti, concéde propítius, ut, eius institúta et exémpla sectántes, prǽmia consequámur ætérna.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Pius X. († 1914)",
@@ -3327,7 +3354,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Jgfr",
           "comm_2": "Frau",
-          "oration": "Gott, du Sehnsucht der Menschen, du hast die heilige Rosa von Lima mit solcher Liebe an dich gezogen, dass sie die Welt verließ und in harter Buße für dich allein lebte. Hilf uns auf ihre Fürsprache, unseren Weg durch diese Welt so zu gehen, dass wir dich, den unversiegbaren Quell der Freude, finden.^ORV"
+          "oration": "Gott, du Sehnsucht der Menschen, du hast die heilige Rosa von Lima mit solcher Liebe an dich gezogen, dass sie die Welt verließ und in harter Buße für dich allein lebte. Hilf uns auf ihre Fürsprache, unseren Weg durch diese Welt so zu gehen, dass wir dich, den unversiegbaren Quell der Freude, finden.^ORV",
+          "oration_lat": "Deus, qui beátam Rosam, tuo amóre succénsam, mundum relínquere et tibi soli in austeritáte pæniténtiæ vacáre fecísti, da nobis, eius intercessióne, ut, vias vitæ sectántes in terris, torrénte deliciárum tuárum perfruámur in cælis.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Rosa von Lima (†°1617)",
@@ -3348,7 +3376,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Mann",
-          "oration": "Gott, du hast den heiligen König Ludwig aus der Verantwortung für sein Land in das himmlische Reich gerufen. Seine Fürsprache helfe uns, die irdischen Pflichten so zu erfüllen, dass wir zum Himmelreich gelangen.^ORV"
+          "oration": "Gott, du hast den heiligen König Ludwig aus der Verantwortung für sein Land in das himmlische Reich gerufen. Seine Fürsprache helfe uns, die irdischen Pflichten so zu erfüllen, dass wir zum Himmelreich gelangen.^ORV",
+          "oration_lat": "Deus, qui beátum Ludovícum e terréni regíminis cura ad cæléstis regni glóriam transtulísti, eius, quǽsumus, intercessióne concéde, ut, per múnera temporália quæ gérimus, regnum tuum quærámus ætérnum.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Ludwig IX. von Frankreich (†°1270)",
@@ -3368,7 +3397,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Mann_Erz",
           "comm_2": "Hirten",
-          "oration": "Gütiger Gott, du hast den heiligen Josef von Calasanz zu einem Lehrer der Weisheit gemacht und ihn befähigt, sich mit Liebe und Geduld der Erziehung der Jugend zu widmen. Steh uns bei, wenn wir nach seinem Vorbild uns bemühen, junge Menschen zur Erkenntnis der Wahrheit zu führen.^ORV"
+          "oration": "Gütiger Gott, du hast den heiligen Josef von Calasanz zu einem Lehrer der Weisheit gemacht und ihn befähigt, sich mit Liebe und Geduld der Erziehung der Jugend zu widmen. Steh uns bei, wenn wir nach seinem Vorbild uns bemühen, junge Menschen zur Erkenntnis der Wahrheit zu führen.^ORV",
+          "oration_lat": "Deus, qui beátum Ioseph presbýterum tanta caritáte et patiéntia decorásti, ut púeris erudiéndis omníque virtúte exornándis constánter incúmberet, concéde, quǽsumus, ut, quem sapiéntiæ præceptórem cólimus, veritátis cooperatórem iúgiter imitémur.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Josef von Calasanz (†°1648)",
@@ -3400,7 +3430,8 @@ export const adlibData = {
       "eig": {
         "major": {
           "comm_1": "Frau",
-          "oration": "Allmächtiger Gott, du hast auf die Tränen der heiligen Monika geschaut; du hast ihr Flehen erhört und ihrem Sohn Augustinus die Gnade der Bekehrung geschenkt. Gib uns auf die Fürsprache dieser heiligen Mutter und ihres Sohnes die Gnade, dass wir unsere Sünden bereuen und bei dir Verzeihung finden.^ORV"
+          "oration": "Allmächtiger Gott, du hast auf die Tränen der heiligen Monika geschaut; du hast ihr Flehen erhört und ihrem Sohn Augustinus die Gnade der Bekehrung geschenkt. Gib uns auf die Fürsprache dieser heiligen Mutter und ihres Sohnes die Gnade, dass wir unsere Sünden bereuen und bei dir Verzeihung finden.^ORV",
+          "oration_lat": "Deus, mæréntium consolátor, qui beátæ Mónicæ pias lácrimas in conversióne fílii sui Augustíni misericórditer suscepísti, da nobis, utriúsque intervéntu, peccáta nostra deploráre, et grátiæ tuæ indulgéntiam inveníre."
         },
         "Lesehore": {
           "patr_autor": "Augustinus († 430)",
@@ -3413,10 +3444,12 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Monika",
           "genitiv": "der heiligen Monika",
-          "antev": "Du hast sie erhört, o Herr, und ihre Tränen nicht verschmäht."
+          "antev": "Du hast sie erhört, o Herr, und ihre Tränen nicht verschmäht.",
+          "antev_lat": "Exaudísti eam, Dómine, nec despexísti lácrimas eius, cum profluéntes rigárent terram in omni loco oratiónis eius."
         },
         "Vesper": {
-          "antev": "Monikas Glaube und Leben waren ein Lob auf den Namen des Herrn: Schon in dieser Welt lebte sie mit Christus vereint."
+          "antev": "Monikas Glaube und Leben waren ein Lob auf den Namen des Herrn: Schon in dieser Welt lebte sie mit Christus vereint.",
+          "antev_lat": "Mónica in Christo vivificáta, étiam nondum a carne resolúta, sic vixit ut laudarétur nomen Dei in fide moribúsque eius."
         }
       }
     },
@@ -3425,7 +3458,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Hirten_Kl",
           "comm_2": "Hirten",
-          "oration": "Allmächtiger Gott, wir rufen dich an: Erwecke in deiner Kirche aufs neue den Geist, mit dem du den heiligen Bischof Augustinus erfüllt hast. Gib auch uns die Sehnsucht nach dir, dem Quell der wahren Weisheit und dem Ursprung der Liebe.^ORV"
+          "oration": "Allmächtiger Gott, wir rufen dich an: Erwecke in deiner Kirche aufs neue den Geist, mit dem du den heiligen Bischof Augustinus erfüllt hast. Gib auch uns die Sehnsucht nach dir, dem Quell der wahren Weisheit und dem Ursprung der Liebe.^ORV",
+          "oration_lat": "Innova, quǽsumus, Dómine, in Ecclésia tua spíritum quo beátum Augustínum epíscopum imbuísti, ut, eódem nos repléti, te solum veræ fontem sapiéntiæ sitiámus, et supérni amóris quærámus auctórem.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Augustinus († 430)",
@@ -3439,10 +3473,14 @@ export const adlibData = {
           "button": "Hl. Augustinus",
           "genitiv": "des heiligen Augustinus",
           "vokativ": "Heiliger Augustinus",
-          "antev": "Deine Gnade ist es, o Herr, dass es mir Freude macht, dich zu loben, denn auf dich hin hast du uns geschaffen; und unruhig ist unser Herz, bis es ruht in dir."
+          "antev": "Deine Gnade ist es, o Herr, dass es mir Freude macht, dich zu loben, denn auf dich hin hast du uns geschaffen; und unruhig ist unser Herz, bis es ruht in dir.",
+          "antev_lat": "Tu éxcitas, Dómine, ut laudáre te deléctet, quia fecísti nos ad te; et inquiétum est cor nostrum donec requiéscat in te.",
+          "hymn_1_lat": 8828.0
         },
         "Vesper": {
-          "antev": "Spät habe ich begonnen dich zu lieben, o Schönheit, alt und ewig neu. Du hast gerufen und geschrien und meine Taubheit durchbrochen."
+          "antev": "Spät habe ich begonnen dich zu lieben, o Schönheit, alt und ewig neu. Du hast gerufen und geschrien und meine Taubheit durchbrochen.",
+          "antev_lat": "Sero te amávi, pulchritúdo tam antíqua et tam nova, sero te amávi. Vocásti et clamásti et rupísti surditátem meam.",
+          "hymn_1_lat": 8828.0
         }
       }
     },
@@ -3450,7 +3488,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Hirten",
-          "oration": "Allmächtiger Gott, du hast dem heiligen Paulinus von Trier im Kampf gegen die arianische Irrlehre unerschrockenen Mut gegeben, so dass er auch die Verbannung nicht scheute. Lehre uns, das Wahre vom Falschen zu unterscheiden, und hilf uns, ohne Furcht für die Wahrheit einzutreten.^ORV"
+          "oration": "Allmächtiger Gott, du hast dem heiligen Paulinus von Trier im Kampf gegen die arianische Irrlehre unerschrockenen Mut gegeben, so dass er auch die Verbannung nicht scheute. Lehre uns, das Wahre vom Falschen zu unterscheiden, und hilf uns, ohne Furcht für die Wahrheit einzutreten.^ORV",
+          "oration_lat": "^RK:Deus, qui beátum Paulínum divína caritáte flagrántem, fidéque, quæ vincit mundum, insígnem, sanctis pastóribus mirabíliter aggregásti, præsta, quǽsumus, ut, ipso intercedénte, nos quoque, in fide et caritáte perseverántes, eius glóriæ consórtes fíeri mereámur.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Basilius der Große (†°379)",
