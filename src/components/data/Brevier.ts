@@ -6770,7 +6770,7 @@ export const brevierData = {
         "each": {
           "comm_1": "Maria",
           "oration": "Allmächtiger, ewiger Gott, du hast die selige Jungfrau Maria, die uns Christus geboren hat, vor aller Sünde bewahrt und sie mit Leib und Seele zur Herrlichkeit des Himmels erhoben. Gib, dass wir auf dieses Zeichen der Hoffnung und des Trostes schauen und auf dem Weg bleiben, der hinführt zu deiner Herrlichkeit.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, qui beátam Vírginem Maríam, eius humilitátem respíciens, ad hanc grátiam evexísti, ut Unigénitus tuus ex ipsa secúndum carnem nascerétur, et hodiérna die superexcellénti glória coronásti, eius nobis précibus concéde, ut, redemptiónis tuæ mystério salváti, a te exaltári mereámur.^ORlV"
         },
         "ErsteV": {
           "button": "1. Vesper zu Mariae Himmelfahrt",
@@ -6794,18 +6794,19 @@ export const brevierData = {
           "bitten_r": "Höre auf die Fürbitte der seligen Jungfrau.",
           "bitten": "Du hast Maria zur Mutter deines Sohnes auserwählt;^qlass die Kirche unter ihrem Schutz geborgen sein.^pDu hast Maria den Menschen zur Mutter gegeben;^qauf ihre Fürsprache gewähre den Kranken Heilung und den Trauernden Trost.^pDu hast Maria die Fülle deiner Gnade geschenkt;^qauf ihre Fürsprache schenke den Sündern Vergebung und allen Menschen Frieden und Heil.^pDu hast Maria zum Urbild deiner Kirche gemacht;^qgib, dass deine Gläubigen einmütig mit Maria im Gebet verharren.^pDu hast die unbefleckte Jungfrau mit Leib und Seele in den Himmel aufgenommen;^qschenke unseren Verstorbenen die ewige Freude mit Maria und all deinen Heiligen.",
           "oration": "Allmächtiger Gott, du hast die Jungfrau Maria zur Mutter deines ewigen Sohnes erwählt. Du hast auf deine niedrige Magd geschaut und sie mit Herrlichkeit gekrönt. Höre auf ihre Fürsprache und nimm auch uns in deine Herrlichkeit auf, da du uns erlöst hast durch den Tod deines Sohnes, unseres Herrn Jesus Christus,^ORV",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": "",
-          "oration_lat": ""
+          "hymn_1_lat": 8815.4,
+          "ant1_lat": "Ascéndit Christus super cælos, et præparávit suæ castíssimæ Matri immortalitátis locum.^Lö",
+          "ant2_lat": "Paradísi porta per Evam cunctis clausa est et per Maríam Vírginem íterum patefácta est.^Lö",
+          "ant3_lat": "Exaltáta est Virgo María super omnes cælos; veníte, omnes: magnificémus Christum regem, cuius regnum est ómnium sæculórum.",
+          "resp1_lat": "Assúmpta est María in cælum.",
+          "resp2_lat": "Gaudent ángeli.",
+          "resp3_lat": "Laudántes benedícunt Dóminum.",
+          "antev_lat": "Beátam me dicent omnes generatiónes, quia fecit mihi magna qui potens est.^Lö",
+          "bitten_e_lat": "Deum Patrem omnipoténtem magnis láudibus extollámus, qui Maríam matrem Fílii sui ab ómnibus generatiónibus celebrári vóluit, et ab eo súpplices petámus:",
+          "bitten_r_lat": "Plenam grátia intuére, et exáudi nos.",
+          "bitten_lat": "Deus, mirabílium patrátor, qui immaculátam Vírginem Maríam córpore et ánima cæléstis glóriæ Christi fecísti consórtem,^qfiliórum tuórum corda ad eándem glóriam dírige.^pQui Maríam dedísti nobis matrem, ipsa intercedénte, concéde medélam lánguidis, solámen mæréntibus, véniam peccatóribus,^qet ómnibus salútem et pacem.^pQui Maríam plenam grátia fecísti,^qlætam grátiæ tuæ cópiam ómnibus concéde.^pEcclésia tua sit cor unum et ánima una in caritáte,^qet fidéles persevérent unánimes in oratióne cum María, matre Iesu.^pQui Maríam cæli coronásti regínam,^qfac ut defúncti in regno tuo cum sanctórum ágmine gáudeant in ætérnum.",
+          "les_text_lat": "Quos Deus prædestinávit, hos et vocávit; et quos vocávit, hos et iustificávit; quos autem iustificávit, illos et glorificávit.",
+          "oration_lat": "Deus, qui beátam Vírginem Maríam, eius humilitátem respíciens, ad hanc grátiam evexísti, ut Unigénitus tuus ex ipsa secúndum carnem nascerétur, et hodiérna die superexcellénti glória coronásti, eius nobis précibus concéde, ut, redemptiónis tuæ mystério salváti, a te exaltári mereámur.^ORlV"
         },
         "Invitatorium": {
           "ant0": "Heute wurde die Mutter Christi in den Himmel erhoben; kommt, wir beten ihren Sohn an, den König der Könige!",
@@ -6831,18 +6832,12 @@ export const brevierData = {
           "patr_resp1": "Heute stieg die jungfräuliche Gottesmutter zum Himmel empor,",
           "patr_resp2": "wir rufen: „Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes.“",
           "patr_resp3": "Selig bist du, heilige Jungfrau Maria, denn aus dir ging die Sonne der Gerechtigkeit hervor, Christus, unser Gott.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "versikel0_lat": "",
-          "versikel1_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "patr_resp1_lat": "",
-          "patr_resp2_lat": "",
-          "patr_resp3_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 8815.1,
+          "ant1_lat": "Surge, Virgo Regína, et, ætérno digna decóre, conscénde præclárum palátium Regis ætérni.",
+          "ant2_lat": "Elégit eam Deus et præelégit eam, in tabernáculo suo habitáre fecit eam.",
+          "ant3_lat": "Gloriόsa dicta sunt de te, Virgo María.",
+          "versikel0_lat": "Beáta es, María, quæ credidísti Dómino.",
+          "versikel1_lat": "Perfécta sunt in te quæ dicta sunt tibi."
         },
         "Laudes": {
           "button": "Aufnahme Mariens in den Himmel",
@@ -6862,17 +6857,18 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, unser Erlöser, der geboren wurde aus der Jungfrau Maria. Zu ihm lasst uns beten:",
           "bitten_r": "Höre auf die Fürsprache deiner Mutter.",
           "bitten": "Ewiges Wort des Vaters, du hast dir in der unversehrten Jungfrau Maria eine Wohnung bereitet;^qwohne auch in unseren Herzen.^pSohn des lebendigen Gottes, du hast die Jungfrau Maria als reine Wohnung erwählt;^qmache auch uns zu einem Tempel deines Geistes.^pEwiges Wort, deine Mutter Maria bewahrte in ihrem Herzen alles, was an ihr geschehen war;^qhilf uns, deine Weisungen zu überdenken.^pKönig der Könige, du hast deine Mutter Maria mit Leib und Seele in den Himmel aufgenommen;^qnimm uns auf in der Stunde unseres Todes.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 8815.2,
+          "ant1_lat": "Beáta es, María, quia per te mundi salus advénit; iam gloriósa gaudes ante Dóminum.",
+          "ant2_lat": "Exaltáta est Virgo María super choros angelórum; gáudeant omnes fidéles et benedícant Dóminum.",
+          "ant3_lat": "Nomen tuum ita magnificávit Dóminus, ut non recédat laus tua de ore hóminum.",
+          "resp1_lat": "Hódie María Virgo",
+          "resp2_lat": "ad cælos ascéndit.",
+          "resp3_lat": "Et in ætérnum cum Christo triúmphat.",
+          "antev_lat": "Pulchra est et decóra fília Ierúsalem, quæ ascéndit sicut auróra consúrgens.",
+          "bitten_e_lat": "Salvatórem nostrum celebrántes, qui ex María Vírgine nasci dignátus est, exorémus dicéntes:",
+          "bitten_r_lat": "Plenam grátia intuére, et exáudi nos.",
+          "bitten_lat": "Verbum ætérnum, quod Maríam habitatiónis tuæ arcam incorruptíbilem elegísti,^qlíbera nos a corruptióne peccáti.^pRedémptor noster, qui Vírginem Maríam thálamum puríssimum habitatiónis tuæ et Spíritus Sancti fecísti sacrárium,^qnos templum tui Spíritus fac perénne.^pRex regum, qui matrem tuam córpore et ánima tecum voluísti in cælum assúmptam,^qfac ut quæ sursum sunt semper cogitémus.^pDómine cæli et terræ, qui Maríam regínam a dextris tuis astáre fecísti,^qtríbue nos eiúsdem glóriæ meréri consórtium.",
+          "les_text_lat": "Gaudens gaudébo in Dómino, et exsultábit ánima mea in Deo meo, quia índuit me vestiméntis salútis et induménto iustítiæ circúmdedit me, quasi sponsam ornátam monílibus suis."
         },
         "Terz": {
           "ant0": "Wie eine Zeder auf dem Libanon wuchs sie empor, wie eine Zypresse auf dem Berge Zion.",
@@ -6881,10 +6877,10 @@ export const brevierData = {
           "les_text": "Der Herr hat dich gesegnet mit seiner Kraft; denn durch dich hat er unsere Feinde zunichte gemacht. Gesegnet bist du, Tochter Zions, vom höchsten Herrn, mehr als alle Frauen der Erde.",
           "resp0": "Aufgenommen ist Maria in den Himmel.",
           "resp1": "Die Engel freuen sich und preisen den Herrn.",
-          "ant0_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "ant0_lat": "Quasi cedrus exaltáta es in Líbano, et quasi cypréssus in monte Sion, sancta Dei Génetrix.",
+          "resp0_lat": "Assúmpta est María in cælum, gaudent ángeli.",
+          "resp1_lat": "Laudántes benedícunt Dóminum.",
+          "les_text_lat": "Et obstúpuit omnis pópulus valde et inclinántes se adoravérunt Deum et dixérunt unánimes: Benedíctus es, Deus noster, qui ad níhilum redegísti inimícos pópuli tui in hodiérna die. Et dixit ad eam Ozias: Benedícta tu es, fília, a Deo excélso præ ómnibus muliéribus, quæ sunt super terram."
         },
         "Sext": {
           "ant0": "Heilige Maria, Königin des Himmels, aus dir ging hervor die Sonne der Gerechtigkeit.",
@@ -6893,10 +6889,10 @@ export const brevierData = {
           "les_text": "Ein großes Zeichen erschien am Himmel: eine Frau, mit der Sonne bekleidet, der Mond war unter ihren Füßen und ein Kranz von zwölf Sternen auf ihrem Haupt.",
           "resp0": "Erhoben ist die Mutter des Herrn.",
           "resp1": "Über die Chöre der Engel in das Reich der Himmel.",
-          "ant0_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "ant0_lat": "Cæli regínam, María, te iure fatémur, ex cuius thálamo procéssit iustítiæ sol.",
+          "resp0_lat": "Exaltáta est sancta Dei Génetrix.",
+          "resp1_lat": "Super choros angelórum ad cæléstia regna.",
+          "les_text_lat": "Signum magnum appáruit in cælo: múlier amícta sole, et luna sub pédibus eius, et super caput eius coróna stellárum duódecim."
         },
         "Non": {
           "ant0": "Maria, die Mutter des Herrn, wurde über die Chöre der Engel erhoben ins himmlische Reich.",
@@ -6905,10 +6901,10 @@ export const brevierData = {
           "les_text": "Wir wissen: Wenn unser irdisches Zelt abgebrochen wird, dann haben wir eine Wohnung von Gott, ein nicht von Händen errichtetes ewiges Haus im Himmel.",
           "resp0": "Die Jungfrau Maria wurde aufgenommen in die Herrlichkeit des Himmels.",
           "resp1": "Dort thront der König der Könige im Licht der Sterne.",
-          "ant0_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "ant0_lat": "Exaltáta est sancta Dei Génetrix super choros angelórum ad cæléstia regna.",
+          "resp0_lat": "María Virgo assúmpta est ad æthéreum thálamum.",
+          "resp1_lat": "In quo Rex regum stelláto sedet sólio.",
+          "les_text_lat": "Scimus quóniam si terréstris domus nostra huius tabernáculi dissolvátur, ædificatiónem ex Deo habémus domum non manufáctam, ætérnam in cælis."
         },
         "Vesper": {
           "hymn_1": 8815.0,
@@ -6925,17 +6921,18 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu Gott, dem allmächtigen Vater, der Maria, die Mutter seines Sohnes, den Menschen zur Fürsprecherin gegeben hat:",
           "bitten_r": "Höre auf die Fürbitte der seligen Jungfrau.",
           "bitten": "Du hast Maria zur Mutter deines Sohnes auserwählt;^qlass die Kirche unter ihrem Schutz geborgen sein.^pDu hast Maria den Menschen zur Mutter gegeben;^qauf ihre Fürsprache gewähre den Kranken Heilung und den Trauernden Trost.^pDu hast Maria die Fülle deiner Gnade geschenkt;^qauf ihre Fürsprache schenke den Sündern Vergebung und allen Menschen Frieden und Heil.^pDu hast Maria zum Urbild deiner Kirche gemacht;^qgib, dass deine Gläubigen einmütig mit Maria im Gebet verharren.^pDu hast die unbefleckte Jungfrau mit Leib und Seele in den Himmel aufgenommen;^qschenke unseren Verstorbenen die ewige Freude mit Maria und all deinen Heiligen.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 8815.4,
+          "ant1_lat": "Assúmpta est María in cælum, gaudent ángeli, laudántes benedícunt Dóminum.",
+          "ant2_lat": "María Virgo assúmpta est ad æthéreum thálamum, in quo Rex regum stelláto sedet sólio.",
+          "ant3_lat": "Benedícta fília tu a Dómino, quia per te fructum vitæ communicávimus.",
+          "resp1_lat": "María Virgo exaltáta est",
+          "resp2_lat": "super choros angelórum.",
+          "resp3_lat": "Benedíctus Dóminus, qui exaltávit eam.",
+          "antev_lat": "Hódie María Virgo cælos ascéndit; gaudéte, quia cum Christo regnat in ætérnum.",
+          "bitten_e_lat": "Deum Patrem omnipoténtem magnis láudibus extollámus, qui Maríam matrem Fílii sui ab ómnibus generatiónibus celebrári vóluit, et ab eo súpplices petámus:",
+          "bitten_r_lat": "Plenam grátia intuére, et exáudi nos.",
+          "bitten_lat": "Deus, mirabílium patrátor, qui immaculátam Vírginem Maríam córpore et ánima cæléstis glóriæ Christi fecísti consórtem,^qfiliórum tuórum corda ad eándem glóriam dírige.^pQui Maríam dedísti nobis matrem, ipsa intercedénte, concéde medélam lánguidis, solámen mæréntibus, véniam peccatóribus,^qet ómnibus salútem et pacem.^pQui Maríam plenam grátia fecísti,^qlætam grátiæ tuæ cópiam ómnibus concéde.^pEcclésia tua sit cor unum et ánima una in caritáte,^qet fidéles persevérent unánimes in oratióne cum María, matre Iesu.^pQui Maríam cæli coronásti regínam,^qfac ut defúncti in regno tuo cum sanctórum ágmine gáudeant in ætérnum.",
+          "les_text_lat": "Sicut in Adam omnes moriúntur, ita et in Christo omnes vivificabúntur. Unusquísque autem in suo órdine: primítiæ Christus; deínde hi, qui sunt Christi."
         }
       },
       "22": {

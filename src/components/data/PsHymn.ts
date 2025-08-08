@@ -5314,6 +5314,21 @@ export const psalmsData = {
         "title": "Herrlich strahlst du im Licht",
         "quote": "MarHimmelf",
         "text": "Herrlich strahlst du im Licht,^/Jungfrau°Maria,°^lKind aus Davids Geschlecht,^/Tochter°des°Königs,°^ldie erhaben nun thront^/hoch°in°den°Himmeln^lund Gebieterin ist^/über°die°Engel.^pDem allmächtigen Gott^/wurdest°du°Mutter^lhast dem Herrn, der dich schuf,^/Wohnung°bereitet,°^lihm den heiligen Schoß^/willig°geboten,°^lund im Fleische ward Gott^/Mensch°wie°wir°alle.^pDen in Ehrfurcht verehrt^/Erde°und°Himmel,°^lden Erlöser und Herrn,^/bitten°wir°heute,°^lda ins himmlische Reich^/ganz°er°dich°aufnahm:^lAus dem Dunkel der Welt^/führ°uns°zum°Lichte.^pDir sei Ehre und Preis,^/Vater°des°Lichtes,°^ldir, dem ewigen Sohn,^/der°uns°erlöst°hat,°^ldir, dem Heiligen Geist,^/Gott,°dem°Dreieinen,°^ldessen Herrschaft und Reich^/währen°auf°ewig.°Amen."
+      },
+    1.0: {
+        "quote": "MarHimmelf Lh lat.",
+        "title_lat": "Auróra velut fúlgida",
+        "text_lat": "Auróra velut fúlgida,^lad cæli meat cúlmina^lut sol María spléndida,^ltamquam luna pulchérrima.^pRegína mundi hódie^lthronum conscéndit glóriæ,^lillum eníxa Fílium^lqui est ante lucíferum.^pAssúmpta super ángelos^lomnésque choros cǽlitum,^lcuncta sanctórum mérita^ltranscéndit una fémina.^pQuem fóverat in grémio,^llocárat in præsépio,^lnunc regem super ómnia^lPatris videt in glória.^pPro nobis, Virgo vírginum,^ltuum depósce Fílium,^lper quam nostra suscéperat,^lut sua nobis prǽbeat.^pSit laus Patri cum Fílio^let Spíritu Paráclito,^lqui te præ cunctis cǽlica^lexornavérunt glória."
+      },
+    2.0: {
+        "quote": "MarHimmelf Ld lat.",
+        "title_lat": "Solis, o Virgo, rádiis amícta",
+        "text_lat": "Solis, o Virgo, rádiis amícta,^lbis caput senis redimíta stellis,^lluna cui præbet pédibus scabéllum,^línclita fulges.^pMortis, inférni domitríxque culpæ,^lássides Christo studiósa nostri,^lteque regínam célebrat poténtem^lterra polúsque.^pAsseclas diæ fídei tuère;^ldíssitos adduc ad ovíle sacrum;^lquas diu gentes tegit umbra mortis^lúndique coge.^pSóntibus mitis véniam precáre,^ládiuva flentes, ínopes et ægros,^lspes mica cunctis per acútæ vitæ^lcerta salútis.^pLaus sit excélsæ Tríadi perénnis,^lquæ tibi, Virgo, tríbuit corónam,^latque regínam statuítque nostram^lpróvida matrem."
+      },
+    4.0: {
+        "quote": "MarHimmelf Vp lat.",
+        "title_lat": "Gáudium mundi, nova stella cæli",
+        "text_lat": "Gáudium mundi, nova stella cæli,^lprócreans solem, páriens paréntem,^lda manum lapsis, fer opem cadúcis,^lvirgo María.^pTe Deo factam liquet esse scalam^lqua tenens summa petit Altus ima;^lnos ad excélsi remeáre cæli^lcúlmina dona.^pTe beatórum chorus angelórum,^lte prophetárum et apostolórum^lordo prælátam sibi cernit unam^lpost Deitátem.^pLaus sit excélsæ Tríadi perénnis,^lquæ tibi, Virgo, tríbuit corónam,^latque regínam statuítque nostram^lpróvida matrem."
       }
   },
   8915: {
