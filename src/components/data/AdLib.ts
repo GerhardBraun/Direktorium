@@ -3061,11 +3061,19 @@ export const adlibData = {
     },
     "9": {
       "eig": {
-        "major": {
-          "comm_1": "MärtSg",
-          "comm_2": "Frau_Ord",
+        "each": {
+          "comm_1": "MärtSg_Jgfr",
+          "comm_2": "Jgfr_Ord",
           "oration": "Gott unserer Väter, du hast die heilige Märtyrin Edith Stein ^(Theresia Benedicta vom Kreuz^) zur Erkenntnis deines gekreuzigten Sohnes geführt und in seine Nachfolge bis zum Tode gerufen. Auf ihre Fürsprache lass alle Menschen in Christus den Erlöser erkennen und durch ihn zur Schau deiner Herrlichkeit gelangen.^ORvR",
           "oration_lat": "Deus patrum nostrórum, qui beátam Terésiam Benedíctam mártyrem ad cognitiónem Fílii tui crucifíxi eiúsque imitatiónem usque ad mortem perduxísti, ipsa intercedénte concéde, ut omnes hómines Christum Salvatórem agnóscant et per eum ad perpétuam tui visiónem advéniant.^ORlvR"
+        },
+        "Lesehore": {
+          "patr_autor": "Edith Stein († 1942)",
+          "patr_werk": "Aus dem Buch „Kreuzeswissenschaft“.",
+          "patr_text": "^hGlaube an den Gekreuzigten – Weg zum Leben^pChristus hat das Joch des Gesetzes auf sich genommen, indem er es vollkommen erfüllte und für und durch das Gesetz starb. Eben damit hat er die vom Gesetz befreit, die von ihm das Leben empfangen wollen. ^pAber sie können es nur empfangen, wenn sie ihr eigenes Leben preisgeben. Denn die auf Christus getauft sind, sind auf seinen Tod getauft{1#vgl. Röm 6,9}. Sie tauchen unter in sein Leben, um Glieder seines Leibes zu werden und als solche mit ihm zu leiden und mit ihm zu sterben, aber auch mit ihm aufzuerstehen zum ewigen, göttlichen Leben. ^pDieses Leben wird in seiner Fülle für uns erst kommen am Tage der Herrlichkeit. Wir haben aber jetzt schon – „im Fleisch“ – Anteil daran, indem wir glauben: glauben, dass Christus für uns gestorben ist, um uns das Leben zu geben. Dieser Glaube ist es, der uns mit ihm eins werden lässt wie die Glieder mit dem Haupt und uns öffnet für das Zuströmen seines Lebens. ^pSo ist der Glaube an den Gekreuzigten – der lebendige Glaube, der mit liebender Hingabe gepaart ist – für uns der Zugang zum Leben und der Anfang der künftigen Herrlichkeit; darum das Kreuz unser einziger Ruhmestitel: „Ferne sei es von mir, mich zu rühmen, außer im Kreuz unseres Herrn Jesus Christus, durch den mir die Welt gekreuzigt ist und ich der Welt“{2#Gal 6,14}. ^pWer sich für Christus entschieden hat, der ist für die Welt tot, und sie für ihn. Er trägt die Wundmale des Herrn an seinem Leibe{3#vgl. Gal 6,17}, ist schwach und verachtet vor den Menschen, aber gerade darum stark, weil in den Schwachen Gottes Kraft mächtig ist{4#vgl. 2 Kor 22,9}. ^pIn dieser Erkenntnis nimmt der Jünger Jesu nicht nur das Kreuz an, das auf ihn gelegt ist, sondern kreuzigt sich selbst: „Die Christus angehören, haben ihr Fleisch gekreuzigt mit seinen Lastern und Begierden“{5#Gal 5,24}. Sie haben einen unerbittlichen Kampf geführt gegen ihre Natur, damit das Leben der Sünde in ihnen ersterbe und Raum werde für das Leben des Geistes. ^pAuf das letzte kommt es an. Das Kreuz ist nicht Selbstzweck. Es ragt empor und weist nach oben. Doch es ist nicht nur Zeichen – es ist die starke Waffe Christi; der Hirtenstab, mit dem der göttliche David gegen den höllischen Goliat auszieht; womit er machtvoll an das Himmelstor pocht und es aufstößt. Dann fluten die Ströme des göttlichen Lichtes heraus und umfangen alle, die im Gefolge des Gekreuzigten sind.",
+          "patr_resp1": "Ich bin mit Christus gekreuzigt worden; nicht mehr ich lebe, sondern Christus lebt in mir,",
+          "patr_resp2": "der mich geliebt und sich für mich hingegeben hat.",
+          "patr_resp3": "Soweit ich aber jetzt noch in dieser Welt lebe, lebe ich im Glauben an den Sohn Gottes,"
         },
         "Laudes": {
           "button": "Hl. Theresia Benedicta vom Kreuz",
