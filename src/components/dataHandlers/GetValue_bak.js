@@ -1,5 +1,5 @@
 import { getExcludedHours } from "./ExcludedHours.js";
-import { dataSollemnities } from "../data/Sollemnities.ts";
+import { dataSollemnities } from "../data/Sollemnities.js";
 
 export const getValue = ({ season, hour, texts, field,
     prefSrc, prefSollemnity,
@@ -53,162 +53,160 @@ export const getValue = ({ season, hour, texts, field,
         return data;
     };
 
-    const result = (data) => {
-        const standField = field.replace(/^c_/, '');
-        const langField = languageField.replace(/^c_/, '');
-        const standardResult = data?.[standField] || null;
-        const languageResult = data?.[langField] || null;
+    // Helper function für die eigentliche Feldabfrage
+    const getFieldValue = (field) => {
+        const { rank_date = 0, rank_wt = 0, isCommemoration, hasErsteVesper = false, swdCombined, dayOfWeek } = texts;
+        const sollemnityErsteVesper = () => ['soll', 'kirchw'].includes(prefSollemnity)
+        const isPsalmodie = field.startsWith('psalm') ||
+            (field.startsWith('ant') && !field.startsWith('antev'))
+        const isTSN = ['terz', 'sext', 'non'].includes(hour)
+        const memorialWithTNS = texts?.laudes?.eig?.button
+            ?.includes('Barnabas' || 'Schutzengel')
 
-        if (typeof languageResult === 'string' &&
-            languageResult.startsWith('comm:')) {
-            const add = standardResult
-                ? "^p^RUBROder: Eigene°Oration°auf°Deutsch:^0RUBR^l" + standardResult
-                : '';
-            return "^RUBRLateinische Commune-Oration:^0RUBR^l"
-                + languageResult.replace('comm:', '')
-                + add
-                + localPrefLanguage;
+        // Feier wie ein Hochfest
+        const isSollemnity = (hour === 'vesper' && hasErsteVesper)
+            || prefSollemnity || rank_date === 5 ||
+            (rank_date === 4 && dayOfWeek === 0) ||
+            (rank_wt === 5 &&
+                swdCombined !== 'q-0-3' &&
+                !swdCombined.startsWith('q-6-') &&
+                !swdCombined.startsWith('o-1-') &&
+                dayOfWeek !== 0);
+
+        // Sonderfall 4. Adventssonntag
+        if (((swdCombined === 'a-3-6' && hour === 'vesper') || swdCombined === 'a-4-0') &&
+            !texts.laudes.wt.oration.startsWith('Herr Jesus Christus')) {
+            if (field === 'oration') {
+                return 'Allmächtiger Gott, gieße deine Gnade in unsere Herzen ein. Durch die Botschaft des Engels haben wir die Menschwerdung Christi, deines Sohnes, erkannt. Führe uns durch sein Leiden und Kreuz zur Herrlichkeit der Auferstehung.^ORvR'
+            }
+            if (field === 'oration_lat') {
+                return 'Grátiam tuam, quǽsumus, Dómine, méntibus nostris infúnde, ut qui, Angelo nuntiánte, Christi Fílii tui incarnatiónem cognóvimus, per passiónem eius et crucem ad resurrectiónis glóriam perducámur.^ORlV'
+            }
         }
-        else if (languageResult) {
-            return languageResult + localPrefLanguage;
+
+        // Bei Vesper als Hochfest
+        if (hour === 'vesper' && sollemnityErsteVesper()) { hour = 'prefsollemnity'; }
+
+        // Bei lokaler Feier als Hochfest Oration immer aus den Laudes
+        if (prefSollemnity && field.startsWith('oration')) {
+            return texts.laudes[prefSrc]?.[field] ?? null;
         }
-        return standardResult;
 
-    }
+        // Sonderfall Ergänzungspsalmodie
+        if (isPsalmodie && !localPrefPsalmsWt
+            && (isSollemnity
+                || (isTSN && localPrefErgPs && !getExcludedHours(texts, localPrefErgPs, 'PSALMODIE').includes(hour))
+                || (hour === 'laudes' && (rank_date > 2 || rank_wt > 2) && dayOfWeek !== 0) // Hochfeste und Feste: Ps vom So der I. Woche
+            )) {
+            const checkAnt0 = `ant0${localPrefLanguage}`
+            if (!(field.startsWith('ant') &&
+                (texts[hour][prefSrc]?.[checkAnt0] ||
+                    texts[hour][prefSrc]?.[`com${localPrefComm}`]?.[checkAnt0])
+            )) {
+                const data = dataSollemnities.soll?.[dayOfWeek]?.[hour]?.[languageField]
+                    || dataSollemnities.soll?.[dayOfWeek]?.[hour]?.[field]
+                    || dataSollemnities.soll.each?.[hour]?.[languageField]
+                    || dataSollemnities.soll.each?.[hour]?.[field]
 
-    const { rank_date = 0, rank_wt = 0, isCommemoration, hasErsteVesper = false, swdCombined, dayOfWeek } = texts;
-    const sollemnityErsteVesper = () => ['soll', 'kirchw'].includes(prefSollemnity)
-    const isPsalmodie = field.startsWith('psalm') ||
-        (field.startsWith('ant') && !field.startsWith('antev'))
-    const isTSN = ['terz', 'sext', 'non'].includes(hour)
-    const memorialWithTNS = texts?.laudes?.eig?.button
-        ?.includes('Barnabas' || 'Schutzengel')
-
-    // Feier wie ein Hochfest
-    const isSollemnity = (hour === 'vesper' && hasErsteVesper)
-        || prefSollemnity || rank_date === 5 ||
-        (rank_date === 4 && dayOfWeek === 0) ||
-        (rank_wt === 5 &&
-            swdCombined !== 'q-0-3' &&
-            !swdCombined.startsWith('q-6-') &&
-            !swdCombined.startsWith('o-1-') &&
-            dayOfWeek !== 0);
-
-    // Sonderfall 4. Adventssonntag
-    if (((swdCombined === 'a-3-6' && hour === 'vesper') || swdCombined === 'a-4-0') &&
-        !texts.laudes.wt.oration.startsWith('Herr Jesus Christus')) {
-        if (field === 'oration') {
-            return 'Allmächtiger Gott, gieße deine Gnade in unsere Herzen ein. Durch die Botschaft des Engels haben wir die Menschwerdung Christi, deines Sohnes, erkannt. Führe uns durch sein Leiden und Kreuz zur Herrlichkeit der Auferstehung.^ORvR'
+                if (data) { return replaceErgPs(data) }
+            }
         }
-        if (field === 'oration_lat') {
-            return 'Grátiam tuam, quǽsumus, Dómine, méntibus nostris infúnde, ut qui, Angelo nuntiánte, Christi Fílii tui incarnatiónem cognóvimus, per passiónem eius et crucem ad resurrectiónis glóriam perducámur.^ORlV'
+
+        // Abruf der Werte für die Kommemoration
+        if (field.startsWith('c_')) {
+            field = field.substring(2);
+            const data = texts[hour][prefSrc]
+            if (data?.[field]) { return data[field]; }
+            if (field === 'antev' && data?.ant_komm) {
+                return data.ant_komm;
+            }
+            if (data?.com1?.[field]) { return data?.com1[field]; }
+            return null;
         }
-    }
 
-    // Bei Vesper als Hochfest
-    if (hour === 'vesper' && sollemnityErsteVesper()) { hour = 'prefsollemnity'; }
+        // Prüfe, ob Commune übersprungen werden soll
+        let skipCommune = false;
+        if (rank_date < 3  // an Gedenktagen
+            && ((hour === 'lesehore' && field !== 'oration') ||// Lesehore: nur Hymnus und Oration ggf. Commune
+                (['laudes', 'vesper'].includes(hour) && isPsalmodie) || // Laudes/Vesper Psalmodie
+                isTSN) // Kleine Horen: ganz vom Wt
+        ) { skipCommune = true }
 
-    // Bei lokaler Feier als Hochfest Oration immer aus den Laudes
-    if (prefSollemnity && field.startsWith('oration')) {
-        return result(texts.laudes[prefSrc]);
-    }
+        if (rank_date < 5 && isTSN && isPsalmodie // an Festen: Ant und Ps in Kleinen Horen vom Wt
+        ) { skipCommune = true }
 
-    // Sonderfall Ergänzungspsalmodie
-    if (isPsalmodie && !localPrefPsalmsWt
-        && (isSollemnity
-            || (isTSN && localPrefErgPs && !getExcludedHours(texts, localPrefErgPs, 'PSALMODIE').includes(hour))
-            || (hour === 'laudes' && (rank_date > 2 || rank_wt > 2) && dayOfWeek !== 0) // Hochfeste und Feste: Ps vom So der I. Woche
-        )) {
-        const checkAnt0 = `ant0${localPrefLanguage}`
-        if (!(field.startsWith('ant') &&
-            (texts[hour][prefSrc]?.[checkAnt0] ||
-                texts[hour][prefSrc]?.[`com${localPrefComm}`]?.[checkAnt0])
-        )) {
-            const data = dataSollemnities.soll?.[dayOfWeek]?.[hour]?.[languageField]
-                || dataSollemnities.soll?.[dayOfWeek]?.[hour]?.[field]
-                || dataSollemnities.soll.each?.[hour]?.[languageField]
-                || dataSollemnities.soll.each?.[hour]?.[field]
+        if (isSollemnity
+        ) { skipCommune = false }
 
-            if (data) { return replaceErgPs(data) }
+        if (isPsalmodie && localPrefPsalmsWt
+        ) { skipCommune = true }
+
+        const prefTexts = texts[hour]?.[prefSrc] || texts[hour]?.pers
+
+        let prefCommTexts = '';
+        if (!skipCommune) {
+            if (localPrefComm === 1
+                || (isSollemnity && localPrefComm === 0)
+            ) { prefCommTexts = prefTexts?.com1 }
+            if (localPrefComm === 2
+            ) { prefCommTexts = prefTexts?.com2 }
         }
-    }
 
-    // Abruf der Werte für die Kommemoration
-    if (field.startsWith('c_')) {
-        const data = texts[hour][prefSrc]
-        if (result(data)) { return result(data); }
-        if (languageField === `c_antev${localPrefLanguage}` &&
-            data?.[`ant_komm${localPrefLanguage}`]) {
-            return data[`ant_komm${localPrefLanguage}`];
+        if ((!isCommemoration // an Tagen mit Kommemoration und in Kl. Horen an Gedenktagen nur wt-Werte
+            && !(rank_date < 3 && isTSN && !memorialWithTNS))
+            || isSollemnity) {
+
+            //Sonderfall Wochentagspsalmen
+            if (localPrefPsalmsWt && isPsalmodie &&
+                hour !== 'invitatorium'
+            ) { return texts[hour]?.wt?.[field] }
+
+            //Sonderfall Bahnlesung
+            if (localPrefContinuous && hour === 'lesehore' &&
+                /^(les_|resp|patr_)/.test(field)
+            ) { return texts[hour]?.wt?.[field] }
+
+            //Sonderfall Antiphonen: entweder ant0 oder ant1-3
+            if (field === `ant0${localPrefLanguage}` &&
+                (prefTexts?.[`ant1${localPrefLanguage}`] || prefCommTexts?.[`ant1${localPrefLanguage}`])
+            ) { return 'STOP' }
+
+            if ([`ant1${localPrefLanguage}`, `ant2${localPrefLanguage}`, `ant3${localPrefLanguage}`].includes(field) &&
+                (prefTexts?.[`ant0${localPrefLanguage}`] || prefCommTexts?.[`ant0${localPrefLanguage}`])
+            ) { return 'STOP' }
+
+            // 1. Prüfe zuerst prefSrc
+            if (prefTexts?.[field]) {
+                return prefTexts[field]
+            }
+            // 2. Prüfe Commune (prefCommTexts ist leer, wenn Commune übersprungen werden soll)
+            if (prefCommTexts?.[field]) {
+                return prefCommTexts[field]
+            }
         }
-        if (field === 'c_antev' && data?.ant_komm) {
-            return data.ant_komm;
+        if (texts[hour].pers?.[field]) {
+            return texts[hour].pers[field];
         }
-        if (data?.[`com${localPrefComm}`]?.[field]) { return data[`com${localPrefComm}`][field]; }
-        if (data?.com1?.[field]) { return data.com1[field]; }
+        // 3. Verwende "wt" als letzte Option
+        if (texts[hour].wt?.[field]) {
+            return texts[hour].wt[field];
+        }
         return null;
+    };
+
+    const languageResult = getFieldValue(languageField);
+    if (languageResult === 'STOP') { return null }
+    if (typeof languageResult === 'string' && languageResult.startsWith('comm:')) {
+        return "^RUBRLateinische Commune-Oration:^0RUBR^l"
+            + languageResult.replace('comm:', '')
+            + "^p^RUBROder: Eigene°Oration°auf°Deutsch:^0RUBR^l"
+            + getFieldValue(field)
+            + localPrefLanguage;
     }
-
-    // Prüfe, ob Commune übersprungen werden soll
-    let skipCommune = false;
-    if (rank_date < 3  // an Gedenktagen
-        && ((hour === 'lesehore' && field !== 'oration') ||// Lesehore: nur Hymnus und Oration ggf. Commune
-            (['laudes', 'vesper'].includes(hour) && isPsalmodie) || // Laudes/Vesper Psalmodie
-            isTSN) // Kleine Horen: ganz vom Wt
-    ) { skipCommune = true }
-
-    if (rank_date < 5 && isTSN && isPsalmodie // an Festen: Ant und Ps in Kleinen Horen vom Wt
-    ) { skipCommune = true }
-
-    if (isSollemnity
-    ) { skipCommune = false }
-
-    if (isPsalmodie && localPrefPsalmsWt
-    ) { skipCommune = true }
-
-    const prefTexts = texts[hour]?.[prefSrc] || texts[hour]?.pers
-
-    let prefCommTexts = '';
-    if (!skipCommune) {
-        if (localPrefComm === 1
-            || (isSollemnity && localPrefComm === 0)
-        ) { prefCommTexts = prefTexts?.com1 }
-        if (localPrefComm === 2
-        ) { prefCommTexts = prefTexts?.com2 }
+    else if (languageResult) {
+        return languageResult + localPrefLanguage;
     }
-
-    if ((!isCommemoration // an Tagen mit Kommemoration und in Kl. Horen an Gedenktagen nur wt-Werte
-        && !(rank_date < 3 && isTSN && !memorialWithTNS))
-        || isSollemnity) {
-
-        //Sonderfall Wochentagspsalmen
-        if (localPrefPsalmsWt && isPsalmodie &&
-            hour !== 'invitatorium'
-        ) { return result(texts[hour]?.wt) }
-
-        //Sonderfall Bahnlesung
-        if (localPrefContinuous && hour === 'lesehore' &&
-            /^(les_|resp|patr_)/.test(field)
-        ) { return result(texts[hour]?.wt) }
-
-        //Sonderfall Antiphonen: entweder ant0 oder ant1-3
-        if (languageField === `ant0${localPrefLanguage}` &&
-            (prefTexts?.[`ant1${localPrefLanguage}`] || prefCommTexts?.[`ant1${localPrefLanguage}`])
-        ) { return null }
-
-        if ([`ant1${localPrefLanguage}`, `ant2${localPrefLanguage}`, `ant3${localPrefLanguage}`].includes(languageField) &&
-            (prefTexts?.[`ant0${localPrefLanguage}`] || prefCommTexts?.[`ant0${localPrefLanguage}`])
-        ) { return null }
-
-        // 1. Prüfe zuerst prefSrc
-        // 2. Prüfe Commune (prefCommTexts ist leer, wenn Commune übersprungen werden soll)
-        if (result(prefTexts) || result(prefCommTexts)) {
-            return result(prefTexts) || result(prefCommTexts)
-        }
-    }
-    return result(texts[hour].pers)
-        || result(texts[hour].wt)
-        || null;
+    return getFieldValue(field);
 }
 
 const getKompletValue = ({ texts, field, localPrefKomplet, localPrefLanguage = '' }) => {

@@ -4907,6 +4907,33 @@ export const psalmsData = {
         "text_lat": "Ætérne sol, qui lúmine^lcreáta comples ómnia,^lsupréma lux et méntium,^lte corda nostra cóncinunt.^pTuo fovénte Spíritu,^lhic viva luminária^lfulsére, per quæ sǽculis^lpatent salútis sémitæ.^pQuod verba missa cǽlitus,^lnatíva mens quod éxhibet,^lper hos minístros grátiæ^lnovo nitóre cláruit.^pHorum corónæ párticeps,^ldoctrín>a honéstus lúcida,^lhic vir beátus splénduit^lquem prædicámus láudibus.^pIpso favénte, quǽsumus,^lnobis, Deus, percúrrere^lda veritátis trámitem,^lpossímus ut te cónsequi.^pPræsta, Pater piíssime,^lPatríque compar Unice,^lcum Spíritu Paráclito^lregnans per omne sǽculum. Amen."
       }
   },
+  5607: {
+    0.0: {
+        "quote": "Comm unius Virginis Lh",
+        "title_lat": "Dulci deprómat cármine",
+        "text_lat": "Dulci deprómat cármine^ldevóta plebs sollémnia,^ldum in cælórum cúlmine^lhæc virgo micat glória.^pVirgo, quæ Christi láudibus^lvacávit iam viríliter,^lsanctórum nunc agmínibus^lconiúngitur felíciter.^pVicit per pudicítiam^linfírmæ carnis vítium;^lsprevit mundi blandítiam^lChristi sequens vestígium.^pPer hanc nos, Christe, dírige^lservans a cunctis hóstibus;^lculpárum lapsus córrige^lnos ímbuens virtútibus.^pIesu, tibi sit glória,^lqui natus es de Vírgine,^lcum Patre et almo Spíritu,^lin sempitérna sǽcula. Amen."
+      }
+  },
+  5608: {
+    0.0: {
+        "quote": "Comm Virginum Lh",
+        "title_lat": "Gaudentes festum colimus"
+      }
+  },
+  5616: {
+    0.0: {
+        "quote": "Comm unius Virginis Ld",
+        "title_lat": "Aptáta, virgo, lámpade",
+        "text_lat": "Aptáta, virgo, lámpade^lad núptias ingréssa es^lætérni regis glóriæ,^lquem laudant turbæ cǽlicæ.^pGrata convíva súperis,^lcælésti sponso iúngeris^lampléxu casti fœ́deris,^lpudóris dives méritis.^pNormam vivéndi ínstrue,^lnos prece tua cónfove,^lpossímus ut resístere^lhostis nostri versútiæ.^pExémplar vitæ vírginum,^lMaría roget Fílium,^lut eius adiutórium^lnos iuvet per exsílium.^pSit Deitáti glória^lper infiníta sǽcula^lpro vírginis victória,^lqua gaudet cæli curia. Amen."
+      }
+  },
+  5620: {
+    0.0: {
+        "quote": "Comm Virginum Ld+Vp",
+        "title_lat": "Iesu, coróna vírginum",
+        "text_lat": "Iesu, coróna vírginum,^lquem Mater illa cóncipit^lquæ sola virgo párturit,^lhæc vota clemens áccipe,^pQui pascis inter lília^lsæptus choréis vírginum,^lsponsa decórus glória^lsponsísque reddens prǽmia.^pQuocúmque pergis, vírgines^lsequúntur, atque láudibus^lpost te canéntes cúrsitant^lhymnósque dulces pérsonant.^pTe deprecámur, lárgius^lnostris adáuge méntibus^lnescíre prorsus ómnia^lcorruptiónis vúlnera.^pIesu, tibi sit glória,^lqui natus es de Vírgine,^lcum Patre et almo Spíritu,^lin sempitérna sǽcula. Amen."
+      }
+  },
   5630: {
     0.0: {
         "quote": "Comm Virorum Lh+Vp",

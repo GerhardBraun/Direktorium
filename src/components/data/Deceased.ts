@@ -6841,6 +6841,14 @@ export const deceasedData =  {
         "birth": "9.°Mai°1936°in°Fulda",
         "grave": "Friedhof°Hanau¥-Kesselstadt",
         "age": 81
+      },
+      {
+        "year": 2025,
+        "birthdate": "2264-12-06",
+        "name": "Michael°Möller, Pfarrer°in°Hilders",
+        "birth": "6.°Dezember°1964°in°Fulda",
+        "grave": "",
+        "age": 60
       }
     ],
     "12": [

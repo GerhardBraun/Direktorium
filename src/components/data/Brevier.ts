@@ -1930,7 +1930,7 @@ export const brevierData = {
           "resp3": "Der Herr ist gütig zur Seele, die ihn sucht.",
           "antev": "Seht, nun folgt die Jungfrau dem Lamm, das für uns gekreuzigt ist. Furchtlos gab sie ihr Leben hin als makelloses Opfer für Gott.^Ö",
           "bitten": "Du hast dir die Kirche zur Braut erwählt;^qheilige sie, damit sie ohne Makel vor dir stehe.^pDurch deine Gnade hat die Kirche dir die Treue bewahrt;^qerneuere sie immer wieder durch dein Evangelium.^pDu hast der Kirche das Vorbild der heiligen ^GEN geschenkt;^qrufe junge Menschen in den Stand der Jungfräulichkeit.^pDie heilige ^NOM ist dir ungeteilten Herzens nachgefolgt;^qauf ihre Fürbitte stärke die Ordensfrauen in ihrem Dienst.^pDie heiligen Jungfrauen hast du aufgenommen zum Hochzeitsmahl des ewigen Lebens;^qlass auch unsere Verstorbenen teilhaben am himmlischen Mahl.",
-          "hymn_1_lat": 5600.0,
+          "hymn_1_lat": 5620.0,
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
           "ant1_lat": "",
@@ -1945,7 +1945,7 @@ export const brevierData = {
         },
         "Invitatorium": {
           "ant0": "Den Herrn, den König der Jungfrauen – kommt, wir beten ihn an!^Ö^ODER^rAnt.°°^0rDas Lamm, dem die Jungfrauen folgen – kommt, wir beten es an!^Ö",
-          "ant0_lat": ""
+          "ant0_lat": "Regem vírginum Dóminum, veníte, adorémus.^LÖ^VEL^rAnt.°°^0rAgnum, quem sequúntur vírgines, veníte, adorémus.^LÖ"
         },
         "Lesehore": {
           "hymn_1": 1177.0,
@@ -1972,15 +1972,15 @@ export const brevierData = {
           "patr_resp1": "",
           "patr_resp2": "",
           "patr_resp3": "",
+          "hymn_1_lat": 5607.0,
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
           "hymn_nacht_lat": 0.0,
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "versikel0_lat": "",
-          "versikel1_lat": "",
-          "resp1_lat": "",
+          "ant1_lat": "Virgo spléndida, prudens, clara consílio, sponsum ánimæ tuæ Verbum habes immaculátum.^LÖ",
+          "ant2_lat": "Regnum mundi et omne sǽculum contémpsi propter amórem Dómini mei Iesu Christi.^LÖ",
+          "ant3_lat": "Concupívit Rex spéciem tuam, quia ipse est Dóminus Deus tuus.^LÖ",
+          "versikel0_lat": "Notas mihi fecísti vias vitæ.^LÖ",
+          "versikel1_lat": "Adimplébis me lætítia cum vultu tuo.^LÖ",
           "resp2_lat": "",
           "resp3_lat": "",
           "patr_resp1_lat": "",
@@ -2011,19 +2011,20 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, denn er ist der Ruhm und die Krone der Jungfrauen. Zu ihm lasst uns beten:",
           "bitten_r": "König der Jungfrauen, erhöre uns.",
           "bitten": "Du hast Maria, deine Mutter, zur Königin der Jungfrauen erhoben;^qauf ihre Fürsprache schenke uns die Reinheit des Herzens.^pDir allein haben sich die heiligen Jungfrauen geweiht;^qgib, dass auch uns nichts von deiner Liebe trenne.^pDie heiligen Jungfrauen haben dir mit ungeteiltem Herzen gedient;^qgib, dass nichts uns hindere auf dem Weg zu dir.^pDu bist der Bräutigam, auf dessen Ankunft die heiligen Jungfrauen gewartet haben;^qgib, dass wir stets wachsam deine Wiederkunft erwarten.",
+          "hymn_1_lat": 5616.0,
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "„Suchet°mein°Antlitz!“",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "ant1_lat": "Christum líbere confíteor, Christum ardénter sítio, cum Christo iúgiter esse cúpio.^LÖ",
+          "ant2_lat": "Benedícite, vírgines, Dóminum: iam seminátor casti consílii in vobis dona sua corónat.^LÖ",
+          "ant3_lat": "Exsultábunt sancti in glória, quibus de carne et sánguine fúlgida est victória.^LÖ",
+          "resp1_lat": "Tibi dixit cor meum:",
+          "resp2_lat": "Quæsívi vultum tuum.",
+          "resp3_lat": "Vultum tuum, Dómine, requíram.",
+          "antev_lat": "Ecce prudens virgo migrávit ad Christum, fulgens inter choros vírginum sicut sol in virtúte cælésti.^LÖ",
+          "bitten_e_lat": "Christo, vírginum sponso et corónæ, lætis vócibus iubilémus et devóte eum exorémus, dicéntes:",
+          "bitten_r_lat": "Iesu, coróna vírginum, audi nos.",
+          "bitten_lat": "Christe, quem sanctæ vírgines ut únicum sponsum dilexérunt,^qconcéde ut nihil a tua caritáte nos séparet.^pQui Maríam, matrem tuam, regínam vírginum coronásti,^qda nos, eius intercessióne, cordis puritáte tibi iúgiter famulári.^pPer intercessiónem ancillárum tuárum, quæ íntegro et indivíso corde semper de te sollícitæ fuérunt, ut essent sanctæ córpore et spíritu,^qpræsta ut figúra huius mundi, quæ prǽterit, nos a te numquam ábstrahat.^pDómine Iesu, sponse, quem vírgines sapiéntes adventúrum exspectábant,^qconcéde nobis, ut in spe vigilántes te præstolémur.^pPer intercessiónem sanctæ ^GEN, quæ virgo fuit sápiens et de número prudéntum,^qpræsta nobis innocéntiam vitæ et sapiéntiam.",
+          "les_text_lat": "Aquæ multæ non potuérunt exstínguere caritátem, nec flúmina óbruent illam; si déderit homo omnem substántiam domus suæ pro dilectióne, quasi nihil despícient eum."
         },
         "Terz": {
           "hymn_2": 0.0,
@@ -2040,13 +2041,13 @@ export const brevierData = {
           "resp1": "Der Herr findet sie wachend, wenn er kommt.^Ö",
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
-          "ant0_lat": "",
+          "ant0_lat": "Mihi adhærére Deo bonum est: pónere in Dómino Deo spem meam.^LÖ",
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "resp0_lat": "Hæc est virgo sápiens.^LÖ",
+          "resp1_lat": "Quam Dóminus vigilántem invénit.^LÖ",
+          "les_text_lat": "Scivi quóniam áliter non possem esse cóntinens, nisi Deus det, et hoc ipsum erat sapiéntiæ scire, cuius esset hoc donum."
         },
         "Sext": {
           "hymn_2": 0.0,
@@ -2063,13 +2064,13 @@ export const brevierData = {
           "resp1": "Eine aus der Zahl der Klugen.^Ö",
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
-          "ant0_lat": "",
+          "ant0_lat": "Súscipe me, Dómine, secúndum elóquium tuum, et vivam: et non confúndas me ab exspectatióne mea.^LÖ",
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "resp0_lat": "Hæc est virgo sápiens.^LÖ",
+          "resp1_lat": "Et una de número prudéntum.^LÖ",
+          "les_text_lat": "De virgínibus præcéptum Dómini non hábeo, consílium autem do, tamquam misericórdiam consecútus a Dómino ut sim fidélis."
         },
         "Non": {
           "hymn_2": 0.0,
@@ -2085,13 +2086,13 @@ export const brevierData = {
           "resp1": "Ich halte ihn fest und will ihn nicht lassen.^Ö",
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
-          "ant0_lat": "",
+          "ant0_lat": "O quam pulchra est casta generátio cum claritáte.^LÖ",
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "resp0_lat": "Invéni quem díligit ánima mea.^LÖ",
+          "resp1_lat": "Ténui eum nec dimíttam.^LÖ",
+          "les_text_lat": "Regnávit Dóminus, Deus noster omnípotens. Gaudeámus et exsultémus et demus glóriam ei, quia venérunt núptiæ Agni, et uxor eius præparávit se."
         },
         "Vesper": {
           "hymn_1": 1185.0,
@@ -2114,19 +2115,20 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu Jesus Christus, der zu allen Zeiten Menschen beruft zur Jungfräulichkeit um des Himmelreiches willen:",
           "bitten_r": "König der Jungfrauen, erhöre uns.",
           "bitten": "Du hast dir die Kirche zur Braut erwählt;^qheilige sie, damit sie ohne Makel vor dir stehe.^pDurch deine Gnade hat die Kirche dir die Treue bewahrt;^qerneuere sie immer wieder durch dein Evangelium.^pDu hast der Kirche das Vorbild der heiligen ^GEN geschenkt;^qrufe junge Menschen in den Stand der Jungfräulichkeit.^pDie heilige ^NOM ist dir ungeteilten Herzens nachgefolgt;^qauf ihre Fürbitte stärke die Ordensfrauen in ihrem Dienst.^pDie heiligen Jungfrauen hast du aufgenommen zum Hochzeitsmahl des ewigen Lebens;^qlass auch unsere Verstorbenen teilhaben am himmlischen Mahl.",
+          "hymn_1_lat": 5620.0,
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "in°Freude°und°Jubel.",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "ant1_lat": "Tibi me servo castam, et splendéntem tenens lámpadem, Sponse, tibi occúrro.^LÖ",
+          "ant2_lat": "Beáti mundo corde, quóniam ipsi Deum vidébunt.^LÖ",
+          "ant3_lat": "Mens mea solidáta est, et in Christo fundáta.^LÖ",
+          "resp1_lat": "Afferéntur Regi vírgines",
+          "resp2_lat": "in exsultatióne.",
+          "resp3_lat": "Adducéntur in templum Regis.",
+          "antev_lat": "Veni, sponsa Christi, áccipe corónam, quam tibi Dóminus præparávit in ætérnum.^LÖ",
+          "bitten_e_lat": "Christum, qui virginitátem propter regnum cælórum coléntes laudávit, festíve celebrémus et exorémus, dicéntes:",
+          "bitten_r_lat": "Iesu, rex vírginum, audi nos.",
+          "bitten_lat": "Christe, qui Ecclésiam vírginem castam tibi uni Sponso exhibuísti,^qimmaculátam eam redde et sanctam.^pChriste, cui óbviam vírgines sanctæ cum lampádibus exiérunt,^qne permíttas umquam fidelitátis óleum in lampádibus tibi devotárum ancillárum defícere.^pDómine, cui Ecclésia virgo fidem tibi datam íntegram et puram iúgiter custodívit,^qconcéde christiánis ómnibus fídei integritátem et puritátem.^pQui tríbuis pópulo tuo de sanctæ ^GEN vírginis festivitáte gaudére,^qpræsta, ut de eius étiam semper intercessióne lætétur.^pQui ad cenam nuptiárum tuárum sanctas vírgines recepísti,^qdefúnctos in aulam cæléstis convívii benígnus admítte.",
+          "les_text_lat": "Qui sine uxóre est, sollícitus est, quæ Dómini sunt, quómodo pláceat Dómino. Et múlier innúpta et virgo cógitat, quæ Dómini sunt, ut sit sancta et córpore et spíritu."
         }
       },
       "Kl": {
@@ -2197,7 +2199,7 @@ export const brevierData = {
           "antev": "Selig die Jungfrau, die sich selbst verleugnete und ihr Kreuz auf sich nahm. Sie ist dem Herrn gefolgt, ihrem Bräutigam, dem König der Märtyrer.^Ö",
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
-          "antev_lat": ""
+          "antev_lat": "Beáta virgo, quæ, ábnegans semetípsam et tollens crucem suam, Dóminum æmuláta est, vírginum sponsum martyrúmque príncipem.^LÖ"
         },
         "Vesper": {
           "hymn_2": 0.0,
@@ -2226,6 +2228,7 @@ export const brevierData = {
           "hymn_3": 0.0,
           "hymn_kl": 0.0,
           "antev": "Ihr Jungfrauen, preiset den Herrn, preist ihn in Ewigkeit!^Ö",
+          "hymn_1_lat": 5620.0,
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
           "antev_lat": ""
@@ -2240,6 +2243,9 @@ export const brevierData = {
           "hymn_3_lat": 0.0,
           "antev_lat": "",
           "bitten_lat": ""
+        },
+        "Lesehore": {
+          "hymn_1_lat": 5608.0
         }
       }
     },
@@ -6938,26 +6944,6 @@ export const brevierData = {
         "Vesper": {
           "hymn_1_lat": 8822.4,
           "antev_lat": "Beáta es, Virgo María, quia credidísti quæ dicta sunt tibi a Dómino: cum Christo regnas in ætérnum."
-        }
-      },
-      "24": {
-        "each": {
-          "comm_1": "Apostel",
-          "oration": "Gott, unser Herr, der Apostel Bartholomäus hat mit aufrichtigem Herzen deinem Sohn die Treue gehalten. Stärke auf seine Fürsprache auch unseren Glauben und mache deine Kirche zum wirksamen Zeichen des Heiles für alle Völker.^ORV",
-          "oration_lat": "Róbora in nobis, Dómine, fidem, qua Fílio tuo beátus Bartholomǽus apóstolus sincéro ánimo adhǽsit, et præsta, ut, ipso deprecánte, Ecclésia tua cunctis géntibus salútis fiat sacraméntum.^ORlV"
-        },
-        "Lesehore": {
-          "patr_autor": "Johannes Chrysostomus (†°407)",
-          "patr_werk": "Aus einer Auslegung zum ersten Brief an die Korinther.",
-          "patr_text": "^hDas Schwache Gottes ist stärker als die Menschen^pWahrhaftig, das Kreuz überzeugte durch ungelehrte Menschen den ganzen Erdkreis. Dabei redete es nicht über nebensächliche Dinge, sondern über Gott und die wahre Religion, über das Leben nach dem Evangelium und das kommende Gericht. Es machte Bauern und ungelehrte Männer zu Philosophen. Sieh: „Das Törichte an Gott ist weiser als die Menschen, und das Schwache an Gott ist stärker als die Menschen.“ {1#1 Kor 1,25} Wieso stärker? Weil es über die ganze Welt dahinschritt und alle mit seiner Kraft gefangennahm.^pViele versuchten, den Namen des Gekreuzigten auszulöschen. Doch dieser blühte auf und wuchs, sie aber verdarben und gingen unter. Die Lebenden, die gegen den Toten kämpften, konnten nichts ausrichten. Wenn mich daher ein Grieche einen Toren nennt, dann erweist er sich selber als Tor. Wenn ich von ihm für töricht gehalten werde, dann zeigt sich, dass ich weiser bin als er, der Weise. Wenn er mich schwach nennt, dann beweist er, dass er der Schwächere ist. Denn was Zöllner und Fischer durch die Gnade Gottes ausrichten konnten, das vermochten Philosophen, Redner und Herrscher, ja die Weisen der ganzen Welt mit ihren tausend Listen und Künsten sich nicht einmal vorzustellen.^pDaran dachte Paulus, als er sprach: „Das Schwache an Gott ist stärker als die Menschen.“ {2#Ebd.} Auch daran wird offenbar, dass die Verkündigung göttlich ist. Denn wie kamen die zwölf ungelehrten Männer dazu, ein so großes Unternehmen anzufangen, sie, die auf Seen und Flüssen oder in Einöden gelebt hatten und vielleicht noch nicht einmal eine Stadt oder einen Markt gesehen hatten, wie kamen sie dazu, sich gegen eine ganze Welt zu stellen? Dass sie furchtsam und mutlos waren, zeigt der, der über sie geschrieben hat: Er leugnet es nicht und denkt nicht daran, ihre Fehler zu bemänteln, und das ist der größte Beweis für seine Wahrhaftigkeit. Was sagt er also von ihnen? Dass sie nach der Gefangennahme Christi trotz so vieler Wunder flohen und dass der Erste von ihnen den Herrn verleugnete.^pAls Christus noch auf Erden lebte, ertrugen sie den Angriff der Juden nicht, wie sollten sie sich nach seinem Tod gegen eine so große Welt gestellt haben, wenn er, wie ihr behauptet, nicht auferstanden wäre, wenn er nicht mit ihnen gesprochen und ihnen Mut gemacht hätte? Hätten sie nicht bei sich gesagt: Wie ist das? Er konnte sich selbst nicht retten, und uns sollte er helfen? Er konnte sich nicht helfen, als er noch lebte, und uns sollte er die Hand reichen, jetzt, da er tot ist? Als er noch am Leben war, unterwarf er sich nicht ein einziges Volk, und wir wollen die ganze Welt überzeugen, wenn wir seinen Namen nennen? Wie sollte es einen Sinn haben, das zu tun oder auch nur zu denken? So ist es denn offenbar: Wenn sie nicht den Auferstandenen gesehen und den größten Beweis seiner Macht erhalten hätten, dann hätten sie nicht mit so hohem Einsatz gewürfelt.",
-          "patr_resp1": "Wir verkündigen Christus als den Gekreuzigten: für die Juden ein Ärgernis, für die Heiden eine Torheit;",
-          "patr_resp2": "für die Berufenen aber Christus, Gottes Kraft und Gottes Weisheit.",
-          "patr_resp3": "In allem leiden wir Not, doch wir überwinden alles durch Christus, der uns liebhat."
-        },
-        "Laudes": {
-          "button": "Hl. Bartolomäus",
-          "farbe": "r",
-          "hymn_1_lat": 8824.0
         }
       },
       "29": {
