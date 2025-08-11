@@ -1474,8 +1474,8 @@ export const brevierData = {
           "les_text_lat": ""
         },
         "Invitatorium": {
-          "ant0": "Wunderbar ist Gott in seinen Heiligen; kommt, wir beten ihn an!^Ö^ODER^rAnt.°°^0rLasst uns Gott loben am Fest der heiligen ^GEN!^Ö",
-          "ant0_lat": "Mirábilem Deum in sanctis suis, veníte, adorémus.^LÖ^p^RUBRVel:^0RUBR^l^rAnt.°°^0rLaudémus Deum nostrum in celebritáte sanctæ ^GEN.^LÖ"
+          "ant0": "Wunderbar ist Gott in seinen Heiligen; kommt, wir beten ihn an!^Ö^ODER^ANTLasst uns Gott loben am Fest der heiligen ^GEN!^Ö",
+          "ant0_lat": "Mirábilem Deum in sanctis suis, veníte, adorémus.^LÖ^p^RUBRVel:^0RUBR^l^ANTLaudémus Deum nostrum in celebritáte sanctæ ^GEN.^LÖ"
         },
         "Lesehore": {
           "hymn_1": 3112.0,
@@ -1705,7 +1705,7 @@ export const brevierData = {
           "resp1": "Preist den Herrn, ihr Priester des Herrn,",
           "resp2": "lobt und erhebt ihn in Ewigkeit.",
           "resp3": "Ihr demütigen Herzen und ihr Frommen, 2",
-          "antev": "^rFür einen Papst oder einen Bischof:^0r^lDu Priester des Höchsten, Spiegel aller Tugenden, des Volkes guter Hirte, der dem Herrn gefiel!^Ö^p^rFür einen Priester:^0r^l^rAnt.°°^0rAllen bin ich alles geworden, um alle zu retten.^Ö",
+          "antev": "^rFür einen Papst oder einen Bischof:^0r^lDu Priester des Höchsten, Spiegel aller Tugenden, des Volkes guter Hirte, der dem Herrn gefiel!^Ö^p^rFür einen Priester:^0r^l^ANTAllen bin ich alles geworden, um alle zu retten.^Ö",
           "bitten_e": "Lasst uns beten zu Jesus Christus, dem Hirten seines Volkes:",
           "bitten_r": "Herr, komm deinem Volk zu Hilfe.",
           "bitten": "Du hast deiner Kirche immer wieder heilige Priester als Hirten geschenkt;^qsende deinen Gläubigen allezeit gute Seelsorger.^pDu hast den Hirten der Kirche den Dienst der Versöhnung anvertraut;^qgib, dass sie ihn treu verwalten.^pDu bist es, der den Seelsorgern Kraft von oben verleiht;^qerfülle alle, die dein Volk führen, mit Heiligem Geist.^pDu selber bist das Erbteil aller, die du zu Seelsorgern berufen hast;^qlass keinen von ihnen verlorengehen.^pDu bist der ewige Lohn deiner Diener;^qschenke den verstorbenen Seelsorgern und allen Gläubigen das ewige Leben.",
@@ -1875,7 +1875,7 @@ export const brevierData = {
           "resp1": "Das ist der Freund seiner Brüder,",
           "resp2": "für das Heil seines Volkes tritt er ein vor°Gott.",
           "resp3": "Für seine Brüder gab er das Leben hin.",
-          "antev": "Dies ist der treue und kluge Verwalter: Der Herr hat ihn eingesetzt, damit er seinen Dienern Nahrung gibt zur rechten Zeit.^Ö^ODER^rAnt.°°^0rDank sei dir, Christus, guter Hirte! Du hast mich zur Herrlichkeit geführt, gib auch der Herde, die du mir anvertraut hast, Anteil an deiner Gnade auf ewig.^Ö",
+          "antev": "Dies ist der treue und kluge Verwalter: Der Herr hat ihn eingesetzt, damit er seinen Dienern Nahrung gibt zur rechten Zeit.^Ö^ODER^ANTDank sei dir, Christus, guter Hirte! Du hast mich zur Herrlichkeit geführt, gib auch der Herde, die du mir anvertraut hast, Anteil an deiner Gnade auf ewig.^Ö",
           "bitten_e": "Lasst uns beten zu Jesus Christus, dem Hirten seines Volkes:",
           "bitten_r": "Herr, komm deinem Volk zu Hilfe.",
           "bitten": "Du hast deiner Kirche immer wieder heilige Priester als Hirten geschenkt;^qsende deinen Gläubigen allezeit gute Seelsorger.^pDu hast den Hirten der Kirche den Dienst der Versöhnung anvertraut;^qgib, dass sie ihn treu verwalten.^pDu bist es, der den Seelsorgern Kraft von oben verleiht;^qerfülle alle, die dein Volk führen, mit Heiligem Geist.^pDu selber bist das Erbteil aller, die du zu Seelsorgern berufen hast;^qlass keinen von ihnen verlorengehen.^pDu bist der ewige Lohn deiner Diener;^qschenke den verstorbenen Seelsorgern und allen Gläubigen das ewige Leben.",
@@ -1944,8 +1944,8 @@ export const brevierData = {
           "les_text_lat": ""
         },
         "Invitatorium": {
-          "ant0": "Den Herrn, den König der Jungfrauen – kommt, wir beten ihn an!^Ö^ODER^rAnt.°°^0rDas Lamm, dem die Jungfrauen folgen – kommt, wir beten es an!^Ö",
-          "ant0_lat": "Regem vírginum Dóminum, veníte, adorémus.^LÖ^VEL^rAnt.°°^0rAgnum, quem sequúntur vírgines, veníte, adorémus.^LÖ"
+          "ant0": "Den Herrn, den König der Jungfrauen – kommt, wir beten ihn an!^Ö^ODER^ANTDas Lamm, dem die Jungfrauen folgen – kommt, wir beten es an!^Ö",
+          "ant0_lat": "Regem vírginum Dóminum, veníte, adorémus.^LÖ^VEL^ANTAgnum, quem sequúntur vírgines, veníte, adorémus.^LÖ"
         },
         "Lesehore": {
           "hymn_1": 1177.0,
@@ -2127,7 +2127,7 @@ export const brevierData = {
           "antev_lat": "Veni, sponsa Christi, áccipe corónam, quam tibi Dóminus præparávit in ætérnum.^LÖ",
           "bitten_e_lat": "Christum, qui virginitátem propter regnum cælórum coléntes laudávit, festíve celebrémus et exorémus, dicéntes:",
           "bitten_r_lat": "Iesu, rex vírginum, audi nos.",
-          "bitten_lat": "Christe, qui Ecclésiam vírginem castam tibi uni Sponso exhibuísti,^qimmaculátam eam redde et sanctam.^pChriste, cui óbviam vírgines sanctæ cum lampádibus exiérunt,^qne permíttas umquam fidelitátis óleum in lampádibus tibi devotárum ancillárum defícere.^pDómine, cui Ecclésia virgo fidem tibi datam íntegram et puram iúgiter custodívit,^qconcéde christiánis ómnibus fídei integritátem et puritátem.^pQui tríbuis pópulo tuo de sanctæ ^GEN vírginis festivitáte gaudére,^qpræsta, ut de eius étiam semper intercessióne lætétur.^pQui ad cenam nuptiárum tuárum sanctas vírgines recepísti,^qdefúnctos in aulam cæléstis convívii benígnus admítte.",
+          "bitten_lat": "Christe, qui Ecclésiam vírginem castam tibi uni Sponso exhibuísti,^qimmaculátam eam redde et sanctam.^pChriste, cui óbviam vírgines sanctæ cum lampádibus exiérunt,^qne permíttas umquam fidelitátis óleum in lampádibus tibi devotárum ancillárum defícere.^pDómine, cui Ecclésia virgo fidem tibi datam íntegram et puram iúgiter custodívit,^qconcéde christiánis ómnibus fídei integritátem et puritátem.^pQui tríbuis pópulo tuo de sanctæ vírginis ^GEN festivitáte gaudére,^qpræsta, ut de eius étiam semper intercessióne lætétur.^pQui ad cenam nuptiárum tuárum sanctas vírgines recepísti,^qdefúnctos in aulam cæléstis convívii benígnus admítte.",
           "les_text_lat": "Qui sine uxóre est, sollícitus est, quæ Dómini sunt, quómodo pláceat Dómino. Et múlier innúpta et virgo cógitat, quæ Dómini sunt, ut sit sancta et córpore et spíritu."
         }
       },
@@ -2287,7 +2287,7 @@ export const brevierData = {
           "les_text_lat": ""
         },
         "Invitatorium": {
-          "ant0": "Wie ein Bräutigam liebt Christus seine Kirche; kommt, wir beten ihn an!^Ö^ODER^rAnt.^0r°°Christus, den Herrn, der seine Kirche liebt – kommt, wir beten ihn an!^Ö",
+          "ant0": "Wie ein Bräutigam liebt Christus seine Kirche; kommt, wir beten ihn an!^Ö^ODER^ANTChristus, den Herrn, der seine Kirche liebt – kommt, wir beten ihn an!^Ö",
           "ant0_lat": ""
         },
         "Lesehore": {
@@ -2476,8 +2476,8 @@ export const brevierData = {
           "les_text_lat": ""
         },
         "Invitatorium": {
-          "ant0": "Wunderbar ist Gott in seinen Heiligen; kommt, wir beten ihn an!^Ö^ODER^rAnt.°°^0rLasst uns Gott loben am Fest des heiligen ^GEN!^Ö",
-          "ant0_lat": "Mirábilem Deum in sanctis suis, veníte, adorémus.^LÖ^VEL^rAnt.°°^0rLaudémus Deum nostrum in celebritáte sancti ^GEN.^LÖ"
+          "ant0": "Wunderbar ist Gott in seinen Heiligen; kommt, wir beten ihn an!^Ö^ODER^ANTLasst uns Gott loben am Fest des heiligen ^GEN!^Ö",
+          "ant0_lat": "Mirábilem Deum in sanctis suis, veníte, adorémus.^LÖ^VEL^ANTLaudémus Deum nostrum in celebritáte sancti ^GEN.^LÖ"
         },
         "Lesehore": {
           "hymn_1": 1199.0,
@@ -2705,7 +2705,7 @@ export const brevierData = {
           "bitten_lat": "Du bist wunderbar in deinen Heiligen;^qsende auch unserer Zeit heilige Männer.^pDu hast immer wieder heilige Männer berufen, dass sie deine Herrschaft in der Welt sichtbar machen;^qsteh allen bei, denen ein Dienst ^(Amt^) in der Welt aufgetragen ist.^pAuf die Fürsprache der heiligen ^GEN stärke alle, die an dich glauben;^qhilf ihnen, deinen Auftrag auszuführen, wo immer sie stehen.^pDie heiligen ^NOM haben in den Prüfungen des Lebens standgehalten;^qgib allen Christen Großmut und Tapferkeit.^pVergib den Sündern ihre Schuld^qund lass dein Antlitz leuchten über unseren Verstorbenen."
         },
         "Invitatorium": {
-          "ant0_lat": "Mirábilem Deum in sanctis suis, veníte, adorémus.^LÖ^VEL^rAnt.°°^0rLaudémus Deum nostrum in celebritáte sanctórum ^GEN.^LÖ"
+          "ant0_lat": "Mirábilem Deum in sanctis suis, veníte, adorémus.^LÖ^VEL^ANTLaudémus Deum nostrum in celebritáte sanctórum ^GEN.^LÖ"
         },
         "Lesehore": {
           "hymn_1_lat": 5647.0
@@ -2742,7 +2742,7 @@ export const brevierData = {
           "resp1": "Du bliebst unversehrt nach der Geburt,",
           "resp2": "heilige Jungfrau Maria.",
           "resp3": "Gottesgebärerin, bitte für uns.",
-          "antev": "Auf meine Niedrigkeit hat der Herr geschaut, Großes hat an mir getan der Mächtige.^Ö^ODER^rAnt.^0r°°Selig preisen mich alle Geschlechter, denn auf die Niedrigkeit seiner Magd hat der Herr geschaut.^Ö",
+          "antev": "Auf meine Niedrigkeit hat der Herr geschaut, Großes hat an mir getan der Mächtige.^Ö^ODER^ANTSelig preisen mich alle Geschlechter, denn auf die Niedrigkeit seiner Magd hat der Herr geschaut.^Ö",
           "bitten_e": "Lasst uns beten zu Gott, dem allmächtigen Vater, der Maria, die Mutter seines Sohnes, den Menschen zur Fürsprecherin gegeben hat:",
           "bitten_r": "Höre auf die Fürbitte der seligen Jungfrau.",
           "bitten": "^RUBR1. Reihe:^0RUBR^lDu hast Maria zur Mutter deines Sohnes auserwählt;^qlass die Kirche unter ihrem Schutz geborgen sein.^pDu hast Maria den Menschen zur Mutter gegeben;^qauf ihre Fürsprache gewähre den Kranken Heilung und den Trauernden Trost.^pDu hast Maria die Fülle deiner Gnade geschenkt;^qauf ihre Fürsprache schenke den Sündern Vergebung und allen Menschen Frieden und Heil.^pDu hast Maria zum Urbild deiner Kirche gemacht;^qgib, dass deine Gläubigen einmütig mit Maria im Gebet verharren.^pDu hast die unbefleckte Jungfrau mit Leib und Seele in den Himmel aufgenommen;^qschenke unseren Verstorbenen die ewige Freude mit Maria und all deinen Heiligen.^p^RUBROder 2. Reihe:^0RUBR^lDu hast Maria die Gnade geschenkt, deinem Ruf zu folgen; ^qauf ihre Fürsprache hilf allen, die sich in deinen Dienst gestellt haben.^pDu hast Maria zur Mutter der Heiligen Familie bestellt;^qauf ihre Fürsprache hilf allen Müttern, ihre Aufgaben zu erfüllen.^pDu hast Maria unter dem Kreuze Jesu gestärkt und durch seine Auferstehung mit Freude erfüllt;^qkomm den Bedrängten zu Hilfe und gib ihnen Hoffnung.^pDu hast den Menschen Maria gegeben als die „Mutter der Barmherzigkeit“;^qlass alle, die in Sünde sind, ihre mütterliche Hilfe erfahren.^pDu hast Maria zur Königin des Himmels gekrönt;^qschenke unseren Verstorbenen die ewige Freude mit Maria und all deinen Heiligen.",
@@ -2754,15 +2754,15 @@ export const brevierData = {
           "resp1_lat": "Post partum, Virgo,",
           "resp2_lat": "invioláta°permansísti.",
           "resp3_lat": "Dei Génetrix, intercéde pro nobis.",
-          "antev_lat": "Respéxit Dóminus humilitátem meam, et fecit in me magna qui potens est.^LÖ^p^RUBRVel:^0RUBR^l^rAnt.^0r°°Beátam me dicent omnes generatiónes, quia ancíllam húmilem respéxit Deus.^LÖ",
+          "antev_lat": "Respéxit Dóminus humilitátem meam, et fecit in me magna qui potens est.^LÖ^p^RUBRVel:^0RUBR^l^ANTBeátam me dicent omnes generatiónes, quia ancíllam húmilem respéxit Deus.^LÖ",
           "bitten_e_lat": "Deum Patrem omnipoténtem magnis láudibus extollámus, qui Maríam matrem Fílii sui ab ómnibus generatiónibus celebrári vóluit, et ab eo súpplices petámus:",
           "bitten_r_lat": "Plena grátia intercédat pro nobis.^p^RUBRVel:^0RUBR^lPlenam grátia intuére, et exáudi nos.",
           "bitten_lat": "^rSeries prima:^0r^lDeus, mirabílium patrátor, qui immaculátam Vírginem Maríam córpore et ánima cæléstis glóriæ Christi fecísti consórtem,^qfiliórum tuórum corda ad eándem glóriam dírige.^pQui Maríam dedísti nobis matrem, ipsa intercedénte, concéde medélam lánguidis, solámen mæréntibus, véniam peccatóribus,^qet ómnibus salútem et pacem.^pQui Maríam plenam grátia fecísti,^qlætam grátiæ tuæ cópiam ómnibus concéde.^pEcclésia tua sit cor unum et ánima una in caritáte,^qet fidéles persevérent unánimes in oratióne cum María, matre Iesu.^pQui Maríam cæli coronásti regínam,^qfac ut defúncti in regno tuo cum sanctórum ágmine gáudeant in ætérnum.^p^rVel series secunda:^0r^lQui Maríam matrem misericórdiæ constituísti,^qversántibus in perículis concéde, ut matérnam eius dilectiónem experiántur.^pQui Maríam, in domo Iesu et Ioseph, matrem famílias esse voluísti,^qfac ut, ipsíus intercessióne, omnes matres in famíliis caritátem fóveant et sanctitátem.^pQui Maríam iuxta crucem stantem roborásti et in resurrectióne Fílii tui replésti lætítia,^qtribulátos súbleva spemque eórum confírma.^pQui Maríam tuo inténtam reddidísti verbo et ancíllam tuam fidélem effecísti,^qper eius intercessiónem nos Fílii tui fac servos et discípulos.^pQui Maríam cæli coronásti regínam,^qfac ut defúncti in regno tuo cum sanctórum ágmine gáudeant in ætérnum.",
           "les_text_lat": "Ubi venit plenitúdo témporis, misit Deus Fílium suum, factum ex mulíere, factum sub lege, ut eos, qui sub lege erant, redímeret, ut adoptiónem filiórum reciperémus."
         },
         "Invitatorium": {
-          "ant0": "Christus, den Sohn Mariens – kommt, wir beten ihn an!^ODER^rAnt.^0r°°Am Fest der seligen Jungfrau Maria lasst uns den Herrn anbeten!",
-          "ant0_lat": "Christum, Fílium Maríæ, veníte, adorémus.^p^RUBRVel:^0RUBR^l^rAnt.^0r°°Festivitátem beátæ Maríæ Vírginis clebrántes, iubilémus Dómino."
+          "ant0": "Christus, den Sohn Mariens – kommt, wir beten ihn an!^ODER^ANTAm Fest der seligen Jungfrau Maria lasst uns den Herrn anbeten!",
+          "ant0_lat": "Christum, Fílium Maríæ, veníte, adorémus.^p^RUBRVel:^0RUBR^l^ANTFestivitátem beátæ Maríæ Vírginis clebrántes, iubilémus Dómino."
         },
         "Lesehore": {
           "hymn_1": 1026.0,
@@ -3886,21 +3886,21 @@ export const brevierData = {
           "hymn_2": 0.0,
           "hymn_3": 0.0,
           "hymn_kl": 0.0,
-          "antev": "Wer den Willen meines Vaters erfüllt, der ist für mich Bruder und Schwester und Mutter.^Ö^ODER^rAnt.°°^0rMein Anteil ist der Herr, darum harre ich auf ihn; gut ist der Herr zur Seele, die ihn sucht.^Ö",
+          "antev": "Wer den Willen meines Vaters erfüllt, der ist für mich Bruder und Schwester und Mutter.^Ö^ODER^ANTMein Anteil ist der Herr, darum harre ich auf ihn; gut ist der Herr zur Seele, die ihn sucht.^Ö",
           "hymn_1_lat": 5677.0,
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
-          "antev_lat": "Si quis fécerit voluntátem Patris mei, ipse meus frater, soror et mater est, dicit Dóminus.^LÖ^VEL^rAnt.°°^0rPars mea Dóminus; bonus est ánimæ quærénti illum.^LÖ"
+          "antev_lat": "Si quis fécerit voluntátem Patris mei, ipse meus frater, soror et mater est, dicit Dóminus.^LÖ^VEL^ANTPars mea Dóminus; bonus est ánimæ quærénti illum.^LÖ"
         },
         "Vesper": {
           "hymn_1": 1248.0,
           "hymn_2": 0.0,
           "hymn_3": 0.0,
           "hymn_kl": 0.0,
-          "antev": "Ihr habt alles verlassen und seid mir nachgefolgt: Das Hundertfache werdet ihr dafür erhalten und das ewige Leben gewinnen.^Ö^ODER^rAnt.°°^0rWo Brüder in Eintracht Gottes Herrlichkeit preisen, da spendet der Herr seinen Segen.^Ö",
+          "antev": "Ihr habt alles verlassen und seid mir nachgefolgt: Das Hundertfache werdet ihr dafür erhalten und das ewige Leben gewinnen.^Ö^ODER^ANTWo Brüder in Eintracht Gottes Herrlichkeit preisen, da spendet der Herr seinen Segen.^Ö",
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
-          "antev_lat": "Vos qui reliquístis ómnia et secúti estis me, céntuplum accipiétis et vitam ætérnam possidébitis.^LÖ^VEL^rAnt.°°^0rUbi fratres in unum gloríficant Deum, ibi dabit Dóminus benedictiónem.^Ö"
+          "antev_lat": "Vos qui reliquístis ómnia et secúti estis me, céntuplum accipiétis et vitam ætérnam possidébitis.^LÖ^VEL^ANTUbi fratres in unum gloríficant Deum, ibi dabit Dóminus benedictiónem.^Ö"
         }
       }
     }
@@ -5552,7 +5552,7 @@ export const brevierData = {
           "resp1": "Alle Völker kommen",
           "resp2": "und beten dich an. ",
           "resp3": "Sie geben, Herr, deinem Namen die Ehre.",
-          "antev": "Lasst uns hintreten an sein Grab und die Gebeine des Heiligen verehren, die hier der seligen Auferstehung harren, während sein Geist in ewiger Himmelsfreude im Chor der Heiligen weilt.^Ö^ODER^rAnt.^0r°°Du Priester des Höchsten, Spiegel aller Tugenden, des Volkes guter Hirte, der dem Herrn gefiel.^Ö",
+          "antev": "Lasst uns hintreten an sein Grab und die Gebeine des Heiligen verehren, die hier der seligen Auferstehung harren, während sein Geist in ewiger Himmelsfreude im Chor der Heiligen weilt.^Ö^ODER^ANTDu Priester des Höchsten, Spiegel aller Tugenden, des Volkes guter Hirte, der dem Herrn gefiel.^Ö",
           "bitten_e": "Lasst uns beten zum Herrn Jesus Christus, der seinen Diener Bonifatius am heutigen Tag verherrlicht hat:",
           "bitten_r": "Herr, gedenke deiner Diener.",
           "bitten": "Du hast die Stämme unseres Volkes durch die Predigt des heiligen Bonifatius im Glauben geeint;^qschenke uns die verlorene Glaubenseinheit zurück.^pDu hast den heiligen Bonifatius für unsere Vorfahren zum Boten deiner versöhnenden Liebe gemacht;^qgib unserem Volk wieder die volle Einheit und befreie es von Hass und Gewalt.^pDu hast als oberster Hirte deiner Kirche den heiligen Bonifatius zum Bischof bestellt;^qsegne unseren Bischof ^NB und alle, die sich um das Wohl unseres Bistums sorgen.^pDeinem Ruf ist Bonifatius bereitwillig gefolgt und als Künder deiner Wahrheit in ein fremdes Land gezogen;^qberufe auch heute viele junge Menschen in deinen missionarischen Dienst.^pDu hast Bonifatius in die Zahl deiner heiligen Märtyrer aufgenommen;^qgib den Verstorbenen ewige Gemeinschaft mit ihnen.",
@@ -5562,7 +5562,7 @@ export const brevierData = {
           "resp1_lat": "Omnes gentes vénient",
           "resp2_lat": "et adorábunt coram te, Dómine.",
           "resp3_lat": "Et glorificábunt nomen tuum.",
-          "antev_lat": "Consistámus ad eius sepúlcrum et venerémur corpus beátam hic exspéctans resurrectiónem, dum spíritus eius inter Sanctórum ágmina sine fine exsúltat in caélis.^LÖ^p^RUBRVel:^0RUBR^l^rAnt.^0r°°Sacérdos Altíssimi ac virtútum spéculum, pastor bone in pópulo, qui placuísti Domino.^LÖ",
+          "antev_lat": "Consistámus ad eius sepúlcrum et venerémur corpus beátam hic exspéctans resurrectiónem, dum spíritus eius inter Sanctórum ágmina sine fine exsúltat in caélis.^LÖ^p^RUBRVel:^0RUBR^l^ANTSacérdos Altíssimi ac virtútum spéculum, pastor bone in pópulo, qui placuísti Domino.^LÖ",
           "bitten_e_lat": "Flagitémus Dóminum Iesum Christum, qui fámulum suum Bonifátíum hac die glorificávit:",
           "bitten_r_lat": "Meménto, Dómine, famulórum tuórum.",
           "bitten_lat": "Qui gentes populi nostri prædicatióne beáti Bonifátii in fide adunásti,^qredde nobis pérditam fídei unitátem.^pQui per sanctum Bonifátium pátribus nostris dilectiónem tuam conciliatrícem annuntiásti,^qpópulum nostrum adunáre atque a vi et ódio liberáre dignáre.^pPrinceps pastórum, qui beátum Bonifátium epíscopum instituísti,^qbénedic epíscopo nostro ^NdatB omnibúsque dioecésis nostræ cultóribus.^pTe vocántem sanctus Bonifátius libénter secútus in terra aliéna veritátem tuam prædicávit;^qétiam hoc tempore multos iúvenes voca ad evangélium propagándum.^pQui Bonifátium sanctórum mártyrum tuórum número aggregásti,^qeorúndem communiónem largíre defúnctis.",
@@ -6746,15 +6746,6 @@ export const brevierData = {
           "ant2_lat": "Beátus Lauréntius clamávit dicens: Gáudeo plane, quia hóstia Christi éffici mérui.",
           "ant3_lat": "Grátias ago, Dómine Iesu Christe, quia iánuas tuas íngredi mérui.",
           "antev_lat": "Beátus Lauréntius dixit: Mea nox obscúrum non habet, sed ómnia in luce claréscunt."
-        }
-      },
-      "14": {
-        "each": {
-          "comm_1": "Kirchw",
-          "oration": "^RUBRIn der Fuldaer Kathedrale:^0RUBR^lGroßer und heiliger Gott, jedes Jahr feiern wir den Weihetag dieses heiligen Hauses. Höre auf die Bitten deines Volkes. Hilf uns, dass wir an diesem Ort in rechter Gesinnung den heiligen Dienst vollziehen und den Reichtum der Erlösungsgnade empfangen.^ORV^p^RUBRIn den übrigen Kirchen:^0RUBR^lErhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird.^ORV^ODERAllmächtiger Gott, du hast gewollt, dass dein Volk Kirche heiße, denn wir sind das Haus, in dem deine Herrlichkeit wohnt. Gib, dass die Gläubigen, die sich in deinem Namen versammeln, dich ehren, dich lieben und dir gehorchen damit sie unter deiner Führung das ewige Erbe erlangen.^ORV"
-        },
-        "Laudes": {
-          "button": "Weihefest der Fuldaer Kathedrale"
         }
       },
       "15": {
@@ -12031,7 +12022,7 @@ export const brevierData = {
           "les_stelle": "5,23–24",
           "les_text": "Der Gott des Friedens heilige euch ganz und gar und bewahre euren Geist, eure Seele und euren Leib unversehrt, damit ihr ohne Tadel seid, wenn Jesus Christus, unser Herr, kommt. Gott, der euch beruft, ist treu; er wird es tun.",
           "les_text_neu": "Der Gott des Friedens heilige euch ganz und gar und bewahre euren Geist, eure Seele und euren Leib unversehrt, damit ihr ohne Tadel seid bei der Ankunft unseres Herrn Jesus Christus. Gott, der euch beruft, ist treu; er wird es tun.",
-          "antev": "O Weisheit, hervorgegangen aus dem Munde des Höchsten – die Welt umspannst du von einem Ende zum andern, in Kraft und Milde ordnest du alles: o komm und offenbare uns den Weg der Weisheit und Einsicht!^ODER^rAnt.°°^0rO Sapientia, quæ ex ore Altíssimi prodísti, attingens a fine usque ad finem, fórtiter suavitérque dispónens ómnia: veni ad docéndum nos viam prudéntiæ.",
+          "antev": "O Weisheit, hervorgegangen aus dem Munde des Höchsten – die Welt umspannst du von einem Ende zum andern, in Kraft und Milde ordnest du alles: o komm und offenbare uns den Weg der Weisheit und Einsicht!^ODER^ANTO Sapientia, quæ ex ore Altíssimi prodísti, attingens a fine usque ad finem, fórtiter suavitérque dispónens ómnia: veni ad docéndum nos viam prudéntiæ.",
           "bitten_e": "Lasst uns beten zu Christus, der Freude aller, die sein Kommen erwarten:",
           "bitten_r": "Komm, Herr, und säume nicht.",
           "bitten": "Wir bitten dich für alle, die deine Ankunft erwarten;^qkomm, Herr Jesus.^pDu bist vor aller Zeit;^qkomm in unsere Zeit und offenbare dich denen, die dich nicht kennen.^pDu hast die Erde erschaffen und alle, die auf ihr wohnen;^qkomm und erlöse das Werk deiner Hände.^pDu hast dich nicht gescheut, unsere sterbliche Natur anzunehmen;^qkomm und entreiße die Welt der Macht des Todes.^pDu willst alle Menschen in deinem Reich vereinen;^qlass die Verstorbenen dein Angesicht schauen.",
@@ -12092,7 +12083,7 @@ export const brevierData = {
           "les_buch": "›Phil",
           "les_stelle": "4,4–5",
           "les_text": "Freut euch im Herrn zu jeder Zeit! Noch einmal sage ich: Freut euch! Eure Güte werde allen Menschen bekannt. Der Herr ist nahe!",
-          "antev": "O Adonai, Herr und Führer des Hauses Israel – im flammenden Dornbusch bist du dem Mose erschienen und hast ihm auf dem Berg das Gesetz gegeben: o komm und befreie uns mit deinem starken Arm!^ODER^rAnt.°°^0rO Adonái et Dux domus Israel, qui Móysi in igne flammæ rubi apparuísti, et ei in Sina legem dedísti: veni ad rediméndum nos in brácchio exténto.",
+          "antev": "O Adonai, Herr und Führer des Hauses Israel – im flammenden Dornbusch bist du dem Mose erschienen und hast ihm auf dem Berg das Gesetz gegeben: o komm und befreie uns mit deinem starken Arm!^ODER^ANTO Adonái et Dux domus Israel, qui Móysi in igne flammæ rubi apparuísti, et ei in Sina legem dedísti: veni ad rediméndum nos in brácchio exténto.",
           "bitten_e": "Lasst uns beten zu Jesus Christus, der in diese Welt gekommen ist, um alle Menschen zu retten:",
           "bitten_r": "Komm, Herr Jesus.",
           "bitten": "Du hast den Menschen das Geheimnis Gottes kundgetan;^qsteh allen bei, die diese Botschaft verkünden.^pDu hast das Werk der Erlösung an Israel begonnen;^qvollende es an allen Völkern der Erde.^pDu hast unsere Schwachheit auf dich genommen;^qerbarme dich der Hilflosen und Armen.^pDu bist der Lebendige;^qschenke allen, die an dich glauben, das ewige Leben.^pDu thronst zur Rechten des Vaters;^qlass die Verstorbenen dein Angesicht schauen.",
@@ -12154,7 +12145,7 @@ export const brevierData = {
           "les_buch": "›Phil",
           "les_stelle": "3,20b–21",
           "les_text": "Vom Himmel her erwarten wir Jesus Christus, den Herrn, als Retter, der unseren armseligen Leib verwandeln wird in die Gestalt seines verherrlichten Leibes, in der Kraft, mit der er sich alles unterwerfen kann.",
-          "antev": "O Spross aus Isais Wurzel, gesetzt zum Zeichen für die Völker – vor dir verstummen die Herrscher der Erde, dich flehen an die Völker: o komm und errette uns, erhebe dich, säume nicht länger!^ODER^rAnt.°°^0rO radix Iesse, qui stas in signum populórum, super quem continébunt reges os suum, quem gentes deprecabúntur: veni ad liberándum nos, iam noli tardáre.",
+          "antev": "O Spross aus Isais Wurzel, gesetzt zum Zeichen für die Völker – vor dir verstummen die Herrscher der Erde, dich flehen an die Völker: o komm und errette uns, erhebe dich, säume nicht länger!^ODER^ANTO radix Iesse, qui stas in signum populórum, super quem continébunt reges os suum, quem gentes deprecabúntur: veni ad liberándum nos, iam noli tardáre.",
           "bitten_e": "Lasst uns beten zu Christus, dem Richter über Lebende und Tote:",
           "bitten_r": "Komm, Herr Jesus.",
           "bitten": "Lass die Welt deine Herrlichkeit erkennen;^qlass Gerechtigkeit in unserem Lande wohnen.^pKomm zu allen, die dich nicht kennen;^qerleuchte sie, dass sie an dich glauben.^pDu hast die Sünde der Welt hinweggenommen;^qvergib denen, die ihre Schuld bekennen.^pDu hast unsere Gebrechen auf dich genommen;^qkomm den Kranken zu Hilfe und stärke die Sterbenden.^pDu wirst einst zum Gericht erscheinen;^qführe unsere verstorbenen Brüder und Schwestern in dein Reich.",
@@ -12216,7 +12207,7 @@ export const brevierData = {
           "les_stelle": "1,7b–9",
           "les_text": "Wir warten auf die Offenbarung Jesu Christi, unseres Herrn. Er wird uns festigen bis ans Ende, so dass wir schuldlos dastehen am Tag Jesu, unseres Herrn. Treu ist Gott, durch den wir berufen worden sind zur Gemeinschaft mit seinem Sohn, unserem Herrn Jesus Christus.",
           "les_text_neu": "Wir warten auf die Offenbarung Jesu Christi, unseres Herrn. Er wird uns festigen bis ans Ende, so dass wir schuldlos dastehen am Tag Jesu, unseres Herrn. Treu ist Gott, durch den wir berufen worden sind zur Gemeinschaft mit seinem Sohn Jesus Christus, unserem Herrn.",
-          "antev": "O Schlüssel Davids, Zepter des Hauses Israel – du öffnest, und niemand kann schließen, du schließt, und keine Macht vermag zu öffnen: o komm und öffne den Kerker der Finsternis und die Fessel des Todes!^ODER^rAnt.°°^0rO clavis David, et sceptrum domus Israel; qui áperis, et nemo claudit; claudis, et nemo áperit: veni et educ vinctum de domo cárceris, sedéntem in ténebris et umbra mortis.",
+          "antev": "O Schlüssel Davids, Zepter des Hauses Israel – du öffnest, und niemand kann schließen, du schließt, und keine Macht vermag zu öffnen: o komm und öffne den Kerker der Finsternis und die Fessel des Todes!^ODER^ANTO clavis David, et sceptrum domus Israel; qui áperis, et nemo claudit; claudis, et nemo áperit: veni et educ vinctum de domo cárceris, sedéntem in ténebris et umbra mortis.",
           "bitten_e": "Lasst uns beten zu Christus, der am Jüngsten Tag sichtbar erscheinen wird. Zu ihm lasst uns beten:",
           "bitten_r": "Komm, Herr Jesus.",
           "bitten": "Du hast dein Volk vom Joch des Gesetzes befreit;^qvollende deine Kirche in der Liebe.^pDu bist für uns arm geworden;^qsteh allen bei, die dir in Armut nachfolgen.^pDu bist in diese Welt gekommen als Heiland aller Menschen;^qerbarme dich derer, die dich ablehnen.^pDu hast den treuen Knechten deinen Lohn verheißen;^qschenke das ewige Leben allen, die den Glauben bewahren.^pErbarme dich unserer Verstorbenen^qund gib ihnen die ewige Ruhe.",
@@ -12277,7 +12268,7 @@ export const brevierData = {
           "les_buch": "›1°Kor",
           "les_stelle": "4,5",
           "les_text": "Richtet nicht vor der Zeit; wartet, bis der Herr kommt, der das im Dunkeln Verborgene ans Licht bringen und die Absichten der Herzen aufdecken wird. Dann wird jeder sein Lob von Gott erhalten.",
-          "antev": "O Morgenstern, Glanz des unversehrten Lichtes, der Gerechtigkeit strahlende Sonne: o komm und erleuchte, die da sitzen in Finsternis und im Schatten des Todes!^ODER^rAnt.°°^0rO Oriens, splendor lucis ætérnæ et sol iustitiæ: veni, et illúmina sedéntes in ténebris et umbra mortis.",
+          "antev": "O Morgenstern, Glanz des unversehrten Lichtes, der Gerechtigkeit strahlende Sonne: o komm und erleuchte, die da sitzen in Finsternis und im Schatten des Todes!^ODER^ANTO Oriens, splendor lucis ætérnæ et sol iustitiæ: veni, et illúmina sedéntes in ténebris et umbra mortis.",
           "bitten_e": "Lasst uns beten zu Jesus Christus, der uns aus der Finsternis der Sünde rettet:",
           "bitten_r": "Komm, Herr Jesus.",
           "bitten": "Führe die Völker der Erde in Frieden zusammen;^qbestätige den Bund, den du mit den Menschen geschlossen hast.^pDu bist gekommen, die Sünde der Welt hinwegzunehmen;^qlöse die Sünder aus ihrer Verstrickung.^pDu bist gekommen, zu retten, was verloren war;^qgib, dass die Getauften deine Gnade bewahren.^pUnser Glaube verlangt nach dir;^qschenke allen, die auf dich hoffen, die ewige Freude.^pErbarme dich unserer Verstorbenen^qund gib ihnen die ewige Ruhe.",
@@ -12339,7 +12330,7 @@ export const brevierData = {
           "les_stelle": "5,7–8.9b",
           "les_text": "Brüder, haltet geduldig aus bis zur Ankunft des Herrn! Auch der Bauer wartet auf die kostbare Frucht der Erde, er wartet geduldig, bis im Herbst und im Frühjahr der Regen fällt. Ebenso geduldig sollt auch ihr sein. Macht euer Herz stark, denn die Ankunft des Herrn steht nahe bevor. Seht, der Richter steht schon vor der Tür.",
           "les_text_neu": "Brüder und Schwestern, haltet geduldig aus bis zur Ankunft des Herrn! Siehe, auch der Bauer wartet auf die kostbare Frucht der Erde, er wartet geduldig auf sie, bis Frühregen oder Spätregen fällt. Ebenso geduldig sollt auch ihr sein; macht eure Herzen stark, denn die Ankunft des Herrn steht nahe bevor. Seht, der Richter steht schon vor der Tür.",
-          "antev": "O König aller Völker, ihre Erwartung und Sehnsucht; Schlussstein, der den Bau zusammenhält: o komm und errette den Menschen, den du aus Erde gebildet!^ODER^rAnt.°°^0rO Rex géntium et desiderátus eárum, lapísque anguláris, qui facis útraque unum: veni et salva hóminem, quem de limo formásti.",
+          "antev": "O König aller Völker, ihre Erwartung und Sehnsucht; Schlussstein, der den Bau zusammenhält: o komm und errette den Menschen, den du aus Erde gebildet!^ODER^ANTO Rex géntium et desiderátus eárum, lapísque anguláris, qui facis útraque unum: veni et salva hóminem, quem de limo formásti.",
           "bitten_e": "Christus, der Herr, hat sich unseretwegen erniedrigt und ist Mensch geworden. Zu ihm lasst uns rufen:",
           "bitten_r": "Komm, Herr Jesus.",
           "bitten": "Durch deine Ankunft kommst du den Menschen zu Hilfe;^qsteh allen bei, die in Not sind.^pDu hast dich nicht gescheut, die Menschen deine Brüder zu nennen;^qgib, dass die Nachbarn miteinander in Frieden leben.^pDu willst das Heil der ganzen Welt;^qversöhne die Völker miteinander.^pZu keiner Stunde verweigerst du uns deine Liebe;^qsteh denen bei, deren letzte Stunde geschlagen hat.^pWir empfehlen dir unsere verstorbenen Brüder und Schwestern;^qschenke ihnen das ewige Leben bei dir.",
@@ -12401,7 +12392,7 @@ export const brevierData = {
           "les_stelle": "3,8b–9",
           "les_text": "Beim Herrn ist ein Tag wie tausend Jahre, und tausend Jahre sind wie ein Tag. Der Herr zögert nicht mit der Erfüllung der Verheißung, wie einige meinen, die von Verzögerung reden; er ist nur geduldig mit euch, weil er nicht will, dass jemand zugrunde geht, sondern dass alle sich bekehren.",
           "les_text_neu": "Beim Herrn ist ein Tag wie tausend Jahre, und tausend Jahre sind wie ein Tag sind. Der Herr der Verheißung zögert nicht, wie einige meinen, die von Verzögerung reden, sondern er ist geduldig mit euch, weil er nicht will, dass jemand zugrunde geht, sondern dass alle zur Umkehr gelangen.",
-          "antev": "O Immanuel, unser König und Lehrer, du Hoffnung und Heiland der Völker: o komm, eile und schaffe uns Hilfe, du unser Herr und unser Gott!^ODER^rAnt.°°^0rO Emmánuel, rex et légifer noster, exspectátio gentium et salvátor eárum: veni ad salvándum nos, Dómine Deus noster.",
+          "antev": "O Immanuel, unser König und Lehrer, du Hoffnung und Heiland der Völker: o komm, eile und schaffe uns Hilfe, du unser Herr und unser Gott!^ODER^ANTO Emmánuel, rex et légifer noster, exspectátio gentium et salvátor eárum: veni ad salvándum nos, Dómine Deus noster.",
           "bitten_e": "Lasst uns beten zu unserem Herrn Jesus Christus, der gekommen ist, um den Armen die Frohe Botschaft zu verkünden. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, offenbare deine Herrlichkeit.",
           "bitten": "Offenbare dich allen, die dich nicht kennen,^qdamit auch sie erfahren, dass du sie liebst.^pDein Name werde verkündet bis an die Enden der Erde,^qdamit alle Menschen den Weg finden zu dir.^pDu bist in die Welt gekommen, um die Menschen zu retten;^qhilf allen, die an dich glauben, das Gute zu tun und das Böse zu meiden.^pBehüte alle, die sich zu dir bekehrt haben;^qgib, dass sie nicht wieder Knechte der Sünde werden.^pDu wirst einem jeden vergelten nach seinen Werken;^qerbarme dich unserer Verstorbenen und gib ihnen den verheißenen Lohn.",
@@ -16034,7 +16025,7 @@ export const brevierData = {
           "les_text_neu": "Wir hören nicht auf, für euch zu beten und zu bitten, dass ihr mit der Erkenntnis seines Willens in aller Weisheit und geistlichen Einsicht erfüllt werdet. Denn ihr sollt ein Leben führen, das des Herrn würdig ist und in allem sein Gefallen findet. Ihr sollt Frucht bringen in jeder Art von guten Werken und wachsen in der Erkenntnis Gottes. Er gebe euch in der Macht seiner Herrlichkeit viel Kraft, damit ihr in allem Geduld und Ausdauer habt.",
           "resp1": "Heile mich, o°Herr,",
           "resp2": "ich habe gegen dich gesündigt.",
-          "resp3": "Erbarme dich meiner und sei mir gnädig,",
+          "resp3": "Erbarme dich meiner und sei mir gnädig.",
           "antev": "Meine Seele preist die Größe des Herrn; denn auf die Niedrigkeit seiner Magd hat er geschaut.",
           "bitten_e": "Lasst uns beten zu Gott, dem allmächtigen Vater, der die Menschen liebt:",
           "bitten_r": "Erbarme dich über dein Volk.",
@@ -17821,7 +17812,7 @@ export const brevierData = {
           "les_text_neu": "Verleumdet einander nicht, Brüder und Schwestern! Wer seinen Bruder oder seine Schwester verleumdet oder verurteilt, verleumdet das Gesetz und verurteilt das Gesetz; wenn du aber das Gesetz verurteilst, handelst du nicht nach dem Gesetz, sondern bist sein Richter. Nur einer ist der Gesetzgeber und Richter: er, der die Macht hat, zu retten und zu verderben. Wer aber bist du, dass du über deinen Nächsten richtest?",
           "resp1": "Heile mich, o°Herr,",
           "resp2": "ich habe gegen dich gesündigt.",
-          "resp3": "Erbarme dich meiner und sei mir gnädig,",
+          "resp3": "Erbarme dich meiner und sei mir gnädig.",
           "antev": "Meine Seele preist die Größe des Herrn; denn auf die Niedrigkeit seiner Magd hat er geschaut.",
           "bitten_e": "Lasst uns beten zu unserem Herrn Jesus Christus, der alle Menschen an sich ziehen will:",
           "bitten_r": "Herr, führe alle Menschen zum Heil.",
@@ -21862,7 +21853,7 @@ export const brevierData = {
       },
       "each": {
         "Invitatorium": {
-          "ant0": "Christus, der Herr, wurde für uns versucht und hat für uns gelitten; kommt, wir beten ihn an.^ODER^rAnt.°°^0rVerhärtet eure Herzen nicht, hört auf die Stimme des Herrn!",
+          "ant0": "Christus, der Herr, wurde für uns versucht und hat für uns gelitten; kommt, wir beten ihn an.^ODER^ANTVerhärtet eure Herzen nicht, hört auf die Stimme des Herrn!",
           "ant0_lat": ""
         },
         "Lesehore": {

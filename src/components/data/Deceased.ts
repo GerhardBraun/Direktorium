@@ -6591,7 +6591,7 @@ export const deceasedData =  {
         "birthdate": "2239-04-28",
         "name": "Dr.°Willi Paulo°Link, Msgr., GR, Carapicuíba/Brasilien",
         "birth": "28.°April°1939°in°Stellberg/Krs. Fulda",
-        "grave": "",
+        "grave": "Friedhof°Stellberg",
         "age": 86
       }
     ],

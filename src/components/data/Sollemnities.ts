@@ -61,8 +61,8 @@ export const dataSollemnities = {
     "kirchw": {
         "each": {
             "each": {
-                "oration": "^RUBRIn der Kirche, deren Weihefest begangen wird:^0RUBR^lGroßer und heiliger Gott, jedes Jahr feiern wir den Weihetag dieses heiligen Hauses. Höre auf die Bitten deines Volkes. Hilf uns, dass wir an diesem Ort in rechter Gesinnung den heiligen Dienst vollziehen und den Reichtum der Erlösungsgnade empfangen.^ORV^p^RUBRAußerhalb der Kirche, deren Weihefest begangen wird:^0RUBR^lErhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird.^ORV^p^RUBROder:^0RUBR^lAllmächtiger Gott, du hast gewollt, dass dein Volk Kirche heiße, denn wir sind das Haus, in dem deine Herrlichkeit wohnt. Gib, dass die Gläubigen, die sich in deinem Namen versammeln, dich ehren, dich lieben und dir gehorchen damit sie unter deiner Führung das ewige Erbe erlangen.^ORV",
-                "oration_lat": ""
+                "oration": "^RUBRIn der Kirche, deren Weihefest begangen wird:^0RUBR^lGroßer und heiliger Gott, jedes Jahr feiern wir den Weihetag dieses heiligen Hauses. Höre auf die Bitten deines Volkes. Hilf uns, dass wir an diesem Ort in rechter Gesinnung den heiligen Dienst vollziehen und den Reichtum der Erlösungsgnade empfangen.^ORV^p^RUBRAußerhalb der Kirche, deren Weihefest begangen wird:^0RUBR^lErhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird.^ORV^p^ODERAllmächtiger Gott, du hast gewollt, dass dein Volk Kirche heiße, denn wir sind das Haus, in dem deine Herrlichkeit wohnt. Gib, dass die Gläubigen, die sich in deinem Namen versammeln, dich ehren, dich lieben und dir gehorchen damit sie unter deiner Führung das ewige Erbe erlangen.^ORV",
+                "oration_lat": "^RUBRIn ipsa ecclesia dedicata:^0RUBR^lDeus, qui nobis per síngulos annos huius sancti templi tui consecratiónis réparas diem, exáudi preces pópuli tui, et præsta, ut fiat hic tibi semper purum servítium et nobis plena redémptio^ORlV^p^RUBRExtra ipsam ecclesiam dedicatam:^0RUBR^lDeus, qui de vivis et eléctis lapídibus ætérnum habitáculum tuæ prǽparas maiestáti, multíplica in Ecclésia tua spíritum grátiæ, quem dedísti, ut fidélis tibi pópulus in cæléstis ædificatiónem Ierúsalem semper accréscat.^ORlV^VELDeus, qui pópulum tuum Ecclésiam vocáre dignátus es, da, ut plebs in nómine tuo congregáta te tímeat, te díligat, te sequátur et ad cæléstia promíssa, te ducénte, pervéniat.^ORlV"
             },
             "erstev": {
                 "button": "1. Vesper zur Kirchweihe",
@@ -84,6 +84,7 @@ export const dataSollemnities = {
                 "bitten_e": "Lasst uns beten zum allmächtigen Gott, der seine Kirche aufbaut aus lebendigen Steinen:",
                 "bitten_r": "Wohne in unserer Mitte.",
                 "bitten": "Du göttlicher Bauherr, erhalte deine Kirche^qund heilige das Volk, das du darin versammelt hast.^pDu Winzer deines Weinbergs, schütze deine Pflanzung;^qreinige sie und schenke ihr Wachstum.^pDu göttlicher Sämann, streue den Samen des Wortes aus,^qdamit es hundertfache Frucht bringe am Tag der Ernte.^pDu Hirte von Ewigkeit her, weide deine Herde^qund führe alle Völker zusammen unter dem einen Hirten Jesus Christus.^pVater im Himmel, du weist niemand ab, der zu dir kommt;^qnimm unsere Verstorbenen auf in dein Haus.",
+                "hymn_1_lat": 5450,
                 "ant1_lat": "",
                 "ant2_lat": "",
                 "ant3_lat": "",
@@ -96,8 +97,8 @@ export const dataSollemnities = {
                 "les_text_lat": ""
             },
             "invitatorium": {
-                "ant0": "Wie ein Bräutigam liebt Christus seine Kirche; kommt, wir beten ihn an!^Ö^p^RUBROder:^0RUBR^l^rAnt.^0r°°Christus, den Herrn, der seine Kirche liebt – kommt, wir beten ihn an!^Ö",
-                "ant0_lat": "Christum, Sponsum Ecclésiæ, adorémus in ea.^LÖ"
+                "ant0": "Wie ein Bräutigam liebt Christus seine Kirche; kommt, wir beten ihn an!^Ö^ODER^ANTChristus, den Herrn, der seine Kirche liebt – kommt, wir beten ihn an!^Ö",
+                "ant0_lat": "Christum, Sponsum Ecclésiæ, adorémus in ea.^LÖ^VEL^ANTChristum, qui diléxit Ecclésiam, veníte, adorémus.^LÖ",
             },
             "lesehore": {
                 "hymn_1": 1139.0,
@@ -109,18 +110,19 @@ export const dataSollemnities = {
                 "ant3": "Herrliches sagt man von dir, du Stadt unseres Gottes.^Ö",
                 "versikel0": "Ich werfe mich nieder in Ehrfurcht vor deinem heiligen Tempel.^Ö",
                 "versikel1": "Ich lobe deinen Namen, denn du bist gütig.^Ö",
-                "les_buch": "Aus dem ersten Petrusbrief.",
-                "les_stelle": "2,1–17",
-                "les_text": "Legt alle Bosheit ab, alle Falschheit und Heuchelei, allen Neid und alle Verleumdung. Verlangt, gleichsam als neugeborene Kinder, nach der unverfälschten, geistigen Milch, damit ihr durch sie heranwachst und das Heil erlangt. Denn ihr habt erfahren, wie gütig der Herr ist.^pKommt zu ihm, dem lebendigen Stein, der von den Menschen verworfen, aber von Gott aus­erwählt und geehrt worden ist. Lasst euch als lebendige Steine zu einem geistigen Haus auf­bauen, zu einer heiligen Priesterschaft, um durch Jesus Christus geistige Opfer darzu­bringen, die Gott gefallen. Denn es heißt in der Schrift: Seht her, ich lege in Zion einen auser­wählten Stein, einen Eckstein, den ich in Ehren halte; wer an ihn glaubt, der geht nicht zugrunde.^pEuch, die ihr glaubt, gilt diese Ehre. Für jene aber, die nicht glauben, ist dieser Stein, den die Bauleute verworfen haben, zum Eckstein geworden, zum Stein, an den man anstößt, und zum Felsen, an dem man zu Fall kommt. Sie stoßen sich an ihm, weil sie dem Wort nicht gehorchen; doch dazu sind sie bestimmt.^pIhr aber seid ein auserwähltes Geschlecht, eine königliche Priesterschaft, ein heiliger Stamm, ein Volk, das sein besonderes Eigentum wurde, damit ihr die großen Taten dessen verkündet, der euch aus der Finsternis in sein wunderbares Licht gerufen hat. Einst wart ihr nicht sein Volk, jetzt aber seid ihr Gottes Volk; einst gab es für euch kein Erbarmen, jetzt aber habt ihr Erbarmen gefunden.^pLiebe Brüder, da ihr Fremde und Gäste seid in dieser Welt, ermahne ich euch: Gebt den irdischen Begierden nicht nach, die gegen die Seele kämpfen. Führt unter den Heiden ein rechtschaffenes Leben, damit sie, die euch jetzt als Übeltäter verleumden, durch eure guten Taten zur Einsicht kommen und Gott preisen am Tag der Heimsuchung.^pUnterwerft euch um des Herrn willen jeder menschlichen Ordnung: dem Kaiser, weil er über allen steht, den Statthaltern, weil sie von ihm entsandt sind, um die zu bestrafen, die Böses tun, und die auszuzeichnen, die Gutes tun.^pDenn es ist der Wille Gottes, dass ihr durch eure guten Taten die Unwissenheit unverständiger Menschen zum Schweigen bringt. Handelt als Freie, aber nicht als solche, die die Freiheit als Deckmantel für das Böse nehmen, sondern wie Knechte Gottes. Erweist allen Menschen Ehre, liebt die Brüder, fürchtet Gott und ehrt den Kaiser!",
-                "resp1": "Deine Mauern sind aus edlem Stein.",
-                "resp2": "Aus Perlen sind Jerusalems Türme erbaut.",
-                "resp3": "Die Tore sind aus Saphir und Smaragd, aus kost­baren Steinen die Mauern rings um die Stadt.",
-                "patr_autor": "Origenes († 253/254)",
-                "patr_werk": "Aus einer Homilie zum Buch Josua. (Hom. 9,1–2)",
+                "les_buch": "Aus der Offenbarung des Johannes.",
+                "les_stelle": "21,9–27",
+                "les_text": "^hDas neue Jerusalem^pEs kam einer von den sieben Engeln, die die sieben Schalen mit den sieben letzten Plagen getragen hatten. Er sagte zu mir: Komm, ich will dir die Braut zeigen, die Frau des Lammes.^pDa entrückte er mich in der Verzückung auf einen großen, hohen Berg und zeigte mir die heilige Stadt Jerusalem, wie sie von Gott her aus dem Himmel herabkam, erfüllt von der Herrlichkeit Gottes. Sie glänzte wie ein kostbarer Edelstein, wie ein kristallklarer Jaspis. Die Stadt hat eine große und hohe Mauer mit zwölf Toren und zwölf Engeln darauf. Auf die Tore sind Namen geschrieben: die Namen der zwölf Stämme der Söhne Israels. Im Osten hat die Stadt drei Tore und im Norden drei Tore und im Süden drei Tore und im Westen drei Tore. Die Mauer der Stadt hat zwölf Grundsteine; auf ihnen stehen die zwölf Namen der zwölf Apostel des Lammes.^pUnd der Engel, der zu mir sprach, hatte einen goldenen Messstab, mit dem die Stadt, ihre Tore und ihre Mauer gemessen wurden. Die Stadt war viereckig angelegt und ebenso lang wie breit. Er maß die Stadt mit dem Messstab; ihre Länge, Breite und Höhe sind gleich: zwölftausend Stadien. Und er maß ihre Mauer; sie ist hundertvierundvierzig Ellen hoch nach Menschenmaß, das der Engel benutzt hatte. Ihre Mauer ist aus Jaspis gebaut und die Stadt ist aus reinem Gold, wie aus reinem Glas.^pDie Grundsteine der Stadtmauer sind mit edlen Steinen aller Art geschmückt; der erste Grundstein ist ein Jaspis, der zweite ein Saphir, der dritte ein Chalzedon, der vierte ein Smaragd, der fünfte ein Sardonyx, der sechste ein Sardion, der siebte ein Chrysolith, der achte ein Beryll, der neunte ein Topas, der zehnte ein Chrysopras, der elfte ein Hyazinth, der zwölfte ein Amethyst. Die zwölf Tore sind zwölf Perlen; jedes der Tore besteht aus einer einzigen Perle. Die Straße der Stadt ist aus reinem Gold, wie aus klarem Glas.^pEinen Tempel sah ich nicht in der Stadt. Denn der Herr, ihr Gott, der Herrscher über die ganze Schöpfung, ist ihr Tempel, er und das Lamm. Die Stadt braucht weder Sonne noch Mond, die ihr leuchten. Denn die Herrlichkeit Gottes erleuchtet sie und ihre Leuchte ist das Lamm. Die Völker werden in diesem Licht einhergehen und die Könige der Erde werden ihre Pracht in die Stadt bringen.^pIhre Tore werden den ganzen Tag nicht geschlossen – Nacht wird es dort nicht mehr geben. Und man wird die Pracht und die Kostbarkeiten der Völker in die Stadt bringen. Aber nichts Unreines wird hineinkommen, keiner, der Gräuel verübt und lügt. Nur die, die im Lebensbuch des Lammes eingetragen sind, werden eingelassen.",
+                "resp1": "Deine Plätze, Jerusalem, sind aus reinem Gold; sie hallen wider von Lobgesängen.",
+                "resp2": "Auf all deinen Straßen erschallt der Ruf:^Ö",
+                "resp3": "Als strahlendes Licht erleuchtest du aller Länder Erde.",
+                "patr_autor": "^A:Kirchweihe:Origenes († 253/254)",
+                "patr_werk": "Aus einer Homilie zum Buch Josua. (Hom.°9^v,1–2^0v)",
                 "patr_text": "^hAus uns als lebendigen Bausteinen wird der Tempel und Altar Gottes aufgebaut^pWir alle, die an Christus Jesus glauben, werden „lebendige Steine“ genannt, wie die Schrift sagt: „Ihr seid als lebendige Steine zu einem geistigen Haus aufgebaut, zu einer heiligen Priesterschaft, um durch Jesus Christus geistige Opfer darzubringen, die Gott gefallen“ {1#1 Petr 2,5}.^pBekanntlich legt man bei unseren irdischen Steinen die stärkeren und tragfähigeren als erste in die Fundamente, damit man ihnen die Last des ganzen Bauwerks anvertrauen und aufbürden kann. Es leuchtet ein, dass es auch in den Fundamenten dieses geistigen Bauwerks einige von den lebendigen Steinen gibt. Welche erhalten nun ihren Platz in den Fundamenten? Die Apostel und Propheten. Denn so lehrt Paulus: „Ihr seid auf das Fundament der Apostel und Propheten gebaut; der Schlussstein ist unser Herr Christus Jesus selbst“ {2#Eph 2,20}.^pDamit du dich aber williger für die Errichtung dieses Bauwerks bereitmachst, lieber Zuhörer, damit du dich erweist als Stein näher dem Fundament, nimm zur Kenntnis, dass Christus selbst das Fundament dieses von mir jetzt beschriebenen Bauwerks ist. Denn Paulus lehrt: „Einen anderen Grund kann niemand legen als den, der gelegt ist: Jesus Christus“ {3#1 Kor 3,11}. Wohl also denen, die auf diesem so edlen Fundament gottgefällige und heilige Bauwerke errichtet haben.^pIn diesem Bauwerk Kirche muss aber auch ein Altar stehen. So meine ich denn, dass der eine und andere von euch lebendigen Steinen dort eingefügt und also bereit ist, sich dem Gebet zu widmen, Tag und Nacht Bittrufe vor Gott zu bringen und Bußgebete als Gabe zu opfern – die sind es, aus denen Jesus den Altar baut.^pSchau, welches Lob den Altarsteinen gespendet wird, wenn es heißt: „Der Gesetzgeber Mose hat geboten, den Altar aus unversehrten Steinen zu bauen, an die kein Eisen gekommen ist“ {4#Dtn 27,5; Jos 8,31}. Wer sind diese unversehrten Steine? Vielleicht könnten die heiligen Apostel jene unversehrten und unverdorbenen Steine sein, die wegen ihrer Einmütigkeit und Eintracht alle zusammen einen Altar bilden. Denn von ihnen wird berichtet, sie hätten alle einmütig miteinander gebetet, ihren Mund aufgetan und gesprochen: „Herr, du kennst die Herzen aller“ {5#Apg 1,24}. Vielleicht also sind sie, die es verstanden haben, eines Sinnes mit einer Stimme und in einem Geist zu beten, würdig, alle zusammen den einen Altar zu bilden, damit auf ihm Jesus dem Vater das Opfer darbringt.^pDoch sollen auch wir uns mühe alle einmütig in Gedanken und Worten dasselbe zu sprechen, indem wir eines Sinnes sind, ohne etwas aus Lust am Streit oder aus Sucht nach eitler Ehre zu betreiben. Wir sollten vielmehr in der gleichen Sinnesart und Denkweise verharren; vielleicht könnten dann auch wir passende Steine für den Altar werden.",
                 "patr_resp1": "Festgegründet steht das Haus des Herrn auf dem höchsten der Berge; es ragt empor über alle Hügel.",
                 "patr_resp2": "Alle Völker strömen zu ihm und rufen: Ehre sei dir, o Herr!^Ö",
                 "patr_resp3": "Mit Jubel kommen sie und bringen ihre Garben ein.",
+                "hymn_1_lat": 5436,
                 "ant1_lat": "Attóllite, portæ, cápita vestra, et elevámini, portæ æternáles.^LÖ",
                 "ant2_lat": "Quam dilécta tabernácula tua, Dómine virtútum.^LÖ",
                 "ant3_lat": "Gloriósa dicta sunt de te, cívitas Dei.^LÖ",
@@ -135,6 +137,7 @@ export const dataSollemnities = {
                 "les_text_lat": ""
             },
             "laudes": {
+                "button": "Kirchw",
                 "hymn_1": 1150.0,
                 "hymn_kl": 0.0,
                 "psalm1": 63.0,
@@ -153,17 +156,18 @@ export const dataSollemnities = {
                 "bitten_e": "Gepriesen sei unser Erlöser Jesus Christus, der die zerstreute Herde Gottes in seiner Kirche sammelt. Zu ihm lasst uns beten:",
                 "bitten_r": "Herr, gedenke deiner Kirche.",
                 "bitten": "Du hast deine Kirche auf Felsen gebaut;^qstärke unseren Glauben und festige unsere Zuversicht.^pAus deiner Seite strömen Blut und Wasser;^qerneuere deine Gemeinde durch die Sakramente des Neuen Bundes.^pDu bist mitten unter denen, die in deinem Namen versammelt sind;^qerhöre unser einmütiges Gebet.^pMit dem Vater und dem Heiligen Geist nimmst du Wohnung bei denen, die dich lieben;^qgib, dass die Liebe zum dreifaltigen Gott in uns wachse.",
+                "hymn_1_lat": 5446,
                 "ant1_lat": "Domus meus domus orationis vocabitur.^LÖ",
                 "ant2_lat": "Benedíctus es, Dómine, in templo sancto tuo.^LÖ",
                 "ant3_lat": "Laudate Dóminum in ecclésia sanctórum.^LÖ",
                 "resp1_lat": "Magnus Dóminus",
-                "resp2_lat": " et laudábilis nimis.",
+                "resp2_lat": "et laudábilis nimis.",
                 "resp3_lat": "In civitáte Dei nostri, in monte sancto eius.",
-                "antev_lat": "Zacchæe, festínans descénde, quia hódie in domo tua opórtet me manére. At ille festínans descéndit et suscépit illum gaudens in domum suam. Hódie huic dómui salus a Deo facta est.^LÖ",
-                "bitten_e_lat": "",
-                "bitten_r_lat": "",
-                "bitten_lat": "",
-                "les_text_lat": ""
+                "antev_lat": "Zachǽe, festínans descénde, quia hódie in domo tua opórtet me manére. At ille festínans descéndit et suscépit illum gaudens in domum suam. Hódie huic dómui salus a Deo facta est.^LÖ",
+                "bitten_e_lat": "Nos, lápides vivi, superædificáti lápidi elécto Christo, Patrem omnipoténtem pro Ecclésia deprecémur eius dilécta, et fidem in eam profiteámur, dicéntes:",
+                "bitten_r_lat": "Hic domus Dei est et porta cæli.",
+                "bitten_lat": "Pater agrícola, víneam tuam emúnda, custódi, multíplica,^qut in conspéctu tuo omnem terram ímpleat.^pPastor ætérne, ovíle tuum prótege ac proténde,^qut sub único pastóre, Fílio tuo, oves congregéntur in unum.^pSator omnípotens, sémina verbum in agro tuo,^qut céntuplum fructum áfferat in messem ætérnam.^pSápiens ædificátor, tuam domum familiámque sanctífica,^qut cívitas de cælo, Ierúsalem nova, sponsa appáreat ómnibus gloriósa.",
+                "les_text_lat": "Addúcam eos in montem sanctum meum et lætificábo eos in domo oratiónis meæ: holocáusta eórum et víctimæ eórum placébunt mihi super altári meo, quia domus mea domus oratiónis vocábitur cunctis pópulis."
             },
             "terz": {
                 "psalm1": 120.0,
@@ -175,10 +179,10 @@ export const dataSollemnities = {
                 "les_text": "Wisst ihr nicht, dass ihr Gottes Tempel seid und der Geist Gottes in euch wohnt? Wer den Tempel Gottes verdirbt, den wird Gott verderben. Denn Gottes Tempel ist heilig, und der seid ihr.",
                 "resp0": "Ich liebe, Herr, die Schönheit deines Hauses.^Ö",
                 "resp1": "Die Wohnung deiner Herrlichkeit.^Ö",
-                "ant0_lat": "",
-                "resp0_lat": "",
-                "resp1_lat": "",
-                "les_text_lat": ""
+                "ant0_lat": "Templum Dómini sanctum est, Dei cultúra est, Dei ædificátio est.^LÖ",
+                "resp0_lat": "Dómine, diléxi decórem domus tuæ.",
+                "resp1_lat": "Et locum tabernáculi glóriæ tuæ.",
+                "les_text_lat": "Nescítis quia templum Dei estis et Spíritus Dei hábitat in vobis? Si quis autem templum Dei evérterit, evértet illum Deus; templum enim Dei sanctum est, quod estis vos."
             },
             "sext": {
                 "psalm1": 123.0,
@@ -190,10 +194,10 @@ export const dataSollemnities = {
                 "les_text": "Wir sind der Tempel des lebendigen Gottes; denn Gott hat gesprochen: Ich will unter ihnen wohnen und mit ihnen gehen. Ich werde ihr Gott sein, und sie werden mein Volk sein.",
                 "resp0": "Erbittet für Jerusalem Frieden.^Ö",
                 "resp1": "Wer dich liebt, sei in dir geborgen.^Ö",
-                "ant0_lat": "",
-                "resp0_lat": "",
-                "resp1_lat": "",
-                "les_text_lat": ""
+                "ant0_lat": "Domum tuam, Dómine, decet sanctitúdo in longitúdinem diérum.^LÖ",
+                "resp0_lat": "Rogáte quæ ad pacem sunt Ierúsalem.^LÖ",
+                "resp1_lat": "Et abundántia diligéntibus te.^LÖ",
+                "les_text_lat": "Vos estis templum Dei vivi; sicut dicit Deus: „Inhabitábo in illis et inambulábo et ero illórum Deus, et ipsi erunt mihi pópulus“."
             },
             "non": {
                 "psalm1": 126.0,
@@ -205,10 +209,10 @@ export const dataSollemnities = {
                 "les_text": "Hört das Wort des Herrn, ganz Juda, alle, die ihr durch diese Tore kommt, um dem Herrn zu huldigen! Vertraut nicht auf die trügerischen Worte: Der Tempel des Herrn, der Tempel des Herrn, der Tempel des Herrn ist hier. Denn nur wenn ihr euer Verhalten und euer Tun von Grund auf bessert, will ich bei euch wohnen hier an diesem Ort.",
                 "resp0": "Tretet durch seine Tore ein mit Dank.^Ö",
                 "resp1": "Kommt mit Lobgesang in die Höfe seines Tempels.^Ö",
-                "ant0_lat": "",
-                "resp0_lat": "",
-                "resp1_lat": "",
-                "les_text_lat": ""
+                "ant0_lat": "Hæc est domus Dómini, fírmiter ædificáta; bene fundáta est supra firmam petram.^LÖ",
+                "resp0_lat": "Introíte portas Dómini in confessióne.^LÖ",
+                "resp1_lat": "Et átria eius in hymnis.^LÖ",
+                "les_text_lat": "Audíte verbum Dómini, qui ingredímini per portas has, ut adorétis Dóminum. Nolíte confídere in verbis mendácii dicéntes: „Templum Dómini, templum Dómini, templum Dómini est“. Quóniam, si bene direxéritis vias vestras et ópera vestra, habitáre vos fáciam in loco isto."
             },
             "vesper": {
                 "hymn_1": 1154.0,
@@ -218,7 +222,7 @@ export const dataSollemnities = {
                 "psalm3": 156.0,
                 "ant1": "Geheiligt hat der Herr sein Haus. Gott wohnt in seiner Mitte, darum wankt es nicht.^Ö",
                 "ant2": "Voll Freude ziehen wir hinauf zum Hause des Herrn.^Ö",
-                "ant3": "Alle Völker werden kommen und niederfallen vor dir, unserm Gott und Herrn.",
+                "ant3": "Lobt unseren Gott, preist ihn, all seine Heiligen!^Ö",
                 "les_buch": "Offb",
                 "les_stelle": "21,2–3.22.27",
                 "les_text": "Ich, Johannes, sah die heilige Stadt, das neue Jerusalem, von Gott her aus dem Himmel herabkommen; sie war bereit wie eine Braut, die sich für ihren Mann geschmückt hat. Da hörte ich eine laute Stimme vom Thron her rufen: Seht die Wohnung Gottes unter den Menschen! Er wird in ihrer Mitte wohnen, und sie werden sein Volk sein; und er, Gott, wird bei ihnen sein. Einen Tempel sah ich nicht in der Stadt. Denn der Herr, ihr Gott, der Herrscher über die ganze Schöpfung, ist ihr Tempel, er und das Lamm. Nichts Unreines wird hineinkommen, keiner, der Gräuel verübt und lügt. Nur die, die im Lebensbuch des Lammes eingetragen sind, werden eingelassen.",
@@ -229,16 +233,31 @@ export const dataSollemnities = {
                 "bitten_e": "Lasst uns beten zum allmächtigen Gott, der seine Kirche aufbaut aus lebendigen Steinen:",
                 "bitten_r": "Wohne in unserer Mitte.",
                 "bitten": "Du göttlicher Bauherr, erhalte deine Kirche^qund heilige das Volk, das du darin versammelt hast.^pDu Winzer deines Weinbergs, schütze deine Pflanzung;^qreinige sie und schenke ihr Wachstum.^pDu göttlicher Sämann, streue den Samen des Wortes aus,^qdamit es hundertfache Frucht bringe am Tag der Ernte.^pDu Hirte von Ewigkeit her, weide deine Herde^qund führe alle Völker zusammen unter dem einen Hirten Jesus Christus.^pVater im Himmel, du weist niemand ab, der zu dir kommt;^qnimm unsere Verstorbenen auf in dein Haus.",
-                "ant1_lat": "",
-                "ant2_lat": "",
-                "ant3_lat": "",
+                "hymn_1_lat": 5450,
+                "ant1_lat": "Sanctificávit Dóminus tabernáculum suum: Deus in médio eius, non commovébitur.^LÖ",
+                "ant2_lat": "In domum Dómini lætántes íbimus.^LÖ",
+                "ant3_lat": "Laudem dícite Deo nostro, omnes sancti eius.^LÖ",
+                "resp1_lat": "Beáti qui hábitant",
+                "resp2_lat": "in domo tua, Dómine.",
+                "resp3_lat": "In sǽculum sǽculi laudábunt te.",
+                "antev_lat": "Sanctificávit Dóminus tabernáculum suum: hæc est domus Dei, in qua invocétur nomen eius, de qua scriptum est: Erit nomen meum ibi, dicit Dóminus.^LÖ",
+                "bitten_e_lat": "Salvatórem nostrum, qui ánimam suam pósuit, ut fílios Dei dispérsos congregáret in unum, súpplices implorémus:",
+                "bitten_r_lat": "Recordáre Ecclésiæ tuæ, Dómine.",
+                "bitten_lat": "Dómine Iesu, qui domum tuam super petram ædificásti,^qEcclésiam tuam sólida fide ac fidúcia confírma.^pDómine Iesu, de cuius látere sanguis et aqua fluxérunt,^qEcclésiam tuam testaménti novi et ætérni rénova sacraméntis.^pDómine Iesu, præsens in médio eórum qui congregántur in nómine tuo,^qEcclésiæ tuæ unánimem oratiónem exáudi.^pDómine Iesu, qui cum Patre mansiónem facis apud eos qui te díligunt,^qEcclésiam tuam pérfice in dilectióne divína.^pDómine Iesu, qui non éicis foras eum qui venit ad te,^qomnes in domum patérnam immítte defúnctos.",
+                "les_text_lat": "Vidi civitátem sanctam Ierúsalem novam descendéntem de cælo a Deo, parátam sicut sponsam ornátam viro suo. Et audívi vocem magnam de throno dicéntem: „Ecce tabernáculum Dei cum homínibus! Et habitábit cum eis, et ipsi pópuli eius erunt, et ipse Deus cum eis erit eórum Deus“. Et templum non vidi in ea: Dóminus enim Deus omnípotens templum illíus est, et Agnus. Nec intrábit in ea áliquid coinquinátum et fáciens abominatiónem et mendácium, nisi qui scripti sunt in libro vitæ Agni."
+            }
+        },
+        "j": {
+            "lesehore": {
+                "les_buch": "Aus dem ersten Petrusbrief.",
+                "les_stelle": "2,1–17",
+                "les_text": "^hAls lebendige Steine lasst euch aufbauen^pLegt alle Bosheit ab, alle Falschheit und Heuchelei, allen Neid und alle Verleumdung. Verlangt, gleichsam als neugeborene Kinder, nach der unverfälschten, geistigen Milch, damit ihr durch sie heranwachst und das Heil erlangt. Denn ihr habt erfahren, wie gütig der Herr ist.^h^pKommt zu ihm, dem lebendigen Stein, der von den Menschen verworfen, aber von Gott aus­erwählt und geehrt worden ist. Lasst euch als lebendige Steine zu einem geistigen Haus auf­bauen, zu einer heiligen Priesterschaft, um durch Jesus Christus geistige Opfer darzu­bringen, die Gott gefallen. Denn es heißt in der Schrift: Seht her, ich lege in Zion einen auser­wählten Stein, einen Eckstein, den ich in Ehren halte; wer an ihn glaubt, der geht nicht zugrunde.^pEuch, die ihr glaubt, gilt diese Ehre. Für jene aber, die nicht glauben, ist dieser Stein, den die Bauleute verworfen haben, zum Eckstein geworden, zum Stein, an den man anstößt, und zum Felsen, an dem man zu Fall kommt. Sie stoßen sich an ihm, weil sie dem Wort nicht gehorchen; doch dazu sind sie bestimmt.^pIhr aber seid ein auserwähltes Geschlecht, eine königliche Priesterschaft, ein heiliger Stamm, ein Volk, das sein besonderes Eigentum wurde, damit ihr die großen Taten dessen verkündet, der euch aus der Finsternis in sein wunderbares Licht gerufen hat. Einst wart ihr nicht sein Volk, jetzt aber seid ihr Gottes Volk; einst gab es für euch kein Erbarmen, jetzt aber habt ihr Erbarmen gefunden.^pLiebe Brüder, da ihr Fremde und Gäste seid in dieser Welt, ermahne ich euch: Gebt den irdischen Begierden nicht nach, die gegen die Seele kämpfen. Führt unter den Heiden ein rechtschaffenes Leben, damit sie, die euch jetzt als Übeltäter verleumden, durch eure guten Taten zur Einsicht kommen und Gott preisen am Tag der Heimsuchung.^pUnterwerft euch um des Herrn willen jeder menschlichen Ordnung: dem Kaiser, weil er über allen steht, den Statthaltern, weil sie von ihm entsandt sind, um die zu bestrafen, die Böses tun, und die auszuzeichnen, die Gutes tun.^pDenn es ist der Wille Gottes, dass ihr durch eure guten Taten die Unwissenheit unverständiger Menschen zum Schweigen bringt. Handelt als Freie, aber nicht als solche, die die Freiheit als Deckmantel für das Böse nehmen, sondern wie Knechte Gottes. Erweist allen Menschen Ehre, liebt die Brüder, fürchtet Gott und ehrt den Kaiser!",
+                "resp1": "Deine Mauern sind aus edlem Stein.",
+                "resp2": "Aus Perlen sind Jerusalems Türme erbaut.",
+                "resp3": "Die Tore sind aus Saphir und Smaragd, aus kost­baren Steinen die Mauern rings um die Stadt.",
                 "resp1_lat": "",
                 "resp2_lat": "",
                 "resp3_lat": "",
-                "antev_lat": "",
-                "bitten_e_lat": "",
-                "bitten_r_lat": "",
-                "bitten_lat": "",
                 "les_text_lat": ""
             }
         },
@@ -262,14 +281,12 @@ export const dataSollemnities = {
                 "les_text_lat": ""
             },
             "vesper": {
-                "ant3": "Lobt unseren Gott, preist ihn, all seine Heiligen!^Ö",
                 "resp1": "Selig, die in deinem Hause wohnen.",
                 "resp2": "Halleluja,°halleluja.",
                 "resp3": "Sie loben dich in Ewigkeit.",
-                "ant3_lat": "",
-                "resp1_lat": "",
-                "resp2_lat": "",
-                "resp3_lat": ""
+                "resp1_lat": "Beáti qui hábitant in domo tua, Dómine.",
+                "resp2_lat": "Allelúia,°allelúia.",
+                "resp3_lat": "In sǽculum sǽculi laudábunt te.",
             }
         },
         "q": {
@@ -284,6 +301,11 @@ export const dataSollemnities = {
                 "resp2_lat": "",
                 "resp3_lat": "",
                 "les_text_lat": ""
+            },
+            "vesper": {
+                "psalm3": 156,
+                "ant3": "Alle Völker werden kommen und niederfallen vor dir, unserm Gott und Herrn.",
+                "ant3_lat": "Omnes gentes vénient et adorábunt coram te, Dómine.",
             }
         }
     },

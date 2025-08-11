@@ -4706,6 +4706,27 @@ export const psalmsData = {
         "text_lat": "Diéi luce réddita,^llætis gratísque vócibus^lDei canámus glóriam,^lChristi faténtes grátiam,^pPer quem creátor ómnium^ldiem noctémque cóndidit,^lætérna lege sánciens^lut semper succédant sibi.^pTu vera lux fidélium,^lquem lex vetérna non tenet,^lnoctis nec ortu súccidens,^lætérno fulgens lúmine.^pPræsta, Pater ingénite,^ltotum ducámus iúgiter^lChristo placéntes hunc diem^lSancto repléti Spíritu. Amen."
       }
   },
+  5436: {
+    0.0: {
+        "quote": "Kirchweihe Lh",
+        "title_lat": "Christe, cunctórum dominátor alme",
+        "text_lat": "Christe, cunctórum^/dominátor alme,^lplebs tibi supplex^/résonet in aula,^lánnuo cuius^/rédeunt colénda^ltémpore festa.^pHic locus nempe^/vocitátur aula^lregis imménsi^/nitidíque cæli^lporta, quæ vitæ^/pátriam peténtes^láccipit omnes.^pHæc tuam plebem^/sacra cogit ædes,^lhæc sacraméntis^/pia ditat usque,^lcǽlicis escis^/alit in perénnis^lmúnera vitæ.^pQuǽsumus ergo,^/Deus, ut seréno^ládnuas vultu^/fámulos gubérnans,^lqui tui summo^/célebrant amóre^lgáudia templi.^pÆqua laus summum^/célebret Paréntem^lteque, Salvátor,^/pie rex, per ævum;^lSpíritus Sancti^/résonet per omnem^lglória mundum. Amen."
+      }
+  },
+  5446: {
+    0.0: {
+        "quote": "Kirchweihe Ld",
+        "title_lat": "Anguláris fundaméntum lapis Christus",
+        "text_lat": "Anguláris fundaméntum^llapis Christus missus est,^lqui paríetum compáge^lin utróque néctitur,^lquem Sion sancta suscépit,^lin quo credens pérmanet.^pOmnis illa Deo sacra^let dilécta cívitas,^lplena módulis in laude^let canóre iúbilo,^ltrinum Deum unicúmque^lcum fervóre prǽdicat.^pHoc in templo, summe Deus,^lexorátus ádveni,^let cleménti bonitáte^lprecum vota súscipe;^llargam benedictiónem^lhic infúnde iúgiter.^pHic promereántur omnes^lpetíta acquírere^let adépta possidére^lcum sanctis perénniter,^lparadísum introíre^ltransláti in réquiem.^pGlória et honor Deo^lusquequáqu>e altíssimo,^luna Patri Filióque^latque Sancto Flámini,^lquibus laudes et potéstas^lper ætérna sǽcula. Amen."
+      }
+  },
+  5450: {
+    0.0: {
+        "quote": "Kirchweihe Vp",
+        "title_lat": "Urbs Ierúsalem beáta",
+        "text_lat": "Urbs Ierúsalem beáta,^ldicta pacis vísio,^lquæ constrúitur in cælis^lvivis ex lapídibus,^langelísque coronáta^lsicut sponsa cómite,^pNova véniens e cælo,^lnuptiáli thálamo^lpræparáta, ut intácta^lcopulétur Dómino.^lPlatéæ et muri eius^lex auro puríssimo;^pPortæ nitent margarítis^ládytis paténtibus,^let virtúte meritórum^lilluc introdúcitur^lomnis qui ob Christi nomen^lhic in mundo prémitur.^pTunsiónibus, pressúris^lexpolíti lápides^lsuis coaptántur locis^lper manum artíficis;^ldisponúntur permansúri^lsacris ædifíciis.^pGlória et honor Deo^lusquequáqu>e altíssimo,^luna Patri Filióque^latque Sancto Flámini,^lquibus laudes et potéstas^lper ætérna sǽcula. Amen."
+      }
+  },
   5457: {
     0.0: {
         "quote": "Maria 1. Vp",

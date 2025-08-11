@@ -3192,6 +3192,18 @@ export const adlibData = {
         }
       }
     },
+    "14": {
+      "eig": {
+        "each": {
+          "comm_1": "Kirchw",
+          "oration": "^RUBRIn der Fuldaer Kathedrale:^0RUBR^lGroßer und heiliger Gott, jedes Jahr feiern wir den Weihetag dieses heiligen Hauses. Höre auf die Bitten deines Volkes. Hilf uns, dass wir an diesem Ort in rechter Gesinnung den heiligen Dienst vollziehen und den Reichtum der Erlösungsgnade empfangen.^ORV^p^RUBRIn den übrigen Kirchen:^0RUBR^lErhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird.^ORV^ODERAllmächtiger Gott, du hast gewollt, dass dein Volk Kirche heiße, denn wir sind das Haus, in dem deine Herrlichkeit wohnt. Gib, dass die Gläubigen, die sich in deinem Namen versammeln, dich ehren, dich lieben und dir gehorchen damit sie unter deiner Führung das ewige Erbe erlangen.^ORV",
+          "oration_lat": "^RUBRIn Ecclesia cathedrali Fuldensi:^0RUBR^lDeus, qui nobis per síngulos annos huius sancti templi tui consecratiónis réparas diem, exáudi preces pópuli tui, et præsta, ut fiat hic tibi semper purum servítium et nobis plena redémptio^ORlV^p^RUBRIn aliis ecclesiis:^0RUBR^lDeus, qui de vivis et eléctis lapídibus ætérnum habitáculum tuæ prǽparas maiestáti, multíplica in Ecclésia tua spíritum grátiæ, quem dedísti, ut fidélis tibi pópulus in cæléstis ædificatiónem Ierúsalem semper accréscat.^ORlV^VELDeus, qui pópulum tuum Ecclésiam vocáre dignátus es, da, ut plebs in nómine tuo congregáta te tímeat, te díligat, te sequátur et ad cæléstia promíssa, te ducénte, pervéniat.^ORlV"
+        },
+        "Laudes": {
+          "button": "Weihefest der Fuldaer Kathedrale"
+        }
+      }
+    },
     "16": {
       "n1": {
         "major": {

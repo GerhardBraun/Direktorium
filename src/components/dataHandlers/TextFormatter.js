@@ -295,7 +295,23 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
 
         if (genitiv_lat) {
             text = text
-                .replace(/(sancti|sanctæ|sanctae) \^GEN/g, genitiv_lat)
+                .replace(
+                    /(sancti|sanctæ|sanctae)\s+([a-záéíóúýæǽœ\s]+)?\^GEN/gi,
+                    function (match, sancti, apposition) {
+                        console.log('genitiv_lat match:', match, 'apposition:', apposition);
+                        if (apposition && apposition.trim()) {
+                            // Apposition gefunden - in genitiv_lat einfügen
+                            // genitiv_lat = "sancti Lauréntii" → "sancti mártyris Lauréntii"
+                            return genitiv_lat.replace(
+                                /^(sancti|sanctæ|sanctae)\s+/i,
+                                '$1 ' + apposition.trim() + ' '
+                            );
+                        } else {
+                            // Keine Apposition - genitiv_lat direkt verwenden
+                            return genitiv_lat;
+                        }
+                    }
+                );
         }
 
         if (vokativ_lat) {
@@ -366,6 +382,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         .replace(/ \^w/g, '^w ')
         .replace(/^\^A:[^:]+:/, '')
         .replace(/\^SLICE/, '')
+        .replace(/\^ANT/, '^rAnt.\u00A0\u00A0^0r')
         .replace(/\^(ODER|VEL)/g, (match, text) => '^l^RUBR' + firstCapital(text) + ':^0RUBR^l')
         .replace(/([.?!]|)( |)(EINE?[RMN]?)/g, (match, punctuation, space, text) => {
             if (!punctuation && space) { return '^w' + match.toLowerCase() + '^0w' }
