@@ -5029,6 +5029,108 @@ export const psalmsData = {
         "text_lat": "Læti coléntes fámulum^lqui te perfécte cóluit,^ltibi gratánter, Dómine,^lamóris hymnum prómimus.^pChristi fidélis ássecla,^lultro relíquit gáudia^lcuncta quæ mundus éxhibet^lfugáces atque cópias.^pTibi se vovit súbditum^lhumilitát>e obœ́diens,^lChristi, carnis mundítie,^lspons>i æmulátor vírginum.^pTibi placére géstiit^ltibíqu>e adhǽsit únice,^lmentem, verba vel ópera^lamóris fovens ígnibus.^pHis caritátis vínculis^lin terris tibi déditus,^lliber ad astra iúgiter^ltriumphatúrus pródiit.^pEius exémplis éxcitos^lda gradi nos alácriter,^lut te cum Nat>o et Spíritu^llaudémus hymnis cǽlicis. Amen."
       }
   },
+  5698: {
+    1.0: {
+        "quote": "lat. Comm Verst Lh",
+        "title_lat": "Pro uno defuncto",
+        "text_lat": "Qui vivis ante sǽcula^lvitǽque fons es únicus,^lnos, Deus, mort>i obnóxios^lculpǽque reos áspice.^pPeccánti, Pater, hómini^lpœnam sanxíst>i intéritum,^lut, pulvis datus púlveri,^lse súbderet piáculum.^pVitále sed spiráculum^lquod indidísti próvidus,^læternitátis pérmanet^lgermen immarcescíbile.^pHæc spes, hoc est solácium:^lrevirescémus, Dómine,^lprimúsque resurgéntium^lad te nos Christus rápiet.^pHoc vitæ regno pérfrui^ldefúnctum præsta fámulum,^lquem Christi fides ímbuit,^lquem almus unxit Spíritus.^pHoc regnum nobis própera^le terris cum cessérimus,^lut concinámus ómnium^lte finem, te princípium. Amen."
+      },
+    2.0: {
+        "quote": "lat. Comm Verst Lh",
+        "title_lat": "Pro una defuncta",
+        "text_lat": "Qui vivis ante sǽcula^lvitǽque fons es únicus,^lnos, Deus, mort>i obnóxios^lculpǽque reos áspice.^pPeccánti, Pater, hómini^lpœnam sanxíst>i intéritum,^lut, pulvis datus púlveri,^lse súbderet piáculum.^pVitále sed spiráculum^lquod indidísti próvidus,^læternitátis pérmanet^lgermen immarcescíbile.^pHæc spes, hoc est solácium:^lrevirescémus, Dómine,^lprimúsque resurgéntium^lad te nos Christus rápiet.^pHoc vitæ regno pérfrui^ldefúnctam præsta fámulam,^lquam Christi fides ímbuit,^lquam almus unxit Spíritus.^pHoc regnum nobis própera^le terris cum cessérimus,^lut concinámus ómnium^lte finem, te princípium. Amen."
+      },
+    3.0: {
+        "quote": "lat. Comm Verst Lh",
+        "title_lat": "Pro pluribus defunctis",
+        "text_lat": "Qui vivis ante sǽcula^lvitǽque fons es únicus,^lnos, Deus, mort>i obnóxios^lculpǽque reos áspice.^pPeccánti, Pater, hómini^lpœnam sanxíst>i intéritum,^lut, pulvis datus púlveri,^lse súbderet piáculum.^pVitále sed spiráculum^lquod indidísti próvidus,^læternitátis pérmanet^lgermen immarcescíbile.^pHæc spes, hoc est solácium:^lrevirescémus, Dómine,^lprimúsque resurgéntium^lad te nos Christus rápiet.^pHoc vitæ regno pérfrui^lda fratres in te mórtuos,^lquos Christi fides ímbuit,^lquos almus unxit Spíritus.^pHoc regnum nobis própera^le terris cum cessérimus,^lut concinámus ómnium^lte finem, te princípium. Amen."
+      }
+  },
+  5708: {
+    1.0: {
+        "quote": "lat. Comm Verst Ld",
+        "title_lat": "Pro uno defuncto",
+        "text_lat": "Spes, Christe, nostræ véniæ,^ltu vita, resurréctio;^lad te sunt cord>a et óculi^lcum mortis dolor íngruit.^pTu quoque mortis tǽdia^lpassus dirósque stímulos,^lPatr>i, inclináto cápite,^lmitis dedísti spíritum.^pVere nostros excípiens^llanguóres, pastor míserens,^ltecum donásti cómpati^lPatrísqu>e in sinu cómmori.^pApértis pendens brácchiis,^lin cor transfíxum pértrahis^lquos moritúros ággravat^lmorbus vel mæror ánxius.^pQui portis fractis ínferi^lvictor pandísti cǽlicas,^lnos nunc doléntes érige,^lpost óbitum vivífica.^pSed et qui frater córpore^lnunc dormit pacis réquie,^liam te beánte vígilet^ltibíque laudes réferat. Amen."
+      },
+    2.0: {
+        "quote": "lat. Comm Verst Ld",
+        "title_lat": "Pro una defuncta",
+        "text_lat": "Spes, Christe, nostræ véniæ,^ltu vita, resurréctio;^lad te sunt cord>a et óculi^lcum mortis dolor íngruit.^pTu quoque mortis tǽdia^lpassus dirósque stímulos,^lPatr>i, inclináto cápite,^lmitis dedísti spíritum.^pVere nostros excípiens^llanguóres, pastor míserens,^ltecum donásti cómpati^lPatrísqu>e in sinu cómmori.^pApértis pendens brácchiis,^lin cor transfíxum pértrahis^lquos moritúros ággravat^lmorbus vel mæror ánxius.^pQui portis fractis ínferi^lvictor pandísti cǽlicas,^lnos nunc doléntes érige,^lpost óbitum vivífica.^pSed et quæ soror córpore^lnunc dormit pacis réquie,^liam te beánte vígilet^ltibíque laudes réferat. Amen."
+      },
+    3.0: {
+        "quote": "lat. Comm Verst Ld",
+        "title_lat": "Pro pluribus defunctis",
+        "text_lat": "Spes, Christe, nostræ véniæ,^ltu vita, resurréctio;^lad te sunt cord>a et óculi^lcum mortis dolor íngruit.^pTu quoque mortis tǽdia^lpassus dirósque stímulos,^lPatr>i, inclináto cápite,^lmitis dedísti spíritum.^pVere nostros excípiens^llanguóres, pastor míserens,^ltecum donásti cómpati^lPatrísqu>e in sinu cómmori.^pApértis pendens brácchiis,^lin cor transfíxum pértrahis^lquos moritúros ággravat^lmorbus vel mæror ánxius.^pQui portis fractis ínferi^lvictor pandísti cǽlicas,^lnos nunc doléntes érige,^lpost óbitum vivífica.^pSed et qui fratres córpore^lnunc somno pacis dórmiunt,^liam te beánte vígilent^ltibíque laudes réferant. Amen."
+      }
+  },
+  5713: {
+    1.0: {
+        "quote": "lat. Comm Verst Terz",
+        "title_lat": "Pro uno defuncto",
+        "text_lat": "Qui lacrimátus Lázarum^lgeménsque cum soróribus,^lipsum fecísti prǽpotens^lillárum reddi stúdiis:^pDa nobis, Christe Dómine,^ltuo redémptis sánguine,^lduræ mortis tristítiam^lin vitæ verti gáudium.^pTuúmque voca fámulum,^lex hoc proféctum sǽculo,^lut ubi mors iam déerit^lte vitæ canat príncipem. Amen."
+      },
+    2.0: {
+        "quote": "lat. Comm Verst Terz",
+        "title_lat": "Pro una defuncta",
+        "text_lat": "Qui lacrimátus Lázarum^lgeménsque cum soróribus,^lipsum fecísti prǽpotens^lillárum reddi stúdiis:^pDa nobis, Christe Dómine,^ltuo redémptis sánguine,^lduræ mortis tristítiam^lin vitæ verti gáudium.^pTuámque voca fámulam,^lex hoc proféctam sǽculo,^lut ubi mors iam déerit^lte vitæ canat príncipem. Amen."
+      },
+    3.0: {
+        "quote": "lat. Comm Verst Terz",
+        "title_lat": "Pro pluribus defunctis",
+        "text_lat": "Qui lacrimátus Lázarum^lgeménsque cum soróribus,^lipsum fecísti prǽpotens^lillárum reddi stúdiis:^pDa nobis, Christe Dómine,^ltuo redémptis sánguine,^lduræ mortis tristítiam^lin vitæ verti gáudium.^pTuósque voca fámulos,^lex hoc proféctos sǽculo,^lut ubi mors iam déerit^lte vitæ canant príncipem. Amen."
+      }
+  },
+  5716: {
+    1.0: {
+        "quote": "lat. Comm Verst Sext",
+        "title_lat": "Pro uno defuncto",
+        "text_lat": "Qui petivísti sóntibus^lbenígnus indulgéntiam,^lac verba miserántia^ldixísti pœnæ sócio:^pDa nobis, Christe Dómine,^ltuo redémptis sánguine,^lduræ mortis tristítiam^lin vitæ verti gáudium.^pTuúmque voca fámulum,^lex hoc proféctum sǽculo,^lut ubi mors iam déerit^lte vitæ canat príncipem. Amen."
+      },
+    2.0: {
+        "quote": "lat. Comm Verst Sext",
+        "title_lat": "Pro una defuncta",
+        "text_lat": "Qui petivísti sóntibus^lbenígnus indulgéntiam,^lac verba miserántia^ldixísti pœnæ sócio:^pDa nobis, Christe Dómine,^ltuo redémptis sánguine,^lduræ mortis tristítiam^lin vitæ verti gáudium.^pTuámque voca fámulam,^lex hoc proféctam sǽculo,^lut ubi mors iam déerit^lte vitæ canat príncipem. Amen."
+      },
+    3.0: {
+        "quote": "lat. Comm Verst Sext",
+        "title_lat": "Pro pluribus defunctis",
+        "text_lat": "Qui petivísti sóntibus^lbenígnus indulgéntiam,^lac verba miserántia^ldixísti pœnæ sócio:^pDa nobis, Christe Dómine,^ltuo redémptis sánguine,^lduræ mortis tristítiam^lin vitæ verti gáudium.^pTuósque voca fámulos,^lex hoc proféctos sǽculo,^lut ubi mors iam déerit^lte vitæ canant príncipem. Amen."
+      }
+  },
+  5719: {
+    1.0: {
+        "quote": "lat. Comm Verst Non",
+        "title_lat": "Pro uno defuncto",
+        "text_lat": "Qui, móriens, discípulo^lmatrem donásti Vírginem,^ltuórum quæ fidélium^lagón>i adésset último:^pDa nobis, Christe Dómine,^ltuo redémptis sánguine,^lduræ mortis tristítiam^lin vitæ verti gáudium.^pTuúmque voca fámulum,^lex hoc proféctum sǽculo,^lut ubi mors iam déerit^lte vitæ canat príncipem. Amen."
+      },
+    2.0: {
+        "quote": "lat. Comm Verst Non",
+        "title_lat": "Pro una defuncta",
+        "text_lat": "Qui, móriens, discípulo^lmatrem donásti Vírginem,^ltuórum quæ fidélium^lagón>i adésset último:^pDa nobis, Christe Dómine,^ltuo redémptis sánguine,^lduræ mortis tristítiam^lin vitæ verti gáudium.^pTuámque voca fámulam,^lex hoc proféctam sǽculo,^lut ubi mors iam déerit^lte vitæ canat príncipem. Amen."
+      },
+    3.0: {
+        "quote": "lat. Comm Verst Non",
+        "title_lat": "Pro pluribus defunctis",
+        "text_lat": "Qui, móriens, discípulo^lmatrem donásti Vírginem,^ltuórum quæ fidélium^lagón>i adésset último:^pDa nobis, Christe Dómine,^ltuo redémptis sánguine,^lduræ mortis tristítiam^lin vitæ verti gáudium.^pTuósque voca fámulos,^lex hoc proféctos sǽculo,^lut ubi mors iam déerit^lte vitæ canant príncipem. Amen."
+      }
+  },
+  5720: {
+    1.0: {
+        "quote": "lat. Comm Verst Vp",
+        "title_lat": "Pro uno defuncto",
+        "text_lat": "Imménsæ rex poténtiæ,^lChriste, tu Patris glóriam^lnostrúmque decus móliens,^lmortis fregísti iácula.^pInfírma nostra súbiens^lmagnúmque petens prœ́lium,^lmortem qua serpens vícerat,^lvictor calcásti móriens.^pSurgens fortis e túmulo,^lpascháli nos mystério^lpeccáto rursus mórtuos^lad vitam semper ínnovas.^pVitam largíre grátiæ,^lut, sponsus cum redíeris,^lornáta nos cum lámpade^liam promptos cæl>o invénias.^pIn lucem nos et réquiem^lserénus iudex áccipe,^lquos fides sanctæ Tríadi^ldevínxit atque cáritas.^pTuúmque voca fámulum,^lqui nunc exútus córpore^lin regna Patris ínhiat,^lut te colláudet pérpetim. Amen."
+      },
+    2.0: {
+        "quote": "lat. Comm Verst Vp",
+        "title_lat": "Pro una defuncta",
+        "text_lat": "Imménsæ rex poténtiæ,^lChriste, tu Patris glóriam^lnostrúmque decus móliens,^lmortis fregísti iácula.^pInfírma nostra súbiens^lmagnúmque petens prœ́lium,^lmortem qua serpens vícerat,^lvictor calcásti móriens.^pSurgens fortis e túmulo,^lpascháli nos mystério^lpeccáto rursus mórtuos^lad vitam semper ínnovas.^pVitam largíre grátiæ,^lut, sponsus cum redíeris,^lornáta nos cum lámpade^liam promptos cæl>o invénias.^pIn lucem nos et réquiem^lserénus iudex áccipe,^lquos fides sanctæ Tríadi^ldevínxit atque cáritas.^pTuámque voca fámulam,^lquæ nunc exúta córpore^lad regna Patris ínhiat,^lut te colláudet pérpetim. Amen."
+      },
+    3.0: {
+        "quote": "lat. Comm Verst Vp",
+        "title_lat": "Pro pluribus defunctis",
+        "text_lat": "Imménsæ rex poténtiæ,^lChriste, tu Patris glóriam^lnostrúmque decus móliens,^lmortis fregísti iácula.^pInfírma nostra súbiens^lmagnúmque petens prœ́lium,^lmortem qua serpens vícerat,^lvictor calcásti móriens.^pSurgens fortis e túmulo,^lpascháli nos mystério^lpeccáto rursus mórtuos^lad vitam semper ínnovas.^pVitam largíre grátiæ,^lut, sponsus cum redíeris,^lornáta nos cum lámpade^liam promptos cæl>o invénias.^pIn lucem nos et réquiem^lserénus iudex áccipe,^lquos fides sanctæ Tríadi^ldevínxit atque cáritas.^pFratres et omnes ádvoca,^lqui nunc exúti córpore^lin regna Patris ínhiant,^lut te colláudent pérpetim. Amen."
+      }
+  },
   8101: {
     2.0: {
         "title": "Zur Pforte Christi ward die Magd",

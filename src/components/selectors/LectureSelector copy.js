@@ -12,7 +12,6 @@ const LectureSelector = ({
     SectionHeader,
     ComposeResponse
 }) => {
-
     // Array-basierter State für beide Lesungen
     const [selectedLecture, setSelectedLecture] = useState({
         first: 'standard',
@@ -70,36 +69,36 @@ const LectureSelector = ({
                 onlyAlternativeResp: firstKeyword && !firstData?.[lesText] && firstData?.[lesResp1],
                 keyword: firstKeyword,
                 button: {
-                    standard: chain(getValue('les_buch'), getValue('les_stelle')),
+                    standard: chain(getValue(lesBuch), getValue(lesStelle)),
                     alternative: chain(firstData?.[lesBuch], firstData?.[lesStelle])
                 },
                 resp: {
-                    standard: abbreviate(getValue('resp1')),
+                    standard: abbreviate(getValue(lesResp1)),
                     alternative: abbreviate(firstData?.[lesResp1])
                 }
             },
             second: {
                 hasAlternative: secondKeyword && secondData,
-                hasAlternativeText: secondKeyword && secondData?.[patrText],
-                onlyAlternativeResp: secondKeyword && !secondData?.[patrText] && secondData?.[patrResp1],
+                hasAlternativeText: secondKeyword && secondData?.patr_text,
+                onlyAlternativeResp: secondKeyword && !secondData?.patr_text && secondData?.patr_resp1,
                 keyword: secondKeyword,
                 button: {
-                    standard: chain(getValue('patr_autor'), getValue('patr_werk'), ':'),
+                    standard: chain(getValue(patrAutor), getValue(patrWerk), ':'),
                     alternative: chain(secondData?.[patrAutor], secondData?.[patrWerk], ':')
                 },
                 resp: {
-                    standard: abbreviate(getValue('patr_resp1')),
+                    standard: abbreviate(getValue(patrResp1)),
                     alternative: abbreviate(secondData?.[patrResp1])
                 }
             }
         };
-    }, [getValue, localPrefLanguage]);
+    }, [getValue]);
 
     // Funktion für die Auswahl der anzuzeigenden Daten
     const selected = (field) => {
         const lectureType = field.startsWith('patr_') ? 'second' : 'first';
         const isAlternativeSelected = selectedLecture[lectureType] === 'alternative';
-        const languageField = `${field}${localPrefLanguage}`;
+        field = field + localPrefLanguage;
 
         if (!isAlternativeSelected) {
             return getValue(field);
@@ -111,7 +110,7 @@ const LectureSelector = ({
         if (!keyword || !lectureAlternatives[keyword]) return getValue(field);
 
         const alternativeData = lectureAlternatives[keyword][lectureType];
-        return alternativeData?.[languageField] || getValue(field);
+        return alternativeData?.[field] || getValue(field);
     };
 
     // DRY: Gemeinsame Funktion für Auswahl-Buttons

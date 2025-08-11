@@ -139,7 +139,8 @@ const HymnSelector = ({ texts, hour, season,
                 }
             }
 
-            const specialHymns = dataSpecialHymns?.[prefSollemnity]?.[hour];
+            const specialHymns = dataSpecialHymns?.[prefSollemnity]?.[localPrefLanguage]?.[hour]
+                || dataSpecialHymns?.[prefSollemnity]?.[hour];
             const hymnNumbers = Array.isArray(specialHymns) ? specialHymns : [specialHymns];
 
             hymnNumbers.forEach((specialHymn, index) => {
@@ -315,5 +316,13 @@ const dataSpecialHymns = {
         "sext": 1440,
         "non": 1440,
         "vesper": 2512,
+        "_lat": {
+            "lesehore": [5698.1, 5698.2, 5698.3],
+            "laudes": [5708.1, 5708.2, 5708.3],
+            "terz": [5713.1, 5713.2, 5713.3],
+            "sext": [5716.1, 5716.2, 5716.3],
+            "non": [5719.1, 5719.2, 5719.3],
+            "vesper": [5720.1, 5720.2, 5720.3],
+        }
     }
 }
