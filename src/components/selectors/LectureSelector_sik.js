@@ -62,6 +62,19 @@ const LectureSelector = ({
         const patrWerk = `patr_werk${localPrefLanguage}`;
         const patrResp1 = `patr_resp1${localPrefLanguage}`;
 
+        const checkLanguageField = (field) => {
+            if (!field) return null
+
+            dataToUse = field.startsWith('patr_') ? secondData : firstData;
+            if (!dataToUse) return null;
+
+            languageField = field + localPrefLanguage;
+
+            if (getValue(field).endsWith(localPrefLanguage)) {
+                return dataToUse?.[languageField] || dataToUse?.[field] || null;
+            }
+        }
+
         return {
             first: {
                 hasAlternative: firstKeyword && firstData,
@@ -70,11 +83,11 @@ const LectureSelector = ({
                 keyword: firstKeyword,
                 button: {
                     standard: chain(getValue('les_buch'), getValue('les_stelle')),
-                    alternative: chain(firstData?.les_buch, firstData?.les_stelle)
+                    alternative: chain(checkLanguageField('les_buch'), checkLanguageField('les_stelle'))
                 },
                 resp: {
                     standard: abbreviate(getValue('resp1')),
-                    alternative: abbreviate(firstData?.resp1)
+                    alternative: abbreviate(checkLanguageField('resp1'))
                 }
             },
             second: {
@@ -84,11 +97,11 @@ const LectureSelector = ({
                 keyword: secondKeyword,
                 button: {
                     standard: chain(getValue('patr_autor'), getValue('patr_werk'), ':'),
-                    alternative: chain(secondData?.patr_autor, secondData?.patr_werk, ':')
+                    alternative: chain(checkLanguageField('patr_autor'), checkLanguageField('patr_werk'), ':')
                 },
                 resp: {
                     standard: abbreviate(getValue('patr_resp1')),
-                    alternative: abbreviate(secondData?.patr_resp1)
+                    alternative: abbreviate(checkLanguageField('patr_resp1'))
                 }
             }
         };

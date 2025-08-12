@@ -14,19 +14,23 @@ export const getValue = ({ season, hour, texts, field,
         return getKompletValue({ texts, field, localPrefKomplet, localPrefLanguage })
     }
 
-    const languageField = `${field}${localPrefLanguage}`
+    const languageField = field + localPrefLanguage
 
     if (['kirchw', 'verst'].includes(prefSollemnity)) {
         const data = dataSollemnities[prefSollemnity]
-        return data?.[season]?.[hour]?.[languageField]
+
+        let value = data?.[season]?.[hour]?.[languageField]
             || data?.each?.[hour]?.[languageField]
             || data?.each?.each?.[languageField]
-            ||
-            data?.[season]?.[hour]?.[field]
-            || data?.each?.[hour]?.[field]
-            || data?.each?.each?.[field]
-            ||
-            null
+
+        if (value) { value = value + localPrefLanguage }
+        else {
+            value = data?.[season]?.[hour]?.[field]
+                || data?.each?.[hour]?.[field]
+                || data?.each?.each?.[field]
+                || null
+        }
+        return value
     }
 
     const replaceErgPs = (data) => {

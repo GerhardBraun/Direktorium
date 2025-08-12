@@ -35,7 +35,7 @@ const LectureSelector = ({
             text2 = (!text2 || text2?.startsWith('LEER'))
                 ? '' : text2;
             connector = text1 && text2 ? connector + ' ' : '';
-            return text1 + connector + text2
+            return formatPrayerText(text1 + connector + text2)
         }
 
         const abbreviate = (text) => {
@@ -46,7 +46,7 @@ const LectureSelector = ({
                 text = text.substring(0, sliceIndex);
             }
 
-            return text.replace(/[.!?;:,]+$/, '') + '\u00a0…';
+            return formatPrayerText(text.replace(/[.!?;:,]+$/, '') + '\u00a0…');
         };
 
         const firstKeyword = extractKeyword('les_buch');
@@ -54,42 +54,49 @@ const LectureSelector = ({
         const firstData = lectureAlternatives[firstKeyword]?.first;
         const secondData = lectureAlternatives[secondKeyword]?.second;
 
-        const lesText = `les_text${localPrefLanguage}`;
-        const lesBuch = `les_buch${localPrefLanguage}`;
-        const lesStelle = `les_stelle${localPrefLanguage}`;
-        const lesResp1 = `resp1${localPrefLanguage}`;
-        const patrText = `patr_text${localPrefLanguage}`;
-        const patrAutor = `patr_autor${localPrefLanguage}`;
-        const patrWerk = `patr_werk${localPrefLanguage}`;
-        const patrResp1 = `patr_resp1${localPrefLanguage}`;
+        const checkLanguageField = (field) => {
+            if (!field) return null
+
+            const dataToUse = field.startsWith('patr_') ? secondData : firstData;
+            if (!dataToUse) return null;
+
+            const languageField = field + localPrefLanguage;
+
+            console.log(`Checking ${field}: ${getValue(field)}`);
+
+            if (getValue(field)?.endsWith(localPrefLanguage)) {
+                return dataToUse?.[languageField] || dataToUse?.[field] || null;
+            }
+            else return dataToUse?.[field] || null;
+        }
 
         return {
             first: {
                 hasAlternative: firstKeyword && firstData,
-                hasAlternativeText: firstKeyword && firstData?.[lesText],
-                onlyAlternativeResp: firstKeyword && !firstData?.[lesText] && firstData?.[lesResp1],
+                hasAlternativeText: firstKeyword && firstData?.les_text,
+                onlyAlternativeResp: firstKeyword && !firstData?.les_text && firstData?.resp1,
                 keyword: firstKeyword,
                 button: {
                     standard: chain(getValue('les_buch'), getValue('les_stelle')),
-                    alternative: chain(firstData?.[lesBuch], firstData?.[lesStelle])
+                    alternative: chain(checkLanguageField('les_buch'), checkLanguageField('les_stelle'))
                 },
                 resp: {
                     standard: abbreviate(getValue('resp1')),
-                    alternative: abbreviate(firstData?.[lesResp1])
+                    alternative: abbreviate(checkLanguageField('resp1'))
                 }
             },
             second: {
                 hasAlternative: secondKeyword && secondData,
-                hasAlternativeText: secondKeyword && secondData?.[patrText],
-                onlyAlternativeResp: secondKeyword && !secondData?.[patrText] && secondData?.[patrResp1],
+                hasAlternativeText: secondKeyword && secondData?.patr_text,
+                onlyAlternativeResp: secondKeyword && !secondData?.patr_text && secondData?.patr_resp1,
                 keyword: secondKeyword,
                 button: {
                     standard: chain(getValue('patr_autor'), getValue('patr_werk'), ':'),
-                    alternative: chain(secondData?.[patrAutor], secondData?.[patrWerk], ':')
+                    alternative: chain(checkLanguageField('patr_autor'), checkLanguageField('patr_werk'), ':')
                 },
                 resp: {
                     standard: abbreviate(getValue('patr_resp1')),
-                    alternative: abbreviate(secondData?.[patrResp1])
+                    alternative: abbreviate(checkLanguageField('patr_resp1'))
                 }
             }
         };
@@ -99,7 +106,7 @@ const LectureSelector = ({
     const selected = (field) => {
         const lectureType = field.startsWith('patr_') ? 'second' : 'first';
         const isAlternativeSelected = selectedLecture[lectureType] === 'alternative';
-        const languageField = `${field}${localPrefLanguage}`;
+        const languageField = field + localPrefLanguage;
 
         if (!isAlternativeSelected) {
             return getValue(field);
@@ -107,11 +114,12 @@ const LectureSelector = ({
 
         // Alternative aus Datenbank verwenden
         const keyword = availableAlternatives[lectureType].keyword;
-
         if (!keyword || !lectureAlternatives[keyword]) return getValue(field);
 
         const alternativeData = lectureAlternatives[keyword][lectureType];
-        return alternativeData?.[languageField] || getValue(field);
+        return alternativeData?.[languageField]
+            || alternativeData?.[field]
+            || getValue(field);
     };
 
     // DRY: Gemeinsame Funktion für Auswahl-Buttons
@@ -143,7 +151,7 @@ const LectureSelector = ({
                 >
                     <div className="flex items-baseline gap-0">
                         <div className="opacity-70 shrink-0 w-10"></div>
-                        <div>{alternatives.onlyAlternativeResp ? resp.standard : formatPrayerText(button.standard)}</div>
+                        <div>{alternatives.onlyAlternativeResp ? resp.standard : button.standard}</div>
                     </div>
                 </button>
                 <button
@@ -154,7 +162,7 @@ const LectureSelector = ({
                 >
                     <div className="flex items-baseline gap-0">
                         <div className="opacity-70 shrink-0 w-10">Oder:</div>
-                        <div>{alternatives.onlyAlternativeResp ? resp.alternative : formatPrayerText(button.alternative)}</div>
+                        <div>{alternatives.onlyAlternativeResp ? resp.alternative : button.alternative}</div>
                     </div>
                 </button>
             </div>
@@ -389,11 +397,22 @@ const lectureAlternatives = {
             patr_resp3: "Selig, die in deinem Hause wohnen, die dich allezeit loben.",
         },
     },
-    "MUSTERsecond": {
+    "VerstLesehore": {
+        first: {
+            les_buch: "Aus dem zweiten Brief an die Korinther.",
+            les_stelle: "4,16b – 5,10",
+            les_text: "^hWenn unser irdisches Zelt abgebrochen wird, dann haben wir ein ewiges Haus im Himmel^pWenn auch unser äußerer Mensch aufgerieben wird, der innere wird Tag für Tag erneuert. Denn die kleine Last unserer gegenwärtigen Not schafft uns in maßlosem Übermaß ein ewiges Gewicht an Herrlichkeit, uns, die wir nicht auf das Sichtbare starren, sondern nach dem Unsichtbaren ausblicken; denn das Sichtbare ist vergänglich, das Unsichtbare ist ewig.^pWir wissen: Wenn unser irdisches Zelt abgebrochen wird, dann haben wir eine Wohnung von Gott, ein nicht von Menschenhand errichtetes ewiges Haus im Himmel. Im gegenwärtigen Zustand seufzen wir und sehnen uns danach, mit dem himmlischen Haus überkleidet zu werden. So bekleidet, werden wir nicht nackt erscheinen. Solange wir nämlich in diesem Zelt leben, seufzen wir unter schwerem Druck, weil wir nicht entkleidet, sondern überkleidet werden möchten, damit so das Sterbliche vom Leben verschlungen werde.^pGott aber, der uns gerade dazu fähig gemacht hat, er hat uns auch als ersten Anteil den Geist gegeben. Wir sind also immer zuversichtlich, auch wenn wir wissen, dass wir fern vom Herrn in der Fremde leben, solange wir in diesem Leib zu Hause sind; denn als Glaubende gehen wir unseren Weg, nicht als Schauende. Weil wir aber zuversichtlich sind, ziehen wir es vor, aus dem Leib auszuwandern und daheim beim Herrn zu sein.^pDeswegen suchen wir unsere Ehre darin, ihm zu gefallen, ob wir daheim oder in der Fremde sind. Denn wir alle müssen vor dem Richterstuhl Christi offenbar werden, damit jeder seinen Lohn empfängt für das Gute oder Böse, das er im irdischen Leben getan hat.",
+            resp1: "Herr, richte mich nicht nach meinem Tun, denn meine Taten können vor dir nicht bestehen. Darum flehe ich zur dir:",
+            resp2: "Herr, tilge all meine Frevel.",
+            resp3: "Gott, wasche meine Schuld von mir ab und mache mich rein von meiner Sünde.",
+        },
         second: {
-            patr_autor: "",
-            patr_werk: "",
-            patr_text: ""
+            patr_autor: "Braulio von Saragossa († um 651)",
+            patr_werk: "Aus einem Brief.",
+            patr_text: "^hDer auferstandene Christus ist die Hoffnung aller Gläubigen^pChristus ist die Hoffnung aller Gläubigen. Er nennt alle, die aus der Welt scheiden, Schlafende, nicht Tote. Denn er sagt: „Lazarus, unser Freund, schläft“ {1#Joh 11,11}.^pAuch der Apostel will nicht, dass wir über die Entschlafenen trauern {2#1 Thess 4,13}.^pWenn wir glauben, dass alle Christgläubigen nach dem Evangelium „in Ewigkeit nicht sterben“ {3#Joh 11,26}, dann wissen wir das durch den Glauben, dass Christus nicht gestorben ist und dass auch wir nicht sterben.^p„Der Herr selbst wird vom Himmel herabkommen, wenn der Befehl ergeht, der Erzengel ruft und die Fanfare Gottes erschallt; und die Toten, die in Christus sind, werden auferstehen“ {4#1 Thess 4,16}.^pDie Hoffnung, dass wir auferstehen, soll uns Mut machen; denn was wir hier verlieren, werden wir dort wiedersehen. So wichtig ist es, fest an Gott zu glauben und seine Gebote zu halten, da er doch alle Kraft besitzt und leichter einen Toten erweckt, als wir einen Schlafenden.^pSo sagen wir. Und doch werden wir im Widerspruch dazu von einer Gemütsbewegung zu Tränen übermannt, und die Sehnsucht des Gemüts bricht die Kraft des gläubigen Geistes. Ach, wie elend ist der Mensch! Ohne Christus ist unser ganzes Leben sinnlos.^pO Tod, du trennst, was verbunden ist, und grausam reißt du auseinander, was in Freundschaft vereint ist! Aber deine Kraft ist schon gebrochen. Zerbrochen ist dein unheilvolles Joch durch ihn, der dir bereits durch Hosea drohte: „O Tod, ich werde dein Tod sein!“ {5#Hos 13,14 Vg} Darum verspotten wir ihn mit dem Apostel: „Tod, wo ist dein Sieg? Tod, wo ist dein Stachel?“ {6#1 Kor 15,50}^pEr, der dich besiegt hat, hat uns erlöst. Er gab seinen Herzensliebiling in die Hand der Gottlosen {7#vgl. Jer 12,7}, um aus den Gottlosen Freunde zu machen. In langer Aufzählung wäre vieles aus der Heiligen Schrift zum allgemeinen Trost heranzuziehen. Uns genüge die Hoffnung, dass wir auferstehen, und die Herrlichkeit des Erlösers, auf die sich unser Auge richtet. Wie wir glauben, sind wir in ihm schon auferstanden, da der Apostel sagt: „Sind wir mit Christus gestorben, so glauben wir, dass wir auch mit ihm leben werden“ {8#Röm 6,8}.^pDenn wir gehören uns nicht selbst, sondern ihm, der uns erlöst hat, von dessen Willen unser Wille stets abhängig sein muss; deswegen sagen wir im Gebet: „Dein Wille geschehe!“ {9#Mt 6,10} Darum müssen wir beim Begräbnis mit Ijob sprechen: „Der Herr hat gegeben, der Herr hat genommen; gelobt sei der Name des Herrn!“ {10#Ijob 1,21} So wollen wir hier mit Ijob sprechen, damit sich dort zeigt, wie ähnlich wir ihm in unserer gegenwärtigen Lage sind.",
+            patr_resp1: "Über die Verstorbenen sollt ihr nicht trauern wie die anderen, die keine Hoffnung haben.",
+            patr_resp2: "Wenn Jesus – und das ist unser Glaube – gestorben und auferstanden ist, dann wird Gott durch Jesus auch die Verstorbenen zusammen mit ihm zur Herrlichkeit führen.",
+            patr_resp3: "Weint nicht um den Toten und beklagt ihn nicht."
         }
     },
     "VerstVesper": {
@@ -405,6 +424,13 @@ const lectureAlternatives = {
             resp2_lat: "dona eis réquiem.",
             resp3_lat: "Qui ventúrus es iudicáre vivos et mórtuos,"
         },
+    },
+    "MUSTERsecond": {
+        second: {
+            patr_autor: "",
+            patr_werk: "",
+            patr_text: ""
+        }
     },
     "MUSTER": {
         first: {

@@ -308,6 +308,12 @@ const dataSpecialHymns = {
         "lesehore": 1139,
         "laudes": 1150,
         "vesper": 1154,
+        "_lat": {
+            "erstev": 5450,
+            "lesehore": 5436,
+            "laudes": 5446,
+            "vesper": 5450,
+        },
     },
     "verst": {
         "lesehore": [2514, 1425],
