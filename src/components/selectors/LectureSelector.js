@@ -62,8 +62,6 @@ const LectureSelector = ({
 
             const languageField = field + localPrefLanguage;
 
-            console.log(`Checking ${field}: ${getValue(field)}`);
-
             if (getValue(field)?.endsWith(localPrefLanguage)) {
                 return dataToUse?.[languageField] || dataToUse?.[field] || null;
             }

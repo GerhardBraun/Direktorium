@@ -1525,7 +1525,7 @@ const PrayerTextDisplay = ({
             )}
             {hour === "invitatorium" &&
               texts?.invitatorium?.psalms?.includes(localPrefInv) && (
-                <div className="mb-4">
+                <div>
                   {formatPsalm(localPrefInv, true)}
                 </div>
               )}
@@ -1538,14 +1538,14 @@ const PrayerTextDisplay = ({
                 return (
                   <div key={num}>
                     {ant && (
-                      <div className="mb-3">
+                      <div className={`mb-3 ${num > 1 ? 'mt-6' : ''}`}>
                         {formatPrayerText(ant, `${num}. Ant.°°`)}
                       </div>
                     )}
                     {psalm &&
                       formatPsalm(psalm)}
                     {ant && (
-                      <div className={num === 3 ? '' : 'mb-6'}>
+                      <div >
                         {formatPrayerText(ant, `Ant.°°`)}
                       </div>
                     )}
@@ -1558,12 +1558,12 @@ const PrayerTextDisplay = ({
           </div>
         )}
         {getValue("versikel0") && (
-          <div className="mb-0">
+          <div>
             <SectionHeader
               title="VERSIKEL"
               field="versikel0" />
             {getValue("versikel0") && (
-              <div className="mb-0 flex gap-0">
+              <div className="flex gap-0">
                 <div>{formatPrayerText(getValue("versikel0"), "V°°")}</div>
               </div>
             )}
@@ -1575,98 +1575,17 @@ const PrayerTextDisplay = ({
           </div>
         )}
 
-        {'hallo' === 'hallo' && (
-          <LectureSelector
-            texts={texts}
-            hour={hour}
-            prefSrc={prefSrc}
-            prefSollemnity={prefSollemnity}
-            localPrefLanguage={localPrefLanguage}
-            formatPrayerText={formatPrayerText}
-            getValue={getValue}
-            SectionHeader={SectionHeader}
-            ComposeResponse={ComposeResponse}
-          />
-        )}
-        {'hall' === 'hallo' && (
-          <div>
-            {getValue("les_buch") && getValue("les_stelle") && (
-              <div className="mb-0">
-
-                <SectionHeader
-                  title={hour === "lesehore" ? "ERSTE LESUNG" : "KURZLESUNG"}
-                  field="les_text"
-                  askContinuous={true}
-                  onSelectHour={onSelectHour}
-                />
-                <div>
-                  {hour !== "lesehore" && (
-                    <div className="text-[0.9em] text-gray-400">
-                      {formatPrayerText(getValue("les_buch"))}{" "}
-                      {formatBibleRef(getValue("les_stelle"))}
-                    </div>
-                  )}
-                  {hour === "lesehore" && (
-                    <>
-                      <div>
-                        <span className="mr-3">
-                          {formatPrayerText(getValue("les_buch"))}
-                        </span>
-                        <span className="inline-block whitespace-nowrap text-[0.9em] text-gray-400">
-                          {formatBibleRef(getValue("les_stelle"))}
-                        </span>
-                      </div>
-                    </>
-                  )}
-                  {formatPrayerText(getValue("les_text"))}
-                </div>
-              </div>
-            )}
-
-            {getValue("resp1") && (
-              <div className="mb-0 whitespace-pre-wrap">
-                <SectionHeader
-                  title="RESPONSORIUM"
-                  field="resp1" />
-                <ComposeResponse
-                  resp0={getValue("resp0")}
-                  resp1={getValue("resp1")}
-                  resp2={getValue("resp2")}
-                  resp3={getValue("resp3")}
-                />
-              </div>)}
-
-            {getValue("patr_text") && (
-              <div className="mb-0">
-                <SectionHeader
-                  title="ZWEITE LESUNG"
-                  field="patr_text"
-                  askContinuous={true}
-                />
-                <div>
-                  <div className="text-[0.9em] italic">
-                    {" "}
-                    {formatPrayerText(getValue("patr_autor"))}
-                  </div>
-                  {formatPrayerText(getValue("patr_werk"))}
-                  {formatPrayerText(getValue("patr_text"))}
-                </div>
-              </div>
-            )}
-
-            {getValue("patr_resp1") && (
-              <div className="mb-0">
-                <SectionHeader
-                  title="RESPONSORIUM"
-                  field="resp1" />
-                <ComposeResponse
-                  resp0={null}
-                  resp1={getValue("patr_resp1")}
-                  resp2={getValue("patr_resp2")}
-                  resp3={getValue("patr_resp3")}
-                />
-              </div>)}
-          </div>)}
+        <LectureSelector
+          texts={texts}
+          hour={hour}
+          prefSrc={prefSrc}
+          prefSollemnity={prefSollemnity}
+          localPrefLanguage={localPrefLanguage}
+          formatPrayerText={formatPrayerText}
+          getValue={getValue}
+          SectionHeader={SectionHeader}
+          ComposeResponse={ComposeResponse}
+        />
 
         {/* erweitertes Responsorium am 1. Adventssonntag Jahr II */}
         {advResp && (
@@ -1765,13 +1684,13 @@ const PrayerTextDisplay = ({
               title={hour === "lesehore" ? "TE DEUM" : "VATERUNSER"}
               field=""
             />
-            <div className="mb-4 whitespace-pre-wrap">
+            <div className="mb-0 whitespace-pre-wrap">
               {formatPrayerText(ordinariumTexts.vu)}
             </div>
           </div>
         )}
 
-        <div className="mt-3 long-rubric">
+        <div className="mt-0 long-rubric">
           {ordinariumTexts.closing[2]}
         </div>
 

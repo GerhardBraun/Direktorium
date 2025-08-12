@@ -6591,7 +6591,7 @@ export const deceasedData =  {
         "birthdate": "2239-04-28",
         "name": "Dr.°Willi Paulo°Link, Msgr., GR, Carapicuíba/Brasilien",
         "birth": "28.°April°1939°in°Stellberg/Krs. Fulda",
-        "grave": "Friedhof°Stellberg",
+        "grave": "Friedhof°Ebersburg¥-Stellberg",
         "age": 86
       }
     ],
@@ -6847,7 +6847,7 @@ export const deceasedData =  {
         "birthdate": "2264-12-06",
         "name": "Michael°Möller, Pfarrer°in°Hilders",
         "birth": "6.°Dezember°1964°in°Fulda",
-        "grave": "",
+        "grave": "Friedhof°Veitsteinbach",
         "age": 60
       }
     ],
