@@ -4799,12 +4799,12 @@ export const psalmsData = {
   5523: {
     0.0: {
         "quote": "plurimorum Martyrum Vp Männer",
-        "title_lat": "Pro sanctis viris",
+        "title_lat": "Pro sancto viro martyre",
         "text_lat": "Sanctórum méritis ínclita gáudia^lpangámus, sócii, géstaque fórtia;^lnam gliscit ánimus prómere cántibus^lvictórum genus óptimum.^pHi sunt, quos rétinens mundus inhórruit,^lipsum nam stérili flore peráridum^lsprevére pénitus teque secúti sunt,^lrex, Christe, bone cǽlitum.^pHi pro te fúrias sǽvaque sústinent;^lnon murmur résonat, non querimónia,^lsed corde tácito mens bene cónscia^lconsérvat patiéntiam.^pQuæ vox, quæ póterit lingua retéxere^lquæ tu martýribus múnera prǽparas?^lRubri nam flúido sánguine láureis^lditántur bene fúlgidis.^pTe, trina Déitas únaque, póscimus,^lut culpas ábluas, nóxia súbtrahas,^ldes pacem fámulis, nos quoque glóriam^lper cuncta tibi sǽcula."
       },
     1.0: {
         "quote": "plurimorum Martyrum Vp Frauen",
-        "title_lat": "Pro sanctis mulieribus",
+        "title_lat": "Pro sancta muliere martyre",
         "text_lat": "Sanctórum méritis ínclita gáudia^lpangámus, sócii, géstaque fórtia;^lnam gliscit ánimus prómere cántibus^lvictórum genus óptimum.^pHæ sunt, quas rétinens mundus inhórruit,^lipsum nam stérili flore peráridum^lsprevére pénitus teque secútæ sunt,^lrex, Christe, bone cǽlitum.^pHæ pro te fúrias sǽvaque sústinent;^lnon murmur résonat, non querimónia,^lsed corde tácito mens bene cónscia^lconsérvat patiéntiam.^pQuæ vox, quæ póterit lingua retéxere^lquæ tu martýribus múnera prǽparas?^lRubri nam flúido sánguine láureis^lditántur bene fúlgidis.^pTe, trina Déitas únaque, póscimus,^lut culpas ábluas, nóxia súbtrahas,^ldes pacem fámulis, nos quoque glóriam^lper cuncta tibi sǽcula."
       }
   },
@@ -4914,7 +4914,7 @@ export const psalmsData = {
     0.0: {
         "quote": "Comm pro pluribus Pastoribus Vp",
         "title_lat": "Pro pluribus pastoribus",
-        "text_lat": "^RUBRPro pluribus pastoribus:^0RUBR^lSacráta nobis gáudia^ldies redúxit ánnua,^llaudántur in qua débito^lcultu duces ovílium.^pEn pro gregis custódia^lnullos labóres néglegunt,^ltutántur illum, sánius^limpertiéntes pábulum.^pArcent lupos e fínibus,^lprocul latrónes éxigunt,^lreplent oves pinguédine,^lovíle numquam déserunt.^pTot nunc potíti gáudiis,^lgregum duces sanctíssimi,^lnobis rogáte grátiam^lapud tribúnal iúdicis.^pÆtérne, Christe, póntifex,^ltibi sit æqua glória^lcum Patr>e et almo Spíritu^lin sempitérna sǽcula. Amen."
+        "text_lat": "Sacráta nobis gáudia^ldies redúxit ánnua,^llaudántur in qua débito^lcultu duces ovílium.^pEn pro gregis custódia^lnullos labóres néglegunt,^ltutántur illum, sánius^limpertiéntes pábulum.^pArcent lupos e fínibus,^lprocul latrónes éxigunt,^lreplent oves pinguédine,^lovíle numquam déserunt.^pTot nunc potíti gáudiis,^lgregum duces sanctíssimi,^lnobis rogáte grátiam^lapud tribúnal iúdicis.^pÆtérne, Christe, póntifex,^ltibi sit æqua glória^lcum Patr>e et almo Spíritu^lin sempitérna sǽcula. Amen."
       }
   },
   5599: {
