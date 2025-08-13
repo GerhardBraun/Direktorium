@@ -13,7 +13,7 @@ const formatBibleRef = (text, bracket = false) => {
     [',', '.', ';', '–'].forEach(punct => {
         formattedText = formattedText.replace(new RegExp(`[ ]*\\${punct}[ ]*`, 'g'), punct);
     });
-    formattedText = formattedText.replace(/vgl./g, 'vgl. ');
+    formattedText = formattedText.replace(/vgl.|Vgl./g, 'vgl. ');
 
     let result = [];
     let currentText = '';
