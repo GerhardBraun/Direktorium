@@ -6867,6 +6867,14 @@ export const deceasedData =  {
         "birth": "18.°Januar°1886°in°Deuna (D¥-37355°Niederorschel)",
         "grave": "",
         "age": 72
+      },
+      {
+        "year": 2025,
+        "birthdate": "2288-07-31",
+        "name": "Piotr°Maśnica°(Tarnów), Polenseelsorger°in°Kassel°und°Marburg",
+        "birth": "31.°Juli°1988°in°Limanowa (PL¥-34¥-600)",
+        "grave": "",
+        "age": 37
       }
     ],
     "13": [
