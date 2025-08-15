@@ -2300,7 +2300,7 @@ export const psalmsData = {
   123: {
     0.0: {
         "title": "Zu Gott erhebe ich meine Augen",
-        "quote": "Die beiden Blinden riefen laut: Herr! Sohn Davids! Hab Erbarmen mit uns! (vgl.°Mt°20,30)",
+        "quote": "Die beiden Blinden riefen laut: Herr! Sohn°Davids! Hab°Erbarmen mit uns! (vgl.°Mt°20,30)",
         "text": "Ich erhebe meine Augen zu dir,^*der du hoch im Himmel thronst.^pWie die Augen der Knechte auf°die°Hand ihres°Herrn,^*wie die Augen der Magd auf°die°Hand ihrer°Herrin,^pso schauen unsre Augen auf den Herrn, unsern°Gott,^*bis er uns gnädig ist.^pSei uns gnädig, Herr, sei uns gnädig,^*denn übersatt sind wir vom Hohn der Spötter,^pübersatt ist unsre Seele von ihrem Spott,^*von der Verachtung der Stolzen.",
         "text_neu": "Ich erhebe meine Augen zu dir,^*der du thronst im Himmel.^pSiehe, wie die Augen der Knechte auf die Hand ihres Herrn,^*wie die Augen der Magd auf die Hand ihrer Herrin,^pso sind unsere Augen erhoben zum HERRN, unserem Gott,^*bis er uns gnädig ist.^pSei uns gnädig, HERR, sei uns gnädig!^*Denn übersatt sind wir von Verachtung,^pvom Spott der Selbstsicheren ist übersatt unsere Seele,^*von der Verachtung durch die Stolzen.",
         "title_lat": "Dominus fiducia populi",
@@ -2311,7 +2311,7 @@ export const psalmsData = {
   124: {
     0.0: {
         "title": "Unsere Hilfe ist im Namen des Herrn",
-        "quote": "Der Herr sagte zu Paulus: Fürchte dich nicht! Denn ich bin mit dir. (Apg°18,9.10)",
+        "quote": "Der Herr sagte zu Paulus: Fürchte dich nicht! Denn ich bin mit°dir. (Apg°18,9.10)",
         "text": "Hätte sich nicht der Herr für°uns°eingesetzt^*– so soll Israel sagen –,^phätte sich nicht der Herr für°uns°eingesetzt,^*als sich gegen uns Menschen erhoben,^pdann hätten sie uns lebendig°verschlungen,^*als gegen uns ihr Zorn entbrannt war.^pDann hätten die Wasser uns weggespült,^*hätte sich über uns ein Wildbach ergossen.^pDann hätten sich über uns die°Wasser°ergossen,^*die wilden und wogenden Wasser.^pGelobt sei der Herr,^*der uns nicht ihren Zähnen als Beute überließ.^pUnsre Seele ist wie ein Vogel dem°Netz°des°Jägers°entkommen,^*das Netz ist zerrissen, und wir sind frei.^pUnsre Hilfe steht im Namen des Herrn,^*der Himmel und Erde gemacht hat.",
         "text_neu": "Wäre es nicht der HERR gewesen, der da war für uns^*– so soll Israel sagen –,^pwäre es nicht der HERR gewesen, der da war für uns,^*als sich gegen uns Menschen erhoben,^pdann hätten sie uns lebendig verschlungen,^*als gegen uns ihr Zorn entbrannte,^pdann hätten die Wasser uns weggespült,^*hätte sich über uns ein Wildbach ergossen,^pdann hätten sich über uns ergossen^*die wilden und wogenden Wasser.^pDer HERR sei gepriesen,^*der uns ihren Zähnen nicht zur Beute gab.^pUnsre Seele ist wie ein Vogel dem Netz des Jägers entkommen;^*das Netz ist zerrissen und wir sind frei.^pUnsere Hilfe ist im Namen des HERRN,^*der Himmel und Erde erschaffen hat.",
         "title_lat": "Adiutorium nostrum in nomine Domini",
@@ -4167,7 +4167,7 @@ export const psalmsData = {
         "stb3": "81 f.",
         "title": "Erhabene Dreifaltigkeit",
         "quote": "Laudes am Dreifaltgkeitssonntag",
-        "text": "Erhabene Dreifaltigkeit,^lim einen Licht der Gottheit eins,^lunendliches Geheimnis du^lund tiefster Ursprung allen Seins.^pDich rühmt des Himmels hehre Schar,^lihr Lied ruft deinen Lobpreis aus,^ldir jubelt deine Schöpfung zu,^lder du dein Bildnis aufgeprägt.^pWir neigen staunend uns vor dir^lund beten deine Größe an.^lVereine mit der Engel Lied^lden Lobgesang, den wir dir weihn.^pWas alle Einsicht übersteigt,^lbekennt der Glaube ehrfurchtsvoll:^lDrei sind in tiefer Liebe eins –^lin EINEM Gottheit leben drei.^pGott Vater, dir sei Ruhm und Preis^lund deinem eingebornen Sohn,^ldem Geiste, der uns Beistand ist,^ljetzt, immer und in Ewigkeit. Amen.",
+        "text": "Erhabene Dreifaltigkeit,^lim einen Licht der Gottheit eins,^lunendliches Geheimnis du^lund tiefster Ursprung allen Seins.^pDich rühmt des Himmels hehre Schar,^lihr Lied ruft deinen Lobpreis aus,^ldir jubelt deine Schöpfung zu,^lder du dein Bildnis aufgeprägt.^pWir neigen staunend uns vor dir^lund beten deine Größe an.^lVereine mit der Engel Lied^lden Lobgesang, den wir dir weihn.^pWas alle Einsicht übersteigt,^lbekennt der Glaube ehrfurchtsvoll:^lDrei sind in tiefer Liebe eins –^lin EINER Gottheit leben drei.^pGott Vater, dir sei Ruhm und Preis^lund deinem eingebornen Sohn,^ldem Geiste, der uns Beistand ist,^ljetzt, immer und in Ewigkeit. Amen.",
         "title_lat": "Trínitas, summo sólio corúscans",
         "text_lat": "Trínitas, summo^/sólio corúscans,^lglóriæ carmen^/tibi sit perénne,^lquæ tenes nostri^/vehemént>i amóre^lpéctoris ima.^pCónditor rerum,^/Pater, alma virtus,^lquos tuæ vitæ^/facis atque formæ^lesse consórtes,^/fídei fac usque^ldona meréri.^pCandor ætérnæ^/speculúmque lucis^lNate, quos dicis^/sociásque fratres,^lpálmites viti^/tibi nos inésse^lda viridántes.^pCáritas, ignis,^/píetas, poténti^llúmin>e ac blando^/móderans creáta,^lSpíritus, mentem^/rénova, fovéto^líntima cordis.^pHospes o dulcis,^/Trias obsecránda,^lnos tibi iugi^/fac amóre nexos,^lpérpetes donec^/modulémur hymnos^lteque fruámur."
       }
@@ -5544,6 +5544,43 @@ export const psalmsData = {
         "text_lat": "Præcéssor almus grátiæ^let veritátis ángelus,^llucérna Christ>i et pérpetis^levangelísta lúminis,^pProphetíæ præcónia,^lquæ voce, vit>a et áctibus^lcantáverat, hæc ástruit^lmortis sacræ signáculo.^pNam nascitúrum sǽculis,^lnascéndo quem prævénerat,^lsed et datórem próprii^lmonstráverat baptísmatis,^pHuiúsce mort>e>m innóxiam,^lqua vita mund>o est réddita,^lsignat sui præságio^lbaptísta martyr sánguinis.^pPræsta, Pater piíssime,^lsequi Ioánnis sémitas,^lmetámus ut pleníssime^lætérna Christi múnera."
       }
   },
+  8903: {
+    0.0: {
+        "quote": "Gregor der Große Lh und Vp",
+        "title_lat": "Anglórum iam apóstolus",
+        "text_lat": "Anglórum iam apóstolus,^lnunc angelórum sócius,^lut tunc, Gregóri, géntibus,^lsuccúrre iam credéntibus.^pTu largas opum cópias^lomnémque mundi glóriam^lspernis, ut inops ínopem^lIesum sequáris príncipem.^pTe celsus Christus póntifex^lsuæ præfert Ecclésiæ;^lsic Petri gradum pércipis,^lcuius et normam séqueris.^pScriptúræ sacræ mýstica^lmire solvis ænígmata,^lexcélsaque mystéria^lte docet ipsa Véritas.^pO póntifex egrégie,^llux et decus Ecclésiæ,^lnon sinas in perículis^lquos tot mandátis ínstruis.^pSit Patri laus ingénito,^lsit decus Unigénito,^lsit utriúsque párili^lmaiéstas summa Flámini. Amen."
+      }
+  },
+  8908: {
+    2.0: {
+        "quote": "Mariae Geburt lat. Ld",
+        "title_lat": "O sancta mundi dómina",
+        "text_lat": "O sancta mundi dómina,^lregína cæli ínclita,^lo stella maris fúlgida,^lvirgo mater mirífica,^pAppáre, dulcis fília,^lnitésce iam, virgúncula,^lflorem latúra nóbilem,^lChristum Deum et hóminem.^pNatális tui ánnua^len cólimus sollémnia,^lquo stirpe delectíssima^lmundo fulsísti génita.^pPer te sumus, terrígenæ^lsimúlque iam cælígenæ,^lpacáti pace nóbili,^lmore non æstimábili.^pSit Trinitáti glória^lper sæculórum sǽcula,^lcuius vocáris múnere^lmater beáta Ecclésiæ. Amen."
+      },
+    4.0: {
+        "quote": "Mariae Geburt lat. Lh und Vp",
+        "title_lat": "Beáta Dei génetrix",
+        "text_lat": "Beáta Dei génetrix,^lnitor humáni géneris,^lper quam de servis líberi^llucísque sumus fílii;^pMaría, virgo régia,^lDavid stirpe progénita,^lnon tam patérna nóbilis^lquam dignitáte súbolis,^pTu nos, avúlso véteri,^lcomplánta novo gérmini;^lper te sit genus hóminum^lregále sacerdótium.^pTu nos culpárum néxibus^lsacris absólve précibus;^ltua proméntes mérita^lad cæli transfer prǽmia.^pSit Trinitáti glória,^lo Virgo nobilíssima,^lquæ te suórum múnerum^lthesáurum dat magníficum. Amen."
+      }
+  },
+  8913: {
+    0.0: {
+        "quote": "Johannes Chrysostomus lat.",
+        "title_lat": "Laude te cives súperi corónant",
+        "text_lat": "Laude te cives^/súperi corónant,^lmagne Ioánnes,^/sociúsque noster^liúngitur cantus,^/generóse præsul,^lcelse magíster.^pAureo profers^/veheménter ore^lverba quæ dives^/facilísque amóris^lvena progígnit,^/fériunt vel acri^lvúlnere noxas.^pIpse virtútum^/spéculum nitéscis^lac tuæ plebi^/méritis corúscas,^lómnibus, Pauli^/velut æmulátor,^lómnia factus.^pNemo te frangit,^/nihil imperántum^lte domant iræ^/rutilǽque honórem^lóbtines palmæ^/venerándus exsul,^lpéctore martyr.^pNunc tuis valde^/précibus iuvémur,^lut Dei sedem^/céleres petámus,^ldúlcibus tecum^/sonitúr>i amóris^lvócibus hymnos. Amen."
+      }
+  },
+  8914: {
+    1.0: {
+        "text_lat": "Salve, crux sancta, salve mundi glória,^lvera spes nostra, vera ferens gáudia,^lsignum salútis, salus in perículis,^lvitále lignum vitam portans ómnium.^pTe adorándam, te crucem vivíficam,^lin te redémpti, dulce decus sǽculi,^lsemper laudámus, semper tibi cánimus,^lper lignum servi, per te, lignum, líberi.^pLaus Deo Patri sit in cruce Fílii,^llaus coæquáli sit Sancto Spirítui;^lcívibus summis gáudium et ángelis,^lhonor sit mundo crucis exaltátio. Amen."
+      },
+    2.0: {
+        "text_lat": "Signum crucis mirábile^ltotum per orbem prǽnitet,^lin qua pepéndit ínnocens^lChristus, redémptor ómnium.^pHæc arbor est sublímior^lcedris, habet quas Líbanus,^lquæ poma nescit nóxia,^lsed ferre vitæ prǽmia.^pTe, Christe, rex piíssime,^lhuius crucis signáculo^lhoris, moméntis ómnibus^lmuníre nos non ábnuas,^pUt ore tibi cónsono^let corde devotíssimo^lpossímus omni témpore^llaudes reférre débitas.^pPatri, tibi, Paráclito^lsit æqua, Iesu, glória,^lqui nos crucis victória^lconcédis usque pérfrui. Amen."
+      },
+    4.0: {
+        "text_lat": "Vexílla regis pródeunt,^lfulget crucis mystérium,^lquo carne carnis cónditor^lsuspénsus est patíbulo;^pQuo, vulnerátus ínsuper^lmucróne diro lánceæ,^lut nos laváret crímine,^lmanávit unda et sánguine.^pArbor decóra et fúlgida,^lornáta regis púrpura,^lelécta digno stípite^ltam sancta membra tángere!^pBeáta, cuius brácchiis^lsæcli pepéndit prétium;^lstatéra facta est córporis^lprædam tulítque tártari.^pSalve, ara, salve, víctima,^lde passiónis glória,^lqua Vita mortem pértulit^let morte vitam réddidit!^pO crux, ave, spes única!^lin hac triúmphi glória^lpiis adáuge grátiam^lreísque dele crímina.^pTe, fons salútis, Trínitas,^lcolláudet omnis spíritus;^lquos per crucis mystérium^lsalvas, fove per sǽcula. Amen."
+      }
+  },
   8915: {
     0.0: {
         "title": "Christi Mutter stand mit Schmerzen",
@@ -5553,7 +5590,26 @@ export const psalmsData = {
     1.0: {
         "title": "Gib, o Mutter, Born der Liebe",
         "quote": "MarSchmerzen",
-        "text": "Gib, o Mutter, Born der Liebe,^ldass ich mich mit dir betrübe,^ldass ich fühl’ die Schmerzen dein.^pDass mein Herz von Lieb’ entbrenne,^ldass ich nur noch Jesus kenne,^ldass ich liebe Gott allein.^pDrücke deines Sohnes Wunden,^lwie du selber sie empfunden,^lheil’ge Mutter, in mein Herz.^pDass ich weiß, was ich verschuldet,^lwas dein Sohn für mich erduldet,^lgib mir teil an deinem Schmerz.^pLass mit dir mich herzlich weinen,^lmich mit Jesu Leid vereinen,^lsolang hier mein Leben währt.^pUnterm Kreuz mit dir zu stehen,^ldort zu teilen deine Wehen,^list es, was mein Herz begehrt."
+        "text": "Gib, o Mutter, Born der Liebe,^ldass ich mich mit dir betrübe,^ldass ich fühl’ die Schmerzen dein.^pDass mein Herz von Lieb’ entbrenne,^ldass ich nur noch Jesus kenne,^ldass ich liebe Gott allein.^pDrücke deines Sohnes Wunden,^lwie du selber sie empfunden,^lheil’ge Mutter, in mein Herz.^pDass ich weiß, was ich verschuldet,^lwas dein Sohn für mich erduldet,^lgib mir teil an deinem Schmerz.^pLass mit dir mich herzlich weinen,^lmich mit Jesu Leid vereinen,^lsolang hier mein Leben währt.^pUnterm Kreuz mit dir zu stehen,^ldort zu teilen deine Wehen,^list es, was mein Herz begehrt.",
+        "title_lat": "Stabat mater dolorósa",
+        "text_lat": "Stabat mater dolorósa^liuxta crucem lacrimósa,^ldum pendébat Fílius.^pCuius ánimam geméntem,^lcontristátam et doléntem^lpertransívit gládius.^pO quam tristis et afflícta^lfuit illa benedícta^lmater Unigéniti!^pQuæ mærébat et dolébat^lpia mater, cum vidébat^lNati pœnas íncliti.^pQuis est homo qui non fleret,^lmatrem Christi si vidéret^lin tanto supplício?^pQuis non posset contristári,^lpiam matrem contemplári^ldoléntem cum Fílio?^pPro peccátis suæ gentis^lvidit Iesum in torméntis^let flagéllis súbditum.^pVidit suum dulcem Natum^lmoriéntem desolátum,^lcum emísit spíritum.^pChriste, cum sit hinc exíre,^lda per matrem me veníre^lad palmam victóriæ. Amen."
+      },
+    2.0: {
+        "quote": "MarSchmerzen lat. Ld",
+        "title_lat": "Eia, mater, fons amóris",
+        "text_lat": "Eia, mater, fons amóris,^lme sentíre vim dolóris^lfac, ut tecum lúgeam.^pFac ut árdeat cor meum^lin amándo Christum Deum,^lut sibi compláceam.^pSancta mater, istud agas,^lCrucifíxi fige plagas^lcordi meo válide.^pTui Nati vulneráti,^ltam dignáti pro me pati^lpœnas mecum dívide.^pFac me vere tecum flere,^lCrucifíxo condolére,^ldonec ego víxero.^pIuxta crucem tecum stare^lac me tibi sociáre^lin planctu desídero.^pQuando corpus moriétur,^lfac ut ánimæ donétur^lparadísi glória. Amen."
+      },
+    4.0: {
+        "quote": "MarSchmerzen lat. Vp",
+        "title_lat": "Virgo vírginum præclára",
+        "text_lat": "Virgo vírginum præclára,^lmihi iam non sis amára;^lfac me tecum plángere.^pFac ut portem Christi mortem,^lpassiónis fac me sortem^let plagas recólere.^pFac me plagis vulnerári,^lcruce hac inebriári ,^let cruóre Fílii.^pFlammis urar ne succénsus,^lper te, Virgo, sim defénsus^lin die iudícii.^pFac me cruce custodíri,^lmorte Christi præmuníri,^lconfovéri grátia.^pQuando corpus moriétur,^lfac ut ánimæ donétur^lparadísi glória. Amen."
+      }
+  },
+  8921: {
+    0.0: {
+        "quote": "Matthäus lat Ld und Vp",
+        "title_lat": "Præclára qua tu glória",
+        "text_lat": "Præclára qua tu glória,^lLevi beáte, cíngeris,^llaus est Dei cleméntiæ,^lspes nostr>a ad indulgéntiam.^pTelóneo quand>o ássidens^lnummis inhǽres ánxius,^lMatthǽe, Christus ádvocans^lopes tibi quas prǽparat!^pIam cordis ardens ímpetu^lcurris, Magístrum súscipis,^lsermóne factus ínclito^lprinceps in urbe cǽlica.^pTu verba vitæ cólligens^lDavídque facta Fílii,^lper scripta linquis áurea^lcæléste mundo pábulum.^pChristum per orbem núntians^lconféssus atque sánguine,^ldilectiónis vívidæ^lsuprém>o honóras pígnore.^pO martyr atqu>e apóstole,^levangelísta nóbilis,^ltecum fac omn>e in sǽculum^lChristo canámus glóriam. Amen."
       }
   },
   8928: {
@@ -5590,14 +5646,27 @@ export const psalmsData = {
   },
   8929: {
     1.0: {
-        "title": "Christus, dir, dem Glanz des Vaters",
-        "quote": "Erzengel-Lh",
-        "text": "Christus, dir, dem Glanz des Vaters,^lder uns Kraft und Leben gibt,^lsingen wir mit Herz und Munde^lvor der Engel Angesicht,^lihrem Lobpreis, ihren Liedern^lschließen wir uns freudig an.^pWenn wir in Verehrung preisen^ldeines Himmels hohe Schar,^ldann zuerst den hehren Fürsten,^lder die Engel führt zum Kampf:^lMichael, der einst den Satan^lmit dem Schwerte niederzwang.^pChristus, König, sende huldvoll^ldiesen Helden uns zum Schutz,^lseine Kraft soll uns bewahren,^lbis dein großer Tag erscheint,^ldass wir wachend deiner warten,^lwenn du mit den Engeln kommst.^pLasst uns zu des Vaters Ehre^ljubelnd singen Lob und Preis,^lgleiche Ehre sei dem Sohne^lund dem Geist, der beide eint,^ldem dreieinen Gott sei Ehre^limmer und in Ewigkeit. Amen."
+        "quote": "Erzengel Lh",
+        "text_lat": "Festíva vos, archángeli,^lhæc nostra tollunt cántica,^lquos in supérna cúria^linsígnit ingens glória.^pTu nos, cohórtis cǽlicæ^linvícte princeps, Míchael,^ldextra corúsca róbora^lDeíque serva grátiæ.^pQui núntius deléctus es^lmysteriórum máximus,^lnos lucis usque, Gábriel,^lfac diligámus sémitas.^pNobis adésto, Ráphael,^lac pátriam peténtibus^lmorbos repélle córporum,^laffer salútem méntium.^pVosqu>e angelórum cándida^lnos adiuvétis ágmina,^lpossímus ut consórtio^lvestro beáti pérfrui.^pSummo Parént>i et Fílio^lhonor sit ac Paráclito,^lquos vester uno prǽdicat^lconcéntus hymno pérpetim. Amen."
       },
     2.0: {
+        "title": "Christus, dir, dem Glanz des Vaters",
+        "quote": "Erzengel-Ld/ dt: Lh",
+        "text": "Christus, dir, dem Glanz des Vaters,^lder uns Kraft und Leben gibt,^lsingen wir mit Herz und Munde^lvor der Engel Angesicht,^lihrem Lobpreis, ihren Liedern^lschließen wir uns freudig an.^pWenn wir in Verehrung preisen^ldeines Himmels hohe Schar,^ldann zuerst den hehren Fürsten,^lder die Engel führt zum Kampf:^lMichael, der einst den Satan^lmit dem Schwerte niederzwang.^pChristus, König, sende huldvoll^ldiesen Helden uns zum Schutz,^lseine Kraft soll uns bewahren,^lbis dein großer Tag erscheint,^ldass wir wachend deiner warten,^lwenn du mit den Engeln kommst.^pLasst uns zu des Vaters Ehre^ljubelnd singen Lob und Preis,^lgleiche Ehre sei dem Sohne^lund dem Geist, der beide eint,^ldem dreieinen Gott sei Ehre^limmer und in Ewigkeit. Amen.",
+        "text_lat": "Tibi, Christe, splendor Patris,^lvita, virtus córdium,^lin conspéctu angelórum^lvotis, voce psállimus;^lalternántes concrepándo^lmelos damus vócibus.^pCollaudámus venerántes^línclitos archángelos,^lsed præcípue primátem^lcæléstis exércitus,^lMichaélem in virtúte^lconteréntem Sátanam.^pQuo custóde procul pelle,^lrex Christe piíssime,^lomne nefas inimíci;^lmundos corde et córpore^lparadíso redde tuo^lnos sola cleméntia.^pGlóriam Patri melódis^lpersonémus vócibus,^lglóriam Christo canámus,^lglóriam Paráclito,^lqui Deus trinus et unus^lexstat ante sǽcula. Amen."
+      },
+    4.0: {
         "title": "Michael, kämpfe für die Ehre Gottes",
-        "quote": "Erzengel-Ld",
-        "text": "Michael, kämpfe^/für die Ehre Gottes,^lEngel des Friedens,^/banne Krieg und Unheil,^lschütze die Kirche,^/schütze die Erlösten^lvor allem Bösen.^pGabriel, künde Gottes^/Plan und Ratschluss,^lBote des Heiles,^/lehre uns, zu glauben^lund das Geheimnis,^/das du offenbartest,^lneu zu verkünden.^pRafael, heile^/Krankheit und Gebrechen,^llindre die Schmerzen,^/spende Trost und Hilfe,^lführe uns Blinde^/aus der Erde Dunkel^lzum Paradiese.^pChristus, du Freude^/aller heil’gen Engel,^lHeiland der Menschen,^/König der Erlösten,^llass uns auf ewig^/mit den Engeln singen:^lLob dem Dreieinen. Amen."
+        "quote": "Erzengel-Vp/ dt: Ld und Vp",
+        "text": "Michael, kämpfe^/für die Ehre Gottes,^lEngel des Friedens,^/banne Krieg und Unheil,^lschütze die Kirche,^/schütze die Erlösten^lvor allem Bösen.^pGabriel, künde Gottes^/Plan und Ratschluss,^lBote des Heiles,^/lehre uns, zu glauben^lund das Geheimnis,^/das du offenbartest,^lneu zu verkünden.^pRafael, heile^/Krankheit und Gebrechen,^llindre die Schmerzen,^/spende Trost und Hilfe,^lführe uns Blinde^/aus der Erde Dunkel^lzum Paradiese.^pChristus, du Freude^/aller heil’gen Engel,^lHeiland der Menschen,^/König der Erlösten,^llass uns auf ewig^/mit den Engeln singen:^lLob dem Dreieinen. Amen.",
+        "text_lat": "Angelum pacis Míchael ad istam,^lChriste, demítti rogitámus aulam,^lcuncta quo crebro veniénte crescant^lpróspera nobis.^pAngelus fortis Gábriel, ut hostem^lpellat antíquum, vólitet supérne,^lsǽpius templum cúpiens favéndo^lvísere nostrum.^pAngelum nobis médicum salútis^lmitte de cælis Ráphael, ut omnes^lsanet ægrótos paritérque nostros^ldírigat actus.^pChriste, sanctórum decus angelórum,^ladsit illórum chorus usque nobis,^lut simul tandem Tríadi per ævum^lcármina demus. Amen."
+      }
+  },
+  8930: {
+    0.0: {
+        "quote": "Hieronymus lat Ld und Vp",
+        "title_lat": "Festíva cánimus laude Hierónymum",
+        "text_lat": "Festíva cánimus laude Hierónymum,^lqui nobis rádiat sidus ut éminens^ldoctrínæ méritis ac simul áctibus^lvitæ fortis et ásperæ.^pHic verbum fídei sánctaque dógmata^lscrutándo stúduit pándere lúcide,^laut hostes, véhemens ut leo, cóncitus^lacri voce reféllere.^pInsúdans álacer prata viréntia^lScriptúræ cóluit cǽlitus éditæ;^lex his et lócuples dúlcia prótulit^lcunctis pábula grátiæ.^pDesérti cúpiens grata siléntia,^lad cunas Dómini pérvigil ástitit,^lut carnem crúcians se daret íntime^lPatri munus et hóstiam.^pTanti nos, pétimus te, Deus óptime,^ldoctóris précibus dírige, cónfove,^lut lætas líceat nos tib>i in ómnia^llaudes pángere sǽcula. Amen."
       }
   },
   9002: {

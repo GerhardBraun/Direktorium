@@ -3214,7 +3214,7 @@ export const adlibData = {
         "Lesehore": {
           "patr_autor": "Gregor von Nazianz (†°390)",
           "patr_werk": "Aus einer Rede über die Liebe zu den Armen.",
-          "patr_text": "^hMut zum Dienst an den Kranken^pWenn du gesund und wohlhabend bist, so lindere die Not des Kranken und Armen. Bist du nicht gefallen, so hilf dem, der gefallen und zerschlagen ist. Bist du fröhlich, nimm dich des Trauernden an. Blüht dir das Glück, so steh dem bei, der Unglück und Not leidet. Erzeige dich Gott dankbar, dass du zu denen gehörst, die anderen Gutes tun können, und nicht zu denen, welche die Wohltaten anderer nötig haben.^pNichts macht den Menschen Gott ähnlicher, als anderen wohlzutun, wenn auch der eine mehr, der andere weniger Wohltaten erweist, ein jeder, meine ich, nach seinen Kräften. Gott hat den Menschen erschaffen und nimmt ihn nach seinem Fall wieder auf; darum sollst du den Gefallenen nicht verachten. Gott hat ihm das größte Erbarmen erzeigt, indem er ihm das Gesetz und die Propheten gab, den (Alten) schattenhaften Bund und den (Neuen) Bund in der Wahrheit, die Gaben des Heiligen Geistes, das Geheimnis des neuen Heils.^pDu also, wenn du auch das Große vermagst, nämlich der Seele Gutes zu tun (denn auch hierin macht dich Gott reich, wenn du nur willst), versäume nicht, dem Bedürftigen auch diese Wohltaten zu erweisen. Wenn du jedoch zu solcher Gabe nicht fähig bist, so schenke wenigstens das Geringere, über das du verfügst: Leiste Hilfe, spende Nahrung, schenke ein abgelegtes Kleid, wende Heilmittel an, verbinde Wunden, erkundige dich nach dem Unglück des Nächsten, ermahne zur Geduld, fasse Mut, besuche die Notleidenden!^pDu vergibst dir dadurch nichts. Du wirst dich bestimmt nicht anstecken, wenn auch überängstliche Leute das meinen, weil sie sich durch dummes Gerede betören lassen, oder vielmehr, weil ihnen dies zum Vorwand für ihre Furchtsamkeit oder Gewissenlosigkeit dient, da sie ihre Zuflucht zur Feigheit nehmen, als sei diese etwas Großes und Kluges.^pDu aber, Knecht Christi, der du Gott und die Menschen liebst, dulde in dir nichts Unwürdiges. Mag auch der Krankenpflege etwas von Furcht und Bangigkeit anhaften, sei mutig im Glauben! Das Mitleid siege über die Feigheit, die Gottesfurcht über die Weichlichkeit. Frömmigkeit halte die fleischlichen Einwände nieder. Verachte deinen Bruder nicht und geh nicht an ihm vorüber; wende dich nicht von ihm ab wie von einem Greuel oder Makel oder sonst etwas, das man fliehen und verabscheuen müsste. Er ist ein Glied von dir, wenn er auch vom Unglück niedergebeugt ist. Der Arme ist dir wie Gott anvertraut {1#vgl.°Ps 10,14}.",
+          "patr_text": "^hMut zum Dienst an den Kranken^pWenn du gesund und wohlhabend bist, so lindere die Not des Kranken und Armen. Bist du nicht gefallen, so hilf dem, der gefallen und zerschlagen ist. Bist du fröhlich, nimm dich des Trauernden an. Blüht dir das Glück, so steh dem bei, der Unglück und Not leidet. Erzeige dich Gott dankbar, dass du zu denen gehörst, die anderen Gutes tun können, und nicht zu denen, welche die Wohltaten anderer nötig haben.^pNichts macht den Menschen Gott ähnlicher, als anderen wohlzutun, wenn auch der eine mehr, der andere weniger Wohltaten erweist, ein jeder, meine ich, nach seinen Kräften.^pGott hat den Menschen erschaffen und nimmt ihn nach seinem Fall wieder auf; darum sollst du den Gefallenen nicht verachten. Gott hat ihm das größte Erbarmen erzeigt, indem er ihm das Gesetz und die Propheten gab, den (Alten) schattenhaften Bund und den (Neuen) Bund in der Wahrheit, die Gaben des Heiligen Geistes, das Geheimnis des neuen Heils.^pDu also, wenn du auch das Große vermagst, nämlich der Seele Gutes zu tun (denn auch hierin macht dich Gott reich, wenn du nur willst), versäume nicht, dem Bedürftigen auch diese Wohltaten zu erweisen. Wenn du jedoch zu solcher Gabe nicht fähig bist, so schenke wenigstens das Geringere, über das du verfügst: Leiste Hilfe, spende Nahrung, schenke ein abgelegtes Kleid, wende Heilmittel an, verbinde Wunden, erkundige dich nach dem Unglück des Nächsten, ermahne zur Geduld, fasse Mut, besuche die Notleidenden!^pDu vergibst dir dadurch nichts. Du wirst dich bestimmt nicht anstecken, wenn auch überängstliche Leute das meinen, weil sie sich durch dummes Gerede betören lassen, oder vielmehr, weil ihnen dies zum Vorwand für ihre Furchtsamkeit oder Gewissenlosigkeit dient, da sie ihre Zuflucht zur Feigheit nehmen, als sei diese etwas Großes und Kluges.^pDu aber, Knecht Christi, der du Gott und die Menschen liebst, dulde in dir nichts Unwürdiges. Mag auch der Krankenpflege etwas von Furcht und Bangigkeit anhaften, sei mutig im Glauben! Das Mitleid siege über die Feigheit, die Gottesfurcht über die Weichlichkeit. Frömmigkeit halte die fleischlichen Einwände nieder.^pVerachte deinen Bruder nicht und geh nicht an ihm vorüber; wende dich nicht von ihm ab wie von einem Greuel oder Makel oder sonst etwas, das man fliehen und verabscheuen müsste. Er ist ein Glied von dir, wenn er auch vom Unglück niedergebeugt ist. Der Arme ist dir wie Gott anvertraut {1#vgl.°Ps 10,14}.",
           "patr_resp1": "Ich war hungrig, und ihr habt mir zu essen gegeben; ich war durstig, und ihr habt mir zu trinken gegeben; ich war krank, und ihr habt mich besucht.",
           "patr_resp2": "Was ihr für einen meiner geringsten Brüder getan habt, das habt ihr mir getan.",
           "patr_resp3": "Kommt her, die ihr von meinem Vater gesegnet seid, nehmt das Reich in Besitz."
@@ -3234,7 +3234,7 @@ export const adlibData = {
         "Lesehore": {
           "patr_autor": "Stephan von Ungarn (†°1038)",
           "patr_werk": "Aus einem Mahnschreiben an seinen Sohn.",
-          "patr_text": "^hMein Sohn, höre auf die Lehre deines Vaters^pMein Sohn, wenn du der Königskrone Ehre machen willst, befehle und rate ich dir, den katholischen und apostolischen Glauben gewissenhaft und sorgsam zu wahren, damit du allen, die Gott dir als Untertanen anvertraut hat, ein gutes Beispiel gibst und dich alle Männer der Kirche mit Recht einen wirklichen Mann des christlichen Bekenntnisses nennen können. Denn ohne dieses Bekenntnis, dessen bin ich sicher, bist du kein Christ und kein Sohn der Kirche. Im Königspalast hat die Kirche nach dem Glauben den zweiten Rang; denn sie wurde von Christus, unserem Haupt, gegründet, dann durch seine Apostel und die heiligen Väter weiterverbreitet, gefestigt und über den ganzen Erdkreis ausgedehnt. Obgleich sie immer neue Nachkommen hervorbringt, ist sie doch an manchen Orten schon eine alte Kirche.^pDoch in unserem Reich, lieber Sohn, gilt sie immer noch als ganz jung und neu. Sie braucht darum eine besonders kluge und umsichtige Betreuung. Das Gute, das Gott uns in seiner Barmherzigkeit ohne unser Verdienst gewährt hat, darfst du nicht durch Trägheit, Unlust und Nachlässigkeit zerstören.^pGeliebter Sohn, Freude meines Herzens, du Hoffnung derer, die nach uns kommen, ich bitte dich und gebiete dir: sei nicht nur gütig gegen Verwandte und Angehörige, gegen Fürsten, Führer und reiche Leute, sondern auch gegen Fremde und alle, die zu dir kommen. Taten der Güte führen dich zur höchsten Glückseligkeit. Sei gnädig gegen alle, die Gewalt erleiden, und erwäge dabei immer das Beispiel des Herrn in deinem Herzen: „Liebe will ich, nicht Schlachtopfer“ {1#Hos 6,6}. Habe Geduld nicht allein mit den Mächtigen, sondern auch mit dem Machtlosen.^pSei stark, damit das Glück dich nicht übermütig und das Unglück nicht niedergeschlagen macht. Sei demütig, damit Gott dich erhöht, jetzt und in Zukunft. Sei maßvoll, strafe und verurteile nicht maßlos. Sei milde, damit du niemals der Gerechtigkeit widerstreitest. Sei edel und kränke keinen unbedacht. Sei schamhaft und meide üble Begierden wie den Stachel des Todes. Aus alldem, was ich gesagt habe, setzt sich die Königskrone zusammen. Ohne all das kann niemand hier auf Erden herrschen, niemand zum ewigen Reich gelangen.",
+          "patr_text": "^hMein Sohn, höre auf die Lehre deines Vaters^pMein Sohn, wenn du der Königskrone Ehre machen willst, befehle und rate ich dir, den katholischen und apostolischen Glauben gewissenhaft und sorgsam zu wahren, damit du allen, die Gott dir als Untertanen anvertraut hat, ein gutes Beispiel gibst und dich alle Männer der Kirche mit Recht einen wirklichen Mann des christlichen Bekenntnisses nennen können. Denn ohne dieses Bekenntnis, dessen bin ich sicher, bist du kein Christ und kein Sohn der Kirche.^pIm Königspalast hat die Kirche nach dem Glauben den zweiten Rang; denn sie wurde von Christus, unserem Haupt, gegründet, dann durch seine Apostel und die heiligen Väter weiterverbreitet, gefestigt und über den ganzen Erdkreis ausgedehnt. Obgleich sie immer neue Nachkommen hervorbringt, ist sie doch an manchen Orten schon eine alte Kirche.^pDoch in unserem Reich, lieber Sohn, gilt sie immer noch als ganz jung und neu. Sie braucht darum eine besonders kluge und umsichtige Betreuung. Das Gute, das Gott uns in seiner Barmherzigkeit ohne unser Verdienst gewährt hat, darfst du nicht durch Trägheit, Unlust und Nachlässigkeit zerstören.^pGeliebter Sohn, Freude meines Herzens, du Hoffnung derer, die nach uns kommen, ich bitte dich und gebiete dir: Sei nicht nur gütig gegen Verwandte und Angehörige, gegen Fürsten, Führer und reiche Leute, sondern auch gegen Fremde und alle, die zu dir kommen. Taten der Güte führen dich zur höchsten Glückseligkeit. Sei gnädig gegen alle, die Gewalt erleiden, und erwäge dabei immer das Beispiel des Herrn in deinem Herzen: „Liebe will ich, nicht Schlachtopfer“ {1#Hos 6,6}. Habe Geduld nicht allein mit den Mächtigen, sondern auch mit dem Machtlosen.^pSei stark, damit das Glück dich nicht übermütig und das Unglück nicht niedergeschlagen macht.^lSei demütig, damit Gott dich erhöht, jetzt und in Zukunft.^lSei maßvoll, strafe und verurteile nicht maßlos.^lSei milde, damit du niemals der Gerechtigkeit widerstreitest.^lSei edel und kränke keinen unbedacht.^lSei schamhaft und meide üble Begierden wie den Stachel des Todes.^pAus alldem, was ich gesagt habe, setzt sich die Königskrone zusammen. Ohne all das kann niemand hier auf Erden herrschen, niemand zum ewigen Reich gelangen.",
           "patr_resp1": "Übe Barmherzigkeit Tag um Tag!",
           "patr_resp2": "Wenn du gibst, zeige ein frohes Gesicht.",
           "patr_resp3": "Gib dem Höchsten, was er selbst dir gegeben hat."
@@ -3557,7 +3557,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Hirten_Kl",
           "comm_2": "Hirten",
-          "oration": "Gott, du bist deinem Volk gnädig und leitest es in Liebe. Höre auf die Fürsprache des heiligen Papstes Gregor und schenke allen, die in der Kirche am Amt der Leitung teilhaben, den Geist der Weisheit, damit dein Volk wachse und seinen Hirten zur ewigen Freude werde.^ORV"
+          "oration": "Gott, du bist deinem Volk gnädig und leitest es in Liebe. Höre auf die Fürsprache des heiligen Papstes Gregor und schenke allen, die in der Kirche am Amt der Leitung teilhaben, den Geist der Weisheit, damit dein Volk wachse und seinen Hirten zur ewigen Freude werde.^ORV",
+          "oration_lat": "Deus, qui pópulis tuis indulgéntia cónsulis et amóre domináris, da spíritum sapiéntiæ, intercedénte beáto Gregório papa, quibus dedísti régimen disciplínæ, ut de proféctu sanctárum óvium fiant gáudia ætérna pastórum.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Gregor der Große († 604)",
@@ -3571,10 +3572,14 @@ export const adlibData = {
           "button": "Hl. Gregor der Große",
           "genitiv": "des heiligen Gregor",
           "vokativ": "Heiliger Gregor",
-          "antev": "Als guter Hirt seiner Herde hat Gregor der Kirche das Beispiel seines Lebens hinterlassen und die Weisung seiner Lehre."
+          "antev": "Als guter Hirt seiner Herde hat Gregor der Kirche das Beispiel seines Lebens hinterlassen und die Weisung seiner Lehre.",
+          "antev_lat": "Pastor exímius Gregórius pastorális vitæ spécimen trádidit et régulam.",
+          "hymn_1_lat": 8903.0
         },
         "Vesper": {
-          "antev": "Was Gregor predigte, hat er in seinem Tun verwirklicht; und das Geheimnis Christi, das er verkündete, hat er in seinem Leben sichtbar gemacht."
+          "antev": "Was Gregor predigte, hat er in seinem Tun verwirklicht; und das Geheimnis Christi, das er verkündete, hat er in seinem Leben sichtbar gemacht.",
+          "antev_lat": "Gregórius præsul implébat actu quidquid sermóne docébat, ut esset exémplum mýstica verba loquens.",
+          "hymn_1_lat": 8903.0
         }
       }
     },
@@ -3595,7 +3600,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Hirten",
           "comm_2": "Mann_Liebe",
-          "oration": "Barmherziger Gott, du hast den heiligen Petrus Claver zum Sklaven für die Sklaven gemacht und ihm die Kraft gegeben, ihnen mit wunderbarer Liebe und Geduld zu helfen. Auf seine Fürsprache lass auch nach dem streben, was Jesus Christus angehört, und in Tat und Wahrheit die Nächsten lieben.^ORvR"
+          "oration": "Barmherziger Gott, du hast den heiligen Petrus Claver zum Sklaven für die Sklaven gemacht und ihm die Kraft gegeben, ihnen mit wunderbarer Liebe und Geduld zu helfen. Auf seine Fürsprache lass auch nach dem streben, was Jesus Christus angehört, und in Tat und Wahrheit die Nächsten lieben.^ORvR",
+          "oration_lat": "Deus, qui beátum Petrum servórum servum effecísti eúmque mira in eis iuvándis caritáte et patiéntia roborásti, eius nobis intercessióne concéde, ut, quæ Iesu Christi sunt, quæréntes, próximos ópere et veritáte diligámus.^ORlvR"
         },
         "Laudes": {
           "button": "Hl. Petrus Claver",
@@ -3608,7 +3614,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Maria",
-          "oration": "Gott, unser Retter, der Name der seligen Jungfrau Maria ist für uns ein Zeichen der Hoffnung geworden. Befreie uns auf ihre Fürsprache aus allen Gefahren und vollende an uns das Werk der Erlösung.^ORV"
+          "oration": "Gott, unser Retter, der Name der seligen Jungfrau Maria ist für uns ein Zeichen der Hoffnung geworden. Befreie uns auf ihre Fürsprache aus allen Gefahren und vollende an uns das Werk der Erlösung.^ORV",
+          "oration_lat": "Concéde, quǽsumus, omnípotens Deus, ut cunctis gloriósum beátæ Maríæ Vírginis nomen celebrántibus, misericórdiæ tuæ benefícia ipsa procúret.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Bernhard von Clairvaux (†°1153)",
@@ -3629,7 +3636,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Hirten_Kl",
           "comm_2": "Hirten",
-          "oration": "Gott, du Stärke aller, die auf dich vertrauen. Du hast dem heiligen Johannes Chrysostomus die Gabe der Rede geschenkt und ihm in den Bedrängnissen seines Lebens geholfen. Belehre uns durch sein Wort und ermutige uns durch sein Vorbild.^ORV"
+          "oration": "Gott, du Stärke aller, die auf dich vertrauen. Du hast dem heiligen Johannes Chrysostomus die Gabe der Rede geschenkt und ihm in den Bedrängnissen seines Lebens geholfen. Belehre uns durch sein Wort und ermutige uns durch sein Vorbild.^ORV",
+          "oration_lat": "Deus, in te sperántium fortitúdo, qui beátum Ioánnem Chrysóstomum epíscopum mira eloquéntia et tribulatiónis experiménto claréscere voluísti, da nobis, quǽsumus, ut, eius doctrínis erudíti, invíctæ patiéntiæ roborémur exémplo.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Johannes Chrysostomus († 407)",
@@ -3642,7 +3650,11 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Johannes Chrysostomus",
           "genitiv": "des heiligen Johannes Chrysostomus",
-          "vokativ": "Heiliger Johannes Chrysostomus"
+          "vokativ": "Heiliger Johannes Chrysostomus",
+          "hymn_1_lat": 8913.0
+        },
+        "Vesper": {
+          "hymn_1_lat": 8913.0
         }
       }
     },
@@ -3651,24 +3663,27 @@ export const adlibData = {
         "major": {
           "comm_1": "MärtPl",
           "comm_2": "Hirten",
-          "oration": "Ewiger Gott, du hast deiner Kirche in den heiligen Bischöfen Kornelius und Cyprian eifrige Hirten geschenkt und ihnen die Kraft gegeben, treu bis in den Tod ihren Glauben zu bekennen. Höre auf ihre Fürsprache und festige unseren Glauben, damit wir bereit sind, für die Einheit der Kirche zu beten und zu arbeiten.^ORV"
+          "oration": "Ewiger Gott, du hast deiner Kirche in den heiligen Bischöfen Kornelius und Cyprian eifrige Hirten geschenkt und ihnen die Kraft gegeben, treu bis in den Tod ihren Glauben zu bekennen. Höre auf ihre Fürsprache und festige unseren Glauben, damit wir bereit sind, für die Einheit der Kirche zu beten und zu arbeiten.^ORV",
+          "oration_lat": "Deus, qui pópulo tuo beátos Cornélium et Cypriánum sédulos pastóres et invíctos mártyres præstitísti, concéde, ut, eórum intercessióne, fide et constántia roborémur, et pro Ecclésiæ unitáte óperam tribuámus impénse.^OrlV"
         },
         "Lesehore": {
-          "patr_autor": "LEER",
-          "patr_werk": "Aus den Akten über das Martyrium des heiligen Cyprian.",
-          "patr_text": "^hCyprian starb unter der Königsherrschaft Jesu Christi^pAm 18. Tag vor den Kalenden des Monats Oktober (14. September) kam auf Befehl des Prokonsuls Galerius Maximus viel Volk morgens früh zum Ager Sexti. Der Prokonsul saß an diesem Tag im Atrium Sauciolum zu Gericht und ließ den Cyprian vor sich bringen. Als er vorgeführt war, sagte der Prokonsul Galerius Maximus zum Bischof Cyprian: „Du bist Thascius Cyprianus?“ Der Bischof Cyprian antwortete: „Ich bin es.“ Der Prokonsul Galerius Maximus sagte: „Du hast dich gottlos gesinnten Menschen als Papst zur Verfügung gestellt.“ Der Bischof Cyprian antwortete: „Ja, ich habe es getan!“ Der Prokonsul Galerius Maximus sagte: „Die heiligen Kaiser haben dir befohlen zu opfern.“ Der Bischof Cyprian erwiderte: „Das tue ich nicht!“ Galerius Maximus sagte: „Überlege es dir!“ Der Bischof Cyprian antwortete: „Tu, was dir befohlen ist; in einer so gerechten Sache gibt es nichts zu überlegen.“^pGalerius Maximus besprach sich mit seinen Räten und gab dann widerwillig das Urteil ab mit den Worten: „Du hast lange in einem ruchlosen Geist gelebt, viele Menschen in einer ruchlosen Verschwörung um dich versammelt und dich zum Feind der römischen Götter und der heiligen Bräuche gemacht. Die frommen und heiligen Fürsten, die Kaiser Valerianus und Gallienus und der erlauchte Unterkaiser Valerianus konnten dich nicht zur Gemeinschaft ihrer heiligen Riten zurückrufen. Da du also als Urheber und Rädelsführer schlimmer Verbrechen erfasst bist, soll – für diese, die du für deinen Frevel gewonnen hast, zum warnenden Beispiel – die heilige Ordnung mit deinem Blut bestätigt werden.“ Nach diesen Worten verlas er aus der Tabelle das Urteil: „Thascius Cyprianus soll mit dem Schwert hingerichtet werden.“ Der Bischof Cyprian sprach: „Dank sei Gott!“^pNach diesem Urteilsspruch sagte die Schar der Brüder: „Auch wir wollen mit ihm enthauptet werden.“ Darum gab es laute Unruhe unter den Brüdern, und eine große Menge folgte ihm. So wurde Cyprian zum Ager Sexti geführt. Dort legte er den roten Mantel ab, kniete nieder und warf sich zu Boden, um zum Herrn zu beten. Dann zog er die Dalmatik aus und reichte sie den Diakonen. Nun stand er im Linnengewand da und wartete auf den Scharfrichter. Als dieser kam, gebot Cyprian den Seinen, ihm 25 Goldstücke zu reichen. Leintücher und Handbinden wurden ihm von den Brüdern hingehalten. Dann verband sich Cyprian mit eigener Hand die Augen. Da er sich die Streifen für die Hände nicht selbst binden konnte, banden sie ihm der Presbyter Julian und der Subdiakon Julian.^pSo litt der heilige Cyprian. Wegen der Neugierde der Heiden wurde der Leib in der Nähe beigesetzt. Von dort holte man ihn bei Nacht mit Kerzen und Fackeln ab und brachte ihn unter Gebet in großem Triumphzug zur Grabstätte des Prokurators Macrobius Candidus, die an der Straße nach Mappalia bei den Fischteichen liegt. Der Prokonsul Galerius Maximus starb wenige Tage später.^pDer heilige Märtyrer Cyprian starb am 18. Tag vor den Kalenden des Oktobers (14. September) unter den Kaisern Valerian und Gallienus, unter der Königsherrschaft Jesu Christi, dem Ehre und Herrlichkeit ist in Ewigkeit. Amen.",
-          "patr_resp1": "Wenn wir in der Schlacht stehen und für den Glauben kämpfen, schaut Gott auf uns herab",
-          "patr_resp2": "Zuschauer sind die Engel, und auch Christus blickt auf uns",
-          "patr_resp3": "Wir wollen uns wappnen mit aller Kraft und uns zum Kampf rüsten mit lauterem Gewissen, zuversichtlichem Glauben und liebender Tugend"
+          "patr_autor": "^A:Sept16:Cyprian von Karthago (†°258)",
+          "patr_werk": "Aus einem Brief an Papst Kornelius.",
+          "patr_text": "^hEntschlossener und fester Glaube^pTeurer Bruder, wir kennen das leuchtende Beispiel eures Glaubens und eurer Tugend. Mit Jubel haben wir Kunde von eurem ehrenvollen Bekenntnis erhalten, so dass auch wir zu denen gehören möchten, die an euren Verdiensten und an eurem Lob freundschaftlich teilhaben.^pDa wir eine einzige Kirche sind und uns Einheit des Geistes und unzertrennliche Eintracht verbinden, welcher Priester sollte sich da nicht zum Lob des Mitpriesters beglückwünschen, als wäre es sein eigener Ruhm, oder wer sollte sich nicht überall über das Glück des Bruders freuen?^pIch kann es nicht oft genug sagen, wie groß hier der Jubel und die Freude waren, als wir von eurem Glück und eurer Stärke hörten: Du warst beim Bekenntnis an der Spitze der Brüder. Aber das Bekenntnis dessen, der die Brüder führte, wuchs noch an deren Bekenntnis. Indem du zur Herrlichkeit voranschreitest, machst du viele zu Gefährten deines Ruhmes, und du gewinnst das Volk dafür, ein Volk von Bekennern zu werden, indem du als erster zum Bekenntnis für alle bereit bist.^pWir wissen nicht, was wir zuerst preisen sollen, deinen entschlossenen und festen Glauben oder die unzertrennliche Liebe der Brüder. Da wurde die Kraft des voranschreitenden Bischofs erwiesen und die Einheit der ihm folgenden Brüder offenbar. Da es bei euch nur EIN Herz und EINE Stimme gibt, so hat die ganze Kirche von Rom Bekenntnis abgelegt.^pLieber Bruder, der Glaube, den der heilige Apostel an euch gepriesen hat, ist aufgeleuchtet. Er sah schon damals im Geist dieses Lob der Tugend und die kraftvolle Festigkeit voraus, und indem er im Hinweis auf die Zukunft eure Heiligkeit pries, lobte er die Eltern und forderte die Kinder heraus. Da ihr so einmütig und tapfer seid, gabt ihr auch den übrigen Brüdern ein großes Beispiel der Einmütigkeit und Tapferkeit.^pTeurer Bruder, sosehr wir können, wollen wir uns in der gegenseitigen Liebe, mit der wir aneinander hängen, Mut machen. Die Vorsehung des Herrn redet uns zu und gibt uns Weisung. Die heilbringenden Ratschlüsse der göttlichen Barmherzigkeit mahnen uns, dass der Tag unseres Streites und Wettkampfes herannaht und dass wir nicht aufhören dürfen, mit dem ganzen Volk in Fasten, Nachtwachen und Gebeten zu verharren. Denn das sind unsere himmlischen Waffen, die uns Kraft geben, festzustehen und tapfer auszuhalten. Das ist der geistige Schutzwall, das sind die göttlichen Pfeile, die uns schützen.^pWir wollen einträchtig und einmütig aneinander denken. Hier wie dort wollen wir immer füreinander beten und uns Bedrängnis und Not durch gegenseitige Liebe leichter machen.",
+          "patr_resp1": "Wenn wir in der Schlacht stehen und für den Glauben kämpfen, schaut Gott auf uns herab. Zuschauer sind die Engel, und auch Christus blickt auf uns.",
+          "patr_resp2": "Welch erhabene Herrlichkeit, welche Glückseligkeit, in der Gegenwart Gottes zu kämpfen und von Christus, dem Richter, den Siegeskranz zu empfangen!",
+          "patr_resp3": "Wir wollen uns wappnen mit aller Kraft und uns zum Kampf rüsten mit lauterem Geist, zuversichtlichem Glauben und liebender Tugend."
         },
         "Laudes": {
           "button": "Hl. Kornelius und hl. Cyprian",
           "farbe": "r",
           "genitiv": "der Heiligen Kornelius und Cyprian",
-          "antev": "O kostbarer Tod, der um den Preis des Blutes die Unsterblichkeit erkauft!"
+          "antev": "O kostbarer Tod, der um den Preis des Blutes die Unsterblichkeit erkauft!",
+          "antev_lat": "Pretiósa mors, quæ emit immortalitátem prétio sui sánguinis!"
         },
         "Vesper": {
-          "antev": "Selig bist du zu preisen, heilige Kirche, in dir leuchtet das Blut der Märtyrer Christi."
+          "antev": "Selig bist du zu preisen, heilige Kirche, in dir leuchtet das Blut der Märtyrer Christi.",
+          "antev_lat": "O beátam Ecclésiam nostram, quam gloriósus mártyrum Christi sanguis illústrat!"
         }
       }
     },
@@ -3677,7 +3692,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Jgfr_Kl",
           "comm_2": "Frau_Ord",
-          "oration": "Gott, du Quelle des Lebens, du hast die heilige Hildegard mit prophetischem Geist erfüllt. Hilf uns, nach ihrem Vorbild über deine Wege nachzusinnen und deiner Führung zu folgen, damit wir in der Dunkelheit dieser Welt das Licht deiner Klarheit erkennen.^ORV"
+          "oration": "Gott, du Quelle des Lebens, du hast die heilige Hildegard mit prophetischem Geist erfüllt. Hilf uns, nach ihrem Vorbild über deine Wege nachzusinnen und deiner Führung zu folgen, damit wir in der Dunkelheit dieser Welt das Licht deiner Klarheit erkennen.^ORV",
+          "oration_lat": "Deus, fons vitæ, qui sanctam Hildegárdem, vírginem, prophético spíritu imbuísti, fac nos, quǽsumus, eius exémplo et intercessióne, vias tuas scire et in huius sǽculi calígine lucis tuæ claritátem cognóscere.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Hildegard von Bingen (†°1179)",
@@ -3697,7 +3713,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Hirten_Kl",
           "comm_2": "Hirten",
-          "oration": "Ewiger Gott, du hast uns im heiligen Robert Bellarmin einen Bischof und Gelehrten geschenkt, der durch seine Schriften den Glauben der Kirche gefestigt hat. Höre auf seine Fürsprache und hilf deinem Volk, diesen Glauben in seiner ganzen Fülle zu bewahren und weiterzugeben.^ORV"
+          "oration": "Ewiger Gott, du hast uns im heiligen Robert Bellarmin einen Bischof und Gelehrten geschenkt, der durch seine Schriften den Glauben der Kirche gefestigt hat. Höre auf seine Fürsprache und hilf deinem Volk, diesen Glauben in seiner ganzen Fülle zu bewahren und weiterzugeben.^ORV",
+          "oration_lat": "Deus, qui, ad tuæ fidem Ecclésiæ vindicándam, beátum Robértum epíscopum mira eruditióne et virtúte decorásti, eius intercessióne concéde, ut pópulus tuus eiúsdem fídei semper integritáte lætétur.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Robert Bellarmin (†°1621)",
@@ -3719,7 +3736,8 @@ export const adlibData = {
         "major": {
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
-          "oration": "Gott, von dem alles Gute kommt, aus Liebe zu dir hat der heilige Bischof und Märtyrer Lambert Besitz und Leben geringgeachtet. Gib uns auf seine Fürsprache die Freiheit des Geistes, damit wir uns ohne Zögern deiner Führung überlassen.^ORV"
+          "oration": "Gott, von dem alles Gute kommt, aus Liebe zu dir hat der heilige Bischof und Märtyrer Lambert Besitz und Leben geringgeachtet. Gib uns auf seine Fürsprache die Freiheit des Geistes, damit wir uns ohne Zögern deiner Führung überlassen.^ORV",
+          "oration_lat": "comm:Deus, qui beátum epíscopum et mártyrem Lambertum ad pascéndum pópulum tuum spíritu veritátis et dilectiónis implevísti, præsta, ut, cuius festivitátem venerándo ágimus, eius imitatióne proficiámus et intercessióne sublevémur.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Petrus Kanisius (†°1597)",
@@ -3741,7 +3759,8 @@ export const adlibData = {
         "major": {
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
-          "oration": "Ewiger Gott, du lässt uns heute den Gedenktag des heiligen Bischofs und Blutzeugen Januarius begehen. Gib uns den festen Glauben dieses Märtyrers und führe auch uns zur ewigen Freude.^ORV"
+          "oration": "Ewiger Gott, du lässt uns heute den Gedenktag des heiligen Bischofs und Blutzeugen Januarius begehen. Gib uns den festen Glauben dieses Märtyrers und führe auch uns zur ewigen Freude.^ORV",
+          "oration_lat": "Deus, qui nos concédis beáti Ianuárii mártyris memóriam venerári, da nobis in ætérna beatitúdine de eius societáte gaudére.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Augustinus (†°430)",
@@ -3762,7 +3781,8 @@ export const adlibData = {
       "eig": {
         "major": {
           "comm_1": "MärtPl",
-          "oration": "Gott, du hast die Zahl derer, die du als deine Kinder erwählt hast, auf dem ganzen Erdkreis vermehrt, und das Blut der heiligen Märtyrer Andreas und Gefährten hast du zum überreichen Samen für die Christen werden lassen. Gewähre, dass wir durch ihren Beistand gestärkt werden und durch ihr Beispiel unablässig im Glauben voranschreiten.^ORV"
+          "oration": "Gott, du hast die Zahl derer, die du als deine Kinder erwählt hast, auf dem ganzen Erdkreis vermehrt, und das Blut der heiligen Märtyrer Andreas und Gefährten hast du zum überreichen Samen für die Christen werden lassen. Gewähre, dass wir durch ihren Beistand gestärkt werden und durch ihr Beispiel unablässig im Glauben voranschreiten.^ORV",
+          "oration_lat": "Deus, ómnium géntium creátor et salus, qui in Coreána regióne ad cathólicam fidem pópulum adoptiónis mirabíliter vocásti atque sanctórum mártyrum Andréæ, Páuli ac sociórum gloriósa confessióne créscere fecísti, eórum exémplo et intercessióne concéde, ut nos quoque in mandátis tuis usque ad mortem perseveráre valeámus."
         },
         "Laudes": {
           "button": "Hl. Andreas Kim Taegon, hl. Paulus Chong Hasang und Gefährten",
@@ -3771,11 +3791,30 @@ export const adlibData = {
         }
       }
     },
+    "21": {
+      "eig": {
+        "major": {
+          "comm_1": "Apostel",
+          "oration_lat": "Deus, qui ineffábili misericórdia beátum Matthǽum ex publicáno Apóstolum es dignátus elígere, da nobis, eius exémplo et intercessióne suffúltis, ut, te sequéntes, tibi fírmiter adhærére mereámur.^ORlV"
+        },
+        "Laudes": {
+          "button": "Hl. Mattäus",
+          "farbe": "r",
+          "antev_lat": "Vidit Iesus hóminem sedéntem in telóneo, Matthǽum nómine; et ait illi: Séquere me. Et surgens secútus est eum.",
+          "hymn_1_lat": 8921.0
+        },
+        "Vesper": {
+          "antev_lat": "Misericórdiam volo, et non sacrifícium, dicit Dóminus; non enim veni vocáre iustos, sed peccatóres.",
+          "hymn_1_lat": 8921.0
+        }
+      }
+    },
     "22": {
       "n1": {
         "major": {
           "comm_1": "MärtPl",
-          "oration": "Herr, unser Gott, du hast dem heiligen Märtyrer Mauritius und seinen Gefährten die Kraft gegeben, dem Glauben an Christus treu zu bleiben. Gib auch uns den Mut, dir mehr zu gehorchen als den Menschen.^ORV"
+          "oration": "Herr, unser Gott, du hast dem heiligen Märtyrer Mauritius und seinen Gefährten die Kraft gegeben, dem Glauben an Christus treu zu bleiben. Gib auch uns den Mut, dir mehr zu gehorchen als den Menschen.^ORV",
+          "oration_lat": "comm:Omnípotens sempitérne Deus, qui beáto Maurítio et eius sóciis usque ad mortem pro iustítia certáre tribuísti, fac nos, eórum intercessione, pro amóre tuo ómnia advérsa toleráre et ad te, qui solus es vita, tota virtúte properáre.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Eucherius von Lyon (†°um 450)",
@@ -3796,7 +3835,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Mann_Ord",
           "comm_2": "Hirten",
-          "oration": "Allmächtiger, ewiger Gott, durch eine einzigartige Gnade hast du den heiligen Pater Pio gewürdigt, am Kreuzesleiden deines Sohnes teilzuhaben und durch seinen Dienst deine Barmherzigkeit auf wunderbare Weise zu erneuern. Gewähre uns auf seine Fürsprache, stets vereint mit den Leiden Christi, freudig zur Herrlichkeit der Auferstehung zu gelangen.^ORV"
+          "oration": "Allmächtiger, ewiger Gott, durch eine einzigartige Gnade hast du den heiligen Pater Pio gewürdigt, am Kreuzesleiden deines Sohnes teilzuhaben und durch seinen Dienst deine Barmherzigkeit auf wunderbare Weise zu erneuern. Gewähre uns auf seine Fürsprache, stets vereint mit den Leiden Christi, freudig zur Herrlichkeit der Auferstehung zu gelangen.^ORV",
+          "oration_lat": "Omnípotens sempitérne Deus, qui sanctum Pium, presbýterum, crucis Filii tui singulári grátia partícipem esse donásti, et per eius ministérium misericórdiæ tuæ mirabília renovásti, concéde nobis, ut, eius intercessióne, passiónibus Christi iúgiter sociáti ad resurrectiónis glóriam felíciter perducámur."
         },
         "Laudes": {
           "button": "Hl. Pius von Pietrelcina",
@@ -3858,7 +3898,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "MärtPl",
-          "oration": "Erhabener Gott, am Gedenktag der heiligen Märtyrer Kosmas und Damian preisen wir deine Macht und Güte. Du hast ihnen ewigen Ruhm geschenkt, uns aber gewähre immer neu deine Hilfe.^ORV"
+          "oration": "Erhabener Gott, am Gedenktag der heiligen Märtyrer Kosmas und Damian preisen wir deine Macht und Güte. Du hast ihnen ewigen Ruhm geschenkt, uns aber gewähre immer neu deine Hilfe.^ORV",
+          "oration_lat": "Magníficet te, Dómine, sanctórum tuórum Cosmæ et Damiáni veneránda memória, quia et illis glóriam sempitérnam, et opem nobis ineffábili providéntia contulísti.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Augustinus (†°430)",
@@ -3880,7 +3921,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Hirten",
           "comm_2": "Mann_Liebe",
-          "oration": "Barmherziger Gott, du hast den heiligen Vinzenz von Paul berufen, den Armen zu helfen und für die Ausbildung guter Priester zu sorgen. Schenke auch uns apostolischen Eifer; hilf uns, die Not der Armen zu sehen, und mach uns bereit, ihnen zu helfen.^ORV"
+          "oration": "Barmherziger Gott, du hast den heiligen Vinzenz von Paul berufen, den Armen zu helfen und für die Ausbildung guter Priester zu sorgen. Schenke auch uns apostolischen Eifer; hilf uns, die Not der Armen zu sehen, und mach uns bereit, ihnen zu helfen.^ORV",
+          "oration_lat": "Deus, qui ad salútem páuperum et cleri institutiónem beátum Vincéntium presbýterum virtútibus apostólicis imbuísti, præsta, quǽsumus, ut, eódem spíritu fervéntes, et amémus quod amávit, et quod dócuit operémur.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Vinzenz von Paul († 1660)",
@@ -3894,7 +3936,8 @@ export const adlibData = {
           "button": "Hl. Vinzenz von Paul",
           "nominativ": "Der heilige Vinzenz",
           "genitiv": "des heiligen Vinzenz",
-          "antev": "Vinzenz, ein Freund der Armen, tröstete die Trauernden, sorgte für die Witwen und trat für die Waisen ein."
+          "antev": "Vinzenz, ein Freund der Armen, tröstete die Trauernden, sorgte für die Witwen und trat für die Waisen ein.",
+          "antev_lat": "Erat Vincéntius consolátor mæréntium, insígnis defénsor pupillórum, ac viduárum munerátor."
         },
         "Vesper": {
           "antev": "Was ihr dem Geringsten meiner Brüder getan habt, das habt ihr mir getan."
@@ -3905,7 +3948,8 @@ export const adlibData = {
       "eig": {
         "major": {
           "comm_1": "Hirten_Kl",
-          "oration": "Allmächtiger Gott, du hast den heiligen Hieronymus mit leidenschaftlicher Liebe zur Heiligen Schrift erfüllt. Öffne auch unser Herz für dein Wort, damit wir darin die Quelle des Lebens finden.^ORV"
+          "oration": "Allmächtiger Gott, du hast den heiligen Hieronymus mit leidenschaftlicher Liebe zur Heiligen Schrift erfüllt. Öffne auch unser Herz für dein Wort, damit wir darin die Quelle des Lebens finden.^ORV",
+          "oration_lat": "Deus, qui beáto Hierónymo presbýtero suávem et vivum Scriptúræ sacræ afféctum tribuísti, da, ut pópulus tuus verbo tuo ubérius alátur, et in eo fontem vitæ invéniat."
         },
         "Lesehore": {
           "patr_autor": "Hieronymus († 419/420)",
@@ -3918,7 +3962,11 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Hieronymus",
           "genitiv": "des heiligen Hieronymus",
-          "vokativ": "Heiliger Hieronymus"
+          "vokativ": "Heiliger Hieronymus",
+          "hymn_1_lat": 8930.0
+        },
+        "Vesper": {
+          "hymn_1_lat": 8930.0
         }
       }
     }
