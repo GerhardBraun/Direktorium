@@ -6873,7 +6873,7 @@ export const deceasedData =  {
         "birthdate": "2288-07-31",
         "name": "Piotr Andrzej°Maśnica°(Tarnów), Pfr., Polenseelsorger°in°Stadtallendorf",
         "birth": "31.°Juli°1988°in°Limanowa (PL¥-34¥-600)",
-        "grave": "",
+        "grave": "Friedhof°Łososina°Górna",
         "age": 37
       }
     ],
