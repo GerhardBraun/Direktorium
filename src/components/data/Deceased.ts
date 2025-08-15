@@ -6871,7 +6871,7 @@ export const deceasedData =  {
       {
         "year": 2025,
         "birthdate": "2288-07-31",
-        "name": "Piotr°Maśnica°(Tarnów), Polenseelsorger°in°Kassel°und°Marburg",
+        "name": "Piotr Andrzej°Maśnica°(Tarnów), Pfr., Polenseelsorger°in°Stadtallendorf",
         "birth": "31.°Juli°1988°in°Limanowa (PL¥-34¥-600)",
         "grave": "",
         "age": 37

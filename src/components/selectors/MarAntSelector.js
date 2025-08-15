@@ -27,6 +27,8 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
             season: "q", // Fastenzeit
             color: (season === 'q') ? "btn-violett"
                 : (Assumption) ? "btn-gold" : "btn-default",
+            rubric: (Assumption) ? "In der Oktav von Mariae Himmelfahrt bis Maria Königin kann passenderweise diese°Antiphon°bevorzugt°werden:" : "",
+            rubric_lat: (Assumption) ? "Infra octavam Assumptionis Mariæ usque ad Mariæ Reginæ memoriam hanc°antiphonam°prævalere°convenit:" : "",
             title: "Ave, du Himmelskönigin",
             text: "Ave, du Himmelskönigin,^lave, der Engel Herrscherin.^lWurzel, der das Heil entsprossen,^lTür, die uns das Licht erschlossen:^lFreu dich, Jungfrau, voll der Ehre,^lüber allen Seligen Hehre,^lsei gegrüßt, des Himmels Krone,^lbitt für uns bei deinem Sohne.",
             title_lat: "Ave Regina cælorum",
@@ -60,8 +62,8 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
         {
             season: "o", // Osterzeit
             color: (season === 'o' && !isAfterPentecost) ? "btn-gold mb-2" : "btn-default mt-2",
-            rubric: "Diese Antiphon ist der Osterzeit vorbehalten.",
-            rubric_lat: "Hæc antiphona reservata est tempori paschali.",
+            rubric: (season === 'o') ? "" : "Diese Antiphon ist der Osterzeit vorbehalten.",
+            rubric_lat: (season === 'o') ? "" : "Hæc antiphona reservata est tempori paschali.",
             title: (season === 'o') ? "O Himmelskönigin, frohlocke" : "^[O Himmelskönigin, frohlocke^]",
             text: "O Himmelskönigin, frohlocke, Halleluja.^lDenn er, den du zu tragen würdig warst, Halleluja,^list erstanden, wie er sagte. Halleluja.^lBitt Gott für uns, Maria. Halleluja.",
             title_lat: (season === 'o') ? "Regina cæli" : "^[Regina cæli^]",
@@ -77,7 +79,7 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
             const day = selectedDate.getDate();
 
             // 15.8. (Mariä Himmelfahrt) und 22.8. (Maria Königin) -> Ave Regina Caelorum (q)
-            if ((month === 8 && [14, 15, 22].includes(day))) {
+            if ((month === 8 && day > 13 && day < 23)) {
                 setAssumption(true);
                 return 'q';
             }

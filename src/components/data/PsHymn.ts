@@ -3195,6 +3195,11 @@ export const psalmsData = {
         "title": "Du große Herrin, schönste Frau",
         "quote": "Gottesmutter",
         "text": "Du große Herrin, schönste Frau,^lhoch über Sternen steht dein Thron.^lDu trugst den Schöpfer, der dich schuf,^lund nährtest ihn an deiner Brust.^pWas Eva einst verloren sah,^lgibst du im Sohne reich zurück.^lDer Himmel öffnet sich in dir;^lzur Heimkehr steht der Weg uns frei.^pDu Pforte für den Königssohn,^ldes neuen Lebens helles Tor,^lin dir grüßt jauchzend alle Welt^ldas Leben, das du ihr geschenkt.^pHerr Jesus, dir sei Ruhm und Preis,^lGott, den die Jungfrau uns gebar,^lLob auch dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."
+      },
+    5.0: {
+        "title": "Du große Herrin, schönste Frau ^v(wie°in°den°Laudes)^0v",
+        "quote": "Gottesmutter",
+        "text": "Du große Herrin, schönste Frau,^lhoch über Sternen steht dein Thron.^lDu trugst den Schöpfer, der dich schuf,^lund nährtest ihn an deiner Brust.^pWas Eva einst verloren sah,^lgibst du im Sohne reich zurück.^lDer Himmel öffnet sich in dir;^lzur Heimkehr steht der Weg uns frei.^pDu Pforte für den Königssohn,^ldes neuen Lebens helles Tor,^lin dir grüßt jauchzend alle Welt^ldas Leben, das du ihr geschenkt.^pHerr Jesus, dir sei Ruhm und Preis,^lGott, den die Jungfrau uns gebar,^lLob auch dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   1043: {
@@ -5482,6 +5487,11 @@ export const psalmsData = {
         "quote": "MarHimmelf Vp lat.",
         "title_lat": "Gáudium mundi, nova stella cæli",
         "text_lat": "Gáudium mundi,^/nova stella cæli,^lprócreans solem,^/páriens paréntem,^lda manum lapsis,^/fer opem cadúcis,^lvirgo María.^pTe Deo factam^/liquet esse scalam^lqua tenens summa^/petit Altus ima;^lnos ad excélsi^/remeáre cæli^lcúlmina dona.^pTe beatórum^/chorus angelórum,^lte prophetárum^/et apostolórum^lordo prælátam^/sibi cernit unam^lpost Deitátem.^pLaus sit excélsæ^/Tríadi perénnis,^lquæ tibi, Virgo,^/tríbuit corónam,^latque regínam^/statuítque nostram^lpróvida matrem."
+      },
+    5.0: {
+        "title": "Herrlich strahlst du im Licht ^v(wie°in°der°Vesper)^0v",
+        "quote": "MarHimmelf",
+        "text": "Herrlich strahlst du im Licht,^/Jungfrau°Maria,°^lKind aus Davids Geschlecht,^/Tochter°des°Königs,°^ldie erhaben nun thront^/hoch°in°den°Himmeln^lund Gebieterin ist^/über°die°Engel.^pDem allmächtigen Gott^/wurdest°du°Mutter^lhast dem Herrn, der dich schuf,^/Wohnung°bereitet,°^lihm den heiligen Schoß^/willig°geboten,°^lund im Fleische ward Gott^/Mensch°wie°wir°alle.^pDen in Ehrfurcht verehrt^/Erde°und°Himmel,°^lden Erlöser und Herrn,^/bitten°wir°heute,°^lda ins himmlische Reich^/ganz°er°dich°aufnahm:^lAus dem Dunkel der Welt^/führ°uns°zum°Lichte.^pDir sei Ehre und Preis,^/Vater°des°Lichtes,°^ldir, dem ewigen Sohn,^/der°uns°erlöst°hat,°^ldir, dem Heiligen Geist,^/Gott,°dem°Dreieinen,°^ldessen Herrschaft und Reich^/währen°auf°ewig.°Amen."
       }
   },
   8820: {

@@ -380,6 +380,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         .replace(/>([aeiouæm])/g, '^k$1^0k')
         .replace(/\^([()[\]†])/g, '^r$1^0r')
         .replace(/ \^w/g, '^w ')
+        .replace(/ \^0w/g, '^0w ')
         .replace(/^\^A:[^:]+:/, '')
         .replace(/\^SLICE/, '')
         .replace(/\^ANT/, '^rAnt.\u00A0\u00A0^0r')

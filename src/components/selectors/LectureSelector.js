@@ -216,7 +216,7 @@ const LectureSelector = ({
 
     // Reset selections when alternatives change
     useEffect(() => {
-        console.log('availableAlternatives aktualisiert:', availableAlternatives);
+        //console.log('availableAlternatives aktualisiert:', availableAlternatives);
         setSelectedLecture(prev => ({
             first: availableAlternatives.first.hasAlternatives ?
                 (prev.first >= availableAlternatives.first.alternatives.length ? 0 : prev.first) : 0,
