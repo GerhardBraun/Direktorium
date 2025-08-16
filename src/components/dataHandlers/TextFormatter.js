@@ -389,11 +389,9 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
             if (!punctuation && space) { return '^w' + match.toLowerCase() + '^0w' }
             else return punctuation + space + '^w' + firstCapital(text) + '^0w';
         })
-        .replace(/\^Ö/g, (season === 'o' && !swdCombined.startsWith('o-9-'))
-            ? ' Halleluja.' : '')
+        .replace(/\^Ö/g, season === 'o' ? ' Halleluja.' : '')
         .replace(/\^ö/g, season === 'q' ? '' : ' Halleluja.')
-        .replace(/\^LÖ/g, (season === 'o' && !swdCombined.startsWith('o-9-'))
-            ? ' Allelúia.' : '')
+        .replace(/\^LÖ/g, season === 'o' ? ' Allelúia.' : '')
         .replace(/\^Lö/g, season === 'q' ? '' : ' Allelúia.')
 
     text = replaceNames(text)

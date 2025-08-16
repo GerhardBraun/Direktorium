@@ -6,8 +6,6 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
     const [Assumption, setAssumption] = useState(false);
     const [Nativity, setNativity] = useState(false);
 
-    const isAfterPentecost = swdCombined.startsWith('o-9-');
-
     const suffixLatin = useMemo(() => {
         return localPrefLatin ? '_lat' : '';
     }, [localPrefLatin]);
@@ -36,8 +34,7 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
         },
         {
             season: "j", // Jahreskreis
-            color: (season === 'j' || isAfterPentecost)
-                ? "btn-green" : "btn-default",
+            color: season === 'j' ? "btn-green" : "btn-default",
             title: "Sei gegrüßt, o Königin",
             text: "Sei gegrüßt, o°Königin,^lMutter der Barmherzigkeit;^lunser Leben, unsre Wonne^lund unsre Hoffnung, sei gegrüßt!^lZu dir rufen wir verbannte Kinder Evas;^lzu dir seufzen wir^ltrauernd und weinend in°diesem°Tal°der°Tränen.^lWohlan denn, unsre Fürsprecherin,^lwende deine barmherzigen Augen uns zu^lund nach diesem Elend zeige uns Jesus,^ldie gebenedeite Frucht deines Leibes!^lO gütige, o°milde, o°süße°Jungfrau°Maria!",
             title_lat: "Salve Regina",
@@ -61,7 +58,7 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
         },
         {
             season: "o", // Osterzeit
-            color: (season === 'o' && !isAfterPentecost) ? "btn-gold mb-2" : "btn-default mt-2",
+            color: season === 'o' ? "btn-gold mb-2" : "btn-default mt-2",
             rubric: (season === 'o') ? "" : "Diese Antiphon ist der Osterzeit vorbehalten.",
             rubric_lat: (season === 'o') ? "" : "Hæc antiphona reservata est tempori paschali.",
             title: (season === 'o') ? "O Himmelskönigin, frohlocke" : "^[O Himmelskönigin, frohlocke^]",
@@ -69,7 +66,7 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
             title_lat: (season === 'o') ? "Regina cæli" : "^[Regina cæli^]",
             text_lat: "Regína cæli, lætáre, allelúia,^lquia quem meruísti portáre, allelúia,^lresurréxit sicut dixit, allelúia;^lora pro nobis Deum, allelúia."
         },
-    ], [season, Assumption, Nativity, isAfterPentecost]);
+    ], [season, Assumption, Nativity]);
 
     // Funktion zur Bestimmung der Standardantiphon basierend auf besonderen Regeln
     const getDefaultAntiphonSeason = useMemo(() => {
@@ -93,11 +90,9 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
         }
         else { setNativity(false); }
 
-        if (isAfterPentecost) { return 'j' }
-
         // Sonst verwende die normale Jahreszeit
         return season;
-    }, [selectedDate, swdCombined, season, isAfterPentecost]);
+    }, [selectedDate, swdCombined, season]);
 
     // Effizientere Sortierung basierend auf der berechneten Standardantiphon
     const sortedAntiphons = useMemo(() => {

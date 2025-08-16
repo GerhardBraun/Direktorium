@@ -26,7 +26,7 @@ const getWeekdayButtonColor = (season) => {
 };
 
 const formatText = (text) => {
-    return text.replace(/°/g, '\u00a0')
+    return text?.replace(/°/g, '\u00a0')
 }
 
 const SourceSelector = ({

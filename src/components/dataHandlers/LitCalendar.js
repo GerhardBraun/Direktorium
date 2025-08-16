@@ -88,6 +88,11 @@ function calculateRanks(date, season, week, dayOfWeek, swdCombined, afterPenteco
 
     // Rank für Wochentag (rank_wt) bestimmen
     function calculateRankWt() {
+        // 5. Feste nach Pfingsten
+        if (afterPentecost) {
+            return [41, 46].includes(afterPentecost) ? 2 : 5
+        }
+
         // 1. Grundsätzlich sind alle Sonntage Rang 5
         if (dayOfWeek === 0) {
             // 2. Ausnahme: Sonntage in der Weihnachtszeit und im Jahreskreis (außer Christkönig) sind Rang 3
@@ -103,11 +108,6 @@ function calculateRanks(date, season, week, dayOfWeek, swdCombined, afterPenteco
 
         // 4. Aschermittwoch und Christi Himmelfahrt
         if (['q-0-3', 'o-6-4'].includes(swdCombined)) { return 5; }
-
-        // 5. Feste nach Pfingsten
-        if (afterPentecost) {
-            return [41, 46].includes(afterPentecost) ? 2 : 5
-        }
 
         // 6. Gebotene Gedenktage und Kommemoration
         if (season === 'q') { return 2; }          // Wochentage der Fastenzeit
@@ -246,10 +246,7 @@ const getLiturgicalInfo = (provDate) => {
         week = weeksBetween(easter, date);
     }
     // Special feasts after Pentecost
-    else if ([40, 44, 45].includes(afterPentecost)) {
-        season = 'o';
-        week = 9;
-    }
+    // else if ([40, 44, 45].includes(afterPentecost)) { season = 'o'; week = 9; }
     // Ordinary Time after Pentecost
     else if (date < advent) {
         season = 'j';

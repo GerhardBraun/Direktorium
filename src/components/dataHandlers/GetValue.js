@@ -239,12 +239,9 @@ const getKompletValue = ({ texts, field, localPrefKomplet, localPrefLanguage = '
         if (targetField.startsWith('resp1') &&
             (swdCombined.startsWith('o-1-') ||
                 ['q-6-4', 'q-6-5', 'q-6-6', 'o-2-0'].includes(swdCombined))
-        ) {
-            return '';
-        }
+        ) { return ''; }
 
-        // Anpassungen für Saison und Wochentag
-        if (swdCombined.startsWith('o-9-')) { season = 'j'; }
+        // Anpassungen für Wochentag
         if (localPrefKomplet === 'k1') { dayOfWeek = 6; }
         if (localPrefKomplet === 'k2') { dayOfWeek = 0; }
 

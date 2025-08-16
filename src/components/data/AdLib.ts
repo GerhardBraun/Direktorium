@@ -76,6 +76,7 @@ export const adlibData = {
           "button": "Hl. Basilius und hl. Gregor von Nazianz",
           "genitiv": "der Heiligen Basilius und Gregor",
           "vokativ": "Heiliger Basilius und heiliger Gregor",
+          "genitiv_lat": "sanctórum ",
           "antev": "Die Weisen werden strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig."
         },
         "Vesper": {
@@ -99,7 +100,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Valentin",
-          "genitiv": "des heiligen Valentin"
+          "genitiv": "des heiligen Valentin",
+          "genitiv_lat": "sancti "
         }
       },
       "n2": {
@@ -117,7 +119,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Raimund von Penyafort",
-          "genitiv": "des heiligen Raimund"
+          "genitiv": "des heiligen Raimund",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -137,7 +140,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Severin",
-          "genitiv": "des heiligen Severin"
+          "genitiv": "des heiligen Severin",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -159,7 +163,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Hilarius",
           "genitiv": "des heiligen Hilarius",
-          "vokativ": "Heiliger Hilarius"
+          "vokativ": "Heiliger Hilarius",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -180,7 +185,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Antonius",
           "nominativ": "Der heilige Antonius",
-          "genitiv": "des heiligen Antonius"
+          "genitiv": "des heiligen Antonius",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -202,7 +208,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Fabian",
           "farbe": "r",
-          "genitiv": "des heiligen Fabian"
+          "genitiv": "des heiligen Fabian",
+          "genitiv_lat": "sancti "
         }
       },
       "n2": {
@@ -244,7 +251,8 @@ export const adlibData = {
           "button": "Hl. Meinrad",
           "farbe": "r",
           "nominativ": "Der heilige Meinrad",
-          "genitiv": "des heiligen Meinrad"
+          "genitiv": "des heiligen Meinrad",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -276,7 +284,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Vinzenz Pallotti",
           "nominativ": "Der heilige Vinzenz",
-          "genitiv": "des heiligen Vinzenz Pallotti"
+          "genitiv": "des heiligen Vinzenz Pallotti",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -297,7 +306,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Sel. Heinrich Seuse",
           "nominativ": "Des selige Heinrich",
-          "genitiv": "des seligen Heinrich Seuse"
+          "genitiv": "des seligen Heinrich Seuse",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -319,7 +329,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Franz von Sales",
           "genitiv": "des heiligen Franz von Sales",
-          "vokativ": "Heiliger Franz von Sales"
+          "vokativ": "Heiliger Franz von Sales",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -340,6 +351,7 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Timotheus und hl. Titus",
           "genitiv": "der Heiligen Timotheus und Titus",
+          "genitiv_lat": "sanctórum ",
           "antev": "Verkünde das Wort, tritt dafür ein, ob man es hören will oder nicht; weise zurecht, tadle und ermahne in geduldiger Belehrung."
         },
         "Vesper": {
@@ -365,7 +377,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Angela Merici",
           "nominativ": "Die heilige Angela",
-          "genitiv": "der heiligen Angela Merici"
+          "genitiv": "der heiligen Angela Merici",
+          "genitiv_lat": "sanctæ "
         }
       }
     },
@@ -387,6 +400,7 @@ export const adlibData = {
           "button": "Hl. Thomas von Aquin",
           "genitiv": "des heiligen Thomas",
           "vokativ": "Heiliger Thomas",
+          "genitiv_lat": "sancti ",
           "antev": "Gepriesen sei der Herr! Aus Liebe zu ihm hat Thomas geforscht, hat Nächte durchwacht und sich abgemüht."
         },
         "Vesper": {
@@ -412,7 +426,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Johannes Bosco",
           "nominativ": "Der heilige Johannes Bosco",
-          "genitiv": "des heiligen Johannes Bosco"
+          "genitiv": "des heiligen Johannes Bosco",
+          "genitiv_lat": "sancti "
         }
       }
     }
@@ -434,7 +449,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Ansgar",
-          "genitiv": "des heiligen Ansgar"
+          "genitiv": "des heiligen Ansgar",
+          "genitiv_lat": "sancti "
         }
       },
       "n2": {
@@ -454,7 +470,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Blasius",
           "farbe": "r",
-          "genitiv": "des heiligen Blasius"
+          "genitiv": "des heiligen Blasius",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -478,6 +495,7 @@ export const adlibData = {
           "farbe": "r",
           "nominativ": "Die heilige Agatha",
           "genitiv": "der heiligen Agatha",
+          "genitiv_lat": "sanctæ ",
           "antev": "Vor Freude strahlend, ging Agatha in den Kerker, als ginge sie zu einem Gastmahl, und betend empfahl sie dem Herrn ihren Kampf."
         },
         "Vesper": {
@@ -523,6 +541,7 @@ export const adlibData = {
           "button": "Hl. Hieronymus Ämiliani",
           "nominativ": "Der heilige Hieronymus Ämiliani",
           "genitiv": "des heiligen Hieronymus Ämiliani",
+          "genitiv_lat": "sancti ",
           "ant_komm": "Wer barmherzig ist, der lehrt und erzieht wie ein guter Hirt."
         },
         "Vesper": {
@@ -538,7 +557,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Josefine Bakhita",
           "nominativ": "Die heilige Josefine",
-          "genitiv": "der heiligen Josefine Bakhita"
+          "genitiv": "der heiligen Josefine Bakhita",
+          "genitiv_lat": "sanctæ "
         }
       }
     },
@@ -560,6 +580,7 @@ export const adlibData = {
           "button": "Hl. Scholastika",
           "nominativ": "Die heilige Scholastika",
           "genitiv": "der heiligen Scholastika",
+          "genitiv_lat": "sanctæ ",
           "antev": "Die kluge Jungfrau ging Christus entgegen. Wie die Sonne strahlt sie im Chor der Heiligen."
         }
       }
@@ -607,7 +628,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Gregor II.",
-          "genitiv": "des heiligen Papstes Gregor"
+          "genitiv": "des heiligen Papstes Gregor",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -630,7 +652,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Valentin",
           "farbe": "r",
-          "genitiv": "des heiligen Valentin"
+          "genitiv": "des heiligen Valentin",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -652,6 +675,7 @@ export const adlibData = {
           "button": "Hll. Sieben Gründer des Servitenordens",
           "nominativ": "Die heiligen Gründer des Servitenordens",
           "genitiv": "der heiligen Gründer des Servitenordens",
+          "genitiv_lat": "sanctórum ",
           "ant_komm": "Wie gut ist es und wie schön, wenn Brüder miteinander wohnen in Eintracht."
         },
         "Vesper": {
@@ -678,6 +702,7 @@ export const adlibData = {
           "button": "Hl. Petrus Damiani",
           "genitiv": "des heiligen Petrus Damiani",
           "vokativ": "Heiliger Petrus Damiani",
+          "genitiv_lat": "sancti ",
           "ant_komm": "Die Weisen strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig."
         },
         "Vesper": {
@@ -726,6 +751,7 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Walburga",
           "genitiv": "der heiligen Walburga",
+          "genitiv_lat": "sanctæ ",
           "ant_komm": "Mein Anteil ist der Herr, darum harre ich auf ihn; gut ist der Herr zur Seele, die ihn sucht."
         },
         "Vesper": {
@@ -742,7 +768,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Gregor von Narek",
           "genitiv": "des heiligen Gregor",
-          "vokativ": "Heiliger Gregor"
+          "vokativ": "Heiliger Gregor",
+          "genitiv_lat": "sancti "
         }
       }
     }
@@ -766,6 +793,7 @@ export const adlibData = {
           "button": "Hl. Kasimir",
           "nominativ": "Der heilige Kasimir",
           "genitiv": "des heiligen Kasimir",
+          "genitiv_lat": "sancti ",
           "ant_komm": "Wer die Wahrheit tut, der kommt zum Licht, damit offenbar wird, dass seine Taten in Gott vollbracht sind."
         },
         "Vesper": {
@@ -792,6 +820,7 @@ export const adlibData = {
           "button": "Hl. Fridolin von Säckingen",
           "nominativ": "Der heilige Fridolin",
           "genitiv": "des heiligen Fridolin",
+          "genitiv_lat": "sancti ",
           "ant_komm": "Nicht ihr werdet reden, sondern der Geist eures Vaters redet durch euch."
         },
         "Vesper": {
@@ -838,6 +867,7 @@ export const adlibData = {
           "button": "Hl. Johannes von Gott",
           "nominativ": "Der heilige Johannes von Gott",
           "genitiv": "des heiligen Johannes von Gott",
+          "genitiv_lat": "sancti ",
           "ant_komm": "Daran werden alle erkennen, dass ihr meine Jünger seid: wenn ihr einander liebt."
         },
         "Vesper": {
@@ -864,6 +894,7 @@ export const adlibData = {
           "button": "Hl. Bruno von Querfurt",
           "farbe": "r",
           "genitiv": "des heiligen Bruno",
+          "genitiv_lat": "sancti ",
           "ant_komm": "Wer sein Leben liebt, wird es verlieren; doch wer in dieser Welt sein Leben hasst, der wird es bewahren für das ewige Leben."
         },
         "Vesper": {
@@ -886,6 +917,7 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Franziska von Rom",
           "genitiv": "der heiligen Franziska",
+          "genitiv_lat": "sanctæ ",
           "ant_komm": "Wer den Willen meines Vaters erfüllt, der ist für mich Bruder und Schwester und Mutter."
         },
         "Vesper": {
@@ -911,6 +943,7 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Paulina",
           "genitiv": "der heiligen Paulina",
+          "genitiv_lat": "sanctæ ",
           "ant_komm": "Mein Anteil ist der Herr, darum harre ich auf ihn; gut ist der Herr zur Seele, die ihn sucht.",
           "ant_komm_lat": "Pars mea Dóminus; bonus est ánimæ quærénti illum."
         },
@@ -938,6 +971,7 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Mathilde",
           "genitiv": "der heiligen Mathilde",
+          "genitiv_lat": "sanctæ ",
           "ant_komm": "Selig, die Frieden stiften, selig, die reinen Herzens sind; denn sie werden Gott schauen.",
           "ant_komm_lat": "Beáti pacífici; beáti mundo corde, quóniam ipsi Deum videbunt."
         },
@@ -963,6 +997,7 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Klemens Maria Hofbauer",
           "genitiv": "des heiligen Klemens Maria Hofbauer",
+          "genitiv_lat": "sancti ",
           "ant_komm": "Allen bin ich alles geworden, um alle zu retten."
         },
         "Vesper": {
@@ -985,6 +1020,7 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Zacharias",
           "genitiv": "des heiligen Zacharias",
+          "genitiv_lat": "sancti ",
           "ant_komm": "Nicht ihr werdet reden, sondern der Geist eures Vaters redet durch euch.",
           "ant_komm_lat": "Non vos estis qui loquímini, sed Spíritus Patris vestri, qui lóquitur in vobis."
         },
@@ -1010,6 +1046,7 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Gertrud von Nivelles",
           "genitiv": "der heiligen Gertrud",
+          "genitiv_lat": "sanctæ ",
           "ant_komm": "Mein Anteil ist der Herr, darum harre ich auf ihn; gut ist der Herr zur Seele, die ihn sucht."
         },
         "Vesper": {
@@ -1031,6 +1068,7 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Patrick",
           "genitiv": "des heiligen Patrick",
+          "genitiv_lat": "sancti ",
           "ant_komm": "Geht hinaus in alle Welt und lehrt alle Völker und tauft sie im Namen des Vaters und des Sohnes und des Heiligen Geistes."
         },
         "Vesper": {
@@ -1054,6 +1092,7 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Cyrill von Jerusalem",
           "genitiv": "des heiligen Cyrill",
+          "genitiv_lat": "sancti ",
           "ant_komm": "Die Weisen strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig."
         }
       }
@@ -1074,6 +1113,7 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Turibio von Mongrovejo",
           "genitiv": "des heiligen Turibio",
+          "genitiv_lat": "sancti ",
           "ant_komm": "Nicht ihr werdet reden, sondern der Geist eures Vaters redet durch euch."
         },
         "Vesper": {
@@ -1089,6 +1129,7 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Oscar Arnulfo Romero",
           "genitiv": "des heiligen Oscar Romero",
+          "genitiv_lat": "sancti ",
           "ant_komm": "Selig, die Frieden stiften, selig, die reinen Herzens sind; denn sie werden Gott schauen."
         },
         "Vesper": {
@@ -1112,6 +1153,7 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Liudger",
           "genitiv": "des heiligen Liudger",
+          "genitiv_lat": "sancti ",
           "ant_komm": "Nicht ihr werdet reden, sondern der Geist eures Vaters redet durch euch."
         },
         "Vesper": {
@@ -1139,6 +1181,7 @@ export const adlibData = {
           "button": "Hl. Franz von Paola",
           "nominativ": "Der heilige Franz",
           "genitiv": "des heiligen Franz von Paola",
+          "genitiv_lat": "sancti ",
           "ant_komm": "Siehe, ich stehe vor der Tür und klopfe an. Wer meine Stimme hört und mir öffnet, zu dem trete ich ein und halte Mahl mit ihm, und er mit mir."
         },
         "Vesper": {
@@ -1165,6 +1208,7 @@ export const adlibData = {
           "button": "Hl. Isidor von Sevilla",
           "genitiv": "des heiligen Isidor",
           "vokativ": "Heiliger Isidor",
+          "genitiv_lat": "sancti ",
           "ant_komm": "Die Weisen strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig."
         },
         "Vesper": {
@@ -1189,6 +1233,7 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Vinzenz Ferrer",
           "genitiv": "des heiligen Vinzenz Ferrer",
+          "genitiv_lat": "sancti ",
           "ant_komm": "Nicht ihr werdet reden, sondern der Geist eures Vaters redet durch euch."
         },
         "Vesper": {
@@ -1214,7 +1259,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Johannes Baptist de la Salle",
           "nominativ": "Der heilige Johannes",
-          "genitiv": "des heiligen Johannes Baptist de la Salle"
+          "genitiv": "des heiligen Johannes Baptist de la Salle",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -1236,7 +1282,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Stanislaus",
           "farbe": "r",
-          "genitiv": "des heiligen Stanislaus"
+          "genitiv": "des heiligen Stanislaus",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -1258,6 +1305,7 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Martin I.",
           "genitiv": "des heiligen Martin I.",
+          "genitiv_lat": "sancti ",
           "ant_komm": "Wer sein Leben liebt, wird es verlieren; doch wer in dieser Welt sein Leben hasst, der wird es bewahren für das ewige Leben."
         },
         "Vesper": {
@@ -1281,7 +1329,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Leo IX.",
-          "genitiv": "des heiligen Leo IX."
+          "genitiv": "des heiligen Leo IX.",
+          "genitiv_lat": "sancti "
         }
       },
       "n2": {
@@ -1312,7 +1361,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Konrad von Parzham",
           "nominativ": "Der heilige Bruder Konrad",
-          "genitiv": "des heiligen Konrad"
+          "genitiv": "des heiligen Konrad",
+          "genitiv_lat": "sancti "
         }
       },
       "n2": {
@@ -1332,7 +1382,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Anselm",
           "genitiv": "des heiligen Anselm",
-          "vokativ": "Heiliger Anselm"
+          "vokativ": "Heiliger Anselm",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -1354,7 +1405,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Adalbert",
           "farbe": "r",
-          "genitiv": "des heiligen Adalbert"
+          "genitiv": "des heiligen Adalbert",
+          "genitiv_lat": "sancti "
         }
       },
       "n2": {
@@ -1373,7 +1425,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Georg",
           "farbe": "r",
-          "genitiv": "des heiligen Georg"
+          "genitiv": "des heiligen Georg",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -1395,7 +1448,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Fidelis von Sigmaringen",
           "farbe": "r",
-          "genitiv": "des heiligen Fidelis"
+          "genitiv": "des heiligen Fidelis",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -1417,7 +1471,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Petrus Kanisius",
           "genitiv": "des heiligen Petrus Kanisius",
-          "vokativ": "Heiliger Petrus Kanisius"
+          "vokativ": "Heiliger Petrus Kanisius",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -1447,7 +1502,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Ludwig Maria Grignion de Montfort",
-          "genitiv": "des heiligen Ludwig Maria"
+          "genitiv": "des heiligen Ludwig Maria",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -1467,7 +1523,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Pius V.",
-          "genitiv": "des heiligen Pius V."
+          "genitiv": "des heiligen Pius V.",
+          "genitiv_lat": "sancti "
         }
       }
     }
@@ -1491,7 +1548,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Athanasius",
           "genitiv": "des heiligen Athanasius",
-          "vokativ": "Heiliger Athanasius"
+          "vokativ": "Heiliger Athanasius",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -1532,7 +1590,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Godehard",
-          "genitiv": "des heiligen Godehard"
+          "genitiv": "des heiligen Godehard",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -1546,7 +1605,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Johannes von Avila",
           "genitiv": "des heiligen Johannes von Avila",
-          "vokativ": "Heiliger Johannes von Avila"
+          "vokativ": "Heiliger Johannes von Avila",
+          "genitiv_lat": "sancti "
         }
       },
       "n2": {
@@ -1557,7 +1617,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Damian de Veuster",
           "nominativ": "Der heilige Damian",
-          "genitiv": "des heiligen Damian de Veuster"
+          "genitiv": "des heiligen Damian de Veuster",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -1629,7 +1690,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Johannes Nepomuk",
           "farbe": "r",
-          "genitiv": "des heiligen Johannes Nepomuk"
+          "genitiv": "des heiligen Johannes Nepomuk",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -1651,7 +1713,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Johannes I.",
           "farbe": "r",
-          "genitiv": "des heiligen Johannes I."
+          "genitiv": "des heiligen Johannes I.",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -1673,7 +1736,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Bernhardin von Siena",
           "nominativ": "Der heilige Bernhardin",
-          "genitiv": "des heiligen Bernhardin"
+          "genitiv": "des heiligen Bernhardin",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -1694,7 +1758,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Hermann Josef",
           "nominativ": "Der heilige Hermann Josef",
-          "genitiv": "des heiligen Hermann Josef"
+          "genitiv": "des heiligen Hermann Josef",
+          "genitiv_lat": "sancti "
         }
       },
       "n2": {
@@ -1706,7 +1771,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Christopher Magallanes und Gefährten",
           "farbe": "r",
-          "genitiv": "des heiligen Christopher Magallanes und seiner Gefährten"
+          "genitiv": "des heiligen Christopher Magallanes und seiner Gefährten",
+          "genitiv_lat": "sancti "
         }
       },
       "n3": {
@@ -1716,7 +1782,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Eugen von Mazenod",
-          "genitiv": "des heiligen Eugen"
+          "genitiv": "des heiligen Eugen",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -1728,7 +1795,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Rita von Cascia",
-          "genitiv": "der heiligen Rita"
+          "genitiv": "der heiligen Rita",
+          "genitiv_lat": "sanctæ "
         }
       }
     },
@@ -1763,7 +1831,8 @@ export const adlibData = {
           "button": "Hl. Beda der Ehrwürdige",
           "nominativ": "Der heilige Beda",
           "genitiv": "des heiligen Beda",
-          "vokativ": "Heiliger Beda"
+          "vokativ": "Heiliger Beda",
+          "genitiv_lat": "sancti "
         }
       },
       "n2": {
@@ -1781,7 +1850,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Gregor VII.",
-          "genitiv": "des heiligen Papstes Gregor VII."
+          "genitiv": "des heiligen Papstes Gregor VII.",
+          "genitiv_lat": "sancti "
         }
       },
       "n3": {
@@ -1801,7 +1871,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Maria Magdalena von Pazzi",
           "nominativ": "Die heilige Maria Magdalena",
-          "genitiv": "der heiligen Maria Magdalena"
+          "genitiv": "der heiligen Maria Magdalena",
+          "genitiv_lat": "sanctæ "
         }
       }
     },
@@ -1823,7 +1894,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Philipp Neri",
           "nominativ": "Der heilige Philipp Neri",
-          "genitiv": "des heiligen Philipp Neri"
+          "genitiv": "des heiligen Philipp Neri",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -1843,7 +1915,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Augustinus von Canterbury",
-          "genitiv": "des heiligen Augustinus"
+          "genitiv": "des heiligen Augustinus",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -1855,7 +1928,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Paul VI.",
-          "genitiv": "des heiligen Papstes Paul VI."
+          "genitiv": "des heiligen Papstes Paul VI.",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -1956,7 +2030,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Marcellinus und hl. Petrus",
           "farbe": "r",
-          "genitiv": "der Heiligen Marcellinus und Petrus"
+          "genitiv": "der Heiligen Marcellinus und Petrus",
+          "genitiv_lat": "sanctórum "
         }
       }
     },
@@ -1998,7 +2073,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Norbert von Xanten",
-          "genitiv": "des heiligen Norbert"
+          "genitiv": "des heiligen Norbert",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -2047,7 +2123,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Ephräm der Syrer",
           "genitiv": "des heiligen Ephräm",
-          "vokativ": "Heiliger Ephräm"
+          "vokativ": "Heiliger Ephräm",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -2068,7 +2145,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Bardo",
-          "genitiv": "des heiligen Bardo"
+          "genitiv": "des heiligen Bardo",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -2092,7 +2170,8 @@ export const adlibData = {
           "button": "Hl. Antonius von Padua",
           "nominativ": "Der heilige Antonius",
           "genitiv": "des heiligen Antonius",
-          "vokativ": "Heiliger Antonius"
+          "vokativ": "Heiliger Antonius",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -2132,7 +2211,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Benno",
-          "genitiv": "des heiligen Benno"
+          "genitiv": "des heiligen Benno",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -2154,7 +2234,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Romuald",
           "nominativ": "Der heilige Romuald",
-          "genitiv": "des heiligen Romuald"
+          "genitiv": "des heiligen Romuald",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -2176,7 +2257,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Aloisius Gonzaga",
           "nominativ": "Der heilige Aloisius Gonzaga",
-          "genitiv": "des heiligen Aloisius Gonzaga"
+          "genitiv": "des heiligen Aloisius Gonzaga",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -2197,7 +2279,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Paulinus von Nola",
-          "genitiv": "des heiligen Paulinus"
+          "genitiv": "des heiligen Paulinus",
+          "genitiv_lat": "sancti "
         }
       },
       "n2": {
@@ -2228,7 +2311,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Josefmaria Escrivá de Balaguer",
-          "genitiv": "des heiligen Josefmaria"
+          "genitiv": "des heiligen Josefmaria",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -2249,7 +2333,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Heimerad",
-          "genitiv": "des heiligen Heimerad"
+          "genitiv": "des heiligen Heimerad",
+          "genitiv_lat": "sancti "
         }
       },
       "n2": {
@@ -2267,7 +2352,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Hemma von Gurk",
-          "genitiv": "des heiligen Hemma"
+          "genitiv": "des heiligen Hemma",
+          "genitiv_lat": "sancti "
         }
       },
       "n3": {
@@ -2288,7 +2374,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Cyrill von Alexandrien",
           "genitiv": "des heiligen Cyrill",
-          "vokativ": "Heiliger Cyrill"
+          "vokativ": "Heiliger Cyrill",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -2312,6 +2399,7 @@ export const adlibData = {
           "button": "Hl. Irenäus",
           "farbe": "r",
           "genitiv": "des heiligen Irenäus",
+          "genitiv_lat": "sancti ",
           "antev": "Irenäus, wahrhaft ein Mann des Friedens, war voll Eifer bemüht um Frieden und Eintracht unter den Kirchen.",
           "antev_lat": "Irenǽus, nómini suo vere respóndens, vitæ institúto ac propósito pacíficus, pro Ecclesiárum pace strénue certávit."
         }
@@ -2358,7 +2446,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Otto",
-          "genitiv": "des heiligen Otto"
+          "genitiv": "des heiligen Otto",
+          "genitiv_lat": "sancti "
         }
       }
     }
@@ -2380,7 +2469,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Ulrich",
-          "genitiv": "des heiligen Ulrich"
+          "genitiv": "des heiligen Ulrich",
+          "genitiv_lat": "sancti "
         }
       },
       "n2": {
@@ -2399,7 +2489,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Elisabeth von Portugal",
-          "genitiv": "der heiligen Elisabeth"
+          "genitiv": "der heiligen Elisabeth",
+          "genitiv_lat": "sanctæ "
         }
       }
     },
@@ -2422,7 +2513,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Antonius Maria Zaccaria",
           "nominativ": "Der heilige Antonius Maria",
-          "genitiv": "des heiligen Antonius Maria Zaccaria"
+          "genitiv": "des heiligen Antonius Maria Zaccaria",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -2445,7 +2537,8 @@ export const adlibData = {
           "button": "Hl. Maria Goretti",
           "farbe": "r",
           "nominativ": "Die heilige Maria Goretti",
-          "genitiv": "der heiligen Maria Goretti"
+          "genitiv": "der heiligen Maria Goretti",
+          "genitiv_lat": "sanctæ "
         }
       }
     },
@@ -2466,7 +2559,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Willibald und hl. Wunibald (FD Eig)",
-          "genitiv": "des heiligen Willibald und hl. Wunibald"
+          "genitiv": "des heiligen Willibald und hl. Wunibald",
+          "genitiv_lat": "sancti "
         }
       },
       "n2": {
@@ -2484,7 +2578,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Willibald (Stundenbuch)",
-          "genitiv": "des heiligen Willibald: Aus dem Stundenbuch"
+          "genitiv": "des heiligen Willibald: Aus dem Stundenbuch",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -2507,7 +2602,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hll. Kilian und Gefährten",
           "farbe": "r",
-          "genitiv": "des heiligen Kilian und seiner Gefährten"
+          "genitiv": "des heiligen Kilian und seiner Gefährten",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -2574,7 +2670,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hll. Louis und Marie Zelie Martin",
           "nominativ": "Die Heiligen Louis und Marie Zelie",
-          "genitiv": "der Heiligen Louis und Marie Zelie Martin"
+          "genitiv": "der Heiligen Louis und Marie Zelie Martin",
+          "genitiv_lat": "sanctórum "
         }
       }
     },
@@ -2597,7 +2694,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Heinrich II. und hl. Kunigunde",
           "nominativ": "der Heiligen Heinrich und Kunigunde",
-          "genitiv": "der Heiligen Heinrich und Kunigunde"
+          "genitiv": "der Heiligen Heinrich und Kunigunde",
+          "genitiv_lat": "sanctórum "
         }
       }
     },
@@ -2645,6 +2743,7 @@ export const adlibData = {
           "button": "Hl. Bonaventura",
           "genitiv": "des heiligen Bonaventura",
           "vokativ": "Heiliger Bonaventura",
+          "genitiv_lat": "sancti ",
           "vokativ_lat": "sancte Bonaventúra"
         }
       }
@@ -2696,7 +2795,8 @@ export const adlibData = {
           "button": "Hl. Margareta",
           "farbe": "r",
           "nominativ": "Die heilige Margareta",
-          "genitiv": "der heiligen Margareta"
+          "genitiv": "der heiligen Margareta",
+          "genitiv_lat": "sanctæ "
         }
       },
       "n2": {
@@ -2709,7 +2809,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Apollinaris",
           "farbe": "r",
-          "genitiv": "des heiligen Apollinaris"
+          "genitiv": "des heiligen Apollinaris",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -2733,6 +2834,7 @@ export const adlibData = {
           "button": "Hl. Laurentius von Brindisi",
           "genitiv": "des heiligen Laurentius",
           "vokativ": "Heiliger Laurentius",
+          "genitiv_lat": "sancti ",
           "vokativ_lat": "sancte Laurénti"
         }
       }
@@ -2776,7 +2878,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Scharbel Mahluf",
           "nominativ": "Der heilige Scharbel Mahluf",
-          "genitiv": "des heiligen Scharbel Mahluf"
+          "genitiv": "des heiligen Scharbel Mahluf",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -2797,6 +2900,7 @@ export const adlibData = {
         "Laudes": {
           "button": "Hll. Marta, Maria und Lazarus",
           "genitiv": "der Heiligen Marta, Maria und Lazarus",
+          "genitiv_lat": "sanctórum ",
           "antev": "Marta sagte zu Jesus: Du bist der Messias, der Sohn des lebendigen Gottes, der in die Welt kommen soll."
         },
         "Vesper": {
@@ -2820,7 +2924,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hll. Simplizius, Faustinus und Beatrix",
           "farbe": "r",
-          "genitiv": "der Heiligen Simplizius, Faustinus und Beatrix"
+          "genitiv": "der Heiligen Simplizius, Faustinus und Beatrix",
+          "genitiv_lat": "sanctórum "
         }
       }
     },
@@ -2844,6 +2949,7 @@ export const adlibData = {
           "button": "Hl. Petrus Chrysologus",
           "genitiv": "des heiligen Petrus Chrysologus",
           "vokativ": "Heiliger Petrus Chrysologus",
+          "genitiv_lat": "sancti ",
           "vokativ_lat": "sancte Petre Chrysóloge"
         }
       }
@@ -2903,6 +3009,7 @@ export const adlibData = {
           "button": "Hl. Alfons Maria von Liguori",
           "genitiv": "des heiligen Alfons Maria",
           "vokativ": "Heiliger Alfons",
+          "genitiv_lat": "sancti ",
           "vokativ_lat": "sancte Alfónse"
         }
       }
@@ -2924,7 +3031,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Eusebius",
-          "genitiv": "des heiligen Eusebius"
+          "genitiv": "des heiligen Eusebius",
+          "genitiv_lat": "sancti "
         }
       },
       "n2": {
@@ -2937,7 +3045,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Petrus Julianus Eymard",
           "nominativ": "Der heilige Petrus Julianus",
-          "genitiv": "des heiligen Petrus Julianus"
+          "genitiv": "des heiligen Petrus Julianus",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -3026,7 +3135,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Kajetan",
           "nominativ": "Der heilige Kajetan",
-          "genitiv": "des heiligen Kajetan"
+          "genitiv": "des heiligen Kajetan",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -3080,7 +3190,7 @@ export const adlibData = {
           "farbe": "r",
           "nominativ": "Die heilige Theresia Benedicta vom Kreuz",
           "genitiv": "der heiligen Theresia Benedicta vom Kreuz",
-          "genitiv_lat": "sanctæ Therésiæ Benedíctæ"
+          "genitiv_lat": "sanctæ "
         }
       }
     },
@@ -3104,7 +3214,7 @@ export const adlibData = {
           "button": "Hl. Klara von Assisi",
           "nominativ": "Die heilige Klara",
           "genitiv": "der heiligen Klara",
-          "genitiv_lat": "sanctæ Claræ"
+          "genitiv_lat": "sanctæ "
         }
       }
     },
@@ -3125,7 +3235,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Radegunde",
-          "genitiv": "der heiligen Radegunde"
+          "genitiv": "der heiligen Radegunde",
+          "genitiv_lat": "sanctæ "
         }
       },
       "n2": {
@@ -3144,7 +3255,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Johanna Franziska von Chantal",
-          "genitiv": "der heiligen Johanna Franziska"
+          "genitiv": "der heiligen Johanna Franziska",
+          "genitiv_lat": "sanctæ "
         }
       }
     },
@@ -3167,7 +3279,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Wigbert",
           "nominativ": "Der heilige Wigbert",
-          "genitiv": "des heiligen Wigbert"
+          "genitiv": "des heiligen Wigbert",
+          "genitiv_lat": "sancti "
         }
       },
       "n2": {
@@ -3188,7 +3301,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Pontianus und hl. Hippolyt",
           "farbe": "r",
-          "genitiv": "der Heiligen Pontianus und Hippolyt"
+          "genitiv": "der Heiligen Pontianus und Hippolyt",
+          "genitiv_lat": "sanctórum "
         }
       }
     },
@@ -3222,7 +3336,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Rochus",
           "nominativ": "Der heilige Rochus",
-          "genitiv": "des heiligen Rochus"
+          "genitiv": "des heiligen Rochus",
+          "genitiv_lat": "sancti Rochi"
         }
       },
       "n2": {
@@ -3242,7 +3357,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Stephan von Ungarn",
           "nominativ": "Der heilige Stephan",
-          "genitiv": "des heiligen Stephan"
+          "genitiv": "des heiligen Stephan",
+          "genitiv_lat": "sancti Stéphani"
         }
       }
     },
@@ -3266,7 +3382,8 @@ export const adlibData = {
           "button": "Hl. Maximilian Maria Kolbe",
           "farbe": "r",
           "nominativ": "Der heilige Maximilian",
-          "genitiv": "des heiligen Maximilian Maria Kolbe"
+          "genitiv": "des heiligen Maximilian Maria Kolbe",
+          "genitiv_lat": "sancti Maximiliáni"
         }
       }
     },
@@ -3289,7 +3406,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Johannes Eudes",
           "nominativ": "Der heilige Johannes Eudes",
-          "genitiv": "des heiligen Johannes Eudes"
+          "genitiv": "des heiligen Johannes Eudes",
+          "genitiv_lat": "sancti Iohánnis"
         }
       }
     },
@@ -3344,7 +3462,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Pius X.",
-          "genitiv": "des heiligen Pius X."
+          "genitiv": "des heiligen Pius X.",
+          "genitiv_lat": "sancti Papæ Pii"
         }
       }
     },
@@ -3391,7 +3510,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Rosa von Lima",
           "nominativ": "Die heilige Rosa",
-          "genitiv": "der heiligen Rosa"
+          "genitiv": "der heiligen Rosa",
+          "genitiv_lat": "sanctæ Rosæ"
         }
       }
     },
@@ -3435,7 +3555,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Ludwig IX. von Frankreich",
           "nominativ": "Der heilige Ludwig",
-          "genitiv": "des heiligen Königs Ludwig"
+          "genitiv": "des heiligen Königs Ludwig",
+          "genitiv_lat": "sancti Ludovíci"
         }
       },
       "n2": {
@@ -3456,7 +3577,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Josef von Calasanza",
           "nominativ": "Der heilige Josef von Calasanza",
-          "genitiv": "des heiligen Josef von Calasanza"
+          "genitiv": "des heiligen Josef von Calasanza",
+          "genitiv_lat": "sancti Ioséphi"
         }
       }
     },
@@ -3467,7 +3589,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Sel. Johannes Paul I.",
-          "genitiv": "des seligen Johannes Pauls I."
+          "genitiv": "des seligen Johannes Pauls I.",
+          "genitiv_lat": "sancti Papæ Iohánnis Pauli"
         }
       }
     },
@@ -3489,6 +3612,7 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Monika",
           "genitiv": "der heiligen Monika",
+          "genitiv_lat": "sanctæ Mónicæ",
           "antev": "Du hast sie erhört, o Herr, und ihre Tränen nicht verschmäht.",
           "antev_lat": "Exaudísti eam, Dómine, nec despexísti lácrimas eius, cum profluéntes rigárent terram in omni loco oratiónis eius."
         },
@@ -3518,6 +3642,8 @@ export const adlibData = {
           "button": "Hl. Augustinus",
           "genitiv": "des heiligen Augustinus",
           "vokativ": "Heiliger Augustinus",
+          "genitiv_lat": "sancti Augustíni",
+          "vokativ_lat": "sancte Augustíne",
           "antev": "Deine Gnade ist es, o Herr, dass es mir Freude macht, dich zu loben, denn auf dich hin hast du uns geschaffen; und unruhig ist unser Herz, bis es ruht in dir.",
           "antev_lat": "Tu éxcitas, Dómine, ut laudáre te deléctet, quia fecísti nos ad te; et inquiétum est cor nostrum donec requiéscat in te.",
           "hymn_1_lat": 8828.0
@@ -3546,7 +3672,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Paulinus",
-          "genitiv": "des heiligen Paulinus"
+          "genitiv": "des heiligen Paulinus",
+          "genitiv_lat": "sancti Paulíni"
         }
       }
     }
@@ -3572,6 +3699,7 @@ export const adlibData = {
           "button": "Hl. Gregor der Große",
           "genitiv": "des heiligen Gregor",
           "vokativ": "Heiliger Gregor",
+          "genitiv_lat": "sancti Gregórii",
           "antev": "Als guter Hirt seiner Herde hat Gregor der Kirche das Beispiel seines Lebens hinterlassen und die Weisung seiner Lehre.",
           "antev_lat": "Pastor exímius Gregórius pastorális vitæ spécimen trádidit et régulam.",
           "hymn_1_lat": 8903.0
@@ -3591,7 +3719,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Mutter Teresa von Kalkutta",
-          "genitiv": "der heiligen Mutter Teresa"
+          "genitiv": "der heiligen Mutter Teresa",
+          "genitiv_lat": "sanctæ Teresæ"
         }
       }
     },
@@ -3606,7 +3735,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Petrus Claver",
           "nominativ": "Der heilige Petrus Claver",
-          "genitiv": "des heiligen Petrus Claver"
+          "genitiv": "des heiligen Petrus Claver",
+          "genitiv_lat": "sancti Petri Claver"
         }
       }
     },
@@ -3651,6 +3781,7 @@ export const adlibData = {
           "button": "Hl. Johannes Chrysostomus",
           "genitiv": "des heiligen Johannes Chrysostomus",
           "vokativ": "Heiliger Johannes Chrysostomus",
+          "genitiv_lat": "sancti Iohánnis Chrysóstomi",
           "hymn_1_lat": 8913.0
         },
         "Vesper": {
@@ -3678,6 +3809,7 @@ export const adlibData = {
           "button": "Hl. Kornelius und hl. Cyprian",
           "farbe": "r",
           "genitiv": "der Heiligen Kornelius und Cyprian",
+          "genitiv_lat": "sanctórum Cornélii et Cypriáni",
           "antev": "O kostbarer Tod, der um den Preis des Blutes die Unsterblichkeit erkauft!",
           "antev_lat": "Pretiósa mors, quæ emit immortalitátem prétio sui sánguinis!"
         },
@@ -3706,7 +3838,9 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Hildegard von Bingen",
           "genitiv": "der heiligen Hildegard",
-          "vokativ": "Heilige Hildegard"
+          "vokativ": "Heilige Hildegard",
+          "genitiv_lat": "sanctæ Hildegardis",
+          "vokativ_lat": "sancta Hildegard"
         }
       },
       "n2": {
@@ -3727,7 +3861,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Robert Bellarmin",
           "genitiv": "des heiligen Robert Bellarmin",
-          "vokativ": "Heiliger Robert Bellarmin"
+          "vokativ": "Heiliger Robert Bellarmin",
+          "genitiv_lat": "sancti Robérti Bellarmin"
         }
       }
     },
@@ -3750,7 +3885,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Lambert",
           "farbe": "r",
-          "genitiv": "des heiligen Lambert"
+          "genitiv": "des heiligen Lambert",
+          "genitiv_lat": "sancti Lambérti"
         }
       }
     },
@@ -3773,7 +3909,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Januarius",
           "farbe": "r",
-          "genitiv": "des heiligen Januarius"
+          "genitiv": "des heiligen Januarius",
+          "genitiv_lat": "sancti Ianuárii"
         }
       }
     },
@@ -3787,7 +3924,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Andreas Kim Taegon, hl. Paulus Chong Hasang und Gefährten",
           "farbe": "r",
-          "genitiv": "der heiligen Andreas und Paulus und ihrer Gefährten"
+          "genitiv": "der heiligen Andreas und Paulus und ihrer Gefährten",
+          "genitiv_lat": "sanctórum Andreæ, Pauli et sociórum"
         }
       }
     },
@@ -3841,7 +3979,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Pius von Pietrelcina",
           "nominativ": "Der heilige Pater Pio",
-          "genitiv": "des heiligen Pater Pio"
+          "genitiv": "des heiligen Pater Pio",
+          "genitiv_lat": "sancti Pii"
         }
       }
     },
@@ -3862,6 +4001,7 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Rupert und hl. Virgil",
           "genitiv": "der Heiligen Rupert und Virgil",
+          "genitiv_lat": "sanctórum Rupérti et Virgílis",
           "antev": "Weise Hirten sandte Christus seinem Volk, die ihm den Weg zum Lichte wiesen."
         },
         "Vesper": {
@@ -3887,6 +4027,7 @@ export const adlibData = {
           "button": "Hl. Nikolaus von Flüe",
           "nominativ": "Der heilige Niklaus von Flüe",
           "genitiv": "des heiligen Niklaus von Flüe",
+          "genitiv_lat": "sancti Nicolæ",
           "antev": "Der Herr hat mich erleuchtet. Er lenkte meine Schritte auf den Weg des Friedens."
         },
         "Vesper": {
@@ -3912,7 +4053,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Kosmas und hl. Damian",
           "farbe": "r",
-          "genitiv": "der Heiligen Kosmas und hl. Damian"
+          "genitiv": "der Heiligen Kosmas und hl. Damian",
+          "genitiv_lat": "sanctórum Cosmæ et Damiáni"
         }
       }
     },
@@ -3936,6 +4078,7 @@ export const adlibData = {
           "button": "Hl. Vinzenz von Paul",
           "nominativ": "Der heilige Vinzenz",
           "genitiv": "des heiligen Vinzenz",
+          "genitiv_lat": "sancti Vincéntis",
           "antev": "Vinzenz, ein Freund der Armen, tröstete die Trauernden, sorgte für die Witwen und trat für die Waisen ein.",
           "antev_lat": "Erat Vincéntius consolátor mæréntium, insígnis defénsor pupillórum, ac viduárum munerátor."
         },
@@ -3963,6 +4106,8 @@ export const adlibData = {
           "button": "Hl. Hieronymus",
           "genitiv": "des heiligen Hieronymus",
           "vokativ": "Heiliger Hieronymus",
+          "genitiv_lat": "sancti Hierónymi",
+          "vokativ_lat": "sancte Hierónyme",
           "hymn_1_lat": 8930.0
         },
         "Vesper": {
@@ -3990,6 +4135,7 @@ export const adlibData = {
           "button": "Hl. Theresia vom Kinde Jesus",
           "nominativ": "Die heilige Therese",
           "genitiv": "der heiligen Therese",
+          "genitiv_lat": "sanctæ Theresæ",
           "antev": "Amen, ich sage euch: Wenn ihr nicht umkehrt und werdet wie die Kinder, kommt ihr nicht in das Himmelreich."
         },
         "Vesper": {
@@ -4015,6 +4161,7 @@ export const adlibData = {
           "button": "Hl. Franz von Assisi",
           "nominativ": "Der heilige Franz von Assisi",
           "genitiv": "des heiligen Franz von Assisi",
+          "genitiv_lat": "sancti Francísci",
           "antev": "Franziskus, arm und gering auf Erden, zieht reich in den Himmel ein, und festlicher Gesang erklingt zu seiner Ehre."
         },
         "Vesper": {
@@ -4032,7 +4179,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Faustina Kowalska",
           "nominativ": "Die heilige Schwester Faustina",
-          "genitiv": "der heiligen Schwester Faustina"
+          "genitiv": "der heiligen Schwester Faustina",
+          "genitiv_lat": "sanctæ Faustinæ"
         }
       }
     },
@@ -4054,7 +4202,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Bruno",
           "nominativ": "Der heilige Bruno",
-          "genitiv": "des heiligen Bruno"
+          "genitiv": "des heiligen Bruno",
+          "genitiv_lat": "sancti Brunónis"
         }
       }
     },
@@ -4076,7 +4225,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Gunther von Thüringen",
           "nominativ": "Der heilige Gunther",
-          "genitiv": "des heiligen Gunther"
+          "genitiv": "des heiligen Gunther",
+          "genitiv_lat": "sancti Gunthéri"
         }
       },
       "n2": {
@@ -4114,7 +4264,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Johannes Leonardi",
           "nominativ": "Der heilige Johannes Leonardi",
-          "genitiv": "des heiligen Johannes Leonardi"
+          "genitiv": "des heiligen Johannes Leonardi",
+          "genitiv_lat": "sancti "
         }
       },
       "n4": {
@@ -4124,7 +4275,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. John Henry Newman",
-          "genitiv": "des heiligen John Henry Newman"
+          "genitiv": "des heiligen John Henry Newman",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -4136,7 +4288,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Johannes XXIII.",
-          "genitiv": "des heiligen Johannes XXIII."
+          "genitiv": "des heiligen Johannes XXIII.",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -4158,7 +4311,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Kallistus I.",
           "farbe": "r",
-          "genitiv": "des heiligen Kallistus I."
+          "genitiv": "des heiligen Kallistus I.",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -4180,7 +4334,8 @@ export const adlibData = {
           "button": "Hl. Theresia von Jesus",
           "nominativ": "Die heilige Theresia",
           "genitiv": "der heiligen Theresia",
-          "vokativ": "Heilige Theresia"
+          "vokativ": "Heilige Theresia",
+          "genitiv_lat": "sanctæ "
         }
       }
     },
@@ -4201,7 +4356,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Lullus",
-          "genitiv": "des heiligen Lullus"
+          "genitiv": "des heiligen Lullus",
+          "genitiv_lat": "sancti "
         }
       },
       "n2": {
@@ -4221,7 +4377,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Margareta Maria Alacoque",
           "nominativ": "Die heilige Margareta Maria",
-          "genitiv": "der heiligen Margareta Maria Alacoque"
+          "genitiv": "der heiligen Margareta Maria Alacoque",
+          "genitiv_lat": "sanctæ "
         }
       },
       "n3": {
@@ -4240,6 +4397,7 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Hedwig",
           "genitiv": "der heiligen Hedwig",
+          "genitiv_lat": "sanctæ ",
           "antev": "Gottes Wille sei auch unser Wille. Was immer unserem Herrn gefällt, soll auch uns gefallen."
         },
         "Vesper": {
@@ -4263,7 +4421,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Gallus",
           "nominativ": "Der heilige Gallus",
-          "genitiv": "des heiligen Gallus"
+          "genitiv": "des heiligen Gallus",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -4286,6 +4445,7 @@ export const adlibData = {
           "button": "Hl. Ignatius von Antiochien",
           "farbe": "r",
           "genitiv": "des heiligen Ignatius",
+          "genitiv_lat": "sancti ",
           "antev": "Ihn suche ich, der für uns starb, nach ihm verlange ich, der für uns auferstand."
         },
         "Vesper": {
@@ -4311,7 +4471,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Johannes de Brébeuf, Isaak Jogues und Gefährten",
           "farbe": "r",
-          "genitiv": "der Heiligen Johannes und Isaak und ihrer Gefährten"
+          "genitiv": "der Heiligen Johannes und Isaak und ihrer Gefährten",
+          "genitiv_lat": "sanctæ "
         }
       },
       "n2": {
@@ -4331,7 +4492,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Paul vom Kreuz",
           "nominativ": "Der heilige Paul vom Kreuz",
-          "genitiv": "des heiligen Paul vom Kreuz"
+          "genitiv": "des heiligen Paul vom Kreuz",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -4352,7 +4514,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Wendelin",
           "nominativ": "Der heilige Wendelin",
-          "genitiv": "des heiligen Wendelin"
+          "genitiv": "des heiligen Wendelin",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -4375,7 +4538,8 @@ export const adlibData = {
           "button": "Hl. Ursula und Gefährtinnen",
           "farbe": "r",
           "nominativ": "Die heilige Ursula und ihre Gefährtinnen",
-          "genitiv": "der heiligen Ursula und ihrer Gefährtinnen"
+          "genitiv": "der heiligen Ursula und ihrer Gefährtinnen",
+          "genitiv_lat": "sanctæ "
         }
       }
     },
@@ -4395,7 +4559,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Johannes Paul II.",
-          "genitiv": "des heiligen Johannes Paul II."
+          "genitiv": "des heiligen Johannes Paul II.",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -4415,7 +4580,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Johannes von Capestrano",
-          "genitiv": "des heiligen Johannes"
+          "genitiv": "des heiligen Johannes",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -4435,7 +4601,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Antonius Maria Claret",
-          "genitiv": "des heiligen Antonius Maria Claret"
+          "genitiv": "des heiligen Antonius Maria Claret",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -4456,7 +4623,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Witta (Albuin)",
-          "genitiv": "des heiligen Witta"
+          "genitiv": "des heiligen Witta",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -4476,7 +4644,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Wolfgang",
-          "genitiv": "des heiligen Wolfgang"
+          "genitiv": "des heiligen Wolfgang",
+          "genitiv_lat": "sancti "
         }
       }
     }
@@ -4498,7 +4667,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Hubert",
-          "genitiv": "des heiligen Hubert"
+          "genitiv": "des heiligen Hubert",
+          "genitiv_lat": "sancti "
         }
       },
       "n2": {
@@ -4516,7 +4686,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Pirmin",
-          "genitiv": "des heiligen Pirmin"
+          "genitiv": "des heiligen Pirmin",
+          "genitiv_lat": "sancti "
         }
       },
       "n3": {
@@ -4536,6 +4707,7 @@ export const adlibData = {
           "button": "Hl. Martin von Porres",
           "nominativ": "Der heilige Martin",
           "genitiv": "des heiligen Martin",
+          "genitiv_lat": "sancti ",
           "antev": "Gepriesen sei der Herr, denn er hat allen Völkern Erlösung geschaffen und sie aus der Finsternis in sein wunderbares Licht gerufen."
         },
         "Vesper": {
@@ -4551,7 +4723,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Rupert Mayer",
           "nominativ": "Der heilige Rupert Mayer",
-          "genitiv": "des heiligen Rupert Mayer"
+          "genitiv": "des heiligen Rupert Mayer",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -4571,7 +4744,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Karl Borromäus",
-          "genitiv": "des heiligen Karl Borromäus"
+          "genitiv": "des heiligen Karl Borromäus",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -4592,7 +4766,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Leonhard",
           "nominativ": "Der heilige Leonhard",
-          "genitiv": "des heiligen Leonhard"
+          "genitiv": "des heiligen Leonhard",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -4613,6 +4788,7 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Willibrord",
           "genitiv": "des heiligen Willibrord",
+          "genitiv_lat": "sancti ",
           "antev": "Wie herrlich leuchten die Taten des heiligen Willibrord! Vielen Völkern hat er das Licht des Glaubens gebracht; ewiger Lohn wurde ihm zuteil."
         },
         "Vesper": {
@@ -4638,6 +4814,7 @@ export const adlibData = {
           "button": "Hl. Leo der Große",
           "genitiv": "des heiligen Leo",
           "vokativ": "Heiliger Leo",
+          "genitiv_lat": "sancti ",
           "antev": "Der Herr hat Petrus die Festigkeit eines Felsens verliehen und ihm die Leitung seiner Kirche anvertraut. Was Christus ihm übergab, hat Petrus treu bewahrt."
         },
         "Vesper": {
@@ -4663,7 +4840,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Josaphat",
           "farbe": "r",
-          "genitiv": "des heiligen Josaphat"
+          "genitiv": "des heiligen Josaphat",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -4684,7 +4862,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Albert der Große",
           "genitiv": "des heiligen Albert der Große",
-          "vokativ": "Heiliger Albert der Große"
+          "vokativ": "Heiliger Albert der Große",
+          "genitiv_lat": "sancti "
         }
       },
       "n2": {
@@ -4703,7 +4882,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Leopold",
           "nominativ": "Der heilige Leopold",
-          "genitiv": "des heiligen Leopold"
+          "genitiv": "des heiligen Leopold",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -4723,7 +4903,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Margareta von Schottland",
-          "genitiv": "der heiligen Margareta"
+          "genitiv": "der heiligen Margareta",
+          "genitiv_lat": "sanctæ "
         }
       }
     },
@@ -4745,7 +4926,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Gertrud von Helfta",
           "nominativ": "Die heilige Gertrud",
-          "genitiv": "der heiligen Gertrud"
+          "genitiv": "der heiligen Gertrud",
+          "genitiv_lat": "sanctæ "
         }
       }
     },
@@ -4815,6 +4997,7 @@ export const adlibData = {
           "button": "Hl. Cäcilia",
           "nominativ": "Die heilige Cäcilia",
           "genitiv": "der heiligen Cäcilia",
+          "genitiv_lat": "sanctæ ",
           "antev": "Als die Nacht zu Ende ging, rief Cäcilia: Auf, ihr Streiter Christi, legt ab die Werke der Finsternis und zieht die Waffen des Lichtes an."
         },
         "Vesper": {
@@ -4839,7 +5022,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Kolumban",
           "nominativ": "Der heilige Kolumban",
-          "genitiv": "des heiligen Kolumban"
+          "genitiv": "des heiligen Kolumban",
+          "genitiv_lat": "sancti "
         }
       },
       "n2": {
@@ -4859,7 +5043,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Klemens I.",
           "farbe": "r",
-          "genitiv": "des heiligen Papstes Klemens I."
+          "genitiv": "des heiligen Papstes Klemens I.",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -4894,7 +5079,8 @@ export const adlibData = {
           "button": "Hl. Katharina von Alexandrien",
           "farbe": "r",
           "nominativ": "Die heilige Katharina",
-          "genitiv": "der heiligen Katharina"
+          "genitiv": "der heiligen Katharina",
+          "genitiv_lat": "sanctæ "
         }
       }
     },
@@ -4914,7 +5100,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Konrad und hl. Gebhard",
-          "genitiv": "der Heiligen Konrad und Gebhard"
+          "genitiv": "der Heiligen Konrad und Gebhard",
+          "genitiv_lat": "sanctæ "
         }
       }
     }
@@ -4937,6 +5124,7 @@ export const adlibData = {
         "Laudes": {
           "button": "Bischofsweihe des hl. Bonifatius",
           "genitiv": "des heiligen Bonifatius",
+          "genitiv_lat": "sancti ",
           "antev": "Jeder Hohepriester wird aus den Menschen ausgewählt und für die Menschen eingesetzt zum Dienst vor Gott. Keiner nimmt sich eigenmächtig diese Würde, sondern er wird von Gott berufen."
         },
         "Vesper": {
@@ -4951,7 +5139,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Charles de Foucauld",
           "nominativ": "Der heilige Charles de Foucauld",
-          "genitiv": "des heiligen Charles de Foucauld"
+          "genitiv": "des heiligen Charles de Foucauld",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -4991,7 +5180,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Franz Xaver",
-          "genitiv": "des heiligen Franz Xaver"
+          "genitiv": "des heiligen Franz Xaver",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -5014,7 +5204,8 @@ export const adlibData = {
           "button": "Hl. Barbara",
           "farbe": "r",
           "nominativ": "Die heilige Barbara",
-          "genitiv": "der heiligen Barbara"
+          "genitiv": "der heiligen Barbara",
+          "genitiv_lat": "sanctæ "
         }
       },
       "n2": {
@@ -5033,7 +5224,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Johannes von Damaskus",
           "genitiv": "des heiligen Johannes",
-          "vokativ": "Heiliger Johannes"
+          "vokativ": "Heiliger Johannes",
+          "genitiv_lat": "sancti "
         }
       },
       "n3": {
@@ -5045,7 +5237,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Sel. Adolph Kolping",
           "nominativ": "Der selige Adolph",
-          "genitiv": "des seligen Adolph Kolping"
+          "genitiv": "des seligen Adolph Kolping",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -5065,7 +5258,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Anno",
-          "genitiv": "des heiligen Anno"
+          "genitiv": "des heiligen Anno",
+          "genitiv_lat": "sancti "
         }
       },
       "n2": {
@@ -5084,7 +5278,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Sola",
-          "genitiv": "des heiligen Sola"
+          "genitiv": "des heiligen Sola",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -5104,7 +5299,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Nikolaus",
-          "genitiv": "des heiligen Nikolaus"
+          "genitiv": "des heiligen Nikolaus",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -5125,7 +5321,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Ambrosius",
           "genitiv": "des heiligen Ambrosius",
-          "vokativ": "Heiliger Ambrosius"
+          "vokativ": "Heiliger Ambrosius",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -5149,6 +5346,7 @@ export const adlibData = {
           "button": "Sel. Liborius Wagner",
           "farbe": "r",
           "genitiv": "des seligen Liborius Wagner",
+          "genitiv_lat": "sancti ",
           "antev": "Des alten Glaubens neuer Zeuge, ward Liborius in seinem Leiden den Märtyrern der frühen Kirche gleich. So sollte Gott in seinem treuen Knecht verherrlicht werden.",
           "antev_lat": "Antiquíssimæ fídei novus martyr, Libórius véterum mártyrum factus est novum exémplar, ut in servo fidéli glorificarétur Deus."
         },
@@ -5165,7 +5363,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Juan Diego",
           "nominativ": "Der heilige Juan Diego",
-          "genitiv": "des heiligen Juan Diego"
+          "genitiv": "des heiligen Juan Diego",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -5185,7 +5384,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Damasus I.",
-          "genitiv": "des heiligen Damasus"
+          "genitiv": "des heiligen Damasus",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -5205,7 +5405,8 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Odilia",
-          "genitiv": "der heiligen Odilia"
+          "genitiv": "der heiligen Odilia",
+          "genitiv_lat": "sanctæ "
         }
       },
       "eig": {
@@ -5227,6 +5428,7 @@ export const adlibData = {
           "farbe": "r",
           "nominativ": "Die heilige Luzia",
           "genitiv": "der heiligen Luzia",
+          "genitiv_lat": "sanctæ ",
           "antev": "Ich habe keinem anderen geopfert als dem lebendigen Gott. Nun, da mir nichts mehr geblieben ist, bringe ich mich selbst zum Opfer dar."
         },
         "Vesper": {
@@ -5251,7 +5453,8 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Johannes vom Kreuz",
           "genitiv": "des heiligen Johannes vom Kreuz",
-          "vokativ": "Heiliger Johannes vom Kreuz"
+          "vokativ": "Heiliger Johannes vom Kreuz",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -5272,6 +5475,7 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Johannes von Krakau",
           "genitiv": "des heiligen Johannes",
+          "genitiv_lat": "sancti ",
           "ant_komm": "Daran werden alle erkennen, dass ihr meine Jünger seid: wenn ihr einander liebt."
         },
         "Vesper": {
@@ -5298,6 +5502,7 @@ export const adlibData = {
           "button": "Hl. Thomas Becket",
           "farbe": "r",
           "genitiv": "des heiligen Thomas Becket",
+          "genitiv_lat": "sancti ",
           "ant_komm": "Wer sein Leben liebt, wird es verlieren; doch wer in dieser Welt sein Leben hasst, der wird es bewahren für das ewige Leben."
         },
         "Vesper": {
@@ -5322,6 +5527,7 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Silvester I.",
           "genitiv": "des heiligen Silvester",
+          "genitiv_lat": "sancti ",
           "ant_komm": "Nicht ihr werdet reden, sondern der Geist eures Vaters redet durch euch."
         }
       }

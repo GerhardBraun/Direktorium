@@ -238,22 +238,23 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
 
         // Process Heiligenfeste only if rank is appropriate
         if (rank_date > 1 && rank_date > rank_wt) {
-            processHeiligenfeste(hours, season, rank_date, dayOfWeek, calendarMonth, calendarDay, 'eig');
+            processHeilige(hours, season, calendarMonth, calendarDay);
         }
 
         // Sonderfall: MaterEcclesiae bzw. Herz Mariae und gebotener Gedenktag
         if (afterPentecost) {
-            processNichtgeboteneGedenktage(hours, season, '5', afterPentecost);
+            processHeilige(hours, season, '5', afterPentecost, 'eig', 'wt');
+            processAdLib(hours, season, '5', afterPentecost);
             if (rank_date === 2) {
-                processHeiligenfeste(hours, season, rank_date, dayOfWeek, calendarMonth, calendarDay, 'eig', 'n1');
-                processNichtgeboteneGedenktage(hours, season, calendarMonth, calendarDay, true);
+                processHeilige(hours, season, calendarMonth, calendarDay, 'eig', 'n1');
+                processAdLib(hours, season, calendarMonth, calendarDay, true);
             }
         }
         // Layer 9: nichtgebotene Gedenktage
         else if (rank_wt < 3) {
-            processHeiligenfeste(hours, season, rank_date, dayOfWeek, calendarMonth, calendarDay, 'n1');
-            processHeiligenfeste(hours, season, rank_date, dayOfWeek, calendarMonth, calendarDay, 'n2');
-            processNichtgeboteneGedenktage(hours, season, calendarMonth, calendarDay);
+            processHeilige(hours, season, calendarMonth, calendarDay, 'n1');
+            processHeilige(hours, season, calendarMonth, calendarDay, 'n2');
+            processAdLib(hours, season, calendarMonth, calendarDay);
         }
 
         return {
@@ -325,7 +326,7 @@ function processCommune(hours, season, targetSource) {
     });
 }
 
-function processNichtgeboteneGedenktage(hours, season, calendarMonth, calendarDay, sameRank = false) {
+function processAdLib(hours, season, calendarMonth, calendarDay, sameRank = false) {
     const nichtgebData = adlibData?.[calendarMonth]?.[calendarDay];
     if (nichtgebData) {
         // Array mit allen zu durchsuchenden Schlüsseln
@@ -344,7 +345,7 @@ function processNichtgeboteneGedenktage(hours, season, calendarMonth, calendarDa
     }
 }
 
-function processHeiligenfeste(hours, season, rank_date, dayOfWeek, calendarMonth, calendarDay,
+function processHeilige(hours, season, calendarMonth, calendarDay,
     sourceKey = 'eig', targetKey = '') {
     // Commune texts processing
     if (!targetKey) { targetKey = sourceKey }
@@ -354,9 +355,6 @@ function processHeiligenfeste(hours, season, rank_date, dayOfWeek, calendarMonth
         mergeData(hours, communeData, targetKey);
         processCommune(hours, season, targetKey);
     }
-
-    const calendarData = brevierData?.[sourceKey]?.[calendarMonth]?.[calendarDay];
-    if (calendarData) mergeData(hours, calendarData, sourceKey);
 }
 function processTerzPsalms(hours) {
     // Definiere die zu prüfenden Stunden
@@ -462,6 +460,23 @@ function processInvitatoriumPsalms(hours) {
 }
 
 function processEasterResponses(hours) {
+    function processResponseSet(data) {
+        if (data.resp1 && data.resp2) {
+            if (!data.resp2.startsWith('Hallel')) {
+                data.resp1 = `${data.resp1} ${data.resp2}`;
+                data.resp2 = 'Halleluja,°halleluja.';
+            }
+        }
+
+        // Lateinische Responsorien verarbeiten
+        if (data.resp1_lat && data.resp2_lat) {
+            if (!data.resp2_lat.startsWith('Allel')) {
+                data.resp1_lat = `${data.resp1_lat} ${data.resp2_lat}`;
+                data.resp2_lat = 'Allelúia,°allelúia.';
+            }
+        }
+    }
+
     // Nur Laudes und Vesper bearbeiten
     ['laudes', 'vesper'].forEach(hour => {
         if (!hours[hour]) return;
@@ -482,23 +497,6 @@ function processEasterResponses(hours) {
         });
     });
     return hours;
-}
-
-function processResponseSet(data) {
-    if (data.resp1 && data.resp2) {
-        if (!data.resp2.startsWith('Hallel')) {
-            data.resp1 = `${data.resp1} ${data.resp2}`;
-            data.resp2 = 'Halleluja,°halleluja.';
-        }
-    }
-
-    // Lateinische Responsorien verarbeiten
-    if (data.resp1_lat && data.resp2_lat) {
-        if (!data.resp2_lat.startsWith('Allel')) {
-            data.resp1_lat = `${data.resp1_lat} ${data.resp2_lat}`;
-            data.resp2_lat = 'Allelúia,°allelúia.';
-        }
-    }
 }
 
 function processKompletData(data, calendarDate) {
