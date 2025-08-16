@@ -13,29 +13,68 @@ const NavigationButtons = ({ hour, onBack, onSelectHour, topButton = false, text
                     { label: 'Laudes', hour: 'laudes' },
                     { label: 'Vesper', hour: 'vesper' }
                 ];
+            case 'laudes':
+                return [
+                    { label: 'Terz/Sext/Non', hour: 'terz' }
+                ];
+            case 'terz':
+            case 'sext':
+            case 'non':
+                return [
+                    { label: 'Vesper', hour: 'vesper' }
+                ];
             case 'vesper':
                 return [
-                    { label: '', hour: null },
+                    { label: 'Marian. Ant.', hour: 'komplet' },
                     { label: 'Komplet', hour: 'komplet' }
+                ];
+            case 'komplet':
+                return [
+                    { label: 'zurück zur Vesper', hour: 'vesper' },
+                    ''
                 ];
             default:
                 return [];
         }
     };
 
+    const getGridClass = (nextHours) => {
+        if (nextHours?.length === 1) { return 'right' }
+        if (nextHours?.length === 2) {
+            if (!nextHours[0]?.hour) { return 'right' }
+            if (!nextHours[1]?.hour) { return 'left' }
+        }
+        return '';
+    }
+
     const handleHourChange = (nextHour) => {
-        if (nextHour) {
-            console.log('NavigationButton: ommitOpening=true')
+        const { hour, label } = nextHour;
+        // Wenn kein hour angegeben ist, nichts tun
+        if (!hour) return;
+        if (['invitatorium', 'lesehore'].includes(hour)) {
             localStorage.setItem('ommitOpening', 'true')
-            // Zuerst zur nächsten Hore wechseln
-            onSelectHour(nextHour, texts);
-            // Dann nach oben scrollen
+        }
+        // Zuerst zur nächsten Hore wechseln
+        onSelectHour(hour, texts);
+
+        // Scroll-Verhalten je nach Label
+        if (label.startsWith('Marian') || label.startsWith('zurück')) {
+            // 50 Millisekunden warten, bis DOM aktualisiert ist, dann nach unten scrollen
+            setTimeout(() => {
+                window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+            }, 50);
+        } else {
             window.scrollTo({ top: 0, behavior: 'instant' });
         }
     };
 
-    const shouldShowNavigationButtons = ['invitatorium', 'lesehore', 'vesper'].includes(hour);
-    const nextHours = shouldShowNavigationButtons ? getNextHours(hour) : [];
+    const nextHours = getNextHours(hour);
+    const gridClass = getGridClass(nextHours)
+    const singleButton =
+        gridClass === 'left' ? '\u00A0←\u00A0' + nextHours[0].label
+            : gridClass === 'right' ? nextHours[0].label + '\u00A0→\u00A0\u00A0\u00A0'
+                : ''
+
 
     if (topButton) {
         return (
@@ -55,7 +94,7 @@ const NavigationButtons = ({ hour, onBack, onSelectHour, topButton = false, text
         );
     }
 
-    if (!shouldShowNavigationButtons) {
+    if (!nextHours || nextHours.length === 0) {
         return (
             <button
                 onClick={onBack}
@@ -78,19 +117,32 @@ const NavigationButtons = ({ hour, onBack, onSelectHour, topButton = false, text
             >
                 ← Auswahl
             </button>
-            {nextHours.map((nextHour, index) => (
+            {gridClass ? (
+                // Wenn nur ein Button: 2/3 der Breite, rechtsbündig
                 <button
-                    key={index}
-                    onClick={() => handleHourChange(nextHour.hour)}
-                    disabled={!nextHour.hour}
-                    className={`p-2 rounded-sm text-sm
-            ${nextHour.hour
-                            ? 'bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-rubric'
-                            : 'bg-gray-50 dark:bg-gray-900 text-gray-400 dark:text-gray-600 cursor-default'}`}
+                    onClick={() => handleHourChange(nextHours[0])}
+                    className={`col-span-2 p-2 rounded-sm text-sm
+                        text-${gridClass}
+                        bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-rubric`}
                 >
-                    {(nextHour.label ? `${nextHour.label} →` : null)}
+                    {singleButton}
                 </button>
-            ))}
+            ) : (
+                // Wenn mehrere Buttons: normale Verteilung
+                nextHours.map((nextHour, index) => (
+                    <button
+                        key={index}
+                        onClick={() => handleHourChange(nextHour)}
+                        disabled={!nextHour.hour}
+                        className={`p-2 rounded-sm text-sm
+                            ${nextHour.hour
+                                ? 'bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-rubric'
+                                : 'bg-gray-50 dark:bg-gray-900 text-gray-400 dark:text-gray-600 cursor-default'}`}
+                    >
+                        {(nextHour.label ? `${nextHour.label} →` : null)}
+                    </button>
+                ))
+            )}
         </div>
     );
 };
