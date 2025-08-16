@@ -5,32 +5,32 @@ const NavigationButtons = ({ hour, onBack, onSelectHour, topButton = false, text
         switch (currentHour) {
             case 'invitatorium':
                 return [
-                    { label: 'Lesehore', hour: 'lesehore' },
-                    { label: 'Laudes', hour: 'laudes' }
+                    { label: 'Lesehore', name: 'lesehore' },
+                    { label: 'Laudes', name: 'laudes' }
                 ];
             case 'lesehore':
                 return [
-                    { label: 'Laudes', hour: 'laudes' },
-                    { label: 'Vesper', hour: 'vesper' }
+                    { label: 'Laudes', name: 'laudes' },
+                    { label: 'Vesper', name: 'vesper' }
                 ];
             case 'laudes':
                 return [
-                    { label: 'Terz/Sext/Non', hour: 'terz' }
+                    { label: 'Terz/Sext/Non', name: 'terz' }
                 ];
             case 'terz':
             case 'sext':
             case 'non':
                 return [
-                    { label: 'Vesper', hour: 'vesper' }
+                    { label: 'Vesper', name: 'vesper' }
                 ];
             case 'vesper':
                 return [
-                    { label: 'Marian. Ant.', hour: 'komplet' },
-                    { label: 'Komplet', hour: 'komplet' }
+                    { label: 'Marian. Ant.', name: 'komplet' },
+                    { label: 'Komplet', name: 'komplet' }
                 ];
             case 'komplet':
                 return [
-                    { label: 'zurück zur Vesper', hour: 'vesper' },
+                    { label: 'zurück zur Vesper', name: 'vesper' },
                     ''
                 ];
             default:
@@ -41,21 +41,21 @@ const NavigationButtons = ({ hour, onBack, onSelectHour, topButton = false, text
     const getGridClass = (nextHours) => {
         if (nextHours?.length === 1) { return 'right' }
         if (nextHours?.length === 2) {
-            if (!nextHours[0]?.hour) { return 'right' }
-            if (!nextHours[1]?.hour) { return 'left' }
+            if (!nextHours[0]?.name) { return 'right' }
+            if (!nextHours[1]?.name) { return 'left' }
         }
         return '';
     }
 
     const handleHourChange = (nextHour) => {
-        const { hour, label } = nextHour;
-        // Wenn kein hour angegeben ist, nichts tun
-        if (!hour) return;
+        const { name, label } = nextHour;
+        // Wenn kein name angegeben ist, nichts tun
+        if (!name) return;
         if (['invitatorium', 'lesehore'].includes(hour)) {
             localStorage.setItem('ommitOpening', 'true')
         }
         // Zuerst zur nächsten Hore wechseln
-        onSelectHour(hour, texts);
+        onSelectHour(name, texts);
 
         // Scroll-Verhalten je nach Label
         if (label.startsWith('Marian') || label.startsWith('zurück')) {
@@ -133,9 +133,9 @@ const NavigationButtons = ({ hour, onBack, onSelectHour, topButton = false, text
                     <button
                         key={index}
                         onClick={() => handleHourChange(nextHour)}
-                        disabled={!nextHour.hour}
+                        disabled={!nextHour.name}
                         className={`p-2 rounded-sm text-sm
-                            ${nextHour.hour
+                            ${nextHour.name
                                 ? 'bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-rubric'
                                 : 'bg-gray-50 dark:bg-gray-900 text-gray-400 dark:text-gray-600 cursor-default'}`}
                     >
