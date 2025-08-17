@@ -51,9 +51,9 @@ const NavigationButtons = ({ hour, onBack, onSelectHour, topButton = false, text
         const { name, label } = nextHour;
         // Wenn kein name angegeben ist, nichts tun
         if (!name) return;
-        if (['invitatorium', 'lesehore'].includes(hour)) {
-            localStorage.setItem('ommitOpening', 'true')
-        }
+        localStorage.setItem('ommitOpening',
+            ['invitatorium', 'lesehore'].includes(hour)
+                ? 'true' : 'false');
         // Zuerst zur nächsten Hore wechseln
         onSelectHour(name, texts);
 
