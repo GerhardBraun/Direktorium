@@ -13,7 +13,7 @@ interface DeceasedData {
   };
 }
 
-export const deceasedData = {
+export const deceasedData =  {
   "1": {
     "1": [
       {
@@ -6873,7 +6873,7 @@ export const deceasedData = {
         "birthdate": "2288-07-31",
         "name": "Piotr Andrzej°Maśnica°(Tarnów), Pfr., Polenseelsorger°in°Stadtallendorf",
         "birth": "31.°Juli°1988°in°Limanowa (PL¥-34¥-600)",
-        "grave": "Friedhof°Łososina°Górna (PL¥-34¥-600)",
+        "grave": "Friedhof°Łososina°Górna (PL¥0-34¥0-600)",
         "age": 37
       }
     ],
@@ -6927,6 +6927,14 @@ export const deceasedData = {
         "birth": "29.°Februar°1912°in°Altenmittlau",
         "grave": "Friedhof°Altenmittlau",
         "age": 64
+      },
+      {
+        "year": 2025,
+        "birthdate": "2238-04-30",
+        "name": "Nikolaus°Schwarz, Pfr.i.R., Fulda¥-Horas",
+        "birth": "30.°April°1938°in°Wolfersweiler (D¥-66625°Nohfelden)",
+        "grave": "Friedhof°Grüsselbach",
+        "age": 87
       }
     ],
     "15": [

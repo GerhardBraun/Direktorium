@@ -15,7 +15,7 @@ const resolveReference = (ref) => {
 
     const wholePart = Math.floor(ref);
     const decimalStr = (ref % 1).toFixed(3).split('.')[1];
-    const multiplier = decimalStr.replace(/0+$/, '').length === 1 ? 10 : 1000;
+    const multiplier = decimalStr?.replace(/0+$/, '').length === 1 ? 10 : 1000;
     const decimalPart = Math.round((ref % 1) * multiplier);
 
     const data = psalmsData[wholePart]?.[decimalPart] || {};

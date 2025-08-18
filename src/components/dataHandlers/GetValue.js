@@ -15,15 +15,30 @@ export const getValue = ({ season, hour, texts, field,
     }
 
     const languageField = field + localPrefLanguage
+    const allSouls = (texts?.laudes?.eig?.button === 'Allerseelen')
+        || (texts?.swdCombined === 'j-31-0' && texts?.rank_date === 5)
 
     if (['kirchw', 'verst'].includes(prefSollemnity)) {
         const data = dataSollemnities[prefSollemnity]
 
         const readValue = (field) => {
-            return data?.[season]?.[hour]?.[field]
+
+            const value = data?.[season]?.[hour]?.[field]
                 || data?.each?.[hour]?.[field]
                 || data?.each?.each?.[field]
                 || null
+
+            //Sonderfall: Orationen für Allerseelen
+            if (typeof value === 'string' && allSouls) {
+                if (value?.startsWith('^A:OmniumDefunctorum:')) {
+                    return "Preces nostras, quǽsumus, Dómine, benígnus exáudi, ut, dum attóllitur nostra fides in Fílio tuo a mórtuis suscitáto, in famulórum tuórum præstolánda resurrectióne spes quoque nostra firmétur.^ORlV"
+                }
+                else if (value?.startsWith('^A:Allerseelen:')) {
+                    return "Allmächtiger Gott, wir glauben und bekennen, dass du deinen Sohn als Ersten von den Toten auferweckt hast. Stärke unsere Hoffnung, dass du auch unsere Brüder und Schwestern auferwecken wirst zum ewigen Leben.^ORV"
+                }
+            }
+
+            return value
         }
         const value = readValue(languageField)
         return value ? value + localPrefLanguage
@@ -61,7 +76,7 @@ export const getValue = ({ season, hour, texts, field,
         const languageResult = data?.[langField] || null;
 
         if (typeof languageResult === 'string' &&
-            languageResult.startsWith('comm:')) {
+            languageResult?.startsWith('comm:')) {
             const add = standardResult
                 ? "^p^RUBROder: Eigene°Oration°auf°Deutsch:^0RUBR^l" + standardResult
                 : '';
@@ -89,7 +104,7 @@ export const getValue = ({ season, hour, texts, field,
         (texts[hour][prefSrc]?.[checkAnt0] ||
             texts[hour][prefSrc]?.[`com${localPrefComm}`]?.[checkAnt0])
     const psalm51 = hour === 'laudes' &&
-        (swdCombined === 'q-0-3' || texts?.laudes?.eig?.button === 'Allerseelen')
+        (swdCombined === 'q-0-3' || allSouls)
 
     // Feier wie ein Hochfest
     const isSollemnity = (hour === 'vesper' && hasErsteVesper)
