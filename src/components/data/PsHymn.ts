@@ -1448,11 +1448,11 @@ export const psalmsData = {
     0.0: {
         "title": "Gottes Gericht über ungerechte Richter",
         "quote": "Richtet nicht, ehe der Herr kommt. (1°Kor°4,5)",
-        "text": "Gott steht auf in°der°Versammlung°der°Götter,^*im Kreis der Götter hält er Gericht.^p„Wie lange noch wollt°ihr°ungerecht°richten^*und die Frevler begünstigen?^p„Verschafft Recht den°Unterdrückten°und°Waisen,^*verhelft den Gebeugten und Bedürftigen zum Recht!^pBefreit die Geringen und Armen,^*entreißt sie der Hand der Frevler!^pSie aber haben weder°Einsicht°noch°Verstand,^+sie tappen dahin im Finstern.^*Alle Grundfesten der Erde wanken.^pWohl habe ich gesagt: Ihr seid Götter,^*ihr alle seid Söhne des Höchsten.^pDoch nun sollt°ihr°sterben°wie°Menschen,^*sollt stürzen wie jeder der Fürsten.“^pErheb dich, Gott, und richte die Erde!^*Denn alle Völker werden dein Erbteil sein.",
+        "text": "Gott steht auf in°der°Versammlung°der°Götter,^*im Kreis der Götter hält er Gericht.^p„Wie lange noch wollt°ihr°ungerecht°richten^*und die Frevler begünstigen?^pVerschafft Recht den°Unterdrückten°und°Waisen,^*verhelft den Gebeugten und Bedürftigen zum Recht!^pBefreit die Geringen und Armen,^*entreißt sie der Hand der Frevler!“^pSie aber haben weder°Einsicht°noch°Verstand,^+sie tappen dahin im Finstern.^*Alle Grundfesten der Erde wanken.^p„Wohl habe ich gesagt: Ihr seid Götter,^*ihr alle seid Söhne des Höchsten.^pDoch nun sollt°ihr°sterben°wie°Menschen,^*sollt stürzen wie jeder der Fürsten.“^pErheb dich, Gott, und richte die Erde!^*Denn alle Völker werden dein Erbteil sein.",
         "text_neu": "Gott steht auf in der Gottesversammlung,^*inmitten der Götter hält er Gericht:^p„Wie lange noch wollt ihr ungerecht richten^*und die Frevler begünstigen?^pVerhelft zum Recht den Geringen und Waisen,^*dem Elenden und dem Bedürftigen schafft Gerechtigkeit!^pBefreit den Geringen und Armen,^*entreißt sie der Hand der Frevler!“^pSie erkennen nicht, verstehen nichts,^+sie wandeln umher in Finsternis.^*Alle Grundfesten der Erde wanken.^pIch habe gesagt: „Ihr seid Götter,^*ihr alle seid Söhne des Höchsten.“^pDoch nun sollt ihr sterben wie Menschen,^*sollt stürzen wie einer der Fürsten.^pSteh auf, Gott, und richte die Erde!^*Denn alle Nationen werden dein Erbteil sein.",
         "title_lat": "Contra iudices iniquos",
         "quote_lat": "Nolite ante tempus iudicare, quoadusque veniat Dominus. (1°Cor°4,5)",
-        "text_lat": "Deus stetit in concílio divíno,^*in médio deórum iúdicat:^p„Usquequo iudicábitis iníque^*et fácies peccatórum sumétis?^pIudicáte egéno et pupíllo,^*húmilem et páuperem iustificáte.^pErípite páuperem^*et egénum de manu peccatóris liberáte“.^pNesciérunt neque intellexérunt,^+in ténebris ámbulant;^*movebúntur ómnia fundaménta terræ.^pEgo dixi: „Dii estis,^*et fílii Excélsi omnes“.^pVos autem sicut hómines moriémini^*et sicut unus de princípibus cadétis.^pSurge, Deus, iúdica terram,^*quóniam tu hereditábis in ómnibus géntibus."
+        "text_lat": "Deus stetit in concílio divíno,^*in médio deórum iúdicat:^p„Usquequo iudicábitis iníque^*et fácies peccatórum sumétis?^pIudicáte egéno et pupíllo,^*húmilem et páuperem iustificáte.^pErípite páuperem^*et egénum de manu peccatóris liberáte“.^pNesciérunt neque intellexérunt,^+in ténebris ámbulant;^*movebúntur ómnia fundaménta terræ.^p„Ego dixi: Dii estis,^*et fílii Excélsi omnes.^pVos autem sicut hómines moriémini^*et sicut unus de princípibus cadétis.“^pSurge, Deus, iúdica terram,^*quóniam tu hereditábis in ómnibus géntibus."
       }
   },
   83: {
@@ -5758,6 +5758,18 @@ export const psalmsData = {
         "title": "Himmlische Chöre preisen den Höchsten",
         "quote": "Allerheiligen",
         "text": "Himmlische Chöre preisen den Höchsten.^lEngel und Menschen danken ihm ewig.^pSterbliche Wesen rief er zum Leben,^lgab seine Gnade Sündern und Armen.^pHeilige Freunde, Zeichen der Hoffnung.^lTod und Verderben habt ihr bestanden.^pIhr seid vollendet, lebt in der Freude.^lUns ruft von Ferne eure Gemeinschaft.^pJenseits des Todes wartet das Leben,^ldas für uns alle Christus erwirkt hat.^pIhm sei die Ehre, der uns berufen,^lewig im Lichte vor ihm zu stehen. Amen."
+      }
+  },
+  9111: {
+    2.0: {
+        "quote": "Martin lat. Ld",
+        "title_lat": "Martíne, par apóstolis",
+        "text_lat": "Martíne, par apóstolis,^lfestum coléntes tu fove;^lqui vívere discípulis^laut mori vis, nos réspice.^pFac nunc quod olim gésseras,^lnunc prǽsules clarífica,^lauge decus Ecclésiæ,^lfraudes relíde Sátanæ.^pQui ter chaos evísceras,^lmersos reátu súscita;^ldivíseras ut chlámydem,^lnos índue iustítiam.^pUt speciális glóriæ^lquondam tuæ memíneris,^lpontíficum nunc órdini^lpio favóre súbveni.^pSit Trinitáti glória,^lMartínus ut conféssus est,^leius fidem qui iúgiter^lin nos per actus ínserat. Amen."
+      },
+    4.0: {
+        "quote": "Martin lat. Lh und Vp",
+        "title_lat": "Iste conféssor Dómini sacrátus",
+        "text_lat": "Iste conféssor Dómini sacrátus,^lfesta plebs cuius célebrat per orbem,^lhódie lætus méruit secréta^lscándere cæli.^pQui pius, prudens, húmilis, pudícus,^lsóbrius, castus fuit et quiétus,^lvita dum præsens vegetávit eius^lcórporis artus.^pAd sacrum cuius túmulum frequénter^lmembra languéntum modo sanitáti,^lquólibet morbo fúerint graváti,^lrestituúntur.^pUnde nunc noster chorus in honórem^lipsíus, hymnum canit hunc libénter,^lut piis eius méritis iuvémur^lomne per ævum.^pSit salus illi, decus atque virtus,^lqui supra cæli résidens cacúmen,^ltotíus mundi máchinam gubérnat^ltrinus et unus. Amen."
       }
   },
   9119: {

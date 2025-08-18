@@ -14,9 +14,11 @@ export const getValue = ({ season, hour, texts, field,
         return getKompletValue({ texts, field, localPrefKomplet, localPrefLanguage })
     }
 
+    const { rank_date = 0, rank_wt = 0, isCommemoration, hasErsteVesper = false,
+        swdCombined, dayOfWeek } = texts;
     const languageField = field + localPrefLanguage
     const allSouls = (texts?.laudes?.eig?.button === 'Allerseelen')
-        || (texts?.swdCombined === 'j-31-0' && texts?.rank_date === 5)
+        || (swdCombined === 'j-31-0' && rank_date === 5)
 
     if (['kirchw', 'verst'].includes(prefSollemnity)) {
         const data = dataSollemnities[prefSollemnity]
@@ -37,7 +39,6 @@ export const getValue = ({ season, hour, texts, field,
                     return "Allmächtiger Gott, wir glauben und bekennen, dass du deinen Sohn als Ersten von den Toten auferweckt hast. Stärke unsere Hoffnung, dass du auch unsere Brüder und Schwestern auferwecken wirst zum ewigen Leben.^ORV"
                 }
             }
-
             return value
         }
         const value = readValue(languageField)
@@ -92,19 +93,23 @@ export const getValue = ({ season, hour, texts, field,
 
     }
 
-    const { rank_date = 0, rank_wt = 0, isCommemoration, hasErsteVesper = false, swdCombined, dayOfWeek } = texts;
     const sollemnityErsteVesper = () => ['soll', 'kirchw'].includes(prefSollemnity)
     const isPsalmodie = field.startsWith('psalm') ||
         (field.startsWith('ant') && !field.startsWith('antev'))
     const isTSN = ['terz', 'sext', 'non'].includes(hour)
-    const memorialWithTNS = texts?.laudes?.eig?.button
-        ?.includes('Barnabas' || 'Schutzengel')
+
     const checkAnt0 = `ant0${localPrefLanguage}`
     const hasAnt0 = field.startsWith('ant') &&
         (texts[hour][prefSrc]?.[checkAnt0] ||
             texts[hour][prefSrc]?.[`com${localPrefComm}`]?.[checkAnt0])
+
+    //Aschermittwoch und Allerseelen: trotz Hochfest keine Fest-Psalmodie in den Laudes
     const psalm51 = hour === 'laudes' &&
         (swdCombined === 'q-0-3' || allSouls)
+
+    // Gedenktage mit Eigentexten für die Kleinen Horen
+    const memorialWithTNS = texts?.laudes?.eig?.button
+        ?.includes('Barnabas' || 'Schutzengel')
 
     // Feier wie ein Hochfest
     const isSollemnity = (hour === 'vesper' && hasErsteVesper)

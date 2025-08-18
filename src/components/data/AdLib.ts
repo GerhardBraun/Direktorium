@@ -3398,7 +3398,7 @@ export const adlibData = {
         "Lesehore": {
           "patr_autor": "Johannes Eudes (†°1680)",
           "patr_werk": "Aus der Schrift „Über das bewundernswerte Herz Jesu“.",
-          "patr_text": "^hDer Quell des Heils und des wahren Lebens^pIch bitte dich, denk daran, dass unser Herr Jesus Christus dein Haupt ist und dass du eines seiner Glieder bist. Er ist für dich, was das Haupt für die Glieder bedeutet: alles, was sein ist, ist auch dein: Geist, Herz, Leib, Seele und alle Fähigkeiten. Du sollst sie gebrauchen, als gehörten sie dir, um ihm zu dienen, ihn zu loben, zu lieben und zu verherrlichen. Du bist für ihn, was ein Glied für das Haupt ist. Darum wünscht er dringend, alle deine Fähigkeiten, als seien es die seinen, in Dienst zu nehmen, um dem Vater zu dienen und ihn zu verherrlichen.^pDoch er gehört dir nicht nur, er will auch in dir sein, in dir leben und herrschen. wie das Haupt in seinen Gliedern lebt und herrscht. Er will, dass alles, was in ihm ist, in dir lebt und herrscht: sein Geist in deinem Geist, sein Herz in deinem Herzen, alle Fähigkeiten seiner Seele in den Fähigkeiten deiner Seele, damit sich an dir das Wort erfüllt: „Verherrlicht Gott und tragt ihn in eurem Leib, damit das Leben Jesu an euch sichtbar wird“ {1#vgl.°1°Kor°6,20; 2°Kor°4,10}.^pAuch du, du gehörst dem Sohn Gottes nicht nur, sondern du sollst in ihm sein, wie Glieder mit dem Haupt verbunden sind. Alles, was in dir ist, soll in ihn eingefügt werden; du sollst dein Leben von ihm entgegennehmen und von ihm regieren lassen. Wahres Leben findest du nur in ihm, der für alle der Quell wahren Lebens ist; außerhalb von ihm nur Tod und Verderben. Das sei dein einziger Grundsatz für alles, was du empfindest, für alles, was du tust, und für die Kräfte deiner Seele. Von ihm und für ihn sollst du leben und das Wort erfüllen: „Keiner von uns lebt sich selber, und keiner stirbt sich selber: leben wir, so leben wir dem Herrn, sterben wir, so sterben wir dem Herrn. Ob wir leben oder ob wir sterben, wir gehören dem Herrn. Denn Christus ist gestorben und lebendig geworden, um Herr zu sein über Tote und Lebende“ {2#Röm 14,7–9}.^pSei eins mit Jesus wie die Glieder mit dem Haupt. Darum musst du einen Geist mit ihm haben, eine Seele, ein Leben, einen Willen, eine Absicht, ein Herz. Er muss dein Geist sein, dein Herz, deine Liebe, dein Leben und alles, was dein ist. Diese großen Dinge haben für den, der an Christus glaubt, ihren Ursprung in der Taufe, sie werden gemehrt und gefestigt durch die Firmung und den guten Gebrauch, den er von den übrigen Gnadengaben macht. Sie werden ihm von Gott mitgegeben und durch die Eucharistie aufs höchste vollendet.",
+          "patr_text": "^hDer Quell des Heils und des wahren Lebens^pIch bitte dich, denk daran, dass unser Herr Jesus Christus dein Haupt ist und dass du eines seiner Glieder bist. Er ist für dich, was das Haupt für die Glieder bedeutet: alles, was sein ist, ist auch dein: Geist, Herz, Leib, Seele und alle Fähigkeiten. Du sollst sie gebrauchen, als gehörten sie dir, um ihm zu dienen, ihn zu loben, zu lieben und zu verherrlichen. Du bist für ihn, was ein Glied für das Haupt ist. Darum wünscht er dringend, alle deine Fähigkeiten, als seien es die seinen, in Dienst zu nehmen, um dem Vater zu dienen und ihn zu verherrlichen.^pDoch er gehört dir nicht nur, er will auch in dir sein, in dir leben und herrschen. wie das Haupt in seinen Gliedern lebt und herrscht. Er will, dass alles, was in ihm ist, in dir lebt und herrscht: sein Geist in deinem Geist, sein Herz in deinem Herzen, alle Fähigkeiten seiner Seele in den Fähigkeiten deiner Seele, damit sich an dir das Wort erfüllt: „Verherrlicht Gott und tragt ihn in eurem Leib, damit das Leben Jesu an euch sichtbar wird“ {1#vgl.°1°Kor°6,20; 2°Kor°4,10}.^pAuch du, du gehörst dem Sohn Gottes nicht nur, sondern du sollst in ihm sein, wie Glieder mit dem Haupt verbunden sind. Alles, was in dir ist, soll in ihn eingefügt werden; du sollst dein Leben von ihm entgegennehmen und von ihm regieren lassen. Wahres Leben findest du nur in ihm, der für alle der Quell wahren Lebens ist; außerhalb von ihm nur Tod und Verderben. Das sei dein einziger Grundsatz für alles, was du empfindest, für alles, was du tust, und für die Kräfte deiner Seele. Von ihm und für ihn sollst du leben und das Wort erfüllen: „Keiner von uns lebt sich selber, und keiner stirbt sich selber: leben wir, so leben wir dem Herrn, sterben wir, so sterben wir dem Herrn. Ob wir leben oder ob wir sterben, wir gehören dem Herrn. Denn Christus ist gestorben und lebendig geworden, um Herr zu sein über Tote und Lebende“ {2#Röm 14,7–9}.^pSei eins mit Jesus wie die Glieder mit dem Haupt. Darum musst du einen Geist mit ihm haben, eine Seele, ein Leben, einen Willen, eine Absicht, ein Herz. Er muss dein Geist sein, dein Herz, deine Liebe, dein Leben und alles, was dein ist.^pDiese großen Dinge haben für den, der an Christus glaubt, ihren Ursprung in der Taufe, sie werden gemehrt und gefestigt durch die Firmung und den guten Gebrauch, den er von den übrigen Gnadengaben macht. Sie werden ihm von Gott mitgegeben und durch die Eucharistie aufs höchste vollendet.",
           "patr_resp1": "Dafür ist Christus gestorben und auferstanden, um Herr zu sein über Tote und Lebende.",
           "patr_resp2": "Ob wir leben oder sterben, wir gehören dem Herrn.",
           "patr_resp3": "Keiner von uns lebt sich selbst, und keiner stirbt sich selbst."
@@ -3585,7 +3585,9 @@ export const adlibData = {
     "26": {
       "n1": {
         "major": {
-          "comm_1": "Hirten"
+          "comm_1": "Hirten",
+          "oration": "^RUBRAus dem Commune für°Hirten°der°Kirche:^0RUBR^lGütiger Gott, du hast den heiligen Papst Johannes Paul I. mit dem Geist der Wahrheit und der Liebe erfüllt und ihn befähigt, dein Volk zu leiten. Höre auf seine Fürsprache, lass uns nach seinem Vorbild leben und stets deine Hilfe erfahren.^ORV",
+          "oration_lat": "^RUBRDe Communi pastorum:^0RUBR^lDeus, qui beátum Ioánnem Paulum I. ad pascéndum pópulum tuum spíritu veritátis et dilectiónis implevísti, præsta, ut, cuius festivitátem venerándo ágimus, eius imitatióne proficiámus et intercessióne sublevémur.^ORlV"
         },
         "Laudes": {
           "button": "Sel. Johannes Paul I.",
@@ -3715,7 +3717,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Frau_Ord",
-          "oration": "O Gott, du hast die selige Jungfrau Teresa berufen, auf die Liebe deines am Kreuze dürstenden Sohnes mit besonders liebevoller Zuwendung zu den Ärmsten zu antworten. Wir bitten dich: Verleihe uns auf ihre Fürsprache, dass wir in den leidenden Brüdern und Schwestern Christus dienen,^ORR"
+          "oration": "O Gott, du hast die selige Jungfrau Teresa berufen, auf die Liebe deines am Kreuze dürstenden Sohnes mit besonders liebevoller Zuwendung zu den Ärmsten zu antworten. Wir bitten dich: Verleihe uns auf ihre Fürsprache, dass wir in den leidenden Brüdern und Schwestern Christus dienen,^ORR",
+          "oration_lat": "comm:Deus, qui Ecclésiam tuam in dilectióne tuæ divinitátis et próximi cuncta serváre cæléstia mandáta docuísti, da nobis, ut beátæ Terésæ exémplo caritátis tuæ ópera exercéntes, inter benedíctos regni tui connumerári mereámur.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Mutter Teresa von Kalkutta",
@@ -3988,7 +3991,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Hirten",
-          "oration": "Gott, du Herr aller Völker, du hast durch die heiligen Bischöfe Rupert und Virgil Menschen verschiedener Sprache und Herkunft in die Gemeinschaft der Kirche eingefügt. Erhalte uns auf die Fürsprache dieser Heiligen in der Einheit des Glaubens und der Liebe.^ORV"
+          "oration": "Gott, du Herr aller Völker, du hast durch die heiligen Bischöfe Rupert und Virgil Menschen verschiedener Sprache und Herkunft in die Gemeinschaft der Kirche eingefügt. Erhalte uns auf die Fürsprache dieser Heiligen in der Einheit des Glaubens und der Liebe.^ORV",
+          "oration_lat": "comm:Deus, qui beatórum Rupérti et Virgílis prædicatióne patres nostros vocásti in admirábile Evangélii lumen, fac, ut eius intercessióne crescámus in grátia et cognitióne Dómini nostri Iesu Christi, Fílii tui,^ORlvR"
         },
         "Lesehore": {
           "patr_autor": "Augustinus (†°430)",
@@ -4013,7 +4017,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Mann",
-          "oration": "Herr, unser Gott, deinem Ruf gehorsam, hat der heilige Bruder Klaus Familie und Besitz verlassen, um in der Einsamkeit für dich allein zu leben; du aber hast ihn zu einem Ratgeber für viele und zu einem Mittler des Friedens gemacht. Höre auf seine Fürsprache: Nimm alles von uns, was uns trennt von dir, und mache uns zu einem Werkzeug deines Friedens.^ORV"
+          "oration": "Herr, unser Gott, deinem Ruf gehorsam, hat der heilige Bruder Klaus Familie und Besitz verlassen, um in der Einsamkeit für dich allein zu leben; du aber hast ihn zu einem Ratgeber für viele und zu einem Mittler des Friedens gemacht. Höre auf seine Fürsprache: Nimm alles von uns, was uns trennt von dir, und mache uns zu einem Werkzeug deines Friedens.^ORV",
+          "oration_lat": "comm:Deus, qui in Ecclésia tua beátum Nicoláum suscitásti, ut próximis viam salútis ^[et pacis^] monstráret, da nobis, eius exémplo, Christum magístrum ita sequi, ut ad te cum frátribus nostris perveníre valeámus.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Niklaus von Flüe (†°1487)",
@@ -4283,7 +4288,8 @@ export const adlibData = {
       "n4": {
         "major": {
           "comm_1": "Hirten",
-          "oration": "Gott, du hast dem heiligen Priester John Henry Newman die Gnade geschenkt, deinem gütigen Licht zu folgen und in deiner Kirche Frieden zu finden. Gewähre uns, dass wir auf seine Fürsprache und durch sein Beispiel aus Schatten und Bildern zur Fülle deiner Wahrheit geführt werden.^ORV"
+          "oration": "Gott, du hast dem heiligen Priester John Henry Newman die Gnade geschenkt, deinem gütigen Licht zu folgen und in deiner Kirche Frieden zu finden. Gewähre uns, dass wir auf seine Fürsprache und durch sein Beispiel aus Schatten und Bildern zur Fülle deiner Wahrheit geführt werden.^ORV",
+          "oration_lat": "comm:Dómine Deus, qui beátum Ioánnem Henrícum cælésti doctrína imbuére dignátus es, da nobis, ipsíus intervéntu, eándem doctrínam fidéliter custodíre et móribus profitéri.^ORlV"
         },
         "Laudes": {
           "button": "Hl. John Henry Newman",
@@ -4425,7 +4431,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Mann",
           "comm_2": "Mann_Ord",
-          "oration": "Allmächtiger Gott, du hast den heiligen Gallus berufen, als Mönch und Glaubensbote unter den Alemannen die Wahrheit des Evangeliums auszubreiten. Erhalte uns die Freude, die aus dem Glauben kommt, und stärke unsere Treue zu Jesus Christus,^ORR"
+          "oration": "Allmächtiger Gott, du hast den heiligen Gallus berufen, als Mönch und Glaubensbote unter den Alemannen die Wahrheit des Evangeliums auszubreiten. Erhalte uns die Freude, die aus dem Glauben kommt, und stärke unsere Treue zu Jesus Christus,^ORR",
+          "oration_lat": "comm:Deus, qui beáti Galli prædicatióne patres nostros vocásti in admirábile Evangélii lumen, fac, ut eius intercessióne crescámus in grátia et cognitióne Dómini nostri Iesu Christi, Fílii tui,^ORlvR"
         },
         "Lesehore": {
           "patr_autor": "Wetti (†°824)",
@@ -4523,7 +4530,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Mann",
-          "oration": "Gott, unser Ursprung und Ziel, du hast deinen Knecht, den heiligen Einsiedler Wendelin, auf dem Weg der evangelischen Armut zur Freiheit des Geistes geführt und ihn zu unserem Fürsprecher bestellt. Hilf uns, dass wir in allen Sorgen dieses Lebens stets das eine Notwendige suchen.^ORV"
+          "oration": "Gott, unser Ursprung und Ziel, du hast deinen Knecht, den heiligen Einsiedler Wendelin, auf dem Weg der evangelischen Armut zur Freiheit des Geistes geführt und ihn zu unserem Fürsprecher bestellt. Hilf uns, dass wir in allen Sorgen dieses Lebens stets das eine Notwendige suchen.^ORV",
+          "oration_lat": "comm:Concéde, quǽsumus, omnípotens Deus, ut ad meliórem vitam sanctórum tuórum exémpla nos próvocent, quátenus beáti Wendelini, cuius memóriam celebrámus, étiam actus incessánter imitémur.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Augustinus (†°430)",
@@ -4546,7 +4554,8 @@ export const adlibData = {
         "major": {
           "comm_1": "MärtPl_Jgfr",
           "comm_2": "Jgfr_Märt",
-          "oration": "Gott, du hast der heiligen Ursula und ihren Gefährtinnen Kraft und Standhaftigkeit im Martyrium gegeben und sie so zur Schau deiner Herrlichkeit geführt. Stärke uns auf ihre Fürbitte im Glauben und in der Liebe und gib uns ewige Gemeinschaft mit ihnen.^ORV"
+          "oration": "Gott, du hast der heiligen Ursula und ihren Gefährtinnen Kraft und Standhaftigkeit im Martyrium gegeben und sie so zur Schau deiner Herrlichkeit geführt. Stärke uns auf ihre Fürbitte im Glauben und in der Liebe und gib uns ewige Gemeinschaft mit ihnen.^ORV",
+          "oration_lat": "comm:Deus, qui nos hódie beátæ Ursulæ eiúsque sociárum ánnua commemoratióne lætífics, concéde propítius, ut eárum adiuvémur méritis, quarum castitátis et fortitúdinis irradiámur exémplis.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "^A:Ursula:Joseph Teusch (†°1976)",
@@ -4679,7 +4688,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Hirten",
-          "oration": "Gott, du hast uns im heiligen Wolfgang einen Mann des Geistes und der Tat geschenkt und ihn berufen, als Mönch und Bischof auf vielfache Weise deinem Volk zu dienen. Gib auch der Kirche unserer Zeit die Weite seines Geistes und die Kraft seiner Liebe.^ORV"
+          "oration": "Gott, du hast uns im heiligen Wolfgang einen Mann des Geistes und der Tat geschenkt und ihn berufen, als Mönch und Bischof auf vielfache Weise deinem Volk zu dienen. Gib auch der Kirche unserer Zeit die Weite seines Geistes und die Kraft seiner Liebe.^ORV",
+          "oration_lat": "comm:Deus, fidélium lumen et pastor animárum, qui beátum Wolfgang epíscopum in Ecclésia posuísti, ut oves tuas verbo pásceret et informáret exémplo, da nobis, eius intercessióne, et fidem serváre, quam verbo dócuit, et viam sequi, quam exémplo monstrávit.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Hieronymus (†°419/420)",
@@ -4760,7 +4770,8 @@ export const adlibData = {
       "n3": {
         "major": {
           "comm_1": "Mann_Ord",
-          "oration": "Barmherziger Gott, du hast den heiligen Martin von Porres auf dem Weg der Armut zur himmlischen Herrlichkeit geführt. Mit großer Hingabe hat er den Notleidenden seiner Vaterstadt gedient. Wecke auch in uns die Bereitschaft, den Mitmenschen in Not und Krankheit beizustehen, und lass uns zusammen mit ihnen die Fülle des Lebens empfangen.^ORV"
+          "oration": "Barmherziger Gott, du hast den heiligen Martin von Porres auf dem Weg der Armut zur himmlischen Herrlichkeit geführt. Mit großer Hingabe hat er den Notleidenden seiner Vaterstadt gedient. Wecke auch in uns die Bereitschaft, den Mitmenschen in Not und Krankheit beizustehen, und lass uns zusammen mit ihnen die Fülle des Lebens empfangen.^ORV",
+          "oration_lat": "Deus, qui beátum Martínum per humilitátis iter ad cæléstem glóriam perduxísti, tríbue nobis eius ita nunc pérsequi exémpla præclára, ut exaltári cum ipso mereámur in cælis."
         },
         "Lesehore": {
           "patr_autor": "Johannes XXIII. (†°1963)",
@@ -4775,10 +4786,12 @@ export const adlibData = {
           "nominativ": "Der heilige Martin",
           "genitiv": "des heiligen Martin",
           "genitiv_lat": "sancti ",
-          "antev": "Gepriesen sei der Herr, denn er hat allen Völkern Erlösung geschaffen und sie aus der Finsternis in sein wunderbares Licht gerufen."
+          "antev": "Gepriesen sei der Herr, denn er hat allen Völkern Erlösung geschaffen und sie aus der Finsternis in sein wunderbares Licht gerufen.",
+          "antev_lat": "Benedíctus Dóminus, quia redemptiónem ómnium géntium fecit, et omnes de ténebris vocávit in admirábile lumen suum."
         },
         "Vesper": {
-          "antev": "Lasst und preisen die Größe des Herrn, der seinen niedrigen Knecht erhöht und mit himmlischen Gaben bekleidet hat!"
+          "antev": "Lasst und preisen die Größe des Herrn, der seinen niedrigen Knecht erhöht und mit himmlischen Gaben bekleidet hat!",
+          "antev_lat": "Magnificémus Dóminum, qui húmilem servum suum Martínum cæléstibus donis exaltávit."
         }
       },
       "n4": {
@@ -4799,7 +4812,8 @@ export const adlibData = {
       "eig": {
         "major": {
           "comm_1": "Hirten",
-          "oration": "Herr und Gott, erhalte in deiner Kirche den Geist, von dem der heilige Karl Borromäus erfüllt war, und gib ihr die Bereitschaft, sich ständig zu erneuern. Gestalte sie nach dem Bild deines Sohnes Jesus Christus, damit die Welt ihn erkennen kann, unseren Herrn und Gott,^ORR"
+          "oration": "Herr und Gott, erhalte in deiner Kirche den Geist, von dem der heilige Karl Borromäus erfüllt war, und gib ihr die Bereitschaft, sich ständig zu erneuern. Gestalte sie nach dem Bild deines Sohnes Jesus Christus, damit die Welt ihn erkennen kann, unseren Herrn und Gott,^ORR",
+          "oration_lat": "Custódi, quǽsumus, Dómine, in pópulo tuo spíritum, quo beátum Cárolum epíscopum implevísti, ut Ecclésia indesinénter renovétur, et, Christi se imágini confórmans, ipsíus vultum mundo váleat osténdere."
         },
         "Lesehore": {
           "patr_autor": "Karl Borromäus († 1584)",
@@ -4863,11 +4877,32 @@ export const adlibData = {
         }
       }
     },
+    "9": {
+      "eig": {
+        "each": {
+          "comm_1": "Kirchw",
+          "oration": "Erhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird.^ORV",
+          "oration_lat": "Deus, qui de vivis et eléctis lapídibus ætérnum habitáculum tuæ prǽparas maiestáti, multíplica in Ecclésia tua spíritum grátiæ, quem dedísti, ut fidélis tibi pópulus in cæléstis ædificatiónem Ierúsalem semper accréscat.^ORlV"
+        },
+        "Lesehore": {
+          "patr_autor": "Cäsarius von Arles († 542)",
+          "patr_werk": "Aus einer Predigt am Weihetag der Lateranbasilika.",
+          "patr_text": "^hWir sind alle durch die Taufe Tempel Gottes geworden^pLiebe Brüder, durch die Güte Gottes dürfen wir heute den Weihetag dieses Gotteshauses mit Freude und Jubel begehen. Der wirkliche und lebendige Tempel jedoch müssen wir selber sein. Dennoch feiern die christlichen Völker mit Recht das Fest der Mutterkirche, weil sie wissen, dass sie durch diese Kirche im Geist wiedergeboren wurden. Durch die erste Geburt waren wir „Gefäße des Zorns“ {1#Röm 9,22-23}, durch die zweite wurden wir zu „Gefäßen des Erbarmens“ {2#vgl. Apg 7,48}. Die erste Geburt gebar uns für den Tod, die zweite rief uns zum Leben zurück.^pVor der Taufe, meine Lieben, waren wir alle Tempel des Teufels, nach der Taufe wurden wir Tempel Christi. Wenn wir aufmerksam über das Heil unserer Seele nachdenken, erkennen wir auch, dass der eigentliche und lebendige Tempel Gottes wir selber sind. Gott wohnt nicht bloß in dem, was von Menschenhand gemacht ist, und nicht in einem Haus aus Holz und Stein, sondern vor allem in der Seele, die nach dem Bild Gottes geschaffen und von der Hand des Künstlers selbst gebildet ist. Der heilige Apostel Paulus sagt: „Gottes Tempel ist heilig, und der seid ihr.“ {3#1 Kor 3,17}^pChristus kam und warf den Teufel aus unserm Herzen hinaus, um in uns für sich einen Tempel zu schaffen. Nach Kräften wollen wir darum mit seiner Hilfe daran arbeiten, dass ihm in uns nicht durch böse Taten Unrecht geschieht. Jeder, der Böses tut, begeht ein Unrecht gegen Jesus Christus.^pWenn wir daher, meine Lieben, mit Freuden den Gedächtnistag des Gotteshauses feiern wollen, dürfen wir den lebendigen Tempel Gottes nicht in uns durch böse Werke zerstören. Wie wir die Kirche vorfinden wollen, wenn wir zu ihr kommen, geradeso müssen wir unsere Seele bereiten.",
+          "patr_resp1": "Dies ist Jerusalem, die große himmlische Stadt, geschmückt als Braut des Lammes.",
+          "patr_resp2": "Gottes Zelt ist sie geworden.^ö",
+          "patr_resp3": "Ihre Tore stehen immerfort offen, denn Nacht gibt es nicht mehr in ihr."
+        },
+        "Laudes": {
+          "button": "Weihetag der Lateranbasilika"
+        }
+      }
+    },
     "10": {
       "eig": {
         "major": {
           "comm_1": "Hirten_Kl",
-          "oration": "Gott, du hast deine Kirche auf den festen Glauben der Apostel gebaut und lässt nicht zu, dass die Pforten der Hölle sie überwältigen. Auf die Fürsprache des heiligen Papstes Leo stärke in der Kirche den Glauben und schenke ihr Einheit und Frieden.^ORV"
+          "oration": "Gott, du hast deine Kirche auf den festen Glauben der Apostel gebaut und lässt nicht zu, dass die Pforten der Hölle sie überwältigen. Auf die Fürsprache des heiligen Papstes Leo stärke in der Kirche den Glauben und schenke ihr Einheit und Frieden.^ORV",
+          "oration_lat": "Deus, qui advérsus Ecclésiam tuam, in apostólicæ petræ soliditáte fundátam, portas ínferi numquam prævalére permíttis, da ei, quǽsumus, ut, intercedénte beáto Leóne papa, in tua veritáte consístens, pace contínua muniátur.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Leo der Große († 461)",
@@ -4882,10 +4917,12 @@ export const adlibData = {
           "genitiv": "des heiligen Leo",
           "vokativ": "Heiliger Leo",
           "genitiv_lat": "sancti ",
-          "antev": "Der Herr hat Petrus die Festigkeit eines Felsens verliehen und ihm die Leitung seiner Kirche anvertraut. Was Christus ihm übergab, hat Petrus treu bewahrt."
+          "antev": "Der Herr hat Petrus die Festigkeit eines Felsens verliehen und ihm die Leitung seiner Kirche anvertraut. Was Christus ihm übergab, hat Petrus treu bewahrt.",
+          "antev_lat": "Beátus Petrus in accépta fortitúdine petræ persevérans, suscépta Ecclésiæ gubernácula non relíquit."
         },
         "Vesper": {
-          "antev": "Tag für Tag legt Petrus durch die Kirche das Bekenntnis ab: Du bist der Messias, der Sohn des lebendigen Gottes."
+          "antev": "Tag für Tag legt Petrus durch die Kirche das Bekenntnis ab: Du bist der Messias, der Sohn des lebendigen Gottes.",
+          "antev_lat": "Cotídie Petrus dicit in univérsa Ecclésia: Tu es Christus, Fílius Dei vivi."
         }
       }
     },
@@ -4894,7 +4931,8 @@ export const adlibData = {
         "major": {
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
-          "oration": "Gott, du Vater aller Gläubigen, von deinem Geist erfüllt, hat der Märtyrerbischof Josaphat für das ihm anvertraute Volk sein Leben dahingegeben. Auf seine Fürsprache gib auch uns den Geist der Liebe, damit wir bereit sind, unser Leben ganz für unsere Brüder einzusetzen.^ORV"
+          "oration": "Gott, du Vater aller Gläubigen, von deinem Geist erfüllt, hat der Märtyrerbischof Josaphat für das ihm anvertraute Volk sein Leben dahingegeben. Auf seine Fürsprache gib auch uns den Geist der Liebe, damit wir bereit sind, unser Leben ganz für unsere Brüder einzusetzen.^ORV",
+          "oration_lat": "Excita, quǽsumus, Dómine, in Ecclésia tua Spíritum, quo replétus beátus Iósaphat ánimam suam pro óvibus pósuit, ut, eo intercedénte, nos quoque eódem Spíritu roboráti, ánimam nostram pro frátribus pónere non vereámur."
         },
         "Lesehore": {
           "patr_autor": "Pius XI. († 1939)",
@@ -4916,7 +4954,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Hirten_Kl",
-          "oration": "Gott, du Quelle aller Weisheit, du hast dem heiligen Bischof Albert die Gabe geschenkt, das Wissen seiner Zeit und den Glauben in Einklang zu bringen. Gib uns die Weite seines Geistes, damit der Fortschritt der Wissenschaft uns hilft, dich tiefer zu erkennen und dir näher zu kommen.^ORV"
+          "oration": "Gott, du Quelle aller Weisheit, du hast dem heiligen Bischof Albert die Gabe geschenkt, das Wissen seiner Zeit und den Glauben in Einklang zu bringen. Gib uns die Weite seines Geistes, damit der Fortschritt der Wissenschaft uns hilft, dich tiefer zu erkennen und dir näher zu kommen.^ORV",
+          "oration_lat": "Deus, qui beátum Albértum epíscopum in humána sapiéntia cum divína fide componénda magnum effecísti, da nobis, quǽsumus, ita eius magistérii inhærére doctrínis, ut per scientiárum progréssus ad profundiórem tui cognitiónem et amórem perveniámus."
         },
         "Lesehore": {
           "patr_autor": "Albert der Große (†°1280)",
@@ -4958,7 +4997,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Frau_Liebe",
-          "oration": "Barmherziger Gott, du hast der heiligen Königin Margareta von Schottland eine große Liebe zu den Armen geschenkt. Höre auf die Fürbitten dieser heiligen Frau und hilf uns, nach ihrem Beispiel so zu leben, dass deine Güte in der Welt sichtbar wird,^ORV"
+          "oration": "Barmherziger Gott, du hast der heiligen Königin Margareta von Schottland eine große Liebe zu den Armen geschenkt. Höre auf die Fürbitten dieser heiligen Frau und hilf uns, nach ihrem Beispiel so zu leben, dass deine Güte in der Welt sichtbar wird,^ORV",
+          "oration_lat": "Deus, qui beátam Margarítam exímia in páuperes caritáte mirábilem effecísti, da ut, eius intercessióne et exémplo, imáginem bonitátis tuæ inter hómines referámus."
         },
         "Lesehore": {
           "patr_autor": "II. Vatikanisches Konzil (1962–1965)",
@@ -4980,7 +5020,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Jgfr",
           "comm_2": "Frau_Ord",
-          "oration": "Gott, du Sehnsucht deiner Geschöpfe, es hat dir gefallen, im Herzen der heiligen Gertrud Wohnung zu nehmen. Schenke auch uns auf ihre Fürbitte die Tröstungen deiner Gegenwart, bringe Licht in das Dunkel unseres Herzens und lass uns erfahren, dass du in uns lebst und wirkst.^ORV"
+          "oration": "Gott, du Sehnsucht deiner Geschöpfe, es hat dir gefallen, im Herzen der heiligen Gertrud Wohnung zu nehmen. Schenke auch uns auf ihre Fürbitte die Tröstungen deiner Gegenwart, bringe Licht in das Dunkel unseres Herzens und lass uns erfahren, dass du in uns lebst und wirkst.^ORV",
+          "oration_lat": "Deus, qui iucúndam tibi mansiónem in corde beátæ Gertrúdis vírginis præparásti, ipsíus intercessióne, cordis nostri ténebras cleménter illústra, ut te in nobis præséntem et operántem lætánter experiámur."
         },
         "Lesehore": {
           "patr_autor": "Gertrud von Helfta (†°1302)",

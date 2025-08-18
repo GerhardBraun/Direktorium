@@ -8935,32 +8935,11 @@ export const brevierData = {
           "les_text_lat": ""
         }
       },
-      "9": {
-        "each": {
-          "comm_1": "Kirchw",
-          "oration": "Erhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird.^ORV",
-          "oration_lat": ""
-        },
-        "Lesehore": {
-          "patr_autor": "Cäsarius von Arles († 542)",
-          "patr_werk": "Aus einer Predigt am Weihetag der Lateranbasilika.",
-          "patr_text": "^hWir sind alle durch die Taufe Tempel Gottes geworden^pLiebe Brüder, durch die Güte Gottes dürfen wir heute den Weihetag dieses Gotteshauses mit Freude und Jubel begehen. Der wirkliche und lebendige Tempel jedoch müssen wir selber sein. Dennoch feiern die christlichen Völker mit Recht das Fest der Mutterkirche, weil sie wissen, dass sie durch diese Kirche im Geist wiedergeboren wurden. Durch die erste Geburt waren wir „Gefäße des Zorns“ {1#Röm 9,22-23}, durch die zweite wurden wir zu „Gefäßen des Erbarmens“ {2#vgl. Apg 7,48}. Die erste Geburt gebar uns für den Tod, die zweite rief uns zum Leben zurück.^pVor der Taufe, meine Lieben, waren wir alle Tempel des Teufels, nach der Taufe wurden wir Tempel Christi. Wenn wir aufmerksam über das Heil unserer Seele nachdenken, erkennen wir auch, dass der eigentliche und lebendige Tempel Gottes wir selber sind. Gott wohnt nicht bloß in dem, was von Menschenhand gemacht ist, und nicht in einem Haus aus Holz und Stein, sondern vor allem in der Seele, die nach dem Bild Gottes geschaffen und von der Hand des Künstlers selbst gebildet ist. Der heilige Apostel Paulus sagt: „Gottes Tempel ist heilig, und der seid ihr.“ {3#1 Kor 3,17}^pChristus kam und warf den Teufel aus unserm Herzen hinaus, um in uns für sich einen Tempel zu schaffen. Nach Kräften wollen wir darum mit seiner Hilfe daran arbeiten, dass ihm in uns nicht durch böse Taten Unrecht geschieht. Jeder, der Böses tut, begeht ein Unrecht gegen Jesus Christus.^pWenn wir daher, meine Lieben, mit Freuden den Gedächtnistag des Gotteshauses feiern wollen, dürfen wir den lebendigen Tempel Gottes nicht in uns durch böse Werke zerstören. Wie wir die Kirche vorfinden wollen, wenn wir zu ihr kommen, geradeso müssen wir unsere Seele bereiten.",
-          "patr_resp1": "Dies ist Jerusalem, die große himmlische Stadt, geschmückt als Braut des Lammes.",
-          "patr_resp2": "Gottes Zelt ist sie geworden.^ö",
-          "patr_resp3": "Ihre Tore stehen immerfort offen, denn Nacht gibt es nicht mehr in ihr.",
-          "patr_resp1_lat": "",
-          "patr_resp2_lat": "",
-          "patr_resp3_lat": ""
-        },
-        "Laudes": {
-          "button": "Weihetag der Lateranbasilika"
-        }
-      },
       "11": {
         "each": {
           "comm_1": "Hirten",
           "oration": "Allmächtiger Gott, der heilige Bischof Martin hat dich in seinem Leben und in seinem Sterben verherrlicht. Lass auch in uns die Macht deiner Gnade wirksam sein, damit weder Tod noch Leben uns von deiner Liebe trennen.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, qui in beáto Martíno epíscopo sive per vitam sive per mortem magnificátus es, ínnova grátiæ tuæ mirabília in córdibus nostris, ut neque mors neque vita separáre nos possit a caritáte tua.^ORlV"
         },
         "Lesehore": {
           "hymn_1": 1215.0,
@@ -8970,9 +8949,7 @@ export const brevierData = {
           "patr_resp1": "Martin richtete niemand, keinen verurteilte er",
           "patr_resp2": "In seinem Mund gab es nur Christus, nur Friede und Erbarmen",
           "patr_resp3": "Er fürchtete sich nicht zu sterben und weigerte sich nicht zu leben",
-          "patr_resp1_lat": "",
-          "patr_resp2_lat": "",
-          "patr_resp3_lat": ""
+          "hymn_1_lat": 9111.4
         },
         "Laudes": {
           "button": "Hl. Martin",
@@ -8985,23 +8962,13 @@ export const brevierData = {
           "ant1": "Martin, Priester des Herrn, dir steht der Himmel offen und das Reich meines Vaters.",
           "ant2": "Martin verharrte unermüdlich im Gebet. Augen und Hände zum Himmel erhoben.^ö",
           "ant3": "Martin, auf Erden arm und gering, geht reich in den Himmel ein und genießt in Abrahams Schoß ewige Freude.^ö",
-          "les_buch": "›Hebr",
-          "les_stelle": "13,7–9a",
-          "les_text": "Denkt an eure Vorsteher, die euch das Wort Gottes verkündet haben; schaut auf das Ende ihres Lebens und ahmt ihren Glauben nach! Jesus Christus ist derselbe gestern, heute und in Ewigkeit. Lasst euch nicht durch mancherlei fremde Lehren irreführen.",
-          "les_text_neu": "Gedenkt eurer Vorsteher, die euch das Wort Gottes verkündet haben! Betrachtet den Ertrag ihres Lebenswandels! Ahmt ihren Glauben nach! Jesus Christus ist derselbe gestern und heute und in Ewigkeit. Lasst euch nicht von vieldeutigen und fremden Lehren irreführen!",
-          "resp1": "Jerusalem, ich habe dir Wächter gegeben,",
-          "resp2": "den Namen Gottes sollen sie verkünden.",
-          "resp3": "Sie dürfen nicht schweigen bei Tag und bei Nacht.",
           "antev": "O seliger Mann, du hast die Freude des Paradieses erlangt! Jubelnd begrüßen dich Engel und Heilige, und die Jungfrauen heißen dich willkommen: Der Himmel sei deine Stätte in Ewigkeit.",
           "genitiv_lat": "",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 9111.2,
+          "ant1_lat": "Sacérdos Dei, Martíne, apérti sunt tibi cæli et regnum Patris mei.",
+          "ant2_lat": "Oculis ac mánibus in cælum semper inténtis, invíctum ab oratióne spíritum non relaxábat, allelúia.",
+          "ant3_lat": "Martínus Abrahæ sinu lætus excípitur, Martínus pauper et módicus cælum dives ingréditur, allelúia.",
+          "antev_lat": "O beátum virum, cuius ánima paradísum póssidet! Unde exsúltant ángeli, lætántur archángeli, chorus sanctórum proclámat, turba vírginum invítat: Mane nobíscum in ætérnum."
         },
         "Vesper": {
           "hymn_1": 1215.0,
@@ -9011,22 +8978,12 @@ export const brevierData = {
           "ant1": "O unvergleichlicher Mann! Die Mühe des Lebens konnte dich nicht bezwingen, der Tod dich nicht besiegen! Obwohl du bereit warst, zu sterben, hast du dich nicht geweigert, die Bürde des Lebens weiterzutragen.",
           "ant2": "Herr, wenn dein Volk meiner noch bedarf, so weigere ich mich nicht. Dein Wille geschehe!",
           "ant3": "Der Bischof Martin hat die Welt verlassen. Nun herrscht er mit Christus im Himmel.",
-          "les_buch": "›1°Petr",
-          "les_stelle": "5,1–4",
-          "les_text": "Eure Ältesten ermahne ich, da ich ein Ältester bin wie sie und ein Zeuge der Leiden Christi und auch an der Herrlichkeit teilhaben soll, die sich offenbaren wird: Sorgt als Hirten für die euch anvertraute Herde Gottes, nicht aus Zwang, sondern freiwillig, wie Gott es will; auch nicht aus Gewinnsucht, sondern aus Neigung; seid nicht Beherrscher eurer Gemeinden, sondern Vorbilder für die Herde! Wenn dann der oberste Hirt erscheint, werdet ihr den nie verwelkenden Kranz der Herrlichkeit empfangen.",
-          "les_text_neu": "Eure Ältesten ermahne ich, als Mitältester und Zeuge der Leiden Christi, der auch an der Herrlichkeit teilhaben soll, die sich offenbaren wird: Weidet die euch anvertraute Herde Gottes, nicht gezwungen, sondern freiwillig, wie Gott es will; auch nicht aus Gewinnsucht, sondern mit Hingabe; seid nicht Beherrscher der Gemeinden, sondern Vorbilder für die Herde! Wenn dann der oberste Hirt erscheint, werdet ihr den nie verwelkenden Kranz der Herrlichkeit empfangen.",
-          "resp1": "Das ist der Freund seiner Brüder,",
-          "resp2": "für das Heil seines Volkes tritt er ein vor Gott.",
-          "resp3": "Für seine Brüder gab er das Leben hin.",
           "antev": "Seliger Bischof, von ganzem Herzen liebtest du Christus und kanntest keine Furcht vor den Herrschern der Erde! Heiliger Mann, raffte dich auch das Schwert des Verfolgers nicht hinweg, so gingst du der Märtyrerpalme dennoch nicht verlustig.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 9111.4,
+          "ant1_lat": "O virum ineffábilem, nec labóre victum nec morte vincéndum, qui nec mori tímuit nec vívere recusávit!",
+          "ant2_lat": "Dómine, si adhuc pópulo tuo sum necessárius, non recúso labórem; fiat volúntas tua.",
+          "ant3_lat": "Martínus epíscopus migrávit a sǽculo; vivit in Christo gemma sacerdótum.",
+          "antev_lat": "O beátum pontíficem, qui totis viscéribus diligébat Christum regem et non formidábat impérii principátum! O sanctíssima ánima, quam etsi gládius persecutóris non ábstulit, palmam tamen martýrii non amísit!"
         }
       },
       "19": {
