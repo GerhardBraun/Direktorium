@@ -354,6 +354,7 @@ export const dataSollemnities = {
                 "les_text_lat": ""
             },
             "laudes": {
+                "button": "Verst",
                 "hymn_1": 1440.0,
                 "hymn_kl": 0.0,
                 "psalm1": 51.0,
@@ -441,7 +442,7 @@ export const dataSollemnities = {
                 "hymn_3_lat": 5719.3,
                 "ant0_lat": "Deus, in nómine tuo salvum me fac, et in virtúte tua líbera me.",
                 "resp0_lat": "Exáudi, Deus, oratiónem meam.",
-                "resp1_lat": "Exáudi, Deus, oratiónem meam.",
+                "resp1_lat": "Ad te omnis caro véniet.",
                 "les_text_lat": "Præcipitábit mortem in sempitérnum et abstérget Dóminus Deus lácrimam ab omni facie et oppróbrium pópuli sui áuferet de univérsa terra, quia Dóminus locútus est."
             },
             "vesper": {

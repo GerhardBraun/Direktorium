@@ -25,8 +25,8 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
             season: "q", // Fastenzeit
             color: (season === 'q') ? "btn-violett"
                 : (Assumption) ? "btn-gold" : "btn-default",
-            rubric: (Assumption) ? "In der Oktav von Mariae Himmelfahrt bis Maria Königin kann passenderweise diese°Antiphon°bevorzugt°werden:" : "",
-            rubric_lat: (Assumption) ? "Infra octavam Assumptionis Mariæ usque ad Mariæ Reginæ memoriam hanc°antiphonam°prævalere°convenit:" : "",
+            rubric: (Assumption) ? "In der Oktav von Mariae Himmelfahrt bis Maria°Königin kann passenderweise diese°Antiphon°bevorzugt°werden:" : "",
+            rubric_lat: (Assumption) ? "Infra octavam Assumptionis Mariæ usque ad Mariæ°Reginæ°memoriam hanc°antiphonam°prævalere°convenit:" : "",
             title: "Ave, du Himmelskönigin",
             text: "Ave, du Himmelskönigin,^lave, der Engel Herrscherin.^lWurzel, der das Heil entsprossen,^lTür, die uns das Licht erschlossen:^lFreu dich, Jungfrau, voll der Ehre,^lüber allen Seligen Hehre,^lsei gegrüßt, des Himmels Krone,^lbitt für uns bei deinem Sohne.",
             title_lat: "Ave Regina cælorum",

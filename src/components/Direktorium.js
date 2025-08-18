@@ -1691,7 +1691,7 @@ const PrayerTextDisplay = ({
         )}
 
         <div className="mt-3 long-rubric">
-          {ordinariumTexts.closing[2]}
+          {ordinariumTexts.closing.lesehore}
         </div>
 
         {hour !== "invitatorium" && hour !== "komplet" && (
@@ -1730,6 +1730,9 @@ const PrayerTextDisplay = ({
             </div>
             <div className="flex gap-0">
               {formatPrayerText(ordinariumTexts.closing[1], "R°°")}
+            </div>
+            <div className="mt-3 long-rubric">
+              {ordinariumTexts.closing[2]}
             </div>
           </div>
         )}

@@ -84,6 +84,12 @@ export const getValue = ({ season, hour, texts, field,
     const isTSN = ['terz', 'sext', 'non'].includes(hour)
     const memorialWithTNS = texts?.laudes?.eig?.button
         ?.includes('Barnabas' || 'Schutzengel')
+    const checkAnt0 = `ant0${localPrefLanguage}`
+    const hasAnt0 = field.startsWith('ant') &&
+        (texts[hour][prefSrc]?.[checkAnt0] ||
+            texts[hour][prefSrc]?.[`com${localPrefComm}`]?.[checkAnt0])
+    const psalm51 = hour === 'laudes' &&
+        (swdCombined === 'q-0-3' || texts?.laudes?.eig?.button === 'Allerseelen')
 
     // Feier wie ein Hochfest
     const isSollemnity = (hour === 'vesper' && hasErsteVesper)
@@ -118,13 +124,12 @@ export const getValue = ({ season, hour, texts, field,
     if (isPsalmodie && !localPrefPsalmsWt
         && (isSollemnity
             || (isTSN && localPrefErgPs && !getExcludedHours(texts, localPrefErgPs, 'PSALMODIE').includes(hour))
-            || (hour === 'laudes' && (rank_date > 2 || rank_wt > 2) && dayOfWeek !== 0) // Hochfeste und Feste: Ps vom So der I. Woche
+            || (hour === 'laudes' && (rank_date > 2 || rank_wt > 2)
+                && dayOfWeek !== 0 && !psalm51) // Hochfeste und Feste: Ps vom So der I. Woche
         )) {
-        const checkAnt0 = `ant0${localPrefLanguage}`
-        if (!(field.startsWith('ant') &&
-            (texts[hour][prefSrc]?.[checkAnt0] ||
-                texts[hour][prefSrc]?.[`com${localPrefComm}`]?.[checkAnt0])
-        )) {
+
+
+        if (!psalm51 && !hasAnt0) {
             const data = dataSollemnities.soll?.[dayOfWeek]?.[hour]?.[languageField]
                 || dataSollemnities.soll?.[dayOfWeek]?.[hour]?.[field]
                 || dataSollemnities.soll.each?.[hour]?.[languageField]

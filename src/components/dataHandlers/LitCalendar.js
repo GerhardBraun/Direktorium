@@ -176,7 +176,7 @@ const calculateEaster = (year) => {
 const getNextSunday = (date) => {
     const d = new Date(date);
     const dayToSunday = 7 - d.getDay();
-    d.setUTCDate(d.getUTCDate() + (dayToSunday % 7));
+    d.setUTCDate(d.getUTCDate() + dayToSunday);
     return d;
 };
 
@@ -193,7 +193,6 @@ const getLiturgicalInfo = (provDate) => {
 
     // Berechne Schlüsseldaten und normalisiere sie
     const christmas = new Date(Date.UTC(year - 1, 11, 25));
-    christmas.setHours(0, 0, 0, 0);
     const christmasSunday = getNextSunday(christmas);
     const baptism = getNextSunday(new Date(Date.UTC(year, 0, 7)));
     const easter = calculateEaster(year);
@@ -255,12 +254,12 @@ const getLiturgicalInfo = (provDate) => {
     // Advent
     else if (date >= advent) {
         const adventWeek = weeksBetween(advent, date);
-        if (adventWeek === 5) {
-            season = 'w';
-            week = 1;
-        } else {
+        if (adventWeek < 5) {
             season = 'a';
             week = adventWeek;
+        } else {
+            season = 'w';
+            week = 1;
         }
     }
 
@@ -274,7 +273,7 @@ const getLiturgicalInfo = (provDate) => {
     }
     const swdCombined = `${season}-${week}-${dayOfWeek}`;
     const swdWritten = writeOut(season, week, dayOfWeek, swdCombined, day, afterPentecost);
-    if (!weekOfPsalter) { weekOfPsalter = ((week + 3) % 4) + 1 }
+    if (!weekOfPsalter) { weekOfPsalter = week % 4 || 4 }
     const ranks = calculateRanks(date, season, week, dayOfWeek, swdCombined, afterPentecost);
     const isCommemoration = ranks.rank_date < 3 &&
         (season === 'q' || (month === 12 && day > 16));

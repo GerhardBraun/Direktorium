@@ -5674,20 +5674,85 @@ export const psalmsData = {
         "title": "Herr aller Mächte, Throne und Gewalten",
         "quote": "Schutzengel",
         "text": "Herr aller Mächte,^/Throne und Gewalten,^ldir gilt der Lobpreis,^/den die Schöpfung darbringt.^lZu deiner Ehre^/singen alle Wesen,^ldie du erschaffen.^pVor deiner Größe^/neigen sich in Ehrfurcht^lChöre der Engel,^/dienen dir voll Freude.^lAlle Erlösten^/danken dir auf ewig^lfür deine Liebe.^pUnd deine Kirche^/jubelt heut mit ihnen,^ldenn du bist nahe,^/führst sie durch die Zeiten,^lwehrest dem Bösen,^/sendest deine Engel,^luns zu behüten.^pLob sei dem Vater^/auf dem höchsten Throne,^lLob sei dem Sohne,^/dem die Engel dienen,^lLob sei dem Geiste,^/der von beiden ausgeht,^limmer und ewig. Amen."
+      },
+    1.0: {
+        "quote": "Schutzengel lat. Lh",
+        "text_lat": "Ætérne rerum cónditor,^lqui mare, solum, ǽthera^lgubérnas, iustus rédditor^lcunctis secúndum ópera,^pSupérbum qui iam spíritum^leiúsque cunctos cómplices^lcondémnans in intéritum,^lveros firmásti súpplices,^pPrecámur te fidéntius,^lhos defensóres dírige,^lnobis per quos propítius^lsalútis dona pórrige.^pNos consolándo vísitent,^lpurgent, inflámment, dóceant,^lad bona semper íncitent,^lvim dǽmonum coérceant.^pO angelórum glória,^lsecúro gressu pérgere^lfac horum nos custódia,^lut te possímus cérnere.^pSint, angelórum Dómine,^lhonóris tibi cántica,^lqui miro præbes órdine^lillis nobísque cǽlica. Amen."
+      },
+    2.0: {
+        "quote": "Schutzengel lat. Ld",
+        "text_lat": "Orbis patrátor óptime,^lquæcúmque sunt qui déxtera^lmagna creásti, nec regis^lminóre providéntia,^pAdésto supplicántium^ltibi reórum cœ́tui,^llucísque sub crepúsculum^llucem novam da méntibus.^pTuúsque nobis ángelus,^lsignátus ad custódiam,^lhic adsit, a contágio^lqui críminum nos prótegat.^pNobis dracónis ǽmuli^lcalúmnias extérminet,^lne rete frauduléntiæ^lincáuta nectat péctora.^pMetum repéllat hóstium^lnostris procul de fínibus;^lpacem secúndet cívium^lfugétque pestiléntiam.^pDeo Patri sit glória,^lqui, quos redémit Fílius^let Sanctus unxit Spíritus,^lper ángelos custódiat. Amen."
+      },
+    4.0: {
+        "quote": "Schutzengel lat. Vp",
+        "text_lat": "Custódes hóminum psállimus ángelos,^lnatúræ frágili quos Pater áddidit^lcæléstis cómites, insidiántibus^lne succúmberet hóstibus.^pNam quod corrúerit próditor ángelus,^lconcéssis mérito pulsus honóribus,^lardens invídia péllere nítitur^lquos cælo Deus ádvocat.^pHuc, custos, ígitur pérvigil ádvola,^lavértens pátria de tibi crédita^ltam morbos ánimi quam requiéscere^lquicquid non sinit íncolas.^pSanctæ sit Tríadi laus pia iúgiter,^lcuius perpétuo númine máchina^ltriplex hæc régitur, cuius in ómnia^lregnat glória sǽcula. Amen."
+      }
+  },
+  9004: {
+    0.0: {
+        "quote": "Franz von Assisi",
+        "title_lat": "In cælésti collégio",
+        "text_lat": "In cælésti collégio^lFrancíscus fulget glória,^linsígni privilégio^lChristi portans insígnia.^pHic cœtus apostólici^lest factus consors páuperis,^lcrucem in se domínici^lsignum repórtans fœ́deris.^pHic martyr desidério^lcrucem post Iesum báiulat,^lquem mártyrum consórtio^lChristus in cælis cópulat.^pCrucem per abstinéntiam^lFrancíscus ferens iúgiter,^liam confessórum glóriam^ladéptus est felíciter.^pCandens decóre níveo,^lpassum hic sequens Dóminum,^lnunc castitátis prǽmio^lgaudet in choro vírginum.^pPater, Natus cum Flámine^lnos per Francísci vúlnera^llustrent divíno lúmine,^lætérna dantes múnera. Amen."
+      }
+  },
+  9007: {
+    0.0: {
+        "quote": "Rosenkranzfest lat.",
+        "title_lat": "Te gestiéntem gáudiis",
+        "text_lat": "Te gestiéntem gáudiis,^lte sáuciam dolóribus,^lte iug>i amíctam glória,^lo Virgo Mater, pángimus.^pAve, redúndans gáudio^ldum cóncipis, dum vísitas,^let edis, offers, ínvenis,^lmater beáta, Fílium.^pAve, dolens et íntimo^lin cord>e agónem, vérbera,^lspinas crucémque Fílii^lperpéssa, princeps mártyrum.^pAv>e, in triúmphis Fílii,^lin ígnibus Parácliti,^lin regn>i honór>e et lúmine^lregína fulgens glória.^pVeníte, gentes, cárpite^lex his rosas mystériis,^let pulchr>i amóris ínclitæ^lmatri corónas néctite.^pIesu, tibi sit glória,^lqui natus es de Vírgine,^lcum Patr>e et almo Spíritu,^lin sempitérna sǽcula. Amen."
+      }
+  },
+  9015: {
+    2.0: {
+        "quote": "Theresia von Avila lat. Ld",
+        "title_lat": "Regis supérni núntia",
+        "text_lat": "Regis supérni núntia^ldomum patérnam déseris,^lterris, Terés>ia, bárbaris^lChristum datúr>a aut sánguinem.^pSed te manet suávior^lmors, pœna poscit dúlcior:^ldivín>i amóris cúspide^lin vulnus icta cóncides.^pO caritátis víctima,^ltu corda nostra cóncrema,^ltibíque gentes créditas^linférn>i ab igne líbera.^pTe, sponse, Iesu, vírginum,^lbeát>i adórent órdines,^let nuptiáli cántico^llaudent per omne sǽculum. Amen."
+      },
+    4.0: {
+        "quote": "Theresia von Avila lat. Vp",
+        "title_lat": "Hæc est dies, qua cándidæ",
+        "text_lat": "Hæc est dies, qua cándidæ^linstar colúmbæ, cǽlitum^lad sacra templa spíritus^lse tránstulit Terésiæ,^pSponsíque voces áudiit:^l„Veni, soror, de vértice^lCarmél>i ad Agni núptias;^lven>i ad corónam glóriæ“.^pTe, sponse, Iesu, vírginum,^lbeát>i adórent órdines,^let nuptiáli cántico^llaudent per omne sǽculum. Amen."
+      }
+  },
+  9018: {
+    0.0: {
+        "quote": "Lukas lat. Ld und Vp",
+        "title_lat": "Pláusibus, Luca, cánimus, triúmphum",
+        "text_lat": "Pláusibus, Luca,^/cánimus, triúmphum^lquo nites fuso^/rútilo cruóre,^latque præcélsis^/méritis adéptam^lrite corónam.^pSpíritus ductu,^/studiósus orbi^lmira quæ pastor^/dócuit supérnus^lChristus ac fecit^/míserans amóre,^ltradis amánter.^pPróvidus chartis^/pérhibes venústis^lgesta quæ Iesu^/célebrant alúmnos,^leius et gentis^/nova quæ patéscunt^lin nova sæcla.^pO comes Pauli,^/speculátor alti^lcordis illíus^/sed et æmulátor,^lcáritas Christi^/fac ut usque nostrum^lpectus adúrat.^pTu malis nostris^/médicus fer artem,^lconfer et lætum^/fídei levámen,^lut Deo tandem^/potiámur, ipsi^lsemper ovántes. Amen."
+      },
+    2.0: {
+        "quote": "Lukas lat. Lh",
+        "title_lat": "O vir beáte, Apóstolis",
+        "text_lat": "O vir beát>e, Apóstolis^lcomes labórum sédule^ladiútor atque múneris,^llaudes precésque súscipe.^pChristi per illos núntios^lexórta sunt lætíssima^let veritátis sǽcula^let pacis atque gáudii.^pAssúmptus et tu cǽlitus^lad tanta consors póndera,^lcompar nitéscis glória^lpotentiáque prómines.^pTu, seminátor lúminis,^lfac sole Christi vívido^lvirér>e ubíque gérmina^lcæli replénd>a ad hórrea.^pSimúlque cum primóribus^lsumm>o astitúrus Iúdici,^lda nostra solvi débita,^lnos da fovéri grátia.^pSit Trinitáti glória,^lquæ præstet in cæléstibus^lnos eius omni témpore^lgaudére tecum prǽmiis. Amen."
       }
   },
   9028: {
-    2.0: {
+    0.0: {
         "quote": "Simon und Judas",
         "title_lat": "Commúne vos, apóstoli",
         "text_lat": "Commúne vos, apóstoli,^lextóllat hymni iúbilum,^lquos ádvocat par grátia,^lcorónat una glória.^pArdóre pulsus cǽlico,^lChristi premis vestígia,^lSimon, et illum núntias^lzelo peráctus ímpigro.^pTu carne frater, ássecla^lfratérque Christi spíritu,^lIuda, Magístrum prǽdicas^lscriptísque fratres érudis.^pNec pertiméscit sánguinem^lutérque purum fúndere,^lut veritátis énitens^lsit testis atque víctima.^pO summa cæli sídera,^lnos detis ut per áspera,^lfide valéntes íntegra,^ltendámus ad cæléstia.^pPatri per ævum glória^lNatóque cum Paráclito,^lquorum supérnis gáudiis^lsimul fruémur pérpetim."
       }
   },
   9101: {
-    1.0: {
+    0.0: {
         "title": "Christus, du Heiland aller Welt",
         "quote": "Allerheiligen",
         "text": "Christus, du Heiland aller Welt,^lder uns des Vaters Reich verheißt,^ldich rühmt vor deinem ew’gen Thron^ldie große Schar, die niemand zählt.^pSie freun sich deiner Gegenwart^lund schauen deine Herrlichkeit;^lim Lichte folgen sie dem Lamm^lund singen dir das neue Lied.^pWir jubeln über ihren Sieg^lund stimmen in ihr Loblied ein.^lGib uns, wenn du einst wiederkommst,^lAnteil an ihrer Herrlichkeit.^pHerr Christus, dir sei Preis und Ruhm,^lder seine Diener herrlich krönt,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
+      },
+    1.0: {
+        "quote": "Allerheiligen lat. Lh",
+        "title_lat": "Christe, cælórum habitátor alme",
+        "text_lat": "Christe, cælórum^lhabitátor alme,^lvita sanctórum,^lvia, spes salúsque,^lhóstiam clemens,^ltibi quam litámus,^lsúscipe laudis.^pOmnium semper^lchorus angelórum^lin polo temet^lbenedícit alto,^latque te sancti^lsimul univérsi^lláudibus ornant.^pVírginis sanctæ^lméritis Maríæ^latque cunctórum^lpáriter piórum,^lcóntine pœnam,^lpie, quam merémur^ldaque medélam.^pHic tuam præsta^lcelebráre laudem,^lut tibi fidi^lvaleámus illam^lprósequ>i in cælis^lTríadi canéntes^liúgiter hymnos. Amen."
+      },
+    2.0: {
+        "quote": "Allerheiligen lat. Ld",
+        "title_lat": "Iesu, salvátor sǽculi",
+        "text_lat": "Iesu, salvátor sǽculi,^lredémptis ope súbveni,^let, pia Dei génetrix,^lsalútem posce míseris.^pCœtus omnes angélici,^lpatriarchárum cúnei^lac prophetárum mérita^lnobis precéntur véniam.^pBaptísta tui prǽvius^let cláviger æthéreus^lcum céteris apóstolis^lnos solvant nexu críminis.^pChorus sacrátus mártyrum,^lsacerdótum conféssio^let virginális cástitas^lnos a peccátis ábluant.^pMonachórum suffrágia^lomnésque cives cǽlici^lánnuant votis súpplicum^let vitæ poscant prǽmium.^pSit, Christe, tibi glória^lcum Patre et Sancto Spíritu,^lquorum luce mirífica^lsancti congáudent pérpetim. Amen."
+      },
+    3.0: {
+        "quote": "Allerheiligen lat. Vp",
+        "title_lat": "Christe, redémptor ómnium",
+        "text_lat": "Christe, redémptor ómnium,^lconsérva tuos fámulos,^lbeátæ semper Vírginis^lplacátus sanctis précibus.^pBeáta quoque ágmina^lcæléstium spirítuum,^lprætérita, præséntia,^lfutúra mala péllite.^pVates ætérni iúdicis^lapostolíque Dómini,^lsupplíciter expóscimus^lsalvári vestris précibus.^pMártyres Dei íncliti^lconfessorésque lúcidi,^lvestris oratiónibus^lnos ferte in cæléstibus.^pChori sanctárum vírginum^lmonachorúmque ómnium,^lsimul cum sanctis ómnibus^lconsórtes Christi fácite.^pSit Trinitáti glória,^lvestrásque voces iúngite^lut illi laudes débitas^lpersolvámus alácriter. Amen."
       },
     4.0: {
         "title": "Himmlische Chöre preisen den Höchsten",

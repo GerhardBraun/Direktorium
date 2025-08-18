@@ -28,7 +28,8 @@ const ordinariumData = {
             "vu": "Vater unser im Himmel,^lgeheiligt werde dein Name.^lDein Reich komme.^lDein Wille geschehe^lwie im Himmel, so auf Erden.^lUnser tägliches Brot gib uns heute.^lUnd vergib uns unsere Schuld,^lwie auch wir vergeben unsern Schuldigern.^lUnd führe uns nicht in Versuchung,^lsondern erlöse uns von dem Bösen.",
             "closing": [
                 "Der Herr segne uns, er°bewahre°uns°vor°Unheil und°führe°uns°zum°ewigen°Leben.",
-                "Amen."
+                "Amen.",
+                "Wenn die Vesper in Gemeinschaft gefeiert wird, die Komplet jedoch nicht, empfiehlt es sich, statt der Komplet die Vesper mit der Marianischen Antiphon abzuschließen.",
             ]
         },
         'lat': {
@@ -37,7 +38,8 @@ const ordinariumData = {
             "vu": "Pater noster, qui es in cælis:^lsanctificétur nomen tuum;^ladvéniat regnum tuum;^lfiat volúntas tua, sicut°in°cælo°et°in°terra.^lPanem nostrum cotidiánum da°nobis°hódie;^let dimítte nobis débita nostra,^lsicut et nos dimíttimus debitóribus°nostris;^let ne nos indúcas in tentatiónem;^lsed líbera nos a malo.",
             "closing": [
                 "Dóminus nos benedícat, et°ab°omni°malo°deféndat, et°ad°vitam°perdúcat°ætérnam.",
-                "Amen."
+                "Amen.",
+                "Wenn die Vesper in Gemeinschaft gefeiert wird, die Komplet jedoch nicht, empfiehlt es sich, statt der Komplet die Vesper mit der Marianischen Antiphon abzuschließen.",
             ]
         }
     },
@@ -235,7 +237,7 @@ function getClosingTexts(hour, localPrefLatin) {
             "Dank sei Gott, dem Herrn."];
 
     if (hour === 'lesehore') {
-        closing[2] = "Wenn eine andere Hore unmittelbar angeschlossen wird, entfallen hier Oration und Abschluss; dann folgt jetzt der Hymnus der anschließenden Hore.";
+        closing.lesehore = "Wenn eine andere Hore unmittelbar angeschlossen wird, entfallen hier Oration und Abschluss; dann folgt jetzt der Hymnus der anschließenden Hore.";
     }
 
     return closing;

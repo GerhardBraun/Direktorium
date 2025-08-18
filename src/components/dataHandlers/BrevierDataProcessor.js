@@ -303,8 +303,8 @@ function processCommune(hours, season, targetSource) {
                 }
 
                 function addLayer(layerComm, layerSeason) {
-                    const communeData = layerComm === 'Kirchw'
-                        ? dataSollemnities.kirchw?.[layerSeason?.toLowerCase()]?.[readingHour?.toLowerCase()]
+                    const communeData = ['Kirchw', 'Verst'].includes(layerComm)
+                        ? dataSollemnities?.[layerComm.toLowerCase()]?.[layerSeason?.toLowerCase()]?.[readingHour?.toLowerCase()]
                         : brevierData?.com?.[layerComm]?.[layerSeason]?.[readingHour];
                     if (communeData) {
                         Object.assign(

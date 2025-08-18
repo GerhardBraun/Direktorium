@@ -70,9 +70,10 @@ const NavigationButtons = ({ hour, onBack, onSelectHour, topButton = false, text
 
     const nextHours = getNextHours(hour);
     const gridClass = getGridClass(nextHours)
-    const singleButton =
-        gridClass === 'left' ? '\u00A0←\u00A0' + nextHours[0].label
-            : gridClass === 'right' ? nextHours[0].label + '\u00A0→\u00A0\u00A0\u00A0'
+    let singleButton = nextHours[0].label || nextHours[1].label || ''
+    singleButton =
+        gridClass === 'left' ? '\u00A0←\u00A0' + singleButton
+            : gridClass === 'right' ? singleButton + '\u00A0→\u00A0\u00A0\u00A0'
                 : ''
 
 
