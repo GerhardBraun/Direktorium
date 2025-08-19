@@ -1,7 +1,6 @@
 import { brevierData } from '../data/Brevier.ts';
 import { lecture1Data } from '../data/Lecture1.ts';
 import { lecture2Data } from '../data/Lecture2.ts';
-import { psalmsData } from '../data/PsHymn.ts';
 import { adlibData } from '../data/AdLib.ts';
 import { dataSollemnities } from '../data/Sollemnities.ts';
 import { getLiturgicalInfo } from './LitCalendar.js';
@@ -239,6 +238,7 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         // Process Heiligenfeste only if rank is appropriate
         if (rank_date > 1 && rank_date > rank_wt) {
             processHeilige(hours, season, calendarMonth, calendarDay);
+            processAdLib(hours, season, calendarMonth, calendarDay);
         }
 
         // Sonderfall: MaterEcclesiae bzw. Herz Mariae und gebotener Gedenktag
@@ -326,6 +326,18 @@ function processCommune(hours, season, targetSource) {
     });
 }
 
+function processHeilige(hours, season, calendarMonth, calendarDay,
+    sourceKey = 'eig', targetKey = '') {
+    // Commune texts processing
+    if (!targetKey) { targetKey = sourceKey }
+    const communeData = brevierData?.[sourceKey]?.[calendarMonth]?.[calendarDay];
+
+    if (communeData) {
+        mergeData(hours, communeData, targetKey);
+        processCommune(hours, season, targetKey);
+    }
+}
+
 function processAdLib(hours, season, calendarMonth, calendarDay, sameRank = false) {
     const nichtgebData = adlibData?.[calendarMonth]?.[calendarDay];
     if (nichtgebData) {
@@ -345,17 +357,6 @@ function processAdLib(hours, season, calendarMonth, calendarDay, sameRank = fals
     }
 }
 
-function processHeilige(hours, season, calendarMonth, calendarDay,
-    sourceKey = 'eig', targetKey = '') {
-    // Commune texts processing
-    if (!targetKey) { targetKey = sourceKey }
-    const communeData = brevierData?.[sourceKey]?.[calendarMonth]?.[calendarDay];
-
-    if (communeData) {
-        mergeData(hours, communeData, targetKey);
-        processCommune(hours, season, targetKey);
-    }
-}
 function processTerzPsalms(hours) {
     // Definiere die zu prüfenden Stunden
     const targetHours = ['sext', 'non'];

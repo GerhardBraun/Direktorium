@@ -18,7 +18,7 @@ export const getValue = ({ season, hour, texts, field,
         swdCombined, dayOfWeek } = texts;
     const languageField = field + localPrefLanguage
     const allSouls = (texts?.laudes?.eig?.button === 'Allerseelen')
-        || (swdCombined === 'j-31-0' && rank_date === 5)
+        || (swdCombined === 'j-31-0' && rank_date === 3)
 
     if (['kirchw', 'verst'].includes(prefSollemnity)) {
         const data = dataSollemnities[prefSollemnity]
