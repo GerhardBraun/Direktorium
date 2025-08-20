@@ -47,7 +47,7 @@ const HymnSelector = ({ texts, hour, season,
         const color = currentLevel?.farbe;
         if (color?.startsWith('r')) { return 'btn-red' }
         if (color?.startsWith('m')) { return 'btn-blue' }
-        if (sourceLabel.startsWith('eigen: (')) { return 'btn-gold'; }
+        if (sourceLabel.startsWith('eigen:')) { return 'btn-gold'; }
         if (sourceLabel === 'Comm:') { return 'btn-brown'; }
         if (sourceLabel === 'pers:') { return 'btn-pers'; }
         return 'btn-default'
@@ -241,8 +241,8 @@ const HymnSelector = ({ texts, hour, season,
                             const alternativeId = `eig_${alternativeHymnField}_fallback`;
 
                             // Bestimme Sprachkennzeichnung für das Label
-                            const languageLabel = suffix.replace(/^_(.+)$/, ' ($1.)');
-
+                            let languageLabel = suffix.replace(/^_(.+)$/, ' ($1.)');
+                            languageLabel = ''
                             addNewHymn({
                                 hymnNumber: alternativeHymnNumber,
                                 id: alternativeId,
@@ -292,7 +292,7 @@ const HymnSelector = ({ texts, hour, season,
                 <button
                     key={hymn.id}
                     onClick={() => setSelectedHymn(hymn.id)}
-                    className={`w-full text-sm text-left pl-2 pt-2 pb-1 mt-1 rounded
+                    className={`w-full text-sm text-left px-2 pt-2 pb-1 mt-1 rounded
                         ${getButtonColor(hymn.id.split('_')[0], hymn.source)}
                         ${selectedHymn === hymn.id ? 'ring-2 ring-yellow-500' : ''}`}
                 >
