@@ -47,7 +47,7 @@ const HymnSelector = ({ texts, hour, season,
         const color = currentLevel?.farbe;
         if (color?.startsWith('r')) { return 'btn-red' }
         if (color?.startsWith('m')) { return 'btn-blue' }
-        if (sourceLabel.startsWith('eigen:')) { return 'btn-gold'; }
+        if (sourceLabel.startsWith('eigen')) { return 'btn-gold'; }
         if (sourceLabel === 'Comm:') { return 'btn-brown'; }
         if (sourceLabel === 'pers:') { return 'btn-pers'; }
         return 'btn-default'
@@ -131,6 +131,7 @@ const HymnSelector = ({ texts, hour, season,
                     hymns.push({
                         id,
                         source: sourceLabel,
+                        indent: sourceLabel.length > 9 ? '20' : '',
                         stb3,
                         text: hymnText,
                         title: hymnData[titleField],
@@ -242,11 +243,11 @@ const HymnSelector = ({ texts, hour, season,
 
                             // Bestimme Sprachkennzeichnung für das Label
                             let languageLabel = suffix.replace(/^_(.+)$/, ' ($1.)');
-                            languageLabel = ''
+                            //languageLabel = ''
                             addNewHymn({
                                 hymnNumber: alternativeHymnNumber,
                                 id: alternativeId,
-                                sourceLabel: `eigen:${languageLabel}`,
+                                sourceLabel: `eigen${languageLabel}:`,
                                 isNachtHymn: false,
                                 languageSuffix: suffix
                             });
@@ -307,8 +308,7 @@ const HymnSelector = ({ texts, hour, season,
                         </div>
                     ) : (
                         <div className="flex items-baseline gap-0">
-                            <div className="opacity-70 shrink-0 w-16">
-                                {hymn.source}
+                            <div className={`opacity-70 shrink-0 w-${hymn.indent || '16'}`}>                                {hymn.source}
                             </div>
                             <div>
                                 {formatPrayerText(hymn?.title)}
