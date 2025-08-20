@@ -14,8 +14,8 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
     const marianAntiphons = useMemo(() => [
         {
             season: "a", // Advent und Weihnachtszeit (w)
-            color: (season === 'a') ? "btn-violett"
-                : (Nativity) ? "btn-gold" : "btn-default",
+            color: (Nativity) ? "btn-gold"
+                : (season === 'a') ? "btn-violett" : "btn-default",
             title: "Erhabne Mutter des Erlösers",
             text: "Erhabne Mutter des Erlösers,^ldu allzeit offene Pforte des Himmels^lund Stern des Meeres,^lkomm, hilf deinem Volke,^ldas sich müht, vom Falle aufzustehn.^lDu hast geboren, der Natur zum Staunen,^ldeinen heiligen Schöpfer.^lUnversehrte Jungfrau,^ldie du aus Gabriels Munde^lnahmst das selige Ave,^lo erbarme dich der Sünder.",
             title_lat: "Alma Redemptoris Mater",
@@ -75,6 +75,13 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
             const month = selectedDate.getMonth() + 1; // getMonth() ist 0-basiert
             const day = selectedDate.getDate();
 
+            // Weihnachtszeit einschl. 1. Vesper am Heiligen Abend und Fest der Taufe Jesu -> Alma Redemptoris Mater (a)
+            if ((month === 12 && day === 24) || season === 'w' || swdCombined === 'j-1-0') {
+                setNativity(true);
+                return 'a';
+            }
+            else { setNativity(false); }
+
             // 15.8. (Mariä Himmelfahrt) und 22.8. (Maria Königin) -> Ave Regina Caelorum (q)
             if ((month === 8 && day > 13 && day < 23)) {
                 setAssumption(true);
@@ -82,13 +89,6 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
             }
             else { setAssumption(false); }
         }
-
-        // Weihnachtszeit einschl. Fest der Taufe Jesu -> Alma Redemptoris Mater (a)
-        if (season === 'w' || swdCombined === 'j-1-0') {
-            setNativity(true);
-            return 'a';
-        }
-        else { setNativity(false); }
 
         // Sonst verwende die normale Jahreszeit
         return season;

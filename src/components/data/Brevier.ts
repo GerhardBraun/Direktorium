@@ -326,7 +326,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Allmächtiger Gott, sieh gütig auf dein Volk, das mit gläubigem Verlangen das Fest der Geburt Christi erwartet. Mache unser Herz bereit für das Geschenk der Erlösung, damit Weihnachten für uns alle ein Tag der Freude und der Zuversicht werde.^ORV",
-          "oration_lat": "^ORlV Deus, qui cónspicis pópulum tuum nativitátis domínicæ festivitátem fidéliter exspectáre, præsta, quǽsumus, ut valeámus ad tantæ salútis gáudia perveníre, et ea votis sollémnibus álacri semper lætítia celebráre.^ORlV"
+          "oration_lat": "Deus, qui cónspicis pópulum tuum nativitátis domínicæ festivitátem fidéliter exspectáre, præsta, quǽsumus, ut valeámus ad tantæ salútis gáudia perveníre, et ea votis sollémnibus álacri semper lætítia celebráre.^ORlV"
         },
         "ErsteV": {
           "ant1": "Jerusalem, jauchze auf in großer Freude; denn dein Erlöser kommt zu dir.^ö",
@@ -439,6 +439,8 @@ export const brevierData = {
           "ant1": "Siehe, es kommt der Ersehnte der Völker; mit Herrlichkeit wird erfüllt das Haus des Herrn.^ö",
           "ant2": "Komm, o Herr, und säume nicht. Befreie dein Volk von seiner Schuld.",
           "ant3": "Siehe, gekommen ist die Fülle der Zeit, da Gott seinen Sohn zur Erde gesandt hat.",
+          "antev": "O-AntiphonVomTag",
+          "antev_lat": "AntiphonaDiei",
           "oration_lat": "Grátiam tuam, quǽsumus, Dómine, méntibus nostris infúnde, ut qui, Angelo nuntiánte, Christi Fílii tui incarnatiónem cognóvimus, per passiónem eius et crucem ad resurrectiónis glóriam perducámur.^ORlvR"
         },
         "Laudes": {
@@ -447,9 +449,7 @@ export const brevierData = {
           "ant3": "Dein allmächtiges Wort, o Herr, kam herab vom Königsthron.^ö",
           "ant1_lat": "Ecce véniet desiderátus cunctis géntibus, et replébitur glória domus Dómini.^Lö",
           "ant2_lat": "Veni, Dómine, et noli tardáre; reláxa facínora plebi tuæ, Israel.",
-          "ant3_lat": "Ecce iam venit plenitúdo témporis, in quo misit Deus Fílium suum in terras.",
-          "anta_lat": "O Sapiéntia, quæ ex ore Altíssimi prodísti, attíngens a fine usque ad finem, fórtiter suavitérque dispónens ómnia: veni ad docéndum nos viam prudéntiæ.",
-          "antb_lat": "O Sapiéntia, quæ ex ore Altíssimi prodísti, attíngens a fine usque ad finem, fórtiter suavitérque dispónens ómnia: veni ad docéndum nos viam prudéntiæ."
+          "ant3_lat": "Ecce iam venit plenitúdo témporis, in quo misit Deus Fílium suum in terras."
         },
         "Vesper": {
           "ant1": "Seht, wie herrlich er ist, der kommt, um die Völker zu retten.",
@@ -457,8 +457,7 @@ export const brevierData = {
           "ant3": "Sein Reich wird wachsen, und es wird ewiger Friede sein.^ö",
           "ant1_lat": "Cánite tuba in Sion, quia prope est dies Dómini: ecce véniet ad salvándum nos.^Lö",
           "ant2_lat": "Dóminus véniet, occúrrite illi, dicéntes: Magnum princípium, et regni eius non erit finis: Deus fortis, Dominátor, Princeps pacis",
-          "ant3_lat": "Omnípotens Sermo tuus, Dómine, a regálibus sédibus véniet.^Lö",
-          "antb_lat": "Ioseph fili David, noli timére accípere Maríam cóniugem tuam. Quod enim in ea natum est, de Spíritu Sancto est.^Lö"
+          "ant3_lat": "Omnípotens Sermo tuus, Dómine, a regálibus sédibus véniet.^Lö"
         }
       }
     },
@@ -480,8 +479,7 @@ export const brevierData = {
           "hymn_2_lat": 0.0,
           "ant1_lat": "Intuémini quam gloriósus sit iste, qui ingréditur ad salvándos pópulos.",
           "ant2_lat": "Erunt prava in dirécta et áspera in vias planas. Veni, Dómine, et noli tardáre.^Lö",
-          "ant3_lat": "Multiplicábitur eius impérium, et pacis non erit finis.^Lö",
-          "anta_lat": "O Adonái et Dux domus Israel, qui Móysi in igne flammæ rubi apparuísti, et ei in Sina legem dedísti: veni ad rediméndum nos in brácchio exténto."
+          "ant3_lat": "Multiplicábitur eius impérium, et pacis non erit finis.^Lö"
         },
         "Lesehore": {
           "ant1": "Seht, unser König kommt mit großer Macht, die Völker zu retten.^ö",
@@ -1174,6 +1172,11 @@ export const brevierData = {
         }
       },
       "each": {
+        "ErsteV": {
+          "hymn_1": 3141.0,
+          "hymn_2": 3142.1,
+          "hymn_kl": 0.0
+        },
         "Vesper": {
           "hymn_1": 3141.0,
           "hymn_2": 3142.1,
@@ -1206,6 +1209,75 @@ export const brevierData = {
         },
         "Komplet": {
           "hymn_1_lat": 2500.2
+        }
+      }
+    }
+  },
+  "ak": {
+    "3": {
+      "0": {
+        "each": {
+          "oration": "Allmächtiger Gott, sieh gütig auf dein Volk, das mit gläubigem Verlangen das Fest der Geburt Christi erwartet. Mache unser Herz bereit für das Geschenk der Erlösung, damit Weihnachten für uns alle ein Tag der Freude und der Zuversicht werde.^ORV",
+          "oration_lat": "Deus, qui cónspicis pópulum tuum nativitátis domínicæ festivitátem fidéliter exspectáre, præsta, quǽsumus, ut valeámus ad tantæ salútis gáudia perveníre, et ea votis sollémnibus álacri semper lætítia celebráre.^ORlV"
+        }
+      }
+    },
+    "4": {
+      "0": {
+        "each": {
+          "oration": "Allmächtiger Gott, gieße deine Gnade in unsere Herzen ein. Durch die Botschaft des Engels haben wir die Menschwerdung Christi, deines Sohnes, erkannt. Führe uns durch sein Leiden und Kreuz zur Herrlichkeit der Auferstehung.^ORvR",
+          "oration_lat": "Grátiam tuam, quǽsumus, Dómine, méntibus nostris infúnde, ut qui, Angelo nuntiánte, Christi Fílii tui incarnatiónem cognóvimus, per passiónem eius et crucem ad resurrectiónis glóriam perducámur.^ORlvR"
+        },
+        "Laudes": {
+          "les_buch": "›Röm",
+          "les_stelle": "13,11b–12",
+          "les_text": "Die Stunde ist gekommen, sich vom Schlaf zu erheben. Denn jetzt ist das Heil uns näher als zu der Zeit, da wir gläubig wurden. Die Nacht ist vorgerückt, der Tag ist nahe. Darum lasst uns ablegen die Werke der Finsternis und anlegen die Waffen des Lichts!",
+          "bitten_e": "Gepriesen sei unser Herr Jesus Christus, der Richter der Lebenden und der Toten. Zu ihm lasst uns beten:",
+          "bitten_r": "Komm, Herr Jesus.",
+          "bitten": "Du willst nicht den Tod des Sünders, sondern dass er lebt;^qsteh uns heute bei in den Anfechtungen des Bösen.^pAls Richter kehrst du einst wieder;^qerweise an uns deine rettende Macht.^pDu willst, dass wir uns für deine Ankunft bereiten;^qgib, dass du uns wachend findest, wenn du kommst.^pHilf uns, dass wir fromm und besonnen in dieser Welt leben^qund die Erfüllung unserer seligen Hoffnung erwarten.",
+          "resp1_lat": "Christe, Fili Dei vivi,",
+          "resp2_lat": "miserére nobis.",
+          "resp3_lat": "Qui ventúrus es in mundum.",
+          "bitten_e_lat": "Dóminum Iesum Christum, fratres caríssimi, deprecémur, qui est iudex vivórum et mortuórum ipsi dicéntes:",
+          "bitten_r_lat": "Veni, Dómine Iesu.",
+          "bitten_lat": "Christe Dómine, qui peccatores salváre venísti,^qnos ab omni tentatiónum adversitáte defénde.^pQui ad iudícium maniféste ventúrus esse créderis,^qpoténtiam tuæ salvatiónis in nobis osténde.^pDa nobis legis tuæ præcépta virtúte spíritus custodíre,^qut advéntum tuum in caritáte præstolári possímus.^pTu, qui es benedíctus in sǽcula, fac ut per misericórdiam tuam pie et sóbrie in hoc sǽculo vivámus,^qexspectántes beátam spem et advéntum magnificéntiæ tuæ.",
+          "les_text_lat": "Hora est iam vos de somno súrgere, nunc enim própior est nobis salus quam cum credídimus. Nox procéssit, dies autem appropiávit. Abiciámus ergo ópera tenebrárum et induámur arma lucis."
+        },
+        "Terz": {
+          "les_buch": "›Röm",
+          "les_stelle": "13,13–14a",
+          "les_text": "Lasst uns ehrenhaft leben wie am Tag, ohne maßloses Essen und Trinken, ohne Unzucht und Ausschweifung, ohne Streit und Eifersucht. Legt (als neues Gewand) den Herrn Jesus Christus an.",
+          "les_text_neu": "Lasst uns ehrenhaft leben wie am Tag, ohne maßloses Essen und Trinken, ohne Unzucht und Ausschweifung, ohne Streit und Eifersucht! Vielmehr zieht den Herrn Jesus Christus an.",
+          "les_text_lat": "Sicut in die honéste ambulémus: non in comissatiónibus et ebrietátibus, non in cubílibus et impudicítiis, non in contentióne et æmulatióne; sed indúite Dóminum Iesum Christum."
+        },
+        "Sext": {
+          "les_buch": "›1°Thess",
+          "les_stelle": "3,12–13",
+          "les_text": "Der Herr lasse euch wachsen und reich werden in der Liebe zueinander und zu allen, wie auch wir euch lieben, damit euer Herz gefestigt wird und ihr ohne Tadel seid, geheiligt vor Gott, unserem Vater, wenn Jesus, unser Herr, mit allen seinen Heiligen kommt.",
+          "les_text_neu": "Der Herr lasse euch wachsen und reich werden in der Liebe zueinander und zu allen, wie auch wir euch lieben, damit eure Herzen gestärkt werden und ihr ohne Tadel seid, geheiligt vor Gott, unserem Vater, bei der Ankunft Jesu, unseres Herrn, mit allen seinen Heiligen.",
+          "les_text_lat": "Abundáre vos fáciat Dóminus caritáte in ínvicem et in omnes, quæmádmodum et nos in vos, ad confirmánda corda vestra sine queréla in sanctitáte ante Deum et Patrem nostrum, in advéntu Dómini nostri Iesu cum ómnibus sanctis eius."
+        },
+        "Non": {
+          "les_buch": "›vgl.°2°Thess",
+          "les_stelle": "1,6–7.10",
+          "les_text": "Es entspricht der Gerechtigkeit Gottes, euch, den Bedrängten, zusammen mit uns Ruhe zu schenken, wenn Jesus, der Herr, sich vom Himmel her offenbart mit seinen mächtigen Engeln, wenn er kommt, um inmitten seiner Heiligen gefeiert und im Kreis aller derer bewundert zu werden, die den Glauben angenommen haben.",
+          "les_text_neu": "Es ist gerecht von Gott, euch, den Bedrängten, zusammen mit uns Ruhe zu schenken, wenn Jesus, der Herr, sich vom Himmel her offenbart mit seinen mächtigen Engeln, wenn er kommt, um inmitten seiner Heiligen verherrlicht und inmitten der Glaubenden bewundert zu werden.",
+          "les_text_lat": "Iustum est apud Deum retribúere vobis, qui tribulámini, réquiem nobíscum in revelatióne Dómini Iesu de cælo cum ángelis virtútis eius, cum vénerit glorificári in sanctis suis et admirábilis fíeri in ómnibus, qui credidérunt."
+        },
+        "Vesper": {
+          "les_buch": "›Phil",
+          "les_stelle": "4,4–5",
+          "les_text": "Freut euch im Herrn zu jeder Zeit! Noch einmal sage ich: Freut euch! Eure Güte werde allen Menschen bekannt. Der Herr ist nahe!",
+          "bitten_e": "Lasst uns beten zu Jesus Christus, der in diese Welt gekommen ist, um alle Menschen zu retten:",
+          "bitten_r": "Komm, Herr Jesus.",
+          "bitten": "Du hast den Menschen das Geheimnis Gottes kundgetan;^qsteh allen bei, die diese Botschaft verkünden.^pDu hast das Werk der Erlösung an Israel begonnen;^qvollende es an allen Völkern der Erde.^pDu hast unsere Schwachheit auf dich genommen;^qerbarme dich der Hilflosen und Armen.^pDu bist der Lebendige;^qschenke allen, die an dich glauben, das ewige Leben.^pDu thronst zur Rechten des Vaters;^qlass die Verstorbenen dein Angesicht schauen.",
+          "resp1_lat": "Osténde nobis, Dómine,",
+          "resp2_lat": "misericórdiam tuam.",
+          "resp3_lat": "Et salutáre tuum da nobis.",
+          "bitten_e_lat": "Christum Redemptórem, fratres caríssimi, exorémus, qui venit ad salvándos hómines, eíque fidénter dicámus:",
+          "bitten_r_lat": "Veni, Dómine Iesu.",
+          "bitten_lat": "Christe Dómine, qui per suscéptæ mystérium carnis notam fecísti mundo glóriam tuæ divinitátis,^qvivífica nos advéntu tuo.^pTu, qui suscepísti infirmitátem nostram,^qconcéde nobis misericórdiam tuam.^pQui, primo véniens húmilis, redemísti mundum a crímine,^qsecúndo advéniens, iustífica nos ab omni reátu.^pTu, qui vivis et ómnia regis,^qin bonitáte tua fac nos accédere ad ætérnam hereditátem.^pQui sedes ad déxteram Patris,^qlúmine vultus tui ánimas defunctórum lætífica.",
+          "les_text_lat": "Gaudéte in Dómino semper. Iterum dico: Gaudéte! Modéstia vestra nota sit ómnibus homínibus. Dóminus prope."
         }
       }
     }
@@ -8591,6 +8663,158 @@ export const brevierData = {
       }
     },
     "11": {
+      "0": {
+        "each": {
+          "oration": "Allmächtiger Gott, wir glauben und bekennen, dass du deinen Sohn als Ersten von den Toten auferweckt hast. Stärke unsere Hoffnung, dass du auch unsere Brüder und Schwestern auferwecken wirst zum ewigen Leben.^ORV",
+          "oration_lat": ""
+        },
+        "Invitatorium": {
+          "ant0": "Den König, dem alles lebt, Christus, den Herrn – kommt, wir beten ihn an!",
+          "ant0_lat": ""
+        },
+        "Lesehore": {
+          "hymn_1": 2514.0,
+          "hymn_2": 1425.0,
+          "psalm1": 40.1,
+          "psalm2": 40.2,
+          "psalm3": 42.0,
+          "ant1": "Du hast mich aus Erde gebildet und mich mit Fleisch umkleidet; Herr, mein Erlöser, erwecke mich am Jüngsten Tag.",
+          "ant2": "Reiß mich heraus, o Herr; eile mir zu Hilfe.",
+          "ant3": "Meine Seele dürstet nach dem lebendigen Gott; wann darf ich kommen und Gottes Antlitz schauen?",
+          "les_buch": "Aus dem ersten Brief an die Korinther.",
+          "les_stelle": "15,12–34",
+          "les_text": "^hDie Auferweckung Christi und der Christen^pWenn verkündigt wird, dass Christus von den Toten auferweckt worden ist, wie können dann einige von euch sagen: Eine Auferstehung der Toten gibt es nicht? Wenn es keine Auferstehung der Toten gibt, ist auch Christus nicht auferweckt worden. Ist aber Christus nicht auferweckt worden, dann ist unsere Verkündigung leer und euer Glaube sinnlos. Wir werden dann auch als falsche Zeugen Gottes entlarvt, weil wir im Widerspruch zu Gott das Zeugnis abgelegt haben: Er hat Christus auferweckt. Er hat ihn eben nicht auferweckt, wenn Tote nicht auferweckt werden. Denn wenn Tote nicht auferweckt werden, ist auch Christus nicht auferweckt worden. Wenn aber Christus nicht auferweckt worden ist, dann ist euer Glaube nutzlos und ihr seid immer noch in euren Sünden; und auch die in Christus Entschlafenen sind dann verloren. Wenn wir unsere Hoffnung nur in diesem Leben auf Christus gesetzt haben, sind wir erbärmlicher daran als alle anderen Menschen.^pNun aber^w ist ^0wChristus von den Toten auferweckt worden als der Erste der Entschlafenen. Da nämlich durch einen Menschen der Tod gekommen ist, kommt durch einen Menschen auch die Auferstehung der Toten. Denn wie in Adam alle sterben, so werden in Christus alle lebendig gemacht werden.^pEs gibt aber eine bestimmte Reihenfolge: Erster ist Christus; dann folgen, wenn Christus kommt, alle, die zu ihm gehören. Danach kommt das Ende, wenn er jede Macht, Gewalt und Kraft vernichtet hat und seine Herrschaft Gott, dem Vater, übergibt. Denn er muss herrschen, bis Gott ihm alle Feinde unter die Füße gelegt hat. Der letzte Feind, der entmachtet wird, ist der Tod. Sonst hätte er ihm nicht alles zu Füßen gelegt. Wenn es aber heißt, alles sei unterworfen, ist offenbar der ausgenommen, der ihm alles unterwirft. Wenn ihm dann alles unterworfen ist, wird auch er, der Sohn, sich dem unterwerfen, der ihm alles unterworfen hat, damit Gott herrscht über alles und in allem.^pWie kämen sonst einige dazu, sich für die Toten taufen zu lassen? Wenn Tote gar nicht auferweckt werden, warum lässt man sich dann taufen für sie? Warum setzen dann auch wir uns stündlich der Gefahr aus? Täglich sehe ich dem Tod ins Auge, so wahr ihr, Brüder, mein Ruhm seid, den ich in Christus Jesus, unserem Herrn, empfangen habe. Was habe ich dann davon, dass ich in Ephesus, wie man so sagt, mit wilden Tieren gekämpft habe? Wenn Tote nicht auferweckt werden, dann lasst uns essen und trinken; denn morgen sind wir tot. Lasst euch nicht irreführen! Schlechter Umgang verdirbt gute Sitten. Werdet nüchtern, wie es sich gehört, und sündigt nicht! Einige Leute wissen nichts von Gott; ich sage das, damit ihr euch schämt.",
+          "patr_autor": "^A:Allerseelen:Ambrosius († 397)",
+          "patr_werk": "Aus dem Buch „über den Tod seines Bruders Satyrus“.",
+          "patr_text": "^hLasst uns mit Christus sterben, um mit ihm aufzuerstehen^pPaulus sagt: „Für mich ist Christus das Leben, und Sterben Gewinn.“ {1#Phil 1,21} Was bedeutet Christus, wenn nicht Tod des Leibes und Geist des Lebens? Darum lasst uns mit ihm sterben, um mit ihm zu leben! Täglich sei uns das Leben Umgang mit dem Tod und Liebe zu ihm. Durch diese Loslösung lerne unsere Seele, sich aus den leiblichen Begierden zurückzuziehen, als wäre sie auf eine Höhe versetzt, wohin irdische Gelüste nicht gelangen und an ihr haften können.^pDurch den Tod des einen ist die Welt erlöst. Christus brauchte nicht zu sterben, wenn er nicht gewollt hätte. Auch gedachte er den Tod nicht zu verjagen, als tauge er nichts, longer hätte er uns nicht retten können als durch sein Sterben. So ist sein Tod das Leben aller. Von seinem Tod sind wir geprägt, seinen Tod verkünden wir im Gebet, ihn predigen wir beim Opfer; sein Tod ist Sieg, sein Tod ist Mysterium und das (Neu-)Jahresfest der Welt.^pWas sollen wir sonst noch von seinem Tod sagen, da uns das göttliche Beispiel beweist, dass der Tod nur die Unsterblichkeit gesucht hat und dass er sich selbst losgekauft hat. Daher sollen wir den Tod nicht beklagen, da er doch die Ursache des allgemeinen Heils ist. Wir sollen den Tod nicht fliehen, denn der Sohn Gottes hat ihn nicht verschmäht und geflohen.^pDer Tod sitzt nicht in der Natur, sondern ist über die Natur gekommen. Gott hat den Tod nicht von Anfang an eingeführt, sondern ihn als Heilmittel gegeben. Denn wegen der Übertretungen verurteilt, begann das Leben der Menschen in täglicher Arbeit und unerträglichem Stöhnen unglücklich zu werden. Die Leiden mussten beendet werden, und der Tod musste wiederherstellen, was das Leben verloren hatte. Die Unsterblichkeit ist eher eine Last als ein Vorzug, wenn die Gnade nicht weht.^pDer Geist hat die Möglichkeit, sich aus diesen Winden und dem Wirrwarr des Lebens und dem Wirrwarr des Leibes zu lösen und der Versammlung im Himmel entgegenzueilen, wenn auch nur Heilige dahin gelangen können. Der Geist hat die Möglichkeit, Gott zu loben, wie jene Zitherspieler, von denen wir aus der prophetischen Lesung erfahren: „Groß und wunderbar sind deine Taten, Herr, Gott und Herrscher über die ganze Schöpfung. Gerecht und zuverlässig sind deine Wege, du König der Völker. Wer wird dich nicht fürchten, Herr, wer wird deinen Namen nicht preisen? Denn du allein bist heilig: Alle Völker kommen und beten dich an.“ {2#Offb 15,3.4} Der Geist wird deine Hochzeit schauen dürfen, Jesus, wenn die Braut unter den Freudengesängen aller Geschöpfe von der Erde zum Himmel geleitet wird – „alle Menschen kommen zu dir“ {3#Ps 65,3} – sie ist nicht mehr der Welt verhaftet, sondern dem Geist vermählt.",
+          "patr_resp1": "Ich weiß, dass mein Erlöser lebt, ",
+          "patr_resp2": "meine Augen werden ihn schauen.",
+          "patr_resp3": "Ich werde Gott in meinem Fleische schauen, danach sehnt sich mein Herz.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "patr_resp1_lat": "",
+          "patr_resp2_lat": "",
+          "patr_resp3_lat": "",
+          "les_text_lat": ""
+        },
+        "Laudes": {
+          "button": "Allerseelen",
+          "hymn_1": 1440.0,
+          "hymn_kl": 0.0,
+          "psalm1": 51.0,
+          "psalm2": 172.0,
+          "psalm3": 146.0,
+          "ant1": "Dem Herrn wird jubeln das zerschlagene Gebein.",
+          "ant2": "Vor den Pforten der Unterwelt rette mein Leben, o Herr.",
+          "ant3": "Meinen Gott will ich loben, solange ich lebe.",
+          "les_buch": "›1°Thess",
+          "les_stelle": "4,14",
+          "les_text": "Das ist unser Glaube: Wenn Jesus gestorben und auferstanden ist, dann wird Gott durch Jesus auch die Verstorbenen zusammen mit ihm zur Herrlichkeit führen.",
+          "les_text_neu": "Das ist unser Glaube: Wenn Jesus gestorben und auferstanden ist, so wird Gott die Entschlafenen durch Jesus in die Gemeinschaft mit ihm führen.",
+          "resp1": "Herr, ich will dich rühmen,",
+          "resp2": "du hast mich herausgeholt aus dem Reich des Todes.",
+          "resp3": "Meine Klage und Trauer hast du verwandelt in Freude.",
+          "antev": "Ich bin die Auferstehung und das Leben; wer an mich glaubt, wird leben, auch wenn er stirbt, und jeder, der lebt und an mich glaubt, wird in Ewigkeit nicht sterben.",
+          "bitten_e": "Gepriesen sei der allmächtige Gott, der seinen Sohn Jesus Christus von den Toten auferweckt hat und auch unseren sterblichen Leib neugestalten wird. Zu ihm lasst uns beten:",
+          "bitten_r": "Schenke uns das Leben in Christus.",
+          "bitten": "Ewiger Gott, durch die Taufe sind wir mit Christus gestorben und zu einem neuen Leben auferstanden;^qgib, dass wir aus der Kraft Christi leben.^pDu nährst uns mit dem lebendigen Brot, damit wir das ewige Leben haben;^qlass uns auferstehen in Herrlichkeit am Jüngsten Tag.^pDu hast deinen Sohn in seiner Todesangst durch den Engel gestärkt;^qsei unsere Zuversicht in der Stunde des Todes.^pGott der Lebenden und der Toten, wecke unsere Verstorbenen auf;^qmit ihnen gib auch uns Anteil am ewigen Leben.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp1_lat": "",
+          "resp2_lat": "",
+          "resp3_lat": "",
+          "antev_lat": "",
+          "bitten_e_lat": "",
+          "bitten_r_lat": "",
+          "bitten_lat": "",
+          "les_text_lat": ""
+        },
+        "Terz": {
+          "hymn_1": 1440.0,
+          "psalm1": 70.0,
+          "psalm2": 85.0,
+          "psalm3": 86.0,
+          "ant0": "Herr, wende dich mir zu und errette mich.",
+          "les_buch": "›Ijob",
+          "les_stelle": "19,25–26",
+          "les_text": "Ich weiß: Mein Erlöser lebt. Am Letzten Tag werde ich auferstehen, und in meinem Leib werde ich meinen Gott schauen.",
+          "les_text_neu": "Doch ich, ich weiß: Mein Erlöser lebt, als Letzter erhebt er sich über dem Staub. Ohne meine Haut, die so zerfetzte, und ohne mein Fleisch werde ich Gott schauen.",
+          "resp0": "Warum bist du betrübt, meine Seele?",
+          "resp1": "Harre auf Gott, denn ich werde ihm noch danken.",
+          "ant0_lat": "",
+          "resp0_lat": "",
+          "resp1_lat": "",
+          "les_text_lat": ""
+        },
+        "Sext": {
+          "hymn_1": 1440.0,
+          "psalm1": 70.0,
+          "psalm2": 85.0,
+          "psalm3": 86.0,
+          "ant0": "Heile mich, Herr, denn ich habe gegen dich gesündigt.",
+          "les_buch": "›Weish",
+          "les_stelle": "1,13–14ac.15",
+          "les_text": "Gott hat den Tod nicht gemacht und hat keine Freude am Untergang der Lebenden. Zum Dasein hat er alles erschaffen. Das Reich des Todes hat keine Macht auf der Erde; denn die Gerechtigkeit ist unsterblich.",
+          "les_text_neu": "Gott hat den Tod nicht gemacht und hat keine Freude am Untergang der Lebenden. Zum Dasein hat er alles geschaffen. Das Reich der Unterwelt hat keine Macht auf der Erde; denn die Gerechtigkeit ist unsterblich.",
+          "resp0": "Muss ich auch wandern in finsterer Schlucht, ich fürchte kein Unheil.",
+          "resp1": "Denn du, o Herr, bist bei mir.",
+          "ant0_lat": "",
+          "resp0_lat": "",
+          "resp1_lat": "",
+          "les_text_lat": ""
+        },
+        "Non": {
+          "hymn_1": 1440.0,
+          "psalm1": 70.0,
+          "psalm2": 85.0,
+          "psalm3": 86.0,
+          "ant0": "Hilf mir, o Gott, durch deinen Namen; mit deiner Stärke schaffe mir Recht.",
+          "les_buch": "›Jes",
+          "les_stelle": "25,8",
+          "les_text": "Gott beseitigt den Tod für immer. Gott, der Herr, wischt die Tränen ab von jedem Gesicht. Auf der ganzen Erde nimmt er von seinem Volk die Schande hinweg.",
+          "les_text_neu": "Gott hat den Tod für immer verschlungen, und GOTT, der Herr, wird die Tränen von jedem Gesicht abwischen und die Schande seines Volkes entfernt er von der ganzen Erde, denn der HERR hat gesprochen.",
+          "resp0": "Herr, erhöre mein Gebet.",
+          "resp1": "Zu dir kommt alles Fleisch.",
+          "ant0_lat": "",
+          "resp0_lat": "",
+          "resp1_lat": "",
+          "les_text_lat": ""
+        },
+        "Vesper": {
+          "hymn_1": 2512.0,
+          "hymn_kl": 0.0,
+          "psalm1": 121.0,
+          "psalm2": 130.0,
+          "psalm3": 157.0,
+          "ant1": "Der Herr behüte dich vor allem Bösen, er behüte dein Leben.",
+          "ant2": "Würdest du, Herr, unsere Sünden beachten, Herr, wer könnte bestehen?",
+          "ant3": "Wie der Vater die Toten erweckt und lebendig macht, so macht auch der Sohn lebendig, wen er will.",
+          "les_buch": "›1°Kor",
+          "les_stelle": "15,55–57",
+          "les_text": "Tod, wo ist dein Sieg? Tod, wo ist dein Stachel? Der Stachel des Todes aber ist die Sünde, die Kraft der Sünde ist das Gesetz. Gott aber sei Dank, der uns den Sieg geschenkt hat durch Jesus Christus, unseren Herrn.",
+          "les_text_neu": "Tod, wo ist dein Sieg? Tod, wo ist dein Stachel? Der Stachel des Todes aber ist die Sünde, die Kraft der Sünde ist das Gesetz. Gott aber sei Dank, der uns den Sieg geschenkt hat durch unseren Herrn Jesus Christus.",
+          "resp1": "Christus muss herrschen, bis Gott ihm alle Feinde unter die Füße gelegt hat.",
+          "resp2": "Der letzte Feind der vernichtet wird, ist der Tod.",
+          "resp3": "Dann werden Tod und Totenwelt ihre Toten herausgeben. Und Tod und die Totenwelt werden in den Feuersee geworfen.",
+          "antev": "Alles, was der Vater mir gibt, wird zu mir kommen, und wer zu mir kommt, den weise ich nicht zurück.",
+          "bitten_e": "Lasst uns beten zu Christus, unserer Hoffnung:",
+          "bitten_r": "Du bist unser Leben und unsere Auferstehung.",
+          "bitten": "Herr, du hast deinen Freund Lazarus von den Toten auferweckt;^qerwecke unsere Verstorbenen zum ewigen Leben.^pDu Tröster der Trauernden;^qsei mit deinem Trost allen nahe, die um ihre Verstorbenen weinen.^pErbarme dich der Menschen, die keine Hoffnung haben;^qschenke ihnen den Glauben an die Auferstehung und an das Leben der kommenden Welt.^pDu bist ein gnädiger Richter;^qerbarme dich dessen, den du als den nächsten aus unserer Mitte vor dein Angesicht rufen wirst.^pSchenke allen Verstorbenen die ewige Ruhe^qund das ewige Licht leuchte ihnen.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp1_lat": "",
+          "resp2_lat": "",
+          "resp3_lat": "",
+          "antev_lat": "",
+          "bitten_e_lat": "",
+          "bitten_r_lat": "",
+          "bitten_lat": "",
+          "les_text_lat": ""
+        }
+      },
       "1": {
         "each": {
           "oration": "Allmächtiger, ewiger Gott, du schenkst uns die Freude, am heutigen Fest die Verdienste aller deiner Heiligen zu feiern. Erfülle auf die Bitten so vieler Fürsprecher unsere Hoffnung und schenke uns dein Erbarmen.^ORV",
@@ -8781,158 +9005,6 @@ export const brevierData = {
           "bitten_r_lat": "Per intercessiónem sanctórum salva nos, Dómine.",
           "bitten_lat": "Deus sapientíssime, qui Apóstolos per Christum fundaméntum Ecclésiæ constituísti,^qserva fidéles tuos in eórum doctrína.^pQui martýribus fortitúdinem testimónii usque ad effusiónem sánguinis dedísti,^qredde christiános testes fidéles Fílii tui.^pQui sanctis virgínibus donum insígne dedísti Christum vírginem imitándi,^qiísdem concéde, ut virginitátem tibi consecrátam peculiáre signum cæléstium bonórum agnóscant.^pQui in sanctis ómnibus præséntiam, vultum et verbum tuum maniféstas,^qtríbue fidélibus ut, eos coléndo, tibi propinquióres se esse séntiant.^pDefúnctis concéde, ut cum beáta María Vírgine, beáto Ioseph et ómnibus sanctis perénniter hábitent,^qatque per intercessiónem eórum idem cæléste consórtium nobis largíre.",
           "les_text_lat": "Vos enim estis templum Dei vivi; sicut dicit Deus: Inhabitábo in illis et inambulábo et ero illórum Deus, et ipsi erunt mihi pópulus. Has ígitur habéntes promissiónes, caríssimi, mundémus nos ab omni inquinaménto carnis et spíritus, perficiéntes sanctificatiónem in timóre Dei."
-        }
-      },
-      "0": {
-        "each": {
-          "oration": "Allmächtiger Gott, wir glauben und bekennen, dass du deinen Sohn als Ersten von den Toten auferweckt hast. Stärke unsere Hoffnung, dass du auch unsere Brüder und Schwestern auferwecken wirst zum ewigen Leben.^ORV",
-          "oration_lat": ""
-        },
-        "Invitatorium": {
-          "ant0": "Den König, dem alles lebt, Christus, den Herrn – kommt, wir beten ihn an!",
-          "ant0_lat": ""
-        },
-        "Lesehore": {
-          "hymn_1": 2514.0,
-          "hymn_2": 1425.0,
-          "psalm1": 40.1,
-          "psalm2": 40.2,
-          "psalm3": 42.0,
-          "ant1": "Du hast mich aus Erde gebildet und mich mit Fleisch umkleidet; Herr, mein Erlöser, erwecke mich am Jüngsten Tag.",
-          "ant2": "Reiß mich heraus, o Herr; eile mir zu Hilfe.",
-          "ant3": "Meine Seele dürstet nach dem lebendigen Gott; wann darf ich kommen und Gottes Antlitz schauen?",
-          "les_buch": "Aus dem ersten Brief an die Korinther.",
-          "les_stelle": "15,12–34",
-          "les_text": "^hDie Auferweckung Christi und der Christen^pWenn verkündigt wird, dass Christus von den Toten auferweckt worden ist, wie können dann einige von euch sagen: Eine Auferstehung der Toten gibt es nicht? Wenn es keine Auferstehung der Toten gibt, ist auch Christus nicht auferweckt worden. Ist aber Christus nicht auferweckt worden, dann ist unsere Verkündigung leer und euer Glaube sinnlos. Wir werden dann auch als falsche Zeugen Gottes entlarvt, weil wir im Widerspruch zu Gott das Zeugnis abgelegt haben: Er hat Christus auferweckt. Er hat ihn eben nicht auferweckt, wenn Tote nicht auferweckt werden. Denn wenn Tote nicht auferweckt werden, ist auch Christus nicht auferweckt worden. Wenn aber Christus nicht auferweckt worden ist, dann ist euer Glaube nutzlos und ihr seid immer noch in euren Sünden; und auch die in Christus Entschlafenen sind dann verloren. Wenn wir unsere Hoffnung nur in diesem Leben auf Christus gesetzt haben, sind wir erbärmlicher daran als alle anderen Menschen.^pNun aber^w ist ^0wChristus von den Toten auferweckt worden als der Erste der Entschlafenen. Da nämlich durch einen Menschen der Tod gekommen ist, kommt durch einen Menschen auch die Auferstehung der Toten. Denn wie in Adam alle sterben, so werden in Christus alle lebendig gemacht werden.^pEs gibt aber eine bestimmte Reihenfolge: Erster ist Christus; dann folgen, wenn Christus kommt, alle, die zu ihm gehören. Danach kommt das Ende, wenn er jede Macht, Gewalt und Kraft vernichtet hat und seine Herrschaft Gott, dem Vater, übergibt. Denn er muss herrschen, bis Gott ihm alle Feinde unter die Füße gelegt hat. Der letzte Feind, der entmachtet wird, ist der Tod. Sonst hätte er ihm nicht alles zu Füßen gelegt. Wenn es aber heißt, alles sei unterworfen, ist offenbar der ausgenommen, der ihm alles unterwirft. Wenn ihm dann alles unterworfen ist, wird auch er, der Sohn, sich dem unterwerfen, der ihm alles unterworfen hat, damit Gott herrscht über alles und in allem.^pWie kämen sonst einige dazu, sich für die Toten taufen zu lassen? Wenn Tote gar nicht auferweckt werden, warum lässt man sich dann taufen für sie? Warum setzen dann auch wir uns stündlich der Gefahr aus? Täglich sehe ich dem Tod ins Auge, so wahr ihr, Brüder, mein Ruhm seid, den ich in Christus Jesus, unserem Herrn, empfangen habe. Was habe ich dann davon, dass ich in Ephesus, wie man so sagt, mit wilden Tieren gekämpft habe? Wenn Tote nicht auferweckt werden, dann lasst uns essen und trinken; denn morgen sind wir tot. Lasst euch nicht irreführen! Schlechter Umgang verdirbt gute Sitten. Werdet nüchtern, wie es sich gehört, und sündigt nicht! Einige Leute wissen nichts von Gott; ich sage das, damit ihr euch schämt.",
-          "patr_autor": "^A:Allerseelen:Ambrosius († 397)",
-          "patr_werk": "Aus dem Buch „über den Tod seines Bruders Satyrus“.",
-          "patr_text": "^hLasst uns mit Christus sterben, um mit ihm aufzuerstehen^pPaulus sagt: „Für mich ist Christus das Leben, und Sterben Gewinn.“ {1#Phil 1,21} Was bedeutet Christus, wenn nicht Tod des Leibes und Geist des Lebens? Darum lasst uns mit ihm sterben, um mit ihm zu leben! Täglich sei uns das Leben Umgang mit dem Tod und Liebe zu ihm. Durch diese Loslösung lerne unsere Seele, sich aus den leiblichen Begierden zurückzuziehen, als wäre sie auf eine Höhe versetzt, wohin irdische Gelüste nicht gelangen und an ihr haften können.^pDurch den Tod des einen ist die Welt erlöst. Christus brauchte nicht zu sterben, wenn er nicht gewollt hätte. Auch gedachte er den Tod nicht zu verjagen, als tauge er nichts, longer hätte er uns nicht retten können als durch sein Sterben. So ist sein Tod das Leben aller. Von seinem Tod sind wir geprägt, seinen Tod verkünden wir im Gebet, ihn predigen wir beim Opfer; sein Tod ist Sieg, sein Tod ist Mysterium und das (Neu-)Jahresfest der Welt.^pWas sollen wir sonst noch von seinem Tod sagen, da uns das göttliche Beispiel beweist, dass der Tod nur die Unsterblichkeit gesucht hat und dass er sich selbst losgekauft hat. Daher sollen wir den Tod nicht beklagen, da er doch die Ursache des allgemeinen Heils ist. Wir sollen den Tod nicht fliehen, denn der Sohn Gottes hat ihn nicht verschmäht und geflohen.^pDer Tod sitzt nicht in der Natur, sondern ist über die Natur gekommen. Gott hat den Tod nicht von Anfang an eingeführt, sondern ihn als Heilmittel gegeben. Denn wegen der Übertretungen verurteilt, begann das Leben der Menschen in täglicher Arbeit und unerträglichem Stöhnen unglücklich zu werden. Die Leiden mussten beendet werden, und der Tod musste wiederherstellen, was das Leben verloren hatte. Die Unsterblichkeit ist eher eine Last als ein Vorzug, wenn die Gnade nicht weht.^pDer Geist hat die Möglichkeit, sich aus diesen Winden und dem Wirrwarr des Lebens und dem Wirrwarr des Leibes zu lösen und der Versammlung im Himmel entgegenzueilen, wenn auch nur Heilige dahin gelangen können. Der Geist hat die Möglichkeit, Gott zu loben, wie jene Zitherspieler, von denen wir aus der prophetischen Lesung erfahren: „Groß und wunderbar sind deine Taten, Herr, Gott und Herrscher über die ganze Schöpfung. Gerecht und zuverlässig sind deine Wege, du König der Völker. Wer wird dich nicht fürchten, Herr, wer wird deinen Namen nicht preisen? Denn du allein bist heilig: Alle Völker kommen und beten dich an.“ {2#Offb 15,3.4} Der Geist wird deine Hochzeit schauen dürfen, Jesus, wenn die Braut unter den Freudengesängen aller Geschöpfe von der Erde zum Himmel geleitet wird – „alle Menschen kommen zu dir“ {3#Ps 65,3} – sie ist nicht mehr der Welt verhaftet, sondern dem Geist vermählt.",
-          "patr_resp1": "Ich weiß, dass mein Erlöser lebt, ",
-          "patr_resp2": "meine Augen werden ihn schauen.",
-          "patr_resp3": "Ich werde Gott in meinem Fleische schauen, danach sehnt sich mein Herz.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "patr_resp1_lat": "",
-          "patr_resp2_lat": "",
-          "patr_resp3_lat": "",
-          "les_text_lat": ""
-        },
-        "Laudes": {
-          "button": "Allerseelen",
-          "hymn_1": 1440.0,
-          "hymn_kl": 0.0,
-          "psalm1": 51.0,
-          "psalm2": 172.0,
-          "psalm3": 146.0,
-          "ant1": "Dem Herrn wird jubeln das zerschlagene Gebein.",
-          "ant2": "Vor den Pforten der Unterwelt rette mein Leben, o Herr.",
-          "ant3": "Meinen Gott will ich loben, solange ich lebe.",
-          "les_buch": "›1°Thess",
-          "les_stelle": "4,14",
-          "les_text": "Das ist unser Glaube: Wenn Jesus gestorben und auferstanden ist, dann wird Gott durch Jesus auch die Verstorbenen zusammen mit ihm zur Herrlichkeit führen.",
-          "les_text_neu": "Das ist unser Glaube: Wenn Jesus gestorben und auferstanden ist, so wird Gott die Entschlafenen durch Jesus in die Gemeinschaft mit ihm führen.",
-          "resp1": "Herr, ich will dich rühmen,",
-          "resp2": "du hast mich herausgeholt aus dem Reich des Todes.",
-          "resp3": "Meine Klage und Trauer hast du verwandelt in Freude.",
-          "antev": "Ich bin die Auferstehung und das Leben; wer an mich glaubt, wird leben, auch wenn er stirbt, und jeder, der lebt und an mich glaubt, wird in Ewigkeit nicht sterben.",
-          "bitten_e": "Gepriesen sei der allmächtige Gott, der seinen Sohn Jesus Christus von den Toten auferweckt hat und auch unseren sterblichen Leib neugestalten wird. Zu ihm lasst uns beten:",
-          "bitten_r": "Schenke uns das Leben in Christus.",
-          "bitten": "Ewiger Gott, durch die Taufe sind wir mit Christus gestorben und zu einem neuen Leben auferstanden;^qgib, dass wir aus der Kraft Christi leben.^pDu nährst uns mit dem lebendigen Brot, damit wir das ewige Leben haben;^qlass uns auferstehen in Herrlichkeit am Jüngsten Tag.^pDu hast deinen Sohn in seiner Todesangst durch den Engel gestärkt;^qsei unsere Zuversicht in der Stunde des Todes.^pGott der Lebenden und der Toten, wecke unsere Verstorbenen auf;^qmit ihnen gib auch uns Anteil am ewigen Leben.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
-        },
-        "Terz": {
-          "hymn_1": 1440.0,
-          "psalm1": 70.0,
-          "psalm2": 85.0,
-          "psalm3": 86.0,
-          "ant0": "Herr, wende dich mir zu und errette mich.",
-          "les_buch": "›Ijob",
-          "les_stelle": "19,25–26",
-          "les_text": "Ich weiß: Mein Erlöser lebt. Am Letzten Tag werde ich auferstehen, und in meinem Leib werde ich meinen Gott schauen.",
-          "les_text_neu": "Doch ich, ich weiß: Mein Erlöser lebt, als Letzter erhebt er sich über dem Staub. Ohne meine Haut, die so zerfetzte, und ohne mein Fleisch werde ich Gott schauen.",
-          "resp0": "Warum bist du betrübt, meine Seele?",
-          "resp1": "Harre auf Gott, denn ich werde ihm noch danken.",
-          "ant0_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
-        },
-        "Sext": {
-          "hymn_1": 1440.0,
-          "psalm1": 70.0,
-          "psalm2": 85.0,
-          "psalm3": 86.0,
-          "ant0": "Heile mich, Herr, denn ich habe gegen dich gesündigt.",
-          "les_buch": "›Weish",
-          "les_stelle": "1,13–14ac.15",
-          "les_text": "Gott hat den Tod nicht gemacht und hat keine Freude am Untergang der Lebenden. Zum Dasein hat er alles erschaffen. Das Reich des Todes hat keine Macht auf der Erde; denn die Gerechtigkeit ist unsterblich.",
-          "les_text_neu": "Gott hat den Tod nicht gemacht und hat keine Freude am Untergang der Lebenden. Zum Dasein hat er alles geschaffen. Das Reich der Unterwelt hat keine Macht auf der Erde; denn die Gerechtigkeit ist unsterblich.",
-          "resp0": "Muss ich auch wandern in finsterer Schlucht, ich fürchte kein Unheil.",
-          "resp1": "Denn du, o Herr, bist bei mir.",
-          "ant0_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
-        },
-        "Non": {
-          "hymn_1": 1440.0,
-          "psalm1": 70.0,
-          "psalm2": 85.0,
-          "psalm3": 86.0,
-          "ant0": "Hilf mir, o Gott, durch deinen Namen; mit deiner Stärke schaffe mir Recht.",
-          "les_buch": "›Jes",
-          "les_stelle": "25,8",
-          "les_text": "Gott beseitigt den Tod für immer. Gott, der Herr, wischt die Tränen ab von jedem Gesicht. Auf der ganzen Erde nimmt er von seinem Volk die Schande hinweg.",
-          "les_text_neu": "Gott hat den Tod für immer verschlungen, und GOTT, der Herr, wird die Tränen von jedem Gesicht abwischen und die Schande seines Volkes entfernt er von der ganzen Erde, denn der HERR hat gesprochen.",
-          "resp0": "Herr, erhöre mein Gebet.",
-          "resp1": "Zu dir kommt alles Fleisch.",
-          "ant0_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
-        },
-        "Vesper": {
-          "hymn_1": 2512.0,
-          "hymn_kl": 0.0,
-          "psalm1": 121.0,
-          "psalm2": 130.0,
-          "psalm3": 157.0,
-          "ant1": "Der Herr behüte dich vor allem Bösen, er behüte dein Leben.",
-          "ant2": "Würdest du, Herr, unsere Sünden beachten, Herr, wer könnte bestehen?",
-          "ant3": "Wie der Vater die Toten erweckt und lebendig macht, so macht auch der Sohn lebendig, wen er will.",
-          "les_buch": "›1°Kor",
-          "les_stelle": "15,55–57",
-          "les_text": "Tod, wo ist dein Sieg? Tod, wo ist dein Stachel? Der Stachel des Todes aber ist die Sünde, die Kraft der Sünde ist das Gesetz. Gott aber sei Dank, der uns den Sieg geschenkt hat durch Jesus Christus, unseren Herrn.",
-          "les_text_neu": "Tod, wo ist dein Sieg? Tod, wo ist dein Stachel? Der Stachel des Todes aber ist die Sünde, die Kraft der Sünde ist das Gesetz. Gott aber sei Dank, der uns den Sieg geschenkt hat durch unseren Herrn Jesus Christus.",
-          "resp1": "Christus muss herrschen, bis Gott ihm alle Feinde unter die Füße gelegt hat.",
-          "resp2": "Der letzte Feind der vernichtet wird, ist der Tod.",
-          "resp3": "Dann werden Tod und Totenwelt ihre Toten herausgeben. Und Tod und die Totenwelt werden in den Feuersee geworfen.",
-          "antev": "Alles, was der Vater mir gibt, wird zu mir kommen, und wer zu mir kommt, den weise ich nicht zurück.",
-          "bitten_e": "Lasst uns beten zu Christus, unserer Hoffnung:",
-          "bitten_r": "Du bist unser Leben und unsere Auferstehung.",
-          "bitten": "Herr, du hast deinen Freund Lazarus von den Toten auferweckt;^qerwecke unsere Verstorbenen zum ewigen Leben.^pDu Tröster der Trauernden;^qsei mit deinem Trost allen nahe, die um ihre Verstorbenen weinen.^pErbarme dich der Menschen, die keine Hoffnung haben;^qschenke ihnen den Glauben an die Auferstehung und an das Leben der kommenden Welt.^pDu bist ein gnädiger Richter;^qerbarme dich dessen, den du als den nächsten aus unserer Mitte vor dein Angesicht rufen wirst.^pSchenke allen Verstorbenen die ewige Ruhe^qund das ewige Licht leuchte ihnen.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
         }
       },
       "11": {
@@ -9211,6 +9283,11 @@ export const brevierData = {
           "ant2_lat": "",
           "ant3_lat": "",
           "antev_lat": ""
+        }
+      },
+      "21": {
+        "Lesehore": {
+          "hymn_1_lat": 9121.1
         }
       }
     },
@@ -9575,6 +9652,7 @@ export const brevierData = {
         },
         "ErsteV": {
           "button": "1. Vesper zu Weihnachten",
+          "hymn_1": 3241.0,
           "psalm1": 113.0,
           "psalm2": 147.2,
           "psalm3": 157.0,
@@ -18811,7 +18889,7 @@ export const brevierData = {
         "Laudes": {
           "hymn_1": 2213.0,
           "hymn_kl": 2114.0,
-          "psalm1": 108.0,
+          "psalm1": 108.101,
           "psalm2": 193.0,
           "psalm3": 146.0,
           "ant1": "Mein Herz ist bereit, o°Gott. Ich will dir singen und spielen.",

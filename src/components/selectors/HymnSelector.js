@@ -47,6 +47,7 @@ const HymnSelector = ({ texts, hour, season,
         const color = currentLevel?.farbe;
         if (color?.startsWith('r')) { return 'btn-red' }
         if (color?.startsWith('m')) { return 'btn-blue' }
+        if (sourceLabel.startsWith('eigen: (')) { return 'btn-gold'; }
         if (sourceLabel === 'Comm:') { return 'btn-brown'; }
         if (sourceLabel === 'pers:') { return 'btn-pers'; }
         return 'btn-default'
@@ -103,21 +104,23 @@ const HymnSelector = ({ texts, hour, season,
     }, [texts, hour, prefSrc, prefSollemnity]);
 
     // Sammle alle verfügbaren Hymnen
+    // Sammle alle verfügbaren Hymnen
     const availableHymns = useMemo(() => {
         const collectHymns = (localPrefLanguage = '') => {
             const hymns = [];
             const usedHymnNumbers = new Set();
             const hasNachtHymn = texts[hour]?.wt?.[`hymn_nacht${localPrefLanguage}`];
 
-            const addNewHymn = ({ hymnNumber, id, sourceLabel, isNachtHymn = false }) => {
+            const addNewHymn = ({ hymnNumber, id, sourceLabel, isNachtHymn = false, languageSuffix = '' }) => {
                 // Korrigierte Logik: Nur verarbeiten wenn hymnNumber existiert und noch nicht verwendet
                 if (hymnNumber && !usedHymnNumbers.has(hymnNumber)) {
                     // Löse die Referenz auf, um Text und Titel zu bekommen
                     const hymnData = resolveHymnReference(hymnNumber);
 
                     // Prüfe auf gewünschte Sprache
-                    const textField = `text${localPrefLanguage}`;
-                    const titleField = `title${localPrefLanguage}`;
+                    languageSuffix = languageSuffix || localPrefLanguage;
+                    const textField = `text${languageSuffix}`;
+                    const titleField = `title${languageSuffix}`;
                     const hymnText = hymnData?.[textField]?.replace('LEER', '')
                     const stb3 = (['kl. Stb:', 'pers:'].includes(sourceLabel)
                         && hymnData?.stb3) ? hymnData.stb3 : ''
@@ -214,6 +217,42 @@ const HymnSelector = ({ texts, hour, season,
                     sourceLabel: 'vom Tag:',
                     isNachtHymn: false
                 });
+            }
+
+            // NEUER SUCHLAUF: Prüfe nach eigenen Hymnen in anderen Sprachen
+            // Nur wenn prefSrc === 'eig' und für das Feld hymn_1
+            if (texts[hour]?.eig) {
+                const eigData = texts[hour].eig;
+
+                // Prüfe, ob hymn_1 in der aktuellen Sprache bereits vorhanden ist
+                const currentLanguageHymn1 = eigData?.hymn_1 || null
+
+                // Wenn kein hymn_1 in der aktuellen Sprache vorhanden ist,
+                // suche nach hymn_1 mit Sprachsuffixen
+                if (!currentLanguageHymn1) {
+                    // Definiere mögliche Sprachsuffixe (erweitere bei Bedarf)
+                    const languageSuffixes = ['_lat', '_gr'];
+
+                    languageSuffixes.forEach(suffix => {
+                        const alternativeHymnField = `hymn_1${suffix}`;
+                        const alternativeHymnNumber = eigData[alternativeHymnField];
+                        if (alternativeHymnNumber) {
+                            // Erstelle eindeutige ID für diesen alternativen Hymnus
+                            const alternativeId = `eig_${alternativeHymnField}_fallback`;
+
+                            // Bestimme Sprachkennzeichnung für das Label
+                            const languageLabel = suffix.replace(/^_(.+)$/, ' ($1.)');
+
+                            addNewHymn({
+                                hymnNumber: alternativeHymnNumber,
+                                id: alternativeId,
+                                sourceLabel: `eigen:${languageLabel}`,
+                                isNachtHymn: false,
+                                languageSuffix: suffix
+                            });
+                        }
+                    });
+                }
             }
 
             return hymns;

@@ -4932,7 +4932,7 @@ export const adlibData = {
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
           "oration": "Gott, du Vater aller Gläubigen, von deinem Geist erfüllt, hat der Märtyrerbischof Josaphat für das ihm anvertraute Volk sein Leben dahingegeben. Auf seine Fürsprache gib auch uns den Geist der Liebe, damit wir bereit sind, unser Leben ganz für unsere Brüder einzusetzen.^ORV",
-          "oration_lat": "Excita, quǽsumus, Dómine, in Ecclésia tua Spíritum, quo replétus beátus Iósaphat ánimam suam pro óvibus pósuit, ut, eo intercedénte, nos quoque eódem Spíritu roboráti, ánimam nostram pro frátribus pónere non vereámur."
+          "oration_lat": "Excita, quǽsumus, Dómine, in Ecclésia tua Spíritum, quo replétus beátus Iósaphat ánimam suam pro óvibus pósuit, ut, eo intercedénte, nos quoque eódem Spíritu roboráti, ánimam nostram pro frátribus pónere non vereámur.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Pius XI. († 1939)",
@@ -4955,7 +4955,7 @@ export const adlibData = {
         "major": {
           "comm_1": "Hirten_Kl",
           "oration": "Gott, du Quelle aller Weisheit, du hast dem heiligen Bischof Albert die Gabe geschenkt, das Wissen seiner Zeit und den Glauben in Einklang zu bringen. Gib uns die Weite seines Geistes, damit der Fortschritt der Wissenschaft uns hilft, dich tiefer zu erkennen und dir näher zu kommen.^ORV",
-          "oration_lat": "Deus, qui beátum Albértum epíscopum in humána sapiéntia cum divína fide componénda magnum effecísti, da nobis, quǽsumus, ita eius magistérii inhærére doctrínis, ut per scientiárum progréssus ad profundiórem tui cognitiónem et amórem perveniámus."
+          "oration_lat": "Deus, qui beátum Albértum epíscopum in humána sapiéntia cum divína fide componénda magnum effecísti, da nobis, quǽsumus, ita eius magistérii inhærére doctrínis, ut per scientiárum progréssus ad profundiórem tui cognitiónem et amórem perveniámus.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Albert der Große (†°1280)",
@@ -4998,7 +4998,7 @@ export const adlibData = {
         "major": {
           "comm_1": "Frau_Liebe",
           "oration": "Barmherziger Gott, du hast der heiligen Königin Margareta von Schottland eine große Liebe zu den Armen geschenkt. Höre auf die Fürbitten dieser heiligen Frau und hilf uns, nach ihrem Beispiel so zu leben, dass deine Güte in der Welt sichtbar wird,^ORV",
-          "oration_lat": "Deus, qui beátam Margarítam exímia in páuperes caritáte mirábilem effecísti, da ut, eius intercessióne et exémplo, imáginem bonitátis tuæ inter hómines referámus."
+          "oration_lat": "Deus, qui beátam Margarítam exímia in páuperes caritáte mirábilem effecísti, da ut, eius intercessióne et exémplo, imáginem bonitátis tuæ inter hómines referámus.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "II. Vatikanisches Konzil (1962–1965)",
@@ -5021,7 +5021,7 @@ export const adlibData = {
           "comm_1": "Jgfr",
           "comm_2": "Frau_Ord",
           "oration": "Gott, du Sehnsucht deiner Geschöpfe, es hat dir gefallen, im Herzen der heiligen Gertrud Wohnung zu nehmen. Schenke auch uns auf ihre Fürbitte die Tröstungen deiner Gegenwart, bringe Licht in das Dunkel unseres Herzens und lass uns erfahren, dass du in uns lebst und wirkst.^ORV",
-          "oration_lat": "Deus, qui iucúndam tibi mansiónem in corde beátæ Gertrúdis vírginis præparásti, ipsíus intercessióne, cordis nostri ténebras cleménter illústra, ut te in nobis præséntem et operántem lætánter experiámur."
+          "oration_lat": "Deus, qui iucúndam tibi mansiónem in corde beátæ Gertrúdis vírginis præparásti, ipsíus intercessióne, cordis nostri ténebras cleménter illústra, ut te in nobis præséntem et operántem lætánter experiámur.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Gertrud von Helfta (†°1302)",
@@ -5043,7 +5043,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Apostel",
-          "oration": "Ewiger Gott, steh deiner Kirche bei und bewahre sie unter dem Schutz der Apostel Petrus und Paulus, von denen sie den Glauben und das Leben in Christus empfangen hat. Lass sie wachsen in deiner Gnade bis ans Ende der Zeiten.^ORV"
+          "oration": "Ewiger Gott, steh deiner Kirche bei und bewahre sie unter dem Schutz der Apostel Petrus und Paulus, von denen sie den Glauben und das Leben in Christus empfangen hat. Lass sie wachsen in deiner Gnade bis ans Ende der Zeiten.^ORV",
+          "oration_lat": "Ecclésiam tuam, Dómine, apostólicis defénde præsídiis, ut, per quos inítium divínæ cognitiónis accépit, per eos usque in finem sǽculi cápiat grátiæ cæléstis augméntum.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Leo der Große (†°401)",
@@ -5055,10 +5056,14 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Weihetag der Basiliken St. Peter und St. Paul zu Rom",
-          "antev": "Petrus, der Apostel, und Paulus, der Lehrer der Völker, sie haben uns dein Gesetz gelehrt, o°Herr."
+          "antev": "Petrus, der Apostel, und Paulus, der Lehrer der Völker, sie haben uns dein Gesetz gelehrt, o°Herr.",
+          "antev_lat": "Petrus apóstolus et Paulus doctor géntium, ipsi nos docuérunt legem tuam, Dómine.",
+          "hymn_1_lat": 9118.0
         },
         "Vesper": {
-          "antev": "Der Leib der Heiligen ist in Frieden bestattet, ihr Name lebt fort auf ewig."
+          "antev": "Der Leib der Heiligen ist in Frieden bestattet, ihr Name lebt fort auf ewig.",
+          "antev_lat": "Córpora sanctórum in pace sepúlta sunt, et vivent nómina eórum in ætérnum.",
+          "hymn_1_lat": 9118.0
         }
       }
     },
@@ -5066,7 +5071,8 @@ export const adlibData = {
       "eig": {
         "major": {
           "comm_1": "Maria",
-          "oration": "Gütiger Gott, wir gedenken am heutigen Tag der seligen Jungfrau Maria, die du mit der Fülle deiner Gnade beschenkt hast. Höre auf ihre Fürsprache und lass auch uns am Reichtum deiner Gnade teilhaben, damit wir mit ganzer Hingabe und frohem Vertrauen vor dir leben.^ORV"
+          "oration": "Gütiger Gott, wir gedenken am heutigen Tag der seligen Jungfrau Maria, die du mit der Fülle deiner Gnade beschenkt hast. Höre auf ihre Fürsprache und lass auch uns am Reichtum deiner Gnade teilhaben, damit wir mit ganzer Hingabe und frohem Vertrauen vor dir leben.^ORV",
+          "oration_lat": "Sanctíssimæ venerántibus Vírginis Maríæ memóriam gloriósam, ipsíus nobis, quǽsumus, Dómine, intercessióne concéde, ut de plenitúdine grátiæ tuæ nos quoque mereámur accípere.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Augustinus († 430)",
@@ -5079,10 +5085,13 @@ export const adlibData = {
         "Laudes": {
           "button": "Unsere Liebe Frau in Jerusalem",
           "farbe": "m",
-          "antev": "Selig bist du, Maria, weil du geglaubt hast. Was dir vom Herrn gesagt ist, wird sich an dir erfüllen."
+          "antev": "Selig bist du, Maria, weil du geglaubt hast. Was dir vom Herrn gesagt ist, wird sich an dir erfüllen.",
+          "antev_lat": "Beáta es, María, quæ credidísti: perficiéntur in te quæ dicta sunt tibi a Dómino.^Lö",
+          "hymn_1_lat": 9121.2
         },
         "Vesper": {
-          "antev": "Selige Mutter Gottes, Maria, allzeit reine Jungfrau, Wohnstatt des Herrn, Tempel des Heiligen Geistes. Wie keine hast du Christus, dem Herrn, gefallen."
+          "antev": "Selige Mutter Gottes, Maria, allzeit reine Jungfrau, Wohnstatt des Herrn, Tempel des Heiligen Geistes. Wie keine hast du Christus, dem Herrn, gefallen.",
+          "antev_lat": "Dabit illi Dóminus Deus sedem David, patris eius; et regnábit in domo Iacob in ætérnum, et regni eius non erit finis.^Lö"
         }
       }
     },
@@ -5091,7 +5100,8 @@ export const adlibData = {
         "major": {
           "comm_1": "MärtSg_Jgfr",
           "comm_2": "Jgfr_Märt",
-          "oration": "Großer Gott, du hast uns geschaffen, damit wir dich loben und preisen. Erhöre auf die Fürsprache der heiligen Cäcilia unser Gebet und lass uns mit Freude und Hingabe dein Lob verkünden.^ORV"
+          "oration": "Großer Gott, du hast uns geschaffen, damit wir dich loben und preisen. Erhöre auf die Fürsprache der heiligen Cäcilia unser Gebet und lass uns mit Freude und Hingabe dein Lob verkünden.^ORV",
+          "oration_lat": "Supplicatiónibus nostris, Dómine, adésto propítius et, beátæ Cæcíliæ intercessióne, preces nostras dignánter exáudi.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Augustinus († 430)",
@@ -5106,10 +5116,12 @@ export const adlibData = {
           "nominativ": "Die heilige Cäcilia",
           "genitiv": "der heiligen Cäcilia",
           "genitiv_lat": "sanctæ ",
-          "antev": "Als die Nacht zu Ende ging, rief Cäcilia: Auf, ihr Streiter Christi, legt ab die Werke der Finsternis und zieht die Waffen des Lichtes an."
+          "antev": "Als die Nacht zu Ende ging, rief Cäcilia: Auf, ihr Streiter Christi, legt ab die Werke der Finsternis und zieht die Waffen des Lichtes an.",
+          "antev_lat": "Dum auróra finem daret, Cæcília exclamávit dicens: Eia, mílites Christi, abícite ópera tenebrárum et induímini arma lucis."
         },
         "Vesper": {
-          "antev": "Die Jungfrau Cäcilia trug die Frohe Botschaft allzeit in ihrem Herzen. Bei Tag und Nacht ließ sie nicht ab von geistlichen Gesprächen und vom Gebet."
+          "antev": "Die Jungfrau Cäcilia trug die Frohe Botschaft allzeit in ihrem Herzen. Bei Tag und Nacht ließ sie nicht ab von geistlichen Gesprächen und vom Gebet.",
+          "antev_lat": "Virgo Cæcília semper Evangélium Christi gerébat in péctore suo; non diébus neque nóctibus a collóquiis divínis et oratióne cessábat."
         }
       }
     },

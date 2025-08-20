@@ -1947,6 +1947,15 @@ export const psalmsData = {
         "title_lat": "Laus Domini et imploratio auxilii",
         "quote_lat": "Quia exaltatus est super cælos Dei Filius, super omnem terram eius gloria prædicatur. (Arnobius)",
         "text_lat": "Parátum cor meum, Deus,^+parátum cor meum,^*cantábo et psallam. Euge, glória mea!^pExsúrge, psaltérium et cíthara,^*excitábo auróram.^pConfitébor tibi in pópulis, Dómine,^*et psallam tibi in natiónibus,^pquia magna est usque ad cælos misericórdia tua,^*et usque ad nubes véritas tua.^pExaltáre super cælos, Deus,^*et super omnem terram glória tua.^pUt liberéntur dilécti tui,^*salvum fac déxtera tua et exáudi me.^pDeus locútus est in sancto suo:^+„Exsultábo et dívidam Síchimam^*et convállem Succoth dimétiar;^pmeus est Gálaad, et meus est Manásses,^+et Ephraim fortitúdo cápitis mei,^*Iuda sceptrum meum.^pMoab lebes lavácri mei;^+super Idumǽam exténdam calceaméntum meum,^*super Philistǽam vociferábor“.^pQuis dedúcet me in civitátem munítam?^*Quis dedúcet me usque in Idumǽam?.^pNonne, Deus, qui reppulísti nos?^*Et non exíbis, Deus, in virtútibus nostris?^pDa nobis auxílium de tribulatióne,^*quia vana salus hóminis.^pIn Deo faciémus virtútem,^*et ipse conculcábit inimícos nostros."
+      },
+    101.0: {
+        "title": "Gott, unsere Hilfe und unser Schutz",
+        "quote": "Weil sich der Sohn Gottes über alle Himmel erhoben hat, wird auf der ganzen Erde sein Ruhm verkündet. (Arnobius)",
+        "text": "Mein Herz ist bereit, o°Gott,^+mein Herz ist bereit,^*ich will dir singen und spielen.^pWach auf, meine Seele!^+Wacht auf, Harfe und Saitenspiel!^*Ich will das Morgenrot wecken.^pIch will dich vor den Völkern preisen, Herr,^*dir vor den Nationen lobsingen.^pDenn deine Güte reicht, so°weit°der°Himmel°ist,^*deine Treue, so weit die Wolken ziehn.^pErheb dich über die Himmel, o°Gott!^*Deine Herrlichkeit erscheine über der ganzen Erde.^pHilf mit deiner Rechten, erhöre uns,^*damit die gerettet werden, die du so sehr liebst.^pGott hat in seinem Heiligtum gesprochen:^+Ich will triumphieren, will°Sichem°verteilen^*und das Tal von Sukkot vermessen.^pMein ist Gilead, mein auch Manasse,^+Efraim ist der Helm auf meinem Haupt,^*Juda mein Herrscherstab.^pDoch Moab ist mein Waschbecken,^+auf Edom werfe ich meinen Schuh,^*ich triumphiere über das Land der Philister.^pWer führt mich hin zu°der°befestigten°Stadt,^*wer wird mich nach Edom geleiten?^pGott, hast denn du uns verworfen?^*Du ziehst ja nicht aus, o°Gott, mit unsern Heeren.^pBring uns doch Hilfe im°Kampf°mit°dem°Feind!^*Denn die Hilfe von Menschen ist nutzlos.^pMit Gott werden wir Großes°vollbringen;^*er selbst wird unsere Feinde zertreten.",
+        "text_neu": "Mein Herz ist bereit, Gott,^+ich will singen und spielen,^*ja, du meine Herrlichkeit.^pWacht auf, Harfe und Leier,^*ich will das Morgenrot wecken!^pIch will dich preisen, HERR, unter den Völkern,^*dir vor den Nationen singen und spielen.^pDenn deine Liebe reicht über den Himmel hinaus,^*deine Treue, so weit die Wolken ziehen.^pErhebe dich über den Himmel, Gott!^*Deine Herrlichkeit sei über der ganzen Erde!^pDamit befreit werden, die dir lieb sind,^*rette mit deiner Rechten und gib mir Antwort!^pGott hat in seinem Heiligtum gesprochen:^+„Ich will triumphieren, will Sichem verteilen^*und das Tal von Sukkot vermessen.^pMein ist Gilead, mein ist Manasse,^+Efraim ist der Helm meines Hauptes,^*Juda ist mein Herrscherstab.^pMein Waschbecken ist Moab,^+meinen Schuh werf ich auf Edom,^*ich triumphiere über das Land der Philister.“^pWer führt mich hin zu der befestigten Stadt,^*wer wird mich nach Edom geleiten?^pWer, wenn nicht du, Gott, der du uns verstoßen hast^*und nicht auszogst, Gott, mit unseren Heeren?^pBring du uns Hilfe gegen den Feind,^*denn die Hilfe von Menschen ist nichtig!^pMit Gott werden wir Taten der Macht vollbringen.^*Er selbst wird unsere Feinde zertreten.",
+        "title_lat": "Laus Domini et imploratio auxilii",
+        "quote_lat": "Quia exaltatus est super cælos Dei Filius, super omnem terram eius gloria prædicatur. (Arnobius)",
+        "text_lat": "^(Parátum cor meum, Deus,^+parátum cor meum,^)^*cantábo et psallam. Euge, glória mea!^pExsúrge, psaltérium et cíthara,^*excitábo auróram.^pConfitébor tibi in pópulis, Dómine,^*et psallam tibi in natiónibus,^pquia magna est usque ad cælos misericórdia tua,^*et usque ad nubes véritas tua.^pExaltáre super cælos, Deus,^*et super omnem terram glória tua.^pUt liberéntur dilécti tui,^*salvum fac déxtera tua et exáudi me.^pDeus locútus est in sancto suo:^+„Exsultábo et dívidam Síchimam^*et convállem Succoth dimétiar;^pmeus est Gálaad, et meus est Manásses,^+et Ephraim fortitúdo cápitis mei,^*Iuda sceptrum meum.^pMoab lebes lavácri mei;^+super Idumǽam exténdam calceaméntum meum,^*super Philistǽam vociferábor“.^pQuis dedúcet me in civitátem munítam?^*Quis dedúcet me usque in Idumǽam?.^pNonne, Deus, qui reppulísti nos?^*Et non exíbis, Deus, in virtútibus nostris?^pDa nobis auxílium de tribulatióne,^*quia vana salus hóminis.^pIn Deo faciémus virtútem,^*et ipse conculcábit inimícos nostros."
       }
   },
   110: {
@@ -5772,6 +5781,13 @@ export const psalmsData = {
         "text_lat": "Iste conféssor Dómini sacrátus,^lfesta plebs cuius célebrat per orbem,^lhódie lætus méruit secréta^lscándere cæli.^pQui pius, prudens, húmilis, pudícus,^lsóbrius, castus fuit et quiétus,^lvita dum præsens vegetávit eius^lcórporis artus.^pAd sacrum cuius túmulum frequénter^lmembra languéntum modo sanitáti,^lquólibet morbo fúerint graváti,^lrestituúntur.^pUnde nunc noster chorus in honórem^lipsíus, hymnum canit hunc libénter,^lut piis eius méritis iuvémur^lomne per ævum.^pSit salus illi, decus atque virtus,^lqui supra cæli résidens cacúmen,^ltotíus mundi máchinam gubérnat^ltrinus et unus. Amen."
       }
   },
+  9118: {
+    0.0: {
+        "quote": "Weihe Peter und Paul",
+        "title_lat": "Iam, bone pastor, Petre, clemens áccipe",
+        "text_lat": "Iam, bone pastor,^/Petre, clemens áccipe^lvota precántum,^/et peccáti víncula^lresólve, tibi^/potestáte trádita,^lqua cunctis cælum^/verbo claudis, áperis.^pDoctor egrégie,^/Paule, mores ínstrue^let mente polum^/nos transférre sátage,^ldonec perféctum^/largiátur plénius,^levacuáto^/quod ex parte gérimus.^pSit Trinitáti^/sempitérna glória,^lhonor, potéstas^/atque iubilátio,^lin unitáte,^/c>ui manet impérium^lex tunc et modo^/per ætérna sǽcula. Amen."
+      }
+  },
   9119: {
     1.0: {
         "title": "Elisabeth, du Fürstin mild",
@@ -5802,6 +5818,18 @@ export const psalmsData = {
         "title": "Nicht Abstammung von königlichen Ahnen",
         "quote": "Elisabeth",
         "text": "Nicht Abstammung von königlichen Ahnen,^lnicht Fürsten- oder Adelsstand^lbegründen, Sankt Elisabeth,^ldie Größe dein, die freudig wir verehren.^pDu leuchtest, eine Zierde unsers Landes,^lals Vorbild der Vollkommenheit;^ldu starke Frau, die überwand^lder Hölle Trug, die Geld und Gut verachtet.^pDes Hofes Feste hast du gern gemieden^lals Kind schon und als Landgräfin.^lVom Thron verjagt, hast du erst recht^lallein den ew’gen Freuden dich verschrieben.^pMit deinen Kindern musst du Obdach suchen,^lschmerzlich entbehrend Haus und Herd;^lda singst du Gott ein Dankeslied,^lähnlich dem Herrn, der für uns arm geworden.^pUnd weil du weißt, dein Kreuz kommt dir von Christus,^lnimmst du’s bereiten Herzens an^lund trägst es gern dein Leben lang,^lbis heim dich ruft der Herr in seine Freude.^pDreiein’ger Gott, hör auf die frommen Bitten^lder heiligen Elisabeth.^lSchenk uns Erbarmen und die Kraft,^lwie sie so tapfer Kreuz und Leid zu tragen.^pGott sei in seinen Heiligen gepriesen.^lDem Vater und dem ew’gen Sohn^lzusammen mit dem Heil’gen Geist^lsei jetzt und immer Lob und Dank erwiesen."
+      }
+  },
+  9121: {
+    1.0: {
+        "quote": "ULFvJerusalem lat Lh",
+        "title_lat": "Salve, mater misericórdiæ",
+        "text_lat": "Salve, mater misericórdiæ,^lmater spei et mater véniæ,^lmater Dei et mater grátiæ,^lmater plena sanctæ lætítiæ.^l^(O María.^)^pVallis vernans virtútum líliis,^ltota fluens summis delíciis,^lmater sancta, tuis suffrágiis^lcondescénde nostris misériis.^l^(O María.^)^pTe creávit Pater ingénitus,^lobumbrávit te Unigénitus,^lfecundávit te Sanctus Spíritus;^lipsis honor ex corde pénitus.^l^(O María.^) Amen."
+      },
+    2.0: {
+        "quote": "ULFvJerusalem lat Ld",
+        "title_lat": "María, virgo régia",
+        "text_lat": "María, virgo régia,^lsponsa regis et fília,^lte Dei sapiéntia^lelégit ante sǽcula.^pPuélla carens mácula,^lDei domus ebúrnea,^lte dedicávit cǽlitus^lmissus ab eo Spíritus.^pCaritátis signáculum,^ltotíus boni spéculum,^lauróra veri lúminis,^larca divíni séminis,^pIn domo summi príncipis^ltu áffluis delíciis;^lvirga Iesse florígera,^lrepléris Dei grátia.^pO margaríta cándida^let stella mundi spléndida,^lfac puris esse móribus^lnos vera templa Spíritus.^pSit Trinitáti glória,^lo Virgo nobilíssima,^lquæ te suórum múnerum^lthesáurum dat magníficum. Amen."
       }
   },
   9201: {

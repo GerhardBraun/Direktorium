@@ -233,6 +233,10 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
             if (calendarDay > 24) { addLayer('w', 'okt', 'each') };
             addLayer('k', calendarMonth, 'each');
             addLayer('k', calendarMonth, calendarDay);
+            if (calendarDay > 16 && calendarDay < 24) {
+                addLayer('ak', week, dayOfWeek)
+            };
+
         }
 
         // Process Heiligenfeste only if rank is appropriate
@@ -523,7 +527,7 @@ function processKompletData(data, calendarDate) {
         || (swdCombined.startsWith('o-1-'))) {
         showKompletWt = false; prefKomplet = 'wt'
     }
-    else if (rank_wt === 5 &&
+    else if ((rank_wt === 5 || rank_date === 6) &&
         !['q-0-3', 'q-6-1', 'q-6-2', 'q-6-3'].includes(swdCombined)) {
         showKompletWt = false; prefKomplet = 'k2'
     }
@@ -609,8 +613,9 @@ export function processBrevierData(todayDate) {
         (rank_wt < 5 && rank_date < 5 &&
             ((dayOfWeek === 6 && rank_date < 4) ||
                 (rankNextWt === 5 && nextSwdCombined !== 'q-0-3')));
-    const hasErsteVesper_date = rank_wt < 5 && rank_date < 5 && rankNextDate > rankNextWt &&
-        (rankNextDate === 5 || (rankNextDate === 4 && dayOfWeek === 6));
+    const hasErsteVesper_date = (rank_wt < 5 && rank_date < 5 && rankNextDate > rankNextWt &&
+        (rankNextDate === 5 || (rankNextDate === 4 && dayOfWeek === 6)))
+        || rankNextDate === 6; // Sonderfall Weihnachten (Vorrang auch vor dem 4. Advent)
 
     // Stelle die endgültigen Daten zusammen
     const finalData = {

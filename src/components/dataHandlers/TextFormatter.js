@@ -94,6 +94,30 @@ const calculateMaxLineLength = (text) => {
     });
     return maxLength;
 };
+
+
+const findOAntiphon = (data) => {
+    if (!data || !data.antev) return { "dt": '', "lat": '' };
+    // O-Antiphonen Enum für die Zuordnung von Laudes- zu Vesper-Antiphonen
+    // Verwendung vom 17. bis 23. Dezember
+    const OAntiphons = {
+        "Wisset, das Reich Gottes ist nahe; wahrlich, ich sage euch: Es wird nicht säumen.": "O Weisheit, hervorgegangen aus dem Munde des Höchsten – die Welt umspannst du von einem Ende zum andern, in Kraft und Milde ordnest du alles: o komm und offenbare uns den Weg der Weisheit und Einsicht!^ODER^ANTO Sapientia, quæ ex ore Altíssimi prodísti, attingens a fine usque ad finem, fórtiter suavitérque dispónens ómnia: veni ad docéndum nos viam prudéntiæ.",
+        "Euer Herz sei wach und bereit: ganz nahe schon ist der Herr, unser Gott.": "O Adonai, Herr und Führer des Hauses Israel – im flammenden Dornbusch bist du dem Mose erschienen und hast ihm auf dem Berg das Gesetz gegeben: o komm und befreie uns mit deinem starken Arm!^ODER^ANTO Adonái et Dux domus Israel, qui Móysi in igne flammæ rubi apparuísti, et ei in Sina legem dedísti: veni ad rediméndum nos in brácchio exténto.",
+        "Wie die Sonne aufgeht, so wird der Erlöser erscheinen; wie Tau auf das Gras kommt er herab in den Schoß der Jungfrau.": "O Spross aus Isais Wurzel, gesetzt zum Zeichen für die Völker – vor dir verstummen die Herrscher der Erde, dich flehen an die Völker: o komm und errette uns, erhebe dich, säume nicht länger!^ODER^ANTO radix Iesse, qui stas in signum populórum, super quem continébunt reges os suum, quem gentes deprecabúntur: veni ad liberándum nos, iam noli tardáre.",
+        "Der Engel Gabriel wurde zu Maria, der Jungfrau, gesandt, die mit Josef verlobt war.": "O Schlüssel Davids, Zepter des Hauses Israel – du öffnest, und niemand kann schließen, du schließt, und keine Macht vermag zu öffnen: o komm und öffne den Kerker der Finsternis und die Fessel des Todes!^ODER^ANTO clavis David, et sceptrum domus Israel; qui áperis, et nemo claudit; claudis, et nemo áperit: veni et educ vinctum de domo cárceris, sedéntem in ténebris et umbra mortis.",
+        "Fürchtet euch nicht: Am fünften Tag kommt unser Herr zu euch.": "O Morgenstern, Glanz des unversehrten Lichtes, der Gerechtigkeit strahlende Sonne: o komm und erleuchte, die da sitzen in Finsternis und im Schatten des Todes!^ODER^ANTO Oriens, splendor lucis ætérnæ et sol iustitiæ: veni, et illúmina sedéntes in ténebris et umbra mortis.",
+        "Als der Klang deines Grußes an mein Ohr drang, da regte sich vor Freude das Kind in meinem Schoß.^ö": "O König aller Völker, ihre Erwartung und Sehnsucht; Schlussstein, der den Bau zusammenhält: o komm und errette den Menschen, den du aus Erde gebildet!^ODER^ANTO Rex géntium et desiderátus eárum, lapísque anguláris, qui facis útraque unum: veni et salva hóminem, quem de limo formásti.",
+        "Seht, nun ist alles erfüllt, was der Engel von der Jungfrau gesagt hat.": "O Immanuel, unser König und Lehrer, du Hoffnung und Heiland der Völker: o komm, eile und schaffe uns Hilfe, du unser Herr und unser Gott!^ODER^ANTO Emmánuel, rex et légifer noster, exspectátio gentium et salvátor eárum: veni ad salvándum nos, Dómine Deus noster."
+    };
+    const antBenedictus = data?.antev || '';
+    const antMagnificat = antBenedictus
+        ? OAntiphons?.[antBenedictus] || '' : '';
+    const antMagnificat_lat = antMagnificat
+        ? antMagnificat.split('^ODER^ANT')[1] || '' : '';
+
+    return { "dt": antMagnificat, "lat": antMagnificat_lat };
+}
+
 // Formatiert Psalmen mit Nummer, Versen, Titel und Text
 export const formatPsalm = (psalmRef, inv, localPrefLanguage = '') => {
     if (!psalmRef) return null;
@@ -359,8 +383,11 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
     marker = (marker === 'commemoration') ? '' : marker;
     let text = marker ? `^r${marker}^0r${provText}` : provText;
     const maxLineLength = calculateMaxLineLength(text);
+    const OAntiphon = findOAntiphon(texts.laudes?.wt);
 
     text = text
+        .replace('O-AntiphonVomTag', OAntiphon.dt)
+        .replace('AntiphonaDiei', OAntiphon.lat)
         .replace(/^›|(_lat|_neu)/g, '')
         .replace(/°/g, '\u00A0')
         .replace(/\^\*/g, '\u00A0*\n')
