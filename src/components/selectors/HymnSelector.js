@@ -308,7 +308,7 @@ const HymnSelector = ({ texts, hour, season,
                         </div>
                     ) : (
                         <div className="flex items-baseline gap-0">
-                            <div className={`opacity-70 shrink-0 w-${hymn.indent || '16'}`}>
+                            <div className={`opacity-70 shrink-0 w-16`}>
                                 {hymn.source}
                             </div>
                             <div>
