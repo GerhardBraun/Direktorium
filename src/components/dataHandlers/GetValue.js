@@ -152,6 +152,9 @@ export const getValue = ({ season, hour, texts, field,
     if (field.startsWith('c_')) {
         const data = texts[hour][prefSrc]
         if (result(data)) { return result(data); }
+        const antKomm = data?.[`ant_komm${localPrefLanguage}`] || null
+        console.log('Kommemoration: field, antKomm: ', languageField, antKomm)
+
         if (languageField === `c_antev${localPrefLanguage}` &&
             data?.[`ant_komm${localPrefLanguage}`]) {
             return data[`ant_komm${localPrefLanguage}`];

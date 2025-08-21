@@ -4904,7 +4904,7 @@ export const psalmsData = {
     3.0: {
         "quote": "Comm pro Presbytero Ld",
         "title_lat": "Inclitus rector pater atque prudens",
-        "text_lat": "Inclitus rector pater atque prudens,^lcuius insígnem cólimus triúmphum,^liste conféssor sine fine lætus^lregnat in astris.^pIpse dux clarus fuit et magíster,^léxhibens sacræ documénta vitæ^lac Deo semper sátagens placére^lpéctore mundo.^pNunc eum nisu rogitémus omnes,^lábluat nostrum pius ut reátum,^let sua ducat prece nos ad alta^lcúlmina cæli.^pSit Deo soli decus et potéstas,^llaus in excélsis, honor ac perénnis,^lqui suis totum móderans gubérnat^llégibus orbem."
+        "text_lat": "Inclitus rector^/pater atque prudens,^lcuius insígnem^/cólimus triúmphum,^liste conféssor^/sine fine lætus^lregnat in astris.^pIpse dux clarus^/fuit et magíster,^léxhibens sacræ^/documénta vitæ^lac Deo semper^/sátagens placére^lpéctore mundo.^pNunc eum nisu^/rogitémus omnes,^lábluat nostrum^/pius ut reátum,^let sua ducat^/prece nos ad alta^lcúlmina cæli.^pSit Deo soli^/decus et potéstas,^llaus in excélsis,^/honor ac perénnis,^lqui suis totum^/móderans gubérnat^llégibus orbem."
       }
   },
   5581: {
@@ -5204,6 +5204,26 @@ export const psalmsData = {
         "title": "Dem Mann, der niemals seine Ehre suchte",
         "quote": "Rabanus",
         "text": "Dem Mann, der niemals seine Ehre suchte,^lwird die Berufung auf den Bischofsstuhl zu Mainz.^lAuch in der größern Aufgabe bleibt er^lals Erzbischof dem Kloster Fulda stets verbunden.^pVorbild der großen Herde und ihr treuer Wächter,^lwehrt Raban von ihr ab der Wölfe Wut;^ler formt und heiligt sie durch Wort und Tat und Schrift^lund gönnt bei Tag und Nacht sich keine Ruhe,^pbis Gott ihm ew’ge Ruhe schenkt. – Er lässt die Erde^lzurück, erhoben in der Sel’gen Chor.^lUns aber hinterlässt er seine Werke^lund bleibt ein Lehrer so des Heils der Christenheit.^pDu gabst, o Gott, Rabanus uns zum Vorbild;^llass ihm uns folgen, wie er dir gefolgt.^lDass wir wie er auf gradem Weg zu dir gelangen,^ldazu gib uns die Gnade der Beharrlichkeit.^pGepriesen sei der Vater und der Sohn^lsowie der Geist, die Liebe zwischen beiden.^lDen drei Personen, die im Wesen eins nur sind,^lin deren Namen wir getauft, sei gleiche Ehre.^lAmen."
+      },
+    101.0: {
+        "quote": "Rabanus lat. Lh",
+        "title_lat": "Christe, pastórum caput atque princeps",
+        "text_lat": "Christe, pastórum^/caput atque princeps,^lgestíens huius^/celebráre festum,^ldébitas sacro^/pia turba psallit^lcármine laudes.^pStrénuum bello^/púgilem supérni^lchrísmatls pleno^/tuus unxit intus^lSpíritus dono,^/posuítque sanctam^lpáscere gentem.^pHic gregis doctor^/fuit atque forma,^llux erat cæco,^/mísero levámen,^lpróvidus cunctis^/pater omnibúsque^lómnia factus.^pChriste, qui sanctis^/méritam corónam^lreddis in cælis,^/dócili magístrum^llac sequi vita,^/simílique tandem^lfine potíri.^pÆqua laus summum^/célebret Paréntem^lteque, Salvátor,^/pie rex, per ævum;^lSpíritus Sancti^/résonet per omnem^lglória mundum. Amen."
+      },
+    102.0: {
+        "quote": "Rabanus lat. Ld",
+        "title_lat": "Quos, Deus, ponis pópulis regéndis",
+        "text_lat": "Quos, Deus, ponis^/pópulis regéndis^lípsmet formas.^/Tibi Fulda quantum^lprǽsulem debet!^/Tuus in Rabáno^lpérsonat hymnus.^pBlandior quidquid^/male suádet ætas,^lcaútus horrúrat^/téneras ab annis^let viros Fuldæ^/pietáte claros^lquærit alúmnus.^pHic Dei legem^/meditátus haurit^ldígna cæléstis^/documénta vitæ;^lhinc inardéscunt^/calefácta puris^lpéctora flammis.^pCrevit ut tiro,^/simul aucta virtus,^l(hoc rudiméntum^/fuerat iuvéntæ!)^lánte matúros^/sápiens Rabánus^lsplénduit annos.^pMox docet fratres,^/regit ipse scholam;^linstruens sacram^/stúdiis palǽstram,^láttulir quantos^/pátriæ recénti^llaudis honóres.^pÓmnium tandem^/pater ille factus,^lpro Dei cultu^/sacra templa ponit;^lfundat ægrótis,^/péregris, egénis^lhóspita tecta.^pLaus Deo, qui nos^/sibi consecrárit,^luna sit Patri,^/parilíque Proli.^lPar sit ambórum,^/tibi nexus, omni,^lSpíritus ævo. Amen."
+      },
+    103.0: {
+        "quote": "Rabanus lat. Terz",
+        "title_lat": "Veni, creátor Spíritus",
+        "text_lat": "^RUBR(S. Rabano Mauro adscriptus)^0RUBR^pVeni, creátor Spíritus,^lmentes tuórum vísita,^limple supérna grátia,^lquæ tu creásti, péctora.^pQui díceris Paráclitus,^ldonum Dei altíssimi,^lfons vivus, ignis, cáritas^let spiritális únctio.^pTu septifórmis múnere,^ldextræ Dei tu dígitus,^ltu rite promíssum Patris^lsermóne ditans gúttura.^pAccénde lumen sénsibus,^linfúnd>e amórem córdibus,^linfírma nostri córporis,^lvirtúte firmans pérpeti.^pHostem repéllas lóngius^lpacémque dones prótinus;^lductóre sic te prǽvio^lvitémus omne nóxium.^pPer te sciámus da Patrem^lnoscámus atque Fílium,^lte utriúsque Spíritum^lcredámus omni témpore. Amen."
+      },
+    104.0: {
+        "quote": "Rabanus lat. Vp",
+        "title_lat": "Sed viri virtus meritúmque poscit",
+        "text_lat": "Sed viri virtus^/meritúmque poscit^lcélsius nomen;^/décorat cathédram^lmox Moguntínam.^/Memor at suórum^lnos quoque pascit.^pIam gregis magnus^/bonus æque pastor^ldúplicat curas^/vigílésque noctes,^lcredito ne quid^/rábie lupórum^lde grege perdat.^pQuem docet verbo^/pópulum Rabánus,^lfirmat et scriptis,^/animátque factis;^lmonstrat, accénsa^/face, quæ tenénda^lsit via cæli.^pSat datus terris.^/Méritis onústus^lintrat olýmpum:^/Supéros sed inter^ltutor est nobis^/vigil, atque scriptis^ldoctor in ævum.^pFac, Deus, sancti^/précibus Rabáni,^lnos sequi, quod te^/dócuit magístro;^let via recta^/pede, quo præívit^lscándere cælum.^pSumma laus Patri;^/simul æqua Nato,^lqui suo mundum^/rédimit cruóre!^lPar sit ambórum^/tibi laus per omne,^lSpíritus, ævum. Amen."
       }
   },
   8222: {
@@ -5262,7 +5282,7 @@ export const psalmsData = {
     6.0: {
         "title": "A. Sankt Bonifatius, wir deine Kinder",
         "quote": "Bonifatius",
-        "text": "^RUBR1. Teil eines Hymnus für Lesehore und Laudes:^0RUBR^lSankt Bonifatius, wir, deine Kinder,^lbegehn voll Freude diesen Tag,^lder deinem Blutzeugnis geweiht.^lNimm unser Lob, hör, Vater, unsre Lieder!^pDir danken wir das Licht des wahren Glaubens,^ldas du den Ahnen einst gebracht.^lDu hast die Finsternis verscheucht,^laus unserm Land das Heidentum vertrieben.^pDen Wotanshain, die alten Götterbäume,^lden Opferstein hast du gestürzt,^lum der Germanen Stämme so^lvom Wahn des Götterkultes abzubringen.^pWelch schwerer Kampf, die unbeugsamen Herzen^lzu öffnen für das Wort des Herrn,^ldie Liebe sie zu lehren und^lsie unter Christi sanftes Joch zu beugen!^pDie Nacht des Irrtums will so schnell nicht weichen.^lDoch du führst mit Beharrlichkeit^lden ersten Strahl des Tags herauf,^lreißt Unkraut aus und säst des Wortes Samen.^pLob, Preis und Herrlichkeit sei Gott dem Vater,^lLob sei des Vaters ew’gem Sohn,^lder durch sein Blut die Welt erlöst,^lund Lob in Ewigkeit dem Heil’gen Geiste.^lAmen.^p^RUBRDieser Hymnus wird in der jeweils anderen Hore mit dem auch dort angezeigten 2. Teil fortgesetzt.^0RUBR"
+        "text": "^RUBR1. Teil eines Hymnus für Lesehore und Laudes:^0RUBR^lSankt Bonifatius, wir, deine Kinder,^lbegehn voll Freude diesen Tag,^lder deinem Blutzeugnis geweiht.^lNimm unser Lob, hör, Vater, unsre Lieder!^pDir danken wir das Licht des wahren Glaubens,^ldas du den Ahnen einst gebracht.^lDu hast die Finsternis verscheucht,^laus unserm Land das Heidentum vertrieben.^pDen Wotanshain, die alten Götterbäume,^lden Opferstein hast du gestürzt,^lum der Germanen Stämme so^lvom Wahn des Götterkultes abzubringen.^pWelch schwerer Kampf, die unbeugsamen Herzen^lzu öffnen für das Wort des Herrn,^ldie Liebe sie zu lehren und^lsie unter Christi sanftes Joch zu beugen!^pDie Nacht des Irrtums will so schnell nicht weichen.^lDoch du führst mit Beharrlichkeit^lden ersten Strahl des Tags herauf,^lreißt Unkraut aus und säst des Wortes Samen.^pLob, Preis und Herrlichkeit sei Gott dem Vater,^lLob sei des Vaters ew’gem Sohn,^lder durch sein Blut die Welt erlöst,^lund Lob in Ewigkeit dem Heil’gen Geiste.^lAmen.^p^RUBRDieser Hymnus wird in der jeweils anderen Hore mit dem auch dort angezeigten Teil°B fortgesetzt.^0RUBR"
       },
     7.0: {
         "title": "B. Du lehrst, dass Gott in Christus …",
@@ -5645,12 +5665,27 @@ export const psalmsData = {
     6.0: {
         "title": "A. Sankt Lioba, du kamst auf Winfrieds Bitten",
         "quote": "Lioba",
-        "text": "^RUBR1. Teil eines Hymnus für Lesehore und Laudes:^0RUBR^l^pSankt Lioba, du kamst auf Winfrieds Bitten^lzu uns aus England übers Meer,^lgehorsam Gottes Ruf, der dich^lschon früh zu Deutschlands Lehrerin bestimmte.^pDie Liebe prägt’ dich schon im Kindesalter^l(drum nannte man dich Lioba);^lsie wuchs mit dir heran und ward^lBeweggrund aller deiner guten Taten.^pIn Klosters Obhut wurdest du gebildet,^lin Wissenschaft geübt dein Geist.^lVor allem aber zog dich an^ldie Lehre Christi, Wissenschaft des Heiles.^pMit solchen Gaben ausgestattet, hast du^ldann mitgetragen Winfrieds Werk.^lDu warst dem großen Missionar^lmehr durch den Geist als durch das Blut verbunden.^pTreue Gehilfin bist du ihm geworden,^lTrost seiner ird’schen Pilgerfahrt,^lund solltest, seinem Wort gemäß,^leinst auch mit ihm im gleichen Grabe ruhen.^pLob, Preis und Herrlichkeit sei Gott dem Vater,^lLob sei des Vaters ew’gem Sohn,^lder durch sein Blut die Welt erlöst’,^lund Lob in Ewigkeit dem Heil’gen Geiste. Amen.^p^RUBRDieser Hymnus wird in der jeweils anderen Hore mit dem auch dort angezeigten 2. Teil fortgesetzt.^0RUBR"
+        "text": "^RUBR1. Teil eines Hymnus für Lesehore und Laudes:^0RUBR^lSankt Lioba, du kamst auf Winfrieds Bitten^lzu uns aus England übers Meer,^lgehorsam Gottes Ruf, der dich^lschon früh zu Deutschlands Lehrerin bestimmte.^pDie Liebe prägt’ dich schon im Kindesalter^l(drum nannte man dich Lioba);^lsie wuchs mit dir heran und ward^lBeweggrund aller deiner guten Taten.^pIn Klosters Obhut wurdest du gebildet,^lin Wissenschaft geübt dein Geist.^lVor allem aber zog dich an^ldie Lehre Christi, Wissenschaft des Heiles.^pMit solchen Gaben ausgestattet, hast du^ldann mitgetragen Winfrieds Werk.^lDu warst dem großen Missionar^lmehr durch den Geist als durch das Blut verbunden.^pTreue Gehilfin bist du ihm geworden,^lTrost seiner ird’schen Pilgerfahrt,^lund solltest, seinem Wort gemäß,^leinst auch mit ihm im gleichen Grabe ruhen.^pLob, Preis und Herrlichkeit sei Gott dem Vater,^lLob sei des Vaters ew’gem Sohn,^lder durch sein Blut die Welt erlöst’,^lund Lob in Ewigkeit dem Heil’gen Geiste. Amen.^p^RUBRDieser Hymnus wird in der jeweils anderen Hore mit dem auch dort angezeigten Teil°B fortgesetzt.^0RUBR"
       },
     7.0: {
         "title": "B. Bald geht von deinem Kloster an der Tauber",
         "quote": "Lioba",
         "text": "^RUBR2. Teil des in Lesehore bzw. Laudes begonnenen Hymnus:^0RUBR^lBald geht von deinem Kloster an der Tauber^lein Segensstrom hinaus ins Land.^lGläubige Frauen bildest du,^ldas Christentum im Volke zu verwurzeln.^pJungfrauen auch verstehst du zu begeistern^lzur Ganzhingabe an den Herrn.^lDein Werk hat Zukunft, wird schon bald^lgestützt von ersten deutschen Ordensfrauen.^pMan setzt in dich ein schrankenlos’ Vertrauen:^lBei Wetter oder Feuersbrunst,^lbei Krankheit oder Tod: Auf dir^lruht, Lioba, die Hoffnung dieses Volkes.^pStill kehrst du heim zu Gott im Greisenalter,^lgetreu bis in den Tod dem Werk,^ldas Bonifatius dir vertraut.^lIm Tode noch bleibst du in seiner Nähe.^pBis heute währt der Gläubigen Vertrauen^lin deinen mütterlichen Schutz;^lschon viele haben ihn verspürt,^ldie kamen, um an deinem Grab zu beten.^pSieh gnädig, Gott, auf Liobas Verdienste,^lhör ihre Fürbitte für uns.^lDir, Einer und Dreifaltiger,^lsei Lob und Anbetung durch alle Zeiten. Amen."
+      },
+    101.0: {
+        "quote": "Lioba lat. Lh/Ld",
+        "title_lat": "A. Instánte Bonifátio venísti°huc°ex°Anglia",
+        "text_lat": "^RUBR1. Teil eines Hymnus für Lesehore und Laudes:^0RUBR^lInstánte Bonifátio^lvenísti huc ex Anglia,^lmagístra tu Germániæ^lprædestináta, Líoba.^pDiléctio iam párvulam^l(quo nomen tibi impósitum)^lte decens erat postmódo^ltuórum motrix óperum.^pPræ litteris et ártibus,^lquibus tuum emícuit^limbútum iam ingénium,^ldoctrína Christi plácuit.^pApóstoli Germániæ^lcompos fiébas óperis,^lcognáta mente prǽsuli^lmagis quam nexu sánguinis.^pWinfrídus tantam sóciam^lsolámen sibi hábuit^lunóque secum túmulo^lopértum iri státuit.^pDeo Patri sit glória^leiúsque soli Fílio^lcum Spíritu Paráclito^lin sempitérna sǽcula. Amen.^p^RUBRDieser Hymnus wird in der jeweils anderen Hore mit dem auch dort angezeigten Teil°B fortgesetzt.^0RUBR"
+      },
+    102.0: {
+        "quote": "Lioba lat. Lh/Ld",
+        "title_lat": "B. Favénte Dei grátia formas°fidéles°féminas",
+        "text_lat": "^RUBR2. Teil des in Lesehore bzw. Laudes begonnenen Hymnus:^0RUBR^lFavénte Dei grátia^lformas fidéles féminas,^lin vulgo radicéscere^lut fidem tandem fácias.^pVirginitátis spéculum^lmox állicis iuvénculas,^lquas primas moniálium^lindigenárum dédicas.^pEs, Líoba, refúgium^lab ign>e et tempestátibus;^lin te ponunt fidúciam^lin morbis atque mórtibus.^pDefúnctæ Bonifátii^lmanet tibi vicínia,^lin cuius semper ópere^lvivæ fuit constántia.^pNunc usque a fidélibus^lmater, adiútrix cóleris,^lmultis ad tua cínera^lcum flétibus subvéneris.^pPreces beátæ Líobæ^linténdens atque mérita^lnos iuva, sancta Trínitas,^lcui honor sit in sǽcula. Amen."
+      },
+    104.0: {
+        "quote": "Lioba lat. Vp",
+        "title_lat": "Ave, sóphiæ amátrix",
+        "text_lat": "Ave, sóphiæ amátrix^lscholæ piæ moderátrix,^lLíoba theóphila!^lAve, péregre profécta,^lad germánam gentem vecta,^lLíoba apóstola!^pAve Deo desponsáta^lprole plúrima ditáta,^lpia mater Líoba!^lNil volébas tam meréri,^lquam a Dómino docéri,^lprudens virgo Líoba!^pVerbum Dei prædicáre,^llassa corda inflammáre^lsemper tu promptíssima;^lChrist>u>m in miséris amáre,^llibens páuperes cibáre^lhabens pro delícia.^pProcul pelle tempestátes^ldæmonúmque potestátes,^lhæc tuére témpora!^lGenitóri, Genitóque,^lProcedénti ab utróque^lhonor sit in saécula. Amen."
       }
   },
   8929: {
@@ -5818,6 +5853,21 @@ export const psalmsData = {
         "title": "Nicht Abstammung von königlichen Ahnen",
         "quote": "Elisabeth",
         "text": "Nicht Abstammung von königlichen Ahnen,^lnicht Fürsten- oder Adelsstand^lbegründen, Sankt Elisabeth,^ldie Größe dein, die freudig wir verehren.^pDu leuchtest, eine Zierde unsers Landes,^lals Vorbild der Vollkommenheit;^ldu starke Frau, die überwand^lder Hölle Trug, die Geld und Gut verachtet.^pDes Hofes Feste hast du gern gemieden^lals Kind schon und als Landgräfin.^lVom Thron verjagt, hast du erst recht^lallein den ew’gen Freuden dich verschrieben.^pMit deinen Kindern musst du Obdach suchen,^lschmerzlich entbehrend Haus und Herd;^lda singst du Gott ein Dankeslied,^lähnlich dem Herrn, der für uns arm geworden.^pUnd weil du weißt, dein Kreuz kommt dir von Christus,^lnimmst du’s bereiten Herzens an^lund trägst es gern dein Leben lang,^lbis heim dich ruft der Herr in seine Freude.^pDreiein’ger Gott, hör auf die frommen Bitten^lder heiligen Elisabeth.^lSchenk uns Erbarmen und die Kraft,^lwie sie so tapfer Kreuz und Leid zu tragen.^pGott sei in seinen Heiligen gepriesen.^lDem Vater und dem ew’gen Sohn^lzusammen mit dem Heil’gen Geist^lsei jetzt und immer Lob und Dank erwiesen."
+      },
+    101.0: {
+        "quote": "Elisabeth lat. Lh",
+        "title_lat": "O creta regum sánguine",
+        "text_lat": "O creta regum sánguine^let ipsa sceptro nóbilis,^lElísabeth Thuríngiæ,^liubar decóris íncliti!^pFortem, viríli péctore^lvitæque semper íntegram^lhonóre te nos ánnuo^llæt>o efférimus cántico.^pVictis avérni fráudibus^lopes cadúcas déspicis;^lregnóque pulsa, sústines^lætérna quærens gáudia.^pAgros perérras, párvulos^lnatos geméntes adspicis,^ltecto cares et páuperum^legéna ritu víctitas.^pQuam Christus offert, pérlibens^lcrucem geris, compléctéris,^ldonec solúta córpore^lcæli potít>a es gáudis.^pO summa, nobis, Trínitas,^lda deprecánt>e Elísabeth^ladvérsa pro te péctore^lforti volénte pérpeti.^pDeo Patri sit glória^leiúsque soli Fílio^lcum Spíritu Paráclito^lnunc et per omne sǽculum. Amen."
+      },
+    102.0: {
+        "quote": "Elisabeth lat. Ld",
+        "title_lat": "Iam dies fulget, méritis corúscans",
+        "text_lat": "Iam dies fulget,^/méritis corúscans,^lqua polum, >o fortis^/múlier, petísti^lámbiens parto,^/supéris adáucta^ltémpore serto.^pSceptra, quae mundus^/déderat feréda^llæta mox ultro^/male visa ponis,^ltecto et extórris^/pátriam seréno^llúmine linquis.^pSpernis et fluxas^/generósa curas,^lúnice ut donis^/ínhies supérnis;^límpetres nobis^/perítura forti^ltémnere corde.^pPáuperum turbas^/miseráta nutris,^lcóndoles ægris^/operísque nudos;^lcríminum pressos^/próperes benígna^lsólvere vinclis.^pSit decus Patri^/genitǽque Proli^let tibi, compar^/utriúsque virtus,^lSpíritus, semper^/Deus unus, omni^ltémpore ævo. Amen.^p"
+      },
+    104.0: {
+        "quote": "Elisabeth lat. Vp",
+        "title_lat": "Quae laudum tibi cántica",
+        "text_lat": "Quae laudum tibi cántica^lsero diéi fúndimus,^lrecépta cæli sédibus^laudi benígna, Elísabeth.^pExtórris erras pátria;^ltuére tu nos éxsules,^lut detúor olim límina^lcunctis beáta attíngere.^pPáupere fuísti; páuperes^ldonis supérnis súbleva;^lcorpus domásti; córpora^lconcéde sint ut íntegra.^pMundi simílque dæmónis^lvicísti fraudes ínclita,^lártes dolósas hóstium^lda corde firmo víncere.^pDeo Patri sit glória,^leiúsque soli Fílio,^lcum Spíritu Paráclito,^lnunc et per omne sǽculum. Amen."
       }
   },
   9121: {
@@ -5832,6 +5882,13 @@ export const psalmsData = {
         "text_lat": "María, virgo régia,^lsponsa regis et fília,^lte Dei sapiéntia^lelégit ante sǽcula.^pPuélla carens mácula,^lDei domus ebúrnea,^lte dedicávit cǽlitus^lmissus ab eo Spíritus.^pCaritátis signáculum,^ltotíus boni spéculum,^lauróra veri lúminis,^larca divíni séminis,^pIn domo summi príncipis^ltu áffluis delíciis;^lvirga Iesse florígera,^lrepléris Dei grátia.^pO margaríta cándida^let stella mundi spléndida,^lfac puris esse móribus^lnos vera templa Spíritus.^pSit Trinitáti glória,^lo Virgo nobilíssima,^lquæ te suórum múnerum^lthesáurum dat magníficum. Amen."
       }
   },
+  9130: {
+    0.0: {
+        "quote": "Andreas lat.",
+        "title_lat": "Captátor olim píscium",
+        "text_lat": "Captátor olim píscium,^liam nunc piscátor hóminum,^ltuis, Andréa, rétibus^lmundi nos rape flúctibus.^pGermánus Petri córpore^lnec mortis dispar órdine;^lquos una caro génuit,^lcrux cælo fratres édidit.^pO germen venerábile,^lo par coróna glóriæ!^lEcclésiæ patres pii^lcrucis sunt æque fílii.^pAd Iesum fratri prǽvius^lindéxque vitæ strénuus,^let nobis esto míseris^lbeáti dux itíneris.^pFratris comes egrégius,^lEcclésias impénsius^lda caritát>e exércitas^lpastóri Petro súbditas.^pVir Christo dilectíssime,^lamóre fac nos cúrrere,^lut læt>i adépti pátriam^lDeo canámus glóriam. Amen."
+      }
+  },
   9201: {
     0.0: {
         "title": "Mit Jubel sollst du, deutsches Land",
@@ -5839,6 +5896,13 @@ export const psalmsData = {
         "text": "Mit Jubel sollst du, deutsches Land,^ldeinen Apostel preisen.^lWas Bonifatius für dich tat,^lverkünd in frohen Weisen.^pDem Angelsachsen von Geblüt^lgab Rom die heil’ge Weihe,^ldass Gott durch ihn der Kirche Ruhm,^lden Völkern Heil verleihe.^pIhn ziert des Pontifex’ Ornat.^lVoll Kraft sind seine Reden,^lgeprägt von Zucht und Lauterkeit^lsein Denken, Tun und Beten.^pEs rühmen Deutschlands Stämme ihn,^ldie Friesen, Sachsen, Franken,^lweil diesem Herold Gottes sie^ldie Heilsbotschaft verdanken.^pWenn’s Korn nicht in der Erde stirbt,^lso muss allein es bleiben;^lnur sterbend kann – so spricht der Herr –^lvielfält’ge Frucht es treiben.^pIn Winfrieds Opfer sollt’ dies Wort^lneu seinen Sinn enthüllen.^lO mög’ auch künftig seine Saat^ldie Scheunen Gottes füllen!^pLass uns, Gott Vater, Sohn und Geist,^ldem heute Dank wir bringen,^lmit unserm heil’gen Bischof dir^lim Himmel ewig singen. Amen.",
         "title_lat": "Prǽsulis exsúltans célebrat Germánia laudes",
         "text_lat": "Prǽsulis exsúltans célebrat°Germánia°laudes^let Bonifáti>i opus mártyris°almíficum.^pOrdinat hunc Roma, mittítque°Británnia°mater^ldoctórem pópulis, hoc°decus°Ecclésiæ.^pPontíficem summum, signórum°fúlmine°clarum,^lelóquio nítidum, móribus°egrégium,^pQuem Francus, Frisóque simul, Saxóque°minístrum^lætérnæ vitæ prǽdicat esse sibi.^pQuod terra móritur fruméntum, plúrima°confert^lsémina, fructúmque multiplicáre studet:^pSicque, sacerdótis Dómini lætíssima crescit^lpaucis ex granis glorificánda seges.^pGlória summa Patri, compar°sit°glória°Nato,^llaus et in ætérnum, Spíritus°alme,°tibi. Amen."
+      }
+  },
+  9203: {
+    0.0: {
+        "quote": "Ambrosius lat. Ld und Vp",
+        "title_lat": "Fortem piúmque prǽsulem",
+        "text_lat": "Fortem piúmque prǽsulem^lcanámus omnes, túrbidas^lqui fluctuántis sǽculi^lterris procéllas éxpulit.^pNon sceptra concússus timet,^lnon imperántem féminam,^ltemplóque, clausis póstibus,^larcet cruéntum cǽsarem.^pArcána sacræ páginæ^laltus magíster éxplicat;^ldivína pandens dógmata,^lmira nitet facúndia.^pFide ciénte spíritum,^lpræclára fundit cármina;^lfide coǽquans mártyres,^ldepréndit artus mártyrum.^pIam nunc furéntem tártari^llupum flagéllo súbmove;^lsciéntiæ nos lúmine^lfove, tuére iúgiter.^pSit Trinitáti glória,^lquam, te rogánte próspere,^lhymnis in aula cǽlica^llaudémus usqu>e in sǽculum. Amen."
       }
   },
   9208: {
@@ -5851,38 +5915,68 @@ export const psalmsData = {
         "title": "Sei gegrüßt, du Himmelstür",
         "quote": "MarEmpf",
         "text": "Sei gegrüßt, du Himmelstür,^lStern, der leuchtet für und für,^lHeiligste im Himmelsheer,^lo Maria, Gottes Mutter, hoch und hehr.^pDie des höchsten Königs Sinn^lals die einzige im Chor^lhuldvoll sich zur Magd erkor^lschon vor aller Zeiten Anbeginn.^pSünde hat mit böser Macht^lnie dein Innerstes betört,^lda du Gottes Wort gehört,^lhast du Erd’ und Himmel Fröhlichkeit gebracht.^pPreis dem Vater und dem Sohn^lund dem Geist auf gleichem Thron,^lderen Ruhm und Herrlichkeit^lmachtvoll währt durch alle Zeit und Ewigkeit. Amen."
+      },
+    101.0: {
+        "quote": "MarEmpf lat. Lh",
+        "title_lat": "Te dícimus præcónio",
+        "text_lat": "Te dícimus præcónio,^lmater Dei puríssima;^lnostris benígna láudibus^ltuam repénde grátiam.^pSontes Adámi pósteri,^linfécta proles gígnimur;^llabis patérnæ néscia^ltu sola, Virgo, créderis.^pCaput dracónis ínvidi^ltu cónteris vestígio,^lgerísque sola glóriam^lintaminát>æ oríginis.^pNostræ decus propáginis,^lquæ tollis Ev>æ oppróbrium,^ltu nos tuére súpplices,^ltu nos labántes érige.^pSerpéntis antíqui potens^lastus retúnde et ímpetus,^lut cǽlitum perénnibus^lper te fruámur gáudiis.^pPatri sit et Paráclito^ltuóque Nato glória,^lqui sanctitátis únicæ^lte munerárunt grátia. Amen."
+      },
+    102.0: {
+        "quote": "MarEmpf lat. Ld",
+        "title_lat": "In plausu grati cárminis",
+        "text_lat": "In plausu grati cárminis^ladsit nova lætítia,^ldum Dei matris Vírginis^lsumit vita princípia.^pMaría, mundi glória,^llucis ætérnæ fília,^lte præservávit Fílius^lab omni labe pénitus.^pOriginális mácula^lcuncta respérsit sǽcula;^lsola post Natum vítiis^lnumquam contácta díceris.^pCaput serpéntis cállidi^ltuo pede contéritur;^lfastus gigántis pérfidi^lDavid funda devíncitur.^pColúmba mitis, húmilis,^lfers, carens felle críminis,^lsignum Dei cleméntiæ,^lramum viréntis grátiæ.^pPatri sit et Paráclito^ltuóque Nato glória,^lqui sanctitátis únicæ^lte munerárunt grátia. Amen."
+      },
+    104.0: {
+        "quote": "MarEmpf lat. Vp",
+        "title_lat": "Præclára custos vírginum",
+        "text_lat": "Præclára custos vírginum^lDeíque mater ínnuba,^lcæléstis aulæ iánua,^lspes nostra, cæli gáudium;^pInter rubéta lílium,^lcolúmba formosíssima,^le stirpe virga gérminans^lnostro medélam vúlneri;^pTurris dracón>i impérvia,^lamíca stella náufragis,^ldefénde nos a fráudibus^ltuáque luce dírige.^pErróris umbras díscute,^lsyrtes dolósas ámove,^lfluctus tot inter, déviis^ltutam reclúde sémitam.^pQuæ labe nostr>æ oríginis^lintácta splendes única,^lserpéntis artes ǽmuli^lelúde vindex ínclita.^pPatri sit et Paráclito^ltuóque Nato glória,^lqui sanctitátis únicæ^lte munerárunt grátia. Amen."
       }
   },
   9216: {
     1.0: {
         "title": "Bote der Wahrheit, Diener unsrer Freude",
-        "quote": "Sturmius",
+        "quote": "Sturmius Lh",
         "text": "Bote der Wahrheit, Diener unsrer Freude,^lBaumeister Gottes, Christi treuer Jünger,^ldir gilt der Lobpreis, den wir heute singen,^lheiliger Sturmius.^pDu folgst gehorsam deines Meisters Spuren,^lziehst durch die Lande, kündest frohe Botschaft,^lwehrst allem Irrtum, taufst zu neuem Leben,^lwirst allen Vater.^pNach Gottes Weisung sammelst du Gefährten,^lführst sie zusammen treu der heil’gen Regel,^lgründest ein Kloster, Stätte frommen Lobes:^lFulda darf jubeln.^pLob sei dem Vater auf dem höchsten Throne^lLob sei dem Sohne, Gott aus Gott geboren,^lLob sei dem Geiste, der von beiden ausgeht,^limmer und ewig. Amen."
       },
     2.0: {
         "title": "Sendbote Christi, Kämpfer für die Wahrheit",
-        "quote": "Sturmius",
+        "quote": "Sturmius Ld",
         "text": "Sendbote Christi, Kämpfer für die Wahrheit,^lHirte der Herde, Segen unsrer Heimat,^ldich, den Getreuen, wollen wir verehren,^lheiliger Sturmius.^pDu wirst geläutert wie das Gold im Feuer,^lduldest mit Starkmut Unbill und Verbannung.^lAuch in der Fremde bleibst du voll Vertrauen^lfest in der Wahrheit.^pDem Kloster Fulda bist du wie ein Vater.^lIn aller Demut mahnest du zur Regel,^lstärkest die Schwachen, rufst zum Lobe Gottes,^lallen ein Vorbild.^pLob sei dem Vater auf dem höchsten Throne,^lLob sei dem Sohne, Gott aus Gott geboren,^lLob sei dem Geiste, der von beiden ausgeht,^limmer und ewig. Amen."
       },
     4.0: {
         "title": "Preiset den tüchtigen Mann",
-        "quote": "Sturmius",
+        "quote": "Sturmius Vp",
         "text": "Preiset den tüchtigen Mann,^lder als ein Gründer des Glaubens^lunserem Volke gedient,^lschaffend in rastloser Arbeit.^lSiegreich bestand er den Kampf.^lGott war in seinem Herzen.^pPreiset den tapferen Mann,^lder in der Mühsal des Lebens^lLeiden ertrug in Geduld,^lstärkend die mutlosen Brüder.^lBahnbrechend schritt er voran.^lGott war in seinem Herzen.^pPreiset den gläubigen Mann,^lder im Vertrauen nicht wankte.^lGott gab dem Treuen die Kraft,^lsegnend das Werk seiner Hände.^lNun ruht er selig bei ihm.^lGott ist in seinem Herzen. Amen."
       },
     5.0: {
         "title": "Ein Stern ging auf im Buchenland",
-        "quote": "Sturmius",
+        "quote": "Sturmius Vp",
         "text": "Ein Stern ging auf im Buchenland^lin tiefer Nacht;^ldes Todes finstre Schatten bannt’^ldes Sternes Pracht:^lDa brach der helle Tag herein,^lder Wahrheit Licht, des Heiles Schein.^pDenn Gott hat uns Sankt Sturmius^lzum Heil gesandt;^lder schlug den Wald am Fuldafluss^lmit starker Hand^lund baute in der Wälder Kreis^lein hohes Haus zu Gottes Preis.^pUnd weiter trug von diesem Haus^ldes Heil’gen Mund^lins weite Sachsenland hinaus^ldie frohe Kund’,^ldass Gottes Sohn, Herr Jesus Christ,^lzum Heiland uns geworden ist.^pUnd die betört, umnachtet war^lvom falschen Wahn,^lder Heidenvölker blinde Schar^lführt er die Bahn,^lden rechten Pfad, den sichern Steg:^lIhn, der uns Leben, Wahrheit, Weg.^pWir danken dir von Herzen sehr,^ldu Gottesmann!^lWas du uns warst, uns keiner mehr^lje werden kann:^lDu bist uns Vater, Führer, Licht;^lso bleib bei uns, verlass uns nicht!^pGott Vater, Sohn und Heil’ger Geist,^ldich loben wir.^lDein Volk, das dich auf Erden preist,^lschaut auf zu dir.^lSei du ihm Halt in dieser Zeit^lund einst sein Lohn in Ewigkeit. Amen^p^p"
       },
     6.0: {
         "title": "A. Der Herr, der hundertfachen Lohn verheißen",
-        "quote": "Sturmius",
-        "text": "^RUBR1. Teil eines Hymnus für Lesehore und Laudes:^0RUBR^lDer Herr, der hundertfachen Lohn verheißen^ldem, der ihm folgt, verlassend Hab und Gut,^ler rief aus Norikum Sankt Sturmius,^lum selbst ihm Heimat, Schutz und Licht zu werden.^pDer später Fuldas Gründer werden sollte,^lschloss sich dem Glaubensboten Winfried an^lund übt’ als Mönch geduldig Geist und Hand,^lwie es verlangt Sankt Benedikti Regel.^pAm Fuldafluss ein Heiligtum zu gründen,^lwird er von Bonifatius gesandt.^lSchon weicht der Wald, es sprießen Korn und Frucht,^lein Gotteshaus entsteht und Klosterzellen.^pVon diesem Stützpunkt zieht er aus und predigt^ldem Sachsenstamm das Evangelium;^lkehrt dann zurück zur stillen Einsamkeit,^lzu siedeln in Buchoniens tiefen Wäldern.^pFür Fulda legt Abt Sturm mit seinen Brüdern^lden Grund durch Frömmigkeit und Wissenschaft^lund sichert ihm durch Winfrieds Ruhestatt^ldes Vaters und Apostels reichen Segen.^pDie ganze Welt lobpreise Gott den Vater^lund auch sein wesensgleiches Ebenbild,^lden ew’gen Sohn, sowie den Heil’gen Geist,^lden einen Gott im unerschaffnen Lichte. Amen.^p^RUBRDieser Hymnus wird in der jeweils anderen Hore mit dem auch dort angezeigten 2. Teil fortgesetzt.^0RUBR"
+        "quote": "Sturmius Lh/Ld",
+        "text": "^RUBR1. Teil eines Hymnus für Lesehore und Laudes:^0RUBR^lDer Herr, der hundertfachen Lohn verheißen^ldem, der ihm folgt, verlassend Hab und Gut,^ler rief aus Norikum Sankt Sturmius,^lum selbst ihm Heimat, Schutz und Licht zu werden.^pDer später Fuldas Gründer werden sollte,^lschloss sich dem Glaubensboten Winfried an^lund übt’ als Mönch geduldig Geist und Hand,^lwie es verlangt Sankt Benedikti Regel.^pAm Fuldafluss ein Heiligtum zu gründen,^lwird er von Bonifatius gesandt.^lSchon weicht der Wald, es sprießen Korn und Frucht,^lein Gotteshaus entsteht und Klosterzellen.^pVon diesem Stützpunkt zieht er aus und predigt^ldem Sachsenstamm das Evangelium;^lkehrt dann zurück zur stillen Einsamkeit,^lzu siedeln in Buchoniens tiefen Wäldern.^pFür Fulda legt Abt Sturm mit seinen Brüdern^lden Grund durch Frömmigkeit und Wissenschaft^lund sichert ihm durch Winfrieds Ruhestatt^ldes Vaters und Apostels reichen Segen.^pDie ganze Welt lobpreise Gott den Vater^lund auch sein wesensgleiches Ebenbild,^lden ew’gen Sohn, sowie den Heil’gen Geist,^lden einen Gott im unerschaffnen Lichte. Amen.^p^RUBRDieser Hymnus wird in der jeweils anderen Hore mit dem auch dort angezeigten Teil°B fortgesetzt.^0RUBR"
       },
     7.0: {
         "title": "B. Gott prüft die Heiligen wie Gold im Feuer",
-        "quote": "Sturmius",
+        "quote": "Sturmius Lh/Ld",
         "text": "^RUBR2. Teil des in Lesehore bzw. Laudes begonnenen Hymnus:^0RUBR^lGott prüft die Heiligen wie Gold im Feuer.^lFälschlich verklagt muss Sturmius ins Exil^ldurch Königs Bannspruch – bis die Wahrheit siegt^lund er in Ehren heimkehrt in sein Kloster.^pMönche und Bürger jubeln da entgegen^ldem Abt; der geht alsbald erneut ans Werk,^lverzeiht den Neidern, bessert Schäden aus,^lwird der Buchonia ein echter Vater. –^pRuh aus nun, Sturmius! Vom Himmel winkt dir,^ldem treuen Knechte, der gerechte Lohn.^lDu gehst zu Gott. Die Brüder sind verwaist.^lTrost ist nur dein Gebet, das du verheißen.^pDrum bleibe, Sturmius, wie einst auf Erden,^lso jetzt vom Himmel Beistand deinem Volk,^ldass ständig Fuldas Heil gesichert sei,^ldas aus dem Glauben kommt, den du uns brachtest.^pDie ganze Welt lobpreise Gott den Vater^lund auch sein wesensgleiches Ebenbild,^lden ew’gen Sohn, sowie den Heil’gen Geist,^lden einen Gott im unerschaffnen Lichte. Amen."
+      },
+    101.0: {
+        "quote": "Sturmius lat. Lh/Ld",
+        "title_lat": "A. Christum relíctis qui sequúntur ómnibus",
+        "text_lat": "^RUBR1. Teil eines Hymnus für Lesehore und Laudes:^0RUBR^lChristum relíctis qui sequúntur ómnibus,^lhorum, Deus, dux, tutor es, lumen, decus!^lHinc, quas repéndit Stúrmio Buchónia^llaudes, tuæ sunt; hasce clemens áccipe.^pHuic Nortórum terra nostræ trádidit^lprimum colónum, qui fide nos ímbuat.^lTanto subvénit, ut par esset quǽstui,^lclaustrum, magístro sque sancto devóvet.^pAd instar huius tert labóres vel manu,^lmenténsque suéscit litteris; iunctis prece.^lQuis non repónat hunc sacris qui prǽeeat?^lQuin mox refóves edócebit Sáxones.^pEst multa mensis. Sed redux, in quam fugit^lprudens erémus? Fulda, te sic áuspicat,^lquærit Bucáunæ látebras imphrvias^loptátque sacris hos recéssus ótiis.^pIusso patérno, regis et larga manu^lfocus sacrátur Stúrmio nunc hóspiit;^lmox gáudet aris et focis, fert úberes^lfrúctus colónis, ante dumis hórridus.^pFratrum iuvátus æmulórum cœtibus,^lquos ipse curat ut oves pastor bonus:^lartes fidémque prǽcipit floréscerc.^lHinc quanta Fuldæ nota sunt primórdia!^pSancti magístri, facta quæ sunt mártyris^lhæc ossa cóndit, tot amóris pígnora.^lAh, nostra quantum cívitas crevit fide,^lFulsítque tanti sub patris munímine!^pPatri perénni sit per ævum glória.^lTibi que laudes totus orbis cóncinat,^lætérne Nate, splendor ætérni Patris.^lCompar sit almo laus decúsque Flámini. Amen.^p^RUBRDieser Hymnus wird in der jeweils anderen Hore mit dem auch dort angezeigten Teil°B fortgesetzt.^0RUBR"
+      },
+    102.0: {
+        "quote": "Sturmius lat. Lh/Ld",
+        "title_lat": "B. Numquam carébit clara virtus pérfido",
+        "text_lat": "^RUBR2. Teil des in Lesehore bzw. Laudes begonnenen Hymnus:^0RUBR^lNumquam carébit clara virtus pérfido;^lsic urbe, iussu regis, abbas péllitur.^lAt nulla virum, Fulda quem flet éxsulem,^l(flet grata carum) vis quátit mendácium.^pPatéscit error; iussa rex tolli qua,^lorbísque reddit præsulum Fuldénsibus,^lcives triúmpho, quos beárat, cum véhunt^lalmum paréntum: séntiunt quæ gáudia!^pCuras restúmit; pérfidos sopit bonis,^lsíbique raptus cónsecrat cunctis opem,^lsic damna pensat pértinax Stúrmi labor,^lpæréque verus dícitur Buchóniæ.^pStúrmi, quiésce! Iam vocat te cǽlitum^lmerces perénnis et, pater, sursum volas.^lFlebant alúmni; fúnctus at iam nunc eris^lnobis precátor; spónsio nam hæc tua.^pFac, cura nobis, quæ tibi, Stúrmi, fuit,^lillínc perénnet æmulis fidis tuis;^lmentísque tutor sis pius Buchónicæ,^lut prísca semper flóreat Fuldæ salus.^pPatri perénni sit per ævum glória.^lTibíque laudes totus orbis cóncinat,^lætérne Nate, splendor ætérni Patris.^lCompar sit almo laus decúsque Flámini. Amen."
+      },
+    104.0: {
+        "quote": "Sturmius lat. Vp",
+        "title_lat": "Reléqans mortis ténebras",
+        "text_lat": "Reléqans mortis ténebras^llux óritur Buchóniæ;^llucet ut dies véritas^lnitórque sanctimóniæ.^pMissus a Deo Stúrmius^lin sáltibus impérviis^lædes pro Dei glória^lstruit ad ripam flúminis.^pUt incarnáti Núminis^lillínc in pagum Saxónum^ltollénts morte scélera^lprovéhat evangélium.^pQuæ falso cæca cúltui^lest dédita gentílitas^lin Via recta pónitur^lquæ Vita est et Véritas.^pVir Dei, ope pro tua^lágentes tibi grátias^lne pater nobis, lumen, dux^lprecámur esse désinas.^pDeo Patri sit glória^leiúsque soli Fílio^lcum Spíritu Paráclito^lin sempitérna sǽcula. Amen."
       }
   },
   9226: {

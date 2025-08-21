@@ -1816,14 +1816,14 @@ const PrayerTextDisplay = ({
                   />                </div>
               )}
 
-              {getValue("c_antEv") && useCommemoration && (
+              {getValue("c_antev") && useCommemoration && (
                 <div className="mb-0">
                   <SectionHeader
                     title={`${ordinariumTexts.titel}-ANTIPHON`}
                     field="antev"
                   />
                   <div className="mb-4">
-                    {formatPrayerText(getValue("c_antEv"))}
+                    {formatPrayerText(getValue("c_antev"))}
                   </div>
                 </div>
               )}
