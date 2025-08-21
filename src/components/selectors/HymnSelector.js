@@ -311,7 +311,7 @@ const HymnSelector = ({ texts, hour, season,
                             <div className={`opacity-70 shrink-0 w-${hymn.indent || '16'}`}>                                {hymn.source}
                             </div>
                             <div>
-                                {formatPrayerText(hymn?.title)}
+                                {formatPrayerText(hymn?.title)}.
                             </div>
                         </div>
                     )}
