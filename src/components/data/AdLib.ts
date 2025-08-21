@@ -3449,7 +3449,7 @@ export const adlibData = {
       "eig": {
         "major": {
           "comm_1": "Hirten",
-          "oration": "Herr, unser Gott, du hast dem heiligen Papst Pius X. wahre Frömmigkeit und apostolischen Eifer geschenkt, um den Glauben der Kirche zu schützen und alles in Christus zu erneuern. Hilf uns, seiner Weisung und seinem Beispiel zu folgen und so den ewigen Lohn zu erlangen.^ORV",
+          "oration": "Herr, unser Gott, du hast dem heiligen Papst Pius°X. wahre Frömmigkeit und apostolischen Eifer geschenkt, um den Glauben der Kirche zu schützen und alles in Christus zu erneuern. Hilf uns, seiner Weisung und seinem Beispiel zu folgen und so den ewigen Lohn zu erlangen.^ORV",
           "oration_lat": "Deus, qui, ad tuéndam cathólicam fidem et univérsa in Christo instauránda, sanctum Pium papam cælésti sapiéntia et apostólica fortitúdine replevísti, concéde propítius, ut, eius institúta et exémpla sectántes, prǽmia consequámur ætérna.^ORlV"
         },
         "Lesehore": {
