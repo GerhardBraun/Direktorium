@@ -11061,7 +11061,7 @@ export const brevierData = {
           "oration": "Gott, unser Herr, du verbindest alle, die an dich glauben, zum gemeinsamen Streben. Gib, dass wir lieben, was du befiehlst, und ersehnen, was du uns verheißen hast, damit in der Unbeständigkeit dieses Lebens unsere Herzen dort verankert seien, wo die wahren Freuden sind.^ORV",
           "anta_lat": "Tu es Christus, Fílius Dei vivi. Et tu beátus, Simon Bar Iona.",
           "antb_lat": "Spíritus est, qui vivíficat, caro non prodest quidquam; verba, quæ ego locútus sum vobis, Spíritus sunt et vita.",
-          "antc_lat": "Conténdite intráre per angústam portam, quia multi, dico vobis, quærrent intráre et non póterunt.",
+          "antc_lat": "Conténdite intráre per angústam portam, quia multi, dico vobis, quærent intráre et non póterunt.",
           "oration_lat": "Deus, qui fidélium mentes uníus éfficis voluntátis, da pópulis tuis id amáre quod prǽcipis, id desideráre quod promíttis, ut, inter mundánas varietátes, ibi nostra fixa sint corda, ubi vera sunt gáudia.^ORlV"
         },
         "Laudes": {
@@ -15861,7 +15861,7 @@ export const brevierData = {
           "antev": "0",
           "bitten_e": "Lasst uns dem ewigen Gott die Ehre erweisen und zu ihm beten:",
           "bitten_r": "Gott steh deinem Volke bei.",
-          "bitten": "Führe die Menschen zum Glauben,^ldamit sie in dir das Heil finden.^pSchenke den Völkern der Erde Frieden;^lschaffe Recht den Unterdrückten.^pGib den Eheleuten deine Gnade,^lhilf ihnen, einander treu zu sein.^pVergilt den Menschen, die uns Gutes getan haben,^lund schenke ihnen das ewige Leben.^pErbarme dich aller unserer Verstorbenen;^lnimm sie auf in die ewige Ruhe des Himmels.",
+          "bitten": "Führe die Menschen zum Glauben,^qdamit sie in dir das Heil finden.^pSchenke den Völkern der Erde Frieden;^qschaffe Recht den Unterdrückten.^pGib den Eheleuten deine Gnade,^qhilf ihnen, einander treu zu sein.^pVergilt den Menschen, die uns Gutes getan haben,^qund schenke ihnen das ewige Leben.^pErbarme dich aller unserer Verstorbenen;^qnimm sie auf in die ewige Ruhe des Himmels.",
           "oration": "0",
           "hymn_1_lat": 4100.0,
           "ant1_lat": "Dirigátur, Dómine, orátio mea sicut incénsum in conspéctu tuo.",
