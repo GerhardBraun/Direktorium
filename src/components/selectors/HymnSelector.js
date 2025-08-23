@@ -52,6 +52,19 @@ const HymnSelector = ({ texts, hour, season,
         if (sourceLabel === 'pers:') { return 'btn-pers'; }
         return 'btn-default'
     };
+
+    const removeAccents = (text) => {
+        if (!text) return '';
+        if (localPrefLanguage !== '_lat') return text
+        return text
+            .replace(/[áéíóúý]/g, (match) => match.normalize('NFD').charAt(0))
+            .replace(/[ÁÉÍÓÚÝ]/g, (match) => match.normalize('NFD').charAt(0))
+            .replace(/[ǽ]/g, 'æ')
+            .replace(/[Ǽ]/g, 'Æ')
+            .replace('^/', ' ')
+            .replace('^ß', ' ');
+    };
+
     const hasEigenHymn = (sourceData) => {
         if (!sourceData?.hymn_1) return false;
 
@@ -64,7 +77,12 @@ const HymnSelector = ({ texts, hour, season,
 
     const sourceOrder = useMemo(() => {
         // Prüfe die Ränge
-        const { rank_date = 0, rank_wt = 0, isCommemoration = false } = texts;
+        const { rank_date = 0, isCommemoration = false } = texts;
+
+        // Weihnachtsoktav: Vesper im Rang eines Festes
+        const readRank = texts?.rank_wt || 0
+        const rank_wt = (readRank === 2.4 && hour === 'vesper') ? 4 : readRank
+        //if (rank_wt !== readRank) { console.log('GetValue: rank_wt angepasst.') }
 
         let useWt = (prefSollemnity
             && !(['terz', 'sext', 'non'].includes(hour)))
@@ -103,7 +121,6 @@ const HymnSelector = ({ texts, hour, season,
         return sources;
     }, [texts, hour, prefSrc, prefSollemnity]);
 
-    // Sammle alle verfügbaren Hymnen
     // Sammle alle verfügbaren Hymnen
     const availableHymns = useMemo(() => {
         const collectHymns = (localPrefLanguage = '') => {
@@ -303,7 +320,7 @@ const HymnSelector = ({ texts, hour, season,
                                 {hymn.source}
                             </div>
                             <div className="pl-16">
-                                {formatPrayerText(hymn?.title)}
+                                {formatPrayerText(removeAccents(hymn?.title))}
                             </div>
                         </div>
                     ) : (
@@ -312,7 +329,7 @@ const HymnSelector = ({ texts, hour, season,
                                 {hymn.source}
                             </div>
                             <div>
-                                {formatPrayerText(hymn?.title)}
+                                {formatPrayerText(removeAccents(hymn?.title))}
                             </div>
                         </div>
                     )}

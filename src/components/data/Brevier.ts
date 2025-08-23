@@ -1481,6 +1481,20 @@ export const brevierData = {
           "les_text_lat": "Christus dedit quosdam quidem apóstolos, quosdam autem prophétas, álios vero evangelístas, álios autem pastóres et doctóres ad instructiónem sanctórum in opus ministérii, in ædificatiónem córporis Christi, donec occurrámus omnes in unitátem fídei et agnitiónis Fílii Dei, in virum perféctum, in mensúram ætátis plenitúdinis Christi."
         }
       },
+      "Johannes": {
+        "Vesper": {
+          "hymn_1": 9227.0,
+          "hymn_kl": 0.0,
+          "ant1": "Johannes wurde vom Herrn erwählt als sein Apostel und Evangelist. Weil er Gott über alles liebte, hat ihn Jesus vor allen geliebt.",
+          "ant2": "Dies ist Johannes. Ihm hat der Herr am Kreuze seine Mutter anvertraut, die Jungfrau dem Jungfräulichen.",
+          "ant3": "Der Jünger, den Jesus liebte, sagte zu Petrus: Es ist der Herr.^ö",
+          "les_buch": "›Apg",
+          "les_stelle": "4,19–20",
+          "les_text": "Petrus und Johannes antworteten dem Hohen Rat: Ob es vor Gott recht ist, mehr auf euch zu hören als auf Gott, das entscheidet selbst. Wir können unmöglich schweigen über das, was wir gesehen und gehört haben.",
+          "antev": "Das Wort ist Fleisch geworden und hat unter uns gewohnt. Und wir haben seine Herrlichkeit geschaut.^ö",
+          "oration": "Allmächtiger Gott, du hast uns durch den Evangelisten Johannes einen Zugang eröffnet zum Geheimnis deines ewigen Wortes. Lass uns mit erleuchtetem Verstand und liebendem Herzen erfassen, was er in gewaltiger Sprache verkündet hat.^ORV"
+        }
+      },
       "o": {
         "ErsteV": {
           "hymn_1": 1076.1,
@@ -3379,6 +3393,27 @@ export const brevierData = {
         "Laudes": {
           "ant2_lat": "Mártyres Dómini, Dóminum benedícite in ætérnum.^LÖ"
         }
+      },
+      "UnschKinder": {
+        "Vesper": {
+          "hymn_1": 9228.0,
+          "hymn_kl": 0.0,
+          "ant1": "So spricht der Herr: Sie werden mit mir einher­gehen in weißen Gewändern, denn sie sind dessen würdig.",
+          "ant2": "Die Kinder singen das Lob des Herrn: Durch ihren Tod bezeugen sie Christus, den sie im Leben nicht verkünden konnten.",
+          "ant3": "Aus dem Mund der Kinder und Säuglinge schaffst du dir Lob, deinen Gegnern zum Trotz.",
+          "les_buch": "›Jer",
+          "les_stelle": "31,15",
+          "les_text": "Ein Geschrei ist in Rama zu hören, bitteres Klagen und Weinen, Rahel weint um ihre Kinder und will sich nicht trösten lassen, um ihre Kinder, denn sie sind dahin.",
+          "les_text_neu": "In Rama ist Wehklage und bitteres Weinen zu hören. Rahel weint um ihre Kinder und will sich nicht trösten lassen wegen ihrer Kinder, denn sie sind nicht mehr.",
+          "resp1": "Die Gerechten leben in Ewigkeit,",
+          "resp2": "für immer wird der Herr ihr Lohn sein.",
+          "resp3": "Sie empfangen das Reich der Herrlichkeit und die Krone der Schönheit.",
+          "antev": "Unschuldige Kinder wurden für Christus getötet, Säuglinge vom ruchlosen König gemordet. Sie folgen dem Lamm ohne Makel und rufen: Ehre sei dir, o Herr!",
+          "bitten_e": "Gepriesen sei Christus, der König der Märtyrer, zu ihm lasst uns beten:",
+          "bitten_r": "Dich lobt der Märtyrer weißgewandetes Heer.",
+          "bitten": "Nicht mit Worten, sondern mit ihrem Blut haben die Unschuldigen Kinder von dir Zeugnis abgelegt;^qmach uns bereit, dich vor den Menschen zu bekennen.^pUnmündige Kinder hast du als Erstlinge deines Reiches in den Himmel vorausgesandt;^qgib, dass auch wir in dein Reich gelangen.^pSie waren noch nicht fähig zu kämpfen und haben dennoch die Siegespalme errungen;^qlass nicht zu, dass wir im Kampf mit dem Bösen erliegen.^pDu hast sie aufgenommen in die Schar derer, die ihre Kleider gewaschen haben in deinem Blut;^qmach uns rein von aller Sünde.",
+          "oration": "Vater im Himmel, nicht mit Worten haben die Unschuldigen Kinder dich gepriesen, sie haben dich verherrlicht durch ihr Sterben. Gib uns die Gnade, dass wir in Worten und Taten unseren Glauben an dich bekennen.^ORV"
+        }
       }
     },
     "MärtSg": {
@@ -3797,6 +3832,23 @@ export const brevierData = {
           "resp2_lat": "",
           "resp3_lat": "",
           "les_text_lat": ""
+        }
+      },
+      "Stephanus": {
+        "Vesper": {
+          "hymn_1": 9226.0,
+          "hymn_kl": 0.0,
+          "ant1": "Meine Seele hängt an dir, Gott, du mein Gott; denn für dich wurde mein Leib gesteinigt.",
+          "ant2": "Stephanus sah den Himmel offen, er sah und trat ein. Selig der Mensch, dem der Himmel offensteht.",
+          "ant3": "Ich sehe den Himmel offen und Jesus zur Rechten Gottes stehen.",
+          "les_buch": "›Apg",
+          "les_stelle": "6,2b–5a",
+          "les_text": "Es ist nicht recht, dass wir das Wort Gottes vernachlässigen und uns dem Dienst an den Tischen widmen. Brüder, wählt aus eurer Mitte sieben Männer von gutem Ruf und voll Geist und Weisheit; ihnen werden wir diese Aufgabe übertragen. Wir aber wollen beim Gebet und beim Dienst am Wort bleiben. Der Vorschlag fand den Beifall der ganzen Gemeinde, und sie wählten Stephanus, einen Mann, erfüllt vom Glauben und vom Heiligen Geist.",
+          "resp1": "Siehe, Gott ist mein Retter,",
+          "resp2": "der Herr ist meine Kraft und Stärke.",
+          "resp3": "Er ist mein Helfer. Was können Menschen mir antun?",
+          "antev": "Die Pforten des Himmels taten sich auf für den heiligen Stephanus: Als erster empfing er den Siegeskranz der Märtyrer.",
+          "oration": "Allmächtiger Gott, wir ehren am heutigen Fest den ersten Märtyrer deiner Kirche. Gib, dass auch wir unsere Feinde lieben und so das Beispiel des heiligen Stephanus nachahmen, der sterbend für seine Verfolger gebetet hat.^ORV"
         }
       }
     },
@@ -9787,7 +9839,7 @@ export const brevierData = {
       },
       "26": {
         "each": {
-          "comm_1": "MärtSg",
+          "comm_1": "MärtSg_Stephanus",
           "oration": "Allmächtiger Gott, wir ehren am heutigen Fest den ersten Märtyrer deiner Kirche. Gib, dass auch wir unsere Feinde lieben und so das Beispiel des heiligen Stephanus nachahmen, der sterbend für seine Verfolger gebetet hat.^ORV",
           "oration_lat": ""
         },
@@ -9852,11 +9904,15 @@ export const brevierData = {
           "resp3_lat": "",
           "antev_lat": "",
           "les_text_lat": ""
+        },
+        "Vesper": {
+          "oration": "",
+          "oration_lat": ""
         }
       },
       "27": {
         "each": {
-          "comm_1": "Apostel",
+          "comm_1": "Apostel_Johannes",
           "oration": "Allmächtiger Gott, du hast uns durch den Evangelisten Johannes einen Zugang eröffnet zum Geheimnis deines ewigen Wortes. Lass uns mit erleuchtetem Verstand und liebendem Herzen erfassen, was er in gewaltiger Sprache verkündet hat.^ORV",
           "oration_lat": ""
         },
@@ -9911,10 +9967,15 @@ export const brevierData = {
           "ant3_lat": "",
           "antev_lat": "",
           "les_text_lat": ""
+        },
+        "Vesper": {
+          "oration": "",
+          "oration_lat": ""
         }
       },
       "28": {
         "each": {
+          "comm_1": "MärtPl_UnschKinder",
           "oration": "Vater im Himmel, nicht mit Worten haben die Unschuldigen Kinder dich gepriesen, sie haben dich verherrlicht durch ihr Sterben. Gib uns die Gnade, dass wir in Worten und Taten unseren Glauben an dich bekennen.^ORV",
           "oration_lat": ""
         },
@@ -9923,7 +9984,6 @@ export const brevierData = {
           "ant0_lat": ""
         },
         "Lesehore": {
-          "comm_1": "MärtPl",
           "hymn_1": 9228.0,
           "ant1": "Deine Kinder hüpfen und spielen wie die jungen Lämmer. Sie preisen dich, Herr, denn du hast sie befreit.",
           "ant2": "Diese sind aus den Menschen erkauft als Erstlingsgabe für Gott und das Lamm. Ohne Makel sind sie vor dem Throne Gottes.",
@@ -9956,7 +10016,6 @@ export const brevierData = {
           "les_text_lat": ""
         },
         "Laudes": {
-          "comm_1": "MärtPl",
           "button": "Fest der Unschuldigen Kinder",
           "farbe": "r",
           "hymn_1": 9228.0,
@@ -10019,6 +10078,10 @@ export const brevierData = {
           "resp0_lat": "",
           "resp1_lat": "",
           "les_text_lat": ""
+        },
+        "Vesper": {
+          "oration": "",
+          "oration_lat": ""
         }
       }
     }
@@ -12974,6 +13037,7 @@ export const brevierData = {
       },
       "26": {
         "Vesper": {
+          "comm_1": "MärtSg_Stephanus",
           "les_buch": "›1°Joh",
           "les_stelle": "1,5b.7",
           "les_text": "Gott ist Licht, und keine Finsternis ist in ihm. Wenn wir aber im Licht leben, wie er im Licht ist, haben wir Gemeinschaft miteinander, und das Blut seines Sohnes Jesus reinigt uns von aller Sünde.",
@@ -12993,6 +13057,7 @@ export const brevierData = {
       },
       "27": {
         "Vesper": {
+          "comm_1": "Apostel_Johannes",
           "les_buch": "›Röm",
           "les_stelle": "8,3b–4",
           "les_text": "Gott sandte seinen Sohn in der Gestalt des Fleisches, das unter der Macht der Sünde steht, zur Sühne für die Sünde, um an diesem Fleisch die Sünde zu verurteilen; dies tat er, damit die Forderung des Gesetzes durch uns erfüllt werde, die wir nicht nach dem Fleisch, sondern nach dem Geist leben.",
@@ -13012,6 +13077,7 @@ export const brevierData = {
       },
       "28": {
         "Vesper": {
+          "comm_1": "MärtPl_UnschKinder",
           "les_buch": "›Eph",
           "les_stelle": "2,3b.5",
           "les_text": "Wir waren von Natur aus Kinder des Zorns wie die anderen. Gott aber, der voll Erbarmen ist, hat uns, die wir infolge unserer Sünden tot waren, in seiner großen Liebe, mit der er uns geliebt hat, zusammen mit Christus wieder lebendig gemacht. Aus Gnade seid ihr gerettet.",
@@ -19352,6 +19418,15 @@ export const brevierData = {
       }
     }
   },
+  "pa": {
+    "4": {
+      "3": {
+        "Laudes": {
+          "psalm1": 108.0
+        }
+      }
+    }
+  },
   "pj": {
     "1": {
       "6": {
@@ -19772,6 +19847,7 @@ export const brevierData = {
       },
       "3": {
         "Laudes": {
+          "psalm1": 108.0,
           "ant1": "Erhebe dich über die Himmel, o Gott! Deine Herrlichkeit erscheine über der ganzen Erde.^ö",
           "ant2": "Wie die Erde die Saat wachsen lässt, so bringt Gott die Rettung hervor.^ö",
           "ant3": "Der Herr ist König, er herrscht von Geschlecht zu Geschlecht.^ö",

@@ -116,7 +116,7 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
             ? 1 : 0);
     const lectureData = lectureYear % 2 === 0 ? lecture2Data : lecture1Data;
 
-    // Initialize structure - jetzt auch mit erstev
+    // Initialize structure
     const hours = {
         erstev: { wt: {}, pers: {} },
         invitatorium: { wt: {}, pers: {} },
@@ -203,8 +203,10 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         }
 
         addLayer('p', weekOfPsalter, dayOfWeek);     // Layer 1: Base layer from 4-week schema
-        if (season === 'j') { addLayer('pj', weekOfPsalter, dayOfWeek); }
-        if (season === 'o') { addLayer('po', weekOfPsalter, dayOfWeek); }
+        const pOfSeason = 'p' + season
+        addLayer(pOfSeason, weekOfPsalter, dayOfWeek);
+        //if (season === 'j') { addLayer('pj', weekOfPsalter, dayOfWeek); }
+        //if (season === 'o') { addLayer('po', weekOfPsalter, dayOfWeek); }
 
         addLayer(season, 'each', 'each', true);     // Layer 2: Season-wide texts
         addLayer(season, 'each', dayOfWeek);        // Layer 3: Weekly schema for the season
@@ -233,6 +235,8 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
             if (calendarDay > 24) { addLayer('w', 'okt', 'each') };
             addLayer('k', calendarMonth, 'each');
             addLayer('k', calendarMonth, calendarDay);
+            // wiederholte Behandlung des 3. und 4. Adventssonntags:
+            // Ant und Pss und Oration vom Adventssonntag, sonst vom Kalendertag
             if (calendarDay > 16 && calendarDay < 24) {
                 addLayer('ak', week, dayOfWeek)
             };
@@ -245,10 +249,12 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
             processAdLib(hours, season, calendarMonth, calendarDay);
         }
 
-        // Sonderfall: MaterEcclesiae bzw. Herz Mariae und gebotener Gedenktag
+        // Feste nach Pfingsten sind als '40. bis 46. Mai' gespeichert
+        // 1er-Stelle gibt den Wochentag an: 40=So: Dreif., 41=Mo: Pfingstmontag ...
         if (afterPentecost) {
             processHeilige(hours, season, '5', afterPentecost, 'eig', 'wt');
             processAdLib(hours, season, '5', afterPentecost);
+            // Sonderfall: MaterEcclesiae bzw. Herz Mariae und gebotener Gedenktag
             if (rank_date === 2) {
                 processHeilige(hours, season, calendarMonth, calendarDay, 'eig', 'n1');
                 processAdLib(hours, season, calendarMonth, calendarDay, true);

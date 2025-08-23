@@ -111,6 +111,7 @@ function calculateRanks(date, season, week, dayOfWeek, swdCombined, afterPenteco
 
         // 6. Gebotene Gedenktage und Kommemoration
         if (season === 'q') { return 2; }          // Wochentage der Fastenzeit
+        if (month === 12 && day > 25) { return 2.4; }  // Weihnachtsoktav
         if (month === 12 && day > 16) { return 2; }  // letzte Adventstage und Weihnachtszeit
 
         return 0; // Standard-Rang für alle anderen Tage

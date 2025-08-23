@@ -15,12 +15,14 @@ const NavigationButtons = ({ hour, onBack, onSelectHour, topButton = false, text
                 ];
             case 'laudes':
                 return [
-                    { label: 'Terz/Sext/Non', name: 'terz' }
+                    { label: 'Lesehore', name: 'lesehore' },
+                    { label: 'Terz/Sext/Non', name: 'terz', span: '3' }
                 ];
             case 'terz':
             case 'sext':
             case 'non':
                 return [
+                    { label: 'Lesehore', name: 'lesehore' },
                     { label: 'Vesper', name: 'vesper' }
                 ];
             case 'vesper':
@@ -39,12 +41,24 @@ const NavigationButtons = ({ hour, onBack, onSelectHour, topButton = false, text
     };
 
     const getGridClass = (nextHours) => {
-        if (nextHours?.length === 1) { return 'right' }
-        if (nextHours?.length === 2) {
-            if (!nextHours[0]?.name) { return 'right' }
-            if (!nextHours[1]?.name) { return 'left' }
+        let alignment = ''
+        if (nextHours?.length === 1) alignment = 'right'
+        else if (nextHours?.length === 2) {
+            if (!nextHours[0]?.name) alignment = 'right'
+            else if (!nextHours[1]?.name) alignment = 'left'
         }
-        return '';
+
+        let singleButton = nextHours[0].label || nextHours[1].label || ''
+        singleButton =
+            alignment === 'left' ? '\u00A0←\u00A0' + singleButton
+                : alignment === 'right' ? singleButton + '\u00A0→\u00A0\u00A0\u00A0'
+                    : ''
+        return {
+            alignment,
+            singleButton,
+            columns: (nextHours[0]?.span || nextHours[1]?.span)
+                ? '7' : ''
+        };
     }
 
     const handleHourChange = (nextHour) => {
@@ -69,12 +83,7 @@ const NavigationButtons = ({ hour, onBack, onSelectHour, topButton = false, text
     };
 
     const nextHours = getNextHours(hour);
-    const gridClass = getGridClass(nextHours)
-    let singleButton = nextHours[0].label || nextHours[1].label || ''
-    singleButton =
-        gridClass === 'left' ? '\u00A0←\u00A0' + singleButton
-            : gridClass === 'right' ? singleButton + '\u00A0→\u00A0\u00A0\u00A0'
-                : ''
+    const { alignment, singleButton, columns } = getGridClass(nextHours)
 
 
     if (topButton) {
@@ -109,21 +118,21 @@ const NavigationButtons = ({ hour, onBack, onSelectHour, topButton = false, text
     }
 
     return (
-        <div className="grid grid-cols-3 gap-2 mb-1">
+        <div className={`grid grid-cols-${columns ? columns : '6'} gap-2 mb-1`}>
             <button
                 onClick={onBack}
-                className="p-2 rounded-sm bg-gray-100 dark:bg-gray-800
+                className="col-span-2 p-2 rounded-sm bg-gray-100 dark:bg-gray-800
                    hover:bg-gray-200 dark:hover:bg-gray-700
                    text-rubric text-left text-sm"
             >
                 ← Auswahl
             </button>
-            {gridClass ? (
+            {alignment ? (
                 // Wenn nur ein Button: 2/3 der Breite, rechtsbündig
                 <button
                     onClick={() => handleHourChange(nextHours[0])}
-                    className={`col-span-2 p-2 rounded-sm text-sm
-                        text-${gridClass}
+                    className={`col-span-4 p-2 rounded-sm text-sm
+                        text-${alignment}
                         bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-rubric`}
                 >
                     {singleButton}
@@ -135,7 +144,7 @@ const NavigationButtons = ({ hour, onBack, onSelectHour, topButton = false, text
                         key={index}
                         onClick={() => handleHourChange(nextHour)}
                         disabled={!nextHour.name}
-                        className={`p-2 rounded-sm text-sm
+                        className={`col-span-${nextHour?.span ? nextHour.span : '2'} p-2 rounded-sm text-sm
                             ${nextHour.name
                                 ? 'bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-rubric'
                                 : 'bg-gray-50 dark:bg-gray-900 text-gray-400 dark:text-gray-600 cursor-default'}`}

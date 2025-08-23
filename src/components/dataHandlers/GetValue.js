@@ -14,11 +14,16 @@ export const getValue = ({ season, hour, texts, field,
         return getKompletValue({ texts, field, localPrefKomplet, localPrefLanguage })
     }
 
-    const { rank_date = 0, rank_wt = 0, isCommemoration, hasErsteVesper = false,
+    const { rank_date = 0, isCommemoration, hasErsteVesper = false,
         swdCombined, dayOfWeek } = texts;
     const languageField = field + localPrefLanguage
     const allSouls = (texts?.laudes?.eig?.button === 'Allerseelen')
         || (swdCombined === 'j-31-0' && rank_date === 3)
+
+    // Weihnachtsoktav: Vesper im Rang eines Festes
+    const readRank = texts?.rank_wt || 0
+    const rank_wt = (readRank === 2.4 && hour === 'vesper') ? 4 : readRank
+    //if (rank_wt !== readRank) { console.log('GetValue: rank_wt angepasst.') }
 
     if (['kirchw', 'verst'].includes(prefSollemnity)) {
         const data = dataSollemnities[prefSollemnity]
