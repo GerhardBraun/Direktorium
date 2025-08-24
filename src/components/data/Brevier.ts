@@ -1492,7 +1492,14 @@ export const brevierData = {
           "les_stelle": "4,19–20",
           "les_text": "Petrus und Johannes antworteten dem Hohen Rat: Ob es vor Gott recht ist, mehr auf euch zu hören als auf Gott, das entscheidet selbst. Wir können unmöglich schweigen über das, was wir gesehen und gehört haben.",
           "antev": "Das Wort ist Fleisch geworden und hat unter uns gewohnt. Und wir haben seine Herrlichkeit geschaut.^ö",
-          "oration": "Allmächtiger Gott, du hast uns durch den Evangelisten Johannes einen Zugang eröffnet zum Geheimnis deines ewigen Wortes. Lass uns mit erleuchtetem Verstand und liebendem Herzen erfassen, was er in gewaltiger Sprache verkündet hat.^ORV"
+          "oration": "Allmächtiger Gott, du hast uns durch den Evangelisten Johannes einen Zugang eröffnet zum Geheimnis deines ewigen Wortes. Lass uns mit erleuchtetem Verstand und liebendem Herzen erfassen, was er in gewaltiger Sprache verkündet hat.^ORV",
+          "hymn_1_lat": 9227.2,
+          "ant1_lat": "Ioánnes, apóstolus et evangelísta, virgo est eléctus a Dómino, atque inter céteros magis diléctus.",
+          "ant2_lat": "Iste est Ioánnes, cui Christus in cruce Matrem Vírginem vírgini commendávit.",
+          "ant3_lat": "Dixit discípulus, quem diligébat Iesus: Dóminus est, allelúia.",
+          "antev_lat": "Verbum caro factum est, et habitávit in nobis, et vídimus glóriam eius.^Lö",
+          "les_text_lat": "Petrus et Ioánnes respondéntes dixérunt ad eos: „Si iustum est in conspéctu Dei vos pótius audíre quam Deum, iudicáte; non enim póssumus nos, quæ vídimus et audívimus, non loqui.“",
+          "oration_lat": "Deus, qui per beátum apóstolum Ioánnem Verbi tui nobis arcána reserásti, præsta, quǽsumus, ut quod ille nostris áuribus excellénter infúdit, intellegéntiæ competéntis eruditióne capiámus.^ORlV"
         }
       },
       "o": {
@@ -3412,7 +3419,18 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Christus, der König der Märtyrer, zu ihm lasst uns beten:",
           "bitten_r": "Dich lobt der Märtyrer weißgewandetes Heer.",
           "bitten": "Nicht mit Worten, sondern mit ihrem Blut haben die Unschuldigen Kinder von dir Zeugnis abgelegt;^qmach uns bereit, dich vor den Menschen zu bekennen.^pUnmündige Kinder hast du als Erstlinge deines Reiches in den Himmel vorausgesandt;^qgib, dass auch wir in dein Reich gelangen.^pSie waren noch nicht fähig zu kämpfen und haben dennoch die Siegespalme errungen;^qlass nicht zu, dass wir im Kampf mit dem Bösen erliegen.^pDu hast sie aufgenommen in die Schar derer, die ihre Kleider gewaschen haben in deinem Blut;^qmach uns rein von aller Sünde.",
-          "oration": "Vater im Himmel, nicht mit Worten haben die Unschuldigen Kinder dich gepriesen, sie haben dich verherrlicht durch ihr Sterben. Gib uns die Gnade, dass wir in Worten und Taten unseren Glauben an dich bekennen.^ORV"
+          "oration": "Vater im Himmel, nicht mit Worten haben die Unschuldigen Kinder dich gepriesen, sie haben dich verherrlicht durch ihr Sterben. Gib uns die Gnade, dass wir in Worten und Taten unseren Glauben an dich bekennen.^ORV",
+          "hymn_1_lat": 9228.2,
+          "ant1_lat": "Ambulábunt mecum in albis, quia digni sunt, dicit Dóminus.",
+          "ant2_lat": "Dicunt infántes Dómino laudem; occísi prǽdicant quod vivi non póterant.",
+          "ant3_lat": "Ex ore infántium et lacténtium perfecísti laudem propter inimícos tuos.",
+          "resp1_lat": "Sancti et iusti",
+          "resp2_lat": "in°perpétuum°vivent.",
+          "resp3_lat": "Et apud Dóminum est merces eórum.",
+          "patr_resp1_lat": "Nicht mit Worten, sondern mit ihrem Blut haben die Unschuldigen Kinder von dir Zeugnis abgelegt;^qmach uns bereit, dich vor den Menschen zu bekennen.^pUnmündige Kinder hast du als Erstlinge deines Reiches in den Himmel vorausgesandt;^qgib, dass auch wir in dein Reich gelangen.^pSie waren noch nicht fähig zu kämpfen und haben dennoch die Siegespalme errungen;^qlass nicht zu, dass wir im Kampf mit dem Bösen erliegen.^pDu hast sie aufgenommen in die Schar derer, die ihre Kleider gewaschen haben in deinem Blut;^qmach uns rein von aller Sünde.",
+          "antev_lat": "Innocéntes pro Christo infántes occísi sunt, ab iníquo rege lacténtes interfécti sunt: ipsum sequúntur Agnum sine mácula, et dicunt semper: Glória tibi, Dómine.",
+          "les_text_lat": "Vox in Rama audíta est lamentatiónis, luctus et fletus Rachel plorántis fílios suos et noléntis consolári super eis, quia non sunt.",
+          "oration_lat": "Deus, cuius hodiérna die præcónium Innocéntes mártyres non loquéndo, sed moriéndo conféssi sunt, da, quǽsumus, ut fidem tuam, quam lingua nostra lóquitur, étiam móribus vita fateátur.^ORlV"
         }
       }
     },
@@ -3848,7 +3866,17 @@ export const brevierData = {
           "resp2": "der Herr ist meine Kraft und Stärke.",
           "resp3": "Er ist mein Helfer. Was können Menschen mir antun?",
           "antev": "Die Pforten des Himmels taten sich auf für den heiligen Stephanus: Als erster empfing er den Siegeskranz der Märtyrer.",
-          "oration": "Allmächtiger Gott, wir ehren am heutigen Fest den ersten Märtyrer deiner Kirche. Gib, dass auch wir unsere Feinde lieben und so das Beispiel des heiligen Stephanus nachahmen, der sterbend für seine Verfolger gebetet hat.^ORV"
+          "oration": "Allmächtiger Gott, wir ehren am heutigen Fest den ersten Märtyrer deiner Kirche. Gib, dass auch wir unsere Feinde lieben und so das Beispiel des heiligen Stephanus nachahmen, der sterbend für seine Verfolger gebetet hat.^ORV",
+          "hymn_1_lat": 9226.2,
+          "ant1_lat": "Adhǽsit ánima mea post te, quia caro mea lapidáta est pro te, Deus meus.",
+          "ant2_lat": "Stéphanus vidit cælos apértos, vidit et introívit: beátus homo, cui cæli patébant.",
+          "ant3_lat": "Ecce vídeo cælos apértos, et Iesum stantem a dextris virtútis Dei.",
+          "resp1_lat": "Fortitúdo mea",
+          "resp2_lat": "et laus mea Dóminus.",
+          "resp3_lat": "Et factus est mihi in salútem.",
+          "antev_lat": "Patefáctæ sunt iánuæ cæli beáto Stéphano, qui in número mártyrum primus est coronátus.",
+          "les_text_lat": "Non est æquum nos derelinquéntes verbum Dei ministráre mensis; consideráte vero, fratres, viros ex vobis boni testimónii septem plenos Spíritu et sapiéntia, quos constituémus super hoc opus; nos vero oratióni et ministério verbi instántes érimus. Et plácuit sermo coram omni multitúdine.",
+          "oration_lat": "Da nobis, quǽsumus, Dómine, imitári quod cólimus, ut discámus et inimícos dilígere, quia eius natalícia celebrámus, qui novit étiam pro persecutóribus exoráre.^ORlV"
         }
       }
     },
@@ -9841,7 +9869,7 @@ export const brevierData = {
         "each": {
           "comm_1": "MärtSg_Stephanus",
           "oration": "Allmächtiger Gott, wir ehren am heutigen Fest den ersten Märtyrer deiner Kirche. Gib, dass auch wir unsere Feinde lieben und so das Beispiel des heiligen Stephanus nachahmen, der sterbend für seine Verfolger gebetet hat.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Da nobis, quǽsumus, Dómine, imitári quod cólimus, ut discámus et inimícos dilígere, quia eius natalícia celebrámus, qui novit étiam pro persecutóribus exoráre.^ORlV"
         },
         "Invitatorium": {
           "ant0": "Christus, der Herr, der für uns Mensch geworden ist, hat Stephanus gekrönt; kommt, wir beten ihn an!",
@@ -9853,8 +9881,6 @@ export const brevierData = {
           "ant1": "Stephanus, voll heiligen Geistes, blickte zum Himmel empor und schaute Gott in seiner Herrlichkeit und Jesus zu seiner Rechten.",
           "ant2": "Stephanus sank in die Knie und rief mit lauter Stimme: Herr Jesus, rechne ihnen diese Sünde nicht an.",
           "ant3": "Der Weisheit und dem Geist, mit dem Stephanus sprach, konnte niemand widerstehen.",
-          "versikel0": "Mich trafen Bedrängnis und Not.",
-          "versikel1": "Deine Gesetze machen mich froh.",
           "les_buch": "Aus der Apostelgeschichte.",
           "les_stelle": "6,8–7,2a.44–8,1a",
           "les_text": "^hDie Verhaftung des Stephanus^pStephanus, voll Gnade und Kraft, tat Wunder und große Zeichen unter dem Volk. Doch einige von der sogenannten Synagoge der Libertiner und Zyrenäer und Alexandriner und Leute aus Zilizien und der Provinz Asien erhoben sich, um mit Stephanus zu streiten; aber sie konnten der Weisheit und dem Geist, mit dem er sprach, nicht widerstehen. Da stifteten sie Männer zu der Aussage an: Wir haben gehört, wie er gegen Mose und Gott lästerte. Sie hetzten das Volk, die Ältesten und die Schriftgelehrten auf, drangen auf ihn ein, packten ihn und schleppten ihn vor den Hohen Rat. Und sie brachten falsche Zeugen bei, die sagten: Dieser Mensch hört nicht auf, gegen diesen heiligen Ort und das Gesetz zu reden. Wir haben ihn nämlich sagen hören: Dieser Jesus, der Nazoräer, wird diesen Ort zerstören und die Bräuche ändern, die uns Mose überliefert hat. Und als alle, die im Hohen Rat saßen, auf ihn blickten, erschien ihnen sein Gesicht wie das Gesicht eines Engels.^hDie Rede des Stephanus^pDer Hohepriester aber fragte: Ist das wahr? Stephanus antwortete: Brüder und Väter, hört mich an!^pUnsere Väter hatten in der Wüste das Bundeszelt. So hat Gott es angeordnet; er hat dem Mose befohlen, es nach dem Vorbild zu errichten, das er geschaut hatte. Und unsere Väter haben es übernommen und mitgebracht, als sie unter Josua das Land der Heidenvölker besetzten, die Gott vor den Augen unserer Väter vertrieb, bis zu den Tagen Davids. Dieser fand Gnade vor Gott und bat für das Haus Jakob um ein Zeltheiligtum. Salomo aber baute ihm ein Haus. Doch der Höchste wohnt nicht in dem, was von Menschenhand gemacht ist, wie der Prophet sagt: Der Himmel ist mein Thron und die Erde der Schemel für meine Füße. Was für ein Haus könnt ihr mir bauen? spricht der Herr. Oder welcher Ort kann mir als Ruhestätte dienen? Hat nicht meine Hand dies alles gemacht?^pIhr Halsstarrigen, ihr, die ihr euch mit Herz und Ohr immerzu dem Heiligen Geist widersetzt, eure Väter schon und nun auch ihr. Welchen der Propheten haben eure Väter nicht verfolgt? Sie haben die getötet, die die Ankunft des Gerechten geweissagt haben, dessen Verräter und Mörder ihr jetzt geworden seid, ihr, die ihr durch die Anordnung von Engeln das Gesetz empfangen, es aber nicht gehalten habt.^hDie Steinigung des Stephanus^pAls sie das hörten, waren sie aufs äußerste über ihn empört und knirschten mit den Zähnen. Er aber, erfüllt vom Heiligen Geist, blickte zum Himmel empor, sah die Herrlichkeit Gottes und Jesus zur Rechten Gottes stehen und rief: Ich sehe den Himmel offen und den Menschensohn zur Rechten Gottes stehen! Da erhoben sie ein lautes Geschrei, hielten sich die Ohren zu, stürmten gemeinsam auf ihn los, trieben ihn zur Stadt hinaus und steinigten ihn. Die Zeugen legten ihre Kleider zu Füßen eines jungen Mannes nieder, der Saulus hieß. So steinigten sie Stephanus; er aber betete und rief: Herr Jesus, nimm meinen Geist auf! Dann sank er in die Knie und schrie laut: Herr, rechne ihnen diese Sünde nicht an! Nach diesen Worten starb er.^pSaulus aber war mit dem Mord einverstanden.",
@@ -9867,12 +9893,11 @@ export const brevierData = {
           "patr_resp1": "Gestern wurde der Herr auf Erden geboren,",
           "patr_resp2": "damit Stephanus heute für den Himmel geboren wird.",
           "patr_resp3": "Gestern ging unser König aus dem Schoß der Jungfrau hervor und besuchte in Gnaden die Welt.",
+          "hymn_1_lat": 9226.1,
           "hymn_nacht_lat": 0.0,
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "versikel0_lat": "",
-          "versikel1_lat": "",
+          "ant1_lat": "Cum esset Stéphanus plenus Spíritu Sancto, inténdens in cælum vidit glóriam Dei, et Iesum stantem ad déxteram Patris.",
+          "ant2_lat": "Stéphanus, pósitis génibus, clamábat voce magna dicens: Dómine Iesu, ne státuas illis hoc peccátum.",
+          "ant3_lat": "Nemo póterat resístere sapiéntiæ, et Spirítui qui loquebátur.",
           "resp1_lat": "",
           "resp2_lat": "",
           "resp3_lat": "",
@@ -9896,14 +9921,18 @@ export const brevierData = {
           "resp2": "der Herr ist meine Kraft und Stärke.",
           "resp3": "Er ist mein Helfer. Was können Menschen mir antun?",
           "antev": "Die Pforten des Himmels taten sich auf für den heiligen Stephanus: Als erster empfing er den Siegeskranz der Märtyrer.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 9226.2,
+          "ant1_lat": "Adhǽsit ánima mea post te, quia caro mea lapidáta est pro te, Deus meus.",
+          "ant2_lat": "Stéphanus vidit cælos apértos, vidit et introívit: beátus homo, cui cæli patébant.",
+          "ant3_lat": "Ecce vídeo cælos apértos, et Iesum stantem a dextris virtútis Dei.",
+          "resp1_lat": "Fortitúdo mea",
+          "resp2_lat": "et laus mea Dóminus.",
+          "resp3_lat": "Et factus est mihi in salútem.",
+          "antev_lat": "Patefáctæ sunt iánuæ cæli beáto Stéphano, qui in número mártyrum primus est coronátus.",
+          "bitten_e_lat": "Fratres, Salvatórem nostrum, testem fidélem, per mártyres interféctos propter verbum Dei, celebrémus, clamántes:",
+          "bitten_r_lat": "Redemísti nos Deo in sánguine tuo.",
+          "bitten_lat": "Per mártyres tuos, qui líbere mortem in testimónium fídei sunt ampléxi,^qda nobis, Dómine, veram spíritus libertátem.^pPer mártyres tuos, qui fidem usque ad sánguinem sunt conféssi,^qda nobis, Dómine, puritátem fideíque constántiam.^pPer mártyres tuos, qui, sustinéntes crucem, tua vestígia sunt secúti,^qda nobis, Dómine, ærúmnas vitæ fórtiter sustinére.^pPer mártyres tuos, qui stolas suas lavérunt in sánguine Agni,^qda nobis, Dómine, omnes insídias carnis mundíque devíncere.",
+          "les_text_lat": "Non est æquum nos derelinquéntes verbum Dei ministráre mensis; consideráte vero, fratres, viros ex vobis boni testimónii septem plenos Spíritu et sapiéntia, quos constituémus super hoc opus; nos vero oratióni et ministério verbi instántes érimus. Et plácuit sermo coram omni multitúdine."
         },
         "Vesper": {
           "oration": "",
@@ -9914,7 +9943,7 @@ export const brevierData = {
         "each": {
           "comm_1": "Apostel_Johannes",
           "oration": "Allmächtiger Gott, du hast uns durch den Evangelisten Johannes einen Zugang eröffnet zum Geheimnis deines ewigen Wortes. Lass uns mit erleuchtetem Verstand und liebendem Herzen erfassen, was er in gewaltiger Sprache verkündet hat.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, qui per beátum apóstolum Ioánnem Verbi tui nobis arcána reserásti, præsta, quǽsumus, ut quod ille nostris áuribus excellénter infúdit, intellegéntiæ competéntis eruditióne capiámus.^ORlV"
         },
         "Lesehore": {
           "hymn_1": 9227.0,
@@ -9938,18 +9967,12 @@ export const brevierData = {
           "patr_resp1": "Dies ist Johannes, der an der Brust des Herrn ruht.",
           "patr_resp2": "Selig der Apostel; ihm wurden die Geheimnisse des Himmels enthüllt.",
           "patr_resp3": "Er trank von dem Strom der Frohen Botschaft, aus der Quelle am Herzen des Herrn.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
+          "hymn_1_lat": 9227.1,
+          "ant1_lat": "Ioánnes testimónium perhíbuit Verbo Dei, et testimónium Iesu Christi quæcúmque vidit.",
+          "ant2_lat": "Hic est discípulus ille, quem diligébat Iesus.",
+          "ant3_lat": "Iste est Ioánnes, qui supra pectus Dómini in cena recúbuit: beátus apóstolus, cui reveláta sunt secréta cæléstia.",
           "versikel0_lat": "",
-          "versikel1_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "patr_resp1_lat": "",
-          "patr_resp2_lat": "",
-          "patr_resp3_lat": "",
-          "les_text_lat": ""
+          "versikel1_lat": ""
         },
         "Laudes": {
           "button": "Hl. Johannes",
@@ -9962,11 +9985,12 @@ export const brevierData = {
           "les_stelle": "4,19–20",
           "les_text": "Petrus und Johannes antworteten dem Hohen Rat: Ob es vor Gott recht ist, mehr auf euch zu hören als auf Gott, das entscheidet selbst. Wir können unmöglich schweigen über das, was wir gesehen und gehört haben.",
           "antev": "Das Wort ist Fleisch geworden und hat unter uns gewohnt. Und wir haben seine Herrlichkeit geschaut.^ö",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "antev_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 9227.2,
+          "ant1_lat": "Ioánnes, apóstolus et evangelísta, virgo est eléctus a Dómino, atque inter céteros magis diléctus.",
+          "ant2_lat": "Iste est Ioánnes, cui Christus in cruce Matrem Vírginem vírgini commendávit.",
+          "ant3_lat": "Dixit discípulus, quem diligébat Iesus: Dóminus est, allelúia.",
+          "antev_lat": "Verbum caro factum est, et habitávit in nobis, et vídimus glóriam eius.^Lö",
+          "les_text_lat": "Petrus et Ioánnes respondéntes dixérunt ad eos: „Si iustum est in conspéctu Dei vos pótius audíre quam Deum, iudicáte; non enim póssumus nos, quæ vídimus et audívimus, non loqui.“"
         },
         "Vesper": {
           "oration": "",
@@ -9977,11 +10001,11 @@ export const brevierData = {
         "each": {
           "comm_1": "MärtPl_UnschKinder",
           "oration": "Vater im Himmel, nicht mit Worten haben die Unschuldigen Kinder dich gepriesen, sie haben dich verherrlicht durch ihr Sterben. Gib uns die Gnade, dass wir in Worten und Taten unseren Glauben an dich bekennen.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, cuius hodiérna die præcónium Innocéntes mártyres non loquéndo, sed moriéndo conféssi sunt, da, quǽsumus, ut fidem tuam, quam lingua nostra lóquitur, étiam móribus vita fateátur.^ORlV"
         },
         "Invitatorium": {
           "ant0": "Christus, der Herr, der für uns Mensch geworden ist, gab unschuldigen Kindern den Kranz des Martyriums – kommt, wir beten ihn an!",
-          "ant0_lat": ""
+          "ant0_lat": "Christum natum, qui Innocéntes coronávit mártyres, veníte, adorémus."
         },
         "Lesehore": {
           "hymn_1": 9228.0,
@@ -10002,18 +10026,12 @@ export const brevierData = {
           "patr_resp1": "Sie beteten Gott an, der in Ewigkeit lebt.",
           "patr_resp2": "Sie legten ihre Kränze nieder vor dem Thron des Herrn, ihres Gottes.",
           "patr_resp3": "Sie warfen sich nieder vor dem Thron und priesen den, der in Ewigkeit lebt.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "versikel0_lat": "",
-          "versikel1_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "patr_resp1_lat": "",
-          "patr_resp2_lat": "",
-          "patr_resp3_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 9228.1,
+          "ant1_lat": "Púeri tui tamquam agni exsultavérunt, magnificántes te, Dómine, qui liberásti illos.",
+          "ant2_lat": "Hi empti sunt ex homínibus, primítiæ Deo et Agno: sine mácula sunt ante thronum Dei.",
+          "ant3_lat": "Lætítia sempitérna super caput eórum: gáudium et lætítiam obtinébunt, et fúgiet dolor et gémitus.",
+          "versikel0_lat": "Cantábant sancti cánticum novum ante sedem Dei et Agni.",
+          "versikel1_lat": "Et resonábat terra in voces illórum."
         },
         "Laudes": {
           "button": "Fest der Unschuldigen Kinder",
@@ -10034,17 +10052,16 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Christus, der König der Märtyrer, zu ihm lasst uns beten:",
           "bitten_r": "Dich lobt der Märtyrer weißgewandetes Heer.",
           "bitten": "Nicht mit Worten, sondern mit ihrem Blut haben die Unschuldigen Kinder von dir Zeugnis abgelegt;^qmach uns bereit, dich vor den Menschen zu bekennen.^pUnmündige Kinder hast du als Erstlinge deines Reiches in den Himmel vorausgesandt;^qgib, dass auch wir in dein Reich gelangen.^pSie waren noch nicht fähig zu kämpfen und haben dennoch die Siegespalme errungen;^qlass nicht zu, dass wir im Kampf mit dem Bösen erliegen.^pDu hast sie aufgenommen in die Schar derer, die ihre Kleider gewaschen haben in deinem Blut;^qmach uns rein von aller Sünde.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 9228.2,
+          "ant1_lat": "Ambulábunt mecum in albis, quia digni sunt, dicit Dóminus.",
+          "ant2_lat": "Dicunt infántes Dómino laudem; occísi prǽdicant quod vivi non póterant.",
+          "ant3_lat": "Ex ore infántium et lacténtium perfecísti laudem propter inimícos tuos.",
+          "resp1_lat": "Sancti et iusti",
+          "antev_lat": "Innocéntes pro Christo infántes occísi sunt, ab iníquo rege lacténtes interfécti sunt: ipsum sequúntur Agnum sine mácula, et dicunt semper: Glória tibi, Dómine.",
+          "bitten_e_lat": "Glóriam Christi celebrémus, qui non armatórum manu, sed candidáta ácie parvulórum vicit tyránnum, atque clamémus:",
+          "bitten_r_lat": "Te mártyrum candidátus laudat exércitus.",
+          "bitten_lat": "Christe, cui párvuli Innocéntes non loquéla, sed sánguine testimónium reddidérunt,^qda nos et verbis et opéribus te coram homínibus confitéri.^pQui nondum ad pugnam idóneos, victóriæ dignos iam palma fecísti,^qtantis nos prǽditis victóriæ subsídiis, succúmbere ne síveris.^pQui sánguine tuo stolas lavísti Innocéntium,^qab omni nos emúnda iniquitáte.^pQui mártyres infántes regni tui primítias ad cælum præmisísti,^qnos aula convívii ætérni extórres fíeri ne permíttas.^pQui in infántia tua persecutiónem et exsílium cognovísti,^qserva infántes, qui inópia aut bello vel calamitátibus periclitántur.",
+          "les_text_lat": "Vox in Rama audíta est lamentatiónis, luctus et fletus Rachel plorántis fílios suos et noléntis consolári super eis, quia non sunt."
         },
         "Terz": {
           "les_buch": "›Klgl",
@@ -10053,9 +10070,9 @@ export const brevierData = {
           "les_text_neu": "Ich muss ich weinen, mein Auge, ja, mein Auge fließt von Tränen. Fern von mir ist ein Tröster, mein Leben zurückzubringen. Einsam sind meine Kinder; denn der Feind ist stark.",
           "resp0": "Mit dem Gewand der Freude hat sie der Herr bekleidet.",
           "resp1": "Die Krone der Herrlichkeit hat er ihnen aufs Haupt gesetzt.",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "resp0_lat": "Stola iucunditátis índuit eos Dóminus.",
+          "resp1_lat": "Et corónam pulchritúdinis pósuit super cápita eórum.",
+          "les_text_lat": "Ego plorans, et óculus meus dedúcens aquas; facti sunt fílii mei desoláti, quóniam inváluit inimícus."
         },
         "Sext": {
           "les_buch": "›Klgl",
@@ -10064,9 +10081,9 @@ export const brevierData = {
           "les_text_neu": "Meine Augen ermatten vor Tränen, mein Inneres glüht, meine Leber ist zu Boden geschüttet wegen des Zusammenbruches der Tochter, meines Volkes, da Kind und Säugling verschmachten auf den Plätzen der Stadt.",
           "resp0": "Die Gerechten leben in Ewigkeit.",
           "resp1": "Ihr Lohn ist der Herr.",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "resp0_lat": "Iusti autem in perpétuum vivent.",
+          "resp1_lat": "Et apud Dóminum est merces eórum.",
+          "les_text_lat": "Defecérunt præ lácrimis óculi mei, efferbuérunt víscera mea; cum defíceret párvulus et lactens in platéis óppidi."
         },
         "Non": {
           "les_buch": "›Jer",
@@ -10075,9 +10092,9 @@ export const brevierData = {
           "les_text_neu": "So spricht der HERR: Verwehre deiner Stimme das Weinen und deinen Augen die Tränen! Denn es gibt einen Lohn für deine Mühe – Spruch des HERRN: Sie werden zurückkehren aus dem Feindesland. Es gibt eine Hoffnung für deine Zukunft – Spruch des HERRN: Die Kinder werden zurückkehren in ihr Gebiet.",
           "resp0": "In festlichem Glanz frohlocken die Heiligen.",
           "resp1": "Sie jauchzen am Ort ihrer Ruhe.",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "resp0_lat": "Exsultábunt sancti in glória.",
+          "resp1_lat": "Lætabúntur in cubílibus suis.",
+          "les_text_lat": "Quiéscat vox tua a plorátu, et óculi tui a lácrimis, quia est merces óperi tuo. Et est spes novíssimis tuis, ait Dóminus."
         },
         "Vesper": {
           "oration": "",
@@ -13047,12 +13064,12 @@ export const brevierData = {
           "bitten_r": "Befreie die Welt vom Bösen.",
           "bitten": "Durch das Geheimnis deiner Menschwerdung, durch deine Geburt und durch dein ganzes Leben:^pDurch deine Mühen, deine Predigt und deine Liebe zu den Sündern:^pDurch dein Leiden und deine Verlassenheit, durch deinen Tod und dein Begräbnis:^pDurch deine Auferstehung und Himmelfahrt, durch die Sendung des Heiligen Geistes und deine Herrlichkeit:^pBefreie die Welt vom Bösen und bewahre un­sere verstorbenen Brüder und Schwestern vor dem ewigen Tod.",
           "oration": "Allmächtiger Gott, die Knechtschaft der Sünde hält uns Menschen gefangen. Nimm dieses alte Joch von uns und schenke uns die neue Freiheit durch die Geburt deines Sohnes in unserem sterblichen Fleisch.^ORvR ",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": "",
-          "oration_lat": ""
+          "antev_lat": "Dum médium siléntium tenérent ómnia, et nox in suo cursu médium iter perágeret, omnípotens Sermo tuus, Dómine, a regálibus sédibus venit.^Lö",
+          "bitten_e_lat": "Verbum Dei, quod, in nobis habitándo, salútis perpétuæ trámitem reserávit, deprecémur et sincéra humilitáte rogémus:",
+          "bitten_r_lat": "Ab omni malo, líbera nos, Dómine.",
+          "bitten_lat": "Per mystérium incarnatiónis tuæ, per nativitátem et infántiam tuam,^qper totam vitam tuam Patri dicátam:^pPer labóres tuos, per prædicatiónes et itínera tua,^qper conversatiónem tuam inter peccatóres:^pPer agoníam et passiónem tuam, per crucem et desolatiónem tuam,^qper angústias tuas, per mortem et sepultúram tuam:^pPer resurrectiónem et ascensiónem tuam, per donatiónem Spíritus Sancti, per gáudia et glóriam tuam ætérnam,^qfratres nostros, iam defúnctos, líbera, Dómine.",
+          "les_text_lat": "Deus lux est et ténebræ in eo non sunt ullæ. Si in luce ambulémus, sicut ipse est in luce, communiónem habémus ad ínvicem, et sanguis Iesu Fílii eius mundat nos ab omni peccáto.",
+          "oration_lat": "Concéde, quǽsumus, omnípotens Deus, ut nos Unigéniti tui nova per carnem natívitas líberet, quos sub peccáti iugo vetústa sérvitus tenet.^ORlV"
         }
       },
       "27": {
@@ -13067,12 +13084,12 @@ export const brevierData = {
           "bitten_r": "Die Gnade deines Sohnes sei mit uns.",
           "bitten": "Vater unseres Herrn Jesus Christus, du hast dich der Menschen erbarmt, die in der Finsternis leben.^qNimm unsere Bitten an für das Heil aller Menschen.^pGedenke deiner Kirche auf der ganzen Erde.^qBeschütze die Christenheit und schenke ihr Frieden.^pLenke die Augen aller Völker auf deinen Sohn^qund schaffe Frieden auch bei denen, die dich nicht kennen.^pBekehre das Herz derer, die auf Gewalt ver­trauen.^qErfülle die Regierenden mit dem Geist der Versöhnung.^pDu hast deinen Sohn in die Welt gesandt, damit alle das Leben haben.^qGib unseren Verstorbenen ewiges Leben bei dir.^pVater unser.",
           "oration": "Allmächtiger Gott, dein ewiges Wort ist Fleisch geworden, um uns mit dem Glanz deines Lichtes zu erfüllen. Gib, dass in unseren Werken widerstrahlt, was durch den Glauben in unserem Herzen leuchtet.^ORvR ",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": "",
-          "oration_lat": ""
+          "antev_lat": "Per te, María Virgo, impléta sunt prophetárum ómnium præcónia, quæ de Christo dicta sunt: Virgo concepísti, et Virgo genuísti.",
+          "bitten_e_lat": "Fratres caríssimi, Deum Patrem exorémus, qui propter multam caritátem suam misit nobis Fílium suum, eúmque súpplices invocémus:",
+          "bitten_r_lat": "Grátia Fílii tui nobíscum, Dómine.",
+          "bitten_lat": "Deus caritátis, Pater Dómini nostri Iesu Christi, qui misértus es perambulántium in ténebris,^qsúscipe quas tibi pro salúte ómnium preces offérimus.^pMeménto, Dómine, Ecclésiæ tuæ, per totum orbem diffúsæ,^qet pópulo tuo christiáno bénedic pacémque concéde.^pCunctórum Pater, inter gentes étiam pacem dignánter instítue, ómnium óculos populórum ad Fílium tuum dírige,^qet in eos qui illos regunt, spíritum pacis effúnde.^pQui, in advéntu Fílii tui, pacem in terra nuntiári fecísti,^qda pacem ætérnam defúnctis.",
+          "les_text_lat": "Deus Fílium suum mittens in similitúdine carnis peccáti et pro peccáto, damnávit peccátum in carne, ut iustítia legis implerétur in nobis, qui non secúndum carnem ambulámus, sed secúndum Spíritum.",
+          "oration_lat": "Da, quǽsumus, omnípotens Deus, ut, dum nova incarnáti Verbi tui luce perfúndimur, hoc in nostro respléndeat ópere, quod per fidem fulget in mente.^ORlV"
         }
       },
       "28": {
@@ -13087,12 +13104,12 @@ export const brevierData = {
           "bitten_r": "Die Gnade deines Sohnes sei mit uns.",
           "bitten": "Gott, beschütze deine Kirche in Verfolgung und Not^qund schenke ihr den Frieden, den die Welt nicht geben kann. ^pTröste die Trauernden.^qGib den Verzweifelten neue Zuversicht.^pWecke Hoffnung in den Herzen der Armen.^qRichte die Kranken und Alten auf.^pGedenke aller, die ihrer Freiheit beraubt sind.^qBeschütze die aus ihrer Heimat Vertriebe­nen.^pBei der Geburt deines Sohnes verkündeten Engel deine Herrlichkeit.^qNimm unsere Verstorbenen auf in den Glanz deines Lichtes.",
           "oration": "Allmächtiger Gott, du hast den Men­schen in seiner Würde wunderbar erschaffen und noch wunderbarer wiederhergestellt. lass uns teilhaben an der Gottheit deines Sohnes, der unsere Menschennatur angenommen hat. Er,^ORR",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": "",
-          "oration_lat": ""
+          "antev_lat": "Sancta et intácta Virgo Deum nobis génuit, téneris indútum membris, quem lactáre méruit: omnes ipsum adorémus, qui venit salváre nos.",
+          "bitten_e_lat": "Deus misit Fílium suum, factum ex mulíere, factum sub lege, ut eos qui sub lege erant redímeret. Qua spe confirmáti, fidénter orémus:",
+          "bitten_r_lat": "Grátia Filii tui nobíscum, Dómine.",
+          "bitten_lat": "Deus caritátis et pacis, ómnium christianórum rénova fidem in Fílii tui incarnatiónem,^qut in gratiárum semper actióne máneant.^pSpem infirmórum, páuperum et seniórum adáuge,^qda oppréssis levámen, desperántibus fidúciam, consolatiónem lugéntibus.^pOmnium memor esto, qui in carcéribus detinéntur,^qet eórum, qui extórres facti sunt a pátria.^pQui in nativitáte Fílii tui ángelos te laudántes audíri fecísti,^qfac ut defúncti cum milítia cælésti in ævum te laudent.",
+          "les_text_lat": "Erámus natúra fílii iræ sicut et céteri. Deus autem, qui dives est in misericórdia, propter nímiam caritátem suam, qua diléxit nos, et cum essémus mórtui peccátis, convivificávit nos Christo. Grátia estis salváti.",
+          "oration_lat": "Deus, qui humánæ substántiæ dignitátem et mirabíliter condidísti et mirabílius reformásti, da, quǽsumus, nobis eius divinitátis esse consórtes, qui humanitátis nostræ fíeri dignátus est párticeps.^ORlR"
         }
       },
       "29": {
