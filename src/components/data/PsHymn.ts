@@ -3920,6 +3920,10 @@ export const psalmsData = {
         "title": "Sei uns willkommen, Herre Christ",
         "quote": "Weihn",
         "text": "Sei uns willkommen, Herre Christ,^lder du unser aller Herre bist.^lSei willkommen, lieber Herre,^lhier auf der Erde recht mit Ehren.^lKyrieleis.^pGott ist geboren, unser Trost,^lder hat durch sein Kreuz die Welt erlöst.^lSei willkommen, lieber Herre,^lhier auf der Erde recht mit Ehren.^lKyrieleis."
+      },
+    1.0: {
+        "quote": "Weihnachten lat.",
+        "text_lat": "Candor ætérnæ Deitátis alme,^lChriste, tu lumen, vénia atque vita^láádvenis, morbis hóminum medéla,^lporta salútis.^pIntonat terræ chorus angelórum^lcǽlicum carmen, nova sæcla dicens,^lglóriam Patri, generíque nostro^lgáudia pacis.^pQui iaces parvus dóminans et orbi,^lVírginis fructus sine labe sanctæ,^lChriste, iam mundo potiáris omni,^lsemper amándus.^pNásceris cælos pátriam datúrus,^lunus e nobis, caro nostra factus;^línnova mentes, trahe caritátis^lpéctora vinclis.^pCœtus exsúltans canit ecce noster,^lángelis læto sociátus ore,^let Patri tecum parilíque Amóri^lcántica laudis. Amen."
       }
   },
   3212: {
@@ -3948,6 +3952,10 @@ export const psalmsData = {
         "title": "Vom hellen Tor der Sonnenbahn",
         "quote": "Weihn",
         "text": "Vom hellen Tor der Sonnenbahn^lbis zu der Erde fernstem Rand^lerschalle Christus unser Lob,^ldem König, den die Magd gebar.^pDer Herr und Schöpfer aller Welt^lhüllt sich in arme Knechtsgestalt,^lim Fleische zu befrein das Fleisch,^lvom Tod zu retten, die er schuf.^pEr scheut es nicht, auf Stroh zu ruhn,^ldie harte Krippe schreckt ihn nicht.^lVon einer Mutter wird gestillt,^lder allem Leben Nahrung gibt.^pDer Himmel bricht in Jubel aus,^ldie Engel künden Gottes Huld,^lden Hirten wird geoffenbart^lder Hirt, der alle Völker lenkt.^pHerr Jesus, dir sei Ruhm und Preis,^lGott, den die Jungfrau uns gebar,^lLob auch dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."
+      },
+    1.0: {
+        "quote": "Weihnachten lat.",
+        "text_lat": "A solis ortus cárdine^ladúsque terræ límitem^lChristum canámus príncipem,^lnatum María Vírgine.^pBeátus auctor sǽculi^lservíle corpus índuit,^lut carne carnem líberans^lnon pérderet quod cóndidit.^pClausæ paréntis víscera^lcæléstis intrat grátia;^lventer puéllæ báiulat^lsecréta quæ non nóverat.^pDomus pudíci péctoris^ltemplum repénte fit Dei;^lintácta nésciens virum^lverbo concépit Fílium.^pEníxa est puérpera^lquem Gábriel prædíxerat,^lquem matris alvo géstiens^lclausus Ioánnes sénserat.^pFeno iacére pértulit,^lpræsépe non abhórruit,^lparvóque lacte pastus est^lper quem nec ales ésurit.^pGaudet chorus cæléstium^let ángeli canunt Deum,^lpalámque fit pastóribus^lpastor, creátor ómnium.^pIesu, tibi sit glória,^lqui natus es de Vírgine,^lcum Patre et almo Spíritu,^lin sempitérna sǽcula. Amen."
       }
   },
   3224: {
@@ -3969,6 +3977,10 @@ export const psalmsData = {
         "title": "Christus, Erlöser aller Welt",
         "quote": "Weihn",
         "text": "Christus, Erlöser aller Welt,^ldu Gottes einzig wahrer Sohn,^lgeboren aus des Vaters Schoß^lgeheimnisvoll vor aller Zeit.^pDes Vaters Abglanz, Licht vom Licht,^lvon dir erhoffen wir das Heil:^lerhöre deiner Diener Flehn,^ldas rings vom Erdkreis zu dir dringt.^pGedenke, dass der Jungfrau Schoß^ldich kleidete mit Fleisch und Blut^lin unsre arme Knechtsgestalt,^ldich, Urgrund unsres ew’gen Heils.^pDas kündet uns der große Tag,^lder wiederkehrt im Jahreskreis,^ldass du vom Thron des Vaters kamst^lals Heiland, der die Welt erlöst.^pEs jauchzen Himmel, Erd’ und Meer^lund alles, was in ihnen ist,^ldem Vater zu in frohem Dank,^lder dich gesandt zu unsrem Heil.^pAuch wir, mit deinem Blut erkauft,^lwir singen dir ein neues Lied^lvoll Freude ob des heil’gen Tags,^lda du für uns geboren bist.^pHerr Jesus, dir sei Ruhm und Preis,^lGott, den die Jungfrau uns gebar,^lLob auch dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."
+      },
+    1.0: {
+        "quote": "Weihnachten lat.",
+        "text_lat": "Christe, redémptor ómnium,^lex Patre, Patris Unice,^lsolus ante princípium^lnatus ineffabíliter,^pTu lumen, tu splendor Patris,^ltu spes perénnis ómnium,^linténde quas fundunt preces^ltui per orbem sérvuli.^pSalútis auctor, récole^lquod nostri quondam córporis,^lex illibáta Vírgine^lnascéndo, formam súmpseris.^pHic præsens testátur dies,^lcurrens per anni círculum,^lquod solus a sede Patris^lmundi salus advéneris;^pHunc cælum, terra, hunc mare,^lhunc omne quod in eis est,^lauctórem advéntus tui^llaudat exsúltans cántico.^pNos quoque, qui sancto tuo^lredémpti sumus sánguine,^lob diem natális tui^lhymnum novum concínimus.^pIesu, tibi sit glória,^lqui natus es de Vírgine,^lcum Patre et almo Spíritu,^lin sempitérna sǽcula. Amen."
       }
   },
   3244: {
