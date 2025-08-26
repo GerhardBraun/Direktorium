@@ -11539,7 +11539,8 @@ export const brevierData = {
     "34": {
       "0": {
         "each": {
-          "oration": "Allmächtiger, ewiger Gott, du hast deinem geliebten Sohn alle Gewalt gegeben im Himmel und auf Erden und ihn zum Haupt der neuen Schöpfung gemacht. Befreie alle Geschöpfe von der Macht des Bösen, damit sie allein dir dienen und dich in Ewigkeit rühmen.^ORV"
+          "oration": "Allmächtiger, ewiger Gott, du hast deinem geliebten Sohn alle Gewalt gegeben im Himmel und auf Erden und ihn zum Haupt der neuen Schöpfung gemacht. Befreie alle Geschöpfe von der Macht des Bösen, damit sie allein dir dienen und dich in Ewigkeit rühmen.^ORV",
+          "oration_lat": "Omnípotens sempitérne Deus, qui in dilécto Fílio tuo, universórum rege, ómnia instauráre voluísti, concéde propítius, ut tota creatúra, a servitúte liberáta, tuæ maiestáti desérviat ac te sine fine colláudet.^ORlV"
         },
         "ErsteV": {
           "button": "1. Vesper zum Christkönigsfest",
@@ -11561,22 +11562,22 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu Christus, der am Kreuz unser König geworden ist:",
           "bitten_r": "Sohn Davids, erbarme dich unser.",
           "bitten": "Du unser König und Hirt, gedenke deines Volkes^qund führe es zusammen von den Enden der Erde.^pDu unser Meister und Heiland,^qrichte die Mutlosen auf.^pDu Fürst des Friedens,^qversöhne die Völker.^pDu König der Herrlichkeit,^qkomm mit deinem Frieden.^pDu Erstgeborener von den Toten,^qnimm die Verstorbenen auf in deine Herrlichkeit.",
-          "hymn_nacht_lat": 3994.0,
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 3994.1,
+          "ant1_lat": "Pacíficus vocábitur, et thronus eius erit firmíssimus in perpétuum.",
+          "ant2_lat": "Regnum eius regnum sempitérnum est, et omnes reges sérvient ei et obœ́dient.",
+          "ant3_lat": "Christo datus est principátus et honor regni; omnis pópulus, tribus et linguæ sérvient ei in ætérnum.",
+          "resp1_lat": "Tua est magnificéntia et poténtia,",
+          "resp2_lat": "tuum, Dómine, regnum.",
+          "resp3_lat": "Tu domináris ómnium.",
+          "antev_lat": "Dabit illi Dóminus Deus sedem David, patris eius; et regnábit in domo Iacob in ætérnum, et regni eius non erit finis, allelúia.",
+          "bitten_e_lat": "Fratres, Christum regem, qui est ante ómnia et in quo ómnia constant, orémus clamántes:",
+          "bitten_r_lat": "Advéniat regnum tuum, Dómine.",
+          "bitten_lat": "Christe, rex et pastor noster, cóngrega oves tuas de cunctis terris,^qet pasce eas in páscuis tuis viréntibus et ubérrimis.^pDux noster et salvátor, ædífica omnes in pópulum tuum; sana infírmos, requíre depérditos, fortes custódi,^qlongínquos révoca, dispérsos cóngrega, diffidéntes érige.^pIudex ætérne, cum tradíderis regnum tuum Deo Patri, pone nos a dextris tuis,^qet fac ut possideámus regnum parátum nobis a constitutióne mundi.^pPrinceps pacis, díssipa arcus belli^qet lóquere pacem tuam géntibus.^pHeres ómnium géntium, cóngrega humanitátem cum ómnibus bonis eius in regnum Ecclésiæ tuæ, quod Pater dedit tibi,^qut te caput in unitáte Spíritus Sancti omnes agnóscant.^pChriste, primogénite ex mórtuis et primítiæ dormiéntium,^qadmítte defúnctos in glóriam resurrectiónis tuæ.",
+          "les_text_lat": "Deus suscitávit Christum a mórtuis et constítuit ad déxteram suam in cæléstibus supra omnem principátum et potestátem et virtútem et dominatiónem et omne nomen, quod nominátur, non solum in hoc sǽculo sed et in futúro; et ómnia subiécit sub pédibus eius, et ipsum dedit caput supra ómnia ecclésiæ, quæ est corpus ipsíus, plenitúdo eius, qui ómnia in ómnibus adimplétur."
         },
         "Invitatorium": {
           "ant0": "Jesus Christus, den König der Könige – kommt, wir beten ihn an!",
-          "ant0_lat": ""
+          "ant0_lat": "Jesum Christum, regem regum, veníte, adorémus."
         },
         "Lesehore": {
           "hymn_1": 3991.0,
@@ -11589,9 +11590,12 @@ export const brevierData = {
           "ant3": "Alle Völker werden ihn preisen und in ihm sich segnen.",
           "versikel0": "Siehe, ich mache dich zum Licht der Heiden.",
           "versikel1": "Du sollst ihr Heil sein bis an die Enden der Erde.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": ""
+          "hymn_1_lat": 3991.1,
+          "ant1_lat": "Ego constitútus sum rex ab eo super Sion, montem sanctum eius, prǽdicans præcéptum eius.",
+          "ant2_lat": "Adorábunt eum omnes reges, omnes gentes sérvient ei.",
+          "ant3_lat": "Benedicéntur in ipso omnes tribus terræ, omnes gentes magnificábunt eum.",
+          "versikel0_lat": "Ecce dedi te in lucem géntium.",
+          "versikel1_lat": "Ut sis salus mea usque ad extrémum terræ."
         },
         "Laudes": {
           "hymn_1": 3952.0,
@@ -11609,18 +11613,18 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, unser Herr und König, in dem alles seinen Bestand hat. Zu ihm lasst uns beten:",
           "bitten_r": "Kyrie, eleison.",
           "bitten": "Du bist als König eingesetzt über die ganze Erde;^qherrsche in unserem Denken und Tun.^pDu bist in die Welt gekommen, um von der Wahrheit Zeugnis zu geben;^qmach uns zu deinen Zeugen.^pDu hast uns in dein Reich gerufen;^qgib, dass wir untadelig vor dir leben.^pDu hast dein Leben für uns hingegeben;^qlass uns nicht verlorengehen.",
-          "hymn_nacht_lat": 3952.0,
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 3992.1,
+          "ant1_lat": "Ecce vir Oriens nomen eius; sedébit et dominábitur, et loquétur pacem géntibus.",
+          "ant2_lat": "Magnificábitur usque ad términos terræ, et erit iste pax.",
+          "ant3_lat": "Dedit ei Dóminus potestátem et honórem et regnum; et omnes pópuli, tribus et linguæ ipsi sérvient.",
+          "resp1_lat": "Sancti tui, Dómine,",
+          "resp2_lat": "glóriam regni tui dicant.",
+          "resp3_lat": "Et poténtiam tuam loquántur.",
+          "antev_lat": "Fecit nos Deo et Patri suo regnum, primogénitus mortuórum et princeps regum terræ, allelúia.",
+          "bitten_e_lat": "Fratres, Christum regem, qui est ante ómnia et in quo ómnia constant, orémus clamántes:",
+          "bitten_r_lat": "Advéniat regnum tuum, Dómine.",
+          "bitten_lat": "Christe salvátor, tu qui es Dóminus Deus noster, rex et pastor noster,^qduc pópulum tuum in páscua vitæ.^pPastor bone, qui ánimam tuam posuísti pro óvibus tuis,^qrege nos, et nihil nobis déerit.^pRedémptor noster, qui constitútus es rex super omnem terram,^qfac ut ómnia in te instauréntur.^pRex universórum, qui venísti in mundum, ut testimónium perhíbeas veritáti,^qagnóscant omnes primátum tuum in ómnibus.^pExémplar et magíster noster, qui in regnum tuum nos transtulísti,^qtríbue ut sanctos, immaculátos et irreprehensíbiles coram te nos hódie exhibeámus.",
+          "les_text_lat": "Veritátem faciéntes in caritáte crescámus in illum per ómnia, qui est caput Christus, ex quo totum corpus compáctum et conéxum per omnem iunctúram subministratiónis secúndum operatiónem in mensúra uniuscuiúsque partis augméntum córporis facit in ædificatiónem sui in caritáte."
         },
         "Terz": {
           "ant0": "Der Herr ist unser Richter, er gibt Weisung und Gesetz. Der Herr ist unser König, er wird uns retten.",
@@ -11629,10 +11633,10 @@ export const brevierData = {
           "les_text": "Dankt dem Vater mit Freude! Er hat euch fähig gemacht, Anteil zu haben am Los der Heiligen, die im Licht sind. Er hat uns der Macht der Finsternis entrissen und aufgenommen in das Reich seines geliebten Sohnes.",
           "resp0": "Der Herr thront als König in Ewigkeit.",
           "resp1": "Der Herr segne sein Volk mit Frieden.",
-          "ant0_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "ant0_lat": "Dóminus iudex noster, Dóminus légifer noster, Dóminus rex noster; ipse salvábit nos.",
+          "resp0_lat": "Sedébit Dóminus rex in ætérnum.",
+          "resp1_lat": "Dóminus benedícet pópulo suo in pace.",
+          "les_text_lat": "Grátias ágimus Patri, qui idóneos nos fecit in partem sortis sanctórum in lúmine; qui erípuit nos de potestáte tenebrárum et tránstulit in regnum Fílii dilectiónis suæ."
         },
         "Sext": {
           "ant0": "Ströme lebendigen Wassers werden ausgehen von Jerusalem, und der Herr wird König sein über die ganze Erde.",
@@ -11642,10 +11646,10 @@ export const brevierData = {
           "les_text_neu": "In ihm wurde alles erschaffen im Himmel und auf Erden; alles ist durch ihn und auf ihn hin erschaffen. Er ist vor aller Schöpfung, und in ihm hat alles Bestand. Er ist das Haupt, der Leib aber ist die Kirche. Er ist der Ursprung, der Erstgeborene der Toten; so hat er in allem den Vorrang.",
           "resp0": "Singt unserem König, ja, singet ihm.",
           "resp1": "Denn er ist König über die ganze Erde.",
-          "ant0_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "ant0_lat": "Exíbunt aquæ vivæ de Ierúsalem, et erit Dóminus rex super omnem terram.",
+          "resp0_lat": "Psállite regi nostro, psállite.",
+          "resp1_lat": "Quóniam rex omnis terræ.",
+          "les_text_lat": "Omnia per ipsum et in ipsum creáta sunt, et ipse est ante ómnia, et ómnia in ipso constant. Et ipse est caput córporis ecclésiæ; qui est princípium, primogénitus ex mórtuis, ut sit in ómnibus ipse primátum tenens."
         },
         "Non": {
           "ant0": "Seine Macht wird groß sein, und es wird Friede herrschen ohne Ende.",
@@ -11655,10 +11659,10 @@ export const brevierData = {
           "les_text_neu": "Gott wollte mit seiner ganzen Fülle in ihm wohnen, um durch ihn alles auf ihn hin zu versöhnen. Alles im Himmel und auf Erden wollte er zu Christus führen, der Frieden gestiftet hat am Kreuz durch sein Blut.",
           "resp0": "Jauchzt vor dem Herrn, dem König.",
           "resp1": "Er kommt, die Erde zu richten.",
-          "ant0_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "ant0_lat": "Multiplicábitur eius impérium, et pacis non erit finis.",
+          "resp0_lat": "Iubiláte in conspéctu regis Dómini.",
+          "resp1_lat": "Quóniam venit iudicáre terram.",
+          "les_text_lat": "In ipso complácuit omnem plenitúdinem habitáre et per eum reconciliáre ómnia in ipsum, pacíficans per sánguinem crucis eius, sive quæ in terris sive quæ in cælis sunt."
         },
         "Vesper": {
           "hymn_1": 3994.0,
@@ -11679,24 +11683,31 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu Christus, der am Kreuz unser König geworden ist:",
           "bitten_r": "Sohn Davids, erbarme dich unser.",
           "bitten": "Du unser König und Hirt, gedenke deines Volkes^qund führe es zusammen von den Enden der Erde.^pDu unser Meister und Heiland,^qrichte die Mutlosen auf.^pDu Fürst des Friedens,^qversöhne die Völker.^pDu König der Herrlichkeit,^qkomm mit deinem Frieden.^pDu Erstgeborener von den Toten,^qnimm die Verstorbenen auf in deine Herrlichkeit.",
-          "hymn_nacht_lat": 3994.0,
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "auf°immer°und°ewig.",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 3994.1,
+          "ant1_lat": "Super sólium David et super regnum eius sedébit in ætérnum, allelúia.",
+          "ant2_lat": "Regnum tuum, regnum ómnium sæculórum, et dominátio tua in omnem generatiónem et generatiónem.",
+          "ant3_lat": "Habet in vestiménto et in fémore suo scriptum: Rex regum et Dóminus dominántium. Ipsi glória et impérium in sǽcula sæculórum.",
+          "resp1_lat": "Sedes tua, Deus,",
+          "resp2_lat": "in sǽculum sǽculi.",
+          "resp3_lat": "Sceptrum æquitátis, sceptrum regni tui.",
+          "antev_lat": "Data est mihi omnis potéstas in cælo et in terra, dicit Dóminus.",
+          "bitten_e_lat": "Fratres, Christum regem, qui est ante ómnia et in quo ómnia constant, orémus clamántes:",
+          "bitten_r_lat": "Advéniat regnum tuum, Dómine.",
+          "bitten_lat": "Christe, rex et pastor noster, cóngrega oves tuas de cunctis terris,^qet pasce eas in páscuis tuis viréntibus et ubérrimis.^pDux noster et salvátor, ædífica omnes in pópulum tuum; sana infírmos, requíre depérditos, fortes custódi,^qlongínquos révoca, dispérsos cóngrega, diffidéntes érige.^pIudex ætérne, cum tradíderis regnum tuum Deo Patri, pone nos a dextris tuis,^qet fac ut possideámus regnum parátum nobis a constitutióne mundi.^pPrinceps pacis, díssipa arcus belli^qet lóquere pacem tuam géntibus.^pHeres ómnium géntium, cóngrega humanitátem cum ómnibus bonis eius in regnum Ecclésiæ tuæ, quod Pater dedit tibi,^qut te caput in unitáte Spíritus Sancti omnes agnóscant.^pChriste, primogénite ex mórtuis et primítiæ dormiéntium,^qadmítte defúnctos in glóriam resurrectiónis tuæ.",
+          "les_text_lat": "Opórtet Christum regnáre, donec ponat omnes inimícos sub pédibus eius. Novíssima autem inimíca destruétur mors; ómnia enim subiécit sub pédibus eius. Cum autem dicat: « Omnia subiécta sunt », sine dúbio præter eum, qui subiécit ei ómnia. Cum autem subiécta fúerint illi ómnia, tunc ipse Fílius subiéctus erit illi, qui sibi subiécit ómnia, ut sit Deus ómnia in ómnibus."
         }
       },
       "each": {
         "Lesehore": {
           "oration": "Gott, unser Vater, erwecke deine Gläubigen zu neuem Eifer, damit das Werk deines Erbarmens in unserem Leben reiche Frucht trägt und wir einst die Fülle des heils empfangen.^ORV",
+          "hymn_3_lat": 3991.2,
           "oration_lat": "Excita, quǽsumus, Dómine, tuórum fidélium voluntátes, ut, divíni óperis fructum propénsius exsequéntes, pietátis tuæ remédia maióra percípiant.^ORlV"
+        },
+        "Laudes": {
+          "hymn_3_lat": 3992.2
+        },
+        "Vesper": {
+          "hymn_3_lat": 3994.2
         }
       }
     },
