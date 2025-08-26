@@ -3586,7 +3586,7 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Hirten",
-          "oration": "^RUBRAus dem Commune für°Hirten°der°Kirche:^0RUBR^lGütiger Gott, du hast den heiligen Papst Johannes Paul I. mit dem Geist der Wahrheit und der Liebe erfüllt und ihn befähigt, dein Volk zu leiten. Höre auf seine Fürsprache, lass uns nach seinem Vorbild leben und stets deine Hilfe erfahren.^ORV",
+          "oration": "^RUBRAus dem Commune für°Hirten°der°Kirche:^0RUBR^lGütiger Gott, du hast den seligen Papst Johannes Paul I. mit dem Geist der Wahrheit und der Liebe erfüllt und ihn befähigt, dein Volk zu leiten. Höre auf seine Fürsprache, lass uns nach seinem Vorbild leben und stets deine Hilfe erfahren.^ORV",
           "oration_lat": "^RUBRDe Communi pastorum:^0RUBR^lDeus, qui beátum Ioánnem Paulum I. ad pascéndum pópulum tuum spíritu veritátis et dilectiónis implevísti, præsta, ut, cuius festivitátem venerándo ágimus, eius imitatióne proficiámus et intercessióne sublevémur.^ORlV"
         },
         "Laudes": {

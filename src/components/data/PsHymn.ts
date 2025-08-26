@@ -3924,6 +3924,11 @@ export const psalmsData = {
     1.0: {
         "quote": "Weihnachten lat.",
         "text_lat": "Candor ætérnæ Deitátis alme,^lChriste, tu lumen, vénia atque vita^láádvenis, morbis hóminum medéla,^lporta salútis.^pIntonat terræ chorus angelórum^lcǽlicum carmen, nova sæcla dicens,^lglóriam Patri, generíque nostro^lgáudia pacis.^pQui iaces parvus dóminans et orbi,^lVírginis fructus sine labe sanctæ,^lChriste, iam mundo potiáris omni,^lsemper amándus.^pNásceris cælos pátriam datúrus,^lunus e nobis, caro nostra factus;^línnova mentes, trahe caritátis^lpéctora vinclis.^pCœtus exsúltans canit ecce noster,^lángelis læto sociátus ore,^let Patri tecum parilíque Amóri^lcántica laudis. Amen."
+      },
+    2.0: {
+        "quote": "Hl. Familie lat.",
+        "title_lat": "Dulce fit nobis memoráre parvum",
+        "text_lat": "Dulce fit nobis^/memoráre parvum^lNázaræ tectum^/tenuémque cultum;^léxpedit Iesu^/tácitam reférre^lcármine vitam.^pArte qua Ioseph^/húmil>i excoléndus,^lábdito Iesus^/iuvenéscit ævo,^lseque fabrílis^/sócium labóris^ládicit ultro.^pAssidet nato^/pia mater almo,^lássidet sponso^/bona nupta, felix^lsi potest curas^/releváre lassis^lmúner>e amíco.^pO nequ>e expértes^/óper>æ et labóris,^lnec mal>i ignári,^/míseros iuváte;^lquotquot implórant^/cólumen, benígno^lcérnite vultu.^pSit tibi, Iesu,^/decus atque virtus,^lsancta qui vitæ^/documénta præbes,^lquique cum summo^/Genitór>e et almo^lFlámine regnas. Amen."
       }
   },
   3212: {
@@ -3956,6 +3961,11 @@ export const psalmsData = {
     1.0: {
         "quote": "Weihnachten lat.",
         "text_lat": "A solis ortus cárdine^ladúsque terræ límitem^lChristum canámus príncipem,^lnatum María Vírgine.^pBeátus auctor sǽculi^lservíle corpus índuit,^lut carne carnem líberans^lnon pérderet quod cóndidit.^pClausæ paréntis víscera^lcæléstis intrat grátia;^lventer puéllæ báiulat^lsecréta quæ non nóverat.^pDomus pudíci péctoris^ltemplum repénte fit Dei;^lintácta nésciens virum^lverbo concépit Fílium.^pEníxa est puérpera^lquem Gábriel prædíxerat,^lquem matris alvo géstiens^lclausus Ioánnes sénserat.^pFeno iacére pértulit,^lpræsépe non abhórruit,^lparvóque lacte pastus est^lper quem nec ales ésurit.^pGaudet chorus cæléstium^let ángeli canunt Deum,^lpalámque fit pastóribus^lpastor, creátor ómnium.^pIesu, tibi sit glória,^lqui natus es de Vírgine,^lcum Patre et almo Spíritu,^lin sempitérna sǽcula. Amen."
+      },
+    2.0: {
+        "quote": "Hl. Familie lat.",
+        "title_lat": "Christe, splendor Patris",
+        "text_lat": "Christe, splendor Patris,^lDei mater Virgo,^lIoseph, tam sacrórum^lpígnorum servátor,^pNitet vestra domus^lflóribus virtútum,^lunde gratiárum^lfons prománat ipse.^pAngeli stupéntes^lNatum Dei cernunt^lservi forma indútum^lservis famulántem.^pImus præes, Ioseph,^lhumilísque iubes;^liubes et María^let utríque servis.^pCunctis præstant aulis^lhæc egéna sæpta,^lsalus unde cœpit^lgéneris humáni.^pIesu, Mater, Ioseph,^lmansiónis vestræ^lnostras date sedes^ldonis frui sanctis.^pTibi laudes, Christe,^lspem qui nobis præbes,^ltuos per paréntes^lcæli adíre domum. Amen."
       }
   },
   3224: {
@@ -3981,6 +3991,11 @@ export const psalmsData = {
     1.0: {
         "quote": "Weihnachten lat.",
         "text_lat": "Christe, redémptor ómnium,^lex Patre, Patris Unice,^lsolus ante princípium^lnatus ineffabíliter,^pTu lumen, tu splendor Patris,^ltu spes perénnis ómnium,^linténde quas fundunt preces^ltui per orbem sérvuli.^pSalútis auctor, récole^lquod nostri quondam córporis,^lex illibáta Vírgine^lnascéndo, formam súmpseris.^pHic præsens testátur dies,^lcurrens per anni círculum,^lquod solus a sede Patris^lmundi salus advéneris;^pHunc cælum, terra, hunc mare,^lhunc omne quod in eis est,^lauctórem advéntus tui^llaudat exsúltans cántico.^pNos quoque, qui sancto tuo^lredémpti sumus sánguine,^lob diem natális tui^lhymnum novum concínimus.^pIesu, tibi sit glória,^lqui natus es de Vírgine,^lcum Patre et almo Spíritu,^lin sempitérna sǽcula. Amen."
+      },
+    2.0: {
+        "quote": "Hl. Familie lat.",
+        "title_lat": "O lux beáta cǽlitum",
+        "text_lat": "O lux beáta cǽlitum^let summa spes mortálium,^lIesu, cui doméstica^larrísit orto cáritas;^pMaría, dives grátia,^lo sola quæ casto potes^lfovére Iesum péctore,^lcum lacte donans óscula;^pTuque ex vetústis pátribus^ldelécte custos Vírginis,^ldulci patris quem nómine^ldivína Proles ínvocat:^pDe stirpe Iesse nóbili^lnati in salútem géntium,^laudíte nos, qui súpplices^lex corde vota fúndimus.^pQua vestra sedes flóruit^lvirtútis omnis grátia,^lhanc detur in domésticis^lreférre posse móribus.^pIesu, tuis obœ́diens^lqui factus es paréntibus,^lcum Patre summo ac Spíritu^lsemper tibi sit glória. Amen."
       }
   },
   3244: {
