@@ -3929,6 +3929,11 @@ export const psalmsData = {
         "quote": "Hl. Familie lat.",
         "title_lat": "Dulce fit nobis memoráre parvum",
         "text_lat": "Dulce fit nobis^/memoráre parvum^lNázaræ tectum^/tenuémque cultum;^léxpedit Iesu^/tácitam reférre^lcármine vitam.^pArte qua Ioseph^/húmil>i excoléndus,^lábdito Iesus^/iuvenéscit ævo,^lseque fabrílis^/sócium labóris^ládicit ultro.^pAssidet nato^/pia mater almo,^lássidet sponso^/bona nupta, felix^lsi potest curas^/releváre lassis^lmúner>e amíco.^pO nequ>e expértes^/óper>æ et labóris,^lnec mal>i ignári,^/míseros iuváte;^lquotquot implórant^/cólumen, benígno^lcérnite vultu.^pSit tibi, Iesu,^/decus atque virtus,^lsancta qui vitæ^/documénta præbes,^lquique cum summo^/Genitór>e et almo^lFlámine regnas. Amen."
+      },
+    3.0: {
+        "quote": "Erscheinung lat.",
+        "title_lat": "Magi vidéntes párvulum",
+        "text_lat": "Magi vidéntes párvulum^leóa promunt múnera,^lstratíque votis ófferunt^ltus, myrrh>a>m et aurum régium.^pAgnósce clar>a insígnia^lvirtútis ac regni tui,^lPuer, cui trinam Pater^lprædestinávit índolem:^pRegem Deúmqu>e annúntiant^lthesáurus et fragrans odor^lturis Sabǽ>i, at mýrrheus^lpulvis sepúlcrum prǽdocet.^pO sola magnár>u>m úrbium^lmaior Bethlem, cui cóntigit^lducem salútis cǽlitus^lincorporátum gígnere!^pHunc et prophétis téstibus^lisdémque signatóribus^ltestátor et sator iubet^ladíre regn>u>m et cérnere:^pRegnum quod ambit ómnia^ldi>a et marín>a et térrea^la solis ort>u ad éxitum^let tártar>a et cælum supra.^pIesu, tibi sit glória,^lqui te revélas géntibus,^lcum Patr>e et almo Spíritu,^lin sempitérna sǽcula. Amen."
       }
   },
   3212: {
@@ -3950,6 +3955,11 @@ export const psalmsData = {
         "title": "Jordan, sing! Schwing deine Wasser",
         "quote": "Weihn",
         "text": "Jordan, sing!^lSchwing deine Wasser^lüber die Wüste hin.^lTrunken bist du vom Glanz darin:^lJesus, der Christus,^lsteht als Lamm in den Fluten.^pMenschheit, auf!^lLauf ihm entgegen,^ldeine Geburt ist nah!^lSieh, der Geliebte, die Hochzeit ist da:^lTrink seinen Wein,^lden neuen, glühenden, guten!^pHerrliches All!^lFall vor ihm nieder,^lbring dich als Gabe dar!^lChristus verwandelt dich wunderbar.^lEwiges Leben^lwird dich im Tode durchbluten!"
+      },
+    1.0: {
+        "quote": "Taufe d. H. lat.",
+        "title_lat": "Implénte munus débitum",
+        "text_lat": "Implénte munus débitum^lIoánne, rerum cónditor^lIordáne mersus hac die^laquam lavándo díluit,^pNon ipse mundári volens^lde ventre natus Vírginis,^lpeccáta sed mortálium^lsuo lavácro tóllere.^pDicénte Patre quod « meus^ldiléctus hic est Fílius »,^lsuménte Sancto Spíritu^lformam colúmbæ cǽlitus,^pHoc mýstico sub nómine^lmicat salus Ecclésiæ;^lPersóna trina cómmanet^lunus Deus per ómnia.^pO Christe, vita, véritas,^ltibi sit omnis glória,^lquem Patris atque Spíritus^lsplendor revélat cǽlitus. Amen."
       }
   },
   3221: {
@@ -3966,6 +3976,11 @@ export const psalmsData = {
         "quote": "Hl. Familie lat.",
         "title_lat": "Christe, splendor Patris",
         "text_lat": "Christe, splendor Patris,^lDei mater Virgo,^lIoseph, tam sacrórum^lpígnorum servátor,^pNitet vestra domus^lflóribus virtútum,^lunde gratiárum^lfons prománat ipse.^pAngeli stupéntes^lNatum Dei cernunt^lservi forma indútum^lservis famulántem.^pImus præes, Ioseph,^lhumilísque iubes;^liubes et María^let utríque servis.^pCunctis præstant aulis^lhæc egéna sæpta,^lsalus unde cœpit^lgéneris humáni.^pIesu, Mater, Ioseph,^lmansiónis vestræ^lnostras date sedes^ldonis frui sanctis.^pTibi laudes, Christe,^lspem qui nobis præbes,^ltuos per paréntes^lcæli adíre domum. Amen."
+      },
+    3.0: {
+        "quote": "Erscheinung lat.",
+        "title_lat": "Quicúmque Christum quǽritis",
+        "text_lat": "Quicúmque Christum quǽritis,^lóc>ulos in altum tóllite:^lillic licébit vísere^lsignum perénnis glóriæ.^pHæc stella, quæ solis rotam^lvincit decór>e ac lúmine,^lvenísse terris núntiat^lcum carne terréstri Deum.^pEn, Pérsic>i ex orbis sinu,^lsol unde sumit iánuam,^lcernunt perít>i intérpretes^lregále vexíllum magi.^p« Quis iste tantus – ínquiunt –^lregnátor astris ímperans,^lquem sic tremunt cæléstia,^lcui lux et æthr>a insérviunt?^pIllústre quiddam cérnimus^lquod nésciat finem pati,^lsublíme, cels>u>m, intérminum,^lantíquius cæl>o et chao.^pHic ille rex est géntium^lpop>ulíque rex Iudáici,^lpromíssus Abrahæ patri^leiúsque in ævum sémini ».^pIesu, tibi sit glória,^lqui te revélas géntibus,^lcum Patr>e et almo Spíritu,^lin sempitérna sǽcula. Amen."
       }
   },
   3224: {
@@ -3980,6 +3995,11 @@ export const psalmsData = {
         "title": "Des Vaters eingeborner Sohn",
         "quote": "Weihn",
         "text": "Des Vaters eingeborner Sohn^lkommt aus der Jungfrau in die Welt,^lim Bad der Taufe heiligt er,^ldie sich ihm gläubig anvertraun.^pVom Himmel kommt der Höchste selbst,^lerscheint in menschlicher Gestalt;^ldem Tode liefert er sich aus,^lder uns das ew’ge Leben schenkt.^pDer alle Sünde auf sich nimmt,^lihn taucht Johannes in die Flut.^lDer ohne allen Makel ist,^lder Reinste, teilt der Sünder Los.^pDes Vaters Stimme offenbart^lim Knecht den vielgeliebten Sohn.^lDer Geist bezeugt ihm Macht und Amt,^lals Christus Gottes Werk zu tun.^pErlöser, Herr, wir bitten dich:^lVertreib das Dunkel, tilg die Schuld,^lmach gnädig unsre Herzen hell^lmit deiner Gottheit klarem Licht.^pDem Herrn sei Preis und Herrlichkeit,^lder heute uns erschienen ist,^ldem Vater, der den Sohn bezeugt^lund ihn mit seinem Geiste salbt. Amen."
+      },
+    1.0: {
+        "quote": "Taufe d. H. lat.",
+        "title_lat": "Iesus refúlsit ómnium",
+        "text_lat": "Iesus refúlsit ómnium^lpius redémptor géntium;^ltotum genus fidélium^llaudis celébret cánticum.^pDenis ter ævi círculis^liam parte vivens córporis,^llympham petit baptísmatis^lcunctis carens contágiis.^pFelix Ioánnes mérgere^lillum treméscit flúmine,^lpotest suo qui sánguine^lpeccáta mundi térgere.^pVox ergo Prolem de polis^ltestátur excélsi Patris,^lfluítque virtus Spíritus^lsancti datrix charísmatis.^pNos, Christe, voce súpplici^lprecámur, omnes prótege,^lac mente fac nitéscere^ltibíque mundos vívere.^pO Christe, vita, véritas,^ltibi sit omnis glória,^lquem Patris atque Spíritus^lsplendor revélat cǽlitus. Amen."
       }
   },
   3241: {
@@ -3996,6 +4016,11 @@ export const psalmsData = {
         "quote": "Hl. Familie lat.",
         "title_lat": "O lux beáta cǽlitum",
         "text_lat": "O lux beáta cǽlitum^let summa spes mortálium,^lIesu, cui doméstica^larrísit orto cáritas;^pMaría, dives grátia,^lo sola quæ casto potes^lfovére Iesum péctore,^lcum lacte donans óscula;^pTuque ex vetústis pátribus^ldelécte custos Vírginis,^ldulci patris quem nómine^ldivína Proles ínvocat:^pDe stirpe Iesse nóbili^lnati in salútem géntium,^laudíte nos, qui súpplices^lex corde vota fúndimus.^pQua vestra sedes flóruit^lvirtútis omnis grátia,^lhanc detur in domésticis^lreférre posse móribus.^pIesu, tuis obœ́diens^lqui factus es paréntibus,^lcum Patre summo ac Spíritu^lsemper tibi sit glória. Amen."
+      },
+    3.0: {
+        "quote": "Erscheinung lat.",
+        "title_lat": "Hostis Heródes ímpie",
+        "text_lat": "Hostis Heródes ímpie,^lChristum veníre quid times?^lNon éripit mortália^lqui regna dat cæléstia.^pIbant magi, qua vénerant^lstellam sequéntes prǽviam,^llumen requírunt lúmine,^lDeum faténtur múnere.^pLavácra puri gúrgitis^lcæléstis Agnus áttigit;^lpeccáta quæ non détulit^lnos abluéndo sústulit.^pNovum genus poténtiæ:^laquæ rubéscunt hýdriæ,^lvinúmque iussa fúndere^lmutávit und>a oríginem.^pIesu, tibi sit glória,^lqui te revélas géntibus,^lcum Patr>e et almo Spíritu,^lin sempitérna sǽcula. Amen."
       }
   },
   3244: {
@@ -4003,6 +4028,13 @@ export const psalmsData = {
         "title": "Die Weisen schauen auf zum Stern",
         "quote": "Weihn",
         "text": "Die Weisen schauen auf zum Stern^lund folgen gläubig seiner Spur,^lsie finden durch das Licht zum Licht,^lmit Gaben ehren sie das Kind.^pErkenne in den Gaben, Kind,^ldie Königszeichen deiner Macht^lund was des Vaters ew’ge Huld^ldir dreifach hat vorherbestimmt:^pDen König kündet an das Gold,^ldem Gott steigt auf des Weihrauchs Duft,^ldoch weist voraus auf Tod und Grab^lder Myrrhenkörner Bitterkeit.^pDer Vorzeit Väter schauten dich,^ldich kündet’ der Propheten Mund;^ldoch heut bezeugt der Vater selbst:^lDu bist der Erbe meines Reichs.^pIn dir, o°Kind, wird alles eins,^ldu bist das A und o°der Zeit,^ldu bist das Haupt der neuen Welt,^lin der die Schöpfung sich erfüllt.^pHerr Jesus, dir sei Ruhm und Preis,^lder du uns heut erschienen bist,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
+      }
+  },
+  3249: {
+    1.0: {
+        "quote": "Taufe d. H. lat.",
+        "title_lat": "A Patre Unigénite",
+        "text_lat": "A Patre Unigénite,^lad nos venis per Vírginem,^lbaptísmi rore cónsecrans^lcunctos, fide regénerans.^pDe cælo celsus pródiens^léxcipis formam hóminis,^lfactúram morte rédimens,^lgáudia vitæ lárgiens.^pHoc te, Redémptor, quǽsumus:^lillábere propítius,^lclarúmque nostris córdibus^llumen præbe deíficum.^pMane nobíscum, Dómine,^lnoctem obscúram rémove,^lomne delíctum áblue,^lpie medélam tríbue.^pO Christe, vita, véritas,^ltibi sit omnis glória,^lquem Patris atque Spíritus^lsplendor revélat cǽlitus. Amen."
       }
   },
   3311: {
@@ -4458,7 +4490,7 @@ export const psalmsData = {
     0.0: {
         "quote": "lateinische Hymnen",
         "title_lat": "Pergráta mundo núntiat",
-        "text_lat": "Pergráta mundo núntiat^lauróra solis spícula,^lres et colóre véstiens^liam cuncta dat nitéscere.^pQui sol per ævum prǽnites,^lo Christe, nobis vívidus,^lad te canéntes vértimur,^lte gestiéntes pérfrui.^pTu Patris es sciéntia^lVerbúmque per quod ómnia^lmiro refúlgent órdine^lmentésque nostras áttrahunt.^pDa lucis ut nos fílii^lsic ambulémus ímpigri,^lut Patris usque grátiam^lmores et actus éxprimant.^pSincéra præsta ut prófluant^lex ore nostro iúgiter,^let veritátis dúlcibus^lut excitémur gáudiis.^pSit, Christe, rex piíssime,^ltibi Patríque glória^lcum Spíritu Paráclito,^lin sempitérna sǽcula. Amen."
+        "text_lat": "Pergráta mundo núntiat^lauróra solis spícula,^lres et colóre véstiens^liam cuncta dat nitéscere.^pQui sol per ævum prǽnites,^lo Christe, nobis vívidus,^lad te canéntes vértimur,^lte gestiéntes pérfrui.^pTu Patris es sciéntia^lVerbúmque per quod ómnia^lmiro refúlgent órdine^lmentésque nostras áttrahunt.^pDa lucis ut nos fílii^lsic ambulémus ímpigri,^lut Patris usque grátiam^lmores et actus éxprimant.^pSincéra præst>a ut prófluant^lex ore nostro iúgiter,^let veritátis dúlcibus^lut excitémur gáudiis.^pSit, Christe, rex piíssime,^ltibi Patríque glória^lcum Spíritu Paráclito,^lin sempitérna sǽcula. Amen."
       }
   },
   4125: {
@@ -5185,6 +5217,21 @@ export const psalmsData = {
         "title": "Aus des Vaters Herz geboren",
         "quote": "Gottesmutter",
         "text": "Aus des Vaters Herz geboren,^lehe Welt und Zeit begann,^lChristus, A und O der Schöpfung,^lZiel und Ursprung aller Welt,^lallen Seins, das je gewesen,^ldas jetzt ist und kommen wird^limmer und in Ewigkeit.^pDie Gestalt des schwachen Fleisches^lund des Leibes Totenkleid^lzogst du an, dass wir nicht sterben^lan dem ersten Todeskeim^lund im Abgrund des Gesetzes^lohne Rettung untergehn^limmer und in Ewigkeit.^pSeht, nun strahlt ein neuer Morgen:^lChristus, unser Heil, erscheint,^lden die Kraft des Geistes zeugte,^lden die Jungfrau uns gebar.^lUnd im Kinde offenbart sich^lder Erlöser aller Welt^limmer und in Ewigkeit.^pDen der Seher dunkle Rede^luns als Retter angesagt,^lden in langer Zeit des Harrens^lder Propheten Glaube sah:^lEr ist da, den sie verheißen.^lGrüßt ihn jubelnd mit Gesang^limmer und in Ewigkeit.^pGott dem Vater sei die Ehre,^lder uns seinen Sohn gesandt,^lEhre Christus, unserm Retter,^lden die Jungfrau uns gebar,^lEhre auch dem Heil’gen Geiste,^lRuhm und Preis und Lobgesang^limmer und in Ewigkeit. Amen."
+      },
+    101.0: {
+        "quote": "Gottesmutter lat.",
+        "title_lat": "Radix Iesse iam flóruit",
+        "text_lat": "Radix Iesse iam flóruit^let virga fructum édidit;^lfecúnda partum prótulit^let virgo mater pérmanet.^pPræsǽpe poni pértulit^lqui lucis auctor éxstitit;^lcum Patre cælos cóndidit,^lsub matre pannos índuit.^pLegem dedit qui sǽculo,^lcuius decem præcépta sunt,^ldignándo factus est homo^lsub legis esse vínculo.^pIam lux salúsque náscitur,^lnox díffugit, mors víncitur;^lveníte, gentes, crédite:^lDeum María prótulit.^pIesu, tibi sit glória,^lqui natus es de Vírgine,^lcum Patr>e et almo Spíritu,^lin sempitérna sǽcula. Amen."
+      },
+    102.0: {
+        "quote": "Gottesmutter lat.",
+        "title_lat": "Fit porta Christi pérvia",
+        "text_lat": "Fit porta Christi pérvia^lomni reférta grátia,^ltransítque rex, et pérmanet^lclaus>a, ut fuit, per sǽcula.^pSummi Paréntis Fílius^lprocéssit aula Vírginis,^lsponsus, redémptor, cónditor^lsuæ gigas Ecclésiæ:^pHonor matris et gáudium,^limménsa spes credéntium,^llapis de monte véniens^lmundúmque replens grátia.^pExsúltet omnis ánima,^lquod nunc salvátor géntium^ladvénit mundi Dóminus^lredímere quos cóndidit.^pChristo sit omnis glória,^lquem Pater Deum génuit,^lquem Virgo mater édidit^lfecúnda Sancto Spíritu. Amen."
+      },
+    104.0: {
+        "quote": "Gottesmutter lat.",
+        "title_lat": "Corde natus ex Paréntis",
+        "text_lat": "Corde natus ex Paréntis^lante mund>i exórdium,^lAlph>a et Omega vocátus,^lipse fons et cláusula^lómnium quæ sunt, fuérunt^lquæque post futúra sunt.^pCórporis formam cadúci,^lmembra mort>i obnóxia^línduit, ne gens períret^lprimoplást>i ex gérmine,^lmérserat quam lex profúndo^lnoxiális tártaro.^pO beátus ortus ille,^lVirgo cum puérpera^lédidit nostram salútem^lfeta Sancto Spíritu,^let puer redémptor orbis^los sacrátum prótulit.^pEcce, quem vates vetústis^lconcinébant sǽculis,^lquem prophetárum fidéles^lpáginæ spopónderant,^lémicat promíssus olim:^lcuncta colláudent eum!^pGlóriam Patri melódis^lpersonémus vócibus;^lglóriam Christo canámus,^lmatre nato vírgine,^linclitóque sempitérnam^lglóriam Paráclito. Amen."
       }
   },
   8125: {
