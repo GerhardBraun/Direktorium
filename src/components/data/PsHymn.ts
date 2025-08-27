@@ -4333,7 +4333,7 @@ export const psalmsData = {
     2.0: {
         "quote": "Christkönig lat.",
         "title_lat": "Dies iræ, dies illa",
-        "text_lat": "Dies iræ, dies illa,^lsolvet sæclum in favilla,^lteste David cum Sibylla.^pQuantus tremor est futúrus,^lquando iudex est ventúrus^lcuncta stricte discussúrus.^pTuba mirum spargens sonum^lper sepúlcra regiónum^lcoget omnes ante thronum.^pMors stupébit et natúra,^lcum resúrget creatúra^liudicánti responsúra.^pLiber scriptus proferétur,^lin quo totum continétur,^lunde mundus iudicétur.^pIudex ergo cum sedébit,^lquidquid latet apparébit;^lnil inúltum remanébit.^pO tu, Deus maiestátis,^lalme candor Trinitátis,^lnos coniúnge cum beátis. Amen."
+        "text_lat": "Dies iræ, dies illa,^lsolvet sæclum in favílla,^lteste David cum Sibýlla.^pQuantus tremor est futúrus,^lquando iudex est ventúrus^lcuncta stricte discussúrus.^pTuba mirum spargens sonum^lper sepúlcra regiónum^lcoget omnes ante thronum.^pMors stupébit et natúra,^lcum resúrget creatúra^liudicánti responsúra.^pLiber scriptus proferétur,^lin quo totum continétur,^lunde mundus iudicétur.^pIudex ergo cum sedébit,^lquidquid latet apparébit;^lnil inúltum remanébit.^pO tu, Deus maiestátis,^lalme candor Trinitátis,^lnos coniúnge cum beátis. Amen."
       }
   },
   3992: {

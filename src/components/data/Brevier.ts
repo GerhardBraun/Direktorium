@@ -21521,10 +21521,6 @@ export const brevierData = {
           "les_buch": "›1°Thess",
           "les_stelle": "4,1.7",
           "les_text": "Wir bitten und ermahnen euch im Namen Jesu, des Herrn: Ihr habt von uns gelernt, wie ihr leben müsst, um Gott zu gefallen, und ihr lebt auch so. Werdet darin noch vollkommener! Denn Gott hat uns nicht dazu berufen, unrein zu leben, sondern heilig zu sein.",
-          "resp0": "Erschaffe mir, Gott, ein reines Herz.",
-          "resp1": "Gib mir einen neuen, beständigen Geist.",
-          "resp0_lat": "",
-          "resp1_lat": "",
           "les_text_lat": ""
         },
         "Sext": {
@@ -21532,10 +21528,6 @@ export const brevierData = {
           "les_stelle": "30,15ab.18",
           "les_text": "So spricht der Herr, der Heilige Israels: Nur in Umkehr und Ruhe liegt eure Rettung, nur Stille und Vertrauen verleihen euch Kraft. Der Herr wartet darauf, euch seine Gnade zu zeigen; er erhebt sich, um euch sein Erbarmen zu schenken. Denn der Herr ist ein Gott des Rechtes; wohl denen, die auf ihn warten.",
           "les_text_neu": "So spricht der GOTT, der Herr, der Heilige Israels: Durch Umkehr und Ruhe werdet ihr gerettet, im Stillhalten und Vertrauen liegt eure Kraft. Der HERR wartet darauf, euch gnädig zu sein, darum erhebt er sich, um sich eurer zu erbarmen. Denn der HERR ist ein Gott des Rechts; selig alle, die auf ihn warten.",
-          "resp0": "Verbirg dein Angesicht vor meinen Sünden.",
-          "resp1": "Tilge alle meine Frevel.",
-          "resp0_lat": "",
-          "resp1_lat": "",
           "les_text_lat": ""
         },
         "Non": {
@@ -21543,10 +21535,6 @@ export const brevierData = {
           "les_stelle": "4,29b–31",
           "les_text": "Du wirst den Herrn, deinen Gott, finden, wenn du mit ganzem Herzen und mit ganzer Seele um ihn bemühst. Wenn du in Not bist, werden alle diese Worte dich finden. In späteren Tagen wirst du zum Herrn, deinem Gott, zurückkehren und auf seine Stimme hören. Denn der Herr, dein Gott, ist ein barmherziger Gott. Er lässt dich nicht fallen und gibt dich nicht dem Verderben preis und vergisst nicht den Bund mit deinen Vätern, den er ihnen beschworen hat.",
           "les_text_neu": "Du wirst den HERRN, deinen Gott, finden, wenn du dich mit ganzem Herzen und mit ganzer Seele um ihn bemühst. Wenn du in Not bist, werden alle diese Worte dich finden. In späteren Tagen wirst du zum HERRN, deinem Gott, zurückkehren und auf seine Stimme hören. Denn der HERR, dein Gott, ist ein barmherziger Gott. Er lässt dich nicht fallen und gibt dich nicht dem Verderben preis und vergisst nicht den Bund mit deinen Vätern, den er ihnen beschworen hat.",
-          "resp0": "Das Opfer, das Gott gefällt, ist ein zerknirschter Geist.",
-          "resp1": "Ein zerschlagenes Herz wird er nicht verschmähen.",
-          "resp0_lat": "",
-          "resp1_lat": "",
           "les_text_lat": ""
         },
         "Vesper": {
@@ -21595,10 +21583,6 @@ export const brevierData = {
           "les_stelle": "11,23–24a",
           "les_text": "Herr, du hast mit allen Erbarmen, weil du alles vermagst, und siehst über die Sünden der Menschen hinweg, damit sie sich bekehren. Du liebst alles, was ist, und verabscheust nichts von allem, was du gemacht hast.",
           "les_text_neu": "Herr, du hast mit allen Erbarmen, weil du alles vermagst, und siehst über die Sünden der Menschen hinweg, damit sie umkehren. Du liebst alles, was ist, und verabscheust nichts von dem, was du gemacht hast.",
-          "resp0": "Erschaffe mir, Gott, ein reines Herz.",
-          "resp1": "Gib mir einen neuen, beständigen Geist.",
-          "resp0_lat": "",
-          "resp1_lat": "",
           "les_text_lat": ""
         },
         "Sext": {
@@ -21606,10 +21590,6 @@ export const brevierData = {
           "les_stelle": "18,23",
           "les_text": "Habe ich etwa Gefallen am Tod des Schuldigen – Spruch Gottes, des Herrn –, und nicht viel mehr daran, dass er seine bösen Wege verlässt und am Leben bleibt?",
           "les_text_neu": "Habe ich etwa Gefallen am Tod des Schuldigen – Spruch GOTTES, des Herrn – und nicht vielmehr daran, dass er umkehrt von seinen Wegen und am Leben bleibt?",
-          "resp0": "Verbirg dein Angesicht vor meinen Sünden.",
-          "resp1": "Tilge alle meine Frevel.",
-          "resp0_lat": "",
-          "resp1_lat": "",
           "les_text_lat": ""
         },
         "Non": {
@@ -21617,10 +21597,6 @@ export const brevierData = {
           "les_stelle": "58,6a.7",
           "les_text": "Das ist ein Fasten, wie ich es liebe: an die Hungrigen dein Brot auszuteilen, die obdachlosen Armen ins Haus aufzunehmen, wenn du einen Nackten siehst, ihn zu bekleiden und dich deinen Verwandten nicht zu entziehen.",
           "les_text_neu": "Ist nicht das ein Fasten, wie ich es wünsche: dem Hungrigen dein Brot zu brechen, obdachlose Arme ins Haus aufzunehmen, wenn du einen Nackten siehst, ihn zu bekleiden und dich deiner Verwandtschaft nicht zu entziehen?",
-          "resp0": "Das Opfer, das Gott gefällt, ist ein zerknirschter Geist.",
-          "resp1": "Ein zerschlagenes Herz wird er nicht verschmähen.",
-          "resp0_lat": "",
-          "resp1_lat": "",
           "les_text_lat": ""
         },
         "Vesper": {
@@ -21662,20 +21638,12 @@ export const brevierData = {
           "les_stelle": "2,17ab",
           "les_text": "Zwischen Vorhalle und Altar sollen die Priester klagen, die Diener des Herrn sollen sprechen: Hab Mitleid, Herr, mit deinem Volk und überlass dein Erbe nicht der Schande, damit nicht die Völker über uns spotten!",
           "les_text_neu": "Zwischen Vorhalle und Altar sollen die Priester klagen, die Diener des HERRN sollen sprechen: Hab Mitleid, HERR, mit deinem Volk und überlass dein Erbe nicht der Schande, damit die Völker nicht über uns spotten!",
-          "resp0": "Erschaffe mir, Gott, ein reines Herz.",
-          "resp1": "Gib mir einen neuen, beständigen Geist.",
-          "resp0_lat": "",
-          "resp1_lat": "",
           "les_text_lat": ""
         },
         "Sext": {
           "les_buch": "›Jer",
           "les_stelle": "3,25b",
           "les_text": "Wir haben gesündigt gegen den HERRN, unsern Gott, wir selbst und unsere Väter, von Jugend an bis auf den heutigen Tag. Wir haben nicht gehört auf die Stimme des HERRN, unseres Gottes.",
-          "resp0": "Verbirg dein Angesicht vor meinen Sünden.",
-          "resp1": "Tilge alle meine Frevel.",
-          "resp0_lat": "",
-          "resp1_lat": "",
           "les_text_lat": ""
         },
         "Non": {
@@ -21683,10 +21651,6 @@ export const brevierData = {
           "les_stelle": "58,1–2",
           "les_text": "Rufe aus voller Kehle, halte dich nicht zurück! Lass deine Stimme ertönen wie eine Posaune! Halte meinem Volk seine Vergehen vor und dem Haus Jakob seine Sünden! Sie suchen mich Tag für Tag, denn sie wollen meine Wege erkennen. Wie ein Volk, das Gerechtigkeit übt und das vom Recht seines Gottes nicht ablässt, so fordern sie von mir ein gerechtes Urteil und möchten, dass Gott ihnen nah ist.",
           "les_text_neu": "Rufe aus voller Kehle, halte dich nicht zurück! Erhebe deine Stimme wie ein Widderhorn! Halt meinem Volk seine Vergehen vor und dem Haus Jakob seine Sünden! Sie suchen mich Tag für Tag und haben daran Gefallen, meine Wege zu erkennen. Wie eine Nation, die Gerechtigkeit übt und vom Recht ihres Gottes nicht ablässt, so fordern sie von mir gerechte Entscheide und haben an Gottes Nähe Gefallen.",
-          "resp0": "Das Opfer, das Gott gefällt, ist ein zerknirschter Geist.",
-          "resp1": "Ein zerschlagenes Herz wird er nicht verschmähen.",
-          "resp0_lat": "",
-          "resp1_lat": "",
           "les_text_lat": ""
         },
         "Vesper": {
