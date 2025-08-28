@@ -243,11 +243,11 @@ const HymnSelector = ({ texts, hour, season,
                 const eigData = texts[hour].eig;
 
                 // Prüfe, ob hymn_1 in der aktuellen Sprache bereits vorhanden ist
-                const currentLanguageHymn1 = eigData?.hymn_1 || null
+                const currentLanguageHymn1 = eigData?.hymn_1 || 0
 
                 // Wenn kein hymn_1 in der aktuellen Sprache vorhanden ist,
                 // suche nach hymn_1 mit Sprachsuffixen
-                if (!currentLanguageHymn1) {
+                if (currentLanguageHymn1 < 8000) {
                     // Definiere mögliche Sprachsuffixe (erweitere bei Bedarf)
                     const languageSuffixes = ['_lat', '_gr'];
 

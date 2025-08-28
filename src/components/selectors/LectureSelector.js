@@ -497,22 +497,24 @@ const lectureAlternatives = {
         }]
     },
     "VerstLesehore": {
-        first: [{
-            les_buch: "Aus dem ersten Brief an die Korinther.",
-            les_stelle: "15,35-57",
-            les_text: "^hDie Auferstehung der Toten und°das°Kommen°des°Herrn^pEs könnte einer fragen: Wie werden die Toten auferweckt, was für einen Leib werden sie haben? Was für eine törichte Frage! Auch das, was du säst, wird nicht lebendig, wenn es nicht stirbt. Und was du säst, hat noch nicht die Gestalt, die entstehen wird; es ist nur ein nacktes Samenkorn, zum Beispiel ein Weizenkorn oder ein anderes. Gott gibt ihm die Gestalt, die er vorgesehen hat, jedem Samen eine andere.^pAuch die Lebewesen haben nicht alle die gleiche Gestalt. Die Gestalt der Menschen ist anders als die der Haustiere, die Gestalt der Vögel anders als die der Fische.^pAuch gibt es Himmelskörper und irdische Körper. Die Schönheit der Himmelskörper ist anders als die der irdischen Körper. Der Glanz der Sonne ist anders als der Glanz des Mondes, anders als der Glanz der Sterne; denn auch die Gestirne unterscheiden sich durch ihren Glanz.^pSo ist es auch mit der Auferstehung der Toten. Was gesät wird, ist verweslich, was auferweckt wird, unverweslich. Was gesät wird, ist armselig, was auferweckt wird, herrlich. Was gesät wird, ist schwach, was auferweckt wird, ist stark. Gesät wird ein irdischer Leib, auferweckt ein überirdischer Leib.^pWenn es einen irdischen Leib gibt, gibt es auch einen überirdischen. So steht es auch in der Schrift: Adam, der Erste Mensch, wurde ein irdisches Lebewesen. Der Letzte Adam wurde lebendig machender Geist. Aber zuerst kommt nicht das Überirdische; zuerst kommt das Irdische, dann das Überirdische.^pDer Erste Mensch stammt von der Erde und ist Erde; der Zweite Mensch stammt vom Himmel. Wie der von der Erde irdisch war, so sind es auch seine Nachfahren. Und wie der vom Himmel himmlisch ist, so sind es auch seine Nachfahren. Wie wir nach dem Bild des Irdischen gestaltet wurden, so werden wir auch nach dem Bild des Himmlischen gestaltet werden.^pDamit will ich sagen, Brüder: Fleisch und Blut können das Reich Gottes nicht erben; das Vergängliche erbt nicht das Unvergängliche.^pSeht, ich enthülle euch ein Geheimnis: Wir werden nicht alle entschlafen, aber wir werden alle verwandelt werden – plötzlich, in einem Augenblick, beim letzten Posaunenschall. Die Posaune wird erschallen, die Toten werden zur Unvergänglichkeit auferweckt, wir aber werden verwandelt werden. Denn dieses Vergängliche muss sich mit Unvergänglichkeit bekleiden und dieses Sterbliche mit Unsterblichkeit. Wenn sich aber dieses Vergängliche mit Unvergänglichkeit bekleidet und dieses Sterbliche mit Unsterblichkeit, dann erfüllt sich das Wort der Schrift:^pVerschlungen ist der Tod vom Sieg.^lTod, wo ist dein Sieg?^lTod, wo ist dein Stachel?^pDer Stachel des Todes aber ist die Sünde,^ldie Kraft der Sünde ist das Gesetz.^lGott aber sei Dank, der°uns°den°Sieg°geschenkt°hat^ldurch Jesus Christus, unseren Herrn.",
-            resp1: "Christus muss herrschen, bis Gott ihm alle Feinde unter die Füße gelegt hat.",
-            resp2: "Der letzte Feind, der vernichtet wird, ist der Tod.",
-            resp3: "Dann werden Tod und Totenwelt ihre Toten herausgeben. Und der Tod und die Totenwelt werden in den Feuersee geworfen.",
-        },
-        {
-            les_buch: "Aus dem zweiten Brief an die Korinther.",
-            les_stelle: "4,16b – 5,10",
-            les_text: "^hWenn unser irdisches Zelt abgebrochen wird, dann haben wir ein ewiges Haus im Himmel^pWenn auch unser äußerer Mensch aufgerieben wird, der innere wird Tag für Tag erneuert. Denn die kleine Last unserer gegenwärtigen Not schafft uns in maßlosem Übermaß ein ewiges Gewicht an Herrlichkeit, uns, die wir nicht auf das Sichtbare starren, sondern nach dem Unsichtbaren ausblicken; denn das Sichtbare ist vergänglich, das Unsichtbare ist ewig.^pWir wissen: Wenn unser irdisches Zelt abgebrochen wird, dann haben wir eine Wohnung von Gott, ein nicht von Menschenhand errichtetes ewiges Haus im Himmel. Im gegenwärtigen Zustand seufzen wir und sehnen uns danach, mit dem himmlischen Haus überkleidet zu werden. So bekleidet, werden wir nicht nackt erscheinen. Solange wir nämlich in diesem Zelt leben, seufzen wir unter schwerem Druck, weil wir nicht entkleidet, sondern überkleidet werden möchten, damit so das Sterbliche vom Leben verschlungen werde.^pGott aber, der uns gerade dazu fähig gemacht hat, er hat uns auch als ersten Anteil den Geist gegeben. Wir sind also immer zuversichtlich, auch wenn wir wissen, dass wir fern vom Herrn in der Fremde leben, solange wir in diesem Leib zu Hause sind; denn als Glaubende gehen wir unseren Weg, nicht als Schauende. Weil wir aber zuversichtlich sind, ziehen wir es vor, aus dem Leib auszuwandern und daheim beim Herrn zu sein.^pDeswegen suchen wir unsere Ehre darin, ihm zu gefallen, ob wir daheim oder in der Fremde sind. Denn wir alle müssen vor dem Richterstuhl Christi offenbar werden, damit jeder seinen Lohn empfängt für das Gute oder Böse, das er im irdischen Leben getan hat.",
-            resp1: "Herr, richte mich nicht nach meinem Tun, denn meine Taten können vor dir nicht bestehen. Darum flehe ich zur dir:",
-            resp2: "Herr, tilge all meine Frevel.",
-            resp3: "Gott, wasche meine Schuld von mir ab und mache mich rein von meiner Sünde.",
-        }],
+        first: [
+            {
+                les_buch: "Aus dem ersten Brief an die Korinther.",
+                les_stelle: "15,35-57",
+                les_text: "^hDie Auferstehung der Toten und°das°Kommen°des°Herrn^pEs könnte einer fragen: Wie werden die Toten auferweckt, was für einen Leib werden sie haben? Was für eine törichte Frage! Auch das, was du säst, wird nicht lebendig, wenn es nicht stirbt. Und was du säst, hat noch nicht die Gestalt, die entstehen wird; es ist nur ein nacktes Samenkorn, zum Beispiel ein Weizenkorn oder ein anderes. Gott gibt ihm die Gestalt, die er vorgesehen hat, jedem Samen eine andere.^pAuch die Lebewesen haben nicht alle die gleiche Gestalt. Die Gestalt der Menschen ist anders als die der Haustiere, die Gestalt der Vögel anders als die der Fische.^pAuch gibt es Himmelskörper und irdische Körper. Die Schönheit der Himmelskörper ist anders als die der irdischen Körper. Der Glanz der Sonne ist anders als der Glanz des Mondes, anders als der Glanz der Sterne; denn auch die Gestirne unterscheiden sich durch ihren Glanz.^pSo ist es auch mit der Auferstehung der Toten. Was gesät wird, ist verweslich, was auferweckt wird, unverweslich. Was gesät wird, ist armselig, was auferweckt wird, herrlich. Was gesät wird, ist schwach, was auferweckt wird, ist stark. Gesät wird ein irdischer Leib, auferweckt ein überirdischer Leib.^pWenn es einen irdischen Leib gibt, gibt es auch einen überirdischen. So steht es auch in der Schrift: Adam, der Erste Mensch, wurde ein irdisches Lebewesen. Der Letzte Adam wurde lebendig machender Geist. Aber zuerst kommt nicht das Überirdische; zuerst kommt das Irdische, dann das Überirdische.^pDer Erste Mensch stammt von der Erde und ist Erde; der Zweite Mensch stammt vom Himmel. Wie der von der Erde irdisch war, so sind es auch seine Nachfahren. Und wie der vom Himmel himmlisch ist, so sind es auch seine Nachfahren. Wie wir nach dem Bild des Irdischen gestaltet wurden, so werden wir auch nach dem Bild des Himmlischen gestaltet werden.^pDamit will ich sagen, Brüder: Fleisch und Blut können das Reich Gottes nicht erben; das Vergängliche erbt nicht das Unvergängliche.^pSeht, ich enthülle euch ein Geheimnis: Wir werden nicht alle entschlafen, aber wir werden alle verwandelt werden – plötzlich, in einem Augenblick, beim letzten Posaunenschall. Die Posaune wird erschallen, die Toten werden zur Unvergänglichkeit auferweckt, wir aber werden verwandelt werden. Denn dieses Vergängliche muss sich mit Unvergänglichkeit bekleiden und dieses Sterbliche mit Unsterblichkeit. Wenn sich aber dieses Vergängliche mit Unvergänglichkeit bekleidet und dieses Sterbliche mit Unsterblichkeit, dann erfüllt sich das Wort der Schrift:^pVerschlungen ist der Tod vom Sieg.^lTod, wo ist dein Sieg?^lTod, wo ist dein Stachel?^pDer Stachel des Todes aber ist die Sünde,^ldie Kraft der Sünde ist das Gesetz.^lGott aber sei Dank, der°uns°den°Sieg°geschenkt°hat^ldurch Jesus Christus, unseren Herrn.",
+                resp1: "Christus muss herrschen, bis Gott ihm alle Feinde unter die Füße gelegt hat.",
+                resp2: "Der letzte Feind, der vernichtet wird, ist der Tod.",
+                resp3: "Dann werden Tod und Totenwelt ihre Toten herausgeben. Und der Tod und die Totenwelt werden in den Feuersee geworfen.",
+            },
+            {
+                les_buch: "Aus dem zweiten Brief an die Korinther.",
+                les_stelle: "4,16b – 5,10",
+                les_text: "^hWenn unser irdisches Zelt abgebrochen wird, dann haben wir ein ewiges Haus im Himmel^pWenn auch unser äußerer Mensch aufgerieben wird, der innere wird Tag für Tag erneuert. Denn die kleine Last unserer gegenwärtigen Not schafft uns in maßlosem Übermaß ein ewiges Gewicht an Herrlichkeit, uns, die wir nicht auf das Sichtbare starren, sondern nach dem Unsichtbaren ausblicken; denn das Sichtbare ist vergänglich, das Unsichtbare ist ewig.^pWir wissen: Wenn unser irdisches Zelt abgebrochen wird, dann haben wir eine Wohnung von Gott, ein nicht von Menschenhand errichtetes ewiges Haus im Himmel. Im gegenwärtigen Zustand seufzen wir und sehnen uns danach, mit dem himmlischen Haus überkleidet zu werden. So bekleidet, werden wir nicht nackt erscheinen. Solange wir nämlich in diesem Zelt leben, seufzen wir unter schwerem Druck, weil wir nicht entkleidet, sondern überkleidet werden möchten, damit so das Sterbliche vom Leben verschlungen werde.^pGott aber, der uns gerade dazu fähig gemacht hat, er hat uns auch als ersten Anteil den Geist gegeben. Wir sind also immer zuversichtlich, auch wenn wir wissen, dass wir fern vom Herrn in der Fremde leben, solange wir in diesem Leib zu Hause sind; denn als Glaubende gehen wir unseren Weg, nicht als Schauende. Weil wir aber zuversichtlich sind, ziehen wir es vor, aus dem Leib auszuwandern und daheim beim Herrn zu sein.^pDeswegen suchen wir unsere Ehre darin, ihm zu gefallen, ob wir daheim oder in der Fremde sind. Denn wir alle müssen vor dem Richterstuhl Christi offenbar werden, damit jeder seinen Lohn empfängt für das Gute oder Böse, das er im irdischen Leben getan hat.",
+                resp1: "Herr, richte mich nicht nach meinem Tun, denn meine Taten können vor dir nicht bestehen. Darum flehe ich zur dir:",
+                resp2: "Herr, tilge all meine Frevel.",
+                resp3: "Gott, wasche meine Schuld von mir ab und mache mich rein von meiner Sünde.",
+            }
+        ],
         second: [{
             patr_autor: "Braulio von Saragossa († um 651)",
             patr_werk: "Aus einem Brief.",
@@ -533,14 +535,36 @@ const lectureAlternatives = {
         }]
     },
     "MUSTERsecond": {
-        second: [{
-            patr_autor: "",
-            patr_werk: "",
-            patr_text: "",
-            patr_resp1: "",
-            patr_resp2: "",
-            patr_resp3: ""
-        }]
+        second: [
+            {
+                patr_autor: "",
+                patr_werk: "",
+                patr_text: "",
+                patr_resp1: "",
+                patr_resp2: "",
+                patr_resp3: ""
+            },
+        ]
+    },
+    "MUSTERresp": {
+        // Wenn nur resp eingetragen ist,
+        // wird der Selector unter der Überschrift RESPONSORIUM angezeigt.
+        // Mit dem ^SLICE-Tag kann der Teil von resp1 abgegrenzt werden,
+        // der im Button angezeigt wird.
+        first: [
+            {
+                resp1: "^SLICE",
+                resp2: "",
+                resp3: ""
+            },
+        ],
+        second: [
+            {
+                patr_resp1: "^SLICE",
+                patr_resp2: "",
+                patr_resp3: ""
+            },
+        ]
     },
     "MUSTER": {
         first: [
@@ -551,7 +575,7 @@ const lectureAlternatives = {
                 resp1: "",
                 resp2: "",
                 resp3: ""
-            },
+            }, // Eine weitere alternative Erste Lesung kann hier ergänzt werden
         ],
         second: [
             {
@@ -561,7 +585,7 @@ const lectureAlternatives = {
                 patr_resp1: "",
                 patr_resp2: "",
                 patr_resp3: ""
-            },
+            }, // Eine weitere alternative Zweite Lesung kann hier ergänzt werden
         ]
     },
     // Weitere Stichwörter können hier ergänzt werden
