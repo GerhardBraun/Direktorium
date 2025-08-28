@@ -21,8 +21,8 @@ const LanguageProgress = () => {
     const progressText = "Der Bestand der Texte für die alternativen Sprachen wird nach und nach aufgebaut. Wo diese noch fehlen, werden die Texte aus dem Stundenbuch angezeigt.^p^kAktueller Bearbeitungsstand^0k^p^fNeue Einheitsübersetzung^0f^lAlle Psalmen und Cantica und alle Kurzlesungen können in der neuen Einheitsübersetzung angezeigt werden.^lDie Lesungen der Lesehore werden nachrangig behandelt und vorerst nicht eingearbeitet.^p^flateinischer Text der Liturgia Horarum^0f^lFür das Stundengebet im Jahreskreis steht der Vierwochenpsalter vollständig zur Verfügung,^lebenso die Commune-Texte und die Texte für die individuell wählbaren Feiern zur Kirchweihe und zum Gedächntnis der Verstorbenen.^pDie Eigentexte für die Sonntage und die bevorstehenden Hochfeste und Feste werden rechtzeitig zum Gebrauch ergänzt.^pDie Lesungen der Lesehore werden nachrangig behandelt und vorerst nicht eingearbeitet.";
 
     return (
-        <div className="mb-2 text-xs text-gray-500 dark:text-gray-400">
-            <div className="mb-1 flex items-start gap-1">
+        <div className="mb-0 text-xs text-gray-500 dark:text-gray-400">
+            <div className="mb-0 flex items-start gap-1">
                 <TooltipProvider>
                     <Tooltip open={isTooltipOpen} onOpenChange={setIsTooltipOpen}>
                         <TooltipTrigger asChild>
