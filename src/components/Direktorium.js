@@ -1896,8 +1896,8 @@ export default function LiturgicalCalendar() {
   const [selectedHour, setSelectedHour] = useState(null);
   const [texts, setTexts] = useState(null);
   const [expandedDeceased, setExpandedDeceased] = useState({});
-  const [deceasedMode, setDeceasedMode] = useState("recent");
-  const [localPrefLanguage, setLocalPrefLanguage] = useState(() => getLocalStorage("prefLanguage") || "");
+  const [prefFootnotes, setPrefFootnotes] = useState(() => getLocalStorage("prefFootnotes") === "false" ? false : true);
+  const [deceasedMode, setDeceasedMode] = useState(() => getLocalStorage("deceasedMode") || "recent"); const [localPrefLanguage, setLocalPrefLanguage] = useState(() => getLocalStorage("prefLanguage") || "");
   const [localPrefLatin, setLocalPrefLatin] = useState(() => getLocalStorage("prefLanguage") === "_lat");
   const [baseFontSize, setBaseFontSize] = useTouchZoom(
     14,
@@ -2117,6 +2117,14 @@ export default function LiturgicalCalendar() {
     document.documentElement.style.fontSize = baseFontSize;
     setLocalStorage("baseFontSize", baseFontSize);
   }, [baseFontSize]);
+
+  useEffect(() => {
+    setLocalStorage("prefFootnotes", prefFootnotes);
+  }, [prefFootnotes]);
+
+  useEffect(() => {
+    setLocalStorage("deceasedMode", deceasedMode);
+  }, [deceasedMode]);
 
   useEffect(() => {
     // Wenn durch Scrollen ausgelöst oder nicht bereit, nichts tun
@@ -2399,8 +2407,9 @@ export default function LiturgicalCalendar() {
     const menuRef = useRef(null);
     const longPressTimeoutRef = useRef(null);
     const [isLongPressing, setIsLongPressing] = useState(false);
-    const sections = ["fontSize", "theme", "language", "deceased", "view"];
+    const sections = ["fontSize", "theme", "language", "footnotes", "deceased", "view"];
     const storedPrefLanguage = getLocalStorage("prefLanguage") || "";
+    const storedPrefFootnotes = getLocalStorage("prefFootnotes") === "true";
 
     const toggleMenu = () => {
       setIsMenuOpen((prev) => !prev);
@@ -2437,32 +2446,6 @@ export default function LiturgicalCalendar() {
       setIsLongPressing(false);
     };
 
-    // Modified to prevent menu closing
-    const handleOptionChange = (e, isRight) => {
-      e.preventDefault();
-      e.stopPropagation();
-
-      switch (activeSection) {
-        case "fontSize":
-          handleFontSizeChange(isRight);
-          break;
-        case "theme":
-          handleThemeChange(isRight);
-          break;
-        case "language":
-          handleLanguageChange(isRight);
-          break;
-        case "deceased":
-          handleDeceasedModeChange(isRight);
-          break;
-        case "view":
-          handleViewChange(isRight);
-          break;
-        default:
-          break;
-      }
-    };
-
     const handleFontSizeChange = (increase) => {
       const change = increase ? 1 : -1;
       const newSize = tempFontSize + change;
@@ -2494,8 +2477,16 @@ export default function LiturgicalCalendar() {
       });
     };
 
+    const handleFootnotesChange = (isRight) => {
+      setPrefFootnotes((prev) => !prev);
+    };
+
     const handleDeceasedModeChange = (isRight) => {
-      setDeceasedMode((prev) => (prev === "recent" ? "all" : "recent"));
+      setDeceasedMode((prev) => {
+        const newMode = prev === "recent" ? "all" : "recent";
+        setLocalStorage("deceasedMode", newMode);
+        return newMode;
+      });
       setExpandedDeceased({});
     };
 
@@ -2521,46 +2512,6 @@ export default function LiturgicalCalendar() {
         document.removeEventListener("mousedown", handleClickOutside);
     }, []);
 
-    useEffect(() => {
-      const handleKeyDown = (event) => {
-        if (!isMenuOpen) {
-          if (event.key === "Alt") {
-            event.preventDefault();
-            toggleMenu();
-          }
-          return;
-        }
-
-        if (event.key === "Alt" || event.key === "Escape") {
-          event.preventDefault();
-          toggleMenu();
-          return;
-        }
-
-        if (event.key === "ArrowUp" || event.key === "ArrowDown") {
-          event.preventDefault();
-          const currentIndex = sections.indexOf(activeSection);
-          const newIndex =
-            event.key === "ArrowDown"
-              ? (currentIndex + 1) % sections.length
-              : (currentIndex - 1 + sections.length) % sections.length;
-          handleSectionChange(newIndex);
-        } else if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
-          event.preventDefault();
-          handleOptionChange(new Event("keydown"), event.key === "ArrowRight");
-        }
-      };
-
-      document.addEventListener("keydown", handleKeyDown);
-      return () => document.removeEventListener("keydown", handleKeyDown);
-    }, [
-      activeSection,
-      handleOptionChange,
-      handleSectionChange,
-      sections,
-      toggleMenu,
-    ]);
-
     // Cleanup longpress timeout bei Unmount
     useEffect(() => {
       return () => {
@@ -2581,7 +2532,7 @@ export default function LiturgicalCalendar() {
     };
 
     // Hilfsfunktion für die Sprachauswahl-Buttons
-    const LanguageButton = (value, label, className = "flex-1") => {
+    const LanguageButton = (value, label, className = "col-span-1") => {
       return (
         <button
           onMouseDown={() => handleLanguageLongPress(value)}
@@ -2604,6 +2555,7 @@ export default function LiturgicalCalendar() {
         </button>
       );
     };
+
     const renderDescriptionItem = (label, description, spacing = 1) => {
       const spacingString = '\u00A0'.repeat(spacing);
       return (
@@ -2614,6 +2566,7 @@ export default function LiturgicalCalendar() {
         </p>
       );
     };
+
     return (
       <div className="relative" ref={menuRef}>
         <button
@@ -2635,14 +2588,13 @@ export default function LiturgicalCalendar() {
               onClick={() => handleSectionChange(sections.indexOf("fontSize"))}
             >
               <div className="text-sm font-semibold text-gray-500 dark:text-gray-400">
-                Schriftgröße{" "}
-                <span className="text-xs text-gray-400 ml-2">(←/→)</span>
+                Schriftgröße
               </div>
               <div className="mt-2 flex items-center justify-center gap-3">
                 <button
                   onClick={(e) => {
-                    setActiveSection("fontSize");
-                    handleOptionChange(e, false);
+                    e.stopPropagation();
+                    handleFontSizeChange(false);
                   }}
                   className="px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300"
                 >
@@ -2654,8 +2606,8 @@ export default function LiturgicalCalendar() {
                 </span>
                 <button
                   onClick={(e) => {
-                    setActiveSection("fontSize");
-                    handleOptionChange(e, true);
+                    e.stopPropagation();
+                    handleFontSizeChange(true);
                   }}
                   className="px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300"
                 >
@@ -2673,7 +2625,7 @@ export default function LiturgicalCalendar() {
               onClick={() => handleSectionChange(sections.indexOf("theme"))}
             >
               <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
-                Design <span className="text-xs text-gray-400 ml-2">(←/→)</span>
+                Design
               </div>
               <div className="flex gap-1">
                 <button
@@ -2713,22 +2665,68 @@ export default function LiturgicalCalendar() {
                 }`}
               onClick={() => handleSectionChange(sections.indexOf("language"))}
             >
-              <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-1">
-                Sprache/Übersetzung <span className="text-xs text-gray-400 ml-2">(←/→)</span>
+              <div className="flex items-baseline gap-2 mb-1">
+                <div className="text-sm font-semibold text-gray-500 dark:text-gray-400">
+                  Sprache/Übersetzung
+                </div>
+                <LanguageProgress />
               </div>
               <div className="mb-2 text-xs text-gray-500 dark:text-gray-400">
-                <LanguageProgress />
                 {renderDescriptionItem("Stundenbuch:", "Einheitsübersetzung von 1983")}
                 {renderDescriptionItem("lat.:", "Nova Vulgata", 4)}
-                {renderDescriptionItem("neu:", "Einheitsübersetzung von 2016", 3)}              </div>
-              <div className="flex gap-0">
-                {LanguageButton("", "Stundenbuch", "flex-3")}
+                {renderDescriptionItem("neu:", "Einheitsübersetzung von 2016", 3)}
+              </div>
+              <div className="grid grid-cols-4 gap-0">
+                {LanguageButton("", "Stundenbuch", "col-span-2")}
                 {LanguageButton("_lat", "lat.")}
                 {LanguageButton("_neu", "neu")}
               </div>
               <div className="mt-2 text-xs text-gray-500 dark:text-gray-400">
                 <p><b>Grundeinstellung:</b> {getLanguageName(storedPrefLanguage)}</p>
                 <p className="text-xs italic">(lange drücken zum Speichern als Grundeinstellung)</p>
+              </div>
+            </div>
+
+            <div className="border-t dark:border-gray-700"></div>
+
+            {/* Fußnoten Section */}
+            <div
+              className={`px-3 py-2 cursor-pointer ${activeSection === "footnotes"
+                ? "bg-gray-100 dark:bg-gray-600"
+                : ""
+                }`}
+              onClick={() => handleSectionChange(sections.indexOf("footnotes"))}
+            >
+              <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
+                Fußnoten
+              </div>
+              <div className="flex gap-1">
+                <button
+                  onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    setPrefFootnotes(false);
+                  }}
+                  className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${!prefFootnotes
+                    ? "bg-orange-100 dark:bg-yellow-400/60"
+                    : ""
+                    }`}
+                >
+                  im Text
+                </button>
+                <button
+                  onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    setPrefFootnotes(true);
+                  }}
+                  className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${prefFootnotes
+                    ? "bg-orange-100 dark:bg-yellow-400/60"
+                    : ""
+                    }`}
+                >
+                  unter dem Text
+                </button>
               </div>
             </div>
 
@@ -2743,8 +2741,7 @@ export default function LiturgicalCalendar() {
               onClick={() => handleSectionChange(sections.indexOf("deceased"))}
             >
               <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
-                Verstorbene{" "}
-                <span className="text-xs text-gray-400 ml-2">(←/→)</span>
+                Verstorbene
               </div>
               <div className="flex gap-1">
                 <button
@@ -2752,6 +2749,7 @@ export default function LiturgicalCalendar() {
                     e.preventDefault();
                     e.stopPropagation();
                     setDeceasedMode("recent");
+                    setLocalStorage("deceasedMode", "recent");
                     setExpandedDeceased({});
                   }}
                   className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${deceasedMode === "recent"
@@ -2766,6 +2764,7 @@ export default function LiturgicalCalendar() {
                     e.preventDefault();
                     e.stopPropagation();
                     setDeceasedMode("all");
+                    setLocalStorage("deceasedMode", "all");
                     setExpandedDeceased({});
                   }}
                   className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${deceasedMode === "all"
@@ -2791,8 +2790,7 @@ export default function LiturgicalCalendar() {
               onClick={() => handleSectionChange(sections.indexOf("view"))}
             >
               <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
-                Verzeichnis{" "}
-                <span className="text-xs text-gray-400 ml-2">(←/→)</span>
+                Verzeichnis
               </div>
               <div className="flex gap-1">
                 <button
@@ -2825,6 +2823,7 @@ export default function LiturgicalCalendar() {
                 </button>
               </div>
             </div>
+
             <div className="px-3 py-2 text-sm mb-2">
               <div className="font-semibold text-gray-500 dark:text-gray-400">
                 Kontakt
@@ -2838,8 +2837,8 @@ export default function LiturgicalCalendar() {
                 </a>
               </div>
             </div>
-            {/* Personal Settings Section */}
 
+            {/* Personal Settings Section */}
             <div className="px-3 py-2 border-t dark:border-gray-700">
               <button
                 onClick={(e) => {
@@ -2860,7 +2859,6 @@ export default function LiturgicalCalendar() {
       </div>
     );
   };
-
   const baseStyle = {
     fontFamily,
     fontSize: `${baseFontSize}pt`,

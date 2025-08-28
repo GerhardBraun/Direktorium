@@ -6,10 +6,6 @@ const PersonalSettings = () => {
     const [startView, setStartView] = useState(() =>
         getLocalStorage('startViewMode') || 'directory'
     );
-    const [prefFootnotes, setPrefFootnotes] = useState(() => {
-        const storedValue = getLocalStorage('prefFootnotes');
-        return storedValue === 'false' ? false : true;
-    });
     const [prefLanguage, setPrefLanguage] = useState(() =>
         getLocalStorage('prefLanguage') || ''
     );
@@ -81,10 +77,6 @@ const PersonalSettings = () => {
     useEffect(() => {
         setLocalStorage('startViewMode', startView);
     }, [startView]);
-
-    useEffect(() => {
-        setLocalStorage('prefFootnotes', prefFootnotes);
-    }, [prefFootnotes]);
 
     useEffect(() => {
         setLocalStorage('prefLanguage', prefLanguage);
@@ -159,10 +151,6 @@ const PersonalSettings = () => {
                         setStartView(data.settings.startViewMode);
                         setLocalStorage('startViewMode', data.settings.startViewMode);
                     }
-                    if (data.settings.prefFootnotes !== undefined) {
-                        setPrefFootnotes(data.settings.prefFootnotes);
-                        setLocalStorage('prefFootnotes', data.settings.prefFootnotes);
-                    }
                     if (data.settings.prefLanguage) {
                         setPrefLanguage(data.settings.prefLanguage);
                         setLocalStorage('prefLanguage', data.settings.prefLanguage);
@@ -204,7 +192,6 @@ const PersonalSettings = () => {
 
         exportData.settings = {
             startViewMode: startView,
-            prefFootnotes,
             prefLanguage,
             popeName,
             popeNameLat,
@@ -283,29 +270,6 @@ const PersonalSettings = () => {
                         Beim ersten Aufruf des Tages wird zunächst das Direktorium angezeigt, bei&nbsp;den weiteren Aufrufen direkt das&nbsp;Stundengebet.
                     </p>
                 </div>            </div>
-
-            {/* Fußnoten Section */}
-            <div className="px-3 py-0">
-                <div className="grid gap-2 items-center" style={{ gridTemplateColumns: '6rem 1fr 1fr' }}>
-                    <div className="text-sm text-gray-500 dark:text-gray-400">
-                        Fußnoten
-                    </div>
-                    <button
-                        onClick={() => setPrefFootnotes(false)}
-                        className={`px-3 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded
-                ${!prefFootnotes ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
-                    >
-                        im Text
-                    </button>
-                    <button
-                        onClick={() => setPrefFootnotes(true)}
-                        className={`px-3 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded
-                ${prefFootnotes ? 'bg-orange-100 dark:bg-yellow-400/60' : 'bg-gray-100 dark:bg-gray-800'}`}
-                    >
-                        unter dem&nbsp;Text
-                    </button>
-                </div>
-            </div>
 
             {/* Names Section */}
             <div className="px-3">
