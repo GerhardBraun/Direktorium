@@ -19950,7 +19950,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Allmächtiger Gott, du schenkst uns die heiligen vierzig Tage als eine Zeit der Umkehr und der Buße. Gib uns durch ihre Feier die Gnade, dass wir in der Erkenntnis Jesu Christi voranschreiten und die Kraft seiner Erlösungstat durch ein Leben aus dem Glauben sichtbar machen. Darum bitten wir durch ihn,^ORR",
-          "oration_lat": "Concéde nobis, omnípotens Deus, ut, per ánnua quadragesimális exercítia sacraménti, et ad intellegéndum Christi proficiámus arcánum, et efféctus eius digna conversatióne sectémur.^ORlR"
+          "oration_lat": "Concéde nobis, omnípotens Deus, ut, per ánnua quadragesimális exercítia sacraménti, et ad intellegéndum Christi proficiámus arcánum, et efféctus eius digna conversatióne sectémur.^ORlV"
         },
         "ErsteV": {
           "ant1": "Herr, wir kommen zu dir mit reumütigem Herzen und mit demütigem Sinn. Nimm uns an und gib, dass unser Opfer dir gefalle.",
@@ -19960,7 +19960,8 @@ export const brevierData = {
           "ant1_lat": "In spíritu humilitátis et in ánimo contríto suscipiámur, Dómine, a te; et sic fiat sacrifícium nostrum, ut suscipiátur a te hódie et pláceat tibi, Dómine Deus.",
           "ant2_lat": "Tunc invocábis, et Dóminus exáudiet; clamábis, et dicet: Ecce adsum.",
           "ant3_lat": "Christus pro peccátis nostris mórtuus est, iustus pro iniústis, ut nos offérret Deo, mortificátus quidem carne, vivificátus autem Spíritu.",
-          "anta_lat": "Ductus est Iesus in desértum a Spíritu, ut tentarétur a diábolo; et cum ieiunásset quadragínta diébus et quadragínta nóctibus, póstea esúriit."
+          "anta_lat": "Ductus est Iesus in desértum a Spíritu, ut tentarétur a diábolo; et cum ieiunásset quadragínta diébus et quadragínta nóctibus, póstea esúriit.",
+          "antc_lat": "Iesus plenus Spíritu Sancto regréssus est ab Iordáne et agebátur in Spíritu in desértum diébus quadragínta et tentabátur a diábolo."
         },
         "Laudes": {
           "ant1": "Herr, ich will dich rühmen mein Leben lang, in deinem Namen die Hände erheben.",
@@ -19970,7 +19971,8 @@ export const brevierData = {
           "ant1_lat": "Benedícam te in vita mea, Dómine, et in nómine tuo levábo manus meas.",
           "ant2_lat": "Hymnum dícite, et superexaltáte Deum in sǽcula.",
           "ant3_lat": "Beneplácitum est Dómino in pópulo suo, et honorábit mansuétos in salútem.",
-          "anta_lat": "Non in solo pane vivit homo, sed in omni verbo quod procédit de ore Dei."
+          "anta_lat": "Non in solo pane vivit homo, sed in omni verbo quod procédit de ore Dei.",
+          "antc_lat": "Nihil manducávit Iesus in diébus illis et, consummátis illis, esúriit."
         },
         "Vesper": {
           "ant1": "Den Herrn, deinen Gott, bete an! Ihm allein sollst du dienen.",
@@ -19980,7 +19982,12 @@ export const brevierData = {
           "ant1_lat": "Dóminum Deum tuum adorábis et illi soli sérvies.",
           "ant2_lat": "Ecce nunc tempus acceptábile, ecce nunc dies salútis.",
           "ant3_lat": "Ecce ascéndimus Ierosólymam, et consummabúntur ómnia quæ scripta sunt de Fílio hóminis.",
-          "anta_lat": "Dicit Iesus: Vade, Sátanas! Scriptum est enim: Dóminum Deum tuum adorábis et illi soli sérvies. Et ángeli accessérunt et ministrábant ei."
+          "anta_lat": "Dicit Iesus: Vade, Sátanas! Scriptum est enim: Dóminum Deum tuum adorábis et illi soli sérvies. Et ángeli accessérunt et ministrábant ei.",
+          "antc_lat": "Consummáta omni tentatióne, diábolus recéssit ab illo, usque ad tempus."
+        },
+        "Lesehore": {
+          "versikel0_lat": "Non in solo pane vivit homo.",
+          "versikel1_lat": "Sed in omni verbo, quod procédit de ore Dei."
         }
       },
       "1": {
@@ -21487,17 +21494,19 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu Gott, dem Vater, der allen seinen Geist gibt, die ihn darum bitten:",
           "bitten_r": "Herr, sende deinen Geist.",
           "bitten": "Bewahre deine Kirche in der Lehre der Apostel;^qerfülle die Bischöfe mit den Gaben des Heiligen Geistes.^pStärke die Einheit deiner Kirche;^qfestige in den Gemeinden das Band der Liebe.^pGib, dass deine Gläubigen den alten Menschen ablegen;^qlass sie den neuen Menschen anziehen in Gerechtigkeit und Heiligkeit.^pVergib allen ihre Sünden, die sich zu dir bekehren;^qum Christi willen tilge ihre Schuld.^pNimm unsere Verstorbenen auf in deinen Frieden;^qgib ihnen die ewige Ruhe.",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 3341.2,
+          "resp1_lat": "Atténde, Dómine, et miserére,",
+          "resp2_lat": "quia peccávimus tibi.",
+          "resp3_lat": "Exáudi, Christe, supplicántum preces.",
+          "bitten_e_lat": "Christum Dóminum glorificémus, qui magíster, exémplar et frater factus est noster. Ei supplicémus, dicéntes:",
+          "bitten_r_lat": "Pópulum tuum vivífica, Dómine.",
+          "bitten_lat": "Christe, qui per ómnia nobis assimilátus es absque peccáto, da ut sciámus cum gaudéntibus gaudére et cum fléntibus flere,^qut cáritas nostra magis in dies abúndet.^pConcéde nobis tibi esuriénti ministráre in esuriéntibus,^qet tibi sitiénti in sitiéntibus.^pQui Lázarum a somno mortis excitásti,^qfac ut, qui ex peccáto mórtui sunt, per fidem et pæniténtiam rédeant ad vitam.^pFac ut multi vestígia tua impénsius atque perféctius sequántur,^qexémplo beátæ Maríæ Vírginis atque sanctórum.^pPræsta, ut in glória tua defúncti resúrgant,^qac tuo in ætérnum fruántur amóre.",
+          "les_text_lat": "Exhortámur vos ne in vácuum grátiam Dei recipiátis – ait enim: „Témpore accépto exaudívi te et in die salútis adiúvi te.“ Ecce nunc tempus acceptábile, ecce nunc dies salútis –, némini dantes ullam offensiónem, ut non vituperétur ministérium, sed in ómnibus exhibéntes nosmetípsos sicut Dei minístros."
         },
         "Lesehore": {
           "hymn_1": 3311.0,
-          "hymn_2": 3312.0
+          "hymn_2": 3312.0,
+          "hymn_1_lat": 3311.2
         },
         "Laudes": {
           "les_buch": "›Neh",
@@ -21509,33 +21518,34 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, unser Erlöser, der uns diese Zeit der Gnade gewährt. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, gib uns deinen Geist.",
           "bitten": "Im Sakrament der Taufe sind wir mit dir begraben und auferweckt worden;^qgib, dass wir heute als neue Menschen leben.^pDu hast uns allen Gutes erwiesen;^qmach uns bereit, unseren Mitmenschen zu dienen.^pDu hast uns eine Aufgabe in der Welt gegeben;^qhilf uns, sie zu erfüllen.^pDu kannst alle Krankheit heilen;^qheile die Wunden unseres Herzens.",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 3321.2,
+          "resp1_lat": "Christe, Fili Dei vivi,",
+          "resp2_lat": "miserére°nobis.",
+          "resp3_lat": "Qui attrítus es propter scélera nostra.",
+          "bitten_e_lat": "Redemptórem nostrum, qui hoc tempus salútis nobis benígne méruit, benedicámus, eúmque súpplices exorémus:",
+          "bitten_r_lat": "Spíritum novum crea in nobis, Dómine.",
+          "bitten_lat": "Christe, vita nostra, qui per baptísmum nos mýstice tecum sepelíri donásti ac per eúndem tecum resuscitári voluísti,^qtríbue nos hódie in novitáte vitæ ambuláre.^pDómine, qui ómnibus benefecísti,^qfac nos étiam de commúni ómnium bono esse sollícitos.^pTríbue nobis ad terrénam civitátem ædificándam concórditer operári,^qet simul cæléstem inquírere.^pMédice córporum et animárum, sana nostri vúlnera cordis,^qut contínua capiámus subsídia sanctitátis.",
+          "les_text_lat": "Dies iste sanctificátus est Dómino Deo nostro! Nolíte lugére et nolíte flere. Quia sanctus dies Dómini nostri est; et nolíte contristári, gáudium étenim Dómini est fortitúdo vestra."
         },
         "Terz": {
           "les_buch": "›1°Thess",
           "les_stelle": "4,1.7",
           "les_text": "Wir bitten und ermahnen euch im Namen Jesu, des Herrn: Ihr habt von uns gelernt, wie ihr leben müsst, um Gott zu gefallen, und ihr lebt auch so. Werdet darin noch vollkommener! Denn Gott hat uns nicht dazu berufen, unrein zu leben, sondern heilig zu sein.",
-          "les_text_lat": ""
+          "les_text_lat": "Fratres, rogámus vos et obsecrámus in Dómino Iesu, ut — quemádmodum accepístis a nobis quómodo vos opórteat ambuláre et placére Deo, sicut et ambulátis — ut abundétis magis. Non enim vocávit nos Deus in immundítia sed in sanctificatióne."
         },
         "Sext": {
           "les_buch": "›Jes",
           "les_stelle": "30,15ab.18",
           "les_text": "So spricht der Herr, der Heilige Israels: Nur in Umkehr und Ruhe liegt eure Rettung, nur Stille und Vertrauen verleihen euch Kraft. Der Herr wartet darauf, euch seine Gnade zu zeigen; er erhebt sich, um euch sein Erbarmen zu schenken. Denn der Herr ist ein Gott des Rechtes; wohl denen, die auf ihn warten.",
           "les_text_neu": "So spricht der GOTT, der Herr, der Heilige Israels: Durch Umkehr und Ruhe werdet ihr gerettet, im Stillhalten und Vertrauen liegt eure Kraft. Der HERR wartet darauf, euch gnädig zu sein, darum erhebt er sich, um sich eurer zu erbarmen. Denn der HERR ist ein Gott des Rechts; selig alle, die auf ihn warten.",
-          "les_text_lat": ""
+          "les_text_lat": "Hæc dixit Dóminus Deus, Sanctus Israel: « In conversióne et quiéte salvi éritis; in siléntio et in spe erit fortitúdo vestra ». Proptérea exspéctat Dóminus, ut misereátur vestri, et ídeo exaltábitur parcens vobis, quia Deus iudícii Dóminus; beáti omnes, qui exspéctant eum."
         },
         "Non": {
           "les_buch": "›Dtn",
           "les_stelle": "4,29b–31",
           "les_text": "Du wirst den Herrn, deinen Gott, finden, wenn du mit ganzem Herzen und mit ganzer Seele um ihn bemühst. Wenn du in Not bist, werden alle diese Worte dich finden. In späteren Tagen wirst du zum Herrn, deinem Gott, zurückkehren und auf seine Stimme hören. Denn der Herr, dein Gott, ist ein barmherziger Gott. Er lässt dich nicht fallen und gibt dich nicht dem Verderben preis und vergisst nicht den Bund mit deinen Vätern, den er ihnen beschworen hat.",
           "les_text_neu": "Du wirst den HERRN, deinen Gott, finden, wenn du dich mit ganzem Herzen und mit ganzer Seele um ihn bemühst. Wenn du in Not bist, werden alle diese Worte dich finden. In späteren Tagen wirst du zum HERRN, deinem Gott, zurückkehren und auf seine Stimme hören. Denn der HERR, dein Gott, ist ein barmherziger Gott. Er lässt dich nicht fallen und gibt dich nicht dem Verderben preis und vergisst nicht den Bund mit deinen Vätern, den er ihnen beschworen hat.",
-          "les_text_lat": ""
+          "les_text_lat": "Cum quæsíeris Dóminum Deum tuum, invénies eum; si tamen toto corde quæsíeris eum et tota ánima tua. Postquam in tribulatióne tua te invénerint ómnia, quæ prædícta sunt, novíssimo témpore revertéris ad Dóminum Deum tuum et áudies vocem eius; quia Deus miséricors Dóminus Deus tuus est; non dimíttet te, nec omníno delébit neque obliviscétur pacti, in quo iurávit pátribus tuis."
         },
         "Vesper": {
           "psalm3": 158.0,
@@ -21549,21 +21559,22 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu Gott dem Vater, der die Menschen durch Buße zum neuen Leben führt:",
           "bitten_r": "Erbarme dich deines Volkes.",
           "bitten": "Herr, unser Gott, wir bitten dich für die Kirche auf dem ganzen Erdkreis;^qgib deinen Gläubigen Verlangen nach dir und deinem Wort.^pWir bitten dich für alle, die sich auf die Taufe vorbereiten;^qfüge sie als lebendige Steine ein in den Bau deiner Kirche.^pWir bitten dich für die Sünder;^qbewege ihr Herz zur Umkehr.^pWir bitten dich für die Völker der Erde;^qhilf ihnen den Weg zum Frieden finden.^pWir bitten dich für unsere Verstorbenen;^qlass sie in ewiger Seligkeit dein Angesicht schauen.",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 3341.2,
+          "resp1_lat": "Atténde, Dómine, et miserére,",
+          "resp2_lat": "quia peccávimus tibi.",
+          "resp3_lat": "Exáudi, Christe, supplicántum preces.",
+          "bitten_e_lat": "Laus Deo Patri, qui pópulum electiónis e sémine incorruptíbili renásci vóluit per Verbum suum, quod manet in ætérnum. Ei pie supplicémus:",
+          "bitten_r_lat": "Propítius esto, Dómine, pópulo tuo.",
+          "bitten_lat": "Audi, miséricors Deus, supplicatiónes, quas pro cuncto pópulo tuo deférimus,^qut desíderet se tuo pótius verbo quam cibo satiáre corpóreo.^pDoce nos gentem nostram et cunctos hómines sine discrímine vere et efficáciter amáre,^qeósque in pace et bono semper ædificáre.^pRéspice omnes per baptísmum regenerándos,^qut domum spiritálem, tamquam lápides vivi, tibi constítuant.^pQui, per Ionam prædicántem, Ninivítas ad pæniténtiam excitásti,^qverbo tuo peccatórum corda convérte propítius.^pTríbue moriéntibus in spe Christo iúdici occúrrere,^qtuíque aspéctu in ætérnum gaudére.",
+          "les_text_lat": "Hi, qui in stádio currunt, omnes quidem currunt, sed unus áccipit bravíum. Sic cúrrite, ut comprehendátis. Omnis autem, qui in agóne conténdit, ab ómnibus se ábstinet, et illi quidem, ut corruptíbilem corónam accípiant, nos autem incorrúptam."
         }
       },
       "1": {
         "Lesehore": {
           "versikel0": "Kehrt um und glaubt dem Evangelium.",
           "versikel1": "Denn das Reich Gottes ist nahe.",
-          "versikel0_lat": "",
-          "versikel1_lat": ""
+          "versikel0_lat": "Pænitémini et crédite Evangélio.",
+          "versikel1_lat": "Appropinquávit enim regnum Dei."
         },
         "Laudes": {
           "les_buch": "›Ex",
@@ -21573,31 +21584,31 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, unser Erlöser, der uns in seinem Tod den Weg des Heiles erschlossen hat. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, führe uns.",
           "bitten": "In der Taufe hast du uns nach deinem Bild neu geschaffen;^qlass uns dir immer ähnlicher werden.^pGib, dass wir in den Notleidenden dich erkennen,^qund mach uns bereit, ihnen zu helfen.^pHilf uns, dich mit ganzem Herzen zu suchen^qund heute zu tun, was recht und gut ist vor dir.^pVerzeihe uns, was wir gegen die Liebe gesündigt haben;^qlass uns untereinander ein Herz und eine Seele sein.",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "bitten_e_lat": "Benedíctus Iesus, salvátor noster, qui per mortem suam salútis nobis sémitam reserávit. Orémus:",
+          "bitten_r_lat": "Dírige, Dómine, pópulum tuum in viam rectam.",
+          "bitten_lat": "Miséricors Deus, qui per baptísmum novitátem vitæ nobis dedísti,^qfac ut magis in dies tuæ conformémur imágini.^pPræsta, ut indigéntes benevoléntia nostra hódie lætificémus,^qeísque subveniéntes teípsum inveniámus.^pTríbue nobis bonum, rectum et verum coram te operári,^qteque semper toto corde requírere.^pQuæ contra unitátem famíliæ tuæ commísimus, benígnus indúlge,^qatque cor unum et ánimam unam nos esse concéde.",
+          "les_text_lat": "Vos ipsi vidístis quómodo portáverim vos super alas aquilárum et addúxerim ad me. Si ergo audiéritis vocem meam et custodiéritis pactum meum, éritis mihi in pecúlium de cunctis pópulis, mea est enim omnis terra. Et vos éritis mihi regnum sacerdótum et gens sancta."
         },
         "Terz": {
           "les_buch": "›Weish",
           "les_stelle": "11,23–24a",
           "les_text": "Herr, du hast mit allen Erbarmen, weil du alles vermagst, und siehst über die Sünden der Menschen hinweg, damit sie sich bekehren. Du liebst alles, was ist, und verabscheust nichts von allem, was du gemacht hast.",
           "les_text_neu": "Herr, du hast mit allen Erbarmen, weil du alles vermagst, und siehst über die Sünden der Menschen hinweg, damit sie umkehren. Du liebst alles, was ist, und verabscheust nichts von dem, was du gemacht hast.",
-          "les_text_lat": ""
+          "les_text_lat": "Miseréris ómnium, Dómine, quia ómnia potes; et dissímulas peccáta hóminum propter pæniténtiam. Díligis enim ómnia, quæ sunt, et nihil odísti eórum, quæ fecísti."
         },
         "Sext": {
           "les_buch": "›Ez",
           "les_stelle": "18,23",
           "les_text": "Habe ich etwa Gefallen am Tod des Schuldigen – Spruch Gottes, des Herrn –, und nicht viel mehr daran, dass er seine bösen Wege verlässt und am Leben bleibt?",
           "les_text_neu": "Habe ich etwa Gefallen am Tod des Schuldigen – Spruch GOTTES, des Herrn – und nicht vielmehr daran, dass er umkehrt von seinen Wegen und am Leben bleibt?",
-          "les_text_lat": ""
+          "les_text_lat": "Numquid voluntátis meæ est mors ímpii, dicit Dóminus Deus, et non ut convertátur a viis suis et vivat?"
         },
         "Non": {
           "les_buch": "›Jes",
           "les_stelle": "58,6a.7",
           "les_text": "Das ist ein Fasten, wie ich es liebe: an die Hungrigen dein Brot auszuteilen, die obdachlosen Armen ins Haus aufzunehmen, wenn du einen Nackten siehst, ihn zu bekleiden und dich deinen Verwandten nicht zu entziehen.",
           "les_text_neu": "Ist nicht das ein Fasten, wie ich es wünsche: dem Hungrigen dein Brot zu brechen, obdachlose Arme ins Haus aufzunehmen, wenn du einen Nackten siehst, ihn zu bekleiden und dich deiner Verwandtschaft nicht zu entziehen?",
-          "les_text_lat": ""
+          "les_text_lat": "Nonne hoc est ieiúnium, quod elégi: frángere esuriénti panem tuum et egénos, vagos indúcere in domum? Cum víderis nudum, óperi eum et carnem tuam ne despéxeris."
         },
         "Vesper": {
           "les_buch": "›Röm",
@@ -21607,18 +21618,18 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zum Herrn Jesus Christus, der sein Volk von der Macht der Sünde befreit hat:",
           "bitten_r": "Jesus, Sohn Davids, erbarme dich unser.",
           "bitten": "Du hast dich dahingegeben für deine Kirche;^qschenke ihr neues Leben durch Fasten und Buße.^pDu gibst den Menschen in der Taufe eine neue Würde;^qlass die Katechumenen die Größe ihrer Berufung erkennen.^pDu gibst den jungen Menschen ein Ziel ihres Strebens;^qzeige ihnen den rechten Weg.^pDu hast Mitleid mit allen, die krank sind und leiden;^qrichte sie auf und mache sie wieder gesund.^pDu lässt keinen im Stich, der auf dich vertraut;^qgib unseren Verstorbenen das ewige Leben.",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "bitten_e_lat": "Dóminum Iesum Christum, qui nos pópulum suum a peccátis salvos fecit, humíliter invocémus:",
+          "bitten_r_lat": "Iesu, Fili David, miserére nostri.",
+          "bitten_lat": "Orámus te, Christe, pro sancta Ecclésia tua, pro qua teípsum tradidísti ut eam sanctificáres, mundans lavácro aquæ in verbo vitæ;^qcontinénter rénova eam et purífica pæniténtia.^pMagíster bone, notam fac iuvénibus viam, quam unicuíque eórum mandásti,^qut ámbulent in ea et bene sit eis.^pQui misértus es ómnium languórum, érige spem ægrotántium et sana eos,^qnosque fac de iis sublevándis sollícitos.^pRedde nos mémores dignitátis, quam per baptísmum nobis dedísti,^qut tibi semper vivámus.^pPacem et glóriam largíre defúnctis,^qnobísque cum illis aliquándo tecum regnáre concéde.",
+          "les_text_lat": "Obsecro vos, fratres, per misericórdiam Dei, ut exhibeátis córpora vestra hóstiam vivéntem, sanctam, Deo placéntem, rationábile obséquium vestrum; et nolíte conformári huic sǽculo, sed transformámini renovatióne mentis, ut probétis quid sit volúntas Dei, quid bonum et bene placens et perféctum."
         }
       },
       "2": {
         "Lesehore": {
           "versikel0": "Jetzt ist sie da, die rechte Zeit.",
           "versikel1": "Jetzt ist er da, der Tag des Heils.",
-          "versikel0_lat": "",
-          "versikel1_lat": ""
+          "versikel0_lat": "Ecce nunc tempus acceptábile.",
+          "versikel1_lat": "Ecce nunc dies salútis."
         },
         "Laudes": {
           "les_buch": "›Joël",
@@ -21628,30 +21639,30 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, denn er ist das Brot, das vom Himmel gekommen ist. Zu ihm lasst uns beten:",
           "bitten_r": "Christus, stärke uns.",
           "bitten": "Wir haben gesündigt vor dir, o°Herr;^qin deiner Güte tilge unsere Schuld.^pGib, dass wir dein Wort in unseren Herzen aufnehmen^qund Frucht bringen in Geduld.^pDu lädst uns ein, dein Gedächtnis zu feiern;^qbeim heiligen Opfermahl sei unsere Speise.^pDu hast uns zu Boten deines Friedens gemacht;^qhilf uns in unserem Bemühen um Gerechtigkeit und Liebe.",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "bitten_e_lat": "Benedicámus Christo, qui se nobis dedit ut panem de cælo descendéntem, atque ad eum oratiónem nostram dirigámus:",
+          "bitten_r_lat": "Christe, panis et medéla animárum, róbora nos.",
+          "bitten_lat": "Dómine, fac ut, eucharístico satiáti convívio,^qdona sacrifícii paschális plene participémus.^pTríbue nobis verbum tuum in corde bono et óptimo retinére,^qut fructum afferámus in patiéntia.^pFac ut in perficiéndo órdine mundi tibi álacres cooperémur,^qut per Ecclésiam tuam præcónium pacis facílius diffundátur.^pPeccávimus, Dómine, peccávimus,^qdele iniquitátes nostras grátia tua salutári.",
+          "les_text_lat": "Convertímini ad me in toto corde vestro, in ieiúnio et in fletu et in planctu; et scíndite corda vestra et non vestiménta vestra, et convertímini ad Dóminum Deum vestrum, quia benígnus et miséricors est, pátiens et multæ misericórdiæ, et placábilis super malítia."
         },
         "Terz": {
           "les_buch": "›Joël",
           "les_stelle": "2,17ab",
           "les_text": "Zwischen Vorhalle und Altar sollen die Priester klagen, die Diener des Herrn sollen sprechen: Hab Mitleid, Herr, mit deinem Volk und überlass dein Erbe nicht der Schande, damit nicht die Völker über uns spotten!",
           "les_text_neu": "Zwischen Vorhalle und Altar sollen die Priester klagen, die Diener des HERRN sollen sprechen: Hab Mitleid, HERR, mit deinem Volk und überlass dein Erbe nicht der Schande, damit die Völker nicht über uns spotten!",
-          "les_text_lat": ""
+          "les_text_lat": "Inter vestíbulum et altáre plorent sacerdótes minístri Dómini et dicant: Parce, Dómine, pópulo tuo et ne des hereditátem tuam in oppróbrium, ut dominéntur eis natiónes."
         },
         "Sext": {
           "les_buch": "›Jer",
           "les_stelle": "3,25b",
           "les_text": "Wir haben gesündigt gegen den HERRN, unsern Gott, wir selbst und unsere Väter, von Jugend an bis auf den heutigen Tag. Wir haben nicht gehört auf die Stimme des HERRN, unseres Gottes.",
-          "les_text_lat": ""
+          "les_text_lat": "Dómino Deo nostro peccávimus nos et patres nostri ab adulescéntia nostra usque ad hanc diem et non audívimus vocem Dómini Dei nostri."
         },
         "Non": {
           "les_buch": "›Jes",
           "les_stelle": "58,1–2",
           "les_text": "Rufe aus voller Kehle, halte dich nicht zurück! Lass deine Stimme ertönen wie eine Posaune! Halte meinem Volk seine Vergehen vor und dem Haus Jakob seine Sünden! Sie suchen mich Tag für Tag, denn sie wollen meine Wege erkennen. Wie ein Volk, das Gerechtigkeit übt und das vom Recht seines Gottes nicht ablässt, so fordern sie von mir ein gerechtes Urteil und möchten, dass Gott ihnen nah ist.",
           "les_text_neu": "Rufe aus voller Kehle, halte dich nicht zurück! Erhebe deine Stimme wie ein Widderhorn! Halt meinem Volk seine Vergehen vor und dem Haus Jakob seine Sünden! Sie suchen mich Tag für Tag und haben daran Gefallen, meine Wege zu erkennen. Wie eine Nation, die Gerechtigkeit übt und vom Recht ihres Gottes nicht ablässt, so fordern sie von mir gerechte Entscheide und haben an Gottes Nähe Gefallen.",
-          "les_text_lat": ""
+          "les_text_lat": "Clama fórtiter, ne cesses; quasi tuba exálta vocem tuam et annúntia pópulo meo scélera eórum et dómui Iacob peccáta eórum. Me étenim de die in diem quærunt et scire vias meas volunt, quasi gens, quæ iustítiam fécerit et iudícium Dei sui non derelíquerit."
         },
         "Vesper": {
           "les_buch": "›Jak",
@@ -21661,18 +21672,18 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu Jesus Christus, der uns geboten hat, zu wachen, damit wir in der Versuchung standhalten:",
           "bitten_r": "Herr, erbarme dich unser.",
           "bitten": "Du bist bei allen, die sich in deinem Namen versammeln;^qstärke in unseren Gemeinden den Geist des Gebetes.^pDu willst deine Kirche von jedem Makel reinigen;^qheile in deinen Gläubigen die Wunden der Sünde.^pDu hast deine Jünger beauftragt, einander zu dienen;^qlass die Männer und Frauen nicht müde werden, die im Dienst der kirchlichen Liebeswerke stehen.^pDu hast die Menschen gelehrt, Böses mit Gutem zu vergelten;^qlass unter den Völkern Brüderlichkeit und Frieden wachsen.^pDu hast durch dein Leiden und Sterben Sünde und Tod überwunden;^qführe unsere Verstorbenen in deine Herrlichkeit.",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "bitten_e_lat": "Christum Dóminum, a quo iubémur ut vigilántiam et oratiónem advérsus tentatiónes adhibeámus, eníxe deprecémur:",
+          "bitten_r_lat": "Atténde, Dómine, et miserére.",
+          "bitten_lat": "Christe Iesu, qui congregátis ad orándum in nómine tuo te affutúrum promisísti,^qnos tecum Patrem in Spíritu Sancto semper oráre concéde.^pCæléstis Sponse, máculas ab Ecclésia tua dilécta exclúde,^qeámque ambuláre concéde in spe et virtúte Spíritus Sancti.^pHóminis amátor, redde nos sollícitos de próximo nostro, sicut unicuíque mandásti,^qut salutáre lumen tuum vivídius ómnibus effúlgeat.^pRex pacífice, da pacem tuam in mundo vigére,^qut præséntia tua salutáris ubíque magis percipiátur.^pOmnibus defúnctis beátæ æternitátis intróitum résera,^qeísque incorruptiónis áperi limen et glóriæ.",
+          "les_text_lat": "Quid próderit, fratres mei, si fidem quis dicat se habére, ópera autem non hábeat? Numquid póterit fides salváre eum? Fides, si non hábeat ópera, mórtua est in semetípsa. Osténde mihi fidem tuam sine opéribus, et ego tibi osténdam ex opéribus meis fidem."
         }
       },
       "3": {
         "Lesehore": {
           "versikel0": "Kehrt um, wendet euch ab von all euren Vergehen.",
           "versikel1": "Schafft euch ein neues Herz und einen neuen Geist.",
-          "versikel0_lat": "",
-          "versikel1_lat": ""
+          "versikel0_lat": "Convertímini et ágite pæniténtiam.",
+          "versikel1_lat": "Fácite vobis cor novum et spíritum novum."
         },
         "Laudes": {
           "les_buch": "›Dtn",
@@ -21682,31 +21693,31 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Christus, der Urheber unseres Heiles. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, erbarme dich.",
           "bitten": "Erfülle uns mit deinem Geist^qund mach uns dankbar für deine Gaben.^pGib, dass wir Trägheit und Gleichgültigkeit überwinden,^qund hilf uns, heute Gutes zu tun.^pBewahre uns vor dem Bösen;^qschenke uns Liebe, Gerechtigkeit und Frieden.^pDu hast einen neuen Himmel und eine neue Erde verheißen;^qmach uns würdig, dich auf ewig zu schauen.",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "bitten_e_lat": "Benedicátur Auctor salútis nostræ, qui vult hómines fíeri in se novam creatúram, ut vétera tránseant et ómnia renovéntur. Quaprópter viva spe fulti eum rogémus:",
+          "bitten_r_lat": "Rénova nos, Dómine, in Spíritu tuo.",
+          "bitten_lat": "Dómine, qui cælum novum terrámque novam promisísti, semper nos rénova per Spíritum tuum,^qut in cælésti Ierúsalem te iúgiter perfruámur.^pDa nos tecum operári ut hunc mundum Spíritu tuo imbuámus,^qatque in iustítia, caritáte et pace cívitas terréna finem suum efficácius assequátur.^pTríbue nos omnes desídias et neglegéntias castigáre,^qet supérnis delectári munéribus.^pLíbera nos a malo,^qnosque a fascinatióne nugacitátis, quæ bona obscúrat, defénde.",
+          "les_text_lat": "Te elégit Dóminus Deus tuus, ut sis ei pópulus peculiáris de cunctis pópulis, qui sunt super terram, quia diléxit vos Dóminus et custodívit iuraméntum, quod iurávit pátribus vestris, edúxit vos in manu forti et redémit te de domo servitútis, de manu pharaónis regis Ægýpti. Et scies quia Dóminus Deus tuus ipse est Deus, Deus fidélis, custódiens pactum et misericórdiam diligéntibus se et his, qui custódiunt mandáta eius, in mille generatiónes."
         },
         "Terz": {
           "les_buch": "›Ez",
           "les_stelle": "18,30b–32",
           "les_text": "Kehrt um, wendet euch ab von all euren Vergehen! Sie sollen für euch nicht länger der Anlass sein, in Sünde zu fallen. Werft alle Vergehen von euch, die ihr verübt habt! Schafft euch ein neues Herz und einen neuen Geist! Warum wollt ihr sterben, ihr vom Haus Israel? Ich habe doch kein Gefallen am Tod dessen, der sterben muss – Spruch Gottes des Herrn. Kehrt um, damit ihr am Leben bleibt.",
           "les_text_neu": "Kehrt um, kehrt euch ab von all euren Vergehen! Sie sollen für euch nicht länger der Anlass sein, in Schuld zu fallen. Werft alle Vergehen von euch, die ihr verübt habt! Schafft euch ein neues Herz und einen neuen Geist! Warum wollt ihr denn sterben, ihr vom Haus Israel? Ich habe doch kein Gefallen am Tod dessen, der sterben muss – Spruch GOTTES, des Herrn. Kehrt um, damit ihr am Leben bleibt!",
-          "les_text_lat": ""
+          "les_text_lat": "Convertímini et ágite pæniténtiam ab ómnibus iniquitátibus vestris et non erit vobis in scándalum iniquitátis. Proícite a vobis omnes prævaricatiónes vestras, et fácite vobis cor novum et spíritum novum. Et quare moriémini, domus Israel? Quia nolo mortem moriéntis, dicit Dóminus Deus. Revertímini et vívite."
         },
         "Sext": {
           "les_buch": "›Sach",
           "les_stelle": "1,3b–4b",
           "les_text": "Kehrt um zu mir – Spruch des Herrn der Heere –, dann kehre ich um zu euch, spricht der Herr der Heere. Seid nicht wie eure Väter, denen die früheren Propheten verkündeten: So spricht der Herr der Heere: Kehrt doch um von euren heillosen Wegen und von euren heillosen Taten.",
           "les_text_neu": "Kehrt um zu mir – Spruch des HERRN der Heerscharen –, dann kehre ich um zu euch, spricht der HERR der Heerscharen. Seid nicht wie eure Väter, denen die früheren Propheten verkündeten: So spricht der HERR der Heerscharen: Kehrt doch um von euren heillosen Wegen und von euren heillosen Taten! ",
-          "les_text_lat": ""
+          "les_text_lat": "Convertímini ad me, ait Dóminus exercítuum; et convértar ad vos. Ne sitis sicut patres vestri, ad quos clamábant prophétæ prióres dicéntes: Convertímini de viis vestris malis et de cogitatiónibus vestris malis; et non audiérunt."
         },
         "Non": {
           "les_buch": "›Dan",
           "les_stelle": "4,24b",
           "les_text": "Löse dich von deinen Sünden durch rechtes Tun, tilge deine Vergehen, indem du Erbarmen hast mit den Armen! Dann mag dein Glück vielleicht von Dauer sein.",
           "les_text_neu": "Lösch deine Sünden aus durch rechtes Tun, tilge deine Vergehen, indem du Erbarmen hast mit den Armen! Dann mag dein Glück vielleicht von Dauer sein.",
-          "les_text_lat": ""
+          "les_text_lat": "Peccáta tua eleemósynis rédime et iniquitátes tuas misericórdiis páuperum: sic longitúdo erit prosperitáti tuæ."
         },
         "Vesper": {
           "les_buch": "›Phil",
@@ -21716,18 +21727,18 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu Gott, der uns gibt, was wir zum Leben brauchen:",
           "bitten_r": "Wir bitten dich, erhöre uns.",
           "bitten": "Herr, unser Gott, gedenke der Seelsorger und ihrer Gemeinden;^qlass dein Volk nicht ohne Hirten sein und die Hirten nicht ohne Herde.^pHilf denen, die in brüderlicher Liebe den Kranken beistehen;^qgib ihnen Herzlichkeit und Geduld.^pFühre alle, die noch nicht glauben, zu Jesus Christus;^qmache sie zu Gliedern deiner Kirche.^pErwecke Reue in denen, die sich von dir und deinem Sohn getrennt haben;^qversöhne sie mit dir und deiner Kirche.^pNimm unsere Verstorbenen auf in dein Reich;^qschenke ihnen bei dir das ewige Leben.",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "bitten_e_lat": "Deum omnipoténtem et providéntem exaltémus. Ipse scit ómnia, quibus índiget pópulus suus, sed vult nos primum de regno suo sollícitos. Ideo acclamémus:",
+          "bitten_r_lat": "Advéniat regnum tuum et iustítia eius.",
+          "bitten_lat": "Pater sancte, qui Christum ut pastórem animárum nostrárum dedísti, adésto pastóribus et pópulis eórum diligéntiæ créditis, ne gregi desit cura pastóris,^qneque pastóribus obœdiéntia gregis.^pInduc christiános, ut fratérna pietáte infírmis auxiliéntur,^qet ipsi Fílio tuo in iis subvéniant.^pFac ut nondum Evangélio credéntes Ecclésiam tuam ingrediántur,^qeámque bonis opéribus semper ædíficent in caritáte.^pDa nobis peccatóribus véniam a te impetráre,^qet simul reconciliári cum Ecclésia tua.^pPræsta, ut defúncti ad vitam tránseant ætérnam,^qet semper tecum commoréntur.",
+          "les_text_lat": "Cum metu et tremóre vestram salútem operámini; Deus est enim, qui operátur in vobis et velle et perfícere pro suo beneplácito. Omnia fácite sine murmuratiónibus et hæsitatiónibus, ut efficiámini sine queréla et símplices, fílii Dei."
         }
       },
       "4": {
         "Lesehore": {
           "versikel0": "Wer über die Weisung des Herrn nachsinnt.",
           "versikel1": "Der bringt Frucht zur rechten Zeit.",
-          "versikel0_lat": "",
-          "versikel1_lat": ""
+          "versikel0_lat": "Qui meditátur in lege Dómini.",
+          "versikel1_lat": "Dabit fructum suum in témpore suo."
         },
         "Laudes": {
           "les_buch": "›vgl.°1°Kön",
@@ -21736,31 +21747,31 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, der in diese Welt gekommen ist, damit wir das Licht des Lebens haben. Zu ihm lasst uns beten:",
           "bitten_r": "Christus, erhöre uns.",
           "bitten": "Du bist bei deiner Kirche alle Tage;^qlass uns heute deine Nähe erfahren.^pDu rufst uns heute von neuem in deine Nachfolge;^qhilf uns, das tägliche Kreuz zu tragen.^pStärke unseren Glauben an dich^qund gib, dass wir unsere Aufgabe in der Welt nach deinem Willen erfüllen.^pVerzeih uns unsere Sünden^qund hilf uns zu aufrichtiger Umkehr.",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "bitten_e_lat": "Christum Dóminum nostrum laudántes, qui ut lux mundi appáruit, ne ambularémus in ténebris sed lumen vitæ haberémus, ei supplicémus:",
+          "bitten_r_lat": "Verbum tuum sit lucérna pédibus nostris.",
+          "bitten_lat": "Benigníssime Deus, concéde nobis hódie in tui imitatióne profícere,^qut, quod in primo cécidit Adam, dénuo in te erigátur.^pPræbe verbum tuum lucérnam pédibus nostris,^qut, veritátem faciéntes, caritáte in te crescámus per ómnia.^pDoce nos ad ómnium bonum propter nomen tuum fidéliter ágere,^qut humána família magis per Ecclésiam illuminétur.^pFac nos per sincéram conversiónem amicítiam tuam magis magísque fovére,^qet offénsas sapiéntiæ atque bonitáti tuæ illátas expiáre.",
+          "les_text_lat": "Pópulus tuus, Dómine, et heréditas tua sumus. Sint óculi tui apérti ad deprecatiónem servi tui et pópuli tui Israel, et exáudias nos in univérsis, pro quibus invocavérimus te. Tu enim separásti nos tibi in hereditátem de univérsis pópulis terræ."
         },
         "Terz": {
           "les_buch": "›Jes",
           "les_stelle": "55,6–7",
           "les_text": "Sucht den Herrn, solange er sich finden lässt, ruft ihn an, solange er nahe ist! Der Ruchlose soll seinen Weg verlassen, der Frevler seine Pläne. Er kehre um zum Herrn, damit er Erbarmen hat mit ihm, und zu unserem Gott, denn er ist groß im Verzeihen.",
           "les_text_neu": "Sucht den HERRN, er lässt sich finden, ruft ihn an, er ist nah! Der Frevler soll seinen Weg verlassen, der Übeltäter seine Pläne. Er kehre um zum HERRN, damit er Erbarmen hat mit ihm, und zu unserem Gott; denn er ist groß im Verzeihen.",
-          "les_text_lat": ""
+          "les_text_lat": "Quǽrite Dóminum, dum inveníri potest; invocáte eum, dum prope est. Derelínquat ímpius viam suam, et vir iníquus cogitatiónes suas; et revertátur ad Dóminum, et miserébitur eius, et ad Deum nostrum, quóniam multus est ad ignoscéndum."
         },
         "Sext": {
           "les_buch": "›Dtn",
           "les_stelle": "30,2–3a",
           "les_text": "Wenn du zum Herrn, deinem Gott, zurückkehrst und auf seine Stimme hörst in allem, wozu ich dich heute verpflichte, du und deine Kinder, mit ganzem Herzen und ganzer Seele, dann wird der Herr, dein Gott, dein Schicksal wenden, er wird sich deiner erbarmen, sich dir zukehren und dich aus allen Völkern zusammenführen, unter die der Herr, dein Gott, dich verstreut hat.",
           "les_text_neu": "Wenn du zum HERRN, deinem Gott, zurückkehrst und auf seine Stimme hörst in allem, wozu ich dich heute verpflichte, du und deine Kinder, mit ganzem Herzen und mit ganzer Seele, dann wird der HERR, dein Gott, dein Schicksal wenden. Er wird sich deiner erbarmen, sich dir zukehren und dich aus allen Völkern zusammenführen, unter die der HERR, dein Gott, dich verstreut hat. ",
-          "les_text_lat": ""
+          "les_text_lat": "Cum revérsus fúeris ad Dóminum Deum tuum et obœdíeris eius impériis, secúndum ómnia quæ ego hódie præcípio tibi, cum fíliis tuis in toto corde tuo et in tota ánima tua, redúcet Dóminus Deus tuus captivitátem tuam ac miserébitur tui."
         },
         "Non": {
           "les_buch": "›Hebr",
           "les_stelle": "10,35–36",
           "les_text": "Werft eure Zuversicht nicht weg, die großen Lohn mit sich bringt. Was ihr braucht, ist Ausdauer, damit ihr den Willen Gottes erfüllen könnt und so das verheißene Gut erlangt.",
           "les_text_neu": "Werft eure Zuversicht nicht weg – sie hat großen Lohn! Was ihr braucht, ist Ausdauer, damit ihr den Willen Gottes erfüllt und die Verheißung erlangt.",
-          "les_text_lat": ""
+          "les_text_lat": "Nolíte abícere confidéntiam vestram, quæ magnam habet remuneratiónem; patiéntia enim vobis necessária est, ut voluntátem Dei faciéntes reportétis promissiónem."
         },
         "Vesper": {
           "les_buch": "›Jak",
@@ -21770,18 +21781,18 @@ export const brevierData = {
           "bitten_e": "Lasst uns zu Jesus Christus beten, der uns das neue Gebot der Liebe gegeben hat:",
           "bitten_r": "Herr, erbarme dich.",
           "bitten": "Du hast zu deinen Jüngern gesagt: „Liebt einander, wie ich euch geliebt habe“;^qhilf deinen Gläubigen zu tun, was du geboten hast.^pDu hast dem Blindgeborenen die Augen geöffnet;^qöffne die Augen der Katechumenen, dass sie dich und dein Gebot erkennen.^pDu hast uns im Geheimnis des Altares das Vermächtnis deiner Liebe hinterlassen;^qstärke in allen, die von deinem Tisch essen, die Gemeinschaft mit dir und untereinander.^pDu hast am Kreuz für deine Henker gebetet;^qgib den verfolgten Christen die Kraft, ihren Feinden zu verzeihen.^pAm Jüngsten Tag wirst du sagen: „Kommt, ihr Gesegneten meines Vaters, und besitzet das Reich“;^qführe unsere Verstorbenen in das Reich, das ihnen bereitet ist.",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "bitten_e_lat": "A Christo Dómino, qui nobis dedit mandátum novum mútuæ dilectiónis, flagitémus:",
+          "bitten_r_lat": "Caritátem plebis tuæ, Dómine, adáuge.",
+          "bitten_lat": "Magíster bone, doce nos in frátribus temetípsum dilígere,^qatque in iis benefácere tibi.^pQui in cruce pro carnifícibus tuis véniam a Patre impetrásti,^qda nobis inimícos dilígere et pro persequéntibus nos oráre.^pPer mystérium córporis et sánguinis tui, amórem, virtútem et fidúciam nostram adáuge;^qdébiles corróbora, mæstos consoláre, spem agonizántibus infúnde.^pLux mundi, qui cæco nato post ablutiónem lumen vidére tribuísti,^qcatechúmenos per lavácrum aquæ et verbo vitæ illúmina.^pDefúnctos sátia dilectióne tua ætérna,^qnosque inter eléctos tuos connúmera.",
+          "les_text_lat": "Subicímini Deo; resístite Diábolo, et fúgiet a vobis. Appropiáte Deo, et appropinquábit vobis. Emundáte manus, peccatóres, et purificáte corda, dúplices ánimo. Humiliámini in conspéctu Dómini, et exaltábit vos."
         }
       },
       "5": {
         "Lesehore": {
           "versikel0": "Kehrt um zum Herrn, eurem Gott.",
           "versikel1": "Denn er ist gnädig und barmherzig.",
-          "versikel0_lat": "",
-          "versikel1_lat": ""
+          "versikel0_lat": "Convertímini ad Dóminum Deum vestrum.",
+          "versikel1_lat": "Quia benígnus et miséricors est."
         },
         "Laudes": {
           "les_buch": "›Jes",
@@ -21790,31 +21801,31 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, der uns durch seinen Tod am Kreuz das Leben erworben hat. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, gib uns neues Leben.",
           "bitten": "Steh uns bei im Kampf gegen das Böse,^qdamit wir mit reinem Herzen Ostern feiern.^pHilf uns, heute unseren Auftrag zu erfüllen^qund dich zu bezeugen in Glaube, Hoffnung und Liebe.^pMach uns bereit zu Einschränkung und Verzicht;^qlehre uns, die Werke der Barmherzigkeit zu tun.^pMache unseren Sinn dir gefügig^qund schenke uns Großmut des Herzens.",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "bitten_e_lat": "Grátias agámus Christo Dómino, qui in cruce móriens nobis vitam cóntulit, eúmque ex corde deprecémur:",
+          "bitten_r_lat": "Per mortem tuam vivífica nos.",
+          "bitten_lat": "Magíster et Salvátor noster, qui fídei tuæ documénta nobis contulísti, nosque innovásti glória passiónis,^qfac ne veterascámus in áctibus pravitátis.^pPræsta nobis, ut hódie cibórum saturitátem córpori nostro subtráhere sciámus,^qut frátribus nostris indigéntibus succurrámus.^pDa hunc sanctum quadragesimálem diem a te nos devóte suscípere,^qet per ópera misericórdiæ tibi consecráre.^pCórrige mentes nostras rebélles,^qnosque magnánimos éffice.",
+          "les_text_lat": "Iustificábit iustus servus meus multos et iniquitátes eórum ipse portábit. Ideo dispértiam ei multos, et cum fórtibus dívidet spólia, pro eo quod trádidit in mortem ánimam suam et cum scelerátis reputátus est; et ipse peccátum multórum tulit et pro transgressóribus rogat."
         },
         "Terz": {
           "les_buch": "›Jes",
           "les_stelle": "55,3",
           "les_text": "Neigt euer Ohr zu und kommt zu mir, hört, dann werdet ihr leben. Ich will einen ewigen Bund mit euch schließen, gemäß der beständigen Huld, die ich David erwies.",
           "les_text_neu": "Neigt euer Ohr und kommt zu mir, hört und ihr werdet aufleben! Ich schließe mit euch einen ewigen Bund: Die Erweise der Huld für David sind beständig.",
-          "les_text_lat": ""
+          "les_text_lat": "Inclináte aurem vestram et veníte ad me; audíte, ut vivat ánima vestra, et fériam vobíscum pactum sempitérnum, misericórdias David fidéles."
         },
         "Sext": {
           "les_buch": "›vgl.°Jer",
           "les_stelle": "3,12.14a",
           "les_text": "Kehrt zurück – Spruch des Herrn. Ich schaue euch nicht mehr zornig an; denn ich bin gütig, ich trage nicht ewig nach. Kehrt um, ihr abtrünnigen Söhne – Spruch des Herrn.",
           "les_text_neu": "Kehrt zurück – Spruch des HERRN. Ich schaue euch nicht mehr finster an; denn ich bin gütig, ich trage nicht ewig nach. Kehrt um, ihr abtrünnigen Söhne – Spruch des HERRN.",
-          "les_text_lat": ""
+          "les_text_lat": "Revertímini, ait Dóminus, et non avértam fáciem meam a vobis, quia pius ego sum, et non iráscar in perpétuum. Convertímini, fílii, qui avérsi estis a me, dicit Dóminus."
         },
         "Non": {
           "les_buch": "›Jak",
           "les_stelle": "1,27",
           "les_text": "Ein reiner und makelloser Dienst vor Gott, dem Vater, besteht darin: für Waisen und Witwen zu sorgen, wenn sie in Not sind, und sich vor jeder Befleckung durch die Welt zu bewahren.",
           "les_text_neu": "Ein reiner und makelloser Gottesdienst ist es vor Gott, dem Vater: für Waisen und Witwen in ihrer Not zu sorgen und sich unbefleckt von der Welt zu bewahren.",
-          "les_text_lat": ""
+          "les_text_lat": "Relígio munda et immaculáta apud Deum et Patrem hæc est: visitáre pupíllos et víduas in tribulatióne eórum, immaculátum se custodíre ab hoc sǽculo."
         },
         "Vesper": {
           "les_buch": "›Jak",
@@ -21824,18 +21835,18 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu Jesus Christus, der durch sein Blut die Menschen heiligt:",
           "bitten_r": "Herr, erbarme dich deines Volkes.",
           "bitten": "Steh deiner Kirche bei im Kampf gegen das Böse;^qlass sie gestärkt dem Osterfest entgegengehen.^pHilf den Bischöfen, Priestern und Diakonen, ihren Auftrag zu erfüllen;^qgib, dass sie durch ihren Dienst dich verkünden.^pSteh allen bei, die um deines Namens willen verfolgt und verspottet werden;^qhilf ihnen, auszuhalten im Gedanken an dein Kreuz.^pErbarme dich aller, die aus Not und Bedrängnis zu dir rufen;^qlass dein Heil an ihnen sichtbar werden.^pGedenke aller, die in der Hoffnung auf dich aus dieser Welt geschieden sind;^qlass sie wohnen bei dir in ewiger Freude.",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "bitten_e_lat": "Dóminum Iesum, qui per próprium sánguinem pópulum sanctificávit, deprecémur:",
+          "bitten_r_lat": "Miserére, Dómine, pópulo tuo.",
+          "bitten_lat": "Redémptor noster, per passiónem tuam tríbue fidélibus membra sua mortificáre, in certamínibus contra mala et advérsa sústine eos, spe róbora firmióre,^qquo expeditióres ad resurrectiónem tuam celebrándam occúrrant.^pFac ut christiáni, ob prophéticum munus, notítiam tui ubíque diffúndant,^qatque ardéntis fídei, spei et caritátis testimónio eam confírment.^pConfórta virtúte tua omnes afflíctos,^qeísque consolándis fratérnas fac nos curas impéndere.^pDoce fidéles passiónem tuam in ærúmnis suis participáre,^qut salutáre tuum in seípsis maniféstent.^pAuctor vitæ, meménto eórum, qui de hac vita transiérunt,^qeísque resurrectiónis glóriam largíre.",
+          "les_text_lat": "Confitémini altérutrum peccáta et oráte pro ínvicem, ut sanémini. Multum enim valet deprecátio iusti óperans. Fratres mei, si quis ex vobis erráverit a veritáte et convérterit quis eum, scire debet quóniam, qui convérti fécerit peccatórem ab erróre viæ eius, salvábit ánimam suam a morte et opériet multitúdinem peccatórum."
         }
       },
       "6": {
         "Lesehore": {
           "versikel0": "Wer die Wahrheit tut, kommt ans Licht.",
           "versikel1": "Und seine Werke werden offenbar.",
-          "versikel0_lat": "",
-          "versikel1_lat": ""
+          "versikel0_lat": "Qui facit veritátem, venit ad lucem.",
+          "versikel1_lat": "Ut manifesténtur ópera eius."
         },
         "Laudes": {
           "les_buch": "›Jes",
@@ -21845,41 +21856,43 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, der uns durch die Taufe neues Leben geschenkt hat. Zu ihm lasst uns beten:",
           "bitten_r": "Erneuere uns durch deinen Geist.",
           "bitten": "Jesus, du bist mild und demütig von Herzen;^qmache uns barmherzig und geduldig gegenüber allen Menschen.^pLehre uns, in den Leidenden dich zu lieben^qund ihnen in deinem Namen Gutes zu tun.^pSchenke uns dein reiches Erbarmen;^qvergib uns, was wir gesündigt haben.^pGib, dass wir den alten Menschen mit seinen Werken ablegen^qund den neuen Menschen anziehen.",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "bitten_e_lat": "Christum Dóminum glorificémus, qui, ut nova creatúra hómines fíerent, lavácrum regeneratiónis instítuit eísque córporis et verbi sui mensam appósuit. Eum deprecémur, dicéntes:",
+          "bitten_r_lat": "Rénova nos, Dómine, grátia tua.",
+          "bitten_lat": "Iesu, mitis et húmilis corde, índue nos víscera misericórdiæ, benignitátem et humilitátem concéde,^qac patiéntiam cum ómnibus fac nos sectári.^pDoce nos vere próximos esse míseris atque afflíctis,^qut te bonum Samaritánum imitémur.^pBeáta Virgo, mater tua, intercédat pro sacris virgínibus,^qut consecratiónem, qua tibi sunt devótæ, in Ecclésia impénsius colant.^pDonum tuæ misericórdiæ nobis largíre,^qac peccáta et pœnas nobis dimítte.",
+          "les_text_lat": "Lavámini, mundi estóte, auférte malum cogitatiónum vestrárum ab óculis meis; quiéscite ágere pervérse, díscite benefácere: quǽrite iudícium, subveníte opprésso, iudicáte pupíllo, deféndite víduam. Et veníte et iudício contendámus, dicit Dóminus. Si fúerint peccáta vestra ut cóccinum, quasi nix dealbabúntur; et si fúerint rubra quasi vermículus, velut lana erunt."
         },
         "Terz": {
-          "les_buch": "›Gal",
-          "les_stelle": "6,7b–8",
-          "les_text": "Gott lässt keinen Spott mit sich treiben; was der Mensch sät, das wird er auch ernten. Wer im Vertrauen auf das Fleisch sät, wird vom Fleisch Verderben ernten; wer aber im Vertrauen auf den Geist sät, wird vom Geist ewiges Leben ernten.",
-          "les_text_neu": "Was der Mensch sät, wird er auch ernten. Denn wer auf sein eigenes Fleisch sät, wird vom Fleisch Verderben ernten; wer aber auf den Geist sät, wird vom Geist ewiges Leben ernten.",
-          "les_text_lat": ""
+          "les_buch": "›Offb",
+          "les_stelle": "3,19–20",
+          "les_text": "Wen ich liebe, den weise ich zurecht und nehme ich in Zucht. Mach also Ernst und kehr um! Ich stehe vor der Tür und klopfe an. Wer meine Stimme hört und die Tür öffnet, bei dem werde ich eintreten, und wir werden Mahl halten, ich mit ihm und er mit mir.",
+          "les_text_neu": "Wen ich liebe, den weise ich zurecht und nehme ich in Zucht. Mach also Ernst und kehr um! Siehe, ich stehe vor der Tür und klopfe an. Wenn einer meine Stimme hört und die Tür öffnet, bei dem werde ich eintreten und Mahl mit ihm halten und er mit mir.",
+          "les_text_lat": "Ego, quos amo, árguo et castígo. Æmuláre ergo et pæniténtiam age. Ecce sto ad óstium et pulso. Si quis audíerit vocem meam et aperúerit iánuam, introíbo ad illum et cenábo cum illo et ipse mecum."
         },
         "Sext": {
           "les_buch": "›Jes",
           "les_stelle": "44,21–22",
           "les_text": "Denk daran, Jakob, und du, Israel, dass du mein Knecht bist. Ich habe dich geschaffen, du bist mein Knecht; Israel, ich vergesse dich nicht. Ich fege deine Vergehen hinweg wie eine Wolke und deine Sünden wie Nebel. Kehr um zu mir; denn ich erlöse dich.",
           "les_text_neu": "Denk daran, Jakob, und du, Israel, dass du mein Knecht bist. Ich habe dich geformt. Du bist mein Knecht; Israel, du bist mir unvergessen. Ich habe weggewischt deine Vergehen wie eine Wolke und deine Sünden wie Nebel. Kehr um zu mir; denn ich habe dich erlöst.",
-          "les_text_lat": ""
+          "les_text_lat": "Meménto quóniam servus meus es tu; formávi te, servus meus es tu, Israel, non decípies me. Delévi ut nubem iniquitátes tuas et quasi nébulam peccáta tua; revértere ad me, quóniam redémi te."
         },
         "Non": {
-          "les_buch": "›Offb",
-          "les_stelle": "3,19–20",
-          "les_text": "Wen ich liebe, den weise ich zurecht und nehme ich in Zucht. Mach also Ernst und kehr um! Ich stehe vor der Tür und klopfe an. Wer meine Stimme hört und die Tür öffnet, bei dem werde ich eintreten, und wir werden Mahl halten, ich mit ihm und er mit mir.",
-          "les_text_neu": "Wen ich liebe, den weise ich zurecht und nehme ich in Zucht. Mach also Ernst und kehr um! Siehe, ich stehe vor der Tür und klopfe an. Wenn einer meine Stimme hört und die Tür öffnet, bei dem werde ich eintreten und Mahl mit ihm halten und er mit mir.",
-          "les_text_lat": ""
+          "les_buch": "›Gal",
+          "les_stelle": "6,7b–8",
+          "les_text": "Gott lässt keinen Spott mit sich treiben; was der Mensch sät, das wird er auch ernten. Wer im Vertrauen auf das Fleisch sät, wird vom Fleisch Verderben ernten; wer aber im Vertrauen auf den Geist sät, wird vom Geist ewiges Leben ernten.",
+          "les_text_neu": "Gott lässt seiner nicht spotten; denn was der Mensch sät, wird er auch ernten. Denn wer auf sein eigenes Fleisch sät, wird vom Fleisch Verderben ernten; wer aber auf den Geist sät, wird vom Geist ewiges Leben ernten.",
+          "les_text_lat": "Deus non irridétur. Quæ enim semináverit homo, hæc et metet; quóniam, qui séminat in carne sua, de carne metet corruptiónem, qui autem séminat in spíritu, de spíritu metet vitam ætérnam."
         }
       },
       "each": {
         "Invitatorium": {
           "ant0": "Christus, der Herr, wurde für uns versucht und hat für uns gelitten; kommt, wir beten ihn an.^ODER^ANTVerhärtet eure Herzen nicht, hört auf die Stimme des Herrn!",
-          "ant0_lat": ""
+          "ant0_lat": "Christum Dóminum, pro nobis tentátum et passum, veníte, adorémus.^VEL^ANTUtinam hódie vocem Dómini audiátis: Nolíte obduráre corda vestra."
         },
         "Lesehore": {
           "hymn_1": 3311.0,
-          "hymn_2": 3312.0
+          "hymn_2": 3312.0,
+          "hymn_1_lat": 3311.1,
+          "hymn_2_lat": 0.0
         },
         "Laudes": {
           "hymn_1": 3321.0,
@@ -21887,9 +21900,10 @@ export const brevierData = {
           "resp1": "Er rettet mich aus der Schlinge des Jägers,",
           "resp2": "er°befreit mich aus allem Verderben.",
           "resp3": "Der Herr ist meine Zuflucht, zum Schutze hab’ ich mir erwählt den Höchsten.",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": ""
+          "hymn_1_lat": 3321.1,
+          "resp1_lat": "Ipse liberábit me",
+          "resp2_lat": "de láqueo venántium.",
+          "resp3_lat": "Et a verbo malígno."
         },
         "Terz": {
           "ant0": "Tage der Buße sind gekommen, Tage des Heils zur Vergebung der Sünden.",
@@ -21900,12 +21914,12 @@ export const brevierData = {
           "resp1": "Gib mir einen neuen, beständigen Geist.",
           "hymn_1_lat": 4003.3,
           "hymn_2_lat": 0.0,
-          "ant0_lat": "",
+          "ant0_lat": "Advenérunt nobis dies pæniténtiæ ad rediménda peccáta, ad salvándas ánimas.",
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": ""
+          "resp0_lat": "Cor mundum crea in me, Deus.",
+          "resp1_lat": "Et spíritum firmum ínnova in viscéribus meis."
         },
         "Sext": {
           "ant0": "So wahr ich lebe, spricht der Herr, ich will nicht den Tod des Sünders, ich will, dass er umkehrt und lebt.",
@@ -21916,12 +21930,12 @@ export const brevierData = {
           "resp1": "Tilge all meine Frevel.",
           "hymn_1_lat": 4006.3,
           "hymn_2_lat": 0.0,
-          "ant0_lat": "",
+          "ant0_lat": "Vivo ego, dicit Dóminus; nolo mortem peccatóris, sed ut magis convertátur et vivat.",
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": ""
+          "resp0_lat": "Avérte fáciem tuam a peccátis meis.",
+          "resp1_lat": "Et omnes iniquitátes meas dele."
         },
         "Non": {
           "ant0": "Mit den Waffen der Gerechtigkeit und durch Gottes Kraft halten wir stand in großer Geduld.",
@@ -21932,12 +21946,12 @@ export const brevierData = {
           "resp1": "Ein zerschlagenes Herz wird er nicht verschmähen.",
           "hymn_1_lat": 4009.3,
           "hymn_2_lat": 0.0,
-          "ant0_lat": "",
+          "ant0_lat": "Per arma iustítiæ virtútis Dei, commendémus nosmetípsos in multa patiéntia.",
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": ""
+          "resp0_lat": "Sacrificium Deo spíritus contribulátus.",
+          "resp1_lat": "Cor contrítum et humiliátum, Deus, non despícies."
         },
         "Vesper": {
           "hymn_1": 3341.0,
@@ -21946,9 +21960,11 @@ export const brevierData = {
           "resp1": "Sei mir gnädig und heile mich,",
           "resp2": "ich habe vor dir gesündigt.",
           "resp3": "Verschließe mir nicht dein Erbarmen; Herr, eile mir zu Hilfe.",
-          "resp1_lat": "",
-          "resp2_lat": "ich°habe°vor°dir°gesündigt.",
-          "resp3_lat": ""
+          "hymn_1_lat": 3341.1,
+          "hymn_2_lat": 0.0,
+          "resp1_lat": "Ego dixi: Dómine,",
+          "resp2_lat": "miserére mei.",
+          "resp3_lat": "Sana ánimam meam, quia peccávi tibi."
         }
       }
     },
@@ -21958,25 +21974,25 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu unserem Herrn Jesus Christus, der die Menschen ruft, ihm zu folgen:",
           "bitten_r": "Christus, höre uns.",
           "bitten": "Du hast vierzig Tage gefastet und den Versuchungen des Bösen widerstanden;^qhilf deiner Kirche, das Böse zu überwinden.^pDu hast Hungernde gespeist und Kranke geheilt;^qmach unsere Gemeinden bereit, mit den Armen zu teilen.^pDu hast Tote zum Leben auferweckt;^qführe die Sünder zurück zum Leben der Gnade.^pDu rufst auch in unserer Zeit Männer und Frauen auf den Weg der Armut, der Jungfräulichkeit und des Gehorsams;^qgib, dass sie dir freudig folgen.^pDu hast die Menschen zum himmlischen Mahl geladen;^qsättige unsere Verstorbenen an deinem Tisch.",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": ""
+          "bitten_e_lat": "Magnificémus Deum, cui cura est de ómnibus. Eum invocémus, dicéntes:",
+          "bitten_r_lat": "Da, Dómine, salútem redémptis.",
+          "bitten_lat": "Deus, dator múnerum et fons veritátis, reple donis tuis collégium episcopórum,^qet fidéles, iis concréditos, serva in Apostolórum doctrína.^pCaritátem tuam infúnde ómnibus, qui de uno pane vitæ commúnicant,^qquo arctióre unitáte fruántur in córpore Fílii tui.^pVéterem hóminem cum áctibus suis nos exspoliáre concéde,^qet Christum Fílium tuum novum indúere hóminem.^pConcéde, ut omnes per pæniténtiam peccatórum suórum véniam obtíneant,^qet supérnæ fiant Christi tui satisfactiónis partícipes.^pFac ut in pace tua defúncti te sine fine laudent in cælo,^qubi et nos te in ævum celebratúros sperámus."
         },
         "Laudes": {
           "bitten_e": "Gepriesen sei Gott, der Vater unseres Herrn Jesus Christus. Zu ihm lasst uns beten:",
           "bitten_r": "Schenke uns dein Erbarmen.",
           "bitten": "Herr, unser Gott, du hast uns in die Kirche deines Sohnes gerufen;^qgib uns Freude an deinem Heil.^pDu bist ein menschenfreundlicher Gott;^qgib, dass wir heute gütig und barmherzig sind.^pDu erbarmst dich über alles, was lebt;^qnähre uns mit deinem Wort.^pDu bist der Gott des Friedens;^qgib uns den Geist brüderlicher Liebe.",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": ""
+          "bitten_e_lat": "Deum glorificémus, cuius bonitátis infinítus est thesáurus, et per Iesum Christum, qui est semper vivens ad interpellándum pro nobis, eum deprecémur, dicéntes:",
+          "bitten_r_lat": "Accénde in nobis ignem tui amóris.",
+          "bitten_lat": "Deus misericórdiæ, fac ut hódie abundémus in opéribus pietátis,^qatque omnes nostram experiántur humanitátem.^pQui in dilúvio Noe per arcam salvásti,^qsalva catechúmenos in aqua baptísmatis.^pPræsta nos non solo pane satiári,^qsed omni verbo, quod procédit de ore tuo.^pFac ut omnes dissensiónes componámus,^qut pace et caritáte, te donánte, gaudeámus."
         },
         "Vesper": {
           "bitten_e": "Lasst uns beten zu unserem Herrn und Meister Jesus Christus, der gekommen ist, um allen Gutes zu erweisen:",
           "bitten_r": "Herr, erbarme dich.",
           "bitten": "Du hast dich nicht bedienen lassen, sondern den Menschen gedient;^qlehre alle, die an dich glauben, deinem Beispiel zu folgen.^pGib, dass in der Gemeinschaft der Kirche einer dem anderen hilft;^qschenke deinen Gläubigen die Liebe, die sie eint und stark macht.^pDu gibst den Bischöfen Anteil an deinem Hirtenamt;^qsteh ihnen bei in ihrer Sorge für die Menschen.^pSende deine Engel, dass sie die Reisenden geleiten^qund sie schützen auf ihren Wegen.^pSei den Verstorbenen ein gnädiger Richter;^qlass sie auf ewig dein Angesicht schauen.",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": ""
+          "bitten_e_lat": "Grátias Christo, cápiti et magístro nostro, semper agámus, qui venit ministráre et ómnibus benefácere. Ideo humíliter fidentérque ab eo petámus:",
+          "bitten_r_lat": "Vísita, Dómine, famíliam tuam.",
+          "bitten_lat": "Adésto, Dómine, epíscopis et presbýteris Ecclésiæ tuæ, qui munus tuum cápitis et pastóris partícipant,^qut per te ad Patrem omnes addúcant.^pAngelus tuus iter agéntes comitétur,^qut omnes ánimæ corporísque insídias devítent.^pDoce nos homínibus ministráre,^qut te imitémur, qui venísti ministráre, non ministrári.^pFac ut in omni humána communitáte frater adiuvétur a fratre,^qut sint, te astánte, quasi cívitas firma.^pMiséricors esto univérsis defúnctis,^qeósque in lumen vultus tui admítte."
         }
       },
       "1": {
@@ -21984,17 +22000,17 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Gott, der Vater, der uns an den Anfang dieses Tages geführt hat. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, sei uns gnädig.",
           "bitten": "Du willst alles in Christus erneuern;^qgib, dass wir uns von Herzen zu dir bekehren.^pDu rufst uns in die Nachfolge deines Sohnes;^qschenke uns den Geist der Buße und des Gebetes.^pDu erbarmst dich aller, die leiden;^qgib uns ein Herz für die Armen und Bedrückten.^pDurch Christus willst du die Menschen miteinander versöhnen;^qmach uns zu Werkzeugen deines Friedens.",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": ""
+          "bitten_e_lat": "Benedicámus Deo Patri, qui nobis largítur ut hoc quadragesimáli die sacrifícium laudis ei offerámus. Eum deprecémur, invocántes:",
+          "bitten_r_lat": "Cæléstibus, Dómine, nos ínstrue disciplínis.",
+          "bitten_lat": "Omnípotens et miséricors Deus, concéde nobis spíritum oratiónis et pæniténtiæ,^qut caritáte tui et hóminum ardeámus.^pDa nos tibi cooperári, ut ómnia instauréntur in Christo,^qatque iustítia et pax in terris abúndent.^pIntimam totíus creatúræ natúram et prétium áperi nobis,^qut, te celebrántes, eam in cármine laudis nobis consociémus.^pIgnósce nobis, qui Christi tui præséntiam in paupéribus, míseris et moléstis ignorávimus,^qnec vériti sumus Fílium tuum in his frátribus nostris."
         },
         "Vesper": {
           "bitten_e": "Lasst uns beten zu Gott, von dem jede gute Gabe kommt:",
           "bitten_r": "Wir bitten dich, erhöre uns.",
           "bitten": "Du hast das Gesetz des Alten Bundes in Christus vollendet;^qgib, dass alle Menschen sein neues Gesetz erkennen.^pGib, dass alle Vorsteher der Kirche sich sorgen um das Reich Gottes;^qstärke in den Gemeinden den Geist der Zusammenarbeit.^pTu den Glaubensboten eine Tür auf in den Herzen ihrer Hörer;^qerwecke ihnen Mitarbeiter im Dienst der Verkündigung.^pWache über den Kindern und schütze sie;^qbewahre die Jugendlichen im Glauben.^pGedenke aller, die in Christus entschlafen sind;^qschenke ihnen das ewige Leben.",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": ""
+          "bitten_e_lat": "Magnificétur Deus Pater, qui, ex ore Fílii sui, simul orántibus quodcúmque petíssent se datúrum promísit. Qua promissióne freti eum implorémus:",
+          "bitten_r_lat": "Propítius esto, Dómine, pópulo tuo.",
+          "bitten_lat": "Dómine, qui legem, in monte Sínai Móysi datam, per Christum tuum perfecísti,^qda ut omnes eam in córdibus inscríptam agnóscant et fœ́deris instar custódiant.^pSollicitúdinem de frátribus sibi commíssis, præpósitis tríbue,^qet subditórum corda ad illos induc adiuvándos.^pMentem et cor missionariórum tua virtúte corróbora,^qet plúrimos óperis sócios ubíque éxcita illis.^pGrátiam tuam in púeris da cum annis aduléscere,^qet in iuvénibus amórem tuum cum probitáte morum profícere.^pMeménto ómnium fratrum nostrórum, qui in te obdormiérunt,^qatque ætérnæ vitæ eos redde consórtes."
         }
       },
       "2": {
@@ -22002,17 +22018,17 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, das ewige Wort des Vaters. Zu ihm lasst uns beten:",
           "bitten_r": "Christus, höre uns.",
           "bitten": "Gib, dass wir in den heiligen vierzig Tagen auf dich hören;^qbereite uns für das kommende Osterfest.^pDein Heiliger Geist belehre uns,^qdass wir nicht in Zweifel und Irrtum fallen.^pHilf uns, an dich zu glauben^qund aus diesem Glauben zu leben.^pLäutere uns in dieser Zeit der Buße,^qdamit unser Zeugnis glaubwürdig sei.",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": ""
+          "bitten_e_lat": "Grátias Deo Patri, qui Unigénitum suum, Verbum carnem factum, nobis dedit, ut sit noster cibus et vita. Eum deprecémur:",
+          "bitten_r_lat": "Verbum Christi hábitet abundánter in nobis.",
+          "bitten_lat": "Frequentióre verbi tui auditióne nos dúcere tempus hoc quadragesimále concéde,^qut Christum, Pascha nostrum, in magna sollemnitáte religiósius honorémus.^pSpíritus Sanctus tuus nos dóceat,^qut ad verum et bonum sequéndum dúbios et errántes hortémur.^pPræsta nobis, ut Christi tui áltius percipiámus mystérium,^qet vita nostra id clárius exprimámus.^pPurífica et rénova Ecclésiam tuam his diébus salútis,^qut magis ac magis testimónium tibi éadem reddat."
         },
         "Vesper": {
           "bitten_e": "Lasst uns zu Jesus Christus beten, der am Kreuz alles an sich gezogen hat:",
           "bitten_r": "Herr, erbarme dich.",
           "bitten": "Lass den Menschen das Geheimnis des Kreuzes aufgehen,^qdamit sie die Gnade der Erlösung erkennen.^pGib das lebendige Wasser allen, die dürsten;^qstille ihr tiefstes Verlangen.^pBewege die Herzen derer, die sich von dir getrennt haben;^qlass sie zu dir zurückkehren.^pSei allen nahe, die Leid zu tragen haben;^qlass sie bei dir Zuflucht finden.^pNimm unsere Verstorbenen auf zu dir;^qlass sie die ewige Seligkeit verkosten.",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": ""
+          "bitten_e_lat": "Dóminum Iesum, qui exaltátus in cruce ómnia ad se traxit, magnificémus et mente pia exorémus:",
+          "bitten_r_lat": "Trahe ad te univérsa, Dómine.",
+          "bitten_lat": "Dómine, lux, quæ e mystério crucis tuæ emánat, áttrahat omnes,^qut te viam, veritátem et vitam agnóscant.^pDa cunctis te sitiéntibus aquam vivam,^qne sítiant in ætérnum.^pDoctrinárum et ártium cultóres illúmina,^qut hómines regno tuo effíciant aptióres.^pMove omnes, qui ob peccáta et scándala a te discessérunt,^qut rédeant ad te et in dilectióne tua permáneant.^pOmnes defúnctos nostros in cæléstes sedes admítte,^qut cum beáta María Vírgine sanctísque ómnibus collæténtur."
         }
       },
       "3": {
@@ -22020,17 +22036,17 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Gott, der Vater, der durch seinen Geist in uns wirkt. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, sende uns deinen Geist.",
           "bitten": "Gib, dass wir dankbar das Gute aus deiner Hand empfangen;^qhilf uns, auch Not und Leid in Geduld anzunehmen.^pWecke in uns das Verlangen nach deinem Wort;^qlass uns darüber nachsinnen alle Tage.^pGib uns die Kraft, auf Entbehrliches zu verzichten,^qdamit wir den notleidenden Brüdern helfen können.^pLehre uns beten^qund nimm unseren Lobpreis an.",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": ""
+          "bitten_e_lat": "Grátias agámus Deo Patri, qui per infusiónem et operatiónem Spíritus Sancti corda nostra puríficat et in caritáte confírmat. Ei súpplici prece dicámus:",
+          "bitten_r_lat": "Da nobis, Dómine, Spíritum Sanctum tuum.",
+          "bitten_lat": "Præsta nobis, ut bona de manu tua semper grati suscipiámus,^qet mala quoque cum patiéntia accipiámus.^pConcéde nobis non in magnis tantum rebus caritátem sectári,^qsed étiam in sólitis vitæ adiúnctis prótenus exercére.^pTríbue nobis a supérfluis abstinére,^qut frátribus indigéntibus opem ferre valeámus.^pDa nobis mortificatiónem Fílii tui in córpore nostro circumférre,^qqui nos vivificásti in córpore eius."
         },
         "Vesper": {
           "bitten_e": "Lasst uns beten zu Gott, dem Vater, der seinen Sohn für die Welt dahingegeben hat:",
           "bitten_r": "Schenk uns dein Erbarmen.",
           "bitten": "Gott, du hast die Menschen nach deinem Bild geschaffen;^qgib, dass sie einander achten und ehren.^pSteh denen bei, die alles verlassen, um Christus nachzufolgen;^qmache ihre Hingabe vollkommen.^pFühre die Irrenden zur Wahrheit,^qdamit sie den erkennen, den du gesandt hast.^pLenke das Sinnen der Völker^qund steh den Regierenden bei.^pNimm unsere Verstorbenen auf in deine Herrlichkeit,^qdamit sie in Ewigkeit dich preisen.",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": ""
+          "bitten_e_lat": "Glória et honor Deo, qui fœdus novum et ætérnum cum pópulo suo pépigit in sánguine Christi, et rénovat in sacraménto altáris. Sic eum rogémus:",
+          "bitten_r_lat": "Bénedic, Dómine, pópulum tuum.",
+          "bitten_lat": "Dírige, Dómine, in voluntáte tua, mentes populórum atque regéntium,^qut sincére ad commúne ómnium bonum annitántur.^pAuge devotiónem eórum, qui, relíctis ómnibus, secúti sunt Christum,^qut præclárum homínibus sanctitátis Ecclésiæ testimónium prǽbeant et exémplum.^pQui cunctos hómines ad imáginem tuam fecísti,^qfac ut ab iniústa inæqualitáte abhórreant.^pOmnes errántes ad tuam reduc amicítiam et veritátem,^qet doce nos illis adiuméntum impéndere.^pDa defúnctis in tuam glóriam introíre,^qteque in ætérnum collaudáre."
         }
       },
       "4": {
@@ -22038,17 +22054,17 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, unser Heiland und Erlöser. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, gedenke unser.",
           "bitten": "Du bist der Quell des lebendigen Wassers;^qnach dir verlangt unsere Seele.^pDu hast uns die Kirche als Sakrament des Heiles geschenkt;^qlehre uns ihr Geheimnis tiefer verstehen.^pDu hast uns als deine Jünger berufen;^qhilf uns, dir heute nachzufolgen.^pVergib uns unsere Sünden^qund heile uns.",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": ""
+          "bitten_e_lat": "Pietátem Dei celebrémus, qui in Christo sese revelávit. Ex corde ei supplicémus:",
+          "bitten_r_lat": "Meménto nostri, Dómine, quia fílii tui sumus.",
+          "bitten_lat": "Da nos mystérium Ecclésiæ áltius percípere,^qut éadem sit nobis et ómnibus efficácius salútis sacraméntum.^pFac nos, hóminis amátor, humánæ civitátis increménta fovére,^qatque in ómnibus regnum tuum inténdere.^pPræsta nobis, ut ad Christum sitiéntes currámus,^qqui fontem aquæ vivæ nobis se prǽbuit.^pDimítte nobis iniquitátes nostras,^qet gressus nostros dírige in viam iustítiæ et sinceritátis."
         },
         "Vesper": {
           "bitten_e": "Lasst uns beten zu Jesus Christus, der uns sein Erbarmen schenkt:",
           "bitten_r": "Christe, eleison.",
           "bitten": "Du hast dein Leben hingegeben für alle;^qgib, dass alle sich zu dir bekehren.^pErneuere die Gläubigen durch dein Wort und dein Sakrament,^qhilf ihnen im Leben verwirklichen, was sie im Glauben empfangen.^pGedenke der Bischöfe, Priester und Diakone;^qentfache in ihnen die Gnade, die sie durch Handauflegung empfangen haben.^pSteh denen bei, die in dieser Bußzeit Maß halten im Genuss der irdischen Güter;^qöffne ihr Herz für die Not der Armen.^pErbarme dich derer, die heute gestorben sind;^qgib ihnen die ewige Seligkeit.",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": ""
+          "bitten_e_lat": "Dei misericórdiam celebrémus, qui nos illúminat grátia Spíritus Sancti, ut opéribus iustítiæ ac fídei luceámus. Orémus, dicéntes:",
+          "bitten_r_lat": "Vivífica, Dómine, pópulum a Christo redémptum.",
+          "bitten_lat": "Dómine, fons et auctor omnis sanctitátis, epíscopos, presbýteros et diáconos árctius per mystérium eucharísticum Christo coniúnge,^qut grátiam, per impositiónem mánuum accéptam, magis in dies resúscitent.^pDoce fidéles tuos digne et actuóse mensam verbi et córporis Christi frequentáre,^qut, quod fide et sacraménto percepérunt, vita et móribus téneant.^pDignitátem cuiúsque hóminis, Fílii tui sánguine redémpti, te donánte, agnoscámus,^qut libertátem et consciéntiam fratrum nostrórum observémus.^pDa, ut hómines immódicam terréstrium bonórum cupídinem moderéntur,^qet aliórum inópiæ cónsulant.^pMiserére fidélium, quos de hac vita ad te hódie vocásti,^qeísque donum beatitúdinis ætérnæ concéde."
         }
       },
       "5": {
@@ -22056,17 +22072,17 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, der uns durch seinen Tod und seine Auferstehung erlöst hat. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, erbarme dich unser.",
           "bitten": "Du bist hinaufgezogen nach Jerusalem, um für uns zu leiden und so in deine Herrlichkeit einzugehen;^qführe uns durch die Leiden dieser Zeit zum ewigen Osterfest.^pAus deiner geöffneten Seite flossen Blut und Wasser;^qheilige uns durch deine Sakramente.^pDu hast dem Schächer um seiner Buße willen Verzeihung erwiesen;^qvergib auch uns unsere Sünden.^pDurch dich wurde das Kreuz zum Baum des Lebens;^qschenke uns seine Frucht, das ewige Leben.",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": ""
+          "bitten_e_lat": "Christum salvatórem, qui per mortem et resurrectiónem suam nos redémit, implorémus:",
+          "bitten_r_lat": "Dómine, miserére nostri.",
+          "bitten_lat": "Qui Ierúsalem ascendísti ad passiónem subeúndam, ut intráres in glóriam,^qperduc Ecclésiam tuam in Pascha æternitátis.^pQui, in cruce exaltátus, láncea mílitis transfígi voluísti,^qsana vúlnera nostra.^pQui crucem tuam árborem vitæ constituísti,^qfructus eiúsdem baptísmate renátis largíre.^pQui, in ligno pendens, latróni pæniténti pepercísti,^qnobis peccatóribus ignósce."
         },
         "Vesper": {
           "bitten_e": "Lasst uns beten zu Christus, dem Heiland der Welt, der den Tod vernichtet und das Leben neu geschaffen hat:",
           "bitten_r": "Christus, erbarme dich.",
           "bitten": "Du hast das Reich Gottes verkündet und zur Umkehr aufgerufen;^qerneuere deine Kirche im Geist des Evangeliums.^pDu hast ein Herz gehabt für die Armen und Bedrängten;^qsteh denen bei, die keinen Helfer haben.^pDu berufst immer wieder Menschen in deine Kirche;^qerleuchte die Katechumenen, die sich auf die Taufe vorbereiten.^pDu willst nicht den Tod des Sünders, sondern dass er lebe;^qerbarme dich derer, die mit uns in diesen vierzig Tagen Buße tun.^pNimm unsere Verstorbenen gnädig auf^qund lass sie teilhaben an deiner Auferstehung.",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": ""
+          "bitten_e_lat": "Salvatórem humáni géneris adorémus, qui mortem moriéndo destrúxit et vitam resurgéndo reparávit. Humíliter postulémus:",
+          "bitten_r_lat": "Sanctífica pópulum, quem sánguine tuo redemísti.",
+          "bitten_lat": "Redémptor noster, da nos passióni tuæ per pæniténtiam plénius adhærére,^qut resurrectiónis glóriam consequámur.^pPræsta, ut Matris tuæ, solatrícis afflictórum, protectiónem assequámur,^qmærentésque confortémus ea consolatióne, qua et ipsi a te recreámur.^pFidélibus concéde passiónis tuæ in ærúmnis suis esse partícipes,^qut salutáre tuum in seípsis maniféstent.^pQui humiliásti teípsum, factus obœ́diens usque ad mortem, mortem autem crucis,^qda servis tuis obœdiéntiam et patiéntiam.^pCórpori claritátis tuæ defúnctos configuráre dignéris,^qnosque aliquándo eórum redde consórtes."
         }
       },
       "6": {
@@ -22074,14 +22090,9 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, unser Herr und Erlöser. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, komm uns zu Hilfe.",
           "bitten": "Schenk uns ein reines Herz;^qhilf uns, aus deinem Heiligen Geist zu leben.^pÖffne unsere Augen für die Not der Menschen^qund zeige uns, wie wir ihnen helfen können.^pGib, dass wir nach deinem Brot verlangen,^qdas du uns schenkst als Speise für das ewige Leben.^pErhöre die Fürbitte deiner heiligen Mutter, zu der wir Sünder unsere Zuflucht nehmen,^qund vergib uns unsere Schuld.",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": ""
-        }
-      },
-      "each": {
-        "Komplet": {
-          "hymn_1_lat": 2500.2
+          "bitten_e_lat": "Semper et ubíque grátias Christo agámus, qui salvat nos, eíque fidénter supplicémus:",
+          "bitten_r_lat": "Súbveni nobis, Dómine, grátia tua.",
+          "bitten_lat": "Tríbue nos córpora nostra incontamináta serváre,^qut possit Spíritus Sanctus illic habitáre.^pDoce nos iam mane pro frátribus nosmetípsos impéndere,^qet tota die in ómnibus tuam implére voluntátem.^pDa nobis quǽrere panem, qui permáneat in vitam ætérnam,^qquem tu præstas nobis.^pMater tua, refúgium peccatórum, pro nobis intercédat,^qut peccátis nostris benígnus ignóscas."
         }
       }
     }

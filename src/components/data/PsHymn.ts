@@ -4042,6 +4042,16 @@ export const psalmsData = {
         "title": "Nun ruft ein heil’ges Fasten aus",
         "quote": "Fastenzeit",
         "text": "Nun ruft ein heil’ges Fasten aus,^lwie es die Väter uns gelehrt.^lGekommen ist im Jahreslauf^lder vierzig Tage heil’ge Zeit.^pSo hat es das Gesetz verlangt^lso der Propheten ernster Ruf.^lUnd Christus selbst hat diese Zeit^lgeheiligt durch sein eignes Tun.^pNach seinem Beispiel lasst auch uns^ldas Fasten üben in Geduld,^luns Abbruch tun in Speis und Trank,^lnachsinnen über Gottes Wort.^pDas Böse schwinde kraftlos hin,^ldas Gute blühe machtvoll auf,^lVersöhnung finde jedes Herz,^ldas sich dem Werk der Buße weiht.^pDir, höchster Gott, Dreifaltigkeit,^llobsinge alles, was da lebt.^lLass uns, durch deine Gnade neu,^ldich preisen durch ein neues Lied."
+      },
+    1.0: {
+        "quote": "Fastenzeit lat. Lh",
+        "title_lat": "Nunc tempus acceptábile",
+        "text_lat": "Nunc tempus acceptábile^lfulget datum divínitus,^lut sanet orbem lánguidum^lmedéla parsimóniæ.^pChristi decóro lúmine^ldies salútis émicat,^ldum corda culpis sáucia^lrefórmat abstinéntia.^pHanc mente nos et córpore,^lDeus, tenére pérfice,^lut appetámus próspero^lperénne pascha tránsitu.^pTe rerum univérsitas,^lclemens, adóret, Trínitas,^let nos novi per véniam^lnovum canámus cánticum."
+      },
+    2.0: {
+        "quote": "Fastenzeit lat. Lh So",
+        "title_lat": "Ex more docti mýstico",
+        "text_lat": "Ex more docti mýstico^lservémus abstinéntiam,^ldeno diérum círculo^lducto quater notíssimo.^pLex et prophétæ prímitus^lhanc prætulérunt, póstmodum^lChristus sacrávit, ómnium^lrex atque factor témporum.^pUtámur ergo párcius^lverbis, cibis et pótibus,^lsomno, iocis et árctius^lperstémus in custódia.^pVitémus autem péssima^lquæ súbruunt mentes vagas,^lnullúmque demus cállido^lhosti locum tyránnidis.^pPræsta, beáta Trínitas,^lconcéde, simplex Unitas,^lut fructuósa sint tuis^lhæc parcitátis múnera."
       }
   },
   3312: {
@@ -4065,6 +4075,16 @@ export const psalmsData = {
         "title": "Du Sonne der Gerechtigkeit",
         "quote": "Fastenzeit",
         "text": "Du Sonne der Gerechtigkeit,^lChristus vertreib in uns die Nacht,^ldass mit dem Licht des neuen Tags^lauch unser Herz sich neu erhellt.^pDu schenkst uns diese Gnadenzeit,^lgib auch ein reuevolles Herz^lund führe auf den Weg zurück,^ldie deine Langmut irren sah.^pEs kommt der Tag, dein Tag erscheint,^lda alles neu in Blüte steht;^lder Tag, der unsre Freude ist,^lder Tag, der uns mit dir versöhnt.^pDir, höchster Gott, Dreifaltigkeit,^llobsinge alles, was da lebt.^lLass uns, durch deine Gnade neu,^ldich preisen durch ein neues Lied."
+      },
+    1.0: {
+        "quote": "Fastenzeit lat. Ld",
+        "title_lat": "Iam, Christe, sol iustítiæ",
+        "text_lat": "Iam, Christe, sol iustítiæ,^lmentis dehíscant ténebræ,^lvirtútum ut lux rédeat,^lterris diem cum réparas.^pDans tempus acceptábile^let pǽnitens cor tríbue,^lconvértat ut benígnitas^lquos longa suffert píetas;^pQuiddámque pæniténtiæ^lda ferre, quo fit démptio,^lmaióre tuo múnere,^lculpárum quamvis grándium.^pDies venit, dies tua,^lper quam reflórent ómnia;^llætémur in hac ut tuæ^lper hanc redúcti grátiæ.^pTe rerum univérsitas,^lclemens, adóret, Trínitas,^let nos novi per véniam^lnovum canámus cánticum."
+      },
+    2.0: {
+        "quote": "Fastenzeit lat. Ld So",
+        "title_lat": "Precémur omnes cérnui",
+        "text_lat": "Precémur omnes cérnui,^lclamémus atque sínguli,^lplorémus ante iúdicem,^lflectámus iram víndicem:^pNostris malis offéndimus^ltuam, Deus, cleméntiam;^leffúnde nobis désuper,^lremíssor, indulgéntiam.^pMeménto quod sumus tui,^llicet cadúci, plásmatis;^lne des honórem nóminis^ltui, precámur, álteri.^pLaxa malum quod fécimus,^lauge bonum quod póscimus,^lplacére quo tandem tibi^lpossímus hic et pérpetim.^pPræsta, beáta Trínitas,^lconcéde, simplex Unitas,^lut fructuósa sint tuis^lhæc parcitátis múnera."
       }
   },
   3323: {
@@ -4079,6 +4099,16 @@ export const psalmsData = {
         "title": "Nun ist sie da, die rechte Zeit",
         "quote": "Fastenzeit",
         "text": "Nun ist sie da, die rechte Zeit,^ldie Gottes Huld uns wieder schenkt,^lnun ist er da, der Tag des Heils,^lerfüllt von Christi hellem Licht.^pJetzt soll sich unser ganzes Herz^ldurch Fasten und Gebet erneun,^lund durch Entsagung werde stark,^lwas müde ist und schwach und krank.^pLass uns, o°Herr, mit Geist und Leib^ldas Werk der Buße freudig tun,^ldass wir den Übergang bestehn^lzum Pascha, das kein Ende kennt.^pDir, höchster Gott, Dreifaltigkeit,^llobsinge alles, was da lebt.^lLass uns, durch deine Gnade neu,^ldich preisen durch ein neues Lied."
+      },
+    1.0: {
+        "quote": "Fastenzeit lat. Vp",
+        "title_lat": "Iesu, quadragenáriæ",
+        "text_lat": "Iesu, quadragenáriæ^ldicátor abstinéntiæ,^lqui ob salútem méntium^lpræcéperas ieiúnium,^pAdésto nunc Ecclésiæ,^ladésto pæniténtiæ,^lqua supplicámus cérnui^lpeccáta nostra dílui.^pTu retroácta crímina^ltua remítte grátia^let a futúris ádhibe^lcustódiam mitíssime,^pUt, expiáti ánnuis^lcompunctiónis áctibus,^ltendámus ad paschália^ldigne colénda gáudia.^pTe rerum univérsitas,^lclemens, adóret, Trínitas,^let nos novi per véniam^lnovum canámus cánticum."
+      },
+    2.0: {
+        "quote": "Fastenzeit lat. Vp So",
+        "title_lat": "Audi, benígne Cónditor",
+        "text_lat": "Audi, benígne Cónditor,^lnostras preces cum flétibus,^lsacrát>a in abstinéntia^lfusas quadragenária.^pScrutátor alme córdium,^linfírma tu scis vírium;^lad te revérsis éxhibe^lremissiónis grátiam.^pMultum quidem peccávimus,^lsed parce confiténtibus,^ltuíque laude nóminis^lconfer medélam lánguidis.^pSic corpus extra cónteri^ldona per abstinéntiam,^lieiúnet ut mens sóbria^la labe prorsus críminum.^pPræsta, beáta Trínitas,^lconcéde, simplex Unitas,^lut fructuósa sint tuis^lhæc parcitátis múnera."
       }
   },
   3342: {

@@ -2600,7 +2600,7 @@ export default function LiturgicalCalendar() {
                 >
                   –
                 </button>
-                <span className="w-8 text-center">{tempFontSize}</span>
+                <span className="w-2 text-center">{tempFontSize}</span>
                 <span className="text-sm text-gray-500 dark:text-gray-400">
                   pt
                 </span>
@@ -2697,23 +2697,12 @@ export default function LiturgicalCalendar() {
                 }`}
               onClick={() => handleSectionChange(sections.indexOf("footnotes"))}
             >
-              <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
+              <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-0">
                 Fußnoten
               </div>
+              <div className="text-xs text-gray-500 dark:text-gray-400 mb-2">
+                zur Zweiten Lesung der Lesehore</div>
               <div className="flex gap-1">
-                <button
-                  onClick={(e) => {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    setPrefFootnotes(false);
-                  }}
-                  className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${!prefFootnotes
-                    ? "bg-orange-100 dark:bg-yellow-400/60"
-                    : ""
-                    }`}
-                >
-                  im Text
-                </button>
                 <button
                   onClick={(e) => {
                     e.preventDefault();
@@ -2726,6 +2715,19 @@ export default function LiturgicalCalendar() {
                     }`}
                 >
                   unter dem Text
+                </button>
+                <button
+                  onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    setPrefFootnotes(false);
+                  }}
+                  className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${!prefFootnotes
+                    ? "bg-orange-100 dark:bg-yellow-400/60"
+                    : ""
+                    }`}
+                >
+                  im Text
                 </button>
               </div>
             </div>
@@ -2740,8 +2742,22 @@ export default function LiturgicalCalendar() {
                 }`}
               onClick={() => handleSectionChange(sections.indexOf("deceased"))}
             >
-              <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
+              <div className="mb-0 text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
                 Verstorbene
+              </div>
+              <div className="mb-2 grid gap-x-2 text-xs text-gray-500 dark:text-gray-400"
+                style={{ gridTemplateColumns: `min-content 1fr` }}
+              >
+                <div className="text-gray-700 dark:text-gray-300 ">
+                  kurz:</div>
+                <div>
+                  Verstorbene der letzten 30 Jahre (wie&nbsp;im&nbsp;gedruckten&nbsp;Direktorium)
+                </div>
+                <div className="text-gray-700 dark:text-gray-300 ">
+                  voll:</div>
+                <div>
+                  alle Verstorbenen seit 1920
+                </div>
               </div>
               <div className="flex gap-1">
                 <button
@@ -2774,10 +2790,6 @@ export default function LiturgicalCalendar() {
                 >
                   voll
                 </button>
-              </div>
-              <div className="mt-2 text-xs text-gray-500 dark:text-gray-400">
-                {renderDescriptionItem("kurz:", "Verstorbene der letzten 30 Jahre (wie\u00a0im\u00a0gedruckten\u00a0Direktorium)")}
-                {renderDescriptionItem("voll:", "alle Verstorbene seit 1920")}
               </div>
             </div>
 
