@@ -140,7 +140,15 @@ const HymnSelector = ({ texts, hour, season,
                     languageSuffix = languageSuffix || localPrefLanguage;
                     const textField = `text${languageSuffix}`;
                     const titleField = `title${languageSuffix}`;
+
                     const hymnText = hymnData?.[textField]?.replace('LEER', '')
+                    const hymnTitle = hymnData?.[titleField]
+                        || hymnText?.split('^l')[0]
+                            .trim()
+                            .replace(/[.!?,:;-]+$/, '')
+                            .replace('^/', ' ')
+                            .replace('>', '')
+                        || ''
                     const stb3 = (['kl. Stb:', 'pers:'].includes(sourceLabel)
                         && hymnData?.stb3) ? hymnData.stb3 : ''
 
@@ -153,7 +161,7 @@ const HymnSelector = ({ texts, hour, season,
                         indent: sourceLabel.length > 9 ? '20' : '',
                         stb3,
                         text: hymnText,
-                        title: hymnData[titleField],
+                        title: hymnTitle,
                         hymnNumber,
                         isNachtHymn,
                     });

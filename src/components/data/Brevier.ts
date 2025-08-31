@@ -11840,7 +11840,7 @@ export const brevierData = {
       },
       "5": {
         "Invitatorium": {
-          "ant0": "Danket dem Herrn; denn seine Huld währt ewig!",
+          "ant0": "Danket dem Herrn; ^HULDKL!",
           "ant0_lat": "Confitémini Dómino, quia in ætérnum misericórdia eius."
         },
         "Lesehore": {
@@ -13551,14 +13551,14 @@ export const brevierData = {
           "patr_werk": "Aus einer Predigt zum Weihnachtsfest.",
           "patr_text": "^hDer die Menschen liebt, ist Mensch geworden, geboren von der Jungfrau.^p„Die Himmel sollen sich freuen, die Wolken Gerechtigkeit regnen, denn der Herr hat sich seines Volkes erbarmt. Die Himmel sollen sich freuen“, denn als sie geschaffen wurden, wurde auch Adam von seinem Schöpfer gebildet aus jungfräulicher Erde; er wurde Gottes Freund und Hausgenosse.^p„Die Himmel sollen sich freuen“{1#Ps 96,11}, denn heute wurde durch das Kommen des Herrn im Fleisch die Erde geheiligt und die Menschen von den Götzenopfern befreit.^p„Die Wolken sollen Gerechtigkeit regnen“{2#vgl. Jes 45,8}, denn heute wurde die Sünde Evas weggenommen und vergeben um der Reinheit der Jungfrau Maria willen und durch den, der als Gott und Mensch von ihr geboren wurde. Heute wurde Adam von jenem schrecklichen Urteil befreit, das ihn einst zur Todesnacht verdammt hatte.^pHeute wurde Christus geboren von der Jungfrau, aus der er nach dem Heilsplan Gottes Fleisch angenommen hatte.^p„Das Wort ist Fleisch geworden und hat unter uns gewohnt“{3#Joh 1,14}, und daher wurde die Jungfrau zur Mutter Gottes. Sie wurde Mutter und blieb doch Jungfrau, denn ohne eines Mannes Zutun ist das Wort Fleisch geworden und wurde von ihr geboren; so bewahrte sie ihre Jungfräulichkeit durch die wunderbare Geburt dessen, der es so gewollt hatte.^pSie ist Mutter wegen der menschlichen Natur des göttlichen Wortes, das in ihr Fleisch geworden und der Welt erschienen ist; Wort und Fleisch wurden eins gemäß der Weisheit und dem Willen dessen, der große Wunder vollbringt.^pEr ist aus menschlichem Geschlecht, wie der heilige Paulus sagt. Er war, was er nun ist und sein und bleiben wird.^pUnseretwillen ist er Mensch geworden. Er, der den Menschen liebt, ist Mensch geworden, was er vorher nicht war. Er ist Mensch geworden und blieb doch Gott, ohne jede Veränderung. Er ist mir also ähnlich geworden um meinetwillen; er ist geworden, was er nicht war, und bewahrte dennoch, was er war. Er ist Mensch geworden, um sich unsere Leiden zu eigen zu machen, um uns die Macht zu geben, „Kinder Gottes zu werden“{4#Joh 1,12}, und uns sein Reich zu schenken.^pDessen mache uns würdig die Gnade und Barmherzigkeit des Herrn Jesus Christus, dem mit dem Vater und dem Heiligen Geist Ruhm und Ehre und Macht ist jetzt und alle Zeit und in Ewigkeit. Amen.",
           "patr_resp1": "Es strömt wie Regen herab auf das Feld.",
-          "patr_resp2": "Seine Herrlichkeit erfüllt die ganze Erde.",
+          "patr_resp2": "Seine°Herrlichkeit erfüllt die ganze Erde.",
           "patr_resp3": "Seht das Zelt Gottes unter den Menschen. Er wird in ihrer Mitte wohnen, Gott selbst wird mit ihnen sein.",
           "oration": "^RUBRMan kann eine der folgenden Orationen auswählen:^0RUBR^l^r1^0r°°°Herr und Gott, auf die Fürsprache der jungfräulichen Mutter Maria schenke uns die Gesundheit des Leibes und das Heil der Seele. Nimm von uns die Traurigkeit dieser Zeit und führe uns zur ewigen Freude.^ORV^p^r2^0r°°°Barmherziger Gott, mit unserem eigenen Tun können wir vor dir nicht bestehen. Darum höre auf die Fürsprache der seligen Jungfrau Maria. Schau nicht auf unser Versagen, sondern sei uns gnädig und rette uns.^ORV^p^r3^0r°°°Barmherziger Gott, du kennst unsere Schwachheit und unsere Not. Auf die Fürsprache der seligen Jungfrau Maria nimm von uns die Last der Sünde, verzeih uns und richte uns auf.^ORV^p^r4^0r°°°Gütiger Gott, komm uns zu Hilfe auf die Fürsprache der seligen Jungfrau Maria. Befreie uns aus allen Gefahren und lass uns froh werden in deinem Frieden.^ORV^p^r5^0r°°°Allmächtiger Gott, wir gedenken der seligen Jungfrau Maria, die du aus allen Menschen erwählt und geheiligt hast. Höre auf ihre Fürsprache und schenke auch uns Heil und Segen aus der Fülle deiner Gnade.^ORV^p^r6^0r°°°Allmächtiger Gott, im Vertrauen auf die Fürsprache Unserer Lieben Frau flehen wir zu dir. Befreie uns von allem Bösen, das uns auf Erden bedroht, und schenke uns im Himmel die unvergängliche Freude.^ORV",
-          "oration_lat": ""
+          "oration_lat": "^RUBRDicitur una ex sequentibus orationibus ad libitum selecta:^0RUBR^l^r1^0r°°°Concéde nos fámulos tuos, quǽsumus, Dómine Deus, perpétua mentis et córporis sanitáte gaudére, et, gloriósa beátæ Maríæ semper Vírginis intercessióne, a præsénti liberári tristítia, et ætérna pérfrui lætítia.^ORlV^p^r2^0r°°°Famulórum tuórum, quǽsumus, Dómine, delíctis ignósce, ut, qui tibi placére de áctibus nostris non valémus, Genetrícis Fílii tui Dómini nostri intercessióne salvémur.^ORlV^p^r3^0r°°°Concéde, miséricors Deus, fragilitáti nostræ præsídium, ut, qui sanctæ Dei Genetrícis memóriam ágimus, intercessiónis eius auxílio a nostris iniquitátibus resurgámus.^ORlV^p^r4^0r°°°Adiuvet nos, quǽsumus, Dómine, beátæ Maríæ semper Vírginis intercéssio veneránda, et a cunctis perículis absolútos in tua fáciat pace gaudére.^ORlV^p^r5^0r°°°Sanctíssimæ venerántibus Vírginis Maríæ memóriam gloriósam, ipsíus nobis, quǽsumus, Dómine, intercessióne concéde, ut de plenitúdine grátiæ tuæ nos quoque mereámur accípere.^ORlV^p^r6^0r°°°Concéde, quǽsumus, omnípotens Deus, ut fidéles tui, qui sub sanctíssimæ Vírginis Maríæ patrocínio lætántur, eius pia intercessióne a cunctis malis liberéntur in terris, et ad gáudia ætérna perveníre mereántur in cælis.^ORlV"
         },
         "Laudes": {
           "comm_1": "Maria_Sa",
-          "button": "Gedächtnis Mariens am Samstag",
+          "button": "Gedächtnis Mariens am°Samstag",
           "farbe": "m",
           "les_buch": "^A:MariaSaLd:Gal",
           "les_stelle": "4,4–5",
@@ -14587,7 +14587,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns zu Jesus Christus beten, der in den Himmel aufgefahren ist und zur Rechten des Vaters sitzt:",
           "bitten_r": "Du König der Herrlichkeit, höre uns.",
           "bitten": "Wir bitten für alle Christen, die heute das Fest deiner Himmelfahrt begehen;^qgib, dass sie in Freude deine Wiederkunft erwarten.^pDeine Jünger sind vom Berg der Himmelfahrt voll Freude heimgekehrt und haben Gott gepriesen;^qhilf deiner Kirche, allezeit dem Vater zu danken.^pVor deiner Himmelfahrt hast du deine Jünger ausgesandt;^qsende auch heute Arbeiter in deine Ernte.^pBeschütze alle, die heute unterwegs sind;^qbewahre sie vor Unglück und führe sie an das Ziel ihrer Reise.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten.",
-          "hymn_1_lat": 0.0,
+          "hymn_1_lat": 2904.1,
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
           "ant1_lat": "",
@@ -14707,7 +14707,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns zu Jesus Christus beten, der in den Himmel aufgefahren ist und zur Rechten des Vaters sitzt:",
           "bitten_r": "Du König der Herrlichkeit, höre uns.",
           "bitten": "Wir bitten für alle Christen, die heute das Fest deiner Himmelfahrt begehen;^qgib, dass sie in Freude deine Wiederkunft erwarten.^pDeine Jünger sind vom Berg der Himmelfahrt voll Freude heimgekehrt und haben Gott gepriesen;^qhilf deiner Kirche, allezeit dem Vater zu danken.^pVor deiner Himmelfahrt hast du deine Jünger ausgesandt;^qsende auch heute Arbeiter in deine Ernte.^pBeschütze alle, die heute unterwegs sind;^qbewahre sie vor Unglück und führe sie an das Ziel ihrer Reise.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten.",
-          "hymn_1_lat": 0.0,
+          "hymn_1_lat": 2904.1,
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
           "ant1_lat": "Ascéndit in cælos, sedet ad déxteram Patris.^Lö",
@@ -18597,7 +18597,7 @@ export const brevierData = {
           "psalm1": 118.0,
           "psalm2": 170.0,
           "psalm3": 150.0,
-          "ant1": "Danket dem Herrn, denn seine Huld währt ewig.^ö",
+          "ant1": "Danket dem Herrn, ^HULDKL.^ö",
           "ant2": "Preiset den Herrn, ihr seine Werke alle.^ö",
           "ant3": "Alles, was atmet, lobe den Herrn.^ö",
           "les_buch": "›2°Tim",
@@ -18796,7 +18796,7 @@ export const brevierData = {
           "psalm1": 136.1,
           "psalm2": 136.5,
           "psalm3": 152.0,
-          "ant1": "Danket dem Herrn, denn seine Huld währt ewig.",
+          "ant1": "Danket dem Herrn, ^HULDKL.",
           "ant2": "Herr, allmächtiger Gott! Groß und wunderbar sind all deine Werke.",
           "ant3": "Das Geheimnis seines Willens hat Gott uns kundgetan: in der Fülle der Zeiten alles in Christus zu vereinen.",
           "les_buch": "›1°Thess",
@@ -19292,7 +19292,7 @@ export const brevierData = {
           "les_stelle": "3,16",
           "les_text": "Daran haben wir die Liebe erkannt, dass Er sein Leben für uns hingegeben hat. So müssen auch wir für die Brüder das Leben hingeben.",
           "resp0": "Danket dem Herrn, denn er ist gütig.",
-          "resp1": "Denn seine Huld währt ewig.",
+          "resp1": "^HULDGR",
           "resp0_lat": "Confitémini Dómino quóniam bonus.",
           "resp1_lat": "Quóniam in sǽculum misericórdia eius.",
           "les_text_lat": "In hoc nóvimus caritátem, quóniam ille pro nobis ánimam suam pósuit; et nos debémus pro frátribus ánimas pónere."

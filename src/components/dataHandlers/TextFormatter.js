@@ -389,6 +389,8 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
     text = text
         .replace('O-AntiphonVomTag', OAntiphon.dt)
         .replace('AntiphonaDiei', OAntiphon.lat)
+        .replace(/\^HULDKL/g, 'denn seine Huld währt ewig')
+        .replace(/\^HULDGR/g, 'Denn seine Huld währt ewig.')
         .replace(/^›|(_lat|_neu)/g, '')
         .replace(/°/g, '\u00A0')
         .replace(/\^\*/g, '\u00A0*\n')
