@@ -82,7 +82,7 @@ const SourceSelector = ({
 
     const { rank_date = 0, rank_wt = 0, isCommemoration } = texts
     const hasEig = hasValidSource(texts, 'eig') // G, F oder H
-    const hasN1 = hasValidSource(texts, 'n1') // nichtgebotener Gedenktag
+    const hasN1 = hasValidSource(texts, 'n1') || hasValidSource(texts, 'n5') // nichtgebotener Gedenktag
     const showWt = rank_wt < 3
         && (
             (hasN1 && !hasEig) ||   // nur nichtgebotener Gedenktag

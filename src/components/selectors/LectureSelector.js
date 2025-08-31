@@ -73,6 +73,7 @@ const LectureSelector = ({
         if (firstKeyword && firstAlternatives.length > 0) {
             firstReadings.push({
                 index: 0,
+                marian: firstKeyword.startsWith('Maria'),
                 buttonText: chain(getValue('les_buch'), getValue('les_stelle')),
                 buttonResp: abbreviate(getValue('resp1')),
                 hasText: !!getValue('les_text'),
@@ -87,6 +88,7 @@ const LectureSelector = ({
 
             firstReadings.push({
                 index: index + 1, // +1 wegen Standard bei Index 0
+                marian: firstKeyword.startsWith('Maria'),
                 buttonText: chain(
                     checkLanguageField('les_buch', altData),
                     checkLanguageField('les_stelle', altData)
@@ -105,6 +107,7 @@ const LectureSelector = ({
         if (secondKeyword && secondAlternatives.length > 0) {
             secondReadings.push({
                 index: 0,
+                marian: secondKeyword.startsWith('Maria'),
                 buttonText: chain(getValue('patr_autor'), getValue('patr_werk'), ':'),
                 buttonResp: abbreviate(getValue('patr_resp1')),
                 hasText: !!getValue('patr_text'),
@@ -119,6 +122,7 @@ const LectureSelector = ({
 
             secondReadings.push({
                 index: index + 1, // +1 wegen Standard bei Index 0
+                marian: secondKeyword.startsWith('Maria'),
                 buttonText: chain(
                     checkLanguageField('patr_autor', altData),
                     checkLanguageField('patr_werk', altData),
@@ -181,11 +185,12 @@ const LectureSelector = ({
             }));
         };
 
-        const getButtonColor = (index) => {
+        const getButtonColor = (button) => {
+            const { index, marian } = button
             if (index === 0) { // Standard
-                return 'btn-default';
+                return marian ? 'btn-blue' : 'btn-default';
             }
-            return 'btn-brown';
+            return marian ? 'btn-blue' : 'btn-brown';
         };
 
         return (
@@ -195,7 +200,7 @@ const LectureSelector = ({
                         key={button.index}
                         onClick={() => handleSelectionChange(button.index)}
                         className={`w-full text-sm text-left pl-2 pt-2 pb-1 mt-1 rounded ${button.index > 0 ? 'mr-2' : ''}
-                            ${getButtonColor(button.index)}
+                            ${getButtonColor(button)}
                             ${currentSelection === button.index ? 'ring-2 ring-yellow-500' : ''}`}
                     >
                         <div className="flex items-baseline gap-0">
@@ -533,6 +538,78 @@ const lectureAlternatives = {
             resp2_lat: "dona eis réquiem.",
             resp3_lat: "Qui ventúrus es iudicáre vivos et mórtuos,"
         }]
+    },
+    "MariaSaLh": {
+        second: [
+            {
+                patr_autor: "Guerricus (Werricho von Igny) († 1157)",
+                patr_werk: "Aus einer Predigt zu Mariä Aufnahme in den Himmel.",
+                patr_text: "^hMaria, die Mutter Christi und die Mutter der Christen^pEinen einzigen Sohn hat Maria geboren. Wie dieser im Himmel der einzige Sohn des Vaters ist, so ist er auf Erden der einzige Sohn seiner Mutter. Sie, die einzige Jungfrau-Mutter, die sich rühmen darf, des Vaters einzigen Sohn geboren zu haben, umfängt diesen, ihren einzigen Sohn, in all seinen Gliedern. Sie scheut sich nicht, Mutter all derer genannt zu werden, in denen sie erkennt, dass ihr Christus schon Gestalt angenommen hat oder annimmt.^pDie Urmutter Eva war weniger eine Mutter als eine Stiefmutter: Sie gab ihre Kinder dem Tode preis, noch bevor diese das Licht des Tages erblickten. Sie heißt zwar „Mutter aller Lebenden“{1#Gen 3,20}, doch in Wirklichkeit ist sie die Mörderin der Lebenden oder die Gebärerin der Sterbenden, denn ihr Gebären ist nichts anderes als ein Gebären zum Tod.^pWeil Eva ihren Namen nicht wahrzumachen vermochte, hat Maria den geheimnisvollen Sinn dieses Namens verwirklicht. Denn wie die Kirche, deren Vorbild sie ist, ist sie die Mutter aller, die zum Leben wiedergeboren werden. Sie ist in Wahrheit die Mutter derer, die das Leben haben, denn indem sie das Leben selber gebar, hat sie in gewisser Weise allen, die von diesem Leben leben sollten, das neue Leben geschenkt.^pAufgrund dieses Geheimnisses erkennt sich die selige Mutter Christi als die Mutter der Christen; sie erweist sich auch als deren Mutter durch ihre Fürsorge und ihre liebevolle Zuneigung. Sie ist niemals hart gegenüber ihren Kindern, so als wären sie nicht ihr eigen. Denn ihr Schoß, der zwar nur einmal ein Kind getragen hat, blieb auch nachher nicht ohne Frucht, niemals hörte er auf, Früchte des Erbarmens zu gebären.^pWenn schon Paulus, der Knecht Christi, immer wieder neuen Kindern das Leben schenkt, erfüllt vom brennenden Verlangen, dass Christus in ihnen Gestalt gewinne{2#vgl. Gal 4,19}, um wie viel mehr Maria, die Mutter Christi. Paulus schenkte ihnen das Leben, indem er ihnen das Wort der Wahrheit verkündete, durch das sie wiedergeboren wurden. Maria aber schenkte ihnen das Leben auf eine Gott ähnlichere und weit heiligere Weise, indem sie das göttliche Wort selber gebar. An Paulus lobe ich den Dienst der Verkündigung, an Maria aber bewundere und verehre ich das Geheimnis ihrer Mutterschaft.^pBedenkt nun, ob nicht auch die Kinder ihrerseits ganz offensichtlich ihre Mutter erkennen: Getrieben von einem gleichsam angeborenen Vertrauen, rufen sie in allen möglichen Gefahren zuerst und ganz besonders ihren Namen an und flüchten sich zu ihr wie die Kleinen in die Arme ihrer Mutter. Deshalb halte ich es nicht für abwegig, dass auf diese Kinder angewandt werden kann, was durch den Propheten verheißen ist: „Deine Kinder werden in dir wohnen“, ohne zu übersehen, dass diese Verheißung in erster Linie von der Kirche gilt.^pDenn schon jetzt wohnen wir im Schutz der Mutter des Allerhöchsten, wir sind unter ihrer Obhut geboren, gleichsam „im Schatten ihrer Flügel“. Dereinst werden wir durch die Teilhabe an ihrer Herrlichkeit Ruhe finden in ihren Armen. Dann werden alle sich freuen und wie aus einem Munde ihrer Mutter zurufen: Wir alle freuen uns, denn „unsere Wohnstatt ist in dir“, heilige Mutter Gottes.",
+                patr_resp1: "Das Kind, das Maria erwartet, ist vom Heiligen Geist; sie wird einen Sohn gebären.",
+                patr_resp2: "Er wird sein Volk von seinen Sünden erlösen.",
+                patr_resp3: "Seine Macht wird reichen bis an die Grenzen der Erde, und er wird der Friede sein."
+            },
+            {
+                patr_autor: "Johannes Chrysostomus († 407)",
+                patr_werk: "Aus einer Homilie zum Karfreitag.",
+                patr_text: "^hAdam und Christus, Eva und Maria^pHast du den staunenswerten Sieg gesehen? Hast du die herrlichen Tage des Kreuzes gesehen? Soll ich dir sagen, was noch wunderbarer ist? Achte auf die Art und Weise, wie der Sieg errungen wurde, und du wirst noch mehr staunen. Das nämlich, wodurch der Teufel einst gesiegt hat, genau dadurch hat Christus über ihn gesiegt. Mit seinen eigenen Waffen hat er ihn geschlagen. Höre, wie das geschah:^pEine Jungfrau, ein Holz und der Tod, das waren die Symbole der Niederlage. Die Jungfrau war Eva, denn noch hatte sie keinen Mann erkannt; das Holz war ein Baum; der Tod war die Strafe, die über Adam verhängt war.^pDoch siehe, die Jungfrau, das Holz und der Tod, diese Symbole der Niederlage, sind zu Zeichen des Sieges geworden. An die Stelle Evas trat Maria, an die Stelle des Holzes der Erkenntnis von Gut und Böse trat das Holz des Kreuzes; an die Stelle des Todes Adams ist Christi Tod getreten.^pSiehst du, dass der Teufel mit den gleichen Waffen besiegt wurde, mit denen er gesiegt hatte? Unter dem Baum hat der Teufel den Adam zu Fall gebracht; am Kreuz hat Christus den Teufel bezwungen. Jenes Holz schickte zur Unterwelt; dieses aber führte sogar die aus der Unterwelt zurück, die dorthin bereits hinabgestiegen waren.^pDer eine Baum versteckte den gefallenen Menschen, der sich seiner Nacktheit schämte{1#vgl. Gen 3,8}; der andere Baum hat vor aller Augen einen nackten Menschen als Sieger erhöht.^pJener Tod verdammte alle, die nach ihm geboren wurden, dieser aber erweckte von den Toten, sogar jene, die vor ihm geboren waren.^p„Wer wird die Großtaten des Herrn verkünden?“{2#Ps 106,2} Sein Sterben hat uns unsterblich gemacht: Das sind die wunderbaren Werke des Kreuzes. Begreifst du diesen Sieg! Begreifst du, wie er zustande kam?^pHöre nun, wie dieser Sieg ohne unsere Mühen und unseren Schweiß errungen wurde. Wir haben keine Waffen mit Blut gerötet, wir haben in keiner Schlachtreihe gestanden, uns wurden keine Wunden geschlagen, wir haben keinen Krieg gesehen und doch den Sieg davongetragen. Des Herrn war der Kampf, unser ist die Krone.^pDa dieser Sieg auch unser Sieg ist, so lasst uns, den Kriegern gleich, heute mit freudiger Stimme Siegeslieder singen; lasst uns den Herrn preisen, indem wir rufen: „Verschlungen ist der Tod im Sieg. Tod, wo ist dein Sieg? Tod, wo ist dein Stachel?“{#1 Kor 15,55}^pDas sind die herrlichen Werke, die das Kreuz vollbracht hat zu unserem Heil; das Kreuz ist das Siegeszeichen, aufgerichtet gegen die Dämonen; es ist das gegen die Sünde gezückte Schwert, das Schwert, mit dem Christus die Schlange durchbohrt hat. Das Kreuz ist der Wille des Vaters, der Ruhm des Eingeborenen, die Freude des Heiligen Geistes, die Zierde der Engel, die Sicherheit der Kirche, der Stolz des Paulus{#vgl. Gal 6,14}, das Bollwerk der Heiligen, ein Licht für die ganze Welt.",
+                patr_resp1: "Der Herr überhäuft mit Ehren, wen er will,",
+                patr_resp2: "damit die Tugend die Sünde zudeckt, die Gnade die Schuld.",
+                patr_resp3: "Vom Dornbusch kommt die Rose, von Eva kam Maria."
+            },
+            {
+                patr_autor: "II. Vatikanisches Konzil (1962–1965)",
+                patr_werk: "Aus der dogmatischen Konstitution über die Kirche „Lumen gentium“.",
+                patr_text: "^hDie selige Jungfrau und die Kirche^pDie selige Jungfrau ist durch das Geschenk und die Aufgabe der göttlichen Mutterschaft, durch die sie mit ihrem Sohn und Erlöser vereint ist, und durch ihre einzigartigen Gnaden und Gaben auch mit der Kirche auf das innigste verbunden. Die Gottesmutter ist, wie schon der heilige Ambrosius lehrte, der Typus der Kirche unter der Rücksicht des Glaubens, der Liebe und der vollkommenen Einheit mit Christus.^pIm Geheimnis der Kirche, die ja auch selbst mit Recht Mutter und Jungfrau genannt wird, ist die selige Jungfrau Maria vorangegangen, da sie in hervorragender und einzigartiger Weise das Urbild sowohl der Jungfrau wie der Mutter darstellt. Im Glauben und Gehorsam gebar sie den Sohn des Vaters auf Erden, und zwar ohne einen Mann zu erkennen, vom Heiligen Geist überschattet, als neue Eva, die nicht der alten Schlange, sondern dem Boten Gottes einen von keinem Zweifel verfälschten Glauben schenkte. Sie gebar aber einen Sohn, den Gott gesetzt hat zum Erstgeborenen unter vielen Brüdern {1#Röm 8,29}. Mit mütterlicher Liebe wirkt sie mit bei deren Geburt und Erziehung in mütterlicher Liebe mit.^pNun aber wird die Kirche, indem sie Marias geheimnisvoll Heiligkeit betrachtet, ihre Liebe nachahmt und den Willen des Vaters getreu erfüllt, durch die gläubige Annahme des Wortes Gottes auch selbst Mutter: Durch Predigt und Taufe nämlich gebiert sie die vom Heiligen Geist empfangenen und aus Gott geborenen Kinder zum neuen und unsterblichen Leben. Auch sie ist Jungfrau, da sie das Treuewort, das sie dem Bräutigam gegeben hat, unversehrt und rein bewahrt und in Nachahmung der Mutter ihres Herrn in der Kraft des Heiligen Geistes jungfräulich einen unversehrten Glauben, eine feste Hoffnung und eine aufrichtige Liebe bewahrt.^pWährend aber die Kirche in der seligsten Jungfrau schon zur Vollkommenheit gelangt ist, in der sie ohne Makel und Runzel ist {2#vgl. Eph 5,27}, bemühen sich die Christgläubigen noch, die Sünde zu besiegen und in der Heiligkeit zu wachsen. Daher richten sie ihre Augen auf Maria, die der ganzen Gemeinschaft der Auserwählten als Urbild der Tugenden voranleuchtet. Indem die Kirche über Maria in frommer Erwägung nachdenkt und sie im Licht des menschgewordenen Wortes betrachtet, dringt sie verehrend in das erhabene Geheimnis der Menschwerdung tiefer ein und wird ihrem Bräutigam mehr und mehr gleichgestaltet.^pDenn Maria vereinigt, da sie zuinnerst in die Heilsgeschichte eingegangen ist, gewissermaßen die größten Glaubensgeheimnisse in sich und strahlt sie wider. Daher ruft ihre Verkündigung und Verehrung die Gläubigen hin zu ihrem Sohn und seinem Opfer und zur Liebe des Vaters.^pDie Kirche aber wird, um die Ehre Christi zu mehren, ihrem erhabenen Typus ähnlicher durch dauerndes Wachstum in Glaube, Hoffnung und Liebe und durch das Suchen und Befolgen des Willens Gottes in allem.^pDaher blickt die Kirche auch in ihrem apostolischen Wirken mit Recht zu ihr auf, die Christus geboren hat, der dazu vom Heiligen Geist empfangen und von der Jungfrau geboren wurde, dass er durch die Kirche auch in den Herzen der Gläubigen geboren werde und wachse. Diese Jungfrau war in ihrem Leben das Beispiel jener mütterlichen Liebe, von der alle beseelt sein müssen, die in der apostolischen Sendung der Kirche zur Wiedergeburt der Menschen mitwirken.",
+                patr_resp1: "Durch Maria, die Jungfrau, ist allen, die glauben, das Heil der Welt erschienen.",
+                patr_resp2: "Ihr ruhmreiches Leben erleuchtet die ganze Kirche.",
+                patr_resp3: "Lasst uns voll Ehrfurcht das Gedächtnis der seligen Jungfrau Maria feiern."
+            },
+            {
+                patr_autor: "Laurentius Justiniani (†°1455)",
+                patr_werk: "Aus einer Predigt am Fest der Darstellung des Herrn.",
+                patr_text: "^hMaria bewahrte alles, was geschehen war, in°ihrem°Herzen^pAls Maria all das bei sich erwog, was sie durch Lesen, Hören und Sehen erkannt hatte, wie sehr wuchsen da ihr Glaube und ihre Verdienste! Mehr und mehr wurde sie erleuchtet durch die Weisheit und entzündet von der Glut der Liebe.^pÜber die alte Offenbarung der himmlischen Geheimnisse hinaus wurde sie weitergeführt, ihre Freude wurde vollendet, im Übermaß wurde sie befruchtet durch den Heiligen Geist. Sie wurde zu Gott hingeführt und wurde doch in der Demut bewahrt.^pVon solcher Art ist die Wirkung der göttlichen Gnade, dass sie den Menschen aus der Tiefe erhebt zur Höhe und ihn umgestaltet von Klarheit zu Klarheit.^pJa, selig das Herz der Jungfrau, das durch die Einwohnung und Führung des Heiligen Geistes allezeit und in allem dem Befehl des Wortes Gottes gehorchte. Nicht von ihrem eigenen Sinn, nicht von ihrem eigenen Willen ließ sie sich leiten, sondern, was die Weisheit in ihrem Herzen sie zu glauben aufforderte, das wurde nach außen hin durch den Dienst des Leibes der Jungfrau bewirkt. Es ziemte sich nämlich für die göttliche Weisheit, als sie sich das Haus der Kirche als Wohnung erbauen wollte, dass sie die selige Jungfrau Maria wegen ihrer Gesetzestreue und Herzensreinheit, wegen ihrer beispielhaften Demut und ihrer geistlichen Hingabe als Mittel dazu benutze.^pGläubige Seele, ahme Maria nach! Geh in den Tempel deines Herzens, damit du im Geist gereinigt werden kannst von der Befleckung der Sünden. Gott achtet nämlich in allem, was wir tun, mehr auf unsere Gesinnung als auf unser Werk. Sei es daher, dass wir durch die Übung der Betrachtung in unserem Herzen Gott Raum geben und für ihn frei sind, sei es, dass wir durch die Übung der Tugenden und durch gute Werke danach streben, enthaltsam zu sein zum Wohl unseres Nächsten, immer sollen wir so handeln, dass allein die Liebe Christi uns drängt. Das nämlich ist das wohlgefällige Opfer geistlicher Reinigung, das nicht in einem von Menschenhand gebauten Tempel dargebracht wird, sondern in einem Herzen, in das der Herr Jesus Christus mit Freuden eintritt.",
+                patr_resp1: "Heilige und makellose Jungfrau, du bist allen Lobes würdig.",
+                patr_resp2: "Den die Himmel nicht fassen, ihn trugst du in deinem Schoß.",
+                patr_resp3: "Gebenedeit bist du unter den Frauen, und gebenedeit die Frucht deines Leibes."
+            },
+            {
+                patr_autor: "Leo der Große (†°461)",
+                patr_werk: "Aus einer Weihnachtspredigt.",
+                patr_text: "^hMaria empfing in ihrem Geist, bevor sie in ihrem Leib empfing^pEine Jungfrau aus dem königlichen Geschlecht Davids wird erwählt. Sie wird schwanger von heiliger Frucht. Sie sollte diesen Sohn, der zugleich Gott ist und Mensch, in ihrem Geist empfangen, bevor sie ihn in ihrem Leib empfing.^pDamit sie nicht in Unkenntnis des göttlichen Ratschlusses über die ungewöhnlichen Vorgänge erschrecke, erfuhr sie aus dem Gespräch mit dem Engel, was der Heilige Geist in ihr wirken sollte. So denkt sie denn nicht an die Verletzung ihrer Keuschheit, obwohl sie schon bald Gott gebären sollte. Wie sollte sie der nie gehörten Art der Empfängnis misstrauen, da das versprochene Ereignis doch durch die Kraft des Allerhöchsten gewirkt werden wird?^pDas Vertrauen ihres Glaubens wird durch ein Wunder gestärkt, das vorher geschehen soll: Elisabet wird fruchtbar gegen alle Erwartung. Maria soll nicht daran zweifeln, dass Gott, der der Unfruchtbaren die Kraft gibt zu empfangen, sie auch der Jungfrau verleihen wird.^pDas Wort Gottes also, Gott selbst, der Sohn Gottes, der ‚im Anfang bei Gott war, durch den alles geworden ist und ohne den nichts geworden ist‘{1#vgl.°Joh°1,1.3}, er ist Mensch geworden, um die Menschen vom ewigen Tod zu befreien. Er ließ sich ohne Minderung seiner Herrlichkeit dazu herab, unsere Niedrigkeit anzunehmen. Er blieb, was er war, und nahm an, was er nicht war, und vereinigte so die Knechtsgestalt mit der Gottesgestalt, in der er dem Vater gleich war.^pBeide Naturen verband er so eng, dass die Verherrlichung das Niedere nicht verschlang und dass die Annahme des Niederen das Höhere nicht minderte. Beide Naturen behielten ihre Besonderheit und vereinigten sich zu einer Person. So wurde die Niedrigkeit von der Majestät angenommen, die Schwachheit von der Kraft, die Sterblichkeit von der Ewigkeit.^pUm die Schuld, in der wir stehen, abzuzahlen, wurde die unverletzliche Natur mit der leidensfähigen verbunden; der wahre Gott mit dem wahren Menschen zur Einheit des Herrn zusammengefügt. So konnte, wie es für unser Heil angemessen war, der ‚eine‘ und gleiche ‚Mittler zwischen Gott und den Menschen‘{2#vgl.°1°Tim 2,6} in der einen Natur sterben und durch die andere auferstehen.^pMit Recht fügte die Geburt des Heils der Unversehrtheit der Jungfrau keinen Schaden zu; denn die Geburt der Wahrheit bewahrte die Keuschheit.^pMeine Lieben, für Christus, die Kraft und Weisheit Gottes, ziemte sich eine solche Geburt, durch die er sich das Menschsein anpasste und uns durch die Gottheit überragte. Denn wäre er nicht wahrer Gott, könnte er uns keine Heilung bringen, und wäre er nicht wahrer Mensch, könnte er uns nicht Vorbild sein.^pDarum jubeln die Engel bei der Geburt des Herrn und singen: „Ehre sei Gott in der Höhe!“, und sie verkünden: „Friede auf Erden den Menschen seiner Gnade“{3#vgl.°Lk 2,24}. Denn sie sehen, wie aus allen Völkern der Welt das himmlische Jerusalem erbaut wird. Wie sehr muss sich der Mensch in seiner Erniedrigung freuen über diese unfassbare Liebe Gottes, wenn schon die Engel in der Höhe darüber voll Freude jubeln?",
+                patr_resp1: "Selig preisen mich alle Geschlechter, denn Großes hat der Herr an mir getan.",
+                patr_resp2: "Heilig ist sein Name.",
+                patr_resp3: "Von Geschlecht zu Geschlecht währt sein Erbarmen über jenen, welche ihn fürchten."
+            },
+        ]
+    },
+    "MariaSaLd": {
+        first: [
+            {
+                les_buch: "Jes",
+                les_stelle: "61,10ab",
+                les_text: "Von Herzen will ich mich freuen über den Herrn. Meine Seele soll jubeln über meinen Gott. Denn er kleidet mich in Gewänder des Heils, er hüllt mich in den Mantel der Gerechtigkeit.",
+                resp1: "Von Anbeginn hat der Herr sie erwählt,",
+                resp2: "vor allen hat er sie erkoren.",
+                resp3: "In seinem Zelt lässt er sie wohnen.",
+                les_text_lat: "Gaudens gaudébo in Dómino, et exsultábit ánima mea in Deo meo, quia índuit me vestiméntis salútis et induménto iustítiæ circúmdedit me, quasi sponsam ornátam monílibus suis.",
+                resp1_lat: "Elégit eam Dóminus,",
+                resp2_lat: "et°præelégit°eam.",
+                resp3_lat: "In tabernáculo suo habitáre facit eam._lat"
+            },
+            {
+                les_buch: "Offb",
+                les_stelle: "12,1",
+                les_text: "Ein großes Zeichen erschien am Himmel: eine Frau, mit der Sonne bekleidet, der Mond war unter ihren Füßen und ein Kranz von zwölf Sternen auf ihrem Haupt.",
+                resp1: "Gegrüßet seist du, Maria,",
+                resp2: "du bist voll der Gnade.",
+                resp3: "Gesegnet bist du unter den Frauen, und gesegnet ist die Frucht deines Leibes.",
+                les_text_lat: "Signum magnum appáruit in cælo: múlier amícta sole, et luna sub pédibus eius, et super caput eius coróna stellárum duódecim.",
+                resp1_lat: "Ave, María, grátia plena;",
+                resp2_lat: "Dóminus°tecum.",
+                resp3_lat: "Benedícta tu in muliéribus, et benedíctus fructus ventris tui._lat"
+            },
+        ],
     },
     "MUSTERsecond": {
         second: [

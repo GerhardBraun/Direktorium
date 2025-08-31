@@ -2742,7 +2742,7 @@ export default function LiturgicalCalendar() {
                 }`}
               onClick={() => handleSectionChange(sections.indexOf("deceased"))}
             >
-              <div className="mb-0 text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
+              <div className="mb-0 text-sm font-semibold text-gray-500 dark:text-gray-400 mb-0">
                 Verstorbene
               </div>
               <div className="mb-2 grid gap-x-2 text-xs text-gray-500 dark:text-gray-400"
@@ -2836,7 +2836,7 @@ export default function LiturgicalCalendar() {
               </div>
             </div>
 
-            <div className="px-3 py-2 text-sm mb-2">
+            <div className="px-3 py-2 text-sm mb-0">
               <div className="font-semibold text-gray-500 dark:text-gray-400">
                 Kontakt
               </div>

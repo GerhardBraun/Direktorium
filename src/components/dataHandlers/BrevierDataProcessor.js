@@ -265,6 +265,11 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
             processHeilige(hours, season, calendarMonth, calendarDay, 'n1');
             processHeilige(hours, season, calendarMonth, calendarDay, 'n2');
             processAdLib(hours, season, calendarMonth, calendarDay);
+
+            // Maria am Samstag
+            if (rank_wt < 2 && rank_date < 2 && season === "j" && dayOfWeek === 6) {
+                processHeilige(hours, season, 'mar', 'sa', 'n5')
+            }
         }
 
         return {

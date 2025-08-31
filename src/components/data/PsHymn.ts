@@ -4876,6 +4876,20 @@ export const psalmsData = {
         "text_lat": "Quem terra, pontus, ǽthera^lcolunt, adórant, prǽdicant^ltrinam regéntem máchinam,^lclaustrum Maríæ báiulat.^pCui luna, sol et ómnia^ldesérviunt per témpora,^lperfúsa cæli grátia^lgestant puéllæ víscera.^pBeáta mater múnere,^lcuius, supérnus ártifex,^lmundum pugíllo cóntinens,^lventris sub arca clausus est.^pBeáta cæli núntio,^lfecúnda Sancto Spíritu,^ldesiderátus géntibus^lcuius per alvum fusus est.^pIesu, tibi sit glória,^lqui natus es de Vírgine,^lcum Patr>e et almo Spíritu,^lin sempitérna sǽcula.Amen."
       }
   },
+  5464: {
+    0.0: {
+        "quote": "Maria am Samstag Lh lat.",
+        "title_lat": "O virgo mater, fília",
+        "text_lat": "O virgo mater, fília^ltui beáta Fílii,^lsublímis et humíllima^lpræ creatúris ómnibus,^pDivíni tu consílii^lfixus ab ævo términus,^ltu decus et fastígium^lnatúræ nostræ máximum:^pQuam sic prompsísti nóbilem,^lut summus eius cónditor^lin ipsa per te fíeret^larte miránda cónditus.^pIn útero virgíneo^lamor revíxit ígneus,^lcuius calóre gérminant^lflores in terra cǽlici.^pPatri sit et Paráclito^ltuóque Nato glória,^lqui veste te mirábili^lcircumdedérunt grátiæ. Amen."
+      }
+  },
+  5465: {
+    0.0: {
+        "quote": "Maria am Samstag Ld lat.",
+        "title_lat": "Quæ caritátis fúlgidum",
+        "text_lat": "Quæ caritátis fúlgidum^les astrum, Virgo, súperis,^lspei nobis mortálibus^lfons vivax es et prófluus.^pSic vales, celsa Dómina,^lin Nati cor piíssimi,^lut qui fidénter póstulat,^lper te secúrus ímpetret.^pOpem tua benígnitas^lnon solum fert poscéntibus,^lsed et libénter sǽpius^lprecántum vota prǽvenit.^pIn te misericórdia,^lin te magnificéntia;^ltu bonitátis cúmulas^lquicquid creáta póssident.^pPatri sit et Paráclito^ltuóque Nato glória,^lqui veste te mirábili^lcircumdedérunt grátiæ. Amen.^p^l"
+      }
+  },
   5473: {
     0.0: {
         "quote": "Maria Ld",

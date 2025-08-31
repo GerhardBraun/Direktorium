@@ -381,6 +381,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
     }
 
     marker = (marker === 'commemoration') ? '' : marker;
+    marker = provText.startsWith('^RUBR') ? '' : marker
     let text = marker ? `^r${marker}^0r${provText}` : provText;
     const maxLineLength = calculateMaxLineLength(text);
     const OAntiphon = findOAntiphon(texts.laudes?.wt);
