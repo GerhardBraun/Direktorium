@@ -155,10 +155,7 @@ const LectureSelector = ({
                 // Prüfe ob dies ein Gruppen-Eintrag ist
                 if (altData.group) {
                     currentGroup = altData.group;
-                    groups.set(currentGroup, {
-                        name: currentGroup,
-                        items: []
-                    });
+                    groups.set(currentGroup, []);
                     return; // Gruppen-Eintrag wird nicht als normale Alternative hinzugefügt
                 }
 
@@ -188,13 +185,13 @@ const LectureSelector = ({
                     onlyResp: lectureType === 'first'
                         ? !altData.les_text && !!altData.resp1
                         : !altData.patr_text && !!altData.patr_resp1,
-                    content: altData,
-                    groupName: currentGroup
+                    // content und groupName entfernt - werden direkt in selected() behandelt
+                    content: altData // Nur die Rohdaten für selected()
                 };
 
                 if (currentGroup) {
                     // Zur aktuellen Gruppe hinzufügen
-                    groups.get(currentGroup).items.push(alternative);
+                    groups.get(currentGroup).push(alternative);
                 } else {
                     // Normale Alternative ohne Gruppe
                     processedAlternatives.push(alternative);
@@ -212,12 +209,13 @@ const LectureSelector = ({
             first: {
                 hasAlternatives: firstResult.alternatives.length > 1 || firstResult.groups.size > 0,
                 hasAlternativeText: firstResult.alternatives.some(b => b.index > 0 && b.hasText) ||
-                    Array.from(firstResult.groups.values()).some(group =>
-                        group.items.some(item => item.hasText)
+                    Array.from(firstResult.groups.values()).some(groupItems =>
+                        groupItems.some(item => item.hasText)
                     ),
-                onlyAlternativeResp: firstResult.alternatives.every(b => b.index > 0 && b.onlyResp) &&
-                    Array.from(firstResult.groups.values()).every(group =>
-                        group.items.every(item => item.onlyResp)
+                onlyAlternativeResp: (firstResult.alternatives.length > 1 || firstResult.groups.size > 0) &&
+                    firstResult.alternatives.filter(b => b.index > 0).every(b => b.onlyResp) &&
+                    Array.from(firstResult.groups.values()).every(groupItems =>
+                        groupItems.every(item => item.onlyResp)
                     ),
                 alternatives: firstResult.alternatives,
                 groups: firstResult.groups
@@ -225,12 +223,13 @@ const LectureSelector = ({
             second: {
                 hasAlternatives: secondResult.alternatives.length > 1 || secondResult.groups.size > 0,
                 hasAlternativeText: secondResult.alternatives.some(b => b.index > 0 && b.hasText) ||
-                    Array.from(secondResult.groups.values()).some(group =>
-                        group.items.some(item => item.hasText)
+                    Array.from(secondResult.groups.values()).some(groupItems =>
+                        groupItems.some(item => item.hasText)
                     ),
-                onlyAlternativeResp: secondResult.alternatives.every(b => b.index > 0 && b.onlyResp) &&
-                    Array.from(secondResult.groups.values()).every(group =>
-                        group.items.every(item => item.onlyResp)
+                onlyAlternativeResp: (secondResult.alternatives.length > 1 || secondResult.groups.size > 0) && // Nur wenn Alternativen vorhanden sind
+                    secondResult.alternatives.filter(b => b.index > 0).every(b => b.onlyResp) && // Prüfe nur Alternativen (nicht Standard)
+                    Array.from(secondResult.groups.values()).every(groupItems =>
+                        groupItems.every(item => item.onlyResp)
                     ),
                 alternatives: secondResult.alternatives,
                 groups: secondResult.groups
@@ -245,8 +244,7 @@ const LectureSelector = ({
         const languageField = field + localPrefLanguage;
 
         // Wenn Index 0 (Standard) oder keine Alternativen, verwende Standard-Werte
-        if (selectedIndex === 0 ||
-            !availableAlternatives[lectureType].hasAlternatives) {
+        if (selectedIndex === 0 || !availableAlternatives[lectureType].hasAlternatives) {
             return getValue(field);
         }
 
@@ -256,8 +254,8 @@ const LectureSelector = ({
 
         // Wenn nicht gefunden, suche in Gruppen
         if (!alternative) {
-            for (const group of availableAlternatives[lectureType].groups.values()) {
-                alternative = group.items.find(item => item.index === selectedIndex);
+            for (const groupItems of availableAlternatives[lectureType].groups.values()) {
+                alternative = groupItems.find(item => item.index === selectedIndex);
                 if (alternative) break;
             }
         }
@@ -268,7 +266,6 @@ const LectureSelector = ({
             || alternative.content[field]
             || getValue(field);
     };
-
     // Toggle Funktion für Gruppen
     const toggleGroup = (lectureType, groupName) => {
         setExpandedGroups(prev => {
@@ -332,7 +329,7 @@ const LectureSelector = ({
             </button>
         );
 
-        const renderGroupButton = (groupName, group) => {
+        const renderGroupButton = (groupName, groupItems) => {
             const isExpanded = expandedGroups[lectureType].has(groupName);
             return (
                 <div key={`group-${groupName}`}>
@@ -349,7 +346,7 @@ const LectureSelector = ({
                             </div>
                         </div>
                     </button>
-                    {isExpanded && group.items.map(item => renderButton(item, true))}
+                    {isExpanded && groupItems.map(item => renderButton(item, true))}
                 </div>
             );
         };
@@ -357,8 +354,8 @@ const LectureSelector = ({
         return (
             <div className="mb-4">
                 {alternatives.map(button => renderButton(button))}
-                {Array.from(groups.entries()).map(([groupName, group]) =>
-                    renderGroupButton(groupName, group)
+                {Array.from(groups.entries()).map(([groupName, groupItems]) =>
+                    renderGroupButton(groupName, groupItems)
                 )}
             </div>
         );
@@ -366,6 +363,7 @@ const LectureSelector = ({
 
     // Reset selections when alternatives change
     useEffect(() => {
+        console.log('availableAlternatives aktualisiert:', availableAlternatives);
         setSelectedLecture(prev => ({
             first: availableAlternatives.first.hasAlternatives ?
                 (prev.first >= availableAlternatives.first.alternatives.length ? 0 : prev.first) : 0,
@@ -766,9 +764,18 @@ const lectureAlternatives = {
             },
             {
                 patr_autor: "Bernhard von Clairvaux († 1153)",
+                patr_werk: "Aus einer Rede über Mariä Namen.",
+                patr_bezug: "(vom Gedenktag Mariae Namen)",
+                patr_text: "^hUnd°der°Name°der°Jungfrau°war°Maria: Stern°des°Meeres^p„Der Name der Jungfrau“, sagt der Evangelist, „war Maria“{1#Lk 1,27}. Wir wollen ein wenig über diesen Namen sprechen. Er heißt übersetzt: Stern des Meeres und eignet sich sehr wohl für die Jungfrau-Mutter. Sehr zutreffend nämlich ist sie einem Stern vergleichbar.^pWie der Stern ohne Einbuße seiner selbst seinen Strahl aussendet, so hat sie als Jungfrau den Sohn geboren, ohne dass ihre Jungfräulichkeit gemindert wurde. Der Strahl mindert nicht des Sternes Helligkeit, so auch nicht der Sohn die Unversehrtheit der Jungfrau.^pSie ist jener hehre Stern, aufgegangen aus Jakob, dessen Strahl die ganze Welt erleuchtet, dessen Glanz die Himmel überstrahlt, die Tiefen durchdringt und alle Lande erhellt. Er erwärmt mehr den Geist als den Körper, lässt die Tugenden reifen und verbrennt die Laster. Sie ist, sage ich, jener herrliche, auserlesene Stern, unendlich erhoben über das weite Meer, strahlend durch Verdienste, leuchtend als Vorbild.^pWenn du erfährst, dass dieses Erdenleben mehr ein Dahintreiben in Wellen, Wind und Wetter ist als ein Dahinschreiten auf festem Land: Wende deine Augen nicht ab vom Licht dieses Sternes, damit du nicht untergehst in den Stürmen.^lWenn die Sturmwinde der Versuchungen daherbrausen, wenn du zwischen die Klippen der Drangsale verschlagen wirst, blick auf zum Stern, ruf zu Maria!^lWenn dich emporschleudern Wogen des Stolzes, des Ehrgeizes, der Verleumdung, der Eifersucht – blick auf zum Stern, ruf zu Maria!^lWenn Zorn, Habsucht oder die Begierde des Eleisches deine Seele erschüttern – blick auf zu Maria!^lWenn dich die Last der Sünden drückt und die Schmach des Gewissens beschämt, wenn dich die Strenge des Gerichtes schreckt, wenn du drohst von abgrundtiefer Traurigkeit und Verzweiflung verschlungen zu werden – denk an Maria!^pIn Gefahren, in Ängsten, in Zweifeln – denk an Maria, ruf zu Maria! Ihr Name weiche nicht aus deinem Munde, weiche nicht aus deinem Herzen!^pDamit du aber ihre Hilfe und Fürbitte erlangest, vergiss nicht das Vorbild ihres Wandels!^lFolge ihr, und du wirst nicht vom Wege weichen.^lBitte sie, und niemals bist du hoffnungslos.^lDenk an sie, dann irrst du nicht.^lHält sie dich fest, wirst du nicht fallen.^lSchützt sie dich, dann fürchte nichts.^lFührt sie dich, wirst du nicht müde.^pIst sie dir gnädig, dann kommst du ans Ziel und wirst selbst erfahren, wie richtig es heißt: Und der Name der Jungfrau war Maria – Stern des Meeres.",
+                patr_resp1: "Wahrhaft gesegnet bist du unter den Frauen, denn Evas Fluch hast du in Segen verwandelt.",
+                patr_resp2: "Durch dich leuchtet die Huld des Vaters den Menschen auf.",
+                patr_resp3: "Die vor dir waren, haben durch dich das Heil gefunden."
+            },
+            {
+                patr_autor: "Bernhard von Clairvaux († 1153)",
                 patr_werk: "Aus einer Predigt über den Aquädukt.",
                 patr_bezug: "(vom Gedenktag U.L.Fr.°vom°Rosenkranz)",
-                patr_text: "^hWir°sollen°die°Geheimnisse°des°Heils betrachten^p„Darum wird auch das Kind heilig und Sohn Gottes genannt werden“ {1#Lk 1,35}, Quell der Weisheit, Wort des Vaters in der Höhe! Durch dich, heilige Jungfrau, wird das Wort Fleisch. Er, der da spricht: „Ich bin im Vater, und der Vater ist in mir“ {2#Joh 14,10}, sagt trotzdem auch: „Von Gott bin ich ausgegangen und gekommen.“ {3#Joh 8,42}^p„Im Anfang“, heißt es, „war das Wort.“ {4#Joh 1,1} Schon sprudelt der Quell, aber zunächst noch in sich. „Das Wort war Gott“ {5#Ebd.} und wohnte infolgedessen im unzugänglichen Licht {6#vgl.°1 Tim 6,16}. Der Herr sprach von Anbeginn: „Ich denke Gedanken des Friedens, nicht des Unheils.“ {7#Jer 29,11 (Vgl.)} Aber dieses Denken ist in dir, und wir wissen es nicht, was du denkst, „denn wer hat die Gedanken des Herrn erkannt, oder wer ist sein Ratgeber gewesen?“ {8#Röm 11,34}^pSo steigt der Gedanke des Friedens herab zum Werk des Friedens: „Das Wort ist Fleisch geworden und hat unter uns gewohnt.“ {9#Joh 1,14} Es wohnt durch den Glauben in unseren Herzen {10#vgl.°Eph 3,17}, es wohnt in unserem Gedächtnis, in unserem Denken, ja es steigt bis in unsere Vorstellungskraft hinab. Was sollte der Mensch vorher von Gott denken? Es reichte vielleicht aus, sich im Herzen ein Götzenbild zu machen. Gott war unbegreiflich, unnahbar, unsichtbar und völlig unausdenkbar. Aber jetzt wollte er begriffen werden, wollte gesehen, wollte gedacht werden.^pWie? fragst du. Nun, dadurch, dass er in der Krippe lag, im Schoß der Jungfrau weilte, auf dem Berg predigte, Nächte hindurch betete, dadurch, dass er am Kreuz hing, im Tod erblasste, frei unter Toten in der Welt des Todes galt, als Herr erwies, am dritten Tag auferstand, den Aposteln die Male der Nägel, die Zeichen seines Sieges zeigte, und zuletzt dadurch, dass er vor ihnen in den Himmel aufstieg.^pWelcher von all diesen Gedanken wäre nicht wirklich, fromm und heilig? Was immer ich hiervon bedenke: ich denke Gott, und in allem ist er mein Gott. Das zu betrachten, sage ich, ist Weisheit, und ich hielt es für Klugheit, wenn das Gedächtnis überquillt von Süßigkeit, die der Stab des Priesters aus solchen Kernen reich hervorfließen lässt {11#vgl.°Ps 88,6 (röm.)} {12#vgl.°Ex 17,6}. Maria schöpft aus dem Quell im Himmel und lässt die Weisheit überreich auf uns niederströmen.",
+                patr_text: "^hWir°sollen°die°Geheimnisse°des°Heils°betrachten^p„Darum wird auch das Kind heilig und Sohn Gottes genannt werden“ {1#Lk 1,35}, Quell der Weisheit, Wort des Vaters in der Höhe! Durch dich, heilige Jungfrau, wird das Wort Fleisch. Er, der da spricht: „Ich bin im Vater, und der Vater ist in mir“ {2#Joh 14,10}, sagt trotzdem auch: „Von Gott bin ich ausgegangen und gekommen.“ {3#Joh 8,42}^p„Im Anfang“, heißt es, „war das Wort.“ {4#Joh 1,1} Schon sprudelt der Quell, aber zunächst noch in sich. „Das Wort war Gott“ {5#Ebd.} und wohnte infolgedessen im unzugänglichen Licht {6#vgl.°1 Tim 6,16}. Der Herr sprach von Anbeginn: „Ich denke Gedanken des Friedens, nicht des Unheils.“ {7#Jer 29,11 (Vgl.)} Aber dieses Denken ist in dir, und wir wissen es nicht, was du denkst, „denn wer hat die Gedanken des Herrn erkannt, oder wer ist sein Ratgeber gewesen?“ {8#Röm 11,34}^pSo steigt der Gedanke des Friedens herab zum Werk des Friedens: „Das Wort ist Fleisch geworden und hat unter uns gewohnt.“ {9#Joh 1,14} Es wohnt durch den Glauben in unseren Herzen {10#vgl.°Eph 3,17}, es wohnt in unserem Gedächtnis, in unserem Denken, ja es steigt bis in unsere Vorstellungskraft hinab. Was sollte der Mensch vorher von Gott denken? Es reichte vielleicht aus, sich im Herzen ein Götzenbild zu machen. Gott war unbegreiflich, unnahbar, unsichtbar und völlig unausdenkbar. Aber jetzt wollte er begriffen werden, wollte gesehen, wollte gedacht werden.^pWie? fragst du. Nun, dadurch, dass er in der Krippe lag, im Schoß der Jungfrau weilte, auf dem Berg predigte, Nächte hindurch betete, dadurch, dass er am Kreuz hing, im Tod erblasste, frei unter Toten in der Welt des Todes galt, als Herr erwies, am dritten Tag auferstand, den Aposteln die Male der Nägel, die Zeichen seines Sieges zeigte, und zuletzt dadurch, dass er vor ihnen in den Himmel aufstieg.^pWelcher von all diesen Gedanken wäre nicht wirklich, fromm und heilig? Was immer ich hiervon bedenke: ich denke Gott, und in allem ist er mein Gott. Das zu betrachten, sage ich, ist Weisheit, und ich hielt es für Klugheit, wenn das Gedächtnis überquillt von Süßigkeit, die der Stab des Priesters aus solchen Kernen reich hervorfließen lässt {11#vgl.°Ps 88,6 (röm.)} {12#vgl.°Ex 17,6}. Maria schöpft aus dem Quell im Himmel und lässt die Weisheit überreich auf uns niederströmen.",
                 patr_resp1: "Jungfrau Maria, keine ist dir gleich unter den Töchtern Jerusalems: du bist die Mutter der Könige, die Herrin der Engel und die Königin des Himmels.",
                 patr_resp2: "Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes.",
                 patr_resp3: "Sei gegrüßt, du Gnadenvolle, der Herr ist mit dir."
