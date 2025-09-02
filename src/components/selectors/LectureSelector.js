@@ -198,42 +198,29 @@ const LectureSelector = ({
                 }
             });
 
-            return { alternatives: processedAlternatives, groups };
+            const hasAlternatives = processedAlternatives.length > 1 || groups.size > 0;
+            const hasAlternativeText = processedAlternatives.some(b => b.index > 0 && b.hasText) ||
+                Array.from(groups.values()).some(groupItems =>
+                    groupItems.some(item => item.hasText)
+                );
+            const onlyAlternativeResp = hasAlternatives &&
+                processedAlternatives.filter(b => b.index > 0).every(b => b.onlyResp) &&
+                Array.from(groups.values()).every(groupItems =>
+                    groupItems.every(item => item.onlyResp)
+                );
+
+            return {
+                alternatives: processedAlternatives,
+                groups,
+                hasAlternatives,
+                hasAlternativeText,
+                onlyAlternativeResp
+            };
         };
 
-        // Verarbeite erste und zweite Lesungen
-        const firstResult = processAlternatives(firstAlternatives, 'first', firstKeyword);
-        const secondResult = processAlternatives(secondAlternatives, 'second', secondKeyword);
-
         return {
-            first: {
-                hasAlternatives: firstResult.alternatives.length > 1 || firstResult.groups.size > 0,
-                hasAlternativeText: firstResult.alternatives.some(b => b.index > 0 && b.hasText) ||
-                    Array.from(firstResult.groups.values()).some(groupItems =>
-                        groupItems.some(item => item.hasText)
-                    ),
-                onlyAlternativeResp: (firstResult.alternatives.length > 1 || firstResult.groups.size > 0) &&
-                    firstResult.alternatives.filter(b => b.index > 0).every(b => b.onlyResp) &&
-                    Array.from(firstResult.groups.values()).every(groupItems =>
-                        groupItems.every(item => item.onlyResp)
-                    ),
-                alternatives: firstResult.alternatives,
-                groups: firstResult.groups
-            },
-            second: {
-                hasAlternatives: secondResult.alternatives.length > 1 || secondResult.groups.size > 0,
-                hasAlternativeText: secondResult.alternatives.some(b => b.index > 0 && b.hasText) ||
-                    Array.from(secondResult.groups.values()).some(groupItems =>
-                        groupItems.some(item => item.hasText)
-                    ),
-                onlyAlternativeResp: (secondResult.alternatives.length > 1 || secondResult.groups.size > 0) && // Nur wenn Alternativen vorhanden sind
-                    secondResult.alternatives.filter(b => b.index > 0).every(b => b.onlyResp) && // Prüfe nur Alternativen (nicht Standard)
-                    Array.from(secondResult.groups.values()).every(groupItems =>
-                        groupItems.every(item => item.onlyResp)
-                    ),
-                alternatives: secondResult.alternatives,
-                groups: secondResult.groups
-            }
+            first: processAlternatives(firstAlternatives, 'first', firstKeyword),
+            second: processAlternatives(secondAlternatives, 'second', secondKeyword)
         };
     }, [getValue, localPrefLanguage]);
 
