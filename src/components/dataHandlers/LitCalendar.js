@@ -149,7 +149,8 @@ function calculateRanks(date, season, week, dayOfWeek, swdCombined, afterPenteco
 
     return {
         rank_wt: calculateRankWt(),
-        rank_date: calculateRankDate()
+        rank_date: calculateRankDate(),
+        hasVigil: calculateRankWt() > 2 || calculateRankDate() > 2
     };
 }
 

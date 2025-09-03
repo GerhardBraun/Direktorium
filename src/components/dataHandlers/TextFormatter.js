@@ -119,7 +119,7 @@ const findOAntiphon = (data) => {
 }
 
 // Formatiert Psalmen mit Nummer, Versen, Titel und Text
-export const formatPsalm = (psalmRef, inv, localPrefLanguage = '') => {
+export const formatPsalm = (psalmRef, num, localPrefLanguage = '') => {
     if (!psalmRef) return null;
 
     const psalm = resolveReference(psalmRef);
@@ -127,9 +127,9 @@ export const formatPsalm = (psalmRef, inv, localPrefLanguage = '') => {
 
     const number = psalm[`number${localPrefLanguage}`] || psalm.number;
     const text = psalm[`text${localPrefLanguage}`] || psalm.text;
-    const verses = inv ? '' : psalm[`verses${localPrefLanguage}`] || psalm.verses || "";
-    const title = inv ? '' : psalm[`title${localPrefLanguage}`] || psalm.title || "";
-    const quote = inv ? '' : psalm[`quote${localPrefLanguage}`] || psalm.quote || "";
+    const verses = !num ? '' : psalm[`verses${localPrefLanguage}`] || psalm.verses || "";
+    const title = !num ? '' : psalm[`title${localPrefLanguage}`] || psalm.title || "";
+    const quote = !num ? '' : psalm[`quote${localPrefLanguage}`] || psalm.quote || "";
 
     const doxology =
         (localPrefLanguage === "_lat"
@@ -137,11 +137,13 @@ export const formatPsalm = (psalmRef, inv, localPrefLanguage = '') => {
             ? "Glória Patri et Fílio^*et Spirítui Sancto.^pSicut erat in princípio, et°nunc°et°semper^*et in sǽcula sæculórum. Amen."
             : "Ehre sei dem Vater und dem Sohn^*und dem Heiligen Geist,^pwie im Anfang, so°auch°jetzt°und°alle°Zeit^*und in Ewigkeit. Amen.";
 
+    const ordinal = ['', 'Erstes ', 'Zweites ', 'Drittes ']
+
     return (
         <div className="mb-4">
             <div className="font-bold text-rubric">
                 {number > 0 && (
-                    number > 150 ? (<>Canticum: {formatBibleRef(verses)}</>) : (
+                    number > 150 ? (<>{ordinal?.[num]}Canticum: {formatBibleRef(verses)}</>) : (
                         <>  Psalm {number}
                             {verses && <>{formatBibleRef(`,${verses}`)}</>}
                         </>

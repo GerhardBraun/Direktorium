@@ -55,16 +55,6 @@ const LectureSelector = ({
             return formatPrayerText(text.replace(/[.!?;:,]+$/, '') + '\u00a0…');
         };
 
-        const checkLanguageField = (field, alternativeData) => {
-            if (!field || !alternativeData) return null;
-
-            const languageField = field + localPrefLanguage;
-
-            if (getValue(field)?.endsWith(localPrefLanguage)) {
-                return alternativeData[languageField] || alternativeData[field] || null;
-            }
-            else return alternativeData[field] || null;
-        }
         // Neue Hilfsfunktion zum Extrahieren der Überschrift aus dem Text
         const extractTitle = (text) => {
             if (!text) return null;
@@ -73,7 +63,7 @@ const LectureSelector = ({
         };
 
         // Angepasste checkLanguageField-Funktion für Titel
-        const checkLanguageFieldWithTitle = (field, alternativeData, titleField = null) => {
+        const checkLanguageField = (field, alternativeData, titleField = null) => {
             if (!field || !alternativeData) return null;
 
             const languageField = field + localPrefLanguage;
@@ -105,6 +95,7 @@ const LectureSelector = ({
         const secondAlternatives = lectureAlternatives[secondKeyword]?.second || [];
 
         // Funktion zum Verarbeiten der Alternativen mit Gruppen
+        // Funktion zum Verarbeiten der Alternativen mit Gruppen
         const processAlternatives = (alternatives, lectureType, keyword) => {
             const processedAlternatives = [];
             const groups = new Map(); // Map für Gruppen: groupName -> groupData
@@ -130,14 +121,16 @@ const LectureSelector = ({
 
                 processedAlternatives.push({
                     index: 0,
-                    marian: keyword.startsWith('Maria'),
+                    hide: (lectureType === 'first' && getValue('les_text') === 'LEER')
+                        || (lectureType === 'second' && getValue('patr_text') === 'LEER'),
+                    marian: keyword.includes('Maria'),
                     buttonText: getStandardButtonText(),
                     buttonResp: lectureType === 'first'
                         ? abbreviate(getValue('resp1'))
                         : abbreviate(getValue('patr_resp1')),
                     hasText: lectureType === 'first'
-                        ? !!getValue('les_text')
-                        : !!getValue('patr_text'),
+                        ? !!getValue('les_text') && getValue('les_text') !== 'LEER'
+                        : !!getValue('patr_text') && getValue('patr_text') !== 'LEER',
                     onlyResp: lectureType === 'first'
                         ? !getValue('les_text') && !!getValue('resp1')
                         : !getValue('patr_text') && !!getValue('patr_resp1')
@@ -149,6 +142,11 @@ const LectureSelector = ({
 
             alternatives.forEach((altData, index) => {
                 if (!altData) return;
+
+                // Prüfe excludeYear-Bedingung
+                if (altData.excludeYear && texts.yearABC === altData.excludeYear) {
+                    return; // Überspringe diese Alternative
+                }
 
                 const actualIndex = index + 1; // +1 wegen Standard bei Index 0
 
@@ -162,23 +160,21 @@ const LectureSelector = ({
                 // Erstelle Alternative
                 const alternative = {
                     index: actualIndex,
-                    marian: keyword.startsWith('Maria'),
+                    marian: keyword.includes('Maria'),
                     buttonText: lectureType === 'first'
                         ? chain(
                             checkLanguageField('les_buch', altData),
-                            checkLanguageFieldWithTitle('les_stelle', altData, 'les_text')
+                            checkLanguageField('les_stelle', altData)
                         )
                         : chain(
                             checkLanguageField('patr_autor', altData),
-                            checkLanguageFieldWithTitle('patr_werk', altData, 'patr_text'),
+                            checkLanguageField('patr_werk', altData, 'patr_text'),
                             ':',
                         ),
                     buttonResp: lectureType === 'first'
                         ? abbreviate(checkLanguageField('resp1', altData))
                         : abbreviate(checkLanguageField('patr_resp1', altData)),
-                    bezug: lectureType === 'second'
-                        ? formatPrayerText(checkLanguageField('patr_bezug', altData))
-                        : undefined,
+                    bezug: formatPrayerText(checkLanguageField('bezug', altData)),
                     hasText: lectureType === 'first'
                         ? !!altData.les_text
                         : !!altData.patr_text,
@@ -198,26 +194,34 @@ const LectureSelector = ({
                 }
             });
 
-            const hasAlternatives = processedAlternatives.length > 1 || groups.size > 0;
-            const hasAlternativeText = processedAlternatives.some(b => b.index > 0 && b.hasText) ||
+            // Rest der Funktion bleibt unverändert...
+            const hasAlternatives = processedAlternatives.filter(alt => !alt.hide).length > 1 ||
                 Array.from(groups.values()).some(groupItems =>
-                    groupItems.some(item => item.hasText)
+                    groupItems.filter(item => !item.hide).length > 0);
+
+            const hasAlternativeText = processedAlternatives.filter(alt => !alt.hide).some(b => b.index > 0 && b.hasText) ||
+                Array.from(groups.values()).some(groupItems =>
+                    groupItems.filter(item => !item.hide).some(item => item.hasText)
                 );
+
             const onlyAlternativeResp = hasAlternatives &&
-                processedAlternatives.filter(b => b.index > 0).every(b => b.onlyResp) &&
+                processedAlternatives.filter(b => b.index > 0 && !b.hide).every(b => b.onlyResp) &&
                 Array.from(groups.values()).every(groupItems =>
-                    groupItems.every(item => item.onlyResp)
+                    groupItems.filter(item => !item.hide).every(item => item.onlyResp)
                 );
+
+            const defaultIndex = processedAlternatives[0]?.hide ?
+                processedAlternatives.find(alt => !alt.hide)?.index || 0 : 0;
 
             return {
                 alternatives: processedAlternatives,
                 groups,
                 hasAlternatives,
                 hasAlternativeText,
-                onlyAlternativeResp
+                onlyAlternativeResp,
+                defaultIndex
             };
         };
-
         return {
             first: processAlternatives(firstAlternatives, 'first', firstKeyword),
             second: processAlternatives(secondAlternatives, 'second', secondKeyword)
@@ -290,17 +294,17 @@ const LectureSelector = ({
             return marian ? 'btn-blue' : 'btn-brown';
         };
 
-        const renderButton = (button, showGroupLabel = false) => (
+        const renderButton = (button, showGroupLabel = false, isFirstVisible = false) => (
             <button
                 key={button.index}
                 onClick={() => handleSelectionChange(button.index)}
                 className={`w-full text-sm text-left px-2 pt-2 pb-1 mt-1 rounded
-                    ${getButtonColor(button)}
-                    ${currentSelection === button.index ? 'ring-2 ring-yellow-500' : ''}`}
+            ${getButtonColor(button)}
+            ${currentSelection === button.index ? 'ring-2 ring-yellow-500' : ''}`}
             >
                 <div className="flex items-baseline gap-0">
                     <div className="opacity-70 shrink-0 w-10">
-                        {button.index === 0 ? '' : 'Oder:'}
+                        {isFirstVisible ? '' : 'Oder:'}
                     </div>
                     <div>
                         {onlyResp
@@ -340,9 +344,11 @@ const LectureSelector = ({
 
         return (
             <div className="mb-4">
-                {alternatives.map(button => renderButton(button))}
+                {alternatives
+                    .filter(button => !button.hide)  // Versteckte Buttons ausfiltern
+                    .map((button, filterIndex) => renderButton(button, false, filterIndex === 0))}
                 {Array.from(groups.entries()).map(([groupName, groupItems]) =>
-                    renderGroupButton(groupName, groupItems)
+                    renderGroupButton(groupName, groupItems.filter(item => !item.hide))
                 )}
             </div>
         );
@@ -350,13 +356,59 @@ const LectureSelector = ({
 
     // Reset selections when alternatives change
     useEffect(() => {
-        console.log('availableAlternatives aktualisiert:', availableAlternatives);
-        setSelectedLecture(prev => ({
-            first: availableAlternatives.first.hasAlternatives ?
-                (prev.first >= availableAlternatives.first.alternatives.length ? 0 : prev.first) : 0,
-            second: availableAlternatives.second.hasAlternatives ?
-                (prev.second >= availableAlternatives.second.alternatives.length ? 0 : prev.second) : 0
-        }));
+        const getFirstValidIndex = (alternatives, groups) => {
+            // Finde den ersten nicht-versteckten Button
+            const validAlternative = alternatives.find(alt => !alt.hide);
+            if (validAlternative) return validAlternative.index;
+
+            // Falls keine Alternative gefunden, suche in Gruppen
+            for (const groupItems of groups.values()) {
+                const validItem = groupItems.find(item => !item.hide);
+                if (validItem) return validItem.index;
+            }
+            return 0;
+        };
+
+        const defaultFirst = getFirstValidIndex(
+            availableAlternatives.first.alternatives,
+            availableAlternatives.first.groups
+        );
+        const defaultSecond = getFirstValidIndex(
+            availableAlternatives.second.alternatives,
+            availableAlternatives.second.groups
+        );
+
+        setSelectedLecture(prev => {
+            // Prüfe ob aktuell gewählte Buttons versteckt sind
+            const currentFirstButton = availableAlternatives.first.alternatives.find(alt => alt.index === prev.first);
+            const currentSecondButton = availableAlternatives.second.alternatives.find(alt => alt.index === prev.second);
+
+            let newFirst = prev.first;
+            let newSecond = prev.second;
+
+            // Korrigiere ersten Button falls versteckt oder außerhalb des gültigen Bereichs
+            if (currentFirstButton?.hide || prev.first >= availableAlternatives.first.alternatives.length) {
+                newFirst = defaultFirst;
+            } else if (availableAlternatives.first.hasAlternatives) {
+                newFirst = Math.max(prev.first, defaultFirst);
+            } else {
+                newFirst = defaultFirst;
+            }
+
+            // Korrigiere zweiten Button falls versteckt oder außerhalb des gültigen Bereichs
+            if (currentSecondButton?.hide || prev.second >= availableAlternatives.second.alternatives.length) {
+                newSecond = defaultSecond;
+            } else if (availableAlternatives.second.hasAlternatives) {
+                newSecond = Math.max(prev.second, defaultSecond);
+            } else {
+                newSecond = defaultSecond;
+            }
+
+            return { first: newFirst, second: newSecond };
+        });
+
+        console.log('availableAlternatives aktualisiert:', availableAlternatives, defaultFirst, defaultSecond);
+
     }, [availableAlternatives]);
 
     // Prüfe ob überhaupt Lesungen vorhanden sind
@@ -373,7 +425,8 @@ const LectureSelector = ({
             {hasFirstLecture && (
                 <div className="mb-0">
                     <SectionHeader
-                        title={hour === "lesehore" ? "ERSTE LESUNG" : "KURZLESUNG"}
+                        title={hour === "vigil" ? "EVANGELIUM" :
+                            hour === "lesehore" ? "ERSTE LESUNG" : "KURZLESUNG"}
                         field="les_text"
                         askContinuous={true}
                     />
@@ -384,13 +437,13 @@ const LectureSelector = ({
 
                     {/* Anzeige der ersten Lesung */}
                     <div>
-                        {hour !== "lesehore" && (
+                        {!['lesehore', 'vigil'].includes(hour) && (
                             <div className="text-[0.9em] text-gray-400">
                                 {formatPrayerText(selected("les_buch"))}{" "}
                                 {formatBibleRef(selected("les_stelle"))}
                             </div>
                         )}
-                        {hour === "lesehore" && (
+                        {['lesehore', 'vigil'].includes(hour) && (
                             <>
                                 <div>
                                     <span className="mr-3">
@@ -509,10 +562,17 @@ const lectureAlternatives = {
     },
     "j-12-0": {
         second: [{
-            patr_autor: "Meister Eckehart (†vor 1328)",
+            patr_autor: "Meister Eckehart († vor 1328)",
             patr_werk: "Aus den Reden der Unterweisung.",
             patr_text: "^hWesen°und°Werk°der°Liebe^pZwei Dinge musst du beachten, die sich in der Liebe finden: Das eine ist das Wesen der Liebe, das andere ist ein Werk oder ein Ausdruck des Wesens der Liebe.^pDie Stätte der Liebe ist allein im Willen; wer mehr Willen hat, der hat auch mehr Liebe. Aber wer davon mehr hat, das weiß niemand vom andern; das liegt verborgen in der Seele, während Gott im Grunde der Seele liegt.^pNun gibt’s aber noch ein Zweites: das ist ein Ausdruck oder ein Werk der Liebe. Das tritt uns recht in die Augen, wie zum Beispiel Innigkeit und Andacht und Jubilieren, und ist dennoch allwegs nicht das Beste. Denn es stammt mitunter gar nicht von der Liebe her, sondern es kommt bisweilen aus der Natur, dass man solches Wohlgefühl und süßes Empfinden hat, oder es mag des Himmels Einfluss oder auch durch die Sinne eingetragen sein.^pDie dergleichen öfter erfahren, das sind nicht allwegs die Allerbesten. Denn, sei’s auch, dass es wirklich von Gott stamme, so gibt unser Herr das solchen Menschen, um sie zu locken oder zu reizen, auf dass man dadurch von anderen Menschen recht ferngehalten wird. Wenn aber diese gleichen Menschen hernach an Liebe zunehmen, so mögen sie nicht mehr soviel Gefühle und Empfindungen haben, und daran erst wird ganz deutlich, dass sie Liebe haben: wenn sie auch ohne solchen Rückhalt Gott ganz und fest Treue bewahren.^pMan soll nämlich von solchem Jubilus bisweilen ablassen um eines Besseren aus Liebe willen und um zuweilen ein Liebeswerk zu wirken, wo es dessen not tut, sei’s geistlich oder weltlich oder leiblich. Wie ich auch sonst schon gesagt habe: Wäre der Mensch so in Verzückung, wie’s Sankt Paulus war, und wüsste einen kranken Menschen, der eines Süppleins von ihm bedürfte, ich erachtete es für weit besser, du ließest aus Liebe von der Verzückung ab und dientest dem Bedürftigen in größerer Liebe.^pNicht soll der Mensch wähnen, dass er dabei Gnaden versäume; denn was der Mensch aus Liebe willig lässt, das wird ihm um vieles herrlicher zuteil, wie Christus sprach: „Wer etwas lässt um meinetwillen, der wird hundertmal soviel zurückerhalten.“{1#vgl. Mk 10,29f}",
         }]
+    },
+    "j-14-6": {
+        second: [{
+            patr_autor: "Gemeinsame Synode der Bistümer in der Bundesrepublik Deutschland (1971–1975)",
+            patr_werk: "Aus dem Synodenbeschluss „Ehe und Familie“.",
+            patr_text: "^hEhe im Verständnis christlichen Glaubens^pDie christliche Ehe lebt aus dem Glauben an Gott, der sich in Jesus Christus der Welt selbst vorbehaltlos mitgeteilt hat. Diese seine Liebe ist jedem einzelnen und der gesamten Menschheit so zugewandt, dass wir für unser eigenes Leben und für die ganze menschliche Geschichte Hoffnung auf eine Vollendung und Erfüllung haben dürfen, welche alles Vorstellen übersteigt.^pDie lebendige Gegenwart der in Jesus Christus geschenkten Liebe Gottes zu bezeugen und die in ihr für alle Menschen begründete Hoffnung zu verkünden, ist die eine, alles umgreifende Sendung der Kirche. An ihr hat die Ehe ihren Anteil; denn christliche Ehepartner bezeugen in ihrem gemeinsamen Leben die Liebe Gottes, indem sie durch ihre eigene Liebe und Treue die Liebe Gottes sichtbar machen.^p„In ihrer Aufgabe, menschliches Leben weiterzugeben“, einer Sendung, die nur ihnen zukommt, sind sie „Interpreten“ der schöpferischen Liebe Gottes. Indem sie in hochherziger menschlicher und christlicher Verantwortung Kindern das Leben schenken, erfüllen sie einen wesentlichen Auftrag der Ehe{1#@Gaudium et spes 50,2}. Die Ehe behält jedoch als Lebensgemeinschaft in gegenseitiger Liebe ihren Wert, auch wenn sie kinderlos bleibt.^pChristliche Ehepartner leben ihre auf Glaube, Hoffnung und Liebe begründete Ehe in der Kirche als dem konkreten Ort der Erlösung. Sie werden dort mit der Heilkraft Jesu Christi beschenkt. So dienen sie zugleich dem Aufbau und Auftrag der Kirche; denn sie leben „nicht sich selbst“, sondern „für den Herrn“{2#Röm 14,7f}.^pDas Leben in und mit der christlichen Gemeinde kann zum Gelingen der Ehe beitragen; es soll die Ehepartner zu vertiefter Begegnung befähigen und zu unverbrüchlicher Treue führen. Aber auch die christliche Gemeinde muss durch ihre Solidarität mit den Ehepaaren dazu beitragen, deren Belastungen und Konflikte leichter zu bewältigen.^p^hAnthropologische Voraussetzungen^pDie unbedingte Annahme des anderen Menschen wird existentielle Wirklichkeit in der Treue. Durch sie ist der innerste Wille der Liebe dem Wechsel der Gefühle und der Willkür entzogen. In der Treue gewinnt die Liebe Dauer. Die unbedingte Treue der Gatten wird verlangt durch ihr gegenseitiges Sichschenken in Liebe sowie durch das Wohl ihrer Kinder, die von ihren Eltern ein Leben lang angenommen sein wollen.^pDiese Liebe in Treue ist vor allem dem möglich, der in der Tiefe seiner Person hoffen kann, dass er selbst wie auch der andere nicht im Tod dem Nichts anheimfallen. Darum lebt solche Liebe immer – selbst wenn sie es nicht weiß – aus der Hoffnung auf Gott. Treue ist eine Frucht der Hoffnung und bringt auch in das Dasein des anderen Menschen die Möglichkeit zur Hoffnung.^pFür Christen heißt das: In der Bindung bis in den Tod bringt ein Ehegatte die Liebe Christi, von der nichts scheiden kann{3#Röm 8,35}, in die alltägliche Nähe des Ehepartners. In solcher ein ganzes Leben umspannender Treue zeigt sich die Fülle christlicher Existenz: der Glaube an den Auferstandenen, welcher den Glauben an die Auferweckung des Ehepartners einschließt; die Hoffnung, welche für den anderen hofft, indem sie auf Christus setzt; die Liebe, die am anderen festhält, weil sie ihn in Christi Liebe zu bejahen vermag.^pVor diesem Hintergrund wird verständlich, warum Ehescheidung für Christen unmöglich ist. Jesus sagt: „Wer seine Frau entlässt und eine andere heiratet, begeht Ehebruch gegen sie. Und wenn sie ihren Mann entlässt und einen anderen heiratet, begeht sie Ehebruch.“{4#Mk 10,11f}",
+        },]
     },
     "Christkönig": {
         second: [{
@@ -725,7 +785,7 @@ const lectureAlternatives = {
             {
                 patr_autor: "Laurentius Justiniani (†°1455)",
                 patr_werk: "Aus einer Predigt am Fest der Darstellung des Herrn.",
-                patr_bezug: "(vom°Gedenktag°Herz°Mariae)",
+                bezug: "(vom°Gedenktag°Herz°Mariae)",
                 patr_text: "^hMaria°bewahrte°alles, was°geschehen°war, in°ihrem°Herzen^pAls Maria all das bei sich erwog, was sie durch Lesen, Hören und Sehen erkannt hatte, wie sehr wuchsen da ihr Glaube und ihre Verdienste! Mehr und mehr wurde sie erleuchtet durch die Weisheit und entzündet von der Glut der Liebe.^pÜber die alte Offenbarung der himmlischen Geheimnisse hinaus wurde sie weitergeführt, ihre Freude wurde vollendet, im Übermaß wurde sie befruchtet durch den Heiligen Geist. Sie wurde zu Gott hingeführt und wurde doch in der Demut bewahrt.^pVon solcher Art ist die Wirkung der göttlichen Gnade, dass sie den Menschen aus der Tiefe erhebt zur Höhe und ihn umgestaltet von Klarheit zu Klarheit.^pJa, selig das Herz der Jungfrau, das durch die Einwohnung und Führung des Heiligen Geistes allezeit und in allem dem Befehl des Wortes Gottes gehorchte. Nicht von ihrem eigenen Sinn, nicht von ihrem eigenen Willen ließ sie sich leiten, sondern, was die Weisheit in ihrem Herzen sie zu glauben aufforderte, das wurde nach außen hin durch den Dienst des Leibes der Jungfrau bewirkt. Es ziemte sich nämlich für die göttliche Weisheit, als sie sich das Haus der Kirche als Wohnung erbauen wollte, dass sie die selige Jungfrau Maria wegen ihrer Gesetzestreue und Herzensreinheit, wegen ihrer beispielhaften Demut und ihrer geistlichen Hingabe als Mittel dazu benutze.^pGläubige Seele, ahme Maria nach! Geh in den Tempel deines Herzens, damit du im Geist gereinigt werden kannst von der Befleckung der Sünden. Gott achtet nämlich in allem, was wir tun, mehr auf unsere Gesinnung als auf unser Werk. Sei es daher, dass wir durch die Übung der Betrachtung in unserem Herzen Gott Raum geben und für ihn frei sind, sei es, dass wir durch die Übung der Tugenden und durch gute Werke danach streben, enthaltsam zu sein zum Wohl unseres Nächsten, immer sollen wir so handeln, dass allein die Liebe Christi uns drängt. Das nämlich ist das wohlgefällige Opfer geistlicher Reinigung, das nicht in einem von Menschenhand gebauten Tempel dargebracht wird, sondern in einem Herzen, in das der Herr Jesus Christus mit Freuden eintritt.",
                 patr_resp1: "Heilige und makellose Jungfrau, du bist allen Lobes würdig.",
                 patr_resp2: "Den die Himmel nicht fassen, ihn trugst du in deinem Schoß.",
@@ -734,7 +794,7 @@ const lectureAlternatives = {
             {
                 patr_autor: "Leo der Große (†°461)",
                 patr_werk: "Aus einer Weihnachtspredigt.",
-                patr_bezug: "(vom Gedenktag U.L.Fr.°vom°Berge°Karmel)",
+                bezug: "(vom Gedenktag U.L.Fr.°vom°Berge°Karmel)",
                 patr_text: "^hMaria°empfing°in°ihrem°Geist, bevor°sie°in°ihrem°Leib°empfing^pEine Jungfrau aus dem königlichen Geschlecht Davids wird erwählt. Sie wird schwanger von heiliger Frucht. Sie sollte diesen Sohn, der zugleich Gott ist und Mensch, in ihrem Geist empfangen, bevor sie ihn in ihrem Leib empfing.^pDamit sie nicht in Unkenntnis des göttlichen Ratschlusses über die ungewöhnlichen Vorgänge erschrecke, erfuhr sie aus dem Gespräch mit dem Engel, was der Heilige Geist in ihr wirken sollte. So denkt sie denn nicht an die Verletzung ihrer Keuschheit, obwohl sie schon bald Gott gebären sollte. Wie sollte sie der nie gehörten Art der Empfängnis misstrauen, da das versprochene Ereignis doch durch die Kraft des Allerhöchsten gewirkt werden wird?^pDas Vertrauen ihres Glaubens wird durch ein Wunder gestärkt, das vorher geschehen soll: Elisabet wird fruchtbar gegen alle Erwartung. Maria soll nicht daran zweifeln, dass Gott, der der Unfruchtbaren die Kraft gibt zu empfangen, sie auch der Jungfrau verleihen wird.^pDas Wort Gottes also, Gott selbst, der Sohn Gottes, der ‚im Anfang bei Gott war, durch den alles geworden ist und ohne den nichts geworden ist‘{1#vgl.°Joh°1,1.3}, er ist Mensch geworden, um die Menschen vom ewigen Tod zu befreien. Er ließ sich ohne Minderung seiner Herrlichkeit dazu herab, unsere Niedrigkeit anzunehmen. Er blieb, was er war, und nahm an, was er nicht war, und vereinigte so die Knechtsgestalt mit der Gottesgestalt, in der er dem Vater gleich war.^pBeide Naturen verband er so eng, dass die Verherrlichung das Niedere nicht verschlang und dass die Annahme des Niederen das Höhere nicht minderte. Beide Naturen behielten ihre Besonderheit und vereinigten sich zu einer Person. So wurde die Niedrigkeit von der Majestät angenommen, die Schwachheit von der Kraft, die Sterblichkeit von der Ewigkeit.^pUm die Schuld, in der wir stehen, abzuzahlen, wurde die unverletzliche Natur mit der leidensfähigen verbunden; der wahre Gott mit dem wahren Menschen zur Einheit des Herrn zusammengefügt. So konnte, wie es für unser Heil angemessen war, der ‚eine‘ und gleiche ‚Mittler zwischen Gott und den Menschen‘{2#vgl.°1°Tim 2,6} in der einen Natur sterben und durch die andere auferstehen.^pMit Recht fügte die Geburt des Heils der Unversehrtheit der Jungfrau keinen Schaden zu; denn die Geburt der Wahrheit bewahrte die Keuschheit.^pMeine Lieben, für Christus, die Kraft und Weisheit Gottes, ziemte sich eine solche Geburt, durch die er sich das Menschsein anpasste und uns durch die Gottheit überragte. Denn wäre er nicht wahrer Gott, könnte er uns keine Heilung bringen, und wäre er nicht wahrer Mensch, könnte er uns nicht Vorbild sein.^pDarum jubeln die Engel bei der Geburt des Herrn und singen: „Ehre sei Gott in der Höhe!“, und sie verkünden: „Friede auf Erden den Menschen seiner Gnade“{3#vgl.°Lk 2,24}. Denn sie sehen, wie aus allen Völkern der Welt das himmlische Jerusalem erbaut wird. Wie sehr muss sich der Mensch in seiner Erniedrigung freuen über diese unfassbare Liebe Gottes, wenn schon die Engel in der Höhe darüber voll Freude jubeln?",
                 patr_resp1: "Selig preisen mich alle Geschlechter, denn Großes hat der Herr an mir getan.",
                 patr_resp2: "Heilig ist sein Name.",
@@ -743,7 +803,7 @@ const lectureAlternatives = {
             {
                 patr_autor: "Amadeus von Lausanne († 1159)",
                 patr_werk: "Aus einer Homilie über Maria.",
-                patr_bezug: "(vom Gedenktag Maria°Königin)",
+                bezug: "(vom Gedenktag Maria°Königin)",
                 patr_text: "^hKönigin°der°Welt und Königin°des°Friedens^pSchon vor der Aufnahme Marias in den Himmel erstrahlte ihr Name auf der ganzen Erde, ihr erhabener Ruf verbreitete sich überall, noch bevor ihre Hoheit über die Himmel erhoben wurde{1#vgl.°Ps 8,2 Vg.}. So war es angemessen: um der Ehre ihres Sohnes willen musste die jungfräuliche Mutter zunächst auf der Erde herrschen, dann erst durfte sie den Himmel empfangen; ihr Ruf musste sich zunächst hier unten verbreiten, um dann in heiliger Fülle in die überirdischen Reiche Eingang zu finden; wie sie in dieser Welt getragen wurde von stets wachsender Kraft{2#vgl.°Ps 84,8}, so musste sie auch in der anderen Welt durch den Geist des Herrn getragen werden von Herrlichkeit zu Herrlichkeit.^pAls sie noch im Irdischen lebte, kostete sie bereits die Erstlingsgaben des kommenden Reiches: Bald preist sie die unaussprechliche Hoheit Gottes; bald lässt sie sich in unsagbarer Liebe zu den Mitmenschen herab. Bald dienen ihr die Engel, bald betet sie Gott an durch den Dienst an den Menschen. Gabriel diente ihr mit den Engeln. Johannes freut sich, dass ihm die jungfräuliche Mutter unter dem Kreuz anvertraut wird, und er dient ihr mit den Aposteln. Die einen freuen sich, ihre Königin zu schauen, die anderen, ihre Herrin zu sehen. Alle dienen ihr mit liebender Hingabe.^pJetzt thront sie in der hohen Burg des Himmels. Ein Meer göttlicher Gaben strömt von ihr aus, und sie selber gießt über das dürstende Volk der Gläubigen in verschwenderischer Fülle jene Gnade aus, durch die sie alle überragt. Sie schenkt dem Leib Gesundheit, der Seele Salbung; sie hat die Macht, vom Tod des Leibes und der Seele zu erwecken. Wer ist jemals von ihr gegangen, krank oder traurig, ohne der himmlischen Geheimnisse innezuwerden? Wer kam nicht nach Hause, froh und glücklich, von der Mutter des Herrn erlangt zu haben, was er erbat?^pDie Braut, die Mutter des einzigen Bräutigams, ist überreich an hohem Gut. Gütig und liebenswert ist sie in ihrer Seligkeit, Quelle im Garten des Lebens, Brunnen lebendigen und lebenspendenden Wassers, das machtvoll vom göttlichen Libanon herabfließt. Vom Berg Zion kommt es, bis es draußen alle Völker umfließt: Ströme des Friedens und Bäche der Gnaden, die vom Himmel kommen.^pAls die Jungfrau der Jungfrauen von Gott und ihrem Sohn, dem König der Könige, entrückt wurde, jubelten die Engel, freuten sich die Erzengel, der Himmel brach in Lobrufe aus, und die Weissagung des Psalmisten kam in Erfüllung: „Die Braut steht dir zur Rechten, ihr Gewand ist durchwirkt mit Gold und Perlen.“{3#Ps 45,10.14}",
                 patr_resp1: "Ein großes Zeichen erschien im Himmel; eine Frau mit der Sonne bekleidet, der Mond zu ihren Füßen,",
                 patr_resp2: "auf ihrem Haupt eine Krone von zwölf Sternen.",
@@ -752,7 +812,7 @@ const lectureAlternatives = {
             {
                 patr_autor: "Bernhard von Clairvaux († 1153)",
                 patr_werk: "Aus einer Rede über Mariä Namen.",
-                patr_bezug: "(vom Gedenktag Mariae Namen)",
+                bezug: "(vom Gedenktag Mariae Namen)",
                 patr_text: "^hUnd°der°Name°der°Jungfrau°war°Maria: Stern°des°Meeres^p„Der Name der Jungfrau“, sagt der Evangelist, „war Maria“{1#Lk 1,27}. Wir wollen ein wenig über diesen Namen sprechen. Er heißt übersetzt: Stern des Meeres und eignet sich sehr wohl für die Jungfrau-Mutter. Sehr zutreffend nämlich ist sie einem Stern vergleichbar.^pWie der Stern ohne Einbuße seiner selbst seinen Strahl aussendet, so hat sie als Jungfrau den Sohn geboren, ohne dass ihre Jungfräulichkeit gemindert wurde. Der Strahl mindert nicht des Sternes Helligkeit, so auch nicht der Sohn die Unversehrtheit der Jungfrau.^pSie ist jener hehre Stern, aufgegangen aus Jakob, dessen Strahl die ganze Welt erleuchtet, dessen Glanz die Himmel überstrahlt, die Tiefen durchdringt und alle Lande erhellt. Er erwärmt mehr den Geist als den Körper, lässt die Tugenden reifen und verbrennt die Laster. Sie ist, sage ich, jener herrliche, auserlesene Stern, unendlich erhoben über das weite Meer, strahlend durch Verdienste, leuchtend als Vorbild.^pWenn du erfährst, dass dieses Erdenleben mehr ein Dahintreiben in Wellen, Wind und Wetter ist als ein Dahinschreiten auf festem Land: Wende deine Augen nicht ab vom Licht dieses Sternes, damit du nicht untergehst in den Stürmen.^lWenn die Sturmwinde der Versuchungen daherbrausen, wenn du zwischen die Klippen der Drangsale verschlagen wirst, blick auf zum Stern, ruf zu Maria!^lWenn dich emporschleudern Wogen des Stolzes, des Ehrgeizes, der Verleumdung, der Eifersucht – blick auf zum Stern, ruf zu Maria!^lWenn Zorn, Habsucht oder die Begierde des Eleisches deine Seele erschüttern – blick auf zu Maria!^lWenn dich die Last der Sünden drückt und die Schmach des Gewissens beschämt, wenn dich die Strenge des Gerichtes schreckt, wenn du drohst von abgrundtiefer Traurigkeit und Verzweiflung verschlungen zu werden – denk an Maria!^pIn Gefahren, in Ängsten, in Zweifeln – denk an Maria, ruf zu Maria! Ihr Name weiche nicht aus deinem Munde, weiche nicht aus deinem Herzen!^pDamit du aber ihre Hilfe und Fürbitte erlangest, vergiss nicht das Vorbild ihres Wandels!^lFolge ihr, und du wirst nicht vom Wege weichen.^lBitte sie, und niemals bist du hoffnungslos.^lDenk an sie, dann irrst du nicht.^lHält sie dich fest, wirst du nicht fallen.^lSchützt sie dich, dann fürchte nichts.^lFührt sie dich, wirst du nicht müde.^pIst sie dir gnädig, dann kommst du ans Ziel und wirst selbst erfahren, wie richtig es heißt: Und der Name der Jungfrau war Maria – Stern des Meeres.",
                 patr_resp1: "Wahrhaft gesegnet bist du unter den Frauen, denn Evas Fluch hast du in Segen verwandelt.",
                 patr_resp2: "Durch dich leuchtet die Huld des Vaters den Menschen auf.",
@@ -761,7 +821,7 @@ const lectureAlternatives = {
             {
                 patr_autor: "Bernhard von Clairvaux († 1153)",
                 patr_werk: "Aus einer Predigt über den Aquädukt.",
-                patr_bezug: "(vom Gedenktag U.L.Fr.°vom°Rosenkranz)",
+                bezug: "(vom Gedenktag U.L.Fr.°vom°Rosenkranz)",
                 patr_text: "^hWir°sollen°die°Geheimnisse°des°Heils°betrachten^p„Darum wird auch das Kind heilig und Sohn Gottes genannt werden“ {1#Lk 1,35}, Quell der Weisheit, Wort des Vaters in der Höhe! Durch dich, heilige Jungfrau, wird das Wort Fleisch. Er, der da spricht: „Ich bin im Vater, und der Vater ist in mir“ {2#Joh 14,10}, sagt trotzdem auch: „Von Gott bin ich ausgegangen und gekommen.“ {3#Joh 8,42}^p„Im Anfang“, heißt es, „war das Wort.“ {4#Joh 1,1} Schon sprudelt der Quell, aber zunächst noch in sich. „Das Wort war Gott“ {5#Ebd.} und wohnte infolgedessen im unzugänglichen Licht {6#vgl.°1 Tim 6,16}. Der Herr sprach von Anbeginn: „Ich denke Gedanken des Friedens, nicht des Unheils.“ {7#Jer 29,11 (Vgl.)} Aber dieses Denken ist in dir, und wir wissen es nicht, was du denkst, „denn wer hat die Gedanken des Herrn erkannt, oder wer ist sein Ratgeber gewesen?“ {8#Röm 11,34}^pSo steigt der Gedanke des Friedens herab zum Werk des Friedens: „Das Wort ist Fleisch geworden und hat unter uns gewohnt.“ {9#Joh 1,14} Es wohnt durch den Glauben in unseren Herzen {10#vgl.°Eph 3,17}, es wohnt in unserem Gedächtnis, in unserem Denken, ja es steigt bis in unsere Vorstellungskraft hinab. Was sollte der Mensch vorher von Gott denken? Es reichte vielleicht aus, sich im Herzen ein Götzenbild zu machen. Gott war unbegreiflich, unnahbar, unsichtbar und völlig unausdenkbar. Aber jetzt wollte er begriffen werden, wollte gesehen, wollte gedacht werden.^pWie? fragst du. Nun, dadurch, dass er in der Krippe lag, im Schoß der Jungfrau weilte, auf dem Berg predigte, Nächte hindurch betete, dadurch, dass er am Kreuz hing, im Tod erblasste, frei unter Toten in der Welt des Todes galt, als Herr erwies, am dritten Tag auferstand, den Aposteln die Male der Nägel, die Zeichen seines Sieges zeigte, und zuletzt dadurch, dass er vor ihnen in den Himmel aufstieg.^pWelcher von all diesen Gedanken wäre nicht wirklich, fromm und heilig? Was immer ich hiervon bedenke: ich denke Gott, und in allem ist er mein Gott. Das zu betrachten, sage ich, ist Weisheit, und ich hielt es für Klugheit, wenn das Gedächtnis überquillt von Süßigkeit, die der Stab des Priesters aus solchen Kernen reich hervorfließen lässt {11#vgl.°Ps 88,6 (röm.)} {12#vgl.°Ex 17,6}. Maria schöpft aus dem Quell im Himmel und lässt die Weisheit überreich auf uns niederströmen.",
                 patr_resp1: "Jungfrau Maria, keine ist dir gleich unter den Töchtern Jerusalems: du bist die Mutter der Könige, die Herrin der Engel und die Königin des Himmels.",
                 patr_resp2: "Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes.",
@@ -770,7 +830,7 @@ const lectureAlternatives = {
             {
                 patr_autor: "Augustinus († 430)",
                 patr_werk: "Aus einer Predigt über Maria als Vorbild christlichen Glaubens.",
-                patr_bezug: "(vom Gedenktag U.L.Fr.°von°Jerusalem)",
+                bezug: "(vom Gedenktag U.L.Fr.°von°Jerusalem)",
                 patr_text: "^hIm°Glauben°vertraute°sie, im°Glauben°empfing°sie^pAchtet darauf, was Christus der Herr gesagt hat: „er streckte die Hand über seine Jünger aus und sagte: Das hier sind meine Mutter und meine Brüder. Denn wer den Willen meines himmlischen Vaters erfüllt, der ist für mich Bruder und Schwester und Mutter.“{1#Mt 12,49-50} Handelte nun die Jungfrau Maria etwa nicht nach dem Willen des Vaters, sie, die im Glauben vertraute und im Glauben empfing; sie, die dazu erwählt wurde, für uns unter den Menschen das Heil zur Welt zu bringen; sie, die Christus der Herr schuf, noch ehe Christus in ihr erschaffen wurde? Ja, die heilige Maria handelte nach dem Willen des Vaters, sie tat es in vollem Umfang. Darum ist es von größerer Bedeutung, dass sie Jüngerin Christi, als dass sie seine Mutter war. Mehr und seliger war es, Jüngerin Christi zu sein als seine Mutter. Maria war selig, dass sie Christus im Schoße trug, ehe sie ihn zur Welt brachte, ihn, den Meister.^pSieh, ob es nicht so ist, wie ich sage: Als der Herr mit den ihm folgenden Scharen einherzog und göttliche Wunder wirkte, da sagte eine Frau: „Selig die Frau, deren Leib dich getragen hat!“{2#Lk 11,27} Und was entgegnete der Herr, damit niemand nach irdischem Glück sucht? „Selig sind vielmehr die, die das Wort Gottes hören und es befolgen!“{3#Lk 11,28} Auch Maria ist darum selig zu preisen, weil sie das Wort Gottes hörte und befolgte. Es war bedeutungsvoller, dass sie in ihrem Herzen die Wahrheit, als dass sie in ihrem Leib das Fleisch Christi bewahrte. Christus ist Wahrheit und Fleisch zugleich. Als Wahrheit ist er im Herzen, als Fleisch im Leib Marias. Dass er im Herzen ist, bedeutet mehr, als dass er im Leib getragen wurde.^pHeilig ist Maria, selig ist sie. Aber noch seliger zu preisen als Maria ist die Kirche. Wieso das? Weil Maria ein Glied der Kirche ist, zwar ein heiliges, ein hervorragendes, ein überaus erhabenes Glied, aber doch ein Glied des ganzen Leibes. Wenn sie Glied des ganzen Leibes ist, dann ist doch sicherlich der ganze Leib mehr als das Glied. Der Herr ist das Haupt, der ganze Christus ist Haupt und Leib. Was soll ich sagen? Wir haben ein göttliches Haupt, wir haben Gott als Haupt!^pLiebe Brüder, achtet also darauf, dass auch ihr Glieder Christi, Leib Christi seid. Bedenkt, wieso ihr seid, was er sagt: „Das sind meine Mutter und meine Brüder.“ Wieso seid ihr seine Mutter? „Wer hört und nach dem Willen meines Vaters im Himmel handelt, der ist für mich Bruder, Schwester und Mutter.“",
                 patr_resp1: "Der Herr hat mich bekleidet mit dem Gewand des Heiles, das Kleid der Freude hat er mir angelegt.",
                 patr_resp2: "Er hat mich mit einer Krone geschmückt wie eine Braut.",
@@ -803,6 +863,382 @@ const lectureAlternatives = {
                 resp1_lat: "Ave, María, grátia plena;",
                 resp2_lat: "Dóminus°tecum.",
                 resp3_lat: "Benedícta tu in muliéribus, et benedíctus fructus ventris tui._lat"
+            },
+        ],
+    },
+    "vigil-8": {
+        first: [
+            {
+                les_buch: "Aus dem heiligen Evangelium nach Johannes.",
+                les_stelle: "21,1-14",
+                les_text: "^hJesus trat heran, nahm°das°Brot und°gab°es°ihnen^pJesus offenbarte sich den Jüngern noch einmal. Es war am See von Tibérias und er offenbarte sich in folgender Weise.^pSimon Petrus, Thomas, genannt Dídymus (Zwilling), Natánaël aus Kana in Galiläa, die Söhne des Zebedäus und zwei andere von seinen Jüngern waren zusammen. imon Petrus sagte zu ihnen: Ich gehe fischen. Sie sagten zu ihm: Wir kommen auch mit. Sie gingen hinaus und stiegen in das Boot. Aber in dieser Nacht fingen sie nichts.^pAls es schon Morgen wurde, stand Jesus am Ufer. Doch die Jünger wussten nicht, dass es Jesus war. esus sagte zu ihnen: Meine Kinder, habt ihr nicht etwas zu essen? Sie antworteten ihm: Nein. r aber sagte zu ihnen: Werft das Netz auf der rechten Seite des Bootes aus und ihr werdet etwas fangen. Sie warfen das Netz aus und konnten es nicht wieder einholen, so voller Fische war es.^pDa sagte der Jünger, den Jesus liebte, zu Petrus: Es ist der Herr!^pAls Simon Petrus hörte, dass es der Herr sei, gürtete er sich das Obergewand um, weil er nackt war, und sprang in den See. Dann kamen die anderen Jünger mit dem Boot – sie waren nämlich nicht weit vom Land entfernt, nur etwa zweihundert Ellen – und zogen das Netz mit den Fischen hinter sich her.^pAls sie an Land gingen, sahen sie am Boden ein Kohlenfeuer und darauf Fisch und Brot.^pJesus sagte zu ihnen: Bringt von den Fischen, die ihr gerade gefangen habt. Da ging Simon Petrus und zog das Netz an Land. Es war mit hundertdreiundfünfzig großen Fischen gefüllt, und obwohl es so viele waren, zerriss das Netz nicht.^pJesus sagte zu ihnen: Kommt her und esst! Keiner von den Jüngern wagte ihn zu fragen: Wer bist du? Denn sie wussten, dass es der Herr war.^pJesus trat heran, nahm das Brot und gab es ihnen, ebenso den Fisch.^pDies war schon das dritte Mal, dass Jesus sich den Jüngern offenbarte, seit er von den Toten auferstanden war.",
+                les_text_neu: "^hJesus trat heran, nahm°das°Brot und°gab°es°ihnen^pJesus offenbarte sich den Jüngern noch einmal, am See von Tibérias, und er offenbarte sich in folgender Weise.^pSimon Petrus, Thomas, genannt Dídymus (Zwilling), Natánaël aus Kana in Galiläa, die Söhne des Zebedäus und zwei andere von seinen Jüngern waren zusammen. imon Petrus sagte zu ihnen: Ich gehe fischen. Sie sagten zu ihm: Wir kommen auch mit. Sie gingen hinaus und stiegen in das Boot. Aber in dieser Nacht fingen sie nichts.^pAls es schon Morgen wurde, stand Jesus am Ufer. Doch die Jünger wussten nicht, dass es Jesus war. esus sagte zu ihnen: Meine Kinder, habt ihr keinen Fisch zu essen? Sie antworteten ihm: Nein. r aber sagte zu ihnen: Werft das Netz auf der rechten Seite des Bootes aus und ihr werdet etwas finden. Sie warfen das Netz aus und konnten es nicht wieder einholen, so voller Fische war es.^pDa sagte der Jünger, den Jesus liebte, zu Petrus: Es ist der Herr!^pAls Simon Petrus hörte, dass es der Herr sei, gürtete er sich das Obergewand um, weil er nackt war, und sprang in den See. Dann kamen die anderen Jünger mit dem Boot – sie waren nämlich nicht weit vom Land entfernt, nur etwa zweihundert Ellen – und zogen das Netz mit den Fischen hinter sich her.^pAls sie an Land gingen, sahen sie am Boden ein Kohlenfeuer und darauf Fisch und Brot liegen.^pJesus sagte zu ihnen: Bringt von den Fischen, die ihr gerade gefangen habt! Da stieg Simon Petrus ans Ufer und zog das Netz an Land. Es war mit hundertdreiundfünfzig großen Fischen gefüllt, und obwohl es so viele waren, zerriss das Netz nicht.^pJesus sagte zu ihnen: Kommt her und esst! Keiner von den Jüngern wagte ihn zu fragen: Wer bist du? Denn sie wussten, dass es der Herr war.^pJesus trat heran, nahm das Brot und gab es ihnen, ebenso den Fisch.^pDies war schon das dritte Mal, dass Jesus sich den Jüngern offenbarte, seit er von den Toten auferstanden war."
+            },
+        ],
+    },
+    "vigil-Dreifaltigkeit": {
+        first: [
+            {
+                excludeYear: "a",
+                les_buch: "Aus dem heiligen Evangelium nach Johannes.",
+                les_stelle: "3,16-18",
+                les_text: "^hGott hat seinen Sohn gesandt, damit die Welt durch ihn gerettet wird^p",
+                les_text_neu: "",
+            },
+            {
+                excludeYear: "b",
+                les_buch: "Aus dem heiligen Evangelium nach Matthäus.",
+                les_stelle: "28,16-20",
+                les_text: "^hTauft sie auf den Namen des Vaters und des Sohnes und des heiligen Geistes^p",
+                les_text_neu: "",
+            },
+            {
+                excludeYear: "c",
+                les_buch: "Aus dem heiligen Evangelium nach Johannes.",
+                les_stelle: "16,12-15",
+                les_text: "^hAlles, was der Vater hat, ist mein. Der Geist wird von dem, was mein ist, nehmen und es euch verkünden^p",
+                les_text_neu: "",
+            },
+        ],
+    },
+    "vigil-Fronleichnam": {
+        first: [
+            {
+                excludeYear: "a",
+                les_buch: "Aus dem heiligen Evangelium nach Johannes.",
+                les_stelle: "6,51-58",
+                les_text: "^hMein Fleisch ist wirklich eine Speise, und mein Blut ist wirklich ein Trank^p",
+                les_text_neu: "",
+            },
+            {
+                excludeYear: "b",
+                les_buch: "Aus dem heiligen Evangelium nach Markus.",
+                les_stelle: "14,12-16.22-26",
+                les_text: "^hDas ist mein Leib. Das ist mein Blut, das Blut des Bundes^p",
+                les_text_neu: "",
+            },
+            {
+                excludeYear: "c",
+                les_buch: "Aus dem heiligen Evangelium nach Lukas.",
+                les_stelle: "9,11b-17",
+                les_text: "^hAlle aßen und wurden satt^p",
+                les_text_neu: "",
+            },
+        ],
+    },
+    "vigil-HerzJesu": {
+        first: [
+            {
+                excludeYear: "a",
+                les_buch: "Aus dem heiligen Evangelium nach Matthäus.",
+                les_stelle: "11,25-30",
+                les_text: "^hLernt von mir, denn ich bin gütig und von Herzen demütig^p",
+                les_text_neu: "",
+            },
+            {
+                excludeYear: "b",
+                les_buch: "Aus dem heiligen Evangelium nach Johannes.",
+                les_stelle: "19,31-37",
+                les_text: "^hEiner der Soldaten stieß mit der Lanze ...^p",
+                les_text_neu: "",
+            },
+            {
+                excludeYear: "c",
+                les_buch: "Aus dem heiligen Evangelium nach Johannes.",
+                les_stelle: "15,3-7",
+                les_text: "^hFreut euch mit mir: Ich habe mein Schaf wiedergefunden, das verloren war^p",
+                les_text_neu: "",
+            },
+        ],
+    },
+    "vigil-Himmelfahrt": {
+        first: [
+            {
+                excludeYear: "a",
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+            {
+                excludeYear: "b",
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+            {
+                excludeYear: "c",
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+        ],
+    },
+    "vigil-Verklärung": {
+        first: [
+            {
+                excludeYear: "a",
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+            {
+                excludeYear: "b",
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+            {
+                excludeYear: "c",
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+        ],
+    },
+    "vigil-Christkönig": {
+        first: [
+            {
+                excludeYear: "a",
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+            {
+                excludeYear: "b",
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+            {
+                excludeYear: "c",
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+        ],
+    },
+    "vigil-q-1": {
+        first: [
+            {
+                excludeYear: "a",
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+            {
+                excludeYear: "b",
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+            {
+                excludeYear: "c",
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+        ],
+    },
+    "vigil-q-2": {
+        first: [
+            {
+                excludeYear: "a",
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+            {
+                excludeYear: "b",
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+            {
+                excludeYear: "c",
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+        ],
+    },
+    "vigil-q-3": {
+        first: [
+            {
+                excludeYear: "a",
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+            {
+                excludeYear: "b",
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+            {
+                excludeYear: "c",
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+        ],
+    },
+    "vigil-q-4": {
+        first: [
+            {
+                excludeYear: "a",
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+            {
+                excludeYear: "b",
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+            {
+                excludeYear: "c",
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+        ],
+    },
+    "vigil-q-5": {
+        first: [
+            {
+                excludeYear: "a",
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+            {
+                excludeYear: "b",
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+            {
+                excludeYear: "c",
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+        ],
+    },
+    "vigil-KarFr": {
+        first: [
+            {
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+            {
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+            {
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+        ],
+    },
+    "vigil-KarSa": {
+        first: [
+            {
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+            {
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+            {
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+        ],
+    },
+    "vigil-Maria": {
+        first: [
+            {
+                les_buch: "Aus dem heiligen Evangelium nach Matthäus.",
+                les_stelle: "1,18-23",
+                les_text: "^hDas Kind, das sie erwartet, ist vom Heiligen Geist^pMit der Geburt Jesu Christi war es so:^lMaria, seine Mutter, war mit Josef verlobt; noch bevor sie zusammengekommen waren, zeigte sich, dass sie ein Kind erwartete – durch das Wirken des Heiligen Geistes.^pJosef, ihr Mann, der gerecht war und sie nicht bloßstellen wollte, beschloss, sich in aller Stille von ihr zu trennen.^pWährend er noch darüber nachdachte, erschien ihm ein Engel des Herrn im Traum und sagte: Josef, Sohn Davids, fürchte dich nicht, Maria als deine Frau zu dir zu nehmen; denn das Kind, das sie erwartet, ist vom Heiligen Geist. Sie wird einen Sohn gebären; ihm sollst du den Namen Jesus geben; denn er wird sein Volk von seinen Sünden erlösen.^pDies alles ist geschehen, damit sich erfüllte, was der Herr durch den Propheten gesagt hat: Seht, die Jungfrau wird ein Kind empfangen, einen Sohn wird sie gebären, und man wird ihm den Namen Immanuel geben, das heißt übersetzt: Gott ist mit uns.^pAls Josef erwachte, tat er, was der Engel des Herrn ihm befohlen hatte, und nahm seine Frau zu sich. Er erkannte sie aber nicht, bis sie ihren Sohn gebar. Und er gab ihm den Namen Jesus.",
+                les_text_neu: "^hDas Kind, das sie erwartet, ist vom Heiligen Geist^pMit der Geburt Jesu Christi war es so:^lMaria, seine Mutter, war mit Josef verlobt; noch bevor sie zusammengekommen waren, zeigte sich, dass sie ein Kind erwartete – durch das Wirken des Heiligen Geistes.^pJosef, ihr Mann, der gerecht war und sie nicht bloßstellen wollte, beschloss, sich in aller Stille von ihr zu trennen.^pWährend er noch darüber nachdachte, siehe, da erschien ihm ein Engel des Herrn im Traum und sagte: Josef, Sohn Davids, fürchte dich nicht, Maria als deine Frau zu dir zu nehmen; denn das Kind, das sie erwartet, ist vom Heiligen Geist. Sie wird einen Sohn gebären; ihm sollst du den Namen Jesus geben; denn er wird sein Volk von seinen Sünden erlösen.^pDies alles ist geschehen, damit sich erfüllte, was der Herr durch den Propheten gesagt hat: Siehe, die Jungfrau wird ein Kind empfangen und einen Sohn gebären, und sie werden ihm den Namen Immanuel geben, das heißt übersetzt: Gott mit uns.^pAls Josef erwachte, tat er, was der Engel des Herrn ihm befohlen hatte, und nahm seine Frau zu sich. Er erkannte sie aber nicht, bis sie ihren Sohn gebar. Und er gab ihm den Namen Jesus.",
+            },
+            {
+                les_buch: "Aus dem heiligen Evangelium nach Matthäus.",
+                les_stelle: "2,13-15.19-23",
+                les_text: "^hNimm das Kind und seine Mutter, und flieh nach Ägypten!^pAls die Sterndeuter wieder gegangen waren, erschien dem Josef im Traum ein Engel des Herrn und sagte: Steh auf, nimm das Kind und seine Mutter, und flieh nach Ägypten; dort bleibe, bis ich dir etwas anderes auftrage; denn Herodes wird das Kind suchen, um es zu töten.^pDa stand Josef in der Nacht auf und floh mit dem Kind und dessen Mutter nach Ägypten. Dort blieb er bis zum Tod des Herodes. Denn es sollte sich erfüllen, was der Herr durch den Propheten gesagt hat: Aus Ägypten habe ich meinen Sohn gerufen.^pAls Herodes gestorben war, erschien dem Josef in Ägypten ein Engel des Herrn im Traum und sagte: Steh auf, nimm das Kind und seine Mutter und zieh in das Land Israel; denn die Leute, die dem Kind nach dem Leben getrachtet haben, sind tot.^pDa stand er auf und zog mit dem Kind und dessen Mutter in das Land Israel. Als er aber hörte, dass in Judäa Archelaus an Stelle seines Vaters Herodes regierte, fürchtete er sich, dorthin zu gehen. Und weil er im Traum einen Befehl erhalten hatte, zog er in das Gebiet von Galiläa und ließ sich in einer Stadt namens Nazaret nieder.^pDenn es sollte sich erfüllen, was durch die Propheten gesagt worden ist: Er wird Nazoräer genannt werden.",
+                les_text_neu: "^hNimm das Kind und seine Mutter, und flieh nach Ägypten!^pAls die Sterndeuter wieder gegangen waren, siehe, da erschien dem Josef im Traum ein Engel des Herrn und sagte: Steh auf, nimm das Kind und seine Mutter, und flieh nach Ägypten; dort bleibe, bis ich dir etwas anderes auftrage; denn Herodes wird das Kind suchen, um es zu töten.^pDa stand Josef auf und floh in der Nacht mit dem Kind und dessen Mutter nach Ägypten. Dort blieb er bis zum Tod des Herodes. Denn es sollte sich erfüllen, was der Herr durch den Propheten gesagt hat: Aus Ägypten habe ich meinen Sohn gerufen.^pAls Herodes gestorben war, siehe, da erschien dem Josef in Ägypten ein Engel des Herrn im Traum und sagte: Steh auf, nimm das Kind und seine Mutter und zieh in das Land Israel; denn die Leute, die dem Kind nach dem Leben getrachtet haben, sind tot.^pDa stand er auf und zog mit dem Kind und dessen Mutter in das Land Israel. Als er aber hörte, dass in Judäa Archelaus an Stelle seines Vaters Herodes regierte, fürchtete er sich, dorthin zu gehen. Und weil er im Traum einen Befehl erhalten hatte, zog er in das Gebiet von Galiläa und ließ sich in einer Stadt namens Nazaret nieder.^pDenn es sollte sich erfüllen, was durch die Propheten gesagt worden ist: Er wird Nazoräer genannt werden.",
+            },
+            {
+                les_buch: "Aus dem heiligen Evangelium nach Lukas.",
+                les_stelle: "1,26-38",
+                les_text: "^h^pIn jener Zeit wurde der Engel Gabriel von Gott in eine Stadt in Galiläa namens Nazaret zu einer Jungfrau gesandt. Sie war mit einem Mann namens Josef verlobt, der aus dem Haus David stammte. Der Name der Jungfrau war Maria.^pDer Engel trat bei ihr ein und sagte: Sei gegrüßt, du Begnadete, der Herr ist mit dir.^pSie erschrak über die Anrede und überlegte, was dieser Gruß zu bedeuten habe.^pDa sagte der Engel zu ihr: Fürchte dich nicht, Maria; denn du hast bei Gott Gnade gefunden. Du wirst ein Kind empfangen, einen Sohn wirst du gebären: dem sollst du den Namen Jesus geben.^pEr wird groß sein und Sohn des Höchsten genannt werden. Gott, der Herr, wird ihm den Thron seines Vaters David geben. Er wird über das Haus Jakob in Ewigkeit herrschen und seine Herrschaft wird kein Ende haben.^pMaria sagte zu dem Engel: Wie soll das geschehen, da ich keinen Mann erkenne?^pDer Engel antwortete ihr: Der Heilige Geist wird über dich kommen, und die Kraft des Höchsten wird dich überschatten. Deshalb wird auch das Kind heilig und Sohn Gottes genannt werden.^pAuch Elisabet, deine Verwandte, hat noch in ihrem Alter einen Sohn empfangen; obwohl sie als unfruchtbar galt, ist sie jetzt schon im sechsten Monat. Denn für Gott ist nichts unmöglich.^pDa sagte Maria: Ich bin die Magd des Herrn; mir geschehe, wie du es gesagt hast.^pDanach verließ sie der Engel.",
+                les_text_neu: "^h^pIn jener Zeit wurde der Engel Gabriel von Gott in eine Stadt in Galiläa namens Nazaret zu einer Jungfrau gesandt. Sie war mit einem Mann namens Josef verlobt, der aus dem Haus David stammte. Der Name der Jungfrau war Maria.^pDer Engel trat bei ihr ein und sagte: Sei gegrüßt, du Begnadete, der Herr ist mit dir.^pSie erschrak über die Anrede und überlegte, was dieser Gruß zu bedeuten habe.^pDa sagte der Engel zu ihr: Fürchte dich nicht, Maria; denn du hast bei Gott Gnade gefunden. Siehe, du wirst schwanger werden und einen Sohn wirst du gebären; dem sollst du den Namen Jesus geben.^pEr wird groß sein und Sohn des Höchsten genannt werden. Gott, der Herr, wird ihm den Thron seines Vaters David geben. Er wird über das Haus Jakob in Ewigkeit herrschen und seine Herrschaft wird kein Ende haben.^pMaria sagte zu dem Engel: Wie soll das geschehen, da ich keinen Mann erkenne?^pDer Engel antwortete ihr: Der Heilige Geist wird über dich kommen, und Kraft des Höchsten wird dich überschatten. Deshalb wird auch das Kind heilig und Sohn Gottes genannt werden.^pSiehe, auch Elisabet, deine Verwandte, hat noch in ihrem Alter einen Sohn empfangen; obwohl sie als unfruchtbar galt, ist sie schon im sechsten Monat. Denn für Gott ist nichts unmöglich.^pDa sagte Maria: Siehe, ich bin die Magd des Herrn; mir geschehe, wie du es gesagt hast.^pDanach verließ sie der Engel.",
+            },
+        ],
+    },
+    "vigil-": {
+        first: [
+            {
+                excludeYear: "a",
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+            {
+                excludeYear: "b",
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+            {
+                excludeYear: "c",
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
             },
         ],
     },

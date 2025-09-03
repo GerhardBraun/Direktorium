@@ -106,6 +106,7 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         rank_wt,
         afterPentecost,
         isCommemoration,
+        hasVigil
     } = getLiturgicalInfo(date);
     const { rank_date } = getLiturgicalInfo(calendarDate);
 
@@ -120,8 +121,9 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
     const hours = {
         erstev: { wt: {}, pers: {} },
         invitatorium: { wt: {}, pers: {} },
-        laudes: { wt: {}, pers: {} },
         lesehore: { wt: {}, pers: {} },
+        vigil: { wt: {}, pers: {} },
+        laudes: { wt: {}, pers: {} },
         terz: { wt: {}, pers: {} },
         sext: { wt: {}, pers: {} },
         non: { wt: {}, pers: {} },
@@ -208,6 +210,9 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         //if (season === 'j') { addLayer('pj', weekOfPsalter, dayOfWeek); }
         //if (season === 'o') { addLayer('po', weekOfPsalter, dayOfWeek); }
 
+        const weekOfEight = week % 8 || 8
+        addLayer('pvigil', weekOfEight, dayOfWeek)
+
         addLayer(season, 'each', 'each', true);     // Layer 2: Season-wide texts
         addLayer(season, 'each', dayOfWeek);        // Layer 3: Weekly schema for the season
         if (week % 2 === 0) {                       // Layer 4: Bi-weekly schema
@@ -279,6 +284,7 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
             rank_date,
             isCommemoration,
             shouldUseLast,
+            hasVigil,
             prefComm: (rank_date > 2 || rank_wt > 2 || [41, 46].includes(afterPentecost)) ? 1 : 0,
             ...cleanupZeroReferences(hours)
         };
@@ -412,13 +418,10 @@ function processTerzPsalms(hours) {
     return hours;
 }
 
-function processAntABC(hours, date) {
+function processAntABC(hours, yearABC) {
     ['erstev', 'laudes', 'vesper'].forEach(hour => {
-        const year = date.getFullYear();
-        const remainder = year % 3;
-
-        const antField = ['antc', 'anta', 'antb'][remainder];
-        const antFieldLat = `${antField}_lat`;
+        const antField = 'ant' + yearABC;
+        const antFieldLat = antField + '_lat';
 
         if (hours[hour].wt?.[antField]) {
             hours[hour].wt.antev = hours[hour].wt[antField];
@@ -628,9 +631,15 @@ export function processBrevierData(todayDate) {
         (rankNextDate === 5 || (rankNextDate === 4 && dayOfWeek === 6)))
         || rankNextDate === 6; // Sonderfall Weihnachten (Vorrang auch vor dem 4. Advent)
 
+    //Lesejahr ABC
+    const year = todayDate.getFullYear();
+    const remainder = year % 3;
+    const yearABC = ['c', 'a', 'b'][remainder]
+
     // Stelle die endgültigen Daten zusammen
     const finalData = {
         ...todayData,
+        yearABC,
         rankNextWt: rankNextWt,
         rankNextDate: rankNextDate,
         swdCombined: todayInfo.swdCombined
@@ -648,7 +657,7 @@ export function processBrevierData(todayDate) {
 
     // Wende die finalen Verarbeitungsschritte an
     processTerzPsalms(finalData);
-    processAntABC(finalData, calendarDate);
+    processAntABC(finalData, yearABC);
     const kompletSettings = processKompletData(finalData, calendarDate);
     finalData.komplet = {
         ...finalData.komplet,

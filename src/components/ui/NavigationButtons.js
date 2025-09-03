@@ -8,6 +8,7 @@ const NavigationButtons = ({ hour, onBack, onSelectHour, topButton = false, text
                     { label: 'Lesehore', name: 'lesehore' },
                     { label: 'Laudes', name: 'laudes' }
                 ];
+            case 'vigil':
             case 'lesehore':
                 return [
                     { label: 'Laudes', name: 'laudes' },
@@ -67,7 +68,7 @@ const NavigationButtons = ({ hour, onBack, onSelectHour, topButton = false, text
         // Wenn kein name angegeben ist, nichts tun
         if (!name) return;
         localStorage.setItem('ommitOpening',
-            ['invitatorium', 'lesehore'].includes(hour)
+            ['invitatorium', 'lesehore', 'vigil'].includes(hour)
                 ? 'true' : 'false');
         // Zuerst zur nächsten Hore wechseln
         onSelectHour(name, texts);

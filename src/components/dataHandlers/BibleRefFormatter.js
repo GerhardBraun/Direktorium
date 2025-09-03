@@ -1,6 +1,7 @@
 import React from 'react';
 
 const formatBibleRef = (text, bracket = false) => {
+    if (!text) return null
     const originalText = bracket ? `(${text})` : text;
     let formattedText = text
         .replace(/-/g, '–')

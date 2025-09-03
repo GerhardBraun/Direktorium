@@ -177,6 +177,7 @@ const ordinariumData = {
 }
 
 function getOpeningTexts(hour, localPrefLatin) {
+
     const opening_inv = localPrefLatin ? [
         "Dómine, lábia mea apéries.",
         "Et os meum annuntiábit laudem tuam.",
@@ -204,7 +205,8 @@ function getOpeningTexts(hour, localPrefLatin) {
         }
     }
 
-    if (getLocalStorage('ommitOpening') === 'true') {
+    if (getLocalStorage('ommitOpening') === 'true'
+        || hour === 'vigil') {
         return ["", "", "", ""];
     }
     return localPrefLatin ? [
@@ -222,6 +224,7 @@ function getOpeningTexts(hour, localPrefLatin) {
 
 function getClosingTexts(hour, localPrefLatin) {
     const languageToRead = localPrefLatin ? 'lat' : 'dt';
+    if (hour === 'vigil') { hour = 'lesehore' }
 
     // Versuche zuerst spezifische Abschlusstexte für die Hore zu finden
     const specificClosing = ordinariumData?.[hour]?.[languageToRead]?.closing;
@@ -257,7 +260,7 @@ export const ordinarium = (texts, hour = '', localPrefLatin = false, prefSollemn
 
     let ordinariumTexts = ordinariumData?.[hour]?.[languageToRead] || {};
 
-    if (hour === 'lesehore' &&
+    if (['lesehore', 'vigil'].includes(hour) &&
         ((texts?.rank_wt > 2 && texts?.season !== 'p')
             || texts?.rank_date > 2
             || prefSollemnity)) {

@@ -2873,6 +2873,13 @@ export const psalmsData = {
         "text_neu": "Gepriesen sei Gott, der in Ewigkeit lebt,^*und gepriesen sei sein Reich!^pDenn er straft und hat Erbarmen.^+Er führt hinab in die tiefste Unterwelt unter der Erde und führt empor aus dem großen Verderben.^*Es gibt nichts, was seiner Hand entrinnt.^pIhr Kinder Israels, bezeugt ihn vor den Heiden,^*denn er hat euch unter sie zerstreut^pund hat euch dort seine Größe gezeigt.^*Erhebt ihn vor allem, was lebt!^*^pDenn er ist unser Herr, er unser Gott,^*er unser Vater, er ist Gott in alle Ewigkeit.^pEr straft euch für euer Unrecht,^*doch er erbarmt sich über euch alle.^pPreist den Herrn der Gerechtigkeit,^*erhebt den König der Ewigkeit!^pIch will ihn bekennen im Land meiner Verbannung,^*seine Macht und Größe einem sündigen Volk verkünden.^pKehrt um, ihr Sünder,^*und übt Gerechtigkeit vor ihm, unserm Herrn!^pWer weiß, ob er euch nicht wieder wohlwill^*und euch Barmherzigkeit erweist!^pIch und meine Seele, wir jubeln freudig dem König des Himmels zu,^*meine Seele wird sich freuen alle Tage meines Lebens.^pPreist den Herrn, alle Erwählten,^*und ihr alle, lobt seine Größe!^*Ruft Festtage aus und bekennt ihn!",
         "title_lat": "Deus castigans et salvans",
         "text_lat": "Benedíctus Deus vivens in ævum,^*et regnum illíus,^pquia ipse flagéllat et miserétur,^+dedúcit usque ad ínferos deórsum et redúcit a perditíone maiestáte sua,^*et non est qui effúgiat manum eius.^pConfitémini illi, fílii Israel, coram natiónibus,^*quia ipse dispérsit vos in illis^pet ibi osténdit maiestátem suam.^*Et exaltáte illum coram omni vivénte,^pquóniam Dóminus noster, et ipse est pater noster,^*et ipse est Deus noster in ómnia sǽcula.^pFlagellábit vos ob iniquitátes vestras^*et ómnium miserébitur vestrum.^pBenedícite Dóminum iustítiæ^*et exaltáte regem sæculórum.^pEgo in terra captivitátis meæ confíteor illi^*et osténdo virtútem et maiestátem eius genti peccatórum.^pConvertímini, peccatóres,^+et fácite iustítiam coram illo.^*Quis scit, si velit vos et fáciat vobis misericórdiam?^pEgo et ánima mea regi cæli lætatiónes dícimus,^*et ánima mea lætábitur ómnibus diébus vitæ suæ."
+      },
+    1.0: {
+        "verses": "Tob°13",
+        "text": "Jerusalem, du heilige Stadt!^+Der Herr bestraft die°Taten°deiner°Kinder,^*doch er hat wieder Erbarmen mit den Gerechten.^pBekenne dich zum Herrn in°rechter°Weise,^*preise den ewigen König,^pdamit sein Zelt von°neuem°errichtet°wird,^*dir zur großen Freude!^pEr mache in dir die Gefangenen wieder°froh^+und schenke denen, die im Elend leben, seine°Liebe,^*für alle Zeiten bis in Ewigkeit.^pVon weither werden°die°Völker°kommen,^*um den Namen des Herrn, unsres Gottes, zu preisen.^pSie tragen Geschenke herbei,^+Geschenke für den himmlischen König.^*Alle Menschen jubeln dir zu.^pWohl denen, die dich lieben;^*sie werden sich freuen über den Frieden, den du schenkst."
+      },
+    2.0: {
+        "verses": "Tob°13"
       }
   },
   163: {
@@ -2986,6 +2993,16 @@ export const psalmsData = {
         "text_neu": "Mein Herz ist voll Freude über den HERRN,^*erhöht ist meine Macht durch den HERRN.^pWeit öffnet sich mein Mund gegen meine Feinde;^*denn ich freue mich über deine Hilfe.^pKeiner ist heilig wie der HERR;^+denn außer dir ist keiner;^*keiner ist ein Fels wie unser Gott.^pRedet nicht immer vermessen,^*kein freches Wort komme aus eurem Mund;^pdenn der HERR ist ein wissender Gott^*und bei ihm werden die Taten geprüft.^pDer Bogen der Helden wird zerbrochen,^*die Wankenden aber gürten sich mit Kraft.^pDie Satten verdingen sich um Brot^*und die Hungrigen gibt es nicht mehr.^pDie Unfruchtbare bekommt sieben Kinder^*und die Kinderreiche welkt dahin.^pDer HERR macht tot und lebendig,^*er führt zum Totenreich hinab und führt auch herauf.^pDer HERR macht arm und macht reich,^*er erniedrigt und er erhöht.^pDen Schwachen hebt er empor aus dem Staub^*und erhöht den Armen, der im Schmutz liegt;^per gibt ihm einen Sitz bei den Edlen,^*einen Ehrenplatz weist er ihm zu.^pJa, dem HERRN gehören die Pfeiler der Erde;^*auf sie hat er den Erdkreis gegründet.^pEr behütet die Schritte seiner Frommen,^+doch die Frevler verstummen in der Finsternis;^*denn der Mensch ist nicht stark aus eigener Kraft.^pWer gegen den HERRN streitet, wird zerbrechen;^+über ihn lässt er es am Himmel donnern.^*Der HERR hält Gericht bis an die Grenzen der Erde.^pSeinem König gebe er Kraft^*und erhöhe die Macht seines Gesalbten.",
         "title_lat": "Humilium exsultatio in Deo",
         "text_lat": "Exsultávit cor meum in Dómino,^*exaltátum est cornu meum in Deo meo;^pdilatátum est os meum super inimícos meos,^*quóniam lætáta sum in salutári tuo.^pNon est sanctus ut est Dóminus;^+neque enim est álius extra te,^*et non est fortis sicut Deus noster.^pNolíte multiplicáre loqui sublímia, gloriántes.^*Recédant supérba de ore vestro,^pquia Deus scientiárum Dóminus est,^*et ab eo ponderántur actiónes.^pArcus fórtium confráctus est,^*et infírmi accíncti sunt róbore.^pSaturáti prius pro pane se locavérunt,^*et famélici non eguérunt ámplius.^pStérilis péperit plúrimos,^*et, quæ multos habébat fílios, emárcuit.^pDóminus mortíficat et vivíficat,^*dedúcit ad inférnum et redúcit.^pDóminus páuperem facit et ditat,^*humíliat et súblevat;^psúscitat de púlvere egénum^*et de stércore élevat páuperem,^put sédeat cum princípibus^*et sólium glóriæ téneat.^pDómini enim sunt cárdines terræ,^*et pósuit super eos orbem.^pPedes sanctórum suórum servábit,^+et ímpii in ténebris conticéscent,^*quia non in fortitúdine sua roborábitur vir.^pDóminus cónteret adversários suos;^*super ipsos in cælis tonábit.^pDóminus iudicábit fines terræ^+et dabit impérium regi suo^*et sublimábit cornu christi sui."
+      },
+    1.0: {
+        "verses": "1°Sam°2,6-10",
+        "title": "Der Herr erhöht die Armen",
+        "quote": "Er stürzt die Mächtigen vom Thron und erhöht die Niedrigen. (Lk°1,52)",
+        "quote_lat": "Deposuit potentes de sede, et exaltavit humiles; esurientes implevit bonis. (Lc°1,52–53)",
+        "text": "Der Herr macht tot und lebendig,^*er führt zum Totenreich hinab und führt auch herauf.^pDer Herr macht arm und macht reich,^*er erniedrigt, und er erhöht.^pDen Schwachen hebt er empor aus°dem°Staub^*und erhöht den Armen, der im Schmutz liegt;^per gibt ihm einen Sitz bei den Edlen,^*einen Ehrenplatz weist er ihm zu.^pJa, dem Herrn gehören die°Pfeiler°der°Erde;^*auf sie hat er den Erdkreis gegründet.^pEr behütet die Schritte seiner Frommen,^+doch die Frevler verstummen in°der°Finsternis;^*denn der Mensch ist nicht stark aus eigener Kraft.^pWer gegen den Herrn streitet, wird°zerbrechen;^+der Höchste lässt es donnern am°Himmel.^*Der Herr hält Gericht bis an die Grenzen der Erde.^pSeinem König gebe er Kraft^*und erhöhe die Macht seines Gesalbten.",
+        "text_neu": "Der HERR macht tot und lebendig,^*er führt zum Totenreich hinab und führt auch herauf.^pDer HERR macht arm und macht reich,^*er erniedrigt und er erhöht.^pDen Schwachen hebt er empor aus dem Staub^*und erhöht den Armen, der im Schmutz liegt;^per gibt ihm einen Sitz bei den Edlen,^*einen Ehrenplatz weist er ihm zu.^pJa, dem HERRN gehören die Pfeiler der Erde;^*auf sie hat er den Erdkreis gegründet.^pEr behütet die Schritte seiner Frommen,^+doch die Frevler verstummen in der Finsternis;^*denn der Mensch ist nicht stark aus eigener Kraft.^pWer gegen den HERRN streitet, wird zerbrechen;^+über ihn lässt er es am Himmel donnern.^*Der HERR hält Gericht bis an die Grenzen der Erde.^pSeinem König gebe er Kraft^*und erhöhe die Macht seines Gesalbten.",
+        "title_lat": "Humilium exsultatio in Deo",
+        "text_lat": "Dóminus mortíficat et vivíficat,^*dedúcit ad inférnum et redúcit.^pDóminus páuperem facit et ditat,^*humíliat et súblevat;^psúscitat de púlvere egénum^*et de stércore élevat páuperem,^put sédeat cum princípibus^*et sólium glóriæ téneat.^pDómini enim sunt cárdines terræ,^*et pósuit super eos orbem.^pPedes sanctórum suórum servábit,^+et ímpii in ténebris conticéscent,^*quia non in fortitúdine sua roborábitur vir.^pDóminus cónteret adversários suos;^*super ipsos in cælis tonábit.^pDóminus iudicábit fines terræ^+et dabit impérium regi suo^*et sublimábit cornu christi sui."
       }
   },
   174: {
@@ -3125,12 +3142,32 @@ export const psalmsData = {
     0.0: {
         "verses": "Jes°61,10–62,5",
         "title": "Jubel über das neue Jerusalem",
-        "quote": "Ich sah die heilige Stadt, das neue Jerusalem … sie war bereit wie eine Braut, die sich für ihren Mann geschmückt hat. (Offb°21,2)",
+        "quote": "Ich sah die heilige Stadt, das neue Jerusalem … Sie war bereit wie eine Braut, die sich für ihren Mann geschmückt hat. (Offb°21,2)",
         "quote_lat": "Vidi sanctam civitatem Ierusalem novam … paratam sicut sponsam ornatam viro suo. (Ap°21,2)",
         "text": "^RUBRDer in Klammern gesetzte Vers 4c gehört gemäß der Editio typica zum Canticum, fehlt aber im Stundenbuch.^0RUBR^pVon Herzen will ich mich freuen über°den°Herrn.^*Meine Seele soll jubeln über meinen Gott.^pDenn er kleidet mich in°Gewänder°des°Heils,^*er hüllt mich in den Mantel der Gerechtigkeit,^pwie ein Bräutigam sich°festlich°schmückt^*und wie eine Braut ihr Geschmeide anlegt.^pDenn wie die Erde die°Saat°wachsen°lässt^*und der Garten die Pflanzen hervorbringt,^pso bringt Gott, der Herr, Gerechtigkeit°hervor^*und Ruhm vor allen Völkern.^pUm Zions willen kann°ich°nicht°schweigen^*und um Jerusalems willen nicht still sein,^pbis das Recht in ihm aufstrahlt wie°ein°helles°Licht^*und sein Heil aufleuchtet wie eine brennende Fackel.^p^[Dann sehen die Völker deine Gerechtigkeit^*und alle Könige deine strahlende Pracht.^]^pMan ruft dich mit einem neuen Namen,^*den der Mund des Herrn für dich bestimmt.^pDu wirst zu einer prächtigen Krone in°der°Hand°des°Herrn,^*zu einem königlichen Diadem in der Rechten deines Gottes.^pNicht länger nennt man dich „Die°Verlassene“^*und dein Land nicht mehr „Das°Ödland“,^psondern man nennt dich „Meine°Wonne“^*und dein Land „Die°Vermählte“.^pDenn°der°Herr°hat°an dir seine Freude,^*und dein Land wird mit ihm vermählt.^pWie der junge Mann sich°mit°der°Jungfrau°vermählt,^*so vermählt sich mit dir dein Erbauer.^pWie der Bräutigam sich°freut°über°die°Braut,^*so freut sich dein Gott über dich.",
         "text_neu": "Von Herzen freue ich mich am HERRN.^*Meine Seele jubelt über meinen Gott.^pDenn er kleidet mich in Gewänder des Heils,^*er hüllt mich in den Mantel der Gerechtigkeit,^pwie ein Bräutigam sich festlich schmückt^*und wie eine Braut ihr Geschmeide anlegt.^pDenn wie die Erde ihr Gewächs hervorbringt^*und der Garten seine Saat sprießen lässt,^pso lässt GOTT, der Herr, Gerechtigkeit sprießen^*und Ruhm vor allen Nationen.^pUm Zions willen werde ich nicht schweigen,^*um Jerusalems willen nicht still sein,^pbis hervorbricht wie ein helles Licht seine Gerechtigkeit^*und sein Heil wie eine brennende Fackel.^pDann sehen die Nationen deine Gerechtigkeit^*und alle Könige deine Herrlichkeit.^pMan ruft dich mit einem neuen Namen,^*den der Mund des HERRN für dich bestimmt.^pDu wirst zu einer prächtigen Krone^*in der Hand des HERRN,^pzu einem königlichen Kopfschmuck^*in der Hand deines Gottes.^pNicht länger nennt man dich „Verlassene“^*und dein Land nicht mehr „Verwüstung“,^psondern du wirst heißen: „Ich habe Gefallen an dir“^*und dein Land wird „Vermählte“ genannt.^pDenn der HERR hat an dir Gefallen^*und dein Land wird vermählt.^pWie ein junger Mann sich mit einer Jungfrau vermählt,^*so nehmen dich deine Söhne in Besitz.^pWie der Bräutigam sich freut über die Braut,^*so freut sich dein Gott über dich.",
         "title_lat": "Iubilatio prophetæ de nova Ierusalem",
         "text_lat": "Gaudens gaudébo in Dómino,^*et exsultábit ánima mea in Deo meo,^pquia índuit me vestiméntis salútis^*et induménto iustítiæ circúmdedit me,^pquasi sponsum decorátum coróna^*et quasi sponsam ornátam monílibus suis.^pSicut enim terra profert germen suum,^*et sicut hortus semen suum gérminat,^psic Dóminus Deus germinábit iustítiam^*et laudem coram univérsis géntibus.^pPropter Sion non tacébo^*et propter Ierúsalem non quiéscam,^pdonec egrediátur ut splendor iustítia eius,^*et salus eius ut lampas accendátur.^pEt vidébunt gentes iustítiam tuam,^*et cuncti reges glóriam tuam;^pet vocáberis nómine novo,^*quod os Dómini nominábit.^pEt eris coróna glóriæ in manu Dómini,^*et diadéma regni in manu Dei tui.^pNon vocáberis ultra „Derelícta“,^*et terra tua non vocábitur ámplius „Desoláta“;^psed vocáberis „Beneplácitum meum in ea“,^*et terra tua „Nupta“,^pquia complácuit Dómino in te,^*et terra tua erit nupta.^pNam ut iúvenis uxórem ducit vírginem,^*ita dúcent te fílii tui;^put gaudet sponsus super sponsam,^*ita gaudébit super te Deus tuus."
+      },
+    1.0: {
+        "verses": "Jes°61,10–62,3",
+        "title": "Freude des Propheten über das neue Jerusalem",
+        "quote": "Ich sah die heilige Stadt, das neue Jerusalem … Sie war bereit wie eine Braut, die sich für ihren Mann geschmückt hat. (Offb°21,2)",
+        "quote_lat": "Vidi sanctam civitatem Ierusalem novam … paratam sicut sponsam ornatam viro suo. (Ap°21,2)",
+        "text": "^RUBRDer in Klammern gesetzte Vers 4c gehört gemäß der Editio typica zum Canticum, fehlt aber im Stundenbuch.^0RUBR^pVon Herzen will ich mich freuen über°den°Herrn.^*Meine Seele soll jubeln über meinen Gott.^pDenn er kleidet mich in°Gewänder°des°Heils,^*er hüllt mich in den Mantel der Gerechtigkeit,^pwie ein Bräutigam sich°festlich°schmückt^*und wie eine Braut ihr Geschmeide anlegt.^pDenn wie die Erde die°Saat°wachsen°lässt^*und der Garten die Pflanzen hervorbringt,^pso bringt Gott, der Herr, Gerechtigkeit°hervor^*und Ruhm vor allen Völkern.^pUm Zions willen kann°ich°nicht°schweigen^*und um Jerusalems willen nicht still sein,^pbis das Recht in ihm aufstrahlt wie°ein°helles°Licht^*und sein Heil aufleuchtet wie eine brennende Fackel.^p^[Dann sehen die Völker deine Gerechtigkeit^*und alle Könige deine strahlende Pracht.^]^pMan ruft dich mit einem neuen Namen,^*den der Mund des Herrn für dich bestimmt.^pDu wirst zu einer prächtigen Krone in°der°Hand°des°Herrn,^*zu einem königlichen Diadem in der Rechten deines Gottes.",
+        "text_neu": "Von Herzen freue ich mich am HERRN.^*Meine Seele jubelt über meinen Gott.^pDenn er kleidet mich in Gewänder des Heils,^*er hüllt mich in den Mantel der Gerechtigkeit,^pwie ein Bräutigam sich festlich schmückt^*und wie eine Braut ihr Geschmeide anlegt.^pDenn wie die Erde ihr Gewächs hervorbringt^*und der Garten seine Saat sprießen lässt,^pso lässt GOTT, der Herr, Gerechtigkeit sprießen^*und Ruhm vor allen Nationen.^pUm Zions willen werde ich nicht schweigen,^*um Jerusalems willen nicht still sein,^pbis hervorbricht wie ein helles Licht seine Gerechtigkeit^*und sein Heil wie eine brennende Fackel.^pDann sehen die Nationen deine Gerechtigkeit^*und alle Könige deine Herrlichkeit.^pMan ruft dich mit einem neuen Namen,^*den der Mund des HERRN für dich bestimmt.^pDu wirst zu einer prächtigen Krone^*in der Hand des HERRN,^pzu einem königlichen Kopfschmuck^*in der Hand deines Gottes.",
+        "title_lat": "Iubilatio prophetæ de nova Ierusalem",
+        "text_lat": "Gaudens gaudébo in Dómino,^*et exsultábit ánima mea in Deo meo,^pquia índuit me vestiméntis salútis^*et induménto iustítiæ circúmdedit me,^pquasi sponsum decorátum coróna^*et quasi sponsam ornátam monílibus suis.^pSicut enim terra profert germen suum,^*et sicut hortus semen suum gérminat,^psic Dóminus Deus germinábit iustítiam^*et laudem coram univérsis géntibus.^pPropter Sion non tacébo^*et propter Ierúsalem non quiéscam,^pdonec egrediátur ut splendor iustítia eius,^*et salus eius ut lampas accendátur.^pEt vidébunt gentes iustítiam tuam,^*et cuncti reges glóriam tuam;^pet vocáberis nómine novo,^*quod os Dómini nominábit.^pEt eris coróna glóriæ in manu Dómini,^*et diadéma regni in manu Dei tui."
+      },
+    2.0: {
+        "verses": "Jes°62,4-7",
+        "title": "Die Herrlichkeit des neuen Jerusalem",
+        "quote": "Seht, die Wohnung Gottes unter den Menschen: Er wird in ihrer Mitte wohnen. (Offb°21,3)",
+        "quote_lat": "Ecce tabernaculum Dei cum hominibus, et habitabit cum eis. (Ap°21,3)",
+        "text": "Nicht länger nennt man dich „Die°Verlassene“^*und dein Land nicht mehr „Das°Ödland“,^psondern man nennt dich „Meine°Wonne“^*und dein Land „Die°Vermählte“.^pDenn°der°Herr°hat°an dir seine Freude,^*und dein Land wird mit ihm vermählt.^pWie der junge Mann sich°mit°der°Jungfrau°vermählt,^*so vermählt sich mit dir dein Erbauer.^pWie der Bräutigam sich°freut°über°die°Braut,^*so freut sich dein Gott über dich.^pAuf deine Mauern, Jerusalem, stellte ich Wächter.^*Weder bei Tag noch bei Nacht dürfen sie schweigen.^pIhr, die ihr den Herrn an Zion erinnern sollt,^*gönnt euch keine Ruhe!^pLasst auch ihm keine Ruhe,^+bis er Jerusalem wieder aufbaut,^*bis er es auf der ganzen Erde berühmt macht.",
+        "text_neu": "Nicht länger nennt man dich „Verlassene“^*und dein Land nicht mehr „Verwüstung“,^psondern du wirst heißen: „Ich habe Gefallen an dir“^*und dein Land wird „Vermählte“ genannt.^pDenn der HERR hat an dir Gefallen^*und dein Land wird vermählt.^pWie ein junger Mann sich mit einer Jungfrau vermählt,^*so nehmen dich deine Söhne in Besitz.^pWie der Bräutigam sich freut über die Braut,^*so freut sich dein Gott über dich.^pAuf deine Mauern, Jerusalem, habe ich Wächter gestellt.^*Den ganzen Tag und die ganze Nacht, niemals sollen sie schweigen.^pDie ihr den HERRN erinnert, ^*gönnt euch keine Ruhe!^pLasst ihm keine Ruhe,^+bis er Jerusalem festigt^*und bis er es einsetzt als Ruhm auf Erden!",
+        "title_lat": "Gloria Ierusalem novæ",
+        "text_lat": "Non vocáberis ultra „Derelícta“,^*et terra tua non vocábitur ámplius „Desoláta“;^psed vocáberis „Beneplácitum meum in ea“,^*et terra tua „Nupta“,^pquia complácuit Dómino in te,^*et terra tua erit nupta.^pNam ut iúvenis uxórem ducit vírginem,^*ita dúcent te fílii tui;^put gaudet sponsus super sponsam,^*ita gaudébit super te Deus tuus.^pSuper muros tuos, Ierusalem, constitui custodes;^*tota die et tota nocte, in perpetuo non tacebunt.^pQui commonetis Dominum, ne taceatis^+et ne detis silentium ei,^*donec stabiliat et donec ponat Ierusalem laudem in terra."
       }
   },
   194: {
@@ -3167,6 +3204,86 @@ export const psalmsData = {
         "text_neu": "Ich nehme euch heraus aus den Nationen,^+ich sammle euch aus allen Ländern^*und ich bringe euch zu eurem Ackerboden.^pIch gieße reines Wasser über euch aus, dann werdet ihr rein.^*Ich reinige euch von aller Unreinheit und von allen euren Götzen.^pIch gebe euch ein neues Herz^*und einen neuen Geist gebe ich in euer Inneres.^pIch beseitige das Herz von Stein aus eurem Fleisch^*und gebe euch ein Herz von Fleisch.^pIch gebe meinen Geist in euer Inneres^+und bewirke, dass ihr meinen Gesetzen folgt^*und auf meine Rechtsentscheide achtet und sie erfüllt.^pDann werdet ihr in dem Land wohnen,^*das ich euren Vätern gegeben habe.^pIhr werdet mir Volk sein und ich,^*ich werde euch Gott sein.^p",
         "title_lat": "Dominus renovabit populum suum",
         "text_lat": "Tollam quippe vos de géntibus^+et congregábo vos de univérsis terris^*et addúcam vos in terram vestram;^pet effúndam super vos aquam mundam,^+et mundabímini ab ómnibus inquinaméntis vestris,^*et ab univérsis idólis vestris mundábo vos.^pEt dabo vobis cor novum^*et spíritum novum ponam in médio vestri^pet áuferam cor lapídeum de carne vestra^*et dabo vobis cor cárneum;^pet spíritum meum ponam in médio vestri^+et fáciam, ut in præcéptis meis ambulétis^*et iudícia mea custodiátis et operémini.^pEt habitábitis in terra, quam dedi pátribus vestris,^+et éritis mihi in pópulum,^*et ego ero vobis in Deum.^p"
+      }
+  },
+  199: {
+    101.0: {
+        "verses": "Spr 9,1-6.10-12"
+      },
+    102.0: {
+        "verses": "Weish 3,1-6"
+      },
+    103.0: {
+        "verses": "Weish 3,7-9"
+      },
+    104.0: {
+        "verses": "Weish 10,17-21"
+      },
+    105.0: {
+        "verses": "Weish 16,20-21.26;17,1"
+      },
+    106.0: {
+        "verses": "Sir 14"
+      },
+    107.0: {
+        "verses": "Sir 31"
+      },
+    108.0: {
+        "verses": "Sir 36,17-22",
+        "title": "Gebet für das Gottesvolk",
+        "quote": "Das ist das ewige Leben: dich, den einzigen wahren Gott, zu erkennen und Jesus Christus, den du gesandt hast. (Joh°17,3)",
+        "text": "Hab Erbarmen mit dem Volk, das deinen Namen trägt,^*mit Israel, den du deinen Erstgeborenen nanntest.^pHab Erbarmen mit deiner heiligen Stadt,^*mit Jerusalem, dem Ort, wo du wohnst.^pErfülle Zion mit deinem Glanz^*und deinen Tempel mit deiner Herrlichkeit!^pLeg Zeugnis ab für das, was du ehedem verfügt hast;^*erfülle die Weissagung, die in deinem Namen ergangen ist.^pGib allen ihren Lohn, die auf dich hoffen,^*und bestätige so deine Propheten!^pErhöre das Gebet deiner Diener;^*du hast doch Gefallen an deinem Volk.^pAlle Enden der Erde sollen erkennen:^*Du bist der ewige Gott.",
+        "text_neu": "Herr, hab Erbarmen mit dem Volk, das bei deinem Namen gerufen worden ist,^*und mit Israel, das du einem Erstgeborenen gleichgemacht hast.^pHabe Mitleid mit der Stadt deines Heiligtums,^*mit Jerusalem, dem Ort deiner Ruhe.^pErfülle Zion mit deinem Lobpreis^*und dein Volk mit deiner Herrlichkeit!^pGib Zeugnis für das, was du am Anfang geschaffen hast,^*und erwecke die Prophezeiungen wieder, die in deinem Namen ergangen sind!^pGib den Lohn denen, die dich erwarten,^*und deine Propheten sollen sich glaubwürdig erweisen!^pErhöre, Herr, die Bitte deiner Diener^*gemäß dem Segen Aarons über dein Volk!^pAlle auf der Erde werden erkennen,^*dass du Herr bist, der Gott der Ewigkeiten."
+      },
+    109.0: {
+        "verses": "Sir 39,13-16a",
+        "title": "Wie wunderbar sind deine Werke, o Herr!",
+        "quote": "Dank sei Gott, der durch und den Duft der Erkenntnis Christi an allen Orten verbreitet. (2°Kor°2,14)",
+        "quote_lat": "Deo gratias, qui odorem notitiæ suæ manifestat per nos. (2°Cor°2,14)",
+        "text": "Hört mich, ihr frommen Söhne,^*und ihr werdet gedeihen wie die Zeder, die am Wasserlauf wächst.^pIhr werdet Duft verströmen wie der Weihrauch,^*ihr werdet Blüten treiben wie die Lilie.^pErhebt die Stimme und singt im Chor,^*preist den Herrn für all seine Werke!^pVerherrlicht seinen Namen,^+feiert ihn mit Lobgesang,^*mit Liedern zur Harfe und Saitenspiel!^pSprecht unter lautem Jubel:^*Alle Werke Gottes sind gut.",
+        "text_neu": "Hört mich an, ihr frommen Söhne, und gedeiht^*wie eine Rose, die am Flusslauf wächst!^pVerströmt Wohlgeruch wie Weihrauch!^*Treibt Blüten wie eine Lilie!^pVerbreitet Wohlgeruch und stimmt ein Loblied an^*und preist den Herrn für all die Werke!^pMacht seinen Namen groß,^+preist ihn im Lobgesang!^pMit Liedern auf den Lippen und mit Saitenspiel,^+so werdet ihr preisend sprechen:^*Alle Werke des Herrn sind überaus gut!",
+        "title_lat": "Quam magnificata sunt opera tua, Domine!",
+        "text_lat": "Obaudite me, filii pii,^*et quasi rosa plantata super rivos aquarum florebit caro vestra;^pquasi libanus odorem suavitatis habete,^*florete flores quasi lilium.^pDate vocem et collaudate canticum^*et benedicite Dominum in omnibus operibus suis.^pDate nomini eius magnificentiam^+et confitemini illi in laudatione eius^*et in canticis labiorum et citharis;^pet sic dicetis in confessione:^*„Opera Domini universa bona valde!“"
+      },
+    110.0: {
+        "verses": "Jes 2,2-3"
+      },
+    111.0: {
+        "verses": "Jes 9,1-6"
+      },
+    112.0: {
+        "verses": "Jes°33,2-3.5-6.7b-8.10",
+        "title": "Gebet in der Not",
+        "quote": "In Christus sind alle Schätze der Weisheit und Erkenntnis verborgen. (Kol°2,3)",
+        "text": "Herr, hab mit uns Erbarmen,^*denn wir hoffen auf dich.^pSei uns ein helfender Arm an jedem Morgen,^*sei in der Not unsere Rettung!^pVor dem lauten Getöse fliehen die Nationen;^*wenn du dich erhebst, flüchten die Völker nach allen Seiten.^pDer Herr ist erhaben, er wohnt in der Höhe;^*er wird Zion mit Recht und Gerechtigkeit erfüllen.^pEs wird sichere Zeiten erleben.^+Weisheit und Erkenntnis sind der Reichtum, der es rettet;^*sein Schatz ist die Furcht vor dem HERRN.^pBitterlich weinen die Boten des Friedens.^*Die Wege sind verödet, die Straßen sind leer.^pDen Vertrag hat man gebrochen,^+man verachtet die Zeugen des Bundes^*und schätzt die Menschen gering.^pJetzt stehe ich auf, spricht der Herr,^*jetzt erhebe ich mich, jetzt richte ich mich auf.",
+        "text_neu": "HERR, sei uns gnädig,^*auf dich haben wir gehofft.^pSei ihr strafender Arm an jedem Morgen,^*sei unsere Rettung zur Zeit der Not!^pVor dem lauten Getöse sind die Völker geflohen;^*wenn du dich erhebst, haben sich die Nationen zerstreut.^pErhaben ist der HERR, denn er wohnt in der Höhe;^*er hat Zion mit Recht und Gerechtigkeit erfüllt.^pSicher werden deine Zeiten sein:^+Fülle an Heil, Weisheit und Erkenntnis.^*Die Furcht des HERRN – sie ist sein Schatz.^pDie Boten des Friedens weinen bitterlich.^+Die Straßen waren verödet,^*niemand mehr betrat den Pfad.^pGebrochen hat man den Bund,^+verworfen Städte,^*nicht hat man den Menschen geachtet.^pJetzt stehe ich auf, spricht der HERR,^*jetzt erhebe ich mich, jetzt richte ich mich auf."
+      },
+    113.0: {
+        "verses": "Jes 40,1-8"
+      },
+    114.0: {
+        "verses": "Jes 49,7-13"
+      },
+    115.0: {
+        "verses": "Jes 61,6-9"
+      },
+    116.0: {
+        "verses": "Jes 63,1-5"
+      },
+    117.0: {
+        "verses": "Jer 7,2b-7"
+      },
+    118.0: {
+        "verses": "Jer 17,7-8"
+      },
+    119.0: {
+        "verses": "Klgl 5,1-7.15-17.19-21"
+      },
+    120.0: {
+        "verses": "Hos 6,1-6"
+      },
+    121.0: {
+        "verses": "Zef 3,8-13"
       }
   },
   1019: {

@@ -1335,8 +1335,8 @@ const PrayerTextDisplay = ({
       prefSrc, widthForHymns);
   };
 
-  const formatPsalm = (psalm, inv = false) => {
-    return extFormatPsalm(psalm, inv, localPrefLanguage);
+  const formatPsalm = (psalm, num = 0) => {
+    return extFormatPsalm(psalm, num, localPrefLanguage);
   };
 
   const ComposeResponse = ({ resp0, resp1, resp2, resp3 }) => {
@@ -1512,10 +1512,31 @@ const PrayerTextDisplay = ({
           </div>
         )}
 
+        {hour === 'vigil' && (
+          <button
+            onClick={() => {
+              onSelectHour('lesehore', texts)
+              setTimeout(() => {
+                const bookmark = document.getElementById('scroll-to-TeDeum');
+                if (bookmark) {
+                  bookmark.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'  // Element am oberen Rand positionieren, kombiniert mit scroll-mt- bei der id
+                  });
+                }
+              }, 50);
+            }}
+            className="mt-3 text-left long-rubric"
+          >
+            ←&nbsp;&nbsp;zurück zur Lesehore
+          </button>
+        )}
+
+
         {(getValue("psalm1") || hour === "invitatorium") && (
           <div className="mb-0">
             <SectionHeader
-              title="PSALMODIE"
+              title={hour === 'vigil' ? "CANTICA" : "PSALMODIE"}
               field="psalm1"
             />
             {getValue("ant0") && (
@@ -1526,7 +1547,7 @@ const PrayerTextDisplay = ({
             {hour === "invitatorium" &&
               texts?.invitatorium?.psalms?.includes(localPrefInv) && (
                 <div>
-                  {formatPsalm(localPrefInv, true)}
+                  {formatPsalm(localPrefInv)}
                 </div>
               )}
             {hour !== "invitatorium" &&
@@ -1542,8 +1563,10 @@ const PrayerTextDisplay = ({
                         {formatPrayerText(ant, `${num}. Ant.°°`)}
                       </div>
                     )}
-                    {psalm &&
-                      formatPsalm(psalm)}
+                    {psalm && hour !== 'vigil' &&
+                      formatPsalm(psalm, -1)}
+                    {psalm && hour === 'vigil' &&
+                      formatPsalm(psalm, num)}
                     {ant && (
                       <div >
                         {formatPrayerText(ant, `Ant.°°`)}
@@ -1632,6 +1655,19 @@ const PrayerTextDisplay = ({
           </div>
         )}
 
+        {texts.hasVigil && hour === 'lesehore' && (
+          <button
+            id="scroll-to-TeDeum"
+            onClick={() => {
+              onSelectHour('vigil', texts)
+              window.scrollTo({ top: 0, behavior: 'instant' });
+            }}
+            className="scroll-mt-32 mt-6 text-left long-rubric"
+          >
+            Zu den Cantica und dem Evangelium für&nbsp;die&nbsp;Vigil&nbsp;&nbsp;→
+          </button>
+        )}
+
         {ordinariumTexts.cant && (
           <div className="mb-0">
             <SectionHeader
@@ -1681,7 +1717,7 @@ const PrayerTextDisplay = ({
         {ordinariumTexts.vu && (
           <div className="mb-0">
             <SectionHeader
-              title={hour === "lesehore" ? "TE DEUM" : "VATERUNSER"}
+              title={['lesehore', 'vigil'].includes(hour) ? "TE DEUM" : "VATERUNSER"}
               field=""
             />
             <div className="mb-0 whitespace-pre-wrap">
