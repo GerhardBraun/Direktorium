@@ -512,7 +512,7 @@ export const brevierData = {
         "Vigil": {
           "psalm1": 184.0,
           "psalm2": 191.0,
-          "psalm3": 199.114
+          "psalm3": 199.115
         },
         "Laudes": {
           "les_buch": "›Röm",
@@ -570,85 +570,6 @@ export const brevierData = {
           "bitten_r_lat": "Veni et mane nobíscum, Dómine.",
           "bitten_lat": "Iesu, Fili Altíssimi, qui Vírgini Maríæ per Gabriélem annuntiátus es,^qveni ad regnándum super plebem tuam in ætérnum.^pTu, Sancte Dei, cui Præcúrsor in sinu Elísabeth exsultávit,^qveni ad dandum univérso mundo gáudium salútis.^pIesu Salvátor, cuius nomen Ioseph viro iusto ab Angelo revelátum est,^qveni ad pópulum tuum salvum faciéndum a peccátis eórum.^pLumen mundi, quod Símeon et omnes iusti exspectábant,^qveni ad consolándum nos.^pOriens indefíciens, quem nos ex alto visitatúrum prædíxit Zacharías,^qveni ad illuminándum illos, qui in umbra mortis sedent.",
           "les_text_lat": "Gaudéte in Dómino semper. Iterum dico: Gaudéte! Modéstia vestra nota sit ómnibus homínibus. Dóminus prope."
-        }
-      },
-      "each": {
-        "Invitatorium": {
-          "ant0": "Der Herr ist nahe; kommt, wir beten ihn an.",
-          "ant0_lat": "Regem ventúrum Dóminum, veníte, adorémus."
-        },
-        "Lesehore": {
-          "hymn_1": 3111.0,
-          "hymn_2": 3112.0,
-          "hymn_1_lat": 3113.0,
-          "hymn_2_lat": 0.0
-        },
-        "Laudes": {
-          "hymn_1": 3121.0,
-          "hymn_kl": 0.0,
-          "resp1": "Über dir, Jerusalem erstrahlt der Herr,",
-          "resp2": "er geht auf über dir gleich der Sonne.",
-          "resp3": "Und seine Herrlichkeit erscheint über dir.",
-          "hymn_1_lat": 3123.0,
-          "hymn_2_lat": 0.0,
-          "resp1_lat": "Super te, Ierúsalem,",
-          "resp2_lat": "oriétur Dóminus.",
-          "resp3_lat": "Et glória eius in te vidébitur."
-        },
-        "Terz": {
-          "ant0": "Von einer Jungfrau wird der Heiland geboren – so künden die Propheten.",
-          "ant1": "",
-          "ant2": "",
-          "ant3": "",
-          "resp0": "Die Völker werden deinen Namen fürchten.",
-          "resp1": "Und alle Könige der Erde deine Herrlichkeit.",
-          "ant0_lat": "Prophétæ prædicavérunt nasci Salvatórem de Vírgine María.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "Timébunt gentes nomen tuum, Dómine.",
-          "resp1_lat": "Et omnes reges terræ glóriam tuam."
-        },
-        "Sext": {
-          "ant0": "Der Engel sprach zu Maria: Gegrüßet seist du, voll der Gnade, der Herr ist mit dir, du bist gebenedeit unter den Frauen.",
-          "ant1": "",
-          "ant2": "",
-          "ant3": "",
-          "resp0": "Herr, denk an uns aus Liebe zu deinem Volk.",
-          "resp1": "Komm und bring uns Hilfe.",
-          "ant0_lat": "Gábriel ángelus locútus est Maríæ, dicens: Ave, grátia plena; Dóminus tecum; benedícta tu inter mulíeres.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "Meménto nostri, Dómine, in beneplácito pópuli tui.",
-          "resp1_lat": "Vísita nos in salutári tuo."
-        },
-        "Non": {
-          "ant0": "Maria sprach zum Engel: Was soll dein Gruß bedeuten? Den König soll ich gebären und dennoch Jungfrau bleiben.",
-          "ant1": "",
-          "ant2": "",
-          "ant3": "",
-          "resp0": "Komm, Herr, und säume nicht.",
-          "resp1": "Tilge die Schuld deines Volkes.",
-          "ant0_lat": "María dixit: Qualis est ista salutátio? quia conturbáta est ánima mea, et quia paritúra sum Regem, qui claustrum virginitátis meæ non violábit.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "Veni, Dómine, et noli tardáre.",
-          "resp1_lat": "Reláxa facínora plebi tuæ."
-        },
-        "Vesper": {
-          "hymn_1": 3141.0,
-          "hymn_2": 3142.0,
-          "hymn_kl": 0.0,
-          "resp1": "Der du auf den Kerubim thronst, erscheine.",
-          "resp2": "Erwecke deine Macht und komm.",
-          "resp3": "Lass dein Angesicht leuchten, dann ist uns geholfen.",
-          "hymn_1_lat": 3143.0,
-          "hymn_2_lat": 0.0,
-          "resp1_lat": "Veni ad liberándum nos,",
-          "resp2_lat": "Dómine Deus virtútum.",
-          "resp3_lat": "Osténde fáciem tuam, et salvi érimus."
         }
       },
       "1": {
@@ -961,6 +882,85 @@ export const brevierData = {
           "les_text_neu": "Wie die Erde ihr Gewächs hervorbringt und der Garten seine Saat sprießen lässt, so lässt GOTT, der Herr, Gerechtigkeit sprießen und Ruhm vor allen Nationen.",
           "les_text_lat": "Sicut terra profert germen suum et sicut hortus semen suum gérminat, sic Dóminus Deus germinábit iustítiam et laudem coram univérsis géntibus."
         }
+      },
+      "each": {
+        "Invitatorium": {
+          "ant0": "Der Herr ist nahe; kommt, wir beten ihn an.",
+          "ant0_lat": "Regem ventúrum Dóminum, veníte, adorémus."
+        },
+        "Lesehore": {
+          "hymn_1": 3111.0,
+          "hymn_2": 3112.0,
+          "hymn_1_lat": 3113.0,
+          "hymn_2_lat": 0.0
+        },
+        "Laudes": {
+          "hymn_1": 3121.0,
+          "hymn_kl": 0.0,
+          "resp1": "Über dir, Jerusalem erstrahlt der Herr,",
+          "resp2": "er geht auf über dir gleich der Sonne.",
+          "resp3": "Und seine Herrlichkeit erscheint über dir.",
+          "hymn_1_lat": 3123.0,
+          "hymn_2_lat": 0.0,
+          "resp1_lat": "Super te, Ierúsalem,",
+          "resp2_lat": "oriétur Dóminus.",
+          "resp3_lat": "Et glória eius in te vidébitur."
+        },
+        "Terz": {
+          "ant0": "Von einer Jungfrau wird der Heiland geboren – so künden die Propheten.",
+          "ant1": "",
+          "ant2": "",
+          "ant3": "",
+          "resp0": "Die Völker werden deinen Namen fürchten.",
+          "resp1": "Und alle Könige der Erde deine Herrlichkeit.",
+          "ant0_lat": "Prophétæ prædicavérunt nasci Salvatórem de Vírgine María.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp0_lat": "Timébunt gentes nomen tuum, Dómine.",
+          "resp1_lat": "Et omnes reges terræ glóriam tuam."
+        },
+        "Sext": {
+          "ant0": "Der Engel sprach zu Maria: Gegrüßet seist du, voll der Gnade, der Herr ist mit dir, du bist gebenedeit unter den Frauen.",
+          "ant1": "",
+          "ant2": "",
+          "ant3": "",
+          "resp0": "Herr, denk an uns aus Liebe zu deinem Volk.",
+          "resp1": "Komm und bring uns Hilfe.",
+          "ant0_lat": "Gábriel ángelus locútus est Maríæ, dicens: Ave, grátia plena; Dóminus tecum; benedícta tu inter mulíeres.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp0_lat": "Meménto nostri, Dómine, in beneplácito pópuli tui.",
+          "resp1_lat": "Vísita nos in salutári tuo."
+        },
+        "Non": {
+          "ant0": "Maria sprach zum Engel: Was soll dein Gruß bedeuten? Den König soll ich gebären und dennoch Jungfrau bleiben.",
+          "ant1": "",
+          "ant2": "",
+          "ant3": "",
+          "resp0": "Komm, Herr, und säume nicht.",
+          "resp1": "Tilge die Schuld deines Volkes.",
+          "ant0_lat": "María dixit: Qualis est ista salutátio? quia conturbáta est ánima mea, et quia paritúra sum Regem, qui claustrum virginitátis meæ non violábit.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp0_lat": "Veni, Dómine, et noli tardáre.",
+          "resp1_lat": "Reláxa facínora plebi tuæ."
+        },
+        "Vesper": {
+          "hymn_1": 3141.0,
+          "hymn_2": 3142.0,
+          "hymn_kl": 0.0,
+          "resp1": "Der du auf den Kerubim thronst, erscheine.",
+          "resp2": "Erwecke deine Macht und komm.",
+          "resp3": "Lass dein Angesicht leuchten, dann ist uns geholfen.",
+          "hymn_1_lat": 3143.0,
+          "hymn_2_lat": 0.0,
+          "resp1_lat": "Veni ad liberándum nos,",
+          "resp2_lat": "Dómine Deus virtútum.",
+          "resp3_lat": "Osténde fáciem tuam, et salvi érimus."
+        }
       }
     },
     "even": {
@@ -1092,46 +1092,6 @@ export const brevierData = {
       }
     },
     "last": {
-      "each": {
-        "ErsteV": {
-          "hymn_1": 3141.0,
-          "hymn_2": 3142.1,
-          "hymn_kl": 0.0
-        },
-        "Vesper": {
-          "hymn_1": 3141.0,
-          "hymn_2": 3142.1,
-          "hymn_kl": 0.0,
-          "hymn_1_lat": 3144.0,
-          "hymn_2_lat": 0.0
-        },
-        "Invitatorium": {
-          "ant0_lat": "Prope est iam Dóminus: veníte, adorémus."
-        },
-        "Lesehore": {
-          "hymn_1_lat": 3114.0,
-          "hymn_2_lat": 0.0
-        },
-        "Laudes": {
-          "hymn_1_lat": 3124.0,
-          "hymn_2_lat": 0.0
-        },
-        "Terz": {
-          "hymn_1_lat": 4003.2,
-          "hymn_2_lat": 0.0
-        },
-        "Sext": {
-          "hymn_1_lat": 4006.2,
-          "hymn_2_lat": 0.0
-        },
-        "Non": {
-          "hymn_1_lat": 4009.2,
-          "hymn_2_lat": 0.0
-        },
-        "Komplet": {
-          "hymn_1_lat": 2500.2
-        }
-      },
       "1": {
         "Laudes": {
           "ant1": "Seht, es naht der Herr, der Fürst über alle Könige der Erde. Selig, die bereit sind, ihm entgegenzugehen.",
@@ -1231,6 +1191,46 @@ export const brevierData = {
           "ant2_lat": "Roráte, cæli, désuper, et nubes pluant Iustum; aperiátur terra et gérminet Salvatórem.",
           "ant3_lat": "Parátus esto, Israel, in occúrsum Dómini, quóniam venit."
         }
+      },
+      "each": {
+        "ErsteV": {
+          "hymn_1": 3141.0,
+          "hymn_2": 3142.1,
+          "hymn_kl": 0.0
+        },
+        "Vesper": {
+          "hymn_1": 3141.0,
+          "hymn_2": 3142.1,
+          "hymn_kl": 0.0,
+          "hymn_1_lat": 3144.0,
+          "hymn_2_lat": 0.0
+        },
+        "Invitatorium": {
+          "ant0_lat": "Prope est iam Dóminus: veníte, adorémus."
+        },
+        "Lesehore": {
+          "hymn_1_lat": 3114.0,
+          "hymn_2_lat": 0.0
+        },
+        "Laudes": {
+          "hymn_1_lat": 3124.0,
+          "hymn_2_lat": 0.0
+        },
+        "Terz": {
+          "hymn_1_lat": 4003.2,
+          "hymn_2_lat": 0.0
+        },
+        "Sext": {
+          "hymn_1_lat": 4006.2,
+          "hymn_2_lat": 0.0
+        },
+        "Non": {
+          "hymn_1_lat": 4009.2,
+          "hymn_2_lat": 0.0
+        },
+        "Komplet": {
+          "hymn_1_lat": 2500.2
+        }
       }
     }
   },
@@ -1304,201 +1304,6 @@ export const brevierData = {
     }
   },
   "com": {
-    "kirchw": {
-      "each": {
-        "each": {
-          "oration": "^rIn der Kirche, deren Weihefest begangen wird:^0r^lGroßer und heiliger Gott, jedes Jahr feiern wir den Weihetag dieses heiligen Hauses. Höre auf die Bitten deines Volkes. Hilf uns, dass wir an diesem Ort in rechter Gesinnung den heiligen Dienst vollziehen und den Reichtum der Erlösungsgnade empfangen.^ORV^p^rAußerhalb der Kirche, deren Weihefest begangen wird:^0r^lErhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird.^ORV^ODERAllmächtiger Gott, du hast gewollt, dass dein Volk Kirche heiße, denn wir sind das Haus, in dem deine Herrlichkeit wohnt. Gib, dass die Gläubigen, die sich in deinem Namen ver¬sam-meln, dich ehren, dich lieben und dir gehorchen damit sie unter deiner Führung das ewige Erbe erlangen.^ORV",
-          "oration_lat": ""
-        },
-        "ErsteV": {
-          "button": "1. Vesper zur Kirchweihe",
-          "hymn_1": 1154.0,
-          "hymn_kl": 0.0,
-          "psalm1": 147.1,
-          "psalm2": 147.2,
-          "psalm3": 154.0,
-          "ant1": "Im Heiligtum des Herrn rufen alle: O herrlicher Gott!",
-          "ant2": "Der Herr hat die Riegel deiner Tore festgemacht, die Kinder in deiner Mitte gesegnet.^Ö",
-          "ant3": "Ehre sei dir, o Gott, durch Christus in deiner Kirche.",
-          "les_buch": "›Eph",
-          "les_stelle": "2,19–22",
-          "les_text": "Ihr seid jetzt nicht mehr Fremde ohne Bürgerrecht, sondern Mitbürger der Heiligen und Gottes Hausgenossen. Ihr seid auf das Fundament der Apostel und Propheten gebaut; der Schlussstein ist Christus Jesus selbst. Durch ihn wird der ganze Bau zusammengehalten und wächst zu einem heiligen Tempel im Herrn. Durch ihn werdet auch ihr im Geist zu einer Wohnung Gottes erbaut.",
-          "les_text_neu": "Ihr seid jetzt nicht mehr Fremde und ohne Bürgerrecht, sondern Mitbürger der Heiligen und Hausgenossen Gottes. Ihr seid auf das Fundament der Apostel und Propheten gebaut; der Eckstein ist Christus Jesus selbst. In ihm wird der ganze Bau zusammengehalten und wächst zu einem heiligen Tempel im Herrn. Durch ihn werdet auch ihr zu einer Wohnung Gottes im Geist miterbaut. ",
-          "resp1": "Heiligkeit ziemt dem Hause des Herrn für alle Zeiten.",
-          "resp2": "Der Herr ist König, mit Hoheit bekleidet.",
-          "antev": "Freut euch mit Jerusalem und jubelt in Ewigkeit alle, die ihr es liebt.^Ö",
-          "bitten_e": "Lasst uns beten zum allmächtigen Gott, der seine Kirche aufbaut aus lebendigen Steinen:",
-          "bitten_r": "Wohne in unserer Mitte.",
-          "bitten": "Du göttlicher Bauherr, erhalte deine Kirche^qund heilige das Volk, das du darin versammelt hast.^pDu Winzer deines Weinbergs, schütze deine Pflanzung;^qreinige sie und schenke ihr Wachstum.^pDu göttlicher Sämann, streue den Samen des Wortes aus,^qdamit es hundertfache Frucht bringe am Tag der Ernte.^pDu Hirte von Ewigkeit her, weide deine Herde^qund führe alle Völker zusammen unter dem einen Hirten Jesus Christus.^pVater im Himmel, du weist niemand ab, der zu dir kommt;^qnimm unsere Verstorbenen auf in dein Haus.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
-        },
-        "Invitatorium": {
-          "ant0": "Wie ein Bräutigam liebt Christus seine Kirche; kommt, wir beten ihn an!^Ö^ODER^ANTChristus, den Herrn, der seine Kirche liebt – kommt, wir beten ihn an!^Ö",
-          "ant0_lat": ""
-        },
-        "Lesehore": {
-          "hymn_1": 1139.0,
-          "psalm1": 24.0,
-          "psalm2": 84.101,
-          "psalm3": 87.0,
-          "ant1": "Ihr Tore, hebt euch nach oben, hebt euch, ihr uralten Pforten!^Ö",
-          "ant2": "Wie liebenswert ist deine Wohnung, Herr der Heerscharen!^Ö",
-          "ant3": "Herrliches sagt man von dir, du Stadt unseres Gottes.^Ö",
-          "versikel0": "Ich werfe mich nieder in Ehrfurcht vor deinem heiligen Tempel.^Ö",
-          "versikel1": "Ich lobe deinen Namen, denn du bist gütig.^Ö",
-          "les_buch": "Aus dem ersten Petrusbrief.",
-          "les_stelle": "2,1–17",
-          "les_text": "Legt alle Bosheit ab, alle Falschheit und Heuchelei, allen Neid und alle Verleumdung. Verlangt, gleichsam als neugeborene Kinder, nach der unverfälschten, geistigen Milch, damit ihr durch sie heranwachst und das Heil erlangt. Denn ihr habt erfahren, wie gütig der Herr ist.^pKommt zu ihm, dem lebendigen Stein, der von den Menschen verworfen, aber von Gott aus­erwählt und geehrt worden ist. Lasst euch als lebendige Steine zu einem geistigen Haus auf­bauen, zu einer heiligen Priesterschaft, um durch Jesus Christus geistige Opfer darzu­bringen, die Gott gefallen. Denn es heißt in der Schrift: Seht her, ich lege in Zion einen auser­wählten Stein, einen Eckstein, den ich in Ehren halte; wer an ihn glaubt, der geht nicht zugrunde.^pEuch, die ihr glaubt, gilt diese Ehre. Für jene aber, die nicht glauben, ist dieser Stein, den die Bauleute verworfen haben, zum Eckstein geworden, zum Stein, an den man anstößt, und zum Felsen, an dem man zu Fall kommt. Sie stoßen sich an ihm, weil sie dem Wort nicht gehorchen; doch dazu sind sie bestimmt.^pIhr aber seid ein auserwähltes Geschlecht, eine königliche Priesterschaft, ein heiliger Stamm, ein Volk, das sein besonderes Eigentum wurde, damit ihr die großen Taten dessen verkündet, der euch aus der Finsternis in sein wunderbares Licht gerufen hat. Einst wart ihr nicht sein Volk, jetzt aber seid ihr Gottes Volk; einst gab es für euch kein Erbarmen, jetzt aber habt ihr Erbarmen gefunden.^pLiebe Brüder, da ihr Fremde und Gäste seid in dieser Welt, ermahne ich euch: Gebt den irdischen Begierden nicht nach, die gegen die Seele kämpfen. Führt unter den Heiden ein rechtschaffenes Leben, damit sie, die euch jetzt als Übeltäter verleumden, durch eure guten Taten zur Einsicht kommen und Gott preisen am Tag der Heimsuchung.^pUnterwerft euch um des Herrn willen jeder menschlichen Ordnung: dem Kaiser, weil er über allen steht, den Statthaltern, weil sie von ihm entsandt sind, um die zu bestrafen, die Böses tun, und die auszuzeichnen, die Gutes tun.^pDenn es ist der Wille Gottes, dass ihr durch eure guten Taten die Unwissenheit unverständiger Menschen zum Schweigen bringt. Handelt als Freie, aber nicht als solche, die die Freiheit als Deckmantel für das Böse nehmen, sondern wie Knechte Gottes. Erweist allen Menschen Ehre, liebt die Brüder, fürchtet Gott und ehrt den Kaiser!",
-          "resp1": "Deine Mauern sind aus edlem Stein.",
-          "resp2": "Aus Perlen sind Jerusalems Türme erbaut.",
-          "resp3": "Die Tore sind aus Saphir und Smaragd, aus kost­baren Steinen die Mauern rings um die Stadt.",
-          "patr_autor": "Origenes († 253/254)",
-          "patr_werk": "Aus einer Homilie zum Buch Josua. (Hom. 9,1–2)",
-          "patr_text": "^hAus uns als lebendigen Bausteinen wird der Tempel und Altar Gottes aufgebaut^pWir alle, die an Christus Jesus glauben, werden „lebendige Steine“ genannt, wie die Schrift sagt: „Ihr seid als lebendige Steine zu einem geistigen Haus aufgebaut, zu einer heiligen Priesterschaft, um durch Jesus Christus geistige Opfer darzubringen, die Gott gefallen“ {1#1 Petr 2,5}.^pBekanntlich legt man bei unseren irdischen Steinen die stärkeren und tragfähigeren als erste in die Fundamente, damit man ihnen die Last des ganzen Bauwerks anvertrauen und aufbürden kann. Es leuchtet ein, dass es auch in den Fundamenten dieses geistigen Bauwerks einige von den lebendigen Steinen gibt. Welche erhalten nun ihren Platz in den Fundamenten? Die Apostel und Propheten. Denn so lehrt Paulus: „Ihr seid auf das Fundament der Apostel und Propheten gebaut; der Schlussstein ist unser Herr Christus Jesus selbst“ {2#Eph 2,20}.^pDamit du dich aber williger für die Errichtung dieses Bauwerks bereitmachst, lieber Zuhörer, damit du dich erweist als Stein näher dem Fundament, nimm zur Kenntnis, dass Christus selbst das Fundament dieses von mir jetzt beschriebenen Bauwerks ist. Denn Paulus lehrt: „Einen anderen Grund kann niemand legen als den, der gelegt ist: Jesus Christus“ {3#1 Kor 3,11}. Wohl also denen, die auf diesem so edlen Fundament gottgefällige und heilige Bauwerke errichtet haben.^pIn diesem Bauwerk Kirche muss aber auch ein Altar stehen. So meine ich denn, dass der eine und andere von euch lebendigen Steinen dort eingefügt und also bereit ist, sich dem Gebet zu widmen, Tag und Nacht Bittrufe vor Gott zu bringen und Bußgebete als Gabe zu opfern – die sind es, aus denen Jesus den Altar baut.^pSchau, welches Lob den Altarsteinen gespendet wird, wenn es heißt: „Der Gesetzgeber Mose hat geboten, den Altar aus unversehrten Steinen zu bauen, an die kein Eisen gekommen ist“ {4#Dtn 27,5; Jos 8,31}. Wer sind diese unversehrten Steine? Vielleicht könnten die heiligen Apostel jene unversehrten und unverdorbenen Steine sein, die wegen ihrer Einmütigkeit und Eintracht alle zusammen einen Altar bilden. Denn von ihnen wird berichtet, sie hätten alle einmütig miteinander gebetet, ihren Mund aufgetan und gesprochen: „Herr, du kennst die Herzen aller“ {5#Apg 1,24}. Vielleicht also sind sie, die es verstanden haben, eines Sinnes mit einer Stimme und in einem Geist zu beten, würdig, alle zusammen den einen Altar zu bilden, damit auf ihm Jesus dem Vater das Opfer darbringt.^pDoch sollen auch wir uns mühe alle einmütig in Gedanken und Worten dasselbe zu sprechen, indem wir eines Sinnes sind, ohne etwas aus Lust am Streit oder aus Sucht nach eitler Ehre zu betreiben. Wir sollten vielmehr in der gleichen Sinnesart und Denkweise verharren; vielleicht könnten dann auch wir passende Steine für den Altar werden.",
-          "patr_resp1": "Festgegründet steht das Haus des Herrn auf dem höchsten der Berge; es ragt empor über alle Hügel.",
-          "patr_resp2": "Alle Völker strömen zu ihm und rufen: Ehre sei dir, o Herr!^Ö",
-          "patr_resp3": "Mit Jubel kommen sie und bringen ihre Garben ein.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "versikel0_lat": "",
-          "versikel1_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "patr_resp1_lat": "",
-          "patr_resp2_lat": "",
-          "patr_resp3_lat": "",
-          "les_text_lat": ""
-        },
-        "Vigil": {
-          "psalm1": 195.0,
-          "psalm2": 199.11,
-          "psalm3": 199.117,
-          "les_buch": "ML Comm"
-        },
-        "Laudes": {
-          "button": "Kirchw",
-          "hymn_1": 1150.0,
-          "hymn_kl": 0.0,
-          "psalm1": 63.0,
-          "psalm2": 160.0,
-          "psalm3": 149.0,
-          "ant1": "Mein Haus wird ein Haus des Gebetes sein für alle Völker.^Ö",
-          "ant2": "Gepriesen bist du, Herr, in deinem heiligen Tempel.^Ö",
-          "ant3": "Lobt den Herrn in der Gemeinde der Heiligen.^Ö",
-          "les_buch": "›Jes",
-          "les_stelle": "56,7",
-          "les_text": "Ich bringe sie zu meinem heiligen Berg und erfülle sie in meinem Bethaus mit Freude. Ihre Brandopfer und Schlachtopfer finden Gefallen auf meinem Altar, denn mein Haus wird ein Haus des Gebets für alle Völker genannt.",
-          "les_text_neu": "Ich werde sie zu meinem heiligen Berg bringen und sie erfreuen in meinem Haus des Gebets. Ihre Brandopfer und Schlachtopfer werden Gefallen auf meinem Altar finden, denn mein Haus wird ein Haus des Gebetes für alle Völker genannt werden.",
-          "resp1": "Groß ist der Herr in seiner Stadt,",
-          "resp2": "er ist hoch zu preisen.",
-          "resp3": "Seht die Stadt unseres Gottes: Gott lässt sie ewig bestehen.",
-          "antev": "Zachäus, steige schnell herab. In deinem Hause muss ich heute bleiben. Da stieg er schnell herab und nahm Jesus voll Freude auf. Heute ist Gottes Heil in dieses Haus gekommen.^Ö",
-          "bitten_e": "Gepriesen sei unser Erlöser Jesus Christus, der die zerstreute Herde Gottes in seiner Kirche sammelt. Zu ihm lasst uns beten:",
-          "bitten_r": "Herr, gedenke deiner Kirche.",
-          "bitten": "Du hast deine Kirche auf Felsen gebaut;^qstärke unseren Glauben und festige unsere Zuversicht.^pAus deiner Seite strömen Blut und Wasser;^qerneuere deine Gemeinde durch die Sakramente des Neuen Bundes.^pDu bist mitten unter denen, die in deinem Namen versammelt sind;^qerhöre unser einmütiges Gebet.^pMit dem Vater und dem Heiligen Geist nimmst du Wohnung bei denen, die dich lieben;^qgib, dass die Liebe zum dreifaltigen Gott in uns wachse.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "er°ist°hoch°zu°preisen.",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
-        },
-        "Terz": {
-          "psalm1": 120.0,
-          "psalm2": 121.0,
-          "psalm3": 129.0,
-          "ant0": "Heilig ist das Haus des Herrn; er selber baut und erhält es.^Ö",
-          "les_buch": "›1°Kor",
-          "les_stelle": "3,16–17",
-          "les_text": "Wisst ihr nicht, dass ihr Gottes Tempel seid und der Geist Gottes in euch wohnt? Wer den Tempel Gottes verdirbt, den wird Gott verderben. Denn Gottes Tempel ist heilig, und der seid ihr.",
-          "resp0": "Ich liebe, Herr, die Schönheit deines Hauses.^Ö",
-          "resp1": "Die Wohnung deiner Herrlichkeit.^Ö",
-          "ant0_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
-        },
-        "Sext": {
-          "psalm1": 123.0,
-          "psalm2": 124.0,
-          "psalm3": 125.0,
-          "ant0": "Deinem Haus, o Herr, gebührt Heiligkeit für alle Zeiten.^Ö",
-          "les_buch": "›2°Kor",
-          "les_stelle": "6,16b",
-          "les_text": "Wir sind der Tempel des lebendigen Gottes; denn Gott hat gesprochen: Ich will unter ihnen wohnen und mit ihnen gehen. Ich werde ihr Gott sein, und sie werden mein Volk sein.",
-          "resp0": "Erbittet für Jerusalem Frieden.^Ö",
-          "resp1": "Wer dich liebt, sei in dir geborgen.^Ö",
-          "ant0_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
-        },
-        "Non": {
-          "psalm1": 126.0,
-          "psalm2": 127.0,
-          "psalm3": 128.0,
-          "ant0": "Das ist das Haus des Herrn: fest gefügt und gegründet auf sicherem Felsen.^Ö",
-          "les_buch": "›Jer",
-          "les_stelle": "7,2b.4–5a.7a",
-          "les_text": "Hört das Wort des Herrn, ganz Juda, alle, die ihr durch diese Tore kommt, um dem Herrn zu huldigen! Vertraut nicht auf die trügerischen Worte: Der Tempel des Herrn, der Tempel des Herrn, der Tempel des Herrn ist hier. Denn nur wenn ihr euer Verhalten und euer Tun von Grund auf bessert, will ich bei euch wohnen hier an diesem Ort.",
-          "les_text_neu": "Hört das Wort des HERRN, ganz Juda, alle, die ihr durch diese Tore kommt, um euch vor dem HERRN niederzuwerfen! Vertraut nicht auf die trügerischen Worte: Der Tempel des HERRN, der Tempel des HERRN, der Tempel des HERRN ist dies! Denn nur wenn ihr euer Verhalten und euer Tun von Grund auf bessert, dann will ich bei euch wohnen hier an diesem Ort",
-          "resp0": "Tretet durch seine Tore ein mit Dank.^Ö",
-          "resp1": "Kommt mit Lobgesang in die Höfe seines Tempels.^Ö",
-          "ant0_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
-        },
-        "Vesper": {
-          "hymn_1": 1154.0,
-          "hymn_kl": 0.0,
-          "psalm1": 46.0,
-          "psalm2": 122.0,
-          "psalm3": 156.0,
-          "ant1": "Geheiligt hat der Herr sein Haus. Gott wohnt in seiner Mitte, darum wankt es nicht.^Ö",
-          "ant2": "Voll Freude ziehen wir hinauf zum Hause des Herrn.^Ö",
-          "ant3": "Alle Völker werden kommen und niederfallen vor dir, unserm Gott und Herrn.",
-          "les_buch": "›Offb",
-          "les_stelle": "21,2–3.22.27",
-          "les_text": "Ich, Johannes, sah die heilige Stadt, das neue Jerusalem, von Gott her aus dem Himmel herabkommen; sie war bereit wie eine Braut, die sich für ihren Mann geschmückt hat. Da hörte ich eine laute Stimme vom Thron her rufen: Seht die Wohnung Gottes unter den Menschen! Er wird in ihrer Mitte wohnen, und sie werden sein Volk sein; und er, Gott, wird bei ihnen sein. Einen Tempel sah ich nicht in der Stadt. Denn der Herr, ihr Gott, der Herrscher über die ganze Schöpfung, ist ihr Tempel, er und das Lamm. Nichts Unreines wird hineinkommen, keiner, der Gräuel verübt und lügt. Nur die, die im Lebensbuch des Lammes eingetragen sind, werden eingelassen.",
-          "les_text_neu": "Ich, Johannes, sah die heilige Stadt, das neue Jerusalem, von Gott her aus dem Himmel herabkommen; sie war bereit wie eine Braut, die sich für ihren Mann geschmückt hat. Da hörte ich eine laute Stimme vom Thron her rufen: Seht die Wohnung Gottes unter den Menschen! Er wird in ihrer Mitte wohnen, und sie werden sein Volk sein; und er, Gott, wird bei ihnen sein. Einen Tempel sah ich nicht in der Stadt. Denn der Herr, ihr Gott, der Herrscher über die ganze Schöpfung, ist ihr Tempel, er und das Lamm. Nichts Unreines wird hineinkommen, keiner, der Gräuel verübt und lügt. Nur die im Lebensbuch des Lammes eingetragen sind, werden eingelassen.",
-          "resp1": "Selig, die in deinem Hause wohnen,",
-          "resp2": "sie loben dich in Ewigkeit.",
-          "resp3": "Sie schauen Gott auf dem Zion.",
-          "antev": "Geheiligt hat der Herr sein Zelt; hier ist Gottes Haus, in dem er angerufen wird, wie geschrieben steht: Dort wird mein Name sein – Spruch des Herrn.^Ö",
-          "bitten_e": "Lasst uns beten zum allmächtigen Gott, der seine Kirche aufbaut aus lebendigen Steinen:",
-          "bitten_r": "Wohne in unserer Mitte.",
-          "bitten": "Du göttlicher Bauherr, erhalte deine Kirche^qund heilige das Volk, das du darin versammelt hast.^pDu Winzer deines Weinbergs, schütze deine Pflanzung;^qreinige sie und schenke ihr Wachstum.^pDu göttlicher Sämann, streue den Samen des Wortes aus,^qdamit es hundertfache Frucht bringe am Tag der Ernte.^pDu Hirte von Ewigkeit her, weide deine Herde^qund führe alle Völker zusammen unter dem einen Hirten Jesus Christus.^pVater im Himmel, du weist niemand ab, der zu dir kommt;^qnimm unsere Verstorbenen auf in dein Haus.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "sie°loben°dich°in°Ewigkeit.",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
-        }
-      }
-    },
     "Apostel": {
       "each": {
         "ErsteV": {
@@ -1571,10 +1376,12 @@ export const brevierData = {
           "versikel1_lat": "Et mirabília eius quæ fecit.^LÖ"
         },
         "Vigil": {
-          "psalm1": 199.115,
+          "psalm1": 199.116,
           "psalm2": 199.103,
           "psalm3": 199.104,
-          "les_buch": "ML Comm Hirten"
+          "ant0": "So spricht der Herr: Freut euch und jubelt, denn eure Namen sind im Himmel verzeichnet.^ö",
+          "les_buch": "^A:vigil-Hirten:",
+          "les_text": "LEER"
         },
         "Laudes": {
           "button": "Ap",
@@ -1703,6 +1510,27 @@ export const brevierData = {
           "les_text_lat": "Christus dedit quosdam quidem apóstolos, quosdam autem prophétas, álios vero evangelístas, álios autem pastóres et doctóres ad instructiónem sanctórum in opus ministérii, in ædificatiónem córporis Christi, donec occurrámus omnes in unitátem fídei et agnitiónis Fílii Dei, in virum perféctum, in mensúram ætátis plenitúdinis Christi."
         }
       },
+      "Johannes": {
+        "Vesper": {
+          "hymn_1": 9227.0,
+          "hymn_kl": 0.0,
+          "ant1": "Johannes wurde vom Herrn erwählt als sein Apostel und Evangelist. Weil er Gott über alles liebte, hat ihn Jesus vor allen geliebt.",
+          "ant2": "Dies ist Johannes. Ihm hat der Herr am Kreuze seine Mutter anvertraut, die Jungfrau dem Jungfräulichen.",
+          "ant3": "Der Jünger, den Jesus liebte, sagte zu Petrus: Es ist der Herr.^ö",
+          "les_buch": "›Apg",
+          "les_stelle": "4,19–20",
+          "les_text": "Petrus und Johannes antworteten dem Hohen Rat: Ob es vor Gott recht ist, mehr auf euch zu hören als auf Gott, das entscheidet selbst. Wir können unmöglich schweigen über das, was wir gesehen und gehört haben.",
+          "antev": "Das Wort ist Fleisch geworden und hat unter uns gewohnt. Und wir haben seine Herrlichkeit geschaut.^ö",
+          "oration": "Allmächtiger Gott, du hast uns durch den Evangelisten Johannes einen Zugang eröffnet zum Geheimnis deines ewigen Wortes. Lass uns mit erleuchtetem Verstand und liebendem Herzen erfassen, was er in gewaltiger Sprache verkündet hat.^ORV",
+          "hymn_1_lat": 9227.2,
+          "ant1_lat": "Ioánnes, apóstolus et evangelísta, virgo est eléctus a Dómino, atque inter céteros magis diléctus.",
+          "ant2_lat": "Iste est Ioánnes, cui Christus in cruce Matrem Vírginem vírgini commendávit.",
+          "ant3_lat": "Dixit discípulus, quem diligébat Iesus: Dóminus est, allelúia.",
+          "antev_lat": "Verbum caro factum est, et habitávit in nobis, et vídimus glóriam eius.^Lö",
+          "les_text_lat": "Petrus et Ioánnes respondéntes dixérunt ad eos: „Si iustum est in conspéctu Dei vos pótius audíre quam Deum, iudicáte; non enim póssumus nos, quæ vídimus et audívimus, non loqui.“",
+          "oration_lat": "Deus, qui per beátum apóstolum Ioánnem Verbi tui nobis arcána reserásti, præsta, quǽsumus, ut quod ille nostris áuribus excellénter infúdit, intellegéntiæ competéntis eruditióne capiámus.^ORlV"
+        }
+      },
       "o": {
         "ErsteV": {
           "hymn_1": 1076.1,
@@ -1729,27 +1557,6 @@ export const brevierData = {
         },
         "Invitatorium": {
           "ant0_lat": "Allelúia. Regem Apostolórum Dóminum, veníte, adorémus.^LÖ"
-        }
-      },
-      "Johannes": {
-        "Vesper": {
-          "hymn_1": 9227.0,
-          "hymn_kl": 0.0,
-          "ant1": "Johannes wurde vom Herrn erwählt als sein Apostel und Evangelist. Weil er Gott über alles liebte, hat ihn Jesus vor allen geliebt.",
-          "ant2": "Dies ist Johannes. Ihm hat der Herr am Kreuze seine Mutter anvertraut, die Jungfrau dem Jungfräulichen.",
-          "ant3": "Der Jünger, den Jesus liebte, sagte zu Petrus: Es ist der Herr.^ö",
-          "les_buch": "›Apg",
-          "les_stelle": "4,19–20",
-          "les_text": "Petrus und Johannes antworteten dem Hohen Rat: Ob es vor Gott recht ist, mehr auf euch zu hören als auf Gott, das entscheidet selbst. Wir können unmöglich schweigen über das, was wir gesehen und gehört haben.",
-          "antev": "Das Wort ist Fleisch geworden und hat unter uns gewohnt. Und wir haben seine Herrlichkeit geschaut.^ö",
-          "oration": "Allmächtiger Gott, du hast uns durch den Evangelisten Johannes einen Zugang eröffnet zum Geheimnis deines ewigen Wortes. Lass uns mit erleuchtetem Verstand und liebendem Herzen erfassen, was er in gewaltiger Sprache verkündet hat.^ORV",
-          "hymn_1_lat": 9227.2,
-          "ant1_lat": "Ioánnes, apóstolus et evangelísta, virgo est eléctus a Dómino, atque inter céteros magis diléctus.",
-          "ant2_lat": "Iste est Ioánnes, cui Christus in cruce Matrem Vírginem vírgini commendávit.",
-          "ant3_lat": "Dixit discípulus, quem diligébat Iesus: Dóminus est, allelúia.",
-          "antev_lat": "Verbum caro factum est, et habitávit in nobis, et vídimus glóriam eius.^Lö",
-          "les_text_lat": "Petrus et Ioánnes respondéntes dixérunt ad eos: „Si iustum est in conspéctu Dei vos pótius audíre quam Deum, iudicáte; non enim póssumus nos, quæ vídimus et audívimus, non loqui.“",
-          "oration_lat": "Deus, qui per beátum apóstolum Ioánnem Verbi tui nobis arcána reserásti, præsta, quǽsumus, ut quod ille nostris áuribus excellénter infúdit, intellegéntiæ competéntis eruditióne capiámus.^ORlV"
         }
       }
     },
@@ -2577,6 +2384,201 @@ export const brevierData = {
         }
       }
     },
+    "kirchw": {
+      "each": {
+        "each": {
+          "oration": "^rIn der Kirche, deren Weihefest begangen wird:^0r^lGroßer und heiliger Gott, jedes Jahr feiern wir den Weihetag dieses heiligen Hauses. Höre auf die Bitten deines Volkes. Hilf uns, dass wir an diesem Ort in rechter Gesinnung den heiligen Dienst vollziehen und den Reichtum der Erlösungsgnade empfangen.^ORV^p^rAußerhalb der Kirche, deren Weihefest begangen wird:^0r^lErhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird.^ORV^ODERAllmächtiger Gott, du hast gewollt, dass dein Volk Kirche heiße, denn wir sind das Haus, in dem deine Herrlichkeit wohnt. Gib, dass die Gläubigen, die sich in deinem Namen ver¬sam-meln, dich ehren, dich lieben und dir gehorchen damit sie unter deiner Führung das ewige Erbe erlangen.^ORV",
+          "oration_lat": ""
+        },
+        "ErsteV": {
+          "button": "1. Vesper zur Kirchweihe",
+          "hymn_1": 1154.0,
+          "hymn_kl": 0.0,
+          "psalm1": 147.1,
+          "psalm2": 147.2,
+          "psalm3": 154.0,
+          "ant1": "Im Heiligtum des Herrn rufen alle: O herrlicher Gott!",
+          "ant2": "Der Herr hat die Riegel deiner Tore festgemacht, die Kinder in deiner Mitte gesegnet.^Ö",
+          "ant3": "Ehre sei dir, o Gott, durch Christus in deiner Kirche.",
+          "les_buch": "›Eph",
+          "les_stelle": "2,19–22",
+          "les_text": "Ihr seid jetzt nicht mehr Fremde ohne Bürgerrecht, sondern Mitbürger der Heiligen und Gottes Hausgenossen. Ihr seid auf das Fundament der Apostel und Propheten gebaut; der Schlussstein ist Christus Jesus selbst. Durch ihn wird der ganze Bau zusammengehalten und wächst zu einem heiligen Tempel im Herrn. Durch ihn werdet auch ihr im Geist zu einer Wohnung Gottes erbaut.",
+          "les_text_neu": "Ihr seid jetzt nicht mehr Fremde und ohne Bürgerrecht, sondern Mitbürger der Heiligen und Hausgenossen Gottes. Ihr seid auf das Fundament der Apostel und Propheten gebaut; der Eckstein ist Christus Jesus selbst. In ihm wird der ganze Bau zusammengehalten und wächst zu einem heiligen Tempel im Herrn. Durch ihn werdet auch ihr zu einer Wohnung Gottes im Geist miterbaut. ",
+          "resp1": "Heiligkeit ziemt dem Hause des Herrn für alle Zeiten.",
+          "resp2": "Der Herr ist König, mit Hoheit bekleidet.",
+          "antev": "Freut euch mit Jerusalem und jubelt in Ewigkeit alle, die ihr es liebt.^Ö",
+          "bitten_e": "Lasst uns beten zum allmächtigen Gott, der seine Kirche aufbaut aus lebendigen Steinen:",
+          "bitten_r": "Wohne in unserer Mitte.",
+          "bitten": "Du göttlicher Bauherr, erhalte deine Kirche^qund heilige das Volk, das du darin versammelt hast.^pDu Winzer deines Weinbergs, schütze deine Pflanzung;^qreinige sie und schenke ihr Wachstum.^pDu göttlicher Sämann, streue den Samen des Wortes aus,^qdamit es hundertfache Frucht bringe am Tag der Ernte.^pDu Hirte von Ewigkeit her, weide deine Herde^qund führe alle Völker zusammen unter dem einen Hirten Jesus Christus.^pVater im Himmel, du weist niemand ab, der zu dir kommt;^qnimm unsere Verstorbenen auf in dein Haus.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp1_lat": "",
+          "resp2_lat": "",
+          "antev_lat": "",
+          "bitten_e_lat": "",
+          "bitten_r_lat": "",
+          "bitten_lat": "",
+          "les_text_lat": ""
+        },
+        "Invitatorium": {
+          "ant0": "Wie ein Bräutigam liebt Christus seine Kirche; kommt, wir beten ihn an!^Ö^ODER^ANTChristus, den Herrn, der seine Kirche liebt – kommt, wir beten ihn an!^Ö",
+          "ant0_lat": ""
+        },
+        "Lesehore": {
+          "hymn_1": 1139.0,
+          "psalm1": 24.0,
+          "psalm2": 84.101,
+          "psalm3": 87.0,
+          "ant1": "Ihr Tore, hebt euch nach oben, hebt euch, ihr uralten Pforten!^Ö",
+          "ant2": "Wie liebenswert ist deine Wohnung, Herr der Heerscharen!^Ö",
+          "ant3": "Herrliches sagt man von dir, du Stadt unseres Gottes.^Ö",
+          "versikel0": "Ich werfe mich nieder in Ehrfurcht vor deinem heiligen Tempel.^Ö",
+          "versikel1": "Ich lobe deinen Namen, denn du bist gütig.^Ö",
+          "les_buch": "Aus dem ersten Petrusbrief.",
+          "les_stelle": "2,1–17",
+          "les_text": "Legt alle Bosheit ab, alle Falschheit und Heuchelei, allen Neid und alle Verleumdung. Verlangt, gleichsam als neugeborene Kinder, nach der unverfälschten, geistigen Milch, damit ihr durch sie heranwachst und das Heil erlangt. Denn ihr habt erfahren, wie gütig der Herr ist.^pKommt zu ihm, dem lebendigen Stein, der von den Menschen verworfen, aber von Gott aus­erwählt und geehrt worden ist. Lasst euch als lebendige Steine zu einem geistigen Haus auf­bauen, zu einer heiligen Priesterschaft, um durch Jesus Christus geistige Opfer darzu­bringen, die Gott gefallen. Denn es heißt in der Schrift: Seht her, ich lege in Zion einen auser­wählten Stein, einen Eckstein, den ich in Ehren halte; wer an ihn glaubt, der geht nicht zugrunde.^pEuch, die ihr glaubt, gilt diese Ehre. Für jene aber, die nicht glauben, ist dieser Stein, den die Bauleute verworfen haben, zum Eckstein geworden, zum Stein, an den man anstößt, und zum Felsen, an dem man zu Fall kommt. Sie stoßen sich an ihm, weil sie dem Wort nicht gehorchen; doch dazu sind sie bestimmt.^pIhr aber seid ein auserwähltes Geschlecht, eine königliche Priesterschaft, ein heiliger Stamm, ein Volk, das sein besonderes Eigentum wurde, damit ihr die großen Taten dessen verkündet, der euch aus der Finsternis in sein wunderbares Licht gerufen hat. Einst wart ihr nicht sein Volk, jetzt aber seid ihr Gottes Volk; einst gab es für euch kein Erbarmen, jetzt aber habt ihr Erbarmen gefunden.^pLiebe Brüder, da ihr Fremde und Gäste seid in dieser Welt, ermahne ich euch: Gebt den irdischen Begierden nicht nach, die gegen die Seele kämpfen. Führt unter den Heiden ein rechtschaffenes Leben, damit sie, die euch jetzt als Übeltäter verleumden, durch eure guten Taten zur Einsicht kommen und Gott preisen am Tag der Heimsuchung.^pUnterwerft euch um des Herrn willen jeder menschlichen Ordnung: dem Kaiser, weil er über allen steht, den Statthaltern, weil sie von ihm entsandt sind, um die zu bestrafen, die Böses tun, und die auszuzeichnen, die Gutes tun.^pDenn es ist der Wille Gottes, dass ihr durch eure guten Taten die Unwissenheit unverständiger Menschen zum Schweigen bringt. Handelt als Freie, aber nicht als solche, die die Freiheit als Deckmantel für das Böse nehmen, sondern wie Knechte Gottes. Erweist allen Menschen Ehre, liebt die Brüder, fürchtet Gott und ehrt den Kaiser!",
+          "resp1": "Deine Mauern sind aus edlem Stein.",
+          "resp2": "Aus Perlen sind Jerusalems Türme erbaut.",
+          "resp3": "Die Tore sind aus Saphir und Smaragd, aus kost­baren Steinen die Mauern rings um die Stadt.",
+          "patr_autor": "Origenes († 253/254)",
+          "patr_werk": "Aus einer Homilie zum Buch Josua. (Hom. 9,1–2)",
+          "patr_text": "^hAus uns als lebendigen Bausteinen wird der Tempel und Altar Gottes aufgebaut^pWir alle, die an Christus Jesus glauben, werden „lebendige Steine“ genannt, wie die Schrift sagt: „Ihr seid als lebendige Steine zu einem geistigen Haus aufgebaut, zu einer heiligen Priesterschaft, um durch Jesus Christus geistige Opfer darzubringen, die Gott gefallen“ {1#1 Petr 2,5}.^pBekanntlich legt man bei unseren irdischen Steinen die stärkeren und tragfähigeren als erste in die Fundamente, damit man ihnen die Last des ganzen Bauwerks anvertrauen und aufbürden kann. Es leuchtet ein, dass es auch in den Fundamenten dieses geistigen Bauwerks einige von den lebendigen Steinen gibt. Welche erhalten nun ihren Platz in den Fundamenten? Die Apostel und Propheten. Denn so lehrt Paulus: „Ihr seid auf das Fundament der Apostel und Propheten gebaut; der Schlussstein ist unser Herr Christus Jesus selbst“ {2#Eph 2,20}.^pDamit du dich aber williger für die Errichtung dieses Bauwerks bereitmachst, lieber Zuhörer, damit du dich erweist als Stein näher dem Fundament, nimm zur Kenntnis, dass Christus selbst das Fundament dieses von mir jetzt beschriebenen Bauwerks ist. Denn Paulus lehrt: „Einen anderen Grund kann niemand legen als den, der gelegt ist: Jesus Christus“ {3#1 Kor 3,11}. Wohl also denen, die auf diesem so edlen Fundament gottgefällige und heilige Bauwerke errichtet haben.^pIn diesem Bauwerk Kirche muss aber auch ein Altar stehen. So meine ich denn, dass der eine und andere von euch lebendigen Steinen dort eingefügt und also bereit ist, sich dem Gebet zu widmen, Tag und Nacht Bittrufe vor Gott zu bringen und Bußgebete als Gabe zu opfern – die sind es, aus denen Jesus den Altar baut.^pSchau, welches Lob den Altarsteinen gespendet wird, wenn es heißt: „Der Gesetzgeber Mose hat geboten, den Altar aus unversehrten Steinen zu bauen, an die kein Eisen gekommen ist“ {4#Dtn 27,5; Jos 8,31}. Wer sind diese unversehrten Steine? Vielleicht könnten die heiligen Apostel jene unversehrten und unverdorbenen Steine sein, die wegen ihrer Einmütigkeit und Eintracht alle zusammen einen Altar bilden. Denn von ihnen wird berichtet, sie hätten alle einmütig miteinander gebetet, ihren Mund aufgetan und gesprochen: „Herr, du kennst die Herzen aller“ {5#Apg 1,24}. Vielleicht also sind sie, die es verstanden haben, eines Sinnes mit einer Stimme und in einem Geist zu beten, würdig, alle zusammen den einen Altar zu bilden, damit auf ihm Jesus dem Vater das Opfer darbringt.^pDoch sollen auch wir uns mühe alle einmütig in Gedanken und Worten dasselbe zu sprechen, indem wir eines Sinnes sind, ohne etwas aus Lust am Streit oder aus Sucht nach eitler Ehre zu betreiben. Wir sollten vielmehr in der gleichen Sinnesart und Denkweise verharren; vielleicht könnten dann auch wir passende Steine für den Altar werden.",
+          "patr_resp1": "Festgegründet steht das Haus des Herrn auf dem höchsten der Berge; es ragt empor über alle Hügel.",
+          "patr_resp2": "Alle Völker strömen zu ihm und rufen: Ehre sei dir, o Herr!^Ö",
+          "patr_resp3": "Mit Jubel kommen sie und bringen ihre Garben ein.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "versikel0_lat": "",
+          "versikel1_lat": "",
+          "resp1_lat": "",
+          "resp2_lat": "",
+          "resp3_lat": "",
+          "patr_resp1_lat": "",
+          "patr_resp2_lat": "",
+          "patr_resp3_lat": "",
+          "les_text_lat": ""
+        },
+        "Vigil": {
+          "psalm1": 195.0,
+          "psalm2": 199.111,
+          "psalm3": 199.118,
+          "les_buch": "ML Comm"
+        },
+        "Laudes": {
+          "button": "Kirchw",
+          "hymn_1": 1150.0,
+          "hymn_kl": 0.0,
+          "psalm1": 63.0,
+          "psalm2": 160.0,
+          "psalm3": 149.0,
+          "ant1": "Mein Haus wird ein Haus des Gebetes sein für alle Völker.^Ö",
+          "ant2": "Gepriesen bist du, Herr, in deinem heiligen Tempel.^Ö",
+          "ant3": "Lobt den Herrn in der Gemeinde der Heiligen.^Ö",
+          "les_buch": "›Jes",
+          "les_stelle": "56,7",
+          "les_text": "Ich bringe sie zu meinem heiligen Berg und erfülle sie in meinem Bethaus mit Freude. Ihre Brandopfer und Schlachtopfer finden Gefallen auf meinem Altar, denn mein Haus wird ein Haus des Gebets für alle Völker genannt.",
+          "les_text_neu": "Ich werde sie zu meinem heiligen Berg bringen und sie erfreuen in meinem Haus des Gebets. Ihre Brandopfer und Schlachtopfer werden Gefallen auf meinem Altar finden, denn mein Haus wird ein Haus des Gebetes für alle Völker genannt werden.",
+          "resp1": "Groß ist der Herr in seiner Stadt,",
+          "resp2": "er ist hoch zu preisen.",
+          "resp3": "Seht die Stadt unseres Gottes: Gott lässt sie ewig bestehen.",
+          "antev": "Zachäus, steige schnell herab. In deinem Hause muss ich heute bleiben. Da stieg er schnell herab und nahm Jesus voll Freude auf. Heute ist Gottes Heil in dieses Haus gekommen.^Ö",
+          "bitten_e": "Gepriesen sei unser Erlöser Jesus Christus, der die zerstreute Herde Gottes in seiner Kirche sammelt. Zu ihm lasst uns beten:",
+          "bitten_r": "Herr, gedenke deiner Kirche.",
+          "bitten": "Du hast deine Kirche auf Felsen gebaut;^qstärke unseren Glauben und festige unsere Zuversicht.^pAus deiner Seite strömen Blut und Wasser;^qerneuere deine Gemeinde durch die Sakramente des Neuen Bundes.^pDu bist mitten unter denen, die in deinem Namen versammelt sind;^qerhöre unser einmütiges Gebet.^pMit dem Vater und dem Heiligen Geist nimmst du Wohnung bei denen, die dich lieben;^qgib, dass die Liebe zum dreifaltigen Gott in uns wachse.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp1_lat": "",
+          "resp2_lat": "er°ist°hoch°zu°preisen.",
+          "resp3_lat": "",
+          "antev_lat": "",
+          "bitten_e_lat": "",
+          "bitten_r_lat": "",
+          "bitten_lat": "",
+          "les_text_lat": ""
+        },
+        "Terz": {
+          "psalm1": 120.0,
+          "psalm2": 121.0,
+          "psalm3": 129.0,
+          "ant0": "Heilig ist das Haus des Herrn; er selber baut und erhält es.^Ö",
+          "les_buch": "›1°Kor",
+          "les_stelle": "3,16–17",
+          "les_text": "Wisst ihr nicht, dass ihr Gottes Tempel seid und der Geist Gottes in euch wohnt? Wer den Tempel Gottes verdirbt, den wird Gott verderben. Denn Gottes Tempel ist heilig, und der seid ihr.",
+          "resp0": "Ich liebe, Herr, die Schönheit deines Hauses.^Ö",
+          "resp1": "Die Wohnung deiner Herrlichkeit.^Ö",
+          "ant0_lat": "",
+          "resp0_lat": "",
+          "resp1_lat": "",
+          "les_text_lat": ""
+        },
+        "Sext": {
+          "psalm1": 123.0,
+          "psalm2": 124.0,
+          "psalm3": 125.0,
+          "ant0": "Deinem Haus, o Herr, gebührt Heiligkeit für alle Zeiten.^Ö",
+          "les_buch": "›2°Kor",
+          "les_stelle": "6,16b",
+          "les_text": "Wir sind der Tempel des lebendigen Gottes; denn Gott hat gesprochen: Ich will unter ihnen wohnen und mit ihnen gehen. Ich werde ihr Gott sein, und sie werden mein Volk sein.",
+          "resp0": "Erbittet für Jerusalem Frieden.^Ö",
+          "resp1": "Wer dich liebt, sei in dir geborgen.^Ö",
+          "ant0_lat": "",
+          "resp0_lat": "",
+          "resp1_lat": "",
+          "les_text_lat": ""
+        },
+        "Non": {
+          "psalm1": 126.0,
+          "psalm2": 127.0,
+          "psalm3": 128.0,
+          "ant0": "Das ist das Haus des Herrn: fest gefügt und gegründet auf sicherem Felsen.^Ö",
+          "les_buch": "›Jer",
+          "les_stelle": "7,2b.4–5a.7a",
+          "les_text": "Hört das Wort des Herrn, ganz Juda, alle, die ihr durch diese Tore kommt, um dem Herrn zu huldigen! Vertraut nicht auf die trügerischen Worte: Der Tempel des Herrn, der Tempel des Herrn, der Tempel des Herrn ist hier. Denn nur wenn ihr euer Verhalten und euer Tun von Grund auf bessert, will ich bei euch wohnen hier an diesem Ort.",
+          "les_text_neu": "Hört das Wort des HERRN, ganz Juda, alle, die ihr durch diese Tore kommt, um euch vor dem HERRN niederzuwerfen! Vertraut nicht auf die trügerischen Worte: Der Tempel des HERRN, der Tempel des HERRN, der Tempel des HERRN ist dies! Denn nur wenn ihr euer Verhalten und euer Tun von Grund auf bessert, dann will ich bei euch wohnen hier an diesem Ort",
+          "resp0": "Tretet durch seine Tore ein mit Dank.^Ö",
+          "resp1": "Kommt mit Lobgesang in die Höfe seines Tempels.^Ö",
+          "ant0_lat": "",
+          "resp0_lat": "",
+          "resp1_lat": "",
+          "les_text_lat": ""
+        },
+        "Vesper": {
+          "hymn_1": 1154.0,
+          "hymn_kl": 0.0,
+          "psalm1": 46.0,
+          "psalm2": 122.0,
+          "psalm3": 156.0,
+          "ant1": "Geheiligt hat der Herr sein Haus. Gott wohnt in seiner Mitte, darum wankt es nicht.^Ö",
+          "ant2": "Voll Freude ziehen wir hinauf zum Hause des Herrn.^Ö",
+          "ant3": "Alle Völker werden kommen und niederfallen vor dir, unserm Gott und Herrn.",
+          "les_buch": "›Offb",
+          "les_stelle": "21,2–3.22.27",
+          "les_text": "Ich, Johannes, sah die heilige Stadt, das neue Jerusalem, von Gott her aus dem Himmel herabkommen; sie war bereit wie eine Braut, die sich für ihren Mann geschmückt hat. Da hörte ich eine laute Stimme vom Thron her rufen: Seht die Wohnung Gottes unter den Menschen! Er wird in ihrer Mitte wohnen, und sie werden sein Volk sein; und er, Gott, wird bei ihnen sein. Einen Tempel sah ich nicht in der Stadt. Denn der Herr, ihr Gott, der Herrscher über die ganze Schöpfung, ist ihr Tempel, er und das Lamm. Nichts Unreines wird hineinkommen, keiner, der Gräuel verübt und lügt. Nur die, die im Lebensbuch des Lammes eingetragen sind, werden eingelassen.",
+          "les_text_neu": "Ich, Johannes, sah die heilige Stadt, das neue Jerusalem, von Gott her aus dem Himmel herabkommen; sie war bereit wie eine Braut, die sich für ihren Mann geschmückt hat. Da hörte ich eine laute Stimme vom Thron her rufen: Seht die Wohnung Gottes unter den Menschen! Er wird in ihrer Mitte wohnen, und sie werden sein Volk sein; und er, Gott, wird bei ihnen sein. Einen Tempel sah ich nicht in der Stadt. Denn der Herr, ihr Gott, der Herrscher über die ganze Schöpfung, ist ihr Tempel, er und das Lamm. Nichts Unreines wird hineinkommen, keiner, der Gräuel verübt und lügt. Nur die im Lebensbuch des Lammes eingetragen sind, werden eingelassen.",
+          "resp1": "Selig, die in deinem Hause wohnen,",
+          "resp2": "sie loben dich in Ewigkeit.",
+          "resp3": "Sie schauen Gott auf dem Zion.",
+          "antev": "Geheiligt hat der Herr sein Zelt; hier ist Gottes Haus, in dem er angerufen wird, wie geschrieben steht: Dort wird mein Name sein – Spruch des Herrn.^Ö",
+          "bitten_e": "Lasst uns beten zum allmächtigen Gott, der seine Kirche aufbaut aus lebendigen Steinen:",
+          "bitten_r": "Wohne in unserer Mitte.",
+          "bitten": "Du göttlicher Bauherr, erhalte deine Kirche^qund heilige das Volk, das du darin versammelt hast.^pDu Winzer deines Weinbergs, schütze deine Pflanzung;^qreinige sie und schenke ihr Wachstum.^pDu göttlicher Sämann, streue den Samen des Wortes aus,^qdamit es hundertfache Frucht bringe am Tag der Ernte.^pDu Hirte von Ewigkeit her, weide deine Herde^qund führe alle Völker zusammen unter dem einen Hirten Jesus Christus.^pVater im Himmel, du weist niemand ab, der zu dir kommt;^qnimm unsere Verstorbenen auf in dein Haus.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp1_lat": "",
+          "resp2_lat": "sie°loben°dich°in°Ewigkeit.",
+          "resp3_lat": "",
+          "antev_lat": "",
+          "bitten_e_lat": "",
+          "bitten_r_lat": "",
+          "bitten_lat": "",
+          "les_text_lat": ""
+        }
+      }
+    },
     "Mann": {
       "each": {
         "ErsteV": {
@@ -3141,6 +3143,7 @@ export const brevierData = {
           "psalm1": 199.102,
           "psalm2": 199.103,
           "psalm3": 199.104,
+          "ant0": "Gott wird jede Träne aus ihren Augen wischen, der Tod wird nicht mehr sein, nicht Trauer noch Klage noch Mühsal. Denn die alte Welt ist vergangen.^ö",
           "les_buch": "ML Comm"
         },
         "Laudes": {
@@ -3572,7 +3575,7 @@ export const brevierData = {
           "versikel1_lat": "Mandáta tua meditátio mea est.^LÖ"
         },
         "Vigil": {
-          "psalm1": 199.118,
+          "psalm1": 199.119,
           "psalm2": 199.106,
           "psalm3": 199.107,
           "les_buch": "ML Comm"
@@ -3946,6 +3949,14 @@ export const brevierData = {
       }
     },
     "MFr": {
+      "each": {
+        "Vigil": {
+          "psalm1": 199.119,
+          "psalm2": 199.106,
+          "psalm3": 199.107,
+          "les_buch": "ML Comm"
+        }
+      },
       "Erz": {
         "ErsteV": {
           "hymn_2": 0.0,
@@ -4129,14 +4140,6 @@ export const brevierData = {
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
           "antev_lat": "Vos qui reliquístis ómnia et secúti estis me, céntuplum accipiétis et vitam ætérnam possidébitis.^LÖ^VEL^ANTUbi fratres in unum gloríficant Deum, ibi dabit Dóminus benedictiónem.^Ö"
-        }
-      },
-      "each": {
-        "Vigil": {
-          "psalm1": 199.118,
-          "psalm2": 199.106,
-          "psalm3": 199.107,
-          "les_buch": "ML Comm"
         }
       }
     }
@@ -4736,7 +4739,7 @@ export const brevierData = {
           "les_text_lat": ""
         },
         "Vigil": {
-          "psalm1": 199.111,
+          "psalm1": 199.112,
           "psalm2": 182.0,
           "psalm3": 194.0,
           "ant0": "wie 25.3.",
@@ -5251,7 +5254,7 @@ export const brevierData = {
           "les_text_lat": ""
         },
         "Vigil": {
-          "psalm1": 199.118,
+          "psalm1": 199.119,
           "psalm2": 199.106,
           "psalm3": 199.107,
           "ant0": "Wer treu ist, wird reich gesegnet, wer über seinen Herrn wacht, empfängt Ehre und Lob.^ö",
@@ -5452,7 +5455,7 @@ export const brevierData = {
           "les_text_lat": ""
         },
         "Vigil": {
-          "psalm1": 199.111,
+          "psalm1": 199.112,
           "psalm2": 182.0,
           "psalm3": 194.0,
           "ant0": "Freue dich und juble, Tochter Zion …",
@@ -6715,7 +6718,7 @@ export const brevierData = {
           "versikel1_lat": "Ut omnes créderent per illum."
         },
         "Vigil": {
-          "psalm1": 199.118,
+          "psalm1": 199.119,
           "psalm2": 199.106,
           "psalm3": 199.107,
           "ant0": "Könige werden es sehen",
@@ -6890,7 +6893,7 @@ export const brevierData = {
           "versikel1_lat": "Hoc est quod evangelizátum est in vos."
         },
         "Vigil": {
-          "psalm1": 199.115,
+          "psalm1": 199.116,
           "psalm2": 199.103,
           "psalm3": 199.104,
           "ant0": "Vereint im Glauben und im Leiden …",
@@ -8463,8 +8466,8 @@ export const brevierData = {
         },
         "Vigil": {
           "psalm1": 162.0,
-          "psalm2": 162.1,
-          "psalm3": 162.2,
+          "psalm2": 195.1,
+          "psalm3": 195.2,
           "ant0": "Ihr seid hinzugetreten …",
           "les_buch": "Aus dem heiligen Evangelium nach Lukas.",
           "les_stelle": "1,26-38",
@@ -9121,8 +9124,8 @@ export const brevierData = {
         },
         "Vigil": {
           "psalm1": 162.0,
-          "psalm2": 162.1,
-          "psalm3": 162.2,
+          "psalm2": 195.1,
+          "psalm3": 195.2,
           "ant0": "Preist den Herrn, ihr seine Heiligen alle, feiert Tage der Freude und singt sein Lob.^ö",
           "les_buch": "Aus dem heiligen Evangelium nach Matthäus.",
           "les_stelle": "5,13-16"
@@ -9833,6 +9836,67 @@ export const brevierData = {
           "les_text_lat": "Hi viri misericórdiæ sunt, quorum pietátes non fuérunt in oblivióne. Usque in ætérnum manet semen eórum, et glória eórum non derelinquétur. Córpora ipsórum in pace sepúlta sunt, et nomen eórum vivit in generatiónem et generatiónem; sapiéntiam ipsórum narrent pópuli, et laudem eórum núntiet ecclésia."
         }
       },
+      "24": {
+        "Invitatorium": {
+          "ant0": "Heute sollt ihr wissen, dass der Herr kommt, und morgen werdet ihr schauen seine Herrlichkeit.",
+          "ant0_lat": "Hódie sciétis quia véniet Dóminus, et mane vidébitis glóriam eius."
+        },
+        "Lesehore": {
+          "versikel0": "Der Herr verkündet Jakob sein Wort.",
+          "versikel1": "Seine Satzungen und Rechte Israel.",
+          "versikel0_lat": "Annúntiat Dóminus verbum suum Iacob.",
+          "versikel1_lat": "Iustítias et iudícia sua Israel."
+        },
+        "Laudes": {
+          "button": "Heiliger Abend",
+          "ant1": "Du, Betlehem im Lande Juda, bist nicht die kleinste unter Judas Städten. Aus dir geht ja hervor der Herrscher, der Israel, mein Volk, regieren soll.",
+          "ant2": "Erhebet eure Häupter; siehe, eure Erlösung ist nahe.",
+          "ant3": "Morgen werdet ihr sehen, wie der Herr euch Rettung schafft. Juda und Jerusalem, fürchtet euch nicht: morgen erscheint euer Heil.",
+          "les_buch": "›Jes",
+          "les_stelle": "11,1–2",
+          "les_text": "Aus dem Baumstumpf Isais wächst ein Reis hervor, ein junger Trieb aus seinen Wurzeln bringt Frucht. Der Geist des Herrn lässt sich nieder auf ihm: der Geist der Weisheit und der Einsicht, der Geist des Rates und der Stärke, der Geist der Erkenntnis und der Gottesfurcht.",
+          "les_text_neu": "Aus dem Baumstumpf Isais wächst ein Reis hervor, ein junger Trieb aus seinen Wurzeln bringt Frucht. Der Geist des Herrn ruht auf ihm: der Geist der Weisheit und der Einsicht, der Geist des Rates und der Stärke, der Geist der Erkenntnis und der Furcht des HERRN.",
+          "resp1": "Nur noch ein Tag,",
+          "resp2": "dann wird die Sünde der Erde vernichtet.",
+          "resp3": "Der Retter der Welt wird über uns herrschen.",
+          "antev": "Für Maria erfüllte sich die Zeit, dass sie gebären sollte.",
+          "bitten_e": "Gepriesen sei unser Erlöser, der mit großer Macht und Herrlichkeit wiederkommen wird. Zu ihm lasst uns beten:",
+          "bitten_r": "Komm, Herr Jesus.",
+          "bitten": "Du bist gekommen, um den Menschen die Heilsbotschaft zu verkünden;^qhilf uns, dass wir heute von dir Zeugnis geben.^pNach dir verlangen wir;^qsei du im ganzen Leben unser Trost.^pDu wirst einst wiederkommen;^qgib, dass wir dich in Freude erwarten.^pDu wirst alle Menschen richten;^qmach uns deines Erbarmens würdig.",
+          "ant1_lat": "Tu, Béthlehem, terra Iuda, non eris mínima: ex te enim éxiet Dux qui regat pópulum meum Israel.",
+          "ant2_lat": "Leváte cápita vestra: ecce appropínquat redémptio vestra.",
+          "ant3_lat": "Crástina erit vobis salus, dicit Dóminus Deus exercítuum.",
+          "resp1_lat": "Crástina die",
+          "resp2_lat": "delébitur iníquitas terræ.",
+          "resp3_lat": "Et regnábit super nos Salvátor mundi.",
+          "antev_lat": "Compléti sunt dies Maríæ ut páreret Fílium suum primogénitum.",
+          "bitten_e_lat": "Christum redemptórem, fratres caríssimi, devotióne mentis orémus, qui véniet cum glória et potestáte magna, atque súpplices invocémus:",
+          "bitten_r_lat": "Veni, Dómine Iesu.",
+          "bitten_lat": "Christe Dómine, qui excélsus in fortitúdine vénies, réspice humília nostra,^qut dignos nos fácias munéribus tuis.^pQui Evangélium homínibus manifestáre venísti,^qda tuam nos semper prædicáre salútem.^pTu, qui es benedíctus et vivis et ómnia regis,^qda nos gaudéntes exspectáre beátam spem et advéntum magnificéntiæ tuæ.^pEt nos, qui advéntus tui grátiæ anhelámus,^qdivinitátis tuæ múnere consoláre.",
+          "les_text_lat": "Egrediétur virga de stirpe Iesse, et flos de radíce eius ascéndet; et requiéscet super eum spíritus Dómini: spíritus sapiéntiæ et intelléctus, spíritus consílii et fortitúdinis, spíritus sciéntiæ et timóris Dómini; et delíciæ eius in timóre Dómini."
+        },
+        "Terz": {
+          "les_buch": "›Jes",
+          "les_stelle": "4,2",
+          "les_text": "An jenem Tag wird der Spross des Herrn für alle Israeliten, die entronnen sind, eine Zierde und Ehre sein; die Früchte des Landes sind ihr Stolz und Ruhm.",
+          "les_text_neu": "An jenem Tag wird der Spross des HERRN zur Zierde und zur Herrlichkeit sein und die Frucht des Landes zum Stolz und zum Schmuck für die Entronnenen Israels.",
+          "les_text_lat": ""
+        },
+        "Sext": {
+          "les_buch": "›Jes",
+          "les_stelle": "4,3",
+          "les_text": "Der Rest von Zion und wer in Jerusalem noch übrig ist, wird heilig genannt werden, jeder, der in Jerusalem in das Verzeichnis derer, die am Leben bleiben sollen, eingetragen ist.",
+          "les_text_neu": "Dann wird der Rest in Zion, und wer in Jerusalem noch übrig ist, heilig genannt werden, jeder, der zum Leben eingeschrieben ist in Jerusalem.",
+          "les_text_lat": ""
+        },
+        "Non": {
+          "les_buch": "›Jes",
+          "les_stelle": "61,11",
+          "les_text": "Wie die Erde die Saat wachsen lässt und der Garten die Pflanzen hervorbringt, so bringt Gott, der Herr, Gerechtigkeit hervor und Ruhm vor allen Völkern.",
+          "les_text_neu": "Wie die Erde ihr Gewächs hervorbringt und der Garten seine Saat sprießen lässt, so lässt GOTT, der Herr, Gerechtigkeit sprießen und Ruhm vor allen Nationen.",
+          "les_text_lat": ""
+        }
+      },
       "25": {
         "each": {
           "oration": "Allmächtiger Gott, du hast den Menschen in seiner Würde wunderbar erschaffen und noch wunderbarer wiederhergestellt. lass uns teilhaben an der Gottheit deines Sohnes, der unsere Menschennatur angenommen hat. Er,^ORR",
@@ -9901,7 +9965,9 @@ export const brevierData = {
         },
         "Vigil": {
           "les_buch": "Aus dem heiligen Evangelium nach Matthäus.",
-          "les_stelle": "1,1-25"
+          "les_stelle": "1,1-25",
+          "les_text": "^RUBRDas Evangelium kann in einer Kurzfassung genommen werden, beginnend°unten°mit°Vers°18: „Die°Geburt°Jesu“.^0RUBR^hDer Stammbaum Jesu^p^p^RUBRHier beginnt die Kurzfassung.^RUBR^hDie Geburt Jesu^pMit der Geburt Jesu Christi war es so:^lMaria, seine Mutter, war mit Josef verlobt; noch bevor sie zusammengekommen waren, zeigte sich, dass sie ein Kind erwartete – durch das Wirken des Heiligen Geistes.^pJosef, ihr Mann, der gerecht war und sie nicht bloßstellen wollte, beschloss, sich in aller Stille von ihr zu trennen.^pWährend er noch darüber nachdachte, erschien ihm ein Engel des Herrn im Traum und sagte: Josef, Sohn Davids, fürchte dich nicht, Maria als deine Frau zu dir zu nehmen; denn das Kind, das sie erwartet, ist vom Heiligen Geist. Sie wird einen Sohn gebären; ihm sollst du den Namen Jesus geben; denn er wird sein Volk von seinen Sünden erlösen.^pDies alles ist geschehen, damit sich erfüllte, was der Herr durch den Propheten gesagt hat: Seht, die Jungfrau wird ein Kind empfangen, einen Sohn wird sie gebären, und man wird ihm den Namen Immanuel geben, das heißt übersetzt: Gott ist mit uns.^pAls Josef erwachte, tat er, was der Engel des Herrn ihm befohlen hatte, und nahm seine Frau zu sich. Er erkannte sie aber nicht, bis sie ihren Sohn gebar. Und er gab ihm den Namen Jesus.",
+          "les_text_neu": "^RUBRDas Evangelium kann in einer Kurzfassung genommen werden, beginnend°unten°mit°Vers°18.^0RUBR^hDer Stammbaum Jesu^p^p^RUBRHier beginnt die Kurzfassung.^RUBR^hDie Geburt Jesu^pMit der Geburt Jesu Christi war es so:^lMaria, seine Mutter, war mit Josef verlobt; noch bevor sie zusammengekommen waren, zeigte sich, dass sie ein Kind erwartete – durch das Wirken des Heiligen Geistes.^pJosef, ihr Mann, der gerecht war und sie nicht bloßstellen wollte, beschloss, sich in aller Stille von ihr zu trennen.^pWährend er noch darüber nachdachte, siehe, da erschien ihm ein Engel des Herrn im Traum und sagte: Josef, Sohn Davids, fürchte dich nicht, Maria als deine Frau zu dir zu nehmen; denn das Kind, das sie erwartet, ist vom Heiligen Geist. Sie wird einen Sohn gebären; ihm sollst du den Namen Jesus geben; denn er wird sein Volk von seinen Sünden erlösen.^pDies alles ist geschehen, damit sich erfüllte, was der Herr durch den Propheten gesagt hat: Siehe, die Jungfrau wird ein Kind empfangen und einen Sohn gebären, und sie werden ihm den Namen Immanuel geben, das heißt übersetzt: Gott mit uns.^pAls Josef erwachte, tat er, was der Engel des Herrn ihm befohlen hatte, und nahm seine Frau zu sich. Er erkannte sie aber nicht, bis sie ihren Sohn gebar. Und er gab ihm den Namen Jesus."
         },
         "Laudes": {
           "button": "Weihnachten",
@@ -10188,67 +10254,6 @@ export const brevierData = {
           "oration": "",
           "oration_lat": ""
         }
-      },
-      "24": {
-        "Invitatorium": {
-          "ant0": "Heute sollt ihr wissen, dass der Herr kommt, und morgen werdet ihr schauen seine Herrlichkeit.",
-          "ant0_lat": "Hódie sciétis quia véniet Dóminus, et mane vidébitis glóriam eius."
-        },
-        "Lesehore": {
-          "versikel0": "Der Herr verkündet Jakob sein Wort.",
-          "versikel1": "Seine Satzungen und Rechte Israel.",
-          "versikel0_lat": "Annúntiat Dóminus verbum suum Iacob.",
-          "versikel1_lat": "Iustítias et iudícia sua Israel."
-        },
-        "Laudes": {
-          "button": "Heiliger Abend",
-          "ant1": "Du, Betlehem im Lande Juda, bist nicht die kleinste unter Judas Städten. Aus dir geht ja hervor der Herrscher, der Israel, mein Volk, regieren soll.",
-          "ant2": "Erhebet eure Häupter; siehe, eure Erlösung ist nahe.",
-          "ant3": "Morgen werdet ihr sehen, wie der Herr euch Rettung schafft. Juda und Jerusalem, fürchtet euch nicht: morgen erscheint euer Heil.",
-          "les_buch": "›Jes",
-          "les_stelle": "11,1–2",
-          "les_text": "Aus dem Baumstumpf Isais wächst ein Reis hervor, ein junger Trieb aus seinen Wurzeln bringt Frucht. Der Geist des Herrn lässt sich nieder auf ihm: der Geist der Weisheit und der Einsicht, der Geist des Rates und der Stärke, der Geist der Erkenntnis und der Gottesfurcht.",
-          "les_text_neu": "Aus dem Baumstumpf Isais wächst ein Reis hervor, ein junger Trieb aus seinen Wurzeln bringt Frucht. Der Geist des Herrn ruht auf ihm: der Geist der Weisheit und der Einsicht, der Geist des Rates und der Stärke, der Geist der Erkenntnis und der Furcht des HERRN.",
-          "resp1": "Nur noch ein Tag,",
-          "resp2": "dann wird die Sünde der Erde vernichtet.",
-          "resp3": "Der Retter der Welt wird über uns herrschen.",
-          "antev": "Für Maria erfüllte sich die Zeit, dass sie gebären sollte.",
-          "bitten_e": "Gepriesen sei unser Erlöser, der mit großer Macht und Herrlichkeit wiederkommen wird. Zu ihm lasst uns beten:",
-          "bitten_r": "Komm, Herr Jesus.",
-          "bitten": "Du bist gekommen, um den Menschen die Heilsbotschaft zu verkünden;^qhilf uns, dass wir heute von dir Zeugnis geben.^pNach dir verlangen wir;^qsei du im ganzen Leben unser Trost.^pDu wirst einst wiederkommen;^qgib, dass wir dich in Freude erwarten.^pDu wirst alle Menschen richten;^qmach uns deines Erbarmens würdig.",
-          "ant1_lat": "Tu, Béthlehem, terra Iuda, non eris mínima: ex te enim éxiet Dux qui regat pópulum meum Israel.",
-          "ant2_lat": "Leváte cápita vestra: ecce appropínquat redémptio vestra.",
-          "ant3_lat": "Crástina erit vobis salus, dicit Dóminus Deus exercítuum.",
-          "resp1_lat": "Crástina die",
-          "resp2_lat": "delébitur iníquitas terræ.",
-          "resp3_lat": "Et regnábit super nos Salvátor mundi.",
-          "antev_lat": "Compléti sunt dies Maríæ ut páreret Fílium suum primogénitum.",
-          "bitten_e_lat": "Christum redemptórem, fratres caríssimi, devotióne mentis orémus, qui véniet cum glória et potestáte magna, atque súpplices invocémus:",
-          "bitten_r_lat": "Veni, Dómine Iesu.",
-          "bitten_lat": "Christe Dómine, qui excélsus in fortitúdine vénies, réspice humília nostra,^qut dignos nos fácias munéribus tuis.^pQui Evangélium homínibus manifestáre venísti,^qda tuam nos semper prædicáre salútem.^pTu, qui es benedíctus et vivis et ómnia regis,^qda nos gaudéntes exspectáre beátam spem et advéntum magnificéntiæ tuæ.^pEt nos, qui advéntus tui grátiæ anhelámus,^qdivinitátis tuæ múnere consoláre.",
-          "les_text_lat": "Egrediétur virga de stirpe Iesse, et flos de radíce eius ascéndet; et requiéscet super eum spíritus Dómini: spíritus sapiéntiæ et intelléctus, spíritus consílii et fortitúdinis, spíritus sciéntiæ et timóris Dómini; et delíciæ eius in timóre Dómini."
-        },
-        "Terz": {
-          "les_buch": "›Jes",
-          "les_stelle": "4,2",
-          "les_text": "An jenem Tag wird der Spross des Herrn für alle Israeliten, die entronnen sind, eine Zierde und Ehre sein; die Früchte des Landes sind ihr Stolz und Ruhm.",
-          "les_text_neu": "An jenem Tag wird der Spross des HERRN zur Zierde und zur Herrlichkeit sein und die Frucht des Landes zum Stolz und zum Schmuck für die Entronnenen Israels.",
-          "les_text_lat": ""
-        },
-        "Sext": {
-          "les_buch": "›Jes",
-          "les_stelle": "4,3",
-          "les_text": "Der Rest von Zion und wer in Jerusalem noch übrig ist, wird heilig genannt werden, jeder, der in Jerusalem in das Verzeichnis derer, die am Leben bleiben sollen, eingetragen ist.",
-          "les_text_neu": "Dann wird der Rest in Zion, und wer in Jerusalem noch übrig ist, heilig genannt werden, jeder, der zum Leben eingeschrieben ist in Jerusalem.",
-          "les_text_lat": ""
-        },
-        "Non": {
-          "les_buch": "›Jes",
-          "les_stelle": "61,11",
-          "les_text": "Wie die Erde die Saat wachsen lässt und der Garten die Pflanzen hervorbringt, so bringt Gott, der Herr, Gerechtigkeit hervor und Ruhm vor allen Völkern.",
-          "les_text_neu": "Wie die Erde ihr Gewächs hervorbringt und der Garten seine Saat sprießen lässt, so lässt GOTT, der Herr, Gerechtigkeit sprießen und Ruhm vor allen Nationen.",
-          "les_text_lat": ""
-        }
       }
     }
   },
@@ -10327,7 +10332,7 @@ export const brevierData = {
         },
         "Vigil": {
           "psalm1": 182.0,
-          "psalm2": 199.113,
+          "psalm2": 199.114,
           "psalm3": 194.0,
           "les_buch": "Aus dem heiligen Evangelium nach Matthäus.",
           "les_stelle": "28,1-10.16-20"
@@ -11928,7 +11933,7 @@ export const brevierData = {
           "ant0_lat": "Veníte, exsultémus Dómino, iubilémus Deo salutári nostro.^Lö"
         },
         "Vigil": {
-          "psalm1": 199.112,
+          "psalm1": 199.113,
           "psalm2": 183.0,
           "psalm3": 199.108,
           "ant0": "Herr, wir warten auf dich. Sei unsere Hilfe an jedem Morgen, sei in der Not unsere Rettung.^ö"
@@ -13229,6 +13234,66 @@ export const brevierData = {
           "oration_lat": "Festína, quǽsumus, ne tardáveris, Dómine Iesu, ut advéntus tui consolatiónibus sublevéntur, qui in tua pietáte confídunt.^ORlS"
         }
       },
+      "26": {
+        "Vesper": {
+          "comm_1": "MärtSg_Stephanus",
+          "les_buch": "›1°Joh",
+          "les_stelle": "1,5b.7",
+          "les_text": "Gott ist Licht, und keine Finsternis ist in ihm. Wenn wir aber im Licht leben, wie er im Licht ist, haben wir Gemeinschaft miteinander, und das Blut seines Sohnes Jesus reinigt uns von aller Sünde.",
+          "les_text_neu": "Gott ist Licht, und keine Finsternis ist in ihm. Wenn wir aber im Licht wandeln, wie er im Licht ist, haben wir Gemeinschaft miteinander, und das Blut seines Sohnes Jesus reinigt uns von aller Sünde.",
+          "antev": "Tiefes Schweigen umfing das All. Die Nacht hielt inne in der Mitte ihres Laufes. Da stieg dein allmächtiges Wort hernieder vom königlichen Thron. Halleluja,°halleluja.",
+          "bitten_e": "Lasst uns beten zu Jesus Christus, dem Heiland der Welt:",
+          "bitten_r": "Befreie die Welt vom Bösen.",
+          "bitten": "Durch das Geheimnis deiner Menschwerdung, durch deine Geburt und durch dein ganzes Leben:^pDurch deine Mühen, deine Predigt und deine Liebe zu den Sündern:^pDurch dein Leiden und deine Verlassenheit, durch deinen Tod und dein Begräbnis:^pDurch deine Auferstehung und Himmelfahrt, durch die Sendung des Heiligen Geistes und deine Herrlichkeit:^pBefreie die Welt vom Bösen und bewahre un­sere verstorbenen Brüder und Schwestern vor dem ewigen Tod.",
+          "oration": "Allmächtiger Gott, die Knechtschaft der Sünde hält uns Menschen gefangen. Nimm dieses alte Joch von uns und schenke uns die neue Freiheit durch die Geburt deines Sohnes in unserem sterblichen Fleisch.^ORvR ",
+          "antev_lat": "Dum médium siléntium tenérent ómnia, et nox in suo cursu médium iter perágeret, omnípotens Sermo tuus, Dómine, a regálibus sédibus venit.^Lö",
+          "bitten_e_lat": "Verbum Dei, quod, in nobis habitándo, salútis perpétuæ trámitem reserávit, deprecémur et sincéra humilitáte rogémus:",
+          "bitten_r_lat": "Ab omni malo, líbera nos, Dómine.",
+          "bitten_lat": "Per mystérium incarnatiónis tuæ, per nativitátem et infántiam tuam,^qper totam vitam tuam Patri dicátam:^pPer labóres tuos, per prædicatiónes et itínera tua,^qper conversatiónem tuam inter peccatóres:^pPer agoníam et passiónem tuam, per crucem et desolatiónem tuam,^qper angústias tuas, per mortem et sepultúram tuam:^pPer resurrectiónem et ascensiónem tuam, per donatiónem Spíritus Sancti, per gáudia et glóriam tuam ætérnam,^qfratres nostros, iam defúnctos, líbera, Dómine.",
+          "les_text_lat": "Deus lux est et ténebræ in eo non sunt ullæ. Si in luce ambulémus, sicut ipse est in luce, communiónem habémus ad ínvicem, et sanguis Iesu Fílii eius mundat nos ab omni peccáto.",
+          "oration_lat": "Concéde, quǽsumus, omnípotens Deus, ut nos Unigéniti tui nova per carnem natívitas líberet, quos sub peccáti iugo vetústa sérvitus tenet.^ORlV"
+        }
+      },
+      "27": {
+        "Vesper": {
+          "comm_1": "Apostel_Johannes",
+          "les_buch": "›Röm",
+          "les_stelle": "8,3b–4",
+          "les_text": "Gott sandte seinen Sohn in der Gestalt des Fleisches, das unter der Macht der Sünde steht, zur Sühne für die Sünde, um an diesem Fleisch die Sünde zu verurteilen; dies tat er, damit die Forderung des Gesetzes durch uns erfüllt werde, die wir nicht nach dem Fleisch, sondern nach dem Geist leben.",
+          "les_text_neu": "Gott sandte seinen Sohn in der Gestalt des Fleisches, das unter der Macht der Sünde steht, wegen der Sünde, um die Sünde im Fleisch zu verurteilen; dies tat er, damit die Forderung des Gesetzes durch uns erfüllt werde, die wir nicht nach dem Fleisch, sondern nach dem Geist leben.",
+          "antev": "Was alle Propheten von Christus verkünden, das hat sich durch dich, Maria, erfüllt: Als Jungfrau hast du empfangen, als Jungfrau hast du geboren.",
+          "bitten_e": "Lasst uns beten zu Gott, unserem Vater, der aus unendlicher Liebe seinen Sohn in die Welt ge­sandt hat:",
+          "bitten_r": "Die Gnade deines Sohnes sei mit uns.",
+          "bitten": "Vater unseres Herrn Jesus Christus, du hast dich der Menschen erbarmt, die in der Finsternis leben.^qNimm unsere Bitten an für das Heil aller Menschen.^pGedenke deiner Kirche auf der ganzen Erde.^qBeschütze die Christenheit und schenke ihr Frieden.^pLenke die Augen aller Völker auf deinen Sohn^qund schaffe Frieden auch bei denen, die dich nicht kennen.^pBekehre das Herz derer, die auf Gewalt ver­trauen.^qErfülle die Regierenden mit dem Geist der Versöhnung.^pDu hast deinen Sohn in die Welt gesandt, damit alle das Leben haben.^qGib unseren Verstorbenen ewiges Leben bei dir.^pVater unser.",
+          "oration": "Allmächtiger Gott, dein ewiges Wort ist Fleisch geworden, um uns mit dem Glanz deines Lichtes zu erfüllen. Gib, dass in unseren Werken widerstrahlt, was durch den Glauben in unserem Herzen leuchtet.^ORvR ",
+          "antev_lat": "Per te, María Virgo, impléta sunt prophetárum ómnium præcónia, quæ de Christo dicta sunt: Virgo concepísti, et Virgo genuísti.",
+          "bitten_e_lat": "Fratres caríssimi, Deum Patrem exorémus, qui propter multam caritátem suam misit nobis Fílium suum, eúmque súpplices invocémus:",
+          "bitten_r_lat": "Grátia Fílii tui nobíscum, Dómine.",
+          "bitten_lat": "Deus caritátis, Pater Dómini nostri Iesu Christi, qui misértus es perambulántium in ténebris,^qsúscipe quas tibi pro salúte ómnium preces offérimus.^pMeménto, Dómine, Ecclésiæ tuæ, per totum orbem diffúsæ,^qet pópulo tuo christiáno bénedic pacémque concéde.^pCunctórum Pater, inter gentes étiam pacem dignánter instítue, ómnium óculos populórum ad Fílium tuum dírige,^qet in eos qui illos regunt, spíritum pacis effúnde.^pQui, in advéntu Fílii tui, pacem in terra nuntiári fecísti,^qda pacem ætérnam defúnctis.",
+          "les_text_lat": "Deus Fílium suum mittens in similitúdine carnis peccáti et pro peccáto, damnávit peccátum in carne, ut iustítia legis implerétur in nobis, qui non secúndum carnem ambulámus, sed secúndum Spíritum.",
+          "oration_lat": "Da, quǽsumus, omnípotens Deus, ut, dum nova incarnáti Verbi tui luce perfúndimur, hoc in nostro respléndeat ópere, quod per fidem fulget in mente.^ORlV"
+        }
+      },
+      "28": {
+        "Vesper": {
+          "comm_1": "MärtPl_UnschKinder",
+          "les_buch": "›Eph",
+          "les_stelle": "2,3b.5",
+          "les_text": "Wir waren von Natur aus Kinder des Zorns wie die anderen. Gott aber, der voll Erbarmen ist, hat uns, die wir infolge unserer Sünden tot waren, in seiner großen Liebe, mit der er uns geliebt hat, zusammen mit Christus wieder lebendig gemacht. Aus Gnade seid ihr gerettet.",
+          "les_text_neu": "Wir waren von Natur aus Kinder des Zorns wie auch die anderen. Gott aber, der reich ist an Erbarmen, hat uns, die wir infolge unserer Sünden tot waren, in seiner großen Liebe, mit der er uns geliebt hat, zusammen mit Christus lebendig gemacht. Aus Gnade seid ihr gerettet.",
+          "antev": "Die makellose Jungfrau hat uns Gott geboren und ihn an ihrer Brust genährt. Kommt, wir beten ihn an, der erschienen ist, uns zu retten.",
+          "bitten_e": "Lasst uns beten zu Gott, der seinen Sohn gesandt hat, um die Welt vom Joch des Gesetzes zu befreien:",
+          "bitten_r": "Die Gnade deines Sohnes sei mit uns.",
+          "bitten": "Gott, beschütze deine Kirche in Verfolgung und Not^qund schenke ihr den Frieden, den die Welt nicht geben kann. ^pTröste die Trauernden.^qGib den Verzweifelten neue Zuversicht.^pWecke Hoffnung in den Herzen der Armen.^qRichte die Kranken und Alten auf.^pGedenke aller, die ihrer Freiheit beraubt sind.^qBeschütze die aus ihrer Heimat Vertriebe­nen.^pBei der Geburt deines Sohnes verkündeten Engel deine Herrlichkeit.^qNimm unsere Verstorbenen auf in den Glanz deines Lichtes.",
+          "oration": "Allmächtiger Gott, du hast den Men­schen in seiner Würde wunderbar erschaffen und noch wunderbarer wiederhergestellt. lass uns teilhaben an der Gottheit deines Sohnes, der unsere Menschennatur angenommen hat. Er,^ORR",
+          "antev_lat": "Sancta et intácta Virgo Deum nobis génuit, téneris indútum membris, quem lactáre méruit: omnes ipsum adorémus, qui venit salváre nos.",
+          "bitten_e_lat": "Deus misit Fílium suum, factum ex mulíere, factum sub lege, ut eos qui sub lege erant redímeret. Qua spe confirmáti, fidénter orémus:",
+          "bitten_r_lat": "Grátia Filii tui nobíscum, Dómine.",
+          "bitten_lat": "Deus caritátis et pacis, ómnium christianórum rénova fidem in Fílii tui incarnatiónem,^qut in gratiárum semper actióne máneant.^pSpem infirmórum, páuperum et seniórum adáuge,^qda oppréssis levámen, desperántibus fidúciam, consolatiónem lugéntibus.^pOmnium memor esto, qui in carcéribus detinéntur,^qet eórum, qui extórres facti sunt a pátria.^pQui in nativitáte Fílii tui ángelos te laudántes audíri fecísti,^qfac ut defúncti cum milítia cælésti in ævum te laudent.",
+          "les_text_lat": "Erámus natúra fílii iræ sicut et céteri. Deus autem, qui dives est in misericórdia, propter nímiam caritátem suam, qua diléxit nos, et cum essémus mórtui peccátis, convivificávit nos Christo. Grátia estis salváti.",
+          "oration_lat": "Deus, qui humánæ substántiæ dignitátem et mirabíliter condidísti et mirabílius reformásti, da, quǽsumus, nobis eius divinitátis esse consórtes, qui humanitátis nostræ fíeri dignátus est párticeps.^ORlR"
+        }
+      },
       "29": {
         "each": {
           "oration": "Unsichtbarer Gott, dein Licht ist in die Welt gekommen und hat die Finsternis überwunden. Sieh gnädig auf uns und lass uns die Herrlichkeit der Geburt Christi in würdigem Lob feiern.^ORR",
@@ -13431,66 +13496,6 @@ export const brevierData = {
           "les_buch": "›Gal",
           "les_stelle": "4,4–5",
           "les_text": "Als die Zeit erfüllt war, sandte Gott seinen Sohn, geboren von einer Frau und dem Gesetz unterstellt, damit er die freikaufte, die unter dem Gesetz stehen, und damit wir die Sohnschaft erlangten."
-        }
-      },
-      "26": {
-        "Vesper": {
-          "comm_1": "MärtSg_Stephanus",
-          "les_buch": "›1°Joh",
-          "les_stelle": "1,5b.7",
-          "les_text": "Gott ist Licht, und keine Finsternis ist in ihm. Wenn wir aber im Licht leben, wie er im Licht ist, haben wir Gemeinschaft miteinander, und das Blut seines Sohnes Jesus reinigt uns von aller Sünde.",
-          "les_text_neu": "Gott ist Licht, und keine Finsternis ist in ihm. Wenn wir aber im Licht wandeln, wie er im Licht ist, haben wir Gemeinschaft miteinander, und das Blut seines Sohnes Jesus reinigt uns von aller Sünde.",
-          "antev": "Tiefes Schweigen umfing das All. Die Nacht hielt inne in der Mitte ihres Laufes. Da stieg dein allmächtiges Wort hernieder vom königlichen Thron. Halleluja,°halleluja.",
-          "bitten_e": "Lasst uns beten zu Jesus Christus, dem Heiland der Welt:",
-          "bitten_r": "Befreie die Welt vom Bösen.",
-          "bitten": "Durch das Geheimnis deiner Menschwerdung, durch deine Geburt und durch dein ganzes Leben:^pDurch deine Mühen, deine Predigt und deine Liebe zu den Sündern:^pDurch dein Leiden und deine Verlassenheit, durch deinen Tod und dein Begräbnis:^pDurch deine Auferstehung und Himmelfahrt, durch die Sendung des Heiligen Geistes und deine Herrlichkeit:^pBefreie die Welt vom Bösen und bewahre un­sere verstorbenen Brüder und Schwestern vor dem ewigen Tod.",
-          "oration": "Allmächtiger Gott, die Knechtschaft der Sünde hält uns Menschen gefangen. Nimm dieses alte Joch von uns und schenke uns die neue Freiheit durch die Geburt deines Sohnes in unserem sterblichen Fleisch.^ORvR ",
-          "antev_lat": "Dum médium siléntium tenérent ómnia, et nox in suo cursu médium iter perágeret, omnípotens Sermo tuus, Dómine, a regálibus sédibus venit.^Lö",
-          "bitten_e_lat": "Verbum Dei, quod, in nobis habitándo, salútis perpétuæ trámitem reserávit, deprecémur et sincéra humilitáte rogémus:",
-          "bitten_r_lat": "Ab omni malo, líbera nos, Dómine.",
-          "bitten_lat": "Per mystérium incarnatiónis tuæ, per nativitátem et infántiam tuam,^qper totam vitam tuam Patri dicátam:^pPer labóres tuos, per prædicatiónes et itínera tua,^qper conversatiónem tuam inter peccatóres:^pPer agoníam et passiónem tuam, per crucem et desolatiónem tuam,^qper angústias tuas, per mortem et sepultúram tuam:^pPer resurrectiónem et ascensiónem tuam, per donatiónem Spíritus Sancti, per gáudia et glóriam tuam ætérnam,^qfratres nostros, iam defúnctos, líbera, Dómine.",
-          "les_text_lat": "Deus lux est et ténebræ in eo non sunt ullæ. Si in luce ambulémus, sicut ipse est in luce, communiónem habémus ad ínvicem, et sanguis Iesu Fílii eius mundat nos ab omni peccáto.",
-          "oration_lat": "Concéde, quǽsumus, omnípotens Deus, ut nos Unigéniti tui nova per carnem natívitas líberet, quos sub peccáti iugo vetústa sérvitus tenet.^ORlV"
-        }
-      },
-      "27": {
-        "Vesper": {
-          "comm_1": "Apostel_Johannes",
-          "les_buch": "›Röm",
-          "les_stelle": "8,3b–4",
-          "les_text": "Gott sandte seinen Sohn in der Gestalt des Fleisches, das unter der Macht der Sünde steht, zur Sühne für die Sünde, um an diesem Fleisch die Sünde zu verurteilen; dies tat er, damit die Forderung des Gesetzes durch uns erfüllt werde, die wir nicht nach dem Fleisch, sondern nach dem Geist leben.",
-          "les_text_neu": "Gott sandte seinen Sohn in der Gestalt des Fleisches, das unter der Macht der Sünde steht, wegen der Sünde, um die Sünde im Fleisch zu verurteilen; dies tat er, damit die Forderung des Gesetzes durch uns erfüllt werde, die wir nicht nach dem Fleisch, sondern nach dem Geist leben.",
-          "antev": "Was alle Propheten von Christus verkünden, das hat sich durch dich, Maria, erfüllt: Als Jungfrau hast du empfangen, als Jungfrau hast du geboren.",
-          "bitten_e": "Lasst uns beten zu Gott, unserem Vater, der aus unendlicher Liebe seinen Sohn in die Welt ge­sandt hat:",
-          "bitten_r": "Die Gnade deines Sohnes sei mit uns.",
-          "bitten": "Vater unseres Herrn Jesus Christus, du hast dich der Menschen erbarmt, die in der Finsternis leben.^qNimm unsere Bitten an für das Heil aller Menschen.^pGedenke deiner Kirche auf der ganzen Erde.^qBeschütze die Christenheit und schenke ihr Frieden.^pLenke die Augen aller Völker auf deinen Sohn^qund schaffe Frieden auch bei denen, die dich nicht kennen.^pBekehre das Herz derer, die auf Gewalt ver­trauen.^qErfülle die Regierenden mit dem Geist der Versöhnung.^pDu hast deinen Sohn in die Welt gesandt, damit alle das Leben haben.^qGib unseren Verstorbenen ewiges Leben bei dir.^pVater unser.",
-          "oration": "Allmächtiger Gott, dein ewiges Wort ist Fleisch geworden, um uns mit dem Glanz deines Lichtes zu erfüllen. Gib, dass in unseren Werken widerstrahlt, was durch den Glauben in unserem Herzen leuchtet.^ORvR ",
-          "antev_lat": "Per te, María Virgo, impléta sunt prophetárum ómnium præcónia, quæ de Christo dicta sunt: Virgo concepísti, et Virgo genuísti.",
-          "bitten_e_lat": "Fratres caríssimi, Deum Patrem exorémus, qui propter multam caritátem suam misit nobis Fílium suum, eúmque súpplices invocémus:",
-          "bitten_r_lat": "Grátia Fílii tui nobíscum, Dómine.",
-          "bitten_lat": "Deus caritátis, Pater Dómini nostri Iesu Christi, qui misértus es perambulántium in ténebris,^qsúscipe quas tibi pro salúte ómnium preces offérimus.^pMeménto, Dómine, Ecclésiæ tuæ, per totum orbem diffúsæ,^qet pópulo tuo christiáno bénedic pacémque concéde.^pCunctórum Pater, inter gentes étiam pacem dignánter instítue, ómnium óculos populórum ad Fílium tuum dírige,^qet in eos qui illos regunt, spíritum pacis effúnde.^pQui, in advéntu Fílii tui, pacem in terra nuntiári fecísti,^qda pacem ætérnam defúnctis.",
-          "les_text_lat": "Deus Fílium suum mittens in similitúdine carnis peccáti et pro peccáto, damnávit peccátum in carne, ut iustítia legis implerétur in nobis, qui non secúndum carnem ambulámus, sed secúndum Spíritum.",
-          "oration_lat": "Da, quǽsumus, omnípotens Deus, ut, dum nova incarnáti Verbi tui luce perfúndimur, hoc in nostro respléndeat ópere, quod per fidem fulget in mente.^ORlV"
-        }
-      },
-      "28": {
-        "Vesper": {
-          "comm_1": "MärtPl_UnschKinder",
-          "les_buch": "›Eph",
-          "les_stelle": "2,3b.5",
-          "les_text": "Wir waren von Natur aus Kinder des Zorns wie die anderen. Gott aber, der voll Erbarmen ist, hat uns, die wir infolge unserer Sünden tot waren, in seiner großen Liebe, mit der er uns geliebt hat, zusammen mit Christus wieder lebendig gemacht. Aus Gnade seid ihr gerettet.",
-          "les_text_neu": "Wir waren von Natur aus Kinder des Zorns wie auch die anderen. Gott aber, der reich ist an Erbarmen, hat uns, die wir infolge unserer Sünden tot waren, in seiner großen Liebe, mit der er uns geliebt hat, zusammen mit Christus lebendig gemacht. Aus Gnade seid ihr gerettet.",
-          "antev": "Die makellose Jungfrau hat uns Gott geboren und ihn an ihrer Brust genährt. Kommt, wir beten ihn an, der erschienen ist, uns zu retten.",
-          "bitten_e": "Lasst uns beten zu Gott, der seinen Sohn gesandt hat, um die Welt vom Joch des Gesetzes zu befreien:",
-          "bitten_r": "Die Gnade deines Sohnes sei mit uns.",
-          "bitten": "Gott, beschütze deine Kirche in Verfolgung und Not^qund schenke ihr den Frieden, den die Welt nicht geben kann. ^pTröste die Trauernden.^qGib den Verzweifelten neue Zuversicht.^pWecke Hoffnung in den Herzen der Armen.^qRichte die Kranken und Alten auf.^pGedenke aller, die ihrer Freiheit beraubt sind.^qBeschütze die aus ihrer Heimat Vertriebe­nen.^pBei der Geburt deines Sohnes verkündeten Engel deine Herrlichkeit.^qNimm unsere Verstorbenen auf in den Glanz deines Lichtes.",
-          "oration": "Allmächtiger Gott, du hast den Men­schen in seiner Würde wunderbar erschaffen und noch wunderbarer wiederhergestellt. lass uns teilhaben an der Gottheit deines Sohnes, der unsere Menschennatur angenommen hat. Er,^ORR",
-          "antev_lat": "Sancta et intácta Virgo Deum nobis génuit, téneris indútum membris, quem lactáre méruit: omnes ipsum adorémus, qui venit salváre nos.",
-          "bitten_e_lat": "Deus misit Fílium suum, factum ex mulíere, factum sub lege, ut eos qui sub lege erant redímeret. Qua spe confirmáti, fidénter orémus:",
-          "bitten_r_lat": "Grátia Filii tui nobíscum, Dómine.",
-          "bitten_lat": "Deus caritátis et pacis, ómnium christianórum rénova fidem in Fílii tui incarnatiónem,^qut in gratiárum semper actióne máneant.^pSpem infirmórum, páuperum et seniórum adáuge,^qda oppréssis levámen, desperántibus fidúciam, consolatiónem lugéntibus.^pOmnium memor esto, qui in carcéribus detinéntur,^qet eórum, qui extórres facti sunt a pátria.^pQui in nativitáte Fílii tui ángelos te laudántes audíri fecísti,^qfac ut defúncti cum milítia cælésti in ævum te laudent.",
-          "les_text_lat": "Erámus natúra fílii iræ sicut et céteri. Deus autem, qui dives est in misericórdia, propter nímiam caritátem suam, qua diléxit nos, et cum essémus mórtui peccátis, convivificávit nos Christo. Grátia estis salváti.",
-          "oration_lat": "Deus, qui humánæ substántiæ dignitátem et mirabíliter condidísti et mirabílius reformásti, da, quǽsumus, nobis eius divinitátis esse consórtes, qui humanitátis nostræ fíeri dignátus est párticeps.^ORlR"
         }
       }
     }
@@ -13738,6 +13743,46 @@ export const brevierData = {
           "bitten_r_lat": "",
           "bitten_lat": "",
           "les_text_lat": ""
+        }
+      }
+    }
+  },
+  "n5": {
+    "mar": {
+      "sa": {
+        "Invitatorium": {
+          "ant0": "Christus, den Sohn Mariens – kommt, wir beten ihn an!^ODER^ANTAm Gedenktag der seligen Jungfrau Maria lasst uns den Herrn lobpreisen!",
+          "ant0_lat": "Christum, Fílium Maríæ, veníte, adorémus.^VEL^ANTMemóriam beátæ Maríæ Vírginis clebrántes, iubilémus Dómino."
+        },
+        "Lesehore": {
+          "comm_1": "Maria_Sa",
+          "patr_autor": "^A:MariaSaLh:Proclus von Konstantinopel († 446)",
+          "patr_werk": "Aus einer Predigt zum Weihnachtsfest.",
+          "patr_text": "^hDer°die°Menschen°liebt, ist°Mensch°geworden, geboren°von°der°Jungfrau^p„Die Himmel sollen sich freuen, die Wolken Gerechtigkeit regnen, denn der Herr hat sich seines Volkes erbarmt. Die Himmel sollen sich freuen“, denn als sie geschaffen wurden, wurde auch Adam von seinem Schöpfer gebildet aus jungfräulicher Erde; er wurde Gottes Freund und Hausgenosse.^p„Die Himmel sollen sich freuen“{1#Ps 96,11}, denn heute wurde durch das Kommen des Herrn im Fleisch die Erde geheiligt und die Menschen von den Götzenopfern befreit.^p„Die Wolken sollen Gerechtigkeit regnen“{2#vgl. Jes 45,8}, denn heute wurde die Sünde Evas weggenommen und vergeben um der Reinheit der Jungfrau Maria willen und durch den, der als Gott und Mensch von ihr geboren wurde. Heute wurde Adam von jenem schrecklichen Urteil befreit, das ihn einst zur Todesnacht verdammt hatte.^pHeute wurde Christus geboren von der Jungfrau, aus der er nach dem Heilsplan Gottes Fleisch angenommen hatte.^p„Das Wort ist Fleisch geworden und hat unter uns gewohnt“{3#Joh 1,14}, und daher wurde die Jungfrau zur Mutter Gottes. Sie wurde Mutter und blieb doch Jungfrau, denn ohne eines Mannes Zutun ist das Wort Fleisch geworden und wurde von ihr geboren; so bewahrte sie ihre Jungfräulichkeit durch die wunderbare Geburt dessen, der es so gewollt hatte.^pSie ist Mutter wegen der menschlichen Natur des göttlichen Wortes, das in ihr Fleisch geworden und der Welt erschienen ist; Wort und Fleisch wurden eins gemäß der Weisheit und dem Willen dessen, der große Wunder vollbringt.^pEr ist aus menschlichem Geschlecht, wie der heilige Paulus sagt. Er war, was er nun ist und sein und bleiben wird.^pUnseretwillen ist er Mensch geworden. Er, der den Menschen liebt, ist Mensch geworden, was er vorher nicht war. Er ist Mensch geworden und blieb doch Gott, ohne jede Veränderung. Er ist mir also ähnlich geworden um meinetwillen; er ist geworden, was er nicht war, und bewahrte dennoch, was er war. Er ist Mensch geworden, um sich unsere Leiden zu eigen zu machen, um uns die Macht zu geben, „Kinder Gottes zu werden“{4#Joh 1,12}, und uns sein Reich zu schenken.^pDessen mache uns würdig die Gnade und Barmherzigkeit des Herrn Jesus Christus, dem mit dem Vater und dem Heiligen Geist Ruhm und Ehre und Macht ist jetzt und alle Zeit und in Ewigkeit. Amen.",
+          "patr_resp1": "Es strömt wie Regen herab auf das Feld.",
+          "patr_resp2": "Seine°Herrlichkeit erfüllt die ganze Erde.",
+          "patr_resp3": "Seht das Zelt Gottes unter den Menschen. Er wird in ihrer Mitte wohnen, Gott selbst wird mit ihnen sein.",
+          "oration": "^RUBRMan kann eine der folgenden Orationen auswählen:^0RUBR^l^r1^0r°°°Herr und Gott, auf die Fürsprache der jungfräulichen Mutter Maria schenke uns die Gesundheit des Leibes und das Heil der Seele. Nimm von uns die Traurigkeit dieser Zeit und führe uns zur ewigen Freude.^ORV^p^r2^0r°°°Barmherziger Gott, mit unserem eigenen Tun können wir vor dir nicht bestehen. Darum höre auf die Fürsprache der seligen Jungfrau Maria. Schau nicht auf unser Versagen, sondern sei uns gnädig und rette uns.^ORV^p^r3^0r°°°Barmherziger Gott, du kennst unsere Schwachheit und unsere Not. Auf die Fürsprache der seligen Jungfrau Maria nimm von uns die Last der Sünde, verzeih uns und richte uns auf.^ORV^p^r4^0r°°°Gütiger Gott, komm uns zu Hilfe auf die Fürsprache der seligen Jungfrau Maria. Befreie uns aus allen Gefahren und lass uns froh werden in deinem Frieden.^ORV^p^r5^0r°°°Allmächtiger Gott, wir gedenken der seligen Jungfrau Maria, die du aus allen Menschen erwählt und geheiligt hast. Höre auf ihre Fürsprache und schenke auch uns Heil und Segen aus der Fülle deiner Gnade.^ORV^p^r6^0r°°°Allmächtiger Gott, im Vertrauen auf die Fürsprache Unserer Lieben Frau flehen wir zu dir. Befreie uns von allem Bösen, das uns auf Erden bedroht, und schenke uns im Himmel die unvergängliche Freude.^ORV",
+          "oration_lat": "^RUBRDicitur una ex sequentibus orationibus ad libitum selecta:^0RUBR^l^r1^0r°°°Concéde nos fámulos tuos, quǽsumus, Dómine Deus, perpétua mentis et córporis sanitáte gaudére, et, gloriósa beátæ Maríæ semper Vírginis intercessióne, a præsénti liberári tristítia, et ætérna pérfrui lætítia.^ORlV^p^r2^0r°°°Famulórum tuórum, quǽsumus, Dómine, delíctis ignósce, ut, qui tibi placére de áctibus nostris non valémus, Genetrícis Fílii tui Dómini nostri intercessióne salvémur.^ORlV^p^r3^0r°°°Concéde, miséricors Deus, fragilitáti nostræ præsídium, ut, qui sanctæ Dei Genetrícis memóriam ágimus, intercessiónis eius auxílio a nostris iniquitátibus resurgámus.^ORlV^p^r4^0r°°°Adiuvet nos, quǽsumus, Dómine, beátæ Maríæ semper Vírginis intercéssio veneránda, et a cunctis perículis absolútos in tua fáciat pace gaudére.^ORlV^p^r5^0r°°°Sanctíssimæ venerántibus Vírginis Maríæ memóriam gloriósam, ipsíus nobis, quǽsumus, Dómine, intercessióne concéde, ut de plenitúdine grátiæ tuæ nos quoque mereámur accípere.^ORlV^p^r6^0r°°°Concéde, quǽsumus, omnípotens Deus, ut fidéles tui, qui sub sanctíssimæ Vírginis Maríæ patrocínio lætántur, eius pia intercessióne a cunctis malis liberéntur in terris, et ad gáudia ætérna perveníre mereántur in cælis.^ORlV"
+        },
+        "Laudes": {
+          "comm_1": "Maria_Sa",
+          "button": "Gedächtnis Mariens am°Samstag",
+          "farbe": "m",
+          "les_buch": "^A:MariaSaLd:Gal",
+          "les_stelle": "4,4–5",
+          "les_text": "Als die Zeit erfüllt war, sandte Gott seinen Sohn, geboren von einer Frau und dem Gesetz unterstellt, damit er die freikaufte, die unter dem Gesetz stehen, und damit wir die Sohnschaft erlangten.",
+          "resp1": "Du bliebst unversehrt nach der Geburt,",
+          "resp2": "heilige Jungfrau Maria.",
+          "resp3": "Gottesgebärerin, bitte für uns.",
+          "antev": "^RUBRBenedictus-Antiphonen zur Auswahl:^0RUBR^l^r1^0r°°°Der seligen Jungfrau Maria lasst uns gedenken; sie bittet für uns bei Christus, dem Herrn.^p^r2^0r°°°Gesegnet bist du, Jungfrau Maria, vom Herrn, dem erhabenen Gott, vor allen Frauen auf Erden.^p^r3^0r°°°Durch dich, o heilige Jungfrau, ist uns das Leben neu geschenkt; du hast empfangen durch den Heiligen Geist und der Welt den Heiland geboren.^p^r4^0r°°°Gegrüßet seist du, Maria, voll der Gnade, der Herr ist mit dir. Du bist gebenedeit unter den Frauen.^ö^p^r5^0r°°°Heilige und makellose Jungfrau, wie soll ich dich preisen: Du hast den Erlöser geboren, Jesus Christus, unsern Herrn.^p^r6^0r°°°Du bist der Ruhm Jerusalems, du die Freude Israels und der Stolz unseres Volkes.",
+          "oration": "^RUBRMan kann eine der folgenden Orationen auswählen:^0RUBR^l^r1^0r°°°Herr und Gott, auf die Fürsprache der jungfräulichen Mutter Maria schenke uns die Gesundheit des Leibes und das Heil der Seele. Nimm von uns die Traurigkeit dieser Zeit und führe uns zur ewigen Freude.^ORV^p^r2^0r°°°Barmherziger Gott, mit unserem eigenen Tun können wir vor dir nicht bestehen. Darum höre auf die Fürsprache der seligen Jungfrau Maria. Schau nicht auf unser Versagen, sondern sei uns gnädig und rette uns.^ORV^p^r3^0r°°°Barmherziger Gott, du kennst unsere Schwachheit und unsere Not. Auf die Fürsprache der seligen Jungfrau Maria nimm von uns die Last der Sünde, verzeih uns und richte uns auf.^ORV^p^r4^0r°°°Gütiger Gott, komm uns zu Hilfe auf die Fürsprache der seligen Jungfrau Maria. Befreie uns aus allen Gefahren und lass uns froh werden in deinem Frieden.^ORV^p^r5^0r°°°Allmächtiger Gott, wir gedenken der seligen Jungfrau Maria, die du aus allen Menschen erwählt und geheiligt hast. Höre auf ihre Fürsprache und schenke auch uns Heil und Segen aus der Fülle deiner Gnade.^ORV^p^r6^0r°°°Allmächtiger Gott, im Vertrauen auf die Fürsprache Unserer Lieben Frau flehen wir zu dir. Befreie uns von allem Bösen, das uns auf Erden bedroht, und schenke uns im Himmel die unvergängliche Freude.^ORV",
+          "resp1_lat": "Post partum, Virgo,",
+          "resp2_lat": "invioláta°permansísti.",
+          "resp3_lat": "Dei Génetrix, intercéde pro nobis.",
+          "antev_lat": "^RUBRAd Benedictus, antiphona ex sequentibus ad libitum sumitur:^0RUBR^l^r1^0r°°°Beatíssimæ Vírginis Maríæ commemoratiónem devotíssime celebrémus, ut ipsa pro nobis intercédat ad Dóminum Iesum Christum.^p^r2^0r°°°Benedícta es tu, Virgo María, a Dómino Deo excélso, præ ómnibus muliéribus super terram.^p^r3^0r°°°Per te, immaculáta Virgo, nobis est vita pérdita data, quæ de cælo suscepísti prolem et mundo genuísti Salvatórem.^p^r4^0r°°°Ave, María, grátia plena; Dóminus tecum; benedícta tu in muliéribus.^Lö^p^r5^0r°°°Sancta et immaculáta Maríæ virgínitas, quibus te láudibus éfferam néscio, quia per te Redemptórem nostrum suscépimus, Dóminum nostrum Iesum Christum.^p^r6^0r°°°Tu glória Ierúsalem, tu lætítia Israel, tu honorificéntia pópuli nostri.",
+          "les_text_lat": "Ubi venit plenitúdo témporis, misit Deus Fílium suum, factum ex mulíere, factum sub lege, ut eos, qui sub lege erant, redímeret, ut adoptiónem filiórum reciperémus.",
+          "oration_lat": "^RUBRDicitur una ex sequentibus orationibus ad libitum selecta:^0RUBR^l^r1^0r°°°Concéde nos fámulos tuos, quǽsumus, Dómine Deus, perpétua mentis et córporis sanitáte gaudére, et, gloriósa beátæ Maríæ semper Vírginis intercessióne, a præsénti liberári tristítia, et ætérna pérfrui lætítia.^ORlV^p^r2^0r°°°Famulórum tuórum, quǽsumus, Dómine, delíctis ignósce, ut, qui tibi placére de áctibus nostris non valémus, Genetrícis Fílii tui Dómini nostri intercessióne salvémur.^ORlV^p^r3^0r°°°Concéde, miséricors Deus, fragilitáti nostræ præsídium, ut, qui sanctæ Dei Genetrícis memóriam ágimus, intercessiónis eius auxílio a nostris iniquitátibus resurgámus.^ORlV^p^r4^0r°°°Adiuvet nos, quǽsumus, Dómine, beátæ Maríæ semper Vírginis intercéssio veneránda, et a cunctis perículis absolútos in tua fáciat pace gaudére.^ORlV^p^r5^0r°°°Sanctíssimæ venerántibus Vírginis Maríæ memóriam gloriósam, ipsíus nobis, quǽsumus, Dómine, intercessióne concéde, ut de plenitúdine grátiæ tuæ nos quoque mereámur accípere.^ORlV^p^r6^0r°°°Concéde, quǽsumus, omnípotens Deus, ut fidéles tui, qui sub sanctíssimæ Vírginis Maríæ patrocínio lætántur, eius pia intercessióne a cunctis malis liberéntur in terris, et ad gáudia ætérna perveníre mereántur in cælis.^ORlV"
         }
       }
     }
@@ -15472,111 +15517,6 @@ export const brevierData = {
           "les_text_lat": ""
         }
       },
-      "each": {
-        "ErsteV": {
-          "hymn_1": 3441.0,
-          "hymn_2": 3442.0,
-          "hymn_kl": 0.0,
-          "resp1": "Der Herr ist den Jüngern erschienen.",
-          "resp2": "Halleluja,°halleluja.",
-          "resp3": "Sie sahen ihn und freuten sich.",
-          "hymn_1_lat": 0.0,
-          "resp1_lat": "Gavísi sunt discípuli.",
-          "resp2_lat": "Allelúia,°allelúia.",
-          "resp3_lat": "Viso Dómino."
-        },
-        "Invitatorium": {
-          "ant0": "Christus ist erstanden; kommt, wir beten ihn an!^ö",
-          "ant0_lat": "Surréxit Dóminus vere.^Lö"
-        },
-        "Lesehore": {
-          "hymn_1": 3411.0,
-          "hymn_2": 3412.0,
-          "hymn_3": 3413.0,
-          "hymn_1_lat": 0.0
-        },
-        "Vigil": {
-          "psalm1": 199.116,
-          "psalm2": 199.12,
-          "psalm3": 199.121,
-          "ant0": "Der Herr ist vom Tod erstanden. Durch das Kreuz kam Freude in die ganze Welt.^ö"
-        },
-        "Laudes": {
-          "hymn_1": 3421.0,
-          "hymn_2": 3422.0,
-          "hymn_kl": 0.0,
-          "resp1": "Der Herr ist aus dem Grab erstanden.",
-          "resp2": "Halleluja,°halleluja.",
-          "resp3": "Der für uns am Kreuz gehangen.",
-          "hymn_1_lat": 0.0,
-          "resp1_lat": "Surréxit Dóminus de sepúlcro.",
-          "resp2_lat": "Allelúia,°allelúia.",
-          "resp3_lat": "Qui pro nobis pepéndit in ligno."
-        },
-        "Terz": {
-          "ant0": "Halleluja,°halleluja, halleluja.",
-          "ant1": "",
-          "ant2": "",
-          "ant3": "",
-          "resp0": "Der Herr ist wahrhaft auferstanden.^ö",
-          "resp1": "Er ist dem Simon erschienen.^ö",
-          "hymn_1_lat": 4003.6,
-          "hymn_2_lat": 0.0,
-          "ant0_lat": "Allelúia,°allelúia,°allelúia.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "Surréxit Dóminus vere.^Lö",
-          "resp1_lat": "Et appáruit Simóni.^Lö"
-        },
-        "Sext": {
-          "ant0": "Halleluja,°halleluja, halleluja.",
-          "ant1": "",
-          "ant2": "",
-          "ant3": "",
-          "resp0": "Der Herr ist den Jüngern erschienen.^ö",
-          "resp1": "Sie sahen ihn und freuten sich.^ö",
-          "hymn_1_lat": 4006.6,
-          "hymn_2_lat": 0.0,
-          "ant0_lat": "Allelúia,°allelúia,°allelúia.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "Gavísi sunt discípuli.^Lö",
-          "resp1_lat": "Viso Dómino.^Lö"
-        },
-        "Non": {
-          "ant0": "Halleluja,°halleluja, halleluja.",
-          "ant1": "",
-          "ant2": "",
-          "ant3": "",
-          "resp0": "Herr, bleibe bei uns.^ö",
-          "resp1": "Denn es will Abend werden.^ö",
-          "hymn_1_lat": 4009.6,
-          "hymn_2_lat": 0.0,
-          "ant0_lat": "Allelúia,°allelúia,°allelúia.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "Mane nobíscum, Dómine.^Lö",
-          "resp1_lat": "Quóniam advesperáscit.^Lö"
-        },
-        "Vesper": {
-          "hymn_1": 3441.0,
-          "hymn_2": 3442.0,
-          "hymn_kl": 0.0,
-          "resp1": "Der Herr ist den Jüngern erschienen.",
-          "resp2": "Halleluja,°halleluja.",
-          "resp3": "Sie sahen ihn und freuten sich.",
-          "hymn_1_lat": 0.0,
-          "resp1_lat": "Gavísi sunt discípuli.",
-          "resp2_lat": "Allelúia,°allelúia.",
-          "resp3_lat": "Viso Dómino."
-        },
-        "Komplet": {
-          "hymn_1_lat": 2500.3
-        }
-      },
       "1": {
         "Lesehore": {
           "versikel0": "Mein Herz und mein Leib.^ö",
@@ -15884,6 +15824,111 @@ export const brevierData = {
           "les_text": "Die Liebe Christi drängt uns, da wir erkannt haben: Einer ist für alle gestorben, also sind alle gestorben. Er ist aber für alle gestorben, damit die Lebenden nicht mehr für sich leben, sondern für den, der für sie starb und auferweckt wurde.",
           "les_text_lat": ""
         }
+      },
+      "each": {
+        "ErsteV": {
+          "hymn_1": 3441.0,
+          "hymn_2": 3442.0,
+          "hymn_kl": 0.0,
+          "resp1": "Der Herr ist den Jüngern erschienen.",
+          "resp2": "Halleluja,°halleluja.",
+          "resp3": "Sie sahen ihn und freuten sich.",
+          "hymn_1_lat": 0.0,
+          "resp1_lat": "Gavísi sunt discípuli.",
+          "resp2_lat": "Allelúia,°allelúia.",
+          "resp3_lat": "Viso Dómino."
+        },
+        "Invitatorium": {
+          "ant0": "Christus ist erstanden; kommt, wir beten ihn an!^ö",
+          "ant0_lat": "Surréxit Dóminus vere.^Lö"
+        },
+        "Lesehore": {
+          "hymn_1": 3411.0,
+          "hymn_2": 3412.0,
+          "hymn_3": 3413.0,
+          "hymn_1_lat": 0.0
+        },
+        "Vigil": {
+          "psalm1": 199.117,
+          "psalm2": 199.122,
+          "psalm3": 199.123,
+          "ant0": "Der Herr ist vom Tod erstanden. Durch das Kreuz kam Freude in die ganze Welt.^ö"
+        },
+        "Laudes": {
+          "hymn_1": 3421.0,
+          "hymn_2": 3422.0,
+          "hymn_kl": 0.0,
+          "resp1": "Der Herr ist aus dem Grab erstanden.",
+          "resp2": "Halleluja,°halleluja.",
+          "resp3": "Der für uns am Kreuz gehangen.",
+          "hymn_1_lat": 0.0,
+          "resp1_lat": "Surréxit Dóminus de sepúlcro.",
+          "resp2_lat": "Allelúia,°allelúia.",
+          "resp3_lat": "Qui pro nobis pepéndit in ligno."
+        },
+        "Terz": {
+          "ant0": "Halleluja,°halleluja, halleluja.",
+          "ant1": "",
+          "ant2": "",
+          "ant3": "",
+          "resp0": "Der Herr ist wahrhaft auferstanden.^ö",
+          "resp1": "Er ist dem Simon erschienen.^ö",
+          "hymn_1_lat": 4003.6,
+          "hymn_2_lat": 0.0,
+          "ant0_lat": "Allelúia,°allelúia,°allelúia.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp0_lat": "Surréxit Dóminus vere.^Lö",
+          "resp1_lat": "Et appáruit Simóni.^Lö"
+        },
+        "Sext": {
+          "ant0": "Halleluja,°halleluja, halleluja.",
+          "ant1": "",
+          "ant2": "",
+          "ant3": "",
+          "resp0": "Der Herr ist den Jüngern erschienen.^ö",
+          "resp1": "Sie sahen ihn und freuten sich.^ö",
+          "hymn_1_lat": 4006.6,
+          "hymn_2_lat": 0.0,
+          "ant0_lat": "Allelúia,°allelúia,°allelúia.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp0_lat": "Gavísi sunt discípuli.^Lö",
+          "resp1_lat": "Viso Dómino.^Lö"
+        },
+        "Non": {
+          "ant0": "Halleluja,°halleluja, halleluja.",
+          "ant1": "",
+          "ant2": "",
+          "ant3": "",
+          "resp0": "Herr, bleibe bei uns.^ö",
+          "resp1": "Denn es will Abend werden.^ö",
+          "hymn_1_lat": 4009.6,
+          "hymn_2_lat": 0.0,
+          "ant0_lat": "Allelúia,°allelúia,°allelúia.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp0_lat": "Mane nobíscum, Dómine.^Lö",
+          "resp1_lat": "Quóniam advesperáscit.^Lö"
+        },
+        "Vesper": {
+          "hymn_1": 3441.0,
+          "hymn_2": 3442.0,
+          "hymn_kl": 0.0,
+          "resp1": "Der Herr ist den Jüngern erschienen.",
+          "resp2": "Halleluja,°halleluja.",
+          "resp3": "Sie sahen ihn und freuten sich.",
+          "hymn_1_lat": 0.0,
+          "resp1_lat": "Gavísi sunt discípuli.",
+          "resp2_lat": "Allelúia,°allelúia.",
+          "resp3_lat": "Viso Dómino."
+        },
+        "Komplet": {
+          "hymn_1_lat": 2500.3
+        }
       }
     },
     "even": {
@@ -16063,2775 +16108,6 @@ export const brevierData = {
           "resp1_lat": "Spíritus Paráclitus,",
           "resp2_lat": "allelúia,°allelúia.",
           "resp3_lat": "Docébit vos ómnia."
-        }
-      }
-    }
-  },
-  "q": {
-    "0": {
-      "3": {
-        "each": {
-          "oration": "Getreuer Gott, im Vertrauen auf dich beginnen wir die vierzig Tage der Umkehr und Buße. Gib uns die Kraft zu christlicher Zucht, damit wir dem Bösen absagen und mit Entschiedenheit das Gute tun.^ORV",
-          "oration_lat": "Concéde nobis, Dómine, præsídia milítiæ christiánæ sanctis inchoáre ieiúniis, ut, contra spiritáles nequítias pugnatúri, continéntiæ muniámur auxíliis.^ORlV"
-        },
-        "Laudes": {
-          "psalm1": 51.0,
-          "psalm2": 185.0,
-          "psalm3": 100.0,
-          "ant1": "Herr, gegen dich allein hab’ ich gesündigt; erbarme dich meiner.",
-          "ant2": "Herr, wir erkennen unsere Schuld; wir haben gegen dich gesündigt.",
-          "ant3": "Der Herr allein ist Gott; wir sind sein Volk, die Herde seiner Weide.",
-          "antev": "Wenn ihr fastet und Buße tut, macht kein finsteres Gesicht wie die Heuchler.",
-          "ant1_lat": "Tibi soli peccávi, Dómine; miserére mei.",
-          "ant2_lat": "Cognóvimus, Dómine, iniquitátes nostras, quia peccávimus tibi.",
-          "ant3_lat": "Dóminus ipse est Deus; nos pópulus eius et oves páscuæ eius.",
-          "antev_lat": "Cum ieiunátis, nolíte fíeri, sicut hypócritæ, tristes."
-        },
-        "Vesper": {
-          "antev": "Wenn du Almosen gibst, soll deine linke Hand nicht wissen, was die rechte tut.",
-          "antev_lat": "Cum facis eleemósynam, nésciat sinístra tua quid fáciat déxtera tua."
-        }
-      },
-      "4": {
-        "each": {
-          "oration": "Herr, unser Gott, komm unserem Beten und Arbeiten mit deiner Gnade zuvor und begleite es, damit alles, was wir beginnen, bei dir seinen Anfang nehme und durch dich vollendet werde.^ORV",
-          "oration_lat": "Actiónes nostras, quǽsumus, Dómine, aspirándo prǽveni et adiuvándo proséquere, ut cuncta nostra operátio a te semper incípiat, et per te cœpta finiátur.^ORlV"
-        },
-        "Laudes": {
-          "antev": "Wer mein Jünger sein will, der verleugne sich selbst. Er nehme täglich sein Kreuz auf sich und folge mir nach.",
-          "antev_lat": "Qui vult veníre post me, dicit Dóminus, ábneget semetípsum, et tollat crucem suam, et sequátur me."
-        },
-        "Vesper": {
-          "antev": "Wer sein Leben sucht, wird es verlieren; doch wer es um meinetwillen verliert, wird das wahre Leben finden.",
-          "antev_lat": "Qui perdíderit ánimam suam propter me, dicit Dóminus, invéniet eam in ætérnum."
-        }
-      },
-      "5": {
-        "each": {
-          "oration": "Allwissender Gott, du siehst nicht auf unsere äußeren Werke, sondern auf unser Herz. Gib, dass wir mit reiner Gesinnung vollbringen, was wir in diesen vierzig Tagen an Buße und Verzicht auf uns nehmen.^ORV",
-          "oration_lat": "Inchoáta pæniténtiæ ópera, quǽsumus, Dómine, benígno favóre proséquere, ut observántiam, quam corporáliter exercémus, méntibus étiam valeámus implére sincéris.^ORlV"
-        },
-        "Laudes": {
-          "antev": "Brich den Hungrigen dein Brot und nimm die Armen auf. Dann wird dein Licht aufleuchten wie das Morgenrot, und bald bist du geheilt.",
-          "antev_lat": "Cum víderis nudum, óperi eum, et carnem tuam ne despéxeris; tunc erúmpet quasi mane lumen tuum, et anteíbit fáciem tuam iustítia tua."
-        },
-        "Vesper": {
-          "antev": "Es kommen Tage, da werden die Hochzeitsgäste fasten; denn der Bräutigam ist ihnen genommen.",
-          "antev_lat": "Cum auferétur ab eis sponsus, convívæ nuptiárum ieiunábunt in diébus illis."
-        }
-      },
-      "6": {
-        "each": {
-          "oration": "Allmächtiger Gott, übe Nachsicht mit unserer Schwäche, und damit wir imstande sind, den Kampf mit den Mächten des Bösen zu bestehen, strecke deine Hand aus und schütze uns.^ORV",
-          "oration_lat": "Omnípotens sempitérne Deus, infirmitátem nostram propítius réspice, atque ad protegéndum nos déxteram tuæ maiestátis exténde.^ORlV"
-        },
-        "Laudes": {
-          "antev": "Sammelt euch Schätze im Himmel, wo weder Rost noch Motten sie zerstören.",
-          "antev_lat": "Thesaurizáte vobis thesáuros in cælo, ubi nec ærúgo nec tínea demolítur."
-        }
-      }
-    },
-    "1": {
-      "0": {
-        "each": {
-          "oration": "Allmächtiger Gott, du schenkst uns die heiligen vierzig Tage als eine Zeit der Umkehr und der Buße. Gib uns durch ihre Feier die Gnade, dass wir in der Erkenntnis Jesu Christi voranschreiten und die Kraft seiner Erlösungstat durch ein Leben aus dem Glauben sichtbar machen. Darum bitten wir durch ihn,^ORR",
-          "oration_lat": "Concéde nobis, omnípotens Deus, ut, per ánnua quadragesimális exercítia sacraménti, et ad intellegéndum Christi proficiámus arcánum, et efféctus eius digna conversatióne sectémur.^ORlV"
-        },
-        "ErsteV": {
-          "ant1": "Herr, wir kommen zu dir mit reumütigem Herzen und mit demütigem Sinn. Nimm uns an und gib, dass unser Opfer dir gefalle.",
-          "ant2": "Du wirst zum Herrn rufen, und er wird dich erhören; du wirst schreien, und er wird sagen: Da bin ich.",
-          "ant3": "Unserer Sünden wegen ist Christus gestorben, er, der Gerechte, für die Ungerechten, um uns hinzuführen zu Gott. Dem Fleische nach wurde er getötet, dem Geiste nach lebendig gemacht.",
-          "antev": "Nicht vom Brot allein lebt der Mensch, sondern von jedem Wort, das aus dem Munde Gottes kommt.",
-          "ant1_lat": "In spíritu humilitátis et in ánimo contríto suscipiámur, Dómine, a te; et sic fiat sacrifícium nostrum, ut suscipiátur a te hódie et pláceat tibi, Dómine Deus.",
-          "ant2_lat": "Tunc invocábis, et Dóminus exáudiet; clamábis, et dicet: Ecce adsum.",
-          "ant3_lat": "Christus pro peccátis nostris mórtuus est, iustus pro iniústis, ut nos offérret Deo, mortificátus quidem carne, vivificátus autem Spíritu.",
-          "anta_lat": "Ductus est Iesus in desértum a Spíritu, ut tentarétur a diábolo; et cum ieiunásset quadragínta diébus et quadragínta nóctibus, póstea esúriit.",
-          "antc_lat": "Iesus plenus Spíritu Sancto regréssus est ab Iordáne et agebátur in Spíritu in desértum diébus quadragínta et tentabátur a diábolo."
-        },
-        "Vigil": {
-          "les_buch": "Aus dem heiligen Evangelium nach Lukas.",
-          "les_stelle": "13,22-33"
-        },
-        "Laudes": {
-          "ant1": "Herr, ich will dich rühmen mein Leben lang, in deinem Namen die Hände erheben.",
-          "ant2": "Singt dem Herrn ein Lied und preist ihn in Ewigkeit.",
-          "ant3": "Der Herr hat Gefallen an seinem Volk, die Gebeugten krönt er mit Sieg.",
-          "antev": "Jesus wurde vom Geist in die Wüste geführt, damit der Teufel ihn versuche. Als er vierzig Tage und vierzig Nächte gefastet hatte, hungerte ihn.",
-          "ant1_lat": "Benedícam te in vita mea, Dómine, et in nómine tuo levábo manus meas.",
-          "ant2_lat": "Hymnum dícite, et superexaltáte Deum in sǽcula.",
-          "ant3_lat": "Beneplácitum est Dómino in pópulo suo, et honorábit mansuétos in salútem.",
-          "anta_lat": "Non in solo pane vivit homo, sed in omni verbo quod procédit de ore Dei.",
-          "antc_lat": "Nihil manducávit Iesus in diébus illis et, consummátis illis, esúriit."
-        },
-        "Vesper": {
-          "ant1": "Den Herrn, deinen Gott, bete an! Ihm allein sollst du dienen.",
-          "ant2": "Jetzt ist die gnadenreiche Zeit, jetzt ist die Zeit des Heiles.",
-          "ant3": "Seht, wir ziehen hinauf nach Jerusalem; dort wird sich alles erfüllen, was über den Menschensohn geschrieben steht.",
-          "antev": "Wache über uns, Herr und Erlöser, damit wir der List des Versuchers nicht erliegen; denn du bist unser Helfer auf ewig.",
-          "ant1_lat": "Dóminum Deum tuum adorábis et illi soli sérvies.",
-          "ant2_lat": "Ecce nunc tempus acceptábile, ecce nunc dies salútis.",
-          "ant3_lat": "Ecce ascéndimus Ierosólymam, et consummabúntur ómnia quæ scripta sunt de Fílio hóminis.",
-          "anta_lat": "Dicit Iesus: Vade, Sátanas! Scriptum est enim: Dóminum Deum tuum adorábis et illi soli sérvies. Et ángeli accessérunt et ministrábant ei.",
-          "antc_lat": "Consummáta omni tentatióne, diábolus recéssit ab illo, usque ad tempus."
-        },
-        "Lesehore": {
-          "versikel0_lat": "Non in solo pane vivit homo.",
-          "versikel1_lat": "Sed in omni verbo, quod procédit de ore Dei."
-        }
-      },
-      "1": {
-        "each": {
-          "oration": "Gott, unser Heil, gib uns die Gnade, umzukehren zu dir. Erleuchte unseren Verstand und stärke unseren Willen, damit uns diese Zeit der Buße zum Segen wird.^ORV",
-          "oration_lat": "Convérte nos, Deus, salutáris noster, et, ut nobis opus quadragesimále profíciat, mentes nostras cæléstibus ínstrue disciplínis.^ORlV"
-        },
-        "Laudes": {
-          "antev": "Kommt, ihr Gesegneten meines Vaters, nehmt das Reich in Besitz, das euch bereitet ist seit Anbeginn der Welt.",
-          "antev_lat": "Veníte, benedícti Patris mei, percípite regnum, quod vobis parátum est ab orígine mundi."
-        },
-        "Vesper": {
-          "antev": "Was ihr dem Geringsten meiner Brüder getan habt, das habt ihr mir getan.",
-          "antev_lat": "Quod uni ex mínimis meis fecístis, mihi fecístis, dicit Dóminus."
-        }
-      },
-      "2": {
-        "each": {
-          "oration": "Herr, unser Gott, sieh gütig auf deine Gemeinde. Da wir durch Mäßigung den Leib in Zucht halten und Buße tun, schenke unserem Geist die wahre Sehnsucht nach dir.^ORV",
-          "oration_lat": "Réspice, Dómine, famíliam tuam, et præsta, ut apud te mens nostra tuo desidério fúlgeat, quæ se corporálium moderatióne castígat.^ORlV"
-        },
-        "Laudes": {
-          "antev": "Herr, lehre uns beten, wie auch Johannes seine Jünger beten gelehrt hat.",
-          "antev_lat": "Dómine, doce nos oráre, sicut dócuit Ioánnes discípulos suos."
-        },
-        "Vesper": {
-          "antev": "Wenn du beten willst, geh in deine Kammer und verschließ die Tür; dann bete zu deinem Vater.",
-          "antev_lat": "Tu autem, cum oráveris, intra in cubículum tuum, et, clauso óstio, ora Patrem tuum."
-        }
-      },
-      "3": {
-        "each": {
-          "oration": "Barmherziger Gott, sieh gnädig auf die Hingabe deines Volkes. Gib, dass wir unseren Leib in Zucht nehmen und durch gute Werke im Geist neu werden.^ORV",
-          "oration_lat": "Devotiónem pópuli tui, quæsumus, Dómine, benígnus inténde, ut, qui per abstinéntiam temperántur in córpore, per fructum boni óperis reficiántur in mente.^ORlV"
-        },
-        "Laudes": {
-          "antev": "Dieses Volk ist ein böses Volk. Es fordert ein Zeichen. Aber es wird ihm kein anderes Zeichen gegeben als das Zeichen des Jona.",
-          "antev_lat": "Generátio hæc prava et pervérsa signum quærit, et signum non dábitur ei, nisi signum Ionæ prophétæ."
-        },
-        "Vesper": {
-          "antev": "Wie Jona drei Tage und drei Nächte im Bauch des Fisches war, so wird auch der Menschensohn drei Tage und drei Nächte im Schoß der Erde sein.",
-          "antev_lat": "Sicut fuit Ionas in ventre ceti tribus diébus et tribus nóctibus, ita erit Fílius hóminis in corde terræ."
-        }
-      },
-      "4": {
-        "each": {
-          "oration": "Allmächtiger Gott, gib uns die Gnade, dass wir stets auf das Rechte bedacht sind und es auch entschlossen tun. Da wir ohne dich nicht bestehen können, hilf uns, nach deinem Willen zu leben.^ORV",
-          "oration_lat": "Largíre nobis, quǽsumus, Dómine, semper spíritum cogitándi quæ recta sunt, prómptius et agéndi, ut, qui sine te esse non póssumus, secúndum te vívere valeámus.^ORlV"
-        },
-        "Laudes": {
-          "antev": "Wenn schon ihr, die ihr böse seid, euren Kindern Gutes gebt, um wieviel mehr wird euer Vater im Himmel denen Gutes geben, die ihn darum bitten?",
-          "antev_lat": "Si vos, cum sitis mali, nostis bona data dare fíliis vestris, quanto magis Pater vester de cælo dabit bona peténtibus se!"
-        },
-        "Vesper": {
-          "antev": "Bittet, dann wird euch gegeben; sucht, dann werdet ihr finden; klopft an, dann wird euch geöffnet.",
-          "antev_lat": "Pétite, et dábitur vobis; quǽrite, et inveniétis; pulsáte, et aperiétur vobis."
-        }
-      },
-      "5": {
-        "each": {
-          "oration": "Allmächtiger Gott, gib, dass deine Gläubigen sich in rechter Weise auf Ostern vorbereiten, und was wir dem Leib an Entsagung auferlegen, das trage reiche Frucht und erneuere unseren Geist.^ORV",
-          "oration_lat": "Da, quǽsumus, Dómine, fidélibus tuis observatióni pascháli conveniénter aptári, ut suscépta sollémniter castigátio corporális cunctis ad fructum profíciat animárum.^ORlV"
-        },
-        "Laudes": {
-          "antev": "Wenn eure Gerechtigkeit nicht noch viel größer ist als die der Schriftgelehrten und der Pharisäer, so werdet ihr nicht in das Himmelreich kommen.",
-          "antev_lat": "Nisi abundáverit iustítia vestra plus quam scribárum et pharisæórum, non intrábitis in regnum cælórum."
-        },
-        "Vesper": {
-          "antev": "Versöhne dich zuerst mit deinem Bruder; dann komm und opfere deine Gabe.",
-          "antev_lat": "Si offers munus tuum ante altáre et recordátus fúeris quia frater tuus habet áliquid advérsum te, relínque ibi munus tuum ante altáre, et vade prius reconciliári fratri tuo, et tunc véniens ófferes munus tuum."
-        }
-      },
-      "6": {
-        "each": {
-          "oration": "Ewiger Vater, wende unsere Herzen zu dir hin, damit wir das eine Notwendige suchen und dich in Werken der Liebe verherrlichen.^ORV",
-          "oration_lat": "Ad te corda nostra, Pater ætérne, convérte, ut nos, unum necessárium semper quæréntes et ópera caritátis exercéntes, tuo cúltui præstes esse dicátos. ^ORlV"
-        },
-        "Laudes": {
-          "antev": "Betet für die, die euch verfolgen und verleumden, dann seid ihr Söhne eures Vaters, der im Himmel ist.",
-          "antev_lat": "Oráte pro persequéntibus et calumniántibus vos, ut sitis fílii Patris vestri, qui in cælis est, dicit Dóminus."
-        }
-      }
-    },
-    "2": {
-      "0": {
-        "each": {
-          "oration": "Gott, du hast uns geboten, auf deinen geliebten Sohn zu hören. Nähre uns mit deinem Wort und reinige die Augen unseres Geistes, damit wir fähig werden, deine Herrlichkeit zu erkennen.^ORV",
-          "oration_lat": "Deus, qui nobis diléctum Fílium tuum audíre præcepísti, verbo tuo intérius nos páscere dignéris, ut, spiritáli purificáto intúitu, glóriæ tuæ lætémur aspéctu.++++++^ORlV"
-        },
-        "ErsteV": {
-          "ant1": "Jesus nahm Petrus, Jakobus und Johannes mit sich und führte sie auf einen hohen Berg. Dort wurde er vor ihren Augen verklärt.",
-          "ant2": "Sein Antlitz leuchtete wie die Sonne, und sein Gewand wurde weiß wie Schnee.",
-          "ant3": "Mose und Elija sprachen von dem Weg, den er in Jerusalem vollenden wollte.",
-          "antev": "Eine Stimme aus der Wolke sprach: Dies ist mein geliebter Sohn, auf ihn sollt ihr hören.",
-          "ant1_lat": "Assúmpsit Iesus Petrum et Iacóbum et Ioánnem fratrem eius, et duxit eos in montem excélsum seórsum, et transfigurátus est ante eos.",
-          "ant2_lat": "Resplénduit fácies eius sicut sol, vestiménta autem eius facta sunt alba sicut nix.",
-          "ant3_lat": "Móyses et Elías dicébant excéssum eius, quem completúrus erat in Ierúsalem.",
-          "anta_lat": "Dixit Petrus ad Iesum: Dómine, bonum est nos hic esse. Si vis, fáciam hic tria tabernácula: tibi unum et Móysi unum et Elíæ unum."
-        },
-        "Vigil": {
-          "les_buch": "Aus dem heiligen Evangelium nach Markus.",
-          "les_stelle": "8,27-38"
-        },
-        "Laudes": {
-          "ant1": "Die Rechte des Herrn wirkt mit Macht, die Rechte des Herrn hat mich erhoben.",
-          "ant2": "Lasst uns singen das Lied, das die drei Jünglinge im Feuer sangen, dem Herrn zum Preis.",
-          "ant3": "Lobet den Herrn in seiner mächtigen Feste.",
-          "antev": "Jesus Christus, unser Herr, hat dem Tod die Macht genommen und uns das Licht des unvergänglichen Lebens gebracht durch das Evangelium.",
-          "ant1_lat": "Déxtera Dómini fecit virtútem, déxtera Dómini exaltávit me.",
-          "ant2_lat": "Trium puerórum cantémus hymnum, quem cantábant in camíno ignis, benedicéntes Dóminum.",
-          "ant3_lat": "Laudáte Dóminum in firmaménto virtútis eius.",
-          "anta_lat": "Ecce vox de nube dicens: Hic est Fílius meus diléctus, in quo mihi bene complácui: ipsum audíte."
-        },
-        "Vesper": {
-          "ant1": "Der Herr reicht dir das Zepter deiner Macht, wenn du erscheinst in heiligem Schmuck.",
-          "ant2": "Er allein ist Gott. Ihn verehren wir. Himmel und Erde hat er geschaffen.",
-          "ant3": "Seinen eigenen Sohn hat Gott nicht verschont, für uns alle hat er ihn hingegeben.",
-          "antev": "Sagt niemand, was ihr gesehen habt, bis der Menschensohn von den Toten erstanden ist.",
-          "ant1_lat": "Virgam virtútis tuæ emíttet Dóminus in splendóribus sanctórum.",
-          "ant2_lat": "Deus unus est, quem cólimus, qui fecit cælum et terram.",
-          "ant3_lat": "Próprio Fílio suo non pepércit Deus, sed pro nobis ómnibus trádidit illum.",
-          "anta_lat": "Visiónem, quam vidístis, némini dixéritis, donec a mórtuis resúrgat Fílius hóminis."
-        },
-        "Lesehore": {
-          "versikel0_lat": "Vox Patris de nube audíta est.",
-          "versikel1_lat": "Hic est Fílius meus diléctus: ipsum audíte."
-        }
-      },
-      "1": {
-        "each": {
-          "oration": "Ewiger Gott, zum Heil unserer Seele verlangst du, dass wir den Leib in Zucht nehmen und Buße tun. Gib uns die Kraft, dass wir uns von Sünden freihalten und die Gebote erfüllen, die uns deine Liebe gegeben hat.^ORV",
-          "oration_lat": "Deus, qui ob animárum medélam castigáre córpora præcepísti, concéde, ut ab ómnibus possímus abstinére peccátis, et corda nostra pietátis tuæ váleant exercére mandáta.^ORlV"
-        },
-        "Laudes": {
-          "antev": "Seid barmherzig, wie euer Vater barmherzig ist.",
-          "antev_lat": "Estóte misericórdes, sicut et Pater vester miséricors est, dicit Dóminus."
-        },
-        "Vesper": {
-          "antev": "Richtet nicht, damit ihr nicht gerichtet werdet – spricht der Herr –, denn wie ihr richtet, so werdet ihr gerichtet.",
-          "antev_lat": "Nolíte iudicáre, et non iudicabímini; in quo enim iudício iudicavéritis, iudicabímini, dicit Dóminus."
-        }
-      },
-      "2": {
-        "each": {
-          "oration": "Herr, unser Gott, behüte deine Kirche und verlass sie nicht. Wir sind dem Tod verfallen und gehen ohne dich zugrunde. Hilf uns, alles zu meiden, was uns schadet, und zu suchen, was uns zum Heil dient.^ORV",
-          "oration_lat": "Custódi, Dómine, quǽsumus, Ecclésiam tuam propitiatióne perpétua, et quia sine te lábitur humána mortálitas, tuis semper auxíliis et abstrahátur a nóxiis, et ad salutária dirigátur.^ORlV"
-        },
-        "Laudes": {
-          "antev": "Niemand auf Erden sollt ihr Vater nennen. Nur einer ist euer Vater: der im Himmel. Ihr alle aber seid Brüder.",
-          "antev_lat": "Unus est magíster vester, qui in cælis est, Christus Dóminus."
-        },
-        "Vesper": {
-          "antev": "Nur einer ist euer Meister: Christus, der Herr, der im Himmel ist.",
-          "antev_lat": "Omnes vos fratres estis; et patrem nolíte vocáre vobis super terram; unus est enim Pater vester, qui in cælis est; nec vocémini magístri, quia magíster vester unus est Christus."
-        }
-      },
-      "3": {
-        "each": {
-          "oration": "Herr, unser Gott, erhalte deiner Kirche die Bereitschaft, das Gute zu tun. Ermutige uns in diesem Leben durch deinen Schutz und führe uns zu den ewigen Gütern.^ORV",
-          "oration_lat": "Consérva, Dómine, famíliam tuam, bonis semper opéribus erudítam, et sic præséntibus consoláre præsídiis, ut propítius ad supérna dona perdúcas.^ORlV"
-        },
-        "Laudes": {
-          "antev": "Der Menschensohn ist nicht gekommen, um sich bedienen zu lassen, sondern um zu dienen und sein Leben hinzugeben als Lösegeld für viele.",
-          "antev_lat": "Fílius hóminis non venit ministrári, sed ministráre et dare ánimam suam redemptiónem pro multis."
-        },
-        "Vesper": {
-          "antev": "Der Menschensohn wird den Heiden übergeben. Sie werden ihn verspotten, geißeln und kreuzigen. Am dritten Tage aber wird er auferstehen.",
-          "antev_lat": "Fílius hóminis tradétur géntibus ad illudéndum et flagellándum et crucifigéndum, et tértia die resúrget."
-        }
-      },
-      "4": {
-        "each": {
-          "oration": "Heiliger Gott, du liebst die Unschuld und schenkst dem Sünder zurück, der reumütig zu dir heimkehrt. Wende unser Herz zu dir und schenke uns neuen Eifer im Heiligen Geist, damit wir im Glauben standhaft bleiben und stets bereit sind, das Gute zu tun.^ORV",
-          "oration_lat": "Deus, innocéntiæ restitútor et amátor, dírige ad te tuórum corda servórum, ut, Spíritus tui fervóre concépto, et in fide inveniántur stábiles et in ópere efficáces.^ORlV"
-        },
-        "Laudes": {
-          "antev": "Mein Sohn, denke daran, dass du im Leben schon alles Gute bekommen hast, Lazarus aber nur Schlechtes. Jetzt wird er dafür getröstet.",
-          "antev_lat": "Fili, recordáre quia recepísti bona in vita tua, et Lázarus simíliter mala."
-        },
-        "Vesper": {
-          "antev": "Der reiche Mann verweigerte dem armen Lazarus den Bissen Brot: Nun bettelt er um einen Tropfen Wasser.",
-          "antev_lat": "Dives ille guttam aquæ pétiit, qui micas panis Lázaro negávit."
-        }
-      },
-      "5": {
-        "each": {
-          "oration": "Allmächtiger Gott, reinige uns in diesen Tagen, in denen wir für unsere Sünden Buße tun, damit wir mit lauterem Herzen das Osterfest erwarten.^ORV",
-          "oration_lat": "Da, quǽsumus, omnípotens Deus, ut, sacro nos purificánte pæniténtiæ stúdio, sincéris méntibus ad sancta ventúra fácias perveníre.^ORlV"
-        },
-        "Laudes": {
-          "antev": "Den Bösen wird er ein böses Ende bereiten und den Weinberg anderen verpachten, die ihm Früchte liefern zur rechten Zeit.",
-          "antev_lat": "Malos male perdet, et víneam suam locábit áliis agrícolis, qui reddant ei fructum tempóribus suis."
-        },
-        "Vesper": {
-          "antev": "Sie suchten Jesus festzunehmen, doch sie fürchteten sich; denn das Volk hielt ihn für einen Propheten.",
-          "antev_lat": "Quæréntes Iesum tenére, timuérunt turbam, quia sicut prophétam eum habébant."
-        }
-      },
-      "6": {
-        "each": {
-          "oration": "Gütiger Gott, durch das Wirken deiner Gnade schenkst du uns schon auf Erden den Anfang des ewigen Lebens. Vollende, was du in uns begonnen hast, und führe uns hin zu jenem Licht, in dem du selber wohnst.^ORV",
-          "oration_lat": "Deus, qui nos gloriósis remédiis in terris adhuc pósitos iam cæléstium rerum facis esse consórtes, tu, quǽsumus, in ista qua vívimus nos vita gubérna ut ad illam, in qua ipse es, lucem perdúcas.^ORlV"
-        },
-        "Laudes": {
-          "antev": "Vater, ich habe gegen dich gesündigt und bin nicht mehr wert, dein Sohn zu sein; mach mich zu einem deiner Knechte.",
-          "antev_lat": "Pater, peccávi in cælum et coram te, iam non sum dignus vocári fílius tuus, fac me sicut unum ex mercenáriis tuis."
-        }
-      }
-    },
-    "3": {
-      "0": {
-        "each": {
-          "oration": "Gott, unser Vater, du bist der Quell des Erbarmens und der Güte. Wir stehen als Sünder vor dir, und unser Gewissen klagt uns an. Sieh auf unsere Not und lass uns Vergebung finden durch Fasten, Gebet und Werke der Liebe.^ORV",
-          "oration_lat": "Deus, ómnium misericordiárum et totíus bonitátis auctor, qui peccatórum remédia in ieiúniis, oratiónibus et eleemósynis demonstrásti, hanc humilitátis nostræ confessiónem propítius intuére, ut, qui inclinámur consciéntia nostra, tua semper misericórdia sublevémur.^ORlV"
-        },
-        "ErsteV": {
-          "ant1": "So spricht der Herr: Bekehrt euch und glaubt der Frohen Botschaft.",
-          "ant2": "Opfer des Lobes will ich dir bringen, anrufen will ich deinen heiligen Namen.",
-          "ant3": "Niemand entreißt mir das Leben, sondern ich gebe es hin und nehme es wieder.",
-          "antev": "Gerecht gemacht durch den Glauben, haben wir Frieden mit Gott durch unseren Herrn Jesus Christus.",
-          "ant1_lat": "Pænitémini et crédite Evangélio, dicit Dóminus.",
-          "ant2_lat": "Sacrificábo hóstiam laudis, et nomen Dómini invocábo.",
-          "ant3_lat": "Nemo tollit a me ánimam meam, sed ego pono eam et íterum sumo eam.",
-          "anta_lat": "Dicit Dóminus: Si quis bíberit aquam, quam ego dabo ei, non sítiet in ætérnum."
-        },
-        "Vigil": {
-          "les_buch": "Aus dem heiligen Evangelium nach Markus.",
-          "les_stelle": "9,29-47"
-        },
-        "Laudes": {
-          "ant1": "Gewaltiger als das Tosen vieler Wasser bist du, Herr, in der Höhe. Deine Gesetze sind fest und verlässlich.",
-          "ant2": "Ihr Quellen, preiset den Herrn, lobt und rühmt ihn in Ewigkeit.",
-          "ant3": "Ihr Könige der Erde und alle Völker, lobt den Herrn.",
-          "antev": "Jesus sprach: Reißt diesen Tempel nieder – in drei Tagen richte ich ihn wieder auf. Er meinte den Tempel seines Leibes.",
-          "ant1_lat": "Super voces aquárum multárum, testimónia tua, Dómine, credibília facta sunt nimis.",
-          "ant2_lat": "Benedícite, fontes, Dómino; laudáte et superexaltáte eum in sǽcula.",
-          "ant3_lat": "Reges terræ et omnes pópuli, laudáte Deum.",
-          "anta_lat": "Venit hora et nunc est, quando veri adoratóres adorábunt Patrem in Spíritu et veritáte: nam et Pater tales quærit, qui adórent eum."
-        },
-        "Vesper": {
-          "ant1": "Herr, allmächtiger König, um deines Namens willen mach uns frei und gib, dass wir uns zu dir bekehren.",
-          "ant2": "Durch sein kostbares Blut hat uns Christus erlöst, er, das Lamm ohne Makel.",
-          "ant3": "Wahrlich, unsere Krankheiten hat er getragen, unsere Schmerzen auf sich genommen.",
-          "antev": "Wer von dem Wasser trinkt, das ich ihm gebe, den wird nicht dürsten in Ewigkeit.",
-          "ant1_lat": "Dómine, rex omnípotens, líbera nos propter nomen tuum, et da nobis locum pæniténtiæ.",
-          "ant2_lat": "Redémpti sumus pretióso sánguine agni immaculáti Christi.",
-          "ant3_lat": "Vere languóres nostros ipse tulit, et dolóres nostros ipse portávit.",
-          "anta_lat": "Multo plures credidérunt et mulíeri dicébant: Iam non propter tuam loquélam crédimus; ipsi enim audívimus et scimus quia hic est vere Salvátor mundi!"
-        },
-        "Lesehore": {
-          "versikel0_lat": "Cibávit illum pane vitæ et intelléctus.",
-          "versikel1_lat": "Et aqua sapiéntiæ salutáris potávit illum."
-        }
-      },
-      "1": {
-        "each": {
-          "oration": "Barmherziger Gott, deine Kirche kann nicht bestehen ohne dich, sie lebt allein von deiner Gnade. Reinige und festige sie und führe sie mit starker Hand.^ORV",
-          "oration_lat": "Ecclésiam tuam, Dómine, miserátio continuáta mundet et múniat, et, quia sine te non potest salva consístere, tuo semper múnere gubernétur.^ORlV"
-        },
-        "Laudes": {
-          "antev": "Wahrlich, ich sage euch: Kein Prophet ist anerkannt in seiner Vaterstadt.",
-          "antev_lat": "Amen dico vobis, quia nemo prophéta accéptus est in pátria sua."
-        },
-        "Vesper": {
-          "antev": "Jesus schritt durch die Menge hindurch und ging hinweg.",
-          "antev_lat": "Iesus, tránsiens per médium illórum, ibat."
-        }
-      },
-      "2": {
-        "each": {
-          "oration": "Herr, unser Gott, verlass uns nicht in diesen Tagen der Buße. Steh uns mit deiner Gnade bei, damit wir mit ganzer Bereitschaft den Dienst vollziehen, den du uns aufgetragen hast.^ORV",
-          "oration_lat": "Grátia tua ne nos, quǽsumus, Dómine, derelínquat, quæ et sacræ nos déditos fáciat servitúti, et tuam nobis opem semper acquírat.^ORlV"
-        },
-        "Laudes": {
-          "antev": "Der Herr sprach zu Petrus: Nicht siebenmal sollst du vergeben, sondern siebenundsiebzigmal.",
-          "antev_lat": "Non dico tibi, Petre, ut dimíttas sépties, sed usque septuágies sépties, dicit Dóminus."
-        },
-        "Vesper": {
-          "antev": "Der Herr sagte zum Knecht: Deine ganze Schuld habe ich dir erlassen. Musst nicht auch du deines Mitknechtes dich erbarmen, so wie ich mich deiner erbarmte?",
-          "antev_lat": "Sic et Pater meus cæléstis fáciet vobis, si non remiséritis unusquísque fratri suo de córdibus vestris."
-        }
-      },
-      "3": {
-        "each": {
-          "oration": "Barmherziger Gott, erneuere uns im Geist durch die Feier der heiligen vierzig Tage, damit wir für dein Wort empfänglich werden, bereit zu Gehorsam und Verzicht, demütig im Gebet und eifrig in Werken der Liebe.^ORV",
-          "oration_lat": "Præsta, quǽsumus, Dómine, ut, per quadragesimálem observántiam erudíti et tuo verbo nutríti, sancta continéntia tibi simus toto corde devóti, et in oratióne tua semper efficiámur concórdes.^ORlV"
-        },
-        "Laudes": {
-          "antev": "Denkt nicht, ich sei gekommen, das Gesetz und die Propheten aufzuheben – spricht der Herr. Nicht um aufzuheben, bin ich gekommen, sondern um zu erfüllen.",
-          "antev_lat": "Nolíte putáre quóniam veni sólvere legem aut prophétas; non veni sólvere, sed adimplére, dicit Dóminus."
-        },
-        "Vesper": {
-          "antev": "Wer Gottes Gebote hält und sie halten lehrt, der wird groß sein im Himmelreich.",
-          "antev_lat": "Qui fécerit et docúerit mandáta Dómini, hic magnus vocábitur in regno cælórum."
-        }
-      },
-      "4": {
-        "each": {
-          "oration": "Allmächtiger Gott, gib, dass wir dem Ruf deiner Gnade folgen und uns mit um so größerem Eifer auf die Feier der österlichen Geheimnisse vorbereiten, je näher das Fest der Erlösung herankommt.^ORV",
-          "oration_lat": "Maiestátem tuam, Dómine, supplíciter implorámus, ut, quanto magis dies salutíferæ festivitátis accédit, tanto devótius ad eius celebrándum proficiámus paschále mystérium.^ORlV"
-        },
-        "Laudes": {
-          "antev": "Wenn ich Dämonen austreibe mit der Kraft Gottes, wahrlich, dann ist das Reich Gottes zu euch gekommen.",
-          "antev_lat": "Si in dígito Dei eício dæmónia, profécto pervénit in vos regnum Dei, dicit Dóminus."
-        },
-        "Vesper": {
-          "antev": "Eine Frau aus der Menge rief Jesus zu: Selig der Leib, der dich getragen, und die Brust, die dich genährt hat. Jesus aber sprach: Selig, die das Wort Gottes hören und es befolgen.",
-          "antev_lat": "Extóllens vocem quædam múlier de turba, dixit: Beátus venter qui te portávit et úbera quæ suxísti. At Iesus ait illi: Quinímmo beáti, qui áudiunt verbum Dei et custódiunt illud."
-        }
-      },
-      "5": {
-        "each": {
-          "oration": "Gütiger Gott, lass deine Gnade mächtig werden in unseren Herzen, damit wir imstande sind, unser eigenes Begehren zu meistern und den Anregungen deines Geistes zu folgen.^ORV",
-          "oration_lat": "Córdibus nostris, quǽsumus, Dómine, grátiam tuam benígnus infúnde, ut ab humánis semper retrahámur excéssibus, et mónitis inhærére valeámus, te largiénte, cæléstibus.^ORlV"
-        },
-        "Laudes": {
-          "antev": "Meister, welches ist das größte Gebot? Jesus gab zur Antwort: Du sollst den Herrn, deinen Gott, lieben von ganzem Herzen.",
-          "antev_lat": "Magíster, quod est mandátum magnum in lege? Ait illi Iesus: Díliges Dóminum Deum tuum ex toto corde tuo."
-        },
-        "Vesper": {
-          "antev": "Seinen Nächsten lieben wie sich selbst, ist weit mehr als alle Opfer.",
-          "antev_lat": "Dilígere próximum suum tamquam seípsum, magis est ómnibus sacrifíciis."
-        }
-      },
-      "6": {
-        "each": {
-          "oration": "Gütiger Gott, in geistlicher Freude begehen wir diese Tage der Buße. Gib, dass wir aus dem österlichen Geheimnis leben, damit uns sein voller Gnadenreichtum zuteilwird.^ORV",
-          "oration_lat": "Observatiónis huius ánnua celebritáte lætántes, quǽsumus, Dómine, ut, paschálibus sacraméntis inhæréntes, plenis eórum efféctibus gaudeámus.^ORlV"
-        },
-        "Laudes": {
-          "antev": "Der Zöllner wagte nicht, die Augen zum Himmel zu erheben. Er schlug an seine Brust und betete: Gott, sei mir Sünder gnädig.",
-          "antev_lat": "Stans a longe publicánus, nolébat óculos ad cælum leváre, sed percutiébat pectus suum dicens: Deus, propítius esto mihi peccatóri."
-        }
-      }
-    },
-    "4": {
-      "0": {
-        "each": {
-          "oration": "Herr, unser Gott, du hast in deinem Sohn die Menschheit auf wunderbare Weise mit dir versöhnt. Gib deinem Volk einen hochherzigen Glauben, damit es mit froher Hingabe dem Osterfest entgegeneilt.^ORV",
-          "oration_lat": "Deus, qui per Verbum tuum humáni géneris reconciliatiónem mirabíliter operáris, præsta, quǽsumus, ut pópulus christiánus prompta devotióne et álacri fide ad ventúra sollémnia váleat festináre.^ORlV"
-        },
-        "ErsteV": {
-          "psalm1": 122.101,
-          "ant1": "Ich freute mich, als man mir sagte: Zum Haus des Herrn wollen wir pilgern.",
-          "ant2": "Wach auf, der du schläfst, steh auf von den Toten, und Christus wird dich erleuchten.",
-          "ant3": "Als wir tot waren durch die Sünde, hat Gott uns mit Christus lebendig gemacht aus großer Liebe.",
-          "antev": "So sehr hat Gott die Welt geliebt, dass er seinen einzigen Sohn dahingab, damit alle, die an ihn glauben, nicht verlorengehen, sondern das ewige Leben haben.",
-          "ant1_lat": "In domum Dómini lætántes íbimus",
-          "ant2_lat": "Surge, qui dormis, et exsúrge a mórtuis, et illuminábit te Christus.",
-          "ant3_lat": "Propter nímiam caritátem suam, qua diléxit nos Deus, cum essémus mórtui peccátis, convivificávit nos in Christo.",
-          "anta_lat": "Rabbi, quis peccávit, hic aut paréntes eius, ut cæcus nascerétur? Respóndit Iesus: Neque hic peccávit neque paréntes eius, sed ut manifesténtur ópera Dei in illo."
-        },
-        "Vigil": {
-          "les_buch": "Aus dem heiligen Evangelium nach Markus.",
-          "les_stelle": "10,32-45"
-        },
-        "Laudes": {
-          "ant1": "Du bist mein Gott, dir will ich danken; mein Gott, dich will ich rühmen.",
-          "ant2": "Befreie uns, Herr, unser Gott; denn du hast die Macht, uns der Hand der Mächtigen zu entreißen.",
-          "ant3": "Lobt den Herrn in seinem Heiligtum, lobt ihn für seine großen Taten.",
-          "antev": "Noch nie hat man gehört, dass jemand die Augen eines Menschen geöffnet hat, der blind geboren war: Du aber hast es getan, Christus, Sohn Gottes, du Licht der Welt.",
-          "ant1_lat": "Deus meus es tu, et confitébor tibi; Deus meus es tu, et exaltábo te.",
-          "ant2_lat": "Potens es, Dómine, erípere nos de manu forti; líbera nos, Deus noster.",
-          "ant3_lat": "Laudáte Dóminum in magnálibus eius.",
-          "anta_lat": "Homo, qui dícitur Iesus, lutum fecit et unxit óculos meos: ábii et lavi et modo vídeo."
-        },
-        "Vesper": {
-          "ant1": "Der Herr steht dir zur Seite. Er hat dich eingesetzt als Richter über Lebende und Tote.",
-          "ant2": "Selig der Mann, der gütig und hilfreich ist, niemals gerät er ins Wanken.",
-          "ant3": "Durch den Mund der Propheten hat Gott vorhergesagt, dass sein Gesalbter leiden muss. In Christus Jesus hat sich sein Wort erfüllt.",
-          "antev": "Mein Sohn, du bist immer bei mir, und alles, was mein ist, ist dein. Heute aber müssen wir feiern und fröhlich sein; denn dein Bruder war tot – und er lebt, er war verloren – und wurde gefunden.",
-          "ant1_lat": "Ipse est qui constitútus est a Deo iudex vivórum et mortuórum.",
-          "ant2_lat": "Iucúndus homo, qui miserétur in Dómino: non commovébitur in ætérnum.",
-          "ant3_lat": "Quæ prænuntiávit Deus per os ómnium prophetárum, pati Christum suum, sic implévit.",
-          "anta_lat": "A sǽculo non est audítum quia quis apéruit óculos cæci nati, nisi Christus Fílius Dei."
-        },
-        "Lesehore": {
-          "versikel0_lat": "Verba tua, Dómine, spíritus et vita sunt.",
-          "versikel1_lat": "Tu verba vitæ ætérnæ habes."
-        }
-      },
-      "1": {
-        "each": {
-          "oration": "Allherrschender Gott, du schenkst uns im österlichen Geheimnis jenes wunderbare Leben, das die Welt unablässig erneuert. Lass das Werk deiner Gnade in der Kirche mächtig werden und gib ihr alles, was sie in dieser Zeit braucht.^ORV",
-          "oration_lat": ""
-        },
-        "Laudes": {
-          "antev": "Ein Mann in königlichem Dienst kam zu Jesus und bat ihn, seinen Sohn zu heilen, der im Sterben lag. Und Jesus sprach: Geh hin, dein Sohn lebt.",
-          "antev_lat": ""
-        },
-        "Vesper": {
-          "antev": "Der Vater erkannte, dass es zu der Stunde war, als Jesus gesagt hatte: Dein Sohn lebt. Und er wurde gläubig mit seinem ganzen Haus.",
-          "antev_lat": ""
-        }
-      },
-      "2": {
-        "each": {
-          "oration": "Barmherziger Gott, diese heilige Zeit der Buße und des Gebetes mache unsere Herzen bereit, die Ostergnade zu empfangen und das Lob des Erlösers zu verkünden,^ORR",
-          "oration_lat": ""
-        },
-        "Laudes": {
-          "antev": "Der Mann, der mich geheilt hat, sagte zu mir: Steh auf, nimm deine Matte und geh.",
-          "antev_lat": ""
-        },
-        "Vesper": {
-          "antev": "Jesus sprach zu dem Geheilten: Jetzt bist du gesund; sündige nicht mehr, damit dir nicht Schlimmeres zustößt.",
-          "antev_lat": ""
-        }
-      },
-      "3": {
-        "each": {
-          "oration": "Gütiger Gott, du schenkst den Gerechten ihren Lohn und verzeihst den Sündern ihre Schuld um der Buße willen. Wir bekennen dir unser Versagen; hab Erbarmen mit unserer Schwachheit, und vergib uns, was wir gefehlt haben.^ORV",
-          "oration_lat": ""
-        },
-        "Laudes": {
-          "antev": "Amen, amen, ich sage euch: Wer mein Wort hört und dem, der mich gesandt hat, glaubt, der hat das ewige Leben.",
-          "antev_lat": ""
-        },
-        "Vesper": {
-          "antev": "So spricht der Herr: Ich richte, wie ich es vom Vater höre, und mein Gericht ist gerecht. Denn ich folge nicht meinem Willen, sondern dem Willen dessen, der mich gesandt hat.",
-          "antev_lat": ""
-        }
-      },
-      "4": {
-        "each": {
-          "oration": "Gütiger Gott, heilige uns in dieser Zeit der Buße. Gib uns Kraft zu guten Werken und Ausdauer in der Beobachtung deiner Gebote, damit wir fähig werden, das Osterfest mit reinem Herzen zu feiern.^ORV",
-          "oration_lat": ""
-        },
-        "Laudes": {
-          "antev": "So spricht der Herr: Ich habe ein größeres Zeugnis als das des Johannes: die Werke, die mein Vater mir übertragen hat.",
-          "antev_lat": ""
-        },
-        "Vesper": {
-          "antev": "So spricht der Herr: Die Werke, die ich vollbringe, legen Zeugnis dafür ab, dass mich der Vater gesandt hat.",
-          "antev_lat": ""
-        }
-      },
-      "5": {
-        "each": {
-          "oration": "Barmherziger Gott, du kennst unsere Schwachheit und unsere Not. Doch je hinfälliger wir sind, um so mächtiger ist deine Hilfe. Gib, dass wir das Geschenk dieser Gnadenzeit freudig und dankbar annehmen und dein Wirken in unserem Leben bezeugen.^ORV",
-          "oration_lat": ""
-        },
-        "Laudes": {
-          "antev": "Als Jesus im Tempel lehrte, rief er: Ich bin nicht in meinem eigenen Namen gekommen, sondern mein Vater hat mich gesandt.",
-          "antev_lat": ""
-        },
-        "Vesper": {
-          "antev": "Niemand legte Hand an Jesus, denn seine Stunde war noch nicht gekommen.",
-          "antev_lat": ""
-        }
-      },
-      "6": {
-        "each": {
-          "oration": "Barmherziger Gott, lenke du selbst unsere Herzen zu dir hin; denn ohne deine Hilfe können wir dir nicht gefallen.^ORV",
-          "oration_lat": ""
-        },
-        "Laudes": {
-          "antev": "Die Knechte, die Jesus festnehmen sollten, kamen zurück und sagten: Noch nie hat ein Mensch so gesprochen wie dieser Mensch.",
-          "antev_lat": ""
-        }
-      }
-    },
-    "5": {
-      "0": {
-        "each": {
-          "hymn_3": 0.0,
-          "oration": "Herr, unser Gott, dein Sohn hat sich aus Liebe zur Welt dem Tod überliefert. Lass uns in seiner Liebe bleiben und mit deiner Gnade aus ihr leben.^ORV",
-          "hymn_3_lat": 0.0,
-          "oration_lat": ""
-        },
-        "ErsteV": {
-          "ant1": "Ich lege mein Gesetz in ihr Herz. Ich werde ihr Gott sein, und sie werden mein Volk sein.",
-          "ant2": "Alles ist für mich Verlust, weil die Erkenntnis Christi Jesu, meines Herrn, alles übertrifft.",
-          "ant3": "Obwohl er Gottes Sohn war, hat er Gehorsam gelernt durch sein Leiden.",
-          "les_buch": "›1°Petr",
-          "les_stelle": "1,18–21",
-          "les_text": "Ihr wisst, dass ihr aus eurer sinnlosen, von den Vätern ererbten Lebensweise nicht um einen vergänglichen Preis losgekauft wurdet, nicht um Silber oder Gold, sondern mit dem kostbaren Blut Christi, des Lammes ohne Fehl und Makel. Er war schon vor der Erschaffung der Welt dazu ausersehen, und euretwegen ist er am Ende der Zeiten erschienen. Durch ihn seid ihr zum Glauben an Gott gekommen, der ihn von den Toten auferweckt und ihm die Herrlichkeit gegeben hat, so dass ihr an Gott glauben und auf ihn hoffen könnt.",
-          "les_text_neu": "Ihr wisst, dass ihr aus eurer nichtigen, von den Vätern ererbten Lebensweise nicht um einen vergänglichen Preis losgekauft wurdet, nicht um Silber oder Gold, sondern mit dem kostbaren Blut Christi, des Lammes ohne Fehl und Makel. Er war schon vor der Grundlegung der Welt dazu ausersehen, und euretwegen ist er am Ende der Zeiten erschienen. Durch ihn seid ihr zum Glauben an Gott gekommen, der ihn von den Toten auferweckt und ihm die Herrlichkeit gegeben hat, so dass ihr an Gott glauben und auf ihn hoffen könnt.",
-          "antev": "Wenn das Weizenkorn nicht in die Erde fällt und stirbt, bleibt es allein; wenn es aber stirbt, bringt es reiche Frucht.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "antev_lat": "",
-          "les_text_lat": ""
-        },
-        "Vigil": {
-          "les_buch": "Aus dem heiligen Evangelium nach Matthäus.",
-          "les_stelle": "21,33-46"
-        },
-        "Laudes": {
-          "ant1": "Mein Gott, du wurdest meine Hilfe, meine Seele hängt an dir.",
-          "ant2": "Rette uns, Herr, durch deine wunderbaren Taten, entreiße uns der Hand des Todes.",
-          "ant3": "Die Stunde ist gekommen, dass der Menschensohn verherrlicht werde.",
-          "les_buch": "›Lev",
-          "les_stelle": "23,4–7",
-          "les_text": "Das sind die Feste des Herrn, Tage heiliger Versammlungen, die ihr zur festgesetzten Zeit ausrufen sollt: Im ersten Monat, am vierzehnten Tag des Monats, zur Abenddämmerung, ist Pascha zur Ehre des Herrn. Am fünfzehnten Tag dieses Monats ist das Fest der Ungesäuerten Brote zur Ehre des Herrn. Sieben Tage sollt ihr ungesäuertes Brot essen. Am ersten Tag habt ihr heilige Versammlung; ihr dürft keine schwere Arbeit verrichten.",
-          "antev": "Lazarus, unser Freund, schläft; aber ich gehe hin, um ihn aufzuwecken.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "antev_lat": "",
-          "les_text_lat": ""
-        },
-        "Terz": {
-          "les_buch": "›2°Kor",
-          "les_stelle": "4,10–11",
-          "les_text": "Immer tragen wir das Todesleiden Jesu an unserem Leib, damit auch das Leben Jesu an unserem Leib sichtbar wird. Denn immer werden wir, obgleich wir leben, um Jesu willen dem Tod ausgeliefert, damit auch das Leben Jesu an unserem sterblichen Fleisch offenbar wird.",
-          "les_text_lat": ""
-        },
-        "Sext": {
-          "les_buch": "›1°Petr",
-          "les_stelle": "4,13–14",
-          "les_text": "Freut euch, dass ihr Anteil an den Leiden Christi habt; denn so könnt ihr auch bei der Offenbarung seiner Herrlichkeit voll Freude jubeln. Wenn ihr wegen des Namens Christi beschimpft werdet, seid ihr seligzupreisen; denn der Geist der Herrlichkeit, der Geist Gottes, ruht auf euch.",
-          "les_text_lat": ""
-        },
-        "Non": {
-          "les_buch": "›1°Petr",
-          "les_stelle": "5,10–11",
-          "les_text": "Der Gott aller Gnade, der euch in (der Gemeinschaft mit) Christus zu seiner ewigen Herrlichkeit berufen hat, wird euch, die ihr kurze Zeit leiden müsst, wieder aufrichten, stärken, kräftigen und auf festen Grund stellen. Sein ist die Macht in Ewigkeit. Amen.",
-          "les_text_neu": "Der Gott aller Gnade, der euch in Christus zu seiner ewigen Herrlichkeit berufen hat, wird euch, die ihr kurze Zeit leiden müsst, wieder aufrichten, stärken, kräftigen und auf festen Grund stellen. Sein ist die Macht in Ewigkeit. Amen.",
-          "les_text_lat": ""
-        },
-        "Vesper": {
-          "ant1": "Wie Mose die Schlange in der Wüste erhöht hat, so muss der Menschensohn erhöht werden, damit jeder, der glaubt, in ihm das ewige Leben habe.",
-          "ant2": "Der Herr der Heere schützt und befreit uns; er wird uns verschonen und retten.",
-          "ant3": "Er wurde durchbohrt wegen unserer Verbrechen, misshandelt wegen unserer Sünden. Durch seine Wunden sind wir geheilt.",
-          "les_buch": "›Apg",
-          "les_stelle": "13,26b–30",
-          "les_text": "Uns wurde das Wort des Heils gesandt. Denn die Einwohner von Jerusalem und ihre Führer haben Jesus nicht erkannt; aber sie haben die Worte der Propheten, die an jedem Sabbat vorgelesen werden, erfüllt und haben ihn verurteilt. Obwohl sie nichts fanden, wofür er den Tod verdient hätte, forderten sie von Pilatus seine Hinrichtung. Als sie alles vollbracht hatten, was in der Schrift über ihn gesagt ist, nahmen sie ihn vom Kreuzesholz und legten ihn ins Grab. Gott aber hat ihn von den Toten auferweckt.",
-          "antev": "Wenn ich von der Erde erhöht bin, werde ich alle an mich ziehen.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "antev_lat": "",
-          "les_text_lat": ""
-        },
-        "Lesehore": {
-          "versikel0_lat": "Si quis sermónem meum serváverit.",
-          "versikel1_lat": "Mortem non vidébit in ætérnum."
-        }
-      },
-      "1": {
-        "each": {
-          "oration": "Barmherziger Gott, in deinem Sohn hast du uns die Fülle des Segens geschenkt. Gib uns Kraft, unsere sündhaften Gewohnheiten abzulegen und in der neuen Wirklichkeit zu leben, damit einst die Herrlichkeit deines Reiches an uns offenbar wird.^ORV",
-          "oration_lat": ""
-        },
-        "Laudes": {
-          "les_buch": "›Jer",
-          "les_stelle": "11,19–20",
-          "les_text": "Ich war wie ein zutrauliches Lamm, das zum Schlachten geführt wird, und ahnte nicht, dass sie gegen mich Böses planten: Wir wollen den Baum im Saft verderben; wir wollen ihn ausrotten aus dem Land der Lebenden, so dass man seinen Namen nicht mehr erwähnt. Aber der Herr der Heere richtet gerecht, er prüft Herz und Nieren. Ich werde deine Rache an ihnen sehen; denn dir habe ich meine Sache anvertraut.",
-          "les_text_neu": "Ich aber war wie ein zutrauliches Lamm, das zum Schlachten geführt wird, und ahnte nicht, dass sie gegen mich Böses planten: Wir wollen den Baum im Saft verderben; wir wollen ihn ausrotten aus dem Land der Lebenden, sodass seines Namens nicht mehr gedacht wird. Aber der HERR der Heerscharen richtet gerecht, er prüft Nieren und Herz. Ich werde deine Vergeltung an ihnen sehen, denn dir habe ich meine Sache anvertraut.",
-          "antev": "Ich bin das Licht der Welt. Wer mir nachfolgt, wandelt nicht in Finsternis, sondern hat das Licht des Lebens.",
-          "antev_lat": "",
-          "les_text_lat": ""
-        },
-        "Terz": {
-          "les_buch": "›Ez",
-          "les_stelle": "33,10b.11b",
-          "les_text": "Unsere Vergehen und unsere Sünden lasten auf uns, wir siechen ihretwegen dahin. Wie sollen wir da am Leben bleiben? So wahr ich lebe – Spruch Gottes des Herrn –, ich habe kein Gefallen am Tod des Schuldigen, sondern daran, dass er auf seinem Weg umkehrt und am Leben bleibt.",
-          "les_text_neu": "Fürwahr, unsere Vergehen und unsere Sünden lasten auf uns, in ihnen siechen wir dahin. Wie sollen wir da am Leben bleiben? So wahr ich lebe – Spruch GOTTES, des Herrn –, ich habe kein Gefallen am Tod des Schuldigen, sondern daran, dass ein Schuldiger sich abkehrt von seinem Weg und am Leben bleibt.",
-          "les_text_lat": ""
-        },
-        "Sext": {
-          "les_buch": "›Jer",
-          "les_stelle": "18,20b",
-          "les_text": "Denk daran, wie ich vor dir stand, um zu ihren Gunsten zu sprechen und deinen Zorn von ihnen abzuwenden!",
-          "les_text_neu": "Gedenke, dass ich vor dir stand, um Gutes über sie zu reden und deinen Zorn von ihnen abzuwenden!",
-          "les_text_lat": ""
-        },
-        "Non": {
-          "les_buch": "›Jer",
-          "les_stelle": "31,2.3b.4a",
-          "les_text": "So spricht der Herr: Gnade fand in der Wüste das Volk, das vom Schwert verschont blieb; Israel zieht zum Ort seiner Ruhe. Mit ewiger Liebe habe ich dich geliebt, darum habe ich dir so lange die Treue bewahrt. Ich baue dich wieder auf, du sollst neu gebaut werden, Jungfrau Israel.",
-          "les_text_neu": "So spricht der HERR: Gnade fand in der Wüste das Volk, das dem Schwert entronnen ist; ich gehe mit, um Israel zur Ruhe zu führen. Mit ewiger Liebe habe ich dich geliebt, darum habe ich dir die Treue bewahrt. Ich baue dich wieder auf, du wirst aufgebaut sein, Jungfrau Israel.",
-          "les_text_lat": ""
-        },
-        "Vesper": {
-          "les_buch": "›Röm",
-          "les_stelle": "5,8–9",
-          "les_text": "Gott hat seine Liebe zu uns darin erwiesen, dass Christus für uns gestorben ist, als wir noch Sünder waren. Nachdem wir jetzt durch sein Blut gerecht gemacht sind, werden wir durch ihn erst recht vor dem Zorn Gottes gerettet werden.",
-          "les_text_neu": "Gott erweist seine Liebe zu uns darin, dass Christus für uns gestorben ist, als wir noch Sünder waren. Nachdem wir jetzt durch sein Blut gerecht gemacht sind, werden wir durch ihn erst recht vor dem Zorn gerettet werden.",
-          "antev": "Ich selber lege Zeugnis für mich ab, und auch der Vater, der mich gesandt hat, ist mein Zeuge.",
-          "antev_lat": "",
-          "les_text_lat": ""
-        }
-      },
-      "2": {
-        "each": {
-          "oration": "Gütiger Gott, schenke uns Beharrlichkeit und Ausdauer auf dem Weg deiner Gebote, damit auch in unseren Tagen viele Menschen zu dir finden und deine Kirche dir immer eifriger dient.^ORV",
-          "oration_lat": ""
-        },
-        "Laudes": {
-          "les_buch": "›Sach",
-          "les_stelle": "12,10–11a",
-          "les_text": "Über das Haus David und über die Einwohner Jerusalems werde ich den Geist des Mitleids und des Gebets ausgießen. Und sie werden auf den blicken, den sie durchbohrt haben. Sie werden um ihn klagen, wie man um den einzigen Sohn klagt; sie werden bitter um ihn weinen, wie man um den Erstgeborenen weint. An jenem Tag wird die Totenklage sein in Jerusalem.",
-          "les_text_neu": "Doch über das Haus David und über die Einwohner Jerusalems werde ich einen Geist des Mitleids und des flehentlichen Bittens ausgießen. Und sie werden auf mich blicken, auf ihn, den sie durchbohrt haben. Sie werden um ihn klagen, wie bei der Klage um den Einzigen; sie werden bitter um ihn weinen, wie man um den Erstgeborenen weint. An jenem Tag wird die Klage in Jerusalem groß sein.",
-          "antev": "Wenn ihr den Menschensohn erhöht habt, dann werdet ihr erkennen, dass ich mit Recht sage: Ich bin es.",
-          "antev_lat": "",
-          "les_text_lat": ""
-        },
-        "Terz": {
-          "les_buch": "›1°Kor",
-          "les_stelle": "1,18–19",
-          "les_text": "Das Wort vom Kreuz ist denen, die verloren gehen, Torheit; uns aber, die gerettet werden, ist es Gottes Kraft. Es heißt nämlich in der Schrift: Ich lasse die Weisheit der Weisen vergehen und die Klugheit der Klugen verschwinden.",
-          "les_text_neu": "Denn das Wort vom Kreuz ist denen, die verloren gehen, Torheit; uns aber, die gerettet werden, ist es Gottes Kraft. In der Schrift steht nämlich: Ich werde die Weisheit der Weisen vernichten und die Klugheit der Klugen verwerfen.",
-          "les_text_lat": ""
-        },
-        "Sext": {
-          "les_buch": "›1°Kor",
-          "les_stelle": "1,22–24",
-          "les_text": "Die Juden fordern Zeichen, die Griechen suchen Weisheit. Wir dagegen verkündigen Christus als den Gekreuzigten: für Juden ein empörendes Ärgernis, für Heiden eine Torheit, für die Berufenen aber, Juden wie Griechen, Christus, Gottes Kraft und Gottes Weisheit.",
-          "les_text_neu": "Die Juden fordern Zeichen, die Griechen suchen Weisheit. Wir dagegen verkünden Christus als den Gekreuzigten: für Juden ein Ärgernis, für Heiden eine Torheit, für die Berufenen aber, Juden wie Griechen, Christus, Gottes Kraft und Gottes Weisheit.",
-          "les_text_lat": ""
-        },
-        "Non": {
-          "les_buch": "›1°Kor",
-          "les_stelle": "1,25.27a",
-          "les_text": "Das Törichte an Gott ist weiser als die Menschen, und das Schwache an Gott ist stärker als die Menschen. Das Törichte in der Welt hat Gott erwählt, um die Weisen zuschanden zu machen.",
-          "les_text_neu": "Denn das Törichte an Gott ist weiser als die Menschen, und das Schwache an Gott ist stärker als die Menschen. Das Törichte in der Welt hat Gott erwählt, um die Weisen zuschanden zu machen.",
-          "les_text_lat": ""
-        },
-        "Vesper": {
-          "les_buch": "›1°Kor",
-          "les_stelle": "1,27b–30",
-          "les_text": "Das Schwache in der Welt hat Gott erwählt, um das Starke zuschanden zu machen. Und das Niedrige in der Welt und das Verachtete hat Gott erwählt: das, was nichts ist, um das, was etwas ist, zu vernichten, damit kein Mensch sich rühmen kann vor Gott. Von ihm her seid ihr in Christus Jesus, den Gott für uns zur Weisheit gemacht hat, zur Gerechtigkeit, Heiligung und Erlösung.",
-          "antev": "Er, der mich gesandt hat, ist bei mir; er lässt mich nicht allein, weil ich immer tue, was ihm gefällt.",
-          "antev_lat": "",
-          "les_text_lat": ""
-        }
-      },
-      "3": {
-        "each": {
-          "oration": "Barmherziger Gott, du selber weckst in uns das Verlangen, dir zu dienen. Heilige uns durch Werke der Buße, erleuchte und stärke uns, damit wir treu den Weg deiner Gebote gehen.^ORV",
-          "oration_lat": ""
-        },
-        "Laudes": {
-          "les_buch": "›Jes",
-          "les_stelle": "50,5–7",
-          "les_text": "Gott, der Herr, hat mir das Ohr geöffnet. Ich aber wehrte mich nicht und wich nicht zurück. Ich hielt meinen Rücken denen hin, die mich schlugen, und denen, die mir den Bart ausrissen, meine Wangen. Mein Gesicht verbarg ich nicht vor Schmähungen und Speichel. Doch Gott, der Herr, wird mir helfen; darum werde ich nicht in Schande enden. Deshalb mache ich mein Gesicht hart wie einen Kiesel; ich weiß, dass ich nicht in Schande gerate.",
-          "les_text_neu": "GOTT, der Herr, hat mir das Ohr geöffnet. Ich aber wehrte mich nicht und wich nicht zurück. Ich hielt meinen Rücken denen hin, die mich schlugen, und meine Wangen denen, die mir den Bart ausrissen. Mein Gesicht verbarg ich nicht vor Schmähungen und Speichel. Und GOTT, der Herr, wird mir helfen; darum werde ich nicht in Schande enden. Deshalb mache ich mein Gesicht hart wie einen Kiesel; ich weiß, dass ich nicht in Schande gerate.",
-          "antev": "Wenn ihr in meinem Wort bleibt, seid ihr meine Jünger. Ihr werdet die Wahrheit erkennen, und die Wahrheit wird euch befreien.",
-          "antev_lat": "",
-          "les_text_lat": ""
-        },
-        "Terz": {
-          "les_buch": "›1°Tim",
-          "les_stelle": "2,4–6",
-          "les_text": "Gott will, dass alle Menschen gerettet werden und zur Erkenntnis der Wahrheit gelangen. Denn: Einer ist Gott. Einer auch Mittler zwischen Gott und den Menschen: der Mensch Christus Jesus, der sich als Lösegeld hingegeben hat für alle, ein Zeugnis zur vorherbestimmten Zeit.",
-          "les_text_lat": ""
-        },
-        "Sext": {
-          "les_buch": "›Röm",
-          "les_stelle": "15,3",
-          "les_text": "Christus hat nicht für sich selbst gelebt; in der Schrift heißt es vielmehr: Die Schmähungen derer, die dich schmähen, haben mich getroffen.",
-          "les_text_neu": "Christus hat nicht sich selbst zu Gefallen gelebt; vielmehr steht geschrieben: Die Schmähungen derer, die dich schmähen, sind auf mich gefallen.",
-          "les_text_lat": ""
-        },
-        "Non": {
-          "les_buch": "›Hebr",
-          "les_stelle": "9,28",
-          "les_text": "Christus wurde ein einziges Mal geopfert, um die Sünden vieler hinwegzunehmen; beim zweitenmal wird er nicht wegen der Sünde erscheinen, sondern um die zu retten, die ihn erwarten.",
-          "les_text_lat": ""
-        },
-        "Vesper": {
-          "les_buch": "›Eph",
-          "les_stelle": "4,32–5,2",
-          "les_text": "Seid gütig zueinander, seid barmherzig, vergebt einander, weil auch Gott euch durch Christus vergeben hat. Ahmt Gott nach als seine geliebten Kinder und liebt einander, weil auch Christus uns geliebt und sich für uns hingegeben hat als Gabe und Opfer, das Gott gefällt.",
-          "les_text_neu": "Seid gütig zueinander, seid barmherzig, vergebt einander, wie auch Gott euch in Christus vergeben hat. Ahmt Gott nach als seine geliebten Kinder und führt euer Leben in Liebe, wie auch Christus uns geliebt und sich für uns hingegeben hat als Gabe und Opfer, das Gott gefällt!",
-          "antev": "Ihr wollt mich töten, weil ich euch die Wahrheit verkünde, die Wahrheit, die ich von Gott gehört habe.",
-          "antev_lat": "",
-          "les_text_lat": ""
-        }
-      },
-      "4": {
-        "each": {
-          "oration": "Allmächtiger Gott, erhöre unser Gebet und beschütze uns, denn wir setzen unsere ganze Hoffnung auf dich. Reinige uns von aller Sünde und hilf uns, in deiner Gnade zu leben, damit wir Erben deiner Verheißung werden.^ORV",
-          "oration_lat": ""
-        },
-        "Laudes": {
-          "les_buch": "›Hebr",
-          "les_stelle": "2,9b–10",
-          "les_text": "Wir sehen Jesus um seines Todesleidens willen mit Herrlichkeit und Ehre gekrönt; so war es Gottes gnädiger Wille, dass er für alle den Tod erlitten hat. Denn es war angemessen, dass Gott, für den und durch den das All ist und der viele Söhne zur Herrlichkeit führen wollte, den Urheber ihres Heils durch Leiden vollendete.",
-          "antev": "Jesus sagte zu den Scharen der Juden und zu den Hohenpriestern: Ihr hört nicht, weil ihr nicht aus Gott seid. Wer aus Gott ist, hört die Worte Gottes.",
-          "antev_lat": "",
-          "les_text_lat": ""
-        },
-        "Terz": {
-          "les_buch": "›Hebr",
-          "les_stelle": "4,14–15",
-          "les_text": "Da wir einen erhabenen Hohenpriester haben, der die Himmel durchschritten hat, Jesus, den Sohn Gottes, lasst uns an dem Bekenntnis festhalten. Wir haben ja nicht einen Hohenpriester, der nicht mitfühlen könnte mit unserer Schwäche, sondern einen, der in allem wie wir in Versuchung geführt worden ist, aber nicht gesündigt hat.",
-          "les_text_neu": "Da wir einen erhabenen Hohepriester haben, der die Himmel durchschritten hat, Jesus, den Sohn Gottes, lasst uns an dem Bekenntnis festhalten. Wir haben ja nicht einen Hohepriester, der nicht mitfühlen könnte mit unserer Schwäche, sondern einen, der in allem wie wir versucht worden ist, aber nicht gesündigt hat.",
-          "les_text_lat": ""
-        },
-        "Sext": {
-          "les_buch": "›Hebr",
-          "les_stelle": "7,26–27",
-          "les_text": "Ein solcher Hoherpriester war für uns in der Tat notwendig: einer, der heilig ist, unschuldig, makellos, abgesondert von den Sündern und erhöht über die Himmel; einer, der es nicht Tag für Tag nötig hat, wie die Hohenpriester zuerst für die eigenen Sünden Opfer darzubringen und dann für die des Volkes; denn das hat er ein für allemal getan, als er sich selbst dargebracht hat.",
-          "les_text_neu": "Ein solcher Hohepriester ziemte sich in der Tat für uns: einer, der heilig ist, frei vom Bösen, makellos, abgesondert von den Sündern und erhöht über die Himmel; einer, der es nicht Tag für Tag nötig hat, wie die Hohepriester zuerst für die eigenen Sünden Opfer darzubringen und dann für die des Volkes; denn das hat er ein für alle Mal getan, als er sich selbst dargebracht hat.",
-          "les_text_lat": ""
-        },
-        "Non": {
-          "les_buch": "›Hebr",
-          "les_stelle": "9,11–12",
-          "les_text": "Christus ist gekommen als Hoherpriester der künftigen Güter; und durch das erhabenere und vollkommenere Zelt, das nicht von Menschenhand gemacht, das heißt nicht von dieser Welt ist, ist er ein für allemal in das Heiligtum hineingegangen, nicht mit dem Blut von Böcken und jungen Stieren, sondern mit seinem eigenen Blut, und so hat er eine ewige Erlösung bewirkt.",
-          "les_text_lat": ""
-        },
-        "Vesper": {
-          "les_buch": "›Hebr",
-          "les_stelle": "13,12–15",
-          "les_text": "Jesus hat, um durch sein eigenes Blut das Volk zu heiligen, außerhalb des Tores gelitten. Lasst uns also zu ihm vor das Lager hinausziehen und seine Schmach auf uns nehmen. Denn wir haben hier keine Stadt, die bestehen bleibt, sondern wir suchen die künftige. Durch ihn also lasst uns Gott allezeit das Opfer des Lobes darbringen, nämlich die Frucht der Lippen, die seinen Namen preisen.",
-          "les_text_neu": "Jesus hat, um durch sein eigenes Blut das Volk zu heiligen, außerhalb des Tores gelitten. Lasst uns also zu ihm vor das Lager hinausziehen und seine Schmach tragen. Denn wir haben hier keine bleibende Stadt, sondern wir suchen die zukünftige. Durch ihn also lasst uns Gott allezeit das Opfer des Lobes darbringen, nämlich die Frucht der Lippen, die seinen Namen bekennen.",
-          "antev": "Du bist noch keine fünfzig Jahre alt und willst Abraham gesehen haben? Amen, amen, ich sage euch: Ehe Abraham wurde, bin ich.",
-          "antev_lat": "",
-          "les_text_lat": ""
-        }
-      },
-      "5": {
-        "each": {
-          "oration": "Barmherziger Gott, wir haben aus menschlicher Schwachheit gefehlt und können aus eigener Kraft dem Netz der Sünde nicht entrinnen. Komm uns in deiner Güte zu Hilfe und befreie uns von aller Schuld.^ORV",
-          "oration_lat": ""
-        },
-        "Laudes": {
-          "les_buch": "›Jes",
-          "les_stelle": "52,13–15",
-          "les_text": "Seht, mein Knecht hat Erfolg, er wird groß sein und hoch erhaben. Viele haben sich über ihn entsetzt, so entstellt sah er aus, nicht mehr wie ein Mensch, seine Gestalt war nicht mehr die eines Menschen. Jetzt aber setzt er viele Völker in Staunen, Könige müssen vor ihm verstummen. Denn was man ihnen noch nie erzählt hat, das sehen sie nun; was sie niemals hörten, das erfahren sie jetzt.",
-          "les_text_neu": "Siehe, mein Knecht wird Erfolg haben, er wird sich erheben und erhaben und sehr hoch sein.Wie sich viele über dich entsetzt haben – so entstellt sah er aus, nicht mehr wie ein Mensch, seine Gestalt war nicht mehr die eines Menschen –, so wird er viele Nationen entsühnen, Könige schließen vor ihm ihren Mund. Denn was man ihnen noch nie erzählt hat, das sehen sie nun; was sie niemals hörten, das erfahren sie jetzt.",
-          "antev": "Viele gute Werke habe ich vor euren Augen getan. Für welches wollt ihr mich töten?",
-          "antev_lat": "",
-          "les_text_lat": ""
-        },
-        "Terz": {
-          "les_buch": "›Jes",
-          "les_stelle": "53,2–3",
-          "les_text": "Vor den Augen des HERRN wuchs er auf wie ein junger Spross, wie ein Wurzeltrieb aus trockenem Boden. Er hatte keine schöne und edle Gestalt, so dass wir ihn anschauen mochten. Er sah nicht so aus, dass wir Gefallen fanden an ihm. Er wurde verachtet und von den Menschen gemieden, ein Mann voller Schmerzen, mit Krankheit vertraut. Wie einer, vor dem man das Gesicht verhüllt, war er verachtet; wir schätzten ihn nicht.",
-          "les_text_lat": ""
-        },
-        "Sext": {
-          "les_buch": "›Jes",
-          "les_stelle": "53,4–5",
-          "les_text": "Er hat unsere Krankheiten getragen und unsere Schmerzen auf sich geladen. Wir meinten, er sei von Gott geschlagen, von ihm getroffen und gebeugt. Doch er wurde durchbohrt wegen unserer Verbrechen, wegen unserer Sünden zermalmt. Zu unserem Heil lag die Strafe auf ihm, durch seine Wunden sind wir geheilt.",
-          "les_text_neu": "Er hat unsere Krankheiten getragen und unsere Schmerzen auf sich geladen. Wir meinten, er sei von Gott geschlagen, von ihm getroffen und gebeugt. Doch er wurde durchbohrt wegen unserer Vergehen, wegen unserer Sünden zermalmt. Zu unserem Heil lag die Züchtigung auf ihm, durch seine Wunden sind wir geheilt.",
-          "les_text_lat": ""
-        },
-        "Non": {
-          "les_buch": "›Jes",
-          "les_stelle": "53,6–7",
-          "les_text": "Wir hatten uns alle verirrt wie Schafe, jeder ging für sich seinen Weg. Doch der Herr lud auf ihn die Schuld von uns allen. Er wurde misshandelt und niedergedrückt, aber er tat seinen Mund nicht auf. Wie ein Lamm, das man zum Schlachten führt, und wie ein Schaf angesichts seiner Scherer, so tat auch er seinen Mund nicht auf.",
-          "les_text_neu": "Wir hatten uns alle verirrt wie Schafe, jeder ging für sich seinen Weg. Doch der HERR ließ auf ihn treffen die Schuld von uns allen. Er wurde bedrängt und misshandelt, aber er tat seinen Mund nicht auf. Wie ein Lamm, das man zum Schlachten führt, und wie ein Schaf vor seinen Scherern verstummt, so tat auch er seinen Mund nicht auf.",
-          "les_text_lat": ""
-        },
-        "Vesper": {
-          "les_buch": "›1°Petr",
-          "les_stelle": "2,21b–24",
-          "les_text": "Christus hat für euch gelitten und euch ein Beispiel gegeben, damit ihr seinen Spuren folgt. Er hat keine Sünde begangen, und kein trügerisches Wort war in seinem Mund. Er wurde geschmäht, schmähte aber nicht; er litt, drohte aber nicht, sondern überließ seine Sache dem gerechten Richter. Er hat unsere Sünden mit seinem Leib auf das Holz des Kreuzes hinaufgetragen, damit wir tot seien für die Sünden und für die Gerechtigkeit leben. Durch seine Wunden seid ihr geheilt.^RESP",
-          "les_text_neu": "Christus hat für euch gelitten und euch ein Beispiel gegeben, damit ihr seinen Spuren folgt. Er hat keine Sünde begangen und in seinem Mund war keine Falschheit. Als er geschmäht wurde, schmähte er nicht; als er litt, drohte er nicht, sondern überließ seine Sache dem gerechten Richter. Er hat unsere Sünden mit seinem eigenen Leib auf das Holz des Kreuzes getragen, damit wir tot sind für die Sünden und leben für die Gerechtigkeit. Durch seine Wunden seid ihr geheilt.^RESP",
-          "antev": "Wenn ihr mir nicht glaubt, dann glaubt doch den Werken, die ich im Namen meines Vaters tue.",
-          "antev_lat": "",
-          "les_text_lat": ""
-        }
-      },
-      "6": {
-        "each": {
-          "oration": "Barmherziger Gott, du wirkst das Heil der Menschen zu jeder Zeit; in diesen Tagen aber bist du uns besonders nahe. Trage Sorge für dein Volk, schütze die Getauften und alle, die sich auf die Taufe vorbereiten.^ORV",
-          "oration_lat": ""
-        },
-        "Laudes": {
-          "les_buch": "›Jes",
-          "les_stelle": "65,1b–3a",
-          "les_text": "Ich sagte: Hier bin ich, hier bin ich! Den ganzen Tag streckte ich meine Hände aus nach einem abtrünnigen Volk, das einen Weg ging, der nicht gut war, nach seinen eigenen Plänen, nach einem Volk, das in seinem Trotz mich ständig ärgert.",
-          "les_text_neu": "Ich sagte zu einer Nation, die mich nicht anrief: „Hier bin ich, hier bin ich!“ Den ganzen Tag streckte ich meine Hände aus nach einem abtrünnigen Volk, nach denen, die den Weg gehen, der nicht gut ist, hinter ihren eigenen Plänen her, nach dem Volk, das mich ständig ins Angesicht kränkt.",
-          "antev": "Nicht nur für Israel ist Jesus gestorben, sondern auch um die Kinder Gottes aus allen Völkern zu sammeln.",
-          "antev_lat": "",
-          "les_text_lat": ""
-        },
-        "Terz": {
-          "les_buch": "›1°Joh",
-          "les_stelle": "1,8–9",
-          "les_text": "Wenn wir sagen, dass wir keine Sünde haben, führen wir uns selbst in die Irre, und die Wahrheit ist nicht in uns. Wenn wir unsere Sünden bekennen, ist er treu und gerecht; er vergibt uns die Sünden und reinigt uns von allem Unrecht.",
-          "les_text_lat": ""
-        },
-        "Sext": {
-          "les_buch": "›1°Joh",
-          "les_stelle": "2,1b–2",
-          "les_text": "Wir haben einen Beistand beim Vater: Jesus Christus, den Gerechten. Er ist die Sühne für unsere Sünden, aber nicht nur für unsere Sünden, sondern auch für die der ganzen Welt.",
-          "les_text_lat": ""
-        },
-        "Non": {
-          "les_buch": "›1°Joh",
-          "les_stelle": "2,8b–10",
-          "les_text": "Die Finsternis geht vorüber, und schon leuchtet das wahre Licht. Wer sagt, er sei im Licht, aber seinen Bruder hasst, ist noch in der Finsternis. Wer seinen Bruder liebt, bleibt im Licht; da gibt es für ihn kein Straucheln.",
-          "les_text_neu": "Die Finsternis vergeht, und schon leuchtet das wahre Licht. Wer sagt, er sei im Licht, aber seinen Bruder hasst, ist noch in der Finsternis. Wer seinen Bruder liebt, bleibt im Licht und in ihm gibt es keinen Anstoß. ",
-          "les_text_lat": ""
-        }
-      },
-      "each": {
-        "Lesehore": {
-          "hymn_3": 3313.0
-        },
-        "Laudes": {
-          "hymn_3": 3323.0
-        },
-        "Vesper": {
-          "hymn_3": 3343.0
-        }
-      }
-    },
-    "6": {
-      "0": {
-        "each": {
-          "oration": "Allmächtiger, ewiger Gott, deinem Willen gehorsam, hat unser Erlöser Fleisch angenommen, er hat sich selbst erniedrigt und sich unter die Schmach des Kreuzes gebeugt. Hilf uns, dass wir ihm auf dem Weg des Leidens nachfolgen und an seiner Auferstehung Anteil erlangen.^ORvR",
-          "oration_lat": ""
-        },
-        "ErsteV": {
-          "button": "1. Vesper zum Palmsonntag",
-          "hymn_1": 3343.0,
-          "hymn_2": 0.0,
-          "hymn_3": 0.0,
-          "ant1": "So lange war ich bei euch im Tempel und lehrte, und ihr habt mich nicht ergriffen; nun werdet ihr mich geißeln und kreuzigen.",
-          "ant2": "Der Herr wird mir helfen; darum werde ich nicht in Schande enden.",
-          "ant3": "Jesus, der Herr, erniedrigte sich. Er war gehorsam bis zum Tod am Kreuze.",
-          "les_buch": "›1°Petr",
-          "les_stelle": "1,18–21",
-          "les_text": "Ihr wisst, dass ihr aus eurer sinnlosen, von den Vätern ererbten Lebensweise nicht um einen vergänglichen Preis losgekauft wurdet, nicht um Silber oder Gold, sondern mit dem kostbaren Blut Christi, des Lammes ohne Fehl und Makel. Er war schon vor der Erschaffung der Welt dazu ausersehen, und euretwegen ist er am Ende der Zeiten erschienen. Durch ihn seid ihr zum Glauben an Gott gekommen, der ihn von den Toten auferweckt und ihm die Herrlichkeit gegeben hat, so dass ihr an Gott glauben und auf ihn hoffen könnt.",
-          "les_text_neu": "Ihr wisst, dass ihr aus eurer nichtigen, von den Vätern ererbten Lebensweise nicht um einen vergänglichen Preis losgekauft wurdet, nicht um Silber oder Gold, sondern mit dem kostbaren Blut Christi, des Lammes ohne Fehl und Makel. Er war schon vor der Grundlegung der Welt dazu ausersehen, und euretwegen ist er am Ende der Zeiten erschienen. Durch ihn seid ihr zum Glauben an Gott gekommen, der ihn von den Toten auferweckt und ihm die Herrlichkeit gegeben hat, so dass ihr an Gott glauben und auf ihn hoffen könnt.",
-          "resp1": "Wir beten dich an, Herr, Jesus Christus,",
-          "resp2": "wir preisen dein heiliges Leiden.",
-          "resp3": "Durch deinen Tod am Kreuz hast du die Welt erlöst.",
-          "antev": "Sei gegrüßt, Sohn Davids, du unser König, von den Propheten verkündet als Retter der Welt.",
-          "bitten_e": "Lasst uns beten zu Jesus Christus, der über die Stadt Jerusalem geweint hat:",
-          "bitten_r": "Herr, erbarme dich deines Volkes.",
-          "bitten": "Du warst gesandt, die Kinder Israels zu sammeln;^qlass das Volk des Alten Bundes dich als den Messias erkennen.^pVerlass deine Gläubigen nicht, auch wenn sie dich verlassen;^qwende dich ihnen zu, damit sie sich zu dir bekehren.^pDurch dein Leiden und Sterben hast du den Tod überwunden;^qschenke den Katechumenen in der Taufe das neue Leben.^pDu willst, dass alle Menschen gerettet werden;^qhilf einem jeden, die Stunde der Gnade zu begreifen.^pDu thronst als Sieger in der Herrlichkeit des Vaters;^qgedenke aller, die aus dieser Welt geschieden sind.",
-          "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
-        },
-        "Vigil": {
-          "ant0": "Jesus warf sich zu Boden und betete: Vater, wenn du willst, nimm diesen Kelch von mir. Doch nicht mein Wille geschehe, sondern der deine.",
-          "les_buch": "Aus dem heiligen Evangelium nach Johannes.",
-          "les_stelle": "8,21-30"
-        },
-        "Laudes": {
-          "ant1": "Das Volk, das zum Fest gekommen war, rief Jesus zu: Hochgelobt sei, der da kommt im Namen des Herrn. Hosanna in der Höhe.",
-          "ant2": "Mit den Engeln des Himmels und den Kindern Jerusalems lasst uns Christus huldigen, dem Sieger über den Tod, und rufen: Hosanna in der Höhe.",
-          "ant3": "Hochgelobt sei, der da kommt im Namen des Herrn. Im Himmel Friede und Herrlichkeit in der Höhe!",
-          "les_buch": "›Sach",
-          "les_stelle": "9,9",
-          "les_text": "Juble laut, Tochter Zion! Jauchze, Tochter Jerusalem! Siehe, dein König kommt zu dir. Er ist gerecht und hilft; er ist demütig und reitet auf einem Esel, auf einem Fohlen, dem Jungen einer Eselin.",
-          "les_text_neu": "Juble laut, Tochter Zion! Jauchze, Tochter Jerusalem! Siehe, dein König kommt zu dir. Gerecht ist er und Rettung wurde ihm zuteil, demütig ist er und reitet auf einem Esel, ja, auf einem Esel, dem Jungen einer Eselin.",
-          "antev": "Mit Palmen huldigen wir unserem Herrn, der als Sieger kommt. Ihm ziehen wir entgegen mit Hymnen und Gesängen. Wir rühmen ihn und rufen: Gepriesen bist du, o°Herr.",
-          "bitten_e": "Gepriesen sei Jesus Christus, der am heutigen Tag als Gesalbter in Jerusalem einzog. Zu ihm lasst uns beten:",
-          "bitten_r": "Hochgelobt sei, der da kommt im Namen des Herrn.",
-          "bitten": "Hosanna dem Sohne Davids, dem König der ganzen Welt.^qHosanna dem Sieger über Hölle und Tod.^pDu bist hinaufgezogen nach Jerusalem, um zu leiden und so in deine Herrlichkeit einzugehen;^qführe uns durch deinen Tod zum ewigen Osterfest.^pDurch dich wurde das Kreuz zum Baum des Lebens;^qschenke uns seine Frucht, das ewige Heil.^pDu bist gekommen, uns Sünder zu retten;^qlass keinen von uns verlorengehen.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
-        },
-        "Terz": {
-          "les_buch": "›2°Kor",
-          "les_stelle": "4,10–11",
-          "les_text": "Immer tragen wir das Todesleiden Jesu an unserem Leib, damit auch das Leben Jesu an unserem Leib sichtbar wird. Denn immer werden wir, obgleich wir leben, um Jesu willen dem Tod ausgeliefert, damit auch das Leben Jesu an unserem sterblichen Fleisch offenbar wird.",
-          "les_text_lat": ""
-        },
-        "Sext": {
-          "les_buch": "›1°Petr",
-          "les_stelle": "4,13–14",
-          "les_text": "Freut euch, dass ihr Anteil an den Leiden Christi habt; denn so könnt ihr auch bei der Offenbarung seiner Herrlichkeit voll Freude jubeln. Wenn ihr wegen des Namens Christi beschimpft werdet, seid ihr seligzupreisen; denn der Geist der Herrlichkeit, der Geist Gottes, ruht auf euch.",
-          "hymn_1_lat": 4006.4,
-          "les_text_lat": ""
-        },
-        "Non": {
-          "les_buch": "›1°Petr",
-          "les_stelle": "5,10–11",
-          "les_text": "Der Gott aller Gnade, der euch in (der Gemeinschaft mit) Christus zu seiner ewigen Herrlichkeit berufen hat, wird euch, die ihr kurze Zeit leiden müsst, wieder aufrichten, stärken, kräftigen und auf festen Grund stellen. Sein ist die Macht in Ewigkeit. Amen.",
-          "les_text_neu": "Der Gott aller Gnade, der euch in Christus zu seiner ewigen Herrlichkeit berufen hat, wird euch, die ihr kurze Zeit leiden müsst, wieder aufrichten, stärken, kräftigen und auf festen Grund stellen. Sein ist die Macht in Ewigkeit. Amen.",
-          "les_text_lat": ""
-        },
-        "Vesper": {
-          "ant1": "Er wurde zerschlagen und erniedrigt, aber Gott hat ihn erhöht zu seiner Rechten.",
-          "ant2": "Christi Blut macht uns rein für den Dienst vor dem lebendigen Gott.",
-          "ant3": "Mit seinem eigenen Leib hat Christus unsere Sünden am Holz des Kreuzes getragen, damit wir tot sind für die Sünden und für die Gerechtigkeit leben.",
-          "les_buch": "›Apg",
-          "les_stelle": "13,26b–30",
-          "les_text": "Uns wurde das Wort des Heils gesandt. Denn die Einwohner von Jerusalem und ihre Führer haben Jesus nicht erkannt; aber sie haben die Worte der Propheten, die an jedem Sabbat vorgelesen werden, erfüllt und haben ihn verurteilt. Obwohl sie nichts fanden, wofür er den Tod verdient hätte, forderten sie von Pilatus seine Hinrichtung. Als sie alles vollbracht hatten, was in der Schrift über ihn gesagt ist, nahmen sie ihn vom Kreuzesholz und legten ihn ins Grab. Gott aber hat ihn von den Toten auferweckt.",
-          "antev": "Ihr werdet alle irre werden an mir. Es steht ja geschrieben: Den Hirten will ich schlagen, und die Schafe werden sich zerstreuen. – Doch wenn ich auferstanden bin, gehe ich euch voraus nach Galiläa.",
-          "bitten_e": "Lasst uns beten zu Jesus Christus, der hinaufgezogen ist nach Jerusalem, um für das Heil der Welt zu sterben.",
-          "bitten_r": "Heilige das Volk, das du mit deinem Blut erkauft hast.",
-          "bitten": "Du hast das Reich Gottes verkündet und zur Umkehr aufgerufen;^qerneuere deine Kirche im Geist des Evangeliums.^pDu hast ein Herz gehabt für die Armen und Bedrängten;^qsteh denen bei, die keinen Helfer haben.^pDu berufst immer wieder Menschen in deine Kirche;^qerleuchte die Katechumenen, die sich auf die Taufe vorbereiten.^pDu willst nicht den Tod des Sünders, sondern dass er lebe;^qerbarme dich derer, die mit uns in diesen vierzig Tagen Buße tun.^pNimm unsere Verstorbenen gnädig auf^qund lass sie teilhaben an deiner Auferstehung.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
-        },
-        "Lesehore": {
-          "versikel0_lat": "Cum exaltátus fúero a terra.",
-          "versikel1_lat": "Omnia traham ad meípsum."
-        }
-      },
-      "1": {
-        "each": {
-          "oration": "Allmächtiger Gott, in unserer Schwachheit versagen wir und sind anfällig für das Böse. Schau hin auf das Leiden deines Sohnes, richte uns wieder auf und schenke uns neues Leben.^ORV",
-          "oration_lat": ""
-        },
-        "Laudes": {
-          "ant1": "Meine Seele ist betrübt bis zum Tode. Bleibt hier und wachet mit mir.",
-          "ant2": "Jetzt wird diese Welt gerichtet; jetzt wird der Herrscher dieser Welt hinausgeworfen.",
-          "ant3": "Blickt auf zu Jesus, dem Begründer und Vollender des Glaubens. Um der Freude willen, die vor ihm lag, nahm er das Kreuz auf sich, der Schande nicht achtend, und sitzt nun zur Rechten des Thrones Gottes.",
-          "les_buch": "›Jer",
-          "les_stelle": "11,19–20",
-          "les_text": "Ich war wie ein zutrauliches Lamm, das zum Schlachten geführt wird, und ahnte nicht, dass sie gegen mich Böses planten: Wir wollen den Baum im Saft verderben; wir wollen ihn ausrotten aus dem Land der Lebenden, so dass man seinen Namen nicht mehr erwähnt. Aber der Herr der Heere richtet gerecht, er prüft Herz und Nieren. Ich werde deine Rache an ihnen sehen; denn dir habe ich meine Sache anvertraut.",
-          "les_text_neu": "Ich aber war wie ein zutrauliches Lamm, das zum Schlachten geführt wird, und ahnte nicht, dass sie gegen mich Böses planten: Wir wollen den Baum im Saft verderben; wir wollen ihn ausrotten aus dem Land der Lebenden, sodass seines Namens nicht mehr gedacht wird. Aber der HERR der Heerscharen richtet gerecht, er prüft Nieren und Herz. Ich werde deine Vergeltung an ihnen sehen, denn dir habe ich meine Sache anvertraut.",
-          "antev": "Gerechter Vater, die Welt hat dich nicht erkannt. Doch ich habe dich erkannt; denn du hast mich gesandt.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "antev_lat": "",
-          "les_text_lat": ""
-        },
-        "Terz": {
-          "les_buch": "›Ez",
-          "les_stelle": "33,10b.11b",
-          "les_text": "Unsere Vergehen und unsere Sünden lasten auf uns, wir siechen ihretwegen dahin. Wie sollen wir da am Leben bleiben? So wahr ich lebe – Spruch Gottes des Herrn –, ich habe kein Gefallen am Tod des Schuldigen, sondern daran, dass er auf seinem Weg umkehrt und am Leben bleibt.",
-          "les_text_neu": "Fürwahr, unsere Vergehen und unsere Sünden lasten auf uns, in ihnen siechen wir dahin. Wie sollen wir da am Leben bleiben? So wahr ich lebe – Spruch GOTTES, des Herrn –, ich habe kein Gefallen am Tod des Schuldigen, sondern daran, dass ein Schuldiger sich abkehrt von seinem Weg und am Leben bleibt.",
-          "les_text_lat": ""
-        },
-        "Sext": {
-          "les_buch": "›Jer",
-          "les_stelle": "18,20b",
-          "les_text": "Denk daran, wie ich vor dir stand, um zu ihren Gunsten zu sprechen und deinen Zorn von ihnen abzuwenden!",
-          "les_text_neu": "Gedenke, dass ich vor dir stand, um Gutes über sie zu reden und deinen Zorn von ihnen abzuwenden!",
-          "les_text_lat": ""
-        },
-        "Non": {
-          "les_buch": "›Jer",
-          "les_stelle": "31,2.3b.4a",
-          "les_text": "So spricht der Herr: Gnade fand in der Wüste das Volk, das vom Schwert verschont blieb; Israel zieht zum Ort seiner Ruhe. Mit ewiger Liebe habe ich dich geliebt, darum habe ich dir so lange die Treue bewahrt. Ich baue dich wieder auf, du sollst neu gebaut werden, Jungfrau Israel.",
-          "les_text_neu": "So spricht der HERR: Gnade fand in der Wüste das Volk, das dem Schwert entronnen ist; ich gehe mit, um Israel zur Ruhe zu führen. Mit ewiger Liebe habe ich dich geliebt, darum habe ich dir die Treue bewahrt. Ich baue dich wieder auf, du wirst aufgebaut sein, Jungfrau Israel.",
-          "les_text_lat": ""
-        },
-        "Vesper": {
-          "ant1": "Schönheit und Wohlgestalt sind ihm genommen. Wir sahen ihn und wandten unsere Augen ab.",
-          "ant2": "Die Vielen werden sein Anteil sein; denn er gab sein Leben für sie hin.",
-          "ant3": "Gott hat uns die Gnade geschenkt in seinem geliebten Sohn. Durch sein Blut haben wir die Erlösung.",
-          "les_buch": "›Röm",
-          "les_stelle": "5,8–9",
-          "les_text": "Gott hat seine Liebe zu uns darin erwiesen, dass Christus für uns gestorben ist, als wir noch Sünder waren. Nachdem wir jetzt durch sein Blut gerecht gemacht sind, werden wir durch ihn erst recht vor dem Zorn Gottes gerettet werden.",
-          "les_text_neu": "Gott erweist seine Liebe zu uns darin, dass Christus für uns gestorben ist, als wir noch Sünder waren. Nachdem wir jetzt durch sein Blut gerecht gemacht sind, werden wir durch ihn erst recht vor dem Zorn gerettet werden.",
-          "antev": "Wie Mose die Schlange in der Wüste erhöht hat, so muss der Menschensohn erhöht werden, damit jeder, der glaubt, in ihm das ewige Leben habe.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "antev_lat": "",
-          "les_text_lat": ""
-        }
-      },
-      "2": {
-        "each": {
-          "oration": "Allmächtiger, ewiger Gott, hilf uns, das Gedächtnis des Leidens Christi so zu begehen, dass wir von dir Verzeihung erlangen.^ORV",
-          "oration_lat": ""
-        },
-        "Laudes": {
-          "psalm3": 65.0,
-          "ant1": "Führe du meine Sache, Herr; rette mich vor bösen und tückischen Menschen.",
-          "ant2": "Du hast meine Sache geführt; Herr, mein Gott, du hast mein Leben erlöst.",
-          "ant3": "Mein Knecht ist gerecht, darum macht er viele gerecht; ihre Schuld nimmt er auf sich.",
-          "les_buch": "›Sach",
-          "les_stelle": "12,10–11a",
-          "les_text": "Über das Haus David und über die Einwohner Jerusalems werde ich den Geist des Mitleids und des Gebets ausgießen. Und sie werden auf den blicken, den sie durchbohrt haben. Sie werden um ihn klagen, wie man um den einzigen Sohn klagt; sie werden bitter um ihn weinen, wie man um den Erstgeborenen weint. An jenem Tag wird laute Totenklage sein in Jerusalem.",
-          "les_text_neu": "Doch über das Haus David und über die Einwohner Jerusalems werde ich einen Geist des Mitleids und des flehentlichen Bittens ausgießen. Und sie werden auf mich blicken, auf ihn, den sie durchbohrt haben. Sie werden um ihn klagen, wie bei der Klage um den Einzigen; sie werden bitter um ihn weinen, wie man um den Erstgeborenen weint. An jenem Tag wird die Klage in Jerusalem groß sein.",
-          "antev": "Vater, verherrliche du mich bei dir mit der Herrlichkeit, die ich bei dir hatte, bevor die Welt geschaffen war.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "antev_lat": "",
-          "les_text_lat": ""
-        },
-        "Terz": {
-          "les_buch": "›1°Kor",
-          "les_stelle": "1,18–19",
-          "les_text": "Das Wort vom Kreuz ist denen, die verloren gehen, Torheit; uns aber, die gerettet werden, ist es Gottes Kraft. Es heißt nämlich in der Schrift: Ich lasse die Weisheit der Weisen vergehen und die Klugheit der Klugen verschwinden.",
-          "les_text_neu": "Denn das Wort vom Kreuz ist denen, die verloren gehen, Torheit; uns aber, die gerettet werden, ist es Gottes Kraft. In der Schrift steht nämlich: Ich werde die Weisheit der Weisen vernichten und die Klugheit der Klugen verwerfen.",
-          "les_text_lat": ""
-        },
-        "Sext": {
-          "les_buch": "›1°Kor",
-          "les_stelle": "1,22–24",
-          "les_text": "Die Juden fordern Zeichen, die Griechen suchen Weisheit. Wir dagegen verkündigen Christus als den Gekreuzigten: für Juden ein empörendes Ärgernis, für Heiden eine Torheit, für die Berufenen aber, Juden wie Griechen, Christus, Gottes Kraft und Gottes Weisheit.",
-          "les_text_neu": "Die Juden fordern Zeichen, die Griechen suchen Weisheit. Wir dagegen verkünden Christus als den Gekreuzigten: für Juden ein Ärgernis, für Heiden eine Torheit, für die Berufenen aber, Juden wie Griechen, Christus, Gottes Kraft und Gottes Weisheit.",
-          "les_text_lat": ""
-        },
-        "Non": {
-          "les_buch": "›1°Kor",
-          "les_stelle": "1,25.27a",
-          "les_text": "Das Törichte an Gott ist weiser als die Menschen, und das Schwache an Gott ist stärker als die Menschen. Das Törichte in der Welt hat Gott erwählt, um die Weisen zuschanden zu machen.",
-          "les_text_neu": "Denn das Törichte an Gott ist weiser als die Menschen, und das Schwache an Gott ist stärker als die Menschen. Das Törichte in der Welt hat Gott erwählt, um die Weisen zuschanden zu machen.",
-          "les_text_lat": ""
-        },
-        "Vesper": {
-          "ant1": "Schrecken und Schmach erlitt ich von ihnen. Doch der Herr steht mir bei und streitet für mich.",
-          "ant2": "Befreie mich, Herr; stelle mich an deine Seite; dann mag kämpfen gegen mich, wer will.",
-          "ant3": "Lamm Gottes, du wurdest geschlachtet, mit deinem Blute hast du uns für Gott erworben.",
-          "les_buch": "›1°Kor",
-          "les_stelle": "1,27b–30",
-          "les_text": "Das Schwache in der Welt hat Gott erwählt, um das Starke zuschanden zu machen. Und das Niedrige in der Welt und das Verachtete hat Gott erwählt: das, was nichts ist, um das, was etwas ist, zu vernichten, damit kein Mensch sich rühmen kann vor Gott. Von ihm her seid ihr in Christus Jesus, den Gott für uns zur Weisheit gemacht hat, zur Gerechtigkeit, Heiligung und Erlösung.",
-          "antev": "Ich habe Macht, mein Leben hinzugeben, und ich habe Macht, es wieder zu nehmen.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "antev_lat": "",
-          "les_text_lat": ""
-        }
-      },
-      "3": {
-        "each": {
-          "oration": "Heiliger Gott, du hast deinen Sohn der Schmach des Kreuzes unterworfen, um uns der Gewalt des Bösen zu entreißen. Gib uns die Gnade, dass auch wir deinem Willen gehorchen und einst in Herrlichkeit auferstehen.^ORvR",
-          "oration_lat": ""
-        },
-        "Laudes": {
-          "psalm3": 97.0,
-          "ant1": "Am Tag meiner Not suche ich Gott mit ausgestreckten Armen.",
-          "ant2": "Sind wir mit Christus gestorben, so werden wir auch mit ihm leben.",
-          "ant3": "Christus Jesus wurde für uns Weisheit von Gott, Gerechtigkeit und Heiligung und Erlösung.",
-          "les_buch": "›Jes",
-          "les_stelle": "50,5–7",
-          "les_text": "Gott, der Herr, hat mir das Ohr geöffnet. Ich aber wehrte mich nicht und wich nicht zurück. Ich hielt meinen Rücken denen hin, die mich schlugen, und denen, die mir den Bart ausrissen, meine Wangen. Mein Gesicht verbarg ich nicht vor Schmähungen und Speichel. Doch Gott, der Herr, wird mir helfen; darum werde ich nicht in Schande enden. Deshalb mache ich mein Gesicht hart wie einen Kiesel; ich weiß, dass ich nicht in Schande gerate.",
-          "les_text_neu": "GOTT, der Herr, hat mir das Ohr geöffnet. Ich aber wehrte mich nicht und wich nicht zurück. Ich hielt meinen Rücken denen hin, die mich schlugen, und meine Wangen denen, die mir den Bart ausrissen. Mein Gesicht verbarg ich nicht vor Schmähungen und Speichel. Und GOTT, der Herr, wird mir helfen; darum werde ich nicht in Schande enden. Deshalb mache ich mein Gesicht hart wie einen Kiesel; ich weiß, dass ich nicht in Schande gerate.",
-          "antev": "Als makelloses Opfer hat Christus sich selber Gott dargebracht im Heiligen Geist. Sein Blut macht uns rein für den Dienst vor dem lebendigen Gott.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "antev_lat": "",
-          "les_text_lat": ""
-        },
-        "Terz": {
-          "les_buch": "›1°Tim",
-          "les_stelle": "2,4–6",
-          "les_text": "Gott will, dass alle Menschen gerettet werden und zur Erkenntnis der Wahrheit gelangen. Denn: Einer ist Gott. Einer auch Mittler zwischen Gott und den Menschen: der Mensch Christus Jesus, der sich als Lösegeld hingegeben hat für alle, ein Zeugnis zur vorherbestimmten Zeit.",
-          "les_text_lat": ""
-        },
-        "Sext": {
-          "les_buch": "›Röm",
-          "les_stelle": "15,3",
-          "les_text": "Christus hat nicht für sich selbst gelebt; in der Schrift heißt es vielmehr: Die Schmähungen derer, die dich schmähen, haben mich getroffen.",
-          "les_text_neu": "Christus hat nicht sich selbst zu Gefallen gelebt; vielmehr steht geschrieben: Die Schmähungen derer, die dich schmähen, sind auf mich gefallen.",
-          "les_text_lat": ""
-        },
-        "Non": {
-          "les_buch": "›Hebr",
-          "les_stelle": "9,28",
-          "les_text": "Christus wurde ein einziges Mal geopfert, um die Sünden vieler hinwegzunehmen; beim zweitenmal wird er nicht wegen der Sünde erscheinen, sondern um die zu retten, die ihn erwarten.",
-          "les_text_lat": ""
-        },
-        "Vesper": {
-          "ant1": "Die Gottlosen sprachen zueinander: Lasst uns den Gerechten vernichten. Er steht unserem Tun im Weg.",
-          "ant2": "Er trug die Schuld der Vielen und trat ein für die Sünder.",
-          "ant3": "Durch Christus haben wir die Erlösung, die Vergebung der Sünden.",
-          "les_buch": "›Eph",
-          "les_stelle": "4,32–5,2",
-          "les_text": "Seid gütig zueinander, seid barmherzig, vergebt einander, weil auch Gott euch durch Christus vergeben hat. Ahmt Gott nach als seine geliebten Kinder und liebt einander, weil auch Christus uns geliebt und sich für uns hingegeben hat als Gabe und Opfer, das Gott gefällt.",
-          "les_text_neu": "Seid gütig zueinander, seid barmherzig, vergebt einander, wie auch Gott euch in Christus vergeben hat. Ahmt Gott nach als seine geliebten Kinder und führt euer Leben in Liebe, wie auch Christus uns geliebt und sich für uns hingegeben hat als Gabe und Opfer, das Gott gefällt!",
-          "antev": "Der Meister spricht: Meine Stunde ist gekommen. In deinem Hause will ich das Ostermahl halten mit meinen Jüngern.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "antev_lat": "",
-          "les_text_lat": ""
-        }
-      },
-      "4": {
-        "each": {
-          "oration": "Gott, es ist würdig und recht, dich über alles zu lieben. Mehre in uns den Reichtum deiner Gnade. Durch den Tod deines Sohnes lässt du uns erhoffen, was wir glauben. Gib, dass wir durch seine Auferstehung erlangen, was wir ersehnen.^ORvR",
-          "oration_lat": ""
-        },
-        "Lesehore": {
-          "psalm1": 69.1,
-          "psalm2": 69.2,
-          "psalm3": 69.3,
-          "ant1": "Ich bin müde vom Rufen, mir versagen die Augen, während ich warte auf meinen Gott.",
-          "ant2": "Sie gaben mir Galle als Speise und reichten mir Essig in meinem Durst.",
-          "ant3": "Ihr, die ihr Gott sucht: euer Herz lebe auf.^ö",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": ""
-        },
-        "Laudes": {
-          "psalm1": 80.0,
-          "psalm2": 174.0,
-          "psalm3": 81.0,
-          "ant1": "Sieh her, mein Gott, verbirg nicht dein Gesicht, denn mir ist angst: erhöre mich bald.",
-          "ant2": "Gott ist mein Retter; ihm will ich vertrauen und niemals verzagen.",
-          "ant3": "Mit bestem Weizen nährt uns der Herr und sättigt uns mit Honig aus dem Felsen.",
-          "les_buch": "›Hebr",
-          "les_stelle": "2,9b–10",
-          "les_text": "Wir sehen Jesus um seines Todesleidens willen mit Herrlichkeit und Ehre gekrönt; so war es Gottes gnädiger Wille, dass er für alle den Tod erlitten hat. Denn es war angemessen, dass Gott, für den und durch den das All ist und der viele Söhne zur Herrlichkeit führen wollte, den Urheber ihres Heils durch Leiden vollendete.",
-          "antev": "Mit Sehnsucht habe ich danach verlangt, dieses Ostermahl mit euch zu halten, bevor ich leide.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "antev_lat": "",
-          "les_text_lat": ""
-        },
-        "Terz": {
-          "les_buch": "›Hebr",
-          "les_stelle": "4,14–15",
-          "les_text": "Da wir einen erhabenen Hohenpriester haben, der die Himmel durchschritten hat, Jesus, den Sohn Gottes, lasst uns an dem Bekenntnis festhalten. Wir haben ja nicht einen Hohenpriester, der nicht mitfühlen könnte mit unserer Schwäche, sondern einen, der in allem wie wir in Versuchung geführt worden ist, aber nicht gesündigt hat.",
-          "les_text_neu": "Da wir einen erhabenen Hohepriester haben, der die Himmel durchschritten hat, Jesus, den Sohn Gottes, lasst uns an dem Bekenntnis festhalten. Wir haben ja nicht einen Hohepriester, der nicht mitfühlen könnte mit unserer Schwäche, sondern einen, der in allem wie wir versucht worden ist, aber nicht gesündigt hat.",
-          "les_text_lat": ""
-        },
-        "Sext": {
-          "les_buch": "›Hebr",
-          "les_stelle": "7,26–27",
-          "les_text": "Ein solcher Hoherpriester war für uns in der Tat notwendig: einer, der heilig ist, unschuldig, makellos, abgesondert von den Sündern und erhöht über die Himmel; einer, der es nicht Tag für Tag nötig hat, wie die Hohenpriester zuerst für die eigenen Sünden Opfer darzubringen und dann für die des Volkes; denn das hat er ein für allemal getan, als er sich selbst dargebracht hat.",
-          "les_text_neu": "Ein solcher Hohepriester ziemte sich in der Tat für uns: einer, der heilig ist, frei vom Bösen, makellos, abgesondert von den Sündern und erhöht über die Himmel; einer, der es nicht Tag für Tag nötig hat, wie die Hohepriester zuerst für die eigenen Sünden Opfer darzubringen und dann für die des Volkes; denn das hat er ein für alle Mal getan, als er sich selbst dargebracht hat.",
-          "les_text_lat": ""
-        },
-        "Non": {
-          "les_buch": "›Hebr",
-          "les_stelle": "9,11–12",
-          "les_text": "Christus ist gekommen als Hoherpriester der künftigen Güter; und durch das erhabenere und vollkommenere Zelt, das nicht von Menschenhand gemacht, das heißt nicht von dieser Welt ist, ist er ein für allemal in das Heiligtum hineingegangen, nicht mit dem Blut von Böcken und jungen Stieren, sondern mit seinem eigenen Blut, und so hat er eine ewige Erlösung bewirkt.",
-          "les_text_lat": ""
-        },
-        "Vesper": {
-          "hymn_1": 3344.0,
-          "psalm2": 72.201,
-          "ant1": "Christus, der Erstgeborene von den Toten und Herrscher über die Könige der Erde, hat uns zu einem Königreich gemacht für seinen Gott und Vater.",
-          "ant2": "Er rettet den Gebeugten, der um Hilfe schreit, den Armen und den, der keinen Helfer hat.",
-          "ant3": "Die Heiligen haben gesiegt durch das Blut des Lammes und durch ihr Wort und ihr Zeugnis.",
-          "les_buch": "›Hebr",
-          "les_stelle": "13,12–15",
-          "les_text": "Jesus hat, um durch sein eigenes Blut das Volk zu heiligen, außerhalb des Tores gelitten. Lasst uns also zu ihm vor das Lager hinausziehen und seine Schmach auf uns nehmen. Denn wir haben hier keine Stadt, die bestehen bleibt, sondern wir suchen die künftige. Durch ihn also lasst uns Gott allezeit das Opfer des Lobes darbringen, nämlich die Frucht der Lippen, die seinen Namen preisen.^RESP",
-          "les_text_neu": "Jesus hat, um durch sein eigenes Blut das Volk zu heiligen, außerhalb des Tores gelitten. Lasst uns also zu ihm vor das Lager hinausziehen und seine Schmach tragen. Denn wir haben hier keine bleibende Stadt, sondern wir suchen die zukünftige. Durch ihn also lasst uns Gott allezeit das Opfer des Lobes darbringen, nämlich die Frucht der Lippen, die seinen Namen bekennen.^RESP",
-          "resp1": "",
-          "resp2": "",
-          "resp3": "",
-          "antev": "Während des Mahles nahm Jesus das Brot und sprach den Lobpreis; dann brach er das Brot und gab es seinen Jüngern.",
-          "bitten_e": "Lasst uns beten zu Jesus Christus, der seiner Kirche aufgetragen hat, das Gedächtnis seines Leidens und seiner Auferstehung zu feiern.",
-          "bitten_r": "Heilige das Volk, das du mit deinem Blut erkauft hast.",
-          "bitten": "Du hast das Reich Gottes verkündet und zur Umkehr aufgerufen;^qerneuere deine Kirche im Geist des Evangeliums.^pDu hast ein Herz gehabt für die Armen und Bedrängten;^qsteh denen bei, die keinen Helfer haben.^pDu berufst immer wieder Menschen in deine Kirche;^qerleuchte die Katechumenen, die sich auf die Taufe vorbereiten.^pDu willst nicht den Tod des Sünders, sondern dass er lebe;^qerbarme dich derer, die mit uns in diesen vierzig Tagen Buße tun.^pNimm unsere Verstorbenen gnädig auf^qund lass sie teilhaben an deiner Auferstehung.",
-          "oration": "Allmächtiger Gott, zu deiner Ehre und zum Heil der Menschen hast du Christus als ewigen Hohenpriester eingesetzt. Er hat dir durch sein kostbares Blut ein heiliges Volk erworben. Gib, dass wir das Gedächtnis deines Sohnes in Ehrfurcht feiern und die Kraft seines Kreuzes und seiner Auferstehung empfangen.^ORvR",
-          "ant1_lat": "Fecit nos Deo et Patri suo regnum, primogénitus mortuórum et princeps regum terrae.",
-          "ant2_lat": "Liberábit Dóminus páuperem a poténte, et ínopem cui non erat adiútor.",
-          "ant3_lat": "Sancti vicérunt propter sánguinem Agni et propter verbum testimónii sui.",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": "",
-          "oration_lat": ""
-        }
-      },
-      "5": {
-        "each": {
-          "oration": "Herr, unser Gott, sieh herab auf deine Familie, für die unser Herr Jesus Christus sich willig den Händen der Frevler überliefert und die Marter des Kreuzes auf sich genommen hat. Er,^ORR",
-          "oration_lat": ""
-        },
-        "Invitatorium": {
-          "ant0": "Christus, der Sohn Gottes, hat uns mit seinem Blut erkauft; kommt, wir beten ihn an!",
-          "ant0_lat": ""
-        },
-        "Lesehore": {
-          "psalm1": 2.0,
-          "psalm2": 22.4,
-          "psalm3": 38.0,
-          "ant1": "Die Könige der Erde stehen auf, die Großen haben sich verbündet gegen den Herrn und seinen Gesalbten.",
-          "ant2": "Sie verteilen unter sich meine Kleider und werfen das Los um mein Gewand.",
-          "ant3": "Die mir nach dem Leben trachten, legen mir Schlingen; die mein Unheil suchen, planen Verderben.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": ""
-        },
-        "Vigil": {
-          "ant0": "Aus der geöffneten Seite des Herrn floss Blut und Wasser heraus, uns zur Rettung und zum Heil.",
-          "les_buch": "Aus dem heiligen Evangelium nach Matthäus.",
-          "les_stelle": "27,1-2.11-56"
-        },
-        "Laudes": {
-          "psalm1": 51.0,
-          "psalm2": 175.0,
-          "psalm3": 147.2,
-          "ant1": "Seinen eigenen Sohn hat Gott nicht verschont: Er hat ihn hingegeben für uns alle.",
-          "ant2": "Jesus Christus hat uns geliebt und durch sein Blut von unseren Sünden befreit.",
-          "ant3": "Dein Kreuz, o Herr, verehren wir, und deine heilige Auferstehung preisen und rühmen wir; denn siehe, durch das Holz des Kreuzes kam Freude in alle Welt.",
-          "les_buch": "›Jes",
-          "les_stelle": "52,13–15",
-          "les_text": "Seht, mein Knecht hat Erfolg, er wird groß sein und hoch erhaben. Viele haben sich über ihn entsetzt, so entstellt sah er aus, nicht mehr wie ein Mensch, seine Gestalt war nicht mehr die eines Menschen. Jetzt aber setzt er viele Völker in Staunen, Könige müssen vor ihm verstummen. Denn was man ihnen noch nie erzählt hat, das sehen sie nun; was sie niemals hörten, das erfahren sie jetzt.^RESP",
-          "les_text_neu": "Siehe, mein Knecht wird Erfolg haben, er wird sich erheben und erhaben und sehr hoch sein.Wie sich viele über dich entsetzt haben – so entstellt sah er aus, nicht mehr wie ein Mensch, seine Gestalt war nicht mehr die eines Menschen –, so wird er viele Nationen entsühnen, Könige schließen vor ihm ihren Mund. Denn was man ihnen noch nie erzählt hat, das sehen sie nun; was sie niemals hörten, das erfahren sie jetzt.^RESP",
-          "resp1": "",
-          "resp2": "",
-          "resp3": "",
-          "antev": "Über seinem Haupt befestigten sie eine Inschrift: Jesus von Nazaret, der König der Juden.",
-          "bitten_e": "Gepriesen sei Jesus Christus, unser Erlöser, der für uns gelitten hat, der begraben wurde und von den Toten auferstanden ist. Zu ihm lasst uns beten:",
-          "bitten_r": "Herr, erbarme dich unser.",
-          "bitten": "Herr und Meister, du bist für uns gehorsam geworden bis zum Tod;^qlehre uns, dem Vater im Himmel gehorsam zu sein.^pDu bist unser Leben, du hast durch das Kreuz den Tod überwunden;^qlass uns mit dir auferstehen in Herrlichkeit.^pDu bist unser Heil, du hast die Menschen geliebt und dein Leben für alle hingegeben;^qgib, dass wir einander lieben, wie du uns geliebt hast.^pHeiland der Welt, du hast am Kreuz die Arme ausgebreitet, um alle an dich zu ziehen;^qführe die Kinder Gottes aus der Zerstreuung in das Reich deines Vaters.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
-        },
-        "Terz": {
-          "psalm1": 40.0,
-          "psalm2": 54.0,
-          "psalm3": 88.0,
-          "ant0": "Sie führten Jesus hinaus an einen Ort mit Namen Golgota. Es war die dritte Stunde, als sie ihn kreuzigten.",
-          "ant1": "",
-          "ant2": "",
-          "ant3": "",
-          "les_buch": "›Jes",
-          "les_stelle": "53,2–3",
-          "les_text": "Vor den Augen des HERRN wuchs er auf wie ein junger Spross, wie ein Wurzeltrieb aus trockenem Boden. Er hatte keine schöne und edle Gestalt, so dass wir ihn anschauen mochten. Er sah nicht so aus, dass wir Gefallen fanden an ihm. Er wurde verachtet und von den Menschen gemieden, ein Mann voller Schmerzen, mit Krankheit vertraut. Wie einer, vor dem man das Gesicht verhüllt, war er verachtet; wir schätzten ihn nicht.",
-          "resp0": "Wir beten dich an, Herr Jesus Christus, und preisen dich.",
-          "resp1": "Denn durch dein heiliges Kreuz hast du die Welt erlöst.",
-          "hymn_1_lat": 4003.5,
-          "ant0_lat": "",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
-        },
-        "Sext": {
-          "ant0": "Als die sechste Stunde kam, brach eine Finsternis herein über das ganze Land.",
-          "ant1": "",
-          "ant2": "",
-          "ant3": "",
-          "les_buch": "›Jes",
-          "les_stelle": "53,4–5",
-          "les_text": "Er hat unsere Krankheiten getragen und unsere Schmerzen auf sich geladen. Wir meinten, er sei von Gott geschlagen, von ihm getroffen und gebeugt. Doch er wurde durchbohrt wegen unserer Verbrechen, wegen unserer Sünden zermalmt. Zu unserem Heil lag die Strafe auf ihm, durch seine Wunden sind wir geheilt.",
-          "les_text_neu": "Er hat unsere Krankheiten getragen und unsere Schmerzen auf sich geladen. Wir meinten, er sei von Gott geschlagen, von ihm getroffen und gebeugt. Doch er wurde durchbohrt wegen unserer Vergehen, wegen unserer Sünden zermalmt. Zu unserem Heil lag die Züchtigung auf ihm, durch seine Wunden sind wir geheilt.",
-          "resp0": "Herr, gedenke meiner.",
-          "resp1": "Wenn du in dein Reich kommst.",
-          "hymn_1_lat": 4006.5,
-          "ant0_lat": "",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
-        },
-        "Non": {
-          "ant0": "In der neunten Stunde schrie Jesus mit lauter Stimme: Mein Gott, mein Gott, warum hast du mich verlassen?",
-          "ant1": "",
-          "ant2": "",
-          "ant3": "",
-          "les_buch": "›Jes",
-          "les_stelle": "53,6–7",
-          "les_text": "Wir hatten uns alle verirrt wie Schafe, jeder ging für sich seinen Weg. Doch der Herr lud auf ihn die Schuld von uns allen. Er wurde misshandelt und niedergedrückt, aber er tat seinen Mund nicht auf. Wie ein Lamm, das man zum Schlachten führt, und wie ein Schaf angesichts seiner Scherer, so tat auch er seinen Mund nicht auf.",
-          "les_text_neu": "Wir hatten uns alle verirrt wie Schafe, jeder ging für sich seinen Weg. Doch der HERR ließ auf ihn treffen die Schuld von uns allen. Er wurde bedrängt und misshandelt, aber er tat seinen Mund nicht auf. Wie ein Lamm, das man zum Schlachten führt, und wie ein Schaf vor seinen Scherern verstummt, so tat auch er seinen Mund nicht auf.",
-          "resp0": "Er lässt mich in der Finsternis wohnen",
-          "resp1": "wie einen, der tot ist für immer.",
-          "hymn_1_lat": 4009.5,
-          "ant0_lat": "",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
-        },
-        "Vesper": {
-          "psalm1": 116.2,
-          "psalm2": 143.0,
-          "psalm3": 157.0,
-          "ant1": "Ihr Völker alle, schaut doch und seht meinen Schmerz.",
-          "ant2": "Mein Geist verzagt in mir, mir erstarrt das Herz in der Brust.",
-          "ant3": "Jesus nahm von dem Essig. Dann sprach er: Es ist vollbracht. Und er neigte sein Haupt und starb.",
-          "les_buch": "›1°Petr",
-          "les_stelle": "2,21b–24",
-          "les_text": "Christus hat für euch gelitten und euch ein Beispiel gegeben, damit ihr seinen Spuren folgt. Er hat keine Sünde begangen, und kein trügerisches Wort war in seinem Mund. Er wurde geschmäht, schmähte aber nicht; er litt, drohte aber nicht, sondern überließ seine Sache dem gerechten Richter. Er hat unsere Sünden mit seinem Leib auf das Holz des Kreuzes hinaufgetragen, damit wir tot seien für die Sünden und für die Gerechtigkeit leben. Durch seine Wunden seid ihr geheilt.^RESP",
-          "les_text_neu": "Christus hat für euch gelitten und euch ein Beispiel gegeben, damit ihr seinen Spuren folgt. Er hat keine Sünde begangen und in seinem Mund war keine Falschheit. Als er geschmäht wurde, schmähte er nicht; als er litt, drohte er nicht, sondern überließ seine Sache dem gerechten Richter. Er hat unsere Sünden mit seinem eigenen Leib auf das Holz des Kreuzes getragen, damit wir tot sind für die Sünden und leben für die Gerechtigkeit. Durch seine Wunden seid ihr geheilt.^RESP",
-          "resp1": "",
-          "resp2": "",
-          "resp3": "",
-          "antev": "Wir waren Gottes Feinde. Jetzt sind wir mit ihm versöhnt durch den Tod seines Sohnes.",
-          "bitten_e": "^rEs empfiehlt sich, die Großen Fürbitten aus der Karfreitagsliturgie (^0rMessbuch, S.°[43]ff^r) hier einzufügen. Doch können auch – nach Belieben – die folgenden Fürbitten genommen werden. Ebenso kann ein stilles Gebet in den Anliegen dieser Fürbitten verrichtet werden.^0r^pLasst uns des Todesleidens Christi gedenken und den Vater im Himmel bitten:",
-          "bitten_r": "Um Christi willen erhöre uns, o Herr.",
-          "bitten": "Behüte die Kirche und heilige dein ganzes Volk.^pBeschütze unseren Papst ^NP.^pSchenke den Bischöfen, Priestern und Diakonen deinen Geist.^pMehre den Glauben und die Erkenntnis der Katechumenen.^pFühre alle Christen in der einen Kirche zusammen.^pLass das jüdische Volk zur Fülle der Erlösung gelangen.^pErleuchte alle, die nicht an Christus glauben.^pGib, dass die Ungläubigen dich als den Schöpfer aller Dinge erkennen.^pLenke Geist und Herz derer, die die Völker regieren.^pTröste die Leidenden und die Bedrängten.^pKomm den Sterbenden zu Hilfe und gib den Toten das ewige Leben.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
-        }
-      },
-      "6": {
-        "each": {
-          "oration": "Allmächtiger, ewiger Gott, dein eingeborener Sohn ist in das Reich des Todes hinabgestiegen und von den Toten glorreich auferstanden. Gib, dass deine Gläubigen, die durch die Taufe mit ihm begraben wurden, durch seine Auferstehung zum ewigen Leben gelangen.^ORvR",
-          "oration_lat": ""
-        },
-        "Invitatorium": {
-          "ant0": "Christus, unser Herr, hat für uns den Tod erlitten und wurde ins Grab gelegt; kommt, wir beten ihn an!",
-          "ant0_lat": ""
-        },
-        "Lesehore": {
-          "psalm1": 4.0,
-          "psalm2": 16.0,
-          "psalm3": 24.0,
-          "ant1": "Ich lege mich nieder und ruhe in Frieden.",
-          "ant2": "Mein Leib ruht in sicherer Hoffnung: Du gibst mich der Unterwelt nicht preis.",
-          "ant3": "Hebt euch, ihr uralten Pforten! Es kommt der König der Herrlichkeit.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": ""
-        },
-        "Vigil": {
-          "ant0": "Aus der Tiefe der Totenwelt schrie ich zum Herrn, und er hörte mein Rufen.",
-          "les_buch": "Aus dem heiligen Evangelium nach Matthäus.",
-          "les_stelle": "27,57-66"
-        },
-        "Laudes": {
-          "psalm1": 64.0,
-          "psalm2": 172.0,
-          "psalm3": 150.0,
-          "ant1": "Sie klagen um ihn, wie man klagt um den einzigen Sohn; denn er wurde getötet – und war doch ohne Schuld.",
-          "ant2": "Vor den Pforten der Unterwelt rette, o Herr, mein Leben.",
-          "ant3": "Ich war tot, doch ich lebe in Ewigkeit. Ich habe die Schlüssel des Todes und der Unterwelt.",
-          "les_buch": "›Hos",
-          "les_stelle": "6,1–2",
-          "les_text": "Kommt, wir kehren zum Herrn zurück! Denn er hat (Wunden) gerissen, er wird uns auch heilen; er hat verwundet, er wird auch verbinden. Nach zwei Tagen gibt er uns das Leben zurück, am dritten Tag richtet er uns wieder auf, und wir leben vor seinem Angesicht.^RESP",
-          "les_text_neu": "Auf, lasst uns zum HERRN zurückkehren! Denn er hat gerissen, er wird uns auch heilen; er hat verwundet, er wird uns auch verbinden. Nach zwei Tagen gibt er uns das Leben zurück, am dritten Tag richtet er uns wieder auf und wir leben vor seinem Angesicht.^RESP",
-          "resp1": "",
-          "resp2": "",
-          "resp3": "",
-          "antev": "Retter der Welt, errette uns! Du hast uns erlöst durch dein Kreuz und dein Blut. Hilf uns, Herr, unser Gott!",
-          "bitten_e": "Gepriesen sei Jesus Christus, unser Erlöser, der für uns gelitten hat, begraben wurde und von den Toten auferstanden ist. Zu ihm lasst uns beten:",
-          "bitten_r": "Herr, erbarme dich unser.",
-          "bitten": "Du hast dein Leben für uns dahingegeben,^qund dein Leib wurde ins Grab gelegt.^pWie ein Weizenkorn wurdest du in die Erde gesenkt,^qum uns die Frucht des Lebens zu bringen.^pDu bist in das Reich des Todes hinabgestiegen,^qum die Seelen der Gerechten zu befreien.^pDeine heilige Mutter hat unter dem Kreuz gestanden^qund bei deinem Begräbnis ausgeharrt.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
-        },
-        "Terz": {
-          "psalm1": 27.0,
-          "psalm2": 30.0,
-          "psalm3": 76.0,
-          "ant0": "Ich werde schauen Gottes Güte im Lande der Lebenden.",
-          "les_buch": "›1°Joh",
-          "les_stelle": "1,8–9",
-          "les_text": "Wenn wir sagen, dass wir keine Sünde haben, führen wir uns selbst in die Irre, und die Wahrheit ist nicht in uns. Wenn wir unsere Sünden bekennen, ist er treu und gerecht; er vergibt uns die Sünden und reinigt uns von allem Unrecht.",
-          "resp0": "Du gibst mich nicht preis der Unterwelt.",
-          "resp1": "Du lässt deinen Frommen das Grab nicht schauen.",
-          "hymn_1_lat": 4003.5,
-          "ant0_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
-        },
-        "Sext": {
-          "ant0": "Herr, mein Gott, du hast mich herausgeholt aus dem Reich des Todes.",
-          "les_buch": "›1°Joh",
-          "les_stelle": "2,1b–2",
-          "les_text": "Wir haben einen Beistand beim Vater: Jesus Christus, den Gerechten. Er ist die Sühne für unsere Sünden, aber nicht nur für unsere Sünden, sondern auch für die der ganzen Welt.",
-          "resp0": "Der Herr gibt den Tod und gibt das Leben.",
-          "resp1": "Er führt zu den Toten hinab und führt auch herauf.",
-          "hymn_1_lat": 4006.5,
-          "ant0_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
-        },
-        "Non": {
-          "ant0": "Er darf weilen an der Stätte des Friedens. Der Zion wurde seine Wohnung.",
-          "les_buch": "›1°Joh",
-          "les_stelle": "2,8b–10",
-          "les_text": "Die Finsternis geht vorüber, und schon leuchtet das wahre Licht. Wer sagt, er sei im Licht, aber seinen Bruder hasst, ist noch in der Finsternis. Wer seinen Bruder liebt, bleibt im Licht; da gibt es für ihn kein Straucheln.",
-          "les_text_neu": "Die Finsternis vergeht, und schon leuchtet das wahre Licht. Wer sagt, er sei im Licht, aber seinen Bruder hasst, ist noch in der Finsternis. Wer seinen Bruder liebt, bleibt im Licht und in ihm gibt es keinen Anstoß. ",
-          "resp0": "Als der Herr begraben war, versiegelten sie das Grab.",
-          "resp1": "Und ließen eine Wache von Soldaten am Grabe zurück.",
-          "hymn_1_lat": 4009.5,
-          "ant0_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
-        },
-        "Vesper": {
-          "psalm1": 116.2,
-          "psalm2": 143.0,
-          "psalm3": 157.0,
-          "ant1": "O Tod, ich bin dein Tod. Totenreich, ich bin dein Untergang.",
-          "ant2": "Wie Jona drei Tage und drei Nächte im Bauch des Fisches war, so wird auch der Menschensohn drei Tage und drei Nächte im Schoß der Erde sein.",
-          "ant3": "Jesus sprach: Reißt diesen Tempel nieder – in drei Tagen richte ich ihn wieder auf. Er meinte den Tempel seines Leibes.",
-          "les_buch": "›1°Petr",
-          "les_stelle": "1,18–21",
-          "les_text": "Ihr wisst, dass ihr aus eurer sinnlosen, von den Vätern ererbten Lebensweise nicht um einen vergänglichen Preis losgekauft wurdet, nicht um Silber oder Gold, sondern mit dem kostbaren Blut Christi, des Lammes ohne Fehl und Makel. Er war schon vor der Erschaffung der Welt dazu ausersehen, und euretwegen ist er am Ende der Zeiten erschienen. Durch ihn seid ihr zum Glauben an Gott gekommen, der ihn von den Toten auferweckt und ihm die Herrlichkeit gegeben hat, so dass ihr an Gott glauben und auf ihn hoffen könnt.^RESP",
-          "les_text_neu": "Ihr wisst, dass ihr aus eurer nichtigen, von den Vätern ererbten Lebensweise nicht um einen vergänglichen Preis losgekauft wurdet, nicht um Silber oder Gold, sondern mit dem kostbaren Blut Christi, des Lammes ohne Fehl und Makel. Er war schon vor der Grundlegung der Welt dazu ausersehen, und euretwegen ist er am Ende der Zeiten erschienen. Durch ihn seid ihr zum Glauben an Gott gekommen, der ihn von den Toten auferweckt und ihm die Herrlichkeit gegeben hat, so dass ihr an Gott glauben und auf ihn hoffen könnt.^RESP",
-          "resp1": "",
-          "resp2": "",
-          "resp3": "",
-          "antev": "Jetzt ist der Menschensohn verherrlicht, und Gott ist verherrlicht in ihm. Und Gott wird ihn bald verherrlichen.",
-          "bitten_e": "Lasst uns beten zu Christus, unserem Erlöser, der für uns gestorben ist und begraben wurde:",
-          "bitten_r": "Herr, erbarme dich unser.",
-          "bitten": "In deinem Tod hast du uns deine Liebe offenbart;^qziehe alle Menschen an dich.^pDu hast für deine Feinde gebetet;^qhilf den Verfolgten, Böses durch Gutes zu überwinden.^pDu hast deine Jünger nicht verlassen, als sie dich verließen;^qsteh denen bei, die nicht glauben können.^pDu wolltest in das Grab gelegt werden;^qgib allen Hoffnung, die an einem Grabe trauern.^pDas Grab hat dich nicht festhalten können;^qrufe die Toten aus ihren Gräbern zum Leben.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
-        }
-      },
-      "each": {
-        "Invitatorium": {
-          "ant0": "Christus, der Herr, wurde für uns versucht und hat für uns gelitten; kommt, wir beten ihn an.",
-          "ant0_lat": ""
-        },
-        "Lesehore": {
-          "hymn_1": 3313.0,
-          "hymn_2": 0.0,
-          "versikel0": "Wenn ich von der Erde erhöht bin.",
-          "versikel1": "Werde ich alle an mich ziehen.",
-          "hymn_2_lat": 0.0,
-          "versikel0_lat": "",
-          "versikel1_lat": ""
-        },
-        "Laudes": {
-          "hymn_1": 3323.0,
-          "hymn_2": 0.0,
-          "resp1": "Mit deinem heiligen Blute",
-          "resp2": "hast du uns losgekauft.",
-          "resp3": "Aus allen Stämmen und Sprachen",
-          "bitten_e": "Gepriesen sei Jesus Christus, der uns durch seinen Tod und seine Auferstehung erlöst hat. Zu ihm lasst uns beten:",
-          "bitten_r": "Herr, erbarme dich unser.",
-          "bitten": "Du bist hinaufgezogen nach Jerusalem, um für uns zu leiden und so in deine Herrlichkeit einzugehen;^qführe uns durch die Leiden dieser Zeit zum ewigen Osterfest.^pAus deiner geöffneten Seite flossen Blut und Wasser;^qheilige uns durch deine Sakramente.^pDu hast dem Schächer um seiner Buße willen Verzeihung erwiesen;^qvergib auch uns unsere Sünden.^pDurch dich wurde das Kreuz zum Baum des Lebens;^qschenke uns seine Frucht, das ewige Leben.",
-          "hymn_2_lat": 0.0,
-          "resp1_lat": "",
-          "resp2_lat": "hast°du°uns°losgekauft.",
-          "resp3_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": ""
-        },
-        "Terz": {
-          "ant0": "Es war vor dem Paschafest. Jesus wusste, dass seine Stunde gekommen war. Und da er die Seinen liebte, liebte er sie bis zur Vollendung.",
-          "ant1": "",
-          "ant2": "",
-          "ant3": "",
-          "resp0": "Er wurde geopfert, weil er selbst es wollte.",
-          "resp1": "Und tat seinen Mund nicht auf.",
-          "ant0_lat": "",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": ""
-        },
-        "Sext": {
-          "ant0": "Wie mich der Vater kennt, so kenne ich den Vater; ich gebe mein Leben hin für meine Schafe.",
-          "ant1": "",
-          "ant2": "",
-          "ant3": "",
-          "resp0": "Wahrlich, er trug unsere Krankheit.",
-          "resp1": "Und nahm auf sich unsere Sünden.",
-          "ant0_lat": "",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": ""
-        },
-        "Non": {
-          "ant0": "Für mich ist Christus das Leben und Sterben Gewinn. Ich rühme mich des Kreuzes meines Herrn Jesus Christus.",
-          "ant1": "",
-          "ant2": "",
-          "ant3": "",
-          "resp0": "Lasst uns niederfallen vor dem Kreuz unseres Erlösers.",
-          "resp1": "Durch das wir das Geheimnis des Heiles empfangen.",
-          "ant0_lat": "",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": ""
-        },
-        "Vesper": {
-          "hymn_1": 3343.0,
-          "hymn_2": 0.0,
-          "hymn_kl": 0.0,
-          "resp1": "Wir beten dich an, Herr, Jesus Christus,",
-          "resp2": "wir preisen dein heiliges Leiden.",
-          "resp3": "Durch deinen Tod am Kreuz hast du die Welt erlöst.",
-          "bitten_e": "Lasst uns beten zu Christus, dem Heiland der Welt, der den Tod vernichtet und das Leben neu geschaffen hat:",
-          "bitten_r": "Christus, erbarme dich.",
-          "bitten": "Du hast das Reich Gottes verkündet und zur Umkehr aufgerufen;^qerneuere deine Kirche im Geist des Evangeliums.^pDu hast ein Herz gehabt für die Armen und Bedrängten;^qsteh denen bei, die keinen Helfer haben.^pDu berufst immer wieder Menschen in deine Kirche;^qerleuchte die Katechumenen, die sich auf die Taufe vorbereiten.^pDu willst nicht den Tod des Sünders, sondern dass er lebe;^qerbarme dich derer, die mit uns in diesen vierzig Tagen Buße tun.^pNimm unsere Verstorbenen gnädig auf^qund lass sie teilhaben an deiner Auferstehung.",
-          "hymn_2_lat": 0.0,
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": ""
-        }
-      }
-    },
-    "each": {
-      "0": {
-        "ErsteV": {
-          "hymn_1": 3341.0,
-          "hymn_2": 3342.0,
-          "hymn_kl": 0.0,
-          "les_buch": "›2°Kor",
-          "les_stelle": "6,1–4a",
-          "les_text": "Wir ermahnen euch, dass ihr die Gnade Gottes nicht vergebens empfangt. Denn es heißt: „Zur Zeit der Gnade erhöre ich dich, am Tag der Rettung helfe ich dir“. Jetzt ist sie da, die Zeit der Gnade; jetzt ist er da, der Tag der Rettung. Niemand geben wir auch nur den geringsten Anstoß, damit unser Dienst nicht getadelt werden kann. In allem erweisen wir uns als Gottes Diener.",
-          "les_text_neu": "Als Mitarbeiter Gottes ermahnen wir euch, dass ihr seine Gnade nicht vergebens empfangt. Denn es heißt: „Zur Zeit der Gnade habe ich dich erhört, am Tag der Rettung habe ich dir geholfen“. Siehe, jetzt ist sie da, die Zeit der Gnade; siehe, jetzt ist er da, der Tag der Rettung. Niemandem geben wir auch nur den geringsten Anstoß, damit unser Dienst nicht verhöhnt werden kann. In allem empfehlen wir uns als Gottes Diener.",
-          "resp1": "Wir haben gegen dich gesündigt,",
-          "resp2": "Herr, sei uns gnädig, erbarme dich unser.",
-          "resp3": "Erhöre, Christe, unser Rufen und Flehen.",
-          "bitten_e": "Lasst uns beten zu Gott, dem Vater, der allen seinen Geist gibt, die ihn darum bitten:",
-          "bitten_r": "Herr, sende deinen Geist.",
-          "bitten": "Bewahre deine Kirche in der Lehre der Apostel;^qerfülle die Bischöfe mit den Gaben des Heiligen Geistes.^pStärke die Einheit deiner Kirche;^qfestige in den Gemeinden das Band der Liebe.^pGib, dass deine Gläubigen den alten Menschen ablegen;^qlass sie den neuen Menschen anziehen in Gerechtigkeit und Heiligkeit.^pVergib allen ihre Sünden, die sich zu dir bekehren;^qum Christi willen tilge ihre Schuld.^pNimm unsere Verstorbenen auf in deinen Frieden;^qgib ihnen die ewige Ruhe.",
-          "hymn_1_lat": 3341.2,
-          "resp1_lat": "Atténde, Dómine, et miserére,",
-          "resp2_lat": "quia peccávimus tibi.",
-          "resp3_lat": "Exáudi, Christe, supplicántum preces.",
-          "bitten_e_lat": "Christum Dóminum glorificémus, qui magíster, exémplar et frater factus est noster. Ei supplicémus, dicéntes:",
-          "bitten_r_lat": "Pópulum tuum vivífica, Dómine.",
-          "bitten_lat": "Christe, qui per ómnia nobis assimilátus es absque peccáto, da ut sciámus cum gaudéntibus gaudére et cum fléntibus flere,^qut cáritas nostra magis in dies abúndet.^pConcéde nobis tibi esuriénti ministráre in esuriéntibus,^qet tibi sitiénti in sitiéntibus.^pQui Lázarum a somno mortis excitásti,^qfac ut, qui ex peccáto mórtui sunt, per fidem et pæniténtiam rédeant ad vitam.^pFac ut multi vestígia tua impénsius atque perféctius sequántur,^qexémplo beátæ Maríæ Vírginis atque sanctórum.^pPræsta, ut in glória tua defúncti resúrgant,^qac tuo in ætérnum fruántur amóre.",
-          "les_text_lat": "Exhortámur vos ne in vácuum grátiam Dei recipiátis – ait enim: „Témpore accépto exaudívi te et in die salútis adiúvi te.“ Ecce nunc tempus acceptábile, ecce nunc dies salútis –, némini dantes ullam offensiónem, ut non vituperétur ministérium, sed in ómnibus exhibéntes nosmetípsos sicut Dei minístros."
-        },
-        "Lesehore": {
-          "hymn_1": 3311.0,
-          "hymn_2": 3312.0,
-          "hymn_1_lat": 3311.2
-        },
-        "Laudes": {
-          "les_buch": "›Neh",
-          "les_stelle": "8,9b.10b",
-          "les_text": "Heute ist ein heiliger Tag zu Ehren des HERRN, unseres Gottes. Seid nicht traurig und weint nicht! Macht euch keine Sorgen; denn die Freude am HERRN ist eure Stärke!",
-          "resp1": "Christus, du Sohn des lebendigen Gottes,",
-          "resp2": "erbarme°dich°unser.",
-          "resp3": "Du wurdest misshandelt wegen unserer Sünden, wegen unserer Verbrechen durchbohrt.",
-          "bitten_e": "Gepriesen sei Jesus Christus, unser Erlöser, der uns diese Zeit der Gnade gewährt. Zu ihm lasst uns beten:",
-          "bitten_r": "Herr, gib uns deinen Geist.",
-          "bitten": "Im Sakrament der Taufe sind wir mit dir begraben und auferweckt worden;^qgib, dass wir heute als neue Menschen leben.^pDu hast uns allen Gutes erwiesen;^qmach uns bereit, unseren Mitmenschen zu dienen.^pDu hast uns eine Aufgabe in der Welt gegeben;^qhilf uns, sie zu erfüllen.^pDu kannst alle Krankheit heilen;^qheile die Wunden unseres Herzens.",
-          "hymn_1_lat": 3321.2,
-          "resp1_lat": "Christe, Fili Dei vivi,",
-          "resp2_lat": "miserére°nobis.",
-          "resp3_lat": "Qui attrítus es propter scélera nostra.",
-          "bitten_e_lat": "Redemptórem nostrum, qui hoc tempus salútis nobis benígne méruit, benedicámus, eúmque súpplices exorémus:",
-          "bitten_r_lat": "Spíritum novum crea in nobis, Dómine.",
-          "bitten_lat": "Christe, vita nostra, qui per baptísmum nos mýstice tecum sepelíri donásti ac per eúndem tecum resuscitári voluísti,^qtríbue nos hódie in novitáte vitæ ambuláre.^pDómine, qui ómnibus benefecísti,^qfac nos étiam de commúni ómnium bono esse sollícitos.^pTríbue nobis ad terrénam civitátem ædificándam concórditer operári,^qet simul cæléstem inquírere.^pMédice córporum et animárum, sana nostri vúlnera cordis,^qut contínua capiámus subsídia sanctitátis.",
-          "les_text_lat": "Dies iste sanctificátus est Dómino Deo nostro! Nolíte lugére et nolíte flere. Quia sanctus dies Dómini nostri est; et nolíte contristári, gáudium étenim Dómini est fortitúdo vestra."
-        },
-        "Terz": {
-          "les_buch": "›1°Thess",
-          "les_stelle": "4,1.7",
-          "les_text": "Wir bitten und ermahnen euch im Namen Jesu, des Herrn: Ihr habt von uns gelernt, wie ihr leben müsst, um Gott zu gefallen, und ihr lebt auch so. Werdet darin noch vollkommener! Denn Gott hat uns nicht dazu berufen, unrein zu leben, sondern heilig zu sein.",
-          "les_text_lat": "Fratres, rogámus vos et obsecrámus in Dómino Iesu, ut — quemádmodum accepístis a nobis quómodo vos opórteat ambuláre et placére Deo, sicut et ambulátis — ut abundétis magis. Non enim vocávit nos Deus in immundítia sed in sanctificatióne."
-        },
-        "Sext": {
-          "les_buch": "›Jes",
-          "les_stelle": "30,15ab.18",
-          "les_text": "So spricht der Herr, der Heilige Israels: Nur in Umkehr und Ruhe liegt eure Rettung, nur Stille und Vertrauen verleihen euch Kraft. Der Herr wartet darauf, euch seine Gnade zu zeigen; er erhebt sich, um euch sein Erbarmen zu schenken. Denn der Herr ist ein Gott des Rechtes; wohl denen, die auf ihn warten.",
-          "les_text_neu": "So spricht der GOTT, der Herr, der Heilige Israels: Durch Umkehr und Ruhe werdet ihr gerettet, im Stillhalten und Vertrauen liegt eure Kraft. Der HERR wartet darauf, euch gnädig zu sein, darum erhebt er sich, um sich eurer zu erbarmen. Denn der HERR ist ein Gott des Rechts; selig alle, die auf ihn warten.",
-          "les_text_lat": "Hæc dixit Dóminus Deus, Sanctus Israel: « In conversióne et quiéte salvi éritis; in siléntio et in spe erit fortitúdo vestra ». Proptérea exspéctat Dóminus, ut misereátur vestri, et ídeo exaltábitur parcens vobis, quia Deus iudícii Dóminus; beáti omnes, qui exspéctant eum."
-        },
-        "Non": {
-          "les_buch": "›Dtn",
-          "les_stelle": "4,29b–31",
-          "les_text": "Du wirst den Herrn, deinen Gott, finden, wenn du mit ganzem Herzen und mit ganzer Seele um ihn bemühst. Wenn du in Not bist, werden alle diese Worte dich finden. In späteren Tagen wirst du zum Herrn, deinem Gott, zurückkehren und auf seine Stimme hören. Denn der Herr, dein Gott, ist ein barmherziger Gott. Er lässt dich nicht fallen und gibt dich nicht dem Verderben preis und vergisst nicht den Bund mit deinen Vätern, den er ihnen beschworen hat.",
-          "les_text_neu": "Du wirst den HERRN, deinen Gott, finden, wenn du dich mit ganzem Herzen und mit ganzer Seele um ihn bemühst. Wenn du in Not bist, werden alle diese Worte dich finden. In späteren Tagen wirst du zum HERRN, deinem Gott, zurückkehren und auf seine Stimme hören. Denn der HERR, dein Gott, ist ein barmherziger Gott. Er lässt dich nicht fallen und gibt dich nicht dem Verderben preis und vergisst nicht den Bund mit deinen Vätern, den er ihnen beschworen hat.",
-          "les_text_lat": "Cum quæsíeris Dóminum Deum tuum, invénies eum; si tamen toto corde quæsíeris eum et tota ánima tua. Postquam in tribulatióne tua te invénerint ómnia, quæ prædícta sunt, novíssimo témpore revertéris ad Dóminum Deum tuum et áudies vocem eius; quia Deus miséricors Dóminus Deus tuus est; non dimíttet te, nec omníno delébit neque obliviscétur pacti, in quo iurávit pátribus tuis."
-        },
-        "Vesper": {
-          "psalm3": 158.0,
-          "les_buch": "›vgl.°1°Kor",
-          "les_stelle": "9,24–25",
-          "les_text": "Die Läufer im Stadion laufen zwar alle, aber nur einer gewinnt den Siegespreis. Lauft so, dass ihr ihn gewinnt. Jeder Wettkämpfer lebt aber völlig enthaltsam; jene tun dies, um einen vergänglichen, wir aber, um einen unvergänglichen Siegeskranz zu gewinnen.",
-          "les_text_neu": "Die Läufer im Stadion laufen zwar alle, aber nur einer gewinnt den Siegespreis. Lauft so, dass ihr ihn gewinnt! Jeder Wettkämpfer lebt aber völlig enthaltsam; jene tun dies, um einen vergänglichen, wir aber, um einen unvergänglichen Siegeskranz zu gewinnen.",
-          "resp1": "Wir haben gegen dich gesündigt,",
-          "resp2": "Herr, sei uns gnädig, erbarme dich unser.",
-          "resp3": "Erhöre, Christus, unser Rufen und Flehen.",
-          "bitten_e": "Lasst uns beten zu Gott dem Vater, der die Menschen durch Buße zum neuen Leben führt:",
-          "bitten_r": "Erbarme dich deines Volkes.",
-          "bitten": "Herr, unser Gott, wir bitten dich für die Kirche auf dem ganzen Erdkreis;^qgib deinen Gläubigen Verlangen nach dir und deinem Wort.^pWir bitten dich für alle, die sich auf die Taufe vorbereiten;^qfüge sie als lebendige Steine ein in den Bau deiner Kirche.^pWir bitten dich für die Sünder;^qbewege ihr Herz zur Umkehr.^pWir bitten dich für die Völker der Erde;^qhilf ihnen den Weg zum Frieden finden.^pWir bitten dich für unsere Verstorbenen;^qlass sie in ewiger Seligkeit dein Angesicht schauen.",
-          "hymn_1_lat": 3341.2,
-          "resp1_lat": "Atténde, Dómine, et miserére,",
-          "resp2_lat": "quia peccávimus tibi.",
-          "resp3_lat": "Exáudi, Christe, supplicántum preces.",
-          "bitten_e_lat": "Laus Deo Patri, qui pópulum electiónis e sémine incorruptíbili renásci vóluit per Verbum suum, quod manet in ætérnum. Ei pie supplicémus:",
-          "bitten_r_lat": "Propítius esto, Dómine, pópulo tuo.",
-          "bitten_lat": "Audi, miséricors Deus, supplicatiónes, quas pro cuncto pópulo tuo deférimus,^qut desíderet se tuo pótius verbo quam cibo satiáre corpóreo.^pDoce nos gentem nostram et cunctos hómines sine discrímine vere et efficáciter amáre,^qeósque in pace et bono semper ædificáre.^pRéspice omnes per baptísmum regenerándos,^qut domum spiritálem, tamquam lápides vivi, tibi constítuant.^pQui, per Ionam prædicántem, Ninivítas ad pæniténtiam excitásti,^qverbo tuo peccatórum corda convérte propítius.^pTríbue moriéntibus in spe Christo iúdici occúrrere,^qtuíque aspéctu in ætérnum gaudére.",
-          "les_text_lat": "Hi, qui in stádio currunt, omnes quidem currunt, sed unus áccipit bravíum. Sic cúrrite, ut comprehendátis. Omnis autem, qui in agóne conténdit, ab ómnibus se ábstinet, et illi quidem, ut corruptíbilem corónam accípiant, nos autem incorrúptam."
-        }
-      },
-      "each": {
-        "Invitatorium": {
-          "ant0": "Christus, der Herr, wurde für uns versucht und hat für uns gelitten; kommt, wir beten ihn an.^ODER^ANTVerhärtet eure Herzen nicht, hört auf die Stimme des Herrn!",
-          "ant0_lat": "Christum Dóminum, pro nobis tentátum et passum, veníte, adorémus.^VEL^ANTUtinam hódie vocem Dómini audiátis: Nolíte obduráre corda vestra."
-        },
-        "Lesehore": {
-          "hymn_1": 3311.0,
-          "hymn_2": 3312.0,
-          "hymn_1_lat": 3311.1,
-          "hymn_2_lat": 0.0
-        },
-        "Vigil": {
-          "psalm1": 185.0,
-          "psalm2": 196.0,
-          "psalm3": 199.119,
-          "ant0": "Wende unser Herz zu dir, damit wir uns bekehren; erneuere unsere Tage."
-        },
-        "Laudes": {
-          "hymn_1": 3321.0,
-          "hymn_kl": 0.0,
-          "resp1": "Er rettet mich aus der Schlinge des Jägers,",
-          "resp2": "er°befreit mich aus allem Verderben.",
-          "resp3": "Der Herr ist meine Zuflucht, zum Schutze hab’ ich mir erwählt den Höchsten.",
-          "hymn_1_lat": 3321.1,
-          "resp1_lat": "Ipse liberábit me",
-          "resp2_lat": "de láqueo venántium.",
-          "resp3_lat": "Et a verbo malígno."
-        },
-        "Terz": {
-          "ant0": "Tage der Buße sind gekommen, Tage des Heils zur Vergebung der Sünden.",
-          "ant1": "",
-          "ant2": "",
-          "ant3": "",
-          "resp0": "Erschaffe mir, Gott, ein reines Herz.",
-          "resp1": "Gib mir einen neuen, beständigen Geist.",
-          "hymn_1_lat": 4003.3,
-          "hymn_2_lat": 0.0,
-          "ant0_lat": "Advenérunt nobis dies pæniténtiæ ad rediménda peccáta, ad salvándas ánimas.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "Cor mundum crea in me, Deus.",
-          "resp1_lat": "Et spíritum firmum ínnova in viscéribus meis."
-        },
-        "Sext": {
-          "ant0": "So wahr ich lebe, spricht der Herr, ich will nicht den Tod des Sünders, ich will, dass er umkehrt und lebt.",
-          "ant1": "",
-          "ant2": "",
-          "ant3": "",
-          "resp0": "Verbirg dein Angesicht vor meinen Sünden.",
-          "resp1": "Tilge all meine Frevel.",
-          "hymn_1_lat": 4006.3,
-          "hymn_2_lat": 0.0,
-          "ant0_lat": "Vivo ego, dicit Dóminus; nolo mortem peccatóris, sed ut magis convertátur et vivat.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "Avérte fáciem tuam a peccátis meis.",
-          "resp1_lat": "Et omnes iniquitátes meas dele."
-        },
-        "Non": {
-          "ant0": "Mit den Waffen der Gerechtigkeit und durch Gottes Kraft halten wir stand in großer Geduld.",
-          "ant1": "",
-          "ant2": "",
-          "ant3": "",
-          "resp0": "Das Opfer, das Gott gefällt, ist ein zerknirschter Geist.",
-          "resp1": "Ein zerschlagenes Herz wird er nicht verschmähen.",
-          "hymn_1_lat": 4009.3,
-          "hymn_2_lat": 0.0,
-          "ant0_lat": "Per arma iustítiæ virtútis Dei, commendémus nosmetípsos in multa patiéntia.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "Sacrificium Deo spíritus contribulátus.",
-          "resp1_lat": "Cor contrítum et humiliátum, Deus, non despícies."
-        },
-        "Vesper": {
-          "hymn_1": 3341.0,
-          "hymn_2": 3342.0,
-          "hymn_kl": 0.0,
-          "resp1": "Sei mir gnädig und heile mich,",
-          "resp2": "ich habe vor dir gesündigt.",
-          "resp3": "Verschließe mir nicht dein Erbarmen; Herr, eile mir zu Hilfe.",
-          "hymn_1_lat": 3341.1,
-          "hymn_2_lat": 0.0,
-          "resp1_lat": "Ego dixi: Dómine,",
-          "resp2_lat": "miserére mei.",
-          "resp3_lat": "Sana ánimam meam, quia peccávi tibi."
-        }
-      },
-      "1": {
-        "Lesehore": {
-          "versikel0": "Kehrt um und glaubt dem Evangelium.",
-          "versikel1": "Denn das Reich Gottes ist nahe.",
-          "versikel0_lat": "Pænitémini et crédite Evangélio.",
-          "versikel1_lat": "Appropinquávit enim regnum Dei."
-        },
-        "Laudes": {
-          "les_buch": "›Ex",
-          "les_stelle": "19,4ac–6a",
-          "les_text": "Ihr habt gesehen, wie ich euch auf Adlerflügeln getragen und hierher zu mir gebracht habe. Jetzt aber, wenn ihr auf meine Stimme hört und meinen Bund haltet, werdet ihr unter allen Völkern mein besonderes Eigentum sein. Mir gehört die ganze Erde, ihr aber sollt mir als ein Reich von Priestern und als ein heiliges Volk gehören.",
-          "les_text_neu": "Ihr habt gesehen, wie ich euch auf Adlerflügeln getragen und zu mir gebracht habe. Jetzt aber, wenn ihr auf meine Stimme hört und meinen Bund haltet, werdet ihr unter allen Völkern mein besonderes Eigentum sein. Mir gehört die ganze Erde, ihr aber sollt mir als ein Königreich von Priestern und als ein heiliges Volk gehören.",
-          "bitten_e": "Gepriesen sei Jesus Christus, unser Erlöser, der uns in seinem Tod den Weg des Heiles erschlossen hat. Zu ihm lasst uns beten:",
-          "bitten_r": "Herr, führe uns.",
-          "bitten": "In der Taufe hast du uns nach deinem Bild neu geschaffen;^qlass uns dir immer ähnlicher werden.^pGib, dass wir in den Notleidenden dich erkennen,^qund mach uns bereit, ihnen zu helfen.^pHilf uns, dich mit ganzem Herzen zu suchen^qund heute zu tun, was recht und gut ist vor dir.^pVerzeihe uns, was wir gegen die Liebe gesündigt haben;^qlass uns untereinander ein Herz und eine Seele sein.",
-          "bitten_e_lat": "Benedíctus Iesus, salvátor noster, qui per mortem suam salútis nobis sémitam reserávit. Orémus:",
-          "bitten_r_lat": "Dírige, Dómine, pópulum tuum in viam rectam.",
-          "bitten_lat": "Miséricors Deus, qui per baptísmum novitátem vitæ nobis dedísti,^qfac ut magis in dies tuæ conformémur imágini.^pPræsta, ut indigéntes benevoléntia nostra hódie lætificémus,^qeísque subveniéntes teípsum inveniámus.^pTríbue nobis bonum, rectum et verum coram te operári,^qteque semper toto corde requírere.^pQuæ contra unitátem famíliæ tuæ commísimus, benígnus indúlge,^qatque cor unum et ánimam unam nos esse concéde.",
-          "les_text_lat": "Vos ipsi vidístis quómodo portáverim vos super alas aquilárum et addúxerim ad me. Si ergo audiéritis vocem meam et custodiéritis pactum meum, éritis mihi in pecúlium de cunctis pópulis, mea est enim omnis terra. Et vos éritis mihi regnum sacerdótum et gens sancta."
-        },
-        "Terz": {
-          "les_buch": "›Weish",
-          "les_stelle": "11,23–24a",
-          "les_text": "Herr, du hast mit allen Erbarmen, weil du alles vermagst, und siehst über die Sünden der Menschen hinweg, damit sie sich bekehren. Du liebst alles, was ist, und verabscheust nichts von allem, was du gemacht hast.",
-          "les_text_neu": "Herr, du hast mit allen Erbarmen, weil du alles vermagst, und siehst über die Sünden der Menschen hinweg, damit sie umkehren. Du liebst alles, was ist, und verabscheust nichts von dem, was du gemacht hast.",
-          "les_text_lat": "Miseréris ómnium, Dómine, quia ómnia potes; et dissímulas peccáta hóminum propter pæniténtiam. Díligis enim ómnia, quæ sunt, et nihil odísti eórum, quæ fecísti."
-        },
-        "Sext": {
-          "les_buch": "›Ez",
-          "les_stelle": "18,23",
-          "les_text": "Habe ich etwa Gefallen am Tod des Schuldigen – Spruch Gottes, des Herrn –, und nicht viel mehr daran, dass er seine bösen Wege verlässt und am Leben bleibt?",
-          "les_text_neu": "Habe ich etwa Gefallen am Tod des Schuldigen – Spruch GOTTES, des Herrn – und nicht vielmehr daran, dass er umkehrt von seinen Wegen und am Leben bleibt?",
-          "les_text_lat": "Numquid voluntátis meæ est mors ímpii, dicit Dóminus Deus, et non ut convertátur a viis suis et vivat?"
-        },
-        "Non": {
-          "les_buch": "›Jes",
-          "les_stelle": "58,6a.7",
-          "les_text": "Das ist ein Fasten, wie ich es liebe: an die Hungrigen dein Brot auszuteilen, die obdachlosen Armen ins Haus aufzunehmen, wenn du einen Nackten siehst, ihn zu bekleiden und dich deinen Verwandten nicht zu entziehen.",
-          "les_text_neu": "Ist nicht das ein Fasten, wie ich es wünsche: dem Hungrigen dein Brot zu brechen, obdachlose Arme ins Haus aufzunehmen, wenn du einen Nackten siehst, ihn zu bekleiden und dich deiner Verwandtschaft nicht zu entziehen?",
-          "les_text_lat": "Nonne hoc est ieiúnium, quod elégi: frángere esuriénti panem tuum et egénos, vagos indúcere in domum? Cum víderis nudum, óperi eum et carnem tuam ne despéxeris."
-        },
-        "Vesper": {
-          "les_buch": "›Röm",
-          "les_stelle": "12,1–2",
-          "les_text": "Angesichts des Erbarmens Gottes ermahne ich euch, meine Brüder, euch selbst als lebendiges und heiliges Opfer darzubringen, das Gott gefällt; das ist für euch der wahre und angemessene Gottesdienst. Gleicht euch nicht dieser Welt an, sondern wandelt euch durch ein neues Denken, damit ihr prüfen und erkennen könnt, was der Wille Gottes ist: was ihm gefällt, was gut und vollkommen ist.",
-          "les_text_neu": "Ich ermahne euch, Brüder und Schwestern, kraft der Barmherzigkeit Gottes, eure Leiber als lebendiges, heiliges und Gott wohlgefälliges Opfer darzubringen – als euren geistigen Gottesdienst. Und gleicht euch nicht dieser Welt an, sondern lasst euch verwandeln durch die Erneuerung des Denkens, damit ihr prüfen und erkennen könnt, was der Wille Gottes ist: das Gute, Wohlgefällige und Vollkommene!",
-          "bitten_e": "Lasst uns beten zum Herrn Jesus Christus, der sein Volk von der Macht der Sünde befreit hat:",
-          "bitten_r": "Jesus, Sohn Davids, erbarme dich unser.",
-          "bitten": "Du hast dich dahingegeben für deine Kirche;^qschenke ihr neues Leben durch Fasten und Buße.^pDu gibst den Menschen in der Taufe eine neue Würde;^qlass die Katechumenen die Größe ihrer Berufung erkennen.^pDu gibst den jungen Menschen ein Ziel ihres Strebens;^qzeige ihnen den rechten Weg.^pDu hast Mitleid mit allen, die krank sind und leiden;^qrichte sie auf und mache sie wieder gesund.^pDu lässt keinen im Stich, der auf dich vertraut;^qgib unseren Verstorbenen das ewige Leben.",
-          "bitten_e_lat": "Dóminum Iesum Christum, qui nos pópulum suum a peccátis salvos fecit, humíliter invocémus:",
-          "bitten_r_lat": "Iesu, Fili David, miserére nostri.",
-          "bitten_lat": "Orámus te, Christe, pro sancta Ecclésia tua, pro qua teípsum tradidísti ut eam sanctificáres, mundans lavácro aquæ in verbo vitæ;^qcontinénter rénova eam et purífica pæniténtia.^pMagíster bone, notam fac iuvénibus viam, quam unicuíque eórum mandásti,^qut ámbulent in ea et bene sit eis.^pQui misértus es ómnium languórum, érige spem ægrotántium et sana eos,^qnosque fac de iis sublevándis sollícitos.^pRedde nos mémores dignitátis, quam per baptísmum nobis dedísti,^qut tibi semper vivámus.^pPacem et glóriam largíre defúnctis,^qnobísque cum illis aliquándo tecum regnáre concéde.",
-          "les_text_lat": "Obsecro vos, fratres, per misericórdiam Dei, ut exhibeátis córpora vestra hóstiam vivéntem, sanctam, Deo placéntem, rationábile obséquium vestrum; et nolíte conformári huic sǽculo, sed transformámini renovatióne mentis, ut probétis quid sit volúntas Dei, quid bonum et bene placens et perféctum."
-        }
-      },
-      "2": {
-        "Lesehore": {
-          "versikel0": "Jetzt ist sie da, die rechte Zeit.",
-          "versikel1": "Jetzt ist er da, der Tag des Heils.",
-          "versikel0_lat": "Ecce nunc tempus acceptábile.",
-          "versikel1_lat": "Ecce nunc dies salútis."
-        },
-        "Laudes": {
-          "les_buch": "›Joël",
-          "les_stelle": "2,12–13",
-          "les_text": "Kehrt um zu mir von ganzem Herzen, mit Fasten, Weinen und Klagen. Zerreißt eure Herzen, nicht eure Kleider, und kehrt um zum Herrn, eurem Gott! Denn er ist gnädig und barmherzig, langmütig und reich an Güte, und es reut ihn, dass er das Unheil verhängt hat.",
-          "les_text_neu": "Kehrt um zu mir von ganzem Herzen mit Fasten, Weinen und Klagen! Zerreißt eure Herzen, nicht eure Kleider, und kehrt um zum HERRN, eurem Gott! Denn er ist gnädig und barmherzig, langmütig und reich an Huld und es reut ihn das Unheil.",
-          "bitten_e": "Gepriesen sei Jesus Christus, denn er ist das Brot, das vom Himmel gekommen ist. Zu ihm lasst uns beten:",
-          "bitten_r": "Christus, stärke uns.",
-          "bitten": "Wir haben gesündigt vor dir, o°Herr;^qin deiner Güte tilge unsere Schuld.^pGib, dass wir dein Wort in unseren Herzen aufnehmen^qund Frucht bringen in Geduld.^pDu lädst uns ein, dein Gedächtnis zu feiern;^qbeim heiligen Opfermahl sei unsere Speise.^pDu hast uns zu Boten deines Friedens gemacht;^qhilf uns in unserem Bemühen um Gerechtigkeit und Liebe.",
-          "bitten_e_lat": "Benedicámus Christo, qui se nobis dedit ut panem de cælo descendéntem, atque ad eum oratiónem nostram dirigámus:",
-          "bitten_r_lat": "Christe, panis et medéla animárum, róbora nos.",
-          "bitten_lat": "Dómine, fac ut, eucharístico satiáti convívio,^qdona sacrifícii paschális plene participémus.^pTríbue nobis verbum tuum in corde bono et óptimo retinére,^qut fructum afferámus in patiéntia.^pFac ut in perficiéndo órdine mundi tibi álacres cooperémur,^qut per Ecclésiam tuam præcónium pacis facílius diffundátur.^pPeccávimus, Dómine, peccávimus,^qdele iniquitátes nostras grátia tua salutári.",
-          "les_text_lat": "Convertímini ad me in toto corde vestro, in ieiúnio et in fletu et in planctu; et scíndite corda vestra et non vestiménta vestra, et convertímini ad Dóminum Deum vestrum, quia benígnus et miséricors est, pátiens et multæ misericórdiæ, et placábilis super malítia."
-        },
-        "Terz": {
-          "les_buch": "›Joël",
-          "les_stelle": "2,17ab",
-          "les_text": "Zwischen Vorhalle und Altar sollen die Priester klagen, die Diener des Herrn sollen sprechen: Hab Mitleid, Herr, mit deinem Volk und überlass dein Erbe nicht der Schande, damit nicht die Völker über uns spotten!",
-          "les_text_neu": "Zwischen Vorhalle und Altar sollen die Priester klagen, die Diener des HERRN sollen sprechen: Hab Mitleid, HERR, mit deinem Volk und überlass dein Erbe nicht der Schande, damit die Völker nicht über uns spotten!",
-          "les_text_lat": "Inter vestíbulum et altáre plorent sacerdótes minístri Dómini et dicant: Parce, Dómine, pópulo tuo et ne des hereditátem tuam in oppróbrium, ut dominéntur eis natiónes."
-        },
-        "Sext": {
-          "les_buch": "›Jer",
-          "les_stelle": "3,25b",
-          "les_text": "Wir haben gesündigt gegen den HERRN, unsern Gott, wir selbst und unsere Väter, von Jugend an bis auf den heutigen Tag. Wir haben nicht gehört auf die Stimme des HERRN, unseres Gottes.",
-          "les_text_lat": "Dómino Deo nostro peccávimus nos et patres nostri ab adulescéntia nostra usque ad hanc diem et non audívimus vocem Dómini Dei nostri."
-        },
-        "Non": {
-          "les_buch": "›Jes",
-          "les_stelle": "58,1–2",
-          "les_text": "Rufe aus voller Kehle, halte dich nicht zurück! Lass deine Stimme ertönen wie eine Posaune! Halte meinem Volk seine Vergehen vor und dem Haus Jakob seine Sünden! Sie suchen mich Tag für Tag, denn sie wollen meine Wege erkennen. Wie ein Volk, das Gerechtigkeit übt und das vom Recht seines Gottes nicht ablässt, so fordern sie von mir ein gerechtes Urteil und möchten, dass Gott ihnen nah ist.",
-          "les_text_neu": "Rufe aus voller Kehle, halte dich nicht zurück! Erhebe deine Stimme wie ein Widderhorn! Halt meinem Volk seine Vergehen vor und dem Haus Jakob seine Sünden! Sie suchen mich Tag für Tag und haben daran Gefallen, meine Wege zu erkennen. Wie eine Nation, die Gerechtigkeit übt und vom Recht ihres Gottes nicht ablässt, so fordern sie von mir gerechte Entscheide und haben an Gottes Nähe Gefallen.",
-          "les_text_lat": "Clama fórtiter, ne cesses; quasi tuba exálta vocem tuam et annúntia pópulo meo scélera eórum et dómui Iacob peccáta eórum. Me étenim de die in diem quærunt et scire vias meas volunt, quasi gens, quæ iustítiam fécerit et iudícium Dei sui non derelíquerit."
-        },
-        "Vesper": {
-          "les_buch": "›Jak",
-          "les_stelle": "2,14.17.18b",
-          "les_text": "Meine Brüder, was nützt es, wenn einer sagt, er habe Glauben, aber es fehlen die Werke? Kann etwa der Glaube ihn retten? Der Glaube für sich allein ist tot, wenn er nicht Werke vorzuweisen hat. Zeig mir deinen Glauben ohne die Werke, und ich zeige dir meinen Glauben aufgrund der Werke.",
-          "les_text_neu": "Was nützt es, meine Brüder und Schwestern, wenn einer sagt, er habe Glauben, aber es fehlen die Werke? Kann etwa der Glaube ihn retten? Der Glaube für sich allein ist tot, wenn er nicht Werke vorzuweisen hat. Zeige mir deinen Glauben ohne die Werke, und ich zeige dir aus meinen Werken den Glauben.",
-          "bitten_e": "Lasst uns beten zu Jesus Christus, der uns geboten hat, zu wachen, damit wir in der Versuchung standhalten:",
-          "bitten_r": "Herr, erbarme dich unser.",
-          "bitten": "Du bist bei allen, die sich in deinem Namen versammeln;^qstärke in unseren Gemeinden den Geist des Gebetes.^pDu willst deine Kirche von jedem Makel reinigen;^qheile in deinen Gläubigen die Wunden der Sünde.^pDu hast deine Jünger beauftragt, einander zu dienen;^qlass die Männer und Frauen nicht müde werden, die im Dienst der kirchlichen Liebeswerke stehen.^pDu hast die Menschen gelehrt, Böses mit Gutem zu vergelten;^qlass unter den Völkern Brüderlichkeit und Frieden wachsen.^pDu hast durch dein Leiden und Sterben Sünde und Tod überwunden;^qführe unsere Verstorbenen in deine Herrlichkeit.",
-          "bitten_e_lat": "Christum Dóminum, a quo iubémur ut vigilántiam et oratiónem advérsus tentatiónes adhibeámus, eníxe deprecémur:",
-          "bitten_r_lat": "Atténde, Dómine, et miserére.",
-          "bitten_lat": "Christe Iesu, qui congregátis ad orándum in nómine tuo te affutúrum promisísti,^qnos tecum Patrem in Spíritu Sancto semper oráre concéde.^pCæléstis Sponse, máculas ab Ecclésia tua dilécta exclúde,^qeámque ambuláre concéde in spe et virtúte Spíritus Sancti.^pHóminis amátor, redde nos sollícitos de próximo nostro, sicut unicuíque mandásti,^qut salutáre lumen tuum vivídius ómnibus effúlgeat.^pRex pacífice, da pacem tuam in mundo vigére,^qut præséntia tua salutáris ubíque magis percipiátur.^pOmnibus defúnctis beátæ æternitátis intróitum résera,^qeísque incorruptiónis áperi limen et glóriæ.",
-          "les_text_lat": "Quid próderit, fratres mei, si fidem quis dicat se habére, ópera autem non hábeat? Numquid póterit fides salváre eum? Fides, si non hábeat ópera, mórtua est in semetípsa. Osténde mihi fidem tuam sine opéribus, et ego tibi osténdam ex opéribus meis fidem."
-        }
-      },
-      "3": {
-        "Lesehore": {
-          "versikel0": "Kehrt um, wendet euch ab von all euren Vergehen.",
-          "versikel1": "Schafft euch ein neues Herz und einen neuen Geist.",
-          "versikel0_lat": "Convertímini et ágite pæniténtiam.",
-          "versikel1_lat": "Fácite vobis cor novum et spíritum novum."
-        },
-        "Laudes": {
-          "les_buch": "›Dtn",
-          "les_stelle": "7,6b.8–9",
-          "les_text": "Dich hat der Herr, dein Gott, ausgewählt, damit du unter allen Völkern, die auf der Erde leben, das Volk wirst, das ihm persönlich gehört. Weil der Herr euch liebt und weil er auf den Schwur achtet, den er euren Vätern geleistet hat, deshalb hat der Herr euch mit starker Hand herausgeführt und euch aus dem Sklavenhaus freigekauft, aus der Hand des Pharao, des Königs von Ägypten. Daran sollst du erkennen: Jahwe, dein Gott, ist der Gott; er ist der treue Gott; noch nach tausend Generationen achtet er auf den Bund und erweist denen seine Huld, die ihn lieben und auf seine Gebote achten.",
-          "les_text_neu": "Dich hat der HERR, dein Gott, ausgewählt, damit du unter allen Völkern, die auf der Erde leben, das Volk wirst, das ihm persönlich gehört. Weil der HERR euch liebt und weil er auf den Schwur achtet, den er euren Vätern geleistet hat, deshalb hat der HERR euch mit starker Hand herausgeführt und dich aus dem Sklavenhaus freigekauft, aus der Hand des Pharao, des Königs von Ägypten. Daran sollst du erkennen: Der HERR, dein Gott, ist der Gott; er ist der treue Gott; noch nach tausend Generationen bewahrt er den Bund und erweist denen seine Huld, die ihn lieben und seine Gebote bewahren.",
-          "bitten_e": "Gepriesen sei Christus, der Urheber unseres Heiles. Zu ihm lasst uns beten:",
-          "bitten_r": "Herr, erbarme dich.",
-          "bitten": "Erfülle uns mit deinem Geist^qund mach uns dankbar für deine Gaben.^pGib, dass wir Trägheit und Gleichgültigkeit überwinden,^qund hilf uns, heute Gutes zu tun.^pBewahre uns vor dem Bösen;^qschenke uns Liebe, Gerechtigkeit und Frieden.^pDu hast einen neuen Himmel und eine neue Erde verheißen;^qmach uns würdig, dich auf ewig zu schauen.",
-          "bitten_e_lat": "Benedicátur Auctor salútis nostræ, qui vult hómines fíeri in se novam creatúram, ut vétera tránseant et ómnia renovéntur. Quaprópter viva spe fulti eum rogémus:",
-          "bitten_r_lat": "Rénova nos, Dómine, in Spíritu tuo.",
-          "bitten_lat": "Dómine, qui cælum novum terrámque novam promisísti, semper nos rénova per Spíritum tuum,^qut in cælésti Ierúsalem te iúgiter perfruámur.^pDa nos tecum operári ut hunc mundum Spíritu tuo imbuámus,^qatque in iustítia, caritáte et pace cívitas terréna finem suum efficácius assequátur.^pTríbue nos omnes desídias et neglegéntias castigáre,^qet supérnis delectári munéribus.^pLíbera nos a malo,^qnosque a fascinatióne nugacitátis, quæ bona obscúrat, defénde.",
-          "les_text_lat": "Te elégit Dóminus Deus tuus, ut sis ei pópulus peculiáris de cunctis pópulis, qui sunt super terram, quia diléxit vos Dóminus et custodívit iuraméntum, quod iurávit pátribus vestris, edúxit vos in manu forti et redémit te de domo servitútis, de manu pharaónis regis Ægýpti. Et scies quia Dóminus Deus tuus ipse est Deus, Deus fidélis, custódiens pactum et misericórdiam diligéntibus se et his, qui custódiunt mandáta eius, in mille generatiónes."
-        },
-        "Terz": {
-          "les_buch": "›Ez",
-          "les_stelle": "18,30b–32",
-          "les_text": "Kehrt um, wendet euch ab von all euren Vergehen! Sie sollen für euch nicht länger der Anlass sein, in Sünde zu fallen. Werft alle Vergehen von euch, die ihr verübt habt! Schafft euch ein neues Herz und einen neuen Geist! Warum wollt ihr sterben, ihr vom Haus Israel? Ich habe doch kein Gefallen am Tod dessen, der sterben muss – Spruch Gottes des Herrn. Kehrt um, damit ihr am Leben bleibt.",
-          "les_text_neu": "Kehrt um, kehrt euch ab von all euren Vergehen! Sie sollen für euch nicht länger der Anlass sein, in Schuld zu fallen. Werft alle Vergehen von euch, die ihr verübt habt! Schafft euch ein neues Herz und einen neuen Geist! Warum wollt ihr denn sterben, ihr vom Haus Israel? Ich habe doch kein Gefallen am Tod dessen, der sterben muss – Spruch GOTTES, des Herrn. Kehrt um, damit ihr am Leben bleibt!",
-          "les_text_lat": "Convertímini et ágite pæniténtiam ab ómnibus iniquitátibus vestris et non erit vobis in scándalum iniquitátis. Proícite a vobis omnes prævaricatiónes vestras, et fácite vobis cor novum et spíritum novum. Et quare moriémini, domus Israel? Quia nolo mortem moriéntis, dicit Dóminus Deus. Revertímini et vívite."
-        },
-        "Sext": {
-          "les_buch": "›Sach",
-          "les_stelle": "1,3b–4b",
-          "les_text": "Kehrt um zu mir – Spruch des Herrn der Heere –, dann kehre ich um zu euch, spricht der Herr der Heere. Seid nicht wie eure Väter, denen die früheren Propheten verkündeten: So spricht der Herr der Heere: Kehrt doch um von euren heillosen Wegen und von euren heillosen Taten.",
-          "les_text_neu": "Kehrt um zu mir – Spruch des HERRN der Heerscharen –, dann kehre ich um zu euch, spricht der HERR der Heerscharen. Seid nicht wie eure Väter, denen die früheren Propheten verkündeten: So spricht der HERR der Heerscharen: Kehrt doch um von euren heillosen Wegen und von euren heillosen Taten! ",
-          "les_text_lat": "Convertímini ad me, ait Dóminus exercítuum; et convértar ad vos. Ne sitis sicut patres vestri, ad quos clamábant prophétæ prióres dicéntes: Convertímini de viis vestris malis et de cogitatiónibus vestris malis; et non audiérunt."
-        },
-        "Non": {
-          "les_buch": "›Dan",
-          "les_stelle": "4,24b",
-          "les_text": "Löse dich von deinen Sünden durch rechtes Tun, tilge deine Vergehen, indem du Erbarmen hast mit den Armen! Dann mag dein Glück vielleicht von Dauer sein.",
-          "les_text_neu": "Lösch deine Sünden aus durch rechtes Tun, tilge deine Vergehen, indem du Erbarmen hast mit den Armen! Dann mag dein Glück vielleicht von Dauer sein.",
-          "les_text_lat": "Peccáta tua eleemósynis rédime et iniquitátes tuas misericórdiis páuperum: sic longitúdo erit prosperitáti tuæ."
-        },
-        "Vesper": {
-          "les_buch": "›Phil",
-          "les_stelle": "2,12b–15a",
-          "les_text": "Müht euch mit Furcht und Zittern um euer Heil! Denn Gott ist es, der in euch das Wollen und das Vollbringen bewirkt, noch über euren guten Willen hinaus. Tut alles ohne Murren und Bedenken, damit ihr rein und ohne Tadel seid, Kinder Gottes ohne Makel.",
-          "les_text_neu": "Müht euch mit Furcht und Zittern um euer Heil! Denn Gott ist es, der in euch das Wollen und das Vollbringen bewirkt, noch über euren guten Willen hinaus. Tut alles ohne Murren und Bedenken, damit ihr rein und ohne Tadel seid, Kinder Gottes ohne Makel!",
-          "bitten_e": "Lasst uns beten zu Gott, der uns gibt, was wir zum Leben brauchen:",
-          "bitten_r": "Wir bitten dich, erhöre uns.",
-          "bitten": "Herr, unser Gott, gedenke der Seelsorger und ihrer Gemeinden;^qlass dein Volk nicht ohne Hirten sein und die Hirten nicht ohne Herde.^pHilf denen, die in brüderlicher Liebe den Kranken beistehen;^qgib ihnen Herzlichkeit und Geduld.^pFühre alle, die noch nicht glauben, zu Jesus Christus;^qmache sie zu Gliedern deiner Kirche.^pErwecke Reue in denen, die sich von dir und deinem Sohn getrennt haben;^qversöhne sie mit dir und deiner Kirche.^pNimm unsere Verstorbenen auf in dein Reich;^qschenke ihnen bei dir das ewige Leben.",
-          "bitten_e_lat": "Deum omnipoténtem et providéntem exaltémus. Ipse scit ómnia, quibus índiget pópulus suus, sed vult nos primum de regno suo sollícitos. Ideo acclamémus:",
-          "bitten_r_lat": "Advéniat regnum tuum et iustítia eius.",
-          "bitten_lat": "Pater sancte, qui Christum ut pastórem animárum nostrárum dedísti, adésto pastóribus et pópulis eórum diligéntiæ créditis, ne gregi desit cura pastóris,^qneque pastóribus obœdiéntia gregis.^pInduc christiános, ut fratérna pietáte infírmis auxiliéntur,^qet ipsi Fílio tuo in iis subvéniant.^pFac ut nondum Evangélio credéntes Ecclésiam tuam ingrediántur,^qeámque bonis opéribus semper ædíficent in caritáte.^pDa nobis peccatóribus véniam a te impetráre,^qet simul reconciliári cum Ecclésia tua.^pPræsta, ut defúncti ad vitam tránseant ætérnam,^qet semper tecum commoréntur.",
-          "les_text_lat": "Cum metu et tremóre vestram salútem operámini; Deus est enim, qui operátur in vobis et velle et perfícere pro suo beneplácito. Omnia fácite sine murmuratiónibus et hæsitatiónibus, ut efficiámini sine queréla et símplices, fílii Dei."
-        }
-      },
-      "4": {
-        "Lesehore": {
-          "versikel0": "Wer über die Weisung des Herrn nachsinnt.",
-          "versikel1": "Der bringt Frucht zur rechten Zeit.",
-          "versikel0_lat": "Qui meditátur in lege Dómini.",
-          "versikel1_lat": "Dabit fructum suum in témpore suo."
-        },
-        "Laudes": {
-          "les_buch": "›vgl.°1°Kön",
-          "les_stelle": "8,51a.52–53",
-          "les_text": "Wir sind ja dein Volk, Herr, und dein Eigentum. Halte deine Augen offen für das Flehen deines Knechtes und für das Flehen deines Volkes Israel! Erhöre uns, sooft wir zu dir rufen! Du hast uns unter allen Völkern der Erde als dein Eigentum ausgewählt.",
-          "bitten_e": "Gepriesen sei Jesus Christus, der in diese Welt gekommen ist, damit wir das Licht des Lebens haben. Zu ihm lasst uns beten:",
-          "bitten_r": "Christus, erhöre uns.",
-          "bitten": "Du bist bei deiner Kirche alle Tage;^qlass uns heute deine Nähe erfahren.^pDu rufst uns heute von neuem in deine Nachfolge;^qhilf uns, das tägliche Kreuz zu tragen.^pStärke unseren Glauben an dich^qund gib, dass wir unsere Aufgabe in der Welt nach deinem Willen erfüllen.^pVerzeih uns unsere Sünden^qund hilf uns zu aufrichtiger Umkehr.",
-          "bitten_e_lat": "Christum Dóminum nostrum laudántes, qui ut lux mundi appáruit, ne ambularémus in ténebris sed lumen vitæ haberémus, ei supplicémus:",
-          "bitten_r_lat": "Verbum tuum sit lucérna pédibus nostris.",
-          "bitten_lat": "Benigníssime Deus, concéde nobis hódie in tui imitatióne profícere,^qut, quod in primo cécidit Adam, dénuo in te erigátur.^pPræbe verbum tuum lucérnam pédibus nostris,^qut, veritátem faciéntes, caritáte in te crescámus per ómnia.^pDoce nos ad ómnium bonum propter nomen tuum fidéliter ágere,^qut humána família magis per Ecclésiam illuminétur.^pFac nos per sincéram conversiónem amicítiam tuam magis magísque fovére,^qet offénsas sapiéntiæ atque bonitáti tuæ illátas expiáre.",
-          "les_text_lat": "Pópulus tuus, Dómine, et heréditas tua sumus. Sint óculi tui apérti ad deprecatiónem servi tui et pópuli tui Israel, et exáudias nos in univérsis, pro quibus invocavérimus te. Tu enim separásti nos tibi in hereditátem de univérsis pópulis terræ."
-        },
-        "Terz": {
-          "les_buch": "›Jes",
-          "les_stelle": "55,6–7",
-          "les_text": "Sucht den Herrn, solange er sich finden lässt, ruft ihn an, solange er nahe ist! Der Ruchlose soll seinen Weg verlassen, der Frevler seine Pläne. Er kehre um zum Herrn, damit er Erbarmen hat mit ihm, und zu unserem Gott, denn er ist groß im Verzeihen.",
-          "les_text_neu": "Sucht den HERRN, er lässt sich finden, ruft ihn an, er ist nah! Der Frevler soll seinen Weg verlassen, der Übeltäter seine Pläne. Er kehre um zum HERRN, damit er Erbarmen hat mit ihm, und zu unserem Gott; denn er ist groß im Verzeihen.",
-          "les_text_lat": "Quǽrite Dóminum, dum inveníri potest; invocáte eum, dum prope est. Derelínquat ímpius viam suam, et vir iníquus cogitatiónes suas; et revertátur ad Dóminum, et miserébitur eius, et ad Deum nostrum, quóniam multus est ad ignoscéndum."
-        },
-        "Sext": {
-          "les_buch": "›Dtn",
-          "les_stelle": "30,2–3a",
-          "les_text": "Wenn du zum Herrn, deinem Gott, zurückkehrst und auf seine Stimme hörst in allem, wozu ich dich heute verpflichte, du und deine Kinder, mit ganzem Herzen und ganzer Seele, dann wird der Herr, dein Gott, dein Schicksal wenden, er wird sich deiner erbarmen, sich dir zukehren und dich aus allen Völkern zusammenführen, unter die der Herr, dein Gott, dich verstreut hat.",
-          "les_text_neu": "Wenn du zum HERRN, deinem Gott, zurückkehrst und auf seine Stimme hörst in allem, wozu ich dich heute verpflichte, du und deine Kinder, mit ganzem Herzen und mit ganzer Seele, dann wird der HERR, dein Gott, dein Schicksal wenden. Er wird sich deiner erbarmen, sich dir zukehren und dich aus allen Völkern zusammenführen, unter die der HERR, dein Gott, dich verstreut hat. ",
-          "les_text_lat": "Cum revérsus fúeris ad Dóminum Deum tuum et obœdíeris eius impériis, secúndum ómnia quæ ego hódie præcípio tibi, cum fíliis tuis in toto corde tuo et in tota ánima tua, redúcet Dóminus Deus tuus captivitátem tuam ac miserébitur tui."
-        },
-        "Non": {
-          "les_buch": "›Hebr",
-          "les_stelle": "10,35–36",
-          "les_text": "Werft eure Zuversicht nicht weg, die großen Lohn mit sich bringt. Was ihr braucht, ist Ausdauer, damit ihr den Willen Gottes erfüllen könnt und so das verheißene Gut erlangt.",
-          "les_text_neu": "Werft eure Zuversicht nicht weg – sie hat großen Lohn! Was ihr braucht, ist Ausdauer, damit ihr den Willen Gottes erfüllt und die Verheißung erlangt.",
-          "les_text_lat": "Nolíte abícere confidéntiam vestram, quæ magnam habet remuneratiónem; patiéntia enim vobis necessária est, ut voluntátem Dei faciéntes reportétis promissiónem."
-        },
-        "Vesper": {
-          "les_buch": "›Jak",
-          "les_stelle": "4,7–8.10",
-          "les_text": "Ordnet euch Gott unter, leistet dem Teufel Widerstand; dann wird er vor euch fliehen. Sucht die Nähe Gottes; dann wird er sich euch nähern. Reinigt die Hände, ihr Sünder, läutert euer Herz, ihr Menschen mit zwei Seelen! Demütigt euch vor dem Herrn; dann wird er euch erhöhen.",
-          "les_text_neu": "Ordnet euch Gott unter, leistet dem Teufel Widerstand, und er wird vor euch fliehen. Naht euch Gott, dann wird er sich euch nahen! Reinigt die Hände, ihr Sünder, läutert eure Herzen, ihr Menschen mit zwei Seelen! Demütigt euch vor dem Herrn, und er wird euch erhöhen! ",
-          "bitten_e": "Lasst uns zu Jesus Christus beten, der uns das neue Gebot der Liebe gegeben hat:",
-          "bitten_r": "Herr, erbarme dich.",
-          "bitten": "Du hast zu deinen Jüngern gesagt: „Liebt einander, wie ich euch geliebt habe“;^qhilf deinen Gläubigen zu tun, was du geboten hast.^pDu hast dem Blindgeborenen die Augen geöffnet;^qöffne die Augen der Katechumenen, dass sie dich und dein Gebot erkennen.^pDu hast uns im Geheimnis des Altares das Vermächtnis deiner Liebe hinterlassen;^qstärke in allen, die von deinem Tisch essen, die Gemeinschaft mit dir und untereinander.^pDu hast am Kreuz für deine Henker gebetet;^qgib den verfolgten Christen die Kraft, ihren Feinden zu verzeihen.^pAm Jüngsten Tag wirst du sagen: „Kommt, ihr Gesegneten meines Vaters, und besitzet das Reich“;^qführe unsere Verstorbenen in das Reich, das ihnen bereitet ist.",
-          "bitten_e_lat": "A Christo Dómino, qui nobis dedit mandátum novum mútuæ dilectiónis, flagitémus:",
-          "bitten_r_lat": "Caritátem plebis tuæ, Dómine, adáuge.",
-          "bitten_lat": "Magíster bone, doce nos in frátribus temetípsum dilígere,^qatque in iis benefácere tibi.^pQui in cruce pro carnifícibus tuis véniam a Patre impetrásti,^qda nobis inimícos dilígere et pro persequéntibus nos oráre.^pPer mystérium córporis et sánguinis tui, amórem, virtútem et fidúciam nostram adáuge;^qdébiles corróbora, mæstos consoláre, spem agonizántibus infúnde.^pLux mundi, qui cæco nato post ablutiónem lumen vidére tribuísti,^qcatechúmenos per lavácrum aquæ et verbo vitæ illúmina.^pDefúnctos sátia dilectióne tua ætérna,^qnosque inter eléctos tuos connúmera.",
-          "les_text_lat": "Subicímini Deo; resístite Diábolo, et fúgiet a vobis. Appropiáte Deo, et appropinquábit vobis. Emundáte manus, peccatóres, et purificáte corda, dúplices ánimo. Humiliámini in conspéctu Dómini, et exaltábit vos."
-        }
-      },
-      "5": {
-        "Lesehore": {
-          "versikel0": "Kehrt um zum Herrn, eurem Gott.",
-          "versikel1": "Denn er ist gnädig und barmherzig.",
-          "versikel0_lat": "Convertímini ad Dóminum Deum vestrum.",
-          "versikel1_lat": "Quia benígnus et miséricors est."
-        },
-        "Laudes": {
-          "les_buch": "›Jes",
-          "les_stelle": "53,11b–12",
-          "les_text": "Mein Knecht, der gerechte, macht die Vielen gerecht; er lädt ihre Schuld auf sich. Deshalb gebe ich ihm seinen Anteil unter den Großen, und mit den Mächtigen teilt er die Beute, weil er sein Leben dem Tod preisgab und sich unter die Verbrecher rechnen ließ. Denn er trug die Sünden von vielen und trat für die Schuldigen ein.",
-          "bitten_e": "Gepriesen sei Jesus Christus, der uns durch seinen Tod am Kreuz das Leben erworben hat. Zu ihm lasst uns beten:",
-          "bitten_r": "Herr, gib uns neues Leben.",
-          "bitten": "Steh uns bei im Kampf gegen das Böse,^qdamit wir mit reinem Herzen Ostern feiern.^pHilf uns, heute unseren Auftrag zu erfüllen^qund dich zu bezeugen in Glaube, Hoffnung und Liebe.^pMach uns bereit zu Einschränkung und Verzicht;^qlehre uns, die Werke der Barmherzigkeit zu tun.^pMache unseren Sinn dir gefügig^qund schenke uns Großmut des Herzens.",
-          "bitten_e_lat": "Grátias agámus Christo Dómino, qui in cruce móriens nobis vitam cóntulit, eúmque ex corde deprecémur:",
-          "bitten_r_lat": "Per mortem tuam vivífica nos.",
-          "bitten_lat": "Magíster et Salvátor noster, qui fídei tuæ documénta nobis contulísti, nosque innovásti glória passiónis,^qfac ne veterascámus in áctibus pravitátis.^pPræsta nobis, ut hódie cibórum saturitátem córpori nostro subtráhere sciámus,^qut frátribus nostris indigéntibus succurrámus.^pDa hunc sanctum quadragesimálem diem a te nos devóte suscípere,^qet per ópera misericórdiæ tibi consecráre.^pCórrige mentes nostras rebélles,^qnosque magnánimos éffice.",
-          "les_text_lat": "Iustificábit iustus servus meus multos et iniquitátes eórum ipse portábit. Ideo dispértiam ei multos, et cum fórtibus dívidet spólia, pro eo quod trádidit in mortem ánimam suam et cum scelerátis reputátus est; et ipse peccátum multórum tulit et pro transgressóribus rogat."
-        },
-        "Terz": {
-          "les_buch": "›Jes",
-          "les_stelle": "55,3",
-          "les_text": "Neigt euer Ohr zu und kommt zu mir, hört, dann werdet ihr leben. Ich will einen ewigen Bund mit euch schließen, gemäß der beständigen Huld, die ich David erwies.",
-          "les_text_neu": "Neigt euer Ohr und kommt zu mir, hört und ihr werdet aufleben! Ich schließe mit euch einen ewigen Bund: Die Erweise der Huld für David sind beständig.",
-          "les_text_lat": "Inclináte aurem vestram et veníte ad me; audíte, ut vivat ánima vestra, et fériam vobíscum pactum sempitérnum, misericórdias David fidéles."
-        },
-        "Sext": {
-          "les_buch": "›vgl.°Jer",
-          "les_stelle": "3,12.14a",
-          "les_text": "Kehrt zurück – Spruch des Herrn. Ich schaue euch nicht mehr zornig an; denn ich bin gütig, ich trage nicht ewig nach. Kehrt um, ihr abtrünnigen Söhne – Spruch des Herrn.",
-          "les_text_neu": "Kehrt zurück – Spruch des HERRN. Ich schaue euch nicht mehr finster an; denn ich bin gütig, ich trage nicht ewig nach. Kehrt um, ihr abtrünnigen Söhne – Spruch des HERRN.",
-          "les_text_lat": "Revertímini, ait Dóminus, et non avértam fáciem meam a vobis, quia pius ego sum, et non iráscar in perpétuum. Convertímini, fílii, qui avérsi estis a me, dicit Dóminus."
-        },
-        "Non": {
-          "les_buch": "›Jak",
-          "les_stelle": "1,27",
-          "les_text": "Ein reiner und makelloser Dienst vor Gott, dem Vater, besteht darin: für Waisen und Witwen zu sorgen, wenn sie in Not sind, und sich vor jeder Befleckung durch die Welt zu bewahren.",
-          "les_text_neu": "Ein reiner und makelloser Gottesdienst ist es vor Gott, dem Vater: für Waisen und Witwen in ihrer Not zu sorgen und sich unbefleckt von der Welt zu bewahren.",
-          "les_text_lat": "Relígio munda et immaculáta apud Deum et Patrem hæc est: visitáre pupíllos et víduas in tribulatióne eórum, immaculátum se custodíre ab hoc sǽculo."
-        },
-        "Vesper": {
-          "les_buch": "›Jak",
-          "les_stelle": "5,16.19–20",
-          "les_text": "Bekennt einander eure Sünden und betet füreinander, damit ihr geheilt werdet! Viel vermag das inständige Gebet eines Gerechten. Meine Brüder, wenn einer bei euch von der Wahrheit abirrt und jemand ihn zur Umkehr bewegt, dann sollt ihr wissen: Wer einen Sünder, der auf Irrwegen ist, zur Umkehr bewegt, der rettet ihn vor dem Tod und deckt viele Sünden zu.",
-          "les_text_neu": "Bekennt einander eure Sünden und betet füreinander, damit ihr geheilt werdet! Viel vermag das inständige Gebet eines Gerechten. Meine Brüder und Schwestern, wenn einer unter euch von der Wahrheit abirrt und jemand ihn zur Umkehr bewegt, dann soll er wissen: Wer einen Sünder, der auf einem Irrweg ist, zur Umkehr bewegt, rettet ihn vor dem Tod und deckt viele Sünden zu.",
-          "bitten_e": "Lasst uns beten zu Jesus Christus, der durch sein Blut die Menschen heiligt:",
-          "bitten_r": "Herr, erbarme dich deines Volkes.",
-          "bitten": "Steh deiner Kirche bei im Kampf gegen das Böse;^qlass sie gestärkt dem Osterfest entgegengehen.^pHilf den Bischöfen, Priestern und Diakonen, ihren Auftrag zu erfüllen;^qgib, dass sie durch ihren Dienst dich verkünden.^pSteh allen bei, die um deines Namens willen verfolgt und verspottet werden;^qhilf ihnen, auszuhalten im Gedanken an dein Kreuz.^pErbarme dich aller, die aus Not und Bedrängnis zu dir rufen;^qlass dein Heil an ihnen sichtbar werden.^pGedenke aller, die in der Hoffnung auf dich aus dieser Welt geschieden sind;^qlass sie wohnen bei dir in ewiger Freude.",
-          "bitten_e_lat": "Dóminum Iesum, qui per próprium sánguinem pópulum sanctificávit, deprecémur:",
-          "bitten_r_lat": "Miserére, Dómine, pópulo tuo.",
-          "bitten_lat": "Redémptor noster, per passiónem tuam tríbue fidélibus membra sua mortificáre, in certamínibus contra mala et advérsa sústine eos, spe róbora firmióre,^qquo expeditióres ad resurrectiónem tuam celebrándam occúrrant.^pFac ut christiáni, ob prophéticum munus, notítiam tui ubíque diffúndant,^qatque ardéntis fídei, spei et caritátis testimónio eam confírment.^pConfórta virtúte tua omnes afflíctos,^qeísque consolándis fratérnas fac nos curas impéndere.^pDoce fidéles passiónem tuam in ærúmnis suis participáre,^qut salutáre tuum in seípsis maniféstent.^pAuctor vitæ, meménto eórum, qui de hac vita transiérunt,^qeísque resurrectiónis glóriam largíre.",
-          "les_text_lat": "Confitémini altérutrum peccáta et oráte pro ínvicem, ut sanémini. Multum enim valet deprecátio iusti óperans. Fratres mei, si quis ex vobis erráverit a veritáte et convérterit quis eum, scire debet quóniam, qui convérti fécerit peccatórem ab erróre viæ eius, salvábit ánimam suam a morte et opériet multitúdinem peccatórum."
-        }
-      },
-      "6": {
-        "Lesehore": {
-          "versikel0": "Wer die Wahrheit tut, kommt ans Licht.",
-          "versikel1": "Und seine Werke werden offenbar.",
-          "versikel0_lat": "Qui facit veritátem, venit ad lucem.",
-          "versikel1_lat": "Ut manifesténtur ópera eius."
-        },
-        "Laudes": {
-          "les_buch": "›Jes",
-          "les_stelle": "1,16–18a",
-          "les_text": "Wascht euch, reinigt euch! Lasst ab von eurem üblen Treiben! Hört auf, vor meinen Augen Böses zu tun! Lernt Gutes zu tun! Sorgt für das Recht! Helft den Unterdrückten! Verschafft den Waisen Recht, tretet ein für die Witwen! Kommt her, wir wollen sehen, wer von uns recht hat, spricht der Herr. Wären eure Sünden auch rot wie Scharlach, sie sollen weiß werden wie Schnee. Wären sie rot wie Purpur, sie sollen weiß werden wie Wolle.",
-          "les_text_neu": "Wascht euch, reinigt euch! Schafft mir eure bösen Taten aus den Augen! Hört auf, Böses zu tun! Lernt, Gutes zu tun! Sucht das Recht! Schreitet ein gegen den Unterdrücker! Verschafft den Waisen Recht, streitet für die Witwen! Kommt doch, wir wollen miteinander rechten, spricht der HERR. Sind eure Sünden wie Scharlach, weiß wie Schnee werden sie. Sind sie rot wie Purpur, wie Wolle werden sie.",
-          "bitten_e": "Gepriesen sei Jesus Christus, der uns durch die Taufe neues Leben geschenkt hat. Zu ihm lasst uns beten:",
-          "bitten_r": "Erneuere uns durch deinen Geist.",
-          "bitten": "Jesus, du bist mild und demütig von Herzen;^qmache uns barmherzig und geduldig gegenüber allen Menschen.^pLehre uns, in den Leidenden dich zu lieben^qund ihnen in deinem Namen Gutes zu tun.^pSchenke uns dein reiches Erbarmen;^qvergib uns, was wir gesündigt haben.^pGib, dass wir den alten Menschen mit seinen Werken ablegen^qund den neuen Menschen anziehen.",
-          "bitten_e_lat": "Christum Dóminum glorificémus, qui, ut nova creatúra hómines fíerent, lavácrum regeneratiónis instítuit eísque córporis et verbi sui mensam appósuit. Eum deprecémur, dicéntes:",
-          "bitten_r_lat": "Rénova nos, Dómine, grátia tua.",
-          "bitten_lat": "Iesu, mitis et húmilis corde, índue nos víscera misericórdiæ, benignitátem et humilitátem concéde,^qac patiéntiam cum ómnibus fac nos sectári.^pDoce nos vere próximos esse míseris atque afflíctis,^qut te bonum Samaritánum imitémur.^pBeáta Virgo, mater tua, intercédat pro sacris virgínibus,^qut consecratiónem, qua tibi sunt devótæ, in Ecclésia impénsius colant.^pDonum tuæ misericórdiæ nobis largíre,^qac peccáta et pœnas nobis dimítte.",
-          "les_text_lat": "Lavámini, mundi estóte, auférte malum cogitatiónum vestrárum ab óculis meis; quiéscite ágere pervérse, díscite benefácere: quǽrite iudícium, subveníte opprésso, iudicáte pupíllo, deféndite víduam. Et veníte et iudício contendámus, dicit Dóminus. Si fúerint peccáta vestra ut cóccinum, quasi nix dealbabúntur; et si fúerint rubra quasi vermículus, velut lana erunt."
-        },
-        "Terz": {
-          "les_buch": "›Offb",
-          "les_stelle": "3,19–20",
-          "les_text": "Wen ich liebe, den weise ich zurecht und nehme ich in Zucht. Mach also Ernst und kehr um! Ich stehe vor der Tür und klopfe an. Wer meine Stimme hört und die Tür öffnet, bei dem werde ich eintreten, und wir werden Mahl halten, ich mit ihm und er mit mir.",
-          "les_text_neu": "Wen ich liebe, den weise ich zurecht und nehme ich in Zucht. Mach also Ernst und kehr um! Siehe, ich stehe vor der Tür und klopfe an. Wenn einer meine Stimme hört und die Tür öffnet, bei dem werde ich eintreten und Mahl mit ihm halten und er mit mir.",
-          "les_text_lat": "Ego, quos amo, árguo et castígo. Æmuláre ergo et pæniténtiam age. Ecce sto ad óstium et pulso. Si quis audíerit vocem meam et aperúerit iánuam, introíbo ad illum et cenábo cum illo et ipse mecum."
-        },
-        "Sext": {
-          "les_buch": "›Jes",
-          "les_stelle": "44,21–22",
-          "les_text": "Denk daran, Jakob, und du, Israel, dass du mein Knecht bist. Ich habe dich geschaffen, du bist mein Knecht; Israel, ich vergesse dich nicht. Ich fege deine Vergehen hinweg wie eine Wolke und deine Sünden wie Nebel. Kehr um zu mir; denn ich erlöse dich.",
-          "les_text_neu": "Denk daran, Jakob, und du, Israel, dass du mein Knecht bist. Ich habe dich geformt. Du bist mein Knecht; Israel, du bist mir unvergessen. Ich habe weggewischt deine Vergehen wie eine Wolke und deine Sünden wie Nebel. Kehr um zu mir; denn ich habe dich erlöst.",
-          "les_text_lat": "Meménto quóniam servus meus es tu; formávi te, servus meus es tu, Israel, non decípies me. Delévi ut nubem iniquitátes tuas et quasi nébulam peccáta tua; revértere ad me, quóniam redémi te."
-        },
-        "Non": {
-          "les_buch": "›Gal",
-          "les_stelle": "6,7b–8",
-          "les_text": "Gott lässt keinen Spott mit sich treiben; was der Mensch sät, das wird er auch ernten. Wer im Vertrauen auf das Fleisch sät, wird vom Fleisch Verderben ernten; wer aber im Vertrauen auf den Geist sät, wird vom Geist ewiges Leben ernten.",
-          "les_text_neu": "Gott lässt seiner nicht spotten; denn was der Mensch sät, wird er auch ernten. Denn wer auf sein eigenes Fleisch sät, wird vom Fleisch Verderben ernten; wer aber auf den Geist sät, wird vom Geist ewiges Leben ernten.",
-          "les_text_lat": "Deus non irridétur. Quæ enim semináverit homo, hæc et metet; quóniam, qui séminat in carne sua, de carne metet corruptiónem, qui autem séminat in spíritu, de spíritu metet vitam ætérnam."
-        }
-      }
-    },
-    "even": {
-      "0": {
-        "ErsteV": {
-          "bitten_e": "Lasst uns beten zu unserem Herrn Jesus Christus, der die Menschen ruft, ihm zu folgen:",
-          "bitten_r": "Christus, höre uns.",
-          "bitten": "Du hast vierzig Tage gefastet und den Versuchungen des Bösen widerstanden;^qhilf deiner Kirche, das Böse zu überwinden.^pDu hast Hungernde gespeist und Kranke geheilt;^qmach unsere Gemeinden bereit, mit den Armen zu teilen.^pDu hast Tote zum Leben auferweckt;^qführe die Sünder zurück zum Leben der Gnade.^pDu rufst auch in unserer Zeit Männer und Frauen auf den Weg der Armut, der Jungfräulichkeit und des Gehorsams;^qgib, dass sie dir freudig folgen.^pDu hast die Menschen zum himmlischen Mahl geladen;^qsättige unsere Verstorbenen an deinem Tisch.",
-          "bitten_e_lat": "Magnificémus Deum, cui cura est de ómnibus. Eum invocémus, dicéntes:",
-          "bitten_r_lat": "Da, Dómine, salútem redémptis.",
-          "bitten_lat": "Deus, dator múnerum et fons veritátis, reple donis tuis collégium episcopórum,^qet fidéles, iis concréditos, serva in Apostolórum doctrína.^pCaritátem tuam infúnde ómnibus, qui de uno pane vitæ commúnicant,^qquo arctióre unitáte fruántur in córpore Fílii tui.^pVéterem hóminem cum áctibus suis nos exspoliáre concéde,^qet Christum Fílium tuum novum indúere hóminem.^pConcéde, ut omnes per pæniténtiam peccatórum suórum véniam obtíneant,^qet supérnæ fiant Christi tui satisfactiónis partícipes.^pFac ut in pace tua defúncti te sine fine laudent in cælo,^qubi et nos te in ævum celebratúros sperámus."
-        },
-        "Laudes": {
-          "bitten_e": "Gepriesen sei Gott, der Vater unseres Herrn Jesus Christus. Zu ihm lasst uns beten:",
-          "bitten_r": "Schenke uns dein Erbarmen.",
-          "bitten": "Herr, unser Gott, du hast uns in die Kirche deines Sohnes gerufen;^qgib uns Freude an deinem Heil.^pDu bist ein menschenfreundlicher Gott;^qgib, dass wir heute gütig und barmherzig sind.^pDu erbarmst dich über alles, was lebt;^qnähre uns mit deinem Wort.^pDu bist der Gott des Friedens;^qgib uns den Geist brüderlicher Liebe.",
-          "bitten_e_lat": "Deum glorificémus, cuius bonitátis infinítus est thesáurus, et per Iesum Christum, qui est semper vivens ad interpellándum pro nobis, eum deprecémur, dicéntes:",
-          "bitten_r_lat": "Accénde in nobis ignem tui amóris.",
-          "bitten_lat": "Deus misericórdiæ, fac ut hódie abundémus in opéribus pietátis,^qatque omnes nostram experiántur humanitátem.^pQui in dilúvio Noe per arcam salvásti,^qsalva catechúmenos in aqua baptísmatis.^pPræsta nos non solo pane satiári,^qsed omni verbo, quod procédit de ore tuo.^pFac ut omnes dissensiónes componámus,^qut pace et caritáte, te donánte, gaudeámus."
-        },
-        "Vesper": {
-          "bitten_e": "Lasst uns beten zu unserem Herrn und Meister Jesus Christus, der gekommen ist, um allen Gutes zu erweisen:",
-          "bitten_r": "Herr, erbarme dich.",
-          "bitten": "Du hast dich nicht bedienen lassen, sondern den Menschen gedient;^qlehre alle, die an dich glauben, deinem Beispiel zu folgen.^pGib, dass in der Gemeinschaft der Kirche einer dem anderen hilft;^qschenke deinen Gläubigen die Liebe, die sie eint und stark macht.^pDu gibst den Bischöfen Anteil an deinem Hirtenamt;^qsteh ihnen bei in ihrer Sorge für die Menschen.^pSende deine Engel, dass sie die Reisenden geleiten^qund sie schützen auf ihren Wegen.^pSei den Verstorbenen ein gnädiger Richter;^qlass sie auf ewig dein Angesicht schauen.",
-          "bitten_e_lat": "Grátias Christo, cápiti et magístro nostro, semper agámus, qui venit ministráre et ómnibus benefácere. Ideo humíliter fidentérque ab eo petámus:",
-          "bitten_r_lat": "Vísita, Dómine, famíliam tuam.",
-          "bitten_lat": "Adésto, Dómine, epíscopis et presbýteris Ecclésiæ tuæ, qui munus tuum cápitis et pastóris partícipant,^qut per te ad Patrem omnes addúcant.^pAngelus tuus iter agéntes comitétur,^qut omnes ánimæ corporísque insídias devítent.^pDoce nos homínibus ministráre,^qut te imitémur, qui venísti ministráre, non ministrári.^pFac ut in omni humána communitáte frater adiuvétur a fratre,^qut sint, te astánte, quasi cívitas firma.^pMiséricors esto univérsis defúnctis,^qeósque in lumen vultus tui admítte."
-        }
-      },
-      "1": {
-        "Laudes": {
-          "bitten_e": "Gepriesen sei Gott, der Vater, der uns an den Anfang dieses Tages geführt hat. Zu ihm lasst uns beten:",
-          "bitten_r": "Herr, sei uns gnädig.",
-          "bitten": "Du willst alles in Christus erneuern;^qgib, dass wir uns von Herzen zu dir bekehren.^pDu rufst uns in die Nachfolge deines Sohnes;^qschenke uns den Geist der Buße und des Gebetes.^pDu erbarmst dich aller, die leiden;^qgib uns ein Herz für die Armen und Bedrückten.^pDurch Christus willst du die Menschen miteinander versöhnen;^qmach uns zu Werkzeugen deines Friedens.",
-          "bitten_e_lat": "Benedicámus Deo Patri, qui nobis largítur ut hoc quadragesimáli die sacrifícium laudis ei offerámus. Eum deprecémur, invocántes:",
-          "bitten_r_lat": "Cæléstibus, Dómine, nos ínstrue disciplínis.",
-          "bitten_lat": "Omnípotens et miséricors Deus, concéde nobis spíritum oratiónis et pæniténtiæ,^qut caritáte tui et hóminum ardeámus.^pDa nos tibi cooperári, ut ómnia instauréntur in Christo,^qatque iustítia et pax in terris abúndent.^pIntimam totíus creatúræ natúram et prétium áperi nobis,^qut, te celebrántes, eam in cármine laudis nobis consociémus.^pIgnósce nobis, qui Christi tui præséntiam in paupéribus, míseris et moléstis ignorávimus,^qnec vériti sumus Fílium tuum in his frátribus nostris."
-        },
-        "Vesper": {
-          "bitten_e": "Lasst uns beten zu Gott, von dem jede gute Gabe kommt:",
-          "bitten_r": "Wir bitten dich, erhöre uns.",
-          "bitten": "Du hast das Gesetz des Alten Bundes in Christus vollendet;^qgib, dass alle Menschen sein neues Gesetz erkennen.^pGib, dass alle Vorsteher der Kirche sich sorgen um das Reich Gottes;^qstärke in den Gemeinden den Geist der Zusammenarbeit.^pTu den Glaubensboten eine Tür auf in den Herzen ihrer Hörer;^qerwecke ihnen Mitarbeiter im Dienst der Verkündigung.^pWache über den Kindern und schütze sie;^qbewahre die Jugendlichen im Glauben.^pGedenke aller, die in Christus entschlafen sind;^qschenke ihnen das ewige Leben.",
-          "bitten_e_lat": "Magnificétur Deus Pater, qui, ex ore Fílii sui, simul orántibus quodcúmque petíssent se datúrum promísit. Qua promissióne freti eum implorémus:",
-          "bitten_r_lat": "Propítius esto, Dómine, pópulo tuo.",
-          "bitten_lat": "Dómine, qui legem, in monte Sínai Móysi datam, per Christum tuum perfecísti,^qda ut omnes eam in córdibus inscríptam agnóscant et fœ́deris instar custódiant.^pSollicitúdinem de frátribus sibi commíssis, præpósitis tríbue,^qet subditórum corda ad illos induc adiuvándos.^pMentem et cor missionariórum tua virtúte corróbora,^qet plúrimos óperis sócios ubíque éxcita illis.^pGrátiam tuam in púeris da cum annis aduléscere,^qet in iuvénibus amórem tuum cum probitáte morum profícere.^pMeménto ómnium fratrum nostrórum, qui in te obdormiérunt,^qatque ætérnæ vitæ eos redde consórtes."
-        }
-      },
-      "2": {
-        "Laudes": {
-          "bitten_e": "Gepriesen sei Jesus Christus, das ewige Wort des Vaters. Zu ihm lasst uns beten:",
-          "bitten_r": "Christus, höre uns.",
-          "bitten": "Gib, dass wir in den heiligen vierzig Tagen auf dich hören;^qbereite uns für das kommende Osterfest.^pDein Heiliger Geist belehre uns,^qdass wir nicht in Zweifel und Irrtum fallen.^pHilf uns, an dich zu glauben^qund aus diesem Glauben zu leben.^pLäutere uns in dieser Zeit der Buße,^qdamit unser Zeugnis glaubwürdig sei.",
-          "bitten_e_lat": "Grátias Deo Patri, qui Unigénitum suum, Verbum carnem factum, nobis dedit, ut sit noster cibus et vita. Eum deprecémur:",
-          "bitten_r_lat": "Verbum Christi hábitet abundánter in nobis.",
-          "bitten_lat": "Frequentióre verbi tui auditióne nos dúcere tempus hoc quadragesimále concéde,^qut Christum, Pascha nostrum, in magna sollemnitáte religiósius honorémus.^pSpíritus Sanctus tuus nos dóceat,^qut ad verum et bonum sequéndum dúbios et errántes hortémur.^pPræsta nobis, ut Christi tui áltius percipiámus mystérium,^qet vita nostra id clárius exprimámus.^pPurífica et rénova Ecclésiam tuam his diébus salútis,^qut magis ac magis testimónium tibi éadem reddat."
-        },
-        "Vesper": {
-          "bitten_e": "Lasst uns zu Jesus Christus beten, der am Kreuz alles an sich gezogen hat:",
-          "bitten_r": "Herr, erbarme dich.",
-          "bitten": "Lass den Menschen das Geheimnis des Kreuzes aufgehen,^qdamit sie die Gnade der Erlösung erkennen.^pGib das lebendige Wasser allen, die dürsten;^qstille ihr tiefstes Verlangen.^pBewege die Herzen derer, die sich von dir getrennt haben;^qlass sie zu dir zurückkehren.^pSei allen nahe, die Leid zu tragen haben;^qlass sie bei dir Zuflucht finden.^pNimm unsere Verstorbenen auf zu dir;^qlass sie die ewige Seligkeit verkosten.",
-          "bitten_e_lat": "Dóminum Iesum, qui exaltátus in cruce ómnia ad se traxit, magnificémus et mente pia exorémus:",
-          "bitten_r_lat": "Trahe ad te univérsa, Dómine.",
-          "bitten_lat": "Dómine, lux, quæ e mystério crucis tuæ emánat, áttrahat omnes,^qut te viam, veritátem et vitam agnóscant.^pDa cunctis te sitiéntibus aquam vivam,^qne sítiant in ætérnum.^pDoctrinárum et ártium cultóres illúmina,^qut hómines regno tuo effíciant aptióres.^pMove omnes, qui ob peccáta et scándala a te discessérunt,^qut rédeant ad te et in dilectióne tua permáneant.^pOmnes defúnctos nostros in cæléstes sedes admítte,^qut cum beáta María Vírgine sanctísque ómnibus collæténtur."
-        }
-      },
-      "3": {
-        "Laudes": {
-          "bitten_e": "Gepriesen sei Gott, der Vater, der durch seinen Geist in uns wirkt. Zu ihm lasst uns beten:",
-          "bitten_r": "Herr, sende uns deinen Geist.",
-          "bitten": "Gib, dass wir dankbar das Gute aus deiner Hand empfangen;^qhilf uns, auch Not und Leid in Geduld anzunehmen.^pWecke in uns das Verlangen nach deinem Wort;^qlass uns darüber nachsinnen alle Tage.^pGib uns die Kraft, auf Entbehrliches zu verzichten,^qdamit wir den notleidenden Brüdern helfen können.^pLehre uns beten^qund nimm unseren Lobpreis an.",
-          "bitten_e_lat": "Grátias agámus Deo Patri, qui per infusiónem et operatiónem Spíritus Sancti corda nostra puríficat et in caritáte confírmat. Ei súpplici prece dicámus:",
-          "bitten_r_lat": "Da nobis, Dómine, Spíritum Sanctum tuum.",
-          "bitten_lat": "Præsta nobis, ut bona de manu tua semper grati suscipiámus,^qet mala quoque cum patiéntia accipiámus.^pConcéde nobis non in magnis tantum rebus caritátem sectári,^qsed étiam in sólitis vitæ adiúnctis prótenus exercére.^pTríbue nobis a supérfluis abstinére,^qut frátribus indigéntibus opem ferre valeámus.^pDa nobis mortificatiónem Fílii tui in córpore nostro circumférre,^qqui nos vivificásti in córpore eius."
-        },
-        "Vesper": {
-          "bitten_e": "Lasst uns beten zu Gott, dem Vater, der seinen Sohn für die Welt dahingegeben hat:",
-          "bitten_r": "Schenk uns dein Erbarmen.",
-          "bitten": "Gott, du hast die Menschen nach deinem Bild geschaffen;^qgib, dass sie einander achten und ehren.^pSteh denen bei, die alles verlassen, um Christus nachzufolgen;^qmache ihre Hingabe vollkommen.^pFühre die Irrenden zur Wahrheit,^qdamit sie den erkennen, den du gesandt hast.^pLenke das Sinnen der Völker^qund steh den Regierenden bei.^pNimm unsere Verstorbenen auf in deine Herrlichkeit,^qdamit sie in Ewigkeit dich preisen.",
-          "bitten_e_lat": "Glória et honor Deo, qui fœdus novum et ætérnum cum pópulo suo pépigit in sánguine Christi, et rénovat in sacraménto altáris. Sic eum rogémus:",
-          "bitten_r_lat": "Bénedic, Dómine, pópulum tuum.",
-          "bitten_lat": "Dírige, Dómine, in voluntáte tua, mentes populórum atque regéntium,^qut sincére ad commúne ómnium bonum annitántur.^pAuge devotiónem eórum, qui, relíctis ómnibus, secúti sunt Christum,^qut præclárum homínibus sanctitátis Ecclésiæ testimónium prǽbeant et exémplum.^pQui cunctos hómines ad imáginem tuam fecísti,^qfac ut ab iniústa inæqualitáte abhórreant.^pOmnes errántes ad tuam reduc amicítiam et veritátem,^qet doce nos illis adiuméntum impéndere.^pDa defúnctis in tuam glóriam introíre,^qteque in ætérnum collaudáre."
-        }
-      },
-      "4": {
-        "Laudes": {
-          "bitten_e": "Gepriesen sei Jesus Christus, unser Heiland und Erlöser. Zu ihm lasst uns beten:",
-          "bitten_r": "Herr, gedenke unser.",
-          "bitten": "Du bist der Quell des lebendigen Wassers;^qnach dir verlangt unsere Seele.^pDu hast uns die Kirche als Sakrament des Heiles geschenkt;^qlehre uns ihr Geheimnis tiefer verstehen.^pDu hast uns als deine Jünger berufen;^qhilf uns, dir heute nachzufolgen.^pVergib uns unsere Sünden^qund heile uns.",
-          "bitten_e_lat": "Pietátem Dei celebrémus, qui in Christo sese revelávit. Ex corde ei supplicémus:",
-          "bitten_r_lat": "Meménto nostri, Dómine, quia fílii tui sumus.",
-          "bitten_lat": "Da nos mystérium Ecclésiæ áltius percípere,^qut éadem sit nobis et ómnibus efficácius salútis sacraméntum.^pFac nos, hóminis amátor, humánæ civitátis increménta fovére,^qatque in ómnibus regnum tuum inténdere.^pPræsta nobis, ut ad Christum sitiéntes currámus,^qqui fontem aquæ vivæ nobis se prǽbuit.^pDimítte nobis iniquitátes nostras,^qet gressus nostros dírige in viam iustítiæ et sinceritátis."
-        },
-        "Vesper": {
-          "bitten_e": "Lasst uns beten zu Jesus Christus, der uns sein Erbarmen schenkt:",
-          "bitten_r": "Christe, eleison.",
-          "bitten": "Du hast dein Leben hingegeben für alle;^qgib, dass alle sich zu dir bekehren.^pErneuere die Gläubigen durch dein Wort und dein Sakrament,^qhilf ihnen im Leben verwirklichen, was sie im Glauben empfangen.^pGedenke der Bischöfe, Priester und Diakone;^qentfache in ihnen die Gnade, die sie durch Handauflegung empfangen haben.^pSteh denen bei, die in dieser Bußzeit Maß halten im Genuss der irdischen Güter;^qöffne ihr Herz für die Not der Armen.^pErbarme dich derer, die heute gestorben sind;^qgib ihnen die ewige Seligkeit.",
-          "bitten_e_lat": "Dei misericórdiam celebrémus, qui nos illúminat grátia Spíritus Sancti, ut opéribus iustítiæ ac fídei luceámus. Orémus, dicéntes:",
-          "bitten_r_lat": "Vivífica, Dómine, pópulum a Christo redémptum.",
-          "bitten_lat": "Dómine, fons et auctor omnis sanctitátis, epíscopos, presbýteros et diáconos árctius per mystérium eucharísticum Christo coniúnge,^qut grátiam, per impositiónem mánuum accéptam, magis in dies resúscitent.^pDoce fidéles tuos digne et actuóse mensam verbi et córporis Christi frequentáre,^qut, quod fide et sacraménto percepérunt, vita et móribus téneant.^pDignitátem cuiúsque hóminis, Fílii tui sánguine redémpti, te donánte, agnoscámus,^qut libertátem et consciéntiam fratrum nostrórum observémus.^pDa, ut hómines immódicam terréstrium bonórum cupídinem moderéntur,^qet aliórum inópiæ cónsulant.^pMiserére fidélium, quos de hac vita ad te hódie vocásti,^qeísque donum beatitúdinis ætérnæ concéde."
-        }
-      },
-      "5": {
-        "Laudes": {
-          "bitten_e": "Gepriesen sei Jesus Christus, der uns durch seinen Tod und seine Auferstehung erlöst hat. Zu ihm lasst uns beten:",
-          "bitten_r": "Herr, erbarme dich unser.",
-          "bitten": "Du bist hinaufgezogen nach Jerusalem, um für uns zu leiden und so in deine Herrlichkeit einzugehen;^qführe uns durch die Leiden dieser Zeit zum ewigen Osterfest.^pAus deiner geöffneten Seite flossen Blut und Wasser;^qheilige uns durch deine Sakramente.^pDu hast dem Schächer um seiner Buße willen Verzeihung erwiesen;^qvergib auch uns unsere Sünden.^pDurch dich wurde das Kreuz zum Baum des Lebens;^qschenke uns seine Frucht, das ewige Leben.",
-          "bitten_e_lat": "Christum salvatórem, qui per mortem et resurrectiónem suam nos redémit, implorémus:",
-          "bitten_r_lat": "Dómine, miserére nostri.",
-          "bitten_lat": "Qui Ierúsalem ascendísti ad passiónem subeúndam, ut intráres in glóriam,^qperduc Ecclésiam tuam in Pascha æternitátis.^pQui, in cruce exaltátus, láncea mílitis transfígi voluísti,^qsana vúlnera nostra.^pQui crucem tuam árborem vitæ constituísti,^qfructus eiúsdem baptísmate renátis largíre.^pQui, in ligno pendens, latróni pæniténti pepercísti,^qnobis peccatóribus ignósce."
-        },
-        "Vesper": {
-          "bitten_e": "Lasst uns beten zu Christus, dem Heiland der Welt, der den Tod vernichtet und das Leben neu geschaffen hat:",
-          "bitten_r": "Christus, erbarme dich.",
-          "bitten": "Du hast das Reich Gottes verkündet und zur Umkehr aufgerufen;^qerneuere deine Kirche im Geist des Evangeliums.^pDu hast ein Herz gehabt für die Armen und Bedrängten;^qsteh denen bei, die keinen Helfer haben.^pDu berufst immer wieder Menschen in deine Kirche;^qerleuchte die Katechumenen, die sich auf die Taufe vorbereiten.^pDu willst nicht den Tod des Sünders, sondern dass er lebe;^qerbarme dich derer, die mit uns in diesen vierzig Tagen Buße tun.^pNimm unsere Verstorbenen gnädig auf^qund lass sie teilhaben an deiner Auferstehung.",
-          "bitten_e_lat": "Salvatórem humáni géneris adorémus, qui mortem moriéndo destrúxit et vitam resurgéndo reparávit. Humíliter postulémus:",
-          "bitten_r_lat": "Sanctífica pópulum, quem sánguine tuo redemísti.",
-          "bitten_lat": "Redémptor noster, da nos passióni tuæ per pæniténtiam plénius adhærére,^qut resurrectiónis glóriam consequámur.^pPræsta, ut Matris tuæ, solatrícis afflictórum, protectiónem assequámur,^qmærentésque confortémus ea consolatióne, qua et ipsi a te recreámur.^pFidélibus concéde passiónis tuæ in ærúmnis suis esse partícipes,^qut salutáre tuum in seípsis maniféstent.^pQui humiliásti teípsum, factus obœ́diens usque ad mortem, mortem autem crucis,^qda servis tuis obœdiéntiam et patiéntiam.^pCórpori claritátis tuæ defúnctos configuráre dignéris,^qnosque aliquándo eórum redde consórtes."
-        }
-      },
-      "6": {
-        "Laudes": {
-          "bitten_e": "Gepriesen sei Jesus Christus, unser Herr und Erlöser. Zu ihm lasst uns beten:",
-          "bitten_r": "Herr, komm uns zu Hilfe.",
-          "bitten": "Schenk uns ein reines Herz;^qhilf uns, aus deinem Heiligen Geist zu leben.^pÖffne unsere Augen für die Not der Menschen^qund zeige uns, wie wir ihnen helfen können.^pGib, dass wir nach deinem Brot verlangen,^qdas du uns schenkst als Speise für das ewige Leben.^pErhöre die Fürbitte deiner heiligen Mutter, zu der wir Sünder unsere Zuflucht nehmen,^qund vergib uns unsere Schuld.",
-          "bitten_e_lat": "Semper et ubíque grátias Christo agámus, qui salvat nos, eíque fidénter supplicémus:",
-          "bitten_r_lat": "Súbveni nobis, Dómine, grátia tua.",
-          "bitten_lat": "Tríbue nos córpora nostra incontamináta serváre,^qut possit Spíritus Sanctus illic habitáre.^pDoce nos iam mane pro frátribus nosmetípsos impéndere,^qet tota die in ómnibus tuam implére voluntátem.^pDa nobis quǽrere panem, qui permáneat in vitam ætérnam,^qquem tu præstas nobis.^pMater tua, refúgium peccatórum, pro nobis intercédat,^qut peccátis nostris benígnus ignóscas."
-        }
-      }
-    }
-  },
-  "w": {
-    "1": {
-      "0": {
-        "each": {
-          "comm_1": "Maria",
-          "oration": "Herr, unser Gott, in der Heiligen Familie hast du uns ein leuchtendes Vorbild geschenkt. Gib unseren Familien die Gnade, dass auch sie in Frömmigkeit und Eintracht leben und einander in der Liebe verbunden bleiben. Führe uns alle zur ewigen Gemeinschaft in deinem Vaterhaus.^ORV",
-          "oration_lat": "Deus, qui præclára nobis sanctæ Famíliæ dignátus es exémpla præbére, concéde propítius, ut, domésticis virtútibus caritatísque vínculis illam sectántes, in lætítia domus tuæ prǽmiis fruámur ætérnis.^ORlV"
-        },
-        "ErsteV": {
-          "button": "1. Vesper zum Fest der Hl. Familie",
-          "hymn_1": 3241.0,
-          "psalm1": 113.0,
-          "psalm2": 147.2,
-          "psalm3": 152.0,
-          "ant1": "Josef, der Sohn Jakobs, war der Gemahl Marias. Von ihr wurde Jesus geboren, der Christus genannt wird.",
-          "ant2": "Josef, Sohn Davids, fürchte dich nicht, Maria als deine Frau zu dir zu nehmen; denn das Kind, das sie erwartet, ist vom Heiligen Geist.",
-          "ant3": "Die Hirten eilten hin und fanden Maria und Josef und das Kind, das in einer Krippe lag.",
-          "les_buch": "›2°Kor",
-          "les_stelle": "8,9",
-          "les_text": "Ihr wisst, was Jesus Christus, unser Herr, in seiner Liebe getan hat: Er, der reich war, wurde euretwegen arm, um euch durch seine Armut reich zu machen.",
-          "les_text_neu": "Ihr kennt die Gnade unseres Herrn Jesus Christus: Er, der reich war, wurde euretwegen arm, um euch durch seine Armut reich zu machen.",
-          "resp1": "Das Wort ist Fleisch geworden und hat unter uns gewohnt.",
-          "resp2": "Halleluja,°halleluja.",
-          "resp3": "Aus seiner Fülle haben wir empfangen, Gnade über Gnade.",
-          "antev": "Der Knabe Jesus blieb in Jerusalem, und seine Eltern suchten ihn: Sie fanden ihn im Tempel.",
-          "bitten_e": "Lasst uns beten zu Christus, dem Sohn des lebendigen Gottes, der sich nicht gescheut hat, Kind einer menschlichen Familie zu werden:",
-          "bitten_r": "Erhöre uns, Christus.",
-          "bitten": "Du warst als Kind Maria und Josef untertan;^qsegne die Kinder unserer Familien.^pDu hast deine Eltern geliebt und wurdest von ihnen geliebt;^qgib, dass Eltern und Kinder einander lieben.^pDu wolltest allezeit in dem sein, was deines Vaters ist;^qgib, dass in jedem Haus dein himmlischer Vater geehrt wird.^pDu wurdest von deinen Eltern gesucht und am dritten Tag im Hause Gottes wiedergefunden;^qrate den Eltern, die sich Sorge machen um ihre Kinder.^pDu hast Maria und Josef in die Herrlichkeit des Himmels heimgeholt;^qnimm unsere Verstorbenen auf in die Gemeinschaft der Seligen.",
-          "hymn_1_lat": 3241.2,
-          "ant1_lat": "Iacob autem génuit Ioseph virum Maríæ, de qua natus est Iesus, qui vocátur Christus.",
-          "ant2_lat": "Pastóres venérunt festinántes, et invenérunt Maríam et Ioseph et Infántem pósitum in præsépio.",
-          "ant3_lat": "Pastóres venérunt festinántes, et invenérunt Maríam et Ioseph et Infántem pósitum in præsépio.",
-          "resp1_lat": "Verbum caro factum est.",
-          "resp2_lat": "Allelúia,°allelúia.",
-          "resp3_lat": "Et habitávit in nobis.",
-          "anta_lat": "Ecce ángelus Dómini appáret in somnis Ioseph dicens: Surge et áccipe púerum et matrem eius et fuge in Ægýptum et esto ibi, usque dum dicam tibi.",
-          "antb_lat": "Postquam impléti sunt dies purgatiónis eórum secúndum legem Móysis, tulérunt illum in Hierosólymam ut sísterent Dómino.",
-          "antc_lat": "Pastóres venérunt festinántes, et invenérunt Maríam et Ioseph et Infántem pósitum in præsépio.",
-          "bitten_e_lat": "Fílium Dei vivi, qui fílius humánæ famíliæ fíeri dignátus est, adorémus, ipsi confiténtes:",
-          "bitten_r_lat": "Tu es, Dómine, exémplar et salvátor ómnium.",
-          "bitten_lat": "Christe, per mystérium subiectiónis tuæ erga Maríam et Ioseph,^qdoce omnes reveréntiam et obœdiéntiam erga eos qui legítime præsunt.^pQui paréntes amásti et ab ipsis amátus es,^qomnes famílias in pace et mútua caritáte constítue.^pTu, qui studiósus fuísti eórum, quæ tui sunt Patris,^qpræsta ut in omni domo Deus honorétur.^pChriste, qui ab ánxiis paréntibus tértia die in domo Patris invéntus es,^qdoce omnes quǽrere primum regnum Dei.^pChriste, qui Maríam et Ioseph tecum in cælésti glória consociásti,^qadmítte defúnctos in famíliam beatórum.",
-          "les_text_lat": "Scitis grátiam Dómini nostri Iesu Christi, quóniam propter vos egénus factus est, cum esset dives, ut illíus inópia vos dívites essétis."
-        },
-        "Invitatorium": {
-          "ant0": "Christus, den Sohn Gottes, der Maria und Josef gehorsam war – kommt, wir beten ihn an!",
-          "ant0_lat": "Christum, Dei Fílium, Maríæ et Ioseph súbditum, veníte adorémus."
-        },
-        "Lesehore": {
-          "psalm1": 24.0,
-          "psalm2": 46.0,
-          "psalm3": 87.0,
-          "ant1": "Die Eltern brachten Jesus in den Tempel. Simeon nahm das Kind in seine Arme und lobte Gott für seine Huld.",
-          "ant2": "Die Weisen gingen in das Haus und fanden das Kind und Maria, seine Mutter.",
-          "ant3": "Noch in der Nacht stand Josef auf und floh mit dem Kind und seiner Mutter nach Ägypten.",
-          "versikel0": "Der Herr hat kundgemacht sein Heil.^ö",
-          "versikel1": "Vor den Augen der Völker.^ö",
-          "les_buch": "Aus dem Brief an die Epheser.",
-          "les_stelle": "5,21–6,4",
-          "les_text": "^hChristliches Leben in Familie und Gesellschaft^pEiner ordne sich dem andern unter in der gemeinsamen Ehrfurcht vor Christus!^pIhr Frauen, ordnet euch euren Männern unter wie dem Herrn (Christus); denn der Mann ist das Haupt der Frau, wie auch Christus das Haupt der Kirche ist; er hat sie gerettet, denn sie ist sein Leib. Wie aber die Kirche sich Christus unterordnet, sollen sich die Frauen in allem den Männern unterordnen.^pIhr Männer, liebt eure Frauen, wie Christus die Kirche geliebt und sich für sie hingegeben hat, um sie im Wasser und durch das Wort rein und heilig zu machen. So will er die Kirche herrlich vor sich erscheinen lassen, ohne Flecken, Falten oder andere Fehler; heilig soll sie sein und makellos. Darum sind die Männer verpflichtet, ihre Frauen zu lieben wie ihren eigenen Leib. Wer seine Frau liebt, liebt sich selbst. Keiner hat je seinen eigenen Leib gehasst, sondern er nährt und pflegt ihn, wie auch Christus die Kirche. Denn wir sind Glieder seines Leibes. Darum wird der Mann Vater und Mutter verlassen und sich an seine Frau binden, und die zwei werden EIN Fleisch sein. Dies ist ein tiefes Geheimnis; ich beziehe es auf Christus und die Kirche. Was euch angeht, so liebe jeder von euch seine Frau wie sich selbst, die Frau aber ehre den Mann.^pIhr Kinder, gehorcht euren Eltern, wie es vor dem Herrn recht ist! Ehre deinen Vater und deine Mutter: das ist ein Hauptgebot, und ihm folgt die Verheißung: damit es dir gut geht und du lange lebst auf der Erde. Ihr Väter, reizt eure Kinder nicht zum Zorn, sondern erzieht sie in der Zucht und Weisung des Herrn!",
-          "resp1": "Ihr Kinder, gehorcht euren Eltern, wie es vor dem Herrn recht ist;",
-          "resp2": "ehre deinen Vater und deine Mutter!",
-          "resp3": "Jesus kehrte mit Maria und Josef nach Nazaret zurück und war ihnen gehorsam.",
-          "patr_autor": "Paul VI. (†°1978)",
-          "patr_werk": "Aus seiner Ansprache in Nazaret.",
-          "patr_text": "^hDas Beispiel von Nazaret^pDas Haus von Nazaret ist eine Schule, in der man beginnt, Christi Leben zu verstehen. Es ist die Schule des Evangeliums.^pHier nämlich lernen wir vor allem sehen, hören, betrachten und verstehen, welch große und geheime Kraft in dieser schlichten, demütigen und köstlichen Offenbarung des Sohnes Gottes steckt. Nach und nach lernen wir vielleicht auch, ihm nachzufolgen.^pHier lernen wir mit Leichtigkeit die Weise und den Weg der Christuserkenntnis. Hier wird uns besonders klar, wie sehr man auf die ganze Umwelt achten muss, in der sein Wohnen unter uns eingebettet ist: Zeit, Ort, Gebräuche, Sprache, heilige Riten und endlich alles, wodurch Jesus sich der Welt offenbarte. All das kommt hier zu Wort; hier erhält es für uns sein Gewicht. Hier in dieser Schule sieht man, wie notwendig eine geistliche Ordnung ist, wenn man der Lehre des Evangeliums folgen und Jünger Christi sein möchte.^pWie gerne wäre ich wieder jung und vertraute mich dieser demütigen und doch so erhabenen Schule von Nazaret an. Was für eine Freude wäre es, nach dem Beispiel Marias mit neuem Eifer wahre Lebensweisheit und Einsicht in die göttliche Wahrheit zu erwerben!^pAber ich bin nur als Pilger hier und muss auf meinen Wunsch verzichten, hier in diesem Haus den niemals abgeschlossenen Unterricht in der Erkenntnis des Evangeliums fortzusetzen. Doch möchte ich nicht weggehen, ohne schnell und gleichsam verstohlen von dem Lehrstuhl Nazaret aus einige mahnende Winke zu geben.^pDie Schule von Nazaret lehrt zuerst das Schweigen. Möge in uns eine große Wertschätzung des Schweigens lebendig werden. Denn in dem lauten und allzu aufgeregten Leben von heute, in dem wir von so vielen lauten Stimmen, von Lärm und Geschrei bedrängt werden, ist das Schweigen eine bewundernswerte und notwendige Geisteshaltung.^pDas Schweigen von Nazaret lehre uns, den Geist auf gute Gedanken zu lenken, auf das innere Leben zu achten und bereitwillig auf die geheimen Ratschlüsse und die Anweisungen der wahren Lehrer zu hören; es lehre uns, wie notwendig und wertvoll die innere Vorbereitung ist, das Studium, die Betrachtung, die Ordnung des persönlichen geistlichen Lebens und das Gebet, das Gott allein im Verborgenen sieht {1#vgl.°Mt 6,4}.^pHier lernen wir, wie wichtig das häusliche Leben ist. Nazaret gemahne uns an das, was eine Familie ist, an ihre Gemeinschaft in der Liebe, an ihre strahlende Schönheit, ihre Heiligkeit und Unverletzlichkeit, an ihre durch nichts zu ersetzende Bedeutung. Nazaret zeige uns, wie kostbar die Unterweisung in der Familie ist, eine Unterweisung, die durch nichts ersetzt werden kann. Nazaret lehre uns, welche Aufgabe die Familie ihrer Natur nach in der Ordnung der Gesellschaft hat.^pSchließlich lernen wir hier die zuchtvolle Ordnung der Arbeit.^pO Lehrstuhl von Nazaret, Haus des Handwerkersohns! Hier möchte ich das strenge, aber erlösende Gesetz menschlicher Arbeit erkennen und feiern. Ich möchte die Würde der Arbeit hier so herausstellen, dass alle ihrer inne werden. Unter diesem Dach erinnere ich daran, dass die Arbeit nicht Selbstzweck ist, dass sie vielmehr Freiheit und Wert nicht nur aus ihrer sogenannten wirtschaftlichen Bedeutung bezieht, sondern auch aus den Wirklichkeiten, durch die sie auf ihr erhabenes Ziel ausgerichtet wird. Schließlich möchte ich hier den Arbeitern der ganzen Welt Glück wünschen und ihnen das große Vorbild zeigen, den göttlichen Bruder, den Wortführer all der gerechten Anliegen, die sie betreffen, Christus, unseren Herrn.",
-          "patr_resp1": "Freut euch, lasst euch erneuern und ermahnen, seid eines Sinnes und lebt in Frieden.",
-          "patr_resp2": "Singt und jubelt aus vollem Herzen zum Lob des Herrn.",
-          "patr_resp3": "Tut eure Arbeit gern, als sei sie für den Herrn, nicht für die Menschen.",
-          "hymn_1_lat": 3241.1,
-          "ant1_lat": "Cum indúcerent púerum Iesum paréntes eius, accépit eum Símeon in ulnas suas et benedíxit Deum.",
-          "ant2_lat": "Magi, intrántes domum, invenérunt Púerum cum María matre eius.",
-          "ant3_lat": "Consúrgens Ioseph accépit Púerum et Matrem eius nocte, et secéssit in Ægýptum.",
-          "versikel0_lat": "Ponam univérsos fílios tuos doctos a Dómino.",
-          "versikel1_lat": "Et multitúdinem pacis fíliis tuis."
-        },
-        "Vigil": {
-          "les_buch": "Aus dem heiligen Evangelium nach Johannes.",
-          "les_stelle": "20,19-31"
-        },
-        "Laudes": {
-          "psalm1": 63.0,
-          "psalm2": 160.0,
-          "psalm3": 149.0,
-          "ant1": "Jahr für Jahr zogen die Eltern Jesu hinauf nach Jerusalem, um dort Ostern zu feiern.",
-          "ant2": "Das Kind wuchs heran und wurde kräftig; Gott erfüllte es mit Weisheit, und seine Gnade ruhte auf ihm.",
-          "ant3": "Josef und Maria staunten über die Worte, die man über Jesus sagte.",
-          "les_buch": "›Dtn",
-          "les_stelle": "5,16",
-          "les_text": "Ehre deinen Vater und deine Mutter, wie es dir der Herr, dein Gott, zur Pflicht gemacht hat, damit du lange lebst und es dir gut geht in dem Land, das der Herr, dein Gott, dir gibt.",
-          "les_text_neu": "Ehre deinen Vater und deine Mutter, wie es dir der HERR, dein Gott, geboten hat, damit du lange lebst und es dir gut geht in dem Land, das der HERR, dein Gott, dir gibt!",
-          "resp1": "Christus, du Sohn des lebendigen Gottes,",
-          "resp2": "erbarme°dich°unser.",
-          "resp3": "Du warst Maria und Josef gehorsam.",
-          "antev": "Herr, lenke unsre Schritte auf den Weg des Friedens.",
-          "bitten_e": "Gepriesen sei Christus, der Sohn des lebendigen Gottes, der sich nicht gescheut hat, Kind einer menschlichen Familie zu werden. Zu ihm lasst uns beten:",
-          "bitten_r": "Erhöre uns, Christus.",
-          "bitten": "Du warst Maria und Josef untertan;^qhilf uns, einander zu dienen.^pDeine Mutter bewahrte alle deine Worte in ihrem Herzen;^qgib, dass wir heute dein Wort hören und es bewahren.^pDu wurdest Sohn eines Zimmermanns genannt und hast mit deinen Händen gearbeitet;^qsegne das Werk unserer Hände.^pIn der Familie zu Nazaret bist du herangewachsen, und Gott und die Menschen hatten Gefallen an dir;^qgib, dass auch unser Leben Gott und den Menschen gefallen kann.",
-          "hymn_1_lat": 3241.2,
-          "ant1_lat": "Ibant paréntes Iesu per omnes annos in Ierúsalem in die sollémni Paschæ.",
-          "ant2_lat": "Puer autem crescébat et confortabátur plenus sapiéntia, et grátia Dei erat in illo.",
-          "ant3_lat": "Erant pater eius et mater mirántes super iis, quæ dicebántur de illo.",
-          "resp1_lat": "Christe, Fili Dei vivi,",
-          "resp2_lat": "miserére nobis.",
-          "resp3_lat": "Qui Maríæ et Ioseph súbditus fuísti.",
-          "anta_lat": "Ecce appáret ángelus Dómini in somnis Ioseph in Ægýpto dicens: Surge et áccipe púerum et matrem eius et vade in terram Israel; defúncti sunt enim, qui quærébant ánimam púeri.",
-          "antb_lat": "Erant pater et mater Iesu mirántes super his quæ dicebántur de illo.^Lö",
-          "antc_lat": "Fili, quid fecísti nobis sic? Ecce pater tuus et ego doléntes quærebámus te. Quid est quod me quærebátis? Nesciebátis quia in his quæ Patris mei sunt, opórtet me esse?",
-          "bitten_e_lat": "Fílium Dei vivi, qui fílius humánæ famíliæ fíeri dignátus est, adorémus, ipsum exorántes:",
-          "bitten_r_lat": "Iesu, factus obœ́diens, sanctífica nos.",
-          "bitten_lat": "Iesu, Verbum ætérnum Patris, qui súbditum Maríæ et Ioseph te fecísti,^qdoce nos humilitátem.^pMagíster noster, cuius facta et verba mater tua in corde suo servábat,^qpræsta, ut audiámus verbum tuum et custodiámus illud in corde puro et bono.^pChriste, faber mundi, qui fílium fabri te vocári voluísti,^qdoce nos sedulitátem in ópere.^pIesu, qui in família Názareth sapiéntia, ætáte et grátia apud Deum et hómines proficiébas,^qfac, ut crescámus per ómnia in te, qui es Caput nostrum.",
-          "les_text_lat": "Honóra patrem tuum et matrem, sicut præcépit tibi Dóminus Deus tuus, ut longo vivas témpore et bene sit tibi in terra, quam Dóminus Deus tuus datúrus est tibi."
-        },
-        "Terz": {
-          "les_buch": "›vgl.°Kol",
-          "les_stelle": "3,12–13",
-          "les_text": "Bekleidet euch mit aufrichtigem Erbarmen, mit Güte, Demut, Milde, Geduld! Ertragt euch gegenseitig und vergebt einander, wenn einer dem anderen etwas vorzuwerfen hat! Wie der Herr euch vergeben hat, so vergebt auch ihr!",
-          "les_text_neu": "Bekleidet euch mit innigem Erbarmen, Güte, Demut, Milde, Geduld! Ertragt einander und vergebt einander, wenn einer dem anderen etwas vorzuwerfen hat! Wie der Herr euch vergeben hat, so vergebt auch ihr!",
-          "resp0": "Herr, zeige uns deine Wege.",
-          "resp1": "Auf deinen Pfaden wollen wir gehen.",
-          "resp0_lat": "Dóminus vias suas docébit nos.",
-          "resp1_lat": "Et ambulábimus in sémitis eius.",
-          "les_text_lat": "Indúite vos sicut elécti Dei, sancti et dilécti, víscera misericórdiæ, benignitátem, humilitátem, mansuetúdinem, patiéntiam, supportántes ínvicem et donántes vobis ipsis si quis advérsus áliquem habet querélam; sicut et Dóminus donávit vobis, ita et vos."
-        },
-        "Sext": {
-          "les_buch": "›Kol",
-          "les_stelle": "3,14–15",
-          "les_text": "Vor allem liebt einander, denn die Liebe ist das Band, das alles zusammenhält und vollkommen macht. In eurem Herzen herrsche der Friede Christi; dazu seid ihr berufen als Glieder des einen Leibes. Seid dankbar!",
-          "les_text_neu": "Vor allem bekleidet euch mit der Liebe, die das Band der Vollkommenheit ist! Und der Friede Christi triumphiere in euren Herzen. Dazu seid ihr berufen als Glieder des einen Leibes. Seid dankbar!",
-          "resp0": "Arm bin ich und mit Mühen beladen von Jugend an.",
-          "resp1": "Ich habe mich erniedrigt und unter meine Last gebeugt.",
-          "resp0_lat": "Pauper sum ego et in labóribus a iuventúte mea.",
-          "resp1_lat": "Exaltátus autem humiliátus sum et conturbátus.",
-          "les_text_lat": "Super ómnia hæc caritátem, quod est vínculum perfectiónis. Et pax Christi dominétur in córdibus vestris, ad quam et vocáti estis in uno córpore. Et grati estóte."
-        },
-        "Non": {
-          "les_buch": "›Kol",
-          "les_stelle": "3,17",
-          "les_text": "Alles, was ihr in Worten und Werken tut, geschehe im Namen des Herrn; durch ihn dankt Gott, dem Vater!",
-          "les_text_neu": "Alles, was ihr in Wort oder Werk tut, geschehe im Namen Jesu, des Herrn. Dankt Gott, dem Vater, durch ihn!",
-          "resp0": "All deine Söhne werden Schüler des Herrn sein.",
-          "resp1": "Fülle des Friedens wird ihnen zuteil.",
-          "resp0_lat": "Ponam univérsos fílios tuos doctos a Dómino.",
-          "resp1_lat": "Et multitúdinem pacis fíliis tuis.",
-          "les_text_lat": "Omne, quodcúmque fácitis in verbo aut in ópere, ómnia in nómine Dómini Iesu grátias agéntes Deo Patri per ipsum."
-        },
-        "Vesper": {
-          "psalm1": 122.0,
-          "psalm2": 127.0,
-          "psalm3": 152.0,
-          "ant1": "Nach drei Tagen fanden sie Jesus im Tempel; er saß mitten unter den Lehrern, hörte ihnen zu und stellte Fragen.",
-          "ant2": "Jesus zog mit ihnen hinab und kam nach Nazaret – und er war ihnen untertan.",
-          "ant3": "Jesus wuchs heran, und seine Weisheit nahm zu; Gott und die Menschen fanden Gefallen an ihm.",
-          "les_buch": "›Phil",
-          "les_stelle": "2,6–7",
-          "les_text": "Christus Jesus war Gott gleich, hielt aber nicht daran fest, wie Gott zu sein, sondern er entäußerte sich und wurde wie ein Sklave und den Menschen gleich. Sein Leben war das eines Menschen.",
-          "resp1": "Er musste in allem seinen Brüdern gleich sein, um Barmherzigkeit zu lernen.",
-          "resp2": "Er ist auf Erden erschienen, ein Mensch unter Menschen.",
-          "antev": "Kind, wie konntest du uns das antun! Dein Vater und ich haben dich voll Angst gesucht. – Warum habt ihr mich gesucht? Wusstet ihr nicht, dass ich in dem sein muss, was meines Vaters ist?",
-          "bitten_e": "Lasst uns beten zu Christus, dem Sohn des lebendigen Gottes, der sich nicht gescheut hat, Kind einer menschlichen Familie zu werden:",
-          "bitten_r": "Erhöre uns, Christus.",
-          "bitten": "Du warst als Kind Maria und Josef untertan;^qsegne die Kinder unserer Familien.^pDu hast deine Eltern geliebt und wurdest von ihnen geliebt;^qgib, dass Eltern und Kinder einander lieben.^pDu wolltest allezeit in dem sein, was deines Vaters ist;^qgib, dass in jedem Haus dein himmlischer Vater geehrt wird.^pDu wurdest von deinen Eltern gesucht und am dritten Tag im Hause Gottes wiedergefunden;^qrate den Eltern, die sich Sorge machen um ihre Kinder.^pDu hast Maria und Josef in die Herrlichkeit des Himmels heimgeholt;^qnimm unsere Verstorbenen auf in die Gemeinschaft der Seligen.",
-          "hymn_1_lat": 3241.4,
-          "ant1_lat": "Post tríduum invenérunt Iesum in templo, sedéntem in médio doctórum, audiéntem et interrogántem eos.",
-          "ant2_lat": "Descéndit Iesus cum eis, et venit Názareth, et erat súbditus illis.",
-          "ant3_lat": "Et Iesus proficiébat sapiéntia et ætáte et grátia apud Deum et hómines.",
-          "resp1_lat": "Débuit per ómnia frátribus similári,",
-          "resp2_lat": "ut miséricors fíeret.",
-          "resp3_lat": "In terris visus est, et cum homínibus conversátus est.",
-          "anta_lat": "Véniens Ioseph habitávit in civitáte, quæ vocátur Názareth, ut adimplerétur quod dictum est per prophétas: Nazarǽus vocábitur.",
-          "antb_lat": "Puer Iesus crescébat et confortabátur plenus sapiéntia: et grátia Dei erat super illum.",
-          "antc_lat": "Descéndit Iesus cum eis et venit Názareth et erat súbditus illis. Et Mater eius conservábat ómnia verba in corde suo.",
-          "bitten_e_lat": "Fílium Dei vivi, qui fílius humánæ famíliæ fíeri dignátus est, adorémus, ipsi confiténtes:",
-          "bitten_r_lat": "Tu es, Dómine, exémplar et salvátor ómnium.",
-          "bitten_lat": "Christe, per mystérium subiectiónis tuæ erga Maríam et Ioseph,^qdoce omnes reveréntiam et obœdiéntiam erga eos qui legítime præsunt.^pQui paréntes amásti et ab ipsis amátus es,^qomnes famílias in pace et mútua caritáte constítue.^pTu, qui studiósus fuísti eórum, quæ tui sunt Patris,^qpræsta ut in omni domo Deus honorétur.^pChriste, qui ab ánxiis paréntibus tértia die in domo Patris invéntus es,^qdoce omnes quǽrere primum regnum Dei.^pChriste, qui Maríam et Ioseph tecum in cælésti glória consociásti,^qadmítte defúnctos in famíliam beatórum.",
-          "les_text_lat": "Christus Iesus, cum in forma Dei esset, non rapínam arbitrátus est esse se æquálem Deo, sed semetípsum exinanívit formam servi accípiens, in similitúdinem hóminum factus; et hábitu invéntus ut homo."
-        }
-      }
-    },
-    "2": {
-      "0": {
-        "each": {
-          "oration": "Allmächtiger, ewiger Gott, du erleuchtest alle, die an dich glauben. Offenbare dich den Völkern der Erde, damit alle Menschen das Licht deiner Herrlichkeit schauen.^ORV",
-          "oration_lat": "Omnípotens sempitérne Deus, fidélium splendor animárum, dignáre mundum glória tua implére benígnus, et cunctis pópulis appáre per tui lúminis claritátem.^ORlV"
-        },
-        "ErsteV": {
-          "ant1": "Durch das Wort hat die Jungfrau empfangen. Jungfrau blieb sie. Als Jungfrau gebar sie den König der Könige.",
-          "ant2": "Freut euch mit Jerusalem; denn der Herr leitet den Frieden zu ihr wie einen Strom.",
-          "ant3": "Gottes Sohn ist uns geboren: Gott von Gott, Licht vom Licht vor aller Zeit.",
-          "les_buch": "›1°Joh",
-          "les_stelle": "5,20",
-          "les_text": "Wir wissen: Der Sohn Gottes ist gekommen, und er hat uns Einsicht geschenkt, damit wir den Wahren erkennen. Und wir sind in diesem Wahren, in seinem Sohn Jesus Christus. Er ist der wahre Gott und das ewige Leben.",
-          "resp1": "Das Wort ist Fleisch geworden und hat unter uns gewohnt.",
-          "resp2": "Halleluja,°halleluja.",
-          "resp3": "Aus seiner Fülle haben wir empfangen, Gnade über Gnade.",
-          "antev": "Voll der Gnade bist du, Jungfrau Maria, denn ein großes Geheimnis hat dein Schoß getragen.^ö",
-          "bitten_e": "Lasst uns beten zu unserem Herrn Jesus Christus, der sich selbst erniedrigte und Mensch geworden ist:",
-          "bitten_r": "Herr, durch deine Geburt komm uns zu Hilfe.",
-          "bitten": "Mit deinem Kommen hast du die neue Weltzeit heraufgeführt;^qgib, dass deine Kirche sich immer wieder erneuert.^pDu hast die Gebrechen der Menschen auf dich genommen;^qsei den Blinden Licht, den Schwachen Kraft und den Leidenden Trost.^pIn Armut und Niedrigkeit wurdest du geboren;^qerbarme dich der Armen und mache uns bereit, ihnen zu helfen.^pDeine Geburt auf Erden brachte Freude durch die Verheißung ewigen Lebens;^qschenke den Sterbenden die Zuversicht, dass sie im Tod zum Leben geboren werden.^pDu bist auf die Erde herabgekommen, um alle Menschen zum Himmel zu führen;^qvereine die Toten mit dir in der ewigen Herrlichkeit.",
-          "ant1_lat": "Virgo verbo concépit, Virgo permánsit, Virgo péperit Regem ómnium regum.",
-          "ant2_lat": "Lætámini cum Ierúsalem; declinávit super eam Dóminus quasi flúvium pacis.",
-          "ant3_lat": "Natus est nobis Deus de Deo, lumen de lúmine, quod erat in princípio.",
-          "resp1_lat": "Verbum caro factum est.",
-          "resp2_lat": "Allelúia,°allelúia.",
-          "resp3_lat": "Et habitávit in nobis.",
-          "antev_lat": "Castæ Paréntis víscera cæléstis intrat grátia: venter puéllæ báiulat secréta, quæ non nóverat.",
-          "bitten_e_lat": "Christum adorémus, qui semetípsum exinanívit formam servi accípiens ac tentátus est per ómnia pro similitúdine absque peccáto. Ardénti fide eum precémur:",
-          "bitten_r_lat": "Per nativitátem tuam succúrre redémptis.",
-          "bitten_lat": "Qui, mundum ingrédiens, ætátem novam a prophétis prædíctam instaurásti,^qfac ut semper in novas ætátes tua iuvenéscat Ecclésia.^pQui humánam infirmitátem assumpsísti,^qsis cæcis lumen, debílibus fortitúdo, míseris consolátio.^pQui pauper et húmilis natus es,^qréspice páuperes et propítius consoláre.^pQui terréna nativitáte tua ómnibus de promíssa æternitáte lætítiam ingessísti,^qcæléstis spe nativitátis moriéntium corda lætífica.^pQui in terram descendísti, ut omnes in cælum addúceres,^qin glória tibi coniúnge defúnctos.",
-          "les_text_lat": "Scimus quóniam Fílius Dei venit, et dedit nobis sensum, ut cognoscámus eum, qui verus est; et sumus in eo qui verus est, in Fílio eius Iesu Christo. Hic est qui verus est, Deus et vita ætérna."
-        },
-        "Vigil": {
-          "les_buch": "Aus dem heiligen Evangelium nach Johannes.",
-          "les_stelle": "21,1-14"
-        },
-        "Laudes": {
-          "ant1": "Ein Licht erstrahlt den Gerechten; denn der Erlöser der Welt ist geboren.^ö",
-          "ant2": "Lasst uns ein Loblied singen dem Herrn, unserm Gott.^ö",
-          "ant3": "Das Volk inmitten der Völker sieht ein helles Licht; über denen, die in Finsternis wohnen, strahlt ein Licht auf.",
-          "les_buch": "›Hebr",
-          "les_stelle": "1,1–2",
-          "les_text": "Viele Male und auf vielerlei Weise hat Gott einst zu den Vätern gesprochen durch die Propheten; in dieser Endzeit aber hat er zu uns gesprochen durch den Sohn, den er zum Erben des Alls eingesetzt und durch den er auch die Welt erschaffen hat.",
-          "les_text_neu": "Vielfältig und auf vielerlei Weise hat Gott einst zu den Vätern gesprochen durch die Propheten; am Ende dieser Tage hat er zu uns gesprochen durch den Sohn, den er zum Erben von allem eingesetzt, durch den er auch die Welt erschaffen hat.",
-          "resp1": "Christus, du Sohn des lebendigen Gottes,",
-          "resp2": "erbarme°dich°unser.",
-          "resp3": "Du bist geboren von Maria, der Jungfrau.",
-          "antev": "Gebenedeit bist du unter den Frauen, allzeit jungfräuliche Mutter Maria; denn du hast der Welt das ewige Wort geboren.",
-          "bitten_e": "Lob und Preis und Ehre dem Worte Gottes! Es war bei Gott vor aller Zeit und wurde für uns Mensch in der Zeit. Zu ihm lasst uns rufen:",
-          "bitten": "Christus, ewiges Wort, du bist Fleisch geworden und hast unter uns gewohnt;^qmach unser Herz froh über deine Geburt.^pDu, unser Heiland, in dir ist die Treue Gottes offenbar geworden,^qgib, dass wir Gott die Treue halten.^pKönig des Himmels und der Erde, durch die Engel hast du den Menschen Frieden verkündet;^qbewahre uns in deinem Frieden.^pDu Spross Davids, du wurdest in die Welt eingepflanzt als der wahre Weinstock;^qgib, dass wir in dir bleiben und du in uns.",
-          "ant1_lat": "Lux orta est iusto, quia ómnium natus est Salvátor, allelúia.",
-          "ant2_lat": "Hymnum dicámus Dómino Deo nostro.",
-          "ant3_lat": "Pópulus géntium, qui sedébat in ténebris, vidit lucem magnam.",
-          "resp1_lat": "Christe, Fili Dei vivi,",
-          "resp2_lat": "miserére nobis.",
-          "resp3_lat": "Qui natus es de María Vírgine.",
-          "antev_lat": "Virgo semper fidélis, et si Verbum génuit incarnátum, virgo mansit et post partum, quam laudántes omnes dícimus: Benedícta tu in muliéribus.",
-          "bitten_e_lat": "Dignis láudibus Verbum Dei celebrémus, ante sǽcula exsístens et in témpore nobis natum. Iucúnde acclamémus, dicéntes:",
-          "bitten_r_lat": "Exsúltet terra, quia venísti.",
-          "bitten_lat": "Christe, Verbum ætérnum, qui, in terram descéndens, exsultatiónis rore eam perfudísti,^qlætífica cor nostrum grátiæ tuæ visitatióne contínua.^pSalvátor noster, qui in nativitáte tua, fidelitátem Dei nobis ostendísti,^qconcéde nos plena fide promissiónes baptismáles serváre.^pRex cæli et terræ, qui pacem homínibus ab ángelis nuntiári fecísti,^qvitam nostram in tua pace consérva.^pDómine, qui venísti ut esses vitis vera, nobis fructum vitæ prodúcens,^qfac nos iúgiter pálmites in te manéntes, ne simus infructuósi.",
-          "les_text_lat": "Multifáriam et multis modis olim Deus locútus pátribus in prophétis, in novíssimis his diébus locútus est nobis in Fílio, quem constítuit herédem universórum, per quem fecit et sǽcula."
-        },
-        "Terz": {
-          "les_buch": "›Tit",
-          "les_stelle": "2,11–12",
-          "les_text": "Die Gnade Gottes ist erschienen, um alle Menschen zu retten. Sie erzieht uns dazu, uns von der Gottlosigkeit und den irdischen Begierden loszusagen und besonnen, gerecht und fromm in dieser Welt zu leben,",
-          "les_text_lat": "Appáruit grátia Dei salutáris ómnibus homínibus erúdiens nos, ut abnegántes impietátem et sæculária desidéria sóbrie et iuste et pie vivámus in hoc sǽculo."
-        },
-        "Sext": {
-          "les_buch": "›1°Joh",
-          "les_stelle": "4,9",
-          "les_text": "Die Liebe Gottes wurde unter uns dadurch offenbart, dass Gott seinen einzigen Sohn in die Welt gesandt hat, damit wir durch ihn leben.",
-          "les_text_neu": "Darin offenbarte sich die Liebe Gottes unter uns, dass Gott seinen einzigen Sohn in die Welt gesandt hat, damit wir durch ihn leben.",
-          "les_text_lat": "In hoc appáruit cáritas Dei in nobis quóniam Fílium suum unigénitum misit Deus in mundum, ut vivámus per eum."
-        },
-        "Non": {
-          "les_buch": "›Apg",
-          "les_stelle": "10,36",
-          "les_text": "Gott hat das Wort den Israeliten gesandt, indem er den Frieden verkündete durch Jesus Christus; dieser ist der Herr aller.",
-          "les_text_neu": "Gott hat das Wort den Israeliten gesandt, indem er den Frieden verkündete durch Jesus Christus: dieser ist der Herr aller.",
-          "les_text_lat": "Verbum misit Deus fíliis Israel evangelízans pacem per Iesum Christum; hic est ómnium Dóminus."
-        },
-        "Vesper": {
-          "ant1": "Aufgeleuchtet ist uns aufs neue der Tag der Erlösung, der uralte Sehnsucht erfüllt und ewige Glückseligkeit verheißt.",
-          "ant2": "Der Herr ist barmherzig und getreu. Er hat seinen Sohn gesandt, uns zu erlösen.",
-          "ant3": "Auf Erden ist uns geboren der Herr, der König der Könige. Siehe, schon ist gekommen das Heil der Welt, unsere Erlösung.^ö",
-          "les_buch": "›1°Joh",
-          "les_stelle": "1,1–3",
-          "les_text": "Was von Anfang an war, was wir gehört haben, was wir mit unseren Augen gesehen, was wir geschaut und was unsere Hände angefasst haben, das verkünden wir, vom Wort des Lebens sprechen wir. Denn das Leben wurde offenbart; wir haben gesehen und bezeugen und verkünden euch das ewige Leben, das beim Vater war und uns offenbart wurde. Was wir gesehen und gehört haben, das verkünden wir auch euch, damit auch ihr Gemeinschaft mit uns habt. Wir aber haben Gemeinschaft mit dem Vater und mit seinem Sohn Jesus Christus.",
-          "les_text_neu": "Was von Anfang an war, was wir gehört, was wir mit unseren Augen gesehen, was wir geschaut und was unsere Hände angefasst haben vom Wort des Lebens – das Leben ist erschienen, und wir haben gesehen und bezeugen und verkünden euch das ewige Leben, das beim Vater war und uns erschienen ist –, was wir gesehen und gehört haben, das verkünden wir auch euch, damit auch ihr Gemeinschaft mit uns habt. Wir aber haben Gemeinschaft mit dem Vater und mit seinem Sohn Jesus Christus.",
-          "antev": "Selig der Leib, der den Sohn des ewigen Vaters getragen, selig die Brust, die Christus, den Herrn, genährt hat.",
-          "bitten_e": "Lasst uns beten zu unserem Heiland, bei dessen Geburt Engel der Welt den Frieden verkündeten:",
-          "bitten_r": "Deine Geburt bringe Frieden den Menschen.",
-          "bitten": "Herr, schenke der Kirche die Fülle deiner Gaben;^qmache sie froh durch die Feier deiner Geburt.^pDu bist unser Hirt und Bischof;^qmache den Papst und die Bischöfe zu treuen Dienern deiner Gnade.^pKönig vor aller Zeit und in Ewigkeit, du hast dich eingrenzen lassen in die kurze Spanne menschlichen Lebens;^qgib den sterblichen Menschen Anteil an deiner Ewigkeit.^pVon Urzeit her erwartet, bist du gekommen, als die Zeit erfüllt war;^qoffenbare deine Ankunft denen, die noch auf dich warten.^pDu hast den Menschen, der dem Tod verfallen ist, durch deine Menschwerdung erneuert;^qvollende an unseren Verstorbenen das Werk der Erlösung.",
-          "ant1_lat": "Illúxit nobis dies redemptiónis novæ, reparatiónis antíquæ, felicitátis ætérnæ.",
-          "ant2_lat": "Misit Dóminus misericórdiam suam et veritátem suam.",
-          "ant3_lat": "In terris natus est nobis rex regum Dóminus: ecce iam venit nobis salus mundi, redémptio nostra, allelúia.",
-          "antev_lat": "Beáta víscera, quæ portavérunt ætérni Patris Fílium, et beáta úbera, quæ lactavérunt Christum Dóminum.",
-          "bitten_e_lat": "Christum iubilántes celebrémus, in cuius nativitáte ángeli pacem mundo nuntiavérunt, et devótis ánimis exorémus:",
-          "bitten_r_lat": "Natívitas tua pacem cunctis áfferat.",
-          "bitten_lat": "Reple, Dómine, ómnibus bonis Ecclésiam tuam,^qquam nativitátis tuæ mystério consoláris.^pQui princeps pastórum venísti et nostrárum epíscopus animárum,^qpapam et epíscopos nostros fidéles redde dispensatóres multifórmis grátiæ tuæ.^pRex æternitátis, qui, nascens, brevi vitæ spátio circumscríbi et hóminum vicissitúdines experíri voluísti,^qnos cadúcos et mortáles æternitátis tuæ redde consórtes.^pQui, a sǽculis exspectátus, in plenitúdine témporis venísti,^qmanifésta præséntiam tuam iis, qui adhuc te exspéctant.^pQui, caro factus, humánam substántiam, morte corrúptam restaurásti,^qdefúnctis tuam plenam restauratiónem concéde.",
-          "les_text_lat": "Quod fuit ab inítio, quod audívimus, quod vídimus óculis nostris, quod perspéximus et manus nostræ contrectavérunt, de verbo vitæ – et vita appáruit, et vídimus et testámur et annuntiámus vobis vitam ætérnam, quæ erat coram Patre et appáruit nobis – quod vídimus et audívimus, annuntiámus et vobis, ut et vos communiónem habeátis nobíscum. Commúnio autem nostra est cum Patre et cum Fílio eius Iesu Christo."
-        }
-      }
-    },
-    "each": {
-      "each": {
-        "Invitatorium": {
-          "ant0": "Christus ist uns geboren; kommt, wir beten ihn an.",
-          "ant0_lat": "Christus natus est nobis: veníte, adorémus."
-        },
-        "Lesehore": {
-          "hymn_1": 3211.0,
-          "hymn_2": 3212.0,
-          "hymn_1_lat": 3211.1,
-          "hymn_2_lat": 0.0
-        },
-        "Vigil": {
-          "psalm1": 182.0,
-          "psalm2": 199.113,
-          "psalm3": 194.0
-        },
-        "Laudes": {
-          "hymn_1": 3221.0,
-          "hymn_kl": 0.0,
-          "resp1": "Der Herr hat kundgemacht sein Heil.",
-          "resp2": "Halleluja,°halleluja.",
-          "resp3": "Vor den Augen der Völker hat er sein Walten enthüllt.",
-          "hymn_1_lat": 3221.1,
-          "resp1_lat": "Notum fecit Dóminus.",
-          "resp2_lat": "Allelúia,°allelúia.",
-          "resp3_lat": "Salutáre suum."
-        },
-        "Terz": {
-          "ant0": "Josef und Maria staunten über die Worte, die man über Jesus sagte.",
-          "ant1": "",
-          "ant2": "",
-          "ant3": "",
-          "resp0": "Der Herr gedachte seiner Huld.^ö",
-          "resp1": "Und seiner Treue zum Hause Israel.^ö",
-          "hymn_2_lat": 0.0,
-          "ant0_lat": "Erant Ioseph et María, mater Iesu, mirántes super iis, quæ dicebántur de illo.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "Recordátus est Dóminus misericórdiæ suæ.^Lö",
-          "resp1_lat": "Et veritátis suæ dómui Israel.^Lö"
-        },
-        "Sext": {
-          "ant0": "Maria bewahrte alles, was geschehen war, und erwog es in ihrem Herzen.",
-          "ant1": "",
-          "ant2": "",
-          "ant3": "",
-          "resp0": "Alle Enden der Erde.^ö",
-          "resp1": "Schauen das Heil unseres Gottes.^ö",
-          "hymn_2_lat": 0.0,
-          "ant0_lat": "María autem conservábat ómnia verba hæc, cónferens in corde suo.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "Vidérunt omnes fines terræ.^Lö",
-          "resp1_lat": "Salutáre Dei nostri.^Lö"
-        },
-        "Non": {
-          "ant0": "Meine Augen haben das Heil gesehen, das du vor allen Völkern bereitet hast.",
-          "ant1": "",
-          "ant2": "",
-          "ant3": "",
-          "resp0": "Huld und Treue begegnen einander.^ö",
-          "resp1": "Gerechtigkeit und Friede küssen sich.^ö",
-          "hymn_2_lat": 0.0,
-          "ant0_lat": "Vidérunt óculi mei salutáre tuum, quod parásti ante fáciem ómnium populórum.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "Misericórdia et véritas obviavérunt sibi.^Lö",
-          "resp1_lat": "Iustítia et pax osculátæ sunt.^Lö"
-        },
-        "Vesper": {
-          "hymn_1": 3241.0,
-          "hymn_kl": 0.0,
-          "resp1": "Das Wort ist Fleisch geworden und hat unter uns gewohnt.",
-          "resp2": "Halleluja,°halleluja.",
-          "resp3": "Aus seiner Fülle haben wir empfangen, Gnade über Gnade.",
-          "hymn_1_lat": 3241.1,
-          "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
-          "resp1_lat": "Verbum caro factum est.",
-          "resp2_lat": "Allelúia,°allelúia.",
-          "resp3_lat": "Et habitávit in nobis."
-        }
-      }
-    },
-    "last": {
-      "each": {
-        "Invitatorium": {
-          "ant0": "Christus ist uns erschienen; kommt, wir beten ihn an.",
-          "ant0_lat": ""
-        },
-        "Lesehore": {
-          "hymn_1": 3214.0,
-          "hymn_2": 0.0,
-          "hymn_1_lat": 3211.3,
-          "hymn_2_lat": 0.0
-        },
-        "Laudes": {
-          "hymn_1": 3224.0,
-          "hymn_kl": 0.0,
-          "resp1": "Alle Könige müssen ihm huldigen, alle Völker ihm dienen.",
-          "resp2": "Halleluja,°halleluja.",
-          "resp3": "Sein Name wird ewig bestehen, seine Herrlichkeit erfüllt die Erde.",
-          "hymn_1_lat": 3221.3,
-          "resp1_lat": "Adorábunt eum",
-          "resp2_lat": "omnes reges terræ.",
-          "resp3_lat": "Omnes gentes sérvient ei."
-        },
-        "Terz": {
-          "ant0": "Das Geheimnis, das von Ewigkeit her verborgen war – heute wurde es kundgetan.",
-          "ant1": "",
-          "ant2": "",
-          "ant3": "",
-          "resp0": "Er ist auf Erden erschienen.",
-          "resp1": "Er hat mit den Menschen gelebt.",
-          "hymn_1_lat": 4003.2,
-          "hymn_2_lat": 0.0,
-          "ant0_lat": "Mystérium, quod abscónditum fuit a sǽculis et generatiónibus, nunc manifestátum est.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "In terris visus est.",
-          "resp1_lat": "Et cum homínibus conversátus est."
-        },
-        "Sext": {
-          "ant0": "Einst wart ihr fern, nun seid ihr nahe; denn Christus ist erschienen, euer Friede.",
-          "ant1": "",
-          "ant2": "",
-          "ant3": "",
-          "resp0": "Die Völker schauen den Gerechten.",
-          "resp1": "Alle Könige den Herrn der Herrlichkeit.",
-          "hymn_1_lat": 4006.2,
-          "hymn_2_lat": 0.0,
-          "ant0_lat": "Véniens Christus evangelizávit pacem vobis, qui longe fuístis, et pacem iis qui prope erant.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "Vidébunt gentes iustum tuum.",
-          "resp1_lat": "Et cuncti reges ínclitum tuum."
-        },
-        "Non": {
-          "ant0": "Ich mache dich zum Licht für alle Völker; trage mein Heil bis an die Enden der Erde.",
-          "ant1": "",
-          "ant2": "",
-          "ant3": "",
-          "resp0": "Ihr Völker, preist unsern Gott.",
-          "resp1": "Erhebt die Stimme zu seinem Lob.",
-          "hymn_1_lat": 4009.2,
-          "hymn_2_lat": 0.0,
-          "ant0_lat": "Ecce dedi te in lucem géntium, ut sis salus mea usque ad extrémum terræ.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp0_lat": "Benedícite, gentes, Deum nostrum.",
-          "resp1_lat": "Et audítam fácite vocem laudis eius."
-        },
-        "Vesper": {
-          "hymn_1": 3244.0,
-          "hymn_kl": 0.0,
-          "resp1": "In ihm sind gesegnet alle Völker der Erde.",
-          "resp2": "Halleluja,°halleluja.",
-          "resp3": "Alle Stämme sollen ihn preisen.",
-          "hymn_1_lat": 3241.3,
-          "resp1_lat": "Benedicéntur in ipso",
-          "resp2_lat": "omnes tribus terræ.",
-          "resp3_lat": "Omnes gentes magnificábunt eum."
-        }
-      }
-    },
-    "okt": {
-      "each": {
-        "Laudes": {
-          "psalm1": 63.0,
-          "psalm2": 160.0,
-          "psalm3": 149.0,
-          "ant1": "Ihr Hirten, wen habt ihr gesehen? Sagt und verkündet uns: Wer ist auf Erden erschienen? – Wir sahen das Kind und hörten die Chöre der Engel; die sangen das Lob des Herrn.^ö",
-          "ant2": "Der Engel sprach zu den Hirten: Ich verkünde euch große Freude; heute ist euch der Heiland geboren, der Retter der Welt.^ö",
-          "ant3": "Ein Kind ist uns heute geboren. „Starker Gott“ ist sein Name.^ö",
-          "ant1_lat": "Quem vidístis? pastóres, dícite; annuntiáte nobis: In terris quis appáruit? Natum vídimus et choros angelórum collaudántes Dóminum.^Lö",
-          "ant2_lat": "Angelus ad pastóres ait: Annúntio vobis gáudium magnum, quia natus est vobis hódie Salvátor mundi.^Lö",
-          "ant3_lat": "Párvulus fílius hódie natus est nobis, et vocábitur Deus fortis.^Lö"
-        },
-        "Vesper": {
-          "hymn_1": 3241.0,
-          "hymn_2": 0.0,
-          "hymn_3": 0.0,
-          "hymn_kl": 0.0,
-          "psalm1": 110.0,
-          "psalm2": 130.0,
-          "psalm3": 154.0,
-          "ant0": "",
-          "ant1": "Dein ist die Herrschaft am Tag deiner Macht, wenn du erscheinst in heiligem Schmuck; ich habe dich gezeugt noch vor dem Morgenstern.",
-          "ant2": "Beim Herrn ist die Huld, bei ihm ist Erlösung in Fülle.",
-          "ant3": "Das Wort war Gott – im Anfang und vor aller Zeit; heute ist er geboren als Heiland der Welt.",
-          "resp1": "Das Wort ist Fleisch geworden und hat unter uns gewohnt.",
-          "resp2": "Halleluja,°halleluja.",
-          "resp3": "Aus seiner Fülle haben wir empfangen, Gnade über Gnade.",
-          "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
-          "ant0_lat": "",
-          "ant1_lat": "Tecum princípium in die virtútis tuæ, in splendóribus sanctórum, ex útero ante lucíferum génui te.",
-          "ant2_lat": "Apud Dóminum misericórdia, et copiósa apud eum redémptio.",
-          "ant3_lat": "In princípio et ante sǽcula Deus erat Verbum: ipse natus est hódie Salvátor mundi."
         }
       }
     }
@@ -22414,109 +19690,11 @@ export const brevierData = {
       }
     }
   },
-  "wt": {
-    "each": {
-      "each": {
-        "ErsteV": {},
-        "Laudes": {},
-        "Terz": {
-          "hymn_1": 2300.0,
-          "hymn_2": 2301.0,
-          "hymn_1_lat": 4003.1,
-          "hymn_2_lat": 4003.2
-        },
-        "Sext": {
-          "hymn_1": 2600.0,
-          "hymn_2": 2601.0,
-          "hymn_1_lat": 4006.1,
-          "hymn_2_lat": 4006.2
-        },
-        "Non": {
-          "hymn_1": 2900.0,
-          "hymn_2": 2901.0,
-          "hymn_1_lat": 4009.1,
-          "hymn_2_lat": 4009.2
-        },
-        "Vesper": {},
-        "Komplet": {
-          "hymn_1": 2500.0,
-          "hymn_1_lat": 2500.1
-        }
-      },
-      "0": {
-        "Lesehore": {},
-        "Komplet": {
-          "hymn_2": 2510.0
-        }
-      },
-      "1": {
-        "Komplet": {
-          "hymn_2": 2511.0
-        }
-      },
-      "2": {
-        "Komplet": {
-          "hymn_2": 2512.0
-        }
-      },
+  "pa": {
+    "4": {
       "3": {
-        "Komplet": {
-          "hymn_2": 2513.0
-        }
-      },
-      "4": {
-        "Komplet": {
-          "hymn_2": 2514.0
-        }
-      },
-      "5": {
-        "Komplet": {
-          "hymn_2": 2515.0
-        }
-      },
-      "6": {
-        "Komplet": {
-          "hymn_2": 2516.0
-        }
-      }
-    }
-  },
-  "n5": {
-    "mar": {
-      "sa": {
-        "Invitatorium": {
-          "ant0": "Christus, den Sohn Mariens – kommt, wir beten ihn an!^ODER^ANTAm Gedenktag der seligen Jungfrau Maria lasst uns den Herrn lobpreisen!",
-          "ant0_lat": "Christum, Fílium Maríæ, veníte, adorémus.^VEL^ANTMemóriam beátæ Maríæ Vírginis clebrántes, iubilémus Dómino."
-        },
-        "Lesehore": {
-          "comm_1": "Maria_Sa",
-          "patr_autor": "^A:MariaSaLh:Proclus von Konstantinopel († 446)",
-          "patr_werk": "Aus einer Predigt zum Weihnachtsfest.",
-          "patr_text": "^hDer°die°Menschen°liebt, ist°Mensch°geworden, geboren°von°der°Jungfrau^p„Die Himmel sollen sich freuen, die Wolken Gerechtigkeit regnen, denn der Herr hat sich seines Volkes erbarmt. Die Himmel sollen sich freuen“, denn als sie geschaffen wurden, wurde auch Adam von seinem Schöpfer gebildet aus jungfräulicher Erde; er wurde Gottes Freund und Hausgenosse.^p„Die Himmel sollen sich freuen“{1#Ps 96,11}, denn heute wurde durch das Kommen des Herrn im Fleisch die Erde geheiligt und die Menschen von den Götzenopfern befreit.^p„Die Wolken sollen Gerechtigkeit regnen“{2#vgl. Jes 45,8}, denn heute wurde die Sünde Evas weggenommen und vergeben um der Reinheit der Jungfrau Maria willen und durch den, der als Gott und Mensch von ihr geboren wurde. Heute wurde Adam von jenem schrecklichen Urteil befreit, das ihn einst zur Todesnacht verdammt hatte.^pHeute wurde Christus geboren von der Jungfrau, aus der er nach dem Heilsplan Gottes Fleisch angenommen hatte.^p„Das Wort ist Fleisch geworden und hat unter uns gewohnt“{3#Joh 1,14}, und daher wurde die Jungfrau zur Mutter Gottes. Sie wurde Mutter und blieb doch Jungfrau, denn ohne eines Mannes Zutun ist das Wort Fleisch geworden und wurde von ihr geboren; so bewahrte sie ihre Jungfräulichkeit durch die wunderbare Geburt dessen, der es so gewollt hatte.^pSie ist Mutter wegen der menschlichen Natur des göttlichen Wortes, das in ihr Fleisch geworden und der Welt erschienen ist; Wort und Fleisch wurden eins gemäß der Weisheit und dem Willen dessen, der große Wunder vollbringt.^pEr ist aus menschlichem Geschlecht, wie der heilige Paulus sagt. Er war, was er nun ist und sein und bleiben wird.^pUnseretwillen ist er Mensch geworden. Er, der den Menschen liebt, ist Mensch geworden, was er vorher nicht war. Er ist Mensch geworden und blieb doch Gott, ohne jede Veränderung. Er ist mir also ähnlich geworden um meinetwillen; er ist geworden, was er nicht war, und bewahrte dennoch, was er war. Er ist Mensch geworden, um sich unsere Leiden zu eigen zu machen, um uns die Macht zu geben, „Kinder Gottes zu werden“{4#Joh 1,12}, und uns sein Reich zu schenken.^pDessen mache uns würdig die Gnade und Barmherzigkeit des Herrn Jesus Christus, dem mit dem Vater und dem Heiligen Geist Ruhm und Ehre und Macht ist jetzt und alle Zeit und in Ewigkeit. Amen.",
-          "patr_resp1": "Es strömt wie Regen herab auf das Feld.",
-          "patr_resp2": "Seine°Herrlichkeit erfüllt die ganze Erde.",
-          "patr_resp3": "Seht das Zelt Gottes unter den Menschen. Er wird in ihrer Mitte wohnen, Gott selbst wird mit ihnen sein.",
-          "oration": "^RUBRMan kann eine der folgenden Orationen auswählen:^0RUBR^l^r1^0r°°°Herr und Gott, auf die Fürsprache der jungfräulichen Mutter Maria schenke uns die Gesundheit des Leibes und das Heil der Seele. Nimm von uns die Traurigkeit dieser Zeit und führe uns zur ewigen Freude.^ORV^p^r2^0r°°°Barmherziger Gott, mit unserem eigenen Tun können wir vor dir nicht bestehen. Darum höre auf die Fürsprache der seligen Jungfrau Maria. Schau nicht auf unser Versagen, sondern sei uns gnädig und rette uns.^ORV^p^r3^0r°°°Barmherziger Gott, du kennst unsere Schwachheit und unsere Not. Auf die Fürsprache der seligen Jungfrau Maria nimm von uns die Last der Sünde, verzeih uns und richte uns auf.^ORV^p^r4^0r°°°Gütiger Gott, komm uns zu Hilfe auf die Fürsprache der seligen Jungfrau Maria. Befreie uns aus allen Gefahren und lass uns froh werden in deinem Frieden.^ORV^p^r5^0r°°°Allmächtiger Gott, wir gedenken der seligen Jungfrau Maria, die du aus allen Menschen erwählt und geheiligt hast. Höre auf ihre Fürsprache und schenke auch uns Heil und Segen aus der Fülle deiner Gnade.^ORV^p^r6^0r°°°Allmächtiger Gott, im Vertrauen auf die Fürsprache Unserer Lieben Frau flehen wir zu dir. Befreie uns von allem Bösen, das uns auf Erden bedroht, und schenke uns im Himmel die unvergängliche Freude.^ORV",
-          "oration_lat": "^RUBRDicitur una ex sequentibus orationibus ad libitum selecta:^0RUBR^l^r1^0r°°°Concéde nos fámulos tuos, quǽsumus, Dómine Deus, perpétua mentis et córporis sanitáte gaudére, et, gloriósa beátæ Maríæ semper Vírginis intercessióne, a præsénti liberári tristítia, et ætérna pérfrui lætítia.^ORlV^p^r2^0r°°°Famulórum tuórum, quǽsumus, Dómine, delíctis ignósce, ut, qui tibi placére de áctibus nostris non valémus, Genetrícis Fílii tui Dómini nostri intercessióne salvémur.^ORlV^p^r3^0r°°°Concéde, miséricors Deus, fragilitáti nostræ præsídium, ut, qui sanctæ Dei Genetrícis memóriam ágimus, intercessiónis eius auxílio a nostris iniquitátibus resurgámus.^ORlV^p^r4^0r°°°Adiuvet nos, quǽsumus, Dómine, beátæ Maríæ semper Vírginis intercéssio veneránda, et a cunctis perículis absolútos in tua fáciat pace gaudére.^ORlV^p^r5^0r°°°Sanctíssimæ venerántibus Vírginis Maríæ memóriam gloriósam, ipsíus nobis, quǽsumus, Dómine, intercessióne concéde, ut de plenitúdine grátiæ tuæ nos quoque mereámur accípere.^ORlV^p^r6^0r°°°Concéde, quǽsumus, omnípotens Deus, ut fidéles tui, qui sub sanctíssimæ Vírginis Maríæ patrocínio lætántur, eius pia intercessióne a cunctis malis liberéntur in terris, et ad gáudia ætérna perveníre mereántur in cælis.^ORlV"
-        },
         "Laudes": {
-          "comm_1": "Maria_Sa",
-          "button": "Gedächtnis Mariens am°Samstag",
-          "farbe": "m",
-          "les_buch": "^A:MariaSaLd:Gal",
-          "les_stelle": "4,4–5",
-          "les_text": "Als die Zeit erfüllt war, sandte Gott seinen Sohn, geboren von einer Frau und dem Gesetz unterstellt, damit er die freikaufte, die unter dem Gesetz stehen, und damit wir die Sohnschaft erlangten.",
-          "resp1": "Du bliebst unversehrt nach der Geburt,",
-          "resp2": "heilige Jungfrau Maria.",
-          "resp3": "Gottesgebärerin, bitte für uns.",
-          "antev": "^RUBRBenedictus-Antiphonen zur Auswahl:^0RUBR^l^r1^0r°°°Der seligen Jungfrau Maria lasst uns gedenken; sie bittet für uns bei Christus, dem Herrn.^p^r2^0r°°°Gesegnet bist du, Jungfrau Maria, vom Herrn, dem erhabenen Gott, vor allen Frauen auf Erden.^p^r3^0r°°°Durch dich, o heilige Jungfrau, ist uns das Leben neu geschenkt; du hast empfangen durch den Heiligen Geist und der Welt den Heiland geboren.^p^r4^0r°°°Gegrüßet seist du, Maria, voll der Gnade, der Herr ist mit dir. Du bist gebenedeit unter den Frauen.^ö^p^r5^0r°°°Heilige und makellose Jungfrau, wie soll ich dich preisen: Du hast den Erlöser geboren, Jesus Christus, unsern Herrn.^p^r6^0r°°°Du bist der Ruhm Jerusalems, du die Freude Israels und der Stolz unseres Volkes.",
-          "oration": "^RUBRMan kann eine der folgenden Orationen auswählen:^0RUBR^l^r1^0r°°°Herr und Gott, auf die Fürsprache der jungfräulichen Mutter Maria schenke uns die Gesundheit des Leibes und das Heil der Seele. Nimm von uns die Traurigkeit dieser Zeit und führe uns zur ewigen Freude.^ORV^p^r2^0r°°°Barmherziger Gott, mit unserem eigenen Tun können wir vor dir nicht bestehen. Darum höre auf die Fürsprache der seligen Jungfrau Maria. Schau nicht auf unser Versagen, sondern sei uns gnädig und rette uns.^ORV^p^r3^0r°°°Barmherziger Gott, du kennst unsere Schwachheit und unsere Not. Auf die Fürsprache der seligen Jungfrau Maria nimm von uns die Last der Sünde, verzeih uns und richte uns auf.^ORV^p^r4^0r°°°Gütiger Gott, komm uns zu Hilfe auf die Fürsprache der seligen Jungfrau Maria. Befreie uns aus allen Gefahren und lass uns froh werden in deinem Frieden.^ORV^p^r5^0r°°°Allmächtiger Gott, wir gedenken der seligen Jungfrau Maria, die du aus allen Menschen erwählt und geheiligt hast. Höre auf ihre Fürsprache und schenke auch uns Heil und Segen aus der Fülle deiner Gnade.^ORV^p^r6^0r°°°Allmächtiger Gott, im Vertrauen auf die Fürsprache Unserer Lieben Frau flehen wir zu dir. Befreie uns von allem Bösen, das uns auf Erden bedroht, und schenke uns im Himmel die unvergängliche Freude.^ORV",
-          "resp1_lat": "Post partum, Virgo,",
-          "resp2_lat": "invioláta°permansísti.",
-          "resp3_lat": "Dei Génetrix, intercéde pro nobis.",
-          "antev_lat": "^RUBRAd Benedictus, antiphona ex sequentibus ad libitum sumitur:^0RUBR^l^r1^0r°°°Beatíssimæ Vírginis Maríæ commemoratiónem devotíssime celebrémus, ut ipsa pro nobis intercédat ad Dóminum Iesum Christum.^p^r2^0r°°°Benedícta es tu, Virgo María, a Dómino Deo excélso, præ ómnibus muliéribus super terram.^p^r3^0r°°°Per te, immaculáta Virgo, nobis est vita pérdita data, quæ de cælo suscepísti prolem et mundo genuísti Salvatórem.^p^r4^0r°°°Ave, María, grátia plena; Dóminus tecum; benedícta tu in muliéribus.^Lö^p^r5^0r°°°Sancta et immaculáta Maríæ virgínitas, quibus te láudibus éfferam néscio, quia per te Redemptórem nostrum suscépimus, Dóminum nostrum Iesum Christum.^p^r6^0r°°°Tu glória Ierúsalem, tu lætítia Israel, tu honorificéntia pópuli nostri.",
-          "les_text_lat": "Ubi venit plenitúdo témporis, misit Deus Fílium suum, factum ex mulíere, factum sub lege, ut eos, qui sub lege erant, redímeret, ut adoptiónem filiórum reciperémus.",
-          "oration_lat": "^RUBRDicitur una ex sequentibus orationibus ad libitum selecta:^0RUBR^l^r1^0r°°°Concéde nos fámulos tuos, quǽsumus, Dómine Deus, perpétua mentis et córporis sanitáte gaudére, et, gloriósa beátæ Maríæ semper Vírginis intercessióne, a præsénti liberári tristítia, et ætérna pérfrui lætítia.^ORlV^p^r2^0r°°°Famulórum tuórum, quǽsumus, Dómine, delíctis ignósce, ut, qui tibi placére de áctibus nostris non valémus, Genetrícis Fílii tui Dómini nostri intercessióne salvémur.^ORlV^p^r3^0r°°°Concéde, miséricors Deus, fragilitáti nostræ præsídium, ut, qui sanctæ Dei Genetrícis memóriam ágimus, intercessiónis eius auxílio a nostris iniquitátibus resurgámus.^ORlV^p^r4^0r°°°Adiuvet nos, quǽsumus, Dómine, beátæ Maríæ semper Vírginis intercéssio veneránda, et a cunctis perículis absolútos in tua fáciat pace gaudére.^ORlV^p^r5^0r°°°Sanctíssimæ venerántibus Vírginis Maríæ memóriam gloriósam, ipsíus nobis, quǽsumus, Dómine, intercessióne concéde, ut de plenitúdine grátiæ tuæ nos quoque mereámur accípere.^ORlV^p^r6^0r°°°Concéde, quǽsumus, omnípotens Deus, ut fidéles tui, qui sub sanctíssimæ Vírginis Maríæ patrocínio lætántur, eius pia intercessióne a cunctis malis liberéntur in terris, et ad gáudia ætérna perveníre mereántur in cælis.^ORlV"
+          "psalm1": 108.0
         }
       }
     }
@@ -22553,6 +19731,11 @@ export const brevierData = {
       }
     },
     "4": {
+      "1": {
+        "Terz": {
+          "psalm3": 120.101
+        }
+      },
       "5": {
         "Lesehore": {
           "psalm1": 55.3,
@@ -22577,94 +19760,6 @@ export const brevierData = {
           "ant1_lat": "Dóminus advocávit cælum et terram, ut discérnat pópulum suum.",
           "ant2_lat": "Invoca me in die tribulatiónis, et éruam te.",
           "ant3_lat": "Sacrificium laudis honorificábit me."
-        }
-      },
-      "1": {
-        "Terz": {
-          "psalm3": 120.101
-        }
-      }
-    }
-  },
-  "pvigil": {
-    "1": {
-      "0": {
-        "Vigil": {
-          "les_buch": "Aus dem heiligen Evangelium nach Matthäus.",
-          "les_stelle": "28,1-10.16-20",
-          "les_text": "^hEr ist von den Toten auferstanden und°geht°euch°voraus°nach°Galiläa^pNach dem Sabbat, kamen in der Morgendämmerungbeim Anbruch des ersten Tages der Woche, kamen Maria aus Magdala und die andere Maria, um nach dem Grab zu sehen.^pPlötzlichUnd siehe, es entstandgeschah ein gewaltiges Erdbeben; denn ein Engel des Herrn kam vom Himmel herab, trat an das Grab, wälzte den Stein weg und setzte sich darauf. Seine AussehenGestalt warleuchtete wie ein Blitz und sein Gewand war weiß wie Schnee. Aus Furcht vor ihm erbebten Ddie Wächter begannen vor Angst zu zittern und fielenwaren wie tot zu Boden.^pDer Engel aber sagte zu den Frauen: Fürchtet euch nicht! Ich weiß, ihr sucht Jesus, den Gekreuzigten. Er ist nicht hier; denn er ist auferstanden, wie er gesagt hat. Kommt her und seht euch die Stelleden Ort an, wo er lag!.^pDann geht schnell zu seinen Jüngern und sagt ihnen: Er ist von den Toten auferstanden. und siehe, Eer geht euch voraus nach Galiläa, dort werdet ihr ihn sehen. Siehe, Iich habe es euch gesagt.^pSogleich verließen sie das Grab und eilten voll Furcht und großer Freude, und sie eilten zu seinen Jüngern, um ihnen die Botschaft zu verkünden.^pPlötzlich kam ihnen Jesus entgegen und sagte: Seid gegrüßt! Sie gingen auf ihn zu, warfen sich vor ihm nieder und umfassten seine Füße.^pDa sagte Jesus zu ihnen: Fürchtet euch nicht! Geht und sagt meinen Brüdern, sie sollen nach Galiläa gehen und dort werden sie mich sehen.^pDie elf Jünger gingen nach Galiläa auf den Berg, den Jesus ihnen genannt hatte. Und als sie Jesus sahen, fielen sie vor ihm nieder,. Eeinige aber hatten Zweifel.^pDa trat Jesus auf sie zu und sagte zu ihnen: Mir ist alle VollMmacht gegeben im Himmel und auf der Erde. Darum geht zu allen Völkern und macht alle VölkerMenschen zu meinen Jüngern; tauft sie auf den Namen des Vaters und des Sohnes und des Heiligen Geistes, und lehrt sie, alles zu befolgen, was ich euch geboten habe. Und siehe,Seid gewiss: Iich bin mitbei euch alle Tage bis zum Ende der Welt.",
-          "les_text_neu": "^hEr ist von den Toten auferstanden und°geht°euch°voraus°nach°Galiläa^pNach dem Sabbat, beim Anbruch des ersten Tages der Woche, kamen Maria aus Magdala und die andere Maria, um nach dem Grab zu sehen.^pUnd siehe, es geschah ein gewaltiges Erdbeben; denn ein Engel des Herrn kam vom Himmel herab, trat an das Grab, wälzte den Stein weg und setzte sich darauf. Sein Aussehen war wie ein Blitz und sein Gewand weiß wie Schnee. Aus Furcht vor ihm erbebten die Wächter und waren wie tot.^pDer Engel aber sagte zu den Frauen: Fürchtet euch nicht! Ich weiß, ihr sucht Jesus, den Gekreuzigten. Er ist nicht hier; denn er ist auferstanden, wie er gesagt hat. Kommt her und seht euch den Ort an, wo er lag!^pDann geht schnell zu seinen Jüngern und sagt ihnen: Er ist von den Toten auferstanden und siehe, er geht euch voraus nach Galiläa, dort werdet ihr ihn sehen. Siehe, ich habe es euch gesagt.^pSogleich verließen sie das Grab voll Furcht und großer Freude, und sie eilten zu seinen Jüngern, um ihnen die Botschaft zu verkünden.^pPlötzlich kam ihnen Jesus entgegen und sagte: Seid gegrüßt! Sie gingen auf ihn zu, warfen sich vor ihm nieder und umfassten seine Füße.^pDa sagte Jesus zu ihnen: Fürchtet euch nicht! Geht und sagt meinen Brüdern, sie sollen nach Galiläa gehen und dort werden sie mich sehen.^pDie elf Jünger gingen nach Galiläa auf den Berg, den Jesus ihnen genannt hatte. Und als sie Jesus sahen, fielen sie vor ihm nieder, einige aber hatten Zweifel.^pDa trat Jesus auf sie zu und sagte zu ihnen: Mir ist alle Vollmacht gegeben im Himmel und auf der Erde. Darum geht und macht alle Völker zu meinen Jüngern; tauft sie auf den Namen des Vaters und des Sohnes und des Heiligen Geistes, und lehrt sie, alles zu befolgen, was ich euch geboten habe. Und siehe, ich bin mit euch alle Tage bis zum Ende der Welt."
-        }
-      }
-    },
-    "2": {
-      "0": {
-        "Vigil": {
-          "les_buch": "Aus dem heiligen Evangelium nach Markus.",
-          "les_stelle": "16,1-20"
-        }
-      }
-    },
-    "3": {
-      "0": {
-        "Vigil": {
-          "les_buch": "Aus dem heiligen Evangelium nach Lukas.",
-          "les_stelle": "24,1-12"
-        }
-      }
-    },
-    "4": {
-      "0": {
-        "Vigil": {
-          "les_buch": "Aus dem heiligen Evangelium nach Lukas.",
-          "les_stelle": "24,13-35"
-        }
-      }
-    },
-    "5": {
-      "0": {
-        "Vigil": {
-          "les_buch": "Aus dem heiligen Evangelium nach Lukas.",
-          "les_stelle": "24,35-53"
-        }
-      }
-    },
-    "6": {
-      "0": {
-        "Vigil": {
-          "les_buch": "Aus dem heiligen Evangelium nach Johannes.",
-          "les_stelle": "20,1-18",
-          "les_text": "^hEr musste von den Toten auferstehen^pAm ersten Tag der Woche kam Maria von Magdala frühmorgens, als es noch dunkel war, zum Grab und sah, dass der Stein vom Grab weggenommen war.^pDa lief sie schnell zu Simon Petrus und dem Jünger, den Jesus liebte, und sagte zu ihnen: Man hat den Herrn aus dem Grab weggenommen und wir wissen nicht, wohin man ihn gelegt hat.^pDa gingen Petrus und der andere Jünger hinaus und kamen zum Grab; sie liefen beide zusammen dorthin, aber weil der andere Jünger schneller war als Petrus, kam er als erster ans Grab. Er beugte sich vor und sah die Leinenbinden liegen, ging aber nicht hinein.^pDa kam auch Simon Petrus, der ihm gefolgt war, und ging in das Grab hinein. Er sah die Leinenbinden liegen und das Schweißtuch, das auf dem Kopf Jesu gelegen hatte; es lag aber nicht bei den Leinenbinden, sondern zusammengebunden daneben an einer besonderen Stelle.^pDa ging auch der andere Jünger, der zuerst an das Grab gekommen war, hinein; er sah und glaubte. Denn sie wussten noch nicht aus der Schrift, dass er von den Toten auferstehen musste.^pDann kehrten die Jünger wieder nach Hause zurück.^pMaria aber stand draußen vor dem Grab und weinte. Während sie weinte, beugte sie sich in die Grabkammer hinein. Da sah sie zwei Engel in weißen Gewändern sitzen, den einen dort, wo der Kopf, den anderen dort, wo die Füße des Leichnams Jesu gelegen hatten.^pDie Engel sagten zu ihr: Frau, warum weinst du?^pSie antwortete ihnen: Man hat meinen Herrn weggenommen und ich weiß nicht, wohin man ihn gelegt hat.^pAls sie das gesagt hatte, wandte sie sich um und sah Jesus dastehen, wusste aber nicht, dass es Jesus war.^pJesus sagte zu ihr: Frau, warum weinst du? Wen suchst du?^pSie meinte, es sei der Gärtner, und sagte zu ihm: Herr, wenn du ihn weggebracht hast, sag mir, wohin du ihn gelegt hast. Dann will ich ihn holen.^pJesus sagte zu ihr: Maria!^pDa wandte sie sich ihm zu und sagte auf Hebräisch zu ihm: Rabbúni!, das heißt: Meister.^pJesus sagte zu ihr: Halte mich nicht fest; denn ich bin noch nicht zum Vater hinaufgegangen. Geh aber zu meinen Brüdern und sag ihnen: Ich gehe hinauf zu meinem Vater und zu eurem Vater, zu meinem Gott und zu eurem Gott.^pMaria von Magdala ging zu den Jüngern und verkündete ihnen: Ich habe den Herrn gesehen. Und sie richtete aus, was er ihr gesagt hatte.",
-          "les_text_neu": "^hEr musste von den Toten auferstehen^pAm ersten Tag der Woche kam Maria von Magdala frühmorgens, als es noch dunkel war, zum Grab und sah, dass der Stein vom Grab weggenommen war.^pDa lief sie schnell zu Simon Petrus und dem Jünger, den Jesus liebte, und sagte zu ihnen: Sie haben den Herrn aus dem Grab weggenommen und wir wissen nicht, wohin sie ihn gelegt haben.^pDa gingen Petrus und der andere Jünger hinaus und kamen zum Grab; sie liefen beide zusammen dorthin, aber weil der andere Jünger schneller war als Petrus, kam er als erster ans Grab. Er beugte sich vor und sah die Leinenbinden liegen, ging aber nicht hinein.^pDa kam auch Simon Petrus, der ihm gefolgt war, und ging in das Grab hinein. Er sah die Leinenbinden liegen und das Schweißtuch, das auf dem Kopf Jesu gelegen hatte; es lag aber nicht bei den Leinenbinden, sondern zusammengebunden daneben an einer besonderen Stelle.^pDa ging auch der andere Jünger, der zuerst an das Grab gekommen war, hinein; er sah und glaubte. Denn sie hatten noch nicht die Schrift verstanden, dass er von den Toten auferstehen müsse.^pDann kehrten die Jünger wieder nach Hause zurück.^pMaria aber stand draußen vor dem Grab und weinte. Während sie weinte, beugte sie sich in die Grabkammer hinein. Da sah sie zwei Engel in weißen Gewändern sitzen, den einen dort, wo der Kopf, den anderen dort, wo die Füße des Leichnams Jesu gelegen hatten.^pDie Engel sagten zu ihr: Frau, warum weinst du?^pSie antwortete ihnen: Sie haben meinen Herrn weggenommen und ich weiß nicht, wohin sie ihn gelegt haben.^pAls sie das gesagt hatte, wandte sie sich um und sah Jesus dastehen, wusste aber nicht, dass es Jesus war.^pJesus sagte zu ihr: Frau, warum weinst du? Wen suchst du?^pSie meinte, es sei der Gärtner, und sagte zu ihm: Herr, wenn du ihn weggebracht hast, sag mir, wohin du ihn gelegt hast! Dann will ich ihn holen.^pJesus sagte zu ihr: Maria!^pDa wandte sie sich ihm zu und sagte auf Hebräisch zu ihm: Rabbúni!, das heißt: Meister.^pJesus sagte zu ihr: Halte mich nicht fest; denn ich bin noch nicht zum Vater hinaufgegangen. Geh aber zu meinen Brüdern und sag ihnen: Ich gehe hinauf zu meinem Vater und zu eurem Vater, zu meinem Gott und zu eurem Gott.^pMaria von Magdala ging zu den Jüngern und verkündete ihnen: Ich habe den Herrn gesehen. Und sie berichtete, was er ihr gesagt hatte."
-        }
-      }
-    },
-    "7": {
-      "0": {
-        "Vigil": {
-          "les_buch": "Aus dem heiligen Evangelium nach Johannes.",
-          "les_stelle": "20,19-31",
-          "les_text": "^hAcht Tage darauf trat Jesus in ihre Mitte^pAm Abend des ersten Tages der Woche, als die Jünger aus Furcht vor den Juden die Türen verschlossen hatten, kam Jesus, trat in ihre Mitte und sagte zu ihnen: Friede sei mit euch!^pNach diesen Worten zeigte er ihnen seine Hände und seine Seite. Da freuten sich die Jünger, dass sie den Herrn sahen.^pJesus sagte noch einmal zu ihnen: Friede sei mit euch! Wie mich der Vater gesandt hat, so sende ich euch.^pNachdem er das gesagt hatte, hauchte er sie an und sprach zu ihnen: Empfangt den Heiligen Geist! Wem ihr die Sünden vergebt, dem sind sie vergeben; wem ihr die Vergebung verweigert, dem ist sie verweigert.^pThomas, genannt Didymus (Zwilling), einer der Zwölf, war nicht bei ihnen, als Jesus kam. Die anderen Jünger sagten zu ihm: Wir haben den Herrn gesehen. Er entgegnete ihnen: Wenn ich nicht die Male der Nägel an seinen Händen sehe und wenn ich meinen Finger nicht in die Male der Nägel und meine Hand nicht in seine Seite lege, glaube ich nicht.^pAcht Tage darauf waren seine Jünger wieder versammelt und Thomas war dabei. Die Türen waren verschlossen. Da kam Jesus, trat in ihre Mitte und sagte: Friede sei mit euch!^pDann sagte er zu Thomas: Streck deinen Finger aus – hier sind meine Hände! Streck deine Hand aus und leg sie in meine Seite und sei nicht ungläubig, sondern gläubig!^pThomas antwortete ihm: Mein Herr und mein Gott!^pJesus sagte zu ihm: Weil du mich gesehen hast, glaubst du. Selig sind, die nicht sehen und doch glauben.^pNoch viele andere Zeichen, die in diesem Buch nicht aufgeschrieben sind, hat Jesus vor den Augen seiner Jünger getan. Diese aber sind aufgeschrieben, damit ihr glaubt, dass Jesus der Messias ist, der Sohn Gottes, und damit ihr durch den Glauben das Leben habt in seinem Namen.",
-          "les_text_neu": "^hAcht Tage darauf trat Jesus in ihre Mitte^pAm Abend des ersten Tages der Woche, als die Jünger aus Furcht vor den Juden bei verschlossenen Türen beisammen waren, kam Jesus, trat in ihre Mitte und sagte zu ihnen: Friede sei mit euch!^pNach diesen Worten zeigte er ihnen seine Hände und seine Seite. Da freuten sich die Jünger, als sie den Herrn sahen.^pJesus sagte noch einmal zu ihnen: Friede sei mit euch! Wie mich der Vater gesandt hat, so sende ich euch.^pNachdem er das gesagt hatte, hauchte er sie an und sprach zu ihnen: Empfangt den Heiligen Geist! Denen ihr die Sünden erlasst, denen sind sie erlassen; denen ihr sie behaltet, sind sie behalten.^pThomas, der Didymus genannt wurde, einer der Zwölf, war nicht bei ihnen, als Jesus kam. Die anderen Jünger sagten zu ihm: Wir haben den Herrn gesehen. Er entgegnete ihnen: Wenn ich nicht das Mal der Nägel an seinen Händen sehe und wenn ich meinen Finger nicht in das Mal der Nägel und meine Hand nicht in seine Seite lege, glaube ich nicht.^pAcht Tage darauf waren seine Jünger wieder drinnen versammelt und Thomas war dabei. Da kam Jesus bei verschlossenen Türen, trat in ihre Mitte und sagte: Friede sei mit euch!^pDann sagte er zu Thomas: Streck deinen Finger hierher aus und sieh meine Hände! Streck deine Hand aus und leg sie in meine Seite und sei nicht ungläubig, sondern gläubig!^pThomas antwortete und sagte zu ihm: Mein Herr und mein Gott!^pJesus sagte zu ihm: Weil du mich gesehen hast, glaubst du. Selig sind, die nicht sehen und doch glauben.^pNoch viele andere Zeichen hat Jesus vor den Augen seiner Jünger getan, die in diesem Buch nicht aufgeschrieben sind. Diese aber sind aufgeschrieben, damit ihr glaubt, dass Jesus der Christus ist, der Sohn Gottes, und damit ihr durch den Glauben das Leben habt in seinem Namen."
-        }
-      }
-    },
-    "8": {
-      "0": {
-        "Vigil": {
-          "les_buch": "Aus dem heiligen Evangelium nach Johannes.",
-          "les_stelle": "21,1-14",
-          "les_text": "^hJesus trat heran, nahm°das°Brot und°gab°es°ihnen^pJesus offenbarte sich den Jüngern noch einmal. Es war am See von Tibérias und er offenbarte sich in folgender Weise.^pSimon Petrus, Thomas, genannt Dídymus (Zwilling), Natánaël aus Kana in Galiläa, die Söhne des Zebedäus und zwei andere von seinen Jüngern waren zusammen. imon Petrus sagte zu ihnen: Ich gehe fischen. Sie sagten zu ihm: Wir kommen auch mit. Sie gingen hinaus und stiegen in das Boot. Aber in dieser Nacht fingen sie nichts.^pAls es schon Morgen wurde, stand Jesus am Ufer. Doch die Jünger wussten nicht, dass es Jesus war. esus sagte zu ihnen: Meine Kinder, habt ihr nicht etwas zu essen? Sie antworteten ihm: Nein. r aber sagte zu ihnen: Werft das Netz auf der rechten Seite des Bootes aus und ihr werdet etwas fangen. Sie warfen das Netz aus und konnten es nicht wieder einholen, so voller Fische war es.^pDa sagte der Jünger, den Jesus liebte, zu Petrus: Es ist der Herr!^pAls Simon Petrus hörte, dass es der Herr sei, gürtete er sich das Obergewand um, weil er nackt war, und sprang in den See. Dann kamen die anderen Jünger mit dem Boot – sie waren nämlich nicht weit vom Land entfernt, nur etwa zweihundert Ellen – und zogen das Netz mit den Fischen hinter sich her.^pAls sie an Land gingen, sahen sie am Boden ein Kohlenfeuer und darauf Fisch und Brot.^pJesus sagte zu ihnen: Bringt von den Fischen, die ihr gerade gefangen habt. Da ging Simon Petrus und zog das Netz an Land. Es war mit hundertdreiundfünfzig großen Fischen gefüllt, und obwohl es so viele waren, zerriss das Netz nicht.^pJesus sagte zu ihnen: Kommt her und esst! Keiner von den Jüngern wagte ihn zu fragen: Wer bist du? Denn sie wussten, dass es der Herr war.^pJesus trat heran, nahm das Brot und gab es ihnen, ebenso den Fisch.^pDies war schon das dritte Mal, dass Jesus sich den Jüngern offenbarte, seit er von den Toten auferstanden war.",
-          "les_text_neu": "^hJesus trat heran, nahm°das°Brot und°gab°es°ihnen^pJesus offenbarte sich den Jüngern noch einmal, am See von Tibérias, und er offenbarte sich in folgender Weise.^pSimon Petrus, Thomas, genannt Dídymus (Zwilling), Natánaël aus Kana in Galiläa, die Söhne des Zebedäus und zwei andere von seinen Jüngern waren zusammen. imon Petrus sagte zu ihnen: Ich gehe fischen. Sie sagten zu ihm: Wir kommen auch mit. Sie gingen hinaus und stiegen in das Boot. Aber in dieser Nacht fingen sie nichts.^pAls es schon Morgen wurde, stand Jesus am Ufer. Doch die Jünger wussten nicht, dass es Jesus war. esus sagte zu ihnen: Meine Kinder, habt ihr keinen Fisch zu essen? Sie antworteten ihm: Nein. r aber sagte zu ihnen: Werft das Netz auf der rechten Seite des Bootes aus und ihr werdet etwas finden. Sie warfen das Netz aus und konnten es nicht wieder einholen, so voller Fische war es.^pDa sagte der Jünger, den Jesus liebte, zu Petrus: Es ist der Herr!^pAls Simon Petrus hörte, dass es der Herr sei, gürtete er sich das Obergewand um, weil er nackt war, und sprang in den See. Dann kamen die anderen Jünger mit dem Boot – sie waren nämlich nicht weit vom Land entfernt, nur etwa zweihundert Ellen – und zogen das Netz mit den Fischen hinter sich her.^pAls sie an Land gingen, sahen sie am Boden ein Kohlenfeuer und darauf Fisch und Brot liegen.^pJesus sagte zu ihnen: Bringt von den Fischen, die ihr gerade gefangen habt! Da stieg Simon Petrus ans Ufer und zog das Netz an Land. Es war mit hundertdreiundfünfzig großen Fischen gefüllt, und obwohl es so viele waren, zerriss das Netz nicht.^pJesus sagte zu ihnen: Kommt her und esst! Keiner von den Jüngern wagte ihn zu fragen: Wer bist du? Denn sie wussten, dass es der Herr war.^pJesus trat heran, nahm das Brot und gab es ihnen, ebenso den Fisch.^pDies war schon das dritte Mal, dass Jesus sich den Jüngern offenbarte, seit er von den Toten auferstanden war."
-        }
-      }
-    }
-  },
-  "pa": {
-    "4": {
-      "3": {
-        "Laudes": {
-          "psalm1": 108.0
         }
       }
     }
@@ -23086,6 +20181,2924 @@ export const brevierData = {
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": ""
+        }
+      }
+    }
+  },
+  "pvigil": {
+    "1": {
+      "0": {
+        "Vigil": {
+          "les_buch": "Aus dem heiligen Evangelium nach Matthäus.",
+          "les_stelle": "28,1-10.16-20",
+          "les_text": "^hEr ist von den Toten auferstanden und°geht°euch°voraus°nach°Galiläa^pNach dem Sabbat, kamen in der Morgendämmerungbeim Anbruch des ersten Tages der Woche, kamen Maria aus Magdala und die andere Maria, um nach dem Grab zu sehen.^pPlötzlichUnd siehe, es entstandgeschah ein gewaltiges Erdbeben; denn ein Engel des Herrn kam vom Himmel herab, trat an das Grab, wälzte den Stein weg und setzte sich darauf. Seine AussehenGestalt warleuchtete wie ein Blitz und sein Gewand war weiß wie Schnee. Aus Furcht vor ihm erbebten Ddie Wächter begannen vor Angst zu zittern und fielenwaren wie tot zu Boden.^pDer Engel aber sagte zu den Frauen: Fürchtet euch nicht! Ich weiß, ihr sucht Jesus, den Gekreuzigten. Er ist nicht hier; denn er ist auferstanden, wie er gesagt hat. Kommt her und seht euch die Stelleden Ort an, wo er lag!.^pDann geht schnell zu seinen Jüngern und sagt ihnen: Er ist von den Toten auferstanden. und siehe, Eer geht euch voraus nach Galiläa, dort werdet ihr ihn sehen. Siehe, Iich habe es euch gesagt.^pSogleich verließen sie das Grab und eilten voll Furcht und großer Freude, und sie eilten zu seinen Jüngern, um ihnen die Botschaft zu verkünden.^pPlötzlich kam ihnen Jesus entgegen und sagte: Seid gegrüßt! Sie gingen auf ihn zu, warfen sich vor ihm nieder und umfassten seine Füße.^pDa sagte Jesus zu ihnen: Fürchtet euch nicht! Geht und sagt meinen Brüdern, sie sollen nach Galiläa gehen und dort werden sie mich sehen.^pDie elf Jünger gingen nach Galiläa auf den Berg, den Jesus ihnen genannt hatte. Und als sie Jesus sahen, fielen sie vor ihm nieder,. Eeinige aber hatten Zweifel.^pDa trat Jesus auf sie zu und sagte zu ihnen: Mir ist alle VollMmacht gegeben im Himmel und auf der Erde. Darum geht zu allen Völkern und macht alle VölkerMenschen zu meinen Jüngern; tauft sie auf den Namen des Vaters und des Sohnes und des Heiligen Geistes, und lehrt sie, alles zu befolgen, was ich euch geboten habe. Und siehe,Seid gewiss: Iich bin mitbei euch alle Tage bis zum Ende der Welt.",
+          "les_text_neu": "^hEr ist von den Toten auferstanden und°geht°euch°voraus°nach°Galiläa^pNach dem Sabbat, beim Anbruch des ersten Tages der Woche, kamen Maria aus Magdala und die andere Maria, um nach dem Grab zu sehen.^pUnd siehe, es geschah ein gewaltiges Erdbeben; denn ein Engel des Herrn kam vom Himmel herab, trat an das Grab, wälzte den Stein weg und setzte sich darauf. Sein Aussehen war wie ein Blitz und sein Gewand weiß wie Schnee. Aus Furcht vor ihm erbebten die Wächter und waren wie tot.^pDer Engel aber sagte zu den Frauen: Fürchtet euch nicht! Ich weiß, ihr sucht Jesus, den Gekreuzigten. Er ist nicht hier; denn er ist auferstanden, wie er gesagt hat. Kommt her und seht euch den Ort an, wo er lag!^pDann geht schnell zu seinen Jüngern und sagt ihnen: Er ist von den Toten auferstanden und siehe, er geht euch voraus nach Galiläa, dort werdet ihr ihn sehen. Siehe, ich habe es euch gesagt.^pSogleich verließen sie das Grab voll Furcht und großer Freude, und sie eilten zu seinen Jüngern, um ihnen die Botschaft zu verkünden.^pPlötzlich kam ihnen Jesus entgegen und sagte: Seid gegrüßt! Sie gingen auf ihn zu, warfen sich vor ihm nieder und umfassten seine Füße.^pDa sagte Jesus zu ihnen: Fürchtet euch nicht! Geht und sagt meinen Brüdern, sie sollen nach Galiläa gehen und dort werden sie mich sehen.^pDie elf Jünger gingen nach Galiläa auf den Berg, den Jesus ihnen genannt hatte. Und als sie Jesus sahen, fielen sie vor ihm nieder, einige aber hatten Zweifel.^pDa trat Jesus auf sie zu und sagte zu ihnen: Mir ist alle Vollmacht gegeben im Himmel und auf der Erde. Darum geht und macht alle Völker zu meinen Jüngern; tauft sie auf den Namen des Vaters und des Sohnes und des Heiligen Geistes, und lehrt sie, alles zu befolgen, was ich euch geboten habe. Und siehe, ich bin mit euch alle Tage bis zum Ende der Welt."
+        }
+      }
+    },
+    "2": {
+      "0": {
+        "Vigil": {
+          "les_buch": "Aus dem heiligen Evangelium nach Markus.",
+          "les_stelle": "16,1-20",
+          "les_text": "^hJesus von Nazaret ist auferstanden^pAls der Sabbat vorüber war, kauften Maria aus Magdala, Maria, die Mutter des Jakobus, und Salome wohlriechende Öle, um damit zum Grab zu gehen und Jesus zu salben. Am ersten Tag der Woche kamen sie in aller Frühe zum Grab, als eben die Sonne aufging.^pSie sagten zueinander: Wer könnte uns den Stein vom Eingang des Grabes wegwälzen? Doch als sie hinblickten, sahen sie, dass der Stein schon weggewälzt war; er war sehr groß.^pSie gingen in das Grab hinein und sahen auf der rechten Seite einen jungen Mann sitzen, der mit einem weißen Gewand bekleidet war; da erschraken sie sehr.^pEr aber sagte zu ihnen: Erschreckt nicht! Ihr sucht Jesus von Názaret, den Gekreuzigten. Er ist auferstanden; er ist nicht hier. Seht, da ist die Stelle, wo man ihn hingelegt hatte. Nun aber geht und sagt seinen Jüngern, vor allem Petrus: Er geht euch voraus nach Galiläa; dort werdet ihr ihn sehen, wie er es euch gesagt hat.^pDa verließen sie das Grab und flohen; denn Schrecken und Entsetzen hatte sie gepackt. Und sie sagten niemand etwas davon; denn sie fürchteten sich.^hAnhang: Die Erscheinungen des Auferstandenen^pAls Jesus am frühen Morgen des ersten Wochentages auferstanden war, erschien er zuerst Maria aus Magdala, aus der er sieben Dämonen ausgetrieben hatte. Sie ging und berichtete es denen, die mit ihm zusammen gewesen waren und die nun klagten und weinten. Als sie hörten, er lebe und sei von ihr gesehen worden, glaubten sie es nicht.^pDarauf erschien er in einer anderen Gestalt zweien von ihnen, als sie unterwegs waren und aufs Land gehen wollten. Auch sie gingen und berichteten es den anderen und auch ihnen glaubte man nicht.^pSpäter erschien Jesus auch den Elf, als sie bei Tisch waren; er tadelte ihren Unglauben und ihre Verstocktheit, weil sie denen nicht glaubten, die ihn nach seiner Auferstehung gesehen hatten.^pDann sagte er zu ihnen: Geht hinaus in die ganze Welt und verkündet das Evangelium allen Geschöpfen! Wer glaubt und sich taufen lässt, wird gerettet; wer aber nicht glaubt, wird verdammt werden.^pUnd durch die, die zum Glauben gekommen sind, werden folgende Zeichen geschehen: In meinem Namen werden sie Dämonen austreiben; sie werden in neuen Sprachen reden; wenn sie Schlangen anfassen oder tödliches Gift trinken, wird es ihnen nicht schaden; und die Kranken, denen sie die Hände auflegen, werden gesund werden.^pNachdem Jesus, der Herr, dies zu ihnen gesagt hatte, wurde er in den Himmel aufgenommen und setzte sich zur Rechten Gottes.^pSie aber zogen aus und predigten überall. Der Herr stand ihnen bei und bekräftigte die Verkündigung durch die Zeichen, die er geschehen ließ.",
+          "les_text_neu": "^hJesus von Nazaret ist auferstanden^pAls der Sabbat vorüber war, kauften Maria aus Magdala, Maria, die Mutter des Jakobus, und Salome wohlriechende Öle, um damit zum Grab zu gehen und Jesus zu salben. Am ersten Tag der Woche kamen sie in aller Frühe zum Grab, als eben die Sonne aufging.^pSie sagten zueinander: Wer könnte uns den Stein vom Eingang des Grabes wegwälzen? Doch als sie hinblickten, sahen sie, dass der Stein schon weggewälzt war; er war sehr groß.^pSie gingen in das Grab hinein und sahen auf der rechten Seite einen jungen Mann sitzen, der mit einem weißen Gewand bekleidet war; da erschraken sie sehr.^pEr aber sagte zu ihnen: Erschreckt nicht! Ihr sucht Jesus von Názaret, den Gekreuzigten. Er ist auferstanden; er ist nicht hier. Seht, da ist die Stelle, wo man ihn hingelegt hatte. Nun aber geht und sagt seinen Jüngern und dem Petrus: Er geht euch voraus nach Galiläa; dort werdet ihr ihn sehen, wie er es euch gesagt hat.^pDa verließen sie das Grab und flohen; denn Schrecken und Entsetzen hatte sie gepackt. Und sie sagten niemandem etwas davon; denn sie fürchteten sich.^hAnhang: Die Erscheinungen des Auferstandenen^pAls Jesus am frühen Morgen des ersten Wochentages auferstanden war, erschien er zuerst Maria aus Magdala, aus der er sieben Dämonen ausgetrieben hatte. Sie ging und berichtete es denen, die mit ihm zusammen gewesen waren und die nun klagten und weinten. Als sie hörten, er lebe und sei von ihr gesehen worden, glaubten sie es nicht.^pDarauf erschien er in einer anderen Gestalt zweien von ihnen, als sie unterwegs waren und aufs Land gehen wollten. Auch sie gingen und berichteten es den anderen und auch ihnen glaubte man nicht.^pSpäter erschien Jesus den Elf selbst, als sie bei Tisch waren; er tadelte ihren Unglauben und ihre Verstocktheit, weil sie denen nicht glaubten, die ihn nach seiner Auferstehung gesehen hatten.^pDann sagte er zu ihnen: Geht hinaus in die ganze Welt und verkündet das Evangelium der ganzen Schöpfung! Wer glaubt und sich taufen lässt, wird gerettet; wer aber nicht glaubt, wird verurteilt werden.^pUnd durch die, die zum Glauben gekommen sind, werden folgende Zeichen geschehen: In meinem Namen werden sie Dämonen austreiben; sie werden in neuen Sprachen reden; wenn sie Schlangen anfassen oder tödliches Gift trinken, wird es ihnen nicht schaden; und die Kranken, denen sie die Hände auflegen, werden gesund werden.^pNachdem Jesus, der Herr, dies zu ihnen gesagt hatte, wurde er in den Himmel aufgenommen und setzte sich zur Rechten Gottes.^pSie aber zogen aus und verkündeten überall. Der Herr stand ihnen bei und bekräftigte das Wort durch die Zeichen, die es begleiteten."
+        }
+      }
+    },
+    "3": {
+      "0": {
+        "Vigil": {
+          "les_buch": "Aus dem heiligen Evangelium nach Lukas.",
+          "les_stelle": "24,1-12",
+          "les_text": "^hWas sucht ihr den Lebenden bei den Toten?^pAm ersten Tag der Woche gingen die Frauen mit den wohlriechenden Salben, die sie zubereitet hatten, in aller Frühe zum Grab. Da sahen sie, dass der Stein vom Grab weggewälzt war; sie gingen hinein, aber den Leichnam Jesu, des Herrn, fanden sie nicht.^pWährend sie ratlos dastanden, traten zwei Männer in leuchtenden Gewändern zu ihnen. Die Frauen erschraken und blickten zu Boden. Die Männer aber sagten zu ihnen: Was sucht ihr den Lebenden bei den Toten? Er ist nicht hier, sondern er ist auferstanden.^pErinnert euch an das, was er euch gesagt hat, als er noch in Galiläa war: Der Menschensohn muss den Sündern ausgeliefert und gekreuzigt werden und am dritten Tag auferstehen. Da erinnerten sie sich an seine Worte.^pUnd sie kehrten vom Grab in die Stadt zurück und berichteten alles den Elf und den anderen Jüngern. Es waren Maria Magdaléne, Johanna und Maria, die Mutter des Jakobus; auch die übrigen Frauen, die bei ihnen waren, erzählten es den Aposteln. Doch die Apostel hielten das alles für Geschwätz und glaubten ihnen nicht.^pPetrus aber stand auf und lief zum Grab. Er beugte sich vor, sah aber nur die Leinenbinden (dort liegen). Dann ging er nach Hause, voll Verwunderung über das, was geschehen war.",
+          "les_text_neu": "^hWas sucht ihr den Lebenden bei den Toten?^pAm ersten Tag der Woche gingen die Frauen mit den wohlriechenden Salben, die sie zubereitet hatten, in aller Frühe zum Grab. Da sahen sie, dass der Stein vom Grab weggewälzt war; sie gingen hinein, aber den Leichnam Jesu, des Herrn, fanden sie nicht.^pUnd es geschah, während sie darüber ratlos waren, siehe, da traten zwei Männer in leuchtenden Gewändern zu ihnen. Die Frauen erschraken und blickten zu Boden. Die Männer aber sagten zu ihnen: Was sucht ihr den Lebenden bei den Toten? Er ist nicht hier, sondern er ist auferstanden.^pErinnert euch an das, was er euch gesagt hat, als er noch in Galiläa war: Der Menschensohn muss in die Hände sündiger Menschen ausgeliefert und gekreuzigt werden und am dritten Tag auferstehen. Da erinnerten sie sich an seine Worte.^pUnd sie kehrten vom Grab zurück und berichteten das alles den Elf und allen Übrigen. Es waren Maria von Mágdala, Johanna und Maria, die Mutter des Jakobus, und die übrigen Frauen mit ihnen. Sie erzählten es den Aposteln. Doch die Apostel hielten diese Reden für Geschwätz und glaubten ihnen nicht.^pPetrus aber stand auf und lief zum Grab. Er beugte sich vor, sah aber nur die Leinenbinden. Dann ging er nach Hause, voll Verwunderung über das, was geschehen war."
+        }
+      }
+    },
+    "4": {
+      "0": {
+        "Vigil": {
+          "les_buch": "Aus dem heiligen Evangelium nach Lukas.",
+          "les_stelle": "24,13-35",
+          "les_text": "^hBleib doch bei uns, denn es wird bald Abend^pAm ersten Tag der Woche waren zwei von den Jüngern auf dem Weg in ein Dorf namens Emmaus, das sechzig Stadien von Jerusalem entfernt ist. Sie sprachen miteinander über all das, was sich ereignet hatte.^pWährend sie redeten und ihre Gedanken austauschten, kam Jesus hinzu und ging mit ihnen. Doch sie waren wie mit Blindheit geschlagen, sodass sie ihn nicht erkannten.^pEr fragte sie: Was sind das für Dinge, über die ihr auf eurem Weg miteinander redet?^pDa blieben sie traurig stehen, und der eine von ihnen – er hieß Kleopas – antwortete ihm: Bist du so fremd in Jerusalem, dass du als einziger nicht weißt, was in diesen Tagen dort geschehen ist?^pEr fragte sie: Was denn?^pSie antworteten ihm: Das mit Jesus aus Názaret. Er war ein Prophet, mächtig in Wort und Tat vor Gott und dem ganzen Volk. Doch unsere Hohenpriester und Führer haben ihn zum Tod verurteilen und ans Kreuz schlagen lassen. Wir aber hatten gehofft, dass er der sei, der Israel erlösen werde. Und dazu ist heute schon der dritte Tag, seitdem das alles geschehen ist.^pAber nicht nur das: Auch einige Frauen aus unserem Kreis haben uns in große Aufregung versetzt. Sie waren in der Frühe beim Grab, fanden aber seinen Leichnam nicht. Als sie zurückkamen, erzählten sie, es seien ihnen Engel erschienen und hätten gesagt, er lebe. Einige von uns gingen dann zum Grab und fanden alles so, wie die Frauen gesagt hatten; ihn selbst aber sahen sie nicht.^pDa sagte er zu ihnen: Begreift ihr denn nicht? Wie schwer fällt es euch, alles zu glauben, was die Propheten gesagt haben. Musste nicht der Messias all das erleiden, um so in seine Herrlichkeit zu gelangen? Und er legte ihnen dar, ausgehend von Mose und allen Propheten, was in der gesamten Schrift über ihn geschrieben steht.^pSo erreichten sie das Dorf, zu dem sie unterwegs waren. Jesus tat, als wolle er weitergehen, aber sie drängten ihn und sagten: Bleib doch bei uns; denn es wird bald Abend, der Tag hat sich schon geneigt. Da ging er mit hinein, um bei ihnen zu bleiben.^pUnd als er mit ihnen bei Tisch war, nahm er das Brot, sprach den Lobpreis, brach das Brot und gab es ihnen. Da gingen ihnen die Augen auf und sie erkannten ihn; dann sahen sie ihn nicht mehr. Und sie sagten zueinander: Brannte uns nicht das Herz in der Brust, als er unterwegs mit uns redete und uns den Sinn der Schrift erschloss?^pNoch in derselben Stunde brachen sie auf und kehrten nach Jerusalem zurück und sie fanden die Elf und die anderen Jünger versammelt. Diese sagten: Der Herr ist wirklich auferstanden und ist dem Simon erschienen. Da erzählten auch sie, was sie unterwegs erlebt und wie sie ihn erkannt hatten, als er das Brot brach.",
+          "les_text_neu": "^hBleib doch bei uns, denn es wird bald Abend^pAm ersten Tag der Woche waren zwei von den Jüngern auf dem Weg in ein Dorf namens Emmaus, das sechzig Stadien von Jerusalem entfernt ist. Sie sprachen miteinander über all das, was sich ereignet hatte.^pUnd es geschah, während sie redeten und ihre Gedanken austauschten, kam Jesus selbst hinzu und ging mit ihnen. Doch ihre Augen waren gehalten, sodass sie ihn nicht erkannten.^pEr fragte sie: Was sind das für Dinge, über die ihr auf eurem Weg miteinander redet?^pDa blieben sie traurig stehen, und der eine von ihnen – er hieß Kleopas – antwortete ihm: Bist du so fremd in Jerusalem, dass du als einziger nicht weißt, was in diesen Tagen dort geschehen ist?^pEr fragte sie: Was denn?^pSie antworteten ihm: Das mit Jesus aus Názaret. Er war ein Prophet, mächtig in Wort und Tat vor Gott und dem ganzen Volk. Doch unsere Hohepriester und Führer haben ihn zum Tod verurteilen und ans Kreuz schlagen lassen. Wir aber hatten gehofft, dass er der sei, der Israel erlösen werde. Und dazu ist heute schon der dritte Tag, seitdem das alles geschehen ist.^pDoch auch einige Frauen aus unserem Kreis haben uns in große Aufregung versetzt. Sie waren in der Frühe beim Grab, fanden aber seinen Leichnam nicht. Als sie zurückkamen, erzählten sie, es seien ihnen Engel erschienen und hätten gesagt, er lebe. Einige von uns gingen dann zum Grab und fanden alles so, wie die Frauen gesagt hatten; ihn selbst aber sahen sie nicht.^pDa sagte er zu ihnen: Ihr Unverständigen, deren Herz zu träge ist, um alles zu glauben, was die Propheten gesagt haben. Musste nicht der Christus das erleiden und so in seine Herrlichkeit gelangen? Und er legte ihnen dar, ausgehend von Mose und allen Propheten, was in der gesamten Schrift über ihn geschrieben steht.^pSo erreichten sie das Dorf, zu dem sie unterwegs waren. Jesus tat, als wolle er weitergehen, aber sie drängten ihn und sagten: Bleibe bei uns; denn es wird Abend, der Tag hat sich schon geneigt! Da ging er mit hinein, um bei ihnen zu bleiben.^pUnd es geschah, als er mit ihnen bei Tisch war, nahm er das Brot, sprach den Lobpreis, brach das Brot und gab es ihnen. Da wurden ihre Augen aufgetan und sie erkannten ihn; und er entschwand ihren Blicken. Und sie sagten zueinander: Brannte nicht unser Herz in uns, als er unterwegs mit uns redete und uns den Sinn der Schriften erschloss?^pNoch in derselben Stunde brachen sie auf und kehrten nach Jerusalem zurück und sie fanden die Elf und die mit ihnen versammelt waren. Diese sagten: Der Herr ist wirklich auferstanden und ist dem Simon erschienen. Da erzählten auch sie, was sie unterwegs erlebt und wie sie ihn erkannt hatten, als er das Brot brach."
+        }
+      }
+    },
+    "5": {
+      "0": {
+        "Vigil": {
+          "les_buch": "Aus dem heiligen Evangelium nach Lukas.",
+          "les_stelle": "24,35-53",
+          "les_text": "^hMusste nicht der Messias all das erleiden, um so in seine Herrlichkeit zu gelangen?^pDie Jünger erzählten, was sie unterwegs erlebt und wie sie Jesus erkannt hatten, als er das Brot brach. Während sie noch darüber redeten, trat er selbst in ihre Mitte und sagte zu ihnen: Friede sei mit euch! Sie erschraken und hatten große Angst, denn sie meinten, einen Geist zu sehen.^pDa sagte er zu ihnen: Was seid ihr so bestürzt? Warum lasst ihr in eurem Herzen solche Zweifel aufkommen? Seht meine Hände und meine Füße an: Ich bin es selbst. Fasst mich doch an und begreift: Kein Geist hat Fleisch und Knochen, wie ihr es bei mir seht. Bei diesen Worten zeigte er ihnen seine Hände und Füße.^pSie staunten, konnten es aber vor Freude immer noch nicht glauben. Da sagte er zu ihnen: Habt ihr etwas zu essen hier? Sie gaben ihm ein Stück gebratenen Fisch; er nahm es und aß es vor ihren Augen.^pDann sprach er zu ihnen: Das sind die Worte, die ich zu euch gesagt habe, als ich noch bei euch war: Alles muss in Erfüllung gehen, was im Gesetz des Mose, bei den Propheten und in den Psalmen über mich gesagt ist. Darauf öffnete er ihnen die Augen für das Verständnis der Schrift.^pEr sagte zu ihnen: So steht es in der Schrift: Der Messias wird leiden und am dritten Tag von den Toten auferstehen, und in seinem Namen wird man allen Völkern, angefangen in Jerusalem, verkünden, sie sollen umkehren, damit ihre Sünden vergeben werden.Ihr seid Zeugen dafür.^pUnd ich werde die Gabe, die mein Vater verheißen hat, zu euch herabsenden. Bleibt in der Stadt, bis ihr mit der Kraft aus der Höhe erfüllt werdet.^pDann führte er sie hinaus in die Nähe von Betanien. Dort erhob er seine Hände und segnete sie. Und während er sie segnete, verließ er sie und wurde zum Himmel emporgehoben; sie aber fielen vor ihm nieder.^pDann kehrten sie in großer Freude nach Jerusalem zurück. Und sie waren immer im Tempel und priesen Gott.",
+          "les_text_neu": "^hMusste nicht der Christus das erleiden und so in seine Herrlichkeit gelangen?^pDie Jünger erzählten, was sie unterwegs erlebt und wie sie Jesus erkannt hatten, als er das Brot brach. Während sie noch darüber redeten, trat er selbst in ihre Mitte und sagte zu ihnen: Friede sei mit euch! Sie erschraken und hatten große Angst, denn sie meinten, einen Geist zu sehen.^pDa sagte er zu ihnen: Was seid ihr so bestürzt? Warum lasst ihr in eurem Herzen Zweifel aufkommen? Seht meine Hände und meine Füße an: Ich bin es selbst. Fasst mich doch an und begreift: Kein Geist hat Fleisch und Knochen, wie ihr es bei mir seht. Bei diesen Worten zeigte er ihnen seine Hände und Füße.^pAls sie es aber vor Freude immer noch nicht glauben konnten und sich verwunderten, sagte er zu ihnen: Habt ihr etwas zu essen hier? Sie gaben ihm ein Stück gebratenen Fisch; er nahm es und aß es vor ihren Augen.^pDann sagte er zu ihnen: Das sind meine Worte, die ich zu euch gesprochen habe, als ich noch bei euch war: Alles muss in Erfüllung gehen, was im Gesetz des Mose, bei den Propheten und in den Psalmen über mich geschrieben steht. Darauf öffnete er ihren Sinn für das Verständnis der Schriften.^pEr sagte zu ihnen: So steht es geschrieben: Der Christus wird leiden und am dritten Tag von den Toten auferstehen, und in seinem Namen wird man allen Völkern Umkehr verkünden, damit ihre Sünden vergeben werden. Angefangen in Jerusalem, seid ihr Zeugen dafür.^pUnd siehe, ich werde die Verheißung meines Vaters auf euch herabsenden. Ihr aber bleibt in der Stadt, bis ihr mit der Kraft aus der Höhe erfüllt werdet!^pDann führte er sie hinaus in die Nähe von Betanien. Dort erhob er seine Hände und segnete sie. Und es geschah, während er sie segnete, verließ er sie und wurde zum Himmel emporgehoben. Sie aber fielen vor ihm nieder.^pDann kehrten sie in großer Freude nach Jerusalem zurück. Und sie waren immer im Tempel und priesen Gott."
+        }
+      }
+    },
+    "6": {
+      "0": {
+        "Vigil": {
+          "les_buch": "Aus dem heiligen Evangelium nach Johannes.",
+          "les_stelle": "20,1-18",
+          "les_text": "^hEr musste von den Toten auferstehen^pAm ersten Tag der Woche kam Maria von Magdala frühmorgens, als es noch dunkel war, zum Grab und sah, dass der Stein vom Grab weggenommen war.^pDa lief sie schnell zu Simon Petrus und dem Jünger, den Jesus liebte, und sagte zu ihnen: Man hat den Herrn aus dem Grab weggenommen und wir wissen nicht, wohin man ihn gelegt hat.^pDa gingen Petrus und der andere Jünger hinaus und kamen zum Grab; sie liefen beide zusammen dorthin, aber weil der andere Jünger schneller war als Petrus, kam er als erster ans Grab. Er beugte sich vor und sah die Leinenbinden liegen, ging aber nicht hinein.^pDa kam auch Simon Petrus, der ihm gefolgt war, und ging in das Grab hinein. Er sah die Leinenbinden liegen und das Schweißtuch, das auf dem Kopf Jesu gelegen hatte; es lag aber nicht bei den Leinenbinden, sondern zusammengebunden daneben an einer besonderen Stelle.^pDa ging auch der andere Jünger, der zuerst an das Grab gekommen war, hinein; er sah und glaubte. Denn sie wussten noch nicht aus der Schrift, dass er von den Toten auferstehen musste.^pDann kehrten die Jünger wieder nach Hause zurück.^pMaria aber stand draußen vor dem Grab und weinte. Während sie weinte, beugte sie sich in die Grabkammer hinein. Da sah sie zwei Engel in weißen Gewändern sitzen, den einen dort, wo der Kopf, den anderen dort, wo die Füße des Leichnams Jesu gelegen hatten.^pDie Engel sagten zu ihr: Frau, warum weinst du?^pSie antwortete ihnen: Man hat meinen Herrn weggenommen und ich weiß nicht, wohin man ihn gelegt hat.^pAls sie das gesagt hatte, wandte sie sich um und sah Jesus dastehen, wusste aber nicht, dass es Jesus war.^pJesus sagte zu ihr: Frau, warum weinst du? Wen suchst du?^pSie meinte, es sei der Gärtner, und sagte zu ihm: Herr, wenn du ihn weggebracht hast, sag mir, wohin du ihn gelegt hast. Dann will ich ihn holen.^pJesus sagte zu ihr: Maria!^pDa wandte sie sich ihm zu und sagte auf Hebräisch zu ihm: Rabbúni!, das heißt: Meister.^pJesus sagte zu ihr: Halte mich nicht fest; denn ich bin noch nicht zum Vater hinaufgegangen. Geh aber zu meinen Brüdern und sag ihnen: Ich gehe hinauf zu meinem Vater und zu eurem Vater, zu meinem Gott und zu eurem Gott.^pMaria von Magdala ging zu den Jüngern und verkündete ihnen: Ich habe den Herrn gesehen. Und sie richtete aus, was er ihr gesagt hatte.",
+          "les_text_neu": "^hEr musste von den Toten auferstehen^pAm ersten Tag der Woche kam Maria von Magdala frühmorgens, als es noch dunkel war, zum Grab und sah, dass der Stein vom Grab weggenommen war.^pDa lief sie schnell zu Simon Petrus und dem Jünger, den Jesus liebte, und sagte zu ihnen: Sie haben den Herrn aus dem Grab weggenommen und wir wissen nicht, wohin sie ihn gelegt haben.^pDa gingen Petrus und der andere Jünger hinaus und kamen zum Grab; sie liefen beide zusammen dorthin, aber weil der andere Jünger schneller war als Petrus, kam er als erster ans Grab. Er beugte sich vor und sah die Leinenbinden liegen, ging aber nicht hinein.^pDa kam auch Simon Petrus, der ihm gefolgt war, und ging in das Grab hinein. Er sah die Leinenbinden liegen und das Schweißtuch, das auf dem Kopf Jesu gelegen hatte; es lag aber nicht bei den Leinenbinden, sondern zusammengebunden daneben an einer besonderen Stelle.^pDa ging auch der andere Jünger, der zuerst an das Grab gekommen war, hinein; er sah und glaubte. Denn sie hatten noch nicht die Schrift verstanden, dass er von den Toten auferstehen müsse.^pDann kehrten die Jünger wieder nach Hause zurück.^pMaria aber stand draußen vor dem Grab und weinte. Während sie weinte, beugte sie sich in die Grabkammer hinein. Da sah sie zwei Engel in weißen Gewändern sitzen, den einen dort, wo der Kopf, den anderen dort, wo die Füße des Leichnams Jesu gelegen hatten.^pDie Engel sagten zu ihr: Frau, warum weinst du?^pSie antwortete ihnen: Sie haben meinen Herrn weggenommen und ich weiß nicht, wohin sie ihn gelegt haben.^pAls sie das gesagt hatte, wandte sie sich um und sah Jesus dastehen, wusste aber nicht, dass es Jesus war.^pJesus sagte zu ihr: Frau, warum weinst du? Wen suchst du?^pSie meinte, es sei der Gärtner, und sagte zu ihm: Herr, wenn du ihn weggebracht hast, sag mir, wohin du ihn gelegt hast! Dann will ich ihn holen.^pJesus sagte zu ihr: Maria!^pDa wandte sie sich ihm zu und sagte auf Hebräisch zu ihm: Rabbúni!, das heißt: Meister.^pJesus sagte zu ihr: Halte mich nicht fest; denn ich bin noch nicht zum Vater hinaufgegangen. Geh aber zu meinen Brüdern und sag ihnen: Ich gehe hinauf zu meinem Vater und zu eurem Vater, zu meinem Gott und zu eurem Gott.^pMaria von Magdala ging zu den Jüngern und verkündete ihnen: Ich habe den Herrn gesehen. Und sie berichtete, was er ihr gesagt hatte."
+        }
+      }
+    },
+    "7": {
+      "0": {
+        "Vigil": {
+          "les_buch": "Aus dem heiligen Evangelium nach Johannes.",
+          "les_stelle": "20,19-31",
+          "les_text": "^hAcht Tage darauf trat Jesus in ihre Mitte^pAm Abend des ersten Tages der Woche, als die Jünger aus Furcht vor den Juden die Türen verschlossen hatten, kam Jesus, trat in ihre Mitte und sagte zu ihnen: Friede sei mit euch!^pNach diesen Worten zeigte er ihnen seine Hände und seine Seite. Da freuten sich die Jünger, dass sie den Herrn sahen.^pJesus sagte noch einmal zu ihnen: Friede sei mit euch! Wie mich der Vater gesandt hat, so sende ich euch.^pNachdem er das gesagt hatte, hauchte er sie an und sprach zu ihnen: Empfangt den Heiligen Geist! Wem ihr die Sünden vergebt, dem sind sie vergeben; wem ihr die Vergebung verweigert, dem ist sie verweigert.^pThomas, genannt Didymus (Zwilling), einer der Zwölf, war nicht bei ihnen, als Jesus kam. Die anderen Jünger sagten zu ihm: Wir haben den Herrn gesehen. Er entgegnete ihnen: Wenn ich nicht die Male der Nägel an seinen Händen sehe und wenn ich meinen Finger nicht in die Male der Nägel und meine Hand nicht in seine Seite lege, glaube ich nicht.^pAcht Tage darauf waren seine Jünger wieder versammelt und Thomas war dabei. Die Türen waren verschlossen. Da kam Jesus, trat in ihre Mitte und sagte: Friede sei mit euch!^pDann sagte er zu Thomas: Streck deinen Finger aus – hier sind meine Hände! Streck deine Hand aus und leg sie in meine Seite und sei nicht ungläubig, sondern gläubig!^pThomas antwortete ihm: Mein Herr und mein Gott!^pJesus sagte zu ihm: Weil du mich gesehen hast, glaubst du. Selig sind, die nicht sehen und doch glauben.^pNoch viele andere Zeichen, die in diesem Buch nicht aufgeschrieben sind, hat Jesus vor den Augen seiner Jünger getan. Diese aber sind aufgeschrieben, damit ihr glaubt, dass Jesus der Messias ist, der Sohn Gottes, und damit ihr durch den Glauben das Leben habt in seinem Namen.",
+          "les_text_neu": "^hAcht Tage darauf trat Jesus in ihre Mitte^pAm Abend des ersten Tages der Woche, als die Jünger aus Furcht vor den Juden bei verschlossenen Türen beisammen waren, kam Jesus, trat in ihre Mitte und sagte zu ihnen: Friede sei mit euch!^pNach diesen Worten zeigte er ihnen seine Hände und seine Seite. Da freuten sich die Jünger, als sie den Herrn sahen.^pJesus sagte noch einmal zu ihnen: Friede sei mit euch! Wie mich der Vater gesandt hat, so sende ich euch.^pNachdem er das gesagt hatte, hauchte er sie an und sprach zu ihnen: Empfangt den Heiligen Geist! Denen ihr die Sünden erlasst, denen sind sie erlassen; denen ihr sie behaltet, sind sie behalten.^pThomas, der Didymus genannt wurde, einer der Zwölf, war nicht bei ihnen, als Jesus kam. Die anderen Jünger sagten zu ihm: Wir haben den Herrn gesehen. Er entgegnete ihnen: Wenn ich nicht das Mal der Nägel an seinen Händen sehe und wenn ich meinen Finger nicht in das Mal der Nägel und meine Hand nicht in seine Seite lege, glaube ich nicht.^pAcht Tage darauf waren seine Jünger wieder drinnen versammelt und Thomas war dabei. Da kam Jesus bei verschlossenen Türen, trat in ihre Mitte und sagte: Friede sei mit euch!^pDann sagte er zu Thomas: Streck deinen Finger hierher aus und sieh meine Hände! Streck deine Hand aus und leg sie in meine Seite und sei nicht ungläubig, sondern gläubig!^pThomas antwortete und sagte zu ihm: Mein Herr und mein Gott!^pJesus sagte zu ihm: Weil du mich gesehen hast, glaubst du. Selig sind, die nicht sehen und doch glauben.^pNoch viele andere Zeichen hat Jesus vor den Augen seiner Jünger getan, die in diesem Buch nicht aufgeschrieben sind. Diese aber sind aufgeschrieben, damit ihr glaubt, dass Jesus der Christus ist, der Sohn Gottes, und damit ihr durch den Glauben das Leben habt in seinem Namen."
+        }
+      }
+    },
+    "8": {
+      "0": {
+        "Vigil": {
+          "les_buch": "Aus dem heiligen Evangelium nach Johannes.",
+          "les_stelle": "21,1-14",
+          "les_text": "^hJesus trat heran, nahm°das°Brot und°gab°es°ihnen^pJesus offenbarte sich den Jüngern noch einmal. Es war am See von Tibérias und er offenbarte sich in folgender Weise.^pSimon Petrus, Thomas, genannt Dídymus (Zwilling), Natánaël aus Kana in Galiläa, die Söhne des Zebedäus und zwei andere von seinen Jüngern waren zusammen. imon Petrus sagte zu ihnen: Ich gehe fischen. Sie sagten zu ihm: Wir kommen auch mit. Sie gingen hinaus und stiegen in das Boot. Aber in dieser Nacht fingen sie nichts.^pAls es schon Morgen wurde, stand Jesus am Ufer. Doch die Jünger wussten nicht, dass es Jesus war. esus sagte zu ihnen: Meine Kinder, habt ihr nicht etwas zu essen? Sie antworteten ihm: Nein. r aber sagte zu ihnen: Werft das Netz auf der rechten Seite des Bootes aus und ihr werdet etwas fangen. Sie warfen das Netz aus und konnten es nicht wieder einholen, so voller Fische war es.^pDa sagte der Jünger, den Jesus liebte, zu Petrus: Es ist der Herr!^pAls Simon Petrus hörte, dass es der Herr sei, gürtete er sich das Obergewand um, weil er nackt war, und sprang in den See. Dann kamen die anderen Jünger mit dem Boot – sie waren nämlich nicht weit vom Land entfernt, nur etwa zweihundert Ellen – und zogen das Netz mit den Fischen hinter sich her.^pAls sie an Land gingen, sahen sie am Boden ein Kohlenfeuer und darauf Fisch und Brot.^pJesus sagte zu ihnen: Bringt von den Fischen, die ihr gerade gefangen habt. Da ging Simon Petrus und zog das Netz an Land. Es war mit hundertdreiundfünfzig großen Fischen gefüllt, und obwohl es so viele waren, zerriss das Netz nicht.^pJesus sagte zu ihnen: Kommt her und esst! Keiner von den Jüngern wagte ihn zu fragen: Wer bist du? Denn sie wussten, dass es der Herr war.^pJesus trat heran, nahm das Brot und gab es ihnen, ebenso den Fisch.^pDies war schon das dritte Mal, dass Jesus sich den Jüngern offenbarte, seit er von den Toten auferstanden war.",
+          "les_text_neu": "^hJesus trat heran, nahm°das°Brot und°gab°es°ihnen^pJesus offenbarte sich den Jüngern noch einmal, am See von Tibérias, und er offenbarte sich in folgender Weise.^pSimon Petrus, Thomas, genannt Dídymus (Zwilling), Natánaël aus Kana in Galiläa, die Söhne des Zebedäus und zwei andere von seinen Jüngern waren zusammen. imon Petrus sagte zu ihnen: Ich gehe fischen. Sie sagten zu ihm: Wir kommen auch mit. Sie gingen hinaus und stiegen in das Boot. Aber in dieser Nacht fingen sie nichts.^pAls es schon Morgen wurde, stand Jesus am Ufer. Doch die Jünger wussten nicht, dass es Jesus war. esus sagte zu ihnen: Meine Kinder, habt ihr keinen Fisch zu essen? Sie antworteten ihm: Nein. r aber sagte zu ihnen: Werft das Netz auf der rechten Seite des Bootes aus und ihr werdet etwas finden. Sie warfen das Netz aus und konnten es nicht wieder einholen, so voller Fische war es.^pDa sagte der Jünger, den Jesus liebte, zu Petrus: Es ist der Herr!^pAls Simon Petrus hörte, dass es der Herr sei, gürtete er sich das Obergewand um, weil er nackt war, und sprang in den See. Dann kamen die anderen Jünger mit dem Boot – sie waren nämlich nicht weit vom Land entfernt, nur etwa zweihundert Ellen – und zogen das Netz mit den Fischen hinter sich her.^pAls sie an Land gingen, sahen sie am Boden ein Kohlenfeuer und darauf Fisch und Brot liegen.^pJesus sagte zu ihnen: Bringt von den Fischen, die ihr gerade gefangen habt! Da stieg Simon Petrus ans Ufer und zog das Netz an Land. Es war mit hundertdreiundfünfzig großen Fischen gefüllt, und obwohl es so viele waren, zerriss das Netz nicht.^pJesus sagte zu ihnen: Kommt her und esst! Keiner von den Jüngern wagte ihn zu fragen: Wer bist du? Denn sie wussten, dass es der Herr war.^pJesus trat heran, nahm das Brot und gab es ihnen, ebenso den Fisch.^pDies war schon das dritte Mal, dass Jesus sich den Jüngern offenbarte, seit er von den Toten auferstanden war."
+        }
+      }
+    }
+  },
+  "q": {
+    "0": {
+      "3": {
+        "each": {
+          "oration": "Getreuer Gott, im Vertrauen auf dich beginnen wir die vierzig Tage der Umkehr und Buße. Gib uns die Kraft zu christlicher Zucht, damit wir dem Bösen absagen und mit Entschiedenheit das Gute tun.^ORV",
+          "oration_lat": "Concéde nobis, Dómine, præsídia milítiæ christiánæ sanctis inchoáre ieiúniis, ut, contra spiritáles nequítias pugnatúri, continéntiæ muniámur auxíliis.^ORlV"
+        },
+        "Laudes": {
+          "psalm1": 51.0,
+          "psalm2": 185.0,
+          "psalm3": 100.0,
+          "ant1": "Herr, gegen dich allein hab’ ich gesündigt; erbarme dich meiner.",
+          "ant2": "Herr, wir erkennen unsere Schuld; wir haben gegen dich gesündigt.",
+          "ant3": "Der Herr allein ist Gott; wir sind sein Volk, die Herde seiner Weide.",
+          "antev": "Wenn ihr fastet und Buße tut, macht kein finsteres Gesicht wie die Heuchler.",
+          "ant1_lat": "Tibi soli peccávi, Dómine; miserére mei.",
+          "ant2_lat": "Cognóvimus, Dómine, iniquitátes nostras, quia peccávimus tibi.",
+          "ant3_lat": "Dóminus ipse est Deus; nos pópulus eius et oves páscuæ eius.",
+          "antev_lat": "Cum ieiunátis, nolíte fíeri, sicut hypócritæ, tristes."
+        },
+        "Vesper": {
+          "antev": "Wenn du Almosen gibst, soll deine linke Hand nicht wissen, was die rechte tut.",
+          "antev_lat": "Cum facis eleemósynam, nésciat sinístra tua quid fáciat déxtera tua."
+        }
+      },
+      "4": {
+        "each": {
+          "oration": "Herr, unser Gott, komm unserem Beten und Arbeiten mit deiner Gnade zuvor und begleite es, damit alles, was wir beginnen, bei dir seinen Anfang nehme und durch dich vollendet werde.^ORV",
+          "oration_lat": "Actiónes nostras, quǽsumus, Dómine, aspirándo prǽveni et adiuvándo proséquere, ut cuncta nostra operátio a te semper incípiat, et per te cœpta finiátur.^ORlV"
+        },
+        "Laudes": {
+          "antev": "Wer mein Jünger sein will, der verleugne sich selbst. Er nehme täglich sein Kreuz auf sich und folge mir nach.",
+          "antev_lat": "Qui vult veníre post me, dicit Dóminus, ábneget semetípsum, et tollat crucem suam, et sequátur me."
+        },
+        "Vesper": {
+          "antev": "Wer sein Leben sucht, wird es verlieren; doch wer es um meinetwillen verliert, wird das wahre Leben finden.",
+          "antev_lat": "Qui perdíderit ánimam suam propter me, dicit Dóminus, invéniet eam in ætérnum."
+        }
+      },
+      "5": {
+        "each": {
+          "oration": "Allwissender Gott, du siehst nicht auf unsere äußeren Werke, sondern auf unser Herz. Gib, dass wir mit reiner Gesinnung vollbringen, was wir in diesen vierzig Tagen an Buße und Verzicht auf uns nehmen.^ORV",
+          "oration_lat": "Inchoáta pæniténtiæ ópera, quǽsumus, Dómine, benígno favóre proséquere, ut observántiam, quam corporáliter exercémus, méntibus étiam valeámus implére sincéris.^ORlV"
+        },
+        "Laudes": {
+          "antev": "Brich den Hungrigen dein Brot und nimm die Armen auf. Dann wird dein Licht aufleuchten wie das Morgenrot, und bald bist du geheilt.",
+          "antev_lat": "Cum víderis nudum, óperi eum, et carnem tuam ne despéxeris; tunc erúmpet quasi mane lumen tuum, et anteíbit fáciem tuam iustítia tua."
+        },
+        "Vesper": {
+          "antev": "Es kommen Tage, da werden die Hochzeitsgäste fasten; denn der Bräutigam ist ihnen genommen.",
+          "antev_lat": "Cum auferétur ab eis sponsus, convívæ nuptiárum ieiunábunt in diébus illis."
+        }
+      },
+      "6": {
+        "each": {
+          "oration": "Allmächtiger Gott, übe Nachsicht mit unserer Schwäche, und damit wir imstande sind, den Kampf mit den Mächten des Bösen zu bestehen, strecke deine Hand aus und schütze uns.^ORV",
+          "oration_lat": "Omnípotens sempitérne Deus, infirmitátem nostram propítius réspice, atque ad protegéndum nos déxteram tuæ maiestátis exténde.^ORlV"
+        },
+        "Laudes": {
+          "antev": "Sammelt euch Schätze im Himmel, wo weder Rost noch Motten sie zerstören.",
+          "antev_lat": "Thesaurizáte vobis thesáuros in cælo, ubi nec ærúgo nec tínea demolítur."
+        }
+      }
+    },
+    "1": {
+      "0": {
+        "each": {
+          "oration": "Allmächtiger Gott, du schenkst uns die heiligen vierzig Tage als eine Zeit der Umkehr und der Buße. Gib uns durch ihre Feier die Gnade, dass wir in der Erkenntnis Jesu Christi voranschreiten und die Kraft seiner Erlösungstat durch ein Leben aus dem Glauben sichtbar machen. Darum bitten wir durch ihn,^ORR",
+          "oration_lat": "Concéde nobis, omnípotens Deus, ut, per ánnua quadragesimális exercítia sacraménti, et ad intellegéndum Christi proficiámus arcánum, et efféctus eius digna conversatióne sectémur.^ORlV"
+        },
+        "ErsteV": {
+          "ant1": "Herr, wir kommen zu dir mit reumütigem Herzen und mit demütigem Sinn. Nimm uns an und gib, dass unser Opfer dir gefalle.",
+          "ant2": "Du wirst zum Herrn rufen, und er wird dich erhören; du wirst schreien, und er wird sagen: Da bin ich.",
+          "ant3": "Unserer Sünden wegen ist Christus gestorben, er, der Gerechte, für die Ungerechten, um uns hinzuführen zu Gott. Dem Fleische nach wurde er getötet, dem Geiste nach lebendig gemacht.",
+          "antev": "Nicht vom Brot allein lebt der Mensch, sondern von jedem Wort, das aus dem Munde Gottes kommt.",
+          "ant1_lat": "In spíritu humilitátis et in ánimo contríto suscipiámur, Dómine, a te; et sic fiat sacrifícium nostrum, ut suscipiátur a te hódie et pláceat tibi, Dómine Deus.",
+          "ant2_lat": "Tunc invocábis, et Dóminus exáudiet; clamábis, et dicet: Ecce adsum.",
+          "ant3_lat": "Christus pro peccátis nostris mórtuus est, iustus pro iniústis, ut nos offérret Deo, mortificátus quidem carne, vivificátus autem Spíritu.",
+          "anta_lat": "Ductus est Iesus in desértum a Spíritu, ut tentarétur a diábolo; et cum ieiunásset quadragínta diébus et quadragínta nóctibus, póstea esúriit.",
+          "antc_lat": "Iesus plenus Spíritu Sancto regréssus est ab Iordáne et agebátur in Spíritu in desértum diébus quadragínta et tentabátur a diábolo."
+        },
+        "Vigil": {
+          "les_buch": "Aus dem heiligen Evangelium nach Lukas.",
+          "les_stelle": "13,22-33"
+        },
+        "Laudes": {
+          "ant1": "Herr, ich will dich rühmen mein Leben lang, in deinem Namen die Hände erheben.",
+          "ant2": "Singt dem Herrn ein Lied und preist ihn in Ewigkeit.",
+          "ant3": "Der Herr hat Gefallen an seinem Volk, die Gebeugten krönt er mit Sieg.",
+          "antev": "Jesus wurde vom Geist in die Wüste geführt, damit der Teufel ihn versuche. Als er vierzig Tage und vierzig Nächte gefastet hatte, hungerte ihn.",
+          "ant1_lat": "Benedícam te in vita mea, Dómine, et in nómine tuo levábo manus meas.",
+          "ant2_lat": "Hymnum dícite, et superexaltáte Deum in sǽcula.",
+          "ant3_lat": "Beneplácitum est Dómino in pópulo suo, et honorábit mansuétos in salútem.",
+          "anta_lat": "Non in solo pane vivit homo, sed in omni verbo quod procédit de ore Dei.",
+          "antc_lat": "Nihil manducávit Iesus in diébus illis et, consummátis illis, esúriit."
+        },
+        "Vesper": {
+          "ant1": "Den Herrn, deinen Gott, bete an! Ihm allein sollst du dienen.",
+          "ant2": "Jetzt ist die gnadenreiche Zeit, jetzt ist die Zeit des Heiles.",
+          "ant3": "Seht, wir ziehen hinauf nach Jerusalem; dort wird sich alles erfüllen, was über den Menschensohn geschrieben steht.",
+          "antev": "Wache über uns, Herr und Erlöser, damit wir der List des Versuchers nicht erliegen; denn du bist unser Helfer auf ewig.",
+          "ant1_lat": "Dóminum Deum tuum adorábis et illi soli sérvies.",
+          "ant2_lat": "Ecce nunc tempus acceptábile, ecce nunc dies salútis.",
+          "ant3_lat": "Ecce ascéndimus Ierosólymam, et consummabúntur ómnia quæ scripta sunt de Fílio hóminis.",
+          "anta_lat": "Dicit Iesus: Vade, Sátanas! Scriptum est enim: Dóminum Deum tuum adorábis et illi soli sérvies. Et ángeli accessérunt et ministrábant ei.",
+          "antc_lat": "Consummáta omni tentatióne, diábolus recéssit ab illo, usque ad tempus."
+        },
+        "Lesehore": {
+          "versikel0_lat": "Non in solo pane vivit homo.",
+          "versikel1_lat": "Sed in omni verbo, quod procédit de ore Dei."
+        }
+      },
+      "1": {
+        "each": {
+          "oration": "Gott, unser Heil, gib uns die Gnade, umzukehren zu dir. Erleuchte unseren Verstand und stärke unseren Willen, damit uns diese Zeit der Buße zum Segen wird.^ORV",
+          "oration_lat": "Convérte nos, Deus, salutáris noster, et, ut nobis opus quadragesimále profíciat, mentes nostras cæléstibus ínstrue disciplínis.^ORlV"
+        },
+        "Laudes": {
+          "antev": "Kommt, ihr Gesegneten meines Vaters, nehmt das Reich in Besitz, das euch bereitet ist seit Anbeginn der Welt.",
+          "antev_lat": "Veníte, benedícti Patris mei, percípite regnum, quod vobis parátum est ab orígine mundi."
+        },
+        "Vesper": {
+          "antev": "Was ihr dem Geringsten meiner Brüder getan habt, das habt ihr mir getan.",
+          "antev_lat": "Quod uni ex mínimis meis fecístis, mihi fecístis, dicit Dóminus."
+        }
+      },
+      "2": {
+        "each": {
+          "oration": "Herr, unser Gott, sieh gütig auf deine Gemeinde. Da wir durch Mäßigung den Leib in Zucht halten und Buße tun, schenke unserem Geist die wahre Sehnsucht nach dir.^ORV",
+          "oration_lat": "Réspice, Dómine, famíliam tuam, et præsta, ut apud te mens nostra tuo desidério fúlgeat, quæ se corporálium moderatióne castígat.^ORlV"
+        },
+        "Laudes": {
+          "antev": "Herr, lehre uns beten, wie auch Johannes seine Jünger beten gelehrt hat.",
+          "antev_lat": "Dómine, doce nos oráre, sicut dócuit Ioánnes discípulos suos."
+        },
+        "Vesper": {
+          "antev": "Wenn du beten willst, geh in deine Kammer und verschließ die Tür; dann bete zu deinem Vater.",
+          "antev_lat": "Tu autem, cum oráveris, intra in cubículum tuum, et, clauso óstio, ora Patrem tuum."
+        }
+      },
+      "3": {
+        "each": {
+          "oration": "Barmherziger Gott, sieh gnädig auf die Hingabe deines Volkes. Gib, dass wir unseren Leib in Zucht nehmen und durch gute Werke im Geist neu werden.^ORV",
+          "oration_lat": "Devotiónem pópuli tui, quæsumus, Dómine, benígnus inténde, ut, qui per abstinéntiam temperántur in córpore, per fructum boni óperis reficiántur in mente.^ORlV"
+        },
+        "Laudes": {
+          "antev": "Dieses Volk ist ein böses Volk. Es fordert ein Zeichen. Aber es wird ihm kein anderes Zeichen gegeben als das Zeichen des Jona.",
+          "antev_lat": "Generátio hæc prava et pervérsa signum quærit, et signum non dábitur ei, nisi signum Ionæ prophétæ."
+        },
+        "Vesper": {
+          "antev": "Wie Jona drei Tage und drei Nächte im Bauch des Fisches war, so wird auch der Menschensohn drei Tage und drei Nächte im Schoß der Erde sein.",
+          "antev_lat": "Sicut fuit Ionas in ventre ceti tribus diébus et tribus nóctibus, ita erit Fílius hóminis in corde terræ."
+        }
+      },
+      "4": {
+        "each": {
+          "oration": "Allmächtiger Gott, gib uns die Gnade, dass wir stets auf das Rechte bedacht sind und es auch entschlossen tun. Da wir ohne dich nicht bestehen können, hilf uns, nach deinem Willen zu leben.^ORV",
+          "oration_lat": "Largíre nobis, quǽsumus, Dómine, semper spíritum cogitándi quæ recta sunt, prómptius et agéndi, ut, qui sine te esse non póssumus, secúndum te vívere valeámus.^ORlV"
+        },
+        "Laudes": {
+          "antev": "Wenn schon ihr, die ihr böse seid, euren Kindern Gutes gebt, um wieviel mehr wird euer Vater im Himmel denen Gutes geben, die ihn darum bitten?",
+          "antev_lat": "Si vos, cum sitis mali, nostis bona data dare fíliis vestris, quanto magis Pater vester de cælo dabit bona peténtibus se!"
+        },
+        "Vesper": {
+          "antev": "Bittet, dann wird euch gegeben; sucht, dann werdet ihr finden; klopft an, dann wird euch geöffnet.",
+          "antev_lat": "Pétite, et dábitur vobis; quǽrite, et inveniétis; pulsáte, et aperiétur vobis."
+        }
+      },
+      "5": {
+        "each": {
+          "oration": "Allmächtiger Gott, gib, dass deine Gläubigen sich in rechter Weise auf Ostern vorbereiten, und was wir dem Leib an Entsagung auferlegen, das trage reiche Frucht und erneuere unseren Geist.^ORV",
+          "oration_lat": "Da, quǽsumus, Dómine, fidélibus tuis observatióni pascháli conveniénter aptári, ut suscépta sollémniter castigátio corporális cunctis ad fructum profíciat animárum.^ORlV"
+        },
+        "Laudes": {
+          "antev": "Wenn eure Gerechtigkeit nicht noch viel größer ist als die der Schriftgelehrten und der Pharisäer, so werdet ihr nicht in das Himmelreich kommen.",
+          "antev_lat": "Nisi abundáverit iustítia vestra plus quam scribárum et pharisæórum, non intrábitis in regnum cælórum."
+        },
+        "Vesper": {
+          "antev": "Versöhne dich zuerst mit deinem Bruder; dann komm und opfere deine Gabe.",
+          "antev_lat": "Si offers munus tuum ante altáre et recordátus fúeris quia frater tuus habet áliquid advérsum te, relínque ibi munus tuum ante altáre, et vade prius reconciliári fratri tuo, et tunc véniens ófferes munus tuum."
+        }
+      },
+      "6": {
+        "each": {
+          "oration": "Ewiger Vater, wende unsere Herzen zu dir hin, damit wir das eine Notwendige suchen und dich in Werken der Liebe verherrlichen.^ORV",
+          "oration_lat": "Ad te corda nostra, Pater ætérne, convérte, ut nos, unum necessárium semper quæréntes et ópera caritátis exercéntes, tuo cúltui præstes esse dicátos. ^ORlV"
+        },
+        "Laudes": {
+          "antev": "Betet für die, die euch verfolgen und verleumden, dann seid ihr Söhne eures Vaters, der im Himmel ist.",
+          "antev_lat": "Oráte pro persequéntibus et calumniántibus vos, ut sitis fílii Patris vestri, qui in cælis est, dicit Dóminus."
+        }
+      }
+    },
+    "2": {
+      "0": {
+        "each": {
+          "oration": "Gott, du hast uns geboten, auf deinen geliebten Sohn zu hören. Nähre uns mit deinem Wort und reinige die Augen unseres Geistes, damit wir fähig werden, deine Herrlichkeit zu erkennen.^ORV",
+          "oration_lat": "Deus, qui nobis diléctum Fílium tuum audíre præcepísti, verbo tuo intérius nos páscere dignéris, ut, spiritáli purificáto intúitu, glóriæ tuæ lætémur aspéctu.++++++^ORlV"
+        },
+        "ErsteV": {
+          "ant1": "Jesus nahm Petrus, Jakobus und Johannes mit sich und führte sie auf einen hohen Berg. Dort wurde er vor ihren Augen verklärt.",
+          "ant2": "Sein Antlitz leuchtete wie die Sonne, und sein Gewand wurde weiß wie Schnee.",
+          "ant3": "Mose und Elija sprachen von dem Weg, den er in Jerusalem vollenden wollte.",
+          "antev": "Eine Stimme aus der Wolke sprach: Dies ist mein geliebter Sohn, auf ihn sollt ihr hören.",
+          "ant1_lat": "Assúmpsit Iesus Petrum et Iacóbum et Ioánnem fratrem eius, et duxit eos in montem excélsum seórsum, et transfigurátus est ante eos.",
+          "ant2_lat": "Resplénduit fácies eius sicut sol, vestiménta autem eius facta sunt alba sicut nix.",
+          "ant3_lat": "Móyses et Elías dicébant excéssum eius, quem completúrus erat in Ierúsalem.",
+          "anta_lat": "Dixit Petrus ad Iesum: Dómine, bonum est nos hic esse. Si vis, fáciam hic tria tabernácula: tibi unum et Móysi unum et Elíæ unum."
+        },
+        "Vigil": {
+          "les_buch": "Aus dem heiligen Evangelium nach Markus.",
+          "les_stelle": "8,27-38"
+        },
+        "Laudes": {
+          "ant1": "Die Rechte des Herrn wirkt mit Macht, die Rechte des Herrn hat mich erhoben.",
+          "ant2": "Lasst uns singen das Lied, das die drei Jünglinge im Feuer sangen, dem Herrn zum Preis.",
+          "ant3": "Lobet den Herrn in seiner mächtigen Feste.",
+          "antev": "Jesus Christus, unser Herr, hat dem Tod die Macht genommen und uns das Licht des unvergänglichen Lebens gebracht durch das Evangelium.",
+          "ant1_lat": "Déxtera Dómini fecit virtútem, déxtera Dómini exaltávit me.",
+          "ant2_lat": "Trium puerórum cantémus hymnum, quem cantábant in camíno ignis, benedicéntes Dóminum.",
+          "ant3_lat": "Laudáte Dóminum in firmaménto virtútis eius.",
+          "anta_lat": "Ecce vox de nube dicens: Hic est Fílius meus diléctus, in quo mihi bene complácui: ipsum audíte."
+        },
+        "Vesper": {
+          "ant1": "Der Herr reicht dir das Zepter deiner Macht, wenn du erscheinst in heiligem Schmuck.",
+          "ant2": "Er allein ist Gott. Ihn verehren wir. Himmel und Erde hat er geschaffen.",
+          "ant3": "Seinen eigenen Sohn hat Gott nicht verschont, für uns alle hat er ihn hingegeben.",
+          "antev": "Sagt niemand, was ihr gesehen habt, bis der Menschensohn von den Toten erstanden ist.",
+          "ant1_lat": "Virgam virtútis tuæ emíttet Dóminus in splendóribus sanctórum.",
+          "ant2_lat": "Deus unus est, quem cólimus, qui fecit cælum et terram.",
+          "ant3_lat": "Próprio Fílio suo non pepércit Deus, sed pro nobis ómnibus trádidit illum.",
+          "anta_lat": "Visiónem, quam vidístis, némini dixéritis, donec a mórtuis resúrgat Fílius hóminis."
+        },
+        "Lesehore": {
+          "versikel0_lat": "Vox Patris de nube audíta est.",
+          "versikel1_lat": "Hic est Fílius meus diléctus: ipsum audíte."
+        }
+      },
+      "1": {
+        "each": {
+          "oration": "Ewiger Gott, zum Heil unserer Seele verlangst du, dass wir den Leib in Zucht nehmen und Buße tun. Gib uns die Kraft, dass wir uns von Sünden freihalten und die Gebote erfüllen, die uns deine Liebe gegeben hat.^ORV",
+          "oration_lat": "Deus, qui ob animárum medélam castigáre córpora præcepísti, concéde, ut ab ómnibus possímus abstinére peccátis, et corda nostra pietátis tuæ váleant exercére mandáta.^ORlV"
+        },
+        "Laudes": {
+          "antev": "Seid barmherzig, wie euer Vater barmherzig ist.",
+          "antev_lat": "Estóte misericórdes, sicut et Pater vester miséricors est, dicit Dóminus."
+        },
+        "Vesper": {
+          "antev": "Richtet nicht, damit ihr nicht gerichtet werdet – spricht der Herr –, denn wie ihr richtet, so werdet ihr gerichtet.",
+          "antev_lat": "Nolíte iudicáre, et non iudicabímini; in quo enim iudício iudicavéritis, iudicabímini, dicit Dóminus."
+        }
+      },
+      "2": {
+        "each": {
+          "oration": "Herr, unser Gott, behüte deine Kirche und verlass sie nicht. Wir sind dem Tod verfallen und gehen ohne dich zugrunde. Hilf uns, alles zu meiden, was uns schadet, und zu suchen, was uns zum Heil dient.^ORV",
+          "oration_lat": "Custódi, Dómine, quǽsumus, Ecclésiam tuam propitiatióne perpétua, et quia sine te lábitur humána mortálitas, tuis semper auxíliis et abstrahátur a nóxiis, et ad salutária dirigátur.^ORlV"
+        },
+        "Laudes": {
+          "antev": "Niemand auf Erden sollt ihr Vater nennen. Nur einer ist euer Vater: der im Himmel. Ihr alle aber seid Brüder.",
+          "antev_lat": "Unus est magíster vester, qui in cælis est, Christus Dóminus."
+        },
+        "Vesper": {
+          "antev": "Nur einer ist euer Meister: Christus, der Herr, der im Himmel ist.",
+          "antev_lat": "Omnes vos fratres estis; et patrem nolíte vocáre vobis super terram; unus est enim Pater vester, qui in cælis est; nec vocémini magístri, quia magíster vester unus est Christus."
+        }
+      },
+      "3": {
+        "each": {
+          "oration": "Herr, unser Gott, erhalte deiner Kirche die Bereitschaft, das Gute zu tun. Ermutige uns in diesem Leben durch deinen Schutz und führe uns zu den ewigen Gütern.^ORV",
+          "oration_lat": "Consérva, Dómine, famíliam tuam, bonis semper opéribus erudítam, et sic præséntibus consoláre præsídiis, ut propítius ad supérna dona perdúcas.^ORlV"
+        },
+        "Laudes": {
+          "antev": "Der Menschensohn ist nicht gekommen, um sich bedienen zu lassen, sondern um zu dienen und sein Leben hinzugeben als Lösegeld für viele.",
+          "antev_lat": "Fílius hóminis non venit ministrári, sed ministráre et dare ánimam suam redemptiónem pro multis."
+        },
+        "Vesper": {
+          "antev": "Der Menschensohn wird den Heiden übergeben. Sie werden ihn verspotten, geißeln und kreuzigen. Am dritten Tage aber wird er auferstehen.",
+          "antev_lat": "Fílius hóminis tradétur géntibus ad illudéndum et flagellándum et crucifigéndum, et tértia die resúrget."
+        }
+      },
+      "4": {
+        "each": {
+          "oration": "Heiliger Gott, du liebst die Unschuld und schenkst dem Sünder zurück, der reumütig zu dir heimkehrt. Wende unser Herz zu dir und schenke uns neuen Eifer im Heiligen Geist, damit wir im Glauben standhaft bleiben und stets bereit sind, das Gute zu tun.^ORV",
+          "oration_lat": "Deus, innocéntiæ restitútor et amátor, dírige ad te tuórum corda servórum, ut, Spíritus tui fervóre concépto, et in fide inveniántur stábiles et in ópere efficáces.^ORlV"
+        },
+        "Laudes": {
+          "antev": "Mein Sohn, denke daran, dass du im Leben schon alles Gute bekommen hast, Lazarus aber nur Schlechtes. Jetzt wird er dafür getröstet.",
+          "antev_lat": "Fili, recordáre quia recepísti bona in vita tua, et Lázarus simíliter mala."
+        },
+        "Vesper": {
+          "antev": "Der reiche Mann verweigerte dem armen Lazarus den Bissen Brot: Nun bettelt er um einen Tropfen Wasser.",
+          "antev_lat": "Dives ille guttam aquæ pétiit, qui micas panis Lázaro negávit."
+        }
+      },
+      "5": {
+        "each": {
+          "oration": "Allmächtiger Gott, reinige uns in diesen Tagen, in denen wir für unsere Sünden Buße tun, damit wir mit lauterem Herzen das Osterfest erwarten.^ORV",
+          "oration_lat": "Da, quǽsumus, omnípotens Deus, ut, sacro nos purificánte pæniténtiæ stúdio, sincéris méntibus ad sancta ventúra fácias perveníre.^ORlV"
+        },
+        "Laudes": {
+          "antev": "Den Bösen wird er ein böses Ende bereiten und den Weinberg anderen verpachten, die ihm Früchte liefern zur rechten Zeit.",
+          "antev_lat": "Malos male perdet, et víneam suam locábit áliis agrícolis, qui reddant ei fructum tempóribus suis."
+        },
+        "Vesper": {
+          "antev": "Sie suchten Jesus festzunehmen, doch sie fürchteten sich; denn das Volk hielt ihn für einen Propheten.",
+          "antev_lat": "Quæréntes Iesum tenére, timuérunt turbam, quia sicut prophétam eum habébant."
+        }
+      },
+      "6": {
+        "each": {
+          "oration": "Gütiger Gott, durch das Wirken deiner Gnade schenkst du uns schon auf Erden den Anfang des ewigen Lebens. Vollende, was du in uns begonnen hast, und führe uns hin zu jenem Licht, in dem du selber wohnst.^ORV",
+          "oration_lat": "Deus, qui nos gloriósis remédiis in terris adhuc pósitos iam cæléstium rerum facis esse consórtes, tu, quǽsumus, in ista qua vívimus nos vita gubérna ut ad illam, in qua ipse es, lucem perdúcas.^ORlV"
+        },
+        "Laudes": {
+          "antev": "Vater, ich habe gegen dich gesündigt und bin nicht mehr wert, dein Sohn zu sein; mach mich zu einem deiner Knechte.",
+          "antev_lat": "Pater, peccávi in cælum et coram te, iam non sum dignus vocári fílius tuus, fac me sicut unum ex mercenáriis tuis."
+        }
+      }
+    },
+    "3": {
+      "0": {
+        "each": {
+          "oration": "Gott, unser Vater, du bist der Quell des Erbarmens und der Güte. Wir stehen als Sünder vor dir, und unser Gewissen klagt uns an. Sieh auf unsere Not und lass uns Vergebung finden durch Fasten, Gebet und Werke der Liebe.^ORV",
+          "oration_lat": "Deus, ómnium misericordiárum et totíus bonitátis auctor, qui peccatórum remédia in ieiúniis, oratiónibus et eleemósynis demonstrásti, hanc humilitátis nostræ confessiónem propítius intuére, ut, qui inclinámur consciéntia nostra, tua semper misericórdia sublevémur.^ORlV"
+        },
+        "ErsteV": {
+          "ant1": "So spricht der Herr: Bekehrt euch und glaubt der Frohen Botschaft.",
+          "ant2": "Opfer des Lobes will ich dir bringen, anrufen will ich deinen heiligen Namen.",
+          "ant3": "Niemand entreißt mir das Leben, sondern ich gebe es hin und nehme es wieder.",
+          "antev": "Gerecht gemacht durch den Glauben, haben wir Frieden mit Gott durch unseren Herrn Jesus Christus.",
+          "ant1_lat": "Pænitémini et crédite Evangélio, dicit Dóminus.",
+          "ant2_lat": "Sacrificábo hóstiam laudis, et nomen Dómini invocábo.",
+          "ant3_lat": "Nemo tollit a me ánimam meam, sed ego pono eam et íterum sumo eam.",
+          "anta_lat": "Dicit Dóminus: Si quis bíberit aquam, quam ego dabo ei, non sítiet in ætérnum."
+        },
+        "Vigil": {
+          "les_buch": "Aus dem heiligen Evangelium nach Markus.",
+          "les_stelle": "9,29-47"
+        },
+        "Laudes": {
+          "ant1": "Gewaltiger als das Tosen vieler Wasser bist du, Herr, in der Höhe. Deine Gesetze sind fest und verlässlich.",
+          "ant2": "Ihr Quellen, preiset den Herrn, lobt und rühmt ihn in Ewigkeit.",
+          "ant3": "Ihr Könige der Erde und alle Völker, lobt den Herrn.",
+          "antev": "Jesus sprach: Reißt diesen Tempel nieder – in drei Tagen richte ich ihn wieder auf. Er meinte den Tempel seines Leibes.",
+          "ant1_lat": "Super voces aquárum multárum, testimónia tua, Dómine, credibília facta sunt nimis.",
+          "ant2_lat": "Benedícite, fontes, Dómino; laudáte et superexaltáte eum in sǽcula.",
+          "ant3_lat": "Reges terræ et omnes pópuli, laudáte Deum.",
+          "anta_lat": "Venit hora et nunc est, quando veri adoratóres adorábunt Patrem in Spíritu et veritáte: nam et Pater tales quærit, qui adórent eum."
+        },
+        "Vesper": {
+          "ant1": "Herr, allmächtiger König, um deines Namens willen mach uns frei und gib, dass wir uns zu dir bekehren.",
+          "ant2": "Durch sein kostbares Blut hat uns Christus erlöst, er, das Lamm ohne Makel.",
+          "ant3": "Wahrlich, unsere Krankheiten hat er getragen, unsere Schmerzen auf sich genommen.",
+          "antev": "Wer von dem Wasser trinkt, das ich ihm gebe, den wird nicht dürsten in Ewigkeit.",
+          "ant1_lat": "Dómine, rex omnípotens, líbera nos propter nomen tuum, et da nobis locum pæniténtiæ.",
+          "ant2_lat": "Redémpti sumus pretióso sánguine agni immaculáti Christi.",
+          "ant3_lat": "Vere languóres nostros ipse tulit, et dolóres nostros ipse portávit.",
+          "anta_lat": "Multo plures credidérunt et mulíeri dicébant: Iam non propter tuam loquélam crédimus; ipsi enim audívimus et scimus quia hic est vere Salvátor mundi!"
+        },
+        "Lesehore": {
+          "versikel0_lat": "Cibávit illum pane vitæ et intelléctus.",
+          "versikel1_lat": "Et aqua sapiéntiæ salutáris potávit illum."
+        }
+      },
+      "1": {
+        "each": {
+          "oration": "Barmherziger Gott, deine Kirche kann nicht bestehen ohne dich, sie lebt allein von deiner Gnade. Reinige und festige sie und führe sie mit starker Hand.^ORV",
+          "oration_lat": "Ecclésiam tuam, Dómine, miserátio continuáta mundet et múniat, et, quia sine te non potest salva consístere, tuo semper múnere gubernétur.^ORlV"
+        },
+        "Laudes": {
+          "antev": "Wahrlich, ich sage euch: Kein Prophet ist anerkannt in seiner Vaterstadt.",
+          "antev_lat": "Amen dico vobis, quia nemo prophéta accéptus est in pátria sua."
+        },
+        "Vesper": {
+          "antev": "Jesus schritt durch die Menge hindurch und ging hinweg.",
+          "antev_lat": "Iesus, tránsiens per médium illórum, ibat."
+        }
+      },
+      "2": {
+        "each": {
+          "oration": "Herr, unser Gott, verlass uns nicht in diesen Tagen der Buße. Steh uns mit deiner Gnade bei, damit wir mit ganzer Bereitschaft den Dienst vollziehen, den du uns aufgetragen hast.^ORV",
+          "oration_lat": "Grátia tua ne nos, quǽsumus, Dómine, derelínquat, quæ et sacræ nos déditos fáciat servitúti, et tuam nobis opem semper acquírat.^ORlV"
+        },
+        "Laudes": {
+          "antev": "Der Herr sprach zu Petrus: Nicht siebenmal sollst du vergeben, sondern siebenundsiebzigmal.",
+          "antev_lat": "Non dico tibi, Petre, ut dimíttas sépties, sed usque septuágies sépties, dicit Dóminus."
+        },
+        "Vesper": {
+          "antev": "Der Herr sagte zum Knecht: Deine ganze Schuld habe ich dir erlassen. Musst nicht auch du deines Mitknechtes dich erbarmen, so wie ich mich deiner erbarmte?",
+          "antev_lat": "Sic et Pater meus cæléstis fáciet vobis, si non remiséritis unusquísque fratri suo de córdibus vestris."
+        }
+      },
+      "3": {
+        "each": {
+          "oration": "Barmherziger Gott, erneuere uns im Geist durch die Feier der heiligen vierzig Tage, damit wir für dein Wort empfänglich werden, bereit zu Gehorsam und Verzicht, demütig im Gebet und eifrig in Werken der Liebe.^ORV",
+          "oration_lat": "Præsta, quǽsumus, Dómine, ut, per quadragesimálem observántiam erudíti et tuo verbo nutríti, sancta continéntia tibi simus toto corde devóti, et in oratióne tua semper efficiámur concórdes.^ORlV"
+        },
+        "Laudes": {
+          "antev": "Denkt nicht, ich sei gekommen, das Gesetz und die Propheten aufzuheben – spricht der Herr. Nicht um aufzuheben, bin ich gekommen, sondern um zu erfüllen.",
+          "antev_lat": "Nolíte putáre quóniam veni sólvere legem aut prophétas; non veni sólvere, sed adimplére, dicit Dóminus."
+        },
+        "Vesper": {
+          "antev": "Wer Gottes Gebote hält und sie halten lehrt, der wird groß sein im Himmelreich.",
+          "antev_lat": "Qui fécerit et docúerit mandáta Dómini, hic magnus vocábitur in regno cælórum."
+        }
+      },
+      "4": {
+        "each": {
+          "oration": "Allmächtiger Gott, gib, dass wir dem Ruf deiner Gnade folgen und uns mit um so größerem Eifer auf die Feier der österlichen Geheimnisse vorbereiten, je näher das Fest der Erlösung herankommt.^ORV",
+          "oration_lat": "Maiestátem tuam, Dómine, supplíciter implorámus, ut, quanto magis dies salutíferæ festivitátis accédit, tanto devótius ad eius celebrándum proficiámus paschále mystérium.^ORlV"
+        },
+        "Laudes": {
+          "antev": "Wenn ich Dämonen austreibe mit der Kraft Gottes, wahrlich, dann ist das Reich Gottes zu euch gekommen.",
+          "antev_lat": "Si in dígito Dei eício dæmónia, profécto pervénit in vos regnum Dei, dicit Dóminus."
+        },
+        "Vesper": {
+          "antev": "Eine Frau aus der Menge rief Jesus zu: Selig der Leib, der dich getragen, und die Brust, die dich genährt hat. Jesus aber sprach: Selig, die das Wort Gottes hören und es befolgen.",
+          "antev_lat": "Extóllens vocem quædam múlier de turba, dixit: Beátus venter qui te portávit et úbera quæ suxísti. At Iesus ait illi: Quinímmo beáti, qui áudiunt verbum Dei et custódiunt illud."
+        }
+      },
+      "5": {
+        "each": {
+          "oration": "Gütiger Gott, lass deine Gnade mächtig werden in unseren Herzen, damit wir imstande sind, unser eigenes Begehren zu meistern und den Anregungen deines Geistes zu folgen.^ORV",
+          "oration_lat": "Córdibus nostris, quǽsumus, Dómine, grátiam tuam benígnus infúnde, ut ab humánis semper retrahámur excéssibus, et mónitis inhærére valeámus, te largiénte, cæléstibus.^ORlV"
+        },
+        "Laudes": {
+          "antev": "Meister, welches ist das größte Gebot? Jesus gab zur Antwort: Du sollst den Herrn, deinen Gott, lieben von ganzem Herzen.",
+          "antev_lat": "Magíster, quod est mandátum magnum in lege? Ait illi Iesus: Díliges Dóminum Deum tuum ex toto corde tuo."
+        },
+        "Vesper": {
+          "antev": "Seinen Nächsten lieben wie sich selbst, ist weit mehr als alle Opfer.",
+          "antev_lat": "Dilígere próximum suum tamquam seípsum, magis est ómnibus sacrifíciis."
+        }
+      },
+      "6": {
+        "each": {
+          "oration": "Gütiger Gott, in geistlicher Freude begehen wir diese Tage der Buße. Gib, dass wir aus dem österlichen Geheimnis leben, damit uns sein voller Gnadenreichtum zuteilwird.^ORV",
+          "oration_lat": "Observatiónis huius ánnua celebritáte lætántes, quǽsumus, Dómine, ut, paschálibus sacraméntis inhæréntes, plenis eórum efféctibus gaudeámus.^ORlV"
+        },
+        "Laudes": {
+          "antev": "Der Zöllner wagte nicht, die Augen zum Himmel zu erheben. Er schlug an seine Brust und betete: Gott, sei mir Sünder gnädig.",
+          "antev_lat": "Stans a longe publicánus, nolébat óculos ad cælum leváre, sed percutiébat pectus suum dicens: Deus, propítius esto mihi peccatóri."
+        }
+      }
+    },
+    "4": {
+      "0": {
+        "each": {
+          "oration": "Herr, unser Gott, du hast in deinem Sohn die Menschheit auf wunderbare Weise mit dir versöhnt. Gib deinem Volk einen hochherzigen Glauben, damit es mit froher Hingabe dem Osterfest entgegeneilt.^ORV",
+          "oration_lat": "Deus, qui per Verbum tuum humáni géneris reconciliatiónem mirabíliter operáris, præsta, quǽsumus, ut pópulus christiánus prompta devotióne et álacri fide ad ventúra sollémnia váleat festináre.^ORlV"
+        },
+        "ErsteV": {
+          "psalm1": 122.101,
+          "ant1": "Ich freute mich, als man mir sagte: Zum Haus des Herrn wollen wir pilgern.",
+          "ant2": "Wach auf, der du schläfst, steh auf von den Toten, und Christus wird dich erleuchten.",
+          "ant3": "Als wir tot waren durch die Sünde, hat Gott uns mit Christus lebendig gemacht aus großer Liebe.",
+          "antev": "So sehr hat Gott die Welt geliebt, dass er seinen einzigen Sohn dahingab, damit alle, die an ihn glauben, nicht verlorengehen, sondern das ewige Leben haben.",
+          "ant1_lat": "In domum Dómini lætántes íbimus",
+          "ant2_lat": "Surge, qui dormis, et exsúrge a mórtuis, et illuminábit te Christus.",
+          "ant3_lat": "Propter nímiam caritátem suam, qua diléxit nos Deus, cum essémus mórtui peccátis, convivificávit nos in Christo.",
+          "anta_lat": "Rabbi, quis peccávit, hic aut paréntes eius, ut cæcus nascerétur? Respóndit Iesus: Neque hic peccávit neque paréntes eius, sed ut manifesténtur ópera Dei in illo."
+        },
+        "Vigil": {
+          "les_buch": "Aus dem heiligen Evangelium nach Markus.",
+          "les_stelle": "10,32-45"
+        },
+        "Laudes": {
+          "ant1": "Du bist mein Gott, dir will ich danken; mein Gott, dich will ich rühmen.",
+          "ant2": "Befreie uns, Herr, unser Gott; denn du hast die Macht, uns der Hand der Mächtigen zu entreißen.",
+          "ant3": "Lobt den Herrn in seinem Heiligtum, lobt ihn für seine großen Taten.",
+          "antev": "Noch nie hat man gehört, dass jemand die Augen eines Menschen geöffnet hat, der blind geboren war: Du aber hast es getan, Christus, Sohn Gottes, du Licht der Welt.",
+          "ant1_lat": "Deus meus es tu, et confitébor tibi; Deus meus es tu, et exaltábo te.",
+          "ant2_lat": "Potens es, Dómine, erípere nos de manu forti; líbera nos, Deus noster.",
+          "ant3_lat": "Laudáte Dóminum in magnálibus eius.",
+          "anta_lat": "Homo, qui dícitur Iesus, lutum fecit et unxit óculos meos: ábii et lavi et modo vídeo."
+        },
+        "Vesper": {
+          "ant1": "Der Herr steht dir zur Seite. Er hat dich eingesetzt als Richter über Lebende und Tote.",
+          "ant2": "Selig der Mann, der gütig und hilfreich ist, niemals gerät er ins Wanken.",
+          "ant3": "Durch den Mund der Propheten hat Gott vorhergesagt, dass sein Gesalbter leiden muss. In Christus Jesus hat sich sein Wort erfüllt.",
+          "antev": "Mein Sohn, du bist immer bei mir, und alles, was mein ist, ist dein. Heute aber müssen wir feiern und fröhlich sein; denn dein Bruder war tot – und er lebt, er war verloren – und wurde gefunden.",
+          "ant1_lat": "Ipse est qui constitútus est a Deo iudex vivórum et mortuórum.",
+          "ant2_lat": "Iucúndus homo, qui miserétur in Dómino: non commovébitur in ætérnum.",
+          "ant3_lat": "Quæ prænuntiávit Deus per os ómnium prophetárum, pati Christum suum, sic implévit.",
+          "anta_lat": "A sǽculo non est audítum quia quis apéruit óculos cæci nati, nisi Christus Fílius Dei."
+        },
+        "Lesehore": {
+          "versikel0_lat": "Verba tua, Dómine, spíritus et vita sunt.",
+          "versikel1_lat": "Tu verba vitæ ætérnæ habes."
+        }
+      },
+      "1": {
+        "each": {
+          "oration": "Allherrschender Gott, du schenkst uns im österlichen Geheimnis jenes wunderbare Leben, das die Welt unablässig erneuert. Lass das Werk deiner Gnade in der Kirche mächtig werden und gib ihr alles, was sie in dieser Zeit braucht.^ORV",
+          "oration_lat": ""
+        },
+        "Laudes": {
+          "antev": "Ein Mann in königlichem Dienst kam zu Jesus und bat ihn, seinen Sohn zu heilen, der im Sterben lag. Und Jesus sprach: Geh hin, dein Sohn lebt.",
+          "antev_lat": ""
+        },
+        "Vesper": {
+          "antev": "Der Vater erkannte, dass es zu der Stunde war, als Jesus gesagt hatte: Dein Sohn lebt. Und er wurde gläubig mit seinem ganzen Haus.",
+          "antev_lat": ""
+        }
+      },
+      "2": {
+        "each": {
+          "oration": "Barmherziger Gott, diese heilige Zeit der Buße und des Gebetes mache unsere Herzen bereit, die Ostergnade zu empfangen und das Lob des Erlösers zu verkünden,^ORR",
+          "oration_lat": ""
+        },
+        "Laudes": {
+          "antev": "Der Mann, der mich geheilt hat, sagte zu mir: Steh auf, nimm deine Matte und geh.",
+          "antev_lat": ""
+        },
+        "Vesper": {
+          "antev": "Jesus sprach zu dem Geheilten: Jetzt bist du gesund; sündige nicht mehr, damit dir nicht Schlimmeres zustößt.",
+          "antev_lat": ""
+        }
+      },
+      "3": {
+        "each": {
+          "oration": "Gütiger Gott, du schenkst den Gerechten ihren Lohn und verzeihst den Sündern ihre Schuld um der Buße willen. Wir bekennen dir unser Versagen; hab Erbarmen mit unserer Schwachheit, und vergib uns, was wir gefehlt haben.^ORV",
+          "oration_lat": ""
+        },
+        "Laudes": {
+          "antev": "Amen, amen, ich sage euch: Wer mein Wort hört und dem, der mich gesandt hat, glaubt, der hat das ewige Leben.",
+          "antev_lat": ""
+        },
+        "Vesper": {
+          "antev": "So spricht der Herr: Ich richte, wie ich es vom Vater höre, und mein Gericht ist gerecht. Denn ich folge nicht meinem Willen, sondern dem Willen dessen, der mich gesandt hat.",
+          "antev_lat": ""
+        }
+      },
+      "4": {
+        "each": {
+          "oration": "Gütiger Gott, heilige uns in dieser Zeit der Buße. Gib uns Kraft zu guten Werken und Ausdauer in der Beobachtung deiner Gebote, damit wir fähig werden, das Osterfest mit reinem Herzen zu feiern.^ORV",
+          "oration_lat": ""
+        },
+        "Laudes": {
+          "antev": "So spricht der Herr: Ich habe ein größeres Zeugnis als das des Johannes: die Werke, die mein Vater mir übertragen hat.",
+          "antev_lat": ""
+        },
+        "Vesper": {
+          "antev": "So spricht der Herr: Die Werke, die ich vollbringe, legen Zeugnis dafür ab, dass mich der Vater gesandt hat.",
+          "antev_lat": ""
+        }
+      },
+      "5": {
+        "each": {
+          "oration": "Barmherziger Gott, du kennst unsere Schwachheit und unsere Not. Doch je hinfälliger wir sind, um so mächtiger ist deine Hilfe. Gib, dass wir das Geschenk dieser Gnadenzeit freudig und dankbar annehmen und dein Wirken in unserem Leben bezeugen.^ORV",
+          "oration_lat": ""
+        },
+        "Laudes": {
+          "antev": "Als Jesus im Tempel lehrte, rief er: Ich bin nicht in meinem eigenen Namen gekommen, sondern mein Vater hat mich gesandt.",
+          "antev_lat": ""
+        },
+        "Vesper": {
+          "antev": "Niemand legte Hand an Jesus, denn seine Stunde war noch nicht gekommen.",
+          "antev_lat": ""
+        }
+      },
+      "6": {
+        "each": {
+          "oration": "Barmherziger Gott, lenke du selbst unsere Herzen zu dir hin; denn ohne deine Hilfe können wir dir nicht gefallen.^ORV",
+          "oration_lat": ""
+        },
+        "Laudes": {
+          "antev": "Die Knechte, die Jesus festnehmen sollten, kamen zurück und sagten: Noch nie hat ein Mensch so gesprochen wie dieser Mensch.",
+          "antev_lat": ""
+        }
+      }
+    },
+    "5": {
+      "0": {
+        "each": {
+          "hymn_3": 0.0,
+          "oration": "Herr, unser Gott, dein Sohn hat sich aus Liebe zur Welt dem Tod überliefert. Lass uns in seiner Liebe bleiben und mit deiner Gnade aus ihr leben.^ORV",
+          "hymn_3_lat": 0.0,
+          "oration_lat": ""
+        },
+        "ErsteV": {
+          "ant1": "Ich lege mein Gesetz in ihr Herz. Ich werde ihr Gott sein, und sie werden mein Volk sein.",
+          "ant2": "Alles ist für mich Verlust, weil die Erkenntnis Christi Jesu, meines Herrn, alles übertrifft.",
+          "ant3": "Obwohl er Gottes Sohn war, hat er Gehorsam gelernt durch sein Leiden.",
+          "les_buch": "›1°Petr",
+          "les_stelle": "1,18–21",
+          "les_text": "Ihr wisst, dass ihr aus eurer sinnlosen, von den Vätern ererbten Lebensweise nicht um einen vergänglichen Preis losgekauft wurdet, nicht um Silber oder Gold, sondern mit dem kostbaren Blut Christi, des Lammes ohne Fehl und Makel. Er war schon vor der Erschaffung der Welt dazu ausersehen, und euretwegen ist er am Ende der Zeiten erschienen. Durch ihn seid ihr zum Glauben an Gott gekommen, der ihn von den Toten auferweckt und ihm die Herrlichkeit gegeben hat, so dass ihr an Gott glauben und auf ihn hoffen könnt.",
+          "les_text_neu": "Ihr wisst, dass ihr aus eurer nichtigen, von den Vätern ererbten Lebensweise nicht um einen vergänglichen Preis losgekauft wurdet, nicht um Silber oder Gold, sondern mit dem kostbaren Blut Christi, des Lammes ohne Fehl und Makel. Er war schon vor der Grundlegung der Welt dazu ausersehen, und euretwegen ist er am Ende der Zeiten erschienen. Durch ihn seid ihr zum Glauben an Gott gekommen, der ihn von den Toten auferweckt und ihm die Herrlichkeit gegeben hat, so dass ihr an Gott glauben und auf ihn hoffen könnt.",
+          "antev": "Wenn das Weizenkorn nicht in die Erde fällt und stirbt, bleibt es allein; wenn es aber stirbt, bringt es reiche Frucht.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "antev_lat": "",
+          "les_text_lat": ""
+        },
+        "Vigil": {
+          "les_buch": "Aus dem heiligen Evangelium nach Matthäus.",
+          "les_stelle": "21,33-46"
+        },
+        "Laudes": {
+          "ant1": "Mein Gott, du wurdest meine Hilfe, meine Seele hängt an dir.",
+          "ant2": "Rette uns, Herr, durch deine wunderbaren Taten, entreiße uns der Hand des Todes.",
+          "ant3": "Die Stunde ist gekommen, dass der Menschensohn verherrlicht werde.",
+          "les_buch": "›Lev",
+          "les_stelle": "23,4–7",
+          "les_text": "Das sind die Feste des Herrn, Tage heiliger Versammlungen, die ihr zur festgesetzten Zeit ausrufen sollt: Im ersten Monat, am vierzehnten Tag des Monats, zur Abenddämmerung, ist Pascha zur Ehre des Herrn. Am fünfzehnten Tag dieses Monats ist das Fest der Ungesäuerten Brote zur Ehre des Herrn. Sieben Tage sollt ihr ungesäuertes Brot essen. Am ersten Tag habt ihr heilige Versammlung; ihr dürft keine schwere Arbeit verrichten.",
+          "antev": "Lazarus, unser Freund, schläft; aber ich gehe hin, um ihn aufzuwecken.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "antev_lat": "",
+          "les_text_lat": ""
+        },
+        "Terz": {
+          "les_buch": "›2°Kor",
+          "les_stelle": "4,10–11",
+          "les_text": "Immer tragen wir das Todesleiden Jesu an unserem Leib, damit auch das Leben Jesu an unserem Leib sichtbar wird. Denn immer werden wir, obgleich wir leben, um Jesu willen dem Tod ausgeliefert, damit auch das Leben Jesu an unserem sterblichen Fleisch offenbar wird.",
+          "les_text_lat": ""
+        },
+        "Sext": {
+          "les_buch": "›1°Petr",
+          "les_stelle": "4,13–14",
+          "les_text": "Freut euch, dass ihr Anteil an den Leiden Christi habt; denn so könnt ihr auch bei der Offenbarung seiner Herrlichkeit voll Freude jubeln. Wenn ihr wegen des Namens Christi beschimpft werdet, seid ihr seligzupreisen; denn der Geist der Herrlichkeit, der Geist Gottes, ruht auf euch.",
+          "les_text_lat": ""
+        },
+        "Non": {
+          "les_buch": "›1°Petr",
+          "les_stelle": "5,10–11",
+          "les_text": "Der Gott aller Gnade, der euch in (der Gemeinschaft mit) Christus zu seiner ewigen Herrlichkeit berufen hat, wird euch, die ihr kurze Zeit leiden müsst, wieder aufrichten, stärken, kräftigen und auf festen Grund stellen. Sein ist die Macht in Ewigkeit. Amen.",
+          "les_text_neu": "Der Gott aller Gnade, der euch in Christus zu seiner ewigen Herrlichkeit berufen hat, wird euch, die ihr kurze Zeit leiden müsst, wieder aufrichten, stärken, kräftigen und auf festen Grund stellen. Sein ist die Macht in Ewigkeit. Amen.",
+          "les_text_lat": ""
+        },
+        "Vesper": {
+          "ant1": "Wie Mose die Schlange in der Wüste erhöht hat, so muss der Menschensohn erhöht werden, damit jeder, der glaubt, in ihm das ewige Leben habe.",
+          "ant2": "Der Herr der Heere schützt und befreit uns; er wird uns verschonen und retten.",
+          "ant3": "Er wurde durchbohrt wegen unserer Verbrechen, misshandelt wegen unserer Sünden. Durch seine Wunden sind wir geheilt.",
+          "les_buch": "›Apg",
+          "les_stelle": "13,26b–30",
+          "les_text": "Uns wurde das Wort des Heils gesandt. Denn die Einwohner von Jerusalem und ihre Führer haben Jesus nicht erkannt; aber sie haben die Worte der Propheten, die an jedem Sabbat vorgelesen werden, erfüllt und haben ihn verurteilt. Obwohl sie nichts fanden, wofür er den Tod verdient hätte, forderten sie von Pilatus seine Hinrichtung. Als sie alles vollbracht hatten, was in der Schrift über ihn gesagt ist, nahmen sie ihn vom Kreuzesholz und legten ihn ins Grab. Gott aber hat ihn von den Toten auferweckt.",
+          "antev": "Wenn ich von der Erde erhöht bin, werde ich alle an mich ziehen.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "antev_lat": "",
+          "les_text_lat": ""
+        },
+        "Lesehore": {
+          "versikel0_lat": "Si quis sermónem meum serváverit.",
+          "versikel1_lat": "Mortem non vidébit in ætérnum."
+        }
+      },
+      "1": {
+        "each": {
+          "oration": "Barmherziger Gott, in deinem Sohn hast du uns die Fülle des Segens geschenkt. Gib uns Kraft, unsere sündhaften Gewohnheiten abzulegen und in der neuen Wirklichkeit zu leben, damit einst die Herrlichkeit deines Reiches an uns offenbar wird.^ORV",
+          "oration_lat": ""
+        },
+        "Laudes": {
+          "les_buch": "›Jer",
+          "les_stelle": "11,19–20",
+          "les_text": "Ich war wie ein zutrauliches Lamm, das zum Schlachten geführt wird, und ahnte nicht, dass sie gegen mich Böses planten: Wir wollen den Baum im Saft verderben; wir wollen ihn ausrotten aus dem Land der Lebenden, so dass man seinen Namen nicht mehr erwähnt. Aber der Herr der Heere richtet gerecht, er prüft Herz und Nieren. Ich werde deine Rache an ihnen sehen; denn dir habe ich meine Sache anvertraut.",
+          "les_text_neu": "Ich aber war wie ein zutrauliches Lamm, das zum Schlachten geführt wird, und ahnte nicht, dass sie gegen mich Böses planten: Wir wollen den Baum im Saft verderben; wir wollen ihn ausrotten aus dem Land der Lebenden, sodass seines Namens nicht mehr gedacht wird. Aber der HERR der Heerscharen richtet gerecht, er prüft Nieren und Herz. Ich werde deine Vergeltung an ihnen sehen, denn dir habe ich meine Sache anvertraut.",
+          "antev": "Ich bin das Licht der Welt. Wer mir nachfolgt, wandelt nicht in Finsternis, sondern hat das Licht des Lebens.",
+          "antev_lat": "",
+          "les_text_lat": ""
+        },
+        "Terz": {
+          "les_buch": "›Ez",
+          "les_stelle": "33,10b.11b",
+          "les_text": "Unsere Vergehen und unsere Sünden lasten auf uns, wir siechen ihretwegen dahin. Wie sollen wir da am Leben bleiben? So wahr ich lebe – Spruch Gottes des Herrn –, ich habe kein Gefallen am Tod des Schuldigen, sondern daran, dass er auf seinem Weg umkehrt und am Leben bleibt.",
+          "les_text_neu": "Fürwahr, unsere Vergehen und unsere Sünden lasten auf uns, in ihnen siechen wir dahin. Wie sollen wir da am Leben bleiben? So wahr ich lebe – Spruch GOTTES, des Herrn –, ich habe kein Gefallen am Tod des Schuldigen, sondern daran, dass ein Schuldiger sich abkehrt von seinem Weg und am Leben bleibt.",
+          "les_text_lat": ""
+        },
+        "Sext": {
+          "les_buch": "›Jer",
+          "les_stelle": "18,20b",
+          "les_text": "Denk daran, wie ich vor dir stand, um zu ihren Gunsten zu sprechen und deinen Zorn von ihnen abzuwenden!",
+          "les_text_neu": "Gedenke, dass ich vor dir stand, um Gutes über sie zu reden und deinen Zorn von ihnen abzuwenden!",
+          "les_text_lat": ""
+        },
+        "Non": {
+          "les_buch": "›Jer",
+          "les_stelle": "31,2.3b.4a",
+          "les_text": "So spricht der Herr: Gnade fand in der Wüste das Volk, das vom Schwert verschont blieb; Israel zieht zum Ort seiner Ruhe. Mit ewiger Liebe habe ich dich geliebt, darum habe ich dir so lange die Treue bewahrt. Ich baue dich wieder auf, du sollst neu gebaut werden, Jungfrau Israel.",
+          "les_text_neu": "So spricht der HERR: Gnade fand in der Wüste das Volk, das dem Schwert entronnen ist; ich gehe mit, um Israel zur Ruhe zu führen. Mit ewiger Liebe habe ich dich geliebt, darum habe ich dir die Treue bewahrt. Ich baue dich wieder auf, du wirst aufgebaut sein, Jungfrau Israel.",
+          "les_text_lat": ""
+        },
+        "Vesper": {
+          "les_buch": "›Röm",
+          "les_stelle": "5,8–9",
+          "les_text": "Gott hat seine Liebe zu uns darin erwiesen, dass Christus für uns gestorben ist, als wir noch Sünder waren. Nachdem wir jetzt durch sein Blut gerecht gemacht sind, werden wir durch ihn erst recht vor dem Zorn Gottes gerettet werden.",
+          "les_text_neu": "Gott erweist seine Liebe zu uns darin, dass Christus für uns gestorben ist, als wir noch Sünder waren. Nachdem wir jetzt durch sein Blut gerecht gemacht sind, werden wir durch ihn erst recht vor dem Zorn gerettet werden.",
+          "antev": "Ich selber lege Zeugnis für mich ab, und auch der Vater, der mich gesandt hat, ist mein Zeuge.",
+          "antev_lat": "",
+          "les_text_lat": ""
+        }
+      },
+      "2": {
+        "each": {
+          "oration": "Gütiger Gott, schenke uns Beharrlichkeit und Ausdauer auf dem Weg deiner Gebote, damit auch in unseren Tagen viele Menschen zu dir finden und deine Kirche dir immer eifriger dient.^ORV",
+          "oration_lat": ""
+        },
+        "Laudes": {
+          "les_buch": "›Sach",
+          "les_stelle": "12,10–11a",
+          "les_text": "Über das Haus David und über die Einwohner Jerusalems werde ich den Geist des Mitleids und des Gebets ausgießen. Und sie werden auf den blicken, den sie durchbohrt haben. Sie werden um ihn klagen, wie man um den einzigen Sohn klagt; sie werden bitter um ihn weinen, wie man um den Erstgeborenen weint. An jenem Tag wird die Totenklage sein in Jerusalem.",
+          "les_text_neu": "Doch über das Haus David und über die Einwohner Jerusalems werde ich einen Geist des Mitleids und des flehentlichen Bittens ausgießen. Und sie werden auf mich blicken, auf ihn, den sie durchbohrt haben. Sie werden um ihn klagen, wie bei der Klage um den Einzigen; sie werden bitter um ihn weinen, wie man um den Erstgeborenen weint. An jenem Tag wird die Klage in Jerusalem groß sein.",
+          "antev": "Wenn ihr den Menschensohn erhöht habt, dann werdet ihr erkennen, dass ich mit Recht sage: Ich bin es.",
+          "antev_lat": "",
+          "les_text_lat": ""
+        },
+        "Terz": {
+          "les_buch": "›1°Kor",
+          "les_stelle": "1,18–19",
+          "les_text": "Das Wort vom Kreuz ist denen, die verloren gehen, Torheit; uns aber, die gerettet werden, ist es Gottes Kraft. Es heißt nämlich in der Schrift: Ich lasse die Weisheit der Weisen vergehen und die Klugheit der Klugen verschwinden.",
+          "les_text_neu": "Denn das Wort vom Kreuz ist denen, die verloren gehen, Torheit; uns aber, die gerettet werden, ist es Gottes Kraft. In der Schrift steht nämlich: Ich werde die Weisheit der Weisen vernichten und die Klugheit der Klugen verwerfen.",
+          "les_text_lat": ""
+        },
+        "Sext": {
+          "les_buch": "›1°Kor",
+          "les_stelle": "1,22–24",
+          "les_text": "Die Juden fordern Zeichen, die Griechen suchen Weisheit. Wir dagegen verkündigen Christus als den Gekreuzigten: für Juden ein empörendes Ärgernis, für Heiden eine Torheit, für die Berufenen aber, Juden wie Griechen, Christus, Gottes Kraft und Gottes Weisheit.",
+          "les_text_neu": "Die Juden fordern Zeichen, die Griechen suchen Weisheit. Wir dagegen verkünden Christus als den Gekreuzigten: für Juden ein Ärgernis, für Heiden eine Torheit, für die Berufenen aber, Juden wie Griechen, Christus, Gottes Kraft und Gottes Weisheit.",
+          "les_text_lat": ""
+        },
+        "Non": {
+          "les_buch": "›1°Kor",
+          "les_stelle": "1,25.27a",
+          "les_text": "Das Törichte an Gott ist weiser als die Menschen, und das Schwache an Gott ist stärker als die Menschen. Das Törichte in der Welt hat Gott erwählt, um die Weisen zuschanden zu machen.",
+          "les_text_neu": "Denn das Törichte an Gott ist weiser als die Menschen, und das Schwache an Gott ist stärker als die Menschen. Das Törichte in der Welt hat Gott erwählt, um die Weisen zuschanden zu machen.",
+          "les_text_lat": ""
+        },
+        "Vesper": {
+          "les_buch": "›1°Kor",
+          "les_stelle": "1,27b–30",
+          "les_text": "Das Schwache in der Welt hat Gott erwählt, um das Starke zuschanden zu machen. Und das Niedrige in der Welt und das Verachtete hat Gott erwählt: das, was nichts ist, um das, was etwas ist, zu vernichten, damit kein Mensch sich rühmen kann vor Gott. Von ihm her seid ihr in Christus Jesus, den Gott für uns zur Weisheit gemacht hat, zur Gerechtigkeit, Heiligung und Erlösung.",
+          "antev": "Er, der mich gesandt hat, ist bei mir; er lässt mich nicht allein, weil ich immer tue, was ihm gefällt.",
+          "antev_lat": "",
+          "les_text_lat": ""
+        }
+      },
+      "3": {
+        "each": {
+          "oration": "Barmherziger Gott, du selber weckst in uns das Verlangen, dir zu dienen. Heilige uns durch Werke der Buße, erleuchte und stärke uns, damit wir treu den Weg deiner Gebote gehen.^ORV",
+          "oration_lat": ""
+        },
+        "Laudes": {
+          "les_buch": "›Jes",
+          "les_stelle": "50,5–7",
+          "les_text": "Gott, der Herr, hat mir das Ohr geöffnet. Ich aber wehrte mich nicht und wich nicht zurück. Ich hielt meinen Rücken denen hin, die mich schlugen, und denen, die mir den Bart ausrissen, meine Wangen. Mein Gesicht verbarg ich nicht vor Schmähungen und Speichel. Doch Gott, der Herr, wird mir helfen; darum werde ich nicht in Schande enden. Deshalb mache ich mein Gesicht hart wie einen Kiesel; ich weiß, dass ich nicht in Schande gerate.",
+          "les_text_neu": "GOTT, der Herr, hat mir das Ohr geöffnet. Ich aber wehrte mich nicht und wich nicht zurück. Ich hielt meinen Rücken denen hin, die mich schlugen, und meine Wangen denen, die mir den Bart ausrissen. Mein Gesicht verbarg ich nicht vor Schmähungen und Speichel. Und GOTT, der Herr, wird mir helfen; darum werde ich nicht in Schande enden. Deshalb mache ich mein Gesicht hart wie einen Kiesel; ich weiß, dass ich nicht in Schande gerate.",
+          "antev": "Wenn ihr in meinem Wort bleibt, seid ihr meine Jünger. Ihr werdet die Wahrheit erkennen, und die Wahrheit wird euch befreien.",
+          "antev_lat": "",
+          "les_text_lat": ""
+        },
+        "Terz": {
+          "les_buch": "›1°Tim",
+          "les_stelle": "2,4–6",
+          "les_text": "Gott will, dass alle Menschen gerettet werden und zur Erkenntnis der Wahrheit gelangen. Denn: Einer ist Gott. Einer auch Mittler zwischen Gott und den Menschen: der Mensch Christus Jesus, der sich als Lösegeld hingegeben hat für alle, ein Zeugnis zur vorherbestimmten Zeit.",
+          "les_text_lat": ""
+        },
+        "Sext": {
+          "les_buch": "›Röm",
+          "les_stelle": "15,3",
+          "les_text": "Christus hat nicht für sich selbst gelebt; in der Schrift heißt es vielmehr: Die Schmähungen derer, die dich schmähen, haben mich getroffen.",
+          "les_text_neu": "Christus hat nicht sich selbst zu Gefallen gelebt; vielmehr steht geschrieben: Die Schmähungen derer, die dich schmähen, sind auf mich gefallen.",
+          "les_text_lat": ""
+        },
+        "Non": {
+          "les_buch": "›Hebr",
+          "les_stelle": "9,28",
+          "les_text": "Christus wurde ein einziges Mal geopfert, um die Sünden vieler hinwegzunehmen; beim zweitenmal wird er nicht wegen der Sünde erscheinen, sondern um die zu retten, die ihn erwarten.",
+          "les_text_lat": ""
+        },
+        "Vesper": {
+          "les_buch": "›Eph",
+          "les_stelle": "4,32–5,2",
+          "les_text": "Seid gütig zueinander, seid barmherzig, vergebt einander, weil auch Gott euch durch Christus vergeben hat. Ahmt Gott nach als seine geliebten Kinder und liebt einander, weil auch Christus uns geliebt und sich für uns hingegeben hat als Gabe und Opfer, das Gott gefällt.",
+          "les_text_neu": "Seid gütig zueinander, seid barmherzig, vergebt einander, wie auch Gott euch in Christus vergeben hat. Ahmt Gott nach als seine geliebten Kinder und führt euer Leben in Liebe, wie auch Christus uns geliebt und sich für uns hingegeben hat als Gabe und Opfer, das Gott gefällt!",
+          "antev": "Ihr wollt mich töten, weil ich euch die Wahrheit verkünde, die Wahrheit, die ich von Gott gehört habe.",
+          "antev_lat": "",
+          "les_text_lat": ""
+        }
+      },
+      "4": {
+        "each": {
+          "oration": "Allmächtiger Gott, erhöre unser Gebet und beschütze uns, denn wir setzen unsere ganze Hoffnung auf dich. Reinige uns von aller Sünde und hilf uns, in deiner Gnade zu leben, damit wir Erben deiner Verheißung werden.^ORV",
+          "oration_lat": ""
+        },
+        "Laudes": {
+          "les_buch": "›Hebr",
+          "les_stelle": "2,9b–10",
+          "les_text": "Wir sehen Jesus um seines Todesleidens willen mit Herrlichkeit und Ehre gekrönt; so war es Gottes gnädiger Wille, dass er für alle den Tod erlitten hat. Denn es war angemessen, dass Gott, für den und durch den das All ist und der viele Söhne zur Herrlichkeit führen wollte, den Urheber ihres Heils durch Leiden vollendete.",
+          "antev": "Jesus sagte zu den Scharen der Juden und zu den Hohenpriestern: Ihr hört nicht, weil ihr nicht aus Gott seid. Wer aus Gott ist, hört die Worte Gottes.",
+          "antev_lat": "",
+          "les_text_lat": ""
+        },
+        "Terz": {
+          "les_buch": "›Hebr",
+          "les_stelle": "4,14–15",
+          "les_text": "Da wir einen erhabenen Hohenpriester haben, der die Himmel durchschritten hat, Jesus, den Sohn Gottes, lasst uns an dem Bekenntnis festhalten. Wir haben ja nicht einen Hohenpriester, der nicht mitfühlen könnte mit unserer Schwäche, sondern einen, der in allem wie wir in Versuchung geführt worden ist, aber nicht gesündigt hat.",
+          "les_text_neu": "Da wir einen erhabenen Hohepriester haben, der die Himmel durchschritten hat, Jesus, den Sohn Gottes, lasst uns an dem Bekenntnis festhalten. Wir haben ja nicht einen Hohepriester, der nicht mitfühlen könnte mit unserer Schwäche, sondern einen, der in allem wie wir versucht worden ist, aber nicht gesündigt hat.",
+          "les_text_lat": ""
+        },
+        "Sext": {
+          "les_buch": "›Hebr",
+          "les_stelle": "7,26–27",
+          "les_text": "Ein solcher Hoherpriester war für uns in der Tat notwendig: einer, der heilig ist, unschuldig, makellos, abgesondert von den Sündern und erhöht über die Himmel; einer, der es nicht Tag für Tag nötig hat, wie die Hohenpriester zuerst für die eigenen Sünden Opfer darzubringen und dann für die des Volkes; denn das hat er ein für allemal getan, als er sich selbst dargebracht hat.",
+          "les_text_neu": "Ein solcher Hohepriester ziemte sich in der Tat für uns: einer, der heilig ist, frei vom Bösen, makellos, abgesondert von den Sündern und erhöht über die Himmel; einer, der es nicht Tag für Tag nötig hat, wie die Hohepriester zuerst für die eigenen Sünden Opfer darzubringen und dann für die des Volkes; denn das hat er ein für alle Mal getan, als er sich selbst dargebracht hat.",
+          "les_text_lat": ""
+        },
+        "Non": {
+          "les_buch": "›Hebr",
+          "les_stelle": "9,11–12",
+          "les_text": "Christus ist gekommen als Hoherpriester der künftigen Güter; und durch das erhabenere und vollkommenere Zelt, das nicht von Menschenhand gemacht, das heißt nicht von dieser Welt ist, ist er ein für allemal in das Heiligtum hineingegangen, nicht mit dem Blut von Böcken und jungen Stieren, sondern mit seinem eigenen Blut, und so hat er eine ewige Erlösung bewirkt.",
+          "les_text_lat": ""
+        },
+        "Vesper": {
+          "les_buch": "›Hebr",
+          "les_stelle": "13,12–15",
+          "les_text": "Jesus hat, um durch sein eigenes Blut das Volk zu heiligen, außerhalb des Tores gelitten. Lasst uns also zu ihm vor das Lager hinausziehen und seine Schmach auf uns nehmen. Denn wir haben hier keine Stadt, die bestehen bleibt, sondern wir suchen die künftige. Durch ihn also lasst uns Gott allezeit das Opfer des Lobes darbringen, nämlich die Frucht der Lippen, die seinen Namen preisen.",
+          "les_text_neu": "Jesus hat, um durch sein eigenes Blut das Volk zu heiligen, außerhalb des Tores gelitten. Lasst uns also zu ihm vor das Lager hinausziehen und seine Schmach tragen. Denn wir haben hier keine bleibende Stadt, sondern wir suchen die zukünftige. Durch ihn also lasst uns Gott allezeit das Opfer des Lobes darbringen, nämlich die Frucht der Lippen, die seinen Namen bekennen.",
+          "antev": "Du bist noch keine fünfzig Jahre alt und willst Abraham gesehen haben? Amen, amen, ich sage euch: Ehe Abraham wurde, bin ich.",
+          "antev_lat": "",
+          "les_text_lat": ""
+        }
+      },
+      "5": {
+        "each": {
+          "oration": "Barmherziger Gott, wir haben aus menschlicher Schwachheit gefehlt und können aus eigener Kraft dem Netz der Sünde nicht entrinnen. Komm uns in deiner Güte zu Hilfe und befreie uns von aller Schuld.^ORV",
+          "oration_lat": ""
+        },
+        "Laudes": {
+          "les_buch": "›Jes",
+          "les_stelle": "52,13–15",
+          "les_text": "Seht, mein Knecht hat Erfolg, er wird groß sein und hoch erhaben. Viele haben sich über ihn entsetzt, so entstellt sah er aus, nicht mehr wie ein Mensch, seine Gestalt war nicht mehr die eines Menschen. Jetzt aber setzt er viele Völker in Staunen, Könige müssen vor ihm verstummen. Denn was man ihnen noch nie erzählt hat, das sehen sie nun; was sie niemals hörten, das erfahren sie jetzt.",
+          "les_text_neu": "Siehe, mein Knecht wird Erfolg haben, er wird sich erheben und erhaben und sehr hoch sein.Wie sich viele über dich entsetzt haben – so entstellt sah er aus, nicht mehr wie ein Mensch, seine Gestalt war nicht mehr die eines Menschen –, so wird er viele Nationen entsühnen, Könige schließen vor ihm ihren Mund. Denn was man ihnen noch nie erzählt hat, das sehen sie nun; was sie niemals hörten, das erfahren sie jetzt.",
+          "antev": "Viele gute Werke habe ich vor euren Augen getan. Für welches wollt ihr mich töten?",
+          "antev_lat": "",
+          "les_text_lat": ""
+        },
+        "Terz": {
+          "les_buch": "›Jes",
+          "les_stelle": "53,2–3",
+          "les_text": "Vor den Augen des HERRN wuchs er auf wie ein junger Spross, wie ein Wurzeltrieb aus trockenem Boden. Er hatte keine schöne und edle Gestalt, so dass wir ihn anschauen mochten. Er sah nicht so aus, dass wir Gefallen fanden an ihm. Er wurde verachtet und von den Menschen gemieden, ein Mann voller Schmerzen, mit Krankheit vertraut. Wie einer, vor dem man das Gesicht verhüllt, war er verachtet; wir schätzten ihn nicht.",
+          "les_text_lat": ""
+        },
+        "Sext": {
+          "les_buch": "›Jes",
+          "les_stelle": "53,4–5",
+          "les_text": "Er hat unsere Krankheiten getragen und unsere Schmerzen auf sich geladen. Wir meinten, er sei von Gott geschlagen, von ihm getroffen und gebeugt. Doch er wurde durchbohrt wegen unserer Verbrechen, wegen unserer Sünden zermalmt. Zu unserem Heil lag die Strafe auf ihm, durch seine Wunden sind wir geheilt.",
+          "les_text_neu": "Er hat unsere Krankheiten getragen und unsere Schmerzen auf sich geladen. Wir meinten, er sei von Gott geschlagen, von ihm getroffen und gebeugt. Doch er wurde durchbohrt wegen unserer Vergehen, wegen unserer Sünden zermalmt. Zu unserem Heil lag die Züchtigung auf ihm, durch seine Wunden sind wir geheilt.",
+          "les_text_lat": ""
+        },
+        "Non": {
+          "les_buch": "›Jes",
+          "les_stelle": "53,6–7",
+          "les_text": "Wir hatten uns alle verirrt wie Schafe, jeder ging für sich seinen Weg. Doch der Herr lud auf ihn die Schuld von uns allen. Er wurde misshandelt und niedergedrückt, aber er tat seinen Mund nicht auf. Wie ein Lamm, das man zum Schlachten führt, und wie ein Schaf angesichts seiner Scherer, so tat auch er seinen Mund nicht auf.",
+          "les_text_neu": "Wir hatten uns alle verirrt wie Schafe, jeder ging für sich seinen Weg. Doch der HERR ließ auf ihn treffen die Schuld von uns allen. Er wurde bedrängt und misshandelt, aber er tat seinen Mund nicht auf. Wie ein Lamm, das man zum Schlachten führt, und wie ein Schaf vor seinen Scherern verstummt, so tat auch er seinen Mund nicht auf.",
+          "les_text_lat": ""
+        },
+        "Vesper": {
+          "les_buch": "›1°Petr",
+          "les_stelle": "2,21b–24",
+          "les_text": "Christus hat für euch gelitten und euch ein Beispiel gegeben, damit ihr seinen Spuren folgt. Er hat keine Sünde begangen, und kein trügerisches Wort war in seinem Mund. Er wurde geschmäht, schmähte aber nicht; er litt, drohte aber nicht, sondern überließ seine Sache dem gerechten Richter. Er hat unsere Sünden mit seinem Leib auf das Holz des Kreuzes hinaufgetragen, damit wir tot seien für die Sünden und für die Gerechtigkeit leben. Durch seine Wunden seid ihr geheilt.^RESP",
+          "les_text_neu": "Christus hat für euch gelitten und euch ein Beispiel gegeben, damit ihr seinen Spuren folgt. Er hat keine Sünde begangen und in seinem Mund war keine Falschheit. Als er geschmäht wurde, schmähte er nicht; als er litt, drohte er nicht, sondern überließ seine Sache dem gerechten Richter. Er hat unsere Sünden mit seinem eigenen Leib auf das Holz des Kreuzes getragen, damit wir tot sind für die Sünden und leben für die Gerechtigkeit. Durch seine Wunden seid ihr geheilt.^RESP",
+          "antev": "Wenn ihr mir nicht glaubt, dann glaubt doch den Werken, die ich im Namen meines Vaters tue.",
+          "antev_lat": "",
+          "les_text_lat": ""
+        }
+      },
+      "6": {
+        "each": {
+          "oration": "Barmherziger Gott, du wirkst das Heil der Menschen zu jeder Zeit; in diesen Tagen aber bist du uns besonders nahe. Trage Sorge für dein Volk, schütze die Getauften und alle, die sich auf die Taufe vorbereiten.^ORV",
+          "oration_lat": ""
+        },
+        "Laudes": {
+          "les_buch": "›Jes",
+          "les_stelle": "65,1b–3a",
+          "les_text": "Ich sagte: Hier bin ich, hier bin ich! Den ganzen Tag streckte ich meine Hände aus nach einem abtrünnigen Volk, das einen Weg ging, der nicht gut war, nach seinen eigenen Plänen, nach einem Volk, das in seinem Trotz mich ständig ärgert.",
+          "les_text_neu": "Ich sagte zu einer Nation, die mich nicht anrief: „Hier bin ich, hier bin ich!“ Den ganzen Tag streckte ich meine Hände aus nach einem abtrünnigen Volk, nach denen, die den Weg gehen, der nicht gut ist, hinter ihren eigenen Plänen her, nach dem Volk, das mich ständig ins Angesicht kränkt.",
+          "antev": "Nicht nur für Israel ist Jesus gestorben, sondern auch um die Kinder Gottes aus allen Völkern zu sammeln.",
+          "antev_lat": "",
+          "les_text_lat": ""
+        },
+        "Terz": {
+          "les_buch": "›1°Joh",
+          "les_stelle": "1,8–9",
+          "les_text": "Wenn wir sagen, dass wir keine Sünde haben, führen wir uns selbst in die Irre, und die Wahrheit ist nicht in uns. Wenn wir unsere Sünden bekennen, ist er treu und gerecht; er vergibt uns die Sünden und reinigt uns von allem Unrecht.",
+          "les_text_lat": ""
+        },
+        "Sext": {
+          "les_buch": "›1°Joh",
+          "les_stelle": "2,1b–2",
+          "les_text": "Wir haben einen Beistand beim Vater: Jesus Christus, den Gerechten. Er ist die Sühne für unsere Sünden, aber nicht nur für unsere Sünden, sondern auch für die der ganzen Welt.",
+          "les_text_lat": ""
+        },
+        "Non": {
+          "les_buch": "›1°Joh",
+          "les_stelle": "2,8b–10",
+          "les_text": "Die Finsternis geht vorüber, und schon leuchtet das wahre Licht. Wer sagt, er sei im Licht, aber seinen Bruder hasst, ist noch in der Finsternis. Wer seinen Bruder liebt, bleibt im Licht; da gibt es für ihn kein Straucheln.",
+          "les_text_neu": "Die Finsternis vergeht, und schon leuchtet das wahre Licht. Wer sagt, er sei im Licht, aber seinen Bruder hasst, ist noch in der Finsternis. Wer seinen Bruder liebt, bleibt im Licht und in ihm gibt es keinen Anstoß. ",
+          "les_text_lat": ""
+        }
+      },
+      "each": {
+        "Lesehore": {
+          "hymn_3": 3313.0
+        },
+        "Laudes": {
+          "hymn_3": 3323.0
+        },
+        "Vesper": {
+          "hymn_3": 3343.0
+        }
+      }
+    },
+    "6": {
+      "0": {
+        "each": {
+          "oration": "Allmächtiger, ewiger Gott, deinem Willen gehorsam, hat unser Erlöser Fleisch angenommen, er hat sich selbst erniedrigt und sich unter die Schmach des Kreuzes gebeugt. Hilf uns, dass wir ihm auf dem Weg des Leidens nachfolgen und an seiner Auferstehung Anteil erlangen.^ORvR",
+          "oration_lat": ""
+        },
+        "ErsteV": {
+          "button": "1. Vesper zum Palmsonntag",
+          "hymn_1": 3343.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "ant1": "So lange war ich bei euch im Tempel und lehrte, und ihr habt mich nicht ergriffen; nun werdet ihr mich geißeln und kreuzigen.",
+          "ant2": "Der Herr wird mir helfen; darum werde ich nicht in Schande enden.",
+          "ant3": "Jesus, der Herr, erniedrigte sich. Er war gehorsam bis zum Tod am Kreuze.",
+          "les_buch": "›1°Petr",
+          "les_stelle": "1,18–21",
+          "les_text": "Ihr wisst, dass ihr aus eurer sinnlosen, von den Vätern ererbten Lebensweise nicht um einen vergänglichen Preis losgekauft wurdet, nicht um Silber oder Gold, sondern mit dem kostbaren Blut Christi, des Lammes ohne Fehl und Makel. Er war schon vor der Erschaffung der Welt dazu ausersehen, und euretwegen ist er am Ende der Zeiten erschienen. Durch ihn seid ihr zum Glauben an Gott gekommen, der ihn von den Toten auferweckt und ihm die Herrlichkeit gegeben hat, so dass ihr an Gott glauben und auf ihn hoffen könnt.",
+          "les_text_neu": "Ihr wisst, dass ihr aus eurer nichtigen, von den Vätern ererbten Lebensweise nicht um einen vergänglichen Preis losgekauft wurdet, nicht um Silber oder Gold, sondern mit dem kostbaren Blut Christi, des Lammes ohne Fehl und Makel. Er war schon vor der Grundlegung der Welt dazu ausersehen, und euretwegen ist er am Ende der Zeiten erschienen. Durch ihn seid ihr zum Glauben an Gott gekommen, der ihn von den Toten auferweckt und ihm die Herrlichkeit gegeben hat, so dass ihr an Gott glauben und auf ihn hoffen könnt.",
+          "resp1": "Wir beten dich an, Herr, Jesus Christus,",
+          "resp2": "wir preisen dein heiliges Leiden.",
+          "resp3": "Durch deinen Tod am Kreuz hast du die Welt erlöst.",
+          "antev": "Sei gegrüßt, Sohn Davids, du unser König, von den Propheten verkündet als Retter der Welt.",
+          "bitten_e": "Lasst uns beten zu Jesus Christus, der über die Stadt Jerusalem geweint hat:",
+          "bitten_r": "Herr, erbarme dich deines Volkes.",
+          "bitten": "Du warst gesandt, die Kinder Israels zu sammeln;^qlass das Volk des Alten Bundes dich als den Messias erkennen.^pVerlass deine Gläubigen nicht, auch wenn sie dich verlassen;^qwende dich ihnen zu, damit sie sich zu dir bekehren.^pDurch dein Leiden und Sterben hast du den Tod überwunden;^qschenke den Katechumenen in der Taufe das neue Leben.^pDu willst, dass alle Menschen gerettet werden;^qhilf einem jeden, die Stunde der Gnade zu begreifen.^pDu thronst als Sieger in der Herrlichkeit des Vaters;^qgedenke aller, die aus dieser Welt geschieden sind.",
+          "hymn_2_lat": 0.0,
+          "hymn_3_lat": 0.0,
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp1_lat": "",
+          "resp2_lat": "",
+          "resp3_lat": "",
+          "antev_lat": "",
+          "bitten_e_lat": "",
+          "bitten_r_lat": "",
+          "bitten_lat": "",
+          "les_text_lat": ""
+        },
+        "Vigil": {
+          "ant0": "Jesus warf sich zu Boden und betete: Vater, wenn du willst, nimm diesen Kelch von mir. Doch nicht mein Wille geschehe, sondern der deine.",
+          "les_buch": "Aus dem heiligen Evangelium nach Johannes.",
+          "les_stelle": "8,21-30"
+        },
+        "Laudes": {
+          "ant1": "Das Volk, das zum Fest gekommen war, rief Jesus zu: Hochgelobt sei, der da kommt im Namen des Herrn. Hosanna in der Höhe.",
+          "ant2": "Mit den Engeln des Himmels und den Kindern Jerusalems lasst uns Christus huldigen, dem Sieger über den Tod, und rufen: Hosanna in der Höhe.",
+          "ant3": "Hochgelobt sei, der da kommt im Namen des Herrn. Im Himmel Friede und Herrlichkeit in der Höhe!",
+          "les_buch": "›Sach",
+          "les_stelle": "9,9",
+          "les_text": "Juble laut, Tochter Zion! Jauchze, Tochter Jerusalem! Siehe, dein König kommt zu dir. Er ist gerecht und hilft; er ist demütig und reitet auf einem Esel, auf einem Fohlen, dem Jungen einer Eselin.",
+          "les_text_neu": "Juble laut, Tochter Zion! Jauchze, Tochter Jerusalem! Siehe, dein König kommt zu dir. Gerecht ist er und Rettung wurde ihm zuteil, demütig ist er und reitet auf einem Esel, ja, auf einem Esel, dem Jungen einer Eselin.",
+          "antev": "Mit Palmen huldigen wir unserem Herrn, der als Sieger kommt. Ihm ziehen wir entgegen mit Hymnen und Gesängen. Wir rühmen ihn und rufen: Gepriesen bist du, o°Herr.",
+          "bitten_e": "Gepriesen sei Jesus Christus, der am heutigen Tag als Gesalbter in Jerusalem einzog. Zu ihm lasst uns beten:",
+          "bitten_r": "Hochgelobt sei, der da kommt im Namen des Herrn.",
+          "bitten": "Hosanna dem Sohne Davids, dem König der ganzen Welt.^qHosanna dem Sieger über Hölle und Tod.^pDu bist hinaufgezogen nach Jerusalem, um zu leiden und so in deine Herrlichkeit einzugehen;^qführe uns durch deinen Tod zum ewigen Osterfest.^pDurch dich wurde das Kreuz zum Baum des Lebens;^qschenke uns seine Frucht, das ewige Heil.^pDu bist gekommen, uns Sünder zu retten;^qlass keinen von uns verlorengehen.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "antev_lat": "",
+          "bitten_e_lat": "",
+          "bitten_r_lat": "",
+          "bitten_lat": "",
+          "les_text_lat": ""
+        },
+        "Terz": {
+          "les_buch": "›2°Kor",
+          "les_stelle": "4,10–11",
+          "les_text": "Immer tragen wir das Todesleiden Jesu an unserem Leib, damit auch das Leben Jesu an unserem Leib sichtbar wird. Denn immer werden wir, obgleich wir leben, um Jesu willen dem Tod ausgeliefert, damit auch das Leben Jesu an unserem sterblichen Fleisch offenbar wird.",
+          "les_text_lat": ""
+        },
+        "Sext": {
+          "les_buch": "›1°Petr",
+          "les_stelle": "4,13–14",
+          "les_text": "Freut euch, dass ihr Anteil an den Leiden Christi habt; denn so könnt ihr auch bei der Offenbarung seiner Herrlichkeit voll Freude jubeln. Wenn ihr wegen des Namens Christi beschimpft werdet, seid ihr seligzupreisen; denn der Geist der Herrlichkeit, der Geist Gottes, ruht auf euch.",
+          "hymn_1_lat": 4006.4,
+          "les_text_lat": ""
+        },
+        "Non": {
+          "les_buch": "›1°Petr",
+          "les_stelle": "5,10–11",
+          "les_text": "Der Gott aller Gnade, der euch in (der Gemeinschaft mit) Christus zu seiner ewigen Herrlichkeit berufen hat, wird euch, die ihr kurze Zeit leiden müsst, wieder aufrichten, stärken, kräftigen und auf festen Grund stellen. Sein ist die Macht in Ewigkeit. Amen.",
+          "les_text_neu": "Der Gott aller Gnade, der euch in Christus zu seiner ewigen Herrlichkeit berufen hat, wird euch, die ihr kurze Zeit leiden müsst, wieder aufrichten, stärken, kräftigen und auf festen Grund stellen. Sein ist die Macht in Ewigkeit. Amen.",
+          "les_text_lat": ""
+        },
+        "Vesper": {
+          "ant1": "Er wurde zerschlagen und erniedrigt, aber Gott hat ihn erhöht zu seiner Rechten.",
+          "ant2": "Christi Blut macht uns rein für den Dienst vor dem lebendigen Gott.",
+          "ant3": "Mit seinem eigenen Leib hat Christus unsere Sünden am Holz des Kreuzes getragen, damit wir tot sind für die Sünden und für die Gerechtigkeit leben.",
+          "les_buch": "›Apg",
+          "les_stelle": "13,26b–30",
+          "les_text": "Uns wurde das Wort des Heils gesandt. Denn die Einwohner von Jerusalem und ihre Führer haben Jesus nicht erkannt; aber sie haben die Worte der Propheten, die an jedem Sabbat vorgelesen werden, erfüllt und haben ihn verurteilt. Obwohl sie nichts fanden, wofür er den Tod verdient hätte, forderten sie von Pilatus seine Hinrichtung. Als sie alles vollbracht hatten, was in der Schrift über ihn gesagt ist, nahmen sie ihn vom Kreuzesholz und legten ihn ins Grab. Gott aber hat ihn von den Toten auferweckt.",
+          "antev": "Ihr werdet alle irre werden an mir. Es steht ja geschrieben: Den Hirten will ich schlagen, und die Schafe werden sich zerstreuen. – Doch wenn ich auferstanden bin, gehe ich euch voraus nach Galiläa.",
+          "bitten_e": "Lasst uns beten zu Jesus Christus, der hinaufgezogen ist nach Jerusalem, um für das Heil der Welt zu sterben.",
+          "bitten_r": "Heilige das Volk, das du mit deinem Blut erkauft hast.",
+          "bitten": "Du hast das Reich Gottes verkündet und zur Umkehr aufgerufen;^qerneuere deine Kirche im Geist des Evangeliums.^pDu hast ein Herz gehabt für die Armen und Bedrängten;^qsteh denen bei, die keinen Helfer haben.^pDu berufst immer wieder Menschen in deine Kirche;^qerleuchte die Katechumenen, die sich auf die Taufe vorbereiten.^pDu willst nicht den Tod des Sünders, sondern dass er lebe;^qerbarme dich derer, die mit uns in diesen vierzig Tagen Buße tun.^pNimm unsere Verstorbenen gnädig auf^qund lass sie teilhaben an deiner Auferstehung.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "antev_lat": "",
+          "bitten_e_lat": "",
+          "bitten_r_lat": "",
+          "bitten_lat": "",
+          "les_text_lat": ""
+        },
+        "Lesehore": {
+          "versikel0_lat": "Cum exaltátus fúero a terra.",
+          "versikel1_lat": "Omnia traham ad meípsum."
+        }
+      },
+      "1": {
+        "each": {
+          "oration": "Allmächtiger Gott, in unserer Schwachheit versagen wir und sind anfällig für das Böse. Schau hin auf das Leiden deines Sohnes, richte uns wieder auf und schenke uns neues Leben.^ORV",
+          "oration_lat": ""
+        },
+        "Laudes": {
+          "ant1": "Meine Seele ist betrübt bis zum Tode. Bleibt hier und wachet mit mir.",
+          "ant2": "Jetzt wird diese Welt gerichtet; jetzt wird der Herrscher dieser Welt hinausgeworfen.",
+          "ant3": "Blickt auf zu Jesus, dem Begründer und Vollender des Glaubens. Um der Freude willen, die vor ihm lag, nahm er das Kreuz auf sich, der Schande nicht achtend, und sitzt nun zur Rechten des Thrones Gottes.",
+          "les_buch": "›Jer",
+          "les_stelle": "11,19–20",
+          "les_text": "Ich war wie ein zutrauliches Lamm, das zum Schlachten geführt wird, und ahnte nicht, dass sie gegen mich Böses planten: Wir wollen den Baum im Saft verderben; wir wollen ihn ausrotten aus dem Land der Lebenden, so dass man seinen Namen nicht mehr erwähnt. Aber der Herr der Heere richtet gerecht, er prüft Herz und Nieren. Ich werde deine Rache an ihnen sehen; denn dir habe ich meine Sache anvertraut.",
+          "les_text_neu": "Ich aber war wie ein zutrauliches Lamm, das zum Schlachten geführt wird, und ahnte nicht, dass sie gegen mich Böses planten: Wir wollen den Baum im Saft verderben; wir wollen ihn ausrotten aus dem Land der Lebenden, sodass seines Namens nicht mehr gedacht wird. Aber der HERR der Heerscharen richtet gerecht, er prüft Nieren und Herz. Ich werde deine Vergeltung an ihnen sehen, denn dir habe ich meine Sache anvertraut.",
+          "antev": "Gerechter Vater, die Welt hat dich nicht erkannt. Doch ich habe dich erkannt; denn du hast mich gesandt.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "antev_lat": "",
+          "les_text_lat": ""
+        },
+        "Terz": {
+          "les_buch": "›Ez",
+          "les_stelle": "33,10b.11b",
+          "les_text": "Unsere Vergehen und unsere Sünden lasten auf uns, wir siechen ihretwegen dahin. Wie sollen wir da am Leben bleiben? So wahr ich lebe – Spruch Gottes des Herrn –, ich habe kein Gefallen am Tod des Schuldigen, sondern daran, dass er auf seinem Weg umkehrt und am Leben bleibt.",
+          "les_text_neu": "Fürwahr, unsere Vergehen und unsere Sünden lasten auf uns, in ihnen siechen wir dahin. Wie sollen wir da am Leben bleiben? So wahr ich lebe – Spruch GOTTES, des Herrn –, ich habe kein Gefallen am Tod des Schuldigen, sondern daran, dass ein Schuldiger sich abkehrt von seinem Weg und am Leben bleibt.",
+          "les_text_lat": ""
+        },
+        "Sext": {
+          "les_buch": "›Jer",
+          "les_stelle": "18,20b",
+          "les_text": "Denk daran, wie ich vor dir stand, um zu ihren Gunsten zu sprechen und deinen Zorn von ihnen abzuwenden!",
+          "les_text_neu": "Gedenke, dass ich vor dir stand, um Gutes über sie zu reden und deinen Zorn von ihnen abzuwenden!",
+          "les_text_lat": ""
+        },
+        "Non": {
+          "les_buch": "›Jer",
+          "les_stelle": "31,2.3b.4a",
+          "les_text": "So spricht der Herr: Gnade fand in der Wüste das Volk, das vom Schwert verschont blieb; Israel zieht zum Ort seiner Ruhe. Mit ewiger Liebe habe ich dich geliebt, darum habe ich dir so lange die Treue bewahrt. Ich baue dich wieder auf, du sollst neu gebaut werden, Jungfrau Israel.",
+          "les_text_neu": "So spricht der HERR: Gnade fand in der Wüste das Volk, das dem Schwert entronnen ist; ich gehe mit, um Israel zur Ruhe zu führen. Mit ewiger Liebe habe ich dich geliebt, darum habe ich dir die Treue bewahrt. Ich baue dich wieder auf, du wirst aufgebaut sein, Jungfrau Israel.",
+          "les_text_lat": ""
+        },
+        "Vesper": {
+          "ant1": "Schönheit und Wohlgestalt sind ihm genommen. Wir sahen ihn und wandten unsere Augen ab.",
+          "ant2": "Die Vielen werden sein Anteil sein; denn er gab sein Leben für sie hin.",
+          "ant3": "Gott hat uns die Gnade geschenkt in seinem geliebten Sohn. Durch sein Blut haben wir die Erlösung.",
+          "les_buch": "›Röm",
+          "les_stelle": "5,8–9",
+          "les_text": "Gott hat seine Liebe zu uns darin erwiesen, dass Christus für uns gestorben ist, als wir noch Sünder waren. Nachdem wir jetzt durch sein Blut gerecht gemacht sind, werden wir durch ihn erst recht vor dem Zorn Gottes gerettet werden.",
+          "les_text_neu": "Gott erweist seine Liebe zu uns darin, dass Christus für uns gestorben ist, als wir noch Sünder waren. Nachdem wir jetzt durch sein Blut gerecht gemacht sind, werden wir durch ihn erst recht vor dem Zorn gerettet werden.",
+          "antev": "Wie Mose die Schlange in der Wüste erhöht hat, so muss der Menschensohn erhöht werden, damit jeder, der glaubt, in ihm das ewige Leben habe.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "antev_lat": "",
+          "les_text_lat": ""
+        }
+      },
+      "2": {
+        "each": {
+          "oration": "Allmächtiger, ewiger Gott, hilf uns, das Gedächtnis des Leidens Christi so zu begehen, dass wir von dir Verzeihung erlangen.^ORV",
+          "oration_lat": ""
+        },
+        "Laudes": {
+          "psalm3": 65.0,
+          "ant1": "Führe du meine Sache, Herr; rette mich vor bösen und tückischen Menschen.",
+          "ant2": "Du hast meine Sache geführt; Herr, mein Gott, du hast mein Leben erlöst.",
+          "ant3": "Mein Knecht ist gerecht, darum macht er viele gerecht; ihre Schuld nimmt er auf sich.",
+          "les_buch": "›Sach",
+          "les_stelle": "12,10–11a",
+          "les_text": "Über das Haus David und über die Einwohner Jerusalems werde ich den Geist des Mitleids und des Gebets ausgießen. Und sie werden auf den blicken, den sie durchbohrt haben. Sie werden um ihn klagen, wie man um den einzigen Sohn klagt; sie werden bitter um ihn weinen, wie man um den Erstgeborenen weint. An jenem Tag wird laute Totenklage sein in Jerusalem.",
+          "les_text_neu": "Doch über das Haus David und über die Einwohner Jerusalems werde ich einen Geist des Mitleids und des flehentlichen Bittens ausgießen. Und sie werden auf mich blicken, auf ihn, den sie durchbohrt haben. Sie werden um ihn klagen, wie bei der Klage um den Einzigen; sie werden bitter um ihn weinen, wie man um den Erstgeborenen weint. An jenem Tag wird die Klage in Jerusalem groß sein.",
+          "antev": "Vater, verherrliche du mich bei dir mit der Herrlichkeit, die ich bei dir hatte, bevor die Welt geschaffen war.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "antev_lat": "",
+          "les_text_lat": ""
+        },
+        "Terz": {
+          "les_buch": "›1°Kor",
+          "les_stelle": "1,18–19",
+          "les_text": "Das Wort vom Kreuz ist denen, die verloren gehen, Torheit; uns aber, die gerettet werden, ist es Gottes Kraft. Es heißt nämlich in der Schrift: Ich lasse die Weisheit der Weisen vergehen und die Klugheit der Klugen verschwinden.",
+          "les_text_neu": "Denn das Wort vom Kreuz ist denen, die verloren gehen, Torheit; uns aber, die gerettet werden, ist es Gottes Kraft. In der Schrift steht nämlich: Ich werde die Weisheit der Weisen vernichten und die Klugheit der Klugen verwerfen.",
+          "les_text_lat": ""
+        },
+        "Sext": {
+          "les_buch": "›1°Kor",
+          "les_stelle": "1,22–24",
+          "les_text": "Die Juden fordern Zeichen, die Griechen suchen Weisheit. Wir dagegen verkündigen Christus als den Gekreuzigten: für Juden ein empörendes Ärgernis, für Heiden eine Torheit, für die Berufenen aber, Juden wie Griechen, Christus, Gottes Kraft und Gottes Weisheit.",
+          "les_text_neu": "Die Juden fordern Zeichen, die Griechen suchen Weisheit. Wir dagegen verkünden Christus als den Gekreuzigten: für Juden ein Ärgernis, für Heiden eine Torheit, für die Berufenen aber, Juden wie Griechen, Christus, Gottes Kraft und Gottes Weisheit.",
+          "les_text_lat": ""
+        },
+        "Non": {
+          "les_buch": "›1°Kor",
+          "les_stelle": "1,25.27a",
+          "les_text": "Das Törichte an Gott ist weiser als die Menschen, und das Schwache an Gott ist stärker als die Menschen. Das Törichte in der Welt hat Gott erwählt, um die Weisen zuschanden zu machen.",
+          "les_text_neu": "Denn das Törichte an Gott ist weiser als die Menschen, und das Schwache an Gott ist stärker als die Menschen. Das Törichte in der Welt hat Gott erwählt, um die Weisen zuschanden zu machen.",
+          "les_text_lat": ""
+        },
+        "Vesper": {
+          "ant1": "Schrecken und Schmach erlitt ich von ihnen. Doch der Herr steht mir bei und streitet für mich.",
+          "ant2": "Befreie mich, Herr; stelle mich an deine Seite; dann mag kämpfen gegen mich, wer will.",
+          "ant3": "Lamm Gottes, du wurdest geschlachtet, mit deinem Blute hast du uns für Gott erworben.",
+          "les_buch": "›1°Kor",
+          "les_stelle": "1,27b–30",
+          "les_text": "Das Schwache in der Welt hat Gott erwählt, um das Starke zuschanden zu machen. Und das Niedrige in der Welt und das Verachtete hat Gott erwählt: das, was nichts ist, um das, was etwas ist, zu vernichten, damit kein Mensch sich rühmen kann vor Gott. Von ihm her seid ihr in Christus Jesus, den Gott für uns zur Weisheit gemacht hat, zur Gerechtigkeit, Heiligung und Erlösung.",
+          "antev": "Ich habe Macht, mein Leben hinzugeben, und ich habe Macht, es wieder zu nehmen.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "antev_lat": "",
+          "les_text_lat": ""
+        }
+      },
+      "3": {
+        "each": {
+          "oration": "Heiliger Gott, du hast deinen Sohn der Schmach des Kreuzes unterworfen, um uns der Gewalt des Bösen zu entreißen. Gib uns die Gnade, dass auch wir deinem Willen gehorchen und einst in Herrlichkeit auferstehen.^ORvR",
+          "oration_lat": ""
+        },
+        "Laudes": {
+          "psalm3": 97.0,
+          "ant1": "Am Tag meiner Not suche ich Gott mit ausgestreckten Armen.",
+          "ant2": "Sind wir mit Christus gestorben, so werden wir auch mit ihm leben.",
+          "ant3": "Christus Jesus wurde für uns Weisheit von Gott, Gerechtigkeit und Heiligung und Erlösung.",
+          "les_buch": "›Jes",
+          "les_stelle": "50,5–7",
+          "les_text": "Gott, der Herr, hat mir das Ohr geöffnet. Ich aber wehrte mich nicht und wich nicht zurück. Ich hielt meinen Rücken denen hin, die mich schlugen, und denen, die mir den Bart ausrissen, meine Wangen. Mein Gesicht verbarg ich nicht vor Schmähungen und Speichel. Doch Gott, der Herr, wird mir helfen; darum werde ich nicht in Schande enden. Deshalb mache ich mein Gesicht hart wie einen Kiesel; ich weiß, dass ich nicht in Schande gerate.",
+          "les_text_neu": "GOTT, der Herr, hat mir das Ohr geöffnet. Ich aber wehrte mich nicht und wich nicht zurück. Ich hielt meinen Rücken denen hin, die mich schlugen, und meine Wangen denen, die mir den Bart ausrissen. Mein Gesicht verbarg ich nicht vor Schmähungen und Speichel. Und GOTT, der Herr, wird mir helfen; darum werde ich nicht in Schande enden. Deshalb mache ich mein Gesicht hart wie einen Kiesel; ich weiß, dass ich nicht in Schande gerate.",
+          "antev": "Als makelloses Opfer hat Christus sich selber Gott dargebracht im Heiligen Geist. Sein Blut macht uns rein für den Dienst vor dem lebendigen Gott.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "antev_lat": "",
+          "les_text_lat": ""
+        },
+        "Terz": {
+          "les_buch": "›1°Tim",
+          "les_stelle": "2,4–6",
+          "les_text": "Gott will, dass alle Menschen gerettet werden und zur Erkenntnis der Wahrheit gelangen. Denn: Einer ist Gott. Einer auch Mittler zwischen Gott und den Menschen: der Mensch Christus Jesus, der sich als Lösegeld hingegeben hat für alle, ein Zeugnis zur vorherbestimmten Zeit.",
+          "les_text_lat": ""
+        },
+        "Sext": {
+          "les_buch": "›Röm",
+          "les_stelle": "15,3",
+          "les_text": "Christus hat nicht für sich selbst gelebt; in der Schrift heißt es vielmehr: Die Schmähungen derer, die dich schmähen, haben mich getroffen.",
+          "les_text_neu": "Christus hat nicht sich selbst zu Gefallen gelebt; vielmehr steht geschrieben: Die Schmähungen derer, die dich schmähen, sind auf mich gefallen.",
+          "les_text_lat": ""
+        },
+        "Non": {
+          "les_buch": "›Hebr",
+          "les_stelle": "9,28",
+          "les_text": "Christus wurde ein einziges Mal geopfert, um die Sünden vieler hinwegzunehmen; beim zweitenmal wird er nicht wegen der Sünde erscheinen, sondern um die zu retten, die ihn erwarten.",
+          "les_text_lat": ""
+        },
+        "Vesper": {
+          "ant1": "Die Gottlosen sprachen zueinander: Lasst uns den Gerechten vernichten. Er steht unserem Tun im Weg.",
+          "ant2": "Er trug die Schuld der Vielen und trat ein für die Sünder.",
+          "ant3": "Durch Christus haben wir die Erlösung, die Vergebung der Sünden.",
+          "les_buch": "›Eph",
+          "les_stelle": "4,32–5,2",
+          "les_text": "Seid gütig zueinander, seid barmherzig, vergebt einander, weil auch Gott euch durch Christus vergeben hat. Ahmt Gott nach als seine geliebten Kinder und liebt einander, weil auch Christus uns geliebt und sich für uns hingegeben hat als Gabe und Opfer, das Gott gefällt.",
+          "les_text_neu": "Seid gütig zueinander, seid barmherzig, vergebt einander, wie auch Gott euch in Christus vergeben hat. Ahmt Gott nach als seine geliebten Kinder und führt euer Leben in Liebe, wie auch Christus uns geliebt und sich für uns hingegeben hat als Gabe und Opfer, das Gott gefällt!",
+          "antev": "Der Meister spricht: Meine Stunde ist gekommen. In deinem Hause will ich das Ostermahl halten mit meinen Jüngern.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "antev_lat": "",
+          "les_text_lat": ""
+        }
+      },
+      "4": {
+        "each": {
+          "oration": "Gott, es ist würdig und recht, dich über alles zu lieben. Mehre in uns den Reichtum deiner Gnade. Durch den Tod deines Sohnes lässt du uns erhoffen, was wir glauben. Gib, dass wir durch seine Auferstehung erlangen, was wir ersehnen.^ORvR",
+          "oration_lat": ""
+        },
+        "Lesehore": {
+          "psalm1": 69.1,
+          "psalm2": 69.2,
+          "psalm3": 69.3,
+          "ant1": "Ich bin müde vom Rufen, mir versagen die Augen, während ich warte auf meinen Gott.",
+          "ant2": "Sie gaben mir Galle als Speise und reichten mir Essig in meinem Durst.",
+          "ant3": "Ihr, die ihr Gott sucht: euer Herz lebe auf.^ö",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": ""
+        },
+        "Laudes": {
+          "psalm1": 80.0,
+          "psalm2": 174.0,
+          "psalm3": 81.0,
+          "ant1": "Sieh her, mein Gott, verbirg nicht dein Gesicht, denn mir ist angst: erhöre mich bald.",
+          "ant2": "Gott ist mein Retter; ihm will ich vertrauen und niemals verzagen.",
+          "ant3": "Mit bestem Weizen nährt uns der Herr und sättigt uns mit Honig aus dem Felsen.",
+          "les_buch": "›Hebr",
+          "les_stelle": "2,9b–10",
+          "les_text": "Wir sehen Jesus um seines Todesleidens willen mit Herrlichkeit und Ehre gekrönt; so war es Gottes gnädiger Wille, dass er für alle den Tod erlitten hat. Denn es war angemessen, dass Gott, für den und durch den das All ist und der viele Söhne zur Herrlichkeit führen wollte, den Urheber ihres Heils durch Leiden vollendete.",
+          "antev": "Mit Sehnsucht habe ich danach verlangt, dieses Ostermahl mit euch zu halten, bevor ich leide.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "antev_lat": "",
+          "les_text_lat": ""
+        },
+        "Terz": {
+          "les_buch": "›Hebr",
+          "les_stelle": "4,14–15",
+          "les_text": "Da wir einen erhabenen Hohenpriester haben, der die Himmel durchschritten hat, Jesus, den Sohn Gottes, lasst uns an dem Bekenntnis festhalten. Wir haben ja nicht einen Hohenpriester, der nicht mitfühlen könnte mit unserer Schwäche, sondern einen, der in allem wie wir in Versuchung geführt worden ist, aber nicht gesündigt hat.",
+          "les_text_neu": "Da wir einen erhabenen Hohepriester haben, der die Himmel durchschritten hat, Jesus, den Sohn Gottes, lasst uns an dem Bekenntnis festhalten. Wir haben ja nicht einen Hohepriester, der nicht mitfühlen könnte mit unserer Schwäche, sondern einen, der in allem wie wir versucht worden ist, aber nicht gesündigt hat.",
+          "les_text_lat": ""
+        },
+        "Sext": {
+          "les_buch": "›Hebr",
+          "les_stelle": "7,26–27",
+          "les_text": "Ein solcher Hoherpriester war für uns in der Tat notwendig: einer, der heilig ist, unschuldig, makellos, abgesondert von den Sündern und erhöht über die Himmel; einer, der es nicht Tag für Tag nötig hat, wie die Hohenpriester zuerst für die eigenen Sünden Opfer darzubringen und dann für die des Volkes; denn das hat er ein für allemal getan, als er sich selbst dargebracht hat.",
+          "les_text_neu": "Ein solcher Hohepriester ziemte sich in der Tat für uns: einer, der heilig ist, frei vom Bösen, makellos, abgesondert von den Sündern und erhöht über die Himmel; einer, der es nicht Tag für Tag nötig hat, wie die Hohepriester zuerst für die eigenen Sünden Opfer darzubringen und dann für die des Volkes; denn das hat er ein für alle Mal getan, als er sich selbst dargebracht hat.",
+          "les_text_lat": ""
+        },
+        "Non": {
+          "les_buch": "›Hebr",
+          "les_stelle": "9,11–12",
+          "les_text": "Christus ist gekommen als Hoherpriester der künftigen Güter; und durch das erhabenere und vollkommenere Zelt, das nicht von Menschenhand gemacht, das heißt nicht von dieser Welt ist, ist er ein für allemal in das Heiligtum hineingegangen, nicht mit dem Blut von Böcken und jungen Stieren, sondern mit seinem eigenen Blut, und so hat er eine ewige Erlösung bewirkt.",
+          "les_text_lat": ""
+        },
+        "Vesper": {
+          "hymn_1": 3344.0,
+          "psalm2": 72.201,
+          "ant1": "Christus, der Erstgeborene von den Toten und Herrscher über die Könige der Erde, hat uns zu einem Königreich gemacht für seinen Gott und Vater.",
+          "ant2": "Er rettet den Gebeugten, der um Hilfe schreit, den Armen und den, der keinen Helfer hat.",
+          "ant3": "Die Heiligen haben gesiegt durch das Blut des Lammes und durch ihr Wort und ihr Zeugnis.",
+          "les_buch": "›Hebr",
+          "les_stelle": "13,12–15",
+          "les_text": "Jesus hat, um durch sein eigenes Blut das Volk zu heiligen, außerhalb des Tores gelitten. Lasst uns also zu ihm vor das Lager hinausziehen und seine Schmach auf uns nehmen. Denn wir haben hier keine Stadt, die bestehen bleibt, sondern wir suchen die künftige. Durch ihn also lasst uns Gott allezeit das Opfer des Lobes darbringen, nämlich die Frucht der Lippen, die seinen Namen preisen.^RESP",
+          "les_text_neu": "Jesus hat, um durch sein eigenes Blut das Volk zu heiligen, außerhalb des Tores gelitten. Lasst uns also zu ihm vor das Lager hinausziehen und seine Schmach tragen. Denn wir haben hier keine bleibende Stadt, sondern wir suchen die zukünftige. Durch ihn also lasst uns Gott allezeit das Opfer des Lobes darbringen, nämlich die Frucht der Lippen, die seinen Namen bekennen.^RESP",
+          "resp1": "",
+          "resp2": "",
+          "resp3": "",
+          "antev": "Während des Mahles nahm Jesus das Brot und sprach den Lobpreis; dann brach er das Brot und gab es seinen Jüngern.",
+          "bitten_e": "Lasst uns beten zu Jesus Christus, der seiner Kirche aufgetragen hat, das Gedächtnis seines Leidens und seiner Auferstehung zu feiern.",
+          "bitten_r": "Heilige das Volk, das du mit deinem Blut erkauft hast.",
+          "bitten": "Du hast das Reich Gottes verkündet und zur Umkehr aufgerufen;^qerneuere deine Kirche im Geist des Evangeliums.^pDu hast ein Herz gehabt für die Armen und Bedrängten;^qsteh denen bei, die keinen Helfer haben.^pDu berufst immer wieder Menschen in deine Kirche;^qerleuchte die Katechumenen, die sich auf die Taufe vorbereiten.^pDu willst nicht den Tod des Sünders, sondern dass er lebe;^qerbarme dich derer, die mit uns in diesen vierzig Tagen Buße tun.^pNimm unsere Verstorbenen gnädig auf^qund lass sie teilhaben an deiner Auferstehung.",
+          "oration": "Allmächtiger Gott, zu deiner Ehre und zum Heil der Menschen hast du Christus als ewigen Hohenpriester eingesetzt. Er hat dir durch sein kostbares Blut ein heiliges Volk erworben. Gib, dass wir das Gedächtnis deines Sohnes in Ehrfurcht feiern und die Kraft seines Kreuzes und seiner Auferstehung empfangen.^ORvR",
+          "ant1_lat": "Fecit nos Deo et Patri suo regnum, primogénitus mortuórum et princeps regum terrae.",
+          "ant2_lat": "Liberábit Dóminus páuperem a poténte, et ínopem cui non erat adiútor.",
+          "ant3_lat": "Sancti vicérunt propter sánguinem Agni et propter verbum testimónii sui.",
+          "resp1_lat": "",
+          "resp2_lat": "",
+          "resp3_lat": "",
+          "antev_lat": "",
+          "bitten_e_lat": "",
+          "bitten_r_lat": "",
+          "bitten_lat": "",
+          "les_text_lat": "",
+          "oration_lat": ""
+        }
+      },
+      "5": {
+        "each": {
+          "oration": "Herr, unser Gott, sieh herab auf deine Familie, für die unser Herr Jesus Christus sich willig den Händen der Frevler überliefert und die Marter des Kreuzes auf sich genommen hat. Er,^ORR",
+          "oration_lat": ""
+        },
+        "Invitatorium": {
+          "ant0": "Christus, der Sohn Gottes, hat uns mit seinem Blut erkauft; kommt, wir beten ihn an!",
+          "ant0_lat": ""
+        },
+        "Lesehore": {
+          "psalm1": 2.0,
+          "psalm2": 22.4,
+          "psalm3": 38.0,
+          "ant1": "Die Könige der Erde stehen auf, die Großen haben sich verbündet gegen den Herrn und seinen Gesalbten.",
+          "ant2": "Sie verteilen unter sich meine Kleider und werfen das Los um mein Gewand.",
+          "ant3": "Die mir nach dem Leben trachten, legen mir Schlingen; die mein Unheil suchen, planen Verderben.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": ""
+        },
+        "Vigil": {
+          "ant0": "Aus der geöffneten Seite des Herrn floss Blut und Wasser heraus, uns zur Rettung und zum Heil.",
+          "les_buch": "Aus dem heiligen Evangelium nach Matthäus.",
+          "les_stelle": "27,1-2.11-56"
+        },
+        "Laudes": {
+          "psalm1": 51.0,
+          "psalm2": 175.0,
+          "psalm3": 147.2,
+          "ant1": "Seinen eigenen Sohn hat Gott nicht verschont: Er hat ihn hingegeben für uns alle.",
+          "ant2": "Jesus Christus hat uns geliebt und durch sein Blut von unseren Sünden befreit.",
+          "ant3": "Dein Kreuz, o Herr, verehren wir, und deine heilige Auferstehung preisen und rühmen wir; denn siehe, durch das Holz des Kreuzes kam Freude in alle Welt.",
+          "les_buch": "›Jes",
+          "les_stelle": "52,13–15",
+          "les_text": "Seht, mein Knecht hat Erfolg, er wird groß sein und hoch erhaben. Viele haben sich über ihn entsetzt, so entstellt sah er aus, nicht mehr wie ein Mensch, seine Gestalt war nicht mehr die eines Menschen. Jetzt aber setzt er viele Völker in Staunen, Könige müssen vor ihm verstummen. Denn was man ihnen noch nie erzählt hat, das sehen sie nun; was sie niemals hörten, das erfahren sie jetzt.^RESP",
+          "les_text_neu": "Siehe, mein Knecht wird Erfolg haben, er wird sich erheben und erhaben und sehr hoch sein.Wie sich viele über dich entsetzt haben – so entstellt sah er aus, nicht mehr wie ein Mensch, seine Gestalt war nicht mehr die eines Menschen –, so wird er viele Nationen entsühnen, Könige schließen vor ihm ihren Mund. Denn was man ihnen noch nie erzählt hat, das sehen sie nun; was sie niemals hörten, das erfahren sie jetzt.^RESP",
+          "resp1": "",
+          "resp2": "",
+          "resp3": "",
+          "antev": "Über seinem Haupt befestigten sie eine Inschrift: Jesus von Nazaret, der König der Juden.",
+          "bitten_e": "Gepriesen sei Jesus Christus, unser Erlöser, der für uns gelitten hat, der begraben wurde und von den Toten auferstanden ist. Zu ihm lasst uns beten:",
+          "bitten_r": "Herr, erbarme dich unser.",
+          "bitten": "Herr und Meister, du bist für uns gehorsam geworden bis zum Tod;^qlehre uns, dem Vater im Himmel gehorsam zu sein.^pDu bist unser Leben, du hast durch das Kreuz den Tod überwunden;^qlass uns mit dir auferstehen in Herrlichkeit.^pDu bist unser Heil, du hast die Menschen geliebt und dein Leben für alle hingegeben;^qgib, dass wir einander lieben, wie du uns geliebt hast.^pHeiland der Welt, du hast am Kreuz die Arme ausgebreitet, um alle an dich zu ziehen;^qführe die Kinder Gottes aus der Zerstreuung in das Reich deines Vaters.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp1_lat": "",
+          "resp2_lat": "",
+          "resp3_lat": "",
+          "antev_lat": "",
+          "bitten_e_lat": "",
+          "bitten_r_lat": "",
+          "bitten_lat": "",
+          "les_text_lat": ""
+        },
+        "Terz": {
+          "psalm1": 40.0,
+          "psalm2": 54.0,
+          "psalm3": 88.0,
+          "ant0": "Sie führten Jesus hinaus an einen Ort mit Namen Golgota. Es war die dritte Stunde, als sie ihn kreuzigten.",
+          "ant1": "",
+          "ant2": "",
+          "ant3": "",
+          "les_buch": "›Jes",
+          "les_stelle": "53,2–3",
+          "les_text": "Vor den Augen des HERRN wuchs er auf wie ein junger Spross, wie ein Wurzeltrieb aus trockenem Boden. Er hatte keine schöne und edle Gestalt, so dass wir ihn anschauen mochten. Er sah nicht so aus, dass wir Gefallen fanden an ihm. Er wurde verachtet und von den Menschen gemieden, ein Mann voller Schmerzen, mit Krankheit vertraut. Wie einer, vor dem man das Gesicht verhüllt, war er verachtet; wir schätzten ihn nicht.",
+          "resp0": "Wir beten dich an, Herr Jesus Christus, und preisen dich.",
+          "resp1": "Denn durch dein heiliges Kreuz hast du die Welt erlöst.",
+          "hymn_1_lat": 4003.5,
+          "ant0_lat": "",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp0_lat": "",
+          "resp1_lat": "",
+          "les_text_lat": ""
+        },
+        "Sext": {
+          "ant0": "Als die sechste Stunde kam, brach eine Finsternis herein über das ganze Land.",
+          "ant1": "",
+          "ant2": "",
+          "ant3": "",
+          "les_buch": "›Jes",
+          "les_stelle": "53,4–5",
+          "les_text": "Er hat unsere Krankheiten getragen und unsere Schmerzen auf sich geladen. Wir meinten, er sei von Gott geschlagen, von ihm getroffen und gebeugt. Doch er wurde durchbohrt wegen unserer Verbrechen, wegen unserer Sünden zermalmt. Zu unserem Heil lag die Strafe auf ihm, durch seine Wunden sind wir geheilt.",
+          "les_text_neu": "Er hat unsere Krankheiten getragen und unsere Schmerzen auf sich geladen. Wir meinten, er sei von Gott geschlagen, von ihm getroffen und gebeugt. Doch er wurde durchbohrt wegen unserer Vergehen, wegen unserer Sünden zermalmt. Zu unserem Heil lag die Züchtigung auf ihm, durch seine Wunden sind wir geheilt.",
+          "resp0": "Herr, gedenke meiner.",
+          "resp1": "Wenn du in dein Reich kommst.",
+          "hymn_1_lat": 4006.5,
+          "ant0_lat": "",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp0_lat": "",
+          "resp1_lat": "",
+          "les_text_lat": ""
+        },
+        "Non": {
+          "ant0": "In der neunten Stunde schrie Jesus mit lauter Stimme: Mein Gott, mein Gott, warum hast du mich verlassen?",
+          "ant1": "",
+          "ant2": "",
+          "ant3": "",
+          "les_buch": "›Jes",
+          "les_stelle": "53,6–7",
+          "les_text": "Wir hatten uns alle verirrt wie Schafe, jeder ging für sich seinen Weg. Doch der Herr lud auf ihn die Schuld von uns allen. Er wurde misshandelt und niedergedrückt, aber er tat seinen Mund nicht auf. Wie ein Lamm, das man zum Schlachten führt, und wie ein Schaf angesichts seiner Scherer, so tat auch er seinen Mund nicht auf.",
+          "les_text_neu": "Wir hatten uns alle verirrt wie Schafe, jeder ging für sich seinen Weg. Doch der HERR ließ auf ihn treffen die Schuld von uns allen. Er wurde bedrängt und misshandelt, aber er tat seinen Mund nicht auf. Wie ein Lamm, das man zum Schlachten führt, und wie ein Schaf vor seinen Scherern verstummt, so tat auch er seinen Mund nicht auf.",
+          "resp0": "Er lässt mich in der Finsternis wohnen",
+          "resp1": "wie einen, der tot ist für immer.",
+          "hymn_1_lat": 4009.5,
+          "ant0_lat": "",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp0_lat": "",
+          "resp1_lat": "",
+          "les_text_lat": ""
+        },
+        "Vesper": {
+          "psalm1": 116.2,
+          "psalm2": 143.0,
+          "psalm3": 157.0,
+          "ant1": "Ihr Völker alle, schaut doch und seht meinen Schmerz.",
+          "ant2": "Mein Geist verzagt in mir, mir erstarrt das Herz in der Brust.",
+          "ant3": "Jesus nahm von dem Essig. Dann sprach er: Es ist vollbracht. Und er neigte sein Haupt und starb.",
+          "les_buch": "›1°Petr",
+          "les_stelle": "2,21b–24",
+          "les_text": "Christus hat für euch gelitten und euch ein Beispiel gegeben, damit ihr seinen Spuren folgt. Er hat keine Sünde begangen, und kein trügerisches Wort war in seinem Mund. Er wurde geschmäht, schmähte aber nicht; er litt, drohte aber nicht, sondern überließ seine Sache dem gerechten Richter. Er hat unsere Sünden mit seinem Leib auf das Holz des Kreuzes hinaufgetragen, damit wir tot seien für die Sünden und für die Gerechtigkeit leben. Durch seine Wunden seid ihr geheilt.^RESP",
+          "les_text_neu": "Christus hat für euch gelitten und euch ein Beispiel gegeben, damit ihr seinen Spuren folgt. Er hat keine Sünde begangen und in seinem Mund war keine Falschheit. Als er geschmäht wurde, schmähte er nicht; als er litt, drohte er nicht, sondern überließ seine Sache dem gerechten Richter. Er hat unsere Sünden mit seinem eigenen Leib auf das Holz des Kreuzes getragen, damit wir tot sind für die Sünden und leben für die Gerechtigkeit. Durch seine Wunden seid ihr geheilt.^RESP",
+          "resp1": "",
+          "resp2": "",
+          "resp3": "",
+          "antev": "Wir waren Gottes Feinde. Jetzt sind wir mit ihm versöhnt durch den Tod seines Sohnes.",
+          "bitten_e": "^rEs empfiehlt sich, die Großen Fürbitten aus der Karfreitagsliturgie (^0rMessbuch, S.°[43]ff^r) hier einzufügen. Doch können auch – nach Belieben – die folgenden Fürbitten genommen werden. Ebenso kann ein stilles Gebet in den Anliegen dieser Fürbitten verrichtet werden.^0r^pLasst uns des Todesleidens Christi gedenken und den Vater im Himmel bitten:",
+          "bitten_r": "Um Christi willen erhöre uns, o Herr.",
+          "bitten": "Behüte die Kirche und heilige dein ganzes Volk.^pBeschütze unseren Papst ^NP.^pSchenke den Bischöfen, Priestern und Diakonen deinen Geist.^pMehre den Glauben und die Erkenntnis der Katechumenen.^pFühre alle Christen in der einen Kirche zusammen.^pLass das jüdische Volk zur Fülle der Erlösung gelangen.^pErleuchte alle, die nicht an Christus glauben.^pGib, dass die Ungläubigen dich als den Schöpfer aller Dinge erkennen.^pLenke Geist und Herz derer, die die Völker regieren.^pTröste die Leidenden und die Bedrängten.^pKomm den Sterbenden zu Hilfe und gib den Toten das ewige Leben.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp1_lat": "",
+          "resp2_lat": "",
+          "resp3_lat": "",
+          "antev_lat": "",
+          "bitten_e_lat": "",
+          "bitten_r_lat": "",
+          "bitten_lat": "",
+          "les_text_lat": ""
+        }
+      },
+      "6": {
+        "each": {
+          "oration": "Allmächtiger, ewiger Gott, dein eingeborener Sohn ist in das Reich des Todes hinabgestiegen und von den Toten glorreich auferstanden. Gib, dass deine Gläubigen, die durch die Taufe mit ihm begraben wurden, durch seine Auferstehung zum ewigen Leben gelangen.^ORvR",
+          "oration_lat": ""
+        },
+        "Invitatorium": {
+          "ant0": "Christus, unser Herr, hat für uns den Tod erlitten und wurde ins Grab gelegt; kommt, wir beten ihn an!",
+          "ant0_lat": ""
+        },
+        "Lesehore": {
+          "psalm1": 4.0,
+          "psalm2": 16.0,
+          "psalm3": 24.0,
+          "ant1": "Ich lege mich nieder und ruhe in Frieden.",
+          "ant2": "Mein Leib ruht in sicherer Hoffnung: Du gibst mich der Unterwelt nicht preis.",
+          "ant3": "Hebt euch, ihr uralten Pforten! Es kommt der König der Herrlichkeit.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": ""
+        },
+        "Vigil": {
+          "ant0": "Aus der Tiefe der Totenwelt schrie ich zum Herrn, und er hörte mein Rufen.",
+          "les_buch": "Aus dem heiligen Evangelium nach Matthäus.",
+          "les_stelle": "27,57-66"
+        },
+        "Laudes": {
+          "psalm1": 64.0,
+          "psalm2": 172.0,
+          "psalm3": 150.0,
+          "ant1": "Sie klagen um ihn, wie man klagt um den einzigen Sohn; denn er wurde getötet – und war doch ohne Schuld.",
+          "ant2": "Vor den Pforten der Unterwelt rette, o Herr, mein Leben.",
+          "ant3": "Ich war tot, doch ich lebe in Ewigkeit. Ich habe die Schlüssel des Todes und der Unterwelt.",
+          "les_buch": "›Hos",
+          "les_stelle": "6,1–2",
+          "les_text": "Kommt, wir kehren zum Herrn zurück! Denn er hat (Wunden) gerissen, er wird uns auch heilen; er hat verwundet, er wird auch verbinden. Nach zwei Tagen gibt er uns das Leben zurück, am dritten Tag richtet er uns wieder auf, und wir leben vor seinem Angesicht.^RESP",
+          "les_text_neu": "Auf, lasst uns zum HERRN zurückkehren! Denn er hat gerissen, er wird uns auch heilen; er hat verwundet, er wird uns auch verbinden. Nach zwei Tagen gibt er uns das Leben zurück, am dritten Tag richtet er uns wieder auf und wir leben vor seinem Angesicht.^RESP",
+          "resp1": "",
+          "resp2": "",
+          "resp3": "",
+          "antev": "Retter der Welt, errette uns! Du hast uns erlöst durch dein Kreuz und dein Blut. Hilf uns, Herr, unser Gott!",
+          "bitten_e": "Gepriesen sei Jesus Christus, unser Erlöser, der für uns gelitten hat, begraben wurde und von den Toten auferstanden ist. Zu ihm lasst uns beten:",
+          "bitten_r": "Herr, erbarme dich unser.",
+          "bitten": "Du hast dein Leben für uns dahingegeben,^qund dein Leib wurde ins Grab gelegt.^pWie ein Weizenkorn wurdest du in die Erde gesenkt,^qum uns die Frucht des Lebens zu bringen.^pDu bist in das Reich des Todes hinabgestiegen,^qum die Seelen der Gerechten zu befreien.^pDeine heilige Mutter hat unter dem Kreuz gestanden^qund bei deinem Begräbnis ausgeharrt.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp1_lat": "",
+          "resp2_lat": "",
+          "resp3_lat": "",
+          "antev_lat": "",
+          "bitten_e_lat": "",
+          "bitten_r_lat": "",
+          "bitten_lat": "",
+          "les_text_lat": ""
+        },
+        "Terz": {
+          "psalm1": 27.0,
+          "psalm2": 30.0,
+          "psalm3": 76.0,
+          "ant0": "Ich werde schauen Gottes Güte im Lande der Lebenden.",
+          "les_buch": "›1°Joh",
+          "les_stelle": "1,8–9",
+          "les_text": "Wenn wir sagen, dass wir keine Sünde haben, führen wir uns selbst in die Irre, und die Wahrheit ist nicht in uns. Wenn wir unsere Sünden bekennen, ist er treu und gerecht; er vergibt uns die Sünden und reinigt uns von allem Unrecht.",
+          "resp0": "Du gibst mich nicht preis der Unterwelt.",
+          "resp1": "Du lässt deinen Frommen das Grab nicht schauen.",
+          "hymn_1_lat": 4003.5,
+          "ant0_lat": "",
+          "resp0_lat": "",
+          "resp1_lat": "",
+          "les_text_lat": ""
+        },
+        "Sext": {
+          "ant0": "Herr, mein Gott, du hast mich herausgeholt aus dem Reich des Todes.",
+          "les_buch": "›1°Joh",
+          "les_stelle": "2,1b–2",
+          "les_text": "Wir haben einen Beistand beim Vater: Jesus Christus, den Gerechten. Er ist die Sühne für unsere Sünden, aber nicht nur für unsere Sünden, sondern auch für die der ganzen Welt.",
+          "resp0": "Der Herr gibt den Tod und gibt das Leben.",
+          "resp1": "Er führt zu den Toten hinab und führt auch herauf.",
+          "hymn_1_lat": 4006.5,
+          "ant0_lat": "",
+          "resp0_lat": "",
+          "resp1_lat": "",
+          "les_text_lat": ""
+        },
+        "Non": {
+          "ant0": "Er darf weilen an der Stätte des Friedens. Der Zion wurde seine Wohnung.",
+          "les_buch": "›1°Joh",
+          "les_stelle": "2,8b–10",
+          "les_text": "Die Finsternis geht vorüber, und schon leuchtet das wahre Licht. Wer sagt, er sei im Licht, aber seinen Bruder hasst, ist noch in der Finsternis. Wer seinen Bruder liebt, bleibt im Licht; da gibt es für ihn kein Straucheln.",
+          "les_text_neu": "Die Finsternis vergeht, und schon leuchtet das wahre Licht. Wer sagt, er sei im Licht, aber seinen Bruder hasst, ist noch in der Finsternis. Wer seinen Bruder liebt, bleibt im Licht und in ihm gibt es keinen Anstoß. ",
+          "resp0": "Als der Herr begraben war, versiegelten sie das Grab.",
+          "resp1": "Und ließen eine Wache von Soldaten am Grabe zurück.",
+          "hymn_1_lat": 4009.5,
+          "ant0_lat": "",
+          "resp0_lat": "",
+          "resp1_lat": "",
+          "les_text_lat": ""
+        },
+        "Vesper": {
+          "psalm1": 116.2,
+          "psalm2": 143.0,
+          "psalm3": 157.0,
+          "ant1": "O Tod, ich bin dein Tod. Totenreich, ich bin dein Untergang.",
+          "ant2": "Wie Jona drei Tage und drei Nächte im Bauch des Fisches war, so wird auch der Menschensohn drei Tage und drei Nächte im Schoß der Erde sein.",
+          "ant3": "Jesus sprach: Reißt diesen Tempel nieder – in drei Tagen richte ich ihn wieder auf. Er meinte den Tempel seines Leibes.",
+          "les_buch": "›1°Petr",
+          "les_stelle": "1,18–21",
+          "les_text": "Ihr wisst, dass ihr aus eurer sinnlosen, von den Vätern ererbten Lebensweise nicht um einen vergänglichen Preis losgekauft wurdet, nicht um Silber oder Gold, sondern mit dem kostbaren Blut Christi, des Lammes ohne Fehl und Makel. Er war schon vor der Erschaffung der Welt dazu ausersehen, und euretwegen ist er am Ende der Zeiten erschienen. Durch ihn seid ihr zum Glauben an Gott gekommen, der ihn von den Toten auferweckt und ihm die Herrlichkeit gegeben hat, so dass ihr an Gott glauben und auf ihn hoffen könnt.^RESP",
+          "les_text_neu": "Ihr wisst, dass ihr aus eurer nichtigen, von den Vätern ererbten Lebensweise nicht um einen vergänglichen Preis losgekauft wurdet, nicht um Silber oder Gold, sondern mit dem kostbaren Blut Christi, des Lammes ohne Fehl und Makel. Er war schon vor der Grundlegung der Welt dazu ausersehen, und euretwegen ist er am Ende der Zeiten erschienen. Durch ihn seid ihr zum Glauben an Gott gekommen, der ihn von den Toten auferweckt und ihm die Herrlichkeit gegeben hat, so dass ihr an Gott glauben und auf ihn hoffen könnt.^RESP",
+          "resp1": "",
+          "resp2": "",
+          "resp3": "",
+          "antev": "Jetzt ist der Menschensohn verherrlicht, und Gott ist verherrlicht in ihm. Und Gott wird ihn bald verherrlichen.",
+          "bitten_e": "Lasst uns beten zu Christus, unserem Erlöser, der für uns gestorben ist und begraben wurde:",
+          "bitten_r": "Herr, erbarme dich unser.",
+          "bitten": "In deinem Tod hast du uns deine Liebe offenbart;^qziehe alle Menschen an dich.^pDu hast für deine Feinde gebetet;^qhilf den Verfolgten, Böses durch Gutes zu überwinden.^pDu hast deine Jünger nicht verlassen, als sie dich verließen;^qsteh denen bei, die nicht glauben können.^pDu wolltest in das Grab gelegt werden;^qgib allen Hoffnung, die an einem Grabe trauern.^pDas Grab hat dich nicht festhalten können;^qrufe die Toten aus ihren Gräbern zum Leben.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp1_lat": "",
+          "resp2_lat": "",
+          "resp3_lat": "",
+          "antev_lat": "",
+          "bitten_e_lat": "",
+          "bitten_r_lat": "",
+          "bitten_lat": "",
+          "les_text_lat": ""
+        }
+      },
+      "each": {
+        "Invitatorium": {
+          "ant0": "Christus, der Herr, wurde für uns versucht und hat für uns gelitten; kommt, wir beten ihn an.",
+          "ant0_lat": ""
+        },
+        "Lesehore": {
+          "hymn_1": 3313.0,
+          "hymn_2": 0.0,
+          "versikel0": "Wenn ich von der Erde erhöht bin.",
+          "versikel1": "Werde ich alle an mich ziehen.",
+          "hymn_2_lat": 0.0,
+          "versikel0_lat": "",
+          "versikel1_lat": ""
+        },
+        "Laudes": {
+          "hymn_1": 3323.0,
+          "hymn_2": 0.0,
+          "resp1": "Mit deinem heiligen Blute",
+          "resp2": "hast du uns losgekauft.",
+          "resp3": "Aus allen Stämmen und Sprachen",
+          "bitten_e": "Gepriesen sei Jesus Christus, der uns durch seinen Tod und seine Auferstehung erlöst hat. Zu ihm lasst uns beten:",
+          "bitten_r": "Herr, erbarme dich unser.",
+          "bitten": "Du bist hinaufgezogen nach Jerusalem, um für uns zu leiden und so in deine Herrlichkeit einzugehen;^qführe uns durch die Leiden dieser Zeit zum ewigen Osterfest.^pAus deiner geöffneten Seite flossen Blut und Wasser;^qheilige uns durch deine Sakramente.^pDu hast dem Schächer um seiner Buße willen Verzeihung erwiesen;^qvergib auch uns unsere Sünden.^pDurch dich wurde das Kreuz zum Baum des Lebens;^qschenke uns seine Frucht, das ewige Leben.",
+          "hymn_2_lat": 0.0,
+          "resp1_lat": "",
+          "resp2_lat": "hast°du°uns°losgekauft.",
+          "resp3_lat": "",
+          "bitten_e_lat": "",
+          "bitten_r_lat": "",
+          "bitten_lat": ""
+        },
+        "Terz": {
+          "ant0": "Es war vor dem Paschafest. Jesus wusste, dass seine Stunde gekommen war. Und da er die Seinen liebte, liebte er sie bis zur Vollendung.",
+          "ant1": "",
+          "ant2": "",
+          "ant3": "",
+          "resp0": "Er wurde geopfert, weil er selbst es wollte.",
+          "resp1": "Und tat seinen Mund nicht auf.",
+          "ant0_lat": "",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp0_lat": "",
+          "resp1_lat": ""
+        },
+        "Sext": {
+          "ant0": "Wie mich der Vater kennt, so kenne ich den Vater; ich gebe mein Leben hin für meine Schafe.",
+          "ant1": "",
+          "ant2": "",
+          "ant3": "",
+          "resp0": "Wahrlich, er trug unsere Krankheit.",
+          "resp1": "Und nahm auf sich unsere Sünden.",
+          "ant0_lat": "",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp0_lat": "",
+          "resp1_lat": ""
+        },
+        "Non": {
+          "ant0": "Für mich ist Christus das Leben und Sterben Gewinn. Ich rühme mich des Kreuzes meines Herrn Jesus Christus.",
+          "ant1": "",
+          "ant2": "",
+          "ant3": "",
+          "resp0": "Lasst uns niederfallen vor dem Kreuz unseres Erlösers.",
+          "resp1": "Durch das wir das Geheimnis des Heiles empfangen.",
+          "ant0_lat": "",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp0_lat": "",
+          "resp1_lat": ""
+        },
+        "Vesper": {
+          "hymn_1": 3343.0,
+          "hymn_2": 0.0,
+          "hymn_kl": 0.0,
+          "resp1": "Wir beten dich an, Herr, Jesus Christus,",
+          "resp2": "wir preisen dein heiliges Leiden.",
+          "resp3": "Durch deinen Tod am Kreuz hast du die Welt erlöst.",
+          "bitten_e": "Lasst uns beten zu Christus, dem Heiland der Welt, der den Tod vernichtet und das Leben neu geschaffen hat:",
+          "bitten_r": "Christus, erbarme dich.",
+          "bitten": "Du hast das Reich Gottes verkündet und zur Umkehr aufgerufen;^qerneuere deine Kirche im Geist des Evangeliums.^pDu hast ein Herz gehabt für die Armen und Bedrängten;^qsteh denen bei, die keinen Helfer haben.^pDu berufst immer wieder Menschen in deine Kirche;^qerleuchte die Katechumenen, die sich auf die Taufe vorbereiten.^pDu willst nicht den Tod des Sünders, sondern dass er lebe;^qerbarme dich derer, die mit uns in diesen vierzig Tagen Buße tun.^pNimm unsere Verstorbenen gnädig auf^qund lass sie teilhaben an deiner Auferstehung.",
+          "hymn_2_lat": 0.0,
+          "resp1_lat": "",
+          "resp2_lat": "",
+          "resp3_lat": "",
+          "bitten_e_lat": "",
+          "bitten_r_lat": "",
+          "bitten_lat": ""
+        }
+      }
+    },
+    "each": {
+      "0": {
+        "ErsteV": {
+          "hymn_1": 3341.0,
+          "hymn_2": 3342.0,
+          "hymn_kl": 0.0,
+          "les_buch": "›2°Kor",
+          "les_stelle": "6,1–4a",
+          "les_text": "Wir ermahnen euch, dass ihr die Gnade Gottes nicht vergebens empfangt. Denn es heißt: „Zur Zeit der Gnade erhöre ich dich, am Tag der Rettung helfe ich dir“. Jetzt ist sie da, die Zeit der Gnade; jetzt ist er da, der Tag der Rettung. Niemand geben wir auch nur den geringsten Anstoß, damit unser Dienst nicht getadelt werden kann. In allem erweisen wir uns als Gottes Diener.",
+          "les_text_neu": "Als Mitarbeiter Gottes ermahnen wir euch, dass ihr seine Gnade nicht vergebens empfangt. Denn es heißt: „Zur Zeit der Gnade habe ich dich erhört, am Tag der Rettung habe ich dir geholfen“. Siehe, jetzt ist sie da, die Zeit der Gnade; siehe, jetzt ist er da, der Tag der Rettung. Niemandem geben wir auch nur den geringsten Anstoß, damit unser Dienst nicht verhöhnt werden kann. In allem empfehlen wir uns als Gottes Diener.",
+          "resp1": "Wir haben gegen dich gesündigt,",
+          "resp2": "Herr, sei uns gnädig, erbarme dich unser.",
+          "resp3": "Erhöre, Christe, unser Rufen und Flehen.",
+          "bitten_e": "Lasst uns beten zu Gott, dem Vater, der allen seinen Geist gibt, die ihn darum bitten:",
+          "bitten_r": "Herr, sende deinen Geist.",
+          "bitten": "Bewahre deine Kirche in der Lehre der Apostel;^qerfülle die Bischöfe mit den Gaben des Heiligen Geistes.^pStärke die Einheit deiner Kirche;^qfestige in den Gemeinden das Band der Liebe.^pGib, dass deine Gläubigen den alten Menschen ablegen;^qlass sie den neuen Menschen anziehen in Gerechtigkeit und Heiligkeit.^pVergib allen ihre Sünden, die sich zu dir bekehren;^qum Christi willen tilge ihre Schuld.^pNimm unsere Verstorbenen auf in deinen Frieden;^qgib ihnen die ewige Ruhe.",
+          "hymn_1_lat": 3341.2,
+          "resp1_lat": "Atténde, Dómine, et miserére,",
+          "resp2_lat": "quia peccávimus tibi.",
+          "resp3_lat": "Exáudi, Christe, supplicántum preces.",
+          "bitten_e_lat": "Christum Dóminum glorificémus, qui magíster, exémplar et frater factus est noster. Ei supplicémus, dicéntes:",
+          "bitten_r_lat": "Pópulum tuum vivífica, Dómine.",
+          "bitten_lat": "Christe, qui per ómnia nobis assimilátus es absque peccáto, da ut sciámus cum gaudéntibus gaudére et cum fléntibus flere,^qut cáritas nostra magis in dies abúndet.^pConcéde nobis tibi esuriénti ministráre in esuriéntibus,^qet tibi sitiénti in sitiéntibus.^pQui Lázarum a somno mortis excitásti,^qfac ut, qui ex peccáto mórtui sunt, per fidem et pæniténtiam rédeant ad vitam.^pFac ut multi vestígia tua impénsius atque perféctius sequántur,^qexémplo beátæ Maríæ Vírginis atque sanctórum.^pPræsta, ut in glória tua defúncti resúrgant,^qac tuo in ætérnum fruántur amóre.",
+          "les_text_lat": "Exhortámur vos ne in vácuum grátiam Dei recipiátis – ait enim: „Témpore accépto exaudívi te et in die salútis adiúvi te.“ Ecce nunc tempus acceptábile, ecce nunc dies salútis –, némini dantes ullam offensiónem, ut non vituperétur ministérium, sed in ómnibus exhibéntes nosmetípsos sicut Dei minístros."
+        },
+        "Lesehore": {
+          "hymn_1": 3311.0,
+          "hymn_2": 3312.0,
+          "hymn_1_lat": 3311.2
+        },
+        "Laudes": {
+          "les_buch": "›Neh",
+          "les_stelle": "8,9b.10b",
+          "les_text": "Heute ist ein heiliger Tag zu Ehren des HERRN, unseres Gottes. Seid nicht traurig und weint nicht! Macht euch keine Sorgen; denn die Freude am HERRN ist eure Stärke!",
+          "resp1": "Christus, du Sohn des lebendigen Gottes,",
+          "resp2": "erbarme°dich°unser.",
+          "resp3": "Du wurdest misshandelt wegen unserer Sünden, wegen unserer Verbrechen durchbohrt.",
+          "bitten_e": "Gepriesen sei Jesus Christus, unser Erlöser, der uns diese Zeit der Gnade gewährt. Zu ihm lasst uns beten:",
+          "bitten_r": "Herr, gib uns deinen Geist.",
+          "bitten": "Im Sakrament der Taufe sind wir mit dir begraben und auferweckt worden;^qgib, dass wir heute als neue Menschen leben.^pDu hast uns allen Gutes erwiesen;^qmach uns bereit, unseren Mitmenschen zu dienen.^pDu hast uns eine Aufgabe in der Welt gegeben;^qhilf uns, sie zu erfüllen.^pDu kannst alle Krankheit heilen;^qheile die Wunden unseres Herzens.",
+          "hymn_1_lat": 3321.2,
+          "resp1_lat": "Christe, Fili Dei vivi,",
+          "resp2_lat": "miserére°nobis.",
+          "resp3_lat": "Qui attrítus es propter scélera nostra.",
+          "bitten_e_lat": "Redemptórem nostrum, qui hoc tempus salútis nobis benígne méruit, benedicámus, eúmque súpplices exorémus:",
+          "bitten_r_lat": "Spíritum novum crea in nobis, Dómine.",
+          "bitten_lat": "Christe, vita nostra, qui per baptísmum nos mýstice tecum sepelíri donásti ac per eúndem tecum resuscitári voluísti,^qtríbue nos hódie in novitáte vitæ ambuláre.^pDómine, qui ómnibus benefecísti,^qfac nos étiam de commúni ómnium bono esse sollícitos.^pTríbue nobis ad terrénam civitátem ædificándam concórditer operári,^qet simul cæléstem inquírere.^pMédice córporum et animárum, sana nostri vúlnera cordis,^qut contínua capiámus subsídia sanctitátis.",
+          "les_text_lat": "Dies iste sanctificátus est Dómino Deo nostro! Nolíte lugére et nolíte flere. Quia sanctus dies Dómini nostri est; et nolíte contristári, gáudium étenim Dómini est fortitúdo vestra."
+        },
+        "Terz": {
+          "les_buch": "›1°Thess",
+          "les_stelle": "4,1.7",
+          "les_text": "Wir bitten und ermahnen euch im Namen Jesu, des Herrn: Ihr habt von uns gelernt, wie ihr leben müsst, um Gott zu gefallen, und ihr lebt auch so. Werdet darin noch vollkommener! Denn Gott hat uns nicht dazu berufen, unrein zu leben, sondern heilig zu sein.",
+          "les_text_lat": "Fratres, rogámus vos et obsecrámus in Dómino Iesu, ut — quemádmodum accepístis a nobis quómodo vos opórteat ambuláre et placére Deo, sicut et ambulátis — ut abundétis magis. Non enim vocávit nos Deus in immundítia sed in sanctificatióne."
+        },
+        "Sext": {
+          "les_buch": "›Jes",
+          "les_stelle": "30,15ab.18",
+          "les_text": "So spricht der Herr, der Heilige Israels: Nur in Umkehr und Ruhe liegt eure Rettung, nur Stille und Vertrauen verleihen euch Kraft. Der Herr wartet darauf, euch seine Gnade zu zeigen; er erhebt sich, um euch sein Erbarmen zu schenken. Denn der Herr ist ein Gott des Rechtes; wohl denen, die auf ihn warten.",
+          "les_text_neu": "So spricht der GOTT, der Herr, der Heilige Israels: Durch Umkehr und Ruhe werdet ihr gerettet, im Stillhalten und Vertrauen liegt eure Kraft. Der HERR wartet darauf, euch gnädig zu sein, darum erhebt er sich, um sich eurer zu erbarmen. Denn der HERR ist ein Gott des Rechts; selig alle, die auf ihn warten.",
+          "les_text_lat": "Hæc dixit Dóminus Deus, Sanctus Israel: « In conversióne et quiéte salvi éritis; in siléntio et in spe erit fortitúdo vestra ». Proptérea exspéctat Dóminus, ut misereátur vestri, et ídeo exaltábitur parcens vobis, quia Deus iudícii Dóminus; beáti omnes, qui exspéctant eum."
+        },
+        "Non": {
+          "les_buch": "›Dtn",
+          "les_stelle": "4,29b–31",
+          "les_text": "Du wirst den Herrn, deinen Gott, finden, wenn du mit ganzem Herzen und mit ganzer Seele um ihn bemühst. Wenn du in Not bist, werden alle diese Worte dich finden. In späteren Tagen wirst du zum Herrn, deinem Gott, zurückkehren und auf seine Stimme hören. Denn der Herr, dein Gott, ist ein barmherziger Gott. Er lässt dich nicht fallen und gibt dich nicht dem Verderben preis und vergisst nicht den Bund mit deinen Vätern, den er ihnen beschworen hat.",
+          "les_text_neu": "Du wirst den HERRN, deinen Gott, finden, wenn du dich mit ganzem Herzen und mit ganzer Seele um ihn bemühst. Wenn du in Not bist, werden alle diese Worte dich finden. In späteren Tagen wirst du zum HERRN, deinem Gott, zurückkehren und auf seine Stimme hören. Denn der HERR, dein Gott, ist ein barmherziger Gott. Er lässt dich nicht fallen und gibt dich nicht dem Verderben preis und vergisst nicht den Bund mit deinen Vätern, den er ihnen beschworen hat.",
+          "les_text_lat": "Cum quæsíeris Dóminum Deum tuum, invénies eum; si tamen toto corde quæsíeris eum et tota ánima tua. Postquam in tribulatióne tua te invénerint ómnia, quæ prædícta sunt, novíssimo témpore revertéris ad Dóminum Deum tuum et áudies vocem eius; quia Deus miséricors Dóminus Deus tuus est; non dimíttet te, nec omníno delébit neque obliviscétur pacti, in quo iurávit pátribus tuis."
+        },
+        "Vesper": {
+          "psalm3": 158.0,
+          "les_buch": "›vgl.°1°Kor",
+          "les_stelle": "9,24–25",
+          "les_text": "Die Läufer im Stadion laufen zwar alle, aber nur einer gewinnt den Siegespreis. Lauft so, dass ihr ihn gewinnt. Jeder Wettkämpfer lebt aber völlig enthaltsam; jene tun dies, um einen vergänglichen, wir aber, um einen unvergänglichen Siegeskranz zu gewinnen.",
+          "les_text_neu": "Die Läufer im Stadion laufen zwar alle, aber nur einer gewinnt den Siegespreis. Lauft so, dass ihr ihn gewinnt! Jeder Wettkämpfer lebt aber völlig enthaltsam; jene tun dies, um einen vergänglichen, wir aber, um einen unvergänglichen Siegeskranz zu gewinnen.",
+          "resp1": "Wir haben gegen dich gesündigt,",
+          "resp2": "Herr, sei uns gnädig, erbarme dich unser.",
+          "resp3": "Erhöre, Christus, unser Rufen und Flehen.",
+          "bitten_e": "Lasst uns beten zu Gott dem Vater, der die Menschen durch Buße zum neuen Leben führt:",
+          "bitten_r": "Erbarme dich deines Volkes.",
+          "bitten": "Herr, unser Gott, wir bitten dich für die Kirche auf dem ganzen Erdkreis;^qgib deinen Gläubigen Verlangen nach dir und deinem Wort.^pWir bitten dich für alle, die sich auf die Taufe vorbereiten;^qfüge sie als lebendige Steine ein in den Bau deiner Kirche.^pWir bitten dich für die Sünder;^qbewege ihr Herz zur Umkehr.^pWir bitten dich für die Völker der Erde;^qhilf ihnen den Weg zum Frieden finden.^pWir bitten dich für unsere Verstorbenen;^qlass sie in ewiger Seligkeit dein Angesicht schauen.",
+          "hymn_1_lat": 3341.2,
+          "resp1_lat": "Atténde, Dómine, et miserére,",
+          "resp2_lat": "quia peccávimus tibi.",
+          "resp3_lat": "Exáudi, Christe, supplicántum preces.",
+          "bitten_e_lat": "Laus Deo Patri, qui pópulum electiónis e sémine incorruptíbili renásci vóluit per Verbum suum, quod manet in ætérnum. Ei pie supplicémus:",
+          "bitten_r_lat": "Propítius esto, Dómine, pópulo tuo.",
+          "bitten_lat": "Audi, miséricors Deus, supplicatiónes, quas pro cuncto pópulo tuo deférimus,^qut desíderet se tuo pótius verbo quam cibo satiáre corpóreo.^pDoce nos gentem nostram et cunctos hómines sine discrímine vere et efficáciter amáre,^qeósque in pace et bono semper ædificáre.^pRéspice omnes per baptísmum regenerándos,^qut domum spiritálem, tamquam lápides vivi, tibi constítuant.^pQui, per Ionam prædicántem, Ninivítas ad pæniténtiam excitásti,^qverbo tuo peccatórum corda convérte propítius.^pTríbue moriéntibus in spe Christo iúdici occúrrere,^qtuíque aspéctu in ætérnum gaudére.",
+          "les_text_lat": "Hi, qui in stádio currunt, omnes quidem currunt, sed unus áccipit bravíum. Sic cúrrite, ut comprehendátis. Omnis autem, qui in agóne conténdit, ab ómnibus se ábstinet, et illi quidem, ut corruptíbilem corónam accípiant, nos autem incorrúptam."
+        }
+      },
+      "1": {
+        "Lesehore": {
+          "versikel0": "Kehrt um und glaubt dem Evangelium.",
+          "versikel1": "Denn das Reich Gottes ist nahe.",
+          "versikel0_lat": "Pænitémini et crédite Evangélio.",
+          "versikel1_lat": "Appropinquávit enim regnum Dei."
+        },
+        "Laudes": {
+          "les_buch": "›Ex",
+          "les_stelle": "19,4ac–6a",
+          "les_text": "Ihr habt gesehen, wie ich euch auf Adlerflügeln getragen und hierher zu mir gebracht habe. Jetzt aber, wenn ihr auf meine Stimme hört und meinen Bund haltet, werdet ihr unter allen Völkern mein besonderes Eigentum sein. Mir gehört die ganze Erde, ihr aber sollt mir als ein Reich von Priestern und als ein heiliges Volk gehören.",
+          "les_text_neu": "Ihr habt gesehen, wie ich euch auf Adlerflügeln getragen und zu mir gebracht habe. Jetzt aber, wenn ihr auf meine Stimme hört und meinen Bund haltet, werdet ihr unter allen Völkern mein besonderes Eigentum sein. Mir gehört die ganze Erde, ihr aber sollt mir als ein Königreich von Priestern und als ein heiliges Volk gehören.",
+          "bitten_e": "Gepriesen sei Jesus Christus, unser Erlöser, der uns in seinem Tod den Weg des Heiles erschlossen hat. Zu ihm lasst uns beten:",
+          "bitten_r": "Herr, führe uns.",
+          "bitten": "In der Taufe hast du uns nach deinem Bild neu geschaffen;^qlass uns dir immer ähnlicher werden.^pGib, dass wir in den Notleidenden dich erkennen,^qund mach uns bereit, ihnen zu helfen.^pHilf uns, dich mit ganzem Herzen zu suchen^qund heute zu tun, was recht und gut ist vor dir.^pVerzeihe uns, was wir gegen die Liebe gesündigt haben;^qlass uns untereinander ein Herz und eine Seele sein.",
+          "bitten_e_lat": "Benedíctus Iesus, salvátor noster, qui per mortem suam salútis nobis sémitam reserávit. Orémus:",
+          "bitten_r_lat": "Dírige, Dómine, pópulum tuum in viam rectam.",
+          "bitten_lat": "Miséricors Deus, qui per baptísmum novitátem vitæ nobis dedísti,^qfac ut magis in dies tuæ conformémur imágini.^pPræsta, ut indigéntes benevoléntia nostra hódie lætificémus,^qeísque subveniéntes teípsum inveniámus.^pTríbue nobis bonum, rectum et verum coram te operári,^qteque semper toto corde requírere.^pQuæ contra unitátem famíliæ tuæ commísimus, benígnus indúlge,^qatque cor unum et ánimam unam nos esse concéde.",
+          "les_text_lat": "Vos ipsi vidístis quómodo portáverim vos super alas aquilárum et addúxerim ad me. Si ergo audiéritis vocem meam et custodiéritis pactum meum, éritis mihi in pecúlium de cunctis pópulis, mea est enim omnis terra. Et vos éritis mihi regnum sacerdótum et gens sancta."
+        },
+        "Terz": {
+          "les_buch": "›Weish",
+          "les_stelle": "11,23–24a",
+          "les_text": "Herr, du hast mit allen Erbarmen, weil du alles vermagst, und siehst über die Sünden der Menschen hinweg, damit sie sich bekehren. Du liebst alles, was ist, und verabscheust nichts von allem, was du gemacht hast.",
+          "les_text_neu": "Herr, du hast mit allen Erbarmen, weil du alles vermagst, und siehst über die Sünden der Menschen hinweg, damit sie umkehren. Du liebst alles, was ist, und verabscheust nichts von dem, was du gemacht hast.",
+          "les_text_lat": "Miseréris ómnium, Dómine, quia ómnia potes; et dissímulas peccáta hóminum propter pæniténtiam. Díligis enim ómnia, quæ sunt, et nihil odísti eórum, quæ fecísti."
+        },
+        "Sext": {
+          "les_buch": "›Ez",
+          "les_stelle": "18,23",
+          "les_text": "Habe ich etwa Gefallen am Tod des Schuldigen – Spruch Gottes, des Herrn –, und nicht viel mehr daran, dass er seine bösen Wege verlässt und am Leben bleibt?",
+          "les_text_neu": "Habe ich etwa Gefallen am Tod des Schuldigen – Spruch GOTTES, des Herrn – und nicht vielmehr daran, dass er umkehrt von seinen Wegen und am Leben bleibt?",
+          "les_text_lat": "Numquid voluntátis meæ est mors ímpii, dicit Dóminus Deus, et non ut convertátur a viis suis et vivat?"
+        },
+        "Non": {
+          "les_buch": "›Jes",
+          "les_stelle": "58,6a.7",
+          "les_text": "Das ist ein Fasten, wie ich es liebe: an die Hungrigen dein Brot auszuteilen, die obdachlosen Armen ins Haus aufzunehmen, wenn du einen Nackten siehst, ihn zu bekleiden und dich deinen Verwandten nicht zu entziehen.",
+          "les_text_neu": "Ist nicht das ein Fasten, wie ich es wünsche: dem Hungrigen dein Brot zu brechen, obdachlose Arme ins Haus aufzunehmen, wenn du einen Nackten siehst, ihn zu bekleiden und dich deiner Verwandtschaft nicht zu entziehen?",
+          "les_text_lat": "Nonne hoc est ieiúnium, quod elégi: frángere esuriénti panem tuum et egénos, vagos indúcere in domum? Cum víderis nudum, óperi eum et carnem tuam ne despéxeris."
+        },
+        "Vesper": {
+          "les_buch": "›Röm",
+          "les_stelle": "12,1–2",
+          "les_text": "Angesichts des Erbarmens Gottes ermahne ich euch, meine Brüder, euch selbst als lebendiges und heiliges Opfer darzubringen, das Gott gefällt; das ist für euch der wahre und angemessene Gottesdienst. Gleicht euch nicht dieser Welt an, sondern wandelt euch durch ein neues Denken, damit ihr prüfen und erkennen könnt, was der Wille Gottes ist: was ihm gefällt, was gut und vollkommen ist.",
+          "les_text_neu": "Ich ermahne euch, Brüder und Schwestern, kraft der Barmherzigkeit Gottes, eure Leiber als lebendiges, heiliges und Gott wohlgefälliges Opfer darzubringen – als euren geistigen Gottesdienst. Und gleicht euch nicht dieser Welt an, sondern lasst euch verwandeln durch die Erneuerung des Denkens, damit ihr prüfen und erkennen könnt, was der Wille Gottes ist: das Gute, Wohlgefällige und Vollkommene!",
+          "bitten_e": "Lasst uns beten zum Herrn Jesus Christus, der sein Volk von der Macht der Sünde befreit hat:",
+          "bitten_r": "Jesus, Sohn Davids, erbarme dich unser.",
+          "bitten": "Du hast dich dahingegeben für deine Kirche;^qschenke ihr neues Leben durch Fasten und Buße.^pDu gibst den Menschen in der Taufe eine neue Würde;^qlass die Katechumenen die Größe ihrer Berufung erkennen.^pDu gibst den jungen Menschen ein Ziel ihres Strebens;^qzeige ihnen den rechten Weg.^pDu hast Mitleid mit allen, die krank sind und leiden;^qrichte sie auf und mache sie wieder gesund.^pDu lässt keinen im Stich, der auf dich vertraut;^qgib unseren Verstorbenen das ewige Leben.",
+          "bitten_e_lat": "Dóminum Iesum Christum, qui nos pópulum suum a peccátis salvos fecit, humíliter invocémus:",
+          "bitten_r_lat": "Iesu, Fili David, miserére nostri.",
+          "bitten_lat": "Orámus te, Christe, pro sancta Ecclésia tua, pro qua teípsum tradidísti ut eam sanctificáres, mundans lavácro aquæ in verbo vitæ;^qcontinénter rénova eam et purífica pæniténtia.^pMagíster bone, notam fac iuvénibus viam, quam unicuíque eórum mandásti,^qut ámbulent in ea et bene sit eis.^pQui misértus es ómnium languórum, érige spem ægrotántium et sana eos,^qnosque fac de iis sublevándis sollícitos.^pRedde nos mémores dignitátis, quam per baptísmum nobis dedísti,^qut tibi semper vivámus.^pPacem et glóriam largíre defúnctis,^qnobísque cum illis aliquándo tecum regnáre concéde.",
+          "les_text_lat": "Obsecro vos, fratres, per misericórdiam Dei, ut exhibeátis córpora vestra hóstiam vivéntem, sanctam, Deo placéntem, rationábile obséquium vestrum; et nolíte conformári huic sǽculo, sed transformámini renovatióne mentis, ut probétis quid sit volúntas Dei, quid bonum et bene placens et perféctum."
+        }
+      },
+      "2": {
+        "Lesehore": {
+          "versikel0": "Jetzt ist sie da, die rechte Zeit.",
+          "versikel1": "Jetzt ist er da, der Tag des Heils.",
+          "versikel0_lat": "Ecce nunc tempus acceptábile.",
+          "versikel1_lat": "Ecce nunc dies salútis."
+        },
+        "Laudes": {
+          "les_buch": "›Joël",
+          "les_stelle": "2,12–13",
+          "les_text": "Kehrt um zu mir von ganzem Herzen, mit Fasten, Weinen und Klagen. Zerreißt eure Herzen, nicht eure Kleider, und kehrt um zum Herrn, eurem Gott! Denn er ist gnädig und barmherzig, langmütig und reich an Güte, und es reut ihn, dass er das Unheil verhängt hat.",
+          "les_text_neu": "Kehrt um zu mir von ganzem Herzen mit Fasten, Weinen und Klagen! Zerreißt eure Herzen, nicht eure Kleider, und kehrt um zum HERRN, eurem Gott! Denn er ist gnädig und barmherzig, langmütig und reich an Huld und es reut ihn das Unheil.",
+          "bitten_e": "Gepriesen sei Jesus Christus, denn er ist das Brot, das vom Himmel gekommen ist. Zu ihm lasst uns beten:",
+          "bitten_r": "Christus, stärke uns.",
+          "bitten": "Wir haben gesündigt vor dir, o°Herr;^qin deiner Güte tilge unsere Schuld.^pGib, dass wir dein Wort in unseren Herzen aufnehmen^qund Frucht bringen in Geduld.^pDu lädst uns ein, dein Gedächtnis zu feiern;^qbeim heiligen Opfermahl sei unsere Speise.^pDu hast uns zu Boten deines Friedens gemacht;^qhilf uns in unserem Bemühen um Gerechtigkeit und Liebe.",
+          "bitten_e_lat": "Benedicámus Christo, qui se nobis dedit ut panem de cælo descendéntem, atque ad eum oratiónem nostram dirigámus:",
+          "bitten_r_lat": "Christe, panis et medéla animárum, róbora nos.",
+          "bitten_lat": "Dómine, fac ut, eucharístico satiáti convívio,^qdona sacrifícii paschális plene participémus.^pTríbue nobis verbum tuum in corde bono et óptimo retinére,^qut fructum afferámus in patiéntia.^pFac ut in perficiéndo órdine mundi tibi álacres cooperémur,^qut per Ecclésiam tuam præcónium pacis facílius diffundátur.^pPeccávimus, Dómine, peccávimus,^qdele iniquitátes nostras grátia tua salutári.",
+          "les_text_lat": "Convertímini ad me in toto corde vestro, in ieiúnio et in fletu et in planctu; et scíndite corda vestra et non vestiménta vestra, et convertímini ad Dóminum Deum vestrum, quia benígnus et miséricors est, pátiens et multæ misericórdiæ, et placábilis super malítia."
+        },
+        "Terz": {
+          "les_buch": "›Joël",
+          "les_stelle": "2,17ab",
+          "les_text": "Zwischen Vorhalle und Altar sollen die Priester klagen, die Diener des Herrn sollen sprechen: Hab Mitleid, Herr, mit deinem Volk und überlass dein Erbe nicht der Schande, damit nicht die Völker über uns spotten!",
+          "les_text_neu": "Zwischen Vorhalle und Altar sollen die Priester klagen, die Diener des HERRN sollen sprechen: Hab Mitleid, HERR, mit deinem Volk und überlass dein Erbe nicht der Schande, damit die Völker nicht über uns spotten!",
+          "les_text_lat": "Inter vestíbulum et altáre plorent sacerdótes minístri Dómini et dicant: Parce, Dómine, pópulo tuo et ne des hereditátem tuam in oppróbrium, ut dominéntur eis natiónes."
+        },
+        "Sext": {
+          "les_buch": "›Jer",
+          "les_stelle": "3,25b",
+          "les_text": "Wir haben gesündigt gegen den HERRN, unsern Gott, wir selbst und unsere Väter, von Jugend an bis auf den heutigen Tag. Wir haben nicht gehört auf die Stimme des HERRN, unseres Gottes.",
+          "les_text_lat": "Dómino Deo nostro peccávimus nos et patres nostri ab adulescéntia nostra usque ad hanc diem et non audívimus vocem Dómini Dei nostri."
+        },
+        "Non": {
+          "les_buch": "›Jes",
+          "les_stelle": "58,1–2",
+          "les_text": "Rufe aus voller Kehle, halte dich nicht zurück! Lass deine Stimme ertönen wie eine Posaune! Halte meinem Volk seine Vergehen vor und dem Haus Jakob seine Sünden! Sie suchen mich Tag für Tag, denn sie wollen meine Wege erkennen. Wie ein Volk, das Gerechtigkeit übt und das vom Recht seines Gottes nicht ablässt, so fordern sie von mir ein gerechtes Urteil und möchten, dass Gott ihnen nah ist.",
+          "les_text_neu": "Rufe aus voller Kehle, halte dich nicht zurück! Erhebe deine Stimme wie ein Widderhorn! Halt meinem Volk seine Vergehen vor und dem Haus Jakob seine Sünden! Sie suchen mich Tag für Tag und haben daran Gefallen, meine Wege zu erkennen. Wie eine Nation, die Gerechtigkeit übt und vom Recht ihres Gottes nicht ablässt, so fordern sie von mir gerechte Entscheide und haben an Gottes Nähe Gefallen.",
+          "les_text_lat": "Clama fórtiter, ne cesses; quasi tuba exálta vocem tuam et annúntia pópulo meo scélera eórum et dómui Iacob peccáta eórum. Me étenim de die in diem quærunt et scire vias meas volunt, quasi gens, quæ iustítiam fécerit et iudícium Dei sui non derelíquerit."
+        },
+        "Vesper": {
+          "les_buch": "›Jak",
+          "les_stelle": "2,14.17.18b",
+          "les_text": "Meine Brüder, was nützt es, wenn einer sagt, er habe Glauben, aber es fehlen die Werke? Kann etwa der Glaube ihn retten? Der Glaube für sich allein ist tot, wenn er nicht Werke vorzuweisen hat. Zeig mir deinen Glauben ohne die Werke, und ich zeige dir meinen Glauben aufgrund der Werke.",
+          "les_text_neu": "Was nützt es, meine Brüder und Schwestern, wenn einer sagt, er habe Glauben, aber es fehlen die Werke? Kann etwa der Glaube ihn retten? Der Glaube für sich allein ist tot, wenn er nicht Werke vorzuweisen hat. Zeige mir deinen Glauben ohne die Werke, und ich zeige dir aus meinen Werken den Glauben.",
+          "bitten_e": "Lasst uns beten zu Jesus Christus, der uns geboten hat, zu wachen, damit wir in der Versuchung standhalten:",
+          "bitten_r": "Herr, erbarme dich unser.",
+          "bitten": "Du bist bei allen, die sich in deinem Namen versammeln;^qstärke in unseren Gemeinden den Geist des Gebetes.^pDu willst deine Kirche von jedem Makel reinigen;^qheile in deinen Gläubigen die Wunden der Sünde.^pDu hast deine Jünger beauftragt, einander zu dienen;^qlass die Männer und Frauen nicht müde werden, die im Dienst der kirchlichen Liebeswerke stehen.^pDu hast die Menschen gelehrt, Böses mit Gutem zu vergelten;^qlass unter den Völkern Brüderlichkeit und Frieden wachsen.^pDu hast durch dein Leiden und Sterben Sünde und Tod überwunden;^qführe unsere Verstorbenen in deine Herrlichkeit.",
+          "bitten_e_lat": "Christum Dóminum, a quo iubémur ut vigilántiam et oratiónem advérsus tentatiónes adhibeámus, eníxe deprecémur:",
+          "bitten_r_lat": "Atténde, Dómine, et miserére.",
+          "bitten_lat": "Christe Iesu, qui congregátis ad orándum in nómine tuo te affutúrum promisísti,^qnos tecum Patrem in Spíritu Sancto semper oráre concéde.^pCæléstis Sponse, máculas ab Ecclésia tua dilécta exclúde,^qeámque ambuláre concéde in spe et virtúte Spíritus Sancti.^pHóminis amátor, redde nos sollícitos de próximo nostro, sicut unicuíque mandásti,^qut salutáre lumen tuum vivídius ómnibus effúlgeat.^pRex pacífice, da pacem tuam in mundo vigére,^qut præséntia tua salutáris ubíque magis percipiátur.^pOmnibus defúnctis beátæ æternitátis intróitum résera,^qeísque incorruptiónis áperi limen et glóriæ.",
+          "les_text_lat": "Quid próderit, fratres mei, si fidem quis dicat se habére, ópera autem non hábeat? Numquid póterit fides salváre eum? Fides, si non hábeat ópera, mórtua est in semetípsa. Osténde mihi fidem tuam sine opéribus, et ego tibi osténdam ex opéribus meis fidem."
+        }
+      },
+      "3": {
+        "Lesehore": {
+          "versikel0": "Kehrt um, wendet euch ab von all euren Vergehen.",
+          "versikel1": "Schafft euch ein neues Herz und einen neuen Geist.",
+          "versikel0_lat": "Convertímini et ágite pæniténtiam.",
+          "versikel1_lat": "Fácite vobis cor novum et spíritum novum."
+        },
+        "Laudes": {
+          "les_buch": "›Dtn",
+          "les_stelle": "7,6b.8–9",
+          "les_text": "Dich hat der Herr, dein Gott, ausgewählt, damit du unter allen Völkern, die auf der Erde leben, das Volk wirst, das ihm persönlich gehört. Weil der Herr euch liebt und weil er auf den Schwur achtet, den er euren Vätern geleistet hat, deshalb hat der Herr euch mit starker Hand herausgeführt und euch aus dem Sklavenhaus freigekauft, aus der Hand des Pharao, des Königs von Ägypten. Daran sollst du erkennen: Jahwe, dein Gott, ist der Gott; er ist der treue Gott; noch nach tausend Generationen achtet er auf den Bund und erweist denen seine Huld, die ihn lieben und auf seine Gebote achten.",
+          "les_text_neu": "Dich hat der HERR, dein Gott, ausgewählt, damit du unter allen Völkern, die auf der Erde leben, das Volk wirst, das ihm persönlich gehört. Weil der HERR euch liebt und weil er auf den Schwur achtet, den er euren Vätern geleistet hat, deshalb hat der HERR euch mit starker Hand herausgeführt und dich aus dem Sklavenhaus freigekauft, aus der Hand des Pharao, des Königs von Ägypten. Daran sollst du erkennen: Der HERR, dein Gott, ist der Gott; er ist der treue Gott; noch nach tausend Generationen bewahrt er den Bund und erweist denen seine Huld, die ihn lieben und seine Gebote bewahren.",
+          "bitten_e": "Gepriesen sei Christus, der Urheber unseres Heiles. Zu ihm lasst uns beten:",
+          "bitten_r": "Herr, erbarme dich.",
+          "bitten": "Erfülle uns mit deinem Geist^qund mach uns dankbar für deine Gaben.^pGib, dass wir Trägheit und Gleichgültigkeit überwinden,^qund hilf uns, heute Gutes zu tun.^pBewahre uns vor dem Bösen;^qschenke uns Liebe, Gerechtigkeit und Frieden.^pDu hast einen neuen Himmel und eine neue Erde verheißen;^qmach uns würdig, dich auf ewig zu schauen.",
+          "bitten_e_lat": "Benedicátur Auctor salútis nostræ, qui vult hómines fíeri in se novam creatúram, ut vétera tránseant et ómnia renovéntur. Quaprópter viva spe fulti eum rogémus:",
+          "bitten_r_lat": "Rénova nos, Dómine, in Spíritu tuo.",
+          "bitten_lat": "Dómine, qui cælum novum terrámque novam promisísti, semper nos rénova per Spíritum tuum,^qut in cælésti Ierúsalem te iúgiter perfruámur.^pDa nos tecum operári ut hunc mundum Spíritu tuo imbuámus,^qatque in iustítia, caritáte et pace cívitas terréna finem suum efficácius assequátur.^pTríbue nos omnes desídias et neglegéntias castigáre,^qet supérnis delectári munéribus.^pLíbera nos a malo,^qnosque a fascinatióne nugacitátis, quæ bona obscúrat, defénde.",
+          "les_text_lat": "Te elégit Dóminus Deus tuus, ut sis ei pópulus peculiáris de cunctis pópulis, qui sunt super terram, quia diléxit vos Dóminus et custodívit iuraméntum, quod iurávit pátribus vestris, edúxit vos in manu forti et redémit te de domo servitútis, de manu pharaónis regis Ægýpti. Et scies quia Dóminus Deus tuus ipse est Deus, Deus fidélis, custódiens pactum et misericórdiam diligéntibus se et his, qui custódiunt mandáta eius, in mille generatiónes."
+        },
+        "Terz": {
+          "les_buch": "›Ez",
+          "les_stelle": "18,30b–32",
+          "les_text": "Kehrt um, wendet euch ab von all euren Vergehen! Sie sollen für euch nicht länger der Anlass sein, in Sünde zu fallen. Werft alle Vergehen von euch, die ihr verübt habt! Schafft euch ein neues Herz und einen neuen Geist! Warum wollt ihr sterben, ihr vom Haus Israel? Ich habe doch kein Gefallen am Tod dessen, der sterben muss – Spruch Gottes des Herrn. Kehrt um, damit ihr am Leben bleibt.",
+          "les_text_neu": "Kehrt um, kehrt euch ab von all euren Vergehen! Sie sollen für euch nicht länger der Anlass sein, in Schuld zu fallen. Werft alle Vergehen von euch, die ihr verübt habt! Schafft euch ein neues Herz und einen neuen Geist! Warum wollt ihr denn sterben, ihr vom Haus Israel? Ich habe doch kein Gefallen am Tod dessen, der sterben muss – Spruch GOTTES, des Herrn. Kehrt um, damit ihr am Leben bleibt!",
+          "les_text_lat": "Convertímini et ágite pæniténtiam ab ómnibus iniquitátibus vestris et non erit vobis in scándalum iniquitátis. Proícite a vobis omnes prævaricatiónes vestras, et fácite vobis cor novum et spíritum novum. Et quare moriémini, domus Israel? Quia nolo mortem moriéntis, dicit Dóminus Deus. Revertímini et vívite."
+        },
+        "Sext": {
+          "les_buch": "›Sach",
+          "les_stelle": "1,3b–4b",
+          "les_text": "Kehrt um zu mir – Spruch des Herrn der Heere –, dann kehre ich um zu euch, spricht der Herr der Heere. Seid nicht wie eure Väter, denen die früheren Propheten verkündeten: So spricht der Herr der Heere: Kehrt doch um von euren heillosen Wegen und von euren heillosen Taten.",
+          "les_text_neu": "Kehrt um zu mir – Spruch des HERRN der Heerscharen –, dann kehre ich um zu euch, spricht der HERR der Heerscharen. Seid nicht wie eure Väter, denen die früheren Propheten verkündeten: So spricht der HERR der Heerscharen: Kehrt doch um von euren heillosen Wegen und von euren heillosen Taten! ",
+          "les_text_lat": "Convertímini ad me, ait Dóminus exercítuum; et convértar ad vos. Ne sitis sicut patres vestri, ad quos clamábant prophétæ prióres dicéntes: Convertímini de viis vestris malis et de cogitatiónibus vestris malis; et non audiérunt."
+        },
+        "Non": {
+          "les_buch": "›Dan",
+          "les_stelle": "4,24b",
+          "les_text": "Löse dich von deinen Sünden durch rechtes Tun, tilge deine Vergehen, indem du Erbarmen hast mit den Armen! Dann mag dein Glück vielleicht von Dauer sein.",
+          "les_text_neu": "Lösch deine Sünden aus durch rechtes Tun, tilge deine Vergehen, indem du Erbarmen hast mit den Armen! Dann mag dein Glück vielleicht von Dauer sein.",
+          "les_text_lat": "Peccáta tua eleemósynis rédime et iniquitátes tuas misericórdiis páuperum: sic longitúdo erit prosperitáti tuæ."
+        },
+        "Vesper": {
+          "les_buch": "›Phil",
+          "les_stelle": "2,12b–15a",
+          "les_text": "Müht euch mit Furcht und Zittern um euer Heil! Denn Gott ist es, der in euch das Wollen und das Vollbringen bewirkt, noch über euren guten Willen hinaus. Tut alles ohne Murren und Bedenken, damit ihr rein und ohne Tadel seid, Kinder Gottes ohne Makel.",
+          "les_text_neu": "Müht euch mit Furcht und Zittern um euer Heil! Denn Gott ist es, der in euch das Wollen und das Vollbringen bewirkt, noch über euren guten Willen hinaus. Tut alles ohne Murren und Bedenken, damit ihr rein und ohne Tadel seid, Kinder Gottes ohne Makel!",
+          "bitten_e": "Lasst uns beten zu Gott, der uns gibt, was wir zum Leben brauchen:",
+          "bitten_r": "Wir bitten dich, erhöre uns.",
+          "bitten": "Herr, unser Gott, gedenke der Seelsorger und ihrer Gemeinden;^qlass dein Volk nicht ohne Hirten sein und die Hirten nicht ohne Herde.^pHilf denen, die in brüderlicher Liebe den Kranken beistehen;^qgib ihnen Herzlichkeit und Geduld.^pFühre alle, die noch nicht glauben, zu Jesus Christus;^qmache sie zu Gliedern deiner Kirche.^pErwecke Reue in denen, die sich von dir und deinem Sohn getrennt haben;^qversöhne sie mit dir und deiner Kirche.^pNimm unsere Verstorbenen auf in dein Reich;^qschenke ihnen bei dir das ewige Leben.",
+          "bitten_e_lat": "Deum omnipoténtem et providéntem exaltémus. Ipse scit ómnia, quibus índiget pópulus suus, sed vult nos primum de regno suo sollícitos. Ideo acclamémus:",
+          "bitten_r_lat": "Advéniat regnum tuum et iustítia eius.",
+          "bitten_lat": "Pater sancte, qui Christum ut pastórem animárum nostrárum dedísti, adésto pastóribus et pópulis eórum diligéntiæ créditis, ne gregi desit cura pastóris,^qneque pastóribus obœdiéntia gregis.^pInduc christiános, ut fratérna pietáte infírmis auxiliéntur,^qet ipsi Fílio tuo in iis subvéniant.^pFac ut nondum Evangélio credéntes Ecclésiam tuam ingrediántur,^qeámque bonis opéribus semper ædíficent in caritáte.^pDa nobis peccatóribus véniam a te impetráre,^qet simul reconciliári cum Ecclésia tua.^pPræsta, ut defúncti ad vitam tránseant ætérnam,^qet semper tecum commoréntur.",
+          "les_text_lat": "Cum metu et tremóre vestram salútem operámini; Deus est enim, qui operátur in vobis et velle et perfícere pro suo beneplácito. Omnia fácite sine murmuratiónibus et hæsitatiónibus, ut efficiámini sine queréla et símplices, fílii Dei."
+        }
+      },
+      "4": {
+        "Lesehore": {
+          "versikel0": "Wer über die Weisung des Herrn nachsinnt.",
+          "versikel1": "Der bringt Frucht zur rechten Zeit.",
+          "versikel0_lat": "Qui meditátur in lege Dómini.",
+          "versikel1_lat": "Dabit fructum suum in témpore suo."
+        },
+        "Laudes": {
+          "les_buch": "›vgl.°1°Kön",
+          "les_stelle": "8,51a.52–53",
+          "les_text": "Wir sind ja dein Volk, Herr, und dein Eigentum. Halte deine Augen offen für das Flehen deines Knechtes und für das Flehen deines Volkes Israel! Erhöre uns, sooft wir zu dir rufen! Du hast uns unter allen Völkern der Erde als dein Eigentum ausgewählt.",
+          "bitten_e": "Gepriesen sei Jesus Christus, der in diese Welt gekommen ist, damit wir das Licht des Lebens haben. Zu ihm lasst uns beten:",
+          "bitten_r": "Christus, erhöre uns.",
+          "bitten": "Du bist bei deiner Kirche alle Tage;^qlass uns heute deine Nähe erfahren.^pDu rufst uns heute von neuem in deine Nachfolge;^qhilf uns, das tägliche Kreuz zu tragen.^pStärke unseren Glauben an dich^qund gib, dass wir unsere Aufgabe in der Welt nach deinem Willen erfüllen.^pVerzeih uns unsere Sünden^qund hilf uns zu aufrichtiger Umkehr.",
+          "bitten_e_lat": "Christum Dóminum nostrum laudántes, qui ut lux mundi appáruit, ne ambularémus in ténebris sed lumen vitæ haberémus, ei supplicémus:",
+          "bitten_r_lat": "Verbum tuum sit lucérna pédibus nostris.",
+          "bitten_lat": "Benigníssime Deus, concéde nobis hódie in tui imitatióne profícere,^qut, quod in primo cécidit Adam, dénuo in te erigátur.^pPræbe verbum tuum lucérnam pédibus nostris,^qut, veritátem faciéntes, caritáte in te crescámus per ómnia.^pDoce nos ad ómnium bonum propter nomen tuum fidéliter ágere,^qut humána família magis per Ecclésiam illuminétur.^pFac nos per sincéram conversiónem amicítiam tuam magis magísque fovére,^qet offénsas sapiéntiæ atque bonitáti tuæ illátas expiáre.",
+          "les_text_lat": "Pópulus tuus, Dómine, et heréditas tua sumus. Sint óculi tui apérti ad deprecatiónem servi tui et pópuli tui Israel, et exáudias nos in univérsis, pro quibus invocavérimus te. Tu enim separásti nos tibi in hereditátem de univérsis pópulis terræ."
+        },
+        "Terz": {
+          "les_buch": "›Jes",
+          "les_stelle": "55,6–7",
+          "les_text": "Sucht den Herrn, solange er sich finden lässt, ruft ihn an, solange er nahe ist! Der Ruchlose soll seinen Weg verlassen, der Frevler seine Pläne. Er kehre um zum Herrn, damit er Erbarmen hat mit ihm, und zu unserem Gott, denn er ist groß im Verzeihen.",
+          "les_text_neu": "Sucht den HERRN, er lässt sich finden, ruft ihn an, er ist nah! Der Frevler soll seinen Weg verlassen, der Übeltäter seine Pläne. Er kehre um zum HERRN, damit er Erbarmen hat mit ihm, und zu unserem Gott; denn er ist groß im Verzeihen.",
+          "les_text_lat": "Quǽrite Dóminum, dum inveníri potest; invocáte eum, dum prope est. Derelínquat ímpius viam suam, et vir iníquus cogitatiónes suas; et revertátur ad Dóminum, et miserébitur eius, et ad Deum nostrum, quóniam multus est ad ignoscéndum."
+        },
+        "Sext": {
+          "les_buch": "›Dtn",
+          "les_stelle": "30,2–3a",
+          "les_text": "Wenn du zum Herrn, deinem Gott, zurückkehrst und auf seine Stimme hörst in allem, wozu ich dich heute verpflichte, du und deine Kinder, mit ganzem Herzen und ganzer Seele, dann wird der Herr, dein Gott, dein Schicksal wenden, er wird sich deiner erbarmen, sich dir zukehren und dich aus allen Völkern zusammenführen, unter die der Herr, dein Gott, dich verstreut hat.",
+          "les_text_neu": "Wenn du zum HERRN, deinem Gott, zurückkehrst und auf seine Stimme hörst in allem, wozu ich dich heute verpflichte, du und deine Kinder, mit ganzem Herzen und mit ganzer Seele, dann wird der HERR, dein Gott, dein Schicksal wenden. Er wird sich deiner erbarmen, sich dir zukehren und dich aus allen Völkern zusammenführen, unter die der HERR, dein Gott, dich verstreut hat. ",
+          "les_text_lat": "Cum revérsus fúeris ad Dóminum Deum tuum et obœdíeris eius impériis, secúndum ómnia quæ ego hódie præcípio tibi, cum fíliis tuis in toto corde tuo et in tota ánima tua, redúcet Dóminus Deus tuus captivitátem tuam ac miserébitur tui."
+        },
+        "Non": {
+          "les_buch": "›Hebr",
+          "les_stelle": "10,35–36",
+          "les_text": "Werft eure Zuversicht nicht weg, die großen Lohn mit sich bringt. Was ihr braucht, ist Ausdauer, damit ihr den Willen Gottes erfüllen könnt und so das verheißene Gut erlangt.",
+          "les_text_neu": "Werft eure Zuversicht nicht weg – sie hat großen Lohn! Was ihr braucht, ist Ausdauer, damit ihr den Willen Gottes erfüllt und die Verheißung erlangt.",
+          "les_text_lat": "Nolíte abícere confidéntiam vestram, quæ magnam habet remuneratiónem; patiéntia enim vobis necessária est, ut voluntátem Dei faciéntes reportétis promissiónem."
+        },
+        "Vesper": {
+          "les_buch": "›Jak",
+          "les_stelle": "4,7–8.10",
+          "les_text": "Ordnet euch Gott unter, leistet dem Teufel Widerstand; dann wird er vor euch fliehen. Sucht die Nähe Gottes; dann wird er sich euch nähern. Reinigt die Hände, ihr Sünder, läutert euer Herz, ihr Menschen mit zwei Seelen! Demütigt euch vor dem Herrn; dann wird er euch erhöhen.",
+          "les_text_neu": "Ordnet euch Gott unter, leistet dem Teufel Widerstand, und er wird vor euch fliehen. Naht euch Gott, dann wird er sich euch nahen! Reinigt die Hände, ihr Sünder, läutert eure Herzen, ihr Menschen mit zwei Seelen! Demütigt euch vor dem Herrn, und er wird euch erhöhen! ",
+          "bitten_e": "Lasst uns zu Jesus Christus beten, der uns das neue Gebot der Liebe gegeben hat:",
+          "bitten_r": "Herr, erbarme dich.",
+          "bitten": "Du hast zu deinen Jüngern gesagt: „Liebt einander, wie ich euch geliebt habe“;^qhilf deinen Gläubigen zu tun, was du geboten hast.^pDu hast dem Blindgeborenen die Augen geöffnet;^qöffne die Augen der Katechumenen, dass sie dich und dein Gebot erkennen.^pDu hast uns im Geheimnis des Altares das Vermächtnis deiner Liebe hinterlassen;^qstärke in allen, die von deinem Tisch essen, die Gemeinschaft mit dir und untereinander.^pDu hast am Kreuz für deine Henker gebetet;^qgib den verfolgten Christen die Kraft, ihren Feinden zu verzeihen.^pAm Jüngsten Tag wirst du sagen: „Kommt, ihr Gesegneten meines Vaters, und besitzet das Reich“;^qführe unsere Verstorbenen in das Reich, das ihnen bereitet ist.",
+          "bitten_e_lat": "A Christo Dómino, qui nobis dedit mandátum novum mútuæ dilectiónis, flagitémus:",
+          "bitten_r_lat": "Caritátem plebis tuæ, Dómine, adáuge.",
+          "bitten_lat": "Magíster bone, doce nos in frátribus temetípsum dilígere,^qatque in iis benefácere tibi.^pQui in cruce pro carnifícibus tuis véniam a Patre impetrásti,^qda nobis inimícos dilígere et pro persequéntibus nos oráre.^pPer mystérium córporis et sánguinis tui, amórem, virtútem et fidúciam nostram adáuge;^qdébiles corróbora, mæstos consoláre, spem agonizántibus infúnde.^pLux mundi, qui cæco nato post ablutiónem lumen vidére tribuísti,^qcatechúmenos per lavácrum aquæ et verbo vitæ illúmina.^pDefúnctos sátia dilectióne tua ætérna,^qnosque inter eléctos tuos connúmera.",
+          "les_text_lat": "Subicímini Deo; resístite Diábolo, et fúgiet a vobis. Appropiáte Deo, et appropinquábit vobis. Emundáte manus, peccatóres, et purificáte corda, dúplices ánimo. Humiliámini in conspéctu Dómini, et exaltábit vos."
+        }
+      },
+      "5": {
+        "Lesehore": {
+          "versikel0": "Kehrt um zum Herrn, eurem Gott.",
+          "versikel1": "Denn er ist gnädig und barmherzig.",
+          "versikel0_lat": "Convertímini ad Dóminum Deum vestrum.",
+          "versikel1_lat": "Quia benígnus et miséricors est."
+        },
+        "Laudes": {
+          "les_buch": "›Jes",
+          "les_stelle": "53,11b–12",
+          "les_text": "Mein Knecht, der gerechte, macht die Vielen gerecht; er lädt ihre Schuld auf sich. Deshalb gebe ich ihm seinen Anteil unter den Großen, und mit den Mächtigen teilt er die Beute, weil er sein Leben dem Tod preisgab und sich unter die Verbrecher rechnen ließ. Denn er trug die Sünden von vielen und trat für die Schuldigen ein.",
+          "bitten_e": "Gepriesen sei Jesus Christus, der uns durch seinen Tod am Kreuz das Leben erworben hat. Zu ihm lasst uns beten:",
+          "bitten_r": "Herr, gib uns neues Leben.",
+          "bitten": "Steh uns bei im Kampf gegen das Böse,^qdamit wir mit reinem Herzen Ostern feiern.^pHilf uns, heute unseren Auftrag zu erfüllen^qund dich zu bezeugen in Glaube, Hoffnung und Liebe.^pMach uns bereit zu Einschränkung und Verzicht;^qlehre uns, die Werke der Barmherzigkeit zu tun.^pMache unseren Sinn dir gefügig^qund schenke uns Großmut des Herzens.",
+          "bitten_e_lat": "Grátias agámus Christo Dómino, qui in cruce móriens nobis vitam cóntulit, eúmque ex corde deprecémur:",
+          "bitten_r_lat": "Per mortem tuam vivífica nos.",
+          "bitten_lat": "Magíster et Salvátor noster, qui fídei tuæ documénta nobis contulísti, nosque innovásti glória passiónis,^qfac ne veterascámus in áctibus pravitátis.^pPræsta nobis, ut hódie cibórum saturitátem córpori nostro subtráhere sciámus,^qut frátribus nostris indigéntibus succurrámus.^pDa hunc sanctum quadragesimálem diem a te nos devóte suscípere,^qet per ópera misericórdiæ tibi consecráre.^pCórrige mentes nostras rebélles,^qnosque magnánimos éffice.",
+          "les_text_lat": "Iustificábit iustus servus meus multos et iniquitátes eórum ipse portábit. Ideo dispértiam ei multos, et cum fórtibus dívidet spólia, pro eo quod trádidit in mortem ánimam suam et cum scelerátis reputátus est; et ipse peccátum multórum tulit et pro transgressóribus rogat."
+        },
+        "Terz": {
+          "les_buch": "›Jes",
+          "les_stelle": "55,3",
+          "les_text": "Neigt euer Ohr zu und kommt zu mir, hört, dann werdet ihr leben. Ich will einen ewigen Bund mit euch schließen, gemäß der beständigen Huld, die ich David erwies.",
+          "les_text_neu": "Neigt euer Ohr und kommt zu mir, hört und ihr werdet aufleben! Ich schließe mit euch einen ewigen Bund: Die Erweise der Huld für David sind beständig.",
+          "les_text_lat": "Inclináte aurem vestram et veníte ad me; audíte, ut vivat ánima vestra, et fériam vobíscum pactum sempitérnum, misericórdias David fidéles."
+        },
+        "Sext": {
+          "les_buch": "›vgl.°Jer",
+          "les_stelle": "3,12.14a",
+          "les_text": "Kehrt zurück – Spruch des Herrn. Ich schaue euch nicht mehr zornig an; denn ich bin gütig, ich trage nicht ewig nach. Kehrt um, ihr abtrünnigen Söhne – Spruch des Herrn.",
+          "les_text_neu": "Kehrt zurück – Spruch des HERRN. Ich schaue euch nicht mehr finster an; denn ich bin gütig, ich trage nicht ewig nach. Kehrt um, ihr abtrünnigen Söhne – Spruch des HERRN.",
+          "les_text_lat": "Revertímini, ait Dóminus, et non avértam fáciem meam a vobis, quia pius ego sum, et non iráscar in perpétuum. Convertímini, fílii, qui avérsi estis a me, dicit Dóminus."
+        },
+        "Non": {
+          "les_buch": "›Jak",
+          "les_stelle": "1,27",
+          "les_text": "Ein reiner und makelloser Dienst vor Gott, dem Vater, besteht darin: für Waisen und Witwen zu sorgen, wenn sie in Not sind, und sich vor jeder Befleckung durch die Welt zu bewahren.",
+          "les_text_neu": "Ein reiner und makelloser Gottesdienst ist es vor Gott, dem Vater: für Waisen und Witwen in ihrer Not zu sorgen und sich unbefleckt von der Welt zu bewahren.",
+          "les_text_lat": "Relígio munda et immaculáta apud Deum et Patrem hæc est: visitáre pupíllos et víduas in tribulatióne eórum, immaculátum se custodíre ab hoc sǽculo."
+        },
+        "Vesper": {
+          "les_buch": "›Jak",
+          "les_stelle": "5,16.19–20",
+          "les_text": "Bekennt einander eure Sünden und betet füreinander, damit ihr geheilt werdet! Viel vermag das inständige Gebet eines Gerechten. Meine Brüder, wenn einer bei euch von der Wahrheit abirrt und jemand ihn zur Umkehr bewegt, dann sollt ihr wissen: Wer einen Sünder, der auf Irrwegen ist, zur Umkehr bewegt, der rettet ihn vor dem Tod und deckt viele Sünden zu.",
+          "les_text_neu": "Bekennt einander eure Sünden und betet füreinander, damit ihr geheilt werdet! Viel vermag das inständige Gebet eines Gerechten. Meine Brüder und Schwestern, wenn einer unter euch von der Wahrheit abirrt und jemand ihn zur Umkehr bewegt, dann soll er wissen: Wer einen Sünder, der auf einem Irrweg ist, zur Umkehr bewegt, rettet ihn vor dem Tod und deckt viele Sünden zu.",
+          "bitten_e": "Lasst uns beten zu Jesus Christus, der durch sein Blut die Menschen heiligt:",
+          "bitten_r": "Herr, erbarme dich deines Volkes.",
+          "bitten": "Steh deiner Kirche bei im Kampf gegen das Böse;^qlass sie gestärkt dem Osterfest entgegengehen.^pHilf den Bischöfen, Priestern und Diakonen, ihren Auftrag zu erfüllen;^qgib, dass sie durch ihren Dienst dich verkünden.^pSteh allen bei, die um deines Namens willen verfolgt und verspottet werden;^qhilf ihnen, auszuhalten im Gedanken an dein Kreuz.^pErbarme dich aller, die aus Not und Bedrängnis zu dir rufen;^qlass dein Heil an ihnen sichtbar werden.^pGedenke aller, die in der Hoffnung auf dich aus dieser Welt geschieden sind;^qlass sie wohnen bei dir in ewiger Freude.",
+          "bitten_e_lat": "Dóminum Iesum, qui per próprium sánguinem pópulum sanctificávit, deprecémur:",
+          "bitten_r_lat": "Miserére, Dómine, pópulo tuo.",
+          "bitten_lat": "Redémptor noster, per passiónem tuam tríbue fidélibus membra sua mortificáre, in certamínibus contra mala et advérsa sústine eos, spe róbora firmióre,^qquo expeditióres ad resurrectiónem tuam celebrándam occúrrant.^pFac ut christiáni, ob prophéticum munus, notítiam tui ubíque diffúndant,^qatque ardéntis fídei, spei et caritátis testimónio eam confírment.^pConfórta virtúte tua omnes afflíctos,^qeísque consolándis fratérnas fac nos curas impéndere.^pDoce fidéles passiónem tuam in ærúmnis suis participáre,^qut salutáre tuum in seípsis maniféstent.^pAuctor vitæ, meménto eórum, qui de hac vita transiérunt,^qeísque resurrectiónis glóriam largíre.",
+          "les_text_lat": "Confitémini altérutrum peccáta et oráte pro ínvicem, ut sanémini. Multum enim valet deprecátio iusti óperans. Fratres mei, si quis ex vobis erráverit a veritáte et convérterit quis eum, scire debet quóniam, qui convérti fécerit peccatórem ab erróre viæ eius, salvábit ánimam suam a morte et opériet multitúdinem peccatórum."
+        }
+      },
+      "6": {
+        "Lesehore": {
+          "versikel0": "Wer die Wahrheit tut, kommt ans Licht.",
+          "versikel1": "Und seine Werke werden offenbar.",
+          "versikel0_lat": "Qui facit veritátem, venit ad lucem.",
+          "versikel1_lat": "Ut manifesténtur ópera eius."
+        },
+        "Laudes": {
+          "les_buch": "›Jes",
+          "les_stelle": "1,16–18a",
+          "les_text": "Wascht euch, reinigt euch! Lasst ab von eurem üblen Treiben! Hört auf, vor meinen Augen Böses zu tun! Lernt Gutes zu tun! Sorgt für das Recht! Helft den Unterdrückten! Verschafft den Waisen Recht, tretet ein für die Witwen! Kommt her, wir wollen sehen, wer von uns recht hat, spricht der Herr. Wären eure Sünden auch rot wie Scharlach, sie sollen weiß werden wie Schnee. Wären sie rot wie Purpur, sie sollen weiß werden wie Wolle.",
+          "les_text_neu": "Wascht euch, reinigt euch! Schafft mir eure bösen Taten aus den Augen! Hört auf, Böses zu tun! Lernt, Gutes zu tun! Sucht das Recht! Schreitet ein gegen den Unterdrücker! Verschafft den Waisen Recht, streitet für die Witwen! Kommt doch, wir wollen miteinander rechten, spricht der HERR. Sind eure Sünden wie Scharlach, weiß wie Schnee werden sie. Sind sie rot wie Purpur, wie Wolle werden sie.",
+          "bitten_e": "Gepriesen sei Jesus Christus, der uns durch die Taufe neues Leben geschenkt hat. Zu ihm lasst uns beten:",
+          "bitten_r": "Erneuere uns durch deinen Geist.",
+          "bitten": "Jesus, du bist mild und demütig von Herzen;^qmache uns barmherzig und geduldig gegenüber allen Menschen.^pLehre uns, in den Leidenden dich zu lieben^qund ihnen in deinem Namen Gutes zu tun.^pSchenke uns dein reiches Erbarmen;^qvergib uns, was wir gesündigt haben.^pGib, dass wir den alten Menschen mit seinen Werken ablegen^qund den neuen Menschen anziehen.",
+          "bitten_e_lat": "Christum Dóminum glorificémus, qui, ut nova creatúra hómines fíerent, lavácrum regeneratiónis instítuit eísque córporis et verbi sui mensam appósuit. Eum deprecémur, dicéntes:",
+          "bitten_r_lat": "Rénova nos, Dómine, grátia tua.",
+          "bitten_lat": "Iesu, mitis et húmilis corde, índue nos víscera misericórdiæ, benignitátem et humilitátem concéde,^qac patiéntiam cum ómnibus fac nos sectári.^pDoce nos vere próximos esse míseris atque afflíctis,^qut te bonum Samaritánum imitémur.^pBeáta Virgo, mater tua, intercédat pro sacris virgínibus,^qut consecratiónem, qua tibi sunt devótæ, in Ecclésia impénsius colant.^pDonum tuæ misericórdiæ nobis largíre,^qac peccáta et pœnas nobis dimítte.",
+          "les_text_lat": "Lavámini, mundi estóte, auférte malum cogitatiónum vestrárum ab óculis meis; quiéscite ágere pervérse, díscite benefácere: quǽrite iudícium, subveníte opprésso, iudicáte pupíllo, deféndite víduam. Et veníte et iudício contendámus, dicit Dóminus. Si fúerint peccáta vestra ut cóccinum, quasi nix dealbabúntur; et si fúerint rubra quasi vermículus, velut lana erunt."
+        },
+        "Terz": {
+          "les_buch": "›Offb",
+          "les_stelle": "3,19–20",
+          "les_text": "Wen ich liebe, den weise ich zurecht und nehme ich in Zucht. Mach also Ernst und kehr um! Ich stehe vor der Tür und klopfe an. Wer meine Stimme hört und die Tür öffnet, bei dem werde ich eintreten, und wir werden Mahl halten, ich mit ihm und er mit mir.",
+          "les_text_neu": "Wen ich liebe, den weise ich zurecht und nehme ich in Zucht. Mach also Ernst und kehr um! Siehe, ich stehe vor der Tür und klopfe an. Wenn einer meine Stimme hört und die Tür öffnet, bei dem werde ich eintreten und Mahl mit ihm halten und er mit mir.",
+          "les_text_lat": "Ego, quos amo, árguo et castígo. Æmuláre ergo et pæniténtiam age. Ecce sto ad óstium et pulso. Si quis audíerit vocem meam et aperúerit iánuam, introíbo ad illum et cenábo cum illo et ipse mecum."
+        },
+        "Sext": {
+          "les_buch": "›Jes",
+          "les_stelle": "44,21–22",
+          "les_text": "Denk daran, Jakob, und du, Israel, dass du mein Knecht bist. Ich habe dich geschaffen, du bist mein Knecht; Israel, ich vergesse dich nicht. Ich fege deine Vergehen hinweg wie eine Wolke und deine Sünden wie Nebel. Kehr um zu mir; denn ich erlöse dich.",
+          "les_text_neu": "Denk daran, Jakob, und du, Israel, dass du mein Knecht bist. Ich habe dich geformt. Du bist mein Knecht; Israel, du bist mir unvergessen. Ich habe weggewischt deine Vergehen wie eine Wolke und deine Sünden wie Nebel. Kehr um zu mir; denn ich habe dich erlöst.",
+          "les_text_lat": "Meménto quóniam servus meus es tu; formávi te, servus meus es tu, Israel, non decípies me. Delévi ut nubem iniquitátes tuas et quasi nébulam peccáta tua; revértere ad me, quóniam redémi te."
+        },
+        "Non": {
+          "les_buch": "›Gal",
+          "les_stelle": "6,7b–8",
+          "les_text": "Gott lässt keinen Spott mit sich treiben; was der Mensch sät, das wird er auch ernten. Wer im Vertrauen auf das Fleisch sät, wird vom Fleisch Verderben ernten; wer aber im Vertrauen auf den Geist sät, wird vom Geist ewiges Leben ernten.",
+          "les_text_neu": "Gott lässt seiner nicht spotten; denn was der Mensch sät, wird er auch ernten. Denn wer auf sein eigenes Fleisch sät, wird vom Fleisch Verderben ernten; wer aber auf den Geist sät, wird vom Geist ewiges Leben ernten.",
+          "les_text_lat": "Deus non irridétur. Quæ enim semináverit homo, hæc et metet; quóniam, qui séminat in carne sua, de carne metet corruptiónem, qui autem séminat in spíritu, de spíritu metet vitam ætérnam."
+        }
+      },
+      "each": {
+        "Invitatorium": {
+          "ant0": "Christus, der Herr, wurde für uns versucht und hat für uns gelitten; kommt, wir beten ihn an.^ODER^ANTVerhärtet eure Herzen nicht, hört auf die Stimme des Herrn!",
+          "ant0_lat": "Christum Dóminum, pro nobis tentátum et passum, veníte, adorémus.^VEL^ANTUtinam hódie vocem Dómini audiátis: Nolíte obduráre corda vestra."
+        },
+        "Lesehore": {
+          "hymn_1": 3311.0,
+          "hymn_2": 3312.0,
+          "hymn_1_lat": 3311.1,
+          "hymn_2_lat": 0.0
+        },
+        "Vigil": {
+          "psalm1": 185.0,
+          "psalm2": 196.0,
+          "psalm3": 199.121,
+          "ant0": "Wende unser Herz zu dir, damit wir uns bekehren; erneuere unsere Tage."
+        },
+        "Laudes": {
+          "hymn_1": 3321.0,
+          "hymn_kl": 0.0,
+          "resp1": "Er rettet mich aus der Schlinge des Jägers,",
+          "resp2": "er°befreit mich aus allem Verderben.",
+          "resp3": "Der Herr ist meine Zuflucht, zum Schutze hab’ ich mir erwählt den Höchsten.",
+          "hymn_1_lat": 3321.1,
+          "resp1_lat": "Ipse liberábit me",
+          "resp2_lat": "de láqueo venántium.",
+          "resp3_lat": "Et a verbo malígno."
+        },
+        "Terz": {
+          "ant0": "Tage der Buße sind gekommen, Tage des Heils zur Vergebung der Sünden.",
+          "ant1": "",
+          "ant2": "",
+          "ant3": "",
+          "resp0": "Erschaffe mir, Gott, ein reines Herz.",
+          "resp1": "Gib mir einen neuen, beständigen Geist.",
+          "hymn_1_lat": 4003.3,
+          "hymn_2_lat": 0.0,
+          "ant0_lat": "Advenérunt nobis dies pæniténtiæ ad rediménda peccáta, ad salvándas ánimas.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp0_lat": "Cor mundum crea in me, Deus.",
+          "resp1_lat": "Et spíritum firmum ínnova in viscéribus meis."
+        },
+        "Sext": {
+          "ant0": "So wahr ich lebe, spricht der Herr, ich will nicht den Tod des Sünders, ich will, dass er umkehrt und lebt.",
+          "ant1": "",
+          "ant2": "",
+          "ant3": "",
+          "resp0": "Verbirg dein Angesicht vor meinen Sünden.",
+          "resp1": "Tilge all meine Frevel.",
+          "hymn_1_lat": 4006.3,
+          "hymn_2_lat": 0.0,
+          "ant0_lat": "Vivo ego, dicit Dóminus; nolo mortem peccatóris, sed ut magis convertátur et vivat.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp0_lat": "Avérte fáciem tuam a peccátis meis.",
+          "resp1_lat": "Et omnes iniquitátes meas dele."
+        },
+        "Non": {
+          "ant0": "Mit den Waffen der Gerechtigkeit und durch Gottes Kraft halten wir stand in großer Geduld.",
+          "ant1": "",
+          "ant2": "",
+          "ant3": "",
+          "resp0": "Das Opfer, das Gott gefällt, ist ein zerknirschter Geist.",
+          "resp1": "Ein zerschlagenes Herz wird er nicht verschmähen.",
+          "hymn_1_lat": 4009.3,
+          "hymn_2_lat": 0.0,
+          "ant0_lat": "Per arma iustítiæ virtútis Dei, commendémus nosmetípsos in multa patiéntia.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp0_lat": "Sacrificium Deo spíritus contribulátus.",
+          "resp1_lat": "Cor contrítum et humiliátum, Deus, non despícies."
+        },
+        "Vesper": {
+          "hymn_1": 3341.0,
+          "hymn_2": 3342.0,
+          "hymn_kl": 0.0,
+          "resp1": "Sei mir gnädig und heile mich,",
+          "resp2": "ich habe vor dir gesündigt.",
+          "resp3": "Verschließe mir nicht dein Erbarmen; Herr, eile mir zu Hilfe.",
+          "hymn_1_lat": 3341.1,
+          "hymn_2_lat": 0.0,
+          "resp1_lat": "Ego dixi: Dómine,",
+          "resp2_lat": "miserére mei.",
+          "resp3_lat": "Sana ánimam meam, quia peccávi tibi."
+        }
+      }
+    },
+    "even": {
+      "0": {
+        "ErsteV": {
+          "bitten_e": "Lasst uns beten zu unserem Herrn Jesus Christus, der die Menschen ruft, ihm zu folgen:",
+          "bitten_r": "Christus, höre uns.",
+          "bitten": "Du hast vierzig Tage gefastet und den Versuchungen des Bösen widerstanden;^qhilf deiner Kirche, das Böse zu überwinden.^pDu hast Hungernde gespeist und Kranke geheilt;^qmach unsere Gemeinden bereit, mit den Armen zu teilen.^pDu hast Tote zum Leben auferweckt;^qführe die Sünder zurück zum Leben der Gnade.^pDu rufst auch in unserer Zeit Männer und Frauen auf den Weg der Armut, der Jungfräulichkeit und des Gehorsams;^qgib, dass sie dir freudig folgen.^pDu hast die Menschen zum himmlischen Mahl geladen;^qsättige unsere Verstorbenen an deinem Tisch.",
+          "bitten_e_lat": "Magnificémus Deum, cui cura est de ómnibus. Eum invocémus, dicéntes:",
+          "bitten_r_lat": "Da, Dómine, salútem redémptis.",
+          "bitten_lat": "Deus, dator múnerum et fons veritátis, reple donis tuis collégium episcopórum,^qet fidéles, iis concréditos, serva in Apostolórum doctrína.^pCaritátem tuam infúnde ómnibus, qui de uno pane vitæ commúnicant,^qquo arctióre unitáte fruántur in córpore Fílii tui.^pVéterem hóminem cum áctibus suis nos exspoliáre concéde,^qet Christum Fílium tuum novum indúere hóminem.^pConcéde, ut omnes per pæniténtiam peccatórum suórum véniam obtíneant,^qet supérnæ fiant Christi tui satisfactiónis partícipes.^pFac ut in pace tua defúncti te sine fine laudent in cælo,^qubi et nos te in ævum celebratúros sperámus."
+        },
+        "Laudes": {
+          "bitten_e": "Gepriesen sei Gott, der Vater unseres Herrn Jesus Christus. Zu ihm lasst uns beten:",
+          "bitten_r": "Schenke uns dein Erbarmen.",
+          "bitten": "Herr, unser Gott, du hast uns in die Kirche deines Sohnes gerufen;^qgib uns Freude an deinem Heil.^pDu bist ein menschenfreundlicher Gott;^qgib, dass wir heute gütig und barmherzig sind.^pDu erbarmst dich über alles, was lebt;^qnähre uns mit deinem Wort.^pDu bist der Gott des Friedens;^qgib uns den Geist brüderlicher Liebe.",
+          "bitten_e_lat": "Deum glorificémus, cuius bonitátis infinítus est thesáurus, et per Iesum Christum, qui est semper vivens ad interpellándum pro nobis, eum deprecémur, dicéntes:",
+          "bitten_r_lat": "Accénde in nobis ignem tui amóris.",
+          "bitten_lat": "Deus misericórdiæ, fac ut hódie abundémus in opéribus pietátis,^qatque omnes nostram experiántur humanitátem.^pQui in dilúvio Noe per arcam salvásti,^qsalva catechúmenos in aqua baptísmatis.^pPræsta nos non solo pane satiári,^qsed omni verbo, quod procédit de ore tuo.^pFac ut omnes dissensiónes componámus,^qut pace et caritáte, te donánte, gaudeámus."
+        },
+        "Vesper": {
+          "bitten_e": "Lasst uns beten zu unserem Herrn und Meister Jesus Christus, der gekommen ist, um allen Gutes zu erweisen:",
+          "bitten_r": "Herr, erbarme dich.",
+          "bitten": "Du hast dich nicht bedienen lassen, sondern den Menschen gedient;^qlehre alle, die an dich glauben, deinem Beispiel zu folgen.^pGib, dass in der Gemeinschaft der Kirche einer dem anderen hilft;^qschenke deinen Gläubigen die Liebe, die sie eint und stark macht.^pDu gibst den Bischöfen Anteil an deinem Hirtenamt;^qsteh ihnen bei in ihrer Sorge für die Menschen.^pSende deine Engel, dass sie die Reisenden geleiten^qund sie schützen auf ihren Wegen.^pSei den Verstorbenen ein gnädiger Richter;^qlass sie auf ewig dein Angesicht schauen.",
+          "bitten_e_lat": "Grátias Christo, cápiti et magístro nostro, semper agámus, qui venit ministráre et ómnibus benefácere. Ideo humíliter fidentérque ab eo petámus:",
+          "bitten_r_lat": "Vísita, Dómine, famíliam tuam.",
+          "bitten_lat": "Adésto, Dómine, epíscopis et presbýteris Ecclésiæ tuæ, qui munus tuum cápitis et pastóris partícipant,^qut per te ad Patrem omnes addúcant.^pAngelus tuus iter agéntes comitétur,^qut omnes ánimæ corporísque insídias devítent.^pDoce nos homínibus ministráre,^qut te imitémur, qui venísti ministráre, non ministrári.^pFac ut in omni humána communitáte frater adiuvétur a fratre,^qut sint, te astánte, quasi cívitas firma.^pMiséricors esto univérsis defúnctis,^qeósque in lumen vultus tui admítte."
+        }
+      },
+      "1": {
+        "Laudes": {
+          "bitten_e": "Gepriesen sei Gott, der Vater, der uns an den Anfang dieses Tages geführt hat. Zu ihm lasst uns beten:",
+          "bitten_r": "Herr, sei uns gnädig.",
+          "bitten": "Du willst alles in Christus erneuern;^qgib, dass wir uns von Herzen zu dir bekehren.^pDu rufst uns in die Nachfolge deines Sohnes;^qschenke uns den Geist der Buße und des Gebetes.^pDu erbarmst dich aller, die leiden;^qgib uns ein Herz für die Armen und Bedrückten.^pDurch Christus willst du die Menschen miteinander versöhnen;^qmach uns zu Werkzeugen deines Friedens.",
+          "bitten_e_lat": "Benedicámus Deo Patri, qui nobis largítur ut hoc quadragesimáli die sacrifícium laudis ei offerámus. Eum deprecémur, invocántes:",
+          "bitten_r_lat": "Cæléstibus, Dómine, nos ínstrue disciplínis.",
+          "bitten_lat": "Omnípotens et miséricors Deus, concéde nobis spíritum oratiónis et pæniténtiæ,^qut caritáte tui et hóminum ardeámus.^pDa nos tibi cooperári, ut ómnia instauréntur in Christo,^qatque iustítia et pax in terris abúndent.^pIntimam totíus creatúræ natúram et prétium áperi nobis,^qut, te celebrántes, eam in cármine laudis nobis consociémus.^pIgnósce nobis, qui Christi tui præséntiam in paupéribus, míseris et moléstis ignorávimus,^qnec vériti sumus Fílium tuum in his frátribus nostris."
+        },
+        "Vesper": {
+          "bitten_e": "Lasst uns beten zu Gott, von dem jede gute Gabe kommt:",
+          "bitten_r": "Wir bitten dich, erhöre uns.",
+          "bitten": "Du hast das Gesetz des Alten Bundes in Christus vollendet;^qgib, dass alle Menschen sein neues Gesetz erkennen.^pGib, dass alle Vorsteher der Kirche sich sorgen um das Reich Gottes;^qstärke in den Gemeinden den Geist der Zusammenarbeit.^pTu den Glaubensboten eine Tür auf in den Herzen ihrer Hörer;^qerwecke ihnen Mitarbeiter im Dienst der Verkündigung.^pWache über den Kindern und schütze sie;^qbewahre die Jugendlichen im Glauben.^pGedenke aller, die in Christus entschlafen sind;^qschenke ihnen das ewige Leben.",
+          "bitten_e_lat": "Magnificétur Deus Pater, qui, ex ore Fílii sui, simul orántibus quodcúmque petíssent se datúrum promísit. Qua promissióne freti eum implorémus:",
+          "bitten_r_lat": "Propítius esto, Dómine, pópulo tuo.",
+          "bitten_lat": "Dómine, qui legem, in monte Sínai Móysi datam, per Christum tuum perfecísti,^qda ut omnes eam in córdibus inscríptam agnóscant et fœ́deris instar custódiant.^pSollicitúdinem de frátribus sibi commíssis, præpósitis tríbue,^qet subditórum corda ad illos induc adiuvándos.^pMentem et cor missionariórum tua virtúte corróbora,^qet plúrimos óperis sócios ubíque éxcita illis.^pGrátiam tuam in púeris da cum annis aduléscere,^qet in iuvénibus amórem tuum cum probitáte morum profícere.^pMeménto ómnium fratrum nostrórum, qui in te obdormiérunt,^qatque ætérnæ vitæ eos redde consórtes."
+        }
+      },
+      "2": {
+        "Laudes": {
+          "bitten_e": "Gepriesen sei Jesus Christus, das ewige Wort des Vaters. Zu ihm lasst uns beten:",
+          "bitten_r": "Christus, höre uns.",
+          "bitten": "Gib, dass wir in den heiligen vierzig Tagen auf dich hören;^qbereite uns für das kommende Osterfest.^pDein Heiliger Geist belehre uns,^qdass wir nicht in Zweifel und Irrtum fallen.^pHilf uns, an dich zu glauben^qund aus diesem Glauben zu leben.^pLäutere uns in dieser Zeit der Buße,^qdamit unser Zeugnis glaubwürdig sei.",
+          "bitten_e_lat": "Grátias Deo Patri, qui Unigénitum suum, Verbum carnem factum, nobis dedit, ut sit noster cibus et vita. Eum deprecémur:",
+          "bitten_r_lat": "Verbum Christi hábitet abundánter in nobis.",
+          "bitten_lat": "Frequentióre verbi tui auditióne nos dúcere tempus hoc quadragesimále concéde,^qut Christum, Pascha nostrum, in magna sollemnitáte religiósius honorémus.^pSpíritus Sanctus tuus nos dóceat,^qut ad verum et bonum sequéndum dúbios et errántes hortémur.^pPræsta nobis, ut Christi tui áltius percipiámus mystérium,^qet vita nostra id clárius exprimámus.^pPurífica et rénova Ecclésiam tuam his diébus salútis,^qut magis ac magis testimónium tibi éadem reddat."
+        },
+        "Vesper": {
+          "bitten_e": "Lasst uns zu Jesus Christus beten, der am Kreuz alles an sich gezogen hat:",
+          "bitten_r": "Herr, erbarme dich.",
+          "bitten": "Lass den Menschen das Geheimnis des Kreuzes aufgehen,^qdamit sie die Gnade der Erlösung erkennen.^pGib das lebendige Wasser allen, die dürsten;^qstille ihr tiefstes Verlangen.^pBewege die Herzen derer, die sich von dir getrennt haben;^qlass sie zu dir zurückkehren.^pSei allen nahe, die Leid zu tragen haben;^qlass sie bei dir Zuflucht finden.^pNimm unsere Verstorbenen auf zu dir;^qlass sie die ewige Seligkeit verkosten.",
+          "bitten_e_lat": "Dóminum Iesum, qui exaltátus in cruce ómnia ad se traxit, magnificémus et mente pia exorémus:",
+          "bitten_r_lat": "Trahe ad te univérsa, Dómine.",
+          "bitten_lat": "Dómine, lux, quæ e mystério crucis tuæ emánat, áttrahat omnes,^qut te viam, veritátem et vitam agnóscant.^pDa cunctis te sitiéntibus aquam vivam,^qne sítiant in ætérnum.^pDoctrinárum et ártium cultóres illúmina,^qut hómines regno tuo effíciant aptióres.^pMove omnes, qui ob peccáta et scándala a te discessérunt,^qut rédeant ad te et in dilectióne tua permáneant.^pOmnes defúnctos nostros in cæléstes sedes admítte,^qut cum beáta María Vírgine sanctísque ómnibus collæténtur."
+        }
+      },
+      "3": {
+        "Laudes": {
+          "bitten_e": "Gepriesen sei Gott, der Vater, der durch seinen Geist in uns wirkt. Zu ihm lasst uns beten:",
+          "bitten_r": "Herr, sende uns deinen Geist.",
+          "bitten": "Gib, dass wir dankbar das Gute aus deiner Hand empfangen;^qhilf uns, auch Not und Leid in Geduld anzunehmen.^pWecke in uns das Verlangen nach deinem Wort;^qlass uns darüber nachsinnen alle Tage.^pGib uns die Kraft, auf Entbehrliches zu verzichten,^qdamit wir den notleidenden Brüdern helfen können.^pLehre uns beten^qund nimm unseren Lobpreis an.",
+          "bitten_e_lat": "Grátias agámus Deo Patri, qui per infusiónem et operatiónem Spíritus Sancti corda nostra puríficat et in caritáte confírmat. Ei súpplici prece dicámus:",
+          "bitten_r_lat": "Da nobis, Dómine, Spíritum Sanctum tuum.",
+          "bitten_lat": "Præsta nobis, ut bona de manu tua semper grati suscipiámus,^qet mala quoque cum patiéntia accipiámus.^pConcéde nobis non in magnis tantum rebus caritátem sectári,^qsed étiam in sólitis vitæ adiúnctis prótenus exercére.^pTríbue nobis a supérfluis abstinére,^qut frátribus indigéntibus opem ferre valeámus.^pDa nobis mortificatiónem Fílii tui in córpore nostro circumférre,^qqui nos vivificásti in córpore eius."
+        },
+        "Vesper": {
+          "bitten_e": "Lasst uns beten zu Gott, dem Vater, der seinen Sohn für die Welt dahingegeben hat:",
+          "bitten_r": "Schenk uns dein Erbarmen.",
+          "bitten": "Gott, du hast die Menschen nach deinem Bild geschaffen;^qgib, dass sie einander achten und ehren.^pSteh denen bei, die alles verlassen, um Christus nachzufolgen;^qmache ihre Hingabe vollkommen.^pFühre die Irrenden zur Wahrheit,^qdamit sie den erkennen, den du gesandt hast.^pLenke das Sinnen der Völker^qund steh den Regierenden bei.^pNimm unsere Verstorbenen auf in deine Herrlichkeit,^qdamit sie in Ewigkeit dich preisen.",
+          "bitten_e_lat": "Glória et honor Deo, qui fœdus novum et ætérnum cum pópulo suo pépigit in sánguine Christi, et rénovat in sacraménto altáris. Sic eum rogémus:",
+          "bitten_r_lat": "Bénedic, Dómine, pópulum tuum.",
+          "bitten_lat": "Dírige, Dómine, in voluntáte tua, mentes populórum atque regéntium,^qut sincére ad commúne ómnium bonum annitántur.^pAuge devotiónem eórum, qui, relíctis ómnibus, secúti sunt Christum,^qut præclárum homínibus sanctitátis Ecclésiæ testimónium prǽbeant et exémplum.^pQui cunctos hómines ad imáginem tuam fecísti,^qfac ut ab iniústa inæqualitáte abhórreant.^pOmnes errántes ad tuam reduc amicítiam et veritátem,^qet doce nos illis adiuméntum impéndere.^pDa defúnctis in tuam glóriam introíre,^qteque in ætérnum collaudáre."
+        }
+      },
+      "4": {
+        "Laudes": {
+          "bitten_e": "Gepriesen sei Jesus Christus, unser Heiland und Erlöser. Zu ihm lasst uns beten:",
+          "bitten_r": "Herr, gedenke unser.",
+          "bitten": "Du bist der Quell des lebendigen Wassers;^qnach dir verlangt unsere Seele.^pDu hast uns die Kirche als Sakrament des Heiles geschenkt;^qlehre uns ihr Geheimnis tiefer verstehen.^pDu hast uns als deine Jünger berufen;^qhilf uns, dir heute nachzufolgen.^pVergib uns unsere Sünden^qund heile uns.",
+          "bitten_e_lat": "Pietátem Dei celebrémus, qui in Christo sese revelávit. Ex corde ei supplicémus:",
+          "bitten_r_lat": "Meménto nostri, Dómine, quia fílii tui sumus.",
+          "bitten_lat": "Da nos mystérium Ecclésiæ áltius percípere,^qut éadem sit nobis et ómnibus efficácius salútis sacraméntum.^pFac nos, hóminis amátor, humánæ civitátis increménta fovére,^qatque in ómnibus regnum tuum inténdere.^pPræsta nobis, ut ad Christum sitiéntes currámus,^qqui fontem aquæ vivæ nobis se prǽbuit.^pDimítte nobis iniquitátes nostras,^qet gressus nostros dírige in viam iustítiæ et sinceritátis."
+        },
+        "Vesper": {
+          "bitten_e": "Lasst uns beten zu Jesus Christus, der uns sein Erbarmen schenkt:",
+          "bitten_r": "Christe, eleison.",
+          "bitten": "Du hast dein Leben hingegeben für alle;^qgib, dass alle sich zu dir bekehren.^pErneuere die Gläubigen durch dein Wort und dein Sakrament,^qhilf ihnen im Leben verwirklichen, was sie im Glauben empfangen.^pGedenke der Bischöfe, Priester und Diakone;^qentfache in ihnen die Gnade, die sie durch Handauflegung empfangen haben.^pSteh denen bei, die in dieser Bußzeit Maß halten im Genuss der irdischen Güter;^qöffne ihr Herz für die Not der Armen.^pErbarme dich derer, die heute gestorben sind;^qgib ihnen die ewige Seligkeit.",
+          "bitten_e_lat": "Dei misericórdiam celebrémus, qui nos illúminat grátia Spíritus Sancti, ut opéribus iustítiæ ac fídei luceámus. Orémus, dicéntes:",
+          "bitten_r_lat": "Vivífica, Dómine, pópulum a Christo redémptum.",
+          "bitten_lat": "Dómine, fons et auctor omnis sanctitátis, epíscopos, presbýteros et diáconos árctius per mystérium eucharísticum Christo coniúnge,^qut grátiam, per impositiónem mánuum accéptam, magis in dies resúscitent.^pDoce fidéles tuos digne et actuóse mensam verbi et córporis Christi frequentáre,^qut, quod fide et sacraménto percepérunt, vita et móribus téneant.^pDignitátem cuiúsque hóminis, Fílii tui sánguine redémpti, te donánte, agnoscámus,^qut libertátem et consciéntiam fratrum nostrórum observémus.^pDa, ut hómines immódicam terréstrium bonórum cupídinem moderéntur,^qet aliórum inópiæ cónsulant.^pMiserére fidélium, quos de hac vita ad te hódie vocásti,^qeísque donum beatitúdinis ætérnæ concéde."
+        }
+      },
+      "5": {
+        "Laudes": {
+          "bitten_e": "Gepriesen sei Jesus Christus, der uns durch seinen Tod und seine Auferstehung erlöst hat. Zu ihm lasst uns beten:",
+          "bitten_r": "Herr, erbarme dich unser.",
+          "bitten": "Du bist hinaufgezogen nach Jerusalem, um für uns zu leiden und so in deine Herrlichkeit einzugehen;^qführe uns durch die Leiden dieser Zeit zum ewigen Osterfest.^pAus deiner geöffneten Seite flossen Blut und Wasser;^qheilige uns durch deine Sakramente.^pDu hast dem Schächer um seiner Buße willen Verzeihung erwiesen;^qvergib auch uns unsere Sünden.^pDurch dich wurde das Kreuz zum Baum des Lebens;^qschenke uns seine Frucht, das ewige Leben.",
+          "bitten_e_lat": "Christum salvatórem, qui per mortem et resurrectiónem suam nos redémit, implorémus:",
+          "bitten_r_lat": "Dómine, miserére nostri.",
+          "bitten_lat": "Qui Ierúsalem ascendísti ad passiónem subeúndam, ut intráres in glóriam,^qperduc Ecclésiam tuam in Pascha æternitátis.^pQui, in cruce exaltátus, láncea mílitis transfígi voluísti,^qsana vúlnera nostra.^pQui crucem tuam árborem vitæ constituísti,^qfructus eiúsdem baptísmate renátis largíre.^pQui, in ligno pendens, latróni pæniténti pepercísti,^qnobis peccatóribus ignósce."
+        },
+        "Vesper": {
+          "bitten_e": "Lasst uns beten zu Christus, dem Heiland der Welt, der den Tod vernichtet und das Leben neu geschaffen hat:",
+          "bitten_r": "Christus, erbarme dich.",
+          "bitten": "Du hast das Reich Gottes verkündet und zur Umkehr aufgerufen;^qerneuere deine Kirche im Geist des Evangeliums.^pDu hast ein Herz gehabt für die Armen und Bedrängten;^qsteh denen bei, die keinen Helfer haben.^pDu berufst immer wieder Menschen in deine Kirche;^qerleuchte die Katechumenen, die sich auf die Taufe vorbereiten.^pDu willst nicht den Tod des Sünders, sondern dass er lebe;^qerbarme dich derer, die mit uns in diesen vierzig Tagen Buße tun.^pNimm unsere Verstorbenen gnädig auf^qund lass sie teilhaben an deiner Auferstehung.",
+          "bitten_e_lat": "Salvatórem humáni géneris adorémus, qui mortem moriéndo destrúxit et vitam resurgéndo reparávit. Humíliter postulémus:",
+          "bitten_r_lat": "Sanctífica pópulum, quem sánguine tuo redemísti.",
+          "bitten_lat": "Redémptor noster, da nos passióni tuæ per pæniténtiam plénius adhærére,^qut resurrectiónis glóriam consequámur.^pPræsta, ut Matris tuæ, solatrícis afflictórum, protectiónem assequámur,^qmærentésque confortémus ea consolatióne, qua et ipsi a te recreámur.^pFidélibus concéde passiónis tuæ in ærúmnis suis esse partícipes,^qut salutáre tuum in seípsis maniféstent.^pQui humiliásti teípsum, factus obœ́diens usque ad mortem, mortem autem crucis,^qda servis tuis obœdiéntiam et patiéntiam.^pCórpori claritátis tuæ defúnctos configuráre dignéris,^qnosque aliquándo eórum redde consórtes."
+        }
+      },
+      "6": {
+        "Laudes": {
+          "bitten_e": "Gepriesen sei Jesus Christus, unser Herr und Erlöser. Zu ihm lasst uns beten:",
+          "bitten_r": "Herr, komm uns zu Hilfe.",
+          "bitten": "Schenk uns ein reines Herz;^qhilf uns, aus deinem Heiligen Geist zu leben.^pÖffne unsere Augen für die Not der Menschen^qund zeige uns, wie wir ihnen helfen können.^pGib, dass wir nach deinem Brot verlangen,^qdas du uns schenkst als Speise für das ewige Leben.^pErhöre die Fürbitte deiner heiligen Mutter, zu der wir Sünder unsere Zuflucht nehmen,^qund vergib uns unsere Schuld.",
+          "bitten_e_lat": "Semper et ubíque grátias Christo agámus, qui salvat nos, eíque fidénter supplicémus:",
+          "bitten_r_lat": "Súbveni nobis, Dómine, grátia tua.",
+          "bitten_lat": "Tríbue nos córpora nostra incontamináta serváre,^qut possit Spíritus Sanctus illic habitáre.^pDoce nos iam mane pro frátribus nosmetípsos impéndere,^qet tota die in ómnibus tuam implére voluntátem.^pDa nobis quǽrere panem, qui permáneat in vitam ætérnam,^qquem tu præstas nobis.^pMater tua, refúgium peccatórum, pro nobis intercédat,^qut peccátis nostris benígnus ignóscas."
+        }
+      }
+    }
+  },
+  "w": {
+    "1": {
+      "0": {
+        "each": {
+          "comm_1": "Maria",
+          "oration": "Herr, unser Gott, in der Heiligen Familie hast du uns ein leuchtendes Vorbild geschenkt. Gib unseren Familien die Gnade, dass auch sie in Frömmigkeit und Eintracht leben und einander in der Liebe verbunden bleiben. Führe uns alle zur ewigen Gemeinschaft in deinem Vaterhaus.^ORV",
+          "oration_lat": "Deus, qui præclára nobis sanctæ Famíliæ dignátus es exémpla præbére, concéde propítius, ut, domésticis virtútibus caritatísque vínculis illam sectántes, in lætítia domus tuæ prǽmiis fruámur ætérnis.^ORlV"
+        },
+        "ErsteV": {
+          "button": "1. Vesper zum Fest der Hl. Familie",
+          "hymn_1": 3241.0,
+          "psalm1": 113.0,
+          "psalm2": 147.2,
+          "psalm3": 152.0,
+          "ant1": "Josef, der Sohn Jakobs, war der Gemahl Marias. Von ihr wurde Jesus geboren, der Christus genannt wird.",
+          "ant2": "Josef, Sohn Davids, fürchte dich nicht, Maria als deine Frau zu dir zu nehmen; denn das Kind, das sie erwartet, ist vom Heiligen Geist.",
+          "ant3": "Die Hirten eilten hin und fanden Maria und Josef und das Kind, das in einer Krippe lag.",
+          "les_buch": "›2°Kor",
+          "les_stelle": "8,9",
+          "les_text": "Ihr wisst, was Jesus Christus, unser Herr, in seiner Liebe getan hat: Er, der reich war, wurde euretwegen arm, um euch durch seine Armut reich zu machen.",
+          "les_text_neu": "Ihr kennt die Gnade unseres Herrn Jesus Christus: Er, der reich war, wurde euretwegen arm, um euch durch seine Armut reich zu machen.",
+          "resp1": "Das Wort ist Fleisch geworden und hat unter uns gewohnt.",
+          "resp2": "Halleluja,°halleluja.",
+          "resp3": "Aus seiner Fülle haben wir empfangen, Gnade über Gnade.",
+          "antev": "Der Knabe Jesus blieb in Jerusalem, und seine Eltern suchten ihn: Sie fanden ihn im Tempel.",
+          "bitten_e": "Lasst uns beten zu Christus, dem Sohn des lebendigen Gottes, der sich nicht gescheut hat, Kind einer menschlichen Familie zu werden:",
+          "bitten_r": "Erhöre uns, Christus.",
+          "bitten": "Du warst als Kind Maria und Josef untertan;^qsegne die Kinder unserer Familien.^pDu hast deine Eltern geliebt und wurdest von ihnen geliebt;^qgib, dass Eltern und Kinder einander lieben.^pDu wolltest allezeit in dem sein, was deines Vaters ist;^qgib, dass in jedem Haus dein himmlischer Vater geehrt wird.^pDu wurdest von deinen Eltern gesucht und am dritten Tag im Hause Gottes wiedergefunden;^qrate den Eltern, die sich Sorge machen um ihre Kinder.^pDu hast Maria und Josef in die Herrlichkeit des Himmels heimgeholt;^qnimm unsere Verstorbenen auf in die Gemeinschaft der Seligen.",
+          "hymn_1_lat": 3241.2,
+          "ant1_lat": "Iacob autem génuit Ioseph virum Maríæ, de qua natus est Iesus, qui vocátur Christus.",
+          "ant2_lat": "Pastóres venérunt festinántes, et invenérunt Maríam et Ioseph et Infántem pósitum in præsépio.",
+          "ant3_lat": "Pastóres venérunt festinántes, et invenérunt Maríam et Ioseph et Infántem pósitum in præsépio.",
+          "resp1_lat": "Verbum caro factum est.",
+          "resp2_lat": "Allelúia,°allelúia.",
+          "resp3_lat": "Et habitávit in nobis.",
+          "anta_lat": "Ecce ángelus Dómini appáret in somnis Ioseph dicens: Surge et áccipe púerum et matrem eius et fuge in Ægýptum et esto ibi, usque dum dicam tibi.",
+          "antb_lat": "Postquam impléti sunt dies purgatiónis eórum secúndum legem Móysis, tulérunt illum in Hierosólymam ut sísterent Dómino.",
+          "antc_lat": "Pastóres venérunt festinántes, et invenérunt Maríam et Ioseph et Infántem pósitum in præsépio.",
+          "bitten_e_lat": "Fílium Dei vivi, qui fílius humánæ famíliæ fíeri dignátus est, adorémus, ipsi confiténtes:",
+          "bitten_r_lat": "Tu es, Dómine, exémplar et salvátor ómnium.",
+          "bitten_lat": "Christe, per mystérium subiectiónis tuæ erga Maríam et Ioseph,^qdoce omnes reveréntiam et obœdiéntiam erga eos qui legítime præsunt.^pQui paréntes amásti et ab ipsis amátus es,^qomnes famílias in pace et mútua caritáte constítue.^pTu, qui studiósus fuísti eórum, quæ tui sunt Patris,^qpræsta ut in omni domo Deus honorétur.^pChriste, qui ab ánxiis paréntibus tértia die in domo Patris invéntus es,^qdoce omnes quǽrere primum regnum Dei.^pChriste, qui Maríam et Ioseph tecum in cælésti glória consociásti,^qadmítte defúnctos in famíliam beatórum.",
+          "les_text_lat": "Scitis grátiam Dómini nostri Iesu Christi, quóniam propter vos egénus factus est, cum esset dives, ut illíus inópia vos dívites essétis."
+        },
+        "Invitatorium": {
+          "ant0": "Christus, den Sohn Gottes, der Maria und Josef gehorsam war – kommt, wir beten ihn an!",
+          "ant0_lat": "Christum, Dei Fílium, Maríæ et Ioseph súbditum, veníte adorémus."
+        },
+        "Lesehore": {
+          "psalm1": 24.0,
+          "psalm2": 46.0,
+          "psalm3": 87.0,
+          "ant1": "Die Eltern brachten Jesus in den Tempel. Simeon nahm das Kind in seine Arme und lobte Gott für seine Huld.",
+          "ant2": "Die Weisen gingen in das Haus und fanden das Kind und Maria, seine Mutter.",
+          "ant3": "Noch in der Nacht stand Josef auf und floh mit dem Kind und seiner Mutter nach Ägypten.",
+          "versikel0": "Der Herr hat kundgemacht sein Heil.^ö",
+          "versikel1": "Vor den Augen der Völker.^ö",
+          "les_buch": "Aus dem Brief an die Epheser.",
+          "les_stelle": "5,21–6,4",
+          "les_text": "^hChristliches Leben in Familie und Gesellschaft^pEiner ordne sich dem andern unter in der gemeinsamen Ehrfurcht vor Christus!^pIhr Frauen, ordnet euch euren Männern unter wie dem Herrn (Christus); denn der Mann ist das Haupt der Frau, wie auch Christus das Haupt der Kirche ist; er hat sie gerettet, denn sie ist sein Leib. Wie aber die Kirche sich Christus unterordnet, sollen sich die Frauen in allem den Männern unterordnen.^pIhr Männer, liebt eure Frauen, wie Christus die Kirche geliebt und sich für sie hingegeben hat, um sie im Wasser und durch das Wort rein und heilig zu machen. So will er die Kirche herrlich vor sich erscheinen lassen, ohne Flecken, Falten oder andere Fehler; heilig soll sie sein und makellos. Darum sind die Männer verpflichtet, ihre Frauen zu lieben wie ihren eigenen Leib. Wer seine Frau liebt, liebt sich selbst. Keiner hat je seinen eigenen Leib gehasst, sondern er nährt und pflegt ihn, wie auch Christus die Kirche. Denn wir sind Glieder seines Leibes. Darum wird der Mann Vater und Mutter verlassen und sich an seine Frau binden, und die zwei werden EIN Fleisch sein. Dies ist ein tiefes Geheimnis; ich beziehe es auf Christus und die Kirche. Was euch angeht, so liebe jeder von euch seine Frau wie sich selbst, die Frau aber ehre den Mann.^pIhr Kinder, gehorcht euren Eltern, wie es vor dem Herrn recht ist! Ehre deinen Vater und deine Mutter: das ist ein Hauptgebot, und ihm folgt die Verheißung: damit es dir gut geht und du lange lebst auf der Erde. Ihr Väter, reizt eure Kinder nicht zum Zorn, sondern erzieht sie in der Zucht und Weisung des Herrn!",
+          "resp1": "Ihr Kinder, gehorcht euren Eltern, wie es vor dem Herrn recht ist;",
+          "resp2": "ehre deinen Vater und deine Mutter!",
+          "resp3": "Jesus kehrte mit Maria und Josef nach Nazaret zurück und war ihnen gehorsam.",
+          "patr_autor": "Paul VI. (†°1978)",
+          "patr_werk": "Aus seiner Ansprache in Nazaret.",
+          "patr_text": "^hDas Beispiel von Nazaret^pDas Haus von Nazaret ist eine Schule, in der man beginnt, Christi Leben zu verstehen. Es ist die Schule des Evangeliums.^pHier nämlich lernen wir vor allem sehen, hören, betrachten und verstehen, welch große und geheime Kraft in dieser schlichten, demütigen und köstlichen Offenbarung des Sohnes Gottes steckt. Nach und nach lernen wir vielleicht auch, ihm nachzufolgen.^pHier lernen wir mit Leichtigkeit die Weise und den Weg der Christuserkenntnis. Hier wird uns besonders klar, wie sehr man auf die ganze Umwelt achten muss, in der sein Wohnen unter uns eingebettet ist: Zeit, Ort, Gebräuche, Sprache, heilige Riten und endlich alles, wodurch Jesus sich der Welt offenbarte. All das kommt hier zu Wort; hier erhält es für uns sein Gewicht. Hier in dieser Schule sieht man, wie notwendig eine geistliche Ordnung ist, wenn man der Lehre des Evangeliums folgen und Jünger Christi sein möchte.^pWie gerne wäre ich wieder jung und vertraute mich dieser demütigen und doch so erhabenen Schule von Nazaret an. Was für eine Freude wäre es, nach dem Beispiel Marias mit neuem Eifer wahre Lebensweisheit und Einsicht in die göttliche Wahrheit zu erwerben!^pAber ich bin nur als Pilger hier und muss auf meinen Wunsch verzichten, hier in diesem Haus den niemals abgeschlossenen Unterricht in der Erkenntnis des Evangeliums fortzusetzen. Doch möchte ich nicht weggehen, ohne schnell und gleichsam verstohlen von dem Lehrstuhl Nazaret aus einige mahnende Winke zu geben.^pDie Schule von Nazaret lehrt zuerst das Schweigen. Möge in uns eine große Wertschätzung des Schweigens lebendig werden. Denn in dem lauten und allzu aufgeregten Leben von heute, in dem wir von so vielen lauten Stimmen, von Lärm und Geschrei bedrängt werden, ist das Schweigen eine bewundernswerte und notwendige Geisteshaltung.^pDas Schweigen von Nazaret lehre uns, den Geist auf gute Gedanken zu lenken, auf das innere Leben zu achten und bereitwillig auf die geheimen Ratschlüsse und die Anweisungen der wahren Lehrer zu hören; es lehre uns, wie notwendig und wertvoll die innere Vorbereitung ist, das Studium, die Betrachtung, die Ordnung des persönlichen geistlichen Lebens und das Gebet, das Gott allein im Verborgenen sieht {1#vgl.°Mt 6,4}.^pHier lernen wir, wie wichtig das häusliche Leben ist. Nazaret gemahne uns an das, was eine Familie ist, an ihre Gemeinschaft in der Liebe, an ihre strahlende Schönheit, ihre Heiligkeit und Unverletzlichkeit, an ihre durch nichts zu ersetzende Bedeutung. Nazaret zeige uns, wie kostbar die Unterweisung in der Familie ist, eine Unterweisung, die durch nichts ersetzt werden kann. Nazaret lehre uns, welche Aufgabe die Familie ihrer Natur nach in der Ordnung der Gesellschaft hat.^pSchließlich lernen wir hier die zuchtvolle Ordnung der Arbeit.^pO Lehrstuhl von Nazaret, Haus des Handwerkersohns! Hier möchte ich das strenge, aber erlösende Gesetz menschlicher Arbeit erkennen und feiern. Ich möchte die Würde der Arbeit hier so herausstellen, dass alle ihrer inne werden. Unter diesem Dach erinnere ich daran, dass die Arbeit nicht Selbstzweck ist, dass sie vielmehr Freiheit und Wert nicht nur aus ihrer sogenannten wirtschaftlichen Bedeutung bezieht, sondern auch aus den Wirklichkeiten, durch die sie auf ihr erhabenes Ziel ausgerichtet wird. Schließlich möchte ich hier den Arbeitern der ganzen Welt Glück wünschen und ihnen das große Vorbild zeigen, den göttlichen Bruder, den Wortführer all der gerechten Anliegen, die sie betreffen, Christus, unseren Herrn.",
+          "patr_resp1": "Freut euch, lasst euch erneuern und ermahnen, seid eines Sinnes und lebt in Frieden.",
+          "patr_resp2": "Singt und jubelt aus vollem Herzen zum Lob des Herrn.",
+          "patr_resp3": "Tut eure Arbeit gern, als sei sie für den Herrn, nicht für die Menschen.",
+          "hymn_1_lat": 3241.1,
+          "ant1_lat": "Cum indúcerent púerum Iesum paréntes eius, accépit eum Símeon in ulnas suas et benedíxit Deum.",
+          "ant2_lat": "Magi, intrántes domum, invenérunt Púerum cum María matre eius.",
+          "ant3_lat": "Consúrgens Ioseph accépit Púerum et Matrem eius nocte, et secéssit in Ægýptum.",
+          "versikel0_lat": "Ponam univérsos fílios tuos doctos a Dómino.",
+          "versikel1_lat": "Et multitúdinem pacis fíliis tuis."
+        },
+        "Vigil": {
+          "les_buch": "Aus dem heiligen Evangelium nach Johannes.",
+          "les_stelle": "20,19-31"
+        },
+        "Laudes": {
+          "psalm1": 63.0,
+          "psalm2": 160.0,
+          "psalm3": 149.0,
+          "ant1": "Jahr für Jahr zogen die Eltern Jesu hinauf nach Jerusalem, um dort Ostern zu feiern.",
+          "ant2": "Das Kind wuchs heran und wurde kräftig; Gott erfüllte es mit Weisheit, und seine Gnade ruhte auf ihm.",
+          "ant3": "Josef und Maria staunten über die Worte, die man über Jesus sagte.",
+          "les_buch": "›Dtn",
+          "les_stelle": "5,16",
+          "les_text": "Ehre deinen Vater und deine Mutter, wie es dir der Herr, dein Gott, zur Pflicht gemacht hat, damit du lange lebst und es dir gut geht in dem Land, das der Herr, dein Gott, dir gibt.",
+          "les_text_neu": "Ehre deinen Vater und deine Mutter, wie es dir der HERR, dein Gott, geboten hat, damit du lange lebst und es dir gut geht in dem Land, das der HERR, dein Gott, dir gibt!",
+          "resp1": "Christus, du Sohn des lebendigen Gottes,",
+          "resp2": "erbarme°dich°unser.",
+          "resp3": "Du warst Maria und Josef gehorsam.",
+          "antev": "Herr, lenke unsre Schritte auf den Weg des Friedens.",
+          "bitten_e": "Gepriesen sei Christus, der Sohn des lebendigen Gottes, der sich nicht gescheut hat, Kind einer menschlichen Familie zu werden. Zu ihm lasst uns beten:",
+          "bitten_r": "Erhöre uns, Christus.",
+          "bitten": "Du warst Maria und Josef untertan;^qhilf uns, einander zu dienen.^pDeine Mutter bewahrte alle deine Worte in ihrem Herzen;^qgib, dass wir heute dein Wort hören und es bewahren.^pDu wurdest Sohn eines Zimmermanns genannt und hast mit deinen Händen gearbeitet;^qsegne das Werk unserer Hände.^pIn der Familie zu Nazaret bist du herangewachsen, und Gott und die Menschen hatten Gefallen an dir;^qgib, dass auch unser Leben Gott und den Menschen gefallen kann.",
+          "hymn_1_lat": 3241.2,
+          "ant1_lat": "Ibant paréntes Iesu per omnes annos in Ierúsalem in die sollémni Paschæ.",
+          "ant2_lat": "Puer autem crescébat et confortabátur plenus sapiéntia, et grátia Dei erat in illo.",
+          "ant3_lat": "Erant pater eius et mater mirántes super iis, quæ dicebántur de illo.",
+          "resp1_lat": "Christe, Fili Dei vivi,",
+          "resp2_lat": "miserére nobis.",
+          "resp3_lat": "Qui Maríæ et Ioseph súbditus fuísti.",
+          "anta_lat": "Ecce appáret ángelus Dómini in somnis Ioseph in Ægýpto dicens: Surge et áccipe púerum et matrem eius et vade in terram Israel; defúncti sunt enim, qui quærébant ánimam púeri.",
+          "antb_lat": "Erant pater et mater Iesu mirántes super his quæ dicebántur de illo.^Lö",
+          "antc_lat": "Fili, quid fecísti nobis sic? Ecce pater tuus et ego doléntes quærebámus te. Quid est quod me quærebátis? Nesciebátis quia in his quæ Patris mei sunt, opórtet me esse?",
+          "bitten_e_lat": "Fílium Dei vivi, qui fílius humánæ famíliæ fíeri dignátus est, adorémus, ipsum exorántes:",
+          "bitten_r_lat": "Iesu, factus obœ́diens, sanctífica nos.",
+          "bitten_lat": "Iesu, Verbum ætérnum Patris, qui súbditum Maríæ et Ioseph te fecísti,^qdoce nos humilitátem.^pMagíster noster, cuius facta et verba mater tua in corde suo servábat,^qpræsta, ut audiámus verbum tuum et custodiámus illud in corde puro et bono.^pChriste, faber mundi, qui fílium fabri te vocári voluísti,^qdoce nos sedulitátem in ópere.^pIesu, qui in família Názareth sapiéntia, ætáte et grátia apud Deum et hómines proficiébas,^qfac, ut crescámus per ómnia in te, qui es Caput nostrum.",
+          "les_text_lat": "Honóra patrem tuum et matrem, sicut præcépit tibi Dóminus Deus tuus, ut longo vivas témpore et bene sit tibi in terra, quam Dóminus Deus tuus datúrus est tibi."
+        },
+        "Terz": {
+          "les_buch": "›vgl.°Kol",
+          "les_stelle": "3,12–13",
+          "les_text": "Bekleidet euch mit aufrichtigem Erbarmen, mit Güte, Demut, Milde, Geduld! Ertragt euch gegenseitig und vergebt einander, wenn einer dem anderen etwas vorzuwerfen hat! Wie der Herr euch vergeben hat, so vergebt auch ihr!",
+          "les_text_neu": "Bekleidet euch mit innigem Erbarmen, Güte, Demut, Milde, Geduld! Ertragt einander und vergebt einander, wenn einer dem anderen etwas vorzuwerfen hat! Wie der Herr euch vergeben hat, so vergebt auch ihr!",
+          "resp0": "Herr, zeige uns deine Wege.",
+          "resp1": "Auf deinen Pfaden wollen wir gehen.",
+          "resp0_lat": "Dóminus vias suas docébit nos.",
+          "resp1_lat": "Et ambulábimus in sémitis eius.",
+          "les_text_lat": "Indúite vos sicut elécti Dei, sancti et dilécti, víscera misericórdiæ, benignitátem, humilitátem, mansuetúdinem, patiéntiam, supportántes ínvicem et donántes vobis ipsis si quis advérsus áliquem habet querélam; sicut et Dóminus donávit vobis, ita et vos."
+        },
+        "Sext": {
+          "les_buch": "›Kol",
+          "les_stelle": "3,14–15",
+          "les_text": "Vor allem liebt einander, denn die Liebe ist das Band, das alles zusammenhält und vollkommen macht. In eurem Herzen herrsche der Friede Christi; dazu seid ihr berufen als Glieder des einen Leibes. Seid dankbar!",
+          "les_text_neu": "Vor allem bekleidet euch mit der Liebe, die das Band der Vollkommenheit ist! Und der Friede Christi triumphiere in euren Herzen. Dazu seid ihr berufen als Glieder des einen Leibes. Seid dankbar!",
+          "resp0": "Arm bin ich und mit Mühen beladen von Jugend an.",
+          "resp1": "Ich habe mich erniedrigt und unter meine Last gebeugt.",
+          "resp0_lat": "Pauper sum ego et in labóribus a iuventúte mea.",
+          "resp1_lat": "Exaltátus autem humiliátus sum et conturbátus.",
+          "les_text_lat": "Super ómnia hæc caritátem, quod est vínculum perfectiónis. Et pax Christi dominétur in córdibus vestris, ad quam et vocáti estis in uno córpore. Et grati estóte."
+        },
+        "Non": {
+          "les_buch": "›Kol",
+          "les_stelle": "3,17",
+          "les_text": "Alles, was ihr in Worten und Werken tut, geschehe im Namen des Herrn; durch ihn dankt Gott, dem Vater!",
+          "les_text_neu": "Alles, was ihr in Wort oder Werk tut, geschehe im Namen Jesu, des Herrn. Dankt Gott, dem Vater, durch ihn!",
+          "resp0": "All deine Söhne werden Schüler des Herrn sein.",
+          "resp1": "Fülle des Friedens wird ihnen zuteil.",
+          "resp0_lat": "Ponam univérsos fílios tuos doctos a Dómino.",
+          "resp1_lat": "Et multitúdinem pacis fíliis tuis.",
+          "les_text_lat": "Omne, quodcúmque fácitis in verbo aut in ópere, ómnia in nómine Dómini Iesu grátias agéntes Deo Patri per ipsum."
+        },
+        "Vesper": {
+          "psalm1": 122.0,
+          "psalm2": 127.0,
+          "psalm3": 152.0,
+          "ant1": "Nach drei Tagen fanden sie Jesus im Tempel; er saß mitten unter den Lehrern, hörte ihnen zu und stellte Fragen.",
+          "ant2": "Jesus zog mit ihnen hinab und kam nach Nazaret – und er war ihnen untertan.",
+          "ant3": "Jesus wuchs heran, und seine Weisheit nahm zu; Gott und die Menschen fanden Gefallen an ihm.",
+          "les_buch": "›Phil",
+          "les_stelle": "2,6–7",
+          "les_text": "Christus Jesus war Gott gleich, hielt aber nicht daran fest, wie Gott zu sein, sondern er entäußerte sich und wurde wie ein Sklave und den Menschen gleich. Sein Leben war das eines Menschen.",
+          "resp1": "Er musste in allem seinen Brüdern gleich sein, um Barmherzigkeit zu lernen.",
+          "resp2": "Er ist auf Erden erschienen, ein Mensch unter Menschen.",
+          "antev": "Kind, wie konntest du uns das antun! Dein Vater und ich haben dich voll Angst gesucht. – Warum habt ihr mich gesucht? Wusstet ihr nicht, dass ich in dem sein muss, was meines Vaters ist?",
+          "bitten_e": "Lasst uns beten zu Christus, dem Sohn des lebendigen Gottes, der sich nicht gescheut hat, Kind einer menschlichen Familie zu werden:",
+          "bitten_r": "Erhöre uns, Christus.",
+          "bitten": "Du warst als Kind Maria und Josef untertan;^qsegne die Kinder unserer Familien.^pDu hast deine Eltern geliebt und wurdest von ihnen geliebt;^qgib, dass Eltern und Kinder einander lieben.^pDu wolltest allezeit in dem sein, was deines Vaters ist;^qgib, dass in jedem Haus dein himmlischer Vater geehrt wird.^pDu wurdest von deinen Eltern gesucht und am dritten Tag im Hause Gottes wiedergefunden;^qrate den Eltern, die sich Sorge machen um ihre Kinder.^pDu hast Maria und Josef in die Herrlichkeit des Himmels heimgeholt;^qnimm unsere Verstorbenen auf in die Gemeinschaft der Seligen.",
+          "hymn_1_lat": 3241.4,
+          "ant1_lat": "Post tríduum invenérunt Iesum in templo, sedéntem in médio doctórum, audiéntem et interrogántem eos.",
+          "ant2_lat": "Descéndit Iesus cum eis, et venit Názareth, et erat súbditus illis.",
+          "ant3_lat": "Et Iesus proficiébat sapiéntia et ætáte et grátia apud Deum et hómines.",
+          "resp1_lat": "Débuit per ómnia frátribus similári,",
+          "resp2_lat": "ut miséricors fíeret.",
+          "resp3_lat": "In terris visus est, et cum homínibus conversátus est.",
+          "anta_lat": "Véniens Ioseph habitávit in civitáte, quæ vocátur Názareth, ut adimplerétur quod dictum est per prophétas: Nazarǽus vocábitur.",
+          "antb_lat": "Puer Iesus crescébat et confortabátur plenus sapiéntia: et grátia Dei erat super illum.",
+          "antc_lat": "Descéndit Iesus cum eis et venit Názareth et erat súbditus illis. Et Mater eius conservábat ómnia verba in corde suo.",
+          "bitten_e_lat": "Fílium Dei vivi, qui fílius humánæ famíliæ fíeri dignátus est, adorémus, ipsi confiténtes:",
+          "bitten_r_lat": "Tu es, Dómine, exémplar et salvátor ómnium.",
+          "bitten_lat": "Christe, per mystérium subiectiónis tuæ erga Maríam et Ioseph,^qdoce omnes reveréntiam et obœdiéntiam erga eos qui legítime præsunt.^pQui paréntes amásti et ab ipsis amátus es,^qomnes famílias in pace et mútua caritáte constítue.^pTu, qui studiósus fuísti eórum, quæ tui sunt Patris,^qpræsta ut in omni domo Deus honorétur.^pChriste, qui ab ánxiis paréntibus tértia die in domo Patris invéntus es,^qdoce omnes quǽrere primum regnum Dei.^pChriste, qui Maríam et Ioseph tecum in cælésti glória consociásti,^qadmítte defúnctos in famíliam beatórum.",
+          "les_text_lat": "Christus Iesus, cum in forma Dei esset, non rapínam arbitrátus est esse se æquálem Deo, sed semetípsum exinanívit formam servi accípiens, in similitúdinem hóminum factus; et hábitu invéntus ut homo."
+        }
+      }
+    },
+    "2": {
+      "0": {
+        "each": {
+          "oration": "Allmächtiger, ewiger Gott, du erleuchtest alle, die an dich glauben. Offenbare dich den Völkern der Erde, damit alle Menschen das Licht deiner Herrlichkeit schauen.^ORV",
+          "oration_lat": "Omnípotens sempitérne Deus, fidélium splendor animárum, dignáre mundum glória tua implére benígnus, et cunctis pópulis appáre per tui lúminis claritátem.^ORlV"
+        },
+        "ErsteV": {
+          "ant1": "Durch das Wort hat die Jungfrau empfangen. Jungfrau blieb sie. Als Jungfrau gebar sie den König der Könige.",
+          "ant2": "Freut euch mit Jerusalem; denn der Herr leitet den Frieden zu ihr wie einen Strom.",
+          "ant3": "Gottes Sohn ist uns geboren: Gott von Gott, Licht vom Licht vor aller Zeit.",
+          "les_buch": "›1°Joh",
+          "les_stelle": "5,20",
+          "les_text": "Wir wissen: Der Sohn Gottes ist gekommen, und er hat uns Einsicht geschenkt, damit wir den Wahren erkennen. Und wir sind in diesem Wahren, in seinem Sohn Jesus Christus. Er ist der wahre Gott und das ewige Leben.",
+          "resp1": "Das Wort ist Fleisch geworden und hat unter uns gewohnt.",
+          "resp2": "Halleluja,°halleluja.",
+          "resp3": "Aus seiner Fülle haben wir empfangen, Gnade über Gnade.",
+          "antev": "Voll der Gnade bist du, Jungfrau Maria, denn ein großes Geheimnis hat dein Schoß getragen.^ö",
+          "bitten_e": "Lasst uns beten zu unserem Herrn Jesus Christus, der sich selbst erniedrigte und Mensch geworden ist:",
+          "bitten_r": "Herr, durch deine Geburt komm uns zu Hilfe.",
+          "bitten": "Mit deinem Kommen hast du die neue Weltzeit heraufgeführt;^qgib, dass deine Kirche sich immer wieder erneuert.^pDu hast die Gebrechen der Menschen auf dich genommen;^qsei den Blinden Licht, den Schwachen Kraft und den Leidenden Trost.^pIn Armut und Niedrigkeit wurdest du geboren;^qerbarme dich der Armen und mache uns bereit, ihnen zu helfen.^pDeine Geburt auf Erden brachte Freude durch die Verheißung ewigen Lebens;^qschenke den Sterbenden die Zuversicht, dass sie im Tod zum Leben geboren werden.^pDu bist auf die Erde herabgekommen, um alle Menschen zum Himmel zu führen;^qvereine die Toten mit dir in der ewigen Herrlichkeit.",
+          "ant1_lat": "Virgo verbo concépit, Virgo permánsit, Virgo péperit Regem ómnium regum.",
+          "ant2_lat": "Lætámini cum Ierúsalem; declinávit super eam Dóminus quasi flúvium pacis.",
+          "ant3_lat": "Natus est nobis Deus de Deo, lumen de lúmine, quod erat in princípio.",
+          "resp1_lat": "Verbum caro factum est.",
+          "resp2_lat": "Allelúia,°allelúia.",
+          "resp3_lat": "Et habitávit in nobis.",
+          "antev_lat": "Castæ Paréntis víscera cæléstis intrat grátia: venter puéllæ báiulat secréta, quæ non nóverat.",
+          "bitten_e_lat": "Christum adorémus, qui semetípsum exinanívit formam servi accípiens ac tentátus est per ómnia pro similitúdine absque peccáto. Ardénti fide eum precémur:",
+          "bitten_r_lat": "Per nativitátem tuam succúrre redémptis.",
+          "bitten_lat": "Qui, mundum ingrédiens, ætátem novam a prophétis prædíctam instaurásti,^qfac ut semper in novas ætátes tua iuvenéscat Ecclésia.^pQui humánam infirmitátem assumpsísti,^qsis cæcis lumen, debílibus fortitúdo, míseris consolátio.^pQui pauper et húmilis natus es,^qréspice páuperes et propítius consoláre.^pQui terréna nativitáte tua ómnibus de promíssa æternitáte lætítiam ingessísti,^qcæléstis spe nativitátis moriéntium corda lætífica.^pQui in terram descendísti, ut omnes in cælum addúceres,^qin glória tibi coniúnge defúnctos.",
+          "les_text_lat": "Scimus quóniam Fílius Dei venit, et dedit nobis sensum, ut cognoscámus eum, qui verus est; et sumus in eo qui verus est, in Fílio eius Iesu Christo. Hic est qui verus est, Deus et vita ætérna."
+        },
+        "Vigil": {
+          "les_buch": "Aus dem heiligen Evangelium nach Johannes.",
+          "les_stelle": "21,1-14"
+        },
+        "Laudes": {
+          "ant1": "Ein Licht erstrahlt den Gerechten; denn der Erlöser der Welt ist geboren.^ö",
+          "ant2": "Lasst uns ein Loblied singen dem Herrn, unserm Gott.^ö",
+          "ant3": "Das Volk inmitten der Völker sieht ein helles Licht; über denen, die in Finsternis wohnen, strahlt ein Licht auf.",
+          "les_buch": "›Hebr",
+          "les_stelle": "1,1–2",
+          "les_text": "Viele Male und auf vielerlei Weise hat Gott einst zu den Vätern gesprochen durch die Propheten; in dieser Endzeit aber hat er zu uns gesprochen durch den Sohn, den er zum Erben des Alls eingesetzt und durch den er auch die Welt erschaffen hat.",
+          "les_text_neu": "Vielfältig und auf vielerlei Weise hat Gott einst zu den Vätern gesprochen durch die Propheten; am Ende dieser Tage hat er zu uns gesprochen durch den Sohn, den er zum Erben von allem eingesetzt, durch den er auch die Welt erschaffen hat.",
+          "resp1": "Christus, du Sohn des lebendigen Gottes,",
+          "resp2": "erbarme°dich°unser.",
+          "resp3": "Du bist geboren von Maria, der Jungfrau.",
+          "antev": "Gebenedeit bist du unter den Frauen, allzeit jungfräuliche Mutter Maria; denn du hast der Welt das ewige Wort geboren.",
+          "bitten_e": "Lob und Preis und Ehre dem Worte Gottes! Es war bei Gott vor aller Zeit und wurde für uns Mensch in der Zeit. Zu ihm lasst uns rufen:",
+          "bitten": "Christus, ewiges Wort, du bist Fleisch geworden und hast unter uns gewohnt;^qmach unser Herz froh über deine Geburt.^pDu, unser Heiland, in dir ist die Treue Gottes offenbar geworden,^qgib, dass wir Gott die Treue halten.^pKönig des Himmels und der Erde, durch die Engel hast du den Menschen Frieden verkündet;^qbewahre uns in deinem Frieden.^pDu Spross Davids, du wurdest in die Welt eingepflanzt als der wahre Weinstock;^qgib, dass wir in dir bleiben und du in uns.",
+          "ant1_lat": "Lux orta est iusto, quia ómnium natus est Salvátor, allelúia.",
+          "ant2_lat": "Hymnum dicámus Dómino Deo nostro.",
+          "ant3_lat": "Pópulus géntium, qui sedébat in ténebris, vidit lucem magnam.",
+          "resp1_lat": "Christe, Fili Dei vivi,",
+          "resp2_lat": "miserére nobis.",
+          "resp3_lat": "Qui natus es de María Vírgine.",
+          "antev_lat": "Virgo semper fidélis, et si Verbum génuit incarnátum, virgo mansit et post partum, quam laudántes omnes dícimus: Benedícta tu in muliéribus.",
+          "bitten_e_lat": "Dignis láudibus Verbum Dei celebrémus, ante sǽcula exsístens et in témpore nobis natum. Iucúnde acclamémus, dicéntes:",
+          "bitten_r_lat": "Exsúltet terra, quia venísti.",
+          "bitten_lat": "Christe, Verbum ætérnum, qui, in terram descéndens, exsultatiónis rore eam perfudísti,^qlætífica cor nostrum grátiæ tuæ visitatióne contínua.^pSalvátor noster, qui in nativitáte tua, fidelitátem Dei nobis ostendísti,^qconcéde nos plena fide promissiónes baptismáles serváre.^pRex cæli et terræ, qui pacem homínibus ab ángelis nuntiári fecísti,^qvitam nostram in tua pace consérva.^pDómine, qui venísti ut esses vitis vera, nobis fructum vitæ prodúcens,^qfac nos iúgiter pálmites in te manéntes, ne simus infructuósi.",
+          "les_text_lat": "Multifáriam et multis modis olim Deus locútus pátribus in prophétis, in novíssimis his diébus locútus est nobis in Fílio, quem constítuit herédem universórum, per quem fecit et sǽcula."
+        },
+        "Terz": {
+          "les_buch": "›Tit",
+          "les_stelle": "2,11–12",
+          "les_text": "Die Gnade Gottes ist erschienen, um alle Menschen zu retten. Sie erzieht uns dazu, uns von der Gottlosigkeit und den irdischen Begierden loszusagen und besonnen, gerecht und fromm in dieser Welt zu leben,",
+          "les_text_lat": "Appáruit grátia Dei salutáris ómnibus homínibus erúdiens nos, ut abnegántes impietátem et sæculária desidéria sóbrie et iuste et pie vivámus in hoc sǽculo."
+        },
+        "Sext": {
+          "les_buch": "›1°Joh",
+          "les_stelle": "4,9",
+          "les_text": "Die Liebe Gottes wurde unter uns dadurch offenbart, dass Gott seinen einzigen Sohn in die Welt gesandt hat, damit wir durch ihn leben.",
+          "les_text_neu": "Darin offenbarte sich die Liebe Gottes unter uns, dass Gott seinen einzigen Sohn in die Welt gesandt hat, damit wir durch ihn leben.",
+          "les_text_lat": "In hoc appáruit cáritas Dei in nobis quóniam Fílium suum unigénitum misit Deus in mundum, ut vivámus per eum."
+        },
+        "Non": {
+          "les_buch": "›Apg",
+          "les_stelle": "10,36",
+          "les_text": "Gott hat das Wort den Israeliten gesandt, indem er den Frieden verkündete durch Jesus Christus; dieser ist der Herr aller.",
+          "les_text_neu": "Gott hat das Wort den Israeliten gesandt, indem er den Frieden verkündete durch Jesus Christus: dieser ist der Herr aller.",
+          "les_text_lat": "Verbum misit Deus fíliis Israel evangelízans pacem per Iesum Christum; hic est ómnium Dóminus."
+        },
+        "Vesper": {
+          "ant1": "Aufgeleuchtet ist uns aufs neue der Tag der Erlösung, der uralte Sehnsucht erfüllt und ewige Glückseligkeit verheißt.",
+          "ant2": "Der Herr ist barmherzig und getreu. Er hat seinen Sohn gesandt, uns zu erlösen.",
+          "ant3": "Auf Erden ist uns geboren der Herr, der König der Könige. Siehe, schon ist gekommen das Heil der Welt, unsere Erlösung.^ö",
+          "les_buch": "›1°Joh",
+          "les_stelle": "1,1–3",
+          "les_text": "Was von Anfang an war, was wir gehört haben, was wir mit unseren Augen gesehen, was wir geschaut und was unsere Hände angefasst haben, das verkünden wir, vom Wort des Lebens sprechen wir. Denn das Leben wurde offenbart; wir haben gesehen und bezeugen und verkünden euch das ewige Leben, das beim Vater war und uns offenbart wurde. Was wir gesehen und gehört haben, das verkünden wir auch euch, damit auch ihr Gemeinschaft mit uns habt. Wir aber haben Gemeinschaft mit dem Vater und mit seinem Sohn Jesus Christus.",
+          "les_text_neu": "Was von Anfang an war, was wir gehört, was wir mit unseren Augen gesehen, was wir geschaut und was unsere Hände angefasst haben vom Wort des Lebens – das Leben ist erschienen, und wir haben gesehen und bezeugen und verkünden euch das ewige Leben, das beim Vater war und uns erschienen ist –, was wir gesehen und gehört haben, das verkünden wir auch euch, damit auch ihr Gemeinschaft mit uns habt. Wir aber haben Gemeinschaft mit dem Vater und mit seinem Sohn Jesus Christus.",
+          "antev": "Selig der Leib, der den Sohn des ewigen Vaters getragen, selig die Brust, die Christus, den Herrn, genährt hat.",
+          "bitten_e": "Lasst uns beten zu unserem Heiland, bei dessen Geburt Engel der Welt den Frieden verkündeten:",
+          "bitten_r": "Deine Geburt bringe Frieden den Menschen.",
+          "bitten": "Herr, schenke der Kirche die Fülle deiner Gaben;^qmache sie froh durch die Feier deiner Geburt.^pDu bist unser Hirt und Bischof;^qmache den Papst und die Bischöfe zu treuen Dienern deiner Gnade.^pKönig vor aller Zeit und in Ewigkeit, du hast dich eingrenzen lassen in die kurze Spanne menschlichen Lebens;^qgib den sterblichen Menschen Anteil an deiner Ewigkeit.^pVon Urzeit her erwartet, bist du gekommen, als die Zeit erfüllt war;^qoffenbare deine Ankunft denen, die noch auf dich warten.^pDu hast den Menschen, der dem Tod verfallen ist, durch deine Menschwerdung erneuert;^qvollende an unseren Verstorbenen das Werk der Erlösung.",
+          "ant1_lat": "Illúxit nobis dies redemptiónis novæ, reparatiónis antíquæ, felicitátis ætérnæ.",
+          "ant2_lat": "Misit Dóminus misericórdiam suam et veritátem suam.",
+          "ant3_lat": "In terris natus est nobis rex regum Dóminus: ecce iam venit nobis salus mundi, redémptio nostra, allelúia.",
+          "antev_lat": "Beáta víscera, quæ portavérunt ætérni Patris Fílium, et beáta úbera, quæ lactavérunt Christum Dóminum.",
+          "bitten_e_lat": "Christum iubilántes celebrémus, in cuius nativitáte ángeli pacem mundo nuntiavérunt, et devótis ánimis exorémus:",
+          "bitten_r_lat": "Natívitas tua pacem cunctis áfferat.",
+          "bitten_lat": "Reple, Dómine, ómnibus bonis Ecclésiam tuam,^qquam nativitátis tuæ mystério consoláris.^pQui princeps pastórum venísti et nostrárum epíscopus animárum,^qpapam et epíscopos nostros fidéles redde dispensatóres multifórmis grátiæ tuæ.^pRex æternitátis, qui, nascens, brevi vitæ spátio circumscríbi et hóminum vicissitúdines experíri voluísti,^qnos cadúcos et mortáles æternitátis tuæ redde consórtes.^pQui, a sǽculis exspectátus, in plenitúdine témporis venísti,^qmanifésta præséntiam tuam iis, qui adhuc te exspéctant.^pQui, caro factus, humánam substántiam, morte corrúptam restaurásti,^qdefúnctis tuam plenam restauratiónem concéde.",
+          "les_text_lat": "Quod fuit ab inítio, quod audívimus, quod vídimus óculis nostris, quod perspéximus et manus nostræ contrectavérunt, de verbo vitæ – et vita appáruit, et vídimus et testámur et annuntiámus vobis vitam ætérnam, quæ erat coram Patre et appáruit nobis – quod vídimus et audívimus, annuntiámus et vobis, ut et vos communiónem habeátis nobíscum. Commúnio autem nostra est cum Patre et cum Fílio eius Iesu Christo."
+        }
+      }
+    },
+    "each": {
+      "each": {
+        "Invitatorium": {
+          "ant0": "Christus ist uns geboren; kommt, wir beten ihn an.",
+          "ant0_lat": "Christus natus est nobis: veníte, adorémus."
+        },
+        "Lesehore": {
+          "hymn_1": 3211.0,
+          "hymn_2": 3212.0,
+          "hymn_1_lat": 3211.1,
+          "hymn_2_lat": 0.0
+        },
+        "Vigil": {
+          "psalm1": 182.0,
+          "psalm2": 199.114,
+          "psalm3": 194.0
+        },
+        "Laudes": {
+          "hymn_1": 3221.0,
+          "hymn_kl": 0.0,
+          "resp1": "Der Herr hat kundgemacht sein Heil.",
+          "resp2": "Halleluja,°halleluja.",
+          "resp3": "Vor den Augen der Völker hat er sein Walten enthüllt.",
+          "hymn_1_lat": 3221.1,
+          "resp1_lat": "Notum fecit Dóminus.",
+          "resp2_lat": "Allelúia,°allelúia.",
+          "resp3_lat": "Salutáre suum."
+        },
+        "Terz": {
+          "ant0": "Josef und Maria staunten über die Worte, die man über Jesus sagte.",
+          "ant1": "",
+          "ant2": "",
+          "ant3": "",
+          "resp0": "Der Herr gedachte seiner Huld.^ö",
+          "resp1": "Und seiner Treue zum Hause Israel.^ö",
+          "hymn_2_lat": 0.0,
+          "ant0_lat": "Erant Ioseph et María, mater Iesu, mirántes super iis, quæ dicebántur de illo.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp0_lat": "Recordátus est Dóminus misericórdiæ suæ.^Lö",
+          "resp1_lat": "Et veritátis suæ dómui Israel.^Lö"
+        },
+        "Sext": {
+          "ant0": "Maria bewahrte alles, was geschehen war, und erwog es in ihrem Herzen.",
+          "ant1": "",
+          "ant2": "",
+          "ant3": "",
+          "resp0": "Alle Enden der Erde.^ö",
+          "resp1": "Schauen das Heil unseres Gottes.^ö",
+          "hymn_2_lat": 0.0,
+          "ant0_lat": "María autem conservábat ómnia verba hæc, cónferens in corde suo.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp0_lat": "Vidérunt omnes fines terræ.^Lö",
+          "resp1_lat": "Salutáre Dei nostri.^Lö"
+        },
+        "Non": {
+          "ant0": "Meine Augen haben das Heil gesehen, das du vor allen Völkern bereitet hast.",
+          "ant1": "",
+          "ant2": "",
+          "ant3": "",
+          "resp0": "Huld und Treue begegnen einander.^ö",
+          "resp1": "Gerechtigkeit und Friede küssen sich.^ö",
+          "hymn_2_lat": 0.0,
+          "ant0_lat": "Vidérunt óculi mei salutáre tuum, quod parásti ante fáciem ómnium populórum.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp0_lat": "Misericórdia et véritas obviavérunt sibi.^Lö",
+          "resp1_lat": "Iustítia et pax osculátæ sunt.^Lö"
+        },
+        "Vesper": {
+          "hymn_1": 3241.0,
+          "hymn_kl": 0.0,
+          "resp1": "Das Wort ist Fleisch geworden und hat unter uns gewohnt.",
+          "resp2": "Halleluja,°halleluja.",
+          "resp3": "Aus seiner Fülle haben wir empfangen, Gnade über Gnade.",
+          "hymn_1_lat": 3241.1,
+          "hymn_2_lat": 0.0,
+          "hymn_3_lat": 0.0,
+          "resp1_lat": "Verbum caro factum est.",
+          "resp2_lat": "Allelúia,°allelúia.",
+          "resp3_lat": "Et habitávit in nobis."
+        }
+      }
+    },
+    "last": {
+      "each": {
+        "Invitatorium": {
+          "ant0": "Christus ist uns erschienen; kommt, wir beten ihn an.",
+          "ant0_lat": ""
+        },
+        "Lesehore": {
+          "hymn_1": 3214.0,
+          "hymn_2": 0.0,
+          "hymn_1_lat": 3211.3,
+          "hymn_2_lat": 0.0
+        },
+        "Laudes": {
+          "hymn_1": 3224.0,
+          "hymn_kl": 0.0,
+          "resp1": "Alle Könige müssen ihm huldigen, alle Völker ihm dienen.",
+          "resp2": "Halleluja,°halleluja.",
+          "resp3": "Sein Name wird ewig bestehen, seine Herrlichkeit erfüllt die Erde.",
+          "hymn_1_lat": 3221.3,
+          "resp1_lat": "Adorábunt eum",
+          "resp2_lat": "omnes reges terræ.",
+          "resp3_lat": "Omnes gentes sérvient ei."
+        },
+        "Terz": {
+          "ant0": "Das Geheimnis, das von Ewigkeit her verborgen war – heute wurde es kundgetan.",
+          "ant1": "",
+          "ant2": "",
+          "ant3": "",
+          "resp0": "Er ist auf Erden erschienen.",
+          "resp1": "Er hat mit den Menschen gelebt.",
+          "hymn_1_lat": 4003.2,
+          "hymn_2_lat": 0.0,
+          "ant0_lat": "Mystérium, quod abscónditum fuit a sǽculis et generatiónibus, nunc manifestátum est.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp0_lat": "In terris visus est.",
+          "resp1_lat": "Et cum homínibus conversátus est."
+        },
+        "Sext": {
+          "ant0": "Einst wart ihr fern, nun seid ihr nahe; denn Christus ist erschienen, euer Friede.",
+          "ant1": "",
+          "ant2": "",
+          "ant3": "",
+          "resp0": "Die Völker schauen den Gerechten.",
+          "resp1": "Alle Könige den Herrn der Herrlichkeit.",
+          "hymn_1_lat": 4006.2,
+          "hymn_2_lat": 0.0,
+          "ant0_lat": "Véniens Christus evangelizávit pacem vobis, qui longe fuístis, et pacem iis qui prope erant.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp0_lat": "Vidébunt gentes iustum tuum.",
+          "resp1_lat": "Et cuncti reges ínclitum tuum."
+        },
+        "Non": {
+          "ant0": "Ich mache dich zum Licht für alle Völker; trage mein Heil bis an die Enden der Erde.",
+          "ant1": "",
+          "ant2": "",
+          "ant3": "",
+          "resp0": "Ihr Völker, preist unsern Gott.",
+          "resp1": "Erhebt die Stimme zu seinem Lob.",
+          "hymn_1_lat": 4009.2,
+          "hymn_2_lat": 0.0,
+          "ant0_lat": "Ecce dedi te in lucem géntium, ut sis salus mea usque ad extrémum terræ.",
+          "ant1_lat": "",
+          "ant2_lat": "",
+          "ant3_lat": "",
+          "resp0_lat": "Benedícite, gentes, Deum nostrum.",
+          "resp1_lat": "Et audítam fácite vocem laudis eius."
+        },
+        "Vesper": {
+          "hymn_1": 3244.0,
+          "hymn_kl": 0.0,
+          "resp1": "In ihm sind gesegnet alle Völker der Erde.",
+          "resp2": "Halleluja,°halleluja.",
+          "resp3": "Alle Stämme sollen ihn preisen.",
+          "hymn_1_lat": 3241.3,
+          "resp1_lat": "Benedicéntur in ipso",
+          "resp2_lat": "omnes tribus terræ.",
+          "resp3_lat": "Omnes gentes magnificábunt eum."
+        }
+      }
+    },
+    "okt": {
+      "each": {
+        "Laudes": {
+          "psalm1": 63.0,
+          "psalm2": 160.0,
+          "psalm3": 149.0,
+          "ant1": "Ihr Hirten, wen habt ihr gesehen? Sagt und verkündet uns: Wer ist auf Erden erschienen? – Wir sahen das Kind und hörten die Chöre der Engel; die sangen das Lob des Herrn.^ö",
+          "ant2": "Der Engel sprach zu den Hirten: Ich verkünde euch große Freude; heute ist euch der Heiland geboren, der Retter der Welt.^ö",
+          "ant3": "Ein Kind ist uns heute geboren. „Starker Gott“ ist sein Name.^ö",
+          "ant1_lat": "Quem vidístis? pastóres, dícite; annuntiáte nobis: In terris quis appáruit? Natum vídimus et choros angelórum collaudántes Dóminum.^Lö",
+          "ant2_lat": "Angelus ad pastóres ait: Annúntio vobis gáudium magnum, quia natus est vobis hódie Salvátor mundi.^Lö",
+          "ant3_lat": "Párvulus fílius hódie natus est nobis, et vocábitur Deus fortis.^Lö"
+        },
+        "Vesper": {
+          "hymn_1": 3241.0,
+          "hymn_2": 0.0,
+          "hymn_3": 0.0,
+          "hymn_kl": 0.0,
+          "psalm1": 110.0,
+          "psalm2": 130.0,
+          "psalm3": 154.0,
+          "ant0": "",
+          "ant1": "Dein ist die Herrschaft am Tag deiner Macht, wenn du erscheinst in heiligem Schmuck; ich habe dich gezeugt noch vor dem Morgenstern.",
+          "ant2": "Beim Herrn ist die Huld, bei ihm ist Erlösung in Fülle.",
+          "ant3": "Das Wort war Gott – im Anfang und vor aller Zeit; heute ist er geboren als Heiland der Welt.",
+          "resp1": "Das Wort ist Fleisch geworden und hat unter uns gewohnt.",
+          "resp2": "Halleluja,°halleluja.",
+          "resp3": "Aus seiner Fülle haben wir empfangen, Gnade über Gnade.",
+          "hymn_2_lat": 0.0,
+          "hymn_3_lat": 0.0,
+          "ant0_lat": "",
+          "ant1_lat": "Tecum princípium in die virtútis tuæ, in splendóribus sanctórum, ex útero ante lucíferum génui te.",
+          "ant2_lat": "Apud Dóminum misericórdia, et copiósa apud eum redémptio.",
+          "ant3_lat": "In princípio et ante sǽcula Deus erat Verbum: ipse natus est hódie Salvátor mundi."
+        }
+      }
+    }
+  },
+  "wt": {
+    "each": {
+      "0": {
+        "Lesehore": {},
+        "Komplet": {
+          "hymn_2": 2510.0
+        }
+      },
+      "1": {
+        "Komplet": {
+          "hymn_2": 2511.0
+        }
+      },
+      "2": {
+        "Komplet": {
+          "hymn_2": 2512.0
+        }
+      },
+      "3": {
+        "Komplet": {
+          "hymn_2": 2513.0
+        }
+      },
+      "4": {
+        "Komplet": {
+          "hymn_2": 2514.0
+        }
+      },
+      "5": {
+        "Komplet": {
+          "hymn_2": 2515.0
+        }
+      },
+      "6": {
+        "Komplet": {
+          "hymn_2": 2516.0
+        }
+      },
+      "each": {
+        "ErsteV": {},
+        "Laudes": {},
+        "Terz": {
+          "hymn_1": 2300.0,
+          "hymn_2": 2301.0,
+          "hymn_1_lat": 4003.1,
+          "hymn_2_lat": 4003.2
+        },
+        "Sext": {
+          "hymn_1": 2600.0,
+          "hymn_2": 2601.0,
+          "hymn_1_lat": 4006.1,
+          "hymn_2_lat": 4006.2
+        },
+        "Non": {
+          "hymn_1": 2900.0,
+          "hymn_2": 2901.0,
+          "hymn_1_lat": 4009.1,
+          "hymn_2_lat": 4009.2
+        },
+        "Vesper": {},
+        "Komplet": {
+          "hymn_1": 2500.0,
+          "hymn_1_lat": 2500.1
         }
       }
     }

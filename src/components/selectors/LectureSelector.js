@@ -25,67 +25,56 @@ const LectureSelector = ({
         second: new Set()
     });
 
-    // Prüfe verfügbare Alternativen
-    const availableAlternatives = useMemo(() => {
+    // Hilfsfunktionen für das folgende useMemo
+    const extractKeyword = (field) => {
+        const text = getValue(field)
+        if (!text || !text.startsWith('^A:')) return null;
+        const match = text.match(/^\^A:([^:]+):/);
+        return match ? match[1] : null;
+    };
 
-        const extractKeyword = (field) => {
-            const text = getValue(field)
-            if (!text || !text.startsWith('^A:')) return null;
-            const match = text.match(/^\^A:([^:]+):/);
-            return match ? match[1] : null;
-        };
+    const abbreviate = (text) => {
+        if (!text) return text;
 
-        const chain = (text1, text2, connector = '') => {
-            text1 = (!text1 || text1?.startsWith('LEER'))
-                ? '' : text1.replace(/ \(.*$/, '').trim();
-            text2 = (!text2 || text2?.startsWith('LEER'))
-                ? '' : text2;
-            connector = text1 && text2 ? connector + ' ' : '';
+        const sliceIndex = text.indexOf('^SLICE');
+        if (sliceIndex !== -1) {
+            text = text.substring(0, sliceIndex);
+        }
+        return formatPrayerText(text.replace(/[.!?;:,]+$/, '') + '\u00a0…');
+    };
 
-            return formatPrayerText(text1 + connector + text2)
+    const extractTitle = (text) => {
+        if (!text) return null;
+        const match = text.match(/\^h([^]*?)\^p/);
+        return match ? match[1].trim() : null;
+    };
+
+    const checkLanguageField = (field, alternativeData, titleField = null) => {
+        if (!field || !alternativeData) return null;
+
+        const languageField = field + localPrefLanguage;
+        let result;
+
+        if (getValue(field)?.endsWith(localPrefLanguage)) {
+            result = alternativeData[languageField] || alternativeData[field] || null;
+        } else {
+            result = alternativeData[field] || '';
         }
 
-        const abbreviate = (text) => {
-            if (!text) return text;
-
-            const sliceIndex = text.indexOf('^SLICE');
-            if (sliceIndex !== -1) {
-                text = text.substring(0, sliceIndex);
+        // Wenn ein titleField angegeben ist, versuche eine Überschrift zu extrahieren
+        if (titleField && alternativeData[titleField]) {
+            const titleText = alternativeData[titleField + localPrefLanguage] || alternativeData[titleField];
+            const extractedTitle = extractTitle(titleText);
+            if (extractedTitle) {
+                return extractedTitle;
             }
-            return formatPrayerText(text.replace(/[.!?;:,]+$/, '') + '\u00a0…');
-        };
+        }
 
-        // Neue Hilfsfunktion zum Extrahieren der Überschrift aus dem Text
-        const extractTitle = (text) => {
-            if (!text) return null;
-            const match = text.match(/\^h([^]*?)\^p/);
-            return match ? match[1].trim() : null;
-        };
+        return result;
+    };
 
-        // Angepasste checkLanguageField-Funktion für Titel
-        const checkLanguageField = (field, alternativeData, titleField = null) => {
-            if (!field || !alternativeData) return null;
-
-            const languageField = field + localPrefLanguage;
-            let result;
-
-            if (getValue(field)?.endsWith(localPrefLanguage)) {
-                result = alternativeData[languageField] || alternativeData[field] || null;
-            } else {
-                result = alternativeData[field] || null;
-            }
-
-            // Wenn ein titleField angegeben ist, versuche eine Überschrift zu extrahieren
-            if (titleField && alternativeData[titleField]) {
-                const titleText = alternativeData[titleField + localPrefLanguage] || alternativeData[titleField];
-                const extractedTitle = extractTitle(titleText);
-                if (extractedTitle) {
-                    return extractedTitle;
-                }
-            }
-
-            return result;
-        };
+    // Prüfe verfügbare Alternativen
+    const availableAlternatives = useMemo(() => {
 
         const firstKeyword = extractKeyword('les_buch');
         const secondKeyword = extractKeyword('patr_autor');
@@ -100,40 +89,82 @@ const LectureSelector = ({
             const processedAlternatives = [];
             const groups = new Map(); // Map für Gruppen: groupName -> groupData
 
+            const fieldAutor = lectureType === 'first' ? 'les_buch' : 'patr_autor'
+            const fieldWerk = lectureType === 'first' ? 'les_stelle' : 'patr_werk'
+            const fieldText = lectureType === 'first' ? 'les_text' : 'patr_text'
+            const fieldResp1 = lectureType === 'first' ? 'resp1' : 'patr_resp1'
+
+            const longBookname = (altData) => {
+                const bookname = altData?.les_buch || ''
+                return (bookname.startsWith('Lesung aus')
+                    || bookname.startsWith('Aus de'))
+                    ? bookname : ''
+            }
+
+            const getButtonText = (buttonType = 'standard', altData = []) => {
+                if (altData?.button) return formatPrayerText(altData.button)
+
+                if (longBookname(altData)) {
+                    const title = extractTitle(checkLanguageField(fieldText, altData))
+                    if (title) return formatPrayerText(title)
+                }
+                let connector = lectureType !== 'first' ? ':' : ''
+
+                let text1 = getValue(fieldAutor)
+                let text2 = extractTitle(getValue(fieldText))
+                    || getValue(fieldWerk)
+
+                if (buttonType !== 'standard') {
+                    text1 = checkLanguageField(fieldAutor, altData)
+                    text2 = lectureType === 'first'
+                        ? checkLanguageField(fieldWerk, altData)
+                        : checkLanguageField(fieldWerk, altData, fieldText)
+                }
+
+                text1 = (!text1 || text1?.startsWith('LEER'))
+                    ? '' : text1.replace(/ \(.*$/, '').trim();
+                text2 = (!text2 || text2?.startsWith('LEER'))
+                    ? '' : text2;
+                connector = text1 && text2 ? connector + ' ' : '';
+
+                return formatPrayerText(text1 + connector + text2)
+
+            };
+
+            const getBezug = (altData, excludeYear) => {
+                const resultBezug = checkLanguageField('bezug', altData)
+                if (resultBezug) return formatPrayerText(resultBezug)
+
+                let resultExclusion = excludeYear
+                    ? 'vom Lesejahr ' + excludeYear?.toUpperCase() : ''
+
+                let evAbbr = longBookname(altData)
+                if (evAbbr) {
+                    for (const [name, abbr] of Object.entries(namesOfBooks)) {
+                        if (evAbbr.includes(name)) {
+                            evAbbr = abbr;
+                            break; // Stoppe bei der ersten Übereinstimmung
+                        }
+                    }
+                    if (evAbbr !== "LEER") {
+                        resultExclusion = resultExclusion ? resultExclusion + ': ' : ''
+                        return formatBibleRef(resultExclusion + evAbbr + ' ' + altData.les_stelle, true)
+                    }
+                }
+                return (resultExclusion) ? resultExclusion + ')' : null
+            }
+
             // Standard-Button (immer Index 0)
             if (keyword && alternatives.length > 0) {
-                const getStandardButtonText = () => {
-                    if (lectureType === 'first') {
-                        const titleFromText = extractTitle(getValue('les_text'));
-                        return chain(
-                            getValue('les_buch'),
-                            titleFromText || getValue('les_stelle')
-                        );
-                    } else {
-                        const titleFromText = extractTitle(getValue('patr_text'));
-                        return chain(
-                            getValue('patr_autor'),
-                            titleFromText || getValue('patr_werk'),
-                            ':'
-                        );
-                    }
-                };
 
                 processedAlternatives.push({
                     index: 0,
-                    hide: (lectureType === 'first' && getValue('les_text') === 'LEER')
-                        || (lectureType === 'second' && getValue('patr_text') === 'LEER'),
+                    hide: getValue(fieldText) === 'LEER',
                     marian: keyword.includes('Maria'),
-                    buttonText: getStandardButtonText(),
-                    buttonResp: lectureType === 'first'
-                        ? abbreviate(getValue('resp1'))
-                        : abbreviate(getValue('patr_resp1')),
-                    hasText: lectureType === 'first'
-                        ? !!getValue('les_text') && getValue('les_text') !== 'LEER'
-                        : !!getValue('patr_text') && getValue('patr_text') !== 'LEER',
-                    onlyResp: lectureType === 'first'
-                        ? !getValue('les_text') && !!getValue('resp1')
-                        : !getValue('patr_text') && !!getValue('patr_resp1')
+                    buttonText: getButtonText(),
+                    buttonResp: abbreviate(getValue(fieldResp1)),
+                    hasText: !!getValue(fieldText) && getValue(fieldText) !== 'LEER',
+                    onlyResp: !getValue(fieldText) && !!getValue(fieldResp1)
                 });
             }
 
@@ -144,7 +175,8 @@ const LectureSelector = ({
                 if (!altData) return;
 
                 // Prüfe excludeYear-Bedingung
-                if (altData.excludeYear && texts.yearABC === altData.excludeYear) {
+                const excludeYear = altData?.excludeYear
+                if (excludeYear && texts.yearABC === excludeYear) {
                     return; // Überspringe diese Alternative
                 }
 
@@ -161,26 +193,11 @@ const LectureSelector = ({
                 const alternative = {
                     index: actualIndex,
                     marian: keyword.includes('Maria'),
-                    buttonText: lectureType === 'first'
-                        ? chain(
-                            checkLanguageField('les_buch', altData),
-                            checkLanguageField('les_stelle', altData)
-                        )
-                        : chain(
-                            checkLanguageField('patr_autor', altData),
-                            checkLanguageField('patr_werk', altData, 'patr_text'),
-                            ':',
-                        ),
-                    buttonResp: lectureType === 'first'
-                        ? abbreviate(checkLanguageField('resp1', altData))
-                        : abbreviate(checkLanguageField('patr_resp1', altData)),
-                    bezug: formatPrayerText(checkLanguageField('bezug', altData)),
-                    hasText: lectureType === 'first'
-                        ? !!altData.les_text
-                        : !!altData.patr_text,
-                    onlyResp: lectureType === 'first'
-                        ? !altData.les_text && !!altData.resp1
-                        : !altData.patr_text && !!altData.patr_resp1,
+                    buttonText: getButtonText('alternative', altData),
+                    buttonResp: abbreviate(checkLanguageField(fieldResp1, altData)),
+                    bezug: getBezug(altData, excludeYear),
+                    hasText: !!altData[fieldText],
+                    onlyResp: !altData[fieldText] && !!altData[fieldResp1],
                     // content und groupName entfernt - werden direkt in selected() behandelt
                     content: altData // Nur die Rohdaten für selected()
                 };
@@ -226,7 +243,8 @@ const LectureSelector = ({
             first: processAlternatives(firstAlternatives, 'first', firstKeyword),
             second: processAlternatives(secondAlternatives, 'second', secondKeyword)
         };
-    }, [getValue, localPrefLanguage]);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [getValue, localPrefLanguage, formatPrayerText, texts.yearABC]);
 
     // Funktion für die Auswahl der anzuzeigenden Daten
     const selected = (field) => {
@@ -531,6 +549,20 @@ const LectureSelector = ({
 };
 
 export default LectureSelector;
+
+const namesOfBooks = {
+    "Matthäus": "Mt",
+    "Markus": "Mk",
+    "Lukas": "Lk",
+    "Johannes": "Joh",
+    "Richter": "Ri",
+    "ersten Brief an die Korinther": "1\u00a0Kor",
+    "zweiten Brief an die Korinther": "2\u00a0Kor",
+    "ersten Brief an die Thessalonicher": "1\u00a0Thess",
+    "zweiten Brief an die Thessalonicher": "2\u00a0Thess",
+    "Aus de": "LEER",
+    "Lesung aus": "LEER",
+}
 
 const lectureAlternatives = {
     "q-4-0": {
@@ -1198,22 +1230,160 @@ const lectureAlternatives = {
     "vigil-Maria": {
         first: [
             {
-                les_buch: "Aus dem heiligen Evangelium nach Matthäus.",
-                les_stelle: "1,18-23",
-                les_text: "^hDas Kind, das sie erwartet, ist vom Heiligen Geist^pMit der Geburt Jesu Christi war es so:^lMaria, seine Mutter, war mit Josef verlobt; noch bevor sie zusammengekommen waren, zeigte sich, dass sie ein Kind erwartete – durch das Wirken des Heiligen Geistes.^pJosef, ihr Mann, der gerecht war und sie nicht bloßstellen wollte, beschloss, sich in aller Stille von ihr zu trennen.^pWährend er noch darüber nachdachte, erschien ihm ein Engel des Herrn im Traum und sagte: Josef, Sohn Davids, fürchte dich nicht, Maria als deine Frau zu dir zu nehmen; denn das Kind, das sie erwartet, ist vom Heiligen Geist. Sie wird einen Sohn gebären; ihm sollst du den Namen Jesus geben; denn er wird sein Volk von seinen Sünden erlösen.^pDies alles ist geschehen, damit sich erfüllte, was der Herr durch den Propheten gesagt hat: Seht, die Jungfrau wird ein Kind empfangen, einen Sohn wird sie gebären, und man wird ihm den Namen Immanuel geben, das heißt übersetzt: Gott ist mit uns.^pAls Josef erwachte, tat er, was der Engel des Herrn ihm befohlen hatte, und nahm seine Frau zu sich. Er erkannte sie aber nicht, bis sie ihren Sohn gebar. Und er gab ihm den Namen Jesus.",
-                les_text_neu: "^hDas Kind, das sie erwartet, ist vom Heiligen Geist^pMit der Geburt Jesu Christi war es so:^lMaria, seine Mutter, war mit Josef verlobt; noch bevor sie zusammengekommen waren, zeigte sich, dass sie ein Kind erwartete – durch das Wirken des Heiligen Geistes.^pJosef, ihr Mann, der gerecht war und sie nicht bloßstellen wollte, beschloss, sich in aller Stille von ihr zu trennen.^pWährend er noch darüber nachdachte, siehe, da erschien ihm ein Engel des Herrn im Traum und sagte: Josef, Sohn Davids, fürchte dich nicht, Maria als deine Frau zu dir zu nehmen; denn das Kind, das sie erwartet, ist vom Heiligen Geist. Sie wird einen Sohn gebären; ihm sollst du den Namen Jesus geben; denn er wird sein Volk von seinen Sünden erlösen.^pDies alles ist geschehen, damit sich erfüllte, was der Herr durch den Propheten gesagt hat: Siehe, die Jungfrau wird ein Kind empfangen und einen Sohn gebären, und sie werden ihm den Namen Immanuel geben, das heißt übersetzt: Gott mit uns.^pAls Josef erwachte, tat er, was der Engel des Herrn ihm befohlen hatte, und nahm seine Frau zu sich. Er erkannte sie aber nicht, bis sie ihren Sohn gebar. Und er gab ihm den Namen Jesus.",
-            },
-            {
-                les_buch: "Aus dem heiligen Evangelium nach Matthäus.",
-                les_stelle: "2,13-15.19-23",
-                les_text: "^hNimm das Kind und seine Mutter, und flieh nach Ägypten!^pAls die Sterndeuter wieder gegangen waren, erschien dem Josef im Traum ein Engel des Herrn und sagte: Steh auf, nimm das Kind und seine Mutter, und flieh nach Ägypten; dort bleibe, bis ich dir etwas anderes auftrage; denn Herodes wird das Kind suchen, um es zu töten.^pDa stand Josef in der Nacht auf und floh mit dem Kind und dessen Mutter nach Ägypten. Dort blieb er bis zum Tod des Herodes. Denn es sollte sich erfüllen, was der Herr durch den Propheten gesagt hat: Aus Ägypten habe ich meinen Sohn gerufen.^pAls Herodes gestorben war, erschien dem Josef in Ägypten ein Engel des Herrn im Traum und sagte: Steh auf, nimm das Kind und seine Mutter und zieh in das Land Israel; denn die Leute, die dem Kind nach dem Leben getrachtet haben, sind tot.^pDa stand er auf und zog mit dem Kind und dessen Mutter in das Land Israel. Als er aber hörte, dass in Judäa Archelaus an Stelle seines Vaters Herodes regierte, fürchtete er sich, dorthin zu gehen. Und weil er im Traum einen Befehl erhalten hatte, zog er in das Gebiet von Galiläa und ließ sich in einer Stadt namens Nazaret nieder.^pDenn es sollte sich erfüllen, was durch die Propheten gesagt worden ist: Er wird Nazoräer genannt werden.",
-                les_text_neu: "^hNimm das Kind und seine Mutter, und flieh nach Ägypten!^pAls die Sterndeuter wieder gegangen waren, siehe, da erschien dem Josef im Traum ein Engel des Herrn und sagte: Steh auf, nimm das Kind und seine Mutter, und flieh nach Ägypten; dort bleibe, bis ich dir etwas anderes auftrage; denn Herodes wird das Kind suchen, um es zu töten.^pDa stand Josef auf und floh in der Nacht mit dem Kind und dessen Mutter nach Ägypten. Dort blieb er bis zum Tod des Herodes. Denn es sollte sich erfüllen, was der Herr durch den Propheten gesagt hat: Aus Ägypten habe ich meinen Sohn gerufen.^pAls Herodes gestorben war, siehe, da erschien dem Josef in Ägypten ein Engel des Herrn im Traum und sagte: Steh auf, nimm das Kind und seine Mutter und zieh in das Land Israel; denn die Leute, die dem Kind nach dem Leben getrachtet haben, sind tot.^pDa stand er auf und zog mit dem Kind und dessen Mutter in das Land Israel. Als er aber hörte, dass in Judäa Archelaus an Stelle seines Vaters Herodes regierte, fürchtete er sich, dorthin zu gehen. Und weil er im Traum einen Befehl erhalten hatte, zog er in das Gebiet von Galiläa und ließ sich in einer Stadt namens Nazaret nieder.^pDenn es sollte sich erfüllen, was durch die Propheten gesagt worden ist: Er wird Nazoräer genannt werden.",
+                les_buch: "Aus dem heiligen Evangelium nach Lukas.",
+                les_stelle: "1,26-38",
+                les_text: "^hDie Verkündigung an Maria^pIn jener Zeit wurde der Engel Gabriel von Gott in eine Stadt in Galiläa namens Nazaret zu einer Jungfrau gesandt. Sie war mit einem Mann namens Josef verlobt, der aus dem Haus David stammte. Der Name der Jungfrau war Maria.^pDer Engel trat bei ihr ein und sagte: Sei gegrüßt, du Begnadete, der Herr ist mit dir.^pSie erschrak über die Anrede und überlegte, was dieser Gruß zu bedeuten habe.^pDa sagte der Engel zu ihr: Fürchte dich nicht, Maria; denn du hast bei Gott Gnade gefunden. Du wirst ein Kind empfangen, einen Sohn wirst du gebären: dem sollst du den Namen Jesus geben.^pEr wird groß sein und Sohn des Höchsten genannt werden. Gott, der Herr, wird ihm den Thron seines Vaters David geben. Er wird über das Haus Jakob in Ewigkeit herrschen und seine Herrschaft wird kein Ende haben.^pMaria sagte zu dem Engel: Wie soll das geschehen, da ich keinen Mann erkenne?^pDer Engel antwortete ihr: Der Heilige Geist wird über dich kommen, und die Kraft des Höchsten wird dich überschatten. Deshalb wird auch das Kind heilig und Sohn Gottes genannt werden.^pAuch Elisabet, deine Verwandte, hat noch in ihrem Alter einen Sohn empfangen; obwohl sie als unfruchtbar galt, ist sie jetzt schon im sechsten Monat. Denn für Gott ist nichts unmöglich.^pDa sagte Maria: Ich bin die Magd des Herrn; mir geschehe, wie du es gesagt hast.^pDanach verließ sie der Engel.",
+                les_text_neu: "^h^pIn jener Zeit wurde der Engel Gabriel von Gott in eine Stadt in Galiläa namens Nazaret zu einer Jungfrau gesandt. Sie war mit einem Mann namens Josef verlobt, der aus dem Haus David stammte. Der Name der Jungfrau war Maria.^pDer Engel trat bei ihr ein und sagte: Sei gegrüßt, du Begnadete, der Herr ist mit dir.^pSie erschrak über die Anrede und überlegte, was dieser Gruß zu bedeuten habe.^pDa sagte der Engel zu ihr: Fürchte dich nicht, Maria; denn du hast bei Gott Gnade gefunden. Siehe, du wirst schwanger werden und einen Sohn wirst du gebären; dem sollst du den Namen Jesus geben.^pEr wird groß sein und Sohn des Höchsten genannt werden. Gott, der Herr, wird ihm den Thron seines Vaters David geben. Er wird über das Haus Jakob in Ewigkeit herrschen und seine Herrschaft wird kein Ende haben.^pMaria sagte zu dem Engel: Wie soll das geschehen, da ich keinen Mann erkenne?^pDer Engel antwortete ihr: Der Heilige Geist wird über dich kommen, und Kraft des Höchsten wird dich überschatten. Deshalb wird auch das Kind heilig und Sohn Gottes genannt werden.^pSiehe, auch Elisabet, deine Verwandte, hat noch in ihrem Alter einen Sohn empfangen; obwohl sie als unfruchtbar galt, ist sie schon im sechsten Monat. Denn für Gott ist nichts unmöglich.^pDa sagte Maria: Siehe, ich bin die Magd des Herrn; mir geschehe, wie du es gesagt hast.^pDanach verließ sie der Engel.",
             },
             {
                 les_buch: "Aus dem heiligen Evangelium nach Lukas.",
-                les_stelle: "1,26-38",
-                les_text: "^h^pIn jener Zeit wurde der Engel Gabriel von Gott in eine Stadt in Galiläa namens Nazaret zu einer Jungfrau gesandt. Sie war mit einem Mann namens Josef verlobt, der aus dem Haus David stammte. Der Name der Jungfrau war Maria.^pDer Engel trat bei ihr ein und sagte: Sei gegrüßt, du Begnadete, der Herr ist mit dir.^pSie erschrak über die Anrede und überlegte, was dieser Gruß zu bedeuten habe.^pDa sagte der Engel zu ihr: Fürchte dich nicht, Maria; denn du hast bei Gott Gnade gefunden. Du wirst ein Kind empfangen, einen Sohn wirst du gebären: dem sollst du den Namen Jesus geben.^pEr wird groß sein und Sohn des Höchsten genannt werden. Gott, der Herr, wird ihm den Thron seines Vaters David geben. Er wird über das Haus Jakob in Ewigkeit herrschen und seine Herrschaft wird kein Ende haben.^pMaria sagte zu dem Engel: Wie soll das geschehen, da ich keinen Mann erkenne?^pDer Engel antwortete ihr: Der Heilige Geist wird über dich kommen, und die Kraft des Höchsten wird dich überschatten. Deshalb wird auch das Kind heilig und Sohn Gottes genannt werden.^pAuch Elisabet, deine Verwandte, hat noch in ihrem Alter einen Sohn empfangen; obwohl sie als unfruchtbar galt, ist sie jetzt schon im sechsten Monat. Denn für Gott ist nichts unmöglich.^pDa sagte Maria: Ich bin die Magd des Herrn; mir geschehe, wie du es gesagt hast.^pDanach verließ sie der Engel.",
-                les_text_neu: "^h^pIn jener Zeit wurde der Engel Gabriel von Gott in eine Stadt in Galiläa namens Nazaret zu einer Jungfrau gesandt. Sie war mit einem Mann namens Josef verlobt, der aus dem Haus David stammte. Der Name der Jungfrau war Maria.^pDer Engel trat bei ihr ein und sagte: Sei gegrüßt, du Begnadete, der Herr ist mit dir.^pSie erschrak über die Anrede und überlegte, was dieser Gruß zu bedeuten habe.^pDa sagte der Engel zu ihr: Fürchte dich nicht, Maria; denn du hast bei Gott Gnade gefunden. Siehe, du wirst schwanger werden und einen Sohn wirst du gebären; dem sollst du den Namen Jesus geben.^pEr wird groß sein und Sohn des Höchsten genannt werden. Gott, der Herr, wird ihm den Thron seines Vaters David geben. Er wird über das Haus Jakob in Ewigkeit herrschen und seine Herrschaft wird kein Ende haben.^pMaria sagte zu dem Engel: Wie soll das geschehen, da ich keinen Mann erkenne?^pDer Engel antwortete ihr: Der Heilige Geist wird über dich kommen, und Kraft des Höchsten wird dich überschatten. Deshalb wird auch das Kind heilig und Sohn Gottes genannt werden.^pSiehe, auch Elisabet, deine Verwandte, hat noch in ihrem Alter einen Sohn empfangen; obwohl sie als unfruchtbar galt, ist sie schon im sechsten Monat. Denn für Gott ist nichts unmöglich.^pDa sagte Maria: Siehe, ich bin die Magd des Herrn; mir geschehe, wie du es gesagt hast.^pDanach verließ sie der Engel.",
+                les_stelle: "1,39-47",
+                les_text: "^hDer Besuch Marias bei Elisabeth^p",
+                les_text_neu: "",
+            },
+            {
+                les_buch: "Aus dem heiligen Evangelium nach Johannes.",
+                les_stelle: "19,25-27",
+                les_text: "^hMaria und der Jünger unter°dem°Kreuz^p",
+                les_text_neu: "",
+            },
+            { group: "weitere Evangelien zur Auswahl ..." },
+            {
+                button: "Stammbaum°und°Geburt°Jesu",
+                les_buch: "Aus dem heiligen Evangelium nach Matthäus.",
+                les_stelle: "1,1-16.18-23",
+                les_text: "^RUBRDas Evangelium kann in einer Kurzfassung genommen werden, beginnend°unten°mit°Vers°18: „Die°Geburt°Jesu“.^0RUBR^hDer Stammbaum Jesu^p^p^RUBRHier beginnt die Kurzfassung.^RUBR^hDie Geburt Jesu^pMit der Geburt Jesu Christi war es so:^lMaria, seine Mutter, war mit Josef verlobt; noch bevor sie zusammengekommen waren, zeigte sich, dass sie ein Kind erwartete – durch das Wirken des Heiligen Geistes.^pJosef, ihr Mann, der gerecht war und sie nicht bloßstellen wollte, beschloss, sich in aller Stille von ihr zu trennen.^pWährend er noch darüber nachdachte, erschien ihm ein Engel des Herrn im Traum und sagte: Josef, Sohn Davids, fürchte dich nicht, Maria als deine Frau zu dir zu nehmen; denn das Kind, das sie erwartet, ist vom Heiligen Geist. Sie wird einen Sohn gebären; ihm sollst du den Namen Jesus geben; denn er wird sein Volk von seinen Sünden erlösen.^pDies alles ist geschehen, damit sich erfüllte, was der Herr durch den Propheten gesagt hat: Seht, die Jungfrau wird ein Kind empfangen, einen Sohn wird sie gebären, und man wird ihm den Namen Immanuel geben, das heißt übersetzt: Gott ist mit uns.^pAls Josef erwachte, tat er, was der Engel des Herrn ihm befohlen hatte, und nahm seine Frau zu sich. Er erkannte sie aber nicht, bis sie ihren Sohn gebar. Und er gab ihm den Namen Jesus.",
+                les_text_neu: "^RUBRDas Evangelium kann in einer Kurzfassung genommen werden, beginnend°unten°mit°Vers°18.^0RUBR^hDer Stammbaum Jesu^p^p^RUBRHier beginnt die Kurzfassung.^RUBR^hDie Geburt Jesu^pMit der Geburt Jesu Christi war es so:^lMaria, seine Mutter, war mit Josef verlobt; noch bevor sie zusammengekommen waren, zeigte sich, dass sie ein Kind erwartete – durch das Wirken des Heiligen Geistes.^pJosef, ihr Mann, der gerecht war und sie nicht bloßstellen wollte, beschloss, sich in aller Stille von ihr zu trennen.^pWährend er noch darüber nachdachte, siehe, da erschien ihm ein Engel des Herrn im Traum und sagte: Josef, Sohn Davids, fürchte dich nicht, Maria als deine Frau zu dir zu nehmen; denn das Kind, das sie erwartet, ist vom Heiligen Geist. Sie wird einen Sohn gebären; ihm sollst du den Namen Jesus geben; denn er wird sein Volk von seinen Sünden erlösen.^pDies alles ist geschehen, damit sich erfüllte, was der Herr durch den Propheten gesagt hat: Siehe, die Jungfrau wird ein Kind empfangen und einen Sohn gebären, und sie werden ihm den Namen Immanuel geben, das heißt übersetzt: Gott mit uns.^pAls Josef erwachte, tat er, was der Engel des Herrn ihm befohlen hatte, und nahm seine Frau zu sich. Er erkannte sie aber nicht, bis sie ihren Sohn gebar. Und er gab ihm den Namen Jesus.",
+            },
+            {
+                button: "Flucht°nach°Ägypten°und°Rückkehr",
+                les_buch: "Aus dem heiligen Evangelium nach Matthäus.",
+                les_stelle: "2,13-15.19-23",
+                les_text: "^hDie Flucht nach Ägypten^pAls die Sterndeuter wieder gegangen waren, erschien dem Josef im Traum ein Engel des Herrn und sagte: Steh auf, nimm das Kind und seine Mutter, und flieh nach Ägypten; dort bleibe, bis ich dir etwas anderes auftrage; denn Herodes wird das Kind suchen, um es zu töten.^pDa stand Josef in der Nacht auf und floh mit dem Kind und dessen Mutter nach Ägypten. Dort blieb er bis zum Tod des Herodes. Denn es sollte sich erfüllen, was der Herr durch den Propheten gesagt hat: Aus Ägypten habe ich meinen Sohn gerufen.^hDie Rückkehr aus Ägypten^pAls Herodes gestorben war, erschien dem Josef in Ägypten ein Engel des Herrn im Traum und sagte: Steh auf, nimm das Kind und seine Mutter und zieh in das Land Israel; denn die Leute, die dem Kind nach dem Leben getrachtet haben, sind tot.^pDa stand er auf und zog mit dem Kind und dessen Mutter in das Land Israel. Als er aber hörte, dass in Judäa Archelaus an Stelle seines Vaters Herodes regierte, fürchtete er sich, dorthin zu gehen. Und weil er im Traum einen Befehl erhalten hatte, zog er in das Gebiet von Galiläa und ließ sich in einer Stadt namens Nazaret nieder.^pDenn es sollte sich erfüllen, was durch die Propheten gesagt worden ist: Er wird Nazoräer genannt werden.",
+                les_text_neu: "^hDie Flucht nach Ägypten^pAls die Sterndeuter wieder gegangen waren, siehe, da erschien dem Josef im Traum ein Engel des Herrn und sagte: Steh auf, nimm das Kind und seine Mutter, und flieh nach Ägypten; dort bleibe, bis ich dir etwas anderes auftrage; denn Herodes wird das Kind suchen, um es zu töten.^pDa stand Josef auf und floh in der Nacht mit dem Kind und dessen Mutter nach Ägypten. Dort blieb er bis zum Tod des Herodes. Denn es sollte sich erfüllen, was der Herr durch den Propheten gesagt hat: Aus Ägypten habe ich meinen Sohn gerufen.^hDie Rückkehr aus Ägypten^pAls Herodes gestorben war, siehe, da erschien dem Josef in Ägypten ein Engel des Herrn im Traum und sagte: Steh auf, nimm das Kind und seine Mutter und zieh in das Land Israel; denn die Leute, die dem Kind nach dem Leben getrachtet haben, sind tot.^pDa stand er auf und zog mit dem Kind und dessen Mutter in das Land Israel. Als er aber hörte, dass in Judäa Archelaus an Stelle seines Vaters Herodes regierte, fürchtete er sich, dorthin zu gehen. Und weil er im Traum einen Befehl erhalten hatte, zog er in das Gebiet von Galiläa und ließ sich in einer Stadt namens Nazaret nieder.^pDenn es sollte sich erfüllen, was durch die Propheten gesagt worden ist: Er wird Nazoräer genannt werden.",
+            },
+            {
+                les_buch: "Aus dem heiligen Evangelium nach Matthäus.",
+                les_stelle: "12,46-50",
+                les_text: "^hDie wahre Familie Jesu^p",
+                les_text_neu: "",
+            },
+            {
+                les_buch: "Aus dem heiligen Evangelium nach Lukas.",
+                les_stelle: "2,1-14",
+                les_text: "^hDie Geburt Jesu^p",
+                les_text_neu: "",
+            },
+            {
+                les_buch: "Aus dem heiligen Evangelium nach Lukas.",
+                les_stelle: "2,15b-19",
+                les_text: "^hDie Hirten an der Krippe^p",
+                les_text_neu: "",
+            },
+            {
+                les_buch: "Aus dem heiligen Evangelium nach Lukas.",
+                les_stelle: "2,27-35",
+                les_text: "^hDie Darstellung Jesu im Tempel^p",
+                les_text_neu: "",
+            },
+            {
+                les_buch: "Aus dem heiligen Evangelium nach Lukas.",
+                les_stelle: "2,41-52",
+                les_text: "^hDer zwölfjährige Jesus im Tempel^p",
+                les_text_neu: "",
+            },
+            {
+                les_buch: "Aus dem heiligen Evangelium nach Lukas.",
+                les_stelle: "11,27-28",
+                les_text: "^hSelig, die das Wort Gottes hören und°es°befolgen^p",
+                les_text_neu: "",
+            },
+            {
+                les_buch: "Aus dem heiligen Evangelium nach Johannes.",
+                les_stelle: "2,1-11",
+                les_text: "^hDie Hochzeit zu Kana^p",
+                les_text_neu: "",
+            },
+        ],
+    },
+    "vigil-Hirten": {
+        first: [
+            {
+                les_buch: "Aus dem heiligen Evangelium nach Matthäus.",
+                les_stelle: "9,35-38",
+                les_text: "^hBittet den Herrn der Ernte, Arbeiter°für°seine°Ernte°auszusenden^p",
+                les_text_neu: "",
+            },
+            {
+                les_buch: "Aus dem heiligen Evangelium nach Matthäus.",
+                les_stelle: "16,13-19",
+                bezug: "[Für einen Papst]",
+                les_text: "^hDas Messiasbekenntnis des Petrus^p",
+                les_text_neu: "",
+            },
+            {
+                les_buch: "Aus dem heiligen Evangelium nach Matthäus.",
+                les_stelle: "23,8-12",
+                les_text: "^hNur einer ist euer Meister^p",
+                les_text_neu: "",
+            },
+            {
+                les_buch: "Aus dem heiligen Evangelium nach Matthäus.",
+                les_stelle: "28,16-20",
+                bezug: "[Für Glaubensboten]",
+                les_text: "^hDer Auftrag des Auferstandenen^p",
+                les_text_neu: "",
+            },
+            {
+                les_buch: "Aus dem heiligen Evangelium nach Markus.",
+                les_stelle: "1,14-20",
+                les_text: "^hDie Berufung der ersten Jünger^p",
+                les_text_neu: "",
+            },
+            {
+                les_buch: "Aus dem heiligen Evangelium nach Markus.",
+                les_stelle: "16,15-20",
+                bezug: "[Für Glaubensboten]",
+                les_text: "^hAussendung der Apostel und Himmelfahrt°Jesu^p",
+                les_text_neu: "",
+            },
+            {
+                les_buch: "Aus dem heiligen Evangelium nach Lukas.",
+                les_stelle: "5,1-11",
+                bezug: "[Für Glaubensboten]",
+                les_text: "^hDer reiche Fischfang^p",
+                les_text_neu: "",
+            },
+            {
+                les_buch: "Aus dem heiligen Evangelium nach Lukas.",
+                les_stelle: "10,1-9",
+                les_text: "^hDie Aussendung der zweiundsiebzig Jünger^p",
+                les_text_neu: "",
+            },
+            {
+                les_buch: "Aus dem heiligen Evangelium nach Lukas.",
+                les_stelle: "22,24-30",
+                les_text: "^hVom Herrschen und Dienen^p",
+                les_text_neu: "",
+            },
+            {
+                les_buch: "Aus dem heiligen Evangelium nach Johannes.",
+                les_stelle: "10,11-16",
+                les_text: "^hDer gute Hirt gibt°sein°Leben°hin für°die°Schafe^p",
+                les_text_neu: "",
+            },
+            {
+                les_buch: "Aus dem heiligen Evangelium nach Johannes.",
+                les_stelle: "15,9-17",
+                les_text: "^hBleibt in meiner Liebe^p",
+                les_text_neu: "",
+            },
+            {
+                les_buch: "Aus dem heiligen Evangelium nach Johannes.",
+                les_stelle: "21,1.15-17",
+                bezug: "[Für einen Papst]",
+                les_text: "^hSimon, Sohn des Johannes, liebst°du°micht?^p",
+                les_text_neu: "",
             },
         ],
     },

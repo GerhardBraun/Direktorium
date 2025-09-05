@@ -1664,7 +1664,7 @@ const PrayerTextDisplay = ({
             }}
             className="scroll-mt-32 mt-6 text-left long-rubric"
           >
-            Zu den Cantica und dem Evangelium für&nbsp;die&nbsp;Vigil&nbsp;&nbsp;→
+            Für eine Feier als Vigil: Cantica&nbsp;und&nbsp;Evangelium&nbsp;&nbsp;→
           </button>
         )}
 
@@ -2082,19 +2082,18 @@ export default function LiturgicalCalendar() {
     const savedDate = getLocalStorage("selectedDate");
     const currentDateFormatted = formatDate(selectedDate);
 
-    if (savedDate !== currentDateFormatted) {
-      console.log("Restoring selected date:", savedDate);
-      setPrefSrc("eig");
-      setPrefSollemnity("");
-      setUseCommemoration(false);
-    }
-
     let newSelectedDate = false;
     if (viewMode === "prayer" || viewMode === "prayerText") {
       newSelectedDate = currentDateFormatted;
     }
-
     setLocalStorage("selectedDate", newSelectedDate);
+
+    if (savedDate !== currentDateFormatted) {
+      console.log("neues Datum gespeichert:", newSelectedDate);
+      setPrefSrc("eig");
+      setPrefSollemnity("");
+      setUseCommemoration(false);
+    }
   }, [selectedDate, viewMode]);
 
   useEffect(() => {
@@ -2102,6 +2101,10 @@ export default function LiturgicalCalendar() {
     setTexts(processedData);
     console.log("neue Texte:", processedData);
 
+    if (viewMode === "prayerText" && selectedHour === "vigil" &&
+      !processedData?.hasVigil) {
+      setSelectedHour("lesehore")
+    }
   }, [selectedDate, prefSrc]);
 
   // Effect für die visibleEntries-Berechnung
