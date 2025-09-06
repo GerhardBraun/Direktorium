@@ -3048,17 +3048,30 @@ export const brevierData = {
           "bitten_lat": "^RUBRSeries prima:^0RUBR^lDeus, mirabílium patrátor, qui immaculátam Vírginem Maríam córpore et ánima cæléstis glóriæ Christi fecísti consórtem,^qfiliórum tuórum corda ad eándem glóriam dírige.^pQui Maríam dedísti nobis matrem, ipsa intercedénte, concéde medélam lánguidis, solámen mæréntibus, véniam peccatóribus,^qet ómnibus salútem et pacem.^pQui Maríam plenam grátia fecísti,^qlætam grátiæ tuæ cópiam ómnibus concéde.^pEcclésia tua sit cor unum et ánima una in caritáte,^qet fidéles persevérent unánimes in oratióne cum María, matre Iesu.^pQui Maríam cæli coronásti regínam,^qfac ut defúncti in regno tuo cum sanctórum ágmine gáudeant in ætérnum.^p^RUBRVel series altera:^0RUBR^lQui Maríam matrem misericórdiæ constituísti,^qversántibus in perículis concéde, ut matérnam eius dilectiónem experiántur.^pQui Maríam, in domo Iesu et Ioseph, matrem famílias esse voluísti,^qfac ut, ipsíus intercessióne, omnes matres in famíliis caritátem fóveant et sanctitátem.^pQui Maríam iuxta crucem stantem roborásti et in resurrectióne Fílii tui replésti lætítia,^qtribulátos súbleva spemque eórum confírma.^pQui Maríam tuo inténtam reddidísti verbo et ancíllam tuam fidélem effecísti,^qper eius intercessiónem nos Fílii tui fac servos et discípulos.^pQui Maríam cæli coronásti regínam,^qfac ut defúncti in regno tuo cum sanctórum ágmine gáudeant in ætérnum.",
           "les_text_lat": "Ubi venit plenitúdo témporis, misit Deus Fílium suum, factum ex mulíere, factum sub lege, ut eos, qui sub lege erant, redímeret, ut adoptiónem filiórum reciperémus."
         }
-      },
-      "Sa": {
+      }
+    },
+    "MariaSa": {
+      "each": {
         "Laudes": {
+          "hymn_1": 1038.0,
           "hymn_2": 1019.0,
-          "hymn_3": 1043.0,
-          "hymn_2_lat": 5465.0,
-          "hymn_3_lat": 5478.0
+          "hymn_3": 1043.0
         },
         "Lesehore": {
+          "hymn_1": 1026.0,
+          "hymn_2": 1027.0
+        }
+      },
+      "Sa": {
+        "Lesehore": {
+          "hymn_1_lat": 5463.0,
           "hymn_2_lat": 5464.0,
           "hymn_3_lat": 5457.0
+        },
+        "Laudes": {
+          "hymn_1_lat": 5473.0,
+          "hymn_2_lat": 5465.0,
+          "hymn_3_lat": 5478.0
         }
       }
     },
@@ -13755,8 +13768,7 @@ export const brevierData = {
           "ant0_lat": "Christum, Fílium Maríæ, veníte, adorémus.^VEL^ANTMemóriam beátæ Maríæ Vírginis clebrántes, iubilémus Dómino."
         },
         "Lesehore": {
-          "hymn_1": 1026.0,
-          "hymn_2": 1027.0,
+          "comm_1": "MariaSa",
           "patr_autor": "^A:MariaSaLh:Proclus von Konstantinopel († 446)",
           "patr_werk": "Aus einer Predigt zum Weihnachtsfest.",
           "patr_text": "^hDer°die°Menschen°liebt, ist°Mensch°geworden, geboren°von°der°Jungfrau^p„Die Himmel sollen sich freuen, die Wolken Gerechtigkeit regnen, denn der Herr hat sich seines Volkes erbarmt. Die Himmel sollen sich freuen“, denn als sie geschaffen wurden, wurde auch Adam von seinem Schöpfer gebildet aus jungfräulicher Erde; er wurde Gottes Freund und Hausgenosse.^p„Die Himmel sollen sich freuen“{1#Ps 96,11}, denn heute wurde durch das Kommen des Herrn im Fleisch die Erde geheiligt und die Menschen von den Götzenopfern befreit.^p„Die Wolken sollen Gerechtigkeit regnen“{2#vgl. Jes 45,8}, denn heute wurde die Sünde Evas weggenommen und vergeben um der Reinheit der Jungfrau Maria willen und durch den, der als Gott und Mensch von ihr geboren wurde. Heute wurde Adam von jenem schrecklichen Urteil befreit, das ihn einst zur Todesnacht verdammt hatte.^pHeute wurde Christus geboren von der Jungfrau, aus der er nach dem Heilsplan Gottes Fleisch angenommen hatte.^p„Das Wort ist Fleisch geworden und hat unter uns gewohnt“{3#Joh 1,14}, und daher wurde die Jungfrau zur Mutter Gottes. Sie wurde Mutter und blieb doch Jungfrau, denn ohne eines Mannes Zutun ist das Wort Fleisch geworden und wurde von ihr geboren; so bewahrte sie ihre Jungfräulichkeit durch die wunderbare Geburt dessen, der es so gewollt hatte.^pSie ist Mutter wegen der menschlichen Natur des göttlichen Wortes, das in ihr Fleisch geworden und der Welt erschienen ist; Wort und Fleisch wurden eins gemäß der Weisheit und dem Willen dessen, der große Wunder vollbringt.^pEr ist aus menschlichem Geschlecht, wie der heilige Paulus sagt. Er war, was er nun ist und sein und bleiben wird.^pUnseretwillen ist er Mensch geworden. Er, der den Menschen liebt, ist Mensch geworden, was er vorher nicht war. Er ist Mensch geworden und blieb doch Gott, ohne jede Veränderung. Er ist mir also ähnlich geworden um meinetwillen; er ist geworden, was er nicht war, und bewahrte dennoch, was er war. Er ist Mensch geworden, um sich unsere Leiden zu eigen zu machen, um uns die Macht zu geben, „Kinder Gottes zu werden“{4#Joh 1,12}, und uns sein Reich zu schenken.^pDessen mache uns würdig die Gnade und Barmherzigkeit des Herrn Jesus Christus, dem mit dem Vater und dem Heiligen Geist Ruhm und Ehre und Macht ist jetzt und alle Zeit und in Ewigkeit. Amen.",
@@ -13767,11 +13779,9 @@ export const brevierData = {
           "oration_lat": "^RUBRDicitur una ex sequentibus orationibus ad libitum selecta:^0RUBR^l^r1^0r°°°Concéde nos fámulos tuos, quǽsumus, Dómine Deus, perpétua mentis et córporis sanitáte gaudére, et, gloriósa beátæ Maríæ semper Vírginis intercessióne, a præsénti liberári tristítia, et ætérna pérfrui lætítia.^ORlV^p^r2^0r°°°Famulórum tuórum, quǽsumus, Dómine, delíctis ignósce, ut, qui tibi placére de áctibus nostris non valémus, Genetrícis Fílii tui Dómini nostri intercessióne salvémur.^ORlV^p^r3^0r°°°Concéde, miséricors Deus, fragilitáti nostræ præsídium, ut, qui sanctæ Dei Genetrícis memóriam ágimus, intercessiónis eius auxílio a nostris iniquitátibus resurgámus.^ORlV^p^r4^0r°°°Adiuvet nos, quǽsumus, Dómine, beátæ Maríæ semper Vírginis intercéssio veneránda, et a cunctis perículis absolútos in tua fáciat pace gaudére.^ORlV^p^r5^0r°°°Sanctíssimæ venerántibus Vírginis Maríæ memóriam gloriósam, ipsíus nobis, quǽsumus, Dómine, intercessióne concéde, ut de plenitúdine grátiæ tuæ nos quoque mereámur accípere.^ORlV^p^r6^0r°°°Concéde, quǽsumus, omnípotens Deus, ut fidéles tui, qui sub sanctíssimæ Vírginis Maríæ patrocínio lætántur, eius pia intercessióne a cunctis malis liberéntur in terris, et ad gáudia ætérna perveníre mereántur in cælis.^ORlV"
         },
         "Laudes": {
+          "comm_1": "MariaSa",
           "button": "Gedächtnis Mariens am°Samstag",
           "farbe": "m",
-          "hymn_1": 1038.0,
-          "hymn_2": 1019.0,
-          "hymn_3": 1043.0,
           "les_buch": "^A:MariaSaLd:Gal",
           "les_stelle": "4,4–5",
           "les_text": "Als die Zeit erfüllt war, sandte Gott seinen Sohn, geboren von einer Frau und dem Gesetz unterstellt, damit er die freikaufte, die unter dem Gesetz stehen, und damit wir die Sohnschaft erlangten.",
