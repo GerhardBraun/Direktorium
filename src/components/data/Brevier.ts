@@ -3052,7 +3052,12 @@ export const brevierData = {
     },
     "MariaSa": {
       "each": {
+        "Lesehore": {
+          "hymn_1": 1026.0,
+          "hymn_2": 1027.0
+        },
         "Laudes": {
+          "button": "Mar",
           "hymn_1": 1038.0,
           "hymn_2": 1019.0,
           "hymn_3": 1043.0,
@@ -3065,10 +3070,6 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, unser Erlöser, der geboren wurde aus der Jungfrau Maria. Zu ihm lasst uns beten:",
           "bitten_r": "Höre auf die Fürsprache deiner Mutter.",
           "bitten": "^RUBR1. Reihe:^0RUBR^lDu Sonne der Gerechtigkeit, Maria war die Morgenröte, die dein Kommen angekündigt hat;^qgib, dass wir allezeit in deinem Lichte leben.^pEwiges Wort des Vaters, du hast dir in der unversehrten Jungfrau Maria eine Wohnung bereitet;^qwohne auch in unseren Herzen.^pErlöser der Welt, Maria stand unter deinem Kreuz;^qauf ihre Fürsprache hilf uns, auch in schwerem Leid standzuhalten.^pGütiger Jesus, vom Kreuz aus hast du deine Mutter den Menschen zur Mutter gegeben;^qlass uns heute ihren Schutz erfahren.^p^RUBROder 2. Reihe:^0RUBR^lHeiland der Welt, du hast Maria vor jeder Makel der Sünde bewahrt;^qbewahre uns heute vor Schuld und Sünde.^pSohn des lebendigen Gottes, du hast dir die Jungfrau Maria als reine Wohnung erwählt;^qmache auch uns zu einem Tempel deines Geistes.^pEwiges Wort, deine Mutter Maria bewahrte in ihrem Herzen alles, was an ihr geschehen war;^qhilf uns, deine Weisungen zu überdenken.^pKönig der Könige, du hast deine Mutter Maria mit Leib und Seele in den Himmel aufgenommen;^qnimm uns auf in der Stunde unseres Todes."
-        },
-        "Lesehore": {
-          "hymn_1": 1026.0,
-          "hymn_2": 1027.0
         }
       },
       "Sa": {
