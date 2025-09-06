@@ -3055,7 +3055,16 @@ export const brevierData = {
         "Laudes": {
           "hymn_1": 1038.0,
           "hymn_2": 1019.0,
-          "hymn_3": 1043.0
+          "hymn_3": 1043.0,
+          "les_buch": "^A:MariaSaLd:Gal",
+          "les_stelle": "4,4–5",
+          "les_text": "Als die Zeit erfüllt war, sandte Gott seinen Sohn, geboren von einer Frau und dem Gesetz unterstellt, damit er die freikaufte, die unter dem Gesetz stehen, und damit wir die Sohnschaft erlangten.",
+          "resp1": "Du bliebst unversehrt nach der Geburt,",
+          "resp2": "heilige Jungfrau Maria.",
+          "resp3": "Gottesgebärerin, bitte für uns.",
+          "bitten_e": "Gepriesen sei Jesus Christus, unser Erlöser, der geboren wurde aus der Jungfrau Maria. Zu ihm lasst uns beten:",
+          "bitten_r": "Höre auf die Fürsprache deiner Mutter.",
+          "bitten": "^RUBR1. Reihe:^0RUBR^lDu Sonne der Gerechtigkeit, Maria war die Morgenröte, die dein Kommen angekündigt hat;^qgib, dass wir allezeit in deinem Lichte leben.^pEwiges Wort des Vaters, du hast dir in der unversehrten Jungfrau Maria eine Wohnung bereitet;^qwohne auch in unseren Herzen.^pErlöser der Welt, Maria stand unter deinem Kreuz;^qauf ihre Fürsprache hilf uns, auch in schwerem Leid standzuhalten.^pGütiger Jesus, vom Kreuz aus hast du deine Mutter den Menschen zur Mutter gegeben;^qlass uns heute ihren Schutz erfahren.^p^RUBROder 2. Reihe:^0RUBR^lHeiland der Welt, du hast Maria vor jeder Makel der Sünde bewahrt;^qbewahre uns heute vor Schuld und Sünde.^pSohn des lebendigen Gottes, du hast dir die Jungfrau Maria als reine Wohnung erwählt;^qmache auch uns zu einem Tempel deines Geistes.^pEwiges Wort, deine Mutter Maria bewahrte in ihrem Herzen alles, was an ihr geschehen war;^qhilf uns, deine Weisungen zu überdenken.^pKönig der Könige, du hast deine Mutter Maria mit Leib und Seele in den Himmel aufgenommen;^qnimm uns auf in der Stunde unseres Todes."
         },
         "Lesehore": {
           "hymn_1": 1026.0,
@@ -3071,7 +3080,15 @@ export const brevierData = {
         "Laudes": {
           "hymn_1_lat": 5473.0,
           "hymn_2_lat": 5465.0,
-          "hymn_3_lat": 5478.0
+          "hymn_3_lat": 5478.0,
+          "resp1_lat": "Post partum, Virgo,",
+          "resp2_lat": "invioláta°permansísti.",
+          "resp3_lat": "Dei Génetrix, intercéde pro nobis.",
+          "antev_lat": "^RUBRAd Benedictus, antiphona ex sequentibus ad libitum sumitur:^0RUBR^l^r1^0r°°°Beatíssimæ Vírginis Maríæ commemoratiónem devotíssime celebrémus, ut ipsa pro nobis intercédat ad Dóminum Iesum Christum.^p^r2^0r°°°Benedícta es tu, Virgo María, a Dómino Deo excélso, præ ómnibus muliéribus super terram.^p^r3^0r°°°Per te, immaculáta Virgo, nobis est vita pérdita data, quæ de cælo suscepísti prolem et mundo genuísti Salvatórem.^p^r4^0r°°°Ave, María, grátia plena; Dóminus tecum; benedícta tu in muliéribus.^Lö^p^r5^0r°°°Sancta et immaculáta Maríæ virgínitas, quibus te láudibus éfferam néscio, quia per te Redemptórem nostrum suscépimus, Dóminum nostrum Iesum Christum.^p^r6^0r°°°Tu glória Ierúsalem, tu lætítia Israel, tu honorificéntia pópuli nostri.",
+          "bitten_e_lat": "Salvatórem nostrum celebrántes, qui ex María Vírgine nasci dignátus est, exorémus dicéntes:",
+          "bitten_r_lat": "Intercédat pro nobis mater tua, Dómine.",
+          "bitten_lat": "^RUBRSeries prima:^0RUBR^lO sol iustítiæ, quem immaculáta Virgo ut lucens auróra præcéssit,^qtríbue ut in lúmine visitatiónis tuæ semper ambulémus.^pVerbum ætérnum, quod Maríam habitatiónis tuæ arcam incorruptíbilem elegísti,^qlíbera nos a corruptióne peccáti.^pSalvátor noster, qui iuxta crucem matrem tuam habuísti,^qpræsta ut, ipsa intercedénte, communicántes tuis passiónibus gaudeámus.^pBenigníssime Iesu, qui pendens in cruce, Maríam Ioánni matrem dedísti,^qda nobis ita vívere ut eius fílii agnoscámur.^p^RUBRVel series altera:^0RUBR^lSalvátor mundi, qui redemptiónis tuæ virtúte ab omni peccáti labe matrem tuam præservásti,^qserva nos mundos a peccáto.^pRedémptor noster, qui Vírginem Maríam thálamum puríssimum habitatiónis tuæ et Spíritus Sancti fecísti sacrárium,^qnos templum tui Spíritus fac perénne.^pVerbum ætérnum, quod matrem tuam docuísti óptimam sibi partem elígere,^qtríbue nobis eam imitári, cibum quæréntes, qui permáneat in vitam ætérnam.^pRex regum, qui matrem tuam córpore et ánima tecum voluísti in cælum assúmptam,^qfac ut quæ sursum sunt semper cogitémus.^pDómini cæli et terræ, qui Maríam regínam a dextris tuis astáre fecísti,^qtríbue nos eiúsdem glóriæ meréri consórtium.",
+          "les_text_lat": "Ubi venit plenitúdo témporis, misit Deus Fílium suum, factum ex mulíere, factum sub lege, ut eos, qui sub lege erant, redímeret, ut adoptiónem filiórum reciperémus."
         }
       }
     },
@@ -13782,19 +13799,8 @@ export const brevierData = {
           "comm_1": "MariaSa",
           "button": "Gedächtnis Mariens am°Samstag",
           "farbe": "m",
-          "les_buch": "^A:MariaSaLd:Gal",
-          "les_stelle": "4,4–5",
-          "les_text": "Als die Zeit erfüllt war, sandte Gott seinen Sohn, geboren von einer Frau und dem Gesetz unterstellt, damit er die freikaufte, die unter dem Gesetz stehen, und damit wir die Sohnschaft erlangten.",
-          "resp1": "Du bliebst unversehrt nach der Geburt,",
-          "resp2": "heilige Jungfrau Maria.",
-          "resp3": "Gottesgebärerin, bitte für uns.",
           "antev": "^RUBRBenedictus-Antiphonen zur Auswahl:^0RUBR^l^r1^0r°°°Der seligen Jungfrau Maria lasst uns gedenken; sie bittet für uns bei Christus, dem Herrn.^p^r2^0r°°°Gesegnet bist du, Jungfrau Maria, vom Herrn, dem erhabenen Gott, vor allen Frauen auf Erden.^p^r3^0r°°°Durch dich, o heilige Jungfrau, ist uns das Leben neu geschenkt; du hast empfangen durch den Heiligen Geist und der Welt den Heiland geboren.^p^r4^0r°°°Gegrüßet seist du, Maria, voll der Gnade, der Herr ist mit dir. Du bist gebenedeit unter den Frauen.^ö^p^r5^0r°°°Heilige und makellose Jungfrau, wie soll ich dich preisen: Du hast den Erlöser geboren, Jesus Christus, unsern Herrn.^p^r6^0r°°°Du bist der Ruhm Jerusalems, du die Freude Israels und der Stolz unseres Volkes.",
           "oration": "^RUBRMan kann eine der folgenden Orationen auswählen:^0RUBR^l^r1^0r°°°Herr und Gott, auf die Fürsprache der jungfräulichen Mutter Maria schenke uns die Gesundheit des Leibes und das Heil der Seele. Nimm von uns die Traurigkeit dieser Zeit und führe uns zur ewigen Freude.^ORV^p^r2^0r°°°Barmherziger Gott, mit unserem eigenen Tun können wir vor dir nicht bestehen. Darum höre auf die Fürsprache der seligen Jungfrau Maria. Schau nicht auf unser Versagen, sondern sei uns gnädig und rette uns.^ORV^p^r3^0r°°°Barmherziger Gott, du kennst unsere Schwachheit und unsere Not. Auf die Fürsprache der seligen Jungfrau Maria nimm von uns die Last der Sünde, verzeih uns und richte uns auf.^ORV^p^r4^0r°°°Gütiger Gott, komm uns zu Hilfe auf die Fürsprache der seligen Jungfrau Maria. Befreie uns aus allen Gefahren und lass uns froh werden in deinem Frieden.^ORV^p^r5^0r°°°Allmächtiger Gott, wir gedenken der seligen Jungfrau Maria, die du aus allen Menschen erwählt und geheiligt hast. Höre auf ihre Fürsprache und schenke auch uns Heil und Segen aus der Fülle deiner Gnade.^ORV^p^r6^0r°°°Allmächtiger Gott, im Vertrauen auf die Fürsprache Unserer Lieben Frau flehen wir zu dir. Befreie uns von allem Bösen, das uns auf Erden bedroht, und schenke uns im Himmel die unvergängliche Freude.^ORV",
-          "resp1_lat": "Post partum, Virgo,",
-          "resp2_lat": "invioláta°permansísti.",
-          "resp3_lat": "Dei Génetrix, intercéde pro nobis.",
-          "antev_lat": "^RUBRAd Benedictus, antiphona ex sequentibus ad libitum sumitur:^0RUBR^l^r1^0r°°°Beatíssimæ Vírginis Maríæ commemoratiónem devotíssime celebrémus, ut ipsa pro nobis intercédat ad Dóminum Iesum Christum.^p^r2^0r°°°Benedícta es tu, Virgo María, a Dómino Deo excélso, præ ómnibus muliéribus super terram.^p^r3^0r°°°Per te, immaculáta Virgo, nobis est vita pérdita data, quæ de cælo suscepísti prolem et mundo genuísti Salvatórem.^p^r4^0r°°°Ave, María, grátia plena; Dóminus tecum; benedícta tu in muliéribus.^Lö^p^r5^0r°°°Sancta et immaculáta Maríæ virgínitas, quibus te láudibus éfferam néscio, quia per te Redemptórem nostrum suscépimus, Dóminum nostrum Iesum Christum.^p^r6^0r°°°Tu glória Ierúsalem, tu lætítia Israel, tu honorificéntia pópuli nostri.",
-          "les_text_lat": "Ubi venit plenitúdo témporis, misit Deus Fílium suum, factum ex mulíere, factum sub lege, ut eos, qui sub lege erant, redímeret, ut adoptiónem filiórum reciperémus.",
           "oration_lat": "^RUBRDicitur una ex sequentibus orationibus ad libitum selecta:^0RUBR^l^r1^0r°°°Concéde nos fámulos tuos, quǽsumus, Dómine Deus, perpétua mentis et córporis sanitáte gaudére, et, gloriósa beátæ Maríæ semper Vírginis intercessióne, a præsénti liberári tristítia, et ætérna pérfrui lætítia.^ORlV^p^r2^0r°°°Famulórum tuórum, quǽsumus, Dómine, delíctis ignósce, ut, qui tibi placére de áctibus nostris non valémus, Genetrícis Fílii tui Dómini nostri intercessióne salvémur.^ORlV^p^r3^0r°°°Concéde, miséricors Deus, fragilitáti nostræ præsídium, ut, qui sanctæ Dei Genetrícis memóriam ágimus, intercessiónis eius auxílio a nostris iniquitátibus resurgámus.^ORlV^p^r4^0r°°°Adiuvet nos, quǽsumus, Dómine, beátæ Maríæ semper Vírginis intercéssio veneránda, et a cunctis perículis absolútos in tua fáciat pace gaudére.^ORlV^p^r5^0r°°°Sanctíssimæ venerántibus Vírginis Maríæ memóriam gloriósam, ipsíus nobis, quǽsumus, Dómine, intercessióne concéde, ut de plenitúdine grátiæ tuæ nos quoque mereámur accípere.^ORlV^p^r6^0r°°°Concéde, quǽsumus, omnípotens Deus, ut fidéles tui, qui sub sanctíssimæ Vírginis Maríæ patrocínio lætántur, eius pia intercessióne a cunctis malis liberéntur in terris, et ad gáudia ætérna perveníre mereántur in cælis.^ORlV"
         }
       }
