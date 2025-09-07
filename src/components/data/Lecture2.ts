@@ -1394,7 +1394,11 @@ export const lecture2Data = {
         "Lesehore": {}
       },
       "2": {
-        "Lesehore": {}
+        "Lesehore": {
+          "les_buch": "^A:j-11-2:Aus dem …",
+          "les_stelle": "2,1-3",
+          "les_text": "^hÜberschrift^pText"
+        }
       },
       "3": {
         "Lesehore": {}
@@ -1411,7 +1415,11 @@ export const lecture2Data = {
     },
     "12": {
       "0": {
-        "Lesehore": {}
+        "Lesehore": {
+          "patr_autor": "^A:j-12-0:Autor",
+          "patr_werk": "Aus einem Werk.",
+          "patr_text": "^hÜberschrift^pText"
+        }
       },
       "1": {
         "Lesehore": {}
