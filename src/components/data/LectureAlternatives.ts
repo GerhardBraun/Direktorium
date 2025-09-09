@@ -332,7 +332,7 @@ export const lectureAlternatives = {
             },
         ],
     },
-    "vigil-8": {
+    "vigil-So-8": {
         first: [
             { les_stelle: "^Q:Joh 21,1-14", },
         ],
@@ -340,150 +340,61 @@ export const lectureAlternatives = {
     "vigil-Dreifaltigkeit": {
         first: [
             { excludeYear: "a", les_stelle: "^Q:Joh 3,16-18", },
-            {
-                excludeYear: "b",
-                les_buch: "Aus dem heiligen Evangelium nach Matthäus.",
-                les_stelle: "28,16-20",
-                les_text: "^hTauft sie auf den Namen des Vaters und des Sohnes und des heiligen Geistes^p",
-                les_text_neu: "",
-            },
-            {
-                excludeYear: "c",
-                les_buch: "Aus dem heiligen Evangelium nach Johannes.",
-                les_stelle: "16,12-15",
-                les_text: "^hAlles, was der Vater hat, ist mein. Der Geist wird von dem, was mein ist, nehmen und es euch verkünden^p",
-                les_text_neu: "",
-            },
+            { excludeYear: "b", les_stelle: "^Q:Mt 28,16-20", },
+            { excludeYear: "c", les_stelle: "^Q:Joh 16,12-15", },
         ],
     },
     "vigil-Fronleichnam": {
         first: [
             { excludeYear: "a", les_stelle: "^Q:Joh 6,51-58", },
-            {
-                excludeYear: "b",
-                les_buch: "Aus dem heiligen Evangelium nach Markus.",
-                les_stelle: "14,12-16.22-26",
-                les_text: "^hDas ist mein Leib. Das ist mein Blut, das Blut des Bundes^p",
-                les_text_neu: "",
-            },
-            {
-                excludeYear: "c",
-                les_buch: "Aus dem heiligen Evangelium nach Lukas.",
-                les_stelle: "9,11b-17",
-                les_text: "^hAlle aßen und wurden satt^p",
-                les_text_neu: "",
-            },
+            { excludeYear: "b", les_stelle: "^Q:Mk 14,12-16.22-26", },
+            { excludeYear: "c", les_stelle: "^Q:Lk 9,11b-17", },
         ],
     },
     "vigil-HerzJesu": {
         first: [
-            {
-                excludeYear: "a",
-                les_buch: "Aus dem heiligen Evangelium nach Matthäus.",
-                les_stelle: "11,25-30",
-                les_text: "^hLernt von mir, denn ich bin gütig und von Herzen demütig^p",
-                les_text_neu: "",
-            },
-            {
-                excludeYear: "b",
-                les_buch: "Aus dem heiligen Evangelium nach Johannes.",
-                les_stelle: "19,31-37",
-                les_text: "^hEiner der Soldaten stieß mit der Lanze ...^p",
-                les_text_neu: "",
-            },
-            {
-                excludeYear: "c",
-                les_buch: "Aus dem heiligen Evangelium nach Markus.",
-                les_stelle: "15,3-7",
-                les_text: "^hFreut euch mit mir: Ich habe mein Schaf wiedergefunden, das verloren war^p",
-                les_text_neu: "",
-            },
+            { excludeYear: "a", les_stelle: "^Q:Mt 11,25-30", },
+            { excludeYear: "b", les_stelle: "^Q:Joh 19,31-37", },
+            { excludeYear: "c", les_stelle: "^Q:Mk 15,3-7", },
         ],
     },
     "vigil-Himmelfahrt": {
         first: [
-            {
-                excludeYear: "a",
-                les_buch: "",
-                les_stelle: "",
-                les_text: "",
-                les_text_neu: "",
-            },
-            {
-                excludeYear: "b",
-                les_buch: "",
-                les_stelle: "",
-                les_text: "",
-                les_text_neu: "",
-            },
-            {
-                excludeYear: "c",
-                les_buch: "",
-                les_stelle: "",
-                les_text: "",
-                les_text_neu: "",
-            },
+            { excludeYear: "a", les_stelle: "^Q:Mt 28,16-20", },
+            { excludeYear: "b", les_stelle: "", },
+            { excludeYear: "c", les_stelle: "", },
         ],
     },
     "vigil-Verklärung": {
         first: [
-            {
-                excludeYear: "a",
-                les_buch: "",
-                les_stelle: "",
-                les_text: "",
-                les_text_neu: "",
-            },
-            {
-                excludeYear: "b",
-                les_buch: "",
-                les_stelle: "",
-                les_text: "",
-                les_text_neu: "",
-            },
-            {
-                excludeYear: "c",
-                les_buch: "",
-                les_stelle: "",
-                les_text: "",
-                les_text_neu: "",
-            },
+            { les_buch: "^A:vigil-q-2", },
+            { les_buch: "^A:vigil-So-2", },
         ],
     },
     "vigil-Christkönig": {
         first: [
-            {
-                excludeYear: "a",
-                les_buch: "",
-                les_stelle: "",
-                les_text: "",
-                les_text_neu: "",
-            },
-            {
-                excludeYear: "b",
-                les_buch: "",
-                les_stelle: "",
-                les_text: "",
-                les_text_neu: "",
-            },
-            {
-                excludeYear: "c",
-                les_buch: "",
-                les_stelle: "",
-                les_text: "",
-                les_text_neu: "",
-            },
+            { excludeYear: "a", les_stelle: "^Q:Mt 25,31-46", },
+            { excludeYear: "b", les_stelle: "^Q:Joh 18,33b-37", },
+            { excludeYear: "c", les_stelle: "", },
         ],
     },
     "vigil-Erscheinung": {
         first: [
+            { les_stelle: "^Q:Joh 1,1-18", },
             { les_stelle: "^Q:Joh 2,1-11", },
         ],
     },
     "vigil-Darstellung": {
         first: [
+            { les_stelle: "^Q:Joh 1,1-18", },
             { les_stelle: "^Q:Joh 3,16-21", },
-            { les_stelle: "^Q:Lk 24,13-35", },
+            // { les_stelle: "^Q:Lk 24,13-35", },
+        ],
+    },
+    "vigil-Josef": {
+        first: [
+            { les_stelle: "^Q:Mt 1,16.18-21.24a", },
+            { les_stelle: "^Q:Lk 2,41-51a", },
         ],
     },
     "vigil-Johannes": {
@@ -492,29 +403,31 @@ export const lectureAlternatives = {
             { les_stelle: "^Q:Joh 1,29-34", },
         ],
     },
+    "vigil-PeterPaul": {
+        first: [
+            { les_stelle: "^Q:Lk 5,1-11", },
+            { les_stelle: "^Q:Joh 6,60-70", },
+        ],
+    },
+    "vigil-Allerheiligen": {
+        first: [
+            { les_stelle: "^Q:Mt 5,13-16", },
+            { les_stelle: "^Q:Joh 15,1-8", },
+            { les_stelle: "^Q:Joh 15,9-17", },
+        ],
+    },
     "vigil-q-1": {
         first: [
-            {
-                excludeYear: "a",
-                les_buch: "",
-                les_stelle: "",
-                les_text: "",
-                les_text_neu: "",
-            },
-            {
-                excludeYear: "b",
-                les_buch: "",
-                les_stelle: "",
-                les_text: "",
-                les_text_neu: "",
-            },
-            {
-                excludeYear: "c",
-                les_buch: "",
-                les_stelle: "",
-                les_text: "",
-                les_text_neu: "",
-            },
+            { excludeYear: "a", les_stelle: "", },
+            { excludeYear: "b", les_stelle: "", },
+            { excludeYear: "c", les_stelle: "", },
+        ],
+    },
+    "vigil-q-2": {
+        first: [
+            { excludeYear: "a", les_stelle: "^Q:Mt 17,1-9", },
+            { excludeYear: "b", les_stelle: "", },
+            { excludeYear: "c", les_stelle: "", },
         ],
     },
     "vigil-q-3": {
@@ -527,154 +440,74 @@ export const lectureAlternatives = {
     },
     "vigil-q-4": {
         first: [
-            { excludeYear: "a", les_stelle: "", },
+            { excludeYear: "a", les_stelle: "^Q:Joh 9,1-41", },
+            { excludeYear: "a", les_stelle: "^Q:Joh 9,1-41k", },
             { excludeYear: "b", les_stelle: "^Q:Joh 3,14-21", },
-            { excludeYear: "c", les_stelle: "", },
+            { excludeYear: "c", les_stelle: "^Q:Lk 15,1-3.11-32", },
         ],
     },
     "vigil-q-5": {
         first: [
-            { excludeYear: "a", les_stelle: "", },
-            { excludeYear: "b", les_stelle: "", },
+            { excludeYear: "a", les_stelle: "^Q:Joh 11,1-45", },
+            { excludeYear: "a", les_stelle: "^Q:Joh 11,1-45k", },
+            { excludeYear: "b", les_stelle: "^Q:Joh 12,20-33", },
             { excludeYear: "c", les_stelle: "^Q:Joh 8,1-11", },
         ],
     },
     "vigil-KarFr": {
         first: [
-            {
-                les_buch: "",
-                les_stelle: "",
-                les_text: "",
-                les_text_neu: "",
-            },
-            {
-                les_buch: "",
-                les_stelle: "",
-                les_text: "",
-                les_text_neu: "",
-            },
-            {
-                les_buch: "",
-                les_stelle: "",
-                les_text: "",
-                les_text_neu: "",
-            },
+            { excludeYear: "a", les_stelle: "^Q:Mt 27,1-2.11-56", },
+            { excludeYear: "b", les_stelle: "", },
+            { excludeYear: "c", les_stelle: "", },
         ],
     },
     "vigil-KarSa": {
         first: [
-            {
-                les_buch: "",
-                les_stelle: "",
-                les_text: "",
-                les_text_neu: "",
-            },
-            {
-                les_buch: "",
-                les_stelle: "",
-                les_text: "",
-                les_text_neu: "",
-            },
-            {
-                les_buch: "",
-                les_stelle: "",
-                les_text: "",
-                les_text_neu: "",
-            },
+            { excludeYear: "a", les_stelle: "^Q:Mt 27,57-66", },
+            { excludeYear: "b", les_stelle: "", },
+            { excludeYear: "c", les_stelle: "", },
         ],
     },
     "vigil-Maria": {
         first: [
             { les_stelle: "^Q:Lk 1,26-38", },
-            {
-                les_buch: "Aus dem heiligen Evangelium nach Lukas.",
-                les_stelle: "1,39-47",
-                les_text: "^hDer Besuch Marias bei Elisabeth^pIn jenen Tagen machte sich Maria auf den Weg und eilte in eine Stadt im Bergland von Judäa. Sie ging in das Haus des Zacharías und begrüßte Elisabet.^pAls Elisabet den Gruß Marias hörte, hüpfte das Kind in ihrem Leib. Da wurde Elisabet vom Heiligen Geist erfüllt und rief mit lauter Stimme:^lGesegnet bist du mehr als alle anderen Frauen^lund gesegnet ist die Frucht deines Leibes.^pWer bin ich, dass die Mutter meines Herrn zu mir kommt? In dem Augenblick, als ich deinen Gruß hörte, hüpfte das Kind vor Freude in meinem Leib. Selig ist die, die geglaubt hat, dass sich erfüllt, was der Herr ihr sagen ließ.^pDa sagte Maria:^lMeine Seele preist die Größe des Herrn,^lund mein Geist jubelt über Gott, meinen Retter.",
-                les_text_neu: "^hDer Besuch Marias bei Elisabeth^pIn jenen Tagen machte sich Maria auf den Weg und eilte in eine Stadt im Bergland von Judäa. Sie ging in das Haus des Zacharías und begrüßte Elisabet.^pUnd es geschah, als Elisabet den Gruß Marias hörte, hüpfte das Kind in ihrem Leib. Da wurde Elisabet vom Heiligen Geist erfüllt und rief mit lauter Stimme:^lGesegnet bist du unter den Frauen^lund gesegnet ist die Frucht deines Leibes.^pWer bin ich, dass die Mutter meines Herrn zu mir kommt? Denn siehe, in dem Augenblick, als ich deinen Gruß hörte, hüpfte das Kind vor Freude in meinem Leib. Und selig, die geglaubt hat, dass sich erfüllt, was der Herr ihr sagen ließ.^pDa sagte Maria:^lMeine Seele preist die Größe des Herrn,^lund mein Geist jubelt über Gott, meinen Retter.",
-            },
-            {
-                les_buch: "Aus dem heiligen Evangelium nach Johannes.",
-                les_stelle: "19,25-27",
-                les_text: "^hMaria und der Jünger unter°dem°Kreuz^pIn jener Zeit standen bei dem Kreuz Jesu seine Mutter und die Schwester seiner Mutter, Maria, die Frau des Klopas, und Maria von Magdala.^pAls Jesus seine Mutter sah und bei ihr den Jünger, den er liebte, sagte er zu seiner Mutter:^lFrau, siehe, dein Sohn!^pDann sagte er zu dem Jünger:^lSiehe, deine Mutter!^pUnd von jener Stunde an nahm sie der Jünger zu sich.",
-                les_text_neu: "^hMaria und der Jünger unter°dem°Kreuz^pIn jener Zeit standen bei dem Kreuz Jesu seine Mutter und die Schwester seiner Mutter, Maria, die Frau des Klopas, und Maria von Magdala.^pAls Jesus die Mutter sah und bei ihr den Jünger, den er liebte, sagte er zur Mutter:^lFrau, siehe, dein Sohn!^pDann sagte er zu dem Jünger:^lSiehe, deine Mutter!^pUnd von jener Stunde an nahm sie der Jünger zu sich.",
-            },
+            { les_stelle: "^Q:Lk 1,39-47", },
+            { les_stelle: "^Q:Joh 19,25-27", },
             { group: "weitere Evangelien zur Auswahl ..." },
-            {
-                button: "Stammbaum°und°Geburt°Jesu",
-                les_buch: "Aus dem heiligen Evangelium nach Matthäus.",
-                les_stelle: "1,1-16.18-23",
-                les_text: "^RUBRDas Evangelium kann in einer Kurzfassung genommen werden, beginnend°unten°mit°Vers°18: „Die°Geburt°Jesu“.^0RUBR^hDer Stammbaum Jesu^pStammbaum Jesu Christi,^ldes Sohnes Davids,^ldes Sohnes Abrahams:^pAbraham war der Vater von Isaak,^lIsaak von Jakob,^lJakob von Juda und seinen Brüdern.^lJuda war der Vater von°Perez°und°Serach;^lihre Mutter war Tamar.^lPerez war der Vater von Hezron,^lHezron von Aram,^lAram von Amminadab,^lAmminadab von Nachschon,^lNachschon von Salmon.^pSalmon war der Vater von Boas;^ldessen Mutter war Rahab.^lBoas war der Vater von Obed;^ldessen Mutter war Rut.^lObed war der Vater von Isai,^lIsai der Vater des Königs David.^pDavid war der Vater von Salomo,^ldessen Mutter die Frau des Urija war.^lSalomo war der Vater von Rehabeam,^lRehabeam von Abija,^lAbija von Asa,^lAsa von Joschafat,^lJoschafat von Joram,^lJoram von Usija.^pUsija war der Vater von Jotam,^lJotam von Ahas,^lAhas von Hiskija,^lHiskija von Manasse,^lManasse von Amos,^lAmos von Joschija.^pJoschija war der Vater von°Jojachin°und°seinen°Brüdern;^ldas war zur Zeit der°Babylonischen°Gefangenschaft.^pNach der Babylonischen Gefangenschaft^lwar Jojachin der Vater von Schealtiël,^lSchealtiël von Serubbabel,^lSerubbabel von Abihud,^lAbihud von Eljakim,^lEljakim von Azor.^pAzor war der Vater von Zadok,^lZadok von Achim,^lAchim von Eliud,^lEliud von Eleasar,^lEleasar von Mattan,^lMattan von Jakob.^pJakob war der Vater von Josef, dem°Mann°Marias;^lvon ihr wurde Jesus geboren,^lder der Christus – der Messias – genannt°wird.^p^RUBRHier beginnt die Kurzfassung.^RUBR^hDie Geburt Jesu^pMit der Geburt Jesu Christi war es so:^lMaria, seine Mutter, war mit Josef verlobt; noch bevor sie zusammengekommen waren, zeigte sich, dass sie ein Kind erwartete – durch das Wirken des Heiligen Geistes.^pJosef, ihr Mann, der gerecht war und sie nicht bloßstellen wollte, beschloss, sich in aller Stille von ihr zu trennen.^pWährend er noch darüber nachdachte, erschien ihm ein Engel des Herrn im Traum und sagte: Josef, Sohn Davids, fürchte dich nicht, Maria als deine Frau zu dir zu nehmen; denn das Kind, das sie erwartet, ist vom Heiligen Geist. Sie wird einen Sohn gebären; ihm sollst du den Namen Jesus geben; denn er wird sein Volk von seinen Sünden erlösen.^pDies alles ist geschehen, damit sich erfüllte, was der Herr durch den Propheten gesagt hat: Seht, die Jungfrau wird ein Kind empfangen, einen Sohn wird sie gebären, und man wird ihm den Namen Immanuel geben, das heißt übersetzt: Gott ist mit uns.^pAls Josef erwachte, tat er, was der Engel des Herrn ihm befohlen hatte, und nahm seine Frau zu sich. Er erkannte sie aber nicht, bis sie ihren Sohn gebar. Und er gab ihm den Namen Jesus.",
-                les_text_neu: "^RUBRDas Evangelium kann in einer Kurzfassung genommen werden, beginnend°unten°mit°Vers°18.^0RUBR^^hDer Stammbaum Jesu^pBuch des Ursprungs Jesu Christi,^ldes Sohnes Davids,^ldes Sohnes Abrahams:^pAbraham zeugte den Isaak,^lIsaak zeugte den Jakob,^lJakob zeugte den Juda und seine Brüder.^lJuda zeugte den Perez und den Serach mit°der°Tamar.^lPerez zeugte den Hezron,^lHezron zeugte den Aram,^lAram zeugte den Amminadab,^lAmminadab zeugte den Nachschon,^lNachschon zeugte den Salmon.^pSalmon zeugte den Boas^lmit°der°Rahab.^lBoas zeugte den Obed^lmit°der°Rut.^lObed zeugte den Isai,^lIsai zeugte David, den König.^pDavid zeugte den Salomo^lmit der Frau des Urija.^lSalomo zeugte den Rehabeam,^lRehabeam zeugte den Abija,^lAbija zeugte den Asa,^lAsa zeugte den Joschafat,^lJoschafat zeugte den Joram,^lJoram zeugte den Usija.^pUsija zeugte den Jotam,^lJotam zeugte den Ahas,^lAhas zeugte den Hiskija,^lHiskija zeugte den Manasse,^lManasse zeugte den Amos,^lAmos zeugte den Joschija.^pJoschija zeugte den°Jojachin°und°seine°Brüder;^ldas war zur Zeit der°Babylonischen°Gefangenschaft.^pNach der Babylonischen Gefangenschaft^lzeugte Jojachin den Schealtiël,^lSchealtiël zeugte den Serubbabel,^lSerubbabel zeugte den Abihud,^lAbihud zeugte den Eljakim,^lEljakim zeugte den Azor.^pAzor zeugte den Zadok,^lZadok zeugte den Achim,^lAchim zeugte den Eliud,^lEliud zeugte den Eleasar,^lEleasar zeugte den Mattan,^lMattan zeugte den Jakob.^pJakob zeugte den Josef, den°Mann°Marias;^lvon ihr wurde Jesus geboren,^lder der Christus genannt wird.^p^RUBRHier beginnt die Kurzfassung.^RUBR^hDie Geburt Jesu^pMit der Geburt Jesu Christi war es so:^lMaria, seine Mutter, war mit Josef verlobt; noch bevor sie zusammengekommen waren, zeigte sich, dass sie ein Kind erwartete – durch das Wirken des Heiligen Geistes.^pJosef, ihr Mann, der gerecht war und sie nicht bloßstellen wollte, beschloss, sich in aller Stille von ihr zu trennen.^pWährend er noch darüber nachdachte, siehe, da erschien ihm ein Engel des Herrn im Traum und sagte: Josef, Sohn Davids, fürchte dich nicht, Maria als deine Frau zu dir zu nehmen; denn das Kind, das sie erwartet, ist vom Heiligen Geist. Sie wird einen Sohn gebären; ihm sollst du den Namen Jesus geben; denn er wird sein Volk von seinen Sünden erlösen.^pDies alles ist geschehen, damit sich erfüllte, was der Herr durch den Propheten gesagt hat: Siehe, die Jungfrau wird ein Kind empfangen und einen Sohn gebären, und sie werden ihm den Namen Immanuel geben, das heißt übersetzt: Gott mit uns.^pAls Josef erwachte, tat er, was der Engel des Herrn ihm befohlen hatte, und nahm seine Frau zu sich. Er erkannte sie aber nicht, bis sie ihren Sohn gebar. Und er gab ihm den Namen Jesus.",
-            },
-            {
-                button: "Flucht°nach°Ägypten°und°Rückkehr",
-                les_buch: "Aus dem heiligen Evangelium nach Matthäus.",
-                les_stelle: "2,13-15.19-23",
-                les_text: "^hDie Flucht nach Ägypten^pAls die Sterndeuter wieder gegangen waren, erschien dem Josef im Traum ein Engel des Herrn und sagte: Steh auf, nimm das Kind und seine Mutter, und flieh nach Ägypten; dort bleibe, bis ich dir etwas anderes auftrage; denn Herodes wird das Kind suchen, um es zu töten.^pDa stand Josef in der Nacht auf und floh mit dem Kind und dessen Mutter nach Ägypten. Dort blieb er bis zum Tod des Herodes. Denn es sollte sich erfüllen, was der Herr durch den Propheten gesagt hat: Aus Ägypten habe ich meinen Sohn gerufen.^hDie Rückkehr aus Ägypten^pAls Herodes gestorben war, erschien dem Josef in Ägypten ein Engel des Herrn im Traum und sagte: Steh auf, nimm das Kind und seine Mutter und zieh in das Land Israel; denn die Leute, die dem Kind nach dem Leben getrachtet haben, sind tot.^pDa stand er auf und zog mit dem Kind und dessen Mutter in das Land Israel. Als er aber hörte, dass in Judäa Archelaus an Stelle seines Vaters Herodes regierte, fürchtete er sich, dorthin zu gehen. Und weil er im Traum einen Befehl erhalten hatte, zog er in das Gebiet von Galiläa und ließ sich in einer Stadt namens Nazaret nieder.^pDenn es sollte sich erfüllen, was durch die Propheten gesagt worden ist: Er wird Nazoräer genannt werden.",
-                les_text_neu: "^hDie Flucht nach Ägypten^pAls die Sterndeuter wieder gegangen waren, siehe, da erschien dem Josef im Traum ein Engel des Herrn und sagte: Steh auf, nimm das Kind und seine Mutter, und flieh nach Ägypten; dort bleibe, bis ich dir etwas anderes auftrage; denn Herodes wird das Kind suchen, um es zu töten.^pDa stand Josef auf und floh in der Nacht mit dem Kind und dessen Mutter nach Ägypten. Dort blieb er bis zum Tod des Herodes. Denn es sollte sich erfüllen, was der Herr durch den Propheten gesagt hat: Aus Ägypten habe ich meinen Sohn gerufen.^hDie Rückkehr aus Ägypten^pAls Herodes gestorben war, siehe, da erschien dem Josef in Ägypten ein Engel des Herrn im Traum und sagte: Steh auf, nimm das Kind und seine Mutter und zieh in das Land Israel; denn die Leute, die dem Kind nach dem Leben getrachtet haben, sind tot.^pDa stand er auf und zog mit dem Kind und dessen Mutter in das Land Israel. Als er aber hörte, dass in Judäa Archelaus an Stelle seines Vaters Herodes regierte, fürchtete er sich, dorthin zu gehen. Und weil er im Traum einen Befehl erhalten hatte, zog er in das Gebiet von Galiläa und ließ sich in einer Stadt namens Nazaret nieder.^pDenn es sollte sich erfüllen, was durch die Propheten gesagt worden ist: Er wird Nazoräer genannt werden.",
-            },
-            {
-                les_buch: "Aus dem heiligen Evangelium nach Matthäus.",
-                les_stelle: "12,46-50",
-                les_text: "^hDie wahre Familie Jesu^pIn jener Zeit, als Jesus mit den Leuten redete, standen seine Mutter und seine Brüder vor dem Haus und wollten mit ihm sprechen.^pDa sagte jemand zu ihm: Deine Mutter und deine Brüder stehen draußen und wollen mit dir sprechen.^pDem, der ihm das gesagt hatte, erwiderte er: Wer ist meine Mutter und wer sind meine Brüder?^pUnd er streckte die Hand über seine Jünger aus und sagte: Das hier sind meine Mutter und meine Brüder. Denn wer den Willen meines himmlischen Vaters erfüllt, der ist für mich Bruder und Schwester und Mutter.",
-                les_text_neu: "^hDie wahre Familie Jesu^pIn jener Zeit, als Jesus mit den Leuten redete, siehe, da standen seine Mutter und seine Brüder draußen und wollten mit ihm sprechen.^pDa sagte jemand zu ihm: Siehe, deine Mutter und deine Brüder stehen draußen und wollen mit dir sprechen.^pDem, der ihm das gesagt hatte, erwiderte er: Wer ist meine Mutter und wer sind meine Brüder?^pUnd er streckte die Hand über seine Jünger aus und sagte: Siehe, meine Mutter und meine Brüder. Denn wer den Willen meines himmlischen Vaters tut, der ist für mich Bruder und Schwester und Mutter.",
-            },
-            {
-                les_buch: "Aus dem heiligen Evangelium nach Lukas.",
-                les_stelle: "2,1-14",
-                les_text: "^hDie Geburt Jesu^pIn jenen Tagen erließ Kaiser Augustus den Befehl, alle Bewohner des Reiches in Steuerlisten einzutragen. Dies geschah zum ersten Mal; damals war Quirínius Statthalter von Syrien. Da ging jeder in seine Stadt, um sich eintragen zu lassen.^pSo zog auch Josef von der Stadt Názaret in Galiläa hinauf nach Judäa in die Stadt Davids, die Betlehem heißt; denn er war aus dem Haus und Geschlecht Davids. Er wollte sich eintragen lassen mit Maria, seiner Verlobten, die ein Kind erwartete.^pAls sie dort waren, kam für Maria die Zeit ihrer Niederkunft, und sie gebar ihren Sohn, den Erstgeborenen. Sie wickelte ihn in Windeln und legte ihn in eine Krippe, weil in der Herberge kein Platz für sie war.^pIn jener Gegend lagerten Hirten auf freiem Feld und hielten Nachtwache bei ihrer Herde. Da trat der Engel des Herrn zu ihnen und der Glanz des Herrn umstrahlte sie. sie fürchteten sich sehr,^pDer Engel aber sagte zu ihnen: Fürchtet euch nicht, denn ich verkünde euch eine große Freude, die dem ganzen Volk zuteil werden soll: Heute ist euch in der Stadt Davids der Retter geboren; er ist der Messias, der Herr. Und das soll euch als Zeichen dienen: Ihr werdet ein Kind finden, das, in Windeln gewickelt, in einer Krippe liegt.^pUnd plötzlich war bei dem Engel ein großes himmlisches Heer, das Gott lobte und sprach: Verherrlicht ist Gott in der Höhe und auf Erden ist Friede bei den Menschen seiner Gnade.",
-                les_text_neu: "^hDie Geburt Jesu^pEs geschah in jenen Tagen, dass Kaiser Augústus den Befehl erließ, den ganzen Erdkreis in Steuerlisten einzutragen. Diese Aufzeichnung war die erste; damals war Quirínius Statthalter von Syrien. Da ging jeder in seine Stadt, um sich eintragen zu lassen.^pSo zog auch Josef von der Stadt Názaret in Galiläa hinauf nach Judäa in die Stadt Davids, die Betlehem heißt; denn er war aus dem Haus und Geschlecht Davids. Er wollte sich eintragen lassen mit Maria, seiner Verlobten, die ein Kind erwartete.^pEs geschah, als sie dort waren, da erfüllten sich die Tage, dass sie gebären sollte, und sie gebar ihren Sohn, den Erstgeborenen. Sie wickelte ihn in Windeln und legte ihn in eine Krippe, weil in der Herberge kein Platz für sie war.^pIn dieser Gegend lagerten Hirten auf freiem Feld und hielten Nachtwache bei ihrer Herde. Da trat ein Engel des Herrn zu ihnen und die Herrlichkeit des Herrn umstrahlte sie und sie fürchteten sich sehr.^pDer Engel sagte zu ihnen: Fürchtet euch nicht, denn siehe, ich verkünde euch eine große Freude, die dem ganzen Volk zuteil werden soll: Heute ist euch in der Stadt Davids der Retter geboren; er ist der Christus, der Herr. Und das soll euch als Zeichen dienen: Ihr werdet ein Kind finden, das, in Windeln gewickelt, in einer Krippe liegt.^pUnd plötzlich war bei dem Engel ein großes himmlisches Heer, das Gott lobte und sprach: Ehre sei Gott in der Höhe und Friede auf Erden den Menschen seines Wohlgefallens.",
-            },
-            {
-                les_buch: "Aus dem heiligen Evangelium nach Lukas.",
-                les_stelle: "2,15b-19",
-                les_text: "^hDie Hirten an der Krippe^pIn jener Zeit sagten die Hirten zueinander: Kommt, wir gehen nach Betlehem, um das Ereignis zu sehen, das uns der Herr verkünden ließ. So eilten sie hin und fanden Maria und Josef und das Kind, das in der Krippe lag.^pAls sie es sahen, erzählten sie, was ihnen über dieses Kind gesagt worden war. Und alle, die es hörten, staunten über die Worte der Hirten.^pMaria aber bewahrte alles, was geschehen war, in ihrem Herzen und dachte darüber nach.",
-                les_text_neu: "^hDie Hirten an der Krippe^pIn jener Zeit sagten die Hirten zueinander: Lasst uns nach Betlehem gehen, um das Ereignis zu sehen, das uns der Herr kundgetan hat! So eilten sie hin und fanden Maria und Josef und das Kind, das in der Krippe lag.^pAls sie es sahen, erzählten sie von dem Wort, das ihnen über dieses Kind gesagt worden war. Und alle, die es hörten, staunten über das, was ihnen von den Hirten erzählt wurde.^pMaria aber bewahrte alle diese Worte und erwog sie in ihrem Herzen.",
-            },
-            {
-                les_buch: "Aus dem heiligen Evangelium nach Lukas.",
-                les_stelle: "2,27-35",
-                les_text: "^hDie Darstellung Jesu im Tempel^pIn jener Zeit wurde Simeon vom Geist in den Tempel geführt; und als die Eltern Jesus hereinbrachten, um zu erfüllen, was nach dem Gesetz üblich war, nahm Símeon das Kind in seine Arme und pries Gott mit den Worten:^pNun lässt du, Herr, deinen Knecht,^lwie du gesagt hast, in Frieden scheiden.^lDenn meine Augen haben das Heil gesehen,^ldas du vor allen Völkern bereitet hast,^lein Licht, das die Heiden erleuchtet,^lund Herrlichkeit für dein Volk Israel.^pSein Vater und seine Mutter staunten über die Worte, die über Jesus gesagt wurden.^pUnd Símeon segnete sie und sagte zu Maria, der Mutter Jesu: Dieser ist dazu bestimmt, dass in Israel viele durch ihn zu Fall kommen und viele aufgerichtet werden, und er wird ein Zeichen sein, dem widersprochen wird. Dadurch sollen die Gedanken vieler Menschen offenbar werden. Dir selbst aber wird ein Schwert durch die Seele dringen.",
-                les_text_neu: "^hDie Darstellung Jesu im Tempel^pIn jener Zeit wurde Simeon vom Geist in den Tempel geführt; und als die Eltern das Kind Jesus hereinbrachten, um mit ihm zu tun, was nach dem Gesetz üblich war, nahm Símeon das Kind in seine Arme und pries Gott mit den Worten:^pNun lässt du, Herr, deinen Knecht,^lwie du gesagt hast, in Frieden scheiden.^lDenn meine Augen haben das Heil gesehen,^ldas du vor allen Völkern bereitet hast,^lein Licht, das die Heiden erleuchtet,^lund Herrlichkeit für dein Volk Israel.^pSein Vater und seine Mutter staunten über die Worte, die über Jesus gesagt wurden.^pUnd Símeon segnete sie und sagte zu Maria, der Mutter Jesu: Dieser ist dazu bestimmt, dass in Israel viele zu Fall kommen und aufgerichtet werden, und er wird ein Zeichen sein, dem widersprochen wird, – und deine Seele wird ein Schwert durchdringen. Dadurch sollen die Gedanken vieler Herzen offenbar werden.",
-            },
-            {
-                les_buch: "Aus dem heiligen Evangelium nach Lukas.",
-                les_stelle: "2,41-52",
-                les_text: "^hDer zwölfjährige Jesus im Tempel^pDie Eltern Jesu gingen jedes Jahr zum Paschafest nach Jerusalem. Als er zwölf Jahre alt geworden war, zogen sie wieder hinauf, wie es dem Festbrauch entsprach.^pNachdem die Festtage zu Ende waren, machten sie sich auf den Heimweg. Der junge Jesus aber blieb in Jerusalem, ohne dass seine Eltern es merkten. Sie meinten, er sei irgendwo in der Pilgergruppe, und reisten eine Tagesstrecke weit; dann suchten sie ihn bei den Verwandten und Bekannten. Als sie ihn nicht fanden, kehrten sie nach Jerusalem zurück und suchten ihn dort.^pNach drei Tagen fanden sie ihn im Tempel; er saß mitten unter den Lehrern, hörte ihnen zu und stellte Fragen. Alle, die ihn hörten, waren erstaunt über sein Verständnis und über seine Antworten.^pAls seine Eltern ihn sahen, waren sie sehr betroffen und seine Mutter sagte zu ihm: Kind, wie konntest du uns das antun? Dein Vater und ich haben dich voll Angst gesucht.^pDa sagte er zu ihnen: Warum habt ihr mich gesucht? Wusstet ihr nicht, dass ich in dem sein muss, was meinem Vater gehört?^pDoch sie verstanden nicht, was er damit sagen wollte.^pDann kehrte er mit ihnen nach Nazaret zurück und war ihnen gehorsam.^pSeine Mutter bewahrte alles, was geschehen war, in ihrem Herzen.^pJesus aber wuchs heran und seine Weisheit nahm zu und er fand Gefallen bei Gott und den Menschen.",
-                les_text_neu: "^hDer zwölfjährige Jesus im Tempel^pDie Eltern Jesu gingen jedes Jahr zum Paschafest nach Jerusalem. Als er zwölf Jahre alt geworden war, zogen sie wieder hinauf, wie es dem Festbrauch entsprach.^pNachdem die Festtage zu Ende waren, machten sie sich auf den Heimweg. Der Knabe Jesus aber blieb in Jerusalem, ohne dass seine Eltern es merkten. Sie meinten, er sei in der Pilgergruppe, und reisten eine Tagesstrecke weit; dann suchten sie ihn bei den Verwandten und Bekannten. Als sie ihn nicht fanden, kehrten sie nach Jerusalem zurück und suchten nach ihm.^pDa geschah es, nach drei Tagen fanden sie ihn im Tempel; er saß mitten unter den Lehrern, hörte ihnen zu und stellte Fragen. Alle, die ihn hörten, waren erstaunt über sein Verständnis und über seine Antworten.^pAls seine Eltern ihn sahen, waren sie voll Staunen und seine Mutter sagte zu ihm: Kind, warum hast du uns das angetan? Siehe, dein Vater und ich haben dich mit Schmerzen gesucht.^pDa sagte er zu ihnen: Warum habt ihr mich gesucht? Wusstet ihr nicht, dass ich in dem sein muss, was meinem Vater gehört?^pDoch sie verstanden das Wort nicht, das er zu ihnen gesagt hatte.^pDann kehrte er mit ihnen nach Nazaret zurück und war ihnen gehorsam.^pSeine Mutter bewahrte all die Worte in ihrem Herzen.^pJesus aber wuchs heran und seine Weisheit nahm zu und er fand Gefallen bei Gott und den Menschen.",
-            },
+            { les_stelle: "Mt 1,1-16.18-23", },
+            { les_stelle: "^Q:Mt 2,13-15.19-23", },
+            { les_stelle: "^Q:Mt 12,46-50", },
+            { les_stelle: "^Q:Lk 2,1-14", },
+            { les_stelle: "^Q:Lk 2,15b-19", },
+            { les_stelle: "^Q:Lk 2,27-35", },
+            { les_stelle: "^Q:Lk 2,41-52", },
             { les_stelle: "^Q:Lk 11,27-28", },
             { les_stelle: "^Q:Joh 2,1-11", },
         ],
     },
+    "vigil-Märtyrer": {
+        first: [
+            { les_stelle: "^Q:Mt 10,17-22", },
+            { les_stelle: "^Q:Mt 10,28-33", },
+            { les_stelle: "^Q:Mt 10,34-39", },
+            { les_stelle: "^Q:", },
+            { les_stelle: "^Q:Joh 12,24-26", },
+            { les_stelle: "^Q:Joh 15,18-21", },
+            { les_stelle: "^Q:Joh 17,6a.11b-19", },
+            {
+                les_buch: "",
+                les_stelle: "",
+                les_text: "",
+                les_text_neu: "",
+            },
+        ],
+    },
     "vigil-Hirten": {
         first: [
-            {
-                les_buch: "Aus dem heiligen Evangelium nach Matthäus.",
-                les_stelle: "9,35-38",
-                les_text: "^hBittet den Herrn der Ernte, Arbeiter°für°seine°Ernte°auszusenden^p",
-                les_text_neu: "",
-            },
-            {
-                les_buch: "Aus dem heiligen Evangelium nach Matthäus.",
-                les_stelle: "16,13-19",
-                bezug: "[Für einen Papst]",
-                les_text: "^hDas Messiasbekenntnis des Petrus^p",
-                les_text_neu: "",
-            },
-            {
-                les_buch: "Aus dem heiligen Evangelium nach Matthäus.",
-                les_stelle: "23,8-12",
-                les_text: "^hNur einer ist euer Meister^p",
-                les_text_neu: "",
-            },
-            {
-                les_buch: "Aus dem heiligen Evangelium nach Matthäus.",
-                les_stelle: "28,16-20",
-                bezug: "[Für Glaubensboten]",
-                les_text: "^hDer Auftrag des Auferstandenen^p",
-                les_text_neu: "",
-            },
+            { les_stelle: "^Q:Mt 9,35-38", },
+            { les_stelle: "^Q:Mt 16,13-19", bezug: "[Für einen Papst]", },
+            { les_stelle: "^Q:Mt 23,8-12", },
+            { les_stelle: "^Q:Mt 28,16-20", bezug: "[Für Glaubensboten]", },
             {
                 les_buch: "Aus dem heiligen Evangelium nach Markus.",
                 les_stelle: "1,14-20",
@@ -688,10 +521,7 @@ export const lectureAlternatives = {
                 les_text: "^hAussendung der Apostel und Himmelfahrt°Jesu^p",
                 les_text_neu: "",
             },
-            {
-                les_stelle: "^Q:Lk 5,1-11",
-                bezug: "[Für Glaubensboten]",
-            },
+            { les_stelle: "^Q:Lk 5,1-11", bezug: "[Für Glaubensboten]", },
             {
                 les_buch: "Aus dem heiligen Evangelium nach Lukas.",
                 les_stelle: "10,1-9",
@@ -704,31 +534,46 @@ export const lectureAlternatives = {
                 les_text: "^hVom Herrschen und Dienen^p",
                 les_text_neu: "",
             },
-            {
-                les_buch: "Aus dem heiligen Evangelium nach Johannes.",
-                les_stelle: "10,11-16",
-                les_text: "^hDer gute Hirt gibt°sein°Leben°hin für°die°Schafe^p",
-                les_text_neu: "",
-            },
-            {
-                les_buch: "Aus dem heiligen Evangelium nach Johannes.",
-                les_stelle: "15,9-17",
-                les_text: "^hBleibt in meiner Liebe^p",
-                les_text_neu: "",
-            },
-            {
-                les_buch: "Aus dem heiligen Evangelium nach Johannes.",
-                les_stelle: "21,1.15-17",
-                bezug: "[Für einen Papst]",
-                les_text: "^hSimon, Sohn des Johannes, liebst°du°micht?^p",
-                les_text_neu: "",
-            },
+            { les_stelle: "^Q:Joh 10,11-16", },
+            { les_stelle: "^Q:Joh 15,9-17", },
+            { les_stelle: "^Q:Joh 21,1.15-17", bezug: "[Für einen Papst]", },
         ],
     },
-    "vigil-PeterPaul": {
+    "vigil-Heilige": {
         first: [
-            { les_stelle: "^Q:Lk 5,1-11", },
-            { les_stelle: "^Q:Joh 6,60-70", },
+            { les_stelle: "^Q:Mt 5,1-12a", },
+            { les_stelle: "^Q:Mt 5,13-16", },
+            { les_stelle: "^Q:Mt 7,21-27", },
+            { les_stelle: "^Q:Mt 11,25-30", },
+            { les_stelle: "^Q:Mt 13,44-46", },
+            { les_stelle: "^Q:Mt 16,24-27", },
+            { les_stelle: "^Q:Mt 18,1-5", },
+            { les_stelle: "^Q:Mt 19,3-12", },
+            { les_stelle: "^Q:Mt 19,27-29", },
+            { les_stelle: "^Q:Mt 22,34-40", },
+            { les_stelle: "^Q:Mt 25,1-13", },
+            { les_stelle: "^Q:Mt 25,14-30", },
+            { les_stelle: "^Q:Mt 25,31-46", },
+            { les_stelle: "^Q:", },
+            { les_stelle: "^Q:Joh 15,1-8", },
+            { les_stelle: "^Q:Joh 15,9-17", },
+            { les_stelle: "^Q:Joh 17,20-26", },
+        ],
+    },
+    "vigil-Kirchenlehrer": {
+        first: [
+            { les_stelle: "^Q:Mt 5,13-16", },
+            { les_stelle: "^Q:Mt 7,21-29", },
+            { les_stelle: "^Q:Mt 13,47-52", },
+            { les_stelle: "^Q:Mt 23,8-12", },
+            { les_stelle: "^Q:Mk 4,1-10.13-20", },
+            { les_stelle: "^Q:Lk 6,43-45", },
+        ],
+    },
+    "vigil-Jgfr": {
+        first: [
+            { les_stelle: "^Q:Mt 19,3-12", },
+            { les_stelle: "^Q:Mt 25,1-13", },
         ],
     },
     "vigil-": {

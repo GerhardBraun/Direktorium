@@ -3732,8 +3732,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Hirten",
           "comm_2": "Mann_Liebe",
-          "oration": "Barmherziger Gott, du hast den heiligen Petrus Claver zum Sklaven für die Sklaven gemacht und ihm die Kraft gegeben, ihnen mit wunderbarer Liebe und Geduld zu helfen. Auf seine Fürsprache lass auch nach dem streben, was Jesus Christus angehört, und in Tat und Wahrheit die Nächsten lieben.^ORvR",
-          "oration_lat": "Deus, qui beátum Petrum servórum servum effecísti eúmque mira in eis iuvándis caritáte et patiéntia roborásti, eius nobis intercessióne concéde, ut, quæ Iesu Christi sunt, quæréntes, próximos ópere et veritáte diligámus.^ORlvR"
+          "oration": "Barmherziger Gott, du hast den heiligen Petrus Claver zum Sklaven für die Sklaven gemacht und ihm die Kraft gegeben, ihnen mit wunderbarer Liebe und Geduld zu helfen. Auf seine Fürsprache lass auch uns nach dem streben, was Jesus Christus angehört, und in Tat und Wahrheit die Nächsten lieben.^ORV",
+          "oration_lat": "Deus, qui beátum Petrum servórum servum effecísti eúmque mira in eis iuvándis caritáte et patiéntia roborásti, eius nobis intercessióne concéde, ut, quæ Iesu Christi sunt, quæréntes, próximos ópere et veritáte diligámus.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Petrus Claver",

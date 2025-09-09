@@ -4392,7 +4392,7 @@ export const brevierData = {
         },
         "Vigil": {
           "les_buch": "^A:vigil-Erscheinung:",
-          "les_stelle": "^Q:Joh 1,1-18"
+          "les_text": "LEER"
         },
         "Laudes": {
           "button": "Erscheinung des Herrn",
@@ -4775,7 +4775,7 @@ export const brevierData = {
           "psalm3": 194.0,
           "ant0": "wie 25.3.",
           "les_buch": "^A:vigil-Darstellung:",
-          "les_stelle": "^Q:Joh 1,1-18"
+          "les_text": "LEER"
         },
         "Laudes": {
           "button": "Darstellung des Herrn",
@@ -5289,10 +5289,8 @@ export const brevierData = {
           "psalm2": 199.106,
           "psalm3": 199.107,
           "ant0": "Wer treu ist, wird reich gesegnet, wer über seinen Herrn wacht, empfängt Ehre und Lob.^ö",
-          "les_buch": "Aus dem heiligen Evangelium nach Matthäus.",
-          "les_stelle": "1,16.18-21.24a",
-          "les_text": "^hDie Geburt Jesu^pJakob war der Vater von Josef, dem°Mann°Marias;^lvon ihr wurde Jesus geboren,^lder der Christus – der Messias – genannt°wird.^pMit der Geburt Jesu Christi war es so:^lMaria, seine Mutter, war mit Josef verlobt; noch bevor sie zusammengekommen waren, zeigte sich, dass sie ein Kind erwartete – durch das Wirken des Heiligen Geistes.^pJosef, ihr Mann, der gerecht war und sie nicht bloßstellen wollte, beschloss, sich in aller Stille von ihr zu trennen.^pWährend er noch darüber nachdachte, erschien ihm ein Engel des Herrn im Traum und sagte: Josef, Sohn Davids, fürchte dich nicht, Maria als deine Frau zu dir zu nehmen; denn das Kind, das sie erwartet, ist vom Heiligen Geist. Sie wird einen Sohn gebären; ihm sollst du den Namen Jesus geben; denn er wird sein Volk von seinen Sünden erlösen.^pAls Josef erwachte, tat er, was der Engel des Herrn ihm befohlen hatte, und nahm seine Frau zu sich. Er erkannte sie aber nicht, bis sie ihren Sohn gebar. Und er gab ihm den Namen Jesus.",
-          "les_text_neu": "^hDie Geburt Jesu^pJakob zeugte den Josef, den°Mann°Marias;^lvon ihr wurde Jesus geboren,^lder der Christus genannt wird.^pMit der Geburt Jesu Christi war es so:^lMaria, seine Mutter, war mit Josef verlobt; noch bevor sie zusammengekommen waren, zeigte sich, dass sie ein Kind erwartete – durch das Wirken des Heiligen Geistes.^pJosef, ihr Mann, der gerecht war und sie nicht bloßstellen wollte, beschloss, sich in aller Stille von ihr zu trennen.^pWährend er noch darüber nachdachte, siehe, da erschien ihm ein Engel des Herrn im Traum und sagte: Josef, Sohn Davids, fürchte dich nicht, Maria als deine Frau zu dir zu nehmen; denn das Kind, das sie erwartet, ist vom Heiligen Geist. Sie wird einen Sohn gebären; ihm sollst du den Namen Jesus geben; denn er wird sein Volk von seinen Sünden erlösen.^pAls Josef erwachte, tat er, was der Engel des Herrn ihm befohlen hatte, und nahm seine Frau zu sich. Er erkannte sie aber nicht, bis sie ihren Sohn gebar. Und er gab ihm den Namen Jesus."
+          "les_buch": "^A:vigil-Josef:",
+          "les_text": "LEER"
         },
         "Laudes": {
           "button": "Hl. Josef, Bräutigam der Gottesmutter",
@@ -5492,10 +5490,7 @@ export const brevierData = {
           "psalm2": 182.0,
           "psalm3": 194.0,
           "ant0": "Freue dich und juble, Tochter Zion …",
-          "les_buch": "Aus dem heiligen Evangelium nach Matthäus.",
-          "les_stelle": "1,18-24",
-          "les_text": "^hDie Geburt Jesu^pMit der Geburt Jesu Christi war es so:^lMaria, seine Mutter, war mit Josef verlobt; noch bevor sie zusammengekommen waren, zeigte sich, dass sie ein Kind erwartete – durch das Wirken des Heiligen Geistes.^pJosef, ihr Mann, der gerecht war und sie nicht bloßstellen wollte, beschloss, sich in aller Stille von ihr zu trennen.^pWährend er noch darüber nachdachte, erschien ihm ein Engel des Herrn im Traum und sagte: Josef, Sohn Davids, fürchte dich nicht, Maria als deine Frau zu dir zu nehmen; denn das Kind, das sie erwartet, ist vom Heiligen Geist. Sie wird einen Sohn gebären; ihm sollst du den Namen Jesus geben; denn er wird sein Volk von seinen Sünden erlösen.^pDies alles ist geschehen, damit sich erfüllte, was der Herr durch den Propheten gesagt hat: Seht, die Jungfrau wird ein Kind empfangen, einen Sohn wird sie gebären, und man wird ihm den Namen Immanuel geben, das heißt übersetzt: Gott ist mit uns.^pAls Josef erwachte, tat er, was der Engel des Herrn ihm befohlen hatte, und nahm seine Frau zu sich.",
-          "les_text_neu": "^hDie Geburt Jesu^pMit der Geburt Jesu Christi war es so:^lMaria, seine Mutter, war mit Josef verlobt; noch bevor sie zusammengekommen waren, zeigte sich, dass sie ein Kind erwartete – durch das Wirken des Heiligen Geistes.^pJosef, ihr Mann, der gerecht war und sie nicht bloßstellen wollte, beschloss, sich in aller Stille von ihr zu trennen.^pWährend er noch darüber nachdachte, siehe, da erschien ihm ein Engel des Herrn im Traum und sagte: Josef, Sohn Davids, fürchte dich nicht, Maria als deine Frau zu dir zu nehmen; denn das Kind, das sie erwartet, ist vom Heiligen Geist. Sie wird einen Sohn gebären; ihm sollst du den Namen Jesus geben; denn er wird sein Volk von seinen Sünden erlösen.^pDies alles ist geschehen, damit sich erfüllte, was der Herr durch den Propheten gesagt hat: Siehe, die Jungfrau wird ein Kind empfangen und einen Sohn gebären, und sie werden ihm den Namen Immanuel geben, das heißt übersetzt: Gott mit uns.^pAls Josef erwachte, tat er, was der Engel des Herrn ihm befohlen hatte, und nahm seine Frau zu sich."
+          "les_stelle": "^Q:Mt 1,18-24"
         },
         "Laudes": {
           "button": "Verkündigung des Herrn",
@@ -6929,8 +6924,8 @@ export const brevierData = {
           "psalm2": 199.103,
           "psalm3": 199.104,
           "ant0": "Vereint im Glauben und im Leiden …",
-          "les_buch": "^A:vigil-PeterPaul:Aus dem heiligen Evangelium nach Johannes.",
-          "les_stelle": "21,15-19"
+          "les_buch": "^A:vigil-PeterPaul:",
+          "les_stelle": "^Q:Joh 21,1.15-19"
         },
         "Laudes": {
           "button": "Hl. Petrus und hl. Paulus",
@@ -8095,9 +8090,8 @@ export const brevierData = {
           "psalm2": 174.0,
           "psalm3": 193.0,
           "ant0": "Heiliges Kreuz, erhabenes Zeichen des Sieges, gib uns in der Herrlichkeit des Himmels Anteil an deinem Triumph.^ö",
-          "les_buch": "^A:vigil-8:Aus dem heiligen Evangelium nach Johannes.",
-          "les_stelle": "12,31-36a",
-          "les_text": "^h^pIn jener Zeit sprach Jesus zu der Menge:^lJetzt wird Gericht gehalten über diese Welt; jetzt wird der Herrscher dieser Welt hinausgeworfen werden. Und ich, wenn ich über die Erde erhöht bin, werde alle zu mir ziehen.^pDas sagte er, um anzudeuten, auf welche Weise er sterben werde.^pDie Menge jedoch hielt ihm entgegen: Wir haben aus dem Gesetz gehört, dass der Christus bis in Ewigkeit bleiben wird. Wie kannst du sagen, der Menschensohn müsse erhöht werden? Wer ist dieser Menschensohn?^pDa sagte Jesus zu ihnen: Nur noch kurze Zeit ist das Licht bei euch. Geht euren Weg, solange ihr das Licht habt, damit euch nicht die Finsternis überrascht! Wer in der Finsternis geht, weiß nicht, wohin er gerät. Solange ihr das Licht bei euch habt, glaubt an das Licht, damit ihr Söhne des Lichts werdet!"
+          "les_buch": "^A:vigil-So-8:",
+          "les_stelle": "^Q:Joh 12,31-36a"
         },
         "Laudes": {
           "button": "Kreuzerhöhung",
@@ -9155,8 +9149,7 @@ export const brevierData = {
           "psalm2": 195.1,
           "psalm3": 195.2,
           "ant0": "Preist den Herrn, ihr seine Heiligen alle, feiert Tage der Freude und singt sein Lob.^ö",
-          "les_buch": "Aus dem heiligen Evangelium nach Matthäus.",
-          "les_stelle": "5,13-16"
+          "les_buch": "^A:vigil-Allterheiligen:"
         },
         "Laudes": {
           "button": "Allerheiligen",
@@ -9931,10 +9924,7 @@ export const brevierData = {
           "versikel1_lat": "Et habitávit in nobis.^Lö"
         },
         "Vigil": {
-          "les_buch": "Aus dem heiligen Evangelium nach Matthäus.",
-          "les_stelle": "1,1-25",
-          "les_text": "^RUBRDas Evangelium kann in einer Kurzfassung genommen werden, beginnend°unten°mit°Vers°18: „Die°Geburt°Jesu“.^0RUBR^hDer Stammbaum Jesu^pStammbaum Jesu Christi,^ldes Sohnes Davids,^ldes Sohnes Abrahams:^pAbraham war der Vater von Isaak,^lIsaak von Jakob,^lJakob von Juda und seinen Brüdern.^lJuda war der Vater von°Perez°und°Serach;^lihre Mutter war Tamar.^lPerez war der Vater von Hezron,^lHezron von Aram,^lAram von Amminadab,^lAmminadab von Nachschon,^lNachschon von Salmon.^pSalmon war der Vater von Boas;^ldessen Mutter war Rahab.^lBoas war der Vater von Obed;^ldessen Mutter war Rut.^lObed war der Vater von Isai,^lIsai der Vater des Königs David.^pDavid war der Vater von Salomo,^ldessen Mutter die Frau des Urija war.^lSalomo war der Vater von Rehabeam,^lRehabeam von Abija,^lAbija von Asa,^lAsa von Joschafat,^lJoschafat von Joram,^lJoram von Usija.^pUsija war der Vater von Jotam,^lJotam von Ahas,^lAhas von Hiskija,^lHiskija von Manasse,^lManasse von Amos,^lAmos von Joschija.^pJoschija war der Vater von°Jojachin°und°seinen°Brüdern;^ldas war zur Zeit der°Babylonischen°Gefangenschaft.^pNach der Babylonischen Gefangenschaft^lwar Jojachin der Vater von Schealtiël,^lSchealtiël von Serubbabel,^lSerubbabel von Abihud,^lAbihud von Eljakim,^lEljakim von Azor.^pAzor war der Vater von Zadok,^lZadok von Achim,^lAchim von Eliud,^lEliud von Eleasar,^lEleasar von Mattan,^lMattan von Jakob.^pJakob war der Vater von Josef, dem°Mann°Marias;^lvon ihr wurde Jesus geboren,^lder der Christus – der Messias – genannt°wird.^pIm Ganzen sind es also^lvon Abraham bis David^lvierzehn°Generationen,^lvon David bis°zur°Babylonischen°Gefangenschaft^lvierzehn°Generationen^lund von der Babylonischen Gefangenschaft bis°zu°Christus^lvierzehn°Generationen.^p^RUBRHier beginnt die Kurzfassung.^0RUBR^hDie Geburt Jesu^pMit der Geburt Jesu Christi war es so:^lMaria, seine Mutter, war mit Josef verlobt; noch bevor sie zusammengekommen waren, zeigte sich, dass sie ein Kind erwartete – durch das Wirken des Heiligen Geistes.^pJosef, ihr Mann, der gerecht war und sie nicht bloßstellen wollte, beschloss, sich in aller Stille von ihr zu trennen.^pWährend er noch darüber nachdachte, erschien ihm ein Engel des Herrn im Traum und sagte: Josef, Sohn Davids, fürchte dich nicht, Maria als deine Frau zu dir zu nehmen; denn das Kind, das sie erwartet, ist vom Heiligen Geist. Sie wird einen Sohn gebären; ihm sollst du den Namen Jesus geben; denn er wird sein Volk von seinen Sünden erlösen.^pDies alles ist geschehen, damit sich erfüllte, was der Herr durch den Propheten gesagt hat: Seht, die Jungfrau wird ein Kind empfangen, einen Sohn wird sie gebären, und man wird ihm den Namen Immanuel geben, das heißt übersetzt: Gott ist mit uns.^pAls Josef erwachte, tat er, was der Engel des Herrn ihm befohlen hatte, und nahm seine Frau zu sich. Er erkannte sie aber nicht, bis sie ihren Sohn gebar. Und er gab ihm den Namen Jesus.",
-          "les_text_neu": "^RUBRDas Evangelium kann in einer Kurzfassung genommen werden, beginnend°unten°mit°Vers°18.^0RUBR^^hDer Stammbaum Jesu^pBuch des Ursprungs Jesu Christi,^ldes Sohnes Davids,^ldes Sohnes Abrahams:^pAbraham zeugte den Isaak,^lIsaak zeugte den Jakob,^lJakob zeugte den Juda und seine Brüder.^lJuda zeugte den Perez und den Serach mit°der°Tamar.^lPerez zeugte den Hezron,^lHezron zeugte den Aram,^lAram zeugte den Amminadab,^lAmminadab zeugte den Nachschon,^lNachschon zeugte den Salmon.^pSalmon zeugte den Boas^lmit°der°Rahab.^lBoas zeugte den Obed^lmit°der°Rut.^lObed zeugte den Isai,^lIsai zeugte David, den König.^pDavid zeugte den Salomo^lmit der Frau des Urija.^lSalomo zeugte den Rehabeam,^lRehabeam zeugte den Abija,^lAbija zeugte den Asa,^lAsa zeugte den Joschafat,^lJoschafat zeugte den Joram,^lJoram zeugte den Usija.^pUsija zeugte den Jotam,^lJotam zeugte den Ahas,^lAhas zeugte den Hiskija,^lHiskija zeugte den Manasse,^lManasse zeugte den Amos,^lAmos zeugte den Joschija.^pJoschija zeugte den°Jojachin°und°seine°Brüder;^ldas war zur Zeit der°Babylonischen°Gefangenschaft.^pNach der Babylonischen Gefangenschaft^lzeugte Jojachin den Schealtiël,^lSchealtiël zeugte den Serubbabel,^lSerubbabel zeugte den Abihud,^lAbihud zeugte den Eljakim,^lEljakim zeugte den Azor.^pAzor zeugte den Zadok,^lZadok zeugte den Achim,^lAchim zeugte den Eliud,^lEliud zeugte den Eleasar,^lEleasar zeugte den Mattan,^lMattan zeugte den Jakob.^pJakob zeugte den Josef, den°Mann°Marias;^lvon ihr wurde Jesus geboren,^lder der Christus genannt wird.^pIm Ganzen sind es also^lvon Abraham bis David^lvierzehn°Generationen,^lvon David bis°zur°Babylonischen°Gefangenschaft^lvierzehn°Generationen^lund von der Babylonischen Gefangenschaft bis°zu°Christus^lvierzehn°Generationen.^p^RUBRHier beginnt die Kurzfassung.^RUBR^hDie Geburt Jesu^pMit der Geburt Jesu Christi war es so:^lMaria, seine Mutter, war mit Josef verlobt; noch bevor sie zusammengekommen waren, zeigte sich, dass sie ein Kind erwartete – durch das Wirken des Heiligen Geistes.^pJosef, ihr Mann, der gerecht war und sie nicht bloßstellen wollte, beschloss, sich in aller Stille von ihr zu trennen.^pWährend er noch darüber nachdachte, siehe, da erschien ihm ein Engel des Herrn im Traum und sagte: Josef, Sohn Davids, fürchte dich nicht, Maria als deine Frau zu dir zu nehmen; denn das Kind, das sie erwartet, ist vom Heiligen Geist. Sie wird einen Sohn gebären; ihm sollst du den Namen Jesus geben; denn er wird sein Volk von seinen Sünden erlösen.^pDies alles ist geschehen, damit sich erfüllte, was der Herr durch den Propheten gesagt hat: Siehe, die Jungfrau wird ein Kind empfangen und einen Sohn gebären, und sie werden ihm den Namen Immanuel geben, das heißt übersetzt: Gott mit uns.^pAls Josef erwachte, tat er, was der Engel des Herrn ihm befohlen hatte, und nahm seine Frau zu sich. Er erkannte sie aber nicht, bis sie ihren Sohn gebar. Und er gab ihm den Namen Jesus."
+          "les_stelle": "^Q:Mt 1,1-25"
         },
         "Laudes": {
           "button": "Weihnachten",
@@ -16302,7 +16292,7 @@ export const brevierData = {
           "anta_lat": "Dixit Petrus ad Iesum: Dómine, bonum est nos hic esse. Si vis, fáciam hic tria tabernácula: tibi unum et Móysi unum et Elíæ unum."
         },
         "Vigil": {
-          "les_buch": "^A:vigil-Verklärung:Aus dem heiligen Evangelium nach Markus.",
+          "les_buch": "^A:vigil-q-2:Aus dem heiligen Evangelium nach Markus.",
           "les_stelle": "8,27-38"
         },
         "Laudes": {
@@ -16688,8 +16678,8 @@ export const brevierData = {
           "les_text_lat": ""
         },
         "Vigil": {
-          "les_buch": "^A:vigil-q-5:Aus dem heiligen Evangelium nach Matthäus.",
-          "les_stelle": "21,33-46"
+          "les_buch": "^A:vigil-q-5:",
+          "les_stelle": "^Q:Mt 21,33-46"
         },
         "Laudes": {
           "ant1": "Mein Gott, du wurdest meine Hilfe, meine Seele hängt an dir.",

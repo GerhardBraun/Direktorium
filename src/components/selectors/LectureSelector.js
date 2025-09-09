@@ -101,7 +101,6 @@ const LectureSelector = ({
         ].forEach(field => {
             result[field] = getValue(field) || '';
         });
-
         // Perikopen-Verarbeitung mit Querverweisen
         ['les_stelle', 'patr_werk'].forEach(field => {
             if (result[field]?.startsWith('^Q:')) {
@@ -145,7 +144,7 @@ const LectureSelector = ({
                     ? bookname : ''
             }
 
-            const getButtonText = (buttonType = 'standard', altData = []) => {
+            const getButtonText = (buttonType = 'standard', altData = standard) => {
                 if (altData?.button) return formatPrayerText(altData.button)
 
                 if (longBookname(altData)) {
@@ -175,7 +174,7 @@ const LectureSelector = ({
 
             };
 
-            const getBezug = (altData, excludeYear) => {
+            const getBezug = (altData, excludeYear = '') => {
                 const resultBezug = checkLanguageField('bezug', altData)
                 if (resultBezug) return formatPrayerText(resultBezug)
 
@@ -206,6 +205,7 @@ const LectureSelector = ({
                     marian: keyword.includes('Maria'),
                     buttonText: getButtonText(),
                     buttonResp: abbreviate(standard?.[fieldResp1]),
+                    bezug: getBezug(standard),
                     hasText: !!standard?.[fieldText] && standard?.[fieldText] !== 'LEER',
                     onlyResp: !standard?.[fieldText] && !!standard?.[fieldResp1],
                 });
@@ -475,8 +475,8 @@ const LectureSelector = ({
     }, [availableAlternatives]);
 
     // Prüfe ob überhaupt Lesungen vorhanden sind
-    const hasFirstLecture = getValue('les_text');
-    const hasSecondLecture = getValue('patr_text');
+    const hasFirstLecture = standard?.['les_text'];
+    const hasSecondLecture = standard?.['patr_text'];
 
     if (!hasFirstLecture && !hasSecondLecture) {
         return null;

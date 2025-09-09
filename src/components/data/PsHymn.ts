@@ -5166,7 +5166,7 @@ export const psalmsData = {
   },
   8908: {
     2.0: {
-        "text_lat": "O sancta mundi dómina,^lregína cæli ínclita,^lo stella maris fúlgida,^lvirgo mater mirífica,^pAppáre, dulcis fília,^lnitésce iam, virgúncula,^lflorem latúra nóbilem,^lChristum Deum et hóminem.^pNatális tui ánnua^len cólimus sollémnia,^lquo stirpe delectíssima^lmundo fulsísti génita.^pPer te sumus, terrígenæ^lsimúlque iam cælígenæ,^lpacáti pace nóbili,^lmore non æstimábili.^pSit Trinitáti glória^lper sæculórum sǽcula,^lcuius vocáris múnere^lmater beáta Ecclésiæ. Amen."
+        "text_lat": "O sancta mundi dómina,^lregína cæli ínclita,^lo stella maris fúlgida,^lvirgo mater mirífica,^pAppáre, dulcis fília,^lnitésce iam, virgúncula,^lflorem latúra nóbilem,^lChristum Deum et hóminem.^pNatális tui ánnua^len cólimus sollémnia,^lquo stirpe delectíssima^lmundo fulsísti génita.^pPer te sumus, terrígenæ^lsimúlque iam cælígenæ,^lpacáti pace nóbili,^lmore non æstimábili.^pSit Trinitáti glória^lper sæculórum sǽcula,^lcuius vocáris múnere^lmater beát>a Ecclésiæ. Amen."
       },
     4.0: {
         "text_lat": "Beáta Dei génetrix,^lnitor humáni géneris,^lper quam de servis líberi^llucísque sumus fílii;^pMaría, virgo régia,^lDavid stirpe progénita,^lnon tam patérna nóbilis^lquam dignitáte súbolis,^pTu nos, avúlso véteri,^lcomplánta novo gérmini;^lper te sit genus hóminum^lregále sacerdótium.^pTu nos culpárum néxibus^lsacris absólve précibus;^ltua proméntes mérita^lad cæli transfer prǽmia.^pSit Trinitáti glória,^lo Virgo nobilíssima,^lquæ te suórum múnerum^lthesáurum dat magníficum. Amen."
