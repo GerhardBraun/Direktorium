@@ -1573,6 +1573,7 @@ export const brevierData = {
           "psalm3": 199.104,
           "ant0": "So spricht der Herr: Freut euch und jubelt, denn eure Namen sind im Himmel verzeichnet.^ö",
           "les_buch": "^A:vigil-Hirten:",
+          "les_stelle": "^Q:Mk 3,13-19",
           "les_text": "LEER"
         },
         "Laudes": {
@@ -6749,8 +6750,8 @@ export const brevierData = {
           "psalm2": 199.106,
           "psalm3": 199.107,
           "ant0": "Könige werden es sehen",
-          "les_buch": "^A:vigil-Johannes:Aus dem heiligen Evangelium nach Lukas.",
-          "les_stelle": "1,5-17"
+          "les_buch": "^A:vigil-Johannes:",
+          "les_stelle": "^Q:Lk 1,5-17"
         },
         "Laudes": {
           "button": "Geburt des hl. Johannes des Täufers",
@@ -8090,7 +8091,7 @@ export const brevierData = {
           "psalm2": 174.0,
           "psalm3": 193.0,
           "ant0": "Heiliges Kreuz, erhabenes Zeichen des Sieges, gib uns in der Herrlichkeit des Himmels Anteil an deinem Triumph.^ö",
-          "les_buch": "^A:vigil-So-8:",
+          "les_buch": "^A:Kreuzerhöhung",
           "les_stelle": "^Q:Joh 12,31-36a"
         },
         "Laudes": {
@@ -16164,8 +16165,8 @@ export const brevierData = {
           "antc_lat": "Iesus plenus Spíritu Sancto regréssus est ab Iordáne et agebátur in Spíritu in desértum diébus quadragínta et tentabátur a diábolo."
         },
         "Vigil": {
-          "les_buch": "^A:vigil-q-1:Aus dem heiligen Evangelium nach Lukas.",
-          "les_stelle": "13,22-33"
+          "les_buch": "^A:vigil-q-1:",
+          "les_stelle": "^Q:Lk 13,22-33"
         },
         "Laudes": {
           "ant1": "Herr, ich will dich rühmen mein Leben lang, in deinem Namen die Hände erheben.",
@@ -16292,8 +16293,8 @@ export const brevierData = {
           "anta_lat": "Dixit Petrus ad Iesum: Dómine, bonum est nos hic esse. Si vis, fáciam hic tria tabernácula: tibi unum et Móysi unum et Elíæ unum."
         },
         "Vigil": {
-          "les_buch": "^A:vigil-q-2:Aus dem heiligen Evangelium nach Markus.",
-          "les_stelle": "8,27-38"
+          "les_buch": "^A:vigil-q-2:",
+          "les_stelle": "^Q:Mk 8,27-38"
         },
         "Laudes": {
           "ant1": "Die Rechte des Herrn wirkt mit Macht, die Rechte des Herrn hat mich erhoben.",
@@ -16418,8 +16419,8 @@ export const brevierData = {
           "anta_lat": "Dicit Dóminus: Si quis bíberit aquam, quam ego dabo ei, non sítiet in ætérnum."
         },
         "Vigil": {
-          "les_buch": "^A:vigil-q-3:Aus dem heiligen Evangelium nach Markus.",
-          "les_stelle": "9,29-47"
+          "les_buch": "^A:vigil-q-3:",
+          "les_stelle": "^Q:Mk 9,30-48"
         },
         "Laudes": {
           "ant1": "Gewaltiger als das Tosen vieler Wasser bist du, Herr, in der Höhe. Deine Gesetze sind fest und verlässlich.",
@@ -16545,8 +16546,8 @@ export const brevierData = {
           "anta_lat": "Rabbi, quis peccávit, hic aut paréntes eius, ut cæcus nascerétur? Respóndit Iesus: Neque hic peccávit neque paréntes eius, sed ut manifesténtur ópera Dei in illo."
         },
         "Vigil": {
-          "les_buch": "^A:vigil-q-4:Aus dem heiligen Evangelium nach Markus.",
-          "les_stelle": "10,32-45"
+          "les_buch": "^A:vigil-q-4:",
+          "les_stelle": "^Q:Mk 10,32-45"
         },
         "Laudes": {
           "ant1": "Du bist mein Gott, dir will ich danken; mein Gott, dich will ich rühmen.",
@@ -17039,7 +17040,6 @@ export const brevierData = {
         },
         "Vigil": {
           "ant0": "Jesus warf sich zu Boden und betete: Vater, wenn du willst, nimm diesen Kelch von mir. Doch nicht mein Wille geschehe, sondern der deine.",
-          "les_buch": "^A:vigil-q-6:",
           "les_stelle": "^Q:Joh 8,21-30"
         },
         "Laudes": {
@@ -17385,8 +17385,7 @@ export const brevierData = {
         },
         "Vigil": {
           "ant0": "Aus der geöffneten Seite des Herrn floss Blut und Wasser heraus, uns zur Rettung und zum Heil.",
-          "les_buch": "^A:vigil-KarFr:Aus dem heiligen Evangelium nach Matthäus.",
-          "les_stelle": "27,1-2.11-56"
+          "les_buch": "^A:vigil-Karfreitag:"
         },
         "Laudes": {
           "psalm1": 51.0,
@@ -17533,8 +17532,7 @@ export const brevierData = {
         },
         "Vigil": {
           "ant0": "Aus der Tiefe der Totenwelt schrie ich zum Herrn, und er hörte mein Rufen.",
-          "les_buch": "^A:vigil-KarSa:Aus dem heiligen Evangelium nach Matthäus.",
-          "les_stelle": "27,57-66"
+          "les_buch": "^A:vigil-Karsamstag:"
         },
         "Laudes": {
           "psalm1": 64.0,

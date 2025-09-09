@@ -355,27 +355,21 @@ export const lectureAlternatives = {
         first: [
             { excludeYear: "a", les_stelle: "^Q:Mt 11,25-30", },
             { excludeYear: "b", les_stelle: "^Q:Joh 19,31-37", },
-            { excludeYear: "c", les_stelle: "^Q:Mk 15,3-7", },
+            { excludeYear: "c", les_stelle: "^Q:Lk 15,3-7", },
         ],
     },
     "vigil-Himmelfahrt": {
         first: [
             { excludeYear: "a", les_stelle: "^Q:Mt 28,16-20", },
-            { excludeYear: "b", les_stelle: "", },
-            { excludeYear: "c", les_stelle: "", },
-        ],
-    },
-    "vigil-Verklärung": {
-        first: [
-            { les_buch: "^A:vigil-q-2", },
-            { les_buch: "^A:vigil-So-2", },
+            { excludeYear: "b", les_stelle: "^Q:Mk 16,15-20", },
+            { excludeYear: "c", les_stelle: "^Q:Lk 24,46-53", },
         ],
     },
     "vigil-Christkönig": {
         first: [
             { excludeYear: "a", les_stelle: "^Q:Mt 25,31-46", },
             { excludeYear: "b", les_stelle: "^Q:Joh 18,33b-37", },
-            { excludeYear: "c", les_stelle: "", },
+            { excludeYear: "c", les_stelle: "^Q:Lk 23,35b-43", },
         ],
     },
     "vigil-Erscheinung": {
@@ -388,7 +382,7 @@ export const lectureAlternatives = {
         first: [
             { les_stelle: "^Q:Joh 1,1-18", },
             { les_stelle: "^Q:Joh 3,16-21", },
-            // { les_stelle: "^Q:Lk 24,13-35", },
+            { excludeYear: "!so", les_stelle: "^Q:Lk 24,13-35", },
         ],
     },
     "vigil-Josef": {
@@ -409,6 +403,17 @@ export const lectureAlternatives = {
             { les_stelle: "^Q:Joh 6,60-70", },
         ],
     },
+    "vigil-Verklärung": {
+        first: [
+            { les_buch: "^A:vigil-q-2", },
+            { excludeYear: "!so", les_buch: "^Q:^Q:Mk 16,1-20", },
+        ],
+    },
+    "vigil-Kreuzerhöhung": {
+        first: [
+            { excludeYear: "!so", les_stelle: "^Q:Joh 21,1-14", },
+        ],
+    },
     "vigil-Allerheiligen": {
         first: [
             { les_stelle: "^Q:Mt 5,13-16", },
@@ -418,16 +423,16 @@ export const lectureAlternatives = {
     },
     "vigil-q-1": {
         first: [
-            { excludeYear: "a", les_stelle: "", },
-            { excludeYear: "b", les_stelle: "", },
-            { excludeYear: "c", les_stelle: "", },
+            { excludeYear: "a", les_stelle: "^Q:Mt 4,1-11", },
+            { excludeYear: "b", les_stelle: "^Q:Mk 1,12-15", },
+            { excludeYear: "c", les_stelle: "^Q:Lk 4,1-13", },
         ],
     },
     "vigil-q-2": {
         first: [
             { excludeYear: "a", les_stelle: "^Q:Mt 17,1-9", },
-            { excludeYear: "b", les_stelle: "", },
-            { excludeYear: "c", les_stelle: "", },
+            { excludeYear: "b", les_stelle: "^Q:Mk 9,2-10", },
+            { excludeYear: "c", les_stelle: "^Q:Lk 9,28b-36", },
         ],
     },
     "vigil-q-3": {
@@ -435,7 +440,7 @@ export const lectureAlternatives = {
             { excludeYear: "a", les_stelle: "^Q:Joh 4,5-42", },
             { excludeYear: "a", les_stelle: "^Q:Joh 4,5-42k", },
             { excludeYear: "b", les_stelle: "^Q:Joh 2,13-25", },
-            { excludeYear: "c", les_stelle: "", },
+            { excludeYear: "c", les_stelle: "^Q:Lk 13,1-9", },
         ],
     },
     "vigil-q-4": {
@@ -454,18 +459,18 @@ export const lectureAlternatives = {
             { excludeYear: "c", les_stelle: "^Q:Joh 8,1-11", },
         ],
     },
-    "vigil-KarFr": {
+    "vigil-Karfreitag": {
         first: [
             { excludeYear: "a", les_stelle: "^Q:Mt 27,1-2.11-56", },
-            { excludeYear: "b", les_stelle: "", },
-            { excludeYear: "c", les_stelle: "", },
+            { excludeYear: "b", les_stelle: "^Q:Mk 15,1-41", },
+            { excludeYear: "c", les_stelle: "^Q:Lk 23,1-49", },
         ],
     },
-    "vigil-KarSa": {
+    "vigil-Karsamstag": {
         first: [
             { excludeYear: "a", les_stelle: "^Q:Mt 27,57-66", },
-            { excludeYear: "b", les_stelle: "", },
-            { excludeYear: "c", les_stelle: "", },
+            { excludeYear: "b", les_stelle: "^Q:Mk 15,42-47", },
+            { excludeYear: "c", les_stelle: "^Q:Lk 23,50-56", },
         ],
     },
     "vigil-Maria": {
@@ -490,16 +495,10 @@ export const lectureAlternatives = {
             { les_stelle: "^Q:Mt 10,17-22", },
             { les_stelle: "^Q:Mt 10,28-33", },
             { les_stelle: "^Q:Mt 10,34-39", },
-            { les_stelle: "^Q:", },
+            { les_stelle: "^Q:Lk 9,23-26", },
             { les_stelle: "^Q:Joh 12,24-26", },
             { les_stelle: "^Q:Joh 15,18-21", },
             { les_stelle: "^Q:Joh 17,6a.11b-19", },
-            {
-                les_buch: "",
-                les_stelle: "",
-                les_text: "",
-                les_text_neu: "",
-            },
         ],
     },
     "vigil-Hirten": {
@@ -508,32 +507,11 @@ export const lectureAlternatives = {
             { les_stelle: "^Q:Mt 16,13-19", bezug: "[Für einen Papst]", },
             { les_stelle: "^Q:Mt 23,8-12", },
             { les_stelle: "^Q:Mt 28,16-20", bezug: "[Für Glaubensboten]", },
-            {
-                les_buch: "Aus dem heiligen Evangelium nach Markus.",
-                les_stelle: "1,14-20",
-                les_text: "^hDie Berufung der ersten Jünger^p",
-                les_text_neu: "",
-            },
-            {
-                les_buch: "Aus dem heiligen Evangelium nach Markus.",
-                les_stelle: "16,15-20",
-                bezug: "[Für Glaubensboten]",
-                les_text: "^hAussendung der Apostel und Himmelfahrt°Jesu^p",
-                les_text_neu: "",
-            },
+            { les_stelle: "^Q:Mk 1,14-20", },
+            { les_stelle: "^Q:Mk 16,15-20", bezug: "[Für Glaubensboten]", },
             { les_stelle: "^Q:Lk 5,1-11", bezug: "[Für Glaubensboten]", },
-            {
-                les_buch: "Aus dem heiligen Evangelium nach Lukas.",
-                les_stelle: "10,1-9",
-                les_text: "^hDie Aussendung der zweiundsiebzig Jünger^p",
-                les_text_neu: "",
-            },
-            {
-                les_buch: "Aus dem heiligen Evangelium nach Lukas.",
-                les_stelle: "22,24-30",
-                les_text: "^hVom Herrschen und Dienen^p",
-                les_text_neu: "",
-            },
+            { les_stelle: "^Q:Lk 10,1-9", },
+            { les_stelle: "^Q:Lk 22,24-30", },
             { les_stelle: "^Q:Joh 10,11-16", },
             { les_stelle: "^Q:Joh 15,9-17", },
             { les_stelle: "^Q:Joh 21,1.15-17", bezug: "[Für einen Papst]", },
@@ -554,6 +532,15 @@ export const lectureAlternatives = {
             { les_stelle: "^Q:Mt 25,1-13", },
             { les_stelle: "^Q:Mt 25,14-30", },
             { les_stelle: "^Q:Mt 25,31-46", },
+            { les_stelle: "^Q:Mk 3,31-35", },
+            { les_stelle: "^Q:Mk 10,13-16", },
+            { les_stelle: "^Q:Mk 10,17-30", },
+            { les_stelle: "^Q:Lk 6,27-38", },
+            { les_stelle: "^Q:Lk 9,57-62", },
+            { les_stelle: "^Q:Lk 10,38-42", },
+            { les_stelle: "^Q:Lk 12,32-34", },
+            { les_stelle: "^Q:Lk 12,35-40", },
+            { les_stelle: "^Q:Lk 14,25-33", },
             { les_stelle: "^Q:", },
             { les_stelle: "^Q:Joh 15,1-8", },
             { les_stelle: "^Q:Joh 15,9-17", },
@@ -574,31 +561,7 @@ export const lectureAlternatives = {
         first: [
             { les_stelle: "^Q:Mt 19,3-12", },
             { les_stelle: "^Q:Mt 25,1-13", },
-        ],
-    },
-    "vigil-": {
-        first: [
-            {
-                excludeYear: "a",
-                les_buch: "",
-                les_stelle: "",
-                les_text: "",
-                les_text_neu: "",
-            },
-            {
-                excludeYear: "b",
-                les_buch: "",
-                les_stelle: "",
-                les_text: "",
-                les_text_neu: "",
-            },
-            {
-                excludeYear: "c",
-                les_buch: "",
-                les_stelle: "",
-                les_text: "",
-                les_text_neu: "",
-            },
+            { les_stelle: "^Q:Lk 10,38-42", },
         ],
     },
     "MUSTERsecond": {

@@ -144,7 +144,8 @@ const LectureSelector = ({
                     ? bookname : ''
             }
 
-            const getButtonText = (buttonType = 'standard', altData = standard) => {
+            const getButtonText = (buttonType, altData) => {
+                if (!buttonType || !altData) return '';
                 if (altData?.button) return formatPrayerText(altData.button)
 
                 if (longBookname(altData)) {
@@ -178,7 +179,7 @@ const LectureSelector = ({
                 const resultBezug = checkLanguageField('bezug', altData)
                 if (resultBezug) return formatPrayerText(resultBezug)
 
-                let resultExclusion = excludeYear
+                let resultExclusion = (excludeYear?.length === 1)
                     ? 'vom Lesejahr ' + excludeYear?.toUpperCase() : ''
 
                 let evAbbr = longBookname(altData)
@@ -203,7 +204,7 @@ const LectureSelector = ({
                     index: 0,
                     hide: standard?.[fieldText] === 'LEER',
                     marian: keyword.includes('Maria'),
-                    buttonText: getButtonText(),
+                    buttonText: getButtonText('standard', standard),
                     buttonResp: abbreviate(standard?.[fieldResp1]),
                     bezug: getBezug(standard),
                     hasText: !!standard?.[fieldText] && standard?.[fieldText] !== 'LEER',
@@ -218,8 +219,10 @@ const LectureSelector = ({
                 if (!altData) return;
 
                 // Prüfe excludeYear-Bedingung
-                const excludeYear = altData?.excludeYear
-                if (excludeYear && texts.yearABC === excludeYear) {
+                const excludeYear = altData?.excludeYear || ''
+                if (excludeYear === texts.yearABC ||
+                    (excludeYear === '!so' && texts.dayOfWeek > 0)
+                ) {
                     return; // Überspringe diese Alternative
                 }
 
