@@ -473,7 +473,7 @@ const LectureSelector = ({
             return { first: newFirst, second: newSecond };
         });
 
-        //console.log('availableAlternatives aktualisiert:', availableAlternatives, defaultFirst, defaultSecond);
+        console.log('availableAlternatives aktualisiert:', availableAlternatives, defaultFirst, defaultSecond);
 
     }, [availableAlternatives]);
 

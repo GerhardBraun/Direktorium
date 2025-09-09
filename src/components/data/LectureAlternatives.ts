@@ -411,7 +411,7 @@ export const lectureAlternatives = {
     },
     "vigil-Kreuzerhöhung": {
         first: [
-            { excludeYear: "!so", les_stelle: "^Q:Joh 21,1-14", },
+            { excludeYear: "!so", les_stelle: "^Q:Joh 21,1-14" },
         ],
     },
     "vigil-Allerheiligen": {

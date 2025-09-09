@@ -8091,7 +8091,7 @@ export const brevierData = {
           "psalm2": 174.0,
           "psalm3": 193.0,
           "ant0": "Heiliges Kreuz, erhabenes Zeichen des Sieges, gib uns in der Herrlichkeit des Himmels Anteil an deinem Triumph.^ö",
-          "les_buch": "^A:Kreuzerhöhung",
+          "les_buch": "^A:vigil-Kreuzerhöhung:",
           "les_stelle": "^Q:Joh 12,31-36a"
         },
         "Laudes": {
