@@ -150,9 +150,30 @@ export const formatPsalm = (psalmRef, num, localPrefLanguage = '') => {
                     ))}
             </div>
             {title && <div className="text-[0.9em] text-gray-400 mb-[0.66em]">{title}</div>}
-            {quote && <div className="text-[0.9em] leading-[1.1em] italic text-gray-400 -mt-[0.66em] mb-[0.66em]">{formatPrayerText(quote)}</div>}
+            {quote && <div className="text-[0.9em] leading-[1.1em] italic text-gray-400 -mt-[0.66em] mb-[0.66em]">{formatQuote(quote)}</div>}
             {text && <div className="whitespace-pre-wrap">{formatPrayerText(text, localPrefLanguage)}</div>}
             {number !== 160 && <div className="whitespace-pre-wrap">{formatPrayerText(doxology, localPrefLanguage)}</div>}
+        </div>
+    );
+};
+
+const formatQuote = (quote) => {
+    if (!quote || quote === 'LEER' || quote === 'LEER_lat' || quote === '_lat') {
+        return null;
+    }
+
+    // Regex zum Aufteilen: Alles vor der letzten öffnenden Klammer ist der Text,
+    // alles ab der letzten öffnenden Klammer bis zur schließenden Klammer ist die Quelle
+    const match = quote.match(/^(.*?)\s*\(([^)]+)\)\s*$/);
+
+    if (!match) return formatPrayerText(quote)
+
+    const [, quoteText, sourceText] = match;
+    if (sourceText.startsWith('S.')) return formatPrayerText(quote)
+    return (
+        <div>
+            {formatPrayerText(quoteText.trim()) + ' '}
+            {formatBibleRef(sourceText.trim(), true)}
         </div>
     );
 };
