@@ -1380,6 +1380,7 @@ export const brevierData = {
           "psalm1": 195.0,
           "psalm2": 199.111,
           "psalm3": 199.118,
+          "ant0": "Gepriesen bist du, Herr, im Tempel deiner Herrlichkeit, hoch gerühmt und verherrlicht in Ewigkeit.^Ö",
           "les_buch": "ML Comm",
           "les_text": "LEER"
         },
@@ -2315,6 +2316,14 @@ export const brevierData = {
           "patr_resp2_lat": "",
           "patr_resp3_lat": "",
           "les_text_lat": ""
+        },
+        "Vigil": {
+          "psalm1": 199.119,
+          "psalm2": 199.106,
+          "psalm3": 199.107,
+          "ant0": "Um Mitternacht erscholl der Ruf: Seht, der Bräutigam kommt! Auf, ihm entgegen, Christus, dem Herrn.^Ö",
+          "les_buch": "^A:vigil-Heilige:",
+          "les_text": "LEER"
         },
         "Laudes": {
           "button": "Jgfr",
@@ -4127,6 +4136,7 @@ export const brevierData = {
           "psalm1": 199.119,
           "psalm2": 199.106,
           "psalm3": 199.107,
+          "ant0": "Legt euren Gürtel nicht ab und lasst eure Lampen brennen, seid bereit für die Ankunft des Herrn.^ö",
           "les_buch": "^A:vigil-Heilige:",
           "les_text": "LEER"
         }
@@ -4774,8 +4784,9 @@ export const brevierData = {
           "psalm1": 199.112,
           "psalm2": 182.0,
           "psalm3": 194.0,
-          "ant0": "wie 25.3.",
+          "ant0": "Freue dich und juble, Tochter Zion; denn siehe, ich komme und wohne in deiner Mitte – Spruch des Herrn.^Ö",
           "les_buch": "^A:vigil-Darstellung:",
+          "les_stelle": "LEER",
           "les_text": "LEER"
         },
         "Laudes": {
@@ -5490,7 +5501,7 @@ export const brevierData = {
           "psalm1": 199.112,
           "psalm2": 182.0,
           "psalm3": 194.0,
-          "ant0": "Freue dich und juble, Tochter Zion …",
+          "ant0": "Freue dich und juble, Tochter Zion; denn siehe, ich komme und wohne in deiner Mitte – Spruch des Herrn.^Ö",
           "les_stelle": "^Q:Mt 1,18-24"
         },
         "Laudes": {
@@ -6751,7 +6762,8 @@ export const brevierData = {
           "psalm3": 199.107,
           "ant0": "Könige werden es sehen",
           "les_buch": "^A:vigil-Johannes:",
-          "les_stelle": "^Q:Lk 1,5-17"
+          "les_stelle": "^Q:Lk 1,5-17",
+          "les_text": "LEER"
         },
         "Laudes": {
           "button": "Geburt des hl. Johannes des Täufers",
@@ -6926,7 +6938,8 @@ export const brevierData = {
           "psalm3": 199.104,
           "ant0": "Vereint im Glauben und im Leiden …",
           "les_buch": "^A:vigil-PeterPaul:",
-          "les_stelle": "^Q:Joh 21,1.15-19"
+          "les_stelle": "^Q:Joh 21,1.15-19",
+          "les_text": "LEER"
         },
         "Laudes": {
           "button": "Hl. Petrus und hl. Paulus",
@@ -7486,6 +7499,7 @@ export const brevierData = {
           "psalm3": 193.0,
           "ant0": "Als die Jünger …",
           "les_buch": "^A:vigil-Verklärung:",
+          "les_stelle": "LEER",
           "les_text": "LEER"
         },
         "Laudes": {
@@ -8092,7 +8106,8 @@ export const brevierData = {
           "psalm3": 193.0,
           "ant0": "Heiliges Kreuz, erhabenes Zeichen des Sieges, gib uns in der Herrlichkeit des Himmels Anteil an deinem Triumph.^ö",
           "les_buch": "^A:vigil-Kreuzerhöhung:",
-          "les_stelle": "^Q:Joh 12,31-36a"
+          "les_stelle": "^Q:Joh 12,31-36a",
+          "les_text": "LEER"
         },
         "Laudes": {
           "button": "Kreuzerhöhung",
@@ -9150,7 +9165,8 @@ export const brevierData = {
           "psalm2": 195.1,
           "psalm3": 195.2,
           "ant0": "Preist den Herrn, ihr seine Heiligen alle, feiert Tage der Freude und singt sein Lob.^ö",
-          "les_buch": "^A:vigil-Allterheiligen:"
+          "les_buch": "^A:vigil-Allterheiligen:",
+          "les_text": "LEER"
         },
         "Laudes": {
           "button": "Allerheiligen",
@@ -16166,7 +16182,8 @@ export const brevierData = {
         },
         "Vigil": {
           "les_buch": "^A:vigil-q-1:",
-          "les_stelle": "^Q:Lk 13,22-33"
+          "les_stelle": "^Q:Lk 13,22-33",
+          "les_text": "LEER"
         },
         "Laudes": {
           "ant1": "Herr, ich will dich rühmen mein Leben lang, in deinem Namen die Hände erheben.",
@@ -16294,7 +16311,8 @@ export const brevierData = {
         },
         "Vigil": {
           "les_buch": "^A:vigil-q-2:",
-          "les_stelle": "^Q:Mk 8,27-38"
+          "les_stelle": "^Q:Mk 8,27-38",
+          "les_text": "LEER"
         },
         "Laudes": {
           "ant1": "Die Rechte des Herrn wirkt mit Macht, die Rechte des Herrn hat mich erhoben.",
@@ -16420,7 +16438,8 @@ export const brevierData = {
         },
         "Vigil": {
           "les_buch": "^A:vigil-q-3:",
-          "les_stelle": "^Q:Mk 9,30-48"
+          "les_stelle": "^Q:Mk 9,30-48",
+          "les_text": "LEER"
         },
         "Laudes": {
           "ant1": "Gewaltiger als das Tosen vieler Wasser bist du, Herr, in der Höhe. Deine Gesetze sind fest und verlässlich.",
@@ -16547,7 +16566,8 @@ export const brevierData = {
         },
         "Vigil": {
           "les_buch": "^A:vigil-q-4:",
-          "les_stelle": "^Q:Mk 10,32-45"
+          "les_stelle": "^Q:Mk 10,32-45",
+          "les_text": "LEER"
         },
         "Laudes": {
           "ant1": "Du bist mein Gott, dir will ich danken; mein Gott, dich will ich rühmen.",
@@ -16680,7 +16700,8 @@ export const brevierData = {
         },
         "Vigil": {
           "les_buch": "^A:vigil-q-5:",
-          "les_stelle": "^Q:Mt 21,33-46"
+          "les_stelle": "^Q:Mt 21,33-46",
+          "les_text": "LEER"
         },
         "Laudes": {
           "ant1": "Mein Gott, du wurdest meine Hilfe, meine Seele hängt an dir.",
@@ -17385,7 +17406,8 @@ export const brevierData = {
         },
         "Vigil": {
           "ant0": "Aus der geöffneten Seite des Herrn floss Blut und Wasser heraus, uns zur Rettung und zum Heil.",
-          "les_buch": "^A:vigil-Karfreitag:"
+          "les_buch": "^A:vigil-Karfreitag:",
+          "les_text": "LEER"
         },
         "Laudes": {
           "psalm1": 51.0,
@@ -17532,7 +17554,8 @@ export const brevierData = {
         },
         "Vigil": {
           "ant0": "Aus der Tiefe der Totenwelt schrie ich zum Herrn, und er hörte mein Rufen.",
-          "les_buch": "^A:vigil-Karsamstag:"
+          "les_buch": "^A:vigil-Karsamstag:",
+          "les_text": "LEER"
         },
         "Laudes": {
           "psalm1": 64.0,

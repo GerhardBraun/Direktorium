@@ -405,8 +405,10 @@ export const lectureAlternatives = {
     },
     "vigil-Verklärung": {
         first: [
-            { les_buch: "^A:vigil-q-2", },
-            { excludeYear: "!so", les_buch: "^Q:^Q:Mk 16,1-20", },
+            { excludeYear: "a", les_stelle: "^Q:Mt 17,1-9", },
+            { excludeYear: "b", les_stelle: "^Q:Mk 9,2-10", },
+            { excludeYear: "c", les_stelle: "^Q:Lk 9,28b-36", },
+            { excludeYear: "!so", les_buch: "^Q:Mk 16,1-20", },
         ],
     },
     "vigil-Kreuzerhöhung": {

@@ -261,7 +261,7 @@ export const ordinarium = (texts, hour = '', localPrefLatin = false, prefSollemn
     let ordinariumTexts = ordinariumData?.[hour]?.[languageToRead] || {};
 
     if (['lesehore', 'vigil'].includes(hour) &&
-        ((texts?.rank_wt > 2 && texts?.season !== 'p')
+        ((texts?.rank_wt > 2 && texts?.season !== 'q')
             || texts?.rank_date > 2
             || prefSollemnity)) {
         ordinariumTexts = ordinariumData?.TeDeum?.[languageToRead] || {};

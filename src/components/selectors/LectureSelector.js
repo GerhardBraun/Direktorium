@@ -195,7 +195,7 @@ const LectureSelector = ({
                         return formatBibleRef(resultExclusion + evAbbr + ' ' + altData.les_stelle, true)
                     }
                 }
-                return (resultExclusion) ? resultExclusion + ')' : null
+                return (resultExclusion) ? '(' + resultExclusion + ')' : null
             }
 
             // Standard-Button (immer Index 0)
