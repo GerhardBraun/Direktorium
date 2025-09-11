@@ -6,36 +6,31 @@ const NavigationButtons = ({ hour, onBack, onSelectHour, topButton = false, text
             case 'invitatorium':
                 return [
                     { label: 'Lesehore', name: 'lesehore' },
-                    { label: 'Laudes', name: 'laudes' }
-                ];
+                    { label: 'Laudes', name: 'laudes' }];
             case 'vigil':
             case 'lesehore':
                 return [
                     { label: 'Laudes', name: 'laudes' },
-                    { label: 'Vesper', name: 'vesper' }
-                ];
+                    { label: 'Vesper', name: 'vesper' }];
             case 'laudes':
                 return [
                     { label: 'Lesehore', name: 'lesehore' },
-                    { label: 'Terz/Sext/Non', name: 'terz', span: 'col-span-3' }
-                ];
+                    { label: 'Terz/Sext/Non', name: 'terz', span: 'col-span-3' }];
             case 'terz':
             case 'sext':
             case 'non':
                 return [
                     { label: 'Lesehore', name: 'lesehore' },
-                    { label: 'Vesper', name: 'vesper' }
-                ];
+                    { label: 'Vesper', name: 'vesper' }];
+            case 'erstev':
             case 'vesper':
                 return [
                     { label: 'Marian. Ant.', name: 'komplet' },
-                    { label: 'Komplet', name: 'komplet' }
-                ];
+                    { label: 'Komplet', name: 'komplet' }];
             case 'komplet':
                 return [
                     { label: 'zurück zur Vesper', name: 'vesper' },
-                    ''
-                ];
+                    ''];
             default:
                 return [];
         }

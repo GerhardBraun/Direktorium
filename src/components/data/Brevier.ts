@@ -4285,6 +4285,7 @@ export const brevierData = {
         },
         "Vigil": {
           "ant0": "O reine Mutter und Jungfrau, ohne Makel empfängst du den Erlöser, ohne Schmerzen gebärst du ihn.^ö",
+          "les_text": "LEER",
           "ant0_lat": "O quam casta Mater, et virgo fecúnda María, quæ sine ulla contaminatióne concépit, et sine dolóre péperit Salvatórem."
         },
         "Laudes": {
@@ -4506,7 +4507,7 @@ export const brevierData = {
           "comm_1": "MärtSg_Jgfr",
           "comm_2": "Jgfr",
           "oration": "Ewiger Gott, du berufst, was schwach ist in dieser Welt, um das, was stark ist, zu beschämen. Höre auf die Fürsprache der heiligen Agnes. Komm uns zu Hilfe, damit auch wir unbeirrt den Glauben bekennen.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Omnípotens sempitérne Deus, qui infírma mundi éligis ut fórtia quæque confúndas, concéde propítius, ut, qui beátæ Agnétis mártyris tuæ natalícia celebrámus, eius in fide constántiam subsequámur.^ORlV"
         },
         "Lesehore": {
           "comm_1": "MärtSg_Jgfr",
@@ -4517,9 +4518,7 @@ export const brevierData = {
           "patr_resp1": "Lasst uns das fest der heiligen Agnes feiern und daran denken, wie sie gelitten hat.",
           "patr_resp2": "In ihrer Jugend verlor sie den Tod und gewann das Leben.",
           "patr_resp3": "Denn sie liebte nur den Urheber des Lebens.",
-          "patr_resp1_lat": "",
-          "patr_resp2_lat": "",
-          "patr_resp3_lat": ""
+          "hymn_1_lat": 8121.1
         },
         "Laudes": {
           "button": "Hl. Agnes",
@@ -4541,14 +4540,15 @@ export const brevierData = {
           "resp3": "Gott ist ihr Zuflucht und Stärke, ein Helfer in allen Nöten.",
           "antev": "Schon schaue ich, wonach ich mich sehnte, schon besitze ich, was ich erhoffte. Den ich auf Erden von Herzen geliebt, mit dem bin ich im Himmel vereint.",
           "genitiv_lat": "",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 8121.2,
+          "ant1_lat": "Anulo suo subarrhávit me Dóminus meus Iesus Christus, et tamquam sponsam decorávit me coróna.",
+          "ant2_lat": "Ipsi sum desponsáta, cui ángeli sérviunt, cuius pulchritúdinem sol et luna mirántur.",
+          "ant3_lat": "Congaudéte mecum et congratulámini, quia cum sanctis ómnibus lúcidas sedes accépi.",
+          "resp1_lat": "Adiuvábit eam",
+          "resp2_lat": "Deus vultu suo.",
+          "resp3_lat": "Deus in médio eius, non commovébitur.",
+          "antev_lat": "Ecce quod concupívi, iam vídeo; quod sperávi, iam téneo: ipsi sum iuncta in cælo, quem in terris pósita, tota devotióne diléxi.",
+          "les_text_lat": "Benedíctus Deus et Pater Dómini nostri Iesu Christi, Pater misericordiárum et Deus totíus consolatiónis, qui consolátur nos in omni tribulatióne nostra, ut possímus et ipsi consolári eos, qui in omni pressúra sunt, per exhortatiónem, qua exhortámur et ipsi a Deo; quóniam, sicut abúndant passiónes Christi in nobis, ita per Christum abúndat et consolátio nostra."
         },
         "Vesper": {
           "comm_1": "MärtSg_Jgfr",
@@ -4566,14 +4566,15 @@ export const brevierData = {
           "resp2": "vor allen hat er sie erkoren.",
           "resp3": "In seinem Zelt lässt er sie wohnen.",
           "antev": "Die heilige Agnes breitete die Hände aus und betete: Heiliger Vater, dich rufe ich an. Siehe, ich komme zu dir, den ich geliebt und gesucht, nach dem ich mich allezeit gesehnt.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "vor°allen°hat°er°sie°erkoren.",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 8121.2,
+          "ant1_lat": "Christi virgo nec terróre concútitur nec blandiméntis sedúcitur.",
+          "ant2_lat": "Ipsi soli servo fidem, ipsi me tota devotióne commítto.",
+          "ant3_lat": "Benedíco te, Pater Dómini mei Iesu Christi, quia per Fílium tuum victóriam dedísti ancíllæ tuæ.",
+          "resp1_lat": "Elégit eam Deus",
+          "resp2_lat": "et præelégit eam.",
+          "resp3_lat": "In tabernáculo suo habitáre facit eam.",
+          "antev_lat": "Beáta Agnes expánsis mánibus orábat: Te, Pater sancte, déprecor; ecce vénio ad te, quem amávi, quem quæsívi, quem semper optávi.",
+          "les_text_lat": "Caríssimi, quemádmodum communicátis Christi passiónibus, gaudéte, ut et in revelatióne glóriæ eius gaudeátis exsultántes. Si exprobrámini in nómine Christi, beáti, quóniam Spíritus glóriæ et Dei super vos requiéscit."
         }
       },
       "25": {
@@ -4584,7 +4585,7 @@ export const brevierData = {
         },
         "Invitatorium": {
           "ant0": "Lasst uns Gott loben am Fest der Bekehrung des heiligen Paulus!",
-          "ant0_lat": ""
+          "ant0_lat": "Laudémus Deum nostrum in conversióne Doctóris géntium."
         },
         "Lesehore": {
           "hymn_nacht": 0.0,
@@ -4606,18 +4607,11 @@ export const brevierData = {
           "patr_resp2": "Übergroß war die Gnade unseres Herrn, die mir den Glauben und die Liebe schenkte.",
           "patr_resp3": "Ich bin nicht wert, Apostel genannt zu werden.",
           "hymn_nacht_lat": 0.0,
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "versikel0_lat": "",
-          "versikel1_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "patr_resp1_lat": "",
-          "patr_resp2_lat": "",
-          "patr_resp3_lat": "",
-          "les_text_lat": ""
+          "ant1_lat": "Quis es, Dómine? Ego sum Iesus, quem tu perséqueris; durum est tibi contra stímulum calcitráre.",
+          "ant2_lat": "Vade, Ananía, et quære Saulum, ecce enim orat; quia vas electiónis est mihi, ut portet nomen meum coram géntibus et régibus et fíliis Israel.",
+          "ant3_lat": "Ingréssus Paulus in synagógas prædicábat Iudǽis Iesum, affírmans quia hic est Christus.",
+          "versikel0_lat": "Miserátor et miséricors Dóminus.",
+          "versikel1_lat": "Longánimis et multum miséricors."
         },
         "Laudes": {
           "button": "Bekehrung des hl. Apostels Paulus",

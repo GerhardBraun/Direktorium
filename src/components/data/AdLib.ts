@@ -62,7 +62,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
-          "oration": "Gott, unser Vater, du hast deiner Kirche in den Bischöfen Basilius und Gregor heilige Hirten gegeben, die uns durch ihre Lehre und ihr Leben den Weg der Wahrheit zeigen. Hilf uns auf ihre Fürsprache, dein Wort in Demut aufzunehmen und in Werken der Liebe zu bezeugen.^ORV"
+          "oration": "Gott, unser Vater, du hast deiner Kirche in den Bischöfen Basilius und Gregor heilige Hirten gegeben, die uns durch ihre Lehre und ihr Leben den Weg der Wahrheit zeigen. Hilf uns auf ihre Fürsprache, dein Wort in Demut aufzunehmen und in Werken der Liebe zu bezeugen.^ORV",
+          "oration_lat": "Deus, qui Ecclésiam tuam beatórum Basilíi et Gregórii exémplis et doctrínis dignátus es illustráre, concéde, quǽsumus, ut tuam discámus in humilitáte veritátem, et eam in caritáte fidéliter operémur.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Gregor von Nazianz (†°390)",
@@ -77,10 +78,12 @@ export const adlibData = {
           "genitiv": "der Heiligen Basilius und Gregor",
           "vokativ": "Heiliger Basilius und heiliger Gregor",
           "genitiv_lat": "sanctórum ",
-          "antev": "Die Weisen werden strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig."
+          "antev": "Die Weisen werden strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig.",
+          "antev_lat": "Qui docti fúerint, fulgébunt quasi splendor firmaménti, et qui ad iustítiam erúdiunt multos, quasi stellæ in perpétuas æternitátes."
         },
         "Vesper": {
-          "antev": "Wer Gottes Gebote hält und sie halten lehrt, wird groß sein im Himmelreich."
+          "antev": "Wer Gottes Gebote hält und sie halten lehrt, wird groß sein im Himmelreich.",
+          "antev_lat": "Qui fécerit et docúerit, hic magnus vocábitur in regno cælórum."
         }
       }
     },
@@ -107,7 +110,8 @@ export const adlibData = {
       "n2": {
         "major": {
           "comm_1": "Hirten",
-          "oration": "Barmherziger Gott, du hast dem heiligen Raimund die Kraft deiner Liebe geschenkt und ihn den Gefangenen als Helfer gesandt. Höre auf seine Fürsprache und befreie uns von der Gefangenschaft der Sünde, damit wir als wahrhaft freie Menschen das Gebot der Liebe erfüllen.^ORV"
+          "oration": "Barmherziger Gott, du hast dem heiligen Raimund die Kraft deiner Liebe geschenkt und ihn den Gefangenen als Helfer gesandt. Höre auf seine Fürsprache und befreie uns von der Gefangenschaft der Sünde, damit wir als wahrhaft freie Menschen das Gebot der Liebe erfüllen.^ORV",
+          "oration_lat": "Deus, qui beátum Raimúndum presbýterum insígnis in peccatóres misericórdiæ virtúte decorásti, eius nobis intercessióne concéde, ut, a peccáti servitúte solúti, quæ tibi sunt plácita líberis méntibus exsequámur.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Raimund von Penyafort (†°1275)",
@@ -150,7 +154,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
-          "oration": "Allmächtiger Gott, erhöre unser Gebet am Gedenktag des heiligen Bischofs Hilarius, der unermüdlich die Lehre von der Gottheit deines Sohnes verteidigt hat. Gib uns die Weisheit und Kraft, damit wir die Größe dieses Geheimnisses erkennen und deinen Sohn glaubwürdig bezeugen,^ORR"
+          "oration": "Allmächtiger Gott, erhöre unser Gebet am Gedenktag des heiligen Bischofs Hilarius, der unermüdlich die Lehre von der Gottheit deines Sohnes verteidigt hat. Gib uns die Weisheit und Kraft, damit wir die Größe dieses Geheimnisses erkennen und deinen Sohn glaubwürdig bezeugen,^ORR",
+          "oration_lat": "Præsta, quǽsumus, omnípotens Deus, ut divinitátem Fílii tui, quam beátus Hilárius epíscopus constánter asséruit, et conveniénter intellégere valeámus, et veráciter profitéri.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Hilarius von Poitiers (†°367)",
@@ -172,7 +177,8 @@ export const adlibData = {
       "eig": {
         "major": {
           "comm_1": "Mann_Ord",
-          "oration": "Herr, unser Gott, du hast den heiligen Mönchsvater Antonius aus der Welt herausgerufen und ihm die Kraft gegeben, in der Einsamkeit der Wüste vor dir zu leben. Hilf uns auf seine Fürbitte, uns selbst zu überwinden und dich über alles zu lieben.^ORV"
+          "oration": "Herr, unser Gott, du hast den heiligen Mönchsvater Antonius aus der Welt herausgerufen und ihm die Kraft gegeben, in der Einsamkeit der Wüste vor dir zu leben. Hilf uns auf seine Fürbitte, uns selbst zu überwinden und dich über alles zu lieben.^ORV",
+          "oration_lat": "Deus, qui beáto António abbáti tribuísti mira tibi in desérto conversatióne servíre, eius nobis interventióne concéde, ut, abnegántes nosmetípsos, te iúgiter super ómnia diligámus.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Athanasius (†°373)",
@@ -195,7 +201,8 @@ export const adlibData = {
         "major": {
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
-          "oration": "Gott, du bist der Ruhm deiner Kirche und die Kraft ihrer Hirten. Du stärkst die Märtyrer zum Zeugnis und belohnst sie mit ewiger Herrlichkeit. Höre auf die Fürsprache des heiligen Papstes Fabian, mit dem uns der Glaube an Christus verbindet, und hilf auch uns, dir bis in den Tod die Treue zu bewahren.^ORV"
+          "oration": "Gott, du bist der Ruhm deiner Kirche und die Kraft ihrer Hirten. Du stärkst die Märtyrer zum Zeugnis und belohnst sie mit ewiger Herrlichkeit. Höre auf die Fürsprache des heiligen Papstes Fabian, mit dem uns der Glaube an Christus verbindet, und hilf auch uns, dir bis in den Tod die Treue zu bewahren.^ORV",
+          "oration_lat": "Deus, tuórum glória sacerdótum, præsta, quǽsumus, ut beáti Fabiáni mártyris tui interveniénte suffrágio, eiúsdem proficiámus fídei consórtio dignóque servítii.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Cyprian von Karthago (†°258)",
@@ -260,7 +267,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "MärtSg",
-          "oration": "Allmächtiger, ewiger Gott, im Vertrauen auf deine Barmherzigkeit rufen wir zu dir: Erfülle uns mit deinem Geist und gib uns jene Liebe, die den heiligen Diakon Vinzenz fähig machte, die Qualen des Martyriums zu bestehen.^ORV"
+          "oration": "Allmächtiger, ewiger Gott, im Vertrauen auf deine Barmherzigkeit rufen wir zu dir: Erfülle uns mit deinem Geist und gib uns jene Liebe, die den heiligen Diakon Vinzenz fähig machte, die Qualen des Martyriums zu bestehen.^ORV",
+          "oration_lat": "Omnípotens sempitérne Deus, tuum in nobis Spíritum cleménter infúnde, ut corda nostra ea dilectióne válida potiántur, per quam sanctus martyr Vincéntius ómnia córporis torménta devícit.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Augustinus (†°430)",
@@ -316,7 +324,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
-          "oration": "Gütiger Gott, du hast den heiligen Franz von Sales dazu berufen, als Bischof und Lehrer allen alles zu werden. Hilf uns, sein Beispiel nachzuahmen und den Brüdern zu dienen, damit durch uns deine Menschenfreundlickeit sichtbar wird.^ORV"
+          "oration": "Gütiger Gott, du hast den heiligen Franz von Sales dazu berufen, als Bischof und Lehrer allen alles zu werden. Hilf uns, sein Beispiel nachzuahmen und den Brüdern zu dienen, damit durch uns deine Menschenfreundlickeit sichtbar wird.^ORV",
+          "oration_lat": "Deus, qui ad animárum salútem beátum Francíscum epíscopum ómnibus ómnia factum esse voluísti, concéde propítius, ut, eius exémplo, tuæ mansuetúdinem caritátis in fratrum servítio semper ostendámus.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Franz von Sales (†°1622)",
