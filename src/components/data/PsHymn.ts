@@ -4996,8 +4996,12 @@ export const psalmsData = {
     1.0: {
         "text_lat": "Pressi malórum póndere^lte, Paul>e, adímus súpplices,^lqui certa largus désuper^ldabis salútis pígnora.^pNam tu beáto cóncitus^ldivín>i amóris ímpetu,^lquos insecútor óderas,^ldefénsor ind>e amplécteris.^pAmóris, eia, prístini^lne sis, precámur, ímmemor,^let nos supérnæ lánguidos^lin spem redúcas grátiæ.^pTe deprecánte flóreat^lignára damni cáritas,^lquam nulla turbent iúrgia^lnec ullus error sáuciet.^pO grata cælo víctima,^lte, lux amórque Géntium,^lo Paule, clarum víndicem,^lnos te patrónum póscimus.^pLaus Trinitáti, cántica^lsint sempitérnæ glóriæ,^lquæ nos boni certáminis^ltecum corónet prǽmiis. Amen."
       },
-    2.0: {},
-    4.0: {}
+    2.0: {
+        "text_lat": "Doctor egrégie,^/Paule, mores ínstrue^let mente polum^/nos transférre sátage,^ldonec perféctum^/largiátur plénius,^levacuáto^/quod ex parte gérimus.^pSit Trinitáti^/sempitérna glória,^lhonor, potéstas^/atque iubilátio,^lin unitáte,^/c>ui manet impérium^lex tunc et modo^/per ætérna sǽcula. Amen."
+      },
+    4.0: {
+        "text_lat": "Excélsam Pauli glóriam^lconcélebret Ecclésia,^lquem mire sibi apóstolum^lex hoste fecit Dóminus.^pQuibus succénsus ǽstibus^lin Christi nomen sǽviit,^lexársit his impénsius^lamórem Christi prǽdicans.^pO magnum Pauli méritum!^lCælum conscéndit tértium,^laudit verba mystérii^lquæ nullus audet éloqui.^pDum verbi spargit sémina,^lseges surgit ubérrima;^lsic cæli replent hórreum^lbonórum fruges óperum.^pMicántis more lámpadis^lperfúndit orbem rádiis;^lfugat errórum ténebras,^lut sola regnet véritas.^pChristo sit omnis glória,^lcum Patre et almo Spíritu,^lqui dedit vas tam fúlgidum^lelectiónis géntibus."
+      }
   },
   8202: {
     1.0: {
@@ -5005,6 +5009,15 @@ export const psalmsData = {
       },
     2.0: {
         "text": "Auf, Zion, schmücke dein Gemach,^lder Herr ist da, den du ersehnt.^lSteh auf und mache dich bereit,^lempfange Bräutigam und Braut.^pZu seinem Tempel kommt der Herr:^lDie Eltern bringen Christus dar.^lDer ohne alle Sünde ist,^lmacht dem Gesetz sich untertan.^pTritt, königliche Jungfrau, ein,^lbring mit dem Opfer dar dein Kind,^ldes ew’gen Vaters wahren Sohn,^lder uns zum Heil erschienen ist.^pWas dir verheißen, Simeon,^ldas ist in diesem Kind erfüllt.^lNun mache allen Völkern kund^ldas Licht, das ihnen leuchten soll.^pHerr, dir sei Preis und Herrlichkeit,^lder sich den Heiden offenbart,^lmit dir dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."
+      },
+    101.0: {
+        "text_lat": "Legis sacrátæ^/sanctis cæremóniis^lsubiéctus omnis^/cálamo Mosáico^ldignátur esse,^/qui regit perfúlgidos^lin arce Patris^/órdines angélicos,^lcælúmque, terram^/fundávi ac mária.^pMater beáta^/carnis sub velámine^lDeum ferébat^/úmeris castíssimis,^ldúlcia strictis^/óscula sub lábiis^lDeíque veri^/hominísqu>e imprésserat^lori, iubénte^/quo sunt cuncta cóndita.^pHic lumen ardens^/géntium in óculis,^lglória plebis^/Israélis gérminis;^lpósitus hic est^/in ruínam scándali^let in salútem^/populórum ómnium,^ldonec secréta^/reveléntur córdium.^pGlória Patri^/per imménsa sǽcula,^lsit tibi, Nate,^/decus et impérium,^lhonor, potéstas^/Sanctóque Spirítui:^lsit Trinitáti^/salus indivídua^lper infiníta^/sæculórum sǽcula."
+      },
+    102.0: {
+        "text_lat": "Adórna, Sion, thálamum,^lquæ præstoláris Dóminum;^lsponsum et sponsam súscipe^lvigil fídei lúmine.^pBeáte senex, própera,^lpromíssa comple gáudia^let revelándum géntibus^lrevéla lumen ómnibus.^pParéntes Christum déferunt,^lin templo templum ófferunt;^llegi parére vóluit^lqui legi nihil débuit.^pOffer, beáta, párvulum,^ltuum et Patris únicum;^loffer per quem offérimur,^lprétium quo redímimur.^pProcéde, virgo régia,^lprofer Natum cum hóstia;^lmonet omnes ad gáudium^lqui venit salus ómnium.^pIesu, tibi sit glória,^lqui te revélas géntibus,^lcum Patr>e et almo Spíritu,^lin sempitérna sǽcula."
+      },
+    104.0: {
+        "text_lat": "Quod chorus vatum^/venerándus olim^lSpíritu Sancto^/cécinit replétus,^lin Dei factum^/genetríce constat^lesse María.^pHæc Deum cæli^/Dominúmque terræ^lvirgo concépit^/peperítque virgo,^latque post partum^/méruit manére^linvioláta.^pQuem senex iustus^/Símeon in ulnis^lin domo sumpsit^/Dómini, gavísus^lob quod optátum^/próprio vidéret^llúmine Christum.^pTu libens votis,^/pétimus, precántum,^lregis ætérni^/génetrix, favéto,^lclara quæ fundis^/Géniti benígni^lmúnera lucis.^pChriste, qui lumen^/Patris es supérni,^lqui Patris nobis^/réseras profúnda,^lnos fac ætérnæ^/tibi ferre laudes^llucis in aula."
       }
   },
   8204: {
@@ -5041,6 +5054,15 @@ export const psalmsData = {
   8222: {
     0.0: {
         "text": "Petrus, der Kirche Fundament,^lder Herr hat dich zum Fels gemacht.^lEr selber ist der feste Grund,^lder Halt und Stärke dir verleiht.^pDu, Petrus, hast den Herrn zuerst^lbekannt als wahren Gottessohn.^lDir gab er Auftrag und Gewalt,^lsein Volk zu leiten durch die Zeit.^pBehüte du als treuer Knecht^ldie Herde, die dir anvertraut.^lWenn Satan uns wie Weizen siebt,^ldann stärke unsres Glaubens Kraft.^pDem Herrn sei Preis und Herrlichkeit,^lder seine Kirche lenkt und führt,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
+      },
+    1.0: {
+        "text_lat": "Iam, bone pastor,^/Petre, clemens áccipe^lvota precántum,^/et peccáti víncula^lresólve, tibi^/potestáte trádita,^lqua cunctis cælum^/verbo claudis, áperis.^pSit Trinitáti^/sempitérna glória,^lhonor, potéstas^/atque iubilátio,^lin unitáte,^/cui manet impérium^lex tunc et modo^/per ætérna sǽcula."
+      },
+    2.0: {
+        "text_lat": "Petrus beátus^/catenárum láqueos^lChristo iubénte^/rupit mirabíliter;^lcustos ovílis^/et doctor Ecclésiæ,^lpastórque gregis,^/conservátor óvium^larcet lupórum^/truculéntam rábiem.^pQuodcúmque vinclis^/super terram strínxerit,^lerit in astris^/religátum fórtiter,^let quod resólvit^/in terris arbítrio,^lerit solútum^/super cæli rádium;^lin fine mundi^/iudex erit sǽculi.^pGlória Patri^/per imménsa sǽcula,^lsit tibi, Nate,^/decus et impérium,^lhonor, potéstas^/Sanctóque Spirítui;^lsit Trinitáti^/salus indivídua^lper infiníta^/sæculórum sǽcula."
+      },
+    4.0: {
+        "text_lat": "Divína vox te déligit,^lpiscátor, ac pro rétibus^lremísque qua tu glória^lcæli refúlges clávibus!^pTenax amóris próferens^lac dulce testimónium,^lomnes amor quos láverat^loves regéndas áccipis.^pLapsus, supérno róbore^ltu petra stas Ecclésiæ,^lqua splendet illa sǽculis,^lnullis subácta víribus.^pTu, Petre, Christ>i oráculo^lluces magíster ómnium,^lfratrésque firmas, próvidus^ltu verba vitæ núntias.^pGregem fac unum, próspera^llætis in ævum frúctibus,^lsalvúmqu>e ab hostis ímpetu^lad lucis adduc pábula.^pSit summa Christo glória,^lqui nos det aulæ cǽlicæ^lintráre per te iánuam^lin sempitérna gáudia."
       }
   },
   8319: {

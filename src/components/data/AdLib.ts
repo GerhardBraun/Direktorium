@@ -347,7 +347,8 @@ export const adlibData = {
       "eig": {
         "major": {
           "comm_1": "Hirten",
-          "oration": "Gott, unser Vater, du hast die Apostelschüler Timotheus und Titus mit den Gaben des Heiligen Geistes beschenkt und sie deiner Kirche als Hirten gegeben. Höre auf ihre Fürsprache und hilf uns, dass wir gerecht und fromm in dieser Welt leben und so zur Gemeinschaft mit deinen Heiligen gelangen.^ORV"
+          "oration": "Gott, unser Vater, du hast die Apostelschüler Timotheus und Titus mit den Gaben des Heiligen Geistes beschenkt und sie deiner Kirche als Hirten gegeben. Höre auf ihre Fürsprache und hilf uns, dass wir gerecht und fromm in dieser Welt leben und so zur Gemeinschaft mit deinen Heiligen gelangen.^ORV",
+          "oration_lat": "Deus, qui beátos Timótheum et Titum apostólicis virtútibus decorásti, utriúsque intercessióne concéde, ut, iuste et pie vivéntes in hoc sǽculo, ad cæléstem mereámur pátriam perveníre.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Johannes Chrysostomus (†°407)",
@@ -361,10 +362,12 @@ export const adlibData = {
           "button": "Hl. Timotheus und hl. Titus",
           "genitiv": "der Heiligen Timotheus und Titus",
           "genitiv_lat": "sanctórum ",
-          "antev": "Verkünde das Wort, tritt dafür ein, ob man es hören will oder nicht; weise zurecht, tadle und ermahne in geduldiger Belehrung."
+          "antev": "Verkünde das Wort, tritt dafür ein, ob man es hören will oder nicht; weise zurecht, tadle und ermahne in geduldiger Belehrung.",
+          "antev_lat": "Prǽdica verbum, insta opportúne, importúne: árgue, óbsecra, íncrepa in omni patiéntia et doctrína."
         },
         "Vesper": {
-          "antev": "Gerecht und heilig wollen wir leben in der Hoffnung auf die Wiederkunft des Herrn."
+          "antev": "Gerecht und heilig wollen wir leben in der Hoffnung auf die Wiederkunft des Herrn.",
+          "antev_lat": "Iuste et pie vivámus, exspectántes beátam spem et advéntum Dómini."
         }
       }
     },
@@ -373,7 +376,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Jgfr",
           "comm_2": "Frau_Erz",
-          "oration": "Gütiger Gott, höre auf die Fürsprache der heiligen Angela. Öffne unsere Augen für das Beispiel der Liebe und der Klugheit, das sie als christliche Erzieherin gegeben hat. Hilf uns, an der wahren Lehre festzuhalten und sie im Leben zu bezeugen.^ORV"
+          "oration": "Gütiger Gott, höre auf die Fürsprache der heiligen Angela. Öffne unsere Augen für das Beispiel der Liebe und der Klugheit, das sie als christliche Erzieherin gegeben hat. Hilf uns, an der wahren Lehre festzuhalten und sie im Leben zu bezeugen.^ORV",
+          "oration_lat": "Sénsibus nostris, quǽsumus, Dómine, lumen sanctum tuum benígnus infúnde, ut tibi semper simus conversatióne devóti, cuius sapiéntia creáti sumus et providéntia gubernámur.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Angela Merici (†°1540)",
@@ -395,7 +399,8 @@ export const adlibData = {
       "eig": {
         "major": {
           "comm_1": "Hirten_Kl",
-          "oration": "Gott, du Quell der Weisheit, du hast dem heiligen Thomas von Aquin ein leidenschaftliches Verlangen geschenkt, nach Heiligkeit zu streben und deine Wahrheit zu erfassen. Hilf uns verstehen, was er gelehrt, und nachahmen, was er uns vorgelebt hat.^ORV"
+          "oration": "Gott, du Quell der Weisheit, du hast dem heiligen Thomas von Aquin ein leidenschaftliches Verlangen geschenkt, nach Heiligkeit zu streben und deine Wahrheit zu erfassen. Hilf uns verstehen, was er gelehrt, und nachahmen, was er uns vorgelebt hat.^ORV",
+          "oration_lat": "Deus, qui beátum Thomam sanctitátis zelo ac sacræ doctrínæ stúdio conspícuum effecísti, da nobis, quǽsumus, et quæ dócuit intelléctu conspícere, et quæ gessit imitatióne complére.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Thomas von Aquin (†°1274)",
@@ -410,10 +415,12 @@ export const adlibData = {
           "genitiv": "des heiligen Thomas",
           "vokativ": "Heiliger Thomas",
           "genitiv_lat": "sancti ",
-          "antev": "Gepriesen sei der Herr! Aus Liebe zu ihm hat Thomas geforscht, hat Nächte durchwacht und sich abgemüht."
+          "antev": "Gepriesen sei der Herr! Aus Liebe zu ihm hat Thomas geforscht, hat Nächte durchwacht und sich abgemüht.",
+          "antev_lat": "Benedíctus Dóminus, pro cuius amóre beátus Thomas stúduit, vigilávit et laborávit."
         },
         "Vesper": {
-          "antev": "Gott gab ihm Weisheit in Fülle; redlich mühte er sich, sie zu erfassen, und gab sie selbstlos weiter."
+          "antev": "Gott gab ihm Weisheit in Fülle; redlich mühte er sich, sie zu erfassen, und gab sie selbstlos weiter.",
+          "antev_lat": "Dedit ei Deus sapiéntiam multam nimis, quam sine fictióne dídicit et sine invídia communicávit."
         }
       }
     },
@@ -422,7 +429,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Hirten",
           "comm_2": "Mann_Erz",
-          "oration": "Gott, du Quell der Freude, du hast den heiligen Johannes Bosco berufen, der Jugend ein Vater und Lehrer zu sein. Gib auch uns die Liebe, die ihn erfüllt hat, damit wir fähig werden, Menschen für dich zu gewinnen und dir allein zu dienen.^ORV"
+          "oration": "Gott, du Quell der Freude, du hast den heiligen Johannes Bosco berufen, der Jugend ein Vater und Lehrer zu sein. Gib auch uns die Liebe, die ihn erfüllt hat, damit wir fähig werden, Menschen für dich zu gewinnen und dir allein zu dienen.^ORV",
+          "oration_lat": "Deus, qui beátum Ioánnem presbýterum adulescéntium patrem et magístrum excitásti, concéde, quǽsumus, ut, eódem caritátis igne succénsi, ánimas quǽrere tibíque soli servíre valeámus.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Johannes Bosco (†°1888)",
@@ -446,7 +454,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Hirten",
-          "oration": "Gott, du Heil der Menschen, du hast den heiligen Bischof Ansgar gesandt, den Völkern des Nordens das Evangelium zu verkünden. Höre auf seine Fürsprache und erhalte auch den Menschen unserer Zeit das Licht deiner Wahrheit.^ORV"
+          "oration": "Gott, du Heil der Menschen, du hast den heiligen Bischof Ansgar gesandt, den Völkern des Nordens das Evangelium zu verkünden. Höre auf seine Fürsprache und erhalte auch den Menschen unserer Zeit das Licht deiner Wahrheit.^ORV",
+          "oration_lat": "Deus, qui ad multas illuminándas gentes beátum Ansgárium epíscopum míttere voluísti, eius nobis intercessióne concéde, ut in tuæ veritátis luce iúgiter ambulémus.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Rimbertus (†°888)",
@@ -466,7 +475,8 @@ export const adlibData = {
         "major": {
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
-          "oration": "Herr, unser Gott, erhöre dein Volk, das am Tag des heiligen Bischofs und Märtyrers Blasius zu dir ruft. Bewahre uns vor Krankheit und Schaden in diesem zeitlichen Leben und hilf uns in aller Not, damit wir das ewige Heil erlangen.^ORV"
+          "oration": "Herr, unser Gott, erhöre dein Volk, das am Tag des heiligen Bischofs und Märtyrers Blasius zu dir ruft. Bewahre uns vor Krankheit und Schaden in diesem zeitlichen Leben und hilf uns in aller Not, damit wir das ewige Heil erlangen.^ORV",
+          "oration_lat": "Exáudi, Dómine, pópulum tuum, cum beáti Blásii mártyris patrocínio supplicántem, ut et temporális vitæ nos tríbuas pace gaudére, et ætérnæ reperíre subsídium.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Augustinus (†°430)",
@@ -489,7 +499,8 @@ export const adlibData = {
         "major": {
           "comm_1": "MärtSg_Jgfr",
           "comm_2": "Jgfr",
-          "oration": "Allmächtiger Gott, du hast die heilige Agatha zur Jungfräulichkeit um Christi willen berufen und ihr die Gnade des Martyriums geschenkt. Höre auf ihre Fürsprache und hilf uns, in aller Bedrängnis auszuharren und dir in Lauterkeit und Treue zu dienen.^ORV"
+          "oration": "Allmächtiger Gott, du hast die heilige Agatha zur Jungfräulichkeit um Christi willen berufen und ihr die Gnade des Martyriums geschenkt. Höre auf ihre Fürsprache und hilf uns, in aller Bedrängnis auszuharren und dir in Lauterkeit und Treue zu dienen.^ORV",
+          "oration_lat": "Indulgéntiam nobis, quǽsumus, Dómine, beáta Agatha virgo et martyr implóret, quæ tibi grata semper éxstitit et virtúte martýrii et mérito castitátis.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Methodius von Konstantinopel (†°847)",
@@ -505,10 +516,12 @@ export const adlibData = {
           "nominativ": "Die heilige Agatha",
           "genitiv": "der heiligen Agatha",
           "genitiv_lat": "sanctæ ",
-          "antev": "Vor Freude strahlend, ging Agatha in den Kerker, als ginge sie zu einem Gastmahl, und betend empfahl sie dem Herrn ihren Kampf."
+          "antev": "Vor Freude strahlend, ging Agatha in den Kerker, als ginge sie zu einem Gastmahl, und betend empfahl sie dem Herrn ihren Kampf.",
+          "antev_lat": "Agatha lætíssime et gloriánter ibat ad cárcerem, quasi ad épulas invitáta, et agónem suum Dómino précibus commendábat."
         },
         "Vesper": {
-          "antev": "Herr Jesus Christus, guter Meister, ich sage dir Dank. Du gabst mir Kraft, die Folter zu bestehen. Nun nimm mich auf in deine Herrlichkeit, die niemals enden wird."
+          "antev": "Herr Jesus Christus, guter Meister, ich sage dir Dank. Du gabst mir Kraft, die Folter zu bestehen. Nun nimm mich auf in deine Herrlichkeit, die niemals enden wird.",
+          "antev_lat": "Dómine Iesu Christe, magíster bone, grátias ago tibi, qui me fecísti víncere torménta carníficum; iube me, Dómine, ad tuam immarcescíbilem glóriam felíciter perveníre."
         }
       }
     },
@@ -516,7 +529,8 @@ export const adlibData = {
       "eig": {
         "major": {
           "comm_1": "MärtPl",
-          "oration": "Starker Gott, du bist die Kraft der Heiligen. Du hast den heiligen Paul Miki und seine Gefährten durch das Martyrium am Kreuz zur ewigen Herrlichkeit geführt. Hilf uns auf die Fürbitte dieser Heiligen, Christus, dem Gekreuzigten, nachzufolgen und ihn bis zum Tode gläubig zu bekennen,^ORR"
+          "oration": "Starker Gott, du bist die Kraft der Heiligen. Du hast den heiligen Paul Miki und seine Gefährten durch das Martyrium am Kreuz zur ewigen Herrlichkeit geführt. Hilf uns auf die Fürbitte dieser Heiligen, Christus, dem Gekreuzigten, nachzufolgen und ihn bis zum Tode gläubig zu bekennen,^ORR",
+          "oration_lat": "Deus, ómnium fortitúdo sanctórum, qui beátos mártyres Paulum eiúsque sócios per crucem ad vitam vocáre dignátus es, præsta, quǽsumus, ut, eórum intercessióne, fidem quam profitémur usque ad mortem fórtiter teneámus.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "LEER",
@@ -528,7 +542,13 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hll. Paul Miki und Gefährten",
-          "farbe": "r"
+          "farbe": "r",
+          "ant_komm": "Selig, die Verfolgung leiden für die Gerechtigkeit; denn ihrer ist das Himmelreich.",
+          "ant_komm_lat": "Beáti, qui persecutiónem patiúntur propter iustítiam, quóniam ipsórum est regnum cælórum."
+        },
+        "Vesper": {
+          "ant_komm": "Im Himmel freuen sich die Gerechten, die dem Herrn gefolgt sind. Aus Liebe zu Christus vergossen sie ihr Blut. Nun herrschen sie mit ihm auf ewig.",
+          "ant_komm_lat": "Gaudent in cælis ánimæ sanctórum, qui Christi vestígia sunt secúti; et quia pro eius amóre sánguinem suum fudérunt, ídeo cum Christo regnábunt in ætérnum."
         }
       }
     },
@@ -536,7 +556,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Mann_Erz",
-          "oration": "Gott, du Quelle der Barmherzigkeit, im heiligen Hieronymus Ämiliani hast du den Waisenkindern einen Helfer und Vater gegeben. Schenke allen, die in Not sind, deine sorgende Liebe und gib uns die Bereitschaft, ihnen zu helfen.^ORV"
+          "oration": "Gott, du Quelle der Barmherzigkeit, im heiligen Hieronymus Ämiliani hast du den Waisenkindern einen Helfer und Vater gegeben. Schenke allen, die in Not sind, deine sorgende Liebe und gib uns die Bereitschaft, ihnen zu helfen.^ORV",
+          "oration_lat": "Deus, Pater misericordiárum, qui beátum Hierónymum adiutórem et patrem órphanis providísti, eius nobis intercessióne concéde, ut spíritum adoptiónis, quo fílii tui nominámur et sumus, fidéliter custodiámus.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Hieronymus Ämiliani (†°1537)",
@@ -551,23 +572,32 @@ export const adlibData = {
           "nominativ": "Der heilige Hieronymus Ämiliani",
           "genitiv": "des heiligen Hieronymus Ämiliani",
           "genitiv_lat": "sancti ",
-          "ant_komm": "Wer barmherzig ist, der lehrt und erzieht wie ein guter Hirt."
+          "ant_komm": "Wer barmherzig ist, der lehrt und erzieht wie ein guter Hirt.",
+          "ant_komm_lat": "Qui misericórdiam habet, docet et érudit quasi pastor gregem suum."
         },
         "Vesper": {
-          "ant_komm": "Lasst die Kinder zu mir kommen; denn Menschen wie ihnen gehört das Himmelreich."
+          "ant_komm": "Lasst die Kinder zu mir kommen; denn Menschen wie ihnen gehört das Himmelreich.",
+          "ant_komm_lat": "Sínite párvulos veníre ad me: tálium est enim regnum cælórum."
         }
       },
       "n2": {
         "major": {
           "comm_1": "Jgfr",
           "comm_2": "Frau_Ord",
-          "oration": "Gott, du hast die heilige Josefine aus der Sklaverei befreit und ihr die Würde verliehen, deine Tochter und die Braut Christi zu sein. Gib uns, so bitten wir, dass wir nach ihrem Beispiel dem gekreuzigten Herrn Jesus in unablässiger Liebe nachfolgen und in tätiger Liebe beharrlich Barmherzigkeit üben.^ORV"
+          "oration": "Gott, du hast die heilige Josefine aus der Sklaverei befreit und ihr die Würde verliehen, deine Tochter und die Braut Christi zu sein. Gib uns, so bitten wir, dass wir nach ihrem Beispiel dem gekreuzigten Herrn Jesus in unablässiger Liebe nachfolgen und in tätiger Liebe beharrlich Barmherzigkeit üben.^ORV",
+          "oration_lat": "Deus, qui beátam Iosephínam a servitúte abiécta ad dignitátem fíliæ tuæ et Christi sponsæ adduxísti, da nobis, quǽsumus, eius exémplo, Dóminum Iesum crucifíxum constánti dilectióne proséqui et in caritáte ad misericórdiam propénsos perseveráre.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Josefine Bakhita",
           "nominativ": "Die heilige Josefine",
           "genitiv": "der heiligen Josefine Bakhita",
-          "genitiv_lat": "sanctæ "
+          "genitiv_lat": "sanctæ ",
+          "ant_komm": "Die kluge Jungfrau ging Christus entgegen. Wie die Sonne strahlt sie im Chor der Heiligen.",
+          "ant_komm_lat": "Ecce prudens virgo migrávit ad Christum, fulgens inter choros vírginum sicut sol in virtúte cælésti."
+        },
+        "Vesper": {
+          "ant_komm": "Braut Christi, komm und empfange die Krone, die der Herr für dich bereithält.",
+          "ant_komm_lat": "Veni, sponsa Christi, áccipe corónam, quam tibi Dóminus præparávit in ætérnum."
         }
       }
     },
@@ -575,7 +605,8 @@ export const adlibData = {
       "eig": {
         "major": {
           "comm_1": "Jgfr",
-          "oration": "Erhabener Gott, wir begehen das Gedächtnis der heiligen Jungfrau Scholastika. Lass uns nach ihrem Beispiel dir stets in aufrichtiger Liebe dienen und gewähre uns in deiner Güte einst einen seligen Heimgang zu dir.^ORV"
+          "oration": "Erhabener Gott, wir begehen das Gedächtnis der heiligen Jungfrau Scholastika. Lass uns nach ihrem Beispiel dir stets in aufrichtiger Liebe dienen und gewähre uns in deiner Güte einst einen seligen Heimgang zu dir.^ORV",
+          "oration_lat": "Beátæ Scholásticæ vírginis memóriam recoléntes, quǽsumus, Dómine, ut, eius exémplo, tibi intemeráta caritáte serviámus, et felíces obtineámus tuæ dilectiónis efféctus.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Gregor der Große (†°604)",
@@ -590,7 +621,8 @@ export const adlibData = {
           "nominativ": "Die heilige Scholastika",
           "genitiv": "der heiligen Scholastika",
           "genitiv_lat": "sanctæ ",
-          "antev": "Die kluge Jungfrau ging Christus entgegen. Wie die Sonne strahlt sie im Chor der Heiligen."
+          "antev": "Die kluge Jungfrau ging Christus entgegen. Wie die Sonne strahlt sie im Chor der Heiligen.",
+          "antev_lat": "Ecce prudens virgo migrávit ad Christum, fulgens inter choros vírginum sicut sol in virtúte cælésti."
         }
       }
     },
@@ -598,7 +630,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Maria",
-          "oration": "Barmherziger Gott, in unserer Schwachheit suchen wir bei dir Hilfe und Schutz. Höre auf die Fürsprache der jungfräulichen Gottesmutter Maria, die du vor der Erbschuld bewahrt hast, und heile uns von aller Krankheit des Leibes und der Seele.^ORV"
+          "oration": "Barmherziger Gott, in unserer Schwachheit suchen wir bei dir Hilfe und Schutz. Höre auf die Fürsprache der jungfräulichen Gottesmutter Maria, die du vor der Erbschuld bewahrt hast, und heile uns von aller Krankheit des Leibes und der Seele.^ORV",
+          "oration_lat": "Concéde, miséricors Deus, fragilitáti nostræ præsídium, ut, qui immaculátæ Dei Genetrícis memóriam ágimus, intercessiónis eius auxílio, a nostris iniquitátibus resurgámus.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Maria Bernadette Soubirous (†°1879)",
@@ -612,11 +645,13 @@ export const adlibData = {
           "button": "U.L.Fr. in Lourdes",
           "farbe": "m",
           "antev": "Du Morgenröte des Heils, Jungfrau Maria! Aus dir ging hervor die Sonne der Gerechtigkeit, Christus, das aufstrahlende Licht aus der Höhe.",
-          "ant_komm": "Du Morgenröte des Heils, Jungfrau Maria! Aus dir ging hervor die Sonne der Gerechtigkeit, Christus, das aufstrahlende Licht aus der Höhe."
+          "ant_komm": "Du Morgenröte des Heils, Jungfrau Maria! Aus dir ging hervor die Sonne der Gerechtigkeit, Christus, das aufstrahlende Licht aus der Höhe.",
+          "antev_lat": "Præclára salútis auróra, ex te, Virgo María, exívit Sol iustítiæ, qui visitávit nos Oriens ex alto."
         },
         "Vesper": {
           "antev": "Gegrüßet seist du, Maria, voll der Gnade; der Herr ist mit dir. Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes.",
-          "ant_komm": "Gegrüßet seist du, Maria, voll der Gnade; der Herr ist mit dir. Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes."
+          "ant_komm": "Gegrüßet seist du, Maria, voll der Gnade; der Herr ist mit dir. Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes.",
+          "antev_lat": "Ave, María, grátia plena; Dóminus tecum. Benedícta tu in muliéribus, et benedíctus fructus ventris tui."
         }
       }
     },
@@ -643,6 +678,17 @@ export const adlibData = {
       }
     },
     "14": {
+      "eig": {
+        "major": {
+          "oration_lat": "Deus, qui per beátos fratres Cyríllum et Methódium Slavóniæ gentes illuminásti, da córdibus nostris tuæ doctrínæ verba percípere, nosque pérfice pópulum in vera fide et recta confessióne concórdem.^ORlV"
+        },
+        "Laudes": {
+          "antev_lat": "In sanctitáte et iustítia serviérunt Dómino ómnibus diébus suis."
+        },
+        "Vesper": {
+          "antev_lat": "Isti sunt viri sancti, facti amíci Dei, divínæ veritátis præcónio gloriósi."
+        }
+      },
       "n1": {
         "major": {
           "comm_1": "MärtSg",
@@ -670,7 +716,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Mann_Ord",
-          "oration": "Gütiger Gott, du hast den heiligen Gründern des Servitenordens eine kindliche Liebe zur Mutter Christi geschenkt und sie befähigt, dein Volk näher zu dir zu führen. Gib auch uns den Geist der Frömmigkeit und die Bereitschaft, zu dienen.^ORV"
+          "oration": "Gütiger Gott, du hast den heiligen Gründern des Servitenordens eine kindliche Liebe zur Mutter Christi geschenkt und sie befähigt, dein Volk näher zu dir zu führen. Gib auch uns den Geist der Frömmigkeit und die Bereitschaft, zu dienen.^ORV",
+          "oration_lat": "Beatórum fratrum, Dómine, pietátem nobis benígnus infúnde, qua et Dei Genetrícem sunt devotíssime veneráti, et tuum ad te pópulum provexérunt.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "LEER",
@@ -685,7 +732,9 @@ export const adlibData = {
           "nominativ": "Die heiligen Gründer des Servitenordens",
           "genitiv": "der heiligen Gründer des Servitenordens",
           "genitiv_lat": "sanctórum ",
-          "ant_komm": "Wie gut ist es und wie schön, wenn Brüder miteinander wohnen in Eintracht."
+          "antev": "Wie gut ist es und wie schön, wenn Brüder miteinander wohnen in Eintracht.",
+          "ant_komm": "Wie gut ist es und wie schön, wenn Brüder miteinander wohnen in Eintracht.",
+          "antev_lat": "Ecce quam bonum et quam iucúndum, habitáre fratres in unum!"
         },
         "Vesper": {
           "ant_komm": "Wo Brüder in Eintracht Gottes Herrlichkeit preisen, da spendet der Herr seinen Segen."
@@ -697,7 +746,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
-          "oration": "Allmächtiger Gott, lehre uns, nach der Weisung des heiligen Petrus Damiani Christus über alles zu lieben und für deine Kirche einzutreten, damit wir zur ewigen Freude gelangen.^ORV"
+          "oration": "Allmächtiger Gott, lehre uns, nach der Weisung des heiligen Petrus Damiani Christus über alles zu lieben und für deine Kirche einzutreten, damit wir zur ewigen Freude gelangen.^ORV",
+          "oration_lat": "Concéde nos, quǽsumus, omnípotens Deus, beáti Petri epíscopi mónita et exémpla sectári, ut, Christo nihil præponéntes et Ecclésiæ tuæ servítio semper inténti, ad ætérnæ lucis gáudia perducámur."
         },
         "Lesehore": {
           "patr_autor": "Petrus Damiani (†°1072)",
@@ -723,7 +773,8 @@ export const adlibData = {
       "eig": {
         "major": {
           "comm_1": "MärtSg",
-          "oration": "Gott, du Herr der ganzen Schöpfung, du hast den heiligen Bischof Polykarp zum standhaften Bekenntnis des Glaubens gestärkt und in die Schar deiner Märtyrer aufgenommen. Gib auch uns deine Kraft, wenn wir am Kelch des Leidens Christi teilhaben, damit wir auferstehen zum ewigen Leben.^ORV"
+          "oration": "Gott, du Herr der ganzen Schöpfung, du hast den heiligen Bischof Polykarp zum standhaften Bekenntnis des Glaubens gestärkt und in die Schar deiner Märtyrer aufgenommen. Gib auch uns deine Kraft, wenn wir am Kelch des Leidens Christi teilhaben, damit wir auferstehen zum ewigen Leben.^ORV",
+          "oration_lat": "Deus univérsæ creatúræ, qui beátum Polycárpum epíscopum in número mártyrum dignátus es aggregáre, eius nobis intercessióne concéde, ut, cum illo partem cálicis Christi capiéntes, in vitam resurgámus ætérnam.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "LEER",
@@ -736,10 +787,14 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Polykarp",
           "farbe": "r",
-          "antev": "Sechsundachtzig Jahre habe ich Christus gedient und habe von ihm kein Unrecht erfahren. Wie könnte ich meinen König schmähen, der mich erlöst hat!"
+          "antev": "Sechsundachtzig Jahre habe ich Christus gedient und habe von ihm kein Unrecht erfahren. Wie könnte ich meinen König schmähen, der mich erlöst hat!",
+          "antev_lat": "Octogínta et sex annos sérvio Christo, nec me ulla affécit iniúria; et quómodo possim maledícere regi meo, qui salvum me fecit?",
+          "ant_komm_lat": "Octogínta et sex annos sérvio Christo, nec me ulla affécit iniúria; et quómodo possim maledícere regi meo, qui salvum me fecit?"
         },
         "Vesper": {
-          "antev": "Ich preise dich, Herr, allmächtiger Gott. Du nahmst mich auf in die Schar deiner Märtyrer und gabst mir Anteil am Kelch deines Gesalbten."
+          "antev": "Ich preise dich, Herr, allmächtiger Gott. Du nahmst mich auf in die Schar deiner Märtyrer und gabst mir Anteil am Kelch deines Gesalbten.",
+          "antev_lat": "Dómine Deus omnípotens, benedíco tibi, quóniam dignum me fecísti, ut in número mártyrum accíperem partem cálicis Christi tui.",
+          "ant_komm_lat": "Dómine Deus omnípotens, benedíco tibi, quóniam dignum me fecísti, ut in número mártyrum accíperem partem cálicis Christi tui."
         }
       }
     },
@@ -772,13 +827,15 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Hirten_Kl",
-          "oration": "Allmächtiger, ewiger Gott, du hast den heiligen Gregor zum geistlichen Lehrer und zur Zierde des armenischen Volkes gemacht. Gib, dass wir nach seinem Beispiel in der Kunst des Betens wachsen und unser Leben beständig durch die Sakramente der Kirche stärken.^ORV"
+          "oration": "Allmächtiger, ewiger Gott, du hast den heiligen Gregor zum geistlichen Lehrer und zur Zierde des armenischen Volkes gemacht. Gib, dass wir nach seinem Beispiel in der Kunst des Betens wachsen und unser Leben beständig durch die Sakramente der Kirche stärken.^ORV",
+          "oration_lat": "Omnípotens sempitéme Deus, qui sanctum Gregórium, magístrum et decus Arméni pópuli, mýstica doctrína imbúere dignátus es, concéde nobis, ipso docénte, artem tecum loquéndi apprehéndere vitámque nostram Ecclésiæ sacraméntis constánter fulcíre."
         },
         "Laudes": {
           "button": "Hl. Gregor von Narek",
           "genitiv": "des heiligen Gregor",
           "vokativ": "Heiliger Gregor",
-          "genitiv_lat": "sancti "
+          "genitiv_lat": "sancti ",
+          "ant_komm_lat": "Qui docti fúerint, fulgébunt quasi splendor firmaménti, et qui ad iustítiam erúdiunt multos, quasi stella: in perpétuas æternitátes."
         }
       }
     }
@@ -788,7 +845,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Mann",
-          "oration": "Allmächtiger Gott, dir dienen heißt herrschen. Hilf uns auf die Fürbitte des heiligen Kasimir, deinen Weisungen zu gehorchen und in Heiligkeit und Gerechtigkeit vor dir zu leben.^ORV"
+          "oration": "Allmächtiger Gott, dir dienen heißt herrschen. Hilf uns auf die Fürbitte des heiligen Kasimir, deinen Weisungen zu gehorchen und in Heiligkeit und Gerechtigkeit vor dir zu leben.^ORV",
+          "oration_lat": "Deus omnípotens, cui servíre regnáre est, concéde nobis, beáti Casimíri intercedénte suffrágio, tibi in sanctitáte et iustítia perpétuo famulári."
         },
         "Lesehore": {
           "patr_autor": "LEER",
@@ -841,7 +899,8 @@ export const adlibData = {
       "eig": {
         "major": {
           "comm_1": "MärtPl",
-          "oration": "Herr, unser Gott, die Liebe zu dir hat den heiligen Frauen Perpetua und Felizitas die Kraft gegeben, ihre Verfolger nicht zu fürchten und die Qualen des Martyriums zu bestehen. Schenke auch uns jene Liebe, die alle Furcht überwindet.^ORV"
+          "oration": "Herr, unser Gott, die Liebe zu dir hat den heiligen Frauen Perpetua und Felizitas die Kraft gegeben, ihre Verfolger nicht zu fürchten und die Qualen des Martyriums zu bestehen. Schenke auch uns jene Liebe, die alle Furcht überwindet.^ORV",
+          "oration_lat": "Deus, cuius urgénte caritáte beátæ mártyres Perpétua et Felícitas torméntum mortis, contémpto persecutóre, vicérunt, da nobis, quǽsumus, eárum précibus, ut in tua semper dilectióne crescámus."
         },
         "Lesehore": {
           "patr_autor": "LEER",
@@ -853,7 +912,13 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Hl. Perpetua und hl. Felizitas",
-          "farbe": "r"
+          "farbe": "r",
+          "ant_komm": "Selig, die Verfolgung leiden für die Gerechtigkeit; denn ihrer ist das Himmelreich.",
+          "ant_komm_lat": "Beáti, qui persecutiónem patiúntur propter iustítiam, quóniam ipsórum est regnum cælórum."
+        },
+        "Vesper": {
+          "ant_komm": "Im Himmel freuen sich die Gerechten, die dem Herrn gefolgt sind. Aus Liebe zu Christus vergossen sie ihr Blut. Nun herrschen sie mit ihm auf ewig.",
+          "ant_komm_lat": "Gaudent in cælis ánimæ sanctórum, qui Christi vestígia sunt secúti; et quia pro eius amóre sánguinem suum fudérunt, ídeo cum Christo regnábunt in ætérnum."
         }
       }
     },
@@ -862,7 +927,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Mann_Ord",
           "comm_2": "Mann_Liebe",
-          "oration": "Barmherziger Gott, die Liebe zu dir hat den heiligen Johannes gedrängt, an den Leiden der Kranken Anteil zu nehmen und ihnen zu helfen. Dränge auch uns zu Werken der Barmherzigkeit und lass uns zu denen gehören, die dein Reich besitzen.^ORV"
+          "oration": "Barmherziger Gott, die Liebe zu dir hat den heiligen Johannes gedrängt, an den Leiden der Kranken Anteil zu nehmen und ihnen zu helfen. Dränge auch uns zu Werken der Barmherzigkeit und lass uns zu denen gehören, die dein Reich besitzen.^ORV",
+          "oration_lat": "Deus, qui beátum Ioánnem misericórdiæ spíritu perfudísti, da, quǽsumus, ut, caritátis ópera exercéntes, inter eléctos in regno tuo inveníri mereámur.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Johannes von Gott (†°1550)",
@@ -877,10 +943,12 @@ export const adlibData = {
           "nominativ": "Der heilige Johannes von Gott",
           "genitiv": "des heiligen Johannes von Gott",
           "genitiv_lat": "sancti ",
-          "ant_komm": "Daran werden alle erkennen, dass ihr meine Jünger seid: wenn ihr einander liebt."
+          "ant_komm": "Daran werden alle erkennen, dass ihr meine Jünger seid: wenn ihr einander liebt.",
+          "ant_komm_lat": "In hoc cognóscent omnes quia mei estis discípuli, si dilectiónem habuéritis ad ínvicem."
         },
         "Vesper": {
-          "ant_komm": "Amen, ich sage euch: Was ihr dem Geringsten meiner Brüder getan habt, das habt ihr mir getan. Kommt, ihr Gesegneten meines Vaters, nehmt das Reich in Besitz, das seit Anfang der Welt für euch bestimmt ist."
+          "ant_komm": "Amen, ich sage euch: Was ihr dem Geringsten meiner Brüder getan habt, das habt ihr mir getan. Kommt, ihr Gesegneten meines Vaters, nehmt das Reich in Besitz, das seit Anfang der Welt für euch bestimmt ist.",
+          "ant_komm_lat": "Amen dico vobis: Quod uni ex his mínimis meis fecístis, mihi fecístis. Veníte, benedícti Patris mei, possidéte parátum vobis regnum ab inítio mundi."
         }
       }
     },
@@ -913,7 +981,8 @@ export const adlibData = {
       "n2": {
         "major": {
           "comm_1": "Frau_Ord",
-          "oration": "Allmächtiger Gott, die heilige Franziska von Rom hat uns in der Ehe wie auch im Ordensstand ein Beispiel christlichen Lebens gegeben. Gib deinen Gläubigen die Gnade, in jedem Stand und Beruf dir treu zu dienen, stets auf dich zu schauen und deiner Führung zu folgen.^ORV"
+          "oration": "Allmächtiger Gott, die heilige Franziska von Rom hat uns in der Ehe wie auch im Ordensstand ein Beispiel christlichen Lebens gegeben. Gib deinen Gläubigen die Gnade, in jedem Stand und Beruf dir treu zu dienen, stets auf dich zu schauen und deiner Führung zu folgen.^ORV",
+          "oration_lat": "Deus, qui nobis in beáta Francísca singuláre dedísti coniugális et monásticæ conversatiónis exémplar, fac nos tibi perseveránter deservíre, ut in ómnibus vitæ adiúnctis te conspícere et sequi valeámus."
         },
         "Lesehore": {
           "patr_autor": "LEER",
@@ -927,10 +996,12 @@ export const adlibData = {
           "button": "Hl. Franziska von Rom",
           "genitiv": "der heiligen Franziska",
           "genitiv_lat": "sanctæ ",
-          "ant_komm": "Wer den Willen meines Vaters erfüllt, der ist für mich Bruder und Schwester und Mutter."
+          "ant_komm": "Wer den Willen meines Vaters erfüllt, der ist für mich Bruder und Schwester und Mutter.",
+          "ant_komm_lat": "Si quis fécerit voluntátem Patris mei, ipse meus frater, soror et mater est, dicit Dóminus."
         },
         "Vesper": {
-          "ant_komm": "Ihr habt alles verlassen und seid mir nachgefolgt: Das Hundertfache werdet ihr dafür erhalten und das ewige Leben gewinnen."
+          "ant_komm": "Ihr habt alles verlassen und seid mir nachgefolgt: Das Hundertfache werdet ihr dafür erhalten und das ewige Leben gewinnen.",
+          "ant_komm_lat": "Vos qui reliquístis ómnia et secúti estis me, céntuplum accipiétis et vitam ætérnam possidébitis."
         }
       }
     },

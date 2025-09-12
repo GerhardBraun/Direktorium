@@ -4581,7 +4581,7 @@ export const brevierData = {
         "each": {
           "comm_1": "Apostel",
           "oration": "Gott, du Heil aller Völker, du hast den Apostel Paulus auserwählt, den Heiden die Frohe Botschaft zu verkünden. Gib uns, die wir das Fest seiner Bekehrung feiern, die Gnade, uns deinem Anruf zu stellen und vor der Welt deine Wahrheit zu bezeugen.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Deus, qui univérsum mundum beáti Pauli apóstoli prædicatióne docuísti, da nobis, quǽsumus, ut, cuius conversiónem hódie celebrámus, per eius ad te exémpla gradiéntes, tuæ simus mundo testes veritátis.^ORlV"
         },
         "Invitatorium": {
           "ant0": "Lasst uns Gott loben am Fest der Bekehrung des heiligen Paulus!",
@@ -4606,6 +4606,7 @@ export const brevierData = {
           "patr_resp1": "Ich habe bei Gott Erbarmen gefunden, weil ich in meinem Unglauben nicht wusste, was ich tat.",
           "patr_resp2": "Übergroß war die Gnade unseres Herrn, die mir den Glauben und die Liebe schenkte.",
           "patr_resp3": "Ich bin nicht wert, Apostel genannt zu werden.",
+          "hymn_1_lat": 8125.1,
           "hymn_nacht_lat": 0.0,
           "ant1_lat": "Quis es, Dómine? Ego sum Iesus, quem tu perséqueris; durum est tibi contra stímulum calcitráre.",
           "ant2_lat": "Vade, Ananía, et quære Saulum, ecce enim orat; quia vas electiónis est mihi, ut portet nomen meum coram géntibus et régibus et fíliis Israel.",
@@ -4628,14 +4629,15 @@ export const brevierData = {
           "resp2": "heiliger Apostel Paulus.",
           "resp3": "Ein Künder der Wahrheit in der ganzen Welt.",
           "antev": "Voll Freude feiern wir die Bekehrung des heiligen Paulus. Denn seinen Verfolger hat der Herr zu seinem Werkzeug erwählt.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "heiliger°Apostel°Paulus.",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 8125.2,
+          "ant1_lat": "Scio cui crédidi, et certus sum quia potens est depósitum meum serváre in illum diem iustus iudex.",
+          "ant2_lat": "Súfficit tibi, Paule, grátia mea, nam virtus in infirmitáte perfícitur.",
+          "ant3_lat": "Grátia Dei in me vácua non fuit, sed grátia eius semper in me manet.",
+          "resp1_lat": "Tu es vas electiónis, ",
+          "resp2_lat": "Sancte Paule apóstole.",
+          "resp3_lat": "Prædicátor veritátis in univérso mundo.",
+          "antev_lat": "Celebrémus conversiónem sancti Pauli apóstoli, quia ex persecutóre efféctus est vas electiónis.",
+          "les_text_lat": "Ad hoc appárui tibi, ut constítuam te minístrum et testem eórum, quæ vidísti, et eórum, quibus apparébo tibi, erípiens te de pópulo et de géntibus, in quas ego mitto te aperíre óculos eórum, ut convertántur a ténebris ad lucem et de potestáte Sátanæ ad Deum, ut accípiant remissiónem peccatórum et sortem inter sanctificátos per fidem, quæ est in me."
         },
         "Terz": {
           "ant0": "Bruder Saul, der Herr hat mich gesandt, Jesus, der dir auf dem Weg erschienen ist. Du sollst wieder sehen und den Heiligen Geist empfangen.",
@@ -4648,13 +4650,13 @@ export const brevierData = {
           "les_text_neu": "Ich danke dem, der mir Kraft gegeben hat: Christus Jesus, unserem Herrn. Er hat mich für treu gehalten und in seinen Dienst genommen, obwohl ich früher Lästerer, Verfolger und Frevler war. Aber ich habe Erbarmen gefunden, denn ich wusste in meinem Unglauben nicht, was ich tat.",
           "resp0": "So spricht der Herr: Freut euch und jubelt.",
           "resp1": "Denn eure Namen sind im Himmel verzeichnet.",
-          "ant0_lat": "",
+          "ant0_lat": "Saule frater, Dóminus misit me, Iesus, qui appáruit tibi in via, ut vídeas et impleáris Spíritu Sancto.",
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "resp0_lat": "Gaudéte et exsultáte, dicit Dóminus.",
+          "resp1_lat": "Quia nómina vestra scripta sunt in cælis.",
+          "les_text_lat": "Grátiam hábeo ei, qui me confortávit, Christo Iesu Dómino nostro, quia fidélem me existimávit ponens in ministério, qui prius fui blasphémus et persecútor et contumeliósus; sed misericórdiam consecútus sum."
         },
         "Sext": {
           "ant0": "Um die Mittagszeit, als Paulus sich Damaskus näherte, umstrahlte ihn plötzlich ein helles Licht vom Himmel.",
@@ -4667,13 +4669,13 @@ export const brevierData = {
           "les_text_neu": "Über alle Maßen groß war die Gnade unseres Herrn, die mir in Christus Jesus den Glauben und die Liebe schenkte. Das Wort ist glaubwürdig und wert, dass man es beherzigt: Christus Jesus ist in die Welt gekommen, um die Sünder zu retten. Von ihnen bin ich der Erste.",
           "resp0": "Du, Herr, lässt meine Leuchte erstrahlen.",
           "resp1": "Mein Gott, mach meine Finsternis hell.",
-          "ant0_lat": "",
+          "ant0_lat": "Eúnte Saulo et appropinquánte Damásco, média die súbito de cælo circumfúlsit eum lux copiósa.",
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "resp0_lat": "Tu accéndis lucérnam meam, Dómine.",
+          "resp1_lat": "Deus meus, illúmina ténebras meas.",
+          "les_text_lat": "Superabundávit grátia Dómini nostri cum fide et dilectióne, quæ sunt in Christo Iesu. Fidélis sermo et omni acceptióne dignus: Christus Iesus venit in mundum peccatóres salvos fácere; quorum primus ego sum."
         },
         "Non": {
           "ant0": "Der Herr sprach zu Saulus: Ich bin Jesus von Nazaret, den du verfolgst.",
@@ -4686,13 +4688,13 @@ export const brevierData = {
           "les_text_neu": "Ich habe gerade darum Erbarmen gefunden, damit Christus Jesus an mir als Erstem seine ganze Langmut erweisen konnte, zum Vorbild für alle, die in Zukunft an ihn glauben, um das ewige Leben zu erlangen.",
           "resp0": "Deinen Namen will ich ehren immer und ewig.",
           "resp1": "Denn groß ist über mir deine Huld.",
-          "ant0_lat": "",
+          "ant0_lat": "Dixit Dóminus Saulo: Ego sum Iesus Nazarénus, quem tu perséqueris.",
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "resp0_lat": "Glorificábo nomen tuum in ætérnum, Dómine.",
+          "resp1_lat": "Quia misericórdia tua magna est super me.",
+          "les_text_lat": "Misericórdiam consecútus sum, ut in me primo osténderet Christus Iesus omnem longanimitátem, ad informatiónem eórum, qui creditúri sunt illi in vitam ætérnam."
         },
         "Vesper": {
           "hymn_1": 8125.0,
@@ -4706,14 +4708,15 @@ export const brevierData = {
           "resp2": "aus ganzem Herzen dir lobsingen.",
           "resp3": "Unter den Heiden will ich deinen Namen ehren.",
           "antev": "Heiliger Apostel Paulus, Verkünder der Wahrheit und Lehrer der Heiden, tritt für uns ein bei Gott, der dich erwählt hat.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 8125.4,
+          "ant1_lat": "Libénter gloriábor in infirmitátibus meis, ut inhábitet in me virtus Christi.",
+          "ant2_lat": "Ego plantávi, Apóllo rigávit, Deus autem increméntum dedit.",
+          "ant3_lat": "Mihi vívere Christus est, et mori lucrum; gloriári me opórtet in cruce Dómini nostri Iesu Christi.",
+          "resp1_lat": "Confitébor tibi, Dómine,",
+          "resp2_lat": "in toto corde meo.",
+          "resp3_lat": "Et glorificábo nomen tuum in géntibus.",
+          "antev_lat": "Sancte Paule apóstole, prædicátor veritátis et doctor géntium, intercéde pro nobis ad Deum, qui te elégit.",
+          "les_text_lat": "Ego sum mínimus apostolórum, qui non sum dignus vocári apóstolus, quóniam persecútus sum ecclésiam Dei; grátia autem Dei sum id, quod sum, et grátia eius in me vácua non fuit, sed abundántius illis ómnibus laborávi, non ego autem, sed grátia Dei mecum."
         }
       }
     },
@@ -4721,7 +4724,7 @@ export const brevierData = {
       "2": {
         "each": {
           "oration": "Allmächtiger, ewiger Gott, dein eingeborener Sohn hat unsere menschliche Natur angenommen und wurde am heutigen Tag im Tempel dargestellt. Läutere unser Leben und Denken, damit wir mit reinem Herzen vor dein Antlitz treten.^ORV",
-          "oration_lat": ""
+          "oration_lat": "Omnípotens sempitérne Deus, maiestátem tuam súpplices exorámus, ut, sicut Unigénitus Fílius tuus hodiérna die cum nostræ carnis substántia in templo est præsentátus, ita nos fácias purificátis tibi méntibus præsentári.^ORlV"
         },
         "ErsteV": {
           "button": "1. Vesper zu Darstellung des Herrn",
@@ -4743,21 +4746,22 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu unserem Erlöser Jesus Christus, der am heutigen Tag im Tempel dargestellt wurde:",
           "bitten_r": "Lass alle Menschen dein Angesicht schauen.",
           "bitten": "Du Sehnsucht der Völker und Licht zur Erleuchtung der Heiden,^qführe alle, die dich noch nicht kennen, zum Glauben.^pDu Hoffnung des greisen Simeon und der Prophetin Hanna,^qsei den alten Menschen nahe.^pDu Zeichen, dem widersprochen wird,^qstärke alle, die um deines Namens willen verfolgt werden.^pDu Sohn der Mutter Maria, deren Seele ein Schwert durchbohrt hat,^qtröste alle, die leiden müssen.^pLass die Sterbenden in Frieden scheiden^qund schenke unseren Verstorbenen dein Heil.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 8202.104,
+          "ant1_lat": "Tulérunt Iesum paréntes eius in Ierúsalem, ut sísterent eum Dómino.",
+          "ant2_lat": "Adórna thálamum tuum, Sion, et súscipe regem Christum.",
+          "ant3_lat": "Beátus es, Símeon iuste, qui suscepísti Christum Dóminum, liberatórem pópuli sui.",
+          "resp1_lat": "Notum fecit Dóminus",
+          "resp2_lat": "salutáre suum.",
+          "resp3_lat": "Quod parávit ante fáciem ómnium populórum. ",
+          "antev_lat": "Senex púerum portábat, puer autem senem regébat; quem Virgo péperit, et post partum Virgo permánsit; ipsum quem génuit adorávit.",
+          "bitten_e_lat": "Salvatórem nostrum in templo præsentátum adorémus, ab ipso postulántes:",
+          "bitten_r_lat": "Oculi nostri vídeant salutáre tuum, Dómine.",
+          "bitten_lat": "Christe salvátor, qui es lumen ad revelatiónem géntium,^qillúmina eos, qui te non cognovérunt, ut credant in te Deum verum.^pRedémptor noster, qui es glória plebis tuæ Israel,^qexálta Ecclésiam tuam inter gentes.^pIesu, desideráte cunctis géntibus cuius salutáre óculi Simeónis iusti vidérunt,^qadduc hómines cunctos ad salútem tuam.^pDómine, in cuius præsentatióne gládius dolóris Maríæ, matri tuæ, prænuntiátus est,^qróbora eos, qui in tuo servítio tribulatiónes sústinent.^pChriste, beatitúdo sanctórum, quem Símeon ante mortem vidit, sicut ardénter cupiébat,^qosténde te in ætérnum iis, qui post mortem tui sítiunt visiónem.",
+          "les_text_lat": "Ingrédiens mundum dicit: Hóstiam et oblatiónem noluísti, corpus autem aptásti mihi; holocaustómata et sacrifícia pro peccáto non tibi placuérunt. Tunc dixi: Ecce vénio, in capítulo libri scriptum est de me, ut fáciam, Deus, voluntátem tuam."
         },
         "Invitatorium": {
           "ant0": "Zu seinem heiligen Tempel kommt der Herrscher, der Herr; kommt, wir beten ihn an!",
-          "ant0_lat": ""
+          "ant0_lat": "Ecce venit ad templum sanctum suum dominátor Dóminus: veníte, adorémus."
         },
         "Lesehore": {
           "hymn_1": 8202.1,
@@ -4783,19 +4787,13 @@ export const brevierData = {
           "patr_resp1": "Die Herrlichkeit des Herrn kam in den Tempel,",
           "patr_resp2": "und das Haus Gottes wurde erfüllt von Herrlichkeit.",
           "patr_resp3": "Die Eltern brachten den Knaben Jesus in den Tempel.",
+          "hymn_1_lat": 8202.101,
           "hymn_nacht_lat": 0.0,
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "versikel0_lat": "",
-          "versikel1_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "patr_resp1_lat": "",
-          "patr_resp2_lat": "",
-          "patr_resp3_lat": "",
-          "les_text_lat": ""
+          "ant1_lat": "Ecce pósitus est hic in ruínam et resurrectiónem multórum in Israel.",
+          "ant2_lat": "Surge, illumináre, Ierúsalem: quia venit lumen tuum, et glória Dómini in te vidébitur.",
+          "ant3_lat": "Gaude et lætáre, nova Sion: ecce enim Rex tuus venit, mitis et salvans pópulum suum.",
+          "versikel0_lat": "Recólimus, Deus, misericórdiam tuam.",
+          "versikel1_lat": "In médio templi tui."
         },
         "Vigil": {
           "psalm1": 199.112,
@@ -4805,8 +4803,7 @@ export const brevierData = {
           "les_buch": "^A:vigil-Darstellung:",
           "les_stelle": "LEER",
           "les_text": "LEER",
-          "ant0_lat": "Lauda et lætáre, fília Sion, quia ecce ego vénio et habitábo in médio tui, ait Dóminus.",
-          "les_text_lat": "LEER"
+          "ant0_lat": "Lauda et lætáre, fília Sion, quia ecce ego vénio et habitábo in médio tui, ait Dóminus."
         },
         "Laudes": {
           "button": "Darstellung des Herrn",
@@ -4826,17 +4823,18 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei unser Erlöser Jesus Christus, der am heutigen Tag im Tempel dargestellt wurde. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, zeige uns dein Angesicht.",
           "bitten": "Du bist der Ruhm deines Volkes Israel;^qmach uns froh in der Gemeinschaft deiner Kirche.^pDu bist das Licht zur Erleuchtung der Heiden;^qöffne unser Herz für die Sorgen der jungen Kirchen.^pDu hast dich in allem dem Willen des Vaters unterworfen;^qhilf uns heute, den Willen Gottes zu tun.^pMaria hat mit dir die Bitternis des Leidens getragen;^qauf ihre Fürsprache stärke uns, wenn wir leiden müssen.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "in°seinem°heiligen°Tempel.",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 8202.102,
+          "ant1_lat": "Símeon iustus et timorátus exspectábat redemptiónem Israel, et Spíritus Sanctus erat in eo.",
+          "ant2_lat": "Accípiens Símeon púerum in mánibus, grátias agens benedíxit Deum.",
+          "ant3_lat": "Lumen ad revelatiónem géntium, et glóriam plebis tuæ Israel.",
+          "resp1_lat": "Adoráte Dóminum",
+          "resp2_lat": "in aula sancta eius.",
+          "resp3_lat": "Afférte Dómino glóriam et honórem.",
+          "antev_lat": "Cum indúcerent púerum Iesum paréntes eius, accépit eum Símeon in ulnas suas et benedíxit Deum.",
+          "bitten_e_lat": "Salvatórem nostrum in templo præsentátum adorémus, ab ipso postulántes:",
+          "bitten_r_lat": "Oculi nostri vídeant salutáre tuum, Dómine.",
+          "bitten_lat": "Christe Iesu, qui secúndum legem Patri in templo præsentári voluísti,^qdoce nos in sacrifício Ecclésiæ tuæ tecum nosmetípsos offérri.^pIsrael consolátio, cui Símeon iustus in templo occúrrit,^qfac nos tibi occúrrere étiam in frátribus nostris.^pExspectátio géntium, de quo Anna prophetíssa ómnibus loquebátur qui exspectábant redemptiónem Israel,^qdoce nos digne de te ómnibus loqui.^pCaput ánguli regni Dei, quod in signum contradictiónis pósitum es,^qfac ut hómines per fidem et caritátem teípsum in resurrectiónem hábeant.",
+          "les_text_lat": "Ecce ego mittam ángelum meum, et præparábit viam ante fáciem meam; et statim véniet in templum suum Dominátor, quem vos quǽritis, et ángelus testaménti, quem vos vultis."
         },
         "Terz": {
           "les_buch": "›Jes",
@@ -4845,9 +4843,9 @@ export const brevierData = {
           "les_text_neu": "Der HERR der Heerscharen wird zum Heiligtum werden, zum Stein des Anstoßes und zum Felsen, an dem man strauchelt, für die beiden Häuser Israels: zum Netz und zum Fallstrick für die Bewohner Jerusalems.",
           "resp0": "Der Herr gedachte seiner Huld.",
           "resp1": "Und seiner Treue zum Hause Israel.",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "resp0_lat": "Recordátus est Dóminus misericórdiæ suæ.",
+          "resp1_lat": "Et veritátis suæ dómui Israel.",
+          "les_text_lat": "Et erit Dóminus in sanctuárium, in lápidem offensiónis et in petram scándali duábus dómibus Israel, in láqueum et in insídias habitántibus Ierúsalem."
         },
         "Sext": {
           "les_buch": "›Jes",
@@ -4855,9 +4853,9 @@ export const brevierData = {
           "les_text": "Der HERR zieht in den Kampf wie ein Held, er entfacht seine Leidenschaft wie ein Krieger. Er erhebt den Schlachtruf und schreit, er zeigt sich als Held gegenüber den Feinden.",
           "resp0": "Alle Enden der Erde.",
           "resp1": "Schauen das Heil unseres Gottes.",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": "Der Herr zieht in den Kampf wie ein Held, er entfacht seine Leidenschaft wie ein Krieger. Er erhebt den Schlachtruf und schreit, er zeigt sich als Held gegenüber den Feinden."
+          "resp0_lat": "Vidérunt omnes términi terræ salutáre Dei nostri.",
+          "resp1_lat": "Iubiláte Deo, omnis terra.",
+          "les_text_lat": "Dóminus sicut fortis egrediétur, sicut vir prœliátor suscitábit zelum; vociferábitur et conclamábit, super inimícos suos prævalébit."
         },
         "Non": {
           "les_buch": "›Jes",
@@ -4866,9 +4864,9 @@ export const brevierData = {
           "les_text_neu": "Singt dem HERRN, denn Überragendes hat er vollbracht; bekannt gemacht sei dies auf der ganzen Erde. Jauchzt und jubelt, ihr Bewohner Zions; denn groß ist in eurer Mitte der Heilige Israels.",
           "resp0": "Huld und Treue begegnen einander.",
           "resp1": "Gerechtigkeit und Friede küssen sich.",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "resp0_lat": "Misericórdia et véritas obviavérunt sibi.",
+          "resp1_lat": "Iustítia et pax osculátæ sunt.",
+          "les_text_lat": "Cantáte Dómino, quóniam magnífice fecit; notum sit hoc in univérsa terra. Exsúlta et lauda, quæ hábitas in Sion, quia magnus in médio tui Sanctus Israel."
         },
         "Vesper": {
           "hymn_1": 8202.2,
@@ -4889,17 +4887,15 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu unserem Erlöser Jesus Christus, der am heutigen Tag im Tempel dargestellt wurde:",
           "bitten_r": "Lass alle Menschen dein Angesicht schauen.",
           "bitten": "Du Sehnsucht der Völker und Licht zur Erleuchtung der Heiden,^qführe alle, die dich noch nicht kennen, zum Glauben.^pDu Hoffnung des greisen Simeon und der Prophetin Hanna,^qsei den alten Menschen nahe.^pDu Zeichen, dem widersprochen wird,^qstärke alle, die um deines Namens willen verfolgt werden.^pDu Sohn der Mutter Maria, deren Seele ein Schwert durchbohrt hat,^qtröste alle, die leiden müssen.^pLass die Sterbenden in Frieden scheiden,^qund schenke unseren Verstorbenen dein Heil.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 8202.104,
+          "ant1_lat": "Respónsum accépit Símeon a Spíritu Sancto non visúrum se mortem, nisi vidéret Dóminum.",
+          "ant2_lat": "Obtulérunt pro eo Dómino par túrturum aut duos pullos columbárum.",
+          "ant3_lat": "Vidérunt óculi mei salutáre tuum, quod parásti ante fáciem ómnium populórum.",
+          "antev_lat": "Hódie beáta Virgo María púerum Iesum præsentávit in templo, et Símeon replétus Spíritu Sancto accépit eum in ulnas suas, et benedíxit Deum.",
+          "bitten_e_lat": "Salvatórem nostrum in templo præsentátum adorémus, ab ipso postulántes:",
+          "bitten_r_lat": "Oculi nostri vídeant salutáre tuum, Dómine.",
+          "bitten_lat": "Christe salvátor, qui es lumen ad revelatiónem géntium,^qillúmina eos, qui te non cognovérunt, ut credant in te Deum verum.^pRedémptor noster, qui es glória plebis tuæ Israel,^qexálta Ecclésiam tuam inter gentes.^pIesu, desideráte cunctis géntibus cuius salutáre óculi Simeónis iusti vidérunt,^qadduc hómines cunctos ad salútem tuam.^pDómine, in cuius præsentatióne gládius dolóris Maríæ, matri tuæ, prænuntiátus est,^qróbora eos, qui in tuo servítio tribulatiónes sústinent.^pChriste, beatitúdo sanctórum, quem Símeon ante mortem vidit, sicut ardénter cupiébat,^qosténde te in ætérnum iis, qui post mortem tui sítiunt visiónem.",
+          "les_text_lat": "Non habémus pontíficem, qui non possit cómpati infirmitátibus nostris, tentátum autem per ómnia secúndum similitúdinem absque peccáto. Adeámus ergo cum fidúcia ad thronum grátiæ, ut misericórdiam consequámur et grátiam inveniámus in auxílium opportúnum."
         }
       },
       "4": {
@@ -5079,7 +5075,7 @@ export const brevierData = {
         "each": {
           "comm_1": "Apostel",
           "oration": "Allmächtiger Gott, das gläubige Bekenntnis des Apostels Petrus ist der Felsen, auf den du deine Kirche gegründet hast. Lass nicht zu, dass Verwirrung und Stürme unseren Glauben erschüttern. Darum bitten wir durch Jesus Chri­stus, deinen Sohn, unsern Herrn und Gott,^ORR",
-          "oration_lat": ""
+          "oration_lat": "Præsta, quǽsumus, omnípotens Deus, ut nullis nos permíttas perturbatiónibus cóncuti, quos in apostólicæ confessiónis petra solidásti.^ORlV"
         },
         "Lesehore": {
           "ant1": "Petrus sprach: Jesus, den ihr ermordet habt, ihn hat Gott von den Toten erweckt und erhöht in Herrlichkeit.",
@@ -5099,18 +5095,12 @@ export const brevierData = {
           "patr_resp1": "Simon Petrus, schon bevor ich dich von deinem Boot wegrief, kannte ich dich und bestimmte dich zum Haupt meines Volkes.",
           "patr_resp2": "Ich gab dir die Schlüssel des Himmelreichs.",
           "patr_resp3": "Was du auf Erden bindest, ist auch im Himmel gebunden; was du auf Erden lösest, ist auch im Himmel gelöst.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
-          "versikel0_lat": "",
-          "versikel1_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "du°aber°stärke°deine°Brüder",
-          "resp3_lat": "",
-          "patr_resp1_lat": "",
-          "patr_resp2_lat": "",
-          "patr_resp3_lat": "",
-          "les_text_lat": ""
+          "hymn_1_lat": 8222.1,
+          "ant1_lat": "Ait Petrus: Iesum, quem vos interemístis, hunc Deus suscitávit a mórtuis et exaltávit in glória.",
+          "ant2_lat": "Misit Dóminus ángelum suum, et liberávit me de manu Heródis.",
+          "ant3_lat": "Ecce nubes lúcida obumbrávit eos, patérna vox audíta est: Hic est Fílius meus diléctus.",
+          "versikel0_lat": "Dómine, ad quem íbimus?",
+          "versikel1_lat": "Verba vitæ ætérnæ habes."
         },
         "Laudes": {
           "button": "Kathedra Petri",
@@ -5126,14 +5116,15 @@ export const brevierData = {
           "resp2": "in allen Ländern der Erde.",
           "resp3": "Sie rühmen deinen Namen von Geschlecht zu Geschlecht.",
           "antev": "Simon, ich habe für dich gebetet, dass dein Glaube nicht wanke. Du aber stärke deine Brüder.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
+          "hymn_1_lat": 8222.2,
+          "ant1_lat": "Dixit Dóminus Simóni: Noli timére; ex hoc iam hómines eris cápiens.",
+          "ant2_lat": "Tu es Christus, Fílius Dei vivi. Et tu beátus es, Simon Petre.",
+          "ant3_lat": "Dixit Dóminus Petro: Tibi dabo claves regni cælórum.",
           "resp1_lat": "",
           "resp2_lat": "in°allen°Ländern°der°Erde.",
           "resp3_lat": "",
-          "antev_lat": "",
-          "les_text_lat": ""
+          "antev_lat": "Dixit Dóminus Simóni Petro: Ego pro te rogávi, ut non defíciat fides tua. Et tu, aliquándo convérsus, confírma fratres tuos.",
+          "les_text_lat": "Elégit Deus per os meum audíre gentes verbum evangélii et crédere; et qui novit corda, Deus testimónium perhíbuit illis dans Spíritum Sanctum sicut et nobis et nihil discrévit inter nos et illos fide puríficans corda eórum."
         },
         "Terz": {
           "les_buch": "›Jes",
@@ -5142,9 +5133,7 @@ export const brevierData = {
           "les_text_neu": " Ich werde ihm den Schlüssel des Hauses David auf die Schulter legen. Er wird öffnen und niemand ist da, der schließt; er wird schließen und niemand ist da, der öffnet.",
           "resp0": "Ihre Botschaft geht hinaus in die ganze Welt.",
           "resp1": "Ihre Kunde bis zu den Enden der Erde.",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "les_text_lat": "Dabo clavem domus David super úmerum eius; et apériet, et non erit qui claudat; et claudet, et non erit qui apériat."
         },
         "Sext": {
           "les_buch": "›1°Petr",
@@ -5153,9 +5142,7 @@ export const brevierData = {
           "les_text_neu": "Eure Ältesten ermahne ich, als Mitältester und Zeuge der Leiden Christi, der auch an der Herrlichkeit teilhaben soll, die sich offenbaren wird: Weidet die euch anvertraute Herde Gottes.",
           "resp0": "Sie hielten fest am Zeugnis Gottes.",
           "resp1": "Und bewahrten seine Gebote.",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "les_text_lat": "Senióres óbsecro, consénior et testis Christi passiónum, qui et eius, quæ in futúro revelánda est, glóriæ communicátor: Páscite, qui est in vobis, gregem Dei."
         },
         "Non": {
           "les_buch": "›2°Petr",
@@ -5164,9 +5151,7 @@ export const brevierData = {
           "les_text_neu": "Wir sind nicht klug ausgedachten Geschichten gefolgt, als wir euch die machtvolle Ankunft unseres Herrn Jesus Christus kundtaten, sondern wir waren Augenzeugen seiner Macht und Größe.",
           "resp0": "So spricht der Herr: Freut euch und jubelt.",
           "resp1": "Denn eure Namen sind im Himmel verzeichnet.",
-          "resp0_lat": "",
-          "resp1_lat": "",
-          "les_text_lat": ""
+          "les_text_lat": "Non captiósas fábulas secúti notam fécimus vobis Dómini nostri Iesu Christi virtútem et advéntum, sed speculatóres facti illíus magnitúdinis."
         },
         "Vesper": {
           "hymn_1": 8222.0,
@@ -5181,14 +5166,15 @@ export const brevierData = {
           "resp2": "unter allen Völkern.",
           "resp3": "Rühmt seinen Namen, verkündet sein Heil.",
           "antev": "Du bist der Hirt der Herde, der Erste der Apostel. Dir wurden die Schlüssel des Himmelreiches übergeben.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
+          "hymn_1_lat": 8222.4,
+          "ant1_lat": "Petre, amas me? Tu scis, Dómine, quia amo te. Pasce oves meas.",
+          "ant2_lat": "Petrus servabátur in cárcere, et orátio fiébat pro eo sine intermissióne ab Ecclésia ad Deum.",
+          "ant3_lat": "Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam.",
           "resp1_lat": "",
           "resp2_lat": "unter°allen°Völkern.",
           "resp3_lat": "",
-          "antev_lat": "",
-          "les_text_lat": ""
+          "antev_lat": "Tu es pastor óvium, princeps Apostolórum; tibi tráditæ sunt claves regni cælórum.",
+          "les_text_lat": "Benedíctus Deus et Pater Dómini nostri Iesu Christi, qui secúndum magnam misericórdiam suam regenerávit nos in spem vivam per resurrectiónem Iesu Christi ex mórtuis, in hereditátem incorruptíbilem et incontaminátam et immarcescíbilem, conservátam in cælis propter vos, qui in virtúte Dei custodímini per fidem in salútem parátam revelári in témpore novíssimo."
         }
       },
       "24": {
