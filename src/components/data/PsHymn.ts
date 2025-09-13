@@ -5335,7 +5335,7 @@ export const psalmsData = {
   },
   8913: {
     0.0: {
-        "text_lat": "Laude te cives^/súperi corónant,^lmagne Ioánnes,^/sociúsque noster^liúngitur cantus,^/generóse præsul,^lcelse magíster.^pAureo profers^/veheménter ore^lverba quæ dives^/facilísque amóris^lvena progígnit,^/fériunt vel acri^lvúlnere noxas.^pIpse virtútum^/spéculum nitéscis^lac tuæ plebi^/méritis corúscas,^lómnibus, Pauli^/velut æmulátor,^lómnia factus.^pNemo te frangit,^/nihil imperántum^lte domant iræ^/rutilǽque honórem^lóbtines palmæ^/venerándus exsul,^lpéctore martyr.^pNunc tuis valde^/précibus iuvémur,^lut Dei sedem^/céleres petámus,^ldúlcibus tecum^/sonitúr>i amóris^lvócibus hymnos. Amen."
+        "text_lat": "Laude te cives^/súperi corónant,^lmagne Ioánnes,^/sociúsque noster^liúngitur cantus,^/generóse præsul,^lcelse magíster.^pAureo profers^/veheménter ore^lverba quæ dives^/facilísqu>e amóris^lvena progígnit,^/fériunt vel acri^lvúlnere noxas.^pIpse virtútum^/spéculum nitéscis^lac tuæ plebi^/méritis corúscas,^lómnibus, Pauli^/velut æmulátor,^lómnia factus.^pNemo te frangit,^/nihil imperántum^lte domant iræ^/rutilǽqu>e honórem^lóbtines palmæ^/venerándus exsul,^lpéctore martyr.^pNunc tuis valde^/précibus iuvémur,^lut Dei sedem^/céleres petámus,^ldúlcibus tecum^/sonitúr>i amóris^lvócibus hymnos. Amen."
       }
   },
   8914: {
