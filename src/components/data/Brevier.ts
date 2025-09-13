@@ -8147,7 +8147,7 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei unser Herr Jesus Christus, der durch sein heiliges Kreuz die Welt erlöst hat. Zu ihm lasst uns beten:",
           "bitten_r": "Christus, erbarme dich unser.",
           "bitten": "Du bist am Kreuz erhöht worden;^qHerr, erbarme dich unser.^pDu hast am Kreuz die Arme ausgebreitet, um alle an dich zu ziehen;^qHerr, erbarme dich unser.^pDu bist am Kreuz gestorben, damit wir leben;^qHerr, erbarme dich unser.^pDu hast im Tod den Tod überwunden;^qHerr, erbarme dich unser.",
-          "hymn_1_lat": 5914.2,
+          "hymn_1_lat": 8914.2,
           "ant1_lat": "Crucem sanctam súbiit, qui inférnum confrégit; accínctus est poténtia, surréxit die tértia.",
           "ant2_lat": "Crux benedícta nitet, Dóminus qua carne pepéndit atque cruóre suo vúlnera nostra lavit.",
           "ant3_lat": "Crux alma fulget, per quam salus réddita est mundo: crux vincit, crux regnat, crux repéllit omne crimen.^Lö",
@@ -21201,13 +21201,16 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "hymn_3": 3313.0
+          "hymn_3": 3313.0,
+          "hymn_3_lat": 3313.1
         },
         "Laudes": {
-          "hymn_3": 3323.0
+          "hymn_3": 3323.0,
+          "hymn_3_lat": 3323.1
         },
         "Vesper": {
-          "hymn_3": 3343.0
+          "hymn_3": 3343.0,
+          "hymn_3_lat": 3343.1
         }
       }
     },
@@ -21867,6 +21870,7 @@ export const brevierData = {
           "hymn_2": 0.0,
           "versikel0": "Wenn ich von der Erde erhöht bin.",
           "versikel1": "Werde ich alle an mich ziehen.",
+          "hymn_1_lat": 3313.1,
           "hymn_2_lat": 0.0,
           "versikel0_lat": "",
           "versikel1_lat": ""
@@ -21880,6 +21884,7 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, der uns durch seinen Tod und seine Auferstehung erlöst hat. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, erbarme dich unser.",
           "bitten": "Du bist hinaufgezogen nach Jerusalem, um für uns zu leiden und so in deine Herrlichkeit einzugehen;^qführe uns durch die Leiden dieser Zeit zum ewigen Osterfest.^pAus deiner geöffneten Seite flossen Blut und Wasser;^qheilige uns durch deine Sakramente.^pDu hast dem Schächer um seiner Buße willen Verzeihung erwiesen;^qvergib auch uns unsere Sünden.^pDurch dich wurde das Kreuz zum Baum des Lebens;^qschenke uns seine Frucht, das ewige Leben.",
+          "hymn_1_lat": 3323.1,
           "hymn_2_lat": 0.0,
           "resp1_lat": "",
           "resp2_lat": "hast°du°uns°losgekauft.",
@@ -21940,6 +21945,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu Christus, dem Heiland der Welt, der den Tod vernichtet und das Leben neu geschaffen hat:",
           "bitten_r": "Christus, erbarme dich.",
           "bitten": "Du hast das Reich Gottes verkündet und zur Umkehr aufgerufen;^qerneuere deine Kirche im Geist des Evangeliums.^pDu hast ein Herz gehabt für die Armen und Bedrängten;^qsteh denen bei, die keinen Helfer haben.^pDu berufst immer wieder Menschen in deine Kirche;^qerleuchte die Katechumenen, die sich auf die Taufe vorbereiten.^pDu willst nicht den Tod des Sünders, sondern dass er lebe;^qerbarme dich derer, die mit uns in diesen vierzig Tagen Buße tun.^pNimm unsere Verstorbenen gnädig auf^qund lass sie teilhaben an deiner Auferstehung.",
+          "hymn_1_lat": 3343.1,
           "hymn_2_lat": 0.0,
           "resp1_lat": "",
           "resp2_lat": "",

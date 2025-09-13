@@ -3999,7 +3999,7 @@ export const psalmsData = {
         "text": "Sei uns willkommen, Herre Christ,^lder du unser aller Herre bist.^lSei willkommen, lieber Herre,^lhier auf der Erde recht mit Ehren.^lKyrieleis.^pGott ist geboren, unser Trost,^lder hat durch sein Kreuz die Welt erlöst.^lSei willkommen, lieber Herre,^lhier auf der Erde recht mit Ehren.^lKyrieleis."
       },
     1.0: {
-        "text_lat": "Candor ætérnæ Deitátis alme,^lChriste, tu lumen, vénia atque vita^láádvenis, morbis hóminum medéla,^lporta salútis.^pIntonat terræ chorus angelórum^lcǽlicum carmen, nova sæcla dicens,^lglóriam Patri, generíque nostro^lgáudia pacis.^pQui iaces parvus dóminans et orbi,^lVírginis fructus sine labe sanctæ,^lChriste, iam mundo potiáris omni,^lsemper amándus.^pNásceris cælos pátriam datúrus,^lunus e nobis, caro nostra factus;^línnova mentes, trahe caritátis^lpéctora vinclis.^pCœtus exsúltans canit ecce noster,^lángelis læto sociátus ore,^let Patri tecum parilíque Amóri^lcántica laudis. Amen."
+        "text_lat": "Candor ætérnæ Deitátis alme,^lChriste, tu lumen, véni>a atque vita^ládvenis, morbis hóminum medéla,^lporta salútis.^pIntonat terræ chorus angelórum^lcǽlicum carmen, nova sæcla dicens,^lglóriam Patri, generíque nostro^lgáudia pacis.^pQui iaces parvus dóminans et orbi,^lVírginis fructus sine labe sanctæ,^lChriste, iam mundo potiáris omni,^lsemper amándus.^pNásceris cælos pátriam datúrus,^lunus e nobis, caro nostra factus;^línnova mentes, trahe caritátis^lpéctora vinclis.^pCœtus exsúltans canit ecce noster,^lángelis læto sociátus ore,^let Patri tecum parilíque Amóri^lcántica laudis. Amen."
       },
     2.0: {
         "text_lat": "Dulce fit nobis^/memoráre parvum^lNázaræ tectum^/tenuémque cultum;^léxpedit Iesu^/tácitam reférre^lcármine vitam.^pArte qua Ioseph^/húmil>i excoléndus,^lábdito Iesus^/iuvenéscit ævo,^lseque fabrílis^/sócium labóris^ládicit ultro.^pAssidet nato^/pia mater almo,^lássidet sponso^/bona nupta, felix^lsi potest curas^/releváre lassis^lmúner>e amíco.^pO nequ>e expértes^/óper>æ et labóris,^lnec mal>i ignári,^/míseros iuváte;^lquotquot implórant^/cólumen, benígno^lcérnite vultu.^pSit tibi, Iesu,^/decus atque virtus,^lsancta qui vitæ^/documénta præbes,^lquique cum summo^/Genitór>e et almo^lFlámine regnas. Amen."
@@ -4097,7 +4097,9 @@ export const psalmsData = {
   3313: {
     0.0: {
         "text": "Preise, Zunge, und verkünde^lden erhabnen Waffengang;^lauf das Kreuz, das Siegeszeichen,^lsinge den Triumphgesang.^lSinge, wie der Welt Erlöser^lstarb und dennoch Sieg errang.^pDenn verblendet aß sich Adam^leinst vom Baume das Gericht;^ldoch der Schöpfer voll Erbarmen^lwollte sein Verderben nicht^lund hat selbst den Baum erkoren,^lder den Fluch des Baumes bricht.^pGottes Plan, uns zu erlösen,^lhat verlangt die Opfertat,^lund des Vaters ew’ge Weisheit^lmacht’ zuschanden den Verrat^lund verlieh barmherzig Heilung,^lwo der Feind verwundet hat.^pSo ward in der Zeiten Fülle^luns gesandt des Vaters Sohn,^ler, der Schöpfer aller Welten,^lstieg herab vom Himmelsthron^lund ward Fleisch und ward geboren^lund ward einer Jungfrau Sohn.^pAls nach dreißig Erdenjahren^lfür den Herrn die Stunde kam,^ldass er unsres Heiles wegen^lTod und Leiden auf sich nahm,^lwurde er erhöht am Kreuze,^ldargebracht als Gotteslamm.^pSeht den Essig, seht die Galle,^lDornen, Nägel, Speer voll Wut^lseinen zarten Leib durchbohren,^lWasser strömt hervor und Blut;^lErde, Meere, Sterne, Welten^lwerden rein durch solche Flut.^pLob und Ruhm sei ohne Ende^lGott, dem höchsten Herrn, geweiht.^lPreis dem Vater und dem Sohne^lund dem Geist der Heiligkeit.^lEinen Gott in drei Personen^llobe alle Welt und Zeit. Amen.",
-        "text_neu": "beide",
+        "title_lat": "Pange, lingua, gloriósi prœ́lium certáminis"
+      },
+    1.0: {
         "title_lat": "Pange, lingua, gloriósi prœ́lium certáminis",
         "text_lat": "Pange, lingua, gloriósi^lprœ́lium certáminis,^let super crucis tropǽo^ldic triúmphum nóbilem,^lquáliter redémptor orbis^limmolátus vícerit.^pDe paréntis protoplásti^lfraude factor cóndolens,^lquando pomi noxiális^lmorte morsu córruit,^lipse lignum tunc notávit,^ldamna lign>i ut sólveret.^pHoc opus nostræ salútis^lordo depopóscerat,^lmultifórmis perditóris^lart>e ut artem fálleret,^let medélam ferret inde,^lhostis unde lǽserat.^pQuando venit ergo sacri^lplenitúdo témporis,^lmissus est ab arce Patris^lNatus, orbis cónditor,^latque ventre virgináli^lcarne factus pródiit.^pLustra sex qui iam perácta^ltempus implens córporis,^lse volénte, natus ad hoc,^lpassióni déditus,^lagnus in crucis levátur^limmolándus stípite.^pÆqua Patri Filióque,^línclito Paráclito,^lsempitérna sit beátæ^lTrinitáti glória,^lcuius alma nos redémit^latque servat grátia. Amen."
       }
@@ -4116,7 +4118,8 @@ export const psalmsData = {
   3323: {
     0.0: {
         "text": "Heilig Kreuz, du Baum der Treue,^ledler Baum, dem keiner gleich,^lkeiner so an Laub und Blüte,^lkeiner so an Früchten reich:^lSüßes Holz, so süße Nägel,^lwelche süße Last an euch.^pBeuge, hoher Baum, die Zweige,^lwerde weich an Stamm und Ast,^ldenn dein hartes Holz muss tragen^leine königliche Last,^lgib den Gliedern deines Schöpfers^lan dem Stamme linde Rast.^pDu allein warst wert, zu tragen^laller Sünden Lösegeld,^ldu, die Planke, die uns rettet^laus dem Schiffbruch dieser Welt.^lDu, gesalbt vom Blut des Lammes,^lPfosten, der den Tod abhält.^pLob und Ruhm sei ohne Ende^lGott, dem höchsten Herrn, geweiht.^lPreis dem Vater und dem Sohne^lund dem Geist der Heiligkeit.^lEinen Gott in drei Personen^llobe alle Welt und Zeit. Amen."
-      }
+      },
+    1.0: {}
   },
   3341: {
     0.0: {
@@ -4137,7 +4140,8 @@ export const psalmsData = {
   3343: {
     0.0: {
         "text": "Der König siegt, sein Banner glänzt,^lgeheimnisvoll erstrahlt das Kreuz,^lan dessen Balken ausgestreckt^lim Fleisch des Fleisches Schöpfer hängt.^pGeschunden hängt der heil’ge Leib,^lvom scharfen Speere roh durchbohrt,^luns rein zu waschen von der Schuld,^lströmt Blut und Wasser von ihm aus.^pErfüllt ist nun, was David einst^lim Liede gläubig kundgetan,^lda er im Geiste prophezeit’:^lVom Holz herab herrscht unser Gott.^pO edler Baum im hehren Glanz,^lvon königlichem Purpur rot,^ldu werter, du erwählter Stamm,^ldu trägst den Lösepreis der Welt.^pO heil’ges Kreuz, sei uns gegrüßt,^ldu einz’ge Hoffnung dieser Welt.^lDen Treuen schenke neue Kraft,^lden Sündern tilge alle Schuld.^pDir, höchster Gott, Dreifaltigkeit,^llobsinge alles, was da lebt;^ldu hast uns durch das Kreuz erlöst:^lBewahre uns in Ewigkeit."
-      }
+      },
+    1.0: {}
   },
   3344: {
     0.0: {
@@ -4470,7 +4474,7 @@ export const psalmsData = {
   },
   4143: {
     0.0: {
-        "text_lat": "Sol ecce surgit ígneus:^lpiget, pudéscit, pǽnitet,^lnec teste quisquam lúmine^lpeccáre constánter potest.^pTandem facéssat cǽcitas,^lquæ nosmet in præceps diu^llapsos sinístris gréssibus^lerróre traxit dévio.^pHæc lux serénum cónferat^lpurósque nos præstet sibi;^lnihil loquámur súbdolum,^lvolvámus obscúrum nihil.^pSic tota decúrrat dies,^lne lingua mendax, ne manus^l^kocu^0klíve peccent lúbrici,^lne noxa corpus ínquinet.^p^kSpecu^0klátor astat désuper,^lqui nos diébus ómnibus^lactúsque nostros próspicit^la luce prim>a in vésperum.^pDeo Patri sit glória^leiúsque soli Fílio^lcum Spíritu Paráclito,^lin sempitérna sǽcula. Amen."
+        "text_lat": "Sol ecce surgit ígneus:^lpiget, pudéscit, pǽnitet,^lnec teste quisquam lúmine^lpeccáre constánter potest.^pTandem facéssat cǽcitas,^lquæ nosmet in præceps diu^llapsos sinístris gréssibus^lerróre traxit dévio.^pHæc lux serénum cónferat^lpurósque nos præstet sibi;^lnihil loquámur súbdolum,^lvolvámus obscúrum nihil.^pSic tota decúrrat dies,^lne lingua mendax, ne manus^l^kocu^0klíve peccent lúbrici,^lne noxa corpus ínquinet.^pSpec>ulátor astat désuper,^lqui nos diébus ómnibus^lactúsque nostros próspicit^la luce prim>a in vésperum.^pDeo Patri sit glória^leiúsque soli Fílio^lcum Spíritu Paráclito,^lin sempitérna sǽcula. Amen."
       }
   },
   4145: {
@@ -4583,7 +4587,7 @@ export const psalmsData = {
   },
   4235: {
     0.0: {
-        "text_lat": "Sol, ecce, lentus óccidens^lmontes et arva et ǽquora^lmæstus relínquit, ínnovat^lsed lucis omen crástinæ,^pMirántibus mortálibus^lsic te, Creátor próvide,^lleges vicésque témporum^lumbris dedísse et lúmini.^pAc dum, tenébris ǽthera^lsiléntio preméntibus,^lvigor labórum déficit,^lquies cupíta quǽritur,^pSpe nos fidéque dívites^ltui beámur lúmine^lVerbi, quod est a sǽculis^lsplendor patérnæ glóriæ.^pEst ille sol qui nésciat^lortum vel umquam vésperum;^lquo terra gestit cóntegi,^lquo cæli in avum iúbilant.^pHac nos seréna pérpetim^lda luce tandem pérfrui,^lcum Nato et almo Spíritu^ltibi novántes cántica. Amen."
+        "text_lat": "Sol, ecce, lentus óccidens^lmontes et arv>a et ǽquora^lmæstus relínquit, ínnovat^lsed lucis omen crástinæ,^pMirántibus mortálibus^lsic te, Creátor próvide,^lleges vicésque témporum^lumbris dedísse et lúmini.^pAc dum, tenébris ǽthera^lsiléntio preméntibus,^lvigor labórum déficit,^lquies cupíta quǽritur,^pSpe nos fidéque dívites^ltui beámur lúmine^lVerbi, quod est a sǽculis^lsplendor patérnæ glóriæ.^pEst ille sol qui nésciat^lortum vel umquam vésperum;^lquo terra gestit cóntegi,^lquo cæli in avum iúbilant.^pHac nos seréna pérpetim^lda luce tandem pérfrui,^lcum Nato et almo Spíritu^ltibi novántes cántica. Amen."
       }
   },
   4242: {
