@@ -5072,11 +5072,29 @@ export const psalmsData = {
     2.0: {
         "title": "Preisen möge dich heut, Josef, der Engel Schar",
         "text": "Preisen möge dich heut,^lJosef, der Engel Schar,^ldir erklinge im Chor^lunseres Jubels Lied.^lDu bist wahrhaft erwählt,^lhat doch der Herr der Welt^lSohn und Mutter dir anvertraut.^pStaunend siehst du die Braut^ltragen die heil’ge Frucht.^lZweifel quält dich und Angst,^lunfassbar scheint es dir.^lGott tut selber dir kund^ldurch seines Engels Wort,^ldass vom Geist sie das Kind empfing.^pGottes ewigen Sohn^lhütest und hegst du treu,^lfliehst mit ihm aus dem Land^lweit nach Ägypten hin.^lWas dir Gott auch befiehlt –^lschweigend gehorchst du ihm.^lFügst dich willig dem dunklen Plan.^pHöre, ewiger Gott,^lhöre auf unser Lob.^lGnädig blicke uns an,^lführe uns hin zu dir;^llass uns jubelnd im Chor^lsingen das neue Lied^ldir, dem Herrn aller Welt und Zeit. Amen."
+      },
+    101.0: {
+        "text_lat": "Iste, quem læti^/cólimus, fidéles,^lcuius excélsos^/cánimus triúmphos,^lhac die Ioseph^/méruit perénnis^lgáudia vitæ.^pO nimis felix,^/nimis o beátus,^lcuius extrémam^/vígiles ad horam^lChristus et Virgo^/simul astitérunt^lore seréno.^pIustus insígnis,^/láqueo solútus^lcarnis, ad sedes^/plácido sopóre^lmigrat ætérnas,^/rutilísque cingit^ltémpora sertis.^pErgo regnántem^/flagitémus omnes,^ládsit ut nobis,^/veniámque nostris^lóbtinens culpis,^/tríbuat supérnæ^lmúnera pacis.^pSint tibi plausus,^/tibi sint honóres,^ltrine qui regnas^/Deus, et corónas^láureas servo^/tríbuis fidéli^lomne per ævum."
+      },
+    102.0: {
+        "text_lat": "Cǽlitum, Ioseph,^/decus atque nostræ^lcerta spes vitæ^/columénque mundi,^lquas tibi læti^/cánimus, benígnus^lsúscipe laudes.^pTe, satum David,^/státuit Creátor^lVírginis sponsum,^/voluítque Verbi^lte patrem dici,^/dedit et minístrum^lesse salútis.^pTu Redemptórem^/stábulo iacéntem,^lquem chorus vatum^/cécinit futúrum,^láspicis gaudens,^/sociúsque matris^lprimus adóras.^pRex Deus regum,^/dominátor orbis,^lcuius ad nutum^/tremit inferórum^lturba, cui pronus^/famulátur æther,^lse tibi subdit.^pLaus sit excélsæ^/Tríadi perénnis,^lquæ, tib>i insígnes^/tríbuens honóres,^ldet tuis nobis^/méritis beátæ^lgáudia vitæ."
+      },
+    104.0: {
+        "text_lat": "Te, Ioseph, célebrent ágmina cǽlitum,^lte cuncti résonent christíadum chori,^lqui, clarus méritis, iunctus es ínclitæ^lcasto fœ́dere Vírgini.^pAlmo cum túmidam gérmine cóniugem^ladmírans, dúbio tángeris ánxius,^lafflátu súperi Fláminis ángelus^lconcéptum púerum docet.^pTu natum Dóminum stringis, ad éxteras^lÆgýpti prófugum tu séqueris plagas;^lamíssum Sólymis quæris et ínvenis,^lmiscens gáudia flétibus.^pEléctos réliquos mors pia cónsecrat^lpalmámqu>e eméritos glória súscipit;^ltu vivens, súperis par, frúeris Deo,^lmira sorte beátior.^pNobis, summa Trias, parce precántibus;^lda Ioseph méritis sídera scándere,^lut tandem líceat nos tibi pérpetim^lgratum prómere cánticum."
       }
   },
   8325: {
     0.0: {
         "text": "Nun soll es wissen alle Welt:^lGekommen ist, der Leben bringt,^lerschienen ist, der Rettung schafft^lund aus des Feindes Joch uns löst.^pDenn was Jesaja einst verhieß,^list in der Jungfrau jetzt erfüllt;^lwas Gabriel ihr kundgetan,^ldas wirkt in ihr des Höchsten Kraft.^pEmpfangen hat Mariens Schoß^ldes Vaters Wort, den ew’gen Sohn;^lihn, den die ganze Welt nicht fasst,^lumschließt und trägt der Jungfrau Leib.^pZur Erde kam das Licht vom Licht,^lverscheucht die Nacht, besiegt den Tod.^lKommt alle, glaubt und betet an^lden Gott im Schoße einer Frau.^pHerr Jesus, dir sei Ruhm und Preis,^lGott, den die Jungfrau uns gebar,^lLob auch dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."
+      },
+    1.0: {
+        "text_lat": "Iam cæca vis mortálium^lvénerans inánes nǽnias,^lvel æra vel saxa álgida^lvel ligna credébat Deum.^pHæc dum sequúntur pérfidi,^lprædónis in ius vénerant^let mancipátam fúmido^lvitam baráthr>o immérserant.^pStragem sed istam non tulit^lChristus cadéntum géntium;^limpúne ne forsan sui^lPatris períret fábrica,^pMortále corpus índuit^lut, excitáto córpore,^lmortis caténam frángeret^lhom>inémque portáret Patri.^pHic ille natális dies,^lquo te Creátor árduus^lspirávit et lim>o índidit,^lSermóne carnem glútinans.^pO quanta rerum gáudia^lalvus pudíca cóntinet,^lex qua novéllum sǽculum^lprocédit et lux áurea!^pIesu, tibi sit glória,^lqui natus es de Vírgine,^lcum Patr>e et almo Spíritu,^lin sempitérna sǽcula."
+      },
+    2.0: {
+        "text_lat": "O lux, salútis núntia,^lqua Vírgini fert Angelus^lcomplénda mox orácula^let cara terris gáudia.^pQui Patris ætérno sinu^lætérna Proles náscitur,^lobnóxius fit témpori^lmatrémqu>e in orbe séligit.^pNobis piándis víctima^lnostros s>e in artus cólligit,^lut innocénti sánguine^lscelus nocéntum díluat.^pConcépta carne Véritas,^lumbrta velo Vírginis,^lpuris vidénda méntibus,^limple tuo nos lúmine.^pEt quæ modésto péctore^lte dicis ancíllam Dei,^lregína nunc cæléstium,^lpatróna sis fidélium.^pIesu, tibi sit glória,^lqui natus es de Vírgine,^lcum Patr>e et almo Spíritu,^lin sempitérna sǽcula."
+      },
+    4.0: {
+        "text_lat": "Agnóscat omne sǽculum^lvenísse vitæ prǽmium;^lpost hostis ásperi iugum^lappáruit redémptio.^pIsaías quæ prǽcinit^lcompléta sunt in Vírgine;^lannuntiávit Angelus,^lSanctus replévit Spíritus.^pMaría ventre cóncipit^lverbi fidélis sémine;^lquem totus orbis non capit,^lportant puéllæ víscera.^pAdam vetus quod pólluit,^lAdam novus hoc ábluit;^ltumens quod ille déicit,^lhumíllimus hic érigit.^pChristo sit omnis glória,^lDei Paréntis Fílio,^lquem Virgo felix cóncipit^lSancti sub umbra Spíritus. Amen."
       }
   },
   8605: {

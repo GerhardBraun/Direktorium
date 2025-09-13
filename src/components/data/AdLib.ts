@@ -91,7 +91,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Hirten",
-          "oration": "Allmächtiger Gott, du hast den heiligen Valentin befähigt, als Missionar und Bischof den Menschen seiner Zeit ein treuer Helfer zu sein. Wecke in uns das Bewusstsein, dass wir füreinander verantwortlich sind, und hilf uns, einander im Glauben zu stützen.^ORV"
+          "oration": "Allmächtiger Gott, du hast den heiligen Valentin befähigt, als Missionar und Bischof den Menschen seiner Zeit ein treuer Helfer zu sein. Wecke in uns das Bewusstsein, dass wir füreinander verantwortlich sind, und hilf uns, einander im Glauben zu stützen.^ORV",
+          "oration_lat": "comm:Deus, fidélium lumen et pastor animárum, qui beátum epíscopum Valentínum in Ecclésia posuísti, ut oves tuas verbo pásceret et informáret exémplo, da nobis, eius intercessióne, et fidem serváre, quam verbo dócuit, et viam sequi, quam exémplo monstrávit.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "II. Vatikanisches Konzil (1962–1965)",
@@ -132,7 +133,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Hirten",
-          "oration": "Gütiger Gott, du hast den Mönch Severin zu seinen Glaubensbrüdern gesandt, damit er in den Wirren der Zeit ihr Ratgeber und Führer sei. Mache auch uns bereit, Verantwortung zu tragen, und hilf uns, denen beizustehen, die in Not sind.^ORV"
+          "oration": "Gütiger Gott, du hast den Mönch Severin zu seinen Glaubensbrüdern gesandt, damit er in den Wirren der Zeit ihr Ratgeber und Führer sei. Mache auch uns bereit, Verantwortung zu tragen, und hilf uns, denen beizustehen, die in Not sind.^ORV",
+          "oration_lat": "comm:"
         },
         "Lesehore": {
           "patr_autor": "Eugippius (†°nach 533)",
@@ -244,7 +246,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Mann_Ord",
           "comm_2": "MärtSg",
-          "oration": "Allmächtiger Gott, du hast das Lebensopfer des heiligen Meinrad reich belohnt und seine Zelle (im „Finstern Wald“) zu einer Stätte des Segens gemacht. Gib, dass auch wir in der Stille über dein Wort nachsinnen und Frucht bringen in Werken der Liebe.^ORV"
+          "oration": "Allmächtiger Gott, du hast das Lebensopfer des heiligen Meinrad reich belohnt und seine Zelle (im „Finstern Wald“) zu einer Stätte des Segens gemacht. Gib, dass auch wir in der Stille über dein Wort nachsinnen und Frucht bringen in Werken der Liebe.^ORV",
+          "oration_lat": "comm:"
         },
         "Lesehore": {
           "patr_autor": "Johannes Cassianus (†°um 430)",
@@ -287,7 +290,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Hirten",
           "comm_2": "Mann_Ord",
-          "oration": "Gott, du hast deiner Kirche im heiligen Vinzenz Pallotti einen Priester erweckt, der sich ganz dafür einsetzte, dass der Glaube und die Liebe in ihr lebendig sei. Lass uns nach seinem Vorbild deine Wahrheit vor den Menschen zum Leuchten bringen und allen in geschwisterlicher Liebe begegnen.^ORV"
+          "oration": "Gott, du hast deiner Kirche im heiligen Vinzenz Pallotti einen Priester erweckt, der sich ganz dafür einsetzte, dass der Glaube und die Liebe in ihr lebendig sei. Lass uns nach seinem Vorbild deine Wahrheit vor den Menschen zum Leuchten bringen und allen in geschwisterlicher Liebe begegnen.^ORV",
+          "oration_lat": "comm:"
         },
         "Laudes": {
           "button": "Hl. Vinzenz Pallotti",
@@ -301,7 +305,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Mann_Ord",
-          "oration": "Gott, du Quell der Weisheit, du hast den seligen Heinrich Seuse in deine Nähe gerufen und ihn zu einem Leben der Buße ermutigt. Lass auch uns in der Nachfolge deines gekreuzigten Sohnes den Trost deiner Gegenwart erfahren.^ORV"
+          "oration": "Gott, du Quell der Weisheit, du hast den seligen Heinrich Seuse in deine Nähe gerufen und ihn zu einem Leben der Buße ermutigt. Lass auch uns in der Nachfolge deines gekreuzigten Sohnes den Trost deiner Gegenwart erfahren.^ORV",
+          "oration_lat": "comm:"
         },
         "Lesehore": {
           "patr_autor": "Heinrich Seuse (†°1366)",
@@ -623,6 +628,10 @@ export const adlibData = {
           "genitiv_lat": "sanctæ ",
           "antev": "Die kluge Jungfrau ging Christus entgegen. Wie die Sonne strahlt sie im Chor der Heiligen.",
           "antev_lat": "Ecce prudens virgo migrávit ad Christum, fulgens inter choros vírginum sicut sol in virtúte cælésti."
+        },
+        "Vesper": {
+          "ant_komm": "Braut Christi, komm und empfange die Krone, die der Herr für dich bereithält.",
+          "ant_komm_lat": "Veni, sponsa Christi, áccipe corónam, quam tibi Dóminus præparávit in ætérnum."
         }
       }
     },
@@ -645,12 +654,10 @@ export const adlibData = {
           "button": "U.L.Fr. in Lourdes",
           "farbe": "m",
           "antev": "Du Morgenröte des Heils, Jungfrau Maria! Aus dir ging hervor die Sonne der Gerechtigkeit, Christus, das aufstrahlende Licht aus der Höhe.",
-          "ant_komm": "Du Morgenröte des Heils, Jungfrau Maria! Aus dir ging hervor die Sonne der Gerechtigkeit, Christus, das aufstrahlende Licht aus der Höhe.",
           "antev_lat": "Præclára salútis auróra, ex te, Virgo María, exívit Sol iustítiæ, qui visitávit nos Oriens ex alto."
         },
         "Vesper": {
           "antev": "Gegrüßet seist du, Maria, voll der Gnade; der Herr ist mit dir. Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes.",
-          "ant_komm": "Gegrüßet seist du, Maria, voll der Gnade; der Herr ist mit dir. Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes.",
           "antev_lat": "Ave, María, grátia plena; Dóminus tecum. Benedícta tu in muliéribus, et benedíctus fructus ventris tui."
         }
       }
@@ -673,7 +680,13 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Gregor II.",
           "genitiv": "des heiligen Papstes Gregor",
-          "genitiv_lat": "sancti "
+          "genitiv_lat": "sancti ",
+          "ant_komm": "Nicht ihr werdet reden, sondern der Geist eures Vaters redet durch euch.",
+          "ant_komm_lat": "Non vos estis qui loquímini, sed Spíritus Patris vestri, qui lóquitur in vobis."
+        },
+        "Vesper": {
+          "ant_komm": "Dies ist der treue und kluge Verwalter: Der Herr hat ihn eingesetzt, damit er seinen Dienern Nahrung gibt zur rechten Zeit.",
+          "ant_komm_lat": "Iste est fidélis et prudens dispensátor, quem constítuit Dóminus super famíliam suam, ut daret illis in témpore trítici mensuram."
         }
       }
     },
@@ -708,7 +721,13 @@ export const adlibData = {
           "button": "Hl. Valentin",
           "farbe": "r",
           "genitiv": "des heiligen Valentin",
-          "genitiv_lat": "sancti "
+          "genitiv_lat": "sancti ",
+          "ant_komm": "Wer sein Leben liebt, wird es verlieren; doch wer in dieser Welt sein Leben hasst, der wird es bewahren für das ewige Leben.",
+          "ant_komm_lat": "Qui odit ánimam suam in hoc mundo, in vitam ætérnam custódit eam."
+        },
+        "Vesper": {
+          "ant_komm": "Im himmlischen Reich ist die Wohnstatt der Heiligen. Dort finden sie Ruhe auf ewig.",
+          "ant_komm_lat": "In cæléstibus regnis sanctórum habitátio est, et in ætérnum réquies eórum."
         }
       }
     },
@@ -733,11 +752,11 @@ export const adlibData = {
           "genitiv": "der heiligen Gründer des Servitenordens",
           "genitiv_lat": "sanctórum ",
           "antev": "Wie gut ist es und wie schön, wenn Brüder miteinander wohnen in Eintracht.",
-          "ant_komm": "Wie gut ist es und wie schön, wenn Brüder miteinander wohnen in Eintracht.",
           "antev_lat": "Ecce quam bonum et quam iucúndum, habitáre fratres in unum!"
         },
         "Vesper": {
-          "ant_komm": "Wo Brüder in Eintracht Gottes Herrlichkeit preisen, da spendet der Herr seinen Segen."
+          "ant_komm": "Wo Brüder in Eintracht Gottes Herrlichkeit preisen, da spendet der Herr seinen Segen.",
+          "ant_komm_lat": "Ubi fratres in unum gloríficant Deum, ibi dabit Dóminus benedictiónem."
         }
       }
     },
@@ -762,10 +781,12 @@ export const adlibData = {
           "genitiv": "des heiligen Petrus Damiani",
           "vokativ": "Heiliger Petrus Damiani",
           "genitiv_lat": "sancti ",
-          "ant_komm": "Die Weisen strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig."
+          "ant_komm": "Die Weisen strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig.",
+          "ant_komm_lat": "Qui docti fúerint, fulgébunt quasi splendor firmaménti, et qui ad iustítiam erúdiunt multos, quasi stella: in perpétuas æternitátes."
         },
         "Vesper": {
-          "ant_komm": "O Lehrer des Glaubens und Licht der Kirche, du hast Gottes Weisung geliebt. Heiliger Petrus, bitte für uns bei Gottes Sohn."
+          "ant_komm": "O Lehrer des Glaubens und Licht der Kirche, du hast Gottes Weisung geliebt. Heiliger ^VOK, bitte für uns bei Gottes Sohn.",
+          "ant_komm_lat": "O doctor óptime, Ecclésiæ sanctæ lumen, beáte ^VOK, divínæ legis amátor, deprecáre pro nobis Fílium Dei."
         }
       }
     },
@@ -788,13 +809,11 @@ export const adlibData = {
           "button": "Hl. Polykarp",
           "farbe": "r",
           "antev": "Sechsundachtzig Jahre habe ich Christus gedient und habe von ihm kein Unrecht erfahren. Wie könnte ich meinen König schmähen, der mich erlöst hat!",
-          "antev_lat": "Octogínta et sex annos sérvio Christo, nec me ulla affécit iniúria; et quómodo possim maledícere regi meo, qui salvum me fecit?",
-          "ant_komm_lat": "Octogínta et sex annos sérvio Christo, nec me ulla affécit iniúria; et quómodo possim maledícere regi meo, qui salvum me fecit?"
+          "antev_lat": "Octogínta et sex annos sérvio Christo, nec me ulla affécit iniúria; et quómodo possim maledícere regi meo, qui salvum me fecit?"
         },
         "Vesper": {
           "antev": "Ich preise dich, Herr, allmächtiger Gott. Du nahmst mich auf in die Schar deiner Märtyrer und gabst mir Anteil am Kelch deines Gesalbten.",
-          "antev_lat": "Dómine Deus omnípotens, benedíco tibi, quóniam dignum me fecísti, ut in número mártyrum accíperem partem cálicis Christi tui.",
-          "ant_komm_lat": "Dómine Deus omnípotens, benedíco tibi, quóniam dignum me fecísti, ut in número mártyrum accíperem partem cálicis Christi tui."
+          "antev_lat": "Dómine Deus omnípotens, benedíco tibi, quóniam dignum me fecísti, ut in número mártyrum accíperem partem cálicis Christi tui."
         }
       }
     },
@@ -802,7 +821,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Frau_Ord",
-          "oration": "Barmherziger Gott, du hast der heiligen Äbtissin Walburga einen starken Glauben und ein mütterliches Herz gegeben. Hilf uns auf ihre Fürsprache, an deinem Wort festzuhalten und in der Welt deine Güte sichtbar zu machen.^ORV"
+          "oration": "Barmherziger Gott, du hast der heiligen Äbtissin Walburga einen starken Glauben und ein mütterliches Herz gegeben. Hilf uns auf ihre Fürsprache, an deinem Wort festzuhalten und in der Welt deine Güte sichtbar zu machen.^ORV",
+          "oration_lat": "comm:Effúnde super nos, Dómine, spíritum agnitiónis et dilectiónis tuæ, quo ancíllam tuam Walburgam implevísti, ut, sédula eius imitatióne tibi sincére obsequéntes, fide et ópere placeámus.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "LEER",
@@ -835,7 +855,12 @@ export const adlibData = {
           "genitiv": "des heiligen Gregor",
           "vokativ": "Heiliger Gregor",
           "genitiv_lat": "sancti ",
+          "ant_komm": "Die Weisen strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig.",
           "ant_komm_lat": "Qui docti fúerint, fulgébunt quasi splendor firmaménti, et qui ad iustítiam erúdiunt multos, quasi stella: in perpétuas æternitátes."
+        },
+        "Vesper": {
+          "ant_komm": "O Lehrer des Glaubens und Licht der Kirche, du hast Gottes Weisung geliebt. Heiliger ^VOK, bitte für uns bei Gottes Sohn.",
+          "ant_komm_lat": "O doctor óptime, Ecclésiæ sanctæ lumen, beáte ^VOK, divínæ legis amátor, deprecáre pro nobis Fílium Dei."
         }
       }
     }
@@ -861,10 +886,12 @@ export const adlibData = {
           "nominativ": "Der heilige Kasimir",
           "genitiv": "des heiligen Kasimir",
           "genitiv_lat": "sancti ",
-          "ant_komm": "Wer die Wahrheit tut, der kommt zum Licht, damit offenbar wird, dass seine Taten in Gott vollbracht sind."
+          "ant_komm": "Wer die Wahrheit tut, der kommt zum Licht, damit offenbar wird, dass seine Taten in Gott vollbracht sind.",
+          "ant_komm_lat": "Qui facit veritátem, venit ad lucem, ut manifesténtur ópera eius, quia in Deo sunt facta."
         },
         "Vesper": {
-          "ant_komm": "Du guter und treue Knecht, nimm teil an der Freude deines Herrn."
+          "ant_komm": "Du guter und treue Knecht, nimm teil an der Freude deines Herrn.",
+          "ant_komm_lat": "Serve bone et fidélis, intra in gáudium Dómini tui."
         }
       }
     },
@@ -873,7 +900,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Mann_Ord",
           "comm_2": "Hirten",
-          "oration": "Herr, unser Gott, du hast den heiligen Fridolin als Glaubensboten in das Gebiet der Alemannen gesandt. Wir bitten dich: Erhalte das Werk, das er begonnen hat, und vollende es am Tag unseres Herrn Jesus Christus,^ORR"
+          "oration": "Herr, unser Gott, du hast den heiligen Fridolin als Glaubensboten in das Gebiet der Alemannen gesandt. Wir bitten dich: Erhalte das Werk, das er begonnen hat, und vollende es am Tag unseres Herrn Jesus Christus,^ORR",
+          "oration_lat": "comm:"
         },
         "Lesehore": {
           "patr_autor": "Balther (†°10. Jh.)",
@@ -888,10 +916,12 @@ export const adlibData = {
           "nominativ": "Der heilige Fridolin",
           "genitiv": "des heiligen Fridolin",
           "genitiv_lat": "sancti ",
-          "ant_komm": "Nicht ihr werdet reden, sondern der Geist eures Vaters redet durch euch."
+          "ant_komm": "Nicht ihr werdet reden, sondern der Geist eures Vaters redet durch euch.",
+          "ant_komm_lat": "Non vos estis qui loquímini, sed Spíritus Patris vestri, qui lóquitur in vobis."
         },
         "Vesper": {
-          "ant_komm": "Wo Brüder in Eintracht Gottes Herrlichkeit preisen, da spendet der Herr seinen Segen."
+          "ant_komm": "Wo Brüder in Eintracht Gottes Herrlichkeit preisen, da spendet der Herr seinen Segen.",
+          "ant_komm_lat": "Ubi fratres in unum gloríficant Deum, ibi dabit Dóminus benedictiónem."
         }
       }
     },
@@ -957,7 +987,8 @@ export const adlibData = {
         "major": {
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
-          "oration": "Herr, unser Gott, dein heiliger Märtyrer und Bischof Bruno hat für die Ausbreitung des Evangeliums sein Leben eingesetzt. Erhalte uns treu im Glauben, damit wir nicht verlieren, was du uns durch deine Boten geschenkt hast.^ORV"
+          "oration": "Herr, unser Gott, dein heiliger Märtyrer und Bischof Bruno hat für die Ausbreitung des Evangeliums sein Leben eingesetzt. Erhalte uns treu im Glauben, damit wir nicht verlieren, was du uns durch deine Boten geschenkt hast.^ORV",
+          "oration_lat": "comm:"
         },
         "Lesehore": {
           "patr_autor": "Bruno von Querfurt (†°1009)",
@@ -972,10 +1003,12 @@ export const adlibData = {
           "farbe": "r",
           "genitiv": "des heiligen Bruno",
           "genitiv_lat": "sancti ",
-          "ant_komm": "Wer sein Leben liebt, wird es verlieren; doch wer in dieser Welt sein Leben hasst, der wird es bewahren für das ewige Leben."
+          "ant_komm": "Wer sein Leben liebt, wird es verlieren; doch wer in dieser Welt sein Leben hasst, der wird es bewahren für das ewige Leben.",
+          "ant_komm_lat": "Qui odit ánimam suam in hoc mundo, in vitam ætérnam custódit eam."
         },
         "Vesper": {
-          "ant_komm": "Wenn das Weizenkorn nicht in die Erde fällt und stirbt, bleibt es allein; wenn es aber stirbt, bringt es reiche Frucht."
+          "ant_komm": "Wenn das Weizenkorn nicht in die Erde fällt und stirbt, bleibt es allein; wenn es aber stirbt, bringt es reiche Frucht.",
+          "ant_komm_lat": "Nisi granum fruménti cadens in terram mórtuum fúerit, ipsum solum manet; si autem mórtuum fúerit, multum fructum affert."
         }
       },
       "n2": {
@@ -1064,7 +1097,8 @@ export const adlibData = {
     "15": {
       "n1": {
         "major": {
-          "oration": "Gütiger Gott, in der Sorge für dein Volk hast du den heiligen Klemens Maria Hofbauer mit besonderem Eifer für die Seelen erfüllt und durch ihn den Reichtum deiner Gnade verkündet. Hilf uns auf seine Fürsprache, den Glauben zu bewahren, den er gelehrt, und den Weg zu gehen, den er uns durch sein Leben gewiesen hat.^ORV"
+          "oration": "Gütiger Gott, in der Sorge für dein Volk hast du den heiligen Klemens Maria Hofbauer mit besonderem Eifer für die Seelen erfüllt und durch ihn den Reichtum deiner Gnade verkündet. Hilf uns auf seine Fürsprache, den Glauben zu bewahren, den er gelehrt, und den Weg zu gehen, den er uns durch sein Leben gewiesen hat.^ORV",
+          "oration_lat": "comm:"
         },
         "Lesehore": {
           "patr_autor": "Klemens Maria Hofbauer (†°1820)",
@@ -1078,10 +1112,12 @@ export const adlibData = {
           "button": "Hl. Klemens Maria Hofbauer",
           "genitiv": "des heiligen Klemens Maria Hofbauer",
           "genitiv_lat": "sancti ",
-          "ant_komm": "Allen bin ich alles geworden, um alle zu retten."
+          "ant_komm": "Allen bin ich alles geworden, um alle zu retten.",
+          "ant_komm_lat": "Omnibus ómnia factus sum, ut omnes fácerem salvos."
         },
         "Vesper": {
-          "ant_komm": "Dies ist der treue und kluge Verwalter: Der Herr hat ihn eingesetzt, damit er seinen Dienern Nahrung gibt zur rechten Zeit."
+          "ant_komm": "Dies ist der treue und kluge Verwalter: Der Herr hat ihn eingesetzt, damit er seinen Dienern Nahrung gibt zur rechten Zeit.",
+          "ant_komm_lat": "Iste est fidélis et prudens dispensátor, quem constítuit Dóminus super famíliam suam, ut daret illis in témpore trítici mensuram."
         }
       },
       "n2": {
@@ -1113,7 +1149,8 @@ export const adlibData = {
     "17": {
       "n1": {
         "major": {
-          "oration": "Herr, unser Gott, du hast im Herzen der heiligen Gertrud das Verlangen geweckt, das Wort der Schrift zu verstehen und deine Weisung zu erkennen. Lehre auch uns, aus der Kraft deines Wortes zu leben und Werke der Liebe zu tun.^ORV"
+          "oration": "Herr, unser Gott, du hast im Herzen der heiligen Gertrud das Verlangen geweckt, das Wort der Schrift zu verstehen und deine Weisung zu erkennen. Lehre auch uns, aus der Kraft deines Wortes zu leben und Werke der Liebe zu tun.^ORV",
+          "oration_lat": "comm:"
         },
         "Lesehore": {
           "patr_autor": "II. Vatikanisches Konzil (1962–1965)",
@@ -1127,15 +1164,18 @@ export const adlibData = {
           "button": "Hl. Gertrud von Nivelles",
           "genitiv": "der heiligen Gertrud",
           "genitiv_lat": "sanctæ ",
-          "ant_komm": "Mein Anteil ist der Herr, darum harre ich auf ihn; gut ist der Herr zur Seele, die ihn sucht."
+          "ant_komm": "Mein Anteil ist der Herr, darum harre ich auf ihn; gut ist der Herr zur Seele, die ihn sucht.",
+          "ant_komm_lat": "Pars mea Dóminus; bonus est ánimæ quærénti illum."
         },
         "Vesper": {
-          "ant_komm": "In der Freude über Gott, meinen Retter, weitet sich mein Herz und jubelt auf im Herrn."
+          "ant_komm": "In der Freude über Gott, meinen Retter, weitet sich mein Herz und jubelt auf im Herrn.",
+          "ant_komm_lat": "Exsultávit cor meum in Dómino, et dilatátum est cor meum, quia lætáta sum in salutári meo."
         }
       },
       "n2": {
         "major": {
-          "oration": "Ewiger Gott, du hast den heiligen Bischof Patrick gesandt, den Bewohnern Irlands deine Allmacht und Größe zu verkünden. Höre auf seine Fürsprache und hilf allen, die sich Christen nennen, deine großen Werke zu bezeugen.^ORV"
+          "oration": "Ewiger Gott, du hast den heiligen Bischof Patrick gesandt, den Bewohnern Irlands deine Allmacht und Größe zu verkünden. Höre auf seine Fürsprache und hilf allen, die sich Christen nennen, deine großen Werke zu bezeugen.^ORV",
+          "oration_lat": "Deus, qui ad prædicándam Hibérniæ pópulis glóriam tuam beátum Patrícium epíscopum providísti, eius méritis et intercessióne concéde, ut, qui christiáno nómine gloriántur, tua mirabília homínibus iúgiter annúntient.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Patrick (†°461)",
@@ -1149,17 +1189,20 @@ export const adlibData = {
           "button": "Hl. Patrick",
           "genitiv": "des heiligen Patrick",
           "genitiv_lat": "sancti ",
-          "ant_komm": "Geht hinaus in alle Welt und lehrt alle Völker und tauft sie im Namen des Vaters und des Sohnes und des Heiligen Geistes."
+          "antev": "Geht hinaus in alle Welt und lehrt alle Völker und tauft sie im Namen des Vaters und des Sohnes und des Heiligen Geistes.",
+          "antev_lat": "Eúntes, docéte omnes gentes, baptizántes eos in nómine Patris et Fílii et Spíritus Sancti."
         },
         "Vesper": {
-          "ant_komm": "Viele werden kommen vom Osten und vom Westen und mit Abraham, Isaak und Jakob zu Tische sitzen im Himmelreich."
+          "antev": "Viele werden kommen vom Osten und vom Westen und mit Abraham, Isaak und Jakob zu Tische sitzen im Himmelreich.",
+          "antev_lat": "Multi ab oriénte et occidénte vénient, et recúmbent cum Abraham, Isaac et Iacob in regno cælórum."
         }
       }
     },
     "18": {
       "n1": {
         "major": {
-          "oration": "Gott, du Quelle der Wahrheit, durch den heiligen Bischof Cyrill von Jerusalem hast du deine Kirche gelehrt, das Geheimnis der Erlösung tiefer zu verstehen. Höre auf seine Fürsprache und hilf uns, deinen Sohn Jesus Christus zu erkennen und in ihm die Fülle des Lebens zu finden,^ORR"
+          "oration": "Gott, du Quelle der Wahrheit, durch den heiligen Bischof Cyrill von Jerusalem hast du deine Kirche gelehrt, das Geheimnis der Erlösung tiefer zu verstehen. Höre auf seine Fürsprache und hilf uns, deinen Sohn Jesus Christus zu erkennen und in ihm die Fülle des Lebens zu finden,^ORR",
+          "oration_lat": "Deus, qui Ecclésiam tuam per beátum Cyríllum epíscopum ad mystéria salútis profúndius attingénda mirabíliter adduxísti, da nobis, eius intercessióne, Fílium tuum ita agnóscere, ut vitam abundántius habeámus.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Cyrill von Jerusalem (†°386)",
@@ -1180,7 +1223,8 @@ export const adlibData = {
     "23": {
       "n1": {
         "major": {
-          "oration": "Barmherziger Gott, durch die apostolische Arbeit des heiligen Bischofs Turibio und seinen Eifer für die wahre Lehre hast du in Lateinamerika die Kirche im Glauben gefestigt. Gib auch den Christen unserer Zeit neue Glaubenskraft und den Mut zu einem heiligen Leben.^ORV"
+          "oration": "Barmherziger Gott, durch die apostolische Arbeit des heiligen Bischofs Turibio und seinen Eifer für die wahre Lehre hast du in Lateinamerika die Kirche im Glauben gefestigt. Gib auch den Christen unserer Zeit neue Glaubenskraft und den Mut zu einem heiligen Leben.^ORV",
+          "oration_lat": "Deus, qui Ecclésiam tuam beáti Turíbii epíscopi apostólicis curis zelóque veritátis auxísti, concéde, ut pópulus tibi sacrátus fídei et sanctitátis nova semper increménta suscípiat.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "II. Vatikanisches Konzil (1962–1965)",
@@ -1194,33 +1238,39 @@ export const adlibData = {
           "button": "Hl. Turibio von Mongrovejo",
           "genitiv": "des heiligen Turibio",
           "genitiv_lat": "sancti ",
-          "ant_komm": "Nicht ihr werdet reden, sondern der Geist eures Vaters redet durch euch."
+          "ant_komm": "Nicht ihr werdet reden, sondern der Geist eures Vaters redet durch euch.",
+          "ant_komm_lat": "Non vos estis qui loquímini, sed Spíritus Patris vestri, qui lóquitur in vobis."
         },
         "Vesper": {
-          "ant_komm": "Dies ist der treue und kluge Verwalter: Der Herr hat ihn eingesetzt, damit er seinen Dienern Nahrung gibt zur rechten Zeit."
+          "ant_komm": "Dies ist der treue und kluge Verwalter: Der Herr hat ihn eingesetzt, damit er seinen Dienern Nahrung gibt zur rechten Zeit.",
+          "ant_komm_lat": "Iste est fidélis et prudens dispensátor, quem constítuit Dóminus super famíliam suam, ut daret illis in témpore trítici mensuram."
         }
       }
     },
     "24": {
       "n1": {
         "major": {
-          "oration": "Gott, du hast dem heiligen Bischof Oscar Romero die Kraft gegeben, durch seinen Tod für Recht und Wahrheit einzutreten. Höre auf seine Fürsprache und hilf uns, alle Mühe und Last zu ertragen und dich, unser wahres Leben, mit ungeteiltem Herzen zu suchen.^ORV"
+          "oration": "Gott, du hast dem heiligen Bischof Oscar Romero die Kraft gegeben, durch seinen Tod für Recht und Wahrheit einzutreten. Höre auf seine Fürsprache und hilf uns, alle Mühe und Last zu ertragen und dich, unser wahres Leben, mit ungeteiltem Herzen zu suchen.^ORV",
+          "oration_lat": "comm:"
         },
         "Laudes": {
           "button": "Hl. Oscar Arnulfo Romero",
           "genitiv": "des heiligen Oscar Romero",
           "genitiv_lat": "sancti ",
-          "ant_komm": "Selig, die Frieden stiften, selig, die reinen Herzens sind; denn sie werden Gott schauen."
+          "ant_komm": "Selig, die Frieden stiften, selig, die reinen Herzens sind; denn sie werden Gott schauen.",
+          "ant_komm_lat": "Beáti pacífici, beáti mundo corde, quóniam ipsi Deum vidébunt."
         },
         "Vesper": {
-          "ant_komm": "Er war treu bis in den Tod und empfing vom Herrn die Krone des Lebens."
+          "ant_komm": "Er war treu bis in den Tod und empfing vom Herrn die Krone des Lebens.",
+          "ant_komm_lat": "Fuit fidélis usque ad mortem, et a Dómino accépit corónam vitæ."
         }
       }
     },
     "26": {
       "n1": {
         "major": {
-          "oration": "Allmächtiger Gott, du hast den heiligen Bischof Liudger gesandt, die Friesen und die Sachsen zum christlichen Glauben zu führen. Gib auch uns unermüdlichen Eifer und jene Zuversicht, mit der er sich in den Dienst der Kirche gestellt hat.^ORV"
+          "oration": "Allmächtiger Gott, du hast den heiligen Bischof Liudger gesandt, die Friesen und die Sachsen zum christlichen Glauben zu führen. Gib auch uns unermüdlichen Eifer und jene Zuversicht, mit der er sich in den Dienst der Kirche gestellt hat.^ORV",
+          "oration_lat": "comm:"
         },
         "Lesehore": {
           "patr_autor": "Liudger (†°809)",
@@ -1234,10 +1284,12 @@ export const adlibData = {
           "button": "Hl. Liudger",
           "genitiv": "des heiligen Liudger",
           "genitiv_lat": "sancti ",
-          "ant_komm": "Nicht ihr werdet reden, sondern der Geist eures Vaters redet durch euch."
+          "ant_komm": "Nicht ihr werdet reden, sondern der Geist eures Vaters redet durch euch.",
+          "ant_komm_lat": "Non vos estis qui loquímini, sed Spíritus Patris vestri, qui lóquitur in vobis."
         },
         "Vesper": {
-          "ant_komm": "Dies ist der treue und kluge Verwalter: Der Herr hat ihn eingesetzt, damit er seinen Dienern Nahrung gibt zur rechten Zeit."
+          "ant_komm": "Dies ist der treue und kluge Verwalter: Der Herr hat ihn eingesetzt, damit er seinen Dienern Nahrung gibt zur rechten Zeit.",
+          "ant_komm_lat": "Iste est fidélis et prudens dispensátor, quem constítuit Dóminus super famíliam suam, ut daret illis in témpore trítici mensuram."
         }
       }
     }
@@ -1289,10 +1341,12 @@ export const adlibData = {
           "genitiv": "des heiligen Isidor",
           "vokativ": "Heiliger Isidor",
           "genitiv_lat": "sancti ",
-          "ant_komm": "Die Weisen strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig."
+          "ant_komm": "Die Weisen strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig.",
+          "ant_komm_lat": "Qui docti fúerint, fulgébunt quasi splendor firmaménti, et qui ad iustítiam erúdiunt multos, quasi stella: in perpétuas æternitátes."
         },
         "Vesper": {
-          "ant_komm": "O Lehrer des Glaubens und Licht der Kirche, du hast Gottes Weisung geliebt. Heiliger Isidor, bitte für uns bei Gottes Sohn."
+          "ant_komm": "O Lehrer des Glaubens und Licht der Kirche, du hast Gottes Weisung geliebt. Heiliger Isidor, bitte für uns bei Gottes Sohn.",
+          "ant_komm_lat": "O doctor óptime, Ecclésiæ sanctæ lumen, beáte ^VOK, divínæ legis amátor, deprecáre pro nobis Fílium Dei."
         }
       }
     },
@@ -1340,7 +1394,13 @@ export const adlibData = {
           "button": "Hl. Johannes Baptist de la Salle",
           "nominativ": "Der heilige Johannes",
           "genitiv": "des heiligen Johannes Baptist de la Salle",
-          "genitiv_lat": "sancti "
+          "genitiv_lat": "sancti ",
+          "ant_komm": "Wer barmherzig ist, der lehrt und erzieht wie ein guter Hirt.",
+          "ant_komm_lat": "Qui misericórdiam habet, docet et érudit quasi pastor gregem suum."
+        },
+        "Vesper": {
+          "ant_komm": "Lasst die Kinder zu mir kommen; denn Menschen wie ihnen gehört das Himmelreich.",
+          "ant_komm_lat": "Sínite párvulos veníre ad me: tálium est enim regnum cælórum."
         }
       }
     },
@@ -1363,7 +1423,13 @@ export const adlibData = {
           "button": "Hl. Stanislaus",
           "farbe": "r",
           "genitiv": "des heiligen Stanislaus",
-          "genitiv_lat": "sancti "
+          "genitiv_lat": "sancti ",
+          "ant_komm": "Wer sein Leben liebt, wird es verlieren; doch wer in dieser Welt sein Leben hasst, der wird es bewahren für das ewige Leben.",
+          "ant_komm_lat": "Qui odit ánimam suam in hoc mundo, in vitam ætérnam custódit eam."
+        },
+        "Vesper": {
+          "ant_komm": "Im himmlischen Reich ist die Wohnstatt der Heiligen. Dort finden sie Ruhe auf ewig.",
+          "ant_komm_lat": "In cæléstibus regnis sanctórum habitátio est, et in ætérnum réquies eórum."
         }
       }
     },
@@ -1386,10 +1452,12 @@ export const adlibData = {
           "button": "Hl. Martin I.",
           "genitiv": "des heiligen Martin I.",
           "genitiv_lat": "sancti ",
-          "ant_komm": "Wer sein Leben liebt, wird es verlieren; doch wer in dieser Welt sein Leben hasst, der wird es bewahren für das ewige Leben."
+          "ant_komm": "Wer sein Leben liebt, wird es verlieren; doch wer in dieser Welt sein Leben hasst, der wird es bewahren für das ewige Leben.",
+          "ant_komm_lat": "Qui odit ánimam suam in hoc mundo, in vitam ætérnam custódit eam."
         },
         "Vesper": {
-          "ant_komm": "Im himmlischen Reich ist die Wohnstatt der Heiligen. Dort finden sie Ruhe auf ewig."
+          "ant_komm": "Im himmlischen Reich ist die Wohnstatt der Heiligen. Dort finden sie Ruhe auf ewig.",
+          "ant_komm_lat": "In cæléstibus regnis sanctórum habitátio est, et in ætérnum réquies eórum."
         }
       }
     },
@@ -3855,10 +3923,10 @@ export const adlibData = {
         "Lesehore": {
           "patr_autor": "Johannes Chrysostomus († 407)",
           "patr_werk": "Aus einer Homilie vor seiner Verbannung.",
-          "patr_text": "^hFür mich ist Christus das Leben und Sterben Gewinn^pViele Wogen und schwere Brandung ringsum, doch wir fürchten nicht, dass wir untergehen; denn wir stehen auf dem Felsen. Mag das Meer toben, es kann den Felsen nicht zerstören. Mögen sich die Wogen türmen, sie können das Schiff Jesu nicht verschlingen. Sag mir: Was sollten wir fürchten? Den Tod? „Für mich ist Christus das Leben und Sterben Gewinn.“{1#Phil 1,21} Oder Verbannung? „Dem Herrn gehört die Erde und was sie erfüllt.“{2#Ps 24,1} Oder Einziehung des Vermögens? „Wir haben nichts in die Welt mitgebracht, und wir können auch nichts aus ihr mitnehmen.“{3#1 Tim 6,7} Die Schrecken der Welt verachte ich, und ihre Annehmlichkeiten verlache ich. Armut fürchte ich nicht, und Reichtum begehre ich nicht. Ich fürchte nicht zu sterben und wünsche nicht zu leben, es sei denn zu eurem Nutzen. Darum denke ich an die Gegenwart und mahne euch: Habt Zuversicht. Hörst du nicht, wie der Herr sagt: „Wo zwei oder drei in meinem Namen versammelt sind, da bin ich mitten unter ihnen“?{4#Mt 18,20}^pWo so viel Volk in Liebe geeint ist, da sollte er nicht gegenwärtig sein? Ich habe sein Pfand! Vertraue ich etwa auf meine eigene Kraft? Ich habe die Urkunde. Sie ist mein Stab und meine Sicherheit, sie ist der Hafen, der mich schützt vor dem Sturm. Wankte auch der ganze Erdkreis, ich habe eine Schrift, die ich lesen kann, sie ist mir Mauer und Schutz. Was sagt diese Schrift? „Ich bin bei euch alle Tage bis zum Ende der Welt.“{5#Mt 28,20}^pChristus ist mit mir, wen sollte ich fürchten? Wenn sich auch Wogen gegen mich türmen oder das Meer oder die Mächte – all das ist mir weniger als ein Spinngewebe. Wäre es nicht wegen der Liebe zu euch, wollte ich mich nicht dagegen wehren, Abschied zu nehmen von dieser Welt. Stets sage ich: „Dein Wille geschehe!“{6#Mt 6,10} Nicht wenn dieser oder jener es will, sondern wenn du es so willst. Das ist mir ein Turm, das mein unbeweglicher Fels, dies mein starker Stab. Wenn Gott will, dass dies geschehe, so geschehe es. Wenn er will, dass ich hier bleibe, so danke ich ihm. Wo immer er will, dass ich bin, da danke ich ihm.^pWo ich bin, da seid auch ihr, und wo ihr seid, da bin auch ich. Wir sind ein Leib. Der Leib wird nicht vom Haupt, das Haupt nicht vom Leib getrennt. Dem Raum nach werden wir geschieden, aber geeint in der Liebe. Der Tod kann uns nicht scheiden. Wenn auch mein Leib stirbt, die Seele lebt und gedenkt des Volkes.^pIhr seid mir Mitbürger, Väter, Brüder und Kinder, Glieder und Leib, ihr seid mir Licht, ja lieber als das Licht. Was könnte mir so viel schenken wie der Lichtstrahl eurer Liebe? Der Strahl des Lichtes nützt mir im gegenwärtigen Leben, und eure Liebe flicht mir den Kranz im kommenden.",
-          "patr_resp1": "Ich leide für das Evangelium, gefesselt wie ein Verbrecher; aber das Wort Gottes ist nicht gebunden",
-          "patr_resp2": "Alles erdulde ich für die Erwählten",
-          "patr_resp3": "Der Herr ist mein Licht und mein Heil; wen sollte ich fürchten"
+          "patr_text": "^hFür mich ist Christus das Leben und°Sterben°Gewinn^pViele Wogen und schwere Brandung ringsum, doch wir fürchten nicht, dass wir untergehen; denn wir stehen auf dem Felsen. Mag das Meer toben, es kann den Felsen nicht zerstören. Mögen sich die Wogen türmen, sie können das Schiff Jesu nicht verschlingen.^pSag mir: Was sollten wir fürchten? Den Tod? „Für mich ist Christus das Leben und Sterben Gewinn.“{1#Phil 1,21} Oder Verbannung? „Dem Herrn gehört die Erde und was sie erfüllt.“{2#Ps 24,1} Oder Einziehung des Vermögens? „Wir haben nichts in die Welt mitgebracht, und wir können auch nichts aus ihr mitnehmen.“{3#1 Tim 6,7}^pDie Schrecken der Welt verachte ich, und ihre Annehmlichkeiten verlache ich. Armut fürchte ich nicht, und Reichtum begehre ich nicht. Ich fürchte nicht zu sterben und wünsche nicht zu leben, es sei denn zu eurem Nutzen.^pDarum denke ich an die Gegenwart und mahne euch: Habt Zuversicht. Hörst du nicht, wie der Herr sagt: „Wo zwei oder drei in meinem Namen versammelt sind, da bin ich mitten unter ihnen“{4#Mt 18,20}? Wo so viel Volk in Liebe geeint ist, da sollte er nicht gegenwärtig sein?^pIch habe sein Pfand! Vertraue ich etwa auf meine eigene Kraft? Ich habe die Urkunde. Sie ist mein Stab und meine Sicherheit, sie ist der Hafen, der mich schützt vor dem Sturm. Wankte auch der ganze Erdkreis, ich habe eine Schrift, die ich lesen kann, sie ist mir Mauer und Schutz. Was sagt diese Schrift? „Ich bin bei euch alle Tage bis zum Ende der Welt.“{5#Mt 28,20}^pChristus ist mit mir, wen sollte ich fürchten? Wenn sich auch Wogen gegen mich türmen oder das Meer oder die Mächte – all das ist mir weniger als ein Spinngewebe. Wäre es nicht wegen der Liebe zu euch, wollte ich mich nicht dagegen wehren, Abschied zu nehmen von dieser Welt.^pStets sage ich: „Dein Wille geschehe!“{6#Mt 6,10} Nicht wenn dieser oder jener es will, sondern wenn du es so willst. Das ist mir ein Turm, das mein unbeweglicher Fels, dies mein starker Stab. Wenn Gott will, dass dies geschehe, so geschehe es. Wenn er will, dass ich hier bleibe, so danke ich ihm. Wo immer er will, dass ich bin, da danke ich ihm.^pWo ich bin, da seid auch ihr, und wo ihr seid, da bin auch ich. Wir sind ein Leib. Der Leib wird nicht vom Haupt, das Haupt nicht vom Leib getrennt. Dem Raum nach werden wir geschieden, aber geeint in der Liebe. Der Tod kann uns nicht scheiden. Wenn auch mein Leib stirbt, die Seele lebt und gedenkt des Volkes.^pIhr seid mir Mitbürger, Väter, Brüder und Kinder, Glieder und Leib, ihr seid mir Licht, ja lieber als das Licht. Was könnte mir so viel schenken wie der Lichtstrahl eurer Liebe? Der Strahl des Lichtes nützt mir im gegenwärtigen Leben, und eure Liebe flicht mir den Kranz im kommenden.",
+          "patr_resp1": "Ich leide für das Evangelium, gefesselt wie ein Verbrecher; aber das Wort Gottes ist nicht gebunden.",
+          "patr_resp2": "Alles erdulde ich für die Erwählten.",
+          "patr_resp3": "Der Herr ist mein Licht und mein Heil; wen sollte ich fürchten?"
         },
         "Laudes": {
           "button": "Hl. Johannes Chrysostomus",
@@ -4072,7 +4140,7 @@ export const adlibData = {
         "major": {
           "comm_1": "Hirten",
           "oration": "Gott, du Herr aller Völker, du hast durch die heiligen Bischöfe Rupert und Virgil Menschen verschiedener Sprache und Herkunft in die Gemeinschaft der Kirche eingefügt. Erhalte uns auf die Fürsprache dieser Heiligen in der Einheit des Glaubens und der Liebe.^ORV",
-          "oration_lat": "comm:Deus, qui beatórum Rupérti et Virgílis prædicatióne patres nostros vocásti in admirábile Evangélii lumen, fac, ut eius intercessióne crescámus in grátia et cognitióne Dómini nostri Iesu Christi, Fílii tui,^ORlvR"
+          "oration_lat": "comm:Deus, qui beatórum Rupérti et Virgílis prædicatióne patres nostros vocásti in admirábile Evangélii lumen, fac, ut eius intercessióne crescámus in grátia et cognitióne Dómini nostri Iesu Christi, Fílii tui,^ORlR"
         },
         "Lesehore": {
           "patr_autor": "Augustinus (†°430)",
@@ -4512,7 +4580,7 @@ export const adlibData = {
           "comm_1": "Mann",
           "comm_2": "Mann_Ord",
           "oration": "Allmächtiger Gott, du hast den heiligen Gallus berufen, als Mönch und Glaubensbote unter den Alemannen die Wahrheit des Evangeliums auszubreiten. Erhalte uns die Freude, die aus dem Glauben kommt, und stärke unsere Treue zu Jesus Christus,^ORR",
-          "oration_lat": "comm:Deus, qui beáti Galli prædicatióne patres nostros vocásti in admirábile Evangélii lumen, fac, ut eius intercessióne crescámus in grátia et cognitióne Dómini nostri Iesu Christi, Fílii tui,^ORlvR"
+          "oration_lat": "comm:Deus, qui beáti Galli prædicatióne patres nostros vocásti in admirábile Evangélii lumen, fac, ut eius intercessióne crescámus in grátia et cognitióne Dómini nostri Iesu Christi, Fílii tui,^ORlR"
         },
         "Lesehore": {
           "patr_autor": "Wetti (†°824)",
@@ -4635,7 +4703,7 @@ export const adlibData = {
           "comm_1": "MärtPl_Jgfr",
           "comm_2": "Jgfr_Märt",
           "oration": "Gott, du hast der heiligen Ursula und ihren Gefährtinnen Kraft und Standhaftigkeit im Martyrium gegeben und sie so zur Schau deiner Herrlichkeit geführt. Stärke uns auf ihre Fürbitte im Glauben und in der Liebe und gib uns ewige Gemeinschaft mit ihnen.^ORV",
-          "oration_lat": "comm:Deus, qui nos hódie beátæ Ursulæ eiúsque sociárum ánnua commemoratióne lætífics, concéde propítius, ut eárum adiuvémur méritis, quarum castitátis et fortitúdinis irradiámur exémplis.^ORlV"
+          "oration_lat": "comm:Deus, qui nos hódie beátæ Ursulæ eiúsque sociárum ánnua commemoratióne lætíficas, concéde propítius, ut eárum adiuvémur méritis, quarum castitátis et fortitúdinis irradiámur exémplis.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "^A:Ursula:Joseph Teusch (†°1976)",
@@ -5206,27 +5274,6 @@ export const adlibData = {
       }
     },
     "23": {
-      "n2": {
-        "major": {
-          "comm_1": "Mann_Ord",
-          "oration": "Gott, unser höchstes Gut, du hast den heiligen Kolumban berufen, als Glaubensbote und Mönch für dein Reich zu wirken. Hilf uns auf seine Fürsprache, dass wir in allem dich suchen und mit ganzer Bereitschaft dem Evangelium dienen.^ORV",
-          "oration_lat": "Deus, qui in beáto Columbáno evangelizándi munus et monásticæ vitæ stúdium mirabíliter coniunxísti, præsta, quǽsumus, ut, eius intercessióne et exémplo, te super ómnia quǽrere et credéntium pópulum augére studeámus.^ORlV"
-        },
-        "Lesehore": {
-          "patr_autor": "Kolumban von Luxeuil (†°615)",
-          "patr_werk": "Aus einer Unterweisung über die Ebenbildlichkeit des Menschen mit Gott.",
-          "patr_text": "^hDie Ähnlichkeit mit Gott ist ein hoher Adel^pBei Mose heißt es: „Dann sprach Gott: Lasst uns Menschen machen als unser Abbild, uns ähnlich“{1#Gen 1,26}. Bitte, betrachtet die hohe Bedeutung dieses Satzes: Gott, der Allmächtige, Unsichtbare, Unfassbare, Unaussprechliche und Unschätzbare, hat den Menschen aus Lehm gebildet und ihn mit der Würde seines Abbildes geadelt!^pWas hat der Mensch mit Gott zu tun, was die Erde mit dem Geist? Denn „Gott ist Geist“{2#Joh 4,24}. Es ist eine tiefe Herablassung von Gott, dass er dem Menschen das Abbild seiner Ewigkeit und die Ähnlichkeit seines Handelns geschenkt hat; die Ähnlichkeit mit Gott ist ein hoher Adel, wenn sie bewahrt wird.^pWenn der Mensch die der Seele eingesenkten Kräfte recht gebraucht, dann ist er Gott ähnlich. Die Kräfte, die bei der ersten Erschaffung wie Samen in uns eingesenkt wurden, müssen wir Gott zurückgeben. Er gebietet und lehrt: Das ist das erste Gebot, Gott mit ganzem Herzen zu lieben{3#vgl.°Mt 22,37}, weil er uns zuerst geliebt hat{4#vgl.°1°Joh°4,10}, von Anfang an, noch bevor wir waren. Die Liebe Gottes ist die Erneuerung des göttlichen Abbildes. Der liebt Gott, der Gottes Gebot hält: denn Gott spricht: „Wenn ihr mich liebt, werdet ihr meine Gebote halten“{5#Joh 14,15}. Das ist sein Gebot: die gegenseitige Liebe; denn er sagt: „Das ist mein Gebot: Liebt einander, so wie ich euch geliebt habe“{6#Joh 15,12}.^pDie wahre Liebe besteht aber nicht nur in Worten, sondern vielmehr in Tat und Wahrheit{7#vgl.°1°Joh°3,18}. Wir wollen also unserm Gott, unserm Vater, sein Abbild unversehrt zurückgeben, in Heiligkeit, weil er heilig ist, nach dem Wort: ‚Seid heilig, weil auch ich heilig bin‘{8#vgl.°Lev 11,44}, in Liebe, weil er die Liebe ist nach dem Wort des Johannes: „Gott ist die Liebe“{9#1°Joh°4,8}, in Güte und Wahrheit, weil Gott gütig und wahrhaftig ist.^pWer wild und zornig und stolz ist, der malt das Bild eines Tyrannen. Damit wir nicht etwa Tyrannenbilder einführen, möge Christus in uns sein Bild schaffen, weil er sagt: „Frieden hinterlasse ich euch, meinen Frieden gebe ich euch“{10#Joh 14,27}.",
-          "patr_resp1": "Umgürtet euch und macht euch bereit. Wie er, der euch berufen hat, heilig ist,",
-          "patr_resp2": "so soll auch euer Leben heilig sein.",
-          "patr_resp3": "Ich bin der Herr, euer Gott. Erweist euch als heilig und seid heilig, weil ich heilig bin."
-        },
-        "Laudes": {
-          "button": "Hl. Kolumban",
-          "nominativ": "Der heilige Kolumban",
-          "genitiv": "des heiligen Kolumban",
-          "genitiv_lat": "sancti "
-        }
-      },
       "n1": {
         "major": {
           "comm_1": "MärtSg",
@@ -5246,6 +5293,27 @@ export const adlibData = {
           "button": "Hl. Klemens I.",
           "farbe": "r",
           "genitiv": "des heiligen Papstes Klemens I.",
+          "genitiv_lat": "sancti "
+        }
+      },
+      "n2": {
+        "major": {
+          "comm_1": "Mann_Ord",
+          "oration": "Gott, unser höchstes Gut, du hast den heiligen Kolumban berufen, als Glaubensbote und Mönch für dein Reich zu wirken. Hilf uns auf seine Fürsprache, dass wir in allem dich suchen und mit ganzer Bereitschaft dem Evangelium dienen.^ORV",
+          "oration_lat": "Deus, qui in beáto Columbáno evangelizándi munus et monásticæ vitæ stúdium mirabíliter coniunxísti, præsta, quǽsumus, ut, eius intercessióne et exémplo, te super ómnia quǽrere et credéntium pópulum augére studeámus.^ORlV"
+        },
+        "Lesehore": {
+          "patr_autor": "Kolumban von Luxeuil (†°615)",
+          "patr_werk": "Aus einer Unterweisung über die Ebenbildlichkeit des Menschen mit Gott.",
+          "patr_text": "^hDie Ähnlichkeit mit Gott ist ein hoher Adel^pBei Mose heißt es: „Dann sprach Gott: Lasst uns Menschen machen als unser Abbild, uns ähnlich“{1#Gen 1,26}. Bitte, betrachtet die hohe Bedeutung dieses Satzes: Gott, der Allmächtige, Unsichtbare, Unfassbare, Unaussprechliche und Unschätzbare, hat den Menschen aus Lehm gebildet und ihn mit der Würde seines Abbildes geadelt!^pWas hat der Mensch mit Gott zu tun, was die Erde mit dem Geist? Denn „Gott ist Geist“{2#Joh 4,24}. Es ist eine tiefe Herablassung von Gott, dass er dem Menschen das Abbild seiner Ewigkeit und die Ähnlichkeit seines Handelns geschenkt hat; die Ähnlichkeit mit Gott ist ein hoher Adel, wenn sie bewahrt wird.^pWenn der Mensch die der Seele eingesenkten Kräfte recht gebraucht, dann ist er Gott ähnlich. Die Kräfte, die bei der ersten Erschaffung wie Samen in uns eingesenkt wurden, müssen wir Gott zurückgeben. Er gebietet und lehrt: Das ist das erste Gebot, Gott mit ganzem Herzen zu lieben{3#vgl.°Mt 22,37}, weil er uns zuerst geliebt hat{4#vgl.°1°Joh°4,10}, von Anfang an, noch bevor wir waren. Die Liebe Gottes ist die Erneuerung des göttlichen Abbildes. Der liebt Gott, der Gottes Gebot hält: denn Gott spricht: „Wenn ihr mich liebt, werdet ihr meine Gebote halten“{5#Joh 14,15}. Das ist sein Gebot: die gegenseitige Liebe; denn er sagt: „Das ist mein Gebot: Liebt einander, so wie ich euch geliebt habe“{6#Joh 15,12}.^pDie wahre Liebe besteht aber nicht nur in Worten, sondern vielmehr in Tat und Wahrheit{7#vgl.°1°Joh°3,18}. Wir wollen also unserm Gott, unserm Vater, sein Abbild unversehrt zurückgeben, in Heiligkeit, weil er heilig ist, nach dem Wort: ‚Seid heilig, weil auch ich heilig bin‘{8#vgl.°Lev 11,44}, in Liebe, weil er die Liebe ist nach dem Wort des Johannes: „Gott ist die Liebe“{9#1°Joh°4,8}, in Güte und Wahrheit, weil Gott gütig und wahrhaftig ist.^pWer wild und zornig und stolz ist, der malt das Bild eines Tyrannen. Damit wir nicht etwa Tyrannenbilder einführen, möge Christus in uns sein Bild schaffen, weil er sagt: „Frieden hinterlasse ich euch, meinen Frieden gebe ich euch“{10#Joh 14,27}.",
+          "patr_resp1": "Umgürtet euch und macht euch bereit. Wie er, der euch berufen hat, heilig ist,",
+          "patr_resp2": "so soll auch euer Leben heilig sein.",
+          "patr_resp3": "Ich bin der Herr, euer Gott. Erweist euch als heilig und seid heilig, weil ich heilig bin."
+        },
+        "Laudes": {
+          "button": "Hl. Kolumban",
+          "nominativ": "Der heilige Kolumban",
+          "genitiv": "des heiligen Kolumban",
           "genitiv_lat": "sancti "
         }
       }
@@ -5312,6 +5380,18 @@ export const adlibData = {
   },
   "12": {
     "1": {
+      "n2": {
+        "major": {
+          "comm_1": "Mann_Ord",
+          "oration": "Gott, unser Vater, du hast den heiligen Bruder Karl ^(Charles de Foucauld^) berufen, deinen Sohn Jesus von Nazaret nachzuahmen. Gewähre uns auf seine Fürsprache, dass wir, gestärkt durch die Eucharistie, Tag für Tag in der Liebe wachsen und in der Geschwisterlichkeit mit allen Menschen.^ORV"
+        },
+        "Laudes": {
+          "button": "Hl. Charles de Foucauld",
+          "nominativ": "Der heilige Charles de Foucauld",
+          "genitiv": "des heiligen Charles de Foucauld",
+          "genitiv_lat": "sancti "
+        }
+      },
       "siehe Export": {
         "major": {
           "comm_1": "Hirten",
@@ -5333,18 +5413,6 @@ export const adlibData = {
         },
         "Vesper": {
           "antev": "Dank sei dir, Christus, guter Hirte! Du hast mich zur Herrlichkeit geführt, gib auch der Herde, die du mir anvertraut hast, Anteil an deiner Gnade auf ewig."
-        }
-      },
-      "n2": {
-        "major": {
-          "comm_1": "Mann_Ord",
-          "oration": "Gott, unser Vater, du hast den heiligen Bruder Karl ^(Charles de Foucauld^) berufen, deinen Sohn Jesus von Nazaret nachzuahmen. Gewähre uns auf seine Fürsprache, dass wir, gestärkt durch die Eucharistie, Tag für Tag in der Liebe wachsen und in der Geschwisterlichkeit mit allen Menschen.^ORV"
-        },
-        "Laudes": {
-          "button": "Hl. Charles de Foucauld",
-          "nominativ": "Der heilige Charles de Foucauld",
-          "genitiv": "des heiligen Charles de Foucauld",
-          "genitiv_lat": "sancti "
         }
       }
     },
@@ -5630,25 +5698,6 @@ export const adlibData = {
       }
     },
     "13": {
-      "n1": {
-        "major": {
-          "comm_1": "Frau_Ord",
-          "oration": "Gott, du wahres Licht, du hast den Blinden und Augenkranken in der heiligen Odilia eine himmlische Patronin gegeben. Öffne uns auf ihre Fürsprache die Augen, damit wir in der geschaffenen Schönheit deine Größe erahnen und dich einst schauen in deinem himmlischen Licht.^ORV"
-        },
-        "Lesehore": {
-          "patr_autor": "Gregor der Große (†°604)",
-          "patr_werk": "Aus einer Homilie zu den Evangelien.",
-          "patr_text": "^hLasst uns das Licht suchen, das keinen Anfang und kein Ende hat^pJesus sprach zu dem Blinden: „Was soll ich dir tun?“ Der Blinde antwortete: „Rabbuni, ich möchte wieder sehen können“{1#Mk 10,51}. Wie? Wusste Jesus nicht, was der Blinde wollte, Jesus, der das Augenlicht zu schenken vermag? Jesus weiß, was wir bitten wollen und was er zu erhören gedenkt, aber er will gebeten sein. Er mahnt uns eindringlich zum Gebet, obwohl er euch sagt: „Euer Vater weiß, was ihr braucht, noch ehe ihr ihn bittet“{2#Mt 6,8}. Darum also verlangt er, dass wir beten, darum will er, dass unser Herz wach sei zum Gebet.^pSo antwortet denn der Blinde sogleich: „Rabbuni, ich möchte wieder sehen können.“ Siehe, der Blinde bittet den Herrn nicht um Gold, sondern um Licht. Nichts ist dem Bittenden wichtig, nur das Licht. Denn könnte der Blinde auch alles Mögliche besitzen, ohne das Licht kann er nicht sehen, was er besitzt. Wir wollen es ihm nachtun. Wir haben es gehört, leiblich und geistig, dass ihm Heil geworden ist.^pLasst uns also nicht falschen Reichtum, nicht irdische Gaben, nicht flüchtige Ehren vom Herrn erbitten, sondern Licht, jenes Licht, das wir nur mit den Engeln zusammen erblicken können, das Licht, das keinen Anfang hat und dem kein Ende gesetzt ist, das Licht, zu dem der Weg des Glaubens führt. Darum hört der zu heilende Blinde alsbald die Antwort: „Geh! Dein Glaube hat dich geheilt“, und es heißt: „Er konnte sehen, und er folgte ihm auf dem Weg“{3#Mk 10,52}.",
-          "patr_resp1": "Der Herr ist mein Licht und mein Heil, vor wem sollte ich mich fürchten?",
-          "patr_resp2": "Bei dir ist die Quelle des Lebens, in deinem Licht schauen wir das Licht.",
-          "patr_resp3": "Das wahre Licht, das jeden Menschen erleuchtet, kam in die Welt."
-        },
-        "Laudes": {
-          "button": "Hl. Odilia",
-          "genitiv": "der heiligen Odilia",
-          "genitiv_lat": "sanctæ "
-        }
-      },
       "eig": {
         "major": {
           "comm_1": "MärtSg_Jgfr",
@@ -5676,6 +5725,25 @@ export const adlibData = {
         "Vesper": {
           "antev": "Heilige Luzia, du Braut des Herrn! Weil du standhaft bliebst, hast du das Leben gewonnen. Den Reichtum dieser Welt hast du verachtet und durch dein Blut den Feind besiegt. Nun strahlt dein Licht inmitten der Engel.",
           "antev_lat": "In tua patiéntia possedísti ánimam tuam, Lúcia, sponsa Christi: odísti quæ in mundo sunt, et corúscas cum ángelis; sánguine próprio inimícum vicísti."
+        }
+      },
+      "n1": {
+        "major": {
+          "comm_1": "Frau_Ord",
+          "oration": "Gott, du wahres Licht, du hast den Blinden und Augenkranken in der heiligen Odilia eine himmlische Patronin gegeben. Öffne uns auf ihre Fürsprache die Augen, damit wir in der geschaffenen Schönheit deine Größe erahnen und dich einst schauen in deinem himmlischen Licht.^ORV"
+        },
+        "Lesehore": {
+          "patr_autor": "Gregor der Große (†°604)",
+          "patr_werk": "Aus einer Homilie zu den Evangelien.",
+          "patr_text": "^hLasst uns das Licht suchen, das keinen Anfang und kein Ende hat^pJesus sprach zu dem Blinden: „Was soll ich dir tun?“ Der Blinde antwortete: „Rabbuni, ich möchte wieder sehen können“{1#Mk 10,51}. Wie? Wusste Jesus nicht, was der Blinde wollte, Jesus, der das Augenlicht zu schenken vermag? Jesus weiß, was wir bitten wollen und was er zu erhören gedenkt, aber er will gebeten sein. Er mahnt uns eindringlich zum Gebet, obwohl er euch sagt: „Euer Vater weiß, was ihr braucht, noch ehe ihr ihn bittet“{2#Mt 6,8}. Darum also verlangt er, dass wir beten, darum will er, dass unser Herz wach sei zum Gebet.^pSo antwortet denn der Blinde sogleich: „Rabbuni, ich möchte wieder sehen können.“ Siehe, der Blinde bittet den Herrn nicht um Gold, sondern um Licht. Nichts ist dem Bittenden wichtig, nur das Licht. Denn könnte der Blinde auch alles Mögliche besitzen, ohne das Licht kann er nicht sehen, was er besitzt. Wir wollen es ihm nachtun. Wir haben es gehört, leiblich und geistig, dass ihm Heil geworden ist.^pLasst uns also nicht falschen Reichtum, nicht irdische Gaben, nicht flüchtige Ehren vom Herrn erbitten, sondern Licht, jenes Licht, das wir nur mit den Engeln zusammen erblicken können, das Licht, das keinen Anfang hat und dem kein Ende gesetzt ist, das Licht, zu dem der Weg des Glaubens führt. Darum hört der zu heilende Blinde alsbald die Antwort: „Geh! Dein Glaube hat dich geheilt“, und es heißt: „Er konnte sehen, und er folgte ihm auf dem Weg“{3#Mk 10,52}.",
+          "patr_resp1": "Der Herr ist mein Licht und mein Heil, vor wem sollte ich mich fürchten?",
+          "patr_resp2": "Bei dir ist die Quelle des Lebens, in deinem Licht schauen wir das Licht.",
+          "patr_resp3": "Das wahre Licht, das jeden Menschen erleuchtet, kam in die Welt."
+        },
+        "Laudes": {
+          "button": "Hl. Odilia",
+          "genitiv": "der heiligen Odilia",
+          "genitiv_lat": "sanctæ "
         }
       }
     },
