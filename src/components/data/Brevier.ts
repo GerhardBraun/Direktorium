@@ -8051,7 +8051,7 @@ export const brevierData = {
           "psalm2": 147.2,
           "psalm3": 157.0,
           "ant1": "Der am Kreuze starb, ist von den Toten erstanden und hat uns erlöst.^ö",
-          "ant2": "in der Mitte der heiligen Stadt Jerusalem steht der Baum des Lebens; die Blätter des Baumes heilen die Völker.",
+          "ant2": "In der Mitte der heiligen Stadt Jerusalem steht der Baum des Lebens; die Blätter des Baumes heilen die Völker.",
           "ant3": "Wir müssen uns rühmen im Kreuz unseres Herrn Jesus Christus.",
           "les_buch": "›1°Kor",
           "les_stelle": "1,23–24",
@@ -8059,12 +8059,12 @@ export const brevierData = {
           "les_text_neu": "Wir verkünden Christus als den Gekreuzigten: für Juden ein Ärgernis, für Heiden eine Torheit, für die Berufenen aber, Juden wie Griechen, Christus, Gottes Kraft und Gottes Weisheit.",
           "resp1": "Das Zeichen des Kreuzes wird am Himmel erscheinen,",
           "resp2": "wenn der Herr zum Gericht kommt.",
-          "resp3": "Erhebt eure Häupter, deen eure Erlösung ist nahe.",
+          "resp3": "Erhebt eure Häupter, denn eure Erlösung ist nahe.",
           "antev": "Christus musste leiden und von den Toten auferstehen, um so in seine Herrlichkeit zu gelangen.",
           "bitten_e": "Lasst uns beten zu unserm Herrn Jesus Christus, der durch sein heiliges Kreuz die Welt erlöst hat:",
           "bitten_r": "Kyrie, eleison.",
           "bitten": "Du hast dich entäußert, du wurdest wie ein Sklave und den Menschen gleich;^qgib, dass die Welt deine Liebe erkennt.^pDu wurdest gehorsam bis zum Tod am Kreuz;^qhilf den Leidenden, ihr Geschick anzunehmen.^pGott hat dir den Namen verliehen, der alle Namen übertrifft;^qsteh allen bei, die sich zu diesem Namen bekennen.^pVor dir beugen die Knie alle Mächte im Himmel, auf der Erde und unter der Erde;^qgib, dass alle Menschen dich anbeten.^pDurch dein Kreuz hast du das Tor des Himmels geöffnet;^qnimm unsere verstorbenen Brüder und Schwestern auf.",
-          "hymn_1_lat": 8914.4,
+          "hymn_1_lat": 3343.1,
           "ant1_lat": "Crucifíxus surréxit a mórtuis et redémit nos.^Lö",
           "ant2_lat": "In médio civitátis sanctæ Ierúsalem lignum vitæ, et fólia ligni ad sanitátem géntium.^Lö",
           "ant3_lat": "Nos autem gloriári opórtet in cruce Dómini nostri Iesu Christi.",
@@ -8152,7 +8152,7 @@ export const brevierData = {
           "ant2_lat": "Crux benedícta nitet, Dóminus qua carne pepéndit atque cruóre suo vúlnera nostra lavit.",
           "ant3_lat": "Crux alma fulget, per quam salus réddita est mundo: crux vincit, crux regnat, crux repéllit omne crimen.^Lö",
           "resp1_lat": "Adorámus te, Christe,",
-          "resp2_lat": "Et benedícimus tibi.",
+          "resp2_lat": "et benedícimus tibi.",
           "resp3_lat": "Quia per crucem tuam redemísti mundum.",
           "antev_lat": "Crucem tuam adorámus, Dómine, et sanctam resurrectiónem tuam laudámus et glorificámus: ecce enim propter lignum venit gáudium in univérso mundo.",
           "bitten_e_lat": "Redemptórem nostrum, qui per crucem suam nos redémit, fidénter deprecémur:",
@@ -8219,7 +8219,7 @@ export const brevierData = {
           "bitten_e": "Lasst uns beten zu unserm Herrn Jesus Christus, der durch sein heiliges Kreuz die Welt erlöst hat:",
           "bitten_r": "Kyrie, eleison.",
           "bitten": "Du hast dich entäußert, du wurdest wie ein Sklave und den Menschen gleich;^qgib, dass die Welt deine Liebe erkennt.^pDu wurdest gehorsam bis zum Tod am Kreuz;^qhilf den Leidenden, ihr Geschick anzunehmen.^pGott hat dir den Namen verliehen, der alle Namen übertrifft;^qsteh allen bei, die sich zu diesem Namen bekennen.^pVor dir beugen die Knie alle Mächte im Himmel, auf der Erde und unter der Erde;^qgib, dass alle Menschen dich anbeten.^pDurch dein Kreuz hast du das Tor des Himmels geöffnet;^qnimm unsere verstorbenen Brüder und Schwestern auf.",
-          "hymn_1_lat": 8914.4,
+          "hymn_1_lat": 3343.1,
           "ant1_lat": "O magnum pietátis opus! Mors mórtua tunc est, quando hoc in ligno mórtua vita fuit.",
           "ant2_lat": "Tuam crucem adorámus, Dómine, tuam gloriósam recólimus passiónem; miserére nostri, qui passus es pro nobis.",
           "ant3_lat": "Adorámus te, Christe, et benedícimus tibi, quia per crucem tuam redemísti mundum.",
@@ -8311,8 +8311,7 @@ export const brevierData = {
       "21": {
         "each": {
           "comm_1": "Apostel",
-          "oration": "Barmherziger Gott, du hast deinen Sohn gesandt, zu suchen und zu retten, was verloren war; in erbarmender Liebe hat er den Zöllner Matthäus zum Apostel berufen. Hilf uns auf die Fürsprache dieses heiligen Evangelisten, mit ganzer Treue Christus nachzufolgen, wie er es getan hat.^ORV",
-          "oration_lat": ""
+          "oration": "Barmherziger Gott, du hast deinen Sohn gesandt, zu suchen und zu retten, was verloren war; in erbarmender Liebe hat er den Zöllner Matthäus zum Apostel berufen. Hilf uns auf die Fürsprache dieses heiligen Evangelisten, mit ganzer Treue Christus nachzufolgen, wie er es getan hat.^ORV"
         },
         "Lesehore": {
           "farbe": "rBuM",
@@ -8329,27 +8328,16 @@ export const brevierData = {
           "patr_text": "^hJesus sah ihn an mit dem Blick des Erbarmens und der Erwählung^p„Jesus sah einen Mann namens Matthäus am Zoll sitzen und sagte zu ihm: Folge mir nach!“ {1#Mt 9,9} Er sah ihn nicht so sehr mit dem Blick seiner leiblichen Augen, als vielmehr mit dem inneren Blick des Erbarmens. Er sah den Zöllner, und weil er ihn mit dem Blick des Erbarmens und der Erwählung ansah, sprach er zu ihm: „Folge mir!“ „Folgen“ aber meinte: „nachahmen“, folgen nicht mit den Füßen, sondern mit der Tat des Lebens: „Wer sagt, dass er in ihm bleibt, muss auch leben, wie er gelebt hat.“ {2#1 Joh 2,6}^p„Da stand er auf“, heißt es, „und folgte ihm.“ Man darf sich nicht wundern, dass der Zöllner gleich auf das erste Befehlswort des Herrn den irdischen Gewinn, an den er sich bisher bemühte, aufgab, sein Vermögen für nichts achtete und sich den Jüngern eines Mannes anschloss, der offensichtlich keine Reichtümer besaß. Denn derselbe Herr, der ihn außen mit seinem Wort anrief, gab ihm im Innern unsichtbar den Ruf zur Nachfolge ein und ließ ihn durch das Licht geistlicher Gnade begreifen: Der auf der Erde vom Zeitlichen weggeruft, hat die Macht, im Himmel unvergängliche Schätze zu verleihen.^p„Als Jesus im Haus des Zöllners beim Essen saß, kamen viele Zöllner und Sünder und aßen mit ihm und seinen Jüngern.“ {3#Mt 9,10} Die Bekehrung des einen Zöllners gab vielen Zöllnern und Sündern das Beispiel der Buße und der Vergebung. Es war bei ihm, der Lehrer und Apostel der Völker werden wollte, ein schönes und echtes Vorzeichen, dass er in seinen ersten Lebensabschnitten Scharen von Sündern hinter sich her zum Heil zog. Die Aufgabe der Verkündigung, die er mit dem Fortschreiten in der Tugend erfüllen sollte, begann er gleich mit den ersten Anfängen des Glaubens. Wenn wir daher eine tiefere Einsicht in die Ereignisse gewinnen wollen, so müssen wir beachten, dass Matthäus dem Herrn nicht allein in seinem irdischen Haus ein Gastmahl für den Leib zurüstete, sondern ihm in seinem Herzen ein viel reicheres Mahl durch Glaube und Liebe bereitete. Jesus selbst bezeugt es: „Ich stehe vor der Tür und klopfe an. Wer meine Stimme hört und die Tür öffnet, bei dem werde ich eintreten, und wir werden Mahl halten, ich mit ihm und er mit mir.“ {4#Offb 3,20}^pWir hören seine Stimme und öffnen die Tür, um ihn aufzunehmen, wenn wir seine geheimen oder offenen Mahnungen annehmen und uns bemühen, auszuführen, was offensichtlich getan werden muss. Der Herr tritt aber ein, um mit uns ein Mahl zu halten und wir mit ihm. Denn er wohnt durch die Gnade seiner Liebe in den Herzen der Auserwählten und erquickt sie mit dem Licht seiner Gegenwart.",
           "patr_resp1": "Niemals wurde eine Weissagung ausgesprochen, weil ein Mensch es wollte:",
           "patr_resp2": "Vom Heiligen Geist getrieben, haben Menschen im Auftrag Gottes geredet.",
-          "patr_resp3": "Denn der Herr gibt Weisheit, aus seinem Mund kommen Erkenntnis und Einsicht.",
-          "versikel0_lat": "",
-          "versikel1_lat": "",
-          "resp1_lat": "",
-          "resp2_lat": "",
-          "resp3_lat": "",
-          "patr_resp1_lat": "",
-          "patr_resp2_lat": "",
-          "patr_resp3_lat": "",
-          "les_text_lat": ""
+          "patr_resp3": "Denn der Herr gibt Weisheit, aus seinem Mund kommen Erkenntnis und Einsicht."
         },
         "Laudes": {
           "button": "Hl. Matthäus",
           "farbe": "rBuM",
-          "antev": "Jesus sah einen Mann mit Namen Matthäus an der Zollstätte sitzen und sagte zu ihm: Folge mir! Da stand Matthäus auf und folgte ihm.",
-          "antev_lat": ""
+          "antev": "Jesus sah einen Mann mit Namen Matthäus an der Zollstätte sitzen und sagte zu ihm: Folge mir! Da stand Matthäus auf und folgte ihm."
         },
         "Vesper": {
           "farbe": "rBuM",
-          "antev": "Barmherzigkeit will ich, nicht Opfer: Ich bin gekommen, die Sünder zu berufen, nicht die Gerechten.",
-          "antev_lat": ""
+          "antev": "Barmherzigkeit will ich, nicht Opfer: Ich bin gekommen, die Sünder zu berufen, nicht die Gerechten."
         }
       },
       "28": {

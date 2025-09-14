@@ -264,7 +264,7 @@ const HymnSelector = ({ texts, hour, season,
                     languageSuffixes.forEach(suffix => {
                         const alternativeHymnField = `hymn_1${suffix}`;
                         const alternativeHymnNumber = eigData[alternativeHymnField];
-                        if (alternativeHymnNumber) {
+                        if (alternativeHymnNumber > 8000) {
                             // Erstelle eindeutige ID für diesen alternativen Hymnus
                             const alternativeId = `eig_${alternativeHymnField}_fallback`;
 

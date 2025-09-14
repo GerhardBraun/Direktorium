@@ -4141,7 +4141,9 @@ export const psalmsData = {
     0.0: {
         "text": "Der König siegt, sein Banner glänzt,^lgeheimnisvoll erstrahlt das Kreuz,^lan dessen Balken ausgestreckt^lim Fleisch des Fleisches Schöpfer hängt.^pGeschunden hängt der heil’ge Leib,^lvom scharfen Speere roh durchbohrt,^luns rein zu waschen von der Schuld,^lströmt Blut und Wasser von ihm aus.^pErfüllt ist nun, was David einst^lim Liede gläubig kundgetan,^lda er im Geiste prophezeit’:^lVom Holz herab herrscht unser Gott.^pO edler Baum im hehren Glanz,^lvon königlichem Purpur rot,^ldu werter, du erwählter Stamm,^ldu trägst den Lösepreis der Welt.^pO heil’ges Kreuz, sei uns gegrüßt,^ldu einz’ge Hoffnung dieser Welt.^lDen Treuen schenke neue Kraft,^lden Sündern tilge alle Schuld.^pDir, höchster Gott, Dreifaltigkeit,^llobsinge alles, was da lebt;^ldu hast uns durch das Kreuz erlöst:^lBewahre uns in Ewigkeit."
       },
-    1.0: {}
+    1.0: {
+        "text_lat": "Vexílla regis pródeunt,^lfulget crucis mystérium,^lquo carne carnis cónditor^lsuspénsus est patíbulo;^pQuo, vulnerátus ínsuper^lmucróne diro lánceæ,^lut nos laváret crímine,^lmanávit unda et sánguine.^pArbor decóra et fúlgida,^lornáta regis púrpura,^lelécta digno stípite^ltam sancta membra tángere!^pBeáta, cuius brácchiis^lsæcli pepéndit prétium;^lstatéra facta est córporis^lprædam tulítque tártari.^pSalve, ara, salve, víctima,^lde passiónis glória,^lqua Vita mortem pértulit^let morte vitam réddidit!^pO crux, ave, spes única!^lin hac triúmphi glória^lpiis adáuge grátiam^lreísque dele crímina.^pTe, fons salútis, Trínitas,^lcolláudet omnis spíritus;^lquos per crucis mystérium^lsalvas, fove per sǽcula. Amen."
+      }
   },
   3344: {
     0.0: {
@@ -5348,9 +5350,6 @@ export const psalmsData = {
       },
     2.0: {
         "text_lat": "Signum crucis mirábile^ltotum per orbem prǽnitet,^lin qua pepéndit ínnocens^lChristus, redémptor ómnium.^pHæc arbor est sublímior^lcedris, habet quas Líbanus,^lquæ poma nescit nóxia,^lsed ferre vitæ prǽmia.^pTe, Christe, rex piíssime,^lhuius crucis signáculo^lhoris, moméntis ómnibus^lmuníre nos non ábnuas,^pUt ore tibi cónsono^let corde devotíssimo^lpossímus omni témpore^llaudes reférre débitas.^pPatri, tibi, Paráclito^lsit æqua, Iesu, glória,^lqui nos crucis victória^lconcédis usque pérfrui. Amen."
-      },
-    4.0: {
-        "text_lat": "Vexílla regis pródeunt,^lfulget crucis mystérium,^lquo carne carnis cónditor^lsuspénsus est patíbulo;^pQuo, vulnerátus ínsuper^lmucróne diro lánceæ,^lut nos laváret crímine,^lmanávit unda et sánguine.^pArbor decóra et fúlgida,^lornáta regis púrpura,^lelécta digno stípite^ltam sancta membra tángere!^pBeáta, cuius brácchiis^lsæcli pepéndit prétium;^lstatéra facta est córporis^lprædam tulítque tártari.^pSalve, ara, salve, víctima,^lde passiónis glória,^lqua Vita mortem pértulit^let morte vitam réddidit!^pO crux, ave, spes única!^lin hac triúmphi glória^lpiis adáuge grátiam^lreísque dele crímina.^pTe, fons salútis, Trínitas,^lcolláudet omnis spíritus;^lquos per crucis mystérium^lsalvas, fove per sǽcula. Amen."
       }
   },
   8915: {
