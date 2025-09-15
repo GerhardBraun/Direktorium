@@ -205,7 +205,7 @@ export const getValue = ({ season, hour, texts, field,
         || isSollemnity) {
 
         //Sonderfall Wochentagspsalmen
-        if (localPrefPsalmsWt && isPsalmodie &&
+        if (localPrefPsalmsWt && field.startsWith('psalm') &&
             hour !== 'invitatorium'
         ) { return result(texts[hour]?.wt) }
 
