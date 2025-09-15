@@ -111,7 +111,7 @@ const LectureSelector = ({
                 }
             }
         });
-
+        //  console.log('Standard-Werte der Lesungen:', result);
         return result;
     }, [getValue]);
 
@@ -138,6 +138,7 @@ const LectureSelector = ({
             const fieldResp1 = lectureType === 'first' ? 'resp1' : 'patr_resp1'
 
             const longBookname = (altData) => {
+                if (lectureType !== 'first' || !altData) return '';
                 const bookname = altData?.les_buch || ''
                 return (bookname.startsWith('Lesung aus')
                     || bookname.startsWith('Aus de'))
@@ -157,12 +158,15 @@ const LectureSelector = ({
                 let text1 = standard?.[fieldAutor]
                 let text2 = extractTitle(standard?.[fieldText])
                     || standard?.[fieldWerk]
+                console.log('Standard-Texte:', buttonType, text1, text2)
 
                 if (buttonType !== 'standard') {
+                    //console.log('nicht Standardfeld')
                     text1 = checkLanguageField(fieldAutor, altData)
                     text2 = lectureType === 'first'
                         ? checkLanguageField(fieldWerk, altData)
                         : checkLanguageField(fieldWerk, altData, fieldText)
+                    console.log('Nicht-Standard-Texte:', buttonType, text1, text2)
                 }
 
                 text1 = (!text1 || text1?.startsWith('LEER'))
@@ -473,7 +477,7 @@ const LectureSelector = ({
             return { first: newFirst, second: newSecond };
         });
 
-        //console.log('availableAlternatives aktualisiert:', availableAlternatives, defaultFirst, defaultSecond);
+        console.log('availableAlternatives aktualisiert:', availableAlternatives, defaultFirst, defaultSecond);
 
     }, [availableAlternatives]);
 
