@@ -65,7 +65,12 @@ const LectureSelector = ({
     const extractTitle = (text) => {
         if (!text) return null;
         const match = text.match(/\^h([^]*?)\^p/);
-        return match ? match[1].trim() : null;
+        let extractedTitle = match ? match[1].trim() : ''
+        const sliceIndex = extractedTitle.indexOf('^SLICE');
+        if (sliceIndex !== -1) {
+            extractedTitle = extractedTitle.substring(0, sliceIndex);
+        }
+        return extractedTitle;
     };
 
     const checkLanguageField = (field, alternativeData, titleField = null) => {
@@ -111,7 +116,6 @@ const LectureSelector = ({
                 }
             }
         });
-        //  console.log('Standard-Werte der Lesungen:', result);
         return result;
     }, [getValue]);
 
@@ -158,15 +162,12 @@ const LectureSelector = ({
                 let text1 = standard?.[fieldAutor]
                 let text2 = extractTitle(standard?.[fieldText])
                     || standard?.[fieldWerk]
-                console.log('Standard-Texte:', buttonType, text1, text2)
 
                 if (buttonType !== 'standard') {
-                    //console.log('nicht Standardfeld')
                     text1 = checkLanguageField(fieldAutor, altData)
                     text2 = lectureType === 'first'
                         ? checkLanguageField(fieldWerk, altData)
                         : checkLanguageField(fieldWerk, altData, fieldText)
-                    console.log('Nicht-Standard-Texte:', buttonType, text1, text2)
                 }
 
                 text1 = (!text1 || text1?.startsWith('LEER'))
@@ -477,7 +478,7 @@ const LectureSelector = ({
             return { first: newFirst, second: newSecond };
         });
 
-        console.log('availableAlternatives aktualisiert:', availableAlternatives, defaultFirst, defaultSecond);
+        // console.log('availableAlternatives aktualisiert:', availableAlternatives, defaultFirst, defaultSecond);
 
     }, [availableAlternatives]);
 
