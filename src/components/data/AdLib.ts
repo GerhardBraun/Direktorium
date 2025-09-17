@@ -1299,7 +1299,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Mann_Ord",
-          "oration": "Gott, du erhöhst die Niedrigen; du hast das verborgene Leben des Einsiedlers Franz von Paola belohnt und ihn in die Schar deiner Heiligen aufgenommen. Lass uns durch seine Verdienste und in seiner Nachfolge die Gaben erlangen, welche du den Demütigen versprochen hast.^ORV"
+          "oration": "Gott, du erhöhst die Niedrigen; du hast das verborgene Leben des Einsiedlers Franz von Paola belohnt und ihn in die Schar deiner Heiligen aufgenommen. Lass uns durch seine Verdienste und in seiner Nachfolge die Gaben erlangen, welche du den Demütigen versprochen hast.^ORV",
+          "oration_lat": "Deus, humílium celsitúdo, qui beátum Francíscum sanctórum tuórum glória sublimásti, tríbue, quǽsumus, ut, eius méritis et exémplo, promíssa humílibus prǽmia felíciter consequámur.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Franz von Paola (†°1507)",
@@ -1314,10 +1315,12 @@ export const adlibData = {
           "nominativ": "Der heilige Franz",
           "genitiv": "des heiligen Franz von Paola",
           "genitiv_lat": "sancti ",
-          "ant_komm": "Siehe, ich stehe vor der Tür und klopfe an. Wer meine Stimme hört und mir öffnet, zu dem trete ich ein und halte Mahl mit ihm, und er mit mir."
+          "antev": "Siehe, ich stehe vor der Tür und klopfe an. Wer meine Stimme hört und mir öffnet, zu dem trete ich ein und halte Mahl mit ihm, und er mit mir.",
+          "antev_lat": "Ecce sto ad óstium, et pulso: si quis audíerit vocem meam et aperúerit mihi iánuam, intrábo ad illum et cenábo cum illo, et ipse mecum.^LÖ"
         },
         "Vesper": {
-          "ant_komm": "Böte einer für die Liebe den ganzen Reichtum seines Hauses, nur verachten würde man ihn."
+          "antev": "Böte einer für die Liebe den ganzen Reichtum seines Hauses, nur verachten würde man ihn.",
+          "antev_lat": "Si déderit homo omnem substántiam domus suæ pro dilectióne, quasi nihil despíciet eam.^LÖ"
         }
       }
     },
@@ -1326,7 +1329,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Hirten",
           "comm_2": "Hirten_Kl",
-          "oration": "Gott, du Quelle der Weisheit, du hast deiner Kirche den heiligen Isidor als geistlichen Lehrer gegeben. Höre auf seine Fürbitte. Schenke deiner Kirche auch in unseren Tagen Treue zur überlieferten Wahrheit und führe sie zur Einheit in deiner Liebe.^ORV"
+          "oration": "Gott, du Quelle der Weisheit, du hast deiner Kirche den heiligen Isidor als geistlichen Lehrer gegeben. Höre auf seine Fürbitte. Schenke deiner Kirche auch in unseren Tagen Treue zur überlieferten Wahrheit und führe sie zur Einheit in deiner Liebe.^ORV",
+          "oration_lat": "Exáudi, quǽsumus, Dómine, preces nostras, quas in beáti Isidóri commemoratióne deférimus, ut Ecclésia tua eius intercessiónibus adiuvétur, cuius cæléstibus instrúitur disciplínis.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Isidor von Sevilla (†°636)",
@@ -1354,7 +1358,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Hirten",
-          "oration": "Herr, unser Gott, du hast deiner Kirche im heiligen Vinzenz Ferrer einen machtvollen Prediger geschenkt, der Jesus Christus als den kommenden Richter verkündet hat. Gib, dass wir deinem Sohn freudig entgegentreten und ihn als unseren König schauen, wenn er in Herrlichkeit wiederkommt,^ORR"
+          "oration": "Herr, unser Gott, du hast deiner Kirche im heiligen Vinzenz Ferrer einen machtvollen Prediger geschenkt, der Jesus Christus als den kommenden Richter verkündet hat. Gib, dass wir deinem Sohn freudig entgegentreten und ihn als unseren König schauen, wenn er in Herrlichkeit wiederkommt,^ORR",
+          "oration_lat": "Deus, qui beátum Vincéntium presbýterum minístrum prædicatiónis evangélicæ suscitásti, præsta, quǽsumus, ut, quem ventúrum iúdicem nuntiávit in terris, beáti videámus regnántem in cælis.^ORlR"
         },
         "Lesehore": {
           "patr_autor": "Vinzenz Ferrer (†°1419)",
@@ -1368,10 +1373,12 @@ export const adlibData = {
           "button": "Hl. Vinzenz Ferrer",
           "genitiv": "des heiligen Vinzenz Ferrer",
           "genitiv_lat": "sancti ",
-          "ant_komm": "Nicht ihr werdet reden, sondern der Geist eures Vaters redet durch euch."
+          "ant_komm": "Nicht ihr werdet reden, sondern der Geist eures Vaters redet durch euch.",
+          "ant_komm_lat": "Non vos estis qui loquímini, sed Spíritus Patris vestri, qui lóquitur in vobis."
         },
         "Vesper": {
-          "ant_komm": "Allen bin ich alles geworden, um alle zu retten."
+          "ant_komm": "Allen bin ich alles geworden, um alle zu retten.",
+          "ant_komm_lat": "Omnibus ómnia factus sum, ut omnes fácerem salvos."
         }
       }
     },
@@ -1380,7 +1387,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Hirten",
           "comm_2": "Mann_Erz",
-          "oration": "Gott, du hast den heiligen Johannes Baptist de la Salle berufen, jungen Menschen den Weg des Heils zu zeigen. Erwecke in deiner Kirche verantwortungsbewusste Erzieher voll schöpferischen Geistes, die sich mit aller Kraft dafür einsetzen, gute Menschen und wahre Christen heranzubilden.^ORV"
+          "oration": "Gott, du hast den heiligen Johannes Baptist de la Salle berufen, jungen Menschen den Weg des Heils zu zeigen. Erwecke in deiner Kirche verantwortungsbewusste Erzieher voll schöpferischen Geistes, die sich mit aller Kraft dafür einsetzen, gute Menschen und wahre Christen heranzubilden.^ORV",
+          "oration_lat": "Deus, qui ad christiánam iuventútem educándam beátum Ioánnem Baptístam elegísti, éxcita in Ecclésia tua institutóres, qui humánæ et christiánæ iúvenum disciplínæ toto corde sese devóveant.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Johannes Baptist de la Salle (†°1719)",
@@ -1409,7 +1417,8 @@ export const adlibData = {
         "major": {
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
-          "oration": "Gott und Herr, der heilige Bischof Stanislaus hat sich unerschrocken für deine Ehre eingesetzt und ist unter dem Schwert der Verfolger gefallen. Gib auch uns die Kraft, bis zu unserem Tode im Glauben standhaft zu bleiben.^ORV"
+          "oration": "Gott und Herr, der heilige Bischof Stanislaus hat sich unerschrocken für deine Ehre eingesetzt und ist unter dem Schwert der Verfolger gefallen. Gib auch uns die Kraft, bis zu unserem Tode im Glauben standhaft zu bleiben.^ORV",
+          "oration_lat": "Deus, pro cuius honóre beátus epíscopus Stanisláus gládiis persecutórum occúbuit, præsta, quǽsumus, ut fortes in fide usque ad mortem perseveráre valeámus.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Cyprian von Karthago (†°258)",
@@ -1438,7 +1447,8 @@ export const adlibData = {
         "major": {
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
-          "oration": "Allmächtiger Gott, in deiner Kraft hat der heilige Papst Martin den Drohungen ungerechter Gewalt widerstanden und Misshandlungen standhaft erduldet. Hilf auch uns, alle Schwierigkeiten mit ungebrochenem Mut zu überwinden.^ORV"
+          "oration": "Allmächtiger Gott, in deiner Kraft hat der heilige Papst Martin den Drohungen ungerechter Gewalt widerstanden und Misshandlungen standhaft erduldet. Hilf auch uns, alle Schwierigkeiten mit ungebrochenem Mut zu überwinden.^ORV",
+          "oration_lat": "Da nobis, quǽsumus, omnípotens Deus, advérsa mundi invícta mentis constántia toleráre, qui beátum Martínum papam et mártyrem nec minis terréri nec pœnis passus es superári.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Martin I. (†°655)",
@@ -1517,7 +1527,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Hirten_Kl",
           "comm_2": "Hirten",
-          "oration": "Gott, du bist unerforschlich in deinem Wesen, und doch offenbarst du dich den Menschen. Du hast den heiligen Anselm gedrängt, die Tiefe deiner Weisheit zu erforschen und zu verkünden. Gib, dass der Glaube unserem Verstand zu Hilfe komme, damit unser Herz liebgewinnt, was du uns zu glauben befiehlst.^ORV"
+          "oration": "Gott, du bist unerforschlich in deinem Wesen, und doch offenbarst du dich den Menschen. Du hast den heiligen Anselm gedrängt, die Tiefe deiner Weisheit zu erforschen und zu verkünden. Gib, dass der Glaube unserem Verstand zu Hilfe komme, damit unser Herz liebgewinnt, was du uns zu glauben befiehlst.^ORV",
+          "oration_lat": "Deus, qui beáto Ansélmo epíscopo dedísti alta sapiéntiæ tuæ quǽrere et docére, fac ita fidem tuam intelléctui nostro subveníre, ut cordi dulce sápiant quæ nobis credénda mandásti.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Anselm von Canterbury (†°1109)",
@@ -1540,7 +1551,8 @@ export const adlibData = {
         "major": {
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
-          "oration": "Gott, in deinem Auftrag hat der heilige Bischof Adalbert den Samen des Evangeliums ausgesät und ihn mit seinem Blut getränkt. Gib allen, die du zum Glauben berufen hast, die Kraft unbeirrbarer Treue.^ORV"
+          "oration": "Gott, in deinem Auftrag hat der heilige Bischof Adalbert den Samen des Evangeliums ausgesät und ihn mit seinem Blut getränkt. Gib allen, die du zum Glauben berufen hast, die Kraft unbeirrbarer Treue.^ORV",
+          "oration_lat": "Deus, qui sanctum Adalbértum epíscopum zelo animárum succénsum martýrio coronásti, eius interveniénte suffrágio concéde, ut nec pastóribus obœdiéntia gregis nec gregi desit cura pastórum.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Theodor vom Studion (†°826)",
@@ -1560,7 +1572,8 @@ export const adlibData = {
       "n2": {
         "major": {
           "comm_1": "MärtSg",
-          "oration": "Starker Gott, am Gedenktag des heiligen Georg preisen wir deine Macht. Auf seine Fürsprache hin stehe uns in jeder Not bei. Hilf uns, deinem Sohn im Leiden nachzufolgen und in der Kraft des Kreuzes das Böse zu besiegen.^ORV"
+          "oration": "Starker Gott, am Gedenktag des heiligen Georg preisen wir deine Macht. Auf seine Fürsprache hin stehe uns in jeder Not bei. Hilf uns, deinem Sohn im Leiden nachzufolgen und in der Kraft des Kreuzes das Böse zu besiegen.^ORV",
+          "oration_lat": "Magnificántes, Dómine, poténtiam tuam, súpplices exorámus, ut, sicut sanctus Geórgius domínicæ fuit passiónis imitátor, ita sit fragilitátis nostræ promptus adiútor.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Petrus Damiani (†°1072)",
@@ -1583,7 +1596,8 @@ export const adlibData = {
         "major": {
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
-          "oration": "Treuer Gott, aus Liebe zu dir hat der heilige Fidelis für den Glauben sein Leben hingegeben. Im Vertrauen auf seine Fürsprache bitten wir dich: Gib, dass auch wir in der Liebe fest verwurzelt und auf sie gegründet seien, damit wir ohne Menschenfurcht für die Wahrheit einstehen und die Kraft der Auferstehung deines Sohnes erfahren, unseres Herrn Jesus Christus,^ORR"
+          "oration": "Treuer Gott, aus Liebe zu dir hat der heilige Fidelis für den Glauben sein Leben hingegeben. Im Vertrauen auf seine Fürsprache bitten wir dich: Gib, dass auch wir in der Liebe fest verwurzelt und auf sie gegründet seien, damit wir ohne Menschenfurcht für die Wahrheit einstehen und die Kraft der Auferstehung deines Sohnes erfahren, unseres Herrn Jesus Christus,^ORR",
+          "oration_lat": "Deus, qui beátum Fidélem, amóre tuo succénsum, in fídei propagatióne martýrii palma decoráre dignátus es, ipso interveniénte, concéde, ut, in caritáte fundáti, cum illo resurrectiónis Christi virtútem cognóscere mereámur.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Benedikt XIV. (†°1753)",
@@ -1606,7 +1620,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Hirten_Kl",
           "comm_2": "Hirten",
-          "oration": "Herr, unser Gott, du hast den heiligen Petrus Kanisius berufen, in Wort und Schrift den katholischen Glauben kraftvoll zu verteidigen. Höre auf seine Fürsprache. Lass alle, die nach der Wahrheit suchen, dich finden und erhalte deine Gläubigen im Bekenntnis zu dir.^ORV"
+          "oration": "Herr, unser Gott, du hast den heiligen Petrus Kanisius berufen, in Wort und Schrift den katholischen Glauben kraftvoll zu verteidigen. Höre auf seine Fürsprache. Lass alle, die nach der Wahrheit suchen, dich finden und erhalte deine Gläubigen im Bekenntnis zu dir.^ORV",
+          "oration_lat": "Deus, qui ad tuéndam cathólicam fidem virtúte et doctrína beátum Petrum presbýterum roborásti, eius intercessióne concéde, ut, qui veritátem quærunt, te Deum gaudénter invéniant, et in tua confessióne pópulus credéntium persevéret.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Petrus Kanisius (†°1597)",
@@ -1628,7 +1643,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "MärtSg",
-          "oration": "Starker Gott, du hast durch den Märtyrertod des heiligen Peter Chanel den Glauben auf den Inseln der Südsee eingepflanzt. Lass uns in diesen österlichen Tagen die Geheimnisse des Todes und der Auferstehung Christi so feiern, dass wir Zeugen des neuen Lebens sein können.^ORvR"
+          "oration": "Starker Gott, du hast durch den Märtyrertod des heiligen Peter Chanel den Glauben auf den Inseln der Südsee eingepflanzt. Lass uns in diesen österlichen Tagen die Geheimnisse des Todes und der Auferstehung Christi so feiern, dass wir Zeugen des neuen Lebens sein können.^ORvR",
+          "oration_lat": "Deus, qui ad dilatándam Ecclésiam tuam beátum Petrum martýrio coronásti, da nobis, in his paschálibus gáudiis, ita Christi mórtui et resurgéntis mystéria frequentáre, ut novitátis vitæ testes esse mereámur.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "LEER",
@@ -1646,7 +1662,8 @@ export const adlibData = {
       "n2": {
         "major": {
           "comm_1": "Hirten",
-          "oration": "Gott, du hast die Schritte des heiligen Priesters Ludwig Maria auf den Weg des Heiles und der Liebe zu Christus gelenkt und ihm die selige Jungfrau als Begleiterin gegeben. Gib, dass wir uns nach seinem Beispiel in die Geheimnisse deiner Liebe vertiefen und uns unermüdlich bemühen, deine Kirche aufzubauen.^ORV^ODERAllmächtiger, ewiger Gott, in deiner Gnade hat der heilige Priester Ludwig Maria Grignion die vollkommene Hingabe an Christus, deinen Sohn, auf die Fürbitte  seiner seligen Mutter in herausragender Weise bezeugt und gelehrt. Hilf auch uns, diesen geistlichen Weg zu gehen, damit wir in der Welt mitwirken an der Ausbreitung deines Reiches.^ORV"
+          "oration": "Gott, du hast die Schritte des heiligen Priesters Ludwig Maria auf den Weg des Heiles und der Liebe zu Christus gelenkt und ihm die selige Jungfrau als Begleiterin gegeben. Gib, dass wir uns nach seinem Beispiel in die Geheimnisse deiner Liebe vertiefen und uns unermüdlich bemühen, deine Kirche aufzubauen.^ORV^ODERAllmächtiger, ewiger Gott, in deiner Gnade hat der heilige Priester Ludwig Maria Grignion die vollkommene Hingabe an Christus, deinen Sohn, auf die Fürbitte  seiner seligen Mutter in herausragender Weise bezeugt und gelehrt. Hilf auch uns, diesen geistlichen Weg zu gehen, damit wir in der Welt mitwirken an der Ausbreitung deines Reiches.^ORV",
+          "oration_lat": "Ætérnæ Deus sapiéntiæ, qui sanctum Ludovícum Maríam presbýterum plenæ Christo, Fílio tuo, deditióni per eius beátæ Matris manus exímium testem et magístrum effecísti, concéde nobis, ut eándem spiritálem viam sectántes, regnum tuum in mundum exténdere valeámus.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Ludwig Maria Grignion de Montfort",
@@ -3981,10 +3998,10 @@ export const adlibData = {
         "Lesehore": {
           "patr_autor": "Hildegard von Bingen (†°1179)",
           "patr_werk": "Aus einem Brief an Werner von Kirchbolanden und seine Priestergemeinschaft.",
-          "patr_text": "^hErscheinung der Kirche^pIm Jahre 1170 nach Christi Geburt lag ich lange krank danieder. Da schaute ich, wach an Körper und Geist, eine Frau von solcher Schönheit, dass Menschengeist es nicht zu fassen vermochte. Ihre Gestalt ragte von der Erde bis zum Himmel. Ihr Antlitz leuchtete von höchstem Glanz. Ihr Auge blickte zum Himmel. Bekleidet war sie mit einem strahlendhellen Gewand aus weißer Seide und einem Mantel, besetzt mit kostbaren Steinen. An den Füßen trug sie Schuhe aus Onyx.^pAber ihr Antlitz war mit Staub bestreut, ihr Gewand an der rechten Seite zerrissen. Auch hatte der Mantel seine erlesene Schönheit verloren, und ihre Schuhe waren von oben her beschmutzt. Mit lauter, klagender Stimme schrie sie zum hohen Himmel hinauf: Horch auf, Himmel: mein Antlitz ist besudelt! Trauere, Erde: mein Kleid ist zerrissen! Erzittere, Abgrund: meine Schuhe sind beschmutzt! Und weiter sprach sie: Im Herzen des Vaters war ich verborgen, bis der Menschensohn, in Jungfräulichkeit empfangen und geboren, sein Blut vergoss. Mit diesem Blut, als seiner Mitgift, hat er mich sich vermählt.^pDie Wundmale meines Bräutigams bleiben frisch und offen, solange die Sündenwunden der Menschen offen sind. Eben dieses Offenbleiben der Wunden Christi ist die Schuld der Priester. Mein Gewand zerreißen sie dadurch, dass sie Übertreter des Gesetzes, des Evangeliums und ihrer Priesterpflicht sind. Meinem Mantel nehmen sie den Glanz, da sie die ihnen auferlegten Vorschriften in allem vernachlässigen. Sie beschmutzen meine Schuhe, da sie die geraden, das heißt die harten und rauen Wege der Gerechtigkeit nicht einhalten und auch ihren Untergebenen kein gutes Beispiel geben. Dennoch finde ich bei einigen das Leuchten der Wahrheit.^pUnd ich hörte eine Stimme vom Himmel, die sprach: Dieses Bild stellt die Kirche dar. Deshalb, o°Mensch, der du das schaust und die Klageworte hörst, künde es den Priestern, die zur Leitung und Belehrung des Gottesvolkes bestellt sind und denen gleich den Aposteln gesagt wurde: „Geht hinaus in die Welt, und verkündet das Evangelium allen Geschöpfen!“{1#Mk 16,15}",
+          "patr_text": "^hErscheinung der Kirche^pIm Jahre 1170 nach Christi Geburt lag ich lange krank danieder. Da schaute ich, wach an Körper und Geist, eine Frau von solcher Schönheit, dass Menschengeist es nicht zu fassen vermochte. Ihre Gestalt ragte von der Erde bis zum Himmel. Ihr Antlitz leuchtete von höchstem Glanz. Ihr Auge blickte zum Himmel. Bekleidet war sie mit einem strahlendhellen Gewand aus weißer Seide und einem Mantel, besetzt mit kostbaren Steinen. An den Füßen trug sie Schuhe aus Onyx.^pAber ihr Antlitz war mit Staub bestreut, ihr Gewand an der rechten Seite zerrissen. Auch hatte der Mantel seine erlesene Schönheit verloren, und ihre Schuhe waren von oben her beschmutzt. Mit lauter, klagender Stimme schrie sie zum hohen Himmel hinauf: Horch auf, Himmel: mein Antlitz ist besudelt! Trauere, Erde: mein Kleid ist zerrissen! Erzittere, Abgrund: meine Schuhe sind beschmutzt!^pUnd weiter sprach sie: Im Herzen des Vaters war ich verborgen, bis der Menschensohn, in Jungfräulichkeit empfangen und geboren, sein Blut vergoss. Mit diesem Blut, als seiner Mitgift, hat er mich sich vermählt.^pDie Wundmale meines Bräutigams bleiben frisch und offen, solange die Sündenwunden der Menschen offen sind. Eben dieses Offenbleiben der Wunden Christi ist die Schuld der Priester. Mein Gewand zerreißen sie dadurch, dass sie Übertreter des Gesetzes, des Evangeliums und ihrer Priesterpflicht sind. Meinem Mantel nehmen sie den Glanz, da sie die ihnen auferlegten Vorschriften in allem vernachlässigen. Sie beschmutzen meine Schuhe, da sie die geraden, das heißt die harten und rauen Wege der Gerechtigkeit nicht einhalten und auch ihren Untergebenen kein gutes Beispiel geben. Dennoch finde ich bei einigen das Leuchten der Wahrheit.^pUnd ich hörte eine Stimme vom Himmel, die sprach: Dieses Bild stellt die Kirche dar. Deshalb, o°Mensch, der du das schaust und die Klageworte hörst, künde es den Priestern, die zur Leitung und Belehrung des Gottesvolkes bestellt sind und denen gleich den Aposteln gesagt wurde: „Geht hinaus in die Welt, und verkündet das Evangelium allen Geschöpfen!“{1#Mk 16,15}",
           "patr_resp1": "Der Herr gibt den Weisen die Weisheit und den Verständigen den Verstand.",
           "patr_resp2": "Tiefe und verborgene Dinge enthüllt er, bei ihm wohnt das Licht.",
-          "patr_resp3": "Das alles wirkt der eine und gleiche Geist; einemjeden teilt er seine besonderen Gaben zu, wie er will."
+          "patr_resp3": "Das alles wirkt der eine und gleiche Geist; einem jeden teilt er seine besonderen Gaben zu, wie er will."
         },
         "Laudes": {
           "button": "Hl. Hildegard von Bingen",
@@ -4004,7 +4021,7 @@ export const adlibData = {
         "Lesehore": {
           "patr_autor": "Robert Bellarmin (†°1621)",
           "patr_werk": "Aus einem Traktat über den Aufstieg des Geistes zu Gott.",
-          "patr_text": "^hZu deinen Vorschriften neige mein Herz^p.,Herr, du bist gütig und reich an Gnade“{1#Ps 86,5} Wer sollte dir nicht von ganzem Herzen dienen, sobald er anfängt, auch nur ein wenig die Milde deiner väterlichen Herrschaft zu kosten? Herr, was gebietest du deinen Dienern? „Nehmt mein Joch auf euch“, sagst du. Was für ein Joch ist das? Du sagst: „Mein Joch drückt nicht, und meine Last ist leicht.“ Wer sollte nicht gern ein Joch tragen, das nicht niederdrückt, sondern aufrichtet, und eine Last, die nicht beschwert, sondern tragen hilft? Mit Recht hast du also hinzugefügt; „So werdet ihr Ruhe finden für eure Seele“{2#Mt 11,29.30}.^pWas ist dein Joch, das nicht ermüdet, sondern Ruhe bringt? Dies ist das erste und größte Gebot: „Du sollst den Herrn, deinen Gott, lieben mit ganzem Herzen“{3#Mt 22,37}. Was ist leichter, angenehmer, erfreuender, als die Güte zu lieben, die Schönheit, die Liebe? Alles das bist du, Herr, mein Gott.^pVersprichst du nicht auch Lohn einem jeden, der deine Gebote hält, sie, die kostbarer sind als Gold in Menge, süßer als Honig, als Honig aus Waben?{4#vgl.°Ps 19,11} Du versprichst ganz allgemein Lohn, reichsten Lohn, wie der Apostel Jakobus sagt: „Den Kranz des Lebens hat der Herr denen bereitet, die ihn lieben“{5#vgl.°Jak 1,12}.^pWas ist der Kranz des Lebens? Er ist ein größeres Gut, als wir denken und begehren können. Denn so schreibt der heilige Paulus mit Jesaja: „Was kein Auge gesehen und kein Ohr gehört hat, was keinem Menschen in den Sinn gekommen ist: das Große, das Gott denen bereitet hat, die ihn lieben“{6#1°Kor°2,9; vgl.°Jes 64,3}.^pWahrhaftig, in der Beobachtung deiner Gebote liegt bereits reicher Lohn. Dabei ist nicht nur dieses erste und höchste Gebot gut für die Menschen, die ihm gehorchen – nicht für Gott, der es gegeben hat –, auch die übrigen Gebote machen die Menschen, die ihnen gehorchen, vollkommen, zieren und erleuchten sie, machen sie gut und zuletzt glücklich.^pWenn du es also begreifst, erkenne, dass du zur Ehre Gottes und zu deinem ewigen Heil erschaffen bist, dass dies dein Ziel ist, dies die Mitte deiner Seele, der Schatz deines Herzens. Wenn du an dieses Ziel gelangst, bist du selig, unglücklich aber, wenn du es verfehlst.^pDarum halte alles für gut, was dich deinem Ziel näherbringt, für schlecht, was dich am Ziel vorbeiführt. Glück und Unglück, Reichturn und Armut, Gesundheit und Krankheit sind nach der Auffassung der Weisen an und für sich weder zu begehren noch zu fliehen. Vielmehr, wenn sie zur Ehre Gottes und zu deinem ewigen Glück beitragen, sind sie gut und zu begehren. Sind sie dem aber im Weg, dann sind sie schlecht, und wir sollen sie fliehen.",
+          "patr_text": "^hZu deinen Vorschriften neige mein Herz^p.,Herr, du bist gütig und reich an Gnade.“{1#Ps 86,5} Wer sollte dir nicht von ganzem Herzen dienen, sobald er anfängt, auch nur ein wenig die Milde deiner väterlichen Herrschaft zu kosten?^pHerr, was gebietest du deinen Dienern? „Nehmt mein Joch auf euch“, sagst du. Was für ein Joch ist das? Du sagst: „Mein Joch drückt nicht, und meine Last ist leicht.“ Wer sollte nicht gern ein Joch tragen, das nicht niederdrückt, sondern aufrichtet, und eine Last, die nicht beschwert, sondern tragen hilft? Mit Recht hast du also hinzugefügt; „So werdet ihr Ruhe finden für eure Seele“{2#Mt 11,29.30}.^pWas ist dein Joch, das nicht ermüdet, sondern Ruhe bringt? Dies ist das erste und größte Gebot: „Du sollst den Herrn, deinen Gott, lieben mit ganzem Herzen“{3#Mt 22,37}. Was ist leichter, angenehmer, erfreuender, als die Güte zu lieben, die Schönheit, die Liebe? Alles das bist du, Herr, mein Gott.^pVersprichst du nicht auch Lohn einem jeden, der deine Gebote hält, sie, die kostbarer sind als Gold in Menge, süßer als Honig, als Honig aus Waben?{4#vgl.°Ps 19,11}^pDu versprichst ganz allgemein Lohn, reichsten Lohn, wie der Apostel Jakobus sagt: „Den Kranz des Lebens hat der Herr denen bereitet, die ihn lieben“{5#vgl.°Jak 1,12}. Was ist der Kranz des Lebens? Er ist ein größeres Gut, als wir denken und begehren können. Denn so schreibt der heilige Paulus mit Jesaja: „Was kein Auge gesehen und kein Ohr gehört hat, was keinem Menschen in den Sinn gekommen ist: das Große, das Gott denen bereitet hat, die ihn lieben“{6#1°Kor°2,9; vgl.°Jes 64,3}.^pWahrhaftig, in der Beobachtung deiner Gebote liegt bereits reicher Lohn. Dabei ist nicht nur dieses erste und höchste Gebot gut für die Menschen, die ihm gehorchen – nicht für Gott, der es gegeben hat –, auch die übrigen Gebote machen die Menschen, die ihnen gehorchen, vollkommen, zieren und erleuchten sie, machen sie gut und zuletzt glücklich.^pWenn du es also begreifst, erkenne, dass du zur Ehre Gottes und zu deinem ewigen Heil erschaffen bist, dass dies dein Ziel ist, dies die Mitte deiner Seele, der Schatz deines Herzens. Wenn du an dieses Ziel gelangst, bist du selig, unglücklich aber, wenn du es verfehlst.^pDarum halte alles für gut, was dich deinem Ziel näherbringt, für schlecht, was dich am Ziel vorbeiführt. Glück und Unglück, Reichtum und Armut, Gesundheit und Krankheit sind nach der Auffassung der Weisen an und für sich weder zu begehren noch zu fliehen. Vielmehr, wenn sie zur Ehre Gottes und zu deinem ewigen Glück beitragen, sind sie gut und zu begehren. Sind sie dem aber im Weg, dann sind sie schlecht, und wir sollen sie fliehen.",
           "patr_resp1": "Inmitten der Kirche öffnete der Herr ihm den Mund.",
           "patr_resp2": "Er hat ihn erfüllt mit dem Geist der Weisheit und des Verstandes.",
           "patr_resp3": "Jubel und Freude ließ er ihn finden."

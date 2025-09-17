@@ -5623,7 +5623,7 @@ export const brevierData = {
         },
         "Invitatorium": {
           "ant0": "Christus, den Herrn, der im Evangelium spricht – kommt, wir beten ihn an!^Ö",
-          "ant0_lat": ""
+          "ant0_lat": "Dóminum in Evangélio loquéntem, veníte adorémus.^LÖ"
         },
         "Lesehore": {
           "les_buch": "Aus dem Brief an die Epheser.",
