@@ -706,7 +706,7 @@ export const adlibData = {
         "major": {
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
-          "oration": " Allmächtiger und barmherziger Gott, mit deiner Hilfe hat der heilige Bischof Valentinus die Qualen des Martyriums ausgehalten. Hilf uns, die wir seinen Sieg feiern, durch deinen mächtigen Schutz, damit wir in allen Angriffen des Feindes bestehen können.^ORV",
+          "oration": "Allmächtiger und barmherziger Gott, mit deiner Hilfe hat der heilige Bischof Valentinus die Qualen des Martyriums ausgehalten. Hilf uns, die wir seinen Sieg feiern, durch deinen mächtigen Schutz, damit wir in allen Angriffen des Feindes bestehen können.^ORV",
           "oration_lat": "Omnípotens et miséricors Deus, qui mártyrem tuum Valentínum epíscopum passiónis suæ torménta superáre fecísti, concéde, ut, qui eius triúmphi diem celebrámus, insuperábiles tua protectióne ab hostis insídiis maneámus.^ORlV"
         },
         "Lesehore": {
@@ -814,6 +814,28 @@ export const adlibData = {
         "Vesper": {
           "antev": "Ich preise dich, Herr, allmächtiger Gott. Du nahmst mich auf in die Schar deiner Märtyrer und gabst mir Anteil am Kelch deines Gesalbten.",
           "antev_lat": "Dómine Deus omnípotens, benedíco tibi, quóniam dignum me fecísti, ut in número mártyrum accíperem partem cálicis Christi tui."
+        }
+      }
+    },
+    "24": {
+      "eig": {
+        "each": {
+          "comm_1": "Apostel",
+          "oration": "Gott, du kennst die Herzen aller Menschen; du hast es gefügt, dass der heilige Matthias zum Kollegium der Apostel hinzugewählt wurde. Deine Liebe lenke auch unseren Weg und reihe uns ein in die Schar deiner Auserwählten.^ORV",
+          "oration_lat": "Deus, qui beátum Matthíam Apostolórum collégio sociásti, eius nobis interventióne concéde, ut, dilectiónis tuæ sorte gaudéntes, cum eléctis numerári mereámur.^ORlV"
+        },
+        "Lesehore": {
+          "hymn_1_lat": 8224.0
+        },
+        "Laudes": {
+          "button": "Hl. Matthias",
+          "farbe": "r",
+          "antev": "Einer von den Männern, die mit uns zusammen waren in der Zeit, als der Herr Jesus bei uns ein und aus ging – einer von diesen muss mit uns Zeuge für seine Auferstehung sein.",
+          "antev_lat": "Opórtet ex his viris, qui nobíscum sunt congregáti in omni témpore quo intrávit et exívit inter nos Dóminus Iesus, testem resurrectiónis eius nobíscum fíeri unum ex istis.^LÖ"
+        },
+        "Vesper": {
+          "antev": "Nicht ihr habt mich erwählt, sondern ich habe euch erwählt, damit ihr hingeht und Frucht bringt und eure Frucht bleibt.",
+          "antev_lat": "Non vos me elegístis, sed ego elégi vos et pósui vos, ut eátis et fructum afferátis, et fructus vester máneat.^LÖ"
         }
       }
     },
@@ -1615,6 +1637,27 @@ export const adlibData = {
         }
       }
     },
+    "25": {
+      "eig": {
+        "each": {
+          "comm_1": "Apostel_Evang",
+          "oration": "Herr, unser Gott, du hast den heiligen Markus auserwählt, durch das Wort des Evangeliums dein Heil zu verkünden. Gib, dass wir gläubig auf die Botschaft hören und unserem Herrn Jesus Christus in Treue nachfolgen,^ORR",
+          "oration_lat": "Deus, qui beátum Marcum evangelístam tuum evangélicæ prædicatiónis grátia sublimásti, tríbue, quǽsumus, eius nos eruditióne ita profícere, ut vestígia Christi fidéliter sequámur.^ORlV"
+        },
+        "Laudes": {
+          "button": "Hl. Markus",
+          "farbe": "r",
+          "antev": "Durch die Gnade Jesu Christi wurden den Völkern Lehrer gesandt und Evangelisten, um ihrem Glauben zu dienen.^Ö",
+          "antev_lat": "Iesu Christi grátia, credéntibus pópulis doctóres et evangelístæ sunt in ministério fídei missi.^LÖ",
+          "hymn_1_lat": 8425.0
+        },
+        "Vesper": {
+          "antev": "In Ewigkeit bleibt das Wort des Herrn, das Evangelium, das euch verkündet worden ist.^Ö",
+          "antev_lat": "Verbum Dómini manet in ætérnum: hoc est autem verbum, quod evangelizátum est in vos.^LÖ",
+          "hymn_1_lat": 8425.0
+        }
+      }
+    },
     "27": {
       "eig": {
         "major": {
@@ -1676,7 +1719,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Hirten",
-          "oration": "Herr, unser Gott, du hast den heiligen Papst Pius berufen, in deiner Kirche den Glauben zu schützen und die Liturgie zu erneuern. Auf seine Fürsprache gewähre uns, dass wir die Mysterien des Heiles in lebendigem Glauben feiern und Frucht bringen in Werken der Liebe.^ORV"
+          "oration": "Herr, unser Gott, du hast den heiligen Papst Pius berufen, in deiner Kirche den Glauben zu schützen und die Liturgie zu erneuern. Auf seine Fürsprache gewähre uns, dass wir die Mysterien des Heiles in lebendigem Glauben feiern und Frucht bringen in Werken der Liebe.^ORV",
+          "oration_lat": "Deus, qui in Ecclésia tua beátum Pium papam ad fidem tuéndam ac te dígnius coléndum próvidus excitásti, da nobis, ipso intercedénte, vívida fide ac fructuósa caritáte mysteriórum tuórum esse partícipes.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Augustinus (†°430)",
@@ -1700,7 +1744,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Hirten_Kl",
           "comm_2": "Hirten",
-          "oration": "Allmächtiger, ewiger Gott, du hast dem heiligen Bischof Athanasius den Geist der Kraft und der Stärke verliehen, so dass er die Lehre von der wahren Gottheit deines Sohnes unerschrocken verteidigte. Höre auf die Fürsprache dieses heiligen Bekenners. Hilf uns, an der Botschaft festzuhalten, die er verkündet hat, und gib, dass wir unter seinem Schutz dich tiefer erkennen und inniger lieben.^ORV"
+          "oration": "Allmächtiger, ewiger Gott, du hast dem heiligen Bischof Athanasius den Geist der Kraft und der Stärke verliehen, so dass er die Lehre von der wahren Gottheit deines Sohnes unerschrocken verteidigte. Höre auf die Fürsprache dieses heiligen Bekenners. Hilf uns, an der Botschaft festzuhalten, die er verkündet hat, und gib, dass wir unter seinem Schutz dich tiefer erkennen und inniger lieben.^ORV",
+          "oration_lat": "Omnípotens sempitérne Deus, qui beátum Athanásium epíscopum divinitátis Fílii tui propugnatórem exímium suscitásti, concéde propítius, ut, eius doctrína et protectióne gaudéntes, in tui cognitióne et amóre sine intermissióne crescámus.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Athanasius (der Große) (†°373)",
@@ -1722,7 +1767,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "MärtPl",
-          "oration": "Großer und starker Gott, du hast dem heiligen Florian und seinen Gefährten die Gnade geschenkt, den Glauben an Christus durch ihr Sterben zu bezeugen. Gewähre uns auf ihre Fürsprache Schutz und Hilfe und gib auch uns den Mut, den Glauben unerschrocken zu bekennen.^ORV"
+          "oration": "Großer und starker Gott, du hast dem heiligen Florian und seinen Gefährten die Gnade geschenkt, den Glauben an Christus durch ihr Sterben zu bezeugen. Gewähre uns auf ihre Fürsprache Schutz und Hilfe und gib auch uns den Mut, den Glauben unerschrocken zu bekennen.^ORV",
+          "oration_lat": "comm:"
         },
         "Lesehore": {
           "patr_autor": "LEER",
@@ -1765,7 +1811,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Hirten_Kl",
           "comm_2": "Hirten",
-          "oration": "Gott, im heiligen Johannes von Ávila hast du den Priestern und dem ganzen Volk Gottes einen herausragenden Lehrer der Heiligkeit und des aufrichtigen Dienstes gegeben. Hilf, dass die Kirche auch in unserer Zeit durch die Einsatzbereitschaft deiner Diener in der Heiligkeit wachse.^ORV"
+          "oration": "Gott, im heiligen Johannes von Ávila hast du den Priestern und dem ganzen Volk Gottes einen herausragenden Lehrer der Heiligkeit und des aufrichtigen Dienstes gegeben. Hilf, dass die Kirche auch in unserer Zeit durch die Einsatzbereitschaft deiner Diener in der Heiligkeit wachse.^ORV",
+          "oration_lat": "Deus, qui sanctum Ioánnem De Avila clero populóque tuo magístrum præstantíssimum dedísti ob sanctitátem et sedulitátem vitæ, præsta, quǽsumus, ut nostris étiam tempóribus Ecclésia sanctitáte augéscat propter óptimam tuórum ministrórum sedulitátem.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Johannes von Avila",
@@ -1777,7 +1824,8 @@ export const adlibData = {
       "n2": {
         "major": {
           "comm_1": "Mann_Ord",
-          "oration": "Barmherziger Gott, du hast uns im heiligen Damian ein leuchtendes Beispiel der Liebe zu den Armen und Verlassenen geschenkt. Auf seine Fürsprache gewähre auch uns die Gnade, den Hilfsbedürftigen und Ausgestoßenen zu dienen, angetrieben durch die Liebe des Herzens deines Sohnes, unseres Herrn Jesus Christus,^ORR"
+          "oration": "Barmherziger Gott, du hast uns im heiligen Damian ein leuchtendes Beispiel der Liebe zu den Armen und Verlassenen geschenkt. Auf seine Fürsprache gewähre auch uns die Gnade, den Hilfsbedürftigen und Ausgestoßenen zu dienen, angetrieben durch die Liebe des Herzens deines Sohnes, unseres Herrn Jesus Christus,^ORR",
+          "oration_lat": "comm:"
         },
         "Laudes": {
           "button": "Hl. Damian de Veuster",
@@ -1791,7 +1839,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "MärtPl",
-          "oration": "Allmächtiger Gott, deine heiligen Märtyrer Nereus und Achilleus haben dich bis in den Tod mutig bekannt. Auf ihre Fürsprache hin stärke unseren Glauben und unsere Treue, damit auch wir ausharren bis ans Ende.^ORV"
+          "oration": "Allmächtiger Gott, deine heiligen Märtyrer Nereus und Achilleus haben dich bis in den Tod mutig bekannt. Auf ihre Fürsprache hin stärke unseren Glauben und unsere Treue, damit auch wir ausharren bis ans Ende.^ORV",
+          "oration_lat": "Præsta, quǽsumus, omnípotens Deus, ut, qui gloriósos mártyres Néreum et Achílleum fortes in sua confessióne cognóvimus, pios apud te in nostra intercessióne sentiámus.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Augustinus (†°430)",
@@ -1809,7 +1858,8 @@ export const adlibData = {
       "n2": {
         "major": {
           "comm_1": "MärtSg",
-          "oration": "Gott, höre auf die Fürsprache des heiligen Märtyrers Pankratius, dessen Gedenktag wir in Freude feiern. Schenke deiner Kirche Zuversicht und Gelassenheit, damit sie sich in der Bedrängnis nicht fürchte, sondern ausharre im Vertrauen auf Christus Jesus, unseren Herrn und Gott,^ORR"
+          "oration": "Gott, höre auf die Fürsprache des heiligen Märtyrers Pankratius, dessen Gedenktag wir in Freude feiern. Schenke deiner Kirche Zuversicht und Gelassenheit, damit sie sich in der Bedrängnis nicht fürchte, sondern ausharre im Vertrauen auf Christus Jesus, unseren Herrn und Gott,^ORR",
+          "oration_lat": "Lætétur Ecclésia tua, Deus, beáti Pancrátii mártyris confísa suffrágiis, atque, eius précibus gloriósis, et devóta permáneat, et secúra consístat.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Bernhard von Clairvaux (†°1153)",
@@ -1829,7 +1879,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Maria",
-          "oration": "Gott, unser Vater, du hast die Mutter deines Sohnes auch uns zur Mutter gegeben. Gewähre uns, dass wir in Buße und Gebet für das Heil der Welt verharren und von Tag zu Tag wirk­samer zum Kommen des Reiches Christi beitragen.^ORV"
+          "oration": "Gott, unser Vater, du hast die Mutter deines Sohnes auch uns zur Mutter gegeben. Gewähre uns, dass wir in Buße und Gebet für das Heil der Welt verharren und von Tag zu Tag wirk­samer zum Kommen des Reiches Christi beitragen.^ORV",
+          "oration_lat": "Deus, qui Genetrícem Fílii tui Matrem quoque nostram constituísti, concéde nobis, ut, in pæniténtia et oratióne pro mundi salúte perseverántes, in dies valeámus regnum Christi efficácius promovére.^ORlV"
         },
         "Laudes": {
           "button": "Unsere Liebe Frau in Fatima",
@@ -1842,7 +1893,8 @@ export const adlibData = {
         "major": {
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
-          "oration": "Allmächtiger, ewiger Gott, du hast dem heiligen Johannes Nepomuk geholfen, bis zur Hingabe seines Lebens die Rechte der Kirche zu verteidigen. Auf seine Fürbitte hin gib uns den Mut, für Gerechtigkeit und Wahrheit einzutreten.^ORV"
+          "oration": "Allmächtiger, ewiger Gott, du hast dem heiligen Johannes Nepomuk geholfen, bis zur Hingabe seines Lebens die Rechte der Kirche zu verteidigen. Auf seine Fürbitte hin gib uns den Mut, für Gerechtigkeit und Wahrheit einzutreten.^ORV",
+          "oration_lat": "comm:"
         },
         "Lesehore": {
           "patr_autor": "Gregor der Große (†°604)",
@@ -1865,7 +1917,8 @@ export const adlibData = {
         "major": {
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
-          "oration": "Gott, du selbst bist der Lohn deiner getreuen Knechte; wir ehren die Verdienste des Bekennerpapstes Johannes, den du am heutigen Tag zu dir heimgerufen hast. Auf seine Fürsprache gib auch uns einen festen Glauben und Geduld in aller Bedrängnis.^ORV"
+          "oration": "Gott, du selbst bist der Lohn deiner getreuen Knechte; wir ehren die Verdienste des Bekennerpapstes Johannes, den du am heutigen Tag zu dir heimgerufen hast. Auf seine Fürsprache gib auch uns einen festen Glauben und Geduld in aller Bedrängnis.^ORV",
+          "oration_lat": "Deus, fidélium remunerátor animárum, qui hunc diem beáti Ioánnis papæ martýrio consecrásti, exáudi preces pópuli tui, et præsta, ut, qui eius mérita venerámur, fídei constántiam imitémur.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Johannes von Ávila (†°1569)",
@@ -1888,7 +1941,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Hirten",
           "comm_2": "Mann_Ord",
-          "oration": "Gott und Vater unseres Herrn Jesus Christus, du hast im heiligen Bernhardin von Siena der Kirche einen großen Prediger geschenkt und ihm eine besondere Liebe zum Namen Jesus gegeben. Blicke auf sein heiliges Wirken und schenke uns auf seine Fürsprache die Liebe zu diesem Namen, der über allen Namen ist.^ORV"
+          "oration": "Gott und Vater unseres Herrn Jesus Christus, du hast im heiligen Bernhardin von Siena der Kirche einen großen Prediger geschenkt und ihm eine besondere Liebe zum Namen Jesus gegeben. Blicke auf sein heiliges Wirken und schenke uns auf seine Fürsprache die Liebe zu diesem Namen, der über allen Namen ist.^ORV",
+          "oration_lat": "Deus, qui beáto Bernardíno presbýtero sancti nóminis Iesu amórem exímium tribuísti, eius méritis precibúsque concéde, ut spíritus nos semper tuæ dilectiónis accéndat.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Bernhardin von Siena (†°1444)",
@@ -1910,7 +1964,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Mann_Ord",
-          "oration": "Herr, unser Gott, du hast dem heiligen Hermann Josef die Gabe geschenkt, im betrachtenden Gebet deine Geheimnisse zu erfahren und durch seinen Rat viele Menschen in ihrer Not aufzurichten. Hilf uns auf seine Fürsprache, den rechten Weg zu erkennen, und führe uns zur Offenbarung deiner Herrlichkeit.^ORV"
+          "oration": "Herr, unser Gott, du hast dem heiligen Hermann Josef die Gabe geschenkt, im betrachtenden Gebet deine Geheimnisse zu erfahren und durch seinen Rat viele Menschen in ihrer Not aufzurichten. Hilf uns auf seine Fürsprache, den rechten Weg zu erkennen, und führe uns zur Offenbarung deiner Herrlichkeit.^ORV",
+          "oration_lat": "comm:"
         },
         "Lesehore": {
           "patr_autor": "Hermann Josef (†°1241)",
@@ -1931,7 +1986,8 @@ export const adlibData = {
         "major": {
           "comm_1": "MärtPl",
           "comm_2": "Hirten",
-          "oration": "Allmächtiger, ewiger Gott, du hast den heiligen Priester Christophorus Magallanes und seine Gefährten in der Treue zu Christus, dem König, bis zum Märtyrertod bewahrt. Auf ihre Fürsprache gewähre uns , dass wir im Bekenntnis des wahren Glaubens verharren und die Kraft haben, immer an den Geboten deiner Liebe festzuhalten.^ORV"
+          "oration": "Allmächtiger, ewiger Gott, du hast den heiligen Priester Christophorus Magallanes und seine Gefährten in der Treue zu Christus, dem König, bis zum Märtyrertod bewahrt. Auf ihre Fürsprache gewähre uns , dass wir im Bekenntnis des wahren Glaubens verharren und die Kraft haben, immer an den Geboten deiner Liebe festzuhalten.^ORV",
+          "oration_lat": "Omnípotens ætérne Deus, qui beátos Christóphorum, presbýterum, et sócios Christo Regi usque ad martýrium fidéles effecísti, eórum intercessióne nobis concéde, ut, in veræ fídei perseverántes confessióne amóris tui mandátis semper inhærére valeámus.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Christopher Magallanes und Gefährten",
@@ -1943,7 +1999,8 @@ export const adlibData = {
       "n3": {
         "major": {
           "comm_1": "Hirten",
-          "oration": "Gott, du hast den heiligen Bischof Eugen mit dem Eifer und dem Mut der Apostel erfüllt. So hat er Menschen und Völkern die Frohe Botschaft verkündet. Durchdringe auch uns mit diesem Geist; lass uns treue Diener deiner Kirche sein und mit ganzer Kraft zum Heil der Menschen wirken.^ORV"
+          "oration": "Gott, du hast den heiligen Bischof Eugen mit dem Eifer und dem Mut der Apostel erfüllt. So hat er Menschen und Völkern die Frohe Botschaft verkündet. Durchdringe auch uns mit diesem Geist; lass uns treue Diener deiner Kirche sein und mit ganzer Kraft zum Heil der Menschen wirken.^ORV",
+          "oration_lat": "comm:"
         },
         "Laudes": {
           "button": "Hl. Eugen von Mazenod",
@@ -1956,7 +2013,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Frau_Ord",
-          "oration": "Schenke uns, so bitten wir, Herr, die Weisheit des Kreuzes und die Kraft, mit denen du die heilige Rita ausgezeichnet hast, damit wir, wenn wir mit Christus in Bedrängnis leiden, um so tiefer an seinem österlichen Geheimnis teilhaben,^ORR"
+          "oration": "Schenke uns, so bitten wir, Herr, die Weisheit des Kreuzes und die Kraft, mit denen du die heilige Rita ausgezeichnet hast, damit wir, wenn wir mit Christus in Bedrängnis leiden, um so tiefer an seinem österlichen Geheimnis teilhaben,^ORR",
+          "oration_lat": "Largíre nobis, quǽsumus, Dómine, sapiéntiam crucis et fortitúdinem, quibus beátam Ritam ditáre dignátus es, ut, in tribulatióne cum Christo patiéntes, pascháli eius mystério intímius participáre valeámus.^ORlR"
         },
         "Laudes": {
           "button": "Hl. Rita von Cascia",
@@ -1969,7 +2027,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Maria",
-          "oration": "Gott, du hast die Mutter deines geliebten Sohnes zur Mutter und Helferin des christlichen Volkes bestellt. Gib, dass wir unter ihrem Schutz geborgen sind und dass sich die Kirche eines dauerhaften Friedens erfreut.^ORvR"
+          "oration": "Gott, du hast die Mutter deines geliebten Sohnes zur Mutter und Helferin des christlichen Volkes bestellt. Gib, dass wir unter ihrem Schutz geborgen sind und dass sich die Kirche eines dauerhaften Friedens erfreut.^ORvR",
+          "oration_lat": "Omnípotens et miséricors Deus, qui ad defensiónem pópuli christiáni in beatíssima Vírgine María perpétuum auxílium mirabíiter constituísti, concéde propítius, ut, tali præsídio muníti certántes in vita, victóriam de hoste malígno cónsequi valeámus in morte.^ORlV"
         },
         "Laudes": {
           "button": "Hl. Maria, Hilfe der Christen",
@@ -1982,7 +2041,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Hirten_Kl",
           "comm_2": "Mann_Ord",
-          "oration": "Herr, unser Gott, du hast deine Kirche durch die fromme Gelehrsamkeit des heiligen Beda erleuchtet. Sein Fleiß sei uns ein Beispiel, seine Weisheit Licht, sein Leben ein steter Ansporn.^ORV"
+          "oration": "Herr, unser Gott, du hast deine Kirche durch die fromme Gelehrsamkeit des heiligen Beda erleuchtet. Sein Fleiß sei uns ein Beispiel, seine Weisheit Licht, sein Leben ein steter Ansporn.^ORV",
+          "oration_lat": "Deus, qui Ecclésiam tuam beáti Bedæ presbýteri eruditióne claríficas, fámulis tuis concéde propítius, et eius semper illustrári sapiéntia, et méritis adiuvári.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Cuthbert (8. Jh.)",
@@ -2003,7 +2063,8 @@ export const adlibData = {
       "n2": {
         "major": {
           "comm_1": "Hirten",
-          "oration": "Herr, unser Gott, du hast den heiligen Papst Gregor ausgezeichnet durch Starkmut und Eifer für die Gerechtigkeit. Gib auch heute deiner Kirche den Mut, dem Unrecht entgegenzutreten und das Rechte mit Freimut und Liebe zu tun.^ORV"
+          "oration": "Herr, unser Gott, du hast den heiligen Papst Gregor ausgezeichnet durch Starkmut und Eifer für die Gerechtigkeit. Gib auch heute deiner Kirche den Mut, dem Unrecht entgegenzutreten und das Rechte mit Freimut und Liebe zu tun.^ORV",
+          "oration_lat": "Da Ecclésiæ tuæ, quǽsumus, Dómine, spíritum fortitúdinis zelúmque iustítiæ, quibus beátum Gregórium papam claréscere voluísti, ut, iniquitátem réprobans, quæcúmque recta sunt líbera exérceat caritáte.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Gregor VII. (†°1085)",
@@ -2023,7 +2084,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Jgfr",
           "comm_2": "Frau_Ord",
-          "oration": "Gott, immer wieder berufst du Menschen zur ungeteilten Hingabe an dich in einem jungfräulichen Leben. Du hast die heilige Maria Magdalena von Pazzi mit deiner Liebe erfüllt, so dass sie sich als Ordensfrau in Werken der Buße und im Dienst an den Menschen verzehrte. Hilf uns, ihr Beispiel zu begreifen und die Lauterkeit ihrer Liebe nachzuahmen.^ORV"
+          "oration": "Gott, immer wieder berufst du Menschen zur ungeteilten Hingabe an dich in einem jungfräulichen Leben. Du hast die heilige Maria Magdalena von Pazzi mit deiner Liebe erfüllt, so dass sie sich als Ordensfrau in Werken der Buße und im Dienst an den Menschen verzehrte. Hilf uns, ihr Beispiel zu begreifen und die Lauterkeit ihrer Liebe nachzuahmen.^ORV",
+          "oration_lat": "Deus, virginitátis amátor, qui beátam Maríam Magdalénam vírginem, tuo amóre succénsam, donis cæléstibus decorásti, da ut, quam hódie venerámur, eius puritátis caritatísque imitémur exémpla.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "LEER",
@@ -2046,7 +2108,8 @@ export const adlibData = {
         "major": {
           "comm_1": "Hirten",
           "comm_2": "Mann_Ord",
-          "oration": "Gott, du hast im Leben deines Dieners Philipp Neri den Glanz deiner Heiligkeit aufleuchten lassen. Gib uns eine brennende Liebe, wie er sie im Herzen trug, und die Heiterkeit des Geistes, die ihn zum Boten deiner Freude gemacht hat.^ORV"
+          "oration": "Gott, du hast im Leben deines Dieners Philipp Neri den Glanz deiner Heiligkeit aufleuchten lassen. Gib uns eine brennende Liebe, wie er sie im Herzen trug, und die Heiterkeit des Geistes, die ihn zum Boten deiner Freude gemacht hat.^ORV",
+          "oration_lat": "Deus, qui fidéles tibi servos sanctitátis glória sublimáre non desístis, concéde propítius, ut illo nos igne Spíritus Sanctus inflámmet, quo beáti Philíppi cor mirabíliter penetrávit.^ORlV"
         },
         "Lesehore": {
           "patr_autor": "Augustinus (†°430)",
@@ -2068,7 +2131,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Hirten",
-          "oration": "Gott, du Herr aller Völker, durch die Predigt des heiligen Bischofs Augustinus von Canterbury hast du den Bewohnern von England das Licht des Evangeliums gebracht. Gib, dass sein apostolisches Werk immer neue Frucht bringt in deiner Kirche.^ORV"
+          "oration": "Gott, du Herr aller Völker, durch die Predigt des heiligen Bischofs Augustinus von Canterbury hast du den Bewohnern von England das Licht des Evangeliums gebracht. Gib, dass sein apostolisches Werk immer neue Frucht bringt in deiner Kirche.^ORV",
+          "oration_lat": "Deus, qui beáti Augustíni epíscopi prædicatióne Anglórum gentes ad Evangélium perduxísti, tríbue, quǽsumus, ut eius labórum fructus in Ecclésia tua perénni fecunditáte persístant."
         },
         "Lesehore": {
           "patr_autor": "Gregor der Große (†°604)",
@@ -2089,7 +2153,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Hirten",
-          "oration": "Gott, du hast dem heiligen Papst Paul aufgetragen, als unermüdlicher Apostel des Evangeliums deine Kirche zu leiten. Hilf uns, dass wir im Licht seiner Weisungen mitwirken, eine Kultur der Liebe in der ganzen Welt zu verbreiten.^ORV"
+          "oration": "Gott, du hast dem heiligen Papst Paul aufgetragen, als unermüdlicher Apostel des Evangeliums deine Kirche zu leiten. Hilf uns, dass wir im Licht seiner Weisungen mitwirken, eine Kultur der Liebe in der ganzen Welt zu verbreiten.^ORV",
+          "oration_lat": "Deus, qui Ecclésiam tuam regéndam beáto Paulo papæ commisísti, strénuo Fílii tui Evangélii apóstolo, præsta, quǽsumus, ut, ab eius institútis illumináti, ad civílem amóris cultum in mundum dilatándum tibi collaboráre valeámus."
         },
         "Laudes": {
           "button": "Hl. Paul VI.",
@@ -2315,6 +2380,35 @@ export const adlibData = {
         }
       }
     },
+    "11": {
+      "eig": {
+        "major": {
+          "comm_1": "Apostel_Evang",
+          "oration": "Gott, du hast den heiligen Barnabas, einen Mann voll des Glaubens und des Heiligen Geistes, als Boten des Evangeliums zu den Heiden gesandt. Berufe auch heute Männer und Frauen, die in Wort und Tat die Botschaft Jesu Christi verkünden,^ORR",
+          "oration_lat": "Deus, qui beátum Bárnabam, plenum fide et Spíritu Sancto, ad géntium conversiónem segregáre præcepísti, concéde, ut Evangélium Christi, quod strénue prædicávit, ore et ópere fidéliter nuntiétur.^ORlV"
+        },
+        "Lesehore": {
+          "patr_autor": "Chromatius von Aquileia († 407)",
+          "patr_werk": "Aus einer Auslegung zum Matthäusevangelium.",
+          "patr_text": "^hIhr seid das Licht der Welt^p„Ihr seid das Licht der Welt. Eine Stadt, die auf einem Berg liegt, kann nicht verborgen bleiben. Man zündet auch nicht ein Licht an und stülpt ein Gefäß darüber, sondern man stellt es auf den Leuchter; dann leuchtet es allen im Haus.“{1#Mt 5,14-15} Der Herr hat seine Jünger „Salz der Erde“ genannt. Durch den Teufel war das Herz der Menschen schal geworden. Die Jünger würzten es mit der Weisheit vom Himmel. Hier nennt er sie „Licht der Welt“, weil auch sie, von ihm, dem wahren und ewigen Licht, erleuchtet, Licht für die Finsternis geworden sind.^pWeil er selbst die „Sonne der Gerechtigkeit“ ist{2#Mal 3,20}, nennt er auch seine Jünger nicht zu Unrecht „Licht der Welt“. Durch sie sendet er gleichsam in glänzenden Strahlen dem ganzen Erdkreis das Licht seiner Erkenntnis; denn sie vertreiben aus dem Herzen der Menschen die Finsternis des Irrtums, indem sie das Licht der Wahrheit aufscheinen lassen.^pDurch sie sind auch wir erleuchtet und aus Finsternis Licht geworden, wie der Apostel sagt: „Einst wart ihr Finsternis, jetzt aber seid ihr durch den Herrn Licht geworden. Lebt als Kinder des Lichtes!“{3#Eph 5,8} und wieder: „Ihr leuchtet wie Lichter in der Welt und haltet fest am Wort des Lebens.“{4#Phil 2,15-16}^pTäten wir das nicht, so müsste es scheinen, als versteckten und verdunkelten wir durch unsere Untreue wie unter einem Schleier das so notwendige und nützliche Licht zu unserem Schaden und zum Schaden anderer. So hat auch jener Knecht, der das eine Talent erhalten hatte, um damit zum Vorteil des Himmels zu arbeiten, sich die schuldige Strafe zugezogen. Denn er hatte das Talent vergraben, statt es auf die Bank zu bringen{5#vgl.°Mt 25,26-27}.^pDarum muss die strahlende Lampe, die zu unserem Heil angezündet wurde, immer in uns leuchten. Wir haben die Lampe des göttlichen Gebotes und der Gnade, von der David erklärt: „Dein Wort ist meinem Fuß eine Leuchte, ein Licht für meine Pfade.“{6#Ps 119,105} Salomo sagt darüber: „Eine Leuchte ist das Gebot, und die Lehre ein Licht.“{7#Spr 6,23}^pWir dürfen also diese Lampe des Gesetzes und des Glaubens nicht verstecken, müssen sie vielmehr zum Heil der Vielen allzeit in der Kirche auf einen Leuchter stellen, damit wir selbst das Licht der Wahrheit genießen und damit alle Gläubigen erleuchtet werden.",
+          "patr_resp1": "Als Barnabas nach Antiochia kam und die Gnade Gottes erkannte, freute er sich;",
+          "patr_resp2": "denn er war ein trefflicher Mann, erfüllt vom Heiligen Geist und reich an Glauben.",
+          "patr_resp3": "Alle ermahnte er, dem Herrn treu zu bleiben."
+        },
+        "Laudes": {
+          "button": "Hl. Barnabas",
+          "farbe": "r",
+          "antev": "Barnabas zog nach Tarsus. Er suchte Saulus auf und nahm ihn mit nach Antiochia. Dort wirkten sie in der Gemeinde und verkündeten das Wort des Herrn.^Ö",
+          "antev_lat": "Proféctus est Bárnabas Tarsum, ut quǽreret Saulum; quem cum invenísset, perdúxit Antiochíam; et conversáti sunt ibi in Ecclésia, et docuérunt turbam multam.^LÖ",
+          "hymn_1_lat": 8611.0
+        },
+        "Vesper": {
+          "antev": "Die ganze Versammlung schwieg. Und Barnabas und Paulus erzählten, welch große Zeichen und Wunder Gott durch sie getan hatte unter den Heiden.^Ö",
+          "antev_lat": "Tácuit omnis multitúdo, et audiébant Bárnabam et Paulum narrántes quanta Deus fecísset signa et prodígia in géntibus per eos.^LÖ",
+          "hymn_1_lat": 8611.0
+        }
+      }
+    },
     "13": {
       "eig": {
         "major": {
@@ -2344,7 +2438,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "MärtSg",
-          "oration": "Barmherziger Gott, mit deiner Kraft hat der heilige Vitus in jugendlichem Alter die Qualen des Martyriums bestanden. Wir ehren sein Andenken und empfehlen dir alle, deren Glaube bedroht ist. Stärke sie in der Hoffnung und festige sie in der Liebe.^ORV"
+          "oration": "Barmherziger Gott, mit deiner Kraft hat der heilige Vitus in jugendlichem Alter die Qualen des Martyriums bestanden. Wir ehren sein Andenken und empfehlen dir alle, deren Glaube bedroht ist. Stärke sie in der Hoffnung und festige sie in der Liebe.^ORV",
+          "oration_lat": "comm:"
         },
         "Lesehore": {
           "patr_autor": "LEER",
@@ -2364,7 +2459,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Hirten",
-          "oration": "Treuer Gott, du hast dem heiligen Bischof Benno den Mut gegeben, in den Wirren seiner Zeit unbeirrt den Weg des Glaubens zu gehen. Zeige auch uns deine Wege und stärke unser Vertrauen auf deine Hilfe.^ORV"
+          "oration": "Treuer Gott, du hast dem heiligen Bischof Benno den Mut gegeben, in den Wirren seiner Zeit unbeirrt den Weg des Glaubens zu gehen. Zeige auch uns deine Wege und stärke unser Vertrauen auf deine Hilfe.^ORV",
+          "oration_lat": "comm:"
         },
         "Lesehore": {
           "patr_autor": "Gregor der Große (†°604)",
@@ -2472,7 +2568,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Hirten",
-          "oration": "Gott, du hast in deiner Kirche den heiligen Priester Josefmaria erwählt, die allgemeine Berufung zur Heiligkeit und zum Apostolat zu verkünden. Gewähre uns auf seine Fürsprache und nach seinem Vorbild, dass wir durch unsere tägliche Arbeit Jesus, deinem Sohn, ähnlich werden und dem Werk der Erlösung mit glühender Liebe dienen.^ORV"
+          "oration": "Gott, du hast in deiner Kirche den heiligen Priester Josefmaria erwählt, die allgemeine Berufung zur Heiligkeit und zum Apostolat zu verkünden. Gewähre uns auf seine Fürsprache und nach seinem Vorbild, dass wir durch unsere tägliche Arbeit Jesus, deinem Sohn, ähnlich werden und dem Werk der Erlösung mit glühender Liebe dienen.^ORV",
+          "oration_lat": "comm:"
         },
         "Laudes": {
           "button": "Hl. Josefmaria Escrivá de Balaguer",
@@ -2505,7 +2602,8 @@ export const adlibData = {
       "n2": {
         "major": {
           "comm_1": "Frau",
-          "oration": "Barmherziger Gott, du lenkst unsere Wege. In schwerer Zeit hat die heilige Hemma (als Landesmutter von Kärnten) für die Bedrückten und Armen gesorgt. Gib auch uns die Kraft, in der Not nicht zu verzweifeln, sondern auf dich zu schauen und Gutes zu tun.^ORV"
+          "oration": "Barmherziger Gott, du lenkst unsere Wege. In schwerer Zeit hat die heilige Hemma (als Landesmutter von Kärnten) für die Bedrückten und Armen gesorgt. Gib auch uns die Kraft, in der Not nicht zu verzweifeln, sondern auf dich zu schauen und Gutes zu tun.^ORV",
+          "oration_lat": "comm:"
         },
         "Lesehore": {
           "patr_autor": "Augustinus (†°430)",
@@ -2599,7 +2697,8 @@ export const adlibData = {
       "n2": {
         "major": {
           "comm_1": "Hirten",
-          "oration": "Allmächtiger Gott, in der Kraft deines Geistes hat der heilige Bischof Otto ungezählte Menschen zum Christlichen Glauben geführt und ihnen die Sakramente des Lebens gespendet. Hilf uns, den Glauben dankbar zu bewahren, den auch wir durch deine Vorsehung empfangen haben.^ORV"
+          "oration": "Allmächtiger Gott, in der Kraft deines Geistes hat der heilige Bischof Otto ungezählte Menschen zum Christlichen Glauben geführt und ihnen die Sakramente des Lebens gespendet. Hilf uns, den Glauben dankbar zu bewahren, den auch wir durch deine Vorsehung empfangen haben.^ORV",
+          "oration_lat": "comm:"
         },
         "Lesehore": {
           "patr_autor": "II. Vatikanisches Konzil (1962–1965)",
@@ -2622,7 +2721,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "Hirten",
-          "oration": "Gott, du bist reich an Erbarmen. Du hast deinem Volk in einer Zeit schwerer Not den heiligen Ulrich als tatkräftigen Bischof geschenkt. Seine Fürbitte helfe uns, die Gefahren unserer Zeit in der Kraft des Glaubens zu bestehen.^ORV"
+          "oration": "Gott, du bist reich an Erbarmen. Du hast deinem Volk in einer Zeit schwerer Not den heiligen Ulrich als tatkräftigen Bischof geschenkt. Seine Fürbitte helfe uns, die Gefahren unserer Zeit in der Kraft des Glaubens zu bestehen.^ORV",
+          "oration_lat": "comm:"
         },
         "Lesehore": {
           "patr_autor": "LEER",
@@ -2688,7 +2788,8 @@ export const adlibData = {
         "major": {
           "comm_1": "MärtSg_Jgfr",
           "comm_2": "Jgfr_Märt",
-          "oration": "Gott, du bist die Quelle der Unschuld und liebst den Adel der Keuschheit. Du hast die heilige Maria Goretti früh zur Vollendung geführt und ihren Kampf um die Reinheit mit dem Martyrium gekrönt. Hilf uns auf ihre Fürspreche, treu und fest zu deinen Geboten zu stehen.^ORV"
+          "oration": "Gott, du bist die Quelle der Unschuld und liebst den Adel der Keuschheit. Du hast die heilige Maria Goretti früh zur Vollendung geführt und ihren Kampf um die Reinheit mit dem Martyrium gekrönt. Hilf uns auf ihre Fürspreche, treu und fest zu deinen Geboten zu stehen.^ORV",
+          "oration_lat": "comm:"
         },
         "Lesehore": {
           "patr_autor": "Pius XII. (†°1958)",
@@ -2731,7 +2832,8 @@ export const adlibData = {
       "n2": {
         "major": {
           "comm_1": "Hirten",
-          "oration": "Allmächtiger Gott, aus Liebe zu deinem Sohn hat der heilige Willibald die Stätten des Lebens Christi aufgesucht und als Glaubensbote unserem Volk das Evangelium verkündet. Hilf uns, im Licht deiner Wahrheit zu leben und treu zu bleiben im Glauben an Jesus Christus, deinen Sohn, unseren Herrn und Gott,^ORR"
+          "oration": "Allmächtiger Gott, aus Liebe zu deinem Sohn hat der heilige Willibald die Stätten des Lebens Christi aufgesucht und als Glaubensbote unserem Volk das Evangelium verkündet. Hilf uns, im Licht deiner Wahrheit zu leben und treu zu bleiben im Glauben an Jesus Christus, deinen Sohn, unseren Herrn und Gott,^ORR",
+          "oration_lat": "comm:"
         },
         "Lesehore": {
           "patr_autor": "Hugeburc (8. Jh.)",
@@ -2808,7 +2910,8 @@ export const adlibData = {
       "n1": {
         "major": {
           "comm_1": "MärtPl",
-          "oration": "Herr, unser Gott, höre auf die Fürsprache der heiligen Könige Knud, Erich und Olaf, die in ihren Ländern die Botschaft von Christus verbreitet haben. Gib, dass wir mit den Völkern des Nordens im Glauben an Christus verbunden bleiben, und stärke in uns allen die Bereitschaft zur Einheit, wie du sie willst.^ORV"
+          "oration": "Herr, unser Gott, höre auf die Fürsprache der heiligen Könige Knud, Erich und Olaf, die in ihren Ländern die Botschaft von Christus verbreitet haben. Gib, dass wir mit den Völkern des Nordens im Glauben an Christus verbunden bleiben, und stärke in uns allen die Bereitschaft zur Einheit, wie du sie willst.^ORV",
+          "oration_lat": "comm:"
         },
         "Lesehore": {
           "patr_autor": "Ambrosius (†°397)",
@@ -3052,7 +3155,8 @@ export const adlibData = {
       "eig": {
         "major": {
           "comm_1": "Frau_Pl",
-          "oration": "Allmächtiger, ewiger Gott, die heilige Marta durfte deinen Sohn in ihr Haus aufnehmen und bewirten. Auf ihre Fürsprache hin mache uns bereit, in unseren Mitmenschen Christus zu dienen, damit wir einst bei dir Aufnahme finden.^ORvR"
+          "oration": "Allmächtiger, ewiger Gott, die heilige Marta durfte deinen Sohn in ihr Haus aufnehmen und bewirten. Auf ihre Fürsprache hin mache uns bereit, in unseren Mitmenschen Christus zu dienen, damit wir einst bei dir Aufnahme finden.^ORvR",
+          "oration_lat": "comm:"
         },
         "Lesehore": {
           "patr_autor": "Augustinus († 430)",
@@ -3636,7 +3740,8 @@ export const adlibData = {
       "eig": {
         "major": {
           "comm_1": "Maria",
-          "oration": "Gott, du hast die Mutter deines Sohnes auch uns zur Mutter gegeben. Wir ehren sie als unsere Königin und vertrauen auf ihre Fürsprache. Lass uns im himmlischen Reich an der Herrlichkeit deiner Kinder teilhaben.^ORV"
+          "oration": "Gott, du hast die Mutter deines Sohnes auch uns zur Mutter gegeben. Wir ehren sie als unsere Königin und vertrauen auf ihre Fürsprache. Lass uns im himmlischen Reich an der Herrlichkeit deiner Kinder teilhaben.^ORV",
+          "oration_lat": "comm:"
         },
         "Lesehore": {
           "patr_autor": "Amadeus von Lausanne († 1159)",
@@ -4069,9 +4174,9 @@ export const adlibData = {
         "Lesehore": {
           "patr_autor": "Augustinus (†°430)",
           "patr_werk": "Aus einer Predigt über das Verhältnis des Bischofs zu seiner Gemeinde.",
-          "patr_text": "^hFür euch bin ich Bischof, mit euch Christ^pSeit auf meinen Schultern die Last des Bischofsamtes liegt, mit dem eine so schwere Verantwortung verbunden ist, erfüllt mich ständig bange Sorge wegen meiner Ehrenstellung. Was mich an meinem Amt schreckt, ist dies: ich könnte vielleicht mehr Freude an dem haben, was an dieser Stellung gefährlich ist, als an dem, was daran Frucht für euer Heil verspricht. Schreckt mich, was ich für euch bin, so tröstet mich, was ich mit euch bin. Für euch bin ich Bischof, mit euch Christ. Das eine ist der Name des Amtes, das ich übernahm, das andere der Name der Gnade, die ich empfing; das eine bedeutet Gefahr, das andere Heil.^pEs ist, als würden wir auf dem weiten Meer unserer Wirksamkeit von einem Sturm dahingetrieben. Denken wir aber daran, durch wessen Blut wir erlöst sind, dann wird uns dieser Gedanke zu einem rettenden Hafen, in den wir einlaufen, und während wir in diesem Amt die ihm eigene Arbeit verrichten, genießen wir in der uns allen gemeinsamen Gnade des Christseins Ruhe. So freut es mich denn mehr, dass ich mit euch erlöst, als dass ich über euch gesetzt bin. Dann bin ich in reicherem Maße euer Knecht im Sinn des Herrn und nicht undenkbar angesichts des Preises, durch den ich euer Mitknecht sein darf. Ich muss den Erlöser lieben und weiß, was er zu Petrus gesagt hat: „Simon, liebst du mich? Weide meine Schafe!“{1#vgl.°Joh°21,15–17} Das sagte er einmal, zweimal, dreimal. Nach der Liebe wurde gefragt und dann die Last auferlegt. Wo die Liebe größer wird, da wird die Last leichter.^p„Wie kann ich dem Herrn all das vergelten, was er mir Gutes getan hat?“{2#Ps 116,12} So will ich denn sagen: Ich vergelte ihm dadurch, dass ich seine Schafe weide! Aber auch das tue „nicht ich, sondern das wirkt die Gnade Gottes zusammen mit mir“{3#1°Kor°15,10}. Wie kann ich mich also je als Vergelter erweisen, da mir die Gnade doch immer zuvorkommt? Und doch erwarten wir Lohn, weil wir ohne Lohn lieben und die Schafe weiden. Wie kann das geschehen? Wie geht das zusammen: Ohne Lohn will ich lieben und weiden, und: Ich verlange Lohn, weil ich weide. Auf keine Weise könnten wir von dem Lohn erwarten, den wir ohne Lohn lieben, wäre er nicht selber der Lohn, er, den wir lieben. Wenn die ‚Vergeltung‘ für unsere Erlösung darin besteht, dass wir die Schafe des Herrn weiden, was sollen wir ihm denn dafür vergelten, dass er uns zu Hirten gemacht hat? Wenn wir sündigen, sind wir schlechte Hirten, was Gott verhüten möge. Gute Hirten sind wir nur durch seine Gnade – und die gewähre er uns!",
+          "patr_text": "^hFür euch bin ich Bischof, mit euch Christ^pSeit auf meinen Schultern die Last des Bischofsamtes liegt, mit dem eine so schwere Verantwortung verbunden ist, erfüllt mich ständig bange Sorge wegen meiner Ehrenstellung. Was mich an meinem Amt schreckt, ist dies: ich könnte vielleicht mehr Freude an dem haben, was an dieser Stellung gefährlich ist, als an dem, was daran Frucht für euer Heil verspricht. Schreckt mich, was ich für euch bin, so tröstet mich, was ich mit euch bin. Für euch bin ich Bischof, mit euch Christ. Das eine ist der Name des Amtes, das ich übernahm, das andere der Name der Gnade, die ich empfing; das eine bedeutet Gefahr, das andere Heil.^pEs ist, als würden wir auf dem weiten Meer unserer Wirksamkeit von einem Sturm dahingetrieben. Denken wir aber daran, durch wessen Blut wir erlöst sind, dann wird uns dieser Gedanke zu einem rettenden Hafen, in den wir einlaufen, und während wir in diesem Amt die ihm eigene Arbeit verrichten, genießen wir in der uns allen gemeinsamen Gnade des Christseins Ruhe. So freut es mich denn mehr, dass ich mit euch erlöst, als dass ich über euch gesetzt bin. Dann bin ich in reicherem Maße euer Knecht im Sinn des Herrn und nicht undankbar angesichts des Preises, durch den ich euer Mitknecht sein darf.^pIch muss den Erlöser lieben und weiß, was er zu Petrus gesagt hat: „Simon, liebst du mich? Weide meine Schafe!“{1#vgl.°Joh°21,15–17} Das sagte er einmal, zweimal, dreimal. Nach der Liebe wurde gefragt und dann die Last auferlegt. Wo die Liebe größer wird, da wird die Last leichter.^p„Wie kann ich dem Herrn all das vergelten, was er mir Gutes getan hat?“{2#Ps 116,12} So will ich denn sagen: Ich vergelte ihm dadurch, dass ich seine Schafe weide! Aber auch das tue „nicht ich, sondern das wirkt die Gnade Gottes zusammen mit mir“{3#1°Kor°15,10}. Wie kann ich mich also je als Vergelter erweisen, da mir die Gnade doch immer zuvorkommt?^pUnd doch erwarten wir Lohn, weil wir ohne Lohn lieben und die Schafe weiden. Wie kann das geschehen? Wie geht das zusammen: ‚Ohne Lohn will ich lieben und weiden‘, und: ‚Ich verlange Lohn, weil ich weide‘?^pAuf keine Weise könnten wir von dem Lohn erwarten, den wir ohne Lohn lieben, wäre er nicht selber der Lohn, er, den wir lieben. Wenn die ‚Vergeltung‘ für unsere Erlösung darin besteht, dass wir die Schafe des Herrn weiden, was sollen wir ihm denn dafür vergelten, dass er uns zu Hirten gemacht hat?^pWenn wir sündigen, sind wir schlechte Hirten, was Gott verhüten möge. Gute Hirten sind wir nur durch seine Gnade – und die gewähre er uns!",
           "patr_resp1": "Dieser ist wahrhaft ein Zeuge; er hat sein Blut für den Namen Christi vergossen.",
-          "patr_resp2": "So gelangte er zum Himmelreich.",
+          "patr_resp2": "So°gelangte er zum Himmelreich.",
           "patr_resp3": "Er fürchtete die Drohungen der Richter nicht und suchte nicht den Ruhm irdischer Würden."
         },
         "Laudes": {
@@ -4642,6 +4747,27 @@ export const adlibData = {
         "Vesper": {
           "antev": "Gottes Brot will ich essen, das Fleisch Jesu Christi, aus Davids Samen stammt, und sein Blut will ich trinken, die unvergängliche Liebe.",
           "antev_lat": "Panem Dei volo, qui est caro Iesu Christi, qui ex sémine David factus est, et potum volo sánguinem ipsíus, qui est cáritas incorruptíbilis."
+        }
+      }
+    },
+    "18": {
+      "eig": {
+        "each": {
+          "comm_1": "Apostel_Evang",
+          "oration": "Herr, unser Gott, du hast den Evangeli­sten Lukas auserwählt, in Wort und Schrift das Geheimnis deiner Liebe zu den Armen zu verkünden. Gib, dass alle, die sich Chri­sten nennen, ein Herz und eine Seele sind, und lass alle Völker der Erde das Heil schauen, das du ihnen bereitet hast.^ORV",
+          "oration_lat": "Dómine Deus, qui beátum Lucam elegísti, ut prædicatióne et scriptis mystérium tuæ in páuperes dilectiónis reveláret, concéde, ut, qui tuo iam nómine gloriántur, cor unum et ánima una esse persevérent, et omnes gentes tuam mereántur vidére salútem.^ORlV"
+        },
+        "Laudes": {
+          "button": "Hl. Lukas",
+          "farbe": "r",
+          "antev": "Lukas, ein Bote des Evangeliums, hat Christus verkündet, das Licht, das aufstrahlt aus der Höhe.",
+          "antev_lat": "Evangélium Christi tradens, sanctus Lucas annuntiávit solem oriéntem ex alto.",
+          "hymn_1_lat": 9018.0
+        },
+        "Vesper": {
+          "antev": "In seinem heiligen Bericht hat Lukas uns Christi Güte und Erbarmen bezeugt. Darum preist ihn heute die ganze Kirche.",
+          "antev_lat": "Beátus Evangelísta Lucas, scriba mansuetúdinis Christi, digne in Ecclésia clarificári méruit.",
+          "hymn_1_lat": 9018.0
         }
       }
     },
