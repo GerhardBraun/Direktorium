@@ -4195,7 +4195,7 @@ export const adlibData = {
           "oration_lat": "Deus, ómnium géntium creátor et salus, qui in Coreána regióne ad cathólicam fidem pópulum adoptiónis mirabíliter vocásti atque sanctórum mártyrum Andréæ, Páuli ac sociórum gloriósa confessióne créscere fecísti, eórum exémplo et intercessióne concéde, ut nos quoque in mandátis tuis usque ad mortem perseveráre valeámus.^ORlV"
         },
         "Laudes": {
-          "button": "Hl. Andreas Kim Taegon, hl. Paulus Chong Hasang und Gefährten",
+          "button": "Hl. Andreas Kim Taegon, hl.°Paulus°Chong°Hasang und°Gefährten",
           "farbe": "r",
           "genitiv": "der heiligen Andreas und Paulus und ihrer Gefährten",
           "genitiv_lat": "sanctórum Andreæ, Pauli et sociórum"
