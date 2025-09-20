@@ -40,8 +40,6 @@ function cleanupZeroReferences(hours) {
     return hours;
 }
 
-// Helper function to determine if we need first vespers
-
 function mergeData(hours, newData, source) {
     if (!newData) return;
 
@@ -219,8 +217,6 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
             addLayer(season, 'even', 'each');
             addLayer(season, 'even', dayOfWeek);
         }
-
-        // Layer 6: Specific day data
         addLayer(season, week, 'each');
         addLayer(season, week, dayOfWeek);
 
@@ -335,9 +331,10 @@ function processCommune(hours, season, targetSource) {
                     }
                 }
 
+                addLayer('each', 'each');
                 addLayer(readComm, 'each');
                 addLayer(readComm, season);
-                addLayer('MFr', addComm);
+                addLayer('each', addComm);
                 addLayer(readComm, addComm);
 
                 // Remove the comm_1/2 field after processing

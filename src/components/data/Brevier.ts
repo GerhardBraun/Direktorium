@@ -4096,7 +4096,7 @@ export const brevierData = {
         }
       }
     },
-    "MFr": {
+    "each": {
       "each": {
         "Vigil": {
           "psalm1": 199.119,
