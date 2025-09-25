@@ -1,5 +1,5 @@
 import { getExcludedHours } from "./ExcludedHours.js";
-import { dataSollemnities } from "../data/Sollemnities.ts";
+import { sollemnitiesData } from "../data/Sollemnities.ts";
 
 export const getValue = ({ season, hour, texts, field,
     prefSrc, prefSollemnity,
@@ -26,7 +26,7 @@ export const getValue = ({ season, hour, texts, field,
     //if (rank_wt !== readRank) { console.log('GetValue: rank_wt angepasst.') }
 
     if (['kirchw', 'verst'].includes(prefSollemnity)) {
-        const data = dataSollemnities[prefSollemnity]
+        const data = sollemnitiesData[prefSollemnity]
 
         const readValue = (field) => {
 
@@ -144,10 +144,10 @@ export const getValue = ({ season, hour, texts, field,
 
 
         if (!psalm51 && !hasAnt0) {
-            const data = dataSollemnities.soll?.[dayOfWeek]?.[hour]?.[languageField]
-                || dataSollemnities.soll?.[dayOfWeek]?.[hour]?.[field]
-                || dataSollemnities.soll.each?.[hour]?.[languageField]
-                || dataSollemnities.soll.each?.[hour]?.[field]
+            const data = sollemnitiesData.soll?.[dayOfWeek]?.[hour]?.[languageField]
+                || sollemnitiesData.soll?.[dayOfWeek]?.[hour]?.[field]
+                || sollemnitiesData.soll.each?.[hour]?.[languageField]
+                || sollemnitiesData.soll.each?.[hour]?.[field]
 
             if (data) { return replaceErgPs(data) }
         }

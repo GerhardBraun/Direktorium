@@ -302,7 +302,7 @@ const LectureSelector = ({
         const lectureType = field.startsWith('patr_') ? 'second' : 'first';
         const selectedIndex = selectedLecture[lectureType];
         const languageField = field + localPrefLanguage;
-        const standardValue = standard[field] || getValue(field);
+        const standardValue = standard[languageField] || standard[field] || getValue(field);
 
         // Wenn Index 0 (Standard) oder keine Alternativen, verwende Standard-Werte
         if (selectedIndex === 0 || !availableAlternatives[lectureType].hasAlternatives) {

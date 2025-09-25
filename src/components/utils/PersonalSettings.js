@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { getLocalStorage, setLocalStorage } from './localStorage.js';
 
+// Import der CalendarData - Pfad anpassen falls nötig
+import { calendarData } from '../data/CalendarData.ts';
+
 const PersonalSettings = () => {
     const [personalData, setPersonalData] = useState(null);
     const [startView, setStartView] = useState(() =>
@@ -9,6 +12,16 @@ const PersonalSettings = () => {
     const [prefLanguage, setPrefLanguage] = useState(() =>
         getLocalStorage('prefLanguage') || ''
     );
+
+    // Neue States für Diözese und Vacancy
+    const [diocese, setDiocese] = useState(() =>
+        getLocalStorage('diocese') || 'AAA'
+    );
+    const [vacancy, setVacancy] = useState(() =>
+        getLocalStorage('vacancy') === 'true'
+    );
+    const [showDioceseDropdown, setShowDioceseDropdown] = useState(false);
+
     const [popeName, setPopeName] = useState(() =>
         getLocalStorage('popeName') || 'Leo'
     );
@@ -41,16 +54,16 @@ const PersonalSettings = () => {
     const convertToDative = (name) => {
         if (!name) return name;
         return name
-            .replace(/(em|is|e)(?![a-záéíóúýæǽœ])/g, 'i')
-            .replace(/(um|us)(?![a-záéíóúýæǽœ])/g, 'o');
+            .replace(/(em|is|e)(?![a-záéíóúýæœő])/g, 'i')
+            .replace(/(um|us)(?![a-záéíóúýæœő])/g, 'o');
     };
 
     // Hilfsfunktion für Kasuswechsel Dativ → Akkusativ
     const convertToAccusative = (name) => {
         if (!name) return name;
         return name
-            .replace(/i(?![a-záéíóúýæǽœ])/g, 'em')
-            .replace(/o(?![a-záéíóúýæǽœ])/g, 'um');
+            .replace(/i(?![a-záéíóúýæœő])/g, 'em')
+            .replace(/o(?![a-záéíóúýæœő])/g, 'um');
     };
 
     // Handler für Dativ-Eingabe (beim Verlassen des Feldes)
@@ -67,6 +80,45 @@ const PersonalSettings = () => {
         inputSetter(convertToAccusative(dativeForm));
     };
 
+    // Funktion zum Verarbeiten der Diözesendaten
+    const getDioceseOptions = () => {
+        if (!calendarData) return [];
+
+        // Verfügbare Diözesen (ohne Sperrvermerk)
+        const availableOptions = Object.entries(calendarData)
+            .filter(([key, data]) => {
+                const hasBlockEntry = data && data.hasOwnProperty('99');
+                return !hasBlockEntry;
+            })
+            .map(([key, data]) => ({
+                key,
+                label: key === 'AAA' ? 'keine Eigenfeiern' : key,
+                disabled: false
+            }))
+            .sort((a, b) => {
+                if (a.key === 'AAA') return -1;
+                if (b.key === 'AAA') return 1;
+                return a.label.localeCompare(b.label);
+            });
+
+        // Gesperrte Diözesen (mit Sperrvermerk)
+        const blockedOptions = Object.entries(calendarData)
+            .filter(([key, data]) => {
+                const hasBlockEntry = data && data.hasOwnProperty('99');
+                return hasBlockEntry;
+            })
+            .map(([key, data]) => ({
+                key,
+                label: key,
+                disabled: true
+            }))
+            .sort((a, b) => a.label.localeCompare(b.label));
+
+        // Erst verfügbare, dann gesperrte Diözesen
+        return [...availableOptions, ...blockedOptions];
+    };
+    const dioceseOptions = getDioceseOptions();
+
     useEffect(() => {
         const loadedData = getLocalStorage('personalData');
         if (loadedData) {
@@ -81,6 +133,14 @@ const PersonalSettings = () => {
     useEffect(() => {
         setLocalStorage('prefLanguage', prefLanguage);
     }, [prefLanguage]);
+
+    useEffect(() => {
+        setLocalStorage('diocese', diocese);
+    }, [diocese]);
+
+    useEffect(() => {
+        setLocalStorage('vacancy', vacancy.toString());
+    }, [vacancy]);
 
     useEffect(() => {
         setLocalStorage('popeName', popeName);
@@ -112,6 +172,26 @@ const PersonalSettings = () => {
     useEffect(() => {
         setLocalStorage('sequenceInv', JSON.stringify(sequenceInv));
     }, [sequenceInv]);
+
+    // Handler für Diözesen-Auswahl
+    const handleDioceseSelect = (selectedKey) => {
+        setDiocese(selectedKey);
+        setShowDioceseDropdown(false);
+    };
+
+    // Click-outside Handler für Dropdown
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (showDioceseDropdown && !event.target.closest('.diocese-dropdown')) {
+                setShowDioceseDropdown(false);
+            }
+        };
+
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, [showDioceseDropdown]);
 
     const handleSequenceChange = (event, index) => {
         const value = parseInt(event.target.value);
@@ -155,6 +235,14 @@ const PersonalSettings = () => {
                         setPrefLanguage(data.settings.prefLanguage);
                         setLocalStorage('prefLanguage', data.settings.prefLanguage);
                     }
+                    if (data.settings.diocese) {
+                        setDiocese(data.settings.diocese);
+                        setLocalStorage('diocese', data.settings.diocese);
+                    }
+                    if (data.settings.vacancy !== undefined) {
+                        setVacancy(data.settings.vacancy);
+                        setLocalStorage('vacancy', data.settings.vacancy.toString());
+                    }
                     if (data.settings.popeName) {
                         setPopeName(data.settings.popeName);
                         setLocalStorage('popeName', data.settings.popeName);
@@ -193,6 +281,8 @@ const PersonalSettings = () => {
         exportData.settings = {
             startViewMode: startView,
             prefLanguage,
+            diocese,
+            vacancy,
             popeName,
             popeNameLat,
             bishopName,
@@ -269,12 +359,69 @@ const PersonalSettings = () => {
                     <p>
                         Beim ersten Aufruf des Tages wird zunächst das Direktorium angezeigt, bei&nbsp;den weiteren Aufrufen direkt das&nbsp;Stundengebet.
                     </p>
-                </div>            </div>
+                </div>
+            </div>
+
+            {/* Diocese Section - NEU */}
+            <div className="px-3">
+                <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
+                    Eigenfeiern der Diözese
+                </div>
+                <div className="relative diocese-dropdown">
+                    <button
+                        onClick={() => setShowDioceseDropdown(!showDioceseDropdown)}
+                        className="w-full px-3 py-1 text-sm bg-gray-100 dark:bg-gray-800
+                        border dark:border-gray-600 rounded text-left
+                        text-gray-900 dark:text-gray-100 hover:bg-gray-200 dark:hover:bg-gray-700"
+                    >
+                        {dioceseOptions.find(option => option.key === diocese)?.label || diocese}
+                        <span className="float-right">▼</span>
+                    </button>
+
+                    {showDioceseDropdown && (
+                        <div className="absolute top-full left-0 right-0 mt-1 bg-white dark:bg-gray-800
+                            border dark:border-gray-600 rounded shadow-lg z-50 max-h-48 overflow-y-auto">
+                            {dioceseOptions.map(option => (
+                                <button
+                                    key={option.key}
+                                    onClick={() => !option.disabled && handleDioceseSelect(option.key)}
+                                    disabled={option.disabled}
+                                    className={`w-full px-3 pt-1 text-left text-sm hover:bg-gray-100 dark:hover:bg-gray-700
+                                        ${option.disabled
+                                            ? 'text-gray-400 dark:text-gray-600 cursor-not-allowed'
+                                            : 'text-gray-900 dark:text-gray-100'
+                                        }
+                                        ${diocese === option.key ? 'bg-orange-100 dark:bg-yellow-400/60' : ''}`}
+                                >
+                                    {option.label}
+                                </button>
+                            ))}
+                        </div>
+                    )}
+                </div>
+            </div>
 
             {/* Names Section */}
             <div className="px-3">
                 <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
                     Namen des Papstes und des Bischofs für&nbsp;die&nbsp;Fürbitten
+                </div>
+
+                {/* Diözesanadministrator Toggle - NEU */}
+                <div className="grid gap-1 items-center mb-2"
+                    style={{ gridTemplateColumns: '6rem minmax(0, 1fr) minmax(0, 1fr)' }}>
+                    <div></div>
+                    <div></div>
+                    <button
+                        onClick={() => setVacancy(!vacancy)}
+                        className={`px-2 py-1 text-xs rounded text-left
+                            ${vacancy
+                                ? 'bg-orange-100 dark:bg-yellow-400/60 text-gray-900'
+                                : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-600'
+                            }`}
+                    >
+                        Diözesan&shy;administrator
+                    </button>
                 </div>
 
                 {/* Deutsche Namen */}

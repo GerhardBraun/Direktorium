@@ -11,7 +11,7 @@ import formatBibleRef from "./dataHandlers/BibleRefFormatter.js";
 import {
   Tooltip, TooltipContent, TooltipProvider, TooltipTrigger,
 } from "./ui/tooltip.jsx";
-import LanguageProgress, { languageProgress } from "./ui/languageProgress.js";
+import LanguageProgress from "./ui/languageProgress.js";
 import SourceSelector from "./selectors/SourceSelector.js";
 import { SectionHeader as extSectionHeader } from "./selectors/SectionHeader.js";
 import KompletSelector from "./selectors/KompletSelector.js";
@@ -31,6 +31,7 @@ import PersonalSettings from "./utils/PersonalSettings.js";
 import TitleBar from "./ui/TitleBar.js";
 import { getLocalStorage, setLocalStorage } from './utils/localStorage.js';
 import { ordinarium } from "./utils/ordinarium.js";
+import { UserMessageDisplay } from "./data/UserMessageDisplay.js";
 
 const fontFamily = "Cambria, serif";
 const hangingIndent = "3.2em"; // Variable für den Einzug
@@ -1232,10 +1233,12 @@ const PrayerMenu = ({
           </button>
         </div>
       </div>
+
+      {/* Nachrichten an die Nutzer */}
+      <UserMessageDisplay />
     </div>
   );
 };
-
 // Prayer Text Display Component
 const PrayerTextDisplay = ({
   hour,
@@ -1806,7 +1809,9 @@ const PrayerTextDisplay = ({
         !prefSollemnity &&
         !(hour === "vesper" && texts.hasErsteVesper) &&
         ["lesehore", "laudes", "vesper"].includes(hour) &&
-        (texts?.laudes?.["eig"]?.oration || texts?.laudes?.["n1"]?.oration) && (
+        (texts?.laudes?.eig?.oration
+          || texts?.laudes?.n1?.oration
+          || texts?.laudes?.d1?.oration) && (
           <>
             <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6 pb-1">
               <SourceSelector

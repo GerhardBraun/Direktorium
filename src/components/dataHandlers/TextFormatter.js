@@ -380,6 +380,13 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
     }
 
     const replaceNames = (text) => {
+        if (getLocalStorage('vacancy') === 'true') {
+            text = text
+                .replace(/Bischof \^NB/g, 'Diözesanadministrator ^NB')
+                .replace(/Epíscopo(\s+nostro)?\s*\^NdatB/g, 'Administratóri$1 diœcesáno ^NdatB')
+                .replace(/Epíscopum(\s+nostrum)?\s*\^NakkB/g, 'Administratórem$1 diœcesánum ^NakkB')
+                .replace(/Epíscopo(\s+nostro)?\s*\^NablB/g, 'Administratóre$1 diœcesáno ^NablB')
+        }
         return text
             .replace(/\^NP/g, getLocalStorage('popeName') || 'Leo')
             .replace(/\^NB/g, getLocalStorage('bishopName') || '^N')

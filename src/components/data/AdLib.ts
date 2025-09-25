@@ -499,6 +499,26 @@ export const adlibData = {
         }
       }
     },
+    "4": {
+      "n1": {
+        "major": {
+          "comm_1": "Hirten",
+          "oration": "Allmächtiger Gott, du hast dem heiligen Rabanus Maurus die Gabe der Weisheit und des Wortes verliehen; du hast ihn gelehrt, den Menschen deine Wahrheit nahezubringen. Öffne unser Herz für das Licht deines Geistes, damit wir dich erkennen und deinen Sohn, unseren Herrn Jesus Christus,^ORR",
+          "oration_lat": "Deus, qui beátum Rabánum Maurum, ut pópulos veritátem tuam docéret, dono sapiéntiæ illuminásti, córda nostra Spíritus tui claritáte illústra, ut te cognoscámus et quem misísti, Dóminum nostrum Iesum Christum, Fílium tuum,^ORlR"
+        },
+        "Lesehore": {
+          "patr_autor": "Rabanus Maurus († 856)",
+          "patr_werk": "Aus der Schrift „Unterweisung der Kleriker“.",
+          "patr_text": "^hWeisheit und Gottesliebe^pDie Frucht der Erkenntnis besteht in Liebe. „Die Erkenntnis“, sagt der Apostel, „macht aufgebla­sen, die Liebe dagegen baut auf“ (1 Kor 8,1). Darum gilt: Wenn schon erstrebenswert ist, was hochmütig macht, dann um so mehr das, was aufbaut; wenn wir also den Willen Gottes er­kannt haben, so wollen wir aus Liebe Gott gehorchen, um zu Gott zu gelangen.^pDemnach muss, wer zum Gipfel der Weisheit gelangt, notwendigerweise zur Höhe der Liebe gelangen; denn nur, wer recht liebt, kann voll­kommene Einsicht besitzen. Wenn jemand sich bemüht, zur Fülle der Einsicht vorzudringen, so tut er nichts anderes, als sich der Vollendung in der Liebe zu nähern; und so weit er in der Erkenntnis voran­schreitet, so weit auch in der Liebe.^pWir haben an anderer Stelle gesagt, dass in der vollkommenen Verstandestätigkeit der Weisheit die wahre Glück­seligkeit bestehe; genau dasselbe sagen wir auch von der Liebe: In der vollkommenen Willens­tätigkeit der Liebe besteht die höchste Glückseligkeit. Denn Gott, der Schöpfer aller Dinge, der unsere Glückseligkeit ist, wird in gleicher Weise mit dem Namen der einen (der Weisheit) wie der anderen (der Liebe) genannt. So steht im Buch der Weisheit von ihm geschrieben: „Es lehrte mich die Weisheit, die Meisterin aller Dinge. Denn sie ist ein Geist, gedankenvoll, heilig, einzigartig …“ (Weish 7,21). Und der Apostel Johannes sagt: „Gott ist die Liebe, und wer in der Liebe bleibt, bleibt in Gott, und Gott bleibt in ihm“ (1 Joh 4,16).^pAuch der Heiland wollte, dass Erkenntnis und Liebe als eins verstanden werden; darum spricht er im Evangelium zum Vater: „Gerechter Vater, die Welt hat dich nicht erkannt, ich aber habe dich erkannt, und sie haben erkannt, dass du mich gesandt hast. Ich habe ihnen deinen Namen bekannt gemacht und werde ihn bekannt machen, damit die Liebe, mit der du mich geliebt hast, in ihnen ist und damit ich in ihnen bin“ (Joh 17,25). Also: Wer immer die volle Erkenntnis Gottes erlangt, hat zugleich die vollkom­me­ne Gottesliebe in sich; und im Genuss beider ist er im Besitz des höchsten Gutes und wird ewiger Glück­seligkeit teilhaftig sein.",
+          "patr_resp1": "Wenn einer meint, er sei zur Erkenntnis gelangt, hat er noch nicht so erkannt, wie man erkennen muss.",
+          "patr_resp2": "Wer aber Gott liebt, der ist von ihm erkannt.",
+          "patr_resp3": "Wer nicht liebt, hat Gott nicht erkannt; denn Gott ist die Liebe."
+        },
+        "Laudes": {
+          "button": "Hl. Rabanus Maurus"
+        }
+      }
+    },
     "5": {
       "eig": {
         "major": {
@@ -663,7 +683,7 @@ export const adlibData = {
       }
     },
     "12": {
-      "n1": {
+      "Fulda": {
         "major": {
           "comm_1": "Hirten",
           "oration": "Barmherziger Gott, wir danken dir, dass du deiner Kirche im heiligen Papst Gregor einen Hirten von apostolischer Weisheit und Festigkeit geschenkt und durch ihn unserm Volk den heiligen Bonifatius als Boten des Evangeliums gesandt hast. Lass uns auf seine Fürsprache in der Gemeinschaft der Kirche den Weg zu dir finden.^ORV",
@@ -692,17 +712,33 @@ export const adlibData = {
     },
     "14": {
       "eig": {
-        "major": {
+        "each": {
+          "comm_1": "Hirten",
+          "oration": "Gott, du Heil aller Menschen, du hast durch die Brüder Cyrill und Methodius den slawischen Völkern das Licht deiner Wahrheit geschenkt. Gib, dass wir deine Lehre mit bereitem Herzen aufnehmen und zu einem Volk werden, das im wahren Glauben und im rechten Bekenntnis geeint ist.^ORV",
           "oration_lat": "Deus, qui per beátos fratres Cyríllum et Methódium Slavóniæ gentes illuminásti, da córdibus nostris tuæ doctrínæ verba percípere, nosque pérfice pópulum in vera fide et recta confessióne concórdem.^ORlV"
         },
+        "Lesehore": {
+          "patr_autor": "LEER",
+          "patr_werk": "Aus der slawischen Lebensbeschreibung Konstantins",
+          "patr_text": "^hFördere deine Kirche und fasse alle zur Einheit zusammen^pKonstantin Cyrillus erkrankte, von Arbeit überhäuft. Nachdem er seine Krankheit viele Tage ertragen hatte und die Stunde kam, da er Ruhe erhalten und in die ewigen Wohnungen {1#vgl.°Lk 16,9.} eingehen sollte, erhob er die Hände zu Gott und betete unter Tränen:^p„Herr, mein Gott, du hast alle Engel und die unkörperlichen Kräfte erschaffen. Du hast den Himmel ausgespannt und die Erde fest gemacht. Alles, was ist, hast du aus dem Nichtsein zum Sein gebracht. Du erhörst immer alle, die deinen Willen tun, dich ehren und deine Gebote halten. Erhöre mein Gebet und erhalte deine gläubige Herde, der du mich Unwürdigen und Untauglichen zum Vorsteher gegeben hast. Befreie sie von der Bosheit der Menschen, die dich lästern. Mehre deine Kirche an Zahl und führe alle zur Einheit zusammen! Mache sie zu einem ausgezeichneten Volk, einmütig in deinem wahren Glauben und im rechten Bekenntnis. Hauche ihren Herzen das Wort der Lehre ein. Denn dein Geschenk ist es, dass du uns angenommen hast, das Evangelium Christi zu predigen, dass wir die Menschen zu guten Taten aneifern und das tun dürften, was dir gefällt. Die du mir gegeben hast, stelle ich dir zurück; denn sie sind dein. Leite sie mit deiner starken Rechten, behüte sie unter dem Schutz deiner Fittiche, damit alle deinen Namen loben und verherrlichen, den Namen des Vaters und des Sohnes und des Heiligen Geistes Amen.“^pSo entschlief er im Herrn, 42 Jahre alt. Der Papst ordnete an, dass alle Griechen, die in Rom waren, und die Römer sich mit Kerzen in den Händen bei ihm versammelten und über ihm sangen, dass sie einen Leichenzug hielten wie bei einem Papst. So geschah es denn auch.",
+          "patr_resp1": "Ich habe David, meinen Knecht, gefunden, mit heiligem Öl ihn gesalbt",
+          "patr_resp2": "Beständig wird meine Hand ihn halten",
+          "patr_resp3": "Ich gebe euch einen Hirten nach meinem Herzen."
+        },
         "Laudes": {
+          "button": "Hl. Cyrill und hl. Methodius",
+          "nominativ": "Die Heiligen Cyrill und Methodius",
+          "genitiv": "der Heiligen Cyrill und Methodius",
+          "genitiv_lat": "sancti Cyrilli et Methodii",
+          "antev": "In Heiligkeit und Gerechtigkeit dienten sie dem Herrn all ihre Tage.",
           "antev_lat": "In sanctitáte et iustítia serviérunt Dómino ómnibus diébus suis."
         },
         "Vesper": {
+          "antev": "Sie sind heilige Männer: Gott hat sie zu seinen Freunden gemacht, zu ruhmvollen Kündern seiner Wahrheit.",
           "antev_lat": "Isti sunt viri sancti, facti amíci Dei, divínæ veritátis præcónio gloriósi."
         }
       },
-      "n1": {
+      "Fulda": {
         "major": {
           "comm_1": "MärtSg",
           "comm_2": "Hirten",
@@ -825,6 +861,12 @@ export const adlibData = {
           "oration_lat": "Deus, qui beátum Matthíam Apostolórum collégio sociásti, eius nobis interventióne concéde, ut, dilectiónis tuæ sorte gaudéntes, cum eléctis numerári mereámur.^ORlV"
         },
         "Lesehore": {
+          "patr_autor": "Johannes Chrysostomus (†°407)",
+          "patr_werk": "Zur Apostelgeschichte",
+          "patr_text": "^hHerr, zeige, wen du erwählt hast^p„Damals erhob sich Petrus im Kreis der Brüder.“ {1#Apg 1,15} – Voll Eifer, weil Christus ihm die Herde anvertraut hat, ergreift der Sprecher der Apostel immer zuerst das Wort: Brüder, einer von uns muss gewählt werden. Er lässt die Menge entscheiden. Dadurch stärkt er das Ansehen des zu Erwählenden und entzieht sich selbst der Anfeindung durch die anderen; so etwas ist nämlich immer die Quelle großen Übels … Konnte Petrus nicht selbst die Wahl treffen? Aber doch! Doch tut er es nicht, um den Anschein der Begünstigung zu vermeiden. Andererseits hatte er auch den Heiligen Geist noch nicht.^pWeiter heißt es: „Sie stellten zwei Männer auf, Josef, genannt Barsabbas, mit dem Beinamen Justus, und Matthias.“ {2#Apg 1,23} Nicht Petrus stellte sie auf, sondern alle zusammen. Den Vorschlag brachte er selbst ein, zeigte aber, dass es nicht sein Einfall war, sondern von oben kam und auf einem Prophetenwort beruhte. So war er nur dessen Dolmetscher, nicht Lehrer in eigener Vollmacht.^p„Einer von den Männern, die mit uns zusammen waren“, muss es sein, sagt er. Achte darauf: Er will, dass es Augenzeugen sind. Zwar stand die Ankunft des Heiligen Geistes bevor, es war ihnen aber immer an der Augenzeugenschaft gelegen.^pEr sagt: „Einer von den Männern, die die ganze Zeit mit uns zusammen waren, als Jesus, der Herr, bei uns ein und aus ging“ {3#Apg 1,21}. Er weist darauf hin, dass sie mit ihm zusammen gewohnt haben und nicht nur einfach als Jünger bei ihm waren. Denn anfangs folgten ihm viele. Beachte, wie Johannes das mit Worten klarmacht: „Er (Andreas) war einer der beiden, die das Wort des Johannes gehört hatten und Jesus gefolgt waren.“ {4#Joh 1,40}^pEr sagt: „Die ganze Zeit, als Jesus, der Herr, bei uns ein und aus ging, angefangen von der Taufe durch Johannes“. Denn was davorlag, wusste niemand aus Erfahrung; sie wurden darüber vielmehr durch den Heiligen Geist belehrt.^pEr fährt fort: „Bis zu dem Tag, an dem er von uns ging und (in den Himmel) aufgenommen wurde“, muss einer von diesen zusammen mit uns Zeuge seiner Auferstehung sein. Er sagt nicht: Zeuge von diesem oder jenem, sondern: „Zeuge seiner Auferstehung“. Glaubwürdig war nur, wer sagen konnte: Er, der gegessen und getrunken hat und der gekreuzigt wurde, derselbe ist auferstanden. So brauchte er weder Zeuge für die vorhergehende noch für die folgende Zeit zu sein und auch nicht für die Zeichen Jesu. Es ging nur um die Auferstehung. Denn die anderen Ereignisse waren offenkundig und wurden anerkannt. Die Auferstehung dagegen war im Verborgenen vor sich gegangen und nur ihnen bekannt.",
+          "patr_resp1": "Herr, du kennst die Herzen aller; zeige, wen du erwählt hast,",
+          "patr_resp2": "dass er die Stelle dieses Apostelamtes erhalte",
+          "patr_resp3": "Sie gaben ihnen Lose; das Los fiel auf Matthias.",
           "hymn_1_lat": 8224.0
         },
         "Laudes": {
@@ -1061,7 +1103,7 @@ export const adlibData = {
       }
     },
     "13": {
-      "n1": {
+      "Fulda": {
         "major": {
           "comm_1": "Frau_Ord",
           "oration": "Herr und Gott, schenke uns den Geist der Liebe und des Glaubens, damit wir das große Beispiel der heiligen Paulina begreifen, dir mit aufrichtigem Herzen dienen und durch Glauben und gute Werke dir gefallen.^ORV",
@@ -1117,6 +1159,31 @@ export const adlibData = {
       }
     },
     "15": {
+      "Fulda": {
+        "major": {
+          "oration": "Gütiger Gott, wir ehren heute die Verdienste des heiligen Papstes Zacharias. Du hast ihn berufen, im Geist der Milde und Klugheit für den Frieden zu wirken. Gib, dass wir auf Erden seinem Beispiel folgen und im Himmel mit ihm verherrlicht werden.^ORV",
+          "oration_lat": "Deus, qui beáto Zacharíæ, mitíssimo Fílii tui Vicário, pacis stúdium ac donum prudéntiæ tribuísti, da nobis tanti pastóris mérita venerántibus, ut ipsíus exémpla sequámur in via et glóriæ consórtes fiámus in pátria.^ORlV"
+        },
+        "Lesehore": {
+          "patr_autor": "Papst Zacharias (†°752)",
+          "patr_werk": "Aus einem Brief an fränkische Bischöfe.",
+          "patr_text": "^hEine Gemeinschaft und ein Hirt^pZwar sind wir, wenn man an den weiten Weg denkt, euch dem Leibe nach fern, doch im Geist der Liebe sind wir euch allzeit nah; denn wir haben euch ins Herz geschlossen und beten beständig darum, dass unser Gott und Herr Jesus Christus eure Herzen noch viel mehr festige und kräftige bei der Verkündigung des Evangeliums in dem Dienst, den ihr verseht, auf dass das Volk, das euch anvertraut ist, durch eure väterlichen Mahnungen mit Gottes Hilfe vom Trug des Teufels befreit, sein Heil finde und ihr von ihren Seelen Gewinn erlangen dürft für den Tag Christi.^pDenn es steht geschrieben: „Die Söhne der Weisheit sind die Gemeinde der Gerechten, und ihr Stamm ist Gehorsam und Liebe. So ermahne ich euch denn“{1#Sir 3,1 Vg}, meine Lieben, „ein Leben zu führen, das des Rufes würdig ist, der an euch erging“{2#Eph 4,1}, wie es den Heiligen ziemt; in großer Geduld „ertragt einander in Liebe und bemüht euch, die Einheit des Geistes zu wahren durch den Frieden“ und die Liebe, die euch zusammenhalten; denn „das Ziel der Unterweisung ist Liebe aus reinem Herzen, gutem Gewissen und ungeheucheltem Glauben“{3#1°Tim 1,5}.^pIhr Lieben, ich freue mich über euch, weil euer Glaube und eure Einmütigkeit gegen uns kostbar und offenkundig sind, nicht allein vor Gott, sondern auch vor allen Menschen, da ihr euch zu eurem von Gott bestellten Beschützer und Lehrer, dem heiligen Apostelfürsten Petrus, hingewendet habt mit viel gutem Willen. Euer Glaube ist zu loben, und euer Ruf ist gut, weil ihr so denkt, wie man denken muss.^pUnd nun ist durch Gottes Hilfe eure Heiligkeit der Gemeinschaft mit uns angeschlossen in einem Schafstall, und wir haben einen Hirten, der vom Hirten der Hirten, unserem Herrn und Gott und Erlöser Jesus Christus, zum Fürsten der Apostel und zu unserem Lehrer eingesetzt ist.^pIhr habt nun an unser Statt zur Stärkung eurer Liebe und als Helfer in der Verkündigung des Evangeliums Christi unseren heiligen und ehrwürdigen Bruder, den Erzbischof Bonifatius, der Legat des Apostolischen Stuhles und unser Stellvertreter ist.^pRichtet euch nun standhaft gegen die Anstrengungen derer, die auf Feindschaft sinnen und nicht auf das, was Gottes ist, und eure Standhaftigkeit wird stärker als Felsgestein sein. Denn, meine Brüder, „wir leben zwar in dieser Welt, kämpfen aber nicht mit den Waffen dieser Welt. Die Waffen, die wir bei unserem Feldzug einsetzen, sind nicht irdisch, aber sie haben durch Gott die Macht, Festungen zu schleifen; mit ihnen reißen wir alle hohen Gedankengebäude nieder, die sich gegen die Erkenntnis Gottes auftürmen. Wir nehmen alles Denken gefangen, so dass es Christus gehorcht“{4#2°Kor°10,3–5}. „Und schließlich“, Brüder, „werdet stark durch die Kraft und Macht des Herrn!“{5#Eph 6,10} Reichlich werde euch Friede zuteil und Gnade von unserem Gott und Herrn Jesus Christus.",
+          "patr_resp1": "Simon, ich habe für dich gebetet, dass dein Glaube nicht erlischt.",
+          "patr_resp2": "Wenn du dich wieder bekehrt hast, dann stärke deine Brüder.",
+          "patr_resp3": "Seht doch, wie gut und schön es ist, wenn Brüder miteinander in Eintracht wohnen."
+        },
+        "Laudes": {
+          "button": "Hl. Zacharias",
+          "genitiv": "des heiligen Zacharias",
+          "genitiv_lat": "sancti ",
+          "ant_komm": "Nicht ihr werdet reden, sondern der Geist eures Vaters redet durch euch.",
+          "ant_komm_lat": "Non vos estis qui loquímini, sed Spíritus Patris vestri, qui lóquitur in vobis."
+        },
+        "Vesper": {
+          "ant_komm": "Dank sei dir, Christus, guter Hirte! Du hast mich zur Herrlichkeit geführt; gib auch der Herde, die du mir anvertraut hast, Anteil an deiner Gnade auf ewig.",
+          "ant_komm_lat": "Grátias tibi ago, Christe, pastor bone, qui me ad hanc glóriam perdúcere dignátus es; peto ergo ut oves, quas tradidísti mihi, participéntur mecum de grátia tua in sempitérnum."
+        }
+      },
       "n1": {
         "major": {
           "oration": "Gütiger Gott, in der Sorge für dein Volk hast du den heiligen Klemens Maria Hofbauer mit besonderem Eifer für die Seelen erfüllt und durch ihn den Reichtum deiner Gnade verkündet. Hilf uns auf seine Fürsprache, den Glauben zu bewahren, den er gelehrt, und den Weg zu gehen, den er uns durch sein Leben gewiesen hat.^ORV",
@@ -1140,31 +1207,6 @@ export const adlibData = {
         "Vesper": {
           "ant_komm": "Dies ist der treue und kluge Verwalter: Der Herr hat ihn eingesetzt, damit er seinen Dienern Nahrung gibt zur rechten Zeit.",
           "ant_komm_lat": "Iste est fidélis et prudens dispensátor, quem constítuit Dóminus super famíliam suam, ut daret illis in témpore trítici mensuram."
-        }
-      },
-      "n2": {
-        "major": {
-          "oration": "Gütiger Gott, wir ehren heute die Verdienste des heiligen Papstes Zacharias. Du hast ihn berufen, im Geist der Milde und Klugheit für den Frieden zu wirken. Gib, dass wir auf Erden seinem Beispiel folgen und im Himmel mit ihm verherrlicht werden.^ORV",
-          "oration_lat": "Deus, qui beáto Zacharíæ, mitíssimo Fílii tui Vicário, pacis stúdium ac donum prudéntiæ tribuísti, da nobis tanti pastóris mérita venerántibus, ut ipsíus exémpla sequámur in via et glóriæ consórtes fiámus in pátria.^ORlV"
-        },
-        "Lesehore": {
-          "patr_autor": "Papst Zacharias (†°752)",
-          "patr_werk": "Aus einem Brief an fränkische Bischöfe.",
-          "patr_text": "^hEine Gemeinschaft und ein Hirt^pZwar sind wir, wenn man an den weiten Weg denkt, euch dem Leibe nach fern, doch im Geist der Liebe sind wir euch allzeit nah; denn wir haben euch ins Herz geschlossen und beten beständig darum, dass unser Gott und Herr Jesus Christus eure Herzen noch viel mehr festige und kräftige bei der Verkündigung des Evangeliums in dem Dienst, den ihr verseht, auf dass das Volk, das euch anvertraut ist, durch eure väterlichen Mahnungen mit Gottes Hilfe vom Trug des Teufels befreit, sein Heil finde und ihr von ihren Seelen Gewinn erlangen dürft für den Tag Christi.^pDenn es steht geschrieben: „Die Söhne der Weisheit sind die Gemeinde der Gerechten, und ihr Stamm ist Gehorsam und Liebe. So ermahne ich euch denn“{1#Sir 3,1 Vg}, meine Lieben, „ein Leben zu führen, das des Rufes würdig ist, der an euch erging“{2#Eph 4,1}, wie es den Heiligen ziemt; in großer Geduld „ertragt einander in Liebe und bemüht euch, die Einheit des Geistes zu wahren durch den Frieden“ und die Liebe, die euch zusammenhalten; denn „das Ziel der Unterweisung ist Liebe aus reinem Herzen, gutem Gewissen und ungeheucheltem Glauben“{3#1°Tim 1,5}.^pIhr Lieben, ich freue mich über euch, weil euer Glaube und eure Einmütigkeit gegen uns kostbar und offenkundig sind, nicht allein vor Gott, sondern auch vor allen Menschen, da ihr euch zu eurem von Gott bestellten Beschützer und Lehrer, dem heiligen Apostelfürsten Petrus, hingewendet habt mit viel gutem Willen. Euer Glaube ist zu loben, und euer Ruf ist gut, weil ihr so denkt, wie man denken muss.^pUnd nun ist durch Gottes Hilfe eure Heiligkeit der Gemeinschaft mit uns angeschlossen in einem Schafstall, und wir haben einen Hirten, der vom Hirten der Hirten, unserem Herrn und Gott und Erlöser Jesus Christus, zum Fürsten der Apostel und zu unserem Lehrer eingesetzt ist.^pIhr habt nun an unser Statt zur Stärkung eurer Liebe und als Helfer in der Verkündigung des Evangeliums Christi unseren heiligen und ehrwürdigen Bruder, den Erzbischof Bonifatius, der Legat des Apostolischen Stuhles und unser Stellvertreter ist.^pRichtet euch nun standhaft gegen die Anstrengungen derer, die auf Feindschaft sinnen und nicht auf das, was Gottes ist, und eure Standhaftigkeit wird stärker als Felsgestein sein. Denn, meine Brüder, „wir leben zwar in dieser Welt, kämpfen aber nicht mit den Waffen dieser Welt. Die Waffen, die wir bei unserem Feldzug einsetzen, sind nicht irdisch, aber sie haben durch Gott die Macht, Festungen zu schleifen; mit ihnen reißen wir alle hohen Gedankengebäude nieder, die sich gegen die Erkenntnis Gottes auftürmen. Wir nehmen alles Denken gefangen, so dass es Christus gehorcht“{4#2°Kor°10,3–5}. „Und schließlich“, Brüder, „werdet stark durch die Kraft und Macht des Herrn!“{5#Eph 6,10} Reichlich werde euch Friede zuteil und Gnade von unserem Gott und Herrn Jesus Christus.",
-          "patr_resp1": "Simon, ich habe für dich gebetet, dass dein Glaube nicht erlischt.",
-          "patr_resp2": "Wenn du dich wieder bekehrt hast, dann stärke deine Brüder.",
-          "patr_resp3": "Seht doch, wie gut und schön es ist, wenn Brüder miteinander in Eintracht wohnen."
-        },
-        "Laudes": {
-          "button": "Hl. Zacharias",
-          "genitiv": "des heiligen Zacharias",
-          "genitiv_lat": "sancti ",
-          "ant_komm": "Nicht ihr werdet reden, sondern der Geist eures Vaters redet durch euch.",
-          "ant_komm_lat": "Non vos estis qui loquímini, sed Spíritus Patris vestri, qui lóquitur in vobis."
-        },
-        "Vesper": {
-          "ant_komm": "Dank sei dir, Christus, guter Hirte! Du hast mich zur Herrlichkeit geführt; gib auch der Herde, die du mir anvertraut hast, Anteil an deiner Gnade auf ewig.",
-          "ant_komm_lat": "Grátias tibi ago, Christe, pastor bone, qui me ad hanc glóriam perdúcere dignátus es; peto ergo ut oves, quas tradidísti mihi, participéntur mecum de grátia tua in sempitérnum."
         }
       }
     },
@@ -1659,7 +1701,7 @@ export const adlibData = {
       }
     },
     "27": {
-      "eig": {
+      "n1": {
         "major": {
           "comm_1": "Hirten_Kl",
           "comm_2": "Hirten",
@@ -1785,7 +1827,7 @@ export const adlibData = {
       }
     },
     "5": {
-      "n1": {
+      "Fulda": {
         "major": {
           "comm_1": "Hirten",
           "oration": "Herr und Gott, du hast den heiligen Godehard berufen, das klösterliche Leben zu erneuern und den Gläubigen seines Bistums ein weiser und gütiger Bischof zu sein. Erhalte in uns den Willen, unser Leben auf dich hin auszurichten und dem Nächsten in Liebe zu begegnen.^ORV",
@@ -2286,6 +2328,28 @@ export const adlibData = {
         }
       }
     },
+    "5": {
+      "eig": {
+        "major": {
+          "comm_1": "MärtSg",
+          "comm_2": "Hirten",
+          "oration": "Herr, unser Gott, erhöre die Bitten deiner Gemeinde, die heute das Fest des heiligen Bonifatius feiert. Auf seine Fürsprache schenke uns deine Hilfe, damit wir den Glauben treu bewahren, den er unseren Vätern gepredigt und mit seinem Blut besiegelt hat.^ORV",
+          "oration_lat": "Sanctus martyr, Domine, Bonifátius pro nobis intervéntor exsístat ut fidem, quam ore dócuit et sánguine consignávit, firmiter teneámus, et opéribus profiteámur confidénter.^ORlV"
+        },
+        "Lesehore": {
+          "patr_autor": "Bonifatius († 754)",
+          "patr_werk": "Aus einem Brief.",
+          "patr_text": "^hDer eifrige Hirte, der über die Herde Christi wacht^pDie Kirche fährt über das Meer dieser Welt wie ein großes Schiff und wird von den Wogen – das sind die Anfechtungen dieses Lebens – hin und her geworfen. Wir dürfen das Schiff nicht verlassen, wir müssen es lenken.^pAls Vorbilder haben wir dafür die frühen Väter, Klemens, Kornelius und die vielen andern in der Stadt Rom, Cyprian in Karthago, Athanasius in Alexandrien. Sie haben unter heidnischen Kaisern das Schiff Christi gesteuert. Sie haben die Kirche geleitet, sie gelehrt und verteidigt, für sie gearbeitet und gelitten bis zum Vergießen des Blutes.^pDiese Überlegungen erschrecken mich, „Furcht und Zittern erfassen mich“ {1#Ps 55,6}, die Finsternis meiner Sünden drückt mich nieder. Wie gerne hätte ich das Steuer der Kirche, das ich übernommen habe, aus der Hand gegeben, wenn ich nur geeignete Beispiele bei den Vätern oder in der Heiligen Schrift hätte finden können.^pDie Wahrheit kann zwar niedergehalten, aber weder besiegt noch getäuscht werden. So flüchtet unser Geist zu Gott, der durch Salomo spricht: „Mit ganzem Herzen vertrau auf den Herrn, bau nicht auf eigene Klugheit; such ihn zu erkennen auf all deinen Wegen, dann ebnet er selbst deine Pfade“ {2#Spr 3,5–6}, und anderswo: „Ein fester Turm ist der Name des Herrn, dorthin eilt der Gerechte und ist geborgen.“ {3#Spr 18,10}^pLasst uns feststehen in der Gerechtigkeit und unser Herz auf die Versuchung vorbereiten, damit wir das Zögern Gottes ertragen und sprechen: „Herr, du warst unsere Zuflucht von Geschlecht zu Geschlecht.“ {4#Ps 90,1}^pLasst uns auf ihn vertrauen, der uns die Last aufgelegt hat. Was wir aus eigener Kraft nicht tragen können, das wollen wir tragen durch ihn. Er ist allmächtig und spricht: „Mein Joch drückt nicht, und meine Last ist leicht.“ {5#Mt 11,30}^pLasst uns am Tag des Herrn im Kampf feststehen, denn „ein Tag der Not und Bedrängnis“ {6#Zef 1,15} kam über uns. Wenn Gott es so will, wollen wir sterben für die heiligen Gesetze unserer Väter, damit wir mit ihnen das ewige Erbe erlangen. ^pWir wollen nicht stumme Hunde sein {7#vgl.°Jes 56,10} und schweigend zuschauen, nicht Mietlinge, die vor dem Wolf fliehen {8#vgl.°Joh 10,12}, sondern eifrige Hirten: Über die Herde Christi wollen wir wachen und allen Menschen jeden Ratschluss Gottes verkünden, den Großen und den Kleinen, den Reichen und den Armen, jedem Stand und jedem Alter, soweit Gott uns Kraft dazu gibt, gelegen und ungelegen {9#vgl.°2 Tim 4,2}, wie es uns der heilige Gregor in seiner Pastoralregel vorgeschrieben hat.",
+          "patr_resp1": "Wir wollten euch nicht nur am Evangelium Gottes teilhaben lassen, sondern auch an unserem eigenen Leben;",
+          "patr_resp2": "denn ihr wart uns sehr lieb geworden. ^Ö",
+          "patr_resp3": "Meine Kinder, für euch erleide ich von neuem Geburtswehen, bis Christus in euch Gestalt annimmt."
+        },
+        "Laudes": {
+          "button": "Hl. Bonifatius",
+          "farbe": "r"
+        }
+      }
+    },
     "6": {
       "n1": {
         "major": {
@@ -2309,7 +2373,7 @@ export const adlibData = {
       }
     },
     "7": {
-      "n1": {
+      "Fulda": {
         "major": {
           "comm_1": "MärtPl",
           "oration": "Allmächtiger und barmherziger Gott, durch die Predigt und das Zeugnis der heiligen Märtyrer Eoban, Adelar und Gefährten hast du vielen Menschen deinen Sohn als Erlöser geoffenbart. Höre auf ihre Fürsprache und festige uns im Glauben zum Lob und zur Ehre deines Namens.^ORV",
@@ -2359,7 +2423,7 @@ export const adlibData = {
       }
     },
     "10": {
-      "n1": {
+      "Fulda": {
         "major": {
           "comm_1": "Hirten",
           "oration": "Herr und Gott, du hast im heiligen Bischof Bardo den Mönchen ein Vorbild und den Gläubigen einen eifrigen Seelsorger geschenkt. Hilf uns, nach seinem Beispiel in allem auf das Heil der Menschen bedacht zu sein.^ORV",
@@ -2579,7 +2643,7 @@ export const adlibData = {
       }
     },
     "27": {
-      "n1": {
+      "Fulda": {
         "major": {
           "comm_1": "Hirten",
           "oration": "Gütiger Gott, im Vertrauen auf dich hat der heilige Heimerad weder Armut und Not noch den Spott der Menschen gescheut. Gewähre uns auf seine Fürsprache die Kraft, den mühsamen Weg unserer Pilgerschaft in Treue zu gehen und so zu dir zu gelangen.^ORV",
@@ -2809,7 +2873,7 @@ export const adlibData = {
       }
     },
     "7": {
-      "n1": {
+      "Fulda": {
         "major": {
           "comm_1": "Hirten",
           "oration": "Gott, unser Heil, durch die Predigt und das apostolische Wirken der heiligen Willibald und Wunibald hast du deiner Kirche viele Menschen zugeführt. Gib uns auf ihre Fürsprache neue Kraft und mehre den Glauben und die Heiligkeit in deinem Volk.^ORV",
@@ -2875,18 +2939,7 @@ export const adlibData = {
       }
     },
     "9": {
-      "n1": {
-        "major": {
-          "comm_1": "MärtPl",
-          "oration": "Gott, in deiner wunderbaren Sorge hast du durch das Bekenntnis des heiligen Märtyrers Augustinus und seiner Gefährten deine Kirche gestärkt. Gewähre, dass dein Volk der Sendung treu bleibt, die ihm aufgetragen ist, damit es in der Freiheit wachse und die Wahrheit vor der Welt bezeuge.^ORV",
-          "oration_lat": "Deus, qui per sanctórum mártyrum Augustíni et sociórum confessiónem Ecclésiam tuam mirábili dispensatióne roborásti, concéde ut pópulus tuus, missióni sibi créditæ fidélis, et increménta libertátis accípiat et veritátem coram mundo testificétur.^ORlV"
-        },
-        "Laudes": {
-          "button": "Hl. Augustinus Zhao Rong und Gefährten",
-          "farbe": "r"
-        }
-      },
-      "n2": {
+      "Fulda": {
         "major": {
           "comm_1": "MärtSg",
           "oration": "Herr und Gott, du schenkst uns die Freude, die Grabstätte des heiligen Bonifatius zu besitzen. Festige in uns den Glauben an die Auferstehung und gib uns einst Anteil an der ewigen Herrlichkeit.^ORV",
@@ -2902,6 +2955,17 @@ export const adlibData = {
         },
         "Laudes": {
           "button": "Übertragung des hl. Bonifatius",
+          "farbe": "r"
+        }
+      },
+      "n1": {
+        "major": {
+          "comm_1": "MärtPl",
+          "oration": "Gott, in deiner wunderbaren Sorge hast du durch das Bekenntnis des heiligen Märtyrers Augustinus und seiner Gefährten deine Kirche gestärkt. Gewähre, dass dein Volk der Sendung treu bleibt, die ihm aufgetragen ist, damit es in der Freiheit wachse und die Wahrheit vor der Welt bezeuge.^ORV",
+          "oration_lat": "Deus, qui per sanctórum mártyrum Augustíni et sociórum confessiónem Ecclésiam tuam mirábili dispensatióne roborásti, concéde ut pópulus tuus, missióni sibi créditæ fidélis, et increménta libertátis accípiat et veritátem coram mundo testificétur.^ORlV"
+        },
+        "Laudes": {
+          "button": "Hl. Augustinus Zhao Rong und Gefährten",
           "farbe": "r"
         }
       }
@@ -3109,10 +3173,15 @@ export const adlibData = {
     },
     "23": {
       "eig": {
-        "major": {
+        "each": {
+          "comm_1": "Frau_Ord",
+          "oration": "Herr, unser Gott, du hast der heiligen Birgitta eine innige Liebe zum Gekreuzigten geschenkt und ihr den Reichtum deines Erbarmens geoffenbart. Hilf uns, dass wir Christus auf seinem Leidensweg nachfolgen, damit wir ihn auch in seiner Herrlichkeit schauen,^ORR",
           "oration_lat": "Dómine Deus noster, qui beátæ Birgíttæ, Fílii tui passiónem meditánti, secréta cæléstia revelásti, da nobis fámulis tuis in revelatióne glóriæ tuæ gaudére lætántes.^ORlV"
         },
         "Laudes": {
+          "button": "Hl. Birgitta von Schweden",
+          "nominativ": "Die heilige Birgitta",
+          "genitiv": "der heiligen Birgitta",
           "genitiv_lat": "sanctæ Brigíttæ"
         }
       }
@@ -3156,7 +3225,7 @@ export const adlibData = {
         "major": {
           "comm_1": "Frau_Pl",
           "oration": "Allmächtiger, ewiger Gott, die heilige Marta durfte deinen Sohn in ihr Haus aufnehmen und bewirten. Auf ihre Fürsprache hin mache uns bereit, in unseren Mitmenschen Christus zu dienen, damit wir einst bei dir Aufnahme finden.^ORvR",
-          "oration_lat": "comm:"
+          "oration_lat": "Deus, cuius Fílius de sepúlcro ad vitam Lázarum revocávit, et in domo Marthæ dignátus est hospitári, da nobis, quǽsumus, ut ipsi in frátribus nostris fidéliter ministrántes, cum María verbi eius meditatióne pasci mereámur.^ORlvR"
         },
         "Lesehore": {
           "patr_autor": "Augustinus († 430)",
@@ -3169,14 +3238,16 @@ export const adlibData = {
         "Laudes": {
           "button": "Hll. Marta, Maria und Lazarus",
           "genitiv": "der Heiligen Marta, Maria und Lazarus",
-          "genitiv_lat": "sanctórum ",
-          "antev": "Marta sagte zu Jesus: Du bist der Messias, der Sohn des lebendigen Gottes, der in die Welt kommen soll."
+          "genitiv_lat": "sanctórum Marthæ, Maríæ et Lázari",
+          "antev": "Marta sagte zu Jesus: Du bist der Messias, der Sohn des lebendigen Gottes, der in die Welt kommen soll.",
+          "antev_lat": "Elevátis sursum óculis, voce magna Iesus clamávit: Lázare, veni foras!"
         },
         "Vesper": {
-          "antev": "Jesus liebte Marta und ihre Schwester Maria und ihren Bruder Lazarus."
+          "antev": "Jesus liebte Marta und ihre Schwester Maria und ihren Bruder Lazarus.",
+          "antev_lat": "Diligébat Iesus Martham et sorórem eius Maríam et Lázarum fratrem eius."
         }
       },
-      "n1": {
+      "Fulda": {
         "major": {
           "comm_1": "MärtPl",
           "oration": "Herr, unser Gott, wir danken dir für deine Blutzeugen Simplicius, Faustinus und Beatrix, die durch ihr Martyrium wahrhaft Geschwister geworden sind. Die Gemeinschaft mit ihnen gebe unserem Glauben neue Kraft; ihre Fürbitte schenke uns Mut und Zuversicht.^ORV",
@@ -3488,7 +3559,7 @@ export const adlibData = {
       }
     },
     "12": {
-      "n1": {
+      "Fulda": {
         "major": {
           "comm_1": "Frau_Ord",
           "oration": "Barmherziger Gott, du hast die heilige Radegunde aus dem Glanz und der Bedrängnis der Welt in die Stille der Klosterzelle und in deinen Frieden geführt. Hilf uns, dass wir unsere Hoffnung nicht auf irdische Mittel setzen, sondern vertrauensvoll alles von dir erwarten.^ORV",
@@ -3530,7 +3601,7 @@ export const adlibData = {
       }
     },
     "13": {
-      "n1": {
+      "Fulda": {
         "major": {
           "comm_1": "Hirten",
           "comm_2": "Mann_Ord",
@@ -3576,7 +3647,7 @@ export const adlibData = {
       }
     },
     "14": {
-      "eig": {
+      "Fulda": {
         "each": {
           "comm_1": "Kirchw",
           "oration": "^RUBRIn der Fuldaer Kathedrale:^0RUBR^lGroßer und heiliger Gott, jedes Jahr feiern wir den Weihetag dieses heiligen Hauses. Höre auf die Bitten deines Volkes. Hilf uns, dass wir an diesem Ort in rechter Gesinnung den heiligen Dienst vollziehen und den Reichtum der Erlösungsgnade empfangen.^ORV^p^RUBRIn den übrigen Kirchen:^0RUBR^lErhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird.^ORV^ODERAllmächtiger Gott, du hast gewollt, dass dein Volk Kirche heiße, denn wir sind das Haus, in dem deine Herrlichkeit wohnt. Gib, dass die Gläubigen, die sich in deinem Namen versammeln, dich ehren, dich lieben und dir gehorchen damit sie unter deiner Führung das ewige Erbe erlangen.^ORV",
@@ -3585,10 +3656,33 @@ export const adlibData = {
         "Laudes": {
           "button": "Weihefest der Fuldaer Kathedrale"
         }
+      },
+      "n1": {
+        "major": {
+          "comm_1": "MärtSg",
+          "comm_2": "Mann_Ord",
+          "oration": "Gott, in deiner Kraft hat der heilige Maximilian Kolbe die Qualen des Martyriums ausgehalten und sein Leben für den Bruder in Christus hingegeben. Sieh auf unsere Schwachheit und gib uns die Kraft, deine Wahrheit und deine Liebe in unserem Leben und Sterben zu bezeugen.^ORV",
+          "oration_lat": "Deus, in cuius virtúte beátus martyr tuus Maximiliánus, ut ánimam suam pro fratre póneret, passiónis suæ torménta superávit, nostræ, quǽsumus, infirmitáti medére, ut sive per vitam sive per mortem veritátis et caritátis tuæ ostendámus vigórem.^ORlV"
+        },
+        "Lesehore": {
+          "patr_autor": "Maximilian Kolbe (†°1941)",
+          "patr_werk": "Aus der Schrift „Jedem ist der Weg gewiesen“.",
+          "patr_text": "^hDurch Leiden zur Herrlichkeit^pEs gibt keinen Menschen unter der Sonne, der nicht das Glück suchte. Bei allem, was wir tun, haben wir das Glück in dieser oder jener Form als Ziel vor Augen und streben ihm von Natur aus zu. Das Glück aber, das nicht auf der Wahrheit gegründet ist, kann ebensowenig von Dauer sein, wie die Unwahrheit von Dauer ist. Allein die Wahrheit ist das zuverlässige Fundament des Glücks, für den einzelnen Menschen wie für die gesamte Menschheit.^pDer Blick des Ungläubigen reicht nicht weiter als bis zum Sarge. Er kann der rein stofflichen Welt nicht entrinnen. Schaut euch diese Menschen an, die im tiefsten Materialismus befangen sind: Sie wagten es, der Menschheit das Glück zu verheißen. Alles, was die Welt geben kann, reicht doch für den Menschen nicht aus. Alle diese Güter haben doch ihre Grenzen. Sie enttäuschen und wecken das Verlangen nach einem größeren, dauerhaften Glück.^pDie Immaculata sagte in der Stunde der Verkündigung: „Ich bin die Magd des Herrn; mir geschehe, wie du es gesagt hast“{1#Lk 1,38}. Wie Gott es will, so soll es geschehen. In diesen Worten ist die ganze Glückseligkeit, aber auch unsere Aufgabe hier auf Erden eingeschlossen. Gott hat uns erschaffen, dass wir seine Werkzeuge seien. Bitten wir die heilige Mutter, dass sie uns lehrt, wie die Seele einer Magd des Herrn beschaffen sein soll.^pDas muss unser ganzes Bestreben sein, Gott dem Herrn die höchste Ehre zu erweisen. Wir müssen darum bemüht sein, Jesus so zu lieben, wie ihn seine heilige Mutter geliebt hat. Sie steht Gott am nächsten. Wenn wir uns ihr nähern, nähern wir uns damit Gott selbst.^pMitunter ist es wirklich schwierig im Leben, man meint, es gäbe keinen Ausweg mehr. Weil wir nicht alles wissen können, sehen wir den Zusammenhang nicht zwischen unserem eigentlichen Glück und den widrigen Umständen, die uns quälen. Was sollen wir also tun? Gott vertrauen. Durch solches Vertrauen – auch ohne letzte Einsicht in die Dinge – erweisen wir gleichzeitig Gott eine große Ehre, denn wir erkennen seine Weisheit, Güte und Macht an. Vergessen wir nicht, immer wieder mit Jesus auf dem Ölberg zu sprechen: „Nicht mein, sondern dein Wille geschehe.“ Wenn Gott es für richtig und gut findet, dass es so sei wie auf dem Ölberg, dass unsere Bitte keinen Erfolg haben soll und wir den Kelch bis zur Neige trinken müssen, dann wollen wir nicht vergessen, dass Jesus nicht nur gelitten hat, sondern danach in Herrlichkeit auferstanden ist. So müssen auch wir durch Leiden zur Auferstehung kommen.",
+          "patr_resp1": "Ich vertraue auf Gott und fürchte mich nicht. Was können Menschen mir antun?",
+          "patr_resp2": "Gott hat die Macht für ewige Zeiten.",
+          "patr_resp3": "Nur kurze Zeit müsst ihr leiden. Gott wird euch aufrichten und stärken."
+        },
+        "Laudes": {
+          "button": "Hl. Maximilian Maria Kolbe",
+          "farbe": "r",
+          "nominativ": "Der heilige Maximilian",
+          "genitiv": "des heiligen Maximilian Maria Kolbe",
+          "genitiv_lat": "sancti Maximiliáni"
+        }
       }
     },
     "16": {
-      "n1": {
+      "Fulda": {
         "major": {
           "comm_1": "Mann_Liebe",
           "oration": "Gütiger Gott, du hast den heiligen Rochus berufen, in schwerer Zeit den Kranken und Armen beizustehen. Höre auf seine Fürsprache: Bewahre uns vor Schaden an Leib und Seele und mache auch uns bereit, unseren Mitmenschen in Krankheit und Not zu helfen.^ORV",
@@ -3628,31 +3722,6 @@ export const adlibData = {
           "nominativ": "Der heilige Stephan",
           "genitiv": "des heiligen Stephan",
           "genitiv_lat": "sancti Stéphani"
-        }
-      }
-    },
-    "17": {
-      "n1": {
-        "major": {
-          "comm_1": "MärtSg",
-          "comm_2": "Mann_Ord",
-          "oration": "Gott, in deiner Kraft hat der heilige Maximilian Kolbe die Qualen des Martyriums ausgehalten und sein Leben für den Bruder in Christus hingegeben. Sieh auf unsere Schwachheit und gib uns die Kraft, deine Wahrheit und deine Liebe in unserem Leben und Sterben zu bezeugen.^ORV",
-          "oration_lat": "Deus, in cuius virtúte beátus martyr tuus Maximiliánus, ut ánimam suam pro fratre póneret, passiónis suæ torménta superávit, nostræ, quǽsumus, infirmitáti medére, ut sive per vitam sive per mortem veritátis et caritátis tuæ ostendámus vigórem.^ORlV"
-        },
-        "Lesehore": {
-          "patr_autor": "Maximilian Kolbe (†°1941)",
-          "patr_werk": "Aus der Schrift „Jedem ist der Weg gewiesen“.",
-          "patr_text": "^hDurch Leiden zur Herrlichkeit^pEs gibt keinen Menschen unter der Sonne, der nicht das Glück suchte. Bei allem, was wir tun, haben wir das Glück in dieser oder jener Form als Ziel vor Augen und streben ihm von Natur aus zu. Das Glück aber, das nicht auf der Wahrheit gegründet ist, kann ebensowenig von Dauer sein, wie die Unwahrheit von Dauer ist. Allein die Wahrheit ist das zuverlässige Fundament des Glücks, für den einzelnen Menschen wie für die gesamte Menschheit.^pDer Blick des Ungläubigen reicht nicht weiter als bis zum Sarge. Er kann der rein stofflichen Welt nicht entrinnen. Schaut euch diese Menschen an, die im tiefsten Materialismus befangen sind: Sie wagten es, der Menschheit das Glück zu verheißen. Alles, was die Welt geben kann, reicht doch für den Menschen nicht aus. Alle diese Güter haben doch ihre Grenzen. Sie enttäuschen und wecken das Verlangen nach einem größeren, dauerhaften Glück.^pDie Immaculata sagte in der Stunde der Verkündigung: „Ich bin die Magd des Herrn; mir geschehe, wie du es gesagt hast“{1#Lk 1,38}. Wie Gott es will, so soll es geschehen. In diesen Worten ist die ganze Glückseligkeit, aber auch unsere Aufgabe hier auf Erden eingeschlossen. Gott hat uns erschaffen, dass wir seine Werkzeuge seien. Bitten wir die heilige Mutter, dass sie uns lehrt, wie die Seele einer Magd des Herrn beschaffen sein soll.^pDas muss unser ganzes Bestreben sein, Gott dem Herrn die höchste Ehre zu erweisen. Wir müssen darum bemüht sein, Jesus so zu lieben, wie ihn seine heilige Mutter geliebt hat. Sie steht Gott am nächsten. Wenn wir uns ihr nähern, nähern wir uns damit Gott selbst.^pMitunter ist es wirklich schwierig im Leben, man meint, es gäbe keinen Ausweg mehr. Weil wir nicht alles wissen können, sehen wir den Zusammenhang nicht zwischen unserem eigentlichen Glück und den widrigen Umständen, die uns quälen. Was sollen wir also tun? Gott vertrauen. Durch solches Vertrauen – auch ohne letzte Einsicht in die Dinge – erweisen wir gleichzeitig Gott eine große Ehre, denn wir erkennen seine Weisheit, Güte und Macht an. Vergessen wir nicht, immer wieder mit Jesus auf dem Ölberg zu sprechen: „Nicht mein, sondern dein Wille geschehe.“ Wenn Gott es für richtig und gut findet, dass es so sei wie auf dem Ölberg, dass unsere Bitte keinen Erfolg haben soll und wir den Kelch bis zur Neige trinken müssen, dann wollen wir nicht vergessen, dass Jesus nicht nur gelitten hat, sondern danach in Herrlichkeit auferstanden ist. So müssen auch wir durch Leiden zur Auferstehung kommen.",
-          "patr_resp1": "Ich vertraue auf Gott und fürchte mich nicht. Was können Menschen mir antun?",
-          "patr_resp2": "Gott hat die Macht für ewige Zeiten.",
-          "patr_resp3": "Nur kurze Zeit müsst ihr leiden. Gott wird euch aufrichten und stärken."
-        },
-        "Laudes": {
-          "button": "Hl. Maximilian Maria Kolbe",
-          "farbe": "r",
-          "nominativ": "Der heilige Maximilian",
-          "genitiv": "des heiligen Maximilian Maria Kolbe",
-          "genitiv_lat": "sancti Maximiliáni"
         }
       }
     },
@@ -4204,17 +4273,28 @@ export const adlibData = {
     },
     "21": {
       "eig": {
-        "major": {
+        "each": {
           "comm_1": "Apostel",
+          "oration": "Barmherziger Gott, du hast deinen Sohn gesandt, zu suchen und zu retten, was verloren war; in erbarmender Liebe hat er den Zöllner Matthäus zum Apostel berufen. Hilf uns auf die Fürsprache dieses heiligen Evangelisten, mit ganzer Treue Christus nachzufolgen, wie er es getan hat.^ORV",
           "oration_lat": "Deus, qui ineffábili misericórdia beátum Matthǽum ex publicáno Apóstolum es dignátus elígere, da nobis, eius exémplo et intercessióne suffúltis, ut, te sequéntes, tibi fírmiter adhærére mereámur.^ORlV"
         },
+        "Lesehore": {
+          "patr_autor": "Beda Venerabilis († 735)",
+          "patr_werk": "Aus einer Homilie zum Festtag des Evangelisten Matthäus.",
+          "patr_text": "^hJesus sah ihn an mit dem Blick des Erbarmens und der Erwählung^p„Jesus sah einen Mann namens Matthäus am Zoll sitzen und sagte zu ihm: Folge mir nach!“ {1#Mt 9,9} Er sah ihn nicht so sehr mit dem Blick seiner leiblichen Augen, als vielmehr mit dem inneren Blick des Erbarmens. Er sah den Zöllner, und weil er ihn mit dem Blick des Erbarmens und der Erwählung ansah, sprach er zu ihm: „Folge mir!“ „Folgen“ aber meinte: „nachahmen“, folgen nicht mit den Füßen, sondern mit der Tat des Lebens: „Wer sagt, dass er in ihm bleibt, muss auch leben, wie er gelebt hat.“ {2#1 Joh 2,6}^p„Da stand er auf“, heißt es, „und folgte ihm.“ Man darf sich nicht wundern, dass der Zöllner gleich auf das erste Befehlswort des Herrn den irdischen Gewinn, an den er sich bisher bemühte, aufgab, sein Vermögen für nichts achtete und sich den Jüngern eines Mannes anschloss, der offensichtlich keine Reichtümer besaß. Denn derselbe Herr, der ihn außen mit seinem Wort anrief, gab ihm im Innern unsichtbar den Ruf zur Nachfolge ein und ließ ihn durch das Licht geistlicher Gnade begreifen: Der auf der Erde vom Zeitlichen weggeruft, hat die Macht, im Himmel unvergängliche Schätze zu verleihen.^p„Als Jesus im Haus des Zöllners beim Essen saß, kamen viele Zöllner und Sünder und aßen mit ihm und seinen Jüngern.“ {3#Mt 9,10} Die Bekehrung des einen Zöllners gab vielen Zöllnern und Sündern das Beispiel der Buße und der Vergebung. Es war bei ihm, der Lehrer und Apostel der Völker werden wollte, ein schönes und echtes Vorzeichen, dass er in seinen ersten Lebensabschnitten Scharen von Sündern hinter sich her zum Heil zog. Die Aufgabe der Verkündigung, die er mit dem Fortschreiten in der Tugend erfüllen sollte, begann er gleich mit den ersten Anfängen des Glaubens. Wenn wir daher eine tiefere Einsicht in die Ereignisse gewinnen wollen, so müssen wir beachten, dass Matthäus dem Herrn nicht allein in seinem irdischen Haus ein Gastmahl für den Leib zurüstete, sondern ihm in seinem Herzen ein viel reicheres Mahl durch Glaube und Liebe bereitete. Jesus selbst bezeugt es: „Ich stehe vor der Tür und klopfe an. Wer meine Stimme hört und die Tür öffnet, bei dem werde ich eintreten, und wir werden Mahl halten, ich mit ihm und er mit mir.“ {4#Offb 3,20}^pWir hören seine Stimme und öffnen die Tür, um ihn aufzunehmen, wenn wir seine geheimen oder offenen Mahnungen annehmen und uns bemühen, auszuführen, was offensichtlich getan werden muss. Der Herr tritt aber ein, um mit uns ein Mahl zu halten und wir mit ihm. Denn er wohnt durch die Gnade seiner Liebe in den Herzen der Auserwählten und erquickt sie mit dem Licht seiner Gegenwart.",
+          "patr_resp1": "Niemals wurde eine Weissagung ausgesprochen, weil ein Mensch es wollte:",
+          "patr_resp2": "Vom Heiligen Geist getrieben, haben Menschen im Auftrag Gottes geredet.",
+          "patr_resp3": "Denn der Herr gibt Weisheit, aus seinem Mund kommen Erkenntnis und Einsicht."
+        },
         "Laudes": {
-          "button": "Hl. Mattäus",
+          "button": "Hl. Matthäus",
           "farbe": "r",
+          "antev": "Jesus sah einen Mann mit Namen Matthäus an der Zollstätte sitzen und sagte zu ihm: Folge mir! Da stand Matthäus auf und folgte ihm.",
           "antev_lat": "Vidit Iesus hóminem sedéntem in telóneo, Matthǽum nómine; et ait illi: Séquere me. Et surgens secútus est eum.",
           "hymn_1_lat": 8921.0
         },
         "Vesper": {
+          "antev": "Barmherzigkeit will ich, nicht Opfer: Ich bin gekommen, die Sünder zu berufen, nicht die Gerechten.",
           "antev_lat": "Misericórdiam volo, et non sacrifícium, dicit Dóminus; non enim veni vocáre iustos, sed peccatóres.",
           "hymn_1_lat": 8921.0
         }
@@ -4230,10 +4310,10 @@ export const adlibData = {
         "Lesehore": {
           "patr_autor": "Eucherius von Lyon (†°um 450)",
           "patr_werk": "Aus einem Bericht über das Martyrium des heiligen Mauritius und seiner Gefährten.",
-          "patr_text": "^hSie gaben Gott, was Gottes war^pIm Heere des Maximianus gab es eine Legion Soldaten, die Thebäer hießen, hervorragend an Tapferkeit, noch hervorragender durch Glaubenstreue. für den Kaiser kämpften sie mit Tapferkeit, für Christus aber mit ihrer Frömmigkeit. Auch als Soldaten vergaßen sie das Gebot des Evangeliums nicht und gaben Gott, was Gottes, und dem Kaiser, was des Kaisers war. Als sie, wie andere Gruppen auch, zu gewaltsamem Vorgehen gegen die zahlreichen Christen aufgeboten wurden, waren sie es allein, die den grausamen Befehl zu verweigern wagten und erklärten, sie würden solchen Weisungen nicht gehorchen.^pAls Maximianus diese Antwort der Thebäer vernahm, ließ er jeden zehnten Mann der Legion mit dein Schwert hinrichten. Als aber der Befehl zum zweitenmal an die Thebäer erging, und sie erkannten, dass sie wieder zu verbrecherischen Handlungen verpflichtet werden sollten, erhob sich im Lager überall Lärm und Aufruhr. Alle schrien, keiner werde je zu solchen Verbrechen Beihilfe leisten. Sie zögen es vor, eher den Tod zu erleiden, als Befehlen gegen den christlichen Glauben zu folgen. Als Maximianus davon erfuhr, ließ er, grausamer als jedes Raubtier, wiederum jeden zehnten Mann hinrichten. Die übrigen Soldaten aber munterten sich gegenseitig auf, in diesem herrlichen Kampfe durchzuhalten.^pDen größten Überredungseifer zeigte dabei Mauritius, der nach der Überlieferung in der Legion den Rang eines Obersten innehatte. Gemeinsam mit dem Offizier Exsuperius, der die Soldaten ausbildete, und dem Soldatensenator Candidus, stärkte er den Glauben dadurch, dass sie jeden einzelnen Mann ermunterten und ermahnten. Gestärkt durch diese Offiziere, ließen sie Maximianus ihren Entschluss übermitteln.^pAls er ihn vernommen hatte, gab er die Hoffnung auf, ihre Standhaftigkeit erschüttern zu können, gab den Befehl, aufgrund eines einzigen Urteils alle hinzurichten und ließ zur Vollstreckung von allen Seiten zahlreiche Truppen heranziehen. So wurden alle mit dem Schwert enthauptet, ohne dass sie sich widersetzten. Sie legten ihre Waffen freiwillig nieder und hielten den Nacken ihren Henkern hin.",
+          "patr_text": "^hSie gaben Gott, was Gottes war^pIm Heere des Maximianus gab es eine Legion Soldaten, die Thebäer hießen, hervorragend an Tapferkeit, noch hervorragender durch Glaubenstreue. Für den Kaiser kämpften sie mit Tapferkeit, für Christus aber mit ihrer Frömmigkeit. Auch als Soldaten vergaßen sie das Gebot des Evangeliums nicht und gaben Gott, was Gottes, und dem Kaiser, was des Kaisers war. Als sie, wie andere Gruppen auch, zu gewaltsamem Vorgehen gegen die zahlreichen Christen aufgeboten wurden, waren sie es allein, die den grausamen Befehl zu verweigern wagten und erklärten, sie würden solchen Weisungen nicht gehorchen.^pAls Maximianus diese Antwort der Thebäer vernahm, ließ er jeden zehnten Mann der Legion mit dem Schwert hinrichten. Als aber der Befehl zum zweitenmal an die Thebäer erging, und sie erkannten, dass sie wieder zu verbrecherischen Handlungen verpflichtet werden sollten, erhob sich im Lager überall Lärm und Aufruhr. Alle schrien, keiner werde je zu solchen Verbrechen Beihilfe leisten. Sie zögen es vor, eher den Tod zu erleiden, als Befehlen gegen den christlichen Glauben zu folgen. Als Maximianus davon erfuhr, ließ er, grausamer als jedes Raubtier, wiederum jeden zehnten Mann hinrichten. Die übrigen Soldaten aber munterten sich gegenseitig auf, in diesem herrlichen Kampfe durchzuhalten.^pDen größten Überredungseifer zeigte dabei Mauritius, der nach der Überlieferung in der Legion den Rang eines Obersten innehatte. Gemeinsam mit dem Offizier Exsuperius, der die Soldaten ausbildete, und dem Soldatensenator Candidus, stärkte er den Glauben dadurch, dass sie jeden einzelnen Mann ermunterten und ermahnten. Gestärkt durch diese Offiziere, ließen sie Maximianus ihren Entschluss übermitteln.^pAls er ihn vernommen hatte, gab er die Hoffnung auf, ihre Standhaftigkeit erschüttern zu können, gab den Befehl, aufgrund eines einzigen Urteils alle hinzurichten und ließ zur Vollstreckung von allen Seiten zahlreiche Truppen heranziehen. So wurden alle mit dem Schwert enthauptet, ohne dass sie sich widersetzten. Sie legten ihre Waffen freiwillig nieder und hielten den Nacken ihren Henkern hin.",
           "patr_resp1": "Die Heiligen vergossen ihr Blut für den Herrn, sie liebten Christus in ihrem Leben und folgten ihm nach bis in den Tod.",
           "patr_resp2": "Darum schenkte ihnen der Herr den Siegeskranz.",
-          "patr_resp3": "EIN Geist und Ein Glaube war in ihnen."
+          "patr_resp3": "EIN Geist und EIN Glaube war in ihnen."
         },
         "Laudes": {
           "button": "Hll. Mauritius und Gefährten",
@@ -4293,7 +4373,7 @@ export const adlibData = {
         "Lesehore": {
           "patr_autor": "Niklaus von Flüe (†°1487)",
           "patr_werk": "Aus einem Dankbrief von Bruder Klaus an die Ratsherren von Bern.",
-          "patr_text": "^hFriede ist allweg in Gott^pDer Name Jesus sei Euer Gruß, und wir wünschen Euch viel Gutes, und der Heilige Geist sei Euer letzter Lohn.^pIch danke Euch aufrichtig und innig für die freundliche Gabe, denn ich erkenne dadurch Eure väterliche Liebe, die mich weit mehr erfreute als die Gabe selbst. Ihr sollt wissen, dass ich sehr zufrieden bin. Und wäre die Gabe noch um die Hälfte kleiner, so wäre ich sehr wohl zufrieden; und wenn es mir möglich wäre, Eure Liebe gegen Gott und die Welt zu vergelten, so wäre ich mit gutem Willen bereit, es zutun. Der Bote, dem Ihr es aufgetragen habt, hat es mir überbracht, lasst ihn Euch empfohlen sein.^pAus Liebe schreibe ich Euch noch mehr.^pGehorsam ist die größte Ehre, die es im Himmel und auf Erden gibt, weshalb Ihr trachten müsst, einander gehorsam zu sein, und Weisheit ist das allerliebste, denn sie fängt alle Dinge am besten an. Friede ist allweg in Gott, denn Gott ist der Friede, und Friede mag nicht zerstört werden, Unfriede aber wird zerstört.^pDarum sollt Ihr schauen, dass Ihr auf Frieden stellet, Witwen und Waisen beschirmt, wie Ihr es bisher getan habt. Und wessen Glück sich hienieden mehret, der soll Gott dafür dankbar sein, so wird es sich auch im Himmel mehren. Den offenen Sünden soll man wehren und der Gerechtigkeit allwegs beistehen. Ihr sollt auch das Leiden Gottes in Eurem Herzen tragen, denn es ist des Menschen größter Trost an seinem letzten Ende.^pMancher Mensch ist zweifelhaftig in seinem Glauben, und der Teufel tut manchen Angriff im Glauben und allermeist durch den Glauben. Wir sollen aber darin nicht zweifelhaft sein, denn er ist so, wie er gesetzt ist.^pUnd ich schreibe Euch dies, nicht weil ich etwa glaube, dass Ihr nicht recht glaubt, ich zweifle nicht daran, dass Ihr gute Christen seid, ich schreibe es Euch zu einer Ermahnung, dass Ihr, wenn der böse Feind Euch anficht, desto ritterlicher widersteht.^pIch schließe. Gott sei mit Euch.^lGegeben am Sankt-Barbara-Tag im 82. Jahr.",
+          "patr_text": "^hFriede ist allweg in Gott^pDer Name Jesus sei Euer Gruß, und wir wünschen Euch viel Gutes, und der Heilige Geist sei Euer letzter Lohn.^pIch danke Euch aufrichtig und innig für die freundliche Gabe, denn ich erkenne dadurch Eure väterliche Liebe, die mich weit mehr erfreute als die Gabe selbst. Ihr sollt wissen, dass ich sehr zufrieden bin. Und wäre die Gabe noch um die Hälfte kleiner, so wäre ich sehr wohl zufrieden; und wenn es mir möglich wäre, Eure Liebe gegen Gott und die Welt zu vergelten, so wäre ich mit gutem Willen bereit, es zu tun. Der Bote, dem Ihr es aufgetragen habt, hat es mir überbracht, lasst ihn Euch empfohlen sein.^pAus Liebe schreibe ich Euch noch mehr.^pGehorsam ist die größte Ehre, die es im Himmel und auf Erden gibt, weshalb Ihr trachten müsst, einander gehorsam zu sein, und Weisheit ist das allerliebste, denn sie fängt alle Dinge am besten an. Friede ist allweg in Gott, denn Gott ist der Friede, und Friede mag nicht zerstört werden, Unfriede aber wird zerstört.^pDarum sollt Ihr schauen, dass Ihr auf Frieden stellet, Witwen und Waisen beschirmt, wie Ihr es bisher getan habt. Und wessen Glück sich hienieden mehret, der soll Gott dafür dankbar sein, so wird es sich auch im Himmel mehren. Den offenen Sünden soll man wehren und der Gerechtigkeit allwegs beistehen. Ihr sollt auch das Leiden Gottes in Eurem Herzen tragen, denn es ist des Menschen größter Trost an seinem letzten Ende.^pMancher Mensch ist zweifelhaftig in seinem Glauben, und der Teufel tut manchen Angriff im Glauben und allermeist durch den Glauben. Wir sollen aber darin nicht zweifelhaft sein, denn er ist so, wie er gesetzt ist.^pUnd ich schreibe Euch dies, nicht weil ich etwa glaube, dass Ihr nicht recht glaubt; ich zweifle nicht daran, dass Ihr gute Christen seid. Ich schreibe es Euch zu einer Ermahnung, dass Ihr, wenn der böse Feind Euch anficht, desto ritterlicher widersteht.^pIch schließe. Gott sei mit Euch.^lGegeben am Sankt-Barbara-Tag im 82. Jahr.",
           "patr_resp1": "Friede ist allweg in Gott, denn Gott ist der Friede.",
           "patr_resp2": "Selig, die Frieden stiften; sie werden Söhne Gottes genannt werden.",
           "patr_resp3": "Ehre sei dem Vater und dem Sohn und dem Heiligen Geist."
@@ -4359,6 +4439,59 @@ export const adlibData = {
         },
         "Vesper": {
           "antev": "Was ihr dem Geringsten meiner Brüder getan habt, das habt ihr mir getan."
+        }
+      }
+    },
+    "28": {
+      "n1": {
+        "major": {
+          "comm_1": "Jgfr",
+          "oration": "Allmächtiger Gott, du hast die heilige Äbtissin Lioba dazu berufen, am Missionswerk des heiligen Bonifatius mitzuwirken. Gib auch unserer Zeit Männer und Frauen, die durch ihr Gebet und ihre Arbeit in unserem Volk den Glauben lebendig erhalten.^ORV",
+          "oration_lat": "Deus, qui beátam Líobam in evangélio propagándo beáto Bonifátio sóciam dedísti, mitte, quǽsumus, operários in messem tuam, quorum prece et zelo apostólico in pópulo nostro fides semper vera profíciat.^ORlV"
+        },
+        "Lesehore": {
+          "patr_autor": "Rudolf von Fulda († 865)",
+          "patr_werk": "Aus der Lebensbeschreibung der heiligen Lioba.",
+          "patr_text": "^hEine Frau von großen Tugenden^pBonifatius gab den Klöstern die Regel, nach der sie ihr Leben ausrichten sollten, und bestellte für sie treue Hüter. Den Mönchen gab er Sturmius zum Abt, für die Jungfrauen bestimmte er die Jungfrau Lioba zur geistlichen Mutter und wies ihr das Kloster in Tauberbischofsheim zu, wo eine nicht geringe Anzahl von Dienerinnen Gottes lebte. Diese wurden nach dem Vorbild ihrer heiligen Meisterin Lioba durch das Studium der christlichen Lehre gebildet. Sie machten durch diese Unterweisung solche Fortschritte, dass mehrere von ihnen später selbst Meisterinnen wurden. So kam es, dass es in jenen Gebieten keine oder kaum Frauenklöster gab, die sich nicht um Lehrerinnen aus der Zahl ihrer Schülerinnen bemüht hätten. ^pLioba war eine Frau von großen Tugenden und stand so fest zu ihrer einmal übernommenen Lebens­aufgabe, dass sie nicht an ihre Heimat und Ver­wandt­schaft dachte, sondern allen Eifer auf das begonnene Werk verwandte. Sie erwies sich untade­lig vor Gott und war all ihren Untergebenen ein Vor­bild der Heiligkeit in Wort und Tat. Ihr Aussehen war wie das eines Engels, ihr Wort erfreute das Herz, ihr Verstand war klar, ihre Klugheit groß, ihr Glaube katholisch, ihre Hoffnung ausdauernd, ihre Liebe sich selbst verströmend. Niemals hat jemand einen Fluch aus ihrem Mund gehört, niemals ging die Sonne über ihrem Zorn unter {1#vgl.°Eph°4,26}. Speise und Trank bot sie zwar anderen mit größter Zuvor­kommenheit an, nahm sie aber für sich nur mit äußerster Mäßigung. ^pDer Schriftlesung oblag sie mit solchem Eifer, dass sie das heilige Buch nicht aus der Hand legte außer beim Beten, Essen und Schlafen. Mit scharfem Ver­stand studierte sie die Bücher des Alten und Neuen Testamentes und prägte die göttlichen Gebote ihrem Gedächtnis ein. Darüber hinaus fügte sie der reichen Fülle ihres Wissens noch die Sprüche der Kirchen­väter, die Beschlüsse der Konzilien und die Bestim­mungen der ganzen kirchlichen Rechtsordnung hinzu.^pAlles, was sie tat und bestimmte, war reiflich über­legt; bei allem, was sie tat, bedachte sie zuvor den Ausgang, um nicht später etwas bereuen zu müssen, was, unüberlegt begonnen, nicht vollendet werden konnte.^pDa sie sich bewusst war, dass zu eifrigem Beten und fleißigem Lesen geistige Spannkraft nötig ist, pflegte sie im Wachen wie auch im übrigen Tugendstreben immer Maß zu halten. ^pBesonders sorgfältig pflegte Lioba die Gastfreund­schaft: Allen, ohne Unterschied der Person, öffnete sie ihr Haus und bereitete ihnen wie eine sorgende Mutter das Mahl, während sie selber fastete. Auch wusch sie allen mit eigenen Händen die Füße, um die Anordnung des Herrn dienend zu befolgen.",
+          "patr_resp1": "Seid einander in Liebe verbunden, in Demut schätze einer den anderen höher ein als sich selbst.",
+          "patr_resp2": "Jeder achte nicht nur auf das eigene Wohl, sondern auch auf das der anderen.",
+          "patr_resp3": "Nehmt euch der Schwachen an, seid geduldig mit allen; bemüht euch immer, einander und allen Gutes zu tun."
+        },
+        "Laudes": {
+          "button": "Hl. Lioba",
+          "nominativ": "Die heilige Lioba",
+          "genitiv": "der heiligen Lioba"
+        }
+      },
+      "n2": {
+        "major": {
+          "comm_1": "MärtSg",
+          "oration": "Gott, du König der ewigen Herrlichkeit, du hast den heiligen Märtyrer Wenzel gelehrt, das himmlische Reich höher zu schätzen als die irdische Herrschaft. Auf seine Fürsprache hin gib uns die Kraft, eher auf Erfolg und Ansehen zu verzichten, als dich zu verlieren.^ORlV",
+          "oration_lat": "comm:"
+        },
+        "Lesehore": {
+          "patr_autor": "LEER",
+          "patr_werk": "Aus dem ersten altslawischen Heiligenlektionar.",
+          "patr_text": "^hDer Thron des Königs, dere die Armen in Wahrhaftigkeit richtet, wird für ewig gefestigt.^pAls Wratislaw, der Vater Wenzels, gestorben war, …",
+          "patr_resp1": "Der Gerechte gedeiht wie die Palme",
+          "patr_resp2": "und blüht vor dem Herrn auf ewig.",
+          "patr_resp3": "Er ist gepflanzt im Hause des Herrn, in den Vorhöfen unseres Gottes,"
+        },
+        "Laudes": {
+          "button": "Hl. Wenzel",
+          "farbe": "r"
+        }
+      },
+      "n3": {
+        "major": {
+          "comm_1": "MärtPl",
+          "oration_lat": "comm:"
+        },
+        "Laudes": {
+          "button": "Hl. Lorenzo Ruiz und Gefährten",
+          "farbe": "r",
+          "genitiv": "des heiligen Lorenzo Ruiz und seiner Gefährten",
+          "genitiv_lat": "sancti Lauréntii et eius sociórum"
         }
       }
     },
@@ -4493,7 +4626,7 @@ export const adlibData = {
       }
     },
     "9": {
-      "n1": {
+      "Fulda": {
         "major": {
           "comm_1": "Mann_Ord",
           "oration": "Allmächtiger Gott, der heilige Einsiedler Gunther hat den Menschen als Helfer in der Not und als Friedensstifter gedient. Gib, dass wir aus christlichem Geist unseren Brüdern in selbstloser Liebe begegnen und stets für den Frieden eintreten.^ORV",
@@ -4631,7 +4764,7 @@ export const adlibData = {
       }
     },
     "16": {
-      "n1": {
+      "Fulda": {
         "major": {
           "comm_1": "Hirten",
           "oration": "Herr, unser Gott, du hast den heiligen Lullus mit apostolischem Eifer erfüllt und ihn dem heiligen Bonifatius zum Mitarbeiter und Nachfolger gegeben. Höre auf seine Fürsprache, mache uns treu im Glauben und stark in der Hoffnung, die uns das Evangelium schenkt.^ORV",
@@ -4932,7 +5065,7 @@ export const adlibData = {
       }
     },
     "26": {
-      "n1": {
+      "Fulda": {
         "major": {
           "comm_1": "Hirten",
           "oration": "Allmächtiger Gott, du hast den heiligen Witta mit deiner Liebe erfüllt; du hast ihm jenen Glauben geschenkt, der die Welt überwindet, und ihn aufgenommen in die Schar der heiligen Bischöfe. Mache auch uns auf seine Fürsprache treu im Glauben und beharrlich in der Liebe, damit wir an seiner Herrlichkeit Anteil erlangen.^ORV",
@@ -5358,6 +5491,26 @@ export const adlibData = {
         }
       }
     },
+    "19": {
+      "eig": {
+        "major": {
+          "comm_1": "Frau_Liebe",
+          "oration": "Gott, du Vater der Armen, du hast der heiligen Elisabeth ein waches Herz für die Armen gegeben, in denen sie Christus erkannte und verehrte. Auf ihre Fürsprache gib auch uns den Geist deiner Liebe und leite uns an zu helfen, wo Menschen in Not und Bedrängnis sind.^ORV",
+          "oration_lat": "Deus, qui beátæ Elísabeth tribuísti in paupéribus Christum cognóscere ac venerári, da nobis, eius intercessióne, egénis et tribulátis iugi caritáte servíre.^ORlV"
+        },
+        "Lesehore": {
+          "patr_autor": "Konrad von Marburg († 1233)",
+          "patr_werk": "Aus einem Brief an Papst Gregor IX.",
+          "patr_text": "^hElisabeth sah und liebte in den Armen Christus^pSchon früh begann Elisabeth in der Tugend zu er­starken. Wie sie in ihrem ganzen Leben eine Tröste­rin der Armen war, so wurde sie ganz und gar eine Wohltäterin der Hungernden, als sie bei einer ihrer Burgen ein Spital errichten ließ, in dem sie viele Kranke und Schwache aufnahm. An alle, die sie um ein Almosen baten, teilte sie dort in reichem Maß Liebesgaben aus und das nicht nur dort, sondern auf dem ganzen Gebiet des Landgrafen. Die gesamten Einkünfte, die sie aus vier Herrschaften ihres Gemahls bezog, gab sie so restlos aus, dass sie zuletzt ihren ganzen persönlichen Aufwand und ihre kostbaren Kleider für die Armen verkaufen ließ.^pZweimal am Tag, morgens und abends, pflegte sie alle ihre Kranken selbst zu besuchen und versorgte dabei die besonders Abstoßenden unter ihnen persönlich. Dem einen reichte sie das Essen, den anderen bettete sie, wieder andere trug sie auf der Schulter und erwies ihnen viele menschliche Dienste. All dem schaute ihr Gatte seligen Andenkens nicht ungnädig zu. Als er gestorben war, wollte Elisabeth nach der höchsten Vollkommenheit streben und bat mich unter vielen Tränen, ihr zu erlauben, von Tür zu Tür zu betteln.^pAm Karfreitag, als die Altäre entblößt waren, legte sie in einer Kapelle ihrer Stadt, wo sie die Franziska­ner angesiedelt hatte, in Gegenwart einiger Zeugen die Hände auf den Altar und verzichtete auf ihren eigenen Willen, auf allen weltlichen Aufwand und auf alles, was man nach dem Rat, den der Erlöser im Evangelium gibt, verlassen soll. Als sie dann erkann­te, dass die Unrast der Welt und der irdische Glanz, in dem sie zu Lebzeiten ihres Mannes hochgeehrt gelebt hatte, sie immer noch voll beanspruchen könnte, folgte sie mir gegen meinen Willen nach Marburg. Dort erbaute sie in der Stadt ein Spital, sammelte die Kranken und Schwachen und setzte die Elendesten und Verachtetsten zu sich an den Tisch.^pAbgesehen von diesem ihrem tätigen Leben, muss ich vor Gott bekennen, dass ich noch selten eine Frau gekannt habe, die in höherem Grade auch die Gabe der Beschauung gehabt hätte. Einige Ordensfrauen und Ordensmänner haben sie gesehen, wenn sie aus der Zurückgezogenheit des Betens kam. Dann leuch­tete häufig ihr Gesicht, und aus ihren Augen drangen Strahlen wie von der Sonne.^pVor dem Tod habe ich ihre Beichte gehört. Als ich sie fragte, was wegen ihres Besitzes und des Hausrates verfügt werden solle, erwiderte sie, was sie schon lange nur scheinbar besitze, gehöre den Armen. Sie bat mich, alles zu verteilen bis auf das abgetragene Hemd, das sie anhatte und mit dem sie begraben werden wolle. Darauf empfing sie den Leib des Herrn und sprach bis gegen Abend immer wieder von dem Besten, was sie in Predigten gehört hatte. Dann empfahl sie in tiefer Frömmigkeit die Umstehenden Gott und hauchte den Geist aus, als ob sie nur in einen sanften Schlaf sinke.",
+          "patr_resp1": "Elisabeth hat den Heiligen die Füße gewaschen, hat den Bedrängten geholfen.",
+          "patr_resp2": "Auf jedes gute Werk war sie bedacht.",
+          "patr_resp3": "Darum hat Gott sie zum Ruhm für die Jahrhunderte gemacht und zur Freude für alle Generationen."
+        },
+        "Laudes": {
+          "button": "Hl. Elisabeth"
+        }
+      }
+    },
     "21": {
       "eig": {
         "major": {
@@ -5523,19 +5676,7 @@ export const adlibData = {
   },
   "12": {
     "1": {
-      "n2": {
-        "major": {
-          "comm_1": "Mann_Ord",
-          "oration": "Gott, unser Vater, du hast den heiligen Bruder Karl ^(Charles de Foucauld^) berufen, deinen Sohn Jesus von Nazaret nachzuahmen. Gewähre uns auf seine Fürsprache, dass wir, gestärkt durch die Eucharistie, Tag für Tag in der Liebe wachsen und in der Geschwisterlichkeit mit allen Menschen.^ORV"
-        },
-        "Laudes": {
-          "button": "Hl. Charles de Foucauld",
-          "nominativ": "Der heilige Charles de Foucauld",
-          "genitiv": "des heiligen Charles de Foucauld",
-          "genitiv_lat": "sancti "
-        }
-      },
-      "siehe Export": {
+      "Fulda": {
         "major": {
           "comm_1": "Hirten",
           "oration": "Ewiger Gott, bei seiner Bischofsweihe hat der heilige Bonifatius am Grab des heiligen Petrus ein feierliches Bekenntnis zum katholischen Glauben und zur Einheit der Kirche abgelegt. Erhalte dein Volk im gleichen Bekenntnis und sende ihm allzeit würdige Hirten.^ORV"
@@ -5556,6 +5697,18 @@ export const adlibData = {
         },
         "Vesper": {
           "antev": "Dank sei dir, Christus, guter Hirte! Du hast mich zur Herrlichkeit geführt, gib auch der Herde, die du mir anvertraut hast, Anteil an deiner Gnade auf ewig."
+        }
+      },
+      "n2": {
+        "major": {
+          "comm_1": "Mann_Ord",
+          "oration": "Gott, unser Vater, du hast den heiligen Bruder Karl ^(Charles de Foucauld^) berufen, deinen Sohn Jesus von Nazaret nachzuahmen. Gewähre uns auf seine Fürsprache, dass wir, gestärkt durch die Eucharistie, Tag für Tag in der Liebe wachsen und in der Geschwisterlichkeit mit allen Menschen.^ORV"
+        },
+        "Laudes": {
+          "button": "Hl. Charles de Foucauld",
+          "nominativ": "Der heilige Charles de Foucauld",
+          "genitiv": "des heiligen Charles de Foucauld",
+          "genitiv_lat": "sancti "
         }
       }
     },
@@ -5660,26 +5813,7 @@ export const adlibData = {
       }
     },
     "5": {
-      "n1": {
-        "major": {
-          "comm_1": "Hirten",
-          "oration": "Allmächtiger Gott, erhöre unser Gebet am Gedenktag des heiligen Bischofs Anno, der allen, für die er Verantwortung trug, ein Helfer und ein leuchtendes Vorbild war. Gib, dass auch wir seine Fürsprache und seine Hilfe erfahren.^ORV"
-        },
-        "Lesehore": {
-          "patr_autor": "Augustinus (†°430)",
-          "patr_werk": "Aus den Predigten über das Johannesevangelium.",
-          "patr_text": "^hDas Leben – ein Streit^pWenn wir den irdischen Weg zurückgelegt haben und in das Vaterland gekommen sind, wer wird sich dann mehr freuen als wir, wer wird seliger sein als wir? Weil es ja nichts Friedlicheres geben wird; denn nichts wird sich mehr gegen den Menschen auflehnen.^pJetzt aber, Brüder, leben wir nur schwer ohne Streit. Zur Eintracht sind wir zwar berufen, wir sollen Frieden halten untereinander; danach sollen wir streben und mit allen Kräften darauf hinarbeiten, dass wir einst zum vollendeten Frieden kommen; jetzt aber streiten wir häufig mit denen, für die wir sorgen wollen.^pDa verläuft sich einer, du willst ihn auf den rechten Weg führen; er aber setzt dir Widerstand entgegen, und du streitest. Du weisest auch deinen dir nahestehenden Bruder zurecht, er weilt bei dir im Hause, sucht aber verkehrte Wege; du bist in Sorge, wie du ihn besserst, damit du über ihn dem Herrn gute Rechenschaft ablegen kannst. Wie viele unvermeidliche Streitigkeiten auf allen Seiten!^pSehr häufig sagt ein Mensch im Überdruss bei sich selbst: Warum soll ich die Widersacher ertragen, die Gutes mit Bösem vergelten? Ich möchte ihnen helfen, sie aber wollen zugrunde gehen. Ich verzehre mein Leben mit Streiten, ich habe keinen Frieden. Ich mache mir zudem noch jene zu Feinden, die ich zu Freunden haben müsste, wenn sie nur auf die wohlwollende Gesinnung ihres Helfers Rücksicht nehmen würden. Warum soll ich das alles erleiden? Ich will mich auf mich zurückziehen, bei mir selber Einkehr halten und meinen Gott anrufen.^pZiehst du dich aber auf dich selbst zurück, findest du auch da Streit. Was für einen Streit, sagst du, finde ich da! Das Begehren des Fleisches richtet sich gegen den Geist, das Begehren des Geistes aber gegen das Fleisch{1#Gal 5,17}. Siehe, du selbst bist es. siehe, du bist allein, siehe, du bist bei dir selbst eingekehrt, siehe, du hast es mit keinem anderen zu tun; aber du siehst ein anderes Gesetz in deinen Gliedern, das mit dem Gesetz deiner Vernunft im Streit liegt und dich gefangen hält im Gesetz der Sünde, von dem deine Glieder beherrscht werden{2#Röm 7,23}.^pRufe also aus deinem inneren Streit zu Gott, damit er dir Frieden gibt: „Ich unglücklicher Mensch! Wer wird mich aus diesem dem Tod verfallenen Leib erretten? Die Gnade Gottes durch Jesus Christus, unsern Herrn!“{3#Röm 7,24} Denn er sagt: „Wer mir nachfolgt. wird nicht in der Finsternis umhergehen, sondern wird das Licht des Lebens haben“{4#Joh 8,12}. Wenn der ganze Streit zu Ende ist, wird die Unsterblichkeit folgen, denn der letzte Feind, der entmachtet wird, ist der Tod{5#1°Kor°15,26}. Was für ein Friede wird dann sein! Dieses Vergängliche muss sich mit Unvergänglichkeit bekleiden und dieses Sterbliche mit Unsterblichkeit{6#1°Kor°15,53}. Damit wir dorthin kommen, lasst uns, weil das Gesagte dann Wirklichkeit sein wird, jetzt voll Hoffnung dem nachfolgen, der gesagt hat: „Ich bin das Licht der Welt.“{7#Joh 8,12}",
-          "patr_resp1": "Ihr seid nicht vom Fleisch, sondern vom Geist bestimmt.",
-          "patr_resp2": "Denn der Geist Gottes wohnt in euch.",
-          "patr_resp3": "Dank sei Gott durch Jesus Christus, unsern Herrn."
-        },
-        "Laudes": {
-          "button": "Hl. Anno",
-          "genitiv": "des heiligen Anno",
-          "genitiv_lat": "sancti "
-        }
-      },
-      "n2": {
+      "Fulda": {
         "major": {
           "comm_1": "Hirten",
           "oration": "Gütiger Gott, ein großes Verlangen nach dir führte den heiligen Sola in die Einsamkeit und Stille. Hilf uns, in dem wechselnden Vielerlei dieser Welt dich mit ganzem Herzen zu suchen und in dir Ruhe zu finden.^ORV",
@@ -5696,6 +5830,25 @@ export const adlibData = {
         "Laudes": {
           "button": "Hl. Sola",
           "genitiv": "des heiligen Sola",
+          "genitiv_lat": "sancti "
+        }
+      },
+      "n1": {
+        "major": {
+          "comm_1": "Hirten",
+          "oration": "Allmächtiger Gott, erhöre unser Gebet am Gedenktag des heiligen Bischofs Anno, der allen, für die er Verantwortung trug, ein Helfer und ein leuchtendes Vorbild war. Gib, dass auch wir seine Fürsprache und seine Hilfe erfahren.^ORV"
+        },
+        "Lesehore": {
+          "patr_autor": "Augustinus (†°430)",
+          "patr_werk": "Aus den Predigten über das Johannesevangelium.",
+          "patr_text": "^hDas Leben – ein Streit^pWenn wir den irdischen Weg zurückgelegt haben und in das Vaterland gekommen sind, wer wird sich dann mehr freuen als wir, wer wird seliger sein als wir? Weil es ja nichts Friedlicheres geben wird; denn nichts wird sich mehr gegen den Menschen auflehnen.^pJetzt aber, Brüder, leben wir nur schwer ohne Streit. Zur Eintracht sind wir zwar berufen, wir sollen Frieden halten untereinander; danach sollen wir streben und mit allen Kräften darauf hinarbeiten, dass wir einst zum vollendeten Frieden kommen; jetzt aber streiten wir häufig mit denen, für die wir sorgen wollen.^pDa verläuft sich einer, du willst ihn auf den rechten Weg führen; er aber setzt dir Widerstand entgegen, und du streitest. Du weisest auch deinen dir nahestehenden Bruder zurecht, er weilt bei dir im Hause, sucht aber verkehrte Wege; du bist in Sorge, wie du ihn besserst, damit du über ihn dem Herrn gute Rechenschaft ablegen kannst. Wie viele unvermeidliche Streitigkeiten auf allen Seiten!^pSehr häufig sagt ein Mensch im Überdruss bei sich selbst: Warum soll ich die Widersacher ertragen, die Gutes mit Bösem vergelten? Ich möchte ihnen helfen, sie aber wollen zugrunde gehen. Ich verzehre mein Leben mit Streiten, ich habe keinen Frieden. Ich mache mir zudem noch jene zu Feinden, die ich zu Freunden haben müsste, wenn sie nur auf die wohlwollende Gesinnung ihres Helfers Rücksicht nehmen würden. Warum soll ich das alles erleiden? Ich will mich auf mich zurückziehen, bei mir selber Einkehr halten und meinen Gott anrufen.^pZiehst du dich aber auf dich selbst zurück, findest du auch da Streit. Was für einen Streit, sagst du, finde ich da! Das Begehren des Fleisches richtet sich gegen den Geist, das Begehren des Geistes aber gegen das Fleisch{1#Gal 5,17}. Siehe, du selbst bist es. siehe, du bist allein, siehe, du bist bei dir selbst eingekehrt, siehe, du hast es mit keinem anderen zu tun; aber du siehst ein anderes Gesetz in deinen Gliedern, das mit dem Gesetz deiner Vernunft im Streit liegt und dich gefangen hält im Gesetz der Sünde, von dem deine Glieder beherrscht werden{2#Röm 7,23}.^pRufe also aus deinem inneren Streit zu Gott, damit er dir Frieden gibt: „Ich unglücklicher Mensch! Wer wird mich aus diesem dem Tod verfallenen Leib erretten? Die Gnade Gottes durch Jesus Christus, unsern Herrn!“{3#Röm 7,24} Denn er sagt: „Wer mir nachfolgt. wird nicht in der Finsternis umhergehen, sondern wird das Licht des Lebens haben“{4#Joh 8,12}. Wenn der ganze Streit zu Ende ist, wird die Unsterblichkeit folgen, denn der letzte Feind, der entmachtet wird, ist der Tod{5#1°Kor°15,26}. Was für ein Friede wird dann sein! Dieses Vergängliche muss sich mit Unvergänglichkeit bekleiden und dieses Sterbliche mit Unsterblichkeit{6#1°Kor°15,53}. Damit wir dorthin kommen, lasst uns, weil das Gesagte dann Wirklichkeit sein wird, jetzt voll Hoffnung dem nachfolgen, der gesagt hat: „Ich bin das Licht der Welt.“{7#Joh 8,12}",
+          "patr_resp1": "Ihr seid nicht vom Fleisch, sondern vom Geist bestimmt.",
+          "patr_resp2": "Denn der Geist Gottes wohnt in euch.",
+          "patr_resp3": "Dank sei Gott durch Jesus Christus, unsern Herrn."
+        },
+        "Laudes": {
+          "button": "Hl. Anno",
+          "genitiv": "des heiligen Anno",
           "genitiv_lat": "sancti "
         }
       }
@@ -5750,7 +5903,7 @@ export const adlibData = {
       }
     },
     "9": {
-      "n1": {
+      "Fulda": {
         "major": {
           "comm_1": "MärtSg",
           "comm_2": "Hirten",

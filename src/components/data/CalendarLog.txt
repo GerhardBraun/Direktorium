@@ -1,0 +1,4 @@
+Calendar Data Processing Log - 2025-09-25 15:48:03.866435
+============================================================
+
+Calendar-Daten erfolgreich sortiert: 28 Diözesen

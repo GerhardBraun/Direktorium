@@ -1,5 +1,11 @@
 import React from 'react';
 
+// Array mit allen zu durchsuchenden Schlüsseln
+// Mit d1, d2 können Eigenfeiern VOR den denen des Regionalkalenders sortiert werden,
+// mit d11, d12 NACH denen des Regionalkalenders
+// mar ist nur für das Gedächtnis Mariens am Samstag
+export const sourceKeys = ['eig', 'd1', 'd2', 'n1', 'n2', 'n3', 'n4', 'n5', 'd11', 'd12', 'mar'];
+
 // Hilfsfunktion zum Prüfen, ob eine Quelle gültige Daten hat
 const hasValidSource = (texts, source) => {
     return texts?.laudes?.[source]?.oration;
@@ -8,20 +14,19 @@ const hasValidSource = (texts, source) => {
 // Hilfsfunktion für Button-Farben basierend auf der Quellenfarbe
 const getButtonColor = (texts, source) => {
     const color = texts?.laudes?.[source]?.farbe?.charAt(0)?.toLowerCase();
-    return color === 'r'
-        ? 'btn-red'
-        : color === 'm'
-            ? 'btn-blue'
-            : 'btn-white';
+    switch (color) {
+        case 'r': return 'btn-red'
+        case 'm': return 'btn-blue'
+        default: return 'btn-white'
+    }
 };
 
 const getWeekdayButtonColor = (season) => {
-    if (season === 'j') {
-        return 'btn-green';
-    } else if (season === 'a' || season === 'q') {
-        return 'btn-violett';
-    } else {
-        return 'btn-yellow';
+    switch (season) {
+        case 'j': return 'btn-green';
+        case 'a':
+        case 'q': return 'btn-violett';
+        default: return 'btn-gold';
     }
 };
 
@@ -60,7 +65,7 @@ const SourceSelector = ({
         let blockToggle = false;
         if (isErsteVesper) {
             blockToggle = true;
-            if (['eig', 'n1', 'n2', 'n3', 'n4', 'n5'].includes(source) &&
+            if (sourceKeys.includes(source) &&
                 (prefSollemnity === 'soll' || prefSollemnity === 'kirchw')
             ) { blockToggle = false };
             if (setSollemnity === 'kirchw' && prefSollemnity !== 'kirchw'
@@ -82,7 +87,10 @@ const SourceSelector = ({
 
     const { rank_date = 0, rank_wt = 0, isCommemoration } = texts
     const hasEig = hasValidSource(texts, 'eig') // G, F oder H
-    const hasN1 = hasValidSource(texts, 'n1') || hasValidSource(texts, 'n5') // nichtgebotener Gedenktag
+    const hasN1 = hasValidSource(texts, 'n1')  // nichtgebotener Gedenktag
+        || hasValidSource(texts, 'mar') // Maria am Samstag
+        || hasValidSource(texts, 'd1') // g aus dem Diözesankalender
+        || hasValidSource(texts, 'd11') // g aus dem Diözesankalender
     const showWt = rank_wt < 3
         && (
             (hasN1 && !hasEig) ||   // nur nichtgebotener Gedenktag
@@ -95,7 +103,6 @@ const SourceSelector = ({
     return (
         <div className={`space-y-1 ${className}`}>
             {/* Bezeichnung Hochfest/Fest/Gedenktag */}
-
             {texts.laudes?.wt?.button && !hasEig && (
                 <div className="text-center text-xl font-bold text-gray-900 dark:text-gray-100">
                     {formatText(texts.laudes.wt.button)}
@@ -122,7 +129,7 @@ const SourceSelector = ({
             </>
             )}
             {/* Saint Selection Buttons */}
-            {['eig', 'n1', 'n2', 'n3', 'n4', 'n5'].map(source => {
+            {sourceKeys.map(source => {
                 if (!hasValidSource(texts, source)) return null;
                 const doUnderline = prefSrc === source &&
                     (!isCommemoration || (isCommemoration && useCommemoration))

@@ -1,9 +1,12 @@
 import { brevierData } from '../data/Brevier.ts';
 import { lecture1Data } from '../data/Lecture1.ts';
 import { lecture2Data } from '../data/Lecture2.ts';
-import { adlibData } from '../data/AdLib.ts';
-import { dataSollemnities } from '../data/Sollemnities.ts';
+import { sollemnitiesData } from '../data/Sollemnities.ts';
 import { getLiturgicalInfo } from './LitCalendar.js';
+import { sourceKeys } from '../selectors/SourceSelector.js';
+import { localCalendarData } from '../data/CalendarMerge.js';
+
+console.log('!localCalendarData:', localCalendarData);
 
 const personalData = (() => {
     try {
@@ -23,6 +26,7 @@ function cleanupZeroReferences(hours) {
         'psalm1', 'psalm2', 'psalm3',
         'hymn_1', 'hymn_2', 'hymn_3', 'hymn_nacht', 'hymn_kl'
     ];
+
 
     Object.keys(hours).forEach(hour => {
         Object.keys(hours[hour]).forEach(source => {
@@ -194,12 +198,14 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
 
 
         function addLayer(source, week, dayOfWeek) {
-            const layerData = brevierData?.[source]?.[week]?.[dayOfWeek];
-            const personalLayerData = personalData?.[source]?.[week]?.[dayOfWeek];
-            const lectureLayerData = lectureData?.[source]?.[week]?.[dayOfWeek];
-            mergeData(hours, layerData, 'wt');
-            mergeData(hours, personalLayerData, 'pers');
-            mergeData(hours, lectureLayerData, 'wt');
+            ['each', dayOfWeek].forEach(key => {
+                const layerData = brevierData?.[source]?.[week]?.[key];
+                const personalLayerData = personalData?.[source]?.[week]?.[key];
+                const lectureLayerData = lectureData?.[source]?.[week]?.[key];
+                mergeData(hours, layerData, 'wt');
+                mergeData(hours, personalLayerData, 'pers');
+                mergeData(hours, lectureLayerData, 'wt');
+            })
         }
 
         addLayer('p', weekOfPsalter, dayOfWeek);     // Layer 1: Base layer from 4-week schema
@@ -211,13 +217,10 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         const weekOfEight = week % 8 || 8
         addLayer('pvigil', weekOfEight, dayOfWeek)
 
-        addLayer(season, 'each', 'each', true);     // Layer 2: Season-wide texts
         addLayer(season, 'each', dayOfWeek);        // Layer 3: Weekly schema for the season
         if (week % 2 === 0) {                       // Layer 4: Bi-weekly schema
-            addLayer(season, 'even', 'each');
             addLayer(season, 'even', dayOfWeek);
         }
-        addLayer(season, week, 'each');
         addLayer(season, week, dayOfWeek);
 
         // Layer 5.1: 'last' für letzte Adventstage, nach Erscheinung und Pfingstnovene
@@ -227,14 +230,12 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
             (season === 'o' && (week === 7 || (week === 6 && dayOfWeek > 3)))
         );
         if (shouldUseLast) {
-            addLayer(season, 'last', 'each');
             addLayer(season, 'last', dayOfWeek);
         }
 
         // Layer 5.2: 17. Dez. bis Taufe des Herrn (Kalendertage) mit Weihnachtsoktav
         if (season === "a" || season === "w") {
             if (calendarDay > 24) { addLayer('w', 'okt', 'each') };
-            addLayer('k', calendarMonth, 'each');
             addLayer('k', calendarMonth, calendarDay);
             // wiederholte Behandlung des 3. und 4. Adventssonntags:
             // Ant und Pss und Oration vom Adventssonntag, sonst vom Kalendertag
@@ -245,32 +246,29 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         }
 
         // Process Heiligenfeste only if rank is appropriate
-        if (rank_date > 1 && rank_date > rank_wt) {
-            processHeilige(hours, season, calendarMonth, calendarDay);
-            processAdLib(hours, season, calendarMonth, calendarDay);
-        }
+        if (rank_date > 1 && rank_date > rank_wt)
+            processCalendar(hours, season, calendarMonth, calendarDay);
+
 
         // Feste nach Pfingsten sind als '40. bis 46. Mai' gespeichert
-        // 1er-Stelle gibt den Wochentag an: 40=So: Dreif., 41=Mo: Pfingstmontag ...
+        // 1er-Stelle gibt den Wochentag an:
+        // 40=So: Dreif., 41=Mo: Pfingstmontag/Mutter der Kirche,
+        // 44=Do: Fronleichnam, 45=Fr: Herz-Jesu-Fest, 46=Sa: Unbefl. Herz Mariae
         if (afterPentecost) {
-            processHeilige(hours, season, '5', afterPentecost, 'eig', 'wt');
-            processAdLib(hours, season, '5', afterPentecost);
+            processCalendar(hours, season, 5, afterPentecost, 'wt');
+
             // Sonderfall: MaterEcclesiae bzw. Herz Mariae und gebotener Gedenktag
-            if (rank_date === 2) {
-                processHeilige(hours, season, calendarMonth, calendarDay, 'eig', 'n1');
-                processAdLib(hours, season, calendarMonth, calendarDay, true);
-            }
+            if (rank_date === 2)
+                processCalendar(hours, season, calendarMonth, calendarDay, 'n1');
+
         }
         // Layer 9: nichtgebotene Gedenktage
         else if (rank_wt < 3) {
-            processHeilige(hours, season, calendarMonth, calendarDay, 'n1');
-            processHeilige(hours, season, calendarMonth, calendarDay, 'n2');
-            processAdLib(hours, season, calendarMonth, calendarDay);
+            processCalendar(hours, season, calendarMonth, calendarDay, 'skip');
 
             // Maria am Samstag
-            if (rank_wt < 2 && rank_date < 2 && season === "j" && dayOfWeek === 6) {
-                processHeilige(hours, season, 'mar', 'sa', 'n5')
-            }
+            if (rank_wt < 2 && rank_date < 2 && season === "j" && dayOfWeek === 6)
+                processCalendar(hours, season, 13, 6)
         }
 
         return {
@@ -321,7 +319,7 @@ function processCommune(hours, season, targetSource) {
 
                 function addLayer(layerComm, layerSeason) {
                     const communeData = ['Kirchw', 'Verst'].includes(layerComm)
-                        ? dataSollemnities?.[layerComm.toLowerCase()]?.[layerSeason?.toLowerCase()]?.[readingHour?.toLowerCase()]
+                        ? sollemnitiesData?.[layerComm.toLowerCase()]?.[layerSeason?.toLowerCase()]?.[readingHour?.toLowerCase()]
                         : brevierData?.com?.[layerComm]?.[layerSeason]?.[readingHour];
                     if (communeData) {
                         Object.assign(
@@ -344,32 +342,22 @@ function processCommune(hours, season, targetSource) {
     });
 }
 
-function processHeilige(hours, season, calendarMonth, calendarDay,
-    sourceKey = 'eig', targetKey = '') {
-    // Commune texts processing
-    if (!targetKey) { targetKey = sourceKey }
-    const communeData = brevierData?.[sourceKey]?.[calendarMonth]?.[calendarDay];
-
-    if (communeData) {
-        mergeData(hours, communeData, targetKey);
-        processCommune(hours, season, targetKey);
-    }
-}
-
-function processAdLib(hours, season, calendarMonth, calendarDay, sameRank = false) {
-    const nichtgebData = adlibData?.[calendarMonth]?.[calendarDay];
-    if (nichtgebData) {
-        // Array mit allen zu durchsuchenden Schlüsseln
-        const sourceKeys = ['eig', 'n1', 'n2', 'n3', 'n4', 'n5'];
-
+function processCalendar(hours, season, calendarMonth, calendarDay, replaceEig = 'eig') {
+    const processData = localCalendarData?.[calendarMonth]?.[calendarDay];
+    if (processData) {
+        if (replaceEig === 'wt' && [41, 46].includes(calendarDay)) {
+            replaceEig = 'eig'
+        }
         // Map über alle Schlüssel
         sourceKeys.forEach(sourceKey => {
-            const sourceData = nichtgebData[sourceKey];
-            const targetKey = sameRank ? 'n1' : sourceKey;
+            if (sourceKey !== 'eig' || replaceEig !== 'skip') {
+                const sourceData = processData[sourceKey];
+                const targetKey = sourceKey === 'eig' ? replaceEig : sourceKey;
 
-            if (sourceData) {
-                mergeData(hours, sourceData, targetKey);
-                processCommune(hours, season, targetKey);
+                if (sourceData) {
+                    mergeData(hours, sourceData, targetKey);
+                    processCommune(hours, season, targetKey);
+                }
             }
         });
     }
@@ -379,7 +367,8 @@ function processTerzPsalms(hours) {
     // Definiere die zu prüfenden Stunden
     const targetHours = ['sext', 'non'];
     // Definiere die relevanten Psalm-Felder
-    const psalmFields = ['psalm1', 'psalm2', 'psalm3',
+    const psalmFields = [
+        'psalm1', 'psalm2', 'psalm3',
         'ant1', 'ant2', 'ant3',
         'ant1_lat', 'ant2_lat', 'ant3_lat'];
 
@@ -498,7 +487,7 @@ function processEasterResponses(hours) {
         if (!hours[hour]) return;
 
         // Alle relevanten Sources durchgehen
-        ['eig', 'n1', 'n2', 'n3', 'n4', 'n5'].forEach(source => {
+        sourceKeys.forEach(source => {
             if (!hours[hour][source]) return;
 
             // Hauptebene der Source verarbeiten

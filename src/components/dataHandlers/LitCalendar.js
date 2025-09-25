@@ -124,10 +124,10 @@ function calculateRanks(date, season, week, dayOfWeek, swdCombined, afterPenteco
 
         // Schleife durch die Ränge (von hoch zu niedrig)
         for (const rank of [6, 5, 4, 3, 2]) {
-            if (tableOfRanks?.[diocese]?.[rank]?.includes(dateCompare)) { return rank; }
+            if (tableOfRanks?.[diocese]?.[rank]?.includes(dateCompare)) return rank;
         }
         for (const rank of [6, 5, 4, 3, 2]) {
-            if (tableOfRanks?.[rank]?.includes(dateCompare)) { return rank; }
+            if (tableOfRanks?.[rank]?.includes(dateCompare)) return rank;
         }
         return 0; // Kein spezieller Rang gefunden
     }
@@ -275,7 +275,7 @@ const getLiturgicalInfo = (provDate) => {
     }
     const swdCombined = `${season}-${week}-${dayOfWeek}`;
     const swdWritten = writeOut(season, week, dayOfWeek, swdCombined, day, afterPentecost);
-    if (!weekOfPsalter) { weekOfPsalter = week % 4 || 4 }
+    weekOfPsalter = weekOfPsalter ?? (week % 4 || 4)
     const ranks = calculateRanks(date, season, week, dayOfWeek, swdCombined, afterPentecost);
     const isCommemoration = ranks.rank_date < 3 &&
         (season === 'q' || (month === 12 && day > 16));
