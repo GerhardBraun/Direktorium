@@ -14,9 +14,9 @@ export const UserMessageDisplay = () => {
                 Object.entries(userMessages).map(([date, message]) => {
                     if (message.startsWith('#')) return null
                     return (
-                        <div key={date} className='text-xs'>
+                        <div key={date} className='text-sm'>
                             <div className="mt-6 border-t dark:border-gray-700" > </div>
-                            < div className="mt-3 mb-1 text-sm text-gray-500" > {date} </div>
+                            < div className="mt-3 mb-1 text-xs text-gray-500" > {date} </div>
                             {formatPrayerText(message)}
                         </div>
                     )
