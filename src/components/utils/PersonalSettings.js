@@ -18,7 +18,7 @@ const PersonalSettings = () => {
         getLocalStorage('diocese') || 'Fulda'
     );
     const [vacancy, setVacancy] = useState(() =>
-        getLocalStorage('vacancy') === 'false'
+        getLocalStorage('vacancy') === 'true'
     );
     const [showDioceseDropdown, setShowDioceseDropdown] = useState(false);
 
