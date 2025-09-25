@@ -15,10 +15,10 @@ const PersonalSettings = () => {
 
     // Neue States für Diözese und Vacancy
     const [diocese, setDiocese] = useState(() =>
-        getLocalStorage('diocese') || 'AAA'
+        getLocalStorage('diocese') || 'Fulda'
     );
     const [vacancy, setVacancy] = useState(() =>
-        getLocalStorage('vacancy') === 'true'
+        getLocalStorage('vacancy') === 'false'
     );
     const [showDioceseDropdown, setShowDioceseDropdown] = useState(false);
 
