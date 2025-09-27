@@ -1381,8 +1381,7 @@ export const brevierData = {
           "les_buch": "^A:vigil-Hirten:",
           "les_stelle": "^Q:Mk 3,13-19",
           "les_text": "LEER",
-          "ant0_lat": "Gaudéte et exsultáte, quia nómina vestra scripta sunt in cælis, dicit Dóminus.",
-          "les_text_lat": "LEER"
+          "ant0_lat": "Gaudéte et exsultáte, quia nómina vestra scripta sunt in cælis, dicit Dóminus."
         },
         "Laudes": {
           "button": "Ap",
@@ -1663,8 +1662,7 @@ export const brevierData = {
           "ant0": "Legt euren Gürtel nicht ab und lasst eure Lampen brennen, seid bereit für die Ankunft des Herrn.^ö",
           "les_buch": "^A:vigil-Heilige:",
           "les_text": "LEER",
-          "ant0_lat": "Sint lumbi vestri præcíncti, et lucérnæ ardéntes in mánibus vestris.",
-          "les_text_lat": "LEER"
+          "ant0_lat": "Sint lumbi vestri præcíncti, et lucérnæ ardéntes in mánibus vestris."
         }
       },
       "Erz": {
@@ -2423,8 +2421,7 @@ export const brevierData = {
           "ant0": "Um Mitternacht erscholl der Ruf: Seht, der Bräutigam kommt! Auf, ihm entgegen, Christus, dem Herrn.^ö",
           "les_buch": "^A:vigil-Heilige:",
           "les_text": "LEER",
-          "ant0_lat": "Média nocte clamor factus est: Ecce Sponsus venit, exíte óbviam ei.",
-          "les_text_lat": "LEER"
+          "ant0_lat": "Média nocte clamor factus est: Ecce Sponsus venit, exíte óbviam ei."
         },
         "Laudes": {
           "button": "Jgfr",
@@ -2770,8 +2767,7 @@ export const brevierData = {
           "ant0": "Gepriesen bist du, Herr, im Tempel deiner Herrlichkeit, hoch gerühmt und verherrlicht in Ewigkeit.^ö",
           "les_buch": "ML Comm",
           "les_text": "LEER",
-          "ant0_lat": "Benedíctus es in templo sancto glóriæ tuæ, quod ædificátum est ad laudem et glóriam nóminis tui, Dómine.^Lö",
-          "les_text_lat": "LEER"
+          "ant0_lat": "Benedíctus es in templo sancto glóriæ tuæ, quod ædificátum est ad laudem et glóriam nóminis tui, Dómine.^Lö"
         },
         "Laudes": {
           "button": "Kirchw",
@@ -3237,8 +3233,7 @@ export const brevierData = {
           "ant0": "Freue dich, Jungfrau Maria, du hast getragen den Schöpfer der Welt, aus dir ging hervor unser Retter.^ö",
           "les_buch": "^A:vigil-Maria:",
           "les_text": "LEER",
-          "ant0_lat": "María Virgo, lætáre, quæ meruísti Christum portáre, cæli et terræ conditórem, quia protuísti mundi Salvatórem.",
-          "les_text_lat": "LEER"
+          "ant0_lat": "María Virgo, lætáre, quæ meruísti Christum portáre, cæli et terræ conditórem, quia protuísti mundi Salvatórem."
         },
         "Laudes": {
           "button": "Mar",
@@ -3486,8 +3481,7 @@ export const brevierData = {
           "ant0": "Gott wird jede Träne aus ihren Augen wischen, der Tod wird nicht mehr sein, nicht Trauer noch Klage noch Mühsal. Denn die alte Welt ist vergangen.^ö",
           "les_buch": "^A:vigil-Märtyrer:",
           "les_text": "LEER",
-          "ant0_lat": "Abstérget Deus omnem lácrimam ab óculis sanctórum, et iam non erit ámplius neque luctus neque clamor, sed nec ullus dolor, quóniam prióra transiérunt.",
-          "les_text_lat": "LEER"
+          "ant0_lat": "Abstérget Deus omnem lácrimam ab óculis sanctórum, et iam non erit ámplius neque luctus neque clamor, sed nec ullus dolor, quóniam prióra transiérunt."
         },
         "Laudes": {
           "button": "Märt",
@@ -3924,8 +3918,7 @@ export const brevierData = {
           "ant0": "In meinem irdischen Leib erfülle ich das Maß der Leiden Christi für seinen Leib, die Kirche.^ö",
           "les_buch": "^A:vigil-Märtyrer:",
           "les_text": "LEER",
-          "ant0_lat": "Adímpleo in carne mea quæ desunt passiónibu Christi pro córpore eius, quod est Ecclésia.",
-          "les_text_lat": "LEER"
+          "ant0_lat": "Adímpleo in carne mea quæ desunt passiónibu Christi pro córpore eius, quod est Ecclésia."
         },
         "Laudes": {
           "button": "Märt",
@@ -5851,8 +5844,7 @@ export const brevierData = {
           "ant0": "Dein ist die Macht und das Reich, dein ist die Herrschaft über alle Völker. Gib Frieden, Herr, in unseren Tagen.",
           "les_buch": "^A:vigil-Christkönig:",
           "les_text": "LEER",
-          "ant0_lat": "Tua est poténtia, tuum regnum, Dómine, tu es super omnes gentes: da pacem in diébus nostris.",
-          "les_text_lat": "LEER"
+          "ant0_lat": "Tua est poténtia, tuum regnum, Dómine, tu es super omnes gentes: da pacem in diébus nostris."
         },
         "Laudes": {
           "hymn_1": 3952.0,
@@ -15308,8 +15300,7 @@ export const brevierData = {
           "ant0": "Aus der geöffneten Seite des Herrn floss Blut und Wasser heraus, uns zur Rettung und zum Heil.",
           "les_buch": "^A:vigil-Karfreitag:",
           "les_text": "LEER",
-          "ant0_lat": "Apérto mílitis láncea látere crucifíxi Dómini, exívit sanguis et aqua in redemptiónem salútis nostræ.",
-          "les_text_lat": "LEER"
+          "ant0_lat": "Apérto mílitis láncea látere crucifíxi Dómini, exívit sanguis et aqua in redemptiónem salútis nostræ."
         },
         "Laudes": {
           "psalm1": 51.0,
@@ -15458,8 +15449,7 @@ export const brevierData = {
           "ant0": "Aus der Tiefe der Totenwelt schrie ich zum Herrn, und er hörte mein Rufen.",
           "les_buch": "^A:vigil-Karsamstag:",
           "les_text": "LEER",
-          "ant0_lat": "Dum tribulárer, clamávi ad Dóminum de ventre ínferi, et exaudívit me.",
-          "les_text_lat": "LEER"
+          "ant0_lat": "Dum tribulárer, clamávi ad Dóminum de ventre ínferi, et exaudívit me."
         },
         "Laudes": {
           "psalm1": 64.0,

@@ -122,14 +122,13 @@ export const calendarData: CalendarData = {
             "resp2": "Halleluja,°halleluja.",
             "resp3": "Aus seiner Fülle haben wir empfangen, Gnade über Gnade.",
             "antev": "Aus Liebe zu uns sandte Gott seinen Sohn in der Gestalt des Fleisches, geboren von einer Frau und dem Gesetz unterstellt, allen Menschen zur Rettung.^ö",
-            "bitten_e": "lasst uns beten zu unserem Herrn Jesus Christus, der sein Volk zusammenführt aus allen Sprachen und Nationen:",
+            "bitten_e": "Lasst uns beten zu unserem Herrn Jesus Christus, der sein Volk zusammenführt aus allen Sprachen und Nationen:",
             "bitten_r": "Erhöre uns, Christus.",
             "bitten": "In deiner Geburt ist die Güte und Menschenfreundlichkeit Gottes offenbar geworden.^qGib, dass dein Volk nie aufhört, dir zu danken.^pDu hast Maria, deine Mutter, mit Gnade erfüllt.^qlass alle Menschen teilhaben am Reichtum deiner Gnade.^pDu bist gesandt, die Frohe Botschaft zu verkün­den.^qSchenke Frieden der ganzen Welt.^pDurch die Geburt aus der Jungfrau Maria bist du der Bruder aller Menschen geworden.^qHilf ihnen, als Brüder und Schwestern miteinander zu leben.^pDu bist der Welt erschienen als die Sonne unseres Heils.^qZeige den Verstorbenen dein leuchtendes Antlitz.",
             "oration": "Barmherziger Gott, durch die Geburt deines Sohnes aus der Jungfrau Maria hast du der Menschheit das ewige Heil geschenkt. lass uns auch im neuen Jahr immer und überall die Fürbitte der gnadenvollen Mutter erfahren, die uns den Urheber des Lebens geboren hat, Jesus Christus, deinen Sohn, unseren Herrn und Gott,^ORR",
             "hymn_1_lat": 8101.104,
             "hymn_2_lat": 0.0,
             "hymn_3_lat": 0.0,
-            "ant0_lat": "",
             "ant1_lat": "O admirábile commércium! Creátor géneris humáni, animátum corpus sumens, de Vírgine nasci dignátus est; et, procédens homo sine sémine, largítus est nobis suam deitátem.",
             "ant2_lat": "Quando natus es ineffabíliter ex Vírgine, tunc implétæ sunt Scriptúræ: sicut plúvia in vellus descendísti, ut salvum fáceres genus humánum. Te laudámus, Deus noster.",
             "ant3_lat": "Rubum, quem víderat Móyses incombústum, conservátam agnóvimus tuam laudábilem virginitátem. Dei Génetrix, intercéde pro nobis.",
@@ -137,15 +136,14 @@ export const calendarData: CalendarData = {
             "resp2_lat": "Allelúia, allelúia.",
             "resp3_lat": "Et habitávit in nobis.",
             "antev_lat": "Propter nímiam caritátem suam, qua diléxit nos Deus, Fílium suum misit in similitúdinem carnis peccáti: natum ex mulíere, factum sub lege.^Lö",
-            "bitten_e_lat": "",
-            "bitten_r_lat": "",
-            "bitten_lat": "",
-            "les_text_lat": "Ubi venit plenitúdo témporis, misit Deus Fílium suum, factum ex mulíere, factum sub lege, ut eos, qui sub lege erant, redímeret, ut adoptiónem filiórum reciperémus.",
-            "oration_lat": ""
+            "bitten_e_lat": "Benedíctus Dóminus Iesus, pax nostra, qui venit fácere útraque unum. Súpplices quærámus:",
+            "bitten_r_lat": "Pacem tuam ómnibus præsta, Dómine.",
+            "bitten_lat": "Qui, nascens, benignitátem et humanitátem tuam homínibus manifestásti,^qda nobis in gratiárum actióne semper manére pro univérsis benefíciis tuis.^pQui Maríam, Matrem tuam, grátia plenam effecísti,^qcópiam gratiárum ómnibus concéde.^pQui Evangélium Dei venísti mundo nuntiáre,^qmultíplica præcónes et auditóres verbi tui.^pQui frater noster de María Vírgine nasci dignátus es,^qhómines doce mútua fraternitáte sese dilígere.^pQui ut sol óriens mundo apparuísti,^qlumen vultus tui defúnctis fácie ad fáciem osténde vidéndum.",
+            "les_text_lat": "Ubi venit plenitúdo témporis, misit Deus Fílium suum, factum ex mulíere, factum sub lege, ut eos, qui sub lege erant, redímeret, ut adoptiónem filiórum reciperémus."
           },
           "Invitatorium": {
             "ant0": "Wir preisen die Mutterschaft der seligen Jungfrau Maria und beten an ihren Sohn, Jesus Christus, unsern Herrn.",
-            "ant0_lat": ""
+            "ant0_lat": "Maternitátem Vírginis Maríæ celebrémus: Christum eius Fílium adorémus Dóminum."
           },
           "Lesehore": {
             "hymn_1": 1038.0,
@@ -239,11 +237,10 @@ export const calendarData: CalendarData = {
             "resp2": "Halleluja,°halleluja.",
             "resp3": "Aus seiner Fülle haben wir empfangen, Gnade über Gnade.",
             "antev": "Selig der Leib, der dich getragen, und die Brust, die dich genährt hat, dich den Herrn und Retter der Welt.^ö",
-            "bitten_e": "lasst uns zu Jesus Christus beten, den die Jungfrau Maria empfangen und geboren hat:",
+            "bitten_e": "Lasst uns zu Jesus Christus beten, den die Jungfrau Maria empfangen und geboren hat:",
             "bitten_r": "Sohn der Jungfrau, erhöre uns.",
             "bitten": "Du, die Freude deiner Mutter Maria,^qschenke den Vätern und Müttern Freude an ihren Kindern.^pDurch deine Menschwerdung hast du das Band der Familien neu gefestigt.^qSchenke unseren Familien Einigkeit und Zusammenhalt.^pDeine Herrschaft ruht auf Gerechtigkeit und Frieden.^qGib, dass die Regierenden dem Frieden dienen.^pDu bist gekommen, um alle Menschen in dem einen, heiligen Volk Gottes zu sammeln.^qSchenke der Welt ein Jahr des Friedens.^pDu bist Mensch geworden in der Zeit.^qlass unsere Verstorbenen leben in Ewigkeit.",
             "hymn_1_lat": 8101.104,
-            "ant0_lat": "",
             "ant1_lat": "O admirábile commércium! Creátor géneris humáni, animátum corpus sumens, de Vírgine nasci dignátus est; et, procédens homo sine sémine, largítus est nobis suam deitátem.",
             "ant2_lat": "Quando natus es ineffabíliter ex Vírgine, tunc implétæ sunt Scriptúræ: sicut plúvia in vellus descendísti, ut salvum fáceres genus humánum. Te laudámus, Deus noster.",
             "ant3_lat": "Rubum, quem víderat Móyses incombústum, conservátam agnóvimus tuam laudábilem virginitátem. Dei Génetrix, intercéde pro nobis.",
@@ -275,7 +272,7 @@ export const calendarData: CalendarData = {
             "button": "Hl. Basilius und hl. Gregor von Nazianz",
             "genitiv": "der Heiligen Basilius und Gregor",
             "vokativ": "Heiliger Basilius und heiliger Gregor",
-            "genitiv_lat": "sanctórum ",
+            "genitiv_lat": "sanctórum Basílii et Gregórii",
             "antev": "Die Weisen werden strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig.",
             "antev_lat": "Qui docti fúerint, fulgébunt quasi splendor firmaménti, et qui ad iustítiam erúdiunt multos, quasi stellæ in perpétuas æternitátes."
           },
@@ -351,8 +348,7 @@ export const calendarData: CalendarData = {
             "ant0": "Heute ist der Gott des Himmels aller Welt erschienen, geboren von einer Frau. Die Weisen kommen mit Gaben und beten ihn an. So beugen auch wir die Knie vor ihm, der uns erlöst.^ö",
             "les_buch": "^A:vigil-Erscheinung:",
             "les_text": "LEER",
-            "ant0_lat": "Hódie in mundum nobis génuit puérpera Deum cæli, quem adórant magi, cui munus obtulérunt; omnes genu incurvémus et, qui redémit nos.",
-            "les_text_lat": "LEER"
+            "ant0_lat": "Hódie in mundum nobis génuit puérpera Deum cæli, quem adórant magi, cui munus obtulérunt; omnes genu incurvémus et, qui redémit nos."
           },
           "Laudes": {
             "button": "Erscheinung des Herrn",
@@ -446,7 +442,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Valentin",
             "genitiv": "des heiligen Valentin",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Valentíni"
           }
         },
         "n2": {
@@ -578,7 +574,8 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Sebastian",
-            "farbe": "r"
+            "farbe": "r",
+            "genitiv": "des heiligen Sebastian"
           }
         }
       },
@@ -620,7 +617,7 @@ export const calendarData: CalendarData = {
             "resp2": "er steht ihr bei, sie wird nicht wanken.",
             "resp3": "Gott ist ihr Zuflucht und Stärke, ein Helfer in allen Nöten.",
             "antev": "Schon schaue ich, wonach ich mich sehnte, schon besitze ich, was ich erhoffte. Den ich auf Erden von Herzen geliebt, mit dem bin ich im Himmel vereint.",
-            "genitiv_lat": "",
+            "genitiv_lat": "sanctæ Agnétis",
             "hymn_1_lat": 8121.2,
             "ant1_lat": "Anulo suo subarrhávit me Dóminus meus Iesus Christus, et tamquam sponsam decorávit me coróna.",
             "ant2_lat": "Ipsi sum desponsáta, cui ángeli sérviunt, cuius pulchritúdinem sol et luna mirántur.",
@@ -699,7 +696,8 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Vinzenz",
-            "farbe": "r"
+            "farbe": "r",
+            "genitiv": "des heiligen Vinzenz"
           }
         },
         "n2": {
@@ -795,7 +793,6 @@ export const calendarData: CalendarData = {
             "patr_resp2": "Übergroß war die Gnade unseres Herrn, die mir den Glauben und die Liebe schenkte.",
             "patr_resp3": "Ich bin nicht wert, Apostel genannt zu werden.",
             "hymn_1_lat": 8125.1,
-            "hymn_nacht_lat": 0.0,
             "ant1_lat": "Quis es, Dómine? Ego sum Iesus, quem tu perséqueris; durum est tibi contra stímulum calcitráre.",
             "ant2_lat": "Vade, Ananía, et quære Saulum, ecce enim orat; quia vas electiónis est mihi, ut portet nomen meum coram géntibus et régibus et fíliis Israel.",
             "ant3_lat": "Ingréssus Paulus in synagógas prædicábat Iudǽis Iesum, affírmans quia hic est Christus.",
@@ -839,9 +836,6 @@ export const calendarData: CalendarData = {
             "resp0": "So spricht der Herr: Freut euch und jubelt.",
             "resp1": "Denn eure Namen sind im Himmel verzeichnet.",
             "ant0_lat": "Saule frater, Dóminus misit me, Iesus, qui appáruit tibi in via, ut vídeas et impleáris Spíritu Sancto.",
-            "ant1_lat": "",
-            "ant2_lat": "",
-            "ant3_lat": "",
             "resp0_lat": "Gaudéte et exsultáte, dicit Dóminus.",
             "resp1_lat": "Quia nómina vestra scripta sunt in cælis.",
             "les_text_lat": "Grátiam hábeo ei, qui me confortávit, Christo Iesu Dómino nostro, quia fidélem me existimávit ponens in ministério, qui prius fui blasphémus et persecútor et contumeliósus; sed misericórdiam consecútus sum."
@@ -858,9 +852,6 @@ export const calendarData: CalendarData = {
             "resp0": "Du, Herr, lässt meine Leuchte erstrahlen.",
             "resp1": "Mein Gott, mach meine Finsternis hell.",
             "ant0_lat": "Eúnte Saulo et appropinquánte Damásco, média die súbito de cælo circumfúlsit eum lux copiósa.",
-            "ant1_lat": "",
-            "ant2_lat": "",
-            "ant3_lat": "",
             "resp0_lat": "Tu accéndis lucérnam meam, Dómine.",
             "resp1_lat": "Deus meus, illúmina ténebras meas.",
             "les_text_lat": "Superabundávit grátia Dómini nostri cum fide et dilectióne, quæ sunt in Christo Iesu. Fidélis sermo et omni acceptióne dignus: Christus Iesus venit in mundum peccatóres salvos fácere; quorum primus ego sum."
@@ -877,9 +868,6 @@ export const calendarData: CalendarData = {
             "resp0": "Deinen Namen will ich ehren immer und ewig.",
             "resp1": "Denn groß ist über mir deine Huld.",
             "ant0_lat": "Dixit Dóminus Saulo: Ego sum Iesus Nazarénus, quem tu perséqueris.",
-            "ant1_lat": "",
-            "ant2_lat": "",
-            "ant3_lat": "",
             "resp0_lat": "Glorificábo nomen tuum in ætérnum, Dómine.",
             "resp1_lat": "Quia misericórdia tua magna est super me.",
             "les_text_lat": "Misericórdiam consecútus sum, ut in me primo osténderet Christus Iesus omnem longanimitátem, ad informatiónem eórum, qui creditúri sunt illi in vitam ætérnam."
@@ -979,7 +967,8 @@ export const calendarData: CalendarData = {
             "button": "Hl. Thomas von Aquin",
             "genitiv": "des heiligen Thomas",
             "vokativ": "Heiliger Thomas",
-            "genitiv_lat": "sancti ",
+            "genitiv_lat": "sancti Thomæ",
+            "vokativ_lat": "sancte Thomas",
             "antev": "Gepriesen sei der Herr! Aus Liebe zu ihm hat Thomas geforscht, hat Nächte durchwacht und sich abgemüht.",
             "antev_lat": "Benedíctus Dóminus, pro cuius amóre beátus Thomas stúduit, vigilávit et laborávit."
           },
@@ -1083,7 +1072,6 @@ export const calendarData: CalendarData = {
             "patr_resp2": "und das Haus Gottes wurde erfüllt von Herrlichkeit.",
             "patr_resp3": "Die Eltern brachten den Knaben Jesus in den Tempel.",
             "hymn_1_lat": 8202.101,
-            "hymn_nacht_lat": 0.0,
             "ant1_lat": "Ecce pósitus est hic in ruínam et resurrectiónem multórum in Israel.",
             "ant2_lat": "Surge, illumináre, Ierúsalem: quia venit lumen tuum, et glória Dómini in te vidébitur.",
             "ant3_lat": "Gaude et lætáre, nova Sion: ecce enim Rex tuus venit, mitis et salvans pópulum suum.",
@@ -1254,7 +1242,8 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Wer nicht liebt, hat Gott nicht erkannt; denn Gott ist die Liebe."
           },
           "Laudes": {
-            "button": "Hl. Rabanus Maurus"
+            "button": "Hl. Rabanus Maurus",
+            "genitiv": "des heiligen Rabanus Maurus"
           }
         }
       },
@@ -1307,6 +1296,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hll. Paul Miki und Gefährten",
             "farbe": "r",
+            "genitiv": "des heiligen Paul Miki und seiner Gefährten",
             "ant_komm": "Selig, die Verfolgung leiden für die Gerechtigkeit; denn ihrer ist das Himmelreich.",
             "ant_komm_lat": "Beáti, qui persecutiónem patiúntur propter iustítiam, quóniam ipsórum est regnum cælórum."
           },
@@ -1423,14 +1413,7 @@ export const calendarData: CalendarData = {
       },
       "14": {
         "eig": {
-          "each": {
-            "comm_1": "Hirten",
-            "farbe": "BuM",
-            "oration": "Gott, du Heil aller Menschen, du hast durch die Brüder Cyrill und Methodius den slawischen Völkern das Licht deiner Wahrheit geschenkt. Gib, dass wir deine Lehre mit bereitem Herzen aufnehmen und zu einem Volk werden, das im wahren Glauben und im rechten Bekenntnis geeint ist.^ORV",
-            "oration_lat": "Deus, qui per beátos fratres Cyríllum et Methódium Slavóniæ gentes illuminásti, da córdibus nostris tuæ doctrínæ verba percípere, nosque pérfice pópulum in vera fide et recta confessióne concórdem.^ORlV"
-          },
           "Lesehore": {
-            "farbe": "BuM",
             "versikel0": "Aus meinem Mund wirst du das Wort vernehmen.",
             "versikel1": "Und in meinem Auftrag wirst du es ihnen verkünden.",
             "les_buch": "Aus dem ersten Brief an die Thessalonicher.",
@@ -1444,28 +1427,22 @@ export const calendarData: CalendarData = {
             "patr_text": "^hFördere deine Kirche und fasse alle zur Einheit zusammen^pKonstantin Cyrillus erkrankte, von Arbeit überhäuft. Nachdem er seine Krankheit viele Tage ertragen hatte und die Stunde kam, da er Ruhe erhalten und in die ewigen Wohnungen {1#vgl.°Lk 16,9.} eingehen sollte, erhob er die Hände zu Gott und betete unter Tränen:^p„Herr, mein Gott, du hast alle Engel und die unkörperlichen Kräfte erschaffen. Du hast den Himmel ausgespannt und die Erde fest gemacht. Alles, was ist, hast du aus dem Nichtsein zum Sein gebracht. Du erhörst immer alle, die deinen Willen tun, dich ehren und deine Gebote halten. Erhöre mein Gebet und erhalte deine gläubige Herde, der du mich Unwürdigen und Untauglichen zum Vorsteher gegeben hast. Befreie sie von der Bosheit der Menschen, die dich lästern. Mehre deine Kirche an Zahl und führe alle zur Einheit zusammen! Mache sie zu einem ausgezeichneten Volk, einmütig in deinem wahren Glauben und im rechten Bekenntnis. Hauche ihren Herzen das Wort der Lehre ein. Denn dein Geschenk ist es, dass du uns angenommen hast, das Evangelium Christi zu predigen, dass wir die Menschen zu guten Taten aneifern und das tun dürften, was dir gefällt. Die du mir gegeben hast, stelle ich dir zurück; denn sie sind dein. Leite sie mit deiner starken Rechten, behüte sie unter dem Schutz deiner Fittiche, damit alle deinen Namen loben und verherrlichen, den Namen des Vaters und des Sohnes und des Heiligen Geistes Amen.“^pSo entschlief er im Herrn, 42 Jahre alt. Der Papst ordnete an, dass alle Griechen, die in Rom waren, und die Römer sich mit Kerzen in den Händen bei ihm versammelten und über ihm sangen, dass sie einen Leichenzug hielten wie bei einem Papst. So geschah es denn auch.",
             "patr_resp1": "Ich habe David, meinen Knecht, gefunden, mit heiligem Öl ihn gesalbt",
             "patr_resp2": "Beständig wird meine Hand ihn halten",
-            "patr_resp3": "Ich gebe euch einen Hirten nach meinem Herzen.",
-            "versikel0_lat": "",
-            "versikel1_lat": "",
-            "resp1_lat": "",
-            "resp2_lat": "",
-            "resp3_lat": "",
-            "patr_resp1_lat": "",
-            "patr_resp2_lat": "",
-            "patr_resp3_lat": "",
-            "les_text_lat": ""
+            "patr_resp3": "Ich gebe euch einen Hirten nach meinem Herzen."
+          },
+          "each": {
+            "comm_1": "Hirten",
+            "oration": "Gott, du Heil aller Menschen, du hast durch die Brüder Cyrill und Methodius den slawischen Völkern das Licht deiner Wahrheit geschenkt. Gib, dass wir deine Lehre mit bereitem Herzen aufnehmen und zu einem Volk werden, das im wahren Glauben und im rechten Bekenntnis geeint ist.^ORV",
+            "oration_lat": "Deus, qui per beátos fratres Cyríllum et Methódium Slavóniæ gentes illuminásti, da córdibus nostris tuæ doctrínæ verba percípere, nosque pérfice pópulum in vera fide et recta confessióne concórdem.^ORlV"
           },
           "Laudes": {
             "button": "Hl. Cyrill und hl. Methodius",
-            "farbe": "BuM",
             "nominativ": "Die Heiligen Cyrill und Methodius",
             "genitiv": "der Heiligen Cyrill und Methodius",
-            "antev": "In Heiligkeit und Gerechtigkeit dienten sie dem Herrn all ihre Tage.",
             "genitiv_lat": "sancti Cyrilli et Methodii",
+            "antev": "In Heiligkeit und Gerechtigkeit dienten sie dem Herrn all ihre Tage.",
             "antev_lat": "In sanctitáte et iustítia serviérunt Dómino ómnibus diébus suis."
           },
           "Vesper": {
-            "farbe": "BuM",
             "antev": "Sie sind heilige Männer: Gott hat sie zu seinen Freunden gemacht, zu ruhmvollen Kündern seiner Wahrheit.",
             "antev_lat": "Isti sunt viri sancti, facti amíci Dei, divínæ veritátis præcónio gloriósi."
           }
@@ -1572,17 +1549,11 @@ export const calendarData: CalendarData = {
             "les_stelle": "15,7b–9",
             "les_text": "Brüder, wie ihr wisst, hat Gott schon längst hier bei euch die Entscheidung getroffen, dass die Heiden durch meinen Mund das Wort des Evangeliums hören und zum Glauben gelangen sollen. Und Gott, der die Herzen kennt, bestätigte dies, indem er ihnen ebenso wie uns den Heiligen Geist gab. Er machte keinerlei Unterschied zwischen uns und ihnen; denn er hat ihre Herzen durch den Glauben gereinigt.",
             "les_text_neu": "Brüder, wie ihr wisst, hat Gott schon längst hier bei euch die Entscheidung getroffen, dass die Heiden durch meinen Mund das Wort des Evangeliums hören und zum Glauben gelangen sollen. Und Gott, der die Herzen kennt, hat dies bestätigt, indem er ihnen ebenso wie uns den Heiligen Geist gab. Er machte keinerlei Unterschied zwischen uns und ihnen; denn er hat ihre Herzen durch den Glauben gereinigt.",
-            "resp1": "Du bestellst sie zu Fürsten",
-            "resp2": "in allen Ländern der Erde.",
-            "resp3": "Sie rühmen deinen Namen von Geschlecht zu Geschlecht.",
             "antev": "Simon, ich habe für dich gebetet, dass dein Glaube nicht wanke. Du aber stärke deine Brüder.",
             "hymn_1_lat": 8222.2,
             "ant1_lat": "Dixit Dóminus Simóni: Noli timére; ex hoc iam hómines eris cápiens.",
             "ant2_lat": "Tu es Christus, Fílius Dei vivi. Et tu beátus es, Simon Petre.",
             "ant3_lat": "Dixit Dóminus Petro: Tibi dabo claves regni cælórum.",
-            "resp1_lat": "",
-            "resp2_lat": "in°allen°Ländern°der°Erde.",
-            "resp3_lat": "",
             "antev_lat": "Dixit Dóminus Simóni Petro: Ego pro te rogávi, ut non defíciat fides tua. Et tu, aliquándo convérsus, confírma fratres tuos.",
             "les_text_lat": "Elégit Deus per os meum audíre gentes verbum evangélii et crédere; et qui novit corda, Deus testimónium perhíbuit illis dans Spíritum Sanctum sicut et nobis et nihil discrévit inter nos et illos fide puríficans corda eórum."
           },
@@ -1591,8 +1562,6 @@ export const calendarData: CalendarData = {
             "les_stelle": "22,22",
             "les_text": "Ich lege ihm den Schlüssel des Hauses David auf die Schulter; wenn er öffnet, kann niemand schließen; und wenn er schließt, kann niemand öffnen.",
             "les_text_neu": " Ich werde ihm den Schlüssel des Hauses David auf die Schulter legen. Er wird öffnen und niemand ist da, der schließt; er wird schließen und niemand ist da, der öffnet.",
-            "resp0": "Ihre Botschaft geht hinaus in die ganze Welt.",
-            "resp1": "Ihre Kunde bis zu den Enden der Erde.",
             "les_text_lat": "Dabo clavem domus David super úmerum eius; et apériet, et non erit qui claudat; et claudet, et non erit qui apériat."
           },
           "Sext": {
@@ -1600,8 +1569,6 @@ export const calendarData: CalendarData = {
             "les_stelle": "5,1–2a",
             "les_text": "Eure Ältesten ermahne ich, da ich ein Ältester bin wie sie und ein Zeuge der Leiden Christi und auch an der Herrlichkeit teilhaben soll, die sich offenbaren wird: Sorgt als Hirten für die euch anvertraute Herde Gottes.",
             "les_text_neu": "Eure Ältesten ermahne ich, als Mitältester und Zeuge der Leiden Christi, der auch an der Herrlichkeit teilhaben soll, die sich offenbaren wird: Weidet die euch anvertraute Herde Gottes.",
-            "resp0": "Sie hielten fest am Zeugnis Gottes.",
-            "resp1": "Und bewahrten seine Gebote.",
             "les_text_lat": "Senióres óbsecro, consénior et testis Christi passiónum, qui et eius, quæ in futúro revelánda est, glóriæ communicátor: Páscite, qui est in vobis, gregem Dei."
           },
           "Non": {
@@ -1609,8 +1576,6 @@ export const calendarData: CalendarData = {
             "les_stelle": "1,16",
             "les_text": "Wir sind nicht irgendwelchen klug ausgedachten Geschichten gefolgt, als wir euch die machtvolle Ankunft Jesu Christi, unseres Herrn, verkündeten, sondern wir waren Augenzeugen seiner Macht und Größe.",
             "les_text_neu": "Wir sind nicht klug ausgedachten Geschichten gefolgt, als wir euch die machtvolle Ankunft unseres Herrn Jesus Christus kundtaten, sondern wir waren Augenzeugen seiner Macht und Größe.",
-            "resp0": "So spricht der Herr: Freut euch und jubelt.",
-            "resp1": "Denn eure Namen sind im Himmel verzeichnet.",
             "les_text_lat": "Non captiósas fábulas secúti notam fécimus vobis Dómini nostri Iesu Christi virtútem et advéntum, sed speculatóres facti illíus magnitúdinis."
           },
           "Vesper": {
@@ -1622,17 +1587,11 @@ export const calendarData: CalendarData = {
             "les_stelle": "1,3–5",
             "les_text": "Gepriesen sei der Gott und Vater Jesu Christi, unseres Herrn: Er hat uns in seinem großen Erbarmen neu geboren, damit wir durch die Auferstehung Jesu Christi von den Toten eine lebendige Hoffnung haben und das unzerstörbare, makellose und unvergängliche Erbe empfangen, das im Himmel für euch aufbewahrt ist. Gottes Macht behütet euch durch den Glauben, damit ihr das Heil erlangt, das am Ende der Zeit offenbart werden soll.",
             "les_text_neu": "Gepriesen sei der Gott und Vater unseres Herrn Jesus Christus: Er hat uns in seinem großen Erbarmen neu gezeugt zu einer lebendigen Hoffnung durch die Auferstehung Jesu Christi von den Toten, zu einem unzerstörbaren, makellosen und unvergänglichen Erbe, das im Himmel für euch aufbewahrt ist. Gottes Kraft behütet euch durch den Glauben, damit ihr die Rettung erlangt, die am Ende der Zeit offenbart werden soll.",
-            "resp1": "Verkündet die Herrlichkeit Gottes",
-            "resp2": "unter allen Völkern.",
-            "resp3": "Rühmt seinen Namen, verkündet sein Heil.",
             "antev": "Du bist der Hirt der Herde, der Erste der Apostel. Dir wurden die Schlüssel des Himmelreiches übergeben.",
             "hymn_1_lat": 8222.4,
             "ant1_lat": "Petre, amas me? Tu scis, Dómine, quia amo te. Pasce oves meas.",
             "ant2_lat": "Petrus servabátur in cárcere, et orátio fiébat pro eo sine intermissióne ab Ecclésia ad Deum.",
             "ant3_lat": "Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam.",
-            "resp1_lat": "",
-            "resp2_lat": "unter°allen°Völkern.",
-            "resp3_lat": "",
             "antev_lat": "Tu es pastor óvium, princeps Apostolórum; tibi tráditæ sunt claves regni cælórum.",
             "les_text_lat": "Benedíctus Deus et Pater Dómini nostri Iesu Christi, qui secúndum magnam misericórdiam suam regenerávit nos in spem vivam per resurrectiónem Iesu Christi ex mórtuis, in hereditátem incorruptíbilem et incontaminátam et immarcescíbilem, conservátam in cælis propter vos, qui in virtúte Dei custodímini per fidem in salútem parátam revelári in témpore novíssimo."
           }
@@ -1656,6 +1615,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Polykarp",
             "farbe": "r",
+            "genitiv": "des heiligen Polykarp",
             "antev": "Sechsundachtzig Jahre habe ich Christus gedient und habe von ihm kein Unrecht erfahren. Wie könnte ich meinen König schmähen, der mich erlöst hat!",
             "antev_lat": "Octogínta et sex annos sérvio Christo, nec me ulla affécit iniúria; et quómodo possim maledícere regi meo, qui salvum me fecit?"
           },
@@ -1734,7 +1694,8 @@ export const calendarData: CalendarData = {
             "button": "Hl. Gregor von Narek",
             "genitiv": "des heiligen Gregor",
             "vokativ": "Heiliger Gregor",
-            "genitiv_lat": "sancti ",
+            "genitiv_lat": "sancti Gregórii",
+            "vokativ_lat": "sancte Gregor",
             "ant_komm": "Die Weisen strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig.",
             "ant_komm_lat": "Qui docti fúerint, fulgébunt quasi splendor firmaménti, et qui ad iustítiam erúdiunt multos, quasi stella: in perpétuas æternitátes."
           },
@@ -1823,6 +1784,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Perpetua und hl. Felizitas",
             "farbe": "r",
+            "genitiv": "der Heiligen Perpetua und Felizitas",
             "ant_komm": "Selig, die Verfolgung leiden für die Gerechtigkeit; denn ihrer ist das Himmelreich.",
             "ant_komm_lat": "Beáti, qui persecutiónem patiúntur propter iustítiam, quóniam ipsórum est regnum cælórum."
           },
@@ -2121,7 +2083,6 @@ export const calendarData: CalendarData = {
             "hymn_1_lat": 8319.101,
             "hymn_2_lat": 0.0,
             "hymn_3_lat": 0.0,
-            "hymn_nacht_lat": 0.0,
             "ant1_lat": "Angelus Dómini appáruit Ioseph, dicens: Ioseph, fili David, noli timére accípere Maríam cóniugem tuam; páriet fílium, et vocábis nomen eius Iesum.^LÖ",
             "ant2_lat": "Exsúrgens Ioseph a somno, fecit sicut præcépit ei Angelus Dómini, et accépit Maríam cóniugem suam.^LÖ",
             "ant3_lat": "Ascéndit Ioseph a Názareth in civitátem David, quæ vocátur Béthlehem, ut profiterétur cum María.^LÖ",
@@ -2368,7 +2329,6 @@ export const calendarData: CalendarData = {
             "hymn_1_lat": 8325.1,
             "hymn_2_lat": 0.0,
             "hymn_3_lat": 0.0,
-            "hymn_nacht_lat": 0.0,
             "ant1_lat": "Quando advénit plenitúdo témporis, misit Deus Fílium suum, factum ex mulíere, ut adoptiónem filiórum reciperémus.^LÖ",
             "ant2_lat": "Ingrédiens mundum, dicit: Corpus aptásti mihi; ecce vénio, ut fáciam, Deus, voluntátem tuam.^LÖ",
             "ant3_lat": "In hoc appáruit cáritas Dei in nobis, quóniam Fílium suum unigénitum misit in mundum, ut vivámus per eum.^LÖ",
@@ -2726,7 +2686,8 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Sel. Marcel Callo",
-            "farbe": "r"
+            "farbe": "r",
+            "genitiv": "des seligen Marcel Callo"
           }
         }
       },
@@ -2770,7 +2731,8 @@ export const calendarData: CalendarData = {
             "button": "Hl. Anselm",
             "genitiv": "des heiligen Anselm",
             "vokativ": "Heiliger Anselm",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Ansélmi",
+            "vokativ_lat": "sancte Ansélme"
           }
         }
       },
@@ -2900,7 +2862,8 @@ export const calendarData: CalendarData = {
             "button": "Hl. Petrus Kanisius",
             "genitiv": "des heiligen Petrus Kanisius",
             "vokativ": "Heiliger Petrus Kanisius",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Petri Canísii",
+            "vokativ_lat": "sancte Petre Canísi"
           }
         }
       },
@@ -2921,7 +2884,8 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Peter Chanel",
-            "farbe": "r"
+            "farbe": "r",
+            "genitiv": "des heiligen Peter Chanel"
           }
         },
         "n2": {
@@ -2964,6 +2928,8 @@ export const calendarData: CalendarData = {
             "nominativ": "Die heilige Katharina",
             "genitiv": "der heiligen Katharina",
             "vokativ": "Heilige Katharina",
+            "genitiv_lat": "sanctæ Catharínæ",
+            "vokativ_lat": "sancta Catharína",
             "antev": "Die heilige Jungfrau Katharina flehte unablässig zum Herrn, dass er seiner Kirche den Frieden schenke.^Ö",
             "antev_lat": "Sancta virgo Catharína non cessábat clamáre ad Dóminum, ut pacem rédderet Ecclésiæ suæ sanctæ.^LÖ",
             "hymn_1_lat": 8429.4
@@ -3023,8 +2989,7 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Das war die Bestimmung des Menschen von Anbeginn.",
             "hymn_1_lat": 8501.1,
             "hymn_2_lat": 0.0,
-            "hymn_3_lat": 0.0,
-            "hymn_nacht_lat": 0.0
+            "hymn_3_lat": 0.0
           },
           "Laudes": {
             "button": "Hl. Josef der Arbeiter",
@@ -3115,7 +3080,6 @@ export const calendarData: CalendarData = {
             "hymn_1_lat": 8501.1,
             "hymn_2_lat": 0.0,
             "hymn_3_lat": 0.0,
-            "hymn_nacht_lat": 0.0,
             "ant1_lat": "Angelus Dómini appáruit Ioseph, dicens: Ioseph, fili David, noli timére accípere Maríam cóniugem tuam; páriet fílium, et vocábis nomen eius Iesum.^LÖ",
             "ant2_lat": "Exsúrgens Ioseph a somno, fecit sicut præcépit ei Angelus Dómini, et accépit Maríam cóniugem suam.^LÖ",
             "ant3_lat": "Ascéndit Ioseph a Názareth in civitátem David, quæ vocátur Béthlehem, ut profiterétur cum María.^LÖ",
@@ -3219,7 +3183,8 @@ export const calendarData: CalendarData = {
             "button": "Hl. Athanasius",
             "genitiv": "des heiligen Athanasius",
             "vokativ": "Heiliger Athanasius",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Athanásii",
+            "vokativ_lat": "sancte Athanási"
           }
         }
       },
@@ -3280,7 +3245,8 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Florian und hll. Märtyrer von Lorch",
-            "farbe": "r"
+            "farbe": "r",
+            "genitiv": "des heiligen Florian und seiner Gefährten"
           }
         }
       },
@@ -3296,7 +3262,8 @@ export const calendarData: CalendarData = {
             "button": "Hl. Johannes von Avila",
             "genitiv": "des heiligen Johannes von Avila",
             "vokativ": "Heiliger Johannes von Avila",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Ioánnis de Avila",
+            "vokativ_lat": "sancte Ioánnes de Avila"
           }
         },
         "n2": {
@@ -3330,7 +3297,8 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Nereus und Achilleus",
-            "farbe": "r"
+            "farbe": "r",
+            "genitiv": "der Heiligen Nereus und Achilleus"
           }
         },
         "n2": {
@@ -3349,7 +3317,8 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Pankratius",
-            "farbe": "r"
+            "farbe": "r",
+            "genitiv": "des heiligen Pankratius"
           }
         }
       },
@@ -3535,7 +3504,8 @@ export const calendarData: CalendarData = {
             "nominativ": "Der heilige Beda",
             "genitiv": "des heiligen Beda",
             "vokativ": "Heiliger Beda",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Bedæ",
+            "vokativ_lat": "sancte Beda"
           }
         },
         "n2": {
@@ -3722,8 +3692,7 @@ export const calendarData: CalendarData = {
             "ant0": "Ruhm und Ehre in Ewigkeit sei dem dreieinigen Gott: dem Vater und dem Sohn und dem Heiligen Geist.^ö",
             "les_buch": "^A:vigil-Dreifaltigkeit:",
             "les_text": "LEER",
-            "ant0_lat": "Laus et perénnis glória Deo Patri et Fílio, sancto simul Paráclito, in sǽcula sæculórum.",
-            "les_text_lat": "LEER"
+            "ant0_lat": "Laus et perénnis glória Deo Patri et Fílio, sancto simul Paráclito, in sǽcula sæculórum."
           },
           "Laudes": {
             "hymn_1": 3902.0,
@@ -3951,8 +3920,7 @@ export const calendarData: CalendarData = {
             "ant0": "Mein Fleisch ist wahrhaft eine Speise, und mein Blut ist wahrhaft ein Trank. Wer mein Fleisch isst und mein Blut trinkt, der hat das ewige Leben.^ö",
             "les_buch": "^A:vigil-Fronleichnam:",
             "les_text": "LEER",
-            "ant0_lat": "Caro mea vere est cibus, et sanguis meus vere est potus. Qui mandúcat carnem meam et bibit sánguinem meum, habet vitam ætérnam, dicit Dóminus.",
-            "les_text_lat": "LEER"
+            "ant0_lat": "Caro mea vere est cibus, et sanguis meus vere est potus. Qui mandúcat carnem meam et bibit sánguinem meum, habet vitam ætérnam, dicit Dóminus."
           },
           "Laudes": {
             "hymn_1": 3942.0,
@@ -4144,10 +4112,7 @@ export const calendarData: CalendarData = {
             "ant2_lat": "Dum anxiarétur cor meum, in petra exaltásti me.",
             "ant3_lat": "Vidérunt omnes términi terræ salutáre Dei nostri.",
             "versikel0_lat": "Memor ero óperum Dómini,",
-            "versikel1_lat": "Memor ero ab inítio mirabílium suórum.",
-            "patr_resp1_lat": "",
-            "patr_resp2_lat": "",
-            "patr_resp3_lat": ""
+            "versikel1_lat": "Memor ero ab inítio mirabílium suórum."
           },
           "Vigil": {
             "psalm1": 174.0,
@@ -4156,8 +4121,7 @@ export const calendarData: CalendarData = {
             "ant0": "Siehe, Gott ist mein Retter, ihm vertraue ich. Er wurde mir zum Heil.^ö",
             "les_buch": "^A:vigil-HerzJesu:",
             "les_text": "LEER",
-            "ant0_lat": "Ecce Deus salvátor meus; fiduciáliter agam, quia factus est mihi in salútem.^Lö",
-            "les_text_lat": "LEER"
+            "ant0_lat": "Ecce Deus salvátor meus; fiduciáliter agam, quia factus est mihi in salútem.^Lö"
           },
           "Laudes": {
             "hymn_1": 3952.0,
@@ -4317,6 +4281,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Justin",
             "farbe": "r",
+            "genitiv": "des heiligen Justin",
             "antev": "Mit jeder Gabe, die wir opfern, loben wir den Schöpfer aller Dinge durch seinen Sohn Jesus Christus im Heiligen Geist.^Ö",
             "antev_lat": "In ómnibus oblatiónibus laudámus Creatórem ómnium per Fílium eius Iesum Christum et per Spíritum Sanctum.^LÖ"
           },
@@ -4366,7 +4331,8 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Karl Lwanga und Gefährten",
-            "farbe": "r"
+            "farbe": "r",
+            "genitiv": "des heiligen Karl Lwanga und seiner Gefährten"
           }
         }
       },
@@ -4388,7 +4354,8 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Bonifatius",
-            "farbe": "r"
+            "farbe": "r",
+            "genitiv": "des heiligen Bonifatius"
           }
         }
       },
@@ -4433,7 +4400,8 @@ export const calendarData: CalendarData = {
             "button": "Hl. Ephräm der Syrer",
             "genitiv": "des heiligen Ephräm",
             "vokativ": "Heiliger Ephräm",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Ephræm",
+            "vokativ_lat": "sancte Ephræm"
           }
         }
       },
@@ -4491,7 +4459,8 @@ export const calendarData: CalendarData = {
             "nominativ": "Der heilige Antonius",
             "genitiv": "des heiligen Antonius",
             "vokativ": "Heiliger Antonius",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Antónii",
+            "vokativ_lat": "sancte Antóni"
           }
         }
       },
@@ -4512,7 +4481,8 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Vitus",
-            "farbe": "r"
+            "farbe": "r",
+            "genitiv": "des heiligen Vitus"
           }
         }
       },
@@ -4621,7 +4591,8 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. John Fisher und Thomas Morus",
-            "farbe": "r"
+            "farbe": "r",
+            "genitiv": "der Heiligen John Fisher und Thomas Morus"
           }
         }
       },
@@ -4704,8 +4675,7 @@ export const calendarData: CalendarData = {
             "les_buch": "^A:vigil-Johannes:",
             "les_stelle": "^Q:Lk 1,5-17",
             "les_text": "LEER",
-            "ant0_lat": "Reges vidébunt et consúrgent príncipes, et adorábunt Dominum Deum tuum, qui elégit te.",
-            "les_text_lat": "LEER"
+            "ant0_lat": "Reges vidébunt et consúrgent príncipes, et adorábunt Dominum Deum tuum, qui elégit te."
           },
           "Laudes": {
             "button": "Geburt des hl. Johannes des Täufers",
@@ -4968,8 +4938,7 @@ export const calendarData: CalendarData = {
             "les_buch": "^A:vigil-PeterPaul:",
             "les_stelle": "^Q:Joh 21,1.15-19",
             "les_text": "LEER",
-            "ant0_lat": "Inseparábilis fides passióque germána laudábiles eos perpétuam transmísit ad vitam, quóniam doctrίnam suam morte fortίssima consecrarúnt.",
-            "les_text_lat": "LEER"
+            "ant0_lat": "Inseparábilis fides passióque germána laudábiles eos perpétuam transmísit ad vitam, quóniam doctrίnam suam morte fortίssima consecrarúnt."
           },
           "Laudes": {
             "button": "Hl. Petrus und hl. Paulus",
@@ -5088,6 +5057,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Die ersten hll. Märtyrer der Stadt Rom",
             "farbe": "r",
+            "genitiv": "der heiligen römischen Märtyrer",
             "antev": "Die gewaltige Schar der Märtyrer verharrte in brüderlicher Liebe, denn EIN Geist und EIN Glaube beseelte sie.",
             "antev_lat": "Multitúdo ingens mártyrum in amóre fraternitátis pérstitit, quia unus spíritus et una fides erat in eis."
           },
@@ -5145,10 +5115,7 @@ export const calendarData: CalendarData = {
             "patr_resp1": "Selig bist du, Maria! Du hast geglaubt, dass sich die Botschaft des Herrn erfüllt!",
             "patr_resp2": "Meine Seele preist die Größe des Herrn.",
             "patr_resp3": "Kommt alle und hört: ich will euch erzählen, was Gott mir Gutes getan hat.",
-            "hymn_1_lat": 8702.1,
-            "patr_resp1_lat": "",
-            "patr_resp2_lat": "",
-            "patr_resp3_lat": ""
+            "hymn_1_lat": 8702.1
           },
           "Laudes": {
             "button": "Mariae Heimsuchung",
@@ -5407,7 +5374,8 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Augustinus Zhao Rong und Gefährten",
-            "farbe": "r"
+            "farbe": "r",
+            "genitiv": "des heiligen Augustinus und seiner Gefährten"
           }
         }
       },
@@ -5428,7 +5396,8 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Knud, Erich und Olaf",
-            "farbe": "r"
+            "farbe": "r",
+            "genitiv": "der heiligen Knud, Erich und Olaf"
           }
         }
       },
@@ -5501,7 +5470,7 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Heinrich II. und hl. Kunigunde",
-            "nominativ": "der Heiligen Heinrich und Kunigunde",
+            "nominativ": "Die Heiligen Heinrich und Kunigunde",
             "genitiv": "der Heiligen Heinrich und Kunigunde",
             "genitiv_lat": "sanctórum "
           }
@@ -5767,7 +5736,8 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Christophorus",
-            "farbe": "r"
+            "farbe": "r",
+            "genitiv": "des heiligen Christophorus"
           }
         },
         "n2": {
@@ -6055,7 +6025,8 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Gott hat es denen bereitet, die ihn lieben."
           },
           "Laudes": {
-            "button": "Hl. Pfarrer von Ars"
+            "button": "Hl. Pfarrer von Ars",
+            "genitiv": "des heiligen Pfarrers von Ars"
           }
         }
       },
@@ -6161,8 +6132,7 @@ export const calendarData: CalendarData = {
             "les_buch": "^A:vigil-Verklärung:",
             "les_stelle": "LEER",
             "les_text": "LEER",
-            "ant0_lat": "Accéssit Iesus, et divíne vocis pavóre prostrátos tétigit discípulos suos dicens: Súrgite et nolíte timére.",
-            "les_text_lat": "LEER"
+            "ant0_lat": "Accéssit Iesus, et divíne vocis pavóre prostrátos tétigit discípulos suos dicens: Súrgite et nolíte timére."
           },
           "Laudes": {
             "button": "Verklärung des Herrn",
@@ -6284,7 +6254,8 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Xystus II. und Gefährten",
-            "farbe": "r"
+            "farbe": "r",
+            "genitiv": "des heiligen Xystus und seiner Gefährten"
           }
         },
         "n2": {
@@ -7125,6 +7096,7 @@ export const calendarData: CalendarData = {
             "genitiv": "des heiligen Gregor",
             "vokativ": "Heiliger Gregor",
             "genitiv_lat": "sancti Gregórii",
+            "vokativ_lat": "sancte Gregóri",
             "antev": "Als guter Hirt seiner Herde hat Gregor der Kirche das Beispiel seines Lebens hinterlassen und die Weisung seiner Lehre.",
             "antev_lat": "Pastor exímius Gregórius pastorális vitæ spécimen trádidit et régulam.",
             "hymn_1_lat": 8903.0
@@ -7295,6 +7267,7 @@ export const calendarData: CalendarData = {
             "genitiv": "des heiligen Johannes Chrysostomus",
             "vokativ": "Heiliger Johannes Chrysostomus",
             "genitiv_lat": "sancti Iohánnis Chrysóstomi",
+            "vokativ_lat": "sancte Ioánnes Chrysóstome",
             "hymn_1_lat": 8913.0
           },
           "Vesper": {
@@ -7371,15 +7344,11 @@ export const calendarData: CalendarData = {
             "patr_resp2": "Denn siehe, durch das Holz des Kreuzes kam Freude in alle Welt.",
             "patr_resp3": "Gott sei uns gnädig und segne uns. Er lasse sein Angesicht über uns leuchten und erbarme sich unser.",
             "hymn_1_lat": 8914.1,
-            "hymn_nacht_lat": 0.0,
             "ant1_lat": "Ecce crucem Dómini; fúgite, partes advérsæ; vicit leo de tribu Iuda, radix David.^Lö",
             "ant2_lat": "Sanctum nomen Dómini in cruce exaltátum est super cælum et terram.^Lö",
             "ant3_lat": "O crux benedícta, quæ sola fuísti digna portáre Regem cælórum et Dóminum.^Lö",
             "versikel0_lat": "Sicut Móyses exaltávit serpéntem in desérto.",
-            "versikel1_lat": "Ita exaltári opórtet Fílium hóminis.",
-            "patr_resp1_lat": "",
-            "patr_resp2_lat": "",
-            "patr_resp3_lat": ""
+            "versikel1_lat": "Ita exaltári opórtet Fílium hóminis."
           },
           "Vigil": {
             "psalm1": 161.0,
@@ -7389,8 +7358,7 @@ export const calendarData: CalendarData = {
             "les_buch": "^A:vigil-Kreuzerhöhung:",
             "les_stelle": "^Q:Joh 12,31-36a",
             "les_text": "LEER",
-            "ant0_lat": "O crux gloriósa, o crux adoránda, o lignum pretiósum et admirábile signum, per quod et diábolus est victus et mundus Christi sánguine redémptus.^Lö",
-            "les_text_lat": "LEER"
+            "ant0_lat": "O crux gloriósa, o crux adoránda, o lignum pretiósum et admirábile signum, per quod et diábolus est victus et mundus Christi sánguine redémptus.^Lö"
           },
           "Laudes": {
             "button": "Kreuzerhöhung",
@@ -7627,10 +7595,11 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Hildegard von Bingen",
+            "nominativ": "Die heilige Hildegard",
             "genitiv": "der heiligen Hildegard",
             "vokativ": "Heilige Hildegard",
-            "genitiv_lat": "sanctæ Hildegardis",
-            "vokativ_lat": "sancta Hildegard"
+            "genitiv_lat": "sanctæ Hildegárdis",
+            "vokativ_lat": "sancta Híldegard"
           }
         },
         "n2": {
@@ -7652,7 +7621,8 @@ export const calendarData: CalendarData = {
             "button": "Hl. Robert Bellarmin",
             "genitiv": "des heiligen Robert Bellarmin",
             "vokativ": "Heiliger Robert Bellarmin",
-            "genitiv_lat": "sancti Robérti Bellarmin"
+            "genitiv_lat": "sancti Robérti Béllarmino",
+            "vokativ_lat": "sancte Robérte"
           }
         }
       },
@@ -7775,7 +7745,8 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hll. Mauritius und Gefährten",
-            "farbe": "r"
+            "farbe": "r",
+            "genitiv": "des heiligen Mauritius und seiner Gefährten"
           }
         }
       },
@@ -7839,7 +7810,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Nikolaus von Flüe",
             "nominativ": "Der heilige Niklaus von Flüe",
-            "genitiv": "des heiligen Niklaus von Flüe",
+            "genitiv": "des heiligen Bruder Klaus",
             "genitiv_lat": "sancti Nicolæ",
             "antev": "Der Herr hat mich erleuchtet. Er lenkte meine Schritte auf den Weg des Friedens."
           },
@@ -7918,7 +7889,8 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Lioba",
             "nominativ": "Die heilige Lioba",
-            "genitiv": "der heiligen Lioba"
+            "genitiv": "der heiligen Lioba",
+            "genitiv_lat": "sanctæ Líobæ"
           }
         },
         "n2": {
@@ -7937,7 +7909,8 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Wenzel",
-            "farbe": "r"
+            "farbe": "r",
+            "genitiv": "des heiligen Wenzel"
           }
         },
         "n3": {
@@ -8024,7 +7997,7 @@ export const calendarData: CalendarData = {
             "resp1_lat": "Stetit ángelus",
             "resp2_lat": "iuxta aram templi.",
             "resp3_lat": "Habens turíbulum áureum in manu sua.",
-            "antev_lat": "",
+            "antev_lat": "Amen,°amen, dico vobis: Vidébitis cælum apértum, et ángelos Dei ascendéntes et descendéntes super Fílium hóminis.",
             "bitten_e_lat": "Fratres caríssimi, confiteámur Dómino, cui astat multitúdo angelórum psalléntium in unum, et acclamémus gaudéntes:",
             "bitten_r_lat": "Benedícite Dómino, omnes ángeli eius.",
             "bitten_lat": "Deus, qui ángelis tuis mandásti ut custódiant nos in ómnibus viis nostris,^qdeduc nos hódie sine offensióne per sémitas tuas.^pPater, cuius fáciem in cælis semper vident ángeli nostri,^qfac nos sine intermissióne quǽrere fáciem tuam.^pDeus, cuius fílii erunt sicut ángeli in cælo,^qda nobis castitátem cordis et córporis.^pDeus, in adiutórium pópuli tui mitte Michaélem príncipem magnum,^qut eum deféndat in prœ́lio contra Sátanam et ángelos eius.",
@@ -8042,9 +8015,6 @@ export const calendarData: CalendarData = {
             "resp0": "Der Herr wird seine Engel aussenden unter lautem Posaunenschall.",
             "resp1": "Seine Erwählten zu sammeln aus allen vier Winden.",
             "ant0_lat": "Ecce Míchael, unus de princípibus primis, venit in adiutórium meum.",
-            "ant1_lat": "",
-            "ant2_lat": "",
-            "ant3_lat": "",
             "resp0_lat": "Mittet Dóminus ángelos suos cum tuba et voce magna.",
             "resp1_lat": "Et congregábunt eléctos eius a quáttuor ventis.",
             "les_text_lat": "In témpore illo consúrget Míchael, princeps magnus, qui stat pro fíliis pópuli tui, et erit tempus angústiæ, quale non fuit ab eo, quo gentes esse cœpérunt, usque ad tempus illud. Et in témpore illo salvábitur pópulus tuus, omnis, qui invéntus fúerit scriptus in libro."
@@ -8061,9 +8031,6 @@ export const calendarData: CalendarData = {
             "resp0": "Lobet den Herrn, ihr, seine Engel.",
             "resp1": "Ihr starken Helden, die seine Befehle vollstrecken.",
             "ant0_lat": "Ecce Gábriel, quem víderam in visióne, cito volans tétigit me et dócuit me.",
-            "ant1_lat": "",
-            "ant2_lat": "",
-            "ant3_lat": "",
             "resp0_lat": "Benedícite Dómino, omnes virtútes eius.",
             "resp1_lat": "Minístri eius, qui fácitis voluntátem eius.",
             "les_text_lat": "Gábriel ángelus locútus est mihi dixítque: Dániel, nunc egréssus sum, ut docérem te et intellégeres. Ab exórdio precum tuárum egréssus est sermo; ego autem veni, ut indicárem, quia vir desideriórum es tu; ergo animadvérte sermónem et intéllege visiónem."
@@ -8080,9 +8047,6 @@ export const calendarData: CalendarData = {
             "resp0": "Gott hat seinen Engeln befohlen.",
             "resp1": "Dich zu hüten auf all deinen Wegen.",
             "ant0_lat": "Missus est Ráphael ángelus ad Tobíam et Saram, ut curáret eos.",
-            "ant1_lat": "",
-            "ant2_lat": "",
-            "ant3_lat": "",
             "resp0_lat": "Angelis suis Deus mandávit de te.",
             "resp1_lat": "Ut custódiant te in ómnibus viis tuis.",
             "les_text_lat": "Ego sum Ráphael, unus ex septem ángelis sanctis, qui assístimus et ingrédimur ante claritátem Dómini. Cum essem vobíscum, non mea grátia eram vobíscum, sed voluntáte Dei. Ipsi benedícite ómnibus diébus, decantáte ei. Ecce ego ascéndo ad eum, qui me misit. Scríbite ómnia hæc, quæ contigérunt vobis."
@@ -8168,7 +8132,9 @@ export const calendarData: CalendarData = {
             "button": "Hl. Theresia vom Kinde Jesus",
             "nominativ": "Die heilige Therese",
             "genitiv": "der heiligen Therese",
+            "vokativ": "Heilige Therese",
             "genitiv_lat": "sanctæ Terésiæ",
+            "vokativ_lat": "sancta Terésia",
             "antev": "Amen, ich sage euch: Wenn ihr nicht umkehrt und werdet wie die Kinder, kommt ihr nicht in das Himmelreich.",
             "antev_lat": "Amen dico vobis, nisi convérsi fuéritis et efficiámini sicut párvuli, non intrábitis in regnum cælórum."
           },
@@ -8197,10 +8163,7 @@ export const calendarData: CalendarData = {
             "patr_resp1": "Seine Engel bietet er auf für dich, dich zu behüten auf all deinen Wegen.",
             "patr_resp2": "Auf Händen werden sie dich tragen, damit dein Fuß an keinen Stein stößt.",
             "patr_resp3": "Kein Unheil wird dir begegnen, deinem Zelt keine Plage sich nahen.",
-            "hymn_1_lat": 9002.1,
-            "patr_resp1_lat": "",
-            "patr_resp2_lat": "",
-            "patr_resp3_lat": ""
+            "hymn_1_lat": 9002.1
           },
           "Laudes": {
             "button": "Hll. Schutzengel",
@@ -8449,7 +8412,8 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Dionysius und Gefährten",
-            "farbe": "r"
+            "farbe": "r",
+            "genitiv": "des heiligen Dionysius und seiner Gefährten"
           }
         },
         "n3": {
@@ -8546,6 +8510,7 @@ export const calendarData: CalendarData = {
             "genitiv": "der heiligen Theresia",
             "vokativ": "Heilige Theresia",
             "genitiv_lat": "sanctæ Terésiæ",
+            "vokativ_lat": "sancta Terésia",
             "hymn_1_lat": 9015.2
           },
           "Vesper": {
@@ -8573,7 +8538,7 @@ export const calendarData: CalendarData = {
             "button": "Hl. Margareta Maria Alacoque",
             "nominativ": "Die heilige Margareta Maria",
             "genitiv": "der heiligen Margareta Maria Alacoque",
-            "genitiv_lat": "sanctæ "
+            "genitiv_lat": "sanctæ Margarítæ Maríæ"
           }
         },
         "n3": {
@@ -8593,7 +8558,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Hedwig",
             "genitiv": "der heiligen Hedwig",
-            "genitiv_lat": "sanctæ ",
+            "genitiv_lat": "sanctæ Hedvígis",
             "antev": "Gottes Wille sei auch unser Wille. Was immer unserem Herrn gefällt, soll auch uns gefallen."
           },
           "Vesper": {
@@ -8619,7 +8584,7 @@ export const calendarData: CalendarData = {
             "button": "Hl. Gallus",
             "nominativ": "Der heilige Gallus",
             "genitiv": "des heiligen Gallus",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Galli"
           }
         }
       },
@@ -8643,7 +8608,7 @@ export const calendarData: CalendarData = {
             "button": "Hl. Ignatius von Antiochien",
             "farbe": "r",
             "genitiv": "des heiligen Ignatius",
-            "genitiv_lat": "sancti ",
+            "genitiv_lat": "sancti Ignátii",
             "antev": "Ihn suche ich, der für uns starb, nach ihm verlange ich, der für uns auferstand.",
             "antev_lat": "Illum quæro, qui pro nobis mórtuus est; illum volo, qui propter nos resurréxit."
           },
@@ -8681,6 +8646,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Lukas",
             "farbe": "r",
+            "genitiv_lat": "sancti Lucæ",
             "antev": "Lukas, ein Bote des Evangeliums, hat Christus verkündet, das Licht, das aufstrahlt aus der Höhe.",
             "antev_lat": "Evangélium Christi tradens, sanctus Lucas annuntiávit solem oriéntem ex alto.",
             "hymn_1_lat": 9018.0
@@ -8696,7 +8662,7 @@ export const calendarData: CalendarData = {
         "n1": {
           "major": {
             "comm_1": "MärtPl",
-            "comm_2": "Hir",
+            "comm_2": "Hirten",
             "oration": "Gütiger Gott, du hast durch die Predigt und das Martyrium des heiligen Johannes und seiner Gefährten die Anfänge der Kirche in Nordamerika geheiligt. Lass auf ihre Fürsprache in der ganzen Welt die Saat des Glaubens aufblühen und reifen.^ORV",
             "oration_lat": "Deus, qui primítias fídei in boreálibus Américæ regiónibus sanctórum Ioánnis et Isaac eorúmque sociórum prædicatióne et sánguine consecrásti, concéde propítius, ut eórum intercessióne, flórida christianórum seges ubíque in dies augeátur.^ORlV"
           },
@@ -8712,7 +8678,7 @@ export const calendarData: CalendarData = {
             "button": "Hl. Johannes de Brébeuf, Isaak Jogues und Gefährten",
             "farbe": "r",
             "genitiv": "der Heiligen Johannes und Isaak und ihrer Gefährten",
-            "genitiv_lat": "sanctæ "
+            "genitiv_lat": "sanctórum Ioánnis, Isaac et sociórum eórum"
           }
         },
         "n2": {
@@ -8734,7 +8700,7 @@ export const calendarData: CalendarData = {
             "button": "Hl. Paul vom Kreuz",
             "nominativ": "Der heilige Paul vom Kreuz",
             "genitiv": "des heiligen Paul vom Kreuz",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Pauli a Cruce"
           }
         }
       },
@@ -8757,7 +8723,7 @@ export const calendarData: CalendarData = {
             "button": "Hl. Wendelin",
             "nominativ": "Der heilige Wendelin",
             "genitiv": "des heiligen Wendelin",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Wendelíni"
           }
         }
       },
@@ -8782,7 +8748,7 @@ export const calendarData: CalendarData = {
             "farbe": "r",
             "nominativ": "Die heilige Ursula und ihre Gefährtinnen",
             "genitiv": "der heiligen Ursula und ihrer Gefährtinnen",
-            "genitiv_lat": "sanctæ "
+            "genitiv_lat": "sanctæ Ursulæ et sociárum eius"
           }
         }
       },
@@ -8804,7 +8770,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Johannes Paul II.",
             "genitiv": "des heiligen Johannes Paul II.",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Papæ Ioánnis Pauli"
           }
         }
       },
@@ -8826,7 +8792,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Johannes von Capestrano",
             "genitiv": "des heiligen Johannes",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Ioánnis de Capestráno"
           }
         }
       },
@@ -8848,7 +8814,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Antonius Maria Claret",
             "genitiv": "des heiligen Antonius Maria Claret",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Antónii Maríæ"
           }
         }
       },
@@ -8870,6 +8836,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Simon und hl. Judas",
             "farbe": "r",
+            "genitiv_lat": "sanctórum Simónis et Iudæ",
             "hymn_1_lat": 9028.0
           }
         }
@@ -8892,7 +8859,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Wolfgang",
             "genitiv": "des heiligen Wolfgang",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Wolfgang"
           }
         }
       }
@@ -8901,12 +8868,10 @@ export const calendarData: CalendarData = {
       "0": {
         "eig": {
           "each": {
-            "oration": "Allmächtiger Gott, wir glauben und bekennen, dass du deinen Sohn als Ersten von den Toten auferweckt hast. Stärke unsere Hoffnung, dass du auch unsere Brüder und Schwestern auferwecken wirst zum ewigen Leben.^ORV",
-            "oration_lat": ""
+            "oration": "Allmächtiger Gott, wir glauben und bekennen, dass du deinen Sohn als Ersten von den Toten auferweckt hast. Stärke unsere Hoffnung, dass du auch unsere Brüder und Schwestern auferwecken wirst zum ewigen Leben.^ORV"
           },
           "Invitatorium": {
-            "ant0": "Den König, dem alles lebt, Christus, den Herrn – kommt, wir beten ihn an!",
-            "ant0_lat": ""
+            "ant0": "Den König, dem alles lebt, Christus, den Herrn – kommt, wir beten ihn an!"
           },
           "Lesehore": {
             "hymn_1": 2514.0,
@@ -8925,14 +8890,7 @@ export const calendarData: CalendarData = {
             "patr_text": "^hLasst uns mit Christus sterben, um mit ihm aufzuerstehen^pPaulus sagt: „Für mich ist Christus das Leben, und Sterben Gewinn.“ {1#Phil 1,21} Was bedeutet Christus, wenn nicht Tod des Leibes und Geist des Lebens? Darum lasst uns mit ihm sterben, um mit ihm zu leben! Täglich sei uns das Leben Umgang mit dem Tod und Liebe zu ihm. Durch diese Loslösung lerne unsere Seele, sich aus den leiblichen Begierden zurückzuziehen, als wäre sie auf eine Höhe versetzt, wohin irdische Gelüste nicht gelangen und an ihr haften können.^pDurch den Tod des einen ist die Welt erlöst. Christus brauchte nicht zu sterben, wenn er nicht gewollt hätte. Auch gedachte er den Tod nicht zu verjagen, als tauge er nichts, longer hätte er uns nicht retten können als durch sein Sterben. So ist sein Tod das Leben aller. Von seinem Tod sind wir geprägt, seinen Tod verkünden wir im Gebet, ihn predigen wir beim Opfer; sein Tod ist Sieg, sein Tod ist Mysterium und das (Neu-)Jahresfest der Welt.^pWas sollen wir sonst noch von seinem Tod sagen, da uns das göttliche Beispiel beweist, dass der Tod nur die Unsterblichkeit gesucht hat und dass er sich selbst losgekauft hat. Daher sollen wir den Tod nicht beklagen, da er doch die Ursache des allgemeinen Heils ist. Wir sollen den Tod nicht fliehen, denn der Sohn Gottes hat ihn nicht verschmäht und geflohen.^pDer Tod sitzt nicht in der Natur, sondern ist über die Natur gekommen. Gott hat den Tod nicht von Anfang an eingeführt, sondern ihn als Heilmittel gegeben. Denn wegen der Übertretungen verurteilt, begann das Leben der Menschen in täglicher Arbeit und unerträglichem Stöhnen unglücklich zu werden. Die Leiden mussten beendet werden, und der Tod musste wiederherstellen, was das Leben verloren hatte. Die Unsterblichkeit ist eher eine Last als ein Vorzug, wenn die Gnade nicht weht.^pDer Geist hat die Möglichkeit, sich aus diesen Winden und dem Wirrwarr des Lebens und dem Wirrwarr des Leibes zu lösen und der Versammlung im Himmel entgegenzueilen, wenn auch nur Heilige dahin gelangen können. Der Geist hat die Möglichkeit, Gott zu loben, wie jene Zitherspieler, von denen wir aus der prophetischen Lesung erfahren: „Groß und wunderbar sind deine Taten, Herr, Gott und Herrscher über die ganze Schöpfung. Gerecht und zuverlässig sind deine Wege, du König der Völker. Wer wird dich nicht fürchten, Herr, wer wird deinen Namen nicht preisen? Denn du allein bist heilig: Alle Völker kommen und beten dich an.“ {2#Offb 15,3.4} Der Geist wird deine Hochzeit schauen dürfen, Jesus, wenn die Braut unter den Freudengesängen aller Geschöpfe von der Erde zum Himmel geleitet wird – „alle Menschen kommen zu dir“ {3#Ps 65,3} – sie ist nicht mehr der Welt verhaftet, sondern dem Geist vermählt.",
             "patr_resp1": "Ich weiß, dass mein Erlöser lebt, ",
             "patr_resp2": "meine Augen werden ihn schauen.",
-            "patr_resp3": "Ich werde Gott in meinem Fleische schauen, danach sehnt sich mein Herz.",
-            "ant1_lat": "",
-            "ant2_lat": "",
-            "ant3_lat": "",
-            "patr_resp1_lat": "",
-            "patr_resp2_lat": "",
-            "patr_resp3_lat": "",
-            "les_text_lat": ""
+            "patr_resp3": "Ich werde Gott in meinem Fleische schauen, danach sehnt sich mein Herz."
           },
           "Laudes": {
             "button": "Allerseelen",
@@ -8954,18 +8912,7 @@ export const calendarData: CalendarData = {
             "antev": "Ich bin die Auferstehung und das Leben; wer an mich glaubt, wird leben, auch wenn er stirbt, und jeder, der lebt und an mich glaubt, wird in Ewigkeit nicht sterben.",
             "bitten_e": "Gepriesen sei der allmächtige Gott, der seinen Sohn Jesus Christus von den Toten auferweckt hat und auch unseren sterblichen Leib neugestalten wird. Zu ihm lasst uns beten:",
             "bitten_r": "Schenke uns das Leben in Christus.",
-            "bitten": "Ewiger Gott, durch die Taufe sind wir mit Christus gestorben und zu einem neuen Leben auferstanden;^qgib, dass wir aus der Kraft Christi leben.^pDu nährst uns mit dem lebendigen Brot, damit wir das ewige Leben haben;^qlass uns auferstehen in Herrlichkeit am Jüngsten Tag.^pDu hast deinen Sohn in seiner Todesangst durch den Engel gestärkt;^qsei unsere Zuversicht in der Stunde des Todes.^pGott der Lebenden und der Toten, wecke unsere Verstorbenen auf;^qmit ihnen gib auch uns Anteil am ewigen Leben.",
-            "ant1_lat": "",
-            "ant2_lat": "",
-            "ant3_lat": "",
-            "resp1_lat": "",
-            "resp2_lat": "",
-            "resp3_lat": "",
-            "antev_lat": "",
-            "bitten_e_lat": "",
-            "bitten_r_lat": "",
-            "bitten_lat": "",
-            "les_text_lat": ""
+            "bitten": "Ewiger Gott, durch die Taufe sind wir mit Christus gestorben und zu einem neuen Leben auferstanden;^qgib, dass wir aus der Kraft Christi leben.^pDu nährst uns mit dem lebendigen Brot, damit wir das ewige Leben haben;^qlass uns auferstehen in Herrlichkeit am Jüngsten Tag.^pDu hast deinen Sohn in seiner Todesangst durch den Engel gestärkt;^qsei unsere Zuversicht in der Stunde des Todes.^pGott der Lebenden und der Toten, wecke unsere Verstorbenen auf;^qmit ihnen gib auch uns Anteil am ewigen Leben."
           },
           "Terz": {
             "hymn_1": 1440.0,
@@ -8978,11 +8925,7 @@ export const calendarData: CalendarData = {
             "les_text": "Ich weiß: Mein Erlöser lebt. Am Letzten Tag werde ich auferstehen, und in meinem Leib werde ich meinen Gott schauen.",
             "les_text_neu": "Doch ich, ich weiß: Mein Erlöser lebt, als Letzter erhebt er sich über dem Staub. Ohne meine Haut, die so zerfetzte, und ohne mein Fleisch werde ich Gott schauen.",
             "resp0": "Warum bist du betrübt, meine Seele?",
-            "resp1": "Harre auf Gott, denn ich werde ihm noch danken.",
-            "ant0_lat": "",
-            "resp0_lat": "",
-            "resp1_lat": "",
-            "les_text_lat": ""
+            "resp1": "Harre auf Gott, denn ich werde ihm noch danken."
           },
           "Sext": {
             "hymn_1": 1440.0,
@@ -8995,11 +8938,7 @@ export const calendarData: CalendarData = {
             "les_text": "Gott hat den Tod nicht gemacht und hat keine Freude am Untergang der Lebenden. Zum Dasein hat er alles erschaffen. Das Reich des Todes hat keine Macht auf der Erde; denn die Gerechtigkeit ist unsterblich.",
             "les_text_neu": "Gott hat den Tod nicht gemacht und hat keine Freude am Untergang der Lebenden. Zum Dasein hat er alles geschaffen. Das Reich der Unterwelt hat keine Macht auf der Erde; denn die Gerechtigkeit ist unsterblich.",
             "resp0": "Muss ich auch wandern in finsterer Schlucht, ich fürchte kein Unheil.",
-            "resp1": "Denn du, o Herr, bist bei mir.",
-            "ant0_lat": "",
-            "resp0_lat": "",
-            "resp1_lat": "",
-            "les_text_lat": ""
+            "resp1": "Denn du, o Herr, bist bei mir."
           },
           "Non": {
             "hymn_1": 1440.0,
@@ -9012,11 +8951,7 @@ export const calendarData: CalendarData = {
             "les_text": "Gott beseitigt den Tod für immer. Gott, der Herr, wischt die Tränen ab von jedem Gesicht. Auf der ganzen Erde nimmt er von seinem Volk die Schande hinweg.",
             "les_text_neu": "Gott hat den Tod für immer verschlungen, und GOTT, der Herr, wird die Tränen von jedem Gesicht abwischen und die Schande seines Volkes entfernt er von der ganzen Erde, denn der HERR hat gesprochen.",
             "resp0": "Herr, erhöre mein Gebet.",
-            "resp1": "Zu dir kommt alles Fleisch.",
-            "ant0_lat": "",
-            "resp0_lat": "",
-            "resp1_lat": "",
-            "les_text_lat": ""
+            "resp1": "Zu dir kommt alles Fleisch."
           },
           "Vesper": {
             "hymn_1": 2512.0,
@@ -9037,18 +8972,7 @@ export const calendarData: CalendarData = {
             "antev": "Alles, was der Vater mir gibt, wird zu mir kommen, und wer zu mir kommt, den weise ich nicht zurück.",
             "bitten_e": "Lasst uns beten zu Christus, unserer Hoffnung:",
             "bitten_r": "Du bist unser Leben und unsere Auferstehung.",
-            "bitten": "Herr, du hast deinen Freund Lazarus von den Toten auferweckt;^qerwecke unsere Verstorbenen zum ewigen Leben.^pDu Tröster der Trauernden;^qsei mit deinem Trost allen nahe, die um ihre Verstorbenen weinen.^pErbarme dich der Menschen, die keine Hoffnung haben;^qschenke ihnen den Glauben an die Auferstehung und an das Leben der kommenden Welt.^pDu bist ein gnädiger Richter;^qerbarme dich dessen, den du als den nächsten aus unserer Mitte vor dein Angesicht rufen wirst.^pSchenke allen Verstorbenen die ewige Ruhe^qund das ewige Licht leuchte ihnen.",
-            "ant1_lat": "",
-            "ant2_lat": "",
-            "ant3_lat": "",
-            "resp1_lat": "",
-            "resp2_lat": "",
-            "resp3_lat": "",
-            "antev_lat": "",
-            "bitten_e_lat": "",
-            "bitten_r_lat": "",
-            "bitten_lat": "",
-            "les_text_lat": ""
+            "bitten": "Herr, du hast deinen Freund Lazarus von den Toten auferweckt;^qerwecke unsere Verstorbenen zum ewigen Leben.^pDu Tröster der Trauernden;^qsei mit deinem Trost allen nahe, die um ihre Verstorbenen weinen.^pErbarme dich der Menschen, die keine Hoffnung haben;^qschenke ihnen den Glauben an die Auferstehung und an das Leben der kommenden Welt.^pDu bist ein gnädiger Richter;^qerbarme dich dessen, den du als den nächsten aus unserer Mitte vor dein Angesicht rufen wirst.^pSchenke allen Verstorbenen die ewige Ruhe^qund das ewige Licht leuchte ihnen."
           }
         }
       },
@@ -9086,9 +9010,9 @@ export const calendarData: CalendarData = {
             "resp2_lat": "in conspéctu Dei.",
             "resp3_lat": "Et delecténtur in lætítia.",
             "antev_lat": "Te gloriósus Apostolórum chorus, te prophetárum laudábilis númerus, te mártyrum candidátus laudat exércitus, te omnes sancti et elécti voce confiténtur unánimes, beáta Trínitas, unus Deus.",
-            "bitten_e_lat": "",
-            "bitten_r_lat": "",
-            "bitten_lat": "",
+            "bitten_e_lat": "Deum, corónam sanctórum ómnium, gaudénter deprecémur:",
+            "bitten_r_lat": "Per intercessiónem sanctórum salva nos, Dómine.",
+            "bitten_lat": "Deus sapientíssime, qui Apóstolos per Christum fundaméntum Ecclésiæ constituísti,^qserva fidéles tuos in eórum doctrína.^pQui martýribus fortitúdinem testimónii usque ad effusiónem sánguinis dedísti,^qredde christiános testes fidéles Fílii tui.^pQui sanctis virgínibus donum insígne dedísti Christum vírginem imitándi,^qiísdem concéde, ut virginitátem tibi consecrátam peculiáre signum cæléstium bonórum agnóscant.^pQui in sanctis ómnibus præséntiam, vultum et verbum tuum maniféstas,^qtríbue fidélibus ut, eos coléndo, tibi propinquióres se esse séntiant.^pDefúnctis concéde, ut cum beáta María Vírgine, beáto Ioseph et ómnibus sanctis perénniter hábitent,^qatque per intercessiónem eórum idem cæléste consórtium nobis largíre.",
             "les_text_lat": "Accessístis ad Sion montem et civitátem Dei vivéntis, Ierúsalem cæléstem, et multa mília angelórum, frequéntiam et ecclésiam primogenitórum, qui conscrípti sunt in cælis, et iúdicem Deum ómnium, et spíritus iustórum, qui consummáti sunt, et testaménti novi mediatórem Iesum, et sánguinem aspersiónis, mélius loquéntem quam Abel."
           },
           "Invitatorium": {
@@ -9131,8 +9055,7 @@ export const calendarData: CalendarData = {
             "ant0": "Preist den Herrn, ihr seine Heiligen alle, feiert Tage der Freude und singt sein Lob.^ö",
             "les_buch": "^A:vigil-Allterheiligen:",
             "les_text": "LEER",
-            "ant0_lat": "Benedícite Dóminum, omnes elécti eius; ágite dies lætítiæ et confitémini illi.",
-            "les_text_lat": "LEER"
+            "ant0_lat": "Benedícite Dóminum, omnes elécti eius; ágite dies lætítiæ et confitémini illi."
           },
           "Laudes": {
             "button": "Allerheiligen",
@@ -9178,9 +9101,6 @@ export const calendarData: CalendarData = {
             "resp0": "Freut euch und jubelt, all ihr Heiligen.",
             "resp1": "Denn euer Lohn ist groß im Himmel.",
             "ant0_lat": "Consolábitur Dóminus Sion; gáudium et lætítia inveniétur in ea, gratiárum áctio et vox laudis.",
-            "ant1_lat": "",
-            "ant2_lat": "",
-            "ant3_lat": "",
             "resp0_lat": "Gaudéte et exsultáte, omnes sancti.",
             "resp1_lat": "Quóniam merces vestra copiósa est in cælis.",
             "les_text_lat": "Gaudébunt et exsultábunt usque in sempitérnum in his, quæ ego creo, quia ecce ego creo Ierúsalem exsultatiónem et pópulum eius gáudium. Et exsultábo in Ierúsalem et gaudébo in pópulo meo, et non audiétur in ea ultra vox fletus et vox clamóris."
@@ -9197,9 +9117,6 @@ export const calendarData: CalendarData = {
             "resp0": "Freut euch im Herr, und jauchzt, ihr Gerechten. ",
             "resp1": "Preist seinen heiligen Namen.",
             "ant0_lat": "Sapiéntiam sanctórum narrant pópuli, et laudem eórum pronúntiat omnis Ecclésia.",
-            "ant1_lat": "",
-            "ant2_lat": "",
-            "ant3_lat": "",
             "resp0_lat": "Lætámini, iusti, in Dómino.",
             "resp1_lat": "Et confitémini memóriæ sanctitátis eius.",
             "les_text_lat": "Secúndum eum, qui vocávit vos, sanctum, et ipsi sancti in omni conversatióne sitis, quóniam scriptum est: Sancti éritis, quia ego sanctus sum."
@@ -9215,9 +9132,6 @@ export const calendarData: CalendarData = {
             "resp0": "Die Gerechten preisen deinen Namen, o Herr.",
             "resp1": "Die Redlichen wohnen in Frieden vor dir.",
             "ant0_lat": "Sancti per fidem vicérunt regna, operáti sunt iustítiam, adépti sunt promissiónes.",
-            "ant1_lat": "",
-            "ant2_lat": "",
-            "ant3_lat": "",
             "resp0_lat": "Iusti confitebúntur nómini tuo, Dómine.",
             "resp1_lat": "Et habitábunt recti in conspéctu tuo.",
             "les_text_lat": "Angelus sústulit me in spíritu super montem magnum et altum et osténdit mihi civitátem sanctam Ierúsalem descendéntem de cælo a Deo, habéntem claritátem Dei. Et thronus Dei et Agni in illa erit; et servi eius sérvient illi et vidébunt fáciem eius, et nomen eius in fróntibus eórum."
@@ -9293,7 +9207,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Hubert",
             "genitiv": "des heiligen Hubert",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Hubérti"
           }
         },
         "n2": {
@@ -9312,7 +9226,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Pirmin",
             "genitiv": "des heiligen Pirmin",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Pirmínis"
           }
         },
         "n3": {
@@ -9333,7 +9247,7 @@ export const calendarData: CalendarData = {
             "button": "Hl. Martin von Porres",
             "nominativ": "Der heilige Martin",
             "genitiv": "des heiligen Martin",
-            "genitiv_lat": "sancti ",
+            "genitiv_lat": "sancti Martíni de Porres",
             "antev": "Gepriesen sei der Herr, denn er hat allen Völkern Erlösung geschaffen und sie aus der Finsternis in sein wunderbares Licht gerufen.",
             "antev_lat": "Benedíctus Dóminus, quia redemptiónem ómnium géntium fecit, et omnes de ténebris vocávit in admirábile lumen suum."
           },
@@ -9352,7 +9266,7 @@ export const calendarData: CalendarData = {
             "button": "Hl. Rupert Mayer",
             "nominativ": "Der heilige Rupert Mayer",
             "genitiv": "des heiligen Rupert Mayer",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Rupérti"
           }
         }
       },
@@ -9374,7 +9288,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Karl Borromäus",
             "genitiv": "des heiligen Karl Borromäus",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Caróli Borromeo"
           }
         }
       },
@@ -9396,7 +9310,7 @@ export const calendarData: CalendarData = {
             "button": "Hl. Leonhard",
             "nominativ": "Der heilige Leonhard",
             "genitiv": "des heiligen Leonhard",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Leonárdi"
           }
         }
       },
@@ -9417,7 +9331,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Willibrord",
             "genitiv": "des heiligen Willibrord",
-            "genitiv_lat": "sancti ",
+            "genitiv_lat": "sancti Willibrórdis",
             "antev": "Wie herrlich leuchten die Taten des heiligen Willibrord! Vielen Völkern hat er das Licht des Glaubens gebracht; ewiger Lohn wurde ihm zuteil."
           },
           "Vesper": {
@@ -9464,7 +9378,8 @@ export const calendarData: CalendarData = {
             "button": "Hl. Leo der Große",
             "genitiv": "des heiligen Leo",
             "vokativ": "Heiliger Leo",
-            "genitiv_lat": "sancti ",
+            "genitiv_lat": "sancti Leónis",
+            "vokativ_lat": "sancte Leo",
             "antev": "Der Herr hat Petrus die Festigkeit eines Felsens verliehen und ihm die Leitung seiner Kirche anvertraut. Was Christus ihm übergab, hat Petrus treu bewahrt.",
             "antev_lat": "Beátus Petrus in accépta fortitúdine petræ persevérans, suscépta Ecclésiæ gubernácula non relíquit."
           },
@@ -9503,7 +9418,7 @@ export const calendarData: CalendarData = {
             "ant2": "Martin verharrte unermüdlich im Gebet. Augen und Hände zum Himmel erhoben.^ö",
             "ant3": "Martin, auf Erden arm und gering, geht reich in den Himmel ein und genießt in Abrahams Schoß ewige Freude.^ö",
             "antev": "O seliger Mann, du hast die Freude des Paradieses erlangt! Jubelnd begrüßen dich Engel und Heilige, und die Jungfrauen heißen dich willkommen: Der Himmel sei deine Stätte in Ewigkeit.",
-            "genitiv_lat": "",
+            "genitiv_lat": "sancti Martíni",
             "hymn_1_lat": 9111.2,
             "ant1_lat": "Sacérdos Dei, Martíne, apérti sunt tibi cæli et regnum Patris mei.",
             "ant2_lat": "Oculis ac mánibus in cælum semper inténtis, invíctum ab oratióne spíritum non relaxábat, allelúia.",
@@ -9547,7 +9462,7 @@ export const calendarData: CalendarData = {
             "button": "Hl. Josaphat",
             "farbe": "r",
             "genitiv": "des heiligen Josaphat",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Iósaphat"
           }
         }
       },
@@ -9570,7 +9485,8 @@ export const calendarData: CalendarData = {
             "button": "Hl. Albert der Große",
             "genitiv": "des heiligen Albert der Große",
             "vokativ": "Heiliger Albert der Große",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Albérti Magni",
+            "vokativ_lat": "sancte Albérte"
           }
         },
         "n2": {
@@ -9590,7 +9506,7 @@ export const calendarData: CalendarData = {
             "button": "Hl. Leopold",
             "nominativ": "Der heilige Leopold",
             "genitiv": "des heiligen Leopold",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Leopóldis"
           }
         }
       },
@@ -9612,7 +9528,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Margareta von Schottland",
             "genitiv": "der heiligen Margareta",
-            "genitiv_lat": "sanctæ "
+            "genitiv_lat": "sanctæ Margarítæ Scótiæ"
           }
         }
       },
@@ -9636,7 +9552,7 @@ export const calendarData: CalendarData = {
             "button": "Hl. Gertrud von Helfta",
             "nominativ": "Die heilige Gertrud",
             "genitiv": "der heiligen Gertrud",
-            "genitiv_lat": "sanctæ "
+            "genitiv_lat": "sanctæ Gertrúdis"
           }
         }
       },
@@ -9684,7 +9600,9 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Darum hat Gott sie zum Ruhm für die Jahrhunderte gemacht und zur Freude für alle Generationen."
           },
           "Laudes": {
-            "button": "Hl. Elisabeth"
+            "button": "Hl. Elisabeth",
+            "genitiv": "der heiligen Elisabeth",
+            "genitiv_lat": "sanctæ Elísabeth"
           }
         }
       },
@@ -9737,7 +9655,7 @@ export const calendarData: CalendarData = {
             "button": "Hl. Cäcilia",
             "nominativ": "Die heilige Cäcilia",
             "genitiv": "der heiligen Cäcilia",
-            "genitiv_lat": "sanctæ ",
+            "genitiv_lat": "sanctæ Cæcíliæ",
             "antev": "Als die Nacht zu Ende ging, rief Cäcilia: Auf, ihr Streiter Christi, legt ab die Werke der Finsternis und zieht die Waffen des Lichtes an.",
             "antev_lat": "Dum auróra finem daret, Cæcília exclamávit dicens: Eia, mílites Christi, abícite ópera tenebrárum et induímini arma lucis."
           },
@@ -9767,7 +9685,7 @@ export const calendarData: CalendarData = {
             "button": "Hl. Klemens I.",
             "farbe": "r",
             "genitiv": "des heiligen Papstes Klemens I.",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Cleméntis"
           }
         },
         "n2": {
@@ -9788,7 +9706,7 @@ export const calendarData: CalendarData = {
             "button": "Hl. Kolumban",
             "nominativ": "Der heilige Kolumban",
             "genitiv": "des heiligen Kolumban",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Columbáni"
           }
         }
       },
@@ -9801,7 +9719,8 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Andreas Dung-Lac und Gefährten",
-            "farbe": "r"
+            "farbe": "r",
+            "genitiv": "des heiligen Andreas und seiner Gefährten"
           }
         }
       },
@@ -9826,7 +9745,7 @@ export const calendarData: CalendarData = {
             "farbe": "r",
             "nominativ": "Die heilige Katharina",
             "genitiv": "der heiligen Katharina",
-            "genitiv_lat": "sanctæ "
+            "genitiv_lat": "sanctæ Catharínæ"
           }
         }
       },
@@ -9847,7 +9766,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Konrad und hl. Gebhard",
             "genitiv": "der Heiligen Konrad und Gebhard",
-            "genitiv_lat": "sanctæ "
+            "genitiv_lat": "sanctórum Conrádi et Gebhárdis"
           }
         }
       },
@@ -9910,7 +9829,7 @@ export const calendarData: CalendarData = {
             "button": "Hl. Charles de Foucauld",
             "nominativ": "Der heilige Charles de Foucauld",
             "genitiv": "des heiligen Charles de Foucauld",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Caróli de Foucauld"
           }
         }
       },
@@ -9930,7 +9849,8 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Hl. Luzius",
-            "farbe": "r"
+            "farbe": "r",
+            "genitiv": "des heiligen Luzius"
           }
         }
       },
@@ -9952,7 +9872,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Franz Xaver",
             "genitiv": "des heiligen Franz Xaver",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Francísci Xavérii"
           }
         }
       },
@@ -9976,7 +9896,7 @@ export const calendarData: CalendarData = {
             "farbe": "r",
             "nominativ": "Die heilige Barbara",
             "genitiv": "der heiligen Barbara",
-            "genitiv_lat": "sanctæ "
+            "genitiv_lat": "sanctæ Bárbaræ"
           }
         },
         "n2": {
@@ -9997,7 +9917,8 @@ export const calendarData: CalendarData = {
             "button": "Hl. Johannes von Damaskus",
             "genitiv": "des heiligen Johannes",
             "vokativ": "Heiliger Johannes",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Ioánnis Damascéni",
+            "vokativ_lat": "sancte Ioánnes Damascéne"
           }
         },
         "n3": {
@@ -10010,7 +9931,7 @@ export const calendarData: CalendarData = {
             "button": "Sel. Adolph Kolping",
             "nominativ": "Der selige Adolph",
             "genitiv": "des seligen Adolph Kolping",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Adólphi Kolping"
           }
         }
       },
@@ -10031,7 +9952,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Anno",
             "genitiv": "des heiligen Anno",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Annónis"
           }
         }
       },
@@ -10053,7 +9974,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Nikolaus",
             "genitiv": "des heiligen Nikolaus",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Nícolæ"
           }
         }
       },
@@ -10076,7 +9997,8 @@ export const calendarData: CalendarData = {
             "button": "Hl. Ambrosius",
             "genitiv": "des heiligen Ambrosius",
             "vokativ": "Heiliger Ambrosius",
-            "genitiv_lat": "sancti ",
+            "genitiv_lat": "sancti Ambrósii",
+            "vokativ_lat": "sancte Ambrósi",
             "hymn_1_lat": 9203.0
           },
           "Vesper": {
@@ -10273,7 +10195,7 @@ export const calendarData: CalendarData = {
             "button": "Hl. Juan Diego",
             "nominativ": "Der heilige Juan Diego",
             "genitiv": "des heiligen Juan Diego",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Ioánnis Dídaci"
           }
         }
       },
@@ -10308,7 +10230,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Damasus I.",
             "genitiv": "des heiligen Damasus",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Dámasi"
           }
         }
       },
@@ -10346,7 +10268,7 @@ export const calendarData: CalendarData = {
             "farbe": "r",
             "nominativ": "Die heilige Luzia",
             "genitiv": "der heiligen Luzia",
-            "genitiv_lat": "sanctæ ",
+            "genitiv_lat": "sanctæ Lucíæ",
             "antev": "Ich habe keinem anderen geopfert als dem lebendigen Gott. Nun, da mir nichts mehr geblieben ist, bringe ich mich selbst zum Opfer dar.",
             "antev_lat": "Ego húmilis ancílla nihil áliud egi, nisi Deo vivo sacrificávi; iam enim, quia nihil supérerat, meípsam óffero."
           },
@@ -10371,7 +10293,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Odilia",
             "genitiv": "der heiligen Odilia",
-            "genitiv_lat": "sanctæ "
+            "genitiv_lat": "sanctæ Odíliæ"
           }
         }
       },
@@ -10394,7 +10316,8 @@ export const calendarData: CalendarData = {
             "button": "Hl. Johannes vom Kreuz",
             "genitiv": "des heiligen Johannes vom Kreuz",
             "vokativ": "Heiliger Johannes vom Kreuz",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Ioánnis a Cruce",
+            "vokativ_lat": "sancte Ioánnes a Cruce"
           }
         }
       },
@@ -10416,7 +10339,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Johannes von Krakau",
             "genitiv": "des heiligen Johannes",
-            "genitiv_lat": "sancti ",
+            "genitiv_lat": "sancti Ioánnis de Kẹty",
             "ant_komm": "Daran werden alle erkennen, dass ihr meine Jünger seid: wenn ihr einander liebt.",
             "ant_komm_lat": "In hoc cognóscent omnes quia mei estis discípuli, si dilectiónem habuéritis ad ínvicem."
           },
@@ -10471,21 +10394,21 @@ export const calendarData: CalendarData = {
             "les_stelle": "4,2",
             "les_text": "An jenem Tag wird der Spross des Herrn für alle Israeliten, die entronnen sind, eine Zierde und Ehre sein; die Früchte des Landes sind ihr Stolz und Ruhm.",
             "les_text_neu": "An jenem Tag wird der Spross des HERRN zur Zierde und zur Herrlichkeit sein und die Frucht des Landes zum Stolz und zum Schmuck für die Entronnenen Israels.",
-            "les_text_lat": ""
+            "les_text_lat": "In die illa erit germen Dómini in splendórem et glóriam et fructus terræ sublímis et exsultátio his, qui salváti fúerint de Israel."
           },
           "Sext": {
             "les_buch": "›Jes",
             "les_stelle": "4,3",
             "les_text": "Der Rest von Zion und wer in Jerusalem noch übrig ist, wird heilig genannt werden, jeder, der in Jerusalem in das Verzeichnis derer, die am Leben bleiben sollen, eingetragen ist.",
             "les_text_neu": "Dann wird der Rest in Zion, und wer in Jerusalem noch übrig ist, heilig genannt werden, jeder, der zum Leben eingeschrieben ist in Jerusalem.",
-            "les_text_lat": ""
+            "les_text_lat": "Omnis qui relíctus fúerit in Sion et resíduus in Ierúsalem, sanctus vocábitur, omnis, qui scriptus est ad vitam in Ierúsalem."
           },
           "Non": {
             "les_buch": "›Jes",
             "les_stelle": "61,11",
             "les_text": "Wie die Erde die Saat wachsen lässt und der Garten die Pflanzen hervorbringt, so bringt Gott, der Herr, Gerechtigkeit hervor und Ruhm vor allen Völkern.",
             "les_text_neu": "Wie die Erde ihr Gewächs hervorbringt und der Garten seine Saat sprießen lässt, so lässt GOTT, der Herr, Gerechtigkeit sprießen und Ruhm vor allen Nationen.",
-            "les_text_lat": ""
+            "les_text_lat": "Sicut terra profert germen suum et sicut hortus semen suum gérminat, sic Dóminus Deus germinábit iustítiam et laudem coram univérsis géntibus."
           }
         }
       },
@@ -10649,7 +10572,6 @@ export const calendarData: CalendarData = {
             "patr_resp2": "damit Stephanus heute für den Himmel geboren wird.",
             "patr_resp3": "Gestern ging unser König aus dem Schoß der Jungfrau hervor und besuchte in Gnaden die Welt.",
             "hymn_1_lat": 9226.1,
-            "hymn_nacht_lat": 0.0,
             "ant1_lat": "Cum esset Stéphanus plenus Spíritu Sancto, inténdens in cælum vidit glóriam Dei, et Iesum stantem ad déxteram Patris.",
             "ant2_lat": "Stéphanus, pósitis génibus, clamábat voce magna dicens: Dómine Iesu, ne státuas illis hoc peccátum.",
             "ant3_lat": "Nemo póterat resístere sapiéntiæ, et Spirítui qui loquebátur."
@@ -10720,9 +10642,7 @@ export const calendarData: CalendarData = {
             "hymn_1_lat": 9227.1,
             "ant1_lat": "Ioánnes testimónium perhíbuit Verbo Dei, et testimónium Iesu Christi quæcúmque vidit.",
             "ant2_lat": "Hic est discípulus ille, quem diligébat Iesus.",
-            "ant3_lat": "Iste est Ioánnes, qui supra pectus Dómini in cena recúbuit: beátus apóstolus, cui reveláta sunt secréta cæléstia.",
-            "versikel0_lat": "",
-            "versikel1_lat": ""
+            "ant3_lat": "Iste est Ioánnes, qui supra pectus Dómini in cena recúbuit: beátus apóstolus, cui reveláta sunt secréta cæléstia."
           },
           "Laudes": {
             "button": "Hl. Johannes",
@@ -10874,7 +10794,7 @@ export const calendarData: CalendarData = {
             "button": "Hl. Thomas Becket",
             "farbe": "r",
             "genitiv": "des heiligen Thomas Becket",
-            "genitiv_lat": "sancti ",
+            "genitiv_lat": "sancti Thomæ Becket",
             "ant_komm": "Wer sein Leben liebt, wird es verlieren; doch wer in dieser Welt sein Leben hasst, der wird es bewahren für das ewige Leben.",
             "ant_komm_lat": "Qui odit ánimam suam in hoc mundo, in vitam ætérnam custódit eam."
           },
@@ -10902,7 +10822,7 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Silvester I.",
             "genitiv": "des heiligen Silvester",
-            "genitiv_lat": "sancti ",
+            "genitiv_lat": "sancti Silvéstri",
             "ant_komm": "Nicht ihr werdet reden, sondern der Geist eures Vaters redet durch euch.",
             "ant_komm_lat": "Non vos estis qui loquímini, sed Spíritus Patris vestri, qui lóquitur in vobis."
           }
@@ -11169,7 +11089,6 @@ export const calendarData: CalendarData = {
             "patr_resp2": "Wer aber Gott liebt, der ist von ihm erkannt.",
             "patr_resp3": "Wer nicht liebt, hat Gott nicht erkannt; denn Gott ist die Liebe.",
             "hymn_1_lat": 8204.101,
-            "hymn_nacht_lat": 0.0,
             "ant1_lat": "Magna est glória eius in salutári Dei.",
             "ant2_lat": "De univérso ópere Dei exsultábat Rabánus.",
             "ant3_lat": "Plantátus in domo Dómini iustus sicut cedrus succrésit.",
@@ -11193,7 +11112,7 @@ export const calendarData: CalendarData = {
             "resp2": "damit das Kreuz Christi nicht um seine Kraft gebracht wird. ",
             "resp3": "Vielmehr verkündigen wir das Geheimnis der verborgenen Weisheit Gottes.",
             "antev": "Von seiner Weisheit erzählt die Gemeinde, sein Lob verkündet das versammelte Volk.",
-            "genitiv_lat": "",
+            "genitiv_lat": "sancti Rabáni Mauri",
             "hymn_1_lat": 8204.102,
             "ant1_lat": "Implévit eum Dóminus spíritu sapiéntiæ et intelléctus.",
             "ant2_lat": "Nos autem gloriári opórtet in cruce Dómini nostri Iesu Christi.",
@@ -11401,7 +11320,8 @@ export const calendarData: CalendarData = {
             "button": "Hl. Petrus Kanisius",
             "genitiv": "des heiligen Petrus Kanisius",
             "vokativ": "Heiliger Petrus Kanisius",
-            "genitiv_lat": "sancti "
+            "genitiv_lat": "sancti Petri Canísii",
+            "vokativ_lat": "sancte Petre Canísi"
           }
         }
       }
@@ -11489,7 +11409,7 @@ export const calendarData: CalendarData = {
             "les_stelle": "20,17–36",
             "les_text": "^hDie Hirtensorge des Apostels^pVon Milet aus schickte Paulus jemand nach Ephesus und ließ die Ältesten der Gemeinde zu sich rufen. Als sie bei ihm eingetroffen waren, sagte er: Ihr wisst, wie ich vom ersten Tag an, seit ich die Provinz Asien betreten habe, die ganze Zeit in eurer Mitte war und wie ich dem Herrn in aller Demut diente unter Tränen und vielen Prüfungen, die ich durch die Nachstellungen der Juden erlitten habe, wie ich nichts verschwiegen habe von dem, was heilsam ist. Ich habe es euch verkündigt und habe euch gelehrt, öffentlich und in den Häusern. Ich habe Juden und Griechen beschworen, sich zu Gott zu bekehren und an Jesus Christus, unseren Herrn, zu glauben.^pNun ziehe ich, gebunden durch den Geist, nach Jerusalem und ich weiß nicht, was dort mit mir geschehen wird. Nur das bezeugt mir der Heilige Geist von Stadt zu Stadt, dass Fesseln und Drangsale auf mich warten.^pAber ich will mit keinem Wort mein Leben wichtig nehmen, wenn ich nur meinen Lauf vollende und den Dienst erfülle, der mir von Jesus, dem Herrn, übertragen wurde: das Evangelium von der Gnade Gottes zu bezeugen.^pNun aber weiß ich, dass ihr mich nicht mehr von Angesicht sehen werdet, ihr alle, zu denen ich gekommen bin und denen ich das Reich verkündet habe. Darum bezeuge ich euch am heutigen Tag: Ich bin unschuldig, wenn einer von euch allen verloren geht. Denn ich habe mich der Pflicht nicht entzogen, euch den ganzen Willen Gottes zu verkünden.^pGebt Acht auf euch und auf die ganze Herde, in der euch der Heilige Geist zu Bischöfen bestellt hat, damit ihr als Hirten für die Kirche Gottes sorgt, die er sich durch das Blut seines eigenen Sohnes erworben hat. Ich weiß: Nach meinem Weggang werden reißende Wölfe bei euch eindringen und die Herde nicht schonen. Und selbst aus eurer Mitte werden Männer auftreten, die mit ihren falschen Reden die Jünger auf ihre Seite ziehen. Seid also wachsam, und denkt daran, dass ich drei Jahre lang Tag und Nacht nicht aufgehört habe, unter Tränen jeden einzelnen zu ermahnen. Und jetzt vertraue ich euch Gott und dem Wort seiner Gnade an, das die Kraft hat, aufzubauen und das Erbe in der Gemeinschaft der Geheiligten zu verleihen. ^pSilber oder Gold oder Kleider habe ich von keinem verlangt; ihr wisst selbst, dass für meinen Unterhalt und den meiner Begleiter diese Hände hier gearbeitet haben. In allem habe ich euch gezeigt, dass man sich auf diese Weise abmühen und sich der Schwachen annehmen soll, in Erinnerung an die Worte Jesu, des Herrn, der selbst gesagt hat: Geben ist seliger als nehmen.^pNach diesen Worten kniete er nieder und betete mit ihnen allen.",
             "resp1": "Als Diener Christi soll man uns betrachten und als Verwalter von Geheimnissen Gottes.",
-            "resp2": "Von Verwaltern aber verlangt man, dass sie sich treu erweisen. ^Ö",
+            "resp2": "Von Verwaltern aber verlangt man, dass sie sich treu erweisen. ^Ö",
             "resp3": "Viele Menschen rühmen sich ihrer Güte, aber wer findet einen, auf den Verlass ist?",
             "patr_autor": "Bonifatius († 754)",
             "patr_werk": "Aus einem Brief.",
@@ -11505,8 +11425,7 @@ export const calendarData: CalendarData = {
             "versikel1_lat": "Hoc est verbum, quod evangelizátum est in vos.^LÖ",
             "resp1_lat": "Sic nos exístimet homo ut minístros Christi et dispensatóres mysteriórum Dei.",
             "resp2_lat": "Hic iam quaéritur inter dispensatóres, ut fidélis quis inveniátur.^LÖ",
-            "resp3_lat": "Multi hómines misericórdes vocántur; virum autem fidélem quis invéniet?",
-            "les_text_lat": ""
+            "resp3_lat": "Multi hómines misericórdes vocántur; virum autem fidélem quis invéniet?"
           },
           "Laudes": {
             "button": "Hl. Bonifatius",
@@ -11896,15 +11815,11 @@ export const calendarData: CalendarData = {
             "patr_resp3": "Lasst euch vom Geist entflammen und dient dem Herrn! Seid fröhlich in der Hoffnung, geduldig in der Bedrängnis, beharrlich im Gebet!",
             "hymn_1_lat": 8928.101,
             "hymn_2_lat": 8928.102,
-            "ant1_lat": "",
-            "ant2_lat": "",
-            "ant3_lat": "",
-            "versikel0_lat": "",
-            "versikel1_lat": "",
-            "resp1_lat": "",
-            "resp2_lat": "",
-            "resp3_lat": "",
-            "les_text_lat": ""
+            "ant1_lat": "Díligam te, Dómine, fortitúdo mea.",
+            "ant2_lat": "Ego dilécto meo, et diléctus meus mihi, qui páscitur inter lília.",
+            "ant3_lat": "Propter zelum evangélii oblíta sum pópulum meum et domum patris mei.",
+            "versikel0_lat": "Quam bonus rectis est Deus.",
+            "versikel1_lat": "Deus his, qui mundo sunt corde."
           },
           "Laudes": {
             "button": "Hl. Lioba",
@@ -12139,10 +12054,7 @@ export const calendarData: CalendarData = {
             "ant2_lat": "A iuventúte mea cógito quæ Dómini sunt, ut sim sancta et córpore et spíritu.",
             "ant3_lat": "Custodívi vias Dómini, nec ímpie recéssi a Deo meo.",
             "versikel0_lat": "Elégi ad limen esse in domo Dei mei.",
-            "versikel1_lat": "Magis quam habitáre in tabernáculis peccatórum.",
-            "patr_resp1_lat": "",
-            "patr_resp2_lat": "",
-            "patr_resp3_lat": ""
+            "versikel1_lat": "Magis quam habitáre in tabernáculis peccatórum."
           },
           "Laudes": {
             "button": "Hl. Elisabeth",
@@ -12164,7 +12076,7 @@ export const calendarData: CalendarData = {
             "bitten_e": "Gepriesen sei Jesus Christus, der Elisabeth ein Herz voll Erbarmen geschenkt hat. Zu ihm rufen wir:",
             "bitten_r": "Schenke uns den Geist deiner Liebe.",
             "bitten": "Du hast Elisabeth mit der Anmut deiner Gnade ausgezeichnet;^qmache uns zu Tempeln deines Heiligen Geistes.^pDu hast in Elisabeth den Armen und Unterdrückten eine Anwältin des Erbarmens geschenkt;^qgib uns ein Herz für die rechtlosen und verachteten Menschen.^pDu bist Elisabeth in den Kranken und Leidenden begegnet;^qlass auch uns heute in allen Bedürftigen dich erkennen.^pElisabeth hat um deinetwillen alles aufgegeben, um in dir alles zu finden;^qlass uns vor dir arm werden, um andere reich zu machen.",
-            "genitiv_lat": "",
+            "genitiv_lat": "sanctæ Elísabeth",
             "hymn_1_lat": 9119.102,
             "hymn_2_lat": 0.0,
             "ant1_lat": "Ad Deum vigilávit Elísabeth in terris, cum eo in luce per sǽcula regnat in cælis.",
@@ -12260,7 +12172,7 @@ export const calendarData: CalendarData = {
             "hymn_2": 0.0,
             "oration": "Ewiger Gott, bei seiner Bischofsweihe hat der heilige Bonifatius am Grab des heiligen Petrus ein feierliches Bekenntnis zum katholischen Glauben und zur Einheit der Kirche abgelegt. Erhalte dein Volk im gleichen Bekenntnis und sende ihm allzeit würdige Hirten.^ORV",
             "hymn_nacht_lat": 0.0,
-            "patr_resp2_lat": "Ewiger Gott, bei seiner Bischofsweihe hat der heilige Bonifatius am Grab des heiligen Petrus ein feierliches Bekenntnis zum katholischen Glauben und zur Einheit der Kirche abgelegt. Erhalte dein Volk im gleichen Bekenntnis und sende ihm allzeit würdige Hirten.^ORV"
+            "oration_lat": "Dignáre, Dómine, pópulum tuum pastóribus dignis semper instrúere, ut in fide et unitáte cathólica persevéret, quam sanctus Bonifátius, epíscopus consecrándus, sollémníter est proféssus ad beáti Petri sepúlcrum.^ORlV"
           },
           "Invitatorium": {
             "ant0": "Christus, den Herrn, den Hirten und Bischof unserer Seelen – kommt, wir beten ihn an!",
@@ -12274,23 +12186,20 @@ export const calendarData: CalendarData = {
             "patr_resp2": "Er, Christus, ist das Haupt.",
             "patr_resp3": "Wir wollen uns, von der Liebe geleitet, an die Wahrheit halten und in allem wachsen, bis wir ihn erreicht haben. ",
             "hymn_1_lat": 9201.0,
-            "hymn_2_lat": 0.0,
-            "oration_lat": "Dignáre, Dómine, pópulum tuum pastóribus dignis semper instrúere, ut in fide et unitáte cathólica persevéret, quam sanctus Bonifátius, epíscopus consecrándus, sollémníter est proféssus ad beáti Petri sepúlcrum.^ORlV"
+            "hymn_2_lat": 0.0
           },
           "Laudes": {
             "button": "Bischofsweihe des hl. Bonifatius",
             "antev": "Jeder Hohepriester wird aus den Menschen ausgewählt und für die Menschen eingesetzt zum Dienst vor Gott. Keiner nimmt sich eigenmächtig diese Würde, sondern er wird von Gott berufen.",
             "hymn_1_lat": 9201.0,
             "hymn_2_lat": 0.0,
-            "antev_lat": "Omnis póntifex ex homínibus assúmptus pro homínibus constitúitur in his, quæ sunt ad Deum. Nec quisquam sumit sibi illum honórem, sed qui vocátur a Deo.",
-            "oration_lat": "Dignáre, Dómine, pópulum tuum pastóribus dignis semper instrúere, ut in fide et unitáte cathólica persevéret, quam sanctus Bonifátius, epíscopus consecrándus, sollémníter est proféssus ad beáti Petri sepúlcrum.^ORlV"
+            "antev_lat": "Omnis póntifex ex homínibus assúmptus pro homínibus constitúitur in his, quæ sunt ad Deum. Nec quisquam sumit sibi illum honórem, sed qui vocátur a Deo."
           },
           "Vesper": {
             "antev": "Dank sei dir, Christus, guter Hirte! Du hast mich zur Herrlichkeit geführt, gib auch der Herde, die du mir anvertraut hast, Anteil an deiner Gnade auf ewig.",
             "hymn_1_lat": 9201.0,
             "hymn_2_lat": 0.0,
-            "antev_lat": "Grátias tibi ago, Christe, pastor bone, qui me ad hanc glóriam perdúcere dignátus es; peto ergo ut oves, quas tradidísti mihi, participéntur mecum de grátia tua in sempitérnum.",
-            "oration_lat": "Dignáre, Dómine, pópulum tuum pastóribus dignis semper instrúere, ut in fide et unitáte cathólica persevéret, quam sanctus Bonifátius, epíscopus consecrándus, sollémníter est proféssus ad beáti Petri sepúlcrum.^ORlV"
+            "antev_lat": "Grátias tibi ago, Christe, pastor bone, qui me ad hanc glóriam perdúcere dignátus es; peto ergo ut oves, quas tradidísti mihi, participéntur mecum de grátia tua in sempitérnum."
           }
         }
       },
@@ -12404,7 +12313,7 @@ export const calendarData: CalendarData = {
             "resp2": "wie köstliches Salböl auf dem Haupt.",
             "resp3": "Dort spendet der Herr Segen.",
             "antev": "Das ist der Freund seiner Brüder und des Vol­kes. Er ist es, der viel betet für das Volk und für die ganze heilige Stadt.",
-            "genitiv_lat": "",
+            "genitiv_lat": "sancti Stúrmii",
             "hymn_1_lat": 9216.101,
             "hymn_2_lat": 9216.102,
             "ant1_lat": "Dúcam eum in solitúdinem et ibi loquar ad cor eius.",
