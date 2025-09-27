@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { getLocalStorage, setLocalStorage } from './localStorage.js';
-
-// Import der CalendarData - Pfad anpassen falls nötig
-import { calendarData } from '../data/CalendarData.ts';
+import { calendarData } from '../data/Calendar.ts';
 
 const PersonalSettings = () => {
     const [personalData, setPersonalData] = useState(null);

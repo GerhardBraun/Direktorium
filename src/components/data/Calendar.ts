@@ -2852,14 +2852,14 @@ export const calendarData: CalendarData = {
             "resp1": "Keine Weissagung wurde ausgesprochen, weil ein Mensch es wollte;",
             "resp2": "vom Heiligen Geist getrieben, haben Menschen geredet.^Ö",
             "resp3": "Der Herr gibt Weisheit, aus seinem Mund kommen Erkenntnis und Einsicht.",
+            "versikel0_lat": "Dóminus dabit verbum evangelizántibus.^LÖ",
+            "versikel1_lat": "Virtúte multa.^LÖ",
             "patr_autor": "Irenäus von Lyon (†°um 202)",
             "patr_werk": "Aus dem Buch gegen die Irrlehren.",
             "patr_text": "^hDie Verkündigung der Wahrheit^pDie Kirche, die bis an die Grenzen der Erde wie Samenkörner auf ein Ackerfeld ausgesät ist, empfing von den Aposteln und ihren Schülern den Glauben an den einen Gott, den allherrschenden Vater, der Himmel und Erde gemacht hat und das Meer und alles, was in ihnen ist, und an den einen Jesus Christus, Gottes Sohn, der zu unserem Heil Mensch geworden ist, und an den Heiligen Geist, der durch die Propheten die Ratschlüsse Gottes verkündigt hat. Sie empfing den Glauben an Christi Kommen, seine Geburt aus der Jungfrau, sein Leiden und seine Auferstehung von den Toten, an die leibliche Himmelfahrt Christi Jesu, unseres geliebten Herrn, an seine Wiederkunft vom Himmel in der Herrlichkeit des Vaters, um alles unter einem Haupt zusammenzufassen und alles Fleisch des ganzen Menschengeschlechtes aufzuerwecken, damit nach dem Ratschluss des unsichtbaren Vaters vor Jesus Christus, unserem Herrn und Gott, unserem Erretter und König, alle im Himmel, auf der Erde und unter der Erde ihre Knie beugen und jeder Mund bekennt: „Jesus Christus ist der Herr“ – zur Ehre Gottes, des Vaters {1#vgl.°Phil°2,10–11}, und er über alles ein gerechtes Gericht abhält.^pDiese Verkündigung, die sie empfangen hat, und diesen eben ausgesprochenen Glauben bewahrt die Kirche, obwohl sie über die ganze Erde zerstreut ist, so gewissenhaft, als bewohnte sie ein einziges Haus. Sie glaubt die verkündigte Wahrheit, als habe sie nur EIN Seele und EIN Herz. Sie predigt, lehrt und überliefert sie einmütig weiter, als besitze sie nur EIN Mund. Denn wenn die Sprachen in der Welt auch verschieden sind, so ist doch die Kraft der Überlieferung eine und die gleiche.^pDie in Germanien gegründeten Kirchen glauben und überliefern nicht etwas anderes, nicht die bei den Iberern oder bei den Kelten, nicht die im Osten, nicht die in Ägypten, nicht die in Libyen und nicht die in der Mitte der Welt (in Jerusalem) gegründeten. Wie vielmehr die Sonne, Gottes Geschöpf, in der ganzen Welt eine und dieselbe ist, so leuchtet auch die Predigt der Wahrheit überall und erleuchtet alle Menschen, die zur Erkenntnis der Wahrheit gelangen wollen {2#vgl.°1°Tim°2,4}.^pAuch wer unter den Vorstehern der Kirche durch besondere Beredsamkeit hervorragt, verkündet nichts anderes als dies – denn keiner ist höher als der Meister; und auch wer schwach in der Rede schwerfällt, verkürzt die Überlieferung nicht. Da der Glaube nur einer und derselbe ist, vermehrt ihn keiner, der viel über ihn sagen kann, und vermindert ihn niemand, der weniger sagt.",
             "patr_resp1": "Christus hat mich gesandt, das Evangelium zu verkünden, nicht in gewandten Worten, damit das Kreuz Christi nicht um seine Kraft gebracht wird.",
             "patr_resp2": "Das Wort vom Kreuz ist denen, die verlorengehen, Torheit, uns aber, die gerettet werden, ist es Gottes Kraft.^Ö",
-            "patr_resp3": "Da die Welt Gott mit ihrer Weisheit nicht erkannte, beschloss Gott, durch die Torheit der Verkündigung alle zu retten.",
-            "versikel0_lat": "Dóminus dabit verbum evangelizántibus.^LÖ",
-            "versikel1_lat": "Virtúte multa.^LÖ"
+            "patr_resp3": "Da die Welt Gott mit ihrer Weisheit nicht erkannte, beschloss Gott, durch die Torheit der Verkündigung alle zu retten."
           },
           "each": {
             "comm_1": "Apostel_Evang",
@@ -2939,11 +2939,6 @@ export const calendarData: CalendarData = {
       },
       "29": {
         "eig": {
-          "each": {
-            "comm_1": "Jgfr_Kl",
-            "oration": "Allmächtiger, ewiger Gott, du hast der heiligen Katharina von Siena das Leiden Christi und die Wunden seiner Kirche vor Augen gestellt. Im Dienst an der Kirche wurde ihre Liebe zu einem lodernden Feuer. Mache auch uns, die wir zu Christus gehören, bereit, die Leiden seiner Kirche mitzutragen, damit einst seine Herrlichkeit an uns offenbar wird.^ORV",
-            "oration_lat": "Deus, qui beátam Catharínam, in contemplatióne domínicæ passiónis et in Ecclésiæ tuæ servítio, divíno amóre flagráre fecísti, ipsíus intercessióne concéde, ut pópulus tuus, Christi mystério sociátus, in eius glóriæ revelatióne semper exsúltet.^ORlV"
-          },
           "Lesehore": {
             "les_buch": "Aus dem ersten Brief an die Korinther.",
             "les_stelle": "2,1–16",
@@ -2955,25 +2950,28 @@ export const calendarData: CalendarData = {
             "patr_werk": "Aus dem Dialog über die göttliche Vorsehung.",
             "patr_text": "^hIch kostete und schaute^pO ewige Gottheit, o ewige Dreieinigkeit! Du hast bewirkt, dass das Blut deines einzigen Sohnes durch die Vereinigung mit der göttlichen Natur ein so wertvoller Preis ist! Du, ewige Dreifaltigkeit, bist ein tiefes Meer, in dem ich immer Neues entdecke, je länger ich suche. Und je mehr ich finde, desto mehr suche ich dich. Gleichsam auf unersättliche Weise sättigst du die Seele; denn in deinem Abgrund sättigst du die Seele so, dass sie doch immer noch hungrig bleibt, nach dir, ewige Dreifaltigkeit, verlangt und sich danach sehnt, dich, das Licht, in deinem Licht zu schauen {1#vgl. Ps 36,10}.^pIch kostete und schaute mit dem Licht der Vernunft in deinem Licht deinen Abgrund, ewige Dreifaltigkeit, und die Schönheit deiner Schöpfung. Darum hüllte ich mich ein in dich wie in ein Gewand und sah, dass ich dein Bild sein werde. Denn, ewiger Vater, du schenktest mir von deiner Macht und von deiner Weisheit in dem Eingehen, das dir eigen ist, und der Heilige Geist, der von dir, dem Vater, und von deinem Sohn ausgeht, hat mir die Willenskraft verliehen, durch die er mich fähig macht zu lieben.^pDu, o ewige Dreifaltigkeit, bist der Schöpfer, ich bin das Geschöpf. Durch das Blut deines eingeborenen Sohnes hast du mich neu geschaffen: daran erkenne ich, von dir erleuchtet, dass du von der Schönheit deines Geschöpfes ergriffen bist.^pO Abgrund, o ewige Dreifaltigkeit, o Gottheit, o tiefes Meer! Was konntest du mir Größeres geben als dich selbst! Du bist das ewig brennende Feuer, das sich nie aufzehrt, doch mit seiner Glut alle Eigenliebe der Seele verzehrt. Du bist das Feuer, das alle Kälte wegnimmt und mit seinem Licht die Geister erleuchtet, mit dem Licht, in dem du mir deine Wahrheit zu erkennen gibst.^pIm Spiegel dieses Lichtes erkenne ich dich, das höchste Gut, das Gute über allem Guten, das selige Gute, das unermessliche Gute, das unschätzbare Gute; die Schönheit über aller Schönheit, die Weisheit, größer als jegliche Weisheit. Du Speise der Engel, du, der sich den Menschen schenkt im Feuer der Liebe.^pDu bist das Gewand, das meine Nacktheit bedeckt; da wir hungern, gibst du uns die Speise deiner Süße; denn süß bist du ohne alle Bitterkeit. O ewige Dreifaltigkeit!",
             "patr_resp1": "Öffne mir, meine Tochter, du Miterbin meines Reiches, die das Geheimnis meiner Wahrheit erkannt hat.",
-            "patr_resp2": "Du bist reich geworden durch die Gabe meines Geistes.^ö",
+            "patr_resp2": "Du bist reich geworden durch die Gabe meines Geistes.^Ö",
             "patr_resp3": "Komm heraus aus der Ruhe der Beschauung und bezeuge meine Wahrheit.",
             "hymn_1_lat": 8429.1
+          },
+          "major": {
+            "comm_1": "Jgfr_Kl",
+            "oration": "Allmächtiger, ewiger Gott, du hast der heiligen Katharina von Siena das Leiden Christi und die Wunden seiner Kirche vor Augen gestellt. Im Dienst an der Kirche wurde ihre Liebe zu einem lodernden Feuer. Mache auch uns, die wir zu Christus gehören, bereit, die Leiden seiner Kirche mitzutragen, damit einst seine Herrlichkeit an uns offenbar wird.^ORV",
+            "oration_lat": "Deus, qui beátam Catharínam, in contemplatióne domínicæ passiónis et in Ecclésiæ tuæ servítio, divíno amóre flagráre fecísti, ipsíus intercessióne concéde, ut pópulus tuus, Christi mystério sociátus, in eius glóriæ revelatióne semper exsúltet.^ORlV"
           },
           "Laudes": {
             "button": "Hl. Katharina von Siena",
             "nominativ": "Die heilige Katharina",
             "genitiv": "der heiligen Katharina",
             "vokativ": "Heilige Katharina",
-            "antev": "Die heilige Jungfrau Katharina flehte unablässig zum Herrn, dass er seiner Kirche den Frieden schenke.^ö",
-            "genitiv_lat": "",
-            "vokativ_lat": "",
-            "hymn_1_lat": 8429.4,
-            "antev_lat": "Sancta virgo Catharína non cessábat clamáre ad Dóminum, ut pacem rédderet Ecclésiæ suæ sanctæ.^LÖ"
+            "antev": "Die heilige Jungfrau Katharina flehte unablässig zum Herrn, dass er seiner Kirche den Frieden schenke.^Ö",
+            "antev_lat": "Sancta virgo Catharína non cessábat clamáre ad Dóminum, ut pacem rédderet Ecclésiæ suæ sanctæ.^LÖ",
+            "hymn_1_lat": 8429.4
           },
           "Vesper": {
-            "antev": "Immer und überall hat Katharina Gott gesucht. Sie fand ihn und hielt an ihm fest mit der ganzen Leidenschaft ihres Herzens.^ö",
-            "hymn_1_lat": 8429.4,
-            "antev_lat": "Semper et ubíque Catharína Deum quærébat, et inveniébat, et possidébat per actuálem afféctum et amóris uniónem.^LÖ"
+            "antev": "Immer und überall hat Katharina Gott gesucht. Sie fand ihn und hielt an ihm fest mit der ganzen Leidenschaft ihres Herzens.^Ö",
+            "antev_lat": "Semper et ubíque Catharína Deum quærébat, et inveniébat, et possidébat per actuálem afféctum et amóris uniónem.^LÖ",
+            "hymn_1_lat": 8429.4
           }
         }
       },
@@ -5902,18 +5900,21 @@ export const calendarData: CalendarData = {
             "patr_text": "^hSelig, die Christus in ihr Heim aufnehmen dürfen^pDie Worte des Herrn weisen uns darauf hin, dass es eines gibt, wonach wir streben müssen, solange wir uns in der Vielfalt dieser Welt abmühen. Nach diesem einen streben wir, die wir noch auf der Pilgerschaft sind, nicht an bleibender Stätte; noch auf dem Weg, nicht in der Heimat; noch in der Sehnsucht, nicht im Besitz. Und doch lasst uns streben unverdrossen und unaufhörlich, damit wir eines Tages ans Ziel kommen können.^pMarta und Maria waren nicht nur Schwestern dem Leibe nach, sondern auch durch den Glauben; beide hingen am Herrn, beide dienten ihm einmütig, wenn er bei ihnen war. Marta nahm ihn auf, wie man Pilger aufnimmt. Sie empfing ihn wie eine Dienerin ihren Herrn, wie eine Kranke ihren Retter, wie ein Geschöpf seinen Schöpfer. Selber noch der Nahrung bedürftig im Geist, nahm sie den auf, der im Fleisch der Speise bedurfte. Denn der Herr wollte Knechtsgestalt annehmen und als Knecht von Knechten gespeist werden, nicht aus Notwendigkeit, sondern aus Güte. Denn es war Güte, dass er sich Speise reichen ließ. Er hatte einen Leib, in dem er hungern und dürsten konnte.^pSo wurde der Herr als Gast aufgenommen, er, der in sein Eigentum kam und den die Seinen nicht aufnahmen{1#vgl. Joh 1,11}. „Allen aber, die ihn aufnahmen, gab er Macht, Kinder Gottes zu werden.“{2#Joh 1,12} Er machte die Knechte zu Söhnen und Brüdern. Er befreite die Gefangenen und machte sie zu Miterben.^pDoch niemand unter euch soll sagen: ‚Selig, die Christus in ihr Heim aufnehmen durften!‘ Trauere nicht, murre nicht, dass du in einer Zeit geboren wurdest, in der du den Herrn nicht mehr leiblich sehen kannst. Er hat dir diese Gnade nicht vorenthalten. Er spricht: „Was ihr für einen meiner geringsten Brüder getan habt, das habt ihr mir getan.“{3#Mt 25,40}^pIm Übrigen sage ich dir, Marta, für dein wohltätiges Dienen bist du mit Frieden gesegnet; der Lohn, den du für deine Arbeit suchst, ist die Ruhe. Noch bist du durch vielfältigen Dienst beschäftigt, du willst sterbliche Leiber erquicken, wenn es auch die der Heiligen sind. Wenn du aber in jene Heimat kommst, wirst du dort noch einen Pilger finden, den du als Gast aufnehmen könntest? Wirst du einen Hungernden finden, ihm das Brot zu brechen; einen Durstigen, ihm den Becher zu reichen; einen Kranken, ihn zu besuchen; einen Streitenden, ihn zu versöhnen; einen Toten, ihn zu begraben? All das gibt es dort nicht mehr.^pAber was gibt es denn dort? Was Maria erwählt hat! Dort empfangen wir Speise und reichen sie nicht. Darum wird dort die Erfüllung und Vollendung in dem bestehen, was Maria hier erwählte, als sie von dem reichen Tisch des Wortes des Herrn Brosamen sammelte. Wollt ihr wissen, was es dort gibt? Der Herr selbst sagt es seinen Knechten: „Amen, ich sage euch: Er wird sie am Tisch Platz nehmen lassen und sie bedienen.“{4#Lk 12,37}",
             "patr_resp1": "Als Jesus den Lazarus erweckt hatte, bereitete ihm Marta ein Mahl.",
             "patr_resp2": "Marta sorgte für den Tisch, Maria salbte die Füße Jesu mit Nardenöl.",
-            "patr_resp3": "Das ganze Haus wurde erfüllt vom Duft der kostbaren Salbe."
+            "patr_resp3": "Das ganze Haus wurde erfüllt vom Duft der kostbaren Salbe.",
+            "hymn_1_lat": 8729.4
           },
           "Laudes": {
             "button": "Hll. Marta, Maria und Lazarus",
             "genitiv": "der Heiligen Marta, Maria und Lazarus",
             "genitiv_lat": "sanctórum Marthæ, Maríæ et Lázari",
             "antev": "Marta sagte zu Jesus: Du bist der Messias, der Sohn des lebendigen Gottes, der in die Welt kommen soll.",
-            "antev_lat": "Elevátis sursum óculis, voce magna Iesus clamávit: Lázare, veni foras!"
+            "antev_lat": "Elevátis sursum óculis, voce magna Iesus clamávit: Lázare, veni foras!",
+            "hymn_1_lat": 8729.2
           },
           "Vesper": {
             "antev": "Jesus liebte Marta und ihre Schwester Maria und ihren Bruder Lazarus.",
-            "antev_lat": "Diligébat Iesus Martham et sorórem eius Maríam et Lázarum fratrem eius."
+            "antev_lat": "Diligébat Iesus Martham et sorórem eius Maríam et Lázarum fratrem eius.",
+            "hymn_1_lat": 8729.4
           }
         }
       },
@@ -6799,7 +6800,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "Maria",
             "oration": "Gott, du hast die Mutter deines Sohnes auch uns zur Mutter gegeben. Wir ehren sie als unsere Königin und vertrauen auf ihre Fürsprache. Lass uns im himmlischen Reich an der Herrlichkeit deiner Kinder teilhaben.^ORV",
-            "oration_lat": "comm:"
+            "oration_lat": "Deus, qui Fílii tui Genetrícem, nostram constituísti matrem atque regínam, concéde propítius, ut, ipsíus intercessióne suffúlti, tuórum in regno cælésti consequámur glóriam filiórum.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Amadeus von Lausanne († 1159)",
@@ -6807,15 +6808,20 @@ export const calendarData: CalendarData = {
             "patr_text": "^hKönigin der Welt und Königin des Friedens^pSchon vor der Aufnahme Marias in den Himmel erstrahlte ihr Name auf der ganzen Erde, ihr erhabener Ruf verbreitete sich überall, noch bevor ihre Hoheit über die Himmel erhoben wurde{1#vgl.°Ps 8,2 Vg.}. So war es angemessen: um der Ehre ihres Sohnes willen musste die jungfräuliche Mutter zunächst auf der Erde herrschen, dann erst durfte sie den Himmel empfangen; ihr Ruf musste sich zunächst hier unten verbreiten, um dann in heiliger Fülle in die überirdischen Reiche Eingang zu finden; wie sie in dieser Welt getragen wurde von stets wachsender Kraft{2#vgl.°Ps 84,8}, so musste sie auch in der anderen Welt durch den Geist des Herrn getragen werden von Herrlichkeit zu Herrlichkeit.^pAls sie noch im Irdischen lebte, kostete sie bereits die Erstlingsgaben des kommenden Reiches: Bald preist sie die unaussprechliche Hoheit Gottes; bald lässt sie sich in unsagbarer Liebe zu den Mitmenschen herab. Bald dienen ihr die Engel, bald betet sie Gott an durch den Dienst an den Menschen. Gabriel diente ihr mit den Engeln. Johannes freut sich, dass ihm die jungfräuliche Mutter unter dem Kreuz anvertraut wird, und er dient ihr mit den Aposteln. Die einen freuen sich, ihre Königin zu schauen, die anderen, ihre Herrin zu sehen. Alle dienen ihr mit liebender Hingabe.^pJetzt thront sie in der hohen Burg des Himmels. Ein Meer göttlicher Gaben strömt von ihr aus, und sie selber gießt über das dürstende Volk der Gläubigen in verschwenderischer Fülle jene Gnade aus, durch die sie alle überragt. Sie schenkt dem Leib Gesundheit, der Seele Salbung; sie hat die Macht, vom Tod des Leibes und der Seele zu erwecken. Wer ist jemals von ihr gegangen, krank oder traurig, ohne der himmlischen Geheimnisse innezuwerden? Wer kam nicht nach Hause, froh und glücklich, von der Mutter des Herrn erlangt zu haben, was er erbat?^pDie Braut, die Mutter des einzigen Bräutigams, ist überreich an hohem Gut. Gütig und liebenswert ist sie in ihrer Seligkeit, Quelle im Garten des Lebens, Brunnen lebendigen und lebenspendenden Wassers, das machtvoll vom göttlichen Libanon herabfließt. Vom Berg Zion kommt es, bis es draußen alle Völker umfließt: Ströme des Friedens und Bäche der Gnaden, die vom Himmel kommen.^pAls die Jungfrau der Jungfrauen von Gott und ihrem Sohn, dem König der Könige, entrückt wurde, jubelten die Engel, freuten sich die Erzengel, der Himmel brach in Lobrufe aus, und die Weissagung des Psalmisten kam in Erfüllung: „Die Braut steht dir zur Rechten, ihr Gewand ist durchwirkt mit Gold und Perlen.“{3#Ps 45,10.14}",
             "patr_resp1": "Ein großes Zeichen erschien im Himmel; eine Frau mit der Sonne bekleidet, der Mond zu ihren Füßen,",
             "patr_resp2": "auf ihrem Haupt eine Krone von zwölf Sternen.",
-            "patr_resp3": "Die Königin steht dir zur Rechten im golddurchwirkten Gewand."
+            "patr_resp3": "Die Königin steht dir zur Rechten im golddurchwirkten Gewand.",
+            "hymn_1_lat": 8822.1
           },
           "Laudes": {
             "button": "Maria Königin",
             "farbe": "m",
-            "antev": "Erhabene Königin der Welt, Maria, immerwährende Jungfrau, du hast Christus geboren, unsern Herrn und Erlöser."
+            "antev": "Erhabene Königin der Welt, Maria, immerwährende Jungfrau, du hast Christus geboren, unsern Herrn und Erlöser.",
+            "antev_lat": "Regína mundi digníssima, María virgo perpétua, tu genuísti Christum Dóminum, salvatórem ómnium.",
+            "hymn_1_lat": 8822.2
           },
           "Vesper": {
-            "antev": "Selig bist du, Maria; du hast geglaubt, was der Herr dir gesagt hat: Mit Christus herrschest du auf ewig."
+            "antev": "Selig bist du, Maria; du hast geglaubt, was der Herr dir gesagt hat: Mit Christus herrschest du auf ewig.",
+            "antev_lat": "Beáta es, Virgo María, quia credidísti quæ dicta sunt tibi a Dómino: cum Christo regnas in ætérnum.",
+            "hymn_1_lat": 8822.4
           }
         }
       },
@@ -7876,7 +7882,7 @@ export const calendarData: CalendarData = {
           "Lesehore": {
             "patr_autor": "Vinzenz von Paul († 1660)",
             "patr_werk": "Aus einem Brief über die Liebe zu den Armen.",
-            "patr_text": "^hDer Dienst an den Armen ist allem andern vorzuziehen^pWir dürfen die Armen nicht danach beurteilen, wie sie gekleidet und äußerlich gepflegt sind, auch nicht nach ihren Geistesgaben. Wenn ihr die Armen im Licht des Glaubens anseht, werdet ihr erkennen, dass sie den Sohn Gottes vertreten, der die Armut erwählt hat. Als er litt, hat er fast das Aussehen eines Menschen verloren und wurde den Heiden ein Tor, den Juden ein Ärgernis{1#vgl.°1 Kor 1,23}. Aber dadurch erwies er sich als der Evangelist für die Armen: „Er hat mich gesandt, den Armen die frohe Botschaft zu bringen.“{2#vgl.°Lk 4,18} Das sollen auch wir im Herzen spüren und das Tun Christi nachahmen: für die Armen sorgen, sie trösten, unterstützen und empfehlen.^pChristus wollte arm geboren werden, sammelte Arme als Jünger um sich und wurde selbst der Diener der Armen. Er machte ihn Los so sehr zu seinem eigenen, dass er sagen konnte, alles Gute oder Böse, das einer den Armen erweise, das erweise er ihm selbst.^pWeil Gott den Armen liebt, liebt er auch alle Menschen, die den Armen lieben. Denn wenn einer jemand liebhat, dann umfasst er in Liebe auch alle, die jenem Freundschaft entgegenbringen und dienen. Darum hoffen auch wir, dass Gott uns wegen der Armen liebt. Wir wollen sie darum besuchen und uns der Schwachen und Armen annehmen{3#vgl.°Ps 41,2}, und zwar mit einem so herzlichen Mitleid, dass wir das Gefühl des Apostels teilen können: „Allen bin ich alles geworden.“{4#1 Kor 9,22} Wir wollen danach streben, dass wir, im Herzen von der Sorge und dem Elend der Mitmenschen bewegt, Gott um das Gefühl des Mitleids und Erbarmens bitten; er möge unser Herz damit erfüllen und, wenn es erfüllt ist, darin bewahren.^pDer Dienst an den Armen ist allem andern vorzuziehen und ohne Aufschub zu leisten. Braucht ein Armer während der Gebetszeit eine Arznei oder eine Hilfeleistung, so geht ruhig zu ihm und bietet Gott dar, was zu tun ist, als wärt ihr beim Beten geblieben. Lasst euch nicht durch die Ängstlichkeit des Herzens oder Gewissensbisse beunruhigen, als hättet ihr wegen des Dienstes an den Armen das Gebet versäumt. Denn es ist keine Vernachlässigung Gottes, wenn ihr wegen Gott von Gott weggeht. Ihr habt eine fromme Handlung unterlassen, um eine andere zu leisten.^pWenn ihr daher das Gebet verlasst, um einem Armen zu dienen, so denkt daran, dass ihr diesen Dienst Gott erweist. Die Liebe steht höher als irgendwelche Regeln. Auf die Liebe muss alles ausgerichtet sein. Sie ist die große Herrin, und was sie gebietet, haben wir zu tun. So wollen wir denn mit einer neuen Liebe des Herzens den Armen dienen. Lasst uns besonders die ganz Verlassenen aufsuchen; denn sie sind uns als unsere Herren und Meister gegeben.",
+            "patr_text": "^hDer Dienst an den Armen ist allem andern vorzuziehen^pWir dürfen die Armen nicht danach beurteilen, wie sie gekleidet und äußerlich gepflegt sind, auch nicht nach ihren Geistesgaben. Wenn ihr die Armen im Licht des Glaubens anseht, werdet ihr erkennen, dass sie den Sohn Gottes vertreten, der die Armut erwählt hat. Als er litt, hat er fast das Aussehen eines Menschen verloren und wurde den Heiden ein Tor, den Juden ein Ärgernis{1#vgl.°1 Kor 1,23}. Aber dadurch erwies er sich als der Evangelist für die Armen: „Er hat mich gesandt, den Armen die frohe Botschaft zu bringen.“{2#vgl.°Lk 4,18} Das sollen auch wir im Herzen spüren und das Tun Christi nachahmen: für die Armen sorgen, sie trösten, unterstützen und empfehlen.^pChristus wollte arm geboren werden, sammelte Arme als Jünger um sich und wurde selbst der Diener der Armen. Er machte ihr Los so sehr zu seinem eigenen, dass er sagen konnte, alles Gute oder Böse, das einer den Armen erweise, das erweise er ihm selbst.^pWeil Gott den Armen liebt, liebt er auch alle Menschen, die den Armen lieben. Denn wenn einer jemand liebhat, dann umfasst er in Liebe auch alle, die jenem Freundschaft entgegenbringen und dienen. Darum hoffen auch wir, dass Gott uns wegen der Armen liebt. Wir wollen sie darum besuchen und uns der Schwachen und Armen annehmen{3#vgl.°Ps 41,2}, und zwar mit einem so herzlichen Mitleid, dass wir das Gefühl des Apostels teilen können: „Allen bin ich alles geworden.“{4#1 Kor 9,22} Wir wollen danach streben, dass wir, im Herzen von der Sorge und dem Elend der Mitmenschen bewegt, Gott um das Gefühl des Mitleids und Erbarmens bitten; er möge unser Herz damit erfüllen und, wenn es erfüllt ist, darin bewahren.^pDer Dienst an den Armen ist allem andern vorzuziehen und ohne Aufschub zu leisten. Braucht ein Armer während der Gebetszeit eine Arznei oder eine Hilfeleistung, so geht ruhig zu ihm und bietet Gott dar, was zu tun ist, als wärt ihr beim Beten geblieben. Lasst euch nicht durch die Ängstlichkeit des Herzens oder Gewissensbisse beunruhigen, als hättet ihr wegen des Dienstes an den Armen das Gebet versäumt. Denn es ist keine Vernachlässigung Gottes, wenn ihr wegen Gott von Gott weggeht. Ihr habt eine fromme Handlung unterlassen, um eine andere zu leisten. Wenn ihr daher das Gebet verlasst, um einem Armen zu dienen, so denkt daran, dass ihr diesen Dienst Gott erweist.^pDie Liebe steht höher als irgendwelche Regeln. Auf die Liebe muss alles ausgerichtet sein. Sie ist die große Herrin, und was sie gebietet, haben wir zu tun. So wollen wir denn mit einer neuen Liebe des Herzens den Armen dienen.^pLasst uns besonders die ganz Verlassenen aufsuchen; denn sie sind uns als unsere Herren und Meister gegeben.",
             "patr_resp1": "Auge war ich für die Blinden, dem Lahmen wurde ich zum Fuß.",
             "patr_resp2": "Allen bin ich alles geworden, um alle zu retten.",
             "patr_resp3": "Vater war ich für die Armen."
@@ -8539,7 +8545,11 @@ export const calendarData: CalendarData = {
             "nominativ": "Die heilige Theresia",
             "genitiv": "der heiligen Theresia",
             "vokativ": "Heilige Theresia",
-            "genitiv_lat": "sanctæ Terésiæ"
+            "genitiv_lat": "sanctæ Terésiæ",
+            "hymn_1_lat": 9015.2
+          },
+          "Vesper": {
+            "hymn_1_lat": 9015.4
           }
         }
       },
@@ -9691,7 +9701,8 @@ export const calendarData: CalendarData = {
             "patr_text": "^hIm Glauben vertraute sie, im Glauben empfing sie^pAchtet darauf, was Christus der Herr gesagt hat: „er streckte die Hand über seine Jünger aus und sagte: Das hier sind meine Mutter und meine Brüder. Denn wer den Willen meines himmlischen Vaters erfüllt, der ist für mich Bruder und Schwester und Mutter.“{1#Mt 12,49-50} Handelte nun die Jungfrau Maria etwa nicht nach dem Willen des Vaters, sie, die im Glauben vertraute und im Glauben empfing; sie, die dazu erwählt wurde, für uns unter den Menschen das Heil zur Welt zu bringen; sie, die Christus der Herr schuf, noch ehe Christus in ihr erschaffen wurde? Ja, die heilige Maria handelte nach dem Willen des Vaters, sie tat es in vollem Umfang. Darum ist es von größerer Bedeutung, dass sie Jüngerin Christi, als dass sie seine Mutter war. Mehr und seliger war es, Jüngerin Christi zu sein als seine Mutter. Maria war selig, dass sie Christus im Schoße trug, ehe sie ihn zur Welt brachte, ihn, den Meister.^pSieh, ob es nicht so ist, wie ich sage: Als der Herr mit den ihm folgenden Scharen einherzog und göttliche Wunder wirkte, da sagte eine Frau: „Selig die Frau, deren Leib dich getragen hat!“{2#Lk 11,27} Und was entgegnete der Herr, damit niemand nach irdischem Glück sucht? „Selig sind vielmehr die, die das Wort Gottes hören und es befolgen!“{3#Lk 11,28} Auch Maria ist darum selig zu preisen, weil sie das Wort Gottes hörte und befolgte. Es war bedeutungsvoller, dass sie in ihrem Herzen die Wahrheit, als dass sie in ihrem Leib das Fleisch Christi bewahrte. Christus ist Wahrheit und Fleisch zugleich. Als Wahrheit ist er im Herzen, als Fleisch im Leib Marias. Dass er im Herzen ist, bedeutet mehr, als dass er im Leib getragen wurde.^pHeilig ist Maria, selig ist sie. Aber noch seliger zu preisen als Maria ist die Kirche. Wieso das? Weil Maria ein Glied der Kirche ist, zwar ein heiliges, ein hervorragendes, ein überaus erhabenes Glied, aber doch ein Glied des ganzen Leibes. Wenn sie Glied des ganzen Leibes ist, dann ist doch sicherlich der ganze Leib mehr als das Glied. Der Herr ist das Haupt, der ganze Christus ist Haupt und Leib. Was soll ich sagen? Wir haben ein göttliches Haupt, wir haben Gott als Haupt!^pLiebe Brüder, achtet also darauf, dass auch ihr Glieder Christi, Leib Christi seid. Bedenkt, wieso ihr seid, was er sagt: „Das sind meine Mutter und meine Brüder.“ Wieso seid ihr seine Mutter? „Wer hört und nach dem Willen meines Vaters im Himmel handelt, der ist für mich Bruder, Schwester und Mutter.“",
             "patr_resp1": "Der Herr hat mich bekleidet mit dem Gewand des Heiles, das Kleid der Freude hat er mir angelegt.",
             "patr_resp2": "Er hat mich mit einer Krone geschmückt wie eine Braut.",
-            "patr_resp3": "Mit einem Gewand, aus Gold gewoben, hat der Herr mich bekleidet, mit unschätzbarem Geschmeide hat er mich geziert."
+            "patr_resp3": "Mit einem Gewand, aus Gold gewoben, hat der Herr mich bekleidet, mit unschätzbarem Geschmeide hat er mich geziert.",
+            "hymn_1_lat": 9121.1
           },
           "Laudes": {
             "button": "Unsere Liebe Frau in Jerusalem",
@@ -9890,7 +9901,7 @@ export const calendarData: CalendarData = {
     },
     "12": {
       "1": {
-        "n2": {
+        "n1": {
           "major": {
             "comm_1": "Mann_Ord",
             "oration": "Gott, unser Vater, du hast den heiligen Bruder Karl ^(Charles de Foucauld^) berufen, deinen Sohn Jesus von Nazaret nachzuahmen. Gewähre uns auf seine Fürsprache, dass wir, gestärkt durch die Eucharistie, Tag für Tag in der Liebe wachsen und in der Geschwisterlichkeit mit allen Menschen.^ORV"
@@ -10970,6 +10981,20 @@ export const calendarData: CalendarData = {
       }
     }
   },
+  "Basel": {
+    "99": {
+      "1": {
+        "d1": {
+          "major": {
+            "oration": "Test Basel"
+          },
+          "Laudes": {
+            "button": "Test Basel"
+          }
+        }
+      }
+    }
+  },
   "Berlin": {
     "99": {
       "1": {
@@ -10979,6 +11004,34 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Test Berlin"
+          }
+        }
+      }
+    }
+  },
+  "Bozen-Brixen": {
+    "99": {
+      "1": {
+        "d1": {
+          "major": {
+            "oration": "Test Bozen-Brixen"
+          },
+          "Laudes": {
+            "button": "Test Bozen-Brixen"
+          }
+        }
+      }
+    }
+  },
+  "Chur": {
+    "99": {
+      "1": {
+        "d1": {
+          "major": {
+            "oration": "Test Chur"
+          },
+          "Laudes": {
+            "button": "Test Chur"
           }
         }
       }
@@ -11012,6 +11065,20 @@ export const calendarData: CalendarData = {
       }
     }
   },
+  "Eisenstadt": {
+    "99": {
+      "1": {
+        "d1": {
+          "major": {
+            "oration": "Test Eisenstadt"
+          },
+          "Laudes": {
+            "button": "Test Eisenstadt"
+          }
+        }
+      }
+    }
+  },
   "Erfurt": {
     "99": {
       "1": {
@@ -11035,6 +11102,20 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Test Essen"
+          }
+        }
+      }
+    }
+  },
+  "Feldkirch": {
+    "99": {
+      "1": {
+        "d1": {
+          "major": {
+            "oration": "Test Feldkirch"
+          },
+          "Laudes": {
+            "button": "Test Feldkirch"
           }
         }
       }
@@ -12177,10 +12258,13 @@ export const calendarData: CalendarData = {
             "comm_1": "Hirten",
             "hymn_1": 9201.0,
             "hymn_2": 0.0,
-            "oration": "Ewiger Gott, bei seiner Bischofsweihe hat der heilige Bonifatius am Grab des heiligen Petrus ein feierliches Bekenntnis zum katholischen Glauben und zur Einheit der Kirche abgelegt. Erhalte dein Volk im gleichen Bekenntnis und sende ihm allzeit würdige Hirten.^ORV"
+            "oration": "Ewiger Gott, bei seiner Bischofsweihe hat der heilige Bonifatius am Grab des heiligen Petrus ein feierliches Bekenntnis zum katholischen Glauben und zur Einheit der Kirche abgelegt. Erhalte dein Volk im gleichen Bekenntnis und sende ihm allzeit würdige Hirten.^ORV",
+            "hymn_nacht_lat": 0.0,
+            "patr_resp2_lat": "Ewiger Gott, bei seiner Bischofsweihe hat der heilige Bonifatius am Grab des heiligen Petrus ein feierliches Bekenntnis zum katholischen Glauben und zur Einheit der Kirche abgelegt. Erhalte dein Volk im gleichen Bekenntnis und sende ihm allzeit würdige Hirten.^ORV"
           },
           "Invitatorium": {
-            "ant0": "Christus, den Herrn, den Hirten und Bischof unserer Seelen – kommt, wir beten ihn an!"
+            "ant0": "Christus, den Herrn, den Hirten und Bischof unserer Seelen – kommt, wir beten ihn an!",
+            "ant0_lat": "Christum Dóminum, pastórem et epíscopum animárum nostrárum, veníte, adorémus."
           },
           "Lesehore": {
             "patr_autor": "LEER",
@@ -12188,14 +12272,25 @@ export const calendarData: CalendarData = {
             "patr_text": "^hTreue zur Kirche Roms^pVor seiner Bischofsweihe leistete der heilige Bonifatius den folgenden Eid:^pIm Namen Gottes des Herrn und unseres Heilands Jesus Christus. Ich, Bonifatius, durch Gottes Gnade Bischof, verspreche euch, dem heiligen Apostelfürsten Petrus und deinem Stellvertreter, dem seligen Papst Gregor sowie dessen Nachfolgern, bei dem Vater, dem Sohn und dem Heiligen Geist, der untrennbaren Dreifaltigkeit, und bei diesem deinem hochheiligen Leib: Ich will den katholischen Glauben in aller Treue und Reinheit bekennen und mit Gottes Hilfe in der Einheit dieses Glaubens verharren. Denn es steht zweifelsfrei fest, dass in diesem Glauben alles Heil der Christen beschlossen ist. Auf keinen Fall will ich mich von irgendjemand überreden lassen, mich gegen die Einheit gemeinsamen und allgemeinen Kirche zu verfehlen; vielmehr will ich, wie gesagt, dir und dem Wohl deiner Kirche, der von Gott dem Herrn die Vollmacht zu binden und zu lösen übertragen ist (vgl.°Mt 16,19), sowie deinem erwähnten Stellvertreter und seinen Nachfolgern in allem Treue, Loyalität und Hilfe zuteil werden lassen.^pFerner will ich, wenn ich erfahre, dass Bischöfe sich entgegen den überlieferten Weisungen der heiligen Väter verhalten, mit diesen keine Gemeinschaft oder Verbindung halten; vielmehr will ich sie an ihrem Treiben hindern, wenn ich es vermag, andernfalls unverzüglich meinem apostolischen Herrn wahrheitsgemäß berichten.^pWenn ich, was ferne sei, versuchen sollte, etwas entgegen diesen meinen Versprechungen zu unternehmen, auf welche Weise, mit welcher Absicht und bei welcher Gelegenheit auch immer, will ich dafür im ewigen Gericht schuldig befunden werden und die Strafe des Hananias und der Saphira (vgl.°Apg 5,1–6) erleiden, die euch vorsätzlich um ihr Eigentum betrogen und belogen haben.^pDiese Eidesformel habe ich, der geringe Bischof Bonifatius, eigenhändig unterschrieben und auf deinen hochheiligen Leib niedergelegt. So habe ich den obenstehenden Eid vor Gott als Zeugen und Richter geleistet, und ich verspreche, ihn auch zu halten.",
             "patr_resp1": "Wir sollen alle zur Einheit im Glauben und in der Erkenntnis des Sohnes Gottes gelangen, damit wir Christus in seiner vollendeten Gestalt darstellen.",
             "patr_resp2": "Er, Christus, ist das Haupt.",
-            "patr_resp3": "Wir wollen uns, von der Liebe geleitet, an die Wahrheit halten und in allem wachsen, bis wir ihn erreicht haben. "
+            "patr_resp3": "Wir wollen uns, von der Liebe geleitet, an die Wahrheit halten und in allem wachsen, bis wir ihn erreicht haben. ",
+            "hymn_1_lat": 9201.0,
+            "hymn_2_lat": 0.0,
+            "oration_lat": "Dignáre, Dómine, pópulum tuum pastóribus dignis semper instrúere, ut in fide et unitáte cathólica persevéret, quam sanctus Bonifátius, epíscopus consecrándus, sollémníter est proféssus ad beáti Petri sepúlcrum.^ORlV"
           },
           "Laudes": {
             "button": "Bischofsweihe des hl. Bonifatius",
-            "antev": "Jeder Hohepriester wird aus den Menschen ausgewählt und für die Menschen eingesetzt zum Dienst vor Gott. Keiner nimmt sich eigenmächtig diese Würde, sondern er wird von Gott berufen."
+            "antev": "Jeder Hohepriester wird aus den Menschen ausgewählt und für die Menschen eingesetzt zum Dienst vor Gott. Keiner nimmt sich eigenmächtig diese Würde, sondern er wird von Gott berufen.",
+            "hymn_1_lat": 9201.0,
+            "hymn_2_lat": 0.0,
+            "antev_lat": "Omnis póntifex ex homínibus assúmptus pro homínibus constitúitur in his, quæ sunt ad Deum. Nec quisquam sumit sibi illum honórem, sed qui vocátur a Deo.",
+            "oration_lat": "Dignáre, Dómine, pópulum tuum pastóribus dignis semper instrúere, ut in fide et unitáte cathólica persevéret, quam sanctus Bonifátius, epíscopus consecrándus, sollémníter est proféssus ad beáti Petri sepúlcrum.^ORlV"
           },
           "Vesper": {
-            "antev": "Dank sei dir, Christus, guter Hirte! Du hast mich zur Herrlichkeit geführt, gib auch der Herde, die du mir anvertraut hast, Anteil an deiner Gnade auf ewig."
+            "antev": "Dank sei dir, Christus, guter Hirte! Du hast mich zur Herrlichkeit geführt, gib auch der Herde, die du mir anvertraut hast, Anteil an deiner Gnade auf ewig.",
+            "hymn_1_lat": 9201.0,
+            "hymn_2_lat": 0.0,
+            "antev_lat": "Grátias tibi ago, Christe, pastor bone, qui me ad hanc glóriam perdúcere dignátus es; peto ergo ut oves, quas tradidísti mihi, participéntur mecum de grátia tua in sempitérnum.",
+            "oration_lat": "Dignáre, Dómine, pópulum tuum pastóribus dignis semper instrúere, ut in fide et unitáte cathólica persevéret, quam sanctus Bonifátius, epíscopus consecrándus, sollémníter est proféssus ad beáti Petri sepúlcrum.^ORlV"
           }
         }
       },
@@ -12381,6 +12476,34 @@ export const calendarData: CalendarData = {
       }
     }
   },
+  "Graz-Seckau": {
+    "99": {
+      "1": {
+        "d1": {
+          "major": {
+            "oration": "Test Graz-Seckau"
+          },
+          "Laudes": {
+            "button": "Test Graz-Seckau"
+          }
+        }
+      }
+    }
+  },
+  "Gurk-Klagenfurt": {
+    "99": {
+      "1": {
+        "d1": {
+          "major": {
+            "oration": "Test Gurk-Klagenfurt"
+          },
+          "Laudes": {
+            "button": "Test Gurk-Klagenfurt"
+          }
+        }
+      }
+    }
+  },
   "Görlitz": {
     "99": {
       "1": {
@@ -12423,6 +12546,20 @@ export const calendarData: CalendarData = {
       }
     }
   },
+  "Innsbruck": {
+    "99": {
+      "1": {
+        "d1": {
+          "major": {
+            "oration": "Test Innsbruck"
+          },
+          "Laudes": {
+            "button": "Test Innsbruck"
+          }
+        }
+      }
+    }
+  },
   "Köln": {
     "99": {
       "1": {
@@ -12437,6 +12574,20 @@ export const calendarData: CalendarData = {
       }
     }
   },
+  "Lausanne, Genf und Freiburg": {
+    "99": {
+      "1": {
+        "d1": {
+          "major": {
+            "oration": "Test Lausanne, Genf und Freiburg"
+          },
+          "Laudes": {
+            "button": "Test Lausanne, Genf und Freiburg"
+          }
+        }
+      }
+    }
+  },
   "Limburg": {
     "99": {
       "1": {
@@ -12446,6 +12597,48 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Test Limburg"
+          }
+        }
+      }
+    }
+  },
+  "Linz": {
+    "99": {
+      "1": {
+        "d1": {
+          "major": {
+            "oration": "Test Linz"
+          },
+          "Laudes": {
+            "button": "Test Linz"
+          }
+        }
+      }
+    }
+  },
+  "Luxemburg": {
+    "99": {
+      "1": {
+        "d1": {
+          "major": {
+            "oration": "Test Luxemburg"
+          },
+          "Laudes": {
+            "button": "Test Luxemburg"
+          }
+        }
+      }
+    }
+  },
+  "Lüttich": {
+    "99": {
+      "1": {
+        "d1": {
+          "major": {
+            "oration": "Test Lüttich"
+          },
+          "Laudes": {
+            "button": "Test Lüttich"
           }
         }
       }
@@ -12474,6 +12667,20 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Test Mainz"
+          }
+        }
+      }
+    }
+  },
+  "Metz": {
+    "99": {
+      "1": {
+        "d1": {
+          "major": {
+            "oration": "Test Metz"
+          },
+          "Laudes": {
+            "button": "Test Metz"
           }
         }
       }
@@ -12577,6 +12784,34 @@ export const calendarData: CalendarData = {
       }
     }
   },
+  "Salzburg": {
+    "99": {
+      "1": {
+        "d1": {
+          "major": {
+            "oration": "Test Salzburg"
+          },
+          "Laudes": {
+            "button": "Test Salzburg"
+          }
+        }
+      }
+    }
+  },
+  "Sitten": {
+    "99": {
+      "1": {
+        "d1": {
+          "major": {
+            "oration": "Test Sitten"
+          },
+          "Laudes": {
+            "button": "Test Sitten"
+          }
+        }
+      }
+    }
+  },
   "Speyer": {
     "99": {
       "1": {
@@ -12591,6 +12826,48 @@ export const calendarData: CalendarData = {
       }
     }
   },
+  "St. Gallen": {
+    "99": {
+      "1": {
+        "d1": {
+          "major": {
+            "oration": "Test St. Gallen"
+          },
+          "Laudes": {
+            "button": "Test St. Gallen"
+          }
+        }
+      }
+    }
+  },
+  "St. Pölten": {
+    "99": {
+      "1": {
+        "d1": {
+          "major": {
+            "oration": "Test St. Pölten"
+          },
+          "Laudes": {
+            "button": "Test St. Pölten"
+          }
+        }
+      }
+    }
+  },
+  "Straßburg": {
+    "99": {
+      "1": {
+        "d1": {
+          "major": {
+            "oration": "Test Straßburg"
+          },
+          "Laudes": {
+            "button": "Test Straßburg"
+          }
+        }
+      }
+    }
+  },
   "Trier": {
     "99": {
       "1": {
@@ -12600,6 +12877,34 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Test Trier"
+          }
+        }
+      }
+    }
+  },
+  "Vaduz": {
+    "99": {
+      "1": {
+        "d1": {
+          "major": {
+            "oration": "Test Vaduz"
+          },
+          "Laudes": {
+            "button": "Test Vaduz"
+          }
+        }
+      }
+    }
+  },
+  "Wien": {
+    "99": {
+      "1": {
+        "d1": {
+          "major": {
+            "oration": "Test Wien"
+          },
+          "Laudes": {
+            "button": "Test Wien"
           }
         }
       }

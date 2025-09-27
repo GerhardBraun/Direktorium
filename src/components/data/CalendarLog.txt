@@ -1,4 +1,5 @@
-Calendar Data Processing Log - 2025-09-25 16:07:04.175607
+Calendar Data Processing Log - 2025-09-27 11:47:37.054730
 ============================================================
 
-Calendar-Daten erfolgreich sortiert: 28 Diözesen
+Keine Überschneidungen gefunden.
+Calendar-Daten erfolgreich sortiert: Regionalkalender plus 47 Diözesen
