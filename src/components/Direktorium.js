@@ -2466,10 +2466,6 @@ export default function LiturgicalCalendar() {
       setActiveSection(sections[sectionIndex]);
     };
 
-    const handleViewChange = (isRight) => {
-      setViewMode((prev) => (prev === "directory" ? "deceased" : "directory"));
-    };
-
     // Funktion für langes Drücken
     const handleLanguageLongPress = (value) => {
       setIsLongPressing(true);
@@ -3077,7 +3073,10 @@ export default function LiturgicalCalendar() {
 
                 {/* StB Button */}
                 <button
-                  onClick={() => setViewMode("prayer")}
+                  onClick={() => {
+                    setViewMode("prayer");
+                    window.scrollTo({ top: 0, behavior: 'instant' });
+                  }}
                   className="shrink-0 px-3 p-2 bg-orange-100 dark:bg-yellow-400/60 hover:bg-orange-200 dark:hover:bg-yellow-400/70 rounded"
                   title="Stundengebet"
                 >
@@ -3155,7 +3154,10 @@ export default function LiturgicalCalendar() {
                 setLocalPrefLatin={setLocalPrefLatin}
                 setLocalPrefLanguage={setLocalPrefLanguage}
                 widthForHymns={widthForHymns}
-                onBack={() => setViewMode("prayer")}
+                onBack={() => {
+                  setViewMode("prayer");
+                  window.scrollTo({ top: 0, behavior: 'instant' });
+                }}
                 onSelectHour={(hour) => {
                   setSelectedHour(hour);
                   setTexts(texts);
@@ -3195,7 +3197,10 @@ export default function LiturgicalCalendar() {
                 setLocalPrefLatin={setLocalPrefLatin}
                 setLocalPrefLanguage={setLocalPrefLanguage}
                 widthForHymns={widthForHymns}
-                onBack={() => setViewMode("prayer")}
+                onBack={() => {
+                  setViewMode("prayer");
+                  window.scrollTo({ top: 0, behavior: 'instant' });
+                }}
                 onSelectHour={(hour) => {
                   setSelectedHour(hour);
                   setTexts(texts);
