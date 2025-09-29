@@ -26,6 +26,15 @@ export const allowedOverlaps = new Set([
     'Fulda-11-19-eig', // Elisabeth: F statt G
 ])
 
+export const checkedReferences = new Set([
+    'Fulda-2-4-eig',
+    'Fulda-4-27-eig',
+    'Fulda-6-5-eig',
+    'Fulda-8-17-d1',
+    'Fulda-9-28-eig',
+    'Fulda-11-19-eig',
+])
+
 function isAllowedOverlap(month, day, source, diocese = '') {
     if (diocese) diocese = diocese + '-'
     return allowedOverlaps.has(`${diocese}${month}-${day}-${source}`);
@@ -74,10 +83,10 @@ export const localCalendarData = (() => {
     const diocese = getLocalStorage('diocese') || 'Fulda'
     if (diocese === 'AAA') return JSON.parse(JSON.stringify(calendarData.AAA));
     const diocesanData = calendarData?.[diocese] || {}
-    console.log('diocesanData', diocesanData)
+    // console.log('diocesanData', diocesanData)
 
     const result = JSON.parse(JSON.stringify(calendarData.AAA));
-    console.log('calendarData eingelesen', JSON.parse(JSON.stringify(calendarData.AAA)))
+    // console.log('calendarData eingelesen', JSON.parse(JSON.stringify(calendarData.AAA)))
 
     // Füge Daten aus diocesanData hinzu
     for (const month in diocesanData) {
@@ -93,7 +102,7 @@ export const localCalendarData = (() => {
                 const reference = diocesanData[month][day][source]?.Laudes?.referenz || '';
                 if (reference) {
                     newSourceData = getReferenceData(reference);
-                    console.log('Referenz-Daten geladen für', `${month}-${day}-${source}:`, reference, newSourceData);
+                    // console.log('Referenz-Daten geladen für', `${month}-${day}-${source}:`, reference, newSourceData);
                 }
                 // Merge mit den aktuellen diocesanData (überschreibt/ergänzt Referenz-Daten)
                 const currentDiocesanData = JSON.parse(JSON.stringify(diocesanData[month][day][source]));

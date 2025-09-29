@@ -1,5 +1,10 @@
-Calendar Data Processing Log - 2025-09-29 04:35:20.764198
+Calendar Data Processing Log - 2025-09-29 12:34:53.722067
 ============================================================
 
 Keine Überschneidungen gefunden.
+
+=== REFERENZ-VALIDIERUNG ===
+Gefundene Referenzen: 6
+✓ Alle Referenzen sind gültig und geprüft
+
 Calendar-Daten erfolgreich sortiert: Regionalkalender plus 47 Diözesen

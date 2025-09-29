@@ -6,7 +6,7 @@ import { getLiturgicalInfo } from './LitCalendar.js';
 import { sourceKeys } from '../selectors/SourceSelector.js';
 import { localCalendarData } from '../data/CalendarMerge.js';
 
-console.log('!localCalendarData:', localCalendarData);
+//console.log('localCalendarData:', localCalendarData);
 
 const personalData = (() => {
     try {

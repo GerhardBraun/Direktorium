@@ -11305,6 +11305,9 @@ export const calendarData: CalendarData = {
           "major": {
             "oration_lat": "Deus, qui ad tuéndam cathólicam fidem virtúte et doctrína beátum Petrum presbýterum roborásti, eius intercessióne concéde, ut, qui veritátem quærunt, te Deum gaudénter invéniant, et in tua confessióne pópulus credéntium persevéret.^ORlV"
           },
+          "Lesehore": {
+            "patr_werk": "Aus einem Gebet!"
+          },
           "Laudes": {
             "referenz": "AAA-4-27-n1",
             "button": "Hl. Petrus Kanisius",
