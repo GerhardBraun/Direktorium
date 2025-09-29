@@ -2848,7 +2848,8 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "Hirten_Kl",
             "comm_2": "Hirten",
-            "oration": "Herr, unser Gott, du hast den heiligen Petrus Kanisius berufen, in Wort und Schrift den katholischen Glauben kraftvoll zu verteidigen. Höre auf seine Fürsprache. Lass alle, die nach der Wahrheit suchen, dich finden und erhalte deine Gläubigen im Bekenntnis zu dir.^ORV"
+            "oration": "Herr, unser Gott, du hast den heiligen Petrus Kanisius berufen, in Wort und Schrift den katholischen Glauben kraftvoll zu verteidigen. Höre auf seine Fürsprache. Lass alle, die nach der Wahrheit suchen, dich finden und erhalte deine Gläubigen im Bekenntnis zu dir.^ORV",
+            "oration_lat": "Deus, qui ad tuéndam cathólicam fidem virtúte et doctrína beátum Petrum presbýterum roborásti, eius intercessióne concéde, ut, qui veritátem quærunt, te Deum gaudénter invéniant, et in tua confessióne pópulus credéntium persevéret.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Petrus Kanisius (†°1597)",
@@ -2861,7 +2862,9 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Petrus Kanisius",
             "genitiv": "des heiligen Petrus Kanisius",
-            "vokativ": "Heiliger Petrus Kanisius"
+            "vokativ": "Heiliger Petrus Kanisius",
+            "genitiv_lat": "sancti Petri Canísii",
+            "vokativ_lat": "sancte Petre Canísi"
           }
         }
       },
@@ -4336,7 +4339,7 @@ export const calendarData: CalendarData = {
       },
       "5": {
         "eig": {
-          "major": {
+          "each": {
             "comm_1": "MärtSg",
             "comm_2": "Hirten",
             "oration": "Herr, unser Gott, erhöre die Bitten deiner Gemeinde, die heute das Fest des heiligen Bonifatius feiert. Auf seine Fürsprache schenke uns deine Hilfe, damit wir den Glauben treu bewahren, den er unseren Vätern gepredigt und mit seinem Blut besiegelt hat.^ORV",
@@ -4353,7 +4356,11 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Hl. Bonifatius",
             "farbe": "r",
-            "genitiv": "des heiligen Bonifatius"
+            "genitiv": "des heiligen Bonifatius",
+            "antev": "Freue dich, du Land der Deutschen, und preise deinen Apostel und Bischof. Seine Predigt brachte dir das Licht des Glaubens. Seine Sorge um dich erfleht dir Gottes Schutz.^Ö"
+          },
+          "Vesper": {
+            "antev": "Heute hat Bonifatius, der treue Diener Gottes, den Glauben, der er unseren Vätern verkündete, mit seinem Blute besiegelt. Heute erlangte der mutige Kämpfer die Palme des Sieges.^Ö"
           }
         }
       },
@@ -8066,7 +8073,7 @@ export const calendarData: CalendarData = {
             "antev": "Der Engel Gabriel sprach zu Maria: Du wirst empfangen und einen Sohn gebären. Dem sollst du den Namen Jesus geben.",
             "bitten_e": "Lasst uns beten zu Gott, dem die Engel dienen:",
             "bitten_r": "Wir bitten dich, erhöre uns.",
-            "bitten": "Gott, immer wieder hast du Engel zum Dienst an den Menschen bestellt;^qsende deine Engel aus, dass sie über dein Volk wachen.^pDu hast dem Erzengel Michael geboten, gegen Satan zu kämpfen;^qsende deinen Engel allen zu Hilfe, die im Kampf mit dem Bösen stehen.^pDu hast den Erzengel Gabriel gesandt, Maria die Heilsbotschaft zu bringen;^qgib, dass alle Menschen den Messias aufnehmen, den er verkündet hat.^pDu hast den Erzengel Rafael beauftragt, den blinden Tobit zu heilen;^qlindere die Schmerzen der Kranken.^pHier können Fürbitten in besonderen Anliegen eingefügt werden.^pErbarme dich unserer Verstorbenen;^qdie Chöre der Engel mögen sie empfangen.",
+            "bitten": "Gott, immer wieder hast du Engel zum Dienst an den Menschen bestellt;^qsende deine Engel aus, dass sie über dein Volk wachen.^pDu hast dem Erzengel Michael geboten, gegen Satan zu kämpfen;^qsende deinen Engel allen zu Hilfe, die im Kampf mit dem Bösen stehen.^pDu hast den Erzengel Gabriel gesandt, Maria die Heilsbotschaft zu bringen;^qgib, dass alle Menschen den Messias aufnehmen, den er verkündet hat.^pDu hast den Erzengel Rafael beauftragt, den blinden Tobit zu heilen;^qlindere die Schmerzen der Kranken.^pErbarme dich unserer Verstorbenen;^qdie Chöre der Engel mögen sie empfangen.",
             "hymn_1_lat": 8929.104,
             "ant1_lat": "Eleváta est magnificéntia tua super cælos, Rex angelórum.",
             "ant2_lat": "In conspéctu angelórum psallam tibi, Deus meus.",
@@ -8092,10 +8099,10 @@ export const calendarData: CalendarData = {
           "Lesehore": {
             "patr_autor": "Hieronymus († 419/420)",
             "patr_werk": "Aus einer Auslegung zum Buch Jesaja.",
-            "patr_text": "^hDie Schrift nicht kennen heißt Christus nicht kennen^pIch leiste, was ich schuldig bin im Gehorsam gegen die Gebote Christi, der sagt: „Erforscht die Schriften!“{1#Joh 5,39} und: „Sucht, dann werdet ihr finden!“{2#Mt 7,7} Ich möchte nicht das Wort hören: „Ihr irrt euch; ihr kennt weder die Schrift noch die Macht Gottes.“{3#Mt 22,29} Denn wenn Christus nach dem Wort des Apostels Paulus „Gottes Kraft und Gottes Weisheit“ ist{4#1 Kor 1,24}, dann kennt die Kraft und Weisheit Gottes nicht, wer die Schrift nicht kennt. Wenn die Kenntnis der Schrift fehlt, fehlt die Kenntnis Christi.^pIch will darum handeln wie ein Hausherr, der aus seinem Vorrat Neues und Altes hervorholt{5#vgl. Mt 13,52}, und wie die Braut im Hohenlied: „Köstliche Früchte, frische und solche von früher, habe ich für dich aufgehoben, Geliebter.“{6#Hld 7,14} So will ich Jesaja erklären: Ich will ihn nicht nur als Propheten aufzeigen, sondern auch als Evangelisten und Apostel. Denn er sagt von sich und den andern Kündern der frohen Botschaft: „Wie willkommen sind die Füße derer, die eine frohe Botschaft bringen, die den Frieden verkünden.“{7#Jes 52,7} Zu ihm sprach Gott wie zu einem Apostel: „Wen soll ich senden? Wer wird zu diesem Volk gehen?“ Er antwortete: „Hier bin ich, sende mich!“{8#Jes 6,8}^pNiemand meine, ich wollte den Inhalt dieses Buches in einer kurzen Rede zusammenfassen, da die vorliegende Schrift doch alle Geheimnisse des Herrn enthält. Sowohl die Geburt des Immanuel aus der Jungfrau wird verkündet als auch die Botschaft von dem berühmten Mann, der Zeichen und Wunder tat, der starb und begraben wurde, der aus der Welt des Todes erstand und Heiland aller Völker genannt wird. Was soll ich über die Lehre von der Natur, der Ethik, Logik sprechen? Alles, was zur Heiligen Schrift gehört, was menschliche Zunge aussprechen und der Sinn der Sterblichen fassen kann, ist in diesem Buch enthalten. Von seinen Geheimnissen zeugt, der geschrieben hat: „Die Offenbarung wurde für euch wie die Worte in einem versiegelten Buch: Wenn man es einem Menschen gibt, der lesen kann, und zu ihm sagt: Lies es mir vor!, dann antwortet er: Ich kann es nicht lesen, denn es ist versiegelt.“{9#Jes 29,11} Und wenn man das Buch einem Mann gibt, der nicht lesen kann, und zu ihm sagt: Lies es mir vor!, dann antwortet er: Ich kann nicht lesen.^pWenn diese Ausführung zu schwach erscheint, der höre das Wort des Apostels: „Zwei oder drei Propheten sollen zu Wort kommen; die andern sollen urteilen. Wenn aber noch einem andern der Anwesenden eine Offenbarung zuteil wird, soll der erste schweigen.“{10#1 Kor 14,29.30} Aus welchem Grund schweigen, wenn der Heilige Geist, der durch die Propheten spricht, zu entscheiden hat, ob zu schweigen oder zu reden ist? Wenn sie verstanden, was sie sagten, war alles voll Weisheit und Vernunft, und es drang nicht bloß durch die Stimme in Schwingung gebrachte Luft an ihre Ohren. Vielmehr sprach Gott im Herzen der Propheten – wie ein anderer Prophet es ausdrückt: „Der Engel, der in mir redete“{11#vgl.°Mt 13,10}, und wieder ein anderer: „Der in uns ruft: Abba, Vater!“{12#Gal 4,6} und wieder einer: „Ich will hören, was Gott in mir redet.“{13#Ps 85,9}",
-            "patr_resp1": "Der Mund des Gerechten bewegt Worte der Weisheit, und seine Zunge redet, was recht ist",
-            "patr_resp2": "Er hat die Weisung seines Gottes im Herzen, und seine Schritte wanken nicht",
-            "patr_resp3": "Und seine Zunge redet, was recht ist"
+            "patr_text": "^hDie Schrift nicht kennen heißt Christus nicht kennen^pIch leiste, was ich schuldig bin im Gehorsam gegen die Gebote Christi, der sagt: „Erforscht die Schriften!“{1#Joh 5,39} und: „Sucht, dann werdet ihr finden!“{2#Mt 7,7} Ich möchte nicht das Wort hören: „Ihr irrt euch; ihr kennt weder die Schrift noch die Macht Gottes.“{3#Mt 22,29} Denn wenn Christus nach dem Wort des Apostels Paulus „Gottes Kraft und Gottes Weisheit“ ist{4#1 Kor 1,24}, dann kennt die Kraft und Weisheit Gottes nicht, wer die Schrift nicht kennt. Wenn die Kenntnis der Schrift fehlt, fehlt die Kenntnis Christi.^pIch will darum handeln wie ein Hausherr, der aus seinem Vorrat Neues und Altes hervorholt{5#vgl. Mt 13,52}, und wie die Braut im Hohenlied: „Köstliche Früchte, frische und solche von früher, habe ich für dich aufgehoben, Geliebter.“{6#Hld 7,14} So will ich Jesaja erklären: Ich will ihn nicht nur als Propheten aufzeigen, sondern auch als Evangelisten und Apostel. Denn er sagt von sich und den andern Kündern der frohen Botschaft: „Wie willkommen sind die Füße derer, die eine frohe Botschaft bringen, die den Frieden verkünden.“{7#Jes 52,7} Zu ihm sprach Gott wie zu einem Apostel: „Wen soll ich senden? Wer wird zu diesem Volk gehen?“ Er antwortete: „Hier bin ich, sende mich!“{8#Jes 6,8 LXX}^pNiemand meine, ich wollte den Inhalt dieses Buches in einer kurzen Rede zusammenfassen, da die vorliegende Schrift doch alle Geheimnisse des Herrn enthält. Sowohl die Geburt des Immanuel aus der Jungfrau wird verkündet als auch die Botschaft von dem berühmten Mann, der Zeichen und Wunder tat, der starb und begraben wurde, der aus der Welt des Todes erstand und Heiland aller Völker genannt wird.^pWas soll ich über die Lehre von der Natur, der Ethik, Logik sprechen? Alles, was zur Heiligen Schrift gehört, was menschliche Zunge aussprechen und der Sinn der Sterblichen fassen kann, ist in diesem Buch enthalten. Von seinen Geheimnissen zeugt, der geschrieben hat: „Die Offenbarung wurde für euch wie die Worte in einem versiegelten Buch: Wenn man es einem Menschen gibt, der lesen kann, und zu ihm sagt: Lies es mir vor!, dann antwortet er: Ich kann es nicht lesen, denn es ist versiegelt.“{9#Jes 29,11} Und wenn man das Buch einem Mann gibt, der nicht lesen kann, und zu ihm sagt: Lies es mir vor!, dann antwortet er: Ich kann nicht lesen.^pWem diese Ausführung zu schwach erscheint, der höre das Wort des Apostels: „Zwei oder drei Propheten sollen zu Wort kommen; die andern sollen urteilen. Wenn aber noch einem andern der Anwesenden eine Offenbarung zuteil wird, soll der erste schweigen.“{10#1 Kor 14,29.30} Aus welchem Grund schweigen, wenn der Heilige Geist, der durch die Propheten spricht, zu entscheiden hat, ob zu schweigen oder zu reden ist? Wenn sie verstanden, was sie sagten, war alles voll Weisheit und Vernunft, und es drang nicht bloß durch die Stimme in Schwingung gebrachte Luft an ihre Ohren. Vielmehr sprach Gott im Herzen der Propheten – wie ein anderer Prophet es ausdrückt: „Der Engel, der in mir redete“{11#vgl.°Mt 13,10}, und wieder ein anderer: „Der in uns ruft: Abba, Vater!“{12#Gal 4,6} und wieder einer: „Ich will hören, was Gott in mir redet.“{13#Ps 85,9}",
+            "patr_resp1": "Der Mund des Gerechten bewegt Worte der Weisheit,",
+            "patr_resp2": "und seine Zunge redet, was recht ist.",
+            "patr_resp3": "Er hat die Weisung seines Gottes im Herzen, und seine Schritte wanken nicht."
           },
           "Laudes": {
             "button": "Hl. Hieronymus",
@@ -11302,17 +11309,9 @@ export const calendarData: CalendarData = {
     "4": {
       "27": {
         "eig": {
-          "major": {
-            "oration_lat": "Deus, qui ad tuéndam cathólicam fidem virtúte et doctrína beátum Petrum presbýterum roborásti, eius intercessióne concéde, ut, qui veritátem quærunt, te Deum gaudénter invéniant, et in tua confessióne pópulus credéntium persevéret.^ORlV"
-          },
-          "Lesehore": {
-            "patr_werk": "Aus einem Gebet!"
-          },
           "Laudes": {
             "referenz": "AAA-4-27-n1",
-            "button": "Hl. Petrus Kanisius",
-            "genitiv_lat": "sancti Petri Canísii",
-            "vokativ_lat": "sancte Petre Canísi"
+            "button": "Hl. Petrus Kanisius"
           }
         }
       }
@@ -11346,8 +11345,7 @@ export const calendarData: CalendarData = {
         "eig": {
           "each": {
             "comm_1": "Hirten",
-            "oration": "Herr, unser Gott, erhöre die Bitten deiner Gemeinde, die heute das Fest des heiligen Bonifatius feiert. Auf seine Fürsprache schenke uns deine Hilfe, damit wir den Glauben treu bewahren, den er unseren Vätern gepredigt und mit seinem Blut besiegelt hat.^ORV",
-            "oration_lat": "Sanctus martyr, Domine, Bonifátius pro nobis intervéntor exsístat ut fidem, quam ore dócuit et sánguine consignávit, firmiter teneámus, et opéribus profiteámur confidénter.^ORlV"
+            "comm_2": ""
           },
           "ErsteV": {
             "button": "1. Vesper zum hl. Bonifatius",
@@ -11402,12 +11400,6 @@ export const calendarData: CalendarData = {
             "resp1": "Als Diener Christi soll man uns betrachten und als Verwalter von Geheimnissen Gottes.",
             "resp2": "Von Verwaltern aber verlangt man, dass sie sich treu erweisen. ^Ö",
             "resp3": "Viele Menschen rühmen sich ihrer Güte, aber wer findet einen, auf den Verlass ist?",
-            "patr_autor": "Bonifatius († 754)",
-            "patr_werk": "Aus einem Brief.",
-            "patr_text": "^hDer eifrige Hirte, der über die Herde Christi wacht^pDie Kirche fährt über das Meer dieser Welt wie ein großes Schiff und wird von den Wogen – das sind die Anfechtungen dieses Lebens – hin und her geworfen. Wir dürfen das Schiff nicht verlassen, wir müssen es lenken.^pAls Vorbilder haben wir dafür die frühen Väter, Klemens, Kornelius und die vielen andern in der Stadt Rom, Cyprian in Karthago, Athanasius in Alexandrien. Sie haben unter heidnischen Kaisern das Schiff Christi gesteuert. Sie haben die Kirche geleitet, sie gelehrt und verteidigt, für sie gearbeitet und gelitten bis zum Vergießen des Blutes.^pDiese Überlegungen erschrecken mich, „Furcht und Zittern erfassen mich“ {1#Ps 55,6}, die Finsternis meiner Sünden drückt mich nieder. Wie gerne hätte ich das Steuer der Kirche, das ich übernommen habe, aus der Hand gegeben, wenn ich nur geeignete Beispiele bei den Vätern oder in der Heiligen Schrift hätte finden können.^pDie Wahrheit kann zwar niedergehalten, aber weder besiegt noch getäuscht werden. So flüchtet unser Geist zu Gott, der durch Salomo spricht: „Mit ganzem Herzen vertrau auf den Herrn, bau nicht auf eigene Klugheit; such ihn zu erkennen auf all deinen Wegen, dann ebnet er selbst deine Pfade“ {2#Spr 3,5–6}, und anderswo: „Ein fester Turm ist der Name des Herrn, dorthin eilt der Gerechte und ist geborgen.“ {3#Spr 18,10}^pLasst uns feststehen in der Gerechtigkeit und unser Herz auf die Versuchung vorbereiten, damit wir das Zögern Gottes ertragen und sprechen: „Herr, du warst unsere Zuflucht von Geschlecht zu Geschlecht.“ {4#Ps 90,1}^pLasst uns auf ihn vertrauen, der uns die Last aufgelegt hat. Was wir aus eigener Kraft nicht tragen können, das wollen wir tragen durch ihn. Er ist allmächtig und spricht: „Mein Joch drückt nicht, und meine Last ist leicht.“ {5#Mt 11,30}^pLasst uns am Tag des Herrn im Kampf feststehen, denn „ein Tag der Not und Bedrängnis“ {6#Zef 1,15} kam über uns. Wenn Gott es so will, wollen wir sterben für die heiligen Gesetze unserer Väter, damit wir mit ihnen das ewige Erbe erlangen. ^pWir wollen nicht stumme Hunde sein {7#vgl.°Jes 56,10} und schweigend zuschauen, nicht Mietlinge, die vor dem Wolf fliehen {8#vgl.°Joh 10,12}, sondern eifrige Hirten: Über die Herde Christi wollen wir wachen und allen Menschen jeden Ratschluss Gottes verkünden, den Großen und den Kleinen, den Reichen und den Armen, jedem Stand und jedem Alter, soweit Gott uns Kraft dazu gibt, gelegen und ungelegen {9#vgl.°2 Tim 4,2}, wie es uns der heilige Gregor in seiner Pastoralregel vorgeschrieben hat.",
-            "patr_resp1": "Wir wollten euch nicht nur am Evangelium Gottes teilhaben lassen, sondern auch an unserem eigenen Leben;",
-            "patr_resp2": "denn ihr wart uns sehr lieb geworden. ^Ö",
-            "patr_resp3": "Meine Kinder, für euch erleide ich von neuem Geburtswehen, bis Christus in euch Gestalt annimmt.",
             "hymn_1_lat": 8605.101,
             "ant1_lat": "Desidérium cordis eius tribuísti iusto tuo, Dómine, prævenísti eum in benedictiónibus dulcédinis.^LÖ",
             "ant2_lat": "Státuit illum in testaméntum ætérnum et dedit illi sacerdótium gentis.^LÖ",
@@ -11421,7 +11413,6 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "referenz": "AAA-6-5-eig",
             "button": "Hl. Bonifatius",
-            "farbe": "r",
             "hymn_1": 8605.2,
             "hymn_2": 8605.6,
             "hymn_3": 8605.7,
@@ -11748,27 +11739,9 @@ export const calendarData: CalendarData = {
       },
       "17": {
         "d1": {
-          "major": {
-            "comm_1": "MärtSg",
-            "comm_2": "Mann_Ord",
-            "oration": "Gott, in deiner Kraft hat der heilige Maximilian Kolbe die Qualen des Martyriums ausgehalten und sein Leben für den Bruder in Christus hingegeben. Sieh auf unsere Schwachheit und gib uns die Kraft, deine Wahrheit und deine Liebe in unserem Leben und Sterben zu bezeugen.^ORV",
-            "oration_lat": "Deus, in cuius virtúte beátus martyr tuus Maximiliánus, ut ánimam suam pro fratre póneret, passiónis suæ torménta superávit, nostræ, quǽsumus, infirmitáti medére, ut sive per vitam sive per mortem veritátis et caritátis tuæ ostendámus vigórem.^ORlV"
-          },
-          "Lesehore": {
-            "patr_autor": "Maximilian Kolbe (†°1941)",
-            "patr_werk": "Aus der Schrift „Jedem ist der Weg gewiesen“.",
-            "patr_text": "^hDurch Leiden zur Herrlichkeit^pEs gibt keinen Menschen unter der Sonne, der nicht das Glück suchte. Bei allem, was wir tun, haben wir das Glück in dieser oder jener Form als Ziel vor Augen und streben ihm von Natur aus zu. Das Glück aber, das nicht auf der Wahrheit gegründet ist, kann ebensowenig von Dauer sein, wie die Unwahrheit von Dauer ist. Allein die Wahrheit ist das zuverlässige Fundament des Glücks, für den einzelnen Menschen wie für die gesamte Menschheit.^pDer Blick des Ungläubigen reicht nicht weiter als bis zum Sarge. Er kann der rein stofflichen Welt nicht entrinnen. Schaut euch diese Menschen an, die im tiefsten Materialismus befangen sind: Sie wagten es, der Menschheit das Glück zu verheißen. Alles, was die Welt geben kann, reicht doch für den Menschen nicht aus. Alle diese Güter haben doch ihre Grenzen. Sie enttäuschen und wecken das Verlangen nach einem größeren, dauerhaften Glück.^pDie Immaculata sagte in der Stunde der Verkündigung: „Ich bin die Magd des Herrn; mir geschehe, wie du es gesagt hast“{1#Lk 1,38}. Wie Gott es will, so soll es geschehen. In diesen Worten ist die ganze Glückseligkeit, aber auch unsere Aufgabe hier auf Erden eingeschlossen. Gott hat uns erschaffen, dass wir seine Werkzeuge seien. Bitten wir die heilige Mutter, dass sie uns lehrt, wie die Seele einer Magd des Herrn beschaffen sein soll.^pDas muss unser ganzes Bestreben sein, Gott dem Herrn die höchste Ehre zu erweisen. Wir müssen darum bemüht sein, Jesus so zu lieben, wie ihn seine heilige Mutter geliebt hat. Sie steht Gott am nächsten. Wenn wir uns ihr nähern, nähern wir uns damit Gott selbst.^pMitunter ist es wirklich schwierig im Leben, man meint, es gäbe keinen Ausweg mehr. Weil wir nicht alles wissen können, sehen wir den Zusammenhang nicht zwischen unserem eigentlichen Glück und den widrigen Umständen, die uns quälen. Was sollen wir also tun? Gott vertrauen. Durch solches Vertrauen – auch ohne letzte Einsicht in die Dinge – erweisen wir gleichzeitig Gott eine große Ehre, denn wir erkennen seine Weisheit, Güte und Macht an. Vergessen wir nicht, immer wieder mit Jesus auf dem Ölberg zu sprechen: „Nicht mein, sondern dein Wille geschehe.“ Wenn Gott es für richtig und gut findet, dass es so sei wie auf dem Ölberg, dass unsere Bitte keinen Erfolg haben soll und wir den Kelch bis zur Neige trinken müssen, dann wollen wir nicht vergessen, dass Jesus nicht nur gelitten hat, sondern danach in Herrlichkeit auferstanden ist. So müssen auch wir durch Leiden zur Auferstehung kommen.",
-            "patr_resp1": "Ich vertraue auf Gott und fürchte mich nicht. Was können Menschen mir antun?",
-            "patr_resp2": "Gott hat die Macht für ewige Zeiten.",
-            "patr_resp3": "Nur kurze Zeit müsst ihr leiden. Gott wird euch aufrichten und stärken."
-          },
           "Laudes": {
             "referenz": "AAA-8-14-n1",
-            "button": "Hl. Maximilian Maria Kolbe",
-            "farbe": "r",
-            "nominativ": "Der heilige Maximilian Kolbe",
-            "genitiv": "des heiligen Maximilian Kolbe",
-            "genitiv_lat": "sancti Maximiliáni"
+            "button": "Hl. Maximilian Maria Kolbe"
           }
         }
       }
