@@ -42,6 +42,32 @@ function deepMerge(target, source) {
     return result
 }
 
+function getReferenceData(reference) {
+    if (!reference) return {};
+
+    // Parse reference: diocese-month-day-source
+    const parts = reference.split('-');
+    if (parts.length !== 4) {
+        console.warn('Ungültiges Referenz-Format:', reference);
+        return {};
+    }
+    const [refDiocese, refMonth, refDay, refSource] = parts;
+
+    try {
+        const referenceData = calendarData?.[refDiocese]?.[refMonth]?.[refDay]?.[refSource];
+        if (referenceData) {
+            // Erstelle eine tiefe Kopie der Referenz-Daten
+            return JSON.parse(JSON.stringify(referenceData));
+        } else {
+            console.warn('Referenz-Daten nicht gefunden:', reference);
+            return {};
+        }
+    } catch (error) {
+        console.error('Fehler beim Abrufen der Referenz-Daten:', reference, error);
+        return {};
+    }
+}
+
 // Zusammenführung von Regionalkalender und Diözesankalender zu localCalendarData
 // Gliederung: Monat - Tag - Source
 export const localCalendarData = (() => {
@@ -62,7 +88,19 @@ export const localCalendarData = (() => {
 
             for (const source in diocesanData[month][day]) {
                 const existingSourceData = JSON.parse(JSON.stringify(result[month][day][source] || {}));
-                const newSourceData = JSON.parse(JSON.stringify(diocesanData[month][day][source]));
+                let newSourceData = {};
+
+                const reference = diocesanData[month][day][source]?.Laudes?.referenz || '';
+                if (reference) {
+                    newSourceData = getReferenceData(reference);
+                    console.log('Referenz-Daten geladen für', `${month}-${day}-${source}:`, reference, newSourceData);
+                }
+                // Merge mit den aktuellen diocesanData (überschreibt/ergänzt Referenz-Daten)
+                const currentDiocesanData = JSON.parse(JSON.stringify(diocesanData[month][day][source]));
+                // Entferne das reference-Feld aus den zu mergenden Daten
+                delete currentDiocesanData.reference;
+                newSourceData = deepMerge(newSourceData, currentDiocesanData);
+
 
                 if (source === 'eig') {
                     // Lösche alle anderen Daten

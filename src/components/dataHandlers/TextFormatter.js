@@ -295,8 +295,8 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
             return text.replace(/([,.])(\^ORl?)(vR|V|S|R)/g, '$1');
         }
 
-        const formLength = ['erstev', 'vigil', 'lesehore', 'laudes', 'vesper'].includes(hour)
-            ? 'lang' : 'kurz';
+        const formLength = ['terz', 'sext', 'non', 'komplet'].includes(hour)
+            ? 'kurz' : 'lang';
 
         // Regex für Orationsschluss-Tags: (Satzzeichen)(^ORl?)(Kürzel)
         return text.replace(/([,.])(\^ORl?)(vR|V|S|R)/g, (match, punctuation, language, formula) => {
