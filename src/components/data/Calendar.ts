@@ -8402,7 +8402,7 @@ export const calendarData: CalendarData = {
         }
       },
       "9": {
-        "n2": {
+        "n1": {
           "major": {
             "comm_1": "MärtPl",
             "oration": "Gott, du hast den heiligen Dionysius und seine Gefährten gesandt, in Gallien deine Macht und Größe zu verkünden, und ihnen die Kraft zum Martyrium gegeben. Gib, dass wir über dem Irdischen stehen und keine Verfolgung fürchten, sondern im Leben und Sterben auf dich schauen.^ORV",
@@ -8422,7 +8422,7 @@ export const calendarData: CalendarData = {
             "genitiv": "des heiligen Dionysius und seiner Gefährten"
           }
         },
-        "n3": {
+        "n2": {
           "major": {
             "comm_1": "Mann_Liebe",
             "comm_2": "Hirten",
@@ -8444,7 +8444,7 @@ export const calendarData: CalendarData = {
             "genitiv_lat": "sancti Ióannis Leonardi"
           }
         },
-        "n4": {
+        "n3": {
           "major": {
             "comm_1": "Hirten",
             "oration": "Gott, du hast dem heiligen Priester John Henry Newman die Gnade geschenkt, deinem gütigen Licht zu folgen und in deiner Kirche Frieden zu finden. Gewähre uns, dass wir auf seine Fürsprache und durch sein Beispiel aus Schatten und Bildern zur Fülle deiner Wahrheit geführt werden.^ORV",

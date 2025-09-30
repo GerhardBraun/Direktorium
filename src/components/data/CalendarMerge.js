@@ -1,3 +1,5 @@
+import React from "react";
+import { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import { getLocalStorage } from '../utils/localStorage.js';
 import { calendarData } from './Calendar.ts';
 
@@ -79,7 +81,7 @@ function getReferenceData(reference) {
 
 // Zusammenführung von Regionalkalender und Diözesankalender zu localCalendarData
 // Gliederung: Monat - Tag - Source
-export const localCalendarData = (() => {
+export function getCalendarData() {
     const diocese = getLocalStorage('diocese') || 'Fulda'
     if (diocese === 'AAA') return JSON.parse(JSON.stringify(calendarData.AAA));
     const diocesanData = calendarData?.[diocese] || {}
@@ -129,5 +131,5 @@ export const localCalendarData = (() => {
     };
 
     return result;
-})();
+};
 

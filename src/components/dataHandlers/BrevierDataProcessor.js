@@ -4,13 +4,12 @@ import { lecture2Data } from '../data/Lecture2.ts';
 import { sollemnitiesData } from '../data/Sollemnities.ts';
 import { getLiturgicalInfo } from './LitCalendar.js';
 import { sourceKeys } from '../selectors/SourceSelector.js';
-import { localCalendarData } from '../data/CalendarMerge.js';
-
-//console.log('localCalendarData:', localCalendarData);
+import { getCalendarData } from '../data/CalendarMerge.js';
+import { getLocalStorage } from '../utils/localStorage.js';
 
 const personalData = (() => {
     try {
-        const stored = localStorage.getItem('personalData');
+        const stored = getLocalStorage('personalData');
         return stored ? JSON.parse(stored) : {};
     } catch (error) {
         console.error('Fehler beim Laden der personalisierten Daten:', error);
@@ -343,11 +342,11 @@ function processCommune(hours, season, targetSource) {
 }
 
 function processCalendar(hours, season, calendarMonth, calendarDay, replaceEig = 'eig') {
-    const processData = localCalendarData?.[calendarMonth]?.[calendarDay];
+    const processData = getCalendarData()?.[calendarMonth]?.[calendarDay];
     if (processData) {
-        if (replaceEig === 'wt' && [41, 46].includes(calendarDay)) {
+        if (replaceEig === 'wt' && [41, 46].includes(calendarDay))
             replaceEig = 'eig'
-        }
+
         // Map über alle Schlüssel
         sourceKeys.forEach(sourceKey => {
             if (sourceKey !== 'eig' || replaceEig !== 'skip') {
@@ -364,8 +363,6 @@ function processCalendar(hours, season, calendarMonth, calendarDay, replaceEig =
 }
 
 function processTerzPsalms(hours) {
-    // Definiere die zu prüfenden Stunden
-    const targetHours = ['sext', 'non'];
     // Definiere die relevanten Psalm-Felder
     const psalmFields = [
         'psalm1', 'psalm2', 'psalm3',
@@ -376,14 +373,12 @@ function processTerzPsalms(hours) {
     const sources = hours.terz ? Object.keys(hours.terz) : [];
 
     // Iteriere über die Zielstunden (Sext und Non)
-    targetHours.forEach(hour => {
+    ['sext', 'non'].forEach(hour => {
         if (!hours[hour]) return;
 
         // Iteriere über alle gefundenen Sources
         sources.forEach(source => {
-            if (!hours[hour][source]) {
-                hours[hour][source] = {};
-            }
+            if (!hours[hour][source]) hours[hour][source] = {};
 
             // Prüfe, ob die aktuelle Stunde bereits Psalmen in dieser Source hat
             const hasPsalms = psalmFields.some(field =>
@@ -409,12 +404,12 @@ function processAntABC(hours, yearABC) {
         const antField = 'ant' + yearABC;
         const antFieldLat = antField + '_lat';
 
-        if (hours[hour].wt?.[antField]) {
+        if (hours[hour].wt?.[antField])
             hours[hour].wt.antev = hours[hour].wt[antField];
-        }
-        if (hours[hour].wt?.[antFieldLat]) {
+
+        if (hours[hour].wt?.[antFieldLat])
             hours[hour].wt.antev_lat = hours[hour].wt[antFieldLat];
-        }
+
     });
 }
 
@@ -432,12 +427,11 @@ function processInvitatoriumPsalms(hours) {
             if (sourceKey === 'kirchw') return; // Überspringe kirchw
 
             // Funktion zum Durchsuchen von Psalm-Einträgen
-            const searchPsalmEntries = (obj) => {
+            const searchPsalmEntries = obj => {
                 ['psalm1', 'psalm2', 'psalm3'].forEach(psKey => {
                     const psValue = obj[psKey];
-                    if (psValue && searchPsalms.includes(psValue)) {
+                    if (psValue && searchPsalms.includes(psValue))
                         found.add(psValue);
-                    }
                 });
             };
 
@@ -456,9 +450,7 @@ function processInvitatoriumPsalms(hours) {
     // Erstelle Array mit verfügbaren Invitatorium-Psalmen
     const invitatorium = [95];
     searchPsalms.forEach(psalm => {
-        if (!found.has(psalm)) {
-            invitatorium.push(psalm);
-        }
+        if (!found.has(psalm)) invitatorium.push(psalm);
     });
 
     return invitatorium;
@@ -556,7 +548,7 @@ export function processBrevierData(todayDate) {
     const isSacredHeart = [1, 2, 46].includes(todayInfo.afterPentecost)
         ? todayInfo.afterPentecost : 0;
 
-    const dateToCheck = (diff) => {
+    const isSollemnity = diff => {
         const checkDate = new Date(todayDate);
         checkDate.setDate(todayDate.getDate() + diff);
         const checkInfo = getLiturgicalInfo(checkDate);
@@ -590,12 +582,12 @@ export function processBrevierData(todayDate) {
         console.log('Verschiebung: Verkündigung des Herrn auf Montag nach der Osteroktav');
     }
 
-    if (isSacredHeart === 1 && dateToCheck(1)) {
-        calendarDate = dateToCheck(1);
+    if (isSacredHeart === 1 && isSollemnity(1)) {
+        calendarDate = isSollemnity(1);
         console.log('Verschiebung: Morgiges Hochfest wird heute gefeiert wegen Herz-Jesu-Fest');
     }
-    if (isSacredHeart === 2 && dateToCheck(2)) {
-        nextDate = dateToCheck(2);
+    if (isSacredHeart === 2 && isSollemnity(2)) {
+        nextDate = isSollemnity(2);
         console.log('Verschiebung: Heute 1. Vesper zum Hochfest, das morgen gefeiert wird wegen Herz-Jesu-Fest');
     }
 
@@ -619,8 +611,7 @@ export function processBrevierData(todayDate) {
 
     //Lesejahr ABC
     const year = todayDate.getFullYear();
-    const remainder = year % 3;
-    const yearABC = ['c', 'a', 'b'][remainder]
+    const yearABC = ['c', 'a', 'b'][year % 3]
 
     // Stelle die endgültigen Daten zusammen
     const finalData = {
@@ -654,9 +645,9 @@ export function processBrevierData(todayDate) {
     const invPsalms = processInvitatoriumPsalms(finalData);
     finalData.invitatorium.psalms = invPsalms
 
-    const sequenceInv = JSON.parse(localStorage.getItem('sequenceInv')) || [95, 100, 24, 67, 67, 100, 24];
+    const sequenceInv = JSON.parse(getLocalStorage('sequenceInv')) || [95, 100, 24, 67, 67, 100, 24];
     let prefInv = sequenceInv[dayOfWeek];
-    if (!invPsalms.includes(prefInv)) { prefInv = 95; }
+    if (!invPsalms.includes(prefInv)) prefInv = 95;
     finalData.prefInv = prefInv;
 
     return finalData;

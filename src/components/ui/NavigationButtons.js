@@ -1,16 +1,22 @@
 import React from 'react';
 
-const NavigationButtons = ({ hour, onBack, onSelectHour, topButton = false, texts }) => {
+export const NavigationButtons = ({
+    hour, onBack, onSelectHour, topButton = false, texts
+}) => {
     const getNextHours = (currentHour) => {
         switch (currentHour) {
             case 'invitatorium':
                 return [
                     { label: 'Lesehore', name: 'lesehore' },
                     { label: 'Laudes', name: 'laudes' }];
+            case 'morning':
+                return [
+                    { label: 'Laudes', name: 'laudes' },
+                    { label: 'Terz/Sext/Non', name: 'terz', span: 'col-span-3' }];
             case 'vigil':
             case 'lesehore':
                 return [
-                    { label: 'Laudes', name: 'laudes' },
+                    { label: 'Terz/Sext/Non', name: 'terz', span: 'col-span-3' },
                     { label: 'Vesper', name: 'vesper' }];
             case 'laudes':
                 return [
@@ -79,7 +85,10 @@ const NavigationButtons = ({ hour, onBack, onSelectHour, topButton = false, text
         }
     };
 
-    const nextHours = getNextHours(hour);
+    const now = new Date();
+    const hourToRead = (now.getHours() < 11 && ['vigil', 'lesehore'].includes(hour))
+        ? 'morning' : hour
+    const nextHours = getNextHours(hourToRead);
     const { alignment, singleButton, columns } = getGridClass(nextHours)
 
 
@@ -153,5 +162,3 @@ const NavigationButtons = ({ hour, onBack, onSelectHour, topButton = false, text
         </div>
     );
 };
-
-export default NavigationButtons;

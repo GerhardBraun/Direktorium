@@ -26,7 +26,7 @@ import {
   formatText,
   formatPrayerText as extFormatPrayerText,
 } from "./dataHandlers/TextFormatter.js";
-import NavigationButtons from "./ui/NavigationButtons.js";
+import { NavigationButtons } from "./ui/NavigationButtons.js";
 import PersonalSettings from "./utils/PersonalSettings.js";
 import TitleBar from "./ui/TitleBar.js";
 import { getLocalStorage, setLocalStorage } from './utils/localStorage.js';
