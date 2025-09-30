@@ -29,7 +29,7 @@ import {
 import { NavigationButtons } from "./ui/NavigationButtons.js";
 import PersonalSettings from "./utils/PersonalSettings.js";
 import TitleBar from "./ui/TitleBar.js";
-import { getLocalStorage, setLocalStorage } from './utils/localStorage.js';
+import { setLocalStorage } from './utils/PersonalSettings.js';
 import { ordinarium } from "./utils/ordinarium.js";
 import { UserMessageDisplay } from "./data/UserMessageDisplay.js";
 
@@ -82,7 +82,7 @@ const useTouchZoom = (
 ) => {
   // Initialisierung mit gespeichertem Wert aus localStorage
   const getInitialFontSize = () => {
-    const savedSize = getLocalStorage("baseFontSize");
+    const savedSize = localStorage.getItem("baseFontSize");
     return savedSize ? parseFloat(savedSize) : initialFontSize;
   };
 
@@ -1930,16 +1930,16 @@ export default function LiturgicalCalendar() {
   const wakeLock = useWakeLock();
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [showDatePicker, setShowDatePicker] = useState(false);
-  const [theme, setTheme] = useState(() => getLocalStorage("theme") || "dark");
+  const [theme, setTheme] = useState(() => localStorage.getItem("theme") || "dark");
   const [prefSrc, setPrefSrc] = useState("eig");
   const [prefSollemnity, setPrefSollemnity] = useState("");
   const [useCommemoration, setUseCommemoration] = useState(false);
   const [selectedHour, setSelectedHour] = useState(null);
   const [texts, setTexts] = useState(null);
   const [expandedDeceased, setExpandedDeceased] = useState({});
-  const [prefFootnotes, setPrefFootnotes] = useState(() => getLocalStorage("prefFootnotes") === "false" ? false : true);
-  const [deceasedMode, setDeceasedMode] = useState(() => getLocalStorage("deceasedMode") || "recent"); const [localPrefLanguage, setLocalPrefLanguage] = useState(() => getLocalStorage("prefLanguage") || "");
-  const [localPrefLatin, setLocalPrefLatin] = useState(() => getLocalStorage("prefLanguage") === "_lat");
+  const [prefFootnotes, setPrefFootnotes] = useState(() => localStorage.getItem("prefFootnotes") === "false" ? false : true);
+  const [deceasedMode, setDeceasedMode] = useState(() => localStorage.getItem("deceasedMode") || "recent"); const [localPrefLanguage, setLocalPrefLanguage] = useState(() => localStorage.getItem("prefLanguage") || "");
+  const [localPrefLatin, setLocalPrefLatin] = useState(() => localStorage.getItem("prefLanguage") === "_lat");
   const [baseFontSize, setBaseFontSize] = useTouchZoom(
     14,
     8,
@@ -1960,8 +1960,8 @@ export default function LiturgicalCalendar() {
   const [isScrolling, setIsScrolling] = useState(false);
   const scrollTimeoutRef = useRef(null);
 
-  const startViewMode = getLocalStorage("startViewMode") || "directory";
-  const lastVisit = () => getLocalStorage("lastVisit") || null;
+  const startViewMode = localStorage.getItem("startViewMode") || "directory";
+  const lastVisit = () => localStorage.getItem("lastVisit") || null;
   const todayVisit = () => new Date().toISOString().split("T")[0]; // Format YYYY-MM-DD
   const [viewMode, setViewMode] = useState(() =>
     startViewMode === "directory" ||
@@ -2084,7 +2084,7 @@ export default function LiturgicalCalendar() {
       return new Date(date).toISOString().split("T")[0];
     };
 
-    const savedDate = getLocalStorage("selectedDate");
+    const savedDate = localStorage.getItem("selectedDate");
     const currentDateFormatted = formatDate(selectedDate);
 
     let newSelectedDate = false;
@@ -2452,8 +2452,8 @@ export default function LiturgicalCalendar() {
     const longPressTimeoutRef = useRef(null);
     const [isLongPressing, setIsLongPressing] = useState(false);
     const sections = ["fontSize", "theme", "language", "footnotes", "deceased", "view"];
-    const storedPrefLanguage = getLocalStorage("prefLanguage") || "";
-    const storedPrefFootnotes = getLocalStorage("prefFootnotes") === "true";
+    const storedPrefLanguage = localStorage.getItem("prefLanguage") || "";
+    const storedPrefFootnotes = localStorage.getItem("prefFootnotes") === "true";
 
     const toggleMenu = () => {
       setIsMenuOpen((prev) => !prev);

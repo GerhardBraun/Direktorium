@@ -1,5 +1,4 @@
 import React, { useMemo } from 'react';
-import { getLocalStorage } from '../utils/localStorage.js';
 import { getValue } from '../dataHandlers/GetValue.js';
 import { getExcludedHours } from '../dataHandlers/ExcludedHours.js';
 
@@ -124,7 +123,7 @@ export const SectionHeader = ({
         || (isTSN && title === 'ORATION')
     ) { askLatin = false }
     else if (title === 'HYMNUS') {
-        askLatin = getLocalStorage('ommitOpening') === 'true' ? true : false
+        askLatin = localStorage.getItem('ommitOpening') === 'true' ? true : false
     }
 
     // Prüfe, ob Commune übersprungen werden soll

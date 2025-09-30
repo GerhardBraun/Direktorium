@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import { getLocalStorage } from '../utils/localStorage.js';
 import formatBibleRef from './BibleRefFormatter.js';
 import { psalmsData } from '../data/PsHymn.ts';
 
@@ -217,7 +216,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
     const { season, isCommemoration, swdCombined = '' } = texts;
     const { nominativ, genitiv, vokativ, genitiv_lat, vokativ_lat } = texts?.laudes?.[prefSrc] || {};
 
-    const useFootnoteList = getLocalStorage('prefFootnotes') === 'true';
+    const useFootnoteList = localStorage.getItem('prefFootnotes') === 'true';
     const useCommemoration = (marker === 'commemoration' && isCommemoration === true)
 
     const replaceRESP = (text) => {
@@ -380,7 +379,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
     }
 
     const replaceNames = (text) => {
-        if (getLocalStorage('vacancy') === 'true') {
+        if (localStorage.getItem('vacancy') === 'true') {
             text = text
                 .replace(/Bischof \^NB/g, 'Diözesanadministrator ^NB')
                 .replace(/Epíscopo(\s+nostro)?\s*\^NdatB/g, 'Administratóri$1 diœcesáno ^NdatB')
@@ -388,13 +387,13 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
                 .replace(/Epíscopo(\s+nostro)?\s*\^NablB/g, 'Administratóre$1 diœcesáno ^NablB')
         }
         return text
-            .replace(/\^NP/g, getLocalStorage('popeName') || 'Leo')
-            .replace(/\^NB/g, getLocalStorage('bishopName') || '^N')
+            .replace(/\^NP/g, localStorage.getItem('popeName') || 'Leo')
+            .replace(/\^NB/g, localStorage.getItem('bishopName') || '^N')
             .replace(/\^N(dat|akk|abl)(P|B)/g, (match, casus, person) => {
                 if (!casus || !person) return match;
                 const name = person === 'P'
-                    ? getLocalStorage('popeNameLat') || 'Leóni'
-                    : getLocalStorage('bishopNameLat') || '^N';
+                    ? localStorage.getItem('popeNameLat') || 'Leóni'
+                    : localStorage.getItem('bishopNameLat') || '^N';
 
                 if (casus === 'akk') {
                     return name.replace(/i\b/g, 'em').replace(/o\b/g, 'um');

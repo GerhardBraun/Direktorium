@@ -1,7 +1,6 @@
-import { getLocalStorage } from '../utils/localStorage.js';
 import { tableOfRanks } from '../data/TableOfRanks.ts';
 
-const diocese = getLocalStorage('diocese') || 'Fulda'
+const diocese = localStorage.getItem('diocese') || 'Fulda'
 
 const daysToMilliseconds = (days) => days * 24 * 60 * 60 * 1000;
 

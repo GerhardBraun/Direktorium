@@ -1,50 +1,59 @@
 import React, { useState, useEffect } from 'react';
-import { getLocalStorage, setLocalStorage } from './localStorage.js';
 import { calendarData } from '../data/Calendar.ts';
+
+export function setLocalStorage(key, value) {
+    try {
+        localStorage.setItem(key, value);
+        return true;
+    } catch (error) {
+        console.error(`localStorage.setItem('${key}', '${value}') fehlgeschlagen:`, error);
+        return false;
+    }
+}
 
 const PersonalSettings = () => {
     const [personalData, setPersonalData] = useState(null);
     const [startView, setStartView] = useState(() =>
-        getLocalStorage('startViewMode') || 'directory'
+        localStorage.getItem('startViewMode') || 'directory'
     );
     const [prefLanguage, setPrefLanguage] = useState(() =>
-        getLocalStorage('prefLanguage') || ''
+        localStorage.getItem('prefLanguage') || ''
     );
 
     // Neue States für Diözese und Vacancy
     const [diocese, setDiocese] = useState(() =>
-        getLocalStorage('diocese') || 'Fulda'
+        localStorage.getItem('diocese') || 'Fulda'
     );
     const [vacancy, setVacancy] = useState(() =>
-        getLocalStorage('vacancy') === 'true'
+        localStorage.getItem('vacancy') === 'true'
     );
     const [showDioceseDropdown, setShowDioceseDropdown] = useState(false);
 
     const [popeName, setPopeName] = useState(() =>
-        getLocalStorage('popeName') || 'Leo'
+        localStorage.getItem('popeName') || 'Leo'
     );
     const [popeNameLat, setPopeNameLat] = useState(() =>
-        getLocalStorage('popeNameLat') || 'Leóni'
+        localStorage.getItem('popeNameLat') || 'Leóni'
     );
     const [bishopName, setBishopName] = useState(() =>
-        getLocalStorage('bishopName') || 'Michael'
+        localStorage.getItem('bishopName') || 'Michael'
     );
     const [bishopNameLat, setBishopNameLat] = useState(() =>
-        getLocalStorage('bishopNameLat') || 'Michaéli'
+        localStorage.getItem('bishopNameLat') || 'Michaéli'
     );
 
     // Lokale States für die Eingabefelder (um Umwandlung zu verzögern)
     const [popeNameLatInput, setPopeNameLatInput] = useState(() =>
-        getLocalStorage('popeNameLat') || ''
+        localStorage.getItem('popeNameLat') || ''
     );
     const [bishopNameLatInput, setBishopNameLatInput] = useState(() =>
-        getLocalStorage('bishopNameLat') || ''
+        localStorage.getItemtItem('bishopNameLat') || ''
     );
     const [popeNameAccInput, setPopeNameAccInput] = useState('');
     const [bishopNameAccInput, setBishopNameAccInput] = useState('');
 
     const [sequenceInv, setSequenceInv] = useState(() => {
-        const stored = getLocalStorage('sequenceInv');
+        const stored = localStorage.getItem('sequenceInv');
         return stored ? JSON.parse(stored) : [95, 100, 24, 67, 67, 100, 24];
     });
 
@@ -118,7 +127,7 @@ const PersonalSettings = () => {
     const dioceseOptions = getDioceseOptions();
 
     useEffect(() => {
-        const loadedData = getLocalStorage('personalData');
+        const loadedData = localStorage.getItem('personalData');
         if (loadedData) {
             setPersonalData(JSON.parse(loadedData));
         }
@@ -273,7 +282,7 @@ const PersonalSettings = () => {
     };
 
     const handleExport = () => {
-        const data = getLocalStorage('personalData');
+        const data = localStorage.getItem('personalData');
         let exportData = data ? JSON.parse(data) : {};
 
         exportData.settings = {

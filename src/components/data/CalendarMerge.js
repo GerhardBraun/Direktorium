@@ -1,6 +1,5 @@
 import React from "react";
 import { useState, useEffect, useRef, useCallback, useMemo } from "react";
-import { getLocalStorage } from '../utils/localStorage.js';
 import { calendarData } from './Calendar.ts';
 
 export const allowedOverlaps = new Set([
@@ -82,7 +81,7 @@ function getReferenceData(reference) {
 // Zusammenführung von Regionalkalender und Diözesankalender zu localCalendarData
 // Gliederung: Monat - Tag - Source
 export function getCalendarData() {
-    const diocese = getLocalStorage('diocese') || 'Fulda'
+    const diocese = localStorage.getItem('diocese') || 'Fulda'
     if (diocese === 'AAA') return JSON.parse(JSON.stringify(calendarData.AAA));
     const diocesanData = calendarData?.[diocese] || {}
     // console.log('diocesanData', diocesanData)

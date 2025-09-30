@@ -1,4 +1,4 @@
-import { getLocalStorage, setLocalStorage } from './localStorage.js';
+import { setLocalStorage } from './PersonalSettings.js';
 
 const ordinariumData = {
     'laudes': {
@@ -189,7 +189,7 @@ function getOpeningTexts(hour, localPrefLatin) {
     ];
 
     const todayVisit = () => new Date().toISOString().split("T")[0]; // Format YYYY-MM-DD
-    const openMyLips = () => getLocalStorage("openMyLips", "l-ERROR") || '';
+    const openMyLips = () => localStorage.getItem("openMyLips", "l-ERROR") || '';
 
     if (hour === 'invitatorium') {
         setLocalStorage("openMyLips", todayVisit())
@@ -205,7 +205,7 @@ function getOpeningTexts(hour, localPrefLatin) {
         }
     }
 
-    if (getLocalStorage('ommitOpening') === 'true'
+    if (localStorage.getItem('ommitOpening') === 'true'
         || hour === 'vigil') {
         return ["", "", "", ""];
     }
