@@ -6024,7 +6024,7 @@ export const brevierData = {
           "hymn_nacht_lat": 4122.1
         },
         "Terz": {
-          "oration": "Allmächtiger, ewiger Gott. Um die dritte Stunde hast du deinen Heiligen Geist über die Apostel ausgegossen. Sende den Geist der Liebe auch in unser Herz, damit wir in Treue für dich Zeugnis geben vor den Menschen.^ORV",
+          "oration": "Allmächtiger, ewiger Gott, um die dritte Stunde hast du deinen Heiligen Geist über die Apostel ausgegossen. Sende den Geist der Liebe auch in unser Herz, damit wir in Treue für dich Zeugnis geben vor den Menschen.^ORV",
           "oration_lat": "Omnípotens sempitérne Deus, qui Paráclitum Sanctum tuum hora tértia in Apóstolos effudísti, in nos quoque eúndem Spíritum caritátis emítte, ut fidéle tibi coram ómnibus homínibus testimónium præbeámus. Per Christum Dóminum nostrum."
         },
         "Sext": {
@@ -11115,8 +11115,8 @@ export const brevierData = {
         "Non": {
           "les_buch": "›1°Kor",
           "les_stelle": "12,24b.25–26[27]",
-          "les_text": "Gott hat den Leib so zusammengefügt, dass in ihm kein Zwiespalt entsteht, sondern alle Glieder einträchtig füreinander sorgen. Wenn darum ein Glied leidet, leiden alle Glieder mit; wenn ein Glied geehrt wird, freuen sich alle Glieder mit. ^[Ihr aber seid der Leib Christi und jeder einzelne ist ein Glied an ihm.^]^l^RUBRDer letzte Vers steht im Stundenbuch, gehört aber gemäß der Editio typica nicht mehr zur Kurzlesung.^0RUBR",
-          "les_text_neu": "Gott hat den Leib so zusammengefügt, dass in ihm kein Zwiespalt entsteht, sondern alle Glieder einträchtig füreinander sorgen. Wenn darum ein Glied leidet, leiden alle Glieder mit; wenn ein Glied geehrt wird, freuen sich alle anderen mit ihm. ^[Ihr aber seid der Leib Christi und jeder einzelne ist ein Glied an ihm.]^l^RUBRDer letzte Vers steht im Stundenbuch, gehört aber gemäß der Editio typica nicht mehr zur Kurzlesung.^0RUBR",
+          "les_text": "^RUBRDer letzte Vers steht im Stundenbuch, gehört aber gemäß der Editio typica nicht mehr zur Kurzlesung.^0RUBR^lGott hat den Leib so zusammengefügt, dass in ihm kein Zwiespalt entsteht, sondern alle Glieder einträchtig füreinander sorgen. Wenn darum ein Glied leidet, leiden alle Glieder mit; wenn ein Glied geehrt wird, freuen sich alle Glieder mit. ^[Ihr aber seid der Leib Christi und jeder einzelne ist ein Glied an ihm.^]",
+          "les_text_neu": "^RUBRDer letzte Vers steht im Stundenbuch, gehört aber gemäß der Editio typica nicht mehr zur Kurzlesung.^0RUBR^lGott hat den Leib so zusammengefügt, dass in ihm kein Zwiespalt entsteht, sondern alle Glieder einträchtig füreinander sorgen. Wenn darum ein Glied leidet, leiden alle Glieder mit; wenn ein Glied geehrt wird, freuen sich alle anderen mit ihm. ^[Ihr aber seid der Leib Christi und jeder einzelne ist ein Glied an ihm.^]",
           "resp0": "Herr, unser Gott, führe uns zusammen aus den Völkern.",
           "resp1": "Damit wir deinen heiligen Namen preisen.",
           "resp0_lat": "Dómine Deus noster, cóngrega nos de natiónibus.",

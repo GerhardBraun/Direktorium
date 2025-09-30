@@ -5,11 +5,10 @@ import { sollemnitiesData } from '../data/Sollemnities.ts';
 import { getLiturgicalInfo } from './LitCalendar.js';
 import { sourceKeys } from '../selectors/SourceSelector.js';
 import { getCalendarData } from '../data/CalendarMerge.js';
-import { getLocalStorage } from '../utils/localStorage.js';
 
 const personalData = (() => {
     try {
-        const stored = getLocalStorage('personalData');
+        const stored = localStorage.getItem('personalData');
         return stored ? JSON.parse(stored) : {};
     } catch (error) {
         console.error('Fehler beim Laden der personalisierten Daten:', error);
@@ -645,7 +644,7 @@ export function processBrevierData(todayDate) {
     const invPsalms = processInvitatoriumPsalms(finalData);
     finalData.invitatorium.psalms = invPsalms
 
-    const sequenceInv = JSON.parse(getLocalStorage('sequenceInv')) || [95, 100, 24, 67, 67, 100, 24];
+    const sequenceInv = JSON.parse(localStorage.getItem('sequenceInv')) || [95, 100, 24, 67, 67, 100, 24];
     let prefInv = sequenceInv[dayOfWeek];
     if (!invPsalms.includes(prefInv)) prefInv = 95;
     finalData.prefInv = prefInv;
