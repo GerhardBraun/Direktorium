@@ -9070,7 +9070,7 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Jesus Christus, der seine Kirche im Heiligen Geist zusammenführt. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, schaffe alles neu.",
           "bitten": "Du hast am heutigen Tag vom Vater her deinen Jüngern den Heiligen Geist gesandt;^qerfülle auch uns mit dem Heiligen Geist.^pDu hast Ströme lebendigen Wassers verheißen einem jeden, der glaubt;^qerneuere unseren Glauben.^pDu hast uns den Geist der Wahrheit gesandt, der von dir Zeugnis gibt;^qmache uns zu treuen Zeugen.^pIm Heiligen Geist heiligst du deine Kirche;^qnimm hinweg, was böse ist in uns.",
-          "hymn_1_lat": 0.0,
+          "hymn_1_lat": 3428.1,
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
           "ant1_lat": "O quam bonus et suávis est, Dómine, Spíritus tuus in nobis! allelúia.",
@@ -9812,7 +9812,7 @@ export const brevierData = {
           "resp1": "Der Beistand, den der Vater senden wird, er wird euch alles lehren.",
           "resp2": "Halleluja,°halleluja.",
           "resp3": "An alles, was ich euch sagte, wird er euch erinnern.",
-          "hymn_1_lat": 0.0,
+          "hymn_1_lat": 3444.1,
           "resp1_lat": "Spíritus Paráclitus,",
           "resp2_lat": "allelúia,°allelúia.",
           "resp3_lat": "Docébit vos ómnia."
@@ -9848,7 +9848,7 @@ export const brevierData = {
           "resp1": "Der Beistand, den der Vater senden wird, er wird euch alles lehren.",
           "resp2": "Halleluja,°halleluja.",
           "resp3": "An alles, was ich euch sagte, wird er euch erinnern.",
-          "hymn_1_lat": 0.0,
+          "hymn_1_lat": 3444.1,
           "resp1_lat": "Spíritus Paráclitus,",
           "resp2_lat": "allelúia,°allelúia.",
           "resp3_lat": "Docébit vos ómnia."

@@ -4204,8 +4204,9 @@ export const psalmsData = {
   },
   3428: {
     0.0: {
-        "text": "Und wieder führt das Jahr herauf^lder sel’gen Freude hohen Tag:^lDer Beistand, den der Herr verhieß,^lwird seinen Jüngern heut geschenkt.^pIn Flammen stürzt das Licht herab^lund strahlt in Feuerzungen auf,^ldass Glut der Liebe sie durchströmt^lund ihrem Worte Macht verleiht.^pIn allen Sprachen reden sie,^ldie Menge staunt und steht gebannt,^lman glaubt vom Weine sie berauscht,^ldie doch vom Geiste trunken sind.^pWir bitten dich, du guter Gott,^lmit tief geneigtem Angesicht:^lDes Geistes Gaben gieße nun^lauch über uns in Gnaden aus.^pDir, Gott und Vater, sei der Ruhm,^ldem Sohne, der vom Tod erstand,^ldem Geist, der unser Beistand ist,^ldurch alle Zeit und Ewigkeit. Amen.",
-        "text_neu": "beide",
+        "text": "Und wieder führt das Jahr herauf^lder sel’gen Freude hohen Tag:^lDer Beistand, den der Herr verhieß,^lwird seinen Jüngern heut geschenkt.^pIn Flammen stürzt das Licht herab^lund strahlt in Feuerzungen auf,^ldass Glut der Liebe sie durchströmt^lund ihrem Worte Macht verleiht.^pIn allen Sprachen reden sie,^ldie Menge staunt und steht gebannt,^lman glaubt vom Weine sie berauscht,^ldie doch vom Geiste trunken sind.^pWir bitten dich, du guter Gott,^lmit tief geneigtem Angesicht:^lDes Geistes Gaben gieße nun^lauch über uns in Gnaden aus.^pDir, Gott und Vater, sei der Ruhm,^ldem Sohne, der vom Tod erstand,^ldem Geist, der unser Beistand ist,^ldurch alle Zeit und Ewigkeit. Amen."
+      },
+    1.0: {
         "text_lat": "Beáta nobis gáudia^lanni redúxit órbita,^lcum Spíritus Paráclitus^leffúlsit in discípulos.^pIgnis vibránte lúmine^llinguæ figúram détulit,^lverbis ut essent próflui^let caritáte férvidi.^pLinguis loquúntur ómnium;^lturbæ pavent gentílium,^lmusto madére députant,^lquos Spíritus repléverat.^pPatráta sunt hæc mýstice^lPaschæ perácto témpore,^lsacro diérum número,^lquo lege fit remíssio.^pTe nunc, Deus piíssime,^lvultu precámur cérnuo:^lillápsa nobis cǽlitus^llargíre don>a, o Spíritus.^pDudum sacráta péctora^ltua replésti grátia;^ldimítte nunc peccámina^let da quiéta témpora.^pPer te sciámus da Patrem^lnoscámus atque Fílium,^lte utriúsque Spíritum^lcredámus omni témpore. Amen."
       }
   },
@@ -4226,13 +4227,11 @@ export const psalmsData = {
   },
   3444: {
     0.0: {
-        "text": "Komm, Heil’ger Geist, der Leben schafft,^lerfülle uns mit deiner Kraft.^lDein Schöpferwort rief uns zum Sein:^lnun hauch uns Gottes Odem ein.^pKomm, Tröster, der die Herzen lenkt,^ldu Beistand, den der Vater schenkt;^laus dir strömt Leben, Licht und Glut,^ldu gibst uns Schwachen Kraft und Mut.^pDich sendet Gottes Allmacht aus^lim Feuer und in Sturmes Braus;^ldu öffnest uns den stummen Mund^lund machst der Welt die Wahrheit kund.^pEntflamme Sinne und Gemüt,^ldass Liebe unser Herz durchglüht^lund unser schwaches Fleisch und Blut^lin deiner Kraft das Gute tut.^pDie Macht des Bösen banne weit,^lschenk deinen Frieden allezeit.^lErhalte uns auf rechter Bahn,^ldass Unheil uns nicht schaden kann.^pLass gläubig uns den Vater sehn,^lsein Ebenbild, den Sohn, verstehn^lund dir vertraun, der uns durchdringt^lund uns das Leben Gottes bringt.^pDen Vater auf dem ew’gen Thron^lund seinen auferstandnen Sohn,^ldich, Odem Gottes, Heil’ger Geist,^lauf ewig Erd’ und Himmel preist. Amen.",
-        "text_neu": "beide",
-        "text_lat": "Veni, creátor Spíritus,^lmentes tuórum vísita,^limple supérna grátia,^lquæ tu creásti, péctora.^pQui díceris Paráclitus,^ldonum Dei altíssimi,^lfons vivus, ignis, cáritas^let spiritális únctio.^pTu septifórmis múnere,^ldextræ Dei tu dígitus,^ltu rite promíssum Patris^lsermóne ditans gúttura.^pAccénde lumen sénsibus,^linfúnd>e amórem córdibus,^linfírma nostri córporis,^lvirtúte firmans pérpeti.^pHostem repéllas lóngius^lpacémque dones prótinus;^lductóre sic te prǽvio^lvitémus omne nóxium.^pPer te sciámus da Patrem^lnoscámus atque Fílium,^lte utriúsque Spíritum^lcredámus omni témpore. Amen."
-      },
-    1.0: {
         "stb3": "170 f.",
         "text": "Komm, Heil’ger Geist, der Leben schafft,^lerfülle uns mit deiner Kraft.^lDein Schöpferwort rief uns zum Sein:^lnun hauch uns Gottes Odem ein.^pKomm, Tröster, der die Herzen lenkt,^ldu Beistand, den der Vater schenkt;^laus dir strömt Leben, Licht und Glut,^ldu gibst uns Schwachen Kraft und Mut.^pDich sendet Gottes Allmacht aus^lim Feuer und in Sturmes Braus;^ldu öffnest uns den stummen Mund^lund machst der Welt die Wahrheit kund.^pEntflamme Sinne und Gemüt,^ldass Liebe unser Herz durchglüht^lund unser schwaches Fleisch und Blut^lin deiner Kraft das Gute tut.^pDie Macht des Bösen banne weit,^lschenk deinen Frieden allezeit.^lErhalte uns auf rechter Bahn,^ldass Unheil uns nicht schaden kann.^pLass gläubig uns den Vater sehn,^lsein Ebenbild, den Sohn, verstehn^lund dir vertraun, der uns durchdringt^lund uns das Leben Gottes bringt.^pDen Vater auf dem ew’gen Thron^lund seinen auferstandnen Sohn,^ldich, Odem Gottes, Heil’ger Geist,^lauf ewig Erd’ und Himmel preist. Amen."
+      },
+    1.0: {
+        "text_lat": "Veni, creátor Spíritus,^lmentes tuórum vísita,^limple supérna grátia,^lquæ tu creásti, péctora.^pQui díceris Paráclitus,^ldonum Dei altíssimi,^lfons vivus, ignis, cáritas^let spiritális únctio.^pTu septifórmis múnere,^ldextræ Dei tu dígitus,^ltu rite promíssum Patris^lsermóne ditans gúttura.^pAccénde lumen sénsibus,^linfúnd>e amórem córdibus,^linfírma nostri córporis,^lvirtúte firmans pérpeti.^pHostem repéllas lóngius^lpacémque dones prótinus;^lductóre sic te prǽvio^lvitémus omne nóxium.^pPer te sciámus da Patrem^lnoscámus atque Fílium,^lte utriúsque Spíritum^lcredámus omni témpore. Amen."
       }
   },
   3448: {
@@ -4246,23 +4245,27 @@ export const psalmsData = {
       }
   },
   3901: {
-    0.0: {
+    1.0: {
         "text_lat": "Te Patrem summum genitúmque Verbum^lFlamen ac Sanctum Dóminum faténtur^lúnicum, quotquot paradís>i amœ́nus^lhortus adúnat.^pQuam modis miris, Trias alma, vivas^lpércipit nemo, tamen usqu>e in ævum^lcǽlites vultu sátias, alácri^lvoce canéntes.^pTe canunt mundi statuísse molem,^lLúmin>e ætérno réger>e univérsa,^lígnibus celsi refovér>e Amóris^lcorda tuórum.^pMente permísti súperum catérvis,^liam choris illis sociámus hymnos,^lqui tu>a optámus fore sempitérna^lpace beáti. Amen."
       }
   },
   3902: {
     0.0: {
         "stb3": "81 f.",
-        "text": "Erhabene Dreifaltigkeit,^lim einen Licht der Gottheit eins,^lunendliches Geheimnis du^lund tiefster Ursprung allen Seins.^pDich rühmt des Himmels hehre Schar,^lihr Lied ruft deinen Lobpreis aus,^ldir jubelt deine Schöpfung zu,^lder du dein Bildnis aufgeprägt.^pWir neigen staunend uns vor dir^lund beten deine Größe an.^lVereine mit der Engel Lied^lden Lobgesang, den wir dir weihn.^pWas alle Einsicht übersteigt,^lbekennt der Glaube ehrfurchtsvoll:^lDrei sind in tiefer Liebe eins –^lin EINER Gottheit leben drei.^pGott Vater, dir sei Ruhm und Preis^lund deinem eingebornen Sohn,^ldem Geiste, der uns Beistand ist,^ljetzt, immer und in Ewigkeit. Amen.",
-        "text_neu": "beide",
+        "text": "Erhabene Dreifaltigkeit,^lim einen Licht der Gottheit eins,^lunendliches Geheimnis du^lund tiefster Ursprung allen Seins.^pDich rühmt des Himmels hehre Schar,^lihr Lied ruft deinen Lobpreis aus,^ldir jubelt deine Schöpfung zu,^lder du dein Bildnis aufgeprägt.^pWir neigen staunend uns vor dir^lund beten deine Größe an.^lVereine mit der Engel Lied^lden Lobgesang, den wir dir weihn.^pWas alle Einsicht übersteigt,^lbekennt der Glaube ehrfurchtsvoll:^lDrei sind in tiefer Liebe eins –^lin EINER Gottheit leben drei.^pGott Vater, dir sei Ruhm und Preis^lund deinem eingebornen Sohn,^ldem Geiste, der uns Beistand ist,^ljetzt, immer und in Ewigkeit. Amen."
+      },
+    1.0: {
+        "stb3": "81 f.",
         "text_lat": "Trínitas, summo^/sólio corúscans,^lglóriæ carmen^/tibi sit perénne,^lquæ tenes nostri^/vehemént>i amóre^lpéctoris ima.^pCónditor rerum,^/Pater, alma virtus,^lquos tuæ vitæ^/facis atque formæ^lesse consórtes,^/fídei fac usque^ldona meréri.^pCandor ætérnæ^/speculúmque lucis^lNate, quos dicis^/sociásque fratres,^lpálmites viti^/tibi nos inésse^lda viridántes.^pCáritas, ignis,^/píetas, poténti^llúmin>e ac blando^/móderans creáta,^lSpíritus, mentem^/rénova, fovéto^líntima cordis.^pHospes o dulcis,^/Trias obsecránda,^lnos tibi iugi^/fac amóre nexos,^lpérpetes donec^/modulémur hymnos^lteque fruámur."
       }
   },
   3904: {
     0.0: {
         "stb3": "73",
-        "text": "Dreifaltiger verborgner Gott,^l^wein^0w Licht aus dreier Sonnen Glanz,^ldrei Flammen EINEM Liebesglut,^lGott Vater, Sohn und Heil’ger Geist.^pAllherrscher du von Ewigkeit,^lGott Vater, der die Welt erschuf,^ldu lenkst die Werke deiner Hand^lund führst uns durch der Zeiten Lauf.^pGott Sohn, des Vaters Ebenbild,^ldu König der erlösten Welt,^lin dir wird Gott uns Menschen gleich,^lin dir der Mensch zu Gott erhöht.^pDu Atem Gottes, Heil’ger Geist,^ldurchdringst die Welt mit Lebenskraft,^ldu senkst in uns die Liebe ein,^ldie alle eint und göttlich macht.^pDu großer Gott, der in uns wohnt,^lhochheilige Dreifaltigkeit,^ldich loben und bekennen wir^ljetzt und in alle Ewigkeit. Amen.",
-        "text_neu": "beide",
+        "text": "Dreifaltiger verborgner Gott,^l^wein^0w Licht aus dreier Sonnen Glanz,^ldrei Flammen EINEM Liebesglut,^lGott Vater, Sohn und Heil’ger Geist.^pAllherrscher du von Ewigkeit,^lGott Vater, der die Welt erschuf,^ldu lenkst die Werke deiner Hand^lund führst uns durch der Zeiten Lauf.^pGott Sohn, des Vaters Ebenbild,^ldu König der erlösten Welt,^lin dir wird Gott uns Menschen gleich,^lin dir der Mensch zu Gott erhöht.^pDu Atem Gottes, Heil’ger Geist,^ldurchdringst die Welt mit Lebenskraft,^ldu senkst in uns die Liebe ein,^ldie alle eint und göttlich macht.^pDu großer Gott, der in uns wohnt,^lhochheilige Dreifaltigkeit,^ldich loben und bekennen wir^ljetzt und in alle Ewigkeit. Amen."
+      },
+    1.0: {
+        "stb3": "73",
         "text_lat": "Imméns>a et una, Trínitas,^lcuius potéstas ómnia^lfacit regítque témpora^let exstat ante sǽcula,^pTu sola pleno súfficis^ltibi beáta gáudio;^ltu pura, simplex, próvida^lcælos et orbem cóntines.^pOmnis, Pater, fons grátiæ,^lLumen patérnæ glóriæ,^lSanct>e utriúsque Spíritus^lintermináta cáritas,^pEx te suprém>a orígine,^lTrias benígna, prófluit^lcreáta quicquid sústinet,^lquicquid decóre pérficit.^pQuos et coróna múneras^ladoptiónis íntimæ,^lnos templa fac niténtia^ltibi placére iúgiter.^pO viva lux, nos ángelis^lda iung>i in aula cǽlica,^lut grat>i amóris láudibus^lte concinámus pérpetim."
       }
   },
@@ -4283,8 +4286,10 @@ export const psalmsData = {
   3942: {
     0.0: {
         "stb3": "97 f.",
-        "text": "Das Wort des Vaters, Gottes Sohn,^ltritt ein in unsre Erdenzeit;^lda seine Leidensstunde naht,^lkrönt er sein Werk im Opfertod.^pBevor an seiner Feinde Schar^lder eigne Jünger ihn verriet,^lreicht er beim letzten Abendmahl^lden Seinen sich als Speise dar.^pGeheimnisvoll in Brot und Wein^lgibt er sich hin mit Fleisch und Blut^lund stärkt durch seiner Gottheit Kraft^lden ganzen Menschen, Leib und Geist.^pAls Mensch will er uns Bruder sein,^lim Mahle wird er unser Brot,^lim Tode unser Opferlamm,^lim Himmel unser Siegespreis.^pLamm Gottes, das der ganzen Welt^ldas Tor zum Leben aufgetan:^lda uns des Bösen Macht bedrängt,^lgib Mut zum Leiden, Kraft zum Sieg.^pDreieinig hoher Herr und Gott,^lnimm unser Lob, nimm unsren Dank:^llass schauen uns in deinem Reich^ldes ew’gen Sohnes Herrlichkeit. Amen.",
-        "text_neu": "beide",
+        "text": "Das Wort des Vaters, Gottes Sohn,^ltritt ein in unsre Erdenzeit;^lda seine Leidensstunde naht,^lkrönt er sein Werk im Opfertod.^pBevor an seiner Feinde Schar^lder eigne Jünger ihn verriet,^lreicht er beim letzten Abendmahl^lden Seinen sich als Speise dar.^pGeheimnisvoll in Brot und Wein^lgibt er sich hin mit Fleisch und Blut^lund stärkt durch seiner Gottheit Kraft^lden ganzen Menschen, Leib und Geist.^pAls Mensch will er uns Bruder sein,^lim Mahle wird er unser Brot,^lim Tode unser Opferlamm,^lim Himmel unser Siegespreis.^pLamm Gottes, das der ganzen Welt^ldas Tor zum Leben aufgetan:^lda uns des Bösen Macht bedrängt,^lgib Mut zum Leiden, Kraft zum Sieg.^pDreieinig hoher Herr und Gott,^lnimm unser Lob, nimm unsren Dank:^llass schauen uns in deinem Reich^ldes ew’gen Sohnes Herrlichkeit. Amen."
+      },
+    1.0: {
+        "stb3": "97 f.",
         "text_lat": "Verbum supérnum pródiens^lnec Patris linquens déxteram,^lad opus suum éxiens^lvenit ad vitæ vésperam.^pIn mortem a discípulo^lsuis tradéndus ǽmulis,^lprius in vitæ férculo^lse trádidit discípulis.^pQuibus sub bina spécie^lcarnem dedit et sánguinem,^lut dúplicis substántiæ^ltotum cibáret hóminem.^pSe nascens dedit sócium,^lconvéscens in edúlium,^lse móriens in prétium,^lse regnans dat in prǽmium.^pO salutáris hóstia,^lquæ cæli pandis óstium,^lbella premunt hostília:^lda robur, fer auxílium.^pUni trinóque Dómino^lsit sempitérna glória,^lqui vitam sine término^lnobis donet in pátria."
       }
   },
@@ -4298,23 +4303,27 @@ export const psalmsData = {
       }
   },
   3951: {
-    0.0: {
+    1.0: {
         "text_lat": "Cor, arca legem cóntinens^lnon servitútis véteris,^lsed grátiæ, sed véniæ,^lsed et misericórdiæ;^pCor, sanctuárium novi^lintemerátum fœ́deris,^ltemplum vetústo sánctius^lvelúmque sciss>o utílius:^pTe vulnerátum cáritas^lictu paténti vóluit,^lamóris invisíbilis^lut venerémur vúlnera.^pHoc sub amóris sýmbolo^lpassus cruént>a et mýstica,^lutrúmque sacrifícium^lChristus sacérdos óbtulit.^pQuis non amántem rédamet?^lquis non redémptus díligat^let caritáte iúgiter^lhærére Christo géstiat?^pIesu, tibi sit glória,^lqui corde fundis grátiam,^lcum Patr>e et almo Spíritu,^lin sempitérna sǽcula."
       }
   },
   3952: {
     0.0: {
         "stb3": "64 f.",
-        "text": "Der höchsten Gottheit ew’ges Bild,^ldu Licht vom Licht, des Vaters Wort,^ldu unser Retter, dir sei Ruhm^lund Macht und Ehre immerdar.^pVon Ewigkeit bist du allein^lder Zeiten Mitte und ihr Ziel,^ldir gab der Vater die Gewalt,^ldie Herrschaft über alle Welt.^pDoch nicht auf Zwang baut deine Macht^lund nicht auf Furcht dein Königtum:^lIn Liebe ziehst du uns an dich –^lam Kreuz gemartert und erhöht.^pKomm, Herr, erweise deine Macht^lund richte deine Herrschaft auf.^lKomm und vollende jetzt dein Reich^lund führe uns zum Königsmahl.^pDir, Jesus, der durch Leid und Tod^lder Herrschaft Krone sich errang,^lsei mit dem Vater und dem Geist^lLob, Preis und Ruhm in Ewigkeit. Amen.",
-        "text_neu": "beide",
+        "text": "Der höchsten Gottheit ew’ges Bild,^ldu Licht vom Licht, des Vaters Wort,^ldu unser Retter, dir sei Ruhm^lund Macht und Ehre immerdar.^pVon Ewigkeit bist du allein^lder Zeiten Mitte und ihr Ziel,^ldir gab der Vater die Gewalt,^ldie Herrschaft über alle Welt.^pDoch nicht auf Zwang baut deine Macht^lund nicht auf Furcht dein Königtum:^lIn Liebe ziehst du uns an dich –^lam Kreuz gemartert und erhöht.^pKomm, Herr, erweise deine Macht^lund richte deine Herrschaft auf.^lKomm und vollende jetzt dein Reich^lund führe uns zum Königsmahl.^pDir, Jesus, der durch Leid und Tod^lder Herrschaft Krone sich errang,^lsei mit dem Vater und dem Geist^lLob, Preis und Ruhm in Ewigkeit. Amen."
+      },
+    1.0: {
+        "stb3": "64 f.",
         "text_lat": "Iesu, auctor cleméntiæ,^ltotíus spes lætítiæ,^ldulcóris fons et grátiæ,^lveræ cordis delíciæ:^pIesu, spes pæniténtibus,^lquam pius es peténtibus,^lquam bonus te quæréntibus;^lsed quid inveniéntibus?^pTua, Iesu, diléctio,^lgrata mentis reféctio,^lreplet sine fastídio,^ldans famem desidério.^pO Iesu dilectíssime,^lspes suspirántis ánimæ,^lte quærunt piæ lácrimæ,^lte clamor mentis íntimæ.^pMane nobíscum, Dómine,^lMane novum cum lúmine,^lpulsa noctis calígine^lmundum replens dulcédine.^pIesu, summa benígnitas,^lmira cordis iucúnditas,^lincomprehénsa bónitas,^ltua nos stringit cáritas.^pIesu, flos Matris vírginis,^lamor nostræ dulcédinis,^llaus tibi sine términis,^lregnum beatitúdinis."
       }
   },
   3954: {
     0.0: {
         "stb3": "105",
-        "text": "O sel’ger Urgrund allen Seins,^lHeiland der Welt, Herr Jesus Christ,^ldu Licht von deines Vaters Licht^lund wahrer Gott vom wahren Gott.^pWie hat die Liebe dich gedrängt,^ldass du für uns den Tod erwählt.^lDu gibst das Leben uns zurück,^ldas Adams Sünde uns geraubt.^pDer Stoß der Lanze trifft dein Herz,^lund Blut und Wasser bricht hervor,^lein Quell des Heils, der nie versiegt^lund aller Schöpfung Freude bringt.^pDir, Herr, sei Preis und Herrlichkeit,^lder uns sein Herz geöffnet hat,^lmit dir dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen.",
-        "text_neu": "beide",
+        "text": "O sel’ger Urgrund allen Seins,^lHeiland der Welt, Herr Jesus Christ,^ldu Licht von deines Vaters Licht^lund wahrer Gott vom wahren Gott.^pWie hat die Liebe dich gedrängt,^ldass du für uns den Tod erwählt.^lDu gibst das Leben uns zurück,^ldas Adams Sünde uns geraubt.^pDer Stoß der Lanze trifft dein Herz,^lund Blut und Wasser bricht hervor,^lein Quell des Heils, der nie versiegt^lund aller Schöpfung Freude bringt.^pDir, Herr, sei Preis und Herrlichkeit,^lder uns sein Herz geöffnet hat,^lmit dir dem Vater und dem Geist^ldurch alle Zeit und Ewigkeit. Amen."
+      },
+    1.0: {
+        "stb3": "105",
         "text_lat": "Autor beáte sǽculi,^lChriste, Redémptor ómnium,^llumen Patris de lúmine^lDeúsque verus de Deo:^pAmor coégit te tuus^lmortále corpus súmere,^lut, novus Adam, rédderes^lquod vetus ill>e abstúlerat:^pIll>e amor, almus ártifex^lterræ marísqu>e, et síderum,^lerráta patrum míserans^let nostra rumpens víncula.^pNon corde discédat tuo^lvis ill>a amóris íncliti:^lhoc fonte gentes háuriant^lremissiónis grátiam.^pAd hoc acérbam lánceam^lpassúmqu>e ad hoc est vúlnera,^lut nos laváret sórdibus^lunda fluént>e et sánguine.^pIesu, tibi sit glória,^lqui corde fundis grátiam,^lcum Patr>e et almo Spíritu^lin sempitérna sǽcula."
       }
   },
@@ -5186,6 +5195,9 @@ export const psalmsData = {
       }
   },
   8624: {
+    0.0: {
+        "text": "Christus, dem Herren,^/dientest du als Herold.^lEwiger Ratschluss^/fand in dir den Boten.^lGlücklich wir preisen^/alle deinen Namen:^lGruß dir, Johannes!^pNoch trägt die Mutter^/dich in ihrem Schoße,^ldu aber fühlst schon,^/dass sich naht der König;^lFreude bewegt dich,^/drängt dich, ihn zu grüßen,^leh’ er geboren.^pWüste und Wildnis^/wählst du dir zur Wohnstatt,^lkündest die Ankunft^/des ersehnten Retters,^lpredigst die Umkehr,^/rufst das Volk zur Buße,^ldass es bereit sei.^pDen einst die Seher^/als das Licht verheißen,^ldas sie nur ahnend^/aus der Ferne schauten,^lihn, der hinwegnimmt^/alle Schuld der Erde,^lrufst du beim Namen.^pStimme des Rufers,^/der den Weg ihm ebnet,^ldich hat vor allen^/sich der Herr erkoren:^lJesus, der Heiland,^/lässt von dir sich taufen,^ler, das Lamm Gottes.^pLobpreis und Ehre^/Gott, dem ew’gen Vater,^lEhre dem Sohne,^/den du uns verkündet,^lEhre dem Geiste,^/der ihn dir bezeugte,^limmer und ewig. Amen."
+      },
     1.0: {
         "text_lat": "Antra desérti téneris sub annis,^lcívium turmas fúgiens, petísti,^lne levi saltem maculáre vitam^lfámine posses.^pPrǽbuit hirtum tégimen camélus^lártubus sacris, stróphium bidéntes,^lcui latex haustum, sociáta pastum^lmella locústis.^pCéteri tantum cecinére vatum^lcorde præságo iubar affutúrum;^ltu quidem mundi scelus auferéntem^líndice prodis.^pNon fuit vasti spátium per orbis^lsánctior quisquam génitus Ioánne,^lqui nefas sæcli méruit lavántem^ltíngere lymphis.^pLáudibus cives célebrant supérni^lte, Deus simplex paritérque trine;^lsúpplices ac nos véniam precámur:^lparce redémptis."
       },
@@ -5193,8 +5205,6 @@ export const psalmsData = {
         "text_lat": "O nimis felix meritíque celsi,^lnésciens labem nívei pudóris,^lprǽpotens martyr eremíque cultor,^lmáxime vatum.^pNunc potens nostri méritis opímis^lpéctoris duros lápides repélle,^lásperum planans iter, et refléxos^ldírige calles,^pUt pius mundi sator et redémptor,^lméntibus pulsa mácula polítis,^lrite dignétur véniens sacrátos^lpónere gressus.^pLáudibus cives célebrant supérni^lte, Deus simplex paritérque trine;^lsúpplices ac nos véniam precámur:^lparce redémptis."
       },
     4.0: {
-        "text": "Christus, dem Herren,^/dientest du als Herold.^lEwiger Ratschluss^/fand in dir den Boten.^lGlücklich wir preisen^/alle deinen Namen:^lGruß dir, Johannes!^pNoch trägt die Mutter^/dich in ihrem Schoße,^ldu aber fühlst schon,^/dass sich naht der König;^lFreude bewegt dich,^/drängt dich, ihn zu grüßen,^leh’ er geboren.^pWüste und Wildnis^/wählst du dir zur Wohnstatt,^lkündest die Ankunft^/des ersehnten Retters,^lpredigst die Umkehr,^/rufst das Volk zur Buße,^ldass es bereit sei.^pDen einst die Seher^/als das Licht verheißen,^ldas sie nur ahnend^/aus der Ferne schauten,^lihn, der hinwegnimmt^/alle Schuld der Erde,^lrufst du beim Namen.^pStimme des Rufers,^/der den Weg ihm ebnet,^ldich hat vor allen^/sich der Herr erkoren:^lJesus, der Heiland,^/lässt von dir sich taufen,^ler, das Lamm Gottes.^pLobpreis und Ehre^/Gott, dem ew’gen Vater,^lEhre dem Sohne,^/den du uns verkündet,^lEhre dem Geiste,^/der ihn dir bezeugte,^limmer und ewig. Amen.",
-        "text_neu": "beide",
         "text_lat": "Ut queant laxis resonáre fibris^lmira gestórum fámuli tuórum,^lsolve pollúti lábii reátum,^lsancte Ioánnes.^pNúntius cælo véniens suprémo,^lte patri magnum fore nascitúrum,^lnomen et vitæ sériem geréndæ^lórdine promit.^pIlle promíssi dúbius supérni^lpérdidit promptæ módulos loquélæ;^lsed reformásti génitus perémptæ^lórgana vocis.^pVentris obstrúso pósitus cubíli^lsénseras regem thálamo manéntem;^lhinc parens nati méritis utérque^lábdita pandit.^pLáudibus cives célebrant supérni^lte, Deus simplex paritérque trine;^lsúpplices ac nos véniam precámur:^lparce redémptis."
       },
     5.0: {
@@ -5290,18 +5300,21 @@ export const psalmsData = {
   },
   8806: {
     1.0: {
-        "text": "Während du betest, Herr,^lstrahlt dein Gewand^lwie von Sonne und Schnee.^lLass uns drei Hütten, Herr,^lbauen am Rand^lunsrer Tage voll Weh.^pWenn wir ermatten, Herr,^lhol uns herein^lin den Schatten voll Licht.^lLass uns dich schauen, Herr,^lJesus, allein,^lvon Gesicht zu Gesicht.^pSo wirst du kommen, Herr,^lschon bricht aus dir^ldein urewiger Glanz.^lKommst du am Ende, Herr,^lglühen auch wir^lmit den Sonnen im Tanz.",
-        "text_neu": "beide",
-        "text_lat": "Cæléstis formam glóriæ,^lquam spes quærit Ecclésiæ,^lin monte Christus índicat,^lqui supra solem émicat.^pRes memoránda sǽculis:^ltribus coram discípulis,^lcum Elía, cum Móyse^lgrata promit elóquia.^pAssístunt testes grátiæ,^llegis vatúmque véterum;^lde nube testimónium^lsonat Patris ad Fílium.^pGlorificáta fácie^lChristus declárat hódie^lquis honor sit credéntium^lDeo pie fruéntium.^pVisiónis mystérium^lcorda levat fidélium,^lunde sollémni gáudio^lclamat nostra devótio:^pPater, cum Unigénito^let Spíritu Paráclito^lunus, nobis hanc glóriam^llargíre per præséntiam."
+        "text": "Während du betest, Herr,^lstrahlt dein Gewand^lwie von Sonne und Schnee.^lLass uns drei Hütten, Herr,^lbauen am Rand^lunsrer Tage voll Weh.^pWenn wir ermatten, Herr,^lhol uns herein^lin den Schatten voll Licht.^lLass uns dich schauen, Herr,^lJesus, allein,^lvon Gesicht zu Gesicht.^pSo wirst du kommen, Herr,^lschon bricht aus dir^ldein urewiger Glanz.^lKommst du am Ende, Herr,^lglühen auch wir^lmit den Sonnen im Tanz."
       },
     2.0: {
-        "text": "Des ew’gen Glanzes Lichtgestalt,^ldie unsre Hoffnung sehnend sucht,^lmacht heute der verklärte Herr^lden Seinen strahlend offenbar.^pEr führt die Jünger auf den Berg^lund zeigt sich in der Herrlichkeit:^lSein Leib die Sonne überstrahlt,^lund sein Gewand ist weiß wie Schnee.^pUnd aus der lichten Wolke dringt^ldes Vaters Stimme, die bezeugt:^l„Seht, dies ist mein geliebter Sohn,^lauf dem mein Wohlgefallen ruht.“^pHerr, führ uns aus der dunklen Welt^lzum Lichte, das du selber bist,^lund wandle unsern armen Leib^lzum Bilde deiner Herrlichkeit.^pGott Vater, dir sei Preis und Ruhm,^ldem Sohne, deinem Ebenbild,^ldem Geiste, der euch beide eint,^ljetzt, immer und in Ewigkeit. Amen.",
-        "text_neu": "beide",
-        "text_lat": "Dulcis Iesu memória,^ldans vera cordi gáudia,^lsed super mel et ómnia^leius dulcis præséntia.^pNil cánitur suávius,^laudítur nil iucúndius,^lnil cogitátur dúlcius^lquam Iesus Dei Fílius.^pIesu, dulcédo córdium,^lfons veri, lumen méntium,^lexcédis omne gáudium^let omne desidérium.^pQuando cor nostrum vísitas,^ltunc lucet ei véritas,^lmundi viléscit vánitas^let intus fervet cáritas.^pDa nobis largus véniam,^lamóris tui cópiam;^lda nobis per præséntiam^ltuam vidére glóriam.^pLaudes tibi nos pángimus,^ldiléctus es qui Fílius,^lquem Patris atque Spíritus^lsplendor revélat ínclitus."
+        "text": "Des ew’gen Glanzes Lichtgestalt,^ldie unsre Hoffnung sehnend sucht,^lmacht heute der verklärte Herr^lden Seinen strahlend offenbar.^pEr führt die Jünger auf den Berg^lund zeigt sich in der Herrlichkeit:^lSein Leib die Sonne überstrahlt,^lund sein Gewand ist weiß wie Schnee.^pUnd aus der lichten Wolke dringt^ldes Vaters Stimme, die bezeugt:^l„Seht, dies ist mein geliebter Sohn,^lauf dem mein Wohlgefallen ruht.“^pHerr, führ uns aus der dunklen Welt^lzum Lichte, das du selber bist,^lund wandle unsern armen Leib^lzum Bilde deiner Herrlichkeit.^pGott Vater, dir sei Preis und Ruhm,^ldem Sohne, deinem Ebenbild,^ldem Geiste, der euch beide eint,^ljetzt, immer und in Ewigkeit. Amen."
       },
     4.0: {
-        "text": "Sieger im Tode,^/strahlend°Verklärter,^ldich hat der Vater^/heute°verherrlicht.^lDort auf dem Berge^/sprach°aus°der°Wolke^lmachtvoll die Stimme:^/„Ihn°sollt°ihr°hören.“^pChristus, dich schauten^/staunend°die°Jünger.^lFurcht und Entsetzen^/warf°sie°zu°Boden.^lJubelnd bekennt dich^/heute°die°Kirche:^lHerrlicher Sieger,^/du°bist°das°Leben.^pDu schenkst den Deinen^/Kraft°auf°dem°Wege,^lführst sie durch Drangsal^/bis°zur°Vollendung.^lSchenk uns des Geistes^/machtvolles°Wirken,^llass uns beim Vater^/ewig°dich°schauen.",
-        "text_neu": "beide",
+        "text": "Sieger im Tode,^/strahlend°Verklärter,^ldich hat der Vater^/heute°verherrlicht.^lDort auf dem Berge^/sprach°aus°der°Wolke^lmachtvoll die Stimme:^/„Ihn°sollt°ihr°hören.“^pChristus, dich schauten^/staunend°die°Jünger.^lFurcht und Entsetzen^/warf°sie°zu°Boden.^lJubelnd bekennt dich^/heute°die°Kirche:^lHerrlicher Sieger,^/du°bist°das°Leben.^pDu schenkst den Deinen^/Kraft°auf°dem°Wege,^lführst sie durch Drangsal^/bis°zur°Vollendung.^lSchenk uns des Geistes^/machtvolles°Wirken,^llass uns beim Vater^/ewig°dich°schauen."
+      },
+    101.0: {
+        "text_lat": "Cæléstis formam glóriæ,^lquam spes quærit Ecclésiæ,^lin monte Christus índicat,^lqui supra solem émicat.^pRes memoránda sǽculis:^ltribus coram discípulis,^lcum Elía, cum Móyse^lgrata promit elóquia.^pAssístunt testes grátiæ,^llegis vatúmque véterum;^lde nube testimónium^lsonat Patris ad Fílium.^pGlorificáta fácie^lChristus declárat hódie^lquis honor sit credéntium^lDeo pie fruéntium.^pVisiónis mystérium^lcorda levat fidélium,^lunde sollémni gáudio^lclamat nostra devótio:^pPater, cum Unigénito^let Spíritu Paráclito^lunus, nobis hanc glóriam^llargíre per præséntiam."
+      },
+    102.0: {
+        "text_lat": "Dulcis Iesu memória,^ldans vera cordi gáudia,^lsed super mel et ómnia^leius dulcis præséntia.^pNil cánitur suávius,^laudítur nil iucúndius,^lnil cogitátur dúlcius^lquam Iesus Dei Fílius.^pIesu, dulcédo córdium,^lfons veri, lumen méntium,^lexcédis omne gáudium^let omne desidérium.^pQuando cor nostrum vísitas,^ltunc lucet ei véritas,^lmundi viléscit vánitas^let intus fervet cáritas.^pDa nobis largus véniam,^lamóris tui cópiam;^lda nobis per præséntiam^ltuam vidére glóriam.^pLaudes tibi nos pángimus,^ldiléctus es qui Fílius,^lquem Patris atque Spíritus^lsplendor revélat ínclitus."
+      },
+    104.0: {
         "text_lat": "O nata lux de lúmine,^lIesu, redémptor sǽculi,^ldignáre clemens súpplicum^llaudes precésque súmere.^pPræ sole vultu flámmeus,^lut nix amíctu cándidus,^lin monte dignis téstibus^lapparuísti cónditor.^pVates alúmnis ábditos^lnovis vetústos cónferens,^lutrísque te divínitus^lDeum dedísti crédere.^pTe vox patérna cǽlitus^lsuum vocávit Fílium,^lquem nos fidéli péctore^lregem fatémur cǽlitum.^pQui carne quondam cóntegi^ldignátus es pro pérditis,^lnos membra confer éffici^ltui beáti córporis.^pLaudes tibi nos pángimus,^ldiléctus es qui Fílius,^lquem Patris atque Spíritus^lsplendor revélat ínclitus."
       }
   },
@@ -5402,14 +5415,15 @@ export const psalmsData = {
         "text": "Christi Mutter stand mit Schmerzen^lbei dem Kreuz und weint’ von Herzen,^lals ihr lieber Sohn da hing.^pDurch die Seele voller Trauer,^lschneidend unter Todesschauer,^ljetzt das Schwert des Leidens ging.^pWelch ein Schmerz der Auserkornen,^lda sie sah den Eingebornen,^lwie er mit dem Tode rang.^pAngst uns Jammer, Qual und Bangen,^lalles Leid hielt sie umfangen,^ldas nur je ein Herz durchdrang.^pDrücke deines Sohnes Wunden,^lwie du selber sie empfunden,^lheil’ge Mutter, in mein Herz.^pDass ich weiß, was ich verschuldet,^lwas dein Sohn für mich erduldet,^lgib mir teil an deinem Schmerz.^pChristus, lass bei meinem Sterben^lmich mit deiner Mutter erben^lSieg und Preis nach letztem Streit.^pWenn der Leib dann sinkt zur Erde,^lgib mir, dass ich teilhaft werde^ldeiner sel’gen Herrlichkeit."
       },
     1.0: {
-        "text": "Gib, o Mutter, Born der Liebe,^ldass ich mich mit dir betrübe,^ldass ich fühl’ die Schmerzen dein.^pDass mein Herz von Lieb’ entbrenne,^ldass ich nur noch Jesus kenne,^ldass ich liebe Gott allein.^pDrücke deines Sohnes Wunden,^lwie du selber sie empfunden,^lheil’ge Mutter, in mein Herz.^pDass ich weiß, was ich verschuldet,^lwas dein Sohn für mich erduldet,^lgib mir teil an deinem Schmerz.^pLass mit dir mich herzlich weinen,^lmich mit Jesu Leid vereinen,^lsolang hier mein Leben währt.^pUnterm Kreuz mit dir zu stehen,^ldort zu teilen deine Wehen,^list es, was mein Herz begehrt.",
-        "text_neu": "beide",
+        "text": "Gib, o Mutter, Born der Liebe,^ldass ich mich mit dir betrübe,^ldass ich fühl’ die Schmerzen dein.^pDass mein Herz von Lieb’ entbrenne,^ldass ich nur noch Jesus kenne,^ldass ich liebe Gott allein.^pDrücke deines Sohnes Wunden,^lwie du selber sie empfunden,^lheil’ge Mutter, in mein Herz.^pDass ich weiß, was ich verschuldet,^lwas dein Sohn für mich erduldet,^lgib mir teil an deinem Schmerz.^pLass mit dir mich herzlich weinen,^lmich mit Jesu Leid vereinen,^lsolang hier mein Leben währt.^pUnterm Kreuz mit dir zu stehen,^ldort zu teilen deine Wehen,^list es, was mein Herz begehrt."
+      },
+    101.0: {
         "text_lat": "Stabat mater dolorósa^liuxta crucem lacrimósa,^ldum pendébat Fílius.^pCuius ánimam geméntem,^lcontristátam et doléntem^lpertransívit gládius.^pO quam tristis et afflícta^lfuit illa benedícta^lmater Unigéniti!^pQuæ mærébat et dolébat^lpia mater, cum vidébat^lNati pœnas íncliti.^pQuis est homo qui non fleret,^lmatrem Christi si vidéret^lin tanto supplício?^pQuis non posset contristári,^lpiam matrem contemplári^ldoléntem cum Fílio?^pPro peccátis suæ gentis^lvidit Iesum in torméntis^let flagéllis súbditum.^pVidit suum dulcem Natum^lmoriéntem desolátum,^lcum emísit spíritum.^pChriste, cum sit hinc exíre,^lda per matrem me veníre^lad palmam victóriæ. Amen."
       },
-    2.0: {
+    102.0: {
         "text_lat": "Eia, mater, fons amóris,^lme sentíre vim dolóris^lfac, ut tecum lúgeam.^pFac ut árdeat cor meum^lin amándo Christum Deum,^lut sibi compláceam.^pSancta mater, istud agas,^lCrucifíxi fige plagas^lcordi meo válide.^pTui Nati vulneráti,^ltam dignáti pro me pati^lpœnas mecum dívide.^pFac me vere tecum flere,^lCrucifíxo condolére,^ldonec ego víxero.^pIuxta crucem tecum stare^lac me tibi sociáre^lin planctu desídero.^pQuando corpus moriétur,^lfac ut ánimæ donétur^lparadísi glória. Amen."
       },
-    4.0: {
+    104.0: {
         "text_lat": "Virgo vírginum præclára,^lmihi iam non sis amára;^lfac me tecum plángere.^pFac ut portem Christi mortem,^lpassiónis fac me sortem^let plagas recólere.^pFac me plagis vulnerári,^lcruce hac inebriári ,^let cruóre Fílii.^pFlammis urar ne succénsus,^lper te, Virgo, sim defénsus^lin die iudícii.^pFac me cruce custodíri,^lmorte Christi præmuníri,^lconfovéri grátia.^pQuando corpus moriétur,^lfac ut ánimæ donétur^lparadísi glória. Amen."
       }
   },
@@ -5590,8 +5604,9 @@ export const psalmsData = {
   },
   9201: {
     0.0: {
-        "text": "Mit Jubel sollst du, deutsches Land,^ldeinen Apostel preisen.^lWas Bonifatius für dich tat,^lverkünd in frohen Weisen.^pDem Angelsachsen von Geblüt^lgab Rom die heil’ge Weihe,^ldass Gott durch ihn der Kirche Ruhm,^lden Völkern Heil verleihe.^pIhn ziert des Pontifex’ Ornat.^lVoll Kraft sind seine Reden,^lgeprägt von Zucht und Lauterkeit^lsein Denken, Tun und Beten.^pEs rühmen Deutschlands Stämme ihn,^ldie Friesen, Sachsen, Franken,^lweil diesem Herold Gottes sie^ldie Heilsbotschaft verdanken.^pWenn’s Korn nicht in der Erde stirbt,^lso muss allein es bleiben;^lnur sterbend kann – so spricht der Herr –^lvielfält’ge Frucht es treiben.^pIn Winfrieds Opfer sollt’ dies Wort^lneu seinen Sinn enthüllen.^lO mög’ auch künftig seine Saat^ldie Scheunen Gottes füllen!^pLass uns, Gott Vater, Sohn und Geist,^ldem heute Dank wir bringen,^lmit unserm heil’gen Bischof dir^lim Himmel ewig singen. Amen.",
-        "text_neu": "beide",
+        "text": "Mit Jubel sollst du, deutsches Land,^ldeinen Apostel preisen.^lWas Bonifatius für dich tat,^lverkünd in frohen Weisen.^pDem Angelsachsen von Geblüt^lgab Rom die heil’ge Weihe,^ldass Gott durch ihn der Kirche Ruhm,^lden Völkern Heil verleihe.^pIhn ziert des Pontifex’ Ornat.^lVoll Kraft sind seine Reden,^lgeprägt von Zucht und Lauterkeit^lsein Denken, Tun und Beten.^pEs rühmen Deutschlands Stämme ihn,^ldie Friesen, Sachsen, Franken,^lweil diesem Herold Gottes sie^ldie Heilsbotschaft verdanken.^pWenn’s Korn nicht in der Erde stirbt,^lso muss allein es bleiben;^lnur sterbend kann – so spricht der Herr –^lvielfält’ge Frucht es treiben.^pIn Winfrieds Opfer sollt’ dies Wort^lneu seinen Sinn enthüllen.^lO mög’ auch künftig seine Saat^ldie Scheunen Gottes füllen!^pLass uns, Gott Vater, Sohn und Geist,^ldem heute Dank wir bringen,^lmit unserm heil’gen Bischof dir^lim Himmel ewig singen. Amen."
+      },
+    1.0: {
         "text_lat": "Prǽsulis exsúltans célebrat°Germánia°laudes^let Bonifáti>i opus mártyris°almíficum.^pOrdinat hunc Roma, mittítque°Británnia°mater^ldoctórem pópulis, hoc°decus°Ecclésiæ.^pPontíficem summum, signórum°fúlmine°clarum,^lelóquio nítidum, móribus°egrégium,^pQuem Francus, Frisóque simul, Saxóque°minístrum^lætérnæ vitæ prǽdicat esse sibi.^pQuod terra móritur fruméntum, plúrima°confert^lsémina, fructúmque multiplicáre studet:^pSicque, sacerdótis Dómini lætíssima crescit^lpaucis ex granis glorificánda seges.^pGlória summa Patri, compar°sit°glória°Nato,^llaus et in ætérnum, Spíritus°alme,°tibi. Amen."
       }
   },
