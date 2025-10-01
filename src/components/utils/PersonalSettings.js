@@ -47,7 +47,7 @@ const PersonalSettings = () => {
         localStorage.getItem('popeNameLat') || ''
     );
     const [bishopNameLatInput, setBishopNameLatInput] = useState(() =>
-        localStorage.getItemtItem('bishopNameLat') || ''
+        localStorage.getItem('bishopNameLat') || ''
     );
     const [popeNameAccInput, setPopeNameAccInput] = useState('');
     const [bishopNameAccInput, setBishopNameAccInput] = useState('');
