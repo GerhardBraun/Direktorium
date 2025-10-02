@@ -8267,7 +8267,7 @@ export const calendarData: CalendarData = {
             "bitten_e": "Lasst uns beten zu Gott, dem die Engel dienen:",
             "bitten_r": "Wir bitten dich, erhöre uns.",
             "bitten": "Gott, immer wieder hast du Engel zum Dienst an den Menschen bestellt;^qsende deine Engel aus, dass sie über dein Volk wachen.^pDu hast die Engel auf den Fluren von Bethlehem den Frieden auf Erden verkünden lassen;^qschenke den Völkern deinen Frieden.^pDie Engel der Kinder schauen allezeit dein Angesicht;^qhalte alles Böse von deinen Kindern fern.^pDu gabst den Engeln den Auftrag, deine Diener auf ihren Wegen zu behüten;^qführe alle, die unterwegs sind, heil zum Ziel ihrer Reise.^pErbarme dich unserer Verstorbenen;^qdie Chöre der Engel mögen sie empfangen.",
-            "hymn_1_lat": 9003.4,
+            "hymn_1_lat": 9002.4,
             "ant1_lat": "Vallábit ángelus Dómini in circúitu timéntes eum, et erípiet eos.",
             "ant2_lat": "Vivit Dóminus, quóniam custodívit me ángelus eius.",
             "ant3_lat": "Benedícite Deum cæli, et coram ómnibus vivéntibus confitémini illi, quia fecit vobíscum misericórdiam suam.",
