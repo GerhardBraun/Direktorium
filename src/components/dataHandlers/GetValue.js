@@ -113,8 +113,10 @@ export const getValue = ({ season, hour, texts, field,
         (swdCombined === 'q-0-3' || allSouls)
 
     // Gedenktage mit Eigentexten für die Kleinen Horen
-    const memorialWithTNS = texts?.laudes?.eig?.button
-        ?.includes('Barnabas' || 'Schutzengel')
+    const buttonToCheck = texts?.laudes?.eig?.button || 'DEFAULT'
+    const memorialWithTSN =
+        buttonToCheck.includes('Barnabas') ||
+        buttonToCheck.includes('Schutzengel')
 
     // Feier wie ein Hochfest
     const isSollemnity = (hour === 'vesper' && hasErsteVesper)
@@ -201,7 +203,7 @@ export const getValue = ({ season, hour, texts, field,
     }
 
     if ((!isCommemoration // an Tagen mit Kommemoration und in Kl. Horen an Gedenktagen nur wt-Werte
-        && !(rank_date < 3 && isTSN && !memorialWithTNS))
+        && !(rank_date < 3 && isTSN && !memorialWithTSN))
         || isSollemnity) {
 
         //Sonderfall Wochentagspsalmen
