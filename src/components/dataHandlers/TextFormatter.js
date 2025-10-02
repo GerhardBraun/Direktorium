@@ -38,6 +38,7 @@ const calculateMaxLineLength = (text) => {
         .replace(/\^RUBR.*?\^0RUBR/g, '') // Lange Rubriken entfernen
         .replace(/°/g, ' ') // Geschützte Leerzeichen als normale Leerzeichen
         .replace(/>/g, '')
+        .replace(/ Amen./g, '')
         .replace(/\^\//g, '   ')
         .replace(/\^ß/g, ' ')
         .replace(/\^-/g, '-') // Bindestriche
@@ -253,7 +254,6 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
                 : '^p^RUBRLoco responsorii dicitur:^0RUBR^l';
 
             return rubric + antiphon;
-
         })
     }
 
@@ -436,7 +436,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         .replace(/(\w)–/g, '$1\u200C–')
         .replace(/–(\w)/g, '–\u200C$1')
         .replace(/([0-9])-([0-9])/g, '$1\u200C\u2013\u200C$2')
-        .replace(/>([aeiouæm])/g, '^k$1^0k')
+        .replace(/>([aeiouæm])/g, '^ELL$1^0ELL')
         .replace(/\^([()[\]†])/g, '^r$1^0r')
         .replace(/ \^w/g, '^w ')
         .replace(/ \^0w/g, '^0w ')
@@ -491,7 +491,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
             .replace(/\^l/g, '\n')
 
         // ERWEITERTE REGEX um Satzzeichen-Marker zu erfassen
-        const segments = text.split(/(\^RUBR.*?\^0RUBR|\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^c.*?\^0c|\^k.*?\^0k|§FN\d+§|§PUNCT\d+§)/g).filter(Boolean);
+        const segments = text.split(/(\^RUBR.*?\^0RUBR|\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^c.*?\^0c|\^k.*?\^0k|\^ELL.*?\^0ELL|§FN\d+§|§PUNCT\d+§)/g).filter(Boolean);
 
         return segments.map((segment, index) => {
             if (segment.startsWith('^r')) {
@@ -512,6 +512,9 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
             } else if (segment.startsWith('^k')) {
                 const content = segment.substring(2, segment.length - 3);
                 return <span key={`italic-${index}`} style={{ fontStyle: 'italic' }}>{content}</span>;
+            } else if (segment.startsWith('^ELL')) {
+                const content = segment.substring(4, segment.length - 5);
+                return <span key={`ellipsis-${index}`} className='text-gray-500 dark:text-gray-400 italic' >{content}</span>;
             } else if (segment.startsWith('^RUBR')) {
                 const content = segment.substring(5, segment.length - 6);
                 return <span key={`long-rubric-${index}`} className="long-rubric">{content}</span>;
