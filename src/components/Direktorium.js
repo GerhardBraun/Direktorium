@@ -1343,7 +1343,7 @@ const PrayerTextDisplay = ({
   };
 
   const ComposeResponse = ({ resp0, resp1, resp2, resp3 }) => {
-    if (!resp2.includes('°')) resp2 = resp2.replace(/ /, '°');
+    if (resp2 && !resp2.includes('°')) resp2 = resp2.replace(/ /, '°');
 
     const formatSecondResponse = (firstResp, secondResp) => {
       if (!firstResp || !secondResp) return secondResp;
