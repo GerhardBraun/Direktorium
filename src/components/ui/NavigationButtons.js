@@ -93,6 +93,12 @@ export const NavigationButtons = ({
 
 
     if (topButton) {
+        const hourToDisplay =
+            (hour === 'erstev' || (hour === 'vesper' && texts?.hasErsteVesper))
+                ? 'Erste Vesper'
+                : (hour === 'vesper' && texts.hasZweiteVesper)
+                    ? 'Zweite Vesper'
+                    : hour.charAt(0).toUpperCase() + hour.slice(1)
         return (
             <div className="grid grid-cols-4 gap-0 mb-2">
                 <button
@@ -104,7 +110,7 @@ export const NavigationButtons = ({
                     ← Auswahl
                 </button>
                 <div className="col-span-2 pr-4 rounded-sm text-center font-bold">
-                    {(hour === 'erstev') ? 'Erste Vesper' : hour.charAt(0).toUpperCase() + hour.slice(1)}
+                    {hourToDisplay}
                 </div>
             </div>
         );

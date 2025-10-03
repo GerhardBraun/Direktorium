@@ -1082,8 +1082,7 @@ const PrayerMenu = ({
   useCommemoration,
   setUseCommemoration,
 }) => {
-  const rank_wt = texts?.rank_wt || 0;
-  const rank_date = texts?.rank_date || 0;
+  const { rank_wt, rank_date } = texts || [0, 0];
   const sollemnityErsteVesper = () =>
     ["soll", "kirchw"].includes(prefSollemnity);
 
@@ -1115,7 +1114,7 @@ const PrayerMenu = ({
         {Object.values(PrayerHours).map((hour) => {
           // Spezielle Behandlung für Terz, Sext, Non
           if (["terz", "sext", "non"].includes(hour)) {
-            if (hour === "terz") {
+            if (hour === "terz") {// Sext und Non überspringen, da sie bereits in der Flex-Box enthalten sind
               return (
                 <div key="tsn" className="flex gap-2 w-full">
                   {["terz", "sext", "non"].map((tsnHour) => (
@@ -1134,7 +1133,7 @@ const PrayerMenu = ({
                 </div>
               );
             }
-            return null; // Sext und Non überspringen, da sie bereits in der Flex-Box enthalten sind
+            return null;
           }
 
           if (hour === "erstev") {
@@ -1175,7 +1174,7 @@ const PrayerMenu = ({
                 // Samstag
                 displayText = "1. Vesper vom Sonntag";
               } else {
-                if (sollemnityErsteVesper()) {
+                if (sollemnityErsteVesper() || texts?.hasZweiteVesper) {
                   displayText = "Zweite Vesper";
                 } else displayText = "Vesper";
               }
@@ -1439,7 +1438,9 @@ const PrayerTextDisplay = ({
         title={''}
         onPrevDay={onPrevDay}
         onNextDay={onNextDay}
-        swdWritten={texts?.swdWritten}
+        swdWritten={hour === 'vesper'
+          ? texts.vesper?.eig?.swdWritten || texts.vesper?.wt?.swdWritten || texts?.swdWritten
+          : texts?.swdWritten}
       />
       <NavigationButtons
         hour={hour}

@@ -627,19 +627,28 @@ export function processBrevierData(todayDate) {
 
     // Ersetze Vesper-Daten wenn nötig
     if (hasErsteVesper_wt || hasErsteVesper_date) {
-        finalData.vesper = tomorrowData.erstev;
+        finalData.vesper = JSON.parse(JSON.stringify(tomorrowData.erstev));
         finalData.hasErsteVesper = true;
+        if (hasErsteVesper_wt)
+            finalData.vesper.wt.swdWritten = tomorrowData?.swdWritten;
+        if (hasErsteVesper_date) {
+            finalData.vesper.eig.button = tomorrowData.laudes?.eig?.button
+            finalData.vesper.eig.farbe = tomorrowData.laudes?.eig?.farbe
+        };
     }
 
     // Wende die finalen Verarbeitungsschritte an
     processTerzPsalms(finalData);
     processAntABC(finalData, yearABC);
+    if (todayInfo.season === 'o') { processEasterResponses(finalData); }
+
     const kompletSettings = processKompletData(finalData, calendarDate);
     finalData.komplet = {
         ...finalData.komplet,
         ...kompletSettings
     };
-    if (todayInfo.season === 'o') { processEasterResponses(finalData); }
+    finalData.hasZweiteVesper = (kompletSettings.prefKomplet === 'k2'
+        && !['q-6-4', 'q-6-5', 'q-6-6', 'o-1-0'].includes(swdCombined));
 
     const invPsalms = processInvitatoriumPsalms(finalData);
     finalData.invitatorium.psalms = invPsalms

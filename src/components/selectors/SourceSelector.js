@@ -13,8 +13,12 @@ const hasValidSource = (texts, source) => {
 
 // Hilfsfunktion für Button-Farben basierend auf der Quellenfarbe
 const getButtonColor = (texts, source) => {
-    const color = texts?.laudes?.[source]?.farbe?.charAt(0)?.toLowerCase();
-    switch (color) {
+    let color = 'w'
+    if (source === 'erstev')
+        color = texts?.vesper?.eig?.farbe
+    else color = texts?.laudes?.[source]?.farbe
+
+    switch (color?.charAt(0)?.toLowerCase()) {
         case 'r': return 'btn-red'
         case 'm': return 'btn-blue'
         default: return 'btn-white'
@@ -84,6 +88,24 @@ const SourceSelector = ({
     };
 
     if (!texts) return null;
+
+    if (viewMode === 'prayerText' && hour === 'vesper' &&
+        texts.hasErsteVesper) {
+        if (texts.vesper?.eig?.button) {
+            return (
+                <div className={`space-y-1 ${className}`}>
+                    {/* Bezeichnung Hochfest/Fest/Gedenktag */}
+                    <button
+                        className={`w-full p-1 pt-2 text-sm text-center rounded-sm
+                                    ${getButtonColor(texts, 'erstev')}
+                                    ring-2 ring-yellow-500 `}
+                    >
+                        {formatText(texts.vesper.eig.button) || "ein Heiliger"}
+                    </button>
+                </div>
+            );
+        } else return null;
+    }
 
     const { rank_date = 0, rank_wt = 0, isCommemoration } = texts
     const hasEig = hasValidSource(texts, 'eig') // G, F oder H
