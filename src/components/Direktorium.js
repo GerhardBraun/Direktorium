@@ -1448,6 +1448,7 @@ const PrayerTextDisplay = ({
         onBack={onBack}
         onSelectHour={onSelectHour}
         texts={texts}
+        prefSollemnity={prefSollemnity}
       />
       <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6 pb-1">
         {hour === "komplet" ? (

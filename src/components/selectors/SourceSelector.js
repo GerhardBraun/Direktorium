@@ -89,24 +89,6 @@ const SourceSelector = ({
 
     if (!texts) return null;
 
-    if (viewMode === 'prayerText' && hour === 'vesper' &&
-        texts.hasErsteVesper) {
-        if (texts.vesper?.eig?.button) {
-            return (
-                <div className={`space-y-1 ${className}`}>
-                    {/* Bezeichnung Hochfest/Fest/Gedenktag */}
-                    <button
-                        className={`w-full p-1 pt-2 text-sm text-center rounded-sm
-                                    ${getButtonColor(texts, 'erstev')}
-                                    ring-2 ring-yellow-500 `}
-                    >
-                        {formatText(texts.vesper.eig.button) || "ein Heiliger"}
-                    </button>
-                </div>
-            );
-        } else return null;
-    }
-
     const { rank_date = 0, rank_wt = 0, isCommemoration } = texts
     const hasEig = hasValidSource(texts, 'eig') // G, F oder H
     const hasN1 = hasValidSource(texts, 'n1')  // nichtgebotener Gedenktag
@@ -122,7 +104,60 @@ const SourceSelector = ({
     const useToggle = (!(showWt && prefSrc === 'eig') || useCommemoration) &&
         prefSollemnity !== 'kirchw' && prefSollemnity !== 'verst'
 
-    return (
+    if (viewMode === 'prayerText' && hour === 'vesper' &&
+        texts.hasErsteVesper && !prefSollemnity) {
+        return (
+            <div className={`space-y-1 ${className}`}>
+                {/* Bezeichnung Hochfest/Fest/Gedenktag */}
+                {texts.vesper?.eig?.button && (<button
+                    className={`w-full p-1 pt-2 text-sm text-center rounded-sm
+                                    ${getButtonColor(texts, 'erstev')}
+                                    ring-2 ring-yellow-500 `}
+                >
+                    {formatText(texts.vesper.eig.button) || "ein Heiliger"}
+                </button>
+                )}                    {!reduced && (
+                    <div className="flex gap-1">
+                        <button
+                            onClick={() => handleSourceSelect('', 'kirchw')}
+                            className={`flex-1 py-2 text-center rounded-sm
+                            bg-gray-100 dark:bg-gray-900 text-xs
+                            text-yellow-600 dark:text-yellow-500
+                            hover:bg-gray-100 dark:hover:bg-gray-800
+                            ${prefSollemnity === 'kirchw' ? 'ring-2 ring-yellow-500' : ''}`}
+                        >
+                            Kirchweihe
+                        </button>
+
+                        {(rank_date < 5 && (hasEig || hasN1)) && (
+                            <button
+                                onClick={() => handleSourceSelect('lokal', 'soll')}
+                                className={`flex-1 py-2 text-center rounded-sm
+                                bg-gray-100 dark:bg-gray-900 text-xs
+                                ${useToggle ? 'text-yellow-600 dark:text-yellow-500' : 'text-gray-200 dark:text-gray-800'}
+                                hover:bg-gray-100 dark:hover:bg-gray-800
+                                ${prefSollemnity === 'soll' ? 'ring-2 ring-yellow-500' : ''}`}
+                                disabled={!useToggle}
+                            >
+                                lokale Feier als Hochfest
+                            </button>
+                        )}
+
+                        <button
+                            onClick={() => handleSourceSelect('', 'verst')}
+                            className={`flex-1 py-2 text-center rounded-sm
+                            bg-gray-100 dark:bg-gray-900 text-xs
+                            text-yellow-600 dark:text-yellow-500
+                            hover:bg-gray-100 dark:hover:bg-gray-800
+                            ${prefSollemnity === 'verst' ? 'ring-2 ring-yellow-500' : ''}`}
+                        >
+                            Ged der Verst
+                        </button>
+                    </div>
+                )}
+            </div>
+        );
+    } else return (
         <div className={`space-y-1 ${className}`}>
             {/* Bezeichnung Hochfest/Fest/Gedenktag */}
             {texts.laudes?.wt?.button && !hasEig && (

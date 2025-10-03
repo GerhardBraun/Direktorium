@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const NavigationButtons = ({
-    hour, onBack, onSelectHour, topButton = false, texts
+    hour, onBack, onSelectHour, topButton = false, texts, prefSollemnity = '',
 }) => {
     const getNextHours = (currentHour) => {
         switch (currentHour) {
@@ -94,9 +94,9 @@ export const NavigationButtons = ({
 
     if (topButton) {
         const hourToDisplay =
-            (hour === 'erstev' || (hour === 'vesper' && texts?.hasErsteVesper))
+            (hour === 'erstev' || (hour === 'vesper' && texts?.hasErsteVesper && !prefSollemnity))
                 ? 'Erste Vesper'
-                : (hour === 'vesper' && texts.hasZweiteVesper)
+                : (hour === 'vesper' && (texts?.hasZweiteVesper || prefSollemnity))
                     ? 'Zweite Vesper'
                     : hour.charAt(0).toUpperCase() + hour.slice(1)
         return (
