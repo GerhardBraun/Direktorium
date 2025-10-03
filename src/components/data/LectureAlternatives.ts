@@ -742,5 +742,270 @@ export const namesOfBooks = {
     "Lesung aus": "LEER",
 }
 
+// Erweiterte Datenstruktur für Bibelbuchtitel
+export const bibleBooks = [
+    // Neues Testament - Evangelien
+    { match: "Matthäus", abbr: "Mt", long: "Aus dem Evangelium nach Matthäus" },
+    { match: "Markus", abbr: "Mk", long: "Aus dem Evangelium nach Markus" },
+    { match: "Lukas", abbr: "Lk", long: "Aus dem Evangelium nach Lukas" },
+    { match: "Johannes", abbr: "Joh", long: "Aus dem Evangelium nach Johannes" },
+
+    // Apostelgeschichte
+    { match: "Apostelgeschichte", abbr: "Apg", long: "Aus der Apostelgeschichte" },
+
+    // Paulusbriefe
+    { match: "Römer", abbr: "Röm", long: "Aus dem Brief an die Römer" },
+    { match: "ersten Brief an die Korinther", abbr: "1\u00a0Kor", long: "Aus dem ersten Brief an die Korinther" },
+    { match: "ersten Korintherbrief", abbr: "1\u00a0Kor", long: "Aus dem ersten Brief an die Korinther" },
+    { match: "zweiten Brief an die Korinther", abbr: "2\u00a0Kor", long: "Aus dem zweiten Brief an die Korinther" },
+    { match: "zweiten Korintherbrief", abbr: "2\u00a0Kor", long: "Aus dem zweiten Brief an die Korinther" },
+    { match: "Galater", abbr: "Gal", long: "Aus dem Brief an die Galater" },
+    { match: "Epheser", abbr: "Eph", long: "Aus dem Brief an die Epheser" },
+    { match: "Philipper", abbr: "Phil", long: "Aus dem Brief an die Philipper" },
+    { match: "Kolosser", abbr: "Kol", long: "Aus dem Brief an die Kolosser" },
+    { match: "ersten Brief an die Thessalonicher", abbr: "1\u00a0Thess", long: "Aus dem ersten Brief an die Thessalonicher" },
+    { match: "ersten Thessalonicherbrief", abbr: "1\u00a0Thess", long: "Aus dem ersten Brief an die Thessalonicher" },
+    { match: "zweiten Brief an die Thessalonicher", abbr: "2\u00a0Thess", long: "Aus dem zweiten Brief an die Thessalonicher" },
+    { match: "zweiten Thessalonicherbrief", abbr: "2\u00a0Thess", long: "Aus dem zweiten Brief an die Thessalonicher" },
+    { match: "ersten Timotheusbrief", abbr: "1\u00a0Tim", long: "Aus dem ersten Brief an Timotheus" },
+    { match: "zweiten Timotheusbrief", abbr: "2\u00a0Tim", long: "Aus dem zweiten Brief an Timotheus" },
+    { match: "Titus", abbr: "Tit", long: "Aus dem Brief an Titus" },
+    { match: "Philemon", abbr: "Phlm", long: "Aus dem Brief an Philemon" },
+
+    // Hebräerbrief
+    { match: "Hebräerbrief", abbr: "Hebr", long: "Aus dem Hebräerbrief" },
+
+    // Katholische Briefe
+    { match: "Jakobusbrief", abbr: "Jak", long: "Aus dem Jakobusbrief" },
+    { match: "ersten Petrusbrief", abbr: "1\u00a0Petr", long: "Aus dem ersten Petrusbrief" },
+    { match: "zweiten Petrusbrief", abbr: "2\u00a0Petr", long: "Aus dem zweiten Petrusbrief" },
+    { match: "ersten Johannesbrief", abbr: "1\u00a0Joh", long: "Aus dem ersten Johannesbrief" },
+    { match: "zweiten Johannesbrief", abbr: "2\u00a0Joh", long: "Aus dem zweiten Johannesbrief" },
+    { match: "dritten Johannesbrief", abbr: "3\u00a0Joh", long: "Aus dem dritten Johannesbrief" },
+    { match: "Judasbrief", abbr: "Jud", long: "Aus dem Judasbrief" },
+
+    // Offenbarung
+    { match: "Offenbarung", abbr: "Offb", long: "Aus der Offenbarung des Johannes" },
+
+    // Altes Testament - Die fünf Bücher Mose
+    { match: "Genesis", abbr: "Gen", long: "Aus dem Buch Genesis" },
+    { match: "Exodus", abbr: "Ex", long: "Aus dem Buch Exodus" },
+    { match: "Levitikus", abbr: "Lev", long: "Aus dem Buch Levitikus" },
+    { match: "Numeri", abbr: "Num", long: "Aus dem Buch Numeri" },
+    { match: "Deuteronomium", abbr: "Dtn", long: "Aus dem Buch Deuteronomium" },
+
+    // Geschichtsbücher
+    { match: "Josua", abbr: "Jos", long: "Aus dem Buch Josua" },
+    { match: "Richter", abbr: "Ri", long: "Aus dem Buch der Richter" },
+    { match: "Rut", abbr: "Rut", long: "Aus dem Buch Rut" },
+    { match: "ersten Buch Samuel", abbr: "1\u00a0Sam", long: "Aus dem ersten Buch Samuel" },
+    { match: "ersten Samuelbuch", abbr: "1\u00a0Sam", long: "Aus dem ersten Buch Samuel" },
+    { match: "zweiten Buch Samuel", abbr: "2\u00a0Sam", long: "Aus dem zweiten Buch Samuel" },
+    { match: "zweiten Samuelbuch", abbr: "2\u00a0Sam", long: "Aus dem zweiten Buch Samuel" },
+    { match: "ersten Buch der Könige", abbr: "1\u00a0Kön", long: "Aus dem ersten Buch der Könige" },
+    { match: "ersten Königsbuch", abbr: "1\u00a0Kön", long: "Aus dem ersten Buch der Könige" },
+    { match: "zweiten Buch der Könige", abbr: "2\u00a0Kön", long: "Aus dem zweiten Buch der Könige" },
+    { match: "zweiten Königsbuch", abbr: "2\u00a0Kön", long: "Aus dem zweiten Buch der Könige" },
+    { match: "ersten Buch der Chronik", abbr: "1\u00a0Chr", long: "Aus dem ersten Buch der Chronik" },
+    { match: "ersten Chronikbuch", abbr: "1\u00a0Chr", long: "Aus dem ersten Buch der Chronik" },
+    { match: "zweiten Buch der Chronik", abbr: "2\u00a0Chr", long: "Aus dem zweiten Buch der Chronik" },
+    { match: "zweiten Chronikbuch", abbr: "2\u00a0Chr", long: "Aus dem zweiten Buch der Chronik" },
+    { match: "Esra", abbr: "Esra", long: "Aus dem Buch Esra" },
+    { match: "Nehemia", abbr: "Neh", long: "Aus dem Buch Nehemia" },
+    { match: "Tobit", abbr: "Tob", long: "Aus dem Buch Tobit" },
+    { match: "Judit", abbr: "Jdt", long: "Aus dem Buch Judit" },
+    { match: "Ester", abbr: "Est", long: "Aus dem Buch Ester" },
+    { match: "ersten Makkabäerbuch", abbr: "1\u00a0Makk", long: "Aus dem ersten Buch der Makkabäer" },
+    { match: "ersten Buch der Makkabäer", abbr: "1\u00a0Makk", long: "Aus dem ersten Buch der Makkabäer" },
+    { match: "zweiten Makkabäerbuch", abbr: "2\u00a0Makk", long: "Aus dem zweiten Buch der Makkabäer" },
+    { match: "zweiten Buch der Makkabäer", abbr: "2\u00a0Makk", long: "Aus dem zweiten Buch der Makkabäer" },
+
+    // Poetische und Weisheitsbücher
+    { match: "Hiob", abbr: "Ijob", long: "Aus dem Buch Ijob" },
+    { match: "Ijob", abbr: "Ijob", long: "Aus dem Buch Ijob" },
+    { match: "Sprichwörter", abbr: "Spr", long: "Aus dem Buch der Sprichwörter" },
+    { match: "Kohelet", abbr: "Koh", long: "Aus dem Buch Kohelet" },
+    { match: "Hohelied", abbr: "Hld", long: "Aus dem Hohelied" },
+    { match: "Hohenlied", abbr: "Hld", long: "Aus dem Hohelied" },
+
+    // Deuterokanonische Bücher
+    { match: "Weisheit", abbr: "Weish", long: "Aus dem Buch der Weisheit" },
+    { match: "Sirach", abbr: "Sir", long: "Aus dem Buch Jesus Sirach" },
+
+    // Große Propheten
+    { match: "Jesaja", abbr: "Jes", long: "Aus dem Buch Jesaja" },
+    { match: "Buch Jesaja", abbr: "Jes", long: "Aus dem Buch Jesaja" },
+    { match: "Jeremia", abbr: "Jer", long: "Aus dem Buch Jeremia" },
+    { match: "Baruch", abbr: "Bar", long: "Aus dem Buch Baruch" },
+    { match: "Klagelieder", abbr: "Klgl", long: "Aus den Klageliedern" },
+    { match: "Hesekiel", abbr: "Ez", long: "Aus dem Buch Ezechiel" },
+    { match: "Ezechiel", abbr: "Ez", long: "Aus dem Buch Ezechiel" },
+    { match: "Daniel", abbr: "Dan", long: "Aus dem Buch Daniel" },
+
+    // Kleine Propheten
+    { match: "Hosea", abbr: "Hos", long: "Aus dem Buch Hosea" },
+    { match: "Joel", abbr: "Joel", long: "Aus dem Buch Joel" },
+    { match: "Amos", abbr: "Am", long: "Aus dem Buch Amos" },
+    { match: "Obadja", abbr: "Obd", long: "Aus dem Buch Obadja" },
+    { match: "Jona", abbr: "Jona", long: "Aus dem Buch Jona" },
+    { match: "Micha", abbr: "Mi", long: "Aus dem Buch Micha" },
+    { match: "Nahum", abbr: "Nah", long: "Aus dem Buch Nahum" },
+    { match: "Habakuk", abbr: "Hab", long: "Aus dem Buch Habakuk" },
+    { match: "Zefanja", abbr: "Zef", long: "Aus dem Buch Zefanja" },
+    { match: "Haggai", abbr: "Hag", long: "Aus dem Buch Haggai" },
+    { match: "Sacharja", abbr: "Sach", long: "Aus dem Buch Sacharja" },
+    { match: "Maleachi", abbr: "Mal", long: "Aus dem Buch Maleachi" },
+
+    // Fallback
+    { match: "Aus de", abbr: "LEER", long: "LEER" },
+    { match: "Lesung aus", abbr: "LEER", long: "LEER" }
+];
+
+// TypeScript Interfaces
+interface BibleBook {
+    match: string;
+    abbr: string;
+    long: string;
+}
+
+type RefType = 'abbr' | 'long' | 'match';
+
+// Hilfsfunktion: Normalisiert Strings für fuzzy matching
+function normalizeString(str: string): string {
+    return str
+        .toLowerCase()
+        .replace(/[äöüß]/g, (char: string) => {
+            const map: { [key: string]: string } = { 'ä': 'a', 'ö': 'o', 'ü': 'u', 'ß': 'ss' };
+            return map[char] || char;
+        })
+        .replace(/\s+/g, ' ')
+        .trim();
+}
+
+// Hilfsfunktion: Berechnet Levenshtein-Distanz (für fuzzy matching)
+function levenshteinDistance(str1: string, str2: string): number {
+    const m = str1.length;
+    const n = str2.length;
+    const dp: number[][] = Array(m + 1).fill(null).map(() => Array(n + 1).fill(0));
+
+    for (let i = 0; i <= m; i++) dp[i][0] = i;
+    for (let j = 0; j <= n; j++) dp[0][j] = j;
+
+    for (let i = 1; i <= m; i++) {
+        for (let j = 1; j <= n; j++) {
+            if (str1[i - 1] === str2[j - 1]) {
+                dp[i][j] = dp[i - 1][j - 1];
+            } else {
+                dp[i][j] = Math.min(
+                    dp[i - 1][j] + 1,
+                    dp[i][j - 1] + 1,
+                    dp[i - 1][j - 1] + 1
+                );
+            }
+        }
+    }
+
+    return dp[m][n];
+}
+
+// Hauptfunktion: Ersetzt Bibelbuch-Referenzen
+export function replaceBibleRef(input: string, type: RefType = 'abbr', punctuation: boolean = true): string {
+    if (!input || typeof input !== 'string') {
+        return input;
+    }
+
+    // Normalisiere Input für abbr-Vergleich (ersetze verschiedene Leerzeichen-Typen)
+    const normalizedInput = input.replace(/[\u00a0°\s]/g, ' ').trim();
+
+    // Zusätzlich: Version ohne Leerzeichen für mehrteilige Bücher (z.B. "1Joh")
+    const compactInput = input.replace(/[\u00a0°\s]/g, '').trim();
+
+    let result: string | null = null;
+
+    // 1. Suche nach exakter Übereinstimmung mit abbr (mit und ohne Leerzeichen)
+    for (const book of bibleBooks) {
+        const normalizedAbbr = book.abbr.replace(/\u00a0/g, ' ');
+        const compactAbbr = book.abbr.replace(/[\u00a0\s]/g, '');
+
+        if (normalizedInput === normalizedAbbr || compactInput === compactAbbr) {
+            result = book[type] || input;
+            break;
+        }
+    }
+
+    // 2. Suche nach exakter Übereinstimmung mit match
+    if (!result) {
+        for (const book of bibleBooks) {
+            if (input === book.match) {
+                result = book[type] || input;
+                break;
+            }
+        }
+    }
+
+    // 3. Fuzzy matching für match (mit Toleranz für Schreibfehler)
+    if (!result) {
+        const normalizedInputLower = normalizeString(input);
+        let bestMatch: BibleBook | null = null;
+        let bestDistance = Infinity;
+        const maxDistance = Math.floor(input.length * 0.25); // 25% Toleranz
+
+        for (const book of bibleBooks) {
+            const normalizedMatch = normalizeString(book.match);
+            const distance = levenshteinDistance(normalizedInputLower, normalizedMatch);
+
+            // Prüfe auch, ob Input ein Substring des Match ist (für verkürzte Eingaben)
+            const isSubstring = normalizedMatch.includes(normalizedInputLower) ||
+                normalizedInputLower.includes(normalizedMatch);
+
+            if ((distance < bestDistance && distance <= maxDistance) || isSubstring) {
+                bestDistance = distance;
+                bestMatch = book;
+            }
+        }
+
+        if (bestMatch) {
+            result = bestMatch[type] || input;
+        }
+    }
+
+    // 4. Kein Match gefunden - gib Original zurück
+    if (!result) {
+        return input;
+    }
+
+    // 5. Füge Punkt hinzu, wenn type 'long' und punctuation true ist
+    if (type === 'long' && punctuation && !result.endsWith('.')) {
+        result += '.';
+    }
+
+    return result;
+}
+
+// Beispiele zur Verwendung
+console.log('=== Beispiele für replaceBibleRef ===\n');
+
+// Abbr -> Long
+console.log('1. Abkürzung zu Langform:');
+console.log(replaceBibleRef('Mt', 'long'));
+console.log(replaceBibleRef('1 Kor', 'long'));
+console.log(replaceBibleRef('1°Kor', 'long'));
+console.log(replaceBibleRef('1\u00a0Kor', 'long'));
+
+// Match -> Abbr
+console.log('\n2. Langformat zu Abkürzung:');
+console.log(replaceBibleRef('Matthäus', 'abbr'));
+console.log(replaceBibleRef('ersten Korintherbrief', 'abbr'));
+
+// Fuzzy matching
+console.log('\n3. Fuzzy Matching (mit Schreibfehlern):');
+console.log(replaceBibleRef('Mathäus', 'abbr'));
+console.log(replaceBibleRef('Apostegeschichte', 'abbr'));
+console.log(replaceBibleRef('ersten Buch Samul', 'abbr'));
+
+// Match -> Long
+console.log('\n4. Langformat zu Langform:');
+console.log(replaceBibleRef('Römer', 'long'));
+console.log(replaceBibleRef('Offenbarung', 'long'));
 
 export default lectureAlternatives
