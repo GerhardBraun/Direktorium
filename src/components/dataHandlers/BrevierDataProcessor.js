@@ -647,6 +647,7 @@ export function processBrevierData(todayDate) {
         ...finalData.komplet,
         ...kompletSettings
     };
+
     finalData.hasZweiteVesper = (kompletSettings.prefKomplet === 'k2'
         && !['q-6-4', 'q-6-5', 'q-6-6', 'o-1-0'].includes(swdCombined));
 

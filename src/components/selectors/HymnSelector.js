@@ -174,11 +174,11 @@ const HymnSelector = ({ texts, hour, season,
                 || dataSpecialHymns?.[prefSollemnity]?.[hour];
             const hymnNumbers = Array.isArray(specialHymns) ? specialHymns : [specialHymns];
 
-            hymnNumbers.forEach((specialHymn, index) => {
+            hymnNumbers?.forEach((specialHymn, index) => {
                 addNewHymn({
                     hymnNumber: specialHymn,
                     id: `${prefSollemnity}_hymn_${index + 1}`,
-                    sourceLabel: prefSollemnity.charAt(0).toUpperCase() + prefSollemnity.slice(1),
+                    sourceLabel: prefSollemnity?.charAt(0).toUpperCase() + prefSollemnity?.slice(1),
                     isNachtHymn: false
                 });
             });
