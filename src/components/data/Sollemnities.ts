@@ -171,6 +171,7 @@ export const sollemnitiesData = {
                 "les_text_lat": "Addúcam eos in montem sanctum meum et lætificábo eos in domo oratiónis meæ: holocáusta eórum et víctimæ eórum placébunt mihi super altári meo, quia domus mea domus oratiónis vocábitur cunctis pópulis."
             },
             "terz": {
+                "hymn_1": 9999,
                 "psalm1": 120.0,
                 "psalm2": 121.0,
                 "psalm3": 129.0,
@@ -186,6 +187,7 @@ export const sollemnitiesData = {
                 "les_text_lat": "Nescítis quia templum Dei estis et Spíritus Dei hábitat in vobis? Si quis autem templum Dei evérterit, evértet illum Deus; templum enim Dei sanctum est, quod estis vos."
             },
             "sext": {
+                "hymn_1": 9999,
                 "psalm1": 123.0,
                 "psalm2": 124.0,
                 "psalm3": 125.0,
@@ -201,6 +203,7 @@ export const sollemnitiesData = {
                 "les_text_lat": "Vos estis templum Dei vivi; sicut dicit Deus: „Inhabitábo in illis et inambulábo et ero illórum Deus, et ipsi erunt mihi pópulus“."
             },
             "non": {
+                "hymn_1": 9999,
                 "psalm1": 126.0,
                 "psalm2": 127.0,
                 "psalm3": 128.0,

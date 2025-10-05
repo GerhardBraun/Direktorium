@@ -8,7 +8,7 @@ const HymnSelector = ({ texts, hour, season,
     const [selectedHymn, setSelectedHymn] = useState(null);
 
     localPrefLanguage = localPrefLanguage === '_neu' ? '' : localPrefLanguage
-    if (hour === 'vesper' && ['soll', 'kirchw'].includes(prefSollemnity)) { hour = 'prefsollemnity'; }
+    if (hour === 'vesper' && prefSollemnity === 'soll') { hour = 'prefsollemnity'; }
 
     // Neue Hilfsfunktion zum Auflösen der Hymnen-Referenz
     const resolveHymnReference = (ref) => {
@@ -85,7 +85,6 @@ const HymnSelector = ({ texts, hour, season,
         // Weihnachtsoktav: Vesper im Rang eines Festes
         const readRank = texts?.rank_wt || 0
         const rank_wt = (readRank === 2.4 && hour === 'vesper') ? 4 : readRank
-        //if (rank_wt !== readRank) { console.log('GetValue: rank_wt angepasst.') }
 
         let useWt = (prefSollemnity
             && !(['terz', 'sext', 'non'].includes(hour)))
@@ -121,6 +120,7 @@ const HymnSelector = ({ texts, hour, season,
         }
 
         if (hour === 'komplet') { sources = ['pers', 'wt'] }
+
         return sources;
     }, [texts, hour, prefSrc, prefSollemnity]);
 
@@ -191,6 +191,7 @@ const HymnSelector = ({ texts, hour, season,
                     'hymn_1_lat', 'hymn_2_lat', 'hymn_3_lat']
             }
 
+            // Durchlaufe die Quellen in der festgelegten Reihenfolge
             sourceOrder.forEach(sourcePath => {
                 const pathParts = sourcePath.split('.');
                 let currentLevel = texts[hour];
@@ -386,7 +387,7 @@ const dataSpecialHymns = {
     "verst": {
         "lesehore": [2514, 1425],
         "laudes": 1440,
-        "tert": 1440,
+        "terz": 1440,
         "sext": 1440,
         "non": 1440,
         "vesper": 2512,

@@ -632,8 +632,8 @@ export function processBrevierData(todayDate) {
         if (hasErsteVesper_wt)
             finalData.vesper.wt.swdWritten = tomorrowData?.swdWritten;
         if (hasErsteVesper_date) {
-            finalData.vesper.eig.button = tomorrowData.laudes?.eig?.button
-            finalData.vesper.eig.farbe = tomorrowData.laudes?.eig?.farbe
+            //finalData.vesper.eig.button = tomorrowData.laudes?.eig?.button
+            //finalData.vesper.eig.farbe = tomorrowData.laudes?.eig?.farbe || 'w'
         };
     }
 

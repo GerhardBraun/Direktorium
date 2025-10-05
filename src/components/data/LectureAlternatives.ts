@@ -745,32 +745,32 @@ export const namesOfBooks = {
 // Erweiterte Datenstruktur für Bibelbuchtitel
 export const bibleBooks = [
     // Neues Testament - Evangelien
-    { match: "Matthäus", abbr: "Mt", long: "Aus dem Evangelium nach Matthäus" },
-    { match: "Markus", abbr: "Mk", long: "Aus dem Evangelium nach Markus" },
-    { match: "Lukas", abbr: "Lk", long: "Aus dem Evangelium nach Lukas" },
-    { match: "Johannes", abbr: "Joh", long: "Aus dem Evangelium nach Johannes" },
+    { match: "Matthäus", abbr: "Mt", medium: "Aus dem Matthäusevangelium", long: "Aus dem Evangelium nach Matthäus" },
+    { match: "Markus", abbr: "Mk", medium: "Aus dem Markusevangelium", long: "Aus dem Evangelium nach Markus" },
+    { match: "Lukas", abbr: "Lk", medium: "Aus dem Lukasevangelium", long: "Aus dem Evangelium nach Lukas" },
+    { match: "Johannes", abbr: "Joh", medium: "Aus dem Johannesevangelium", long: "Aus dem Evangelium nach Johannes" },
 
     // Apostelgeschichte
     { match: "Apostelgeschichte", abbr: "Apg", long: "Aus der Apostelgeschichte" },
 
     // Paulusbriefe
-    { match: "Römer", abbr: "Röm", long: "Aus dem Brief an die Römer" },
-    { match: "ersten Brief an die Korinther", abbr: "1\u00a0Kor", long: "Aus dem ersten Brief an die Korinther" },
-    { match: "ersten Korintherbrief", abbr: "1\u00a0Kor", long: "Aus dem ersten Brief an die Korinther" },
-    { match: "zweiten Brief an die Korinther", abbr: "2\u00a0Kor", long: "Aus dem zweiten Brief an die Korinther" },
-    { match: "zweiten Korintherbrief", abbr: "2\u00a0Kor", long: "Aus dem zweiten Brief an die Korinther" },
-    { match: "Galater", abbr: "Gal", long: "Aus dem Brief an die Galater" },
-    { match: "Epheser", abbr: "Eph", long: "Aus dem Brief an die Epheser" },
-    { match: "Philipper", abbr: "Phil", long: "Aus dem Brief an die Philipper" },
-    { match: "Kolosser", abbr: "Kol", long: "Aus dem Brief an die Kolosser" },
-    { match: "ersten Brief an die Thessalonicher", abbr: "1\u00a0Thess", long: "Aus dem ersten Brief an die Thessalonicher" },
-    { match: "ersten Thessalonicherbrief", abbr: "1\u00a0Thess", long: "Aus dem ersten Brief an die Thessalonicher" },
-    { match: "zweiten Brief an die Thessalonicher", abbr: "2\u00a0Thess", long: "Aus dem zweiten Brief an die Thessalonicher" },
-    { match: "zweiten Thessalonicherbrief", abbr: "2\u00a0Thess", long: "Aus dem zweiten Brief an die Thessalonicher" },
-    { match: "ersten Timotheusbrief", abbr: "1\u00a0Tim", long: "Aus dem ersten Brief an Timotheus" },
-    { match: "zweiten Timotheusbrief", abbr: "2\u00a0Tim", long: "Aus dem zweiten Brief an Timotheus" },
-    { match: "Titus", abbr: "Tit", long: "Aus dem Brief an Titus" },
-    { match: "Philemon", abbr: "Phlm", long: "Aus dem Brief an Philemon" },
+    { match: "Römer", abbr: "Röm", medium: "Aus dem Römerbrief", long: "Aus dem Brief an die Römer" },
+    { match: "ersten Brief an die Korinther", abbr: "1\u00a0Kor", medium: "Aus dem ersten Korintherbrief", long: "Aus dem ersten Brief an die Korinther" },
+    { match: "ersten Korintherbrief", abbr: "1\u00a0Kor", medium: "Aus dem ersten Korintherbrief", long: "Aus dem ersten Brief an die Korinther" },
+    { match: "zweiten Brief an die Korinther", abbr: "2\u00a0Kor", medium: "Aus dem zweiten Korintherbrief", long: "Aus dem zweiten Brief an die Korinther" },
+    { match: "zweiten Korintherbrief", abbr: "2\u00a0Kor", medium: "Aus dem zweiten Korintherbrief", long: "Aus dem zweiten Brief an die Korinther" },
+    { match: "Galater", abbr: "Gal", medium: "Aus dem Galaterbrief", long: "Aus dem Brief an die Galater" },
+    { match: "Epheser", abbr: "Eph", medium: "Aus dem Epheserbrief", long: "Aus dem Brief an die Epheser" },
+    { match: "Philipper", abbr: "Phil", medium: "Aus dem Philipperbrief", long: "Aus dem Brief an die Philipper" },
+    { match: "Kolosser", abbr: "Kol", medium: "Aus dem Kolosserbrief", long: "Aus dem Brief an die Kolosser" },
+    { match: "ersten Brief an die Thessalonicher", abbr: "1\u00a0Thess", medium: "Aus dem ersten Thessalonicherbrief", long: "Aus dem ersten Brief an die Thessalonicher" },
+    { match: "ersten Thessalonicherbrief", abbr: "1\u00a0Thess", medium: "Aus dem ersten Thessalonicherbrief", long: "Aus dem ersten Brief an die Thessalonicher" },
+    { match: "zweiten Brief an die Thessalonicher", abbr: "2\u00a0Thess", medium: "Aus dem zweiten Thessalonicherbrief", long: "Aus dem zweiten Brief an die Thessalonicher" },
+    { match: "zweiten Thessalonicherbrief", abbr: "2\u00a0Thess", medium: "Aus dem zweiten Thessalonicherbrief", long: "Aus dem zweiten Brief an die Thessalonicher" },
+    { match: "ersten Timotheusbrief", abbr: "1\u00a0Tim", medium: "Aus dem ersten Timotheusbrief", long: "Aus dem ersten Brief an Timotheus" },
+    { match: "zweiten Timotheusbrief", abbr: "2\u00a0Tim", medium: "Aus dem zweiten Timotheusbrief", long: "Aus dem zweiten Brief an Timotheus" },
+    { match: "Titus", abbr: "Tit", medium: "Aus dem Titusbrief", long: "Aus dem Brief an Titus" },
+    { match: "Philemon", abbr: "Phlm", medium: "Aus dem Philemonbrief", long: "Aus dem Brief an Philemon" },
 
     // Hebräerbrief
     { match: "Hebräerbrief", abbr: "Hebr", long: "Aus dem Hebräerbrief" },
@@ -861,15 +861,6 @@ export const bibleBooks = [
     { match: "Lesung aus", abbr: "LEER", long: "LEER" }
 ];
 
-// TypeScript Interfaces
-interface BibleBook {
-    match: string;
-    abbr: string;
-    long: string;
-}
-
-type RefType = 'abbr' | 'long' | 'match';
-
 // Hilfsfunktion: Normalisiert Strings für fuzzy matching
 function normalizeString(str: string): string {
     return str
@@ -908,6 +899,16 @@ function levenshteinDistance(str1: string, str2: string): number {
     return dp[m][n];
 }
 
+// TypeScript Interfaces
+interface BibleBook {
+    match: string;
+    abbr: string;
+    medium?: string;
+    long: string;
+}
+
+type RefType = 'abbr' | 'medium' | 'long' | 'match';
+
 // Hauptfunktion: Ersetzt Bibelbuch-Referenzen
 export function replaceBibleRef(input: string, type: RefType = 'abbr', punctuation: boolean = true): string {
     if (!input || typeof input !== 'string') {
@@ -928,7 +929,10 @@ export function replaceBibleRef(input: string, type: RefType = 'abbr', punctuati
         const compactAbbr = book.abbr.replace(/[\u00a0\s]/g, '');
 
         if (normalizedInput === normalizedAbbr || compactInput === compactAbbr) {
-            result = book[type] || input;
+            // Fallback zu 'long' wenn 'medium' nicht existiert
+            result = type === 'medium' && !book.medium
+                ? book.long
+                : (book[type] || input);
             break;
         }
     }
@@ -937,7 +941,10 @@ export function replaceBibleRef(input: string, type: RefType = 'abbr', punctuati
     if (!result) {
         for (const book of bibleBooks) {
             if (input === book.match) {
-                result = book[type] || input;
+                // Fallback zu 'long' wenn 'medium' nicht existiert
+                result = type === 'medium' && !book.medium
+                    ? book.long
+                    : (book[type] || input);
                 break;
             }
         }
@@ -965,47 +972,21 @@ export function replaceBibleRef(input: string, type: RefType = 'abbr', punctuati
         }
 
         if (bestMatch) {
-            result = bestMatch[type] || input;
+            // Fallback zu 'long' wenn 'medium' nicht existiert
+            result = type === 'medium' && !bestMatch.medium
+                ? bestMatch.long
+                : (bestMatch[type] || input);
         }
     }
 
     // 4. Kein Match gefunden - gib Original zurück
-    if (!result) {
-        return input;
-    }
+    if (!result) return input;
 
-    // 5. Füge Punkt hinzu, wenn type 'long' und punctuation true ist
-    if (type === 'long' && punctuation && !result.endsWith('.')) {
+    // 5. Füge Punkt hinzu, wenn type 'long' oder 'medium' und punctuation true ist
+    if ((type === 'long' || type === 'medium') && punctuation && !result.endsWith('.'))
         result += '.';
-    }
 
     return result;
 }
-
-// Beispiele zur Verwendung
-console.log('=== Beispiele für replaceBibleRef ===\n');
-
-// Abbr -> Long
-console.log('1. Abkürzung zu Langform:');
-console.log(replaceBibleRef('Mt', 'long'));
-console.log(replaceBibleRef('1 Kor', 'long'));
-console.log(replaceBibleRef('1°Kor', 'long'));
-console.log(replaceBibleRef('1\u00a0Kor', 'long'));
-
-// Match -> Abbr
-console.log('\n2. Langformat zu Abkürzung:');
-console.log(replaceBibleRef('Matthäus', 'abbr'));
-console.log(replaceBibleRef('ersten Korintherbrief', 'abbr'));
-
-// Fuzzy matching
-console.log('\n3. Fuzzy Matching (mit Schreibfehlern):');
-console.log(replaceBibleRef('Mathäus', 'abbr'));
-console.log(replaceBibleRef('Apostegeschichte', 'abbr'));
-console.log(replaceBibleRef('ersten Buch Samul', 'abbr'));
-
-// Match -> Long
-console.log('\n4. Langformat zu Langform:');
-console.log(replaceBibleRef('Römer', 'long'));
-console.log(replaceBibleRef('Offenbarung', 'long'));
 
 export default lectureAlternatives

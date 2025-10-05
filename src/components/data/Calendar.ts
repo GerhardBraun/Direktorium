@@ -1912,6 +1912,7 @@ export const calendarData: CalendarData = {
       "15": {
         "n1": {
           "major": {
+            "comm_1": "Hirten",
             "oration": "Gütiger Gott, in der Sorge für dein Volk hast du den heiligen Klemens Maria Hofbauer mit besonderem Eifer für die Seelen erfüllt und durch ihn den Reichtum deiner Gnade verkündet. Hilf uns auf seine Fürsprache, den Glauben zu bewahren, den er gelehrt, und den Weg zu gehen, den er uns durch sein Leben gewiesen hat.^ORV",
             "oration_lat": "comm:"
           },
@@ -1939,6 +1940,7 @@ export const calendarData: CalendarData = {
       "17": {
         "n1": {
           "major": {
+            "comm_1": "Frau_Ord",
             "oration": "Herr, unser Gott, du hast im Herzen der heiligen Gertrud das Verlangen geweckt, das Wort der Schrift zu verstehen und deine Weisung zu erkennen. Lehre auch uns, aus der Kraft deines Wortes zu leben und Werke der Liebe zu tun.^ORV",
             "oration_lat": "comm:"
           },
@@ -1964,6 +1966,7 @@ export const calendarData: CalendarData = {
         },
         "n2": {
           "major": {
+            "comm_1": "Hirten",
             "oration": "Ewiger Gott, du hast den heiligen Bischof Patrick gesandt, den Bewohnern Irlands deine Allmacht und Größe zu verkünden. Höre auf seine Fürsprache und hilf allen, die sich Christen nennen, deine großen Werke zu bezeugen.^ORV",
             "oration_lat": "Deus, qui ad prædicándam Hibérniæ pópulis glóriam tuam beátum Patrícium epíscopum providísti, eius méritis et intercessióne concéde, ut, qui christiáno nómine gloriántur, tua mirabília homínibus iúgiter annúntient.^ORlV"
           },
@@ -1991,6 +1994,7 @@ export const calendarData: CalendarData = {
       "18": {
         "n1": {
           "major": {
+            "comm_1": "Hirten_Kl",
             "oration": "Gott, du Quelle der Wahrheit, durch den heiligen Bischof Cyrill von Jerusalem hast du deine Kirche gelehrt, das Geheimnis der Erlösung tiefer zu verstehen. Höre auf seine Fürsprache und hilf uns, deinen Sohn Jesus Christus zu erkennen und in ihm die Fülle des Lebens zu finden,^ORR",
             "oration_lat": "Deus, qui Ecclésiam tuam per beátum Cyríllum epíscopum ad mystéria salútis profúndius attingénda mirabíliter adduxísti, da nobis, eius intercessióne, Fílium tuum ita agnóscere, ut vitam abundántius habeámus.^ORlV"
           },
@@ -2211,6 +2215,7 @@ export const calendarData: CalendarData = {
       "23": {
         "n1": {
           "major": {
+            "comm_1": "Hirten",
             "oration": "Barmherziger Gott, durch die apostolische Arbeit des heiligen Bischofs Turibio und seinen Eifer für die wahre Lehre hast du in Lateinamerika die Kirche im Glauben gefestigt. Gib auch den Christen unserer Zeit neue Glaubenskraft und den Mut zu einem heiligen Leben.^ORV",
             "oration_lat": "Deus, qui Ecclésiam tuam beáti Turíbii epíscopi apostólicis curis zelóque veritátis auxísti, concéde, ut pópulus tibi sacrátus fídei et sanctitátis nova semper increménta suscípiat.^ORlV"
           },
@@ -2238,6 +2243,8 @@ export const calendarData: CalendarData = {
       "24": {
         "n1": {
           "major": {
+            "comm_1": "Hirten",
+            "comm_2": "MärtSg",
             "oration": "Gott, du hast dem heiligen Bischof Oscar Romero die Kraft gegeben, durch seinen Tod für Recht und Wahrheit einzutreten. Höre auf seine Fürsprache und hilf uns, alle Mühe und Last zu ertragen und dich, unser wahres Leben, mit ungeteiltem Herzen zu suchen.^ORV",
             "oration_lat": "comm:"
           },
@@ -2458,6 +2465,7 @@ export const calendarData: CalendarData = {
       "26": {
         "n1": {
           "major": {
+            "comm_1": "Hirten",
             "oration": "Allmächtiger Gott, du hast den heiligen Bischof Liudger gesandt, die Friesen und die Sachsen zum christlichen Glauben zu führen. Gib auch uns unermüdlichen Eifer und jene Zuversicht, mit der er sich in den Dienst der Kirche gestellt hat.^ORV",
             "oration_lat": "comm:"
           },
@@ -11291,6 +11299,7 @@ export const calendarData: CalendarData = {
       "15": {
         "d11": {
           "major": {
+            "comm_1": "Hirten",
             "oration": "Gütiger Gott, wir ehren heute die Verdienste des heiligen Papstes Zacharias. Du hast ihn berufen, im Geist der Milde und Klugheit für den Frieden zu wirken. Gib, dass wir auf Erden seinem Beispiel folgen und im Himmel mit ihm verherrlicht werden.^ORV",
             "oration_lat": "Deus, qui beáto Zacharíæ, mitíssimo Fílii tui Vicário, pacis stúdium ac donum prudéntiæ tribuísti, da nobis tanti pastóris mérita venerántibus, ut ipsíus exémpla sequámur in via et glóriæ consórtes fiámus in pátria.^ORlV"
           },

@@ -70,12 +70,21 @@ const SourceSelector = ({
 
     const disableButtons = {}
     disableButtons.sources = isErsteVesper && prefSollemnity !== 'soll';
-    disableButtons.eig = isErsteVesper === 'wt' && prefSollemnity !== 'soll';
+    disableButtons.eig = isErsteVesper === 'eig' && prefSollemnity === 'soll';
+
+    let eigButton = {}
+    const eigEntry = texts?.vesper?.eig?.button
+    if (eigEntry && isErsteVesper === 'eig') {
+        eigButton = {
+            "button": formatText(eigEntry),
+            "farbe": texts?.vesper?.eig?.farbe || 'w'
+        }
+    }
 
     // Anzeige des Buttons für lokales Hochfest
     let useToggle = (!(showWt && prefSrc === 'eig') || useCommemoration) &&
         ((prefSollemnity !== 'kirchw' && prefSollemnity !== 'verst'))
-    if (isErsteVesper === 'wt') useToggle = true
+    if (isErsteVesper) useToggle = true
 
     // Hilfsfunktion für Button-Farben basierend auf der Quellenfarbe
     const getButtonColor = (source, disableButtons) => {
@@ -118,7 +127,7 @@ const SourceSelector = ({
 
         // Verhindert in der 1. Vesper die Wahl einer Source ohne 1. Vesper
         let blockToggle = false;
-        if (isErsteVesper === 'eig') {
+        if (isErsteVesper === 'eigg') {
             blockToggle = true;
             if (sourceKeys.includes(source) &&
                 (prefSollemnity === 'soll' || prefSollemnity === 'kirchw')
@@ -136,6 +145,7 @@ const SourceSelector = ({
                 if (!newPrefSrc) newPrefSollemnity = ''
             };
             if (!newPrefSollemnity && !newPrefSrc) { newPrefSrc = 'eig' };
+            console.log('SourceSelector: handleSourceSelect', source, setSollemnity, '->', newPrefSrc, newPrefSollemnity);
             setPrefSrc(newPrefSrc);
             setPrefSollemnity(newPrefSollemnity);
             if (source === 'wt') { setUseCommemoration(false) }
@@ -152,7 +162,7 @@ const SourceSelector = ({
                 </div>
             )}
             {/* Weekday Button */}
-            {showWt && !reduced && (<>
+            {showWt && !reduced && !eigButton.button && (<>
                 <button
                     onClick={() => handleSourceSelect('wt')}
                     className={`w-full p-1 mb-1 text-sm text-center rounded-sm
@@ -163,9 +173,23 @@ const SourceSelector = ({
                 >
                     Vom Wochentag
                 </button>
-                {isCommemoration && (
+                {isCommemoration && prefSollemnity !== 'soll' && (
                     <div className='text-center text-xs text-yellow-600 dark:text-yellow-500'>
                         Für die Kommemoration:</div>)}
+            </>
+            )}
+            {/* eig-Button für die Erste Vesper*/}
+            {eigButton.button && (<>
+                <button
+                    onClick={() => handleSourceSelect('wt')}
+                    className={`w-full p-1 mb-1 text-sm text-center rounded-sm
+                        ${eigButton.farbe === 'r' ? 'btn-red' : 'btn-white'}
+                        ${(prefSrc === 'eig' && !useCommemoration && !disableButtons.eig)
+                            ? 'ring-2 ring-yellow-500' : ''}`}
+                    disabled={disableButtons.eig}
+                >
+                    {eigButton.button}
+                </button>
             </>
             )}
             {reduced && (<>
@@ -178,8 +202,7 @@ const SourceSelector = ({
                 if (!hasValidSource(source)) return null;
                 const doUnderline = prefSrc === source
                     && (!isCommemoration || (isCommemoration && useCommemoration))
-                    && !(source !== 'eig' && disableButtons.sources)
-                    && !(source === 'eig' && disableButtons.eig);
+                    && !disableButtons.sources;
                 return (
                     <button
                         key={source}
@@ -187,7 +210,7 @@ const SourceSelector = ({
                         className={`w-full p-1 pt-2 text-sm text-center rounded-sm
                                     ${getButtonColor(source, disableButtons)}
                                     ${(doUnderline) ? 'ring-2 ring-yellow-500' : ''}`}
-                        disabled={source === 'eig' ? disableButtons.eig : disableButtons.sources}
+                        disabled={disableButtons.sources}
                     >
                         {formatText(texts.laudes[source].button) || "ein Heiliger"}
                     </button>

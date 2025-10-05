@@ -1158,7 +1158,7 @@ const PrayerMenu = ({
           if (hour === "vesper") {
             if (
               texts?.vesper?.eig?.button &&
-              texts.hasErsteVesper
+              texts.hasErsteVesper && prefSollemnity !== 'soll'
             ) {
               displayText = texts.vesper.eig.button;
             } else if (texts?.vesper?.wt?.button) {
