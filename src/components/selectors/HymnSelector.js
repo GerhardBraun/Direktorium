@@ -8,6 +8,7 @@ const HymnSelector = ({ texts, hour, season,
     const [selectedHymn, setSelectedHymn] = useState(null);
 
     localPrefLanguage = localPrefLanguage === '_neu' ? '' : localPrefLanguage
+    if (hour === 'vesper' && ['soll', 'kirchw'].includes(prefSollemnity)) { hour = 'prefsollemnity'; }
 
     // Neue Hilfsfunktion zum Auflösen der Hymnen-Referenz
     const resolveHymnReference = (ref) => {

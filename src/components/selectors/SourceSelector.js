@@ -49,12 +49,10 @@ const SourceSelector = ({
     useEffect(() => {
         if (!prefSrc) {
             if (!['kirchw', 'verst'].includes(prefSollemnity)) {
-                console.log('SourceSelector: Keine Quellenauswahl, setze auf gültige Quelle');
                 setPrefSrc(hasValidSource('eig') ? 'eig' : hasValidSource('any') ? 'any' : '')
             }
         }
         else if (!hasValidSource(prefSrc)) {
-            console.log('SourceSelector: Ungültige Quellenauswahl, setze auf gültige Quelle');
             setPrefSrc('eig')
         };
     }, [prefSrc, texts]);
@@ -107,10 +105,6 @@ const SourceSelector = ({
 
     // Funktion zum Behandeln der Quellenauswahl
     const handleSourceSelect = (source, setSollemnity = '') => {
-        console.log('handleSourceSelect aufgerufen mit:\nsource: ', source, '\nsetSollemnity: ', setSollemnity,
-            '\nisErsteVesper: ', isErsteVesper, '\nprefSrc: ', prefSrc, '\nprefSollemnity: ', prefSollemnity,
-            '\nhasEig: ', hasEig, '\nhasAdLib: ', hasAdLib, '\nisCommemoration: ', isCommemoration
-        );
         let newPrefSollemnity = setSollemnity;
         // Wenn der schon gewählte prefSollemnity-Button angeklickt wird, prefSollemnity zurücksetzen;
         if (setSollemnity === prefSollemnity) { newPrefSollemnity = '' };
@@ -142,7 +136,6 @@ const SourceSelector = ({
                 if (!newPrefSrc) newPrefSollemnity = ''
             };
             if (!newPrefSollemnity && !newPrefSrc) { newPrefSrc = 'eig' };
-            console.log('   neue Werte:\n   newPrefSrc: ', newPrefSrc, '\n   newPrefSollemnity: ', newPrefSollemnity);
             setPrefSrc(newPrefSrc);
             setPrefSollemnity(newPrefSollemnity);
             if (source === 'wt') { setUseCommemoration(false) }
