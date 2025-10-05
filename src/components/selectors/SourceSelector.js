@@ -1,5 +1,5 @@
 import React from 'react';
-import { useMemo, useEffect } from "react";
+import { useMemo, useEffect, useState } from "react";
 
 // Array mit allen zu durchsuchenden Schlüsseln
 // Mit d1, d2 können Eigenfeiern VOR den denen des Regionalkalenders sortiert werden,
@@ -29,7 +29,7 @@ const SourceSelector = ({
         return viewMode === 'prayerText' && prefSollemnity !== 'soll' &&
             (hour === 'erstev' || (hour === 'vesper' && texts.hasErsteVesper))
             ? buttonEig : false;
-    }, [viewMode, hour, prefSollemnity]);
+    }, [viewMode, hour, prefSollemnity, texts]);
 
     const hasValidSource = (source) => {
         if (source === 'any') {
