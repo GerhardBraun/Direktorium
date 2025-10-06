@@ -17,6 +17,7 @@ const SourceSelector = ({
     prefSrc, setPrefSrc,
     prefSollemnity, setPrefSollemnity,
     useCommemoration, setUseCommemoration,
+    onSelectHour,
     viewMode,
     hour = '',
     season = 'j',
@@ -24,11 +25,14 @@ const SourceSelector = ({
     className = ''
 }) => {
 
+    const [storedPrefSrc, setStoredPrefSrc] = useState('');
     const isErsteVesper = useMemo(() => {
         const buttonEig = texts?.vesper?.eig?.button ? 'eig' : 'wt';
-        return viewMode === 'prayerText' && prefSollemnity !== 'soll' &&
-            (hour === 'erstev' || (hour === 'vesper' && texts.hasErsteVesper))
-            ? buttonEig : false;
+        if (viewMode === 'prayerText') {
+            if (hour === 'erstev') return 'erstev'
+            if (hour === 'vesper' && texts.hasErsteVesper && prefSollemnity !== 'soll') return buttonEig
+        }
+        return false
     }, [viewMode, hour, prefSollemnity, texts]);
 
     const hasValidSource = (source) => {
@@ -59,33 +63,6 @@ const SourceSelector = ({
 
     if (!texts) return null;
 
-    const { rank_date = 0, rank_wt = 0, isCommemoration } = texts
-    const hasEig = hasValidSource('eig') // G, F oder H
-    const hasAdLib = hasValidSource('any')
-
-    const showWt = rank_wt < 3 && (
-        (hasAdLib && !hasEig) ||   // nur nichtgebotener Gedenktag
-        (isCommemoration && (hasEig || hasAdLib)) // bei Kommemoration auch G
-    )
-
-    const disableButtons = {}
-    disableButtons.sources = isErsteVesper && prefSollemnity !== 'soll';
-    disableButtons.eig = isErsteVesper === 'eig' && prefSollemnity === 'soll';
-
-    let eigButton = {}
-    const eigEntry = texts?.vesper?.eig?.button
-    if (eigEntry && isErsteVesper === 'eig') {
-        eigButton = {
-            "button": formatText(eigEntry),
-            "farbe": texts?.vesper?.eig?.farbe || 'w'
-        }
-    }
-
-    // Anzeige des Buttons für lokales Hochfest
-    let useToggle = (!(showWt && prefSrc === 'eig') || useCommemoration) &&
-        ((prefSollemnity !== 'kirchw' && prefSollemnity !== 'verst'))
-    if (isErsteVesper) useToggle = true
-
     // Hilfsfunktion für Button-Farben basierend auf der Quellenfarbe
     const getButtonColor = (source, disableButtons) => {
         if (source === 'eig' && disableButtons?.eig) return 'bg-gray-100 dark:bg-gray-800 text-gray-400 dark:text-gray-600';
@@ -103,7 +80,7 @@ const SourceSelector = ({
     };
 
     const getWeekdayButtonColor = (season, disableButtons) => {
-        if (disableButtons.sources) return 'bg-gray-100 dark:bg-gray-800 text-gray-400 dark:text-gray-600';
+        if (disableButtons.wt) return 'bg-gray-100 dark:bg-gray-800 text-gray-400 dark:text-gray-600';
         switch (season) {
             case 'j': return 'btn-green';
             case 'a':
@@ -127,31 +104,80 @@ const SourceSelector = ({
 
         // Verhindert in der 1. Vesper die Wahl einer Source ohne 1. Vesper
         let blockToggle = false;
-        if (isErsteVesper === 'eigg') {
+        if (isErsteVesper === 'erstev') {
             blockToggle = true;
             if (sourceKeys.includes(source) &&
                 (prefSollemnity === 'soll' || prefSollemnity === 'kirchw')
             ) { blockToggle = false };
-            if (setSollemnity === 'kirchw' && prefSollemnity !== 'kirchw'
+            if (setSollemnity === 'kirchw'
+            ) {
+                if (prefSollemnity === 'kirchw') {
+                    source = 'lokal';
+                    newPrefSollemnity = 'soll';
+                    blockToggle = false
+                } else {
+                    setStoredPrefSrc(prefSrc);
+                    blockToggle = false
+                }
+            };
+            if (source === 'lokal' && prefSollemnity === 'kirchw'
             ) { blockToggle = false };
+            if (source === 'wt') {
+                onSelectHour('vesper', texts);
+                setPrefSrc('eig');
+                setPrefSollemnity('');
+                setStoredPrefSrc('');
+            }
         }
         if (!blockToggle) {
             let newPrefSrc = source;
             if (source === 'wt') { newPrefSrc = 'eig' };
             if (source === 'lokal') {
-                newPrefSrc = prefSrc;
-                if (prefSrc === 'eig' && !hasEig) newPrefSrc = hasAdLib
-                if (!prefSrc) newPrefSrc = hasEig ? 'eig' : hasAdLib
-                if (!newPrefSrc) newPrefSollemnity = ''
+                if (storedPrefSrc) {
+                    newPrefSrc = storedPrefSrc;
+                    setStoredPrefSrc('');
+                } else {
+                    newPrefSrc = prefSrc;
+                    if (prefSrc === 'eig' && !hasEig) newPrefSrc = hasAdLib
+                    if (!prefSrc) newPrefSrc = hasEig ? 'eig' : hasAdLib
+                    if (!newPrefSrc) newPrefSollemnity = ''
+                }
             };
             if (!newPrefSollemnity && !newPrefSrc) { newPrefSrc = 'eig' };
-            console.log('SourceSelector: handleSourceSelect', source, setSollemnity, '->', newPrefSrc, newPrefSollemnity);
             setPrefSrc(newPrefSrc);
             setPrefSollemnity(newPrefSollemnity);
             if (source === 'wt') { setUseCommemoration(false) }
             else { setUseCommemoration(isCommemoration) }
         }
     };
+
+    const { rank_date = 0, rank_wt = 0, isCommemoration } = texts
+    const hasEig = hasValidSource('eig') // G, F oder H
+    const hasAdLib = hasValidSource('any')
+
+    const showWt = rank_wt < 3 && (
+        (hasAdLib && !hasEig) ||   // nur nichtgebotener Gedenktag
+        (isCommemoration && (hasEig || hasAdLib)) // bei Kommemoration auch G
+    )
+
+    const disableButtons = {}
+    disableButtons.wt = isErsteVesper && !prefSollemnity;
+    disableButtons.sources = isErsteVesper && prefSollemnity !== 'soll';
+    disableButtons.eig = isErsteVesper === 'eig' && prefSollemnity === 'soll';
+
+    let eigButton = {}
+    const eigEntry = texts?.vesper?.eig?.button
+    if (eigEntry && isErsteVesper === 'eig') {
+        eigButton = {
+            "button": formatText(eigEntry),
+            "farbe": texts?.vesper?.eig?.farbe || 'w'
+        }
+    }
+
+    // Anzeige des Buttons für lokales Hochfest
+    let useToggle = (!(showWt && prefSrc === 'eig') || useCommemoration) &&
+        ((prefSollemnity !== 'kirchw' && prefSollemnity !== 'verst'))
+    if (isErsteVesper) useToggle = true
 
     return (
         <div className={`space-y-1 ${className}`}>
@@ -169,7 +195,7 @@ const SourceSelector = ({
                         ${getWeekdayButtonColor(season, disableButtons)}
                         ${(prefSrc === 'eig' && !useCommemoration && !disableButtons.sources)
                             ? 'ring-2 ring-yellow-500' : ''}`}
-                    disabled={disableButtons.sources}
+                    disabled={disableButtons.wt}
                 >
                     Vom Wochentag
                 </button>
@@ -247,9 +273,10 @@ const SourceSelector = ({
                         onClick={() => handleSourceSelect('', 'verst')}
                         className={`flex-1 py-2 text-center rounded-sm
                             bg-gray-100 dark:bg-gray-900 text-xs
-                            text-yellow-600 dark:text-yellow-500
+                            ${isErsteVesper !== 'erstev' ? 'text-yellow-600 dark:text-yellow-500' : 'text-gray-200 dark:text-gray-800'}
                             hover:bg-gray-100 dark:hover:bg-gray-800
                             ${prefSollemnity === 'verst' ? 'ring-2 ring-yellow-500' : ''}`}
+                        disabled={isErsteVesper === 'erstev'}
                     >
                         Ged der Verst
                     </button>

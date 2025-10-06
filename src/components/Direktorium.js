@@ -1104,6 +1104,7 @@ const PrayerMenu = ({
         setPrefSrc={setPrefSrc}
         setPrefSollemnity={setPrefSollemnity}
         setUseCommemoration={setUseCommemoration}
+        onSelectHour={onSelectHour}
         viewMode={viewMode}
         season={season}
         className="mb-4"
@@ -1467,6 +1468,7 @@ const PrayerTextDisplay = ({
             setPrefSrc={setPrefSrc}
             setPrefSollemnity={setPrefSollemnity}
             setUseCommemoration={setUseCommemoration}
+            onSelectHour={onSelectHour}
             viewMode={viewMode}
             season={season}
             hour={hour}
@@ -1826,6 +1828,7 @@ const PrayerTextDisplay = ({
                 setPrefSrc={setPrefSrc}
                 setPrefSollemnity={setPrefSollemnity}
                 setUseCommemoration={setUseCommemoration}
+                onSelectHour={onSelectHour}
                 viewMode={viewMode}
                 season={season}
                 hour={hour}
@@ -2956,6 +2959,23 @@ export default function LiturgicalCalendar() {
     setInputValue(formatDate(selectedDate, true));
   }, [selectedDate, formatDate]);
 
+  const onPrevDay = () => {
+    setDateChangeSource("navigation");
+    setSelectedDate(
+      new Date(selectedDate.setDate(selectedDate.getDate() - 1))
+    );
+    if (selectedHour === 'erstev')
+      setSelectedHour('vesper');
+  }
+  const onNextDay = () => {
+    setDateChangeSource("navigation");
+    setSelectedDate(
+      new Date(selectedDate.setDate(selectedDate.getDate() + 1))
+    );
+    if (selectedHour === 'erstev')
+      setSelectedHour('vesper');
+  }
+
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">
       <ReferenceDialog />
@@ -3122,18 +3142,8 @@ export default function LiturgicalCalendar() {
                 setViewMode("prayerText");
               }}
               setViewMode={setViewMode}
-              onPrevDay={() => {
-                setDateChangeSource("navigation");
-                setSelectedDate(
-                  new Date(selectedDate.setDate(selectedDate.getDate() - 1))
-                );
-              }}
-              onNextDay={() => {
-                setDateChangeSource("navigation");
-                setSelectedDate(
-                  new Date(selectedDate.setDate(selectedDate.getDate() + 1))
-                );
-              }}
+              onPrevDay={onPrevDay}
+              onNextDay={onNextDay}
             />
           )}
 
@@ -3166,18 +3176,8 @@ export default function LiturgicalCalendar() {
                   setSelectedHour(hour);
                   setTexts(texts);
                 }}
-                onPrevDay={() => {
-                  setDateChangeSource("navigation");
-                  setSelectedDate(
-                    new Date(selectedDate.setDate(selectedDate.getDate() - 1))
-                  );
-                }}
-                onNextDay={() => {
-                  setDateChangeSource("navigation");
-                  setSelectedDate(
-                    new Date(selectedDate.setDate(selectedDate.getDate() + 1))
-                  );
-                }}
+                onPrevDay={onPrevDay}
+                onNextDay={onNextDay}
               />
             )}
 
@@ -3209,18 +3209,8 @@ export default function LiturgicalCalendar() {
                   setSelectedHour(hour);
                   setTexts(texts);
                 }}
-                onPrevDay={() => {
-                  setDateChangeSource("navigation");
-                  setSelectedDate(
-                    new Date(selectedDate.setDate(selectedDate.getDate() - 1))
-                  );
-                }}
-                onNextDay={() => {
-                  setDateChangeSource("navigation");
-                  setSelectedDate(
-                    new Date(selectedDate.setDate(selectedDate.getDate() + 1))
-                  );
-                }}
+                onPrevDay={onPrevDay}
+                onNextDay={onNextDay}
               />
             )}
 

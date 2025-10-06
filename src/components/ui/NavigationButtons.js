@@ -96,7 +96,7 @@ export const NavigationButtons = ({
         const hourToDisplay =
             (hour === 'erstev' || (hour === 'vesper' && texts?.hasErsteVesper && !prefSollemnity))
                 ? 'Erste Vesper'
-                : (hour === 'vesper' && (texts?.hasZweiteVesper || prefSollemnity))
+                : (hour === 'vesper' && (texts?.hasZweiteVesper || ['kirchw', 'soll'].includes(prefSollemnity)))
                     ? 'Zweite Vesper'
                     : hour.charAt(0).toUpperCase() + hour.slice(1)
         return (
