@@ -169,7 +169,7 @@ const formatQuote = (quote) => {
     if (!match) return formatPrayerText(quote)
 
     const [, quoteText, sourceText] = match;
-    if (sourceText.startsWith('S.')) return formatPrayerText(quote)
+    if (!sourceText.includes(',')) return formatPrayerText(quote)
     return (
         <div>
             {formatPrayerText(quoteText.trim()) + ' '}
