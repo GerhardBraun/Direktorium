@@ -6,13 +6,11 @@ export const getValue = ({ season, hour, texts, field,
     localPrefKomplet, localPrefComm,
     localPrefPsalmsWt, localPrefErgPs,
     localPrefContinuous, localPrefLanguage = '' }) => {
-    if (!hour || !texts || !texts[hour]) {
+    if (!hour || !texts || !texts[hour])
         return null;
-    }
 
-    if (hour === 'komplet') {
+    if (hour === 'komplet')
         return getKompletValue({ texts, field, localPrefKomplet, localPrefLanguage })
-    }
 
     const { rank_date = 0, isCommemoration, hasErsteVesper = false,
         swdCombined, dayOfWeek } = texts;
@@ -23,13 +21,10 @@ export const getValue = ({ season, hour, texts, field,
     // Weihnachtsoktav: Vesper im Rang eines Festes
     const readRank = texts?.rank_wt || 0
     const rank_wt = (readRank === 2.4 && hour === 'vesper') ? 4 : readRank
-    //if (rank_wt !== readRank) { console.log('GetValue: rank_wt angepasst.') }
 
     if (['kirchw', 'verst'].includes(prefSollemnity)) {
         const data = sollemnitiesData[prefSollemnity]
-
         const readValue = (field) => {
-
             const value = data?.[season]?.[hour]?.[field]
                 || data?.each?.[hour]?.[field]
                 || data?.each?.each?.[field]
@@ -37,12 +32,10 @@ export const getValue = ({ season, hour, texts, field,
 
             //Sonderfall: Orationen für Allerseelen
             if (typeof value === 'string' && allSouls) {
-                if (value?.startsWith('^A:OmniumDefunctorum:')) {
+                if (value?.startsWith('^A:OmniumDefunctorum:'))
                     return "Preces nostras, quǽsumus, Dómine, benígnus exáudi, ut, dum attóllitur nostra fides in Fílio tuo a mórtuis suscitáto, in famulórum tuórum præstolánda resurrectióne spes quoque nostra firmétur.^ORlV"
-                }
-                else if (value?.startsWith('^A:Allerseelen:')) {
+                else if (value?.startsWith('^A:Allerseelen:'))
                     return "Allmächtiger Gott, wir glauben und bekennen, dass du deinen Sohn als Ersten von den Toten auferweckt hast. Stärke unsere Hoffnung, dass du auch unsere Brüder und Schwestern auferwecken wirst zum ewigen Leben.^ORV"
-                }
             }
             return value
         }
@@ -53,7 +46,7 @@ export const getValue = ({ season, hour, texts, field,
 
     const replaceErgPs = (data) => {
         // Prüfe nur die kritischen Psalmen, die ersetzt werden müssen
-        if (![121, 122, 126, 127].includes(data)) { return data; }
+        if (![121, 122, 126, 127].includes(data)) return data;
 
         // Bestimme, ob Commune-Texte geprüft werden sollen
         const textsEig = texts.vesper?.[prefSrc] || {};
@@ -62,16 +55,11 @@ export const getValue = ({ season, hour, texts, field,
             texts.vesper?.[prefSrc]?.[`com${localPrefComm}`])
             || {};
 
-        let doReplace = false;
-
         // Prüfe in der Vesper auf Konflikte mit Eigenpsalmen oder Commune-Psalmen
-        doReplace = [textsEig?.psalm1, textsEig?.psalm2].includes(data) ||
-            [textsCommune?.psalm1, textsCommune?.psalm2].includes(data);
-
-        if (doReplace) {
+        if ([textsEig?.psalm1, textsEig?.psalm2].includes(data) ||
+            [textsCommune?.psalm1, textsCommune?.psalm2].includes(data))
             // Ersatzpsalmen: 127→131, andere→129
             return (data === 127) ? 131 : 129;
-        }
         return data;
     };
 
@@ -91,14 +79,11 @@ export const getValue = ({ season, hour, texts, field,
                 + add
                 + localPrefLanguage;
         }
-        else if (languageResult) {
+        else if (languageResult)
             return languageResult + localPrefLanguage;
-        }
         return standardResult;
-
     }
 
-    const sollemnityErsteVesper = () => ['soll', 'kirchw'].includes(prefSollemnity)
     const isPsalmodie = field.startsWith('psalm') ||
         (field.startsWith('ant') && !field.startsWith('antev'))
     const isTSN = ['terz', 'sext', 'non'].includes(hour)
@@ -128,78 +113,65 @@ export const getValue = ({ season, hour, texts, field,
             !swdCombined.startsWith('o-1-') &&
             dayOfWeek !== 0);
 
-    // Bei Vesper als Hochfest
-    if (hour === 'vesper' && sollemnityErsteVesper()) { hour = 'prefsollemnity'; }
+    // Bei lokaler Feier als Hochfest: Vespertexte aus prefSollemnity
+    if (hour === 'vesper' && prefSollemnity === 'soll')
+        hour = 'prefsollemnity';
 
     // Bei lokaler Feier als Hochfest Oration immer aus den Laudes
-    if (prefSollemnity && field.startsWith('oration')) {
+    if (prefSollemnity && field.startsWith('oration'))
         return result(texts.laudes[prefSrc]);
-    }
 
     // Sonderfall Ergänzungspsalmodie
     if (isPsalmodie && !localPrefPsalmsWt
         && (isSollemnity
             || (isTSN && localPrefErgPs && !getExcludedHours(texts, localPrefErgPs, 'PSALMODIE').includes(hour))
-            || (hour === 'laudes' && (rank_date > 2 || rank_wt > 2)
-                && dayOfWeek !== 0 && !psalm51) // Hochfeste und Feste: Ps vom So der I. Woche
+            || (hour === 'laudes' && texts?.useFeastPsalms && !localPrefPsalmsWt)
         )) {
-
-
         if (!psalm51 && !hasAnt0) {
             const data = sollemnitiesData.soll?.[dayOfWeek]?.[hour]?.[languageField]
                 || sollemnitiesData.soll?.[dayOfWeek]?.[hour]?.[field]
                 || sollemnitiesData.soll.each?.[hour]?.[languageField]
                 || sollemnitiesData.soll.each?.[hour]?.[field]
 
-            if (data) { return replaceErgPs(data) }
+            if (data) return replaceErgPs(data)
         }
     }
 
     // Abruf der Werte für die Kommemoration
     if (field.startsWith('c_')) {
         const data = texts[hour][prefSrc]
-        if (result(data)) { return result(data); }
-        const antKomm = data?.[`ant_komm${localPrefLanguage}`] || null
-        console.log('Kommemoration: field, antKomm: ', languageField, antKomm)
+        if (result(data)) return result(data);
+        const antKomm = languageField === `c_antev${localPrefLanguage}`
+            && data?.[`ant_komm${localPrefLanguage}`]
+        console.log('Kommemoration: field, antKomm: ', languageField, antKomm);
 
-        if (languageField === `c_antev${localPrefLanguage}` &&
-            data?.[`ant_komm${localPrefLanguage}`]) {
-            return data[`ant_komm${localPrefLanguage}`];
-        }
-        if (field === 'c_antev' && data?.ant_komm) {
-            return data.ant_komm;
-        }
-        if (data?.[`com${localPrefComm}`]?.[field]) { return data[`com${localPrefComm}`][field]; }
-        if (data?.com1?.[field]) { return data.com1[field]; }
-        return null;
+        return antKomm
+            || (field === 'c_antev' && data?.ant_komm)
+            || data?.[`com${localPrefComm}`]?.[field]
+            || data?.com1?.[field]
+            || null;
     }
 
     // Prüfe, ob Commune übersprungen werden soll
     let skipCommune = false;
     if (rank_date < 3  // an Gedenktagen
-        && ((hour === 'lesehore' && field !== 'oration') ||// Lesehore: nur Hymnus und Oration ggf. Commune
-            (['laudes', 'vesper'].includes(hour) && isPsalmodie) || // Laudes/Vesper Psalmodie
-            isTSN) // Kleine Horen: ganz vom Wt
-    ) { skipCommune = true }
-
-    if (rank_date < 5 && isTSN && isPsalmodie // an Festen: Ant und Ps in Kleinen Horen vom Wt
-    ) { skipCommune = true }
-
-    if (isSollemnity
-    ) { skipCommune = false }
-
-    if (isPsalmodie && localPrefPsalmsWt
-    ) { skipCommune = true }
+        && ((hour === 'lesehore' && field !== 'oration') // Lesehore: nur Hymnus und Oration ggf. Commune
+            || (['laudes', 'vesper'].includes(hour) && isPsalmodie) // Laudes/Vesper Psalmodie
+            || isTSN) // Kleine Horen: ganz vom Wt
+    ) skipCommune = true
+    if (rank_date < 5 && isTSN && isPsalmodie) // an Festen: Ant und Ps in Kleinen Horen vom Wt
+        skipCommune = true
+    if (isSollemnity) skipCommune = false
+    if (isPsalmodie && localPrefPsalmsWt) skipCommune = true
 
     const prefTexts = texts[hour]?.[prefSrc] || texts[hour]?.pers
-
     let prefCommTexts = '';
     if (!skipCommune) {
         if (localPrefComm === 1
-            || (isSollemnity && localPrefComm === 0)
-        ) { prefCommTexts = prefTexts?.com1 }
-        if (localPrefComm === 2
-        ) { prefCommTexts = prefTexts?.com2 }
+            || (isSollemnity && localPrefComm === 0))
+            prefCommTexts = prefTexts?.com1
+        if (localPrefComm === 2)
+            prefCommTexts = prefTexts?.com2
     }
 
     if ((!isCommemoration // an Tagen mit Kommemoration und in Kl. Horen an Gedenktagen nur wt-Werte
@@ -209,27 +181,27 @@ export const getValue = ({ season, hour, texts, field,
         //Sonderfall Wochentagspsalmen
         if (localPrefPsalmsWt && field.startsWith('psalm') &&
             hour !== 'invitatorium'
-        ) { return result(texts[hour]?.wt) }
+        ) return result(texts[hour]?.wt)
 
         //Sonderfall Bahnlesung
         if (localPrefContinuous && hour === 'lesehore' &&
             /^(les_|resp|patr_)/.test(field)
-        ) { return result(texts[hour]?.wt) }
+        ) return result(texts[hour]?.wt)
 
         //Sonderfall Antiphonen: entweder ant0 oder ant1-3
         if (languageField === `ant0${localPrefLanguage}` &&
             (prefTexts?.[`ant1${localPrefLanguage}`] || prefCommTexts?.[`ant1${localPrefLanguage}`])
-        ) { return null }
+        ) return null
 
         if ([`ant1${localPrefLanguage}`, `ant2${localPrefLanguage}`, `ant3${localPrefLanguage}`].includes(languageField) &&
             (prefTexts?.[`ant0${localPrefLanguage}`] || prefCommTexts?.[`ant0${localPrefLanguage}`])
-        ) { return null }
+        ) return null
 
         // 1. Prüfe zuerst prefSrc
         // 2. Prüfe Commune (prefCommTexts ist leer, wenn Commune übersprungen werden soll)
-        if (result(prefTexts) || result(prefCommTexts)) {
+        if (result(prefTexts) || result(prefCommTexts))
             return result(prefTexts) || result(prefCommTexts)
-        }
+
     }
     return result(texts[hour].pers)
         || result(texts[hour].wt)
@@ -237,37 +209,27 @@ export const getValue = ({ season, hour, texts, field,
 }
 
 const getKompletValue = ({ texts, field, localPrefKomplet, localPrefLanguage = '' }) => {
-    if (!texts || !texts.komplet) {
-        return null;
-    }
+    if (!texts || !texts.komplet) return null;
 
     let { season, dayOfWeek, swdCombined } = texts;
-
-    // Helper function to get value with optional language suffix
-    const getValueKomplet = (targetField) => {
-        const languageResult = getFieldValue(`${targetField}${localPrefLanguage}`);
-        if (languageResult) { return languageResult; }
-        return getFieldValue(targetField);
-    };
 
     // Helper function to actually retrieve the field value
     const getFieldValue = (targetField) => {
         if (targetField.startsWith('oration') && localPrefKomplet !== 'wt') {
-            if ([0, 6].includes(dayOfWeek) && swdCombined !== 'q-6-6') {
+            if ([0, 6].includes(dayOfWeek) && swdCombined !== 'q-6-6')
                 return dataKomplet?.[dayOfWeek]?.[targetField];
-            } else if (!swdCombined.startsWith('o-1-') && swdCombined !== 'o-2-0') {
+            else if (!swdCombined.startsWith('o-1-') && swdCombined !== 'o-2-0')
                 return dataKomplet.sollemnity[targetField];
-            }
         }
 
         if (targetField.startsWith('resp1') &&
             (swdCombined.startsWith('o-1-') ||
                 ['q-6-4', 'q-6-5', 'q-6-6', 'o-2-0'].includes(swdCombined))
-        ) { return ''; }
+        ) return '';
 
         // Anpassungen für Wochentag
-        if (localPrefKomplet === 'k1') { dayOfWeek = 6; }
-        if (localPrefKomplet === 'k2') { dayOfWeek = 0; }
+        if (localPrefKomplet === 'k1') dayOfWeek = 6;
+        if (localPrefKomplet === 'k2') dayOfWeek = 0;
 
         return dataKomplet?.[season]?.[targetField]
             || dataKomplet?.[season]?.[dayOfWeek]?.[targetField]
@@ -276,11 +238,11 @@ const getKompletValue = ({ texts, field, localPrefKomplet, localPrefLanguage = '
             || null;
     };
 
-    // Hauptaufruf mit Sprachlogik
-    return getValueKomplet(field);
+    // Get value with optional language suffix
+    return getFieldValue(`${field}${localPrefLanguage}`)
+        || getFieldValue(field);
 };
 
-// Daten bleiben unverändert
 const dataKomplet = {
     "o": {
         "ant0": "Halleluja, halleluja, halleluja.",

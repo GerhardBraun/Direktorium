@@ -648,6 +648,13 @@ export function processBrevierData(todayDate) {
         ...kompletSettings
     };
 
+    finalData.useFeastPsalms =
+        (rank_date > 2 || rank_wt > 2) // Hochfeste und Feste: Ps vom So der I. Woche
+        // nicht am Sonntag, Aschermittwoch oder Allerseelen
+        && dayOfWeek !== 0 && swdCombined !== 'q-0-3'
+        && !(todayMonth === 11 && todayDay === 2)
+
+
     finalData.hasZweiteVesper = (kompletSettings.prefKomplet === 'k2'
         && !['q-6-4', 'q-6-5', 'q-6-6', 'o-1-0'].includes(swdCombined));
 

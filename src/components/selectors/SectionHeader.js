@@ -10,11 +10,6 @@ const checkSources = (texts, hour, prefSrc, field) => {
     const nameComm1 = texts.laudes[prefSrc]?.com1?.button || '1';
     const nameComm2 = texts.laudes[prefSrc]?.com2?.button || '2';
 
-    const hasEig_lat = texts[hour][prefSrc]?.[`${field}_lat`];
-    const hasWt_lat = texts[hour].wt?.[`${field}_lat`];
-    const hasComm1_lat = texts[hour][prefSrc]?.com1?.[`${field}_lat`];
-    const hasComm2_lat = texts[hour][prefSrc]?.com2?.[`${field}_lat`];
-
     return {
         hasEig, hasWt,
         hasComm1, hasComm2,
@@ -57,15 +52,13 @@ export const SectionHeader = ({
 
     // Prüfe ob Terz/Sext/Non identische Psalmodie haben
     const isIdenticalTerzSext = useMemo(() => {
-        if (!["terz", "sext", "non"].includes(hour) || title !== 'PSALMODIE') {
+        if (!["terz", "sext", "non"].includes(hour) || title !== 'PSALMODIE')
             return false;
-        }
 
         const getValueTS = (hour, field) => {
             return getValue({
+                hour, field,
                 season: texts?.season,
-                hour,
-                field,
                 texts,
                 prefSrc,
                 prefSollemnity,
@@ -82,15 +75,10 @@ export const SectionHeader = ({
         const fieldsToCompare = ['ant0', 'ant1', 'psalm1'];
 
         for (const fieldToCheck of fieldsToCompare) {
-            const terzValue = getValueTS('terz', fieldToCheck);
-            const sextValue = getValueTS('sext', fieldToCheck);
-
             // Wenn ein Wert unterschiedlich ist, sind sie nicht identisch
-            if (terzValue !== sextValue) {
+            if (getValueTS('terz', fieldToCheck) !== getValueTS('sext', fieldToCheck))
                 return false;
-            }
         }
-
         return true;
     }, [hour, title, texts, prefSrc, prefSollemnity, localPrefComm,
         localPrefPsalmsWt, localPrefErgPs, localPrefContinuous]);
@@ -100,7 +88,8 @@ export const SectionHeader = ({
         return getExcludedHours(texts, localPrefErgPs, title);
     }, [texts, localPrefErgPs, title]);
 
-    const showPsalmsWt = hasEig && hasWt
+    const showPsalmsWt = hasWt
+        && (hasEig || (hour === 'laudes' && texts?.useFeastPsalms))
         && title === 'PSALMODIE'
         && !['invitatorium', 'komplet'].includes(hour);
     const showContinuous = hasEig && hasWt && askContinuous
@@ -114,17 +103,16 @@ export const SectionHeader = ({
         && !(prefSollemnity || rank_date === 5 || rank_wt === 5);
     const invPsalms = (hour === 'invitatorium' && title === 'PSALMODIE')
         ? texts?.invitatorium?.psalms : null;
-    const sollemnityErsteVesper = () => ['soll', 'dec'].includes(prefSollemnity)
 
+    // (dt./lat.)-Button anzeigen?
     let askLatin = true;
     if (title === 'VERSIKEL'
         || (hour === 'invitatorium' && title === 'PSALMODIE')
         || (hour === 'lesehore' && /^(les_|resp|patr_)/.test(field))
         || (isTSN && title === 'ORATION')
-    ) { askLatin = false }
-    else if (title === 'HYMNUS') {
+    ) askLatin = false
+    else if (title === 'HYMNUS')
         askLatin = localStorage.getItem('ommitOpening') === 'true' ? true : false
-    }
 
     // Prüfe, ob Commune übersprungen werden soll
     let skipCommune = false;
@@ -146,21 +134,23 @@ export const SectionHeader = ({
     if (isCommemoration) { skipCommune = true }
 
     if (prefSollemnity === 'soll' ||   // Hochfeste und 1. Vesper: Comm, wenn nicht eigen, nicht vom Wt
-        (texts?.hasErsteVesper && hour === 'vesper')
-    ) { skipCommune = false };
+        (texts?.hasErsteVesper && hour === 'vesper'))
+        skipCommune = false;
 
-    if (prefSollemnity && !showBothComm && !isErsteLesung) { skipCommune = true }
+    if (prefSollemnity && !showBothComm && !isErsteLesung)
+        skipCommune = true
 
-    if (prefSollemnity === 'kirchw' || prefSollemnity === 'verst'
-    ) { skipCommune = true }
+    if (prefSollemnity === 'kirchw' || prefSollemnity === 'verst')
+        skipCommune = true
 
-    if (["ERÖFFNUNG", "HYMNUS", "ABSCHLUSS"].includes(title)) { skipCommune = true };
+    if (["ERÖFFNUNG", "HYMNUS", "ABSCHLUSS"].includes(title))
+        skipCommune = true;
 
+    // einfacher Header ohne Buttons
     if (["VERSIKEL", "RESPONSORIUM"].includes(title) ||
         (!invPsalms && !showSources && !askLatin
-            && !showPsalmsWt && !showContinuous && !showTSN && !showErgPs)) {
+            && !showPsalmsWt && !showContinuous && !showTSN && !showErgPs))
         return <h2 className="prayer-heading">{title}</h2>;
-    }
 
     const ButtonGroup = ({ children }) => (
         <span
