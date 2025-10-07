@@ -84,8 +84,13 @@ export const getValue = ({ season, hour, texts, field,
         return standardResult;
     }
 
-    const isPsalmodie = field.startsWith('psalm') ||
-        (field.startsWith('ant') && !field.startsWith('antev'))
+    const isPsalmodie = field.startsWith('psalm')
+        ? true
+        : (field.startsWith('ant') && !field.startsWith('antev')
+            ? 'inclAnt'
+            : false);
+    // if (isPsalmodie) console.log('skipCommune: ', isPsalmodie, field, localPrefPsalmsWt);
+
     const isTSN = ['terz', 'sext', 'non'].includes(hour)
 
     const checkAnt0 = `ant0${localPrefLanguage}`
@@ -125,7 +130,7 @@ export const getValue = ({ season, hour, texts, field,
     if (isPsalmodie && !localPrefPsalmsWt
         && (isSollemnity
             || (isTSN && localPrefErgPs && !getExcludedHours(texts, localPrefErgPs, 'PSALMODIE').includes(hour))
-            || (hour === 'laudes' && texts?.useFeastPsalms && !localPrefPsalmsWt)
+            || (hour === 'laudes' && texts?.useFeastPsalms)
         )) {
         if (!psalm51 && !hasAnt0) {
             const data = sollemnitiesData.soll?.[dayOfWeek]?.[hour]?.[languageField]
@@ -162,7 +167,15 @@ export const getValue = ({ season, hour, texts, field,
     if (rank_date < 5 && isTSN && isPsalmodie) // an Festen: Ant und Ps in Kleinen Horen vom Wt
         skipCommune = true
     if (isSollemnity) skipCommune = false
-    if (isPsalmodie && localPrefPsalmsWt) skipCommune = true
+    if (isPsalmodie) {
+        if (localPrefPsalmsWt) {
+            skipCommune = true
+            if (isPsalmodie === 'inclAnt' && localPrefPsalmsWt !== 'inclAnt') skipCommune = false
+        } else skipCommune = false
+        // console.log('skipCommune: ', isPsalmodie, field, localPrefPsalmsWt, skipCommune);
+    }
+
+    // if (isPsalmodie) console.log('skipCommune: ', isPsalmodie, field, localPrefPsalmsWt);
 
     const prefTexts = texts[hour]?.[prefSrc] || texts[hour]?.pers
     let prefCommTexts = '';

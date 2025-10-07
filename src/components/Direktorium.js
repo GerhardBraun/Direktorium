@@ -13,7 +13,7 @@ import {
 } from "./ui/tooltip.jsx";
 import LanguageProgress from "./ui/languageProgress.js";
 import SourceSelector from "./selectors/SourceSelector.js";
-import { SectionHeader as extSectionHeader } from "./selectors/SectionHeader.js";
+import ExtSectionHeader from "./selectors/SectionHeader.js";
 import KompletSelector from "./selectors/KompletSelector.js";
 import HymnSelector from "./selectors/HymnSelector.js";
 import MarAntSelector from "./selectors/MarAntSelector.js";
@@ -1295,36 +1295,36 @@ const PrayerTextDisplay = ({
     })
   }
   // Component for section headers with source indicators
-  const SectionHeader = ({
-    title,
-    field: provField,
-    askContinuous,
-  }) =>
-    extSectionHeader({
-      title,
-      provField,
-      askContinuous,
-      onSelectHour,
-      texts,
-      hour,
-      prefSrc,
-      prefSollemnity,
-      rank_wt,
-      rank_date,
-      localPrefComm,
-      localPrefPsalmsWt,
-      localPrefErgPs,
-      localPrefContinuous,
-      localPrefInv,
-      localPrefLatin,
-      setLocalPrefLatin,
-      setLocalPrefLanguage,
-      setLocalPrefInv,
-      setLocalPrefPsalmsWt,
-      setLocalPrefErgPs,
-      setLocalPrefContinuous,
-      setLocalPrefComm,
-    });
+  const SectionHeader = (props) => {
+    return (
+      <ExtSectionHeader
+        key={Date.now()}
+        {...props}
+        provField={props.field}
+        onSelectHour={onSelectHour}
+        texts={texts}
+        hour={hour}
+        prefSrc={prefSrc}
+        prefSollemnity={prefSollemnity}
+        rank_wt={rank_wt}
+        rank_date={rank_date}
+        localPrefComm={localPrefComm}
+        localPrefPsalmsWt={localPrefPsalmsWt}
+        localPrefErgPs={localPrefErgPs}
+        localPrefContinuous={localPrefContinuous}
+        localPrefInv={localPrefInv}
+        localPrefLatin={localPrefLatin}
+        setLocalPrefLatin={setLocalPrefLatin}
+        setLocalPrefLanguage={setLocalPrefLanguage}
+        setLocalPrefInv={setLocalPrefInv}
+        setLocalPrefPsalmsWt={setLocalPrefPsalmsWt}
+        setLocalPrefErgPs={setLocalPrefErgPs}
+        setLocalPrefContinuous={setLocalPrefContinuous}
+        setLocalPrefComm={setLocalPrefComm}
+      />
+    );
+  };
+
 
   // Rubric component for styled headers and labels
   const Rubric = ({ children, isHeader = false }) => (

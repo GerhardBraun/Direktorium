@@ -4,6 +4,7 @@ import { getExcludedHours } from '../dataHandlers/ExcludedHours.js';
 
 const checkSources = (texts, hour, prefSrc, field) => {
     const hasEig = texts[hour][prefSrc]?.[field];
+    const hasEigAnt = texts[hour][prefSrc]?.ant0 || texts[hour][prefSrc]?.ant1;
     const hasWt = texts[hour].wt?.[field];
     const hasComm1 = texts[hour][prefSrc]?.com1?.[field];
     const hasComm2 = texts[hour][prefSrc]?.com2?.[field];
@@ -11,7 +12,7 @@ const checkSources = (texts, hour, prefSrc, field) => {
     const nameComm2 = texts.laudes[prefSrc]?.com2?.button || '2';
 
     return {
-        hasEig, hasWt,
+        hasEig, hasEigAnt, hasWt,
         hasComm1, hasComm2,
         nameComm1, nameComm2,
         showSources: !hasEig && hasWt && hasComm1,
@@ -19,7 +20,7 @@ const checkSources = (texts, hour, prefSrc, field) => {
     };
 };
 
-export const SectionHeader = ({
+const SectionHeader = ({
     title,
     provField,
     askContinuous,
@@ -47,7 +48,7 @@ export const SectionHeader = ({
     const field = (hour === 'invitatorium' && provField === 'psalm1')
         ? 'ant0' : provField;
     const isCommemoration = texts?.isCommemoration || false
-    const { hasEig, hasWt, nameComm1, nameComm2, showSources, showBothComm } =
+    const { hasEig, hasEigAnt, hasWt, nameComm1, nameComm2, showSources, showBothComm } =
         checkSources(texts, hour, prefSrc, field);
 
     // Prüfe ob Terz/Sext/Non identische Psalmodie haben
@@ -88,18 +89,21 @@ export const SectionHeader = ({
         return getExcludedHours(texts, localPrefErgPs, title);
     }, [texts, localPrefErgPs, title]);
 
+    const isPsalmodie = title === 'PSALMODIE' && !['invitatorium', 'komplet'].includes(hour);
+    const isPsalmsWt = isPsalmodie && localPrefPsalmsWt;
     const showPsalmsWt = hasWt
         && (hasEig || (hour === 'laudes' && texts?.useFeastPsalms))
-        && title === 'PSALMODIE'
-        && !['invitatorium', 'komplet'].includes(hour);
+        && isPsalmodie
+    const showInclAnt = isPsalmodie &&
+        !(texts[hour][prefSrc]?.ant0 || texts[hour][prefSrc]?.ant1);
     const showContinuous = hasEig && hasWt && askContinuous
         && hour === 'lesehore' && !isCommemoration;
     const isErsteLesung = field.startsWith('les_text') && hour === 'lesehore';
     const isTSN = ["terz", "sext", "non"].includes(hour);
     const showTSN = isTSN && ['HYMNUS', 'PSALMODIE', 'KURZLESUNG'].includes(title)
-        && !(title === 'PSALMODIE' && isIdenticalTerzSext); // Neue Bedingung hinzugefügt
+        && !(isPsalmodie && isIdenticalTerzSext); // Neue Bedingung hinzugefügt
     const showErgPs = isTSN
-        && title === 'PSALMODIE'
+        && isPsalmodie
         && !(prefSollemnity || rank_date === 5 || rank_wt === 5);
     const invPsalms = (hour === 'invitatorium' && title === 'PSALMODIE')
         ? texts?.invitatorium?.psalms : null;
@@ -190,6 +194,19 @@ export const SectionHeader = ({
                     >
                         vom Wt
                     </button>
+                    {showInclAnt && (
+                        <>{" ("}
+                            <button
+                                onClick={() => {
+                                    if (localPrefPsalmsWt === 'inclAnt') { setLocalPrefPsalmsWt(true) }
+                                    else { setLocalPrefPsalmsWt('inclAnt') }
+                                }}
+                                className={(localPrefPsalmsWt === 'inclAnt') ? 'underline' : ''}
+                            >
+                                auch Ant)
+                            </button>
+                        </>
+                    )}
                 </ButtonGroup>
             )}
             {showErgPs && (
@@ -232,9 +249,9 @@ export const SectionHeader = ({
                     <button
                         onClick={() => {
                             setLocalPrefComm(1)
-                            if (title === 'PSALMODIE') { setLocalPrefPsalmsWt(false) }
+                            if (isPsalmodie) { setLocalPrefPsalmsWt(false) }
                         }}
-                        className={localPrefComm === 1 ? 'underline' : ''}
+                        className={(!isPsalmsWt && localPrefComm === 1) ? 'underline' : ''}
                     >
                         Comm {nameComm1}
                     </button>
@@ -244,9 +261,9 @@ export const SectionHeader = ({
                             <button
                                 onClick={() => {
                                     setLocalPrefComm(2)
-                                    if (title === 'PSALMODIE') { setLocalPrefPsalmsWt(false) }
+                                    if (isPsalmodie) { setLocalPrefPsalmsWt(false) }
                                 }}
-                                className={localPrefComm === 2 ? 'underline' : ''}
+                                className={(!isPsalmsWt && localPrefComm === 2) ? 'underline' : ''}
                             >
                                 {nameComm2}
                             </button>
@@ -258,55 +275,77 @@ export const SectionHeader = ({
                             {" | "}
                             <button
                                 onClick={() => {
-                                    setLocalPrefComm(0)
-                                    if (title === 'PSALMODIE') { setLocalPrefPsalmsWt(true) }
+                                    if (isPsalmodie) { setLocalPrefPsalmsWt(true) }
+                                    else setLocalPrefComm(0)
                                 }}
-                                className={localPrefComm === 0 ? 'underline' : ''}
+                                className={(isPsalmsWt || localPrefComm === 0) ? 'underline' : ''}
                             >
                                 {`${isErsteLesung ? 'Bahnlesung' : 'Wt'}`}
                             </button>
                         </>
                     )}
+                    {showInclAnt && (
+                        <>
+                            {" ("}
+                            <button
+                                onClick={() => {
+                                    if (localPrefPsalmsWt === 'inclAnt') { setLocalPrefPsalmsWt(true) }
+                                    else { setLocalPrefPsalmsWt('inclAnt') }
+                                }}
+                                className={(localPrefPsalmsWt === 'inclAnt') ? 'underline' : ''}
+                            >
+                                auch Ant)
+                            </button>
+                        </>
+                    )}
                 </ButtonGroup>
             )}
-            {showTSN && (
-                <ButtonGroup>
-                    {['terz', 'sext', 'non'].map((hourName, index) => {
-                        const isExcluded = excludedHours.includes(hourName);
-                        return (
-                            <React.Fragment key={hourName}>
-                                {index > 0 && " | "}
-                                <button
-                                    onClick={() => !isExcluded && onSelectHour(hourName)}
-                                    disabled={isExcluded}
-                                    className={`${hour === hourName ? 'underline' : ''}
+            {
+                showTSN && (
+                    <ButtonGroup>
+                        {['terz', 'sext', 'non'].map((hourName, index) => {
+                            const isExcluded = excludedHours.includes(hourName);
+                            return (
+                                <React.Fragment key={hourName}>
+                                    {index > 0 && " | "}
+                                    <button
+                                        onClick={() => !isExcluded && onSelectHour(hourName)}
+                                        disabled={isExcluded}
+                                        className={`${hour === hourName ? 'underline' : ''}
                                     ${isExcluded ? 'text-gray-400 cursor-not-allowed' : ''}`
-                                    }
-                                >
-                                    {hourName[0].toUpperCase() + hourName.slice(1)}
-                                </button>
-                            </React.Fragment>
-                        );
-                    })}
-                </ButtonGroup>
-            )}
-            {invPsalms && (
-                <ButtonGroup>
-                    {[95, 100, 67, 24].map((psalmNumber, index) => (
-                        invPsalms?.includes(psalmNumber) ? (
-                            <React.Fragment key={psalmNumber}>
-                                {index > 0 && " | "}
-                                <button
-                                    onClick={() => setLocalPrefInv(psalmNumber)}
-                                    className={localPrefInv === psalmNumber ? 'underline' : ''}
-                                >
-                                    {psalmNumber === 95 ? `Ps ${psalmNumber}` : psalmNumber}
-                                </button>
-                            </React.Fragment>
-                        ) : null
-                    ))}
-                </ButtonGroup>
-            )}
-        </h2 >
+                                        }
+                                    >
+                                        {hourName[0].toUpperCase() + hourName.slice(1)}
+                                    </button>
+                                </React.Fragment>
+                            );
+                        })}
+                    </ButtonGroup>
+                )
+            }
+            {
+                invPsalms && (
+                    <ButtonGroup>
+                        {[95, 100, 67, 24].map((psalmNumber, index) => {
+                            const isAvailable = invPsalms?.includes(psalmNumber);
+                            return (
+                                <React.Fragment key={psalmNumber}>
+                                    {index > 0 && " | "}
+                                    <button
+                                        onClick={() => isAvailable && setLocalPrefInv(psalmNumber)}
+                                        disabled={!isAvailable}
+                                        className={`${localPrefInv === psalmNumber ? 'underline' : ''}
+                                ${!isAvailable ? 'text-gray-400 cursor-not-allowed' : ''}`}
+                                    >
+                                        {psalmNumber === 95 ? `Ps ${psalmNumber}` : psalmNumber}
+                                    </button>
+                                </React.Fragment>
+                            );
+                        })}
+                    </ButtonGroup>
+                )
+            }        </h2 >
     );
 };
+
+export default SectionHeader;
