@@ -395,12 +395,12 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
                     ? localStorage.getItem('popeNameLat') || 'Leóni'
                     : localStorage.getItem('bishopNameLat') || '^N';
 
-                if (casus === 'akk') {
-                    return name.replace(/i\b/g, 'em').replace(/o\b/g, 'um');
-                }
-                if (casus === 'abl') {
+                if (casus === 'akk')
+                    return name
+                        .replace(/i\b/g, 'em')
+                        .replace(/o\b/g, 'um');
+                if (casus === 'abl')
                     return name.replace(/i\b/g, 'e');
-                }
                 return name; // dat case
             })
             .replace(/(HERRN?|GOTT)/g, (match) => {
