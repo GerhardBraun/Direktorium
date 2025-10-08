@@ -37,23 +37,19 @@ const writeOut = (season, week, dayOfWeek, swdCombined, day, afterPentecost) => 
 
     // Spezielle Behandlung für die Aschermittwochswoche (0. Fastenwoche)
     if (season === 'q' && week === 0) {
-        if (dayOfWeek === 3) { return "Aschermittwoch"; }
-        else if (dayOfWeek > 3) {  // Donnerstag, Freitag, Samstag
+        if (dayOfWeek === 3) return "Aschermittwoch";
+        else if (dayOfWeek > 3)   // Donnerstag, Freitag, Samstag
             return `${dayName} nach Aschermittwoch`;
-        }
     }
 
-    if (season === 'w' && (day > 24 || day === 1)) {
+    if (season === 'w' && (day > 24 || day === 1))
         return `${dayName} in der Weihnachtsoktav`;
-    }
 
-    if (season === 'q' && week === 6) {
+    if (season === 'q' && week === 6)
         return `${dayName} der Karwoche`
-    }
 
-    if (season === 'o' && week === 1) {
+    if (season === 'o' && week === 1)
         return `${dayName} der Osteroktav`
-    }
 
     // Spezielle Formatierung für Sonntage
     if (dayOfWeek === 0) {
@@ -88,35 +84,32 @@ function calculateRanks(date, season, week, dayOfWeek, swdCombined, afterPenteco
     // Rank für Wochentag (rank_wt) bestimmen
     function calculateRankWt() {
         // 5. Feste nach Pfingsten
-        if (afterPentecost) {
+        if (afterPentecost)
             return [41, 46].includes(afterPentecost) ? 2 : 5
-        }
 
         // 1. Grundsätzlich sind alle Sonntage Rang 5
         if (dayOfWeek === 0) {
             // 2. Ausnahme: Sonntage in der Weihnachtszeit und im Jahreskreis (außer Christkönig) sind Rang 3
-            if ((season === 'j' && week !== 34) || season === 'w') {
+            if ((season === 'j' && week !== 34) || season === 'w')
                 return 3;
-            }
             return 5;
         }
 
         // 3. Karwoche und Osteroktav
-        if (swdCombined.startsWith('q-6-')) { return 5; }
-        if (swdCombined.startsWith('o-1-')) { return 5; }
+        if (swdCombined.startsWith('q-6-')) return 5;
+        if (swdCombined.startsWith('o-1-')) return 5;
 
         // 4. Aschermittwoch und Christi Himmelfahrt
-        if (['q-0-3', 'o-6-4'].includes(swdCombined)) { return 5; }
+        if (['q-0-3', 'o-6-4'].includes(swdCombined)) return 5;
 
         // 6. Gebotene Gedenktage und Kommemoration
-        if (season === 'q') { return 2; }          // Wochentage der Fastenzeit
-        if (month === 12 && day > 25) { return 2.4; }  // Weihnachtsoktav
-        if (month === 12 && day > 16) { return 2; }  // letzte Adventstage und Weihnachtszeit
+        if (season === 'q') return 2;           // Wochentage der Fastenzeit
+        if (month === 12 && day > 25) return 2.4;   // Weihnachtsoktav
+        if (month === 12 && day > 16) return 2;   // letzte Adventstage und Weihnachtszeit
 
         return 0; // Standard-Rang für alle anderen Tage
     }
 
-    // Rank für Datum (rank_date) bestimmen
     // Rank für Datum (rank_date) bestimmen
     function calculateRankDate() {
         const dateCompare = `${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`;

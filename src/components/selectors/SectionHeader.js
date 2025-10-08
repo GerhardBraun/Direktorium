@@ -4,7 +4,6 @@ import { getExcludedHours } from '../dataHandlers/ExcludedHours.js';
 
 const checkSources = (texts, hour, prefSrc, field) => {
     const hasEig = texts[hour][prefSrc]?.[field];
-    const hasEigAnt = texts[hour][prefSrc]?.ant0 || texts[hour][prefSrc]?.ant1;
     const hasWt = texts[hour].wt?.[field];
     const hasComm1 = texts[hour][prefSrc]?.com1?.[field];
     const hasComm2 = texts[hour][prefSrc]?.com2?.[field];
@@ -12,7 +11,7 @@ const checkSources = (texts, hour, prefSrc, field) => {
     const nameComm2 = texts.laudes[prefSrc]?.com2?.button || '2';
 
     return {
-        hasEig, hasEigAnt, hasWt,
+        hasEig, hasWt,
         hasComm1, hasComm2,
         nameComm1, nameComm2,
         showSources: !hasEig && hasWt && hasComm1,
@@ -48,7 +47,7 @@ const SectionHeader = ({
     const field = (hour === 'invitatorium' && provField === 'psalm1')
         ? 'ant0' : provField;
     const isCommemoration = texts?.isCommemoration || false
-    const { hasEig, hasEigAnt, hasWt, nameComm1, nameComm2, showSources, showBothComm } =
+    const { hasEig, hasWt, nameComm1, nameComm2, showSources, showBothComm } =
         checkSources(texts, hour, prefSrc, field);
 
     // Prüfe ob Terz/Sext/Non identische Psalmodie haben
@@ -120,22 +119,21 @@ const SectionHeader = ({
 
     // Prüfe, ob Commune übersprungen werden soll
     let skipCommune = false;
-    if (rank_date < 3 && (  // an Gedenktagen
+    if (rank_date < 3 && ( // an Gedenktagen
         (hour === 'lesehore' && // Lesehore: nur Hymnus und Oration ggf. Commune
-            !field.startsWith('hymn_') && field !== 'oration') ||
-        ((hour === 'laudes' || hour === 'vesper') &&  // Laudes/Vesper Psalmodie
-            (field.startsWith('psalm') ||
-                (field.startsWith('ant') && !field.startsWith('antev'))
-            )) ||
-        ['terz', 'sext', 'non'].includes(hour)) // Kleinen Horen: ganz vom Wt
-    ) { skipCommune = true };
+            !field.startsWith('hymn_') && field !== 'oration'
+        ) || (
+            ['laudes', 'vesper'].includes(hour) &&  // Laudes/Vesper Psalmodie
+            isPsalmodie && texts?.laudes?.eig?.com1?.button !== 'Evang'
+        )
+        || ['terz', 'sext', 'non'].includes(hour) // Kleinen Horen: ganz vom Wt
+    )) skipCommune = true;
 
     if (rank_date < 5 &&    // an Festen: Ant und Ps in Kleinen Horen vom Wt
-        ['terz', 'sext', 'non'].includes(hour) &&
-        (field.startsWith('psalm') || field.startsWith('ant'))
-    ) { skipCommune = true };
+        ['terz', 'sext', 'non'].includes(hour) && isPsalmodie
+    ) skipCommune = true;
 
-    if (isCommemoration) { skipCommune = true }
+    if (isCommemoration) skipCommune = true
 
     if (prefSollemnity === 'soll' ||   // Hochfeste und 1. Vesper: Comm, wenn nicht eigen, nicht vom Wt
         (texts?.hasErsteVesper && hour === 'vesper'))
@@ -153,13 +151,11 @@ const SectionHeader = ({
     // einfacher Header ohne Buttons
     if (["VERSIKEL", "RESPONSORIUM"].includes(title) ||
         (!invPsalms && !showSources && !askLatin
-            && !showPsalmsWt && !showContinuous && !showTSN && !showErgPs))
+            && !showPsalmsWt && !showContinuous && !showTSN && !showErgPs)) {
         return <h2 className="prayer-heading">{title}</h2>;
-
+    }
     const ButtonGroup = ({ children }) => (
-        <span
-            className="inline-block font-normal text-[0.85em]"
-        >
+        <span className="inline-block font-normal text-[0.85em]"        >
             {children}
         </span>
     );

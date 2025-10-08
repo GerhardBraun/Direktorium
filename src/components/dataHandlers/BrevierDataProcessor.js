@@ -648,12 +648,15 @@ export function processBrevierData(todayDate) {
         ...kompletSettings
     };
 
-    finalData.useFeastPsalms =
+    const dateCompare = `${todayMonth.toString().padStart(2, '0')}-${todayDay.toString().padStart(2, '0')}`;
+    finalData.useFeastPsalms = (
         (rank_date > 2 || rank_wt > 2) // Hochfeste und Feste: Ps vom So der I. Woche
         // nicht am Sonntag, Aschermittwoch oder Allerseelen
         && dayOfWeek !== 0 && swdCombined !== 'q-0-3'
-        && !(todayMonth === 11 && todayDay === 2)
-
+        && dateCompare !== '11-02'
+    ) || // Gedenktage mit Ps vom Fest
+        ['01-21', '05-01', '06-11', '08-29', '09-15', '10-02', '10-07', '11-11']
+            .includes(dateCompare);
 
     finalData.hasZweiteVesper = (kompletSettings.prefKomplet === 'k2'
         && !['q-6-4', 'q-6-5', 'q-6-6', 'o-1-0'].includes(swdCombined));

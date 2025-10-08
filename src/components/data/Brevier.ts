@@ -1516,6 +1516,7 @@ export const brevierData = {
           "ant0_lat": "Dóminum in Evangélio loquéntem, veníte adorémus.^LÖ"
         },
         "Laudes": {
+          "button": "Evang",
           "ant1": "Die heiligen Evangelisten erforschten die Weisheit der Alten und bekräftigten ihre Botschaft durch die Worte der Propheten.^Ö",
           "ant2": "Zum Glauben an die Wahrheit hat Gott uns berufen durch das Evangelium, damit wir die Herrlichkeit unseres Herrn Jesus Christus erlangen.^Ö",
           "ant3": "Viele loben ihre Weisheit; sie wird niemals vergehen.^Ö",
