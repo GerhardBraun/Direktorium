@@ -405,7 +405,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
             })
             .replace(/(HERRN?|GOTT)/g, (match) => {
                 const word = firstCapital(match);
-                return localPrefLanguage === '_neu' ? `^c${word}^0c` : word;
+                return ['_neu', '_ben'].includes(localPrefLanguage) ? `^c${word}^0c` : word;
             })
     }
 
