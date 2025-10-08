@@ -403,7 +403,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
                     return name.replace(/i\b/g, 'e');
                 return name; // dat case
             })
-            .replace(/(HERRN?|GOTT)/g, (match) => {
+            .replace(/(HERRN?|GOTT|IHN)/g, (match) => {
                 const word = firstCapital(match);
                 return ['_neu', '_ben'].includes(localPrefLanguage) ? `^c${word}^0c` : word;
             })

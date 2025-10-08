@@ -2574,6 +2574,7 @@ export default function LiturgicalCalendar() {
         case "": return "Stundenbuch";
         case "_lat": return "Latein";
         case "_neu": return "neue EÜ";
+        case "_ben": return "Münsterschwarzacher\u00a0Psalter";
         default: return "Unbekannt";
       }
     };
@@ -2721,14 +2722,14 @@ export default function LiturgicalCalendar() {
               <div className="mb-2 text-xs text-gray-500 dark:text-gray-400">
                 {renderDescriptionItem("Stundenbuch:", "Einheitsübersetzung von 1983")}
                 {renderDescriptionItem("lat.:", "Nova Vulgata", 4)}
+                {renderDescriptionItem("Ben:", "Benediktinisches Antiphonale / Münsterschwarzacher Psalter", 3)}
                 {renderDescriptionItem("neu:", "Einheitsübersetzung von 2016", 3)}
-                {renderDescriptionItem("ben:", "Benediktinisches Antiphonale / Münsterschwarzacher Psalter", 3)}
               </div>
               <div className="grid grid-cols-5 gap-0">
                 {LanguageButton("", "Stundenbuch", "col-span-2")}
                 {LanguageButton("_lat", "lat.")}
+                {LanguageButton("_ben", "Ben")}
                 {LanguageButton("_neu", "neu")}
-                {LanguageButton("_ben", "ben")}
               </div>
               <div className="mt-2 text-xs text-gray-500 dark:text-gray-400">
                 <p><b>Grundeinstellung:</b> {getLanguageName(storedPrefLanguage)}</p>
