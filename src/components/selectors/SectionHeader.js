@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useState, useRef } from 'react';
 import { getValue } from '../dataHandlers/GetValue.js';
 import { getExcludedHours } from '../dataHandlers/ExcludedHours.js';
 
@@ -45,6 +45,8 @@ const SectionHeader = ({
     setLocalPrefContinuous,
     setLocalPrefComm
 }) => {
+    const [pressTimer, setPressTimer] = useState(null);
+
     const field = (hour === 'invitatorium' && provField === 'psalm1')
         ? 'ant0' : provField;
     const isCommemoration = texts?.isCommemoration || false
@@ -140,6 +142,32 @@ const SectionHeader = ({
         setLocalPrefLatin(newLanguage === '_lat');
         setLocalPrefLanguage(newLanguage);
     };
+
+    const handlePressStart = (e) => {
+        let triggered = false;
+
+        const timer = setTimeout(() => {
+            triggered = true;
+            setLocalPrefLatin(false);
+            setLocalPrefLanguage('');
+            console.log('handlePressStart: Long press detected, language set to Aus');
+        }, 800);
+
+        setPressTimer({ timer, getTriggered: () => triggered });
+    };
+
+    const handlePressEnd = () => {
+        console.log('handlePressEnd: longPressTriggered: ', pressTimer?.getTriggered());
+
+        if (pressTimer) {
+            clearTimeout(pressTimer.timer);
+            setPressTimer(null);
+
+            if (!pressTimer.getTriggered())
+                handleLanguageToggle();
+
+        }
+    };
     // Prüfe, ob Commune übersprungen werden soll
     let skipCommune = false;
     if (rank_date < 3 && ( // an Gedenktagen
@@ -189,18 +217,30 @@ const SectionHeader = ({
             {showLanguageToggle && (
                 <ButtonGroup>
                     <button
-                        onClick={handleLanguageToggle}
+                        onMouseDown={handlePressStart}
+                        onMouseUp={handlePressEnd}
+                        onTouchStart={handlePressStart}
+                        onTouchEnd={handlePressEnd}
+                        onTouchCancel={handlePressEnd}
                         className={!hasLatin && localPrefLanguage === languages[0] ? 'underline' : ''}
                     >
                         ({label1}
                     </button>
                     <button
-                        onClick={handleLanguageToggle}
+                        onMouseDown={handlePressStart}
+                        onMouseUp={handlePressEnd}
+                        onTouchStart={handlePressStart}
+                        onTouchEnd={handlePressEnd}
+                        onTouchCancel={handlePressEnd}
                     >
                         {"/"}
                     </button>
                     <button
-                        onClick={handleLanguageToggle}
+                        onMouseDown={handlePressStart}
+                        onMouseUp={handlePressEnd}
+                        onTouchStart={handlePressStart}
+                        onTouchEnd={handlePressEnd}
+                        onTouchCancel={handlePressEnd}
                         className={!hasLatin && localPrefLanguage === languages[1] ? 'underline' : ''}
                     >
                         {label2}
