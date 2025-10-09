@@ -36,6 +36,7 @@ const SectionHeader = ({
     localPrefContinuous,
     localPrefInv,
     localPrefLatin,
+    localPrefLanguage,
     setLocalPrefLatin,
     setLocalPrefLanguage,
     setLocalPrefInv,
@@ -84,9 +85,8 @@ const SectionHeader = ({
         localPrefPsalmsWt, localPrefErgPs, localPrefContinuous]);
 
     // Bestimme ausgeschlossene Horen für TSN basierend auf Ergänzungspsalmodie
-    const excludedHours = useMemo(() => {
-        return getExcludedHours(texts, localPrefErgPs, title);
-    }, [texts, localPrefErgPs, title]);
+    const excludedHours = getExcludedHours(texts, localPrefErgPs, title);
+
 
     const isPsalmodie = title === 'PSALMODIE' && !['invitatorium', 'komplet'].includes(hour);
     const isPsalmsWt = isPsalmodie && localPrefPsalmsWt;
@@ -107,16 +107,39 @@ const SectionHeader = ({
     const invPsalms = (hour === 'invitatorium' && title === 'PSALMODIE')
         ? texts?.invitatorium?.psalms : null;
 
+    // Ersetze den Abschnitt "(dt./lat.)-Button anzeigen?" bis einschließlich const languages:
+
     // (dt./lat.)-Button anzeigen?
-    let askLatin = true;
+    let showLanguageToggle = true;
     if (title === 'VERSIKEL'
         || (hour === 'invitatorium' && title === 'PSALMODIE')
         || (hour === 'lesehore' && /^(les_|resp|patr_)/.test(field))
         || (isTSN && title === 'ORATION')
-    ) askLatin = false
+    ) showLanguageToggle = false
     else if (title === 'HYMNUS')
-        askLatin = localStorage.getItem('ommitOpening') === 'true' ? true : false
+        showLanguageToggle = localStorage.getItem('ommitOpening') === 'true' ? true : false
 
+    // Hole die gewählten Sprachen aus localStorage
+    const languages = JSON.parse(localStorage.getItem('languages') || '["", "_lat"]');
+
+    // Bestimme die Anzeigetexte für die Sprachen
+    const getLanguageLabel = (langCode) => {
+        const labels = { '': 'Stb', '_lat': 'lat.', '_neu': 'neu', '_ben': 'Ben' };
+        return labels[langCode] || langCode;
+    };
+
+    // Spezialfall: Wenn _lat dabei ist, andere Sprache als "dt." anzeigen
+    const hasLatin = languages.includes('_lat');
+    const label1 = hasLatin && languages[0] !== '_lat' ? 'dt.' : getLanguageLabel(languages[0]);
+    const label2 = hasLatin && languages[1] !== '_lat' ? 'dt.' : getLanguageLabel(languages[1]);
+
+    const handleLanguageToggle = () => {
+        const currentIndex = languages.indexOf(localPrefLanguage);
+        const newIndex = currentIndex !== 0 ? 0 : 1;
+        const newLanguage = languages[newIndex];
+        setLocalPrefLatin(newLanguage === '_lat');
+        setLocalPrefLanguage(newLanguage);
+    };
     // Prüfe, ob Commune übersprungen werden soll
     let skipCommune = false;
     if (rank_date < 3 && ( // an Gedenktagen
@@ -150,7 +173,7 @@ const SectionHeader = ({
 
     // einfacher Header ohne Buttons
     if (["VERSIKEL", "RESPONSORIUM"].includes(title) ||
-        (!invPsalms && !showSources && !askLatin
+        (!invPsalms && !showSources && !showLanguageToggle
             && !showPsalmsWt && !showContinuous && !showTSN && !showErgPs)) {
         return <h2 className="prayer-heading">{title}</h2>;
     }
@@ -163,16 +186,26 @@ const SectionHeader = ({
     return (
         <h2 className="prayer-heading inline-block space-x-3 items-baseline">
             <span className="inline-block">{title}</span>
-            {askLatin && (
+            {showLanguageToggle && (
                 <ButtonGroup>
                     <button
-                        onClick={() => {
-                            const newLatinValue = !localPrefLatin;
-                            setLocalPrefLatin(newLatinValue);
-                            setLocalPrefLanguage(newLatinValue ? '_lat' : '');
-                        }}                    >
-                        (dt./lat.)
+                        onClick={handleLanguageToggle}
+                        className={!hasLatin && localPrefLanguage === languages[0] ? 'underline' : ''}
+                    >
+                        ({label1}
                     </button>
+                    <button
+                        onClick={handleLanguageToggle}
+                    >
+                        {"/"}
+                    </button>
+                    <button
+                        onClick={handleLanguageToggle}
+                        className={!hasLatin && localPrefLanguage === languages[1] ? 'underline' : ''}
+                    >
+                        {label2}
+                    </button>
+                    {")"}
                 </ButtonGroup>
             )}
             {showPsalmsWt && (

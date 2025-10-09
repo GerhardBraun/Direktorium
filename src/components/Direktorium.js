@@ -1314,6 +1314,7 @@ const PrayerTextDisplay = ({
         localPrefContinuous={localPrefContinuous}
         localPrefInv={localPrefInv}
         localPrefLatin={localPrefLatin}
+        localPrefLanguage={localPrefLanguage}
         setLocalPrefLatin={setLocalPrefLatin}
         setLocalPrefLanguage={setLocalPrefLanguage}
         setLocalPrefInv={setLocalPrefInv}

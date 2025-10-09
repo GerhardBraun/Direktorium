@@ -19,16 +19,19 @@ const PersonalSettings = () => {
     const [prefLanguage, setPrefLanguage] = useState(() =>
         localStorage.getItem('prefLanguage') || ''
     );
-
-    // Neue States für Diözese und Vacancy
     const [diocese, setDiocese] = useState(() =>
         localStorage.getItem('diocese') || 'Fulda'
     );
+
     const [vacancy, setVacancy] = useState(() =>
         localStorage.getItem('vacancy') === 'true'
     );
     const [showDioceseDropdown, setShowDioceseDropdown] = useState(false);
-
+    const [languages, setLanguages] = useState(() => {
+        const stored = localStorage.getItem('languages');
+        return stored ? JSON.parse(stored) : ['', '_lat'];
+    });
+    const [showLanguageDropdown, setShowLanguageDropdown] = useState(false);
     const [popeName, setPopeName] = useState(() =>
         localStorage.getItem('popeName') || 'Leo'
     );
@@ -140,6 +143,24 @@ const PersonalSettings = () => {
     useEffect(() => {
         setLocalStorage('prefLanguage', prefLanguage);
     }, [prefLanguage]);
+
+    useEffect(() => {
+        setLocalStorage('languages', JSON.stringify(languages));
+    }, [languages]);
+
+    // Click-outside Handler für Language Dropdown (nach dem Diocese Click-outside Handler):
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (showLanguageDropdown && !event.target.closest('.language-dropdown')) {
+                setShowLanguageDropdown(false);
+            }
+        };
+
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, [showLanguageDropdown]);
 
     useEffect(() => {
         setLocalStorage('diocese', diocese);
@@ -270,6 +291,10 @@ const PersonalSettings = () => {
                         setSequenceInv(data.settings.sequenceInv);
                         setLocalStorage('sequenceInv', JSON.stringify(data.settings.sequenceInv));
                     }
+                    if (data.settings.languages) {
+                        setLanguages(data.settings.languages);
+                        setLocalStorage('languages', JSON.stringify(data.settings.languages));
+                    }
                 }
                 alert('Persönliche Einstellungen erfolgreich importiert');
             } else {
@@ -288,6 +313,7 @@ const PersonalSettings = () => {
         exportData.settings = {
             startViewMode: startView,
             prefLanguage,
+            languages,
             diocese,
             vacancy,
             popeName,
@@ -367,6 +393,93 @@ const PersonalSettings = () => {
                         Beim ersten Aufruf des Tages wird zunächst das Direktorium angezeigt, bei&nbsp;den weiteren Aufrufen direkt das&nbsp;Stundengebet.
                     </p>
                 </div>
+            </div>
+
+            {/* Language Selection Section */}
+            <div className="px-3">
+                <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
+                    Schnellschalter für Sprachauswahl
+                </div>
+                <div className="relative language-dropdown">
+                    <button
+                        onClick={() => setShowLanguageDropdown(!showLanguageDropdown)}
+                        className="w-full px-3 py-1 text-sm bg-gray-100 dark:bg-gray-800
+                border dark:border-gray-600 rounded text-left
+                text-gray-900 dark:text-gray-100 hover:bg-gray-200 dark:hover:bg-gray-700"
+                    >
+                        {(() => {
+                            const langKey = `${languages[0]}-${languages[1]}`;
+                            const options = {
+                                '-_lat': 'Stb/lat.',
+                                '_ben-_lat': 'Ben/lat.',
+                                '_neu-_lat': 'neu/lat.',
+                                '-_ben': 'Stb/Ben',
+                                '-_neu': 'Stb/neu',
+                                '_ben-_neu': 'Ben/neu'
+                            };
+                            return options[langKey] || 'Stb/lat.';
+                        })()}
+                        <span className="float-right">▼</span>
+                    </button>
+
+                    {showLanguageDropdown && (
+                        <div className="absolute top-full left-0 right-0 mt-1 bg-white dark:bg-gray-800
+        border dark:border-gray-600 rounded shadow-lg z-50">
+                            <div className="grid grid-cols-2">
+                                {/* Linke Spalte: Kombinationen mit lat. */}
+                                <div className="border-r dark:border-gray-600">
+                                    {[
+                                        [['', '_lat'], 'Stb/lat.'],
+                                        [['_ben', '_lat'], 'Ben/lat.'],
+                                        [['_neu', '_lat'], 'neu/lat.']
+                                    ].map(([langPair, label]) => {
+                                        const isSelected = (languages[0] === langPair[0] && languages[1] === langPair[1]) ||
+                                            (languages[0] === langPair[1] && languages[1] === langPair[0]);
+                                        return (
+                                            <button
+                                                key={label}
+                                                onClick={() => {
+                                                    setLanguages(langPair);
+                                                    setShowLanguageDropdown(false);
+                                                }}
+                                                className={`w-full px-3 pt-1 text-left text-sm hover:bg-gray-100 dark:hover:bg-gray-700
+                                text-gray-900 dark:text-gray-100
+                                ${isSelected ? 'bg-orange-100 dark:bg-yellow-400/60' : ''}`}
+                                            >
+                                                {label}
+                                            </button>
+                                        );
+                                    })}
+                                </div>
+
+                                {/* Rechte Spalte: Deutsche Kombinationen */}
+                                <div>
+                                    {[
+                                        [['', '_ben'], 'Stb/Ben'],
+                                        [['', '_neu'], 'Stb/neu'],
+                                        [['_ben', '_neu'], 'Ben/neu']
+                                    ].map(([langPair, label]) => {
+                                        const isSelected = (languages[0] === langPair[0] && languages[1] === langPair[1]) ||
+                                            (languages[0] === langPair[1] && languages[1] === langPair[0]);
+                                        return (
+                                            <button
+                                                key={label}
+                                                onClick={() => {
+                                                    setLanguages(langPair);
+                                                    setShowLanguageDropdown(false);
+                                                }}
+                                                className={`w-full px-3 pt-1 text-left text-sm hover:bg-gray-100 dark:hover:bg-gray-700
+                                text-gray-900 dark:text-gray-100
+                                ${isSelected ? 'bg-orange-100 dark:bg-yellow-400/60' : ''}`}
+                                            >
+                                                {label}
+                                            </button>
+                                        );
+                                    })}
+                                </div>
+                            </div>
+                        </div>
+                    )}                </div>
             </div>
 
             {/* Diocese Section - NEU */}
