@@ -2,23 +2,6 @@ import React, { useMemo, useState, useRef } from 'react';
 import { getValue } from '../dataHandlers/GetValue.js';
 import { getExcludedHours } from '../dataHandlers/ExcludedHours.js';
 
-const checkSources = (texts, hour, prefSrc, field) => {
-    const hasEig = texts[hour][prefSrc]?.[field];
-    const hasWt = texts[hour].wt?.[field];
-    const hasComm1 = texts[hour][prefSrc]?.com1?.[field];
-    const hasComm2 = texts[hour][prefSrc]?.com2?.[field];
-    const nameComm1 = texts.laudes[prefSrc]?.com1?.button || '1';
-    const nameComm2 = texts.laudes[prefSrc]?.com2?.button || '2';
-
-    return {
-        hasEig, hasWt,
-        hasComm1, hasComm2,
-        nameComm1, nameComm2,
-        showSources: !hasEig && hasWt && hasComm1,
-        showBothComm: hasComm1 && hasComm2
-    };
-};
-
 const SectionHeader = ({
     title,
     provField,
@@ -47,11 +30,57 @@ const SectionHeader = ({
 }) => {
     const [pressTimer, setPressTimer] = useState(null);
 
-    const field = (hour === 'invitatorium' && provField === 'psalm1')
-        ? 'ant0' : provField;
-    const isCommemoration = texts?.isCommemoration || false
-    const { hasEig, hasWt, nameComm1, nameComm2, showSources, showBothComm } =
-        checkSources(texts, hour, prefSrc, field);
+    const checkSources = (field) => {
+        const hasEig = texts[hour][prefSrc]?.[field];
+        const hasWt = texts[hour].wt?.[field];
+        const hasComm1 = texts[hour][prefSrc]?.com1?.[field];
+        const hasComm2 = texts[hour][prefSrc]?.com2?.[field];
+        const nameComm1 = texts.laudes[prefSrc]?.com1?.button || '1';
+        const nameComm2 = texts.laudes[prefSrc]?.com2?.button || '2';
+
+        return {
+            hasEig, hasWt,
+            hasComm1, hasComm2,
+            nameComm1, nameComm2,
+            showSources: !hasEig && hasWt && hasComm1,
+            showBothComm: hasComm1 && hasComm2
+        };
+    };
+
+    const handleLanguageToggle = () => {
+        const currentIndex = languages.indexOf(localPrefLanguage);
+        const newIndex = currentIndex !== 0 ? 0 : 1;
+        const newLanguage = languages[newIndex];
+        setLocalPrefLatin(newLanguage === '_lat');
+        setLocalPrefLanguage(newLanguage);
+    };
+
+    const handlePressStart = (e) => {
+        let triggered = false;
+        const timer = setTimeout(() => {
+            triggered = true;
+            setLocalPrefLatin(false);
+            setLocalPrefLanguage('');
+        }, 800);
+        setPressTimer({ timer, getTriggered: () => triggered });
+    };
+
+    const handlePressEnd = () => {
+        if (pressTimer) {
+            clearTimeout(pressTimer.timer);
+            setPressTimer(null);
+            if (!pressTimer.getTriggered())
+                handleLanguageToggle();
+        }
+    };
+
+    const pressHandlers = {
+        onMouseDown: handlePressStart,
+        onMouseUp: handlePressEnd,
+        onTouchStart: handlePressStart,
+        onTouchEnd: handlePressEnd,
+        onTouchCancel: handlePressEnd
+    };
 
     // Prüfe ob Terz/Sext/Non identische Psalmodie haben
     const isIdenticalTerzSext = useMemo(() => {
@@ -86,15 +115,17 @@ const SectionHeader = ({
     }, [hour, title, texts, prefSrc, prefSollemnity, localPrefComm,
         localPrefPsalmsWt, localPrefErgPs, localPrefContinuous]);
 
-    // Bestimme ausgeschlossene Horen für TSN basierend auf Ergänzungspsalmodie
-    const excludedHours = getExcludedHours(texts, localPrefErgPs, title);
 
+    const field = (hour === 'invitatorium' && provField === 'psalm1')
+        ? 'ant0' : provField;
+    const isCommemoration = texts?.isCommemoration || false
+    const { hasEig, hasWt, nameComm1, nameComm2, showSources, showBothComm } =
+        checkSources(field);
 
     const isPsalmodie = title === 'PSALMODIE' && !['invitatorium', 'komplet'].includes(hour);
     const isPsalmsWt = isPsalmodie && localPrefPsalmsWt;
-    const showPsalmsWt = hasWt
+    const showPsalmsWt = hasWt && isPsalmodie
         && (hasEig || (hour === 'laudes' && texts?.useFeastPsalms))
-        && isPsalmodie
     const showInclAnt = isPsalmodie &&
         !(texts[hour][prefSrc]?.ant0 || texts[hour][prefSrc]?.ant1);
     const showContinuous = hasEig && hasWt && askContinuous
@@ -106,10 +137,10 @@ const SectionHeader = ({
     const showErgPs = isTSN
         && isPsalmodie
         && !(prefSollemnity || rank_date === 5 || rank_wt === 5);
+    // Bestimme ausgeschlossene Horen für TSN basierend auf Ergänzungspsalmodie
+    const excludedHours = getExcludedHours(texts, localPrefErgPs, title);
     const invPsalms = (hour === 'invitatorium' && title === 'PSALMODIE')
         ? texts?.invitatorium?.psalms : null;
-
-    // Ersetze den Abschnitt "(dt./lat.)-Button anzeigen?" bis einschließlich const languages:
 
     // Hole die gewählten Sprachen aus localStorage
     const languages = JSON.parse(localStorage.getItem('languages') || '["", "_lat"]');
@@ -121,7 +152,7 @@ const SectionHeader = ({
         || (hour === 'lesehore' && /^(les_|resp|patr_)/.test(field))
         || (isTSN && title === 'ORATION')
     ) showLanguageToggle = false
-    else if (title === 'HYMNUS')
+    else if (title === 'HYMNUS' && showLanguageToggle)
         showLanguageToggle = localStorage.getItem('ommitOpening') === 'true' ? true : false
 
     // Bestimme die Anzeigetexte für die Sprachen
@@ -131,43 +162,10 @@ const SectionHeader = ({
     };
 
     // Spezialfall: Wenn _lat dabei ist, andere Sprache als "dt." anzeigen
-    const hasLatin = languages.includes('_lat');
-    const label1 = hasLatin && languages[0] !== '_lat' ? 'dt.' : getLanguageLabel(languages[0]);
-    const label2 = hasLatin && languages[1] !== '_lat' ? 'dt.' : getLanguageLabel(languages[1]);
+    const hasLatin = !languages[0] && languages[1] === '_lat' // nur für Stb/lat.
+    const label1 = hasLatin ? 'dt.' : getLanguageLabel(languages[0]);
+    const label2 = getLanguageLabel(languages[1]);
 
-    const handleLanguageToggle = () => {
-        const currentIndex = languages.indexOf(localPrefLanguage);
-        const newIndex = currentIndex !== 0 ? 0 : 1;
-        const newLanguage = languages[newIndex];
-        setLocalPrefLatin(newLanguage === '_lat');
-        setLocalPrefLanguage(newLanguage);
-    };
-    //Änderung zum GitHub-Test
-    const handlePressStart = (e) => {
-        let triggered = false;
-
-        const timer = setTimeout(() => {
-            triggered = true;
-            setLocalPrefLatin(false);
-            setLocalPrefLanguage('');
-            console.log('handlePressStart: Long press detected, language set to Aus');
-        }, 800);
-
-        setPressTimer({ timer, getTriggered: () => triggered });
-    };
-
-    const handlePressEnd = () => {
-        console.log('handlePressEnd: longPressTriggered: ', pressTimer?.getTriggered());
-
-        if (pressTimer) {
-            clearTimeout(pressTimer.timer);
-            setPressTimer(null);
-
-            if (!pressTimer.getTriggered())
-                handleLanguageToggle();
-
-        }
-    };
     // Prüfe, ob Commune übersprungen werden soll
     let skipCommune = false;
     if (rank_date < 3 && ( // an Gedenktagen
@@ -216,31 +214,16 @@ const SectionHeader = ({
             <span className="inline-block">{title}</span>
             {showLanguageToggle && (
                 <ButtonGroup>
-                    <button
-                        onMouseDown={handlePressStart}
-                        onMouseUp={handlePressEnd}
-                        onTouchStart={handlePressStart}
-                        onTouchEnd={handlePressEnd}
-                        onTouchCancel={handlePressEnd}
+                    {"("}
+                    <button {...pressHandlers}
                         className={!hasLatin && localPrefLanguage === languages[0] ? 'underline' : ''}
                     >
-                        ({label1}
+                        {label1}
                     </button>
-                    <button
-                        onMouseDown={handlePressStart}
-                        onMouseUp={handlePressEnd}
-                        onTouchStart={handlePressStart}
-                        onTouchEnd={handlePressEnd}
-                        onTouchCancel={handlePressEnd}
-                    >
+                    <button {...pressHandlers}>
                         {"/"}
                     </button>
-                    <button
-                        onMouseDown={handlePressStart}
-                        onMouseUp={handlePressEnd}
-                        onTouchStart={handlePressStart}
-                        onTouchEnd={handlePressEnd}
-                        onTouchCancel={handlePressEnd}
+                    <button {...pressHandlers}
                         className={!hasLatin && localPrefLanguage === languages[1] ? 'underline' : ''}
                     >
                         {label2}

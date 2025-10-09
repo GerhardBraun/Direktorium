@@ -550,7 +550,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
     };
 
     // Prüfen, ob der Text Absatz-Tags enthält
-    const hasParagraphTags = /\^[phql]/.test(text);
+    const hasParagraphTags = /\^[phqlx]/.test(text);
 
     if (!hasParagraphTags) {
         // Bei Texten ohne Absatz-Tags: Direkt Inline-Formatierung zurückgeben
@@ -570,10 +570,10 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
     });
 
     // Text in Absätze aufteilen
-    let segments = processedText.split(/(?=\^[phq])/);
+    let segments = processedText.split(/(?=\^[phqx])/);
 
     // KORREKTUR: Prüfen ob der Text mit einem ERKANNTEN Format-Tag beginnt
-    if (!segments[0].match(/^\^[phq]/)) {
+    if (!segments[0].match(/^\^[phqx]/)) {
         // Wenn NICHT mit ^p, ^h oder ^q beginnt, als Standard-Absatz behandeln
         segments = [segments[0], ...segments.slice(1)];
     }
@@ -586,7 +586,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
                     let format = 'p';  // Standard-Format
                     let content = segment;
 
-                    if (segment.match(/^\^[phq]/)) {
+                    if (segment.match(/^\^[phqx]/)) {
                         format = segment[1];
                         content = segment.slice(2);
                     }
@@ -612,6 +612,15 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
                                     <div>{processedContent}</div>
                                 </div>
                             );
+                        case 'x':
+                            return (
+                                <div key={index}
+                                    className="whitespace-pre-wrap mb-[0.75em]
+                                text-gray-500 dark:text-gray-400 text-[0.95em]
+                                leading-[1.2em]">
+                                    {processedContent}
+                                </div>
+                            )
                         default:
                             return (
                                 <div key={index} className="whitespace-pre-wrap mb-[0.75em]">
