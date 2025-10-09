@@ -79,9 +79,9 @@ const SectionHeader = ({
     const pressHandlers = {
         onMouseDown: handlePressStart,
         onMouseUp: handlePressEnd,
-        //onTouchStart: handlePressStart,
-        //onTouchEnd: handlePressEnd,
-        //onTouchCancel: handlePressEnd
+        onTouchStart: handlePressStart,
+        onTouchEnd: handlePressEnd,
+        onTouchCancel: handlePressEnd,
         style: {
             userSelect: 'none',
             WebkitUserSelect: 'none',
@@ -235,7 +235,7 @@ const SectionHeader = ({
                     >
                         {label2}
                     </button>
-                    {");"}
+                    {")'"}
                 </ButtonGroup>
             )}
             {showPsalmsWt && (
