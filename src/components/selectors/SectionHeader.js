@@ -142,7 +142,7 @@ const SectionHeader = ({
         setLocalPrefLatin(newLanguage === '_lat');
         setLocalPrefLanguage(newLanguage);
     };
-
+    //Änderung zum GitHub-Test
     const handlePressStart = (e) => {
         let triggered = false;
 
