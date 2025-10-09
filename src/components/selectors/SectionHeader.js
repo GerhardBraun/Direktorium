@@ -82,6 +82,11 @@ const SectionHeader = ({
         //onTouchStart: handlePressStart,
         //onTouchEnd: handlePressEnd,
         //onTouchCancel: handlePressEnd
+        style: {
+            userSelect: 'none',
+            WebkitUserSelect: 'none',
+            WebkitTouchCallout: 'none'
+        }
     };
 
     // Prüfe ob Terz/Sext/Non identische Psalmodie haben
@@ -230,7 +235,7 @@ const SectionHeader = ({
                     >
                         {label2}
                     </button>
-                    {"):"}
+                    {");"}
                 </ButtonGroup>
             )}
             {showPsalmsWt && (
