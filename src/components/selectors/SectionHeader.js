@@ -56,46 +56,32 @@ const SectionHeader = ({
     };
 
     const handlePressStart = (e) => {
-        // Ignoriere Mouse-Events, wenn es ein Touch war
-        if (e.type === 'mousedown' && pressTimer?.isTouch) {
-            return;
-        }
-
+        e.preventDefault();
         let triggered = false;
         const timer = setTimeout(() => {
             triggered = true;
             setLocalPrefLatin(false);
             setLocalPrefLanguage('');
         }, 800);
-        setPressTimer({
-            timer,
-            getTriggered: () => triggered,
-            isTouch: e.type.startsWith('touch') // Merke, ob es ein Touch war
-        });
+        setPressTimer({ timer, getTriggered: () => triggered });
     };
 
     const handlePressEnd = (e) => {
-        // Ignoriere Mouse-Events, wenn es ein Touch war
-        if (e.type === 'mouseup' && pressTimer?.isTouch) {
-            return;
-        }
-
+        e.preventDefault();
         if (pressTimer) {
             clearTimeout(pressTimer.timer);
-            const wasTriggered = pressTimer.getTriggered();
             setPressTimer(null);
-            if (!wasTriggered) {
+            if (!pressTimer.getTriggered())
                 handleLanguageToggle();
-            }
         }
     };
 
     const pressHandlers = {
+        // onTouchStart: handlePressStart,
+        // onTouchEnd: handlePressEnd,
+        // onTouchCancel: handlePressEnd,
         onMouseDown: handlePressStart,
         onMouseUp: handlePressEnd,
-        onTouchStart: handlePressStart,
-        onTouchEnd: handlePressEnd,
-        onTouchCancel: handlePressEnd,
         style: {
             userSelect: 'none',
             WebkitUserSelect: 'none',
@@ -249,7 +235,7 @@ const SectionHeader = ({
                     >
                         {label2}
                     </button>
-                    {")."}
+                    {")'"}
                 </ButtonGroup>
             )}
             {showPsalmsWt && (
