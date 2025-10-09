@@ -77,9 +77,9 @@ const SectionHeader = ({
     const pressHandlers = {
         onMouseDown: handlePressStart,
         onMouseUp: handlePressEnd,
-        onTouchStart: handlePressStart,
-        onTouchEnd: handlePressEnd,
-        onTouchCancel: handlePressEnd
+        //onTouchStart: handlePressStart,
+        //onTouchEnd: handlePressEnd,
+        //onTouchCancel: handlePressEnd
     };
 
     // Prüfe ob Terz/Sext/Non identische Psalmodie haben
