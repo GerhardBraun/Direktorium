@@ -411,6 +411,7 @@ const PersonalSettings = () => {
                         >                        {(() => {
                             const langKey = `${languages[0]}-${languages[1]}`;
                             const options = {
+                                'aus-aus': 'Aus',
                                 '-_lat': 'Stb/lat.',
                                 '_ben-_lat': 'Ben/lat.',
                                 '_neu-_lat': 'neu/lat.',
@@ -426,7 +427,23 @@ const PersonalSettings = () => {
                         {showLanguageDropdown && (
                             <div className="absolute top-full left-0 right-0 mt-1 bg-white dark:bg-gray-800
                     border dark:border-gray-600 rounded shadow-lg z-50">
-                                <div className="grid" style={{ gridTemplateColumns: '90px 90px' }}>
+                                <div className="grid" style={{ gridTemplateColumns: ' 50px 90px 90px' }}>
+                                    {/* Aus-Schalter */}
+                                    <div className="border-r dark:border-gray-600"                                    >
+                                        <button
+                                            key={'aus'}
+                                            onClick={() => {
+                                                setLanguages(['aus', 'aus']);
+                                                setShowLanguageDropdown(false);
+                                            }}
+                                            className={`w-full px-3 pt-1 text-left text-sm hover:bg-gray-100 dark:hover:bg-gray-700
+                                text-gray-900 dark:text-gray-100
+                                ${languages.includes('aus') ? 'bg-orange-100 dark:bg-yellow-400/60' : ''}`}
+                                        >
+                                            Aus
+                                        </button>
+                                    </div>
+
                                     {/* Linke Spalte: Kombinationen mit lat. */}
                                     <div className="border-r dark:border-gray-600"                                    >
                                         {[

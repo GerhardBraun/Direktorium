@@ -109,8 +109,11 @@ const SectionHeader = ({
 
     // Ersetze den Abschnitt "(dt./lat.)-Button anzeigen?" bis einschließlich const languages:
 
+    // Hole die gewählten Sprachen aus localStorage
+    const languages = JSON.parse(localStorage.getItem('languages') || '["", "_lat"]');
+
     // (dt./lat.)-Button anzeigen?
-    let showLanguageToggle = true;
+    let showLanguageToggle = !languages.includes('aus');
     if (title === 'VERSIKEL'
         || (hour === 'invitatorium' && title === 'PSALMODIE')
         || (hour === 'lesehore' && /^(les_|resp|patr_)/.test(field))
@@ -118,9 +121,6 @@ const SectionHeader = ({
     ) showLanguageToggle = false
     else if (title === 'HYMNUS')
         showLanguageToggle = localStorage.getItem('ommitOpening') === 'true' ? true : false
-
-    // Hole die gewählten Sprachen aus localStorage
-    const languages = JSON.parse(localStorage.getItem('languages') || '["", "_lat"]');
 
     // Bestimme die Anzeigetexte für die Sprachen
     const getLanguageLabel = (langCode) => {
