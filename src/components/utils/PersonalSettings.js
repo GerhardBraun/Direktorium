@@ -400,14 +400,15 @@ const PersonalSettings = () => {
                 <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
                     Schnellschalter für Sprachauswahl
                 </div>
-                <div className="relative language-dropdown">
-                    <button
-                        onClick={() => setShowLanguageDropdown(!showLanguageDropdown)}
-                        className="w-full px-3 py-1 text-sm bg-gray-100 dark:bg-gray-800
-                border dark:border-gray-600 rounded text-left
-                text-gray-900 dark:text-gray-100 hover:bg-gray-200 dark:hover:bg-gray-700"
-                    >
-                        {(() => {
+                <div className="grid gap-2 items-center" style={{ gridTemplateColumns: '6rem 1fr' }}>
+                    <div></div> {/* Leerer Platzhalter für den Einzug */}
+                    <div className="relative language-dropdown">
+                        <button
+                            onClick={() => setShowLanguageDropdown(!showLanguageDropdown)}
+                            className="w-full px-3 py-1 text-sm bg-gray-100 dark:bg-gray-800
+                    border dark:border-gray-600 rounded text-left
+                    text-gray-900 dark:text-gray-100 hover:bg-gray-200 dark:hover:bg-gray-700"
+                        >                        {(() => {
                             const langKey = `${languages[0]}-${languages[1]}`;
                             const options = {
                                 '-_lat': 'Stb/lat.',
@@ -419,67 +420,68 @@ const PersonalSettings = () => {
                             };
                             return options[langKey] || 'Stb/lat.';
                         })()}
-                        <span className="float-right">▼</span>
-                    </button>
+                            <span className="float-right">▼</span>
+                        </button>
 
-                    {showLanguageDropdown && (
-                        <div className="absolute top-full left-0 right-0 mt-1 bg-white dark:bg-gray-800
-        border dark:border-gray-600 rounded shadow-lg z-50">
-                            <div className="grid grid-cols-2">
-                                {/* Linke Spalte: Kombinationen mit lat. */}
-                                <div className="border-r dark:border-gray-600">
-                                    {[
-                                        [['', '_lat'], 'Stb/lat.'],
-                                        [['_ben', '_lat'], 'Ben/lat.'],
-                                        [['_neu', '_lat'], 'neu/lat.']
-                                    ].map(([langPair, label]) => {
-                                        const isSelected = (languages[0] === langPair[0] && languages[1] === langPair[1]) ||
-                                            (languages[0] === langPair[1] && languages[1] === langPair[0]);
-                                        return (
-                                            <button
-                                                key={label}
-                                                onClick={() => {
-                                                    setLanguages(langPair);
-                                                    setShowLanguageDropdown(false);
-                                                }}
-                                                className={`w-full px-3 pt-1 text-left text-sm hover:bg-gray-100 dark:hover:bg-gray-700
+                        {showLanguageDropdown && (
+                            <div className="absolute top-full left-0 right-0 mt-1 bg-white dark:bg-gray-800
+                    border dark:border-gray-600 rounded shadow-lg z-50">
+                                <div className="grid" style={{ gridTemplateColumns: '90px 90px' }}>
+                                    {/* Linke Spalte: Kombinationen mit lat. */}
+                                    <div className="border-r dark:border-gray-600"                                    >
+                                        {[
+                                            [['', '_lat'], 'Stb/lat.'],
+                                            [['_ben', '_lat'], 'Ben/lat.'],
+                                            [['_neu', '_lat'], 'neu/lat.']
+                                        ].map(([langPair, label]) => {
+                                            const isSelected = (languages[0] === langPair[0] && languages[1] === langPair[1]) ||
+                                                (languages[0] === langPair[1] && languages[1] === langPair[0]);
+                                            return (
+                                                <button
+                                                    key={label}
+                                                    onClick={() => {
+                                                        setLanguages(langPair);
+                                                        setShowLanguageDropdown(false);
+                                                    }}
+                                                    className={`w-full px-3 pt-1 text-left text-sm hover:bg-gray-100 dark:hover:bg-gray-700
                                 text-gray-900 dark:text-gray-100
                                 ${isSelected ? 'bg-orange-100 dark:bg-yellow-400/60' : ''}`}
-                                            >
-                                                {label}
-                                            </button>
-                                        );
-                                    })}
-                                </div>
+                                                >
+                                                    {label}
+                                                </button>
+                                            );
+                                        })}
+                                    </div>
 
-                                {/* Rechte Spalte: Deutsche Kombinationen */}
-                                <div>
-                                    {[
-                                        [['', '_ben'], 'Stb/Ben'],
-                                        [['', '_neu'], 'Stb/neu'],
-                                        [['_ben', '_neu'], 'Ben/neu']
-                                    ].map(([langPair, label]) => {
-                                        const isSelected = (languages[0] === langPair[0] && languages[1] === langPair[1]) ||
-                                            (languages[0] === langPair[1] && languages[1] === langPair[0]);
-                                        return (
-                                            <button
-                                                key={label}
-                                                onClick={() => {
-                                                    setLanguages(langPair);
-                                                    setShowLanguageDropdown(false);
-                                                }}
-                                                className={`w-full px-3 pt-1 text-left text-sm hover:bg-gray-100 dark:hover:bg-gray-700
+                                    {/* Rechte Spalte: Deutsche Kombinationen */}
+                                    <div>
+                                        {[
+                                            [['', '_ben'], 'Stb/Ben'],
+                                            [['', '_neu'], 'Stb/neu'],
+                                            [['_ben', '_neu'], 'Ben/neu']
+                                        ].map(([langPair, label]) => {
+                                            const isSelected = (languages[0] === langPair[0] && languages[1] === langPair[1]) ||
+                                                (languages[0] === langPair[1] && languages[1] === langPair[0]);
+                                            return (
+                                                <button
+                                                    key={label}
+                                                    onClick={() => {
+                                                        setLanguages(langPair);
+                                                        setShowLanguageDropdown(false);
+                                                    }}
+                                                    className={`w-full px-3 pt-1 text-left text-sm hover:bg-gray-100 dark:hover:bg-gray-700
                                 text-gray-900 dark:text-gray-100
                                 ${isSelected ? 'bg-orange-100 dark:bg-yellow-400/60' : ''}`}
-                                            >
-                                                {label}
-                                            </button>
-                                        );
-                                    })}
+                                                >
+                                                    {label}
+                                                </button>
+                                            );
+                                        })}
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    )}                </div>
+                        )}                </div>
+                </div>
             </div>
 
             {/* Diocese Section - NEU */}
@@ -487,37 +489,40 @@ const PersonalSettings = () => {
                 <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
                     Eigenfeiern der Diözese
                 </div>
-                <div className="relative diocese-dropdown">
-                    <button
-                        onClick={() => setShowDioceseDropdown(!showDioceseDropdown)}
-                        className="w-full px-3 py-1 text-sm bg-gray-100 dark:bg-gray-800
+                <div className="grid gap-2 items-center" style={{ gridTemplateColumns: '6rem 1fr' }}>
+                    <div></div> {/* Leerer Platzhalter für den Einzug */}
+                    <div className="relative diocese-dropdown">
+                        <button
+                            onClick={() => setShowDioceseDropdown(!showDioceseDropdown)}
+                            className="w-full px-3 py-1 text-sm bg-gray-100 dark:bg-gray-800
                         border dark:border-gray-600 rounded text-left
                         text-gray-900 dark:text-gray-100 hover:bg-gray-200 dark:hover:bg-gray-700"
-                    >
-                        {dioceseOptions.find(option => option.key === diocese)?.label || diocese}
-                        <span className="float-right">▼</span>
-                    </button>
+                        >
+                            {dioceseOptions.find(option => option.key === diocese)?.label || diocese}
+                            <span className="float-right">▼</span>
+                        </button>
 
-                    {showDioceseDropdown && (
-                        <div className="absolute top-full left-0 right-0 mt-1 bg-white dark:bg-gray-800
+                        {showDioceseDropdown && (
+                            <div className="absolute top-full left-0 right-0 mt-1 bg-white dark:bg-gray-800
                             border dark:border-gray-600 rounded shadow-lg z-50 max-h-48 overflow-y-auto">
-                            {dioceseOptions.map(option => (
-                                <button
-                                    key={option.key}
-                                    onClick={() => !option.disabled && handleDioceseSelect(option.key)}
-                                    disabled={option.disabled}
-                                    className={`w-full px-3 pt-1 text-left text-sm hover:bg-gray-100 dark:hover:bg-gray-700
+                                {dioceseOptions.map(option => (
+                                    <button
+                                        key={option.key}
+                                        onClick={() => !option.disabled && handleDioceseSelect(option.key)}
+                                        disabled={option.disabled}
+                                        className={`w-full px-3 pt-1 text-left text-sm hover:bg-gray-100 dark:hover:bg-gray-700
                                         ${option.disabled
-                                            ? 'text-gray-400 dark:text-gray-600 cursor-not-allowed'
-                                            : 'text-gray-900 dark:text-gray-100'
-                                        }
+                                                ? 'text-gray-400 dark:text-gray-600 cursor-not-allowed'
+                                                : 'text-gray-900 dark:text-gray-100'
+                                            }
                                         ${diocese === option.key ? 'bg-orange-100 dark:bg-yellow-400/60' : ''}`}
-                                >
-                                    {option.label}
-                                </button>
-                            ))}
-                        </div>
-                    )}
+                                    >
+                                        {option.label}
+                                    </button>
+                                ))}
+                            </div>
+                        )}
+                    </div>
                 </div>
             </div>
 
