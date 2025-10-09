@@ -56,6 +56,7 @@ const SectionHeader = ({
     };
 
     const handlePressStart = (e) => {
+        e.preventDefault();
         let triggered = false;
         const timer = setTimeout(() => {
             triggered = true;
@@ -65,7 +66,8 @@ const SectionHeader = ({
         setPressTimer({ timer, getTriggered: () => triggered });
     };
 
-    const handlePressEnd = () => {
+    const handlePressEnd = (e) => {
+        e.preventDefault();
         if (pressTimer) {
             clearTimeout(pressTimer.timer);
             setPressTimer(null);
@@ -228,7 +230,7 @@ const SectionHeader = ({
                     >
                         {label2}
                     </button>
-                    {")."}
+                    {"):"}
                 </ButtonGroup>
             )}
             {showPsalmsWt && (
