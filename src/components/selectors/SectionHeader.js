@@ -56,23 +56,37 @@ const SectionHeader = ({
     };
 
     const handlePressStart = (e) => {
-        e.preventDefault();
+        // Ignoriere Mouse-Events, wenn es ein Touch war
+        if (e.type === 'mousedown' && pressTimer?.isTouch) {
+            return;
+        }
+
         let triggered = false;
         const timer = setTimeout(() => {
             triggered = true;
             setLocalPrefLatin(false);
             setLocalPrefLanguage('');
         }, 800);
-        setPressTimer({ timer, getTriggered: () => triggered });
+        setPressTimer({
+            timer,
+            getTriggered: () => triggered,
+            isTouch: e.type.startsWith('touch') // Merke, ob es ein Touch war
+        });
     };
 
     const handlePressEnd = (e) => {
-        e.preventDefault();
+        // Ignoriere Mouse-Events, wenn es ein Touch war
+        if (e.type === 'mouseup' && pressTimer?.isTouch) {
+            return;
+        }
+
         if (pressTimer) {
             clearTimeout(pressTimer.timer);
+            const wasTriggered = pressTimer.getTriggered();
             setPressTimer(null);
-            if (!pressTimer.getTriggered())
+            if (!wasTriggered) {
                 handleLanguageToggle();
+            }
         }
     };
 
@@ -235,7 +249,7 @@ const SectionHeader = ({
                     >
                         {label2}
                     </button>
-                    {")'"}
+                    {")."}
                 </ButtonGroup>
             )}
             {showPsalmsWt && (
