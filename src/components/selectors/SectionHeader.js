@@ -228,7 +228,7 @@ const SectionHeader = ({
                     >
                         {label2}
                     </button>
-                    {")"}
+                    {")."}
                 </ButtonGroup>
             )}
             {showPsalmsWt && (
