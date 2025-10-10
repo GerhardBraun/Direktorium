@@ -1,4 +1,4 @@
-import React, { useMemo, useEffect, useState, useRef } from 'react';
+import React, { useMemo, useState } from 'react';
 import { getValue } from '../dataHandlers/GetValue.js';
 import { getExcludedHours } from '../dataHandlers/ExcludedHours.js';
 
@@ -30,42 +30,6 @@ const SectionHeader = ({
     setLocalPrefComm
 }) => {
     const [pressTimer, setPressTimer] = useState(null);
-    const buttonRef = useRef(null);
-
-    // Debug: Alle Events loggen
-    useEffect(() => {
-        const button = buttonRef.current;
-        if (!button) return;
-
-        const allEvents = [
-            'touchstart', 'touchend', 'touchmove', 'touchcancel',
-            'mousedown', 'mouseup', 'mousemove',
-            'click', 'contextmenu',
-            'pointerdown', 'pointerup', 'pointermove', 'pointercancel',
-            'gesturestart', 'gesturechange', 'gestureend'
-        ];
-
-        const logEvent = (e) => {
-            console.log(`🔍 EVENT: ${e.type}`, {
-                timestamp: Date.now(),
-                button: e.button,
-                buttons: e.buttons,
-                touches: e.touches?.length,
-                isPrimary: e.isPrimary,
-                pointerType: e.pointerType
-            });
-        };
-
-        allEvents.forEach(eventName => {
-            button.addEventListener(eventName, logEvent, { passive: false });
-        });
-
-        return () => {
-            allEvents.forEach(eventName => {
-                button.removeEventListener(eventName, logEvent);
-            });
-        };
-    }, []);
 
     const checkSources = (field) => {
         const hasEig = texts[hour][prefSrc]?.[field];
@@ -102,9 +66,6 @@ const SectionHeader = ({
 
     const handlePressStart = (e) => {
         console.log('Start: ', e.type);
-        if (e.type === 'touchstart') {
-            e.preventDefault();
-        }
         let triggered = false;
         const timer = setTimeout(() => {
             triggered = true;
@@ -126,9 +87,6 @@ const SectionHeader = ({
     };
 
     const pressHandlers = {
-        //onTouchStart: handlePressStart,
-        //onTouchEnd: handlePressEnd,
-        // onTouchCancel: handlePressEnd,
         onMouseDown: handlePressStart,
         onMouseUp: handlePressEnd,
         onContextMenu: handleLongPress,
@@ -139,7 +97,7 @@ const SectionHeader = ({
         }
     };
 
-    // PrÃ¼fe ob Terz/Sext/Non identische Psalmodie haben
+    // Prüfe ob Terz/Sext/Non identische Psalmodie haben
     const isIdenticalTerzSext = useMemo(() => {
         if (!["terz", "sext", "non"].includes(hour) || title !== 'PSALMODIE')
             return false;
@@ -176,8 +134,8 @@ const SectionHeader = ({
     const field = (hour === 'invitatorium' && provField === 'psalm1')
         ? 'ant0' : provField;
     const isCommemoration = texts?.isCommemoration || false
-    const { hasEig, hasWt, nameComm1, nameComm2, showSources, showBothComm } =
-        checkSources(field);
+    const { hasEig, hasWt, nameComm1, nameComm2,
+        showSources, showBothComm } = checkSources(field);
 
     const isPsalmodie = title === 'PSALMODIE' && !['invitatorium', 'komplet'].includes(hour);
     const isPsalmsWt = isPsalmodie && localPrefPsalmsWt;
@@ -223,7 +181,7 @@ const SectionHeader = ({
     const label1 = hasLatin ? 'dt.' : getLanguageLabel(languages[0]);
     const label2 = getLanguageLabel(languages[1]);
 
-    // PrÃ¼fe, ob Commune Ã¼bersprungen werden soll
+    // Prüfe, ob Commune übersprungen werden soll
     let skipCommune = false;
     if (rank_date < 3 && ( // an Gedenktagen
         (hour === 'lesehore' && // Lesehore: nur Hymnus und Oration ggf. Commune
@@ -251,7 +209,7 @@ const SectionHeader = ({
     if (prefSollemnity === 'kirchw' || prefSollemnity === 'verst')
         skipCommune = true
 
-    if (["ERÃ–FFNUNG", "HYMNUS", "ABSCHLUSS"].includes(title))
+    if (["ERÖFFNUNG", "HYMNUS", "ABSCHLUSS"].includes(title))
         skipCommune = true;
 
     // einfacher Header ohne Buttons
@@ -307,8 +265,9 @@ const SectionHeader = ({
                         <>{" ("}
                             <button
                                 onClick={() => {
-                                    if (localPrefPsalmsWt === 'inclAnt') { setLocalPrefPsalmsWt(true) }
-                                    else { setLocalPrefPsalmsWt('inclAnt') }
+                                    if (localPrefPsalmsWt === 'inclAnt')
+                                        setLocalPrefPsalmsWt(true)
+                                    else setLocalPrefPsalmsWt('inclAnt')
                                 }}
                                 className={(localPrefPsalmsWt === 'inclAnt') ? 'underline' : ''}
                             >
@@ -358,7 +317,8 @@ const SectionHeader = ({
                     <button
                         onClick={() => {
                             setLocalPrefComm(1)
-                            if (isPsalmodie) { setLocalPrefPsalmsWt(false) }
+                            if (isPsalmodie)
+                                setLocalPrefPsalmsWt(false)
                         }}
                         className={(!isPsalmsWt && localPrefComm === 1) ? 'underline' : ''}
                     >
@@ -370,7 +330,8 @@ const SectionHeader = ({
                             <button
                                 onClick={() => {
                                     setLocalPrefComm(2)
-                                    if (isPsalmodie) { setLocalPrefPsalmsWt(false) }
+                                    if (isPsalmodie)
+                                        setLocalPrefPsalmsWt(false)
                                 }}
                                 className={(!isPsalmsWt && localPrefComm === 2) ? 'underline' : ''}
                             >
@@ -384,7 +345,8 @@ const SectionHeader = ({
                             {" | "}
                             <button
                                 onClick={() => {
-                                    if (isPsalmodie) { setLocalPrefPsalmsWt(true) }
+                                    if (isPsalmodie)
+                                        setLocalPrefPsalmsWt(true)
                                     else setLocalPrefComm(0)
                                 }}
                                 className={(isPsalmsWt || localPrefComm === 0) ? 'underline' : ''}
@@ -398,8 +360,9 @@ const SectionHeader = ({
                             {" ("}
                             <button
                                 onClick={() => {
-                                    if (localPrefPsalmsWt === 'inclAnt') { setLocalPrefPsalmsWt(true) }
-                                    else { setLocalPrefPsalmsWt('inclAnt') }
+                                    if (localPrefPsalmsWt === 'inclAnt')
+                                        setLocalPrefPsalmsWt(true)
+                                    else setLocalPrefPsalmsWt('inclAnt')
                                 }}
                                 className={(localPrefPsalmsWt === 'inclAnt') ? 'underline' : ''}
                             >
@@ -409,50 +372,47 @@ const SectionHeader = ({
                     )}
                 </ButtonGroup>
             )}
-            {
-                showTSN && (
-                    <ButtonGroup>
-                        {['terz', 'sext', 'non'].map((hourName, index) => {
-                            const isExcluded = excludedHours.includes(hourName);
-                            return (
-                                <React.Fragment key={hourName}>
-                                    {index > 0 && " | "}
-                                    <button
-                                        onClick={() => !isExcluded && onSelectHour(hourName)}
-                                        disabled={isExcluded}
-                                        className={`${hour === hourName ? 'underline' : ''}
+            {showTSN && (
+                <ButtonGroup>
+                    {['terz', 'sext', 'non'].map((hourName, index) => {
+                        const isExcluded = excludedHours.includes(hourName);
+                        return (
+                            <React.Fragment key={hourName}>
+                                {index > 0 && " | "}
+                                <button
+                                    onClick={() => !isExcluded && onSelectHour(hourName)}
+                                    disabled={isExcluded}
+                                    className={`${hour === hourName ? 'underline' : ''}
                                     ${isExcluded ? 'text-gray-400 cursor-not-allowed' : ''}`
-                                        }
-                                    >
-                                        {hourName[0].toUpperCase() + hourName.slice(1)}
-                                    </button>
-                                </React.Fragment>
-                            );
-                        })}
-                    </ButtonGroup>
-                )
-            }
-            {
-                invPsalms && (
-                    <ButtonGroup>
-                        {[95, 100, 67, 24].map((psalmNumber, index) => {
-                            const isAvailable = invPsalms?.includes(psalmNumber);
-                            return (
-                                <React.Fragment key={psalmNumber}>
-                                    {index > 0 && " | "}
-                                    <button
-                                        onClick={() => isAvailable && setLocalPrefInv(psalmNumber)}
-                                        disabled={!isAvailable}
-                                        className={`${localPrefInv === psalmNumber ? 'underline' : ''}
+                                    }
+                                >
+                                    {hourName[0].toUpperCase() + hourName.slice(1)}
+                                </button>
+                            </React.Fragment>
+                        );
+                    })}
+                </ButtonGroup>
+            )}
+            {invPsalms && (
+                <ButtonGroup>
+                    {[95, 100, 67, 24].map((psalmNumber, index) => {
+                        const isAvailable = invPsalms?.includes(psalmNumber);
+                        return (
+                            <React.Fragment key={psalmNumber}>
+                                {index > 0 && " | "}
+                                <button
+                                    onClick={() => isAvailable && setLocalPrefInv(psalmNumber)}
+                                    disabled={!isAvailable}
+                                    className={`${localPrefInv === psalmNumber ? 'underline' : ''}
                                 ${!isAvailable ? 'text-gray-400 cursor-not-allowed' : ''}`}
-                                    >
-                                        {psalmNumber === 95 ? `Ps ${psalmNumber}` : psalmNumber}
-                                    </button>
-                                </React.Fragment>
-                            );
-                        })}
-                    </ButtonGroup>
-                )
+                                >
+                                    {psalmNumber === 95 ? `Ps ${psalmNumber}` : psalmNumber}
+                                </button>
+                            </React.Fragment>
+                        );
+                    })}
+                </ButtonGroup>
+            )
             }        </h2 >
     );
 };
