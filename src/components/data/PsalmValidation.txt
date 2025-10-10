@@ -1,0 +1,1070 @@
+Psalm Text Validation Report - 2025-10-10 17:24:30.974391
+================================================================================
+
+ZUSAMMENFASSUNG
+--------------------------------------------------------------------------------
+Gesamt gefundene Fehler: 175
+
+  Doppelte Tags: 148
+  Fehlende Tag-Reihenfolge: 27
+
+================================================================================
+
+
+DOPPELTE TAGS
+--------------------------------------------------------------------------------
+
+Psalm 33, Abschnitt 1.0, Spalte: Text_neu
+  Detail: Zwei ^p Tags aufeinanderfolgend
+  Tag-Sequenz: ^p → ^p
+  Kontext:
+    ...ah;^*er gebot und da stand es.^pDer HERR vereitelte den Ratschluss der Nationen,*er machte die Pläne der Völker zunichte.^pDer Rats...
+
+Psalm 35, Abschnitt 3.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...ollen sich meiner nicht freun,^*die mich zu Unrecht befeinden,^*nicht mi...
+
+Psalm 35, Abschnitt 3.0, Spalte: Text_neu
+  Detail: Zwei ^p Tags aufeinanderfolgend
+  Tag-Sequenz: ^p → ^p
+  Kontext:
+    ...HERR, um für mich zu streiten!^pVerschaffe mir Recht nach deiner Gerechtigkeit, HERR, du mein Gott! Sie sollen sich über mich nicht freuen.^pEs solle...
+
+Psalm 39, Abschnitt 1.0, Spalte: Text_lat
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ... fac mihi, Dómine, finem meum;^*et númerum diérum meórum quis est,^*ut sciam...
+
+Psalm 39, Abschnitt 2.0, Spalte: Text_neu
+  Detail: Zwei ^p Tags aufeinanderfolgend
+  Tag-Sequenz: ^p → ^p
+  Kontext:
+    ...f.^*Denn so hast du es gefügt.^pNimm deine Plage weg von mir! Unter der Wucht deiner Hand bin ich vergangen.^pDu straf...
+
+Psalm 40, Abschnitt 0.0, Spalte: Text_neu
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...fern hattest du kein Gefallen,^*doch Ohren hast du mir gegraben,^*Brand- u...
+
+Psalm 40, Abschnitt 0.0, Spalte: Text_neu
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...ht in meinem Herzen verborgen.^*Ich habe gesprochen von deinem Heil und deiner Treue,^*nicht ve...
+
+Psalm 40, Abschnitt 0.0, Spalte: Text_neu
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...ohne Zahl haben mich umfangen,^*meine Sünden haben mich eingeholt^*und ich ...
+
+Psalm 40, Abschnitt 1.0, Spalte: Text_neu
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...fern hattest du kein Gefallen,^*doch Ohren hast du mir gegraben,^*Brand- u...
+
+Psalm 40, Abschnitt 2.0, Spalte: Text_neu
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...ht in meinem Herzen verborgen.^*Ich habe gesprochen von deinem Heil und deiner Treue,^*nicht ve...
+
+Psalm 40, Abschnitt 2.0, Spalte: Text_neu
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...ohne Zahl haben mich umfangen,^*meine Sünden haben mich eingeholt^*und ich ...
+
+Psalm 42, Abschnitt 0.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ... ich im Gedränge dahinschritt,^*ihnen vorauszog zum Hause Gottes^*beim Sch...
+
+Psalm 42, Abschnitt 0.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...nen vorauszog zum Hause Gottes^*beim Schall des Jubels und Dankes,^*im Toben...
+
+Psalm 42, Abschnitt 9.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ... ich im Gedränge dahinschritt,^*ihnen vorauszog zum Hause Gottes^*beim Sch...
+
+Psalm 42, Abschnitt 9.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...nen vorauszog zum Hause Gottes^*beim Schall des Jubels und Dankes,^*im Toben...
+
+Psalm 42, Abschnitt 9.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...reue:^+die sollen mich leiten,^*sie sollen mich führen zu deinem heiligen Berg^*und zu d...
+
+Psalm 42, Abschnitt 101.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ... ich im Gedränge dahinschritt,^*ihnen vorauszog zum Hause Gottes^*beim Sch...
+
+Psalm 42, Abschnitt 101.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...nen vorauszog zum Hause Gottes^*beim Schall des Jubels und Dankes,^*im Toben...
+
+Psalm 43, Abschnitt 0.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...reue:^+die sollen mich leiten,^*sie sollen mich führen zu deinem heiligen Berg^*und zu d...
+
+Psalm 44, Abschnitt 1.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...r hörten es mit eigenen Ohren,^*unsere Väter haben uns erzählt^*vom Werk...
+
+Psalm 44, Abschnitt 1.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...unsere Väter haben uns erzählt^*vom Werk, das du in ihren Tagen gewirkt hast,^*in den T...
+
+Psalm 44, Abschnitt 1.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...nahmen sie das Land in Besitz,^*nicht ihr Arm hat ihnen Sieg verschafft,^*nein, es...
+
+Psalm 44, Abschnitt 2.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...ach steht mir immer vor Augen,^*und Scham bedeckt mein Gesicht^*wegen de...
+
+Psalm 44, Abschnitt 2.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...und Scham bedeckt mein Gesicht^*wegen der Stimme des lästernden Spötters,^*wegen de...
+
+Psalm 44, Abschnitt 3.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...amen unseres Gottes vergessen,^*zu einem fremden Gott die Hände erhoben –^*würde Go...
+
+Psalm 44, Abschnitt 3.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...emden Gott die Hände erhoben –^*würde Gott das nicht erforschen?^*Er kennt...
+
+Psalm 45, Abschnitt 0.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ..., dein Gott, dich doch gesalbt^*mit dem Öl des Frohlockens^*wie kein...
+
+Psalm 45, Abschnitt 1.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ..., dein Gott, dich doch gesalbt^*mit dem Öl des Frohlockens^*wie kein...
+
+Psalm 48, Abschnitt 0.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...gehört, so haben wir’s gesehen^*in der Stadt des HERRN der Scharen,^*in der S...
+
+Psalm 48, Abschnitt 0.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...r Stadt des HERRN der Scharen,^*in der Stadt unseres Gottes:^*Gott hat...
+
+Psalm 48, Abschnitt 101.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...gehört, so haben wir’s gesehen^*in der Stadt des HERRN der Scharen,^*in der S...
+
+Psalm 48, Abschnitt 101.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...r Stadt des HERRN der Scharen,^*in der Stadt unseres Gottes:^*Gott hat...
+
+Psalm 49, Abschnitt 1.0, Spalte: Text_neu
+  Detail: Zwei ^p Tags aufeinanderfolgend
+  Tag-Sequenz: ^p → ^p
+  Kontext:
+    ...t für ihn ein Sühnegeld zahlen^p– für ihr Leben ist jeder Kaufpreis zu hoch, für immer muss man davon abstehn –,^pdass man...
+
+Psalm 50, Abschnitt 3.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ... als Opfer Lobpreis darbringt,^*er bereitet den Weg,^*auf dem ...
+
+Psalm 51, Abschnitt 0.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...dig, o Gott, nach deiner Güte,^*in der Fülle deines Erbarmens tilge meine Frevel,^*wasche d...
+
+Psalm 51, Abschnitt 0.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ... Erbarmens tilge meine Frevel,^*wasche die Schuld ganz von mir ab^*und rein...
+
+Psalm 52, Abschnitt 0.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...hn lachen:^p„Was für ein Held!^*Er machte nicht Gott zu seiner Stärke,^*er vertr...
+
+Psalm 52, Abschnitt 0.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...e nicht Gott zu seiner Stärke,^*er vertraute auf die Größe seines Reichtums^*und wähn...
+
+Psalm 53, Abschnitt 0.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...enkt vom Zion her Israel Heil?^*Wenn Gott das Schicksal seines Volkes wendet,^*wird Jak...
+
+Psalm 55, Abschnitt 1.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...ie auf ihren Mauern die Runde.^*Mitten in ihr ist Quälerei und Unrecht,^*mitten i...
+
+Psalm 55, Abschnitt 1.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ... ihr ist Quälerei und Unrecht,^*mitten in ihr herrscht Verderben,^*nicht we...
+
+Psalm 55, Abschnitt 2.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...icht ein Feind beschimpft mich^*– das könnte ich ertragen,^*nicht ei...
+
+Psalm 55, Abschnitt 2.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...ch^*– das könnte ich ertragen,^*nicht einer, der mich hasst, tritt groß gegen mich auf^*– vor ih...
+
+Psalm 55, Abschnitt 2.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...er ist die Rede seines Mundes,^*aber sein Herz denkt an Angriff,^*linder a...
+
+Psalm 55, Abschnitt 2.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...er sein Herz denkt an Angriff,^*linder als Öl sind seine Worte,^*und sind...
+
+Psalm 55, Abschnitt 4.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...ie auf ihren Mauern die Runde.^*Mitten in ihr ist Quälerei und Unrecht,^*mitten i...
+
+Psalm 55, Abschnitt 4.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ... ihr ist Quälerei und Unrecht,^*mitten in ihr herrscht Verderben,^*nicht we...
+
+Psalm 55, Abschnitt 4.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...icht ein Feind beschimpft mich^*– das könnte ich ertragen,^*nicht ei...
+
+Psalm 55, Abschnitt 4.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...ch^*– das könnte ich ertragen,^*nicht einer, der mich hasst, tritt groß gegen mich auf^*– vor ih...
+
+Psalm 55, Abschnitt 5.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...er ist die Rede seines Mundes,^*aber sein Herz denkt an Angriff,^*linder a...
+
+Psalm 55, Abschnitt 5.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...er sein Herz denkt an Angriff,^*linder als Öl sind seine Worte,^*und sind...
+
+Psalm 57, Abschnitt 0.0, Spalte: Text_neu
+  Detail: Zwei ^p Tags aufeinanderfolgend
+  Tag-Sequenz: ^p → ^p
+  Kontext:
+    ...keit sei über der ganzen Erde!^p^p...
+
+Psalm 60, Abschnitt 0.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...ach Edom?^pWer, wenn nicht du,^*der Gott, der uns verworfen hat,^*der Gott...
+
+Psalm 65, Abschnitt 0.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...de.^pJa, so lässt du gedeihen:^*du wässerst die Furchen, du ebnest die Schollen, du machst sie weich durch Regen,^*du segne...
+
+Psalm 65, Abschnitt 101.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...de.^pJa, so lässt du gedeihen:^*du wässerst die Furchen, du ebnest die Schollen, du machst sie weich durch Regen,^*du segne...
+
+Psalm 71, Abschnitt 2.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...uch wenn ich alt und grau bin,^*o Gott, verlass mich nicht,^*damit ic...
+
+Psalm 71, Abschnitt 2.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...ich dir danken mit Saitenspiel^*und deine Treue preisen,^*mein Got...
+
+Psalm 71, Abschnitt 2.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...piel^*und deine Treue preisen,^*mein Gott, du Heiliger Israels,^*auf der ...
+
+Psalm 71, Abschnitt 2.0, Spalte: Text_neu
+  Detail: Zwei ^p Tags aufeinanderfolgend
+  Tag-Sequenz: ^p → ^p
+  Kontext:
+    ...t,^*die bis zum Himmel reicht!^pDu hast Großes vollbracht. Gott, wer ist wie du?^pDu ließe...
+
+Psalm 74, Abschnitt 1.0, Spalte: Text_ben
+  Detail: Zwei ^p Tags aufeinanderfolgend
+  Tag-Sequenz: ^p → ^p
+  Kontext:
+    ... stellten sie als Zeichen auf.^pEs hörte sich an,^pwie wenn...
+
+Psalm 92, Abschnitt 0.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...n ist es, dem HERRN zu danken,^*deinem Namen zu spielen, du Höchster,^*am Morge...
+
+Psalm 92, Abschnitt 0.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...Namen zu spielen, du Höchster,^*am Morgen zu verkünden deine Liebe,^*und dein...
+
+Psalm 92, Abschnitt 0.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...rgen zu verkünden deine Liebe,^*und deine Treue in den Nächten,^*zur Laut...
+
+Psalm 92, Abschnitt 0.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...nd deine Treue in den Nächten,^*zur Laute mit zehn Saiten und zur Harfe,^*zum Klin...
+
+Psalm 92, Abschnitt 0.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...Einsicht kann es nicht fassen,^*ein Tor kann es nicht verstehen:^*wenn auc...
+
+Psalm 92, Abschnitt 0.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...ckt herab auf meine Verfolger,^*mein Ohr hört,^*wie es d...
+
+Psalm 92, Abschnitt 0.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...lanzt sind im Hause des HERRN,^*sprießen auf in den Höfen unseres Gottes:^*noch im ...
+
+Psalm 92, Abschnitt 0.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...f in den Höfen unseres Gottes:^*noch im Alter gedeihen sie,^*sie blei...
+
+Psalm 92, Abschnitt 0.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...:^*noch im Alter gedeihen sie,^*sie bleiben voll Saft und Frische,^*zu verkü...
+
+Psalm 92, Abschnitt 0.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...bleiben voll Saft und Frische,^*zu verkünden: Gerecht ist der HERR!^*Mein Fel...
+
+Psalm 92, Abschnitt 1.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...n ist es, dem HERRN zu danken,^*deinem Namen zu spielen, du Höchster,^*am Morge...
+
+Psalm 92, Abschnitt 1.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...Namen zu spielen, du Höchster,^*am Morgen zu verkünden deine Liebe,^*und dein...
+
+Psalm 92, Abschnitt 1.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...rgen zu verkünden deine Liebe,^*und deine Treue in den Nächten,^*zur Laut...
+
+Psalm 92, Abschnitt 1.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...nd deine Treue in den Nächten,^*zur Laute mit zehn Saiten und zur Harfe,^*zum Klin...
+
+Psalm 92, Abschnitt 1.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...Einsicht kann es nicht fassen,^*ein Tor kann es nicht verstehen:^*wenn auc...
+
+Psalm 92, Abschnitt 2.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...ckt herab auf meine Verfolger,^*mein Ohr hört,^*wie es d...
+
+Psalm 92, Abschnitt 2.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...lanzt sind im Hause des HERRN,^*sprießen auf in den Höfen unseres Gottes:^*noch im ...
+
+Psalm 92, Abschnitt 2.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...f in den Höfen unseres Gottes:^*noch im Alter gedeihen sie,^*sie blei...
+
+Psalm 92, Abschnitt 2.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...:^*noch im Alter gedeihen sie,^*sie bleiben voll Saft und Frische,^*zu verkü...
+
+Psalm 92, Abschnitt 2.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...bleiben voll Saft und Frische,^*zu verkünden: Gerecht ist der HERR!^*Mein Fel...
+
+Psalm 93, Abschnitt 0.0, Spalte: Text_lat
+  Detail: Zwei ^+ Tags aufeinanderfolgend
+  Tag-Sequenz: ^+ → ^+
+  Kontext:
+    ...^pElevavérunt flúmina, Dómine,^+elevavérunt flúmina vocem suam,^+elevavér...
+
+Psalm 93, Abschnitt 101.0, Spalte: Text_lat
+  Detail: Zwei ^+ Tags aufeinanderfolgend
+  Tag-Sequenz: ^+ → ^+
+  Kontext:
+    ...^pElevavérunt flúmina, Dómine,^+elevavérunt flúmina vocem suam,^+elevavér...
+
+Psalm 103, Abschnitt 3.0, Spalte: Text_neu
+  Detail: Zwei ^+ Tags aufeinanderfolgend
+  Tag-Sequenz: ^+ → ^+
+  Kontext:
+    ...rfahren noch Kinder und Enkel,^+alle, die seinen Bund bewahren,^+die sein...
+
+Psalm 103, Abschnitt 5.0, Spalte: Text_neu
+  Detail: Zwei ^+ Tags aufeinanderfolgend
+  Tag-Sequenz: ^+ → ^+
+  Kontext:
+    ...rfahren noch Kinder und Enkel,^+alle, die seinen Bund bewahren,^+die sein...
+
+Psalm 104, Abschnitt 1.0, Spalte: Text_neu
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...Preise den HERRN, meine Seele!^*HERR, mein Gott, überaus groß bist du!^*Du bist ...
+
+Psalm 104, Abschnitt 3.0, Spalte: Text_neu
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...lreich sind deine Werke, HERR,^*sie alle hast du mit Weisheit gemacht,^*die Erde...
+
+Psalm 104, Abschnitt 3.0, Spalte: Text_neu
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...st das Meer, so groß und weit,^*darin ein Gewimmel, nicht zu zählen:^*kleine u...
+
+Psalm 104, Abschnitt 3.0, Spalte: Text_neu
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ... Angesicht, sind sie verstört,^*nimmst du ihnen den Atem, so schwinden sie hin^*und kehr...
+
+Psalm 104, Abschnitt 3.0, Spalte: Text_neu
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...llen von der Erde verschwinden^*und Frevler sollen nicht mehr da sein.^*Preise d...
+
+Psalm 106, Abschnitt 1.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ... aus Zuneigung zu deinem Volk,^*suche mich heim mit deiner Hilfe,^*dass ich...
+
+Psalm 106, Abschnitt 2.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...e vergaßen Gott, ihren Retter,^*der große Dinge tat in Ägypten,^*Wunder i...
+
+Psalm 106, Abschnitt 2.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...er große Dinge tat in Ägypten,^*Wunder im Lande Hams,^*staunene...
+
+Psalm 106, Abschnitt 2.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...erhob er gegen sie seine Hand,^*sie niederzustrecken in der Wüste,^*ihre Nac...
+
+Psalm 106, Abschnitt 2.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...niederzustrecken in der Wüste,^*ihre Nachkommen niederzustrecken durch die Völker,^*sie in a...
+
+Psalm 106, Abschnitt 2.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...auf und legte sich ins Mittel,^*da wurde der Plage Einhalt geboten;^*das wurd...
+
+Psalm 106, Abschnitt 2.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...rde der Plage Einhalt geboten;^*das wurde ihm angerechnet als Gerechtigkeit^*von Gesc...
+
+Psalm 106, Abschnitt 3.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...e vergossen unschuldiges Blut,^*das Blut ihrer Söhne und Töchter;^*die opfe...
+
+Psalm 106, Abschnitt 3.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ... Blut ihrer Söhne und Töchter;^*die opferten sie den Götzen Kanaans.^*So wurde...
+
+Psalm 106, Abschnitt 3.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...Er aber sah auf ihre Drangsal,^*als er ihr Schreien hörte;^*um ihret...
+
+Psalm 106, Abschnitt 3.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...l,^*als er ihr Schreien hörte;^*um ihretwillen dachte er an seinen Bund^*und ließ...
+
+Psalm 106, Abschnitt 3.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...^pRette uns, HERR, unser Gott,^*und sammle uns aus den Völkern,^*dass wir...
+
+Psalm 106, Abschnitt 3.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...nd sammle uns aus den Völkern,^*dass wir deinen heiligen Namen preisen^*und uns ...
+
+Psalm 107, Abschnitt 1.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...rechen die vom HERRN Erlösten,^*die er erlöst hat aus der Hand des Bedrängers,^*die er a...
+
+Psalm 107, Abschnitt 1.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...umher in der Wüste, im Ödland,^*sie konnten den Weg zur wohnlichen Stadt nicht finden,^*sie litt...
+
+Psalm 107, Abschnitt 1.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...wohnlichen Stadt nicht finden,^*sie litten Hunger und Durst,^*ihre Keh...
+
+Psalm 107, Abschnitt 3.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...Er macht Ströme zur Wüste,^*Wasserläufe zur dürstenden Öde,^*fruchtba...
+
+Psalm 107, Abschnitt 3.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...asserläufe zur dürstenden Öde,^*fruchtbares Erdreich zur salzigen Steppe^*wegen de...
+
+Psalm 107, Abschnitt 3.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...Dort ließ er Hungernde wohnen,^*die eine wohnliche Stadt errichteten,^*die Feld...
+
+Psalm 107, Abschnitt 3.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...e wohnliche Stadt errichteten,^*die Felder bestellten und Weinberge pflanzten^*und reic...
+
+Psalm 107, Abschnitt 3.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...sie gering an Zahl und gebeugt^*unter dem Druck von Unheil und Kummer;^*denn er ...
+
+Psalm 107, Abschnitt 3.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...m Druck von Unheil und Kummer;^*denn er goss über die Edlen Verachtung aus,^*ließ sie...
+
+Psalm 118, Abschnitt 3.0, Spalte: Text_neu
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...n euch vom Haus des HERRN her.^*Gott ist der HERR. Er ließ Licht für uns leuchten.^*...
+
+Psalm 119, Abschnitt 25.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...abe dir mein Geschick erzählt,^*und du gabst mir Antwort.^*Lehre mi...
+
+Psalm 119, Abschnitt 33.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...abgier!^pWende meine Augen ab,^*dass sie nicht schauen nach Nichtigem!^*Auf dein...
+
+Psalm 119, Abschnitt 73.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...rt.^pIch habe erkannt, o HERR,^*dass deine Entscheide gerecht sind^*und dass...
+
+Psalm 119, Abschnitt 73.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...en.^pSchande über die Stolzen,^*die mich ohne Grund unterdrücken!^*Ich sinn...
+
+Psalm 136, Abschnitt 1.0, Spalte: Text_lat
+  Detail: Zwei ^p Tags aufeinanderfolgend
+  Tag-Sequenz: ^p → ^p
+  Kontext:
+    ... in ætérnum misericórdia eius.^pQui fecit luminária magna, quóniam in æter1num misericórdia eius:^psolem, u...
+
+Psalm 140, Abschnitt 0.0, Spalte: Text_lat
+  Detail: Zwei ^p Tags aufeinanderfolgend
+  Tag-Sequenz: ^p → ^p
+  Kontext:
+    ...lo, a viro violéntiæ serva me.^pQui cogitavérunt mala in corde, tota die constituébant prœlia.^pAcuérunt...
+
+Psalm 140, Abschnitt 0.0, Spalte: Text_lat
+  Detail: Zwei ^p Tags aufeinanderfolgend
+  Tag-Sequenz: ^p → ^p
+  Kontext:
+    ...tota die constituébant prœlia.^pAcuérunt linguas suas sicut serpéntis, venénum áspidum sub lábiis eórum.^pCustódi ...
+
+Psalm 140, Abschnitt 0.0, Spalte: Text_lat
+  Detail: Zwei ^p Tags aufeinanderfolgend
+  Tag-Sequenz: ^p → ^p
+  Kontext:
+    ...énum áspidum sub lábiis eórum.^pCustódi me, Dómine, de manu peccatóris et a viro violéntiæ serva me, qui cogitavérunt supplantáre gressus meos.^pAbscondé...
+
+Psalm 140, Abschnitt 0.0, Spalte: Text_lat
+  Detail: Zwei ^p Tags aufeinanderfolgend
+  Tag-Sequenz: ^p → ^p
+  Kontext:
+    ...runt supplantáre gressus meos.^pAbscondérunt supérbi láqueum mihi et funes extendérunt in rete, iuxta iter offendícula posuérunt mihi.^pDixi Dóm...
+
+Psalm 140, Abschnitt 0.0, Spalte: Text_lat
+  Detail: Zwei ^p Tags aufeinanderfolgend
+  Tag-Sequenz: ^p → ^p
+  Kontext:
+    ...er offendícula posuérunt mihi.^pDixi Dómino: «Deus meus es tu; áuribus pércipe, Dómine, vocem deprecatiónis meæ.»^pDómine, ...
+
+Psalm 140, Abschnitt 0.0, Spalte: Text_lat
+  Detail: Zwei ^p Tags aufeinanderfolgend
+  Tag-Sequenz: ^p → ^p
+  Kontext:
+    ...ine, vocem deprecatiónis meæ.»^pDómine, Dómine, virtus salútis meæ, obumbrásti caput meum in die belli.^pNe concé...
+
+Psalm 140, Abschnitt 0.0, Spalte: Text_lat
+  Detail: Zwei ^p Tags aufeinanderfolgend
+  Tag-Sequenz: ^p → ^p
+  Kontext:
+    ...rásti caput meum in die belli.^pNe concédas, Dómine, desidéria ímpii; consília eius ne perfícias.^pCognóvi ...
+
+Psalm 140, Abschnitt 0.0, Spalte: Text_lat
+  Detail: Zwei ^p Tags aufeinanderfolgend
+  Tag-Sequenz: ^p → ^p
+  Kontext:
+    ...i; consília eius ne perfícias.^pCognóvi quia fáciet Dóminus iudícium ínopis et vindíctam páuperum.^pVerúmtam...
+
+Psalm 144, Abschnitt 2.0, Spalte: Text_lat
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...i.^pFílii nostri sicut novéllæ^*crescéntes in iuventúte sua; fíliæ nostræ sicut colúmnæ anguláres,^*sculptæ ...
+
+Psalm 145, Abschnitt 1.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...ht deiner erschreckenden Taten^*sollen sie sprechen,^*von dein...
+
+Psalm 145, Abschnitt 4.0, Spalte: Text_ben
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...ht deiner erschreckenden Taten^*sollen sie sprechen,^*von dein...
+
+Psalm 147, Abschnitt 1.0, Spalte: Text_neu
+  Detail: Zwei ^p Tags aufeinanderfolgend
+  Tag-Sequenz: ^p → ^p
+  Kontext:
+    ...ine Einsicht ist ohne Grenzen.^pDer HERR hilft auf den Gebeugten, er drückt die Frevler zu Boden.^pStimmt d...
+
+Psalm 147, Abschnitt 101.0, Spalte: Text_neu
+  Detail: Zwei ^p Tags aufeinanderfolgend
+  Tag-Sequenz: ^p → ^p
+  Kontext:
+    ...ine Einsicht ist ohne Grenzen.^pDer HERR hilft auf den Gebeugten, er drückt die Frevler zu Boden.^pStimmt d...
+
+Psalm 156, Abschnitt 0.0, Spalte: Text_lat
+  Detail: Zwei ^p Tags aufeinanderfolgend
+  Tag-Sequenz: ^p → ^p
+  Kontext:
+    ... iudícia tua manifestáta sunt.^p^p...
+
+Psalm 159, Abschnitt 0.0, Spalte: Text
+  Detail: Zwei ^p Tags aufeinanderfolgend
+  Tag-Sequenz: ^p → ^p
+  Kontext:
+    ...erechtfertigt durch den Geist,^p–°^rR^0r°Lobet den Herrn, alle Völker. –^pgeschaut...
+
+Psalm 159, Abschnitt 0.0, Spalte: Text
+  Detail: Zwei ^p Tags aufeinanderfolgend
+  Tag-Sequenz: ^p → ^p
+  Kontext:
+    ...,^*verkündet unter den Heiden,^p–°^rR^0r°Lobet den Herrn, alle Völker. –^pgeglaubt...
+
+Psalm 162, Abschnitt 0.0, Spalte: Text_neu
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...euch dort seine Größe gezeigt.^*Erhebt ihn vor allem, was lebt!^*^pDenn e...
+
+Psalm 162, Abschnitt 0.0, Spalte: Text_neu
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...ist den Herrn, alle Erwählten,^*und ihr alle, lobt seine Größe!^*Ruft Fes...
+
+Psalm 162, Abschnitt 1.0, Spalte: Text_neu
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...euch dort seine Größe gezeigt.^*Erhebt ihn vor allem, was lebt!^*^pDenn e...
+
+Psalm 162, Abschnitt 1.0, Spalte: Text_neu
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...ist den Herrn, alle Erwählten,^*und ihr alle, lobt seine Größe!^*Ruft Fes...
+
+Psalm 165, Abschnitt 0.0, Spalte: Text_lat
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...uia mihi curvábitur omne genu,^*et iurábit omnis língua:^*‚Tantum ...
+
+Psalm 165, Abschnitt 101.0, Spalte: Text_lat
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...uia mihi curvábitur omne genu,^*et iurábit omnis língua:^*‚Tantum ...
+
+Psalm 174, Abschnitt 0.0, Spalte: Text_neu
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...ist erhaben!^pSingt dem HERRN,^*denn Überragendes hat er vollbracht;^*bekannt ...
+
+Psalm 175, Abschnitt 0.0, Spalte: Text_neu
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...t aus, um dein Volk zu retten,^*um deinem Gesalbten zu helfen.^*...
+
+Psalm 199, Abschnitt 107.0, Spalte: Text_neu
+  Detail: Zwei ^p Tags aufeinanderfolgend
+  Tag-Sequenz: ^p → ^p
+  Kontext:
+    ...s wird ihm zum Ruhm gereichen.^pWer konnte übertreten und übertrat nicht,/ Böses tun und tat es nicht?^pDeswegen...
+
+Psalm 199, Abschnitt 107.0, Spalte: Text_lat
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ..., qui invéntus est sine mácula^*et qui post aurum non ábiit^*nec sper...
+
+Psalm 199, Abschnitt 111.0, Spalte: Text_lat
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...Erit in novíssimis diébus^*præparátus mons domus Dómini in vértice móntium,^*et elevá...
+
+Psalm 199, Abschnitt 113.0, Spalte: Text_lat
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...salútis sapiéntia et sciéntia:^*timor Dómini ipse est thesáurus eius.^*^pEcce p...
+
+Psalm 199, Abschnitt 115.0, Spalte: Text_neu
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ....^pSiehe, sie kommen von fern,^*die einen von Norden und Westen,^*andere a...
+
+Psalm 199, Abschnitt 115.0, Spalte: Text_neu
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ..., ihr Himmel, jauchze, o Erde,^*freut euch, ihr Berge! Denn der HERR hat sein Volk getröstet^*und erba...
+
+Psalm 199, Abschnitt 123.0, Spalte: Text_lat
+  Detail: Zwei ^* Tags aufeinanderfolgend
+  Tag-Sequenz: ^* → ^*
+  Kontext:
+    ...c reddam populis labium purum,^*ut invocent omnes in nomine Domini^*et servi...
+
+
+FEHLENDE TAG-REIHENFOLGE
+--------------------------------------------------------------------------------
+
+Psalm 52, Abschnitt 0.0, Spalte: Text_lat
+  Detail: Zwischen ^+ und ^p fehlt ^*
+  Tag-Sequenz: ^+ → ^p
+  Kontext:
+    ...icut virens olíva in domo Dei.^+Sperávi in misericórdia Dei in ætérnum et in sǽculum sǽculi.^pConfitéb...
+
+Psalm 76, Abschnitt 0.0, Spalte: Text_ben
+  Detail: Zwischen ^+ und ^p fehlt ^*
+  Tag-Sequenz: ^+ → ^p
+  Kontext:
+    ...dich preisen.^*Du gürtest dich^+mit denen, die dem Grimm entronnen sind.^pMacht Ge...
+
+Psalm 76, Abschnitt 2.0, Spalte: Text_ben
+  Detail: Zwischen ^+ und ^p fehlt ^*
+  Tag-Sequenz: ^+ → ^p
+  Kontext:
+    ...dich preisen.^*Du gürtest dich^+mit denen, die dem Grimm entronnen sind.^pMacht Ge...
+
+Psalm 78, Abschnitt 1.0, Spalte: Text_ben
+  Detail: Zwischen ^+ und ^p fehlt ^*
+  Tag-Sequenz: ^+ → ^p
+  Kontext:
+    ...ihren Kindern nicht verbergen,^+dem kommenden Geschlecht wollen wir’s erzählen:^pdie Ruhm...
+
+Psalm 79, Abschnitt 0.0, Spalte: Text_lat
+  Detail: Zwischen ^+ und ^p fehlt ^*
+  Tag-Sequenz: ^+ → ^p
+  Kontext:
+    ...va nos, Deus salutáris nostri,^+propter glóriam nóminis tui et líbera nos;^pet propí...
+
+Psalm 93, Abschnitt 0.0, Spalte: Text_lat
+  Detail: Zwischen ^+ und ^p fehlt ^*
+  Tag-Sequenz: ^+ → ^+ → ^p
+  Kontext:
+    ...^pElevavérunt flúmina, Dómine,^+elevavérunt flúmina vocem suam,^+elevavérunt flúmina fragórem suum.^pSuper vo...
+
+Psalm 93, Abschnitt 0.0, Spalte: Text_lat
+  Detail: Zwischen ^+ und ^p fehlt ^*
+  Tag-Sequenz: ^+ → ^p
+  Kontext:
+    ...levavérunt flúmina vocem suam,^+elevavérunt flúmina fragórem suum.^pSuper vo...
+
+Psalm 93, Abschnitt 101.0, Spalte: Text_lat
+  Detail: Zwischen ^+ und ^p fehlt ^*
+  Tag-Sequenz: ^+ → ^+ → ^p
+  Kontext:
+    ...^pElevavérunt flúmina, Dómine,^+elevavérunt flúmina vocem suam,^+elevavérunt flúmina fragórem suum.^pSuper vo...
+
+Psalm 93, Abschnitt 101.0, Spalte: Text_lat
+  Detail: Zwischen ^+ und ^p fehlt ^*
+  Tag-Sequenz: ^+ → ^p
+  Kontext:
+    ...levavérunt flúmina vocem suam,^+elevavérunt flúmina fragórem suum.^pSuper vo...
+
+Psalm 103, Abschnitt 3.0, Spalte: Text_neu
+  Detail: Zwischen ^+ und ^p fehlt ^*
+  Tag-Sequenz: ^+ → ^+ → ^p
+  Kontext:
+    ...rfahren noch Kinder und Enkel,^+alle, die seinen Bund bewahren,^+die seiner Befehle gedenken und danach handeln.^pDer HERR...
+
+Psalm 103, Abschnitt 3.0, Spalte: Text_neu
+  Detail: Zwischen ^+ und ^p fehlt ^*
+  Tag-Sequenz: ^+ → ^p
+  Kontext:
+    ...lle, die seinen Bund bewahren,^+die seiner Befehle gedenken und danach handeln.^pDer HERR...
+
+Psalm 103, Abschnitt 5.0, Spalte: Text_neu
+  Detail: Zwischen ^+ und ^p fehlt ^*
+  Tag-Sequenz: ^+ → ^+ → ^p
+  Kontext:
+    ...rfahren noch Kinder und Enkel,^+alle, die seinen Bund bewahren,^+die seiner Befehle gedenken und danach handeln.^pDer HERR...
+
+Psalm 103, Abschnitt 5.0, Spalte: Text_neu
+  Detail: Zwischen ^+ und ^p fehlt ^*
+  Tag-Sequenz: ^+ → ^p
+  Kontext:
+    ...lle, die seinen Bund bewahren,^+die seiner Befehle gedenken und danach handeln.^pDer HERR...
+
+Psalm 107, Abschnitt 2.0, Spalte: Text_lat
+  Detail: Zwischen ^+ und ^p fehlt ^*
+  Tag-Sequenz: ^+ → ^p
+  Kontext:
+    ...t descéndunt usque ad abýssos;^+ánima eórum in malis tabescébat.^pTurbáti ...
+
+Psalm 135, Abschnitt 1.0, Spalte: Text_ben
+  Detail: Zwischen ^+ und ^p fehlt ^*
+  Tag-Sequenz: ^+ → ^p
+  Kontext:
+    ...t es^*im Himmel und auf Erden,^+im Meer und in allen Tiefen.^pDie Wolk...
+
+Psalm 137, Abschnitt 0.0, Spalte: Text_neu
+  Detail: Zwischen ^+ und ^p fehlt ^*
+  Tag-Sequenz: ^+ → ^p
+  Kontext:
+    ...angen hielten, Lieder von uns,^+unsere Peiniger forderten Jubel: „„Singt für uns eines der Lieder Zions!“^pWie hätt...
+
+Psalm 166, Abschnitt 0.0, Spalte: Text_lat
+  Detail: Zwischen ^+ und ^p fehlt ^*
+  Tag-Sequenz: ^+ → ^p
+  Kontext:
+    ...!^pDóminus quasi vir pugnátor;^+Dóminus nomen eius!^pCurrus p...
+
+Psalm 166, Abschnitt 9.0, Spalte: Text_lat
+  Detail: Zwischen ^+ und ^p fehlt ^*
+  Tag-Sequenz: ^+ → ^p
+  Kontext:
+    ...!^pDóminus quasi vir pugnátor;^+Dóminus nomen eius!^pCurrus p...
+
+Psalm 199, Abschnitt 109.0, Spalte: Text_neu
+  Detail: Zwischen ^+ und ^p fehlt ^*
+  Tag-Sequenz: ^+ → ^p
+  Kontext:
+    ...rke!^pMacht seinen Namen groß,^+preist ihn im Lobgesang!^pMit Lied...
+
+Psalm 199, Abschnitt 114.0, Spalte: Text_neu
+  Detail: Zwischen ^+ und ^p fehlt ^*
+  Tag-Sequenz: ^+ → ^p
+  Kontext:
+    ...r Atem des HERRN darüber weht.^+Wahrhaftig, Gras ist das Volk.^pDas Gras...
+
+Psalm 199, Abschnitt 116.0, Spalte: Text_neu
+  Detail: Zwischen ^+ und ^p fehlt ^*
+  Tag-Sequenz: ^+ → ^p
+  Kontext:
+    ... „Priester des HERRN“ genannt,^+„Diener unseres Gottes“ sagt man zu euch.^pDen Reic...
+
+Psalm 199, Abschnitt 116.0, Spalte: Text_neu
+  Detail: Zwischen ^+ und ^p fehlt ^*
+  Tag-Sequenz: ^+ → ^p
+  Kontext:
+    ...r Nationen werdet ihr genießen^+und euch mit ihrer Herrlichkeit brüsten.^pAnstelle...
+
+Psalm 199, Abschnitt 116.0, Spalte: Text_neu
+  Detail: Zwischen ^+ und ^p fehlt ^*
+  Tag-Sequenz: ^+ → ^p
+  Kontext:
+    ...stelle ihrer doppelten Schande^+und des Frohlockens über die ihnen zuteilgewordene Schmach^pwerden s...
+
+Psalm 199, Abschnitt 116.0, Spalte: Text_neu
+  Detail: Zwischen ^+ und ^p fehlt ^*
+  Tag-Sequenz: ^+ → ^p
+  Kontext:
+    ...em Land das Doppelte besitzen,^+ewige Freude wird ihnen zuteil.^pDenn ich...
+
+Psalm 199, Abschnitt 116.0, Spalte: Text_neu
+  Detail: Zwischen ^+ und ^p fehlt ^*
+  Tag-Sequenz: ^+ → ^p
+  Kontext:
+    ...ch, der HERR, liebe das Recht,^+ich hasse Raub und Unrecht.^pIch zahl...
+
+Psalm 199, Abschnitt 116.0, Spalte: Text_neu
+  Detail: Zwischen ^+ und ^p fehlt ^*
+  Tag-Sequenz: ^+ → ^p
+  Kontext:
+    ...le ihnen den Lohn in Treue aus^+und schließe einen ewigen Bund mit ihnen.^pIhre Nac...
+
+Psalm 199, Abschnitt 116.0, Spalte: Text_neu
+  Detail: Zwischen ^+ und ^p fehlt ^*
+  Tag-Sequenz: ^+ → ^p
+  Kontext:
+    ...nter den Nationen bekannt sein^+und ihre Sprösslinge inmitten der Völker.^pJeder, d...
+

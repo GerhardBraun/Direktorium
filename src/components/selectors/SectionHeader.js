@@ -1,4 +1,4 @@
-import React, { useMemo, useState, useRef } from 'react';
+import React, { useMemo, useEffect, useState, useRef } from 'react';
 import { getValue } from '../dataHandlers/GetValue.js';
 import { getExcludedHours } from '../dataHandlers/ExcludedHours.js';
 
@@ -30,6 +30,42 @@ const SectionHeader = ({
     setLocalPrefComm
 }) => {
     const [pressTimer, setPressTimer] = useState(null);
+    const buttonRef = useRef(null);
+
+    // Debug: Alle Events loggen
+    useEffect(() => {
+        const button = buttonRef.current;
+        if (!button) return;
+
+        const allEvents = [
+            'touchstart', 'touchend', 'touchmove', 'touchcancel',
+            'mousedown', 'mouseup', 'mousemove',
+            'click', 'contextmenu',
+            'pointerdown', 'pointerup', 'pointermove', 'pointercancel',
+            'gesturestart', 'gesturechange', 'gestureend'
+        ];
+
+        const logEvent = (e) => {
+            console.log(`🔍 EVENT: ${e.type}`, {
+                timestamp: Date.now(),
+                button: e.button,
+                buttons: e.buttons,
+                touches: e.touches?.length,
+                isPrimary: e.isPrimary,
+                pointerType: e.pointerType
+            });
+        };
+
+        allEvents.forEach(eventName => {
+            button.addEventListener(eventName, logEvent, { passive: false });
+        });
+
+        return () => {
+            allEvents.forEach(eventName => {
+                button.removeEventListener(eventName, logEvent);
+            });
+        };
+    }, []);
 
     const checkSources = (field) => {
         const hasEig = texts[hour][prefSrc]?.[field];
@@ -54,6 +90,14 @@ const SectionHeader = ({
         const newLanguage = languages[newIndex];
         setLocalPrefLatin(newLanguage === '_lat');
         setLocalPrefLanguage(newLanguage);
+    };
+
+    const handleLongPress = (e) => {
+        console.log('Langer Touch: ', e.type);
+        e.preventDefault();
+        e.stopPropagation();
+        setLocalPrefLatin(false);
+        setLocalPrefLanguage('');
     };
 
     const handlePressStart = (e) => {
@@ -87,6 +131,7 @@ const SectionHeader = ({
         // onTouchCancel: handlePressEnd,
         onMouseDown: handlePressStart,
         onMouseUp: handlePressEnd,
+        onContextMenu: handleLongPress,
         style: {
             userSelect: 'none',
             WebkitUserSelect: 'none',
