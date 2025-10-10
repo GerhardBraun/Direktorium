@@ -1262,7 +1262,8 @@ const PrayerTextDisplay = ({
   onSelectHour,
   onPrevDay,
   onNextDay,
-  widthForHymns
+  widthForHymns,
+  addDebugLog
 }) => {
   const [localPrefComm, setLocalPrefComm] = useState(texts?.prefComm || 0);
   const [localPrefContinuous, setLocalPrefContinuous] = useState(false);
@@ -1304,6 +1305,7 @@ const PrayerTextDisplay = ({
         onSelectHour={onSelectHour}
         texts={texts}
         hour={hour}
+        addDebugLog={addDebugLog}
         prefSrc={prefSrc}
         prefSollemnity={prefSollemnity}
         rank_wt={rank_wt}
@@ -1967,6 +1969,13 @@ export default function LiturgicalCalendar() {
   });
   const [isScrolling, setIsScrolling] = useState(false);
   const scrollTimeoutRef = useRef(null);
+
+  const [debugLog, setDebugLog] = useState([]);
+
+  const addDebugLog = (message) => {
+    setDebugLog(prev => [...prev.slice(-10), `${new Date().toLocaleTimeString()}: ${message}`]);
+    console.log(message);
+  };
 
   const startViewMode = localStorage.getItem("startViewMode") || "directory";
   const lastVisit = () => localStorage.getItem("lastVisit") || null;
@@ -2983,6 +2992,42 @@ export default function LiturgicalCalendar() {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">
       <ReferenceDialog />
+
+      {/* Debug-Anzeige */}
+      {debugLog.length > 0 && (
+        <div style={{
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          right: 0,
+          background: 'rgba(0,0,0,0.9)',
+          color: 'lime',
+          padding: '10px',
+          fontSize: '11px',
+          zIndex: 9999,
+          fontFamily: 'monospace',
+          maxHeight: '150px',
+          overflow: 'auto'
+        }}>
+          <button
+            onClick={() => setDebugLog([])}
+            style={{
+              position: 'absolute',
+              top: '5px',
+              right: '5px',
+              background: 'red',
+              color: 'white',
+              border: 'none',
+              padding: '2px 8px',
+              cursor: 'pointer'
+            }}
+          >
+            ✕
+          </button>
+          {debugLog.map((log, i) => <div key={i}>{log}</div>)}
+        </div>
+      )}
+
       <div
         className="mx-auto bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors w-full sm:max-w-[40em]"
         style={baseStyle}
@@ -3205,6 +3250,7 @@ export default function LiturgicalCalendar() {
                 setLocalPrefLatin={setLocalPrefLatin}
                 setLocalPrefLanguage={setLocalPrefLanguage}
                 widthForHymns={widthForHymns}
+                addDebugLog={addDebugLog}
                 onBack={() => {
                   setViewMode("prayer");
                   window.scrollTo({ top: 0, behavior: 'instant' });
