@@ -22,6 +22,7 @@
     "converter": "python C:/AppProjekte/excel-liturgical-converter/converter.py",
     "brevier": "python C:/AppProjekte/excel-liturgical-converter/converter.py -m 1",
     "deceased": "python C:/AppProjekte/excel-liturgical-converter/converter.py -m 2",
+    "psalms": "python C:/AppProjekte/excel-liturgical-converter/converter.py -m 5",
     "update": "git add . && git commit && git push",
     "brevier-update": "python C:/AppProjekte/excel-liturgical-converter/converter.py -m 1 && git add . && git commit && git push",
     "predeploy": "set \"DISABLE_ESLINT_PLUGIN=true\" && git push && npm run build",

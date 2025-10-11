@@ -1,12 +1,12 @@
-Psalm Text Validation Report - 2025-10-10 23:07:14.584355
+Psalm Text Validation Report - 2025-10-11 05:59:13.161332
 ========================================
 
 ZUSAMMENFASSUNG
 ----------------------------------------
-Gesamt gefundene Fehler: 147
+Gesamt gefundene Fehler: 85
 
-  Doppelte Tags: 120
-  Fehlende Tag-Reihenfolge: 27
+  Doppelte Tags: 67
+  Fehlende Tag-Reihenfolge: 18
 
 ========================================
 
@@ -142,86 +142,6 @@ Psalm 74/1, Text_ben
   Tag-Sequenz: ^p → ^p
     ... stellten sie als Zeichen auf.^pEs hörte sich an,^pwie wenn...
 
-Psalm 92/0, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...n ist es, dem HERRN zu danken,^*deinem Namen zu spielen, du Höchster,^*am Morge...
-
-Psalm 92/0, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...Namen zu spielen, du Höchster,^*am Morgen zu verkünden deine Liebe,^*und dein...
-
-Psalm 92/0, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...rgen zu verkünden deine Liebe,^*und deine Treue in den Nächten,^*zur Laut...
-
-Psalm 92/0, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...nd deine Treue in den Nächten,^*zur Laute mit zehn Saiten und zur Harfe,^*zum Klin...
-
-Psalm 92/0, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...Einsicht kann es nicht fassen,^*ein Tor kann es nicht verstehen:^*wenn auc...
-
-Psalm 92/0, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...ckt herab auf meine Verfolger,^*mein Ohr hört,^*wie es d...
-
-Psalm 92/0, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...lanzt sind im Hause des HERRN,^*sprießen auf in den Höfen unseres Gottes:^*noch im ...
-
-Psalm 92/0, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...f in den Höfen unseres Gottes:^*noch im Alter gedeihen sie,^*sie blei...
-
-Psalm 92/0, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...:^*noch im Alter gedeihen sie,^*sie bleiben voll Saft und Frische,^*zu verkü...
-
-Psalm 92/0, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...bleiben voll Saft und Frische,^*zu verkünden: Gerecht ist der HERR!^*Mein Fel...
-
-Psalm 92/1, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...n ist es, dem HERRN zu danken,^*deinem Namen zu spielen, du Höchster,^*am Morge...
-
-Psalm 92/1, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...Namen zu spielen, du Höchster,^*am Morgen zu verkünden deine Liebe,^*und dein...
-
-Psalm 92/1, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...rgen zu verkünden deine Liebe,^*und deine Treue in den Nächten,^*zur Laut...
-
-Psalm 92/1, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...nd deine Treue in den Nächten,^*zur Laute mit zehn Saiten und zur Harfe,^*zum Klin...
-
-Psalm 92/1, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...Einsicht kann es nicht fassen,^*ein Tor kann es nicht verstehen:^*wenn auc...
-
-Psalm 92/2, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...ckt herab auf meine Verfolger,^*mein Ohr hört,^*wie es d...
-
-Psalm 92/2, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...lanzt sind im Hause des HERRN,^*sprießen auf in den Höfen unseres Gottes:^*noch im ...
-
-Psalm 92/2, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...f in den Höfen unseres Gottes:^*noch im Alter gedeihen sie,^*sie blei...
-
-Psalm 92/2, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...:^*noch im Alter gedeihen sie,^*sie bleiben voll Saft und Frische,^*zu verkü...
-
-Psalm 92/2, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...bleiben voll Saft und Frische,^*zu verkünden: Gerecht ist der HERR!^*Mein Fel...
-
 Psalm 93/0, Text_lat
   Tag-Sequenz: ^+ → ^+
     ...^pElevavérunt flúmina, Dómine,^+elevavérunt flúmina vocem suam,^+elevavér...
@@ -258,113 +178,9 @@ Psalm 104/3, Text_neu
   Tag-Sequenz: ^* → ^*
     ...llen von der Erde verschwinden^*und Frevler sollen nicht mehr da sein.^*Preise d...
 
-Psalm 106/1, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ... aus Zuneigung zu deinem Volk,^*suche mich heim mit deiner Hilfe,^*dass ich...
-
-Psalm 106/2, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...e vergaßen Gott, ihren Retter,^*der große Dinge tat in Ägypten,^*Wunder i...
-
-Psalm 106/2, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...er große Dinge tat in Ägypten,^*Wunder im Lande Hams,^*staunene...
-
-Psalm 106/2, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...erhob er gegen sie seine Hand,^*sie niederzustrecken in der Wüste,^*ihre Nac...
-
-Psalm 106/2, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...niederzustrecken in der Wüste,^*ihre Nachkommen niederzustrecken durch die Völker,^*sie in a...
-
-Psalm 106/2, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...auf und legte sich ins Mittel,^*da wurde der Plage Einhalt geboten;^*das wurd...
-
-Psalm 106/2, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...rde der Plage Einhalt geboten;^*das wurde ihm angerechnet als Gerechtigkeit^*von Gesc...
-
-Psalm 106/3, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...e vergossen unschuldiges Blut,^*das Blut ihrer Söhne und Töchter;^*die opfe...
-
-Psalm 106/3, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ... Blut ihrer Söhne und Töchter;^*die opferten sie den Götzen Kanaans.^*So wurde...
-
-Psalm 106/3, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...Er aber sah auf ihre Drangsal,^*als er ihr Schreien hörte;^*um ihret...
-
-Psalm 106/3, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...l,^*als er ihr Schreien hörte;^*um ihretwillen dachte er an seinen Bund^*und ließ...
-
-Psalm 106/3, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...^pRette uns, HERR, unser Gott,^*und sammle uns aus den Völkern,^*dass wir...
-
-Psalm 106/3, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...nd sammle uns aus den Völkern,^*dass wir deinen heiligen Namen preisen^*und uns ...
-
-Psalm 107/1, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...rechen die vom HERRN Erlösten,^*die er erlöst hat aus der Hand des Bedrängers,^*die er a...
-
-Psalm 107/1, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...umher in der Wüste, im Ödland,^*sie konnten den Weg zur wohnlichen Stadt nicht finden,^*sie litt...
-
-Psalm 107/1, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...wohnlichen Stadt nicht finden,^*sie litten Hunger und Durst,^*ihre Keh...
-
-Psalm 107/3, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...Er macht Ströme zur Wüste,^*Wasserläufe zur dürstenden Öde,^*fruchtba...
-
-Psalm 107/3, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...asserläufe zur dürstenden Öde,^*fruchtbares Erdreich zur salzigen Steppe^*wegen de...
-
-Psalm 107/3, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...Dort ließ er Hungernde wohnen,^*die eine wohnliche Stadt errichteten,^*die Feld...
-
-Psalm 107/3, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...e wohnliche Stadt errichteten,^*die Felder bestellten und Weinberge pflanzten^*und reic...
-
-Psalm 107/3, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...sie gering an Zahl und gebeugt^*unter dem Druck von Unheil und Kummer;^*denn er ...
-
-Psalm 107/3, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...m Druck von Unheil und Kummer;^*denn er goss über die Edlen Verachtung aus,^*ließ sie...
-
 Psalm 118/3, Text_neu
   Tag-Sequenz: ^* → ^*
     ...n euch vom Haus des HERRN her.^*Gott ist der HERR. Er ließ Licht für uns leuchten.^*...
-
-Psalm 119/25, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...abe dir mein Geschick erzählt,^*und du gabst mir Antwort.^*Lehre mi...
-
-Psalm 119/33, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...abgier!^pWende meine Augen ab,^*dass sie nicht schauen nach Nichtigem!^*Auf dein...
-
-Psalm 119/73, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...rt.^pIch habe erkannt, o HERR,^*dass deine Entscheide gerecht sind^*und dass...
-
-Psalm 119/73, Text_ben
-  Tag-Sequenz: ^* → ^*
-    ...en.^pSchande über die Stolzen,^*die mich ohne Grund unterdrücken!^*Ich sinn...
 
 Psalm 136/1, Text_lat
   Tag-Sequenz: ^p → ^p
@@ -466,34 +282,6 @@ Psalm 175/0, Text_neu
   Tag-Sequenz: ^* → ^*
     ...t aus, um dein Volk zu retten,^*um deinem Gesalbten zu helfen.^*...
 
-Psalm 199/107, Text_neu
-  Tag-Sequenz: ^p → ^p
-    ...s wird ihm zum Ruhm gereichen.^pWer konnte übertreten und übertrat nicht,/ Böses tun und tat es nicht?^pDeswegen...
-
-Psalm 199/107, Text_lat
-  Tag-Sequenz: ^* → ^*
-    ..., qui invéntus est sine mácula^*et qui post aurum non ábiit^*nec sper...
-
-Psalm 199/111, Text_lat
-  Tag-Sequenz: ^* → ^*
-    ...Erit in novíssimis diébus^*præparátus mons domus Dómini in vértice móntium,^*et elevá...
-
-Psalm 199/113, Text_lat
-  Tag-Sequenz: ^* → ^*
-    ...salútis sapiéntia et sciéntia:^*timor Dómini ipse est thesáurus eius.^*^pEcce p...
-
-Psalm 199/115, Text_neu
-  Tag-Sequenz: ^* → ^*
-    ....^pSiehe, sie kommen von fern,^*die einen von Norden und Westen,^*andere a...
-
-Psalm 199/115, Text_neu
-  Tag-Sequenz: ^* → ^*
-    ..., ihr Himmel, jauchze, o Erde,^*freut euch, ihr Berge! Denn der HERR hat sein Volk getröstet^*und erba...
-
-Psalm 199/123, Text_lat
-  Tag-Sequenz: ^* → ^*
-    ...c reddam populis labium purum,^*ut invocent omnes in nomine Domini^*et servi...
-
 
 FEHLENDE TAG-REIHENFOLGE
 ----------------------------------------
@@ -569,40 +357,4 @@ Psalm 166/0, Text_lat
 Psalm 166/9, Text_lat
   Tag-Sequenz: ^+ → ^p
     ...!^pDóminus quasi vir pugnátor;^+Dóminus nomen eius!^pCurrus p...
-
-Psalm 199/109, Text_neu
-  Tag-Sequenz: ^+ → ^p
-    ...rke!^pMacht seinen Namen groß,^+preist ihn im Lobgesang!^pMit Lied...
-
-Psalm 199/114, Text_neu
-  Tag-Sequenz: ^+ → ^p
-    ...r Atem des HERRN darüber weht.^+Wahrhaftig, Gras ist das Volk.^pDas Gras...
-
-Psalm 199/116, Text_neu
-  Tag-Sequenz: ^+ → ^p
-    ... „Priester des HERRN“ genannt,^+„Diener unseres Gottes“ sagt man zu euch.^pDen Reic...
-
-Psalm 199/116, Text_neu
-  Tag-Sequenz: ^+ → ^p
-    ...r Nationen werdet ihr genießen^+und euch mit ihrer Herrlichkeit brüsten.^pAnstelle...
-
-Psalm 199/116, Text_neu
-  Tag-Sequenz: ^+ → ^p
-    ...stelle ihrer doppelten Schande^+und des Frohlockens über die ihnen zuteilgewordene Schmach^pwerden s...
-
-Psalm 199/116, Text_neu
-  Tag-Sequenz: ^+ → ^p
-    ...em Land das Doppelte besitzen,^+ewige Freude wird ihnen zuteil.^pDenn ich...
-
-Psalm 199/116, Text_neu
-  Tag-Sequenz: ^+ → ^p
-    ...ch, der HERR, liebe das Recht,^+ich hasse Raub und Unrecht.^pIch zahl...
-
-Psalm 199/116, Text_neu
-  Tag-Sequenz: ^+ → ^p
-    ...le ihnen den Lohn in Treue aus^+und schließe einen ewigen Bund mit ihnen.^pIhre Nac...
-
-Psalm 199/116, Text_neu
-  Tag-Sequenz: ^+ → ^p
-    ...nter den Nationen bekannt sein^+und ihre Sprösslinge inmitten der Völker.^pJeder, d...
 
