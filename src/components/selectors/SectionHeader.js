@@ -49,8 +49,8 @@ const SectionHeader = ({
     };
 
     const handleLanguageToggle = () => {
-        const currentIndex = languages.indexOf(localPrefLanguage);
-        const newIndex = currentIndex !== 0 ? 0 : 1;
+        const newIndex = languages.indexOf(localPrefLanguage) !== 0
+            ? 0 : 1;
         const newLanguage = languages[newIndex];
         setLocalPrefLatin(newLanguage === '_lat');
         setLocalPrefLanguage(newLanguage);
@@ -109,7 +109,7 @@ const SectionHeader = ({
                 texts,
                 prefSrc,
                 prefSollemnity,
-                localPrefKomplet: 'wt', // nicht relevant fÃ¼r TSN
+                localPrefKomplet: 'wt', // nicht relevant für TSN
                 localPrefComm,
                 localPrefPsalmsWt,
                 localPrefErgPs,
@@ -148,19 +148,19 @@ const SectionHeader = ({
     const isErsteLesung = field.startsWith('les_text') && hour === 'lesehore';
     const isTSN = ["terz", "sext", "non"].includes(hour);
     const showTSN = isTSN && ['HYMNUS', 'PSALMODIE', 'KURZLESUNG'].includes(title)
-        && !(isPsalmodie && isIdenticalTerzSext); // Neue Bedingung hinzugefÃ¼gt
+        && !(isPsalmodie && isIdenticalTerzSext); // Neue Bedingung hinzugefügt
     const showErgPs = isTSN
         && isPsalmodie
         && !(prefSollemnity || rank_date === 5 || rank_wt === 5);
-    // Bestimme ausgeschlossene Horen fÃ¼r TSN basierend auf ErgÃ¤nzungspsalmodie
+    // Bestimme ausgeschlossene Horen für TSN basierend auf Ergänzungspsalmodie
     const excludedHours = getExcludedHours(texts, localPrefErgPs, title);
     const invPsalms = (hour === 'invitatorium' && title === 'PSALMODIE')
         ? texts?.invitatorium?.psalms : null;
 
-    // Hole die gewÃ¤hlten Sprachen aus localStorage
-    const languages = JSON.parse(localStorage.getItem('languages') || '["", "_lat"]');
+    // Hole die gewählten Sprachen aus localStorage
+    const languages = JSON.parse(localStorage.getItem('languages')) || ["", "_lat"];
 
-    // (dt./lat.)-Button anzeigen?
+    // Sprachwahl-Button anzeigen?
     let showLanguageToggle = !languages.includes('aus');
     if (title === 'VERSIKEL'
         || (hour === 'invitatorium' && title === 'PSALMODIE')
@@ -169,17 +169,6 @@ const SectionHeader = ({
     ) showLanguageToggle = false
     else if (title === 'HYMNUS' && showLanguageToggle)
         showLanguageToggle = localStorage.getItem('ommitOpening') === 'true' ? true : false
-
-    // Bestimme die Anzeigetexte fÃ¼r die Sprachen
-    const getLanguageLabel = (langCode) => {
-        const labels = { '': 'Stb', '_lat': 'lat.', '_neu': 'neu', '_ben': 'Ben' };
-        return labels[langCode] || langCode;
-    };
-
-    // Spezialfall: Wenn _lat dabei ist, andere Sprache als "dt." anzeigen
-    const hasLatin = !languages[0] && languages[1] === '_lat' // nur fÃ¼r Stb/lat.
-    const label1 = hasLatin ? 'dt.' : getLanguageLabel(languages[0]);
-    const label2 = getLanguageLabel(languages[1]);
 
     // Prüfe, ob Commune übersprungen werden soll
     let skipCommune = false;
@@ -224,24 +213,47 @@ const SectionHeader = ({
         </span>
     );
 
+    const doUnderline = (key) => {
+        return languages[1] !== '_lat' && localPrefLanguage === languages[key] ? 'underline' : ''
+    }
+
+    // Bestimme die Anzeigetexte für die Sprachen
+    const label = (key) => {
+        const labels = { '': 'Stb', '_lat': 'lat.', '_neu': 'neu', '_ben': 'Ben' };
+        // Sonderfall für Stb/Latein: (dt./lat.)
+        if (!key && !languages[0] && languages[1] === '_lat')
+            return 'dt.'
+        else return labels[languages[key]] || 'unbekannt'
+    };
+
     return (
         <h2 className="prayer-heading inline-block space-x-3 items-baseline">
             <span className="inline-block">{title}</span>
             {showLanguageToggle && (
                 <ButtonGroup>
                     {"("}
-                    <button {...pressHandlers}
-                        className={!hasLatin && localPrefLanguage === languages[0] ? 'underline' : ''}
+                    {!localPrefLanguage && languages[0] && (
+                        <>
+                            <span className={'underline'}>
+                                {"Stb"}
+                            </span>
+                            {"/"}
+                        </>
+                    )}
+                    <button
+                        {...pressHandlers}
+                        className={doUnderline(0)}
                     >
-                        {label1}
+                        {label(0)}
                     </button>
                     <button {...pressHandlers}>
                         {"/"}
                     </button>
-                    <button {...pressHandlers}
-                        className={!hasLatin && localPrefLanguage === languages[1] ? 'underline' : ''}
+                    <button
+                        {...pressHandlers}
+                        className={doUnderline(1)}
                     >
-                        {label2}
+                        {label(1)}
                     </button>
                     {")"}
                 </ButtonGroup>
@@ -412,8 +424,8 @@ const SectionHeader = ({
                         );
                     })}
                 </ButtonGroup>
-            )
-            }        </h2 >
+            )}
+        </h2 >
     );
 };
 

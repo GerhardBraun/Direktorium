@@ -3359,7 +3359,10 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "hymn_1": 1026.0,
-          "hymn_2": 1027.0
+          "hymn_2": 1027.0,
+          "hymn_1_lat": 5463.0,
+          "hymn_2_lat": 5464.0,
+          "hymn_3_lat": 5457.0
         },
         "Laudes": {
           "button": "Mar",
@@ -3374,16 +3377,7 @@ export const brevierData = {
           "resp3": "Gottesgebärerin, bitte für uns.",
           "bitten_e": "Gepriesen sei Jesus Christus, unser Erlöser, der geboren wurde aus der Jungfrau Maria. Zu ihm lasst uns beten:",
           "bitten_r": "Höre auf die Fürsprache deiner Mutter.",
-          "bitten": "^RUBR1. Reihe:^0RUBR^lDu Sonne der Gerechtigkeit, Maria war die Morgenröte, die dein Kommen angekündigt hat;^qgib, dass wir allezeit in deinem Lichte leben.^pEwiges Wort des Vaters, du hast dir in der unversehrten Jungfrau Maria eine Wohnung bereitet;^qwohne auch in unseren Herzen.^pErlöser der Welt, Maria stand unter deinem Kreuz;^qauf ihre Fürsprache hilf uns, auch in schwerem Leid standzuhalten.^pGütiger Jesus, vom Kreuz aus hast du deine Mutter den Menschen zur Mutter gegeben;^qlass uns heute ihren Schutz erfahren.^p^RUBROder 2. Reihe:^0RUBR^lHeiland der Welt, du hast Maria vor jeder Makel der Sünde bewahrt;^qbewahre uns heute vor Schuld und Sünde.^pSohn des lebendigen Gottes, du hast dir die Jungfrau Maria als reine Wohnung erwählt;^qmache auch uns zu einem Tempel deines Geistes.^pEwiges Wort, deine Mutter Maria bewahrte in ihrem Herzen alles, was an ihr geschehen war;^qhilf uns, deine Weisungen zu überdenken.^pKönig der Könige, du hast deine Mutter Maria mit Leib und Seele in den Himmel aufgenommen;^qnimm uns auf in der Stunde unseres Todes."
-        }
-      },
-      "Sa": {
-        "Lesehore": {
-          "hymn_1_lat": 5463.0,
-          "hymn_2_lat": 5464.0,
-          "hymn_3_lat": 5457.0
-        },
-        "Laudes": {
+          "bitten": "^RUBR1. Reihe:^0RUBR^lDu Sonne der Gerechtigkeit, Maria war die Morgenröte, die dein Kommen angekündigt hat;^qgib, dass wir allezeit in deinem Lichte leben.^pEwiges Wort des Vaters, du hast dir in der unversehrten Jungfrau Maria eine Wohnung bereitet;^qwohne auch in unseren Herzen.^pErlöser der Welt, Maria stand unter deinem Kreuz;^qauf ihre Fürsprache hilf uns, auch in schwerem Leid standzuhalten.^pGütiger Jesus, vom Kreuz aus hast du deine Mutter den Menschen zur Mutter gegeben;^qlass uns heute ihren Schutz erfahren.^p^RUBROder 2. Reihe:^0RUBR^lHeiland der Welt, du hast Maria vor jeder Makel der Sünde bewahrt;^qbewahre uns heute vor Schuld und Sünde.^pSohn des lebendigen Gottes, du hast dir die Jungfrau Maria als reine Wohnung erwählt;^qmache auch uns zu einem Tempel deines Geistes.^pEwiges Wort, deine Mutter Maria bewahrte in ihrem Herzen alles, was an ihr geschehen war;^qhilf uns, deine Weisungen zu überdenken.^pKönig der Könige, du hast deine Mutter Maria mit Leib und Seele in den Himmel aufgenommen;^qnimm uns auf in der Stunde unseres Todes.",
           "hymn_1_lat": 5473.0,
           "hymn_2_lat": 5465.0,
           "hymn_3_lat": 5478.0,
