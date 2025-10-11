@@ -35,8 +35,8 @@ export const NavigationButtons = ({
                     { label: 'Komplet', name: 'komplet' }];
             case 'komplet':
                 return [
-                    { label: 'zurück zur Vesper', name: 'vesper' },
-                    ''];
+                    { label: 'zurück zur Vesper', name: 'vesper', arrow: '\u00a0←\u00a0\u00a0', span: 'col-span-3' },
+                    { label: 'Komplet', name: 'komplet', arrow: '\u00a0↑\u00a0\u00a0' }];
             default:
                 return [];
         }
@@ -65,7 +65,7 @@ export const NavigationButtons = ({
     }
 
     const handleHourChange = (nextHour) => {
-        const { name, label } = nextHour;
+        const { name, label, arrow = '' } = nextHour;
         // Wenn kein name angegeben ist, nichts tun
         if (!name) return;
         localStorage.setItem('ommitOpening',
@@ -81,7 +81,10 @@ export const NavigationButtons = ({
                 window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
             }, 50);
         } else {
-            window.scrollTo({ top: 0, behavior: 'instant' });
+            window.scrollTo({
+                top: 0,
+                behavior: `${arrow.includes('↑') ? 'smooth' : 'instant'}`
+            });
         }
     };
 
@@ -156,12 +159,18 @@ export const NavigationButtons = ({
                         key={index}
                         onClick={() => handleHourChange(nextHour)}
                         disabled={!nextHour.name}
-                        className={`${nextHour?.span ? nextHour.span : 'col-span-2'} p-2 rounded-sm text-sm
+                        className={`p-2 rounded-sm text-sm
+                            ${nextHour?.span ? nextHour.span : 'col-span-2'}
+                            ${nextHour?.arrow ? 'text-left' : ''}
                             ${nextHour.name
                                 ? 'bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-rubric'
                                 : 'bg-gray-50 dark:bg-gray-900 text-gray-400 dark:text-gray-600 cursor-default'}`}
                     >
-                        {(nextHour.label ? `${nextHour.label} →` : null)}
+                        {(nextHour.label
+                            ? `${nextHour?.arrow
+                                ? nextHour.arrow + nextHour.label
+                                : nextHour.label + '\u00a0\u00a0→'}`
+                            : null)}
                     </button>
                 ))
             )}
