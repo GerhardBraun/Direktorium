@@ -2614,14 +2614,22 @@ export default function LiturgicalCalendar() {
       );
     };
 
-    const renderDescriptionItem = (label, description, spacing = 1) => {
-      const spacingString = '\u00A0'.repeat(spacing);
+    const renderDescriptionItem = (label, description, useIndent = true) => {
+      const indentStyle = !useIndent ? {} : {
+        display: 'grid',
+        gridTemplateColumns: '1.6rem 1fr',
+        gap: '0.5em',
+        alignItems: 'start'
+      }
       return (
-        <p>
-          <span className="text-gray-700 dark:text-gray-300">{label}</span>
-          {spacingString}
-          {description}
-        </p>
+        <div style={indentStyle}>
+          <span className="text-gray-700 dark:text-gray-300 whitespace-nowrap">
+            {label}{`${useIndent ? '' : ' '}`}
+          </span>
+          <span className="text-gray-500 dark:text-gray-400">
+            {description}
+          </span>
+        </div>
       );
     };
 
@@ -2730,10 +2738,10 @@ export default function LiturgicalCalendar() {
                 <LanguageProgress />
               </div>
               <div className="mb-2 text-xs text-gray-500 dark:text-gray-400">
-                {renderDescriptionItem("Stundenbuch:", "Einheitsübersetzung von 1983")}
-                {renderDescriptionItem("lat.:", "Nova Vulgata", 4)}
-                {renderDescriptionItem("Ben:", "Benediktinisches Antiphonale / Münsterschwarzacher Psalter", 3)}
-                {renderDescriptionItem("neu:", "Einheitsübersetzung von 2016", 3)}
+                {renderDescriptionItem("Stundenbuch:", "Einheitsübersetzung von 1983", false)}
+                {renderDescriptionItem("lat.:", "Nova Vulgata")}
+                {renderDescriptionItem("Ben:", "Benediktinisches Antiphonale / Münsterschwarzacher Psalter")}
+                {renderDescriptionItem("neu:", "Einheitsübersetzung von 2016")}
               </div>
               <div className="grid grid-cols-5 gap-0">
                 {LanguageButton("", "Stundenbuch", "col-span-2")}

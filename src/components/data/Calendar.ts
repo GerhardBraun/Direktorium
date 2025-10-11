@@ -8454,7 +8454,7 @@ export const calendarData: CalendarData = {
         "n1": {
           "major": {
             "comm_1": "Hirten",
-            "oration": "Allmächtiger, ewiger Gott, im heiligen Papst Johannes hast du der Welt ein lebendiges Abbild Christi, des guten Hirten, auf-leuchten lassen. Gib uns auf seine Fürsprache die Kraft, dass wir den Reichtum christlicher Liebe mit Freude weiterschenken.^ORV",
+            "oration": "Allmächtiger, ewiger Gott, im heiligen Papst Johannes hast du der Welt ein lebendiges Abbild Christi, des guten Hirten, aufleuchten lassen. Gib uns auf seine Fürsprache die Kraft, dass wir den Reichtum christlicher Liebe mit Freude weiterschenken.^ORV",
             "oration_lat": "Omnípotens sempitérne Deus, qui per orbem terrárum in sancto Ioánne, papa, Christi boni pastóris vivum effulgére fecísti exémplum, concéde nobis, quaésumus, ut, eius intercessióne, abundántiam christiánæ caritátis lætánter effúndere valeámus.^ORlV"
           },
           "Laudes": {
