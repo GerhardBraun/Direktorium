@@ -1,41 +1,4 @@
-Psalm Text Validation Report - 2025-10-11 22:45:57.671565
+Psalm Text Validation Report - 2025-10-11 22:52:42.418927
 ========================================
 
-ZUSAMMENFASSUNG
-----------------------------------------
-Gesamt gefundene Fehler: 4
-
-  Falsches letztes Tag: 1
-  Falsche Tag-Reihenfolge: 2
-  Unvollständige Tag-Sequenz: 1
-
-========================================
-
-
-FALSCHE TAG-REIHENFOLGE
-----------------------------------------
-
-Psalm 159/0, Text
-  Tag-Sequenz: ^p → ^p
-    ...erechtfertigt durch den Geist,^p–°^rR^0r°Lobet den Herrn, alle Völker. –^pgeschaut...
-
-Psalm 159/0, Text
-  Tag-Sequenz: ^p → ^p
-    ...,^*verkündet unter den Heiden,^p–°^rR^0r°Lobet den Herrn, alle Völker. –^pgeglaubt...
-
-
-FALSCHES LETZTES TAG
-----------------------------------------
-
-Psalm 159/0, Text
-  Tag-Sequenz: Letztes Tag: ^p
-    ...fgenommen in die Herrlichkeit.^p^rR^0r°L...
-
-
-UNVOLLSTÄNDIGE TAG-SEQUENZ
-----------------------------------------
-
-Psalm 159/0, Text
-  Tag-Sequenz: ^p (letztes Tag)
-    ...fgenommen in die Herrlichkeit.^p^rR^0r°Lobet den Herrn, alle Völker....
-
+✓ Keine Fehler gefunden!

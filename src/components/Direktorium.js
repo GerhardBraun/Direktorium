@@ -1676,7 +1676,9 @@ const PrayerTextDisplay = ({
             }}
             className="scroll-mt-32 mt-6 text-left long-rubric"
           >
-            Für eine Feier als Vigil: Cantica&nbsp;und&nbsp;Evangelium&nbsp;&nbsp;→
+            {'Für eine Feier als Vigil: '}
+            <span className='font-bold text-[1.1em]'>
+              CANTICA&nbsp;<span className='font-normal'>und</span>&nbsp;EVANGELIUM&nbsp;&nbsp;→</span>
           </button>
         )}
 
