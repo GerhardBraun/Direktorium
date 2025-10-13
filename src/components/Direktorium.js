@@ -1524,27 +1524,6 @@ const PrayerTextDisplay = ({
           </div>
         )}
 
-        {hour === 'vigil' && (
-          <button
-            onClick={() => {
-              onSelectHour('lesehore', texts)
-              setTimeout(() => {
-                const bookmark = document.getElementById('scroll-to-TeDeum');
-                if (bookmark) {
-                  bookmark.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'  // Element am oberen Rand positionieren, kombiniert mit scroll-mt- bei der id
-                  });
-                }
-              }, 50);
-            }}
-            className="mt-3 text-left long-rubric"
-          >
-            ←&nbsp;&nbsp;zurück zur Lesehore
-          </button>
-        )}
-
-
         {(getValue("psalm1") || hour === "invitatorium") && (
           <div className="mb-0">
             <SectionHeader
@@ -1667,20 +1646,21 @@ const PrayerTextDisplay = ({
           </div>
         )}
 
-        {texts.hasVigil && hour === 'lesehore' && (
-          <button
-            id="scroll-to-TeDeum"
-            onClick={() => {
-              onSelectHour('vigil', texts)
-              window.scrollTo({ top: 0, behavior: 'instant' });
-            }}
-            className="scroll-mt-32 mt-6 text-left long-rubric"
-          >
-            {'Für eine Feier als Vigil: '}
-            <span className='font-bold text-[1.1em]'>
-              CANTICA&nbsp;<span className='font-normal'>und</span>&nbsp;EVANGELIUM&nbsp;&nbsp;→</span>
-          </button>
-        )}
+        {texts.hasVigil && hour === 'lesehore'
+          && !['kirchw', 'verst'].includes(prefSollemnity) && (
+            <button
+              id="scroll-to-TeDeum"
+              onClick={() => {
+                onSelectHour('vigil', texts)
+                window.scrollTo({ top: 0, behavior: 'instant' });
+              }}
+              className="scroll-mt-32 mt-6 text-left long-rubric"
+            >
+              {'Für eine Feier als Vigil: '}
+              <span className='font-bold text-[1.1em]'>
+                CANTICA&nbsp;<span className='font-normal'>und</span>&nbsp;EVANGELIUM&nbsp;&nbsp;→</span>
+            </button>
+          )}
 
         {ordinariumTexts.cant && (
           <div className="mb-0">

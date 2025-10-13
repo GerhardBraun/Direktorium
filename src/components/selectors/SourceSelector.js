@@ -242,7 +242,7 @@ const SourceSelector = ({
                     </button>
                 );
             })}
-            {!reduced && (
+            {!reduced && hour !== 'vigil' && (
                 <div className="flex gap-1">
                     <button
                         onClick={() => handleSourceSelect('', 'kirchw')}

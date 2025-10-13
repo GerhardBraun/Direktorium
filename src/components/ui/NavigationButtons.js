@@ -102,7 +102,31 @@ export const NavigationButtons = ({
                 : (hour === 'vesper' && (texts?.hasZweiteVesper || ['kirchw', 'soll'].includes(prefSollemnity)))
                     ? 'Zweite Vesper'
                     : hour.charAt(0).toUpperCase() + hour.slice(1)
-        return (
+
+        if (hour === 'vigil') return (
+            <div className="grid grid-cols-3 gap-0 mb-2">
+                <button
+                    onClick={() => {
+                        onSelectHour('lesehore', texts)
+                        setTimeout(() => {
+                            const bookmark = document.getElementById('scroll-to-TeDeum');
+                            if (bookmark) {
+                                bookmark.scrollIntoView({
+                                    behavior: 'smooth',
+                                    block: 'start'  // Element am oberen Rand positionieren, kombiniert mit scroll-mt- bei der id
+                                });
+                            }
+                        }, 50);
+                    }}
+                    className="text-left long-rubric mt-1"
+                >
+                    &nbsp;&nbsp;←&nbsp;&nbsp;zurück zur Lesehore
+                </button>
+                <div className="pr-4 text-center font-bold">
+                    Vigil
+                </div>
+            </div>
+        ); else return (
             <div className="grid grid-cols-4 gap-0 mb-2">
                 <button
                     onClick={onBack}

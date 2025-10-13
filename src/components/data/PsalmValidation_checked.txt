@@ -1,4 +1,4 @@
-Psalm Text Validation Report - 2025-10-12 20:56:58.395051
+Psalm Text Validation Report - 2025-10-12 18:11:20.957137
 ================================================================================
 
 ✓ Keine Tag-Fehler gefunden!
@@ -8,8 +8,7 @@ Psalm Text Validation Report - 2025-10-12 20:56:58.395051
 VERS-STRUKTUR KONSISTENZ
 ================================================================================
 
-Gefundene Inkonsistenzen: 246
-Übersprungene (Whitelist): 5
+Gefundene Inkonsistenzen: 251
 
 Legende:
   v = zweiteiliger Vers (^p^*)
@@ -18,6 +17,39 @@ Legende:
   (leer) = keine Übersetzung vorhanden
 
 --------------------------------------------------------------------------------
+
+in Stundenbuch_Psalmmuster mit Alt+V einfügen
+
+Psalm 1/0+
+Stb: dvvv vvvv
+Ben: dvdo vvvv
+neu: dvvv vvvv
+lat: dvvv ovvv
+
+Psalm 2/0+
+Stb: vvvv vvdv vvvv v
+Ben: vdvv vvdv vvdv v
+neu: vvvv vvdv vvvd v
+lat: vdvv vvdv vvvd v
+
+Psalm 3/0+
+Stb: vvvv vvvv v
+Ben: vvvv vvvv v
+neu: vvvv vvvv v
+lat: vvvv vvov v
+
+Psalm 4/0+
+Stb: vvvv vvvv v
+Ben: dvvv vvdv v
+neu: vvvv vvvv v
+lat: vvvv dvvv v
+
+Psalm 5/0+
+Stb: vvvv vvvv dvvv vv
+Ben: vvvv vvvv dvvv vv
+neu: vvvv vvvo dvvv vv
+lat: vvdd odod vvvv vv
+
 
 Psalm 7/1
 Stb: vvvv dvdv vd
