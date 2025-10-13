@@ -250,9 +250,9 @@ const HymnSelector = ({ texts, hour, season,
             }
 
             // NEUER SUCHLAUF: Prüfe nach eigenen Hymnen in anderen Sprachen
-            // Nur wenn prefSrc === 'eig' und für das Feld hymn_1
-            if (texts[hour]?.eig) {
-                const eigData = texts[hour].eig;
+            // Nur wenn prefSrc === 'oblig' und für das Feld hymn_1
+            if (texts[hour]?.oblig) {
+                const eigData = texts[hour].oblig;
 
                 // Prüfe, ob hymn_1 in der aktuellen Sprache bereits vorhanden ist
                 const currentLanguageHymn1 = eigData?.hymn_1 || 0

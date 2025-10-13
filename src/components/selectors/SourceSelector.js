@@ -5,7 +5,7 @@ import { useMemo, useEffect, useState } from "react";
 // Mit d1, d2 können Eigenfeiern VOR den denen des Regionalkalenders sortiert werden,
 // mit d11, d12 NACH denen des Regionalkalenders
 // mar ist nur für das Gedächtnis Mariens am Samstag
-export const sourceKeys = ['eig', 'd1', 'd2', 'n1', 'n2', 'n3', 'n4', 'n5', 'd11', 'd12', 'mar'];
+export const sourceKeys = ['oblig', 'd1', 'd2', 'n1', 'n2', 'n3', 'n4', 'n5', 'd11', 'd12', 'mar'];
 
 // Hilfsfunktion zum Prüfen, ob eine Quelle gültige Daten hat
 const formatText = (text) => {
@@ -27,7 +27,7 @@ const SourceSelector = ({
 
     const [storedPrefSrc, setStoredPrefSrc] = useState('');
     const isErsteVesper = useMemo(() => {
-        const buttonEig = texts?.vesper?.eig?.button ? 'eig' : 'wt';
+        const buttonEig = texts?.vesper?.oblig?.button ? 'oblig' : 'wt';
         if (viewMode === 'prayerText') {
             if (hour === 'erstev') return 'erstev'
             if (hour === 'vesper' && texts.hasErsteVesper && prefSollemnity !== 'soll') return buttonEig
@@ -37,9 +37,9 @@ const SourceSelector = ({
 
     const hasValidSource = (source) => {
         if (source === 'any') {
-            // Finde die erste source in sourceKeys (außer 'eig'), die eine Oration hat
+            // Finde die erste source in sourceKeys (außer 'oblig'), die eine Oration hat
             return sourceKeys
-                .filter(key => key !== 'eig')
+                .filter(key => key !== 'oblig')
                 .find(key => texts?.laudes?.[key]?.oration) || false;
         }
 
@@ -53,11 +53,11 @@ const SourceSelector = ({
     useEffect(() => {
         if (!prefSrc) {
             if (!['kirchw', 'verst'].includes(prefSollemnity)) {
-                setPrefSrc(hasValidSource('eig') ? 'eig' : hasValidSource('any') ? 'any' : '')
+                setPrefSrc(hasValidSource('oblig') ? 'oblig' : hasValidSource('any') ? 'any' : '')
             }
         }
         else if (!hasValidSource(prefSrc)) {
-            setPrefSrc('eig')
+            setPrefSrc('oblig')
         };
     }, [prefSrc, texts]);
 
@@ -65,11 +65,11 @@ const SourceSelector = ({
 
     // Hilfsfunktion für Button-Farben basierend auf der Quellenfarbe
     const getButtonColor = (source, disableButtons) => {
-        if (source === 'eig' && disableButtons?.eig) return 'bg-gray-100 dark:bg-gray-800 text-gray-400 dark:text-gray-600';
+        if (source === 'oblig' && disableButtons?.oblig) return 'bg-gray-100 dark:bg-gray-800 text-gray-400 dark:text-gray-600';
         if (disableButtons?.sources) return 'bg-gray-100 dark:bg-gray-800 text-gray-400 dark:text-gray-600';
         let color = 'w'
         if (source === 'erstev')
-            color = texts?.vesper?.eig?.farbe
+            color = texts?.vesper?.oblig?.farbe
         else color = texts?.laudes?.[source]?.farbe
 
         switch (color?.charAt(0)?.toLowerCase()) {
@@ -124,26 +124,26 @@ const SourceSelector = ({
             ) { blockToggle = false };
             if (source === 'wt') {
                 onSelectHour('vesper', texts);
-                setPrefSrc('eig');
+                setPrefSrc('oblig');
                 setPrefSollemnity('');
                 setStoredPrefSrc('');
             }
         }
         if (!blockToggle) {
             let newPrefSrc = source;
-            if (source === 'wt') { newPrefSrc = 'eig' };
+            if (source === 'wt') { newPrefSrc = 'oblig' };
             if (source === 'lokal') {
                 if (storedPrefSrc) {
                     newPrefSrc = storedPrefSrc;
                     setStoredPrefSrc('');
                 } else {
                     newPrefSrc = prefSrc;
-                    if (prefSrc === 'eig' && !hasEig) newPrefSrc = hasAdLib
-                    if (!prefSrc) newPrefSrc = hasEig ? 'eig' : hasAdLib
+                    if (prefSrc === 'oblig' && !hasEig) newPrefSrc = hasAdLib
+                    if (!prefSrc) newPrefSrc = hasEig ? 'oblig' : hasAdLib
                     if (!newPrefSrc) newPrefSollemnity = ''
                 }
             };
-            if (!newPrefSollemnity && !newPrefSrc) { newPrefSrc = 'eig' };
+            if (!newPrefSollemnity && !newPrefSrc) { newPrefSrc = 'oblig' };
             setPrefSrc(newPrefSrc);
             setPrefSollemnity(newPrefSollemnity);
             if (source === 'wt') { setUseCommemoration(false) }
@@ -152,7 +152,7 @@ const SourceSelector = ({
     };
 
     const { rank_date = 0, rank_wt = 0, isCommemoration } = texts
-    const hasEig = hasValidSource('eig') // G, F oder H
+    const hasEig = hasValidSource('oblig') // G, F oder H
     const hasAdLib = hasValidSource('any')
 
     const showWt = rank_wt < 3 && (
@@ -163,19 +163,19 @@ const SourceSelector = ({
     const disableButtons = {}
     disableButtons.wt = isErsteVesper && !prefSollemnity;
     disableButtons.sources = isErsteVesper && prefSollemnity !== 'soll';
-    disableButtons.eig = isErsteVesper === 'eig' && prefSollemnity === 'soll';
+    disableButtons.oblig = isErsteVesper === 'oblig' && prefSollemnity === 'soll';
 
     let eigButton = {}
-    const eigEntry = texts?.vesper?.eig?.button
-    if (eigEntry && isErsteVesper === 'eig') {
+    const eigEntry = texts?.vesper?.oblig?.button
+    if (eigEntry && isErsteVesper === 'oblig') {
         eigButton = {
             "button": formatText(eigEntry),
-            "farbe": texts?.vesper?.eig?.farbe || 'w'
+            "farbe": texts?.vesper?.oblig?.farbe || 'w'
         }
     }
 
     // Anzeige des Buttons für lokales Hochfest
-    let useToggle = (!(showWt && prefSrc === 'eig') || useCommemoration) &&
+    let useToggle = (!(showWt && prefSrc === 'oblig') || useCommemoration) &&
         ((prefSollemnity !== 'kirchw' && prefSollemnity !== 'verst'))
     if (isErsteVesper) useToggle = true
 
@@ -193,7 +193,7 @@ const SourceSelector = ({
                     onClick={() => handleSourceSelect('wt')}
                     className={`w-full p-1 mb-1 text-sm text-center rounded-sm
                         ${getWeekdayButtonColor(season, disableButtons)}
-                        ${(prefSrc === 'eig' && !useCommemoration && !disableButtons.sources)
+                        ${(prefSrc === 'oblig' && !useCommemoration && !disableButtons.sources)
                             ? 'ring-2 ring-yellow-500' : ''}`}
                     disabled={disableButtons.wt}
                 >
@@ -204,15 +204,15 @@ const SourceSelector = ({
                         Für die Kommemoration:</div>)}
             </>
             )}
-            {/* eig-Button für die Erste Vesper*/}
+            {/* oblig-Button für die Erste Vesper*/}
             {eigButton.button && (<>
                 <button
                     onClick={() => handleSourceSelect('wt')}
                     className={`w-full p-1 mb-1 text-sm text-center rounded-sm
                         ${eigButton.farbe === 'r' ? 'btn-red' : 'btn-white'}
-                        ${(prefSrc === 'eig' && !useCommemoration && !disableButtons.eig)
+                        ${(prefSrc === 'oblig' && !useCommemoration && !disableButtons.oblig)
                             ? 'ring-2 ring-yellow-500' : ''}`}
-                    disabled={disableButtons.eig}
+                    disabled={disableButtons.oblig}
                 >
                     {eigButton.button}
                 </button>

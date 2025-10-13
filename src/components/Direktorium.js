@@ -67,7 +67,7 @@ const PrayerHours = {
 
 // Enum for text sources
 const TextSources = {
-  EIG: "eig",
+  OBLIG: "oblig",
   COM: "com",
   WT: "wt",
 };
@@ -1158,10 +1158,10 @@ const PrayerMenu = ({
           let displayText = firstCapital(hour);
           if (hour === "vesper") {
             if (
-              texts?.vesper?.eig?.button &&
+              texts?.vesper?.oblig?.button &&
               texts.hasErsteVesper && prefSollemnity !== 'soll'
             ) {
-              displayText = texts.vesper.eig.button;
+              displayText = texts.vesper.oblig.button;
             } else if (texts?.vesper?.wt?.button) {
               displayText = texts.vesper.wt.button;
             } else {
@@ -1443,7 +1443,7 @@ const PrayerTextDisplay = ({
         onPrevDay={onPrevDay}
         onNextDay={onNextDay}
         swdWritten={hour === 'vesper'
-          ? texts.vesper?.eig?.swdWritten || texts.vesper?.wt?.swdWritten || texts?.swdWritten
+          ? texts.vesper?.oblig?.swdWritten || texts.vesper?.wt?.swdWritten || texts?.swdWritten
           : texts?.swdWritten}
       />
       <NavigationButtons
@@ -1800,7 +1800,7 @@ const PrayerTextDisplay = ({
         !prefSollemnity &&
         !(hour === "vesper" && texts.hasErsteVesper) &&
         ["lesehore", "laudes", "vesper"].includes(hour) &&
-        (texts?.laudes?.eig?.oration
+        (texts?.laudes?.oblig?.oration
           || texts?.laudes?.n1?.oration
           || texts?.laudes?.d1?.oration) && (
           <>
@@ -1923,7 +1923,7 @@ export default function LiturgicalCalendar() {
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [showDatePicker, setShowDatePicker] = useState(false);
   const [theme, setTheme] = useState(() => localStorage.getItem("theme") || "dark");
-  const [prefSrc, setPrefSrc] = useState("eig");
+  const [prefSrc, setPrefSrc] = useState("oblig");
   const [prefSollemnity, setPrefSollemnity] = useState("");
   const [useCommemoration, setUseCommemoration] = useState(false);
   const [selectedHour, setSelectedHour] = useState(null);
@@ -2094,7 +2094,7 @@ export default function LiturgicalCalendar() {
 
     if (savedDate !== currentDateFormatted) {
       console.log("neues Datum gespeichert:", newSelectedDate);
-      setPrefSrc("eig");
+      setPrefSrc("oblig");
       setPrefSollemnity("");
       setUseCommemoration(false);
     }

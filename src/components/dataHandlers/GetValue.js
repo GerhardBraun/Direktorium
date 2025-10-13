@@ -15,7 +15,7 @@ export const getValue = ({ season, hour, texts, field,
     const { rank_date = 0, isCommemoration, hasErsteVesper = false,
         swdCombined, dayOfWeek } = texts;
     const languageField = field + localPrefLanguage
-    const allSouls = (texts?.laudes?.eig?.button === 'Allerseelen')
+    const allSouls = (texts?.laudes?.oblig?.button === 'Allerseelen')
         || (swdCombined === 'j-31-0' && rank_date === 3)
 
     // Weihnachtsoktav: Vesper im Rang eines Festes
@@ -103,7 +103,7 @@ export const getValue = ({ season, hour, texts, field,
         (swdCombined === 'q-0-3' || allSouls)
 
     // Gedenktage mit Eigentexten für die Kleinen Horen
-    const buttonToCheck = texts?.laudes?.eig?.button || 'DEFAULT'
+    const buttonToCheck = texts?.laudes?.oblig?.button || 'DEFAULT'
     const memorialWithTSN =
         buttonToCheck.includes('Barnabas') ||
         buttonToCheck.includes('Schutzengel')

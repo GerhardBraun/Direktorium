@@ -177,7 +177,7 @@ const SectionHeader = ({
             !field.startsWith('hymn_') && field !== 'oration'
         ) || (
             ['laudes', 'vesper'].includes(hour) &&  // Laudes/Vesper Psalmodie
-            isPsalmodie && texts?.laudes?.eig?.com1?.button !== 'Evang'
+            isPsalmodie && texts?.laudes?.oblig?.com1?.button !== 'Evang'
         )
         || ['terz', 'sext', 'non'].includes(hour) // Kleinen Horen: ganz vom Wt
     )) skipCommune = true;
@@ -264,7 +264,7 @@ const SectionHeader = ({
                         onClick={() => setLocalPrefPsalmsWt(false)}
                         className={!localPrefPsalmsWt ? 'underline' : ''}
                     >
-                        Ps eig
+                        Ps oblig
                     </button>
                     {" | "}
                     <button

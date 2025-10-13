@@ -340,17 +340,17 @@ function processCommune(hours, season, targetSource) {
     });
 }
 
-function processCalendar(hours, season, calendarMonth, calendarDay, replaceEig = 'eig') {
+function processCalendar(hours, season, calendarMonth, calendarDay, replaceOblig = 'oblig') {
     const processData = getCalendarData()?.[calendarMonth]?.[calendarDay];
     if (processData) {
-        if (replaceEig === 'wt' && [41, 46].includes(calendarDay))
-            replaceEig = 'eig'
+        if (replaceOblig === 'wt' && [41, 46].includes(calendarDay))
+            replaceOblig = 'oblig'
 
         // Map über alle Schlüssel
         sourceKeys.forEach(sourceKey => {
-            if (sourceKey !== 'eig' || replaceEig !== 'skip') {
+            if (sourceKey !== 'oblig' || replaceOblig !== 'skip') {
                 const sourceData = processData[sourceKey];
-                const targetKey = sourceKey === 'eig' ? replaceEig : sourceKey;
+                const targetKey = sourceKey === 'oblig' ? replaceOblig : sourceKey;
 
                 if (sourceData) {
                     mergeData(hours, sourceData, targetKey);
@@ -421,7 +421,7 @@ function processInvitatoriumPsalms(hours) {
 
     // Durchsuche alle Stunden
     Object.values(hours).forEach(hour => {
-        // Durchsuche alle Quellen (wt, eig, etc.), außer 'kirchw'
+        // Durchsuche alle Quellen (wt, oblig, etc.), außer 'kirchw'
         Object.entries(hour).forEach(([sourceKey, sources]) => {
             if (sourceKey === 'kirchw') return; // Überspringe kirchw
 
@@ -632,8 +632,8 @@ export function processBrevierData(todayDate) {
         if (hasErsteVesper_wt)
             finalData.vesper.wt.swdWritten = tomorrowData?.swdWritten;
         if (hasErsteVesper_date) {
-            //finalData.vesper.eig.button = tomorrowData.laudes?.eig?.button
-            //finalData.vesper.eig.farbe = tomorrowData.laudes?.eig?.farbe || 'w'
+            //finalData.vesper.oblig.button = tomorrowData.laudes?.oblig?.button
+            //finalData.vesper.oblig.farbe = tomorrowData.laudes?.oblig?.farbe || 'w'
         };
     }
 

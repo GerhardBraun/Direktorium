@@ -4,36 +4,36 @@ import { calendarData } from './Calendar.ts';
 
 export const allowedOverlaps = new Set([
     'AAA-1-21-n1', // Agnes und Meinrad
-    'AAA-2-14-eig',
-    'AAA-2-24-eig',
-    'AAA-4-25-eig',
-    'AAA-4-29-eig',
-    'AAA-6-11-eig',
-    'AAA-7-23-eig',
-    'AAA-7-29-eig',
-    'AAA-8-22-eig',
-    'AAA-9-21-eig',
-    'AAA-10-15-eig',
-    'AAA-10-18-eig',
-    'AAA-11-21-eig',
+    'AAA-2-14-oblig',
+    'AAA-2-24-oblig',
+    'AAA-4-25-oblig',
+    'AAA-4-29-oblig',
+    'AAA-6-11-oblig',
+    'AAA-7-23-oblig',
+    'AAA-7-29-oblig',
+    'AAA-8-22-oblig',
+    'AAA-9-21-oblig',
+    'AAA-10-15-oblig',
+    'AAA-10-18-oblig',
+    'AAA-11-21-oblig',
     'AAA-12-13-n1', // Lucia und Odilia
-    'Fulda-2-4-eig', // Rabanus Maurus: F statt g
+    'Fulda-2-4-oblig', // Rabanus Maurus: F statt g
     'Fulda-2-14-d1', // Valentin vs. Cyrill und Methodius
-    'Fulda-4-27-eig', // Petrus Kanisius: G statt g
-    'Fulda-6-5-eig', // Bonifatius: H statt F
+    'Fulda-4-27-oblig', // Petrus Kanisius: G statt g
+    'Fulda-6-5-oblig', // Bonifatius: H statt F
     'Fulda-7-29-d1', // Simplizius, Faustinus und Beatrix vs. Marta, Maria und Lazarus
-    'Fulda-8-14-eig', // Kathedralweihe vs. Maximilian Kolbe
-    'Fulda-9-28-eig', // Lioba: F statt g
-    'Fulda-11-19-eig', // Elisabeth: F statt G
+    'Fulda-8-14-oblig', // Kathedralweihe vs. Maximilian Kolbe
+    'Fulda-9-28-oblig', // Lioba: F statt g
+    'Fulda-11-19-oblig', // Elisabeth: F statt G
 ])
 
 export const checkedReferences = new Set([
-    'Fulda-2-4-eig',
-    'Fulda-4-27-eig',
-    'Fulda-6-5-eig',
+    'Fulda-2-4-oblig',
+    'Fulda-4-27-oblig',
+    'Fulda-6-5-oblig',
     'Fulda-8-17-d1',
-    'Fulda-9-28-eig',
-    'Fulda-11-19-eig',
+    'Fulda-9-28-oblig',
+    'Fulda-11-19-oblig',
 ])
 
 function isAllowedOverlap(month, day, source, diocese = '') {
@@ -112,15 +112,15 @@ export function getCalendarData() {
                 newSourceData = deepMerge(newSourceData, currentDiocesanData);
 
 
-                if (source === 'eig') {
+                if (source === 'oblig') {
                     // Lösche alle anderen Daten
                     // Prüfung wird jetzt vom Konverter übernommen
                     //if (Object.keys(result[month][day]).length > 0 && !isAllowedOverlap(month, day, source, diocese))
-                    //    console.warn('eig aus diocesanData überschreibt alle anderen Daten: ', month, day, 'Gelöschte Daten: ', result[month][day])
-                    result[month][day] = { 'eig': newSourceData };
+                    //    console.warn('oblig aus diocesanData überschreibt alle anderen Daten: ', month, day, 'Gelöschte Daten: ', result[month][day])
+                    result[month][day] = { 'oblig': newSourceData };
                 } else {
-                    //if (result[month][day].eig && !isAllowedOverlap(month, day, source, diocese))
-                    //    console.warn('diocesanData zu bestehendem eig-Eintrag hinzugefügt: ', month, day, source, 'Bestehender eig: ', result[month][day].eig)
+                    //if (result[month][day].oblig && !isAllowedOverlap(month, day, source, diocese))
+                    //    console.warn('diocesanData zu bestehendem oblig-Eintrag hinzugefügt: ', month, day, source, 'Bestehender oblig: ', result[month][day].oblig)
                     //if (result[month][day][source] && !isAllowedOverlap(month, day, source, diocese))
                     //    console.warn('Daten existieren bereits: ', month, day, source, existingSourceData, newSourceData)
                 }
