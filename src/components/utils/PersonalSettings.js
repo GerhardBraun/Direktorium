@@ -12,6 +12,12 @@ export function setLocalStorage(key, value) {
 }
 
 const PersonalSettings = () => {
+    // Konstanten
+    const weekdays = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
+    const availablePsalms = [95, 100, 67, 24];
+    const benedictinePsalms = [81, 29, 67, 46, 24, 8, 95];
+
+    // States
     const [personalData, setPersonalData] = useState(null);
     const [startView, setStartView] = useState(() =>
         localStorage.getItem('startViewMode') || 'directory'
@@ -22,7 +28,6 @@ const PersonalSettings = () => {
     const [diocese, setDiocese] = useState(() =>
         localStorage.getItem('diocese') || 'Fulda'
     );
-
     const [vacancy, setVacancy] = useState(() =>
         localStorage.getItem('vacancy') === 'true'
     );
@@ -44,8 +49,6 @@ const PersonalSettings = () => {
     const [bishopNameLat, setBishopNameLat] = useState(() =>
         localStorage.getItem('bishopNameLat') || 'Michaéli'
     );
-
-    // Lokale States für die Eingabefelder (um Umwandlung zu verzögern)
     const [popeNameLatInput, setPopeNameLatInput] = useState(() =>
         localStorage.getItem('popeNameLat') || ''
     );
@@ -55,46 +58,54 @@ const PersonalSettings = () => {
     const [popeNameAccInput, setPopeNameAccInput] = useState('');
     const [bishopNameAccInput, setBishopNameAccInput] = useState('');
 
-    const [sequenceInv, setSequenceInv] = useState(() => {
+    // Invitatorium Psalmen
+    const [useBenedictineOrder, setUseBenedictineOrder] = useState(() =>
+        localStorage.getItem('useBenedictineOrder') === 'true'
+    );
+    const [individualSequence, setIndividualSequence] = useState(() => {
+        const stored = JSON.parse(localStorage.getItem('sequenceInv'));
+        if (!stored || JSON.stringify(stored) === JSON.stringify(benedictinePsalms)) {
+            console.log("Default-Werte verwendet wegen", stored);
+            return [95, 100, 24, 67, 67, 100, 24];
+        } else return stored;
+    });
+    const [currentSequence, setCurrentSequence] = useState(() => {
+        const useBo = localStorage.getItem('useBenedictineOrder') === 'true';
         const stored = localStorage.getItem('sequenceInv');
-        return stored ? JSON.parse(stored) : [95, 100, 24, 67, 67, 100, 24];
+        const storedSeq = stored ? JSON.parse(stored) : [95, 100, 24, 67, 67, 100, 24];
+        return useBo ? benedictinePsalms : storedSeq;
     });
 
-    // Hilfsfunktion für Kasuswechsel → Dativ
+    // Hilfsfunktionen
     const convertToDative = (name) => {
         if (!name) return name;
         return name
-            .replace(/(em|is|e)(?![a-záéíóúýæœő])/g, 'i')
-            .replace(/(um|us)(?![a-záéíóúýæœő])/g, 'o');
+            .replace(/(em|is|e)(?![a-záéíóúýæœ'])/g, 'i')
+            .replace(/(um|us)(?![a-záéíóúýæœ'])/g, 'o');
     };
 
-    // Hilfsfunktion für Kasuswechsel Dativ → Akkusativ
     const convertToAccusative = (name) => {
         if (!name) return name;
         return name
-            .replace(/i(?![a-záéíóúýæœő])/g, 'em')
-            .replace(/o(?![a-záéíóúýæœő])/g, 'um');
+            .replace(/i(?![a-záéíóúýæœ'])/g, 'em')
+            .replace(/o(?![a-záéíóúýæœ'])/g, 'um');
     };
 
-    // Handler für Dativ-Eingabe (beim Verlassen des Feldes)
     const handleDativeBlur = (value, setter, inputSetter) => {
         const dativeForm = convertToDative(value);
         setter(dativeForm);
         inputSetter(dativeForm);
     };
 
-    // Handler für Akkusativ-Eingabe (beim Verlassen des Feldes)
     const handleAccusativeBlur = (value, setter, inputSetter) => {
         const dativeForm = convertToDative(value);
         setter(dativeForm);
         inputSetter(convertToAccusative(dativeForm));
     };
 
-    // Funktion zum Verarbeiten der Diözesendaten
     const getDioceseOptions = () => {
         if (!calendarData) return [];
 
-        // Verfügbare Diözesen (ohne Sperrvermerk)
         const availableOptions = Object.entries(calendarData)
             .filter(([key, data]) => {
                 const hasBlockEntry = data && data.hasOwnProperty('99');
@@ -111,7 +122,6 @@ const PersonalSettings = () => {
                 return a.label.localeCompare(b.label);
             });
 
-        // Gesperrte Diözesen (mit Sperrvermerk)
         const blockedOptions = Object.entries(calendarData)
             .filter(([key, data]) => {
                 const hasBlockEntry = data && data.hasOwnProperty('99');
@@ -124,110 +134,56 @@ const PersonalSettings = () => {
             }))
             .sort((a, b) => a.label.localeCompare(b.label));
 
-        // Erst verfügbare, dann gesperrte Diözesen
         return [...availableOptions, ...blockedOptions];
     };
+
     const dioceseOptions = getDioceseOptions();
 
-    useEffect(() => {
-        const loadedData = localStorage.getItem('personalData');
-        if (loadedData) {
-            setPersonalData(JSON.parse(loadedData));
+    const validateDataStructure = (data) => {
+        if (typeof data !== 'object' || data === null) return false;
+        const expectKeys = ['j', 'a', 'w', 'o', 'p'];
+        return Object.keys(data).some(key => expectKeys.includes(key));
+    };
+
+    // Handler für Invitatoriumspsalmen
+    const handlePsalmSelect = (dayIndex, psalm) => {
+        // BO abwählen falls aktiv
+        if (useBenedictineOrder) {
+            setUseBenedictineOrder(false);
+            setLocalStorage('useBenedictineOrder', 'false');
         }
-    }, []);
 
-    useEffect(() => {
-        setLocalStorage('startViewMode', startView);
-    }, [startView]);
+        // Individuelle Sequenz ändern
+        const newSequence = [...individualSequence];
+        newSequence[dayIndex] = psalm;
+        setIndividualSequence(newSequence);
 
-    useEffect(() => {
-        setLocalStorage('prefLanguage', prefLanguage);
-    }, [prefLanguage]);
+        // Im localStorage speichern
+        setLocalStorage('sequenceInv', JSON.stringify(newSequence));
 
-    useEffect(() => {
-        setLocalStorage('languages', JSON.stringify(languages));
-    }, [languages]);
+        // Anzeige aktualisieren
+        setCurrentSequence(newSequence);
+    };
 
-    // Click-outside Handler für Language Dropdown (nach dem Diocese Click-outside Handler):
-    useEffect(() => {
-        const handleClickOutside = (event) => {
-            if (showLanguageDropdown && !event.target.closest('.language-dropdown')) {
-                setShowLanguageDropdown(false);
-            }
-        };
+    const handleBOToggle = () => {
+        const newBOState = !useBenedictineOrder;
+        setUseBenedictineOrder(newBOState);
+        setLocalStorage('useBenedictineOrder', newBOState.toString());
 
-        document.addEventListener('mousedown', handleClickOutside);
-        return () => {
-            document.removeEventListener('mousedown', handleClickOutside);
-        };
-    }, [showLanguageDropdown]);
+        if (newBOState) {
+            // BO aktiviert: benedictinePsalms anzeigen und im localStorage speichern
+            setLocalStorage('sequenceInv', JSON.stringify(benedictinePsalms));
+            setCurrentSequence(benedictinePsalms);
+        } else {
+            // BO deaktiviert: individuelle Sequenz wiederherstellen
+            setLocalStorage('sequenceInv', JSON.stringify(individualSequence));
+            setCurrentSequence(individualSequence);
+        }
+    };
 
-    useEffect(() => {
-        setLocalStorage('diocese', diocese);
-    }, [diocese]);
-
-    useEffect(() => {
-        setLocalStorage('vacancy', vacancy.toString());
-    }, [vacancy]);
-
-    useEffect(() => {
-        setLocalStorage('popeName', popeName);
-    }, [popeName]);
-
-    useEffect(() => {
-        setLocalStorage('popeNameLat', popeNameLat);
-    }, [popeNameLat]);
-
-    useEffect(() => {
-        setLocalStorage('bishopName', bishopName);
-    }, [bishopName]);
-
-    useEffect(() => {
-        setLocalStorage('bishopNameLat', bishopNameLat);
-    }, [bishopNameLat]);
-
-    // Synchronisiere die Eingabefelder mit den gespeicherten Werten
-    useEffect(() => {
-        setPopeNameLatInput(popeNameLat);
-        setPopeNameAccInput(convertToAccusative(popeNameLat));
-    }, [popeNameLat]);
-
-    useEffect(() => {
-        setBishopNameLatInput(bishopNameLat);
-        setBishopNameAccInput(convertToAccusative(bishopNameLat));
-    }, [bishopNameLat]);
-
-    useEffect(() => {
-        setLocalStorage('sequenceInv', JSON.stringify(sequenceInv));
-    }, [sequenceInv]);
-
-    // Handler für Diözesen-Auswahl
     const handleDioceseSelect = (selectedKey) => {
         setDiocese(selectedKey);
         setShowDioceseDropdown(false);
-    };
-
-    // Click-outside Handler für Dropdown
-    useEffect(() => {
-        const handleClickOutside = (event) => {
-            if (showDioceseDropdown && !event.target.closest('.diocese-dropdown')) {
-                setShowDioceseDropdown(false);
-            }
-        };
-
-        document.addEventListener('mousedown', handleClickOutside);
-        return () => {
-            document.removeEventListener('mousedown', handleClickOutside);
-        };
-    }, [showDioceseDropdown]);
-
-    const handleSequenceChange = (event, index) => {
-        const value = parseInt(event.target.value);
-        if (!isNaN(value)) {
-            const newSequence = [...sequenceInv];
-            newSequence[index] = value;
-            setSequenceInv(newSequence);
-        }
     };
 
     const handleImport = async (e) => {
@@ -288,8 +244,22 @@ const PersonalSettings = () => {
                         setLocalStorage('bishopNameLat', data.settings.bishopNameLat);
                     }
                     if (data.settings.sequenceInv) {
-                        setSequenceInv(data.settings.sequenceInv);
-                        setLocalStorage('sequenceInv', JSON.stringify(data.settings.sequenceInv));
+                        const importedSeq = data.settings.sequenceInv;
+                        setIndividualSequence(importedSeq);
+                        setLocalStorage('sequenceInv', JSON.stringify(importedSeq));
+                    }
+                    if (data.settings.useBenedictineOrder !== undefined) {
+                        const newBOState = data.settings.useBenedictineOrder;
+                        setUseBenedictineOrder(newBOState);
+                        setLocalStorage('useBenedictineOrder', newBOState.toString());
+                        // Anzeige entsprechend aktualisieren
+                        if (newBOState) {
+                            setLocalStorage('sequenceInv', JSON.stringify(benedictinePsalms));
+                            setCurrentSequence(benedictinePsalms);
+                        } else {
+                            const importedSeq = data.settings.sequenceInv || [95, 100, 24, 67, 67, 100, 24];
+                            setCurrentSequence(importedSeq);
+                        }
                     }
                     if (data.settings.languages) {
                         setLanguages(data.settings.languages);
@@ -320,7 +290,8 @@ const PersonalSettings = () => {
             popeNameLat,
             bishopName,
             bishopNameLat,
-            sequenceInv
+            sequenceInv: individualSequence,
+            useBenedictineOrder
         };
 
         const formattedData = JSON.stringify(exportData, null, 2);
@@ -335,20 +306,79 @@ const PersonalSettings = () => {
         URL.revokeObjectURL(url);
     };
 
-    const validateDataStructure = (data) => {
-        if (typeof data !== 'object' || data === null) return false;
-        const expectKeys = ['j', 'a', 'w', 'o', 'p'];
-        return Object.keys(data).some(key => expectKeys.includes(key));
-    };
+    // Effects
+    useEffect(() => {
+        const loadedData = localStorage.getItem('personalData');
+        if (loadedData) {
+            setPersonalData(JSON.parse(loadedData));
+        }
+    }, []);
 
-    const weekdays = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
-    const availablePsalms = [95, 100, 67, 24];
+    useEffect(() => {
+        setLocalStorage('startViewMode', startView);
+    }, [startView]);
 
-    const handlePsalmSelect = (dayIndex, psalm) => {
-        const newSequence = [...sequenceInv];
-        newSequence[dayIndex] = psalm;
-        setSequenceInv(newSequence);
-    };
+    useEffect(() => {
+        setLocalStorage('prefLanguage', prefLanguage);
+    }, [prefLanguage]);
+
+    useEffect(() => {
+        setLocalStorage('languages', JSON.stringify(languages));
+    }, [languages]);
+
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (showLanguageDropdown && !event.target.closest('.language-dropdown')) {
+                setShowLanguageDropdown(false);
+            }
+        };
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => document.removeEventListener('mousedown', handleClickOutside);
+    }, [showLanguageDropdown]);
+
+    useEffect(() => {
+        setLocalStorage('diocese', diocese);
+    }, [diocese]);
+
+    useEffect(() => {
+        setLocalStorage('vacancy', vacancy.toString());
+    }, [vacancy]);
+
+    useEffect(() => {
+        setLocalStorage('popeName', popeName);
+    }, [popeName]);
+
+    useEffect(() => {
+        setLocalStorage('popeNameLat', popeNameLat);
+    }, [popeNameLat]);
+
+    useEffect(() => {
+        setLocalStorage('bishopName', bishopName);
+    }, [bishopName]);
+
+    useEffect(() => {
+        setLocalStorage('bishopNameLat', bishopNameLat);
+    }, [bishopNameLat]);
+
+    useEffect(() => {
+        setPopeNameLatInput(popeNameLat);
+        setPopeNameAccInput(convertToAccusative(popeNameLat));
+    }, [popeNameLat]);
+
+    useEffect(() => {
+        setBishopNameLatInput(bishopNameLat);
+        setBishopNameAccInput(convertToAccusative(bishopNameLat));
+    }, [bishopNameLat]);
+
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (showDioceseDropdown && !event.target.closest('.diocese-dropdown')) {
+                setShowDioceseDropdown(false);
+            }
+        };
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => document.removeEventListener('mousedown', handleClickOutside);
+    }, [showDioceseDropdown]);
 
     return (
         <div className="space-y-2 pt-2">
@@ -401,26 +431,27 @@ const PersonalSettings = () => {
                     Schnellschalter für Sprachauswahl
                 </div>
                 <div className="grid gap-2 items-center" style={{ gridTemplateColumns: '6rem 1fr' }}>
-                    <div></div> {/* Leerer Platzhalter für den Einzug */}
+                    <div></div>
                     <div className="relative language-dropdown">
                         <button
                             onClick={() => setShowLanguageDropdown(!showLanguageDropdown)}
                             className="w-full px-3 py-1 text-sm bg-gray-100 dark:bg-gray-800
                     border dark:border-gray-600 rounded text-left
                     text-gray-900 dark:text-gray-100 hover:bg-gray-200 dark:hover:bg-gray-700"
-                        >                        {(() => {
-                            const langKey = `${languages[0]}-${languages[1]}`;
-                            const options = {
-                                'aus-aus': 'Aus',
-                                '-_lat': 'Stb/lat.',
-                                '_ben-_lat': 'Ben/lat.',
-                                '_neu-_lat': 'neu/lat.',
-                                '-_ben': 'Stb/Ben',
-                                '-_neu': 'Stb/neu',
-                                '_ben-_neu': 'Ben/neu'
-                            };
-                            return options[langKey] || 'Stb/lat.';
-                        })()}
+                        >
+                            {(() => {
+                                const langKey = `${languages[0]}-${languages[1]}`;
+                                const options = {
+                                    'aus-aus': 'Aus',
+                                    '-_lat': 'Stb/lat.',
+                                    '_ben-_lat': 'Ben/lat.',
+                                    '_neu-_lat': 'neu/lat.',
+                                    '-_ben': 'Stb/Ben',
+                                    '-_neu': 'Stb/neu',
+                                    '_ben-_neu': 'Ben/neu'
+                                };
+                                return options[langKey] || 'Stb/lat.';
+                            })()}
                             <span className="float-right">▼</span>
                         </button>
 
@@ -428,8 +459,7 @@ const PersonalSettings = () => {
                             <div className="absolute top-full left-0 right-0 mt-1 bg-white dark:bg-gray-800
                     border dark:border-gray-600 rounded shadow-lg z-50">
                                 <div className="grid" style={{ gridTemplateColumns: ' 50px 90px 90px' }}>
-                                    {/* Aus-Schalter */}
-                                    <div className="border-r dark:border-gray-600"                                    >
+                                    <div className="border-r dark:border-gray-600">
                                         <button
                                             key={'aus'}
                                             onClick={() => {
@@ -444,8 +474,7 @@ const PersonalSettings = () => {
                                         </button>
                                     </div>
 
-                                    {/* Linke Spalte: Kombinationen mit lat. */}
-                                    <div className="border-r dark:border-gray-600"                                    >
+                                    <div className="border-r dark:border-gray-600">
                                         {[
                                             [['', '_lat'], 'Stb/lat.'],
                                             [['_ben', '_lat'], 'Ben/lat.'],
@@ -470,7 +499,6 @@ const PersonalSettings = () => {
                                         })}
                                     </div>
 
-                                    {/* Rechte Spalte: Deutsche Kombinationen */}
                                     <div>
                                         {[
                                             [['', '_ben'], 'Stb/Ben'],
@@ -497,17 +525,18 @@ const PersonalSettings = () => {
                                     </div>
                                 </div>
                             </div>
-                        )}                </div>
+                        )}
+                    </div>
                 </div>
             </div>
 
-            {/* Diocese Section - NEU */}
+            {/* Diocese Section */}
             <div className="px-3">
                 <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
                     Eigenfeiern der Diözese
                 </div>
                 <div className="grid gap-2 items-center" style={{ gridTemplateColumns: '6rem 1fr' }}>
-                    <div></div> {/* Leerer Platzhalter für den Einzug */}
+                    <div></div>
                     <div className="relative diocese-dropdown">
                         <button
                             onClick={() => setShowDioceseDropdown(!showDioceseDropdown)}
@@ -549,7 +578,6 @@ const PersonalSettings = () => {
                     Namen des Papstes und des Bischofs für&nbsp;die&nbsp;Fürbitten
                 </div>
 
-                {/* Diözesanadministrator Toggle - NEU */}
                 <div className="grid gap-1 items-center mb-2"
                     style={{ gridTemplateColumns: '6rem minmax(0, 1fr) minmax(0, 1fr)' }}>
                     <div></div>
@@ -566,7 +594,6 @@ const PersonalSettings = () => {
                     </button>
                 </div>
 
-                {/* Deutsche Namen */}
                 <div className="grid gap-1 items-center mb-3"
                     style={{ gridTemplateColumns: '6rem minmax(0, 1fr) minmax(0, 1fr)' }}>
                     <label className="text-sm text-gray-500 dark:text-gray-400">
@@ -592,7 +619,6 @@ const PersonalSettings = () => {
                     />
                 </div>
 
-                {/* Lateinisch (Dativ) */}
                 <div className="grid gap-1 items-center mb-1"
                     style={{ gridTemplateColumns: '6rem minmax(0, 1fr) minmax(0, 1fr)' }}>
                     <label className="text-sm text-gray-500 dark:text-gray-400">
@@ -620,7 +646,6 @@ const PersonalSettings = () => {
                     />
                 </div>
 
-                {/* Lateinisch (Akkusativ) - nur Anzeige */}
                 <div className="grid gap-1 items-center"
                     style={{ gridTemplateColumns: '6rem minmax(0, 1fr) minmax(0, 1fr)' }}>
                     <label className="text-sm text-gray-500 dark:text-gray-400">
@@ -651,30 +676,71 @@ const PersonalSettings = () => {
 
             {/* Invitatorium Psalms Section */}
             <div className="px-3 py-2">
-                <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-4">
+                <div className="text-sm font-semibold text-gray-500 dark:text-gray-400">
                     Invitatoriumspsalmen an den Wochentagen
                 </div>
-                <div className="space-y-2">
-                    {weekdays.map((day, dayIndex) => (
-                        <div key={day} className="grid gap-2 items-center"
-                            style={{ gridTemplateColumns: '6rem 1fr 1fr 1fr 1fr' }}>
-                            <div className="text-sm text-gray-500 dark:text-gray-400">
-                                {day}
+                <div
+                    className="text-xs text-gray-500 dark:text-gray-400"
+                    style={{
+                        fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif',
+                    }}>
+                    <p>
+                        Mit der letzten Spalte kann die Wochentagsordnung nach dem Benediktinischen&nbsp;Antiphonale gewählt werden.
+                    </p>
+                </div>
+
+                <div className="mt-4">
+                    <div className="grid gap-2" style={{ gridTemplateColumns: '6rem 1fr 1fr 1fr 1fr 2px 1fr' }}>
+                        {/* Linke Spalten */}
+                        <div className="space-y-2">
+                            {weekdays.map((day) => (
+                                <div key={day} className="text-sm text-gray-500 dark:text-gray-400 flex items-center"
+                                    style={{ height: '28px' }}>
+                                    {day}
+                                </div>
+                            ))}
+                        </div>
+
+                        {availablePsalms.map(psalm => (
+                            <div key={psalm} className="space-y-2">
+                                {weekdays.map((day, dayIndex) => (
+                                    <button
+                                        key={day}
+                                        onClick={() => handlePsalmSelect(dayIndex, psalm)}
+                                        className={`w-full p-1 text-center text-sm rounded
+                                          ${individualSequence[dayIndex] === psalm
+                                                ? useBenedictineOrder
+                                                    ? 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300'
+                                                    : 'bg-orange-100 dark:bg-yellow-400/60 text-gray-700 dark:text-gray-300'
+                                                : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
+                                            }`}
+                                    >
+                                        {psalm}
+                                    </button>
+                                ))}
                             </div>
-                            {availablePsalms.map(psalm => (
+                        ))}
+
+                        {/* Trennlinie */}
+                        <div className="border-r border-gray-300 dark:border-gray-600"></div>
+
+                        {/* Benediktinische Ordnung */}
+                        <div className="space-y-2">
+                            {weekdays.map((day, dayIndex) => (
                                 <button
-                                    key={psalm}
-                                    onClick={() => handlePsalmSelect(dayIndex, psalm)}
-                                    className={`p-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded
-                                  ${sequenceInv[dayIndex] === psalm
-                                            ? 'bg-orange-100 dark:bg-yellow-400/60'
-                                            : 'bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700'}`}
+                                    key={day}
+                                    onClick={handleBOToggle}
+                                    className={`w-full p-1 text-center text-sm rounded
+                      ${useBenedictineOrder
+                                            ? 'bg-orange-100 dark:bg-yellow-400/60 text-gray-700 dark:text-gray-300'
+                                            : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
+                                        }`}
                                 >
-                                    {psalm}
+                                    {benedictinePsalms[dayIndex]}
                                 </button>
                             ))}
                         </div>
-                    ))}
+                    </div>
                 </div>
             </div>
 

@@ -170,8 +170,14 @@ const SectionHeader = ({
         && !(prefSollemnity || rank_date === 5 || rank_wt === 5);
     // Bestimme ausgeschlossene Horen für TSN basierend auf Ergänzungspsalmodie
     const excludedHours = getExcludedHours(texts, localPrefErgPs, title);
+
     const invPsalms = (hour === 'invitatorium' && title === 'PSALMODIE')
         ? texts?.invitatorium?.psalms : null;
+    let invPsalmsToShow = [95, 100, 67, 24];
+    const sequenceInv = JSON.parse(localStorage.getItem('sequenceInv')) || [95, 100, 24, 67, 67, 100, 24];
+    let todayInv = sequenceInv[texts.dayOfWeek];
+    if (!invPsalmsToShow.includes(todayInv)) invPsalmsToShow.push(todayInv);
+
 
     // Hole die gewählten Sprachen aus localStorage
     const languages = JSON.parse(localStorage.getItem('languages')) || ["", "_lat"];
@@ -423,7 +429,7 @@ const SectionHeader = ({
             )}
             {invPsalms && (
                 <ButtonGroup>
-                    {[95, 100, 67, 24].map((psalmNumber, index) => {
+                    {invPsalmsToShow.map((psalmNumber, index) => {
                         const isAvailable = invPsalms?.includes(psalmNumber);
                         return (
                             <React.Fragment key={psalmNumber}>

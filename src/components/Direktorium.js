@@ -1268,9 +1268,14 @@ const PrayerTextDisplay = ({
   const [localPrefComm, setLocalPrefComm] = useState(texts?.prefComm || 0);
   const [localPrefContinuous, setLocalPrefContinuous] = useState(false);
   const [localPrefPsalmsWt, setLocalPrefPsalmsWt] = useState(false);
+  const [localPrefInv, setLocalPrefInv] = useState(texts?.prefInv || 95);
   const [localPrefErgPs, setLocalPrefErgPs] = useState(false);
   const [localPrefKomplet, setLocalPrefKomplet] = useState(texts?.komplet?.prefKomplet || "wt");
-  const [localPrefInv, setLocalPrefInv] = useState(texts?.prefInv || 95);
+
+  useEffect(() => {
+    setLocalPrefInv(texts?.prefInv || 95)
+    console.log("Updated localPrefInv to", texts?.prefInv || 95);
+  }, [texts]);
 
   if (!hour || !texts || !texts[hour]) {
     return <div className="p-4">Keine Daten hier verfügbar</div>;

@@ -412,12 +412,13 @@ function processAntABC(hours, yearABC) {
     });
 }
 
-function processInvitatoriumPsalms(hours) {
+function processInvitatoriumPsalms(hours, prefInv = 100) {
     // Array für gefundene Psalmen initialisieren
     const found = new Set();
 
     // Zu suchende Psalm-Nummern
-    const searchPsalms = [100, 67, 24];
+    let searchPsalms = [100, 67, 24];
+    if (!searchPsalms.includes(prefInv)) searchPsalms.push(prefInv);
 
     // Durchsuche alle Stunden
     Object.values(hours).forEach(hour => {
@@ -661,12 +662,12 @@ export function processBrevierData(todayDate) {
     finalData.hasZweiteVesper = (kompletSettings.prefKomplet === 'k2'
         && !['q-6-4', 'q-6-5', 'q-6-6', 'o-1-0'].includes(swdCombined));
 
-    const invPsalms = processInvitatoriumPsalms(finalData);
-    finalData.invitatorium.psalms = invPsalms
 
     const sequenceInv = JSON.parse(localStorage.getItem('sequenceInv')) || [95, 100, 24, 67, 67, 100, 24];
     let prefInv = sequenceInv[dayOfWeek];
+    const invPsalms = processInvitatoriumPsalms(finalData, prefInv);
     if (!invPsalms.includes(prefInv)) prefInv = 95;
+    finalData.invitatorium.psalms = invPsalms
     finalData.prefInv = prefInv;
 
     return finalData;
