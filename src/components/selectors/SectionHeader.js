@@ -31,6 +31,42 @@ const SectionHeader = ({
 }) => {
     const [pressTimer, setPressTimer] = useState(null);
 
+    // Prüfe ob Terz/Sext/Non identische Psalmodie haben
+    const isIdenticalTerzSext = useMemo(() => {
+        if (!["terz", "sext", "non"].includes(hour) || title !== 'PSALMODIE')
+            return false;
+
+        const getValueTS = (hour, field) => {
+            return getValue({
+                hour, field,
+                season: texts?.season,
+                texts,
+                prefSrc,
+                prefSollemnity,
+                localPrefKomplet: 'wt', // nicht relevant für TSN
+                localPrefComm,
+                localPrefPsalmsWt,
+                localPrefErgPs,
+                localPrefContinuous,
+                localPrefLanguage: ''
+            })
+        };
+
+        // Vergleiche relevante Felder zwischen Terz und Sext
+        const fieldsToCompare = ['ant0', 'ant1', 'psalm1'];
+
+        for (const fieldToCheck of fieldsToCompare) {
+            // Wenn ein Wert unterschiedlich ist, sind sie nicht identisch
+            if (getValueTS('terz', fieldToCheck) !== getValueTS('sext', fieldToCheck))
+                return false;
+        }
+        return true;
+    }, [hour, title, texts, prefSrc, prefSollemnity, localPrefComm,
+        localPrefPsalmsWt, localPrefErgPs, localPrefContinuous]);
+
+    if (["terz", "sext", "non"].includes(hour) && title === 'RESPONSORIUM')
+        return <h2 className="prayer-heading">VERSIKEL</h2>;
+
     const checkSources = (field) => {
         const hasEig = texts[hour][prefSrc]?.[field];
         const hasWt = texts[hour].wt?.[field];
@@ -47,6 +83,19 @@ const SectionHeader = ({
             showBothComm: hasComm1 && hasComm2
         };
     };
+
+    const getTitle = () => {
+        const replaceTitleMap = {
+            'PSALMODIE': { 'vigil': 'CANTICA' },
+            'BITTEN': { 'vesper': 'FÜRBITTEN' },
+            'VATERUNSER': {
+                'vigil': 'TE DEUM',
+                'lesehore': 'TE DEUM',
+            }
+        };
+        return replaceTitleMap?.[title.toUpperCase()]?.[hour]?.toUpperCase()
+            || title.toUpperCase();
+    }
 
     const handleLanguageToggle = () => {
         const newIndex = languages.indexOf(localPrefLanguage) !== 0
@@ -96,39 +145,6 @@ const SectionHeader = ({
             WebkitTouchCallout: 'none'
         }
     };
-
-    // Prüfe ob Terz/Sext/Non identische Psalmodie haben
-    const isIdenticalTerzSext = useMemo(() => {
-        if (!["terz", "sext", "non"].includes(hour) || title !== 'PSALMODIE')
-            return false;
-
-        const getValueTS = (hour, field) => {
-            return getValue({
-                hour, field,
-                season: texts?.season,
-                texts,
-                prefSrc,
-                prefSollemnity,
-                localPrefKomplet: 'wt', // nicht relevant für TSN
-                localPrefComm,
-                localPrefPsalmsWt,
-                localPrefErgPs,
-                localPrefContinuous,
-                localPrefLanguage: ''
-            })
-        };
-
-        // Vergleiche relevante Felder zwischen Terz und Sext
-        const fieldsToCompare = ['ant0', 'ant1', 'psalm1'];
-
-        for (const fieldToCheck of fieldsToCompare) {
-            // Wenn ein Wert unterschiedlich ist, sind sie nicht identisch
-            if (getValueTS('terz', fieldToCheck) !== getValueTS('sext', fieldToCheck))
-                return false;
-        }
-        return true;
-    }, [hour, title, texts, prefSrc, prefSollemnity, localPrefComm,
-        localPrefPsalmsWt, localPrefErgPs, localPrefContinuous]);
 
 
     const field = (hour === 'invitatorium' && provField === 'psalm1')
@@ -205,7 +221,7 @@ const SectionHeader = ({
     if (["VERSIKEL", "RESPONSORIUM"].includes(title) ||
         (!invPsalms && !showSources && !showLanguageToggle
             && !showPsalmsWt && !showContinuous && !showTSN && !showErgPs)) {
-        return <h2 className="prayer-heading">{title}</h2>;
+        return <h2 className="prayer-heading">{getTitle()}</h2>;
     }
     const ButtonGroup = ({ children }) => (
         <span className="inline-block font-normal text-[0.85em]"        >
@@ -228,7 +244,7 @@ const SectionHeader = ({
 
     return (
         <h2 className="prayer-heading inline-block space-x-3 items-baseline">
-            <span className="inline-block">{title}</span>
+            <span className="inline-block">{getTitle()}</span>
             {showLanguageToggle && (
                 <ButtonGroup>
                     {"("}

@@ -1527,7 +1527,7 @@ const PrayerTextDisplay = ({
         {(getValue("psalm1") || hour === "invitatorium") && (
           <div className="mb-0">
             <SectionHeader
-              title={hour === 'vigil' ? "CANTICA" : "PSALMODIE"}
+              title={"PSALMODIE"}
               field="psalm1"
             />
             {getValue("ant0") && (
@@ -1687,7 +1687,7 @@ const PrayerTextDisplay = ({
         {getValue("bitten") && (
           <div className="mb-0">
             <SectionHeader
-              title={hour === "laudes" ? "BITTEN" : "FÜRBITTEN"}
+              title={"BITTEN"}
               field="bitten"
             />
             {getValue("bitten_e") && (
@@ -1711,7 +1711,7 @@ const PrayerTextDisplay = ({
         {ordinariumTexts.vu && (
           <div className="mb-0">
             <SectionHeader
-              title={['lesehore', 'vigil'].includes(hour) ? "TE DEUM" : "VATERUNSER"}
+              title={"VATERUNSER"}
               field=""
             />
             <div className="mb-0 whitespace-pre-wrap">
