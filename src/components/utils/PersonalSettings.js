@@ -59,21 +59,15 @@ const PersonalSettings = () => {
     const [bishopNameAccInput, setBishopNameAccInput] = useState('');
 
     // Invitatorium Psalmen
-    const [useBenedictineOrder, setUseBenedictineOrder] = useState(() =>
-        localStorage.getItem('useBenedictineOrder') === 'true'
-    );
+    const [useBenedictineOrder, setUseBenedictineOrder] = useState(false);
     const [individualSequence, setIndividualSequence] = useState(() => {
         const stored = JSON.parse(localStorage.getItem('sequenceInv'));
-        if (!stored || JSON.stringify(stored) === JSON.stringify(benedictinePsalms)) {
+        const storedIsBenedictine = JSON.stringify(stored) === JSON.stringify(benedictinePsalms);
+        setUseBenedictineOrder(storedIsBenedictine);
+        if (!stored || storedIsBenedictine) {
             console.log("Default-Werte verwendet wegen", stored);
             return [95, 100, 24, 67, 67, 100, 24];
         } else return stored;
-    });
-    const [currentSequence, setCurrentSequence] = useState(() => {
-        const useBo = localStorage.getItem('useBenedictineOrder') === 'true';
-        const stored = localStorage.getItem('sequenceInv');
-        const storedSeq = stored ? JSON.parse(stored) : [95, 100, 24, 67, 67, 100, 24];
-        return useBo ? benedictinePsalms : storedSeq;
     });
 
     // Hilfsfunktionen
@@ -148,10 +142,7 @@ const PersonalSettings = () => {
     // Handler für Invitatoriumspsalmen
     const handlePsalmSelect = (dayIndex, psalm) => {
         // BO abwählen falls aktiv
-        if (useBenedictineOrder) {
-            setUseBenedictineOrder(false);
-            setLocalStorage('useBenedictineOrder', 'false');
-        }
+        setUseBenedictineOrder(false);
 
         // Individuelle Sequenz ändern
         const newSequence = [...individualSequence];
@@ -160,24 +151,18 @@ const PersonalSettings = () => {
 
         // Im localStorage speichern
         setLocalStorage('sequenceInv', JSON.stringify(newSequence));
-
-        // Anzeige aktualisieren
-        setCurrentSequence(newSequence);
     };
 
     const handleBOToggle = () => {
         const newBOState = !useBenedictineOrder;
         setUseBenedictineOrder(newBOState);
-        setLocalStorage('useBenedictineOrder', newBOState.toString());
 
         if (newBOState) {
             // BO aktiviert: benedictinePsalms anzeigen und im localStorage speichern
             setLocalStorage('sequenceInv', JSON.stringify(benedictinePsalms));
-            setCurrentSequence(benedictinePsalms);
         } else {
             // BO deaktiviert: individuelle Sequenz wiederherstellen
             setLocalStorage('sequenceInv', JSON.stringify(individualSequence));
-            setCurrentSequence(individualSequence);
         }
     };
 
@@ -251,14 +236,11 @@ const PersonalSettings = () => {
                     if (data.settings.useBenedictineOrder !== undefined) {
                         const newBOState = data.settings.useBenedictineOrder;
                         setUseBenedictineOrder(newBOState);
-                        setLocalStorage('useBenedictineOrder', newBOState.toString());
                         // Anzeige entsprechend aktualisieren
                         if (newBOState) {
                             setLocalStorage('sequenceInv', JSON.stringify(benedictinePsalms));
-                            setCurrentSequence(benedictinePsalms);
                         } else {
                             const importedSeq = data.settings.sequenceInv || [95, 100, 24, 67, 67, 100, 24];
-                            setCurrentSequence(importedSeq);
                         }
                     }
                     if (data.settings.languages) {
@@ -677,7 +659,7 @@ const PersonalSettings = () => {
             {/* Invitatorium Psalms Section */}
             <div className="px-3 py-2">
                 <div className="text-sm font-semibold text-gray-500 dark:text-gray-400">
-                    Invitatoriumspsalmen an den Wochentagen
+                    Invitatoriumspsalmen an&nbsp;den&nbsp;Wochentagen
                 </div>
                 <div
                     className="text-xs text-gray-500 dark:text-gray-400"
@@ -685,7 +667,7 @@ const PersonalSettings = () => {
                         fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif',
                     }}>
                     <p>
-                        Mit der letzten Spalte kann die Wochentagsordnung nach dem Benediktinischen&nbsp;Antiphonale gewählt werden.
+                        Mit der letzten Spalte kann die Wochensordnung nach dem Benediktinischen&nbsp;Antiphonale gewählt werden.
                     </p>
                 </div>
 
@@ -695,7 +677,7 @@ const PersonalSettings = () => {
                         <div className="space-y-2">
                             {weekdays.map((day) => (
                                 <div key={day} className="text-sm text-gray-500 dark:text-gray-400 flex items-center"
-                                    style={{ height: '28px' }}>
+                                    style={{ height: '28px' }}                                   >
                                     {day}
                                 </div>
                             ))}

@@ -1274,7 +1274,6 @@ const PrayerTextDisplay = ({
 
   useEffect(() => {
     setLocalPrefInv(texts?.prefInv || 95)
-    console.log("Updated localPrefInv to", texts?.prefInv || 95);
   }, [texts]);
 
   if (!hour || !texts || !texts[hour]) {
