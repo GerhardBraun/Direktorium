@@ -99,7 +99,7 @@ export const calendarData: CalendarData = {
   "AAA": {
     "1": {
       "1": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Maria",
             "oration": "Barmherziger Gott, durch die Geburt deines Sohnes aus der Jungfrau Maria hast du der Menschheit das ewige Heil geschenkt. lass uns auch im neuen Jahr immer und überall die Fürbitte der gnadenvollen Mutter erfahren, die uns den Urheber des Lebens geboren hat, Jesus Christus, deinen Sohn, unseren Herrn und Gott,^ORR",
@@ -254,7 +254,7 @@ export const calendarData: CalendarData = {
         }
       },
       "2": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Hirten",
             "comm_2": "Hirten_Kl",
@@ -284,7 +284,7 @@ export const calendarData: CalendarData = {
         }
       },
       "6": {
-        "eig": {
+        "oblig": {
           "each": {
             "oration": "Allherrschender Gott, durch den Stern, dem die Weisen gefolgt sind, hast du am heutigen Tag den Heidenvölkern deinen Sohn geoffenbart. Auch wir haben dich schon im Glauben erkannt. Führe uns vom Glauben zur unverhüllten Anschauung deiner Herrlichkeit.^ORV",
             "oration_lat": "Deus, qui hodiérna die Unigénitum tuum géntibus stella duce revelásti, concéde propítius, ut qui iam te ex fide cognóvimus, usque ad contemplándam spéciem tuæ celsitúdinis perducámur.^ORlV"
@@ -511,7 +511,7 @@ export const calendarData: CalendarData = {
         }
       },
       "17": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Mann_Ord",
             "oration": "Herr, unser Gott, du hast den heiligen Mönchsvater Antonius aus der Welt herausgerufen und ihm die Kraft gegeben, in der Einsamkeit der Wüste vor dir zu leben. Hilf uns auf seine Fürbitte, uns selbst zu überwinden und dich über alles zu lieben.^ORV",
@@ -578,7 +578,7 @@ export const calendarData: CalendarData = {
         }
       },
       "21": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "MärtSg_Jgfr",
             "comm_2": "Jgfr",
@@ -734,7 +734,7 @@ export const calendarData: CalendarData = {
         }
       },
       "24": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Hirten",
             "comm_2": "Hirten_Kl",
@@ -758,7 +758,7 @@ export const calendarData: CalendarData = {
         }
       },
       "25": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Apostel",
             "oration": "Gott, du Heil aller Völker, du hast den Apostel Paulus auserwählt, den Heiden die Frohe Botschaft zu verkünden. Gib uns, die wir das Fest seiner Bekehrung feiern, die Gnade, uns deinem Anruf zu stellen und vor der Welt deine Wahrheit zu bezeugen.^ORV",
@@ -892,7 +892,7 @@ export const calendarData: CalendarData = {
         }
       },
       "26": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Hirten",
             "oration": "Gott, unser Vater, du hast die Apostelschüler Timotheus und Titus mit den Gaben des Heiligen Geistes beschenkt und sie deiner Kirche als Hirten gegeben. Höre auf ihre Fürsprache und hilf uns, dass wir gerecht und fromm in dieser Welt leben und so zur Gemeinschaft mit deinen Heiligen gelangen.^ORV",
@@ -944,7 +944,7 @@ export const calendarData: CalendarData = {
         }
       },
       "28": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Hirten_Kl",
             "oration": "Gott, du Quell der Weisheit, du hast dem heiligen Thomas von Aquin ein leidenschaftliches Verlangen geschenkt, nach Heiligkeit zu streben und deine Wahrheit zu erfassen. Hilf uns verstehen, was er gelehrt, und nachahmen, was er uns vorgelebt hat.^ORV",
@@ -974,7 +974,7 @@ export const calendarData: CalendarData = {
         }
       },
       "31": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Hirten",
             "comm_2": "Mann_Erz",
@@ -1000,7 +1000,7 @@ export const calendarData: CalendarData = {
     },
     "2": {
       "2": {
-        "eig": {
+        "oblig": {
           "each": {
             "oration": "Allmächtiger, ewiger Gott, dein eingeborener Sohn hat unsere menschliche Natur angenommen und wurde am heutigen Tag im Tempel dargestellt. Läutere unser Leben und Denken, damit wir mit reinem Herzen vor dein Antlitz treten.^ORV",
             "oration_lat": "Omnípotens sempitérne Deus, maiestátem tuam súpplices exorámus, ut, sicut Unigénitus Fílius tuus hodiérna die cum nostræ carnis substántia in templo est præsentátus, ita nos fácias purificátis tibi méntibus præsentári.^ORlV"
@@ -1243,7 +1243,7 @@ export const calendarData: CalendarData = {
         }
       },
       "5": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "MärtSg_Jgfr",
             "comm_2": "Jgfr",
@@ -1274,7 +1274,7 @@ export const calendarData: CalendarData = {
         }
       },
       "6": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "MärtPl",
             "oration": "Starker Gott, du bist die Kraft der Heiligen. Du hast den heiligen Paul Miki und seine Gefährten durch das Martyrium am Kreuz zur ewigen Herrlichkeit geführt. Hilf uns auf die Fürbitte dieser Heiligen, Christus, dem Gekreuzigten, nachzufolgen und ihn bis zum Tode gläubig zu bekennen,^ORR",
@@ -1351,7 +1351,7 @@ export const calendarData: CalendarData = {
         }
       },
       "10": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Jgfr",
             "oration": "Erhabener Gott, wir begehen das Gedächtnis der heiligen Jungfrau Scholastika. Lass uns nach ihrem Beispiel dir stets in aufrichtiger Liebe dienen und gewähre uns in deiner Güte einst einen seligen Heimgang zu dir.^ORV",
@@ -1407,7 +1407,7 @@ export const calendarData: CalendarData = {
         }
       },
       "14": {
-        "eig": {
+        "oblig": {
           "Lesehore": {
             "versikel0": "Aus meinem Mund wirst du das Wort vernehmen.",
             "versikel1": "Und in meinem Auftrag wirst du es ihnen verkünden.",
@@ -1503,7 +1503,7 @@ export const calendarData: CalendarData = {
         }
       },
       "22": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Apostel",
             "oration": "Allmächtiger Gott, das gläubige Bekenntnis des Apostels Petrus ist der Felsen, auf den du deine Kirche gegründet hast. Lass nicht zu, dass Verwirrung und Stürme unseren Glauben erschüttern. Darum bitten wir durch Jesus Chri­stus, deinen Sohn, unsern Herrn und Gott,^ORR",
@@ -1593,7 +1593,7 @@ export const calendarData: CalendarData = {
         }
       },
       "23": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "MärtSg",
             "oration": "Gott, du Herr der ganzen Schöpfung, du hast den heiligen Bischof Polykarp zum standhaften Bekenntnis des Glaubens gestärkt und in die Schar deiner Märtyrer aufgenommen. Gib auch uns deine Kraft, wenn wir am Kelch des Leidens Christi teilhaben, damit wir auferstehen zum ewigen Leben.^ORV",
@@ -1621,7 +1621,7 @@ export const calendarData: CalendarData = {
         }
       },
       "24": {
-        "eig": {
+        "oblig": {
           "Lesehore": {
             "farbe": "rBuM",
             "resp1": "Wenn ihr vor Statthalter und Könige geführt werdet, macht euch keine Sorgen, was ihr eden sollt.",
@@ -1762,7 +1762,7 @@ export const calendarData: CalendarData = {
         }
       },
       "7": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "MärtPl",
             "oration": "Herr, unser Gott, die Liebe zu dir hat den heiligen Frauen Perpetua und Felizitas die Kraft gegeben, ihre Verfolger nicht zu fürchten und die Qualen des Martyriums zu bestehen. Schenke auch uns jene Liebe, die alle Furcht überwindet.^ORV",
@@ -2009,7 +2009,7 @@ export const calendarData: CalendarData = {
         }
       },
       "19": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Mann",
             "oration": "Allmächtiger Gott, du hast Jesus, unseren Heiland, und seine Mutter Maria der treuen Sorge des heiligen Josef anvertraut. Höre auf seine Fürsprache und hilf deiner Kirche, die Geheimnisse der Erlösung treu zu verwalten, bis das Werk des Heiles vollendet ist.^ORV",
@@ -2256,7 +2256,7 @@ export const calendarData: CalendarData = {
         }
       },
       "25": {
-        "eig": {
+        "oblig": {
           "each": {
             "oration": "Gott, du bist groß und unbegreiflich. Nach deinem Willen ist dein ewiges Wort im Schoß der Jungfrau Maria Mensch geworden. Gläubig bekonnen wir, dass unser Erlöser wahrer Gott und wahrer Mensch ist. Mache uns würdig, Anteil zu erhalten an seinem göttlichen Leben.^ORV",
             "oration_lat": "Deus, qui Verbum tuum in útero Vírginis Maríæ veritátem carnis humánæ suscípere voluísti, concéde, quǽsumus, ut, qui Redemptórem nostrum Deum et hóminem confitémur, ipsíus étiam divínæ natúræ mereámur esse consórtes.^ORlV"
@@ -2574,7 +2574,7 @@ export const calendarData: CalendarData = {
         }
       },
       "7": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Hirten",
             "comm_2": "Mann_Erz",
@@ -2604,7 +2604,7 @@ export const calendarData: CalendarData = {
         }
       },
       "11": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "MärtSg",
             "comm_2": "Hirten",
@@ -2809,7 +2809,7 @@ export const calendarData: CalendarData = {
         }
       },
       "25": {
-        "eig": {
+        "oblig": {
           "Lesehore": {
             "les_buch": "Aus dem Brief an die Epheser.",
             "les_stelle": "4,1–16",
@@ -2905,7 +2905,7 @@ export const calendarData: CalendarData = {
         }
       },
       "29": {
-        "eig": {
+        "oblig": {
           "Lesehore": {
             "les_buch": "Aus dem ersten Brief an die Korinther.",
             "les_stelle": "2,1–16",
@@ -3164,7 +3164,7 @@ export const calendarData: CalendarData = {
         }
       },
       "2": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Hirten_Kl",
             "comm_2": "Hirten",
@@ -3189,7 +3189,7 @@ export const calendarData: CalendarData = {
         }
       },
       "3": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Apostel",
             "oration": "Gütiger Gott, wir feiern heute das Fest deiner Apostel Philippus und Jakobus, die für Christus ihr Blut vergossen haben. Schenke auch uns Gemeinschaft mit deinem Sohn in seinem Leiden und seiner Auf­erstehung, damit wir in ewiger Freude dein Angesicht schauen dürfen.^ORV",
@@ -3552,7 +3552,7 @@ export const calendarData: CalendarData = {
         }
       },
       "26": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Hirten",
             "comm_2": "Mann_Ord",
@@ -3612,7 +3612,7 @@ export const calendarData: CalendarData = {
         }
       },
       "40": {
-        "eig": {
+        "oblig": {
           "each": {
             "oration": "Herr, himmlischer Vater, du hast dein Wort und deinen Geist in die Welt gesandt, um das Geheimnis des göttlichen Lebens zu offenbaren. Gib, dass wir im wahren Glauben die Größe der göttlichen Dreifaltigkeit bekennen und die Einheit der drei Personen in ihrem machtvollen Wirken verehren.^ORV",
             "oration_lat": "Deus Pater, qui, Verbum veritátis et Spíritum sanctificatiónis mittens in mundum, admirábile mystérium tuum homínibus declarásti, da nobis, in confessióne veræ fídei, ætérnæ glóriam Trinitátis agnóscere, et Unitátem adoráre in poténtia maiestátis.^ORlV"
@@ -3807,7 +3807,7 @@ export const calendarData: CalendarData = {
         }
       },
       "41": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Maria",
             "oration": "Gott, du Vater des Erbarmens, dein Sohn hat am Kreuz seine Mutter Maria auch uns zur Mutter gegeben. Schau hin auf seine große Liebe, lass die Kirche zur Mutter vieler Kinder werden, an deren Heiligkeit sie sich freuen kann, und führe alle Völker in ihre Gemeinschaft.^ORV",
@@ -3834,7 +3834,7 @@ export const calendarData: CalendarData = {
         }
       },
       "44": {
-        "eig": {
+        "oblig": {
           "each": {
             "oration": "Herr Jesus Christus, im wunderbaren Sakrament des Altares hast du uns das Gedächtnis deines Leidens und deiner Auferstehung hinterlassen. Gib uns die Gnade, die heiligen Geheimnisse deines Leibes und Blutes so zu verehren, dass uns die Frucht der Erlösung zuteil wird.^ORS",
             "oration_lat": "Deus, qui nobis sub sacraménto mirábili passiónis tuæ memóriam reliquísti, tríbue, quǽsumus, ita nos córporis et sánguinis tui sacra mystéria venerári, ut redemptiónis tuæ fructum in nobis iúgiter sentiámus.^ORlS"
@@ -4035,7 +4035,7 @@ export const calendarData: CalendarData = {
         }
       },
       "45": {
-        "eig": {
+        "oblig": {
           "each": {
             "oration": "Allmächtiger Gott, wir verehren das Herz deines geliebten Sohnes und preisen die großen Taten seiner Liebe. Gib, dass wir aus dieser Quelle göttlichen Erbarmens die Fülle der Gnade und des Lebens empfangen.^ORV",
             "oration_lat": "Concéde, quǽsumus, omnípotens Deus, ut qui, dilécti Fílii tui corde gloriántes, eius præcípua in nos benefícia recólimus caritátis, de illo donórum fonte cælésti supereffluéntem grátiam mereámur accípere.^ORlV"
@@ -4235,7 +4235,7 @@ export const calendarData: CalendarData = {
         }
       },
       "46": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Maria",
             "oration": "Gott, du hast dem Heiligen Geist im Herzen der seligen Jungfrau Maria eine würdige Wohnung bereitet. Auf ihre Fürbitte hin erfülle auch unser Leben mit deiner Gegenwart und mache uns zu einem Tempel deiner Herrlichkeit.^ORV",
@@ -4260,7 +4260,7 @@ export const calendarData: CalendarData = {
     },
     "6": {
       "1": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "MärtSg",
             "oration": "Gott, du hast den heiligen Märtyrer Justin in der Torheit des Kreuzes die erhabene Weisheit Jesu Christi erkennen lassen. Hilf uns auf seine Fürsprache, dass wir nicht falschen Lehren folgen, sondern im wahren Glauben feststehen.^ORV",
@@ -4311,7 +4311,7 @@ export const calendarData: CalendarData = {
         }
       },
       "3": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "MärtPl",
             "oration": "Gott, du lässt das Blut der Märtyrer zum Samen werden für neue Christen. Erhöre unser Gebet für die Kirche in Afrika. Lass den Acker, der vom Blut des heiligen Karl Lwanga und seiner Freunde getränkt ist, reiche Ernte tragen.^ORV",
@@ -4333,7 +4333,7 @@ export const calendarData: CalendarData = {
         }
       },
       "5": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "MärtSg",
             "comm_2": "Hirten",
@@ -4406,7 +4406,7 @@ export const calendarData: CalendarData = {
         }
       },
       "11": {
-        "eig": {
+        "oblig": {
           "Invitatorium": {
             "ant0": "Durch Propheten und Lehrer hat Gottes Geist zu uns gesprochen; kommt, wir beten ihn an!^Ö",
             "ant0_lat": "Spíritum Sanctum, qui per prophétas et doctóres nobis locútus est, veníte, adorémus.^LÖ"
@@ -4439,7 +4439,7 @@ export const calendarData: CalendarData = {
         }
       },
       "13": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Hirten_Kl",
             "comm_2": "Mann_Ord",
@@ -4532,7 +4532,7 @@ export const calendarData: CalendarData = {
         }
       },
       "21": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Mann_Ord",
             "oration": "Gott, du Spender aller Gnaden, mit deiner Hilfe hat der heilige Aloisius ein Leben der Unschuld und der Buße geführt. Höre auf seine Fürsprache und gib uns, auch wenn wir ihm in der Heiligkeit nicht gefolgt sind, durch Buße und Umkehr die Reinheit des Herzens.^ORV",
@@ -4597,7 +4597,7 @@ export const calendarData: CalendarData = {
         }
       },
       "24": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Mann",
             "oration": "Gott, du hast den heiligen Johannes den Täufer berufen, das Volk des Alten Bundes Christus, seinem Erlöser, entgegen­zuführen. Schenke deiner Kirche die Freude im Heiligen Geist und führe alle, die an dich glauben, auf dem Weg des Heiles und des Friedens.^ORV",
@@ -4835,7 +4835,7 @@ export const calendarData: CalendarData = {
         }
       },
       "28": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "MärtSg",
             "comm_2": "Hirten",
@@ -4861,7 +4861,7 @@ export const calendarData: CalendarData = {
         }
       },
       "29": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Apostel",
             "oration": "Herr, unser Gott, am Hochfest der Apostel Petrus und Paulus haben wir uns in Freude versammelt. Hilf deiner Kirche, in allem der Weisung deiner Boten zu folgen, durch die sie den Glauben und das Leben in Christus empfangen hat,^ORR",
@@ -5092,7 +5092,7 @@ export const calendarData: CalendarData = {
     },
     "7": {
       "2": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Maria",
             "oration": "Allmächtiger, ewiger Gott, vom Heiligen Geist geführt, eilte Maria, die deinen Sohn in ihrem Schoß trug, zu ihrer Ver­wand­ten Elisabet. Hilf auch uns, den Eingebungen deines Geistes zu folgen, damit wir vereint mit Maria deine Größe preisen.^ORV",
@@ -5191,7 +5191,7 @@ export const calendarData: CalendarData = {
         }
       },
       "3": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Apostel",
             "oration": "Allmächtiger Gott, am Fest des heiligen Thomas bitten wir dich: Höre auf seine Fürsprache und bewahre unseren Glauben in der Not des Zweifels; öffne unser Herz für das Wort deines Sohnes, damit wir wie Thomas ihn bekennen als unseren Herrn und Gott und das Leben haben im Namen Jesu Christi,^ORR",
@@ -5404,7 +5404,7 @@ export const calendarData: CalendarData = {
         }
       },
       "11": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Mann_Ord",
             "oration": "Allmächtiger Gott, du hast uns im heiligen Benedikt einen Meister und Lehrer geschenkt, der uns anleitet, dich zu suchen und dir zu dienen. Gib, dass wir der Liebe zu dir nichts vorziehen, sondern voll Freude und Zuversicht auf dem Weg deiner Gebote dir entgegeneilen.^ORV",
@@ -5503,7 +5503,7 @@ export const calendarData: CalendarData = {
         }
       },
       "15": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Hirten",
             "comm_2": "Hirten_Kl",
@@ -5619,7 +5619,7 @@ export const calendarData: CalendarData = {
         }
       },
       "22": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Frau",
             "oration": "Gott und Vater unseres Herrn Jesus Christus, die heilige Maria Magdalena durfte den Auferstandenen sehen und als erste den Jüngern die österliche Freude verkünden. Gib auf ihre Fürsprache auch uns den Mut, zu bezeugen, dass Christus lebt, damit wir ihn einst schauen in seiner Herrlichkeit,^ORR",
@@ -5691,7 +5691,7 @@ export const calendarData: CalendarData = {
         }
       },
       "23": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Frau_Ord",
             "oration": "Herr, unser Gott, du hast der heiligen Birgitta eine innige Liebe zum Gekreuzigten geschenkt und ihr den Reichtum deines Erbarmens geoffenbart. Hilf uns, dass wir Christus auf seinem Leidensweg nachfolgen, damit wir ihn auch in seiner Herrlichkeit schauen,^ORR",
@@ -5757,7 +5757,7 @@ export const calendarData: CalendarData = {
         }
       },
       "25": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Apostel",
             "oration": "Allmächtiger, ewiger Gott, als erster der Apostel hat der heilige Jakobus das Zeugnis für Christus mit seinem Blut besiegelt. Sein Bekennermut stärke uns, seine Fürbitte erwirke deiner Kirche Schutz und Sicherheit.^ORV",
@@ -5797,7 +5797,7 @@ export const calendarData: CalendarData = {
         }
       },
       "26": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Mann_Paar",
             "comm_2": "Frau_Paar",
@@ -5860,7 +5860,7 @@ export const calendarData: CalendarData = {
         }
       },
       "29": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Frau_Pl",
             "oration": "Allmächtiger, ewiger Gott, die heilige Marta durfte deinen Sohn in ihr Haus aufnehmen und bewirten. Auf ihre Fürsprache hin mache uns bereit, in unseren Mitmenschen Christus zu dienen, damit wir einst bei dir Aufnahme finden.^ORvR",
@@ -5916,7 +5916,7 @@ export const calendarData: CalendarData = {
         }
       },
       "31": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Hirten",
             "comm_2": "Mann_Ord",
@@ -5951,7 +5951,7 @@ export const calendarData: CalendarData = {
     },
     "8": {
       "1": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Hirten",
             "comm_2": "Hirten_Kl",
@@ -6012,7 +6012,7 @@ export const calendarData: CalendarData = {
         }
       },
       "4": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Hirten",
             "oration": "Allmächtiger und barmherziger Gott, du hast dem heiligen Pfarrer von Ars die Geduld und Sorge eines guten Hirten gegeben, der sich für das Heil seiner Mitmenschen verzehrt. Hilf auf seine Fürsprache auch uns, Menschen für Christus zu gewinnen und zusammen mit unseren Brüdern und Schwestern das ewige Heil zu finden.^ORV",
@@ -6060,7 +6060,7 @@ export const calendarData: CalendarData = {
         }
       },
       "6": {
-        "eig": {
+        "oblig": {
           "each": {
             "oration": "Allmächtiger Gott, bei der Verklärung deines eingeborenen Sohnes hast du durch das Zeugnis der Väter die Geheimnisse unseres Glaubens bekräftigt. Du hast uns gezeigt, was wir erhoffen dürfen, wenn unsere Annahme an Kindes statt sich einmal vollendet. Hilf uns, auf das Wort deines Sohnes zu hören, damit wir Anteil erhalten an seiner Herrlichkeit.^ORvR",
             "oration_lat": "Deus, qui fídei sacraménta in Unigéniti tui gloriósa Transfiguratióne patrum testimónio roborásti, et adoptiónem filiórum perféctam mirabíliter præsignásti, concéde nobis fámulis tuis, ut, ipsíus dilécti Fílii tui vocem audiéntes, eiúsdem coherédes éffici mereámur.^ORlvR"
@@ -6284,7 +6284,7 @@ export const calendarData: CalendarData = {
         }
       },
       "8": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Hirten",
             "comm_2": "Mann_Ord",
@@ -6313,7 +6313,7 @@ export const calendarData: CalendarData = {
         }
       },
       "9": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "MärtSg_Jgfr",
             "comm_2": "Jgfr_Ord",
@@ -6338,7 +6338,7 @@ export const calendarData: CalendarData = {
         }
       },
       "10": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "MärtSg",
             "oration": "Barmherziger Gott, die glühende Liebe zu dir hat dem heiligen Diakon Laurentius die Kraft gegeben, dir und den Armen treu zu dienen und furchtlos für dich zu sterben. Hilf uns, dich zu lieben, wie er dich geliebt hat, und den Armen zu dienen, wie er ihnen gedient hat.^ORV",
@@ -6388,7 +6388,7 @@ export const calendarData: CalendarData = {
         }
       },
       "11": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Jgfr",
             "comm_2": "Frau_Ord",
@@ -6483,7 +6483,7 @@ export const calendarData: CalendarData = {
         }
       },
       "15": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Maria",
             "oration": "Allmächtiger, ewiger Gott, du hast die selige Jungfrau Maria, die uns Christus geboren hat, vor aller Sünde bewahrt und sie mit Leib und Seele zur Herrlichkeit des Himmels erhoben. Gib, dass wir auf dieses Zeichen der Hoffnung und des Trostes schauen und auf dem Weg bleiben, der hinführt zu deiner Herrlichkeit.^ORV",
@@ -6709,7 +6709,7 @@ export const calendarData: CalendarData = {
         }
       },
       "20": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Hirten_Kl",
             "comm_2": "Mann_Ord",
@@ -6743,7 +6743,7 @@ export const calendarData: CalendarData = {
         }
       },
       "21": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Hirten",
             "oration": "Herr, unser Gott, du hast dem heiligen Papst Pius°X. wahre Frömmigkeit und apostolischen Eifer geschenkt, um den Glauben der Kirche zu schützen und alles in Christus zu erneuern. Hilf uns, seiner Weisung und seinem Beispiel zu folgen und so den ewigen Lohn zu erlangen.^ORV",
@@ -6765,7 +6765,7 @@ export const calendarData: CalendarData = {
         }
       },
       "22": {
-        "eig": {
+        "oblig": {
           "Invitatorium": {
             "ant0": "Christus, der König, gab seiner Mutter die Krone der Herrlichkeit; kommt, wir beten ihn an!",
             "ant0_lat": "Christum regem, qui suam coronávit Matrem, veníte, adorémus."
@@ -6823,7 +6823,7 @@ export const calendarData: CalendarData = {
         }
       },
       "24": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Apostel",
             "oration": "Gott, unser Herr, der Apostel Bartholomäus hat mit aufrichtigem Herzen deinem Sohn die Treue gehalten. Stärke auf seine Fürsprache auch unseren Glauben und mache deine Kirche zum wirksamen Zeichen des Heiles für alle Völker.^ORV",
@@ -6904,7 +6904,7 @@ export const calendarData: CalendarData = {
         }
       },
       "27": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Frau",
             "oration": "Allmächtiger Gott, du hast auf die Tränen der heiligen Monika geschaut; du hast ihr Flehen erhört und ihrem Sohn Augustinus die Gnade der Bekehrung geschenkt. Gib uns auf die Fürsprache dieser heiligen Mutter und ihres Sohnes die Gnade, dass wir unsere Sünden bereuen und bei dir Verzeihung finden.^ORV",
@@ -6932,7 +6932,7 @@ export const calendarData: CalendarData = {
         }
       },
       "28": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Hirten_Kl",
             "comm_2": "Hirten",
@@ -6965,7 +6965,7 @@ export const calendarData: CalendarData = {
         }
       },
       "29": {
-        "eig": {
+        "oblig": {
           "Invitatorium": {
             "ant0": "Das Lamm Gottes, dem Johannes im Leben vorausging – kommt, wir beten es an!",
             "ant0_lat": "Agnum Dei, quem in passióne Ioánnes præcéssit, veníte, adorémus."
@@ -7075,7 +7075,7 @@ export const calendarData: CalendarData = {
     },
     "9": {
       "3": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Hirten_Kl",
             "comm_2": "Hirten",
@@ -7122,7 +7122,7 @@ export const calendarData: CalendarData = {
         }
       },
       "8": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Maria",
             "oration": "Barmherziger Gott, öffne deinen Gläubigen die Schätze der himmlischen Gnade. Die Geburt des Erlösers aus Maria war für uns der Anfang des Heiles; das Geburtsfest seiner all­zeit jungfräulichen Mutter festige und mehre den Frieden auf Erden.^ORV",
@@ -7246,7 +7246,7 @@ export const calendarData: CalendarData = {
         }
       },
       "13": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Hirten_Kl",
             "comm_2": "Hirten",
@@ -7275,7 +7275,7 @@ export const calendarData: CalendarData = {
         }
       },
       "14": {
-        "eig": {
+        "oblig": {
           "each": {
             "oration": "Allmächtiger Gott, deinem Willen gehorsam, hat dein geliebter Sohn den Tod am Kreuz auf sich genommen, um alle Menschen zu erlösen. Gib dass wir in der Torheit des Kreuzes deine Macht und Weisheit erkennen und in Ewigkeit teilhaben an der Frucht der Erlösung.^ORV",
             "oration_lat": "Deus, qui Unigénitum tuum crucem subíre voluísti, ut salvum fáceret genus humánum, præsta, quǽsumus, ut, cuius mystérium in terra cognóvimus, eius redemptiónis prǽmia in cælo cónsequi mereámur.^ORlV"
@@ -7465,7 +7465,7 @@ export const calendarData: CalendarData = {
         }
       },
       "15": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Maria",
             "oration": "Allmächtiger Gott, du hast der Mutter Jesu die Kraft verliehen, unter dem Kreuz zu stehen und das Leiden ihres Sohnes zu teilen. Hilf uns, täglich unser Kreuz anzunehmen, damit wir auch an der Auferstehung unseres Herrn Jesus Christus teilhaben.^ORR",
@@ -7541,7 +7541,7 @@ export const calendarData: CalendarData = {
         }
       },
       "16": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "MärtPl",
             "comm_2": "Hirten",
@@ -7668,7 +7668,7 @@ export const calendarData: CalendarData = {
         }
       },
       "20": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "MärtPl",
             "oration": "Gott, du hast die Zahl derer, die du als deine Kinder erwählt hast, auf dem ganzen Erdkreis vermehrt, und das Blut der heiligen Märtyrer Andreas und Gefährten hast du zum überreichen Samen für die Christen werden lassen. Gewähre, dass wir durch ihren Beistand gestärkt werden und durch ihr Beispiel unablässig im Glauben voranschreiten.^ORV",
@@ -7683,7 +7683,7 @@ export const calendarData: CalendarData = {
         }
       },
       "21": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Apostel",
             "oration": "Barmherziger Gott, du hast deinen Sohn gesandt, zu suchen und zu retten, was verloren war; in erbarmender Liebe hat er den Zöllner Matthäus zum Apostel berufen. Hilf uns auf die Fürsprache dieses heiligen Evangelisten, mit ganzer Treue Christus nachzufolgen, wie er es getan hat.^ORV",
@@ -7744,7 +7744,7 @@ export const calendarData: CalendarData = {
         }
       },
       "23": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Mann_Ord",
             "comm_2": "Hirten",
@@ -7836,7 +7836,7 @@ export const calendarData: CalendarData = {
         }
       },
       "27": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Hirten",
             "comm_2": "Mann_Liebe",
@@ -7920,7 +7920,7 @@ export const calendarData: CalendarData = {
         }
       },
       "29": {
-        "eig": {
+        "oblig": {
           "each": {
             "oration": "Gott, du ordnest alles mit Macht und Weisheit; Engeln und Menschen teilst du ihre Dienste zu. Gib, dass die Macht des Bösen nicht überhandnimmt, sondern sende deine heiligen Engel, die im Himmel vor dir stehen, in diese Welt, damit sie uns vor allem Unheil schützen.^ORV",
             "oration_lat": "Deus, qui miro órdine angelórum ministéria hominúmque dispénsas, concéde propítius, ut, a quibus tibi ministrántibus in cælo semper assístitur, ab his in terra vita nostra muniátur.^ORlV"
@@ -8078,7 +8078,7 @@ export const calendarData: CalendarData = {
         }
       },
       "30": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Hirten_Kl",
             "oration": "Allmächtiger Gott, du hast den heiligen Hieronymus mit leidenschaftlicher Liebe zur Heiligen Schrift erfüllt. Öffne auch unser Herz für dein Wort, damit wir darin die Quelle des Lebens finden.^ORV",
@@ -8108,7 +8108,7 @@ export const calendarData: CalendarData = {
     },
     "10": {
       "1": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Jgfr_Kl",
             "oration": "Großer Gott, du rufst Menschen in deine Nähe, die nichts von sich selbst erwarten, sondern alles von dir erhoffen. Führe uns den Weg der Demut und der Gotteskindschaft, den du der heiligen Theresia gezeigt hast. Vollende auf ihre Fürsprache auch unser Leben in deiner Herrlichkeit und lass uns dein Antlitz schauen.^ORV",
@@ -8139,7 +8139,7 @@ export const calendarData: CalendarData = {
         }
       },
       "2": {
-        "eig": {
+        "oblig": {
           "each": {
             "oration": "Gott, in deiner Vorsehung sorgst du für alles, was du geschaffen hast. Sende uns deine heiligen Engel zu Hilfe, dass sie uns behüten auf allen unseren Wegen, und gib uns in der Gemeinschaft mit ihnen deine ewige Freude.^ORV",
             "oration_lat": "Deus, qui ineffábili providéntia sanctos ángelos tuos ad nostram custódiam míttere dignáris, largíre supplícibus tuis, et eórum semper protectióne deféndi, et ætérna societáte gaudére.^ORlV"
@@ -8258,7 +8258,7 @@ export const calendarData: CalendarData = {
         }
       },
       "4": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Mann_Ord",
             "oration": "Gott, du Vater der Armen, du hast den heiligen Franz von Assisi auserwählt, in vollkommener Armut und Demut Christus ähnlich zu werden. Mache uns bereit, auf den Spuren des heiligen Franz deinem Sohn nachzufolgen, damit wir in Freude und Liebe mit dir verbunden bleiben.^ORV",
@@ -8329,7 +8329,7 @@ export const calendarData: CalendarData = {
         }
       },
       "7": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Maria",
             "oration": "Allmächtiger Gott, gieße deine Gnade in unsere Herzen ein. Durch die Botschaft des Engels haben wir die Menschwerdung Christi, deines Sohnes, erkannt. Höre auf die Fürsprache der seligen Jungfrau Maria und führe uns durch sein Leiden und Kreuz zur Herrlichkeit der Auferstehung.^ORV",
@@ -8489,7 +8489,7 @@ export const calendarData: CalendarData = {
         }
       },
       "15": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Jgfr_Kl",
             "oration": "Allmächtiger Gott, du hast die heilige Theresia von Avila durch deinen Geist erweckt und sie der Kirche als Lehrmeisterin des Weges zur Vollkommenheit geschenkt. Gib, dass wir in ihren Schriften Nahrung für unser geistliches Leben finden. Durchdringe uns mit der Gewissheit, dass du allein genügst, und entzünde in uns das Verlangen nach Heiligkeit.^ORV",
@@ -8588,7 +8588,7 @@ export const calendarData: CalendarData = {
         }
       },
       "17": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "MärtSg",
             "comm_2": "Hirten",
@@ -8618,7 +8618,7 @@ export const calendarData: CalendarData = {
         }
       },
       "18": {
-        "eig": {
+        "oblig": {
           "Lesehore": {
             "versikel0": "Als die Heiden das hörten, freuten sie sich.",
             "versikel1": "Und sie priesen das Wort des Herrn.",
@@ -8818,7 +8818,7 @@ export const calendarData: CalendarData = {
         }
       },
       "28": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Apostel",
             "oration": "Allmächtiger Gott, durch die Botschaft der Apostel hast du uns zur Erkenntnis deines Namens geführt. Mehre auf die Fürsprache der Heiligen Simon und Judas die Zahl der Gläubigen und festige in der Kirche das Vertrauen auf deine Hilfe.^ORV",
@@ -8865,7 +8865,7 @@ export const calendarData: CalendarData = {
     },
     "11": {
       "0": {
-        "eig": {
+        "oblig": {
           "each": {
             "oration": "Allmächtiger Gott, wir glauben und bekennen, dass du deinen Sohn als Ersten von den Toten auferweckt hast. Stärke unsere Hoffnung, dass du auch unsere Brüder und Schwestern auferwecken wirst zum ewigen Leben.^ORV"
           },
@@ -8976,7 +8976,7 @@ export const calendarData: CalendarData = {
         }
       },
       "1": {
-        "eig": {
+        "oblig": {
           "each": {
             "oration": "Allmächtiger, ewiger Gott, du schenkst uns die Freude, am heutigen Fest die Verdienste aller deiner Heiligen zu feiern. Erfülle auf die Bitten so vieler Fürsprecher unsere Hoffnung und schenke uns dein Erbarmen.^ORV",
             "oration_lat": "Omnípotens sempitérne Deus, qui nos ómnium sanctórum tuórum mérita sub una tribuísti celebritáte venerári, quǽsumus, ut desiderátam nobis tuæ propitiatiónis abundántiam, multiplicátis intercessóribus, largiáris.^ORlV"
@@ -9167,7 +9167,7 @@ export const calendarData: CalendarData = {
         }
       },
       "2": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Verst",
             "oration": "Allmächtiger Gott, wir glauben und bekennen, dass du deinen Sohn als Ersten von den Toten auferweckt hast. Stärke unsere Hoffnung, dass du auch unsere Brüder und Schwestern auferwecken wirst zum ewigen Leben.^ORV",
@@ -9267,7 +9267,7 @@ export const calendarData: CalendarData = {
         }
       },
       "4": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Hirten",
             "oration": "Herr und Gott, erhalte in deiner Kirche den Geist, von dem der heilige Karl Borromäus erfüllt war, und gib ihr die Bereitschaft, sich ständig zu erneuern. Gestalte sie nach dem Bild deines Sohnes Jesus Christus, damit die Welt ihn erkennen kann, unseren Herrn und Gott,^ORR",
@@ -9336,7 +9336,7 @@ export const calendarData: CalendarData = {
         }
       },
       "9": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Kirchw",
             "oration": "Erhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird.^ORV",
@@ -9356,7 +9356,7 @@ export const calendarData: CalendarData = {
         }
       },
       "10": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Hirten_Kl",
             "oration": "Gott, du hast deine Kirche auf den festen Glauben der Apostel gebaut und lässt nicht zu, dass die Pforten der Hölle sie überwältigen. Auf die Fürsprache des heiligen Papstes Leo stärke in der Kirche den Glauben und schenke ihr Einheit und Frieden.^ORV",
@@ -9386,7 +9386,7 @@ export const calendarData: CalendarData = {
         }
       },
       "11": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Hirten",
             "oration": "Allmächtiger Gott, der heilige Bischof Martin hat dich in seinem Leben und in seinem Sterben verherrlicht. Lass auch in uns die Macht deiner Gnade wirksam sein, damit weder Tod noch Leben uns von deiner Liebe trennen.^ORV",
@@ -9436,7 +9436,7 @@ export const calendarData: CalendarData = {
         }
       },
       "12": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "MärtSg",
             "comm_2": "Hirten",
@@ -9578,7 +9578,7 @@ export const calendarData: CalendarData = {
         }
       },
       "19": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Frau_Liebe",
             "oration": "Gott, du Vater der Armen, du hast der heiligen Elisabeth ein waches Herz für die Armen gegeben, in denen sie Christus erkannte und verehrte. Auf ihre Fürsprache gib auch uns den Geist deiner Liebe und leite uns an zu helfen, wo Menschen in Not und Bedrängnis sind.^ORV",
@@ -9600,7 +9600,7 @@ export const calendarData: CalendarData = {
         }
       },
       "21": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Maria",
             "oration": "Gütiger Gott, wir gedenken am heutigen Tag der seligen Jungfrau Maria, die du mit der Fülle deiner Gnade beschenkt hast. Höre auf ihre Fürsprache und lass auch uns am Reichtum deiner Gnade teilhaben, damit wir mit ganzer Hingabe und frohem Vertrauen vor dir leben.^ORV",
@@ -9629,7 +9629,7 @@ export const calendarData: CalendarData = {
         }
       },
       "22": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "MärtSg_Jgfr",
             "comm_2": "Jgfr_Märt",
@@ -9704,7 +9704,7 @@ export const calendarData: CalendarData = {
         }
       },
       "24": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "MärtPl",
             "oration": "Gott, du Quell und Ursprung aller Vaterschaft, du hast dem heiligen Märtyrer Andreas und seinen Gefährten die Kraft gegeben, dem Kreuz deines Sohnes bis zur Hingabe ihres Lebens treu zu sein. Auf ihre Fürsprache lass uns deine Liebe unter den Brüdern und Schwestern verbreiten, damit wir deine Kinder genannt werden und es in Wahrheit sind.^ORV",
@@ -9764,7 +9764,7 @@ export const calendarData: CalendarData = {
         }
       },
       "30": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Apostel",
             "oration": "Allmächtiger Gott, du hast deiner Kirche den heiligen Apostel Andreas als Boten des Glaubens und als Hirten gegeben. Erhöre unser Gebet und gib, dass auch die Kirche unserer Tage die Macht seiner Fürsprache erfahre.^ORV",
@@ -9848,7 +9848,7 @@ export const calendarData: CalendarData = {
         }
       },
       "3": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Hirten",
             "oration": "Gott, du Heil aller Menschen, du hast durch das Wirken des heiligen Franz Xaver vielen Völkern den Weg zu dir gewiesen. Wecke in deinen Gläubigen den Sinn für die missionarische Arbeit und schenke ihnen Eifer für die Ausbreitung des Glaubens, damit die Kirche überall auf der Welt erstarke und wachse.^ORV",
@@ -9972,7 +9972,7 @@ export const calendarData: CalendarData = {
         }
       },
       "7": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Hirten_Kl",
             "oration": "Gott, du hast uns im heiligen Bischof Ambrosius einen hervorragenden Lehrer des katholischen Glaubens und ein Beispiel apostolischen Freimutes gegeben. Höre auf seine Fürsprache und berufe in deiner Kirche Bischöfe, die deinem Willen gehorsam sind und dein Volk mit Kraft und Weisheit leiten.^ORV",
@@ -10000,7 +10000,7 @@ export const calendarData: CalendarData = {
         }
       },
       "8": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Maria",
             "oration": "Großer und heiliger Gott, im Hinblick auf den Er­lösertod Christi hast du die selige Jungfrau Maria schon im ersten Augenblick ihres Daseins vor jeder Sünde bewahrt, um deinem Sohn eine würdige Wohnung zu bereiten. Höre auf ihre Fürsprache: Mache uns frei von Sünden und erhalte uns in deiner Gnade, damit wir mit reinem Herzen zu dir gelangen.^ORV",
@@ -10241,7 +10241,7 @@ export const calendarData: CalendarData = {
         }
       },
       "13": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "MärtSg_Jgfr",
             "comm_2": "Jgfr_Märt",
@@ -10291,7 +10291,7 @@ export const calendarData: CalendarData = {
         }
       },
       "14": {
-        "eig": {
+        "oblig": {
           "major": {
             "comm_1": "Hirten_Kl",
             "oration": "Allmächtiger Gott, du hast dem heiligen Johannes vom Kreuz ein großes Verlangen geschenkt, sich selbst zu verleugnen und dir nachzufolgen. Gib, dass auch wir im Kreuz unser Heil erkennen und durch das Kreuz die Gnade erlangen, deine Herrlichkeit zu schauen.^ORV",
@@ -10343,7 +10343,7 @@ export const calendarData: CalendarData = {
         }
       },
       "24": {
-        "eig": {
+        "oblig": {
           "Invitatorium": {
             "ant0": "Heute sollt ihr wissen, dass der Herr kommt, und morgen werdet ihr schauen seine Herrlichkeit.",
             "ant0_lat": "Hódie sciétis quia véniet Dóminus, et mane vidébitis glóriam eius."
@@ -10406,7 +10406,7 @@ export const calendarData: CalendarData = {
         }
       },
       "25": {
-        "eig": {
+        "oblig": {
           "each": {
             "oration": "Allmächtiger Gott, du hast den Menschen in seiner Würde wunderbar erschaffen und noch wunderbarer wiederhergestellt. lass uns teilhaben an der Gottheit deines Sohnes, der unsere Menschennatur angenommen hat. Er,^ORR",
             "oration_lat": "Deus, qui humánæ substántiæ dignitátem et mirabíliter condidísti et mirabílius reformásti, da, quǽsumus, nobis eius divinitátis esse consórtes, qui humanitátis nostræ fíeri dignátus est párticeps.^ORlR"
@@ -10536,7 +10536,7 @@ export const calendarData: CalendarData = {
         }
       },
       "26": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "MärtSg_Stephanus",
             "oration": "Allmächtiger Gott, wir ehren am heutigen Fest den ersten Märtyrer deiner Kirche. Gib, dass auch wir unsere Feinde lieben und so das Beispiel des heiligen Stephanus nachahmen, der sterbend für seine Verfolger gebetet hat.^ORV",
@@ -10604,7 +10604,7 @@ export const calendarData: CalendarData = {
         }
       },
       "27": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Apostel_Johannes",
             "oration": "Allmächtiger Gott, du hast uns durch den Evangelisten Johannes einen Zugang eröffnet zum Geheimnis deines ewigen Wortes. Lass uns mit erleuchtetem Verstand und liebendem Herzen erfassen, was er in gewaltiger Sprache verkündet hat.^ORV",
@@ -10662,7 +10662,7 @@ export const calendarData: CalendarData = {
         }
       },
       "28": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "MärtPl_UnschKinder",
             "oration": "Vater im Himmel, nicht mit Worten haben die Unschuldigen Kinder dich gepriesen, sie haben dich verherrlicht durch ihr Sterben. Gib uns die Gnade, dass wir in Worten und Taten unseren Glauben an dich bekennen.^ORV",
@@ -11051,7 +11051,7 @@ export const calendarData: CalendarData = {
   "Fulda": {
     "2": {
       "4": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Hirten",
             "oration": "Allmächtiger Gott, du hast dem heiligen Rabanus Maurus die Gabe der Weisheit und des Wortes verliehen; du hast ihn gelehrt, den Menschen deine Wahrheit nahezubringen. Öffne unser Herz für das Licht deines Geistes, damit wir dich erkennen und deinen Sohn, unseren Herrn Jesus Christus,^ORR",
@@ -11296,7 +11296,7 @@ export const calendarData: CalendarData = {
     },
     "4": {
       "27": {
-        "eig": {
+        "oblig": {
           "Laudes": {
             "referenz": "AAA-4-27-n1",
             "button": "Hl. Petrus Kanisius"
@@ -11330,7 +11330,7 @@ export const calendarData: CalendarData = {
     },
     "6": {
       "5": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Hirten",
             "comm_2": ""
@@ -11691,7 +11691,7 @@ export const calendarData: CalendarData = {
         }
       },
       "14": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Kirchw",
             "oration": "^RUBRIn der Fuldaer Kathedrale:^0RUBR^lGroßer und heiliger Gott, jedes Jahr feiern wir den Weihetag dieses heiligen Hauses. Höre auf die Bitten deines Volkes. Hilf uns, dass wir an diesem Ort in rechter Gesinnung den heiligen Dienst vollziehen und den Reichtum der Erlösungsgnade empfangen.^ORV^p^RUBRIn den übrigen Kirchen:^0RUBR^lErhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird.^ORV^ODERAllmächtiger Gott, du hast gewollt, dass dein Volk Kirche heiße, denn wir sind das Haus, in dem deine Herrlichkeit wohnt. Gib, dass die Gläubigen, die sich in deinem Namen versammeln, dich ehren, dich lieben und dir gehorchen damit sie unter deiner Führung das ewige Erbe erlangen.^ORV",
@@ -11736,7 +11736,7 @@ export const calendarData: CalendarData = {
     },
     "9": {
       "28": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Jgfr",
             "oration": "Allmächtiger Gott, du hast die heilige Äbtissin Lioba dazu berufen, am Missionswerk des heiligen Bonifatius mitzuwirken. Gib auch unserer Zeit Männer und Frauen, die durch ihr Gebet und ihre Arbeit in unserem Volk den Glauben lebendig erhalten.^ORV",
@@ -11938,7 +11938,7 @@ export const calendarData: CalendarData = {
     },
     "11": {
       "19": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Frau",
             "oration": "Gott, du Vater der Armen, du hast der heiligen Elisabeth ein waches Herz für die Armen gegeben, in denen sie Christus erkannte und verehrte. Auf ihre Fürsprache gib auch uns den Geist deiner Liebe und leite uns an zu helfen, wo Menschen in Not und Bedrängnis sind.^ORV",
@@ -12211,7 +12211,7 @@ export const calendarData: CalendarData = {
         }
       },
       "16": {
-        "eig": {
+        "oblig": {
           "each": {
             "comm_1": "Hirten",
             "oration": "Herr und Gott, durch das Wirken des heiligen Abtes Sturmius hast du unsere Heimat zum Glauben be­rufen. Lass seine Fürsprache, die er sterbend seinen Brüdern zugesagt hat, auch uns zugute kommen, damit unser Glaube zunehme und fruchtbar werde in der Liebe.^ORV",
