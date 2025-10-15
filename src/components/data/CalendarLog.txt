@@ -1,10 +1,48 @@
-Calendar Data Processing Log - 2025-10-13 07:29:56.927944
+Calendar Data Processing Log - 2025-10-15 04:19:00.572400
 ============================================================
 
-Keine Überschneidungen gefunden.
+ÜBERSCHNEIDUNG [AAA]: 02-14 eig (bestehende Quellen: eig)
+ÜBERSCHNEIDUNG [AAA]: 02-24 eig (bestehende Quellen: eig)
+ÜBERSCHNEIDUNG [AAA]: 04-25 eig (bestehende Quellen: eig)
+ÜBERSCHNEIDUNG [AAA]: 04-29 eig (bestehende Quellen: eig)
+ÜBERSCHNEIDUNG [AAA]: 06-11 eig (bestehende Quellen: eig)
+ÜBERSCHNEIDUNG [AAA]: 07-23 eig (bestehende Quellen: eig)
+ÜBERSCHNEIDUNG [AAA]: 08-22 eig (bestehende Quellen: eig)
+ÜBERSCHNEIDUNG [AAA]: 09-21 eig (bestehende Quellen: eig)
+ÜBERSCHNEIDUNG [AAA]: 10-18 eig (bestehende Quellen: eig)
+
+=== ÜBERSCHNEIDUNGS-ZUSAMMENFASSUNG ===
+Gesamt gefundene Überschneidungen: 9
+AAA: 9 Überschneidungen
+
+Zur Unterdrückung von Warnungen können folgende Einträge
+dem allowedOverlaps Set in CalendarMerge.js hinzugefügt werden:
+    'AAA-10-18-eig',
+    'AAA-2-14-eig',
+    'AAA-2-24-eig',
+    'AAA-4-25-eig',
+    'AAA-4-29-eig',
+    'AAA-6-11-eig',
+    'AAA-7-23-eig',
+    'AAA-8-22-eig',
+    'AAA-9-21-eig',
 
 === REFERENZ-VALIDIERUNG ===
 Gefundene Referenzen: 6
-✓ Alle Referenzen sind gültig und geprüft
+
+⚠️  UNGEPRÜFTE REFERENZEN: 5
+Diese Quellen verwenden Referenzen und sind nicht im checkedReferences Set:
+  Fulda-2-4-eig → AAA-2-4-n1
+  Fulda-6-5-eig → AAA-6-5-eig
+  Fulda-9-28-eig → AAA-9-28-n1
+  Fulda-11-19-eig → AAA-11-19-eig
+  Fulda-4-27-eig → AAA-4-27-n1
+
+Zum Hinzufügen zu checkedReferences in CalendarMerge.js:
+    'Fulda-11-19-eig',
+    'Fulda-2-4-eig',
+    'Fulda-4-27-eig',
+    'Fulda-6-5-eig',
+    'Fulda-9-28-eig',
 
 Calendar-Daten erfolgreich sortiert: Regionalkalender plus 47 Diözesen
