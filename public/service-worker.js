@@ -1,5 +1,6 @@
 // Eindeutiger Name für deinen Cache
-const CACHE_NAME = 'direktorium-v1';
+const VERSION = '1.0.0'; // Erhöhe diese Nummer bei wichtigen Updates
+const CACHE_NAME = `direktorium-v${VERSION}`;
 
 // Dateien, die beim Installieren des Service Workers gecacht werden sollen
 // Basis-URL ermitteln
@@ -42,36 +43,69 @@ self.addEventListener('install', event => {
 });
 
 // Abruf von Ressourcen - Cache-First-Strategie
+// Anstatt einer allgemeinen Strategie für alle Ressourcen,
+// unterscheide zwischen Typen von Anfragen
 self.addEventListener('fetch', event => {
-    event.respondWith(
-        caches.match(event.request)
-            .then(response => {
-                // Cache-Hit - return response
-                if (response) {
+    // URLs, die regelmäßig aktualisierte Daten enthalten
+    const dataUrls = [
+        // Füge hier deine Daten-URLs hinzu, z.B.:
+        '/data/',
+        '/api/',
+        // Wichtige Datenbank-Dateien oder dynamische Inhalte
+        'Direktorium.ts',
+        'Deceased.ts',
+        // Die Startseite selbst, da sie dynamischen Inhalt enthält
+        '/index.html',
+        '/'
+    ];
+
+    // Prüfe, ob es sich um eine Anfrage für regelmäßig aktualisierte Daten handelt
+    const isDataRequest = dataUrls.some(url =>
+        event.request.url.includes(url));
+
+    if (isDataRequest) {
+        // Network-First für Daten
+        event.respondWith(
+            fetch(event.request)
+                .then(response => {
+                    // Cache aktualisieren mit der neuen Antwort
+                    const responseToCache = response.clone();
+                    caches.open(CACHE_NAME)
+                        .then(cache => {
+                            cache.put(event.request, responseToCache);
+                        });
                     return response;
-                }
-
-                // Wichtig: immer eine Kopie der Anfrage verwenden
-                return fetch(event.request).then(
-                    response => {
-                        // Prüfe, ob wir eine gültige Antwort erhalten haben
-                        if (!response || response.status !== 200 || response.type !== 'basic') {
-                            return response;
-                        }
-
-                        // Wichtig: Kopiere die Antwort, da sie nur einmal verwendet werden kann
-                        const responseToCache = response.clone();
-
-                        caches.open(CACHE_NAME)
-                            .then(cache => {
-                                cache.put(event.request, responseToCache);
-                            });
-
+                })
+                .catch(error => {
+                    console.log('Offline-Modus, versuche Cache für:', event.request.url);
+                    // Bei Netzwerkfehler aus Cache liefern
+                    return caches.match(event.request);
+                })
+        );
+    } else {
+        // Cache-First für statische Ressourcen (dein aktueller Code)
+        event.respondWith(
+            caches.match(event.request)
+                .then(response => {
+                    if (response) {
                         return response;
                     }
-                );
-            })
-    );
+                    return fetch(event.request).then(
+                        response => {
+                            if (!response || response.status !== 200 || response.type !== 'basic') {
+                                return response;
+                            }
+                            const responseToCache = response.clone();
+                            caches.open(CACHE_NAME)
+                                .then(cache => {
+                                    cache.put(event.request, responseToCache);
+                                });
+                            return response;
+                        }
+                    );
+                })
+        );
+    }
 });
 
 self.addEventListener('activate', event => {

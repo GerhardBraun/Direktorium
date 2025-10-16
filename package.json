@@ -30,6 +30,8 @@
     "predeploy": "set \"DISABLE_ESLINT_PLUGIN=true\" && git push && npm run build",
     "deploy": "gh-pages -d build && gh workflow run pages-build-deployment.yml",
     "start": "react-scripts start",
+    "update-version": "node update-version.js",
+    "prebuild": "npm run update-version",
     "build": "set \"DISABLE_ESLINT_PLUGIN=true\" && react-scripts build",
     "test": "react-scripts test",
     "analyze": "source-map-explorer 'build/static/js/*.js'",
