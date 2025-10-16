@@ -106,7 +106,6 @@ const SectionHeader = ({
     };
 
     const handleLongPress = (e) => {
-        console.log('Langer Touch: ', e.type);
         e.preventDefault();
         e.stopPropagation();
         setLocalPrefLatin(false);
@@ -114,7 +113,6 @@ const SectionHeader = ({
     };
 
     const handlePressStart = (e) => {
-        console.log('Start: ', e.type);
         let triggered = false;
         const timer = setTimeout(() => {
             triggered = true;
@@ -125,7 +123,6 @@ const SectionHeader = ({
     };
 
     const handlePressEnd = (e) => {
-        console.log('End: ', e.type);
         e.preventDefault();
         if (pressTimer) {
             clearTimeout(pressTimer.timer);

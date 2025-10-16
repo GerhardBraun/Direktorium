@@ -214,6 +214,8 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
     hour = '', texts = {},
     prefSrc = '', widthForHymns = false) => {
     if (!provText || provText === 'LEER' || provText === 'LEER_lat' || provText === '_lat') return null;
+
+    if (!provText || provText === 'LEER' || provText === 'LEER_lat' || provText === '_lat') return null;
     const { season, isCommemoration, swdCombined = '' } = texts;
     const { nominativ, genitiv, vokativ, genitiv_lat, vokativ_lat } = texts?.laudes?.[prefSrc] || {};
 

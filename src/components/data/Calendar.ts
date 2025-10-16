@@ -11399,7 +11399,7 @@ export const calendarData: CalendarData = {
             "resp3_lat": "Multi hómines misericórdes vocántur; virum autem fidélem quis invéniet?"
           },
           "Laudes": {
-            "referenz": "AAA-6-5-eig",
+            "referenz": "AAA-6-5-oblig",
             "button": "Hl. Bonifatius",
             "hymn_1": 8605.2,
             "hymn_2": 8605.6,
@@ -12012,7 +12012,7 @@ export const calendarData: CalendarData = {
             "versikel1_lat": "Magis quam habitáre in tabernáculis peccatórum."
           },
           "Laudes": {
-            "referenz": "AAA-11-19-eig",
+            "referenz": "AAA-11-19-oblig",
             "button": "Hl. Elisabeth",
             "nominativ": "Die heilige Elisabeth",
             "genitiv": "der heiligen Elisabeth",

@@ -2,7 +2,7 @@
   "name": "direktorium",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gerhardbraun.github.io/Direktorium",
+  "homepage": "https://gerhardbraun.github.io/Direktorium/",
   "type": "module",
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.3",

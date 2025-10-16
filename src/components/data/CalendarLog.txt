@@ -1,17 +1,10 @@
-Calendar Data Processing Log - 2025-10-15 04:45:05.362507
+Calendar Data Processing Log - 2025-10-15 12:42:05.604580
 ============================================================
 
 Keine Überschneidungen gefunden.
 
 === REFERENZ-VALIDIERUNG ===
 Gefundene Referenzen: 6
-
-❌ UNGÜLTIGE REFERENZEN: 2
-  Fulda-6-5-oblig (Laudes)
-    → Referenz: AAA-6-5-eig
-    → Problem: Referenzierte Quelle existiert nicht
-  Fulda-11-19-oblig (Laudes)
-    → Referenz: AAA-11-19-eig
-    → Problem: Referenzierte Quelle existiert nicht
+✓ Alle Referenzen sind gültig und geprüft
 
 Calendar-Daten erfolgreich sortiert: Regionalkalender plus 47 Diözesen

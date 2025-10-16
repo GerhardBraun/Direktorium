@@ -5,17 +5,17 @@
     {
       "src": "favicon-24x24.ico",
       "sizes": "24x24",
-      "type": "image/png"
+      "type": "image/x-icon"
     },
     {
       "src": "favicon-64x64.ico",
       "sizes": "64x64",
-      "type": "image/png"
+      "type": "image/x-icon"
     },
     {
       "src": "favicon-48x48.ico",
       "sizes": "48x48",
-      "type": "image/png"
+      "type": "image/x-icon"
     },
     {
       "src": "favicon-16x16.png",
@@ -38,7 +38,8 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "./index.html",
+  "scope": "/Direktorium/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff",
