@@ -667,7 +667,7 @@ const PersonalSettings = () => {
                         fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif',
                     }}>
                     <p>
-                        Mit der letzten Spalte kann die Wochensordnung nach dem Benediktinischen&nbsp;Antiphonale gewählt werden.
+                        Mit der letzten Spalte kann die Wochenordnung nach dem Benediktinischen&nbsp;Antiphonale gewählt werden.
                     </p>
                 </div>
 

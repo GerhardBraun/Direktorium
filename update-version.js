@@ -37,56 +37,51 @@ async function main() {
             versionInfo = JSON.parse(fs.readFileSync(versionFilePath, 'utf8'));
         }
 
-        if (!isUpgradeMode) {
-            // NORMALER MODUS: Versionsabfrage
+        // Aktuelle Werte anzeigen
+        console.log("\n=== Aktuelle Versionsinformationen ===");
+        console.log(`App-Version: ${versionInfo.appVersion}`);
+        console.log(`Daten-Version: ${versionInfo.dataVersion}`);
+        console.log(`Update-Hinweise: ${versionInfo.updateNotes}`);
+        console.log("=====================================\n");
 
-            // Aktuelle Werte anzeigen
-            console.log("\n=== Aktuelle Versionsinformationen ===");
-            console.log(`App-Version: ${versionInfo.appVersion}`);
-            console.log(`Daten-Version: ${versionInfo.dataVersion}`);
-            console.log(`Update-Hinweise: ${versionInfo.updateNotes}`);
-            console.log("=====================================\n");
+        // Abfrage nach App-Version-Änderung
 
-            // Abfrage nach App-Version-Änderung
-            const changeVersion = await question("App-Version ändern? (j/n): ");
+        const newVersion = await question(`aktuelle App-Version: ${versionInfo.appVersion}\nNeue App-Version (0 für keine Änderung): `);
+        if (newVersion.trim()) {
+            versionInfo.appVersion = newVersion.trim();
 
-            if (changeVersion.toLowerCase() === 'j') {
-                const newVersion = await question(`Neue App-Version (aktuell ${versionInfo.appVersion}): `);
-                if (newVersion.trim()) {
-                    versionInfo.appVersion = newVersion.trim();
-
-                    // Neue Update-Hinweise abfragen
-                    const newNotes = await question("Neue Update-Hinweise: ");
-                    if (newNotes.trim()) {
-                        versionInfo.updateNotes = newNotes.trim();
-                    }
-                }
+            // Neue Update-Hinweise abfragen
+            const newNotes = await question("Neue Update-Hinweise: ");
+            if (newNotes.trim()) {
+                versionInfo.updateNotes = newNotes.trim();
             }
+        }
 
-            // Datenzeitstempel aktualisieren
-            const now = new Date();
-            versionInfo.dataVersion = `${now.getFullYear()}.${(now.getMonth() + 1).toString().padStart(2, '0')}.${now.getDate().toString().padStart(2, '0')}_${now.getHours().toString().padStart(2, '0')}-${now.getMinutes().toString().padStart(2, '0')}`;
+        // Datenzeitstempel aktualisieren
+        const now = new Date();
+        versionInfo.dataVersion = `${now.getFullYear()}.${(now.getMonth() + 1).toString().padStart(2, '0')}.${now.getDate().toString().padStart(2, '0')}_${now.getHours().toString().padStart(2, '0')}-${now.getMinutes().toString().padStart(2, '0')}`;
 
-            // Datei schreiben
-            fs.writeFileSync(versionFilePath, JSON.stringify(versionInfo, null, 2));
-            console.log(`\nVersion aktualisiert: App ${versionInfo.appVersion}, Daten ${versionInfo.dataVersion}`);
+        // Datei schreiben
+        fs.writeFileSync(versionFilePath, JSON.stringify(versionInfo, null, 2));
+        console.log(`\nVersion aktualisiert: App ${versionInfo.appVersion}, Daten ${versionInfo.dataVersion}`);
 
+        console.log("\nFühre build aus...");
+        execSync("npm run build", { stdio: 'inherit' });
+
+        // UPGRADE-MODUS: Nur Datenbankabfrage
+        console.log("\n=== Aktuelle Versionsinformationen ===");
+        console.log(`App-Version: ${versionInfo.appVersion}`);
+        console.log(`Daten-Version: ${versionInfo.dataVersion}`);
+        console.log("=====================================\n");
+
+        const updateDatabases = await question("Datenbanken aktualisieren? (j/n): ");
+
+        if (updateDatabases.toLowerCase() === 'j') {
+            console.log("\nFühre brevier-update aus...");
+            execSync("npm run brevier-update", { stdio: 'inherit' });
         } else {
-            // UPGRADE-MODUS: Nur Datenbankabfrage
-            console.log("\n=== Aktuelle Versionsinformationen ===");
-            console.log(`App-Version: ${versionInfo.appVersion}`);
-            console.log(`Daten-Version: ${versionInfo.dataVersion}`);
-            console.log("=====================================\n");
-
-            const updateDatabases = await question("Datenbanken aktualisieren? (j/n): ");
-
-            if (updateDatabases.toLowerCase() === 'j') {
-                console.log("\nFühre brevier-update aus...");
-                execSync("npm run brevier-update", { stdio: 'inherit' });
-            } else {
-                console.log("\nFühre einfaches update aus...");
-                execSync("npm run update", { stdio: 'inherit' });
-            }
+            console.log("\nFühre einfaches update aus...");
+            execSync("npm run update", { stdio: 'inherit' });
         }
     } catch (error) {
         console.error("Fehler:", error);
