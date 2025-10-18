@@ -19,9 +19,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "dli": "python C:/AppProjekte/excel-liturgical-converter/dli-converter.py --text",
-    "extract": "python C:/AppProjekte/excel-liturgical-converter/dli-extractor.py",
-    "footnotes": "python C:/AppProjekte/excel-liturgical-converter/dli-footnotes.py",
+    "dli": "python C:/AppProjekte/excel-liturgical-converter/dli-converter.py",
     "converter": "python C:/AppProjekte/excel-liturgical-converter/converter.py",
     "brevier": "python C:/AppProjekte/excel-liturgical-converter/converter.py -m 1",
     "deceased": "python C:/AppProjekte/excel-liturgical-converter/converter.py -m 2",
