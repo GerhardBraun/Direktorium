@@ -1201,7 +1201,6 @@ const PrayerMenu = ({
 
       {/* Mass - ausgeblendet */}
       {viewMode === "ausblenden" && (<>
-
         <button
           onClick={() => onSelectHour("mass")}
           className="w-full p-3 mb-6 text-center rounded-lg bg-gray-100 dark:bg-gray-800
@@ -1213,27 +1212,28 @@ const PrayerMenu = ({
       </>)}
 
       {/* View Selection with spacing */}
-      <div className="pt-4 border-t dark:border-gray-700">
-        <div className="flex gap-2">
-          <button
-            onClick={() => setViewMode("directory")}
-            className="flex-1 p-3 text-center rounded-lg bg-gray-100 dark:bg-gray-800
+      {localStorage.getItem('diocese') === 'Fulda' && (
+        <div className="pt-4 border-t dark:border-gray-700">
+          <div className="flex gap-2">
+            <button
+              onClick={() => setViewMode("directory")}
+              className="flex-1 p-3 text-center rounded-lg bg-gray-100 dark:bg-gray-800
                                 hover:bg-gray-200 dark:hover:bg-gray-700
                                 text-gray-900 dark:text-gray-100"
-          >
-            Direktorium
-          </button>
-          <button
-            onClick={() => setViewMode("deceased")}
-            className="flex-1 p-3 text-center rounded-lg bg-gray-100 dark:bg-gray-800
+            >
+              Direktorium
+            </button>
+            <button
+              onClick={() => setViewMode("deceased")}
+              className="flex-1 p-3 text-center rounded-lg bg-gray-100 dark:bg-gray-800
                                 hover:bg-gray-200 dark:hover:bg-gray-700
                                 text-gray-900 dark:text-gray-100"
-          >
-            Totenverzeichnis
-          </button>
+            >
+              Totenverzeichnis
+            </button>
+          </div>
         </div>
-      </div>
-
+      )}
       {/* Nachrichten an die Nutzer */}
       <UserMessageDisplay />
     </div>
@@ -1923,6 +1923,7 @@ const ScrollableContainer = ({ children, containerRef }) => {
 };
 
 export default function LiturgicalCalendar() {
+  setLocalStorage('unlockBenedictine', 'unlocked'); // Always unlock Benedictine option
   const wakeLock = useWakeLock();
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [showDatePicker, setShowDatePicker] = useState(false);
@@ -1966,12 +1967,14 @@ export default function LiturgicalCalendar() {
   const startViewMode = localStorage.getItem("startViewMode") || "directory";
   const lastVisit = () => localStorage.getItem("lastVisit") || null;
   const todayVisit = () => new Date().toISOString().split("T")[0]; // Format YYYY-MM-DD
-  const [viewMode, setViewMode] = useState(() =>
-    startViewMode === "directory" ||
+  const [viewMode, setViewMode] = useState(() => {
+    if (localStorage.getItem('diocese') !== 'Fulda')
+      return 'prayer'
+    else return startViewMode === "directory" ||
       (startViewMode === "auto" && todayVisit() !== lastVisit())
       ? "directory"
       : "prayer"
-  ); // 'directory', 'deceased', 'prayer', 'prayerText', 'settings'
+  }); // 'directory', 'deceased', 'prayer', 'prayerText', 'settings'
 
   const formatDate = useCallback(
     (date, forDisplay = false) => {
@@ -2456,7 +2459,7 @@ export default function LiturgicalCalendar() {
     const [isLongPressing, setIsLongPressing] = useState(false);
     const sections = ["fontSize", "theme", "language", "footnotes", "deceased", "view"];
     const storedPrefLanguage = localStorage.getItem("prefLanguage") || "";
-    const storedPrefFootnotes = localStorage.getItem("prefFootnotes") === "true";
+    const unlockBenedictine = localStorage.getItem("unlockBenedictine") === "unlocked" ? true : false;
 
     const toggleMenu = () => {
       setIsMenuOpen((prev) => !prev);
@@ -2496,41 +2499,6 @@ export default function LiturgicalCalendar() {
         setTempFontSize(newSize);
         setBaseFontSize(newSize);
       }
-    };
-
-    const handleThemeChange = (isRight) => {
-      setTheme((prev) => {
-        const newTheme = prev === "light" ? "dark" : "light";
-        return newTheme;
-      });
-    };
-
-    const handleLanguageChange = (isRight) => {
-      // Zykluswechsel zwischen "", "_lat" und "_neu"
-      setLocalPrefLanguage(prev => {
-        if (isRight) {
-          if (prev === "") return "_lat";
-          if (prev === "_lat") return "_neu";
-          return "";
-        } else {
-          if (prev === "") return "_neu";
-          if (prev === "_neu") return "_lat";
-          return "";
-        }
-      });
-    };
-
-    const handleFootnotesChange = (isRight) => {
-      setPrefFootnotes((prev) => !prev);
-    };
-
-    const handleDeceasedModeChange = (isRight) => {
-      setDeceasedMode((prev) => {
-        const newMode = prev === "recent" ? "all" : "recent";
-        setLocalStorage("deceasedMode", newMode);
-        return newMode;
-      });
-      setExpandedDeceased({});
     };
 
     // Modified click outside handler
@@ -2726,13 +2694,13 @@ export default function LiturgicalCalendar() {
               <div className="mb-2 text-xs text-gray-500 dark:text-gray-400">
                 {renderDescriptionItem("Stundenbuch:", "Einheitsübersetzung von 1983", false)}
                 {renderDescriptionItem("lat.:", "Nova Vulgata")}
-                {renderDescriptionItem("Ben:", "Benediktinisches Antiphonale / Münsterschwarzacher Psalter")}
+                {unlockBenedictine && renderDescriptionItem("Ben:", "Benediktinisches Antiphonale / Münsterschwarzacher Psalter")}
                 {renderDescriptionItem("neu:", "Einheitsübersetzung von 2016")}
               </div>
-              <div className="grid grid-cols-5 gap-0">
+              <div className={`grid ${unlockBenedictine ? 'grid-cols-5' : 'grid-cols-4'} gap-0`}>
                 {LanguageButton("", "Stundenbuch", "col-span-2")}
                 {LanguageButton("_lat", "lat.")}
-                {LanguageButton("_ben", "Ben")}
+                {unlockBenedictine && LanguageButton("_ben", "Ben")}
                 {LanguageButton("_neu", "neu")}
               </div>
               <div className="mt-2 text-xs text-gray-500 dark:text-gray-400">
@@ -2789,7 +2757,7 @@ export default function LiturgicalCalendar() {
             <div className="border-t dark:border-gray-700"></div>
 
             {/* Deceased Section */}
-            <div
+            {localStorage.getItem('diocese') === 'Fulda' && (<div
               className={`px-3 py-2 cursor-pointer ${activeSection === "deceased"
                 ? "bg-gray-100 dark:bg-gray-600"
                 : ""
@@ -2846,11 +2814,11 @@ export default function LiturgicalCalendar() {
                 </button>
               </div>
             </div>
-
+            )}
             <div className="border-t dark:border-gray-700"></div>
 
             {/* View Selection Section */}
-            <div
+            {localStorage.getItem('diocese') === 'Fulda' && (<div
               className={`px-3 py-2 cursor-pointer ${activeSection === "view" ? "bg-gray-100 dark:bg-gray-600" : ""
                 }`}
               onClick={() => handleSectionChange(sections.indexOf("view"))}
@@ -2889,7 +2857,7 @@ export default function LiturgicalCalendar() {
                 </button>
               </div>
             </div>
-
+            )}
             <div className="px-3 py-2 text-sm mb-0">
               <div className="font-semibold text-gray-500 dark:text-gray-400">
                 Kontakt

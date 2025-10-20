@@ -162,7 +162,6 @@ export const calendarData: CalendarData = {
             "resp1": "Gesegnet bist du, Jungfrau Maria; denn du hast den Herrn getragen, den Schöpfer der Welt,",
             "resp2": "du hast den geboren, der dich erschaffen hat, und bleibst Jungfrau für immer,",
             "resp3": "Sei gegrüßt, Maria, du Begnadete, der Herr ist mit dir.",
-            "patr_autor": "^A:Jan1:Athanasius († 373)",
             "patr_werk": "Aus dem Brief an Epiktet.",
             "patr_text": "^hDem ganzen Menschen ist Heil widerfahren^pDer Apostel sagt, das Wort habe sich der Nachkommenschaft Abrahams angenommen. Es musste darum in allem seinen Brüdern gleich sein {1#vgl.°Hebr°2,16–17} und einen uns ähnlichen Leib annehmen. Eben dafür war Maria erwählt: Von ihr sollte er ihn nehmen und als seinen eigenen für uns opfern.^pDie Schrift erwähnt die Geburt und sagt: „Sie wickelte ihn in Windeln“{2#vgl.°Lk 2,7}; die Brust, die ihn stillte, wird seliggepriesen{3#vgl.°Lk 11,27}, weil er der Erstgeborene war{4#vgl.°Lk 2,7}, wird für ihn das Opfer dargebracht. Gabriel übermittelte ihr zurückhaltend die Botschaft{5#vgl.°Lk 1,14}. Er sagte nicht einfach: „Was in dir wird“, damit man nicht meint, der Leib werde von außen in sie hineingebracht. Er sagt vielmehr: „aus dir“; denn dies sollte der Glaube sein: „Was da gezeugt wird, hat seinen Ursprung^w aus ^0wihr.“^pDas war die Absicht: Das Wort nahm das Unsrige an und brachte es als Opfer dar und nahm es damit gänzlich hinweg. Als er uns dann mit dem Seinigen bekleidete, konnte der Apostel schreiben: „Dieses Vergängliche muss sich mit Unvergänglichkeit bekleiden und dieses Sterbliche mit Unsterblichkeit.“{6#vgl.°1 Kor 15,53}^pDas ist keine erdichtete Annahme, wie einige gemeint haben. Keineswegs! Als vielmehr der Erlöser wahrhaft Mensch wurde, erlangte der ganze Mensch das Heil. Unser Heil ist wahrhaft keine erdichtete Sache, und es geht nicht bloß den Leib, sondern den ganzen Menschen an: Leib und Seele ist im Wort Heil widerfahren.^pWas aus Maria gemäß der Schrift hervorging, war seinem Wesen nach ein wirklicher Mensch, und es war der wahre Leib des Herrn. Wirklich: ein wahrer Leib war es, weil er dem unsern gleich war. Denn Maria ist unsere Schwester, weil wir alle von Adam abstammen.^pWenn es bei Johannes heißt: „Das Wort ist Fleisch geworden“{7#Joh 1,14}, so ist damit dasselbe gemeint, wie wenn Paulus sagt: „Christus hat für uns den Fluch auf sich genommen.“{8#vgl.°Gal 3,13} Dem menschlichen Leib ist aus der Gemeinschaft mit dem Wort größerer Reichtum zugewachsen: denn aus dem sterblichen Leib wurde ein unsterblicher; er war ein irdischer Leib und wurde ein überirdischer{9#vgl.°1 Kor 15,44}; er war aus Erde gemacht und durfte dennoch das Tor des Himmels durchschreiten. Die Dreieinigkeit blieb immer Dreieinigkeit, auch nachdem das Wort aus Maria Fleisch angenommen hat, und sie erfuhr weder Zuwachs noch Minderung; sie ist vielmehr immer vollendet, und in der Dreieinigkeit wird der eine Gott erkannt. So wird von der Kirche verkündet: ein Gott, der Vater des Wortes!",
             "patr_resp1": "Heilige und unbefleckte Jungfrau, ich weiß nicht, mit welchem Lob ich dich preisen soll;",
@@ -4791,7 +4790,7 @@ export const calendarData: CalendarData = {
         }
       },
       "27": {
-        "n2": {
+        "n1": {
           "major": {
             "comm_1": "Frau",
             "oration": "Barmherziger Gott, du lenkst unsere Wege. In schwerer Zeit hat die heilige Hemma (als Landesmutter von Kärnten) für die Bedrückten und Armen gesorgt. Gib auch uns die Kraft, in der Not nicht zu verzweifeln, sondern auf dich zu schauen und Gutes zu tun.^ORV",
@@ -4811,7 +4810,7 @@ export const calendarData: CalendarData = {
             "genitiv_lat": "sancti Emmæ"
           }
         },
-        "n3": {
+        "n2": {
           "major": {
             "comm_1": "Hirten",
             "comm_2": "Hirten_Kl",
@@ -5322,7 +5321,7 @@ export const calendarData: CalendarData = {
         }
       },
       "7": {
-        "n2": {
+        "n1": {
           "major": {
             "comm_1": "Hirten",
             "oration": "Allmächtiger Gott, aus Liebe zu deinem Sohn hat der heilige Willibald die Stätten des Lebens Christi aufgesucht und als Glaubensbote unserem Volk das Evangelium verkündet. Hilf uns, im Licht deiner Wahrheit zu leben und treu zu bleiben im Glauben an Jesus Christus, deinen Sohn, unseren Herrn und Gott,^ORR",
@@ -6412,7 +6411,7 @@ export const calendarData: CalendarData = {
         }
       },
       "12": {
-        "n2": {
+        "n1": {
           "major": {
             "comm_1": "Frau_Ord",
             "oration": "Gott, du hast die heilige Johanna Franziska auf den verschiedenen Wegen ihres Lebens zu großen Taten befähigt. Höre auf ihre Fürsprache. Hilf jedem von uns, seine Berufung zu erkennen und deinen Auftrag zu erfüllen, damit wir Zeugen deines Lichtes werden.^ORV",
@@ -6434,7 +6433,7 @@ export const calendarData: CalendarData = {
         }
       },
       "13": {
-        "n2": {
+        "n1": {
           "major": {
             "comm_1": "MärtPl",
             "comm_2": "Hirten",
@@ -6662,7 +6661,7 @@ export const calendarData: CalendarData = {
         }
       },
       "16": {
-        "n2": {
+        "n1": {
           "major": {
             "comm_1": "Mann",
             "oration": "Allmächtiger Gott, du hast den heiligen König Stephan berufen, das ungarische Volk zum christlichen Glauben zu führen. Lass uns erfahren, dass er seinem Volk und uns allen vom Himmel her ein mächtiger Helfer ist.^ORV",
@@ -8518,7 +8517,7 @@ export const calendarData: CalendarData = {
         }
       },
       "16": {
-        "n2": {
+        "n1": {
           "major": {
             "comm_1": "Jgfr",
             "comm_2": "Frau_Ord",
@@ -8540,7 +8539,7 @@ export const calendarData: CalendarData = {
             "genitiv_lat": "sanctæ Margarítæ Maríæ"
           }
         },
-        "n3": {
+        "n2": {
           "major": {
             "comm_1": "Frau_Liebe",
             "oration": "Allmächtiger Gott, du hast die heilige Herzogin Hedwig zu einer Botin des Friedens gemacht und ihr die Gnade geschenkt, inmitten weltlicher Aufgaben ein Beispiel barmherziger Liebe zu geben. Hilf auf ihre Fürsprache auch uns, für Versöhnung und Frieden unter den Menschen zu wirken und dir in den Notleidenden zu dienen.^ORV",
@@ -8564,7 +8563,7 @@ export const calendarData: CalendarData = {
             "antev": "Hedwig, du große Frau, im Himmelreich gekrönt, vergiss der Heimatlosen nicht in diesem Tal der Tränen."
           }
         },
-        "n4": {
+        "n3": {
           "major": {
             "comm_1": "Mann",
             "comm_2": "Mann_Ord",
@@ -9259,10 +9258,10 @@ export const calendarData: CalendarData = {
             "oration": "Gütiger Gott, du hast den seligen Priester Rupert zu einem standhaften Bekenner des Glaubens und selbstlosen Helfer der Armen gemacht. Erwecke auf seine Fürsprache der Kirche neue, vorbildliche Verkünder des Glaubens und schenke uns allen ein offenes Herz für die Nöte der Menschen.^ORV"
           },
           "Laudes": {
-            "button": "Hl. Rupert Mayer",
-            "nominativ": "Der heilige Rupert Mayer",
-            "genitiv": "des heiligen Rupert Mayer",
-            "genitiv_lat": "sancti Rupérti"
+            "button": "Sel. Rupert Mayer",
+            "nominativ": "Der selige Rupert Mayer",
+            "genitiv": "des seligen Rupert Mayer",
+            "genitiv_lat": "beáti Rupérti"
           }
         }
       },
@@ -10178,7 +10177,7 @@ export const calendarData: CalendarData = {
         }
       },
       "9": {
-        "n2": {
+        "n1": {
           "major": {
             "comm_1": "Mann",
             "oration": "Gott, du hast durch den heiligen Johannes Didacus die Liebe der heiligen Jungfrau Maria zu deinem Volk offenbar gemacht. Auf seine Fürsprache gewähre uns, dass wir den Weisungen unserer Mutter folgen, die sie in Guadalupe gegeben hat, und dass wir stets fähig sind, deinen Willen zu erfüllen.^ORV",
@@ -10453,13 +10452,11 @@ export const calendarData: CalendarData = {
             "ant3": "Du bist der Schönste von allen Menschen: für immer hat Gott dich gesegnet.",
             "versikel0": "Das Wort ist Fleisch geworden.^ö",
             "versikel1": "Und hat unter uns gewohnt.^ö",
-            "les_buch": "^A:Dez25:Aus dem Buch Jesaja.",
             "les_stelle": "11,1–9",
             "les_text": "^hAnkündigung des messianischen Reiches^pAus dem Baumstumpf Isais wächst ein Reis hervor, ein junger Trieb aus seinen Wurzeln bringt Frucht. Der Geist des Herrn lässt sich nieder auf ihm: der Geist der Weisheit und der Einsicht, der Geist des Rates und der Stärke, der Geist der Erkenntnis und der Gottesfurcht. Er richtet nicht nach dem Augenschein, und nicht nur nach dem Hörensagen entscheidet er, sondern er richtet die Hilflosen gerecht und entscheidet für die Armen des Landes, wie es recht ist. Er schlägt die Gewalttätigen mit dem Stock seines Wortes und tötet den Schuldigen mit dem Hauch seines Mundes. Gerechtigkeit ist der Gürtel um seine Hüften, Treue der Gürtel um seinen Leib.^pDann wohnt der Wolf beim Lamm, der Panther liegt beim Böcklein. Kalb und Löwe weiden zusammen, ein kleiner Knabe kann sie hüten. Kuh und Bärin freunden sich an, ihre Jungen liegen beieinander. Der Löwe frisst Stroh wie das Rind. Der Säugling spielt vor dem Schlupfloch der Natter, das Kind streckt seine Hand in die Höhle der Schlange. Man tut nichts Böses mehr und begeht kein Verbrechen auf meinem ganzen heiligen Berg; denn das Land ist erfüllt von der Erkenntnis des Herrn, so wie das Meer mit Wasser gefüllt ist. An jenem Tag wird es der Spross aus der Wurzel Isais sein, der dasteht als Zeichen für die Nationen; die Völker suchen ihn auf; sein Wohnsitz ist prächtig.",
             "resp1": "Heute wurde der König des Himmels von der Jungfrau geboren^SLICE, um den Menschen, der verloren war, zum Himmelreich zurückzurufen.",
             "resp2": "Das Heer der Engel freut sich, weil dem Menschengeschlecht das ewige Heil erschienen ist.",
             "resp3": "Ehre sei Gott in der Höhe und auf Erden Friede den Menschen seiner Gnade.",
-            "patr_autor": "^A:Dez25:Leo der Große (†°461)",
             "patr_werk": "Aus einer Weihnachtspredigt.",
             "patr_text": "^hChrist, erkenne deine Würde!^pLasst uns froh sein: Heute ist unser Retter geboren, Traurigkeit hat keinen Raum am Geburtstag des Lebens, das uns die Angst vor dem Sterben genommen hat und uns die Freude über die verheißene Ewigkeit bringt.^pNiemand wird von der Fröhlichkeit ausgeschlossen, alle haben den einen Grund zur Freude gemeinsam: Denn unser Herr, der Sünde und Tod vernichtet hat, fand keinen, der von Schuld frei war. Deshalb kam er, um alle zu befreien. Der Heilige juble, weil ihm die Siegespalme winkt. Der Sünder freue sich, weil er zur Versöhnung eingeladen ist. Der Heide atme auf; denn er ist zum Leben gerufen.^pDie Fülle der Zeit ist gekommen, die Gottes unerforschlicher Ratschluss festgesetzt hat: Der Sohn Gottes hat die Natur des Menschengeschlechts angenommen, um sie mit ihrem Schöpfer zu versöhnen und den Urheber des Todes, den Teufel, durch eben jene Natur zu besiegen, durch die er einst selbst gesiegt hat.^pDie jubelnden Engel singen bei der Geburt des Herrn: „Ehre sei Gott in der Höhe!“, und auf Erden wird den Menschen seiner Gnade Friede verkündet {1#vgl.°Lk 2,14}. Denn die Engel sehen, wie aus allen Völkern der Erde das himmlische Jerusalem erbaut wird. Wie sehr muss sich der geringe Mensch über dieses Werk der unsagbaren Güte Gottes freuen, wenn schon die erhabenen Engel vor Freude jubeln.^pLasst also Gott dem Vater danken durch seinen Sohn im Heiligen Geist, dass er uns in seiner übergroßen Huld geliebt und sich unser erbarmt hat; wir waren durch unsere Sünden tot, aber er hat uns zusammen mit Christus wieder lebendig gemacht {2#vgl.°Eph 2,5}, um uns in ihm zu einer neuen Schöpfung {3#vgl.°2Kor 5,17}, zu einem neuen Menschen umzumachen. Lasst uns also den alten Menschen mit seinen Werken ablegen {4#vgl.°2°Petr°1,4}, und da wir an der Geburt Christi teilhaben, lasst uns den Werken des Fleisches entsagen.^pChrist, erkenne deine Würde! Du bist der göttlichen Natur teilhaftig geworden {5#vgl.°Kol 1,13}, kehre nicht zu der alten Erbärmlichkeit zurück und lebe nicht unter deiner Würde. Denk an das Haupt und den Leib, dem du als Glied angehörst! Bedenke, dass du der Macht der Finsternis entrissen und in das Licht und das Reich Gottes aufgenommen bist {6#vgl.°2 Petr 1,4}. Durch das Sakrament der Taufe wurdest du ein Tempel des Heiligen Geistes. Verjage nicht durch deine Sünden den hohen Gast, der in dir Wohnung genommen hat. Unterwirf dich nicht wieder der Knechtschaft Satans; denn der Preis für deine Freiheit ist das Blut Christi.",
             "patr_resp1": "Heute ist der wahre Friede vom Himmel zur Erde herabgekommen^SLICE;",

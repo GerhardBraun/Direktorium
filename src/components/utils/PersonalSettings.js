@@ -58,7 +58,20 @@ const PersonalSettings = () => {
     const [popeNameAccInput, setPopeNameAccInput] = useState('');
     const [bishopNameAccInput, setBishopNameAccInput] = useState('');
 
-    // Invitatorium Psalmen
+    // Optionen zum Benediktinischen Antiphonale
+    const unlockBenedictine = localStorage.getItem('unlockBenedictine') === 'unlocked' ? true : false; // Immer freigeschaltet
+    let availablePairs = [
+        [['', '_lat'], 'Stb/lat.'],
+        [['_neu', '_lat'], 'neu/lat.'],
+        [['', '_neu'], 'Stb/neu'],
+    ]
+    if (unlockBenedictine) {
+        availablePairs = [
+            [['', '_lat'], 'Stb/lat.'],
+            [['_ben', '_lat'], 'Ben/lat.'],
+            [['_neu', '_lat'], 'neu/lat.']
+        ]
+    }
     const [useBenedictineOrder, setUseBenedictineOrder] = useState(false);
     const [individualSequence, setIndividualSequence] = useState(() => {
         const stored = JSON.parse(localStorage.getItem('sequenceInv'));
@@ -365,7 +378,7 @@ const PersonalSettings = () => {
     return (
         <div className="space-y-2 pt-2">
             {/* Start View Section */}
-            <div className="px-3 py-0">
+            {diocese === 'Fulda' && (<div className="px-3 py-0">
                 <div className="grid gap-2 items-center" style={{ gridTemplateColumns: '6rem 1fr 3rem 1fr' }}>
                     <div className="text-sm text-gray-500 dark:text-gray-400">
                         Startansicht
@@ -406,7 +419,7 @@ const PersonalSettings = () => {
                     </p>
                 </div>
             </div>
-
+            )}
             {/* Language Selection Section */}
             <div className="px-3">
                 <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
@@ -457,11 +470,7 @@ const PersonalSettings = () => {
                                     </div>
 
                                     <div className="border-r dark:border-gray-600">
-                                        {[
-                                            [['', '_lat'], 'Stb/lat.'],
-                                            [['_ben', '_lat'], 'Ben/lat.'],
-                                            [['_neu', '_lat'], 'neu/lat.']
-                                        ].map(([langPair, label]) => {
+                                        {availablePairs.map(([langPair, label]) => {
                                             const isSelected = (languages[0] === langPair[0] && languages[1] === langPair[1]) ||
                                                 (languages[0] === langPair[1] && languages[1] === langPair[0]);
                                             return (
@@ -481,7 +490,7 @@ const PersonalSettings = () => {
                                         })}
                                     </div>
 
-                                    <div>
+                                    {unlockBenedictine && (<div>
                                         {[
                                             [['', '_ben'], 'Stb/Ben'],
                                             [['', '_neu'], 'Stb/neu'],
@@ -505,7 +514,7 @@ const PersonalSettings = () => {
                                             );
                                         })}
                                     </div>
-                                </div>
+                                    )}                                </div>
                             </div>
                         )}
                     </div>
