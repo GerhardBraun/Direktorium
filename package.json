@@ -20,6 +20,9 @@
   },
   "scripts": {
     "dli": "python C:/AppProjekte/excel-liturgical-converter/dli-converter.py",
+    "footnotes": "python C:/AppProjekte/excel-liturgical-converter/dli-footnotes.py",
+    "catalogue": "python C:/AppProjekte/excel-liturgical-converter/catalogue.py",
+    "references": "python C:/AppProjekte/excel-liturgical-converter/bible-references.py",
     "converter": "python C:/AppProjekte/excel-liturgical-converter/converter.py",
     "brevier": "python C:/AppProjekte/excel-liturgical-converter/converter.py -m 1",
     "deceased": "python C:/AppProjekte/excel-liturgical-converter/converter.py -m 2",

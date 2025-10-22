@@ -197,9 +197,11 @@ export const getValue = ({ season, hour, texts, field,
         ) return result(texts[hour]?.wt)
 
         //Sonderfall Bahnlesung
-        if (localPrefContinuous && hour === 'lesehore' &&
-            /^(les_|resp|patr_)/.test(field)
-        ) return result(texts[hour]?.wt)
+        if (localPrefContinuous && hour === 'lesehore') {
+            if (/^(patr_)/.test(field) ||
+                (/^(les_|resp)/.test(field) && !localPrefComm))
+                return result(texts[hour]?.wt)
+        }
 
         //Sonderfall Antiphonen: entweder ant0 oder ant1-3
         if (languageField === `ant0${localPrefLanguage}` &&

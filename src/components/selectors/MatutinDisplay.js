@@ -27,6 +27,7 @@ const MatutinDisplay = ({
                 onPrevDay={onPrevDay}
                 onNextDay={onNextDay}
                 swdWritten={'Ostersonntag'}
+                padding="pr-4"
             />
             <NavigationButtons
                 hour="lesehore"

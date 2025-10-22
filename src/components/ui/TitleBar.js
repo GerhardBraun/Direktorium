@@ -1,8 +1,8 @@
 import React from 'react';
 
-const TitleBar = ({ title, onPrevDay, onNextDay, swdWritten }) => {
+const TitleBar = ({ title, onPrevDay, onNextDay, swdWritten, padding = '' }) => {
     return (
-        <div className="flex items-center justify-between mb-2">
+        <div className={`${padding} flex items-center justify-between mb-2`}>
             <button
                 onClick={onPrevDay}
                 className="shrink-0 px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
@@ -15,7 +15,7 @@ const TitleBar = ({ title, onPrevDay, onNextDay, swdWritten }) => {
                     {title}
                 </h1>
                 {swdWritten && (
-                    <div className="pr-4 text-base text-gray-600 dark:text-gray-400">
+                    <div className={`text-base text-gray-600 dark:text-gray-400`}>
                         {swdWritten}
                     </div>
                 )}

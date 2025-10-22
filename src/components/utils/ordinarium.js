@@ -62,20 +62,12 @@ const ordinariumData = {
         }
     },
     'invitatorium': {
-        'dt': {
-            "closing": ["", ""]
-        },
-        'lat': {
-            "closing": ["", ""]
-        }
+        'dt': { "closing": ["", ""] },
+        'lat': { "closing": ["", ""] }
     },
     'TeDeum': {
-        'dt': {
-            "vu": "Dich, Gott, loben wir, dich,°Herr,°preisen°wir.^lDir, dem ewigen Vater, huldigt°das°Erdenrund.^lDir rufen die Engel alle,^ldir Himmel und Mächte insgesamt,^ldie Kerubim dir und die Serafim^lmit niemals endender Stimme zu:^lHeilig, heilig, heilig^lder Herr, der Gott der Scharen!^lVoll sind Himmel und Erde^lvon deiner hohen Herrlichkeit.^pDich preist der°glorreiche°Chor°der°Apostel;^ldich der Propheten lobwürdige Zahl;^ldich der Märtyrer leuchtendes Heer;^ldich preist über das Erdenrund^ldie heilige Kirche;^ldich, den Vater unermessbarer°Majestät;^ldeinen wahren und einzigen Sohn;^lund den Heiligen Fürsprecher Geist.^pDu König der Herrlichkeit, Christus.^lDu bist des Vaters allewiger Sohn.^lDu hast der Jungfrau Schoß nicht°verschmäht,^lbist Mensch geworden,^lden Menschen zu befreien.^lDu hast bezwungen des°Todes°Stachel^lund denen, die glauben,^ldie Reiche der Himmel aufgetan.^pDu sitzest zur Rechten Gottes^lin deines Vaters Herrlichkeit.^lAls Richter, so glauben wir,^lkehrst du einst wieder.^lDich bitten wir denn,^lkomm deinen Dienern zu Hilfe,^ldie du erlöst mit kostbarem Blut.^lIn der ewigen Herrlichkeit^lzähle uns deinen Heiligen zu.^p^(Rette dein Volk, o°Herr, und°segne°dein°Erbe;^lund führe sie und erhebe sie bis°in°Ewigkeit.^lAn jedem Tag benedeien wir dich^lund loben in Ewigkeit deinen Namen,^lja, in der ewigen Ewigkeit.^lIn Gnaden wollest du, Herr,^lan diesem Tag uns°ohne°Schuld°bewahren.^pErbarme dich unser, o°Herr, erbarme°dich°unser.^lLass über uns dein°Erbarmen°geschehn,^lwie wir gehofft auf dich.^lAuf dich, o°Herr,^lhabe ich meine Hoffnung gesetzt.^lIn Ewigkeit werde°ich°nicht°zuschanden.^)",
-        },
-        'lat': {
-            "vu": "Te Deum laudámus: * te°Dóminum°confitémur.^lTe ætérnum Patrem, * omnis°terra°venerátur.^lTibi omnes ángeli, * tibi°cæli°et°univérsæ°potestátes:^ltibi chérubim et séraphim * incessábili°voce°proclámant:^pSanctus, * Sanctus, * Sanctus * Dóminus°Deus°Sábaoth.^lPleni sunt cæli et terra * maiestátis°glóriæ°tuæ.^pTe gloriósus * Apostolórum°chorus,^lte prophetárum * laudábilis°númerus,^lte mártyrum candidátus * laudat°exércitus.^lTe per orbem terrárum * sancta°confitétur°Ecclésia,^lPatrem * imménsæ°maiestátis;^lvenerándum tuum verum * et°únicum°Fílium;^lSanctum quoque * Paráclitum°Spíritum.^pTu rex glóriæ, * Christe.^lTu Patris * sempitérnus°es°Fílius.^lTu, ad liberándum susceptúrus°hóminem, * non°horruísti°Vírginis°úterum.^lTu, devícto mortis acúleo, * aperuísti°credéntibus°regna°cælórum.^lTu ad déxteram Dei sedes, * in°glória°Patris.^lIudex créderis * esse°ventúrus.^lTe ergo quǽsumus, tuis°fámulis°súbveni,°* quos°pretióso°sánguine°redemísti.^lÆtérna fac cum sanctis tuis * in°glória°numerári.^p^(Salvum fac pópulum tuum, Dómine, * et°bénedic°hereditáti°tuæ.^lEt rege eos, * et°extólle°illos°usque°in°ætérnum.^lPer síngulos dies * benedícimus°te;^let laudámus nomen tuum in sǽculum, * et°in°sǽculum°sǽculi.^lDignáre, Dómine, die isto * sine°peccáto°nos°custodíre.^lMiserére nostri, Dómine, * miserére°nostri.^lFiat misericórdia tua, Dómine, super°nos,°* quemádmodum°sperávimus°in°te.^lIn te, Dómine, sperávi: * non°confúndar°in°ætérnum.^)",
-        }
+        'dt': { "vu": "Dich, Gott, loben wir, dich,°Herr,°preisen°wir.^lDir, dem ewigen Vater, huldigt°das°Erdenrund.^lDir rufen die Engel alle,^ldir Himmel und Mächte insgesamt,^ldie Kerubim dir und die Serafim^lmit niemals endender Stimme zu:^lHeilig, heilig, heilig^lder Herr, der Gott der Scharen!^lVoll sind Himmel und Erde^lvon deiner hohen Herrlichkeit.^pDich preist der°glorreiche°Chor°der°Apostel;^ldich der Propheten lobwürdige Zahl;^ldich der Märtyrer leuchtendes Heer;^ldich preist über das Erdenrund^ldie heilige Kirche;^ldich, den Vater unermessbarer°Majestät;^ldeinen wahren und einzigen Sohn;^lund den Heiligen Fürsprecher Geist.^pDu König der Herrlichkeit, Christus.^lDu bist des Vaters allewiger Sohn.^lDu hast der Jungfrau Schoß nicht°verschmäht,^lbist Mensch geworden,^lden Menschen zu befreien.^lDu hast bezwungen des°Todes°Stachel^lund denen, die glauben,^ldie Reiche der Himmel aufgetan.^pDu sitzest zur Rechten Gottes^lin deines Vaters Herrlichkeit.^lAls Richter, so glauben wir,^lkehrst du einst wieder.^lDich bitten wir denn,^lkomm deinen Dienern zu Hilfe,^ldie du erlöst mit kostbarem Blut.^lIn der ewigen Herrlichkeit^lzähle uns deinen Heiligen zu.^p^(Rette dein Volk, o°Herr, und°segne°dein°Erbe;^lund führe sie und erhebe sie bis°in°Ewigkeit.^lAn jedem Tag benedeien wir dich^lund loben in Ewigkeit deinen Namen,^lja, in der ewigen Ewigkeit.^lIn Gnaden wollest du, Herr,^lan diesem Tag uns°ohne°Schuld°bewahren.^pErbarme dich unser, o°Herr, erbarme°dich°unser.^lLass über uns dein°Erbarmen°geschehn,^lwie wir gehofft auf dich.^lAuf dich, o°Herr,^lhabe ich meine Hoffnung gesetzt.^lIn Ewigkeit werde°ich°nicht°zuschanden.^)", },
+        'lat': { "vu": "Te Deum laudámus: * te°Dóminum°confitémur.^lTe ætérnum Patrem, * omnis°terra°venerátur.^lTibi omnes ángeli, * tibi°cæli°et°univérsæ°potestátes:^ltibi chérubim et séraphim * incessábili°voce°proclámant:^pSanctus, * Sanctus, * Sanctus * Dóminus°Deus°Sábaoth.^lPleni sunt cæli et terra * maiestátis°glóriæ°tuæ.^pTe gloriósus * Apostolórum°chorus,^lte prophetárum * laudábilis°númerus,^lte mártyrum candidátus * laudat°exércitus.^lTe per orbem terrárum * sancta°confitétur°Ecclésia,^lPatrem * imménsæ°maiestátis;^lvenerándum tuum verum * et°únicum°Fílium;^lSanctum quoque * Paráclitum°Spíritum.^pTu rex glóriæ, * Christe.^lTu Patris * sempitérnus°es°Fílius.^lTu, ad liberándum susceptúrus°hóminem, * non°horruísti°Vírginis°úterum.^lTu, devícto mortis acúleo, * aperuísti°credéntibus°regna°cælórum.^lTu ad déxteram Dei sedes, * in°glória°Patris.^lIudex créderis * esse°ventúrus.^lTe ergo quǽsumus, tuis°fámulis°súbveni,°* quos°pretióso°sánguine°redemísti.^lÆtérna fac cum sanctis tuis * in°glória°numerári.^p^(Salvum fac pópulum tuum, Dómine, * et°bénedic°hereditáti°tuæ.^lEt rege eos, * et°extólle°illos°usque°in°ætérnum.^lPer síngulos dies * benedícimus°te;^let laudámus nomen tuum in sǽculum, * et°in°sǽculum°sǽculi.^lDignáre, Dómine, die isto * sine°peccáto°nos°custodíre.^lMiserére nostri, Dómine, * miserére°nostri.^lFiat misericórdia tua, Dómine, super°nos,°* quemádmodum°sperávimus°in°te.^lIn te, Dómine, sperávi: * non°confúndar°in°ætérnum.^)", }
     },
     'advent': {
         'dt': {
@@ -104,7 +96,7 @@ const ordinariumData = {
     },
     'matutin': {
         'dt': {
-            'matEinführung': "Die Feier der Osternacht tritt an die Stelle der Lesehore.^lWer an dieser Feier nicht teilnimmt, soll daraus wenigstens vier Lesungen nehmen mit den zugehörigen Gesängen und Orationen. Es empfiehlt sich, die hier angebotenen Texte zu nehmen.^pDie Hore beginnt ohne Eröffnung unmittelbar mit den Lesungen.",
+            'matEinführung': "Die Feier der Osternacht tritt an die Stelle der Lesehore.^lWer an der Feier der Osternacht nicht teilnimmt, soll daraus wenigstens vier Lesungen nehmen mit den zugehörigen Gesängen und Orationen. Es empfiehlt sich, die hier angebotenen Texte zu nehmen.^pDie Hore beginnt ohne Eröffnung unmittelbar mit den Lesungen.",
             'matBuch': [
                 "Aus dem Buch Exodus.",
                 "Aus dem Buch Ezechiel.",
@@ -200,9 +192,8 @@ function getOpeningTexts(hour, localPrefLatin) {
         if (!openMyLips().startsWith('l') || openMyLips() === hour) {
             setLocalStorage("openMyLips", hour)
             return opening_inv;
-        } else {
-            setLocalStorage("openMyLips", todayVisit())
-        }
+        } else setLocalStorage("openMyLips", todayVisit())
+
     }
 
     if (localStorage.getItem('ommitOpening') === 'true'
@@ -228,9 +219,8 @@ function getClosingTexts(hour, localPrefLatin) {
 
     // Versuche zuerst spezifische Abschlusstexte für die Hore zu finden
     const specificClosing = ordinariumData?.[hour]?.[languageToRead]?.closing;
-    if (specificClosing) {
-        return specificClosing;
-    }
+    if (specificClosing) return specificClosing;
+
 
     // Fallback für andere Horen (lesehore, terz, sext, non)
     let closing = localPrefLatin
@@ -251,12 +241,11 @@ export const ordinarium = (texts, hour = '', localPrefLatin = false, prefSollemn
     const languageToRead = localPrefLatin ? "lat" : "dt";
     if (hour === 'erstev') { hour = 'vesper' }
 
-    if (ordinariumData?.[texts]?.[languageToRead]) {
+    if (ordinariumData?.[texts]?.[languageToRead])
         return ordinariumData[texts][languageToRead]
-    }
-    if (ordinariumData?.[texts]?.dt) {
+
+    if (ordinariumData?.[texts]?.dt)
         return ordinariumData[texts].dt
-    }
 
     let ordinariumTexts = ordinariumData?.[hour]?.[languageToRead] || {};
 

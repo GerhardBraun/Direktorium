@@ -3309,7 +3309,7 @@ export const brevierData = {
           "hymn_3": 0.0,
           "ant0": "Jesus sprach zu seiner Mutter: Frau, siehe, dein Sohn! Und zu dem Jünger: Siehe, deine Mutter!^Ö",
           "les_buch": "›Jdt",
-          "les_stelle": "13,31 (Vg.)",
+          "les_stelle": "13,31 Vg",
           "les_text": "Du bist von deinem Gott gesegnet in allen Zelten Jakobs; denn in jedem Volk, das deinen Namen hört, wird deinetwegen der Gott Israels gepriesen werden.",
           "resp0": "Gebendeit bist du unter den Frauen.^Ö",
           "resp1": "Und gebenedeit ist die Frucht deines Leibes.^Ö",
@@ -6506,7 +6506,7 @@ export const brevierData = {
         },
         "Non": {
           "les_buch": "›Tob",
-          "les_stelle": "14,8–9°(Vg.)",
+          "les_stelle": "14,8–9°Vg",
           "les_text": "Die Heiden werden ihre Götzen verlassen, nach Jerusalem kommen und dort wohnen. Alle Könige der Erde werden sich dort freuen und niederfallen vor dem König von Israel.",
           "les_text_lat": "Et omnes natiónes in tota terra converténtur et timébunt Deum vere et relínquent omnes idóla sua. Et benedícent Deo ætérno in iustítia. Omnes fílii Israel, qui liberabúntur in diébus illis, mémores Dei in veritáte, colligéntur et vénient in Ierúsalem. Et gaudébunt, qui díligunt Deum in veritáte."
         },
@@ -7446,7 +7446,7 @@ export const brevierData = {
         },
         "Non": {
           "les_buch": "›Tob",
-          "les_stelle": "14,8–9°(Vg.)",
+          "les_stelle": "14,8–9°Vg",
           "les_text": "Die Heiden werden ihre Götzen verlassen, nach Jerusalem kommen und dort wohnen. Alle Könige der Erde werden sich dort freuen und niederfallen vor dem König von Israel.",
           "les_text_lat": "Et omnes natiónes in tota terra converténtur et timébunt Deum vere et relínquent omnes idóla sua. Et benedícent Deo ætérno in iustítia. Omnes fílii Israel, qui liberabúntur in diébus illis, mémores Dei in veritáte, colligéntur et vénient in Ierúsalem. Et gaudébunt, qui díligunt Deum in veritáte."
         },

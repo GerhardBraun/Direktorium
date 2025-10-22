@@ -19,7 +19,7 @@ const writeOut = (season, week, dayOfWeek, swdCombined, day, afterPentecost) => 
         'q-6-6': 'Karsamstag',
         'o-1-0': 'Ostersonntag',
         'o-1-1': 'Ostermontag',
-        'o-2-0': 'Weißer Sonntag – Sonntag der Göttlichen Barmherzigkeit',
+        'o-2-0': 'Weißer Sonntag – Sonntag°der°Göttlichen°Barmherzigkeit',
         'o-6-4': 'Christi Himmelfahrt',
         'o-8-0': 'Pfingstsonntag',
         'o-8-1': 'Pfingstmontag',
@@ -42,8 +42,11 @@ const writeOut = (season, week, dayOfWeek, swdCombined, day, afterPentecost) => 
             return `${dayName} nach Aschermittwoch`;
     }
 
-    if (season === 'w' && (day > 24 || day === 1))
-        return `${dayName} in der Weihnachtsoktav`;
+    if (season === 'w' && (day > 24 || day === 1)) {
+        if (day === 25) return 'Weihnachten';
+        if (day === 1) return 'Neujahr';
+        if (day > 25) return `${dayName} in der Weihnachtsoktav`
+    };
 
     if (season === 'q' && week === 6)
         return `${dayName} der Karwoche`

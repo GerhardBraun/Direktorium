@@ -1449,6 +1449,7 @@ const PrayerTextDisplay = ({
         swdWritten={hour === 'vesper'
           ? texts.vesper?.oblig?.swdWritten || texts.vesper?.wt?.swdWritten || texts?.swdWritten
           : texts?.swdWritten}
+        padding="pr-4"
       />
       <NavigationButtons
         hour={hour}
@@ -1964,7 +1965,7 @@ export default function LiturgicalCalendar() {
     console.log(message);
   };
 
-  const startViewMode = localStorage.getItem("startViewMode") || "directory";
+  const startViewMode = localStorage.getItem("startViewMode") || "prayer";
   const lastVisit = () => localStorage.getItem("lastVisit") || null;
   const todayVisit = () => new Date().toISOString().split("T")[0]; // Format YYYY-MM-DD
   const [viewMode, setViewMode] = useState(() => {
