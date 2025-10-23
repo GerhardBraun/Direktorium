@@ -8479,6 +8479,14 @@ export const deceasedData =  {
         "birth": "16.°September°1861°in°Lengenfeld°u.°St. (D¥-99976°Südeichsfeld)",
         "grave": "",
         "age": 71
+      },
+      {
+        "year": 2025,
+        "birthdate": "2235-11-12",
+        "name": "P.°Aloys°Weber°SDB, Köln¥-Mülheim",
+        "birth": "12.°November°1935°in°Hannover¥-Döhren",
+        "grave": "Friedhof°Köln¥-Stammheim",
+        "age": 89
       }
     ],
     "15": [

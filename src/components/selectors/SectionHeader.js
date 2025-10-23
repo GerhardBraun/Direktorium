@@ -283,7 +283,7 @@ const SectionHeader = ({
                         onClick={() => setLocalPrefPsalmsWt(false)}
                         className={!localPrefPsalmsWt ? 'underline' : ''}
                     >
-                        Ps oblig
+                        Ps eig
                     </button>
                     {" | "}
                     <button

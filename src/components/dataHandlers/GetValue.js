@@ -199,7 +199,7 @@ export const getValue = ({ season, hour, texts, field,
         //Sonderfall Bahnlesung
         if (localPrefContinuous && hour === 'lesehore') {
             if (/^(patr_)/.test(field) ||
-                (/^(les_|resp)/.test(field) && !localPrefComm))
+                (/^(les_|resp)/.test(field) && (!localPrefComm || isSollemnity)))
                 return result(texts[hour]?.wt)
         }
 
