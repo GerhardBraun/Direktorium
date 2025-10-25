@@ -20,6 +20,7 @@
   },
   "scripts": {
     "dli": "python C:/AppProjekte/excel-liturgical-converter/dli-converter.py",
+    "messe": "python C:/AppProjekte/excel-liturgical-converter/ms-converter.py",
     "footnotes": "python C:/AppProjekte/excel-liturgical-converter/dli-footnotes.py",
     "catalogue": "python C:/AppProjekte/excel-liturgical-converter/catalogue.py",
     "references": "python C:/AppProjekte/excel-liturgical-converter/bible-references.py",

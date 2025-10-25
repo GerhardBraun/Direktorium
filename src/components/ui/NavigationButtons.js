@@ -1,8 +1,44 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 export const NavigationButtons = ({
     hour, onBack, onSelectHour, topButton = false, texts, prefSollemnity = '',
 }) => {
+    // Zustand für das Fixieren
+    const [isDocked, setIsDocked] = useState(false);
+
+    // Beim Laden prüfen, ob der Zustand in localStorage gespeichert ist
+    useEffect(() => {
+        const savedDockState = localStorage.getItem('isDocked');
+        if (savedDockState) {
+            setIsDocked(savedDockState === 'true');
+        }
+    }, []);
+
+    // Effekt zum Anwenden des Docking-Verhaltens
+    useEffect(() => {
+        const headerElements = document.querySelectorAll('.prayer-header-container');
+        if (headerElements.length > 0) {
+            if (isDocked) {
+                // CSS für das Fixieren anwenden
+                headerElements.forEach(element => {
+                    element.classList.add('sticky', 'top-14', 'z-10', 'bg-white', 'dark:bg-gray-900', 'pb-0', 'pt-0', 'shadow-md');
+                });
+            } else {
+                // CSS für das Fixieren entfernen
+                headerElements.forEach(element => {
+                    element.classList.remove('sticky', 'top-14', 'z-10', 'bg-white', 'dark:bg-gray-900', 'pb-0', 'pt-0', 'shadow-md');
+                });
+            }
+        }
+    }, [isDocked]);
+
+    // Funktion zum Umschalten des Andock-Zustands
+    const toggleDocked = () => {
+        const newDockState = !isDocked;
+        setIsDocked(newDockState);
+        localStorage.setItem('isDocked', newDockState.toString());
+    };
+
     const getNextHours = (currentHour) => {
         switch (currentHour) {
             case 'invitatorium':
@@ -104,7 +140,7 @@ export const NavigationButtons = ({
                     : hour.charAt(0).toUpperCase() + hour.slice(1)
 
         if (hour === 'vigil') return (
-            <div className="grid grid-cols-3 gap-0 mb-2">
+            <div className="grid grid-cols-5 gap-0 mb-2 pr-4">
                 <button
                     onClick={() => {
                         onSelectHour('lesehore', texts)
@@ -118,16 +154,22 @@ export const NavigationButtons = ({
                             }
                         }, 50);
                     }}
-                    className="text-left long-rubric mt-1"
+                    className="text-left long-rubric mt-1 col-span-2"
                 >
                     &nbsp;&nbsp;←&nbsp;&nbsp;zurück zur Lesehore
                 </button>
-                <div className="pr-4 text-center font-bold">
+                <div className="text-center font-bold">
                     Vigil
                 </div>
+                <button
+                    onClick={toggleDocked}
+                    className="text-right long-rubric mt-1 col-span-2"
+                >
+                    {isDocked ? 'Lösen' : 'Fixieren'}&nbsp;&nbsp;
+                </button>
             </div>
         ); else return (
-            <div className="grid grid-cols-4 gap-0 mb-2">
+            <div className="pr-4 grid grid-cols-4 gap-0 mb-2">
                 <button
                     onClick={onBack}
                     className="pl-2 rounded-sm bg-gray-100 dark:bg-gray-800
@@ -136,9 +178,17 @@ export const NavigationButtons = ({
                 >
                     ← Auswahl
                 </button>
-                <div className="col-span-2 pr-4 rounded-sm text-center font-bold">
+                <div className="col-span-2 rounded-sm text-center font-bold">
                     {hourToDisplay}
                 </div>
+                <button
+                    onClick={toggleDocked}
+                    className="pl-2 rounded-sm bg-gray-100 dark:bg-gray-800
+                   hover:bg-gray-200 dark:hover:bg-gray-700
+                   text-rubric text-sm"
+                >
+                    {isDocked ? 'Lösen' : 'Fixieren'}&nbsp;&nbsp;
+                </button>
             </div>
         );
     }

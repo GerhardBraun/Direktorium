@@ -1442,47 +1442,52 @@ const PrayerTextDisplay = ({
 
   return (
     <div className="leading-[1.33em] pb-8">
-      <TitleBar
-        title={''}
-        onPrevDay={onPrevDay}
-        onNextDay={onNextDay}
-        swdWritten={hour === 'vesper'
-          ? texts.vesper?.oblig?.swdWritten || texts.vesper?.wt?.swdWritten || texts?.swdWritten
-          : texts?.swdWritten}
-        padding="pr-4"
-      />
-      <NavigationButtons
-        hour={hour}
-        topButton={true}
-        onBack={onBack}
-        onSelectHour={onSelectHour}
-        texts={texts}
-        prefSollemnity={prefSollemnity}
-      />
+      {/* Der gesamte Header-Bereich wird in einen Container mit der Klasse prayer-header-container gepackt */}
+      <div className="prayer-header-container">
+        <TitleBar
+          title={''}
+          onPrevDay={onPrevDay}
+          onNextDay={onNextDay}
+          swdWritten={hour === 'vesper'
+            ? texts.vesper?.oblig?.swdWritten || texts.vesper?.wt?.swdWritten || texts?.swdWritten
+            : texts?.swdWritten}
+          padding="pr-4"
+        />
+        <NavigationButtons
+          hour={hour}
+          topButton={true}
+          onBack={onBack}
+          onSelectHour={onSelectHour}
+          texts={texts}
+          prefSollemnity={prefSollemnity}
+        />
+        <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6 pb-1">
+          {hour === "komplet" ? (
+            <KompletSelector
+              texts={texts}
+              localPrefKomplet={localPrefKomplet}
+              setLocalPrefKomplet={setLocalPrefKomplet}
+              className="mb-4"
+            />
+          ) : (
+            <SourceSelector
+              texts={texts}
+              prefSrc={prefSrc}
+              prefSollemnity={prefSollemnity}
+              useCommemoration={useCommemoration}
+              setPrefSrc={setPrefSrc}
+              setPrefSollemnity={setPrefSollemnity}
+              setUseCommemoration={setUseCommemoration}
+              onSelectHour={onSelectHour}
+              viewMode={viewMode}
+              season={season}
+              hour={hour}
+              className="mb-4"
+            />
+          )}
+        </div>
+      </div>
       <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6 pb-1">
-        {hour === "komplet" ? (
-          <KompletSelector
-            texts={texts}
-            localPrefKomplet={localPrefKomplet}
-            setLocalPrefKomplet={setLocalPrefKomplet}
-            className="mb-4"
-          />
-        ) : (
-          <SourceSelector
-            texts={texts}
-            prefSrc={prefSrc}
-            prefSollemnity={prefSollemnity}
-            useCommemoration={useCommemoration}
-            setPrefSrc={setPrefSrc}
-            setPrefSollemnity={setPrefSollemnity}
-            setUseCommemoration={setUseCommemoration}
-            onSelectHour={onSelectHour}
-            viewMode={viewMode}
-            season={season}
-            hour={hour}
-            className="mb-4"
-          />
-        )}
         {ordinariumTexts.opening[0] && (
           <div className="mt-0 mb-0">
             <SectionHeader
@@ -1923,7 +1928,7 @@ const ScrollableContainer = ({ children, containerRef }) => {
   );
 };
 
-export default function LiturgicalCalendar() {
+export default function Stundenbuch() {
   setLocalStorage('unlockBenedictine', 'unlocked'); // Always unlock Benedictine option
   const wakeLock = useWakeLock();
   const [selectedDate, setSelectedDate] = useState(new Date());
