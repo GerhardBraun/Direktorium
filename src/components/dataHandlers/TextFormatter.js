@@ -222,6 +222,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
 
     const useFootnoteList = localStorage.getItem('prefFootnotes') === 'true';
     const useCommemoration = (marker === 'commemoration' && isCommemoration === true)
+    const isAps = marker === 'Aps';
 
     const replaceRESP = (text) => {
         const easterAntiphons = {
@@ -412,7 +413,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
             })
     }
 
-    marker = (marker === 'commemoration') ? '' : marker;
+    marker = ['commemoration', 'Aps'].includes(marker) ? '' : marker;
     marker = provText?.startsWith('^RUBR') ? '' : marker
     let text = marker ? `^r${marker}^0r${provText}` : provText;
     const maxLineLength = calculateMaxLineLength(text);
@@ -427,8 +428,8 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         .replace(/\^HULDaet/g, '^*quóniam in ætérnum misericórdia eius')
         .replace(/^›|_lat|_neu|_ben|\^SLICE/g, '')
         .replace(/°/g, '\u00A0')
-        .replace(/\^\*/g, '\u00A0*\n')
-        .replace(/\^\+/g, '\u00A0†\n')
+        .replace(/\^\*/g, isAps ? '\u00A0^r*^0r\n' : '\u00A0*\n')
+        .replace(/\^\+/g, isAps ? '\u00A0^r†^0r\n' : '\u00A0†\n')
         .replace(/\^\//g, (() => {
             // Wenn keine ^/-Tags vorhanden oder maxLineLength <= widthForHymns, dann Leerzeichen
             // Andernfalls Zeilenumbruch
@@ -447,6 +448,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         .replace(/ \^0w/g, '^0w ')
         .replace(/^\^A:[^:]+:/, '')
         .replace(/\^ANT/, '^rAnt.\u00A0\u00A0^0r')
+        .replace(/\^KV/g, '^r\u00A0–\u00A0(Kv)^0r')
         .replace(/\^(ODER|VEL)/g, (match, text) => '^l^RUBR' + firstCapital(text) + ':^0RUBR^l')
         .replace(/([.?!]|)( |)(EINE?[RMN]?)/g, (match, punctuation, space, text) => {
             if (!punctuation && space) { return '^w' + match.toLowerCase() + '^0w' }
@@ -554,7 +556,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
     };
 
     // Prüfen, ob der Text Absatz-Tags enthält
-    const hasParagraphTags = /\^[phqlx]/.test(text);
+    const hasParagraphTags = /\^[phqlxP]/.test(text);
 
     if (!hasParagraphTags) {
         // Bei Texten ohne Absatz-Tags: Direkt Inline-Formatierung zurückgeben
@@ -574,10 +576,10 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
     });
 
     // Text in Absätze aufteilen
-    let segments = processedText.split(/(?=\^[phqx])/);
+    let segments = processedText.split(/(?=\^[phqxP])/);
 
     // KORREKTUR: Prüfen ob der Text mit einem ERKANNTEN Format-Tag beginnt
-    if (!segments[0].match(/^\^[phqx]/)) {
+    if (!segments[0].match(/^\^[phqxP]/)) {
         // Wenn NICHT mit ^p, ^h oder ^q beginnt, als Standard-Absatz behandeln
         segments = [segments[0], ...segments.slice(1)];
     }
@@ -590,7 +592,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
                     let format = 'p';  // Standard-Format
                     let content = segment;
 
-                    if (segment.match(/^\^[phqx]/)) {
+                    if (segment.match(/^\^[phqxP]/)) {
                         format = segment[1];
                         content = segment.slice(2);
                     }
@@ -603,6 +605,12 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
                     const processedContent = processInlineFormats(originalContent);
 
                     switch (format) {
+                        case 'P':
+                            return (
+                                <div key={index} className="whitespace-pre-wrap  mt-[1.2em] mb-[0.6em]">
+                                    {processedContent}
+                                </div>
+                            );
                         case 'h':
                             return (
                                 <div key={index} className="whitespace-pre-wrap font-bold text-[0.9em] mt-2">

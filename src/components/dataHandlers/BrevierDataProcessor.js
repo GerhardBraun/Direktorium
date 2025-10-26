@@ -1,6 +1,7 @@
 import { brevierData } from '../data/Brevier.ts';
 import { lecture1Data } from '../data/Lecture1.ts';
 import { lecture2Data } from '../data/Lecture2.ts';
+import { lectureABCData } from '../data/LectureABC.ts';
 import { sollemnitiesData } from '../data/Sollemnities.ts';
 import { getLiturgicalInfo } from './LitCalendar.js';
 import { sourceKeys } from '../selectors/SourceSelector.js';
@@ -112,10 +113,13 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
 
     const calendarDay = calendarDate.getDate();
     const calendarMonth = calendarDate.getMonth() + 1;
+    //Lesejahr ABC
+    const year = date.getFullYear();
+    const yearABC = ['c', 'a', 'b'][year % 3]
     const lectureYear = date.getFullYear() + (
         (season === 'a' || (calendarMonth === 12 && season !== 'j'))
             ? 1 : 0);
-    const lectureData = lectureYear % 2 === 0 ? lecture2Data : lecture1Data;
+    const lectureData = lectureYear % 2 === 0 ? lecture2Data : null;
 
     // Initialize structure
     const hours = {
@@ -129,7 +133,8 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         non: { wt: {}, pers: {} },
         vesper: { wt: {}, pers: {} },
         prefsollemnity: { wt: {}, pers: {} },
-        komplet: { wt: {}, pers: {} }
+        komplet: { wt: {}, pers: {} },
+        messe: { wt: {}, pers: {} },
     };
 
     try {
@@ -194,15 +199,20 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
             }
         }
 
-
         function addLayer(source, week, dayOfWeek) {
             ['each', dayOfWeek].forEach(key => {
                 const layerData = brevierData?.[source]?.[week]?.[key];
                 const personalLayerData = personalData?.[source]?.[week]?.[key];
+                const lecture1LayerData = lecture1Data?.[source]?.[week]?.[key];
                 const lectureLayerData = lectureData?.[source]?.[week]?.[key];
+                const lectureALayerData = lectureABCData?.[source]?.[week]?.[key]?.a;
+                const lectureABCLayerData = yearABC === 'a' ? null : lectureABCData?.[source]?.[week]?.[key]?.[yearABC];
                 mergeData(hours, layerData, 'wt');
                 mergeData(hours, personalLayerData, 'pers');
-                mergeData(hours, lectureLayerData, 'wt');
+                mergeData(hours, lecture1LayerData, 'wt');
+                mergeData(hours, lectureALayerData, 'wt');
+                if (lectureLayerData) mergeData(hours, lectureLayerData, 'wt');
+                if (lectureABCLayerData) mergeData(hours, lectureABCLayerData, 'wt');
             })
         }
 

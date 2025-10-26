@@ -18,7 +18,7 @@ import KompletSelector from "./selectors/KompletSelector.js";
 import HymnSelector from "./selectors/HymnSelector.js";
 import MarAntSelector from "./selectors/MarAntSelector.js";
 import LectureSelector from './selectors/LectureSelector.js';
-import { MatutinDisplay } from "./selectors/MatutinDisplay.js";
+import { MatutinDisplay } from "./ui/MatutinDisplay.js";
 import { getValue as extGetValue } from "./dataHandlers/GetValue.js";
 import {
   firstCapital,
@@ -32,6 +32,7 @@ import TitleBar from "./ui/TitleBar.js";
 import { setLocalStorage } from './utils/PersonalSettings.js';
 import { ordinarium } from "./utils/ordinarium.js";
 import { UserMessageDisplay } from "./data/UserMessageDisplay.js";
+import { MassReadings } from "./ui/MassReadings.js";
 
 const fontFamily = "Cambria, serif";
 const hangingIndent = "3.2em"; // Variable für den Einzug
@@ -1200,16 +1201,19 @@ const PrayerMenu = ({
       </div>
 
       {/* Mass - ausgeblendet */}
-      {viewMode === "ausblenden" && (<>
+      <div className="pt-4 border-t dark:border-gray-700">
         <button
-          onClick={() => onSelectHour("mass")}
-          className="w-full p-3 mb-6 text-center rounded-lg bg-gray-100 dark:bg-gray-800
+          onClick={() => {
+            console.log('Mass Lektionar selected');
+            setViewMode("massReadings")
+          }}
+          className="w-full p-3 mb-4 text-center rounded-lg bg-gray-100 dark:bg-gray-800
         hover:bg-gray-200 dark:hover:bg-gray-700
         text-gray-900 dark:text-gray-100"
         >
-          Messfeier
+          Messlektionar
         </button>
-      </>)}
+      </div>
 
       {/* View Selection with spacing */}
       {localStorage.getItem('diocese') === 'Fulda' && (
@@ -3231,6 +3235,40 @@ export default function Stundenbuch() {
                 onNextDay={onNextDay}
               />
             )}
+
+          {viewMode === "massReadings" && (
+            <MassReadings
+              TitleBar={TitleBar}
+              NavigationButtons={NavigationButtons}
+              SourceSelector={SourceSelector}
+              hour={selectedHour}
+              texts={texts}
+              selectedDate={selectedDate}
+              title={formatDate(selectedDate)}
+              viewMode={viewMode}
+              prefSrc={prefSrc}
+              setPrefSrc={setPrefSrc}
+              prefSollemnity={prefSollemnity}
+              setPrefSollemnity={setPrefSollemnity}
+              useCommemoration={useCommemoration}
+              setUseCommemoration={setUseCommemoration}
+              localPrefLanguage={localPrefLanguage}
+              localPrefLatin={localPrefLatin}
+              setLocalPrefLatin={setLocalPrefLatin}
+              setLocalPrefLanguage={setLocalPrefLanguage}
+              widthForHymns={widthForHymns}
+              onBack={() => {
+                setViewMode("prayer");
+                window.scrollTo({ top: 0, behavior: 'instant' });
+              }}
+              onSelectHour={(hour) => {
+                setSelectedHour(hour);
+                setTexts(texts);
+              }}
+              onPrevDay={onPrevDay}
+              onNextDay={onNextDay}
+            />
+          )}
 
           {/* Original ScrollableContainer for directory/deceased views */}
           {(viewMode === "directory" || viewMode === "deceased") && (

@@ -128,8 +128,6 @@ export const NavigationButtons = ({
     const hourToRead = (now.getHours() < 11 && ['vigil', 'lesehore'].includes(hour))
         ? 'morning' : hour
     const nextHours = getNextHours(hourToRead);
-    const { alignment, singleButton, columns } = getGridClass(nextHours)
-
 
     if (topButton) {
         const hourToDisplay =
@@ -205,6 +203,8 @@ export const NavigationButtons = ({
             </button>
         );
     }
+
+    const { alignment, singleButton, columns } = getGridClass(nextHours)
 
     return (
         <div className={`grid ${columns} gap-2 mb-1`}>
