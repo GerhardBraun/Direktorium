@@ -2378,7 +2378,9 @@ export default function Stundenbuch() {
 
     return (
       <div
-        className="absolute left-0 right-0 mt-1 p-2 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 border dark:border-gray-700 rounded shadow-lg z-[60]"
+        className="absolute left-0 right-0 mt-1 p-2
+        bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100
+        border dark:border-gray-700 rounded shadow-lg z-50"
         style={{
           ...datePickerStyle,
           position: "fixed", // Änderung zu fixed positioning

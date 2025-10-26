@@ -2,6 +2,7 @@ import React from 'react';
 import { ordinarium } from '../utils/ordinarium.js';
 import { formatPsalm, formatPrayerText } from '../dataHandlers/TextFormatter.js';
 import formatBibleRef from '../dataHandlers/BibleRefFormatter.js';
+import rufvdevData from "../data/RufvdEv.ts";
 
 const MassReadings = ({
     TitleBar,
@@ -36,11 +37,34 @@ const MassReadings = ({
         ms_ruf_stelle, ms_ruf_text,
         ms_ev_buch, ms_ev_stelle, ms_ev_motto, ms_ev_text,
     } = texts?.messe?.wt
-    const { matEinführung, matBuch, matStelle, matText,
-        matPsalm, matAnt, matOration }
-        = ordinarium('matutin', 'lesehore', localPrefLatin, true);
-    const { closing, vu: TeDeum } = ordinarium(texts, 'lesehore', localPrefLatin, true);
-    const ordinalZahlen = ['ERSTE', 'ZWEITE', 'DRITTE', 'VIERTE']
+
+    let ruf_stelle = ms_ruf_stelle || '',
+        ruf_text = ms_ruf_text || '';
+    const rufData = rufvdevData?.[ms_ruf_text]
+    console.log('RufvdEv Data:', ms_ruf_text, rufData, rufvdevData);
+    if (rufData) {
+        ruf_stelle = rufData.Stelle;
+        ruf_text = rufData.Text;
+    }
+
+    let resp = 'Halleluja.'
+    let respWithRepeat = 'Halleluja. Halleluja.'
+    if (texts?.season === 'q') {
+        if (texts?.swdCombined === 'q-6-0') {
+            resp = 'Christus Sieger, Christus°König, Christus°Herr°in°Ewigkeit!'
+        }
+        else {
+            let index = Math.ceil(texts?.dayOfWeek / 2)
+            if (!index) index = (texts?.yearABC.toLowerCase().charCodeAt(0) - 96)
+            const setOfResp = ['',
+                'Herr Jesus, dir sei Ruhm und Ehre!',
+                'Lob dir, Christus, König und Erlöser!',
+                'Christus, du ewiges Wort des Vaters, Ehre sei dir!',
+            ]
+            resp = setOfResp[index]
+        }
+        respWithRepeat = resp + '°^r–°Kv^0r'
+    }
 
     const Reading = ({ type, title }) => {
         const book = texts?.messe?.wt[`ms_${type}_buch`];
@@ -117,6 +141,14 @@ const MassReadings = ({
                             {ms_aps_kv && (
                                 <div className="mb-3">
                                     {formatPrayerText(ms_aps_kv + '°^r–°Kv^0r', '', 'Kv°°')}
+                                    {ms_aps_kv.includes('^APSHALL') && (
+                                        <div >
+                                            <span className='text-rubric'>(
+                                                <span className='italic text-[0.9em]'>Oder:</span>
+                                            </span>
+                                            {formatPrayerText('°Halleluja.^)')}
+                                        </div>
+                                    )}
                                 </div>
                             )}
                             {formatPrayerText('^P' + ms_aps_text + '°^r–°Kv^0r', '', 'Aps')}
@@ -125,20 +157,19 @@ const MassReadings = ({
                     {/* Zweite Lesung und Evangelium */}
                     <Reading type="les2" title="ZWEITE LESUNG" />
 
-                    {ms_aps_text && (
+                    {ruf_text && (
                         <div className="mb-8">
                             <h2 className="prayer-heading">RUF VOR DEM EVANGELIUM</h2>
-                            {ms_ruf_stelle && (<div className="mb-3 text-[0.9em] text-gray-400">
-                                {formatBibleRef(ms_ruf_stelle)}
+                            {ruf_stelle && (<div className="mb-1 text-[0.9em] text-gray-400">
+                                {formatBibleRef(ruf_stelle)}
                             </div>
-                            )}                            <div className="mb-3">
-                                Halleluja. Halleluja.
+                            )}
+                            <div className="mb-2">
+                                {formatPrayerText(respWithRepeat)}
                             </div>
-                            <div className="mb-3">
-                                {formatPrayerText(ms_ruf_text)}
-                            </div>
-                            <div className="mb-3">
-                                Halleluja.
+                            <div >{formatPrayerText(ruf_text)}</div>
+                            <div className="mt-2">
+                                {formatPrayerText(resp)}
                             </div>
                         </div>
                     )}
@@ -158,7 +189,7 @@ const MassReadings = ({
                     texts={texts}
                 />
             </div>
-        </div>
+        </div >
     );
 };
 
