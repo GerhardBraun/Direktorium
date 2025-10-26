@@ -607,7 +607,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
                     switch (format) {
                         case 'P':
                             return (
-                                <div key={index} className="whitespace-pre-wrap  mt-[1.2em] mb-[0.6em]">
+                                <div key={index} className="whitespace-pre-wrap  mt-[1.5em] mb-[0.5em]">
                                     {processedContent}
                                 </div>
                             );

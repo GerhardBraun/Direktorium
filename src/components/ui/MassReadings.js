@@ -33,7 +33,7 @@ const MassReadings = ({
         ms_les_buch, ms_les_stelle, ms_les_motto, ms_les_text,
         ms_aps_stelle, ms_aps_kv, ms_aps_text,
         ms_les2_buch, ms_les2_stelle, ms_les2_motto, ms_les2_text,
-        ms_ruf_text,
+        ms_ruf_stelle, ms_ruf_text,
         ms_ev_buch, ms_ev_stelle, ms_ev_motto, ms_ev_text,
     } = texts?.messe?.wt
     const { matEinführung, matBuch, matStelle, matText,
@@ -41,6 +41,30 @@ const MassReadings = ({
         = ordinarium('matutin', 'lesehore', localPrefLatin, true);
     const { closing, vu: TeDeum } = ordinarium(texts, 'lesehore', localPrefLatin, true);
     const ordinalZahlen = ['ERSTE', 'ZWEITE', 'DRITTE', 'VIERTE']
+
+    const Reading = ({ type, title }) => {
+        const book = texts?.messe?.wt[`ms_${type}_buch`];
+        const stelle = texts?.messe?.wt[`ms_${type}_stelle`];
+        const motto = texts?.messe?.wt[`ms_${type}_motto`];
+        const text = texts?.messe?.wt[`ms_${type}_text`];
+
+        if (!text) return null;
+
+        return (
+            <div className="mb-8">
+                <h2 className="prayer-heading">{title}</h2>
+                <div className="mb-2 text-[0.9em] text-gray-400">
+                    <div>
+                        {formatBibleRef(book + " " + stelle)}
+                    </div>
+                    <div className=" leading-[1.1em] italic">
+                        {formatPrayerText(motto)}
+                    </div>
+                </div>
+                <div>{formatPrayerText(text)}</div>
+            </div>
+        );
+    };
 
     return (
         <div className="leading-[1.33em] pb-8">
@@ -81,26 +105,13 @@ const MassReadings = ({
             <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6 py-1">
 
                 <div className="mb-6">
-                    {/* Lesung */}
-                    {ms_les_text && (
-                        <div className="mb-4">
-                            <h2 className="prayer-heading">ERSTE LESUNG</h2>
-                            <div className="mb-2 text-[0.9em] text-gray-400">
-                                <div>
-                                    {formatBibleRef(ms_les_buch + " " + ms_les_stelle)}
-                                </div>
-                                <div className=" leading-[1.1em] italic">
-                                    {formatPrayerText(ms_les_motto)}
-                                </div>
-                            </div>
-                            <div>{formatPrayerText(ms_les_text)}</div>
-                        </div>
-                    )}
-                    {/* Antwortpsalm mit Antiphon */}
+                    {/* Erste Lesung */}
+                    <Reading type="les" title="ERSTE LESUNG" />
+                    {/* Antwortpsalm */}
                     {ms_aps_text && (
-                        <div className="mb-4">
+                        <div className="mb-8">
                             <h2 className="prayer-heading">ANTWORTPSALM</h2>
-                            <div className="mb-2 text-[0.9em] text-gray-400">
+                            <div className="mb-3 text-[0.9em] text-gray-400">
                                 {formatBibleRef(ms_aps_stelle)}
                             </div>
                             {ms_aps_kv && (
@@ -108,40 +119,31 @@ const MassReadings = ({
                                     {formatPrayerText(ms_aps_kv + '°^r–°Kv^0r', '', 'Kv°°')}
                                 </div>
                             )}
-                            {formatPrayerText('' + ms_aps_text + '°^r–°Kv^0r', '', 'Aps')}
+                            {formatPrayerText('^P' + ms_aps_text + '°^r–°Kv^0r', '', 'Aps')}
                         </div>
                     )}
-                    {/* Lesung */}
-                    {ms_les2_text && (
-                        <div className="mb-4">
-                            <h2 className="prayer-heading">ZWEITE LESUNG</h2>
-                            <div className="mb-2 text-[0.9em] text-gray-400">
-                                <div>
-                                    {formatBibleRef(ms_les2_buch + " " + ms_les2_stelle)}
-                                </div>
-                                <div className=" leading-[1.1em] italic">
-                                    {formatPrayerText(ms_les2_motto)}
-                                </div>
+                    {/* Zweite Lesung und Evangelium */}
+                    <Reading type="les2" title="ZWEITE LESUNG" />
+
+                    {ms_aps_text && (
+                        <div className="mb-8">
+                            <h2 className="prayer-heading">RUF VOR DEM EVANGELIUM</h2>
+                            {ms_ruf_stelle && (<div className="mb-3 text-[0.9em] text-gray-400">
+                                {formatBibleRef(ms_ruf_stelle)}
                             </div>
-                            <div>{formatPrayerText(ms_les2_text)}</div>
-                        </div>
-                    )}
-                    {/* Evangelium */}
-                    {ms_ev_text && (
-                        <div className="mb-4">
-                            <h2 className="prayer-heading">EVANGELIUM</h2>
-                            <div className="mb-2 text-[0.9em] text-gray-400">
-                                <div>
-                                    {formatBibleRef(ms_ev_buch + " " + ms_ev_stelle)}
-                                </div>
-                                <div className=" leading-[1.1em] italic">
-                                    {formatPrayerText(ms_ev_motto)}
-                                </div>
+                            )}                            <div className="mb-3">
+                                Halleluja. Halleluja.
                             </div>
-                            <div>{formatPrayerText(ms_ev_text)}</div>
+                            <div className="mb-3">
+                                {formatPrayerText(ms_ruf_text)}
+                            </div>
+                            <div className="mb-3">
+                                Halleluja.
+                            </div>
                         </div>
                     )}
 
+                    <Reading type="ev" title="EVANGELIUM" />
                 </div>
 
 
