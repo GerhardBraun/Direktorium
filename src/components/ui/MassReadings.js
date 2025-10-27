@@ -70,7 +70,7 @@ const MassReadings = ({
         if (!text) return null;
 
         return (
-            <div className="mb-8">
+            <div >
                 <h2 className="prayer-heading">{title}</h2>
                 <div className="mb-2 text-[0.9em] text-gray-400">
                     <div>
@@ -114,13 +114,13 @@ const MassReadings = ({
             </div>
 
             <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6 py-1">
-                <div className="mb-6">
+                <div className="mb-0">
                     {/* Erste Lesung */}
                     <Reading type="les" title="ERSTE LESUNG" />
 
                     {/* Antwortpsalm */}
                     {ms_aps_text && (
-                        <div className="mb-8">
+                        <div className="my-8">
                             <h2 className="prayer-heading">ANTWORTPSALM</h2>
                             <div className="mb-3 text-[0.9em] text-gray-400">
                                 {formatBibleRef(ms_aps_stelle)}
@@ -147,7 +147,7 @@ const MassReadings = ({
 
                     {/* Ruf vor dem Evangelium */}
                     {ruf_text && (
-                        <div className="mb-8">
+                        <div className="my-8">
                             <h2 className="prayer-heading">RUF VOR DEM EVANGELIUM</h2>
                             {ruf_stelle && (
                                 <div className="mb-1 text-[0.9em] text-gray-400">

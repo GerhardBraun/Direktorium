@@ -19,14 +19,18 @@ export const NavigationButtons = ({
         const headerElements = document.querySelectorAll('.prayer-header-container');
         if (headerElements.length > 0) {
             if (isDocked) {
-                // CSS für das Fixieren anwenden
+                // CSS für das Fixieren anwenden, aber mit niedrigerem z-index
                 headerElements.forEach(element => {
-                    element.classList.add('sticky', 'top-14', 'z-10', 'bg-white', 'dark:bg-gray-900', 'pb-0', 'pt-0', 'shadow-md');
+                    element.classList.add('sticky', 'top-14', 'z-[9]', 'bg-white', 'dark:bg-gray-900', 'pb-0', 'pt-0', 'shadow-md');
+
+                    // Stelle sicher, dass keine z-index-bezogene CSS-Eigenschaft einen neuen Stacking Context erzeugt
+                    element.style.isolation = 'auto'; // explizit auf auto setzen
                 });
             } else {
                 // CSS für das Fixieren entfernen
                 headerElements.forEach(element => {
-                    element.classList.remove('sticky', 'top-14', 'z-10', 'bg-white', 'dark:bg-gray-900', 'pb-0', 'pt-0', 'shadow-md');
+                    element.classList.remove('sticky', 'top-14', 'z-[9]', 'bg-white', 'dark:bg-gray-900', 'pb-0', 'pt-0', 'shadow-md');
+                    element.style.isolation = 'auto';
                 });
             }
         }

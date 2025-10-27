@@ -8695,6 +8695,14 @@ export const deceasedData =  {
         "birth": "27.°April°1952°in°Bernbach",
         "grave": "Friedhof°Freigericht¥-Bernbach",
         "age": 69
+      },
+      {
+        "year": 2025,
+        "birthdate": "2254-10-29",
+        "name": "Bernd°Bruno°Wystrach, Diakon, Steinau°a.°d.°Straße",
+        "birth": "29.°Oktober°1954°in°Homberg",
+        "grave": "Friedhof°Steinau¥-Marborn",
+        "age": 70
       }
     ],
     "23": [
