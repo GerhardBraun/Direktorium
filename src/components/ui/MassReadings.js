@@ -7,22 +7,8 @@ import MassReadingsSelector from '../selectors/MassReadingsSelector.js'; // Impo
 const MassReadings = ({
     TitleBar,
     NavigationButtons,
-    hour,
     texts,
-    selectedDate,
-    title,
-    viewMode,
-    prefSrc,
-    setPrefSrc,
     prefSollemnity,
-    setPrefSollemnity,
-    useCommemoration,
-    setUseCommemoration,
-
-    localPrefLanguage = '',
-    localPrefLatin = false,
-    setlocalPrefLatin,
-    setlocalprefLanguage,
     onBack,
     onSelectHour,
     onPrevDay,
@@ -30,6 +16,12 @@ const MassReadings = ({
 }) => {
     // Neuer State für die Auswahl der Lesungsquelle
     const [readingSource, setReadingSource] = useState('oblig');
+
+    const setOfResp = ['',
+        'Herr Jesus, dir sei Ruhm und Ehre!',
+        'Lob dir, Christus, König und Erlöser!',
+        'Christus, du ewiges Wort des Vaters, Ehre sei dir!',
+    ]
 
     // Standardwerte für readingSource setzen
     useEffect(() => {
@@ -42,11 +34,8 @@ const MassReadings = ({
 
     // Daten aus der ausgewählten Quelle holen, nicht mehr fest aus 'wt'
     const {
-        ms_les_buch, ms_les_stelle, ms_les_motto, ms_les_text,
         ms_aps_stelle, ms_aps_kv, ms_aps_text,
-        ms_les2_buch, ms_les2_stelle, ms_les2_motto, ms_les2_text,
         ms_ruf_stelle, ms_ruf_text,
-        ms_ev_buch, ms_ev_stelle, ms_ev_motto, ms_ev_text,
     } = texts?.messe?.[readingSource] || {}
 
     let ruf_stelle = ms_ruf_stelle || '',
@@ -58,20 +47,14 @@ const MassReadings = ({
         ruf_text = rufData.Text;
     }
 
-    let resp = 'Halleluja.'
-    let respWithRepeat = 'Halleluja. Halleluja.'
+    let resp = 'Halleluja.',
+        respWithRepeat = 'Halleluja. Halleluja.'
     if (texts?.season === 'q') {
-        if (texts?.swdCombined === 'q-6-0') {
+        if (texts?.swdCombined === 'q-6-0')
             resp = 'Christus Sieger, Christus°König, Christus°Herr°in°Ewigkeit!'
-        }
         else {
             let index = Math.ceil(texts?.dayOfWeek / 2)
             if (!index) index = (texts?.yearABC.toLowerCase().charCodeAt(0) - 96)
-            const setOfResp = ['',
-                'Herr Jesus, dir sei Ruhm und Ehre!',
-                'Lob dir, Christus, König und Erlöser!',
-                'Christus, du ewiges Wort des Vaters, Ehre sei dir!',
-            ]
             resp = setOfResp[index]
         }
         respWithRepeat = resp + '°^r–°Kv^0r'
@@ -121,7 +104,6 @@ const MassReadings = ({
                     prefSollemnity={prefSollemnity}
                 />
                 <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6 pb-1">
-                    {/* Verwenden des neuen MassReadingsSelector anstelle von SourceSelector */}
                     <MassReadingsSelector
                         texts={texts}
                         readingSource={readingSource}
@@ -135,6 +117,7 @@ const MassReadings = ({
                 <div className="mb-6">
                     {/* Erste Lesung */}
                     <Reading type="les" title="ERSTE LESUNG" />
+
                     {/* Antwortpsalm */}
                     {ms_aps_text && (
                         <div className="mb-8">
@@ -158,26 +141,32 @@ const MassReadings = ({
                             {formatPrayerText('^P' + ms_aps_text + '°^r–°Kv^0r', '', 'Aps')}
                         </div>
                     )}
-                    {/* Zweite Lesung und Evangelium */}
+
+                    {/* Zweite Lesung */}
                     <Reading type="les2" title="ZWEITE LESUNG" />
 
+                    {/* Ruf vor dem Evangelium */}
                     {ruf_text && (
                         <div className="mb-8">
                             <h2 className="prayer-heading">RUF VOR DEM EVANGELIUM</h2>
-                            {ruf_stelle && (<div className="mb-1 text-[0.9em] text-gray-400">
-                                {formatBibleRef(ruf_stelle)}
-                            </div>
+                            {ruf_stelle && (
+                                <div className="mb-1 text-[0.9em] text-gray-400">
+                                    {formatBibleRef(ruf_stelle)}
+                                </div>
                             )}
-                            <div className="mb-2">
+                            <div >
                                 {formatPrayerText(respWithRepeat)}
                             </div>
-                            <div >{formatPrayerText(ruf_text)}</div>
-                            <div className="mt-2">
+                            <div className="mt-2 mb-2">
+                                {formatPrayerText(ruf_text)}
+                            </div>
+                            <div >
                                 {formatPrayerText(resp)}
                             </div>
                         </div>
                     )}
 
+                    {/* Evangelium */}
                     <Reading type="ev" title="EVANGELIUM" />
                 </div>
             </div>
