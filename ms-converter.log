@@ -5826,3 +5826,41 @@ requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 2025-10-25 03:39:07,485 - INFO - Verarbeitung abgeschlossen. Ausgabe in C:\AppProjekte\direktorium\src\components\data\ms-output.txt geschrieben.
 2025-10-25 03:39:07,486 - WARNING - Konnte temporäre Datei nicht löschen: [WinError 32] Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird: 'C:\\Users\\GERHAR~1\\AppData\\Local\\Temp\\temp_Stundenbuch.xlsm'
 2025-10-25 03:39:07,487 - INFO - ms-converter erfolgreich abgeschlossen
+2025-10-27 05:45:44,394 - INFO - Starte ms-converter Skript
+2025-10-27 05:45:44,413 - INFO - Temporäre Kopie erstellt: C:\Users\GERHAR~1\AppData\Local\Temp\temp_Stundenbuch.xlsm
+2025-10-27 05:45:44,413 - INFO - Lade Excel-Datei: C:\Users\Gerhard Braun\OneDrive - Bistum-FD\0_Allgemeines\05_Dioezese\059_Sonstiges\Direktorium\Stundenbuch.xlsm
+2025-10-27 05:45:46,653 - INFO - Verarbeite Tabellenblatt: Kalender_BuM (2)
+2025-10-27 05:46:36,312 - WARNING - Konnte temporäre Datei nicht löschen: [WinError 32] Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird: 'C:\\Users\\GERHAR~1\\AppData\\Local\\Temp\\temp_Stundenbuch.xlsm'
+2025-10-27 06:08:28,095 - INFO - Starte ms-converter Skript
+2025-10-27 06:08:28,111 - INFO - Temporäre Kopie erstellt: C:\Users\GERHAR~1\AppData\Local\Temp\temp_Stundenbuch.xlsm
+2025-10-27 06:08:28,111 - INFO - Lade Excel-Datei: C:\Users\Gerhard Braun\OneDrive - Bistum-FD\0_Allgemeines\05_Dioezese\059_Sonstiges\Direktorium\Stundenbuch.xlsm
+2025-10-27 06:08:30,085 - INFO - Verarbeite Tabellenblatt: Kalender_BuM (2)
+2025-10-27 06:08:30,088 - WARNING - Spalte 'Ms_Ev_ID2' wurde in Tabellenblatt 'Kalender_BuM (2)' nicht gefunden
+2025-10-27 06:08:30,088 - WARNING - Spalte 'Ms_Ev_ID3' wurde in Tabellenblatt 'Kalender_BuM (2)' nicht gefunden
+2025-10-27 06:08:44,448 - WARNING - Konnte temporäre Datei nicht löschen: [WinError 32] Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird: 'C:\\Users\\GERHAR~1\\AppData\\Local\\Temp\\temp_Stundenbuch.xlsm'
+2025-10-27 06:09:22,660 - INFO - Starte ms-converter Skript
+2025-10-27 06:09:22,670 - INFO - Temporäre Kopie erstellt: C:\Users\GERHAR~1\AppData\Local\Temp\temp_Stundenbuch.xlsm
+2025-10-27 06:09:22,670 - INFO - Lade Excel-Datei: C:\Users\Gerhard Braun\OneDrive - Bistum-FD\0_Allgemeines\05_Dioezese\059_Sonstiges\Direktorium\Stundenbuch.xlsm
+2025-10-27 06:09:24,784 - INFO - Verarbeite Tabellenblatt: Kalender_BuM (2)
+2025-10-27 06:09:24,787 - WARNING - Spalte 'Ms_Ev_ID2' wurde in Tabellenblatt 'Kalender_BuM (2)' nicht gefunden
+2025-10-27 06:09:24,787 - WARNING - Spalte 'Ms_Ev_ID3' wurde in Tabellenblatt 'Kalender_BuM (2)' nicht gefunden
+2025-10-27 06:09:29,949 - WARNING - Konnte temporäre Datei nicht löschen: [WinError 32] Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird: 'C:\\Users\\GERHAR~1\\AppData\\Local\\Temp\\temp_Stundenbuch.xlsm'
+2025-10-27 06:10:01,238 - INFO - Starte ms-converter Skript
+2025-10-27 06:10:01,251 - INFO - Temporäre Kopie erstellt: C:\Users\GERHAR~1\AppData\Local\Temp\temp_Stundenbuch.xlsm
+2025-10-27 06:10:01,252 - INFO - Lade Excel-Datei: C:\Users\Gerhard Braun\OneDrive - Bistum-FD\0_Allgemeines\05_Dioezese\059_Sonstiges\Direktorium\Stundenbuch.xlsm
+2025-10-27 06:10:03,440 - INFO - Verarbeite Tabellenblatt: Kalender_BuM (2)
+2025-10-27 06:14:01,873 - INFO - Verarbeitung abgeschlossen. Ausgabe in C:\AppProjekte\direktorium\src\components\data\ms-output-BuM.txt geschrieben.
+2025-10-27 06:14:01,874 - WARNING - Konnte temporäre Datei nicht löschen: [WinError 32] Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird: 'C:\\Users\\GERHAR~1\\AppData\\Local\\Temp\\temp_Stundenbuch.xlsm'
+2025-10-27 06:14:01,877 - INFO - ms-converter erfolgreich abgeschlossen
+2025-10-27 06:31:08,339 - INFO - Starte ms-converter Skript
+2025-10-27 06:31:08,353 - INFO - Temporäre Kopie erstellt: C:\Users\GERHAR~1\AppData\Local\Temp\temp_Stundenbuch.xlsm
+2025-10-27 06:31:08,353 - INFO - Lade Excel-Datei: C:\Users\Gerhard Braun\OneDrive - Bistum-FD\0_Allgemeines\05_Dioezese\059_Sonstiges\Direktorium\Stundenbuch.xlsm
+2025-10-27 06:31:08,984 - INFO - Verarbeite Tabellenblatt: Kalender_BuM (2)
+2025-10-27 06:35:01,766 - INFO - Verarbeitung abgeschlossen. Ausgabe in C:\AppProjekte\direktorium\src\components\data\ms-output-BuM.txt geschrieben.
+2025-10-27 06:35:01,768 - WARNING - Konnte temporäre Datei nicht löschen: [WinError 32] Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird: 'C:\\Users\\GERHAR~1\\AppData\\Local\\Temp\\temp_Stundenbuch.xlsm'
+2025-10-27 06:35:01,769 - INFO - ms-converter erfolgreich abgeschlossen
+2025-10-27 06:44:19,219 - INFO - Starte ms-converter Skript
+2025-10-27 06:44:19,237 - INFO - Temporäre Kopie erstellt: C:\Users\GERHAR~1\AppData\Local\Temp\temp_Stundenbuch.xlsm
+2025-10-27 06:44:19,238 - INFO - Lade Excel-Datei: C:\Users\Gerhard Braun\OneDrive - Bistum-FD\0_Allgemeines\05_Dioezese\059_Sonstiges\Direktorium\Stundenbuch.xlsm
+2025-10-27 06:44:19,884 - INFO - Verarbeite Tabellenblatt: Kalender_BuM (2)
+2025-10-27 06:44:23,203 - WARNING - Konnte temporäre Datei nicht löschen: [WinError 32] Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird: 'C:\\Users\\GERHAR~1\\AppData\\Local\\Temp\\temp_Stundenbuch.xlsm'

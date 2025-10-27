@@ -1,4 +1,4 @@
-// RufvdEv.ts - Automatisch generiert am 26.10.2025 21:29:34
+// RufvdEv.ts - Automatisch generiert am 27.10.2025 11:50:29
 // RufvdEv-Datenbank: ID -> { Stelle, Text }
 
 export const rufvdevData = {
@@ -50,7 +50,7 @@ export const rufvdevData = {
     Stelle: 'vgl. 1 Tim 3,16',
     Text: 'Christus, offenbart im Fleisch, verkündet unter den Heiden,^lChristus, geglaubt in der Welt: Ehre sei dir!'
   },
-  '2 Chr 7,16a': {
+  '2 Chr 7,16': {
     Stelle: 'vgl. 2 Chr 7,16a',
     Text: '^SPRICHTIch habe dieses Haus erwählt und geheiligt,^ldamit mein Name hier sei auf ewig.'
   },
@@ -202,9 +202,13 @@ export const rufvdevData = {
     Stelle: 'vgl. Joh 12,31b–32',
     Text: '^SPRICHTJetzt wird der Herrscher dieser Welt hinausgeworfen werden;^lund wenn ich über die Erde erhöht bin, werde alle an mich ziehen.'
   },
-  'Joh 13,34ac': {
+  'Joh 13,34': {
     Stelle: 'Joh 13,34ac',
     Text: '^SPRICHTEin neues Gebot gebe ich euch:^lWie ich euch geliebt habe, so sollt auch ihr einander lieben.'
+  },
+  'Joh 13,34oder': {
+    Stelle: 'Joh 13,34ac',
+    Text: '^SPRICHTEin neues Gebot gebe ich euch:^lWie ich euch geliebt habe, so sollt auch ihr einander lieben.^ODERDies ist mein Gebot:^lLiebet einander, wie ich euch geliebt.'
   },
   'Joh 14,16': {
     Stelle: 'Joh 14,16',
@@ -258,7 +262,7 @@ export const rufvdevData = {
     Stelle: 'Joh 15,9',
     Text: 'Wie mich der Vater geliebt hat, so habe auch ich euch geliebt.^lBleibt in meiner Liebe!'
   },
-  'Joh 15,9b.5b': {
+  'Joh 15,9bleibt': {
     Stelle: 'Joh 15,9b.5b',
     Text: '^SPRICHTBleibt in meiner Liebe.^lWer in mir bleibt und in wem ich bleibe,^lder bringt reiche Frucht.'
   },
@@ -430,11 +434,11 @@ export const rufvdevData = {
     Stelle: 'Lk 3,4.6',
     Text: 'Bereitet dem Herrn den Weg! Ebnet ihm die Straßen!^lUnd alle Menschen werden das Heil sehen, das von Gott kommt.'
   },
-  'Lk 4,18ab (Jes 61,1ab)': {
+  'Lk 4,18': {
     Stelle: 'vgl. Lk 4,18ab (Jes 61,1ab)',
     Text: 'Der Geist des Herrn ruht auf mir.^lDer Herr hat mich gesandt,^lden Armen die Frohe Botschaft zu bringen.'
   },
-  'Lk 4,18ab.19': {
+  'Lk 4,18.19': {
     Stelle: 'Lk 4,18ab.19',
     Text: 'Der Geist des Herrn ruht auf mir; denn der Herr hat mich gesalbt.^lEr hat mich gesandt, damit ich den Armen eine gute Nachricht bringe^lund ein Gnadenjahr des Herrn ausrufe.'
   },
@@ -506,7 +510,7 @@ export const rufvdevData = {
     Stelle: 'Mt 23,9b.10b',
     Text: 'Einer ist euer Vater, der im Himmel.^lEiner ist euer Lehrer, Christus.'
   },
-  'Mt 24,42a.44': {
+  'Mt 24,42': {
     Stelle: 'vgl. Mt 24,42a.44',
     Text: 'Seid wachsam und haltet euch bereit!^lDenn der Menschensohn kommt zu einer Stunde,^lin der ihr es nicht erwartet.'
   },
@@ -522,7 +526,7 @@ export const rufvdevData = {
     Stelle: 'Mt 25,40',
     Text: '^SPRICHTDarauf wird der König ihnen antworten:^lAmen, ich sage euch: Was ihr für einen meiner geringsten Brüder getan habt,^ldas habt ihr mir getan.'
   },
-  'Mt 28,19a.20b': {
+  'Mt 28,19': {
     Stelle: 'Mt 28,19a.20b',
     Text: '^SPRICHTGeht zu allen Völkern^lund macht alle Menschen zu meinen Jüngern.^lIch bin bei euch alle Tage bis zum Ende der Welt.'
   },

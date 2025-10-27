@@ -1,10 +1,12 @@
-Calendar Data Processing Log - 2025-10-26 21:29:33.523304
+Calendar Data Processing Log - 2025-10-27 11:50:28.784088
 ============================================================
 
-Keine Überschneidungen gefunden.
+ÜBERSCHNEIDUNG [AAA]: 12-13 oblig (bestehende Quellen: n1)
 
-=== REFERENZ-VALIDIERUNG ===
-Gefundene Referenzen: 6
-✓ Alle Referenzen sind gültig und geprüft
+=== ÜBERSCHNEIDUNGS-ZUSAMMENFASSUNG ===
+Gesamt gefundene Überschneidungen: 1
+AAA: 1 Überschneidungen
 
-Calendar-Daten erfolgreich sortiert: Regionalkalender plus 47 Diözesen
+Zur Unterdrückung von Warnungen können folgende Einträge
+dem allowedOverlaps Set in CalendarMerge.js hinzugefügt werden:
+  'AAA-12-13-oblig',

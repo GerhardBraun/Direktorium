@@ -1,12 +1,13 @@
-import React, { useState, useEffect } from 'react';
-import { formatPrayerText } from '../dataHandlers/TextFormatter.js';
+import React from 'react';
+import { ordinarium } from '../utils/ordinarium.js';
+import { formatPsalm, formatPrayerText } from '../dataHandlers/TextFormatter.js';
 import formatBibleRef from '../dataHandlers/BibleRefFormatter.js';
 import rufvdevData from "../data/RufvdEv.ts";
-import MassReadingsSelector from '../selectors/MassReadingsSelector.js'; // Import des neuen Selectors
 
 const MassReadings = ({
     TitleBar,
     NavigationButtons,
+    SourceSelector,
     hour,
     texts,
     selectedDate,
@@ -28,31 +29,19 @@ const MassReadings = ({
     onPrevDay,
     onNextDay,
 }) => {
-    // Neuer State für die Auswahl der Lesungsquelle
-    const [readingSource, setReadingSource] = useState('oblig');
-
-    // Standardwerte für readingSource setzen
-    useEffect(() => {
-        if (texts?.messe?.oblig?.ms_les_text || texts?.messe?.oblig?.ms_ev_text) {
-            setReadingSource('oblig');
-        } else if (texts?.messe?.wt?.ms_les_text || texts?.messe?.wt?.ms_ev_text) {
-            setReadingSource('wt');
-        }
-    }, [texts]);
-
-    // Daten aus der ausgewählten Quelle holen, nicht mehr fest aus 'wt'
+    // Hole die Daten
     const {
         ms_les_buch, ms_les_stelle, ms_les_motto, ms_les_text,
         ms_aps_stelle, ms_aps_kv, ms_aps_text,
         ms_les2_buch, ms_les2_stelle, ms_les2_motto, ms_les2_text,
         ms_ruf_stelle, ms_ruf_text,
         ms_ev_buch, ms_ev_stelle, ms_ev_motto, ms_ev_text,
-    } = texts?.messe?.[readingSource] || {}
+    } = texts?.messe?.wt
 
     let ruf_stelle = ms_ruf_stelle || '',
         ruf_text = ms_ruf_text || '';
     const rufData = rufvdevData?.[ms_ruf_text]
-
+    console.log('RufvdEv Data:', ms_ruf_text, rufData, rufvdevData);
     if (rufData) {
         ruf_stelle = rufData.Stelle;
         ruf_text = rufData.Text;
@@ -78,11 +67,10 @@ const MassReadings = ({
     }
 
     const Reading = ({ type, title }) => {
-        // Hier werden die Daten aus der ausgewählten Quelle verwendet
-        const book = texts?.messe?.[readingSource]?.[`ms_${type}_buch`];
-        const stelle = texts?.messe?.[readingSource]?.[`ms_${type}_stelle`];
-        const motto = texts?.messe?.[readingSource]?.[`ms_${type}_motto`];
-        const text = texts?.messe?.[readingSource]?.[`ms_${type}_text`];
+        const book = texts?.messe?.wt[`ms_${type}_buch`];
+        const stelle = texts?.messe?.wt[`ms_${type}_stelle`];
+        const motto = texts?.messe?.wt[`ms_${type}_motto`];
+        const text = texts?.messe?.wt[`ms_${type}_text`];
 
         if (!text) return null;
 
@@ -121,17 +109,25 @@ const MassReadings = ({
                     prefSollemnity={prefSollemnity}
                 />
                 <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6 pb-1">
-                    {/* Verwenden des neuen MassReadingsSelector anstelle von SourceSelector */}
-                    <MassReadingsSelector
+                    <SourceSelector
                         texts={texts}
-                        readingSource={readingSource}
-                        setReadingSource={setReadingSource}
+                        prefSrc={prefSrc}
+                        prefSollemnity={prefSollemnity}
+                        useCommemoration={useCommemoration}
+                        setPrefSrc={setPrefSrc}
+                        setPrefSollemnity={setPrefSollemnity}
+                        setUseCommemoration={setUseCommemoration}
+                        onSelectHour={onSelectHour}
+                        viewMode={viewMode}
+                        season={texts.season}
+                        hour={hour}
                         className="mb-4"
                     />
                 </div>
             </div>
 
             <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6 py-1">
+
                 <div className="mb-6">
                     {/* Erste Lesung */}
                     <Reading type="les" title="ERSTE LESUNG" />
@@ -180,6 +176,8 @@ const MassReadings = ({
 
                     <Reading type="ev" title="EVANGELIUM" />
                 </div>
+
+
             </div>
 
             {/* Navigation */}
@@ -194,5 +192,6 @@ const MassReadings = ({
         </div >
     );
 };
+
 
 export { MassReadings };
