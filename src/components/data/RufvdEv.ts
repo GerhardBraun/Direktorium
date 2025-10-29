@@ -1,8 +1,8 @@
-// RufvdEv.ts - Automatisch generiert am 27.10.2025 15:33:30
+// RufvdEv.ts - Automatisch generiert am 29.10.2025 10:42:52
 // RufvdEv-Datenbank: ID -> { Stelle, Text }
 
 export const rufvdevData = {
-  '1 Chr 29,10b.11b': {
+  '1 Chr 29,10': {
     Stelle: '1 Chr 29,10b.11b',
     Text: 'Gepriesen bist du, Herr, Gott unseres Vaters Israel.^lDein ist alles im Himmel und auf Erden.'
   },
@@ -10,15 +10,15 @@ export const rufvdevData = {
     Stelle: '1 Joh 2,5',
     Text: 'Wer sich an Christi Wort hält,^lin dem ist die Gottesliebe wahrhaft vollendet.'
   },
-  '1 Joh 4,10b': {
+  '1 Joh 4,10': {
     Stelle: '1 Joh 4,10b',
     Text: 'Gott hat uns geliebt^lund seinen Sohn gesandt als Sühne für unsere Sünden.'
   },
-  '1 Joh 4,12b': {
+  '1 Joh 4,12': {
     Stelle: '1 Joh 4,12b',
     Text: 'Wenn wir einander lieben, bleibt Gott in uns^lund seine Liebe ist in uns vollendet.'
   },
-  '1 Kor 1,23a.24b': {
+  '1 Kor 1,23': {
     Stelle: '1 Kor 1,23a.24b',
     Text: 'Wir verkündigen Christus als den Gekreuzigten:^lGottes Kraft und Gottes Weisheit.'
   },
@@ -34,7 +34,7 @@ export const rufvdevData = {
     Stelle: 'vgl. 1 Petr 4,14',
     Text: 'Wenn man euch um des Namens Christi willen beschimpft,^lseid ihr seligzupreisen;^ldenn der Geist Gottes ruht auf euch.'
   },
-  '1 Sam 3,9; Joh 6,68c': {
+  '1 Sam 3,9': {
     Stelle: '1 Sam 3,9; Joh 6,68c',
     Text: 'Rede, Herr, dein Diener hört.^lDu hast Worte des ewigen Lebens.'
   },
@@ -54,7 +54,7 @@ export const rufvdevData = {
     Stelle: 'vgl. 2 Chr 7,16a',
     Text: '^SPRICHTIch habe dieses Haus erwählt und geheiligt,^ldamit mein Name hier sei auf ewig.'
   },
-  '2 Kor 1,3b–4a': {
+  '2 Kor 1,3b': {
     Stelle: '2 Kor 1,3b–4a',
     Text: 'Gepriesen sei der Vater des Erbarmens und der Gott allen Trostes.^lEr tröstet uns in all unserer Not.'
   },
@@ -62,7 +62,7 @@ export const rufvdevData = {
     Stelle: 'vgl. 2 Kor 5,19',
     Text: 'Gott hat in Christus die Welt mit sich versöhnt^lund uns das Wort von der Versöhnung anvertraut.'
   },
-  '2 Kor 6,2b': {
+  '2 Kor 6,2': {
     Stelle: '2 Kor 6,2b',
     Text: 'Jetzt ist sie da, die Zeit der Gnade;^ljetzt ist er da, der Tag der Rettung.'
   },
@@ -82,15 +82,15 @@ export const rufvdevData = {
     Stelle: 'vgl. Am 5,14',
     Text: 'Sucht das Gute, nicht das Böse;^ldann werdet ihr leben, und der Herr wird mit euch sein.'
   },
-  'Apg 16,14b': {
+  'Apg 16,14': {
     Stelle: 'vgl. Apg 16,14b',
     Text: 'Herr, öffne uns das Herz,^ldass wir auf die Worte deines Sohnes hören.'
   },
-  'Dan 3,52b': {
+  'Dan 3,52': {
     Stelle: 'Dan 3,52b',
     Text: 'Gepriesen ist dein heiliger, herrlicher Name,^lhochgelobt und verherrlicht in Ewigkeit.'
   },
-  'Eph 1,17–18': {
+  'Eph 1,17': {
     Stelle: 'vgl. Eph 1,17–18',
     Text: 'Der Vater unseres Herrn Jesus Christus^lerleuchte die Augen unseres Herzens,^ldamit wir verstehen, zu welcher Hoffnung wir berufen sind.'
   },
@@ -110,7 +110,7 @@ export const rufvdevData = {
     Stelle: 'Gal 6,14',
     Text: 'Ich will mich allein des Kreuzes unseres Herrn Jesus Christus rühmen,^ldurch das mir die Welt gekreuzigt ist und ich der Welt.'
   },
-  'Hebr 1,1–2': {
+  'Hebr 1,1': {
     Stelle: 'vgl. Hebr 1,1–2',
     Text: 'Einst hat Gott zu den Vätern gesprochen durch die Propheten;^lHeute aber hat er zu uns gesprochen durch den Sohn.'
   },
@@ -126,7 +126,7 @@ export const rufvdevData = {
     Stelle: 'vgl. Jak 1,18',
     Text: 'Durch das Wort der Wahrheit hat uns der Vater das Leben geschenkt^lund uns zu Erstlingen seiner Schöpfung gemacht.'
   },
-  'Jak 1,21bc': {
+  'Jak 1,21': {
     Stelle: 'Jak 1,21bc',
     Text: 'Nehmt euch das Wort zu Herzen, das in euch eingepflanzt worden ist^lund das die Macht hat, euch zu retten!'
   },
@@ -138,13 +138,17 @@ export const rufvdevData = {
     Stelle: 'Jes 40,9',
     Text: 'Jerusalem, du Botin der Freude, erhebe laut deine Stimme!^lSeht, Gott, der Herr, kommt mit Macht.'
   },
-  'Jes 45,8ab': {
+  'Jes 45,8': {
     Stelle: 'Jes 45,8ab',
     Text: 'Taut, ihr Himmel, von oben,^lihr Wolken, lasst Gerechtigkeit regnen!^lDie Erde tue sich auf und bringe das Heil hervor.'
   },
   'Jes 52,7': {
     Stelle: 'vgl. Jes 52,7',
     Text: 'Willkommen ist der Freudenbote,^lder die Frohe Botschaft bringt und Rettung verheißt.'
+  },
+  'Jes 52,7altern': {
+    Stelle: 'vgl. Jes 52,7',
+    Text: 'Wie willkommen sind auf den Bergen^ldie Schritte des Freudenboten, der eine frohe Botschaft bringt.'
   },
   'Jes 55,6': {
     Stelle: 'Jes 55,6',
@@ -154,27 +158,31 @@ export const rufvdevData = {
     Stelle: 'vgl. Jes 61,1 (Lk 4,18)',
     Text: 'Der Herr hat mich gesandt,^lden Armen die Frohe Botschaft zu bringen^lund den Gefangenen die Freiheit zu verkünden.'
   },
-  'Joh 1,14a.12a': {
-    Stelle: 'Joh 1,14a.12a',
-    Text: 'Das Wort ist Fleisch geworden und hat unter uns gewohnt.^lAllen, die ihn aufnahmen, gab er Macht, Kinder Gottes zu werden.'
+  'Joel 2,12': {
+    Stelle: 'vgl. Joël 2,12.13',
+    Text: 'Kehrt um zum Herrn von ganzem Herzen;^ldenn er ist gnädig und barmherzig, voll Langmut und reich an Güte.'
   },
-  'Joh 1,14ab': {
+  'Joh 1,14': {
     Stelle: 'Joh 1,14ab',
     Text: 'Das Wort ist Fleisch geworden und hat unter uns gewohnt^lund wir haben seine Herrlichkeit geschaut.'
+  },
+  'Joh 1,14.12': {
+    Stelle: 'Joh 1,14a.12a',
+    Text: 'Das Wort ist Fleisch geworden und hat unter uns gewohnt.^lAllen, die ihn aufnahmen, gab er Macht, Kinder Gottes zu werden.'
   },
   'Joh 1,29': {
     Stelle: 'vgl. Joh 1,29',
     Text: 'Johannes sah Jesus auf sich zukommen und sagte:^lSeht, das Lamm Gottes, das die Sünde der Welt hinwegnimmt.'
   },
-  'Joh 1,41b.17b': {
+  'Joh 1,41': {
     Stelle: 'vgl. Joh 1,41b.17b',
     Text: 'Wir haben den Messias gefunden, den Gesalbten des Herrn.^lDie Gnade und die Wahrheit sind durch ihn gekommen.'
   },
-  'Joh 1,49b': {
+  'Joh 1,49': {
     Stelle: 'Joh 1,49b',
     Text: 'Rabbi, du bist der Sohn Gottes,^ldu bist der König von Israel!'
   },
-  'Joh 1,7; Lk 1,17': {
+  'Joh 1,7': {
     Stelle: 'Joh 1,7; Lk 1,17',
     Text: 'Er kam als Zeuge, um Zeugnis abzulegen für das Licht^lund das Volk für den Herrn zu bereiten.'
   },
@@ -190,15 +198,15 @@ export const rufvdevData = {
     Stelle: 'Joh 10,27',
     Text: '^SPRICHTMeine Schafe hören auf meine Stimme;^lich kenne sie und sie folgen mir.'
   },
-  'Joh 11,25a.26b': {
+  'Joh 11,25': {
     Stelle: 'vgl. Joh 11,25a.26b',
     Text: '^SPRICHTIch bin die Auferstehung und das Leben.^lJeder, der an mich glaubt, wird auf ewig nicht sterben.'
   },
-  'Joh 12,26a': {
+  'Joh 12,26': {
     Stelle: 'Joh 12,26a',
     Text: '^SPRICHTWenn einer mir dienen will, folge er mir nach;^lund wo ich bin, dort wird auch mein Diener sein.'
   },
-  'Joh 12,31b–32': {
+  'Joh 12,31': {
     Stelle: 'vgl. Joh 12,31b–32',
     Text: '^SPRICHTJetzt wird der Herrscher dieser Welt hinausgeworfen werden;^lund wenn ich über die Erde erhöht bin, werde alle an mich ziehen.'
   },
@@ -214,9 +222,13 @@ export const rufvdevData = {
     Stelle: 'Joh 14,16',
     Text: 'Ich werde den Vater bitten^lund er wird euch einen anderen Beistand geben,^lder für immer bei euch bleiben wird.'
   },
-  'Joh 14,18; 16,22b': {
+  'Joh 14,18': {
     Stelle: 'vgl. Joh 14,18; 16,22b',
     Text: '^SPRICHTIch lasse euch nicht als Waisen zurück.^lIch komme wieder zu euch. Dann wird euer Herz sich freuen.'
+  },
+  'Joh 14,2': {
+    Stelle: 'Joh 14,2a.3b',
+    Text: '^SPRICHTIm Haus meines Vaters gibt es viele Wohnungen.^lIch werde wiederkommen und euch zu mir holen,^ldamit auch ihr dort seid, wo ich bin.'
   },
   'Joh 14,23': {
     Stelle: 'vgl. Joh 14,23',
@@ -226,10 +238,6 @@ export const rufvdevData = {
     Stelle: 'Joh 14,26',
     Text: '^SPRICHTDer Heilige Geist wird euch alles lehren^lund euch an alles erinnern, was ich euch gesagt habe.'
   },
-  'Joh 14,2a.3b': {
-    Stelle: 'Joh 14,2a.3b',
-    Text: '^SPRICHTIm Haus meines Vaters gibt es viele Wohnungen.^lIch werde wiederkommen und euch zu mir holen,^ldamit auch ihr dort seid, wo ich bin.'
-  },
   'Joh 14,6': {
     Stelle: 'Joh 14,6',
     Text: '^SPRICHTIch bin der Weg und die Wahrheit und das Leben.^lNiemand kommt zum Vater außer durch mich.'
@@ -238,7 +246,7 @@ export const rufvdevData = {
     Stelle: 'Joh 15,14',
     Text: '^SPRICHTIhr seid meine Freunde,^lwenn ihr tut, was ich euch auftrage.'
   },
-  'Joh 15,15b': {
+  'Joh 15,15': {
     Stelle: 'vgl. Joh 15,15b',
     Text: '^SPRICHTIch habe euch Freunde genannt;^ldenn ich habe euch alles mitgeteilt,^lwas ich von meinem Vater gehört habe.'
   },
@@ -246,15 +254,15 @@ export const rufvdevData = {
     Stelle: 'vgl. Joh 15,16',
     Text: '^SPRICHTIch habe euch erwählt und dazu bestimmt, dass ihr Frucht bringt^lund dass eure Frucht bleibt.'
   },
-  'Joh 15,26b.27a': {
+  'Joh 15,26': {
     Stelle: 'vgl. Joh 15,26b.27a',
     Text: '^SPRICHTDer Geist der Wahrheit wird Zeugnis geben für mich;^lund auch ihr sollt Zeugen sein.'
   },
-  'Joh 15,4a.5b': {
+  'Joh 15,4': {
     Stelle: 'Joh 15,4a.5b',
     Text: '^SPRICHTBleibt in mir, dann bleibe ich in euch.^lWer in mir bleibt, der bringt reiche Frucht.'
   },
-  'Joh 15,5ab': {
+  'Joh 15,5': {
     Stelle: 'Joh 15,5ab',
     Text: '^SPRICHTIch bin der Weinstock, ihr seid die Reben.^lWer in mir bleibt und in wem ich bleibe,^lder bringt reiche Frucht'
   },
@@ -342,23 +350,19 @@ export const rufvdevData = {
     Stelle: 'Joh 8,31b–32',
     Text: '^SPRICHTWenn ihr in meinem Wort bleibt, seid ihr wirklich meine Jünger.^lDann werdet ihr die Wahrheit erkennen,^lund die Wahrheit wird euch befreien.'
   },
-  'Joël 2,12.13': {
-    Stelle: 'vgl. Joël 2,12.13',
-    Text: 'Kehrt um zum Herrn von ganzem Herzen;^ldenn er ist gnädig und barmherzig, voll Langmut und reich an Güte.'
-  },
   'Kol 3,1': {
     Stelle: 'Kol 3,1',
     Text: 'Ihr seid mit Christus auferweckt;^ldarum strebt nach dem, was im Himmel ist,^lwo Christus zur Rechten Gottes sitzt'
   },
-  'Kol 3,15a.16a': {
+  'Kol 3,15': {
     Stelle: 'Kol 3,15a.16a',
     Text: 'In eurem Herzen herrsche der Friede Christi.^lDas Wort Christi wohne mit seinem ganzen Reichtum bei euch.'
   },
-  'Kol 3,16a.17c': {
+  'Kol 3,16': {
     Stelle: 'vgl. Kol 3,16a.17c',
     Text: 'Das Wort Christi wohne mit seinem ganzen Reichtum bei euch.^lDurch Christus dankt Gott, dem Vater!'
   },
-  'Lk 1,28.42': {
+  'Lk 1,28': {
     Stelle: 'vgl. Lk 1,28.42',
     Text: 'Gegrüßet seist du, Maria, voll der Gnade,^lder Herr ist mit dir,^ldu bist gebenedeit unter der Frauen.'
   },
@@ -394,7 +398,7 @@ export const rufvdevData = {
     Stelle: 'Lk 19,38',
     Text: 'Gesegnet sei der König, der kommt im Namen des Herrn.^lIm Himmel Friede und Herrlichkeit in der Höhe!'
   },
-  'Lk 2,10–11': {
+  'Lk 2,10': {
     Stelle: 'vgl. Lk 2,10–11',
     Text: 'Ich verkünde euch eine große Freude:^lHeute ist uns der Retter geboren:^lEr ist der Messias, der Herr.'
   },
@@ -418,19 +422,23 @@ export const rufvdevData = {
     Stelle: 'vgl. Lk 21,36',
     Text: 'Wacht und betet allezeit,^ldamit ihr hintreten könnt vor den Menschensohn.'
   },
-  'Lk 22,30a': {
+  'Lk 22,30': {
     Stelle: 'Lk 22,30a',
     Text: '^SPRICHTIhr sollt in meinem Reich^lmit mir an meinem Tisch essen und trinken.'
   },
   'Lk 24,32': {
     Stelle: 'vgl. Lk 24,32',
+    Text: 'Brannte uns nicht das Herz,^lals der Herr unterwegs mit uns redete^lund uns den Sinn der Schrift erschloss?'
+  },
+  'Lk 24,32altern': {
+    Stelle: 'vgl. Lk 24,32',
     Text: 'Herr, erschließ uns die Schrift!^lLass unser Herz entbrennen, wenn du zu uns redest.'
   },
-  'Lk 24,46.26': {
+  'Lk 24,46': {
     Stelle: 'vgl. Lk 24,46.26',
     Text: 'Christus musste leiden und von den Toten auferstehen,^lum so in seine Herrlichkeit zu gelangen.'
   },
-  'Lk 3,4.6': {
+  'Lk 3,4': {
     Stelle: 'Lk 3,4.6',
     Text: 'Bereitet dem Herrn den Weg! Ebnet ihm die Straßen!^lUnd alle Menschen werden das Heil sehen, das von Gott kommt.'
   },
@@ -450,7 +458,7 @@ export const rufvdevData = {
     Stelle: 'vgl. Lk 8,15',
     Text: 'Selig, die das Wort mit aufrichtigem Herzen hören^lund Frucht bringen in Geduld.'
   },
-  'Mk 1,15b': {
+  'Mk 1,15': {
     Stelle: 'Mk 1,15b',
     Text: 'Das Reich Gottes ist nahe.^lKehrt um, und glaubt an das Evangelium!'
   },
@@ -502,11 +510,11 @@ export const rufvdevData = {
     Stelle: 'vgl. Mt 2,2',
     Text: 'Wir haben seinen Stern gesehen^lund sind gekommen, dem Herrn zu huldigen.'
   },
-  'Mt 23,11.12b': {
+  'Mt 23,11': {
     Stelle: 'Mt 23,11.12b',
     Text: 'Der Größte von euch soll euer Diener sein.^lDenn wer sich selbst erniedrigt, wird erhöht werden.'
   },
-  'Mt 23,9b.10b': {
+  'Mt 23,9': {
     Stelle: 'Mt 23,9b.10b',
     Text: 'Einer ist euer Vater, der im Himmel.^lEiner ist euer Lehrer, Christus.'
   },
@@ -530,7 +538,7 @@ export const rufvdevData = {
     Stelle: 'Mt 28,19a.20b',
     Text: '^SPRICHTGeht zu allen Völkern^lund macht alle Menschen zu meinen Jüngern.^lIch bin bei euch alle Tage bis zum Ende der Welt.'
   },
-  'Mt 3,16.17': {
+  'Mt 3,16': {
     Stelle: 'vgl. Mt 3,16.17; Mk 9,7',
     Text: 'Der Himmel tat sich auf, und eine Stimme sprach:^lDas ist mein geliebter Sohn; auf ihn sollt ihr hören.'
   },
@@ -542,11 +550,11 @@ export const rufvdevData = {
     Stelle: 'Mt 4,17',
     Text: '^SPRICHTKehrt um!^lDenn das Himmelreich ist nahe.'
   },
-  'Mt 4,23b': {
+  'Mt 4,23': {
     Stelle: 'Mt 4,23b',
     Text: 'Jesus verkündete das Evangelium vom Reich^lund heilte im Volk alle Krankheiten und Leiden.'
   },
-  'Mt 4,4b': {
+  'Mt 4,4': {
     Stelle: 'vgl. Mt 4,4b',
     Text: 'Nicht nur vom Brot lebt der Mensch,^lsondern von jedem Wort aus Gottes Mund.'
   },
@@ -554,7 +562,7 @@ export const rufvdevData = {
     Stelle: 'vgl. Mt 5,10',
     Text: 'Selig, die um der Gerechtigkeit willen Verfolgung leiden;^ldenn ihnen gehört das Himmelreich.'
   },
-  'Mt 5,12a': {
+  'Mt 5,12': {
     Stelle: 'Mt 5,12a = Lk 6,23ab',
     Text: 'Freut euch und jubelt:^lEuer Lohn wird groß sein im Himmel.'
   },
@@ -574,7 +582,7 @@ export const rufvdevData = {
     Stelle: 'vgl. Offb 1,5',
     Text: 'Jesus Christus, du bist der treue Zeuge, der Erstgeborene der Toten.^lDu liebst uns^lund hast uns von unseren Sünden erlöst durch dein Blut.'
   },
-  'Offb 1,5a.6b': {
+  'Offb 1,5.6': {
     Stelle: 'Offb 1,5a.6b',
     Text: 'Jesus Christus ist der Erstgeborene der Toten.^lIhm sei die Herrlichkeit und die Macht in alle Ewigkeit.'
   },
@@ -582,7 +590,7 @@ export const rufvdevData = {
     Stelle: 'vgl. Offb 1,8',
     Text: 'Ehre sei dem Vater und dem Sohn und dem Heiligen Geist.^lEhre sei dem einen Gott,^lder war und der ist und der kommen wird.'
   },
-  'Offb 2,8b.10c': {
+  'Offb 2,8': {
     Stelle: 'Offb 2,8b.10c',
     Text: '(So spricht Er, der Erste und der Letzte:)^lSei treu bis in den Tod;^ldann werde ich dir den Kranz des Lebens geben.'
   },
@@ -590,15 +598,15 @@ export const rufvdevData = {
     Stelle: 'Offb 21,3',
     Text: 'Seht, die Wohnung Gottes unter den Menschen!^lEr wird in ihrer Mitte wohnen, und sie werden sein Volk sein;^lund er, Gott, wird bei ihnen sein.'
   },
-  'Phil 2,16a.15d': {
+  'Phil 2,16': {
     Stelle: 'vgl. Phil 2,16a.15d',
     Text: 'Haltet fest am Worte Christi,^ldann leuchtet ihr als Lichter in der Welt.'
   },
-  'Phil 2,8b–9': {
+  'Phil 2,8': {
     Stelle: 'vgl. Phil 2,8b–9',
     Text: 'Christus war für uns gehorsam bis zum Tod,^lbis zum Tod am Kreuz.^lDarum hat ihn Gott über alle erhöht^lund ihm den Namen verliehen, der größer ist als alle Namen.'
   },
-  'Phil 3,8b–9a': {
+  'Phil 3,8': {
     Stelle: 'vgl. Phil 3,8b–9a',
     Text: 'Ich habe alles aufgegeben, um Christus zu gewinnen^lund in ihm zu sein.'
   },
@@ -610,7 +618,7 @@ export const rufvdevData = {
     Stelle: 'vgl. Ps 118,24',
     Text: 'Das ist der Tag, den der Herr gemacht;^llasst uns jubeln und seiner uns freuen.'
   },
-  'Ps 118,26a.27a': {
+  'Ps 118,26': {
     Stelle: 'Ps 118,26a.27a',
     Text: 'Gesegnet sei, der kommt im Namen des Herrn!^lGott, der Herr, erleuchte uns.'
   },
@@ -622,7 +630,7 @@ export const rufvdevData = {
     Stelle: 'Ps 119,135',
     Text: 'Lass dein Angesicht leuchten über deinem Knecht^lund lehre mich deine Gesetze!'
   },
-  'Ps 119,36a.29b': {
+  'Ps 119,36': {
     Stelle: 'Ps 119,36a.29b',
     Text: 'Deinen Vorschriften neige mein Herz zu,^lHerr, begnade mich mit deiner Weisung!'
   },
@@ -630,11 +638,11 @@ export const rufvdevData = {
     Stelle: 'Ps 130,5',
     Text: 'Ich hoffe auf den Herrn,^lich warte voll Vertrauen auf sein Wort.'
   },
-  'Ps 130,5.7bc': {
+  'Ps 130,5.7': {
     Stelle: 'Ps 130,5.7bc',
     Text: 'Ich hoffe auf den Herrn, ich warte voll Vertrauen auf sein Wort.^lDenn beim Herrn ist die Huld, bei ihm ist Erlösung in Fülle.'
   },
-  'Ps 25,4a.5a': {
+  'Ps 25,4': {
     Stelle: 'Ps 25,4a.5a',
     Text: 'Zeige mir, Herr, deine Wege,^lführe mich in deiner Treue und lehre mich!'
   },
@@ -650,7 +658,7 @@ export const rufvdevData = {
     Stelle: 'Ps 33,22',
     Text: 'Lass deine Güte über uns walten, o Herr,^ldenn wir schauen aus nach dir.'
   },
-  'Ps 51,12a.14a': {
+  'Ps 51,12': {
     Stelle: 'Ps 51,12a.14a',
     Text: 'Erschaffe mir, Gott, ein reines Herz,^lmach mich wieder froh mit deinem Heil!'
   },
@@ -658,7 +666,7 @@ export const rufvdevData = {
     Stelle: 'Ps 68,20',
     Text: 'Gepriesen sei der Herr, Tag für Tag!^lGott trägt uns, er ist unsre Hilfe.'
   },
-  'Ps 80,3c.4b': {
+  'Ps 80,3': {
     Stelle: 'vgl. Ps 80,3c.4b',
     Text: 'Komm uns zu Hilfe, Herr unser Gott!^lLass dein Angesicht leuchten, dann sind wir gerettet.'
   },
@@ -670,7 +678,7 @@ export const rufvdevData = {
     Stelle: 'Ps 85,8',
     Text: 'Erweise uns, Herr, deine Huld^lund gewähre uns dein Heil!'
   },
-  'Ps 95,7d.8a': {
+  'Ps 95,7': {
     Stelle: 'vgl. Ps 95,7d.8a',
     Text: 'Wenn ihr heute seine Stimme hört,^lverhärtet nicht euer Herz!'
   },
@@ -678,7 +686,7 @@ export const rufvdevData = {
     Stelle: 'vgl. Röm 10,15',
     Text: 'Freude herrscht über die Ankunft der Boten,^lwelche die gute Nachricht bringen.'
   },
-  'Röm 8,15bc': {
+  'Röm 8,15': {
     Stelle: 'Röm 8,15bc',
     Text: 'Ihr habt den Geist empfangen, der euch zu Söhnen macht,^lden Geist, in dem wir rufen: Abba, Vater!'
   },

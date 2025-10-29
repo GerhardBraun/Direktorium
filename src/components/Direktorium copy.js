@@ -33,7 +33,6 @@ import { setLocalStorage } from './utils/PersonalSettings.js';
 import { ordinarium } from "./utils/ordinarium.js";
 import { UserMessageDisplay } from "./data/UserMessageDisplay.js";
 import { MassReadings } from "./ui/MassReadings.js";
-import ScrollableViews from "./ui/ScrollableViews.js";
 
 const fontFamily = "Cambria, serif";
 const hangingIndent = "3.2em"; // Variable für den Einzug
@@ -1441,8 +1440,7 @@ const PrayerTextDisplay = ({
   const PreliminaryNotes = () => {
     let note = ''
     if (texts.dateCompare === '11-02' && texts.dayOfWeek === 0) {
-      if (hour !== 'vigil')
-        note = "Da heute das Gedächtnis Allerseelen auf einen Sonntag fällt, wird die Messe von Allerseelen gefeiert, das°Offizium°jedoch vom°Sonntag°gebetet."
+      note = "Da heute das Gedächtnis Allerseelen auf einen Sonntag fällt, wird die Messe von Allerseelen gefeiert, das°Offizium°jedoch vom°Sonntag°gebetet."
       if (['laudes', 'vesper'].includes(hour)) {
         note = note + " In der Feier mit dem Volk können Laudes und Vesper aus dem Offizium für die Verstorbenen genommen werden. Nutzen Sie dafür den Schalter „Ged°der°Verst“ oben rechts."
       }

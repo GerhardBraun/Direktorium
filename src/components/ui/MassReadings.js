@@ -2,7 +2,63 @@ import React, { useState, useEffect } from 'react';
 import { formatPrayerText } from '../dataHandlers/TextFormatter.js';
 import formatBibleRef from '../dataHandlers/BibleRefFormatter.js';
 import rufvdevData from "../data/RufvdEv.ts";
-import MassReadingsSelector from '../selectors/MassReadingsSelector.js'; // Import des neuen Selectors
+
+const MassReadingsSelector = ({
+    texts,
+    readingSource,
+    setReadingSource,
+    className = ''
+}) => {
+    if (!texts) return null;
+
+    let sourceKeys = ['wt', 'oblig', 'd1', 'd2', 'n1', 'n2', 'n3', 'n4', 'n5', 'd11', 'd12', 'mar'];
+    if (texts.rank_date > 2) sourceKeys = ['oblig', 'wt'];
+
+    // Helper function to check if a source has valid readings
+    const hasValidReadings = (source) => {
+        return !!(texts?.messe?.[source]?.ms_les_text || texts?.messe?.[source]?.ms_ev_text);
+    };
+
+    // Helper function for button colors
+    const getButtonColor = (source) => {
+        if (texts.dateCompare === '11-02' && source === 'oblig')
+            return 'btn-violett';
+        if (source === 'wt') return 'btn-green';
+
+        const color = texts?.laudes?.[source]?.farbe;
+        return color?.charAt(0)?.toLowerCase() === 'r' ? 'btn-red' : 'btn-white';
+    };
+
+    const getButtonName = (source) => {
+        if (texts.dateCompare === '11-02' && source === 'oblig')
+            return 'Allerseelen';
+        if (source === 'wt')
+            return texts?.dayOfWeek === 0 ? 'Vom Sonntag' : 'Vom Wochentag';
+        return texts.laudes[source]?.button?.replace(/°/g, '\u00a0')
+            || "ein Heiliger";
+    };
+
+    return (
+        <div className={`space-y-1 ${className}`}>
+            {/* Source Selection Buttons */}
+            {sourceKeys.map(source => {
+                if (!hasValidReadings(source)) return null;
+
+                return (
+                    <button
+                        key={source}
+                        onClick={() => setReadingSource(source)}
+                        className={`w-full p-1 pt-2 text-sm text-center rounded-sm
+                                  ${getButtonColor(source)}
+                                  ${readingSource === source ? 'ring-2 ring-yellow-500' : ''}`}
+                    >
+                        {getButtonName(source)}
+                    </button>
+                );
+            })}
+        </div>
+    );
+};
 
 const MassReadings = ({
     TitleBar,
@@ -15,7 +71,7 @@ const MassReadings = ({
     onNextDay,
 }) => {
     // Neuer State für die Auswahl der Lesungsquelle
-    const [readingSource, setReadingSource] = useState('oblig');
+    const [readingSource, setReadingSource] = useState('wt');
 
     const setOfResp = ['',
         'Herr Jesus, dir sei Ruhm und Ehre!',
@@ -25,14 +81,14 @@ const MassReadings = ({
 
     // Standardwerte für readingSource setzen
     useEffect(() => {
-        if (texts?.messe?.oblig?.ms_les_text || texts?.messe?.oblig?.ms_ev_text) {
+        if (texts.rank_date > 2 &&
+            (texts?.messe?.oblig?.ms_les_text || texts?.messe?.oblig?.ms_ev_text)) {
             setReadingSource('oblig');
         } else if (texts?.messe?.wt?.ms_les_text || texts?.messe?.wt?.ms_ev_text) {
             setReadingSource('wt');
         }
     }, [texts]);
 
-    // Daten aus der ausgewählten Quelle holen, nicht mehr fest aus 'wt'
     const {
         ms_aps_stelle, ms_aps_kv, ms_aps_text,
         ms_ruf_stelle, ms_ruf_text,
@@ -61,11 +117,14 @@ const MassReadings = ({
     }
 
     const Reading = ({ type, title }) => {
-        // Hier werden die Daten aus der ausgewählten Quelle verwendet
-        const book = texts?.messe?.[readingSource]?.[`ms_${type}_buch`];
-        const stelle = texts?.messe?.[readingSource]?.[`ms_${type}_stelle`];
-        const motto = texts?.messe?.[readingSource]?.[`ms_${type}_motto`];
-        const text = texts?.messe?.[readingSource]?.[`ms_${type}_text`];
+
+        const data = texts?.messe?.[readingSource];
+        if (!data || (!data[`ms_${type}_text`])) return null;
+
+        const book = data?.[`ms_${type}_buch`];
+        const stelle = data?.[`ms_${type}_stelle`];
+        const motto = data?.[`ms_${type}_motto`];
+        const text = data?.[`ms_${type}_text`];
 
         if (!text) return null;
 

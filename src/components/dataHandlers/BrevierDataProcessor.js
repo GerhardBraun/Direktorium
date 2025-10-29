@@ -17,6 +17,8 @@ const personalData = (() => {
     }
 })();
 
+const diocese = localStorage.getItem('diocese') || 'Fulda';
+
 // Helper function to clean up zero-value reference fields after all processing
 function cleanupZeroReferences(hours) {
 
@@ -145,28 +147,22 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
             const ordEvenData = brevierData?.[source]?.['even'];
             const ordSeasonData = brevierData?.[source]?.[season];
             if (ordData) {
-                if (ordData['each']) {
+                if (ordData['each'])
                     mergeData(hours, ordData['each'], source);
-                }
-                if (ordData[dayOfWeek]) {
+                if (ordData[dayOfWeek])
                     mergeData(hours, ordData[dayOfWeek], source);
-                }
             }
             if (week % 2 === 0 && ordEvenData) {
-                if (ordEvenData.each) {
+                if (ordEvenData.each)
                     mergeData(hours, ordEvenData.each, source);
-                }
-                if (ordEvenData[dayOfWeek]) {
+                if (ordEvenData[dayOfWeek])
                     mergeData(hours, ordEvenData[dayOfWeek], source);
-                }
             }
             if (ordSeasonData) {
-                if (ordSeasonData['each']) {
+                if (ordSeasonData['each'])
                     mergeData(hours, ordSeasonData['each'], source);
-                }
-                if (ordSeasonData[dayOfWeek]) {
+                if (ordSeasonData[dayOfWeek])
                     mergeData(hours, ordSeasonData[dayOfWeek], source);
-                }
             }
         });
         //Ordinary data from personalData
@@ -175,28 +171,22 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         const ordSeasonData = personalData?.wt?.[season];
 
         if (ordData) {
-            if (ordData.each) {
+            if (ordData.each)
                 mergeData(hours, ordData.each, 'pers');
-            }
-            if (ordData[dayOfWeek]) {
+            if (ordData[dayOfWeek])
                 mergeData(hours, ordData[dayOfWeek], 'pers');
-            }
         }
         if (week % 2 === 0 && ordEvenData) {
-            if (ordEvenData.each) {
+            if (ordEvenData.each)
                 mergeData(hours, ordEvenData.each, 'pers');
-            }
-            if (ordEvenData[dayOfWeek]) {
+            if (ordEvenData[dayOfWeek])
                 mergeData(hours, ordEvenData[dayOfWeek], 'pers');
-            }
         }
         if (ordSeasonData) {
-            if (ordSeasonData.each) {
+            if (ordSeasonData.each)
                 mergeData(hours, ordSeasonData.each, 'pers');
-            }
-            if (ordSeasonData[dayOfWeek]) {
+            if (ordSeasonData[dayOfWeek])
                 mergeData(hours, ordSeasonData[dayOfWeek], 'pers');
-            }
         }
 
         function addLayer(source, week, dayOfWeek) {
@@ -219,16 +209,13 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         addLayer('p', weekOfPsalter, dayOfWeek);     // Layer 1: Base layer from 4-week schema
         const pOfSeason = 'p' + season
         addLayer(pOfSeason, weekOfPsalter, dayOfWeek);
-        //if (season === 'j') { addLayer('pj', weekOfPsalter, dayOfWeek); }
-        //if (season === 'o') { addLayer('po', weekOfPsalter, dayOfWeek); }
 
         const weekOfEight = week % 8 || 8
         addLayer('pvigil', weekOfEight, dayOfWeek)
 
-        addLayer(season, 'each', dayOfWeek);        // Layer 3: Weekly schema for the season
-        if (week % 2 === 0) {                       // Layer 4: Bi-weekly schema
-            addLayer(season, 'even', dayOfWeek);
-        }
+        addLayer(season, 'each', dayOfWeek);                        // Layer 3: Weekly schema for the season
+        if (week % 2 === 0) addLayer(season, 'even', dayOfWeek);    // Layer 4: Bi-weekly schema
+
         addLayer(season, week, dayOfWeek);
 
         // Layer 5.1: 'last' für letzte Adventstage, nach Erscheinung und Pfingstnovene
@@ -237,9 +224,8 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
             (season === 'w' && calendarDay > 5 && calendarDay < 13) ||
             (season === 'o' && (week === 7 || (week === 6 && dayOfWeek > 3)))
         );
-        if (shouldUseLast) {
+        if (shouldUseLast)
             addLayer(season, 'last', dayOfWeek);
-        }
 
         // Layer 5.2: 17. Dez. bis Taufe des Herrn (Kalendertage) mit Weihnachtsoktav
         if (season === "a" || season === "w") {
@@ -247,36 +233,37 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
             addLayer('k', calendarMonth, calendarDay);
             // wiederholte Behandlung des 3. und 4. Adventssonntags:
             // Ant und Pss und Oration vom Adventssonntag, sonst vom Kalendertag
-            if (calendarDay > 16 && calendarDay < 24) {
-                addLayer('ak', week, dayOfWeek)
-            };
-
+            if (calendarDay > 16 && calendarDay < 24)
+                addLayer('ak', week, dayOfWeek);
         }
 
         // Process Heiligenfeste only if rank is appropriate
         if (rank_date > 1 && rank_date > rank_wt)
-            processCalendar(hours, season, calendarMonth, calendarDay);
+            processCalendar(hours, yearABC, season, calendarMonth, calendarDay);
 
+        // An Allerseelen auch am Sonntag die Messlesungen
+        if (calendarMonth === 11 && calendarDay === 2 && dayOfWeek === 0)
+            processReadings(hours, yearABC, calendarMonth, calendarDay);
 
         // Feste nach Pfingsten sind als '40. bis 46. Mai' gespeichert
         // 1er-Stelle gibt den Wochentag an:
         // 40=So: Dreif., 41=Mo: Pfingstmontag/Mutter der Kirche,
         // 44=Do: Fronleichnam, 45=Fr: Herz-Jesu-Fest, 46=Sa: Unbefl. Herz Mariae
         if (afterPentecost) {
-            processCalendar(hours, season, 5, afterPentecost, 'wt');
+            processCalendar(hours, yearABC, season, 5, afterPentecost, 'wt');
 
             // Sonderfall: MaterEcclesiae bzw. Herz Mariae und gebotener Gedenktag
             if (rank_date === 2)
-                processCalendar(hours, season, calendarMonth, calendarDay, 'n1');
+                processCalendar(hours, yearABC, season, calendarMonth, calendarDay, 'n1');
 
         }
         // Layer 9: nichtgebotene Gedenktage
         else if (rank_wt < 3) {
-            processCalendar(hours, season, calendarMonth, calendarDay, 'skip');
+            processCalendar(hours, yearABC, season, calendarMonth, calendarDay, 'skip');
 
             // Maria am Samstag
             if (rank_wt < 2 && rank_date < 2 && season === "j" && dayOfWeek === 6)
-                processCalendar(hours, season, 13, 6)
+                processCalendar(hours, yearABC, season, 13, 6)
         }
 
         return {
@@ -350,8 +337,9 @@ function processCommune(hours, season, targetSource) {
     });
 }
 
-function processCalendar(hours, season, calendarMonth, calendarDay, replaceOblig = 'oblig') {
+function processCalendar(hours, yearABC, season, calendarMonth, calendarDay, replaceOblig = 'oblig') {
     const processData = getCalendarData()?.[calendarMonth]?.[calendarDay];
+
     if (processData) {
         if (replaceOblig === 'wt' && [41, 46].includes(calendarDay))
             replaceOblig = 'oblig'
@@ -369,6 +357,18 @@ function processCalendar(hours, season, calendarMonth, calendarDay, replaceOblig
             }
         });
     }
+
+    processReadings(hours, yearABC, calendarMonth, calendarDay);
+}
+
+function processReadings(hours, yearABC, calendarMonth, calendarDay) {
+    const readingsAData = lectureABCData?.AAA?.[calendarMonth]?.[calendarDay]?.a;
+    const readingsBCData = yearABC === 'a' ? null : lectureABCData?.AAA?.[calendarMonth]?.[calendarDay]?.[yearABC];
+    const diocesanReadingsData = diocese ? lectureABCData?.[diocese]?.[calendarMonth]?.[calendarDay]?.a : null;
+
+    if (readingsAData) mergeData(hours, readingsAData, 'oblig');
+    if (readingsBCData) mergeData(hours, readingsBCData, 'oblig');
+    if (diocesanReadingsData) mergeData(hours, diocesanReadingsData, 'oblig');
 }
 
 function processTerzPsalms(hours) {
@@ -660,6 +660,7 @@ export function processBrevierData(todayDate) {
     };
 
     const dateCompare = `${todayMonth.toString().padStart(2, '0')}-${todayDay.toString().padStart(2, '0')}`;
+    finalData.dateCompare = dateCompare;
     finalData.useFeastPsalms = (
         (rank_date > 2 || rank_wt > 2) // Hochfeste und Feste: Ps vom So der I. Woche
         // nicht am Sonntag, Aschermittwoch oder Allerseelen
@@ -671,7 +672,6 @@ export function processBrevierData(todayDate) {
 
     finalData.hasZweiteVesper = (kompletSettings.prefKomplet === 'k2'
         && !['q-6-4', 'q-6-5', 'q-6-6', 'o-1-0'].includes(swdCombined));
-
 
     const sequenceInv = JSON.parse(localStorage.getItem('sequenceInv')) || [95, 100, 24, 67, 67, 100, 24];
     let prefInv = sequenceInv[dayOfWeek];
