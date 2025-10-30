@@ -33,7 +33,7 @@ import { setLocalStorage } from './utils/PersonalSettings.js';
 import { ordinarium } from "./utils/ordinarium.js";
 import { UserMessageDisplay } from "./data/UserMessageDisplay.js";
 import { MassReadings } from "./ui/MassReadings.js";
-import ScrollableViews from "./ui/ScrollableViews.js";
+import ScrollableViews, { setScrollDate } from "./ui/ScrollableViews.js";
 
 const fontFamily = "Cambria, serif";
 const hangingIndent = "3.2em"; // Variable für den Einzug
@@ -170,901 +170,7 @@ const useTouchZoom = (
   return [currentFontSize, setCurrentFontSize];
 };
 
-// Helper-Funktion für View-Navigation
-const getNextView = (currentView, direction) => {
-  const views = ["deceased", "directory", "prayer"];
-  const currentIndex = views.indexOf(currentView);
 
-  if (direction === "right") {
-    return views[Math.min(currentIndex + 1, 2)];
-  } else {
-    return views[Math.max(currentIndex - 1, 0)];
-  }
-};
-
-const getDateRange = (date, daysBefore, daysAfter) => {
-  const startDate = new Date(date);
-  startDate.setDate(date.getDate() - daysBefore);
-  const endDate = new Date(date);
-  endDate.setDate(date.getDate() + daysAfter);
-  return { startDate, endDate };
-};
-
-const isDateInRange = (date, startDate, endDate) => {
-  return date >= startDate && date <= endDate;
-};
-
-const processNotesContent = (content) => {
-  if (!content) return [];
-
-  // Zuerst alle ¥l durch <br /> ersetzen
-  content = content.replace(/¥l/g, "<br />");
-
-  // Dann die Absätze durch ¥h und ¥j splitten und verarbeiten
-  const segments = content.split(/(¥[hj])/);
-
-  // Kombiniere jeweils den Text mit seinem nachfolgenden Tag
-  const processedSegments = [];
-  for (let i = 0; i < segments.length - 1; i += 2) {
-    const text = segments[i];
-    const tag = segments[i + 1] || ""; // falls kein Tag am Ende
-    processedSegments.push(text + tag);
-  }
-
-  // Counter für die Nummerierung
-  let counter = 0;
-
-  // Jetzt die Segmente verarbeiten
-  return processedSegments
-    .map((segment) => {
-      // Bestimme den Typ basierend auf dem End-Tag
-      const type = segment.endsWith("¥j")
-        ? "centered"
-        : segment.endsWith("¥h")
-          ? "normal"
-          : "normal";
-
-      // Entferne End-Tags
-      let cleanedSegment = segment.replace(/¥[hj]$/, "");
-
-      // Verarbeite ¥s und füge Nummerierung hinzu
-      if (cleanedSegment.startsWith("¥s")) {
-        counter++;
-        cleanedSegment = `${counter}. ${cleanedSegment.substring(2)}`;
-      }
-      // Spezialfall "Hinweis: ¥s"
-      else if (cleanedSegment.includes("¥fHinweis:¥0f ¥s")) {
-        cleanedSegment = cleanedSegment.replace("¥s", "");
-      }
-
-      return {
-        type,
-        content: cleanedSegment.trim(),
-      };
-    })
-    .filter((segment) => segment.content);
-};
-
-const NotesSection = ({ content, fontSize = "0.93em" }) => {
-  if (!content) return null;
-
-  const processedSegments = processNotesContent(content);
-
-  return (
-    <div style={{ marginBottom: "1.25em" }}>
-      <div style={{ fontSize }} className="text-gray-900 dark:text-gray-100">
-        {processedSegments.map((segment, index) => {
-          if (/^\d+\./.test(segment.content)) {
-            // Nummerierte Absätze
-            const match = segment.content.match(/^(\d+\.\s*)(.*)$/);
-            if (match) {
-              const [, number, text] = match;
-              return (
-                <div key={index} style={{ marginBottom: "0.16em" }}>
-                  <span
-                    style={{
-                      float: "left",
-                      width: "1.6em",
-                    }}
-                  >
-                    {number}
-                  </span>
-                  <div
-                    style={{
-                      display: "block",
-                      marginLeft: "0em",
-                    }}
-                    dangerouslySetInnerHTML={{
-                      __html: parseTextWithReferences(formatText(text)),
-                    }}
-                  />
-                </div>
-              );
-            }
-          }
-
-          // Normale und zentrierte Absätze
-          return (
-            <p
-              key={index}
-              style={{
-                marginBottom: "0.75em",
-                textAlign: segment.type === "centered" ? "center" : "left",
-                fontSize: segment.type === "centered" ? "1em" : "inherit",
-              }}
-              dangerouslySetInnerHTML={{
-                __html: parseTextWithReferences(formatText(segment.content)),
-              }}
-            />
-          );
-        })}
-      </div>
-    </div>
-  );
-};
-
-const DayEntry = ({
-  entry,
-  formatDate,
-  formatText,
-  selectedDate,
-  months,
-  hangingIndent,
-  deceasedMode,
-  deceasedSizeRatio,
-  expandedDeceased,
-  setExpandedDeceased,
-  entriesRef,
-}) => {
-  const dateKey = entry.date.toISOString();
-  // Modified condition to check if deceased_more exists and is different from deceased
-  const hasMoreDeceased =
-    entry.deceased_more &&
-    entry.deceased !== entry.deceased_more;
-  const isExpanded = expandedDeceased[dateKey];
-  const shouldShowMore = deceasedMode === "all" || isExpanded;
-  const day = entry.date.getDate();
-  const month = months[entry.date.getMonth()];
-  const year = entry.date.getFullYear();
-  const formattedDate = `${day}. ${month} ${year}`;
-
-  return (
-    <div
-      key={dateKey}
-      ref={(el) => (entriesRef.current[formatDate(entry.date)] = el)}
-    >
-      <div
-        className={`p-4 border dark:border-gray-700 rounded transition-colors ${entry.date.getDate() === selectedDate.getDate() &&
-          entry.date.getMonth() === selectedDate.getMonth()
-          ? "bg-orange-50 dark:bg-yellow-400/60"
-          : "bg-white dark:bg-gray-700"
-          }`}
-      >
-        {/* Datumsheader */}
-        <div className="font-semibold mb-4 text-gray-900 dark:text-gray-100">
-          {formattedDate}
-        </div>
-
-        {/* Liturgy Section */}
-        {entry.liturgy && (
-          <div style={{ marginBottom: "1.25em" }}>
-            <div
-              style={{ fontSize: "1em" }}
-              className="text-gray-900 dark:text-gray-100"
-            >
-              {formatText(entry.liturgy)
-                .split("¥p")
-                .map((paragraph, index) => {
-                  const [marker, ...contentParts] = paragraph.split("¥t");
-                  const content = contentParts.join("¥t");
-                  const lines = content.split("¥l");
-
-                  return (
-                    <div
-                      key={index}
-                      style={{
-                        marginBottom: "0.2em",
-                        position: "relative",
-                      }}
-                    >
-                      <span
-                        style={{
-                          position: "absolute",
-                          left: 0,
-                        }}
-                        dangerouslySetInnerHTML={{ __html: marker }}
-                      />
-
-                      <div
-                        style={{
-                          paddingLeft: hangingIndent,
-                          margin: 0,
-                          fontFamily: "inherit",
-                        }}
-                      >
-                        {lines.map((line, lineIndex) => {
-                          const commonLineStyle = {
-                            marginTop: lineIndex > 0 ? "0em" : 0,
-                          };
-
-                          const parts = line.split("¥t");
-
-                          if (parts.length >= 3) {
-                            const [occasion, reference, pageNum, ...rest] =
-                              parts;
-                            return (
-                              <div
-                                key={lineIndex}
-                                style={{
-                                  ...commonLineStyle,
-                                  display: "grid",
-                                  gridTemplateColumns:
-                                    "minmax(2em, auto) minmax(0, 1fr) auto",
-                                  gap: "0.25em",
-                                  maxWidth: "25em",
-                                }}
-                              >
-                                <span
-                                  style={{
-                                    textAlign: "left",
-                                    minWidth: 0,
-                                    overflow: "hidden",
-                                    textOverflow: "ellipsis",
-                                    whiteSpace: "nowrap",
-                                  }}
-                                  dangerouslySetInnerHTML={{ __html: occasion }}
-                                />
-                                <TooltipProvider>
-                                  <Tooltip>
-                                    <TooltipTrigger asChild>
-                                      <span
-                                        style={{
-                                          textAlign: "left",
-                                          minWidth: 0,
-                                          overflow: "hidden",
-                                          textOverflow: "ellipsis",
-                                          whiteSpace: "nowrap",
-                                          cursor: "help",
-                                          maxWidth: "100%",
-                                          display: "block",
-                                        }}
-                                        dangerouslySetInnerHTML={{
-                                          __html: reference,
-                                        }}
-                                      />
-                                    </TooltipTrigger>
-                                    <TooltipContent>
-                                      <p
-                                        dangerouslySetInnerHTML={{
-                                          __html: reference.replace(
-                                            /<[^>]*>/g,
-                                            ""
-                                          ),
-                                        }}
-                                      />
-                                    </TooltipContent>
-                                  </Tooltip>
-                                </TooltipProvider>
-                                <span
-                                  style={{
-                                    textAlign: "right",
-                                    whiteSpace: "nowrap",
-                                  }}
-                                  dangerouslySetInnerHTML={{
-                                    __html: pageNum + rest.join(""),
-                                  }}
-                                />
-                              </div>
-                            );
-                          } else if (
-                            parts.length === 2 &&
-                            parts[0].includes("\u00A0")
-                          ) {
-                            const [firstPart, pageNum] = parts;
-                            const firstSpaceIndex = firstPart.indexOf("\u00A0");
-                            const occasion = firstPart.substring(
-                              0,
-                              firstSpaceIndex
-                            );
-                            const reference = firstPart.substring(
-                              firstSpaceIndex + 1
-                            );
-
-                            return (
-                              <div
-                                key={lineIndex}
-                                style={{
-                                  ...commonLineStyle,
-                                  display: "grid",
-                                  gridTemplateColumns:
-                                    "minmax(2em, auto) minmax(0, 1fr) auto",
-                                  gap: "0.25em",
-                                  maxWidth: "25em",
-                                }}
-                              >
-                                <span
-                                  style={{
-                                    textAlign: "left",
-                                    minWidth: 0,
-                                    overflow: "hidden",
-                                    textOverflow: "ellipsis",
-                                    whiteSpace: "nowrap",
-                                  }}
-                                  dangerouslySetInnerHTML={{ __html: occasion }}
-                                />
-                                <TooltipProvider>
-                                  <Tooltip>
-                                    <TooltipTrigger asChild>
-                                      <span
-                                        style={{
-                                          textAlign: "left",
-                                          minWidth: 0,
-                                          overflow: "hidden",
-                                          textOverflow: "ellipsis",
-                                          whiteSpace: "nowrap",
-                                          cursor: "help",
-                                          maxWidth: "100%",
-                                          display: "block",
-                                        }}
-                                        dangerouslySetInnerHTML={{
-                                          __html: reference,
-                                        }}
-                                      />
-                                    </TooltipTrigger>
-                                    <TooltipContent>
-                                      <p
-                                        dangerouslySetInnerHTML={{
-                                          __html: reference.replace(
-                                            /<[^>]*>/g,
-                                            ""
-                                          ),
-                                        }}
-                                      />
-                                    </TooltipContent>
-                                  </Tooltip>
-                                </TooltipProvider>
-                                <span
-                                  style={{
-                                    textAlign: "right",
-                                    whiteSpace: "nowrap",
-                                  }}
-                                  dangerouslySetInnerHTML={{ __html: pageNum }}
-                                />
-                              </div>
-                            );
-                          } else {
-                            return (
-                              <div
-                                key={lineIndex}
-                                style={{
-                                  whiteSpace: "pre-line",
-                                }}
-                                dangerouslySetInnerHTML={{
-                                  __html: parseTextWithReferences(line),
-                                }}
-                              />
-                            );
-                          }
-                        })}
-                      </div>
-                    </div>
-                  );
-                })}
-            </div>
-          </div>
-        )}
-
-        {/* Notes Section */}
-        {entry.notes && <NotesSection content={entry.notes} />}
-
-        {entry.sec_notes && <NotesSection content={entry.sec_notes} />}
-
-        {/* Secondary Liturgy Section */}
-        {entry.sec_liturgy && (
-          <div style={{ marginBottom: "1.25em" }}>
-            <div
-              style={{ fontSize: "1em" }}
-              className="text-gray-900 dark:text-gray-100"
-            >
-              {formatText(entry.sec_liturgy)
-                .split("¥p")
-                .map((paragraph, index) => {
-                  const [marker, ...contentParts] = paragraph.split("¥t");
-                  const content = contentParts.join("¥t");
-                  const lines = content.split("¥l");
-
-                  return (
-                    <div
-                      key={index}
-                      style={{
-                        marginBottom: "0.2em",
-                        position: "relative",
-                      }}
-                    >
-                      <span
-                        style={{
-                          position: "absolute",
-                          left: 0,
-                        }}
-                        dangerouslySetInnerHTML={{ __html: marker }}
-                      />
-
-                      <div
-                        style={{
-                          paddingLeft: hangingIndent,
-                          margin: 0,
-                          fontFamily: "inherit",
-                        }}
-                      >
-                        {lines.map((line, lineIndex) => {
-                          const commonLineStyle = {
-                            marginTop: lineIndex > 0 ? "0em" : 0,
-                          };
-
-                          const parts = line.split("¥t");
-
-                          if (parts.length >= 3) {
-                            const [occasion, reference, pageNum, ...rest] =
-                              parts;
-                            return (
-                              <div
-                                key={lineIndex}
-                                style={{
-                                  ...commonLineStyle,
-                                  display: "grid",
-                                  gridTemplateColumns:
-                                    "minmax(2em, auto) minmax(0, 1fr) auto",
-                                  gap: "0.25em",
-                                  maxWidth: "25em",
-                                }}
-                              >
-                                <span
-                                  style={{
-                                    textAlign: "left",
-                                    minWidth: 0,
-                                    overflow: "hidden",
-                                    textOverflow: "ellipsis",
-                                    whiteSpace: "nowrap",
-                                  }}
-                                  dangerouslySetInnerHTML={{ __html: occasion }}
-                                />
-                                <TooltipProvider>
-                                  <Tooltip>
-                                    <TooltipTrigger asChild>
-                                      <span
-                                        style={{
-                                          textAlign: "left",
-                                          minWidth: 0,
-                                          overflow: "hidden",
-                                          textOverflow: "ellipsis",
-                                          whiteSpace: "nowrap",
-                                          cursor: "help",
-                                          maxWidth: "100%",
-                                          display: "block",
-                                        }}
-                                        dangerouslySetInnerHTML={{
-                                          __html: reference,
-                                        }}
-                                      />
-                                    </TooltipTrigger>
-                                    <TooltipContent>
-                                      <p
-                                        dangerouslySetInnerHTML={{
-                                          __html: reference.replace(
-                                            /<[^>]*>/g,
-                                            ""
-                                          ),
-                                        }}
-                                      />
-                                    </TooltipContent>
-                                  </Tooltip>
-                                </TooltipProvider>
-                                <span
-                                  style={{
-                                    textAlign: "right",
-                                    whiteSpace: "nowrap",
-                                  }}
-                                  dangerouslySetInnerHTML={{
-                                    __html: pageNum + rest.join(""),
-                                  }}
-                                />
-                              </div>
-                            );
-                          } else if (
-                            parts.length === 2 &&
-                            parts[0].includes("\u00A0")
-                          ) {
-                            const [firstPart, pageNum] = parts;
-                            const firstSpaceIndex = firstPart.indexOf("\u00A0");
-                            const occasion = firstPart.substring(
-                              0,
-                              firstSpaceIndex
-                            );
-                            const reference = firstPart.substring(
-                              firstSpaceIndex + 1
-                            );
-
-                            return (
-                              <div
-                                key={lineIndex}
-                                style={{
-                                  ...commonLineStyle,
-                                  display: "grid",
-                                  gridTemplateColumns:
-                                    "minmax(2em, auto) minmax(0, 1fr) auto",
-                                  gap: "0.25em",
-                                  maxWidth: "25em",
-                                }}
-                              >
-                                <span
-                                  style={{
-                                    textAlign: "left",
-                                    minWidth: 0,
-                                    overflow: "hidden",
-                                    textOverflow: "ellipsis",
-                                    whiteSpace: "nowrap",
-                                  }}
-                                  dangerouslySetInnerHTML={{ __html: occasion }}
-                                />
-                                <TooltipProvider>
-                                  <Tooltip>
-                                    <TooltipTrigger asChild>
-                                      <span
-                                        style={{
-                                          textAlign: "left",
-                                          minWidth: 0,
-                                          overflow: "hidden",
-                                          textOverflow: "ellipsis",
-                                          whiteSpace: "nowrap",
-                                          cursor: "help",
-                                          maxWidth: "100%",
-                                          display: "block",
-                                        }}
-                                        dangerouslySetInnerHTML={{
-                                          __html: reference,
-                                        }}
-                                      />
-                                    </TooltipTrigger>
-                                    <TooltipContent>
-                                      <p
-                                        dangerouslySetInnerHTML={{
-                                          __html: reference.replace(
-                                            /<[^>]*>/g,
-                                            ""
-                                          ),
-                                        }}
-                                      />
-                                    </TooltipContent>
-                                  </Tooltip>
-                                </TooltipProvider>
-                                <span
-                                  style={{
-                                    textAlign: "right",
-                                    whiteSpace: "nowrap",
-                                  }}
-                                  dangerouslySetInnerHTML={{ __html: pageNum }}
-                                />
-                              </div>
-                            );
-                          } else {
-                            return (
-                              <div
-                                key={lineIndex}
-                                style={{
-                                  ...commonLineStyle,
-                                  whiteSpace: "pre-line",
-                                }}
-                                dangerouslySetInnerHTML={{
-                                  __html: parseTextWithReferences(line),
-                                }}
-                              />
-                            );
-                          }
-                        })}
-                      </div>
-                    </div>
-                  );
-                })}
-            </div>
-          </div>
-        )}
-
-        {/* Deceased Section */}
-        {(entry.deceased || entry.deceased_more) && (
-          <div style={{ marginBottom: "1.25em" }}>
-            <div
-              style={{ fontSize: `${deceasedSizeRatio}em` }}
-              className="text-gray-900 dark:text-gray-100"
-            >
-              {formatText(
-                shouldShowMore ? entry.deceased_more : entry.deceased || ""
-              )
-                .split("¥+k")
-                .map((paragraph, index) => {
-                  const parts = paragraph.split("¥t");
-                  if (parts.length === 2) {
-                    return (
-                      <div
-                        key={index}
-                        style={{
-                          marginBottom: "0.16em",
-                          position: "relative",
-                        }}
-                      >
-                        <span
-                          style={{
-                            position: "absolute",
-                            left: 0,
-                          }}
-                          dangerouslySetInnerHTML={{ __html: parts[0] }}
-                        />
-                        <pre
-                          style={{
-                            paddingLeft: `calc(${hangingIndent} / ${deceasedSizeRatio})`,
-                            margin: 0,
-                            fontFamily: "inherit",
-                            whiteSpace: "pre-line",
-                          }}
-                          dangerouslySetInnerHTML={{ __html: parts[1] }}
-                        />
-                      </div>
-                    );
-                  }
-                  return (
-                    <p
-                      key={index}
-                      style={{ marginBottom: "0.16em" }}
-                      dangerouslySetInnerHTML={{ __html: paragraph }}
-                    />
-                  );
-                })}
-              {hasMoreDeceased && deceasedMode !== "all" && !isExpanded && (
-                <button
-                  onClick={() =>
-                    setExpandedDeceased((prev) => ({
-                      ...prev,
-                      [dateKey]: true,
-                    }))
-                  }
-                  style={{
-                    display: "block",
-                    marginTop: "0em",
-                    paddingLeft: `calc(${hangingIndent} / ${deceasedSizeRatio} / 0.9)`,
-                    color: "rgb(27, 83, 204)",
-                    fontSize: "0.9em",
-                  }}
-                >
-                  Todestage in früheren Jahren ...
-                </button>
-              )}
-            </div>
-          </div>
-        )}
-
-        {/* Vigil Notes Section */}
-        {entry.vig_notes && <NotesSection content={entry.vig_notes} />}
-
-        {/* Vigil Liturgy Section */}
-        {entry.vig_liturgy && (
-          <div style={{ marginBottom: "1.25em" }}>
-            <div
-              style={{ fontSize: "1em" }}
-              className="text-gray-900 dark:text-gray-100"
-            >
-              {formatText(entry.vig_liturgy)
-                .split("¥p")
-                .map((paragraph, index) => {
-                  const parts = paragraph.split("¥t");
-                  if (parts.length >= 2) {
-                    const marker = parts[0];
-                    const content = parts
-                      .slice(1)
-                      .join("¥t")
-                      .replace(/¥l/g, "\n");
-                    return (
-                      <div
-                        key={index}
-                        style={{
-                          marginBottom: "0em",
-                          position: "relative",
-                        }}
-                      >
-                        <span
-                          style={{
-                            position: "absolute",
-                            left: 0,
-                          }}
-                          dangerouslySetInnerHTML={{ __html: marker }}
-                        />
-                        <pre
-                          style={{
-                            paddingLeft: hangingIndent,
-                            margin: 0,
-                            fontFamily: "inherit",
-                            whiteSpace: "pre-line",
-                          }}
-                          dangerouslySetInnerHTML={{
-                            __html: parseTextWithReferences(content),
-                          }}
-                        />
-                      </div>
-                    );
-                  }
-                  return (
-                    <p
-                      key={index}
-                      style={{ marginBottom: "0.5em" }}
-                      dangerouslySetInnerHTML={{
-                        __html: parseTextWithReferences(paragraph),
-                      }}
-                    />
-                  );
-                })}
-            </div>
-          </div>
-        )}
-      </div>
-
-      {/* Post Notes Section - außerhalb des Hauptrahmens */}
-      {entry.post_notes && (
-        <div className="px-4 mt-0 mb-4">
-          <div
-            style={{ fontSize: "0.93em", marginTop: "0.75em" }}
-            className="text-gray-900 dark:text-gray-100"
-          >
-            {entry.post_notes.split("¥h").map((paragraph, index) => {
-              // Check if paragraph contains ¥j
-              const paragraphs = paragraph.split("¥j");
-
-              return paragraphs
-                .map((subParagraph, subIndex) => {
-                  const isLastInSequence = subIndex === paragraphs.length - 1;
-
-                  if (!isLastInSequence) {
-                    // This is a ¥j paragraph that should be centered
-                    return (
-                      <p
-                        key={`${index}-${subIndex}`}
-                        style={{
-                          marginBottom: "0.75em",
-                          textAlign: "center",
-                          fontSize: "1em",
-                        }}
-                        dangerouslySetInnerHTML={{
-                          __html: formatText(subParagraph.trim()),
-                        }}
-                      />
-                    );
-                  }
-
-                  // Handle normal paragraphs or the remainder after ¥j
-                  if (subParagraph.trim()) {
-                    return (
-                      <p
-                        key={`${index}-${subIndex}`}
-                        style={{
-                          marginBottom: "0.75em",
-                          textAlign: "left",
-                        }}
-                        dangerouslySetInnerHTML={{
-                          __html: formatText(subParagraph.trim()),
-                        }}
-                      />
-                    );
-                  }
-                  return null;
-                })
-                .filter(Boolean);
-            })}
-          </div>
-        </div>
-      )}
-    </div>
-  );
-};
-
-const DeceasedEntry = ({
-  entry,
-  formatDate,
-  formatText,
-  selectedDate,
-  months,
-  entriesRef,
-}) => {
-  const deceasedIndent = "2.7em"; // Variable für den Einzug
-  const day = entry.date.getDate();
-  const month = months[entry.date.getMonth()];
-  const year = entry.date.getFullYear();
-  const formattedDate = `${day}. ${month} ${year}`;
-
-  // Get deceased entries for this day and month from deceasedData
-  const deceasedEntries =
-    deceasedData[entry.date.getMonth() + 1][entry.date.getDate()];
-
-  const renderDeceasedEntry = (deceased) => {
-    return (
-      <div className="mb-4 relative">
-        {/* Erste Zeile mit Jahr und Name */}
-        <div style={{ position: "relative" }}>
-          <span style={{ position: "absolute", left: 0 }}>{deceased.year}</span>
-          <div style={{ paddingLeft: deceasedIndent }}>
-            <span
-              dangerouslySetInnerHTML={{ __html: formatText(deceased.name) }}
-            />
-            {deceased.age && <span> ({deceased.age}&nbsp;Jahre)</span>}
-          </div>
-        </div>
-
-        {/* Zweite Zeile mit Geburtsinfo */}
-        {deceased.birth && (
-          <div
-            style={{
-              paddingLeft: deceasedIndent,
-              position: "relative",
-            }}
-          >
-            <span
-              style={{
-                position: "absolute",
-                left: deceasedIndent,
-              }}
-            >
-              *
-            </span>
-            <div
-              style={{
-                paddingLeft: "0.7em",
-              }}
-              dangerouslySetInnerHTML={{ __html: formatText(deceased.birth) }}
-            />
-          </div>
-        )}
-
-        {/* Dritte Zeile mit Grabinfo */}
-        {deceased.grave && (
-          <div style={{ paddingLeft: deceasedIndent }}>
-            Grab:{" "}
-            <span
-              dangerouslySetInnerHTML={{ __html: formatText(deceased.grave) }}
-            />
-          </div>
-        )}
-      </div>
-    );
-  };
-
-  return (
-    <div
-      key={entry.date.toISOString()}
-      ref={(el) => (entriesRef.current[formatDate(entry.date)] = el)}
-    >
-      <div
-        className={`p-4 border dark:border-gray-700 rounded transition-colors ${entry.date.getDate() === selectedDate.getDate() &&
-          entry.date.getMonth() === selectedDate.getMonth()
-          ? "bg-orange-50 dark:bg-yellow-400/60"
-          : "bg-white dark:bg-gray-700"
-          }`}
-      >
-        {/* Date header */}
-        <div className="font-semibold mb-4 text-gray-900 dark:text-gray-100">
-          {formattedDate}
-        </div>
-
-        {/* Deceased entries */}
-        {deceasedEntries && (
-          <div
-            className="text-gray-900 dark:text-gray-100"
-            style={{ fontSize: "0.93em" }}
-          >
-            {deceasedEntries.map((deceased, index) => (
-              <div key={index}>{renderDeceasedEntry(deceased)}</div>
-            ))}
-          </div>
-        )}
-      </div>
-    </div>
-  );
-};
 
 // Prayer Menu Component
 const PrayerMenu = ({
@@ -1921,38 +1027,12 @@ const PrayerTextDisplay = ({
 
 export { PrayerMenu, PrayerTextDisplay, PrayerHours, TextSources };
 
-const ScrollableContainer = ({ children, containerRef }) => {
-  const [containersReady, setContainersReady] = useState(false);
-
-  useEffect(() => {
-    const container = containerRef.current;
-    const currentContainer = container?.querySelector(
-      '[data-current-container="true"]'
-    );
-
-    if (container && currentContainer) {
-      setContainersReady(true);
-    }
-  }, []);
-
-  return (
-    <div
-      ref={containerRef}
-      className="flex flex-col max-h-[calc(100vh-88px)] overflow-y-auto px-4"
-      style={{
-        scrollBehavior: "smooth",
-        WebkitOverflowScrolling: "touch",
-      }}
-    >
-      {children}
-    </div>
-  );
-};
-
 export default function Stundenbuch() {
   setLocalStorage('unlockBenedictine', 'unlocked'); // Always unlock Benedictine option
   const wakeLock = useWakeLock();
   const [selectedDate, setSelectedDate] = useState(new Date());
+  const [entryDate, setEntryDate] = useState(new Date());
+  const scrollViewsRef = useRef(null);
   const [showDatePicker, setShowDatePicker] = useState(false);
   const [theme, setTheme] = useState(() => localStorage.getItem("theme") || "dark");
   const [prefSrc, setPrefSrc] = useState("oblig");
@@ -2035,54 +1115,6 @@ export default function Stundenbuch() {
     };
   }, [window.innerWidth, baseFontSize]);
 
-  const handleScroll = useCallback(
-    (event) => {
-      if (!containerRef.current || isScrolling) return;
-      const container = containerRef.current;
-      const entries = Object.entries(entriesRef.current);
-
-      // Get nav height for offset calculation
-      const navElement = container.parentElement.querySelector(
-        '[role="navigation"]'
-      );
-      const navHeight = navElement ? navElement.offsetHeight : 0;
-
-      // Adjust the target position to account for sticky nav
-      const containerRect = container.getBoundingClientRect();
-      const middleY = containerRect.top + navHeight + containerRect.height / 2;
-
-      let closestEntry = null;
-      let minDistance = Infinity;
-
-      entries.forEach(([dateStr, element]) => {
-        if (!element) return;
-
-        const rect = element.getBoundingClientRect();
-        const elementMiddleY = rect.top + rect.height / 2;
-        const distance = Math.abs(elementMiddleY - middleY);
-
-        if (distance < minDistance) {
-          minDistance = distance;
-          closestEntry = dateStr;
-        }
-      });
-
-      if (closestEntry) {
-        const parts = closestEntry.split(" ");
-        const day = parseInt(parts[0]);
-        const month = months.indexOf(parts[1]);
-        const year = parseInt(parts[2]);
-
-        const newDate = new Date(year, month, day);
-
-        if (closestEntry && formatDate(selectedDate) !== formatDate(newDate)) {
-          setDateChangeSource("scroll");
-          setSelectedDate(newDate);
-        }
-      }
-    },
-    [selectedDate, isScrolling, formatDate]
-  );
 
   // Touch-Navigation Hook
   //  - bis auf Weiteres deaktiviert, weil die Scroll-Funktionen beeinträchtigt werden
@@ -2145,41 +1177,6 @@ export default function Stundenbuch() {
     }
   }, [selectedDate, prefSrc]);
 
-  // Effect für die visibleEntries-Berechnung
-  useEffect(() => {
-    entriesRef.current = {};
-    if (selectedDate) {
-      setIsReady(false);
-      setTimeout(() => {
-        setIsReady(true);
-      }, 100);
-    }
-  }, [selectedDate]);
-
-  useEffect(() => {
-    if (!containerRef.current) return;
-    const container = containerRef.current;
-    const currentContainer = container.querySelector(
-      '[data-current-container="true"]'
-    );
-    const debouncedScroll = (event) => {
-      if (scrollTimeoutRef.current) {
-        clearTimeout(scrollTimeoutRef.current);
-      }
-      scrollTimeoutRef.current = setTimeout(() => handleScroll(event), 150);
-    };
-
-    container.addEventListener("scroll", debouncedScroll);
-    return () => {
-      if (container) {
-        container.removeEventListener("scroll", debouncedScroll);
-      }
-      if (scrollTimeoutRef.current) {
-        clearTimeout(scrollTimeoutRef.current);
-      }
-    };
-  }, [handleScroll]);
-
   useEffect(() => {
     document.documentElement.classList.toggle("dark", theme === "dark");
     document.body.classList.toggle("dark", theme === "dark");
@@ -2204,76 +1201,6 @@ export default function Stundenbuch() {
   }, [deceasedMode]);
 
   useEffect(() => {
-    // Wenn durch Scrollen ausgelöst oder nicht bereit, nichts tun
-    if (!isReady || !containerRef.current || dateChangeSource === "scroll") {
-      return;
-    }
-
-    // Nur bei navigation-induzierten Änderungen scrollen
-    if (
-      dateChangeSource === "navigation" ||
-      viewMode === "directory" ||
-      viewMode === "deceased"
-    ) {
-      const container = containerRef.current;
-      const currentContainer = container.querySelector(
-        '[data-current-container="true"]'
-      );
-
-      if (!currentContainer) return;
-
-      // Scroll-Position berechnen
-      const navElement = container.parentElement.querySelector(
-        '[role="navigation"]'
-      );
-      const navHeight = navElement ? navElement.offsetHeight : 0;
-      const fontSize = parseFloat(getComputedStyle(container).fontSize);
-      const fiveEmInPixels = fontSize * 5;
-      const scrollPosition =
-        currentContainer.offsetTop - navHeight - fiveEmInPixels;
-
-      // Scrollen mit Animation
-      setIsScrolling(true); // Scroll-Handler deaktivieren
-
-      container.scrollTo({
-        top: scrollPosition,
-        behavior: "smooth",
-      });
-
-      // Nach Scroll-Ende aufräumen
-      const scrollEndListener = () => {
-        setTimeout(() => {
-          setIsScrolling(false); // Scroll-Handler reaktivieren
-          setDateChangeSource(null);
-        }, 100);
-        container.removeEventListener("scrollend", scrollEndListener);
-      };
-
-      container.addEventListener("scrollend", scrollEndListener);
-
-      // Cleanup
-      return () => {
-        if (containerRef.current) {
-          containerRef.current.removeEventListener(
-            "scrollend",
-            scrollEndListener
-          );
-        }
-      };
-    }
-  }, [selectedDate, dateChangeSource, isReady, viewMode]);
-
-  // Aktualisiere den sichtbaren Bereich wenn sich das ausgewählte Datum ändert
-  useEffect(() => {
-    const { startDate, endDate } = getDateRange(
-      selectedDate,
-      DAYS_BUFFER,
-      DAYS_BUFFER
-    );
-    setVisibleRange({ startDate, endDate });
-  }, [selectedDate]);
-
-  useEffect(() => {
     setLocalPrefLatin(localPrefLanguage === "_lat");
   }, [localPrefLanguage]);
 
@@ -2292,61 +1219,45 @@ export default function Stundenbuch() {
     return entries.sort((a, b) => a.date - b.date);
   }, []); // Leeres Dependency Array, da liturgicalData konstant ist
 
+  // Handler für Datumsänderungen
   const handleDateSelect = (date) => {
-    setDateChangeSource("navigation");
-    setSelectedDate(new Date(date));
+    const newDate = new Date(date);
+
+    // In den ScrollableViews das entryDate ändern
+    if (viewMode === "directory" || viewMode === "deceased") {
+      // Direktes Setzen des entryDate in der ScrollableViews-Komponente
+      setEntryDate(newDate);
+    } else {
+      // In allen anderen Ansichten das selectedDate ändern
+      setSelectedDate(newDate);
+    }
+
     setShowDatePicker(false);
   };
 
-  const handlePrevWeek = () => {
-    setDateChangeSource("navigation");
-    setSelectedDate((date) => {
-      const newDate = new Date(date);
-      newDate.setDate(date.getDate() - 7);
-      return newDate;
-    });
-  };
-
-  const handleNextWeek = () => {
-    setDateChangeSource("navigation");
-    setSelectedDate((date) => {
-      const newDate = new Date(date);
-      newDate.setDate(date.getDate() + 7);
-      return newDate;
-    });
-  };
 
   const handleToday = () => {
-    setDateChangeSource("navigation");
-    setSelectedDate(new Date());
+    const today = new Date();
+
+    if (viewMode === "directory" || viewMode === "deceased") {
+      // In ScrollableViews entryDate auf heute setzen
+      setEntryDate(today);
+    } else {
+      // In anderen Ansichten das selectedDate ändern
+      setSelectedDate(today);
+    }
   };
 
-  const visibleEntries = useMemo(() => {
-    if (!visibleRange.startDate || !visibleRange.endDate) return [];
 
-    const entries = allEntries.filter((entry) =>
-      isDateInRange(entry.date, visibleRange.startDate, visibleRange.endDate)
-    );
+  // Callback für Änderungen am entryDate in ScrollableViews
+  const handleEntryDateChange = (newDate) => {
+    // Optional: Auch das selectedDate der Hauptkomponente aktualisieren
+    // Hier können Sie entscheiden, ob das globale selectedDate synchronisiert werden soll
+    // setSelectedDate(newDate);
 
-    // Sortiere Einträge nach Datum
-    entries.sort((a, b) => a.date - b.date);
-
-    // Finde Index des ausgewählten Datums
-    const selectedIndex = entries.findIndex(
-      (entry) =>
-        entry.date.getDate() === selectedDate.getDate() &&
-        entry.date.getMonth() === selectedDate.getMonth() &&
-        entry.date.getFullYear() === selectedDate.getFullYear()
-    );
-
-    if (selectedIndex === -1) return entries;
-
-    // Teile die Einträge in zwei Gruppen
-    return {
-      before: entries.slice(Math.max(0, selectedIndex - 7), selectedIndex),
-      current: entries.slice(selectedIndex, selectedIndex + 8),
-    };
-  }, [allEntries, visibleRange, selectedDate]);
+    // Oder nur für Debug-Zwecke loggen
+    console.log("entryDate in ScrollableViews geändert:", newDate);
+  };
 
   const parseDateString = (dateStr) => {
     const match = dateStr.match(/^(\d{1,2})[.-/](\d{1,2})[.-/](\d{2}|\d{4})$/);
@@ -2358,7 +1269,7 @@ export default function Stundenbuch() {
     year = parseInt(year, 10);
 
     if (year < 100) {
-      year += year < 50 ? 2000 : 1900;
+      year += year < 70 ? 2000 : 1900;
     }
 
     const date = new Date(year, month, day);
@@ -2961,7 +1872,7 @@ export default function Stundenbuch() {
   // Aktualisiere inputValue wenn sich selectedDate ändert
   useEffect(() => {
     setInputValue(formatDate(selectedDate, true));
-  }, [selectedDate, formatDate]);
+  }, [selectedDate, entryDate, formatDate]);
 
   const onPrevDay = () => {
     setDateChangeSource("navigation");
@@ -3035,17 +1946,6 @@ export default function Stundenbuch() {
             <div className="flex items-center gap-2 flex-1 min-w-0">
               {viewMode !== "prayerTex" && (
                 <>
-                  {/* Die Buttons für '1 Woche vor' und '1 Woche zurück' sind ausgeblendet */}
-                  {viewMode === "ausblenden" && (
-                    <>
-                      <button
-                        onClick={handlePrevWeek}
-                        className="shrink-0 px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
-                        title="1 Woche zurück"
-                      >
-                        «
-                      </button>
-                    </>)}
                   <button
                     onClick={handleToday}
                     className="shrink-0 p-2 bg-orange-100 dark:bg-yellow-400/60 hover:bg-orange-200 dark:hover:bg-yellow-400/70 rounded"
@@ -3106,15 +2006,6 @@ export default function Stundenbuch() {
                     {showDatePicker && <DatePicker />}
                   </div>
 
-                  {viewMode === "ausblenden" && (<>
-                    <button
-                      onClick={handleNextWeek}
-                      className="shrink-0 px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
-                      title="1 Woche vor"
-                    >
-                      »
-                    </button>
-                  </>)}
                 </>
               )}
 
@@ -3289,93 +2180,34 @@ export default function Stundenbuch() {
             />
           )}
 
-          {/* Original ScrollableContainer for directory/deceased views */}
+          {/* ScrollableViews für Directory und Deceased Views */}
           {(viewMode === "directory" || viewMode === "deceased") && (
-            <ScrollableContainer
-              containerRef={containerRef}
+            <ScrollableViews
+              ref={scrollViewsRef}
+              viewMode={viewMode}
               selectedDate={selectedDate}
-              dateChangeSource={dateChangeSource}
-            >
-              {visibleEntries.before && visibleEntries.before.length > 0 && (
-                <div
-                  data-before-container="true"
-                  style={{
-                    position: "relative",
-                    marginTop: "-50vh",
-                    paddingTop: "50vh",
-                    marginBottom: "0",
-                  }}
-                >
-                  {visibleEntries.before.map((entry) =>
-                    viewMode === "directory" ? (
-                      <DayEntry
-                        key={entry.date.toISOString()}
-                        entry={entry}
-                        formatDate={formatDate}
-                        formatText={formatText}
-                        selectedDate={selectedDate}
-                        months={months}
-                        hangingIndent={hangingIndent}
-                        deceasedMode={deceasedMode}
-                        deceasedSizeRatio={deceasedSizeRatio}
-                        expandedDeceased={expandedDeceased}
-                        setExpandedDeceased={setExpandedDeceased}
-                        entriesRef={entriesRef}
-                      />
-                    ) : (
-                      <DeceasedEntry
-                        key={entry.date.toISOString()}
-                        entry={entry}
-                        formatDate={formatDate}
-                        formatText={formatText} // Added this prop
-                        selectedDate={selectedDate}
-                        months={months}
-                        entriesRef={entriesRef}
-                      />
-                    )
-                  )}
-                </div>
-              )}
+              entryDate={entryDate}          // Übergebe entryDate als Prop
+              setEntryDate={setEntryDate}
+              months={months}
+              formatDate={formatDate}
+              deceasedMode={deceasedMode}
+              expandedDeceased={expandedDeceased}
+              setExpandedDeceased={setExpandedDeceased}
+              onDateChange={handleEntryDateChange}
+            />
+          )}
 
-              {visibleEntries.current && visibleEntries.current.length > 0 && (
-                <div
-                  data-current-container="true"
-                  style={{
-                    position: "relative",
-                    marginTop: "0",
-                  }}
-                >
-                  {visibleEntries.current.map((entry) =>
-                    viewMode === "directory" ? (
-                      <DayEntry
-                        key={entry.date.toISOString()}
-                        entry={entry}
-                        formatDate={formatDate}
-                        formatText={formatText}
-                        selectedDate={selectedDate}
-                        months={months}
-                        hangingIndent={hangingIndent}
-                        deceasedMode={deceasedMode}
-                        deceasedSizeRatio={deceasedSizeRatio}
-                        expandedDeceased={expandedDeceased}
-                        setExpandedDeceased={setExpandedDeceased}
-                        entriesRef={entriesRef}
-                      />
-                    ) : (
-                      <DeceasedEntry
-                        key={entry.date.toISOString()}
-                        entry={entry}
-                        formatDate={formatDate}
-                        formatText={formatText} // Added this prop
-                        selectedDate={selectedDate}
-                        months={months}
-                        entriesRef={entriesRef}
-                      />
-                    )
-                  )}
-                </div>
-              )}
-            </ScrollableContainer>
+          {/* DatePicker */}
+          {showDatePicker && (
+            <DatePicker
+              selectedDate={selectedDate}
+              onSelect={handleDateSelect}
+              onClose={() => setShowDatePicker(false)}
+              formatDate={formatDate}
+              months={months}
+              onToday={handleToday}
+              parseDateString={parseDateString}
+            />
           )}
         </div>
       </div>
