@@ -8745,6 +8745,14 @@ export const deceasedData =  {
         "birth": "1.°März°1910°in°Oberufhausen",
         "grave": "Friedhof°Ufhausen",
         "age": 89
+      },
+      {
+        "year": 2025,
+        "birthdate": "2251-03-10",
+        "name": "Hermann¥-Josef°Nickel, Pfr.i.R., Fulda",
+        "birth": "10.°März°1951°in°Petersberg",
+        "grave": "Friedhof°Petersberg",
+        "age": 74
       }
     ],
     "24": [
