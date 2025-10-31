@@ -11059,7 +11059,7 @@ export const calendarData: CalendarData = {
             "psalm2": 195.1,
             "psalm3": 195.2,
             "ant0": "Preist den Herrn, ihr seine Heiligen alle, feiert Tage der Freude und singt sein Lob.^ö",
-            "les_buch": "^A:vigil-Allterheiligen:",
+            "les_buch": "^A:vigil-Allerheiligen:",
             "les_text": "LEER",
             "ant0_lat": "Benedícite Dóminum, omnes elécti eius; ágite dies lætítiæ et confitémini illi."
           },

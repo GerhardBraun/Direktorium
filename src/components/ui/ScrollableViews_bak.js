@@ -1,8 +1,29 @@
-import React from "react";
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./ui/tooltip.jsx";
-import { parseTextWithReferences } from "./ui/RefLink.jsx";
+import React, { useState, useEffect, useRef, useCallback, useMemo } from "react";
+import { liturgicalData } from "../data/Direktorium.ts";
+import { deceasedData } from "../data/Deceased.ts";
+import { parseTextWithReferences } from "./RefLink.jsx";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./tooltip.jsx";
+import { formatText } from "../dataHandlers/TextFormatter.js";
 
-// NotesSection-Hilfsfunktion, die in DayEntry verwendet wird
+// Konstanten
+const DAYS_BUFFER = 7; // Anzahl der Tage vor/nach dem ausgewählten Datum
+const hangingIndent = "3.2em"; // Variable für den Einzug
+const deceasedSizeRatio = 0.9;
+
+// Hilfsfunktionen
+const getDateRange = (date, daysBefore, daysAfter) => {
+    const startDate = new Date(date);
+    startDate.setDate(date.getDate() - daysBefore);
+    const endDate = new Date(date);
+    endDate.setDate(date.getDate() + daysAfter);
+    return { startDate, endDate };
+};
+
+const isDateInRange = (date, startDate, endDate) => {
+    return date >= startDate && date <= endDate;
+};
+
+// NotesSection-Komponente für formatierte Notizen
 const NotesSection = ({ content, fontSize = "0.93em" }) => {
     const processNotesContent = (content) => {
         if (!content) return [];
@@ -28,21 +49,31 @@ const NotesSection = ({ content, fontSize = "0.93em" }) => {
         return processedSegments
             .map((segment) => {
                 // Bestimme den Typ basierend auf dem End-Tag
-                let type = "normal";
-                if (segment.endsWith("¥h")) {
-                    segment = segment.slice(0, -2);
-                    type = "normal";
-                } else if (segment.endsWith("¥j")) {
-                    segment = segment.slice(0, -2);
-                    type = "centered";
+                const type = segment.endsWith("¥j")
+                    ? "centered"
+                    : segment.endsWith("¥h")
+                        ? "normal"
+                        : "normal";
+
+                // Entferne End-Tags
+                let cleanedSegment = segment.replace(/¥[hj]$/, "");
+
+                // Verarbeite ¥s und füge Nummerierung hinzu
+                if (cleanedSegment.startsWith("¥s")) {
+                    counter++;
+                    cleanedSegment = `${counter}. ${cleanedSegment.substring(2)}`;
+                }
+                // Spezialfall "Hinweis: ¥s"
+                else if (cleanedSegment.includes("¥fHinweis:¥0f ¥s")) {
+                    cleanedSegment = cleanedSegment.replace("¥s", "");
                 }
 
                 return {
                     type,
-                    content: segment,
+                    content: cleanedSegment.trim(),
                 };
             })
-            .filter((segment) => segment.content.trim() !== "");
+            .filter((segment) => segment.content);
     };
 
     const processedSegments = processNotesContent(content);
@@ -100,15 +131,13 @@ const NotesSection = ({ content, fontSize = "0.93em" }) => {
     );
 };
 
+// DayEntry-Komponente
 const DayEntry = ({
     entry,
     formatDate,
-    formatText,
-    selectedDate,
+    entryDate, // Geändert: Verwendet entryDate statt selectedDate
     months,
-    hangingIndent,
     deceasedMode,
-    deceasedSizeRatio,
     expandedDeceased,
     setExpandedDeceased,
     entriesRef,
@@ -125,14 +154,19 @@ const DayEntry = ({
     const year = entry.date.getFullYear();
     const formattedDate = `${day}. ${month} ${year}`;
 
+    // Prüft, ob dieser Eintrag dem aktuellen entryDate entspricht (für Hervorhebung)
+    const isCurrentEntry =
+        entry.date.getDate() === entryDate.getDate() &&
+        entry.date.getMonth() === entryDate.getMonth() &&
+        entry.date.getFullYear() === entryDate.getFullYear();
+
     return (
         <div
             key={dateKey}
             ref={(el) => (entriesRef.current[formatDate(entry.date)] = el)}
         >
             <div
-                className={`p-4 border dark:border-gray-700 rounded transition-colors ${entry.date.getDate() === selectedDate.getDate() &&
-                    entry.date.getMonth() === selectedDate.getMonth()
+                className={`p-4 border dark:border-gray-700 rounded transition-colors ${isCurrentEntry
                     ? "bg-orange-50 dark:bg-yellow-400/60"
                     : "bg-white dark:bg-gray-700"
                     }`}
@@ -682,4 +716,457 @@ const DayEntry = ({
     );
 };
 
-export default DayEntry;
+// DeceasedEntry-Komponente
+const DeceasedEntry = ({
+    entry,
+    formatDate,
+    entryDate, // Geändert: Verwendet entryDate statt selectedDate
+    months,
+    entriesRef,
+}) => {
+    const deceasedIndent = "2.7em"; // Variable für den Einzug
+    const day = entry.date.getDate();
+    const month = months[entry.date.getMonth()];
+    const year = entry.date.getFullYear();
+    //const formattedDate = `${day}. ${month} ${year}`;
+    const formattedDate = `${day}. ${month}`;
+
+    // Prüft, ob dieser Eintrag dem aktuellen entryDate entspricht (für Hervorhebung)
+    const isCurrentEntry =
+        entry.date.getDate() === entryDate.getDate() &&
+        entry.date.getMonth() === entryDate.getMonth()
+    // && entry.date.getFullYear() === entryDate.getFullYear();
+
+    // Get deceased entries for this day and month from deceasedData
+    const deceasedEntries =
+        deceasedData[entry.date.getMonth() + 1][entry.date.getDate()];
+
+    const renderDeceasedEntry = (deceased) => {
+        return (
+            <div className="mb-4 relative">
+                {/* Erste Zeile mit Jahr und Name */}
+                <div style={{ position: "relative" }}>
+                    <span style={{ position: "absolute", left: 0 }}>{deceased.year}</span>
+                    <div style={{ paddingLeft: deceasedIndent }}>
+                        <span
+                            dangerouslySetInnerHTML={{ __html: formatText(deceased.name) }}
+                        />
+                        {deceased.age && <span> ({deceased.age}&nbsp;Jahre)</span>}
+                    </div>
+                </div>
+
+                {/* Zweite Zeile mit Geburtsinfo */}
+                {deceased.birth && (
+                    <div
+                        style={{
+                            paddingLeft: deceasedIndent,
+                            position: "relative",
+                        }}
+                    >
+                        <span
+                            style={{
+                                position: "absolute",
+                                left: deceasedIndent,
+                            }}
+                        >
+                            *
+                        </span>
+                        <div
+                            style={{
+                                paddingLeft: "0.7em",
+                            }}
+                            dangerouslySetInnerHTML={{ __html: formatText(deceased.birth) }}
+                        />
+                    </div>
+                )}
+
+                {/* Dritte Zeile mit Grabinfo */}
+                {deceased.grave && (
+                    <div style={{ paddingLeft: deceasedIndent }}>
+                        Grab:{" "}
+                        <span
+                            dangerouslySetInnerHTML={{ __html: formatText(deceased.grave) }}
+                        />
+                    </div>
+                )}
+            </div>
+        );
+    };
+
+    return (
+        <div
+            key={entry.date.toISOString()}
+            ref={(el) => (entriesRef.current[formatDate(entry.date)] = el)}
+        >
+            <div
+                className={`p-4 border dark:border-gray-700 rounded transition-colors ${isCurrentEntry
+                    ? "bg-orange-50 dark:bg-yellow-400/60"
+                    : "bg-white dark:bg-gray-700"
+                    }`}
+            >
+                {/* Date header */}
+                <div className="font-semibold mb-4 text-gray-900 dark:text-gray-100">
+                    {formattedDate}
+                </div>
+
+                {/* Deceased entries */}
+                {deceasedEntries && (
+                    <div
+                        className="text-gray-900 dark:text-gray-100"
+                        style={{ fontSize: "0.93em" }}
+                    >
+                        {deceasedEntries.map((deceased, index) => (
+                            <div key={index}>{renderDeceasedEntry(deceased)}</div>
+                        ))}
+                    </div>
+                )}
+            </div>
+        </div>
+    );
+};
+
+// ScrollableContainer-Komponente
+const ScrollableContainer = ({ children, containerRef }) => {
+    const [containersReady, setContainersReady] = useState(false);
+
+    useEffect(() => {
+        const container = containerRef.current;
+        const currentContainer = container?.querySelector(
+            '[data-current-container="true"]'
+        );
+
+        if (container && currentContainer) {
+            setContainersReady(true);
+        }
+    }, []);
+
+    return (
+        <div
+            ref={containerRef}
+            className="flex flex-col max-h-[calc(100vh-88px)] overflow-y-auto px-4"
+            style={{
+                scrollBehavior: "smooth",
+                WebkitOverflowScrolling: "touch",
+            }}
+        >
+            {children}
+        </div>
+    );
+};
+
+// ScrollableViews-Hauptkomponente
+const ScrollableViews = ({
+    ref,
+    viewMode,
+    selectedDate, // Globales Datum aus der Hauptkomponente
+    entryDate,
+    setEntryDate,
+    months,
+    formatDate,
+    deceasedMode,
+    expandedDeceased,
+    setExpandedDeceased,
+    onDateChange, // Callback für Änderungen am entryDate, die an die Hauptkomponente kommuniziert werden sollen
+}) => {
+    // Update entryDate wenn sich selectedDate ändert (z.B. durch Navigation in Hauptkomponente)
+    useEffect(() => {
+        setEntryDate(selectedDate);
+    }, [selectedDate]);
+
+    // State für den sichtbaren Bereich
+    const [visibleRange, setVisibleRange] = useState({
+        startDate: null,
+        endDate: null,
+    });
+
+    // Lokale Scroll-bezogene States
+    const entriesRef = useRef({});
+    const containerRef = useRef(null);
+    const [isScrolling, setIsScrolling] = useState(false);
+    const [isReady, setIsReady] = useState(false);
+    const scrollTimeoutRef = useRef(null);
+    const [dateChangeSource, setDateChangeSource] = useState(null);
+
+    // Alle Einträge aus den liturgicalData
+    const allEntries = useMemo(() => {
+        const entries = [];
+        Object.entries(liturgicalData).forEach(([year, yearData]) => {
+            Object.entries(yearData).forEach(([month, monthData]) => {
+                Object.entries(monthData).forEach(([day, data]) => {
+                    entries.push({
+                        date: new Date(parseInt(year), parseInt(month) - 1, parseInt(day)),
+                        ...data,
+                    });
+                });
+            });
+        });
+        return entries.sort((a, b) => a.date - b.date);
+    }, []);
+
+    // Die sichtbaren Einträge basierend auf dem ausgewählten Datum
+    const visibleEntries = useMemo(() => {
+        if (!visibleRange.startDate || !visibleRange.endDate) return [];
+
+        const entries = allEntries.filter((entry) =>
+            isDateInRange(entry.date, visibleRange.startDate, visibleRange.endDate)
+        );
+
+        // Sortiere Einträge nach Datum
+        entries.sort((a, b) => a.date - b.date);
+
+        // Finde Index des ausgewählten Datums
+        const selectedIndex = entries.findIndex(
+            (entry) =>
+                entry.date.getDate() === entryDate.getDate() &&
+                entry.date.getMonth() === entryDate.getMonth() &&
+                entry.date.getFullYear() === entryDate.getFullYear()
+        );
+
+        if (selectedIndex === -1) return entries;
+
+        // Teile die Einträge in zwei Gruppen
+        return {
+            before: entries.slice(Math.max(0, selectedIndex - 7), selectedIndex),
+            current: entries.slice(selectedIndex, selectedIndex + 8),
+        };
+    }, [allEntries, visibleRange, entryDate]);
+
+    // Aktualisiere den sichtbaren Bereich wenn sich das ausgewählte Datum ändert
+    useEffect(() => {
+        const { startDate, endDate } =
+            getDateRange(entryDate, DAYS_BUFFER, DAYS_BUFFER);
+        setVisibleRange({ startDate, endDate });
+    }, [entryDate, DAYS_BUFFER]);
+
+    // Zeit geben für die entriesRef-Berechnung
+    useEffect(() => {
+        entriesRef.current = {};
+        if (entryDate) {
+            setIsReady(false);
+            setTimeout(() => {
+                setIsReady(true);
+            }, 100);
+        }
+    }, [entryDate]);
+
+    // Scroll-Handler
+    const handleScroll = useCallback((event) => {
+        if (!containerRef.current || isScrolling) return;
+        const container = containerRef.current;
+        const entries = Object.entries(entriesRef.current);
+
+        // Get nav height for offset calculation
+        const navElement = container.parentElement
+            .querySelector('[role="navigation"]');
+        const navHeight = navElement ? navElement.offsetHeight : 0;
+
+        // Adjust the target position to account for sticky nav
+        const containerRect = container.getBoundingClientRect();
+        const middleY = containerRect.top + navHeight + containerRect.height / 2;
+
+        let closestEntry = null;
+        let minDistance = Infinity;
+        let found = false;
+
+        for (const [dateStr, element] of entries) {
+            if (!element) continue;
+
+            const rect = element.getBoundingClientRect();
+
+            // Prüfen, ob dieses Element die Viewport-Mitte enthält
+            if (rect.top <= middleY && rect.bottom >= middleY) {
+                closestEntry = dateStr;
+                found = true;
+                break; // Schleife beenden, da wir das gesuchte Element gefunden haben
+            }
+
+            // Fallback zur ursprünglichen Methode
+            const elementMiddleY = rect.top + rect.height / 2;
+            const distance = Math.abs(elementMiddleY - middleY);
+
+            if (distance < minDistance) {
+                minDistance = distance;
+                closestEntry = dateStr;
+            }
+        }
+        if (closestEntry) {
+            const parts = closestEntry.split(" ");
+            const day = parseInt(parts[0]);
+            const month = months.indexOf(parts[1]);
+            const year = parseInt(parts[2]);
+
+            const newDate = new Date(year, month, day);
+
+            if (
+                closestEntry &&
+                formatDate(entryDate) !== formatDate(newDate)
+            ) {
+                setDateChangeSource('scroll');
+                setEntryDate(newDate);
+                // Optional: Informiere die Hauptkomponente über Änderungen
+                if (onDateChange) onDateChange(newDate);
+            }
+        }
+    }, [entryDate, isScrolling, formatDate, months, onDateChange]);
+
+    // Füge Scroll-Listener hinzu
+    useEffect(() => {
+        if (!containerRef.current) return;
+        const container = containerRef.current;
+        const debouncedScroll = (event) => {
+            if (scrollTimeoutRef.current)
+                clearTimeout(scrollTimeoutRef.current);
+            scrollTimeoutRef.current = setTimeout(() =>
+                handleScroll(event), 150);
+        };
+
+        container.addEventListener("scroll", debouncedScroll);
+        return () => {
+            if (container)
+                container.removeEventListener("scroll", debouncedScroll);
+            if (scrollTimeoutRef.current)
+                clearTimeout(scrollTimeoutRef.current);
+        };
+    }, [handleScroll]);
+
+    // Scroll zum ausgewählten Datum, wenn sich entryDate ändert
+    useEffect(() => {
+        // Wenn nicht bereit, nichts tun
+        if (!isReady || !containerRef.current)
+            return;
+        if (dateChangeSource === 'scroll') {
+            // Flag zurücksetzen für zukünftige Änderungen
+            setDateChangeSource(null);
+            return;
+        }
+        const container = containerRef.current;
+        const currentContainer = container
+            .querySelector('[data-current-container="true"]');
+
+        if (!currentContainer) return;
+
+        // Scroll-Position berechnen
+        const navElement = container.parentElement
+            .querySelector('[role="navigation"]');
+        const navHeight = navElement ? navElement.offsetHeight : 0;
+        const fontSize = parseFloat(getComputedStyle(container).fontSize);
+        const emInPixels = (value) => fontSize * value;
+        const scrollPosition =
+            currentContainer.offsetTop - navHeight - emInPixels(7);
+
+        // Scrollen mit Animation
+        setIsScrolling(true); // Scroll-Handler deaktivieren
+
+        container.scrollTo({
+            top: scrollPosition,
+            behavior: "smooth",
+        });
+
+        // Nach Scroll-Ende aufräumen
+        const scrollEndListener = () => {
+            setTimeout(() => {
+                setIsScrolling(false); // Scroll-Handler reaktivieren
+            }, 100);
+            container.removeEventListener("scrollend", scrollEndListener);
+        };
+
+        container.addEventListener("scrollend", scrollEndListener);
+
+        // Cleanup
+        return () => {
+            if (containerRef.current) {
+                containerRef.current.removeEventListener("scrollend", scrollEndListener);
+            }
+        };
+    }, [isReady]);
+
+
+    return (
+        <ScrollableContainer
+            containerRef={containerRef}
+        >
+            {visibleEntries.before && visibleEntries.before.length > 0 && (
+                <div
+                    data-before-container="true"
+                    style={{
+                        position: "relative",
+                        marginTop: "-50vh",
+                        paddingTop: "50vh",
+                        marginBottom: "0",
+                    }}
+                >
+                    {visibleEntries.before.map((entry) =>
+                        viewMode === "directory" ? (
+                            <DayEntry
+                                key={entry.date.toISOString()}
+                                entry={entry}
+                                formatDate={formatDate}
+                                formatText={formatText}
+                                entryDate={entryDate}
+                                months={months}
+                                hangingIndent={hangingIndent}
+                                deceasedMode={deceasedMode}
+                                deceasedSizeRatio={deceasedSizeRatio}
+                                expandedDeceased={expandedDeceased}
+                                setExpandedDeceased={setExpandedDeceased}
+                                entriesRef={entriesRef}
+                            />
+                        ) : (
+                            <DeceasedEntry
+                                key={entry.date.toISOString()}
+                                entry={entry}
+                                formatDate={formatDate}
+                                formatText={formatText}
+                                entryDate={entryDate}
+                                months={months}
+                                entriesRef={entriesRef}
+                            />
+                        )
+                    )}
+                </div>
+            )}
+
+            {visibleEntries.current && visibleEntries.current.length > 0 && (
+                <div
+                    data-current-container="true"
+                    style={{
+                        position: "relative",
+                        marginTop: "0",
+                    }}
+                >
+                    {visibleEntries.current.map((entry) =>
+                        viewMode === "directory" ? (
+                            <DayEntry
+                                key={entry.date.toISOString()}
+                                entry={entry}
+                                formatDate={formatDate}
+                                formatText={formatText}
+                                entryDate={entryDate}
+                                months={months}
+                                hangingIndent={hangingIndent}
+                                deceasedMode={deceasedMode}
+                                deceasedSizeRatio={deceasedSizeRatio}
+                                expandedDeceased={expandedDeceased}
+                                setExpandedDeceased={setExpandedDeceased}
+                                entriesRef={entriesRef}
+                            />
+                        ) : (
+                            <DeceasedEntry
+                                key={entry.date.toISOString()}
+                                entry={entry}
+                                formatDate={formatDate}
+                                formatText={formatText}
+                                entryDate={entryDate}
+                                months={months}
+                                entriesRef={entriesRef}
+                            />
+                        )
+                    )}
+                </div>
+            )}
+        </ScrollableContainer>
+    );
+};
+
+export default ScrollableViews;
+export { DayEntry, DeceasedEntry, ScrollableContainer };
