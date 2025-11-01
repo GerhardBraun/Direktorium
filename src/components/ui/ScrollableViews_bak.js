@@ -954,6 +954,7 @@ const ScrollableViews = ({
         if (!containerRef.current || isScrolling) return;
         const container = containerRef.current;
         const entries = Object.entries(entriesRef.current);
+        console.log('entries: ', entries, '\ncontainer: ', container)
 
         // Get nav height for offset calculation
         const navElement = container.parentElement

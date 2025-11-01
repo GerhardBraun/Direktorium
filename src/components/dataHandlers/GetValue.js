@@ -15,8 +15,10 @@ export const getValue = ({ season, hour, texts, field,
     const { rank_date = 0, isCommemoration, hasErsteVesper = false,
         swdCombined, dayOfWeek } = texts;
     const languageField = field + localPrefLanguage
-    const allSouls = (texts?.laudes?.oblig?.button === 'Allerseelen')
-        || (swdCombined === 'j-31-0' && rank_date === 3)
+    const isForeignLanguage = localPrefLanguage.replace(/_neu|_ben/g, '')
+    const allSouls = texts.dateCompare === '11-02'
+    // const allSouls = (texts?.laudes?.oblig?.button === 'Allerseelen')
+    //     || (swdCombined === 'j-31-0' && rank_date === 3)
 
     // Weihnachtsoktav: Vesper im Rang eines Festes
     const readRank = texts?.rank_wt || 0
@@ -205,11 +207,11 @@ export const getValue = ({ season, hour, texts, field,
 
         //Sonderfall Antiphonen: entweder ant0 oder ant1-3
         if (languageField === `ant0${localPrefLanguage}` &&
-            (prefTexts?.[`ant1${localPrefLanguage}`] || prefCommTexts?.[`ant1${localPrefLanguage}`])
+            (prefTexts?.[`ant1${isForeignLanguage}`] || prefCommTexts?.[`ant1${isForeignLanguage}`])
         ) return null
 
         if ([`ant1${localPrefLanguage}`, `ant2${localPrefLanguage}`, `ant3${localPrefLanguage}`].includes(languageField) &&
-            (prefTexts?.[`ant0${localPrefLanguage}`] || prefCommTexts?.[`ant0${localPrefLanguage}`])
+            (prefTexts?.[`ant0${isForeignLanguage}`] || prefCommTexts?.[`ant0${isForeignLanguage}`])
         ) return null
 
         // 1. Prüfe zuerst prefSrc

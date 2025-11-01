@@ -1,4 +1,4 @@
-Calendar Data Processing Log - 2025-10-31 23:02:06.816080
+Calendar Data Processing Log - 2025-11-01 08:05:58.973760
 ============================================================
 
 ÜBERSCHNEIDUNG [AAA]: 12-13 oblig (bestehende Quellen: n1)
