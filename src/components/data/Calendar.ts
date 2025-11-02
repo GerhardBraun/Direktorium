@@ -11163,7 +11163,7 @@ export const calendarData: CalendarData = {
             "ant2_lat": "Deus tentávit illos et invénit eos dignos se; ídeo accípient regnum decóris de manu Dómini.",
             "ant3_lat": "Redemísti nos, Dómine Deus, in sánguine tuo ex omni tribu et lingua et pópulo et natióne, et fecísti nos Deo nostro regnum.",
             "resp1_lat": "Sancti et iusti,",
-            "resp2_lat": "In Dómino gaudéte.",
+            "resp2_lat": "in Dómino gaudéte.",
             "resp3_lat": "Vos elégit Deus in hereditátem sibi.",
             "antev_lat": "O quam gloriósum est regnum, in quo cum Christo gaudent omnes sancti; amícti stolis albis sequúntur Agnum quocúmque íerit.",
             "bitten_e_lat": "Deum, corónam sanctórum ómnium, gaudénter deprecémur:",
