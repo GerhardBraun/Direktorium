@@ -547,16 +547,16 @@ const PrayerTextDisplay = ({
   const PreliminaryNotes = () => {
     let note = ''
     if (texts.dateCompare === '11-02' && texts.dayOfWeek === 0) {
-      if (hour !== 'vigil')
+      if (!['vigil', 'komplet'].includes(hour))
         note = "Da heute das Gedächtnis Allerseelen auf einen Sonntag fällt, wird die Messe von Allerseelen gefeiert, das°Offizium°jedoch vom°Sonntag°gebetet."
       if (['laudes', 'vesper'].includes(hour)) {
         note = note + " In der Feier mit dem Volk können Laudes und Vesper aus dem Offizium für die Verstorbenen genommen werden. Nutzen Sie dafür den Schalter „Ged°der°Verst“ oben rechts."
       }
     }
-    if (!note) return null
-    else return (<div className="long-rubric mb-0 pt-4">
-      {formatPrayerText(note)}
-    </div>)
+    return !note ? null : (
+      <div className="long-rubric mb-0 pt-4">
+        {formatPrayerText(note)}
+      </div>)
   }
 
   const ordinariumTexts = ordinarium(texts, hour, localPrefLatin, prefSollemnity)
@@ -1256,7 +1256,7 @@ export default function Stundenbuch() {
     // setSelectedDate(newDate);
 
     // Oder nur für Debug-Zwecke loggen
-    console.log("entryDate in ScrollableViews geändert:", newDate);
+    console.log("entryDate in ScrollableViews geändert:", formatDate(newDate));
   };
 
   const parseDateString = (dateStr) => {

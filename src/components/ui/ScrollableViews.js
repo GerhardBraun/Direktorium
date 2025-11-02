@@ -10,6 +10,12 @@ const DAYS_BUFFER = 7; // Anzahl der Tage vor/nach dem ausgewählten Datum
 const hangingIndent = "3.2em"; // Variable für den Einzug
 const deceasedSizeRatio = 0.9;
 
+const debugLog = (message, ...args) => {
+    const now = new Date();
+    const timeStamp = `${now.getSeconds()}.${now.getMilliseconds().toString().padStart(3, '0')}`;
+    console.log(`[${timeStamp}]`, message, ...args);
+};
+
 // Hilfsfunktionen
 const getDateRange = (date, daysBefore, daysAfter) => {
     const startDate = new Date(date);
@@ -891,7 +897,7 @@ const ScrollableViews = ({
     // Lokale Scroll-bezogene States
     const entriesRef = useRef({});
     const containerRef = useRef(null);
-    const [isScrolling, setIsScrolling] = useState(false);
+    const [isScrolling, setIsScrolling] = useState(null);
     const [isReady, setIsReady] = useState(false);
     const scrollTimeoutRef = useRef(null);
     const [dateChangeSource, setDateChangeSource] = useState(null);
@@ -983,10 +989,10 @@ const ScrollableViews = ({
     // Scroll-Handler - verbessert für das Totenverzeichnis
     const handleScroll = useCallback((event) => {
         if (!containerRef.current || isScrolling === 'navigation') {
-            console.log('handleScroll abgebrochen')
+            debugLog('handleScroll abgebrochen - isScrolling: ', isScrolling)
             return
         };
-        console.log('handleScroll ausgelöst mit ', formatDate(entryDate))
+        debugLog('handleScroll ausgelöst mit ', formatDate(entryDate))
         const container = containerRef.current;
         const entries = Object.entries(entriesRef.current);
 
@@ -1065,6 +1071,7 @@ const ScrollableViews = ({
         if (!containerRef.current) return;
         const container = containerRef.current;
         const debouncedScroll = (event) => {
+            //debugLog('scroll-Listener ausgelöst')
             if (scrollTimeoutRef.current)
                 clearTimeout(scrollTimeoutRef.current);
             scrollTimeoutRef.current = setTimeout(() =>
@@ -1093,9 +1100,10 @@ const ScrollableViews = ({
 
         // Nach Scroll-Ende aufräumen
         const scrollEndListener = () => {
+            debugLog('SCROLLEND')
             setTimeout(() => {
-                console.log('scrollEndListener: isScrolling', isScrolling, '=>false')
-                setIsScrolling(false); // Scroll-Handler reaktivieren
+                debugLog('SCROLLEND: isScrolling', isScrolling, '=>null')
+                setIsScrolling(null); // Scroll-Handler reaktivieren
             }, 300);
             container.removeEventListener("scrollend", scrollEndListener);
         };
@@ -1104,8 +1112,8 @@ const ScrollableViews = ({
 
         if (dateChangeSource === 'scroll') {
             // Flag zurücksetzen für zukünftige Änderungen
-            console.log('isScrolling => true')
-            setIsScrolling(true)
+            debugLog('isScrolling', isScrolling, ' => scroll')
+            setIsScrolling('scroll')
             setDateChangeSource(null);
             return;
         }
@@ -1119,6 +1127,7 @@ const ScrollableViews = ({
             currentContainer.offsetTop - navHeight - emInPixels(7);
 
         // Scrollen mit Animation
+        debugLog('isScrolling', isScrolling, ' => Navigation')
         setIsScrolling('navigation'); // Scroll-Handler deaktivieren
 
         container.scrollTo({
