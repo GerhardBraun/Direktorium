@@ -897,7 +897,7 @@ const ScrollableViews = ({
     // Lokale Scroll-bezogene States
     const entriesRef = useRef({});
     const containerRef = useRef(null);
-    const [isScrolling, setIsScrolling] = useState(null);
+    const [isScrolling, setIsScrolling] = useState('default');
     const [isReady, setIsReady] = useState(false);
     const scrollTimeoutRef = useRef(null);
     const [dateChangeSource, setDateChangeSource] = useState(null);
@@ -968,10 +968,12 @@ const ScrollableViews = ({
     useEffect(() => {
         // entriesRef.current = {};
         if (entryDate) {
+            debugLog('isReady', isReady, '=> false')
             setIsReady(false);
             setTimeout(() => {
+                debugLog('isReady-Timeout', isReady, '=> true')
                 setIsReady(true);
-            }, 300);
+            }, 100);
         }
     }, [entryDate]);
 
@@ -992,7 +994,7 @@ const ScrollableViews = ({
             debugLog('handleScroll abgebrochen - isScrolling: ', isScrolling)
             return
         };
-        debugLog('handleScroll ausgelöst mit ', formatDate(entryDate))
+        debugLog('handleScroll ausgelöst mit', formatDate(entryDate))
         const container = containerRef.current;
         const entries = Object.entries(entriesRef.current);
 
@@ -1075,7 +1077,7 @@ const ScrollableViews = ({
             if (scrollTimeoutRef.current)
                 clearTimeout(scrollTimeoutRef.current);
             scrollTimeoutRef.current = setTimeout(() =>
-                handleScroll(event), 300);
+                handleScroll(event), 100);
         };
 
         container.addEventListener("scroll", debouncedScroll);
@@ -1089,6 +1091,7 @@ const ScrollableViews = ({
 
     // Scroll zum ausgewählten Datum, wenn sich entryDate ändert
     useEffect(() => {
+        debugLog('isReady-useEffect')
         // Wenn nicht bereit, nichts tun
         if (!isReady || !containerRef.current)
             return;
@@ -1100,9 +1103,9 @@ const ScrollableViews = ({
 
         // Nach Scroll-Ende aufräumen
         const scrollEndListener = () => {
-            debugLog('SCROLLEND')
+            debugLog('SCROLLEND: isScrolling', isScrolling)
             setTimeout(() => {
-                debugLog('SCROLLEND: isScrolling', isScrolling, '=>null')
+                debugLog('SCROLLEND-Timeout: isScrolling', isScrolling, '=>null')
                 setIsScrolling(null); // Scroll-Handler reaktivieren
             }, 300);
             container.removeEventListener("scrollend", scrollEndListener);
@@ -1127,7 +1130,7 @@ const ScrollableViews = ({
             currentContainer.offsetTop - navHeight - emInPixels(7);
 
         // Scrollen mit Animation
-        debugLog('isScrolling', isScrolling, ' => Navigation')
+        debugLog('isScrolling:', isScrolling, '=> Navigation')
         setIsScrolling('navigation'); // Scroll-Handler deaktivieren
 
         container.scrollTo({

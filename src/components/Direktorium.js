@@ -548,9 +548,9 @@ const PrayerTextDisplay = ({
     let note = ''
     if (texts.dateCompare === '11-02' && texts.dayOfWeek === 0) {
       if (!['vigil', 'komplet'].includes(hour))
-        note = "Da heute das Gedächtnis Allerseelen auf einen Sonntag fällt, wird die Messe von Allerseelen gefeiert, das°Offizium°jedoch vom°Sonntag°gebetet."
+        note = "Da heute das Gedächtnis Allerseelen auf einen Sonntag fällt, wird°die Messe von Allerseelen gefeiert, das°Offizium°jedoch vom°Sonntag°gebetet."
       if (['laudes', 'vesper'].includes(hour)) {
-        note = note + " In der Feier mit dem Volk können Laudes und Vesper aus dem Offizium für die Verstorbenen genommen werden. Nutzen Sie dafür den Schalter „Ged°der°Verst“ oben rechts."
+        note += "^lIn der Feier mit dem Volk können Laudes und Vesper aus dem Offizium für die Verstorbenen genommen werden. Nutzen°Sie dafür den Schalter „Ged°der°Verst“ oben rechts."
       }
     }
     return !note ? null : (
