@@ -16,18 +16,34 @@ const debugLog = (message, ...args) => {
     console.log(`[${timeStamp}]`, message, ...args);
 };
 
-// Hilfsfunktionen
-const getDateRange = (date, daysBefore, daysAfter) => {
-    const startDate = new Date(date);
-    startDate.setDate(date.getDate() - daysBefore);
-    const endDate = new Date(date);
-    endDate.setDate(date.getDate() + daysAfter);
-    return { startDate, endDate };
-};
+// Neue Hilfsfunktion: Effizienter Lookup für liturgische Daten nach Datum
+const createLiturgicalDataLookup = (() => {
+    let lookup = null;
 
-const isDateInRange = (date, startDate, endDate) => {
-    return date >= startDate && date <= endDate;
-};
+    return () => {
+        if (!lookup) {
+            lookup = {};
+
+            // Durchlaufen der verschachtelten Struktur
+            for (const year in liturgicalData) {
+                for (const month in liturgicalData[year]) {
+                    for (const day in liturgicalData[year][month]) {
+                        // Erstelle ein Date-Objekt aus den verschachtelten Schlüsseln
+                        const date = new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
+
+                        // Speichere den Eintrag mit dem Datum als Schlüssel
+                        const key = `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
+
+                        // Kopiere den Eintrag und füge das date-Objekt hinzu
+                        const entry = { ...liturgicalData[year][month][day], date };
+                        lookup[key] = entry;
+                    }
+                }
+            }
+        }
+        return lookup;
+    };
+})();
 
 // NotesSection-Komponente für formatierte Notizen
 const NotesSection = ({ content, fontSize = "0.93em" }) => {
@@ -141,7 +157,8 @@ const NotesSection = ({ content, fontSize = "0.93em" }) => {
 const DayEntry = ({
     entry,
     formatDate,
-    entryDate, // Geändert: Verwendet entryDate statt selectedDate
+    id,
+    entryDate,
     months,
     deceasedMode,
     expandedDeceased,
@@ -169,6 +186,7 @@ const DayEntry = ({
     return (
         <div
             key={dateKey}
+            id={id}
             ref={(el) => (entriesRef.current[formatDate(entry.date)] = el)}
         >
             <div
@@ -729,6 +747,8 @@ const DeceasedEntry = ({
     formatDate,
     months,
     entriesRef,
+    id,
+
 }) => {
     // Berechnet das anzuzeigende Datum basierend auf entryDate und dem Offset
     // Für das Totenverzeichnis verwenden wir das Jahr 2000 (Schaltjahr)
@@ -810,6 +830,7 @@ const DeceasedEntry = ({
     return (
         <div
             key={stableKey}
+            id={id}
             ref={(el) => {
                 // Verwende formatDate, aber mit dem berechneten Datum im Jahr 2000
                 // Dies stellt sicher, dass wir für jeden Tag/Monat einen konsistenten Referenzwert haben
@@ -871,28 +892,22 @@ const ScrollableContainer = ({ children, containerRef }) => {
 
 // ScrollableViews-Hauptkomponente
 const ScrollableViews = ({
-    ref,
-    viewMode,
-    selectedDate, // Globales Datum aus der Hauptkomponente
     entryDate,
+    selectedDate,
     setEntryDate,
-    months,
-    formatDate,
-    deceasedMode,
+    viewMode,
+    onDateChange,
+    navHeight = 0,
+    months = [
+        "Januar", "Februar", "März",
+        "April", "Mai", "Juni",
+        "Juli", "August", "September",
+        "Oktober", "November", "Dezember",
+    ],
+    deceasedMode = "default", // "default" or "all"
     expandedDeceased,
-    setExpandedDeceased,
-    onDateChange, // Callback für Änderungen am entryDate
-}) => {
-    // Update entryDate wenn sich selectedDate ändert
-    useEffect(() => {
-        setEntryDate(selectedDate);
-    }, [selectedDate, setEntryDate]);
-
-    // State für den sichtbaren Bereich
-    const [visibleRange, setVisibleRange] = useState({
-        startDate: null,
-        endDate: null,
-    });
+    setExpandedDeceased
+}) => {    // Update entryDate wenn sich selectedDate ändert
 
     // Lokale Scroll-bezogene States
     const entriesRef = useRef({});
@@ -902,91 +917,40 @@ const ScrollableViews = ({
     const scrollTimeoutRef = useRef(null);
     const [dateChangeSource, setDateChangeSource] = useState(null);
 
-    // Alle Einträge aus den liturgicalData
-    const allEntries = useMemo(() => {
-        if (viewMode === "directory") {
-            // Für das Direktorium: alle Einträge aus liturgicalData
-            const entries = [];
-            Object.entries(liturgicalData).forEach(([year, yearData]) => {
-                Object.entries(yearData).forEach(([month, monthData]) => {
-                    Object.entries(monthData).forEach(([day, data]) => {
-                        entries.push({
-                            date: new Date(parseInt(year), parseInt(month) - 1, parseInt(day)),
-                            ...data,
-                        });
-                    });
-                });
-            });
-            return entries;
-        }
+    // Formatierungsfunktion für Datumsdarstellung
+    const formatDate = useCallback(
+        (date) => {
+            const day = date.getDate();
+            const month = months[date.getMonth()];
+            const year = date.getFullYear();
+            return `${day} ${month} ${year}`;
+        },
+        [months]
+    );
 
-        return []; // Für "deceased" verwenden wir einen anderen Ansatz, daher leer
-    }, [viewMode]);
+    // Hilfsfunktion für das Totenverzeichnis
+    const getDateFromStableKey = useCallback((key) => {
+        const [month, day] = key.split('-').map(Number);
+        return new Date(entryDate.getFullYear(), month - 1, day);
+    }, [entryDate]);
 
-    // Sichtbare Einträge basierend auf dem ausgewählten Datum und dem Buffer berechnen
-    const visibleEntries = useMemo(() => {
-        if (viewMode === "deceased") {
-            // Für das Totenverzeichnis geben wir keine visibleEntries zurück,
-            // da wir direkt mit Indizes arbeiten werden
-            return { before: [], current: [] };
-        }
-
-        if (!visibleRange.startDate || !visibleRange.endDate || !allEntries.length)
-            return { before: [], current: [] };
-
-        // Für das Direktorium: Einträge filtern, die im sichtbaren Bereich liegen
-        const entries = allEntries.filter((entry) =>
-            isDateInRange(entry.date, visibleRange.startDate, visibleRange.endDate)
-        );
-
-        // Nach Datum sortieren
-        entries.sort((a, b) => a.date - b.date);
-
-        // Finde Index des ausgewählten Datums
-        const selectedIndex = entries.findIndex((entry) =>
-            entry.date.getDate() === entryDate.getDate() &&
-            entry.date.getMonth() === entryDate.getMonth() &&
-            entry.date.getFullYear() === entryDate.getFullYear()
-        );
-
-        if (selectedIndex === -1) return { before: [], current: entries };
-
-        // Teile die Einträge in zwei Gruppen
-        return {
-            before: entries.slice(Math.max(0, selectedIndex - DAYS_BUFFER), selectedIndex),
-            current: entries.slice(selectedIndex, Math.min(entries.length, selectedIndex + DAYS_BUFFER + 1)),
-        };
-    }, [allEntries, visibleRange, entryDate, DAYS_BUFFER, viewMode]);
-
-    // Aktualisiere den sichtbaren Bereich wenn sich das ausgewählte Datum ändert
+    // Nach dem ersten Rendern bereit setzen
     useEffect(() => {
-        const { startDate, endDate } = getDateRange(entryDate, DAYS_BUFFER, DAYS_BUFFER);
-        setVisibleRange({ startDate, endDate });
-    }, [entryDate, DAYS_BUFFER]);
+        setIsReady(true);
+    }, []);
 
     // Zeit geben für die entriesRef-Berechnung
     useEffect(() => {
-        // entriesRef.current = {};
+        entriesRef.current = {};
         if (entryDate) {
-            debugLog('isReady', isReady, '=> false')
+            //debugLog('isReady', isReady, '=> false')
             setIsReady(false);
             setTimeout(() => {
-                debugLog('isReady-Timeout', isReady, '=> true')
+                // debugLog('isReady-Timeout', isReady, '=> true')
                 setIsReady(true);
-            }, 100);
+            }, 300);
         }
     }, [entryDate]);
-
-    // Hilfsfunktion für stable key generation
-    const getStableKeyFromDate = (date) => {
-        return `${date.getMonth() + 1}-${date.getDate()}`;
-    };
-
-    // Hilfsfunktion um Datum aus stabilem Key zu erzeugen
-    const getDateFromStableKey = (key) => {
-        const [month, day] = key.split('-').map(Number);
-        return new Date(2000, month - 1, day); // Jahr 2000 für Totenverzeichnis
-    };
 
     // Scroll-Handler - verbessert für das Totenverzeichnis
     const handleScroll = useCallback((event) => {
@@ -1010,15 +974,14 @@ const ScrollableViews = ({
         let closestEntry = null;
         let minDistance = Infinity;
         let found = false;
-
+        debugLog('entries:', entries)
         for (const [entryKey, element] of entries) {
-            if (!element) {
-                continue
-            };
+            if (!element) continue;
 
             const rect = element.getBoundingClientRect();
 
             // Prüfen, ob dieses Element die Viewport-Mitte enthält
+            debugLog('', entryKey, Math.floor(rect.top), Math.floor(rect.bottom), Math.floor(rect.bottom) - Math.floor(rect.top))
             if (rect.top <= middleY && rect.bottom >= middleY) {
                 closestEntry = entryKey;
                 found = true;
@@ -1066,7 +1029,7 @@ const ScrollableViews = ({
                 if (onDateChange) onDateChange(newDate);
             }
         }
-    }, [entryDate, isScrolling, formatDate, months, onDateChange, setEntryDate, viewMode]);
+    }, [isScrolling, entryDate, formatDate, months, onDateChange, setEntryDate, viewMode]);
 
     // Füge Scroll-Listener hinzu
     useEffect(() => {
@@ -1076,8 +1039,11 @@ const ScrollableViews = ({
             //debugLog('scroll-Listener ausgelöst')
             if (scrollTimeoutRef.current)
                 clearTimeout(scrollTimeoutRef.current);
-            scrollTimeoutRef.current = setTimeout(() =>
-                handleScroll(event), 100);
+            scrollTimeoutRef.current = setTimeout(() => {
+                debugLog('handleScroll durch debouncedScroll ausgelöst')
+                handleScroll(event)
+            }, 100
+            );
         };
 
         container.addEventListener("scroll", debouncedScroll);
@@ -1091,21 +1057,17 @@ const ScrollableViews = ({
 
     // Scroll zum ausgewählten Datum, wenn sich entryDate ändert
     useEffect(() => {
-        debugLog('isReady-useEffect')
+        debugLog('isReady-useEffect\ncontainerRef:', containerRef)
         // Wenn nicht bereit, nichts tun
         if (!isReady || !containerRef.current)
             return;
         const container = containerRef.current;
-        const currentContainer = container
-            .querySelector('[data-current-container="true"]');
-
-        if (!currentContainer) return;
 
         // Nach Scroll-Ende aufräumen
         const scrollEndListener = () => {
-            debugLog('SCROLLEND: isScrolling', isScrolling)
+            debugLog('SCROLLEND: isScrolling', isScrolling, entriesRef)
             setTimeout(() => {
-                debugLog('SCROLLEND-Timeout: isScrolling', isScrolling, '=>null')
+                debugLog('SCROLLEND-Timeout: isScrolling', isScrolling, '=>null\n', entriesRef)
                 setIsScrolling(null); // Scroll-Handler reaktivieren
             }, 300);
             container.removeEventListener("scrollend", scrollEndListener);
@@ -1120,24 +1082,19 @@ const ScrollableViews = ({
             setDateChangeSource(null);
             return;
         }
-        // Scroll-Position berechnen
-        const navElement = container.parentElement
-            .querySelector('[role="navigation"]');
-        const navHeight = navElement ? navElement.offsetHeight : 0;
-        const fontSize = parseFloat(getComputedStyle(container).fontSize);
-        const emInPixels = (value) => fontSize * value;
-        const scrollPosition =
-            currentContainer.offsetTop - navHeight - emInPixels(7);
-
+        const bookmark = document.getElementById('scroll-to-entryDate');
+        debugLog('bookmark:', bookmark)
         // Scrollen mit Animation
         debugLog('isScrolling:', isScrolling, '=> Navigation')
         setIsScrolling('navigation'); // Scroll-Handler deaktivieren
 
-        container.scrollTo({
-            top: scrollPosition,
-            behavior: "smooth",
-        });
-
+        // Mit scrollIntoView zum Element scrollen
+        if (bookmark) {
+            bookmark.scrollIntoView({
+                behavior: 'smooth',
+                block: 'center', // Element in der Mitte des Viewports positionieren
+            });
+        }
 
         // Cleanup
         return () => {
@@ -1147,16 +1104,56 @@ const ScrollableViews = ({
         };
     }, [isReady]);
 
+    // Hilfsfunktion: Datum in Lookup-Key umwandeln
+    const getDateKey = (date) => {
+        return `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
+    };
+
+    // Neue vereinheitlichte Funktion zum Erstellen der Einträge für Directory-Modus
+    const renderDirectoryEntries = () => {
+        const entries = [];
+        const liturgicalLookup = createLiturgicalDataLookup();
+
+        // Durchlaufe den gesamten sichtbaren Bereich in einem einzigen Loop
+        for (let offset = -DAYS_BUFFER; offset <= DAYS_BUFFER; offset++) {
+            // Berechne das Datum für diesen Offset
+            const date = new Date(entryDate);
+            date.setDate(date.getDate() + offset);
+
+            // Finde den entsprechenden Eintrag im Lookup
+            const dateKey = getDateKey(date);
+            const entry = liturgicalLookup[dateKey];
+
+            // Prüfe, ob dies der aktuelle Eintrag ist (für ID und Styling)
+            const isCurrentEntry = offset === 0;
+
+            // Nur Einträge hinzufügen, die tatsächlich existieren
+            if (entry) {
+                entries.push(
+                    <DayEntry
+                        key={entry.date.toISOString()}
+                        entry={entry}
+                        formatDate={formatDate}
+                        id={isCurrentEntry ? "scroll-to-entryDate" : undefined}
+                        entryDate={entryDate}
+                        months={months}
+                        deceasedMode={deceasedMode}
+                        expandedDeceased={expandedDeceased}
+                        setExpandedDeceased={setExpandedDeceased}
+                        entriesRef={entriesRef}
+                    />
+                );
+            }
+        }
+        return entries;
+    };
+
     // Funktion zum Erstellen der Eintragslisten für das Totenverzeichnis
-    const renderDeceasedEntries = (isBeforeContainer) => {
+    const renderDeceasedEntries = () => {
         const entries = [];
 
-        // Für before-Container: von -DAYS_BUFFER bis -1
-        // Für current-Container: von 0 bis +DAYS_BUFFER
-        const startOffset = isBeforeContainer ? -DAYS_BUFFER : 0;
-        const endOffset = isBeforeContainer ? -1 : DAYS_BUFFER;
-
-        for (let offset = startOffset; offset <= endOffset; offset++) {
+        // Durchlaufe den gesamten sichtbaren Bereich in einem einzigen Loop
+        for (let offset = -DAYS_BUFFER; offset <= DAYS_BUFFER; offset++) {
             // Berechne das Datum für diesen Offset
             const date = new Date(2000, entryDate.getMonth(), entryDate.getDate());
             date.setDate(date.getDate() + offset);
@@ -1164,11 +1161,16 @@ const ScrollableViews = ({
             // Erstelle einen stabilen Key aus Tag und Monat
             const stableKey = `${date.getMonth() + 1}-${date.getDate()}`;
 
+            // Prüfe, ob dies der aktuelle Eintrag ist (für ID und Styling)
+            const isCurrentEntry = offset === 0;
+
             entries.push(
                 <DeceasedEntry
                     key={stableKey}
+                    id={isCurrentEntry ? 'scroll-to-entryDate' : undefined}
                     dayOffset={offset}
                     entryDate={entryDate}
+                    isCurrentEntry={isCurrentEntry} // Optional: für visuelle Hervorhebung
                     formatDate={formatDate}
                     months={months}
                     entriesRef={entriesRef}
@@ -1178,67 +1180,13 @@ const ScrollableViews = ({
 
         return entries;
     };
-
+    // Aktualisierte Render-Funktion
     return (
         <ScrollableContainer containerRef={containerRef}>
-            {/* Container für Einträge vor dem aktuellen Datum */}
-            <div
-                data-before-container="true"
-                style={{
-                    position: "relative",
-                    marginTop: "-50vh",
-                    paddingTop: "50vh",
-                    marginBottom: "0",
-                }}
-            >
-                {viewMode === "directory" ? (
-                    // Für Direktorium: Mapping über visibleEntries.before
-                    visibleEntries.before.map((entry) => (
-                        <DayEntry
-                            key={entry.date.toISOString()}
-                            entry={entry}
-                            formatDate={formatDate}
-                            entryDate={entryDate}
-                            months={months}
-                            deceasedMode={deceasedMode}
-                            expandedDeceased={expandedDeceased}
-                            setExpandedDeceased={setExpandedDeceased}
-                            entriesRef={entriesRef}
-                        />
-                    ))
-                ) : (
-                    // Für Totenverzeichnis: Index-basierte Einträge vor dem aktuellen Tag
-                    renderDeceasedEntries(true)
-                )}
-            </div>
-
-            {/* Container für den aktuellen und nachfolgende Einträge */}
-            <div
-                data-current-container="true"
-                style={{
-                    position: "relative",
-                    marginTop: "0",
-                }}
-            >
-                {viewMode === "directory" ? (
-                    // Für Direktorium: Mapping über visibleEntries.current
-                    visibleEntries.current.map((entry) => (
-                        <DayEntry
-                            key={entry.date.toISOString()}
-                            entry={entry}
-                            formatDate={formatDate}
-                            entryDate={entryDate}
-                            months={months}
-                            deceasedMode={deceasedMode}
-                            expandedDeceased={expandedDeceased}
-                            setExpandedDeceased={setExpandedDeceased}
-                            entriesRef={entriesRef}
-                        />
-                    ))
-                ) : (
-                    // Für Totenverzeichnis: Index-basierte Einträge vom aktuellen Tag und danach
-                    renderDeceasedEntries(false)
-                )}
+            <div className="full-entries-container">
+                {viewMode === "directory"
+                    ? renderDirectoryEntries()
+                    : renderDeceasedEntries()}
             </div>
         </ScrollableContainer>
     );

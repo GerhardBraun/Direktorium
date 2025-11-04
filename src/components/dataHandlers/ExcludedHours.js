@@ -1,8 +1,8 @@
-// Hilfsfunktion zur Bestimmung der ausgeschlossenen Horen basierend auf Ergänzungspsalmodie
+// Hilfsfunktion zur Bestimmung der ausgeschlossenen Horen
+// basierend auf Ergänzungspsalmodie
 export const getExcludedHours = (texts, localPrefErgPs, title) => {
-    if (title !== 'PSALMODIE' || !localPrefErgPs) {
+    if (title !== 'PSALMODIE' || !localPrefErgPs)
         return [];
-    }
 
     const excludedHours = [];
     const checkHours = ['terz', 'sext', 'non'];
@@ -33,10 +33,7 @@ export const getExcludedHours = (texts, localPrefErgPs, title) => {
                 });
             }
         });
-        if (shouldExclude) {
-            excludedHours.push(hourName);
-        }
+        if (shouldExclude) excludedHours.push(hourName);
     });
-
     return excludedHours;
 };

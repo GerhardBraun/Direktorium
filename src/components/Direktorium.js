@@ -1256,7 +1256,7 @@ export default function Stundenbuch() {
     // setSelectedDate(newDate);
 
     // Oder nur für Debug-Zwecke loggen
-    console.log("entryDate in ScrollableViews geändert:", formatDate(newDate));
+    console.log("entryDate geändert:", formatDate(newDate));
   };
 
   const parseDateString = (dateStr) => {

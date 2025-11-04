@@ -104,11 +104,9 @@ export const getValue = ({ season, hour, texts, field,
     const psalm51 = hour === 'laudes' &&
         (swdCombined === 'q-0-3' || allSouls)
 
-    // Gedenktage mit Eigentexten für die Kleinen Horen
-    const buttonToCheck = texts?.laudes?.oblig?.button || 'DEFAULT'
-    const memorialWithTSN =
-        buttonToCheck.includes('Barnabas') ||
-        buttonToCheck.includes('Schutzengel')
+    // Gedenktage mit Eigentexten für die Kleinen Horen:
+    // Barnabas und Schutzengel
+    const memorialWithTSN = ['06-11', '10-02'].includes(texts.dateCompare)
 
     // Feier wie ein Hochfest
     const isSollemnity = (hour === 'vesper' && hasErsteVesper)

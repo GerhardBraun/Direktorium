@@ -1,3 +1,7 @@
+// Die Funktion formatiert Bibelstellenangaben so,
+// dass die Verszahlen etwas kleiner dargestellt werden
+// und die gesamte Angabe in einem nichttrennbaren Block zusammengehalten wird.
+
 import React from 'react';
 
 const formatBibleRef = (text, bracket = false) => {

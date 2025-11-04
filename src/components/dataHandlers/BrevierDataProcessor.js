@@ -1,3 +1,14 @@
+// Diese Komponente stellt
+// aufgrund der Einordnung des Tages im liturgischen Jahr (siehe LitCalendar.js)
+// die Stundengebetstexte aus den Datenbanken zusammen.
+// In einer mehrlagigen Schichtung werden, ausgehend vom Vierwochenpsalter im Jahreskreis,
+// besondere Texte je nach Kirchenjahreszeit (season), Woche (week) und Wochentag (day)
+// allgemeinere Teile durch speziellere überschrieben (addLayer und mergeData).
+//
+// Parallel zu den Texten nach Kirchenjahr
+// werden die Texte zu dein Heiligenfesten nach Kalenderjahr hinzugefügt,
+// zusammen mit den zugehörigen Commune-Texten.
+
 import { brevierData } from '../data/Brevier.ts';
 import { lecture1Data } from '../data/Lecture1.ts';
 import { lecture2Data } from '../data/Lecture2.ts';
@@ -372,6 +383,10 @@ function processReadings(hours, yearABC, calendarMonth, calendarDay) {
 }
 
 function processTerzPsalms(hours) {
+    // Antiphonen und Psalmen sind in den Kleinen Horen (Terz, Sext, Non) meist gleich;
+    // deshalb sind sie in den Datenbanken nur für die Terz hinterlegt.
+    // Hier werden sie in Sext und Non übernommen.
+
     // Definiere die relevanten Psalm-Felder
     const psalmFields = [
         'psalm1', 'psalm2', 'psalm3',
@@ -409,6 +424,11 @@ function processTerzPsalms(hours) {
 }
 
 function processAntABC(hours, yearABC) {
+    // Wenn an den Sonntagen Benedictus- und Magnificat-Antiphonen
+    // nach Lesejahr ABC unterschiedlich sind,
+    // werden die des aktuellen Lesejahres
+    // dem relevanten Feld antEv zugewiesen.
+
     ['erstev', 'laudes', 'vesper'].forEach(hour => {
         const antField = 'ant' + yearABC;
         const antFieldLat = antField + '_lat';
@@ -423,6 +443,10 @@ function processAntABC(hours, yearABC) {
 }
 
 function processInvitatoriumPsalms(hours, prefInv = 100) {
+    // Psalmen, die grundsätzlich für das Invitatorium zur Auswahl stehen,
+    // werden aus der Auswahl ausgeschlossen, wenn sie am betreffenden Tag
+    // an anderer Stelle des Tages im Stundengebet vorkommen.
+
     // Array für gefundene Psalmen initialisieren
     const found = new Set();
 
@@ -467,6 +491,10 @@ function processInvitatoriumPsalms(hours, prefInv = 100) {
 }
 
 function processEasterResponses(hours) {
+    // In der Osterzeit werden der erste und der zweite Teil des Responsoriums
+    // als Teil 1 zusammengefasst,
+    // der 2. Teil ist dann immer 'Halleluja, halleluja.'
+
     function processResponseSet(data) {
         if (data.resp1 && data.resp2) {
             if (!data.resp2.startsWith('Hallel')) {
@@ -507,6 +535,10 @@ function processEasterResponses(hours) {
 }
 
 function processKompletData(data, calendarDate) {
+    // Hier wird zusammengestellt, welche Komplet-Formulare
+    // am Tag zur Auswahl stehen und welches davon die 1. Wahl ist.
+    // Die Komplet-Daten selbst stehen in GetValue.js.
+
     const { hasErsteVesper = false, dayOfWeek, rank_date, rank_wt, swdCombined } = data
     const kompletDay = calendarDate.getDate();
     const kompletMonth = calendarDate.getMonth() + 1;
@@ -516,22 +548,27 @@ function processKompletData(data, calendarDate) {
     let showKompletK2 = true;
     let prefKomplet = 'wt'
 
-    if (['q-6-4', 'q-6-5', 'q-6-6'].includes(swdCombined)) {
+    // Aschermittwoch und Mo-Mi der Karwoche: wie Wochentag trotz Rang 5
+    if (['q-0-3', 'q-6-1', 'q-6-2', 'q-6-3'].includes(swdCombined)) {
+        prefKomplet = 'wt'
+    }
+    // Gründonnerstag, Karfreitag, Karsamstag: nur 2. Kp vom So
+    else if (['q-6-4', 'q-6-5', 'q-6-6'].includes(swdCombined)) {
         showKompletWt = false; showKompletK1 = false; prefKomplet = 'k2'
     }
+    // nach der 1. Vesper
     else if (hasErsteVesper) {
         showKompletWt = false; prefKomplet = 'k1'
     }
-    else if (dayOfWeek === 0 || rank_date === 5) {
+    // an Sonntagen und Hochfesten
+    else if (dayOfWeek === 0 || rank_date > 4 || rank_wt === 5) {
         showKompletWt = false; prefKomplet = 'k2'
     }
+    // Weihnachts- und Osteroktav: 1. oder 2. Kp nach Belieben,
+    // deshalb 'wt' als Vorauswahl (wird als "Bitte wählen Sie ..." angezeigt)
     else if ((kompletMonth === 12 && kompletDay > 25)
         || (swdCombined.startsWith('o-1-'))) {
         showKompletWt = false; prefKomplet = 'wt'
-    }
-    else if ((rank_wt === 5 || rank_date === 6) &&
-        !['q-0-3', 'q-6-1', 'q-6-2', 'q-6-3'].includes(swdCombined)) {
-        showKompletWt = false; prefKomplet = 'k2'
     }
     return {
         showKompletWt,
@@ -611,13 +648,22 @@ export function processBrevierData(todayDate) {
     const rankNextDate = tomorrowData.rank_date;
     const nextSwdCombined = tomorrowData.swdCombined;
 
-    const hasErsteVesper_wt = swdCombined === 'o-1-6' ||
+    const hasErsteVesper_wt =
+        // Sonderfall: Sa der Osteroktav hat 1. Vesper, obwohl selbst Hochfest
+        swdCombined === 'o-1-6' ||
+        // notwendige Bedingung: heute kein Hochfest
         (rank_wt < 5 && rank_date < 5 &&
+            // hinreichende Bedingung: Samstag, aber kein Fest ...
             ((dayOfWeek === 6 && rank_date < 4) ||
+                // ... oder morgen Hochfest (außer Aschermittwoch)
                 (rankNextWt === 5 && nextSwdCombined !== 'q-0-3')));
-    const hasErsteVesper_date = (rank_wt < 5 && rank_date < 5 && rankNextDate > rankNextWt &&
-        (rankNextDate === 5 || (rankNextDate === 4 && dayOfWeek === 6)))
-        || rankNextDate === 6; // Sonderfall Weihnachten (Vorrang auch vor dem 4. Advent)
+    const hasErsteVesper_date =
+        // Sonderfall: Weihnachten hat Vorrang auch vor dem 4. Advent
+        rankNextDate === 6 ||
+        // notwendige Bedingungen: heute kein Hochfest und morgen kein Hochfest des Kirchenjahres
+        (rank_wt < 5 && rank_date < 5 && rankNextDate > rankNextWt &&
+            // hinreichende Bedingung: morgen Hochfest oder Herrenfest am Sonntag
+            (rankNextDate === 5 || (rankNextDate === 4 && dayOfWeek === 6)));
 
     //Lesejahr ABC
     const year = todayDate.getFullYear();
@@ -667,8 +713,8 @@ export function processBrevierData(todayDate) {
         && dayOfWeek !== 0 && swdCombined !== 'q-0-3'
         && dateCompare !== '11-02'
     ) || // Gedenktage mit Ps vom Fest
-        ['01-21', '05-01', '06-11', '08-29', '09-15', '10-02', '10-07', '11-11']
-            .includes(dateCompare);
+        ['01-21', '05-01', '06-11', '08-29', '09-15',
+            '10-02', '10-07', '11-11'].includes(dateCompare);
 
     finalData.hasZweiteVesper = (kompletSettings.prefKomplet === 'k2'
         && !['q-6-4', 'q-6-5', 'q-6-6', 'o-1-0'].includes(swdCombined));
