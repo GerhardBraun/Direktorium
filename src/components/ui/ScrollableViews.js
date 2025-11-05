@@ -954,11 +954,11 @@ const ScrollableViews = ({
 
     // Scroll-Handler - verbessert für das Totenverzeichnis
     const handleScroll = useCallback((event) => {
+        debugLog('handleScroll ausgelöst mit', formatDate(entryDate), isScrolling)
         if (!containerRef.current || isScrolling === 'navigation') {
             debugLog('handleScroll abgebrochen - isScrolling: ', isScrolling)
             return
         };
-        debugLog('handleScroll ausgelöst mit', formatDate(entryDate))
         const container = containerRef.current;
         const entries = Object.entries(entriesRef.current);
 
@@ -974,14 +974,14 @@ const ScrollableViews = ({
         let closestEntry = null;
         let minDistance = Infinity;
         let found = false;
-        debugLog('entries:', entries)
+        // debugLog('entries:', entries)
         for (const [entryKey, element] of entries) {
             if (!element) continue;
 
             const rect = element.getBoundingClientRect();
 
             // Prüfen, ob dieses Element die Viewport-Mitte enthält
-            debugLog('', entryKey, Math.floor(rect.top), Math.floor(rect.bottom), Math.floor(rect.bottom) - Math.floor(rect.top))
+            //debugLog('', entryKey, Math.floor(rect.top), Math.floor(rect.bottom), Math.floor(rect.bottom) - Math.floor(rect.top))
             if (rect.top <= middleY && rect.bottom >= middleY) {
                 closestEntry = entryKey;
                 found = true;
@@ -1034,6 +1034,7 @@ const ScrollableViews = ({
     // Füge Scroll-Listener hinzu
     useEffect(() => {
         if (!containerRef.current) return;
+        debugLog('handleScroll wurde neu erstellt mit isScrolling:', isScrolling);
         const container = containerRef.current;
         const debouncedScroll = (event) => {
             //debugLog('scroll-Listener ausgelöst')

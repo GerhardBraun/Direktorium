@@ -142,7 +142,8 @@ export const NavigationButtons = ({
                     : hour.charAt(0).toUpperCase() + hour.slice(1)
 
         if (hour === 'vigil') return (
-            <div className="grid grid-cols-5 gap-0 mb-2 pr-4">
+            <div className="mb-2 pr-4 grid grid-columns-3 gap-1"
+                style={{ gridTemplateColumns: `minmax(auto, 1fr) auto minmax(auto, 1fr)` }}>
                 <button
                     onClick={() => {
                         onSelectHour('lesehore', texts)
@@ -156,7 +157,7 @@ export const NavigationButtons = ({
                             }
                         }, 50);
                     }}
-                    className="text-left long-rubric mt-1 col-span-2"
+                    className="text-left long-rubric mt-1 whitespace-nowrap"
                 >
                     &nbsp;&nbsp;←&nbsp;&nbsp;zurück zur Lesehore
                 </button>
@@ -165,7 +166,7 @@ export const NavigationButtons = ({
                 </div>
                 <button
                     onClick={toggleDocked}
-                    className="text-right long-rubric mt-1 col-span-2"
+                    className="text-right long-rubric mt-1"
                 >
                     {isDocked ? 'Lösen' : 'Fixieren'}&nbsp;&nbsp;
                 </button>
