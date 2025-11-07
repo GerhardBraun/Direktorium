@@ -1070,7 +1070,7 @@ const ScrollableViews = ({
             setTimeout(() => {
                 debugLog('SCROLLEND-Timeout: isScrolling', isScrolling, '=>null\n', entriesRef)
                 setIsScrolling(null); // Scroll-Handler reaktivieren
-            }, 300);
+            }, 100);
             container.removeEventListener("scrollend", scrollEndListener);
         };
 

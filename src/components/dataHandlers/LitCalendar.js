@@ -201,7 +201,7 @@ const getLiturgicalInfo = (provDate) => {
     const daysSinceEaster = Math.floor((date - easter) / daysToMilliseconds(1));
     const afterPentecost = [50, 56, 60, 68, 69].includes(daysSinceEaster)
         ? 40 + (daysSinceEaster % 7)
-        : [66, 67].includes(daysSinceEaster)
+        : [66, 67].includes(daysSinceEaster) // Offset für Mi und Do vor Herz-Jesu-Fest
             ? 68 - daysSinceEaster
             : null;
 
@@ -241,8 +241,6 @@ const getLiturgicalInfo = (provDate) => {
         season = 'o';
         week = weeksBetween(easter, date);
     }
-    // Special feasts after Pentecost
-    // else if ([40, 44, 45].includes(afterPentecost)) { season = 'o'; week = 9; }
     // Ordinary Time after Pentecost
     else if (date < advent) {
         season = 'j';
@@ -265,8 +263,7 @@ const getLiturgicalInfo = (provDate) => {
     const day = date.getUTCDate();
 
     if (season === 'a' && week === 4 && day > 24) {
-        season = 'w';
-        week = 0;
+        season = 'w'; week = 0;
     }
     const swdCombined = `${season}-${week}-${dayOfWeek}`;
     const swdWritten = writeOut(season, week, dayOfWeek, swdCombined, day, afterPentecost);
