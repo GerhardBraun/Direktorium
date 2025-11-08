@@ -497,6 +497,14 @@ export const lectureAlternatives = {
             { excludeYear: "c", les_stelle: "^Q:Lk 23,50-56", },
         ],
     },
+    "vigil-Kirchweihe": {
+        first: [
+            { les_stelle: "^Q:Mt 16,13-19", },
+            { les_stelle: "^Q:Lk 19,1-10", },
+            { les_stelle: "^Q:Joh 2,13-22", },
+            { les_stelle: "^Q:Joh 4,19-24", },
+        ],
+    },
     "vigil-Maria": {
         first: [
             { les_stelle: "^Q:Lk 1,26-38", },

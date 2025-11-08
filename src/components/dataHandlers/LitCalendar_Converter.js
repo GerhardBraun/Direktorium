@@ -1,6 +1,6 @@
 import { tableOfRanks } from '../data/TableOfRanks.js';
 
-const diocese = localStorage.getItem('diocese') || 'Fulda'
+const diocese = 'Fulda'
 
 const daysToMilliseconds = (days) => days * 24 * 60 * 60 * 1000;
 

@@ -1,15 +1,14 @@
+
 /**
  * Direktorium-Konverter
  * Konvertiert Daten aus einer Excel-Arbeitsmappe in eine TypeScript-Datenbankdatei
  * für die Verwendung in der Direktorium-App.
- *
- * Optimiert mit read-excel-file für bessere Speichereffizienz
  */
 
-import readXlsxFile from 'read-excel-file/node';
+import ExcelJS from 'exceljs';
 import fs from 'fs-extra';
 import path from 'path';
-import { getLiturgicalInfo } from './src/components/dataHandlers/LitCalendar_Converter.js';
+import { getLiturgicalInfo } from './src/components/dataHandlers/LitCalendar_Converter.js'; // Pfad anpassen je nach Projektstruktur
 import readline from 'readline';
 import { fileURLToPath } from 'url';
 
@@ -19,7 +18,7 @@ const __dirname = path.dirname(__filename);
 
 // Konstanten
 const EXCEL_PATH = "C:/Users/Gerhard Braun/OneDrive - Bistum-FD/0_Allgemeines/05_Dioezese/059_Sonstiges/Direktorium/Direktorium_dev.xlsm";
-const OUTPUT_PATH = "./src/components/data/Direktorium_dev.ts"; // Pfad anpassen je nach Projektstruktur
+const OUTPUT_PATH = "./src/data/Direktorium_dev.ts"; // Pfad anpassen je nach Projektstruktur
 const TEMP_EXCEL_PATH = "./temp_direktorium.xlsx";
 const WORKSHEETS = {
   LITYEAR: 'Kj',
@@ -77,8 +76,8 @@ async function determineTimeRange(args) {
   // Entwicklungsmodus: 1. Januar bis 7. Februar
   if (args.includes('dev')) {
     return {
-      start: new Date(new Date().getFullYear(), 6, 1),
-      end: new Date(new Date().getFullYear(), 6, 7)
+      start: new Date(new Date().getFullYear(), 0, 1),
+      end: new Date(new Date().getFullYear(), 0, 7)
     };
   }
 
@@ -181,227 +180,176 @@ async function cleanupTempExcel() {
   }
 }
 
-// ===== INPUT-PHASE (Optimiert mit read-excel-file) =====
+// ===== INPUT-PHASE =====
 
 /**
- * Berechnet zusätzliche Informationen für einen Tag
+ * Erstellt ein Mapping der Spaltennamen zu Spaltennummern
  */
+function createColumnMapping(worksheet) {
+  const columnMapping = {};
+  let headerRow;
+
+  worksheet.eachRow((row, rowNumber) => {
+    if (!headerRow) {
+      headerRow = rowNumber;
+      row.eachCell((cell, colNumber) => {
+        if (cell.value) {
+          columnMapping[cell.value.toString().trim()] = colNumber;
+        }
+      });
+    }
+  });
+
+  return { columnMapping, headerRow };
+}
+
+// Generische Funktion zum Auslesen bestimmter Spalten aus einer Excel-Zeile
+function readColumns(row, columnMapping, columnsToRead) {
+  const result = {};
+
+  columnsToRead.forEach(columnName => {
+    if (columnMapping[columnName]) {
+      const cellValue = row.getCell(columnMapping[columnName]).value;
+      result[columnName] = cellValue !== null && cellValue !== undefined
+        ? String(cellValue).trim()
+        : '';
+    }
+  });
+
+  return result;
+}
+
+function findCalendarEntries(month, day) {
+  const worksheet = workbook.getWorksheet(WORKSHEETS.CALENDAR);
+  const { columnMapping, headerRow } = createColumnMapping(worksheet);
+  const dateToCompare = new Date(2000, month - 1, day); // Jahr 2000 als Platzhalter
+
+  const entries = [];
+
+  worksheet.eachRow((row, rowNumber) => {
+    if (rowNumber <= headerRow) return; // Überspringe Header-Zeilen
+
+    const rowDate = row.getCell(columnMapping['Datum']).value;
+
+    if (rowDate instanceof Date && rowDate === dateToCompare) {
+      // Lese gewünschte Spalten
+      const { source, Titel, Ergänzung, Offizium } = readColumns(row, columnMapping, ['source', 'Titel', 'Ergänzung', 'Offizium']);
+
+      if (!entries[source]) {
+        entries[source] = {}
+      };
+
+      entries[source].push({
+        Titel,
+        Ergänzung,
+        Offizium,
+      });
+    }
+  });
+  console.log(entries);
+  return entries;
+}
+// Findet Einträge für Verstorbene für ein bestimmtes Datum
+function findDeceasedEntries(month, day) {
+  const worksheet = workbook.getWorksheet(WORKSHEETS.DECEASED);
+  const { columnMapping, headerRow } = createColumnMapping(worksheet);
+
+  const entries = [];
+
+  worksheet.eachRow((row, rowNumber) => {
+    if (rowNumber <= headerRow) return;
+
+    const dateOfDeath = row.getCell(columnMapping['Sterbetag']).value;
+
+    // Prüfe, ob dateOfDeath gültig und vor heute liegt
+    if (dateOfDeath && dateOfDeath instanceof Date && dateOfDeath <= currentDate) {
+      const monthOfDeath = dateOfDeath.getMonth() + 1;
+      const dayOfDeath = dateOfDeath.getDate();
+
+      // Prüfe, ob Tag und Monat übereinstimmen
+      if (monthOfDeath === month && dayOfDeath === day) {
+        // Lese gewünschte Spalten
+        const data = readColumns(row, columnMapping, ['App_Name', 'App_Grab', 'App_Geburt', 'Alter']);
+
+        entries.push({
+          year: dateOfDeath.getFullYear(),
+          name: data.App_Name || '',
+          birth: data.App_Geburt || '',
+          grave: data.App_Grab || '',
+          age: data.Alter || 0
+        });
+      }
+    }
+  });
+
+  return entries;
+}
+
+function findLitYearEntries(swdCombined) {
+  const worksheet = workbook.getWorksheet(WORKSHEETS.LITYEAR);
+  const { columnMapping, headerRow } = createColumnMapping(worksheet);
+
+  let result = null;
+
+  worksheet.eachRow((row, rowNumber) => {
+    if (rowNumber <= headerRow) return;
+
+    const key = row.getCell(columnMapping['Kürzel']).value;
+
+    if (key === swdCombined) {
+      // Liest gewünschte Spalten
+      result = readColumns(row, columnMapping, ['proposal']);
+    }
+  });
+  console.log(result);
+  return result;
+}
+
+// Berechnet zusätzliche Informationen für einen Tag
 function calculateDayInfo(date) {
   const year = date.getFullYear();
   const month = date.getMonth() + 1;
   const day = date.getDate();
   const dayOfWeek = date.getDay(); // 0=Sonntag, 1=Montag, ...
 
-  // Ermittle ofMonth (z.B. 2. Dienstag im Monat) - vereinfacht
+  // Ermittle ofMonth (z.B. 2. Dienstag im Monat)
   const ofMonth = Math.ceil(day / 7);
 
   // Ermittle ofMonthLast (z.B. vorletzter Dienstag im Monat)
   const lastDayOfMonth = new Date(year, month, 0).getDate();
   const daysRemaining = lastDayOfMonth - day;
-  const ofMonthLast = Math.floor(daysRemaining / 7) + 1;
+  const ofMonthLast = -Math.floor(daysRemaining / 7) - 1;
 
   // Ermittle isFirstFriday
   let isFirstFriday = 0;
   if (dayOfWeek > 3) { // Nur für Do, Fr, Sa relevant
-    const dayOffset = 5 - dayOfWeek;
+    const dayOffset = 5 - dayOfWeek; // Folgetag für Do, Vortag für Sa
     const dayToCheck = new Date(year, month - 1, day + dayOffset);
-    if (dayToCheck.getDate() < 8) {
+    if (dayToCheck.getDate() < 8)
       isFirstFriday = dayOfWeek;
-    }
   }
 
-  return {
-    ofMonth,
-    ofMonthLast,
-    isFirstFriday
-  };
-}
-
-/**
- * Lädt Daten aus einem Arbeitsblatt mit read-excel-file
- */
-async function readWorksheet(excelPath, sheetName) {
-  try {
-    // Lese Header und Daten
-    const rows = await readXlsxFile(excelPath, { sheet: sheetName });
-
-    if (!rows || rows.length === 0) {
-      console.warn(`Keine Daten im Arbeitsblatt ${sheetName} gefunden`);
-      return { headers: [], data: [] };
-    }
-
-    // Erste Zeile enthält die Header
-    const headers = rows[0].map(header => header ? header.toString().trim() : '');
-
-    // Rest sind die Daten
-    const data = rows.slice(1).map(row => {
-      const entry = {};
-      headers.forEach((header, index) => {
-        if (header) {
-          entry[header] = row[index];
-        }
-      });
-      return entry;
-    });
-
-    return { headers, data };
-  } catch (error) {
-    console.error(`Fehler beim Lesen des Arbeitsblatts ${sheetName}:`, error);
-    return { headers: [], data: [] };
-  }
-}
-
-/**
- * Findet Kirchenjahr-Einträge für einen bestimmten Tag
- */
-async function findLitYearEntries(excelPath, swdCombined) {
-  try {
-    const { headers, data } = await readWorksheet(excelPath, WORKSHEETS.LITYEAR);
-
-    // Finde den Index der Schlüssel-Spalte
-    const kuerzelIndex = headers.findIndex(h => h === 'Kürzel');
-    const proposalIndex = headers.findIndex(h => h === 'proposal');
-
-    if (kuerzelIndex === -1) {
-      console.warn('Spalte "Kürzel" nicht gefunden im Kj-Arbeitsblatt');
-      return null;
-    }
-
-    // Suche den Eintrag mit dem entsprechenden Schlüssel
-    const entry = data.find(row => row[headers[kuerzelIndex]] === swdCombined);
-
-    if (!entry) {
-      return null;
-    }
-
-    return {
-      proposal: entry[headers[proposalIndex]] || ''
-    };
-  } catch (error) {
-    console.error('Fehler beim Suchen von Kirchenjahr-Einträgen:', error);
-    return null;
-  }
-}
-
-/**
- * Findet Kalender-Einträge für ein bestimmtes Datum
- */
-async function findCalendarEntries(excelPath, month, day) {
-  try {
-    const { headers, data } = await readWorksheet(excelPath, WORKSHEETS.CALENDAR);
-
-    // Finde den Index der relevanten Spalten
-    const dateIndex = headers.findIndex(h => h === 'Datum');
-    const sourceIndex = headers.findIndex(h => h === 'source');
-    const titelIndex = headers.findIndex(h => h === 'Titel');
-    const ergaenzungIndex = headers.findIndex(h => h === 'Ergänzung');
-    const offiziumIndex = headers.findIndex(h => h === 'Offizium');
-
-    if (dateIndex === -1) {
-      console.warn('Spalte "Datum" nicht gefunden im Kalender-Arbeitsblatt');
-      return {};
-    }
-    let dateToCompare = new Date(2000, month - 1, day); // Jahr 2000 als Platzhalter
-
-    // Filtere die Einträge für das angegebene Datum
-    const entries = {};
-
-    data.forEach(row => {
-      const rowDate = row[headers[dateIndex]];
-
-      if (rowDate instanceof Date
-        && rowDate.toISOString === dateToCompare.toISOString) {
-        const source = row[headers[sourceIndex]] || 'main';
-        const titel = row[headers[titelIndex]] || '';
-        const ergaenzung = row[headers[ergaenzungIndex]] || '';
-        const offizium = row[headers[offiziumIndex]] || '';
-
-        if (!entries[source]) {
-          entries[source] = [];
-        }
-
-        entries[source].push({
-          Titel: titel,
-          Ergaenzung: ergaenzung,
-          Offizium: offizium
-        });
-      } else console.log('Kein Datum oder nicht übereinstimmend:', rowDate, dateToCompare);
-    });
-
-    return entries;
-  } catch (error) {
-    console.error('Fehler beim Suchen von Kalendereinträgen:', error);
-    return {};
-  }
-}
-
-/**
- * Findet Einträge für Verstorbene für ein bestimmtes Datum
- */
-async function findDeceasedEntries(excelPath, month, day) {
-  try {
-    const { headers, data } = await readWorksheet(excelPath, WORKSHEETS.DECEASED);
-
-    // Finde den Index der relevanten Spalten
-    const sterbedatumIndex = headers.findIndex(h => h === 'Sterbedatum');
-    const nameIndex = headers.findIndex(h => h === 'Name');
-    const grabIndex = headers.findIndex(h => h === 'Grab');
-    const geburtIndex = headers.findIndex(h => h === 'Geburt');
-
-    if (sterbedatumIndex === -1) {
-      console.warn('Spalte "Sterbedatum" nicht gefunden im Verstorbene-Arbeitsblatt');
-      return [];
-    }
-
-    // Filtere die Einträge für das angegebene Datum
-    const entries = [];
-    const currentDate = new Date(); // Heutiges Datum für Vergleich
-
-    data.forEach(row => {
-      const sterbedatum = row[headers[sterbedatumIndex]];
-
-      // Prüfe, ob sterbedatum ein Datum ist und vor heute liegt
-      if (sterbedatum instanceof Date && sterbedatum <= currentDate) {
-        const sterbemonat = sterbedatum.getMonth() + 1;
-        const sterbetag = sterbedatum.getDate();
-
-        if (sterbemonat === month && sterbetag === day) {
-          const name = row[headers[nameIndex]] || '';
-          const grab = row[headers[grabIndex]] || '';
-          const geburt = row[headers[geburtIndex]] || '';
-
-          // Erstelle formatierten Text für den Verstorbenen-Eintrag
-          const text = `${name}${grab ? ' ' + grab : ''}${geburt ? ' ' + geburt : ''}`;
-
-          entries.push({ text });
-        }
-      }
-    });
-
-    return entries;
-  } catch (error) {
-    console.error('Fehler beim Suchen von Verstorbenen-Einträgen:', error);
-    return [];
-  }
+  return { ofMonth, ofMonthLast, isFirstFriday };
 }
 
 /**
  * Liest die Rohdaten aus Excel und anderen Quellen
- * Optimiert mit read-excel-file für effizientere Speichernutzung
  */
 async function readRawData(excelPath, timeRange) {
   try {
     console.log(`Lese Excel-Datei von: ${excelPath}`);
     console.log(`Verarbeite Zeitraum: ${timeRange.start.toLocaleDateString()} bis ${timeRange.end.toLocaleDateString()}`);
 
-    // Erstelle Rohdaten-Array
+    const workbook = new ExcelJS.Workbook();
+    await workbook.xlsx.readFile(excelPath);
+
+    // Erstelle Excel-Daten-Array
     const rawData = [];
 
     // Iteriere über den Zeitraum
     const currentDate = new Date(timeRange.start);
     while (currentDate <= timeRange.end) {
-      console.log(`Verarbeite Daten für: ${currentDate.toLocaleDateString()}`);
-
+      console.log(`Lese Daten für: ${currentDate.toLocaleDateString()}`);
       const year = currentDate.getFullYear();
       const month = currentDate.getMonth() + 1;
       const day = currentDate.getDate();
@@ -415,31 +363,25 @@ async function readRawData(excelPath, timeRange) {
       const nextDayInfo = getLiturgicalInfo(nextDay);
 
       // Zusätzliche Berechnungen
-      const dayInfo = calculateDayInfo(currentDate);
-      const { ofMonth, ofMonthLast, isFirstFriday } = dayInfo;
+      const { ofMonth, ofMonthLast, isFirstFriday } = calculateDayInfo(currentDate);
 
-      // Spezifisches Auslesen pro Worksheet - jetzt in separaten Funktionen
-      // Diese Funktionen laden nur die benötigten Daten, nicht das ganze Worksheet
-      const litYearEntries = await findLitYearEntries(excelPath, liturgicalInfo.swdCombined);
-      const calendarEntries = await findCalendarEntries(excelPath, month, day);
-      const deceasedEntries = await findDeceasedEntries(excelPath, month, day);
-      //console.log('Gefundene Kirchenjahr-Einträge:', litYearEntries);
-      //console.log('Gefundene Kalendereinträge:', calendarEntries);
-      //console.log('Gefundene Verstorbene-Einträge:', deceasedEntries);
+      // Spezifisches Auslesen pro Worksheet
+      const litYearEntries = findLitYearEntries(liturgicalInfo.swdCombined);
+      const calendarEntries = findCalendarEntries(month, day);
+      const deceasedEntries = findDeceasedEntries(month, day);
+
+
       // Füge alle Rohinformationen in ein Objekt
       rawData.push({
         date: new Date(currentDate),
         year, month, day,
-        liturgicalInfo,
-        nextDayInfo,
-        ofMonth,
-        ofMonthLast,
-        isFirstFriday,
+        liturgicalInfo, nextDayInfo,
+        ofMonth, ofMonthLast, isFirstFriday,
         litYearEntries,
         calendarEntries,
         deceasedEntries
       });
-      console.log('Rohdaten für den Tag hinzugefügt:', rawData[rawData.length - 1]);
+
       // Inkrementiere das Datum
       currentDate.setDate(currentDate.getDate() + 1);
     }
@@ -518,15 +460,10 @@ function getColor(liturgicalInfo) {
 function processLiturgicalData(rawData) {
   return rawData.map(dayData => {
     // Extrahiere benötigte Konstanten für die Verarbeitung
-    const {
-      date, year, month, day,
-      liturgicalInfo, nextDayInfo,
-      ofMonth, ofMonthLast, isFirstFriday,
-      litYearEntries, calendarEntries, deceasedEntries
-    } = dayData;
-
+    const { date, year, month, day, liturgicalInfo, nextDayInfo, dayInfo, calendarEntries, deceasedEntries } = dayData;
     const { season, week, dayOfWeek, rank_wt, rank_date } = liturgicalInfo;
     const { season: nextSeason, rank_wt: nextRankWt, rank_date: nextRankDate } = nextDayInfo;
+    const { ofMonth, ofMonthLast, isFirstFriday } = dayInfo;
 
     // Erstelle Standardeintrag
     let entry = season === 'j'
@@ -536,10 +473,10 @@ function processLiturgicalData(rawData) {
     const notes = [];
 
     // Überschreibe mit Daten aus Excel, wenn vorhanden
-    if (calendarEntries.main && calendarEntries.main.length > 0) {
-      const mainEntry = calendarEntries.main[0];
-      entry = mainEntry.Titel || entry;
-      office = mainEntry.Offizium || office;
+    const mainEntry = calendarEntries.find(e => e.source === 'main');
+    if (mainEntry) {
+      entry = mainEntry.title || entry;
+      office = mainEntry.office || office;
     }
 
     // Berechne weitere Felder
@@ -549,41 +486,22 @@ function processLiturgicalData(rawData) {
     // Verarbeite source-spezifische Einträge (d1, d2, n1, n2, c, mar)
     const sources = {};
     ['d1', 'd2', 'n1', 'n2', 'c', 'mar'].forEach(source => {
-      if (calendarEntries[source] && calendarEntries[source].length > 0) {
-        const sourceEntry = calendarEntries[source][0];
+      const sourceEntry = calendarEntries.find(e => e.source === source);
+      if (sourceEntry) {
         sources[source] = {
-          entry: sourceEntry.Titel || '',
-          office: sourceEntry.Offizium || '',
+          entry: sourceEntry.title || '',
+          office: sourceEntry.office || '',
           // Weitere Felder können hier berechnet werden
         };
       }
     });
 
-    // Verarbeite spezielle Einträge wie alternative und vigil
-    let alternativeEntry = {};
-    if (calendarEntries.alternative && calendarEntries.alternative.length > 0) {
-      const altEntry = calendarEntries.alternative[0];
-      alternativeEntry = {
-        alternative: {
-          entry: altEntry.Titel || '',
-          office: altEntry.Offizium || ''
-        }
-      };
-    }
-
-    let vigilEntry = {};
-    if (calendarEntries.vigil && calendarEntries.vigil.length > 0) {
-      const vigEntry = calendarEntries.vigil[0];
-      vigilEntry = {
-        vigil: {
-          entry: vigEntry.Titel || '',
-          office: vigEntry.Offizium || ''
-        }
-      };
-    }
-
     // Erstelle verstorbene-Einträge, falls vorhanden
-    const deceased = deceasedEntries.map(e => e.text);
+    let deceased = '';
+    if (deceasedEntries.length > 0) {
+      // Verarbeite Verstorbene
+      deceased = deceasedEntries.map(e => e.text).join('\n');
+    }
 
     // Erstelle vollständigen, verarbeiteten Eintrag
     return {
@@ -594,8 +512,8 @@ function processLiturgicalData(rawData) {
       mass,
       deceased,
       ...sources,
-      ...alternativeEntry,
-      ...vigilEntry
+      ...alternativEntry, // Falls ein Alternativ-Eintrag vorhanden ist
+      ...vigilEntry // Falls ein Vigil-Eintrag vorhanden ist
     };
   });
 }
@@ -654,7 +572,7 @@ async function generateTypeScriptFile(liturgicalData, outputPath) {
  * Hauptfunktion für die Verarbeitung der Excel-Daten
  * nach dem Muster: Input → Verarbeitung → Output
  */
-async function processExcelData(excelPath, timeRange) {
+async function processrawData(excelPath, timeRange) {
   try {
     console.log('===== INPUT-PHASE =====');
     // 1. INPUT-PHASE: Daten einlesen
@@ -688,7 +606,7 @@ async function main() {
     const tempExcelPath = await createTempExcelCopy();
 
     // Verarbeite die Excel-Daten
-    const liturgicalData = await processExcelData(tempExcelPath, timeRange);
+    const liturgicalData = await processrawData(tempExcelPath, timeRange);
 
     // Generiere die TypeScript-Datei
     await generateTypeScriptFile(liturgicalData, OUTPUT_PATH);

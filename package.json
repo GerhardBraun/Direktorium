@@ -18,10 +18,14 @@
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0",
     "react-scripts": "5.0.1",
+    "read-excel-file": "^6.0.1",
     "source-map-explorer": "^2.5.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "convert": "ts-node direktorium-converter.js",
+    "convert:dev": "ts-node direktorium-converter.js dev",
+    "convert:2026": "ts-node direktorium-converter.js 2026",
     "dli": "python C:/AppProjekte/excel-liturgical-converter/dli-converter.py",
     "messe": "python C:/AppProjekte/excel-liturgical-converter/ms-converter.py",
     "footnotes": "python C:/AppProjekte/excel-liturgical-converter/dli-footnotes.py",
@@ -69,7 +73,8 @@
     "eslint-plugin-react": "^7.37.4",
     "gh-pages": "^6.2.0",
     "postcss": "^8.4.49",
-    "tailwindcss": "^3.4.16"
+    "tailwindcss": "^3.4.16",
+    "ts-node": "^10.9.2"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
