@@ -1,12 +1,14 @@
-Calendar Data Processing Log - 2025-11-08 03:56:57.680969
+Calendar Data Processing Log - 2025-11-08 18:35:49.050002
 ============================================================
 
+ÜBERSCHNEIDUNG [AAA]: 11-09 oblig (bestehende Quellen: oblig)
 ÜBERSCHNEIDUNG [AAA]: 12-13 oblig (bestehende Quellen: n1)
 
 === ÜBERSCHNEIDUNGS-ZUSAMMENFASSUNG ===
-Gesamt gefundene Überschneidungen: 1
-AAA: 1 Überschneidungen
+Gesamt gefundene Überschneidungen: 2
+AAA: 2 Überschneidungen
 
 Zur Unterdrückung von Warnungen können folgende Einträge
 dem allowedOverlaps Set in CalendarMerge.js hinzugefügt werden:
+  'AAA-11-9-oblig',
   'AAA-12-13-oblig',

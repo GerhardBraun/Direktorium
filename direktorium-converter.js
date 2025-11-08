@@ -64,6 +64,12 @@ interface LiturgicalData {
 export const liturgicalData: LiturgicalData =
 `;
 
+const formatDate = (date) => {
+  if (date && date instanceof Date)
+    return new Date(date).toISOString().split("T")[0];
+  else return false;
+};
+
 // Hilfsfunktion: Erstellt ein Konsolen-Interface für Benutzereingaben
 function createInterface() {
   return readline.createInterface({
@@ -301,7 +307,7 @@ async function findCalendarEntries(excelPath, month, day) {
       console.warn('Spalte "Datum" nicht gefunden im Kalender-Arbeitsblatt');
       return {};
     }
-    let dateToCompare = new Date(2000, month - 1, day); // Jahr 2000 als Platzhalter
+    const dateToCompare = new Date(2000, month - 1, day); // Jahr 2000 als Platzhalter
 
     // Filtere die Einträge für das angegebene Datum
     const entries = {};
@@ -310,7 +316,7 @@ async function findCalendarEntries(excelPath, month, day) {
       const rowDate = row[headers[dateIndex]];
 
       if (rowDate instanceof Date
-        && rowDate.toISOString === dateToCompare.toISOString) {
+        && formatDate(rowDate) === formatDate(dateToCompare)) {
         const source = row[headers[sourceIndex]] || 'main';
         const titel = row[headers[titelIndex]] || '';
         const ergaenzung = row[headers[ergaenzungIndex]] || '';

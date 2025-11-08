@@ -11173,6 +11173,43 @@ export const calendarData: CalendarData = {
           }
         }
       },
+      "9": {
+        "oblig": {
+          "ErsteV": {
+            "button": "1. Vesper zum Weihetag°der°Lateranbasilika"
+          },
+          "each": {
+            "comm_1": "Kirchw",
+            "oration": "Erhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird.^ORV",
+            "oration_lat": "Deus, qui de vivis et eléctis lapídibus ætérnum habitáculum tuæ prǽparas maiestáti, multíplica in Ecclésia tua spíritum grátiæ, quem dedísti, ut fidélis tibi pópulus in cæléstis ædificatiónem Ierúsalem semper accréscat.^ORlV"
+          },
+          "Lesehore": {
+            "patr_autor": "Cäsarius von Arles († 542)",
+            "patr_werk": "Aus einer Predigt am Weihetag der Lateranbasilika.",
+            "patr_text": "^hWir sind alle durch die Taufe Tempel Gottes geworden^pLiebe Brüder, durch die Güte Gottes dürfen wir heute den Weihetag dieses Gotteshauses mit Freude und Jubel begehen. Der wirkliche und lebendige Tempel jedoch müssen wir selber sein. Dennoch feiern die christlichen Völker mit Recht das Fest der Mutterkirche, weil sie wissen, dass sie durch diese Kirche im Geist wiedergeboren wurden. Durch die erste Geburt waren wir „Gefäße des Zorns“{1#Röm 9,22-23}, durch die zweite wurden wir zu „Gefäßen des Erbarmens“{2#vgl. Apg 7,48}. Die erste Geburt gebar uns für den Tod, die zweite rief uns zum Leben zurück.^pVor der Taufe, meine Lieben, waren wir alle Tempel des Teufels, nach der Taufe wurden wir Tempel Christi. Wenn wir aufmerksam über das Heil unserer Seele nachdenken, erkennen wir auch, dass der eigentliche und lebendige Tempel Gottes wir selber sind. Gott wohnt nicht bloß in dem, was von Menschenhand gemacht ist, und nicht in einem Haus aus Holz und Stein, sondern vor allem in der Seele, die nach dem Bild Gottes geschaffen und von der Hand des Künstlers selbst gebildet ist. Der heilige Apostel Paulus sagt: „Gottes Tempel ist heilig, und der seid ihr.“{3#1 Kor 3,17}^pChristus kam und warf den Teufel aus unserm Herzen hinaus, um in uns für sich einen Tempel zu schaffen. Nach Kräften wollen wir darum mit seiner Hilfe daran arbeiten, dass ihm in uns nicht durch böse Taten Unrecht geschieht. Jeder, der Böses tut, begeht ein Unrecht gegen Jesus Christus.^pWenn wir daher, meine Lieben, mit Freuden den Gedächtnistag des Gotteshauses feiern wollen, dürfen wir den lebendigen Tempel Gottes nicht in uns durch böse Werke zerstören. Wie wir die Kirche vorfinden wollen, wenn wir zu ihr kommen, geradeso müssen wir unsere Seele bereiten.",
+            "patr_resp1": "Dies ist Jerusalem, die große himmlische Stadt, geschmückt als Braut des Lammes.",
+            "patr_resp2": "Gottes Zelt ist sie geworden.^ö",
+            "patr_resp3": "Ihre Tore stehen immerfort offen, denn Nacht gibt es nicht mehr in ihr."
+          },
+          "Laudes": {
+            "button": "Weihetag der Lateranbasilika"
+          },
+          "Messe": {
+            "ms_les_buch": "Ez",
+            "ms_les_stelle": "47,1-2.8-9.12",
+            "ms_les_motto": "Ich sah, wie vom Tempel Wasser hervorströmte, und alle, zu denen das Wasser kam,<br>wurden gerettet (vgl. Messbuch: Antiphon zum sonntäglichen Taufgedächtnis)",
+            "ms_les_text": "Der Mann, der mich begleitete,^l^EINZUGführte mich zum Eingang des Tempels^lund siehe,^l^EINZUGWasser strömte unter der Tempelschwelle hervor^l^EINZUGnach Osten hin;^ldenn die vordere Seite des Tempels schaute nach Osten.^lDas Wasser floss unterhalb der rechten Seite des Tempels herab,^l^EINZUGsüdlich vom Altar.^pDann führte er mich durch das Nordtor hinaus^l^EINZUGund ließ mich außen herum zum äußeren Osttor gehen.^lUnd siehe, das Wasser rieselte an der Südseite hervor.^pEr sagte zu mir:^l^EINZUGDieses Wasser fließt hinaus in den östlichen Bezirk,^les strömt in die Araba hinab und mündet in das Meer,^lin das Meer mit dem salzigen Wasser.^lSo wird das salzige Wasser gesund.^lWohin der Fluss gelangt,^l^EINZUGda werden alle Lebewesen,^l^EINZUGalles, was sich regt, leben können^lund sehr viele Fische wird es geben.^lWeil dieses Wasser dort hinkommt,^l^EINZUGwerden sie gesund;^lwohin der Fluss kommt,^l^EINZUGdort bleibt alles am Leben.^lAn beiden Ufern des Flusses wachsen alle Arten von Obstbäumen.^lIhr Laub wird nicht welken^lund sie werden nie ohne Frucht sein.^lJeden Monat tragen sie frische Früchte;^ldenn ihre Wasser kommen aus dem Heiligtum.^lDie Früchte werden als Speise^l^EINZUGund die Blätter als Heilmittel dienen.",
+            "ms_aps_stelle": "Ps 46,2-3.5-6.8-9",
+            "ms_aps_kv": "Des Stromes Wasser erfreuen die Gottesstadt,<br>des Höchsten heilige Wohnung.",
+            "ms_aps_text": "Gott ist uns Zuflucht und Stärke,^*als mächtig erfahren, als Helfer in allen Nöten.^pDarum fürchten wir uns nicht, wenn die Erde auch wankt,^*wenn Berge stürzen in die Tiefe des Meeres.^KV^PEines Stromes Arme erfreuen die Gottesstadt,^*des Höchsten heilige Wohnung.^pGott ist in ihrer Mitte, sie wird nicht wanken.^*Gott hilft ihr, wenn der Morgen anbricht.^KV^PMit uns ist der HERR der Heerscharen,^*der Gott Jakobs ist unsre Burg.^pKommt und schaut die Taten des HERRN,^*der Schauder erregt auf der Erde.",
+            "ms_ruf_text": "2 Chr 7,16",
+            "ms_ev_buch": "Joh",
+            "ms_ev_stelle": "2,13-22",
+            "ms_ev_motto": "Reißt diesen Tempel nieder, in drei Tagen werde ich ihn wieder aufrichten.<br>Er meinte den Tempel seines Leibes",
+            "ms_ev_text": "Das Paschafest der Juden war nahe^lund Jesus zog nach Jerusalem hinauf.^lIm Tempel^l^EINZUGfand er die Verkäufer von Rindern, Schafen und Tauben^lund die Geldwechsler, die dort saßen.^pEr machte eine Geißel aus Stricken^l^EINZUGund trieb sie alle aus dem Tempel hinaus^lsamt den Schafen und Rindern;^ldas Geld der Wechsler schüttete er aus,^lihre Tische stieß er um^lund zu den Taubenhändlern sagte er:^l^EINZUGSchafft das hier weg,^lmacht das Haus meines Vaters nicht zu einer Markthalle!^lSeine Jünger erinnerten sich, dass geschrieben steht:^l^EINZUGDer Eifer für dein Haus wird mich verzehren.^pDa ergriffen die Juden das Wort und sagten zu ihm:^l^EINZUGWelches Zeichen lässt du uns sehen,^l^EINZUGdass du dies tun darfst?^pJesus antwortete ihnen: Reißt diesen Tempel nieder^lund in drei Tagen werde ich ihn wieder aufrichten.^pDa sagten die Juden:^l^EINZUGSechsundvierzig Jahre wurde an diesem Tempel gebaut^l^EINZUGund du willst ihn in drei Tagen wieder aufrichten?^lEr aber meinte den Tempel seines Leibes.^pAls er von den Toten auferweckt war,^l^EINZUGerinnerten sich seine Jünger, dass er dies gesagt hatte,^lund sie glaubten der Schrift^l^EINZUGund dem Wort, das Jesus gesprochen hatte."
+          }
+        }
+      },
       "11": {
         "oblig": {
           "each": {
@@ -11533,40 +11570,6 @@ export const calendarData: CalendarData = {
             "ms_ev_stelle": "16,15-20",
             "ms_ev_motto": "Geht hinaus in die ganze Welt und verkündet das Evangelium!",
             "ms_ev_text": "In jener Zeit erschien Jesus den Elf^lund sprach zu ihnen:^l^EINZUGGeht hinaus in die ganze Welt^l^EINZUGund verkündet das Evangelium der ganzen Schöpfung!^lWer glaubt und sich taufen lässt,^l^EINZUGwird gerettet;^lwer aber nicht glaubt,^l^EINZUGwird verurteilt werden.^pUnd durch die, die zum Glauben gekommen sind,^l^EINZUGwerden folgende Zeichen geschehen:^lIn meinem Namen werden sie Dämonen austreiben;^lsie werden in neuen Sprachen reden;^lwenn sie Schlangen anfassen oder tödliches Gift trinken,^l^EINZUGwird es ihnen nicht schaden;^lund die Kranken, denen sie die Hände auflegen,^l^EINZUGwerden gesund werden.^pNachdem Jesus, der Herr, dies zu ihnen gesagt hatte,^l^EINZUGwurde er in den Himmel aufgenommen^l^EINZUGund setzte sich zur Rechten Gottes.^pSie aber zogen aus und verkündeten überall.^lDer Herr stand ihnen bei^lund bekräftigte das Wort^l^EINZUGdurch die Zeichen, die es begleiteten."
-          }
-        }
-      },
-      "9": {
-        "oblig": {
-          "each": {
-            "comm_1": "Kirchw",
-            "oration": "Erhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird.^ORV",
-            "oration_lat": "Deus, qui de vivis et eléctis lapídibus ætérnum habitáculum tuæ prǽparas maiestáti, multíplica in Ecclésia tua spíritum grátiæ, quem dedísti, ut fidélis tibi pópulus in cæléstis ædificatiónem Ierúsalem semper accréscat.^ORlV"
-          },
-          "Lesehore": {
-            "patr_autor": "Cäsarius von Arles († 542)",
-            "patr_werk": "Aus einer Predigt am Weihetag der Lateranbasilika.",
-            "patr_text": "^hWir sind alle durch die Taufe Tempel Gottes geworden^pLiebe Brüder, durch die Güte Gottes dürfen wir heute den Weihetag dieses Gotteshauses mit Freude und Jubel begehen. Der wirkliche und lebendige Tempel jedoch müssen wir selber sein. Dennoch feiern die christlichen Völker mit Recht das Fest der Mutterkirche, weil sie wissen, dass sie durch diese Kirche im Geist wiedergeboren wurden. Durch die erste Geburt waren wir „Gefäße des Zorns“{1#Röm 9,22-23}, durch die zweite wurden wir zu „Gefäßen des Erbarmens“{2#vgl. Apg 7,48}. Die erste Geburt gebar uns für den Tod, die zweite rief uns zum Leben zurück.^pVor der Taufe, meine Lieben, waren wir alle Tempel des Teufels, nach der Taufe wurden wir Tempel Christi. Wenn wir aufmerksam über das Heil unserer Seele nachdenken, erkennen wir auch, dass der eigentliche und lebendige Tempel Gottes wir selber sind. Gott wohnt nicht bloß in dem, was von Menschenhand gemacht ist, und nicht in einem Haus aus Holz und Stein, sondern vor allem in der Seele, die nach dem Bild Gottes geschaffen und von der Hand des Künstlers selbst gebildet ist. Der heilige Apostel Paulus sagt: „Gottes Tempel ist heilig, und der seid ihr.“{3#1 Kor 3,17}^pChristus kam und warf den Teufel aus unserm Herzen hinaus, um in uns für sich einen Tempel zu schaffen. Nach Kräften wollen wir darum mit seiner Hilfe daran arbeiten, dass ihm in uns nicht durch böse Taten Unrecht geschieht. Jeder, der Böses tut, begeht ein Unrecht gegen Jesus Christus.^pWenn wir daher, meine Lieben, mit Freuden den Gedächtnistag des Gotteshauses feiern wollen, dürfen wir den lebendigen Tempel Gottes nicht in uns durch böse Werke zerstören. Wie wir die Kirche vorfinden wollen, wenn wir zu ihr kommen, geradeso müssen wir unsere Seele bereiten.",
-            "patr_resp1": "Dies ist Jerusalem, die große himmlische Stadt, geschmückt als Braut des Lammes.",
-            "patr_resp2": "Gottes Zelt ist sie geworden.^ö",
-            "patr_resp3": "Ihre Tore stehen immerfort offen, denn Nacht gibt es nicht mehr in ihr."
-          },
-          "Laudes": {
-            "button": "Weihetag der Lateranbasilika"
-          },
-          "Messe": {
-            "ms_les_buch": "Ez",
-            "ms_les_stelle": "47,1-2.8-9.12",
-            "ms_les_motto": "Ich sah, wie vom Tempel Wasser hervorströmte, und alle, zu denen das Wasser kam,<br>wurden gerettet (vgl. Messbuch: Antiphon zum sonntäglichen Taufgedächtnis)",
-            "ms_les_text": "Der Mann, der mich begleitete,^l^EINZUGführte mich zum Eingang des Tempels^lund siehe,^l^EINZUGWasser strömte unter der Tempelschwelle hervor^l^EINZUGnach Osten hin;^ldenn die vordere Seite des Tempels schaute nach Osten.^lDas Wasser floss unterhalb der rechten Seite des Tempels herab,^l^EINZUGsüdlich vom Altar.^pDann führte er mich durch das Nordtor hinaus^l^EINZUGund ließ mich außen herum zum äußeren Osttor gehen.^lUnd siehe, das Wasser rieselte an der Südseite hervor.^pEr sagte zu mir:^l^EINZUGDieses Wasser fließt hinaus in den östlichen Bezirk,^les strömt in die Araba hinab und mündet in das Meer,^lin das Meer mit dem salzigen Wasser.^lSo wird das salzige Wasser gesund.^lWohin der Fluss gelangt,^l^EINZUGda werden alle Lebewesen,^l^EINZUGalles, was sich regt, leben können^lund sehr viele Fische wird es geben.^lWeil dieses Wasser dort hinkommt,^l^EINZUGwerden sie gesund;^lwohin der Fluss kommt,^l^EINZUGdort bleibt alles am Leben.^lAn beiden Ufern des Flusses wachsen alle Arten von Obstbäumen.^lIhr Laub wird nicht welken^lund sie werden nie ohne Frucht sein.^lJeden Monat tragen sie frische Früchte;^ldenn ihre Wasser kommen aus dem Heiligtum.^lDie Früchte werden als Speise^l^EINZUGund die Blätter als Heilmittel dienen.",
-            "ms_aps_stelle": "Ps 46,2-3.5-6.8-9",
-            "ms_aps_kv": "Des Stromes Wasser erfreuen die Gottesstadt,<br>des Höchsten heilige Wohnung.",
-            "ms_aps_text": "Gott ist uns Zuflucht und Stärke,^*als mächtig erfahren, als Helfer in allen Nöten.^pDarum fürchten wir uns nicht, wenn die Erde auch wankt,^*wenn Berge stürzen in die Tiefe des Meeres.^KV^PEines Stromes Arme erfreuen die Gottesstadt,^*des Höchsten heilige Wohnung.^pGott ist in ihrer Mitte, sie wird nicht wanken.^*Gott hilft ihr, wenn der Morgen anbricht.^KV^PMit uns ist der HERR der Heerscharen,^*der Gott Jakobs ist unsre Burg.^pKommt und schaut die Taten des HERRN,^*der Schauder erregt auf der Erde.",
-            "ms_ruf_text": "2 Chr 7,16",
-            "ms_ev_buch": "Joh",
-            "ms_ev_stelle": "2,13-22",
-            "ms_ev_motto": "Reißt diesen Tempel nieder, in drei Tagen werde ich ihn wieder aufrichten.<br>Er meinte den Tempel seines Leibes",
-            "ms_ev_text": "Das Paschafest der Juden war nahe^lund Jesus zog nach Jerusalem hinauf.^lIm Tempel^l^EINZUGfand er die Verkäufer von Rindern, Schafen und Tauben^lund die Geldwechsler, die dort saßen.^pEr machte eine Geißel aus Stricken^l^EINZUGund trieb sie alle aus dem Tempel hinaus^lsamt den Schafen und Rindern;^ldas Geld der Wechsler schüttete er aus,^lihre Tische stieß er um^lund zu den Taubenhändlern sagte er:^l^EINZUGSchafft das hier weg,^lmacht das Haus meines Vaters nicht zu einer Markthalle!^lSeine Jünger erinnerten sich, dass geschrieben steht:^l^EINZUGDer Eifer für dein Haus wird mich verzehren.^pDa ergriffen die Juden das Wort und sagten zu ihm:^l^EINZUGWelches Zeichen lässt du uns sehen,^l^EINZUGdass du dies tun darfst?^pJesus antwortete ihnen: Reißt diesen Tempel nieder^lund in drei Tagen werde ich ihn wieder aufrichten.^pDa sagten die Juden:^l^EINZUGSechsundvierzig Jahre wurde an diesem Tempel gebaut^l^EINZUGund du willst ihn in drei Tagen wieder aufrichten?^lEr aber meinte den Tempel seines Leibes.^pAls er von den Toten auferweckt war,^l^EINZUGerinnerten sich seine Jünger, dass er dies gesagt hatte,^lund sie glaubten der Schrift^l^EINZUGund dem Wort, das Jesus gesprochen hatte."
           }
         }
       },

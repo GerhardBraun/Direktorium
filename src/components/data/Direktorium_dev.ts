@@ -35,8 +35,8 @@ export const liturgicalData: LiturgicalData =
     "2025": {
       "7": {
         "1": {
-          "entry": "^o++ Hochfest der Gottesmutter Maria^0o+^o>^o-^a^0o-^tNeujahr – Oktavtag von Weihnachten^o-^l^qhHochfest der Gottesmutter Maria^n^0o-^lNamensgebung des Herrn – ^fWeltfriedenstag^n^0o>",
-          "office": "^lTe Deum – Kl.°Hore: eig Ant,°ErgPs",
+          "entry": "Vom Wochentag – 13. Woche im Jahreskreis",
+          "office": "",
           "notes": [],
           "color": "(g)",
           "mass": "¥fMs¥0f nach Wahl",
@@ -50,28 +50,24 @@ export const liturgicalData: LiturgicalData =
             " Friedhof°Oberrodenbach 5.°Januar°1943°in°Hann.°Münden (D^-34346)"
           ],
           "n1": {
-            "entry": "g°°Heiligster°Name°Jesu",
+            "entry": "g°°Die°ersten°hll.°Märtyrer der Stadt°Rom / Hl.°Otto",
             "office": ""
           }
         },
         "2": {
-          "entry": "^o++ Hochfest der Gottesmutter Maria^0o+^o>^o-^a^0o-^tNeujahr – Oktavtag von Weihnachten^o-^l^qhHochfest der Gottesmutter Maria^n^0o-^lNamensgebung des Herrn – ^fWeltfriedenstag^n^0o>",
-          "office": "^lTe Deum – Kl.°Hore: eig Ant,°ErgPs",
+          "entry": "Vom Wochentag – 13. Woche im Jahreskreis",
+          "office": "",
           "notes": [],
           "color": "(g)",
           "mass": "¥fMs¥0f nach Wahl, Gl",
           "deceased": [
             " 15.°April°1874°in°Ershausen/Eichsfeld (D^-37308°Schimberg)",
             " Friedhof°Mühlen 18.°Februar°1903°in°Mühlen (D^-49439°Steinfeld)"
-          ],
-          "n1": {
-            "entry": "g°°Heiligster°Name°Jesu",
-            "office": ""
-          }
+          ]
         },
         "3": {
-          "entry": "^o++ Hochfest der Gottesmutter Maria^0o+^o>^o-^a^0o-^tNeujahr – Oktavtag von Weihnachten^o-^l^qhHochfest der Gottesmutter Maria^n^0o-^lNamensgebung des Herrn – ^fWeltfriedenstag^n^0o>",
-          "office": "^lTe Deum – Kl.°Hore: eig Ant,°ErgPs",
+          "entry": "^t^qfMariä Heimsuchung^n, ^fFest^n^o>°(RK; GK: 31. Mai)^0o>",
+          "office": "^lTe Deum – Kl.°Hore:°Ant°u.°Ps°vom°Wt",
           "notes": [],
           "color": "(g)",
           "mass": "¥fMs¥0f nach Wahl, Gl",
@@ -79,30 +75,22 @@ export const liturgicalData: LiturgicalData =
             " 28.°August°1872°in°Schwarza/Krs.°Schleusingen (D^-98547)",
             " 20.°Oktober°1882°in°Suttom (Sutom,°CZ^-411°15)",
             " Friedhof°Brehme°(D^-37339°Lindenberg/Eichsfeld) 23.°Dezember°1903°in°Hainzell"
-          ],
-          "n1": {
-            "entry": "g°°Heiligster°Name°Jesu",
-            "office": ""
-          }
+          ]
         },
         "4": {
-          "entry": "^o++ Hochfest der Gottesmutter Maria^0o+^o>^o-^a^0o-^tNeujahr – Oktavtag von Weihnachten^o-^l^qhHochfest der Gottesmutter Maria^n^0o-^lNamensgebung des Herrn – ^fWeltfriedenstag^n^0o>",
-          "office": "^lTe Deum – Kl.°Hore: eig Ant,°ErgPs",
+          "entry": "^t^qfHl. Thomas^n, Ap, ^fFest^n",
+          "office": "^lTe Deum – Kl.°Hore:°Ant°u.°Ps°vom°Wt",
           "notes": [],
           "color": "(g)",
           "mass": "¥fMs¥0f nach Wahl",
           "deceased": [
             " 11.°April°1881°in°Dingelstädt",
             " Friedhof°am°Frauenberg,°Fulda 17.°September°1905°in°Bodenrode/Eichsfeld (D^-37308)"
-          ],
-          "n1": {
-            "entry": "g°°Heiligster°Name°Jesu",
-            "office": ""
-          }
+          ]
         },
         "5": {
-          "entry": "^o++ Hochfest der Gottesmutter Maria^0o+^o>^o-^a^0o-^tNeujahr – Oktavtag von Weihnachten^o-^l^qhHochfest der Gottesmutter Maria^n^0o-^lNamensgebung des Herrn – ^fWeltfriedenstag^n^0o>",
-          "office": "^lTe Deum – Kl.°Hore: eig Ant,°ErgPs",
+          "entry": "Vom Wochentag – 13. Woche im Jahreskreis",
+          "office": "",
           "notes": [],
           "color": "(g)",
           "mass": "¥fMs¥0f nach Wahl",
@@ -112,13 +100,13 @@ export const liturgicalData: LiturgicalData =
             " Friedhof°Frankfurt^-Bornheim 23.°März°1937°in°Minsk/Weißrussland"
           ],
           "n1": {
-            "entry": "g°°Heiligster°Name°Jesu",
+            "entry": "g°°Hl.°Ulrich / Hl.°Elisabeth°von°Portugal",
             "office": ""
           }
         },
         "6": {
-          "entry": "^o++ Hochfest der Gottesmutter Maria^0o+^o>^o-^a^0o-^tNeujahr – Oktavtag von Weihnachten^o-^l^qhHochfest der Gottesmutter Maria^n^0o-^lNamensgebung des Herrn – ^fWeltfriedenstag^n^0o>",
-          "office": "^lTe Deum – Kl.°Hore: eig Ant,°ErgPs",
+          "entry": "Vom Wochentag – 14. Woche im Jahreskreis",
+          "office": "",
           "notes": [],
           "color": "g",
           "mass": "¥fMs¥0f nach Wahl, Gl,°Cr",
@@ -128,13 +116,13 @@ export const liturgicalData: LiturgicalData =
             " Alter°Friedhof°Bad°Mergentheim 19.°Juni°1942°in°Hinzistobel (D^-88212°Ravensburg)"
           ],
           "n1": {
-            "entry": "g°°Heiligster°Name°Jesu",
+            "entry": "g°°Hl.°Antonius°Maria°Zaccaria",
             "office": ""
           }
         },
         "7": {
-          "entry": "^o++ Hochfest der Gottesmutter Maria^0o+^o>^o-^a^0o-^tNeujahr – Oktavtag von Weihnachten^o-^l^qhHochfest der Gottesmutter Maria^n^0o-^lNamensgebung des Herrn – ^fWeltfriedenstag^n^0o>",
-          "office": "^lTe Deum – Kl.°Hore: eig Ant,°ErgPs",
+          "entry": "Vom Wochentag – 14. Woche im Jahreskreis",
+          "office": "",
           "notes": [],
           "color": "(g)",
           "mass": "¥fMs¥0f nach Wahl",
@@ -144,7 +132,7 @@ export const liturgicalData: LiturgicalData =
             " Friedhof°Altenmittlau 29.°August°1917°in°Altenmittlau"
           ],
           "n1": {
-            "entry": "g°°Heiligster°Name°Jesu",
+            "entry": "g°°Hl.°Maria°Goretti",
             "office": ""
           }
         }

@@ -301,7 +301,7 @@ const PrayerMenu = ({
                                 hover:bg-gray-200 dark:hover:bg-gray-700
                                 text-gray-900 dark:text-gray-100"
             >
-              {displayText}
+              {formatText(displayText)}
             </button>
           );
         })}
