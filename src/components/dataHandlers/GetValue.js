@@ -95,7 +95,7 @@ export const getValue = ({ season, hour, texts, field,
 
     const isTSN = ['terz', 'sext', 'non'].includes(hour)
 
-    const checkAnt0 = `ant0${localPrefLanguage}`
+    const checkAnt0 = `ant0${isForeignLanguage}`
     const hasAnt0 = field.startsWith('ant') &&
         (texts[hour][prefSrc]?.[checkAnt0] ||
             texts[hour][prefSrc]?.[`com${localPrefComm}`]?.[checkAnt0])
@@ -187,7 +187,6 @@ export const getValue = ({ season, hour, texts, field,
             prefCommTexts = prefTexts?.com1
         if (localPrefComm === 2)
             prefCommTexts = prefTexts?.com2
-
     }
 
     if ((!isCommemoration // an Tagen mit Kommemoration und in Kl. Horen an Gedenktagen nur wt-Werte

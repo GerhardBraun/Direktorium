@@ -90,7 +90,8 @@ const HymnSelector = ({ texts, hour, season,
             && !(['terz', 'sext', 'non'].includes(hour)))
             ? '' : 'wt'
 
-        const isHighRank = rank_date > 2 || rank_wt > 2;
+        const isHighRank = rank_date > 2 || rank_wt > 2 ||
+            (hour === 'vesper' && texts?.hasErsteVesper && texts?.vesper?.prefComm);
 
         // Stelle die Basis-Quellen zusammen
         let sources = [prefSrc, 'pers'];
