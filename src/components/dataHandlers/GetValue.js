@@ -170,7 +170,8 @@ export const getValue = ({ season, hour, texts, field,
     if (isPsalmodie) {
         if (localPrefPsalmsWt) {
             skipCommune = true
-            if (isPsalmodie === 'inclAnt' && localPrefPsalmsWt !== 'inclAnt') skipCommune = false
+            if (isPsalmodie === 'inclAnt' && localPrefPsalmsWt !== 'inclAnt')
+                skipCommune = false
         } else skipCommune = false
         // console.log('skipCommune: ', isPsalmodie, field, localPrefPsalmsWt, skipCommune);
     }
@@ -181,10 +182,12 @@ export const getValue = ({ season, hour, texts, field,
     let prefCommTexts = '';
     if (!skipCommune) {
         if (localPrefComm === 1
-            || (isSollemnity && localPrefComm === 0))
+            //    || (isSollemnity && localPrefComm === 0)  // auskommentiert: auch an Hochfesten soll Wt-Auswahl möglich sein
+        )
             prefCommTexts = prefTexts?.com1
         if (localPrefComm === 2)
             prefCommTexts = prefTexts?.com2
+
     }
 
     if ((!isCommemoration // an Tagen mit Kommemoration und in Kl. Horen an Gedenktagen nur wt-Werte
@@ -375,7 +378,7 @@ const dataKomplet = {
         "ant2": "Zu nächtlicher Stunde preiset den Herrn.",
         "les_buch": "Dtn",
         "les_stelle": "6,4–7",
-        "les_text": "Höre, Israel! Jahwe, unser Gott, Jahwe ist einzig. Darum sollst du den Herrn, deinen Gott, lieben mit ganzem Herzen, mit ganzer Seele und mit ganzer Kraft. Diese Worte, auf die ich dich heute verpflichte, sollen auf deinem Herzen geschrieben stehen. Du sollst sie deinen Söhnen wiederholen. Du sollst von ihnen reden, wenn du zu Hause sitzt und wenn du auf der Straße gehst, wenn du dich schlafen legst und wenn du aufstehst.^RESP",
+        "les_text": "Höre, Israel! Jahwe, unser Gott, Jahwe ist einzig. Dar­um sollst du den Herrn, deinen Gott, lieben mit gan­zem Herzen, mit ganzer Seele und mit ganzer Kraft. Diese Worte, auf die ich dich heute verpflichte, sollen auf deinem Herzen geschrieben stehen. Du sollst sie deinen Söhnen wiederholen. Du sollst von ihnen reden, wenn du zu Hause sitzt und wenn du auf der Straße gehst, wenn du dich schlafen legst und wenn du aufstehst.^RESP",
         "les_text_neu": "Höre, Israel! Der HERR, unser Gott, der HERR ist einzig. Darum sollst du den HERRN, deinen Gott, lieben mit ganzem Herzen, mit ganzer Seele und mit ganzer Kraft. Und diese Worte, auf die ich dich heute verpflichte, sollen auf deinem Herzen geschrieben stehen. Du sollst sie deinen Kindern wiederholen. Du sollst sie sprechen, wenn du zu Hause sitzt und wenn du auf der Straße gehst, wenn du dich schlafen legst und wenn du aufstehst.^RESP",
         "oration_komplet": "Herr, bleibe bei uns in dieser Nacht, und wenn wir uns am Morgen erheben, dann lass uns in Freude der Auferstehung deines Sohnes gedenken,^ORR",
         "ant1_lat": "Miserére mei, Dómine, et exáudi oratiónem meam.",

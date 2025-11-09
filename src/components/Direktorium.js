@@ -387,6 +387,13 @@ const PrayerTextDisplay = ({
     setLocalPrefInv(texts?.prefInv || 95)
   }, [texts]);
 
+  useEffect(() => {
+    if (hour === 'vesper' && texts?.hasErsteVesper && texts?.vesper?.prefComm) {
+      console.log('PrayerTextDisplay: setting localPrefComm from texts.vesper.prefComm', localPrefComm, '=>', texts?.vesper?.prefComm);
+      setLocalPrefComm(texts?.vesper?.prefComm);
+    };
+  }, [hour, texts]);
+
   if (!hour || !texts || !texts[hour]) {
     return <div className="p-4">Keine Daten hier verfügbar</div>;
   }

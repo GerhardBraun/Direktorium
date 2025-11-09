@@ -72,7 +72,10 @@ const SectionHeader = ({
         const hasWt = texts[hour].wt?.[field];
         const hasComm1 = texts[hour][prefSrc]?.com1?.[field];
         const hasComm2 = texts[hour][prefSrc]?.com2?.[field];
-        const nameComm1 = texts.laudes[prefSrc]?.com1?.button || '1';
+        const nameComm1 =
+            (hour === 'vesper' && texts?.hasErsteVesper && texts?.vesper?.commButton)
+                ? texts.vesper.commButton
+                : texts.laudes[prefSrc]?.com1?.button || '1';
         const nameComm2 = texts.laudes[prefSrc]?.com2?.button || '2';
 
         return {
@@ -159,6 +162,8 @@ const SectionHeader = ({
     const showContinuous = hasEig && hasWt && askContinuous
         && hour === 'lesehore' && !isCommemoration;
     const isErsteLesung = field.startsWith('les_text') && hour === 'lesehore';
+    const isLesung = field.includes('_text') && hour === 'lesehore';
+    const isContinuous = isLesung && localPrefContinuous;
     const isTSN = ["terz", "sext", "non"].includes(hour);
     const showTSN = isTSN && ['HYMNUS', 'PSALMODIE', 'KURZLESUNG'].includes(title)
         && !(isPsalmodie && isIdenticalTerzSext); // Neue Bedingung hinzugefügt
@@ -350,8 +355,11 @@ const SectionHeader = ({
                             setLocalPrefComm(1)
                             if (isPsalmodie)
                                 setLocalPrefPsalmsWt(false)
+                            if (isContinuous)
+                                setLocalPrefContinuous(false)
                         }}
-                        className={(!isPsalmsWt && localPrefComm === 1) ? 'underline' : ''}
+                        className={(!isPsalmsWt && !isContinuous &&
+                            localPrefComm === 1) ? 'underline' : ''}
                     >
                         Comm {nameComm1}
                     </button>
@@ -363,8 +371,11 @@ const SectionHeader = ({
                                     setLocalPrefComm(2)
                                     if (isPsalmodie)
                                         setLocalPrefPsalmsWt(false)
+                                    if (isContinuous)
+                                        setLocalPrefContinuous(false)
                                 }}
-                                className={(!isPsalmsWt && localPrefComm === 2) ? 'underline' : ''}
+                                className={(!isPsalmsWt && !isContinuous &&
+                                    localPrefComm === 2) ? 'underline' : ''}
                             >
                                 {nameComm2}
                             </button>
@@ -378,9 +389,11 @@ const SectionHeader = ({
                                 onClick={() => {
                                     if (isPsalmodie)
                                         setLocalPrefPsalmsWt(true)
+                                    else if (isLesung)
+                                        setLocalPrefContinuous(true)
                                     else setLocalPrefComm(0)
                                 }}
-                                className={(isPsalmsWt || localPrefComm === 0) ? 'underline' : ''}
+                                className={(isPsalmsWt || isContinuous || localPrefComm === 0) ? 'underline' : ''}
                             >
                                 {`${isErsteLesung ? 'Bahnlesung' : 'Wt'}`}
                             </button>

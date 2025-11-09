@@ -685,6 +685,9 @@ export function processBrevierData(todayDate) {
     // Ersetze Vesper-Daten wenn nötig
     if (hasErsteVesper_wt || hasErsteVesper_date) {
         finalData.vesper = JSON.parse(JSON.stringify(tomorrowData.erstev));
+        finalData.vesper.prefComm = tomorrowData.prefComm;
+        if (tomorrowData.laudes?.oblig?.com1?.button)
+            finalData.vesper.commButton = tomorrowData.laudes.oblig.com1.button;
         finalData.hasErsteVesper = true;
         if (hasErsteVesper_wt)
             finalData.vesper.wt.swdWritten = tomorrowData?.swdWritten;
