@@ -1,4 +1,4 @@
-// RufvdEv.ts - Automatisch generiert am 09.11.2025 16:05:36
+// RufvdEv.ts - Automatisch generiert am 10.11.2025 06:13:35
 // RufvdEv-Datenbank: ID -> { Stelle, Text }
 
 export const rufvdevData = {
@@ -386,6 +386,10 @@ export const rufvdevData = {
     Stelle: 'Lk 11,28',
     Text: 'Selig, die das Wort Gottes hören^lund es befolgen.'
   },
+  'Lk 11,35': {
+    Stelle: 'Lk 11,35',
+    Text: '^SPRICHTAchte darauf,^ldass in dir statt Licht nicht°Finsternis°ist!'
+  },
   'Lk 14,33': {
     Stelle: 'Lk 14,33',
     Text: 'Keiner von euch kann mein Jünger sein,^lwenn er nicht auf seinen ganzen Besitz verzichtet.'
@@ -573,6 +577,10 @@ export const rufvdevData = {
   'Mt 5,3': {
     Stelle: 'Mt 5,3',
     Text: 'Selig, die arm sind vor Gott;^ldenn ihnen gehört das Himmelreich.'
+  },
+  'Mt 5,6': {
+    Stelle: 'Mt 5,6',
+    Text: 'Selig, die hungern und dürsten nach der Gerechtigkeit;^ldenn sie werden gesättigt.'
   },
   'Mt 8,17': {
     Stelle: 'vgl. Mt 8,17',

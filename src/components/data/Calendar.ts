@@ -11221,10 +11221,10 @@ export const calendarData: CalendarData = {
             "hymn_1": 1215.0,
             "patr_autor": "Sulpicius Severus († um 420)",
             "patr_werk": "Aus einem Brief über den Tod des heiligen Martin.",
-            "patr_text": "^hMartin, in diesem Leben arm und gering, ging reich in den Himmel ein^pMartin sah seinen Tod voraus und sagte seinen Brüdern, die Auflösung seines Leibes stehe nahe bevor. Inzwischen ergab es sich, dass er die Pfarrei Candes besuchen musste. Die Kleriker dieser Kirche waren unter sich zerstritten, und er wünschte den Frieden wiederherzustellen. Obwohl er wusste, dass seine Tage zu Ende gingen, weigerte er sich nicht, in Anbetracht eines so wichtigen Anlasses die Reise zu unternehmen. Er hielt es für einen guten Abschluss seines Tugendlebens, der Kirche den wiederhergestellten Frieden zu hinterlassen. Er verbrachte eine Weile in diesem Stadtteil oder in der Kirche, die er aufgesucht hatte. Er stellte den Frieden wieder her und gedachte nun ins Kloster zurückzukehren, als plötzlich seine Körperkräfte verfielen. Er rief die Brüder zusammen und eröffnete ihnen, er werde nun sterben. Da gab es bei allen große Trauer, und sie klagten mit einer Stimme: „Vater, warum verlässt du uns? Wem hinterlässt du uns in unserer Trostlosigkeit? Reißende Wölfe werden in deine Herde einbrechen. Wer soll uns vor ihren Bissen retten, wenn der Hirte geschlagen ist? Wir wissen, dass du nach Christus verlangst. Aber dein Lohn ist dir doch sicher, und er wird durch einen Aufschub nicht geringer. Hab Mitleid mit uns, die du verlässt!“ Ihre Tränen bewegten Martin so sehr, dass sein Herz im Herrn von Erbarmen überfloss, und es heißt, er habe geweint. Er wandte sich an den Herrn, und seine Antwort an die Weinenden war: „Herr, wenn ich deinem Volk noch nötig bin, verweigere ich nicht Arbeit und Mühsal. Dein Wille geschehe!“^pWas für ein bewundernswerter Mann! Die Arbeit hatte ihn nicht überwunden, und der Tod sollte ihn nicht besiegen! Keiner Seite neigte er sich zu: Er fürchtete sich nicht zu sterben und weigerte sich nicht zu leben. Er hob Augen und Hände zum Himmel, und unbesieht hörte sein Geist nicht auf zu beten. Die Priester, die damals bei ihm zusammengekommen waren, wollten ihn anders betten, um so seinem Leib etwas Erleichterung zu verschaffen. Aber er sagte: „Lasst mich, Brüder, lasst mich doch lieber den Himmel anschauen als die Erde, damit mein Geist, der nun seinen Weg gehen soll, die Richtung zum Herrn findet!“ Als er das gesagt hatte, sah er den Teufel in der Nähe stehen. Da sprach er: „Was stehst du da, blutige Bestie! Du Finsterer, an mir wirst du nichts finden; mich nimmt der Schoß Abrahams auf!“^pMit diesen Worten gab er seinen Geist dem Himmel zurück. Freudig wurde Martin in den Schoß Abrahams aufgenommen. Martin, in diesem Leben arm und gering, ging reich in den Himmel ein.",
-            "patr_resp1": "Martin richtete niemand, keinen verurteilte er",
-            "patr_resp2": "In seinem Mund gab es nur Christus, nur Friede und Erbarmen",
-            "patr_resp3": "Er fürchtete sich nicht zu sterben und weigerte sich nicht zu leben",
+            "patr_text": "^hMartin, in diesem Leben arm und gering, ging reich in den Himmel ein^pMartin sah seinen Tod voraus und sagte seinen Brüdern, die Auflösung seines Leibes stehe nahe bevor. Inzwischen ergab es sich, dass er die Pfarrei Candes besuchen musste. Die Kleriker dieser Kirche waren unter sich zerstritten, und er wünschte den Frieden wiederherzustellen. Obwohl er wusste, dass seine Tage zu Ende gingen, weigerte er sich nicht, in Anbetracht eines so wichtigen Anlasses die Reise zu unternehmen. Er hielt es für einen guten Abschluss seines Tugendlebens, der Kirche den wiederhergestellten Frieden zu hinterlassen.^pEr verbrachte eine Weile in diesem Stadtteil oder in der Kirche, die er aufgesucht hatte. Er stellte den Frieden wieder her und gedachte nun ins Kloster zurückzukehren, als plötzlich seine Körperkräfte verfielen. Er rief die Brüder zusammen und eröffnete ihnen, er werde nun sterben.^pDa gab es bei allen große Trauer, und sie klagten mit einer Stimme: „Vater, warum verlässt du uns? Wem hinterlässt du uns in unserer Trostlosigkeit? Reißende Wölfe werden in deine Herde einbrechen. Wer soll uns vor ihren Bissen retten, wenn der Hirte geschlagen ist? Wir wissen, dass du nach Christus verlangst. Aber dein Lohn ist dir doch sicher, und er wird durch einen Aufschub nicht geringer. Hab Mitleid mit uns, die du verlässt!“^pIhre Tränen bewegten Martin so sehr, dass sein Herz im Herrn von Erbarmen überfloss, und es heißt, er habe geweint. Er wandte sich an den Herrn, und seine Antwort an die Weinenden war: „Herr, wenn ich deinem Volk noch nötig bin, verweigere ich nicht Arbeit und Mühsal. Dein Wille geschehe!“^pWas für ein bewundernswerter Mann! Die Arbeit hatte ihn nicht überwunden, und der Tod sollte ihn nicht besiegen! Keiner Seite neigte er sich zu: Er fürchtete sich nicht zu sterben und weigerte sich nicht zu leben. Er hob Augen und Hände zum Himmel, und unbesiegt hörte sein Geist nicht auf zu beten.^pDie Priester, die damals bei ihm zusammengekommen waren, wollten ihn anders betten, um so seinem Leib etwas Erleichterung zu verschaffen. Aber er sagte: „Lasst mich, Brüder, lasst mich doch lieber den Himmel anschauen als die Erde, damit mein Geist, der nun seinen Weg gehen soll, die Richtung zum Herrn findet!“ Als er das gesagt hatte, sah er den Teufel in der Nähe stehen. Da sprach er: „Was stehst du da, blutige Bestie! Du Finsterer, an mir wirst du nichts finden; mich nimmt der Schoß Abrahams auf!“^pMit diesen Worten gab er seinen Geist dem Himmel zurück. Freudig wurde Martin in den Schoß Abrahams aufgenommen. Martin, in diesem Leben arm und gering, ging reich in den Himmel ein.",
+            "patr_resp1": "Martin richtete niemand, keinen verurteilte er!",
+            "patr_resp2": "In seinem Mund gab es nur Christus, nur Friede und Erbarmen.",
+            "patr_resp3": "Er fürchtete sich nicht zu sterben und weigerte sich nicht zu leben.",
             "hymn_1_lat": 9111.4
           },
           "Laudes": {
@@ -11457,6 +11457,9 @@ export const calendarData: CalendarData = {
             "nominativ": "Der selige Rupert Mayer",
             "genitiv": "des seligen Rupert Mayer",
             "genitiv_lat": "beáti Rupérti"
+          },
+          "Messe": {
+            "ms_ruf_text": "Joh 10,14"
           }
         }
       },
@@ -11583,7 +11586,7 @@ export const calendarData: CalendarData = {
           "Lesehore": {
             "patr_autor": "Leo der Große († 461)",
             "patr_werk": "Aus einer Predigt über die Kirche als den mystischen Leib Christi.",
-            "patr_text": "^hDie besondere Aufgabe unseres Dienstes^pDie ganze Kirche ist in Stufen aufgebaut, und das Ganze des mystischen Leibes besteht aus Gliedern, die unter sich verschieden sind. Dennoch sind wir, wie der Apostel sagt, „einer in Christus Jesus“{1#Gal 3,28}. So sehr ist keiner durch das heilige Amt vom andern getrennt, dass sein bescheidener Teil keinen Zusammenhang mit dem Haupt mehr hätte. In der Einheit des Glaubens und der Taufe besitzen wir eine ungeteilte Gemeinschaft und eine gemeinsame Würde, wie die Stimme des seligen Apostels Petrus erklärt: „Lasst euch als lebendige Steine zu einem geistigen Haus aufbauen, zu einer heiligen Priesterschaft, um durch Jesus Christus geistige Opfer darzubringen, die Gott gefallen“ und weiter: „Ihr seid ein auserwähltes Geschlecht, eine königliche Priesterschaft, ein heiliger Stamm, ein Volk, das sein besonderes Eigentum wurde.“{2#1Petr 2,5.9}^pAlle, die in Christus wiedergeboren sind, macht das Zeichen des Kreuzes zu Königen und weiht die Salbung des Heiligen Geistes zu Priestern. So sollen geisterfüllte und vernünftige Christen erkennen, dass sie ungeachtet unseres besonderen Dienstes ein königliches Geschlecht sind und Anteil am priesterlichen Amt besitzen. Denn was ist so königlich, wie wenn der Gott untergebene Geist Beherrscher seines Leibes ist? Und was ist so priesterlich, wie wenn wir Gott ein reines Gewissen weihen und auf dem Altar unseres Herzens unbefleckte Gaben der Frömmigkeit darbringen? Das ist durch die Gnade Gottes allen gemeinsam. Dennoch ist es heilig und lobenswert, wenn ihr euch über den Tag unserer Erhebung freut, als gälte die Ehrung euch. So soll im ganzen Leib der Kirche das eine Geheimnis der Bischofsweihe gefeiert werden, das mit dem Ausgießen des gesegneten Öls zwar reichlicher über die oberen Stufen sich ergoss, aber auch – und das nicht spärlich – über die unteren Stufen.^pZwar gibt es für uns viel Grund zu gemeinsamer Freude über die Gemeinschaft dieser Gabe. Aber besser noch und vorzüglicher ist unsere Freude begründet, wenn wir nicht bei der Betrachtung unseres kleinen Ich stehenbleiben. Viel förderlicher und wertvoller ist es, mit der Schärfe des Geistes die Herrlichkeit des seligen Apostels Petrus zu betrachten und diesen Tag vor allem zu seiner Verehrung zu feiern; denn auf ihn hat sich aus dem Quell aller Gnadengaben eine reiche Fülle ergossen, viel empfing er allein, und auf keinen anderen ging etwas ohne seine Beteiligung über, obgleich das menschgewordene Wort schon unter uns wohnte und Christus sich schon für die Erneuerung des ganzen Menschengeschlechtes hingegeben hatte.",
+            "patr_text": "^hDie besondere Aufgabe unseres Dienstes^pDie ganze Kirche ist in Stufen aufgebaut, und das Ganze des mystischen Leibes besteht aus Gliedern, die unter sich verschieden sind. Dennoch sind wir, wie der Apostel sagt, „einer in Christus Jesus“{1#Gal 3,28}. So sehr ist keiner durch das heilige Amt vom andern getrennt, dass sein bescheidener Teil keinen Zusammenhang mit dem Haupt mehr hätte.^pIn der Einheit des Glaubens und der Taufe besitzen wir eine ungeteilte Gemeinschaft und eine gemeinsame Würde, wie die Stimme des seligen Apostels Petrus erklärt: „Lasst euch als lebendige Steine zu einem geistigen Haus aufbauen, zu einer heiligen Priesterschaft, um durch Jesus Christus geistige Opfer darzubringen, die Gott gefallen“, und weiter: „Ihr seid ein auserwähltes Geschlecht, eine königliche Priesterschaft, ein heiliger Stamm, ein Volk, das sein besonderes Eigentum wurde.“{2#1Petr 2,5.9}^pAlle, die in Christus wiedergeboren sind, macht das Zeichen des Kreuzes zu Königen und weiht die Salbung des Heiligen Geistes zu Priestern. So sollen geisterfüllte und vernünftige Christen erkennen, dass sie ungeachtet unseres besonderen Dienstes ein königliches Geschlecht sind und Anteil am priesterlichen Amt besitzen. Denn was ist so königlich, wie wenn der Gott untergebene Geist Beherrscher seines Leibes ist? Und was ist so priesterlich, wie wenn wir Gott ein reines Gewissen weihen und auf dem Altar unseres Herzens unbefleckte Gaben der Frömmigkeit darbringen? Das ist durch die Gnade Gottes allen gemeinsam.^pDennoch ist es heilig und lobenswert, wenn ihr euch über den Tag unserer Erhebung freut, als gälte die Ehrung euch. So soll im ganzen Leib der Kirche das eine Geheimnis der Bischofsweihe gefeiert werden, das mit dem Ausgießen des gesegneten Öls zwar reichlicher über die oberen Stufen sich ergoss, aber auch – und das nicht spärlich – über die unteren Stufen.^pZwar gibt es für uns viel Grund zu gemeinsamer Freude über die Gemeinschaft dieser Gabe. Aber besser noch und vorzüglicher ist unsere Freude begründet, wenn wir nicht bei der Betrachtung unseres kleinen Ich stehenbleiben. Viel förderlicher und wertvoller ist es, mit der Schärfe des Geistes die Herrlichkeit des seligen Apostels Petrus zu betrachten und diesen Tag vor allem zu seiner Verehrung zu feiern; denn auf ihn hat sich aus dem Quell aller Gnadengaben eine reiche Fülle ergossen. Viel empfing er allein, und auf keinen anderen ging etwas ohne seine Beteiligung über, obgleich das menschgewordene Wort schon unter uns wohnte und Christus sich schon für die Erneuerung des ganzen Menschengeschlechtes hingegeben hatte.",
             "patr_resp1": "Jesus sprach zu Simon: Du bist Petrus, und auf diesen Felsen werde ich meine Kirche bauen;",
             "patr_resp2": "und die Mächte des Todes werden sie nicht überwältigen.",
             "patr_resp3": "Gott lässt seine Kirche bestehen auf ewig."
@@ -11628,10 +11631,10 @@ export const calendarData: CalendarData = {
           "Lesehore": {
             "patr_autor": "Pius XI. († 1939)",
             "patr_werk": "Aus der Enzyklika „Ecclesiam Dei“.",
-            "patr_text": "^hEr vergoss sein Blut für die Einheit der Kirche^pDie Kirche ist durch den wunderbaren Ratschluss so gegründet, dass sie in der Fülle der Zeiten wie eine einzige Familie erscheint, die das ganze Menschengeschlecht umfasst. Unter ihren glänzenden Merkmalen, so wissen wir, ist es besonders die weltumspannende Einheit, durch die Gott sie erkennbar gemacht hat. Christus hat die Aufgabe, die er selbst vom Vater empfangen hatte, nur den Aposteln übertragen, indem er sprach: „Mir ist alle Gewalt gegeben im Himmel und auf Erden. Darum geht hin und lehrt alle Völker.“{1#vgl. Mt 28,18} Aber nicht das allein: Er wollte auch, dass die Apostel zusammen ein Kollegium bildeten, innigst geeint durch ein doppeltes Band: innerlich durch den gleichen Glauben und die gleiche Liebe, die in unsere Herzen ausgegossen ist durch den Heiligen Geist{2#vgl. Röm 5,5}; äußerlich durch die Leitung eines einzigen über alle, indem er dem Petrus den Vorrang über die Apostel übertrug, als ein dauerndes Prinzip und Fundament der Einheit. Damit aber diese Einheit und Übereinstimmung dauernd besteht, weihte Gott sie in seiner Vorsehung durch Heiligkeit und Martyrium wie mit einem Siegel.^pDieses hohe Lob erwarb Josaphat, der Erzbischof von Polozk vom ostslawischen Ritus. Wir anerkennen ihn mit Recht als eine Zierde und Säule der Ostslawen; denn kaum ein anderer hat ihrem Namen solche Herrlichkeit gebracht und mehr zu ihrem Heil beigetragen als dieser ihr Hirte und Apostel, besonders dadurch, dass er sein Blut für die Einheit der Kirche vergossen hat. Vor allem hat er, von einer inneren Eingebung bewegt, erkannt, dass er zur Wiederherstellung der Einheit dadurch sehr viel beitragen konnte, indem er in der Einheit der Gesamtkirche den ostslawischen Ritus und das Mönchtum der Regel des heiligen Basilius beibehielt.^pInzwischen aber war er vor allem darum bemüht, seine Mitbürger zur Einheit mit dem Stuhl Petri zu führen. Er suchte überall nach Wegen, diese Einheit zu fördern, und nach Gelegenheiten, sie zu sichern. Besonders durchforschte er die liturgischen Bücher, die von den Orientalen – auch von den Getrennten – nach der Vorschrift der Väter benutzt werden. Nach sorgfältiger Vorbereitung nahm er die Wiederherstellung der Einheit in Angriff. Er wirkte mit solcher Kraft und Milde zugleich und mit solchem Erfolg, dass er von seinen Gegnern „Seelenräuber“ genannt wurde.",
-            "patr_resp1": "Heiliger Vater, bewahre sie in deinem Namen, die du mir gegeben hast",
-            "patr_resp2": "Damit sie vollkommen eins werden wie auch wir und die Welt erkennt, dass du mich gesandt hast",
-            "patr_resp3": "Die Herrlichkeit, die du mir gegeben hast, habe ich ihnen gegeben"
+            "patr_text": "^hEr vergoss sein Blut für die Einheit der Kirche^pDie Kirche ist durch den wunderbaren Ratschluss so gegründet, dass sie in der Fülle der Zeiten wie eine einzige Familie erscheint, die das ganze Menschengeschlecht umfasst. Unter ihren glänzenden Merkmalen, so wissen wir, ist es besonders die weltumspannende Einheit, durch die Gott sie erkennbar gemacht hat.^pChristus hat die Aufgabe, die er selbst vom Vater empfangen hatte, nur den Aposteln übertragen, indem er sprach: „Mir ist alle Gewalt gegeben im Himmel und auf Erden. Darum geht hin und lehrt alle Völker.“{1#vgl. Mt 28,18} Aber nicht das allein: Er wollte auch, dass die Apostel zusammen ein Kollegium bildeten, innigst geeint durch ein doppeltes Band: innerlich durch den gleichen Glauben und die gleiche Liebe, die in unsere Herzen ausgegossen ist durch den Heiligen Geist{2#vgl. Röm 5,5}; äußerlich durch die Leitung eines einzigen über alle, indem er dem Petrus den Vorrang über die Apostel übertrug, als ein dauerndes Prinzip und Fundament der Einheit. Damit aber diese Einheit und Übereinstimmung dauernd besteht, weihte Gott sie in seiner Vorsehung durch Heiligkeit und Martyrium wie mit einem Siegel.^pDieses hohe Lob erwarb Josaphat, der Erzbischof von Polozk vom ostslawischen Ritus. Wir anerkennen ihn mit Recht als eine Zierde und Säule der Ostslawen; denn kaum ein anderer hat ihrem Namen solche Herrlichkeit gebracht und mehr zu ihrem Heil beigetragen als dieser ihr Hirte und Apostel, besonders dadurch, dass er sein Blut für die Einheit der Kirche vergossen hat. Vor allem hat er, von einer inneren Eingebung bewegt, erkannt, dass er zur Wiederherstellung der Einheit dadurch sehr viel beitragen konnte, indem er in der Einheit der Gesamtkirche den ostslawischen Ritus und das Mönchtum der Regel des heiligen Basilius beibehielt.^pInzwischen aber war er vor allem darum bemüht, seine Mitbürger zur Einheit mit dem Stuhl Petri zu führen. Er suchte überall nach Wegen, diese Einheit zu fördern, und nach Gelegenheiten, sie zu sichern. Besonders durchforschte er die liturgischen Bücher, die von den Orientalen – auch von den Getrennten – nach der Vorschrift der Väter benutzt werden. Nach sorgfältiger Vorbereitung nahm er die Wiederherstellung der Einheit in Angriff. Er wirkte mit solcher Kraft und Milde zugleich und mit solchem Erfolg, dass er von seinen Gegnern ‚Seelenräuber‘ genannt wurde.",
+            "patr_resp1": "Heiliger Vater, bewahre sie in deinem Namen, die du mir gegeben hast,",
+            "patr_resp2": "damit sie vollkommen eins werden wie auch wir und die Welt erkennt, dass du mich gesandt hast.",
+            "patr_resp3": "Die Herrlichkeit, die du mir gegeben hast, habe ich ihnen gegeben."
           },
           "Laudes": {
             "button": "Hl. Josaphat",
@@ -11685,6 +11688,7 @@ export const calendarData: CalendarData = {
             "ms_aps_stelle": "Ps 119,9-14; Ps 112,1-7.9",
             "ms_aps_kv": "HERR, lehre mich deine Gesetze!",
             "ms_aps_text": "Wie geht ein junger Mann seinen Pfad ohne Tadel?^*Wenn er dein Wort beachtet.^pIch suche dich mit ganzem Herzen.^*Lass mich nicht abirren von deinen Geboten!^KV^PIch barg deinen Spruch in meinem Herzen,^*damit ich gegen dich nicht sündige.^pGepriesen seist du, HERR!^*Lehre mich deine Gesetze!^KV^PMit meinen Lippen verkünde ich^*alle Entscheide deines Mundes.^pAm Weg deiner Zeugnisse habe ich Freude,^*wie an jeglichem Reichtum.",
+            "ms_ruf_text": "Apg 16,14",
             "ms_ev_buch": "Mt",
             "ms_ev_stelle": "13,47-52; Lk 19,12-26",
             "ms_ev_motto": "Neues und Altes",
@@ -11710,6 +11714,9 @@ export const calendarData: CalendarData = {
             "nominativ": "Der heilige Leopold",
             "genitiv": "des heiligen Leopold",
             "genitiv_lat": "sancti Leopóldis"
+          },
+          "Messe": {
+            "ms_ruf_text": "Joh 15,9bleibt"
           }
         }
       },
@@ -11741,6 +11748,7 @@ export const calendarData: CalendarData = {
             "ms_aps_stelle": "Ps 112,1-7.9",
             "ms_aps_kv": "Selig, wer Gott fürchtet und auf seinen Wegen geht.",
             "ms_aps_text": "Selig der Mann, der den HERRN fürchtet^*und sich herzlich freut an seinen Geboten.^pSeine Nachkommen werden mächtig im Land,^*das Geschlecht der Redlichen wird gesegnet.^KV^PWohlstand und Reichtum füllen sein Haus,^*seine Gerechtigkeit hat Bestand für immer.^pIm Finstern erstrahlt er als Licht den Redlichen:^*Gnädig und barmherzig ist der Gerechte.^KV^PGlücklich ein Mann, der gnädig ist und leiht ohne Zinsen,^*der nach dem Recht das Seine ordnet.^pNiemals gerät er ins Wanken;^*ewig denkt man an den Gerechten.^KV^PEr fürchtet sich nicht vor böser Kunde,^*sein Herz ist fest, auf den HERRN vertraut er.^pReichlich gibt er den Armen,^+seine Gerechtigkeit hat Bestand für immer,^*seine Macht steht hoch in Ehren.",
+            "ms_ruf_text": "Joh 13,34",
             "ms_ev_buch": "Joh",
             "ms_ev_stelle": "15,9-17",
             "ms_ev_motto": "Ihr seid meine Freunde, wenn ihr tut, was ich euch auftrage",
@@ -11778,6 +11786,7 @@ export const calendarData: CalendarData = {
             "ms_aps_stelle": "Ps 23",
             "ms_aps_kv": "Der HERR ist mein Hirt,<br>nichts wird mir fehlen.",
             "ms_aps_text": "Der HERR ist mein Hirt, nichts wird mir fehlen.^+Er lässt mich lagern auf grünen Auen^*und führt mich zum Ruheplatz am Wasser.^pMeine Lebenskraft bringt er zurück.^*Er führt mich auf Pfaden der Gerechtigkeit, getreu seinem Namen.^KV^PAuch wenn ich gehe im finsteren Tal,^*ich fürchte kein Unheil;^pdenn du bist bei mir,^*dein Stock und dein Stab, sie trösten mich.^KV^PDu deckst mir den Tisch^*vor den Augen meiner Feinde.^pDu hast mein Haupt mit Öl gesalbt,^*übervoll ist mein Becher.^KV^PJa, Güte und Huld^*werden mir folgen mein Leben lang^pund heimkehren werde ich ins Haus des HERRN^*für lange Zeiten.",
+            "ms_ruf_text": "Joh 15,9bleibt",
             "ms_ev_buch": "Joh",
             "ms_ev_stelle": "15,1-8",
             "ms_ev_motto": "Wer in mir bleibt und in wem ich bleibe, der bringt reiche Frucht",
@@ -11819,6 +11828,7 @@ export const calendarData: CalendarData = {
             "ms_aps_stelle": "Ps 98,1.2-3b.3c-4.5-6",
             "ms_aps_kv": "Der Herr hat sein Heil enthüllt<br>vor den Augen der Völker.",
             "ms_aps_text": "Singt dem Herrn ein neues Lied;^*denn er hat wunderbare Taten vollbracht.^pEr hat mit seiner Rechten geholfen^*und mit seinem heiligen Arm.^KV^PDer Herr hat sein Heil bekannt gemacht^*und sein gerechtes Wirken enthüllt vor den Augen der Völker.^pEr dachte an seine Huld^*und an seine Treue zum Hause Israel.^KV^PAlle Enden der Erde^*sahen das Heil unsres Gottes.^pJauchzt vor dem Herrn, alle Länder der Erde,^*freut euch, jubelt und singt!^KV^PSpielt dem Herrn auf der Harfe,^*auf der Harfe zu lautem Gesang!^pZum Schall der Trompeten und Hörner^*jauchzt vor dem Herrn, dem König!",
+            "ms_ruf_text": "Dich, Gott, loben wir, dich, Herr, preisen wir.^lDich preist der glorreiche Chor der Apostel.",
             "ms_ev_buch": "Mt",
             "ms_ev_stelle": "14,22-33",
             "ms_ev_motto": "Herr, befiehl, dass ich auf dem Wasser zu dir komme",
@@ -11854,6 +11864,7 @@ export const calendarData: CalendarData = {
             "ms_aps_stelle": "Ps 34,2-11",
             "ms_aps_kv": "Den HERRN will ich preisen allezeit.<br><br><rot>Oder:</rot><br>Kostet und seht, wie gut der HERR ist!",
             "ms_aps_text": "Ich will den HERRN allezeit preisen;^*immer sei sein Lob in meinem Mund.^pMeine Seele rühme sich des HERRN;^*die Armen sollen es hören und sich freuen.^KV^PPreist mit mir die Größe des HERRN,^*lasst uns gemeinsam seinen Namen erheben!^pIch suchte den HERRN und er gab mir Antwort,^*er hat mich all meinen Ängsten entrissen.^KV^PDie auf ihn blickten, werden strahlen,^*nie soll ihr Angesicht vor Scham erröten.^pDa rief ein Armer und der HERR erhörte ihn^*und half ihm aus all seinen Nöten.^KV^PDer Engel des HERRN umschirmt, die ihn fürchten,^*und er befreit sie. ^pKostet und seht, wie gut der HERR ist!^*Selig der Mensch, der zu ihm sich flüchtet!^KV^PFürchtet den HERRN, ihr seine Heiligen;^*denn die ihn fürchten, leiden keinen Mangel.^pJunglöwen darbten und hungerten;^*aber die den HERRN suchen, leiden keinen Mangel an allem Guten.",
+            "ms_ruf_text": "Joh 13,34",
             "ms_ev_buch": "Lk",
             "ms_ev_stelle": "6,27-38",
             "ms_ev_motto": "Seid barmherzig, wie es euer Vater ist",
@@ -11896,6 +11907,7 @@ export const calendarData: CalendarData = {
             "ms_aps_stelle": "Lk 1,46-55",
             "ms_aps_kv": "R Der Mächtige hat Großes an mir getan<br>und sein Name ist heilig. - R<br><br><rot>Oder:</rot><br>R Selig bist du, Jungfrau Maria,<br>du hast den Sohn des ewigen Vaters getragen. - R",
             "ms_aps_text": "Meine Seele preist die Größe des Herrn^*und mein Geist jubelt über Gott, meinen Retter.^pDenn auf die Niedrigkeit seiner Magd hat er geschaut.^*Siehe, von nun an preisen mich selig alle Geschlechter. - (R)^pDenn der Mächtige hat Großes an mir getan^*und sein Name ist heilig.^pEr erbarmt sich von Geschlecht zu Geschlecht^*über alle, die ihn fürchten. - (R)^pEr vollbringt mit seinem Arm machtvolle Taten:^*Er zerstreut, die im Herzen voll Hochmut sind.^pDie Hungernden beschenkt er mit seinen Gaben^*und lässt die Reichen leer ausgehn. - (R)^pEr nimmt sich seines Knechtes Israel an^*und denkt an sein Erbarmen,^pdas er unsern Vätern verheißen hat,^*Abraham und seinen Nachkommen auf ewig. - R^p",
+            "ms_ruf_text": "Lk 11,28",
             "ms_ev_buch": "Mt",
             "ms_ev_stelle": "12,46-50",
             "ms_ev_motto": "Er streckte die Hand über seine Jünger aus und sagte: Siehe, meine Mutter und meine Brüder",
@@ -11939,6 +11951,7 @@ export const calendarData: CalendarData = {
             "ms_aps_stelle": "Ps 45,11-12.14-17",
             "ms_aps_kv": "Höre, Tochter, und neige dein Ohr!<br><br><rot>Oder:</rot><br>Freut euch allezeit: Wir ziehn dem Herrn entgegen.",
             "ms_aps_text": "Höre, Tochter, sieh her und neige dein Ohr,^*vergiss dein Volk und dein Vaterhaus!^pDer König verlangt nach deiner Schönheit;^*er ist ja dein Herr, wirf dich vor ihm nieder!^KV^PAlle Herrlichkeit ist drinnen die Tochter des Königs,^*golddurchwirkt ist ihr Gewand und reich gemustert.^pSie wird in bunt gestickten Kleidern zum König geleitet,^+Jungfrauen sind ihr Gefolge,^*ihre Freundinnen werden dir zugeführt.^KV^PSie werden geleitet mit Freude und Jubel,^*sie kommen in den Palast des Königs.^pAn die Stelle deiner Väter treten einst deine Söhne;^*über das ganze Land setzt du sie ein als Fürsten.",
+            "ms_ruf_text": "Mt 25,10",
             "ms_ev_buch": "Mt",
             "ms_ev_stelle": "25,1-13",
             "ms_ev_motto": "Der Bräutigam kommt! Geht ihm entgegen!",
@@ -11967,6 +11980,9 @@ export const calendarData: CalendarData = {
             "farbe": "r",
             "genitiv": "des heiligen Papstes Klemens I.",
             "genitiv_lat": "sancti Cleméntis"
+          },
+          "Messe": {
+            "ms_ruf_text": "Mk 1,17"
           }
         },
         "n2": {
@@ -11997,6 +12013,7 @@ export const calendarData: CalendarData = {
             "ms_aps_stelle": "Ps 96,1-3.7-8.10; Ps 89,2-3.20a.4-5.21-22.25.27",
             "ms_aps_kv": "Kündet den Völkern die Herrlichkeit des Herrn!",
             "ms_aps_text": "Singet dem HERRN ein neues Lied,^*singt dem HERRN, alle Lande,^psingt dem HERRN, preist seinen Namen!^*Verkündet sein Heil von Tag zu Tag!^KV^PErzählt bei den Nationen von seiner Herrlichkeit,^*bei allen Völkern von seinen Wundern!^pBringt dar dem HERRN, ihr Stämme der Völker,^*bringt dar dem HERRN Ehre und Macht!^KV^PBringt dar dem HERRN die Ehre seines Namens!^*Bringt Gaben und tretet ein in die Höfe seines Heiligtums!^pVerkündet bei den Nationen: Der HERR ist König!^+Fest ist der Erdkreis gegründet, er wird nicht wanken.^*Er richtet die Völker so, wie es recht ist.",
+            "ms_ruf_text": "Joh 8,12",
             "ms_ev_buch": "Lk",
             "ms_ev_stelle": "9,57-62; Mt 16,13-19",
             "ms_ev_motto": "Ich will dir nachfolgen, wohin du auch gehst",
@@ -12022,6 +12039,7 @@ export const calendarData: CalendarData = {
             "ms_aps_stelle": "Ps 126",
             "ms_aps_kv": "Mit Jubel ernten, die mit Tränen säen.",
             "ms_aps_text": "Als der HERR das Geschick Zions wendete,^*da waren wir wie Träumende.^pDa füllte sich unser Mund mit Lachen^*und unsere Zunge mit Jubel.^KV^PDa sagte man unter den Völkern:^*&bdquo;Groß hat der HERR an ihnen gehandelt!„^pJa, groß hat der HERR an uns gehandelt.^*Da waren wir voll Freude.^KV^PWende doch, HERR, unser Geschick,^*wie du versiegte Bäche wieder füllst im Südland!^pDie mit Tränen säen,^*werden mit Jubel ernten.^KV^PSie gehen, ja gehen und weinen^*und tragen zur Aussaat den Samen.^pSie kommen, ja kommen mit Jubel^*und bringen ihre Garben.",
+            "ms_ruf_text": "1 Petr 4,14",
             "ms_ev_buch": "Mt",
             "ms_ev_stelle": "10,17-22"
           }
@@ -12058,6 +12076,7 @@ export const calendarData: CalendarData = {
             "ms_aps_stelle": "Ps 31,3b-4.6.8.16-17",
             "ms_aps_kv": "HERR, in deine Hand lege ich meinen Geist.",
             "ms_aps_text": "Sei mir ein schützender Fels,^*ein festes Haus, mich zu retten!^pDenn du bist mein Fels und meine Festung;^*um deines Namens willen wirst du mich führen und leiten.^KV^PIn deine Hand lege ich voll Vertrauen meinen Geist;^*du hast mich erlöst, HERR, du Gott der Treue.^pIch will jubeln und deiner Huld mich freuen;^+denn du hast mein Elend angesehn,^*du kanntest die Ängste meiner Seele.^KV^PIn deiner Hand steht meine Zeit;^*entreiß mich der Hand meiner Feinde und Verfolger!^pLass dein Angesicht leuchten über deinem Knecht,^*hilf mir in deiner Huld!",
+            "ms_ruf_text": "1 Petr 4,14",
             "ms_ev_buch": "Lk",
             "ms_ev_stelle": "9,23-26",
             "ms_ev_motto": "Wer sein Leben um meinetwillen verliert, der wird es retten",
@@ -12092,6 +12111,7 @@ export const calendarData: CalendarData = {
             "ms_aps_stelle": "Ps 40,2.4a-b.7-12.17cd",
             "ms_aps_kv": "Deinen Willen zu tun, mein Gott, macht mir Freude.",
             "ms_aps_text": "Ich hoffte, ja ich hoffte auf den Herrn.^*Da neigte er sich mir zu und hörte mein Schreien.^pEr legte mir ein neues Lied in den Mund,^*einen Lobgesang auf ihn, unsern Gott.^KV^Peinen Lobgesang auf ihn, unsern Gott. - (Kv)^pAn Schlacht- und Speiseopfern hast du kein Gefallen, *^pBrand- und Sündopfer forderst du nicht.^pDoch das Gehör hast du mir eingepflanzt; +^pdarum sage ich: Ja, ich komme. *^pIn dieser Schriftrolle steht, was an mir geschehen ist. - (Kv)^pDeinen Willen zu tun, mein Gott, macht mir Freude, *^pdeine Weisung trag‘ ich im Herzen.^pGerechtigkeit verkünde ich in großer Gemeinde, *^pmeine Lippen verschließe ich nicht; Herr, du weißt es. - (Kv)^pDeine Gerechtigkeit verberge ich nicht im Herzen, *^pich spreche von deiner Treue und Hilfe,^pich schweige nicht über deine Huld und Wahrheit *^pvor der großen Gemeinde. - (Kv)^pDu, Herr, verschließ mir nicht dein Erbarmen, *^pdeine Huld und Wahrheit mögen mich immer behüten!^pDie dein Heil lieben, sollen immer sagen:^*Groß ist Gott, der Herr.",
+            "ms_ruf_text": "Joh 10,14",
             "ms_ev_buch": "Lk",
             "ms_ev_stelle": "10,1-9",
             "ms_ev_motto": "Die Ernte ist groß, aber es gibt nur wenig Arbeiter",
@@ -12743,6 +12763,7 @@ export const calendarData: CalendarData = {
             "ms_aps_stelle": "Ps 89,2-3.20a.4-5.21-22.25.27",
             "ms_aps_kv": "Von der Huld des HERRN will ich ewig singen.",
             "ms_aps_text": "Von der Huld des HERRN will ich ewig singen,^*von Geschlecht zu Geschlecht mit meinem Mund deine Treue verkünden.^pDenn ich bekenne: Auf ewig ist Huld gegründet,^*im Himmel deine Treue gefestigt.^KV^PEinst hast du in einer Vision zu deinen Frommen gesprochen:^+&bdquo;Ich habe einen Bund geschlossen mit meinem Erwählten^*und David, meinem Knecht, geschworen:^pAuf ewig gebe ich deinem Haus festen Bestand^*und von Geschlecht zu Geschlecht gründe ich deinen Thron.^KV^PIch habe David, meinen Knecht, gefunden^*und ihn mit meinem heiligen Öl gesalbt.^pFest wird meine Hand ihn halten^*und mein Arm ihn stärken.^KV^PMeine Treue und meine Huld sind mit ihm^*und in meinem Namen erhebt er sein Haupt.^pEr wird zu mir rufen: Mein Vater bist du,^*mein Gott, der Fels meiner Rettung.„",
+            "ms_ruf_text": "Joh 10,14",
             "ms_ev_buch": "Joh",
             "ms_ev_stelle": "10,11-16",
             "ms_ev_motto": "Der gute Hirt gibt sein Leben hin für die Schafe",
@@ -12778,6 +12799,7 @@ export const calendarData: CalendarData = {
             "ms_aps_stelle": "Ps 117",
             "ms_aps_kv": "Geht in alle Welt, Halleluja,<br>und seid meine Zeugen. Halleluja.",
             "ms_aps_text": "Lobet den HERRN, alle Völker,^*rühmt ihn, alle Nationen!^KV^PDenn mächtig waltet über uns seine Huld,^*die Treue des HERRN währt in Ewigkeit.",
+            "ms_ruf_text": "Mt 28,19",
             "ms_ev_buch": "Mk",
             "ms_ev_stelle": "16,15-20",
             "ms_ev_motto": "Geht hinaus in die ganze Welt und verkündet das Evangelium!",
@@ -12815,6 +12837,7 @@ export const calendarData: CalendarData = {
             "ms_aps_stelle": "Ps 34,2-9; Ps 19,8-12",
             "ms_aps_kv": "All meinen Ängsten hat mich der HERR entrissen.",
             "ms_aps_text": "Ich will den HERRN allezeit preisen;^*immer sei sein Lob in meinem Mund.^pMeine Seele rühme sich des HERRN;^*die Armen sollen es hören und sich freuen.^KV^PPreist mit mir die Größe des HERRN,^*lasst uns gemeinsam seinen Namen erheben!^pIch suchte den HERRN und er gab mir Antwort,^*er hat mich all meinen Ängsten entrissen.^KV^PDie auf ihn blickten, werden strahlen,^*nie soll ihr Angesicht vor Scham erröten.^pDa rief ein Armer und der HERR erhörte ihn^*und half ihm aus all seinen Nöten.^KV^PDer Engel des HERRN umschirmt, die ihn fürchten,^*und er befreit sie. ^pKostet und seht, wie gut der HERR ist!^*Selig der Mensch, der zu ihm sich flüchtet!",
+            "ms_ruf_text": "Mt 5,10",
             "ms_ev_buch": "Mt",
             "ms_ev_stelle": "10,34-39; Mt 25,14-30",
             "ms_ev_motto": "Ich bin nicht gekommen, um Frieden zu bringen, sondern das Schwert",
@@ -12841,6 +12864,9 @@ export const calendarData: CalendarData = {
             "vokativ": "Heiliger Johannes",
             "genitiv_lat": "sancti Ioánnis Damascéni",
             "vokativ_lat": "sancte Ioánnes Damascéne"
+          },
+          "Messe": {
+            "ms_ruf_text": "Joh 14,23"
           }
         },
         "n3": {
@@ -12854,6 +12880,9 @@ export const calendarData: CalendarData = {
             "nominativ": "Der selige Adolph",
             "genitiv": "des seligen Adolph Kolping",
             "genitiv_lat": "sancti Adólphi Kolping"
+          },
+          "Messe": {
+            "ms_ruf_text": "Lk 11,28"
           }
         }
       },
@@ -12884,6 +12913,7 @@ export const calendarData: CalendarData = {
             "ms_aps_stelle": "Ps 16,1-2.5.7-9.11",
             "ms_aps_kv": "Du, Herr, bist mein Anteil und Erbe.",
             "ms_aps_text": "Behüte mich, Gott, denn ich vertraue dir. +^pIch sage zum Herrn: «Du bist mein Herr;^*mein ganzes Glück bist du allein.»^pDu, Herr, gibst mir das Erbe und reichst mir den Becher;^*du hältst mein Los in deinen Händen.^KV^PIch preise den Herrn, der mich beraten hat.^*Auch mahnt mich mein Herz in der Nacht.^pIch habe den Herrn beständig vor Augen.^*Er steht mir zur Rechten, ich wanke nicht.^KV^PDarum freut sich mein Herz und frohlockt meine Seele;^*auch mein Leib wird wohnen in Sicherheit.^pDu zeigst mir den Pfad zum Leben. +^pVor deinem Angesicht herrscht Freude in Fülle,^*zu deiner Rechten Wonne für alle Zeit.",
+            "ms_ruf_text": "Mt 23,9",
             "ms_ev_buch": "Mt",
             "ms_ev_stelle": "23,8-12",
             "ms_ev_motto": "Der Größte von euch soll euer Diener sein",
@@ -12919,6 +12949,7 @@ export const calendarData: CalendarData = {
             "ms_aps_stelle": "Ps 40,2.4a-b.7-10",
             "ms_aps_kv": "Mein Gott, ich komme;<br>deinen Willen zu tun, ist mein Gefallen.",
             "ms_aps_text": "Ich hoffte, ja ich hoffte auf den HERRN.^*Da neigte er sich mir zu und hörte mein Schreien.^pEr gab mir ein neues Lied in den Mund,^*einen Lobgesang auf unseren Gott.^KV^PAn Schlacht- und Speiseopfern hattest du kein Gefallen,^+doch Ohren hast du mir gegraben,^*Brand- und Sündopfer hast du nicht gefordert.^pDa habe ich gesagt: Siehe, ich komme.^*In der Buchrolle steht es über mich geschrieben.^KV^PDeinen Willen zu tun, mein Gott, war mein Gefallen^*und deine Weisung ist in meinem Innern.^pGerechtigkeit habe ich in großer Versammlung verkündet,^*meine Lippen verschließe ich nicht; HERR, du weißt es.",
+            "ms_ruf_text": "Lk 4,18",
             "ms_ev_buch": "Lk",
             "ms_ev_stelle": "10,1-9",
             "ms_ev_motto": "Die Ernte ist groß, aber es gibt nur wenig Arbeiter",
@@ -12960,6 +12991,7 @@ export const calendarData: CalendarData = {
             "ms_aps_stelle": "Ps 89,2-3.20a.4-5.21-22.25.27",
             "ms_aps_kv": "Von der Huld des HERRN will ich ewig singen.",
             "ms_aps_text": "Von der Huld des HERRN will ich ewig singen,^*von Geschlecht zu Geschlecht mit meinem Mund deine Treue verkünden.^pDenn ich bekenne: Auf ewig ist Huld gegründet,^*im Himmel deine Treue gefestigt.^KV^PEinst hast du in einer Vision zu deinen Frommen gesprochen:^+&bdquo;Ich habe einen Bund geschlossen mit meinem Erwählten^*und David, meinem Knecht, geschworen:^pAuf ewig gebe ich deinem Haus festen Bestand^*und von Geschlecht zu Geschlecht gründe ich deinen Thron.^KV^PIch habe David, meinen Knecht, gefunden^*und ihn mit meinem heiligen Öl gesalbt.^pFest wird meine Hand ihn halten^*und mein Arm ihn stärken.^KV^PMeine Treue und meine Huld sind mit ihm^*und in meinem Namen erhebt er sein Haupt.^pEr wird zu mir rufen: Mein Vater bist du,^*mein Gott, der Fels meiner Rettung.„",
+            "ms_ruf_text": "Joh 10,14",
             "ms_ev_buch": "Joh",
             "ms_ev_stelle": "10,11-16",
             "ms_ev_motto": "Der gute Hirt gibt sein Leben hin für die Schafe",
@@ -12984,6 +13016,7 @@ export const calendarData: CalendarData = {
             "ms_les_buch": "Jes",
             "ms_les_stelle": "41,13-20",
             "ms_aps_stelle": "Ps 145",
+            "ms_ruf_text": "Mt 11,25",
             "ms_ev_buch": "Mt",
             "ms_ev_stelle": "11,7b.11-15"
           }
@@ -12999,6 +13032,9 @@ export const calendarData: CalendarData = {
           "Laudes": {
             "button": "Unsere Liebe Frau von Loreto",
             "farbe": "m"
+          },
+          "Messe": {
+            "ms_ruf_text": "Lk 1,28"
           }
         }
       },
@@ -13030,6 +13066,7 @@ export const calendarData: CalendarData = {
             "ms_aps_stelle": "Ps 110,1-5",
             "ms_aps_kv": "Du bist Priester auf ewig<br>nach der Ordnung Melchisedeks.",
             "ms_aps_text": "So spricht der HERR zu meinem Herrn:^*Setze dich zu meiner Rechten^pund ich lege deine Feinde^*als Schemel unter deine Füße.^KV^PDas Zepter deiner Macht streckt der HERR aus vom Zion her:^*Herrsche inmitten deiner Feinde!^pDich umgibt Herrschaft am Tag deiner Macht,^+im Glanz des Heiligtums.^*Ich habe dich aus dem Schoß gezeugt vor dem Morgenstern.^KV^PDer HERR hat geschworen und nie wird es ihn reuen:^*Du bist Priester auf ewig nach der Ordnung Melchisedeks.^pDer HERR steht dir zur Rechten;^*er zerschmettert Könige am Tag seines Zornes.",
+            "ms_ruf_text": "Joh 15,15",
             "ms_ev_buch": "Joh",
             "ms_ev_stelle": "15,9-17",
             "ms_ev_motto": "Ich nenne euch nicht mehr Knechte; vielmehr habe ich euch Freunde genannt",
@@ -13056,6 +13093,7 @@ export const calendarData: CalendarData = {
             "ms_aps_stelle": "Ps 131",
             "ms_aps_kv": "Herr, bewahre meine Seele in deinem Frieden!",
             "ms_aps_text": "HERR, mein Herz überhebt sich nicht,^*nicht hochmütig blicken meine Augen,^pich gehe nicht um mit großen Dingen,^*mit Dingen, die mir nicht begreiflich sind.^KV^PVielmehr habe ich besänftigt, habe zur Ruhe gebracht meine Seele.^+Wie ein gestilltes Kind bei seiner Mutter,^*wie das gestillte Kind, so ist meine Seele in mir.^pIsrael, warte auf den HERRN^*von nun an bis in Ewigkeit!",
+            "ms_ruf_text": "Joh 8,31",
             "ms_ev_buch": "Mk",
             "ms_ev_stelle": "3,31-35",
             "ms_ev_motto": "Wer den Willen Gottes tut, der ist für mich Bruder und Schwester und Mutter",
@@ -13090,6 +13128,7 @@ export const calendarData: CalendarData = {
             "ms_aps_stelle": "Ps 45,11-12.14-17; Ps 31,3b-4.6.8.16-17",
             "ms_aps_kv": "Deinen Namen, o Herr, will ich in Ewigkeit preisen.",
             "ms_aps_text": "Höre, Tochter, sieh her und neige dein Ohr,^*vergiss dein Volk und dein Vaterhaus!^pDer König verlangt nach deiner Schönheit;^*er ist ja dein Herr, wirf dich vor ihm nieder!^KV^PAlle Herrlichkeit ist drinnen die Tochter des Königs,^*golddurchwirkt ist ihr Gewand und reich gemustert.^pSie wird in bunt gestickten Kleidern zum König geleitet,^+Jungfrauen sind ihr Gefolge,^*ihre Freundinnen werden dir zugeführt.^KV^PSie werden geleitet mit Freude und Jubel,^*sie kommen in den Palast des Königs.^pAn die Stelle deiner Väter treten einst deine Söhne;^*über das ganze Land setzt du sie ein als Fürsten.",
+            "ms_ruf_text": "Lk 11,35",
             "ms_ev_buch": "Lk",
             "ms_ev_stelle": "11,33-36; Mt 25,1-13",
             "ms_ev_motto": "Die Leuchte des Leibes ist dein Auge",
@@ -13123,6 +13162,9 @@ export const calendarData: CalendarData = {
           "Vesper": {
             "antev": "Heilige Luzia, du Braut des Herrn! Weil du standhaft bliebst, hast du das Leben gewonnen. Den Reichtum dieser Welt hast du verachtet und durch dein Blut den Feind besiegt. Nun strahlt dein Licht inmitten der Engel.",
             "antev_lat": "In tua patiéntia possedísti ánimam tuam, Lúcia, sponsa Christi: odísti quæ in mundo sunt, et corúscas cum ángelis; sánguine próprio inimícum vicísti."
+          },
+          "Messe": {
+            "ms_ruf_text": "Mt 25,10"
           }
         }
       },
@@ -13156,6 +13198,7 @@ export const calendarData: CalendarData = {
             "ms_aps_stelle": "Ps 37,3-6.30-31",
             "ms_aps_kv": "Der Mund des Gerechten spricht Worte der Weisheit!",
             "ms_aps_text": "Vertrau auf den HERRN und tue das Gute,^*wohne im Land und hüte die Treue!^pHabe deine Lust am HERRN!^*So wird er dir geben, was dein Herz begehrt.^KV^PBefiehl dem HERRN deinen Weg,^*vertrau ihm - er wird es fügen.^pEr lässt deine Gerechtigkeit aufgehen wie das Licht,^*dein Recht wie die Helle des Mittags.^KV^PDer Mund des Gerechten bewegt Worte der Weisheit^*und seine Zunge redet, was recht ist.^pDie Weisung seines Gottes ist in seinem Herzen,^*seine Schritte werden nicht wanken.",
+            "ms_ruf_text": "Mt 5,3",
             "ms_ev_buch": "Lk",
             "ms_ev_stelle": "14,25-33",
             "ms_ev_motto": "Keiner von euch kann mein Jünger sein, wenn er nicht auf seinen ganzen Besitz verzichtet",
@@ -13197,6 +13240,7 @@ export const calendarData: CalendarData = {
             "ms_aps_stelle": "Ps 112,1-7.9",
             "ms_aps_kv": "Selig der Mensch, der den Herrn fürchtet und ehrt!<br><br>(Oder: Halleluja.)",
             "ms_aps_text": "Wohl dem Mann, der den Herrn fürchtet und ehrt^*und sich herzlich freut an seinen Geboten.^pSeine Nachkommen werden mächtig im Land,^*das Geschlecht der Redlichen wird gesegnet.^KV^PWohlstand und Reichtum füllen sein Haus,^*sein Heil hat Bestand für immer.^pDen Redlichen erstrahlt im Finstern ein Licht:^*der Gnädige, Barmherzige und Gerechte.^KV^PWohl dem Mann, der gütig und zum Helfen bereit ist,^*der das Seine ordnet, wie es recht ist.^pNiemals gerät er ins Wanken;^*ewig denkt man an den Gerechten.^KV^PEr fürchtet sich nicht vor Verleumdung;^*sein Herz ist fest, er vertraut auf den Herrn.^pReichlich gibt er den Armen, +^psein Heil hat Bestand für immer;^*er ist mächtig und hoch geehrt.",
+            "ms_ruf_text": "Joh 13,34",
             "ms_ev_buch": "Lk",
             "ms_ev_stelle": "6,27-38",
             "ms_ev_motto": "Seid barmherzig, wie es auch euer Vater ist!",
@@ -13240,6 +13284,7 @@ export const calendarData: CalendarData = {
             "ms_aps_stelle": "Ps 34,2-9",
             "ms_aps_kv": "All meinen Ängsten hat mich der HERR entrissen.",
             "ms_aps_text": "Ich will den HERRN allezeit preisen;^*immer sei sein Lob in meinem Mund.^pMeine Seele rühme sich des HERRN;^*die Armen sollen es hören und sich freuen.^KV^PPreist mit mir die Größe des HERRN,^*lasst uns gemeinsam seinen Namen erheben!^pIch suchte den HERRN und er gab mir Antwort,^*er hat mich all meinen Ängsten entrissen.^KV^PDie auf ihn blickten, werden strahlen,^*nie soll ihr Angesicht vor Scham erröten.^pDa rief ein Armer und der HERR erhörte ihn^*und half ihm aus all seinen Nöten.^KV^PDer Engel des HERRN umschirmt, die ihn fürchten,^*und er befreit sie. ^pKostet und seht, wie gut der HERR ist!^*Selig der Mensch, der zu ihm sich flüchtet!",
+            "ms_ruf_text": "Mt 5,6",
             "ms_ev_buch": "Mt",
             "ms_ev_stelle": "16,24-27",
             "ms_ev_motto": "Wer sein Leben um meinetwillen verliert, wird es finden",
@@ -13277,6 +13322,7 @@ export const calendarData: CalendarData = {
             "ms_aps_stelle": "Ps 23",
             "ms_aps_kv": "Der HERR ist mein Hirt,<br>nichts wird mir fehlen.",
             "ms_aps_text": "Der HERR ist mein Hirt, nichts wird mir fehlen.^+Er lässt mich lagern auf grünen Auen^*und führt mich zum Ruheplatz am Wasser.^pMeine Lebenskraft bringt er zurück.^*Er führt mich auf Pfaden der Gerechtigkeit, getreu seinem Namen.^KV^PAuch wenn ich gehe im finsteren Tal,^*ich fürchte kein Unheil;^pdenn du bist bei mir,^*dein Stock und dein Stab, sie trösten mich.^KV^PDu deckst mir den Tisch^*vor den Augen meiner Feinde.^pDu hast mein Haupt mit Öl gesalbt,^*übervoll ist mein Becher.^KV^PJa, Güte und Huld^*werden mir folgen mein Leben lang^pund heimkehren werde ich ins Haus des HERRN^*für lange Zeiten.",
+            "ms_ruf_text": "Mk 1,17",
             "ms_ev_buch": "Mt",
             "ms_ev_stelle": "16,13-19",
             "ms_ev_motto": "Du bist Petrus - der Fels - und auf diesen Felsen werde ich meine Kirche bauen",
