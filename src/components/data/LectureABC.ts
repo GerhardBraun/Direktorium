@@ -47,7 +47,7 @@ export const lectureABCData = {
             "ms_les2_stelle": "13,11-14a",
             "ms_les2_motto": "Jetzt ist das Heil uns näher",
             "ms_les2_text": "Schwestern und Brüder!^lDas tut im Wissen um die gegenwärtige Zeit:^lDie Stunde ist gekommen, aufzustehen vom Schlaf.^lDenn jetzt ist das Heil uns näher^l^EINZUGals zu der Zeit, da wir gläubig wurden.^lDie Nacht ist vorgerückt,^lder Tag ist nahe.^pDarum lasst uns ablegen die Werke der Finsternis^l^EINZUGund anlegen die Waffen des Lichts!^lLasst uns ehrenhaft leben wie am Tag,^lohne maßloses Essen und Trinken,^lohne Unzucht und Ausschweifung,^lohne Streit und Eifersucht!^lVielmehr zieht den Herrn Jesus Christus an.",
-            "ms_ruf_text": "Erweise uns, Herr, deine Huld, und gewähre uns dein Heil!",
+            "ms_ruf_text": "Ps 85,8",
             "ms_ev_buch": "Mt",
             "ms_ev_stelle": "24,29-44",
             "ms_ev_motto": "Man wird den Menschensohn auf den Wolken des Himmels kommen sehen, mit großer Kraft und Herrlichkeit. – Seid wachsam und haltet euch bereit!",
@@ -112,7 +112,7 @@ export const lectureABCData = {
             "ms_les2_stelle": "15,4-9",
             "ms_les2_motto": "Christus rettet alle Menschen",
             "ms_les2_text": "Schwestern und Brüder!^lAlles, was einst geschrieben worden ist,^l^EINZUGist zu unserer Belehrung geschrieben,^ldamit wir durch Geduld und durch den Trost der Schriften^l^EINZUGHoffnung haben.^lDer Gott der Geduld und des Trostes aber^l^EINZUGschenke euch, eines Sinnes untereinander zu sein,^l^EINZUGChristus Jesus gemäß,^ldamit ihr Gott, den Vater unseres Herrn Jesus Christus,^l^EINZUGeinmütig und mit einem Munde preist.^pDarum nehmt einander an,^l^EINZUGwie auch Christus euch angenommen hat, zur Ehre Gottes!^lDenn, das sage ich,^lChristus ist um der Wahrhaftigkeit Gottes willen^l^EINZUGDiener der Beschnittenen geworden,^lum die Verheißungen an die Väter zu bestätigen;^ldie Heiden aber sollen Gott rühmen um seines Erbarmens willen,^l^EINZUGwie geschrieben steht:^pDarum will ich dich bekennen unter den Heiden^l^EINZUGund deinem Namen lobsingen.",
-            "ms_ruf_text": "Bereitet dem Herrn den Weg! Ebnet ihm die Straßen! Und alle Menschen werden das Heil sehen, das von Gott kommt.",
+            "ms_ruf_text": "Lk 3,4",
             "ms_ev_buch": "Mt",
             "ms_ev_stelle": "3,1-12",
             "ms_ev_motto": "Kehrt um! Denn das Himmelreich ist nahe",
@@ -177,7 +177,7 @@ export const lectureABCData = {
             "ms_les2_stelle": "5,7-10",
             "ms_les2_motto": "Macht eure Herzen stark, denn die Ankunft des Herrn steht nahe bevor",
             "ms_les2_text": "Schwestern und Brüder, haltet geduldig aus^l^EINZUGbis zur Ankunft des Herrn!^lSiehe, auch der Bauer wartet auf die kostbare Frucht der Erde,^ler wartet geduldig auf sie,^l^EINZUGbis Frühregen oder Spätregen fällt.^lEbenso geduldig sollt auch ihr sein;^lmacht eure Herzen stark,^ldenn die Ankunft des Herrn steht nahe bevor.^pKlagt nicht übereinander, Schwestern und Brüder,^ldamit ihr nicht gerichtet werdet!^lSeht, der Richter steht schon vor der Tür.^pBrüder und Schwestern, im Leiden und in der Geduld^l^EINZUGnehmt euch die Propheten zum Vorbild,^l^EINZUGdie im Namen des Herrn gesprochen haben!",
-            "ms_ruf_text": "Der Geist des Herrn ruht auf mir. Der Geist hat mich gesandt, den Armen die Frohe Botschaft zu bringen.",
+            "ms_ruf_text": "Jes 61,1",
             "ms_ev_buch": "Mt",
             "ms_ev_stelle": "11,2-11",
             "ms_ev_motto": "Bist du der, der kommen soll, oder sollen wir auf einen anderen warten?",
@@ -211,7 +211,7 @@ export const lectureABCData = {
             "ms_les_motto": "Dein Gott jubelt über dich und frohlockt",
             "ms_les_text": "Juble, Tochter Zion!^lJauchze, Israel!^lFreu dich und frohlocke von ganzem Herzen,^l^EINZUGTochter Jerusalem!^lDer HERR hat das Urteil gegen dich aufgehoben^l^EINZUGund deine Feinde zur Umkehr gezwungen.^lDer König Israels, der HERR, ist in deiner Mitte;^ldu hast kein Unheil mehr zu fürchten.^pAn jenem Tag wird man zu Jerusalem sagen:^l^EINZUGFürchte dich nicht, Zion!^lLass die Hände nicht sinken!^lDer HERR, dein Gott, ist in deiner Mitte,^lein Held, der Rettung bringt.^lEr freut sich und jubelt über dich,^ler schweigt in seiner Liebe,^ler jubelt über dich und frohlockt,^l^EINZUGwie man frohlockt an einem Festtag.",
             "ms_aps_stelle": "Jes 12,2.3+4bcd.5-6",
-            "ms_aps_kv": "Freut euch und jubelt;^l^lin eurer Mitte ist der Herr.",
+            "ms_aps_kv": "Freut euch und jubelt;^lin eurer Mitte ist der Herr.",
             "ms_aps_text": "Siehe, Gott ist mein Heil;^*ich vertraue und erschrecke nicht.^pDenn meine Stärke und mein Lied ist Gott, der HERR.^*Er wurde mir zum Heil.^KV^PIhr werdet Wasser freudig schöpfen^*aus den Quellen des Heiles.^pDankt dem HERRN! Ruft seinen Namen an!^+Macht unter den Völkern seine Taten bekannt,^*verkündet: Sein Name ist erhaben!^KV^PSinget dem HERRN, denn Überragendes hat er vollbracht;^*bekannt gemacht sei dies auf der ganzen Erde.^pJauchzt und jubelt, ihr Bewohner Zions;^*denn groß ist in eurer Mitte der Heilige Israels.",
             "ms_les2_buch": "Phil",
             "ms_les2_stelle": "4,4-7",
@@ -243,7 +243,7 @@ export const lectureABCData = {
             "ms_les2_motto": "Das Evangelium von Jesus Christus, dem Nachkommen Davids, dem Sohn Gottes",
             "ms_les2_text": "Paulus, Knecht Christi Jesu,^l^EINZUGberufen zum Apostel,^lausgesondert, das Evangelium Gottes zu verkünden,^l^EINZUGdas er durch seine Propheten im Voraus verheißen hat^l^EINZUGin heiligen Schriften:^ldas Evangelium von seinem Sohn,^l^EINZUGder dem Fleisch nach geboren ist als Nachkomme Davids,^lder dem Geist der Heiligkeit nach eingesetzt ist^l^EINZUGals Sohn Gottes in Macht^l^EINZUGseit der Auferstehung von den Toten,^ldas Evangelium von Jesus Christus, unserem Herrn.^pDurch ihn haben wir Gnade und Apostelamt empfangen,^lum unter allen Heiden Glaubensgehorsam aufzurichten^l^EINZUGum seines Namens willen;^lunter ihnen lebt auch ihr,^l^EINZUGdie ihr von Jesus Christus berufen seid.^pAn alle in Rom, die von Gott geliebt sind,^ldie berufenen Heiligen:^lGnade sei mit euch und Friede^l^EINZUGvon Gott, unserem Vater,^l^EINZUGund dem Herrn Jesus Christus.",
             "ms_ruf_stelle": "vgl. Mt 1,23",
-            "ms_ruf_text": "Siehe: die Jungfrau wird empfangen und einen Sohn gebären, sein Name wird sein: Immanuel – Gott mit uns.",
+            "ms_ruf_text": "Mt 1,23",
             "ms_ev_buch": "Mt",
             "ms_ev_stelle": "1,18-24",
             "ms_ev_motto": "Jesus wird geboren werden von Maria, die verlobt ist mit Josef, dem Sohn Davids",
@@ -296,7 +296,177 @@ export const lectureABCData = {
     }
   },
   "AAA": {
+    "1": {
+      "1": {
+        "a": {
+          "Messe": {
+            "ms_les_buch": "Num",
+            "ms_les_stelle": "6,22-27",
+            "ms_les_motto": "So sollen sie meinen Namen auf die Israeliten legen und ich werde sie segnen",
+            "ms_les_text": "Der HERR sprach zu Mose:^lSag zu Aaron und seinen Söhnen:^l   So sollt ihr die Israeliten segnen;^lsprecht zu ihnen:^pDer HERR segne dich und behüte dich.^lDer HERR lasse sein Angesicht über dich leuchten^l   und sei dir gnädig.^lDer HERR wende sein Angesicht dir zu^l   und schenke dir Frieden.^pSo sollen sie meinen Namen auf die Israeliten legen^l   und ich werde sie segnen.^l",
+            "ms_aps_stelle": "Ps 67,2-3.5-6.7-8",
+            "ms_les2_buch": "Gal",
+            "ms_les2_stelle": "4,4-7",
+            "ms_les2_motto": "Gott sandte seinen Sohn, geboren von einer Frau, damit wir die Sohnschaft erlangen",
+            "ms_les2_text": "Schwestern und Brüder!^lAls die Zeit erfüllt war,^l   sandte Gott seinen Sohn,^lgeboren von einer Frau^l   und dem Gesetz unterstellt,^ldamit er die freikaufe, die unter dem Gesetz stehen,^lund damit wir die Sohnschaft erlangen.^pWeil ihr aber Söhne seid,^l   sandte Gott den Geist seines Sohnes in unsere Herzen,^lden Geist, der ruft: Abba, Vater.^pDaher bist du nicht mehr Sklave, sondern Sohn;^lbist du aber Sohn,^l   dann auch Erbe,^lErbe durch Gott.^l",
+            "ms_ruf_text": "Hebr 1,1",
+            "ms_ev_buch": "Lk",
+            "ms_ev_stelle": "2,16-21",
+            "ms_ev_motto": "Sie fanden Maria und Josef und das Kind. Als acht Tage vorüber waren, gab man dem Kind den Namen Jesus",
+            "ms_ev_text": "In jener Zeit^l   eilten die Hirten nach Betlehem^l   und fanden Maria und Josef^l   und das Kind, das in der Krippe lag.^lAls sie es sahen,^l   erzählten sie von dem Wort,^l   das ihnen über dieses Kind gesagt worden war.^lUnd alle, die es hörten,^l   staunten über das, was ihnen von den Hirten erzählt wurde.^pMaria aber^l   bewahrte alle diese Worte^lund erwog sie in ihrem Herzen.^pDie Hirten kehrten zurück,^lrühmten Gott^lund priesen ihn für alles, was sie gehört und gesehen hatten,^l   so wie es ihnen gesagt worden war.^pAls acht Tage vorüber waren^l   und das Kind beschnitten werden sollte,^l   gab man ihm den Namen Jesus,^lden der Engel genannt hatte,^l   bevor das Kind im Mutterleib empfangen war.^l"
+          }
+        }
+      },
+      "6": {
+        "a": {
+          "Messe": {
+            "ms_les_buch": "Jes",
+            "ms_les_stelle": "60,1-6",
+            "ms_les_motto": "Die Herrlichkeit des Herrn geht strahlend auf über dir",
+            "ms_les_text": "Steh auf, werde licht, Jerusalem,^ldenn es kommt dein Licht^lund die Herrlichkeit des HERRN geht strahlend auf über dir.^pDenn siehe, Finsternis bedeckt die Erde^l   und Dunkel die Völker,^ldoch über dir geht strahlend der HERR auf,^lseine Herrlichkeit erscheint über dir.^lNationen wandern zu deinem Licht^l   und Könige zu deinem strahlenden Glanz.^pErhebe deine Augen ringsum und sieh:^lSie alle versammeln sich, kommen zu dir.^lDeine Söhne kommen von fern,^l   deine Töchter werden auf der Hüfte sicher getragen.^lDa wirst du schauen und strahlen,^ldein Herz wird erbeben und sich weiten.^pDenn die Fülle des Meeres wendet sich dir zu,^l   der Reichtum der Nationen kommt zu dir.^lEine Menge von Kamelen bedeckt dich,^l   Hengste aus Midian und Efa.^lAus Saba kommen sie alle,^l   Gold und Weihrauch bringen sie^lund verkünden die Ruhmestaten des HERRN.^l",
+            "ms_aps_stelle": "Ps 72,1-2.7-8.10-11.12-13",
+            "ms_les2_buch": "Eph",
+            "ms_les2_stelle": "3,2-3a.5-6",
+            "ms_les2_motto": "Jetzt ist offenbart worden: Auch die Heiden haben an der Verheißung in Christus Jesus teil",
+            "ms_les2_text": "Schwestern und Brüder!^lIhr habt gehört,^l   welches Amt die Gnade Gottes mir für euch verliehen hat.^lDurch eine Offenbarung^l   wurde mir das Geheimnis kundgetan.^lDen Menschen früherer Generationen wurde es nicht kundgetan,^ljetzt aber ist es seinen heiligen Aposteln und Propheten^l   durch den Geist offenbart worden:^ldass nämlich die Heiden Miterben sind,^lzu demselben Leib gehören^lund mit teilhaben an der Verheißung in Christus Jesus^l   durch das Evangelium.^l",
+            "ms_ruf_text": "Mt 2,2",
+            "ms_ev_buch": "Mt",
+            "ms_ev_stelle": "2,1-12",
+            "ms_ev_motto": "Wir haben seinen Stern aufgehen sehen und sind gekommen, um ihm zu huldigen",
+            "ms_ev_text": "Als Jesus zur Zeit des Königs Herodes^l   in Betlehem in Judäa geboren worden war,^l   siehe, da kamen Sterndeuter aus dem Osten nach Jerusalem^lund fragten: Wo ist der neugeborene König der Juden?^lWir haben seinen Stern aufgehen sehen^lund sind gekommen, um ihm zu huldigen.^pAls König Herodes das hörte, erschrak er^lund mit ihm ganz Jerusalem.^lEr ließ alle Hohepriester^l   und Schriftgelehrten des Volkes^l   zusammenkommen^lund erkundigte sich bei ihnen,^l   wo der Christus geboren werden solle.^pSie antworteten ihm: in Betlehem in Judäa;^ldenn so steht es geschrieben bei dem Propheten:^pDu, Betlehem im Gebiet von Juda,^l   bist keineswegs die unbedeutendste^l   unter den führenden Städten von Juda;^ldenn aus dir wird ein Fürst hervorgehen,^lder Hirt meines Volkes Israel.^pDanach rief Herodes die Sterndeuter heimlich zu sich^lund ließ sich von ihnen genau sagen,^l   wann der Stern erschienen war.^lDann schickte er sie nach Betlehem^lund sagte: Geht und forscht sorgfältig nach dem Kind;^lund wenn ihr es gefunden habt, berichtet mir,^l   damit auch ich hingehe und ihm huldige!^pNach diesen Worten des Königs machten sie sich auf den Weg.^pUnd siehe, der Stern, den sie hatten aufgehen sehen,^l   zog vor ihnen her^lbis zu dem Ort, wo das Kind war;^ldort blieb er stehen.^lAls sie den Stern sahen,^l   wurden sie von sehr großer Freude erfüllt.^lSie gingen in das Haus^l   und sahen das Kind und Maria, seine Mutter;^lda fielen sie nieder und huldigten ihm.^lDann holten sie ihre Schätze hervor^lund brachten ihm Gold, Weihrauch und Myrrhe als Gaben dar.^pWeil ihnen aber im Traum geboten wurde,^l   nicht zu Herodes zurückzukehren,^l   zogen sie auf einem anderen Weg heim in ihr Land.^l"
+          }
+        }
+      },
+      "25": {
+        "a": {
+          "Messe": {
+            "ms_les_buch": "Apg",
+            "ms_les_stelle": "22,1a.3-16",
+            "ms_les_motto": "Steh auf, lass dich taufen und deine Sünden abwaschen und rufe den Namen Jesu an!",
+            "ms_les_text": "In jenen Tagen sagte Paulus zum Volk:^lBrüder und Väter!^lIch bin ein Jude, geboren in Tarsus in Kilikien,^lhier in dieser Stadt erzogen,^lzu Füßen Gamaliëls^l^EINZUGgenau nach dem Gesetz der Väter ausgebildet,^lein Eiferer für Gott, wie ihr alle es heute seid.^lIch habe diesen Weg bis auf den Tod verfolgt,^lhabe Männer und Frauen gefesselt^l^EINZUGund in die Gefängnisse eingeliefert.^lDas bezeugen mir der Hohepriester^l^EINZUGund der ganze Rat der Ältesten.^lVon ihnen erhielt ich auch Briefe an die Brüder^lund begab mich nach Damaskus,^l^EINZUGum auch jene, die dort waren, zu fesseln^l^EINZUGund zur Bestrafung nach Jerusalem zu bringen.^pAls ich nun unterwegs war und mich Damaskus näherte,^l^EINZUGda geschah es, dass mich um die Mittagszeit^l^EINZUGplötzlich vom Himmel her ein helles Licht umstrahlte.^lIch stürzte zu Boden^lund hörte eine Stimme zu mir sagen:^l^EINZUGSaul, Saul, warum verfolgst du mich?^lIch antwortete: Wer bist du, Herr?^lEr sagte zu mir: Ich bin Jesus, der Nazoräer,^l^EINZUGden du verfolgst.^pMeine Begleiter sahen zwar das Licht,^ldie Stimme dessen aber, der zu mir sprach, hörten sie nicht.^pIch sagte: Herr, was soll ich tun?^lDer Herr antwortete: Steh auf und geh nach Damaskus,^ldort wird dir alles gesagt werden,^l^EINZUGwas dir zu tun bestimmt ist.^lDa ich aber vom Glanz jenes Lichtes geblendet war,^l^EINZUGsodass ich nicht mehr sehen konnte,^l^EINZUGwurde ich von meinen Begleitern an der Hand geführt^lund gelangte so nach Damaskus.^pEin gewisser Hananias,^l^EINZUGein frommer Mann nach dem Gesetz,^l^EINZUGder bei allen Juden dort in gutem Ruf stand,^lkam zu mir,^ltrat vor mich und sagte:^l^EINZUGBruder Saul, du sollst wieder sehen!^lUnd im gleichen Augenblick konnte ich ihn sehen.^lEr sagte: Der Gott unserer Väter hat dich dazu erwählt,^l^EINZUGseinen Willen zu erkennen,^l^EINZUGden Gerechten zu sehen^l^EINZUGund die Stimme seines Mundes zu hören;^ldenn du wirst vor allen Menschen sein Zeuge sein^l^EINZUGfür das, was du gesehen und gehört hast.^lWas zögerst du jetzt?^lSteh auf,^llass dich taufen und deine Sünden abwaschen^lund rufe seinen Namen an!^l",
+            "ms_aps_stelle": "Ps 117,1.2",
+            "ms_aps_kv": "Geht in alle Welt, Halleluja,^lund seid meine Zeugen. Halleluja.",
+            "ms_aps_text": "Lobet den HERRN, alle Völker,^*rühmt ihn, alle Nationen!^KV^PDenn mächtig waltet über uns seine Huld,^*die Treue des HERRN währt in Ewigkeit.",
+            "ms_ev_buch": "Mk",
+            "ms_ev_stelle": "16,15-18",
+            "ms_ev_motto": "Geht hinaus in die ganze Welt und verkündet das Evangelium!",
+            "ms_ev_text": "In jener Zeit erschien Jesus den Elf^lund sprach zu ihnen:^l^EINZUGGeht hinaus in die ganze Welt^l^EINZUGund verkündet das Evangelium der ganzen Schöpfung!^lWer glaubt und sich taufen lässt,^l^EINZUGwird gerettet;^lwer aber nicht glaubt,^l^EINZUGwird verurteilt werden.^pUnd durch die, die zum Glauben gekommen sind,^l^EINZUGwerden folgende Zeichen geschehen:^lIn meinem Namen werden sie Dämonen austreiben;^lsie werden in neuen Sprachen reden;^lwenn sie Schlangen anfassen oder tödliches Gift trinken,^l^EINZUGwird es ihnen nicht schaden;^lund die Kranken, denen sie die Hände auflegen,^l^EINZUGwerden gesund werden.^p"
+          }
+        }
+      }
+    },
+    "2": {
+      "2": {
+        "a": {
+          "Messe": {
+            "ms_les_buch": "Mal",
+            "ms_les_stelle": "3,1-4",
+            "ms_les_motto": "Dann kommt zu seinem Tempel der Herr, den ihr sucht",
+            "ms_les_text": "So spricht Gott, der HERR:^lSeht, ich sende meinen Boten;^ler soll den Weg für mich bahnen.^lDann kommt plötzlich zu seinem Tempel^l   der Herr, den ihr sucht,^l   und der Bote des Bundes, den ihr herbeiwünscht.^lSeht, er kommt!,^l   spricht der HERR der Heerscharen.^pDoch wer erträgt den Tag, an dem er kommt?^lWer kann bestehen, wenn er erscheint?^lDenn er ist wie das Feuer des Schmelzers^l   und wie die Lauge der Walker.^lEr setzt sich, um das Silber zu schmelzen und zu reinigen:^lEr reinigt die Söhne Levis,^l   er läutert sie wie Gold und Silber.^lDann werden sie dem HERRN die richtigen Opfer darbringen.^lUnd dem HERRN^l   wird das Opfer Judas und Jerusalems angenehm sein^lwie in den Tagen der Vorzeit,^l   wie in längst vergangenen Jahren.^l",
+            "ms_aps_stelle": "Ps 24,7-8.9-10",
+            "ms_les2_buch": "Hebr",
+            "ms_les2_stelle": "2,11-12.13c-18",
+            "ms_les2_motto": "Er musste in allem seinen Brüdern gleich sein",
+            "ms_les2_text": "Er, der heiligt,^l   und sie, die geheiligt werden,^l   stammen alle aus Einem;^ldarum schämt er sich nicht, sie Brüder zu nennen^lund zu sagen:^l   Ich will deinen Namen meinen Brüdern verkünden,^l   inmitten der Gemeinde dich preisen;^lund ferner:^l   Siehe, ich und die Kinder, die Gott mir geschenkt hat.^pDa nun die Kinder von Fleisch und Blut sind,^l   hat auch er in gleicher Weise daran Anteil genommen,^lum durch den Tod den zu entmachten,^l   der die Gewalt über den Tod hat, nämlich den Teufel,^lund um die zu befreien,^l   die durch die Furcht vor dem Tod^l   ihr Leben lang der Knechtschaft verfallen waren.^lDenn er nimmt sich keineswegs der Engel an,^l   sondern der Nachkommen Abrahams nimmt er sich an.^pDarum musste er in allem seinen Brüdern gleich sein,^lum ein barmherziger und treuer Hohepriester vor Gott zu sein^l   und die Sünden des Volkes zu sühnen.^lDenn da er gelitten hat und selbst in Versuchung geführt wurde,^l   kann er denen helfen, die in Versuchung geführt werden.^l",
+            "ms_ruf_text": "Ein Licht, das die Heiden erleuchtet, und Herrlichkeit für das Volk Israel.",
+            "ms_ev_buch": "Lk",
+            "ms_ev_stelle": "2,22-40",
+            "ms_ev_motto": "Meine Augen haben das Heil gesehen",
+            "ms_ev_text": "Als sich für die Eltern Jesu^l   die Tage der vom Gesetz des Mose^l   vorgeschriebenen Reinigung erfüllt hatten,^lbrachten sie das Kind nach Jerusalem hinauf,^l   um es dem Herrn darzustellen,^lwie im Gesetz des Herrn geschrieben ist:^l   Jede männliche Erstgeburt^l   soll dem Herrn heilig genannt werden.^lAuch wollten sie ihr Opfer darbringen,^l   wie es das Gesetz des Herrn vorschreibt:^lein Paar Turteltauben oder zwei junge Tauben.^pUnd siehe, in Jerusalem lebte ein Mann namens Simeon.^lDieser Mann war gerecht und fromm^l   und wartete auf den Trost Israels^lund der Heilige Geist ruhte auf ihm.^lVom Heiligen Geist war ihm offenbart worden,^l   er werde den Tod nicht schauen,^l   ehe er den Christus des Herrn gesehen habe.^pEr wurde vom Geist in den Tempel geführt;^lund als die Eltern das Kind Jesus hereinbrachten,^l   um mit ihm zu tun, was nach dem Gesetz üblich war,^l   nahm Simeon das Kind in seine Arme^lund pries Gott mit den Worten:^pNun lässt du, Herr,^l   deinen Knecht, wie du gesagt hast, in Frieden scheiden.^lDenn meine Augen haben das Heil gesehen,^l   das du vor allen Völkern bereitet hast,^lein Licht, das die Heiden erleuchtet,^l   und Herrlichkeit für dein Volk Israel.^pSein Vater und seine Mutter^l   staunten über die Worte, die über Jesus gesagt wurden.^lUnd Simeon segnete sie^lund sagte zu Maria, der Mutter Jesu:^l   Siehe, dieser ist dazu bestimmt,^l   dass in Israel viele zu Fall kommen^l   und aufgerichtet werden,^lund er wird ein Zeichen sein, dem widersprochen wird, –^lund deine Seele wird ein Schwert durchdringen.^lSo sollen die Gedanken vieler Herzen offenbar werden.^pDamals lebte auch Hanna, eine Prophetin,^leine Tochter Penu&euml;ls, aus dem Stamm Ascher.^lSie war schon hochbetagt.^lAls junges Mädchen hatte sie geheiratet^l   und sieben Jahre mit ihrem Mann gelebt;^lnun war sie eine Witwe von vierundachtzig Jahren.^lSie hielt sich ständig im Tempel auf^l   und diente Gott Tag und Nacht mit Fasten und Beten.^pZu derselben Stunde trat sie hinzu,^lpries Gott^lund sprach über das Kind^l   zu allen, die auf die Erlösung Jerusalems warteten.^pAls seine Eltern alles getan hatten,^l   was das Gesetz des Herrn vorschreibt,^l   kehrten sie nach Galiläa in ihre Stadt Nazaret zurück.^lDas Kind wuchs heran und wurde stark,^l   erfüllt mit Weisheit,^lund Gottes Gnade ruhte auf ihm.^l"
+          }
+        }
+      },
+      "22": {
+        "a": {
+          "Messe": {
+            "ms_les_buch": "1°Petr",
+            "ms_les_stelle": "5,1-4",
+            "ms_les_motto": "Ältester und Zeuge der Leiden Christi",
+            "ms_les_text": "Schwestern und Brüder!^lEure Ältesten ermahne ich,^l^EINZUGals Mitältester und Zeuge der Leiden Christi,^l^EINZUGder auch an der Herrlichkeit teilhaben soll,^l^EINZUGdie sich offenbaren wird:^lWeidet die euch anvertraute Herde Gottes,^lnicht gezwungen,^l^EINZUGsondern freiwillig, wie Gott es will;^lauch nicht aus Gewinnsucht,^l^EINZUGsondern mit Hingabe;^lseid nicht Beherrscher der Gemeinden,^l^EINZUGsondern Vorbilder für die Herde!^pWenn dann der oberste Hirt erscheint,^l^EINZUGwerdet ihr^l^EINZUGden nie verwelkenden Kranz der Herrlichkeit empfangen.^l",
+            "ms_aps_stelle": "Ps 23,1-3.4.5.6",
+            "ms_aps_kv": "Der HERR ist mein Hirt,^lnichts wird mir fehlen.",
+            "ms_aps_text": "Der HERR ist mein Hirt, nichts wird mir fehlen.^+Er lässt mich lagern auf grünen Auen^*und führt mich zum Ruheplatz am Wasser.^pMeine Lebenskraft bringt er zurück.^*Er führt mich auf Pfaden der Gerechtigkeit, getreu seinem Namen.^KV^PAuch wenn ich gehe im finsteren Tal,^*ich fürchte kein Unheil;^pdenn du bist bei mir,^*dein Stock und dein Stab, sie trösten mich.^KV^PDu deckst mir den Tisch^*vor den Augen meiner Feinde.^pDu hast mein Haupt mit Öl gesalbt,^*übervoll ist mein Becher.^KV^PJa, Güte und Huld^*werden mir folgen mein Leben lang^pund heimkehren werde ich ins Haus des HERRN^*für lange Zeiten.",
+            "ms_ev_buch": "Mt",
+            "ms_ev_stelle": "16,13-19",
+            "ms_ev_motto": "Du bist Petrus; ich werde dir die Schlüssel des Himmelreichs geben",
+            "ms_ev_text": "In jener Zeit,^l^EINZUGals Jesus in das Gebiet von Cäsarea Philippi kam,^l^EINZUGfragte er seine Jünger und sprach:^lFür wen halten die Menschen den Menschensohn?^pSie sagten: Die einen für Johannes den Täufer,^landere für Elija,^lwieder andere für Jeremia oder sonst einen Propheten.^pDa sagte er zu ihnen: Ihr aber,^l^EINZUGfür wen haltet ihr mich?^pSimon Petrus antwortete und sprach:^l^EINZUGDu bist der Christus,^lder Sohn des lebendigen Gottes!^pJesus antwortete und sagte zu ihm:^l^EINZUGSelig bist du, Simon Barjona;^ldenn nicht Fleisch und Blut haben dir das offenbart,^l^EINZUGsondern mein Vater im Himmel.^lIch aber sage dir:^lDu bist Petrus - der Fels -^lund auf diesen Felsen werde ich meine Kirche bauen^lund die Pforten der Unterwelt werden sie nicht überwältigen.^lIch werde dir die Schlüssel des Himmelreichs geben;^lwas du auf Erden binden wirst,^l^EINZUGdas wird im Himmel gebunden sein,^lund was du auf Erden lösen wirst,^l^EINZUGdas wird im Himmel gelöst sein.^l"
+          }
+        }
+      }
+    },
+    "3": {
+      "19": {
+        "a": {
+          "Messe": {
+            "ms_les_buch": "2°Sam",
+            "ms_les_stelle": "7,4-5a.12-14a.16",
+            "ms_les_motto": "Der Herr wird ihm den Thron seines Vaters David geben (Lk 1,32b)",
+            "ms_les_text": "Das Wort des HERRN erging an Natan:^lGeh zu meinem Knecht David^l   und sag zu ihm: So spricht der HERR:^lWenn deine Tage erfüllt sind^l   und du dich zu deinen Vätern legst,^l   werde ich deinen leiblichen Sohn^l   als deinen Nachfolger einsetzen^l   und seinem Königtum Bestand verleihen.^lEr wird für meinen Namen ein Haus bauen^lund ich werde seinem Königsthron ewigen Bestand verleihen.^lIch werde für ihn Vater sein^l   und er wird für mich Sohn sein.^pDein Haus und dein Königtum^l   werden vor dir auf ewig bestehen bleiben;^ldein Thron wird auf ewig Bestand haben.^l",
+            "ms_aps_stelle": "Ps 89,2-3.4-5.27 u. 29",
+            "ms_les2_buch": "Röm",
+            "ms_les2_stelle": "4,13.16-18.22",
+            "ms_les2_motto": "Gegen alle Hoffnung hat er voll Hoffnung geglaubt",
+            "ms_les2_text": "Schwestern und Brüder!^lAbraham und seine Nachkommen^l   erhielten nicht aufgrund des Gesetzes^l   die Verheißung, Erben der Welt zu sein,^lsondern aufgrund der Glaubensgerechtigkeit.^pDeshalb gilt: &bdquo;aus Glauben„,^l   damit auch gilt: &bdquo;aus Gnade„.^lNur so bleibt die Verheißung für die ganze Nachkommenschaft gültig,^lnicht nur für die, welche aus dem Gesetz,^l   sondern auch für die, welche aus dem Glauben Abrahams leben.^pEr ist unser aller Vater, wie geschrieben steht:^l   Ich habe dich zum Vater vieler Völker bestimmt –^l   im Angesicht des Gottes, dem er geglaubt hat,^ldes Gottes, der die Toten lebendig macht^l   und das, was nicht ist, ins Dasein ruft.^pGegen alle Hoffnung hat er voll Hoffnung geglaubt,^l   dass er der Vater vieler Völker werde,^lnach dem Wort:^l   So zahlreich werden deine Nachkommen sein.^pDarum wurde es ihm auch als Gerechtigkeit angerechnet.^l",
+            "ms_ev_buch": "Mt",
+            "ms_ev_stelle": "1,16.18-21.24a",
+            "ms_ev_motto": "Josef tat, was der Engel des Herrn ihm befohlen hatte",
+            "ms_ev_text": "Jakob zeugte den Josef, den Mann Marias;^lvon ihr wurde Jesus geboren,^l   der der Christus genannt wird.^pMit der Geburt Jesu Christi war es so:^lMaria, seine Mutter, war mit Josef verlobt;^lnoch bevor sie zusammengekommen waren,^l   zeigte sich, dass sie ein Kind erwartete –^ldurch das Wirken des Heiligen Geistes.^lJosef, ihr Mann,^l   der gerecht war und sie nicht bloßstellen wollte,^l   beschloss, sich in aller Stille von ihr zu trennen.^pWährend er noch darüber nachdachte,^l   siehe, da erschien ihm ein Engel des Herrn im Traum^lund sagte: Josef, Sohn Davids,^lfürchte dich nicht, Maria als deine Frau zu dir zu nehmen;^ldenn das Kind, das sie erwartet,^l   ist vom Heiligen Geist.^pSie wird einen Sohn gebären;^lihm sollst du den Namen Jesus geben;^ldenn er wird sein Volk von seinen Sünden erlösen.^pAls Josef erwachte,^l   tat er, was der Engel des Herrn ihm befohlen hatte.^l"
+          }
+        }
+      },
+      "25": {
+        "a": {
+          "Messe": {
+            "ms_les_buch": "Jes",
+            "ms_les_stelle": "7,10-14",
+            "ms_les_motto": "Siehe, die Jungfrau hat ein Kind empfangen, sie gebiert einen Sohn und wird ihm den Namen Immanuel – Gott mit uns – geben",
+            "ms_les_text": "In jenen Tagen^l   sprach der HERR zu Ahas – dem König von Juda –^lund sagte:^l   Erbitte dir ein Zeichen vom HERRN, deinem Gott,^ltief zur Unterwelt^l   oder hoch nach oben hin!^pAhas antwortete:^l   Ich werde um nichts bitten^lund den HERRN nicht versuchen.^pDa sagte Jesaja:^l   Hört doch, Haus Davids!^l   Genügt es euch nicht, Menschen zu ermüden,^ldass ihr auch noch meinen Gott ermüdet?^lDarum wird der Herr selbst euch ein Zeichen geben:^lSiehe, die Jungfrau hat empfangen,^lsie gebiert einen Sohn^lund wird ihm den Namen Immanuel^l   – Gott mit uns – geben.^l",
+            "ms_aps_stelle": "Ps 40,7-8.9-10.11",
+            "ms_les2_buch": "Hebr",
+            "ms_les2_stelle": "10,4-10",
+            "ms_les2_motto": "Siehe, ich komme – so steht es über mich in der Schriftrolle –, um deinen Willen, Gott, zu tun",
+            "ms_les2_text": "Schwestern und Brüder!^lDas Blut von Stieren und Böcken^l   kann unmöglich Sünden wegnehmen.^lDarum spricht Christus bei seinem Eintritt in die Welt:^pSchlacht- und Speiseopfer hast du nicht gefordert,^l   doch einen Leib hast du mir bereitet;^lan Brand- und Sündopfern hast du kein Gefallen.^lDa sagte ich: Siehe, ich komme^l   – so steht es über mich in der Schriftrolle –,^l   um deinen Willen, Gott, zu tun.^pZunächst sagt er:^l   Schlacht- und Speiseopfer,^l   Brand- und Sündopfer forderst du nicht,^ldu hast daran kein Gefallen,^l   obgleich sie doch nach dem Gesetz dargebracht werden;^ldann aber hat er gesagt:^l   Siehe, ich komme, um deinen Willen zu tun.^lEr hebt das Erste auf,^l   um das Zweite in Kraft zu setzen.^pAufgrund dieses Willens^l   sind wir durch die Hingabe des Leibes Jesu Christi geheiligt –^l   ein für alle Mal.^l",
+            "ms_ev_buch": "Lk",
+            "ms_ev_stelle": "1,26-38",
+            "ms_ev_motto": "Du hast bei Gott Gnade gefunden, Maria; du wirst schwanger werden und einen Sohn wirst du gebären",
+            "ms_ev_text": "In jener Zeit wurde der Engel Gabriel^l   von Gott in eine Stadt in Galiläa namens Nazaret^l   zu einer Jungfrau gesandt.^lSie war mit einem Mann namens Josef verlobt,^l   der aus dem Haus David stammte.^lDer Name der Jungfrau war Maria.^pDer Engel trat bei ihr ein^lund sagte: Sei gegrüßt, du Begnadete,^l   der Herr ist mit dir.^lSie erschrak über die Anrede^lund überlegte, was dieser Gruß zu bedeuten habe.^pDa sagte der Engel zu ihr: Fürchte dich nicht, Maria;^ldenn du hast bei Gott Gnade gefunden.^lSiehe, du wirst schwanger werden^lund einen Sohn wirst du gebären;^l   dem sollst du den Namen Jesus geben.^lEr wird groß sein^lund Sohn des Höchsten genannt werden.^lGott, der Herr, wird ihm den Thron seines Vaters David geben.^lEr wird über das Haus Jakob in Ewigkeit herrschen^l   und seine Herrschaft wird kein Ende haben.^pMaria sagte zu dem Engel:^l   Wie soll das geschehen, da ich keinen Mann erkenne?^pDer Engel antwortete ihr:^l   Heiliger Geist wird über dich kommen^lund Kraft des Höchsten wird dich überschatten.^lDeshalb wird auch das Kind heilig^l   und Sohn Gottes genannt werden.^pSiehe, auch Elisabet, deine Verwandte,^l   hat noch in ihrem Alter einen Sohn empfangen;^lobwohl sie als unfruchtbar gilt,^l   ist sie schon im sechsten Monat.^lDenn für Gott ist nichts unmöglich.^pDa sagte Maria:^l   Siehe, ich bin die Magd des Herrn;^lmir geschehe, wie du es gesagt hast.^pDanach verließ sie der Engel.^l"
+          }
+        }
+      }
+    },
     "5": {
+      "1": {
+        "a": {
+          "Messe": {
+            "ms_les_buch": "Gen",
+            "ms_les_stelle": "1,26-2,3 (oder: Kol 3,14-14.17.23-24)",
+            "ms_aps_stelle": "Ps 90,3-6.12-14.17",
+            "ms_aps_kv": "Herr, lass gedeihen das Werk unsrer Hände!^APSHALL",
+            "ms_aps_text": "Zum Staub zurückkehren lässt du den Menschen,^*du sprichst: „Ihr Menschenkinder, kehrt zurück!“^pDenn tausend Jahre sind in deinen Augen^+wie der Tag, der gestern vergangen ist,^*wie eine Wache in der Nacht.^KV^PDu raffst sie dahin, sie werden wie Schlafende.^*Sie gleichen dem Gras, das am Morgen wächst:^pAm Morgen blüht es auf und wächst empor,^*am Abend wird es welk und verdorrt.^KV^PUnsere Tage zu zählen, lehre uns!^*Dann gewinnen wir ein weises Herz.^pKehre doch um, HERR! - Wie lange noch?^*Um deiner Knechte willen lass es dich reuen!^KV^PSättige uns am Morgen mit deiner Huld!^*Dann wollen wir jubeln und uns freuen all unsre Tage.^pGüte und Schönheit des Herrn, unseres Gottes, sei über uns!^+Lass gedeihen das Werk unsrer Hände,^*ja, das Werk unsrer Hände lass gedeihen!",
+            "ms_ev_buch": "Mt",
+            "ms_ev_stelle": "13,54-58",
+            "ms_ev_motto": "Ist das nicht der Sohn des Zimmermanns?",
+            "ms_ev_text": "In jener Zeit^l^EINZUGkam Jesus in seine Heimatstadt^lund lehrte die Menschen in ihrer Synagoge,^l^EINZUGsodass sie außer sich gerieten vor Staunen^lund sagten: Woher hat er diese Weisheit^l^EINZUGund die Machttaten?^lIst das nicht der Sohn des Zimmermanns?^lHeißt nicht seine Mutter Maria^lund sind nicht Jakobus, Josef, Simon und Judas seine Brüder?^lLeben nicht auch alle seine Schwestern unter uns?^lWoher also hat er das alles?^pUnd sie nahmen Anstoß an ihm.^pDa sagte Jesus zu ihnen:^l^EINZUGNirgends ist ein Prophet ohne Ansehen^l^EINZUGaußer in seiner Heimat und in seiner Familie.^lUnd er wirkte dort nicht viele Machttaten^l^EINZUGwegen ihres Unglaubens.^l"
+          }
+        }
+      },
+      "3": {
+        "a": {
+          "Messe": {
+            "ms_les_buch": "1°Kor",
+            "ms_les_stelle": "15,1-8",
+            "ms_les_motto": "Der Herr erschien dem Jakobus, dann allen Aposteln",
+            "ms_les_text": "Ich erinnere euch, Schwestern und Brüder,^l^EINZUGan das Evangelium, das ich euch verkündet habe.^lIhr habt es angenommen;^les ist der Grund, auf dem ihr steht.^lDurch dieses Evangelium werdet ihr gerettet werden,^l^EINZUGwenn ihr festhaltet an dem Wort,^l^EINZUGdas ich euch verkündet habe,^les sei denn, ihr hättet den Glauben unüberlegt angenommen.^lDenn vor allem habe ich euch überliefert,^l^EINZUGwas auch ich empfangen habe:^pChristus ist für unsere Sünden gestorben, gemäß der Schrift,^l^EINZUGund ist begraben worden.^lEr ist am dritten Tag auferweckt worden, gemäß der Schrift,^l^EINZUGund erschien dem Kephas, dann den Zwölf.^pDanach erschien er mehr als fünfhundert Brüdern zugleich;^ldie meisten von ihnen sind noch am Leben,^l^EINZUGeinige sind entschlafen.^pDanach erschien er dem Jakobus,^ldann allen Aposteln.^pZuletzt erschien er auch mir,^l^EINZUGgleichsam der Missgeburt.^l",
+            "ms_aps_stelle": "Ps 19,2-3.4-5b",
+            "ms_aps_kv": "Ihre Botschaft geht in alle Welt.^APSHALL",
+            "ms_aps_text": "Die Himmel erzählen die Herrlichkeit Gottes^*und das Firmament kündet das Werk seiner Hände.^pEin Tag sagt es dem andern,^*eine Nacht tut es der andern kund.^KV^POhne Rede und ohne Worte,^*ungehört bleibt ihre Stimme.^pDoch ihre Botschaft geht in die ganze Welt hinaus,^*ihre Kunde bis zu den Enden der Erde.",
+            "ms_ev_buch": "Joh",
+            "ms_ev_stelle": "14,6-14",
+            "ms_ev_motto": "So lange bin ich bei euch und du hast mich nicht erkannt, Philippus?",
+            "ms_ev_text": "In jener Zeit sprach Jesus zu seinen Jüngern:^lIch bin der Weg und die Wahrheit und das Leben;^lniemand kommt zum Vater außer durch mich.^lWenn ihr mich erkannt habt,^l^EINZUGwerdet ihr auch meinen Vater erkennen.^lSchon jetzt kennt ihr ihn^lund habt ihn gesehen.^pPhilippus sagte zu ihm: Herr, zeig uns den Vater;^ldas genügt uns.^lJesus sagte zu ihm:^l^EINZUGSchon so lange bin ich bei euch^l^EINZUGund du hast mich nicht erkannt, Philippus?^lWer mich gesehen hat,^l^EINZUGhat den Vater gesehen.^lWie kannst du sagen: Zeig uns den Vater?^lGlaubst du nicht, dass ich im Vater bin^l^EINZUGund dass der Vater in mir ist?^lDie Worte, die ich zu euch sage,^l^EINZUGhabe ich nicht aus mir selbst.^lDer Vater, der in mir bleibt,^l^EINZUGvollbringt seine Werke.^lGlaubt mir doch, dass ich im Vater bin^lund dass der Vater in mir ist;^lwenn nicht,^l^EINZUGdann glaubt aufgrund eben dieser Werke!^pAmen, amen, ich sage euch:^lWer an mich glaubt,^l^EINZUGwird die Werke, die ich vollbringe, auch vollbringen^lund er wird noch größere als diese vollbringen,^ldenn ich gehe zum Vater.^lAlles, was ihr in meinem Namen erbittet,^l^EINZUGwerde ich tun,^l^EINZUGdamit der Vater im Sohn verherrlicht wird.^lWenn ihr mich um etwas in meinem Namen bitten werdet,^l^EINZUGwerde ich es tun.^l"
+          }
+        }
+      },
       "40": {
         "a": {
           "Messe": {
@@ -546,168 +716,6 @@ export const lectureABCData = {
         }
       }
     },
-    "8": {
-      "6": {
-        "a": {
-          "Messe": {
-            "ms_les_buch": "Dan",
-            "ms_les_stelle": "7,9-10.13-14",
-            "ms_les_motto": "Sein Gewand war weiß wie Schnee",
-            "ms_les_text": "Ich, Daniel, sah in einer nächtlichen Vision:^lThrone wurden aufgestellt^lund ein Hochbetagter nahm Platz.^lSein Gewand war weiß wie Schnee,^l^EINZUGsein Haar wie reine Wolle.^lFeuerflammen waren sein Thron^l^EINZUGund dessen Räder waren loderndes Feuer.^lEin Strom von Feuer ging von ihm aus.^lTausendmal Tausende dienten ihm,^lzehntausendmal Zehntausende standen vor ihm.^lDas Gericht nahm Platz^l^EINZUGund es wurden Bücher aufgeschlagen.^pImmer noch hatte ich die nächtlichen Visionen:^lDa kam mit den Wolken des Himmels^l^EINZUGeiner wie ein Menschensohn.^lEr gelangte bis zu dem Hochbetagten^l^EINZUGund wurde vor ihn geführt.^lIhm wurden Herrschaft, Würde und Königtum gegeben.^lAlle Völker, Nationen und Sprachen dienten ihm.^lSeine Herrschaft ist eine ewige, unvergängliche Herrschaft.^lSein Reich geht niemals unter.",
-            "ms_aps_stelle": "Ps 97,1-2.5-6.8-9",
-            "ms_aps_kv": "Der HERR ist König,^ler ist der Höchste über der ganzen Erde.",
-            "ms_aps_text": "Der HERR ist König. Es juble die Erde!^*Freuen sollen sich die vielen Inseln.^pRings um ihn her sind Wolken und Dunkel,^*Gerechtigkeit und Recht sind die Stützen seines Thrones.^KV^PBerge schmelzen wie Wachs vor dem HERRN,^*vor dem Angesicht des Herrn der ganzen Erde.^pSeine Gerechtigkeit verkünden die Himmel,^*seine Herrlichkeit schauen alle Völker.^KV^PZion hört es und freut sich,^*Judas Töchter jubeln, HERR, über deine Urteile.^pDenn du, HERR, bist der Höchste über der ganzen Erde,^*hoch erhaben bist du über alle Götter.",
-            "ms_les2_buch": "2°Petr",
-            "ms_les2_stelle": "1,16-19",
-            "ms_les2_motto": "Die Stimme, die vom Himmel kam, haben wir gehört, als wir mit ihm auf dem heiligen Berg waren",
-            "ms_les2_text": "Schwestern und Brüder!^lWir sind nicht^l^EINZUGklug ausgedachten Geschichten gefolgt,^l^EINZUGals wir euch die machtvolle Ankunft^l^EINZUGunseres Herrn Jesus Christus kundtaten,^l^EINZUGsondern wir waren Augenzeugen seiner Macht und Größe.^pDenn er hat von Gott, dem Vater, Ehre und Herrlichkeit empfangen,^lals eine Stimme von erhabener Herrlichkeit an ihn erging:^l^EINZUGDas ist mein geliebter Sohn,^l^EINZUGan dem ich Wohlgefallen gefunden habe.^lDiese Stimme, die vom Himmel kam, haben wir gehört,^l^EINZUGals wir mit ihm auf dem heiligen Berg waren.^pDadurch ist das Wort der Propheten^l^EINZUGfür uns noch sicherer geworden^lund ihr tut gut daran, es zu beachten,^lwie ein Licht,^l^EINZUGdas an einem finsteren Ort scheint,^lbis der Tag anbricht^l^EINZUGund der Morgenstern aufgeht in eurem Herzen.",
-            "ms_ruf_text": "Aus der leuchtenden Wolke rief die Stimme des Vaters: Das ist mein geliebter Sohn; auf ihn sollt ihr hören.",
-            "ms_ev_buch": "Mt",
-            "ms_ev_stelle": "17,1-9",
-            "ms_ev_motto": "Er wurde vor ihnen verwandelt; sein Gesicht leuchtete wie die Sonne",
-            "ms_ev_text": "In jener Zeit^l^EINZUGnahm Jesus Petrus, Jakobus^l^EINZUGund dessen Bruder Johannes mit sich^lund führte sie auf einen hohen Berg.^lUnd er wurde vor ihnen verwandelt;^lsein Gesicht leuchtete wie die Sonne^l^EINZUGund seine Kleider wurden weiß wie das Licht.^lUnd siehe, es erschienen ihnen Mose und Elija^lund redeten mit Jesus.^pUnd Petrus antwortete und sagte zu Jesus:^l^EINZUGHerr, es ist gut, dass wir hier sind.^lWenn du willst, werde ich hier drei Hütten bauen,^leine für dich, eine für Mose und eine für Elija.^pNoch während er redete,^l^EINZUGsiehe, eine leuchtende Wolke überschattete sie^lund siehe, eine Stimme erscholl aus der Wolke:^l^EINZUGDieser ist mein geliebter Sohn,^l^EINZUGan dem ich Wohlgefallen gefunden habe;^lauf ihn sollt ihr hören.^pAls die Jünger das hörten,^l^EINZUGwarfen sie sich mit dem Gesicht zu Boden^lund fürchteten sich sehr.^pDa trat Jesus zu ihnen,^lfasste sie an^lund sagte: Steht auf und fürchtet euch nicht!^lUnd als sie aufblickten,^l^EINZUGsahen sie niemanden außer Jesus allein.^pWährend sie den Berg hinabstiegen, gebot ihnen Jesus:^l^EINZUGErzählt niemandem von dem, was ihr gesehen habt,^l^EINZUGbis der Menschensohn von den Toten auferweckt ist!"
-          }
-        },
-        "b": {
-          "Messe": {
-            "ms_ev_buch": "Mk",
-            "ms_ev_stelle": "9,2-10",
-            "ms_ev_motto": "Es erscholl eine Stimme aus der Wolke: Dieser ist mein geliebter Sohn",
-            "ms_ev_text": "In jener Zeit^l^EINZUGnahm Jesus Petrus, Jakobus und Johannes mit sich^lund führte sie auf einen hohen Berg,^laber nur sie allein.^lUnd er wurde vor ihnen verwandelt;^lseine Kleider wurden strahlend weiß,^lso weiß, wie sie auf Erden kein Bleicher machen kann.^pDa erschien ihnen Elija und mit ihm Mose^lund sie redeten mit Jesus.^pPetrus sagte zu Jesus: Rabbi, es ist gut, dass wir hier sind.^lWir wollen drei Hütten bauen,^leine für dich, eine für Mose und eine für Elija.^lEr wusste nämlich nicht, was er sagen sollte;^ldenn sie waren vor Furcht ganz benommen.^pDa kam eine Wolke und überschattete sie^lund es erscholl eine Stimme aus der Wolke:^l^EINZUGDieser ist mein geliebter Sohn;^lauf ihn sollt ihr hören.^lAls sie dann um sich blickten,^l^EINZUGsahen sie auf einmal niemanden mehr bei sich außer Jesus.^pWährend sie den Berg hinabstiegen,^l^EINZUGgebot er ihnen,^l^EINZUGniemandem zu erzählen, was sie gesehen hatten,^l^EINZUGbis der Menschensohn von den Toten auferstanden sei.^lDieses Wort beschäftigte sie^lund sie fragten einander, was das sei:^l^EINZUGvon den Toten auferstehen."
-          }
-        },
-        "c": {
-          "Messe": {
-            "ms_ev_buch": "Lk",
-            "ms_ev_stelle": "9,28b-36",
-            "ms_ev_motto": "Während er betete, veränderte sich das Aussehen seines Gesichtes",
-            "ms_ev_text": "In jener Zeit^l^EINZUGnahm Jesus Petrus, Johannes und Jakobus mit sich^lund stieg auf einen Berg, um zu beten.^lUnd während er betete,^l^EINZUGveränderte sich das Aussehen seines Gesichtes^lund sein Gewand wurde leuchtend weiß.^pUnd siehe, es redeten zwei Männer mit ihm.^lEs waren Mose und Elija;^lsie erschienen in Herrlichkeit^lund sprachen von seinem Ende,^l^EINZUGdas er in Jerusalem erfüllen sollte.^pPetrus und seine Begleiter aber waren eingeschlafen,^lwurden jedoch wach^l^EINZUGund sahen Jesus in strahlendem Licht^l^EINZUGund die zwei Männer, die bei ihm standen.^pUnd es geschah:^lAls diese sich von ihm trennen wollten,^l^EINZUGsagte Petrus zu Jesus: Meister,^les ist gut, dass wir hier sind.^lWir wollen drei Hütten bauen,^leine für dich, eine für Mose und eine für Elija.^lEr wusste aber nicht, was er sagte.^lWährend er noch redete,^l^EINZUGkam eine Wolke und überschattete sie.^lSie aber fürchteten sich,^l^EINZUGals sie in die Wolke hineingerieten.^pDa erscholl eine Stimme aus der Wolke:^l^EINZUGDieser ist mein auserwählter Sohn,^lauf ihn sollt ihr hören.^pWährend die Stimme erscholl,^l^EINZUGfanden sie Jesus allein.^lUnd sie schwiegen^lund erzählten in jenen Tagen niemandem von dem,^l^EINZUGwas sie gesehen hatten."
-          }
-        }
-      },
-      "15": {
-        "a": {
-          "Messe": {
-            "ms_les_buch": "Offb",
-            "ms_les_stelle": "11,19a; 12,1-6a.10ab",
-            "ms_les_motto": "Ein großes Zeichen erschien am Himmel: eine Frau, mit der Sonne bekleidet, der Mond unter ihren Füßen",
-            "ms_les_text": "Der Tempel Gottes im Himmel wurde geöffnet^lund in seinem Tempel wurde die Lade seines Bundes sichtbar.^lDann erschien ein großes Zeichen am Himmel:^leine Frau, mit der Sonne bekleidet;^lder Mond war unter ihren Füßen^l   und ein Kranz von zwölf Sternen auf ihrem Haupt.^lSie war schwanger^l   und schrie vor Schmerz in ihren Geburtswehen.^pEin anderes Zeichen erschien am Himmel^lund siehe, ein Drache, groß und feuerrot,^l   mit sieben Köpfen und zehn Hörnern^l   und mit sieben Diademen auf seinen Köpfen.^lSein Schwanz fegte ein Drittel der Sterne vom Himmel^l   und warf sie auf die Erde herab.^lDer Drache stand vor der Frau, die gebären sollte;^ler wollte ihr Kind verschlingen,^l   sobald es geboren war.^lUnd sie gebar ein Kind,^leinen Sohn,^l   der alle Völker mit eisernem Zepter weiden wird.^lUnd ihr Kind wurde zu Gott und zu seinem Thron entrückt.^lDie Frau aber floh in die Wüste,^l   wo Gott ihr einen Zufluchtsort geschaffen hatte.^pDa hörte ich eine laute Stimme im Himmel rufen:^lJetzt ist er da, der rettende Sieg,^ldie Macht und die Königsherrschaft unseres Gottes^lund die Vollmacht seines Gesalbten.^l",
-            "ms_aps_stelle": "Ps 45,11-12.16 u. 18",
-            "ms_les2_buch": "1°Kor",
-            "ms_les2_stelle": "15,20-27a",
-            "ms_les2_motto": "In Christus werden alle lebendig gemacht werden: Erster ist Christus; dann folgen alle, die zu ihm gehören",
-            "ms_les2_text": "Schwestern und Brüder!^lChristus ist von den Toten auferweckt worden^l   als der Erste der Entschlafenen.^pDa nämlich durch <sperr>einen</sperr> Menschen der Tod gekommen ist,^l   kommt durch <sperr>einen</sperr> Menschen^l   auch die Auferstehung der Toten.^lDenn wie in Adam alle sterben,^l   so werden in Christus alle lebendig gemacht werden.^pEs gibt aber eine bestimmte Reihenfolge:^lErster ist Christus;^ldann folgen, wenn Christus kommt,^l   alle, die zu ihm gehören.^lDanach kommt das Ende,^l   wenn er jede Macht, Gewalt und Kraft entmachtet hat^l   und seine Herrschaft Gott, dem Vater, übergibt.^pDenn er muss herrschen,^l   bis Gott ihm alle Feinde unter seine Füße gelegt hat.^lDer letzte Feind, der entmachtet wird,^l   ist der Tod.^lDenn: Alles hat er seinen Füßen unterworfen.^l",
-            "ms_ev_buch": "Lk",
-            "ms_ev_stelle": "1,39-56",
-            "ms_ev_motto": "Der Mächtige hat Großes an mir getan: Er erhöht die Niedrigen",
-            "ms_ev_text": "In jenen Tagen machte sich Maria auf den Weg^l   und eilte in eine Stadt im Bergland von Judäa.^lSie ging in das Haus des Zacharias^l   und begrüßte Elisabet.^lUnd es geschah:^lAls Elisabet den Gruß Marias hörte,^l   hüpfte das Kind in ihrem Leib.^pDa wurde Elisabet vom Heiligen Geist erfüllt^lund rief mit lauter Stimme:^l   Gesegnet bist du unter den Frauen^lund gesegnet ist die Frucht deines Leibes.^lWer bin ich, dass die Mutter meines Herrn zu mir kommt?^lDenn siehe, in dem Augenblick, als ich deinen Gruß hörte,^l   hüpfte das Kind vor Freude in meinem Leib.^lUnd selig,^l   die geglaubt hat, dass sich erfüllt,^l   was der Herr ihr sagen ließ.^pDa sagte Maria:^lMeine Seele preist die Größe des Herrn^l   und mein Geist jubelt über Gott, meinen Retter.^lDenn auf die Niedrigkeit seiner Magd hat er geschaut.^lSiehe, von nun an preisen mich selig alle Geschlechter.^lDenn der Mächtige hat Großes an mir getan^l   und sein Name ist heilig.^lEr erbarmt sich von Geschlecht zu Geschlecht^l   über alle, die ihn fürchten.^lEr vollbringt mit seinem Arm machtvolle Taten:^lEr zerstreut, die im Herzen voll Hochmut sind;^ler stürzt die Mächtigen vom Thron^l   und erhöht die Niedrigen.^lDie Hungernden beschenkt er mit seinen Gaben^l   und lässt die Reichen leer ausgehen.^lEr nimmt sich seines Knechtes Israel an^lund denkt an sein Erbarmen,^l   das er unsern Vätern verheißen hat,^l   Abraham und seinen Nachkommen auf ewig.^pUnd Maria blieb etwa drei Monate bei Elisabet;^ldann kehrte sie nach Hause zurück.^l"
-          }
-        }
-      }
-    },
-    "1": {
-      "1": {
-        "a": {
-          "Messe": {
-            "ms_les_buch": "Num",
-            "ms_les_stelle": "6,22-27",
-            "ms_les_motto": "So sollen sie meinen Namen auf die Israeliten legen und ich werde sie segnen",
-            "ms_les_text": "Der HERR sprach zu Mose:^lSag zu Aaron und seinen Söhnen:^l   So sollt ihr die Israeliten segnen;^lsprecht zu ihnen:^pDer HERR segne dich und behüte dich.^lDer HERR lasse sein Angesicht über dich leuchten^l   und sei dir gnädig.^lDer HERR wende sein Angesicht dir zu^l   und schenke dir Frieden.^pSo sollen sie meinen Namen auf die Israeliten legen^l   und ich werde sie segnen.^l",
-            "ms_aps_stelle": "Ps 67,2-3.5-6.7-8",
-            "ms_les2_buch": "Gal",
-            "ms_les2_stelle": "4,4-7",
-            "ms_les2_motto": "Gott sandte seinen Sohn, geboren von einer Frau, damit wir die Sohnschaft erlangen",
-            "ms_les2_text": "Schwestern und Brüder!^lAls die Zeit erfüllt war,^l   sandte Gott seinen Sohn,^lgeboren von einer Frau^l   und dem Gesetz unterstellt,^ldamit er die freikaufe, die unter dem Gesetz stehen,^lund damit wir die Sohnschaft erlangen.^pWeil ihr aber Söhne seid,^l   sandte Gott den Geist seines Sohnes in unsere Herzen,^lden Geist, der ruft: Abba, Vater.^pDaher bist du nicht mehr Sklave, sondern Sohn;^lbist du aber Sohn,^l   dann auch Erbe,^lErbe durch Gott.^l",
-            "ms_ev_buch": "Lk",
-            "ms_ev_stelle": "2,16-21",
-            "ms_ev_motto": "Sie fanden Maria und Josef und das Kind. Als acht Tage vorüber waren, gab man dem Kind den Namen Jesus",
-            "ms_ev_text": "In jener Zeit^l   eilten die Hirten nach Betlehem^l   und fanden Maria und Josef^l   und das Kind, das in der Krippe lag.^lAls sie es sahen,^l   erzählten sie von dem Wort,^l   das ihnen über dieses Kind gesagt worden war.^lUnd alle, die es hörten,^l   staunten über das, was ihnen von den Hirten erzählt wurde.^pMaria aber^l   bewahrte alle diese Worte^lund erwog sie in ihrem Herzen.^pDie Hirten kehrten zurück,^lrühmten Gott^lund priesen ihn für alles, was sie gehört und gesehen hatten,^l   so wie es ihnen gesagt worden war.^pAls acht Tage vorüber waren^l   und das Kind beschnitten werden sollte,^l   gab man ihm den Namen Jesus,^lden der Engel genannt hatte,^l   bevor das Kind im Mutterleib empfangen war.^l"
-          }
-        }
-      },
-      "6": {
-        "a": {
-          "Messe": {
-            "ms_les_buch": "Jes",
-            "ms_les_stelle": "60,1-6",
-            "ms_les_motto": "Die Herrlichkeit des Herrn geht strahlend auf über dir",
-            "ms_les_text": "Steh auf, werde licht, Jerusalem,^ldenn es kommt dein Licht^lund die Herrlichkeit des HERRN geht strahlend auf über dir.^pDenn siehe, Finsternis bedeckt die Erde^l   und Dunkel die Völker,^ldoch über dir geht strahlend der HERR auf,^lseine Herrlichkeit erscheint über dir.^lNationen wandern zu deinem Licht^l   und Könige zu deinem strahlenden Glanz.^pErhebe deine Augen ringsum und sieh:^lSie alle versammeln sich, kommen zu dir.^lDeine Söhne kommen von fern,^l   deine Töchter werden auf der Hüfte sicher getragen.^lDa wirst du schauen und strahlen,^ldein Herz wird erbeben und sich weiten.^pDenn die Fülle des Meeres wendet sich dir zu,^l   der Reichtum der Nationen kommt zu dir.^lEine Menge von Kamelen bedeckt dich,^l   Hengste aus Midian und Efa.^lAus Saba kommen sie alle,^l   Gold und Weihrauch bringen sie^lund verkünden die Ruhmestaten des HERRN.^l",
-            "ms_aps_stelle": "Ps 72,1-2.7-8.10-11.12-13",
-            "ms_les2_buch": "Eph",
-            "ms_les2_stelle": "3,2-3a.5-6",
-            "ms_les2_motto": "Jetzt ist offenbart worden: Auch die Heiden haben an der Verheißung in Christus Jesus teil",
-            "ms_les2_text": "Schwestern und Brüder!^lIhr habt gehört,^l   welches Amt die Gnade Gottes mir für euch verliehen hat.^lDurch eine Offenbarung^l   wurde mir das Geheimnis kundgetan.^lDen Menschen früherer Generationen wurde es nicht kundgetan,^ljetzt aber ist es seinen heiligen Aposteln und Propheten^l   durch den Geist offenbart worden:^ldass nämlich die Heiden Miterben sind,^lzu demselben Leib gehören^lund mit teilhaben an der Verheißung in Christus Jesus^l   durch das Evangelium.^l",
-            "ms_ruf_text": "Wir haben seinen Stern gesehen und sind gekommen, dem Herrn zu huldigen.",
-            "ms_ev_buch": "Mt",
-            "ms_ev_stelle": "2,1-12",
-            "ms_ev_motto": "Wir haben seinen Stern aufgehen sehen und sind gekommen, um ihm zu huldigen",
-            "ms_ev_text": "Als Jesus zur Zeit des Königs Herodes^l   in Betlehem in Judäa geboren worden war,^l   siehe, da kamen Sterndeuter aus dem Osten nach Jerusalem^lund fragten: Wo ist der neugeborene König der Juden?^lWir haben seinen Stern aufgehen sehen^lund sind gekommen, um ihm zu huldigen.^pAls König Herodes das hörte, erschrak er^lund mit ihm ganz Jerusalem.^lEr ließ alle Hohepriester^l   und Schriftgelehrten des Volkes^l   zusammenkommen^lund erkundigte sich bei ihnen,^l   wo der Christus geboren werden solle.^pSie antworteten ihm: in Betlehem in Judäa;^ldenn so steht es geschrieben bei dem Propheten:^pDu, Betlehem im Gebiet von Juda,^l   bist keineswegs die unbedeutendste^l   unter den führenden Städten von Juda;^ldenn aus dir wird ein Fürst hervorgehen,^lder Hirt meines Volkes Israel.^pDanach rief Herodes die Sterndeuter heimlich zu sich^lund ließ sich von ihnen genau sagen,^l   wann der Stern erschienen war.^lDann schickte er sie nach Betlehem^lund sagte: Geht und forscht sorgfältig nach dem Kind;^lund wenn ihr es gefunden habt, berichtet mir,^l   damit auch ich hingehe und ihm huldige!^pNach diesen Worten des Königs machten sie sich auf den Weg.^pUnd siehe, der Stern, den sie hatten aufgehen sehen,^l   zog vor ihnen her^lbis zu dem Ort, wo das Kind war;^ldort blieb er stehen.^lAls sie den Stern sahen,^l   wurden sie von sehr großer Freude erfüllt.^lSie gingen in das Haus^l   und sahen das Kind und Maria, seine Mutter;^lda fielen sie nieder und huldigten ihm.^lDann holten sie ihre Schätze hervor^lund brachten ihm Gold, Weihrauch und Myrrhe als Gaben dar.^pWeil ihnen aber im Traum geboten wurde,^l   nicht zu Herodes zurückzukehren,^l   zogen sie auf einem anderen Weg heim in ihr Land.^l"
-          }
-        }
-      }
-    },
-    "2": {
-      "2": {
-        "a": {
-          "Messe": {
-            "ms_les_buch": "Mal",
-            "ms_les_stelle": "3,1-4",
-            "ms_les_motto": "Dann kommt zu seinem Tempel der Herr, den ihr sucht",
-            "ms_les_text": "So spricht Gott, der HERR:^lSeht, ich sende meinen Boten;^ler soll den Weg für mich bahnen.^lDann kommt plötzlich zu seinem Tempel^l   der Herr, den ihr sucht,^l   und der Bote des Bundes, den ihr herbeiwünscht.^lSeht, er kommt!,^l   spricht der HERR der Heerscharen.^pDoch wer erträgt den Tag, an dem er kommt?^lWer kann bestehen, wenn er erscheint?^lDenn er ist wie das Feuer des Schmelzers^l   und wie die Lauge der Walker.^lEr setzt sich, um das Silber zu schmelzen und zu reinigen:^lEr reinigt die Söhne Levis,^l   er läutert sie wie Gold und Silber.^lDann werden sie dem HERRN die richtigen Opfer darbringen.^lUnd dem HERRN^l   wird das Opfer Judas und Jerusalems angenehm sein^lwie in den Tagen der Vorzeit,^l   wie in längst vergangenen Jahren.^l",
-            "ms_aps_stelle": "Ps 24,7-8.9-10",
-            "ms_les2_buch": "Hebr",
-            "ms_les2_stelle": "2,11-12.13c-18",
-            "ms_les2_motto": "Er musste in allem seinen Brüdern gleich sein",
-            "ms_les2_text": "Er, der heiligt,^l   und sie, die geheiligt werden,^l   stammen alle aus Einem;^ldarum schämt er sich nicht, sie Brüder zu nennen^lund zu sagen:^l   Ich will deinen Namen meinen Brüdern verkünden,^l   inmitten der Gemeinde dich preisen;^lund ferner:^l   Siehe, ich und die Kinder, die Gott mir geschenkt hat.^pDa nun die Kinder von Fleisch und Blut sind,^l   hat auch er in gleicher Weise daran Anteil genommen,^lum durch den Tod den zu entmachten,^l   der die Gewalt über den Tod hat, nämlich den Teufel,^lund um die zu befreien,^l   die durch die Furcht vor dem Tod^l   ihr Leben lang der Knechtschaft verfallen waren.^lDenn er nimmt sich keineswegs der Engel an,^l   sondern der Nachkommen Abrahams nimmt er sich an.^pDarum musste er in allem seinen Brüdern gleich sein,^lum ein barmherziger und treuer Hohepriester vor Gott zu sein^l   und die Sünden des Volkes zu sühnen.^lDenn da er gelitten hat und selbst in Versuchung geführt wurde,^l   kann er denen helfen, die in Versuchung geführt werden.^l",
-            "ms_ruf_text": "Ein Licht, das die Heiden erleuchtet, und Herrlichkeit für das Volk Israel.",
-            "ms_ev_buch": "Lk",
-            "ms_ev_stelle": "2,22-40",
-            "ms_ev_motto": "Meine Augen haben das Heil gesehen",
-            "ms_ev_text": "Als sich für die Eltern Jesu^l   die Tage der vom Gesetz des Mose^l   vorgeschriebenen Reinigung erfüllt hatten,^lbrachten sie das Kind nach Jerusalem hinauf,^l   um es dem Herrn darzustellen,^lwie im Gesetz des Herrn geschrieben ist:^l   Jede männliche Erstgeburt^l   soll dem Herrn heilig genannt werden.^lAuch wollten sie ihr Opfer darbringen,^l   wie es das Gesetz des Herrn vorschreibt:^lein Paar Turteltauben oder zwei junge Tauben.^pUnd siehe, in Jerusalem lebte ein Mann namens Simeon.^lDieser Mann war gerecht und fromm^l   und wartete auf den Trost Israels^lund der Heilige Geist ruhte auf ihm.^lVom Heiligen Geist war ihm offenbart worden,^l   er werde den Tod nicht schauen,^l   ehe er den Christus des Herrn gesehen habe.^pEr wurde vom Geist in den Tempel geführt;^lund als die Eltern das Kind Jesus hereinbrachten,^l   um mit ihm zu tun, was nach dem Gesetz üblich war,^l   nahm Simeon das Kind in seine Arme^lund pries Gott mit den Worten:^pNun lässt du, Herr,^l   deinen Knecht, wie du gesagt hast, in Frieden scheiden.^lDenn meine Augen haben das Heil gesehen,^l   das du vor allen Völkern bereitet hast,^lein Licht, das die Heiden erleuchtet,^l   und Herrlichkeit für dein Volk Israel.^pSein Vater und seine Mutter^l   staunten über die Worte, die über Jesus gesagt wurden.^lUnd Simeon segnete sie^lund sagte zu Maria, der Mutter Jesu:^l   Siehe, dieser ist dazu bestimmt,^l   dass in Israel viele zu Fall kommen^l   und aufgerichtet werden,^lund er wird ein Zeichen sein, dem widersprochen wird, –^lund deine Seele wird ein Schwert durchdringen.^lSo sollen die Gedanken vieler Herzen offenbar werden.^pDamals lebte auch Hanna, eine Prophetin,^leine Tochter Penu&euml;ls, aus dem Stamm Ascher.^lSie war schon hochbetagt.^lAls junges Mädchen hatte sie geheiratet^l   und sieben Jahre mit ihrem Mann gelebt;^lnun war sie eine Witwe von vierundachtzig Jahren.^lSie hielt sich ständig im Tempel auf^l   und diente Gott Tag und Nacht mit Fasten und Beten.^pZu derselben Stunde trat sie hinzu,^lpries Gott^lund sprach über das Kind^l   zu allen, die auf die Erlösung Jerusalems warteten.^pAls seine Eltern alles getan hatten,^l   was das Gesetz des Herrn vorschreibt,^l   kehrten sie nach Galiläa in ihre Stadt Nazaret zurück.^lDas Kind wuchs heran und wurde stark,^l   erfüllt mit Weisheit,^lund Gottes Gnade ruhte auf ihm.^l"
-          }
-        }
-      }
-    },
-    "3": {
-      "19": {
-        "a": {
-          "Messe": {
-            "ms_les_buch": "2°Sam",
-            "ms_les_stelle": "7,4-5a.12-14a.16",
-            "ms_les_motto": "Der Herr wird ihm den Thron seines Vaters David geben (Lk 1,32b)",
-            "ms_les_text": "Das Wort des HERRN erging an Natan:^lGeh zu meinem Knecht David^l   und sag zu ihm: So spricht der HERR:^lWenn deine Tage erfüllt sind^l   und du dich zu deinen Vätern legst,^l   werde ich deinen leiblichen Sohn^l   als deinen Nachfolger einsetzen^l   und seinem Königtum Bestand verleihen.^lEr wird für meinen Namen ein Haus bauen^lund ich werde seinem Königsthron ewigen Bestand verleihen.^lIch werde für ihn Vater sein^l   und er wird für mich Sohn sein.^pDein Haus und dein Königtum^l   werden vor dir auf ewig bestehen bleiben;^ldein Thron wird auf ewig Bestand haben.^l",
-            "ms_aps_stelle": "Ps 89,2-3.4-5.27 u. 29",
-            "ms_les2_buch": "Röm",
-            "ms_les2_stelle": "4,13.16-18.22",
-            "ms_les2_motto": "Gegen alle Hoffnung hat er voll Hoffnung geglaubt",
-            "ms_les2_text": "Schwestern und Brüder!^lAbraham und seine Nachkommen^l   erhielten nicht aufgrund des Gesetzes^l   die Verheißung, Erben der Welt zu sein,^lsondern aufgrund der Glaubensgerechtigkeit.^pDeshalb gilt: &bdquo;aus Glauben„,^l   damit auch gilt: &bdquo;aus Gnade„.^lNur so bleibt die Verheißung für die ganze Nachkommenschaft gültig,^lnicht nur für die, welche aus dem Gesetz,^l   sondern auch für die, welche aus dem Glauben Abrahams leben.^pEr ist unser aller Vater, wie geschrieben steht:^l   Ich habe dich zum Vater vieler Völker bestimmt –^l   im Angesicht des Gottes, dem er geglaubt hat,^ldes Gottes, der die Toten lebendig macht^l   und das, was nicht ist, ins Dasein ruft.^pGegen alle Hoffnung hat er voll Hoffnung geglaubt,^l   dass er der Vater vieler Völker werde,^lnach dem Wort:^l   So zahlreich werden deine Nachkommen sein.^pDarum wurde es ihm auch als Gerechtigkeit angerechnet.^l",
-            "ms_ev_buch": "Mt",
-            "ms_ev_stelle": "1,16.18-21.24a",
-            "ms_ev_motto": "Josef tat, was der Engel des Herrn ihm befohlen hatte",
-            "ms_ev_text": "Jakob zeugte den Josef, den Mann Marias;^lvon ihr wurde Jesus geboren,^l   der der Christus genannt wird.^pMit der Geburt Jesu Christi war es so:^lMaria, seine Mutter, war mit Josef verlobt;^lnoch bevor sie zusammengekommen waren,^l   zeigte sich, dass sie ein Kind erwartete –^ldurch das Wirken des Heiligen Geistes.^lJosef, ihr Mann,^l   der gerecht war und sie nicht bloßstellen wollte,^l   beschloss, sich in aller Stille von ihr zu trennen.^pWährend er noch darüber nachdachte,^l   siehe, da erschien ihm ein Engel des Herrn im Traum^lund sagte: Josef, Sohn Davids,^lfürchte dich nicht, Maria als deine Frau zu dir zu nehmen;^ldenn das Kind, das sie erwartet,^l   ist vom Heiligen Geist.^pSie wird einen Sohn gebären;^lihm sollst du den Namen Jesus geben;^ldenn er wird sein Volk von seinen Sünden erlösen.^pAls Josef erwachte,^l   tat er, was der Engel des Herrn ihm befohlen hatte.^l"
-          }
-        }
-      },
-      "25": {
-        "a": {
-          "Messe": {
-            "ms_les_buch": "Jes",
-            "ms_les_stelle": "7,10-14",
-            "ms_les_motto": "Siehe, die Jungfrau hat ein Kind empfangen, sie gebiert einen Sohn und wird ihm den Namen Immanuel – Gott mit uns – geben",
-            "ms_les_text": "In jenen Tagen^l   sprach der HERR zu Ahas – dem König von Juda –^lund sagte:^l   Erbitte dir ein Zeichen vom HERRN, deinem Gott,^ltief zur Unterwelt^l   oder hoch nach oben hin!^pAhas antwortete:^l   Ich werde um nichts bitten^lund den HERRN nicht versuchen.^pDa sagte Jesaja:^l   Hört doch, Haus Davids!^l   Genügt es euch nicht, Menschen zu ermüden,^ldass ihr auch noch meinen Gott ermüdet?^lDarum wird der Herr selbst euch ein Zeichen geben:^lSiehe, die Jungfrau hat empfangen,^lsie gebiert einen Sohn^lund wird ihm den Namen Immanuel^l   – Gott mit uns – geben.^l",
-            "ms_aps_stelle": "Ps 40,7-8.9-10.11",
-            "ms_les2_buch": "Hebr",
-            "ms_les2_stelle": "10,4-10",
-            "ms_les2_motto": "Siehe, ich komme – so steht es über mich in der Schriftrolle –, um deinen Willen, Gott, zu tun",
-            "ms_les2_text": "Schwestern und Brüder!^lDas Blut von Stieren und Böcken^l   kann unmöglich Sünden wegnehmen.^lDarum spricht Christus bei seinem Eintritt in die Welt:^pSchlacht- und Speiseopfer hast du nicht gefordert,^l   doch einen Leib hast du mir bereitet;^lan Brand- und Sündopfern hast du kein Gefallen.^lDa sagte ich: Siehe, ich komme^l   – so steht es über mich in der Schriftrolle –,^l   um deinen Willen, Gott, zu tun.^pZunächst sagt er:^l   Schlacht- und Speiseopfer,^l   Brand- und Sündopfer forderst du nicht,^ldu hast daran kein Gefallen,^l   obgleich sie doch nach dem Gesetz dargebracht werden;^ldann aber hat er gesagt:^l   Siehe, ich komme, um deinen Willen zu tun.^lEr hebt das Erste auf,^l   um das Zweite in Kraft zu setzen.^pAufgrund dieses Willens^l   sind wir durch die Hingabe des Leibes Jesu Christi geheiligt –^l   ein für alle Mal.^l",
-            "ms_ev_buch": "Lk",
-            "ms_ev_stelle": "1,26-38",
-            "ms_ev_motto": "Du hast bei Gott Gnade gefunden, Maria; du wirst schwanger werden und einen Sohn wirst du gebären",
-            "ms_ev_text": "In jener Zeit wurde der Engel Gabriel^l   von Gott in eine Stadt in Galiläa namens Nazaret^l   zu einer Jungfrau gesandt.^lSie war mit einem Mann namens Josef verlobt,^l   der aus dem Haus David stammte.^lDer Name der Jungfrau war Maria.^pDer Engel trat bei ihr ein^lund sagte: Sei gegrüßt, du Begnadete,^l   der Herr ist mit dir.^lSie erschrak über die Anrede^lund überlegte, was dieser Gruß zu bedeuten habe.^pDa sagte der Engel zu ihr: Fürchte dich nicht, Maria;^ldenn du hast bei Gott Gnade gefunden.^lSiehe, du wirst schwanger werden^lund einen Sohn wirst du gebären;^l   dem sollst du den Namen Jesus geben.^lEr wird groß sein^lund Sohn des Höchsten genannt werden.^lGott, der Herr, wird ihm den Thron seines Vaters David geben.^lEr wird über das Haus Jakob in Ewigkeit herrschen^l   und seine Herrschaft wird kein Ende haben.^pMaria sagte zu dem Engel:^l   Wie soll das geschehen, da ich keinen Mann erkenne?^pDer Engel antwortete ihr:^l   Heiliger Geist wird über dich kommen^lund Kraft des Höchsten wird dich überschatten.^lDeshalb wird auch das Kind heilig^l   und Sohn Gottes genannt werden.^pSiehe, auch Elisabet, deine Verwandte,^l   hat noch in ihrem Alter einen Sohn empfangen;^lobwohl sie als unfruchtbar gilt,^l   ist sie schon im sechsten Monat.^lDenn für Gott ist nichts unmöglich.^pDa sagte Maria:^l   Siehe, ich bin die Magd des Herrn;^lmir geschehe, wie du es gesagt hast.^pDanach verließ sie der Engel.^l"
-          }
-        }
-      }
-    },
     "6": {
       "24": {
         "a": {
@@ -749,7 +757,223 @@ export const lectureABCData = {
         }
       }
     },
+    "7": {
+      "2": {
+        "a": {
+          "Messe": {
+            "ms_les_buch": "Zef",
+            "ms_les_stelle": "3,14-18 (o.: Röm 12,9-16b)",
+            "ms_les_motto": "Der König Israels, der HERR, ist in deiner Mitte",
+            "ms_les_text": "Juble, Tochter Zion!^lJauchze, Israel!^lFreu dich und frohlocke von ganzem Herzen,^l^EINZUGTochter Jerusalem!^lDer HERR hat das Urteil gegen dich aufgehoben^l^EINZUGund deine Feinde zur Umkehr gezwungen.^lDer König Israels, der HERR, ist in deiner Mitte;^ldu hast kein Unheil mehr zu fürchten.^pAn jenem Tag wird man zu Jerusalem sagen:^l^EINZUGFürchte dich nicht, Zion!^lLass die Hände nicht sinken!^lDer HERR, dein Gott, ist in deiner Mitte,^lein Held, der Rettung bringt.^lEr freut sich und jubelt über dich,^ler schweigt in seiner Liebe,^ler jubelt über dich und frohlockt,^l^EINZUGwie man frohlockt an einem Festtag.^pIch mache deinem Unglück ein Ende,^l^EINZUGdass du seinetwegen^l^EINZUGnicht mehr Schmach tragen musst.^l",
+            "ms_aps_stelle": "Jes 12,2.3 u. 4bcd.5-6",
+            "ms_aps_kv": "Groß ist in eurer Mitte der Heilige Israels.",
+            "ms_aps_text": "Gott ist meine Rettung;^*ihm will ich vertrauen und niemals verzagen.^pDenn meine Stärke und mein Lied ist der Herr.^*Er ist für mich zum Retter geworden.^KV^PIhr werdet Wasser schöpfen voll Freude^*aus den Quellen des Heils.^pDankt dem Herrn! Ruft seinen Namen an! +^pMacht seine Taten unter den Völkern bekannt,^*verkündet: Sein Name ist groß und erhaben!^KV^PPreist den Herrn; denn herrliche Taten hat er vollbracht;^*auf der ganzen Erde soll man es wissen.^pJauchzt und jubelt, ihr Bewohner von Zion;^*denn groß ist in eurer Mitte der Heilige Israels.",
+            "ms_ev_buch": "Lk",
+            "ms_ev_stelle": "1,39-56",
+            "ms_ev_motto": "Wer bin ich, dass die Mutter meines Herrn zu mir kommt?",
+            "ms_ev_text": "In jenen Tagen machte sich Maria auf den Weg^l^EINZUGund eilte in eine Stadt im Bergland von Judäa.^lSie ging in das Haus des Zacharias und begrüßte Elisabet.^pUnd es geschah:^lAls Elisabet den Gruß Marias hörte,^l^EINZUGhüpfte das Kind in ihrem Leib.^lDa wurde Elisabet vom Heiligen Geist erfüllt^lund rief mit lauter Stimme:^l^EINZUGGesegnet bist du unter den Frauen^lund gesegnet ist die Frucht deines Leibes.^lWer bin ich, dass die Mutter meines Herrn zu mir kommt?^lDenn siehe, in dem Augenblick, als ich deinen Gruß hörte,^l^EINZUGhüpfte das Kind vor Freude in meinem Leib.^lUnd selig,^l^EINZUGdie geglaubt hat, dass sich erfüllt,^l^EINZUGwas der Herr ihr sagen ließ.^pDa sagte Maria:^lMeine Seele preist die Größe des Herrn^l^EINZUGund mein Geist jubelt über Gott, meinen Retter.^lDenn auf die Niedrigkeit seiner Magd hat er geschaut.^lSiehe, von nun an preisen mich selig alle Geschlechter.^lDenn der Mächtige hat Großes an mir getan^l^EINZUGund sein Name ist heilig.^lEr erbarmt sich von Geschlecht zu Geschlecht^l^EINZUGüber alle, die ihn fürchten.^lEr vollbringt mit seinem Arm machtvolle Taten:^lEr zerstreut, die im Herzen voll Hochmut sind;^ler stürzt die Mächtigen vom Thron^l^EINZUGund erhöht die Niedrigen.^lDie Hungernden beschenkt er mit seinen Gaben^l^EINZUGund lässt die Reichen leer ausgehen.^lEr nimmt sich seines Knechtes Israel an^lund denkt an sein Erbarmen,^l^EINZUGdas er unsern Vätern verheißen hat,^l^EINZUGAbraham und seinen Nachkommen auf ewig.^pUnd Maria blieb etwa drei Monate bei Elisabet;^ldann kehrte sie nach Hause zurück.^l"
+          }
+        }
+      },
+      "3": {
+        "a": {
+          "Messe": {
+            "ms_les_buch": "Eph",
+            "ms_les_stelle": "2,19-22",
+            "ms_les_motto": "Ihr seid auf das Fundament der Apostel gebaut",
+            "ms_les_text": "Brüder!^lIhr seid jetzt nicht mehr Fremde ohne Bürgerrecht,^l^EINZUGsondern Mitbürger der Heiligen und Hausgenossen Gottes.^lIhr seid auf das Fundament der Apostel und Propheten gebaut;^lder Schlussstein ist Christus Jesus selbst.^lDurch ihn wird der ganze Bau zusammengehalten^lund wächst zu einem heiligen Tempel im Herrn.^lDurch ihn werdet auch ihr^l^EINZUGim Geist zu einer Wohnung Gottes erbaut.^l",
+            "ms_aps_stelle": "Ps 117,1.2",
+            "ms_aps_kv": "Geht in alle Welt, Halleluja,^lund seid meine Zeugen. Halleluja.",
+            "ms_aps_text": "Lobet den HERRN, alle Völker,^*rühmt ihn, alle Nationen!^KV^PDenn mächtig waltet über uns seine Huld,^*die Treue des HERRN währt in Ewigkeit.",
+            "ms_ev_buch": "Joh",
+            "ms_ev_stelle": "20,24-29",
+            "ms_ev_motto": "Mein Herr und mein Gott!",
+            "ms_ev_text": "Thomas, der Didymus - Zwilling - genannt wurde,^l^EINZUGeiner der Zwölf, war nicht bei ihnen,^l^EINZUGals Jesus am Abend des ersten Tages der Woche kam.^lDie anderen Jünger sagten zu ihm:^l^EINZUGWir haben den Herrn gesehen.^pEr entgegnete ihnen:^l^EINZUGWenn ich nicht das Mal der Nägel an seinen Händen sehe^l^EINZUGund wenn ich meinen Finger nicht in das Mal der Nägel^l^EINZUGund meine Hand nicht in seine Seite lege,^l^EINZUGglaube ich nicht.^pAcht Tage darauf waren seine Jünger wieder drinnen versammelt^lund Thomas war dabei.^lDa kam Jesus bei verschlossenen Türen,^ltrat in ihre Mitte^lund sagte: Friede sei mit euch!^pDann sagte er zu Thomas:^l^EINZUGStreck deinen Finger hierher aus^l^EINZUGund sieh meine Hände!^lStreck deine Hand aus und leg sie in meine Seite^lund sei nicht ungläubig, sondern gläubig!^pThomas antwortete und sagte zu ihm:^l^EINZUGMein Herr und mein Gott!^lJesus sagte zu ihm:^l^EINZUGWeil du mich gesehen hast, glaubst du.^lSelig sind, die nicht sehen und doch glauben.^l"
+          }
+        }
+      },
+      "11": {
+        "a": {
+          "Messe": {
+            "ms_les_buch": "Spr",
+            "ms_les_stelle": "2,1-9",
+            "ms_les_motto": "Mein Sohn, neige dein Herz der Einsicht zu!",
+            "ms_les_text": "Mein Sohn, wenn du meine Worte annimmst^l^EINZUGund meine Gebote beherzigst,^l^EINZUGder Weisheit Gehör schenkst,^l^EINZUGdein Herz der Einsicht zuneigst,^lwenn du nach Erkenntnis rufst,^l^EINZUGmit lauter Stimme um Einsicht bittest,^lwenn du sie suchst wie Silber,^l^EINZUGnach ihr forschst wie nach Schätzen,^ldann wirst du die Furcht des HERRN begreifen^lund Gotteserkenntnis finden.^pDenn der HERR gibt Weisheit,^laus seinem Mund kommen Erkenntnis und Einsicht.^lFür die Redlichen hält er Hilfe bereit,^lden Rechtschaffenen ist er ein Schild.^lEr hütet die Pfade des Rechts^l^EINZUGund bewacht den Weg seiner Frommen.^pDann wirst du Recht und Gerechtigkeit begreifen,^l^EINZUGRedlichkeit und jede gute Bahn.^l",
+            "ms_aps_stelle": "Ps 34,2-3.4 u. 6.9 u. 12.14-15",
+            "ms_aps_kv": "Den HERRN will ich preisen allezeit.",
+            "ms_aps_text": "Ich will den HERRN allezeit preisen;^*immer sei sein Lob in meinem Mund.^pMeine Seele rühme sich des HERRN;^*die Armen sollen es hören und sich freuen.^KV^PPreist mit mir die Größe des HERRN,^*lasst uns gemeinsam seinen Namen erheben!^pDie auf ihn blickten, werden strahlen,^*nie soll ihr Angesicht vor Scham erröten.^KV^PKostet und seht, wie gut der HERR ist!^*Selig der Mensch, der zu ihm sich flüchtet!^pKommt, ihr Kinder, hört mir zu!^*Die Furcht des HERRN will ich euch lehren!^KV^PBewahre deine Zunge vor Bösem;^*deine Lippen vor falscher Rede!^pMeide das Böse und tu das Gute,^*suche Frieden und jage ihm nach!",
+            "ms_ev_buch": "Mt",
+            "ms_ev_stelle": "19,27-29",
+            "ms_ev_motto": "Ihr, die ihr alles verlassen habt und mir nachgefolgt seid, werdet das Hundertfache erhalten",
+            "ms_ev_text": "In jener Zeit sagte Petrus zu Jesus:^l^EINZUGWir haben alles verlassen und sind dir nachgefolgt.^lWas werden wir dafür bekommen?^pJesus erwiderte ihnen: Amen, ich sage euch:^lWenn die Welt neu geschaffen wird^l^EINZUGund der Menschensohn^l^EINZUGsich auf den Thron der Herrlichkeit setzt,^l^EINZUGwerdet auch ihr, die ihr mir nachgefolgt seid,^l^EINZUGauf zwölf Thronen sitzen und die zwölf Stämme Israels richten.^pUnd jeder,^l^EINZUGder um meines Namens willen Häuser^l^EINZUGoder Brüder oder Schwestern^l^EINZUGoder Vater oder Mutter oder Kinder^l^EINZUGoder Äcker verlassen hat,^l^EINZUGwird dafür das Hundertfache erhalten^l^EINZUGund das ewige Leben erben.^l"
+          }
+        }
+      },
+      "22": {
+        "a": {
+          "Messe": {
+            "ms_les_buch": "Hld",
+            "ms_les_stelle": "3,1-4a",
+            "ms_les_motto": "Ich fand ihn, den meine Seele liebt",
+            "ms_les_text": "So spricht die Braut:^lDes Nachts auf meinem Lager suchte ich ihn,^l^EINZUGden meine Seele liebt.^lIch suchte ihn und fand ihn nicht.^lAufstehen will ich, die Stadt durchstreifen,^l^EINZUGdie Gassen und Plätze,^lihn suchen, den meine Seele liebt.^lIch suchte ihn und fand ihn nicht.^lMich fanden die Wächter^l^EINZUGbei ihrer Runde durch die Stadt.^lHabt ihr ihn gesehen, den meine Seele liebt?^lKaum war ich an ihnen vorüber,^l^EINZUGfand ich ihn, den meine Seele liebt.^l",
+            "ms_aps_stelle": "Ps 63,2.3-4.5-6.7-8",
+            "ms_aps_kv": "Meine Seele dürstet nach dir, mein Gott.",
+            "ms_aps_text": "Gott, mein Gott bist du, dich suche ich,^*es dürstet nach dir meine Seele.^pNach dir schmachtet mein Fleisch^*wie dürres, lechzendes Land ohne Wasser.^KV^PDarum halte ich Ausschau nach dir im Heiligtum,^*zu sehen deine Macht und Herrlichkeit.^pDenn deine Huld ist besser als das Leben.^*Meine Lippen werden dich rühmen.^KV^PSo preise ich dich in meinem Leben,^*in deinem Namen erhebe ich meine Hände.^pWie an Fett und Mark wird satt meine Seele,^*mein Mund lobt dich mit jubelnden Lippen.^p",
+            "ms_ev_buch": "Joh",
+            "ms_ev_stelle": "20,1-2.11-18",
+            "ms_ev_motto": "Frau, warum weinst du? Wen suchst du?",
+            "ms_ev_text": "Am ersten Tag der Woche kam Maria von Magdala^l^EINZUGfrühmorgens, als es noch dunkel war, zum Grab^lund sah, dass der Stein vom Grab weggenommen war.^lDa lief sie schnell zu Simon Petrus^l^EINZUGund dem anderen Jünger, den Jesus liebte,^lund sagte zu ihnen:^l^EINZUGSie haben den Herrn aus dem Grab weggenommen^lund wir wissen nicht, wohin sie ihn gelegt haben.^pMaria aber stand draußen vor dem Grab und weinte.^lWährend sie weinte,^l^EINZUGbeugte sie sich in die Grabkammer hinein.^lDa sah sie zwei Engel in weißen Gewändern sitzen,^lden einen dort, wo der Kopf,^l^EINZUGden anderen dort,^l^EINZUGwo die Füße des Leichnams Jesu gelegen hatten.^lDiese sagten zu ihr: Frau, warum weinst du?^lSie antwortete ihnen:^l^EINZUGSie haben meinen Herrn weggenommen^l^EINZUGund ich weiß nicht, wohin sie ihn gelegt haben.^pAls sie das gesagt hatte, wandte sie sich um^l^EINZUGund sah Jesus dastehen,^l^EINZUGwusste aber nicht, dass es Jesus war.^pJesus sagte zu ihr: Frau, warum weinst du?^lWen suchst du?^lSie meinte, es sei der Gärtner,^lund sagte zu ihm: Herr, wenn du ihn weggebracht hast,^l^EINZUGsag mir, wohin du ihn gelegt hast!^l^EINZUGDann will ich ihn holen.^pJesus sagte zu ihr: Maria!^lDa wandte sie sich um^l^EINZUGund sagte auf Hebräisch zu ihm: Rabbuni!, das heißt: Meister.^lJesus sagte zu ihr: Halte mich nicht fest;^l^EINZUGdenn ich bin noch nicht zum Vater hinaufgegangen.^lGeh aber zu meinen Brüdern^l^EINZUGund sag ihnen:^l^EINZUGIch gehe hinauf zu meinem Vater und eurem Vater,^l^EINZUGzu meinem Gott und eurem Gott.^pMaria von Magdala kam zu den Jüngern^l^EINZUGund verkündete ihnen: Ich habe den Herrn gesehen.^lUnd sie berichtete,^l^EINZUGwas er ihr gesagt hatte.^l"
+          }
+        }
+      },
+      "25": {
+        "a": {
+          "Messe": {
+            "ms_les_buch": "2°Kor",
+            "ms_les_stelle": "4,7-15",
+            "ms_les_motto": "Wir tragen das Todesleiden Jesu an unserem Leib",
+            "ms_les_text": "Schwestern und Brüder!^lDen Schatz der Erkenntnis^l^EINZUGdes göttlichen Glanzes auf dem Antlitz Christi^l^EINZUGtragen wir in zerbrechlichen Gefäßen;^lso wird deutlich,^l^EINZUGdass das Übermaß der Kraft von Gott^l^EINZUGund nicht von uns kommt.^lVon allen Seiten werden wir in die Enge getrieben^l^EINZUGund finden doch noch Raum;^lwir wissen weder aus noch ein^l^EINZUGund verzweifeln dennoch nicht;^lwir werden gehetzt^l^EINZUGund sind doch nicht verlassen;^lwir werden niedergestreckt^l^EINZUGund doch nicht vernichtet.^lImmer tragen wir das Todesleiden Jesu an unserem Leib,^ldamit auch das Leben Jesu an unserem Leib sichtbar wird.^pDenn immer werden wir, obgleich wir leben,^l^EINZUGum Jesu willen dem Tod ausgeliefert,^ldamit auch das Leben Jesu^l^EINZUGan unserem sterblichen Fleisch offenbar wird.^lSo erweist an uns der Tod,^l^EINZUGan euch aber das Leben seine Macht.^pDoch haben wir den gleichen Geist des Glaubens,^lvon dem es in der Schrift heißt:^l^EINZUGIch habe geglaubt, darum habe ich geredet.^lAuch wir glauben und darum reden wir.^lDenn wir wissen,^l^EINZUGdass der, welcher Jesus, den Herrn, auferweckt hat,^l^EINZUGauch uns mit Jesus auferwecken^l^EINZUGund uns zusammen mit euch vor sich stellen wird.^pAlles tun wir euretwegen,^ldamit immer mehr Menschen^l^EINZUGaufgrund der überreich gewordenen Gnade^l^EINZUGden Dank vervielfachen^l^EINZUGzur Verherrlichung Gottes.^l",
+            "ms_aps_stelle": "Ps 126,1-2b.2c-3.4-5.6",
+            "ms_aps_kv": "Mit Jubel ernten, die mit Tränen säen.",
+            "ms_aps_text": "Als der HERR das Geschick Zions wendete,^*da waren wir wie Träumende.^pDa füllte sich unser Mund mit Lachen^*und unsere Zunge mit Jubel.^KV^PDa sagte man unter den Völkern:^*„Groß hat der HERR an ihnen gehandelt!“^pJa, groß hat der HERR an uns gehandelt.^*Da waren wir voll Freude.^KV^PWende doch, HERR, unser Geschick,^*wie du versiegte Bäche wieder füllst im Südland!^pDie mit Tränen säen,^*werden mit Jubel ernten.^KV^PSie gehen, ja gehen und weinen^*und tragen zur Aussaat den Samen.^pSie kommen, ja kommen mit Jubel^*und bringen ihre Garben.",
+            "ms_ev_buch": "Mt",
+            "ms_ev_stelle": "20,20-28",
+            "ms_ev_motto": "Meinen Kelch werdet ihr trinken",
+            "ms_ev_text": "In jener Zeit^l^EINZUGkam die Frau des Zebedäus mit ihren Söhnen zu Jesus,^l^EINZUGfiel vor ihm nieder und bat ihn um etwas.^pEr fragte sie: Was willst du?^lSie antwortete: Versprich, dass meine beiden Söhne^l^EINZUGin deinem Reich rechts und links neben dir sitzen dürfen!^lJesus erwiderte: Ihr wisst nicht, was ihr erbittet.^lKönnt ihr den Kelch trinken, den ich trinken werde?^lSie sagten zu ihm: Wir können es.^pDa antwortete er ihnen: Meinen Kelch werdet ihr trinken;^l^EINZUGdoch den Platz zu meiner Rechten und zu meiner Linken^l^EINZUGhabe nicht ich zu vergeben;^ldort werden die sitzen,^l^EINZUGfür die es mein Vater bestimmt hat.^pAls die zehn anderen Jünger das hörten,^l^EINZUGwurden sie sehr ärgerlich über die beiden Brüder.^lDa rief Jesus sie zu sich^lund sagte: Ihr wisst, dass die Herrscher ihre Völker unterdrücken^l^EINZUGund die Großen^l^EINZUGihre Vollmacht gegen sie gebrauchen.^lBei euch soll es nicht so sein,^lsondern wer bei euch groß sein will,^l^EINZUGder soll euer Diener sein,^lund wer bei euch der Erste sein will,^l^EINZUGsoll euer Sklave sein.^pWie der Menschensohn nicht gekommen ist,^l^EINZUGum sich dienen zu lassen,^l^EINZUGsondern um zu dienen^l^EINZUGund sein Leben hinzugeben als Lösegeld für viele.^l"
+          }
+        }
+      },
+      "26": {
+        "a": {
+          "Messe": {
+            "ms_les_buch": "Sir",
+            "ms_les_stelle": "44,1.10-15",
+            "ms_les_motto": "Ihr Name lebt für Generationen",
+            "ms_les_text": "Preisen wir die berühmten Männer,^l^EINZUGunsere Väter der Abstammung nach.^lSie waren Männer des Erbarmens,^l^EINZUGderen gerechte Taten nicht vergessen worden sind.^pBei ihren Nachkommen hat es Bestand^lund ein gutes Erbe sind ihre Nachfahren.^lIhre Nachkommen hielten an den Bundesschlüssen fest^lund ihre Kinder um ihretwegen.^lBis in Ewigkeit haben ihre Nachkommen Bestand^lund ihr Ruhm wird nicht ausgelöscht.^lIhre Leiber sind in Frieden bestattet worden^lund ihr Name lebt für Generationen.^lVon ihrer Weisheit werden Völker erzählen^l^EINZUGund ihr Lob verkündet die Versammlung.^l",
+            "ms_aps_stelle": "Ps 132,11.13-14.17-18",
+            "ms_aps_kv": "Gott gibt ihm Davids Thron.",
+            "ms_aps_text": "Der HERR hat David Treue geschworen,^*nicht wird er von ihr lassen:^p„Einen Spross deines Leibes^*will ich setzen auf deinen Thron.“^KV^PDer HERR hat den Zion erwählt,^*ihn begehrt zu seinem Wohnsitz:^p„Das ist für immer der Ort meiner Ruhe,^*hier will ich wohnen, ich hab ihn begehrt.^KV^PDort bringe ich Davids Macht zum Sprießen^*und stelle eine Leuchte auf für meinen Gesalbten.^pIch kleide seine Feinde in Schande;^*doch auf ihm wird seine Krone erglänzen.“^p",
+            "ms_ev_buch": "Mt",
+            "ms_ev_stelle": "13,16-17",
+            "ms_ev_motto": "Viele Propheten und Gerechte haben sich danach gesehnt zu sehen, was ihr seht",
+            "ms_ev_text": "In jener Zeit sprach Jesus zu seinen Jüngern:^l^EINZUGEure Augen sind selig, weil sie sehen,^lund eure Ohren, weil sie hören.^pDenn, amen, ich sage euch:^lViele Propheten und Gerechte haben sich danach gesehnt^l^EINZUGzu sehen, was ihr seht,^lund haben es nicht gesehen,^lund zu hören, was ihr hört,^lund haben es nicht gehört.^l"
+          }
+        }
+      }
+    },
+    "8": {
+      "6": {
+        "a": {
+          "Messe": {
+            "ms_les_buch": "Dan",
+            "ms_les_stelle": "7,9-10.13-14",
+            "ms_les_motto": "Sein Gewand war weiß wie Schnee",
+            "ms_les_text": "Ich, Daniel, sah in einer nächtlichen Vision:^lThrone wurden aufgestellt^lund ein Hochbetagter nahm Platz.^lSein Gewand war weiß wie Schnee,^l^EINZUGsein Haar wie reine Wolle.^lFeuerflammen waren sein Thron^l^EINZUGund dessen Räder waren loderndes Feuer.^lEin Strom von Feuer ging von ihm aus.^lTausendmal Tausende dienten ihm,^lzehntausendmal Zehntausende standen vor ihm.^lDas Gericht nahm Platz^l^EINZUGund es wurden Bücher aufgeschlagen.^pImmer noch hatte ich die nächtlichen Visionen:^lDa kam mit den Wolken des Himmels^l^EINZUGeiner wie ein Menschensohn.^lEr gelangte bis zu dem Hochbetagten^l^EINZUGund wurde vor ihn geführt.^lIhm wurden Herrschaft, Würde und Königtum gegeben.^lAlle Völker, Nationen und Sprachen dienten ihm.^lSeine Herrschaft ist eine ewige, unvergängliche Herrschaft.^lSein Reich geht niemals unter.",
+            "ms_aps_stelle": "Ps 97,1-2.5-6.8-9",
+            "ms_aps_kv": "Der HERR ist König,^ler ist der Höchste über der ganzen Erde.",
+            "ms_aps_text": "Der HERR ist König. Es juble die Erde!^*Freuen sollen sich die vielen Inseln.^pRings um ihn her sind Wolken und Dunkel,^*Gerechtigkeit und Recht sind die Stützen seines Thrones.^KV^PBerge schmelzen wie Wachs vor dem HERRN,^*vor dem Angesicht des Herrn der ganzen Erde.^pSeine Gerechtigkeit verkünden die Himmel,^*seine Herrlichkeit schauen alle Völker.^KV^PZion hört es und freut sich,^*Judas Töchter jubeln, HERR, über deine Urteile.^pDenn du, HERR, bist der Höchste über der ganzen Erde,^*hoch erhaben bist du über alle Götter.",
+            "ms_les2_buch": "2°Petr",
+            "ms_les2_stelle": "1,16-19",
+            "ms_les2_motto": "Die Stimme, die vom Himmel kam, haben wir gehört, als wir mit ihm auf dem heiligen Berg waren",
+            "ms_les2_text": "Schwestern und Brüder!^lWir sind nicht^l^EINZUGklug ausgedachten Geschichten gefolgt,^l^EINZUGals wir euch die machtvolle Ankunft^l^EINZUGunseres Herrn Jesus Christus kundtaten,^l^EINZUGsondern wir waren Augenzeugen seiner Macht und Größe.^pDenn er hat von Gott, dem Vater, Ehre und Herrlichkeit empfangen,^lals eine Stimme von erhabener Herrlichkeit an ihn erging:^l^EINZUGDas ist mein geliebter Sohn,^l^EINZUGan dem ich Wohlgefallen gefunden habe.^lDiese Stimme, die vom Himmel kam, haben wir gehört,^l^EINZUGals wir mit ihm auf dem heiligen Berg waren.^pDadurch ist das Wort der Propheten^l^EINZUGfür uns noch sicherer geworden^lund ihr tut gut daran, es zu beachten,^lwie ein Licht,^l^EINZUGdas an einem finsteren Ort scheint,^lbis der Tag anbricht^l^EINZUGund der Morgenstern aufgeht in eurem Herzen.",
+            "ms_ruf_text": "Aus der leuchtenden Wolke rief die Stimme des Vaters:^lDas ist mein geliebter Sohn; auf ihn sollt ihr hören.",
+            "ms_ev_buch": "Mt",
+            "ms_ev_stelle": "17,1-9",
+            "ms_ev_motto": "Er wurde vor ihnen verwandelt; sein Gesicht leuchtete wie die Sonne",
+            "ms_ev_text": "In jener Zeit^l^EINZUGnahm Jesus Petrus, Jakobus^l^EINZUGund dessen Bruder Johannes mit sich^lund führte sie auf einen hohen Berg.^lUnd er wurde vor ihnen verwandelt;^lsein Gesicht leuchtete wie die Sonne^l^EINZUGund seine Kleider wurden weiß wie das Licht.^lUnd siehe, es erschienen ihnen Mose und Elija^lund redeten mit Jesus.^pUnd Petrus antwortete und sagte zu Jesus:^l^EINZUGHerr, es ist gut, dass wir hier sind.^lWenn du willst, werde ich hier drei Hütten bauen,^leine für dich, eine für Mose und eine für Elija.^pNoch während er redete,^l^EINZUGsiehe, eine leuchtende Wolke überschattete sie^lund siehe, eine Stimme erscholl aus der Wolke:^l^EINZUGDieser ist mein geliebter Sohn,^l^EINZUGan dem ich Wohlgefallen gefunden habe;^lauf ihn sollt ihr hören.^pAls die Jünger das hörten,^l^EINZUGwarfen sie sich mit dem Gesicht zu Boden^lund fürchteten sich sehr.^pDa trat Jesus zu ihnen,^lfasste sie an^lund sagte: Steht auf und fürchtet euch nicht!^lUnd als sie aufblickten,^l^EINZUGsahen sie niemanden außer Jesus allein.^pWährend sie den Berg hinabstiegen, gebot ihnen Jesus:^l^EINZUGErzählt niemandem von dem, was ihr gesehen habt,^l^EINZUGbis der Menschensohn von den Toten auferweckt ist!"
+          }
+        },
+        "b": {
+          "Messe": {
+            "ms_ev_buch": "Mk",
+            "ms_ev_stelle": "9,2-10",
+            "ms_ev_motto": "Es erscholl eine Stimme aus der Wolke: Dieser ist mein geliebter Sohn",
+            "ms_ev_text": "In jener Zeit^l^EINZUGnahm Jesus Petrus, Jakobus und Johannes mit sich^lund führte sie auf einen hohen Berg,^laber nur sie allein.^lUnd er wurde vor ihnen verwandelt;^lseine Kleider wurden strahlend weiß,^lso weiß, wie sie auf Erden kein Bleicher machen kann.^pDa erschien ihnen Elija und mit ihm Mose^lund sie redeten mit Jesus.^pPetrus sagte zu Jesus: Rabbi, es ist gut, dass wir hier sind.^lWir wollen drei Hütten bauen,^leine für dich, eine für Mose und eine für Elija.^lEr wusste nämlich nicht, was er sagen sollte;^ldenn sie waren vor Furcht ganz benommen.^pDa kam eine Wolke und überschattete sie^lund es erscholl eine Stimme aus der Wolke:^l^EINZUGDieser ist mein geliebter Sohn;^lauf ihn sollt ihr hören.^lAls sie dann um sich blickten,^l^EINZUGsahen sie auf einmal niemanden mehr bei sich außer Jesus.^pWährend sie den Berg hinabstiegen,^l^EINZUGgebot er ihnen,^l^EINZUGniemandem zu erzählen, was sie gesehen hatten,^l^EINZUGbis der Menschensohn von den Toten auferstanden sei.^lDieses Wort beschäftigte sie^lund sie fragten einander, was das sei:^l^EINZUGvon den Toten auferstehen."
+          }
+        },
+        "c": {
+          "Messe": {
+            "ms_ev_buch": "Lk",
+            "ms_ev_stelle": "9,28b-36",
+            "ms_ev_motto": "Während er betete, veränderte sich das Aussehen seines Gesichtes",
+            "ms_ev_text": "In jener Zeit^l^EINZUGnahm Jesus Petrus, Johannes und Jakobus mit sich^lund stieg auf einen Berg, um zu beten.^lUnd während er betete,^l^EINZUGveränderte sich das Aussehen seines Gesichtes^lund sein Gewand wurde leuchtend weiß.^pUnd siehe, es redeten zwei Männer mit ihm.^lEs waren Mose und Elija;^lsie erschienen in Herrlichkeit^lund sprachen von seinem Ende,^l^EINZUGdas er in Jerusalem erfüllen sollte.^pPetrus und seine Begleiter aber waren eingeschlafen,^lwurden jedoch wach^l^EINZUGund sahen Jesus in strahlendem Licht^l^EINZUGund die zwei Männer, die bei ihm standen.^pUnd es geschah:^lAls diese sich von ihm trennen wollten,^l^EINZUGsagte Petrus zu Jesus: Meister,^les ist gut, dass wir hier sind.^lWir wollen drei Hütten bauen,^leine für dich, eine für Mose und eine für Elija.^lEr wusste aber nicht, was er sagte.^lWährend er noch redete,^l^EINZUGkam eine Wolke und überschattete sie.^lSie aber fürchteten sich,^l^EINZUGals sie in die Wolke hineingerieten.^pDa erscholl eine Stimme aus der Wolke:^l^EINZUGDieser ist mein auserwählter Sohn,^lauf ihn sollt ihr hören.^pWährend die Stimme erscholl,^l^EINZUGfanden sie Jesus allein.^lUnd sie schwiegen^lund erzählten in jenen Tagen niemandem von dem,^l^EINZUGwas sie gesehen hatten."
+          }
+        }
+      },
+      "10": {
+        "a": {
+          "Messe": {
+            "ms_les_buch": "2°Kor",
+            "ms_les_stelle": "9,6-10",
+            "ms_aps_stelle": "Ps 112,1-2.5-6.7-8.9-10",
+            "ms_aps_kv": "Selig der Mensch, der gnädig ist und leiht ohne Zinsen.",
+            "ms_aps_text": "Selig der Mann, der den HERRN fürchtet^*und sich herzlich freut an seinen Geboten.^pSeine Nachkommen werden mächtig im Land,^*das Geschlecht der Redlichen wird gesegnet.^KV^PGlücklich ein Mann, der gnädig ist und leiht ohne Zinsen,^*der nach dem Recht das Seine ordnet.^pNiemals gerät er ins Wanken;^*ewig denkt man an den Gerechten.^KV^PEr fürchtet sich nicht vor böser Kunde,^*sein Herz ist fest, auf den HERRN vertraut er.^pSein Herz ist getrost, er fürchtet sich nicht,^*er wird herabschauen auf seine Bedränger.^KV^PReichlich gibt er den Armen,^+seine Gerechtigkeit hat Bestand für immer,^*seine Macht steht hoch in Ehren.^pDer Frevler sieht es voll Unmut,^+er wird mit den Zähnen knirschen und vergehen.^*Die Wünsche der Frevler werden zunichte.",
+            "ms_ruf_text": "Joh 8,12",
+            "ms_ev_buch": "Joh",
+            "ms_ev_stelle": "12,24-26",
+            "ms_ev_motto": "Wenn einer mir dient, wird der Vater ihn ehren",
+            "ms_ev_text": "In jener Zeit sprach Jesus zu seinen Jüngern:^lAmen, amen, ich sage euch:^lWenn das Weizenkorn nicht in die Erde fällt und stirbt,^l^EINZUGbleibt es allein;^lwenn es aber stirbt,^l^EINZUGbringt es reiche Frucht.^pWer sein Leben liebt,^l^EINZUGverliert es;^lwer aber sein Leben in dieser Welt gering achtet,^l^EINZUGwird es bewahren bis ins ewige Leben.^pWenn einer mir dienen will,^l^EINZUGfolge er mir nach;^lund wo ich bin,^l^EINZUGdort wird auch mein Diener sein.^lWenn einer mir dient,^l^EINZUGwird der Vater ihn ehren.^l"
+          }
+        }
+      },
+      "15": {
+        "a": {
+          "Messe": {
+            "ms_les_buch": "Offb",
+            "ms_les_stelle": "11,19a; 12,1-6a.10ab",
+            "ms_les_motto": "Ein großes Zeichen erschien am Himmel: eine Frau, mit der Sonne bekleidet, der Mond unter ihren Füßen",
+            "ms_les_text": "Der Tempel Gottes im Himmel wurde geöffnet^lund in seinem Tempel wurde die Lade seines Bundes sichtbar.^lDann erschien ein großes Zeichen am Himmel:^leine Frau, mit der Sonne bekleidet;^lder Mond war unter ihren Füßen^l   und ein Kranz von zwölf Sternen auf ihrem Haupt.^lSie war schwanger^l   und schrie vor Schmerz in ihren Geburtswehen.^pEin anderes Zeichen erschien am Himmel^lund siehe, ein Drache, groß und feuerrot,^l   mit sieben Köpfen und zehn Hörnern^l   und mit sieben Diademen auf seinen Köpfen.^lSein Schwanz fegte ein Drittel der Sterne vom Himmel^l   und warf sie auf die Erde herab.^lDer Drache stand vor der Frau, die gebären sollte;^ler wollte ihr Kind verschlingen,^l   sobald es geboren war.^lUnd sie gebar ein Kind,^leinen Sohn,^l   der alle Völker mit eisernem Zepter weiden wird.^lUnd ihr Kind wurde zu Gott und zu seinem Thron entrückt.^lDie Frau aber floh in die Wüste,^l   wo Gott ihr einen Zufluchtsort geschaffen hatte.^pDa hörte ich eine laute Stimme im Himmel rufen:^lJetzt ist er da, der rettende Sieg,^ldie Macht und die Königsherrschaft unseres Gottes^lund die Vollmacht seines Gesalbten.^l",
+            "ms_aps_stelle": "Ps 45,11-12.16 u. 18",
+            "ms_les2_buch": "1°Kor",
+            "ms_les2_stelle": "15,20-27a",
+            "ms_les2_motto": "In Christus werden alle lebendig gemacht werden: Erster ist Christus; dann folgen alle, die zu ihm gehören",
+            "ms_les2_text": "Schwestern und Brüder!^lChristus ist von den Toten auferweckt worden^l   als der Erste der Entschlafenen.^pDa nämlich durch <sperr>einen</sperr> Menschen der Tod gekommen ist,^l   kommt durch <sperr>einen</sperr> Menschen^l   auch die Auferstehung der Toten.^lDenn wie in Adam alle sterben,^l   so werden in Christus alle lebendig gemacht werden.^pEs gibt aber eine bestimmte Reihenfolge:^lErster ist Christus;^ldann folgen, wenn Christus kommt,^l   alle, die zu ihm gehören.^lDanach kommt das Ende,^l   wenn er jede Macht, Gewalt und Kraft entmachtet hat^l   und seine Herrschaft Gott, dem Vater, übergibt.^pDenn er muss herrschen,^l   bis Gott ihm alle Feinde unter seine Füße gelegt hat.^lDer letzte Feind, der entmachtet wird,^l   ist der Tod.^lDenn: Alles hat er seinen Füßen unterworfen.^l",
+            "ms_ruf_text": "Aufgenommen in den Himmel ist die Jungfrau Maria.^lDie Engel freuen sich und preisen den Herrn.",
+            "ms_ev_buch": "Lk",
+            "ms_ev_stelle": "1,39-56",
+            "ms_ev_motto": "Der Mächtige hat Großes an mir getan: Er erhöht die Niedrigen",
+            "ms_ev_text": "In jenen Tagen machte sich Maria auf den Weg^l   und eilte in eine Stadt im Bergland von Judäa.^lSie ging in das Haus des Zacharias^l   und begrüßte Elisabet.^lUnd es geschah:^lAls Elisabet den Gruß Marias hörte,^l   hüpfte das Kind in ihrem Leib.^pDa wurde Elisabet vom Heiligen Geist erfüllt^lund rief mit lauter Stimme:^l   Gesegnet bist du unter den Frauen^lund gesegnet ist die Frucht deines Leibes.^lWer bin ich, dass die Mutter meines Herrn zu mir kommt?^lDenn siehe, in dem Augenblick, als ich deinen Gruß hörte,^l   hüpfte das Kind vor Freude in meinem Leib.^lUnd selig,^l   die geglaubt hat, dass sich erfüllt,^l   was der Herr ihr sagen ließ.^pDa sagte Maria:^lMeine Seele preist die Größe des Herrn^l   und mein Geist jubelt über Gott, meinen Retter.^lDenn auf die Niedrigkeit seiner Magd hat er geschaut.^lSiehe, von nun an preisen mich selig alle Geschlechter.^lDenn der Mächtige hat Großes an mir getan^l   und sein Name ist heilig.^lEr erbarmt sich von Geschlecht zu Geschlecht^l   über alle, die ihn fürchten.^lEr vollbringt mit seinem Arm machtvolle Taten:^lEr zerstreut, die im Herzen voll Hochmut sind;^ler stürzt die Mächtigen vom Thron^l   und erhöht die Niedrigen.^lDie Hungernden beschenkt er mit seinen Gaben^l   und lässt die Reichen leer ausgehen.^lEr nimmt sich seines Knechtes Israel an^lund denkt an sein Erbarmen,^l   das er unsern Vätern verheißen hat,^l   Abraham und seinen Nachkommen auf ewig.^pUnd Maria blieb etwa drei Monate bei Elisabet;^ldann kehrte sie nach Hause zurück.^l"
+          }
+        }
+      },
+      "29": {
+        "a": {
+          "Messe": {
+            "ms_les_buch": "Jer",
+            "ms_les_stelle": "1,4.17-19",
+            "ms_les_motto": "Verkünde ihnen alles, was ich dir auftrage! Erschrick nicht vor ihnen!",
+            "ms_les_text": "In den Tagen Joschijas, des Königs von Juda,^l^EINZUGerging das Wort des HERRN an mich:^pDu aber gürte dich,^ltritt vor sie hin^lund verkünde ihnen alles, was ich dir auftrage!^lErschrick nicht vor ihnen,^lsonst setze ich dich vor ihren Augen in Schrecken!^lSiehe, ich selbst mache dich heute zur befestigten Stadt,^lzur eisernen Säule^l^EINZUGund zur bronzenen Mauer gegen das ganze Land,^lgegen die Könige, Beamten und Priester von Juda^lund gegen die Bürger des Landes.^pMögen sie dich bekämpfen,^l^EINZUGsie werden dich nicht bezwingen;^ldenn ich bin mit dir, um dich zu retten -^lSpruch des HERRN.^l",
+            "ms_aps_stelle": "Ps 71,1-3.5-6.15.17",
+            "ms_aps_kv": "Mein Mund soll künden von deiner Gerechtigkeit.",
+            "ms_aps_text": "Bei dir, o HERR, habe ich mich geborgen,^*lass mich nicht zuschanden werden in Ewigkeit!^pReiß mich heraus und rette mich in deiner Gerechtigkeit!^*Neige dein Ohr mir zu und hilf mir!^KV^PSei mir ein schützender Fels,^*zu dem ich allzeit kommen darf!^pDu hast geboten, mich zu retten,^*denn du bist mein Fels und meine Festung.^KV^PDu bist meine Hoffnung,^*Herr und GOTT, meine Zuversicht von Jugend auf.^pVom Mutterleib an habe ich mich auf dich gestützt,^+aus dem Schoß meiner Mutter hast du mich entbunden,^*dir gilt mein Lobpreis allezeit.^KV^PMein Mund soll von deiner Gerechtigkeit künden,^+den ganzen Tag von deinen rettenden Taten,^*denn ich kann sie nicht zählen.^pGott, du hast mich gelehrt von Jugend auf^*und bis heute verkünde ich deine Wunder.",
+            "ms_ruf_text": "Mt 5,10",
+            "ms_ev_buch": "Mk",
+            "ms_ev_stelle": "6,17-29",
+            "ms_ev_motto": "Ich will, dass du mir sofort auf einer Schale den Kopf Johannes‘ des Täufers bringen lässt",
+            "ms_ev_text": "Herodes hatte Johannes festnehmen^l^EINZUGund ins Gefängnis werfen lassen.^lSchuld daran war Herodias, die Frau seines Bruders Philippus,^l^EINZUGdie er geheiratet hatte.^pDenn Johannes hatte zu Herodes gesagt:^l^EINZUGEs ist dir nicht erlaubt,^l^EINZUGdie Frau deines Bruders zur Frau zu haben.^lHerodias verzieh ihm das nicht^lund wollte ihn töten lassen.^lSie konnte es aber nicht durchsetzen,^ldenn Herodes fürchtete sich vor Johannes,^lweil er wusste, dass dieser ein gerechter und heiliger Mann war.^lDarum schützte er ihn.^lWenn er ihm zuhörte,^l^EINZUGgeriet er in große Verlegenheit^lund doch hörte er ihm gern zu.^pEines Tages ergab sich für Herodias eine günstige Gelegenheit.^lAn seinem Geburtstag^l^EINZUGlud Herodes seine Hofbeamten und Offiziere^l^EINZUGzusammen mit den vornehmsten Bürgern von Galiläa^l^EINZUGzu einem Festmahl ein.^lDa kam die Tochter der Herodias und tanzte^lund sie gefiel dem Herodes und seinen Gästen so sehr,^l^EINZUGdass der König zu dem Mädchen sagte:^l^EINZUGVerlange von mir, was du willst;^l^EINZUGich werde es dir geben.^lEr schwor ihr sogar:^l^EINZUGWas du auch von mir verlangst,^l^EINZUGich will es dir geben,^lund wenn es die Hälfte meines Reiches wäre.^lSie ging hinaus^l^EINZUGund fragte ihre Mutter: Was soll ich verlangen?^lHerodias antwortete: Den Kopf Johannes des Täufers.^pDa lief das Mädchen zum König hinein^l^EINZUGund verlangte:^l^EINZUGIch will, dass du mir sofort auf einer Schale^l^EINZUGden Kopf Johannes des Täufers bringen lässt.^lDa wurde der König sehr traurig,^laber wegen der Eide und der Gäste^l^EINZUGwollte er ihren Wunsch nicht ablehnen.^lDeshalb befahl er einem Scharfrichter,^l^EINZUGsofort ins Gefängnis zu gehen^l^EINZUGund den Kopf des Täufers herzubringen.^lDer Scharfrichter ging und enthauptete Johannes.^lDann brachte er den Kopf auf einer Schale,^lgab ihn dem Mädchen^lund das Mädchen gab ihn seiner Mutter.^pAls die Jünger des Johannes das hörten, kamen sie,^l^EINZUGholten seinen Leichnam und legten ihn in ein Grab.^l"
+          }
+        }
+      }
+    },
     "9": {
+      "8": {
+        "a": {
+          "Messe": {
+            "ms_les_buch": "Mi",
+            "ms_les_stelle": "5,1-4a (oder: Röm 8,28-30)",
+            "ms_les_motto": "Aus dir wird der hervorgehen, der über Israel herrschen soll",
+            "ms_les_text": "So spricht der HERR:^lDu, Betlehem-Efrata,^l^EINZUGbist zwar klein unter den Sippen Judas,^laus dir wird mir einer hervorgehen,^l^EINZUGder über Israel herrschen soll.^lSeine Ursprünge liegen in ferner Vorzeit,^lin längst vergangenen Tagen.^pDarum gibt der HERR sie preis,^l^EINZUGbis zu der Zeit, da die Gebärende geboren hat.^lDann wird der Rest seiner Brüder zurückkehren^l^EINZUGzu den Söhnen Israels.^lEr wird auftreten und ihr Hirt sein in der Kraft des HERRN,^lin der Hoheit des Namens des HERRN, seines Gottes.^pSie werden in Sicherheit wohnen;^ldenn nun wird er groß sein bis an die Grenzen der Erde.^lUnd er wird der Friede sein.^l",
+            "ms_aps_stelle": "Ps 13,6ab.6cd",
+            "ms_aps_kv": "Von Herzen freue ich mich am HERRN.",
+            "ms_aps_text": "Herr, ich habe auf deine Güte vertraut,^*mein Herz soll über deine Hilfe jubeln.^KV^PSingen will ich dem HERRN,^*weil er mir Gutes getan hat.",
+            "ms_ruf_text": "Selig bist du, Jungfrau Maria, und allen Lobes überaus würdig.^lDenn aus dir ging hervor die Sonne der Gerechtigkeit:^lChristus, unser Gott.",
+            "ms_ev_buch": "Mt",
+            "ms_ev_stelle": "1,1-16.18-23",
+            "ms_ev_motto": "Das Kind, das sie erwartet, ist vom Heiligen Geist",
+            "ms_ev_text": "Buch des Ursprungs Jesu Christi,^l^EINZUGdes Sohnes Davids, des Sohnes Abrahams:^lAbraham zeugte den Isaak,^lIsaak zeugte den Jakob,^lJakob zeugte den Juda und seine Brüder.^lJuda zeugte den Perez und den Serach^l^EINZUGmit der Tamar.^lPerez zeugte den Hezron,^lHezron zeugte den Aram,^lAram zeugte den Amminadab,^lAmminadab zeugte den Nachschon,^lNachschon zeugte den Salmon.^lSalmon zeugte den Boas^l^EINZUGmit der Rahab.^lBoas zeugte den Obed^l^EINZUGmit der Rut.^lObed zeugte den Isai,^lIsai zeugte David, den König.^pDavid zeugte den Salomo^l^EINZUGmit der Frau des Urija.^lSalomo zeugte den Rehabeam,^lRehabeam zeugte den Abija,^lAbija zeugte den Asa,^lAsa zeugte den Joschafat,^lJoschafat zeugte den Joram,^lJoram zeugte den Usija.^lUsija zeugte den Jotam,^lJotam zeugte den Ahas,^lAhas zeugte den Hiskija,^lHiskija zeugte den Manasse,^lManasse zeugte den Amos,^lAmos zeugte den Joschija.^lJoschija zeugte den Jojachin und seine Brüder;^ldas war zur Zeit der Babylonischen Gefangenschaft.^lNach der Babylonischen Gefangenschaft^l^EINZUGzeugte Jojachin den Schealtiël,^lSchealtiël zeugte den Serubbabel,^lSerubbabel zeugte den Abihud,^lAbihud zeugte den Eljakim,^lEljakim zeugte den Azor.^lAzor zeugte den Zadok,^lZadok zeugte den Achim,^lAchim zeugte den Eliud,^lEliud zeugte den Eleasar,^lEleasar zeugte den Mattan,^lMattan zeugte den Jakob.^lJakob zeugte den Josef, den Mann Marias;^lvon ihr wurde Jesus geboren,^l^EINZUGder der Christus genannt wird.^pMit der Geburt Jesu Christi war es so:^lMaria, seine Mutter, war mit Josef verlobt;^lnoch bevor sie zusammengekommen waren,^l^EINZUGzeigte sich, dass sie ein Kind erwartete -^ldurch das Wirken des Heiligen Geistes.^lJosef, ihr Mann,^l^EINZUGder gerecht war und sie nicht bloßstellen wollte,^l^EINZUGbeschloss, sich in aller Stille von ihr zu trennen.^pWährend er noch darüber nachdachte,^l^EINZUGsiehe, da erschien ihm ein Engel des Herrn im Traum^lund sagte: Josef, Sohn Davids,^lfürchte dich nicht, Maria als deine Frau zu dir zu nehmen;^ldenn das Kind, das sie erwartet,^l^EINZUGist vom Heiligen Geist.^lSie wird einen Sohn gebären;^lihm sollst du den Namen Jesus geben;^ldenn er wird sein Volk von seinen Sünden erlösen.^pDies alles ist geschehen,^l^EINZUGdamit sich erfüllte,^l^EINZUGwas der Herr durch den Propheten gesagt hat:^pSiehe: Die Jungfrau wird empfangen^lund einen Sohn gebären^lund sie werden ihm den Namen Immanuel geben,^ldas heißt übersetzt: Gott mit uns.^l"
+          }
+        }
+      },
       "14": {
         "a": {
           "Messe": {
@@ -762,11 +986,67 @@ export const lectureABCData = {
             "ms_les2_stelle": "2,6-11",
             "ms_les2_motto": "Christus Jesus erniedrigte sich; darum hat ihn Gott über alle erhöht",
             "ms_les2_text": "Christus Jesus war Gott gleich,^lhielt aber nicht daran fest, Gott gleich zu sein,^lsondern er entäußerte sich^l   und wurde wie ein Sklave^l   und den Menschen gleich.^lSein Leben war das eines Menschen;^ler erniedrigte sich^l   und war gehorsam bis zum Tod,^lbis zum Tod am Kreuz.^pDarum hat ihn Gott über alle erhöht^lund ihm den Namen verliehen,^l   der größer ist als alle Namen,^ldamit alle im Himmel, auf der Erde und unter der Erde^l   ihr Knie beugen vor dem Namen Jesu^lund jeder Mund bekennt:^l   &bdquo;Jesus Christus ist der Herr„ –^lzur Ehre Gottes, des Vaters.^l",
-            "ms_ruf_text": "Wir beten dich an, Herr Jesus Christus, und preisen dich; denn durch dein heiliges Kreuz hast du die Welt erlöst.",
+            "ms_ruf_text": "Wir beten dich an, Herr Jesus Christus, und preisen dich,^ldenn durch dein heiliges Kreuz hast du die Welt erlöst.",
             "ms_ev_buch": "Joh",
             "ms_ev_stelle": "3,13-17",
             "ms_ev_motto": "Der Menschensohn muss erhöht werden",
             "ms_ev_text": "In jener Zeit sprach Jesus zu Nikodemus:^lNiemand ist in den Himmel hinaufgestiegen^l   außer dem, der vom Himmel herabgestiegen ist:^lder Menschensohn.^pUnd wie Mose die Schlange in der Wüste erhöht hat,^l   so muss der Menschensohn erhöht werden,^ldamit jeder, der glaubt,^l   in ihm ewiges Leben hat.^pDenn Gott hat die Welt so sehr geliebt,^l   dass er seinen einzigen Sohn hingab,^ldamit jeder, der an ihn glaubt, nicht verloren geht,^l   sondern ewiges Leben hat.^lDenn Gott hat seinen Sohn nicht in die Welt gesandt,^l   damit er die Welt richtet,^lsondern damit die Welt durch ihn gerettet wird.^l"
+          }
+        }
+      },
+      "15": {
+        "a": {
+          "Messe": {
+            "ms_les_buch": "Hebr",
+            "ms_les_stelle": "5,7-9",
+            "ms_les_motto": "Er hat den Gehorsam gelernt und ist der Urheber des ewigen Heils geworden",
+            "ms_les_text": "Christus hat in den Tagen seines irdischen Lebens^l^EINZUGmit lautem Schreien und unter Tränen^l^EINZUGGebete und Bitten vor den gebracht,^l^EINZUGder ihn aus dem Tod retten konnte,^lund er ist erhört worden aufgrund seiner Gottesfurcht.^pObwohl er der Sohn war,^l^EINZUGhat er durch das, was er gelitten hat, den Gehorsam gelernt;^lzur Vollendung gelangt,^l^EINZUGist er für alle, die ihm gehorchen,^l^EINZUGder Urheber des ewigen Heils geworden.^l",
+            "ms_aps_stelle": "Ps 31,2-6.15-16.20",
+            "ms_aps_kv": "In deiner Huld hilf mir, o Herr!",
+            "ms_aps_text": "HERR, bei dir habe ich mich geborgen.^+Lass mich nicht zuschanden werden in Ewigkeit;^*rette mich in deiner Gerechtigkeit!^pNeige dein Ohr mir zu,^*erlöse mich eilends!^KV^PSei mir ein schützender Fels,^*ein festes Haus, mich zu retten!^pDenn du bist mein Fels und meine Festung;^*um deines Namens willen wirst du mich führen und leiten.^KV^PDu wirst mich befreien aus dem Netz, das sie mir heimlich legten;^*denn du bist meine Zuflucht.^pIn deine Hand lege ich voll Vertrauen meinen Geist;^*du hast mich erlöst, HERR, du Gott der Treue.^KV^PIch aber, HERR, ich habe dir vertraut,^*ich habe gesagt: Mein Gott bist du.^pIn deiner Hand steht meine Zeit;^*entreiß mich der Hand meiner Feinde und Verfolger!^KV^PWie groß ist deine Güte,^*die du bewahrt hast für alle, die dich fürchten;^pdu hast sie denen erwiesen,^*die sich vor den Menschen bei dir bergen.",
+            "ms_ruf_text": "Selig bist du, Jungfrau Maria!^lOhne den Tod zu leiden,^lhast du die Palme des Martyriums verdient unter dem Kreuz des Herrn.",
+            "ms_ev_buch": "Joh",
+            "ms_ev_stelle": "19,25-27 (o.: Lk 2,33-35)",
+            "ms_ev_motto": "Siehe, dein Sohn! Siehe, deine Mutter!",
+            "ms_ev_text": "In jener Zeit^l^EINZUGstanden bei dem Kreuz Jesu seine Mutter^l^EINZUGund die Schwester seiner Mutter, Maria, die Frau des Klopas,^l^EINZUGund Maria von Magdala.^pAls Jesus die Mutter sah^l^EINZUGund bei ihr den Jünger, den er liebte,^l^EINZUGsagte er zur Mutter:^l^EINZUGFrau, siehe, dein Sohn!^lDann sagte er zu dem Jünger:^l^EINZUGSiehe, deine Mutter!^pUnd von jener Stunde an^l^EINZUGnahm sie der Jünger zu sich.^l"
+          }
+        }
+      },
+      "29": {
+        "a": {
+          "Messe": {
+            "ms_les_buch": "Dan",
+            "ms_les_stelle": "7,9-10.13-14 |break|(oder: Offb 12,7-12a)",
+            "ms_les_motto": "Tausendmal Tausende dienten ihm",
+            "ms_les_text": "Ich, Daniel, sah in einer nächtlichen Vision:^lThrone wurden aufgestellt^lund ein Hochbetagter nahm Platz.^lSein Gewand war weiß wie Schnee,^l^EINZUGsein Haar wie reine Wolle.^lFeuerflammen waren sein Thron^l^EINZUGund dessen Räder waren loderndes Feuer.^pEin Strom von Feuer ging von ihm aus.^lTausendmal Tausende dienten ihm,^lzehntausendmal Zehntausende standen vor ihm.^lDas Gericht nahm Platz^l^EINZUGund es wurden Bücher aufgeschlagen.^pImmer noch hatte ich die nächtlichen Visionen:^lDa kam mit den Wolken des Himmels^l^EINZUGeiner wie ein Menschensohn.^lEr gelangte bis zu dem Hochbetagten^l^EINZUGund wurde vor ihn geführt.^lIhm wurden Herrschaft, Würde und Königtum gegeben.^lAlle Völker, Nationen und Sprachen dienten ihm.^lSeine Herrschaft ist eine ewige, unvergängliche Herrschaft.^lSein Reich geht niemals unter.^l",
+            "ms_aps_stelle": "Ps 138,1-2b.2c-3.4-5",
+            "ms_aps_kv": "Vor den Engeln will ich dir singen und spielen, o Herr.",
+            "ms_aps_text": "Ich will dir danken mit meinem ganzen Herzen,^*dir vor den Engeln singen und spielen.^pIch will mich niederwerfen zu deinem heiligen Tempel hin,^*will deinem Namen danken für deine Huld und für deine Treue.^KV^PDenn du hast dein Wort größer gemacht^*als deinen ganzen Namen.^pAm Tag, da ich rief, gabst du mir Antwort,^*du weckst Kraft in meiner Seele.^KV^PDir, HERR, sollen alle Könige der Erde danken,^*wenn sie die Worte deines Mundes hören.^pSie sollen singen auf den Wegen des HERRN:^*Die Herrlichkeit des HERRN ist gewaltig.",
+            "ms_ruf_text": "Ps 103,21",
+            "ms_ev_buch": "Joh",
+            "ms_ev_stelle": "1,47-51",
+            "ms_ev_motto": "Ihr werdet die Engel Gottes auf- und niedersteigen sehen über dem Menschensohn",
+            "ms_ev_text": "In jener Zeit^l^EINZUGsah Jesus Natanaël auf sich zukommen^lund sagte über ihn: Sieh, ein echter Israelit,^l^EINZUGan dem kein Falsch ist.^lNatanaël sagte zu ihm: Woher kennst du mich?^lJesus antwortete ihm: Schon bevor dich Philippus rief,^l^EINZUGhabe ich dich unter dem Feigenbaum gesehen.^lNatanaël antwortete ihm: Rabbi, du bist der Sohn Gottes,^ldu bist der König von Israel!^pJesus antwortete ihm:^l^EINZUGDu glaubst, weil ich dir sagte,^l^EINZUGdass ich dich unter dem Feigenbaum sah;^ldu wirst noch Größeres als dieses sehen.^lUnd er sprach zu ihm: Amen, amen, ich sage euch:^lIhr werdet den Himmel geöffnet^l^EINZUGund die Engel Gottes auf- und niedersteigen sehen^l^EINZUGüber dem Menschensohn.^l"
+          }
+        }
+      }
+    },
+    "10": {
+      "7": {
+        "a": {
+          "Messe": {
+            "ms_les_buch": "Apg",
+            "ms_les_stelle": "1,12-14",
+            "ms_les_motto": "Sie alle verharrten einmütig im Gebet, zusammen mit Maria, der Mutter Jesu",
+            "ms_les_text": "Als Jesus in den Himmel aufgenommen worden war,^l^EINZUGkehrten die Apostel von dem Berg, der Ölberg genannt wird^l^EINZUGund nur einen Sabbatweg von Jerusalem entfernt ist,^l^EINZUGnach Jerusalem zurück.^pAls sie in die Stadt kamen,^l^EINZUGgingen sie in das Obergemach hinauf,^l^EINZUGwo sie nun ständig blieben:^lPetrus und Johannes,^lJakobus und Andreas,^lPhilippus und Thomas,^lBartholomäus und Matthäus,^lJakobus, der Sohn des Alphäus,^l^EINZUGund Simon, der Zelot,^l^EINZUGsowie Judas, der Sohn des Jakobus.^pSie alle verharrten dort einmütig im Gebet,^lzusammen mit den Frauen^l^EINZUGund Maria, der Mutter Jesu, und seinen Brüdern.^l",
+            "ms_aps_stelle": "Lk 1,46-55",
+            "ms_aps_kv": "Der Mächtige hat Großes an mir getan^lund sein Name ist heilig.^l^rOder:^0r^lSelig bist du, Jungfrau Maria,^ldu hast den Sohn des ewigen Vaters getragen.",
+            "ms_aps_text": "Meine Seele preist die Größe des Herrn^*und mein Geist jubelt über Gott, meinen Retter.^pDenn auf die Niedrigkeit seiner Magd hat er geschaut.^*Siehe, von nun an preisen mich selig alle Geschlechter. - (R)^p^pDenn der Mächtige hat Großes an mir getan^*und sein Name ist heilig.^pEr erbarmt sich von Geschlecht zu Geschlecht^*über alle, die ihn fürchten. - (R)^p^pEr vollbringt mit seinem Arm machtvolle Taten:^*Er zerstreut, die im Herzen voll Hochmut sind.^pDie Hungernden beschenkt er mit seinen Gaben^*und lässt die Reichen leer ausgehn. - (R)^p^pEr nimmt sich seines Knechtes Israel an^*und denkt an sein Erbarmen,^pdas er unsern Vätern verheißen hat,^*Abraham und seinen Nachkommen auf ewig.^p",
+            "ms_ruf_text": "Lk 1,28",
+            "ms_ev_buch": "Lk",
+            "ms_ev_stelle": "1,26-38",
+            "ms_ev_motto": "Du hast bei Gott Gnade gefunden, Maria:^ldu wirst ein Kind empfangen, einen Sohn wirst du gebären",
+            "ms_ev_text": "In jener Zeit wurde der Engel Gabriel^l^EINZUGvon Gott in eine Stadt in Galiläa namens Nazaret^lzu einer Jungfrau gesandt.^lSie war mit einem Mann namens Josef verlobt,^l^EINZUGder aus dem Haus David stammte.^lDer Name der Jungfrau war Maria.^pDer Engel trat bei ihr ein^lund sagte: Sei gegrüßt, du Begnadete,^l^EINZUGder Herr ist mit dir.^lSie erschrak über die Anrede^lund überlegte, was dieser Gruß zu bedeuten habe.^pDa sagte der Engel zu ihr: Fürchte dich nicht, Maria;^ldenn du hast bei Gott Gnade gefunden.^lDu wirst ein Kind empfangen,^leinen Sohn wirst du gebären:^l^EINZUGdem sollst du den Namen Jesus geben.^lEr wird groß sein^lund Sohn des Höchsten genannt werden.^lGott, der Herr, wird ihm den Thron seines Vaters David geben.^lEr wird über das Haus Jakob in Ewigkeit herrschen^l^EINZUGund seine Herrschaft wird kein Ende haben.^pMaria sagte zu dem Engel:^l^EINZUGWie soll das geschehen, da ich keinen Mann erkenne?^pDer Engel antwortete ihr:^l^EINZUGDer Heilige Geist wird über dich kommen,^lund die Kraft des Höchsten wird dich überschatten.^lDeshalb wird auch das Kind heilig^l^EINZUGund Sohn Gottes genannt werden.^pAuch Elisabet, deine Verwandte,^l^EINZUGhat noch in ihrem Alter einen Sohn empfangen;^lobwohl sie als unfruchtbar galt,^l^EINZUGist sie jetzt schon im sechsten Monat.^lDenn für Gott ist nichts unmöglich.^pDa sagte Maria:^l^EINZUGIch bin die Magd des Herrn;^lmir geschehe, wie du es gesagt hast.^pDanach verließ sie der Engel.^l"
           }
         }
       }
@@ -784,7 +1064,7 @@ export const lectureABCData = {
             "ms_les2_stelle": "3,1-3",
             "ms_les2_motto": "Wir werden Gott sehen, wie er ist",
             "ms_les2_text": "Schwestern und Brüder!^lSeht, welche Liebe uns der Vater geschenkt hat:^lWir heißen Kinder Gottes^l   und wir sind es.^lDeshalb erkennt die Welt uns nicht,^l   weil sie ihn nicht erkannt hat.^pGeliebte, jetzt sind wir Kinder Gottes.^lDoch ist noch nicht offenbar geworden,^l   was wir sein werden.^lWir wissen,^l   dass wir ihm ähnlich sein werden, wenn er offenbar wird;^ldenn wir werden ihn sehen, wie er ist.^pJeder, der diese Hoffnung auf ihn setzt,^l   heiligt sich,^l   so wie er heilig ist.^l",
-            "ms_ruf_text": "^SPRICHTKommt alle zu mir, die ihr mühselig und beladen seid! Ich will euch erquicken.",
+            "ms_ruf_text": "Mt 11,28",
             "ms_ev_buch": "Mt",
             "ms_ev_stelle": "5,1-12a",
             "ms_ev_motto": "Freut euch und jubelt: Denn euer Lohn wird groß sein im Himmel",
@@ -804,7 +1084,7 @@ export const lectureABCData = {
             "ms_les2_stelle": "8,14-23",
             "ms_les2_motto": "Wir warten auf die Erlösung unseres Leibes",
             "ms_les2_text": "Schwestern und Brüder!^lAlle, die sich vom Geist Gottes leiten lassen,^l   sind Kinder Gottes.^lDenn ihr habt nicht einen Geist der Knechtschaft empfangen,^l   sodass ihr immer noch Furcht haben müsstet,^lsondern ihr habt den Geist der Kindschaft empfangen,^lin dem wir rufen: Abba, Vater!^pDer Geist selber bezeugt unserem Geist,^l   dass wir Kinder Gottes sind.^lSind wir aber Kinder, dann auch Erben;^lErben Gottes^l   und Miterben Christi,^l   wenn wir mit ihm leiden,^l   um mit ihm auch verherrlicht zu werden.^pIch bin nämlich überzeugt,^l   dass die Leiden der gegenwärtigen Zeit nichts bedeuten^l   im Vergleich zu der Herrlichkeit,^l   die an uns offenbar werden soll.^lDenn die Schöpfung^l   wartet sehnsüchtig auf das Offenbarwerden der Söhne Gottes.^pGewiss, die Schöpfung ist der Nichtigkeit unterworfen,^lnicht aus eigenem Willen,^l   sondern durch den, der sie unterworfen hat,^l   auf Hoffnung hin:^lDenn auch sie, die Schöpfung,^l   soll von der Knechtschaft der Vergänglichkeit befreit werden^l   zur Freiheit und Herrlichkeit der Kinder Gottes.^pDenn wir wissen,^l   dass die gesamte Schöpfung^l   bis zum heutigen Tag seufzt und in Geburtswehen liegt.^lAber nicht nur das, sondern auch wir,^l   obwohl wir als Erstlingsgabe den Geist haben,^l   auch wir seufzen in unserem Herzen^lund warten darauf,^l   dass wir mit der Erlösung unseres Leibes^l   als Söhne offenbar werden.^l",
-            "ms_ruf_text": "^SPRICHTKommt her, ihr, die ihr von meinem Vater gesegnet seid, empfangt das Reich als Erbe, das seit der Erschaffung der Welt für euch bestimmt ist!",
+            "ms_ruf_text": "Mt 25,34",
             "ms_ev_buch": "Joh",
             "ms_ev_stelle": "5,24-29",
             "ms_ev_motto": "Wer mein Wort hört und dem glaubt, der mich gesandt hat, ist aus dem Tod ins Leben hinübergegangen",
@@ -824,11 +1104,47 @@ export const lectureABCData = {
             "ms_les2_stelle": "Kor 3,9c-11.16-17",
             "ms_les2_motto": "Ihr seid Gottes Tempel: der Geist Gottes wohnt in euch",
             "ms_les2_text": "Schwestern und Brüder!^lIhr seid Gottes Bau.^pDer Gnade Gottes entsprechend, die mir geschenkt wurde,^l   habe ich wie ein weiser Baumeister den Grund gelegt;^lein anderer baut darauf weiter.^lAber jeder soll darauf achten, wie er weiterbaut.^pDenn einen anderen Grund kann niemand legen^l   als den, der gelegt ist:^lJesus Christus.^pWisst ihr nicht, dass ihr Gottes Tempel seid^l   und der Geist Gottes in euch wohnt?^lWer den Tempel Gottes zerstört,^l   den wird Gott zerstören.^lDenn Gottes Tempel ist heilig^lund der seid ihr.^l",
-            "ms_ruf_text": "^SPRGOTTIch habe dieses Haus erwählt und geheiligt, damit mein Name hier sei auf ewig.",
+            "ms_ruf_text": "2 Chr 7,16",
             "ms_ev_buch": "Joh",
             "ms_ev_stelle": "2,13-22",
             "ms_ev_motto": "Reißt diesen Tempel nieder, in drei Tagen werde ich ihn wieder aufrichten. Er meinte den Tempel seines Leibes",
             "ms_ev_text": "Das Paschafest der Juden war nahe^lund Jesus zog nach Jerusalem hinauf.^lIm Tempel^l   fand er die Verkäufer von Rindern, Schafen und Tauben^lund die Geldwechsler, die dort saßen.^pEr machte eine Geißel aus Stricken^l   und trieb sie alle aus dem Tempel hinaus^lsamt den Schafen und Rindern;^ldas Geld der Wechsler schüttete er aus,^lihre Tische stieß er um^lund zu den Taubenhändlern sagte er:^l   Schafft das hier weg,^lmacht das Haus meines Vaters nicht zu einer Markthalle!^lSeine Jünger erinnerten sich, dass geschrieben steht:^l   Der Eifer für dein Haus wird mich verzehren.^pDa ergriffen die Juden das Wort und sagten zu ihm:^l   Welches Zeichen lässt du uns sehen,^l   dass du dies tun darfst?^pJesus antwortete ihnen: Reißt diesen Tempel nieder^lund in drei Tagen werde ich ihn wieder aufrichten.^pDa sagten die Juden:^l   Sechsundvierzig Jahre wurde an diesem Tempel gebaut^l   und du willst ihn in drei Tagen wieder aufrichten?^lEr aber meinte den Tempel seines Leibes.^pAls er von den Toten auferweckt war,^l   erinnerten sich seine Jünger, dass er dies gesagt hatte,^lund sie glaubten der Schrift^l   und dem Wort, das Jesus gesprochen hatte.^l"
+          }
+        }
+      },
+      "11": {
+        "a": {
+          "Messe": {
+            "ms_les_buch": "Jes",
+            "ms_les_stelle": "61,1-3",
+            "ms_les_motto": "Der HERR hat mich gesalbt; er hat mich gesandt, um den Armen frohe Botschaft zu bringen (Lk 4,18bc)",
+            "ms_les_text": "Der Geist GOTTES, des Herrn, ruht auf mir.^lDenn der HERR hat mich gesalbt;^ler hat mich gesandt,^l^EINZUGum den Armen frohe Botschaft zu bringen,^l^EINZUGum die zu heilen, die gebrochenen Herzens sind,^lum den Gefangenen Freilassung auszurufen^l^EINZUGund den Gefesselten Befreiung,^lum ein Gnadenjahr des HERRN auszurufen,^l^EINZUGeinen Tag der Vergeltung für unseren Gott,^lum alle Trauernden zu trösten,^lden Trauernden Zions^l^EINZUGSchmuck zu geben anstelle von Asche,^l^EINZUGFreudenöl statt Trauer,^l^EINZUGein Gewand des Ruhms statt eines verzagten Geistes.^l",
+            "ms_aps_stelle": "Ps 89,2-3.20a.4-5.21-22.25.27",
+            "ms_aps_kv": "Von der Huld des HERRN will ich ewig singen.",
+            "ms_aps_text": "Von der Huld des HERRN will ich ewig singen,^*von Geschlecht zu Geschlecht mit meinem Mund deine Treue verkünden.^pDenn ich bekenne: Auf ewig ist Huld gegründet,^*im Himmel deine Treue gefestigt.^KV^PEinst hast du in einer Vision zu deinen Frommen gesprochen:^+„Ich habe einen Bund geschlossen mit meinem Erwählten^*und David, meinem Knecht, geschworen:^pAuf ewig gebe ich deinem Haus festen Bestand^*und von Geschlecht zu Geschlecht gründe ich deinen Thron.^KV^PIch habe David, meinen Knecht, gefunden^*und ihn mit meinem heiligen Öl gesalbt.^pFest wird meine Hand ihn halten^*und mein Arm ihn stärken.^KV^PMeine Treue und meine Huld sind mit ihm^*und in meinem Namen erhebt er sein Haupt.^pEr wird zu mir rufen: Mein Vater bist du,^*mein Gott, der Fels meiner Rettung.“",
+            "ms_ruf_text": "Joh 13,34",
+            "ms_ev_buch": "Mt",
+            "ms_ev_stelle": "25,31-40",
+            "ms_ev_motto": "Was ihr für einen meiner geringsten Brüder getan habt, das habt ihr mir getan",
+            "ms_ev_text": "In jener Zeit sprach Jesus zu seinen Jüngern:^lWenn der Menschensohn in seiner Herrlichkeit kommt^l^EINZUGund alle Engel mit ihm,^l^EINZUGdann wird er sich auf den Thron seiner Herrlichkeit setzen.^lUnd alle Völker werden vor ihm versammelt werden^lund er wird sie voneinander scheiden,^l^EINZUGwie der Hirt die Schafe von den Böcken scheidet.^lEr wird die Schafe zu seiner Rechten stellen,^l^EINZUGdie Böcke aber zur Linken.^pDann wird der König denen zu seiner Rechten sagen:^l^EINZUGKommt her, die ihr von meinem Vater gesegnet seid,^lempfangt das Reich als Erbe,^l^EINZUGdas seit der Erschaffung der Welt für euch bestimmt ist!^lDenn ich war hungrig^l^EINZUGund ihr habt mir zu essen gegeben;^lich war durstig^l^EINZUGund ihr habt mir zu trinken gegeben;^lich war fremd^l^EINZUGund ihr habt mich aufgenommen;^lich war nackt^l^EINZUGund ihr habt mir Kleidung gegeben;^lich war krank^l^EINZUGund ihr habt mich besucht;^lich war im Gefängnis^l^EINZUGund ihr seid zu mir gekommen.^pDann werden ihm die Gerechten antworten und sagen:^lHerr, wann haben wir dich hungrig gesehen^l^EINZUGund dir zu essen gegeben^loder durstig^l^EINZUGund dir zu trinken gegeben?^lUnd wann haben wir dich fremd gesehen^l^EINZUGund aufgenommen^loder nackt^l^EINZUGund dir Kleidung gegeben?^lUnd wann haben wir dich krank oder im Gefängnis gesehen^l^EINZUGund sind zu dir gekommen?^pDarauf wird der König ihnen antworten:^l^EINZUGAmen, ich sage euch:^lWas ihr für einen meiner geringsten Brüder getan habt,^l^EINZUGdas habt ihr mir getan.^l"
+          }
+        }
+      },
+      "30": {
+        "a": {
+          "Messe": {
+            "ms_les_buch": "Röm",
+            "ms_les_stelle": "10,9-18",
+            "ms_les_motto": "Wie sollen sie hören, wenn niemand verkündet? Wie soll aber jemand verkünden, wenn er nicht gesandt ist?",
+            "ms_les_text": "Wenn du mit deinem Mund bekennst:^l^EINZUG„Herr ist Jesus“ -^lund in deinem Herzen glaubst:^l^EINZUG„Gott hat ihn von den Toten auferweckt“,^l^EINZUGso wirst du gerettet werden.^lDenn mit dem Herzen glaubt man^l^EINZUGund das führt zur Gerechtigkeit,^lmit dem Mund bekennt man^l^EINZUGund das führt zur Rettung.^lDenn die Schrift sagt:^l^EINZUGJeder, der an ihn glaubt, wird nicht zugrunde gehen.^lDenn darin gibt es keinen Unterschied^l^EINZUGzwischen Juden und Griechen.^lDenn alle haben denselben Herrn;^laus seinem Reichtum^l^EINZUGbeschenkt er alle, die ihn anrufen.^lDenn jeder, der den Namen des Herrn anruft,^l^EINZUGwird gerettet werden.^pWie sollen sie nun den anrufen,^l^EINZUGan den sie nicht glauben?^lWie sollen sie an den glauben,^l^EINZUGvon dem sie nichts gehört haben?^lWie sollen sie hören, wenn niemand verkündet?^lWie soll aber jemand verkünden,^l^EINZUGwenn er nicht gesandt ist?^lWie geschrieben steht:^l^EINZUGWie willkommen sind die Füße der Freudenboten,^l^EINZUGdie Gutes verkünden!^pDoch nicht alle sind dem Evangelium gehorsam geworden.^lDenn Jesaja sagt:^l^EINZUGHerr, wer hat unserer Kunde geglaubt?^lSo gründet der Glaube in der Botschaft,^l^EINZUGdie Botschaft aber im Wort Christi.^pAber, so frage ich:^l^EINZUGHaben sie etwa nicht gehört?^lJa doch: In die ganze Welt ist ihr Schall gedrungen^lund bis an die Enden der Erde ihre Worte.^l",
+            "ms_aps_stelle": "Ps 19,2-3.4-5b",
+            "ms_aps_kv": "Ihre Botschaft geht hinaus in die ganze Welt.",
+            "ms_aps_text": "Die Himmel erzählen die Herrlichkeit Gottes^*und das Firmament kündet das Werk seiner Hände.^pEin Tag sagt es dem andern,^*eine Nacht tut es der andern kund.^KV^POhne Rede und ohne Worte,^*ungehört bleibt ihre Stimme.^pDoch ihre Botschaft geht in die ganze Welt hinaus,^*ihre Kunde bis zu den Enden der Erde.",
+            "ms_ruf_text": "Mk 1,17",
+            "ms_ev_buch": "Mt",
+            "ms_ev_stelle": "4,18-22",
+            "ms_ev_motto": "Sofort ließen sie ihre Netze liegen und folgten ihm nach",
+            "ms_ev_text": "In jener Zeit,^l^EINZUGals Jesus am See von Galiläa entlangging,^l^EINZUGsah er zwei Brüder,^lSimon, genannt Petrus,^l^EINZUGund seinen Bruder Andreas;^lsie warfen gerade ihr Netz in den See,^ldenn sie waren Fischer.^pDa sagte er zu ihnen: Kommt her, mir nach!^lIch werde euch zu Menschenfischern machen.^lSofort ließen sie ihre Netze liegen und folgten ihm nach.^pAls er weiterging, sah er zwei andere Brüder,^lJakobus, den Sohn des Zebedäus,^l^EINZUGund seinen Bruder Johannes;^lsie waren mit ihrem Vater Zebedäus im Boot^l^EINZUGund richteten ihre Netze her.^pEr rief sie^lund sogleich verließen sie das Boot und ihren Vater^l^EINZUGund folgten Jesus nach.^l"
           }
         }
       }
@@ -934,7 +1250,7 @@ export const lectureABCData = {
             "ms_ev_buch": "Lk",
             "ms_ev_stelle": "3,15-16.21-22",
             "ms_ev_motto": "Jesus ließ sich taufen; und während er betete, öffnete sich der Himmel",
-            "ms_ev_text": "In jener Zeit^l^EINZUGwar das Volk voll Erwartung^lund alle überlegten im Herzen,^l^EINZUGob Johannes nicht vielleicht selbst der Christus sei.^pDoch Johannes gab ihnen allen zur Antwort:^l^EINZUGIch taufe euch mit Wasser.^lEs kommt aber einer, der stärker ist als ich,^lund ich bin es nicht wert, ihm die Riemen der Sandalen zu lösen.^lEr wird euch mit dem Heiligen Geist und mit Feuer taufen.^pEs geschah aber,^l^EINZUGdass sich zusammen mit dem ganzen Volk^l^EINZUGauch Jesus taufen ließ.^lUnd während er betete,^Löffnete sich der Himmel^lund der Heilige Geist^l^EINZUGkam sichtbar in Gestalt einer Taube auf ihn herab^lund eine Stimme aus dem Himmel sprach:^l^EINZUGDu bist mein geliebter Sohn,^lan dir habe ich Wohlgefallen gefunden."
+            "ms_ev_text": "In jener Zeit^l^EINZUGwar das Volk voll Erwartung^lund alle überlegten im Herzen,^l^EINZUGob Johannes nicht vielleicht selbst der Christus sei.^pDoch Johannes gab ihnen allen zur Antwort:^l^EINZUGIch taufe euch mit Wasser.^lEs kommt aber einer, der stärker ist als ich,^lund ich bin es nicht wert, ihm die Riemen der Sandalen zu lösen.^lEr wird euch mit dem Heiligen Geist und mit Feuer taufen.^pEs geschah aber,^l^EINZUGdass sich zusammen mit dem ganzen Volk^l^EINZUGauch Jesus taufen ließ.^lUnd während er betete,^l^EINZUGöffnete sich der Himmel^lund der Heilige Geist^l^EINZUGkam sichtbar in Gestalt einer Taube auf ihn herab^lund eine Stimme aus dem Himmel sprach:^l^EINZUGDu bist mein geliebter Sohn,^lan dir habe ich Wohlgefallen gefunden."
           }
         }
       }
@@ -3279,7 +3595,7 @@ export const lectureABCData = {
             "ms_les_motto": "Da ihr euch selbst des ewigen Lebens für unwürdig erachtet, wenden wir uns jetzt an die Heiden",
             "ms_les_text": "In jenen Tagen^l^EINZUGwanderten Paulus und Barnabas von Perge weiter^l^EINZUGund kamen nach Antiochia in Pisidien.^lDort gingen sie am Sabbat in die Synagoge und setzten sich.^pEs schlossen sich viele Juden und fromme Prosel&yacute;ten^l^EINZUGPaulus und Barnabas an.^lDiese redeten ihnen zu^lund ermahnten sie, der Gnade Gottes treu zu bleiben.^pAm folgenden Sabbat versammelte sich fast die ganze Stadt,^l^EINZUGum das Wort des Herrn zu hören.^lAls die Juden die Scharen sahen, wurden sie eifersüchtig,^lwidersprachen den Worten des Paulus^l^EINZUGund stießen Lästerungen aus.^pPaulus und Barnabas aber erklärten freimütig:^l^EINZUGEuch musste das Wort Gottes zuerst verkündet werden.^lDa ihr es aber zurückstoßt^l^EINZUGund euch selbst des ewigen Lebens für unwürdig erachtet,^l^EINZUGsiehe, so wenden wir uns jetzt an die Heiden.^lDenn so hat uns der Herr aufgetragen:^lIch habe dich zum Licht für die Völker gemacht,^lbis an das Ende der Erde sollst du das Heil sein.^pAls die Heiden das hörten, freuten sie sich^l^EINZUGund priesen das Wort des Herrn;^lund alle wurden gläubig, die für das ewige Leben bestimmt waren.^lDas Wort des Herrn aber verbreitete sich in der ganzen Gegend.^pDie Juden jedoch^l^EINZUGhetzten die vornehmen gottesfürchtigen Frauen^l^EINZUGund die Ersten der Stadt auf,^lveranlassten eine Verfolgung gegen Paulus und Barnabas^lund vertrieben sie aus ihrem Gebiet.^lDiese aber schüttelten gegen sie den Staub von ihren Füßen^l^EINZUGund zogen nach Ikonion.^lUnd die Jünger wurden mit Freude^l^EINZUGund Heiligem Geist erfüllt.",
             "ms_aps_stelle": "Ps 100,1-3.4.5",
-            "ms_aps_kv": "Wir sind das Volk des HERRN,^ldie Herde seiner Weide.^APSHALL^l",
+            "ms_aps_kv": "Wir sind das Volk des HERRN,^ldie Herde seiner Weide.^APSHALL",
             "ms_aps_text": "Jauchzt dem HERRN, alle Lande!^+Dient dem HERRN mit Freude!^*Kommt vor sein Angesicht mit Jubel!^pErkennt: Der HERR allein ist Gott.^+Er hat uns gemacht, wir sind sein Eigentum,^*sein Volk und die Herde seiner Weide.^KV^PKommt mit Dank durch seine Tore,^+mit Lobgesang in seine Höfe!^*Dankt ihm, preist seinen Namen!^pDenn der HERR ist gut,^+ewig währt seine Huld^*und von Geschlecht zu Geschlecht seine Treue.",
             "ms_les2_buch": "Offb",
             "ms_les2_stelle": "7,9.14b-17",
@@ -3344,7 +3660,7 @@ export const lectureABCData = {
             "ms_les_motto": "Sie berichteten der Gemeinde, was Gott zusammen mit ihnen getan hatte",
             "ms_les_text": "In jenen Tagen^l^EINZUGkehrten Paulus und Barnabas^l^EINZUGnach Lystra, Ikonion und Antiochia zurück.^lSie stärkten die Seelen der Jünger^lund ermahnten sie, treu am Glauben festzuhalten;^lsie sagten:^l^EINZUGDurch viele Drangsale^l^EINZUGmüssen wir in das Reich Gottes gelangen.^pSie setzten für sie in jeder Gemeinde Älteste ein^lund empfahlen sie unter Gebet und Fasten dem Herrn,^l^EINZUGan den sie nun glaubten.^pNachdem sie durch Pisidien gezogen waren,^l^EINZUGkamen sie nach Pamph&yacute;lien,^lverkündeten in Perge das Wort^lund gingen dann nach Attalia hinab.^lVon dort segelten sie nach Antiochia,^l^EINZUGwo man sie für das Werk, das sie nun vollbracht hatten,^l^EINZUGder Gnade Gottes übereignet hatte.^pAls sie dort angekommen waren,^l^EINZUGriefen sie die Gemeinde zusammen^lund berichteten alles, was Gott mit ihnen zusammen getan^l^EINZUGund dass er den Heiden die Tür zum Glauben geöffnet hatte.",
             "ms_aps_stelle": "Ps 145,1-2.8-9.10-11.13c-14",
-            "ms_aps_kv": "Ich will dich erheben, meinen Gott und König.^APSHALL^l",
+            "ms_aps_kv": "Ich will dich erheben, meinen Gott und König.^APSHALL",
             "ms_aps_text": "Ich will dich erheben, meinen Gott und König,^*ich will deinen Namen preisen auf immer und ewig.^pJeden Tag will ich dich preisen^*und deinen Namen loben auf immer und ewig.^KV^PDer HERR ist gnädig und barmherzig,^*langmütig und reich an Huld.^pDer HERR ist gut zu allen,^*sein Erbarmen waltet über all seinen Werken.^KV^PDanken sollen dir, HERR, all deine Werke,^*deine Frommen sollen dich preisen.^pVon der Herrlichkeit deines Königtums sollen sie reden,^*von deiner Macht sollen sie sprechen.^KV^PTreu ist der HERR in seinen Reden,^*und heilig in all seinen Werken.^pDer HERR stützt alle, die fallen,^*er richtet alle auf, die gebeugt sind.",
             "ms_les2_buch": "Offb",
             "ms_les2_stelle": "21,1-5a",
@@ -3595,6 +3911,28 @@ export const lectureABCData = {
     }
   },
   "q": {
+    "0": {
+      "3": {
+        "a": {
+          "Messe": {
+            "ms_les_buch": "Joël",
+            "ms_les_stelle": "2,12-18",
+            "ms_les_motto": "Zerreißt eure Herzen, nicht eure Kleider",
+            "ms_les_text": "Spruch des HERRN:^lKehrt um zu mir von ganzem Herzen^l   mit Fasten, Weinen und Klagen!^lZerreißt eure Herzen, nicht eure Kleider,^l   und kehrt um zum HERRN, eurem Gott!^lDenn er ist gnädig und barmherzig,^l   langmütig und reich an Huld^lund es reut ihn das Unheil.^lWer weiß, vielleicht kehrt er um und es reut ihn^l   und er lässt Segen zurück,^lsodass ihr Speise- und Trankopfer darbringen könnt^l   für den HERRN, euren Gott.^pAuf dem Zion stoßt in das Horn,^lordnet ein heiliges Fasten an,^lruft einen Gottesdienst aus!^lVersammelt das Volk,^lheiligt die Gemeinde!^lVersammelt die Alten,^lholt die Kinder zusammen, auch die Säuglinge!^lDer Bräutigam verlasse seine Kammer^l   und die Braut ihr Gemach.^pZwischen Vorhalle und Altar sollen die Priester klagen,^ldie Diener des HERRN sollen sprechen:^l   Hab Mitleid, HERR, mit deinem Volk^lund überlass dein Erbe nicht der Schande,^l   damit die Völker nicht über uns spotten!^lWarum soll man bei den Völkern sagen:^l   Wo ist denn ihr Gott?^pDa erwachte im HERRN die Leidenschaft für sein Land^l   und er hatte Erbarmen mit seinem Volk.^l",
+            "ms_aps_stelle": "Ps 51,3-4.5-6b.12-13.14 u. 17",
+            "ms_les2_buch": "2°Kor",
+            "ms_les2_stelle": "5,20 – 6,2",
+            "ms_les2_motto": "Lasst euch mit Gott versöhnen! Jetzt ist sie da, die Zeit der Gnade",
+            "ms_les2_text": "Schwestern und Brüder!^lWir sind also Gesandte an Christi statt^lund Gott ist es, der durch uns mahnt.^lWir bitten an Christi statt:^l   Lasst euch mit Gott versöhnen!^lEr hat den, der keine Sünde kannte,^l   für uns zur Sünde gemacht,^ldamit wir in ihm Gerechtigkeit Gottes würden.^pAls Mitarbeiter Gottes ermahnen wir euch,^l   dass ihr seine Gnade nicht vergebens empfangt.^lDenn es heißt:^l   Zur Zeit der Gnade habe ich dich erhört,^l   am Tag der Rettung habe ich dir geholfen.^pSiehe, jetzt ist sie da, die Zeit der Gnade;^lsiehe, jetzt ist er da, der Tag der Rettung.^l",
+            "ms_ruf_text": "Wenn ihr heute seine Stimme hört, verhärtet nicht euer Herz!",
+            "ms_ev_buch": "Mt",
+            "ms_ev_stelle": "6,1-6.16-18",
+            "ms_ev_motto": "Dein Vater, der das Verborgene sieht, wird es dir vergelten",
+            "ms_ev_text": "In jener Zeit sprach Jesus zu seinen Jüngern:^lHütet euch,^l   eure Gerechtigkeit vor den Menschen zu tun,^l   um von ihnen gesehen zu werden;^lsonst habt ihr keinen Lohn^l   von eurem Vater im Himmel zu erwarten.^pWenn du Almosen gibst,^l   posaune es nicht vor dir her,^l   wie es die Heuchler in den Synagogen und auf den Gassen tun,^l   um von den Leuten gelobt zu werden!^lAmen, ich sage euch:^lSie haben ihren Lohn bereits erhalten.^lWenn du Almosen gibst,^l   soll deine linke Hand nicht wissen, was deine rechte tut,^ldamit dein Almosen im Verborgenen bleibt;^lund dein Vater, der auch das Verborgene sieht,^l   wird es dir vergelten.^pWenn ihr betet,^l   macht es nicht wie die Heuchler!^lSie stellen sich beim Gebet^l   gern in die Synagogen und an die Straßenecken,^l   damit sie von den Leuten gesehen werden.^lAmen, ich sage euch:^lSie haben ihren Lohn bereits erhalten.^pDu aber, wenn du betest, geh in deine Kammer,^lschließ die Tür zu;^ldann bete zu deinem Vater, der im Verborgenen ist!^lDein Vater, der auch das Verborgene sieht,^l   wird es dir vergelten.^pWenn ihr fastet,^l   macht kein finsteres Gesicht wie die Heuchler!^lSie geben sich ein trübseliges Aussehen,^l   damit die Leute merken, dass sie fasten.^lAmen, ich sage euch:^lSie haben ihren Lohn bereits erhalten.^pDu aber, wenn du fastest, salbe dein Haupt^lund wasche dein Gesicht,^ldamit die Leute nicht merken, dass du fastest,^l   sondern nur dein Vater, der im Verborgenen ist;^lund dein Vater, der das Verborgene sieht,^l   wird es dir vergelten.^l"
+          }
+        }
+      }
+    },
     "1": {
       "0": {
         "a": {
@@ -3930,7 +4268,7 @@ export const lectureABCData = {
             "ms_les_motto": "Mein Gesicht verbarg ich nicht vor Schmähungen, doch ich weiß, dass ich nicht in Schande gerate (Drittes Lied vom Gottesknecht)",
             "ms_les_text": "GOTT, der Herr, gab mir die Zunge von Schülern,^ldamit ich verstehe,^l^EINZUGdie Müden zu stärken durch ein aufmunterndes Wort.^lJeden Morgen weckt er mein Ohr,^l^EINZUGdamit ich höre, wie Schüler hören.^lGOTT, der Herr, hat mir das Ohr geöffnet.^pIch aber wehrte mich nicht^l^EINZUGund wich nicht zurück.^lIch hielt meinen Rücken denen hin, die mich schlugen,^lund meine Wange denen, die mir den Bart ausrissen.^lMein Gesicht verbarg ich nicht^l^EINZUGvor Schmähungen und Speichel.^pUnd GOTT, der Herr, wird mir helfen;^ldarum werde ich nicht in Schande enden.^lDeshalb mache ich mein Gesicht hart wie einen Kiesel;^lich weiß, dass ich nicht in Schande gerate.",
             "ms_aps_stelle": "Ps 22,8-9.17-18.19-20.23-24",
-            "ms_aps_kv": "Mein Gott, mein Gott,^l^lwarum hast du mich verlassen?",
+            "ms_aps_kv": "Mein Gott, mein Gott,^lwarum hast du mich verlassen?",
             "ms_aps_text": "Alle, die mich sehen, verlachen mich,^*verziehen die Lippen, schütteln den Kopf:^p&bdquo;Wälze die Last auf den HERRN!^+Er soll ihn befreien,^*er reiße ihn heraus, wenn er an ihm Gefallen hat!„^KV^PDenn Hunde haben mich umlagert,^+eine Rotte von Bösen hat mich umkreist.^*Sie haben mir Hände und Füße durchbohrt.^pIch kann all meine Knochen zählen;^*sie gaffen und starren mich an.^KV^PSie verteilen unter sich meine Kleider^*und werfen das Los um mein Gewand.^pDu aber, HERR, halte dich nicht fern!^*Du, meine Stärke, eile mir zu Hilfe!^KV^PIch will deinen Namen, Herr, meinen Brüdern verkünden,^*inmitten der Versammlung dich loben.^pDie ihr den HERRN fürchtet, lobt ihn;^+all ihr Nachkommen Jakobs, rühmt ihn;^*erschauert vor ihm, all ihr Nachkommen Israels!",
             "ms_les2_buch": "Phil",
             "ms_les2_stelle": "2,6-11",
@@ -4027,28 +4365,6 @@ export const lectureABCData = {
           "Messe": {}
         }
       }
-    },
-    "0": {
-      "3": {
-        "a": {
-          "Messe": {
-            "ms_les_buch": "Joël",
-            "ms_les_stelle": "2,12-18",
-            "ms_les_motto": "Zerreißt eure Herzen, nicht eure Kleider",
-            "ms_les_text": "Spruch des HERRN:^lKehrt um zu mir von ganzem Herzen^l   mit Fasten, Weinen und Klagen!^lZerreißt eure Herzen, nicht eure Kleider,^l   und kehrt um zum HERRN, eurem Gott!^lDenn er ist gnädig und barmherzig,^l   langmütig und reich an Huld^lund es reut ihn das Unheil.^lWer weiß, vielleicht kehrt er um und es reut ihn^l   und er lässt Segen zurück,^lsodass ihr Speise- und Trankopfer darbringen könnt^l   für den HERRN, euren Gott.^pAuf dem Zion stoßt in das Horn,^lordnet ein heiliges Fasten an,^lruft einen Gottesdienst aus!^lVersammelt das Volk,^lheiligt die Gemeinde!^lVersammelt die Alten,^lholt die Kinder zusammen, auch die Säuglinge!^lDer Bräutigam verlasse seine Kammer^l   und die Braut ihr Gemach.^pZwischen Vorhalle und Altar sollen die Priester klagen,^ldie Diener des HERRN sollen sprechen:^l   Hab Mitleid, HERR, mit deinem Volk^lund überlass dein Erbe nicht der Schande,^l   damit die Völker nicht über uns spotten!^lWarum soll man bei den Völkern sagen:^l   Wo ist denn ihr Gott?^pDa erwachte im HERRN die Leidenschaft für sein Land^l   und er hatte Erbarmen mit seinem Volk.^l",
-            "ms_aps_stelle": "Ps 51,3-4.5-6b.12-13.14 u. 17",
-            "ms_les2_buch": "2°Kor",
-            "ms_les2_stelle": "5,20 – 6,2",
-            "ms_les2_motto": "Lasst euch mit Gott versöhnen! Jetzt ist sie da, die Zeit der Gnade",
-            "ms_les2_text": "Schwestern und Brüder!^lWir sind also Gesandte an Christi statt^lund Gott ist es, der durch uns mahnt.^lWir bitten an Christi statt:^l   Lasst euch mit Gott versöhnen!^lEr hat den, der keine Sünde kannte,^l   für uns zur Sünde gemacht,^ldamit wir in ihm Gerechtigkeit Gottes würden.^pAls Mitarbeiter Gottes ermahnen wir euch,^l   dass ihr seine Gnade nicht vergebens empfangt.^lDenn es heißt:^l   Zur Zeit der Gnade habe ich dich erhört,^l   am Tag der Rettung habe ich dir geholfen.^pSiehe, jetzt ist sie da, die Zeit der Gnade;^lsiehe, jetzt ist er da, der Tag der Rettung.^l",
-            "ms_ruf_text": "Wenn ihr heute seine Stimme hört, verhärtet nicht euer Herz!",
-            "ms_ev_buch": "Mt",
-            "ms_ev_stelle": "6,1-6.16-18",
-            "ms_ev_motto": "Dein Vater, der das Verborgene sieht, wird es dir vergelten",
-            "ms_ev_text": "In jener Zeit sprach Jesus zu seinen Jüngern:^lHütet euch,^l   eure Gerechtigkeit vor den Menschen zu tun,^l   um von ihnen gesehen zu werden;^lsonst habt ihr keinen Lohn^l   von eurem Vater im Himmel zu erwarten.^pWenn du Almosen gibst,^l   posaune es nicht vor dir her,^l   wie es die Heuchler in den Synagogen und auf den Gassen tun,^l   um von den Leuten gelobt zu werden!^lAmen, ich sage euch:^lSie haben ihren Lohn bereits erhalten.^lWenn du Almosen gibst,^l   soll deine linke Hand nicht wissen, was deine rechte tut,^ldamit dein Almosen im Verborgenen bleibt;^lund dein Vater, der auch das Verborgene sieht,^l   wird es dir vergelten.^pWenn ihr betet,^l   macht es nicht wie die Heuchler!^lSie stellen sich beim Gebet^l   gern in die Synagogen und an die Straßenecken,^l   damit sie von den Leuten gesehen werden.^lAmen, ich sage euch:^lSie haben ihren Lohn bereits erhalten.^pDu aber, wenn du betest, geh in deine Kammer,^lschließ die Tür zu;^ldann bete zu deinem Vater, der im Verborgenen ist!^lDein Vater, der auch das Verborgene sieht,^l   wird es dir vergelten.^pWenn ihr fastet,^l   macht kein finsteres Gesicht wie die Heuchler!^lSie geben sich ein trübseliges Aussehen,^l   damit die Leute merken, dass sie fasten.^lAmen, ich sage euch:^lSie haben ihren Lohn bereits erhalten.^pDu aber, wenn du fastest, salbe dein Haupt^lund wasche dein Gesicht,^ldamit die Leute nicht merken, dass du fastest,^l   sondern nur dein Vater, der im Verborgenen ist;^lund dein Vater, der das Verborgene sieht,^l   wird es dir vergelten.^l"
-          }
-        }
-      }
     }
   },
   "w": {
@@ -4067,7 +4383,7 @@ export const lectureABCData = {
             "ms_les2_stelle": "3,12-21",
             "ms_les2_motto": "Die Liebe ist das Band der Vollkommenheit",
             "ms_les2_text": "Schwestern und Brüder!^lBekleidet euch,^l^EINZUGals Erwählte Gottes, Heilige und Geliebte,^l^EINZUGmit innigem Erbarmen,^lGüte, Demut, Milde, Geduld!^lErtragt einander^lund vergebt einander,^l^EINZUGwenn einer dem anderen etwas vorzuwerfen hat!^lWie der Herr euch vergeben hat,^l^EINZUGso vergebt auch ihr!^lVor allem bekleidet euch mit der Liebe,^l^EINZUGdie das Band der Vollkommenheit ist!^lUnd der Friede Christi triumphiere in euren Herzen.^lDazu seid ihr berufen als Glieder des einen Leibes.^lSeid dankbar!^pDas Wort Christi wohne mit seinem ganzen Reichtum bei euch.^lIn aller Weisheit belehrt und ermahnt einander!^lSingt Gott Psalmen, Hymnen und geistliche Lieder^l^EINZUGin Dankbarkeit in euren Herzen!^lAlles, was ihr in Wort oder Werk tut,^l^EINZUGgeschehe im Namen Jesu, des Herrn.^lDankt Gott, dem Vater, durch ihn!^pIhr Frauen,^lordnet euch den Männern unter,^l^EINZUGwie es sich im Herrn geziemt!^lIhr Männer,^lliebt die Frauen^l^EINZUGund seid nicht erbittert gegen sie!^lIhr Kinder,^lgehorcht euren Eltern in allem,^ldenn das ist dem Herrn wohlgefällig!^lIhr Väter,^lschüchtert eure Kinder nicht ein,^l^EINZUGdamit sie nicht mutlos werden!",
-            "ms_ruf_text": "Der Friede Christi triumphiere in euren Herzen. Das Wort Christi wohne mit seinem ganzen Reichtum bei euch.",
+            "ms_ruf_text": "Kol 3,15",
             "ms_ev_buch": "Mt",
             "ms_ev_stelle": "2,13-15.19-23",
             "ms_ev_motto": "Nimm das Kind und seine Mutter und flieh nach Ägypten!",
@@ -4132,7 +4448,7 @@ export const lectureABCData = {
             "ms_les2_stelle": "1,3-6.15-18",
             "ms_les2_motto": "Gott hat uns im Voraus dazu bestimmt, seine Söhne zu werden durch Jesus Christus",
             "ms_les2_text": "Gepriesen sei Gott,^lder Gott und Vater unseres Herrn Jesus Christus.^lEr hat uns mit allem Segen seines Geistes gesegnet^l^EINZUGdurch unsere Gemeinschaft mit Christus im Himmel.^lDenn in ihm hat er uns erwählt vor der Grundlegung der Welt,^ldamit wir heilig und untadelig leben vor ihm.^lEr hat uns aus Liebe im Voraus dazu bestimmt,^l^EINZUGseine Söhne zu werden durch Jesus Christus^l^EINZUGund zu ihm zu gelangen nach seinem gnädigen Willen,^lzum Lob seiner herrlichen Gnade.^lEr hat sie uns geschenkt in seinem geliebten Sohn.^pDarum höre ich nicht auf, für euch zu danken,^lwenn ich in meinen Gebeten an euch denke;^ldenn ich habe von eurem Glauben an Jesus, den Herrn,^l^EINZUGund von eurer Liebe zu allen Heiligen gehört.^lDer Gott Jesu Christi, unseres Herrn,^l^EINZUGder Vater der Herrlichkeit,^l^EINZUGgebe euch den Geist der Weisheit und Offenbarung,^l^EINZUGdamit ihr ihn erkennt.^lEr erleuchte die Augen eures Herzens,^l^EINZUGdamit ihr versteht,^l^EINZUGzu welcher Hoffnung ihr durch ihn berufen seid,^lwelchen Reichtum^l^EINZUGdie Herrlichkeit seines Erbes den Heiligen schenkt.",
-            "ms_ruf_text": "Christus, offenbart im Fleisch, verkündet unter den Völkern, Christus, geglaubt in der Welt: Ehre sei dir!",
+            "ms_ruf_text": "1 Tim 3,16",
             "ms_ev_buch": "Joh",
             "ms_ev_stelle": "1,1-18",
             "ms_ev_motto": "Das Wort ist Fleisch geworden und hat unter uns gewohnt",

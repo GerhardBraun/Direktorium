@@ -113,8 +113,12 @@ const MassReadings = ({
             if (!index) index = (texts?.yearABC.toLowerCase().charCodeAt(0) - 96)
             resp = setOfResp[index]
         }
-        respWithRepeat = resp + '°^r–°Kv^0r'
     }
+    if (texts?.dateCompare === '11-02')
+        resp = setOfResp[2]
+
+    if (!resp.startsWith('Halleluja'))
+        respWithRepeat = resp + '°^r–°Kv^0r'
 
     const Reading = ({ type, title }) => {
 
