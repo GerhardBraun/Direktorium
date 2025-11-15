@@ -1,4 +1,4 @@
-// RufvdEv.ts - Automatisch generiert am 13.11.2025 02:45:22
+// RufvdEv.ts - Automatisch generiert am 15.11.2025 11:17:09
 // RufvdEv-Datenbank: ID -> { Stelle, Text }
 
 export const rufvdevData = {
@@ -52,7 +52,7 @@ export const rufvdevData = {
   },
   '2 Chr 7,16': {
     Stelle: 'vgl. 2 Chr 7,16a',
-    Text: '^SPRICHTIch habe dieses Haus erwählt und geheiligt,^ldamit mein Name hier sei auf ewig.'
+    Text: '^SPRGOTTIch habe dieses Haus erwählt und geheiligt,^ldamit mein Name hier sei auf ewig.'
   },
   '2 Kor 1,3b': {
     Stelle: '2 Kor 1,3b–4a',

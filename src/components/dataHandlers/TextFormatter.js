@@ -427,6 +427,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         .replace(/\^HULDlat/g, '^*quóniam in sǽculum misericórdia eius')
         .replace(/\^HULDaet/g, '^*quóniam in ætérnum misericórdia eius')
         .replace(/\^SPRICHT/g, '^(So spricht der Herr:^)^l')
+        .replace(/\^SPRGOTT/g, '^(So spricht Gott, der Herr:^)^l')
         .replace(/\^EINZUG/g, '')
         .replace(/^›|_lat|_neu|_ben|\^SLICE|\^APSHALL/g, '')
         .replace(/°/g, '\u00A0')

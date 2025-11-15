@@ -9135,6 +9135,14 @@ export const deceasedData =  {
         "birth": "24.°Oktober°1940°in°Fulda",
         "grave": "Friedhof°am°Frauenberg,°Fulda",
         "age": 75
+      },
+      {
+        "year": 2025,
+        "birthdate": "2250-05-28",
+        "name": "Anton°Münnich°(Trier/Fulda), Diakon°i.R., Kassel",
+        "birth": "28.°Mai°1950°in°Leina (D¥-99887°Georgenthal)",
+        "grave": "Friedhof°Kassel¥-Harleshausen",
+        "age": 75
       }
     ],
     "7": [
