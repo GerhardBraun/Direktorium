@@ -384,7 +384,12 @@ const PrayerTextDisplay = ({
   const [localPrefKomplet, setLocalPrefKomplet] = useState(texts?.komplet?.prefKomplet || "wt");
 
   useEffect(() => {
-    setLocalPrefInv(texts?.prefInv || 95)
+    setLocalPrefComm(texts?.prefComm || 0);
+    setLocalPrefContinuous(false);
+    setLocalPrefPsalmsWt(false);
+    setLocalPrefInv(texts?.prefInv || 95);
+    setLocalPrefErgPs(false);
+    setLocalPrefKomplet(texts?.komplet?.prefKomplet || "wt");
   }, [texts]);
 
   useEffect(() => {

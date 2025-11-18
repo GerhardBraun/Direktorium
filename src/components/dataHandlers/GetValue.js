@@ -100,6 +100,8 @@ export const getValue = ({ season, hour, texts, field,
         (texts[hour][prefSrc]?.[checkAnt0] ||
             texts[hour][prefSrc]?.[`com${localPrefComm}`]?.[checkAnt0])
 
+    const hasEigFirstReading = !!texts.lesehore?.oblig?.les_text
+
     //Aschermittwoch und Allerseelen: trotz Hochfest keine Fest-Psalmodie in den Laudes
     const psalm51 = hour === 'laudes' &&
         (swdCombined === 'q-0-3' || allSouls)
@@ -201,7 +203,8 @@ export const getValue = ({ season, hour, texts, field,
         //Sonderfall Bahnlesung
         if (localPrefContinuous && hour === 'lesehore') {
             if (/^(patr_)/.test(field) ||
-                (/^(les_|resp)/.test(field) && (!localPrefComm || isSollemnity)))
+                (/^(les_|resp)/.test(field) && (!localPrefComm || hasEigFirstReading)
+                ))
                 return result(texts[hour]?.wt)
         }
 
