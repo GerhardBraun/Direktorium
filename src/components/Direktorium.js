@@ -575,7 +575,7 @@ const PrayerTextDisplay = ({
   const { advResp, advVers } =
     (texts.swdCombined === 'a-1-0'
       && hour === 'lesehore'
-      && (!getValue('patr_resp1') || localPrefLatin))
+      && (getValue('patr_resp1') === 'LEER' || localPrefLatin))
       ? ordinarium('advent', hour, localPrefLatin) : { advResp: '', advVers: '' };
 
   return (
@@ -748,6 +748,7 @@ const PrayerTextDisplay = ({
           getValue={getValue}
           SectionHeader={SectionHeader}
           ComposeResponse={ComposeResponse}
+          advResp={advResp}
         />
 
         {/* erweitertes Responsorium am 1. Adventssonntag Jahr II */}

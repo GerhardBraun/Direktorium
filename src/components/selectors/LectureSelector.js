@@ -12,7 +12,8 @@ const LectureSelector = ({
     formatPrayerText,
     getValue,
     SectionHeader,
-    ComposeResponse
+    ComposeResponse,
+    advResp = ''
 }) => {
 
     // State für beide Lesungen - jetzt mit Index 0+ für Alternativen
@@ -578,7 +579,7 @@ const LectureSelector = ({
             )}
 
             {/* RESPONSORIUM zur zweiten Lesung */}
-            {selected("patr_resp1") && (
+            {selected("patr_resp1") && !advResp && (
                 <div className="mb-0">
                     <SectionHeader
                         title="RESPONSORIUM"
