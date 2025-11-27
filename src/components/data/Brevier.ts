@@ -5843,6 +5843,9 @@ export const brevierData = {
         },
         "Laudes": {
           "hymn_1": 3952.0,
+          "psalm1": 63.0,
+          "psalm2": 160.0,
+          "psalm3": 149.0,
           "ant1": "O wahre Sonne, Aufgang des neuen Lichts! Seht, unser König sitzt auf seinem Thron und herrscht. Frieden verkündet er den Völkern.",
           "ant2": "Bis an die Enden der Erde reicht sein Ruhm. Er wird der Friede sein.",
           "ant3": "Herrschaft, Würde und Königtum hat ihm der Herr gegeben; alle Völker, Stämme und Sprachen werden ihm dienen.",
@@ -5871,6 +5874,9 @@ export const brevierData = {
           "les_text_lat": "Veritátem faciéntes in caritáte crescámus in illum per ómnia, qui est caput Christus, ex quo totum corpus compáctum et conéxum per omnem iunctúram subministratiónis secúndum operatiónem in mensúra uniuscuiúsque partis augméntum córporis facit in ædificatiónem sui in caritáte."
         },
         "Terz": {
+          "psalm1": 118.1,
+          "psalm2": 118.2,
+          "psalm3": 118.3,
           "ant0": "Der Herr ist unser Richter, er gibt Weisung und Gesetz. Der Herr ist unser König, er wird uns retten.",
           "ant1": "",
           "ant2": "",
@@ -5961,7 +5967,7 @@ export const brevierData = {
       },
       "each": {
         "Lesehore": {
-          "oration": "Gott, unser Vater, erwecke deine Gläubigen zu neuem Eifer, damit das Werk deines Erbarmens in unserem Leben reiche Frucht trägt und wir einst die Fülle des heils empfangen.^ORV",
+          "oration": "Gott, unser Vater, erwecke deine Gläubigen zu neuem Eifer, damit das Werk deines Erbarmens in unserem Leben reiche Frucht trägt und wir einst die Fülle des Heils empfangen.^ORV",
           "hymn_3_lat": 3991.2,
           "oration_lat": "Excita, quǽsumus, Dómine, tuórum fidélium voluntátes, ut, divíni óperis fructum propénsius exsequéntes, pietátis tuæ remédia maióra percípiant.^ORlV"
         },
