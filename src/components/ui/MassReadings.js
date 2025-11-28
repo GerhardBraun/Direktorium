@@ -94,6 +94,8 @@ const MassReadings = ({
         ms_ruf_stelle, ms_ruf_text,
     } = texts?.messe?.[readingSource] || {}
 
+    const kvRepeat = ms_aps_kv ? '°^r–°Kv^0r' : '';
+
     let ruf_stelle = ms_ruf_stelle || '',
         ruf_text = ms_ruf_text || '';
     const rufData = rufvdevData?.[ms_ruf_text]
@@ -190,7 +192,7 @@ const MassReadings = ({
                             </div>
                             {ms_aps_kv && (
                                 <div className="mb-3">
-                                    {formatPrayerText(ms_aps_kv + '°^r–°Kv^0r', '', 'Kv°°')}
+                                    {formatPrayerText(ms_aps_kv + kvRepeat + '^P', '', 'Kv°°')}
                                     {ms_aps_kv.includes('^APSHALL') && (
                                         <div >
                                             <span className='text-rubric'>(
@@ -201,7 +203,7 @@ const MassReadings = ({
                                     )}
                                 </div>
                             )}
-                            {formatPrayerText('^P' + ms_aps_text + '°^r–°Kv^0r', '', 'Aps')}
+                            {formatPrayerText(ms_aps_text + kvRepeat, '', 'Aps')}
                         </div>
                     )}
 
