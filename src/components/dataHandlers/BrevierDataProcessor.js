@@ -127,11 +127,10 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
     const calendarDay = calendarDate.getDate();
     const calendarMonth = calendarDate.getMonth() + 1;
     //Lesejahr ABC
-    const year = date.getFullYear();
-    const yearABC = ['c', 'a', 'b'][year % 3]
     const lectureYear = date.getFullYear() + (
         (season === 'a' || (calendarMonth === 12 && season !== 'j'))
             ? 1 : 0);
+    const yearABC = ['c', 'a', 'b'][lectureYear % 3]
     const lectureData = lectureYear % 2 === 0 ? lecture2Data : null;
 
     // Initialize structure
@@ -231,7 +230,7 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
 
         // Layer 5.1: 'last' für letzte Adventstage, nach Erscheinung und Pfingstnovene
         const shouldUseLast = (
-            (season === 'a' && calendarDay > 16) ||
+            (season === 'a' && calendarDay > 16 && calendarDay < 25) ||
             (season === 'w' && calendarDay > 5 && calendarDay < 13) ||
             (season === 'o' && (week === 7 || (week === 6 && dayOfWeek > 3)))
         );
@@ -240,7 +239,8 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
 
         // Layer 5.2: 17. Dez. bis Taufe des Herrn (Kalendertage) mit Weihnachtsoktav
         if (season === "a" || season === "w") {
-            if (calendarDay > 24) { addLayer('w', 'okt', 'each') };
+            if (calendarMonth === 12 && calendarDay > 24)
+                addLayer('w', 'okt', 'each');
             addLayer('k', calendarMonth, calendarDay);
             // wiederholte Behandlung des 3. und 4. Adventssonntags:
             // Ant und Pss und Oration vom Adventssonntag, sonst vom Kalendertag
@@ -423,14 +423,19 @@ function processTerzPsalms(hours) {
     return hours;
 }
 
-function processAntABC(hours, yearABC) {
+function processAntABC(hours, yearABC, swdCombined) {
     // Wenn an den Sonntagen Benedictus- und Magnificat-Antiphonen
     // nach Lesejahr ABC unterschiedlich sind,
     // werden die des aktuellen Lesejahres
     // dem relevanten Feld antEv zugewiesen.
 
+
     ['erstev', 'laudes', 'vesper'].forEach(hour => {
-        const antField = 'ant' + yearABC;
+        let antField = 'ant' + yearABC;
+        if (swdCombined === 'j-34-6' && hour === 'vesper') {
+            const followingYearABC = yearABC === 'a' ? 'b' : (yearABC === 'b' ? 'c' : 'a');
+            antField = 'ant' + followingYearABC
+        }
         const antFieldLat = antField + '_lat';
 
         if (hours[hour].wt?.[antField])
@@ -643,7 +648,7 @@ export function processBrevierData(todayDate) {
     const tomorrowData = getPrayerTexts(brevierData, personalData, tomorrowDate, nextDate);
 
     // Prüfe, ob erste Vesper benötigt wird
-    const { dayOfWeek, swdCombined, rank_wt, rank_date } = todayData;
+    const { season, dayOfWeek, swdCombined, rank_wt, rank_date } = todayData;
     const rankNextWt = tomorrowData.rank_wt;
     const rankNextDate = tomorrowData.rank_date;
     const nextSwdCombined = tomorrowData.swdCombined;
@@ -666,7 +671,9 @@ export function processBrevierData(todayDate) {
             (rankNextDate === 5 || (rankNextDate === 4 && dayOfWeek === 6)));
 
     //Lesejahr ABC
-    const year = todayDate.getFullYear();
+    let year = todayDate.getFullYear();
+    if (season === 'a' || (todayMonth === 12 && season !== 'j'))
+        year += 1;
     const yearABC = ['c', 'a', 'b'][year % 3]
 
     // Stelle die endgültigen Daten zusammen
@@ -686,9 +693,9 @@ export function processBrevierData(todayDate) {
     if (hasErsteVesper_wt || hasErsteVesper_date) {
         finalData.vesper = JSON.parse(JSON.stringify(tomorrowData.erstev));
         finalData.vesper.prefComm = tomorrowData.prefComm;
+        finalData.hasErsteVesper = true;
         if (tomorrowData.laudes?.oblig?.com1?.button)
             finalData.vesper.commButton = tomorrowData.laudes.oblig.com1.button;
-        finalData.hasErsteVesper = true;
         if (hasErsteVesper_wt)
             finalData.vesper.wt.swdWritten = tomorrowData?.swdWritten;
         if (hasErsteVesper_date) {
@@ -699,7 +706,7 @@ export function processBrevierData(todayDate) {
 
     // Wende die finalen Verarbeitungsschritte an
     processTerzPsalms(finalData);
-    processAntABC(finalData, yearABC);
+    processAntABC(finalData, yearABC, swdCombined);
     if (todayInfo.season === 'o') { processEasterResponses(finalData); }
 
     const kompletSettings = processKompletData(finalData, calendarDate);

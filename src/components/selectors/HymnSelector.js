@@ -28,13 +28,15 @@ const HymnSelector = ({ texts, hour, season,
             hymn => ['wtt', 'perss'].includes(hymn.id.split('_')[0]));
 
         if (sourcePath === 'wt' && !hasOnlyWtSources) {
+            if (texts?.swdCombined === 'j-34-6' && hour === 'vesper')
+                return 'btn-violett';
             if (texts?.laudes?.wt?.farbe === 'r' ||
                 (hour === 'vesper' && texts?.vesper?.wt?.farbe === 'r')) {
                 return 'btn-red';
             }
-            else if (season === 'j') { return 'btn-green'; }
-            else if (season === 'a' || season === 'q') { return 'btn-violett'; }
-            else { return 'btn-gold'; }
+            else if (season === 'j') return 'btn-green';
+            else if (season === 'a' || season === 'q') return 'btn-violett';
+            else return 'btn-gold';
         };
 
         // Prüfe auf rote Farbe im prefSrc

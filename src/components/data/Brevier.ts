@@ -449,6 +449,9 @@ export const brevierData = {
           "ant2": "Komm, o Herr, und säume nicht. Befreie dein Volk von seiner Schuld.",
           "ant3": "Siehe, gekommen ist die Fülle der Zeit, da Gott seinen Sohn zur Erde gesandt hat.",
           "antev": "O-AntiphonVomTag",
+          "ant1_lat": "Ecce véniet desiderátus cunctis géntibus, et replébitur glória domus Dómini.^Lö",
+          "ant2_lat": "Veni, Dómine, et noli tardáre; reláxa facínora plebi tuæ, Israel.",
+          "ant3_lat": "Ecce iam venit plenitúdo témporis, in quo misit Deus Fílium suum in terras.",
           "antev_lat": "AntiphonaDiei",
           "oration_lat": "Grátiam tuam, quǽsumus, Dómine, méntibus nostris infúnde, ut qui, Angelo nuntiánte, Christi Fílii tui incarnatiónem cognóvimus, per passiónem eius et crucem ad resurrectiónis glóriam perducámur.^ORlvR"
         },
@@ -459,17 +462,17 @@ export const brevierData = {
           "ant1": "Stoßt in die Posaune auf dem Zion. Denn nahe ist der Tag des Herrn. Seht, er kommt, uns zu erlösen.^ö",
           "ant2": "Der Herr kommt. Eilt ihm entgegen und ruft: Groß ist dein Herrschertum, dein Reich wird niemals untergehn; starker Gott, Gebieter, Friedensfürst.^ö",
           "ant3": "Dein allmächtiges Wort, o Herr, kam herab vom Königsthron.^ö",
-          "ant1_lat": "Ecce véniet desiderátus cunctis géntibus, et replébitur glória domus Dómini.^Lö",
-          "ant2_lat": "Veni, Dómine, et noli tardáre; reláxa facínora plebi tuæ, Israel.",
-          "ant3_lat": "Ecce iam venit plenitúdo témporis, in quo misit Deus Fílium suum in terras."
+          "ant1_lat": "Cánite tuba in Sion, quia prope est dies Dómini: ecce véniet ad salvándum nos.^Lö",
+          "ant2_lat": "Dóminus véniet, occúrrite illi, dicéntes: Magnum princípium, et regni eius non erit finis: Deus fortis, Dominátor, Princeps pacis",
+          "ant3_lat": "Omnípotens Sermo tuus, Dómine, a regálibus sédibus véniet.^Lö"
         },
         "Vesper": {
           "ant1": "Seht, wie herrlich er ist, der kommt, um die Völker zu retten.",
           "ant2": "Berge und Hügel sollen sich senken; was krumm ist, werde gerade, der rauhe Pfad zum ebenen Weg. Komm, Herr, und säume nicht!^ö",
           "ant3": "Sein Reich wird wachsen, und es wird ewiger Friede sein.^ö",
-          "ant1_lat": "Cánite tuba in Sion, quia prope est dies Dómini: ecce véniet ad salvándum nos.^Lö",
-          "ant2_lat": "Dóminus véniet, occúrrite illi, dicéntes: Magnum princípium, et regni eius non erit finis: Deus fortis, Dominátor, Princeps pacis",
-          "ant3_lat": "Omnípotens Sermo tuus, Dómine, a regálibus sédibus véniet.^Lö"
+          "ant1_lat": "Intuémini quam gloriósus sit iste, qui ingréditur ad salvándos pópulos.",
+          "ant2_lat": "Erunt prava in dirécta et áspera in vias planas. Veni, Dómine, et noli tardáre.^Lö",
+          "ant3_lat": "Multiplicábitur eius impérium, et pacis non erit finis.^Lö"
         }
       }
     },
@@ -489,9 +492,7 @@ export const brevierData = {
           "bitten_r": "Komm, Herr, und säume nicht.",
           "bitten": "Wir bitten dich für alle, die deine Ankunft erwarten;^qkomm, Herr Jesus.^pDu bist vor aller Zeit;^qkomm in unsere Zeit und offenbare dich denen, die dich nicht kennen.^pDu hast die Erde erschaffen und alle, die auf ihr wohnen;^qkomm und erlöse das Werk deiner Hände.^pDu hast dich nicht gescheut, unsere sterbliche Natur anzunehmen;^qkomm und entreiße die Welt der Macht des Todes.^pDu willst alle Menschen in deinem Reich vereinen;^qlass die Verstorbenen dein Angesicht schauen.",
           "hymn_2_lat": 0.0,
-          "ant1_lat": "Intuémini quam gloriósus sit iste, qui ingréditur ad salvándos pópulos.",
-          "ant2_lat": "Erunt prava in dirécta et áspera in vias planas. Veni, Dómine, et noli tardáre.^Lö",
-          "ant3_lat": "Multiplicábitur eius impérium, et pacis non erit finis.^Lö"
+          "les_text_lat": "Ipse Deus pacis sanctíficet vos per ómnia, et ínteger spíritus vester et ánima et corpus sine queréla in advéntu Dómini nostri Iesu Christi servétur. Fidélis est, qui vocat vos, qui étiam fáciet."
         },
         "Lesehore": {
           "ant1": "Seht, unser König kommt mit großer Macht, die Völker zu retten.^ö",
