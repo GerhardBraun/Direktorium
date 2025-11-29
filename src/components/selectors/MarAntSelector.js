@@ -1,10 +1,12 @@
 import React, { useState, useMemo, useEffect } from 'react';
 
 const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, formatPrayerText }) => {
+    season = swdCombined === 'j-34-6' ? 'a' : season;
     // Verwende direkt das season-Kürzel zur Identifizierung der Antiphon
     const [selectedAntSeason, setSelectedAntSeason] = useState(null);
     const [Assumption, setAssumption] = useState(false);
     const [Nativity, setNativity] = useState(false);
+
 
     const suffixLatin = useMemo(() => {
         return localPrefLatin ? '_lat' : '';
@@ -87,9 +89,8 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
                 setAssumption(true);
                 return 'q';
             }
-            else { setAssumption(false); }
+            else setAssumption(false);
         }
-
         // Sonst verwende die normale Jahreszeit
         return season;
     }, [selectedDate, swdCombined, season]);
@@ -114,7 +115,7 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
     useEffect(() => {
         if (sortedAntiphons.length > 0 && !selectedAntSeason) {
             const defaultSeason = getDefaultAntiphonSeason;
-
+            console.log("Default Antiphon Season:", defaultSeason);
             // Suche die Antiphon für die berechnete Standardzeit
             const seasonalAnt = sortedAntiphons.find(ant => ant.season === defaultSeason);
 

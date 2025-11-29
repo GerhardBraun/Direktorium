@@ -28,7 +28,7 @@ const HymnSelector = ({ texts, hour, season,
             hymn => ['wtt', 'perss'].includes(hymn.id.split('_')[0]));
 
         if (sourcePath === 'wt' && !hasOnlyWtSources) {
-            if (texts?.swdCombined === 'j-34-6' && hour === 'vesper')
+            if (texts?.swdCombined === 'j-34-6' && ['vesper', 'komplet'].includes(hour))
                 return 'btn-violett';
             if (texts?.laudes?.wt?.farbe === 'r' ||
                 (hour === 'vesper' && texts?.vesper?.wt?.farbe === 'r')) {
