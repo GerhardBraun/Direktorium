@@ -120,11 +120,10 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
             const seasonalAnt = sortedAntiphons.find(ant => ant.season === defaultSeason);
 
             // Wenn gefunden, setze als ausgewählt, sonst nimm die erste
-            if (seasonalAnt) {
+            if (seasonalAnt)
                 setSelectedAntSeason(seasonalAnt.season);
-            } else {
+            else
                 setSelectedAntSeason(sortedAntiphons[0].season);
-            }
         }
     }, [sortedAntiphons, selectedAntSeason, getDefaultAntiphonSeason]);
 
