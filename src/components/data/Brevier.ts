@@ -1530,7 +1530,7 @@ export const brevierData = {
           "resp3": "Sie erzählten die Wunder, die er getan.",
           "bitten_e": "Gepriesen sei Jesus Christus, der uns das unvergängliche Leben geoffenbart hat. Zu ihm lasst uns beten:",
           "bitten_r": "Stärke unseren Glauben.",
-          "bitten": "Du hast deiner Kirche immer wieder heilige Menschen als Hirten geschenkt;^qsende deinen Gläubigen allezeit gute Seelsorger.^pDu hast den Hirten der Kirche den Dienst der Versöhnung anvertraut;^qgib, dass sie ihn treu verwalten.^pDu bist es, der den Seelsorgern Kraft von oben verleiht;^qerfülle alle, die dein Volk führen, mit Heiligem Geist.^pDu selber bist das Erbteil aller, die du zu Seelsorgern berufen hast;^qlass keinen von ihnen verlorengehen.^pDu bist der ewige Lohn deiner Diener;^qschenke den verstorbenen Seelsorgern und allen Gläubigen das ewige Leben.",
+          "bitten": "Du hast deiner Kirche immer wieder heilige Menschen als Hirten geschenkt;^qsende deinen Gläubigen allezeit gute Seelsorger.^pDu hast den Hirten der Kirche den Dienst der Versöhnung anvertraut;^qgib, dass sie ihn treu verwalten.^pDu bist es, der den Seelsorgern Kraft von oben verleiht;^qerfülle alle, die dein Volk führen, mit Heiligem Geist.^pDu selber bist das Erbteil aller, die du zu Seelsorgern berufen hast;^qlass keinen von ihnen verlorengehen.",
           "ant1_lat": "Sapiéntiam antiquórum exquisiérunt sancti evangelístæ, et prophetárum dictis narratiónem suam confirmavérunt.^LÖ",
           "ant2_lat": "In fide veritátis Deus vocávit nos per Evangélium, in acquisitiónem glóriæ Dómini nostri Iesu Christi.^LÖ",
           "ant3_lat": "Collaudábunt multi sapiéntiam eórum, et usque in sǽculum non delébitur.^LÖ",
@@ -3797,7 +3797,7 @@ export const brevierData = {
         }
       },
       "UnschKinder": {
-        "Vesper": {
+        "Laudes": {
           "hymn_1": 9228.0,
           "hymn_kl": 0.0,
           "ant1": "So spricht der Herr: Sie werden mit mir einhergehen in weißen Gewändern, denn sie sind dessen würdig.",
@@ -3814,7 +3814,9 @@ export const brevierData = {
           "bitten_e": "Gepriesen sei Christus, der König der Märtyrer, zu ihm lasst uns beten:",
           "bitten_r": "Dich lobt der Märtyrer weißgewandetes Heer.",
           "bitten": "Nicht mit Worten, sondern mit ihrem Blut haben die Unschuldigen Kinder von dir Zeugnis abgelegt;^qmach uns bereit, dich vor den Menschen zu bekennen.^pUnmündige Kinder hast du als Erstlinge deines Reiches in den Himmel vorausgesandt;^qgib, dass auch wir in dein Reich gelangen.^pSie waren noch nicht fähig zu kämpfen und haben dennoch die Siegespalme errungen;^qlass nicht zu, dass wir im Kampf mit dem Bösen erliegen.^pDu hast sie aufgenommen in die Schar derer, die ihre Kleider gewaschen haben in deinem Blut;^qmach uns rein von aller Sünde.",
-          "oration": "Vater im Himmel, nicht mit Worten haben die Unschuldigen Kinder dich gepriesen, sie haben dich verherrlicht durch ihr Sterben. Gib uns die Gnade, dass wir in Worten und Taten unseren Glauben an dich bekennen.^ORV",
+          "oration": "Vater im Himmel, nicht mit Worten haben die Unschuldigen Kinder dich gepriesen, sie haben dich verherrlicht durch ihr Sterben. Gib uns die Gnade, dass wir in Worten und Taten unseren Glauben an dich bekennen.^ORV"
+        },
+        "Vesper": {
           "hymn_1_lat": 9228.2,
           "ant1_lat": "Ambulábunt mecum in albis, quia digni sunt, dicit Dóminus.",
           "ant2_lat": "Dicunt infántes Dómino laudem; occísi prǽdicant quod vivi non póterant.",
@@ -6869,7 +6871,7 @@ export const brevierData = {
           "antev": "Wisset, das Reich Gottes ist nahe; wahrlich, ich sage euch: Es wird nicht säumen.",
           "bitten_e": "Gepriesen sei Gott, der von Ewigkeit her beschlossen hat, sein Volk zu erlösen. Zu ihm lasst uns beten:",
           "bitten_r": "Handle an uns nach deiner Huld.",
-          "bitten": "Gott, du hast deinem Volk den Messias verheißen, den heiligen und gerechten Spross Davids;^qlass uns teilhaben an seiner Heiligkeit und Gerechtigkeit.^pMach uns bereit, dein Wort aufzunehmen;^qhilf uns heute, untadelig vor dir zu leben.",
+          "bitten": "Gott, du hast deinem Volk den Messias verheißen, den heiligen und gerechten Spross Davids;^qlass uns teilhaben an seiner Heiligkeit und Gerechtigkeit.^pMach uns bereit, dein Wort aufzunehmen;^qhilf uns heute, untadelig vor dir zu leben.^pErhalte uns in deiner Liebe,^qdamit wir Erbarmen finden, wenn Christus wiederkommt.^pMach uns standhaft bis ans Ende,^qbis zum Tag der Ankunft unseres Herrn Jesus Christus.",
           "antev_lat": "Scitóte quia prope est regnum Dei; amen dico vobis quia non tardábit.",
           "bitten_e_lat": "Deum Patrem, qui antíqua dispositióne pópulum suum salváre státuit, orémus dicéntes:",
           "bitten_r_lat": "Custódi plebem tuam, Dómine.",
