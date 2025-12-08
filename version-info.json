@@ -1,5 +1,5 @@
 {
-  "appVersion": "1.1.0",
-  "dataVersion": "2025.10.16_08-02",
-  "updateNotes": "Die App kann jetzt auch offline benutzt werden."
+  "appVersion": "1.1.1",
+  "dataVersion": "2025.12.08_05-09",
+  "updateNotes": "Aktualisierung des ServiceWorkers für die Nutzung der App ohne Online-Verbindung"
 }
