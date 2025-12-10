@@ -9853,6 +9853,14 @@ export const deceasedData =  {
         "birth": "9.°Januar°1910°in°Niederroedern/Elsaß (F¥-67470)",
         "grave": "Klosterfriedhof°Hünfeld",
         "age": 84
+      },
+      {
+        "year": 2025,
+        "birthdate": "2258-09-22",
+        "name": "P.°Ivan°Kovačević°OFMConv, Hanau",
+        "birth": "22.°September°1958°in°Zahum (BiH¥-88440°Prozor¥-Rama)",
+        "grave": "Krypta°der°Heilig¥-Geist¥-Kapelle in°Zagreb",
+        "age": 67
       }
     ],
     "4": [
