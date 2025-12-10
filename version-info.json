@@ -1,5 +1,5 @@
 {
-  "appVersion": "1.1.1",
-  "dataVersion": "2025.12.08_05-09",
-  "updateNotes": "Aktualisierung des ServiceWorkers für die Nutzung der App ohne Online-Verbindung"
+  "appVersion": "1.1.2",
+  "dataVersion": "2025.12.10_21-35",
+  "updateNotes": "Direktorium 2026 hinzugefügt"
 }
