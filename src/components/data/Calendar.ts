@@ -75,22 +75,22 @@ interface CalendarHourEntry {
   oration_komplet?: string;
   oration_lat?: string;
   // Neue Messe-Felder
-    ms_les_buch?: string;
-    ms_les_stelle?: string;
-    ms_les_motto?: string;
-    ms_les_text?: string;
-    ms_aps_stelle?: string;
-    ms_aps_kv?: string;
-    ms_aps_text?: string;
-    ms_les2_buch?: string;
-    ms_les2_stelle?: string;
-    ms_les2_motto?: string;
-    ms_les2_text?: string;
-    ms_ruf_text?: string;
-    ms_ev_buch?: string;
-    ms_ev_stelle?: string;
-    ms_ev_motto?: string;
-    ms_ev_text?: string;
+  ms_les_buch?: string;
+  ms_les_stelle?: string;
+  ms_les_motto?: string;
+  ms_les_text?: string;
+  ms_aps_stelle?: string;
+  ms_aps_kv?: string;
+  ms_aps_text?: string;
+  ms_les2_buch?: string;
+  ms_les2_stelle?: string;
+  ms_les2_motto?: string;
+  ms_les2_text?: string;
+  ms_ruf_text?: string;
+  ms_ev_buch?: string;
+  ms_ev_stelle?: string;
+  ms_ev_motto?: string;
+  ms_ev_text?: string;
 }
 
 interface CalendarSourceEntry {
@@ -13172,7 +13172,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "MärtSg_Jgfr",
             "comm_2": "Jgfr_Märt",
-            "oration": "Herr, unser Gott, wir feiern den Gedenktag der heiligen Jungfrau und Märtyrerin Luzia, die du uns als Fürsprecherin gegeben hast. Gib, dass wir nach ihrem Beispiel als Kinder des Lichtes leben und einst in der Gemeinschaft der Heiligen den Glanz deiner Herrlichkeit schauen.^ORV",
+            "oration": "Herr, unser Gott, wir feiern den Gedenktag der heiligen Jungfrau und Märtyrin Luzia, die du uns als Fürsprecherin gegeben hast. Gib, dass wir nach ihrem Beispiel als Kinder des Lichtes leben und einst in der Gemeinschaft der Heiligen den Glanz deiner Herrlichkeit schauen.^ORV",
             "oration_lat": "Intercéssio nos, quǽsumus, Dómine, sanctæ Lúciæ vírginis et mártyris gloriósa confóveat, ut eius natalícia et temporáliter frequentémus, et conspiciámus ætérna.^ORlV"
           },
           "Lesehore": {
