@@ -1153,7 +1153,7 @@ export const liturgicalData = {
         "deceased_more": "1947 †¥tHugo°Wehner, Pfarrer°in°Kranlucken¥+k1948 †¥tFranz°Heer, Pfarrer°in°Büttstedt¥+k1951 †¥tAnton°Jonczyk°(Breslau), Pfarrer°in°Wiehe/Unstrut¥+k1960 †¥tJohannes°Steinwachs, Pfr.i.R., Heiligenstadt¥+k2016 †¥tPhilipp°Heim, Pfr.i.R., Msgr., GR, Kassel¥+k",
       },
       "5": {
-        "liturgy": "¥fDi¥0f¥t¥fVom Wochentag¥0f – 18.°Woche°im°Jahreskreis¥pw¥tOder ¥fWeihetag der Basilika S. Maria Maggiore in°Rom¥0f, ¥fGed¥0f – BuM°eig – Ms:°Com°Maria,°MarPräf¥p(g)¥t¥fMs¥0f nach Wahl, ¥wz.B.:°Tg°306,5;°Gg°1078/²1108;°Sg°525,2¥0w¥l¥l¥kIm Dom zu Fulda:¥0k ¥pw¥t¥kabends:¥0k ggf.°¥fVorabendmesse°vom°H¥0f – ¥f1.°Vp°vom°folg°H¥0f°–°¥f1.°Kp°vom°So¥0f¥p",
+        "liturgy": "¥fDi¥0f¥t¥fVom Wochentag¥0f – 18.°Woche°im°Jahreskreis¥pw¥tOder ¥fWeihetag der Basilika S. Maria Maggiore in°Rom¥0f („Maria°Schnee“), ¥fGed¥0f – BuM°eig – Ms:°Com°Maria,°MarPräf¥p(g)¥t¥fMs¥0f nach Wahl, ¥wz.B.:°Tg°306,5;°Gg°1078/²1108;°Sg°525,2¥0w¥l¥l¥kIm Dom zu Fulda:¥0k ¥pw¥t¥kabends:¥0k ggf.°¥fVorabendmesse°vom°H¥0f – ¥f1.°Vp°vom°folg°H¥0f°–°¥f1.°Kp°vom°So¥0f¥p",
         "deceased_more": "1976 †¥tUmberto°Pascolini, Italienerseelsorger°in°Kassel¥+k1977 †¥tErnst°Maria°Franz°Gumbel, Msgr., GR, Bistumsarchivar°in°Fulda¥+k",
       },
       "6": {
@@ -3022,7 +3022,7 @@ export const liturgicalData = {
         "deceased_more": "1947 †¥tHugo°Wehner, Pfarrer°in°Kranlucken¥+k1948 †¥tFranz°Heer, Pfarrer°in°Büttstedt¥+k1951 †¥tAnton°Jonczyk°(Breslau), Pfarrer°in°Wiehe/Unstrut¥+k1960 †¥tJohannes°Steinwachs, Pfr.i.R., Heiligenstadt¥+k2016 †¥tPhilipp°Heim, Pfr.i.R., Msgr., GR, Kassel¥+k",
       },
       "5": {
-        "liturgy": "¥fMi¥0f¥t¥fVom Wochentag¥0f – 18.°Woche°im°Jahreskreis¥pw¥tOder ¥fWeihetag der Basilika S. Maria Maggiore in°Rom¥0f, ¥fGed¥0f – BuM°eig – Ms:°Com°Maria,°MarPräf¥p(g)¥t¥fMs¥0f nach Wahl, ¥wz.B.:°MB°272,3f¥0w¥l¥l¥kIm Dom zu Fulda:¥0k ¥pw¥t¥kabends:¥0k ggf.°¥fVorabendmesse°vom°H¥0f – ¥f1.°Vp°vom°folg°H¥0f°–°¥f1.°Kp°vom°So¥0f¥p",
+        "liturgy": "¥fMi¥0f¥t¥fVom Wochentag¥0f – 18.°Woche°im°Jahreskreis¥pw¥tOder ¥fWeihetag der Basilika S. Maria Maggiore in°Rom¥0f („Maria°Schnee“), ¥fGed¥0f – BuM°eig – Ms:°Com°Maria,°MarPräf¥p(g)¥t¥fMs¥0f nach Wahl, ¥wz.B.:°MB°272,3f¥0w¥l¥l¥kIm Dom zu Fulda:¥0k ¥pw¥t¥kabends:¥0k ggf.°¥fVorabendmesse°vom°H¥0f – ¥f1.°Vp°vom°folg°H¥0f°–°¥f1.°Kp°vom°So¥0f¥p",
         "deceased_more": "1976 †¥tUmberto°Pascolini, Italienerseelsorger°in°Kassel¥+k1977 †¥tErnst°Maria°Franz°Gumbel, Msgr., GR, Bistumsarchivar°in°Fulda¥+k",
       },
       "6": {
