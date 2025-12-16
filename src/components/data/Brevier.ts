@@ -342,7 +342,8 @@ export const brevierData = {
           "ant1_lat": "Ierúsalem, gaude gáudio magno, quia véniet tibi Salvátor.^Lö",
           "ant2_lat": "Ego Dóminus prope feci iustítiam meam; non elongábitur, et salus mea non morábitur.",
           "ant3_lat": "Emítte Agnum, Dómine, dominatórem terræ, de Petra desérti, ad montem fíliæ Sion.",
-          "anta_lat": "Ante me non est formátus Deus, et post me non erit: quia mihi curvábitur omne genu, et confitébitur omnis lingua."
+          "anta_lat": "Ante me non est formátus Deus, et post me non erit: quia mihi curvábitur omne genu, et confitébitur omnis lingua.",
+          "antb_lat": "Fuit homo missus a Deo, cui nomen erat Ioánnes; hic venit ut testimónium perhibéret de lúmine."
         },
         "Vigil": {
           "les_stelle": "^Q:Lk 24,35-53"
@@ -355,7 +356,8 @@ export const brevierData = {
           "ant1_lat": "Véniet Dóminus et non tardábit, ut illúminet abscóndita tenebrárum, et manifestábit se ad omnes gentes.^Lö",
           "ant2_lat": "Montes et omnes colles humiliabúntur, et erunt prava in dirécta et áspera in vias planas. Veni, Dómine, et noli tardáre.^Lö",
           "ant3_lat": "Dabo in Sion salútem, et in Ierúsalem glóriam meam",
-          "anta_lat": "Ioánnes cum audísset in vínculis ópera Christi, mittens duos ex discípulis suis, ait illi: Tu es qui ventúrus es, an álium exspectámus?"
+          "anta_lat": "Ioánnes cum audísset in vínculis ópera Christi, mittens duos ex discípulis suis, ait illi: Tu es qui ventúrus es, an álium exspectámus?",
+          "antb_lat": "Ait Ioánnes: Ego vox clamántis in desérto: Dirígite viam Dómini."
         },
         "Vesper": {
           "ant1": "Seht, der Herr wird kommen; er wird die Völker regieren vom Thron seiner Herrlichkeit.",
@@ -365,7 +367,8 @@ export const brevierData = {
           "ant1_lat": "Ecce véniet Dóminus, ut sédeat cum princípibus et sólium glóriæ téneat.",
           "ant2_lat": "Erúmpant montes iucunditátem et colles iustítiam, quia lux mundi Dóminus cum poténtia venit.",
           "ant3_lat": "Iuste et pie vivámus, exspectántes beátam spem et advéntum Dómini.",
-          "anta_lat": "Tu es qui ventúrus es, an álium exspectámus? Dícite Ioánni quæ vidístis: Ad lumen rédeunt cæci, mortui resúrgunt, páuperes evangelizántur.^Lö"
+          "anta_lat": "Tu es qui ventúrus es, an álium exspectámus? Dícite Ioánni quæ vidístis: Ad lumen rédeunt cæci, mortui resúrgunt, páuperes evangelizántur.^Lö",
+          "antb_lat": "Ego baptízo in aqua. Médius vestrum stat, quem vos non scitis, qui post me ventúrus est."
         }
       },
       "1": {
@@ -481,6 +484,7 @@ export const brevierData = {
         "ErsteV": {
           "hymn_1": 3141.0,
           "hymn_2": 3142.0,
+          "hymn_kl": 0.0,
           "les_buch": "›1°Thess",
           "les_stelle": "5,23–24",
           "les_text": "Der Gott des Friedens heilige euch ganz und gar und bewahre euren Geist, eure Seele und euren Leib unversehrt, damit ihr ohne Tadel seid, wenn Jesus Christus, unser Herr, kommt. Gott, der euch beruft, ist treu; er wird es tun.",
@@ -7897,7 +7901,6 @@ export const brevierData = {
         },
         "ErsteV": {
           "button": "1. Vesper vom Sonntag",
-          "hymn_kl": 0.0,
           "psalm1": 110.0,
           "psalm2": 114.0,
           "psalm3": 151.0,
@@ -8563,7 +8566,6 @@ export const brevierData = {
           "hymn_1": 2904.0,
           "hymn_2": 0.0,
           "hymn_3": 0.0,
-          "hymn_kl": 0.0,
           "psalm1": 113.0,
           "psalm2": 117.0,
           "psalm3": 155.0,
@@ -9008,7 +9010,6 @@ export const brevierData = {
           "hymn_1": 3444.0,
           "hymn_2": 0.0,
           "hymn_3": 0.0,
-          "hymn_kl": 0.0,
           "psalm1": 113.0,
           "psalm2": 147.1,
           "psalm3": 156.0,
@@ -9830,7 +9831,6 @@ export const brevierData = {
           "hymn_1": 3444.0,
           "hymn_2": 0.0,
           "hymn_3": 0.0,
-          "hymn_kl": 0.0,
           "resp1": "Der Beistand, den der Vater senden wird, er wird euch alles lehren.",
           "resp2": "Halleluja,°halleluja.",
           "resp3": "An alles, was ich euch sagte, wird er euch erinnern.",
@@ -16310,6 +16310,7 @@ export const brevierData = {
         "ErsteV": {
           "button": "1. Vesper zum Fest der Hl. Familie",
           "hymn_1": 3241.0,
+          "hymn_kl": 0.0,
           "psalm1": 113.0,
           "psalm2": 147.2,
           "psalm3": 152.0,
@@ -16485,6 +16486,7 @@ export const brevierData = {
           "oration_lat": "Omnípotens sempitérne Deus, fidélium splendor animárum, dignáre mundum glória tua implére benígnus, et cunctis pópulis appáre per tui lúminis claritátem.^ORlV"
         },
         "ErsteV": {
+          "hymn_kl": 0.0,
           "ant1": "Durch das Wort hat die Jungfrau empfangen. Jungfrau blieb sie. Als Jungfrau gebar sie den König der Könige.",
           "ant2": "Freut euch mit Jerusalem; denn der Herr leitet den Frieden zu ihr wie einen Strom.",
           "ant3": "Gottes Sohn ist uns geboren: Gott von Gott, Licht vom Licht vor aller Zeit.",
@@ -16797,10 +16799,10 @@ export const brevierData = {
   "wt": {
     "each": {
       "0": {
-        "Lesehore": {},
         "Komplet": {
           "hymn_2": 2510.0
-        }
+        },
+        "Lesehore": {}
       },
       "1": {
         "Komplet": {
@@ -16833,8 +16835,6 @@ export const brevierData = {
         }
       },
       "each": {
-        "ErsteV": {},
-        "Laudes": {},
         "Terz": {
           "hymn_1": 2300.0,
           "hymn_2": 2301.0,
@@ -16853,11 +16853,13 @@ export const brevierData = {
           "hymn_1_lat": 4009.1,
           "hymn_2_lat": 4009.2
         },
-        "Vesper": {},
         "Komplet": {
           "hymn_1": 2500.0,
           "hymn_1_lat": 2500.1
-        }
+        },
+        "ErsteV": {},
+        "Laudes": {},
+        "Vesper": {}
       }
     }
   }
