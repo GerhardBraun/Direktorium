@@ -1,4 +1,4 @@
-// RufvdEv.ts - Automatisch generiert am 19.12.2025 02:49:35
+// RufvdEv.ts - Automatisch generiert am 20.12.2025 04:24:08
 // RufvdEv-Datenbank: ID -> { Stelle, Text }
 
 export const rufvdevData = {
@@ -288,7 +288,7 @@ export const rufvdevData = {
   },
   'Joh 17,17': {
     Stelle: 'vgl. Joh 17,17b.a',
-    Text: 'Dein Wort, o Herr, ist Wahrheit;^lheilige uns in der Wahrheit!'
+    Text: 'Dein Wort, o°Herr, ist Wahrheit;^lheilige uns in der Wahrheit!'
   },
   'Joh 17,21': {
     Stelle: 'Joh 17,21',
@@ -632,7 +632,7 @@ export const rufvdevData = {
   },
   'Ps 119,105': {
     Stelle: 'Ps 119,105',
-    Text: 'Dein Wort, o Herr, ist meinem Fuß eine Leuchte,^lein Licht für meine Pfade.'
+    Text: 'Dein Wort, o°Herr, ist meinem Fuß eine Leuchte,^lein Licht für meine Pfade.'
   },
   'Ps 119,135': {
     Stelle: 'Ps 119,135',
@@ -664,7 +664,7 @@ export const rufvdevData = {
   },
   'Ps 33,22': {
     Stelle: 'Ps 33,22',
-    Text: 'Lass deine Güte über uns walten, o Herr,^ldenn wir schauen aus nach dir.'
+    Text: 'Lass deine Güte über uns walten, o°Herr,^ldenn wir schauen aus nach dir.'
   },
   'Ps 51,12': {
     Stelle: 'Ps 51,12a.14a',
