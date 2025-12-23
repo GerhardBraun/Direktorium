@@ -429,7 +429,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         .replace(/\^SPRICHT/g, '^(So spricht der Herr:^)^l')
         .replace(/\^SPRGOTT/g, '^(So spricht Gott, der Herr:^)^l')
         .replace(/\^EINZUG/g, '')
-        .replace(/^›|_lat|_neu|_ben|\^SLICE|\^APSHALL/g, '')
+        .replace(/^›|\^<|_lat|_neu|_ben|\^SLICE|\^APSHALL/g, '')
         .replace(/°/g, '\u00A0')
         .replace(/\^\*/g, isAps ? '\u00A0^r*^0r\n' : '\u00A0*\n')
         .replace(/\^\+/g, isAps ? '\u00A0^r†^0r\n' : '\u00A0†\n')
