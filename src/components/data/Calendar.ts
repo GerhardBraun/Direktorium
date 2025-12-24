@@ -12308,73 +12308,10 @@ export const calendarData: CalendarData = {
           }
         }
       },
-      "24": {
-        "oblig": {
-          "Invitatorium": {
-            "ant0": "Heute sollt ihr wissen, dass der Herr kommt, und morgen werdet ihr schauen seine Herrlichkeit.",
-            "ant0_lat": "Hódie sciétis quia véniet Dóminus, et mane vidébitis glóriam eius."
-          },
-          "Lesehore": {
-            "versikel0": "Der Herr verkündet Jakob sein Wort.",
-            "versikel1": "Seine Satzungen und Rechte Israel.",
-            "versikel0_lat": "Annúntiat Dóminus verbum suum Iacob.",
-            "versikel1_lat": "Iustítias et iudícia sua Israel."
-          },
-          "Laudes": {
-            "button": "Heiliger Abend",
-            "ant1": "Du, Betlehem im Lande Juda, bist nicht die kleinste unter Judas Städten. Aus dir geht ja hervor der Herrscher, der Israel, mein Volk, regieren soll.",
-            "ant2": "Erhebet eure Häupter; siehe, eure Erlösung ist nahe.",
-            "ant3": "Morgen werdet ihr sehen, wie der Herr euch Rettung schafft. Juda und Jerusalem, fürchtet euch nicht: morgen erscheint euer Heil.",
-            "les_buch": "›Jes",
-            "les_stelle": "11,1–2",
-            "les_text": "Aus dem Baumstumpf Isais wächst ein Reis hervor, ein junger Trieb aus seinen Wurzeln bringt Frucht. Der Geist des Herrn lässt sich nieder auf ihm: der Geist der Weisheit und der Einsicht, der Geist des Rates und der Stärke, der Geist der Erkenntnis und der Gottesfurcht.",
-            "les_text_neu": "Aus dem Baumstumpf Isais wächst ein Reis hervor, ein junger Trieb aus seinen Wurzeln bringt Frucht. Der Geist des Herrn ruht auf ihm: der Geist der Weisheit und der Einsicht, der Geist des Rates und der Stärke, der Geist der Erkenntnis und der Furcht des HERRN.",
-            "resp1": "Nur noch ein Tag,",
-            "resp2": "dann wird die Sünde der Erde vernichtet.",
-            "resp3": "Der Retter der Welt wird über uns herrschen.",
-            "antev": "Für Maria erfüllte sich die Zeit, dass sie gebären sollte.",
-            "bitten_e": "Gepriesen sei unser Erlöser, der mit großer Macht und Herrlichkeit wiederkommen wird. Zu ihm lasst uns beten:",
-            "bitten_r": "Komm, Herr Jesus.",
-            "bitten": "Du bist gekommen, um den Menschen die Heilsbotschaft zu verkünden;^qhilf uns, dass wir heute von dir Zeugnis geben.^pNach dir verlangen wir;^qsei du im ganzen Leben unser Trost.^pDu wirst einst wiederkommen;^qgib, dass wir dich in Freude erwarten.^pDu wirst alle Menschen richten;^qmach uns deines Erbarmens würdig.",
-            "ant1_lat": "Tu, Béthlehem, terra Iuda, non eris mínima: ex te enim éxiet Dux qui regat pópulum meum Israel.",
-            "ant2_lat": "Leváte cápita vestra: ecce appropínquat redémptio vestra.",
-            "ant3_lat": "Crástina erit vobis salus, dicit Dóminus Deus exercítuum.",
-            "resp1_lat": "Crástina die",
-            "resp2_lat": "delébitur iníquitas terræ.",
-            "resp3_lat": "Et regnábit super nos Salvátor mundi.",
-            "antev_lat": "Compléti sunt dies Maríæ ut páreret Fílium suum primogénitum.",
-            "bitten_e_lat": "Christum redemptórem, fratres caríssimi, devotióne mentis orémus, qui véniet cum glória et potestáte magna, atque súpplices invocémus:",
-            "bitten_r_lat": "Veni, Dómine Iesu.",
-            "bitten_lat": "Christe Dómine, qui excélsus in fortitúdine vénies, réspice humília nostra,^qut dignos nos fácias munéribus tuis.^pQui Evangélium homínibus manifestáre venísti,^qda tuam nos semper prædicáre salútem.^pTu, qui es benedíctus et vivis et ómnia regis,^qda nos gaudéntes exspectáre beátam spem et advéntum magnificéntiæ tuæ.^pEt nos, qui advéntus tui grátiæ anhelámus,^qdivinitátis tuæ múnere consoláre.",
-            "les_text_lat": "Egrediétur virga de stirpe Iesse, et flos de radíce eius ascéndet; et requiéscet super eum spíritus Dómini: spíritus sapiéntiæ et intelléctus, spíritus consílii et fortitúdinis, spíritus sciéntiæ et timóris Dómini; et delíciæ eius in timóre Dómini."
-          },
-          "Terz": {
-            "les_buch": "›Jes",
-            "les_stelle": "4,2",
-            "les_text": "An jenem Tag wird der Spross des Herrn für alle Israeliten, die entronnen sind, eine Zierde und Ehre sein; die Früchte des Landes sind ihr Stolz und Ruhm.",
-            "les_text_neu": "An jenem Tag wird der Spross des HERRN zur Zierde und zur Herrlichkeit sein und die Frucht des Landes zum Stolz und zum Schmuck für die Entronnenen Israels.",
-            "les_text_lat": "In die illa erit germen Dómini in splendórem et glóriam et fructus terræ sublímis et exsultátio his, qui salváti fúerint de Israel."
-          },
-          "Sext": {
-            "les_buch": "›Jes",
-            "les_stelle": "4,3",
-            "les_text": "Der Rest von Zion und wer in Jerusalem noch übrig ist, wird heilig genannt werden, jeder, der in Jerusalem in das Verzeichnis derer, die am Leben bleiben sollen, eingetragen ist.",
-            "les_text_neu": "Dann wird der Rest in Zion, und wer in Jerusalem noch übrig ist, heilig genannt werden, jeder, der zum Leben eingeschrieben ist in Jerusalem.",
-            "les_text_lat": "Omnis qui relíctus fúerit in Sion et resíduus in Ierúsalem, sanctus vocábitur, omnis, qui scriptus est ad vitam in Ierúsalem."
-          },
-          "Non": {
-            "les_buch": "›Jes",
-            "les_stelle": "61,11",
-            "les_text": "Wie die Erde die Saat wachsen lässt und der Garten die Pflanzen hervorbringt, so bringt Gott, der Herr, Gerechtigkeit hervor und Ruhm vor allen Völkern.",
-            "les_text_neu": "Wie die Erde ihr Gewächs hervorbringt und der Garten seine Saat sprießen lässt, so lässt GOTT, der Herr, Gerechtigkeit sprießen und Ruhm vor allen Nationen.",
-            "les_text_lat": "Sicut terra profert germen suum et sicut hortus semen suum gérminat, sic Dóminus Deus germinábit iustítiam et laudem coram univérsis géntibus."
-          }
-        }
-      },
       "25": {
         "oblig": {
           "each": {
-            "oration": "Allmächtiger Gott, du hast den Menschen in seiner Würde wunderbar erschaffen und noch wunderbarer wiederhergestellt. lass uns teilhaben an der Gottheit deines Sohnes, der unsere Menschennatur angenommen hat. Er,^ORR",
+            "oration": "Allmächtiger Gott, du hast den Menschen in seiner Würde wunderbar erschaffen und noch wunderbarer wiederhergestellt. Lass uns teilhaben an der Gottheit deines Sohnes, der unsere Menschennatur angenommen hat. Er,^ORR",
             "oration_lat": "Deus, qui humánæ substántiæ dignitátem et mirabíliter condidísti et mirabílius reformásti, da, quǽsumus, nobis eius divinitátis esse consórtes, qui humanitátis nostræ fíeri dignátus est párticeps.^ORlR"
           },
           "ErsteV": {
@@ -12396,6 +12333,7 @@ export const calendarData: CalendarData = {
             "bitten_e": "Lasst uns beten zu unserem Herrn Jesus Christus, der sich selbst erniedrigte und Mensch geworden ist.",
             "bitten_r": "Herr, durch deine Geburt komm uns zu Hilfe.",
             "bitten": "Mit deinem Kommen hast du die neue Weltzeit heraufgeführt;^qgib, dass deine Kirche sich immer wieder erneuert.^pDu hast die Gebrechen der Menschen auf dich genommen;^qsei den Blinden Licht, den Schwachen Kraft und den Leidenden Trost.^pIn Armut und Niedrigkeit wurdest du geboren;^qerbarme dich der Armen und mache uns bereit, ihnen zu helfen.^pDeine Geburt auf Erden brachte Freude durch die Verheißung ewigen Lebens;^qschenke den Sterbenden die Zuversicht, dass sie im Tod zum Leben geboren werden.^pDu bist auf die Erde herabgekommen, um alle Menschen zum Himmel zu führen;^qvereine die Toten mit dir in der ewigen Herrlichkeit.",
+            "oration": "Gütiger Gott, Jahr für Jahr erwarten wir voll Freude das Fest unserer Erlösung. Gib, dass wir deinen Sohn von ganzem Herzen als unseren Retter und Heiland aufnehmen, damit wir ihm voll Zuversicht entgegengehen können, wenn er am Ende der Zeiten als Richter wiederkommt. Er,^ORR",
             "hymn_1_lat": 3241.1,
             "ant1_lat": "Rex pacíficus magnificátus est, cuius vultum desíderat univérsa terra.",
             "ant2_lat": "Emíttit elóquium suum in terram, velóciter currit sermo eius.",
@@ -12414,12 +12352,12 @@ export const calendarData: CalendarData = {
             "psalm1": 2.0,
             "psalm2": 19.1,
             "psalm3": 45.0,
-            "ant1": "Der Herr sprach zu mir: Mein Sohn bist du. Heute habe ich diech gezeugt.",
+            "ant1": "Der Herr sprach zu mir: Mein Sohn bist du. Heute habe ich dich gezeugt.",
             "ant2": "Wie ein Bräutigam tritt der Herr aus seinem Gemach hervor.",
             "ant3": "Du bist der Schönste von allen Menschen: für immer hat Gott dich gesegnet.",
             "versikel0": "Das Wort ist Fleisch geworden.^ö",
             "versikel1": "Und hat unter uns gewohnt.^ö",
-            "les_stelle": "11,1–9",
+            "les_stelle": "11,1–10",
             "les_text": "^hAnkündigung des messianischen Reiches^pAus dem Baumstumpf Isais wächst ein Reis hervor, ein junger Trieb aus seinen Wurzeln bringt Frucht. Der Geist des Herrn lässt sich nieder auf ihm: der Geist der Weisheit und der Einsicht, der Geist des Rates und der Stärke, der Geist der Erkenntnis und der Gottesfurcht. Er richtet nicht nach dem Augenschein, und nicht nur nach dem Hörensagen entscheidet er, sondern er richtet die Hilflosen gerecht und entscheidet für die Armen des Landes, wie es recht ist. Er schlägt die Gewalttätigen mit dem Stock seines Wortes und tötet den Schuldigen mit dem Hauch seines Mundes. Gerechtigkeit ist der Gürtel um seine Hüften, Treue der Gürtel um seinen Leib.^pDann wohnt der Wolf beim Lamm, der Panther liegt beim Böcklein. Kalb und Löwe weiden zusammen, ein kleiner Knabe kann sie hüten. Kuh und Bärin freunden sich an, ihre Jungen liegen beieinander. Der Löwe frisst Stroh wie das Rind. Der Säugling spielt vor dem Schlupfloch der Natter, das Kind streckt seine Hand in die Höhle der Schlange. Man tut nichts Böses mehr und begeht kein Verbrechen auf meinem ganzen heiligen Berg; denn das Land ist erfüllt von der Erkenntnis des Herrn, so wie das Meer mit Wasser gefüllt ist. An jenem Tag wird es der Spross aus der Wurzel Isais sein, der dasteht als Zeichen für die Nationen; die Völker suchen ihn auf; sein Wohnsitz ist prächtig.",
             "resp1": "Heute wurde der König des Himmels von der Jungfrau geboren^SLICE, um den Menschen, der verloren war, zum Himmelreich zurückzurufen.",
             "resp2": "Das Heer der Engel freut sich, weil dem Menschengeschlecht das ewige Heil erschienen ist.",
@@ -12730,6 +12668,39 @@ export const calendarData: CalendarData = {
           "Vesper": {
             "oration": "",
             "oration_lat": ""
+          }
+        }
+      },
+      "24": {
+        "oblig": {
+          "Invitatorium": {
+            "ant0_lat": "Hódie sciétis quia véniet Dóminus, et mane vidébitis glóriam eius."
+          },
+          "Lesehore": {
+            "versikel0_lat": "Annúntiat Dóminus verbum suum Iacob.",
+            "versikel1_lat": "Iustítias et iudícia sua Israel."
+          },
+          "Laudes": {
+            "ant1_lat": "Tu, Béthlehem, terra Iuda, non eris mínima: ex te enim éxiet Dux qui regat pópulum meum Israel.",
+            "ant2_lat": "Leváte cápita vestra: ecce appropínquat redémptio vestra.",
+            "ant3_lat": "Crástina erit vobis salus, dicit Dóminus Deus exercítuum.",
+            "resp1_lat": "Crástina die",
+            "resp2_lat": "delébitur iníquitas terræ.",
+            "resp3_lat": "Et regnábit super nos Salvátor mundi.",
+            "antev_lat": "Compléti sunt dies Maríæ ut páreret Fílium suum primogénitum.",
+            "bitten_e_lat": "Christum redemptórem, fratres caríssimi, devotióne mentis orémus, qui véniet cum glória et potestáte magna, atque súpplices invocémus:",
+            "bitten_r_lat": "Veni, Dómine Iesu.",
+            "bitten_lat": "Christe Dómine, qui excélsus in fortitúdine vénies, réspice humília nostra,^qut dignos nos fácias munéribus tuis.^pQui Evangélium homínibus manifestáre venísti,^qda tuam nos semper prædicáre salútem.^pTu, qui es benedíctus et vivis et ómnia regis,^qda nos gaudéntes exspectáre beátam spem et advéntum magnificéntiæ tuæ.^pEt nos, qui advéntus tui grátiæ anhelámus,^qdivinitátis tuæ múnere consoláre.",
+            "les_text_lat": "Egrediétur virga de stirpe Iesse, et flos de radíce eius ascéndet; et requiéscet super eum spíritus Dómini: spíritus sapiéntiæ et intelléctus, spíritus consílii et fortitúdinis, spíritus sciéntiæ et timóris Dómini; et delíciæ eius in timóre Dómini."
+          },
+          "Terz": {
+            "les_text_lat": "In die illa erit germen Dómini in splendórem et glóriam et fructus terræ sublímis et exsultátio his, qui salváti fúerint de Israel."
+          },
+          "Sext": {
+            "les_text_lat": "Omnis qui relíctus fúerit in Sion et resíduus in Ierúsalem, sanctus vocábitur, omnis, qui scriptus est ad vitam in Ierúsalem."
+          },
+          "Non": {
+            "les_text_lat": "Sicut terra profert germen suum et sicut hortus semen suum gérminat, sic Dóminus Deus germinábit iustítiam et laudem coram univérsis géntibus."
           }
         }
       },

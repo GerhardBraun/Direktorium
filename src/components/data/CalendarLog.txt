@@ -1,6 +1,12 @@
-Calendar Data Processing Log - 2025-12-23 07:34:49.273511
+Calendar Data Processing Log - 2025-12-24 06:10:05.565896
 ============================================================
 
+nur lateinischer Eintrag: AAA-12-24-oblig-Invitatorium
+nur lateinischer Eintrag: AAA-12-24-oblig-Lesehore
+nur lateinischer Eintrag: AAA-12-24-oblig-Laudes
+nur lateinischer Eintrag: AAA-12-24-oblig-Terz
+nur lateinischer Eintrag: AAA-12-24-oblig-Sext
+nur lateinischer Eintrag: AAA-12-24-oblig-Non
 ÜBERSCHNEIDUNG [AAA]: 11-09 oblig (bestehende Quellen: oblig)
 ÜBERSCHNEIDUNG [AAA]: 12-13 oblig (bestehende Quellen: n1)
 
