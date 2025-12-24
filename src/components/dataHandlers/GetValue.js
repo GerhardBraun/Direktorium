@@ -174,11 +174,9 @@ export const getValue = ({ season, hour, texts, field,
             skipCommune = true
             if (isPsalmodie === 'inclAnt' && localPrefPsalmsWt !== 'inclAnt')
                 skipCommune = false
-        } else skipCommune = false
-        // console.log('skipCommune: ', isPsalmodie, field, localPrefPsalmsWt, skipCommune);
+        }
+        //console.log('skipCommune: ', isPsalmodie, field, localPrefPsalmsWt, skipCommune);
     }
-
-    // if (isPsalmodie) console.log('skipCommune: ', isPsalmodie, field, localPrefPsalmsWt);
 
     const prefTexts = texts[hour]?.[prefSrc] || texts[hour]?.pers
     let prefCommTexts = '';

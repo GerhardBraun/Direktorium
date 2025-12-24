@@ -28,13 +28,15 @@ const HymnSelector = ({ texts, hour, season,
             hymn => ['wtt', 'perss'].includes(hymn.id.split('_')[0]));
 
         if (sourcePath === 'wt' && !hasOnlyWtSources) {
-            if (texts?.swdCombined === 'j-34-6' && ['vesper', 'komplet'].includes(hour))
-                return 'btn-violett';
+            if (['vesper', 'komplet'].includes(hour)) {
+                // Erste Vesper und Komplet zum 1. Advent und zu Weihnachten
+                if (texts?.swdCombined === 'j-34-6') return 'btn-violett';
+                if (texts?.dateCompare === '12-24') return 'btn-gold';
+            }
             if (texts?.laudes?.wt?.farbe === 'r' ||
                 (hour === 'vesper' && texts?.vesper?.wt?.farbe === 'r')) {
                 return 'btn-red';
-            }
-            else if (season === 'j') return 'btn-green';
+            } else if (season === 'j') return 'btn-green';
             else if (season === 'a' || season === 'q') return 'btn-violett';
             else return 'btn-gold';
         };
