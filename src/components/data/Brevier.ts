@@ -16829,11 +16829,11 @@ export const brevierData = {
           "psalm2": 160.0,
           "psalm3": 149.0,
           "ant1": "Ihr Hirten, wen habt ihr gesehen? Sagt und verkündet uns: Wer ist auf Erden erschienen? – Wir sahen das Kind und hörten die Chöre der Engel; die sangen das Lob des Herrn.^ö",
-          "ant2": "Der Engel sprach zu den Hirten: Ich verkünde euch große Freude; heute ist euch der Heiland geboren, der Retter der Welt.^ö",
-          "ant3": "Ein Kind ist uns heute geboren. „Starker Gott“ ist sein Name.^ö",
+          "ant2": "Der Engel sprach zu den Hirten: Ich verkünde euch große Freude; heute ist euch der Heiland geboren, der Retter der°Welt.^ö",
+          "ant3": "Ein Kind ist uns heute geboren. „Starker°Gott“ ist sein Name.^ö",
           "ant1_lat": "Quem vidístis? pastóres, dícite; annuntiáte nobis: In terris quis appáruit? Natum vídimus et choros angelórum collaudántes Dóminum.^Lö",
           "ant2_lat": "Angelus ad pastóres ait: Annúntio vobis gáudium magnum, quia natus est vobis hódie Salvátor mundi.^Lö",
-          "ant3_lat": "Párvulus fílius hódie natus est nobis, et vocábitur Deus fortis.^Lö"
+          "ant3_lat": "Párvulus fílius hódie natus est nobis, et vocábitur Deus°fortis.^Lö"
         },
         "Vesper": {
           "hymn_1": 3241.0,
@@ -16845,7 +16845,7 @@ export const brevierData = {
           "psalm3": 154.0,
           "ant0": "",
           "ant1": "Dein ist die Herrschaft am Tag deiner Macht, wenn du erscheinst in heiligem Schmuck; ich habe dich gezeugt noch vor dem Morgenstern.",
-          "ant2": "Beim Herrn ist die Huld, bei ihm ist Erlösung in Fülle.",
+          "ant2": "Beim Herrn ist die Huld, bei ihm ist Erlösung in°Fülle.",
           "ant3": "Das Wort war Gott – im Anfang und vor aller Zeit; heute ist er geboren als Heiland der Welt.",
           "resp1": "Das Wort ist Fleisch geworden und hat unter uns gewohnt.",
           "resp2": "Halleluja,°halleluja.",
@@ -16853,7 +16853,7 @@ export const brevierData = {
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
           "ant0_lat": "",
-          "ant1_lat": "Tecum princípium in die virtútis tuæ, in splendóribus sanctórum, ex útero ante lucíferum génui te.",
+          "ant1_lat": "Tecum princípium in die virtútis tuæ, in splendóribus sanctórum, ex útero ante lucíferum génui°te.",
           "ant2_lat": "Apud Dóminum misericórdia, et copiósa apud eum redémptio.",
           "ant3_lat": "In princípio et ante sǽcula Deus erat Verbum: ipse natus est hódie Salvátor mundi."
         }
