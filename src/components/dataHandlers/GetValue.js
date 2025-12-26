@@ -160,7 +160,7 @@ export const getValue = ({ season, hour, texts, field,
     }
 
     // Prüfe, ob Commune übersprungen werden soll
-    let skipCommune = false;
+    let skipCommune = rank_wt >= rank_date;
     if (rank_date < 3  // an Gedenktagen
         && ((hour === 'lesehore' && field !== 'oration') // Lesehore: nur Hymnus und Oration ggf. Commune
             || (['laudes', 'vesper'].includes(hour) && isPsalmodie) // Laudes/Vesper Psalmodie

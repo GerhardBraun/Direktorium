@@ -3801,7 +3801,7 @@ export const brevierData = {
         }
       },
       "UnschKinder": {
-        "Laudes": {
+        "Vesper": {
           "hymn_1": 9228.0,
           "hymn_kl": 0.0,
           "ant1": "So spricht der Herr: Sie werden mit mir einhergehen in weißen Gewändern, denn sie sind dessen würdig.",
@@ -3815,12 +3815,7 @@ export const brevierData = {
           "resp2": "für immer wird der Herr ihr Lohn sein.",
           "resp3": "Sie empfangen das Reich der Herrlichkeit und die Krone der Schönheit.",
           "antev": "Unschuldige Kinder wurden für Christus getötet, Säuglinge vom ruchlosen König gemordet. Sie folgen dem Lamm ohne Makel und rufen: Ehre sei dir, o°Herr!",
-          "bitten_e": "Gepriesen sei Christus, der König der Märtyrer, zu ihm lasst uns beten:",
-          "bitten_r": "Dich lobt der Märtyrer weißgewandetes Heer.",
-          "bitten": "Nicht mit Worten, sondern mit ihrem Blut haben die Unschuldigen Kinder von dir Zeugnis abgelegt;^qmach uns bereit, dich vor den Menschen zu bekennen.^pUnmündige Kinder hast du als Erstlinge deines Reiches in den Himmel vorausgesandt;^qgib, dass auch wir in dein Reich gelangen.^pSie waren noch nicht fähig zu kämpfen und haben dennoch die Siegespalme errungen;^qlass nicht zu, dass wir im Kampf mit dem Bösen erliegen.^pDu hast sie aufgenommen in die Schar derer, die ihre Kleider gewaschen haben in deinem Blut;^qmach uns rein von aller Sünde.",
-          "oration": "Vater im Himmel, nicht mit Worten haben die Unschuldigen Kinder dich gepriesen, sie haben dich verherrlicht durch ihr Sterben. Gib uns die Gnade, dass wir in Worten und Taten unseren Glauben an dich bekennen.^ORV"
-        },
-        "Vesper": {
+          "oration": "Vater im Himmel, nicht mit Worten haben die Unschuldigen Kinder dich gepriesen, sie haben dich verherrlicht durch ihr Sterben. Gib uns die Gnade, dass wir in Worten und Taten unseren Glauben an dich bekennen.^ORV",
           "hymn_1_lat": 9228.2,
           "ant1_lat": "Ambulábunt mecum in albis, quia digni sunt, dicit Dóminus.",
           "ant2_lat": "Dicunt infántes Dómino laudem; occísi prǽdicant quod vivi non póterant.",

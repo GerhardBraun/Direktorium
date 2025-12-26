@@ -78,11 +78,14 @@ const SectionHeader = ({
                 : texts.laudes[prefSrc]?.com1?.button || '1';
         const nameComm2 = texts.laudes[prefSrc]?.com2?.button || '2';
 
+        const wtRankToCompare = (rank_wt === 2.4 && hour === 'vesper') ? 4 : rank_wt;
+        const dateOverWt = rank_date > wtRankToCompare;
+
         return {
             hasEig, hasWt,
             hasComm1, hasComm2,
             nameComm1, nameComm2,
-            showSources: !hasEig && hasWt && hasComm1,
+            showSources: !hasEig && hasWt && hasComm1 && rank_date > wtRankToCompare,
             showBothComm: hasComm1 && hasComm2
         };
     };
