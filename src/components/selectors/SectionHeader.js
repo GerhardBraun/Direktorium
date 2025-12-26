@@ -79,7 +79,6 @@ const SectionHeader = ({
         const nameComm2 = texts.laudes[prefSrc]?.com2?.button || '2';
 
         const wtRankToCompare = (rank_wt === 2.4 && hour === 'vesper') ? 4 : rank_wt;
-        const dateOverWt = rank_date > wtRankToCompare;
 
         return {
             hasEig, hasWt,
