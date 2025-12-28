@@ -242,12 +242,9 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
             if (calendarMonth === 12 && calendarDay > 24)
                 addLayer('w', 'okt', 'each');
             addLayer('k', calendarMonth, calendarDay);
-            // wiederholte Behandlung des 3. und 4. Adventssonntags:
-            // Ant und Pss und Oration vom Adventssonntag, sonst vom Kalendertag
-            // 2. Sonntag nach Weihnachten: Oration vom Sonntag statt vom Kalendertag
-            if ((calendarDay > 16 && calendarDay < 24) ||
-                (calendarDay > 1 && calendarDay < 6))
-                addLayer('kso', week, dayOfWeek);
+            // wiederholte Behandlung der Sonntage in diesem Zeitraum:
+            // 3. und 4. Advent, Hl. Familie, 2. Sonntag nach Weihnachten
+            addLayer('kso', week, dayOfWeek);
         }
 
         // Process Heiligenfeste only if rank is appropriate

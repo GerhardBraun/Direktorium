@@ -7552,10 +7552,191 @@ export const brevierData = {
     }
   },
   "kso": {
+    "1": {
+      "0": {
+        "each": {
+          "comm_1": "Maria",
+          "oration": "Herr, unser Gott, in der Heiligen Familie hast du uns ein leuchtendes Vorbild geschenkt. Gib unseren Familien die Gnade, dass auch sie in Frömmigkeit und Eintracht leben und einander in der Liebe verbunden bleiben. Führe uns alle zur ewigen Gemeinschaft in deinem Vaterhaus.^ORV",
+          "oration_lat": "Deus, qui præclára nobis sanctæ Famíliæ dignátus es exémpla præbére, concéde propítius, ut, domésticis virtútibus caritatísque vínculis illam sectántes, in lætítia domus tuæ prǽmiis fruámur ætérnis.^ORlV"
+        },
+        "ErsteV": {
+          "button": "1. Vesper zum Fest der Hl. Familie",
+          "hymn_1": 3241.0,
+          "hymn_kl": 0.0,
+          "psalm1": 113.0,
+          "psalm2": 147.2,
+          "psalm3": 152.0,
+          "ant1": "Josef, der Sohn Jakobs, war der Gemahl Marias. Von ihr wurde Jesus geboren, der Christus genannt wird.",
+          "ant2": "Josef, Sohn Davids, fürchte dich nicht, Maria als deine Frau zu dir zu nehmen; denn das Kind, das sie erwartet, ist vom Heiligen Geist.",
+          "ant3": "Die Hirten eilten hin und fanden Maria und Josef und das Kind, das in einer Krippe lag.",
+          "les_buch": "›2°Kor",
+          "les_stelle": "8,9",
+          "les_text": "Ihr wisst, was Jesus Christus, unser Herr, in seiner Liebe getan hat: Er, der reich war, wurde euretwegen arm, um euch durch seine Armut reich zu machen.",
+          "les_text_neu": "Ihr kennt die Gnade unseres Herrn Jesus Christus: Er, der reich war, wurde euretwegen arm, um euch durch seine Armut reich zu machen.",
+          "resp1": "Das Wort ist Fleisch geworden und hat unter uns gewohnt.",
+          "resp2": "Halleluja,°halleluja.",
+          "resp3": "Aus seiner Fülle haben wir empfangen, Gnade über Gnade.",
+          "antev": "Der Knabe Jesus blieb in Jerusalem, und seine Eltern suchten ihn: Sie fanden ihn im Tempel.",
+          "bitten_e": "Lasst uns beten zu Christus, dem Sohn des lebendigen Gottes, der sich nicht gescheut hat, Kind einer menschlichen Familie zu werden:",
+          "bitten_r": "Erhöre uns, Christus.",
+          "bitten": "Du warst als Kind Maria und Josef untertan;^qsegne die Kinder unserer Familien.^pDu hast deine Eltern geliebt und wurdest von ihnen geliebt;^qgib, dass Eltern und Kinder einander lieben.^pDu wolltest allezeit in dem sein, was deines Vaters ist;^qgib, dass in jedem Haus dein himmlischer Vater geehrt wird.^pDu wurdest von deinen Eltern gesucht und am dritten Tag im Hause Gottes wiedergefunden;^qrate den Eltern, die sich Sorge machen um ihre Kinder.^pDu hast Maria und Josef in die Herrlichkeit des Himmels heimgeholt;^qnimm unsere Verstorbenen auf in die Gemeinschaft der Seligen.",
+          "hymn_1_lat": 3241.2,
+          "ant1_lat": "Iacob autem génuit Ioseph virum Maríæ, de qua natus est Iesus, qui vocátur Christus.",
+          "ant2_lat": "Pastóres venérunt festinántes, et invenérunt Maríam et Ioseph et Infántem pósitum in præsépio.",
+          "ant3_lat": "Pastóres venérunt festinántes, et invenérunt Maríam et Ioseph et Infántem pósitum in præsépio.",
+          "resp1_lat": "Verbum caro factum est.",
+          "resp2_lat": "Allelúia,°allelúia.",
+          "resp3_lat": "Et habitávit in nobis.",
+          "anta_lat": "Ecce ángelus Dómini appáret in somnis Ioseph dicens: Surge et áccipe púerum et matrem eius et fuge in Ægýptum et esto ibi, usque dum dicam tibi.",
+          "antb_lat": "Postquam impléti sunt dies purgatiónis eórum secúndum legem Móysis, tulérunt illum in Hierosólymam ut sísterent Dómino.",
+          "antc_lat": "Pastóres venérunt festinántes, et invenérunt Maríam et Ioseph et Infántem pósitum in præsépio.",
+          "bitten_e_lat": "Fílium Dei vivi, qui fílius humánæ famíliæ fíeri dignátus est, adorémus, ipsi confiténtes:",
+          "bitten_r_lat": "Tu es, Dómine, exémplar et salvátor ómnium.",
+          "bitten_lat": "Christe, per mystérium subiectiónis tuæ erga Maríam et Ioseph,^qdoce omnes reveréntiam et obœdiéntiam erga eos qui legítime præsunt.^pQui paréntes amásti et ab ipsis amátus es,^qomnes famílias in pace et mútua caritáte constítue.^pTu, qui studiósus fuísti eórum, quæ tui sunt Patris,^qpræsta ut in omni domo Deus honorétur.^pChriste, qui ab ánxiis paréntibus tértia die in domo Patris invéntus es,^qdoce omnes quǽrere primum regnum Dei.^pChriste, qui Maríam et Ioseph tecum in cælésti glória consociásti,^qadmítte defúnctos in famíliam beatórum.",
+          "les_text_lat": "Scitis grátiam Dómini nostri Iesu Christi, quóniam propter vos egénus factus est, cum esset dives, ut illíus inópia vos dívites essétis."
+        },
+        "Invitatorium": {
+          "ant0": "Christus, den Sohn Gottes, der Maria und Josef gehorsam war – kommt, wir beten ihn an!",
+          "ant0_lat": "Christum, Dei Fílium, Maríæ et Ioseph súbditum, veníte adorémus."
+        },
+        "Lesehore": {
+          "psalm1": 24.0,
+          "psalm2": 46.0,
+          "psalm3": 87.0,
+          "ant1": "Die Eltern brachten Jesus in den Tempel. Simeon nahm das Kind in seine Arme und lobte Gott für seine Huld.",
+          "ant2": "Die Weisen gingen in das Haus und fanden das Kind und Maria, seine Mutter.",
+          "ant3": "Noch in der Nacht stand Josef auf und floh mit dem Kind und seiner Mutter nach Ägypten.",
+          "versikel0": "Der Herr hat kundgemacht sein Heil.^ö",
+          "versikel1": "Vor den Augen der Völker.^ö",
+          "les_buch": "Aus dem Brief an die Epheser.",
+          "les_stelle": "5,21–6,4",
+          "les_text": "^hChristliches Leben in Familie und Gesellschaft^pEiner ordne sich dem andern unter in der gemeinsamen Ehrfurcht vor Christus!^pIhr Frauen, ordnet euch euren Männern unter wie dem Herrn (Christus); denn der Mann ist das Haupt der Frau, wie auch Christus das Haupt der Kirche ist; er hat sie gerettet, denn sie ist sein Leib. Wie aber die Kirche sich Christus unterordnet, sollen sich die Frauen in allem den Männern unterordnen.^pIhr Männer, liebt eure Frauen, wie Christus die Kirche geliebt und sich für sie hingegeben hat, um sie im Wasser und durch das Wort rein und heilig zu machen. So will er die Kirche herrlich vor sich erscheinen lassen, ohne Flecken, Falten oder andere Fehler; heilig soll sie sein und makellos. Darum sind die Männer verpflichtet, ihre Frauen zu lieben wie ihren eigenen Leib. Wer seine Frau liebt, liebt sich selbst. Keiner hat je seinen eigenen Leib gehasst, sondern er nährt und pflegt ihn, wie auch Christus die Kirche. Denn wir sind Glieder seines Leibes. Darum wird der Mann Vater und Mutter verlassen und sich an seine Frau binden, und die zwei werden EIN Fleisch sein. Dies ist ein tiefes Geheimnis; ich beziehe es auf Christus und die Kirche. Was euch angeht, so liebe jeder von euch seine Frau wie sich selbst, die Frau aber ehre den Mann.^pIhr Kinder, gehorcht euren Eltern, wie es vor dem Herrn recht ist! Ehre deinen Vater und deine Mutter: das ist ein Hauptgebot, und ihm folgt die Verheißung: damit es dir gut geht und du lange lebst auf der Erde. Ihr Väter, reizt eure Kinder nicht zum Zorn, sondern erzieht sie in der Zucht und Weisung des Herrn!",
+          "resp1": "Ihr Kinder, gehorcht euren Eltern, wie es vor dem Herrn recht ist;",
+          "resp2": "ehre deinen Vater und deine Mutter!",
+          "resp3": "Jesus kehrte mit Maria und Josef nach Nazaret zurück und war ihnen gehorsam.",
+          "patr_autor": "Paul VI. (†°1978)",
+          "patr_werk": "Aus seiner Ansprache in Nazaret.",
+          "patr_text": "^hDas Beispiel von Nazaret^pDas Haus von Nazaret ist eine Schule, in der man beginnt, Christi Leben zu verstehen. Es ist die Schule des Evangeliums.^pHier nämlich lernen wir vor allem sehen, hören, betrachten und verstehen, welch große und geheime Kraft in dieser schlichten, demütigen und köstlichen Offenbarung des Sohnes Gottes steckt. Nach und nach lernen wir vielleicht auch, ihm nachzufolgen.^pHier lernen wir mit Leichtigkeit die Weise und den Weg der Christuserkenntnis. Hier wird uns besonders klar, wie sehr man auf die ganze Umwelt achten muss, in der sein Wohnen unter uns eingebettet ist: Zeit, Ort, Gebräuche, Sprache, heilige Riten und endlich alles, wodurch Jesus sich der Welt offenbarte. All das kommt hier zu Wort; hier erhält es für uns sein Gewicht. Hier in dieser Schule sieht man, wie notwendig eine geistliche Ordnung ist, wenn man der Lehre des Evangeliums folgen und Jünger Christi sein möchte.^pWie gerne wäre ich wieder jung und vertraute mich dieser demütigen und doch so erhabenen Schule von Nazaret an. Was für eine Freude wäre es, nach dem Beispiel Marias mit neuem Eifer wahre Lebensweisheit und Einsicht in die göttliche Wahrheit zu erwerben!^pAber ich bin nur als Pilger hier und muss auf meinen Wunsch verzichten, hier in diesem Haus den niemals abgeschlossenen Unterricht in der Erkenntnis des Evangeliums fortzusetzen. Doch möchte ich nicht weggehen, ohne schnell und gleichsam verstohlen von dem Lehrstuhl Nazaret aus einige mahnende Winke zu geben.^pDie Schule von Nazaret lehrt zuerst das Schweigen. Möge in uns eine große Wertschätzung des Schweigens lebendig werden. Denn in dem lauten und allzu aufgeregten Leben von heute, in dem wir von so vielen lauten Stimmen, von Lärm und Geschrei bedrängt werden, ist das Schweigen eine bewundernswerte und notwendige Geisteshaltung.^pDas Schweigen von Nazaret lehre uns, den Geist auf gute Gedanken zu lenken, auf das innere Leben zu achten und bereitwillig auf die geheimen Ratschlüsse und die Anweisungen der wahren Lehrer zu hören; es lehre uns, wie notwendig und wertvoll die innere Vorbereitung ist, das Studium, die Betrachtung, die Ordnung des persönlichen geistlichen Lebens und das Gebet, das Gott allein im Verborgenen sieht {1#vgl.°Mt 6,4}.^pHier lernen wir, wie wichtig das häusliche Leben ist. Nazaret gemahne uns an das, was eine Familie ist, an ihre Gemeinschaft in der Liebe, an ihre strahlende Schönheit, ihre Heiligkeit und Unverletzlichkeit, an ihre durch nichts zu ersetzende Bedeutung. Nazaret zeige uns, wie kostbar die Unterweisung in der Familie ist, eine Unterweisung, die durch nichts ersetzt werden kann. Nazaret lehre uns, welche Aufgabe die Familie ihrer Natur nach in der Ordnung der Gesellschaft hat.^pSchließlich lernen wir hier die zuchtvolle Ordnung der Arbeit.^pO Lehrstuhl von Nazaret, Haus des Handwerkersohns! Hier möchte ich das strenge, aber erlösende Gesetz menschlicher Arbeit erkennen und feiern. Ich möchte die Würde der Arbeit hier so herausstellen, dass alle ihrer inne werden. Unter diesem Dach erinnere ich daran, dass die Arbeit nicht Selbstzweck ist, dass sie vielmehr Freiheit und Wert nicht nur aus ihrer sogenannten wirtschaftlichen Bedeutung bezieht, sondern auch aus den Wirklichkeiten, durch die sie auf ihr erhabenes Ziel ausgerichtet wird. Schließlich möchte ich hier den Arbeitern der ganzen Welt Glück wünschen und ihnen das große Vorbild zeigen, den göttlichen Bruder, den Wortführer all der gerechten Anliegen, die sie betreffen, Christus, unseren Herrn.",
+          "patr_resp1": "Freut euch, lasst euch erneuern und ermahnen, seid eines Sinnes und lebt in Frieden.",
+          "patr_resp2": "Singt und jubelt aus vollem Herzen zum Lob des Herrn.",
+          "patr_resp3": "Tut eure Arbeit gern, als sei sie für den Herrn, nicht für die Menschen.",
+          "hymn_1_lat": 3211.2,
+          "ant1_lat": "Cum indúcerent púerum Iesum paréntes eius, accépit eum Símeon in ulnas suas et benedíxit Deum.",
+          "ant2_lat": "Magi, intrántes domum, invenérunt Púerum cum María matre eius.",
+          "ant3_lat": "Consúrgens Ioseph accépit Púerum et Matrem eius nocte, et secéssit in Ægýptum.",
+          "versikel0_lat": "Ponam univérsos fílios tuos doctos a Dómino.",
+          "versikel1_lat": "Et multitúdinem pacis fíliis tuis."
+        },
+        "Vigil": {
+          "ant0": "Wahrhaftig, du bist ein verborgener Gott, Israels Gott ist sein Retter.^ö",
+          "les_buch": "^A:vigil-HlFamilie:",
+          "les_stelle": "^Q:Joh 20,19-31",
+          "ant0_lat": "Vere tu es Deus abscónditus, Deus Israel Salvátor."
+        },
+        "Laudes": {
+          "psalm1": 63.0,
+          "psalm2": 160.0,
+          "psalm3": 149.0,
+          "ant1": "Jahr für Jahr zogen die Eltern Jesu hinauf nach Jerusalem, um dort Ostern zu feiern.",
+          "ant2": "Das Kind wuchs heran und wurde kräftig; Gott erfüllte es mit Weisheit, und seine Gnade ruhte auf ihm.",
+          "ant3": "Josef und Maria staunten über die Worte, die man über Jesus sagte.",
+          "les_buch": "›Dtn",
+          "les_stelle": "5,16",
+          "les_text": "Ehre deinen Vater und deine Mutter, wie es dir der Herr, dein Gott, zur Pflicht gemacht hat, damit du lange lebst und es dir gut geht in dem Land, das der Herr, dein Gott, dir gibt.",
+          "les_text_neu": "Ehre deinen Vater und deine Mutter, wie es dir der HERR, dein Gott, geboten hat, damit du lange lebst und es dir gut geht in dem Land, das der HERR, dein Gott, dir gibt!",
+          "resp1": "Christus, du Sohn des lebendigen Gottes,",
+          "resp2": "erbarme°dich°unser.",
+          "resp3": "Du warst Maria und Josef gehorsam.",
+          "antev": "Herr, lenke unsre Schritte auf den Weg des Friedens.",
+          "bitten_e": "Gepriesen sei Christus, der Sohn des lebendigen Gottes, der sich nicht gescheut hat, Kind einer menschlichen Familie zu werden. Zu ihm lasst uns beten:",
+          "bitten_r": "Erhöre uns, Christus.",
+          "bitten": "Du warst Maria und Josef untertan;^qhilf uns, einander zu dienen.^pDeine Mutter bewahrte alle deine Worte in ihrem Herzen;^qgib, dass wir heute dein Wort hören und es bewahren.^pDu wurdest Sohn eines Zimmermanns genannt und hast mit deinen Händen gearbeitet;^qsegne das Werk unserer Hände.^pIn der Familie zu Nazaret bist du herangewachsen, und Gott und die Menschen hatten Gefallen an dir;^qgib, dass auch unser Leben Gott und den Menschen gefallen kann.",
+          "hymn_1_lat": 3221.2,
+          "ant1_lat": "Ibant paréntes Iesu per omnes annos in Ierúsalem in die sollémni Paschæ.",
+          "ant2_lat": "Puer autem crescébat et confortabátur plenus sapiéntia, et grátia Dei erat in illo.",
+          "ant3_lat": "Erant pater eius et mater mirántes super iis, quæ dicebántur de illo.",
+          "resp1_lat": "Christe, Fili Dei vivi,",
+          "resp2_lat": "miserére nobis.",
+          "resp3_lat": "Qui Maríæ et Ioseph súbditus fuísti.",
+          "anta_lat": "Ecce appáret ángelus Dómini in somnis Ioseph in Ægýpto dicens: Surge et áccipe púerum et matrem eius et vade in terram Israel; defúncti sunt enim, qui quærébant ánimam púeri.",
+          "antb_lat": "Erant pater et mater Iesu mirántes super his quæ dicebántur de illo.^Lö",
+          "antc_lat": "Fili, quid fecísti nobis sic? Ecce pater tuus et ego doléntes quærebámus te. Quid est quod me quærebátis? Nesciebátis quia in his quæ Patris mei sunt, opórtet me esse?",
+          "bitten_e_lat": "Fílium Dei vivi, qui fílius humánæ famíliæ fíeri dignátus est, adorémus, ipsum exorántes:",
+          "bitten_r_lat": "Iesu, factus obœ́diens, sanctífica nos.",
+          "bitten_lat": "Iesu, Verbum ætérnum Patris, qui súbditum Maríæ et Ioseph te fecísti,^qdoce nos humilitátem.^pMagíster noster, cuius facta et verba mater tua in corde suo servábat,^qpræsta, ut audiámus verbum tuum et custodiámus illud in corde puro et bono.^pChriste, faber mundi, qui fílium fabri te vocári voluísti,^qdoce nos sedulitátem in ópere.^pIesu, qui in família Názareth sapiéntia, ætáte et grátia apud Deum et hómines proficiébas,^qfac, ut crescámus per ómnia in te, qui es Caput nostrum.",
+          "les_text_lat": "Honóra patrem tuum et matrem, sicut præcépit tibi Dóminus Deus tuus, ut longo vivas témpore et bene sit tibi in terra, quam Dóminus Deus tuus datúrus est tibi."
+        },
+        "Terz": {
+          "les_buch": "›vgl.°Kol",
+          "les_stelle": "3,12–13",
+          "les_text": "Bekleidet euch mit aufrichtigem Erbarmen, mit Güte, Demut, Milde, Geduld! Ertragt euch gegenseitig und vergebt einander, wenn einer dem anderen etwas vorzuwerfen hat! Wie der Herr euch vergeben hat, so vergebt auch ihr!",
+          "les_text_neu": "Bekleidet euch mit innigem Erbarmen, Güte, Demut, Milde, Geduld! Ertragt einander und vergebt einander, wenn einer dem anderen etwas vorzuwerfen hat! Wie der Herr euch vergeben hat, so vergebt auch ihr!",
+          "resp0": "Herr, zeige uns deine Wege.",
+          "resp1": "Auf deinen Pfaden wollen wir gehen.",
+          "resp0_lat": "Dóminus vias suas docébit nos.",
+          "resp1_lat": "Et ambulábimus in sémitis eius.",
+          "les_text_lat": "Indúite vos sicut elécti Dei, sancti et dilécti, víscera misericórdiæ, benignitátem, humilitátem, mansuetúdinem, patiéntiam, supportántes ínvicem et donántes vobis ipsis si quis advérsus áliquem habet querélam; sicut et Dóminus donávit vobis, ita et vos."
+        },
+        "Sext": {
+          "les_buch": "›Kol",
+          "les_stelle": "3,14–15",
+          "les_text": "Vor allem liebt einander, denn die Liebe ist das Band, das alles zusammenhält und vollkommen macht. In eurem Herzen herrsche der Friede Christi; dazu seid ihr berufen als Glieder des einen Leibes. Seid dankbar!",
+          "les_text_neu": "Vor allem bekleidet euch mit der Liebe, die das Band der Vollkommenheit ist! Und der Friede Christi triumphiere in euren Herzen. Dazu seid ihr berufen als Glieder des einen Leibes. Seid dankbar!",
+          "resp0": "Arm bin ich und mit Mühen beladen von Jugend an.",
+          "resp1": "Ich habe mich erniedrigt und unter meine Last gebeugt.",
+          "resp0_lat": "Pauper sum ego et in labóribus a iuventúte mea.",
+          "resp1_lat": "Exaltátus autem humiliátus sum et conturbátus.",
+          "les_text_lat": "Super ómnia hæc caritátem, quod est vínculum perfectiónis. Et pax Christi dominétur in córdibus vestris, ad quam et vocáti estis in uno córpore. Et grati estóte."
+        },
+        "Non": {
+          "les_buch": "›Kol",
+          "les_stelle": "3,17",
+          "les_text": "Alles, was ihr in Worten und Werken tut, geschehe im Namen des Herrn; durch ihn dankt Gott, dem Vater!",
+          "les_text_neu": "Alles, was ihr in Wort oder Werk tut, geschehe im Namen Jesu, des Herrn. Dankt Gott, dem Vater, durch ihn!",
+          "resp0": "All deine Söhne werden Schüler des Herrn sein.",
+          "resp1": "Fülle des Friedens wird ihnen zuteil.",
+          "resp0_lat": "Ponam univérsos fílios tuos doctos a Dómino.",
+          "resp1_lat": "Et multitúdinem pacis fíliis tuis.",
+          "les_text_lat": "Omne, quodcúmque fácitis in verbo aut in ópere, ómnia in nómine Dómini Iesu grátias agéntes Deo Patri per ipsum."
+        },
+        "Vesper": {
+          "psalm1": 122.0,
+          "psalm2": 127.0,
+          "psalm3": 152.0,
+          "ant1": "Nach drei Tagen fanden sie Jesus im Tempel; er saß mitten unter den Lehrern, hörte ihnen zu und stellte Fragen.",
+          "ant2": "Jesus zog mit ihnen hinab und kam nach Nazaret – und er war ihnen untertan.",
+          "ant3": "Jesus wuchs heran, und seine Weisheit nahm zu; Gott und die Menschen fanden Gefallen an ihm.",
+          "les_buch": "›Phil",
+          "les_stelle": "2,6–7",
+          "les_text": "Christus Jesus war Gott gleich, hielt aber nicht daran fest, wie Gott zu sein, sondern er entäußerte sich und wurde wie ein Sklave und den Menschen gleich. Sein Leben war das eines Menschen.",
+          "resp1": "Er musste in allem seinen Brüdern gleich sein, um Barmherzigkeit zu lernen.",
+          "resp2": "Er ist auf Erden erschienen, ein Mensch unter Menschen.",
+          "antev": "Kind, wie konntest du uns das antun! Dein Vater und ich haben dich voll Angst gesucht. – Warum habt ihr mich gesucht? Wusstet ihr nicht, dass ich in dem sein muss, was meines Vaters ist?",
+          "bitten_e": "Lasst uns beten zu Christus, dem Sohn des lebendigen Gottes, der sich nicht gescheut hat, Kind einer menschlichen Familie zu werden:",
+          "bitten_r": "Erhöre uns, Christus.",
+          "bitten": "Du warst als Kind Maria und Josef untertan;^qsegne die Kinder unserer Familien.^pDu hast deine Eltern geliebt und wurdest von ihnen geliebt;^qgib, dass Eltern und Kinder einander lieben.^pDu wolltest allezeit in dem sein, was deines Vaters ist;^qgib, dass in jedem Haus dein himmlischer Vater geehrt wird.^pDu wurdest von deinen Eltern gesucht und am dritten Tag im Hause Gottes wiedergefunden;^qrate den Eltern, die sich Sorge machen um ihre Kinder.^pDu hast Maria und Josef in die Herrlichkeit des Himmels heimgeholt;^qnimm unsere Verstorbenen auf in die Gemeinschaft der Seligen.",
+          "hymn_1_lat": 3241.2,
+          "ant1_lat": "Post tríduum invenérunt Iesum in templo, sedéntem in médio doctórum, audiéntem et interrogántem eos.",
+          "ant2_lat": "Descéndit Iesus cum eis, et venit Názareth, et erat súbditus illis.",
+          "ant3_lat": "Et Iesus proficiébat sapiéntia et ætáte et grátia apud Deum et hómines.",
+          "resp1_lat": "Débuit per ómnia frátribus similári,",
+          "resp2_lat": "ut miséricors fíeret.",
+          "resp3_lat": "In terris visus est, et cum homínibus conversátus est.",
+          "anta_lat": "Véniens Ioseph habitávit in civitáte, quæ vocátur Názareth, ut adimplerétur quod dictum est per prophétas: Nazarǽus vocábitur.",
+          "antb_lat": "Puer Iesus crescébat et confortabátur plenus sapiéntia: et grátia Dei erat super illum.",
+          "antc_lat": "Descéndit Iesus cum eis et venit Názareth et erat súbditus illis. Et Mater eius conservábat ómnia verba in corde suo.",
+          "bitten_e_lat": "Fílium Dei vivi, qui fílius humánæ famíliæ fíeri dignátus est, adorémus, ipsi confiténtes:",
+          "bitten_r_lat": "Tu es, Dómine, exémplar et salvátor ómnium.",
+          "bitten_lat": "Christe, per mystérium subiectiónis tuæ erga Maríam et Ioseph,^qdoce omnes reveréntiam et obœdiéntiam erga eos qui legítime præsunt.^pQui paréntes amásti et ab ipsis amátus es,^qomnes famílias in pace et mútua caritáte constítue.^pTu, qui studiósus fuísti eórum, quæ tui sunt Patris,^qpræsta ut in omni domo Deus honorétur.^pChriste, qui ab ánxiis paréntibus tértia die in domo Patris invéntus es,^qdoce omnes quǽrere primum regnum Dei.^pChriste, qui Maríam et Ioseph tecum in cælésti glória consociásti,^qadmítte defúnctos in famíliam beatórum.",
+          "les_text_lat": "Christus Iesus, cum in forma Dei esset, non rapínam arbitrátus est esse se æquálem Deo, sed semetípsum exinanívit formam servi accípiens, in similitúdinem hóminum factus; et hábitu invéntus ut homo."
+        }
+      }
+    },
     "2": {
       "0": {
         "each": {
-          "oration": "Allmächtiger, ewiger Gott, du erleuchtest alle, die an dich glauben. Offenbare dich den Völkern der Erde, damit alle Menschen das Licht deiner Herrlichkeit schauen.^ORV"
+          "oration": "Allmächtiger, ewiger Gott, du erleuchtest alle, die an dich glauben. Offenbare dich den Völkern der Erde, damit alle Menschen das Licht deiner Herrlichkeit schauen.^ORV",
+          "oration_lat": "Omnípotens sempitérne Deus, fidélium splendor animárum, dignáre mundum glória tua implére benígnus, et cunctis pópulis appáre per tui lúminis claritátem.^ORlV"
         },
         "ErsteV": {
           "hymn_kl": 0.0,
@@ -7571,11 +7752,23 @@ export const brevierData = {
           "antev": "Voll der Gnade bist du, Jungfrau Maria, denn ein großes Geheimnis hat dein Schoß getragen.^ö",
           "bitten_e": "Lasst uns beten zu unserem Herrn Jesus Christus, der sich selbst erniedrigte und Mensch geworden ist:",
           "bitten_r": "Herr, durch deine Geburt komm uns zu Hilfe.",
-          "bitten": "Mit deinem Kommen hast du die neue Weltzeit heraufgeführt;^qgib, dass deine Kirche sich immer wieder erneuert.^pDu hast die Gebrechen der Menschen auf dich genommen;^qsei den Blinden Licht, den Schwachen Kraft und den Leidenden Trost.^pIn Armut und Niedrigkeit wurdest du geboren;^qerbarme dich der Armen und mache uns bereit, ihnen zu helfen.^pDeine Geburt auf Erden brachte Freude durch die Verheißung ewigen Lebens;^qschenke den Sterbenden die Zuversicht, dass sie im Tod zum Leben geboren werden.^pDu bist auf die Erde herabgekommen, um alle Menschen zum Himmel zu führen;^qvereine die Toten mit dir in der ewigen Herrlichkeit."
+          "bitten": "Mit deinem Kommen hast du die neue Weltzeit heraufgeführt;^qgib, dass deine Kirche sich immer wieder erneuert.^pDu hast die Gebrechen der Menschen auf dich genommen;^qsei den Blinden Licht, den Schwachen Kraft und den Leidenden Trost.^pIn Armut und Niedrigkeit wurdest du geboren;^qerbarme dich der Armen und mache uns bereit, ihnen zu helfen.^pDeine Geburt auf Erden brachte Freude durch die Verheißung ewigen Lebens;^qschenke den Sterbenden die Zuversicht, dass sie im Tod zum Leben geboren werden.^pDu bist auf die Erde herabgekommen, um alle Menschen zum Himmel zu führen;^qvereine die Toten mit dir in der ewigen Herrlichkeit.",
+          "ant1_lat": "Virgo verbo concépit, Virgo permánsit, Virgo péperit Regem ómnium regum.",
+          "ant2_lat": "Lætámini cum Ierúsalem; declinávit super eam Dóminus quasi flúvium pacis.",
+          "ant3_lat": "Natus est nobis Deus de Deo, lumen de lúmine, quod erat in princípio.",
+          "resp1_lat": "Verbum caro factum est.",
+          "resp2_lat": "Allelúia,°allelúia.",
+          "resp3_lat": "Et habitávit in nobis.",
+          "antev_lat": "Castæ Paréntis víscera cæléstis intrat grátia: venter puéllæ báiulat secréta, quæ non nóverat.",
+          "bitten_e_lat": "Christum adorémus, qui semetípsum exinanívit formam servi accípiens ac tentátus est per ómnia pro similitúdine absque peccáto. Ardénti fide eum precémur:",
+          "bitten_r_lat": "Per nativitátem tuam succúrre redémptis.",
+          "bitten_lat": "Qui, mundum ingrédiens, ætátem novam a prophétis prædíctam instaurásti,^qfac ut semper in novas ætátes tua iuvenéscat Ecclésia.^pQui humánam infirmitátem assumpsísti,^qsis cæcis lumen, debílibus fortitúdo, míseris consolátio.^pQui pauper et húmilis natus es,^qréspice páuperes et propítius consoláre.^pQui terréna nativitáte tua ómnibus de promíssa æternitáte lætítiam ingessísti,^qcæléstis spe nativitátis moriéntium corda lætífica.^pQui in terram descendísti, ut omnes in cælum addúceres,^qin glória tibi coniúnge defúnctos.",
+          "les_text_lat": "Scimus quóniam Fílius Dei venit, et dedit nobis sensum, ut cognoscámus eum, qui verus est; et sumus in eo qui verus est, in Fílio eius Iesu Christo. Hic est qui verus est, Deus et vita ætérna."
         },
         "Vigil": {
           "ant0": "Immanuel wird sein Name sein: Gott mit uns.^ö",
-          "les_stelle": "^Q:Joh 21,1-14"
+          "les_stelle": "^Q:Joh 21,1-14",
+          "ant0_lat": "Vocábitur nomen eius Emmánuel, quod interpretátur „Nobíscum-Deus“."
         },
         "Laudes": {
           "ant1": "Ein Licht erstrahlt den Gerechten; denn der Erlöser der Welt ist geboren.^ö",
@@ -7590,24 +7783,38 @@ export const brevierData = {
           "resp3": "Du bist geboren von Maria, der Jungfrau.",
           "antev": "Gebenedeit bist du unter den Frauen, allzeit jungfräuliche Mutter Maria; denn du hast der Welt das ewige Wort geboren.",
           "bitten_e": "Lob und Preis und Ehre dem Worte Gottes! Es war bei Gott vor aller Zeit und wurde für uns Mensch in der Zeit. Zu ihm lasst uns rufen:",
-          "bitten": "Christus, ewiges Wort, du bist Fleisch geworden und hast unter uns gewohnt;^qmach unser Herz froh über deine Geburt.^pDu, unser Heiland, in dir ist die Treue Gottes offenbar geworden,^qgib, dass wir Gott die Treue halten.^pKönig des Himmels und der Erde, durch die Engel hast du den Menschen Frieden verkündet;^qbewahre uns in deinem Frieden.^pDu Spross Davids, du wurdest in die Welt eingepflanzt als der wahre Weinstock;^qgib, dass wir in dir bleiben und du in uns."
+          "bitten": "Christus, ewiges Wort, du bist Fleisch geworden und hast unter uns gewohnt;^qmach unser Herz froh über deine Geburt.^pDu, unser Heiland, in dir ist die Treue Gottes offenbar geworden,^qgib, dass wir Gott die Treue halten.^pKönig des Himmels und der Erde, durch die Engel hast du den Menschen Frieden verkündet;^qbewahre uns in deinem Frieden.^pDu Spross Davids, du wurdest in die Welt eingepflanzt als der wahre Weinstock;^qgib, dass wir in dir bleiben und du in uns.",
+          "ant1_lat": "Lux orta est iusto, quia ómnium natus est Salvátor.^Lö",
+          "ant2_lat": "Hymnum dicámus Dómino Deo nostro.",
+          "ant3_lat": "Pópulus géntium, qui sedébat in ténebris, vidit lucem magnam.",
+          "resp1_lat": "Christe, Fili Dei vivi,",
+          "resp2_lat": "miserére nobis.",
+          "resp3_lat": "Qui natus es de María Vírgine.",
+          "antev_lat": "Virgo semper fidélis, et si Verbum génuit incarnátum, virgo mansit et post partum, quam laudántes omnes dícimus: Benedícta tu in muliéribus.",
+          "bitten_e_lat": "Dignis láudibus Verbum Dei celebrémus, ante sǽcula exsístens et in témpore nobis natum. Iucúnde acclamémus, dicéntes:",
+          "bitten_r_lat": "Exsúltet terra, quia venísti.",
+          "bitten_lat": "Christe, Verbum ætérnum, qui, in terram descéndens, exsultatiónis rore eam perfudísti,^qlætífica cor nostrum grátiæ tuæ visitatióne contínua.^pSalvátor noster, qui in nativitáte tua, fidelitátem Dei nobis ostendísti,^qconcéde nos plena fide promissiónes baptismáles serváre.^pRex cæli et terræ, qui pacem homínibus ab ángelis nuntiári fecísti,^qvitam nostram in tua pace consérva.^pDómine, qui venísti ut esses vitis vera, nobis fructum vitæ prodúcens,^qfac nos iúgiter pálmites in te manéntes, ne simus infructuósi.",
+          "les_text_lat": "Multifáriam et multis modis olim Deus locútus pátribus in prophétis, in novíssimis his diébus locútus est nobis in Fílio, quem constítuit herédem universórum, per quem fecit et sǽcula."
         },
         "Terz": {
           "les_buch": "›Tit",
           "les_stelle": "2,11–12",
-          "les_text": "Die Gnade Gottes ist erschienen, um alle Menschen zu retten. Sie erzieht uns dazu, uns von der Gottlosigkeit und den irdischen Begierden loszusagen und besonnen, gerecht und fromm in dieser Welt zu leben,"
+          "les_text": "Die Gnade Gottes ist erschienen, um alle Menschen zu retten. Sie erzieht uns dazu, uns von der Gottlosigkeit und den irdischen Begierden loszusagen und besonnen, gerecht und fromm in dieser Welt zu leben,",
+          "les_text_lat": "Appáruit grátia Dei salutáris ómnibus homínibus erúdiens nos, ut abnegántes impietátem et sæculária desidéria sóbrie et iuste et pie vivámus in hoc sǽculo."
         },
         "Sext": {
           "les_buch": "›1°Joh",
           "les_stelle": "4,9",
           "les_text": "Die Liebe Gottes wurde unter uns dadurch offenbart, dass Gott seinen einzigen Sohn in die Welt gesandt hat, damit wir durch ihn leben.",
-          "les_text_neu": "Darin offenbarte sich die Liebe Gottes unter uns, dass Gott seinen einzigen Sohn in die Welt gesandt hat, damit wir durch ihn leben."
+          "les_text_neu": "Darin offenbarte sich die Liebe Gottes unter uns, dass Gott seinen einzigen Sohn in die Welt gesandt hat, damit wir durch ihn leben.",
+          "les_text_lat": "In hoc appáruit cáritas Dei in nobis quóniam Fílium suum unigénitum misit Deus in mundum, ut vivámus per eum."
         },
         "Non": {
           "les_buch": "›Apg",
           "les_stelle": "10,36",
           "les_text": "Gott hat das Wort den Israeliten gesandt, indem er den Frieden verkündete durch Jesus Christus; dieser ist der Herr aller.",
-          "les_text_neu": "Gott hat das Wort den Israeliten gesandt, indem er den Frieden verkündete durch Jesus Christus: dieser ist der Herr aller."
+          "les_text_neu": "Gott hat das Wort den Israeliten gesandt, indem er den Frieden verkündete durch Jesus Christus: dieser ist der Herr aller.",
+          "les_text_lat": "Verbum misit Deus fíliis Israel evangelízans pacem per Iesum Christum; hic est ómnium Dóminus."
         },
         "Vesper": {
           "ant1": "Aufgeleuchtet ist uns aufs neue der Tag der Erlösung, der uralte Sehnsucht erfüllt und ewige Glückseligkeit verheißt.",
@@ -7620,21 +7827,31 @@ export const brevierData = {
           "antev": "Selig der Leib, der den Sohn des ewigen Vaters getragen, selig die Brust, die Christus, den Herrn, genährt hat.",
           "bitten_e": "Lasst uns beten zu unserem Heiland, bei dessen Geburt Engel der Welt den Frieden verkündeten:",
           "bitten_r": "Deine Geburt bringe Frieden den Menschen.",
-          "bitten": "Herr, schenke der Kirche die Fülle deiner Gaben;^qmache sie froh durch die Feier deiner Geburt.^pDu bist unser Hirt und Bischof;^qmache den Papst und die Bischöfe zu treuen Dienern deiner Gnade.^pKönig vor aller Zeit und in Ewigkeit, du hast dich eingrenzen lassen in die kurze Spanne menschlichen Lebens;^qgib den sterblichen Menschen Anteil an deiner Ewigkeit.^pVon Urzeit her erwartet, bist du gekommen, als die Zeit erfüllt war;^qoffenbare deine Ankunft denen, die noch auf dich warten.^pDu hast den Menschen, der dem Tod verfallen ist, durch deine Menschwerdung erneuert;^qvollende an unseren Verstorbenen das Werk der Erlösung."
+          "bitten": "Herr, schenke der Kirche die Fülle deiner Gaben;^qmache sie froh durch die Feier deiner Geburt.^pDu bist unser Hirt und Bischof;^qmache den Papst und die Bischöfe zu treuen Dienern deiner Gnade.^pKönig vor aller Zeit und in Ewigkeit, du hast dich eingrenzen lassen in die kurze Spanne menschlichen Lebens;^qgib den sterblichen Menschen Anteil an deiner Ewigkeit.^pVon Urzeit her erwartet, bist du gekommen, als die Zeit erfüllt war;^qoffenbare deine Ankunft denen, die noch auf dich warten.^pDu hast den Menschen, der dem Tod verfallen ist, durch deine Menschwerdung erneuert;^qvollende an unseren Verstorbenen das Werk der Erlösung.",
+          "ant1_lat": "Illúxit nobis dies redemptiónis novæ, reparatiónis antíquæ, felicitátis ætérnæ.",
+          "ant2_lat": "Misit Dóminus misericórdiam suam et veritátem suam.",
+          "ant3_lat": "In terris natus est nobis rex regum Dóminus: ecce iam venit nobis salus mundi, redémptio nostra.^Lö",
+          "antev_lat": "Beáta víscera, quæ portavérunt ætérni Patris Fílium, et beáta úbera, quæ lactavérunt Christum Dóminum.",
+          "bitten_e_lat": "Christum iubilántes celebrémus, in cuius nativitáte ángeli pacem mundo nuntiavérunt, et devótis ánimis exorémus:",
+          "bitten_r_lat": "Natívitas tua pacem cunctis áfferat.",
+          "bitten_lat": "Reple, Dómine, ómnibus bonis Ecclésiam tuam,^qquam nativitátis tuæ mystério consoláris.^pQui princeps pastórum venísti et nostrárum epíscopus animárum,^qpapam et epíscopos nostros fidéles redde dispensatóres multifórmis grátiæ tuæ.^pRex æternitátis, qui, nascens, brevi vitæ spátio circumscríbi et hóminum vicissitúdines experíri voluísti,^qnos cadúcos et mortáles æternitátis tuæ redde consórtes.^pQui, a sǽculis exspectátus, in plenitúdine témporis venísti,^qmanifésta præséntiam tuam iis, qui adhuc te exspéctant.^pQui, caro factus, humánam substántiam, morte corrúptam restaurásti,^qdefúnctis tuam plenam restauratiónem concéde.",
+          "les_text_lat": "Quod fuit ab inítio, quod audívimus, quod vídimus óculis nostris, quod perspéximus et manus nostræ contrectavérunt, de verbo vitæ – et vita appáruit, et vídimus et testámur et annuntiámus vobis vitam ætérnam, quæ erat coram Patre et appáruit nobis – quod vídimus et audívimus, annuntiámus et vobis, ut et vos communiónem habeátis nobíscum. Commúnio autem nostra est cum Patre et cum Fílio eius Iesu Christo."
         }
       }
     },
     "3": {
       "0": {
         "each": {
-          "oration": "Allmächtiger Gott, sieh gütig auf dein Volk, das mit gläubigem Verlangen das Fest der Geburt Christi erwartet. Mache unser Herz bereit für das Geschenk der Erlösung, damit Weihnachten für uns alle ein Tag der Freude und der Zuversicht werde.^ORV"
+          "oration": "Allmächtiger Gott, sieh gütig auf dein Volk, das mit gläubigem Verlangen das Fest der Geburt Christi erwartet. Mache unser Herz bereit für das Geschenk der Erlösung, damit Weihnachten für uns alle ein Tag der Freude und der Zuversicht werde.^ORV",
+          "oration_lat": "Deus, qui cónspicis pópulum tuum nativitátis domínicæ festivitátem fidéliter exspectáre, præsta, quǽsumus, ut valeámus ad tantæ salútis gáudia perveníre, et ea votis sollémnibus álacri semper lætítia celebráre.^ORlV"
         }
       }
     },
     "4": {
       "0": {
         "each": {
-          "oration": "Allmächtiger Gott, gieße deine Gnade in unsere Herzen ein. Durch die Botschaft des Engels haben wir die Menschwerdung Christi, deines Sohnes, erkannt. Führe uns durch sein Leiden und Kreuz zur Herrlichkeit der Auferstehung.^ORvR"
+          "oration": "Allmächtiger Gott, gieße deine Gnade in unsere Herzen ein. Durch die Botschaft des Engels haben wir die Menschwerdung Christi, deines Sohnes, erkannt. Führe uns durch sein Leiden und Kreuz zur Herrlichkeit der Auferstehung.^ORvR",
+          "oration_lat": "Grátiam tuam, quǽsumus, Dómine, méntibus nostris infúnde, ut qui, Angelo nuntiánte, Christi Fílii tui incarnatiónem cognóvimus, per passiónem eius et crucem ad resurrectiónis glóriam perducámur.^ORlvR"
         },
         "Laudes": {
           "les_buch": "›Röm",
@@ -7642,25 +7859,35 @@ export const brevierData = {
           "les_text": "Die Stunde ist gekommen, sich vom Schlaf zu erheben. Denn jetzt ist das Heil uns näher als zu der Zeit, da wir gläubig wurden. Die Nacht ist vorgerückt, der Tag ist nahe. Darum lasst uns ablegen die Werke der Finsternis und anlegen die Waffen des Lichts!",
           "bitten_e": "Gepriesen sei unser Herr Jesus Christus, der Richter der Lebenden und der Toten. Zu ihm lasst uns beten:",
           "bitten_r": "Komm, Herr Jesus.",
-          "bitten": "Du willst nicht den Tod des Sünders, sondern dass er lebt;^qsteh uns heute bei in den Anfechtungen des Bösen.^pAls Richter kehrst du einst wieder;^qerweise an uns deine rettende Macht.^pDu willst, dass wir uns für deine Ankunft bereiten;^qgib, dass du uns wachend findest, wenn du kommst.^pHilf uns, dass wir fromm und besonnen in dieser Welt leben^qund die Erfüllung unserer seligen Hoffnung erwarten."
+          "bitten": "Du willst nicht den Tod des Sünders, sondern dass er lebt;^qsteh uns heute bei in den Anfechtungen des Bösen.^pAls Richter kehrst du einst wieder;^qerweise an uns deine rettende Macht.^pDu willst, dass wir uns für deine Ankunft bereiten;^qgib, dass du uns wachend findest, wenn du kommst.^pHilf uns, dass wir fromm und besonnen in dieser Welt leben^qund die Erfüllung unserer seligen Hoffnung erwarten.",
+          "resp1_lat": "Christe, Fili Dei vivi,",
+          "resp2_lat": "miserére nobis.",
+          "resp3_lat": "Qui ventúrus es in mundum.",
+          "bitten_e_lat": "Dóminum Iesum Christum, fratres caríssimi, deprecémur, qui est iudex vivórum et mortuórum ipsi dicéntes:",
+          "bitten_r_lat": "Veni, Dómine Iesu.",
+          "bitten_lat": "Christe Dómine, qui peccatores salváre venísti,^qnos ab omni tentatiónum adversitáte defénde.^pQui ad iudícium maniféste ventúrus esse créderis,^qpoténtiam tuæ salvatiónis in nobis osténde.^pDa nobis legis tuæ præcépta virtúte spíritus custodíre,^qut advéntum tuum in caritáte præstolári possímus.^pTu, qui es benedíctus in sǽcula, fac ut per misericórdiam tuam pie et sóbrie in hoc sǽculo vivámus,^qexspectántes beátam spem et advéntum magnificéntiæ tuæ.",
+          "les_text_lat": "Hora est iam vos de somno súrgere, nunc enim própior est nobis salus quam cum credídimus. Nox procéssit, dies autem appropiávit. Abiciámus ergo ópera tenebrárum et induámur arma lucis."
         },
         "Terz": {
           "les_buch": "›Röm",
           "les_stelle": "13,13–14a",
           "les_text": "Lasst uns ehrenhaft leben wie am Tag, ohne maßloses Essen und Trinken, ohne Unzucht und Ausschweifung, ohne Streit und Eifersucht. Legt (als neues Gewand) den Herrn Jesus Christus an.",
-          "les_text_neu": "Lasst uns ehrenhaft leben wie am Tag, ohne maßloses Essen und Trinken, ohne Unzucht und Ausschweifung, ohne Streit und Eifersucht! Vielmehr zieht den Herrn Jesus Christus an."
+          "les_text_neu": "Lasst uns ehrenhaft leben wie am Tag, ohne maßloses Essen und Trinken, ohne Unzucht und Ausschweifung, ohne Streit und Eifersucht! Vielmehr zieht den Herrn Jesus Christus an.",
+          "les_text_lat": "Sicut in die honéste ambulémus: non in comissatiónibus et ebrietátibus, non in cubílibus et impudicítiis, non in contentióne et æmulatióne; sed indúite Dóminum Iesum Christum."
         },
         "Sext": {
           "les_buch": "›1°Thess",
           "les_stelle": "3,12–13",
           "les_text": "Der Herr lasse euch wachsen und reich werden in der Liebe zueinander und zu allen, wie auch wir euch lieben, damit euer Herz gefestigt wird und ihr ohne Tadel seid, geheiligt vor Gott, unserem Vater, wenn Jesus, unser Herr, mit allen seinen Heiligen kommt.",
-          "les_text_neu": "Der Herr lasse euch wachsen und reich werden in der Liebe zueinander und zu allen, wie auch wir euch lieben, damit eure Herzen gestärkt werden und ihr ohne Tadel seid, geheiligt vor Gott, unserem Vater, bei der Ankunft Jesu, unseres Herrn, mit allen seinen Heiligen."
+          "les_text_neu": "Der Herr lasse euch wachsen und reich werden in der Liebe zueinander und zu allen, wie auch wir euch lieben, damit eure Herzen gestärkt werden und ihr ohne Tadel seid, geheiligt vor Gott, unserem Vater, bei der Ankunft Jesu, unseres Herrn, mit allen seinen Heiligen.",
+          "les_text_lat": "Abundáre vos fáciat Dóminus caritáte in ínvicem et in omnes, quæmádmodum et nos in vos, ad confirmánda corda vestra sine queréla in sanctitáte ante Deum et Patrem nostrum, in advéntu Dómini nostri Iesu cum ómnibus sanctis eius."
         },
         "Non": {
           "les_buch": "›vgl.°2°Thess",
           "les_stelle": "1,6–7.10",
           "les_text": "Es entspricht der Gerechtigkeit Gottes, euch, den Bedrängten, zusammen mit uns Ruhe zu schenken, wenn Jesus, der Herr, sich vom Himmel her offenbart mit seinen mächtigen Engeln, wenn er kommt, um inmitten seiner Heiligen gefeiert und im Kreis aller derer bewundert zu werden, die den Glauben angenommen haben.",
-          "les_text_neu": "Es ist gerecht von Gott, euch, den Bedrängten, zusammen mit uns Ruhe zu schenken, wenn Jesus, der Herr, sich vom Himmel her offenbart mit seinen mächtigen Engeln, wenn er kommt, um inmitten seiner Heiligen verherrlicht und inmitten der Glaubenden bewundert zu werden."
+          "les_text_neu": "Es ist gerecht von Gott, euch, den Bedrängten, zusammen mit uns Ruhe zu schenken, wenn Jesus, der Herr, sich vom Himmel her offenbart mit seinen mächtigen Engeln, wenn er kommt, um inmitten seiner Heiligen verherrlicht und inmitten der Glaubenden bewundert zu werden.",
+          "les_text_lat": "Iustum est apud Deum retribúere vobis, qui tribulámini, réquiem nobíscum in revelatióne Dómini Iesu de cælo cum ángelis virtútis eius, cum vénerit glorificári in sanctis suis et admirábilis fíeri in ómnibus, qui credidérunt."
         },
         "Vesper": {
           "les_buch": "›Phil",
@@ -7668,7 +7895,14 @@ export const brevierData = {
           "les_text": "Freut euch im Herrn zu jeder Zeit! Noch einmal sage ich: Freut euch! Eure Güte werde allen Menschen bekannt. Der Herr ist nahe!",
           "bitten_e": "Lasst uns beten zu Jesus Christus, der in diese Welt gekommen ist, um alle Menschen zu retten:",
           "bitten_r": "Komm, Herr Jesus.",
-          "bitten": "Du hast den Menschen das Geheimnis Gottes kundgetan;^qsteh allen bei, die diese Botschaft verkünden.^pDu hast das Werk der Erlösung an Israel begonnen;^qvollende es an allen Völkern der Erde.^pDu hast unsere Schwachheit auf dich genommen;^qerbarme dich der Hilflosen und Armen.^pDu bist der Lebendige;^qschenke allen, die an dich glauben, das ewige Leben.^pDu thronst zur Rechten des Vaters;^qlass die Verstorbenen dein Angesicht schauen."
+          "bitten": "Du hast den Menschen das Geheimnis Gottes kundgetan;^qsteh allen bei, die diese Botschaft verkünden.^pDu hast das Werk der Erlösung an Israel begonnen;^qvollende es an allen Völkern der Erde.^pDu hast unsere Schwachheit auf dich genommen;^qerbarme dich der Hilflosen und Armen.^pDu bist der Lebendige;^qschenke allen, die an dich glauben, das ewige Leben.^pDu thronst zur Rechten des Vaters;^qlass die Verstorbenen dein Angesicht schauen.",
+          "resp1_lat": "Osténde nobis, Dómine,",
+          "resp2_lat": "misericórdiam tuam.",
+          "resp3_lat": "Et salutáre tuum da nobis.",
+          "bitten_e_lat": "Christum Redemptórem, fratres caríssimi, exorémus, qui venit ad salvándos hómines, eíque fidénter dicámus:",
+          "bitten_r_lat": "Veni, Dómine Iesu.",
+          "bitten_lat": "Christe Dómine, qui per suscéptæ mystérium carnis notam fecísti mundo glóriam tuæ divinitátis,^qvivífica nos advéntu tuo.^pTu, qui suscepísti infirmitátem nostram,^qconcéde nobis misericórdiam tuam.^pQui, primo véniens húmilis, redemísti mundum a crímine,^qsecúndo advéniens, iustífica nos ab omni reátu.^pTu, qui vivis et ómnia regis,^qin bonitáte tua fac nos accédere ad ætérnam hereditátem.^pQui sedes ad déxteram Patris,^qlúmine vultus tui ánimas defunctórum lætífica.",
+          "les_text_lat": "Gaudéte in Dómino semper. Iterum dico: Gaudéte! Modéstia vestra nota sit ómnibus homínibus. Dóminus prope."
         }
       }
     }
@@ -16412,186 +16646,6 @@ export const brevierData = {
     }
   },
   "w": {
-    "1": {
-      "0": {
-        "each": {
-          "comm_1": "Maria",
-          "oration": "Herr, unser Gott, in der Heiligen Familie hast du uns ein leuchtendes Vorbild geschenkt. Gib unseren Familien die Gnade, dass auch sie in Frömmigkeit und Eintracht leben und einander in der Liebe verbunden bleiben. Führe uns alle zur ewigen Gemeinschaft in deinem Vaterhaus.^ORV",
-          "oration_lat": "Deus, qui præclára nobis sanctæ Famíliæ dignátus es exémpla præbére, concéde propítius, ut, domésticis virtútibus caritatísque vínculis illam sectántes, in lætítia domus tuæ prǽmiis fruámur ætérnis.^ORlV"
-        },
-        "ErsteV": {
-          "button": "1. Vesper zum Fest der Hl. Familie",
-          "hymn_1": 3241.0,
-          "hymn_kl": 0.0,
-          "psalm1": 113.0,
-          "psalm2": 147.2,
-          "psalm3": 152.0,
-          "ant1": "Josef, der Sohn Jakobs, war der Gemahl Marias. Von ihr wurde Jesus geboren, der Christus genannt wird.",
-          "ant2": "Josef, Sohn Davids, fürchte dich nicht, Maria als deine Frau zu dir zu nehmen; denn das Kind, das sie erwartet, ist vom Heiligen Geist.",
-          "ant3": "Die Hirten eilten hin und fanden Maria und Josef und das Kind, das in einer Krippe lag.",
-          "les_buch": "›2°Kor",
-          "les_stelle": "8,9",
-          "les_text": "Ihr wisst, was Jesus Christus, unser Herr, in seiner Liebe getan hat: Er, der reich war, wurde euretwegen arm, um euch durch seine Armut reich zu machen.",
-          "les_text_neu": "Ihr kennt die Gnade unseres Herrn Jesus Christus: Er, der reich war, wurde euretwegen arm, um euch durch seine Armut reich zu machen.",
-          "resp1": "Das Wort ist Fleisch geworden und hat unter uns gewohnt.",
-          "resp2": "Halleluja,°halleluja.",
-          "resp3": "Aus seiner Fülle haben wir empfangen, Gnade über Gnade.",
-          "antev": "Der Knabe Jesus blieb in Jerusalem, und seine Eltern suchten ihn: Sie fanden ihn im Tempel.",
-          "bitten_e": "Lasst uns beten zu Christus, dem Sohn des lebendigen Gottes, der sich nicht gescheut hat, Kind einer menschlichen Familie zu werden:",
-          "bitten_r": "Erhöre uns, Christus.",
-          "bitten": "Du warst als Kind Maria und Josef untertan;^qsegne die Kinder unserer Familien.^pDu hast deine Eltern geliebt und wurdest von ihnen geliebt;^qgib, dass Eltern und Kinder einander lieben.^pDu wolltest allezeit in dem sein, was deines Vaters ist;^qgib, dass in jedem Haus dein himmlischer Vater geehrt wird.^pDu wurdest von deinen Eltern gesucht und am dritten Tag im Hause Gottes wiedergefunden;^qrate den Eltern, die sich Sorge machen um ihre Kinder.^pDu hast Maria und Josef in die Herrlichkeit des Himmels heimgeholt;^qnimm unsere Verstorbenen auf in die Gemeinschaft der Seligen.",
-          "hymn_1_lat": 3241.2,
-          "ant1_lat": "Iacob autem génuit Ioseph virum Maríæ, de qua natus est Iesus, qui vocátur Christus.",
-          "ant2_lat": "Pastóres venérunt festinántes, et invenérunt Maríam et Ioseph et Infántem pósitum in præsépio.",
-          "ant3_lat": "Pastóres venérunt festinántes, et invenérunt Maríam et Ioseph et Infántem pósitum in præsépio.",
-          "resp1_lat": "Verbum caro factum est.",
-          "resp2_lat": "Allelúia,°allelúia.",
-          "resp3_lat": "Et habitávit in nobis.",
-          "anta_lat": "Ecce ángelus Dómini appáret in somnis Ioseph dicens: Surge et áccipe púerum et matrem eius et fuge in Ægýptum et esto ibi, usque dum dicam tibi.",
-          "antb_lat": "Postquam impléti sunt dies purgatiónis eórum secúndum legem Móysis, tulérunt illum in Hierosólymam ut sísterent Dómino.",
-          "antc_lat": "Pastóres venérunt festinántes, et invenérunt Maríam et Ioseph et Infántem pósitum in præsépio.",
-          "bitten_e_lat": "Fílium Dei vivi, qui fílius humánæ famíliæ fíeri dignátus est, adorémus, ipsi confiténtes:",
-          "bitten_r_lat": "Tu es, Dómine, exémplar et salvátor ómnium.",
-          "bitten_lat": "Christe, per mystérium subiectiónis tuæ erga Maríam et Ioseph,^qdoce omnes reveréntiam et obœdiéntiam erga eos qui legítime præsunt.^pQui paréntes amásti et ab ipsis amátus es,^qomnes famílias in pace et mútua caritáte constítue.^pTu, qui studiósus fuísti eórum, quæ tui sunt Patris,^qpræsta ut in omni domo Deus honorétur.^pChriste, qui ab ánxiis paréntibus tértia die in domo Patris invéntus es,^qdoce omnes quǽrere primum regnum Dei.^pChriste, qui Maríam et Ioseph tecum in cælésti glória consociásti,^qadmítte defúnctos in famíliam beatórum.",
-          "les_text_lat": "Scitis grátiam Dómini nostri Iesu Christi, quóniam propter vos egénus factus est, cum esset dives, ut illíus inópia vos dívites essétis."
-        },
-        "Invitatorium": {
-          "ant0": "Christus, den Sohn Gottes, der Maria und Josef gehorsam war – kommt, wir beten ihn an!",
-          "ant0_lat": "Christum, Dei Fílium, Maríæ et Ioseph súbditum, veníte adorémus."
-        },
-        "Lesehore": {
-          "psalm1": 24.0,
-          "psalm2": 46.0,
-          "psalm3": 87.0,
-          "ant1": "Die Eltern brachten Jesus in den Tempel. Simeon nahm das Kind in seine Arme und lobte Gott für seine Huld.",
-          "ant2": "Die Weisen gingen in das Haus und fanden das Kind und Maria, seine Mutter.",
-          "ant3": "Noch in der Nacht stand Josef auf und floh mit dem Kind und seiner Mutter nach Ägypten.",
-          "versikel0": "Der Herr hat kundgemacht sein Heil.^ö",
-          "versikel1": "Vor den Augen der Völker.^ö",
-          "les_buch": "Aus dem Brief an die Epheser.",
-          "les_stelle": "5,21–6,4",
-          "les_text": "^hChristliches Leben in Familie und Gesellschaft^pEiner ordne sich dem andern unter in der gemeinsamen Ehrfurcht vor Christus!^pIhr Frauen, ordnet euch euren Männern unter wie dem Herrn (Christus); denn der Mann ist das Haupt der Frau, wie auch Christus das Haupt der Kirche ist; er hat sie gerettet, denn sie ist sein Leib. Wie aber die Kirche sich Christus unterordnet, sollen sich die Frauen in allem den Männern unterordnen.^pIhr Männer, liebt eure Frauen, wie Christus die Kirche geliebt und sich für sie hingegeben hat, um sie im Wasser und durch das Wort rein und heilig zu machen. So will er die Kirche herrlich vor sich erscheinen lassen, ohne Flecken, Falten oder andere Fehler; heilig soll sie sein und makellos. Darum sind die Männer verpflichtet, ihre Frauen zu lieben wie ihren eigenen Leib. Wer seine Frau liebt, liebt sich selbst. Keiner hat je seinen eigenen Leib gehasst, sondern er nährt und pflegt ihn, wie auch Christus die Kirche. Denn wir sind Glieder seines Leibes. Darum wird der Mann Vater und Mutter verlassen und sich an seine Frau binden, und die zwei werden EIN Fleisch sein. Dies ist ein tiefes Geheimnis; ich beziehe es auf Christus und die Kirche. Was euch angeht, so liebe jeder von euch seine Frau wie sich selbst, die Frau aber ehre den Mann.^pIhr Kinder, gehorcht euren Eltern, wie es vor dem Herrn recht ist! Ehre deinen Vater und deine Mutter: das ist ein Hauptgebot, und ihm folgt die Verheißung: damit es dir gut geht und du lange lebst auf der Erde. Ihr Väter, reizt eure Kinder nicht zum Zorn, sondern erzieht sie in der Zucht und Weisung des Herrn!",
-          "resp1": "Ihr Kinder, gehorcht euren Eltern, wie es vor dem Herrn recht ist;",
-          "resp2": "ehre deinen Vater und deine Mutter!",
-          "resp3": "Jesus kehrte mit Maria und Josef nach Nazaret zurück und war ihnen gehorsam.",
-          "patr_autor": "Paul VI. (†°1978)",
-          "patr_werk": "Aus seiner Ansprache in Nazaret.",
-          "patr_text": "^hDas Beispiel von Nazaret^pDas Haus von Nazaret ist eine Schule, in der man beginnt, Christi Leben zu verstehen. Es ist die Schule des Evangeliums.^pHier nämlich lernen wir vor allem sehen, hören, betrachten und verstehen, welch große und geheime Kraft in dieser schlichten, demütigen und köstlichen Offenbarung des Sohnes Gottes steckt. Nach und nach lernen wir vielleicht auch, ihm nachzufolgen.^pHier lernen wir mit Leichtigkeit die Weise und den Weg der Christuserkenntnis. Hier wird uns besonders klar, wie sehr man auf die ganze Umwelt achten muss, in der sein Wohnen unter uns eingebettet ist: Zeit, Ort, Gebräuche, Sprache, heilige Riten und endlich alles, wodurch Jesus sich der Welt offenbarte. All das kommt hier zu Wort; hier erhält es für uns sein Gewicht. Hier in dieser Schule sieht man, wie notwendig eine geistliche Ordnung ist, wenn man der Lehre des Evangeliums folgen und Jünger Christi sein möchte.^pWie gerne wäre ich wieder jung und vertraute mich dieser demütigen und doch so erhabenen Schule von Nazaret an. Was für eine Freude wäre es, nach dem Beispiel Marias mit neuem Eifer wahre Lebensweisheit und Einsicht in die göttliche Wahrheit zu erwerben!^pAber ich bin nur als Pilger hier und muss auf meinen Wunsch verzichten, hier in diesem Haus den niemals abgeschlossenen Unterricht in der Erkenntnis des Evangeliums fortzusetzen. Doch möchte ich nicht weggehen, ohne schnell und gleichsam verstohlen von dem Lehrstuhl Nazaret aus einige mahnende Winke zu geben.^pDie Schule von Nazaret lehrt zuerst das Schweigen. Möge in uns eine große Wertschätzung des Schweigens lebendig werden. Denn in dem lauten und allzu aufgeregten Leben von heute, in dem wir von so vielen lauten Stimmen, von Lärm und Geschrei bedrängt werden, ist das Schweigen eine bewundernswerte und notwendige Geisteshaltung.^pDas Schweigen von Nazaret lehre uns, den Geist auf gute Gedanken zu lenken, auf das innere Leben zu achten und bereitwillig auf die geheimen Ratschlüsse und die Anweisungen der wahren Lehrer zu hören; es lehre uns, wie notwendig und wertvoll die innere Vorbereitung ist, das Studium, die Betrachtung, die Ordnung des persönlichen geistlichen Lebens und das Gebet, das Gott allein im Verborgenen sieht {1#vgl.°Mt 6,4}.^pHier lernen wir, wie wichtig das häusliche Leben ist. Nazaret gemahne uns an das, was eine Familie ist, an ihre Gemeinschaft in der Liebe, an ihre strahlende Schönheit, ihre Heiligkeit und Unverletzlichkeit, an ihre durch nichts zu ersetzende Bedeutung. Nazaret zeige uns, wie kostbar die Unterweisung in der Familie ist, eine Unterweisung, die durch nichts ersetzt werden kann. Nazaret lehre uns, welche Aufgabe die Familie ihrer Natur nach in der Ordnung der Gesellschaft hat.^pSchließlich lernen wir hier die zuchtvolle Ordnung der Arbeit.^pO Lehrstuhl von Nazaret, Haus des Handwerkersohns! Hier möchte ich das strenge, aber erlösende Gesetz menschlicher Arbeit erkennen und feiern. Ich möchte die Würde der Arbeit hier so herausstellen, dass alle ihrer inne werden. Unter diesem Dach erinnere ich daran, dass die Arbeit nicht Selbstzweck ist, dass sie vielmehr Freiheit und Wert nicht nur aus ihrer sogenannten wirtschaftlichen Bedeutung bezieht, sondern auch aus den Wirklichkeiten, durch die sie auf ihr erhabenes Ziel ausgerichtet wird. Schließlich möchte ich hier den Arbeitern der ganzen Welt Glück wünschen und ihnen das große Vorbild zeigen, den göttlichen Bruder, den Wortführer all der gerechten Anliegen, die sie betreffen, Christus, unseren Herrn.",
-          "patr_resp1": "Freut euch, lasst euch erneuern und ermahnen, seid eines Sinnes und lebt in Frieden.",
-          "patr_resp2": "Singt und jubelt aus vollem Herzen zum Lob des Herrn.",
-          "patr_resp3": "Tut eure Arbeit gern, als sei sie für den Herrn, nicht für die Menschen.",
-          "hymn_1_lat": 3241.1,
-          "ant1_lat": "Cum indúcerent púerum Iesum paréntes eius, accépit eum Símeon in ulnas suas et benedíxit Deum.",
-          "ant2_lat": "Magi, intrántes domum, invenérunt Púerum cum María matre eius.",
-          "ant3_lat": "Consúrgens Ioseph accépit Púerum et Matrem eius nocte, et secéssit in Ægýptum.",
-          "versikel0_lat": "Ponam univérsos fílios tuos doctos a Dómino.",
-          "versikel1_lat": "Et multitúdinem pacis fíliis tuis."
-        },
-        "Vigil": {
-          "ant0": "Wahrhaftig, du bist ein verborgener Gott, Israels Gott ist sein Retter.^ö",
-          "les_buch": "^A:vigil-HlFamilie:",
-          "les_stelle": "^Q:Joh 20,19-31",
-          "ant0_lat": "Vere tu es Deus abscónditus, Deus Israel Salvátor."
-        },
-        "Laudes": {
-          "psalm1": 63.0,
-          "psalm2": 160.0,
-          "psalm3": 149.0,
-          "ant1": "Jahr für Jahr zogen die Eltern Jesu hinauf nach Jerusalem, um dort Ostern zu feiern.",
-          "ant2": "Das Kind wuchs heran und wurde kräftig; Gott erfüllte es mit Weisheit, und seine Gnade ruhte auf ihm.",
-          "ant3": "Josef und Maria staunten über die Worte, die man über Jesus sagte.",
-          "les_buch": "›Dtn",
-          "les_stelle": "5,16",
-          "les_text": "Ehre deinen Vater und deine Mutter, wie es dir der Herr, dein Gott, zur Pflicht gemacht hat, damit du lange lebst und es dir gut geht in dem Land, das der Herr, dein Gott, dir gibt.",
-          "les_text_neu": "Ehre deinen Vater und deine Mutter, wie es dir der HERR, dein Gott, geboten hat, damit du lange lebst und es dir gut geht in dem Land, das der HERR, dein Gott, dir gibt!",
-          "resp1": "Christus, du Sohn des lebendigen Gottes,",
-          "resp2": "erbarme°dich°unser.",
-          "resp3": "Du warst Maria und Josef gehorsam.",
-          "antev": "Herr, lenke unsre Schritte auf den Weg des Friedens.",
-          "bitten_e": "Gepriesen sei Christus, der Sohn des lebendigen Gottes, der sich nicht gescheut hat, Kind einer menschlichen Familie zu werden. Zu ihm lasst uns beten:",
-          "bitten_r": "Erhöre uns, Christus.",
-          "bitten": "Du warst Maria und Josef untertan;^qhilf uns, einander zu dienen.^pDeine Mutter bewahrte alle deine Worte in ihrem Herzen;^qgib, dass wir heute dein Wort hören und es bewahren.^pDu wurdest Sohn eines Zimmermanns genannt und hast mit deinen Händen gearbeitet;^qsegne das Werk unserer Hände.^pIn der Familie zu Nazaret bist du herangewachsen, und Gott und die Menschen hatten Gefallen an dir;^qgib, dass auch unser Leben Gott und den Menschen gefallen kann.",
-          "hymn_1_lat": 3241.2,
-          "ant1_lat": "Ibant paréntes Iesu per omnes annos in Ierúsalem in die sollémni Paschæ.",
-          "ant2_lat": "Puer autem crescébat et confortabátur plenus sapiéntia, et grátia Dei erat in illo.",
-          "ant3_lat": "Erant pater eius et mater mirántes super iis, quæ dicebántur de illo.",
-          "resp1_lat": "Christe, Fili Dei vivi,",
-          "resp2_lat": "miserére nobis.",
-          "resp3_lat": "Qui Maríæ et Ioseph súbditus fuísti.",
-          "anta_lat": "Ecce appáret ángelus Dómini in somnis Ioseph in Ægýpto dicens: Surge et áccipe púerum et matrem eius et vade in terram Israel; defúncti sunt enim, qui quærébant ánimam púeri.",
-          "antb_lat": "Erant pater et mater Iesu mirántes super his quæ dicebántur de illo.^Lö",
-          "antc_lat": "Fili, quid fecísti nobis sic? Ecce pater tuus et ego doléntes quærebámus te. Quid est quod me quærebátis? Nesciebátis quia in his quæ Patris mei sunt, opórtet me esse?",
-          "bitten_e_lat": "Fílium Dei vivi, qui fílius humánæ famíliæ fíeri dignátus est, adorémus, ipsum exorántes:",
-          "bitten_r_lat": "Iesu, factus obœ́diens, sanctífica nos.",
-          "bitten_lat": "Iesu, Verbum ætérnum Patris, qui súbditum Maríæ et Ioseph te fecísti,^qdoce nos humilitátem.^pMagíster noster, cuius facta et verba mater tua in corde suo servábat,^qpræsta, ut audiámus verbum tuum et custodiámus illud in corde puro et bono.^pChriste, faber mundi, qui fílium fabri te vocári voluísti,^qdoce nos sedulitátem in ópere.^pIesu, qui in família Názareth sapiéntia, ætáte et grátia apud Deum et hómines proficiébas,^qfac, ut crescámus per ómnia in te, qui es Caput nostrum.",
-          "les_text_lat": "Honóra patrem tuum et matrem, sicut præcépit tibi Dóminus Deus tuus, ut longo vivas témpore et bene sit tibi in terra, quam Dóminus Deus tuus datúrus est tibi."
-        },
-        "Terz": {
-          "les_buch": "›vgl.°Kol",
-          "les_stelle": "3,12–13",
-          "les_text": "Bekleidet euch mit aufrichtigem Erbarmen, mit Güte, Demut, Milde, Geduld! Ertragt euch gegenseitig und vergebt einander, wenn einer dem anderen etwas vorzuwerfen hat! Wie der Herr euch vergeben hat, so vergebt auch ihr!",
-          "les_text_neu": "Bekleidet euch mit innigem Erbarmen, Güte, Demut, Milde, Geduld! Ertragt einander und vergebt einander, wenn einer dem anderen etwas vorzuwerfen hat! Wie der Herr euch vergeben hat, so vergebt auch ihr!",
-          "resp0": "Herr, zeige uns deine Wege.",
-          "resp1": "Auf deinen Pfaden wollen wir gehen.",
-          "resp0_lat": "Dóminus vias suas docébit nos.",
-          "resp1_lat": "Et ambulábimus in sémitis eius.",
-          "les_text_lat": "Indúite vos sicut elécti Dei, sancti et dilécti, víscera misericórdiæ, benignitátem, humilitátem, mansuetúdinem, patiéntiam, supportántes ínvicem et donántes vobis ipsis si quis advérsus áliquem habet querélam; sicut et Dóminus donávit vobis, ita et vos."
-        },
-        "Sext": {
-          "les_buch": "›Kol",
-          "les_stelle": "3,14–15",
-          "les_text": "Vor allem liebt einander, denn die Liebe ist das Band, das alles zusammenhält und vollkommen macht. In eurem Herzen herrsche der Friede Christi; dazu seid ihr berufen als Glieder des einen Leibes. Seid dankbar!",
-          "les_text_neu": "Vor allem bekleidet euch mit der Liebe, die das Band der Vollkommenheit ist! Und der Friede Christi triumphiere in euren Herzen. Dazu seid ihr berufen als Glieder des einen Leibes. Seid dankbar!",
-          "resp0": "Arm bin ich und mit Mühen beladen von Jugend an.",
-          "resp1": "Ich habe mich erniedrigt und unter meine Last gebeugt.",
-          "resp0_lat": "Pauper sum ego et in labóribus a iuventúte mea.",
-          "resp1_lat": "Exaltátus autem humiliátus sum et conturbátus.",
-          "les_text_lat": "Super ómnia hæc caritátem, quod est vínculum perfectiónis. Et pax Christi dominétur in córdibus vestris, ad quam et vocáti estis in uno córpore. Et grati estóte."
-        },
-        "Non": {
-          "les_buch": "›Kol",
-          "les_stelle": "3,17",
-          "les_text": "Alles, was ihr in Worten und Werken tut, geschehe im Namen des Herrn; durch ihn dankt Gott, dem Vater!",
-          "les_text_neu": "Alles, was ihr in Wort oder Werk tut, geschehe im Namen Jesu, des Herrn. Dankt Gott, dem Vater, durch ihn!",
-          "resp0": "All deine Söhne werden Schüler des Herrn sein.",
-          "resp1": "Fülle des Friedens wird ihnen zuteil.",
-          "resp0_lat": "Ponam univérsos fílios tuos doctos a Dómino.",
-          "resp1_lat": "Et multitúdinem pacis fíliis tuis.",
-          "les_text_lat": "Omne, quodcúmque fácitis in verbo aut in ópere, ómnia in nómine Dómini Iesu grátias agéntes Deo Patri per ipsum."
-        },
-        "Vesper": {
-          "psalm1": 122.0,
-          "psalm2": 127.0,
-          "psalm3": 152.0,
-          "ant1": "Nach drei Tagen fanden sie Jesus im Tempel; er saß mitten unter den Lehrern, hörte ihnen zu und stellte Fragen.",
-          "ant2": "Jesus zog mit ihnen hinab und kam nach Nazaret – und er war ihnen untertan.",
-          "ant3": "Jesus wuchs heran, und seine Weisheit nahm zu; Gott und die Menschen fanden Gefallen an ihm.",
-          "les_buch": "›Phil",
-          "les_stelle": "2,6–7",
-          "les_text": "Christus Jesus war Gott gleich, hielt aber nicht daran fest, wie Gott zu sein, sondern er entäußerte sich und wurde wie ein Sklave und den Menschen gleich. Sein Leben war das eines Menschen.",
-          "resp1": "Er musste in allem seinen Brüdern gleich sein, um Barmherzigkeit zu lernen.",
-          "resp2": "Er ist auf Erden erschienen, ein Mensch unter Menschen.",
-          "antev": "Kind, wie konntest du uns das antun! Dein Vater und ich haben dich voll Angst gesucht. – Warum habt ihr mich gesucht? Wusstet ihr nicht, dass ich in dem sein muss, was meines Vaters ist?",
-          "bitten_e": "Lasst uns beten zu Christus, dem Sohn des lebendigen Gottes, der sich nicht gescheut hat, Kind einer menschlichen Familie zu werden:",
-          "bitten_r": "Erhöre uns, Christus.",
-          "bitten": "Du warst als Kind Maria und Josef untertan;^qsegne die Kinder unserer Familien.^pDu hast deine Eltern geliebt und wurdest von ihnen geliebt;^qgib, dass Eltern und Kinder einander lieben.^pDu wolltest allezeit in dem sein, was deines Vaters ist;^qgib, dass in jedem Haus dein himmlischer Vater geehrt wird.^pDu wurdest von deinen Eltern gesucht und am dritten Tag im Hause Gottes wiedergefunden;^qrate den Eltern, die sich Sorge machen um ihre Kinder.^pDu hast Maria und Josef in die Herrlichkeit des Himmels heimgeholt;^qnimm unsere Verstorbenen auf in die Gemeinschaft der Seligen.",
-          "hymn_1_lat": 3241.4,
-          "ant1_lat": "Post tríduum invenérunt Iesum in templo, sedéntem in médio doctórum, audiéntem et interrogántem eos.",
-          "ant2_lat": "Descéndit Iesus cum eis, et venit Názareth, et erat súbditus illis.",
-          "ant3_lat": "Et Iesus proficiébat sapiéntia et ætáte et grátia apud Deum et hómines.",
-          "resp1_lat": "Débuit per ómnia frátribus similári,",
-          "resp2_lat": "ut miséricors fíeret.",
-          "resp3_lat": "In terris visus est, et cum homínibus conversátus est.",
-          "anta_lat": "Véniens Ioseph habitávit in civitáte, quæ vocátur Názareth, ut adimplerétur quod dictum est per prophétas: Nazarǽus vocábitur.",
-          "antb_lat": "Puer Iesus crescébat et confortabátur plenus sapiéntia: et grátia Dei erat super illum.",
-          "antc_lat": "Descéndit Iesus cum eis et venit Názareth et erat súbditus illis. Et Mater eius conservábat ómnia verba in corde suo.",
-          "bitten_e_lat": "Fílium Dei vivi, qui fílius humánæ famíliæ fíeri dignátus est, adorémus, ipsi confiténtes:",
-          "bitten_r_lat": "Tu es, Dómine, exémplar et salvátor ómnium.",
-          "bitten_lat": "Christe, per mystérium subiectiónis tuæ erga Maríam et Ioseph,^qdoce omnes reveréntiam et obœdiéntiam erga eos qui legítime præsunt.^pQui paréntes amásti et ab ipsis amátus es,^qomnes famílias in pace et mútua caritáte constítue.^pTu, qui studiósus fuísti eórum, quæ tui sunt Patris,^qpræsta ut in omni domo Deus honorétur.^pChriste, qui ab ánxiis paréntibus tértia die in domo Patris invéntus es,^qdoce omnes quǽrere primum regnum Dei.^pChriste, qui Maríam et Ioseph tecum in cælésti glória consociásti,^qadmítte defúnctos in famíliam beatórum.",
-          "les_text_lat": "Christus Iesus, cum in forma Dei esset, non rapínam arbitrátus est esse se æquálem Deo, sed semetípsum exinanívit formam servi accípiens, in similitúdinem hóminum factus; et hábitu invéntus ut homo."
-        }
-      }
-    },
     "each": {
       "each": {
         "Invitatorium": {
@@ -16800,61 +16854,6 @@ export const brevierData = {
           "ant3_lat": "In princípio et ante sǽcula Deus erat Verbum: ipse natus est hódie Salvátor mundi."
         }
       }
-    },
-    "2": {
-      "0": {
-        "each": {
-          "oration_lat": "Omnípotens sempitérne Deus, fidélium splendor animárum, dignáre mundum glória tua implére benígnus, et cunctis pópulis appáre per tui lúminis claritátem.^ORlV"
-        },
-        "ErsteV": {
-          "ant1_lat": "Virgo verbo concépit, Virgo permánsit, Virgo péperit Regem ómnium regum.",
-          "ant2_lat": "Lætámini cum Ierúsalem; declinávit super eam Dóminus quasi flúvium pacis.",
-          "ant3_lat": "Natus est nobis Deus de Deo, lumen de lúmine, quod erat in princípio.",
-          "resp1_lat": "Verbum caro factum est.",
-          "resp2_lat": "Allelúia,°allelúia.",
-          "resp3_lat": "Et habitávit in nobis.",
-          "antev_lat": "Castæ Paréntis víscera cæléstis intrat grátia: venter puéllæ báiulat secréta, quæ non nóverat.",
-          "bitten_e_lat": "Christum adorémus, qui semetípsum exinanívit formam servi accípiens ac tentátus est per ómnia pro similitúdine absque peccáto. Ardénti fide eum precémur:",
-          "bitten_r_lat": "Per nativitátem tuam succúrre redémptis.",
-          "bitten_lat": "Qui, mundum ingrédiens, ætátem novam a prophétis prædíctam instaurásti,^qfac ut semper in novas ætátes tua iuvenéscat Ecclésia.^pQui humánam infirmitátem assumpsísti,^qsis cæcis lumen, debílibus fortitúdo, míseris consolátio.^pQui pauper et húmilis natus es,^qréspice páuperes et propítius consoláre.^pQui terréna nativitáte tua ómnibus de promíssa æternitáte lætítiam ingessísti,^qcæléstis spe nativitátis moriéntium corda lætífica.^pQui in terram descendísti, ut omnes in cælum addúceres,^qin glória tibi coniúnge defúnctos.",
-          "les_text_lat": "Scimus quóniam Fílius Dei venit, et dedit nobis sensum, ut cognoscámus eum, qui verus est; et sumus in eo qui verus est, in Fílio eius Iesu Christo. Hic est qui verus est, Deus et vita ætérna."
-        },
-        "Vigil": {
-          "ant0_lat": "Vocábitur nomen eius Emmánuel, quod interpretátur „Nobíscum-Deus“."
-        },
-        "Laudes": {
-          "ant1_lat": "Lux orta est iusto, quia ómnium natus est Salvátor.^Lö",
-          "ant2_lat": "Hymnum dicámus Dómino Deo nostro.",
-          "ant3_lat": "Pópulus géntium, qui sedébat in ténebris, vidit lucem magnam.",
-          "resp1_lat": "Christe, Fili Dei vivi,",
-          "resp2_lat": "miserére nobis.",
-          "resp3_lat": "Qui natus es de María Vírgine.",
-          "antev_lat": "Virgo semper fidélis, et si Verbum génuit incarnátum, virgo mansit et post partum, quam laudántes omnes dícimus: Benedícta tu in muliéribus.",
-          "bitten_e_lat": "Dignis láudibus Verbum Dei celebrémus, ante sǽcula exsístens et in témpore nobis natum. Iucúnde acclamémus, dicéntes:",
-          "bitten_r_lat": "Exsúltet terra, quia venísti.",
-          "bitten_lat": "Christe, Verbum ætérnum, qui, in terram descéndens, exsultatiónis rore eam perfudísti,^qlætífica cor nostrum grátiæ tuæ visitatióne contínua.^pSalvátor noster, qui in nativitáte tua, fidelitátem Dei nobis ostendísti,^qconcéde nos plena fide promissiónes baptismáles serváre.^pRex cæli et terræ, qui pacem homínibus ab ángelis nuntiári fecísti,^qvitam nostram in tua pace consérva.^pDómine, qui venísti ut esses vitis vera, nobis fructum vitæ prodúcens,^qfac nos iúgiter pálmites in te manéntes, ne simus infructuósi.",
-          "les_text_lat": "Multifáriam et multis modis olim Deus locútus pátribus in prophétis, in novíssimis his diébus locútus est nobis in Fílio, quem constítuit herédem universórum, per quem fecit et sǽcula."
-        },
-        "Terz": {
-          "les_text_lat": "Appáruit grátia Dei salutáris ómnibus homínibus erúdiens nos, ut abnegántes impietátem et sæculária desidéria sóbrie et iuste et pie vivámus in hoc sǽculo."
-        },
-        "Sext": {
-          "les_text_lat": "In hoc appáruit cáritas Dei in nobis quóniam Fílium suum unigénitum misit Deus in mundum, ut vivámus per eum."
-        },
-        "Non": {
-          "les_text_lat": "Verbum misit Deus fíliis Israel evangelízans pacem per Iesum Christum; hic est ómnium Dóminus."
-        },
-        "Vesper": {
-          "ant1_lat": "Illúxit nobis dies redemptiónis novæ, reparatiónis antíquæ, felicitátis ætérnæ.",
-          "ant2_lat": "Misit Dóminus misericórdiam suam et veritátem suam.",
-          "ant3_lat": "In terris natus est nobis rex regum Dóminus: ecce iam venit nobis salus mundi, redémptio nostra.^Lö",
-          "antev_lat": "Beáta víscera, quæ portavérunt ætérni Patris Fílium, et beáta úbera, quæ lactavérunt Christum Dóminum.",
-          "bitten_e_lat": "Christum iubilántes celebrémus, in cuius nativitáte ángeli pacem mundo nuntiavérunt, et devótis ánimis exorémus:",
-          "bitten_r_lat": "Natívitas tua pacem cunctis áfferat.",
-          "bitten_lat": "Reple, Dómine, ómnibus bonis Ecclésiam tuam,^qquam nativitátis tuæ mystério consoláris.^pQui princeps pastórum venísti et nostrárum epíscopus animárum,^qpapam et epíscopos nostros fidéles redde dispensatóres multifórmis grátiæ tuæ.^pRex æternitátis, qui, nascens, brevi vitæ spátio circumscríbi et hóminum vicissitúdines experíri voluísti,^qnos cadúcos et mortáles æternitátis tuæ redde consórtes.^pQui, a sǽculis exspectátus, in plenitúdine témporis venísti,^qmanifésta præséntiam tuam iis, qui adhuc te exspéctant.^pQui, caro factus, humánam substántiam, morte corrúptam restaurásti,^qdefúnctis tuam plenam restauratiónem concéde.",
-          "les_text_lat": "Quod fuit ab inítio, quod audívimus, quod vídimus óculis nostris, quod perspéximus et manus nostræ contrectavérunt, de verbo vitæ – et vita appáruit, et vídimus et testámur et annuntiámus vobis vitam ætérnam, quæ erat coram Patre et appáruit nobis – quod vídimus et audívimus, annuntiámus et vobis, ut et vos communiónem habeátis nobíscum. Commúnio autem nostra est cum Patre et cum Fílio eius Iesu Christo."
-        }
-      }
     }
   },
   "wt": {
@@ -16921,49 +16920,6 @@ export const brevierData = {
         "ErsteV": {},
         "Laudes": {},
         "Vesper": {}
-      }
-    }
-  },
-  "ak": {
-    "3": {
-      "0": {
-        "each": {
-          "oration_lat": "Deus, qui cónspicis pópulum tuum nativitátis domínicæ festivitátem fidéliter exspectáre, præsta, quǽsumus, ut valeámus ad tantæ salútis gáudia perveníre, et ea votis sollémnibus álacri semper lætítia celebráre.^ORlV"
-        }
-      }
-    },
-    "4": {
-      "0": {
-        "each": {
-          "oration_lat": "Grátiam tuam, quǽsumus, Dómine, méntibus nostris infúnde, ut qui, Angelo nuntiánte, Christi Fílii tui incarnatiónem cognóvimus, per passiónem eius et crucem ad resurrectiónis glóriam perducámur.^ORlvR"
-        },
-        "Laudes": {
-          "resp1_lat": "Christe, Fili Dei vivi,",
-          "resp2_lat": "miserére nobis.",
-          "resp3_lat": "Qui ventúrus es in mundum.",
-          "bitten_e_lat": "Dóminum Iesum Christum, fratres caríssimi, deprecémur, qui est iudex vivórum et mortuórum ipsi dicéntes:",
-          "bitten_r_lat": "Veni, Dómine Iesu.",
-          "bitten_lat": "Christe Dómine, qui peccatores salváre venísti,^qnos ab omni tentatiónum adversitáte defénde.^pQui ad iudícium maniféste ventúrus esse créderis,^qpoténtiam tuæ salvatiónis in nobis osténde.^pDa nobis legis tuæ præcépta virtúte spíritus custodíre,^qut advéntum tuum in caritáte præstolári possímus.^pTu, qui es benedíctus in sǽcula, fac ut per misericórdiam tuam pie et sóbrie in hoc sǽculo vivámus,^qexspectántes beátam spem et advéntum magnificéntiæ tuæ.",
-          "les_text_lat": "Hora est iam vos de somno súrgere, nunc enim própior est nobis salus quam cum credídimus. Nox procéssit, dies autem appropiávit. Abiciámus ergo ópera tenebrárum et induámur arma lucis."
-        },
-        "Terz": {
-          "les_text_lat": "Sicut in die honéste ambulémus: non in comissatiónibus et ebrietátibus, non in cubílibus et impudicítiis, non in contentióne et æmulatióne; sed indúite Dóminum Iesum Christum."
-        },
-        "Sext": {
-          "les_text_lat": "Abundáre vos fáciat Dóminus caritáte in ínvicem et in omnes, quæmádmodum et nos in vos, ad confirmánda corda vestra sine queréla in sanctitáte ante Deum et Patrem nostrum, in advéntu Dómini nostri Iesu cum ómnibus sanctis eius."
-        },
-        "Non": {
-          "les_text_lat": "Iustum est apud Deum retribúere vobis, qui tribulámini, réquiem nobíscum in revelatióne Dómini Iesu de cælo cum ángelis virtútis eius, cum vénerit glorificári in sanctis suis et admirábilis fíeri in ómnibus, qui credidérunt."
-        },
-        "Vesper": {
-          "resp1_lat": "Osténde nobis, Dómine,",
-          "resp2_lat": "misericórdiam tuam.",
-          "resp3_lat": "Et salutáre tuum da nobis.",
-          "bitten_e_lat": "Christum Redemptórem, fratres caríssimi, exorémus, qui venit ad salvándos hómines, eíque fidénter dicámus:",
-          "bitten_r_lat": "Veni, Dómine Iesu.",
-          "bitten_lat": "Christe Dómine, qui per suscéptæ mystérium carnis notam fecísti mundo glóriam tuæ divinitátis,^qvivífica nos advéntu tuo.^pTu, qui suscepísti infirmitátem nostram,^qconcéde nobis misericórdiam tuam.^pQui, primo véniens húmilis, redemísti mundum a crímine,^qsecúndo advéniens, iustífica nos ab omni reátu.^pTu, qui vivis et ómnia regis,^qin bonitáte tua fac nos accédere ad ætérnam hereditátem.^pQui sedes ad déxteram Patris,^qlúmine vultus tui ánimas defunctórum lætífica.",
-          "les_text_lat": "Gaudéte in Dómino semper. Iterum dico: Gaudéte! Modéstia vestra nota sit ómnibus homínibus. Dóminus prope."
-        }
       }
     }
   }
