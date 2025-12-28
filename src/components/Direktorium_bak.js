@@ -1780,6 +1780,95 @@ const PrayerTextDisplay = ({
           </div>
         )}
 
+        {isCommemoration &&
+          !prefSollemnity &&
+          !(hour === "vesper" && texts.hasErsteVesper) &&
+          ["lesehore", "laudes", "vesper"].includes(hour) &&
+          (texts?.laudes?.oblig?.oration
+            || texts?.laudes?.n1?.oration
+            || texts?.laudes?.d1?.oration) && (
+            <>
+              <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6 pb-1">
+                <SourceSelector
+                  texts={texts}
+                  prefSrc={prefSrc}
+                  prefSollemnity={prefSollemnity}
+                  useCommemoration={useCommemoration}
+                  setPrefSrc={setPrefSrc}
+                  setPrefSollemnity={setPrefSollemnity}
+                  setUseCommemoration={setUseCommemoration}
+                  onSelectHour={onSelectHour}
+                  viewMode={viewMode}
+                  season={season}
+                  hour={hour}
+                  className="mb-4"
+                  reduced={true}
+                />
+
+                {getValue("c_patr_text") && useCommemoration && (
+                  <div className="mb-0">
+                    <SectionHeader
+                      title="ZWEITE LESUNG"
+                      field="patr_text" />
+                    <div>
+                      <div className="text-[0.9em] italic">
+                        {formatPrayerText(getValue("c_patr_autor"))}
+                      </div>
+                      {formatPrayerText(getValue("c_patr_werk"))}
+                      {formatPrayerText(getValue("c_patr_text"))}
+                    </div>
+                  </div>
+                )}
+
+                {getValue("c_patr_resp1") && useCommemoration && (
+                  <div className="mb-0">
+                    <SectionHeader
+                      title="RESPONSORIUM"
+                      field="resp1" />
+                    <ComposeResponse
+                      resp0={null}
+                      resp1={getValue("c_patr_resp1")}
+                      resp2={getValue("c_patr_resp2")}
+                      resp3={getValue("c_patr_resp3")}
+                    />                </div>
+                )}
+
+                {getValue("c_antev") && useCommemoration && (
+                  <div className="mb-0">
+                    <SectionHeader
+                      title={`${ordinariumTexts.titel}-ANTIPHON`}
+                      field="antev"
+                    />
+                    <div className="mb-4">
+                      {formatPrayerText(getValue("c_antev"))}
+                    </div>
+                  </div>
+                )}
+
+                {getValue("c_oration") && useCommemoration && (
+                  <div className="mb-0">
+                    <SectionHeader
+                      title="ORATION"
+                      field="oration" />
+                    <div className="whitespace-pre-wrap">
+                      {formatPrayerText(getValue("c_oration"))}
+                    </div>
+                  </div>
+                )}
+              </div>
+              {useCommemoration && (
+                <div className="mt-2">
+                  <NavigationButtons
+                    hour={hour}
+                    onBack={onBack}
+                    onSelectHour={onSelectHour}
+                    texts={texts}
+                  />
+                </div>
+              )}
+            </>
+          )}
+
         {ordinariumTexts.closing[0] && (
           <div className="mb-0 mt-0">
             <SectionHeader
@@ -1827,94 +1916,6 @@ const PrayerTextDisplay = ({
         </div>
       )}
 
-      {isCommemoration &&
-        !prefSollemnity &&
-        !(hour === "vesper" && texts.hasErsteVesper) &&
-        ["lesehore", "laudes", "vesper"].includes(hour) &&
-        (texts?.laudes?.oblig?.oration
-          || texts?.laudes?.n1?.oration
-          || texts?.laudes?.d1?.oration) && (
-          <>
-            <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6 pb-1">
-              <SourceSelector
-                texts={texts}
-                prefSrc={prefSrc}
-                prefSollemnity={prefSollemnity}
-                useCommemoration={useCommemoration}
-                setPrefSrc={setPrefSrc}
-                setPrefSollemnity={setPrefSollemnity}
-                setUseCommemoration={setUseCommemoration}
-                onSelectHour={onSelectHour}
-                viewMode={viewMode}
-                season={season}
-                hour={hour}
-                className="mb-4"
-                reduced={true}
-              />
-
-              {getValue("c_patr_text") && useCommemoration && (
-                <div className="mb-0">
-                  <SectionHeader
-                    title="ZWEITE LESUNG"
-                    field="patr_text" />
-                  <div>
-                    <div className="text-[0.9em] italic">
-                      {formatPrayerText(getValue("c_patr_autor"))}
-                    </div>
-                    {formatPrayerText(getValue("c_patr_werk"))}
-                    {formatPrayerText(getValue("c_patr_text"))}
-                  </div>
-                </div>
-              )}
-
-              {getValue("c_patr_resp1") && useCommemoration && (
-                <div className="mb-0">
-                  <SectionHeader
-                    title="RESPONSORIUM"
-                    field="resp1" />
-                  <ComposeResponse
-                    resp0={null}
-                    resp1={getValue("c_patr_resp1")}
-                    resp2={getValue("c_patr_resp2")}
-                    resp3={getValue("c_patr_resp3")}
-                  />                </div>
-              )}
-
-              {getValue("c_antev") && useCommemoration && (
-                <div className="mb-0">
-                  <SectionHeader
-                    title={`${ordinariumTexts.titel}-ANTIPHON`}
-                    field="antev"
-                  />
-                  <div className="mb-4">
-                    {formatPrayerText(getValue("c_antev"))}
-                  </div>
-                </div>
-              )}
-
-              {getValue("c_oration") && useCommemoration && (
-                <div className="mb-0">
-                  <SectionHeader
-                    title="ORATION"
-                    field="oration" />
-                  <div className="whitespace-pre-wrap">
-                    {formatPrayerText(getValue("c_oration"))}
-                  </div>
-                </div>
-              )}
-            </div>
-            {useCommemoration && (
-              <div className="mt-2">
-                <NavigationButtons
-                  hour={hour}
-                  onBack={onBack}
-                  onSelectHour={onSelectHour}
-                  texts={texts}
-                />
-              </div>
-            )}
-          </>
-        )}
     </div>
   );
 };

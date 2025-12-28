@@ -219,7 +219,7 @@ const SourceSelector = ({
             </>
             )}
             {reduced && (<>
-                <div className='text-center text-sm text-yellow-600 dark:text-yellow-500'>
+                <div className='mt-3 text-center text-xs text-yellow-600 dark:text-yellow-500'>
                     Für die Kommemoration:</div>
             </>
             )}

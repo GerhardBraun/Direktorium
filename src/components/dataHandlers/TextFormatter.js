@@ -295,7 +295,12 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
 
         // Bei Commemorationen alle Orationsschlüsse entfernen
         if (useCommemoration) {
-            return text.replace(/([,.])(\^ORl?)(vR|V|S|R)/g, '$1');
+            return text
+                .replace('. Er,^ORR', '.')
+                .replace('. Darum bitten wir durch ihn,^ORR', '.')
+                .replace(',^ORR', '.')
+                .replace(',^ORlR', '.')
+                .replace(/([,.])(\^ORl?)(vR|V|S|R)/g, '$1');
         }
 
         const formLength = ['terz', 'sext', 'non', 'komplet'].includes(hour)
@@ -311,26 +316,23 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
                 return match; // Originaltext beibehalten
             }
 
-            if (punctuation === '.') {
+            if (punctuation === '.')
                 ending = firstCapital(ending);
-            }
 
             return punctuation + ' ' + ending;
         });
     };
 
     const replacePronomina = (text) => {
-        if (nominativ) {
+        if (nominativ)
             text = text
                 .replace(/(Der|Die) heiligen? \^NOM/g, nominativ)
-        }
 
-        if (genitiv) {
+        if (genitiv)
             text = text
                 .replace(/(des|der) heiligen \^GEN/g, genitiv)
                 .replace(/auf seine Fürbitte/g, match =>
                     genitiv.startsWith('der') ? 'auf ihre Fürbitte' : match);
-        }
 
         if (vokativ) {
             text = text
@@ -436,7 +438,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         .replace(/\^\//g, (() => {
             // Wenn keine ^/-Tags vorhanden oder maxLineLength <= widthForHymns, dann Leerzeichen
             // Andernfalls Zeilenumbruch
-            return (maxLineLength > 0 && maxLineLength > widthForHymns) ? '\n' : '   ';
+            return (maxLineLength > 0 && maxLineLength > widthForHymns) ? '\n' : '  ';
         })())
         .replace(/\^ß/g, (() => {
             return (maxLineLength > 0 && maxLineLength > widthForHymns) ? '\n      ' : ' ';
