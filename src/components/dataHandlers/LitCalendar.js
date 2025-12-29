@@ -127,26 +127,39 @@ function calculateRanks(date, season, week, dayOfWeek, swdCombined, afterPenteco
         return 0; // Kein spezieller Rang gefunden
     }
 
+    function calculateHasVigil() {
+        // nur Feste und Hochfeste haben eine Vigil
+        if (calculateRankWt() < 3 && calculateRankDate() < 3) return false;
+        // in der Karwoche trotz Rang 5 nur Palmsonntag, Karfreitag und Karsamstag
+        if (swdCombined.startsWith('q-6-')) {
+            if ((dayOfWeek + 2) % 7 > 2) return false;
+        };
+        // in der Osteroktav trotz Rang 5 keine Vigil
+        // (Lesehore/Vigil am Ostersonntag hat eine ganz eigene Struktur: MatutinDisplay.js)
+        if (swdCombined.startsWith('o-1-')) return false;
+        return true;
+    }
+
     if (!date || !(date instanceof Date)) {
         console.error('Invalid date provided to calculateRanks:', date);
-        return { rank_wt: 0, rank_date: 0 };
+        return { rank_wt: 0, rank_date: 0, hasVigil: false };
     }
 
     if (!season) {
         console.error('No season provided to calculateRanks for date:', date);
-        return { rank_wt: 0, rank_date: 0 };
+        return { rank_wt: 0, rank_date: 0, hasVigil: false };
     }
 
     if (week === undefined || week === null) {
         console.error('No week provided to calculateRanks for date:', date);
-        return { rank_wt: 0, rank_date: 0 };
+        return { rank_wt: 0, rank_date: 0, hasVigil: false };
     }
 
     return {
         rank_wt: calculateRankWt(),
         rank_date: calculateRankDate(),
-        hasVigil: calculateRankWt() > 2 || calculateRankDate() > 2
-    };
+        hasVigil: calculateHasVigil(),
+    }
 }
 
 // Calculate Easter using Meeus/Jones/Butcher algorithm
