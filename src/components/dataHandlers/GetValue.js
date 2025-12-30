@@ -228,7 +228,7 @@ export const getValue = ({ season, hour, texts, field,
 
 const getKompletValue = ({ texts, field, localPrefKomplet, localPrefLanguage = '' }) => {
     if (!texts || !texts.komplet) return null;
-
+    if (localPrefKomplet === 'wt' && !texts?.komplet?.showKompletWt) return null
     let { season, dayOfWeek, swdCombined } = texts;
 
     // Helper function to actually retrieve the field value

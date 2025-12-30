@@ -138,8 +138,8 @@ const SourceSelector = ({
                     setStoredPrefSrc('');
                 } else {
                     newPrefSrc = prefSrc;
-                    if (prefSrc === 'oblig' && !hasEig) newPrefSrc = hasAdLib
-                    if (!prefSrc) newPrefSrc = hasEig ? 'oblig' : hasAdLib
+                    if (prefSrc === 'oblig' && !hasOblig) newPrefSrc = hasAdLib
+                    if (!prefSrc) newPrefSrc = hasOblig ? 'oblig' : hasAdLib
                     if (!newPrefSrc) newPrefSollemnity = ''
                 }
             };
@@ -152,12 +152,12 @@ const SourceSelector = ({
     };
 
     const { rank_date = 0, rank_wt = 0, isCommemoration } = texts
-    const hasEig = hasValidSource('oblig') // G, F oder H
+    const hasOblig = hasValidSource('oblig') // G, F oder H
     const hasAdLib = hasValidSource('any')
 
     const showWt = rank_wt < 3 && (
-        (hasAdLib && !hasEig) ||   // nur nichtgebotener Gedenktag
-        (isCommemoration && (hasEig || hasAdLib)) // bei Kommemoration auch G
+        (hasAdLib && !hasOblig) ||   // nur nichtgebotener Gedenktag
+        (isCommemoration && (hasOblig || hasAdLib)) // bei Kommemoration auch G
     )
 
     const disableButtons = {}
@@ -182,7 +182,7 @@ const SourceSelector = ({
     return (
         <div className={`space-y-1 ${className}`}>
             {/* Bezeichnung Hochfest/Fest/Gedenktag */}
-            {texts.laudes?.wt?.button && !hasEig && (
+            {texts.laudes?.wt?.button && !hasOblig && (
                 <div className="text-center text-xl font-bold text-gray-900 dark:text-gray-100">
                     {formatText(texts.laudes.wt.button)}
                 </div>
@@ -255,7 +255,7 @@ const SourceSelector = ({
                         Kirchweihe
                     </button>
 
-                    {(rank_date < 5 && (hasEig || hasAdLib)) && (
+                    {(rank_date < 5 && (hasOblig || hasAdLib)) && (
                         <button
                             onClick={() => handleSourceSelect('lokal', 'soll')}
                             className={`flex-1 py-2 text-center rounded-sm

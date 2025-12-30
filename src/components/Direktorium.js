@@ -382,6 +382,7 @@ const PrayerTextDisplay = ({
   const [localPrefInv, setLocalPrefInv] = useState(texts?.prefInv || 95);
   const [localPrefErgPs, setLocalPrefErgPs] = useState(false);
   const [localPrefKomplet, setLocalPrefKomplet] = useState(texts?.komplet?.prefKomplet || "wt");
+  const [showKomplet, setShowKomplet] = useState(true);
 
   useEffect(() => {
     setLocalPrefComm(texts?.prefComm || 0);
@@ -391,6 +392,14 @@ const PrayerTextDisplay = ({
     setLocalPrefErgPs(false);
     setLocalPrefKomplet(texts?.komplet?.prefKomplet || "wt");
   }, [texts]);
+
+  useEffect(() => {
+    setShowKomplet(!(
+      hour === 'komplet' &&
+      localPrefKomplet === 'wt' &&
+      !texts?.komplet?.showKompletWt
+    ));
+  }, [texts, localPrefKomplet, hour]);
 
   useEffect(() => {
     if (hour === 'vesper' && texts?.hasErsteVesper && texts?.vesper?.prefComm) {
@@ -627,7 +636,7 @@ const PrayerTextDisplay = ({
       </div>
       <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6 pb-1">
         <PreliminaryNotes />
-        {ordinariumTexts.opening[0] && (
+        {ordinariumTexts.opening[0] && showKomplet && (
           <div className="mt-0 mb-0">
             <SectionHeader
               title="ERÖFFNUNG"
@@ -642,7 +651,7 @@ const PrayerTextDisplay = ({
           </div>
         )}
 
-        {ordinariumTexts.opening[2] && (
+        {ordinariumTexts.opening[2] && showKomplet && (
           <div className="mt-0 mb-0">
             <div className="mt-1">
               {formatPrayerText(ordinariumTexts.opening[2])}
@@ -812,7 +821,7 @@ const PrayerTextDisplay = ({
             </button>
           )}
 
-        {ordinariumTexts.cant && (
+        {ordinariumTexts.cant && showKomplet && (
           <div className="mb-0">
             <SectionHeader
               title={ordinariumTexts.titel}
@@ -978,7 +987,7 @@ const PrayerTextDisplay = ({
             </>
           )}
 
-        {ordinariumTexts.closing[0] && (
+        {ordinariumTexts.closing[0] && showKomplet && (
           <div className="mb-0 mt-0">
             <SectionHeader
               title="ABSCHLUSS"
@@ -996,7 +1005,7 @@ const PrayerTextDisplay = ({
           </div>
         )}
 
-        {(hour === 'komplet') && (
+        {(hour === 'komplet') && showKomplet && (
           <div className="mb-0">
             <SectionHeader
               title="MARIANISCHE ANTIPHON"

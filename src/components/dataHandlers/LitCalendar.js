@@ -129,13 +129,13 @@ function calculateRanks(date, season, week, dayOfWeek, swdCombined, afterPenteco
 
     function calculateHasVigil() {
         // nur Feste und Hochfeste haben eine Vigil
-        if (calculateRankWt() < 3 && calculateRankDate() < 3) return false;
+        if (calculateRankWt() < 3 && calculateRankDate() < 3)
+            return false;
         // in der Karwoche trotz Rang 5 nur Palmsonntag, Karfreitag und Karsamstag
-        if (swdCombined.startsWith('q-6-')) {
-            if ((dayOfWeek + 2) % 7 > 2) return false;
-        };
+        if (swdCombined.startsWith('q-6-') && (dayOfWeek + 2) % 7 > 2)
+            return false;
         // in der Osteroktav trotz Rang 5 keine Vigil
-        // (Lesehore/Vigil am Ostersonntag hat eine ganz eigene Struktur: MatutinDisplay.js)
+        // (Lesehore/Vigil am Ostersonntag hat eine eigene Struktur: MatutinDisplay.js)
         if (swdCombined.startsWith('o-1-')) return false;
         return true;
     }
