@@ -30,7 +30,7 @@ const SourceSelector = ({
         const buttonEig = texts?.vesper?.oblig?.button ? 'oblig' : 'wt';
         if (viewMode === 'prayerText') {
             if (hour === 'erstev') return 'erstev'
-            if (hour === 'vesper' && texts.hasErsteVesper && prefSollemnity !== 'soll') return buttonEig
+            if (hour === 'vesper' && texts?.rank?.hasErsteVesper && prefSollemnity !== 'soll') return buttonEig
         }
         return false
     }, [viewMode, hour, prefSollemnity, texts]);

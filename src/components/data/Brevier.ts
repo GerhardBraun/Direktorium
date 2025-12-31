@@ -16732,6 +16732,17 @@ export const brevierData = {
     },
     "last": {
       "each": {
+        "ErsteV": {
+          "hymn_1": 3244.0,
+          "hymn_kl": 0.0,
+          "resp1": "In ihm sind gesegnet alle Völker der Erde.",
+          "resp2": "Halleluja,°halleluja.",
+          "resp3": "Alle Stämme sollen ihn preisen.",
+          "hymn_1_lat": 3221.3,
+          "resp1_lat": "Benedicéntur in ipso",
+          "resp2_lat": "omnes°tribus°terræ.",
+          "resp3_lat": "Omnes gentes magnificábunt eum."
+        },
         "Invitatorium": {
           "ant0": "Christus ist uns erschienen; kommt, wir beten ihn an.",
           "ant0_lat": ""

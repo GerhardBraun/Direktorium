@@ -8,7 +8,9 @@ const HymnSelector = ({ texts, hour, season,
     const [selectedHymn, setSelectedHymn] = useState(null);
 
     localPrefLanguage = ['_neu', '_ben'].includes(localPrefLanguage) ? '' : localPrefLanguage
-    if (hour === 'vesper' && prefSollemnity === 'soll') { hour = 'prefsollemnity'; }
+    if (hour === 'vesper' && prefSollemnity === 'soll')
+        hour = 'prefsollemnity';
+    const isErsteVesper = hour === 'vesper' && texts?.rank?.hasErsteVesper && !prefSollemnity
 
     // Neue Hilfsfunktion zum Auflösen der Hymnen-Referenz
     const resolveHymnReference = (ref) => {
@@ -44,9 +46,9 @@ const HymnSelector = ({ texts, hour, season,
         // Prüfe auf rote Farbe im prefSrc
         const pathParts = sourcePath.split('_')[0].split('.');
         let currentLevel = texts.laudes;
-        if (texts?.rank?.hasErsteVesper && hour === 'vesper') {
+        if (isErsteVesper)
             currentLevel = texts.vesper
-        }
+
         pathParts.forEach(part => {
             currentLevel = currentLevel?.[part];
         });
@@ -88,18 +90,22 @@ const HymnSelector = ({ texts, hour, season,
 
         // Weihnachtsoktav: nur Vesper mit Vorrang vor Festen
         const wtRankToCompare = (rank.wt === 2.4 && hour === 'vesper') ? 4 : rank.wt
+        const compareRanks =
+            isErsteVesper
+                ? (rank?.nextWt || 0) > (rank?.nextDate || 0)
+                : wtRankToCompare > rank.date
 
         let useWt = (prefSollemnity
             && !(['terz', 'sext', 'non'].includes(hour)))
             ? '' : 'wt'
 
         const isHighRank = rank.date > 2 || rank.wt > 2 ||
-            (hour === 'vesper' && texts?.rank?.hasErsteVesper && texts?.vesper?.prefComm);
+            (isErsteVesper && texts?.vesper?.prefComm);
 
         // Stelle die Basis-Quellen zusammen
         let sources = [prefSrc, 'pers'];
 
-        if (isHighRank && wtRankToCompare > rank.date) {
+        if (isHighRank && compareRanks) {
             sources = ['wt', ...sources];
             useWt = ''
         }

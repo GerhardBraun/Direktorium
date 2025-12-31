@@ -292,7 +292,6 @@ export const calendarData: CalendarData = {
             "bitten_e": "Lasst uns beten zu unserem Herrn Jesus Christus, der heute der Welt erschienen ist:",
             "bitten_r": "Lass uns deine Herrlichkeit sehen.",
             "bitten": "Herr, du hast die Weisen als erste aus den Heiden zu dir gerufen;^qoffenbare dich den Menschen, die dich noch nicht kennen.^pDurch den Stern hast du die Weisen auf ihrem Weg geführt;^qführe alle zu dir, die dich suchen.^pAls die Weisen dich fanden, war ihre Freude übergroß;^qgib, dass deine Kirche dich heute auf der ganzen Erde voll Freude preist. ^pDu bist der König der Herrlichkeit;^qgib der Welt den Frieden.^pDein Licht ist heute der Welt erschienen;^qlass es unseren Toten für immer leuchten.",
-            "hymn_1_lat": 3241.3,
             "ant1_lat": "Ante lucíferum génitus et ante sǽcula, Dóminus, salvátor noster, hódie mundo appáruit.",
             "ant2_lat": "Magnus est Dóminus, et Deus noster præ ómnibus diis.",
             "ant3_lat": "Stella ista sicut flamma corúscat, et Regem regum Deum demónstrat: magi eam vidérunt, et magno Regi múnera obtulérunt.",

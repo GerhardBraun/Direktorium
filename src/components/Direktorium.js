@@ -311,7 +311,6 @@ const PrayerMenu = ({
       <div className="pt-4 border-t dark:border-gray-700">
         <button
           onClick={() => {
-            console.log('Mass Lektionar selected');
             setViewMode("massReadings")
           }}
           className="w-full p-3 mb-4 text-center rounded-lg bg-gray-100 dark:bg-gray-800
@@ -403,7 +402,6 @@ const PrayerTextDisplay = ({
 
   useEffect(() => {
     if (hour === 'vesper' && texts?.rank?.hasErsteVesper && texts?.vesper?.prefComm) {
-      console.log('PrayerTextDisplay: setting localPrefComm from texts.vesper.prefComm', localPrefComm, '=>', texts?.vesper?.prefComm);
       setLocalPrefComm(texts?.vesper?.prefComm);
     };
   }, [hour, texts]);
@@ -1167,7 +1165,6 @@ export default function Stundenbuch() {
     setLocalStorage("selectedDate", newSelectedDate);
 
     if (savedDate !== currentDateFormatted) {
-      console.log("neues Datum gespeichert:", newSelectedDate);
       setPrefSrc("oblig");
       setPrefSollemnity("");
       setUseCommemoration(false);
