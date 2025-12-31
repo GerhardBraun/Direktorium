@@ -120,7 +120,7 @@ export const calendarData: CalendarData = {
         "oblig": {
           "each": {
             "comm_1": "Maria",
-            "oration": "Barmherziger Gott, durch die Geburt deines Sohnes aus der Jungfrau Maria hast du der Menschheit das ewige Heil geschenkt. lass uns auch im neuen Jahr immer und überall die Fürbitte der gnadenvollen Mutter erfahren, die uns den Urheber des Lebens geboren hat, Jesus Christus, deinen Sohn, unseren Herrn und Gott,^ORR",
+            "oration": "Barmherziger Gott, durch die Geburt deines Sohnes aus der Jungfrau Maria hast du der Menschheit das ewige Heil geschenkt. Lass uns auch im neuen Jahr immer und überall die Fürbitte der gnadenvollen Mutter erfahren, die uns den Urheber des Lebens geboren hat, Jesus Christus, deinen Sohn, unseren Herrn und Gott,^ORR",
             "oration_lat": "Deus, qui salútis ætérnæ, beátæ Maríæ virginitáte fecúnda, humáno géneri prǽmia præstitísti, tríbue, quǽsumus, ut ipsam pro nobis intercédere sentiámus, per quam merúimus Fílium tuum auctórem vitæ suscípere.^ORlR"
           },
           "ErsteV": {
@@ -132,7 +132,7 @@ export const calendarData: CalendarData = {
             "hymn_kl": 0.0,
             "ant0": "",
             "ant1": "O wunderbarer Tausch! Der den Menschen erschuf, nimmt menschliches Leben an und wird aus der Jungfrau geboren. Von keinem Mann gezeugt, kommt er in die Welt und schenkt uns sein göttliches Leben.",
-            "ant2": "O unsagbar tiefes Geheimnis! In der Geburt aus der Jungfrau erfüllte sich die Schrift: Wie der Tau auf Gídeons Vlies kamst du herab und hast die Menschen errettet. Dich loben wir, du, unser Gott.",
+            "ant2": "O unsagbar tiefes Geheimnis! In der Geburt aus der Jungfrau erfüllte sich die Schrift: Wie der Tau auf Gideons Vlies kamst du herab und hast die Menschen errettet. Dich loben wir, du, unser Gott.",
             "ant3": "O Dornbusch, den Mose schaute! Brennend verbranntest du nicht. In dir erkennen wir ein Gleichnis der seligen Jungfrau, die unversehrt gebar. Gottesmutter, bitte für uns.",
             "les_buch": "›Gal",
             "les_stelle": "4,4–5",
@@ -246,7 +246,7 @@ export const calendarData: CalendarData = {
             "hymn_1": 8101.4,
             "ant0": "",
             "ant1": "O wunderbarer Tausch! Der den Menschen erschuf, nimmt menschliches Leben an und wird aus der Jungfrau geboren. Von keinem Mann gezeugt, kommt er in die Welt und schenkt uns sein göttliches Leben.",
-            "ant2": "O unsagbar tiefes Geheimnis! In der Geburt aus der Jungfrau erfüllte sich die Schrift: Wie der Tau auf Gídeons Vlies kamst du herab und hast die Menschen errettet. Dich loben wir, du, unser Gott.",
+            "ant2": "O unsagbar tiefes Geheimnis! In der Geburt aus der Jungfrau erfüllte sich die Schrift: Wie der Tau auf Gideons Vlies kamst du herab und hast die Menschen errettet. Dich loben wir, du, unser Gott.",
             "ant3": "O Dornbusch, den Mose schaute! Brennend verbranntest du nicht. In dir erkennen wir ein Gleichnis der seligen Jungfrau, die unversehrt gebar. Gottesmutter, bitte für uns.",
             "les_buch": "›Gal",
             "les_stelle": "4,4–5",

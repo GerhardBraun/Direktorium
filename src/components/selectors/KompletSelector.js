@@ -7,11 +7,13 @@ const KompletSelector = ({
     className = ''
 }) => {
     // Extrahiere die Show-Flags und den Standard-Wert aus den Texten
-    const showKompletWt = texts?.komplet?.showKompletWt ?? true;
-    const showKompletK1 = texts?.komplet?.showKompletK1 ?? true;
-    const showKompletK2 = texts?.komplet?.showKompletK2 ?? true;
-    const defaultKomplet = texts?.komplet?.prefKomplet || 'wt';
-    const askSelection = !showKompletWt && defaultKomplet === 'wt'
+    const {
+        showKompletWt = true,
+        showKompletK1 = true,
+        showKompletK2 = true,  // showKompletK2 ist immer true, da 2. Kp immer verfügbar ist
+        prefKomplet = 'wt'
+    } = texts?.komplet || {};
+    const askSelection = !showKompletWt && prefKomplet === 'wt'
 
     // Funktion zum Behandeln der Button-Klicks
     const handleKompletSelect = (value) => {
@@ -24,9 +26,10 @@ const KompletSelector = ({
 
     // Gemeinsame Button-Styles
     const getButtonStyle = (value) => {
-        const isSelected = localPrefKomplet === value;
-        const isDefault = value === defaultKomplet;
-        const isDisabled = (value === 'wt' && !showKompletWt) ||
+        const isSelected = value === localPrefKomplet;
+        const isDefault = value === prefKomplet;
+        const isDisabled =
+            (value === 'wt' && !showKompletWt) ||
             (value === 'k1' && !showKompletK1) ||
             (value === 'k2' && !showKompletK2);
         //console.log('KompletSelector: value/isDefault', value, isDefault)

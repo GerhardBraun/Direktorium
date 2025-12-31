@@ -550,13 +550,13 @@ function processKompletData(data, calendarDate) {
     // am Tag zur Auswahl stehen und welches davon die 1. Wahl ist.
     // Die Komplet-Daten selbst stehen in GetValue.js.
 
-    const { hasErsteVesper = false, dayOfWeek, rank_date, rank_wt, swdCombined } = data
+    const { rank = { wt: 0, date: 0 }, dayOfWeek, swdCombined } = data
     const kompletDay = calendarDate.getDate();
     const kompletMonth = calendarDate.getMonth() + 1;
 
     let showKompletWt = true;
     let showKompletK1 = true;
-    let showKompletK2 = true;
+    let showKompletK2 = true;  // immer true, da die 2. Kp immer verfügbar ist
     let prefKomplet = 'wt'
 
     // Aschermittwoch und Mo-Mi der Karwoche: wie Wochentag trotz Rang 5
@@ -568,11 +568,11 @@ function processKompletData(data, calendarDate) {
         showKompletWt = false; showKompletK1 = false; prefKomplet = 'k2'
     }
     // nach der 1. Vesper
-    else if (hasErsteVesper) {
+    else if (rank?.hasErsteVesper) {
         showKompletWt = false; prefKomplet = 'k1'
     }
     // an Sonntagen und Hochfesten
-    else if (dayOfWeek === 0 || rank_date > 4 || rank_wt === 5) {
+    else if (dayOfWeek === 0 || rank.date > 4 || rank.wt === 5) {
         showKompletWt = false; prefKomplet = 'k2'
     }
     // Weihnachts- und Osteroktav: 1. oder 2. Kp nach Belieben,
