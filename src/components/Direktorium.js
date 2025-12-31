@@ -1001,7 +1001,7 @@ const PrayerTextDisplay = ({
           </div>
         )}
 
-        {(hour === 'komplet') && showKomplet && (
+        {hour === 'komplet' && (
           <div className="mb-0">
             <SectionHeader
               title="MARIANISCHE ANTIPHON"
