@@ -679,8 +679,8 @@ export function processBrevierData(todayDate) {
     const finalData = {
         ...todayData,
         yearABC,
-        rankNextWt: rankNextWt,
-        rankNextDate: rankNextDate,
+        rankNextWt,
+        rankNextDate,
         swdCombined: todayInfo.swdCombined
     };
 
