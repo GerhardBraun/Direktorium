@@ -44,7 +44,7 @@ const HymnSelector = ({ texts, hour, season,
         // Prüfe auf rote Farbe im prefSrc
         const pathParts = sourcePath.split('_')[0].split('.');
         let currentLevel = texts.laudes;
-        if (texts?.hasErsteVesper && hour === 'vesper') {
+        if (texts?.rank?.hasErsteVesper && hour === 'vesper') {
             currentLevel = texts.vesper
         }
         pathParts.forEach(part => {
@@ -84,30 +84,29 @@ const HymnSelector = ({ texts, hour, season,
 
     const sourceOrder = useMemo(() => {
         // Prüfe die Ränge
-        const { rank_date = 0, isCommemoration = false } = texts;
+        const rank = texts?.rank || { wt: 0, date: 0 };
 
-        // Weihnachtsoktav: Vesper im Rang eines Festes
-        const readRank = texts?.rank_wt || 0
-        const rank_wt = (readRank === 2.4 && hour === 'vesper') ? 4 : readRank
+        // Weihnachtsoktav: nur Vesper mit Vorrang vor Festen
+        const wtRankToCompare = (rank.wt === 2.4 && hour === 'vesper') ? 4 : rank.wt
 
         let useWt = (prefSollemnity
             && !(['terz', 'sext', 'non'].includes(hour)))
             ? '' : 'wt'
 
-        const isHighRank = rank_date > 2 || rank_wt > 2 ||
-            (hour === 'vesper' && texts?.hasErsteVesper && texts?.vesper?.prefComm);
+        const isHighRank = rank.date > 2 || rank.wt > 2 ||
+            (hour === 'vesper' && texts?.rank?.hasErsteVesper && texts?.vesper?.prefComm);
 
         // Stelle die Basis-Quellen zusammen
         let sources = [prefSrc, 'pers'];
 
-        if (isHighRank && rank_wt > rank_date) {
+        if (isHighRank && wtRankToCompare > rank.date) {
             sources = ['wt', ...sources];
             useWt = ''
         }
 
         // Ermittle Commune-Sources nur wenn nötig
         const communeSources =
-            ((!isCommemoration || prefSollemnity === 'soll') &&
+            ((!texts?.rank?.isCommemoration || prefSollemnity === 'soll') &&
                 !hasEigenHymn(texts[hour]?.[prefSrc])) // Geändert: Verwende hasEigenHymn
                 ? ['com1', 'com2']
                     .filter(com =>

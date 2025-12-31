@@ -12,8 +12,6 @@ const SectionHeader = ({
     addDebugLog,
     prefSrc,
     prefSollemnity,
-    rank_wt,
-    rank_date,
     localPrefComm,
     localPrefPsalmsWt,
     localPrefErgPs,
@@ -30,6 +28,7 @@ const SectionHeader = ({
     setLocalPrefComm
 }) => {
     const [pressTimer, setPressTimer] = useState(null);
+    const rank = texts?.rank || { wt: 0, date: 0 };
 
     // Prüfe ob Terz/Sext/Non identische Psalmodie haben
     const isIdenticalTerzSext = useMemo(() => {
@@ -73,18 +72,18 @@ const SectionHeader = ({
         const hasComm1 = texts[hour][prefSrc]?.com1?.[field];
         const hasComm2 = texts[hour][prefSrc]?.com2?.[field];
         const nameComm1 =
-            (hour === 'vesper' && texts?.hasErsteVesper && texts?.vesper?.commButton)
+            (hour === 'vesper' && texts?.rank?.hasErsteVesper && texts?.vesper?.commButton)
                 ? texts.vesper.commButton
                 : texts.laudes[prefSrc]?.com1?.button || '1';
         const nameComm2 = texts.laudes[prefSrc]?.com2?.button || '2';
 
-        const wtRankToCompare = (rank_wt === 2.4 && hour === 'vesper') ? 4 : rank_wt;
+        const wtRankToCompare = (rank.wt === 2.4 && hour === 'vesper') ? 4 : rank.wt;
 
         return {
             hasEig, hasWt,
             hasComm1, hasComm2,
             nameComm1, nameComm2,
-            showSources: !hasEig && hasWt && hasComm1 && rank_date > wtRankToCompare,
+            showSources: !hasEig && hasWt && hasComm1 && rank.date > wtRankToCompare,
             showBothComm: hasComm1 && hasComm2
         };
     };
@@ -151,14 +150,14 @@ const SectionHeader = ({
 
     const field = (hour === 'invitatorium' && provField === 'psalm1')
         ? 'ant0' : provField;
-    const isCommemoration = texts?.isCommemoration || false
+    const isCommemoration = texts?.rank?.isCommemoration || false
     const { hasEig, hasWt, nameComm1, nameComm2,
         showSources, showBothComm } = checkSources(field);
 
     const isPsalmodie = title === 'PSALMODIE' && !['invitatorium', 'komplet'].includes(hour);
     const isPsalmsWt = isPsalmodie && localPrefPsalmsWt;
     const showPsalmsWt = hasWt && isPsalmodie
-        && (hasEig || (hour === 'laudes' && texts?.useFeastPsalms))
+        && (hasEig || (hour === 'laudes' && texts?.rank?.useFeastPsalms))
     const showInclAnt = isPsalmodie &&
         !(texts[hour][prefSrc]?.ant0 || texts[hour][prefSrc]?.ant1);
     const showContinuous = hasEig && hasWt && askContinuous
@@ -171,7 +170,7 @@ const SectionHeader = ({
         && !(isPsalmodie && isIdenticalTerzSext); // Neue Bedingung hinzugefügt
     const showErgPs = isTSN
         && isPsalmodie
-        && !(prefSollemnity || rank_date === 5 || rank_wt === 5);
+        && !(prefSollemnity || rank.date === 5 || rank.wt === 5);
     // Bestimme ausgeschlossene Horen für TSN basierend auf Ergänzungspsalmodie
     const excludedHours = getExcludedHours(texts, localPrefErgPs, title);
 
@@ -198,7 +197,7 @@ const SectionHeader = ({
 
     // Prüfe, ob Commune übersprungen werden soll
     let skipCommune = false;
-    if (rank_date < 3 && ( // an Gedenktagen
+    if (rank.date < 3 && ( // an Gedenktagen
         (hour === 'lesehore' && // Lesehore: nur Hymnus und Oration ggf. Commune
             !field.startsWith('hymn_') && field !== 'oration'
         ) || (
@@ -208,14 +207,14 @@ const SectionHeader = ({
         || ['terz', 'sext', 'non'].includes(hour) // Kleinen Horen: ganz vom Wt
     )) skipCommune = true;
 
-    if (rank_date < 5 &&    // an Festen: Ant und Ps in Kleinen Horen vom Wt
+    if (rank.date < 5 &&    // an Festen: Ant und Ps in Kleinen Horen vom Wt
         ['terz', 'sext', 'non'].includes(hour) && isPsalmodie
     ) skipCommune = true;
 
     if (isCommemoration) skipCommune = true
 
     if (prefSollemnity === 'soll' ||   // Hochfeste und 1. Vesper: Comm, wenn nicht eigen, nicht vom Wt
-        (texts?.hasErsteVesper && hour === 'vesper'))
+        (texts?.rank?.hasErsteVesper && hour === 'vesper'))
         skipCommune = false;
 
     if (prefSollemnity && !showBothComm && !isErsteLesung)

@@ -7558,8 +7558,6 @@ export const brevierData = {
         },
         "ErsteV": {
           "button": "1. Vesper zum Fest der Hl. Familie",
-          "hymn_1": 3241.0,
-          "hymn_kl": 0.0,
           "psalm1": 113.0,
           "psalm2": 147.2,
           "psalm3": 152.0,
@@ -7570,9 +7568,6 @@ export const brevierData = {
           "les_stelle": "8,9",
           "les_text": "Ihr wisst, was Jesus Christus, unser Herr, in seiner Liebe getan hat: Er, der reich war, wurde euretwegen arm, um euch durch seine Armut reich zu machen.",
           "les_text_neu": "Ihr kennt die Gnade unseres Herrn Jesus Christus: Er, der reich war, wurde euretwegen arm, um euch durch seine Armut reich zu machen.",
-          "resp1": "Das Wort ist Fleisch geworden und hat unter uns gewohnt.",
-          "resp2": "Halleluja,°halleluja.",
-          "resp3": "Aus seiner Fülle haben wir empfangen, Gnade über Gnade.",
           "antev": "Der Knabe Jesus blieb in Jerusalem, und seine Eltern suchten ihn: Sie fanden ihn im Tempel.",
           "bitten_e": "Lasst uns beten zu Christus, dem Sohn des lebendigen Gottes, der sich nicht gescheut hat, Kind einer menschlichen Familie zu werden:",
           "bitten_r": "Erhöre uns, Christus.",
@@ -7581,9 +7576,6 @@ export const brevierData = {
           "ant1_lat": "Iacob autem génuit Ioseph virum Maríæ, de qua natus est Iesus, qui vocátur Christus.",
           "ant2_lat": "Pastóres venérunt festinántes, et invenérunt Maríam et Ioseph et Infántem pósitum in præsépio.",
           "ant3_lat": "Pastóres venérunt festinántes, et invenérunt Maríam et Ioseph et Infántem pósitum in præsépio.",
-          "resp1_lat": "Verbum caro factum est.",
-          "resp2_lat": "Allelúia,°allelúia.",
-          "resp3_lat": "Et habitávit in nobis.",
           "anta_lat": "Ecce ángelus Dómini appáret in somnis Ioseph dicens: Surge et áccipe púerum et matrem eius et fuge in Ægýptum et esto ibi, usque dum dicam tibi.",
           "antb_lat": "Postquam impléti sunt dies purgatiónis eórum secúndum legem Móysis, tulérunt illum in Hierosólymam ut sísterent Dómino.",
           "antc_lat": "Pastóres venérunt festinántes, et invenérunt Maríam et Ioseph et Infántem pósitum in præsépio.",
@@ -7736,16 +7728,12 @@ export const brevierData = {
           "oration_lat": "Omnípotens sempitérne Deus, fidélium splendor animárum, dignáre mundum glória tua implére benígnus, et cunctis pópulis appáre per tui lúminis claritátem.^ORlV"
         },
         "ErsteV": {
-          "hymn_kl": 0.0,
           "ant1": "Durch das Wort hat die Jungfrau empfangen. Jungfrau blieb sie. Als Jungfrau gebar sie den König der Könige.",
           "ant2": "Freut euch mit Jerusalem; denn der Herr leitet den Frieden zu ihr wie einen Strom.",
           "ant3": "Gottes Sohn ist uns geboren: Gott von Gott, Licht vom Licht vor aller Zeit.",
           "les_buch": "›1°Joh",
           "les_stelle": "5,20",
           "les_text": "Wir wissen: Der Sohn Gottes ist gekommen, und er hat uns Einsicht geschenkt, damit wir den Wahren erkennen. Und wir sind in diesem Wahren, in seinem Sohn Jesus Christus. Er ist der wahre Gott und das ewige Leben.",
-          "resp1": "Das Wort ist Fleisch geworden und hat unter uns gewohnt.",
-          "resp2": "Halleluja,°halleluja.",
-          "resp3": "Aus seiner Fülle haben wir empfangen, Gnade über Gnade.",
           "antev": "Voll der Gnade bist du, Jungfrau Maria, denn ein großes Geheimnis hat dein Schoß getragen.^ö",
           "bitten_e": "Lasst uns beten zu unserem Herrn Jesus Christus, der sich selbst erniedrigte und Mensch geworden ist:",
           "bitten_r": "Herr, durch deine Geburt komm uns zu Hilfe.",
@@ -16645,6 +16633,17 @@ export const brevierData = {
   "w": {
     "each": {
       "each": {
+        "ErsteV": {
+          "hymn_1": 3241.0,
+          "hymn_kl": 0.0,
+          "resp1": "Das Wort ist Fleisch geworden und hat unter uns gewohnt.",
+          "resp2": "Halleluja,°halleluja.",
+          "resp3": "Aus seiner Fülle haben wir empfangen, Gnade über Gnade.",
+          "hymn_1_lat": 3241.1,
+          "resp1_lat": "Verbum caro factum est.",
+          "resp2_lat": "Allelúia,°allelúia.",
+          "resp3_lat": "Et habitávit in nobis."
+        },
         "Invitatorium": {
           "ant0": "Christus ist uns geboren; kommt, wir beten ihn an.",
           "ant0_lat": "Christus natus est nobis: veníte, adorémus."

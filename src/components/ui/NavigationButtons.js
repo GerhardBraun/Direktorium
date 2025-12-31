@@ -135,9 +135,9 @@ export const NavigationButtons = ({
 
     if (topButton) {
         const hourToDisplay =
-            (hour === 'erstev' || (hour === 'vesper' && texts?.hasErsteVesper && !prefSollemnity))
+            (hour === 'erstev' || (hour === 'vesper' && texts?.rank?.hasErsteVesper && !prefSollemnity))
                 ? 'Erste Vesper'
-                : (hour === 'vesper' && (texts?.hasZweiteVesper || ['kirchw', 'soll'].includes(prefSollemnity)))
+                : (hour === 'vesper' && (texts?.rank?.hasZweiteVesper || ['kirchw', 'soll'].includes(prefSollemnity)))
                     ? 'Zweite Vesper'
                     : hour.charAt(0).toUpperCase() + hour.slice(1)
 

@@ -190,7 +190,7 @@ const PrayerMenu = ({
   useCommemoration,
   setUseCommemoration,
 }) => {
-  const { rank_wt, rank_date } = texts || [0, 0];
+  const rank = texts?.rank || { wt: 0, date: 0 };
   const sollemnityErsteVesper = () =>
     ["soll", "kirchw"].includes(prefSollemnity);
 
@@ -267,7 +267,7 @@ const PrayerMenu = ({
           if (hour === "vesper") {
             if (
               texts?.vesper?.oblig?.button &&
-              texts.hasErsteVesper && prefSollemnity !== 'soll'
+              texts?.rank?.hasErsteVesper && prefSollemnity !== 'soll'
             ) {
               displayText = texts.vesper.oblig.button;
             } else if (texts?.vesper?.wt?.button) {
@@ -276,14 +276,14 @@ const PrayerMenu = ({
               const dayOfWeek = selectedDate.getDay();
               if (
                 dayOfWeek === 6 &&
-                rank_date < 4 &&
-                rank_wt < 5 &&
+                rank?.date < 4 &&
+                rank?.wt < 5 &&
                 !sollemnityErsteVesper()
               ) {
                 // Samstag
                 displayText = "1. Vesper vom Sonntag";
               } else {
-                if (sollemnityErsteVesper() || texts?.hasZweiteVesper) {
+                if (sollemnityErsteVesper() || texts?.rank?.hasZweiteVesper) {
                   displayText = "Zweite Vesper";
                 } else displayText = "Vesper";
               }
@@ -379,7 +379,7 @@ const PrayerTextDisplay = ({
   const [localPrefComm, setLocalPrefComm] = useState(texts?.prefComm || 0);
   const [localPrefContinuous, setLocalPrefContinuous] = useState(false);
   const [localPrefPsalmsWt, setLocalPrefPsalmsWt] = useState(false);
-  const [localPrefInv, setLocalPrefInv] = useState(texts?.prefInv || 95);
+  const [localPrefInv, setLocalPrefInv] = useState(texts?.invitatorium?.prefInv || 95);
   const [localPrefErgPs, setLocalPrefErgPs] = useState(false);
   const [localPrefKomplet, setLocalPrefKomplet] = useState(texts?.komplet?.prefKomplet || "wt");
   const [showKomplet, setShowKomplet] = useState(true);
@@ -388,7 +388,7 @@ const PrayerTextDisplay = ({
     setLocalPrefComm(texts?.prefComm || 0);
     setLocalPrefContinuous(false);
     setLocalPrefPsalmsWt(false);
-    setLocalPrefInv(texts?.prefInv || 95);
+    setLocalPrefInv(texts?.invitatorium?.prefInv || 95);
     setLocalPrefErgPs(false);
     setLocalPrefKomplet(texts?.komplet?.prefKomplet || "wt");
   }, [texts]);
@@ -402,7 +402,7 @@ const PrayerTextDisplay = ({
   }, [texts, localPrefKomplet, hour]);
 
   useEffect(() => {
-    if (hour === 'vesper' && texts?.hasErsteVesper && texts?.vesper?.prefComm) {
+    if (hour === 'vesper' && texts?.rank?.hasErsteVesper && texts?.vesper?.prefComm) {
       console.log('PrayerTextDisplay: setting localPrefComm from texts.vesper.prefComm', localPrefComm, '=>', texts?.vesper?.prefComm);
       setLocalPrefComm(texts?.vesper?.prefComm);
     };
@@ -412,7 +412,7 @@ const PrayerTextDisplay = ({
     return <div className="p-4">Keine Daten hier verfügbar</div>;
   }
 
-  const { rank_wt = 0, rank_date = 0, isCommemoration } = texts;
+  const rank = texts?.rank || { wt: 0, date: 0 };
 
   // Get value from sources in priority order: prefSrc -> com1/com2 -> wt
   const getValue = (field) => {
@@ -444,8 +444,6 @@ const PrayerTextDisplay = ({
         addDebugLog={addDebugLog}
         prefSrc={prefSrc}
         prefSollemnity={prefSollemnity}
-        rank_wt={rank_wt}
-        rank_date={rank_date}
         localPrefComm={localPrefComm}
         localPrefPsalmsWt={localPrefPsalmsWt}
         localPrefErgPs={localPrefErgPs}
@@ -805,7 +803,7 @@ const PrayerTextDisplay = ({
           </div>
         )}
 
-        {texts.hasVigil && hour === 'lesehore'
+        {texts?.rank?.hasVigil && hour === 'lesehore'
           && !['kirchw', 'verst'].includes(prefSollemnity) && (
             <button
               id="scroll-to-TeDeum"
@@ -908,9 +906,9 @@ const PrayerTextDisplay = ({
           </div>
         )}
 
-        {isCommemoration &&
+        {texts?.rank?.isCommemoration &&
           !prefSollemnity &&
-          !(hour === "vesper" && texts.hasErsteVesper) &&
+          !(hour === "vesper" && texts?.rank?.hasErsteVesper) &&
           ["lesehore", "laudes", "vesper"].includes(hour) &&
           (texts?.laudes?.oblig?.oration
             || texts?.laudes?.n1?.oration
@@ -1182,7 +1180,7 @@ export default function Stundenbuch() {
     console.log("neue Texte:", processedData);
 
     if (viewMode === "prayerText" && selectedHour === "vigil" &&
-      !processedData?.hasVigil) {
+      !processedData?.rank?.hasVigil) {
       setSelectedHour("lesehore")
     }
   }, [selectedDate, prefSrc]);

@@ -217,11 +217,11 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
     if (!provText || provText === 'LEER' || provText === 'LEER_lat' || provText === '_lat') return null;
 
     if (!provText || provText === 'LEER' || provText === 'LEER_lat' || provText === '_lat') return null;
-    const { season, isCommemoration, swdCombined = '' } = texts;
+    const { season, swdCombined = '' } = texts;
     const { nominativ, genitiv, vokativ, genitiv_lat, vokativ_lat } = texts?.laudes?.[prefSrc] || {};
 
     const useFootnoteList = localStorage.getItem('prefFootnotes') === 'true';
-    const useCommemoration = (marker === 'commemoration' && isCommemoration === true)
+    const useCommemoration = (marker === 'commemoration' && texts?.rank?.isCommemoration === true)
     const isAps = marker === 'Aps';
 
     const replaceRESP = (text) => {

@@ -12,17 +12,14 @@ export const getValue = ({ season, hour, texts, field,
     if (hour === 'komplet')
         return getKompletValue({ texts, field, localPrefKomplet, localPrefLanguage })
 
-    const { rank_date = 0, isCommemoration, hasErsteVesper = false,
+    const { rank = { wt: 0, date: 0 },
         swdCombined, dayOfWeek } = texts;
     const languageField = field + localPrefLanguage
     const isForeignLanguage = localPrefLanguage.replace(/_neu|_ben/g, '')
     const allSouls = texts.dateCompare === '11-02'
-    // const allSouls = (texts?.laudes?.oblig?.button === 'Allerseelen')
-    //     || (swdCombined === 'j-31-0' && rank_date === 3)
 
     // Weihnachtsoktav: Vesper im Rang eines Festes
-    const readRank = texts?.rank_wt || 0
-    const rank_wt = (readRank === 2.4 && hour === 'vesper') ? 4 : readRank
+    const wtRankToCompare = (rank.wt === 2.4 && hour === 'vesper') ? 4 : rank.wt
 
     if (['kirchw', 'verst'].includes(prefSollemnity)) {
         const data = sollemnitiesData[prefSollemnity]
@@ -52,7 +49,7 @@ export const getValue = ({ season, hour, texts, field,
 
         // Bestimme, ob Commune-Texte geprüft werden sollen
         const textsEig = texts.vesper?.[prefSrc] || {};
-        const textsCommune = (((prefSollemnity || (texts.rank_date > 2 || texts.rank_wt > 2))
+        const textsCommune = (((prefSollemnity || (rank.date > 2 || rank.wt > 2))
             && localPrefComm > 0) &&
             texts.vesper?.[prefSrc]?.[`com${localPrefComm}`])
             || {};
@@ -111,10 +108,10 @@ export const getValue = ({ season, hour, texts, field,
     const memorialWithTSN = ['06-11', '10-02'].includes(texts.dateCompare)
 
     // Feier wie ein Hochfest
-    const isSollemnity = (hour === 'vesper' && hasErsteVesper)
-        || prefSollemnity || rank_date === 5 ||
-        (rank_date === 4 && dayOfWeek === 0) ||
-        (rank_wt === 5 &&
+    const isSollemnity = (hour === 'vesper' && texts?.rank?.hasErsteVesper)
+        || prefSollemnity || rank.date === 5 ||
+        (rank.date === 4 && dayOfWeek === 0) ||
+        (rank.wt === 5 &&
             swdCombined !== 'q-0-3' &&
             !swdCombined.startsWith('q-6-') &&
             !swdCombined.startsWith('o-1-') &&
@@ -132,7 +129,7 @@ export const getValue = ({ season, hour, texts, field,
     if (isPsalmodie && !localPrefPsalmsWt
         && (isSollemnity
             || (isTSN && localPrefErgPs && !getExcludedHours(texts, localPrefErgPs, 'PSALMODIE').includes(hour))
-            || (hour === 'laudes' && texts?.useFeastPsalms)
+            || (hour === 'laudes' && rank?.useFeastPsalms)
         )) {
         if (!psalm51 && !hasAnt0) {
             const data = sollemnitiesData.soll?.[dayOfWeek]?.[hour]?.[languageField]
@@ -160,13 +157,13 @@ export const getValue = ({ season, hour, texts, field,
     }
 
     // Prüfe, ob Commune übersprungen werden soll
-    let skipCommune = rank_wt >= rank_date;
-    if (rank_date < 3  // an Gedenktagen
+    let skipCommune = wtRankToCompare >= rank.date;
+    if (rank.date < 3  // an Gedenktagen
         && ((hour === 'lesehore' && field !== 'oration') // Lesehore: nur Hymnus und Oration ggf. Commune
             || (['laudes', 'vesper'].includes(hour) && isPsalmodie) // Laudes/Vesper Psalmodie
             || isTSN) // Kleine Horen: ganz vom Wt
     ) skipCommune = true
-    if (rank_date < 5 && isTSN && isPsalmodie) // an Festen: Ant und Ps in Kleinen Horen vom Wt
+    if (rank.date < 5 && isTSN && isPsalmodie) // an Festen: Ant und Ps in Kleinen Horen vom Wt
         skipCommune = true
     if (isSollemnity) skipCommune = false
     if (isPsalmodie) {
@@ -189,8 +186,8 @@ export const getValue = ({ season, hour, texts, field,
             prefCommTexts = prefTexts?.com2
     }
 
-    if ((!isCommemoration // an Tagen mit Kommemoration und in Kl. Horen an Gedenktagen nur wt-Werte
-        && !(rank_date < 3 && isTSN && !memorialWithTSN))
+    if ((!rank?.isCommemoration // an Tagen mit Kommemoration und in Kl. Horen an Gedenktagen nur wt-Werte
+        && !(rank.date < 3 && isTSN && !memorialWithTSN))
         || isSollemnity) {
 
         //Sonderfall Wochentagspsalmen

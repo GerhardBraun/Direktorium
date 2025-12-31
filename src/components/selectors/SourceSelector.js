@@ -151,11 +151,12 @@ const SourceSelector = ({
         }
     };
 
-    const { rank_date = 0, rank_wt = 0, isCommemoration } = texts
+    const rank = texts?.rank || { wt: 0, date: 0 }
+    const isCommemoration = rank?.isCommemoration || false
     const hasOblig = hasValidSource('oblig') // G, F oder H
     const hasAdLib = hasValidSource('any')
 
-    const showWt = rank_wt < 3 && (
+    const showWt = rank.wt < 3 && (
         (hasAdLib && !hasOblig) ||   // nur nichtgebotener Gedenktag
         (isCommemoration && (hasOblig || hasAdLib)) // bei Kommemoration auch G
     )
@@ -255,7 +256,7 @@ const SourceSelector = ({
                         Kirchweihe
                     </button>
 
-                    {(rank_date < 5 && (hasOblig || hasAdLib)) && (
+                    {(rank.date < 5 && (hasOblig || hasAdLib)) && (
                         <button
                             onClick={() => handleSourceSelect('lokal', 'soll')}
                             className={`flex-1 py-2 text-center rounded-sm

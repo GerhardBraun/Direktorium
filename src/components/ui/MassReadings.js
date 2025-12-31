@@ -12,7 +12,7 @@ const MassReadingsSelector = ({
     if (!texts) return null;
 
     let sourceKeys = ['wt', 'oblig', 'd1', 'd2', 'n1', 'n2', 'n3', 'n4', 'n5', 'd11', 'd12', 'mar'];
-    if (texts.rank_date > 2) sourceKeys = ['oblig', 'wt'];
+    if (texts?.rank?.date > 2) sourceKeys = ['oblig', 'wt'];
 
     // Helper function to check if a source has valid readings
     const hasValidReadings = (source) => {
@@ -86,7 +86,7 @@ const MassReadings = ({
 
     // Standardwerte für readingSource setzen
     useEffect(() => {
-        if (texts.rank_date > 2 &&
+        if (texts?.rank?.date > 2 &&
             (texts?.messe?.oblig?.ms_les_text || texts?.messe?.oblig?.ms_ev_text)) {
             setReadingSource('oblig');
         } else if (texts?.messe?.wt?.ms_les_text || texts?.messe?.wt?.ms_ev_text) {

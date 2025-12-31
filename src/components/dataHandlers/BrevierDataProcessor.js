@@ -281,9 +281,16 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
             swdCombined, swdWritten,
             rank_wt,
             rank_date,
-            isCommemoration,
-            shouldUseLast,
-            hasVigil,
+            //isCommemoration,
+            //shouldUseLast,
+            //hasVigil,
+            rank: {
+                wt: rank_wt,
+                date: rank_date,
+                isCommemoration,
+                //shouldUseLast,
+                hasVigil,
+            },
             prefComm: (rank_date > 2 || rank_wt > 2 || [41, 46].includes(afterPentecost)) ? 1 : 0,
             ...cleanupZeroReferences(hours)
         };
@@ -679,8 +686,11 @@ export function processBrevierData(todayDate) {
     const finalData = {
         ...todayData,
         yearABC,
-        rankNextWt,
-        rankNextDate,
+        rank: {
+            ...todayData.rank,
+            rankNextWt,
+            rankNextDate,
+        },
         swdCombined: todayInfo.swdCombined
     };
 
@@ -692,7 +702,8 @@ export function processBrevierData(todayDate) {
     if (hasErsteVesper_wt || hasErsteVesper_date) {
         finalData.vesper = JSON.parse(JSON.stringify(tomorrowData.erstev));
         finalData.vesper.prefComm = tomorrowData.prefComm;
-        finalData.hasErsteVesper = true;
+        //finalData.hasErsteVesper = true;
+        finalData.rank.hasErsteVesper = true;
         if (tomorrowData.laudes?.oblig?.com1?.button)
             finalData.vesper.commButton = tomorrowData.laudes.oblig.com1.button;
         if (hasErsteVesper_wt)
@@ -716,7 +727,7 @@ export function processBrevierData(todayDate) {
 
     const dateCompare = `${todayMonth.toString().padStart(2, '0')}-${todayDay.toString().padStart(2, '0')}`;
     finalData.dateCompare = dateCompare;
-    finalData.useFeastPsalms = (
+    finalData.rank.useFeastPsalms = (
         (rank_date > 2 || rank_wt > 2) // Hochfeste und Feste: Ps vom So der I. Woche
         // nicht am Sonntag, Aschermittwoch oder Allerseelen
         && dayOfWeek !== 0
@@ -726,7 +737,7 @@ export function processBrevierData(todayDate) {
         ['01-21', '05-01', '06-11', '08-29', '09-15',
             '10-02', '10-07', '11-11'].includes(dateCompare);
 
-    finalData.hasZweiteVesper = (kompletSettings.prefKomplet === 'k2'
+    finalData.rank.hasZweiteVesper = (kompletSettings.prefKomplet === 'k2'
         && !['q-6-4', 'q-6-5', 'q-6-6', 'o-1-0'].includes(swdCombined));
 
     const sequenceInv = JSON.parse(localStorage.getItem('sequenceInv')) || [95, 100, 24, 67, 67, 100, 24];
@@ -734,7 +745,7 @@ export function processBrevierData(todayDate) {
     const invPsalms = processInvitatoriumPsalms(finalData, prefInv);
     if (!invPsalms.includes(prefInv)) prefInv = 95;
     finalData.invitatorium.psalms = invPsalms
-    finalData.prefInv = prefInv;
+    finalData.invitatorium.prefInv = prefInv;
 
     return finalData;
 }
