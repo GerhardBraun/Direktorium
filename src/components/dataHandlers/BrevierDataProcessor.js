@@ -175,6 +175,7 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
                     mergeData(hours, ordSeasonData[dayOfWeek], source);
             }
         });
+
         //Ordinary data from personalData
         const ordData = personalData?.wt?.each;
         const ordEvenData = personalData?.wt?.even;
@@ -215,39 +216,40 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
                 if (lectureABCLayerData) mergeData(hours, lectureABCLayerData, 'wt');
             })
         }
-
-        addLayer('p', weekOfPsalter, dayOfWeek);     // Layer 1: Base layer from 4-week schema
+        // Layer 1: Base layer from 4-week schema
+        addLayer('p', weekOfPsalter, dayOfWeek);
         const pOfSeason = 'p' + season
         addLayer(pOfSeason, weekOfPsalter, dayOfWeek);
 
         const weekOfEight = week % 8 || 8
         addLayer('pvigil', weekOfEight, dayOfWeek)
-
-        addLayer(season, 'each', dayOfWeek);                        // Layer 3: Weekly schema for the season
-        if (week % 2 === 0) addLayer(season, 'even', dayOfWeek);    // Layer 4: Bi-weekly schema
+        // Layer 3: Weekly schema for the season
+        addLayer(season, 'each', dayOfWeek);
+        // Layer 4: Bi-weekly schema
+        if (week % 2 === 0) addLayer(season, 'even', dayOfWeek);
 
         addLayer(season, week, dayOfWeek);
 
-        const processUseCalendarDate = () => {
+        const processUseDateAndLast = () => {
             if (calendarMonth === 12 && calendarDay > 16) {
                 return calendarDay < 25 ? 'adventLast' : 'christmasOctave';
-            } else if (calendarMonth === 1 && calendarDay < 13) {
+            } else if (calendarMonth === 1 && calendarDay < 13 && season === 'w') {
                 return calendarDay < 6 ? 'christmas' : 'christmasLast';
             } else if (season === 'o' &&
                 (week === 7 || (week === 6 && dayOfWeek > 3)))
                 return 'easterLast';
             else return '';
         }
-        const useCalendarDate = processUseCalendarDate();
+        const useDateAndLast = processUseDateAndLast();
 
         // Layer 5.1: 'last' für letzte Adventstage, nach Erscheinung und Pfingstnovene
-        if (useCalendarDate.includes('Last'))
+        if (useDateAndLast.includes('Last'))
             addLayer(season, 'last', dayOfWeek);
 
         // Layer 5.2: 17. Dez. bis Taufe des Herrn (Kalendertage) mit Weihnachtsoktav
         // easterLast: entsprechende Einträge existieren in 'k' und 'kso' nicht
-        if (useCalendarDate) {
-            if (useCalendarDate === 'christmasOctave')
+        if (useDateAndLast) {
+            if (useDateAndLast === 'christmasOctave')
                 addLayer('w', 'okt', 'each');
             addLayer('k', calendarMonth, calendarDay);
             // wiederholte Behandlung der Sonntage in diesem Zeitraum:
@@ -297,7 +299,7 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
                 isCommemoration,
                 //shouldUseLast,
                 hasVigil,
-                //useCalendarDate,
+                //useDateAndLast,
             },
             prefComm: (rank_date > 2 || rank_wt > 2 || [41, 46].includes(afterPentecost)) ? 1 : 0,
             ...cleanupZeroReferences(hours)

@@ -38,8 +38,10 @@ const HymnSelector = ({ texts, hour, season,
             if (texts?.laudes?.wt?.farbe === 'r' ||
                 (hour === 'vesper' && texts?.vesper?.wt?.farbe === 'r')) {
                 return 'btn-red';
-            } else if (season === 'j') return 'btn-green';
-            else if (season === 'a' || season === 'q') return 'btn-violett';
+            } else if (season === 'j' && !['j-1-0', 'j-34-0'].includes(texts?.swdCombined))
+                return 'btn-green';
+            else if (season === 'a' || season === 'q')
+                return 'btn-violett';
             else return 'btn-gold';
         };
 
