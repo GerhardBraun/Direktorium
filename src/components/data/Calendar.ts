@@ -224,22 +224,28 @@ export const calendarData: CalendarData = {
             "les_text_lat": "Dominátor in Israel dabit eos usque ad tempus, in quo partúriens páriet; et relíquiæ fratrum eius converténtur ad fílios Israel. Et stabit et pascet in fortitúdine Dómini, in sublimitáte nóminis Dómini Dei sui; et erit iste pax."
           },
           "Terz": {
+            "ant0": "Josef und Maria staunten über die Worte, die man über Jesus sagte.",
             "les_buch": "›Zef",
             "les_stelle": "3,14.15b",
             "les_text": "Juble, Tochter Zion! Jauchze, Israel! Freu dich und frohlocke von ganzem Herzen, Tochter Jerusalem! Der König Israels, der HERR, ist in deiner Mitte.",
+            "ant0_lat": "Erant Ioseph et María, mater Iesu, mirántes super iis, quæ dicebántur de illo.",
             "les_text_lat": "Lauda, fília Sion, iubiláte, Israel! Lætáre et exsúlta in omni corde, fília Ierúsalem! Rex Israel Dóminus in médio tui."
           },
           "Sext": {
+            "ant0": "Maria bewahrte alles, was geschehen war, und erwog es in ihrem Herzen.",
             "les_buch": "›Sach",
             "les_stelle": "9,9a",
             "les_text": "Juble laut, Tochter Zion! Jauchze, Tochter Jerusalem! Siehe, dein König kommt zu dir. Er ist gerecht und hilft.",
             "les_text_neu": "Juble laut, Tochter Zion! Jauchze, Tochter Jerusalem! Siehe, dein König kommt zu dir. Gerecht ist er und Rettung wurde ihm zuteil.",
+            "ant0_lat": "María autem conservábat ómnia verba hæc, cónferens in corde suo.",
             "les_text_lat": "Exsúlta satis, fília Sion; iúbila, fília Ierúsalem. Ecce rex tuus venit tibi iustus et salvátor."
           },
           "Non": {
+            "ant0": "Meine Augen haben das Heil gesehen, das du vor allen Völkern bereitet hast.",
             "les_buch": "›Bar",
             "les_stelle": "5,3–4",
             "les_text": "Gott will deinen Glanz dem ganzen Erdkreis unter dem Himmel zeigen. Gott gibt dir für immer den Namen: „Friede der Gerechtigkeit“ und „Herrlichkeit der Gottesfurcht“.",
+            "ant0_lat": "Vidérunt óculi mei salutáre tuum, quod parásti ante fáciem ómnium populórum.",
             "les_text_lat": "Deus osténdet omni, quod sub cælo est, splendórem tuum, Ierúsalem. Vocábitur enim nomen tuum a Deo in ætérnum: Pax iustítiæ et Glória cultúræ Dei."
           },
           "Vesper": {
