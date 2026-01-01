@@ -570,6 +570,8 @@ const PrayerTextDisplay = ({
         note += "^lIn der Feier mit dem Volk können Laudes und Vesper aus dem Offizium für die Verstorbenen genommen werden. Nutzen°Sie dafür den Schalter „Ged°der°Verst“ oben rechts."
       }
     }
+    if (texts.dateCompare === '01-01' && ['invitatorium', 'lesehore', 'laudes'].includes(hour))
+      note = "Ein gesegnetes neues Jahr!"
     return !note ? null : (
       <div className="long-rubric mb-0 pt-4">
         {formatPrayerText(note)}
@@ -577,11 +579,11 @@ const PrayerTextDisplay = ({
   }
 
   const ordinariumTexts = ordinarium(texts, hour, localPrefLatin, prefSollemnity)
-  const { advResp, advVers } =
+  const { advResp = '', advVers = '' } =
     (texts.swdCombined === 'a-1-0'
       && hour === 'lesehore'
       && (getValue('patr_resp1') === 'LEER' || localPrefLatin))
-      ? ordinarium('advent', hour, localPrefLatin) : { advResp: '', advVers: '' };
+      ? ordinarium('advent', hour, localPrefLatin) : {};
 
   return (
     <div className="leading-[1.33em] pb-8">

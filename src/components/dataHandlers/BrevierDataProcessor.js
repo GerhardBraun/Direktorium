@@ -228,18 +228,26 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
 
         addLayer(season, week, dayOfWeek);
 
+        const processUseCalendarDate = () => {
+            if (calendarMonth === 12 && calendarDay > 16) {
+                return calendarDay < 25 ? 'adventLast' : 'christmasOctave';
+            } else if (calendarMonth === 1 && calendarDay < 13) {
+                return calendarDay < 6 ? 'christmas' : 'christmasLast';
+            } else if (season === 'o' &&
+                (week === 7 || (week === 6 && dayOfWeek > 3)))
+                return 'easterLast';
+            else return '';
+        }
+        const useCalendarDate = processUseCalendarDate();
+
         // Layer 5.1: 'last' für letzte Adventstage, nach Erscheinung und Pfingstnovene
-        const shouldUseLast = (
-            (season === 'a' && calendarDay > 16 && calendarDay < 25) ||
-            (season === 'w' && calendarDay > 5 && calendarDay < 13) ||
-            (season === 'o' && (week === 7 || (week === 6 && dayOfWeek > 3)))
-        );
-        if (shouldUseLast)
+        if (useCalendarDate.includes('Last'))
             addLayer(season, 'last', dayOfWeek);
 
         // Layer 5.2: 17. Dez. bis Taufe des Herrn (Kalendertage) mit Weihnachtsoktav
-        if (season === "a" || season === "w") {
-            if (calendarMonth === 12 && calendarDay > 24)
+        // easterLast: entsprechende Einträge existieren in 'k' und 'kso' nicht
+        if (useCalendarDate) {
+            if (useCalendarDate === 'christmasOctave')
                 addLayer('w', 'okt', 'each');
             addLayer('k', calendarMonth, calendarDay);
             // wiederholte Behandlung der Sonntage in diesem Zeitraum:
@@ -265,13 +273,12 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
             // Sonderfall: MaterEcclesiae bzw. Herz Mariae und gebotener Gedenktag
             if (rank_date === 2)
                 processCalendar(hours, yearABC, season, calendarMonth, calendarDay, 'n1');
-
         }
         // Layer 9: nichtgebotene Gedenktage
         else if (rank_wt < 3) {
             processCalendar(hours, yearABC, season, calendarMonth, calendarDay, 'skip');
 
-            // Maria am Samstag
+            // Maria am Samstag (mit fiktivem Datum 06.13.)
             if (rank_wt < 2 && rank_date < 2 && season === "j" && dayOfWeek === 6)
                 processCalendar(hours, yearABC, season, 13, 6)
         }
@@ -290,6 +297,7 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
                 isCommemoration,
                 //shouldUseLast,
                 hasVigil,
+                //useCalendarDate,
             },
             prefComm: (rank_date > 2 || rank_wt > 2 || [41, 46].includes(afterPentecost)) ? 1 : 0,
             ...cleanupZeroReferences(hours)

@@ -202,7 +202,7 @@ export const calendarData: CalendarData = {
             "farbe": "m",
             "hymn_1": 8101.2,
             "hymn_kl": 0.0,
-            "ant1": "Aus Ísaïs Wurzel sproßt ein Reis, aus Jakob erstrahlt ein Stern: die Jungfrau gebar den Erlöser.",
+            "ant1": "Aus Isais Wurzel sproßt ein Reis, aus Jakob erstrahlt ein Stern: die Jungfrau gebar den Erlöser.",
             "ant2": "Maria hat uns den Heiland geboren; Johannes sah ihn und rief: Seht, das Lamm Gottes, das hinwegnimmt die Sünde der Welt.^ö",
             "ant3": "Einen König hat uns Maria geboren, Ewiger ist sein Name. Mutter ist sie und Jungfrau, niemand kommt ihr gleich.^ö",
             "les_buch": "›Mi",
