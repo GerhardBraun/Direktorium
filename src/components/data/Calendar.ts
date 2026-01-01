@@ -228,7 +228,11 @@ export const calendarData: CalendarData = {
             "les_buch": "›Zef",
             "les_stelle": "3,14.15b",
             "les_text": "Juble, Tochter Zion! Jauchze, Israel! Freu dich und frohlocke von ganzem Herzen, Tochter Jerusalem! Der König Israels, der HERR, ist in deiner Mitte.",
+            "resp0": "Der Herr gedachte seiner Huld.^ö",
+            "resp1": "Und seiner Treue zum Hause Israel.^ö",
             "ant0_lat": "Erant Ioseph et María, mater Iesu, mirántes super iis, quæ dicebántur de illo.",
+            "resp0_lat": "Recordátus est Dóminus misericórdiæ suæ.^Lö",
+            "resp1_lat": "Et veritátis suæ dómui Israel.^Lö",
             "les_text_lat": "Lauda, fília Sion, iubiláte, Israel! Lætáre et exsúlta in omni corde, fília Ierúsalem! Rex Israel Dóminus in médio tui."
           },
           "Sext": {
@@ -237,7 +241,11 @@ export const calendarData: CalendarData = {
             "les_stelle": "9,9a",
             "les_text": "Juble laut, Tochter Zion! Jauchze, Tochter Jerusalem! Siehe, dein König kommt zu dir. Er ist gerecht und hilft.",
             "les_text_neu": "Juble laut, Tochter Zion! Jauchze, Tochter Jerusalem! Siehe, dein König kommt zu dir. Gerecht ist er und Rettung wurde ihm zuteil.",
+            "resp0": "Alle Enden der Erde.^ö",
+            "resp1": "Schauen das Heil unseres Gottes.^ö",
             "ant0_lat": "María autem conservábat ómnia verba hæc, cónferens in corde suo.",
+            "resp0_lat": "Vidérunt omnes fines terræ.^Lö",
+            "resp1_lat": "Salutáre Dei nostri.^Lö",
             "les_text_lat": "Exsúlta satis, fília Sion; iúbila, fília Ierúsalem. Ecce rex tuus venit tibi iustus et salvátor."
           },
           "Non": {
@@ -245,7 +253,11 @@ export const calendarData: CalendarData = {
             "les_buch": "›Bar",
             "les_stelle": "5,3–4",
             "les_text": "Gott will deinen Glanz dem ganzen Erdkreis unter dem Himmel zeigen. Gott gibt dir für immer den Namen: „Friede der Gerechtigkeit“ und „Herrlichkeit der Gottesfurcht“.",
+            "resp0": "Huld und Treue begegnen einander.^ö",
+            "resp1": "Gerechtigkeit und Friede küssen sich.^ö",
             "ant0_lat": "Vidérunt óculi mei salutáre tuum, quod parásti ante fáciem ómnium populórum.",
+            "resp0_lat": "Misericórdia et véritas obviavérunt sibi.^Lö",
+            "resp1_lat": "Iustítia et pax osculátæ sunt.^Lö",
             "les_text_lat": "Deus osténdet omni, quod sub cælo est, splendórem tuum, Ierúsalem. Vocábitur enim nomen tuum a Deo in ætérnum: Pax iustítiæ et Glória cultúræ Dei."
           },
           "Vesper": {
