@@ -19,7 +19,7 @@ const writeOut = (season, week, dayOfWeek, swdCombined, day, afterPentecost) => 
         'q-6-6': 'Karsamstag',
         'o-1-0': 'Ostersonntag',
         'o-1-1': 'Ostermontag',
-        'o-2-0': 'Weißer Sonntag – Sonntag°der°Göttlichen°Barmherzigkeit',
+        'o-2-0': 'Weißer Sonntag – Sonntag\u00a0der\u00a0Göttlichen\u00a0Barmherzigkeit',
         'o-6-4': 'Christi Himmelfahrt',
         'o-8-0': 'Pfingstsonntag',
         'o-8-1': 'Pfingstmontag',
@@ -119,10 +119,12 @@ function calculateRanks(date, season, week, dayOfWeek, swdCombined, afterPenteco
 
         // Schleife durch die Ränge (von hoch zu niedrig)
         for (const rank of [6, 5, 4, 3, 2]) {
-            if (tableOfRanks?.[diocese]?.[rank]?.includes(dateCompare)) return rank;
+            if (tableOfRanks?.[diocese]?.[rank]?.includes(dateCompare))
+                return rank;
         }
         for (const rank of [6, 5, 4, 3, 2]) {
-            if (tableOfRanks?.[rank]?.includes(dateCompare)) return rank;
+            if (tableOfRanks?.[rank]?.includes(dateCompare))
+                return rank;
         }
         return 0; // Kein spezieller Rang gefunden
     }
@@ -292,6 +294,10 @@ const getLiturgicalInfo = (provDate) => {
         weekOfPsalter,
         swdCombined,
         swdWritten,
+        swd: {
+            combined: swdCombined,
+            written: swdWritten,
+        },
         ...ranks,  // Fügt rank_wt und rank_date zum Return-Objekt hinzu
         afterPentecost,
         isCommemoration,

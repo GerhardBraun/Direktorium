@@ -1101,8 +1101,7 @@ export default function Stundenbuch() {
         return `${day}.${month}.${year}`;
       }
       // Original format for wider screens: DD. Month YYYY
-      return `${date.getDate()}. ${months[date.getMonth()]
-        } ${date.getFullYear()}`;
+      return `${date.getDate()}. ${months[date.getMonth()]} ${date.getFullYear()}`;
     },
     [isNarrowScreen]
   ); // months ist konstant, daher keine Dependency nötig
@@ -1285,9 +1284,7 @@ export default function Stundenbuch() {
       date.getFullYear() !== year ||
       date.getMonth() !== month ||
       date.getDate() !== day
-    ) {
-      return null;
-    }
+    ) { return null; }
 
     return date;
   };

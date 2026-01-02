@@ -111,12 +111,9 @@ function mergeData(hours, newData, source) {
 function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   // für verschobene Hochfeste kann deren calendarDate eigens angegeben werden
     calendarDate = calendarDate ?? date
     const {
-        season,
-        week,
-        dayOfWeek,
+        season, week, dayOfWeek,
+        swdCombined, swdWritten, swd,
         weekOfPsalter,
-        swdCombined,
-        swdWritten,
         rank_wt,
         afterPentecost,
         isCommemoration,
@@ -287,7 +284,7 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
 
         return {
             season, week, dayOfWeek,
-            swdCombined, swdWritten,
+            swdCombined, swdWritten, swd,
             rank_wt,
             rank_date,
             //isCommemoration,
@@ -565,36 +562,32 @@ function processKompletData(data, calendarDate) {
     const kompletMonth = calendarDate.getMonth() + 1;
 
     let showKompletWt = true;
-    let showKompletK1 = true;
-    let showKompletK2 = true;  // immer true, da die 2. Kp immer verfügbar ist
     let prefKomplet = 'wt'
 
     // Aschermittwoch und Mo-Mi der Karwoche: wie Wochentag trotz Rang 5
     if (['q-0-3', 'q-6-1', 'q-6-2', 'q-6-3'].includes(swdCombined)) {
-        prefKomplet = 'wt'
-    }
-    // Gründonnerstag, Karfreitag, Karsamstag: nur 2. Kp vom So
-    else if (['q-6-4', 'q-6-5', 'q-6-6'].includes(swdCombined)) {
-        showKompletWt = false; showKompletK1 = false; prefKomplet = 'k2'
-    }
-    // nach der 1. Vesper
-    else if (rank?.hasErsteVesper) {
-        showKompletWt = false; prefKomplet = 'k1'
-    }
-    // an Sonntagen und Hochfesten
-    else if (dayOfWeek === 0 || rank.date > 4 || rank.wt === 5) {
-        showKompletWt = false; prefKomplet = 'k2'
+        showKompletWt = true;
     }
     // Weihnachts- und Osteroktav: 1. oder 2. Kp nach Belieben,
-    // deshalb 'wt' als Vorauswahl (wird als "Bitte wählen Sie ..." angezeigt)
+    // deshalb bleibt 'wt' als Vorauswahl (wird als "Bitte wählen Sie ..." angezeigt)
     else if ((kompletMonth === 12 && kompletDay > 25)
         || (swdCombined.startsWith('o-1-'))) {
         showKompletWt = false; prefKomplet = 'wt'
     }
+    // an Hochfesten
+    else if (rank.date > 4 || rank.wt === 5) {
+        showKompletWt = false; prefKomplet = 'k2'
+    }
+    // nach der 1. Vesper
+    if (rank?.hasErsteVesper) {
+        showKompletWt = false; prefKomplet = 'k1'
+    }
+    // an Sonntagen
+    if (dayOfWeek === 0) {
+        showKompletWt = false; prefKomplet = 'k2'
+    }
     return {
         showKompletWt,
-        showKompletK1,
-        showKompletK2,
         prefKomplet
     };
 }
@@ -664,7 +657,8 @@ export function processBrevierData(todayDate) {
     const tomorrowData = getPrayerTexts(brevierData, personalData, tomorrowDate, nextDate);
 
     // Prüfe, ob erste Vesper benötigt wird
-    const { season, dayOfWeek, swdCombined, rank_wt, rank_date } = todayData;
+    const { season, dayOfWeek, swdCombined, rank_wt, rank_date }
+        = todayData;
     const rankNextWt = tomorrowData.rank_wt;
     const rankNextDate = tomorrowData.rank_date;
     const nextSwdCombined = tomorrowData.swdCombined;
@@ -728,11 +722,12 @@ export function processBrevierData(todayDate) {
     // Wende die finalen Verarbeitungsschritte an
     processTerzPsalms(finalData);
     processAntABC(finalData, yearABC, swdCombined);
-    if (todayInfo.season === 'o') { processEasterResponses(finalData); }
+    if (todayInfo.season === 'o')
+        processEasterResponses(finalData);
 
     const kompletSettings = processKompletData(finalData, calendarDate);
     finalData.komplet = {
-        ...finalData.komplet,
+        wt: finalData.komplet.wt,
         ...kompletSettings
     };
 

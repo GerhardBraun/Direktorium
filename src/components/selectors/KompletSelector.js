@@ -9,29 +9,22 @@ const KompletSelector = ({
     // Extrahiere die Show-Flags und den Standard-Wert aus den Texten
     const {
         showKompletWt = true,
-        showKompletK1 = true,
-        showKompletK2 = true,  // showKompletK2 ist immer true, da 2. Kp immer verfügbar ist
         prefKomplet = 'wt'
     } = texts?.komplet || {};
     const askSelection = !showKompletWt && prefKomplet === 'wt'
 
     // Funktion zum Behandeln der Button-Klicks
     const handleKompletSelect = (value) => {
-        if ((value === 'wt' && showKompletWt) ||
-            (value === 'k1' && showKompletK1) ||
-            (value === 'k2' && showKompletK2)) {
+        if ((value === 'wt' && showKompletWt) || value.includes('k'))
             setLocalPrefKomplet(value);
-        }
     };
 
     // Gemeinsame Button-Styles
     const getButtonStyle = (value) => {
         const isSelected = value === localPrefKomplet;
         const isDefault = value === prefKomplet;
-        const isDisabled =
-            (value === 'wt' && !showKompletWt) ||
-            (value === 'k1' && !showKompletK1) ||
-            (value === 'k2' && !showKompletK2);
+        const isDisabled = value === 'wt' && !showKompletWt
+
         //console.log('KompletSelector: value/isDefault', value, isDefault)
         return `p-1 pt-2 text-sm ${(askSelection && value === 'wt') ? 'text-right' : 'text-center'} rounded-sm
             ${isDefault ? `text-rubric` : isDisabled ? 'text-gray-400 dark:text-gray-600' :

@@ -1,12 +1,11 @@
 import React, { useState, useMemo, useEffect } from 'react';
 
 const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, formatPrayerText }) => {
-    season = swdCombined === 'j-34-6' ? 'a' : season;
-    // Verwende direkt das season-Kürzel zur Identifizierung der Antiphon
+    season = ['j-1-0', 'j-34-6'].includes(swdCombined) ? 'a' : season;
+
     const [selectedAntSeason, setSelectedAntSeason] = useState(null);
     const [Assumption, setAssumption] = useState(false);
     const [Nativity, setNativity] = useState(false);
-
 
     const suffixLatin = useMemo(() => {
         return localPrefLatin ? '_lat' : '';
@@ -81,15 +80,13 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
             if ((month === 12 && day === 24) || season === 'w' || swdCombined === 'j-1-0') {
                 setNativity(true);
                 return 'a';
-            }
-            else { setNativity(false); }
+            } else setNativity(false);
 
             // 15.8. (Mariä Himmelfahrt) und 22.8. (Maria Königin) -> Ave Regina Caelorum (q)
             if ((month === 8 && day > 13 && day < 23)) {
                 setAssumption(true);
                 return 'q';
-            }
-            else setAssumption(false);
+            } else setAssumption(false);
         }
         // Sonst verwende die normale Jahreszeit
         return season;
@@ -110,6 +107,10 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
             return 0;
         });
     }, [marianAntiphons, getDefaultAntiphonSeason]);
+
+    useEffect(() => {
+        setSelectedAntSeason(null)
+    }, [selectedDate]);
 
     // Setze die berechnete Standardantiphon als ausgewählt
     useEffect(() => {

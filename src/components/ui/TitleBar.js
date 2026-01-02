@@ -1,4 +1,5 @@
 import React from 'react';
+import { formatPrayerText } from '../dataHandlers/TextFormatter.js';
 
 const TitleBar = ({ title, onPrevDay, onNextDay, swdWritten, padding = '' }) => {
     return (
