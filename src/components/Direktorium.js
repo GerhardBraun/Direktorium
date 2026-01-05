@@ -201,7 +201,7 @@ const PrayerMenu = ({
         title={''}
         onPrevDay={onPrevDay}
         onNextDay={onNextDay}
-        swdWritten={texts?.swdWritten}
+        swdWritten={texts?.swd.written}
       />
       {/* Source Selector */}
       <SourceSelector
@@ -580,7 +580,7 @@ const PrayerTextDisplay = ({
 
   const ordinariumTexts = ordinarium(texts, hour, localPrefLatin, prefSollemnity)
   const { advResp = '', advVers = '' } =
-    (texts.swdCombined === 'a-1-0'
+    (texts?.swd.combined === 'a-1-0'
       && hour === 'lesehore'
       && (getValue('patr_resp1') === 'LEER' || localPrefLatin))
       ? ordinarium('advent', hour, localPrefLatin) : {};
@@ -594,8 +594,8 @@ const PrayerTextDisplay = ({
           onPrevDay={onPrevDay}
           onNextDay={onNextDay}
           swdWritten={hour === 'vesper'
-            ? texts.vesper?.oblig?.swdWritten || texts.vesper?.wt?.swdWritten || texts?.swdWritten
-            : texts?.swdWritten}
+            ? texts.vesper?.oblig?.swdWritten || texts.vesper?.wt?.swdWritten || texts?.swd.written
+            : texts?.swd.written}
           padding="pr-4"
         />
         <NavigationButtons
@@ -1012,7 +1012,7 @@ const PrayerTextDisplay = ({
             <MarAntSelector
               season={season}
               selectedDate={selectedDate}
-              swdCombined={texts?.swdCombined}
+              swdCombined={texts?.swd.combined}
               localPrefLatin={localPrefLatin}
               formatPrayerText={formatPrayerText}
             />
@@ -2083,7 +2083,7 @@ export default function Stundenbuch() {
           )}
 
           {viewMode === "prayerText" &&
-            texts.swdCombined === 'o-1-0' && selectedHour === 'lesehore' && (
+            texts?.swd.combined === 'o-1-0' && selectedHour === 'lesehore' && (
               <MatutinDisplay
                 TitleBar={TitleBar}
                 NavigationButtons={NavigationButtons}
@@ -2117,7 +2117,7 @@ export default function Stundenbuch() {
             )}
 
           {viewMode === "prayerText" &&
-            !(texts.swdCombined === 'o-1-0' && selectedHour === 'lesehore') && (
+            !(texts?.swd.combined === 'o-1-0' && selectedHour === 'lesehore') && (
               <PrayerTextDisplay
                 hour={selectedHour}
                 texts={texts}

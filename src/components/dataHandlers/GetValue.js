@@ -1,7 +1,8 @@
 import { getExcludedHours } from "./ExcludedHours.js";
 import { sollemnitiesData } from "../data/Sollemnities.ts";
 
-export const getValue = ({ season, hour, texts, field,
+export const getValue = ({
+    season, hour, texts, field,
     prefSrc, prefSollemnity,
     localPrefKomplet, localPrefComm,
     localPrefPsalmsWt, localPrefErgPs,
@@ -12,8 +13,8 @@ export const getValue = ({ season, hour, texts, field,
     if (hour === 'komplet')
         return getKompletValue({ texts, field, localPrefKomplet, localPrefLanguage })
 
-    const { rank = { wt: 0, date: 0 },
-        swdCombined, dayOfWeek } = texts;
+    const { rank = { wt: 0, date: 0 }, dayOfWeek } = texts;
+    const swdCombined = texts?.swd?.combined || '';
     const languageField = field + localPrefLanguage
     const isForeignLanguage = localPrefLanguage.replace(/_neu|_ben/g, '')
     const allSouls = texts.dateCompare === '11-02'
@@ -94,10 +95,11 @@ export const getValue = ({ season, hour, texts, field,
 
     const checkAnt0 = `ant0${isForeignLanguage}`
     const hasAnt0 = field.startsWith('ant') &&
-        (texts[hour][prefSrc]?.[checkAnt0] ||
-            texts[hour][prefSrc]?.[`com${localPrefComm}`]?.[checkAnt0])
+        (texts[hour][prefSrc]?.[checkAnt0]
+            || texts[hour][prefSrc]?.[`com${localPrefComm}`]?.[checkAnt0]
+            || (prefSrc === 'oblig' && texts[hour].wt?.[checkAnt0]))
 
-    const hasEigFirstReading = !!texts.lesehore?.oblig?.les_text
+    const hasObligFirstReading = !!texts.lesehore?.oblig?.les_text
 
     //Aschermittwoch und Allerseelen: trotz Hochfest keine Fest-Psalmodie in den Laudes
     const psalm51 = hour === 'laudes' &&
@@ -198,7 +200,7 @@ export const getValue = ({ season, hour, texts, field,
         //Sonderfall Bahnlesung
         if (localPrefContinuous && hour === 'lesehore') {
             if (/^(patr_)/.test(field) ||
-                (/^(les_|resp)/.test(field) && (!localPrefComm || hasEigFirstReading)
+                (/^(les_|resp)/.test(field) && (!localPrefComm || hasObligFirstReading)
                 ))
                 return result(texts[hour]?.wt)
         }

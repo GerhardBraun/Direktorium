@@ -113,7 +113,7 @@ const MassReadings = ({
     let resp = 'Halleluja.',
         respWithRepeat = 'Halleluja. Halleluja.'
     if (texts?.season === 'q') {
-        if (texts?.swdCombined === 'q-6-0')
+        if (texts?.swd.combined === 'q-6-0')
             resp = 'Christus Sieger, Christus°König, Christus°Herr°in°Ewigkeit!'
         else {
             let index = Math.ceil(texts?.dayOfWeek / 2)

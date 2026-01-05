@@ -216,8 +216,8 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
     prefSrc = '', widthForHymns = false) => {
     if (!provText || provText === 'LEER' || provText === 'LEER_lat' || provText === '_lat') return null;
 
-    if (!provText || provText === 'LEER' || provText === 'LEER_lat' || provText === '_lat') return null;
-    const { season, swdCombined = '' } = texts;
+    const season = texts?.season || '';
+    const swdCombined = texts?.swd?.combined || '';
     const { nominativ, genitiv, vokativ, genitiv_lat, vokativ_lat } = texts?.laudes?.[prefSrc] || {};
 
     const useFootnoteList = localStorage.getItem('prefFootnotes') === 'true';
