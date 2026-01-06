@@ -384,7 +384,7 @@ export const calendarData: CalendarData = {
             "bitten_e_lat": "Salvatórem nostrum, qui hódie a magis adorátus est, magno cum gáudio venerémur, acclamántes:",
             "bitten_r_lat": "Lumen de lúmine, hunc diem illúmina.",
             "bitten_lat": "Christe, qui manifestátus es in carne,^qnos per verbum Dei et oratiónem sanctífica.^pChriste, qui iustificátus es in Spíritu,^qlíbera vitam nostram a spirítibus erróris.^pChriste, qui apparuísti ángelis,^qfac ut gáudium cæli in terra percipiámus.^pChriste, qui prædicátus es géntibus,^qáperi corda hóminum virtúte Spíritus Sancti.^pChriste, qui créditus es in mundo,^qcredéntium ómnium rénova fidem.^pChriste, qui assúmptus es in glória,^qaccénde in nobis desidérium regni tui.",
-            "les_text_lat": "Quam pulchri super montes pedes annuntiántis, prædicántis pacem, annuntiántis bonum, prædicántis salútem, dicéntis Sion: « Regnávit Deus tuus! ». Vox speculatórum tuórum: levavérunt vocem, simul exsultábunt, quia óculo ad óculum vidébunt, cum redíerit Dóminus ad Sion. Gaudéte et exsultáte simul, desérta Ierúsalem, quia consolátus est Dóminus pópulum suum, redémit Ierúsalem. Nudávit Dóminus bráchium sanctum suum in óculis ómnium géntium; et vidébunt omnes fines terræ salutáre Dei nostri."
+            "les_text_lat": "Quam pulchri super montes pedes annuntiántis, prædicántis pacem, annuntiántis bonum, prædicántis salútem, dicéntis Sion: «Regnávit Deus tuus!». Vox speculatórum tuórum: levavérunt vocem, simul exsultábunt, quia óculo ad óculum vidébunt, cum redíerit Dóminus ad Sion. Gaudéte et exsultáte simul, desérta Ierúsalem, quia consolátus est Dóminus pópulum suum, redémit Ierúsalem. Nudávit Dóminus bráchium sanctum suum in óculis ómnium géntium; et vidébunt omnes fines terræ salutáre Dei nostri."
           },
           "Terz": {
             "psalm1": 47.0,
@@ -12263,7 +12263,7 @@ export const calendarData: CalendarData = {
             "bitten_e_lat": "Dum Salvatórem nostrum celebrámus, qui ex María Vírgine nasci dignátus est, exorémus, dicéntes:",
             "bitten_r_lat": "Intercédat pro nobis mater tua, Dómine.",
             "bitten_lat": "O Sol iustítiæ, quem immaculáta Virgo ut lucens auróra præcéssit,^qtríbue ut in lúmine visitatiónis tuæ semper ambulémus.^pSalvátor mundi, qui redemptiónis tuæ virtúte ab omni peccáti labe matrem tuam præservásti,^qserva nos mundos a peccáto.^pRedémptor noster qui immaculátam Vírginem Maríam thálamum puríssimum habitatiónis tuæ et Spíritus Sancti fecísti sacrárium,^qnos templum tui Spíritus fac perénne.^pRex regum, qui matrem tuam, córpore et ánima tecum voluísti in cælum assúmptam,^qfac ut quæ sursum sunt semper cogitémus.",
-            "les_text_lat": "Et nunc hæc dicit Dóminus qui creávit te, Iacob, et formávit te, Israel: « Noli timére, quia redémi te et vocávi te nómine tuo; meus es tu »."
+            "les_text_lat": "Et nunc hæc dicit Dóminus qui creávit te, Iacob, et formávit te, Israel: «Noli timére, quia redémi te et vocávi te nómine tuo; meus es tu»."
           },
           "Terz": {
             "ant0": "Es lebe der Herr! Die Fülle seines Erbarmens hat er mir geschenkt.",
@@ -13091,7 +13091,7 @@ export const calendarData: CalendarData = {
           "Messe": {
             "ms_les_buch": "Apg",
             "ms_les_stelle": "20,17-18a.28-32.36",
-            "ms_les_motto": "Gebt acht auf euch und auf die ganze Herde, in der euch der Heilige Geist<br>zu Vorstehern bestellt hat, damit ihr als Hirten für die Kirche des Herrn sorgt",
+            "ms_les_motto": "Gebt acht auf euch und auf die ganze Herde, in der euch der Heilige Geist zu Vorstehern bestellt hat, damit ihr als Hirten für die Kirche des Herrn sorgt",
             "ms_les_text": "In jenen Tagen^l^EINZUGschickte Paulus von Milet aus jemand nach Ephesus^lund ließ die Ältesten der Gemeinde zu sich rufen.^pAls sie bei ihm eingetroffen waren, sagte er:^lGebt Acht auf euch^l^EINZUGund auf die ganze Herde,^l^EINZUGin der euch der Heilige Geist zu Vorstehern bestellt hat,^ldamit ihr als Hirten für die Kirche des Herrn sorgt,^l^EINZUGdie er sich durch sein eigenes Blut erworben hat!^lIch weiß:^l^EINZUGNach meinem Weggang^l^EINZUGwerden reißende Wölfe bei euch eindringen^l^EINZUGund die Herde nicht schonen.^lUnd selbst aus eurer Mitte werden Männer auftreten,^l^EINZUGdie mit ihren falschen Reden die Jünger auf ihre Seite ziehen.^pSeid also wachsam^lund denkt daran,^l^EINZUGdass ich drei Jahre lang Tag und Nacht nicht aufgehört habe,^l^EINZUGunter Tränen jeden Einzelnen zu ermahnen.^lUnd jetzt vertraue ich euch Gott und dem Wort seiner Gnade an,^l^EINZUGdas die Kraft hat, aufzubauen^l^EINZUGund das Erbe in der Gemeinschaft der Geheiligten zu verleihen.^pNach diesen Worten kniete er nieder^l^EINZUGund betete mit ihnen allen.",
             "ms_aps_stelle": "Ps 110,1-5",
             "ms_aps_kv": "Du bist Priester auf ewig^lnach der Ordnung Melchisedeks.",
@@ -13460,7 +13460,7 @@ export const calendarData: CalendarData = {
             "resp2_lat": "Ut non evacuétur crux Christi.",
             "resp3_lat": "Sed lóquimur Dei sapiéntiam in mystério.",
             "antev_lat": "Sapiéntiam eius enarrábunt gentes, et laudem eius enuntiábit ecclésia.",
-            "les_text_lat": "Non nosmetípsos prædicámus sed Iesum Christum Dóminum; nos autem servos vestros per Iesum. Quóniam Deus qui dixit: »De ténebris lux splendéscat«, ipse illúxit in córdibus nostris ad illuminatiónem sciéntiæ claritátis Dei in fácie Iesu Christi. Habémus autem thesáurum istum in vasis fictílibus, ut sublímitas sit virtútis Dei, et non ex nobis."
+            "les_text_lat": "Non nosmetípsos prædicámus sed Iesum Christum Dóminum; nos autem servos vestros per Iesum. Quóniam Deus qui dixit: «De ténebris lux splendéscat», ipse illúxit in córdibus nostris ad illuminatiónem sciéntiæ claritátis Dei in fácie Iesu Christi. Habémus autem thesáurum istum in vasis fictílibus, ut sublímitas sit virtútis Dei, et non ex nobis."
           },
           "Terz": {
             "hymn_1": 8204.3,

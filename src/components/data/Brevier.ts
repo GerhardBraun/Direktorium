@@ -4383,7 +4383,7 @@ export const brevierData = {
           "ant3_lat": "",
           "resp0_lat": "Ponam spíritum meum super eum.",
           "resp1_lat": "Et iudícium géntibus nuntiábit.",
-          "les_text_lat": "Dixit mihi Dóminus: « Parum est ut sis mihi servus ad suscitándas tribus Iacob et relíquias Israel reducéndas: dabo te in lucem géntium, ut sit salus mea usque ad extrémum terræ »."
+          "les_text_lat": "Dixit mihi Dóminus: «Parum est ut sis mihi servus ad suscitándas tribus Iacob et relíquias Israel reducéndas: dabo te in lucem géntium, ut sit salus mea usque ad extrémum terræ»."
         },
         "Vesper": {
           "hymn_1": 3229.0,
@@ -5895,7 +5895,7 @@ export const brevierData = {
           "bitten_e_lat": "Fratres, Christum regem, qui est ante ómnia et in quo ómnia constant, orémus clamántes:",
           "bitten_r_lat": "Advéniat regnum tuum, Dómine.",
           "bitten_lat": "Christe, rex et pastor noster, cóngrega oves tuas de cunctis terris,^qet pasce eas in páscuis tuis viréntibus et ubérrimis.^pDux noster et salvátor, ædífica omnes in pópulum tuum; sana infírmos, requíre depérditos, fortes custódi,^qlongínquos révoca, dispérsos cóngrega, diffidéntes érige.^pIudex ætérne, cum tradíderis regnum tuum Deo Patri, pone nos a dextris tuis,^qet fac ut possideámus regnum parátum nobis a constitutióne mundi.^pPrinceps pacis, díssipa arcus belli^qet lóquere pacem tuam géntibus.^pHeres ómnium géntium, cóngrega humanitátem cum ómnibus bonis eius in regnum Ecclésiæ tuæ, quod Pater dedit tibi,^qut te caput in unitáte Spíritus Sancti omnes agnóscant.^pChriste, primogénite ex mórtuis et primítiæ dormiéntium,^qadmítte defúnctos in glóriam resurrectiónis tuæ.",
-          "les_text_lat": "Opórtet Christum regnáre, donec ponat omnes inimícos sub pédibus eius. Novíssima autem inimíca destruétur mors; ómnia enim subiécit sub pédibus eius. Cum autem dicat: « Omnia subiécta sunt », sine dúbio præter eum, qui subiécit ei ómnia. Cum autem subiécta fúerint illi ómnia, tunc ipse Fílius subiéctus erit illi, qui sibi subiécit ómnia, ut sit Deus ómnia in ómnibus."
+          "les_text_lat": "Opórtet Christum regnáre, donec ponat omnes inimícos sub pédibus eius. Novíssima autem inimíca destruétur mors; ómnia enim subiécit sub pédibus eius. Cum autem dicat: «Omnia subiécta sunt», sine dúbio præter eum, qui subiécit ei ómnia. Cum autem subiécta fúerint illi ómnia, tunc ipse Fílius subiéctus erit illi, qui sibi subiécit ómnia, ut sit Deus ómnia in ómnibus."
         }
       },
       "each": {
@@ -12788,7 +12788,7 @@ export const brevierData = {
           "antev_lat": "Suscépit nos Dóminus púeros suos, recordátus misericórdiæ suæ.",
           "bitten_e_lat": "Dóminum Iesum, quem Pater propter delícta nostra trádidit et propter iustificatiónem nostram resúrgere vóluit, deprecémur dicéntes:",
           "bitten_r_lat": "Miserére pópuli tui, Dómine.",
-          "bitten_lat": "Exáudi, quǽsumus, Dómine, súpplicum preces et confiténtium tibi parce peccátis,^qut páriter nobis indulgéntiam tríbuas benígnus et pacem.^pQui per Apóstolum dixísti: « Ubi abundávit peccátum, superabundávit grátia »,^qmulta débita nostra lárgiter dimítte.^pMultum quidem peccávimus, Dómine, sed tuam confitémur misericórdiam infinítam:^qconvérte nos et convertémur.^pSalvum fac pópulum tuum, Dómine, a peccátis eius,^qet beneplácitum tibi sit in ipso.^pQui latróni, te salvatórem confiténti, paradísum aperuísti,^qnoli defúnctis nostris cæli cláudere portas.",
+          "bitten_lat": "Exáudi, quǽsumus, Dómine, súpplicum preces et confiténtium tibi parce peccátis,^qut páriter nobis indulgéntiam tríbuas benígnus et pacem.^pQui per Apóstolum dixísti: «Ubi abundávit peccátum, superabundávit grátia»,^qmulta débita nostra lárgiter dimítte.^pMultum quidem peccávimus, Dómine, sed tuam confitémur misericórdiam infinítam:^qconvérte nos et convertémur.^pSalvum fac pópulum tuum, Dómine, a peccátis eius,^qet beneplácitum tibi sit in ipso.^pQui latróni, te salvatórem confiténti, paradísum aperuísti,^qnoli defúnctis nostris cæli cláudere portas.",
           "les_text_lat": "Omne gáudium existimáte, fratres mei, cum in tentatiónibus váriis incidéritis, sciéntes quod probátio fídei vestræ patiéntiam operátur; patiéntia autem opus perféctum hábeat, ut sitis perfécti et íntegri, in nullo deficiéntes.",
           "oration_lat": "Dómine, sancte Pater, qui Christum Fílium tuum nostræ salútis prétium fíeri voluísti, da nobis ita vívere, ut, per societátem passiónum ipsíus, virtútem resurrectiónis cónsequi valeámus. Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
         }
@@ -13428,7 +13428,7 @@ export const brevierData = {
           "bitten_e_lat": "Ætérno Patri, cuius misericórdia in pópulum suum magnificáta est usque ad cælos, exsultántibus córdibus acclamémus:",
           "bitten_r_lat": "Læténtur omnes, qui sperant in te, Dómine.",
           "bitten_lat": "Dómine, qui misísti Fílium tuum non ut iúdicet mundum, sed ut salvétur mundus per ipsum^qda ut mors eius gloriósa in nobis fructum suum áfferat copiósum.^pQui sacerdótes tuos minístros Christi et tuórum constituísti mysteriórum dispensatóres,^qipsis concéde cor fidéle, sciéntiam et caritátem.^pQuos vocásti ad castitátem propter regnum cælórum,^qfac ut intemeráta fidelitáte Fílium tuum sequántur.^pQui hóminem ab inítio másculum et féminam creásti,^qomnes serva famílias in amóre sincéro.^pQui, per Christi oblatiónem, hóminum peccáta abstulísti,^qómnibus defúnctis remissiónem tríbue peccatórum.",
-          "les_text_lat": "In hoc cognóscimus quóniam nóvimus Christum: si mandáta eius servémus. Qui dicit: « Novi eum », et mandáta eius non servat, mendax est, et in isto véritas non est; qui autem servat verbum eius, vere in hoc cáritas Dei consummáta est. In hoc cognóscimus quóniam in ipso sumus. Qui dicit se in ipso manére, debet, sicut ille ambulávit, et ipse ambuláre.",
+          "les_text_lat": "In hoc cognóscimus quóniam nóvimus Christum: si mandáta eius servémus. Qui dicit: «Novi eum», et mandáta eius non servat, mendax est, et in isto véritas non est; qui autem servat verbum eius, vere in hoc cáritas Dei consummáta est. In hoc cognóscimus quóniam in ipso sumus. Qui dicit se in ipso manére, debet, sicut ille ambulávit, et ipse ambuláre.",
           "oration_lat": "Recordáre, Dómine, misericórdiæ tuæ, ut qui esuriéntes bonis cæléstibus implére dignáris, indigéntiæ nostræ tríbuas tuis abundáre divítiis. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum."
         }
       },
@@ -16064,7 +16064,7 @@ export const brevierData = {
           "les_stelle": "30,15ab.18",
           "les_text": "So spricht der Herr, der Heilige Israels: Nur in Umkehr und Ruhe liegt eure Rettung, nur Stille und Vertrauen verleihen euch Kraft. Der Herr wartet darauf, euch seine Gnade zu zeigen; er erhebt sich, um euch sein Erbarmen zu schenken. Denn der Herr ist ein Gott des Rechtes; wohl denen, die auf ihn warten.",
           "les_text_neu": "So spricht der GOTT, der Herr, der Heilige Israels: Durch Umkehr und Ruhe werdet ihr gerettet, im Stillhalten und Vertrauen liegt eure Kraft. Der HERR wartet darauf, euch gnädig zu sein, darum erhebt er sich, um sich eurer zu erbarmen. Denn der HERR ist ein Gott des Rechts; selig alle, die auf ihn warten.",
-          "les_text_lat": "Hæc dixit Dóminus Deus, Sanctus Israel: « In conversióne et quiéte salvi éritis; in siléntio et in spe erit fortitúdo vestra ». Proptérea exspéctat Dóminus, ut misereátur vestri, et ídeo exaltábitur parcens vobis, quia Deus iudícii Dóminus; beáti omnes, qui exspéctant eum."
+          "les_text_lat": "Hæc dixit Dóminus Deus, Sanctus Israel: «In conversióne et quiéte salvi éritis; in siléntio et in spe erit fortitúdo vestra». Proptérea exspéctat Dóminus, ut misereátur vestri, et ídeo exaltábitur parcens vobis, quia Deus iudícii Dóminus; beáti omnes, qui exspéctant eum."
         },
         "Non": {
           "les_buch": "›Dtn",

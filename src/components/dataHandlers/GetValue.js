@@ -98,6 +98,10 @@ export const getValue = ({
         (texts[hour][prefSrc]?.[checkAnt0]
             || texts[hour][prefSrc]?.[`com${localPrefComm}`]?.[checkAnt0]
             || (prefSrc === 'oblig' && texts[hour].wt?.[checkAnt0]))
+    const hasEigPs = field.startsWith('psalm') &&
+        (texts[hour][prefSrc]?.psalm1
+            || texts[hour][prefSrc]?.[`com${localPrefComm}`]?.psalm1
+            || (prefSrc === 'oblig' && texts[hour].wt?.psalm1))
 
     const hasObligFirstReading = !!texts.lesehore?.oblig?.les_text
 
@@ -133,7 +137,7 @@ export const getValue = ({
             || (isTSN && localPrefErgPs && !getExcludedHours(texts, localPrefErgPs, 'PSALMODIE').includes(hour))
             || (hour === 'laudes' && rank?.useFeastPsalms)
         )) {
-        if (!psalm51 && !hasAnt0) {
+        if (!psalm51 && !hasAnt0 && !hasEigPs) {
             const data = sollemnitiesData.soll?.[dayOfWeek]?.[hour]?.[languageField]
                 || sollemnitiesData.soll?.[dayOfWeek]?.[hour]?.[field]
                 || sollemnitiesData.soll.each?.[hour]?.[languageField]

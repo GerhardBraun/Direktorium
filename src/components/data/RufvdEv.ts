@@ -1,4 +1,4 @@
-// RufvdEv.ts - Automatisch generiert am 05.01.2026 22:09:26
+// RufvdEv.ts - Automatisch generiert am 06.01.2026 12:13:55
 // RufvdEv-Datenbank: ID -> { Stelle, Text }
 
 export const rufvdevData = {
@@ -164,7 +164,7 @@ export const rufvdevData = {
   },
   'Joh 1,14': {
     Stelle: 'Joh 1,14ab',
-    Text: 'Das Wort ist Fleisch geworden und hat unter uns gewohnt^lund wir haben seine Herrlichkeit geschaut.'
+    Text: 'Das Wort ist Fleisch geworden und hat unter uns gewohnt,^lund wir haben seine Herrlichkeit geschaut.'
   },
   'Joh 1,14.12': {
     Stelle: 'Joh 1,14a.12a',
