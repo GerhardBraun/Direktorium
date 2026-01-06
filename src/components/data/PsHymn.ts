@@ -4406,7 +4406,7 @@ export const psalmsData = {
   },
   3244: {
     0.0: {
-        "text": "Die Weisen schauen auf zum Stern^lund folgen gläubig seiner Spur,^lsie finden durch das Licht zum Licht,^lmit Gaben ehren sie das Kind.^pErkenne in den Gaben, Kind,^ldie Königszeichen deiner Macht^lund was des Vaters ew’ge Huld^ldir dreifach hat vorherbestimmt:^pDen König kündet an das Gold,^ldem Gott steigt auf des Weihrauchs Duft,^ldoch weist voraus auf Tod und Grab^lder Myrrhenkörner Bitterkeit.^pDer Vorzeit Väter schauten dich,^ldich kündet’ der Propheten Mund;^ldoch heut’ bezeugt der Vater selbst:^lDu bist der Erbe meines Reichs.^pIn dir, o°Kind, wird alles eins,^ldu bist das A und o°der Zeit,^ldu bist das Haupt der neuen Welt,^lin der die Schöpfung sich erfüllt.^pHerr Jesus, dir sei Ruhm und Preis,^lder du uns heut’ erschienen bist,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
+        "text": "Die Weisen schauen auf zum Stern^lund folgen gläubig seiner Spur,^lsie finden durch das Licht zum Licht,^lmit Gaben ehren sie das Kind.^pErkenne in den Gaben, Kind,^ldie Königszeichen deiner Macht^lund was des Vaters ew’ge Huld^ldir dreifach hat vorherbestimmt:^pDen König kündet an das Gold,^ldem Gott steigt auf des Weihrauchs Duft,^ldoch weist voraus auf Tod und Grab^lder Myrrhenkörner Bitterkeit.^pDer Vorzeit Väter schauten dich,^ldich kündet’ der Propheten Mund;^ldoch heut’ bezeugt der Vater selbst:^lDu bist der Erbe meines Reichs.^pIn dir, o°Kind, wird alles eins,^ldu bist das A und O°der Zeit,^ldu bist das Haupt der neuen Welt,^lin der die Schöpfung sich erfüllt.^pHerr Jesus, dir sei Ruhm und Preis,^lder du uns heut’ erschienen bist,^ldem Vater und dem Geist zugleich^ldurch alle Zeit und Ewigkeit. Amen."
       }
   },
   3249: {
