@@ -163,7 +163,7 @@ export const getValue = ({
     }
 
     // Prüfe, ob Commune übersprungen werden soll
-    let skipCommune = wtRankToCompare >= rank.date;
+    let skipCommune = wtRankToCompare > 0 && wtRankToCompare >= rank.date;
     if (rank.date < 3  // an Gedenktagen
         && ((hour === 'lesehore' && field !== 'oration') // Lesehore: nur Hymnus und Oration ggf. Commune
             || (['laudes', 'vesper'].includes(hour) && isPsalmodie) // Laudes/Vesper Psalmodie
