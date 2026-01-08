@@ -512,8 +512,8 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "Mann_Ord",
             "comm_2": "MärtSg",
-            "oration": "Allmächtiger Gott, du hast das Lebensopfer des heiligen Meinrad reich belohnt und seine Zelle (im „Finstern Wald“) zu einer Stätte des Segens gemacht. Gib, dass auch wir in der Stille über dein Wort nachsinnen und Frucht bringen in Werken der Liebe.^ORV",
-            "oration_lat": "comm:"
+            "oration": "Allmächtiger Gott, du hast das Lebensopfer des heiligen Meinrad reich belohnt und seine Zelle ^(im „Finstern Wald“^) zu einer Stätte des Segens gemacht. Gib, dass auch wir in der Stille über dein Wort nachsinnen und Frucht bringen in Werken der Liebe.^ORV",
+            "oration_lat": "Deus, cuius múnere beátus Meinrad Christum páuperem et húmilem perseverávit imitári, concéde nobis, ipso intercedénte, ut, in vocatióne nostra fidéliter ambulántes, ad eam perfectiónem, quam nobis in Fílio tuo proposuísti, pervenire valeámus.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Johannes Cassianus (†°um 430)",
@@ -782,7 +782,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "Hirten",
             "oration": "Gütiger Gott, du hast den Mönch Severin zu seinen Glaubensbrüdern gesandt, damit er in den Wirren der Zeit ihr Ratgeber und Führer sei. Mache auch uns bereit, Verantwortung zu tragen, und hilf uns, denen beizustehen, die in Not sind.^ORV",
-            "oration_lat": "comm:"
+            "oration_lat": "comm:Deus, qui in Ecclésia tua beátum Severínum suscitásti, ut próximis viam salútis et pacis monstráret, da nobis, eius exémplo, Christum magístrum ita sequi, ut ad te cum frátribus nostris perveníre valeámus.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Eugippius (†°nach 533)",
@@ -981,7 +981,7 @@ export const calendarData: CalendarData = {
             "comm_1": "Hirten",
             "comm_2": "Mann_Ord",
             "oration": "Gott, du hast deiner Kirche im heiligen Vinzenz Pallotti einen Priester erweckt, der sich ganz dafür einsetzte, dass der Glaube und die Liebe in ihr lebendig sei. Lass uns nach seinem Vorbild deine Wahrheit vor den Menschen zum Leuchten bringen und allen in geschwisterlicher Liebe begegnen.^ORV",
-            "oration_lat": "comm:"
+            "oration_lat": "comm:Deus, qui Ecclésiam tuam in dilectióne tuæ divinitátis et próximi cuncta serváre cæléstia mandáta docuísti, da nobis, ut beáti Vincéntii exémplo caritátis tuæ ópera exercéntes, inter benedíctos regni tui connumerári mereámur.^ORlV"
           },
           "Laudes": {
             "button": "Hl. Vinzenz Pallotti",
@@ -996,7 +996,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "Mann_Ord",
             "oration": "Gott, du Quell der Weisheit, du hast den seligen Heinrich Seuse in deine Nähe gerufen und ihn zu einem Leben der Buße ermutigt. Lass auch uns in der Nachfolge deines gekreuzigten Sohnes den Trost deiner Gegenwart erfahren.^ORV",
-            "oration_lat": "comm:"
+            "oration_lat": " comm:Da nobis, quǽsumus, Dómine, inter mundi huius varietátes toto corde rebus cæléstibus adhærére, qui per beátum Henrícum evangélicæ nobis perfectiónis documénta donásti.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Heinrich Seuse (†°1366)",
@@ -2543,7 +2543,7 @@ export const calendarData: CalendarData = {
             "comm_1": "Mann_Ord",
             "comm_2": "Hirten",
             "oration": "Herr, unser Gott, du hast den heiligen Fridolin als Glaubensboten in das Gebiet der Alemannen gesandt. Wir bitten dich: Erhalte das Werk, das er begonnen hat, und vollende es am Tag unseres Herrn Jesus Christus,^ORR",
-            "oration_lat": "comm:"
+            "oration_lat": "comm:Deus, cuius ineffábili misericórdia beátus Fridolínus evangelizávit investigábiles divítias Christi, da nos, eius intercessióne, créscere in sciéntia tua, et, in omni ópere bono fructificántes, secúndum Evangélii veritátem coram te fidéliter ambuláre.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Balther (†°10. Jh.)",
@@ -2670,7 +2670,7 @@ export const calendarData: CalendarData = {
             "comm_1": "MärtSg",
             "comm_2": "Hirten",
             "oration": "Herr, unser Gott, dein heiliger Märtyrer und Bischof Bruno hat für die Ausbreitung des Evangeliums sein Leben eingesetzt. Erhalte uns treu im Glauben, damit wir nicht verlieren, was du uns durch deine Boten geschenkt hast.^ORV",
-            "oration_lat": "comm:"
+            "oration_lat": "comm:Deus, qui beátum Brunónem epíscopum divína caritáte flagrántem, fidéque, quæ vincit mundum, insígnem, sanctis pastóribus mirabíliter aggregásti, præsta, quǽsumus, ut, ipso intercedénte, nos quoque, in fide et caritáte perseverántes, eius glóriæ consórtes fíeri mereámur.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Bruno von Querfurt (†°1009)",
