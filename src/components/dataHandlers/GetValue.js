@@ -288,7 +288,7 @@ const dataKomplet = {
         "resp1": "Herr, auf dich vertraue ich,",
         "resp2": "in deine Hände lege ich mein Leben.",
         "resp3": "Lass leuchten über deinem Knecht dein Antlitz, hilf mir in deiner Güte.",
-        "antev": "Sei unser Heil, o°Herr, wenn wir wachen, und unser Schutz, wenn wir schlafen, damit wir wachen mit Christus und ruhen in Frieden.^Ö",
+        "antev": "Sei unser Heil, o°Herr, wenn wir wachen, und unser Schutz, wenn wir schlafen, damit wir wachen mit Christus und ruhen in seinem Frieden.^Ö",
         "resp1_lat": "In manus tuas, Dómine,",
         "resp2_lat": "comméndo\u00a0spíritum\u00a0meum.",
         "resp3_lat": "Redemísti nos, Dómine Deus veritátis._lat",
