@@ -28,6 +28,13 @@ export const lectureAlternatives = {
         }]
     },
     //Lesejahr II
+    "j-1-0": {
+        second: [{
+            patr_autor: "Hugo Rahner († 1968)",
+            patr_werk: "Aus dem Buch „Maria und die Kirche“.",
+            patr_text: "^hHochzeit von Kana^pDas hochzeitliche Mysterium der Menschwerdung, mit welchem die Erlösung begann, wird von neuem offenbar im Beginn der messianischen Tätigkeit des Herrn, im ersten seiner die Gottheit bezeugenden Wunder; bei der Hochzeit von Kana.^pJohannes will, wo er davon in seinem Evangelium berichtet, keineswegs nur eben die vordergründige Begebenheit der bescheidenen Landhochzeit von Kana berichten, sondern bei ihm, dem tiefsten Evangelisten der messianischen Typologie, ist auch dies nur gleichsam der Schleier, hinter dem sich die Mysterien des Heils verbergen.^pDass das Wunder der Wandlung von Wasser in Wein auf die Bitte Marias hin geschieht, dass der Herr sie zunächst abzuweisen scheint mit dem Hinweis auf seine „Stunde“, die noch nicht gekommen sei, gibt uns einen Einblick in das, was geoffenbart werden sollte: Maria, die der Herr hier feierlich mit dem auf die Uroffenbarung am Rand des verlorenen Paradieses rückweisenden Wort „Frau“ anspricht, ist diejenige, die dann, wenn die „Stunde“ gekommen ist, das heißt, wenn der Herr sein erlösendes Leiden vollendet hat, ihr Amt als fürbittende Mutter aller Gläubigen antreten wird. Dann wird sie für immer die „Frau“ sein, die in Wahrheit die Mutter aller Lebendigen sein soll, die Eva des neuen Geschlechtes, die Gebärerin des Christusleibes, der den Sieg über den Bösen davonträgt.^pWenn es also von dieser Hochzeit in Kana heißt: „Und die Mutter Jesu war dabei“{1#vgl. Joh 2,2}, so will dies in den Tiefen der göttlich gemeinten letzten Bedeutung sagen: In der hochzeitlichen Gemeinschaft, für die der Gottmensch das Wasser der Menschennatur in den Wein der göttlichen Begnadigung umwandelt, in der Tischgemeinschaft Jesu durch alle Zeiten, also in der heiligen Kirche, ist Maria die Mutter. In ihr setzt sich das Mysterium der Menschwerdung fort, auf die mütterliche Bitte der Jungfrau Maria werden die Berufenen zu göttlich umgewandelten Tischgenossen Jesu.^pDer Syrer Ephräm singt darum einmal in einem seiner Hymnen auf die Mysterien des Herrn: „Kana soll dich loben. Denn du hast dieses Gastmahl froh gemacht. In der Braut hast du versinnbildlicht die heilige Kirche. In den Tischgenossen hast du deine Berufenen gemeint. Und in dem Triumph (dieses Wunders) hast du im voraus abgebildet deinen herrlichen Advent.“{2#@vgl. Ephräm°der°Syrer, Hymnus°de°mysteriis°Domini°34,1}"
+        }]
+    },
     "j-12-0": {
         second: [{
             patr_autor: "Meister Eckehart († vor 1328)",
@@ -365,6 +372,13 @@ export const lectureAlternatives = {
             { excludeYear: "b", les_stelle: "^Q:Lk 2,22-40", },
             { excludeYear: "b", les_stelle: "^Q:Lk 2,22.39-40", },
             { excludeYear: "c", les_stelle: "^Q:Lk 2,41-52", },
+        ],
+    },
+    "vigil-Taufe": {
+        first: [
+            { excludeYear: "a", les_stelle: "^Q:Mt 3,13-17", },
+            { excludeYear: "b", les_stelle: "^Q:Mk 1,7-11", },
+            { excludeYear: "c", les_stelle: "^Q:Lk 3,15-16.21-22", },
         ],
     },
     "vigil-Dreifaltigkeit": {
