@@ -20,7 +20,7 @@ export const getValue = ({
     const allSouls = texts.dateCompare === '11-02'
 
     // Weihnachtsoktav: Vesper im Rang eines Festes
-    const wtRankToCompare = (rank.wt === 2.4 && hour === 'vesper') ? 4 : rank.wt
+    const wtRankToCompare = hour === 'vesper' ? Math.ceil(rank.wt) : rank.wt
 
     if (['kirchw', 'verst'].includes(prefSollemnity)) {
         const data = sollemnitiesData[prefSollemnity]

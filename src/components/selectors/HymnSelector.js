@@ -91,11 +91,11 @@ const HymnSelector = ({ texts, hour, season,
         const rank = texts?.rank || { wt: 0, date: 0 };
 
         // Weihnachtsoktav: nur Vesper mit Vorrang vor Festen
-        const wtRankToCompare = (rank.wt === 2.4 && hour === 'vesper') ? 4 : rank.wt
+        const wtRankToCompare = hour === 'vesper' ? Math.ceil(rank.wt) : rank.wt
         const compareRanks =
             isErsteVesper
                 ? (rank?.nextWt || 0) > (rank?.nextDate || 0)
-                : wtRankToCompare > rank.date
+                : wtRankToCompare >= rank.date
 
         let useWt = (prefSollemnity
             && !(['terz', 'sext', 'non'].includes(hour)))
@@ -113,16 +113,17 @@ const HymnSelector = ({ texts, hour, season,
         }
 
         // Ermittle Commune-Sources nur wenn nötig
-        const communeSources =
-            ((!texts?.rank?.isCommemoration || prefSollemnity === 'soll') &&
-                !hasEigenHymn(texts[hour]?.[prefSrc])) // Geändert: Verwende hasEigenHymn
-                ? ['com1', 'com2']
-                    .filter(com =>
-                        texts[hour]?.[prefSrc]?.[com]?.hymn_1 || // Geändert
-                        texts[hour]?.[prefSrc]?.[com]?.hymn_2    // Geändert
-                    )
-                    .map(com => `${prefSrc}.${com}`)
-                : [];
+        const communeSources = (
+            (!texts?.rank?.isCommemoration || prefSollemnity === 'soll') &&
+            !hasEigenHymn(texts[hour]?.[prefSrc])
+        )
+            ? ['com1', 'com2']
+                .filter(com =>
+                    texts[hour]?.[prefSrc]?.[com]?.hymn_1 || // Geändert
+                    texts[hour]?.[prefSrc]?.[com]?.hymn_2    // Geändert
+                )
+                .map(com => `${prefSrc}.${com}`)
+            : [];
 
         // Füge die Sources in der richtigen Reihenfolge hinzu
         if (isHighRank) {

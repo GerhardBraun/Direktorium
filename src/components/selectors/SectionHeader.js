@@ -77,7 +77,7 @@ const SectionHeader = ({
                 : texts.laudes[prefSrc]?.com1?.button || '1';
         const nameComm2 = texts.laudes[prefSrc]?.com2?.button || '2';
 
-        const wtRankToCompare = (rank.wt === 2.4 && hour === 'vesper') ? 4 : rank.wt;
+        const wtRankToCompare = hour === 'vesper' ? Math.ceil(rank.wt) : rank.wt
         const showSources = wtRankToCompare === 0 || rank.date > wtRankToCompare;
 
         return {

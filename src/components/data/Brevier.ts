@@ -4258,7 +4258,7 @@ export const brevierData = {
           "oration_lat": "Omnípotens sempitérne Deus, qui Christum, in Iordáne flúmine baptizátum, Spíritu Sancto super eum descendénte, diléctum Fílium tuum sollémniter declarásti, concéde fíliis adoptiónis tuæ, ex aqua et Spíritu Sancto renátis, ut in beneplácito tuo iúgiter persevérent.^ORlV"
         },
         "Invitatorium": {
-          "ant0": "Christus, den geliebten Sohn, der dem Vater wohlgefällt; kommt, wir beten ihn an!",
+          "ant0": "Christus, den geliebten Sohn, der dem Vater wohlgefällt – kommt, wir beten ihn an!",
           "ant0_lat": "Christum, Fílium diléctum, in quo Pater sibi complácuit, veníte, adorémus."
         },
         "Lesehore": {
