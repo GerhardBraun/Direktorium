@@ -481,7 +481,7 @@ function processInvitatoriumPsalms(hours, prefInv = 100) {
             // Funktion zum Durchsuchen von Psalm-Einträgen
             const searchPsalmEntries = obj => {
                 ['psalm1', 'psalm2', 'psalm3'].forEach(psKey => {
-                    const psValue = obj[psKey];
+                    const psValue = obj?.[psKey];
                     if (psValue && searchPsalms.includes(psValue))
                         found.add(psValue);
                 });
@@ -492,7 +492,7 @@ function processInvitatoriumPsalms(hours, prefInv = 100) {
 
             // Durchsuche Commune-Unterverzeichnisse
             ['com1', 'com2'].forEach(commune => {
-                if (sources[commune]) {
+                if (sources?.[commune]) {
                     searchPsalmEntries(sources[commune]);
                 }
             });
@@ -728,9 +728,9 @@ export function processBrevierData(todayDate) {
     const kompletSettings = processKompletData(finalData, calendarDate);
     finalData.komplet = {
         wt: finalData.komplet.wt,
-        pers: finalData.komplet.pers,
+        pers: finalData.komplet?.pers || {},
         ...kompletSettings
-    };
+    }
 
     const dateCompare = `${todayMonth.toString().padStart(2, '0')}-${todayDay.toString().padStart(2, '0')}`;
     finalData.dateCompare = dateCompare;
