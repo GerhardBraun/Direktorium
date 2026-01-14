@@ -10720,7 +10720,7 @@ export const brevierData = {
           "ant3": "Er ist der Erstgeborene der ganzen Schöpfung, in allem hat er den Vorrang.",
           "les_buch": "›Jak",
           "les_stelle": "1,22.25",
-          "les_text": "Hört das Wort nicht nur an, sondern handelt danach; sonst betrügt ihr euch selbst. Wer sich aber in das vollkommene Gesetz der Freiheit vertieft und an ihm festhält, wer es nicht nur hört, um es wieder zu vergessen, sondern danach handelt, der wird durch sein Tun selig sein.",
+          "les_text": "Hört das Wort nicht nur an, sondern handelt danach; sonst betrügt ihr euch selbst. Wer sich in das vollkommene Gesetz der Freiheit vertieft und an ihm festhält, wer es nicht nur hört, um es wieder zu vergessen, sondern danach handelt, der wird durch sein Tun selig sein.",
           "les_text_neu": "Werdet Täter des Wortes und nicht nur Hörer, sonst betrügt ihr euch selbst! Wer sich in das vollkommene Gesetz der Freiheit vertieft und an ihm festhält, wer es nicht nur hört und es wieder vergisst, sondern zum Täter des Werkes geworden ist, wird selig sein in seinem Tun.",
           "resp1": "Herr, auf dich vertraue ich,",
           "resp2": "erlöse mich und sei mir gnädig.",
