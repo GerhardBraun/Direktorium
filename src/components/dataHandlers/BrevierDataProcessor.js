@@ -728,6 +728,7 @@ export function processBrevierData(todayDate) {
     const kompletSettings = processKompletData(finalData, calendarDate);
     finalData.komplet = {
         wt: finalData.komplet.wt,
+        pers: finalData.komplet.pers,
         ...kompletSettings
     };
 
