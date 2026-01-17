@@ -197,7 +197,7 @@ const MassReadings = ({
                             </div>
                             {ms_aps_kv && (
                                 <div className="mb-3">
-                                    {formatPrayerText(ms_aps_kv + kvRepeat + '^P', '', 'Kv°°')}
+                                    {formatPrayerText(ms_aps_kv + kvRepeat, '', 'Kv°°')}
                                     {ms_aps_kv.includes('^APSHALL') && (
                                         <div >
                                             <span className='text-rubric'>(
@@ -206,6 +206,7 @@ const MassReadings = ({
                                             {formatPrayerText('°Halleluja.^)')}
                                         </div>
                                     )}
+                                    {formatPrayerText('^P')}
                                 </div>
                             )}
                             {formatPrayerText(ms_aps_text + kvRepeat, '', 'Aps')}
