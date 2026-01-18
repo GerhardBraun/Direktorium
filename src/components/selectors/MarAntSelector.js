@@ -116,7 +116,7 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
     useEffect(() => {
         if (sortedAntiphons.length > 0 && !selectedAntSeason) {
             const defaultSeason = getDefaultAntiphonSeason;
-            console.log("Default Antiphon Season:", defaultSeason);
+            // console.log("Default Antiphon Season:", defaultSeason);
             // Suche die Antiphon für die berechnete Standardzeit
             const seasonalAnt = sortedAntiphons.find(ant => ant.season === defaultSeason);
 

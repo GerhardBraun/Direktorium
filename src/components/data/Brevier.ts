@@ -4428,7 +4428,7 @@ export const brevierData = {
           "oration_lat": "Omnípotens sempitérne Deus, qui cæléstia simul et terréna moderáris, supplicatiónes pópuli tui cleménter exáudi, et pacem tuam nostris concéde tempóribus.^ORlV"
         },
         "ErsteV": {
-          "anta": "Ich mache dich zum Licht für alle Völker; trage mein Heil bis an die Enden der Erde.",
+          "anta": "Ich mache dich zum Licht für alle Völker: Trage mein Heil bis an die Enden der Erde.",
           "antb": "Hier bin ich, Herr, du hast mich gerufen.",
           "antc": "Wie der Bräutigam sich freut über die Braut, so freut sich über dich dein Gott.",
           "oration": "Allmächtiger Gott, du gebietest über Himmel und Erde, du hast Macht über die Herzen der Menschen. Darum kommen wir voll Vertrauen zu dir; stärke alle, die sich um die Gerechtigkeit mühen, und schenke unserer Zeit deinen Frieden.^ORV",
@@ -4468,7 +4468,7 @@ export const brevierData = {
           "oration_lat": "Omnípotens sempitérne Deus, dírige actus nostros in beneplácito tuo, ut in nómine dilécti Fílii tui mereámur bonis opéribus abundáre.^ORlV"
         },
         "ErsteV": {
-          "anta": "Das Volk inmitten der Völker sieht ein helles Licht; für jene, die in Finsternis wohnen, strahlt ein Licht auf.",
+          "anta": "Das Volk inmitten der Völker sieht ein helles Licht; über denen, die in Finsternis wohnen, strahlt ein Licht auf.",
           "antb": "Das Wort des Herrn erging an Jona. Und Jona machte sich auf den Weg, wie der Herr ihm befahl.",
           "antc": "Esra schlug das Buch des Gesetzes auf und pries den Herrn, den großen Gott. Und das ganze Volk rief mit erhobenen Händen: Amen, amen!",
           "oration": "Allmächtiger, ewiger Gott, lenke unser Tun nach deinem Willen und gib, dass wir im Namen deines geliebten Sohnes reich werden an guten Werken.^ORvR",

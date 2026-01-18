@@ -97,12 +97,12 @@ export const getValue = ({
     const hasAnt0 = field.startsWith('ant') &&
         (texts[hour][prefSrc]?.[checkAnt0]
             || texts[hour][prefSrc]?.[`com${localPrefComm}`]?.[checkAnt0]
-            //       || (prefSrc === 'oblig' && texts[hour].wt?.[checkAnt0])
+            || (prefSrc === 'oblig' && !isTSN && texts[hour].wt?.[checkAnt0])
         )
     const hasEigPs = field.startsWith('psalm')
         && (texts[hour][prefSrc]?.psalm1
             || texts[hour][prefSrc]?.[`com${localPrefComm}`]?.psalm1
-            //     || (prefSrc === 'oblig' && texts[hour].wt?.psalm1)
+            || (prefSrc === 'oblig' && !isTSN && texts[hour].wt?.psalm1)
         )
 
     const hasObligFirstReading = !!texts.lesehore?.oblig?.les_text
