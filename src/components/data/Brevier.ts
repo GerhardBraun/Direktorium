@@ -4512,7 +4512,7 @@ export const brevierData = {
           "antb": "Einen Propheten will ich erwecken aus deinen Brüdern. Ich lege meine Worte in seinen Mund.",
           "antc": "Tritt vor sie hin und verkünde, was ich dir sage! Fürchte dich nicht vor ihnen, denn ich bin mit dir.",
           "oration": "Herr, unser Gott, du hast uns erschaffen, damit wir dich preisen. Gib, dass wir dich mit ungeteiltem Herzen anbeten und die Menschen lieben, wie du sie liebst.^ORV",
-          "anta_lat": "Dicit Dóminus: Pæniténtiam ágite: appropinquávit enim regnum cælórum.",
+          "anta_lat": "Cum vidísset Iesus turbas, ascéndit in montem; et accessérunt ad eum discípuli eius; et apériens os suum docébat eos, dicens: Beáti páuperes spíritu, quóniam ipsórum est regnum cælórum.",
           "antb_lat": "Stupébant omnes super doctrína Iesu; erat enim docens eos tamquam potestátem habens.",
           "antc_lat": "Mirabántur omnes in verbis grátiæ quæ procedébant de ore Iesu.",
           "oration_lat": "Concéde nobis, Dómine Deus noster, ut te tota mente venerémur, et omnes hómines rationábili diligámus afféctu.^ORlV"
@@ -4521,7 +4521,7 @@ export const brevierData = {
           "anta": "Als Jesus die vielen Menschen sah, stieg er auf einen Berg. Dann begann er zu reden und lehrte sie.",
           "antb": "Jesus von Nazaret, ich weiß, wer du bist: Du bist der Heilige Gottes.",
           "antc": "Alle staunten über die Worte, die aus seinem Munde kamen.",
-          "anta_lat": "Ambulans iuxta mare Galilǽæ vidit duos fratres, mitténtes retes in mare, et vocávit eos. Illi autem contínuo, relíctis rétibus, secúti sunt eum.",
+          "anta_lat": "Beáti mundo corde, quóniam ipsi Deum vidébunt, dicit Dóminus.",
           "antb_lat": "Conquirébant inter se dicéntes: Quidnam est hoc? Doctrína nova cum potestáte; et spirítibus immúndis ímperat et obœ́diunt ei.",
           "antc_lat": "Amen dico vobis: Nemo prophéta accéptus est in pátria sua."
         },
@@ -4529,7 +4529,7 @@ export const brevierData = {
           "anta": "Selig, die arm sind vor Gott; denn ihnen gehört das Himmelreich.",
           "antb": "Alle staunten über seine Lehre; denn er lehrte wie einer, der Macht hat.",
           "antc": "Die Leute von Nazaret trieben Jesus zur Stadt hinaus und zerrten ihn an den Abhang des Berges. Er aber schritt durch die Menge hindurch und ging weg.",
-          "anta_lat": "Prædicábat Iesus Evangélium regni, et sanábat omnem infirmitátem in pópulo.",
+          "anta_lat": "Beáti pacífici, quóniam fílii Dei vocabúntur, dicit Dóminus.",
           "antb_lat": "Miráti sunt omnes, et procéssit rumor eius statim ubíque in omnem regiónem Galilǽæ.",
           "antc_lat": "Eiecérunt Iesum extra civitátem, ut præcipitárent eum. Ipse autem tránsiens per médium illórum ibat."
         }
@@ -4552,7 +4552,7 @@ export const brevierData = {
           "antb": "Wie das Schiffchen des Webers eilen meine Tage dahin. Gedenke, Herr, mein Leben ist nur ein Hauch.",
           "antc": "Ich hörte die Stimme des Herrn: Wen soll ich senden? Und ich sprach: Hier bin ich, sende mich!",
           "oration": "Gott, unser Vater, wir sind dein Eigentum und setzen unsere Hoffnung allein auf deine Gnade. Bleibe uns nahe in jeder Not und Gefahr und schütze uns.^ORV",
-          "anta_lat": "Cum vidísset Iesus turbas, ascéndit in montem; et accessérunt ad eum discípuli eius; et apériens os suum docébat eos, dicens: Beáti páuperes spíritu, quóniam ipsórum est regnum cælórum.",
+          "anta_lat": "Vos estis sal terræ: quod si sal evanúerit, in quo saliétur? dicit Dóminus discípulis suis.",
           "antb_lat": "Véspere autem facto, afferébant ad eum omnes male habéntes, et curávit multos qui vexabántur váriis languóribus.",
           "antc_lat": "Ascéndens Iesus in navim, et sedens, docébat turbas.",
           "oration_lat": "Famíliam tuam, quǽsumus, Dómine, contínua pietáte custódi, ut, quæ in sola spe grátiæ cæléstis innititur, tua semper protectióne muniátur.^ORlV"
@@ -4561,7 +4561,7 @@ export const brevierData = {
           "anta": "Ihr seid das Licht der Welt. Euer Licht soll vor den Menschen leuchten, damit sie eure guten Taten sehen und euren Vater im Himmel preisen.",
           "antb": "In der Frühe, als es noch dunkel war, stand Jesus auf und ging an einen einsamen Ort, um zu beten.",
           "antc": "Meister, wir haben uns die ganze Nacht abgemüht und nichts gefangen. Doch auf dein Wort hin werfe ich das Netz noch einmal aus.",
-          "anta_lat": "Beáti mundo corde, quóniam ipsi Deum vidébunt, dicit Dóminus.",
+          "anta_lat": "Vos estis lux mundi: lúceat lux vestra coram homínibus, ut vídeant ópera vestra bona et gloríficent Patrem vestrum, qui in cælis est.",
           "antb_lat": "Dilúculo valde surgens, egréssus Iesus ábiit in desértum locum, ibíque orábat.",
           "antc_lat": "Præcéptor, per totam noctem laborántes nihil cépimus; in verbo autem tuo laxábo rete."
         },
@@ -4569,7 +4569,7 @@ export const brevierData = {
           "anta": "Jesus sprach zu seinen Jüngern: Ihr seid das Salz der Erde, ihr seid das Licht der Welt.",
           "antb": "Am Abend brachte man die Kranken zu Jesus. Und er heilte viele.",
           "antc": "Sie zogen die Boote ans Land, ließen alles zurück und folgten Jesus nach.",
-          "anta_lat": "Beáti pacífici, quóniam fílii Dei vocabúntur, dicit Dóminus.",
+          "anta_lat": "Lúceat lux vestra sicut lucérna, quæ pónitur super candelábrum, ut lúceat ómnibus, qui in domo sunt.",
           "antb_lat": "Simon et qui cum illo erant dicébant: Omnes quærunt te! Et ait illis: Eámus álibi ut et ibi prǽdicem: ad hoc enim veni.",
           "antc_lat": "Exi a me, quia homo peccátor sum, dixit Petrus ad Iesum. Noli timére, ex hoc iam hómines eris cápiens."
         }
@@ -4592,7 +4592,7 @@ export const brevierData = {
           "antb": "Ob ihr esst oder trinkt oder was immer ihr tut: tut alles zur Verherrlichung Gottes.",
           "antc": "Selig der Mann, der auf den Herrn vertraut und dessen Hoffnung der Herr ist.",
           "oration": "Gott, du liebst deine Geschöpfe, und es ist deine Freude, bei den Menschen zu wohnen. Gib uns ein neues und reines Herz, das bereit ist, dich aufzunehmen.^ORV",
-          "anta_lat": "Vos estis sal terræ: quod si sal evanúerit, in quo saliétur? dicit Dóminus discípulis suis.",
+          "anta_lat": "Qui fécerit et docúerit, hic magnus vocábitur in regno cælórum, dicit Dóminus.",
           "antb_lat": "Dómine, si vis, potes me mundáre. Et ait Iesus: Volo, mundáre.",
           "antc_lat": "Beáti páuperes, quia vestrum est regnum Dei. Beáti, qui nunc esurítis, quia saturabímini.",
           "oration_lat": "Deus, qui te in rectis et sincéris mánere pectóribus asséris, da nobis tua grátia tales exsístere, in quibus habitáre dignéris.^ORlV"
@@ -4601,7 +4601,7 @@ export const brevierData = {
           "anta": "Versöhne dich zuerst mit deinem Bruder; dann komm und opfere deine Gabe.",
           "antb": "Jesus streckte die Hand aus und berührte den Kranken. Und der Aussatz wich von ihm.",
           "antc": "Selig, die ihr jetzt hungert, denn ihr werdet gesättigt; selig, die ihr jetzt weint, denn ihr werdet lachen.",
-          "anta_lat": "Vos estis lux mundi: lúceat lux vestra coram homínibus, ut vídeant ópera vestra bona et gloríficent Patrem vestrum, qui in cælis est.",
+          "anta_lat": "Nisi abundáverit iustítia vestra plus quam scribárum et pharisæórum, non intrábitis in regnum cælórum.",
           "antb_lat": "Iesus misértus exténdens manum suam tétigit leprósum, et statim discéssit ab eo lepra, et mundátus est.",
           "antc_lat": "Beáti qui nunc fletis, quia ridébitis, dicit Dóminus."
         },
@@ -4609,7 +4609,7 @@ export const brevierData = {
           "anta": "Wenn eure Gerechtigkeit nicht noch viel größer ist als die der Schriftgelehrten und der Pharisäer, so werdet ihr nicht in das Himmelreich kommen.",
           "antb": "Herr, wenn du willst, kannst du mich heilen. Und Jesus sagte: Ich will es – werde rein!",
           "antc": "Jesus richtete die Augen auf seine Jünger und sagte: Selig, ihr Armen, denn euch gehört das Reich Gottes.",
-          "anta_lat": "Lúceat lux vestra sicut lucérna, quæ pónitur super candelábrum, ut lúceat ómnibus, qui in domo sunt.",
+          "anta_lat": "Si offers munus tuum ante altáre et recordátus fúeris quia frater tuus habet áliquid advérsus te, relínque ibi munus tuum ante altáre et vade prius reconciliári fratri tuo; et tunc véniens offer munus tuum.^Lö",
           "antb_lat": "Vide némini quidquam díxeris, sed vade, osténde te sacerdóti, in testimónium illis. At ille egréssus cœpit pradicáre multum et diffamáre sermóne.",
           "antc_lat": "Beáti éritis, cum vos óderint hómines propter Fílium hóminis: gaudéte et exsultáte, ecce enim merces vestra multa est in cælo."
         }
