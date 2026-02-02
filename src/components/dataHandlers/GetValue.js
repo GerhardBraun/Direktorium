@@ -102,7 +102,7 @@ export const getValue = ({
     const hasEigPs = field.startsWith('psalm')
         && (texts[hour][prefSrc]?.psalm1
             || texts[hour][prefSrc]?.[`com${localPrefComm}`]?.psalm1
-            || (prefSrc === 'oblig' && !isTSN && texts[hour].wt?.psalm1)
+            //    || (prefSrc === 'oblig' && !isTSN && texts[hour].wt?.psalm1)
         )
 
     const hasObligFirstReading = !!texts.lesehore?.oblig?.les_text
@@ -139,6 +139,7 @@ export const getValue = ({
             || (isTSN && localPrefErgPs && !getExcludedHours(texts, localPrefErgPs, 'PSALMODIE').includes(hour))
             || (hour === 'laudes' && rank?.useFeastPsalms)
         )) {
+        console.log('ErgPs abfragen: ', field, hour, localPrefErgPs, isSollemnity, isTSN, rank);
         if (!psalm51 && !hasAnt0 && !hasEigPs) {
             const data = sollemnitiesData.soll?.[dayOfWeek]?.[hour]?.[languageField]
                 || sollemnitiesData.soll?.[dayOfWeek]?.[hour]?.[field]
