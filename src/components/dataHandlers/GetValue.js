@@ -139,7 +139,6 @@ export const getValue = ({
             || (isTSN && localPrefErgPs && !getExcludedHours(texts, localPrefErgPs, 'PSALMODIE').includes(hour))
             || (hour === 'laudes' && rank?.useFeastPsalms)
         )) {
-        console.log('ErgPs abfragen: ', field, hour, localPrefErgPs, isSollemnity, isTSN, rank);
         if (!psalm51 && !hasAnt0 && !hasEigPs) {
             const data = sollemnitiesData.soll?.[dayOfWeek]?.[hour]?.[languageField]
                 || sollemnitiesData.soll?.[dayOfWeek]?.[hour]?.[field]
