@@ -187,7 +187,7 @@ export const getValue = ({
     let prefCommTexts = '';
     if (!skipCommune) {
         if (localPrefComm === 1
-            //    || (isSollemnity && localPrefComm === 0)  // auskommentiert: auch an Hochfesten soll Wt-Auswahl möglich sein
+            || (prefSollemnity && localPrefComm === 0)
         )
             prefCommTexts = prefTexts?.com1
         if (localPrefComm === 2)
