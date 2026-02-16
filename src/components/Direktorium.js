@@ -1972,7 +1972,7 @@ export default function Stundenbuch() {
       >
         {/* Navigation Bar */}
         <div
-          className="sticky top-0 left-0 right-0 w-full sm:max-w-[40em] bg-white dark:bg-gray-900 shadow-sm z-10 transition-colors"
+          className="sticky top-0 left-0 right-0 w-full sm:max-w-[48em] bg-white dark:bg-gray-900 shadow-sm z-10 transition-colors"
           style={navStyle}
           role="navigation"
         >
