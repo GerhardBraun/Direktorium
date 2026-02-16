@@ -16,6 +16,9 @@ interface LectureABCEntry {
   ms_ev_stelle?: string;
   ms_ev_motto?: string;
   ms_ev_text?: string;
+  patr_autor?: string;
+  patr_werk?: string;
+  patr_text?: string;
 }
 
 interface LectureABCData {
@@ -1542,6 +1545,21 @@ export const lectureABCData = {
             "ms_ev_stelle": "5,17-37",
             "ms_ev_motto": "Zu den Alten ist gesagt worden – ich aber sage euch",
             "ms_ev_text": "In jener Zeit sprach Jesus zu seinen Jüngern:^lDenkt nicht,^l^EINZUGich sei gekommen,^l^EINZUGum das Gesetz und die Propheten aufzuheben!^lIch bin nicht gekommen, um aufzuheben,^l^EINZUGsondern um zu erfüllen.^lAmen, ich sage euch:^lBis Himmel und Erde vergehen,^l^EINZUGwird kein Jota und kein Häkchen des Gesetzes vergehen,^l^EINZUGbevor nicht alles geschehen ist.^pWer auch nur eines von den kleinsten Geboten aufhebt^l^EINZUGund die Menschen entsprechend lehrt,^l^EINZUGder wird im Himmelreich der Kleinste sein.^lWer sie aber hält und halten lehrt,^l^EINZUGder wird groß sein im Himmelreich.^pDarum sage ich euch:^lWenn eure Gerechtigkeit nicht weit größer ist^l^EINZUGals die der Schriftgelehrten und der Pharisäer,^l^EINZUGwerdet ihr nicht in das Himmelreich kommen.^pIhr habt gehört,^l^EINZUGdass zu den Alten gesagt worden ist: Du sollst nicht töten;^lwer aber jemanden tötet,^l^EINZUGsoll dem Gericht verfallen sein.^lIch aber sage euch:^l^EINZUGJeder, der seinem Bruder auch nur zürnt,^l^EINZUGsoll dem Gericht verfallen sein;^lund wer zu seinem Bruder sagt: Du Dummkopf!,^l^EINZUGsoll dem Spruch des Hohen Rates verfallen sein;^lwer aber zu ihm sagt: Du Narr!,^l^EINZUGsoll dem Feuer der Hölle verfallen sein.^pWenn du deine Opfergabe zum Altar bringst^l^EINZUGund dir dabei einfällt, dass dein Bruder etwas gegen dich hat,^l^EINZUGso lass deine Gabe dort vor dem Altar liegen;^lgeh und versöhne dich zuerst mit deinem Bruder,^ldann komm^l^EINZUGund opfere deine Gabe!^pSchließ ohne Zögern Frieden mit deinem Gegner,^l^EINZUGsolange du mit ihm noch auf dem Weg zum Gericht bist!^lSonst wird dich dein Gegner vor den Richter bringen^lund der Richter wird dich dem Gerichtsdiener übergeben^lund du wirst ins Gefängnis geworfen.^lAmen, ich sage dir:^l^EINZUGDu kommst von dort nicht heraus,^l^EINZUGbis du den letzten Pfennig bezahlt hast.^pIhr habt gehört,^l^EINZUGdass gesagt worden ist: Du sollst nicht die Ehe brechen.^lIch aber sage euch:^l^EINZUGJeder, der eine Frau ansieht, um sie zu begehren,^l^EINZUGhat in seinem Herzen schon Ehebruch mit ihr begangen.^pWenn dich dein rechtes Auge zum Bösen verführt,^l^EINZUGdann reiß es aus und wirf es weg!^lDenn es ist besser für dich,^l^EINZUGdass eines deiner Glieder verloren geht,^l^EINZUGals dass dein ganzer Leib in die Hölle geworfen wird.^lUnd wenn dich deine rechte Hand zum Bösen verführt,^l^EINZUGdann hau sie ab und wirf sie weg!^lDenn es ist besser für dich,^l^EINZUGdass eines deiner Glieder verloren geht,^l^EINZUGals dass dein ganzer Leib in die Hölle kommt.^pFerner ist gesagt worden: Wer seine Frau aus der Ehe entlässt,^l^EINZUGmuss ihr eine Scheidungsurkunde geben.^lIch aber sage euch:^l^EINZUGWer seine Frau entlässt,^l^EINZUGobwohl kein Fall von Unzucht vorliegt,^l^EINZUGliefert sie dem Ehebruch aus;^lund wer eine Frau heiratet, die aus der Ehe entlassen worden ist,^l^EINZUGbegeht Ehebruch.^pIhr habt gehört,^l^EINZUGdass zu den Alten gesagt worden ist:^l^EINZUGDu sollst keinen Meineid schwören,^lund: Du sollst halten, was du dem Herrn geschworen hast.^lIch aber sage euch: Schwört überhaupt nicht,^lweder beim Himmel,^l^EINZUGdenn er ist Gottes Thron,^lnoch bei der Erde,^l^EINZUGdenn sie ist der Schemel seiner Füße,^lnoch bei Jerusalem,^l^EINZUGdenn es ist die Stadt des großen Königs!^lAuch bei deinem Haupt sollst du nicht schwören;^ldenn du kannst kein einziges Haar weiß oder schwarz machen.^pEure Rede sei: Ja^l^EINZUGja,^lnein^l^EINZUGnein;^lwas darüber hinausgeht, stammt vom Bösen."
+          },
+          "erstev": {
+            "patr_autor": "Origenes",
+            "patr_werk": "Homilie",
+            "patr_text": "^h^pzusätzliche Väter-Lesung zur Ersten Vesper"
+          },
+          "terz": {
+            "patr_autor": "Origenes",
+            "patr_werk": "Homilie",
+            "patr_text": "^h^pzusätzliche Väter-Lesung zur Kleinen Hore"
+          },
+          "vesper": {
+            "patr_autor": "Origenes",
+            "patr_werk": "Homilie",
+            "patr_text": "^h^pzusätzliche Väter-Lesung zur Zweiten Vesper"
           }
         },
         "b": {

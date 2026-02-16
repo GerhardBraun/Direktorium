@@ -4585,7 +4585,7 @@ export const brevierData = {
       "0": {
         "each": {
           "oration": "Gott, du liebst deine Geschöpfe, und es ist deine Freude, bei den Menschen zu wohnen. Gib uns ein neues und reines Herz, das bereit ist, dich aufzunehmen.^ORV",
-          "oration_lat": "Deus, qui te in rectis et sincéris mánere pectóribus asséris, da nobis tua grátia tales exsístere, in quibus habitáre dignéris.^ORlV"
+          "oration_lat": "Deus, qui te in rectis et sincéris manére pectóribus asséris, da nobis tua grátia tales exsístere, in quibus habitáre dignéris.^ORlV"
         },
         "ErsteV": {
           "anta": "Gottes Augen schauen auf das Tun der Menschen, er kennt all ihre Taten.",
@@ -4595,7 +4595,7 @@ export const brevierData = {
           "anta_lat": "Qui fécerit et docúerit, hic magnus vocábitur in regno cælórum, dicit Dóminus.",
           "antb_lat": "Dómine, si vis, potes me mundáre. Et ait Iesus: Volo, mundáre.",
           "antc_lat": "Beáti páuperes, quia vestrum est regnum Dei. Beáti, qui nunc esurítis, quia saturabímini.",
-          "oration_lat": "Deus, qui te in rectis et sincéris mánere pectóribus asséris, da nobis tua grátia tales exsístere, in quibus habitáre dignéris.^ORlV"
+          "oration_lat": "Deus, qui te in rectis et sincéris manére pectóribus asséris, da nobis tua grátia tales exsístere, in quibus habitáre dignéris.^ORlV"
         },
         "Laudes": {
           "anta": "Versöhne dich zuerst mit deinem Bruder; dann komm und opfere deine Gabe.",
@@ -4617,7 +4617,7 @@ export const brevierData = {
       "each": {
         "Lesehore": {
           "oration": "Gott, du liebst deine Geschöpfe, und es ist deine Freude, bei den Menschen zu wohnen. Gib uns ein neues und reines Herz, das bereit ist, dich aufzunehmen.^ORV",
-          "oration_lat": "Deus, qui te in rectis et sincéris mánere pectóribus asséris, da nobis tua grátia tales exsístere, in quibus habitáre dignéris.^ORlV"
+          "oration_lat": "Deus, qui te in rectis et sincéris manére pectóribus asséris, da nobis tua grátia tales exsístere, in quibus habitáre dignéris.^ORlV"
         }
       }
     },

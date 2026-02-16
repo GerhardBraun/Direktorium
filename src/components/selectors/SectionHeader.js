@@ -188,7 +188,7 @@ const SectionHeader = ({
 
     // Sprachwahl-Button anzeigen?
     let showLanguageToggle = !languages.includes('aus');
-    if (title === 'VERSIKEL'
+    if (title === 'VERSIKEL' || title === 'VÄTERLESUNG'
         || (hour === 'invitatorium' && title === 'PSALMODIE')
         || (hour === 'lesehore' && /^(les_|resp|patr_)/.test(field))
         || (isTSN && title === 'ORATION')

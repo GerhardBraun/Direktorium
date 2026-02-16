@@ -15,6 +15,7 @@ const LectureSelector = ({
     ComposeResponse,
     advResp = ''
 }) => {
+    const mariendonk = localStorage.getItem('mariendonk') === 'true'
 
     // State für beide Lesungen - jetzt mit Index 0+ für Alternativen
     const [selectedLecture, setSelectedLecture] = useState({
@@ -533,6 +534,27 @@ const LectureSelector = ({
                 </div>
             )}
 
+            {/* VÄTERLESUNG AUS MARIENDONK */}
+            {hasSecondLecture && !['lesehore', 'vigil'].includes(hour)
+                && mariendonk && (
+                    <div className="mb-0">
+                        <SectionHeader
+                            title="VÄTERLESUNG"
+                            field="patr_text"
+                            askContinuous={true}
+                        />
+
+                        <div>
+                            <div className="text-[0.9em] italic">
+                                {formatPrayerText(selected("patr_autor"))}
+                            </div>
+                            {formatPrayerText(selected("patr_werk"))}
+                            {formatPrayerText(selected("patr_text"))}
+                        </div>
+                    </div>
+                )}
+
+
             {/* RESPONSORIUM zur ersten Lesung */}
             {selected("resp1") && (
                 <div className="mb-0 whitespace-pre-wrap">
@@ -555,7 +577,7 @@ const LectureSelector = ({
             )}
 
             {/* ZWEITE LESUNG */}
-            {hasSecondLecture && (
+            {hasSecondLecture && ['lesehore', 'vigil'].includes(hour) && (
                 <div className="mb-0">
                     <SectionHeader
                         title="ZWEITE LESUNG"

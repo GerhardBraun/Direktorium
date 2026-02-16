@@ -1445,6 +1445,37 @@ export default function Stundenbuch() {
       }
     };
 
+    // Funktion für Rechtsklick auf Einstellungen-Button
+    const handleMariendonk = (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+
+      const currentValue = localStorage.getItem("mariendonk");
+
+      // Wenn der Wert bereits "true" oder "false" ist, umschalten
+      if (currentValue === "true") {
+        localStorage.setItem("mariendonk", "false");
+        return;
+      } else if (currentValue === "false") {
+        localStorage.setItem("mariendonk", "true");
+        return;
+      }
+
+      // Ansonsten Passwort abfragen
+      let password;
+      do {
+        password = prompt("Passwort für Admin-Einstellungen?");
+        if (password === null) {
+          // Benutzer hat abgebrochen
+          return;
+        }
+        if (password === "mariendonk") {
+          localStorage.setItem("mariendonk", "true");
+          return;
+        }
+      } while (password !== "mariendonk");
+    };
+
     // Modified click outside handler
     useEffect(() => {
       const handleClickOutside = (event) => {
@@ -1825,6 +1856,7 @@ export default function Stundenbuch() {
                   setViewMode("settings");
                   toggleMenu();
                 }}
+                onContextMenu={handleMariendonk}
                 className="w-full px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300
             rounded bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700"
               >

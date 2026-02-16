@@ -404,7 +404,9 @@ function processTerzPsalms(hours) {
     const psalmFields = [
         'psalm1', 'psalm2', 'psalm3',
         'ant1', 'ant2', 'ant3',
-        'ant1_lat', 'ant2_lat', 'ant3_lat'];
+        'ant1_lat', 'ant2_lat', 'ant3_lat',
+        'patr_autor', 'patr_werk', 'patr_text'
+    ];
 
     // Finde alle vorhandenen Sources durch Inspektion der Terz
     const sources = hours.terz ? Object.keys(hours.terz) : [];
