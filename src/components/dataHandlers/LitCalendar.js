@@ -133,6 +133,8 @@ function calculateRanks(date, season, week, dayOfWeek, swdCombined, afterPenteco
         // nur Feste und Hochfeste haben eine Vigil
         if (calculateRankWt() < 3 && calculateRankDate() < 3)
             return false;
+        // Aschermittwoch trotz Rang 5 keine Vigil
+        if (swdCombined === 'q-0-3') return false;
         // in der Karwoche trotz Rang 5 nur Palmsonntag, Karfreitag und Karsamstag
         if (swdCombined.startsWith('q-6-') && (dayOfWeek + 2) % 7 > 2)
             return false;
