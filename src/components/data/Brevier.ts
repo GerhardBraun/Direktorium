@@ -8942,6 +8942,10 @@ export const brevierData = {
           "ant3_lat": "Vidérunt ingréssus tuos, Deus, ingréssus Dei mei, regis mei in sancta.^Lö"
         },
         "Vigil": {
+          "psalm1": 199.117,
+          "psalm2": 199.122,
+          "psalm3": 199.123,
+          "ant0": "Ich gehe hin, euch eine Wohnung zu bereiten, ich komme wieder, und euer Herz wird sich freuen.^ö",
           "les_buch": "^A:vigil-Himmelfahrt:",
           "les_text": "LEER"
         },
@@ -9120,6 +9124,7 @@ export const brevierData = {
           "ant3_lat": ""
         },
         "Vigil": {
+          "ant0": "Ich gehe hin, euch eine Wohnung zu bereiten, ich komme wieder, und euer Herz wird sich freuen.^ö",
           "les_stelle": "^Q:Joh 20,19-31"
         },
         "Laudes": {
@@ -9608,6 +9613,12 @@ export const brevierData = {
           "bitten_r_lat": "",
           "bitten_lat": "",
           "les_text_lat": ""
+        },
+        "Vigil": {
+          "psalm1": 199.117,
+          "psalm2": 199.122,
+          "psalm3": 199.123,
+          "ant0": "Der Herr ist vom Tod erstanden. Durch das Kreuz kam Freude in die ganze Welt.^ö"
         }
       },
       "1": {
@@ -9941,13 +9952,6 @@ export const brevierData = {
           "hymn_3": 3413.0,
           "hymn_1_lat": 0.0
         },
-        "Vigil": {
-          "psalm1": 199.117,
-          "psalm2": 199.122,
-          "psalm3": 199.123,
-          "ant0": "Der Herr ist vom Tod erstanden. Durch das Kreuz kam Freude in die ganze Welt.^ö",
-          "ant0_lat": "Veníte, omnes, adorémus eum qui de morte resurréxit; ídeo venit per crucem gáudium in orbem terræ.^Lö"
-        },
         "Laudes": {
           "hymn_1": 3421.0,
           "hymn_2": 3422.0,
@@ -10019,6 +10023,9 @@ export const brevierData = {
           "resp1_lat": "Gavísi sunt discípuli.",
           "resp2_lat": "Allelúia,°allelúia.",
           "resp3_lat": "Viso Dómino."
+        },
+        "Vigil": {
+          "ant0_lat": "Veníte, omnes, adorémus eum qui de morte resurréxit; ídeo venit per crucem gáudium in orbem terræ.^Lö"
         },
         "Komplet": {
           "hymn_1_lat": 2500.3
@@ -10179,10 +10186,6 @@ export const brevierData = {
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0
         },
-        "Vigil": {
-          "ant0": "Ich gehe hin, euch eine Wohnung zu bereiten, ich komme wieder, und euer Herz wird sich freuen.^ö",
-          "ant0_lat": "Vado paráre vobis locum, et íterum véniam ad vos, et gaudébit cor vestrum.^Lö"
-        },
         "Laudes": {
           "hymn_1": 3424.0,
           "hymn_2": 0.0,
@@ -10202,6 +10205,9 @@ export const brevierData = {
           "resp1_lat": "Spíritus Paráclitus,",
           "resp2_lat": "allelúia,°allelúia.",
           "resp3_lat": "Docébit vos ómnia."
+        },
+        "Vigil": {
+          "ant0_lat": "Vado paráre vobis locum, et íterum véniam ad vos, et gaudébit cor vestrum.^Lö"
         }
       }
     }
@@ -15647,6 +15653,9 @@ export const brevierData = {
           "ant3_lat": ""
         },
         "Vigil": {
+          "psalm1": 185.0,
+          "psalm2": 196.0,
+          "psalm3": 199.121,
           "ant0": "Aus der geöffneten Seite des Herrn floss Blut und Wasser heraus, uns zur Rettung und zum Heil.",
           "les_buch": "^A:vigil-Karfreitag:",
           "les_text": "LEER",
@@ -15796,6 +15805,9 @@ export const brevierData = {
           "ant3_lat": ""
         },
         "Vigil": {
+          "psalm1": 185.0,
+          "psalm2": 196.0,
+          "psalm3": 199.121,
           "ant0": "Aus der Tiefe der Totenwelt schrie ich zum Herrn, und er hörte mein Rufen.",
           "les_buch": "^A:vigil-Karsamstag:",
           "les_text": "LEER",
@@ -16090,6 +16102,13 @@ export const brevierData = {
           "bitten_r_lat": "Propítius esto, Dómine, pópulo tuo.",
           "bitten_lat": "Audi, miséricors Deus, supplicatiónes, quas pro cuncto pópulo tuo deférimus,^qut desíderet se tuo pótius verbo quam cibo satiáre corpóreo.^pDoce nos gentem nostram et cunctos hómines sine discrímine vere et efficáciter amáre,^qeósque in pace et bono semper ædificáre.^pRéspice omnes per baptísmum regenerándos,^qut domum spiritálem, tamquam lápides vivi, tibi constítuant.^pQui, per Ionam prædicántem, Ninivítas ad pæniténtiam excitásti,^qverbo tuo peccatórum corda convérte propítius.^pTríbue moriéntibus in spe Christo iúdici occúrrere,^qtuíque aspéctu in ætérnum gaudére.",
           "les_text_lat": "Hi, qui in stádio currunt, omnes quidem currunt, sed unus áccipit bravíum. Sic cúrrite, ut comprehendátis. Omnis autem, qui in agóne conténdit, ab ómnibus se ábstinet, et illi quidem, ut corruptíbilem corónam accípiant, nos autem incorrúptam."
+        },
+        "Vigil": {
+          "psalm1": 185.0,
+          "psalm2": 196.0,
+          "psalm3": 199.121,
+          "ant0": "Wende unser Herz zu dir, damit wir uns bekehren; erneuere unsere Tage.",
+          "ant0_lat": "Convérte nos, Dómine, ad te, et convertémur; ínnova dies nostros sicut a princípio."
         }
       },
       "1": {
@@ -16416,13 +16435,6 @@ export const brevierData = {
           "hymn_2": 3312.0,
           "hymn_1_lat": 3311.1,
           "hymn_2_lat": 0.0
-        },
-        "Vigil": {
-          "psalm1": 185.0,
-          "psalm2": 196.0,
-          "psalm3": 199.121,
-          "ant0": "Wende unser Herz zu dir, damit wir uns bekehren; erneuere unsere Tage.",
-          "ant0_lat": "Convérte nos, Dómine, ad te, et convertémur; ínnova dies nostros sicut a princípio."
         },
         "Laudes": {
           "hymn_1": 3321.0,
