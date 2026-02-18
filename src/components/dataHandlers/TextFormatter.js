@@ -152,7 +152,7 @@ export const formatPsalm = (psalmRef, num, localPrefLanguage = '') => {
             {title && <div className="text-[0.9em] text-gray-400 mb-[0.66em]">{title}</div>}
             {quote && <div className="text-[0.9em] leading-[1.1em] italic text-gray-400 -mt-[0.66em] mb-[0.66em]">{formatQuote(quote)}</div>}
             {text && <div className="whitespace-pre-wrap">{formatPrayerText(text, localPrefLanguage)}</div>}
-            {![151, 160].includes(number) &&
+            {(![151, 160].includes(number) || (number === 151 && localPrefLanguage === "_lat")) &&
                 <div className="whitespace-pre-wrap">{formatPrayerText(doxology, localPrefLanguage)}</div>}
         </div>
     );

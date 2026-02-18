@@ -4695,9 +4695,15 @@ export const psalmsData = {
     2.0: {
         "text_lat": "Certum tenéntes órdinem,^lpio poscámus péctore^lhora diéi tértia^ltrinæ virtútis glóriam,^pUt simus habitáculum^lilli Sancto Spirítui,^lqui quondam in apóstolis^lhac hora distribútus est.^pHoc gradiénte órdine,^lornávit cuncta spléndide^lregni cæléstis cónditor^lad nostr>a ætérna prǽmia.^pDeo Patri sit glória^leiúsque soli Fílio^lcum Spíritu Paráclito,^lin sempitérna sǽcula. Amen."
       },
-    3.0: {},
-    4.0: {},
-    5.0: {},
+    3.0: {
+        "text_lat": "Dei fide, qua vívimus,^lqua spe perénni crédimus,^lper caritátis grátiam^lChristi canámus glóriam,^pqui ductus hora tértia^lad passiónis hóstiam,^lcrucis ferens suspéndia^lovem redúxit pérditam.^pPrecémur ergo súbditi,^lredemptióne líberi,^lut éruat a sǽculo^lquos solvit a chirógrapho.^pChristum rogámus et Patrem,^lChristi Patrísque Spíritum;^lunum potens per ómnia,^lfove precántes, Trínitas. Amen."
+      },
+    4.0: {
+        "text_lat": "Celsæ salútis gáudia^lmundus fidélis iúbilet:^lIesus, redémptor ómnium,^lmortis perémit príncipem.^pPalm>æ et olívæ súrculos^lcœtus viándo déferens,^l« Hosánna David fílio »^lclaris frequéntat vócibus.^pNos ergo summo príncipi^lcurrámus omnes óbviam;^lmelos canéntes glóriæ,^lpalmas gerámus gáudii.^pCursúsque nostros lúbricos^ldonis beátis súblevet,^lgrates ut omni témpore^lipsi ferámus débitas.^pDeo Patri sit glória^leiúsque soli Fílio^lcum Spíritu Paráclito^lin sempitérna sǽcula. Amen."
+      },
+    5.0: {
+        "text_lat": "Salva, Redémptor,^/plasma tuum nóbile,^lsignátum sancto^/vultus tui lúmine,^lne lacerári^/sinas fraude dǽmonum,^lpropter quod mortis^/exsolvísti prétium.^pDole captívos^/esse tuos sérvulos,^labsólve reos,^/compedítos érige,^let quos cruóre^/redemísti próprio,^lrex bone, tecum^/fac gaudére pérpetim. Amen."
+      },
     6.0: {
         "text_lat": "Iam surgit hora tértia,^lqua Christus ascéndit crucem;^lnil ínsolens mens cógitet,^linténdat afféctum precis.^pQui corde Christum súscipit,^linnóxium sensum gerit^lvotísque præstat sédulis^lSanctum meréri Spíritum.^pHæc hora, quæ finem dedit^ldiri vetérno críminis;^lhinc iam beáta témpora^lcœpére Christi grátia.^pIesu, tibi sit glória,^lqui morte victa prǽnites,^lcum Patr>e et almo Spíritu,^lin sempitérna sǽcula. Amen."
       }
@@ -4709,11 +4715,15 @@ export const psalmsData = {
     2.0: {
         "text_lat": "Dicámus laudes Dómino^lfervénte prompti spíritu;^lhora volúta séxies^lnos ad orándum próvocat.^pIn hac enim fidélibus^lveræ salútis glória,^lbeáti Agni hóstia,^lcrucis virtúte rédditur.^pCuius luce claríssima^ltenébricat merídies;^lsumámus toto péctore^ltanti splendóris grátiam.^pDeo Patri sit glória^leiúsque soli Fílio^lcum Spíritu Paráclito,^lin sempitérna sǽcula. Amen."
       },
-    3.0: {},
+    3.0: {
+        "text_lat": "Qua Christus hora sítiit^lcrucem vel in qua súbiit,^lquos præstat in hac psállere^lditet siti iustítiæ.^pSimul sit his esúries,^lquam ipse de se sátiet,^lcrimen sit ut fastídium^lvirtúsque desidérium.^pCharísma Sancti Spíritus^lsic ínfluat psalléntibus,^lut carnis æstus frígeat^let mentis algor férveat.^pChristum rogámus et Patrem,^lChristi Patrísque Spíritum;^lunum potens per ómnia,^lfove precántes, Trínitas. Amen."
+      },
     4.0: {
         "title": "Celsae salutis gaudia"
       },
-    5.0: {},
+    5.0: {
+        "text_lat": "Crux, mundi benedíctio,^lspes cértaque redémptio,^lolim gehénnæ báiula,^lnunc clara cæli iánua,^pin te levátur hóstia^lad se qui traxit ómnia,^lquam mundi princeps ímpetit^lsuúmque nihil ínvenit.^pPatri, tibi, Paráclito^lsit æqua, Iesu, glória,^lqui nos crucis victória^lconcédis usque pérfrui. Amen."
+      },
     6.0: {
         "text_lat": "Veníte, servi, súpplices,^let ment>e et or>e extóllite^ldignis beátum láudibus^lnomen Dei cum cántico.^pHoc namque tempus illud est,^lquo sæculórum iúdicem^liniústa morti trádidit^lmortálium senténtia.^pEt nos amóre débito,^ltimóre iusto súbditi,^ladvérsus omnes ímpetus^lquos sævus hostis íncutit,^pUnum rogémus et Patrem^lDeum regémque Fílium^lsimúlque Sanctum Spíritum,^lin Trinitáte Dóminum. Amen."
       }
@@ -4725,11 +4735,13 @@ export const psalmsData = {
     2.0: {
         "text_lat": "Ternis horárum términis^lvolútis, dante Dómino,^ltrinum perféct>e et únicum^lipsum devóti psállimus.^pSacrum Dei mystérium^lpuro tenéntes péctore,^lPetri magístri régula^lsigno salútis pródita,^pEt nos psallámus spíritu,^lhæréntes sic apóstolis,^lut plantas adhuc débiles^lChristi virtúte dírigant.^pDeo Patri sit glória^leiúsque soli Fílio^lcum Spíritu Paráclito,^lin sempitérna sǽcula. Amen."
       },
-    3.0: {},
-    4.0: {
-        "text_lat": "Celsæ salútis gáudia^lmundus fidélis iúbilet:^lIesus, redémptor ómnium,^lmortis perémit príncipem.^pPalm>æ et olívæ súrculos^lcœtus viándo déferens,^l« Hosánna David fílio »^lclaris frequéntat vócibus.^pNos ergo summo príncipi^lcurrámus omnes óbviam;^lmelos canéntes glóriæ,^lpalmas gerámus gáudii.^pCursúsque nostros lúbricos^ldonis beátis súblevet,^lgrates ut omni témpore^lipsi ferámus débitas.^pDeo Patri sit glória^leiúsque soli Fílio^lcum Spíritu Paráclito^lin sempitérna sǽcula. Amen."
+    3.0: {
+        "text_lat": "Ternis ter horis númerus^lnobis sacrátus pánditur,^lsanctóque Iesu nómine^lmunus precémur véniæ.^pLatrónis, en, conféssio^lChristi merétur grátiam;^llaus nostra vel devótio^lmercétur indulgéntiam.^pMors per crucem nunc ínterit^let post tenébras lux redit;^lhorror dehíscat críminum,^lsplendor nitéscat méntium.^pChristum rogámus et Patrem,^lChristi Patrísque Spíritum;^lunum potens per ómnia,^lfove precántes, Trínitas. Amen."
       },
-    5.0: {},
+    4.0: {},
+    5.0: {
+        "text_lat": "Per crucem, Christe, quǽsumus,^lad vitæ transfer prǽmium^lquos ligni fixus stípite^ldignátus es redímere.^pTuæ legis artículus^lvetus cassat chirógraphum;^lantíqua perit sérvitus,^lvera libértas rédditur.^pPatri, tibi, Paráclito^lsit æqua, Iesu, glória,^lqui nos crucis victória^lconcédis usque pérfrui. Amen."
+      },
     6.0: {
         "text_lat": "Hæc hora, quæ resplénduit^lcrucísque solvit núbila,^lmundum tenébris éxuens,^lreddens seréna lúmina.^pHæc hora, qua resúscitans^lIesus sepúlcris córpora,^lprodíre mortis líbera^liussit refúso spíritu.^pNováta sæcla crédimus^lmortis solútis légibus,^lvitæ beátæ múnera^lcursum perénnem cúrrere.^pIesu, tibi sit glória,^lqui morte victa prǽnites,^lcum Patr>e et almo Spíritu,^lin sempitérna sǽcula. Amen."
       }

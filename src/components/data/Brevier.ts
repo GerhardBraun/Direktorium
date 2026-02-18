@@ -15336,13 +15336,14 @@ export const brevierData = {
           "les_buch": "›2°Kor",
           "les_stelle": "4,10–11",
           "les_text": "Immer tragen wir das Todesleiden Jesu an unserem Leib, damit auch das Leben Jesu an unserem Leib sichtbar wird. Denn immer werden wir, obgleich wir leben, um Jesu willen dem Tod ausgeliefert, damit auch das Leben Jesu an unserem sterblichen Fleisch offenbar wird.",
+          "hymn_1_lat": 4003.4,
           "les_text_lat": ""
         },
         "Sext": {
           "les_buch": "›1°Petr",
           "les_stelle": "4,13–14",
           "les_text": "Freut euch, dass ihr Anteil an den Leiden Christi habt; denn so könnt ihr auch bei der Offenbarung seiner Herrlichkeit voll Freude jubeln. Wenn ihr wegen des Namens Christi beschimpft werdet, seid ihr seligzupreisen; denn der Geist der Herrlichkeit, der Geist Gottes, ruht auf euch.",
-          "hymn_1_lat": 4006.4,
+          "hymn_1_lat": 4003.4,
           "les_text_lat": ""
         },
         "Non": {
@@ -15350,6 +15351,7 @@ export const brevierData = {
           "les_stelle": "5,10–11",
           "les_text": "Der Gott aller Gnade, der euch in (der Gemeinschaft mit) Christus zu seiner ewigen Herrlichkeit berufen hat, wird euch, die ihr kurze Zeit leiden müsst, wieder aufrichten, stärken, kräftigen und auf festen Grund stellen. Sein ist die Macht in Ewigkeit. Amen.",
           "les_text_neu": "Der Gott aller Gnade, der euch in Christus zu seiner ewigen Herrlichkeit berufen hat, wird euch, die ihr kurze Zeit leiden müsst, wieder aufrichten, stärken, kräftigen und auf festen Grund stellen. Sein ist die Macht in Ewigkeit. Amen.",
+          "hymn_1_lat": 4003.4,
           "les_text_lat": ""
         },
         "Vesper": {

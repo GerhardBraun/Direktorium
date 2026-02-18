@@ -258,6 +258,9 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         if (rank_date > 1 && rank_date > rank_wt)
             processCalendar(hours, yearABC, season, calendarMonth, calendarDay);
 
+        if (rank_date === 2 && isCommemoration)
+            processCalendar(hours, yearABC, season, calendarMonth, calendarDay, 'n1');
+
         // An Allerseelen auch am Sonntag die Messlesungen
         if (calendarMonth === 11 && calendarDay === 2 && dayOfWeek === 0)
             processReadings(hours, yearABC, calendarMonth, calendarDay);
