@@ -1,6 +1,7 @@
 import React, { useMemo, useState } from 'react';
 import { getValue } from '../dataHandlers/GetValue.js';
 import { getExcludedHours } from '../dataHandlers/ExcludedHours.js';
+import { setLocalStorage } from '../utils/PersonalSettings.js';
 
 const SectionHeader = ({
     title,
@@ -19,13 +20,15 @@ const SectionHeader = ({
     localPrefInv,
     localPrefLatin,
     localPrefLanguage,
+    localPrefLongform,
     setLocalPrefLatin,
     setLocalPrefLanguage,
     setLocalPrefInv,
     setLocalPrefPsalmsWt,
     setLocalPrefErgPs,
     setLocalPrefContinuous,
-    setLocalPrefComm
+    setLocalPrefComm,
+    setLocalPrefLongform
 }) => {
     const [pressTimer, setPressTimer] = useState(null);
     const rank = texts?.rank || { wt: 0, date: 0 };
@@ -228,7 +231,7 @@ const SectionHeader = ({
         skipCommune = true;
 
     // einfacher Header ohne Buttons
-    if (["VERSIKEL", "RESPONSORIUM"].includes(title) ||
+    if (["VERSIKEL"].includes(title) ||
         (!invPsalms && !showSources && !showLanguageToggle
             && !showPsalmsWt && !showContinuous && !showTSN && !showErgPs)) {
         return <h2 className="prayer-heading">{getTitle()}</h2>;
@@ -282,6 +285,23 @@ const SectionHeader = ({
                         {label(1)}
                     </button>
                     {")"}
+                </ButtonGroup>
+            )}
+            {["RESPONSORIUM", "BITTEN"].includes(title) && (
+                <ButtonGroup>
+                    <button
+                        onClick={() => { setLocalPrefLongform(false); setLocalStorage('prefLongform', 'false'); }}
+                        className={!localPrefLongform ? 'underline' : ''}
+                    >
+                        kurz
+                    </button>
+                    {" | "}
+                    <button
+                        onClick={() => { setLocalPrefLongform(true); setLocalStorage('prefLongform', 'true'); }}
+                        className={localPrefLongform ? 'underline' : ''}
+                    >
+                        lang
+                    </button>
                 </ButtonGroup>
             )}
             {showPsalmsWt && (

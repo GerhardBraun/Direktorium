@@ -223,6 +223,13 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
     const useFootnoteList = localStorage.getItem('prefFootnotes') === 'true';
     const useCommemoration = (marker === 'commemoration' && texts?.rank?.isCommemoration === true)
     const isAps = marker === 'Aps';
+    let insertResponse = '';
+    if (marker.startsWith('^R:')) {
+        insertResponse = marker
+            .replace('^R:', '')
+            .replace(/^›|\^<|_lat|_neu|_ben|\^SLICE|\^APSHALL/g, '');
+        marker = '';
+    }
 
     const replaceRESP = (text) => {
         const easterAntiphons = {
@@ -608,6 +615,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
                     }
 
                     const processedContent = processInlineFormats(originalContent);
+                    const indent = insertResponse ? 'w-[1.1em]' : 'w-[0.8em]';
 
                     switch (format) {
                         case 'P':
@@ -624,10 +632,17 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
                             );
                         case 'q':
                             return (
-                                <div key={index} className="whitespace-pre-wrap flex -mt-[0.75em] mb-[0.75em]">
-                                    <span className="w-[0.8em] flex-shrink-0">–</span>
-                                    <div>{processedContent}</div>
-                                </div>
+                                <Fragment key={index}>
+                                    <div className="whitespace-pre-wrap flex -mt-[0.75em] mb-[0.75em]">
+                                        <span className={`${indent} flex-shrink-0`}>–</span>                                        <div>{processedContent}</div>
+                                    </div>
+                                    {insertResponse && (
+                                        <div className=" -mt-[0.75em] mb-[0.75em] flex  gap-0">
+                                            <span className={`${indent} text-rubric`}>R</span>
+                                            <div>{processInlineFormats(insertResponse)}</div>
+                                        </div>
+                                    )}
+                                </Fragment>
                             );
                         case 'x':
                             return (

@@ -35,7 +35,7 @@ import { UserMessageDisplay } from "./data/UserMessageDisplay.js";
 import { MassReadings } from "./ui/MassReadings.js";
 import ScrollableViews, { setScrollDate } from "./ui/ScrollableViews.js";
 
-const fontFamily = "Cambria, serif";
+const fontFamily = "cambria, serif";
 const hangingIndent = "3.2em"; // Variable für den Einzug
 const deceasedSizeRatio = 0.9;
 const DAYS_BUFFER = 7; // Anzahl der Tage vor/nach dem ausgewählten Datum
@@ -381,6 +381,7 @@ const PrayerTextDisplay = ({
   const [localPrefInv, setLocalPrefInv] = useState(texts?.invitatorium?.prefInv || 95);
   const [localPrefErgPs, setLocalPrefErgPs] = useState(false);
   const [localPrefKomplet, setLocalPrefKomplet] = useState(texts?.komplet?.prefKomplet || "wt");
+  const [localPrefLongform, setLocalPrefLongform] = useState(localStorage.getItem('prefLongform') === 'true');
   const [showKomplet, setShowKomplet] = useState(true);
 
   useEffect(() => {
@@ -449,6 +450,7 @@ const PrayerTextDisplay = ({
         localPrefInv={localPrefInv}
         localPrefLatin={localPrefLatin}
         localPrefLanguage={localPrefLanguage}
+        localPrefLongform={localPrefLongform}
         setLocalPrefLatin={setLocalPrefLatin}
         setLocalPrefLanguage={setLocalPrefLanguage}
         setLocalPrefInv={setLocalPrefInv}
@@ -456,6 +458,7 @@ const PrayerTextDisplay = ({
         setLocalPrefErgPs={setLocalPrefErgPs}
         setLocalPrefContinuous={setLocalPrefContinuous}
         setLocalPrefComm={setLocalPrefComm}
+        setLocalPrefLongform={setLocalPrefLongform}
       />
     );
   };
@@ -479,6 +482,10 @@ const PrayerTextDisplay = ({
 
   const ComposeResponse = ({ resp0, resp1, resp2, resp3 }) => {
     if (resp2 && !resp2.includes('°')) resp2 = resp2.replace(/ /, '°');
+
+    const doxology = resp3?.endsWith("_lat")
+      ? 'Glória Patri et Fílio et\u00a0Spirítui\u00a0Sancto.'
+      : 'Ehre sei dem Vater und\u00a0dem\u00a0Sohn und\u00a0dem\u00a0Heiligen\u00a0Geist.'
 
     const formatSecondResponse = (firstResp, secondResp) => {
       if (!firstResp || !secondResp) return secondResp;
@@ -543,17 +550,42 @@ const PrayerTextDisplay = ({
               <Rubric>V&nbsp;&nbsp;</Rubric>
               <div>
                 {formatPrayerText(resp3)}
-                <Rubric> *&nbsp;</Rubric>
-                {formatPrayerText(formatSecondResponse(resp3, processedResp2))}
+                {(hour === "lesehore" || !localPrefLongform) && (
+                  <><Rubric> *&nbsp;</Rubric>
+                    {formatPrayerText(formatSecondResponse(resp3, processedResp2))}
+                  </>
+                )}
               </div>
             </div>
-            {hour !== "lesehore" && (
-              <div>
-                {resp3.endsWith("_lat")
-                  ? 'Glória Patri et Fílio et\u00a0Spirítui\u00a0Sancto.'
-                  : 'Ehre sei dem Vater und\u00a0dem\u00a0Sohn und\u00a0dem\u00a0Heiligen\u00a0Geist.'}
-                <Rubric> –&#8288;&#160;R</Rubric>
+            {hour !== "lesehore" && localPrefLongform && (
+              <div className="mb-0 flex gap-0">
+                <Rubric>R&nbsp;&nbsp;</Rubric>
+                <div>{formatPrayerText(formatSecondResponse(resp3, processedResp2))}</div>
               </div>
+            )}
+            {hour !== "lesehore" && (
+              !localPrefLongform
+                ? <div>
+                  {doxology}
+                  <Rubric> –&#8288;&#160;R</Rubric>
+                </div>
+                : <>
+                  <div className="flex gap-0">
+                    <Rubric>V&nbsp;&nbsp;</Rubric>
+                    <div>
+                      {doxology}
+                    </div>
+                  </div>
+                  {resp1 && resp2 && (
+                    <div className="mb-0 flex gap-0">
+                      <Rubric>R&nbsp;&nbsp;</Rubric>
+                      <div>
+                        {formatPrayerText(processedResp1 + " ")}
+                        {formatPrayerText(processedResp2)}
+                      </div>
+                    </div>
+                  )}
+                </>
             )}
           </>
         )}
@@ -859,8 +891,7 @@ const PrayerTextDisplay = ({
             )}
             {getValue("bitten") && (
               <div className="mb-[-0.75em]">
-                {formatPrayerText(getValue("bitten"))}
-              </div>
+                {formatPrayerText(getValue("bitten"), localPrefLongform ? "^R:" + getValue("bitten_r") : '')}              </div>
             )}
           </div>
         )}
