@@ -16027,7 +16027,7 @@ export const brevierData = {
           "les_text_neu": "Als Mitarbeiter Gottes ermahnen wir euch, dass ihr seine Gnade nicht vergebens empfangt. Denn es heißt: „Zur Zeit der Gnade habe ich dich erhört, am Tag der Rettung habe ich dir geholfen“. Siehe, jetzt ist sie da, die Zeit der Gnade; siehe, jetzt ist er da, der Tag der Rettung. Niemandem geben wir auch nur den geringsten Anstoß, damit unser Dienst nicht verhöhnt werden kann. In allem empfehlen wir uns als Gottes Diener.",
           "resp1": "Wir haben gegen dich gesündigt,",
           "resp2": "Herr, sei uns gnädig, erbarme dich unser.",
-          "resp3": "Erhöre, Christe, unser Rufen und Flehen.",
+          "resp3": "Erhöre, Christus, unser Rufen und Flehen.",
           "bitten_e": "Lasst uns beten zu Gott, dem Vater, der allen seinen Geist gibt, die ihn darum bitten:",
           "bitten_r": "Herr, sende deinen Geist.",
           "bitten": "Bewahre deine Kirche in der Lehre der Apostel;^qerfülle die Bischöfe mit den Gaben des Heiligen Geistes.^pStärke die Einheit deiner Kirche;^qfestige in den Gemeinden das Band der Liebe.^pGib, dass deine Gläubigen den alten Menschen ablegen;^qlass sie den neuen Menschen anziehen in Gerechtigkeit und Heiligkeit.^pVergib allen ihre Sünden, die sich zu dir bekehren;^qum Christi willen tilge ihre Schuld.^pNimm unsere Verstorbenen auf in deinen Frieden;^qgib ihnen die ewige Ruhe.",
