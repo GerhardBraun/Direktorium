@@ -105,7 +105,8 @@ const MatutinDisplay = ({
                 )}
 
                 {closing[2] && (
-                    <div className="mt-2 long-rubric">
+                    <div className="mt-2 long-rubric"
+                        aria-hidden="true">
                         {closing[2]}
                     </div>
                 )}

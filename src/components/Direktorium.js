@@ -870,6 +870,7 @@ const PrayerTextDisplay = ({
                 window.scrollTo({ top: 0, behavior: 'instant' });
               }}
               className="scroll-mt-32 mt-6 text-left long-rubric"
+              aria-hidden="true"
             >
               {'Für eine Feier als Vigil: '}
               <span className='font-bold text-[1.1em]'>
@@ -1062,7 +1063,7 @@ const PrayerTextDisplay = ({
             <div className="flex gap-0">
               {formatPrayerText(ordinariumTexts.closing[1], "R°°")}
             </div>
-            <div className="mt-3 long-rubric">
+            <div className="mt-3 long-rubric" aria-hidden="true">
               {ordinariumTexts.closing[2]}
             </div>
           </div>

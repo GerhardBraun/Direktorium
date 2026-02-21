@@ -363,7 +363,7 @@ const HymnSelector = ({ texts, hour, season,
             ))}
 
             {availableHymns.find(h => h.id === selectedHymn)?.stb3 && (
-                <div className="mt-3 -mb-3 long-rubric">
+                <div className="mt-3 -mb-3 long-rubric" aria-hidden="true">
                     Stundenbuch III/
                     {formatPrayerText(
                         availableHymns.find(h => h.id === selectedHymn)?.stb3

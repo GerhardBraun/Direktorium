@@ -167,7 +167,8 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
             {selectedAntSeason && (
                 <div>
                     {(season !== 'o' && selectedAntiphon?.[`rubric${suffixLatin}`]) && (
-                        <div className='long-rubric mt-4 -mb-4'>
+                        <div className='long-rubric mt-4 -mb-4'
+                            aria-hidden="true">
                             {formatPrayerText(selectedAntiphon[`rubric${suffixLatin}`])}
                         </div>
                     )}
