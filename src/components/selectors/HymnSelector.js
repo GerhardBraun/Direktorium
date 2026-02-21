@@ -338,7 +338,7 @@ const HymnSelector = ({ texts, hour, season,
                     className={`w-full text-sm text-left px-2 pt-2 pb-1 mt-1 rounded
                         ${getButtonColor(hymn.id.split('_')[0], hymn.source)}
                         ${selectedHymn === hymn.id ? 'ring-2 ring-yellow-500' : ''}`}
-                >
+                    aria-hidden="true">
                     {hymn.isNachtHymn ? (
                         <div className="flex flex-col gap-0">
                             <div className="opacity-70">
@@ -349,7 +349,8 @@ const HymnSelector = ({ texts, hour, season,
                             </div>
                         </div>
                     ) : (
-                        <div className="flex items-baseline gap-0">
+                        <div className="flex items-baseline gap-0"
+                            aria-hidden="true">
                             <div className={`opacity-70 shrink-0 ${hymn.indent ? 'w-20' : 'w-16'}`}>
                                 {hymn.source}
                             </div>

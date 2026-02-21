@@ -45,6 +45,8 @@ const ordinariumData = {
     },
     'komplet': {
         'dt': {
+            "confiteor": "Ich bekenne Gott, dem Allmächtigen, und allen Brüdern und Schwestern, dass ich Gutes unterlassen und Böses getan habe – ich habe gesündigt in Gedanken, Worten und Werken – ^r[alle°schlagen an die Brust]^0r durch meine Schuld, durch meine Schuld, durch meine große Schuld. Darum bitte ich die selige Jungfrau Maria, alle Engel und Heiligen und euch, Brüder und Schwestern, für mich zu beten bei Gott, unserem Herrn.",
+            "confiteor_v": "Der allmächtige Gott erbarme sich unser,^ler lasse uns die Sünden nach^lund führe uns zum ewigen Leben.",
             "titel": "NUNC DIMITTIS",
             "cant": "Nun^r\u2009+\u2009^0rlässt du, Herr, deinen Knecht,^*wie du gesagt hast, in Frieden scheiden.^pDenn meine Augen haben°das°Heil°gesehen,^*das du vor allen Völkern bereitet hast,^pein Licht, das die Heiden erleuchtet,^*und Herrlichkeit für dein Volk Israel.^pEhre sei dem Vater und dem Sohn^*und dem Heiligen Geist,^pwie im Anfang, so°auch°jetzt°und°alle°Zeit^*und in Ewigkeit. Amen.",
             "closing": [
@@ -53,6 +55,8 @@ const ordinariumData = {
             ]
         },
         'lat': {
+            "confiteor": "Confíteor Deo omnipoténti et vobis, fratres, quia peccávi nimis cogitatióne, verbo, opere et omissióne: mea culpa, mea culpa, mea máxima culpa. Ídeo precor beátam Maríam semper Vírginem, omnes Ángelos et Sanctos, et vos, fratres, oráre pro me ad Dóminum Deum nostrum.",
+            "confiteor_v": "Misereátur nostri omnípotens Deus^let, dimíssis peccátis nostris,^lperdúcat nos ad vitam aetérnam.",
             "titel": "NUNC DIMITTIS",
             "cant": "Nunc dimíttis^r\u2009+\u2009^0rservum tuum, Dómine,^*secúndum verbum tuum in pace;^pquia vidérunt óculi mei^*salutáre tuum,^pquod parásti^*ante fáciem ómnium populórum:^plumen ad revelatiónem géntium^*et glóriam plebis tuæ Israel.^pGlória Patri et Fílio^*et Spirítui Sancto.^pSicut erat in princípio, et°nunc°et°semper^*et in sǽcula sæculórum. Amen.",
             "closing": [
@@ -230,11 +234,8 @@ function getClosingTexts(hour, localPrefLatin, useCommemoration) {
             "Dank sei Gott, dem Herrn."];
 
     if (hour === 'lesehore') {
-        closing.lesehore = "Wenn eine andere Hore unmittelbar angeschlossen wird, entfallen hier Oration und Abschluss; dann folgt jetzt der Hymnus der anschließenden Hore.";
-        if (useCommemoration) {
-            closing.lesehore = closing.lesehore
-                .replace("entfallen hier Oration und", "entfällt hier der");
-        }
+        closing.lesehore = useCommemoration ? "" : "Wenn eine andere Hore unmittelbar angeschlossen wird, entfallen hier Oration und Abschluss; dann folgt jetzt der Hymnus der anschließenden Hore.";
+        closing.lhCommemoration = useCommemoration ? "Wenn eine andere Hore unmittelbar angeschlossen wird, entfällt\u00a0hier der Abschluss; dann\u00a0folgt jetzt der Hymnus der anschließenden Hore." : "";
     }
 
     return closing;

@@ -141,7 +141,7 @@ export const formatPsalm = (psalmRef, num, localPrefLanguage = '') => {
 
     return (
         <div className="mb-4">
-            <div className="font-bold text-rubric">
+            <div className="font-bold text-rubric" aria-hidden="true">
                 {number > 0 && (
                     number > 150 ? (<>{ordinal?.[num]}Canticum: {formatBibleRef(verses)}</>) : (
                         <>  Psalm {number}
@@ -149,8 +149,12 @@ export const formatPsalm = (psalmRef, num, localPrefLanguage = '') => {
                         </>
                     ))}
             </div>
-            {title && <div className="text-[0.9em] text-gray-400 mb-[0.66em]">{title}</div>}
-            {quote && <div className="text-[0.9em] leading-[1.1em] italic text-gray-400 -mt-[0.66em] mb-[0.66em]">{formatQuote(quote)}</div>}
+            {title && <div className="text-[0.9em] text-gray-400 mb-[0.66em]"
+                aria-hidden="true">
+                {title}</div>}
+            {quote && <div className="text-[0.9em] leading-[1.1em] italic text-gray-400 -mt-[0.66em] mb-[0.66em]"
+                aria-hidden="true">
+                {formatQuote(quote)}</div>}
             {text && <div className="whitespace-pre-wrap">{formatPrayerText(text, localPrefLanguage)}</div>}
             {(![151, 160].includes(number) || (number === 151 && localPrefLanguage === "_lat")) &&
                 <div className="whitespace-pre-wrap">{formatPrayerText(doxology, localPrefLanguage)}</div>}
@@ -440,7 +444,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         .replace(/\^EINZUG/g, '')
         .replace(/^›|\^<|_lat|_neu|_ben|\^SLICE|\^APSHALL/g, '')
         .replace(/°/g, '\u00A0')
-        .replace(/\^\*/g, isAps ? '\u00A0^r*^0r\n' : '\u00A0*\n')
+        .replace(/\^\*/g, isAps ? '\u00A0^r*^0r\n' : '^muteSTAR')
         .replace(/\^\+/g, isAps ? '\u00A0^r†^0r\n' : '\u00A0†\n')
         .replace(/\^\//g, (() => {
             // Wenn keine ^/-Tags vorhanden oder maxLineLength <= widthForHymns, dann Leerzeichen
@@ -509,12 +513,12 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
             .replace(/\^l/g, '\n')
 
         // ERWEITERTE REGEX um Satzzeichen-Marker zu erfassen
-        const segments = text.split(/(\^RUBR.*?\^0RUBR|\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^c.*?\^0c|\^k.*?\^0k|\^ELL.*?\^0ELL|§FN\d+§|§PUNCT\d+§)/g).filter(Boolean);
+        const segments = text.split(/(\^RUBR.*?\^0RUBR|\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^c.*?\^0c|\^k.*?\^0k|\^ELL.*?\^0ELL|§FN\d+§|§PUNCT\d+§|\^muteSTAR)/g).filter(Boolean);
 
         return segments.map((segment, index) => {
             if (segment.startsWith('^r')) {
                 const content = segment.substring(2, segment.length - 3);
-                return <span key={`rubric-${index}`} className="text-rubric">{content}</span>;
+                return <span key={`rubric-${index}`} className="text-rubric" aria-hidden="true">{content}</span>;
             } else if (segment.startsWith('^w')) {
                 const content = segment.substring(2, segment.length - 3);
                 return <span key={`tracked-${index}`} className='tracking-[0.16em]'>{content}</span>;
@@ -535,7 +539,9 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
                 return <span key={`ellipsis-${index}`} className='text-gray-500 dark:text-gray-400 italic' >{content}</span>;
             } else if (segment.startsWith('^RUBR')) {
                 const content = segment.substring(5, segment.length - 6);
-                return <span key={`long-rubric-${index}`} className="long-rubric">{content}</span>;
+                return <span key={`long-rubric-${index}`} className="long-rubric" aria-hidden="true">{content}</span>;
+            } else if (segment === '^muteSTAR') {
+                return <span key={`mute-star-${index}`} aria-hidden="true">{'\u00a0*\n'}</span>;
             } else if (segment.match(/^§FN\d+§$/)) {
                 const number = footnoteNumbers.get(segment);
                 const content = footnoteMap.get(segment);
@@ -638,7 +644,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
                                     </div>
                                     {insertResponse && (
                                         <div className=" -mt-[0.75em] mb-[0.75em] flex  gap-0">
-                                            <span className={`${indent} text-rubric`}>R</span>
+                                            <span className={`${indent} text-rubric`} aria-hidden="true">R</span>
                                             <div>{processInlineFormats(insertResponse)}</div>
                                         </div>
                                     )}

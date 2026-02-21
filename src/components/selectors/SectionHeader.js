@@ -21,6 +21,7 @@ const SectionHeader = ({
     localPrefLatin,
     localPrefLanguage,
     localPrefLongform,
+    ommitConfiteor,
     setLocalPrefLatin,
     setLocalPrefLanguage,
     setLocalPrefInv,
@@ -28,7 +29,8 @@ const SectionHeader = ({
     setLocalPrefErgPs,
     setLocalPrefContinuous,
     setLocalPrefComm,
-    setLocalPrefLongform
+    setLocalPrefLongform,
+    setOmmitConfiteor
 }) => {
     const [pressTimer, setPressTimer] = useState(null);
     const rank = texts?.rank || { wt: 0, date: 0 };
@@ -191,12 +193,13 @@ const SectionHeader = ({
 
     // Sprachwahl-Button anzeigen?
     let showLanguageToggle = !languages.includes('aus');
-    if (title === 'VERSIKEL' || title === 'VÄTERLESUNG'
+    if (['VERGEBUNGSBITTE', 'VERSIKEL', 'VÄTERLESUNG'].includes(title)
+        || (title === 'SCHULDBEKENNTNIS' && ommitConfiteor)
         || (hour === 'invitatorium' && title === 'PSALMODIE')
         || (hour === 'lesehore' && /^(les_|resp|patr_)/.test(field))
         || (isTSN && title === 'ORATION')
     ) showLanguageToggle = false
-    else if (title === 'HYMNUS' && showLanguageToggle)
+    else if (title === 'HYMNUS' && showLanguageToggle && hour !== 'komplet')
         showLanguageToggle = localStorage.getItem('ommitOpening') === 'true' ? true : false
 
     // Prüfe, ob Commune übersprungen werden soll
@@ -227,15 +230,16 @@ const SectionHeader = ({
     if (prefSollemnity === 'kirchw' || prefSollemnity === 'verst')
         skipCommune = true
 
-    if (["ERÖFFNUNG", "HYMNUS", "ABSCHLUSS"].includes(title))
+    if (["ERÖFFNUNG", "SCHULDBEKENNTNIS", "HYMNUS", "ABSCHLUSS"].includes(title))
         skipCommune = true;
 
     // einfacher Header ohne Buttons
     if (["VERSIKEL"].includes(title) ||
         (!invPsalms && !showSources && !showLanguageToggle
-            && !showPsalmsWt && !showContinuous && !showTSN && !showErgPs)) {
-        return <h2 className="prayer-heading">{getTitle()}</h2>;
-    }
+            && !showPsalmsWt && !showContinuous && !showTSN && !showErgPs
+            && title !== 'SCHULDBEKENNTNIS')
+    ) { return <h2 className="prayer-heading" aria-hidden="true">{getTitle()}</h2>; }
+
     const ButtonGroup = ({ children }) => (
         <span className="inline-block font-normal text-[0.85em]"        >
             {children}
@@ -256,8 +260,20 @@ const SectionHeader = ({
     };
 
     return (
-        <h2 className="prayer-heading inline-block space-x-3 items-baseline">
+        <h2 className="prayer-heading inline-block space-x-3 items-baseline"
+            aria-hidden="true">
             <span className="inline-block">{getTitle()}</span>
+            {title === "SCHULDBEKENNTNIS" && (
+                <ButtonGroup>
+                    <button
+                        onClick={() => {
+                            setOmmitConfiteor(!ommitConfiteor);
+                            setLocalStorage('ommitConfiteor', String(!ommitConfiteor));
+                        }}
+                    >
+                        {ommitConfiteor ? '(anzeigen)' : '(verbergen)'}
+                    </button>
+                </ButtonGroup>)}
             {showLanguageToggle && (
                 <ButtonGroup>
                     {"("}

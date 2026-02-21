@@ -181,7 +181,8 @@ const SourceSelector = ({
     if (isErsteVesper) useToggle = true
 
     return (
-        <div className={`space-y-1 ${className}`}>
+        <div className={`space-y-1 ${className}`}
+            aria-hidden="true">
             {/* Bezeichnung Hochfest/Fest/Gedenktag */}
             {texts.laudes?.wt?.button && !hasOblig && (
                 <div className="text-center text-xl font-bold text-gray-900 dark:text-gray-100">

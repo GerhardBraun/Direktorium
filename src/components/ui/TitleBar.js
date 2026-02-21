@@ -3,7 +3,8 @@ import { formatPrayerText } from '../dataHandlers/TextFormatter.js';
 
 const TitleBar = ({ title, onPrevDay, onNextDay, swdWritten, padding = '' }) => {
     return (
-        <div className={`${padding} flex items-center justify-between mb-2`}>
+        <div className={`${padding} flex items-center justify-between mb-2`}
+            aria-hidden="true">
             <button
                 onClick={onPrevDay}
                 className="shrink-0 px-4 py-2 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
@@ -11,12 +12,13 @@ const TitleBar = ({ title, onPrevDay, onNextDay, swdWritten, padding = '' }) => 
             >
                 ‹
             </button>
-            <div className="px-2 text-center">
+            <div className="px-2 text-center" aria-hidden="true">
                 <h1 className="text-xl font-bold text-gray-900 dark:text-gray-100">
                     {title}
                 </h1>
                 {swdWritten && (
-                    <div className={`text-base text-gray-600 dark:text-gray-400`}>
+                    <div className={`text-base text-gray-600 dark:text-gray-400`}
+                        aria-hidden="true">
                         {swdWritten}
                     </div>
                 )}

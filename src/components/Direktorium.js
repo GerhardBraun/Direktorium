@@ -372,6 +372,7 @@ const PrayerTextDisplay = ({
   const [localPrefKomplet, setLocalPrefKomplet] = useState(texts?.komplet?.prefKomplet || "wt");
   const [localPrefLongform, setLocalPrefLongform] = useState(localStorage.getItem('prefLongform') === 'true');
   const [showKomplet, setShowKomplet] = useState(true);
+  const [ommitConfiteor, setOmmitConfiteor] = useState(localStorage.getItem('ommitConfiteor') === 'true');
 
   useEffect(() => {
     setLocalPrefComm(texts?.prefComm || 0);
@@ -440,6 +441,7 @@ const PrayerTextDisplay = ({
         localPrefLatin={localPrefLatin}
         localPrefLanguage={localPrefLanguage}
         localPrefLongform={localPrefLongform}
+        ommitConfiteor={ommitConfiteor}
         setLocalPrefLatin={setLocalPrefLatin}
         setLocalPrefLanguage={setLocalPrefLanguage}
         setLocalPrefInv={setLocalPrefInv}
@@ -448,6 +450,7 @@ const PrayerTextDisplay = ({
         setLocalPrefContinuous={setLocalPrefContinuous}
         setLocalPrefComm={setLocalPrefComm}
         setLocalPrefLongform={setLocalPrefLongform}
+        setOmmitConfiteor={setOmmitConfiteor}
       />
     );
   };
@@ -455,7 +458,9 @@ const PrayerTextDisplay = ({
 
   // Rubric component for styled headers and labels
   const Rubric = ({ children, isHeader = false }) => (
-    <span className={`text-rubric ${isHeader ? "text-lg font-bold mb-4" : ""}`}>
+    <span
+      className={`text-rubric ${isHeader ? "text-lg font-bold mb-4" : ""}`}
+      aria-hidden="true">
       {children}
     </span>
   );
@@ -680,6 +685,33 @@ const PrayerTextDisplay = ({
             </div>
           </div>
         )}
+
+        {ordinariumTexts.confiteor && (
+          <div className="mt-0 mb-0">
+            <SectionHeader
+              title="SCHULDBEKENNTNIS"
+              field="versikel0"
+            />
+            {!ommitConfiteor && (
+              <>
+                <div>
+                  {formatPrayerText(ordinariumTexts.confiteor)}
+                </div>
+                <SectionHeader
+                  title="VERGEBUNGSBITTE"
+                  field="versikel0" />
+                <div className="my-0 flex gap-0">
+                  <Rubric>V&nbsp;&nbsp;</Rubric>
+                  <div>{formatPrayerText(ordinariumTexts.confiteor_v)}</div>
+                </div>
+                <div className="-mt-3 flex gap-0">
+                  <Rubric>R&nbsp;&nbsp;</Rubric>
+                  <div>{formatPrayerText("Amen.")}</div>
+                </div>
+              </>)}
+          </div>
+        )}
+
         {getValue("hymn_1") && (
           <div className="mb-0">
             <SectionHeader
@@ -897,9 +929,10 @@ const PrayerTextDisplay = ({
           </div>
         )}
 
-        {!useCommemoration && (<div className="mt-3 long-rubric">
-          {ordinariumTexts.closing.lesehore}
-        </div>
+        {ordinariumTexts.closing.lesehore && (
+          <div className="mt-3 long-rubric">
+            {ordinariumTexts.closing.lesehore}
+          </div>
         )}
 
         {hour !== "invitatorium" && hour !== "komplet" && (
@@ -1006,9 +1039,10 @@ const PrayerTextDisplay = ({
             </>
           )}
 
-        {useCommemoration && (<div className="mt-3 long-rubric">
-          {ordinariumTexts.closing.lesehore}
-        </div>
+        {ordinariumTexts.closing.lhCommemoration && (
+          <div className="mt-3 long-rubric">
+            {ordinariumTexts.closing.lhCommemoration}
+          </div>
         )}
 
         {ordinariumTexts.closing[0] && showKomplet && (

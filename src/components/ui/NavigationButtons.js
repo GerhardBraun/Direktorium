@@ -141,59 +141,63 @@ export const NavigationButtons = ({
                     ? 'Zweite Vesper'
                     : hour.charAt(0).toUpperCase() + hour.slice(1)
 
-        if (hour === 'vigil') return (
-            <div className="mb-2 pr-4 grid grid-columns-3 gap-1"
-                style={{ gridTemplateColumns: `minmax(auto, 1fr) auto minmax(auto, 1fr)` }}>
-                <button
-                    onClick={() => {
-                        onSelectHour('lesehore', texts)
-                        setTimeout(() => {
-                            const bookmark = document.getElementById('scroll-to-TeDeum');
-                            if (bookmark) {
-                                bookmark.scrollIntoView({
-                                    behavior: 'smooth',
-                                    block: 'start'  // Element am oberen Rand positionieren, kombiniert mit scroll-mt- bei der id
-                                });
-                            }
-                        }, 50);
-                    }}
-                    className="text-left long-rubric mt-1 whitespace-nowrap"
+        if (hour === 'vigil')
+            return (
+                <div className="mb-2 pr-4 grid grid-columns-3 gap-1"
+                    aria-hidden="true"
+                    style={{ gridTemplateColumns: `minmax(auto, 1fr) auto minmax(auto, 1fr)` }}
                 >
-                    &nbsp;&nbsp;←&nbsp;&nbsp;zurück zur Lesehore
-                </button>
-                <div className="text-center font-bold">
-                    Vigil
+                    <button
+                        onClick={() => {
+                            onSelectHour('lesehore', texts)
+                            setTimeout(() => {
+                                const bookmark = document.getElementById('scroll-to-TeDeum');
+                                if (bookmark) {
+                                    bookmark.scrollIntoView({
+                                        behavior: 'smooth',
+                                        block: 'start'  // Element am oberen Rand positionieren, kombiniert mit scroll-mt- bei der id
+                                    });
+                                }
+                            }, 50);
+                        }}
+                        className="text-left long-rubric mt-1 whitespace-nowrap"
+                    >
+                        &nbsp;&nbsp;←&nbsp;&nbsp;zurück zur Lesehore
+                    </button>
+                    <div className="text-center font-bold">
+                        Vigil
+                    </div>
+                    <button
+                        onClick={toggleDocked}
+                        className="text-right long-rubric mt-1"
+                    >
+                        {isDocked ? 'Lösen' : 'Fixieren'}&nbsp;&nbsp;
+                    </button>
                 </div>
-                <button
-                    onClick={toggleDocked}
-                    className="text-right long-rubric mt-1"
-                >
-                    {isDocked ? 'Lösen' : 'Fixieren'}&nbsp;&nbsp;
-                </button>
-            </div>
-        ); else return (
-            <div className="pr-4 grid grid-cols-4 gap-0 mb-2">
-                <button
-                    onClick={onBack}
-                    className="pl-2 rounded-sm bg-gray-100 dark:bg-gray-800
+            ); else return (
+                <div className="pr-4 grid grid-cols-4 gap-0 mb-2"
+                    aria-hidden="true">
+                    <button
+                        onClick={onBack}
+                        className="pl-2 rounded-sm bg-gray-100 dark:bg-gray-800
                    hover:bg-gray-200 dark:hover:bg-gray-700
                    text-rubric text-left text-sm"
-                >
-                    ← Auswahl
-                </button>
-                <div className="col-span-2 rounded-sm text-center font-bold">
-                    {hourToDisplay}
-                </div>
-                <button
-                    onClick={toggleDocked}
-                    className="pl-2 rounded-sm bg-gray-100 dark:bg-gray-800
+                    >
+                        ← Auswahl
+                    </button>
+                    <div className="col-span-2 rounded-sm text-center font-bold">
+                        {hourToDisplay}
+                    </div>
+                    <button
+                        onClick={toggleDocked}
+                        className="pl-2 rounded-sm bg-gray-100 dark:bg-gray-800
                    hover:bg-gray-200 dark:hover:bg-gray-700
                    text-rubric text-sm"
-                >
-                    {isDocked ? 'Lösen' : 'Fixieren'}&nbsp;&nbsp;
-                </button>
-            </div>
-        );
+                    >
+                        {isDocked ? 'Lösen' : 'Fixieren'}&nbsp;&nbsp;
+                    </button>
+                </div>
+            );
     }
 
     if (!nextHours || nextHours.length === 0) {
@@ -203,7 +207,7 @@ export const NavigationButtons = ({
                 className="w-full p-2 mb-1 rounded-sm bg-gray-100 dark:bg-gray-800
                    hover:bg-gray-200 dark:hover:bg-gray-700
                    text-rubric text-left text-sm"
-            >
+                aria-hidden="true">
                 ← zurück zur Stundengebetauswahl
             </button>
         );
@@ -212,7 +216,9 @@ export const NavigationButtons = ({
     const { alignment, singleButton, columns } = getGridClass(nextHours)
 
     return (
-        <div className={`grid ${columns} gap-2 mb-1`}>
+        <div
+            className={`grid ${columns} gap-2 mb-1`}
+            aria-hidden="true">
             <button
                 onClick={onBack}
                 className="col-span-2 p-2 rounded-sm bg-gray-100 dark:bg-gray-800
