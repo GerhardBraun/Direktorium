@@ -225,8 +225,12 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
     const { nominativ, genitiv, vokativ, genitiv_lat, vokativ_lat } = texts?.laudes?.[prefSrc] || {};
 
     const useFootnoteList = localStorage.getItem('prefFootnotes') === 'true';
-    const useCommemoration = (marker === 'commemoration' && texts?.rank?.isCommemoration === true)
+    const useCommemoration = (marker === 'commemoration' && texts?.rank?.isCommemoration === true);
+
+    // bei Antwortpsalmen in den Messlesungen wird das Sternchen in Rubrik-Farbe angezeigt
     const isAps = marker === 'Aps';
+
+    // wiederholte Antworten in den Fürbitten bei localPrefLongform
     let insertResponse = '';
     if (marker.startsWith('^R:')) {
         insertResponse = marker
@@ -304,8 +308,11 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
             },
         };
 
-        // Bei Commemorationen alle Orationsschlüsse entfernen
-        if (useCommemoration) {
+        const formLength = ['terz', 'sext', 'non', 'komplet'].includes(hour)
+            ? 'kurz' : 'lang';
+
+        // Bei Kommemorationen lange Orationsschlüsse entfernen
+        if (useCommemoration && formLength === 'lang') {
             return text
                 .replace('. Er,^ORR', '.')
                 .replace('. Darum bitten wir durch ihn,^ORR', '.')
@@ -313,9 +320,6 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
                 .replace(',^ORlR', '.')
                 .replace(/([,.])(\^ORl?)(vR|V|S|R)/g, '$1');
         }
-
-        const formLength = ['terz', 'sext', 'non', 'komplet'].includes(hour)
-            ? 'kurz' : 'lang';
 
         // Regex für Orationsschluss-Tags: (Satzzeichen)(^ORl?)(Kürzel)
         return text.replace(/([,.])(\^ORl?)(vR|V|S|R)/g, (match, punctuation, language, formula) => {
@@ -348,6 +352,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         if (vokativ) {
             text = text
                 .replace(/Heiliger? \^VOK/g, vokativ)
+            // weibliche Formen verwenden
             if (vokativ.startsWith('Heilige ')) {
                 text = text
                     .replace(/tat ihm den/g, 'tat ihr den')
@@ -383,6 +388,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
                 .replace(/(beáte|beáta) \^VOK/g, vokativ_lat
                     .replace(/sancte/g, 'beáte')
                     .replace(/sancta/g, 'beáta'))
+            // weibliche Formen verwenden
             if (vokativ_lat.startsWith('sancta ')) {
                 text = text
                     .replace(/implévit eum/g, 'implévit eam')
@@ -390,13 +396,13 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
                     .replace(/amátor legis/g, 'amátrix legis')
             }
         }
-
-        text = text.replace(/\^(NOM|GEN|VOK|NH|N)\.?/g, '^rN.^0r');
-        return text;
+        // Wenn keine Namenseinträge vorhanden sind, wird N. verwendet
+        return text.replace(/\^(NOM|GEN|VOK|NH|N)\.?/g, '^rN.^0r');
     }
 
     const replaceNames = (text) => {
         if (localStorage.getItem('vacancy') === 'true') {
+            // bei Vakanz Bischof durch Diözesanadministrator ersetzen
             text = text
                 .replace(/Bischof \^NB/g, 'Diözesanadministrator ^NB')
                 .replace(/Epíscopo(\s+nostro)?\s*\^NdatB/g, 'Administratóri$1 diœcesáno ^NdatB')
@@ -411,15 +417,16 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
                 const name = person === 'P'
                     ? localStorage.getItem('popeNameLat') || 'Leóni'
                     : localStorage.getItem('bishopNameLat') || '^N';
-
+                // lat. Namen sind im Dativ gespeichert, daher Anpassung für andere Kasus
                 if (casus === 'akk')
                     return name
                         .replace(/i\b/g, 'em')
                         .replace(/o\b/g, 'um');
                 if (casus === 'abl')
                     return name.replace(/i\b/g, 'e');
-                return name; // dat case
+                return name;
             })
+            // Gottesname in Kapitälchen (neue Einheitsübersetzung und Benediktinisches Antiphonale)
             .replace(/(HERREN|HERRN?|GOTTES|GOTT|IHN)/g, (match) => {
                 const word = firstCapital(match);
                 return ['_neu', '_ben'].includes(localPrefLanguage) ? `^c${word}^0c` : word;
@@ -441,7 +448,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         .replace(/\^HULDaet/g, '^*quóniam in ætérnum misericórdia eius')
         .replace(/\^SPRICHT/g, '^(So spricht der Herr:^)^l')
         .replace(/\^SPRGOTT/g, '^(So spricht Gott, der Herr:^)^l')
-        .replace(/\^EINZUG/g, '')
+        .replace(/\^EINZUG/g, '') // Einzug bei Sprechzeilen-Gliederung im Messlektionar
         .replace(/^›|\^<|_lat|_neu|_ben|\^SLICE|\^APSHALL/g, '')
         .replace(/°/g, '\u00A0')
         .replace(/\^\*/g, isAps ? '\u00A0^r*^0r\n' : '^muteSTAR')
@@ -541,7 +548,12 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
                 const content = segment.substring(5, segment.length - 6);
                 return <span key={`long-rubric-${index}`} className="long-rubric" aria-hidden="true">{content}</span>;
             } else if (segment === '^muteSTAR') {
-                return <span key={`mute-star-${index}`} aria-hidden="true">{'\u00a0*\n'}</span>;
+                return (
+                    <React.Fragment key={`mute-star-${index}`}>
+                        <span className="sr-only">.</span>
+                        <span aria-hidden="true">{'\u00a0*\n'}</span>
+                    </React.Fragment>
+                );
             } else if (segment.match(/^§FN\d+§$/)) {
                 const number = footnoteNumbers.get(segment);
                 const content = footnoteMap.get(segment);

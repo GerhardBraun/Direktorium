@@ -35,7 +35,12 @@ import { UserMessageDisplay } from "./data/UserMessageDisplay.js";
 import { MassReadings } from "./ui/MassReadings.js";
 import ScrollableViews, { setScrollDate } from "./ui/ScrollableViews.js";
 
-const fontFamily = "cambria, serif";
+const FONT_FAMILIES = [
+  { key: "cambria", label: "Cambria", value: "cambria, georgia, serif" },
+  { key: "georgia", label: "Georgia", value: "georgia, serif" },
+  { key: "palatino", label: "Palatino", value: "palatino linotype, palatino, book antiqua, serif" },
+  { key: "system", label: "System", value: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif' },
+];
 
 const months = [
   "Januar", "Februar", "März",
@@ -968,7 +973,7 @@ const PrayerTextDisplay = ({
             || texts?.laudes?.n1?.oration
             || texts?.laudes?.d1?.oration) && (
             <>
-              <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6 pb-1">
+              <div >
                 <SourceSelector
                   texts={texts}
                   prefSrc={prefSrc}
@@ -1118,6 +1123,9 @@ export default function Stundenbuch() {
     24,
     0.7,
     showDatePicker
+  );
+  const [baseFontFamily, setBaseFontFamily] = useState(
+    () => localStorage.getItem("baseFontFamily") || "cambria, serif"
   );
   const [isReady, setIsReady] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -1673,6 +1681,32 @@ export default function Stundenbuch() {
 
             <div className="border-t dark:border-gray-700"></div>
 
+            {/* Font Family Section */}
+            <div className="px-3 py-2">
+              <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
+                Schriftart
+              </div>
+              <div className="flex gap-1">
+                {FONT_FAMILIES.map(({ key, label, value }) => (
+                  <button
+                    key={key}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      setBaseFontFamily(value);
+                      setLocalStorage("baseFontFamily", value);
+                    }}
+                    style={{ fontFamily: value }}
+                    className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${baseFontFamily === value ? "bg-orange-100 dark:bg-yellow-400/60" : ""}`}
+                  >
+                    {label}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            <div className="border-t dark:border-gray-700"></div>
+
             {/* Theme Section */}
             <div
               className={`px-3 py-2 cursor-pointer ${activeSection === "theme" ? "bg-gray-100 dark:bg-gray-600" : ""
@@ -1930,7 +1964,7 @@ export default function Stundenbuch() {
     );
   };
   const baseStyle = {
-    fontFamily,
+    fontFamily: baseFontFamily,
     fontSize: `${baseFontSize}pt`,
     lineHeight: "1.2",
     margin: 0,

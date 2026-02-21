@@ -68,8 +68,10 @@ const SectionHeader = ({
     }, [hour, title, texts, prefSrc, prefSollemnity, localPrefComm,
         localPrefPsalmsWt, localPrefErgPs, localPrefContinuous]);
 
-    if (["terz", "sext", "non"].includes(hour) && title === 'RESPONSORIUM')
-        return <h2 className="prayer-heading">VERSIKEL</h2>;
+    //  VERSIKEL-Header ohne Buttons
+    if (title === 'VERSIKEL' ||
+        (["terz", "sext", "non"].includes(hour) && title === 'RESPONSORIUM'))
+        return <h2 className="prayer-heading" aria-hidden="true">VERSIKEL</h2>;
 
     const checkSources = (field) => {
         const hasEig = texts[hour][prefSrc]?.[field];
@@ -193,7 +195,7 @@ const SectionHeader = ({
 
     // Sprachwahl-Button anzeigen?
     let showLanguageToggle = !languages.includes('aus');
-    if (['VERGEBUNGSBITTE', 'VERSIKEL', 'VÄTERLESUNG'].includes(title)
+    if (['VERGEBUNGSBITTE', 'VÄTERLESUNG'].includes(title)
         || (title === 'SCHULDBEKENNTNIS' && ommitConfiteor)
         || (hour === 'invitatorium' && title === 'PSALMODIE')
         || (hour === 'lesehore' && /^(les_|resp|patr_)/.test(field))
@@ -234,11 +236,14 @@ const SectionHeader = ({
         skipCommune = true;
 
     // einfacher Header ohne Buttons
-    if (["VERSIKEL"].includes(title) ||
-        (!invPsalms && !showSources && !showLanguageToggle
-            && !showPsalmsWt && !showContinuous && !showTSN && !showErgPs
-            && title !== 'SCHULDBEKENNTNIS')
-    ) { return <h2 className="prayer-heading" aria-hidden="true">{getTitle()}</h2>; }
+    if (!invPsalms && !showSources && !showLanguageToggle
+        && !showPsalmsWt && !showContinuous && !showTSN && !showErgPs
+        && title !== 'SCHULDBEKENNTNIS'
+    ) return <h2
+        className="prayer-heading"
+        aria-hidden="true">
+        {getTitle()}
+    </h2>;
 
     const ButtonGroup = ({ children }) => (
         <span className="inline-block font-normal text-[0.85em]"        >
