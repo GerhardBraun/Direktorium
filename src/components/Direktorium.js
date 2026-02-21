@@ -36,23 +36,12 @@ import { MassReadings } from "./ui/MassReadings.js";
 import ScrollableViews, { setScrollDate } from "./ui/ScrollableViews.js";
 
 const fontFamily = "cambria, serif";
-const hangingIndent = "3.2em"; // Variable für den Einzug
-const deceasedSizeRatio = 0.9;
-const DAYS_BUFFER = 7; // Anzahl der Tage vor/nach dem ausgewählten Datum
 
 const months = [
-  "Januar",
-  "Februar",
-  "März",
-  "April",
-  "Mai",
-  "Juni",
-  "Juli",
-  "August",
-  "September",
-  "Oktober",
-  "November",
-  "Dezember",
+  "Januar", "Februar", "März",
+  "April", "Mai", "Juni",
+  "Juli", "August", "September",
+  "Oktober", "November", "Dezember",
 ];
 
 const PrayerHours = {
@@ -307,7 +296,7 @@ const PrayerMenu = ({
         })}
       </div>
 
-      {/* Mass - ausgeblendet */}
+      {/* Mass */}
       <div className="pt-4 border-t dark:border-gray-700">
         <button
           onClick={() => {
@@ -610,7 +599,7 @@ const PrayerTextDisplay = ({
       </div>)
   }
 
-  const ordinariumTexts = ordinarium(texts, hour, localPrefLatin, prefSollemnity)
+  const ordinariumTexts = ordinarium(texts, hour, localPrefLatin, prefSollemnity, useCommemoration)
   const { advResp = '', advVers = '' } =
     (texts?.swd.combined === 'a-1-0'
       && hour === 'lesehore'
@@ -908,9 +897,10 @@ const PrayerTextDisplay = ({
           </div>
         )}
 
-        <div className="mt-3 long-rubric">
+        {!useCommemoration && (<div className="mt-3 long-rubric">
           {ordinariumTexts.closing.lesehore}
         </div>
+        )}
 
         {hour !== "invitatorium" && hour !== "komplet" && (
           <div className="mb-0">
@@ -991,19 +981,19 @@ const PrayerTextDisplay = ({
                 )}
 
                 {getValue("c_antev") && useCommemoration && (
-                  <div className="mb-0">
+                  <div className="mx-0">
                     <SectionHeader
                       title={`${ordinariumTexts.titel}-ANTIPHON`}
                       field="antev"
                     />
-                    <div className="mb-4">
+                    <div className="mb-0">
                       {formatPrayerText(getValue("c_antev"))}
                     </div>
                   </div>
                 )}
 
                 {getValue("c_oration") && useCommemoration && (
-                  <div className="mb-0">
+                  <div className="mx-0">
                     <SectionHeader
                       title="ORATION"
                       field="oration" />
@@ -1015,6 +1005,11 @@ const PrayerTextDisplay = ({
               </div>
             </>
           )}
+
+        {useCommemoration && (<div className="mt-3 long-rubric">
+          {ordinariumTexts.closing.lesehore}
+        </div>
+        )}
 
         {ordinariumTexts.closing[0] && showKomplet && (
           <div className="mb-0 mt-0">

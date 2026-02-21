@@ -213,7 +213,7 @@ function getOpeningTexts(hour, localPrefLatin) {
     ];
 }
 
-function getClosingTexts(hour, localPrefLatin) {
+function getClosingTexts(hour, localPrefLatin, useCommemoration) {
     const languageToRead = localPrefLatin ? 'lat' : 'dt';
     if (hour === 'vigil') { hour = 'lesehore' }
 
@@ -231,12 +231,16 @@ function getClosingTexts(hour, localPrefLatin) {
 
     if (hour === 'lesehore') {
         closing.lesehore = "Wenn eine andere Hore unmittelbar angeschlossen wird, entfallen hier Oration und Abschluss; dann folgt jetzt der Hymnus der anschließenden Hore.";
+        if (useCommemoration) {
+            closing.lesehore = closing.lesehore
+                .replace("entfallen hier Oration und", "entfällt hier der");
+        }
     }
 
     return closing;
 
 }
-export const ordinarium = (texts, hour = '', localPrefLatin = false, prefSollemnity = false) => {
+export const ordinarium = (texts, hour = '', localPrefLatin = false, prefSollemnity = false, useCommemoration = false) => {
 
     const languageToRead = localPrefLatin ? "lat" : "dt";
     if (hour === 'erstev') { hour = 'vesper' }
@@ -257,7 +261,7 @@ export const ordinarium = (texts, hour = '', localPrefLatin = false, prefSollemn
     }
 
     const openingTexts = getOpeningTexts(hour, localPrefLatin);
-    const closingTexts = getClosingTexts(hour, localPrefLatin);
+    const closingTexts = getClosingTexts(hour, localPrefLatin, useCommemoration);
 
     return {
         ...ordinariumTexts,
