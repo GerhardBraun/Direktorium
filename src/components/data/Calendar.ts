@@ -1566,7 +1566,7 @@ export const calendarData: CalendarData = {
             "button": "Hl. Matthias",
             "farbe": "r",
             "antev": "Einer von den Männern, die mit uns zusammen waren in der Zeit, als der Herr Jesus bei uns ein und aus ging – einer von diesen muss mit uns Zeuge für seine Auferstehung sein.",
-            "antev_lat": "Opórtet ex his viris, qui nobíscum sunt congregáti in omni témpore quo intrávit et exívit inter nos Dóminus Iesus, testem resurrectiónis eius nobíscum fíeri unum ex istis.^l^EINZUGÖ"
+            "antev_lat": "Opórtet ex his viris, qui nobíscum sunt congregáti in omni témpore quo intrávit et exívit inter nos Dóminus Iesus, testem resurrectiónis eius nobíscum fíeri unum ex istis.^lÖ"
           },
           "Vesper": {
             "antev": "Nicht ihr habt mich erwählt, sondern ich habe euch erwählt, damit ihr hingeht und Frucht bringt und eure Frucht bleibt.",

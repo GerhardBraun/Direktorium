@@ -24,7 +24,7 @@ const ordinariumData = {
     'vesper': {
         'dt': {
             "titel": "MAGNIFICAT",
-            "cant": "Meine Seele^r\u2009+\u2009^0rpreist°die°Größe°des°Herrn,^*und mein Geist jubelt über Gott, meinen Retter.^pDenn auf die Niedrigkeit seiner Magd hat°er°geschaut.^*Siehe, von nun an preisen mich selig alle Geschlechter!^pDenn der Mächtige hat°Großes°an°mir°getan,^*und sein Name ist heilig.^pEr erbarmt sich von°Geschlecht°zu°Geschlecht^*über alle, die ihn fürchten.^pEr vollbringt mit seinem Arm machtvolle°Taten;^*er zerstreut, die im Herzen voll Hochmut sind;^per stürzt die Mächtigen vom Thron^*und erhöht die Niedrigen.^pDie Hungernden beschenkt°er°mit°seinen°Gaben^*und lässt die Reichen leer ausgehn.^pEr nimmt sich seines°Knechtes°Israel°an^*und denkt an sein Erbarmen,^pdas er unsern Vätern verheißen hat,^*Abraham und seinen Nachkommen auf ewig.^pEhre sei dem Vater und dem Sohn^*und dem Heiligen Geist,^pwie im Anfang, so°auch°jetzt°und°alle°Zeit^*und in Ewigkeit. Amen.",
+            "cant": "Meine Seele^r\u2009+^0r preist°die°Größe°des°Herrn,^*und mein Geist jubelt über Gott, meinen Retter.^pDenn auf die Niedrigkeit seiner Magd hat°er°geschaut.^*Siehe, von nun an preisen mich selig alle Geschlechter!^pDenn der Mächtige hat°Großes°an°mir°getan,^*und sein Name ist heilig.^pEr erbarmt sich von°Geschlecht°zu°Geschlecht^*über alle, die ihn fürchten.^pEr vollbringt mit seinem Arm machtvolle°Taten;^*er zerstreut, die im Herzen voll Hochmut sind;^per stürzt die Mächtigen vom Thron^*und erhöht die Niedrigen.^pDie Hungernden beschenkt°er°mit°seinen°Gaben^*und lässt die Reichen leer ausgehn.^pEr nimmt sich seines°Knechtes°Israel°an^*und denkt an sein Erbarmen,^pdas er unsern Vätern verheißen hat,^*Abraham und seinen Nachkommen auf ewig.^pEhre sei dem Vater und dem Sohn^*und dem Heiligen Geist,^pwie im Anfang, so°auch°jetzt°und°alle°Zeit^*und in Ewigkeit. Amen.",
             "vu": "Vater unser im Himmel,^lgeheiligt werde dein Name.^lDein Reich komme.^lDein Wille geschehe^lwie im Himmel, so auf Erden.^lUnser tägliches Brot gib uns heute.^lUnd vergib uns unsere Schuld,^lwie auch wir vergeben unsern Schuldigern.^lUnd führe uns nicht in Versuchung,^lsondern erlöse uns von dem Bösen.",
             "closing": [
                 "Der Herr segne uns, er°bewahre°uns°vor°Unheil und°führe°uns°zum°ewigen°Leben.",
@@ -256,7 +256,7 @@ export const ordinarium = (texts, hour = '', localPrefLatin = false, prefSollemn
 
     if (['lesehore', 'vigil'].includes(hour) &&
         ((texts?.rank?.wt > 2 && texts?.season !== 'q')
-            || texts?.rank?.date > 2
+            || (texts?.rank?.date > 2 && texts?.rank.date > texts?.rank?.wt)
             || prefSollemnity)) {
         ordinariumTexts = ordinariumData?.TeDeum?.[languageToRead] || {};
     }

@@ -195,7 +195,7 @@ const SectionHeader = ({
 
     // Sprachwahl-Button anzeigen?
     let showLanguageToggle = !languages.includes('aus');
-    if (['VERGEBUNGSBITTE', 'VÄTERLESUNG'].includes(title)
+    if (['VERGEBUNGSBITTE', 'RESPONSORIUM', 'VÄTERLESUNG'].includes(title)
         || (title === 'SCHULDBEKENNTNIS' && ommitConfiteor)
         || (hour === 'invitatorium' && title === 'PSALMODIE')
         || (hour === 'lesehore' && /^(les_|resp|patr_)/.test(field))
@@ -238,7 +238,7 @@ const SectionHeader = ({
     // einfacher Header ohne Buttons
     if (!invPsalms && !showSources && !showLanguageToggle
         && !showPsalmsWt && !showContinuous && !showTSN && !showErgPs
-        && title !== 'SCHULDBEKENNTNIS'
+        && !["SCHULDBEKENNTNIS", "RESPONSORIUM", "BITTEN"].includes(title)
     ) return <h2
         className="prayer-heading"
         aria-hidden="true">

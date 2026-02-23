@@ -451,7 +451,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         .replace(/\^EINZUG/g, '') // Einzug bei Sprechzeilen-Gliederung im Messlektionar
         .replace(/^›|\^<|_lat|_neu|_ben|\^SLICE|\^APSHALL/g, '')
         .replace(/°/g, '\u00A0')
-        .replace(/([^ \n^]*)\^\*/g, isAps ? '$1\u00A0^r*^0r\n' : '^STAR$1^0STAR')
+        .replace(/(?<!\^)(?<!\^0)([^ \n^]*)\^\*/g, isAps ? '$1\u00A0^r*^0r\n' : '^STAR$1^0STAR')
         .replace(/\^\+/g, isAps ? '\u00A0^r†^0r\n' : '\u00A0†\n')
         .replace(/\^\//g, (() => {
             // Wenn keine ^/-Tags vorhanden oder maxLineLength <= widthForHymns, dann Leerzeichen
