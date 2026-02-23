@@ -206,7 +206,7 @@ export const getValue = ({
         //Sonderfall Bahnlesung
         if (localPrefContinuous && hour === 'lesehore') {
             if (/^(patr_)/.test(field) ||
-                (/^(les_|resp)/.test(field) && (!localPrefComm || hasObligFirstReading)
+                (/^(les_|resp)/.test(field) // && (!localPrefComm || hasObligFirstReading)
                 ))
                 return result(texts[hour]?.wt)
         }

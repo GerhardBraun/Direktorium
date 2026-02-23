@@ -155,7 +155,8 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
                     ${ant.color}
                     ${selectedAntSeason === ant.season
                             ? 'ring-2 ring-yellow-500' : ''}`}                >
-                    <div className="flex items-baseline">
+                    <div className="flex items-baseline"
+                        aria-hidden="true">
                         <div>
                             {formatPrayerText(ant[`title${suffixLatin}`])}
                         </div>

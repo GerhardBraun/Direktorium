@@ -34,7 +34,8 @@ const KompletSelector = ({
     };
 
     return (
-        <div className={`grid grid-cols-11 gap-2 ${className}`}>
+        <div className={`grid grid-cols-11 gap-2 ${className}`}
+            aria-hidden="true">
             <button
                 onClick={() => handleKompletSelect('wt')}
                 className={`col-span-5 ${getButtonStyle('wt')}`}

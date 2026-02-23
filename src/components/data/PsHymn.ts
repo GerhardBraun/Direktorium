@@ -3131,7 +3131,7 @@ export const psalmsData = {
     0.0: {
         "verses": "vgl.°1°Petr°2,21–24",
         "title": "Das freiwillige Leiden des Gottesknechtes",
-        "text": "Christus hat für uns gelitten^+und uns ein Beispiel gegeben,^*damit ihr ihm folgen auf seinem Weg.^pEr hat keine Sünde begangen^*und in seinem Mund war keine Falschheit.^pAls er geschmäht wurde, schmähte°er°nicht,^+als er litt, drohte er nicht,^*sondern überließ seine Sache dem gerechten Richter.^pEr hat unsere Sünden mit°seinem°eigenen°Leib^+auf das Holz des Kreuzes getragen,^*damit wir tot sind für die Sünden und leben für°die°Gerechtigkeit.^pDurch seine Wunden^*sind wir geheilt.",
+        "text": "Christus hat für uns gelitten^+und uns ein Beispiel gegeben,^*damit wir ihm folgen auf seinem Weg.^pEr hat keine Sünde begangen^*und in seinem Mund war keine Falschheit.^pAls er geschmäht wurde, schmähte°er°nicht,^+als er litt, drohte er nicht,^*sondern überließ seine Sache dem gerechten Richter.^pEr hat unsere Sünden mit°seinem°eigenen°Leib^+auf das Holz des Kreuzes getragen,^*damit wir tot sind für die Sünden und leben für°die°Gerechtigkeit.^pDurch seine Wunden^*sind wir geheilt.",
         "title_lat": "De passione voluntaria servi Dei, Christi",
         "text_lat": "Christus passus est pro nobis,^+vobis relínquens exémplum,^*ut sequámini vestígia eius:^pqui peccátum non fecit,^*nec invéntus est dolus in ore ipsíus;^pqui cum maledicerétur, non remaledicébat;^+cum paterétur, non comminábatur, ^*commendábat autem iuste iudicánti;^pqui peccáta nostra ipse pértulit^*in córpore suo super lignum,^put peccátis mórtui iustítiæ viverémus;^*cuius livóre sanáti estis."
       }
