@@ -54,7 +54,8 @@ const MatutinDisplay = ({
                                 <h2 className="prayer-heading">{`${ordinalZahlen[index]} LESUNG`}</h2>
                                 <div className="mb-2">
                                     <span className='mr-3'>{formatPrayerText(buch)}</span>
-                                    <span className='inline-block whitespace-nowrap text-[0.9em] text-gray-400'>
+                                    <span className='inline-block whitespace-nowrap text-[0.9em] text-gray-400'
+                                        aria-hidden="true">
                                         {formatBibleRef(matStelle[index])}
                                     </span>
                                 </div>

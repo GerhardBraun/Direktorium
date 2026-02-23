@@ -323,7 +323,7 @@ const HymnSelector = ({ texts, hour, season,
 
     if (availableHymns.length === 1) {
         return (
-            <div className="w-full">
+            <div className="w-full -mb-2">
                 {formatPrayerText(availableHymns[0].text)}
             </div>
         );
@@ -371,7 +371,7 @@ const HymnSelector = ({ texts, hour, season,
                 </div>
             )}
             {selectedHymn && (
-                <div className="mt-5">
+                <div className="mt-5 -mb-2">
                     {formatPrayerText(
                         availableHymns.find(h => h.id === selectedHymn)?.text
                     )}

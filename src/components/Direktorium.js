@@ -739,7 +739,7 @@ const PrayerTextDisplay = ({
         )}
 
         {(getValue("psalm1") || hour === "invitatorium") && (
-          <div className="mb-0">
+          <div className="my-0">
             <SectionHeader
               title={"PSALMODIE"}
               field="psalm1"
@@ -936,7 +936,8 @@ const PrayerTextDisplay = ({
         )}
 
         {ordinariumTexts.closing.lesehore && (
-          <div className="mt-3 long-rubric">
+          <div className="mt-3 long-rubric"
+            aria-hidden="true">
             {ordinariumTexts.closing.lesehore}
           </div>
         )}
@@ -1046,7 +1047,8 @@ const PrayerTextDisplay = ({
           )}
 
         {ordinariumTexts.closing.lhCommemoration && (
-          <div className="mt-3 long-rubric">
+          <div className="mt-3 long-rubric"
+            aria-hidden="true">
             {ordinariumTexts.closing.lhCommemoration}
           </div>
         )}
@@ -1126,7 +1128,7 @@ export default function Stundenbuch() {
     showDatePicker
   );
   const [baseFontFamily, setBaseFontFamily] = useState(
-    () => localStorage.getItem("baseFontFamily") || "cambria, serif"
+    () => localStorage.getItem("baseFontFamily") || "cambria, georgia, serif"
   );
   const [isReady, setIsReady] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);

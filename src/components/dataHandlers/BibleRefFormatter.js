@@ -81,18 +81,18 @@ const formatBibleRef = (text, bracket = false) => {
             case '–':
                 if (!inVerseSection) {
                     addCurrentText();
-                    currentText += '–\u200c';
+                    currentText += '–\u2060';
                 } else {
                     if (!nextPunctuationType) {
-                        currentText += '–\u200c';
+                        currentText += '–\u2060';
                     } else if (nextPunctuationType === ',') {
                         addCurrentText();
                         inVerseSection = false;
-                        currentText += '\u00a0–\u200c\u00A0';
+                        currentText += '\u00a0–\u00A0';
                     } else if (nextPunctuationType === '–') {
                         return originalText;
                     } else {
-                        currentText += '–\u200c';
+                        currentText += '–\u2060';
                     }
                 }
                 break;

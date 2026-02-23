@@ -1,50 +1,4 @@
-interface Lecture2Entry {
-  versikel0?: string;
-  versikel1?: string;
-  les_buch?: string;
-  les_stelle?: string;
-  les_text?: string;
-  resp1?: string;
-  resp2?: string;
-  resp3?: string;
-  patr_autor?: string;
-  patr_werk?: string;
-  patr_text?: string;
-  patr_resp1?: string;
-  patr_resp2?: string;
-  patr_resp3?: string;
-  oration?: string;
-  // Neue Messe-Felder
-  ms_les_buch?: string;
-  ms_les_stelle?: string;
-  ms_les_motto?: string;
-  ms_les_text?: string;
-  ms_aps_stelle?: string;
-  ms_aps_kv?: string;
-  ms_aps_text?: string;
-  ms_les2_buch?: string;
-  ms_les2_stelle?: string;
-  ms_les2_motto?: string;
-  ms_les2_text?: string;
-  ms_ruf_stelle?: string;
-  ms_ruf_text?: string;
-  ms_ev_buch?: string;
-  ms_ev_stelle?: string;
-  ms_ev_motto?: string;
-  ms_ev_text?: string;
-}
-
-interface Lecture2Data {
-  [season: string]: {
-    [week: string]: {
-      [day: string]: {
-        [hour: string]: Lecture2Entry;
-      };
-    };
-  };
-}
-
-export const lecture2Data = {
+{
   "a": {
     "1": {
       "0": {
@@ -8149,4 +8103,4 @@ export const lecture2Data = {
       }
     }
   }
-};
+}

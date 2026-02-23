@@ -142,7 +142,8 @@ const MassReadings = ({
         return (
             <div >
                 <h2 className="prayer-heading">{title}</h2>
-                <div className="mb-2 text-[0.9em] text-gray-400">
+                <div className="mb-2 text-[0.9em] text-gray-400"
+                    aria-hidden="true">
                     <div>
                         {formatBibleRef(book + " " + stelle)}
                     </div>
@@ -151,7 +152,7 @@ const MassReadings = ({
                     </div>
                 </div>
                 <div>{formatPrayerText(text)}</div>
-            </div>
+            </div >
         );
     };
 
@@ -192,7 +193,8 @@ const MassReadings = ({
                     {ms_aps_text && (
                         <div className="my-8">
                             <h2 className="prayer-heading">ANTWORTPSALM</h2>
-                            <div className="mb-3 text-[0.9em] text-gray-400">
+                            <div className="mb-3 text-[0.9em] text-gray-400"
+                                aria-hidden="true">
                                 {formatBibleRef(ms_aps_stelle)}
                             </div>
                             {ms_aps_kv && (
@@ -221,7 +223,8 @@ const MassReadings = ({
                         <div className="my-8">
                             <h2 className="prayer-heading">RUF VOR DEM EVANGELIUM</h2>
                             {ruf_stelle && (
-                                <div className="mb-1 text-[0.9em] text-gray-400">
+                                <div className="mb-1 text-[0.9em] text-gray-400"
+                                    aria-hidden="true">
                                     {formatBibleRef(ruf_stelle)}
                                 </div>
                             )}

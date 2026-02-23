@@ -511,7 +511,8 @@ const LectureSelector = ({
                     {/* Anzeige der ersten Lesung */}
                     <div>
                         {!['lesehore', 'vigil'].includes(hour) && (
-                            <div className="text-[0.9em] text-gray-400">
+                            <div className="text-[0.9em] text-gray-400"
+                                aria-hidden="true">
                                 {formatPrayerText(selected("les_buch"))}{" "}
                                 {formatBibleRef(selected("les_stelle"))}
                             </div>
@@ -522,7 +523,8 @@ const LectureSelector = ({
                                     <span className="mr-3">
                                         {formatPrayerText(selected("les_buch"))}
                                     </span>
-                                    <span className="inline-block whitespace-nowrap text-[0.9em] text-gray-400">
+                                    <span className="inline-block whitespace-nowrap text-[0.9em] text-gray-400"
+                                        aria-hidden="true">
                                         {formatBibleRef(selected("les_stelle"))}
                                     </span>
                                 </div>

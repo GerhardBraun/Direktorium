@@ -148,7 +148,7 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
 
     try {
         // Layer 0: Ordinary texts from multiple sources
-        const sourcesToCheck = ['wt', 'soll', 'kirchww', 'verstt'];
+        const sourcesToCheck = ['wt', 'soll'];
         sourcesToCheck.forEach(source => {
             const ordData = brevierData?.[source]?.['each'];
             const ordEvenData = brevierData?.[source]?.['even'];

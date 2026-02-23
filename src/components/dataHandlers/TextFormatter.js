@@ -451,7 +451,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         .replace(/\^EINZUG/g, '') // Einzug bei Sprechzeilen-Gliederung im Messlektionar
         .replace(/^›|\^<|_lat|_neu|_ben|\^SLICE|\^APSHALL/g, '')
         .replace(/°/g, '\u00A0')
-        .replace(/\^\*/g, isAps ? '\u00A0^r*^0r\n' : '^muteSTAR')
+        .replace(/\^\*/g, isAps ? '\u00A0^r*^0r\n' : '\u00a0^muteSTAR')
         .replace(/\^\+/g, isAps ? '\u00A0^r†^0r\n' : '\u00A0†\n')
         .replace(/\^\//g, (() => {
             // Wenn keine ^/-Tags vorhanden oder maxLineLength <= widthForHymns, dann Leerzeichen
@@ -462,9 +462,9 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
             return (maxLineLength > 0 && maxLineLength > widthForHymns) ? '\n      ' : ' ';
         })())
         .replace(/\^-/g, '\u2011')
-        .replace(/(\w)–/g, '$1\u200C–')
-        .replace(/–(\w)/g, '–\u200C$1')
-        .replace(/([0-9])-([0-9])/g, '$1\u200C\u2013\u200C$2')
+        .replace(/(\w)–/g, '$1\u2060–')
+        .replace(/–(\w)/g, '–\u2060$1')
+        .replace(/([0-9])-([0-9])/g, '$1\u2060\u2013\u2060$2')
         .replace(/>([aeiouæm])/g, '^ELL$1^0ELL')
         .replace(/\^([()[\]†])/g, '^r$1^0r')
         .replace(/ \^w/g, '^w ')
@@ -543,7 +543,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
                 return <span key={`italic-${index}`} style={{ fontStyle: 'italic' }}>{content}</span>;
             } else if (segment.startsWith('^ELL')) {
                 const content = segment.substring(4, segment.length - 5);
-                return <span key={`ellipsis-${index}`} className='text-gray-500 dark:text-gray-400 italic' >{content}</span>;
+                return <span key={`ellipsis-${index}`} className='text-gray-500 dark:text-gray-400 italic' aria-hidden="true">{content}</span>;
             } else if (segment.startsWith('^RUBR')) {
                 const content = segment.substring(5, segment.length - 6);
                 return <span key={`long-rubric-${index}`} className="long-rubric" aria-hidden="true">{content}</span>;
@@ -551,7 +551,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
                 return (
                     <React.Fragment key={`mute-star-${index}`}>
                         <span className="sr-only">.</span>
-                        <span aria-hidden="true">{'\u00a0*\n'}</span>
+                        <span aria-hidden="true">{'*\n'}</span>
                     </React.Fragment>
                 );
             } else if (segment.match(/^§FN\d+§$/)) {
@@ -667,7 +667,8 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
                                 <div key={index}
                                     className="whitespace-pre-wrap mb-[0.75em]
                                 text-gray-500 dark:text-gray-400 text-[0.95em]
-                                leading-[1.2em]">
+                                leading-[1.2em]"
+                                    aria-hidden="true">
                                     {processedContent}
                                 </div>
                             )
