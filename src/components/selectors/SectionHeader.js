@@ -181,7 +181,7 @@ const SectionHeader = ({
         && !(prefSollemnity || rank.date === 5 || rank.wt === 5);
     // Bestimme ausgeschlossene Horen für TSN basierend auf Ergänzungspsalmodie
     const excludedHours = getExcludedHours(texts, localPrefErgPs, title);
-
+    const showLongformToggle = ["RESPONSORIUM", "BITTEN"].includes(title) && ['erstev', 'laudes', 'vesper'].includes(hour);
     const invPsalms = (hour === 'invitatorium' && title === 'PSALMODIE')
         ? texts?.invitatorium?.psalms : null;
     let invPsalmsToShow = [95, 100, 67, 24];
@@ -236,9 +236,9 @@ const SectionHeader = ({
         skipCommune = true;
 
     // einfacher Header ohne Buttons
-    if (!invPsalms && !showSources && !showLanguageToggle
+    if (!invPsalms && !showSources && !showLanguageToggle && !showLongformToggle
         && !showPsalmsWt && !showContinuous && !showTSN && !showErgPs
-        && !["SCHULDBEKENNTNIS", "RESPONSORIUM", "BITTEN"].includes(title)
+        && !["SCHULDBEKENNTNIS"].includes(title)
     ) return <h2
         className="prayer-heading"
         aria-hidden="true">
@@ -308,7 +308,7 @@ const SectionHeader = ({
                     {")"}
                 </ButtonGroup>
             )}
-            {["RESPONSORIUM", "BITTEN"].includes(title) && (
+            {showLongformToggle && (
                 <ButtonGroup>
                     <button
                         onClick={() => { setLocalPrefLongform(false); setLocalStorage('prefLongform', 'false'); }}

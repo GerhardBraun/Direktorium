@@ -552,7 +552,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
                 return (
                     <React.Fragment key={`mute-star-${index}`}>
                         <span style={{ whiteSpace: 'nowrap' }}>
-                            {tail}
+                            {tail && processInlineFormats(tail)}
                             <span className="sr-only">.</span>
                             <span aria-hidden="true">{'\u00a0*'}</span>
                         </span>
