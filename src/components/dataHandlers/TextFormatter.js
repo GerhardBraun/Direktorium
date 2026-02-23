@@ -451,7 +451,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         .replace(/\^EINZUG/g, '') // Einzug bei Sprechzeilen-Gliederung im Messlektionar
         .replace(/^›|\^<|_lat|_neu|_ben|\^SLICE|\^APSHALL/g, '')
         .replace(/°/g, '\u00A0')
-        .replace(/\^\*/g, isAps ? '\u00A0^r*^0r\n' : '\u00a0^muteSTAR')
+        .replace(/([^ \n^]*)\^\*/g, isAps ? '$1\u00A0^r*^0r\n' : '^STAR$1^0STAR')
         .replace(/\^\+/g, isAps ? '\u00A0^r†^0r\n' : '\u00A0†\n')
         .replace(/\^\//g, (() => {
             // Wenn keine ^/-Tags vorhanden oder maxLineLength <= widthForHymns, dann Leerzeichen
@@ -520,7 +520,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
             .replace(/\^l/g, '\n')
 
         // ERWEITERTE REGEX um Satzzeichen-Marker zu erfassen
-        const segments = text.split(/(\^RUBR.*?\^0RUBR|\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^c.*?\^0c|\^k.*?\^0k|\^ELL.*?\^0ELL|§FN\d+§|§PUNCT\d+§|\^muteSTAR)/g).filter(Boolean);
+        const segments = text.split(/(\^RUBR.*?\^0RUBR|\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^c.*?\^0c|\^k.*?\^0k|\^ELL.*?\^0ELL|§FN\d+§|§PUNCT\d+§|\^STAR.*?\^0STAR)/g).filter(Boolean);
 
         return segments.map((segment, index) => {
             if (segment.startsWith('^r')) {
@@ -547,11 +547,16 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
             } else if (segment.startsWith('^RUBR')) {
                 const content = segment.substring(5, segment.length - 6);
                 return <span key={`long-rubric-${index}`} className="long-rubric" aria-hidden="true">{content}</span>;
-            } else if (segment === '^muteSTAR') {
+            } else if (segment.startsWith('^STAR')) {
+                const tail = segment.substring(5, segment.length - 6);
                 return (
                     <React.Fragment key={`mute-star-${index}`}>
-                        <span className="sr-only">.</span>
-                        <span aria-hidden="true">{'*\n'}</span>
+                        <span style={{ whiteSpace: 'nowrap' }}>
+                            {tail}
+                            <span className="sr-only">.</span>
+                            <span aria-hidden="true">{'\u00a0*'}</span>
+                        </span>
+                        {'\n'}
                     </React.Fragment>
                 );
             } else if (segment.match(/^§FN\d+§$/)) {
