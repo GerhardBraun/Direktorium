@@ -96,11 +96,11 @@ den Tag verteilt gebetet werden. Jede Hore hat eine feste Struktur:
 | Hore | Key in App | Tageszeit | Bestandteile |
 |------|------------|-----------|--------------|
 | Erste Vesper | `erstev` | Vorabend | wie Vesper |
-| Invitatorium | `invitatorium` | Tagesbeginn | Antiphon + Psalm 94/99 |
+| Invitatorium | `invitatorium` | Tagesbeginn | Antiphon + Psalm |
 | Lesehore | `lesehore` | beliebig | Hymnus, Psalmen, 2 Lesungen mit Responsorien, (Te Deum), Oration |
-| Laudes | `laudes` | Morgen | Hymnus, Psalmen, Canticum, Kurzlesung, Benedictus-Ant., Bitten, Oration |
+| Laudes | `laudes` | Morgen | Hymnus, Psalmen, Canticum, Kurzlesung, Benedictus, Bitten, Oration |
 | Terz/Sext/Non | `terz`/`sext`/`non` | ca. 9/12/15 Uhr | Hymnus, Psalmen, Kurzlesung, Versikel, Oration |
-| Vesper | `vesper` | Abend | Hymnus, Psalmen, Canticum, Kurzlesung, Magnificat-Ant., Fürbitten, Oration |
+| Vesper | `vesper` | Abend | Hymnus, Psalmen, Canticum, Kurzlesung, Magnificat, Fürbitten, Oration |
 | Komplet | `komplet` | Nacht | Hymnus, Psalmen, Kurzlesung, Nunc dimittis, Oration, Marianische Antiphon |
 
 ### 3.2 Proprium und Ordinarium
@@ -125,7 +125,7 @@ unterschiedliche Regeln, welche Texte verwendet werden:
 
 Alle Texte werden vom laufenden Wochentag im Psalterium genommen.
 
-### 4.2 Nichtgebotener Gedenktag (rank 1)
+### 4.2 Nichtgebotener Gedenktag (rank 0)
 
 Der Nutzer **kann** den Gedenktag feiern oder den Wochentag beten.
 Will er den Gedenktag feiern, gilt wie bei gebotenen Gedenktagen (→ 4.3).
@@ -155,7 +155,7 @@ Wie Hochfest (→ 4.5), mit diesen Unterschieden:
 - Kleine Horen: Psalmen vom Wochentag (wenn nicht eigen)
 - Komplet: vom Wochentag
 
-### 4.5 Hochfest (rank 4, `soll`)
+### 4.5 Hochfest (rank 5, `soll`)
 
 Nichts wird vom Wochentag genommen. Was nicht eigen ist, kommt aus
 dem Commune bzw. Ordinarium:
@@ -166,7 +166,7 @@ dem Commune bzw. Ordinarium:
 - **Kleine Horen**: Psalmen vom Sonntag der 1. Woche (wenn nicht eigen)
 - **Komplet**: Sonntagskomplet (nicht Wochentagskomplet!)
 
-### 4.6 Kommemoration (Sonderfall in Advent/Fastenzeit)
+### 4.6 Kommemoration (Sonderfall in Advent, Weihnachtsoktav und Fastenzeit)
 
 In bestimmten Zeiten (17.–31. Dezember und Fastenzeit) können Gedenktage
 nicht regulär begangen werden. Stattdessen gibt es eine **Kommemoration**:

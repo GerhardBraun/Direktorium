@@ -2159,16 +2159,16 @@ export default function Stundenbuch() {
                   )}
                 </>)}
 
-                {/* StB Button */}
+                {/* Menü-Button */}
                 <button
                   onClick={() => {
                     setViewMode("prayer");
                     window.scrollTo({ top: 0, behavior: 'instant' });
                   }}
-                  className="shrink-0 px-3 p-2 bg-orange-100 dark:bg-yellow-400/60 hover:bg-orange-200 dark:hover:bg-yellow-400/70 rounded"
+                  className="shrink-0 p-2 bg-orange-100 dark:bg-yellow-400/60 hover:bg-orange-200 dark:hover:bg-yellow-400/70 rounded"
                   title="Stundengebet"
                 >
-                  StB
+                  Menü
                 </button>
               </div>
             </div>
