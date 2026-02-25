@@ -1828,6 +1828,39 @@ export default function Stundenbuch() {
 
             <div className="border-t dark:border-gray-700"></div>
 
+            {/* Kontaktadresse */}
+            <div className="px-3 py-2 text-sm mb-0">
+              <div className="font-semibold text-gray-500 dark:text-gray-400">
+                Kontakt
+              </div>
+              <div className="text-center text-gray-700 dark:text-gray-300">
+                <a
+                  href="mailto:direktorium@bistum-fulda.de"
+                  className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
+                >
+                  direktorium@bistum-fulda.de
+                </a>
+              </div>
+            </div>
+
+            {/* Personal Settings Section */}
+            <div className="px-3 py-2 border-t dark:border-gray-700">
+              <button
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  setViewMode("settings");
+                  toggleMenu();
+                }}
+                onContextMenu={handleMariendonk}
+                className="w-full px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300
+            rounded bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700"
+              >
+                Einstellungen
+              </button>
+            </div>
+            <div className="border-t dark:border-gray-700"></div>
+
             {/* Deceased Section */}
             {localStorage.getItem('diocese') === 'Fulda' && (<div
               className={`px-3 py-2 cursor-pointer ${activeSection === "deceased"
@@ -1930,37 +1963,6 @@ export default function Stundenbuch() {
               </div>
             </div>
             )}
-            <div className="px-3 py-2 text-sm mb-0">
-              <div className="font-semibold text-gray-500 dark:text-gray-400">
-                Kontakt
-              </div>
-              <div className="text-center text-gray-700 dark:text-gray-300">
-                <a
-                  href="mailto:direktorium@bistum-fulda.de"
-                  className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
-                >
-                  direktorium@bistum-fulda.de
-                </a>
-              </div>
-            </div>
-
-            {/* Personal Settings Section */}
-            <div className="px-3 py-2 border-t dark:border-gray-700">
-              <button
-                onClick={(e) => {
-                  e.preventDefault();
-                  e.stopPropagation();
-                  setViewMode("settings");
-                  toggleMenu();
-                }}
-                onContextMenu={handleMariendonk}
-                className="w-full px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300
-            rounded bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700"
-              >
-                Einstellungen
-              </button>
-            </div>
-            <div className="border-t dark:border-gray-700"></div>
           </div>
         )}
       </div>
@@ -2145,7 +2147,7 @@ export default function Stundenbuch() {
               {/* Right-aligned controls wrapper */}
 
               <div className="flex items-center gap-2 ml-auto">
-                {/* WakeLock indicator */}
+                {/* WakeLock indicator - ausgeblendet durch viewMode='ausblenden' */}
                 {viewMode === "ausblenden" && (<>
                   {wakeLock.isSupported ? (
                     <MonitorCheck
