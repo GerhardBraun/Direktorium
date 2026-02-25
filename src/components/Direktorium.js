@@ -1647,46 +1647,46 @@ export default function Stundenbuch() {
           <div className="fixed sm:absolute left-0 sm:left-auto right-0 sm:right-auto top-16 sm:top-auto sm:mt-2 mx-4 sm:mx-0 w-80 bg-white/90 dark:bg-gray-700/95 rounded-lg shadow-lg border dark:border-gray-600 z-50">
             {/* Font Size Section */}
             <div
-              className={`px-3 py-2 cursor-pointer ${activeSection === "fontSize"
+              className={`px-3 py-1 cursor-pointer ${activeSection === "fontSize"
                 ? "bg-gray-100 dark:bg-gray-600"
                 : ""
                 }`}
               onClick={() => handleSectionChange(sections.indexOf("fontSize"))}
             >
-              <div className="text-sm font-semibold text-gray-500 dark:text-gray-400">
-                Schriftgröße
-              </div>
-              <div className="mt-2 flex items-center justify-center gap-3">
-                <button
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    handleFontSizeChange(false);
-                  }}
-                  className="px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300"
-                >
-                  –
-                </button>
-                <span className="w-2 text-center">{tempFontSize}</span>
-                <span className="text-sm text-gray-500 dark:text-gray-400">
-                  pt
-                </span>
-                <button
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    handleFontSizeChange(true);
-                  }}
-                  className="px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300"
-                >
-                  +
-                </button>
+              <div className="flex items-center gap-3">
+                <div className="text-sm font-semibold text-gray-500 dark:text-gray-400">
+                  Schriftgröße
+                </div>
+                <div className="flex items-center gap-2">
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleFontSizeChange(false);
+                    }}
+                    className="px-2 py-0.5 bg-gray-100 dark:bg-gray-700 rounded hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300"
+                  >
+                    –
+                  </button>
+                  <span className="w-5 text-center text-sm text-gray-700 dark:text-gray-300">{tempFontSize}</span>
+                  <span className="text-sm text-gray-500 dark:text-gray-400">pt</span>
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleFontSizeChange(true);
+                    }}
+                    className="px-2 py-0.5 bg-gray-100 dark:bg-gray-700 rounded hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300"
+                  >
+                    +
+                  </button>
+                </div>
               </div>
             </div>
 
             <div className="border-t dark:border-gray-700"></div>
 
             {/* Font Family Section */}
-            <div className="px-3 py-2">
-              <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
+            <div className="px-3 py-1">
+              <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-1">
                 Schriftart
               </div>
               <div className="flex gap-1">
@@ -1712,11 +1712,11 @@ export default function Stundenbuch() {
 
             {/* Theme Section */}
             <div
-              className={`px-3 py-2 cursor-pointer ${activeSection === "theme" ? "bg-gray-100 dark:bg-gray-600" : ""
+              className={`px-3 py-1 cursor-pointer ${activeSection === "theme" ? "bg-gray-100 dark:bg-gray-600" : ""
                 }`}
               onClick={() => handleSectionChange(sections.indexOf("theme"))}
             >
-              <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
+              <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-1">
                 Design
               </div>
               <div className="flex gap-1">
@@ -1753,17 +1753,17 @@ export default function Stundenbuch() {
 
             {/* Sprache Section */}
             <div
-              className={`px-3 py-2 cursor-pointer ${activeSection === "language" ? "bg-gray-100 dark:bg-gray-600" : ""
+              className={`px-3 py-1 cursor-pointer ${activeSection === "language" ? "bg-gray-100 dark:bg-gray-600" : ""
                 }`}
               onClick={() => handleSectionChange(sections.indexOf("language"))}
             >
-              <div className="flex items-baseline gap-2 mb-1">
+              <div className="flex items-baseline gap-2 mb-0">
                 <div className="text-sm font-semibold text-gray-500 dark:text-gray-400">
                   Sprache/Übersetzung
                 </div>
                 <LanguageProgress />
               </div>
-              <div className="mb-2 text-xs text-gray-500 dark:text-gray-400">
+              <div className="mb-1 text-xs text-gray-500 dark:text-gray-400">
                 {renderDescriptionItem("Stundenbuch:", "Einheitsübersetzung von 1983", false)}
                 {renderDescriptionItem("lat.:", "Nova Vulgata")}
                 {unlockBenedictine && renderDescriptionItem("Ben:", "Benediktinisches Antiphonale / Münsterschwarzacher Psalter")}
@@ -1775,7 +1775,7 @@ export default function Stundenbuch() {
                 {unlockBenedictine && LanguageButton("_ben", "Ben")}
                 {LanguageButton("_neu", "neu")}
               </div>
-              <div className="mt-2 text-xs text-gray-500 dark:text-gray-400">
+              <div className="mt-1 text-xs text-gray-500 dark:text-gray-400">
                 <p><b>Grundeinstellung:</b> {getLanguageName(storedPrefLanguage)}</p>
                 <p className="text-xs italic">(lange drücken zum Speichern als Grundeinstellung)</p>
               </div>
@@ -1785,7 +1785,7 @@ export default function Stundenbuch() {
 
             {/* Fußnoten Section */}
             <div
-              className={`px-3 py-2 cursor-pointer ${activeSection === "footnotes"
+              className={`px-3 py-1 cursor-pointer ${activeSection === "footnotes"
                 ? "bg-gray-100 dark:bg-gray-600"
                 : ""
                 }`}
@@ -1794,7 +1794,7 @@ export default function Stundenbuch() {
               <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-0">
                 Fußnoten
               </div>
-              <div className="text-xs text-gray-500 dark:text-gray-400 mb-2">
+              <div className="text-xs text-gray-500 dark:text-gray-400 mb-1">
                 zur Zweiten Lesung der Lesehore</div>
               <div className="flex gap-1">
                 <button
@@ -1828,42 +1828,9 @@ export default function Stundenbuch() {
 
             <div className="border-t dark:border-gray-700"></div>
 
-            {/* Kontaktadresse */}
-            <div className="px-3 py-2 text-sm mb-0">
-              <div className="font-semibold text-gray-500 dark:text-gray-400">
-                Kontakt
-              </div>
-              <div className="text-center text-gray-700 dark:text-gray-300">
-                <a
-                  href="mailto:direktorium@bistum-fulda.de"
-                  className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
-                >
-                  direktorium@bistum-fulda.de
-                </a>
-              </div>
-            </div>
-
-            {/* Personal Settings Section */}
-            <div className="px-3 py-2 border-t dark:border-gray-700">
-              <button
-                onClick={(e) => {
-                  e.preventDefault();
-                  e.stopPropagation();
-                  setViewMode("settings");
-                  toggleMenu();
-                }}
-                onContextMenu={handleMariendonk}
-                className="w-full px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300
-            rounded bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700"
-              >
-                Einstellungen
-              </button>
-            </div>
-            <div className="border-t dark:border-gray-700"></div>
-
             {/* Deceased Section */}
             {localStorage.getItem('diocese') === 'Fulda' && (<div
-              className={`px-3 py-2 cursor-pointer ${activeSection === "deceased"
+              className={`px-3 py-1 cursor-pointer ${activeSection === "deceased"
                 ? "bg-gray-100 dark:bg-gray-600"
                 : ""
                 }`}
@@ -1872,7 +1839,7 @@ export default function Stundenbuch() {
               <div className="mb-0 text-sm font-semibold text-gray-500 dark:text-gray-400 mb-0">
                 Verstorbene
               </div>
-              <div className="mb-2 grid gap-x-2 text-xs text-gray-500 dark:text-gray-400"
+              <div className="mb-1 grid gap-x-2 text-xs text-gray-500 dark:text-gray-400"
                 style={{ gridTemplateColumns: `min-content 1fr` }}
               >
                 <div className="text-gray-700 dark:text-gray-300 ">
@@ -1928,7 +1895,7 @@ export default function Stundenbuch() {
                 }`}
               onClick={() => handleSectionChange(sections.indexOf("view"))}
             >
-              <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-2">
+              <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-1">
                 Verzeichnis
               </div>
               <div className="flex gap-1">
@@ -1963,6 +1930,40 @@ export default function Stundenbuch() {
               </div>
             </div>
             )}
+
+            <div className="border-t dark:border-gray-700"></div>
+
+            {/* Kontaktadresse */}
+            <div className="px-3 py-1 text-sm mb-0 flex items-center gap-3">
+              <div className="font-semibold text-gray-500 dark:text-gray-400">
+                Kontakt
+              </div>
+              <div className="text-gray-700 dark:text-gray-300">
+                <a
+                  href="mailto:direktorium@bistum-fulda.de"
+                  className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
+                >
+                  direktorium@bistum-fulda.de
+                </a>
+              </div>
+            </div>
+
+            {/* Personal Settings Section */}
+            <div className="px-3 py-1 border-t dark:border-gray-700">
+              <button
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  setViewMode("settings");
+                  toggleMenu();
+                }}
+                onContextMenu={handleMariendonk}
+                className="w-full px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300
+            rounded bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700"
+              >
+                Einstellungen
+              </button>
+            </div>
           </div>
         )}
       </div>
