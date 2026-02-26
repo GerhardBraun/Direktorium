@@ -11,6 +11,8 @@ interface PsalmSection {
   text_lat?: string;
   text_neu?: string;
   text_ben?: string;
+  text_cant?: string;
+  text_mode?: string;
 }
 
 interface PsalmsData {

@@ -520,7 +520,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
             .replace(/\^l/g, '\n')
 
         // ERWEITERTE REGEX um Satzzeichen-Marker zu erfassen
-        const segments = text.split(/(\^RUBR.*?\^0RUBR|\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^c.*?\^0c|\^k.*?\^0k|\^ELL.*?\^0ELL|§FN\d+§|§PUNCT\d+§|\^STAR.*?\^0STAR)/g).filter(Boolean);
+        const segments = text.split(/(\^RUBR.*?\^0RUBR|\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^c.*?\^0c|\^k.*?\^0k|\^u.*?\^0u|\^ELL.*?\^0ELL|§FN\d+§|§PUNCT\d+§|\^STAR.*?\^0STAR)/g).filter(Boolean);
 
         return segments.map((segment, index) => {
             if (segment.startsWith('^r')) {
@@ -541,6 +541,9 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
             } else if (segment.startsWith('^k')) {
                 const content = segment.substring(2, segment.length - 3);
                 return <span key={`italic-${index}`} style={{ fontStyle: 'italic' }}>{content}</span>;
+            } else if (segment.startsWith('^u')) {
+                const content = segment.substring(2, segment.length - 3);
+                return <span key={`underline-${index}`} style={{ textDecoration: 'underline' }}>{content}</span>;
             } else if (segment.startsWith('^ELL')) {
                 const content = segment.substring(4, segment.length - 5);
                 return <span key={`ellipsis-${index}`} className='text-gray-500 dark:text-gray-400 italic' aria-hidden="true">{content}</span>;

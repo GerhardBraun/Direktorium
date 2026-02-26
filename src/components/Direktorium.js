@@ -1526,9 +1526,11 @@ export default function Stundenbuch() {
       // Wenn der Wert bereits "true" oder "false" ist, umschalten
       if (currentValue === "true") {
         localStorage.setItem("mariendonk", "false");
+        alert("mariendonk: false");
         return;
       } else if (currentValue === "false") {
         localStorage.setItem("mariendonk", "true");
+        alert("mariendonk: true");
         return;
       }
 
@@ -1542,6 +1544,7 @@ export default function Stundenbuch() {
         }
         if (password === "mariendonk") {
           localStorage.setItem("mariendonk", "true");
+          alert("mariendonk: true");
           return;
         }
       } while (password !== "mariendonk");
@@ -1933,21 +1936,6 @@ export default function Stundenbuch() {
 
             <div className="border-t dark:border-gray-700"></div>
 
-            {/* Kontaktadresse */}
-            <div className="px-3 py-1 text-sm mb-0 flex items-center gap-3">
-              <div className="font-semibold text-gray-500 dark:text-gray-400">
-                Kontakt
-              </div>
-              <div className="text-gray-700 dark:text-gray-300">
-                <a
-                  href="mailto:direktorium@bistum-fulda.de"
-                  className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
-                >
-                  direktorium@bistum-fulda.de
-                </a>
-              </div>
-            </div>
-
             {/* Personal Settings Section */}
             <div className="px-3 py-1 border-t dark:border-gray-700">
               <button
@@ -1961,8 +1949,23 @@ export default function Stundenbuch() {
                 className="w-full px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300
             rounded bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700"
               >
-                Einstellungen
+                weitere Einstellungen
               </button>
+            </div>
+
+            {/* Kontaktadresse */}
+            <div className="px-3 py-1 text-sm mb-0 flex items-center gap-3">
+              <div className="font-semibold text-gray-500 dark:text-gray-400">
+                Kontakt:
+              </div>
+              <div className="text-gray-700 dark:text-gray-300">
+                <a
+                  href="mailto:direktorium@bistum-fulda.de"
+                  className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
+                >
+                  direktorium@bistum-fulda.de
+                </a>
+              </div>
             </div>
           </div>
         )}
