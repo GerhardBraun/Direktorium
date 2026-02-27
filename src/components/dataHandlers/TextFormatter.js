@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState, useRef, useEffect } from 'react';
 import formatBibleRef from './BibleRefFormatter.js';
 import { psalmsData } from '../data/PsHymn.ts';
 
@@ -118,6 +118,27 @@ const findOAntiphon = (data) => {
     return { "dt": antMagnificat, "lat": antMagnificat_lat };
 }
 
+const psalmToneImageSrc = (mode) => `${process.env.PUBLIC_URL}/images/psalmtones/${mode}.png`;
+
+const getDoxology = (localPrefLanguage, psalm) => {
+    if (localPrefLanguage === "_lat" && psalm.text_lat) {
+        return "Glória Patri et Fílio^*"
+            + "et Spirítui Sancto.^p"
+            + "Sicut erat in princípio^*"
+            + "et in sáecula saeculórum. Amen.";
+    }
+    if (localPrefLanguage === "_cant" && psalm.text_cant) {
+        return "Ehre sei dem |Vater 2und 1dem ||Sohn^*"
+            + "und dem 3|Hei2li1gen ||Geist,^p"
+            + "wie im Anfang, so°auch°2|jetzt°1und°||alle°Zeit^*"
+            + "und in 3|E2wig1keit. ||Amen.";
+    }
+    return "Ehre sei dem Vater und dem Sohn^*"
+        + "und dem Heiligen Geist,^p"
+        + "wie im Anfang, so°auch°jetzt°und°alle°Zeit^*"
+        + "und in Ewigkeit. Amen.";
+};
+
 // Formatiert Psalmen mit Nummer, Versen, Titel und Text
 export const formatPsalm = (psalmRef, num, localPrefLanguage = '') => {
     if (!psalmRef) return null;
@@ -131,11 +152,8 @@ export const formatPsalm = (psalmRef, num, localPrefLanguage = '') => {
     const title = !num ? '' : psalm[`title${localPrefLanguage}`] || psalm.title || "";
     const quote = !num ? '' : psalm[`quote${localPrefLanguage}`] || psalm.quote || "";
 
-    const doxology =
-        (localPrefLanguage === "_lat"
-            && psalm.text_lat)
-            ? "Glória Patri et Fílio^*et Spirítui Sancto.^pSicut erat in princípio, et°nunc°et°semper^*et in sǽcula sæculórum. Amen."
-            : "Ehre sei dem Vater und dem Sohn^*und dem Heiligen Geist,^pwie im Anfang, so°auch°jetzt°und°alle°Zeit^*und in Ewigkeit. Amen.";
+    const doxology = getDoxology(localPrefLanguage, psalm);
+    const cantMode = localPrefLanguage === '_cant' && psalm.text_cant ? psalm.text_mode : null;
 
     const ordinal = ['', 'Erstes ', 'Zweites ', 'Drittes ']
 
@@ -155,9 +173,24 @@ export const formatPsalm = (psalmRef, num, localPrefLanguage = '') => {
             {quote && <div className="text-[0.9em] leading-[1.1em] italic text-gray-400 -mt-[0.66em] mb-[0.66em]"
                 aria-hidden="true">
                 {formatQuote(quote)}</div>}
-            {text && <div className="whitespace-pre-wrap">{formatPrayerText(text, localPrefLanguage)}</div>}
-            {(![151, 160].includes(number) || (number === 151 && localPrefLanguage === "_lat")) &&
-                <div className="whitespace-pre-wrap">{formatPrayerText(doxology, localPrefLanguage)}</div>}
+            {cantMode
+                ? <PsalmCantDisplay
+                      psalm={psalm}
+                      text={text}
+                      doxology={doxology}
+                      localPrefLanguage={localPrefLanguage}
+                      number={number}
+                  />
+                : <>
+                      {text && <div className="whitespace-pre-wrap">
+                          {formatPrayerText(text, localPrefLanguage)}
+                      </div>}
+                      {(![151, 160].includes(number) || (number === 151 && localPrefLanguage === "_lat")) &&
+                          <div className="whitespace-pre-wrap">
+                              {formatPrayerText(doxology, localPrefLanguage)}
+                          </div>}
+                  </>
+            }
         </div>
     );
 };
@@ -214,11 +247,507 @@ export const formatText = (text) => {
     return formattedText;
 };
 
+// Psalmodie-Kadenzstruktur je Psalmton: { Mittelkadenz: [v, b], Schlusskadenz: [v, b] }
+const PSALM_TONE_CADENCE = {
+    'I': { mk: [0, 2], sk: [2, 1] },
+    'Ia': { mk: [0, 2], sk: [2, 1] },
+    'Ig': { mk: [0, 2], sk: [2, 1] },
+    'Im': { mk: [0, 2], sk: [2, 1] },
+    'II': { mk: [0, 1], sk: [1, 1] },
+    'IIc': { mk: [0, 1], sk: [1, 1] },
+    'IIg': { mk: [0, 1], sk: [1, 1] },
+    'IIm': { mk: [0, 1], sk: [1, 1] },
+    'III': { mk: [0, 2], sk: [2, 1] },
+    'IV': { mk: [2, 1], sk: [3, 1] },
+    'IVa': { mk: [2, 1], sk: [3, 1] },
+    'IVg': { mk: [2, 1], sk: [3, 1] },
+    'V': { mk: [0, 1], sk: [0, 2] },
+    'VI': { mk: [1, 1], sk: [3, 1] },
+    'VII': { mk: [0, 2], sk: [0, 2] },
+    'VIIa': { mk: [0, 2], sk: [0, 2] },
+    'VIII': { mk: [0, 1], sk: [2, 1] },
+    'VIIIa': { mk: [0, 1], sk: [2, 1] },
+    'VIIIb': { mk: [0, 1], sk: [2, 1] },
+    'VIIIc': { mk: [0, 1], sk: [2, 1] },
+    'IX': { mk: [0, 2], sk: [2, 1] },
+    'X': { mk: [0, 1], sk: [0, 2] },
+};
+
+// Komponente für den _cant-Modus: Notenzeile als Ton-Button + Popup-Auswahl + Psalmtext
+const PsalmCantDisplay = ({ psalm, text, doxology, localPrefLanguage, number }) => {
+    const canonicalMode = psalm.text_mode || 'IX';
+    const [selectedMode, setSelectedMode] = useState(canonicalMode);
+    const [showSelector, setShowSelector] = useState(false);
+    const containerRef = useRef(null);
+
+    useEffect(() => {
+        if (!showSelector) return;
+        const onOutside = (e) => {
+            if (containerRef.current && !containerRef.current.contains(e.target))
+                setShowSelector(false);
+        };
+        document.addEventListener('mousedown', onOutside);
+        return () => document.removeEventListener('mousedown', onOutside);
+    }, [showSelector]);
+
+    const availableTones = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'];
+
+    const showDoxology = ![151, 160].includes(number)
+        || (number === 151 && localPrefLanguage === '_lat');
+
+    return (
+        <>
+            <div className="mb-2 mt-1 relative inline-block" ref={containerRef}>
+                <button
+                    onClick={() => setShowSelector(s => !s)}
+                    className="cursor-pointer block"
+                    title="Psalmton wählen"
+                    aria-label={`Psalmodiemodell Ton ${selectedMode} – zum Ändern klicken`}
+                >
+                    <img
+                        src={psalmToneImageSrc(selectedMode)}
+                        alt={`Psalmodiemodell Ton ${selectedMode}`}
+                        className="psalm-tone-image max-w-full h-auto"
+                    />
+                </button>
+                {showSelector && (
+                    <div className="absolute top-full left-0 z-50 mt-1 bg-white dark:bg-gray-800
+                                    border border-gray-200 dark:border-gray-600
+                                    rounded shadow-lg p-2 text-sm">
+                        <div className="text-xs text-gray-500 dark:text-gray-400 mb-1 font-semibold">
+                            Psalmton wählen:
+                        </div>
+                        <div className="flex flex-wrap gap-1">
+                            {availableTones.map(mode => (
+                                <button
+                                    key={mode}
+                                    onClick={() => { setSelectedMode(mode); setShowSelector(false); }}
+                                    title={mode === canonicalMode ? 'Originalton des Psalms' : undefined}
+                                    className={`px-2 py-0.5 rounded text-xs font-mono
+                                        ${selectedMode === mode
+                                            ? 'bg-orange-100 dark:bg-yellow-400/60 font-bold'
+                                            : 'hover:bg-gray-100 dark:hover:bg-gray-700'}
+                                        ${mode === canonicalMode
+                                            ? 'ring-1 ring-orange-300 dark:ring-yellow-600'
+                                            : ''}`}
+                                >
+                                    {mode}
+                                </button>
+                            ))}
+                        </div>
+                    </div>
+                )}
+            </div>
+            {text && (
+                <div className="whitespace-pre-wrap">
+                    {formatPrayerText(text, '_cant', 'cant' + selectedMode)}
+                </div>
+            )}
+            {showDoxology && (
+                <div className="whitespace-pre-wrap">
+                    {formatPrayerText(doxology, '_cant', 'cant' + selectedMode)}
+                </div>
+            )}
+        </>
+    );
+};
+
+// Wandelt die abstrakten Gesangsmarker (|, ||, 1–4, ~, 0) in ^u/^b-Tags um.
+// Wird als Subroutine in formatPrayerText aufgerufen wenn marker === 'cant'.
+const formatCantMarkers = (text, mode) => {
+    const cadence = PSALM_TONE_CADENCE[mode] || PSALM_TONE_CADENCE['IX']; // Default auf I, falls kein Psalmton angegeben
+    if (!cadence) return text;  // unbekannter Psalmton: Text unverändert lassen
+
+    // Teile in Halbverse auf. Trennzeichen ^*, ^p, ^+ bleiben im Array (captureGroups)
+    const halfVerseRe = /(\^\*|\^p|\^\+)/;
+    const parts = text.split(halfVerseRe);
+    // parts = [hv0, sep0, hv1, sep1, …] wobei sep auch leer sein kann
+
+    // Klassifiziere jeden Halbvers-Index: Mittelkadenz (mk) oder Schlusskadenz (sk)
+    // Trenner ^* = Mittelkadenz, ^p = Schlusskadenz, ^+ = Flexa
+    // Für jeden Halbvers ermitteln wir seinen nachfolgenden Trenner
+    const result = [];
+    let i = 0;
+    while (i < parts.length) {
+        const hv = parts[i];
+        const sep = parts[i + 1] || '';
+        i += 2;
+
+        let cadenceType;
+        if (sep === '^*') cadenceType = 'mk';
+        else if (sep === '^p') cadenceType = 'sk';
+        else if (sep === '^+') cadenceType = 'flexa';
+        else cadenceType = 'sk'; // letzter Halbvers (kein Trenner) → Schlusskadenz
+
+        result.push(formatHalfVerse(hv, cadence, cadenceType));
+        if (sep) result.push(sep);
+    }
+    return result.join('');
+};
+
+// Verarbeitet einen einzelnen Halbvers und setzt ^u/^b-Tags
+const formatHalfVerse = (hv, cadence, cadenceType) => {
+    if (!hv || !hv.trim()) return hv;
+
+    // --- Flexa-Sonderfall (§ Sonderfall 4) ---
+    if (cadenceType === 'flexa') {
+        // | vorhanden → Silbe vor | unterstreichen
+        if (/(?<![|])\|(?![|])/.test(hv)) {
+            // einfaches |: Silbe davor unterstreichen
+            // Silbe = alles zwischen letztem Wort-Anfang und dem |-Marker
+            return hv.replace(/(\S+)(?<![|])\|(?![|])/, (_m, syl) => `^u${syl}^0u|`);
+        }
+        // ~ vorhanden → durch ~ verbundene Silben klammern
+        if (hv.includes('~')) {
+            return hv.replace(/(\S+)~(\S+)/g, (_m, a, b) => `^b${a}${b}^0b`);
+        }
+        // kein | und kein ~ → keine Markierung
+        return hv;
+    }
+
+    const { v, b } = cadenceType === 'mk'
+        ? { v: cadence.mk[0], b: cadence.mk[1] }
+        : { v: cadence.sk[0], b: cadence.sk[1] };
+
+    // --- Abstrakte Marker aus dem Halbvers extrahieren ---
+    // Marker: ||, |, 1, 2, 3, 4, ~, 0 (stehen unmittelbar vor der Silbe)
+    // Wir zerlegen den Halbvers in eine Folge von Token.
+    // Baue eine Tokenliste: [{prefix: 'Wortgefüge davor', markers: [...], text: 'Silbe+Rest'}]
+    // Einfacherer Ansatz: Trenne den Halbvers an Marker-Positionen
+    // Splitte bei Marker-Sequenzen (bleiben als Capture-Group)
+    const markerSplitRe = /((?:[|]{1,2}|[1-4]|~|(?<!\^)0)+)/g;
+    const segments = hv.split(markerSplitRe); // abwechselnd: Text, Marker, Text, Marker, ...
+
+    // Baue eine lineare Liste von Segmenten: [{type:'text'|'marker', val}]
+    const tokens = segments.map((s, idx) => ({
+        type: idx % 2 === 0 ? 'text' : 'marker',
+        val: s
+    })).filter(t => t.val !== '');
+
+    // Extrahiere die Marker-Positionen mit ihren Inhalten
+    // Marker-Folgen können mehrere Zeichen haben, z.B. "2|" = Countdown 2 + Nebenbetonung
+    // Wir bauen eine Positionsliste für die wichtigen Marker:
+    // - positions der ||, |, 1,2,3,4 (in Textleserichtung)
+    let dblBar = -1;   // Index des ||
+    let sglBars = [];  // Indizes der |
+    let countdowns = {}; // {1: idx, 2: idx, 3: idx, 4: idx}
+    let tildeIdx = -1; // Index von ~
+
+    // Wir arbeiten mit einem Array von "slots" (Silbenpositionen, inkl. Präfix-Text)
+    // Jeder Slot hat: vorhergehender Text (ungekennzeichnet), Marker-Set, Silben-Text (erster Buchstabe bis nächster Marker)
+    // Vereinfachung: Wir rekonstruieren den Text mit Tags direkt aus den Tokens.
+
+    // Zähle ||-Positionen und |-Positionen (token-Index)
+    let tokenIdx = 0;
+    for (const t of tokens) {
+        if (t.type === 'marker') {
+            if (t.val.includes('||')) dblBar = tokenIdx;
+            if (/(?<!\|)\|(?!\|)/.test(t.val)) sglBars.push(tokenIdx);
+            if (t.val.includes('~')) tildeIdx = tokenIdx;
+            for (const d of ['4', '3', '2', '1']) {
+                if (t.val.includes(d) && !(d in countdowns)) {
+                    countdowns[d] = tokenIdx;
+                }
+            }
+        }
+        tokenIdx++;
+    }
+
+    // Prüfe: hat der Halbvers überhaupt || ? (Minimalvoraussetzung)
+    if (dblBar < 0) return hv; // kein ||: ungekennzeichnet, zurückgeben
+
+    // Prüfe Sonderfall 1 (b=1): || steht VOR | im Text (Nebenbetonung am Versende)
+    const sonderfall1 = (b === 1) && sglBars.length > 0 && sglBars.some(idx => idx > dblBar);
+
+    // Prüfe Sonderfall 3 (b=1): 4-Marker vorhanden
+    const has4 = '4' in countdowns;
+    const v_eff = (b === 1 && has4) ? v + 1 : v;
+
+    // Bestimme Kadenzanfang (Index des ersten aktiven Markers):
+    let cadStartIdx = -1;
+    if (b === 2) {
+        // Kadenzanfang bei erstem | oder || (welches früher im Text steht)
+        const firstBarIdx = Math.min(
+            dblBar,
+            ...sglBars.filter(idx => idx < dblBar)
+        );
+        cadStartIdx = isFinite(firstBarIdx) ? firstBarIdx : dblBar;
+    } else {
+        // b = 1
+        if (sonderfall1) {
+            // Kadenzanfang: erster aktiver Countdown oder ||
+            const active = Object.entries(countdowns)
+                .filter(([k]) => parseInt(k) <= v_eff)
+                .sort((a, b) => parseInt(b[0]) - parseInt(a[0])); // absteigend nach Zahl (größte = früheste)
+            cadStartIdx = active.length > 0 ? active[0][1] : dblBar;
+        } else {
+            if (v_eff === 0) cadStartIdx = dblBar;
+            else {
+                const key = String(v_eff);
+                cadStartIdx = countdowns[key] !== undefined ? countdowns[key] : dblBar;
+            }
+        }
+    }
+
+    // Nun rekonstruiere den Text mit ^u/^b-Tags
+    // Strategie: baue den Output-String Token für Token
+    // Kategorien für jeden Token (nach cadStartIdx):
+    // - vor Kadenz: Text unverändert, Marker entfernen (nicht aktiv)
+    // - Kadenzanfang: ^u...^0u um Silbe
+    // - innerhalb Kadenz: ^b-Gruppen nach Tonzuweisung
+
+    // Zuerst: Welche Tokens sind die "Silbenträger" (auf welchen Ton fallen sie)?
+    // Für die Tonzuweisung brauchen wir die Reihenfolge der aktiven Marker ab cadStartIdx.
+
+    // Baue Ton-Zuweisung:
+    // tone[tokenIdx] = Tonnummer (4=Kadenzanfang, 3, 2, 1=letzter) oder 0=Rezitationston
+    const tone = new Array(tokens.length).fill(0);
+
+    if (b === 2) {
+        // Sonderfall drei betonte Silben (zwei | + ein ||)?
+        const preBars = sglBars.filter(idx => idx < dblBar);
+        const threeStressed = preBars.length >= 2;
+
+        if (threeStressed) {
+            // drei betonte Silben: erster |, zweiter |, ||
+            // sortiere preBars
+            preBars.sort((a, b) => a - b);
+            const bar1 = preBars[0]; // erste betonte
+            const bar2 = preBars[1]; // zweite betonte
+            // Ton 4: ab bar1 bis vor bar2
+            // Ton 3: ab bar2 bis ||
+            // Ton 2: || + erste Folgesilbe (durch ~) — geklammert
+            // Ton 1: || selbst... wait, let me re-read §1.3
+            // Sonderfall: drei betonte Silben:
+            // 1. Kadenzton: erste betonte Silbe (|), ggf. durch Tilde verbundene weitere Silbe(n)
+            // 2. Kadenzton: alle weiteren (unbetonten) Silben bis zur zweiten betonten Silbe (|) ausschließlich; wenn mehrere: durch ^b geklammert
+            // 3. Kadenzton: die zweite betonte Silbe (|) und die folgende unbetonte Silbe, durch ^b geklammert
+            // 4. Kadenzton: die abschließende betonte Silbe (||)
+            cadStartIdx = bar1;
+            assignTonesThreeStressed(tone, tokens, bar1, bar2, dblBar, tildeIdx);
+        } else {
+            // Normale b=2-Zuweisung
+            assignTonesB2(tone, tokens, cadStartIdx, dblBar, sglBars, tildeIdx);
+        }
+    } else {
+        // b=1
+        if (sonderfall1) {
+            assignTonesB1Sonderfall1(tone, tokens, cadStartIdx, dblBar, sglBars);
+        } else {
+            assignTonesB1(tone, tokens, cadStartIdx, dblBar, has4);
+        }
+    }
+
+    // Rekonstruiere den Text mit Tags
+    return buildTaggedText(tokens, tone);
+};
+
+// Hilfsfunktion: Tonzuweisung für b=2 (weiblicher/männlicher Versschluss)
+const assignTonesB2 = (tone, tokens, cadStartIdx, dblBar, sglBars, tildeIdx) => {
+    // frühere betonte Silbe = cadStartIdx = min(|,||)
+    // spätere betonte Silbe = später von | und ||
+    const postBars = sglBars.filter(idx => idx > dblBar);
+
+    const firstStressed = cadStartIdx; // Ton 4
+    const secondStressed = postBars.length > 0 ? postBars[0] : dblBar; // Ton 2 (oder letzter, wenn kein post-bar)
+
+    // Bestimme ob weiblicher oder männlicher Versschluss:
+    // männlich = nach der zweiten betonten Silbe folgen keine weiteren (unbetonten) Text-Tokens mehr
+    const afterSecond = tokens.slice(secondStressed + 1);
+    const hasPostSyllables = afterSecond.some(t => t.type === 'text' && t.val.trim().length > 0);
+    const isMaennlich = !hasPostSyllables;
+
+    // Ton 4: firstStressed
+    tone[firstStressed] = 4;
+
+    if (tildeIdx >= 0 && tildeIdx > firstStressed && tildeIdx < (isMaennlich ? secondStressed : dblBar)) {
+        // Tilde definiert abweichende Gruppen: Silben bis Tilde → Ton 3, danach → Ton 2
+        // Ton 3: von nach firstStressed bis tildeIdx (inkl.)
+        for (let i = firstStressed + 1; i <= tildeIdx; i++) {
+            if (tokens[i]?.type === 'text') tone[i] = 3;
+        }
+        // Ton 2: von nach tildeIdx bis secondStressed
+        for (let i = tildeIdx + 1; i <= secondStressed; i++) {
+            if (tokens[i]?.type === 'text' || tokens[i]?.val.replace(/[|~0]/g, '').length > 0) tone[i] = 2;
+        }
+        tone[secondStressed] = 2;
+        // Ton 1: nach secondStressed
+        for (let i = secondStressed + 1; i < tokens.length; i++) {
+            if (tokens[i]?.type === 'text') tone[i] = 1;
+        }
+        return;
+    }
+
+    if (!isMaennlich) {
+        // Weiblicher Versschluss:
+        // Ton 3: Silben zwischen firstStressed und secondStressed (||), durch ^b
+        for (let i = firstStressed + 1; i < dblBar; i++) {
+            if (tokens[i]?.type === 'text') tone[i] = 3;
+        }
+        // Ton 2: secondStressed (dblBar oder post-bar)
+        tone[dblBar] = 2;
+        if (postBars.length > 0) tone[postBars[0]] = 2;
+        // Ton 1: nach secondStressed
+        for (let i = (postBars.length > 0 ? postBars[0] : dblBar) + 1; i < tokens.length; i++) {
+            if (tokens[i]?.type === 'text') tone[i] = 1;
+        }
+    } else {
+        // Männlicher Versschluss:
+        // Erste Silbe nach firstStressed → Ton 3 (allein)
+        let firstAfter = -1;
+        for (let i = firstStressed + 1; i < secondStressed; i++) {
+            if (tokens[i]?.type === 'text' && tokens[i].val.trim()) { firstAfter = i; break; }
+        }
+        if (firstAfter >= 0) tone[firstAfter] = 3;
+        // Weitere bis vor secondStressed → Ton 2, geklammert
+        for (let i = (firstAfter >= 0 ? firstAfter + 1 : firstStressed + 1); i < secondStressed; i++) {
+            if (tokens[i]?.type === 'text') tone[i] = 2;
+        }
+        // Ton 1: secondStressed (Versende)
+        tone[secondStressed] = 1;
+    }
+};
+
+// Hilfsfunktion: Sonderfall drei betonte Silben (b=2)
+const assignTonesThreeStressed = (tone, tokens, bar1, bar2, dblBar, _tildeIdx) => {
+    tone[bar1] = 4;
+    // Ton 3: Silben zwischen bar1 und bar2 (ausschließlich)
+    for (let i = bar1 + 1; i < bar2; i++) {
+        if (tokens[i]?.type === 'text') tone[i] = 3;
+    }
+    // Ton 2: bar2 und die folgende unbetonte Silbe, durch ^b
+    tone[bar2] = 2;
+    let nextAfterBar2 = -1;
+    for (let i = bar2 + 1; i < dblBar; i++) {
+        if (tokens[i]?.type === 'text' && tokens[i].val.trim()) { nextAfterBar2 = i; break; }
+    }
+    if (nextAfterBar2 >= 0) tone[nextAfterBar2] = 2; // gleiche Gruppe wie bar2
+    // Ton 1: dblBar
+    tone[dblBar] = 1;
+};
+
+// Hilfsfunktion: Tonzuweisung für b=1 (Normalfall)
+const assignTonesB1 = (tone, tokens, cadStartIdx, dblBar, has4) => {
+    tone[cadStartIdx] = 4; // Kadenzanfang = Ton 4 (erster aktiver)
+    // Töne zwischen Kadenzanfang und || → Ton 3 (einzeln) oder nicht explizit geklammert
+    for (let i = cadStartIdx + 1; i < dblBar; i++) {
+        if (tokens[i]?.type === 'text') tone[i] = 3;
+    }
+    // || → wenn has4 (Sonderfall 3): Ton 1 (letzter); sonst: Ton 2 (vorletzter)
+    tone[dblBar] = has4 ? 1 : 2;
+    if (!has4) {
+        // Folgesilben → Ton 1, geklammert
+        for (let i = dblBar + 1; i < tokens.length; i++) {
+            if (tokens[i]?.type === 'text') tone[i] = 1;
+        }
+    }
+};
+
+// Hilfsfunktion: Sonderfall 1 b=1 (Nebenbetonung am Versende, || vor |)
+const assignTonesB1Sonderfall1 = (tone, tokens, cadStartIdx, dblBar, sglBars) => {
+    const postBar = sglBars.find(idx => idx > dblBar);
+    tone[cadStartIdx] = 4;
+    for (let i = cadStartIdx + 1; i < dblBar; i++) {
+        if (tokens[i]?.type === 'text') tone[i] = 3;
+    }
+    // || + Folgesilben bis vor | → Ton 2 (vorletzter), geklammert
+    tone[dblBar] = 2;
+    if (postBar !== undefined) {
+        for (let i = dblBar + 1; i < postBar; i++) {
+            if (tokens[i]?.type === 'text') tone[i] = 2;
+        }
+        // | + Folgesilben → Ton 1 (letzter), geklammert
+        tone[postBar] = 1;
+        for (let i = postBar + 1; i < tokens.length; i++) {
+            if (tokens[i]?.type === 'text') tone[i] = 1;
+        }
+    }
+};
+
+// Baut den getaggten Text aus Tokens und Ton-Zuweisung zusammen
+const buildTaggedText = (tokens, tone) => {
+    // Marker-Tokens entfernen (nicht rendern), Text-Tokens mit Tags versehen
+    // Gleiche Töne (≥ 1) hintereinander werden mit ^b...^0b geklammert wenn Ton = 3 oder 1 (letzter/drittletzter)
+    // Ton 4 = Kadenzanfang → ^u...^0u
+    // Ton 2 oder 1 in Gruppe → ^b...^0b um den Vokal der Silbe...
+    // VEREINFACHUNG: Wir wenden die Klammer auf den gesamten Text-Inhalt des Segments an,
+    // da die genaue Vokal-Position in der Enddarstellung durch CSS gehandhabt wird.
+    // Die Spec §1 beschreibt den ^b-Marker als vor dem silbenbildenden Vokal stehend (für die Dateneingabe),
+    // aber beim Rendering (formatCantMarkers) können wir die ganze Silbe klammern.
+
+    let out = '';
+    let i = 0;
+    while (i < tokens.length) {
+        const t = tokens[i];
+
+        if (t.type === 'marker') {
+            // Marker entfernen (nicht in Output)
+            i++;
+            continue;
+        }
+
+        // Text-Token
+        const t_tone = tone[i];
+
+        if (t_tone === 0) {
+            // Rezitationston: Text unverändert
+            out += t.val;
+            i++;
+            continue;
+        }
+
+        if (t_tone === 4) {
+            // Kadenzanfang: ^u...^0u
+            out += `^u${t.val}^0u`;
+            i++;
+            continue;
+        }
+
+        // Töne 3, 2, 1: ggf. Klammer
+        // Sammle zusammenhängende Text-Tokens mit gleichem Ton (ohne Marker dazwischen)
+        // → werden zu einer ^b-Gruppe
+        // Prüfe: gibt es benachbarte Text-Tokens mit gleichem Ton?
+        let group = [t.val];
+        let j = i + 1;
+        // Überspringe Marker-Tokens zwischen Text-Tokens mit gleichem Ton
+        while (j < tokens.length) {
+            if (tokens[j].type === 'marker') { j++; continue; }
+            if (tone[j] === t_tone) {
+                group.push(tokens[j].val);
+                j++;
+            } else {
+                break;
+            }
+        }
+
+        const groupText = group.join('');
+        if (group.length > 1) {
+            // Mehrere Silben auf gleichem Ton → klammern
+            // Verschachtelung: wenn Ton 4 (^u) direkt vorausgeht, ist bereits geregelt
+            out += `^b${groupText}^0b`;
+        } else {
+            out += groupText;
+        }
+
+        // Überspringe alle verarbeiteten Tokens
+        i = j;
+    }
+    return out;
+};
+
 // Formatiert Gebetstext mit speziellen Tags und saisonalen Anpassungen
 export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
     hour = '', texts = {},
     prefSrc = '', widthForHymns = false) => {
     if (!provText || provText === 'LEER' || provText === 'LEER_lat' || provText === '_lat') return null;
+
+    // Cant-Modus: abstrakte Gesangsmarker in ^u/^b-Tags umwandeln
+    // Muss vor der Haupttransformation laufen, da ^* und ^+ dort umgeschrieben werden.
+    if (marker.startsWith('cant')) {
+        const cantMode = marker.replace('cant', '').trim() || 'IX';
+        marker = '';
+        provText = formatCantMarkers(provText, cantMode);
+    }
 
     const season = texts?.season || '';
     const swdCombined = texts?.swd?.combined || '';
@@ -520,7 +1049,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
             .replace(/\^l/g, '\n')
 
         // ERWEITERTE REGEX um Satzzeichen-Marker zu erfassen
-        const segments = text.split(/(\^RUBR.*?\^0RUBR|\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^c.*?\^0c|\^k.*?\^0k|\^u.*?\^0u|\^ELL.*?\^0ELL|§FN\d+§|§PUNCT\d+§|\^STAR.*?\^0STAR)/g).filter(Boolean);
+        const segments = text.split(/(\^RUBR.*?\^0RUBR|\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^c.*?\^0c|\^k.*?\^0k|\^u.*?\^0u|\^b.*?\^0b|\^ELL.*?\^0ELL|§FN\d+§|§PUNCT\d+§|\^STAR.*?\^0STAR)/g).filter(Boolean);
 
         return segments.map((segment, index) => {
             if (segment.startsWith('^r')) {
@@ -544,6 +1073,9 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
             } else if (segment.startsWith('^u')) {
                 const content = segment.substring(2, segment.length - 3);
                 return <span key={`underline-${index}`} style={{ textDecoration: 'underline' }}>{content}</span>;
+            } else if (segment.startsWith('^b')) {
+                const content = segment.substring(2, segment.length - 3);
+                return <span key={`cant-bracket-${index}`} className="psalm-cant-bracket">{content}</span>;
             } else if (segment.startsWith('^ELL')) {
                 const content = segment.substring(4, segment.length - 5);
                 return <span key={`ellipsis-${index}`} className='text-gray-500 dark:text-gray-400 italic' aria-hidden="true">{content}</span>;

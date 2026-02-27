@@ -11,6 +11,15 @@ const ordinariumData = {
                 "Amen."
             ]
         },
+        'cant': {
+            "titel": "BENEDICTUS",
+            "cant": "Gepriesen^r\u2009+\u2009^0rsei der Herr, der°Gott°Israels!^*Denn er hat sein Volk besucht und ihm Erlösung geschaffen;^per hat uns einen°starken°Retter°erweckt^*im Hause seines Knechtes David.^pSo hat er verheißen von alters her^*durch den Mund seiner heiligen Propheten.^pEr hat uns errettet vor°unsern°Feinden^*und aus der Hand aller, die uns hassen;^per hat das Erbarmen mit den Vätern an°uns°vollendet^+und an seinen heiligen Bund gedacht,^*an den Eid, den er unserm Vater Abraham geschworen hat;^per hat uns geschenkt, dass wir, aus°Feindeshand°befreit,^+ihm furchtlos dienen in°Heiligkeit°und°Gerechtigkeit^*vor seinem Angesicht all unsre Tage.^pUnd du, Kind, wirst°Prophet°des°Höchsten°heißen;^+denn du wirst dem Herrn vorangehn^*und ihm den Weg bereiten.^pDu wirst sein Volk mit der Erfahrung°des°Heils beschenken^*in der Vergebung der Sünden.^pDurch die barmherzige Liebe unseres°Gottes^*wird uns besuchen das aufstrahlende Licht aus der Höhe,^pum allen zu leuchten, die in Finsternis sitzen und°im°Schatten°des°Todes,^*und unsre Schritte zu lenken auf den Weg des Friedens.^pEhre sei dem Vater und dem Sohn^*und dem Heiligen Geist,^pwie im Anfang, so°auch°jetzt°und°alle°Zeit^*und in Ewigkeit. Amen.",
+            "vu": "Vater unser im Himmel,^lgeheiligt werde dein Name.^lDein Reich komme.^lDein Wille geschehe^lwie im Himmel, so auf Erden.^lUnser tägliches Brot gib uns heute.^lUnd vergib uns unsere Schuld,^lwie auch wir vergeben unsern Schuldigern.^lUnd führe uns nicht in Versuchung,^lsondern erlöse uns von dem Bösen.",
+            "closing": [
+                "Der Herr segne uns, er°bewahre°uns°vor°Unheil und°führe°uns°zum°ewigen°Leben.",
+                "Amen."
+            ]
+        },
         'lat': {
             "titel": "BENEDICTUS",
             "cant": "Benedictus^r\u2009+\u2009^0rDóminus Deus Israel,^*quia visitávit et fecit redemptiónem plebi suæ;^pet eréxit cornu salútis nobis,^*in domo David púeri sui,^psicut locútus est per os sanctórum,^*qui a sǽculo sunt, prophetárum eius,^psalútem ex inimícis nostris^*et de manu ómnium, qui odérunt nos;^pad faciéndam misericórdiam cum°pátribus°nostris^*et memorári testaménti sui sancti;^piusiurándum, quod iurávit ad°Abraham°patrem°nostrum,^*datúrum se nobis,^put sine timóre, de manu inimicórum°nostrórum liberáti,^*serviámus illi,^pin sanctitáte et iustítia coram ipso^*ómnibus diébus nostris.^pEt tu, puer, prophéta°Altíssimi°vocáberis:^*præíbis enim ante fáciem Dómini paráre vias eius,^pad dandam sciéntiam salútis plebi°eius,^*in remissiónem peccatórum eórum,^pper víscera misericórdiæ Dei nostri,^*in quibus visitávit nos óriens ex alto:^pillumináre his, qui in ténebris et°in°umbra°mortis°sedent,^*ad dirigéndos pedes nostros in viam pacis.^pGlória Patri et Fílio^*et Spirítui Sancto.^pSicut erat in princípio, et°nunc°et°semper^*et in sǽcula sæculórum. Amen.",
@@ -25,6 +34,16 @@ const ordinariumData = {
         'dt': {
             "titel": "MAGNIFICAT",
             "cant": "Meine Seele^r\u2009+\u2009^0rpreist°die°Größe°des°Herrn,^*und mein Geist jubelt über Gott, meinen Retter.^pDenn auf die Niedrigkeit seiner Magd hat°er°geschaut.^*Siehe, von nun an preisen mich selig alle Geschlechter!^pDenn der Mächtige hat°Großes°an°mir°getan,^*und sein Name ist heilig.^pEr erbarmt sich von°Geschlecht°zu°Geschlecht^*über alle, die ihn fürchten.^pEr vollbringt mit seinem Arm machtvolle°Taten;^*er zerstreut, die im Herzen voll Hochmut sind;^per stürzt die Mächtigen vom Thron^*und erhöht die Niedrigen.^pDie Hungernden beschenkt°er°mit°seinen°Gaben^*und lässt die Reichen leer ausgehn.^pEr nimmt sich seines°Knechtes°Israel°an^*und denkt an sein Erbarmen,^pdas er unsern Vätern verheißen hat,^*Abraham und seinen Nachkommen auf ewig.^pEhre sei dem Vater und dem Sohn^*und dem Heiligen Geist,^pwie im Anfang, so°auch°jetzt°und°alle°Zeit^*und in Ewigkeit. Amen.",
+            "vu": "Vater unser im Himmel,^lgeheiligt werde dein Name.^lDein Reich komme.^lDein Wille geschehe^lwie im Himmel, so auf Erden.^lUnser tägliches Brot gib uns heute.^lUnd vergib uns unsere Schuld,^lwie auch wir vergeben unsern Schuldigern.^lUnd führe uns nicht in Versuchung,^lsondern erlöse uns von dem Bösen.",
+            "closing": [
+                "Der Herr segne uns, er°bewahre°uns°vor°Unheil und°führe°uns°zum°ewigen°Leben.",
+                "Amen.",
+                "Wenn die Vesper in Gemeinschaft gefeiert wird, die Komplet jedoch nicht, empfiehlt es sich, statt der Komplet die Vesper mit der Marianischen Antiphon abzuschließen.",
+            ]
+        },
+        'cant': {
+            "titel": "MAGNIFICAT",
+            "cant": "Meine Seele^r\u2009+\u2009^0rpreist°die°3|Grö2ße°1des°||Herrn,^*und mein Geist jubelt über Gott, meinen Retter.^pDenn auf die Niedrigkeit seiner Magd hat°er°geschaut.^*Siehe, von nun an preisen mich selig alle Geschlechter!^pDenn der Mächtige hat°Großes°an°mir°getan,^*und sein Name ist heilig.^pEr erbarmt sich von°Geschlecht°zu°Geschlecht^*über alle, die ihn fürchten.^pEr vollbringt mit seinem Arm machtvolle°Taten;^*er zerstreut, die im Herzen voll Hochmut sind;^per stürzt die Mächtigen vom Thron^*und erhöht die Niedrigen.^pDie Hungernden beschenkt°er°mit°seinen°Gaben^*und lässt die Reichen leer ausgehn.^pEr nimmt sich seines°Knechtes°Israel°an^*und denkt an sein Erbarmen,^pdas er unsern Vätern verheißen hat,^*Abraham und seinen Nachkommen auf ewig.^pEhre sei dem Vater und dem Sohn^*und dem Heiligen Geist,^pwie im Anfang, so°auch°jetzt°und°alle°Zeit^*und in Ewigkeit. Amen.",
             "vu": "Vater unser im Himmel,^lgeheiligt werde dein Name.^lDein Reich komme.^lDein Wille geschehe^lwie im Himmel, so auf Erden.^lUnser tägliches Brot gib uns heute.^lUnd vergib uns unsere Schuld,^lwie auch wir vergeben unsern Schuldigern.^lUnd führe uns nicht in Versuchung,^lsondern erlöse uns von dem Bösen.",
             "closing": [
                 "Der Herr segne uns, er°bewahre°uns°vor°Unheil und°führe°uns°zum°ewigen°Leben.",
@@ -172,9 +191,9 @@ const ordinariumData = {
     }
 }
 
-function getOpeningTexts(hour, localPrefLatin) {
+function getOpeningTexts(hour, localPrefLanguage) {
 
-    const opening_inv = localPrefLatin ? [
+    const opening_inv = localPrefLanguage === '_lat' ? [
         "Dómine, lábia mea apéries.",
         "Et os meum annuntiábit laudem tuam.",
         "", ""
@@ -204,7 +223,7 @@ function getOpeningTexts(hour, localPrefLatin) {
         || hour === 'vigil') {
         return ["", "", "", ""];
     }
-    return localPrefLatin ? [
+    return localPrefLanguage === '_lat' ? [
         "Deus, in adiutórium meum inténde.",
         "Dómine, ad adiuvándum me festína.",
         "Glória Patri et Fílio et Spirítui Sancto.",
@@ -217,8 +236,8 @@ function getOpeningTexts(hour, localPrefLatin) {
     ];
 }
 
-function getClosingTexts(hour, localPrefLatin, useCommemoration) {
-    const languageToRead = localPrefLatin ? 'lat' : 'dt';
+function getClosingTexts(hour, localPrefLanguage, useCommemoration) {
+    const languageToRead = localPrefLanguage === '_lat' ? 'lat' : 'dt';
     if (hour === 'vigil') { hour = 'lesehore' }
 
     // Versuche zuerst spezifische Abschlusstexte für die Hore zu finden
@@ -227,7 +246,7 @@ function getClosingTexts(hour, localPrefLatin, useCommemoration) {
 
 
     // Fallback für andere Horen (lesehore, terz, sext, non)
-    let closing = localPrefLatin
+    let closing = localPrefLanguage === '_lat'
         ? ["Benedicámus Dómino.",
             "Deo grátias."]
         : ["Singet Lob und Preis.",
@@ -241,9 +260,10 @@ function getClosingTexts(hour, localPrefLatin, useCommemoration) {
     return closing;
 
 }
-export const ordinarium = (texts, hour = '', localPrefLatin = false, prefSollemnity = false, useCommemoration = false) => {
+export const ordinarium = (texts, hour = '', localPrefLanguage = '', prefSollemnity = false, useCommemoration = false) => {
 
-    const languageToRead = localPrefLatin ? "lat" : "dt";
+    const languageToRead = localPrefLanguage === '_lat' ? "lat"
+        : localPrefLanguage === '_cant' ? "cant" : "dt";
     if (hour === 'erstev') { hour = 'vesper' }
 
     if (ordinariumData?.[texts]?.[languageToRead])
@@ -261,8 +281,8 @@ export const ordinarium = (texts, hour = '', localPrefLatin = false, prefSollemn
         ordinariumTexts = ordinariumData?.TeDeum?.[languageToRead] || {};
     }
 
-    const openingTexts = getOpeningTexts(hour, localPrefLatin);
-    const closingTexts = getClosingTexts(hour, localPrefLatin, useCommemoration);
+    const openingTexts = getOpeningTexts(hour, localPrefLanguage);
+    const closingTexts = getClosingTexts(hour, localPrefLanguage, useCommemoration);
 
     return {
         ...ordinariumTexts,

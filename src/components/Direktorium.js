@@ -609,12 +609,12 @@ const PrayerTextDisplay = ({
       </div>)
   }
 
-  const ordinariumTexts = ordinarium(texts, hour, localPrefLatin, prefSollemnity, useCommemoration)
+  const ordinariumTexts = ordinarium(texts, hour, localPrefLanguage, prefSollemnity, useCommemoration)
   const { advResp = '', advVers = '' } =
     (texts?.swd.combined === 'a-1-0'
       && hour === 'lesehore'
       && (getValue('patr_resp1') === 'LEER' || localPrefLatin))
-      ? ordinarium('advent', hour, localPrefLatin) : {};
+      ? ordinarium('advent', hour, localPrefLanguage) : {};
 
   return (
     <div className="leading-[1.33em] pb-8">
@@ -890,7 +890,7 @@ const PrayerTextDisplay = ({
               </div>
             )}
             <div className="mb-4">
-              {formatPrayerText(ordinariumTexts.cant)}
+              {formatPrayerText(ordinariumTexts.cant, 'cantIX')}
             </div>
             {getValue("antev") && (
               <div className="mb-0">
@@ -1588,6 +1588,7 @@ export default function Stundenbuch() {
         case "_lat": return "Latein";
         case "_neu": return "neue EÜ";
         case "_ben": return "Münsterschwarzacher\u00a0Psalter";
+        case "_cant": return "Psalmen zum Singen eingerichtet";
         default: return "Unbekannt";
       }
     };
@@ -1767,16 +1768,18 @@ export default function Stundenbuch() {
                 <LanguageProgress />
               </div>
               <div className="mb-1 text-xs text-gray-500 dark:text-gray-400">
-                {renderDescriptionItem("Stundenbuch:", "Einheitsübersetzung von 1983", false)}
+                {renderDescriptionItem("StB:", "Stundenbuch: Einheitsübersetzung von 1983", false)}
                 {renderDescriptionItem("lat.:", "Nova Vulgata")}
                 {unlockBenedictine && renderDescriptionItem("Ben:", "Benediktinisches Antiphonale / Münsterschwarzacher Psalter")}
                 {renderDescriptionItem("neu:", "Einheitsübersetzung von 2016")}
+                {renderDescriptionItem("cant:", "Psalmen zum Singen eingerichtet")}
               </div>
               <div className={`grid ${unlockBenedictine ? 'grid-cols-5' : 'grid-cols-4'} gap-0`}>
-                {LanguageButton("", "Stundenbuch", "col-span-2")}
+                {LanguageButton("", "StB")}
                 {LanguageButton("_lat", "lat.")}
                 {unlockBenedictine && LanguageButton("_ben", "Ben")}
                 {LanguageButton("_neu", "neu")}
+                {0 === 1 && LanguageButton("_cant", "cant")}
               </div>
               <div className="mt-1 text-xs text-gray-500 dark:text-gray-400">
                 <p><b>Grundeinstellung:</b> {getLanguageName(storedPrefLanguage)}</p>

@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Psalmodie: Silbenklammer (⊔-Form) für ^b...^0b */
+.psalm-cant-bracket {
+  display: inline-block;
+  border-bottom: 1px solid currentColor;
+  border-left:   1px solid currentColor;
+  border-right:  1px solid currentColor;
+  padding-bottom: 2px;
+  padding-left:   1px;
+  padding-right:  1px;
+}
+
+/* Psalmodiemodell-Bild: im Dark Mode invertieren */
+.dark .psalm-tone-image {
+  filter: invert(1);
+}
