@@ -277,7 +277,7 @@ const PSALM_TONE_CADENCE = {
     'VIIIb': { mk: [0, 1], sk: [2, 1] },
     'VIIIc': { mk: [0, 1], sk: [2, 1] },
     'IX': { mk: [0, 2], sk: [2, 1] },
-    'X': { mk: [0, 1], sk: [0, 2] },
+    'X': { mk: [0, 1], sk: [0, 2], mkMaennlichVeff: true },
 };
 
 // Komponente für den _cant-Modus: Notenzeile als Ton-Button + Popup-Auswahl + Psalmtext
@@ -296,7 +296,8 @@ const PsalmCantDisplay = ({ text, doxology, localPrefLanguage, number, canonical
         return () => document.removeEventListener('mousedown', onOutside);
     }, [showSelector]);
 
-    const availableTones = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX (per.)', 'X (irr.)'];
+    const availableTones = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'];
+    const toneLabels = { 'IX': 'IX (per.)', 'X': 'X (irr.)' };
 
     const showDoxology = ![151, 160].includes(number)
         || (number === 151 && localPrefLanguage === '_lat');
@@ -337,7 +338,7 @@ const PsalmCantDisplay = ({ text, doxology, localPrefLanguage, number, canonical
                                             ? 'ring-1 ring-orange-300 dark:ring-yellow-600'
                                             : ''}`}
                                 >
-                                    {mode}
+                                    {toneLabels[mode] ?? mode}
                                 </button>
                             ))}
                         </div>
@@ -511,6 +512,16 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
     } else {
         if (sonderfall1) {
             assignTonesB1Sonderfall1(tone, slots, cadStartIdx, dblBarIdx, sglBarIdxs);
+        } else if (cadenceType === 'mk' && cadence.mkMaennlichVeff && !has4) {
+            // Ton X Sonderfall: männliches Versende in der Mittelkadenz verhält sich wie
+            // Sonderfall 3 in der Schlusskadenz → vEff = v+1 = 1; || fällt auf letzten Ton.
+            const isMaennlich = !slots.slice(dblBarIdx + 1).some(s => s.text.trim().length > 0);
+            if (isMaennlich && countdownIdxs['1'] !== undefined) {
+                tone[countdownIdxs['1']] = 4; // neuer Kadenzanfang bei 1-Marker
+                tone[dblBarIdx] = 1;          // || auf letztem Ton
+            } else {
+                assignTonesB1(tone, slots, cadStartIdx, dblBarIdx, has4);
+            }
         } else {
             assignTonesB1(tone, slots, cadStartIdx, dblBarIdx, has4);
         }
@@ -644,7 +655,14 @@ const buildTaggedText = (slots, tone) => {
             i = j;
         }
     }
-    return out;
+    // ^b innerhalb ^u..^0u auflösen: Unterstreichung auf den gesamten Bereich ausdehnen.
+    // Zeichen nach ^0b bis zum nächsten Trenner (Leerzeichen, °, ^) = Auslaut-Konsonanten,
+    // die noch zur Silbe gehören → ebenfalls in die Unterstreichung einschließen.
+    // Muster: ^u[A]^b[B]^0u[C]^0b[Auslaut] → ^u[A][B][C][Auslaut]^0u
+    return out.replace(
+        /\^u([^^]*)\^b([^^]*)\^0u([^^]*)\^0b([^ °^]*)/g,
+        (_, a, b, c, coda) => `^u${a}${b}${c}${coda}^0u`
+    );
 };
 
 // Berechnet Anlaut- und Auslaut-Trimming für psalm-cant-bracket-Spans.
@@ -1014,11 +1032,11 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
                 const content = segment.substring(2, segment.length - 3);
                 const { left, inner, right } = bracketTrim(content);
                 return (
-                    <React.Fragment key={`cant-bracket-${index}`}>
+                    <span key={`cant-bracket-${index}`} style={{ whiteSpace: 'nowrap' }}>
                         {left}
                         <span className="psalm-cant-bracket">{inner || content}</span>
                         {right}
-                    </React.Fragment>
+                    </span>
                 );
             } else if (segment.startsWith('^ELL')) {
                 const content = segment.substring(4, segment.length - 5);

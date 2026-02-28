@@ -44,7 +44,7 @@ const ordinariumData = {
         },
         'cant': {
             "titel": "MAGNIFICAT",
-            "cant": "Meine Seele^r\u2009+\u2009^0rpreist°die°|Grö2ße°1des°||Herrn,^*und mein Geist jubelt über 3|Gott, 2mei1nen |Ret0ter.^pDenn auf die Niedrigkeit seiner |Magd hat°2er°1ge||schaut.^*Siehe, von nun an preisen mich selig 3|al2le 1Ge||schlech0ter!^pDenn der Mächtige hat°|Gro0ßes°an°2|mir°1ge||tan,^*und sein 3|Na2me 1ist ||hei0lig.^pEr erbarmt sich von°Ge|schlecht°2zu°1Ge||schlecht^*über al3le, 2|die 1ihn ||fürch0ten.^pEr vollbringt mit seinem Arm |macht2vol1le°||Ta0ten;^*er zerstreut, die im 3|Her2zen 1voll ||Hoch0mut sind;^per stürzt die |Mächti2~gen 1vom ||Thron^*und 3er2|höht 1die ||Nie0dri0gen.^pDie Hungernden beschenkt°er°mit°2|sei1nen°||Ga0ben^*und lässt 3die 2|Rei1chen ||leer aus0gehn.^pEr nimmt sich seines°Knechtes°|Is2ra1el°||an^*und denkt 3an 2|sein 1Er||bar0men,^pdas er unsern |Vä2tern 1ver||hei0ßen hat,^*Abraham und seinen |Nach3kom2men 1auf ||e0wig.",
+            "cant": "Meine Seele^r\u2009+\u2009^0rpreist°die°|Grö2ße°1des°||Herrn,^*und mein Geist jubelt über 3|Gott, 2mei1nen ||Ret0ter.^pDenn auf die Niedrigkeit seiner |Magd hat°2er°1ge||schaut.^*Siehe, von nun an preisen mich selig 3|al2le 1Ge||schlech0ter!^pDenn der Mächtige hat°|Gro0ßes°an°2|mir°1ge||tan,^*und sein 3|Na2me 1ist ||hei0lig.^pEr erbarmt sich von°Ge|schlecht°2zu°1Ge||schlecht^*über al3le, 2|die 1ihn ||fürch0ten.^pEr vollbringt mit seinem Arm |macht2vol1le°||Ta0ten;^*er zerstreut, die im 3|Her2zen 1voll ||Hoch0mut sind;^per stürzt die |Mächti2~gen 1vom ||Thron^*und 3er2|höht 1die ||Nie0dri0gen.^pDie Hungernden beschenkt°er°mit°2|sei1nen°||Ga0ben^*und lässt 3die 2|Rei1chen ||leer aus0gehn.^pEr nimmt sich seines°Knechtes°|Is2ra1el°||an^*und denkt 3an 2|sein 1Er||bar0men,^pdas er unsern |Vä2tern 1ver||hei0ßen hat,^*Abraham und seinen |Nach3kom2men 1auf ||e0wig.",
             "mode": "IX",
             "vu": "Vater unser im Himmel,^lgeheiligt werde dein Name.^lDein Reich komme.^lDein Wille geschehe^lwie im Himmel, so auf Erden.^lUnser tägliches Brot gib uns heute.^lUnd vergib uns unsere Schuld,^lwie auch wir vergeben unsern Schuldigern.^lUnd führe uns nicht in Versuchung,^lsondern erlöse uns von dem Bösen.",
             "closing": [
@@ -79,7 +79,8 @@ const ordinariumData = {
             "confiteor": "Ich bekenne Gott, dem Allmächtigen, und allen Brüdern und Schwestern, dass ich Gutes unterlassen und Böses getan habe – ich habe gesündigt in Gedanken, Worten und Werken – ^r[alle°schlagen an die Brust]^0r durch meine Schuld, durch meine Schuld, durch meine große Schuld. Darum bitte ich die selige Jungfrau Maria, alle Engel und Heiligen und euch, Brüder und Schwestern, für mich zu beten bei Gott, unserem Herrn.",
             "confiteor_v": "Der allmächtige Gott erbarme sich unser,^ler lasse uns die Sünden nach^lund führe uns zum ewigen Leben.",
             "titel": "NUNC DIMITTIS",
-            "cant": "Nun^r\u2009+\u2009^0rlässt du, Herr, deinen Knecht,^*wie du gesagt hast, in Frieden scheiden.^pDenn meine Augen haben°das°Heil°gesehen,^*das du vor allen Völkern bereitet hast,^pein Licht, das die Heiden erleuchtet,^*und Herrlichkeit für dein Volk Israel.",
+            "cant": "Nun^r\u2009+\u2009^0rlässt du, |Herr, 2dei1nen ||Knecht,^*wie du gesagt hast, 3in 2|Frie1den ||schei0den.^pDenn meine Augen haben°das°2|Heil°1ge||se0hen,^*das du vor allen 3|Völ2kern 1be||rei0tet hast,^pein Licht, das die |Hei2den 1er||leuch0tet,^*und Herrlichkeit 3für 2|dein 1Volk ||Is0ra0el.",
+            "mode": "III",
             "closing": [
                 "Eine ruhige Nacht und ein gutes Ende gewähre°uns°der°allmächtige°Herr.",
                 "Amen."

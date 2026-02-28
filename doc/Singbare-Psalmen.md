@@ -678,3 +678,4 @@ Im Dark Mode muss das Bild invertiert werden:
 | `direktorium/src/components/ui/languageProgress.js` | Info-Text für `_cant` |
 | `direktorium/src/index.css` o.ä. | `.psalm-cant-bracket`, `.dark .psalm-tone-image` |
 | `direktorium/public/images/psalmtones/` | Neue Ordner + PNG-Bilder (aus TIFF konvertiert) |
+
