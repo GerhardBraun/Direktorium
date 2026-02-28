@@ -5,13 +5,23 @@
 /* Psalmodie: Silbenklammer (⊔-Form) für ^b...^0b */
 .psalm-cant-bracket {
   display: inline-block;
+  position: relative;
   border-bottom: 1px solid currentColor;
-  border-left:   1px solid currentColor;
-  border-right:  1px solid currentColor;
   padding-bottom: 2px;
   padding-left:   1px;
   padding-right:  1px;
 }
+.psalm-cant-bracket::before,
+.psalm-cant-bracket::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 1px;
+  height: 5px;
+  background: currentColor;
+}
+.psalm-cant-bracket::before { left:  0; }
+.psalm-cant-bracket::after  { right: 0; }
 
 /* Psalmodiemodell-Bild: im Dark Mode invertieren */
 .dark .psalm-tone-image {

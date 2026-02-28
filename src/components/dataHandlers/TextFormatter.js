@@ -120,18 +120,18 @@ const findOAntiphon = (data) => {
 
 const psalmToneImageSrc = (mode) => `${process.env.PUBLIC_URL}/images/psalmtones/${mode}.png`;
 
-const getDoxology = (localPrefLanguage, psalm) => {
-    if (localPrefLanguage === "_lat" && psalm.text_lat) {
+const getDoxology = (localPrefLanguage, psalm, isBuM = false) => {
+    if (localPrefLanguage === "_lat" && (isBuM || psalm.text_lat)) {
         return "Glória Patri et Fílio^*"
             + "et Spirítui Sancto.^p"
             + "Sicut erat in princípio^*"
             + "et in sáecula saeculórum. Amen.";
     }
-    if (localPrefLanguage === "_cant" && psalm.text_cant) {
-        return "Ehre sei dem |Vater 2und 1dem ||Sohn^*"
-            + "und dem 3|Hei2li1gen ||Geist,^p"
-            + "wie im Anfang, so°auch°2|jetzt°1und°||alle°Zeit^*"
-            + "und in 3|E2wig1keit. ||Amen.";
+    if (localPrefLanguage === "_cant" && (isBuM || psalm.text_cant)) {
+        return "Ehre sei dem |Va0ter 2und 1dem ||Sohn^*"
+            + "und 4dem 3|Hei2li1gen ||Geist,^p"
+            + "wie im Anfang, so°auch°2|jetzt°1und°||al0le°Zeit^*"
+            + "und in 3|E2wig1keit. ||A0men.";
     }
     return "Ehre sei dem Vater und dem Sohn^*"
         + "und dem Heiligen Geist,^p"
@@ -140,20 +140,27 @@ const getDoxology = (localPrefLanguage, psalm) => {
 };
 
 // Formatiert Psalmen mit Nummer, Versen, Titel und Text
-export const formatPsalm = (psalmRef, num, localPrefLanguage = '') => {
+export const formatPsalm = (psalmRef, num = 0, localPrefLanguage = '') => {
+    // num=0 für Invitatorium: keine verses, title, quote;
+    // num=1-3 für Vigil: Ordinalzahlen bei den Cantica
+    // num=-1 bei regulären Psalmen
+    // num='BuM' für Benedictus, Magnificat und Nunc Dimittis
     if (!psalmRef) return null;
 
-    const psalm = resolveReference(psalmRef);
-    if (!psalm || !psalm.text) return null;
+    const isBuM = num === 'BuM'
+    num = isBuM ? 0 : num;
 
-    const number = psalm[`number${localPrefLanguage}`] || psalm.number;
-    const text = psalm[`text${localPrefLanguage}`] || psalm.text;
+    const psalm = isBuM ? '' : resolveReference(psalmRef);
+    if (!isBuM && (!psalm || !psalm.text)) return null;
+
+    const number = isBuM ? 0 : psalm[`number${localPrefLanguage}`] || psalm.number;
+    const text = isBuM ? psalmRef.cant : psalm[`text${localPrefLanguage}`] || psalm.text;
     const verses = !num ? '' : psalm[`verses${localPrefLanguage}`] || psalm.verses || "";
     const title = !num ? '' : psalm[`title${localPrefLanguage}`] || psalm.title || "";
     const quote = !num ? '' : psalm[`quote${localPrefLanguage}`] || psalm.quote || "";
 
-    const doxology = getDoxology(localPrefLanguage, psalm);
-    const cantMode = localPrefLanguage === '_cant' && psalm.text_cant ? psalm.text_mode : null;
+    const doxology = getDoxology(localPrefLanguage, psalm, isBuM);
+    const cantMode = isBuM ? psalmRef.mode : localPrefLanguage === '_cant' && psalm.text_cant ? psalm.text_mode : null;
 
     const ordinal = ['', 'Erstes ', 'Zweites ', 'Drittes ']
 
@@ -175,21 +182,21 @@ export const formatPsalm = (psalmRef, num, localPrefLanguage = '') => {
                 {formatQuote(quote)}</div>}
             {cantMode
                 ? <PsalmCantDisplay
-                      psalm={psalm}
-                      text={text}
-                      doxology={doxology}
-                      localPrefLanguage={localPrefLanguage}
-                      number={number}
-                  />
+                    text={text}
+                    doxology={doxology}
+                    localPrefLanguage={localPrefLanguage}
+                    number={number}
+                    canonicalMode={cantMode}
+                />
                 : <>
-                      {text && <div className="whitespace-pre-wrap">
-                          {formatPrayerText(text, localPrefLanguage)}
-                      </div>}
-                      {(![151, 160].includes(number) || (number === 151 && localPrefLanguage === "_lat")) &&
-                          <div className="whitespace-pre-wrap">
-                              {formatPrayerText(doxology, localPrefLanguage)}
-                          </div>}
-                  </>
+                    {text && <div className="whitespace-pre-wrap">
+                        {formatPrayerText(text, localPrefLanguage)}
+                    </div>}
+                    {(![151, 160].includes(number) || (number === 151 && localPrefLanguage === "_lat")) &&
+                        <div className="whitespace-pre-wrap">
+                            {formatPrayerText(doxology, localPrefLanguage)}
+                        </div>}
+                </>
             }
         </div>
     );
@@ -274,8 +281,7 @@ const PSALM_TONE_CADENCE = {
 };
 
 // Komponente für den _cant-Modus: Notenzeile als Ton-Button + Popup-Auswahl + Psalmtext
-const PsalmCantDisplay = ({ psalm, text, doxology, localPrefLanguage, number }) => {
-    const canonicalMode = psalm.text_mode || 'IX';
+const PsalmCantDisplay = ({ text, doxology, localPrefLanguage, number, canonicalMode }) => {
     const [selectedMode, setSelectedMode] = useState(canonicalMode);
     const [showSelector, setShowSelector] = useState(false);
     const containerRef = useRef(null);
@@ -290,7 +296,7 @@ const PsalmCantDisplay = ({ psalm, text, doxology, localPrefLanguage, number }) 
         return () => document.removeEventListener('mousedown', onOutside);
     }, [showSelector]);
 
-    const availableTones = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'];
+    const availableTones = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX (per.)', 'X (irr.)'];
 
     const showDoxology = ![151, 160].includes(number)
         || (number === 151 && localPrefLanguage === '_lat');
@@ -386,353 +392,284 @@ const formatCantMarkers = (text, mode) => {
 };
 
 // Verarbeitet einen einzelnen Halbvers und setzt ^u/^b-Tags
+// Zerlegt einen Halbvers in Slots: jeder Slot enthält die Marker-Infos + den folgenden Silbentext.
+// Struktur: { countdown: '1'|'2'|'3'|'4'|'', stressed: '|'|'||'|'', tilde: bool, syllBound: bool, text: string }
+const tokenizeHalfVerse = (hv) => {
+    const markerSplitRe = /((?:[|]{1,2}|[1-4]|~|(?<!\^)0)+)/g;
+    const parts = hv.split(markerSplitRe);
+    // parts = [prefixText, marker1, text1, marker2, text2, ...]
+    const parseMarker = (m) => ({
+        countdown: m.match(/[1-4]/)?.[0] ?? '',
+        stressed: m.includes('||') ? '||' : /(?<!\|)\|(?!\|)/.test(m) ? '|' : '',
+        tilde: m.includes('~'),
+        syllBound: m.includes('0'),
+    });
+    // Teilt einen Slot-Text an Wort-/Silbengrenzen auf (Leerzeichen und °-Platzhalter).
+    // Gibt "Wort + nachfolgende Trennzeichen"-Einheiten zurück.
+    const splitWords = (text) =>
+        text.match(/[^\s°]*[\s°]*/g)?.filter(s => s.length > 0) ?? [];
+    // Fügt Slots ein: erster Sub-Slot erbt den Marker, weitere sind plain.
+    const emptyMarker = { countdown: '', stressed: '', tilde: false, syllBound: false };
+    const pushSlots = (slots, markerInfo, text) => {
+        const words = splitWords(text);
+        if (words.length <= 1) {
+            slots.push({ ...markerInfo, text });
+        } else {
+            slots.push({ ...markerInfo, text: words[0] });
+            for (let k = 1; k < words.length; k++) {
+                slots.push({ ...emptyMarker, text: words[k] });
+            }
+        }
+    };
+    const slots = [];
+    if (parts[0]) pushSlots(slots, emptyMarker, parts[0]);
+    for (let i = 1; i < parts.length; i += 2) {
+        pushSlots(slots, parseMarker(parts[i] || ''), parts[i + 1] ?? '');
+    }
+    return slots;
+};
+
 const formatHalfVerse = (hv, cadence, cadenceType) => {
     if (!hv || !hv.trim()) return hv;
 
     // --- Flexa-Sonderfall (§ Sonderfall 4) ---
     if (cadenceType === 'flexa') {
-        // | vorhanden → Silbe vor | unterstreichen
-        if (/(?<![|])\|(?![|])/.test(hv)) {
-            // einfaches |: Silbe davor unterstreichen
-            // Silbe = alles zwischen letztem Wort-Anfang und dem |-Marker
-            return hv.replace(/(\S+)(?<![|])\|(?![|])/, (_m, syl) => `^u${syl}^0u|`);
+        let result = hv;
+        if (/(?<!\|)\|(?!\|)/.test(result)) {
+            // | vorhanden → letzte Silbe direkt vor | unterstreichen, | entfernen.
+            // [^\s°|0]+ matcht genau eine Silbe (0 = interne Silbengrenze wie Leerzeichen).
+            // ([\s°0]*) absorbiert Silbengrenzen und Leerzeichen zwischen Silbe und |.
+            result = result.replace(
+                /([^\s°|0]+)([\s°0]*)(?<!\|)\|(?!\|)/,
+                (_m, syl, space) => `^u${syl}^0u${space}`
+            );
+        } else if (result.includes('~')) {
+            // ~ vorhanden → letzte Silbe vor ~ und erste Silbe nach ~ klammern.
+            // ([\s°0]*) absorbiert °, Leerzeichen und 0-Grenzen zwischen Silbe und ~.
+            result = result.replace(
+                /([^\s°|0]+)([\s°0]*)~([^\s°|0]+)/g,
+                (_m, a, sep, b) => `^b${a}${sep}${b}^0b`
+            );
         }
-        // ~ vorhanden → durch ~ verbundene Silben klammern
-        if (hv.includes('~')) {
-            return hv.replace(/(\S+)~(\S+)/g, (_m, a, b) => `^b${a}${b}^0b`);
-        }
-        // kein | und kein ~ → keine Markierung
-        return hv;
+        // 0-Marker (Silbengrenzen) am Ende aus dem Text entfernen
+        return result.replace(/(?<!\^)0/g, '');
     }
 
     const { v, b } = cadenceType === 'mk'
         ? { v: cadence.mk[0], b: cadence.mk[1] }
         : { v: cadence.sk[0], b: cadence.sk[1] };
 
-    // --- Abstrakte Marker aus dem Halbvers extrahieren ---
-    // Marker: ||, |, 1, 2, 3, 4, ~, 0 (stehen unmittelbar vor der Silbe)
-    // Wir zerlegen den Halbvers in eine Folge von Token.
-    // Baue eine Tokenliste: [{prefix: 'Wortgefüge davor', markers: [...], text: 'Silbe+Rest'}]
-    // Einfacherer Ansatz: Trenne den Halbvers an Marker-Positionen
-    // Splitte bei Marker-Sequenzen (bleiben als Capture-Group)
-    const markerSplitRe = /((?:[|]{1,2}|[1-4]|~|(?<!\^)0)+)/g;
-    const segments = hv.split(markerSplitRe); // abwechselnd: Text, Marker, Text, Marker, ...
+    // --- Halbvers in Slots zerlegen und Marker-Positionen ablesen ---
+    const slots = tokenizeHalfVerse(hv);
 
-    // Baue eine lineare Liste von Segmenten: [{type:'text'|'marker', val}]
-    const tokens = segments.map((s, idx) => ({
-        type: idx % 2 === 0 ? 'text' : 'marker',
-        val: s
-    })).filter(t => t.val !== '');
+    let dblBarIdx = -1;
+    const sglBarIdxs = [];
+    const countdownIdxs = {};
+    let tildeIdx = -1;
+    slots.forEach((slot, idx) => {
+        if (slot.stressed === '||') dblBarIdx = idx;
+        if (slot.stressed === '|') sglBarIdxs.push(idx);
+        if (slot.countdown) countdownIdxs[slot.countdown] = idx;
+        if (slot.tilde) tildeIdx = idx;
+    });
 
-    // Extrahiere die Marker-Positionen mit ihren Inhalten
-    // Marker-Folgen können mehrere Zeichen haben, z.B. "2|" = Countdown 2 + Nebenbetonung
-    // Wir bauen eine Positionsliste für die wichtigen Marker:
-    // - positions der ||, |, 1,2,3,4 (in Textleserichtung)
-    let dblBar = -1;   // Index des ||
-    let sglBars = [];  // Indizes der |
-    let countdowns = {}; // {1: idx, 2: idx, 3: idx, 4: idx}
-    let tildeIdx = -1; // Index von ~
+    if (dblBarIdx < 0) return hv; // kein ||: Text unverändert
 
-    // Wir arbeiten mit einem Array von "slots" (Silbenpositionen, inkl. Präfix-Text)
-    // Jeder Slot hat: vorhergehender Text (ungekennzeichnet), Marker-Set, Silben-Text (erster Buchstabe bis nächster Marker)
-    // Vereinfachung: Wir rekonstruieren den Text mit Tags direkt aus den Tokens.
-
-    // Zähle ||-Positionen und |-Positionen (token-Index)
-    let tokenIdx = 0;
-    for (const t of tokens) {
-        if (t.type === 'marker') {
-            if (t.val.includes('||')) dblBar = tokenIdx;
-            if (/(?<!\|)\|(?!\|)/.test(t.val)) sglBars.push(tokenIdx);
-            if (t.val.includes('~')) tildeIdx = tokenIdx;
-            for (const d of ['4', '3', '2', '1']) {
-                if (t.val.includes(d) && !(d in countdowns)) {
-                    countdowns[d] = tokenIdx;
-                }
-            }
-        }
-        tokenIdx++;
-    }
-
-    // Prüfe: hat der Halbvers überhaupt || ? (Minimalvoraussetzung)
-    if (dblBar < 0) return hv; // kein ||: ungekennzeichnet, zurückgeben
-
-    // Prüfe Sonderfall 1 (b=1): || steht VOR | im Text (Nebenbetonung am Versende)
-    const sonderfall1 = (b === 1) && sglBars.length > 0 && sglBars.some(idx => idx > dblBar);
-
-    // Prüfe Sonderfall 3 (b=1): 4-Marker vorhanden
-    const has4 = '4' in countdowns;
+    // Sonderfall 1 (b=1): || steht VOR | im Text (Nebenbetonung am Versende)
+    const sonderfall1 = (b === 1) && sglBarIdxs.some(idx => idx > dblBarIdx);
+    // Sonderfall 3 (b=1): 4-Marker vorhanden
+    const has4 = '4' in countdownIdxs;
     const v_eff = (b === 1 && has4) ? v + 1 : v;
 
-    // Bestimme Kadenzanfang (Index des ersten aktiven Markers):
-    let cadStartIdx = -1;
+    // Kadenzanfang (Slot-Index)
+    let cadStartIdx;
     if (b === 2) {
-        // Kadenzanfang bei erstem | oder || (welches früher im Text steht)
-        const firstBarIdx = Math.min(
-            dblBar,
-            ...sglBars.filter(idx => idx < dblBar)
-        );
-        cadStartIdx = isFinite(firstBarIdx) ? firstBarIdx : dblBar;
+        const preBars = sglBarIdxs.filter(idx => idx < dblBarIdx);
+        cadStartIdx = preBars.length > 0 ? Math.min(dblBarIdx, preBars[0]) : dblBarIdx;
     } else {
-        // b = 1
         if (sonderfall1) {
-            // Kadenzanfang: erster aktiver Countdown oder ||
-            const active = Object.entries(countdowns)
+            const active = Object.entries(countdownIdxs)
                 .filter(([k]) => parseInt(k) <= v_eff)
-                .sort((a, b) => parseInt(b[0]) - parseInt(a[0])); // absteigend nach Zahl (größte = früheste)
-            cadStartIdx = active.length > 0 ? active[0][1] : dblBar;
+                .sort((a, b) => parseInt(b[0]) - parseInt(a[0]));
+            cadStartIdx = active.length > 0 ? active[0][1] : dblBarIdx;
         } else {
-            if (v_eff === 0) cadStartIdx = dblBar;
-            else {
-                const key = String(v_eff);
-                cadStartIdx = countdowns[key] !== undefined ? countdowns[key] : dblBar;
-            }
+            cadStartIdx = v_eff === 0 ? dblBarIdx : (countdownIdxs[String(v_eff)] ?? dblBarIdx);
         }
     }
 
-    // Nun rekonstruiere den Text mit ^u/^b-Tags
-    // Strategie: baue den Output-String Token für Token
-    // Kategorien für jeden Token (nach cadStartIdx):
-    // - vor Kadenz: Text unverändert, Marker entfernen (nicht aktiv)
-    // - Kadenzanfang: ^u...^0u um Silbe
-    // - innerhalb Kadenz: ^b-Gruppen nach Tonzuweisung
-
-    // Zuerst: Welche Tokens sind die "Silbenträger" (auf welchen Ton fallen sie)?
-    // Für die Tonzuweisung brauchen wir die Reihenfolge der aktiven Marker ab cadStartIdx.
-
-    // Baue Ton-Zuweisung:
-    // tone[tokenIdx] = Tonnummer (4=Kadenzanfang, 3, 2, 1=letzter) oder 0=Rezitationston
-    const tone = new Array(tokens.length).fill(0);
+    // Ton-Zuweisung: tone[slotIdx] = 0 (Rezitation) | 4 (Unterstr.) | 3 | 2 | 1 (Klammer)
+    const tone = new Array(slots.length).fill(0);
 
     if (b === 2) {
-        // Sonderfall drei betonte Silben (zwei | + ein ||)?
-        const preBars = sglBars.filter(idx => idx < dblBar);
-        const threeStressed = preBars.length >= 2;
-
-        if (threeStressed) {
-            // drei betonte Silben: erster |, zweiter |, ||
-            // sortiere preBars
+        const preBars = sglBarIdxs.filter(idx => idx < dblBarIdx);
+        if (preBars.length >= 2) {
             preBars.sort((a, b) => a - b);
-            const bar1 = preBars[0]; // erste betonte
-            const bar2 = preBars[1]; // zweite betonte
-            // Ton 4: ab bar1 bis vor bar2
-            // Ton 3: ab bar2 bis ||
-            // Ton 2: || + erste Folgesilbe (durch ~) — geklammert
-            // Ton 1: || selbst... wait, let me re-read §1.3
-            // Sonderfall: drei betonte Silben:
-            // 1. Kadenzton: erste betonte Silbe (|), ggf. durch Tilde verbundene weitere Silbe(n)
-            // 2. Kadenzton: alle weiteren (unbetonten) Silben bis zur zweiten betonten Silbe (|) ausschließlich; wenn mehrere: durch ^b geklammert
-            // 3. Kadenzton: die zweite betonte Silbe (|) und die folgende unbetonte Silbe, durch ^b geklammert
-            // 4. Kadenzton: die abschließende betonte Silbe (||)
-            cadStartIdx = bar1;
-            assignTonesThreeStressed(tone, tokens, bar1, bar2, dblBar, tildeIdx);
+            assignTonesThreeStressed(tone, slots, preBars[0], preBars[1], dblBarIdx);
         } else {
-            // Normale b=2-Zuweisung
-            assignTonesB2(tone, tokens, cadStartIdx, dblBar, sglBars, tildeIdx);
+            assignTonesB2(tone, slots, cadStartIdx, dblBarIdx, sglBarIdxs, tildeIdx);
         }
     } else {
-        // b=1
         if (sonderfall1) {
-            assignTonesB1Sonderfall1(tone, tokens, cadStartIdx, dblBar, sglBars);
+            assignTonesB1Sonderfall1(tone, slots, cadStartIdx, dblBarIdx, sglBarIdxs);
         } else {
-            assignTonesB1(tone, tokens, cadStartIdx, dblBar, has4);
+            assignTonesB1(tone, slots, cadStartIdx, dblBarIdx, has4);
         }
     }
 
-    // Rekonstruiere den Text mit Tags
-    return buildTaggedText(tokens, tone);
-};
-
-// Hilfsfunktion: Tonzuweisung für b=2 (weiblicher/männlicher Versschluss)
-const assignTonesB2 = (tone, tokens, cadStartIdx, dblBar, sglBars, tildeIdx) => {
-    // frühere betonte Silbe = cadStartIdx = min(|,||)
-    // spätere betonte Silbe = später von | und ||
-    const postBars = sglBars.filter(idx => idx > dblBar);
-
-    const firstStressed = cadStartIdx; // Ton 4
-    const secondStressed = postBars.length > 0 ? postBars[0] : dblBar; // Ton 2 (oder letzter, wenn kein post-bar)
-
-    // Bestimme ob weiblicher oder männlicher Versschluss:
-    // männlich = nach der zweiten betonten Silbe folgen keine weiteren (unbetonten) Text-Tokens mehr
-    const afterSecond = tokens.slice(secondStressed + 1);
-    const hasPostSyllables = afterSecond.some(t => t.type === 'text' && t.val.trim().length > 0);
-    const isMaennlich = !hasPostSyllables;
-
-    // Ton 4: firstStressed
-    tone[firstStressed] = 4;
-
-    if (tildeIdx >= 0 && tildeIdx > firstStressed && tildeIdx < (isMaennlich ? secondStressed : dblBar)) {
-        // Tilde definiert abweichende Gruppen: Silben bis Tilde → Ton 3, danach → Ton 2
-        // Ton 3: von nach firstStressed bis tildeIdx (inkl.)
-        for (let i = firstStressed + 1; i <= tildeIdx; i++) {
-            if (tokens[i]?.type === 'text') tone[i] = 3;
-        }
-        // Ton 2: von nach tildeIdx bis secondStressed
-        for (let i = tildeIdx + 1; i <= secondStressed; i++) {
-            if (tokens[i]?.type === 'text' || tokens[i]?.val.replace(/[|~0]/g, '').length > 0) tone[i] = 2;
-        }
-        tone[secondStressed] = 2;
-        // Ton 1: nach secondStressed
-        for (let i = secondStressed + 1; i < tokens.length; i++) {
-            if (tokens[i]?.type === 'text') tone[i] = 1;
-        }
-        return;
-    }
-
-    if (!isMaennlich) {
-        // Weiblicher Versschluss:
-        // Ton 3: Silben zwischen firstStressed und secondStressed (||), durch ^b
-        for (let i = firstStressed + 1; i < dblBar; i++) {
-            if (tokens[i]?.type === 'text') tone[i] = 3;
-        }
-        // Ton 2: secondStressed (dblBar oder post-bar)
-        tone[dblBar] = 2;
-        if (postBars.length > 0) tone[postBars[0]] = 2;
-        // Ton 1: nach secondStressed
-        for (let i = (postBars.length > 0 ? postBars[0] : dblBar) + 1; i < tokens.length; i++) {
-            if (tokens[i]?.type === 'text') tone[i] = 1;
-        }
-    } else {
-        // Männlicher Versschluss:
-        // Erste Silbe nach firstStressed → Ton 3 (allein)
-        let firstAfter = -1;
-        for (let i = firstStressed + 1; i < secondStressed; i++) {
-            if (tokens[i]?.type === 'text' && tokens[i].val.trim()) { firstAfter = i; break; }
-        }
-        if (firstAfter >= 0) tone[firstAfter] = 3;
-        // Weitere bis vor secondStressed → Ton 2, geklammert
-        for (let i = (firstAfter >= 0 ? firstAfter + 1 : firstStressed + 1); i < secondStressed; i++) {
-            if (tokens[i]?.type === 'text') tone[i] = 2;
-        }
-        // Ton 1: secondStressed (Versende)
-        tone[secondStressed] = 1;
-    }
-};
-
-// Hilfsfunktion: Sonderfall drei betonte Silben (b=2)
-const assignTonesThreeStressed = (tone, tokens, bar1, bar2, dblBar, _tildeIdx) => {
-    tone[bar1] = 4;
-    // Ton 3: Silben zwischen bar1 und bar2 (ausschließlich)
-    for (let i = bar1 + 1; i < bar2; i++) {
-        if (tokens[i]?.type === 'text') tone[i] = 3;
-    }
-    // Ton 2: bar2 und die folgende unbetonte Silbe, durch ^b
-    tone[bar2] = 2;
-    let nextAfterBar2 = -1;
-    for (let i = bar2 + 1; i < dblBar; i++) {
-        if (tokens[i]?.type === 'text' && tokens[i].val.trim()) { nextAfterBar2 = i; break; }
-    }
-    if (nextAfterBar2 >= 0) tone[nextAfterBar2] = 2; // gleiche Gruppe wie bar2
-    // Ton 1: dblBar
-    tone[dblBar] = 1;
+    return buildTaggedText(slots, tone);
 };
 
 // Hilfsfunktion: Tonzuweisung für b=1 (Normalfall)
-const assignTonesB1 = (tone, tokens, cadStartIdx, dblBar, has4) => {
-    tone[cadStartIdx] = 4; // Kadenzanfang = Ton 4 (erster aktiver)
-    // Töne zwischen Kadenzanfang und || → Ton 3 (einzeln) oder nicht explizit geklammert
-    for (let i = cadStartIdx + 1; i < dblBar; i++) {
-        if (tokens[i]?.type === 'text') tone[i] = 3;
-    }
-    // || → wenn has4 (Sonderfall 3): Ton 1 (letzter); sonst: Ton 2 (vorletzter)
-    tone[dblBar] = has4 ? 1 : 2;
-    if (!has4) {
-        // Folgesilben → Ton 1, geklammert
-        for (let i = dblBar + 1; i < tokens.length; i++) {
-            if (tokens[i]?.type === 'text') tone[i] = 1;
+// Slot-Index zeigt direkt auf den Silbentext → kein Marker-Überspringen nötig.
+const assignTonesB1 = (tone, slots, cadStartIdx, dblBarIdx, has4) => {
+    tone[cadStartIdx] = 4; // Kadenzanfang: Unterstreichung
+    // Slots zwischen cadStart und || bleiben tone=0 (jede Silbe auf eigenem Schritt, plain)
+    if (cadStartIdx === dblBarIdx) {
+        // v=0: cadenz beginnt bei ||; Koda = letzter Ton
+        if (!has4) {
+            for (let i = cadStartIdx + 1; i < slots.length; i++) tone[i] = 1;
+        }
+    } else {
+        if (has4) {
+            tone[dblBarIdx] = 1; // Sonderfall 3: || ist letzter Ton
+        } else {
+            tone[dblBarIdx] = 2; // vorletzter Ton (einzeln → kein Bracket)
+            for (let i = dblBarIdx + 1; i < slots.length; i++) tone[i] = 1;
         }
     }
 };
 
 // Hilfsfunktion: Sonderfall 1 b=1 (Nebenbetonung am Versende, || vor |)
-const assignTonesB1Sonderfall1 = (tone, tokens, cadStartIdx, dblBar, sglBars) => {
-    const postBar = sglBars.find(idx => idx > dblBar);
-    tone[cadStartIdx] = 4;
-    for (let i = cadStartIdx + 1; i < dblBar; i++) {
-        if (tokens[i]?.type === 'text') tone[i] = 3;
-    }
-    // || + Folgesilben bis vor | → Ton 2 (vorletzter), geklammert
-    tone[dblBar] = 2;
+const assignTonesB1Sonderfall1 = (tone, slots, cadStartIdx, dblBarIdx, sglBarIdxs) => {
+    const postBar = sglBarIdxs.find(idx => idx > dblBarIdx);
+    tone[cadStartIdx] = 4; // Kadenzanfang: Unterstreichung
+    // Guard: cadStartIdx === dblBarIdx bei v=0 → kein Überschreiben der Unterstreichung
+    if (cadStartIdx !== dblBarIdx) tone[dblBarIdx] = 2; // || → vorletzter Ton
     if (postBar !== undefined) {
-        for (let i = dblBar + 1; i < postBar; i++) {
-            if (tokens[i]?.type === 'text') tone[i] = 2;
-        }
-        // | + Folgesilben → Ton 1 (letzter), geklammert
-        tone[postBar] = 1;
-        for (let i = postBar + 1; i < tokens.length; i++) {
-            if (tokens[i]?.type === 'text') tone[i] = 1;
-        }
+        for (let i = dblBarIdx + 1; i < postBar; i++) tone[i] = 2; // Folgesilben bis | → gleiche Gruppe
+        // Guard: postBar === cadStartIdx bei ungewöhnlicher Annotation → kein Überschreiben
+        if (postBar !== cadStartIdx) tone[postBar] = 1; // | → letzter Ton
+        for (let i = postBar + 1; i < slots.length; i++) tone[i] = 1;
     }
 };
 
-// Baut den getaggten Text aus Tokens und Ton-Zuweisung zusammen
-const buildTaggedText = (tokens, tone) => {
-    // Marker-Tokens entfernen (nicht rendern), Text-Tokens mit Tags versehen
-    // Gleiche Töne (≥ 1) hintereinander werden mit ^b...^0b geklammert wenn Ton = 3 oder 1 (letzter/drittletzter)
-    // Ton 4 = Kadenzanfang → ^u...^0u
-    // Ton 2 oder 1 in Gruppe → ^b...^0b um den Vokal der Silbe...
-    // VEREINFACHUNG: Wir wenden die Klammer auf den gesamten Text-Inhalt des Segments an,
-    // da die genaue Vokal-Position in der Enddarstellung durch CSS gehandhabt wird.
-    // Die Spec §1 beschreibt den ^b-Marker als vor dem silbenbildenden Vokal stehend (für die Dateneingabe),
-    // aber beim Rendering (formatCantMarkers) können wir die ganze Silbe klammern.
+// Hilfsfunktion: Tonzuweisung für b=2 (weiblicher/männlicher Versschluss)
+const assignTonesB2 = (tone, slots, cadStartIdx, dblBarIdx, sglBarIdxs, tildeIdx) => {
+    const postBars = sglBarIdxs.filter(idx => idx > dblBarIdx);
+    const firstStressed = cadStartIdx;
+    const secondStressed = postBars.length > 0 ? postBars[0] : dblBarIdx;
 
+    const isMaennlich = !slots.slice(secondStressed + 1).some(s => s.text.trim().length > 0);
+
+    tone[firstStressed] = 4; // Kadenzanfang: Unterstreichung
+
+    if (tildeIdx >= 0 && tildeIdx > firstStressed && tildeIdx < (isMaennlich ? secondStressed : dblBarIdx)) {
+        // Tilde: abweichende Gruppen-Grenze zwischen Ton 3 und Ton 2
+        for (let i = firstStressed + 1; i <= tildeIdx; i++) tone[i] = 3;
+        for (let i = tildeIdx + 1; i <= secondStressed; i++) tone[i] = 2;
+        for (let i = secondStressed + 1; i < slots.length; i++) {
+            if (slots[i].text.trim()) tone[i] = 1;
+        }
+        return;
+    }
+
+    if (!isMaennlich) {
+        // Weiblicher Versschluss
+        for (let i = firstStressed + 1; i < dblBarIdx; i++) tone[i] = 3;
+        tone[dblBarIdx] = 2;
+        if (postBars.length > 0) tone[postBars[0]] = 2;
+        const afterSecond = postBars.length > 0 ? postBars[0] : dblBarIdx;
+        for (let i = afterSecond + 1; i < slots.length; i++) tone[i] = 1;
+    } else {
+        // Männlicher Versschluss
+        let firstAfterIdx = -1;
+        for (let i = firstStressed + 1; i < secondStressed; i++) {
+            if (slots[i].text.trim()) { firstAfterIdx = i; break; }
+        }
+        if (firstAfterIdx >= 0) tone[firstAfterIdx] = 3;
+        for (let i = (firstAfterIdx >= 0 ? firstAfterIdx + 1 : firstStressed + 1); i < secondStressed; i++) {
+            tone[i] = 2;
+        }
+        tone[secondStressed] = 1;
+    }
+};
+
+// Hilfsfunktion: Sonderfall drei betonte Silben (b=2, zwei | + ein ||)
+const assignTonesThreeStressed = (tone, slots, bar1, bar2, dblBarIdx) => {
+    tone[bar1] = 4; // erste betonte Silbe: Unterstreichung
+    for (let i = bar1 + 1; i < bar2; i++) tone[i] = 3; // zwischen bar1 und bar2: Ton 3
+    tone[bar2] = 2; // zweite betonte Silbe
+    // erste Folgesilbe nach bar2 (vor ||) ebenfalls Ton 2 → gleiche Gruppe
+    for (let i = bar2 + 1; i < dblBarIdx; i++) {
+        if (slots[i].text.trim()) { tone[i] = 2; break; }
+    }
+    tone[dblBarIdx] = 1; // || → letzter Ton
+};
+
+// Baut den getaggten Text aus Slots und Ton-Zuweisung zusammen.
+// Jeder Slot enthält genau einen Silbentext; kein Marker-Überspringen nötig.
+// Hilfsfunktion: trennt abschließende Leerzeichen und °-Platzhalter vom Kerntext ab.
+const splitTrail = (s) => {
+    let i = s.length;
+    while (i > 0 && (s[i - 1] === ' ' || s[i - 1] === '°')) i--;
+    return [s.slice(0, i), s.slice(i)];
+};
+const buildTaggedText = (slots, tone) => {
     let out = '';
     let i = 0;
-    while (i < tokens.length) {
-        const t = tokens[i];
-
-        if (t.type === 'marker') {
-            // Marker entfernen (nicht in Output)
-            i++;
-            continue;
-        }
-
-        // Text-Token
+    while (i < slots.length) {
         const t_tone = tone[i];
-
+        const text = slots[i].text;
         if (t_tone === 0) {
-            // Rezitationston: Text unverändert
-            out += t.val;
+            out += text;
             i++;
-            continue;
-        }
-
-        if (t_tone === 4) {
-            // Kadenzanfang: ^u...^0u
-            out += `^u${t.val}^0u`;
+        } else if (t_tone === 4) {
+            const [core, trail] = splitTrail(text);
+            out += `^u${core}^0u` + trail;
             i++;
-            continue;
-        }
-
-        // Töne 3, 2, 1: ggf. Klammer
-        // Sammle zusammenhängende Text-Tokens mit gleichem Ton (ohne Marker dazwischen)
-        // → werden zu einer ^b-Gruppe
-        // Prüfe: gibt es benachbarte Text-Tokens mit gleichem Ton?
-        let group = [t.val];
-        let j = i + 1;
-        // Überspringe Marker-Tokens zwischen Text-Tokens mit gleichem Ton
-        while (j < tokens.length) {
-            if (tokens[j].type === 'marker') { j++; continue; }
-            if (tone[j] === t_tone) {
-                group.push(tokens[j].val);
-                j++;
-            } else {
-                break;
-            }
-        }
-
-        const groupText = group.join('');
-        if (group.length > 1) {
-            // Mehrere Silben auf gleichem Ton → klammern
-            // Verschachtelung: wenn Ton 4 (^u) direkt vorausgeht, ist bereits geregelt
-            out += `^b${groupText}^0b`;
         } else {
-            out += groupText;
+            // Töne 1, 2, 3: aufeinanderfolgende gleiche Töne → Klammer
+            let j = i + 1;
+            let group = text;
+            while (j < slots.length && tone[j] === t_tone) {
+                group += slots[j].text;
+                j++;
+            }
+            if (j > i + 1) {
+                const [core, trail] = splitTrail(group);
+                out += `^b${core}^0b` + trail;
+            } else {
+                out += text;
+            }
+            i = j;
         }
-
-        // Überspringe alle verarbeiteten Tokens
-        i = j;
     }
     return out;
+};
+
+// Berechnet Anlaut- und Auslaut-Trimming für psalm-cant-bracket-Spans.
+// Links:  Anlaut-Konsonanten; bei öffnendem Diphthong auch erster Vokal → außerhalb Klammer.
+// Rechts: Auslaut-Konsonanten; bei schließendem Diphthong auch zweiter Vokal → außerhalb Klammer.
+// Wort-Trennzeichen (Leerzeichen, °) stoppen den Scan.
+const CANT_VOWEL_RE = /[aeiouäöüáéíóúàèìòùAEIOUÄÖÜÁÉÍÓÚÀÈÌÒÙ]/;
+const CANT_DIPHTHONGS = new Set(['ei', 'ai', 'au', 'eu', 'äu', 'ie', 'ae', 'oe']);
+const bracketTrim = (content) => {
+    const isSep = c => c === ' ' || c === '°';
+    // Linker Rand: Anlaut-Konsonanten; bei öffnendem Diphthong auch erster Vokal
+    let li = 0;
+    while (li < content.length && !CANT_VOWEL_RE.test(content[li]) && !isSep(content[li])) li++;
+    if (li < content.length - 1 && CANT_VOWEL_RE.test(content[li]) && !isSep(content[li + 1])) {
+        const pair = (content[li] + content[li + 1]).toLowerCase();
+        if (CANT_DIPHTHONGS.has(pair)) li++;
+    }
+    // Rechter Rand: Auslaut-Konsonanten; bei schließendem Diphthong auch zweiter Vokal
+    let ri = content.length;
+    while (ri > li && !CANT_VOWEL_RE.test(content[ri - 1]) && !isSep(content[ri - 1])) ri--;
+    if (ri > li + 1 && CANT_VOWEL_RE.test(content[ri - 1]) && CANT_VOWEL_RE.test(content[ri - 2]) && !isSep(content[ri - 2])) {
+        const pair = (content[ri - 2] + content[ri - 1]).toLowerCase();
+        if (CANT_DIPHTHONGS.has(pair)) ri--;
+    }
+    return { left: content.slice(0, li), inner: content.slice(li, ri), right: content.slice(ri) };
 };
 
 // Formatiert Gebetstext mit speziellen Tags und saisonalen Anpassungen
@@ -1075,7 +1012,14 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
                 return <span key={`underline-${index}`} style={{ textDecoration: 'underline' }}>{content}</span>;
             } else if (segment.startsWith('^b')) {
                 const content = segment.substring(2, segment.length - 3);
-                return <span key={`cant-bracket-${index}`} className="psalm-cant-bracket">{content}</span>;
+                const { left, inner, right } = bracketTrim(content);
+                return (
+                    <React.Fragment key={`cant-bracket-${index}`}>
+                        {left}
+                        <span className="psalm-cant-bracket">{inner || content}</span>
+                        {right}
+                    </React.Fragment>
+                );
             } else if (segment.startsWith('^ELL')) {
                 const content = segment.substring(4, segment.length - 5);
                 return <span key={`ellipsis-${index}`} className='text-gray-500 dark:text-gray-400 italic' aria-hidden="true">{content}</span>;

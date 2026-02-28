@@ -890,7 +890,8 @@ const PrayerTextDisplay = ({
               </div>
             )}
             <div className="mb-4">
-              {formatPrayerText(ordinariumTexts.cant, 'cantIX')}
+              {formatPsalm(ordinariumTexts, 'BuM')}
+              {/* {formatPrayerText(ordinariumTexts.cant, 'cantIX')} */}
             </div>
             {getValue("antev") && (
               <div className="mb-0">
@@ -1779,7 +1780,7 @@ export default function Stundenbuch() {
                 {LanguageButton("_lat", "lat.")}
                 {unlockBenedictine && LanguageButton("_ben", "Ben")}
                 {LanguageButton("_neu", "neu")}
-                {0 === 1 && LanguageButton("_cant", "cant")}
+                {LanguageButton("_cant", "cant")}
               </div>
               <div className="mt-1 text-xs text-gray-500 dark:text-gray-400">
                 <p><b>Grundeinstellung:</b> {getLanguageName(storedPrefLanguage)}</p>
