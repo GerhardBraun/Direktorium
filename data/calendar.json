@@ -1964,14 +1964,14 @@
           "major": {
             "comm_1": "Hirten_Kl",
             "oration": "Allmächtiger, ewiger Gott, du hast den heiligen Gregor zum geistlichen Lehrer und zur Zierde des armenischen Volkes gemacht. Gib, dass wir nach seinem Beispiel in der Kunst des Betens wachsen und unser Leben beständig durch die Sakramente der Kirche stärken.^ORV",
-            "oration_lat": "Omnípotens sempitéme Deus, qui sanctum Gregórium, magístrum et decus Arméni pópuli, mýstica doctrína imbúere dignátus es, concéde nobis, ipso docénte, artem tecum loquéndi apprehéndere vitámque nostram Ecclésiæ sacraméntis constánter fulcíre."
+            "oration_lat": "Omnípotens sempitérne Deus, qui sanctum Gregórium, magístrum et decus Arméni pópuli, mýstica doctrína imbúere dignátus es, concéde nobis, ipso docénte, artem tecum loquéndi apprehéndere vitámque nostram Ecclésiæ sacraméntis constánter fulcíre."
           },
           "Laudes": {
             "button": "Hl. Gregor von Narek",
             "genitiv": "des heiligen Gregor",
             "vokativ": "Heiliger Gregor",
             "genitiv_lat": "sancti Gregórii",
-            "vokativ_lat": "sancte Gregor",
+            "vokativ_lat": "sancte Gregóri",
             "ant_komm": "Die Weisen strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig.",
             "ant_komm_lat": "Qui docti fúerint, fulgébunt quasi splendor firmaménti, et qui ad iustítiam erúdiunt multos, quasi stella: in perpétuas æternitátes."
           },
