@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect, useRef, useCallback, useMemo } from "react";
-import { Menu, MonitorCheck } from "lucide-react";
+import { Menu, MonitorCheck, BookOpen } from "lucide-react";
 import useWakeLock from "./utils/WakeLock.js";
 import { liturgicalData } from "./data/Direktorium.ts";
 import { deceasedData } from "./data/Deceased.ts";
@@ -2176,10 +2176,10 @@ export default function Stundenbuch() {
                     setViewMode("prayer");
                     window.scrollTo({ top: 0, behavior: 'instant' });
                   }}
-                  className="shrink-0 p-2 bg-orange-100 dark:bg-yellow-400/60 hover:bg-orange-200 dark:hover:bg-yellow-400/70 rounded"
-                  title="Stundengebet"
+                  className="shrink-0 px-2 pt-1 bg-orange-100 dark:bg-yellow-400/60 hover:bg-orange-200 dark:hover:bg-yellow-400/70 rounded"
+                  title="Auswahl der Gebetszeiten"
                 >
-                  Menü
+                  <BookOpen size={28} />
                 </button>
               </div>
             </div>

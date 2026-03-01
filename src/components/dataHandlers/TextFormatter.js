@@ -128,7 +128,7 @@ const getDoxology = (localPrefLanguage, psalm, isBuM = false) => {
             + "et in sáecula saeculórum. Amen.";
     }
     if (localPrefLanguage === "_cant" && (isBuM || psalm.text_cant)) {
-        return "Ehre sei dem |Va0ter 2und 1dem ||Sohn^*"
+        return "Ehre sei dem |Va0ter ~2und 1dem ||Sohn^*"
             + "und 4dem 3|Hei2li1gen ||Geist,^p"
             + "wie im Anfang, so°auch°2|jetzt°1und°||al0le°Zeit^*"
             + "und in 3|E2wig1keit. ||A0men.";
@@ -399,18 +399,22 @@ const tokenizeHalfVerse = (hv) => {
     const markerSplitRe = /((?:[|]{1,2}|[1-4]|~|(?<!\^)0)+)/g;
     const parts = hv.split(markerSplitRe);
     // parts = [prefixText, marker1, text1, marker2, text2, ...]
-    const parseMarker = (m) => ({
-        countdown: m.match(/[1-4]/)?.[0] ?? '',
-        stressed: m.includes('||') ? '||' : /(?<!\|)\|(?!\|)/.test(m) ? '|' : '',
-        tilde: m.includes('~'),
-        syllBound: m.includes('0'),
-    });
+    const parseMarker = (m) => {
+        const countdowns = m.match(/[1-4]/g) ?? [];
+        return {
+            countdown: countdowns[0] ?? '',
+            countdowns,
+            stressed: m.includes('||') ? '||' : /(?<!\|)\|(?!\|)/.test(m) ? '|' : '',
+            tilde: m.includes('~'),
+            syllBound: m.includes('0'),
+        };
+    };
     // Teilt einen Slot-Text an Wort-/Silbengrenzen auf (Leerzeichen und °-Platzhalter).
     // Gibt "Wort + nachfolgende Trennzeichen"-Einheiten zurück.
     const splitWords = (text) =>
         text.match(/[^\s°]*[\s°]*/g)?.filter(s => s.length > 0) ?? [];
     // Fügt Slots ein: erster Sub-Slot erbt den Marker, weitere sind plain.
-    const emptyMarker = { countdown: '', stressed: '', tilde: false, syllBound: false };
+    const emptyMarker = { countdown: '', countdowns: [], stressed: '', tilde: false, syllBound: false };
     const pushSlots = (slots, markerInfo, text) => {
         const words = splitWords(text);
         if (words.length <= 1) {
@@ -470,7 +474,7 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
     slots.forEach((slot, idx) => {
         if (slot.stressed === '||') dblBarIdx = idx;
         if (slot.stressed === '|') sglBarIdxs.push(idx);
-        if (slot.countdown) countdownIdxs[slot.countdown] = idx;
+        slot.countdowns.forEach(c => countdownIdxs[c] = idx);
         if (slot.tilde) tildeIdx = idx;
     });
 
@@ -478,8 +482,12 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
 
     // Sonderfall 1 (b=1): || steht VOR | im Text (Nebenbetonung am Versende)
     const sonderfall1 = (b === 1) && sglBarIdxs.some(idx => idx > dblBarIdx);
-    // Sonderfall 3 (b=1): 4-Marker vorhanden
-    const has4 = '4' in countdownIdxs;
+    // Verkürzte Kadenz: Marker 4 und 3 auf demselben Slot (Vers zu kurz für separaten 3er-Slot)
+    const has43Combined = b === 1 && !sonderfall1 &&
+        countdownIdxs['4'] !== undefined &&
+        countdownIdxs['4'] === countdownIdxs['3'];
+    // Sonderfall 3 (b=1): 4-Marker vorhanden (aber nicht wenn 4+3 kombiniert auf einem Slot)
+    const has4 = !has43Combined && ('4' in countdownIdxs);
     const v_eff = (b === 1 && has4) ? v + 1 : v;
 
     // Kadenzanfang (Slot-Index)
@@ -495,6 +503,20 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
             cadStartIdx = active.length > 0 ? active[0][1] : dblBarIdx;
         } else {
             cadStartIdx = v_eff === 0 ? dblBarIdx : (countdownIdxs[String(v_eff)] ?? dblBarIdx);
+        }
+    }
+
+    // Verkürzte Kadenz (b=1, männlicher Versschluss): _ oder - am Kadenzanfang signalisiert,
+    // dass die erste Silbe zwei Kadenztöne (4+3) trägt.
+    if (has43Combined) {
+        const isMaennlichShort = !slots.slice(dblBarIdx + 1).some(s => s.text.trim().length > 0);
+        if (isMaennlichShort) {
+            const cadSlot = slots[cadStartIdx];
+            const t = cadSlot.text;
+            const endsWithSep = t.length > 0 && (t[t.length - 1] === ' ' || t[t.length - 1] === '°');
+            cadSlot.text = endsWithSep
+                ? t.slice(0, t.length - 1) + '~' + t.slice(t.length - 1)
+                : t + '~';
         }
     }
 
@@ -577,20 +599,33 @@ const assignTonesB2 = (tone, slots, cadStartIdx, dblBarIdx, sglBarIdxs, tildeIdx
     if (tildeIdx >= 0 && tildeIdx > firstStressed && tildeIdx < (isMaennlich ? secondStressed : dblBarIdx)) {
         // Tilde: abweichende Gruppen-Grenze zwischen Ton 3 und Ton 2
         for (let i = firstStressed + 1; i <= tildeIdx; i++) tone[i] = 3;
-        for (let i = tildeIdx + 1; i <= secondStressed; i++) tone[i] = 2;
-        for (let i = secondStressed + 1; i < slots.length; i++) {
-            if (slots[i].text.trim()) tone[i] = 1;
+        if (isMaennlich) {
+            for (let i = tildeIdx + 1; i < secondStressed; i++) tone[i] = 2;
+            tone[secondStressed] = 1; // letzter Hauptton → T1
+        } else {
+            for (let i = tildeIdx + 1; i <= secondStressed; i++) tone[i] = 2;
+            for (let i = secondStressed + 1; i < slots.length; i++) {
+                if (slots[i].text.trim()) tone[i] = 1;
+            }
         }
         return;
     }
 
     if (!isMaennlich) {
         // Weiblicher Versschluss
-        for (let i = firstStressed + 1; i < dblBarIdx; i++) tone[i] = 3;
-        tone[dblBarIdx] = 2;
-        if (postBars.length > 0) tone[postBars[0]] = 2;
-        const afterSecond = postBars.length > 0 ? postBars[0] : dblBarIdx;
-        for (let i = afterSecond + 1; i < slots.length; i++) tone[i] = 1;
+        if (firstStressed < dblBarIdx) {
+            // Normalfall: | vor ||
+            for (let i = firstStressed + 1; i < dblBarIdx; i++) tone[i] = 3;
+            tone[dblBarIdx] = 2;
+            if (postBars.length > 0) tone[postBars[0]] = 2;
+            const afterSecond = postBars.length > 0 ? postBars[0] : dblBarIdx;
+            for (let i = afterSecond + 1; i < slots.length; i++) tone[i] = 1;
+        } else if (postBars.length > 0) {
+            // || vor |: Kadenzanfang (||) bleibt T4, Zwischensilben → T3, | → T2, Koda → T1
+            for (let i = dblBarIdx + 1; i < postBars[0]; i++) tone[i] = 3;
+            tone[postBars[0]] = 2;
+            for (let i = postBars[0] + 1; i < slots.length; i++) tone[i] = 1;
+        }
     } else {
         // Männlicher Versschluss
         let firstAfterIdx = -1;
@@ -622,7 +657,7 @@ const assignTonesThreeStressed = (tone, slots, bar1, bar2, dblBarIdx) => {
 // Hilfsfunktion: trennt abschließende Leerzeichen und °-Platzhalter vom Kerntext ab.
 const splitTrail = (s) => {
     let i = s.length;
-    while (i > 0 && (s[i - 1] === ' ' || s[i - 1] === '°')) i--;
+    while (i > 0 && (s[i - 1] === ' ' || s[i - 1] === '°' || s[i - 1] === '~')) i--;
     return [s.slice(0, i), s.slice(i)];
 };
 const buildTaggedText = (slots, tone) => {
