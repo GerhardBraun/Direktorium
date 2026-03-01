@@ -8,9 +8,10 @@
   position: relative;
   border-bottom: 1px solid currentColor;
   padding-bottom: 2px;
-  padding-left:   1px;
-  padding-right:  1px;
+  padding-left: 1px;
+  padding-right: 1px;
 }
+
 .psalm-cant-bracket::before,
 .psalm-cant-bracket::after {
   content: '';
@@ -20,8 +21,29 @@
   height: 5px;
   background: currentColor;
 }
-.psalm-cant-bracket::before { left:  0; }
-.psalm-cant-bracket::after  { right: 0; }
+
+.psalm-cant-bracket::before {
+  left: 0;
+}
+
+.psalm-cant-bracket::after {
+  right: 0;
+}
+
+/* Psalmodie: Flexa-Markierung – Punkt unter dem silbenbildenden Vokal (^d...^0d) */
+.psalm-cant-flexa-dot {
+  position: relative;
+  display: inline;
+}
+
+.psalm-cant-flexa-dot::after {
+  content: '·';
+  position: absolute;
+  bottom: 1px;
+  left: 50%;
+  transform: translateX(-50%);
+  line-height: 0;
+}
 
 /* Psalmodiemodell-Bild: im Dark Mode invertieren */
 .dark .psalm-tone-image {

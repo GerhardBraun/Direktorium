@@ -446,7 +446,12 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
             // ([\s°0]*) absorbiert Silbengrenzen und Leerzeichen zwischen Silbe und |.
             result = result.replace(
                 /([^\s°|0]+)([\s°0]*)(?<!\|)\|(?!\|)/,
-                (_m, syl, space) => `^u${syl}^0u${space}`
+                (_m, syl, space) => {
+                    const vi = syl.search(CANT_VOWEL_RE);
+                    if (vi < 0) return syl + space;
+                    // Punkt unter dem silbenbildenden Vokal (erster Vokal des Diphthongs)
+                    return syl.slice(0, vi) + '^d' + syl[vi] + '^0d' + syl.slice(vi + 1) + space;
+                }
             );
         } else if (result.includes('~')) {
             // ~ vorhanden → letzte Silbe vor ~ und erste Silbe nach ~ klammern.
@@ -654,10 +659,11 @@ const assignTonesThreeStressed = (tone, slots, bar1, bar2, dblBarIdx) => {
 
 // Baut den getaggten Text aus Slots und Ton-Zuweisung zusammen.
 // Jeder Slot enthält genau einen Silbentext; kein Marker-Überspringen nötig.
-// Hilfsfunktion: trennt abschließende Leerzeichen und °-Platzhalter vom Kerntext ab.
+// Hilfsfunktion: trennt abschließende Leerzeichen, °-Platzhalter, Tilde und
+// Satzzeichen vom Kerntext ab (bleiben außerhalb von ^u/^b-Tags).
 const splitTrail = (s) => {
     let i = s.length;
-    while (i > 0 && (s[i - 1] === ' ' || s[i - 1] === '°' || s[i - 1] === '~')) i--;
+    while (i > 0 && ' °~.,;!?'.includes(s[i - 1])) i--;
     return [s.slice(0, i), s.slice(i)];
 };
 const buildTaggedText = (slots, tone) => {
@@ -1044,7 +1050,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
             .replace(/\^l/g, '\n')
 
         // ERWEITERTE REGEX um Satzzeichen-Marker zu erfassen
-        const segments = text.split(/(\^RUBR.*?\^0RUBR|\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^c.*?\^0c|\^k.*?\^0k|\^u.*?\^0u|\^b.*?\^0b|\^ELL.*?\^0ELL|§FN\d+§|§PUNCT\d+§|\^STAR.*?\^0STAR)/g).filter(Boolean);
+        const segments = text.split(/(\^RUBR.*?\^0RUBR|\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^c.*?\^0c|\^k.*?\^0k|\^u.*?\^0u|\^b.*?\^0b|\^d.*?\^0d|\^ELL.*?\^0ELL|§FN\d+§|§PUNCT\d+§|\^STAR.*?\^0STAR)/g).filter(Boolean);
 
         return segments.map((segment, index) => {
             if (segment.startsWith('^r')) {
@@ -1065,6 +1071,9 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
             } else if (segment.startsWith('^k')) {
                 const content = segment.substring(2, segment.length - 3);
                 return <span key={`italic-${index}`} style={{ fontStyle: 'italic' }}>{content}</span>;
+            } else if (segment.startsWith('^d')) {
+                const content = segment.substring(2, segment.length - 3);
+                return <span key={`flexa-dot-${index}`} className="psalm-cant-flexa-dot">{content}</span>;
             } else if (segment.startsWith('^u')) {
                 const content = segment.substring(2, segment.length - 3);
                 return <span key={`underline-${index}`} style={{ textDecoration: 'underline' }}>{content}</span>;

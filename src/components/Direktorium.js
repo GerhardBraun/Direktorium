@@ -2176,10 +2176,10 @@ export default function Stundenbuch() {
                     setViewMode("prayer");
                     window.scrollTo({ top: 0, behavior: 'instant' });
                   }}
-                  className="shrink-0 px-2 pt-1 bg-orange-100 dark:bg-yellow-400/60 hover:bg-orange-200 dark:hover:bg-yellow-400/70 rounded"
+                  className="shrink-0 p-2 pb-1 bg-orange-100 dark:bg-yellow-400/60 hover:bg-orange-200 dark:hover:bg-yellow-400/70 rounded"
                   title="Auswahl der Gebetszeiten"
                 >
-                  <BookOpen size={28} />
+                  <BookOpen size={24} />
                 </button>
               </div>
             </div>
