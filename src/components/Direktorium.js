@@ -1604,6 +1604,7 @@ export default function Stundenbuch() {
           onTouchStart={() => handleLanguageLongPress(value)}
           onTouchEnd={clearLongPressTimeout}
           onTouchCancel={clearLongPressTimeout}
+          onContextMenu={(e) => e.preventDefault()}
           onClick={(e) => {
             if (!isLongPressing) {
               e.preventDefault();

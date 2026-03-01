@@ -7,7 +7,7 @@ const HymnSelector = ({ texts, hour, season,
     formatPrayerText }) => {
     const [selectedHymn, setSelectedHymn] = useState(null);
 
-    localPrefLanguage = ['_neu', '_ben'].includes(localPrefLanguage) ? '' : localPrefLanguage
+    localPrefLanguage = ['_neu', '_ben', '_cant'].includes(localPrefLanguage) ? '' : localPrefLanguage
     if (hour === 'vesper' && prefSollemnity === 'soll')
         hour = 'prefsollemnity';
     const isErsteVesper = hour === 'vesper' && texts?.rank?.hasErsteVesper && !prefSollemnity

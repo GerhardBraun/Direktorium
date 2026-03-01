@@ -28,10 +28,11 @@ const PersonalSettings = () => {
     const [diocese, setDiocese] = useState(() =>
         localStorage.getItem('diocese') || 'Fulda'
     );
-    const [vacancy, setVacancy] = useState(() =>
-        localStorage.getItem('vacancy') === 'true'
+    const [bishopTitle, setBishopTitle] = useState(() =>
+        localStorage.getItem('bishopTitle') || 'Bischof'
     );
     const [showDioceseDropdown, setShowDioceseDropdown] = useState(false);
+    const [showBishopTitleDropdown, setShowBishopTitleDropdown] = useState(false);
     const [languages, setLanguages] = useState(() => {
         const stored = localStorage.getItem('languages');
         return stored ? JSON.parse(stored) : ['', '_lat'];
@@ -221,9 +222,9 @@ const PersonalSettings = () => {
                         setDiocese(data.settings.diocese);
                         setLocalStorage('diocese', data.settings.diocese);
                     }
-                    if (data.settings.vacancy !== undefined) {
-                        setVacancy(data.settings.vacancy);
-                        setLocalStorage('vacancy', data.settings.vacancy.toString());
+                    if (data.settings.bishopTitle !== undefined) {
+                        setBishopTitle(data.settings.bishopTitle);
+                        setLocalStorage('bishopTitle', data.settings.bishopTitle);
                     }
                     if (data.settings.popeName) {
                         setPopeName(data.settings.popeName);
@@ -280,7 +281,7 @@ const PersonalSettings = () => {
             prefLanguage,
             languages,
             diocese,
-            vacancy,
+            bishopTitle,
             popeName,
             popeNameLat,
             bishopName,
@@ -314,10 +315,6 @@ const PersonalSettings = () => {
     }, [startView]);
 
     useEffect(() => {
-        setLocalStorage('prefLanguage', prefLanguage);
-    }, [prefLanguage]);
-
-    useEffect(() => {
         setLocalStorage('languages', JSON.stringify(languages));
     }, [languages]);
 
@@ -336,8 +333,8 @@ const PersonalSettings = () => {
     }, [diocese]);
 
     useEffect(() => {
-        setLocalStorage('vacancy', vacancy.toString());
-    }, [vacancy]);
+        setLocalStorage('bishopTitle', bishopTitle);
+    }, [bishopTitle]);
 
     useEffect(() => {
         setLocalStorage('popeName', popeName);
@@ -374,6 +371,16 @@ const PersonalSettings = () => {
         document.addEventListener('mousedown', handleClickOutside);
         return () => document.removeEventListener('mousedown', handleClickOutside);
     }, [showDioceseDropdown]);
+
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (showBishopTitleDropdown && !event.target.closest('.bishop-title-dropdown')) {
+                setShowBishopTitleDropdown(false);
+            }
+        };
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => document.removeEventListener('mousedown', handleClickOutside);
+    }, [showBishopTitleDropdown]);
 
     return (
         <div className="space-y-2 pt-2">
@@ -443,7 +450,11 @@ const PersonalSettings = () => {
                                     '_neu-_lat': 'neu/lat.',
                                     '-_ben': 'Stb/Ben',
                                     '-_neu': 'Stb/neu',
-                                    '_ben-_neu': 'Ben/neu'
+                                    '_ben-_neu': 'Ben/neu',
+                                    '-_cant': 'Stb/cant',
+                                    '_cant-_lat': 'cant/lat.',
+                                    '_cant-_ben': 'cant/Ben',
+                                    '_cant-_neu': 'cant/neu'
                                 };
                                 return options[langKey] || 'Stb/lat.';
                             })()}
@@ -453,7 +464,7 @@ const PersonalSettings = () => {
                         {showLanguageDropdown && (
                             <div className="absolute top-full left-0 right-0 mt-1 bg-white dark:bg-gray-800
                     border dark:border-gray-600 rounded shadow-lg z-50">
-                                <div className="grid" style={{ gridTemplateColumns: ' 50px 90px 90px' }}>
+                                <div className="grid" style={{ gridTemplateColumns: unlockBenedictine ? '50px 90px 90px 90px' : '50px 90px 90px' }}>
                                     <div className="border-r dark:border-gray-600">
                                         <button
                                             key={'aus'}
@@ -490,11 +501,41 @@ const PersonalSettings = () => {
                                         })}
                                     </div>
 
-                                    {unlockBenedictine && (<div>
+                                    {unlockBenedictine && (
+                                        <div className="border-r dark:border-gray-600">
+                                            {[
+                                                [['', '_ben'], 'Stb/Ben'],
+                                                [['', '_neu'], 'Stb/neu'],
+                                                [['_ben', '_neu'], 'Ben/neu']
+                                            ].map(([langPair, label]) => {
+                                                const isSelected = (languages[0] === langPair[0] && languages[1] === langPair[1]) ||
+                                                    (languages[0] === langPair[1] && languages[1] === langPair[0]);
+                                                return (
+                                                    <button
+                                                        key={label}
+                                                        onClick={() => {
+                                                            setLanguages(langPair);
+                                                            setShowLanguageDropdown(false);
+                                                        }}
+                                                        className={`w-full px-3 pt-1 text-left text-sm hover:bg-gray-100 dark:hover:bg-gray-700
+                                text-gray-900 dark:text-gray-100
+                                ${isSelected ? 'bg-orange-100 dark:bg-yellow-400/60' : ''}`}
+                                                    >
+                                                        {label}
+                                                    </button>
+                                                );
+                                            })}
+                                        </div>
+                                    )}
+
+                                    <div>
                                         {[
-                                            [['', '_ben'], 'Stb/Ben'],
-                                            [['', '_neu'], 'Stb/neu'],
-                                            [['_ben', '_neu'], 'Ben/neu']
+                                            [['', '_cant'], 'Stb/cant'],
+                                            [['_cant', '_lat'], 'cant/lat.'],
+                                            ...(unlockBenedictine ? [
+                                                [['_cant', '_ben'], 'cant/Ben']
+                                            ] : []),
+                                            [['_cant', '_neu'], 'cant/neu'],
                                         ].map(([langPair, label]) => {
                                             const isSelected = (languages[0] === langPair[0] && languages[1] === langPair[1]) ||
                                                 (languages[0] === langPair[1] && languages[1] === langPair[0]);
@@ -514,7 +555,7 @@ const PersonalSettings = () => {
                                             );
                                         })}
                                     </div>
-                                    )}                                </div>
+                                </div>
                             </div>
                         )}
                     </div>
@@ -573,16 +614,37 @@ const PersonalSettings = () => {
                     style={{ gridTemplateColumns: '6rem minmax(0, 1fr) minmax(0, 1fr)' }}>
                     <div></div>
                     <div></div>
-                    <button
-                        onClick={() => setVacancy(!vacancy)}
-                        className={`px-2 py-1 text-xs rounded text-left
-                            ${vacancy
-                                ? 'bg-orange-100 dark:bg-yellow-400/60 text-gray-900'
-                                : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-600'
-                            }`}
-                    >
-                        Diözesan&shy;administrator
-                    </button>
+                    <div className="relative bishop-title-dropdown">
+                        <button
+                            onClick={() => setShowBishopTitleDropdown(!showBishopTitleDropdown)}
+                            className="w-full px-2 py-1 text-xs bg-gray-100 dark:bg-gray-800
+                                border dark:border-gray-600 rounded text-left
+                                text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700"
+                        >
+                            {bishopTitle}
+                            <span className="float-right">▼</span>
+                        </button>
+                        {showBishopTitleDropdown && (
+                            <div className="absolute top-full left-0 right-0 mt-1 bg-white dark:bg-gray-800
+                                border dark:border-gray-600 rounded shadow-lg z-50">
+                                {['Bischof', 'Erzbischof', 'Diözesanadministrator'].map(option => (
+                                    <button
+                                        key={option}
+                                        onClick={() => {
+                                            setBishopTitle(option);
+                                            setShowBishopTitleDropdown(false);
+                                        }}
+                                        className={`w-full px-2 py-1 text-left text-xs
+                                            text-gray-900 dark:text-gray-100
+                                            hover:bg-gray-100 dark:hover:bg-gray-700
+                                            ${bishopTitle === option ? 'bg-orange-100 dark:bg-yellow-400/60' : ''}`}
+                                    >
+                                        {option}
+                                    </button>
+                                ))}
+                            </div>
+                        )}
+                    </div>
                 </div>
 
                 <div className="grid gap-1 items-center mb-3"

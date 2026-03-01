@@ -16,7 +16,7 @@ export const getValue = ({
     const { rank = { wt: 0, date: 0 }, dayOfWeek } = texts;
     const swdCombined = texts?.swd?.combined || '';
     const languageField = field + localPrefLanguage
-    const isForeignLanguage = localPrefLanguage.replace(/_neu|_ben/g, '')
+    const isForeignLanguage = localPrefLanguage.replace(/_neu|_ben|_cant/g, '')
     const allSouls = texts.dateCompare === '11-02'
 
     // Weihnachtsoktav: Vesper im Rang eines Festes

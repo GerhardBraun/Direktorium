@@ -885,10 +885,15 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
     }
 
     const replaceNames = (text) => {
-        if (localStorage.getItem('vacancy') === 'true') {
+        const bishopTitle = localStorage.getItem('bishopTitle') || 'Bischof';
+        text = text
+            .replace(/Bischof \^NB/g, bishopTitle + ' ^NB')
+        if (bishopTitle === 'Erzbischof') {
+            text = text.replace(/Epíscop(.*?)\^N/g, 'Archiepíscop$1^N')
+        }
+        else if (bishopTitle === 'Diözesanadministrator') {
             // bei Vakanz Bischof durch Diözesanadministrator ersetzen
             text = text
-                .replace(/Bischof \^NB/g, 'Diözesanadministrator ^NB')
                 .replace(/Epíscopo(\s+nostro)?\s*\^NdatB/g, 'Administratóri$1 diœcesáno ^NdatB')
                 .replace(/Epíscopum(\s+nostrum)?\s*\^NakkB/g, 'Administratórem$1 diœcesánum ^NakkB')
                 .replace(/Epíscopo(\s+nostro)?\s*\^NablB/g, 'Administratóre$1 diœcesáno ^NablB')

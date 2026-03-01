@@ -257,7 +257,7 @@ const SectionHeader = ({
 
     // Bestimme die Anzeigetexte für die Sprachen
     const label = (key) => {
-        const labels = { '': 'Stb', '_lat': 'lat.', '_neu': 'neu', '_ben': 'Ben' };
+        const labels = { '': 'Stb', '_lat': 'lat.', '_neu': 'neu', '_ben': 'Ben', '_cant': 'cant' };
         // Sonderfall für Stb/Latein: (dt./lat.)
         if (!key && !languages[0] && languages[1] === '_lat')
             return 'dt.'
