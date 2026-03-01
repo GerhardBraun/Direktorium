@@ -18,7 +18,6 @@ const PersonalSettings = () => {
     const benedictinePsalms = [81, 29, 67, 46, 24, 8, 95];
 
     // States
-    const [personalData, setPersonalData] = useState(null);
     const [startView, setStartView] = useState(() =>
         localStorage.getItem('startViewMode') || 'directory'
     );
@@ -115,11 +114,11 @@ const PersonalSettings = () => {
         if (!calendarData) return [];
 
         const availableOptions = Object.entries(calendarData)
-            .filter(([key, data]) => {
+            .filter(([, data]) => {
                 const hasBlockEntry = data && data.hasOwnProperty('99');
                 return !hasBlockEntry;
             })
-            .map(([key, data]) => ({
+            .map(([key]) => ({
                 key,
                 label: key === 'AAA' ? 'keine Eigenfeiern' : key,
                 disabled: false
@@ -131,11 +130,11 @@ const PersonalSettings = () => {
             });
 
         const blockedOptions = Object.entries(calendarData)
-            .filter(([key, data]) => {
+            .filter(([, data]) => {
                 const hasBlockEntry = data && data.hasOwnProperty('99');
                 return hasBlockEntry;
             })
-            .map(([key, data]) => ({
+            .map(([key]) => ({
                 key,
                 label: key,
                 disabled: true
@@ -207,7 +206,6 @@ const PersonalSettings = () => {
 
             if (isValid) {
                 setLocalStorage('personalData', JSON.stringify(data));
-                setPersonalData(data);
 
                 if (data.settings) {
                     if (data.settings.startViewMode) {
@@ -253,8 +251,6 @@ const PersonalSettings = () => {
                         // Anzeige entsprechend aktualisieren
                         if (newBOState) {
                             setLocalStorage('sequenceInv', JSON.stringify(benedictinePsalms));
-                        } else {
-                            const importedSeq = data.settings.sequenceInv || [95, 100, 24, 67, 67, 100, 24];
                         }
                     }
                     if (data.settings.languages) {
@@ -303,13 +299,6 @@ const PersonalSettings = () => {
     };
 
     // Effects
-    useEffect(() => {
-        const loadedData = localStorage.getItem('personalData');
-        if (loadedData) {
-            setPersonalData(JSON.parse(loadedData));
-        }
-    }, []);
-
     useEffect(() => {
         setLocalStorage('startViewMode', startView);
     }, [startView]);
@@ -462,9 +451,9 @@ const PersonalSettings = () => {
                         </button>
 
                         {showLanguageDropdown && (
-                            <div className="absolute top-full left-0 right-0 mt-1 bg-white dark:bg-gray-800
+                            <div className="absolute top-full -left-[50px] right-0 mt-1 bg-white dark:bg-gray-800
                     border dark:border-gray-600 rounded shadow-lg z-50">
-                                <div className="grid" style={{ gridTemplateColumns: unlockBenedictine ? '50px 90px 90px 90px' : '50px 90px 90px' }}>
+                                <div className="grid" style={{ gridTemplateColumns: unlockBenedictine ? '50px 80px 80px 80px' : '50px 80px 80px' }}>
                                     <div className="border-r dark:border-gray-600">
                                         <button
                                             key={'aus'}
