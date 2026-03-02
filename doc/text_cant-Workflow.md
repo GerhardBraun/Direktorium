@@ -1,58 +1,58 @@
-Dieser Workflow beschreibt, wie in einer Datei `psNNN.md` des Benutzers ein Psalmtext weiter bearbeitet wird, um ihn mit Markern für die Einrichtung zum Singen zu versehen.
+Dieser Workflow beschreibt, wie in einer Datei `psNNN.md` ein Psalmtext mit Markern für die Einrichtung zum Singen versehen wird.
+
+**Grundregel für alle Durchläufe:** Eine Zeile bearbeiten → sofort als Edit in die Datei schreiben → erst dann zur nächsten Zeile weitergehen. Niemals mehrere Zeilen im Voraus analysieren. Den Edit ausführen, bevor die nächste Zeile auch nur angesehen wird.
+
+---
 
 # 1. `#` durch `|` ersetzen
-Dies kann mit einer einfachen Ersetzen-Operation geschehen. Es muss nicht jedes einzelne Zeichen durchgegangen werden.
-Die Ersetzung wird dem Benutzer durch einen Edit von `psNNN.md` angezeigt.
+Einfache Ersetzung: `#` → `|`, `##` → `||`. Als einzelner Edit der gesamten Datei.
 
-# 2. Prüfdurchlauf durch jede Zeile (1. Durchlauf)
-Gibt es in jeder Zeile einen doppelten `||`-Marker für die Hauptbetonung?
-Wenn es in einer Zeile nur zwei oder drei einfache `|`-Marker gibt, dann wird **der letzte davon durch einen doppelten `||`-Marker ersetzt.**
+---
 
-# 3. Setzen der Countdown-Marker (2. Durchlauf)
-Countdown-Marker werden vor die Silben gesetzt, die dem doppelten `||`-Marker in der Zeile vorangehen:
-`Denn ich 4bin 3|arm 2und 1ge||beugt.^p`
-Sie können auch vor einem Betonungsmarker stehen (im Beispiel `3|arm`).
+# 2. `||`-Prüfung (1. Durchlauf, zeilenweise)
+Hat die Zeile ein `||`? Wenn nein, aber zwei oder drei `|`: **letztes `|` durch `||` ersetzen.**
+Flexa-Zeilen (`^+`) haben kein `||` – das ist korrekt, nicht ändern.
+Diese Prüfung führt Claude selbst durch – den Benutzer nicht fragen.
 
-Beim Setzen der Countdown-Marker (und auch bei den späteren Durchläufen) **wird `psNNN.md` zeilenweise editiert**, damit der Benutzer die Einträge gleich mitverfolgen und verifizieren kann.
+---
 
-## 3.1 Flexa-Zeilen mit ^+ am Schluss
-bekommen **keine** Countdown-Marker.
+# 3. Countdown-Marker + alle `0`-Marker (2. Durchlauf, zeilenweise)
+Für jede Zeile – in dieser Reihenfolge:
+1. Das Wort nach `||` ansehen: folgt auf die betonte Silbe noch eine unbetonte (weiblicher Schluss)? Falls ja, `0`-Marker nach `||` setzen.
+2. Countdown-Marker rückwärts von `||` zählen und vor die jeweiligen Silben stellen.
+3. Den Bereich vom ersten `|` bis zum ersten Countdown-Marker prüfen: mehrsil­bige Wörter, die dort nicht getrennt sind, bekommen `0`-Marker. Sobald der erste Countdown-Marker erreicht ist: stoppen.
 
-## 3.2 Zeilen mit Mittelkadenz (`^*` am Schluss)
-bekommen immer 2 Countdown-Marker:
-`Herr, er|freu0e 2~dei1nen ||Knecht,^*`
+Stapelung mit `|` ist möglich: `3|Silbe`. Stapelung mit Silbenteil eines Worts: `|frü1hen`, `mei4ne`.
 
-## 3.3 Zeilen mit Schlusskadenz (`^p` am Schluss)
-a. bei männlichem Versschluss (die letzte Silbe ist eine betonte):
-Die Zeile bekommt 4 Countdown-Marker:
-`Denn ich 4bin 3|arm 2und 1ge||beugt.^p`
+| Zeilentyp | Countdown-Marker |
+|-----------|-----------------|
+| Flexa (`^+`) | keine – Zeile überspringen |
+| MK (`^*`) | immer genau **2** |
+| SK (`^p`), weiblicher Schluss | **3** |
+| SK (`^p`), männlicher Schluss | **4** |
+| Letzter Vers (ohne `^p`) | wie SK behandeln |
 
-b. sonst (also bei weiblichem Versschluss mit wenigsten einer unbetonten Silbe nach der letzten betonten):
-Die Zeile bekommt 3 Countdown-Marker:
-`für alle, die zu dir ru3fen, 2|reich 1an ||Gnade.^p`
+Weiblicher Schluss: nach `||` folgt noch mindestens eine unbetonte Silbe. Wenn diese zum selben Wort gehört → `0`-Marker setzen.
+`so |weit der ||Him0mmel ist.`
+Auch wenn ein weiteres Wort mehrere Silben hat → `0`-Marker setzen.
+`|was wir er||sehnt ha0ben.`
+Männlicher Schluss: nach `||` folgt keine unbetonte Silbe → kein `0`-Marker nötig.
 
-# 4. Setzen der 0-Marker
-Im fertigen Text müssen in jeder Zeile alle Silben nach dem ersten Betonungs-Marker (`|` bzw. `||`) getrennt sein.
-Dazu dienen die Betonungs- und die Countdown-Marker sowie die Leerzeichen und °-Zeichen (Platzhalter für geschützte Leerzeichen) und die Tilde (`~`).
-Wo eine Silbentrennung nicht schon durch einen dieser Marker gekennzeichnet ist, wird ein `0`-Marker gesetzt.
+Beispiel SK weiblich: `1Ver||stor0be0ne.^p` → erst `0`-Marker in `storbene`, dann 3 Countdown-Marker.
+Beispiel MK: `2|nimm°1mein°||Fle0hen` → erst `0`-Marker in `Flehen`, dann 2 Countdown-Marker.
+Beispiel Schritt 3c: `|ru0fe 2~ich 1zu ||dir` → `ru` und `fe` trennen, dann kommt `2` → stopp.
+Beispiel Schritt 3c: `|Ant0litz 2nicht` → `Ant` und `litz` trennen, dann kommt `2` → stopp.
 
-## 4.1 bei den weiblichen Versschlüssen (3. Durchlauf)
-Nach dem letzten Betonungsmarker (meist `||`, selten `|`) müssen alle Silben getrennt werden, die nicht schon durch Leerzeichen oder ° als Wortgrenze getrennt sind:
-`Gott, der im ||Him0mel ist.`
+---
 
-## 4.2 nach der 1. Betonung einer Zeile (4. Durchlauf)
-Bis man zum ersten Countdown-Marker kommt, müssen alle Silbengrenzen innerhalb eines Wortes mit dem `0`-Marker gekennzeichnet werden:
-`Am Tag meiner Not |ru0fe 2~ich 1zu ||dir,^*`
-Sobald man auf den ersten Countdown-Marker trifft, übernehmen diese die Silbentrennung.
+# 6. Einteilung in Abschnitte
+Der Benutzer gibt an, welche Abschnitte gebraucht werden (ganzer Psalm, zwei oder drei Teile) und benennt die Anfangsstellen der Folgeabschnitte.
 
-# 5. Einteilung in Abschnitte
-Nach dem Setzen der Countdown- und `0`-Marker gibt der Benutzer an, welche Abschnitte des Psalmes gebraucht werden.
-Oft ist das der ganze Psalm, manchmal wird er auch in zwei oder drei Abschnitte aufgeteilt benötigt.
-Dann gibt der Benutzer an, an welcher Textstelle der zweite und ggf. dritte Abschnitt beginnt.
+---
 
-# 6. Erstellen von Onelinern
-Die benötigten Abschnitte werden in Oneliner umgesetzt, indem alle Zeilenwechsel gelöscht werden. Nach `^+`, `^*` und `^p` dürfen auch keine anderen Zeichen, z.B. Leerzeichen, eingefügt werden.
-Diese Oneliner werden ohne weitere Erläuterungen in einer txt-Datei zur Verfügung gestellt. Der Benutzer kann sie dann direkt über die Zwischenablage in seine Excel-Datei eintragen.
+# 7. Erstellen von Onelinern
+Alle Zeilen eines Abschnitts ohne Trennzeichen verketten. Nach `^+`, `^*` und `^p` kein Leerzeichen einfügen. `^p` am Ende des letzten Verses eines Abschnitts löschen.
+Alle Oneliner zeilenweise (ohne Überschriften) in eine txt-Datei schreiben.
 
 Beim Schreiben der txt-Datei dürfen typographische Zeichen nicht durch ASCII-Varianten ersetzt werden:
 - `„` (U+201E) und `"` (U+201C) → deutsche Anführungszeichen, **nicht** `"` (U+0022)

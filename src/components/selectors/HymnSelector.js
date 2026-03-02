@@ -12,9 +12,12 @@ const HymnSelector = ({ texts, hour, season,
         hour = 'prefsollemnity';
     const isErsteVesper = hour === 'vesper' && texts?.rank?.hasErsteVesper && !prefSollemnity
 
-    // Neue Hilfsfunktion zum Auflösen der Hymnen-Referenz
+    // Hilfsfunktion zum Auflösen der Hymnen-Referenz.
+    // Akzeptiert bereits aufgelöste Objekte (aus BrevierDataProcessor) oder noch numerische IDs
+    // (z. B. aus dataSpecialHymns).
     const resolveHymnReference = (ref) => {
         if (!ref) return null;
+        if (typeof ref === 'object') return ref; // bereits aufgelöst
 
         const wholePart = Math.floor(ref);
         const decimalStr = (ref % 1).toFixed(3).split('.')[1];
@@ -145,8 +148,9 @@ const HymnSelector = ({ texts, hour, season,
             const hasNachtHymn = texts[hour]?.wt?.[`hymn_nacht${localPrefLanguage}`];
 
             const addNewHymn = ({ hymnNumber, id, sourceLabel, isNachtHymn = false, languageSuffix = '' }) => {
-                // Korrigierte Logik: Nur verarbeiten wenn hymnNumber existiert und noch nicht verwendet
-                if (hymnNumber && !usedHymnNumbers.has(hymnNumber)) {
+                // numericId für Deduplizierung: bei aufgelösten Objekten ._id, sonst die Zahl selbst
+                const numericId = hymnNumber?._id ?? hymnNumber;
+                if (numericId && !usedHymnNumbers.has(numericId)) {
                     // Löse die Referenz auf, um Text und Titel zu bekommen
                     const hymnData = resolveHymnReference(hymnNumber);
 
@@ -180,7 +184,7 @@ const HymnSelector = ({ texts, hour, season,
                         isNachtHymn,
                     });
 
-                    usedHymnNumbers.add(hymnNumber);
+                    usedHymnNumbers.add(numericId);
                 }
             }
 
@@ -268,7 +272,8 @@ const HymnSelector = ({ texts, hour, season,
                 const eigData = texts[hour].oblig;
 
                 // Prüfe, ob hymn_1 in der aktuellen Sprache bereits vorhanden ist
-                const currentLanguageHymn1 = eigData?.hymn_1 || 0
+                // (_id extrahieren, falls das Feld bereits aufgelöst wurde)
+                const currentLanguageHymn1 = eigData?.hymn_1?._id ?? eigData?.hymn_1 ?? 0
 
                 // Wenn kein hymn_1 in der aktuellen Sprache vorhanden ist,
                 // suche nach hymn_1 mit Sprachsuffixen
@@ -279,7 +284,7 @@ const HymnSelector = ({ texts, hour, season,
                     languageSuffixes.forEach(suffix => {
                         const alternativeHymnField = `hymn_1${suffix}`;
                         const alternativeHymnNumber = eigData[alternativeHymnField];
-                        if (alternativeHymnNumber > 8000) {
+                        if ((alternativeHymnNumber?._id ?? alternativeHymnNumber) > 8000) {
                             // Erstelle eindeutige ID für diesen alternativen Hymnus
                             const alternativeId = `eig_${alternativeHymnField}_fallback`;
 

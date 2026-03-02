@@ -1247,13 +1247,40 @@ export default function Stundenbuch() {
   useEffect(() => {
     const processedData = processBrevierData(selectedDate);
     setTexts(processedData);
-    console.log("neue Texte:", processedData);
+    const _json = JSON.stringify(processedData);
+    console.log(`neue Texte (${(_json.length / 1024).toFixed(1)} KB JSON):`, processedData);
 
     if (viewMode === "prayerText" && selectedHour === "vigil" &&
       !processedData?.rank?.hasVigil) {
       setSelectedHour("lesehore")
     }
   }, [selectedDate, prefSrc]);
+
+  // ---- TEMPORÄR: Datenmengenmessung heute + 30 Tage ----
+  useEffect(() => {
+    const results = [];
+    let totalBytes = 0;
+    const start = new Date();
+    start.setHours(0, 0, 0, 0);
+    for (let i = 0; i <= 30; i++) {
+      const date = new Date(start);
+      date.setDate(start.getDate() + i);
+      const data = processBrevierData(date);
+      const bytes = JSON.stringify(data).length;
+      totalBytes += bytes;
+      results.push({
+        tag: date.toLocaleDateString("de-DE", { day: "2-digit", month: "2-digit", year: "numeric" }),
+        kb: (bytes / 1024).toFixed(1)
+      });
+    }
+    console.table(results);
+    console.log(
+      `31 Tage gesamt: ${(totalBytes / 1024).toFixed(1)} KB` +
+      ` | Ø pro Tag: ${(totalBytes / 31 / 1024).toFixed(1)} KB` +
+      ` | Hochrechnung 365 Tage: ${(totalBytes / 31 * 365 / 1024 / 1024).toFixed(2)} MB`
+    );
+  }, []);
+  // ---- ENDE TEMPORÄR ----
 
   useEffect(() => {
     document.documentElement.classList.toggle("dark", theme === "dark");

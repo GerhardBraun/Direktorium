@@ -14,6 +14,7 @@ import { lecture1Data } from '../data/Lecture1.ts';
 import { lecture2Data } from '../data/Lecture2.ts';
 import { lectureABCData } from '../data/LectureABC.ts';
 import { sollemnitiesData } from '../data/Sollemnities.ts';
+import { psalmsData } from '../data/PsHymn.ts';
 import { getLiturgicalInfo } from './LitCalendar.js';
 import { sourceKeys } from '../selectors/SourceSelector.js';
 import { getCalendarData } from '../data/CalendarMerge.js';
@@ -29,6 +30,45 @@ const personalData = (() => {
 })();
 
 const diocese = localStorage.getItem('diocese') || 'Fulda';
+
+// Löst eine numerische Psalm-/Hymnen-Referenz (z. B. 95.003) in ein Datenobjekt auf.
+function resolveRef(ref) {
+    if (!ref) return null;
+    const wholePart = Math.floor(ref);
+    const decimalStr = (ref % 1).toFixed(3).split('.')[1];
+    const multiplier = decimalStr?.replace(/0+$/, '').length === 1 ? 10 : 1000;
+    const decimalPart = Math.round((ref % 1) * multiplier);
+    return { number: wholePart, ...(psalmsData[wholePart]?.[decimalPart] || {}) };
+}
+
+// Löst psalm1/2/3 und hymn-Felder in allen Stunden und Quellen auf.
+// Psalmen → { number, text, title, … }
+// Hymnen  → { _id: <originalRef>, text, title, … }  (_id für Deduplizierung in HymnSelector)
+function resolveAllRefs(hours) {
+    const psalmFields = ['psalm1', 'psalm2', 'psalm3'];
+    const hymnFields  = ['hymn_1', 'hymn_2', 'hymn_3', 'hymn_nacht', 'hymn_kl',
+                         'hymn_1_lat', 'hymn_2_lat', 'hymn_3_lat', 'hymn_nacht_lat'];
+
+    const resolveSource = (src) => {
+        if (!src || typeof src !== 'object') return;
+        psalmFields.forEach(f => {
+            if (src[f]) src[f] = resolveRef(src[f]);
+        });
+        hymnFields.forEach(f => {
+            if (src[f]) {
+                const id = src[f];
+                src[f] = { _id: id, ...resolveRef(id) };
+            }
+        });
+        ['com1', 'com2'].forEach(com => { resolveSource(src[com]); });
+    };
+
+    Object.values(hours).forEach(hourData => {
+        if (!hourData || typeof hourData !== 'object') return;
+        Object.values(hourData).forEach(resolveSource);
+    });
+    return hours;
+}
 
 // Helper function to clean up zero-value reference fields after all processing
 function cleanupZeroReferences(hours) {
@@ -302,7 +342,7 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
                 //useDateAndLast,
             },
             prefComm: (rank_date > 2 || rank_wt > 2 || [41, 46].includes(afterPentecost)) ? 1 : 0,
-            ...cleanupZeroReferences(hours)
+            ...resolveAllRefs(cleanupZeroReferences(hours))
         };
 
     } catch (error) {

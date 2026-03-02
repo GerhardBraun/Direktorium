@@ -11,6 +11,7 @@ export const firstCapital = (word) => {
 
 const resolveReference = (ref) => {
     if (!ref) return null;
+    if (typeof ref === 'object') return ref; // bereits durch BrevierDataProcessor aufgelöst
 
     const wholePart = Math.floor(ref);
     const decimalStr = (ref % 1).toFixed(3).split('.')[1];
@@ -450,8 +451,14 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
                     const vi = syl.search(CANT_VOWEL_RE);
                     if (vi < 0) return syl + space;
                     // Punkt unter dem silbenbildenden Vokal (erster Vokal des Diphthongs)
-                    return syl.slice(0, vi) + '^d' + syl[vi] + '^0d' + syl.slice(vi + 1) + space;
+                    // Gesamte Silbe in ^d..^0d einschließen, damit der Handler nowrap setzen kann.
+                    return '^d' + syl + '^0d' + space;
                 }
+            );
+            // Schritt 2: ^d..^0d auf das gesamte Wort ausdehnen (Wortgrenzen = Leerzeichen/Zeilenumbruch).
+            result = result.replace(
+                /([^ \n^]*?)\^d([^^]*)\^0d([^ \n^]*)/g,
+                (_, pre, inner, post) => `^d${pre}${inner}${post}^0d`
             );
         } else if (result.includes('~')) {
             // ~ vorhanden → letzte Silbe vor ~ und erste Silbe nach ~ klammern.
@@ -584,7 +591,9 @@ const assignTonesB1Sonderfall1 = (tone, slots, cadStartIdx, dblBarIdx, sglBarIdx
     // Guard: cadStartIdx === dblBarIdx bei v=0 → kein Überschreiben der Unterstreichung
     if (cadStartIdx !== dblBarIdx) tone[dblBarIdx] = 2; // || → vorletzter Ton
     if (postBar !== undefined) {
-        for (let i = dblBarIdx + 1; i < postBar; i++) tone[i] = 2; // Folgesilben bis | → gleiche Gruppe
+        // v=0 (cadStart === dblBar): Unterstreichung auf alle Slots bis | ausdehnen
+        const fillTone = (cadStartIdx === dblBarIdx) ? 4 : 2;
+        for (let i = dblBarIdx + 1; i < postBar; i++) tone[i] = fillTone;
         // Guard: postBar === cadStartIdx bei ungewöhnlicher Annotation → kein Überschreiben
         if (postBar !== cadStartIdx) tone[postBar] = 1; // | → letzter Ton
         for (let i = postBar + 1; i < slots.length; i++) tone[i] = 1;
@@ -676,9 +685,13 @@ const buildTaggedText = (slots, tone) => {
             out += text;
             i++;
         } else if (t_tone === 4) {
-            const [core, trail] = splitTrail(text);
+            // Aufeinanderfolgende tone=4-Slots zu einem ^u-Tag zusammenfassen
+            let j = i + 1;
+            let group = text;
+            while (j < slots.length && tone[j] === 4) { group += slots[j].text; j++; }
+            const [core, trail] = splitTrail(group);
             out += `^u${core}^0u` + trail;
-            i++;
+            i = j;
         } else {
             // Töne 1, 2, 3: aufeinanderfolgende gleiche Töne → Klammer
             let j = i + 1;
@@ -1072,8 +1085,18 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
                 const content = segment.substring(2, segment.length - 3);
                 return <span key={`italic-${index}`} style={{ fontStyle: 'italic' }}>{content}</span>;
             } else if (segment.startsWith('^d')) {
-                const content = segment.substring(2, segment.length - 3);
-                return <span key={`flexa-dot-${index}`} className="psalm-cant-flexa-dot">{content}</span>;
+                const syl = segment.substring(2, segment.length - 3);
+                const vi = syl.search(CANT_VOWEL_RE);
+                const left = vi > 0 ? syl.slice(0, vi) : '';
+                const vowel = vi >= 0 ? syl[vi] : syl;
+                const right = vi >= 0 ? syl.slice(vi + 1) : '';
+                return (
+                    <span key={`flexa-dot-${index}`} style={{ whiteSpace: 'nowrap' }}>
+                        {left}
+                        <span className="psalm-cant-flexa-dot">{vowel}</span>
+                        {right}
+                    </span>
+                );
             } else if (segment.startsWith('^u')) {
                 const content = segment.substring(2, segment.length - 3);
                 return <span key={`underline-${index}`} style={{ textDecoration: 'underline' }}>{content}</span>;
