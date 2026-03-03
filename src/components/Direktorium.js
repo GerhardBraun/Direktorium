@@ -1261,8 +1261,9 @@ export default function Stundenbuch() {
     const results = [];
     let totalBytes = 0;
     const start = new Date();
+    const rangeSimulation = 0; // Standard: rangeSimulation=30 für 31 Tage, hier zur Verkürzung nur 1 Tag
     start.setHours(0, 0, 0, 0);
-    for (let i = 0; i <= 30; i++) {
+    for (let i = 0; i <= rangeSimulation; i++) { // Standard: i<=30 für 31 Tage, hier zur Verkürzung nur 1 Tag
       const date = new Date(start);
       date.setDate(start.getDate() + i);
       const data = processBrevierData(date);
@@ -1275,9 +1276,10 @@ export default function Stundenbuch() {
     }
     console.table(results);
     console.log(
-      `31 Tage gesamt: ${(totalBytes / 1024).toFixed(1)} KB` +
-      ` | Ø pro Tag: ${(totalBytes / 31 / 1024).toFixed(1)} KB` +
-      ` | Hochrechnung 365 Tage: ${(totalBytes / 31 * 365 / 1024 / 1024).toFixed(2)} MB`
+      `${rangeSimulation + 1} Tage gesamt: ${(totalBytes / 1024).toFixed(1)} KB` +
+      ` | Ø pro Tag: ${(totalBytes / (rangeSimulation + 1) / 1024).toFixed(1)} KB` +
+      ` | Hochrechnung 365 Tage: ${(totalBytes / 31 * 365 / 1024 / 1024).toFixed(2)} MB` +
+      `Einstellung durch rangeSimulation in Direktorium.js anpassen (derzeit ${rangeSimulation} Tage)`
     );
   }, []);
   // ---- ENDE TEMPORÄR ----
