@@ -2,7 +2,7 @@ Dieser Workflow beschreibt, wie in einer Datei `psNNN.md` des Benutzers ein Psal
 *Erläuterung*: NNN steht im Dateinamen für die Nummer des Psalms, also `ps051.md`.
 
 # 1. Arbeitsweise
-1. Der Text wird zeilenweise durchgearbeitet.
+1. Der Text wird zeilenweise durchgearbeitet (außer die Ersetzung von `#` durch `|` beim Empfang der Datei).
 2. Das Ergebnis für jede einzelne Zeile wird dem Benutzer durch Editieren der Datei `psalmNNN.md` angezeigt. So kann er die Arbeit mitverfolgen und gleich auf Richtigkeit prüfen.
 
 # 2. Die Marker
@@ -13,7 +13,7 @@ Dieser Workflow beschreibt, wie in einer Datei `psNNN.md` des Benutzers ein Psal
 - Silbentrenner: `0`
 4. Diese Marker stehen immer direkt VOR dem Text der Silbe, die sie markieren:
 Beispiel: `Den ganzen Tag 4|ru3fe 2|ich 1zu ||dir.^p`
-5. Bei einer Silbe können auch mehrere Marker stehen:
+5. Bei einer Silbe können mehrere Marker stehen:
 - Countdown-Marker können mit dem einfachen Betonungsmarker `|` oder mit der Tilde `~` kombiniert werden.
 - Ausgeschlossen ist die Kombination
 a) des doppelten Betonungsmarkers `||` mit einem anderen Marker und
@@ -21,33 +21,36 @@ b) des Silbentrenners `0` mit einem anderen Marker.
 
 # 3. Grad-Zeichen (`°`)
 Wortgrenzen sind immer auch Silbengrenzen.
-Das Grad-Zeichen `°` steht als Platzhalter für ein geschütztes Leerzeichen und markiert auch eine Wort- und Silbengrenze.
+Das Grad-Zeichen `°` steht als Platzhalter für ein geschütztes Leerzeichen. Es wird in diesem Workflow wie ein Leerzeichen behandelt, das heißt: es markiert eine Wort- und damit auch eine Silbengrenze.
 
-# 4. Grundregeln für bestimmt Marker
+# 4. Grundregeln für bestimmte Marker
 ## 4.1 Grundregeln für den Silbentrenner `0`
 1. Der Silbentrenner `0` steht immer nur innerhalb eines Wortes, wenn dessen Silbengrenzen nicht durch andere Marker gekennzeichnet sind.
 2. Ein vorangehendes Leerzeichen oder Gradzeichen `°` macht das Setzen eines Silbentrenners überflüssig.
 3. Ebenso macht jeder andere oben genannte Marker das Setzen eines Silbentrenners überflüssig.
-4. Der Silbentrenner steht immer nur **nach dem ersten Betonungsmarker der Zeile**.
+4. Der Silbentrenner steht **nie vor dem ersten Betonungsmarker der Zeile**.
 
 ## 4.2 Grundregeln für die Countdown-Marker
 1. Die Countdown-Marker werden immer vom doppelten `||`-Marker aus rückwärts den vorhergehenden Silben zugeordnet (*niemals vom einfachen `|`-Marker aus*).
 2. Countdown-Marker werden auch gesetzt, wenn eine Wortgrenze (Leerzeichen oder Gradzeichen `°`) vorausgeht (*anders als beim `0`-Marker*).
-3. In Flexa-Zeilen gibt es keine Countdown-Marker.
-4. In `^*`-Zeilen gibt es immer genau **2 Countdown-Marker**.
-5. In `^p`-Zeilen gibt es
+3. Countdown-Marker werden immer **an den Anfang der Silbe** gesetzt, die sie markieren. Falls dort schon ein `|` oder eine `~` steht, wird der Countdown-Marker **davor** gesetzt.
+4. In Flexa-Zeilen gibt es keine Countdown-Marker.
+5. In `^*`-Zeilen gibt es immer genau **2 Countdown-Marker**.
+6. In `^p`-Zeilen gibt es
 - **bei weiblichem Versschluss 3 Countdown-Marker**,
 - **bei männlichem Versschluss 4 Countdown-Marker**,
-*Erläuterung:* männlicher Versschluss bedeutet: nach der Silbe mit dem doppelten `||`-Marker folgt keine weitere Silbe mehr (also kein Leerzeichen und kein `0`-Marker).
-6. Stehen in einer `^p`-Zeile mit männlichem Versschluss (*wo also 4 Countdown-Marker gesetzt werden müssen*), nur 3 Silben vor dem `||`-Marker, dann wird der `4`-Marker **direkt vor** den `3`-Marker gesetzt.
-Beispiel: `43|lo2be 1den ||Herrn!^p`, `43|sind 2wir 1ge||heilt.^p`
+*Erläuterung:* männlicher Versschluss bedeutet: nach der Silbe mit dem doppelten `||`-Marker folgt keine weitere Silbe mehr (also kein Leerzeichen, kein Gradzeichen `°` und kein `0`-Marker).
+7. Stehen in einer `^p`-Zeile mit männlichem Versschluss (*wo also 4 Countdown-Marker gesetzt werden müssen*), nur 3 Silben vor dem `||`-Marker, dann wird der `4`-Marker **direkt vor** den `3`-Marker gesetzt.
+Beispiele:
+`43|lo2be 1den ||Herrn!^p`
+`43|sind 2wir 1ge||heilt.^p`
 
 # 5. Die Zeilentypen
 Jede Textzeile (außer der letzten) hat am Schluss einen Marker für den Zeilentyp:
 `^+` Flexa
 `^*` Mittelkadenz
 `^p` Schlusskadenz
-Die letzte Zeile hat immer eine Schlusskadenz, auch wenn kein `p`-Marker am Ende steht.
+Die letzte Zeile der Datei hat immer eine Schlusskadenz, auch wenn kein `p`-Marker am Ende steht.
 
 # 6. Regeln für das Setzen der Marker
 1. Jede Zeile wird nach den im Folgenden beschriebenen Regeln, und zwar strikt in dieser Reihenfolge, bearbeitet.
@@ -85,13 +88,14 @@ In Beispiel 1 und 2 ist kein `0`-Marker nötig, weil der vorhergehenden Silbe ei
 In `^*`- und `^p`-Zeilen werden nach dem doppelten `||`-Marker **alle Silbengrenzen in mehrsilbigen Wörtern** durch `0`-Marker gekennzeichnet, wenn dies nicht schon durch einen einfachen `|`-Marker erfolgt (Grundregel aus Punkt 4.1).
 *Erläuterung*: Countdown-Marker stehen niemals **nach** dem `||`-Marker.
 
-## 6.5 Countdown- und `0`-Marker in `^*`-Zeilen
-1. In `^*`-Zeilen werden immer genau 2 Countdown-Marker vor die beiden Silben gesetzt, die dem doppelten `||`-Marker vorangehen.
+## 6.5 : `^*`-Zeile: Countdown- und `0`-Marker setzen
+### 6.5.1
+1. In `^*`-Zeilen werden immer genau 2 Countdown-Marker vor die beiden Silben gesetzt, die dem doppelten `||`-Marker vorangehen (vgl. Grundregeln 4.2.1-3 und 5).
 2. Silbengrenzen innerhalb eines Wortes, die **nach** dem einfachen `|`-Marker und **vor** dem `2`-Marker stehen, werden durch einen zusätzlichen Silbentrenner `0` gekennzeichnet.
 3. Danach wird die Bearbeitung durch Editieren der `psNNN.md` dem Benutzer zur Kontrolle angezeigt und zur Bearbeitung der nächsten Zeile gegangen.
 
 ## 6.6 Countdown- und `0`-Marker in `^p`-Zeilen
-1. In `^p`-Zeilen werden bei weiblichem Versschluss 3, bei männlichem Versschluss 4 Countdown-Marker vor die Silben gesetzt, die dem doppelten `||`-Marker vorangehen.
+1. In `^p`-Zeilen werden bei weiblichem Versschluss 3, bei männlichem Versschluss 4 Countdown-Marker vor die Silben gesetzt, die dem doppelten `||`-Marker vorangehen (vgl. Grundregeln 4.2.1-3 und 6).
 2. Silbengrenzen innerhalb eines Wortes, die **nach** dem einfachen `|`-Marker und **vor** dem ersten Countdown-Marker stehen, werden durch einen zusätzlichen Silbentrenner `0` gekennzeichnet.
 *Erläuterung*: Das kommt sehr selten vor.
 3. Danach wird die Bearbeitung durch Editieren der `psNNN.md` dem Benutzer zur Kontrolle angezeigt und zur Bearbeitung der nächsten Zeile gegangen.

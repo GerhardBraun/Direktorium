@@ -14727,7 +14727,7 @@ export const brevierData = {
       },
       "4": {
         "each": {
-          "oration": "Heiliger Gott, du liebst die Unschuld und schenkst dem Sünder zurück, der reumütig zu dir heimkehrt. Wende unser Herz zu dir und schenke uns neuen Eifer im Heiligen Geist, damit wir im Glauben standhaft bleiben und stets bereit sind, das Gute zu tun.^ORV",
+          "oration": "Heiliger Gott, du liebst die Unschuld und schenkst sie dem Sünder zurück, der reumütig zu dir heimkehrt. Wende unser Herz zu dir und schenke uns neuen Eifer im Heiligen Geist, damit wir im Glauben standhaft bleiben und stets bereit sind, das Gute zu tun.^ORV",
           "oration_lat": "Deus, innocéntiæ restitútor et amátor, dírige ad te tuórum corda servórum, ut, Spíritus tui fervóre concépto, et in fide inveniántur stábiles et in ópere efficáces.^ORlV"
         },
         "Laudes": {
