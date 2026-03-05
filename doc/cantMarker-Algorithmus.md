@@ -1,4 +1,4 @@
-Dieser Workflow beschreibt, wie in einer Datei `psNNN.md` des Benutzers ein Psalmtext weiter bearbeitet wird, um ihn mit Markern für die Einrichtung zum Singen zu versehen.
+Diese Datei beschreibt einen Algorithmus, wie in einer Datei `psNNN.md` des Benutzers ein Psalmtext mit Markern für die Einrichtung zum Singen zu versehen wird.
 *Erläuterung*: NNN steht im Dateinamen für die Nummer des Psalms, also `ps051.md`.
 
 # 1. Arbeitsweise
