@@ -1,117 +1,128 @@
-Diese Datei beschreibt einen Algorithmus, wie in einer Datei `psNNN.md` des Benutzers ein Psalmtext mit Markern für die Einrichtung zum Singen zu versehen wird.
-*Erläuterung*: NNN steht im Dateinamen für die Nummer des Psalms, also `ps051.md`.
+Dieser Algorithmus beschreibt, wie ein Skript eine Datei `psNNN.md` mit Betonungsmarkern (`|`, `||`) verarbeitet und automatisch Countdown-Marker sowie `0`-Silbentrenner einsetzt.
 
-# 1. Arbeitsweise
-1. Der Text wird zeilenweise durchgearbeitet (außer die Ersetzung von `#` durch `|` beim Empfang der Datei).
-2. Das Ergebnis für jede einzelne Zeile wird dem Benutzer durch Editieren der Datei `psalmNNN.md` angezeigt. So kann er die Arbeit mitverfolgen und gleich auf Richtigkeit prüfen.
+*Voraussetzung*: Der Benutzer hat die Betonungsmarker `|` und `||` bereits in die Datei eingetragen (oder per `#`/`##`-Notation). Die letzte Zeile hat ggf. keinen Endmarker.
 
-# 2. Die Marker
-3. Jede Zeile wird nach den im Folgenden beschriebenen Regeln mit `Markern` versehen. Diese sind:
-- Betonungsmarker: `|` (einfaches Pipe) und `||` (doppeltes Pipe)
-- Tilde (`~`)
-- Countdown-Marker: `4`, `3`, `2`, `1`
-- Silbentrenner: `0`
-4. Diese Marker stehen immer direkt VOR dem Text der Silbe, die sie markieren:
-Beispiel: `Den ganzen Tag 4|ru3fe 2|ich 1zu ||dir.^p`
-5. Bei einer Silbe können mehrere Marker stehen:
-- Countdown-Marker können mit dem einfachen Betonungsmarker `|` oder mit der Tilde `~` kombiniert werden.
-- Ausgeschlossen ist die Kombination
-a) des doppelten Betonungsmarkers `||` mit einem anderen Marker und
-b) des Silbentrenners `0` mit einem anderen Marker.
+# Marker-Übersicht
 
-# 3. Grad-Zeichen (`°`)
-Wortgrenzen sind immer auch Silbengrenzen.
-Das Grad-Zeichen `°` steht als Platzhalter für ein geschütztes Leerzeichen. Es wird in diesem Workflow wie ein Leerzeichen behandelt, das heißt: es markiert eine Wort- und damit auch eine Silbengrenze.
+| Marker | Bedeutung |
+|--------|-----------|
+| `\|` | Nebenbetonung (Versanfang-Seite) |
+| `\|\|` | Hauptbetonung (Kadenzbeginn) |
+| `1` `2` `3` `4` | Countdown-Marker (rückwärts von `\|\|`) |
+| `0` | Silbentrenner (innerhalb eines Worts) |
+| `~` | Gruppengrenze / Silbengrenze (wie Leerzeichen behandelt) |
+| `°` | Platzhalter für geschütztes Leerzeichen (= Wortgrenze) |
+| `^+` | Zeilentyp Flexa |
+| `^*` | Zeilentyp Mittelkadenz (MK) |
+| `^p` | Zeilentyp Schlusskadenz (SK) |
 
-# 4. Grundregeln für bestimmte Marker
-## 4.1 Grundregeln für den Silbentrenner `0`
-1. Der Silbentrenner `0` steht immer nur innerhalb eines Wortes, wenn dessen Silbengrenzen nicht durch andere Marker gekennzeichnet sind.
-2. Ein vorangehendes Leerzeichen oder Gradzeichen `°` macht das Setzen eines Silbentrenners überflüssig.
-3. Ebenso macht jeder andere oben genannte Marker das Setzen eines Silbentrenners überflüssig.
-4. Der Silbentrenner steht **nie vor dem ersten Betonungsmarker der Zeile**.
+Silbengrenzen werden markiert durch: Leerzeichen, `°`, `~`, `0`, `|`, `||` oder Countdown-Ziffer.
 
-## 4.2 Grundregeln für die Countdown-Marker
-1. Die Countdown-Marker werden immer vom doppelten `||`-Marker aus rückwärts den vorhergehenden Silben zugeordnet (*niemals vom einfachen `|`-Marker aus*).
-2. Countdown-Marker werden auch gesetzt, wenn eine Wortgrenze (Leerzeichen oder Gradzeichen `°`) vorausgeht (*anders als beim `0`-Marker*).
-3. Countdown-Marker werden immer **an den Anfang der Silbe** gesetzt, die sie markieren. Falls dort schon ein `|` oder eine `~` steht, wird der Countdown-Marker **davor** gesetzt.
-4. In Flexa-Zeilen gibt es keine Countdown-Marker.
-5. In `^*`-Zeilen gibt es immer genau **2 Countdown-Marker**.
-6. In `^p`-Zeilen gibt es
-- **bei weiblichem Versschluss 3 Countdown-Marker**,
-- **bei männlichem Versschluss 4 Countdown-Marker**,
-*Erläuterung:* männlicher Versschluss bedeutet: nach der Silbe mit dem doppelten `||`-Marker folgt keine weitere Silbe mehr (also kein Leerzeichen, kein Gradzeichen `°` und kein `0`-Marker).
-7. Stehen in einer `^p`-Zeile mit männlichem Versschluss (*wo also 4 Countdown-Marker gesetzt werden müssen*), nur 3 Silben vor dem `||`-Marker, dann wird der `4`-Marker **direkt vor** den `3`-Marker gesetzt.
-Beispiele:
+# Algorithmus (7 Schritte, rückwärts)
+
+Der Algorithmus verarbeitet jede Zeile rückwärts – vom Zeilenende in Richtung Zeilenanfang –, weil die Countdown-Marker von `||` aus rückwärts zählen.
+
+**Flag `bar_reached`**: Boolescher Merker. Wird `true`, sobald ein einfacher `|`-Marker beim Rückwärtsscannen gefunden wird. Signalisiert: „Die Nebenbetonung wurde passiert – ab hier nicht mehr weiter Countdown oder 0-Marker setzen."
+
+---
+
+## Schritt 1 – Zeilentyp und `max` ermitteln
+
+1. Endmarker am Zeilenende auslesen: `^+`, `^*` oder `^p`.
+   Letzte Zeile der Datei ohne Endmarker → als `^p` behandeln.
+2. `max` setzen (= maximale Anzahl der Countdown-Marker):
+   - `^+` → `max = 0`
+   - `^*` → `max = 2`
+   - `^p` / letzte Zeile → `max = 4`
+3. `bar_reached = False`
+
+---
+
+## Schritt 2 – Flexa (`^+`): Sonderbehandlung, dann → Schritt 7
+
+Nur für Flexa-Zeilen (`^+`):
+
+1. Enthält die Zeile `||`? → ersetze durch `|`.
+2. Enthält die Zeile `|` oder `~`?
+   - Nein → direkt zu Schritt 7.
+   - Ja → prüfe die Silbe **vor** dem `|` oder `~`:
+     Falls diese die letzte Silbe eines mehrsilbigen Wortes ist (kein Leerzeichen, `°` oder anderer Marker unmittelbar davor) → `0`-Marker davor setzen.
+3. → Schritt 7.
+
+*In Flexa-Zeilen werden keine Countdown-Marker gesetzt.*
+
+---
+
+## Schritt 3 – Versschluss verarbeiten (rückwärts von Zeilenende bis `||`)
+
+Ziel: `0`-Marker nach `||` setzen und weiblichen/männlichen Versschluss erkennen.
+
+1. Rückwärts vom Zeilenende scannen (ohne Endmarker), bis `||` erreicht ist.
+2. Dabei für jede Wortgrenze oder jeden Marker prüfen:
+   - `|` gefunden → `bar_reached = True`
+   - Silbengrenze gefunden (Leerzeichen, `°`, `~`) → **weiblicher Versschluss** erkannt
+3. `0`-Marker: Innerhalb von mehrsilbigen Wörtern **nach** `||` werden alle Silbengrenzen, die noch nicht durch einen Marker (Leerzeichen, `°`, `~`, `|`) gekennzeichnet sind, mit einem `0`-Marker versehen. (Silbentrennung via pyphen)
+4. Weiblicher Versschluss → `max = 4` senken auf `max = 3`.
+   Kein Silbentrennzeichen gefunden und `bar_reached = False` → **männlicher Versschluss**, `max` bleibt bei 4.
+
+*Anmerkung*: Steht nach `||` keine einzige weitere Silbe (keine Buchstaben), ist die Zeile ebenfalls männlich.
+
+---
+
+## Schritt 4 – `||` als Anker setzen, `n = 1`
+
+Die Position von `||` ist der Ausgangspunkt des Rückwärts-Countdowns.
+Zähler `n = 1` initialisieren.
+
+---
+
+## Schritt 5 – Countdown-Marker rückwärts von `||` setzen
+
+Rückwärts von `||` Silbe für Silbe zählen und Marker einfügen:
+
+1. Nächste Silbe links von der aktuellen Position suchen.
+   (Silbengrenze = Leerzeichen, `°`, `~`, `0`, oder Silbenbeginn nach diesen Zeichen)
+2. Marker `n` **direkt vor den Silbenanfang** einfügen:
+   - Falls dort schon `|` oder `~` steht: `n` **vor** diesen Marker setzen → `n|Silbe` bzw. `n~Silbe`.
+3. Falls beim Scan `|` angetroffen wird: `bar_reached = True`.
+4. `n` um 1 erhöhen.
+5. Falls `bar_reached = True` **und** `n > max`: Countdown-Phase beenden → Schritt 7.
+6. Falls `n <= max`: weiter zu Schritt 5.1 (nächste Silbe).
+
+---
+
+## Schritt 6 – `0`-Marker rückwärts bis `|` (nur wenn `bar_reached = False`)
+
+Nur ausführen, wenn nach Schritt 5 noch `bar_reached = False` (= kein `|` im Countdown-Bereich gefunden):
+
+Rückwärts vom ersten Countdown-Marker bis zum Zeilenanfang scannen und in mehrsilbigen Wörtern fehlende Silbengrenzen durch `0`-Marker ergänzen.
+Sobald `|` angetroffen wird: `bar_reached = True` → Schritt 7.
+
+*Dieser Schritt vervollständigt die Silbentrennung zwischen der Nebenbetonung (`|`) und dem Countdown-Bereich.*
+
+---
+
+## Schritt 7 – Zeile zurückschreiben
+
+Die bearbeitete Zeile (mit Endmarker) in die Datei schreiben.
+`bar_reached` wird in Schritt 1 der **nächsten Zeile** automatisch zurückgesetzt.
+
+---
+
+# Silbentrennung
+
+Die Silbentrennung (für `0`-Marker) erfolgt mit **pyphen** (deutsches Wörterbuch `de_DE`), das dieselben Trennregeln wie Word/LibreOffice verwendet.
+
+Benutzerpräferenz: `st` bleibt immer zusammen (alte Rechtschreibregel).
+Beispiel: `Chri-stus` → `||Chri0stus` (nicht `||Chris0tus`).
+
+# Sonderfälle
+
+## Männlicher SK mit nur 3 Silben vor `||`
+
+Wenn `max = 4` gilt und vor `||` weniger als 4 Silben vorhanden sind, werden `4` und `3` auf dieselbe Silbe gestapelt:
 `43|lo2be 1den ||Herrn!^p`
-`43|sind 2wir 1ge||heilt.^p`
 
-# 5. Die Zeilentypen
-Jede Textzeile (außer der letzten) hat am Schluss einen Marker für den Zeilentyp:
-`^+` Flexa
-`^*` Mittelkadenz
-`^p` Schlusskadenz
-Die letzte Zeile der Datei hat immer eine Schlusskadenz, auch wenn kein `p`-Marker am Ende steht.
+## `#`/`##`-Notation
 
-# 6. Regeln für das Setzen der Marker
-1. Jede Zeile wird nach den im Folgenden beschriebenen Regeln, und zwar strikt in dieser Reihenfolge, bearbeitet.
-2. Wenn eine Zeile fertig bearbeitet ist, werden die Änderungen durch Editieren von `psNNN.md` dem Benutzer angezeigt, bevor zur Bearbeitung der nächsten Zeile gegangen wird.
-
-## 6.1 Betonungsmarker (`|` und `||`)
-Sie werden **vom Benutzer vorgegeben** und **von der KI nur geprüft**:
-1. Gibt es in der Zeile genau einen doppelten Betonungsmarker `||`?
-Wenn ja: keine weitere Bearbeitung nötig
-Wenn nein: Die KI ersetzt den **letzten** einfachen `|` durch einen doppelten `||`.
-2. In einer `^+`- oder `^p`-Zeile sind nur folgende Kombinationen von Betonungsmarkern korrekt:
-`|` - `||` (einfach - doppelt)
-`||` - `|` (doppelt - einfach)
-`|` - `|` - `||` (einfach - einfach - doppelt)
-Andere Kombinationen sind fehlerhaft (außer in Flexa-Zeilen mit `^+`). Die KI weist darauf hin, indem sie nach der betreffenden Zeile eine Zeile einfügt mit dem Text: `Betonungsmarker fehlerhaft`.
-
-## 6.2 Tilde (`~`)
-Sie wird nur vom Benutzer gesetzt und braucht von der KI **nicht** geprüft zu werden.
-
-## 6.3 Flexa-Zeilen (`^+`)
-Wenn die Zeile mit `^+` endet, muss nur geprüft werden:
-1. Enthält die Zeile einen doppelten `||`-Marker?
-Wenn ja: Ersetze diesen durch einen einfachen `|`-Marker.
-2. Enthält die Zeile einen `|`-Marker oder eine Tilde `~`?
-Wenn nein: keine weitere Bearbeitung nötig. **Es kann direkt zur nächsten Zeile gegangen werden.**
-Wenn ja: Setze vor die **vorhergehennde** Silbe einen `0`-Marker, wenn diese die Schlusssilbe eines mehrsilbigen Wortes ist.
-Beispiel 1: `Wir haben er|kannt:^+`
-Beispiel 2: `als ich zu dir |rief:^+`
-Beispiel 3: `der mich alle0zeit |sieht^+`
-In Beispiel 1 und 2 ist kein `0`-Marker nötig, weil der vorhergehenden Silbe ein Leerzeichen vorangeht (Grundregel aus Punkt 4.2)
-3. **Nach diesen Prüfungen kann zur nächsten Zeile übergegangen werden.**
-*Erläuterung*: In Flexa-Zeilen werden keine Countdown-Marker gesetzt.
-
-## 6.4 Silbentrenner im Versschluss (bei `^*`- und `^p`-Zeilen)
-In `^*`- und `^p`-Zeilen werden nach dem doppelten `||`-Marker **alle Silbengrenzen in mehrsilbigen Wörtern** durch `0`-Marker gekennzeichnet, wenn dies nicht schon durch einen einfachen `|`-Marker erfolgt (Grundregel aus Punkt 4.1).
-*Erläuterung*: Countdown-Marker stehen niemals **nach** dem `||`-Marker.
-
-## 6.5 : `^*`-Zeile: Countdown- und `0`-Marker setzen
-### 6.5.1
-1. In `^*`-Zeilen werden immer genau 2 Countdown-Marker vor die beiden Silben gesetzt, die dem doppelten `||`-Marker vorangehen (vgl. Grundregeln 4.2.1-3 und 5).
-2. Silbengrenzen innerhalb eines Wortes, die **nach** dem einfachen `|`-Marker und **vor** dem `2`-Marker stehen, werden durch einen zusätzlichen Silbentrenner `0` gekennzeichnet.
-3. Danach wird die Bearbeitung durch Editieren der `psNNN.md` dem Benutzer zur Kontrolle angezeigt und zur Bearbeitung der nächsten Zeile gegangen.
-
-## 6.6 Countdown- und `0`-Marker in `^p`-Zeilen
-1. In `^p`-Zeilen werden bei weiblichem Versschluss 3, bei männlichem Versschluss 4 Countdown-Marker vor die Silben gesetzt, die dem doppelten `||`-Marker vorangehen (vgl. Grundregeln 4.2.1-3 und 6).
-2. Silbengrenzen innerhalb eines Wortes, die **nach** dem einfachen `|`-Marker und **vor** dem ersten Countdown-Marker stehen, werden durch einen zusätzlichen Silbentrenner `0` gekennzeichnet.
-*Erläuterung*: Das kommt sehr selten vor.
-3. Danach wird die Bearbeitung durch Editieren der `psNNN.md` dem Benutzer zur Kontrolle angezeigt und zur Bearbeitung der nächsten Zeile gegangen.
-
-# 7. Einteilung in Abschnitte
-Nachdem alle Zeilen bearbeitet sind, gibt der Benutzer an, welche Abschnitte des Psalmes gebraucht werden.
-Oft ist das der ganze Psalm, manchmal wird er auch in zwei oder drei Abschnitte aufgeteilt benötigt.
-Dann gibt der Benutzer an, an welcher Textstelle der zweite und ggf. dritte Abschnitt beginnt.
-
-# 8. Erstellen von Onelinern
-1. Die benötigten Abschnitte werden in Oneliner umgesetzt, indem alle Zeilenwechsel gelöscht werden.
-2. Nach `^+`, `^*` und `^p` dürfen auch keine anderen Zeichen, z.B. Leerzeichen, eingefügt werden.
-3. Diese Oneliner werden ohne weitere Erläuterungen in einer txt-Datei zur Verfügung gestellt (`psNNN.txt`, wobei NNN aus dem Dateinamen von `psNNN.md` übernommen wird). Der Benutzer kann sie dann direkt über die Zwischenablage in seine Excel-Datei eintragen.
-*Wenn kein Zugriff auf das Datei-System besteht, erfolgt die Ausgabe im KI-Chat.*
-4. Beim Schreiben der txt-Datei dürfen typographische Zeichen nicht durch ASCII-Varianten ersetzt werden:
-- `„` (U+201E) und `“` (U+201C) → deutsche Anführungszeichen, **nicht** `"` (U+0022)
-- `’` (U+2019) → typographischer Apostroph, **nicht** `'` (U+0027)
-
-
+Vor der Verarbeitung werden `##` → `||` und `#` → `|` ersetzt.
