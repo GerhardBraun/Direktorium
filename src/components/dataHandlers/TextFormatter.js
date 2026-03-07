@@ -491,6 +491,11 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
     const has43Combined = b === 1 && !sonderfall1 &&
         countdownIdxs['4'] !== undefined &&
         countdownIdxs['4'] === countdownIdxs['3'];
+    // Verkürzte Kadenz: Marker 3 und 2 auf demselben Slot, kein 4-Marker (Vers noch kürzer)
+    const has32Combined = b === 1 && !sonderfall1 && !has43Combined &&
+        countdownIdxs['3'] !== undefined &&
+        countdownIdxs['2'] !== undefined &&
+        countdownIdxs['3'] === countdownIdxs['2'];
     // Sonderfall 3 (b=1): 4-Marker vorhanden (aber nicht wenn 4+3 kombiniert auf einem Slot)
     const has4 = !has43Combined && ('4' in countdownIdxs);
     const v_eff = (b === 1 && has4) ? v + 1 : v;
@@ -523,6 +528,15 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
                 ? t.slice(0, t.length - 1) + '~' + t.slice(t.length - 1)
                 : t + '~';
         }
+    }
+    // Verkürzte Kadenz (b=1, weiblicher Versschluss): Marker 3 und 2 auf einer Silbe.
+    if (has32Combined) {
+        const cadSlot = slots[countdownIdxs['3']];
+        const t = cadSlot.text;
+        const endsWithSep = t.length > 0 && (t[t.length - 1] === ' ' || t[t.length - 1] === '°');
+        cadSlot.text = endsWithSep
+            ? t.slice(0, t.length - 1) + '~' + t.slice(t.length - 1)
+            : t + '~';
     }
 
     // Ton-Zuweisung: tone[slotIdx] = 0 (Rezitation) | 4 (Unterstr.) | 3 | 2 | 1 (Klammer)
