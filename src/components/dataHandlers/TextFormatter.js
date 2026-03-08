@@ -259,25 +259,22 @@ const PSALM_TONE_CADENCE = {
     'I': { mk: [0, 2], sk: [2, 1] },
     'Ia': { mk: [0, 2], sk: [2, 1] },
     'Ig': { mk: [0, 2], sk: [2, 1] },
-    'Im': { mk: [0, 2], sk: [2, 1] },
+    'Im': { mk: [0, 2], sk: [2, 1], skNoUnstressed: true },
     'II': { mk: [0, 1], sk: [1, 1] },
-    'IIc': { mk: [0, 1], sk: [1, 1] },
-    'IIg': { mk: [0, 1], sk: [1, 1] },
-    'IIm': { mk: [0, 1], sk: [1, 1] },
+    'IIc': { mk: [0, 1], sk: [2, 1] },
+    'IIm': { mk: [0, 1], sk: [2, 1], skNoUnstressed: true },
     'III': { mk: [0, 2], sk: [2, 1] },
     'IV': { mk: [2, 1], sk: [3, 1] },
-    'IVa': { mk: [2, 1], sk: [3, 1] },
-    'IVg': { mk: [2, 1], sk: [3, 1] },
+    'IVa': { mk: [2, 1], sk: [1, 1] },
+    'IVg': { mk: [2, 1], sk: [0, 1] },
     'V': { mk: [0, 1], sk: [0, 2] },
     'VI': { mk: [1, 1], sk: [3, 1] },
     'VII': { mk: [0, 2], sk: [0, 2] },
-    'VIIa': { mk: [0, 2], sk: [0, 2] },
     'VIII': { mk: [0, 1], sk: [2, 1] },
     'VIIIa': { mk: [0, 1], sk: [2, 1] },
-    'VIIIb': { mk: [0, 1], sk: [2, 1] },
     'VIIIc': { mk: [0, 1], sk: [2, 1] },
     'IX': { mk: [0, 2], sk: [2, 1] },
-    'X': { mk: [0, 1], sk: [0, 2], mkMaennlichVeff: true },
+    'X': { mk: [0, 1], sk: [0, 2], mkMaleVeff: true },
 };
 
 // Komponente für den _cant-Modus: Notenzeile als Ton-Button + Popup-Auswahl + Psalmtext
@@ -296,7 +293,16 @@ const PsalmCantDisplay = ({ text, doxology, localPrefLanguage, number, canonical
         return () => document.removeEventListener('mousedown', onOutside);
     }, [showSelector]);
 
-    const availableTones = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'];
+    // Psalmtöne in Zeilen gegliedert: Haupttöne, dann Varianten; null = Trennlinie
+    const toneRows = [
+        ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII'],
+        ['IX', 'X'],
+        null,
+        ['Ia', 'Ig', 'Im'],
+        ['IIc', 'IIm'],
+        ['IVa', 'IVg'],
+        ['VIIIa', 'VIIIc'],
+    ];
     const toneLabels = { 'IX': 'IX (per.)', 'X': 'X (irr.)' };
 
     const showDoxology = ![151, 160].includes(number)
@@ -324,23 +330,29 @@ const PsalmCantDisplay = ({ text, doxology, localPrefLanguage, number, canonical
                         <div className="text-xs text-gray-500 dark:text-gray-400 mb-1 font-semibold">
                             Psalmton wählen:
                         </div>
-                        <div className="flex flex-wrap gap-1">
-                            {availableTones.map(mode => (
-                                <button
-                                    key={mode}
-                                    onClick={() => { setSelectedMode(mode); setShowSelector(false); }}
-                                    title={mode === canonicalMode ? 'Originalton des Psalms' : undefined}
-                                    className={`px-2 py-0.5 rounded text-xs font-mono
-                                        ${selectedMode === mode
-                                            ? 'bg-orange-100 dark:bg-yellow-400/60 font-bold'
-                                            : 'hover:bg-gray-100 dark:hover:bg-gray-700'}
-                                        ${mode === canonicalMode
-                                            ? 'ring-1 ring-orange-300 dark:ring-yellow-600'
-                                            : ''}`}
-                                >
-                                    {toneLabels[mode] ?? mode}
-                                </button>
-                            ))}
+                        <div className="flex flex-col gap-0.5">
+                            {toneRows.map((row, rowIdx) =>
+                                row === null
+                                    ? <hr key={`sep-${rowIdx}`} className="border-gray-200 dark:border-gray-600 my-0.5" />
+                                    : <div key={rowIdx} className="flex gap-1">
+                                        {row.map(mode => (
+                                            <button
+                                                key={mode}
+                                                onClick={() => { setSelectedMode(mode); setShowSelector(false); }}
+                                                title={mode === canonicalMode ? 'Originalton des Psalms' : undefined}
+                                                className={`px-2 py-0.5 rounded text-xs font-mono
+                                                    ${selectedMode === mode
+                                                        ? 'bg-orange-100 dark:bg-yellow-400/60 font-bold'
+                                                        : 'hover:bg-gray-100 dark:hover:bg-gray-700'}
+                                                    ${mode === canonicalMode
+                                                        ? 'ring-1 ring-orange-300 dark:ring-yellow-600'
+                                                        : ''}`}
+                                            >
+                                                {toneLabels[mode] ?? mode}
+                                            </button>
+                                        ))}
+                                    </div>
+                            )}
                         </div>
                     </div>
                 )}
@@ -559,7 +571,7 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
     } else {
         if (sonderfall1) {
             assignTonesB1Sonderfall1(tone, slots, cadStartIdx, dblBarIdx, sglBarIdxs);
-        } else if (cadenceType === 'mk' && cadence.mkMaennlichVeff && !has4) {
+        } else if (cadenceType === 'mk' && cadence.mkMaleVeff && !has4) {
             // Ton X Sonderfall: männliches Versende in der Mittelkadenz verhält sich wie
             // Sonderfall 3 in der Schlusskadenz → vEff = v+1 = 1; || fällt auf letzten Ton.
             const isMaennlich = !slots.slice(dblBarIdx + 1).some(s => s.text.trim().length > 0);
@@ -570,7 +582,8 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
                 assignTonesB1(tone, slots, cadStartIdx, dblBarIdx, has4);
             }
         } else {
-            assignTonesB1(tone, slots, cadStartIdx, dblBarIdx, has4);
+            const noUnstressed = !!(cadence.skNoUnstressed && cadenceType === 'sk');
+            assignTonesB1(tone, slots, cadStartIdx, dblBarIdx, has4, noUnstressed);
         }
     }
 
@@ -579,7 +592,8 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
 
 // Hilfsfunktion: Tonzuweisung für b=1 (Normalfall)
 // Slot-Index zeigt direkt auf den Silbentext → kein Marker-Überspringen nötig.
-const assignTonesB1 = (tone, slots, cadStartIdx, dblBarIdx, has4) => {
+// noUnstressed: kein eigener Ton nach ||; Folgesilben werden mit || in eine Klammer gezogen.
+const assignTonesB1 = (tone, slots, cadStartIdx, dblBarIdx, has4, noUnstressed = false) => {
     tone[cadStartIdx] = 4; // Kadenzanfang: Unterstreichung
     // Slots zwischen cadStart und || bleiben tone=0 (jede Silbe auf eigenem Schritt, plain)
     if (cadStartIdx === dblBarIdx) {
@@ -591,8 +605,11 @@ const assignTonesB1 = (tone, slots, cadStartIdx, dblBarIdx, has4) => {
         if (has4) {
             tone[dblBarIdx] = 1; // Sonderfall 3: || ist letzter Ton
         } else {
-            tone[dblBarIdx] = 2; // vorletzter Ton (einzeln → kein Bracket)
-            for (let i = dblBarIdx + 1; i < slots.length; i++) tone[i] = 1;
+            tone[dblBarIdx] = 2; // vorletzter Ton
+            // noUnstressed: Koda-Silben haben keinen eigenen Ton → gleicher Ton wie ||,
+            // damit sie in der Anzeige mit || zusammengeklammert werden.
+            const kodaTone = noUnstressed ? 2 : 1;
+            for (let i = dblBarIdx + 1; i < slots.length; i++) tone[i] = kodaTone;
         }
     }
 };
