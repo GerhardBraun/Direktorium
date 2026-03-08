@@ -365,6 +365,10 @@ const formatCantMarkers = (text, mode) => {
     const cadence = PSALM_TONE_CADENCE[mode] || PSALM_TONE_CADENCE['IX']; // Default auf I, falls kein Psalmton angegeben
     if (!cadence) return text;  // unbekannter Psalmton: Text unverändert lassen
 
+    // > vor Vokal → ^ELL-Tag (elidierende Silbe, grau-kursiv): muss vor dem ^b/^u-Tagging geschehen,
+    // damit der Tag nicht innerhalb von ^b/^u landet und von processInlineFormats übergangen wird.
+    text = text.replace(/>([aeiouæm])/g, '^ELL$1^0ELL');
+
     // Teile in Halbverse auf. Trennzeichen ^*, ^p, ^+ bleiben im Array (captureGroups)
     const halfVerseRe = /(\^\*|\^p|\^\+)/;
     const parts = text.split(halfVerseRe);
@@ -1065,6 +1069,16 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         text = text
             .replace(/\^l/g, '\n')
 
+        // Verarbeitet ^ELL-Tags innerhalb eines Strings (für Verwendung in ^u/^b-Inhalten).
+        const renderWithEll = (s, keyPrefix) => {
+            if (!s.includes('^ELL')) return s;
+            return s.split(/(\^ELL.*?\^0ELL)/g).map((part, j) =>
+                part.startsWith('^ELL')
+                    ? <span key={`${keyPrefix}-ell-${j}`} className='italic' aria-hidden="true">{part.slice(4, -5)}</span>
+                    : part
+            );
+        };
+
         // ERWEITERTE REGEX um Satzzeichen-Marker zu erfassen
         const segments = text.split(/(\^RUBR.*?\^0RUBR|\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^c.*?\^0c|\^k.*?\^0k|\^u.*?\^0u|\^b.*?\^0b|\^d.*?\^0d|\^ELL.*?\^0ELL|§FN\d+§|§PUNCT\d+§|\^STAR.*?\^0STAR)/g).filter(Boolean);
 
@@ -1092,15 +1106,15 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
                 return <span key={`flexa-dot-${index}`} className="psalm-cant-flexa-dot">{content}</span>;
             } else if (segment.startsWith('^u')) {
                 const content = segment.substring(2, segment.length - 3);
-                return <span key={`underline-${index}`} style={{ textDecoration: 'underline' }}>{content}</span>;
+                return <span key={`underline-${index}`} style={{ textDecoration: 'underline' }}>{renderWithEll(content, `u-${index}`)}</span>;
             } else if (segment.startsWith('^b')) {
                 const content = segment.substring(2, segment.length - 3);
                 const { left, inner, right } = bracketTrim(content);
                 return (
                     <span key={`cant-bracket-${index}`} style={{ whiteSpace: 'nowrap' }}>
-                        {left}
-                        <span className="psalm-cant-bracket">{inner || content}</span>
-                        {right}
+                        {renderWithEll(left, `bl-${index}`)}
+                        <span className="psalm-cant-bracket">{renderWithEll(inner || content, `bi-${index}`)}</span>
+                        {renderWithEll(right, `br-${index}`)}
                     </span>
                 );
             } else if (segment.startsWith('^ELL')) {
