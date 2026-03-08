@@ -411,8 +411,10 @@ const tokenizeHalfVerse = (hv) => {
     };
     // Teilt einen Slot-Text an Wort-/Silbengrenzen auf (Leerzeichen und °-Platzhalter).
     // Gibt "Wort + nachfolgende Trennzeichen"-Einheiten zurück.
+    // °– (geschütztes Leerzeichen + Gedankenstrich) gilt als Satzzeichen,
+    // nicht als Wortgrenze → bleibt am vorangehenden Wort hängen.
     const splitWords = (text) =>
-        text.match(/[^\s°]*[\s°]*/g)?.filter(s => s.length > 0) ?? [];
+        text.match(/(?:[^\s°]|°–)*(?:(?!°–)[\s°])*/g)?.filter(s => s.length > 0) ?? [];
     // Fügt Slots ein: erster Sub-Slot erbt den Marker, weitere sind plain.
     const emptyMarker = { countdown: '', countdowns: [], stressed: '', tilde: false, syllBound: false };
     const pushSlots = (slots, markerInfo, text) => {
