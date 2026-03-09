@@ -564,7 +564,7 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
         const preBars = sglBarIdxs.filter(idx => idx < dblBarIdx);
         if (preBars.length >= 2) {
             preBars.sort((a, b) => a - b);
-            assignTonesThreeStressed(tone, slots, preBars[0], preBars[1], dblBarIdx);
+            assignTonesThreeStressed(tone, preBars[0], preBars[1], dblBarIdx);
         } else {
             assignTonesB2(tone, slots, cadStartIdx, dblBarIdx, sglBarIdxs, tildeIdx);
         }
@@ -669,28 +669,27 @@ const assignTonesB2 = (tone, slots, cadStartIdx, dblBarIdx, sglBarIdxs, tildeIdx
             for (let i = postBars[0] + 1; i < slots.length; i++) tone[i] = 1;
         }
     } else {
-        // Männlicher Versschluss
-        let firstAfterIdx = -1;
+        // Männlicher Versschluss mit genau zwei |/||-Markern:
+        // T3: alle unbetonten Silben außer der letzten
+        // T2: nur die letzte unbetonte Silbe vor dem zweiten Marker
+        // T1: zweiter Marker (betonte Schlusssilbe)
+        const unstrBetween = [];
         for (let i = firstStressed + 1; i < secondStressed; i++) {
-            if (slots[i].text.trim()) { firstAfterIdx = i; break; }
+            if (slots[i].text.trim()) unstrBetween.push(i);
         }
-        if (firstAfterIdx >= 0) tone[firstAfterIdx] = 3;
-        for (let i = (firstAfterIdx >= 0 ? firstAfterIdx + 1 : firstStressed + 1); i < secondStressed; i++) {
-            tone[i] = 2;
-        }
+        for (let i = 0; i < unstrBetween.length - 1; i++) tone[unstrBetween[i]] = 3;
+        if (unstrBetween.length > 0) tone[unstrBetween[unstrBetween.length - 1]] = 2;
         tone[secondStressed] = 1;
     }
 };
 
 // Hilfsfunktion: Sonderfall drei betonte Silben (b=2, zwei | + ein ||)
-const assignTonesThreeStressed = (tone, slots, bar1, bar2, dblBarIdx) => {
+const assignTonesThreeStressed = (tone, bar1, bar2, dblBarIdx) => {
     tone[bar1] = 4; // erste betonte Silbe: Unterstreichung
     for (let i = bar1 + 1; i < bar2; i++) tone[i] = 3; // zwischen bar1 und bar2: Ton 3
     tone[bar2] = 2; // zweite betonte Silbe
-    // erste Folgesilbe nach bar2 (vor ||) ebenfalls Ton 2 → gleiche Gruppe
-    for (let i = bar2 + 1; i < dblBarIdx; i++) {
-        if (slots[i].text.trim()) { tone[i] = 2; break; }
-    }
+    // alle Folgesilben nach bar2 (vor ||) → Ton 2 (gleiche Gruppe wie zweiter |-Marker)
+    for (let i = bar2 + 1; i < dblBarIdx; i++) tone[i] = 2;
     tone[dblBarIdx] = 1; // || → letzter Ton
 };
 
