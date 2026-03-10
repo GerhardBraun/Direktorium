@@ -1124,30 +1124,99 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         // ERWEITERTE REGEX um Satzzeichen-Marker zu erfassen
         const segments = text.split(/(\^RUBR.*?\^0RUBR|\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^c.*?\^0c|\^k.*?\^0k|\^u.*?\^0u|\^b.*?\^0b|\^d.*?\^0d|\^ELL.*?\^0ELL|§FN\d+§|§PUNCT\d+§|\^STAR.*?\^0STAR)/g).filter(Boolean);
 
-        // nowrap-Erweiterung: benachbarte Nicht-Leerzeichen-Zeichen (inkl. \u00A0-Gruppen) in den
-        // nowrap-Span von ^u/^b/^d einbeziehen. Trennstellen: ' ' (Leerzeichen) und '\n' (Zeilenumbruch).
-        const nowrapExt = {};
+        // Group-basiertes nowrap: zusammenhängende ^u/^b/^d-Segmente (verbunden durch Text ohne echte
+        // Leerzeichen) werden in einem gemeinsamen nowrap-Span zusammengefasst, um Zeilenumbrüche
+        // mitten in solchen Gruppen zu verhindern. Trennstellen: ' ' und '\n'.
+        const nowrapGroupOf = new Map();   // segIdx → groupId
+        const nowrapGroupInfo = new Map(); // groupId → {leftExt, rightExt, memberIndices, firstIndex}
+        let nowrapGroupCounter = 0;
+
         for (let ni = 0; ni < segments.length; ni++) {
+            if (nowrapGroupOf.has(ni)) continue;
             const seg = segments[ni];
-            if (seg.startsWith('^u') || seg.startsWith('^b') || seg.startsWith('^d')) {
-                let left = '', right = '';
-                if (ni > 0 && !segments[ni - 1].startsWith('^')) {
-                    const prev = segments[ni - 1];
-                    const sp = Math.max(prev.lastIndexOf(' '), prev.lastIndexOf('\n'));
-                    left = prev.slice(sp + 1);
-                    segments[ni - 1] = prev.slice(0, sp + 1);
-                }
-                if (ni + 1 < segments.length && !segments[ni + 1].startsWith('^')) {
-                    const next = segments[ni + 1];
-                    const sp = next.search(/[ \n]/);
-                    if (sp < 0) { right = next; segments[ni + 1] = ''; }
-                    else { right = next.slice(0, sp); segments[ni + 1] = next.slice(sp); }
-                }
-                if (left || right) nowrapExt[ni] = { left, right };
+            if (!seg.startsWith('^u') && !seg.startsWith('^b') && !seg.startsWith('^d')) continue;
+
+            const gid = nowrapGroupCounter++;
+            const memberIndices = [ni];
+            nowrapGroupOf.set(ni, gid);
+
+            // Linke Erweiterung: aus dem vorherigen Nicht-Tag-Segment bis zum letzten echten Leerzeichen
+            let leftExt = '';
+            if (ni > 0 && !segments[ni - 1].startsWith('^')) {
+                const prev = segments[ni - 1];
+                const sp = Math.max(prev.lastIndexOf(' '), prev.lastIndexOf('\n'));
+                leftExt = prev.slice(sp + 1);
+                segments[ni - 1] = prev.slice(0, sp + 1);
             }
+
+            // Gruppe nach rechts erweitern: weitere ^u/^b/^d-Segmente und Text ohne echte Leerzeichen
+            let j = ni + 1;
+            let rightExt = '';
+            while (j < segments.length) {
+                const jseg = segments[j];
+                if (jseg.startsWith('^u') || jseg.startsWith('^b') || jseg.startsWith('^d')) {
+                    memberIndices.push(j);
+                    nowrapGroupOf.set(j, gid);
+                    j++;
+                } else if (!jseg.startsWith('^')) {
+                    const sp = jseg.search(/[ \n]/);
+                    if (sp < 0) {
+                        // Kein echtes Leerzeichen: gesamter Text gehört zur Gruppe
+                        memberIndices.push(j);
+                        nowrapGroupOf.set(j, gid);
+                        j++;
+                    } else {
+                        // Echtes Leerzeichen: Text davor als rechte Erweiterung
+                        rightExt = jseg.slice(0, sp);
+                        segments[j] = jseg.slice(sp);
+                        break;
+                    }
+                } else {
+                    break;
+                }
+            }
+
+            nowrapGroupInfo.set(gid, { leftExt, rightExt, memberIndices, firstIndex: ni });
         }
 
+        // Rendert den Inhalt eines ^u/^b/^d-Segments oder Plain-Text-Segments ohne eigenen nowrap-Span
+        const renderMember = (s, mi) => {
+            if (!s.startsWith('^')) {
+                return s || null;
+            } else if (s.startsWith('^u')) {
+                const content = s.substring(2, s.length - 3);
+                return <span key={`underline-${mi}`} style={{ textDecoration: 'underline' }}>{renderWithEll(content, `u-${mi}`)}</span>;
+            } else if (s.startsWith('^b')) {
+                const content = s.substring(2, s.length - 3);
+                const { left, inner, right } = bracketTrim(content);
+                return (
+                    <React.Fragment key={`cant-bracket-${mi}`}>
+                        {renderWithEll(left, `bl-${mi}`)}
+                        <span className="psalm-cant-bracket">{renderWithEll(inner || content, `bi-${mi}`)}</span>
+                        {renderWithEll(right, `br-${mi}`)}
+                    </React.Fragment>
+                );
+            } else if (s.startsWith('^d')) {
+                const content = s.substring(2, s.length - 3);
+                return <span key={`flexa-dot-${mi}`} className="psalm-cant-flexa-dot">{content}</span>;
+            }
+            return null;
+        };
+
         return segments.map((segment, index) => {
+            // Nowrap-Gruppe: erstes Mitglied rendert die gesamte Gruppe im gemeinsamen nowrap-Span
+            if (nowrapGroupOf.has(index)) {
+                const gid = nowrapGroupOf.get(index);
+                const info = nowrapGroupInfo.get(gid);
+                if (info.firstIndex !== index) return null;
+                return (
+                    <span key={`nowrap-group-${index}`} style={{ whiteSpace: 'nowrap' }}>
+                        {info.leftExt}
+                        {info.memberIndices.map(mi => renderMember(segments[mi], mi))}
+                        {info.rightExt}
+                    </span>
+                );
+            }
             if (segment.startsWith('^r')) {
                 const content = segment.substring(2, segment.length - 3);
                 return <span key={`rubric-${index}`} className="text-rubric" aria-hidden="true">{content}</span>;
@@ -1166,37 +1235,6 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
             } else if (segment.startsWith('^k')) {
                 const content = segment.substring(2, segment.length - 3);
                 return <span key={`italic-${index}`} style={{ fontStyle: 'italic' }}>{content}</span>;
-            } else if (segment.startsWith('^d')) {
-                const content = segment.substring(2, segment.length - 3);
-                const ext = nowrapExt[index];
-                return (
-                    <span key={`flexa-dot-${index}`} style={{ whiteSpace: 'nowrap' }}>
-                        {ext?.left}
-                        <span className="psalm-cant-flexa-dot">{content}</span>
-                        {ext?.right}
-                    </span>
-                );
-            } else if (segment.startsWith('^u')) {
-                const content = segment.substring(2, segment.length - 3);
-                const ext = nowrapExt[index];
-                return (
-                    <span key={`underline-${index}`} style={{ whiteSpace: 'nowrap' }}>
-                        {ext?.left}
-                        <span style={{ textDecoration: 'underline' }}>{renderWithEll(content, `u-${index}`)}</span>
-                        {ext?.right}
-                    </span>
-                );
-            } else if (segment.startsWith('^b')) {
-                const content = segment.substring(2, segment.length - 3);
-                const { left, inner, right } = bracketTrim(content);
-                const ext = nowrapExt[index];
-                return (
-                    <span key={`cant-bracket-${index}`} style={{ whiteSpace: 'nowrap' }}>
-                        {ext?.left}{renderWithEll(left, `bl-${index}`)}
-                        <span className="psalm-cant-bracket">{renderWithEll(inner || content, `bi-${index}`)}</span>
-                        {renderWithEll(right, `br-${index}`)}{ext?.right}
-                    </span>
-                );
             } else if (segment.startsWith('^ELL')) {
                 const content = segment.substring(4, segment.length - 5);
                 return <span key={`ellipsis-${index}`} className='text-gray-500 dark:text-gray-400 italic' aria-hidden="true">{content}</span>;
