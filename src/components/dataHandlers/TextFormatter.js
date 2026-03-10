@@ -128,7 +128,7 @@ const getDoxology = (localPrefLanguage, psalm, isBuM = false) => {
             + "et in sáecula saeculórum. Amen.";
     }
     if (localPrefLanguage === "_cant" && (isBuM || psalm.text_cant)) {
-        return "Ehre sei dem |Va0ter ~2und 1dem ||Sohn^*"
+        return "Ehre sei dem |Va0ter 2und 1dem ||Sohn^*"
             + "und 4dem 3|Hei2li1gen ||Geist,^p"
             + "wie im Anfang, so°auch°2|jetzt°1und°||al0le°Zeit^*"
             + "und in 3|E2wig1keit. ||A0men.";
@@ -566,7 +566,7 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
             preBars.sort((a, b) => a - b);
             assignTonesThreeStressed(tone, preBars[0], preBars[1], dblBarIdx);
         } else {
-            assignTonesB2(tone, slots, cadStartIdx, dblBarIdx, sglBarIdxs, tildeIdx);
+            assignTonesB2(tone, slots, cadStartIdx, dblBarIdx, sglBarIdxs);
         }
     } else {
         if (sonderfall1) {
@@ -584,6 +584,25 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
         } else {
             const noUnstressed = !!(cadence.skNoUnstressed && cadenceType === 'sk');
             assignTonesB1(tone, slots, cadStartIdx, dblBarIdx, has4, noUnstressed);
+        }
+    }
+
+    // Tilde-Erweiterung des Kadenzanfangs:
+    // b=2, Tilde im T3-Slot: alle Silben von cadStartIdx bis tildeIdx → tone=5
+    //   (gemeinsame Unterstreichung statt Einzelunterstreichung + Klammerung)
+    // b=1, Tilde im T1-Slot: Silbe nach T2 schieben
+    //   v=0: cadStartIdx (= ||) bis tildeIdx → tone=5 (Unterstreichung verlängert)
+    //   v>0: Slots von ||+1 bis tildeIdx → tone=2 (Klammerung mit ||)
+    // Tilde in einem anderen Slot als T3 (b=2) bzw. T1 (b=1) bleibt unberücksichtigt.
+    if (tildeIdx >= 0) {
+        if (b === 2 && tone[tildeIdx] === 3) {
+            for (let i = cadStartIdx; i <= tildeIdx; i++) tone[i] = 5;
+        } else if (b === 1 && tone[tildeIdx] === 1) {
+            if (v_eff === 0) {
+                for (let i = dblBarIdx; i <= tildeIdx; i++) tone[i] = 5;
+            } else {
+                for (let i = dblBarIdx + 1; i <= tildeIdx; i++) tone[i] = 2;
+            }
         }
     }
 
@@ -629,7 +648,7 @@ const assignTonesB1Sonderfall1 = (tone, slots, cadStartIdx, dblBarIdx, sglBarIdx
 };
 
 // Hilfsfunktion: Tonzuweisung für b=2 (weiblicher/männlicher Versschluss)
-const assignTonesB2 = (tone, slots, cadStartIdx, dblBarIdx, sglBarIdxs, tildeIdx) => {
+const assignTonesB2 = (tone, slots, cadStartIdx, dblBarIdx, sglBarIdxs) => {
     const postBars = sglBarIdxs.filter(idx => idx > dblBarIdx);
     const firstStressed = cadStartIdx;
     const secondStressed = postBars.length > 0 ? postBars[0] : dblBarIdx;
@@ -637,21 +656,6 @@ const assignTonesB2 = (tone, slots, cadStartIdx, dblBarIdx, sglBarIdxs, tildeIdx
     const isMaennlich = !slots.slice(secondStressed + 1).some(s => s.text.trim().length > 0);
 
     tone[firstStressed] = 4; // Kadenzanfang: Unterstreichung
-
-    if (tildeIdx >= 0 && tildeIdx > firstStressed && tildeIdx < (isMaennlich ? secondStressed : dblBarIdx)) {
-        // Tilde: abweichende Gruppen-Grenze zwischen Ton 3 und Ton 2
-        for (let i = firstStressed + 1; i <= tildeIdx; i++) tone[i] = 3;
-        if (isMaennlich) {
-            for (let i = tildeIdx + 1; i < secondStressed; i++) tone[i] = 2;
-            tone[secondStressed] = 1; // letzter Hauptton → T1
-        } else {
-            for (let i = tildeIdx + 1; i <= secondStressed; i++) tone[i] = 2;
-            for (let i = secondStressed + 1; i < slots.length; i++) {
-                if (slots[i].text.trim()) tone[i] = 1;
-            }
-        }
-        return;
-    }
 
     if (!isMaennlich) {
         // Weiblicher Versschluss
@@ -715,6 +719,17 @@ const buildTaggedText = (slots, tone) => {
             const [core, trail] = splitTrail(text);
             out += `^u${core}^0u` + trail;
             i++;
+        } else if (t_tone === 5) {
+            // tone=5: erweiterte Unterstreichung — aufeinanderfolgende Slots → ein ^u...^0u
+            let j = i + 1;
+            let group = text;
+            while (j < slots.length && tone[j] === 5) {
+                group += slots[j].text;
+                j++;
+            }
+            const [core, trail] = splitTrail(group);
+            out += `^u${core}^0u` + trail;
+            i = j;
         } else {
             // Töne 1, 2, 3: aufeinanderfolgende gleiche Töne → Klammer
             let j = i + 1;
@@ -786,7 +801,9 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
     const { nominativ, genitiv, vokativ, genitiv_lat, vokativ_lat } = texts?.laudes?.[prefSrc] || {};
 
     const useFootnoteList = localStorage.getItem('prefFootnotes') === 'true';
-    const useCommemoration = (marker === 'commemoration' && texts?.rank?.isCommemoration === true);
+    const useCommemoration = marker === 'commemoration'
+        && texts?.rank?.isCommemoration === true
+        && !(hour === 'vesper' && texts?.rank?.hasErsteVesper);
 
     // bei Antwortpsalmen in den Messlesungen wird das Sternchen in Rubrik-Farbe angezeigt
     const isAps = marker === 'Aps';
