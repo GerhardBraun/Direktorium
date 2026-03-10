@@ -516,7 +516,10 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
         countdownIdxs['3'] === countdownIdxs['2'];
     // Sonderfall 3 (b=1): 4-Marker vorhanden (aber nicht wenn 4+3 kombiniert auf einem Slot)
     const has4 = !has43Combined && ('4' in countdownIdxs);
-    const v_eff = (b === 1 && has4) ? v + 1 : v;
+    // skNoUnstressed: bei männlichem Versschluss kein vEff=v+1, weil der 4-Marker
+    // dort keine zusätzliche Kadenzstelle eröffnet, sondern nur den Kadenzanfang markiert.
+    const noUnstressed = !!(cadence.skNoUnstressed && cadenceType === 'sk');
+    const v_eff = (b === 1 && has4 && !noUnstressed) ? v + 1 : v;
 
     // Kadenzanfang (Slot-Index)
     let cadStartIdx;
@@ -582,7 +585,6 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
                 assignTonesB1(tone, slots, cadStartIdx, dblBarIdx, has4);
             }
         } else {
-            const noUnstressed = !!(cadence.skNoUnstressed && cadenceType === 'sk');
             assignTonesB1(tone, slots, cadStartIdx, dblBarIdx, has4, noUnstressed);
         }
     }
@@ -724,6 +726,8 @@ const buildTaggedText = (slots, tone) => {
             let j = i + 1;
             let group = text;
             while (j < slots.length && tone[j] === 5) {
+                // \u200b als Silbengrenze einfügen, damit bracketTrim keinen Diphthong-Fehlmatch erzeugt
+                if (slots[j].syllBound) group += '\u200b';
                 group += slots[j].text;
                 j++;
             }
@@ -735,6 +739,8 @@ const buildTaggedText = (slots, tone) => {
             let j = i + 1;
             let group = text;
             while (j < slots.length && tone[j] === t_tone) {
+                // \u200b als Silbengrenze einfügen, damit bracketTrim keinen Diphthong-Fehlmatch erzeugt
+                if (slots[j].syllBound) group += '\u200b';
                 group += slots[j].text;
                 j++;
             }
@@ -764,7 +770,10 @@ const buildTaggedText = (slots, tone) => {
 const CANT_VOWEL_RE = /[aeiouäöüáéíóúàèìòùAEIOUÄÖÜÁÉÍÓÚÀÈÌÒÙ]/;
 const CANT_DIPHTHONGS = new Set(['ei', 'ai', 'au', 'eu', 'äu', 'ie', 'ae', 'oe']);
 const bracketTrim = (content) => {
-    const isSep = c => c === ' ' || c === '°';
+    // \u200b (Zero-Width Space) wird als Silbengrenze zwischen 0-markierten Slots eingefügt;
+    // es muss wie Leerzeichen und ° als Trennzeichen behandelt werden, um Diphthong-Fehlmatch
+    // über Silbengrenzen hinweg (z. B. 'ae' in 'ra' + 'el') zu verhindern.
+    const isSep = c => c === ' ' || c === '°' || c === '\u200b';
     // Linker Rand: Anlaut-Konsonanten; bei öffnendem Diphthong auch erster Vokal
     let li = 0;
     while (li < content.length && !CANT_VOWEL_RE.test(content[li]) && !isSep(content[li])) li++;
@@ -1115,6 +1124,29 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         // ERWEITERTE REGEX um Satzzeichen-Marker zu erfassen
         const segments = text.split(/(\^RUBR.*?\^0RUBR|\^r.*?\^0r|\^w.*?\^0w|\^f.*?\^0f|\^v.*?\^0v|\^c.*?\^0c|\^k.*?\^0k|\^u.*?\^0u|\^b.*?\^0b|\^d.*?\^0d|\^ELL.*?\^0ELL|§FN\d+§|§PUNCT\d+§|\^STAR.*?\^0STAR)/g).filter(Boolean);
 
+        // nowrap-Erweiterung: benachbarte Nicht-Leerzeichen-Zeichen (inkl. \u00A0-Gruppen) in den
+        // nowrap-Span von ^u/^b/^d einbeziehen. Trennstellen: ' ' (Leerzeichen) und '\n' (Zeilenumbruch).
+        const nowrapExt = {};
+        for (let ni = 0; ni < segments.length; ni++) {
+            const seg = segments[ni];
+            if (seg.startsWith('^u') || seg.startsWith('^b') || seg.startsWith('^d')) {
+                let left = '', right = '';
+                if (ni > 0 && !segments[ni - 1].startsWith('^')) {
+                    const prev = segments[ni - 1];
+                    const sp = Math.max(prev.lastIndexOf(' '), prev.lastIndexOf('\n'));
+                    left = prev.slice(sp + 1);
+                    segments[ni - 1] = prev.slice(0, sp + 1);
+                }
+                if (ni + 1 < segments.length && !segments[ni + 1].startsWith('^')) {
+                    const next = segments[ni + 1];
+                    const sp = next.search(/[ \n]/);
+                    if (sp < 0) { right = next; segments[ni + 1] = ''; }
+                    else { right = next.slice(0, sp); segments[ni + 1] = next.slice(sp); }
+                }
+                if (left || right) nowrapExt[ni] = { left, right };
+            }
+        }
+
         return segments.map((segment, index) => {
             if (segment.startsWith('^r')) {
                 const content = segment.substring(2, segment.length - 3);
@@ -1136,18 +1168,33 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
                 return <span key={`italic-${index}`} style={{ fontStyle: 'italic' }}>{content}</span>;
             } else if (segment.startsWith('^d')) {
                 const content = segment.substring(2, segment.length - 3);
-                return <span key={`flexa-dot-${index}`} className="psalm-cant-flexa-dot">{content}</span>;
+                const ext = nowrapExt[index];
+                return (
+                    <span key={`flexa-dot-${index}`} style={{ whiteSpace: 'nowrap' }}>
+                        {ext?.left}
+                        <span className="psalm-cant-flexa-dot">{content}</span>
+                        {ext?.right}
+                    </span>
+                );
             } else if (segment.startsWith('^u')) {
                 const content = segment.substring(2, segment.length - 3);
-                return <span key={`underline-${index}`} style={{ textDecoration: 'underline' }}>{renderWithEll(content, `u-${index}`)}</span>;
+                const ext = nowrapExt[index];
+                return (
+                    <span key={`underline-${index}`} style={{ whiteSpace: 'nowrap' }}>
+                        {ext?.left}
+                        <span style={{ textDecoration: 'underline' }}>{renderWithEll(content, `u-${index}`)}</span>
+                        {ext?.right}
+                    </span>
+                );
             } else if (segment.startsWith('^b')) {
                 const content = segment.substring(2, segment.length - 3);
                 const { left, inner, right } = bracketTrim(content);
+                const ext = nowrapExt[index];
                 return (
                     <span key={`cant-bracket-${index}`} style={{ whiteSpace: 'nowrap' }}>
-                        {renderWithEll(left, `bl-${index}`)}
+                        {ext?.left}{renderWithEll(left, `bl-${index}`)}
                         <span className="psalm-cant-bracket">{renderWithEll(inner || content, `bi-${index}`)}</span>
-                        {renderWithEll(right, `br-${index}`)}
+                        {renderWithEll(right, `br-${index}`)}{ext?.right}
                     </span>
                 );
             } else if (segment.startsWith('^ELL')) {
