@@ -266,7 +266,7 @@ const PSALM_TONE_CADENCE = {
     'III': { mk: [0, 2], sk: [2, 1] },
     'IV': { mk: [2, 1], sk: [3, 1] },
     'IVa': { mk: [2, 1], sk: [1, 1] },
-    'IVg': { mk: [2, 1], sk: [0, 1] },
+    'IVg': { mk: [2, 1], sk: [0, 1], skSingleTone: true },
     'V': { mk: [0, 1], sk: [0, 2] },
     'VI': { mk: [1, 1], sk: [3, 1] },
     'VII': { mk: [0, 2], sk: [0, 2] },
@@ -572,7 +572,18 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
             assignTonesB2(tone, slots, cadStartIdx, dblBarIdx, sglBarIdxs);
         }
     } else {
-        if (sonderfall1) {
+        if (cadence.skSingleTone && cadenceType === 'sk') {
+            // skSingleTone (z. B. IVg): einziger Kadenzton ist T1.
+            // Männlicher Versschluss: || fällt auf T1 → unterstreichen.
+            // Weiblicher Versschluss: || steht noch vor T1; Koda (Folgesilben) = T1 → durchgehend unterstreichen.
+            const isMaennlich = !slots.slice(dblBarIdx + 1).some(s => s.text.trim().length > 0);
+            if (isMaennlich) {
+                tone[dblBarIdx] = 4; // || = T1
+            } else {
+                // tone[dblBarIdx] bleibt 0 (||: keine eigene Unterstreichung)
+                for (let i = dblBarIdx + 1; i < slots.length; i++) tone[i] = 5; // Koda = T1
+            }
+        } else if (sonderfall1) {
             assignTonesB1Sonderfall1(tone, slots, cadStartIdx, dblBarIdx, sglBarIdxs);
         } else if (cadenceType === 'mk' && cadence.mkMaleVeff && !has4) {
             // Ton X Sonderfall: männliches Versende in der Mittelkadenz verhält sich wie
