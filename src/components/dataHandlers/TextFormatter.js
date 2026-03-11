@@ -648,16 +648,18 @@ const assignTonesB1 = (tone, slots, cadStartIdx, dblBarIdx, has4, noUnstressed =
 
 // Hilfsfunktion: Sonderfall 1 b=1 (Nebenbetonung am Versende, || vor |)
 const assignTonesB1Sonderfall1 = (tone, slots, cadStartIdx, dblBarIdx, sglBarIdxs) => {
-    const postBar = sglBarIdxs.find(idx => idx > dblBarIdx);
+    const postBar = sglBarIdxs.find(idx => idx > dblBarIdx); // immer vorhanden (Sonderfall1-Bedingung)
     tone[cadStartIdx] = 4; // Kadenzanfang: Unterstreichung
-    // Guard: cadStartIdx === dblBarIdx bei v=0 → kein Überschreiben der Unterstreichung
-    if (cadStartIdx !== dblBarIdx) tone[dblBarIdx] = 2; // || → vorletzter Ton
-    if (postBar !== undefined) {
-        for (let i = dblBarIdx + 1; i < postBar; i++) tone[i] = 2; // Folgesilben bis | → gleiche Gruppe
-        // Guard: postBar === cadStartIdx bei ungewöhnlicher Annotation → kein Überschreiben
-        if (postBar !== cadStartIdx) tone[postBar] = 1; // | → letzter Ton
-        for (let i = postBar + 1; i < slots.length; i++) tone[i] = 1;
+    if (cadStartIdx === dblBarIdx) {
+        // v=0: || ist Kadenzanfang; || und alle Zwischensilben bis | → durchgehende Unterstreichung
+        for (let i = dblBarIdx; i < postBar; i++) tone[i] = 5;
+    } else {
+        // v>0: || → T2; alle Zwischensilben bis | ebenfalls T2 (eine Klammergruppe)
+        tone[dblBarIdx] = 2;
+        for (let i = dblBarIdx + 1; i < postBar; i++) tone[i] = 2;
     }
+    tone[postBar] = 1; // | → letzter Ton
+    for (let i = postBar + 1; i < slots.length; i++) tone[i] = 1;
 };
 
 // Hilfsfunktion: Tonzuweisung für b=2 (weiblicher/männlicher Versschluss)
