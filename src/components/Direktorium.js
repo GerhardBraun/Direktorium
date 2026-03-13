@@ -974,7 +974,8 @@ const PrayerTextDisplay = ({
           ["lesehore", "laudes", "vesper"].includes(hour) &&
           (texts?.laudes?.oblig?.oration
             || texts?.laudes?.n1?.oration
-            || texts?.laudes?.d1?.oration) && (
+            || texts?.laudes?.d1?.oration
+            || texts?.laudes?.d11?.oration) && (
             <>
               <div >
                 <SourceSelector
