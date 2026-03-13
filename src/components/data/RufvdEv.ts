@@ -1,4 +1,4 @@
-// RufvdEv.ts - Automatisch generiert am 12.03.2026 03:50:39
+// RufvdEv.ts - Automatisch generiert am 13.03.2026 02:57:59
 // RufvdEv-Datenbank: ID -> { Stelle, Text }
 
 export const rufvdevData = {
