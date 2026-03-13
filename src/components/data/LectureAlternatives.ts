@@ -704,6 +704,13 @@ export const lectureAlternatives_swd = {
         }]
     },
     //Lesejahr II
+    "q-6-4": {
+        second: [{
+            patr_autor: "Romano Guardini († 1968)",
+            patr_werk: "Aus dem Buch „Der Herr“.",
+            patr_text: "^hGetsemane^pIn der Stunde ...",
+        }]
+    },
     "j-12-0": {
         second: [{
             patr_autor: "Meister Eckehart († vor 1328)",
