@@ -2666,7 +2666,7 @@
           "major": {
             "comm_1": "Hirten",
             "oration": "Gütiger Gott, in der Sorge für dein Volk hast du den heiligen Klemens Maria Hofbauer mit besonderem Eifer für die Seelen erfüllt und durch ihn den Reichtum deiner Gnade verkündet. Hilf uns auf seine Fürsprache, den Glauben zu bewahren, den er gelehrt, und den Weg zu gehen, den er uns durch sein Leben gewiesen hat.^ORV",
-            "oration_lat": "comm:"
+            "oration_lat": "comm:Deus, qui beátum Cleméntem Maríam divína caritáte flagrántem, fidéque, quæ vincit mundum, insígnem, sanctis pastóribus mirabíliter aggregásti, præsta, quǽsumus, ut, ipso intercedénte, nos quoque, in fide et caritáte perseverántes, eius glóriæ consórtes fíeri mereámur.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Klemens Maria Hofbauer (†°1820)",
@@ -2707,7 +2707,7 @@
           "major": {
             "comm_1": "Frau_Ord",
             "oration": "Herr, unser Gott, du hast im Herzen der heiligen Gertrud das Verlangen geweckt, das Wort der Schrift zu verstehen und deine Weisung zu erkennen. Lehre auch uns, aus der Kraft deines Wortes zu leben und Werke der Liebe zu tun.^ORV",
-            "oration_lat": "comm:"
+            "oration_lat": " comm:Effúnde super nos, Dómine, spíritum agnitiónis et dilectiónis tuæ, quo ancíllam tuam Gertrúdem implevísti, ut, sédula eius imitatióne tibi sincére obsequéntes, fide et ópere placeámus.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "II. Vatikanisches Konzil (1962–1965)",
@@ -2855,7 +2855,7 @@
             "comm_1": "Hirten",
             "comm_2": "MärtSg",
             "oration": "Gott, du hast dem heiligen Bischof Oscar Romero die Kraft gegeben, durch seinen Tod für Recht und Wahrheit einzutreten. Höre auf seine Fürsprache und hilf uns, alle Mühe und Last zu ertragen und dich, unser wahres Leben, mit ungeteiltem Herzen zu suchen.^ORV",
-            "oration_lat": "comm:"
+            "oration_lat": "comm:Omnípotens sempitérne Deus, qui beáto Ansgári usque ad mortem pro iustítia certáre tribuísti, fac nos, eius intercessióne, pro amóre tuo ómnia adversa toleráre et ad te, qui solus es vita, tota virtúte properáre.^ORlV"
           },
           "Laudes": {
             "button": "Hl. Oscar Arnulfo Romero",
@@ -2882,7 +2882,7 @@
           "major": {
             "comm_1": "Hirten",
             "oration": "Allmächtiger Gott, du hast den heiligen Bischof Liudger gesandt, die Friesen und die Sachsen zum christlichen Glauben zu führen. Gib auch uns unermüdlichen Eifer und jene Zuversicht, mit der er sich in den Dienst der Kirche gestellt hat.^ORV",
-            "oration_lat": "comm:"
+            "oration_lat": "comm:Deus, cuius ineffábili misericórdia beátus Ludgérius evangelizávit investigábiles divítias Christi, da nos, eius intercessióne, créscere in sciéntia tua, et, in omni ópere bono fructificántes, secúndum Evangélii veritátem coram te fidéliter ambuláre.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "Liudger (†°809)",
@@ -2895,7 +2895,7 @@
           "Laudes": {
             "button": "Hl. Liudger",
             "genitiv": "des heiligen Liudger",
-            "genitiv_lat": "Liudgérii",
+            "genitiv_lat": "sancti Liudgérii",
             "ant_komm": "Nicht ihr werdet reden, sondern der Geist eures Vaters redet durch euch.",
             "ant_komm_lat": "Non vos estis qui loquímini, sed Spíritus Patris vestri, qui lóquitur in vobis."
           },
