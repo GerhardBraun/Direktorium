@@ -287,11 +287,12 @@ export const ordinarium = (texts, hour = '', localPrefLanguage = '', prefSollemn
 
     let ordinariumTexts = ordinariumData?.[hour]?.[languageToRead] || {};
 
+    // Te Deum
     if (['lesehore', 'vigil'].includes(hour) &&
         ((texts?.rank?.wt > 2 && texts?.season !== 'q')
             || (texts?.rank?.date > 2 && texts?.rank.date > texts?.rank?.wt)
             || prefSollemnity)) {
-        ordinariumTexts = ordinariumData?.TeDeum?.[languageToRead] || {};
+        ordinariumTexts = ordinariumData?.TeDeum?.[languageToRead] || ordinariumData.TeDeum.dt || {};
     }
 
     const openingTexts = getOpeningTexts(hour, localPrefLanguage);

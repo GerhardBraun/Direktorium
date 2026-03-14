@@ -72,7 +72,6 @@ interface CalendarHourEntry {
   bitten_r_lat?: string;
   bitten_lat?: string;
   oration?: string;
-  oration_komplet?: string;
   oration_lat?: string;
   // Neue Messe-Felder
     ms_les_buch?: string;

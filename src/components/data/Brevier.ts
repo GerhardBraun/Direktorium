@@ -66,9 +66,7 @@ interface BrevierEntry {
   bitten_r_lat?: string;
   bitten_lat?: string;
   oration?: string;
-  oration_komplet?: string;
   oration_lat?: string;
-  oration_komplet_lat?: string;
   }
 
 interface BrevierData {
@@ -14907,7 +14905,8 @@ export const brevierData = {
           "ant1_lat": "In domum Dómini lætántes íbimus",
           "ant2_lat": "Surge, qui dormis, et exsúrge a mórtuis, et illuminábit te Christus.",
           "ant3_lat": "Propter nímiam caritátem suam, qua diléxit nos Deus, cum essémus mórtui peccátis, convivificávit nos in Christo.",
-          "anta_lat": "Rabbi, quis peccávit, hic aut paréntes eius, ut cæcus nascerétur? Respóndit Iesus: Neque hic peccávit neque paréntes eius, sed ut manifesténtur ópera Dei in illo."
+          "anta_lat": "Rabbi, quis peccávit, hic aut paréntes eius, ut cæcus nascerétur? Respóndit Iesus: Neque hic peccávit neque paréntes eius, sed ut manifesténtur ópera Dei in illo.",
+          "antb_lat": "Sicut Móyses exaltávit serpéntem in desérto, ita exaltári opórtet Fílium hóminis, ut omnis qui credit, in ipso hábeat vitam ætérnam."
         },
         "Vigil": {
           "les_buch": "^A:vigil-q-4:",
@@ -14923,7 +14922,8 @@ export const brevierData = {
           "ant1_lat": "Deus meus es tu, et confitébor tibi; Deus meus es tu, et exaltábo te.",
           "ant2_lat": "Potens es, Dómine, erípere nos de manu forti; líbera nos, Deus noster.",
           "ant3_lat": "Laudáte Dóminum in magnálibus eius.",
-          "anta_lat": "Homo, qui dícitur Iesus, lutum fecit et unxit óculos meos: ábii et lavi et modo vídeo."
+          "anta_lat": "Homo, qui dícitur Iesus, lutum fecit et unxit óculos meos: ábii et lavi et modo vídeo.",
+          "antb_lat": "Sic Deus diléxit mundum, ut Fílium suum unigénitum daret; ut omnis, qui credit in ipsum, non péreat, sed hábeat vitam ætérnam."
         },
         "Vesper": {
           "ant1": "Der Herr steht dir zur Seite. Er hat dich eingesetzt als Richter über Lebende und Tote.",
@@ -14933,7 +14933,8 @@ export const brevierData = {
           "ant1_lat": "Ipse est qui constitútus est a Deo iudex vivórum et mortuórum.",
           "ant2_lat": "Iucúndus homo, qui miserétur in Dómino: non commovébitur in ætérnum.",
           "ant3_lat": "Quæ prænuntiávit Deus per os ómnium prophetárum, pati Christum suum, sic implévit.",
-          "anta_lat": "A sǽculo non est audítum quia quis apéruit óculos cæci nati, nisi Christus Fílius Dei."
+          "anta_lat": "A sǽculo non est audítum quia quis apéruit óculos cæci nati, nisi Christus Fílius Dei.",
+          "antb_lat": "Qui facit veritátem venit ad lucem, ut manifesténtur eius ópera, quia in Deo sunt facta."
         },
         "Lesehore": {
           "versikel0_lat": "Verba tua, Dómine, spíritus et vita sunt.",
@@ -15027,7 +15028,7 @@ export const brevierData = {
           "hymn_3": 0.0,
           "oration": "Herr, unser Gott, dein Sohn hat sich aus Liebe zur Welt dem Tod überliefert. Lass uns in seiner Liebe bleiben und mit deiner Gnade aus ihr leben.^ORV",
           "hymn_3_lat": 0.0,
-          "oration_lat": ""
+          "oration_lat": "Quǽsumus, Dómine Deus noster, ut in illa caritáte, qua Fílius tuus díligens mundum morti se trádidit, inveniámur ipsi, te opitulánte, alácriter ambulántes.^ORlV"
         },
         "ErsteV": {
           "ant1": "Ich lege mein Gesetz in ihr Herz. Ich werde ihr Gott sein, und sie werden mein Volk sein.",
@@ -15038,11 +15039,13 @@ export const brevierData = {
           "les_text": "Ihr wisst, dass ihr aus eurer sinnlosen, von den Vätern ererbten Lebensweise nicht um einen vergänglichen Preis losgekauft wurdet, nicht um Silber oder Gold, sondern mit dem kostbaren Blut Christi, des Lammes ohne Fehl und Makel. Er war schon vor der Erschaffung der Welt dazu ausersehen, und euretwegen ist er am Ende der Zeiten erschienen. Durch ihn seid ihr zum Glauben an Gott gekommen, der ihn von den Toten auferweckt und ihm die Herrlichkeit gegeben hat, so dass ihr an Gott glauben und auf ihn hoffen könnt.",
           "les_text_neu": "Ihr wisst, dass ihr aus eurer nichtigen, von den Vätern ererbten Lebensweise nicht um einen vergänglichen Preis losgekauft wurdet, nicht um Silber oder Gold, sondern mit dem kostbaren Blut Christi, des Lammes ohne Fehl und Makel. Er war schon vor der Grundlegung der Welt dazu ausersehen, und euretwegen ist er am Ende der Zeiten erschienen. Durch ihn seid ihr zum Glauben an Gott gekommen, der ihn von den Toten auferweckt und ihm die Herrlichkeit gegeben hat, so dass ihr an Gott glauben und auf ihn hoffen könnt.",
           "antev": "Wenn das Weizenkorn nicht in die Erde fällt und stirbt, bleibt es allein; wenn es aber stirbt, bringt es reiche Frucht.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
+          "ant1_lat": "Dabo legem meam in corde eórum, et ego ero eis in Deum, et ipsi erunt mihi in pópulum.",
+          "ant2_lat": "Exístimo ómnia detriméntum esse, propter eminéntem sciéntiam Iesu Christi Dómini mei.",
+          "ant3_lat": "Cum esset Fílius Dei, dídicit ex iis quæ passus est obœdiéntiam.",
+          "anta_lat": "Lázarus, amícus noster, dormit; eámus, et a somno excitémus eum.",
+          "antb_lat": "Nisi granum fruménti cadens in terram mórtuum fúerit, ipsum solum manet; si autem mórtuum fúerit, multum fructum affert.",
           "antev_lat": "",
-          "les_text_lat": ""
+          "les_text_lat": "Scitóte quod non corruptibílibus argénto vel auro redémpti estis de vana vestra conversatióne a pátribus trádita, sed pretióso sánguine quasi Agni incontamináti et immaculáti Christi, præcógniti quidem ante constitutiónem mundi, manifestáti autem novíssimis tempóribus propter vos, qui per ipsum fidéles estis in Deum, qui suscitávit eum a mórtuis et dedit ei glóriam, ut fides vestra et spes esset in Deum."
         },
         "Vigil": {
           "les_buch": "^A:vigil-q-5:",
@@ -15059,32 +15062,34 @@ export const brevierData = {
           "les_text": "Das sind die Feste des Herrn, Tage heiliger Versammlungen, die ihr zur festgesetzten Zeit ausrufen sollt: Im ersten Monat, am vierzehnten Tag des Monats, zur Abenddämmerung, ist Pascha zur Ehre des Herrn. Am fünfzehnten Tag dieses Monats ist das Fest der Ungesäuerten Brote zur Ehre des Herrn. Sieben Tage sollt ihr ungesäuertes Brot essen. Am ersten Tag habt ihr heilige Versammlung; ihr dürft keine schwere Arbeit verrichten.",
           "les_text_neu": "",
           "antev": "Lazarus, unser Freund, schläft; aber ich gehe hin, um ihn aufzuwecken.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
+          "ant1_lat": "Factus es adiútor meus, Deus meus.",
+          "ant2_lat": "Erue nos in mirabílibus tuis, et salvos nos fac de manu mortis.",
+          "ant3_lat": "Venit hora ut clarificétur Fílius hóminis.",
+          "anta_lat": "Ego sum resurréctio et vita. Qui credit in me, etsi mórtuus fúerit, vivet; et omnis qui vivit et credit in me, non moriétur in ætérnum.",
+          "antb_lat": "Si quis mihi minístrat, me sequátur, et ubi sum ego, illic et miníster meus erit.",
           "antev_lat": "",
-          "les_text_lat": ""
+          "les_text_lat": "Hæ sunt ergo fériæ Dómini, convéntus sancti, quas celebráre debétis tempóribus suis. Mense primo, quarta décima die mensis ad vésperum Pascha Dómini est. Et quinta décima die mensis huius sollémnitas Azymórum Dómini est. Septem diébus ázyma comedétis. Die primo erit vobis convéntus sanctus; omne opus servíle non faciétis in eo."
         },
         "Terz": {
           "les_buch": "›2°Kor",
           "les_stelle": "4,10–11",
           "les_text": "Immer tragen wir das Todesleiden Jesu an unserem Leib, damit auch das Leben Jesu an unserem Leib sichtbar wird. Denn immer werden wir, obgleich wir leben, um Jesu willen dem Tod ausgeliefert, damit auch das Leben Jesu an unserem sterblichen Fleisch offenbar wird.",
           "les_text_neu": "",
-          "les_text_lat": ""
+          "les_text_lat": "Semper mortificatiónem Iesu in córpore circumférimus ut et vita Iesu in córpore nostro manifestétur. Semper enim nos, qui vívimus, in mortem trádimur propter Iesum, ut et vita Iesu manifestétur in carne nostra mortáli."
         },
         "Sext": {
           "les_buch": "›1°Petr",
           "les_stelle": "4,13–14",
           "les_text": "Freut euch, dass ihr Anteil an den Leiden Christi habt; denn so könnt ihr auch bei der Offenbarung seiner Herrlichkeit voll Freude jubeln. Wenn ihr wegen des Namens Christi beschimpft werdet, seid ihr seligzupreisen; denn der Geist der Herrlichkeit, der Geist Gottes, ruht auf euch.",
           "les_text_neu": "",
-          "les_text_lat": ""
+          "les_text_lat": "Sed, quemádmodum communicátis Christi passiónibus, gaudéte, ut et in revelatióne glóriæ eius gaudeátis exsultántes. Si exprobrámini in nómine Christi, beáti, quóniam Spíritus glóriæ et Dei super vos requiéscit."
         },
         "Non": {
           "les_buch": "›1°Petr",
           "les_stelle": "5,10–11",
           "les_text": "Der Gott aller Gnade, der euch in (der Gemeinschaft mit) Christus zu seiner ewigen Herrlichkeit berufen hat, wird euch, die ihr kurze Zeit leiden müsst, wieder aufrichten, stärken, kräftigen und auf festen Grund stellen. Sein ist die Macht in Ewigkeit. Amen.",
           "les_text_neu": "Der Gott aller Gnade, der euch in Christus zu seiner ewigen Herrlichkeit berufen hat, wird euch, die ihr kurze Zeit leiden müsst, wieder aufrichten, stärken, kräftigen und auf festen Grund stellen. Sein ist die Macht in Ewigkeit. Amen.",
-          "les_text_lat": ""
+          "les_text_lat": "Deus omnis grátiæ, qui vocávit vos in ætérnam suam glóriam in Christo Iesu, módicum passos ipse perfíciet, confirmábit, solidábit, fundábit. Ipsi impérium in sǽcula sæculórum. Amen."
         },
         "Vesper": {
           "ant1": "Wie Mose die Schlange in der Wüste erhöht hat, so muss der Menschensohn erhöht werden, damit jeder, der glaubt, in ihm das ewige Leben habe.",
@@ -15095,11 +15100,13 @@ export const brevierData = {
           "les_text": "Uns wurde das Wort des Heils gesandt. Denn die Einwohner von Jerusalem und ihre Führer haben Jesus nicht erkannt; aber sie haben die Worte der Propheten, die an jedem Sabbat vorgelesen werden, erfüllt und haben ihn verurteilt. Obwohl sie nichts fanden, wofür er den Tod verdient hätte, forderten sie von Pilatus seine Hinrichtung. Als sie alles vollbracht hatten, was in der Schrift über ihn gesagt ist, nahmen sie ihn vom Kreuzesholz und legten ihn ins Grab. Gott aber hat ihn von den Toten auferweckt.",
           "les_text_neu": "",
           "antev": "Wenn ich von der Erde erhöht bin, werde ich alle an mich ziehen.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": "",
+          "ant1_lat": "Sicut exaltátus est serpens in erémo, ita exaltári opórtet Fílium hóminis.",
+          "ant2_lat": "Dóminus exercítuum, prótegens et líberans, tránsiens et salvans.",
+          "ant3_lat": "Ipse vulnerátus est propter iniquitátes nostras, attrítus est propter scélera nostra, et livóre eius sanáti sumus.",
+          "anta_lat": "Ego crédidi quia tu es Christus Fílius Dei, qui in mundum venísti.",
+          "antb_lat": "Ego, si exaltátus fúero a terra, ómnia traham ad meípsum.",
           "antev_lat": "",
-          "les_text_lat": ""
+          "les_text_lat": "Viri fratres, nobis verbum salútis huius missum est. Qui habitábant Ierúsalem et príncipes eórum, Iesum ignorántes et voces Prophetárum, quæ per omne sábbatum legúntur, iudicántes implevérunt, et nullam causam mortis inveniéntes petiérunt a Piláto, ut interficerétur; cumque consummássent ómnia, quæ de eo scripta erant, deponéntes eum de ligno posuérunt in monuménto. Deus vero suscitávit eum a mórtuis."
         },
         "Lesehore": {
           "versikel0_lat": "Si quis sermónem meum serváverit.",
@@ -15117,29 +15124,29 @@ export const brevierData = {
           "les_text": "Ich war wie ein zutrauliches Lamm, das zum Schlachten geführt wird, und ahnte nicht, dass sie gegen mich Böses planten: Wir wollen den Baum im Saft verderben; wir wollen ihn ausrotten aus dem Land der Lebenden, so dass man seinen Namen nicht mehr erwähnt. Aber der Herr der Heere richtet gerecht, er prüft Herz und Nieren. Ich werde deine Rache an ihnen sehen; denn dir habe ich meine Sache anvertraut.",
           "les_text_neu": "Ich aber war wie ein zutrauliches Lamm, das zum Schlachten geführt wird, und ahnte nicht, dass sie gegen mich Böses planten: Wir wollen den Baum im Saft verderben; wir wollen ihn ausrotten aus dem Land der Lebenden, sodass seines Namens nicht mehr gedacht wird. Aber der HERR der Heerscharen richtet gerecht, er prüft Nieren und Herz. Ich werde deine Vergeltung an ihnen sehen, denn dir habe ich meine Sache anvertraut.",
           "antev": "Ich bin das Licht der Welt. Wer mir nachfolgt, wandelt nicht in Finsternis, sondern hat das Licht des Lebens.",
-          "antev_lat": "",
-          "les_text_lat": ""
+          "antev_lat": "Qui séquitur me, non ámbulat in ténebris, sed habébit lumen vitæ, dicit Dóminus.",
+          "les_text_lat": "Ego quasi agnus mansuétus, qui portátur ad víctimam; et non cognóvi quia super me cogitavérunt consília: « Cædámus lignum in vigóre eius et eradámus eum de terra vivéntium, et nomen eius non memorétur ámplius ». Tu autem, Dómine exercítuum, qui iúdicas iuste et probas renes et corda: vídeam ultiónem tuam ex eis; tibi enim revelávi causam meam."
         },
         "Terz": {
           "les_buch": "›Ez",
           "les_stelle": "33,10b.11b",
           "les_text": "Unsere Vergehen und unsere Sünden lasten auf uns, wir siechen ihretwegen dahin. Wie sollen wir da am Leben bleiben? So wahr ich lebe – Spruch Gottes des Herrn –, ich habe kein Gefallen am Tod des Schuldigen, sondern daran, dass er auf seinem Weg umkehrt und am Leben bleibt.",
           "les_text_neu": "Fürwahr, unsere Vergehen und unsere Sünden lasten auf uns, in ihnen siechen wir dahin. Wie sollen wir da am Leben bleiben? So wahr ich lebe – Spruch GOTTES, des Herrn –, ich habe kein Gefallen am Tod des Schuldigen, sondern daran, dass ein Schuldiger sich abkehrt von seinem Weg und am Leben bleibt.",
-          "les_text_lat": ""
+          "les_text_lat": "Iniquitátes nostræ et peccáta nostra super nos sunt, et in ipsis nos tabéscimus; quómodo ergo vívere potérimus? Vivo ego, dicit Dóminus Deus; nolo mortem ímpii, sed ut revertátur ímpius a via sua et vivat."
         },
         "Sext": {
           "les_buch": "›Jer",
           "les_stelle": "18,20b",
           "les_text": "Denk daran, wie ich vor dir stand, um zu ihren Gunsten zu sprechen und deinen Zorn von ihnen abzuwenden!",
           "les_text_neu": "Gedenke, dass ich vor dir stand, um Gutes über sie zu reden und deinen Zorn von ihnen abzuwenden!",
-          "les_text_lat": ""
+          "les_text_lat": "Recordáre quod stéterim in conspéctu tuo, ut lóquerer pro eis bonum et avérterem indignatiónem tuam ab eis."
         },
         "Non": {
           "les_buch": "›Jer",
           "les_stelle": "31,2.3b.4a",
           "les_text": "So spricht der Herr: Gnade fand in der Wüste das Volk, das vom Schwert verschont blieb; Israel zieht zum Ort seiner Ruhe. Mit ewiger Liebe habe ich dich geliebt, darum habe ich dir so lange die Treue bewahrt. Ich baue dich wieder auf, du sollst neu gebaut werden, Jungfrau Israel.",
           "les_text_neu": "So spricht der HERR: Gnade fand in der Wüste das Volk, das dem Schwert entronnen ist; ich gehe mit, um Israel zur Ruhe zu führen. Mit ewiger Liebe habe ich dich geliebt, darum habe ich dir die Treue bewahrt. Ich baue dich wieder auf, du wirst aufgebaut sein, Jungfrau Israel.",
-          "les_text_lat": ""
+          "les_text_lat": "Hæc dicit Dóminus: Invénit grátiam in desérto pópulus, qui remánserat a gládio; vadet ad réquiem suam Israel. In caritáte perpétua diléxi te; ídeo attráxi te in misericórdia. Rursúmque ædificábo te, et ædificáberis, virgo Israel."
         },
         "Vesper": {
           "les_buch": "›Röm",
@@ -15147,8 +15154,8 @@ export const brevierData = {
           "les_text": "Gott hat seine Liebe zu uns darin erwiesen, dass Christus für uns gestorben ist, als wir noch Sünder waren. Nachdem wir jetzt durch sein Blut gerecht gemacht sind, werden wir durch ihn erst recht vor dem Zorn Gottes gerettet werden.",
           "les_text_neu": "Gott erweist seine Liebe zu uns darin, dass Christus für uns gestorben ist, als wir noch Sünder waren. Nachdem wir jetzt durch sein Blut gerecht gemacht sind, werden wir durch ihn erst recht vor dem Zorn gerettet werden.",
           "antev": "Ich selber lege Zeugnis für mich ab, und auch der Vater, der mich gesandt hat, ist mein Zeuge.",
-          "antev_lat": "",
-          "les_text_lat": ""
+          "antev_lat": "Ego sum qui testimónium perhíbeo de meípso, dicit Dóminus; et testimónium pérhibet de me, qui misit me, Pater.",
+          "les_text_lat": "Comméndat suam caritátem Deus in nos, quóniam, cum adhuc peccatóres essémus, Christus pro nobis mórtuus est. Multo ígitur magis iustificáti nunc in sánguine ipsíus, salvi érimus ab ira per ipsum!"
         }
       },
       "2": {
@@ -15162,29 +15169,29 @@ export const brevierData = {
           "les_text": "Über das Haus David und über die Einwohner Jerusalems werde ich den Geist des Mitleids und des Gebets ausgießen. Und sie werden auf den blicken, den sie durchbohrt haben. Sie werden um ihn klagen, wie man um den einzigen Sohn klagt; sie werden bitter um ihn weinen, wie man um den Erstgeborenen weint. An jenem Tag wird die Totenklage sein in Jerusalem.",
           "les_text_neu": "Doch über das Haus David und über die Einwohner Jerusalems werde ich einen Geist des Mitleids und des flehentlichen Bittens ausgießen. Und sie werden auf mich blicken, auf ihn, den sie durchbohrt haben. Sie werden um ihn klagen, wie bei der Klage um den Einzigen; sie werden bitter um ihn weinen, wie man um den Erstgeborenen weint. An jenem Tag wird die Klage in Jerusalem groß sein.",
           "antev": "Wenn ihr den Menschensohn erhöht habt, dann werdet ihr erkennen, dass ich mit Recht sage: Ich bin es.",
-          "antev_lat": "",
-          "les_text_lat": ""
+          "antev_lat": "Cum exaltavéritis Fílium hóminis, tunc cognoscétis quia ego sum, dicit Dóminus.",
+          "les_text_lat": "Effúndam super domum David et super habitatóres Ierúsalem spíritum grátiæ et precum; et aspícient ad me. Quem confixérunt, plangent quasi planctu super unigénitum et dolébunt super eum, ut doléri solet super primogénitum. In die illa magnus erit planctus in Ierúsalem."
         },
         "Terz": {
           "les_buch": "›1°Kor",
           "les_stelle": "1,18–19",
           "les_text": "Das Wort vom Kreuz ist denen, die verloren gehen, Torheit; uns aber, die gerettet werden, ist es Gottes Kraft. Es heißt nämlich in der Schrift: Ich lasse die Weisheit der Weisen vergehen und die Klugheit der Klugen verschwinden.",
           "les_text_neu": "Denn das Wort vom Kreuz ist denen, die verloren gehen, Torheit; uns aber, die gerettet werden, ist es Gottes Kraft. In der Schrift steht nämlich: Ich werde die Weisheit der Weisen vernichten und die Klugheit der Klugen verwerfen.",
-          "les_text_lat": ""
+          "les_text_lat": "Verbum crucis pereúntibus quidem stultítia est, his autem, qui salvi fiunt, virtus Dei est. Scriptum est enim: Perdam sapiéntiam sapiéntium et prudéntiam prudéntium reprobábo."
         },
         "Sext": {
           "les_buch": "›1°Kor",
           "les_stelle": "1,22–24",
           "les_text": "Die Juden fordern Zeichen, die Griechen suchen Weisheit. Wir dagegen verkündigen Christus als den Gekreuzigten: für Juden ein empörendes Ärgernis, für Heiden eine Torheit, für die Berufenen aber, Juden wie Griechen, Christus, Gottes Kraft und Gottes Weisheit.",
           "les_text_neu": "Die Juden fordern Zeichen, die Griechen suchen Weisheit. Wir dagegen verkünden Christus als den Gekreuzigten: für Juden ein Ärgernis, für Heiden eine Torheit, für die Berufenen aber, Juden wie Griechen, Christus, Gottes Kraft und Gottes Weisheit.",
-          "les_text_lat": ""
+          "les_text_lat": "Iudǽi signa petunt, et Græci sapiéntiam quærunt, nos autem prædicámus Christum crucifíxum, Iudǽis quidem scándalum, géntibus autem stultítiam; ipsis autem vocátis, Iudǽis atque Græcis, Christum Dei virtútem et Dei sapiéntiam."
         },
         "Non": {
           "les_buch": "›1°Kor",
           "les_stelle": "1,25.27a",
           "les_text": "Das Törichte an Gott ist weiser als die Menschen, und das Schwache an Gott ist stärker als die Menschen. Das Törichte in der Welt hat Gott erwählt, um die Weisen zuschanden zu machen.",
           "les_text_neu": "Denn das Törichte an Gott ist weiser als die Menschen, und das Schwache an Gott ist stärker als die Menschen. Das Törichte in der Welt hat Gott erwählt, um die Weisen zuschanden zu machen.",
-          "les_text_lat": ""
+          "les_text_lat": "Quod stultum est Dei, sapiéntius est homínibus, et quod infírmum est Dei, fórtius est homínibus. Quæ stulta sunt mundi, elégit Deus, ut confúndat sapiéntes."
         },
         "Vesper": {
           "les_buch": "›1°Kor",
@@ -15192,8 +15199,8 @@ export const brevierData = {
           "les_text": "Das Schwache in der Welt hat Gott erwählt, um das Starke zuschanden zu machen. Und das Niedrige in der Welt und das Verachtete hat Gott erwählt: das, was nichts ist, um das, was etwas ist, zu vernichten, damit kein Mensch sich rühmen kann vor Gott. Von ihm her seid ihr in Christus Jesus, den Gott für uns zur Weisheit gemacht hat, zur Gerechtigkeit, Heiligung und Erlösung.",
           "les_text_neu": "",
           "antev": "Er, der mich gesandt hat, ist bei mir; er lässt mich nicht allein, weil ich immer tue, was ihm gefällt.",
-          "antev_lat": "",
-          "les_text_lat": ""
+          "antev_lat": "Qui me misit, mecum est, et non relíquit me solum; quia quæ plácita sunt ei fácio semper.",
+          "les_text_lat": "Infírma mundi elégit Deus, ut confúndat fórtia, et ignobília mundi et contemptibília elégit Deus, quæ non sunt, ut ea, quæ sunt, destrúeret, ut non gloriétur omnis caro in conspéctu Dei. Ex ipso autem vos estis in Christo Iesu, qui factus est sapiéntia nobis a Deo et iustítia et sanctificátio et redémptio."
         }
       },
       "3": {
@@ -15207,29 +15214,29 @@ export const brevierData = {
           "les_text": "Gott, der Herr, hat mir das Ohr geöffnet. Ich aber wehrte mich nicht und wich nicht zurück. Ich hielt meinen Rücken denen hin, die mich schlugen, und denen, die mir den Bart ausrissen, meine Wangen. Mein Gesicht verbarg ich nicht vor Schmähungen und Speichel. Doch Gott, der Herr, wird mir helfen; darum werde ich nicht in Schande enden. Deshalb mache ich mein Gesicht hart wie einen Kiesel; ich weiß, dass ich nicht in Schande gerate.",
           "les_text_neu": "GOTT, der Herr, hat mir das Ohr geöffnet. Ich aber wehrte mich nicht und wich nicht zurück. Ich hielt meinen Rücken denen hin, die mich schlugen, und meine Wangen denen, die mir den Bart ausrissen. Mein Gesicht verbarg ich nicht vor Schmähungen und Speichel. Und GOTT, der Herr, wird mir helfen; darum werde ich nicht in Schande enden. Deshalb mache ich mein Gesicht hart wie einen Kiesel; ich weiß, dass ich nicht in Schande gerate.",
           "antev": "Wenn ihr in meinem Wort bleibt, seid ihr meine Jünger. Ihr werdet die Wahrheit erkennen, und die Wahrheit wird euch befreien.",
-          "antev_lat": "",
-          "les_text_lat": ""
+          "antev_lat": " Si vos manséritis in sermóne meo, vere discípuli mei éritis, dicit Dóminus, et cognoscétis veritátem, et véritas liberábit vos.",
+          "les_text_lat": "Dóminus Deus apéruit mihi aurem; ego autem non rebellávi, retrórsum non ábii. Dorsum meum dedi percutiéntibus et genas meas velléntibus: fáciem meam non avérti ab increpatiónibus et sputis. Dóminus Deus auxiliátor meus; ídeo non sum confúsus, ídeo pósui fáciem meam ut petram duríssimam, et scio quóniam non confúndar."
         },
         "Terz": {
           "les_buch": "›1°Tim",
           "les_stelle": "2,4–6",
           "les_text": "Gott will, dass alle Menschen gerettet werden und zur Erkenntnis der Wahrheit gelangen. Denn: Einer ist Gott. Einer auch Mittler zwischen Gott und den Menschen: der Mensch Christus Jesus, der sich als Lösegeld hingegeben hat für alle, ein Zeugnis zur vorherbestimmten Zeit.",
           "les_text_neu": "",
-          "les_text_lat": ""
+          "les_text_lat": "Deus salvátor noster omnes hómines vult salvos fíeri et ad agnitiónem veritátis veníre. Unus enim Deus, unus et mediátor Dei et hóminum, homo Christus Iesus, qui dedit redemptiónem semetípsum pro ómnibus, testimónium tempóribus suis."
         },
         "Sext": {
           "les_buch": "›Röm",
           "les_stelle": "15,3",
           "les_text": "Christus hat nicht für sich selbst gelebt; in der Schrift heißt es vielmehr: Die Schmähungen derer, die dich schmähen, haben mich getroffen.",
           "les_text_neu": "Christus hat nicht sich selbst zu Gefallen gelebt; vielmehr steht geschrieben: Die Schmähungen derer, die dich schmähen, sind auf mich gefallen.",
-          "les_text_lat": ""
+          "les_text_lat": "Christus non sibi plácuit, sed sicut scriptum est: Impropéria improperántium tibi cecidérunt super me."
         },
         "Non": {
           "les_buch": "›Hebr",
           "les_stelle": "9,28",
           "les_text": "Christus wurde ein einziges Mal geopfert, um die Sünden vieler hinwegzunehmen; beim zweitenmal wird er nicht wegen der Sünde erscheinen, sondern um die zu retten, die ihn erwarten.",
           "les_text_neu": "",
-          "les_text_lat": ""
+          "les_text_lat": "Christus, semel oblátus ad multórum auferénda peccáta, secúndo sine peccáto apparébit exspectántibus se in salútem."
         },
         "Vesper": {
           "les_buch": "›Eph",
@@ -15237,8 +15244,8 @@ export const brevierData = {
           "les_text": "Seid gütig zueinander, seid barmherzig, vergebt einander, weil auch Gott euch durch Christus vergeben hat. Ahmt Gott nach als seine geliebten Kinder und liebt einander, weil auch Christus uns geliebt und sich für uns hingegeben hat als Gabe und Opfer, das Gott gefällt.",
           "les_text_neu": "Seid gütig zueinander, seid barmherzig, vergebt einander, wie auch Gott euch in Christus vergeben hat. Ahmt Gott nach als seine geliebten Kinder und führt euer Leben in Liebe, wie auch Christus uns geliebt und sich für uns hingegeben hat als Gabe und Opfer, das Gott gefällt!",
           "antev": "Ihr wollt mich töten, weil ich euch die Wahrheit verkünde, die Wahrheit, die ich von Gott gehört habe.",
-          "antev_lat": "",
-          "les_text_lat": ""
+          "antev_lat": "Quid me quǽritis interfícere, hóminem qui vera locútus sum vobis?",
+          "les_text_lat": "Estóte ínvicem benígni, misericórdes, donántes ínvicem, sicut et Deus in Christo donávit vobis. Estóte ergo imitatóres Dei sicut fílii caríssimi et ambuláte in dilectióne, sicut et Christus diléxit nos et trádidit seípsum pro nobis oblatiónem et hóstiam Deo in odórem suavitátis."
         }
       },
       "4": {
@@ -15252,29 +15259,29 @@ export const brevierData = {
           "les_text": "Wir sehen Jesus um seines Todesleidens willen mit Herrlichkeit und Ehre gekrönt; so war es Gottes gnädiger Wille, dass er für alle den Tod erlitten hat. Denn es war angemessen, dass Gott, für den und durch den das All ist und der viele Söhne zur Herrlichkeit führen wollte, den Urheber ihres Heils durch Leiden vollendete.",
           "les_text_neu": "",
           "antev": "Jesus sagte zu den Scharen der Juden und zu den Hohenpriestern: Ihr hört nicht, weil ihr nicht aus Gott seid. Wer aus Gott ist, hört die Worte Gottes.",
-          "antev_lat": "",
-          "les_text_lat": ""
+          "antev_lat": "Dicébat Iesus turbis Iudæórum, et princípibus sacerdótum: Qui ex Deo est, verba Dei audit; proptérea vos non audítis, quia ex Deo non estis.",
+          "les_text_lat": "Vidémus Iesum propter passiónem mortis glória et honóre coronátum, ut grátia Dei pro ómnibus gustáverit mortem. Decébat enim eum, propter quem ómnia et per quem ómnia, qui multos fílios in glóriam addúxit, auctórem salútis eórum per passiónes consummáre."
         },
         "Terz": {
           "les_buch": "›Hebr",
           "les_stelle": "4,14–15",
           "les_text": "Da wir einen erhabenen Hohenpriester haben, der die Himmel durchschritten hat, Jesus, den Sohn Gottes, lasst uns an dem Bekenntnis festhalten. Wir haben ja nicht einen Hohenpriester, der nicht mitfühlen könnte mit unserer Schwäche, sondern einen, der in allem wie wir in Versuchung geführt worden ist, aber nicht gesündigt hat.",
           "les_text_neu": "Da wir einen erhabenen Hohepriester haben, der die Himmel durchschritten hat, Jesus, den Sohn Gottes, lasst uns an dem Bekenntnis festhalten. Wir haben ja nicht einen Hohepriester, der nicht mitfühlen könnte mit unserer Schwäche, sondern einen, der in allem wie wir versucht worden ist, aber nicht gesündigt hat.",
-          "les_text_lat": ""
+          "les_text_lat": "Habéntes pontíficem magnum, qui penetrávit cælos, Iesum Fílium Dei, teneámus confessiónem; non enim habémus pontíficem, qui non possit cómpati infirmitátibus nostris, tentátum autem per ómnia secúndum similitúdinem absque peccáto."
         },
         "Sext": {
           "les_buch": "›Hebr",
           "les_stelle": "7,26–27",
           "les_text": "Ein solcher Hoherpriester war für uns in der Tat notwendig: einer, der heilig ist, unschuldig, makellos, abgesondert von den Sündern und erhöht über die Himmel; einer, der es nicht Tag für Tag nötig hat, wie die Hohenpriester zuerst für die eigenen Sünden Opfer darzubringen und dann für die des Volkes; denn das hat er ein für allemal getan, als er sich selbst dargebracht hat.",
           "les_text_neu": "Ein solcher Hohepriester ziemte sich in der Tat für uns: einer, der heilig ist, frei vom Bösen, makellos, abgesondert von den Sündern und erhöht über die Himmel; einer, der es nicht Tag für Tag nötig hat, wie die Hohepriester zuerst für die eigenen Sünden Opfer darzubringen und dann für die des Volkes; denn das hat er ein für alle Mal getan, als er sich selbst dargebracht hat.",
-          "les_text_lat": ""
+          "les_text_lat": "Talis decébat, ut nobis esset póntifex, sanctus, ínnocens, impollútus, segregátus a peccatóribus et excélsior cælis factus, qui non habet necessitátem cotídie, quemádmodum pontífices, prius pro suis delíctis hóstias offérre, deínde pro pópuli; hoc enim fecit semel semetípsum offeréndo Iesus Christus Dóminus noster."
         },
         "Non": {
           "les_buch": "›Hebr",
           "les_stelle": "9,11–12",
           "les_text": "Christus ist gekommen als Hoherpriester der künftigen Güter; und durch das erhabenere und vollkommenere Zelt, das nicht von Menschenhand gemacht, das heißt nicht von dieser Welt ist, ist er ein für allemal in das Heiligtum hineingegangen, nicht mit dem Blut von Böcken und jungen Stieren, sondern mit seinem eigenen Blut, und so hat er eine ewige Erlösung bewirkt.",
           "les_text_neu": "",
-          "les_text_lat": ""
+          "les_text_lat": "Christus cum advénit póntifex futurórum bonórum, per ámplius et perféctius tabernáculum, non manufáctum, id est non huius creatiónis, neque per sánguinem hircórum et vitulórum sed per próprium sánguinem introívit semel in Sancta, ætérna redemptióne invénta."
         },
         "Vesper": {
           "les_buch": "›Hebr",
@@ -15282,8 +15289,8 @@ export const brevierData = {
           "les_text": "Jesus hat, um durch sein eigenes Blut das Volk zu heiligen, außerhalb des Tores gelitten. Lasst uns also zu ihm vor das Lager hinausziehen und seine Schmach auf uns nehmen. Denn wir haben hier keine Stadt, die bestehen bleibt, sondern wir suchen die künftige. Durch ihn also lasst uns Gott allezeit das Opfer des Lobes darbringen, nämlich die Frucht der Lippen, die seinen Namen preisen.",
           "les_text_neu": "Jesus hat, um durch sein eigenes Blut das Volk zu heiligen, außerhalb des Tores gelitten. Lasst uns also zu ihm vor das Lager hinausziehen und seine Schmach tragen. Denn wir haben hier keine bleibende Stadt, sondern wir suchen die zukünftige. Durch ihn also lasst uns Gott allezeit das Opfer des Lobes darbringen, nämlich die Frucht der Lippen, die seinen Namen bekennen.",
           "antev": "Du bist noch keine fünfzig Jahre alt und willst Abraham gesehen haben? Amen, amen, ich sage euch: Ehe Abraham wurde, bin ich.",
-          "antev_lat": "",
-          "les_text_lat": ""
+          "antev_lat": "Quinquagínta annos nondum habes et Abraham vidísti? Amen dico vobis, ántequam Abraham fíeret, ego sum.",
+          "les_text_lat": "Iesus, ut sanctificáret per suum sánguinem pópulum, extra portam passus est. Exeámus ígitur ad eum extra castra, impropérium eius portántes; non enim habémus hic manéntem civitátem, sed futúram inquírimus. Per ipsum ergo offerámus hóstiam laudis semper Deo, id est fructum labiórum confiténtium nómini eius."
         }
       },
       "5": {
@@ -15297,29 +15304,29 @@ export const brevierData = {
           "les_text": "Seht, mein Knecht hat Erfolg, er wird groß sein und hoch erhaben. Viele haben sich über ihn entsetzt, so entstellt sah er aus, nicht mehr wie ein Mensch, seine Gestalt war nicht mehr die eines Menschen. Jetzt aber setzt er viele Völker in Staunen, Könige müssen vor ihm verstummen. Denn was man ihnen noch nie erzählt hat, das sehen sie nun; was sie niemals hörten, das erfahren sie jetzt.",
           "les_text_neu": "Siehe, mein Knecht wird Erfolg haben, er wird sich erheben und erhaben und sehr hoch sein.Wie sich viele über dich entsetzt haben – so entstellt sah er aus, nicht mehr wie ein Mensch, seine Gestalt war nicht mehr die eines Menschen –, so wird er viele Nationen entsühnen, Könige schließen vor ihm ihren Mund. Denn was man ihnen noch nie erzählt hat, das sehen sie nun; was sie niemals hörten, das erfahren sie jetzt.",
           "antev": "Viele gute Werke habe ich vor euren Augen getan. Für welches wollt ihr mich töten?",
-          "antev_lat": "",
-          "les_text_lat": ""
+          "antev_lat": "Multa bona ópera operátus sum vobis, dicit Dóminus; propter quod opus vultis me occídere?",
+          "les_text_lat": "Ecce próspere aget servus meus; exaltábitur et elevábitur et sublímis erit valde. Sicut obstupuérunt super eum multi, sic defórmis erat, quasi non esset hóminis spécies eius, filiórum hóminis aspéctus eius, sic dispérget gentes multas. Super ipsum continébunt reges os suum, quia, quæ non sunt narráta eis, vidérunt et, quæ non audiérunt, contempláti sunt."
         },
         "Terz": {
           "les_buch": "›Jes",
           "les_stelle": "53,2–3",
           "les_text": "Vor den Augen des HERRN wuchs er auf wie ein junger Spross, wie ein Wurzeltrieb aus trockenem Boden. Er hatte keine schöne und edle Gestalt, so dass wir ihn anschauen mochten. Er sah nicht so aus, dass wir Gefallen fanden an ihm. Er wurde verachtet und von den Menschen gemieden, ein Mann voller Schmerzen, mit Krankheit vertraut. Wie einer, vor dem man das Gesicht verhüllt, war er verachtet; wir schätzten ihn nicht.",
           "les_text_neu": "",
-          "les_text_lat": ""
+          "les_text_lat": "Ascéndit sicut virgúltum coram eo et sicut radix de terra sitiénti. Non erat spécies ei neque decor, ut aspicerémus eum, et non erat aspéctus, ut desiderarémus eum. Despéctus erat et novíssimus virórum, vir dolórum et sciens infirmitátem, et quasi abscondebámus vultum coram eo; despéctus, unde nec reputabámus eum."
         },
         "Sext": {
           "les_buch": "›Jes",
           "les_stelle": "53,4–5",
           "les_text": "Er hat unsere Krankheiten getragen und unsere Schmerzen auf sich geladen. Wir meinten, er sei von Gott geschlagen, von ihm getroffen und gebeugt. Doch er wurde durchbohrt wegen unserer Verbrechen, wegen unserer Sünden zermalmt. Zu unserem Heil lag die Strafe auf ihm, durch seine Wunden sind wir geheilt.",
           "les_text_neu": "Er hat unsere Krankheiten getragen und unsere Schmerzen auf sich geladen. Wir meinten, er sei von Gott geschlagen, von ihm getroffen und gebeugt. Doch er wurde durchbohrt wegen unserer Vergehen, wegen unserer Sünden zermalmt. Zu unserem Heil lag die Züchtigung auf ihm, durch seine Wunden sind wir geheilt.",
-          "les_text_lat": ""
+          "les_text_lat": "Vere languóres nostros ipse tulit et dolóres nostros ipse portávit; et nos putávimus eum quasi plagátum, percússum a Deo et humiliátum. Ipse autem vulnerátus est propter iniquitátes nostras, attrítus est propter scélera nostra; disciplína pacis nostræ super eum, et livóre eius sanáti sumus."
         },
         "Non": {
           "les_buch": "›Jes",
           "les_stelle": "53,6–7",
           "les_text": "Wir hatten uns alle verirrt wie Schafe, jeder ging für sich seinen Weg. Doch der Herr lud auf ihn die Schuld von uns allen. Er wurde misshandelt und niedergedrückt, aber er tat seinen Mund nicht auf. Wie ein Lamm, das man zum Schlachten führt, und wie ein Schaf angesichts seiner Scherer, so tat auch er seinen Mund nicht auf.",
           "les_text_neu": "Wir hatten uns alle verirrt wie Schafe, jeder ging für sich seinen Weg. Doch der HERR ließ auf ihn treffen die Schuld von uns allen. Er wurde bedrängt und misshandelt, aber er tat seinen Mund nicht auf. Wie ein Lamm, das man zum Schlachten führt, und wie ein Schaf vor seinen Scherern verstummt, so tat auch er seinen Mund nicht auf.",
-          "les_text_lat": ""
+          "les_text_lat": "Omnes nos quasi oves errávimus, unusquísque in viam suam declinávit; et pósuit Dóminus in eo iniquitátem ómnium nostrum. Afflíctus est et ipse subiécit se et non apéruit os suum; sicut agnus, qui ad occisiónem dúcitur, et quasi ovis, quæ coram tondéntibus se obmútuit et non apéruit os suum."
         },
         "Vesper": {
           "les_buch": "›1°Petr",
@@ -15327,8 +15334,8 @@ export const brevierData = {
           "les_text": "Christus hat für euch gelitten und euch ein Beispiel gegeben, damit ihr seinen Spuren folgt. Er hat keine Sünde begangen, und kein trügerisches Wort war in seinem Mund. Er wurde geschmäht, schmähte aber nicht; er litt, drohte aber nicht, sondern überließ seine Sache dem gerechten Richter. Er hat unsere Sünden mit seinem Leib auf das Holz des Kreuzes hinaufgetragen, damit wir tot seien für die Sünden und für die Gerechtigkeit leben. Durch seine Wunden seid ihr geheilt.^RESP",
           "les_text_neu": "Christus hat für euch gelitten und euch ein Beispiel gegeben, damit ihr seinen Spuren folgt. Er hat keine Sünde begangen und in seinem Mund war keine Falschheit. Als er geschmäht wurde, schmähte er nicht; als er litt, drohte er nicht, sondern überließ seine Sache dem gerechten Richter. Er hat unsere Sünden mit seinem eigenen Leib auf das Holz des Kreuzes getragen, damit wir tot sind für die Sünden und leben für die Gerechtigkeit. Durch seine Wunden seid ihr geheilt.^RESP",
           "antev": "Wenn ihr mir nicht glaubt, dann glaubt doch den Werken, die ich im Namen meines Vaters tue.",
-          "antev_lat": "",
-          "les_text_lat": ""
+          "antev_lat": "Si mihi non créditis, opéribus crédite, quæ ego fácio in nómine Dei.",
+          "les_text_lat": "Christus passus est pro vobis vobis relínquens exémplum, ut sequámini vestígia eius: qui peccátum non fecit, nec invéntus est dolus in ore ipsíus; qui cum maledicerétur, non remaledicébat, cum paterétur, non comminabátur, commendábat autem iuste iudicánti; qui peccáta nostra ipse pértulit in córpore suo super lignum, ut peccátis mórtui iustítiæ viverémus; cuius livóre sanáti estis."
         }
       },
       "6": {
@@ -15342,29 +15349,29 @@ export const brevierData = {
           "les_text": "Ich sagte: Hier bin ich, hier bin ich! Den ganzen Tag streckte ich meine Hände aus nach einem abtrünnigen Volk, das einen Weg ging, der nicht gut war, nach seinen eigenen Plänen, nach einem Volk, das in seinem Trotz mich ständig ärgert.",
           "les_text_neu": "Ich sagte zu einer Nation, die mich nicht anrief: „Hier bin ich, hier bin ich!“ Den ganzen Tag streckte ich meine Hände aus nach einem abtrünnigen Volk, nach denen, die den Weg gehen, der nicht gut ist, hinter ihren eigenen Plänen her, nach dem Volk, das mich ständig ins Angesicht kränkt.",
           "antev": "Nicht nur für Israel ist Jesus gestorben, sondern auch um die Kinder Gottes aus allen Völkern zu sammeln.",
-          "antev_lat": "",
-          "les_text_lat": ""
+          "antev_lat": "Iesus mórtuus est, ut fílios Dei qui erant dispérsi congregáret in unum.",
+          "les_text_lat": "Dixi: «Ecce ego, ecce ego!» ad gentem, quæ non invocábat nomen meum. Expándi manus meas tota die ad pópulum rebéllem, qui gráditur in via non bona post cogitatiónes suas; pópulus, qui ad iracúndiam próvocat me ante fáciem meam semper."
         },
         "Terz": {
           "les_buch": "›1°Joh",
           "les_stelle": "1,8–9",
           "les_text": "Wenn wir sagen, dass wir keine Sünde haben, führen wir uns selbst in die Irre, und die Wahrheit ist nicht in uns. Wenn wir unsere Sünden bekennen, ist er treu und gerecht; er vergibt uns die Sünden und reinigt uns von allem Unrecht.",
           "les_text_neu": "",
-          "les_text_lat": ""
+          "les_text_lat": "Si dixérimus quóniam peccátum non habémus, nosmetípsos sedúcimus, et véritas in nobis non est. Si confiteámur peccáta nostra, fidélis est et iustus, ut remíttat nobis peccáta et emúndet nos ab omni iniustítia."
         },
         "Sext": {
           "les_buch": "›1°Joh",
           "les_stelle": "2,1b–2",
           "les_text": "Wir haben einen Beistand beim Vater: Jesus Christus, den Gerechten. Er ist die Sühne für unsere Sünden, aber nicht nur für unsere Sünden, sondern auch für die der ganzen Welt.",
           "les_text_neu": "",
-          "les_text_lat": ""
+          "les_text_lat": "Advocátum habémus ad Patrem, Iesum Christum iustum; et ipse est propitiátio pro peccátis nostris, non pro nostris autem tantum sed étiam pro totíus mundi."
         },
         "Non": {
           "les_buch": "›1°Joh",
           "les_stelle": "2,8b–10",
           "les_text": "Die Finsternis geht vorüber, und schon leuchtet das wahre Licht. Wer sagt, er sei im Licht, aber seinen Bruder hasst, ist noch in der Finsternis. Wer seinen Bruder liebt, bleibt im Licht; da gibt es für ihn kein Straucheln.",
           "les_text_neu": "Die Finsternis vergeht, und schon leuchtet das wahre Licht. Wer sagt, er sei im Licht, aber seinen Bruder hasst, ist noch in der Finsternis. Wer seinen Bruder liebt, bleibt im Licht und in ihm gibt es keinen Anstoß. ",
-          "les_text_lat": ""
+          "les_text_lat": "Ténebræ tránseunt, et lumen verum iam lucet. Qui dicit se in luce esse et fratrem suum odit, in ténebris est usque adhuc. Qui díligit fratrem suum, in lúmine manet, et scándalum ei non est."
         }
       },
       "each": {
@@ -15419,7 +15426,7 @@ export const brevierData = {
           "bitten_e_lat": "",
           "bitten_r_lat": "",
           "bitten_lat": "",
-          "les_text_lat": ""
+          "les_text_lat": "Scitóte quod non corruptibílibus argénto vel auro redémpti estis de vana vestra conversatióne a pátribus trádita, sed pretióso sánguine quasi Agni incontamináti et immaculáti Christi, præcógniti quidem ante constitutiónem mundi, manifestáti autem novíssimis tempóribus propter vos, qui per ipsum fidéles estis in Deum, qui suscitávit eum a mórtuis et dedit ei glóriam, ut fides vestra et spes esset in Deum."
         },
         "Vigil": {
           "ant0": "Jesus warf sich zu Boden und betete: Vater, wenn du willst, nimm diesen Kelch von mir. Doch nicht mein Wille geschehe, sondern der deine.",
@@ -15453,7 +15460,7 @@ export const brevierData = {
           "les_text": "Immer tragen wir das Todesleiden Jesu an unserem Leib, damit auch das Leben Jesu an unserem Leib sichtbar wird. Denn immer werden wir, obgleich wir leben, um Jesu willen dem Tod ausgeliefert, damit auch das Leben Jesu an unserem sterblichen Fleisch offenbar wird.",
           "les_text_neu": "",
           "hymn_1_lat": 4003.4,
-          "les_text_lat": ""
+          "les_text_lat": "Semper mortificatiónem Iesu in córpore circumférimus ut et vita Iesu in córpore nostro manifestétur. Semper enim nos, qui vívimus, in mortem trádimur propter Iesum, ut et vita Iesu manifestétur in carne nostra mortáli."
         },
         "Sext": {
           "les_buch": "›1°Petr",
@@ -15461,7 +15468,7 @@ export const brevierData = {
           "les_text": "Freut euch, dass ihr Anteil an den Leiden Christi habt; denn so könnt ihr auch bei der Offenbarung seiner Herrlichkeit voll Freude jubeln. Wenn ihr wegen des Namens Christi beschimpft werdet, seid ihr seligzupreisen; denn der Geist der Herrlichkeit, der Geist Gottes, ruht auf euch.",
           "les_text_neu": "",
           "hymn_1_lat": 4003.4,
-          "les_text_lat": ""
+          "les_text_lat": "Sed, quemádmodum communicátis Christi passiónibus, gaudéte, ut et in revelatióne glóriæ eius gaudeátis exsultántes. Si exprobrámini in nómine Christi, beáti, quóniam Spíritus glóriæ et Dei super vos requiéscit."
         },
         "Non": {
           "les_buch": "›1°Petr",
@@ -15469,7 +15476,7 @@ export const brevierData = {
           "les_text": "Der Gott aller Gnade, der euch in (der Gemeinschaft mit) Christus zu seiner ewigen Herrlichkeit berufen hat, wird euch, die ihr kurze Zeit leiden müsst, wieder aufrichten, stärken, kräftigen und auf festen Grund stellen. Sein ist die Macht in Ewigkeit. Amen.",
           "les_text_neu": "Der Gott aller Gnade, der euch in Christus zu seiner ewigen Herrlichkeit berufen hat, wird euch, die ihr kurze Zeit leiden müsst, wieder aufrichten, stärken, kräftigen und auf festen Grund stellen. Sein ist die Macht in Ewigkeit. Amen.",
           "hymn_1_lat": 4003.4,
-          "les_text_lat": ""
+          "les_text_lat": "Deus omnis grátiæ, qui vocávit vos in ætérnam suam glóriam in Christo Iesu, módicum passos ipse perfíciet, confirmábit, solidábit, fundábit. Ipsi impérium in sǽcula sæculórum. Amen."
         },
         "Vesper": {
           "ant1": "Er wurde zerschlagen und erniedrigt, aber Gott hat ihn erhöht zu seiner Rechten.",
@@ -15490,7 +15497,7 @@ export const brevierData = {
           "bitten_e_lat": "",
           "bitten_r_lat": "",
           "bitten_lat": "",
-          "les_text_lat": ""
+          "les_text_lat": "Viri fratres, nobis verbum salútis huius missum est. Qui habitábant Ierúsalem et príncipes eórum, Iesum ignorántes et voces Prophetárum, quæ per omne sábbatum legúntur, iudicántes implevérunt, et nullam causam mortis inveniéntes petiérunt a Piláto, ut interficerétur; cumque consummássent ómnia, quæ de eo scripta erant, deponéntes eum de ligno posuérunt in monuménto. Deus vero suscitávit eum a mórtuis."
         },
         "Lesehore": {
           "versikel0_lat": "Cum exaltátus fúero a terra.",
@@ -15515,28 +15522,28 @@ export const brevierData = {
           "ant2_lat": "",
           "ant3_lat": "",
           "antev_lat": "",
-          "les_text_lat": ""
+          "les_text_lat": "Ego quasi agnus mansuétus, qui portátur ad víctimam; et non cognóvi quia super me cogitavérunt consília: « Cædámus lignum in vigóre eius et eradámus eum de terra vivéntium, et nomen eius non memorétur ámplius ». Tu autem, Dómine exercítuum, qui iúdicas iuste et probas renes et corda: vídeam ultiónem tuam ex eis; tibi enim revelávi causam meam."
         },
         "Terz": {
           "les_buch": "›Ez",
           "les_stelle": "33,10b.11b",
           "les_text": "Unsere Vergehen und unsere Sünden lasten auf uns, wir siechen ihretwegen dahin. Wie sollen wir da am Leben bleiben? So wahr ich lebe – Spruch Gottes des Herrn –, ich habe kein Gefallen am Tod des Schuldigen, sondern daran, dass er auf seinem Weg umkehrt und am Leben bleibt.",
           "les_text_neu": "Fürwahr, unsere Vergehen und unsere Sünden lasten auf uns, in ihnen siechen wir dahin. Wie sollen wir da am Leben bleiben? So wahr ich lebe – Spruch GOTTES, des Herrn –, ich habe kein Gefallen am Tod des Schuldigen, sondern daran, dass ein Schuldiger sich abkehrt von seinem Weg und am Leben bleibt.",
-          "les_text_lat": ""
+          "les_text_lat": "Iniquitátes nostræ et peccáta nostra super nos sunt, et in ipsis nos tabéscimus; quómodo ergo vívere potérimus? Vivo ego, dicit Dóminus Deus; nolo mortem ímpii, sed ut revertátur ímpius a via sua et vivat."
         },
         "Sext": {
           "les_buch": "›Jer",
           "les_stelle": "18,20b",
           "les_text": "Denk daran, wie ich vor dir stand, um zu ihren Gunsten zu sprechen und deinen Zorn von ihnen abzuwenden!",
           "les_text_neu": "Gedenke, dass ich vor dir stand, um Gutes über sie zu reden und deinen Zorn von ihnen abzuwenden!",
-          "les_text_lat": ""
+          "les_text_lat": "Recordáre quod stéterim in conspéctu tuo, ut lóquerer pro eis bonum et avérterem indignatiónem tuam ab eis."
         },
         "Non": {
           "les_buch": "›Jer",
           "les_stelle": "31,2.3b.4a",
           "les_text": "So spricht der Herr: Gnade fand in der Wüste das Volk, das vom Schwert verschont blieb; Israel zieht zum Ort seiner Ruhe. Mit ewiger Liebe habe ich dich geliebt, darum habe ich dir so lange die Treue bewahrt. Ich baue dich wieder auf, du sollst neu gebaut werden, Jungfrau Israel.",
           "les_text_neu": "So spricht der HERR: Gnade fand in der Wüste das Volk, das dem Schwert entronnen ist; ich gehe mit, um Israel zur Ruhe zu führen. Mit ewiger Liebe habe ich dich geliebt, darum habe ich dir die Treue bewahrt. Ich baue dich wieder auf, du wirst aufgebaut sein, Jungfrau Israel.",
-          "les_text_lat": ""
+          "les_text_lat": "Hæc dicit Dóminus: Invénit grátiam in desérto pópulus, qui remánserat a gládio; vadet ad réquiem suam Israel. In caritáte perpétua diléxi te; ídeo attráxi te in misericórdia. Rursúmque ædificábo te, et ædificáberis, virgo Israel."
         },
         "Vesper": {
           "ant1": "Schönheit und Wohlgestalt sind ihm genommen. Wir sahen ihn und wandten unsere Augen ab.",
@@ -15551,7 +15558,7 @@ export const brevierData = {
           "ant2_lat": "",
           "ant3_lat": "",
           "antev_lat": "",
-          "les_text_lat": ""
+          "les_text_lat": "Comméndat suam caritátem Deus in nos, quóniam, cum adhuc peccatóres essémus, Christus pro nobis mórtuus est. Multo ígitur magis iustificáti nunc in sánguine ipsíus, salvi érimus ab ira per ipsum!"
         }
       },
       "2": {
@@ -15573,28 +15580,28 @@ export const brevierData = {
           "ant2_lat": "",
           "ant3_lat": "",
           "antev_lat": "",
-          "les_text_lat": ""
+          "les_text_lat": "Effúndam super domum David et super habitatóres Ierúsalem spíritum grátiæ et precum; et aspícient ad me. Quem confixérunt, plangent quasi planctu super unigénitum et dolébunt super eum, ut doléri solet super primogénitum. In die illa magnus erit planctus in Ierúsalem."
         },
         "Terz": {
           "les_buch": "›1°Kor",
           "les_stelle": "1,18–19",
           "les_text": "Das Wort vom Kreuz ist denen, die verloren gehen, Torheit; uns aber, die gerettet werden, ist es Gottes Kraft. Es heißt nämlich in der Schrift: Ich lasse die Weisheit der Weisen vergehen und die Klugheit der Klugen verschwinden.",
           "les_text_neu": "Denn das Wort vom Kreuz ist denen, die verloren gehen, Torheit; uns aber, die gerettet werden, ist es Gottes Kraft. In der Schrift steht nämlich: Ich werde die Weisheit der Weisen vernichten und die Klugheit der Klugen verwerfen.",
-          "les_text_lat": ""
+          "les_text_lat": "Verbum crucis pereúntibus quidem stultítia est, his autem, qui salvi fiunt, virtus Dei est. Scriptum est enim: Perdam sapiéntiam sapiéntium et prudéntiam prudéntium reprobábo."
         },
         "Sext": {
           "les_buch": "›1°Kor",
           "les_stelle": "1,22–24",
           "les_text": "Die Juden fordern Zeichen, die Griechen suchen Weisheit. Wir dagegen verkündigen Christus als den Gekreuzigten: für Juden ein empörendes Ärgernis, für Heiden eine Torheit, für die Berufenen aber, Juden wie Griechen, Christus, Gottes Kraft und Gottes Weisheit.",
           "les_text_neu": "Die Juden fordern Zeichen, die Griechen suchen Weisheit. Wir dagegen verkünden Christus als den Gekreuzigten: für Juden ein Ärgernis, für Heiden eine Torheit, für die Berufenen aber, Juden wie Griechen, Christus, Gottes Kraft und Gottes Weisheit.",
-          "les_text_lat": ""
+          "les_text_lat": "Iudǽi signa petunt, et Græci sapiéntiam quærunt, nos autem prædicámus Christum crucifíxum, Iudǽis quidem scándalum, géntibus autem stultítiam; ipsis autem vocátis, Iudǽis atque Græcis, Christum Dei virtútem et Dei sapiéntiam."
         },
         "Non": {
           "les_buch": "›1°Kor",
           "les_stelle": "1,25.27a",
           "les_text": "Das Törichte an Gott ist weiser als die Menschen, und das Schwache an Gott ist stärker als die Menschen. Das Törichte in der Welt hat Gott erwählt, um die Weisen zuschanden zu machen.",
           "les_text_neu": "Denn das Törichte an Gott ist weiser als die Menschen, und das Schwache an Gott ist stärker als die Menschen. Das Törichte in der Welt hat Gott erwählt, um die Weisen zuschanden zu machen.",
-          "les_text_lat": ""
+          "les_text_lat": "Quod stultum est Dei, sapiéntius est homínibus, et quod infírmum est Dei, fórtius est homínibus. Quæ stulta sunt mundi, elégit Deus, ut confúndat sapiéntes."
         },
         "Vesper": {
           "ant1": "Schrecken und Schmach erlitt ich von ihnen. Doch der Herr steht mir bei und streitet für mich.",
@@ -15609,7 +15616,7 @@ export const brevierData = {
           "ant2_lat": "",
           "ant3_lat": "",
           "antev_lat": "",
-          "les_text_lat": ""
+          "les_text_lat": "Infírma mundi elégit Deus, ut confúndat fórtia, et ignobília mundi et contemptibília elégit Deus, quæ non sunt, ut ea, quæ sunt, destrúeret, ut non gloriétur omnis caro in conspéctu Dei. Ex ipso autem vos estis in Christo Iesu, qui factus est sapiéntia nobis a Deo et iustítia et sanctificátio et redémptio."
         }
       },
       "3": {
@@ -15631,28 +15638,28 @@ export const brevierData = {
           "ant2_lat": "",
           "ant3_lat": "",
           "antev_lat": "",
-          "les_text_lat": ""
+          "les_text_lat": "Dóminus Deus apéruit mihi aurem; ego autem non rebellávi, retrórsum non ábii. Dorsum meum dedi percutiéntibus et genas meas velléntibus: fáciem meam non avérti ab increpatiónibus et sputis. Dóminus Deus auxiliátor meus; ídeo non sum confúsus, ídeo pósui fáciem meam ut petram duríssimam, et scio quóniam non confúndar."
         },
         "Terz": {
           "les_buch": "›1°Tim",
           "les_stelle": "2,4–6",
           "les_text": "Gott will, dass alle Menschen gerettet werden und zur Erkenntnis der Wahrheit gelangen. Denn: Einer ist Gott. Einer auch Mittler zwischen Gott und den Menschen: der Mensch Christus Jesus, der sich als Lösegeld hingegeben hat für alle, ein Zeugnis zur vorherbestimmten Zeit.",
           "les_text_neu": "",
-          "les_text_lat": ""
+          "les_text_lat": "Deus salvátor noster omnes hómines vult salvos fíeri et ad agnitiónem veritátis veníre. Unus enim Deus, unus et mediátor Dei et hóminum, homo Christus Iesus, qui dedit redemptiónem semetípsum pro ómnibus, testimónium tempóribus suis."
         },
         "Sext": {
           "les_buch": "›Röm",
           "les_stelle": "15,3",
           "les_text": "Christus hat nicht für sich selbst gelebt; in der Schrift heißt es vielmehr: Die Schmähungen derer, die dich schmähen, haben mich getroffen.",
           "les_text_neu": "Christus hat nicht sich selbst zu Gefallen gelebt; vielmehr steht geschrieben: Die Schmähungen derer, die dich schmähen, sind auf mich gefallen.",
-          "les_text_lat": ""
+          "les_text_lat": "Christus non sibi plácuit, sed sicut scriptum est: Impropéria improperántium tibi cecidérunt super me."
         },
         "Non": {
           "les_buch": "›Hebr",
           "les_stelle": "9,28",
           "les_text": "Christus wurde ein einziges Mal geopfert, um die Sünden vieler hinwegzunehmen; beim zweitenmal wird er nicht wegen der Sünde erscheinen, sondern um die zu retten, die ihn erwarten.",
           "les_text_neu": "",
-          "les_text_lat": ""
+          "les_text_lat": "Christus, semel oblátus ad multórum auferénda peccáta, secúndo sine peccáto apparébit exspectántibus se in salútem."
         },
         "Vesper": {
           "ant1": "Die Gottlosen sprachen zueinander: Lasst uns den Gerechten vernichten. Er steht unserem Tun im Weg.",
@@ -15667,7 +15674,7 @@ export const brevierData = {
           "ant2_lat": "",
           "ant3_lat": "",
           "antev_lat": "",
-          "les_text_lat": ""
+          "les_text_lat": "Estóte ínvicem benígni, misericórdes, donántes ínvicem, sicut et Deus in Christo donávit vobis. Estóte ergo imitatóres Dei sicut fílii caríssimi et ambuláte in dilectióne, sicut et Christus diléxit nos et trádidit seípsum pro nobis oblatiónem et hóstiam Deo in odórem suavitátis."
         }
       },
       "4": {
@@ -15702,28 +15709,28 @@ export const brevierData = {
           "ant2_lat": "",
           "ant3_lat": "",
           "antev_lat": "",
-          "les_text_lat": ""
+          "les_text_lat": "Vidémus Iesum propter passiónem mortis glória et honóre coronátum, ut grátia Dei pro ómnibus gustáverit mortem. Decébat enim eum, propter quem ómnia et per quem ómnia, qui multos fílios in glóriam addúxit, auctórem salútis eórum per passiónes consummáre."
         },
         "Terz": {
           "les_buch": "›Hebr",
           "les_stelle": "4,14–15",
           "les_text": "Da wir einen erhabenen Hohenpriester haben, der die Himmel durchschritten hat, Jesus, den Sohn Gottes, lasst uns an dem Bekenntnis festhalten. Wir haben ja nicht einen Hohenpriester, der nicht mitfühlen könnte mit unserer Schwäche, sondern einen, der in allem wie wir in Versuchung geführt worden ist, aber nicht gesündigt hat.",
           "les_text_neu": "Da wir einen erhabenen Hohepriester haben, der die Himmel durchschritten hat, Jesus, den Sohn Gottes, lasst uns an dem Bekenntnis festhalten. Wir haben ja nicht einen Hohepriester, der nicht mitfühlen könnte mit unserer Schwäche, sondern einen, der in allem wie wir versucht worden ist, aber nicht gesündigt hat.",
-          "les_text_lat": ""
+          "les_text_lat": "Habéntes pontíficem magnum, qui penetrávit cælos, Iesum Fílium Dei, teneámus confessiónem; non enim habémus pontíficem, qui non possit cómpati infirmitátibus nostris, tentátum autem per ómnia secúndum similitúdinem absque peccáto."
         },
         "Sext": {
           "les_buch": "›Hebr",
           "les_stelle": "7,26–27",
           "les_text": "Ein solcher Hoherpriester war für uns in der Tat notwendig: einer, der heilig ist, unschuldig, makellos, abgesondert von den Sündern und erhöht über die Himmel; einer, der es nicht Tag für Tag nötig hat, wie die Hohenpriester zuerst für die eigenen Sünden Opfer darzubringen und dann für die des Volkes; denn das hat er ein für allemal getan, als er sich selbst dargebracht hat.",
           "les_text_neu": "Ein solcher Hohepriester ziemte sich in der Tat für uns: einer, der heilig ist, frei vom Bösen, makellos, abgesondert von den Sündern und erhöht über die Himmel; einer, der es nicht Tag für Tag nötig hat, wie die Hohepriester zuerst für die eigenen Sünden Opfer darzubringen und dann für die des Volkes; denn das hat er ein für alle Mal getan, als er sich selbst dargebracht hat.",
-          "les_text_lat": ""
+          "les_text_lat": "Talis decébat, ut nobis esset póntifex, sanctus, ínnocens, impollútus, segregátus a peccatóribus et excélsior cælis factus, qui non habet necessitátem cotídie, quemádmodum pontífices, prius pro suis delíctis hóstias offérre, deínde pro pópuli; hoc enim fecit semel semetípsum offeréndo Iesus Christus Dóminus noster."
         },
         "Non": {
           "les_buch": "›Hebr",
           "les_stelle": "9,11–12",
           "les_text": "Christus ist gekommen als Hoherpriester der künftigen Güter; und durch das erhabenere und vollkommenere Zelt, das nicht von Menschenhand gemacht, das heißt nicht von dieser Welt ist, ist er ein für allemal in das Heiligtum hineingegangen, nicht mit dem Blut von Böcken und jungen Stieren, sondern mit seinem eigenen Blut, und so hat er eine ewige Erlösung bewirkt.",
           "les_text_neu": "",
-          "les_text_lat": ""
+          "les_text_lat": "Christus cum advénit póntifex futurórum bonórum, per ámplius et perféctius tabernáculum, non manufáctum, id est non huius creatiónis, neque per sánguinem hircórum et vitulórum sed per próprium sánguinem introívit semel in Sancta, ætérna redemptióne invénta."
         },
         "Vesper": {
           "hymn_1": 3344.0,
@@ -15753,7 +15760,7 @@ export const brevierData = {
           "bitten_e_lat": "",
           "bitten_r_lat": "",
           "bitten_lat": "",
-          "les_text_lat": "",
+          "les_text_lat": "Iesus, ut sanctificáret per suum sánguinem pópulum, extra portam passus est. Exeámus ígitur ad eum extra castra, impropérium eius portántes; non enim habémus hic manéntem civitátem, sed futúram inquírimus. Per ipsum ergo offerámus hóstiam laudis semper Deo, id est fructum labiórum confiténtium nómini eius.",
           "oration_lat": ""
         }
       },
@@ -15815,7 +15822,7 @@ export const brevierData = {
           "bitten_e_lat": "",
           "bitten_r_lat": "",
           "bitten_lat": "",
-          "les_text_lat": ""
+          "les_text_lat": "Ecce próspere aget servus meus; exaltábitur et elevábitur et sublímis erit valde. Sicut obstupuérunt super eum multi, sic defórmis erat, quasi non esset hóminis spécies eius, filiórum hóminis aspéctus eius, sic dispérget gentes multas. Super ipsum continébunt reges os suum, quia, quæ non sunt narráta eis, vidérunt et, quæ non audiérunt, contempláti sunt."
         },
         "Terz": {
           "psalm1": 40.0,
@@ -15838,7 +15845,7 @@ export const brevierData = {
           "ant3_lat": "",
           "resp0_lat": "",
           "resp1_lat": "",
-          "les_text_lat": ""
+          "les_text_lat": "Ascéndit sicut virgúltum coram eo et sicut radix de terra sitiénti. Non erat spécies ei neque decor, ut aspicerémus eum, et non erat aspéctus, ut desiderarémus eum. Despéctus erat et novíssimus virórum, vir dolórum et sciens infirmitátem, et quasi abscondebámus vultum coram eo; despéctus, unde nec reputabámus eum."
         },
         "Sext": {
           "ant0": "Als die sechste Stunde kam, brach eine Finsternis herein über das ganze Land.",
@@ -15858,7 +15865,7 @@ export const brevierData = {
           "ant3_lat": "",
           "resp0_lat": "",
           "resp1_lat": "",
-          "les_text_lat": ""
+          "les_text_lat": "Vere languóres nostros ipse tulit et dolóres nostros ipse portávit; et nos putávimus eum quasi plagátum, percússum a Deo et humiliátum. Ipse autem vulnerátus est propter iniquitátes nostras, attrítus est propter scélera nostra; disciplína pacis nostræ super eum, et livóre eius sanáti sumus."
         },
         "Non": {
           "ant0": "In der neunten Stunde schrie Jesus mit lauter Stimme: Mein Gott, mein Gott, warum hast du mich verlassen?",
@@ -15878,7 +15885,7 @@ export const brevierData = {
           "ant3_lat": "",
           "resp0_lat": "",
           "resp1_lat": "",
-          "les_text_lat": ""
+          "les_text_lat": "Omnes nos quasi oves errávimus, unusquísque in viam suam declinávit; et pósuit Dóminus in eo iniquitátem ómnium nostrum. Afflíctus est et ipse subiécit se et non apéruit os suum; sicut agnus, qui ad occisiónem dúcitur, et quasi ovis, quæ coram tondéntibus se obmútuit et non apéruit os suum."
         },
         "Vesper": {
           "psalm1": 116.2,
@@ -15908,7 +15915,7 @@ export const brevierData = {
           "bitten_e_lat": "",
           "bitten_r_lat": "",
           "bitten_lat": "",
-          "les_text_lat": ""
+          "les_text_lat": "Christus passus est pro vobis vobis relínquens exémplum, ut sequámini vestígia eius: qui peccátum non fecit, nec invéntus est dolus in ore ipsíus; qui cum maledicerétur, non remaledicébat, cum paterétur, non comminabátur, commendábat autem iuste iudicánti; qui peccáta nostra ipse pértulit in córpore suo super lignum, ut peccátis mórtui iustítiæ viverémus; cuius livóre sanáti estis."
         }
       },
       "6": {
@@ -15968,8 +15975,7 @@ export const brevierData = {
           "antev_lat": "",
           "bitten_e_lat": "",
           "bitten_r_lat": "",
-          "bitten_lat": "",
-          "les_text_lat": ""
+          "bitten_lat": ""
         },
         "Terz": {
           "psalm1": 27.0,
@@ -15986,7 +15992,7 @@ export const brevierData = {
           "ant0_lat": "",
           "resp0_lat": "",
           "resp1_lat": "",
-          "les_text_lat": ""
+          "les_text_lat": "Si dixérimus quóniam peccátum non habémus, nosmetípsos sedúcimus, et véritas in nobis non est. Si confiteámur peccáta nostra, fidélis est et iustus, ut remíttat nobis peccáta et emúndet nos ab omni iniustítia."
         },
         "Sext": {
           "ant0": "Herr, mein Gott, du hast mich herausgeholt aus dem Reich des Todes.",
@@ -16000,7 +16006,7 @@ export const brevierData = {
           "ant0_lat": "",
           "resp0_lat": "",
           "resp1_lat": "",
-          "les_text_lat": ""
+          "les_text_lat": "Advocátum habémus ad Patrem, Iesum Christum iustum; et ipse est propitiátio pro peccátis nostris, non pro nostris autem tantum sed étiam pro totíus mundi."
         },
         "Non": {
           "ant0": "Er darf weilen an der Stätte des Friedens. Der Zion wurde seine Wohnung.",
@@ -16014,7 +16020,7 @@ export const brevierData = {
           "ant0_lat": "",
           "resp0_lat": "",
           "resp1_lat": "",
-          "les_text_lat": ""
+          "les_text_lat": "Ténebræ tránseunt, et lumen verum iam lucet. Qui dicit se in luce esse et fratrem suum odit, in ténebris est usque adhuc. Qui díligit fratrem suum, in lúmine manet, et scándalum ei non est."
         },
         "Vesper": {
           "psalm1": 116.2,

@@ -1061,7 +1061,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         .replace(/\^\//g, (() => {
             // Wenn keine ^/-Tags vorhanden oder maxLineLength <= widthForHymns, dann Leerzeichen
             // Andernfalls Zeilenumbruch
-            return (maxLineLength > 0 && maxLineLength > widthForHymns) ? '\n' : '  ';
+            return (maxLineLength > 0 && maxLineLength > widthForHymns) ? '\n' : '   ';
         })())
         .replace(/\^ß/g, (() => {
             return (maxLineLength > 0 && maxLineLength > widthForHymns) ? '\n      ' : ' ';
