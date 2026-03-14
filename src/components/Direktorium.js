@@ -475,8 +475,8 @@ const PrayerTextDisplay = ({
       prefSrc, widthForHymns);
   };
 
-  const formatPsalm = (psalm, num = 0) => {
-    return extFormatPsalm(psalm, num, localPrefLanguage);
+  const formatPsalm = (psalm, num = 0, modeOverride = null) => {
+    return extFormatPsalm(psalm, num, localPrefLanguage, modeOverride);
   };
 
   const ComposeResponse = ({ resp0, resp1, resp2, resp3 }) => {
@@ -752,7 +752,7 @@ const PrayerTextDisplay = ({
             {hour === "invitatorium" &&
               texts?.invitatorium?.psalms?.includes(localPrefInv) && (
                 <div>
-                  {formatPsalm(localPrefInv)}
+                  {formatPsalm(localPrefInv, 0, getValue('mode0'))}
                 </div>
               )}
             {hour !== "invitatorium" &&
@@ -760,6 +760,7 @@ const PrayerTextDisplay = ({
                 const psalm = getValue(`psalm${num}`);
                 const ant = getValue(`ant${num}`);
                 if (!psalm && !ant) return null;
+                const mode = getValue(`mode${num}`) || getValue('mode0');
 
                 return (
                   <div key={num}>
@@ -769,9 +770,9 @@ const PrayerTextDisplay = ({
                       </div>
                     )}
                     {psalm && hour !== 'vigil' &&
-                      formatPsalm(psalm, -1)}
+                      formatPsalm(psalm, -1, mode)}
                     {psalm && hour === 'vigil' &&
-                      formatPsalm(psalm, num)}
+                      formatPsalm(psalm, num, mode)}
                     {ant && (
                       <div >
                         {formatPrayerText(ant, `Ant.°°`)}
@@ -890,7 +891,7 @@ const PrayerTextDisplay = ({
               </div>
             )}
             <div className="mb-4">
-              {formatPsalm(ordinariumTexts, 'BuM')}
+              {formatPsalm(ordinariumTexts, 'BuM', getValue('modeev'))}
               {/* {formatPrayerText(ordinariumTexts.cant, 'cantIX')} */}
             </div>
             {getValue("antev") && (

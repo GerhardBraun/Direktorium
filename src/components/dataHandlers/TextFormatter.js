@@ -140,7 +140,7 @@ const getDoxology = (localPrefLanguage, psalm, isBuM = false) => {
 };
 
 // Formatiert Psalmen mit Nummer, Versen, Titel und Text
-export const formatPsalm = (psalmRef, num = 0, localPrefLanguage = '') => {
+export const formatPsalm = (psalmRef, num = 0, localPrefLanguage = '', modeOverride = null) => {
     // num=0 für Invitatorium: keine verses, title, quote;
     // num=1-3 für Vigil: Ordinalzahlen bei den Cantica
     // num=-1 bei regulären Psalmen
@@ -160,7 +160,7 @@ export const formatPsalm = (psalmRef, num = 0, localPrefLanguage = '') => {
     const quote = !num ? '' : psalm[`quote${localPrefLanguage}`] || psalm.quote || "";
 
     const doxology = getDoxology(localPrefLanguage, psalm, isBuM);
-    const cantMode = isBuM ? psalmRef.mode : localPrefLanguage === '_cant' && psalm.text_cant ? psalm.text_mode : null;
+    const cantMode = isBuM ? modeOverride || psalmRef.mode : localPrefLanguage === '_cant' && psalm.text_cant ? (modeOverride || psalm.text_mode) : null;
 
     const ordinal = ['', 'Erstes ', 'Zweites ', 'Drittes ']
 
