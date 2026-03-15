@@ -546,11 +546,17 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
         }
     }
 
-    // Verkürzte Kadenz (b=1, männlicher Versschluss): _ oder - am Kadenzanfang signalisiert,
-    // dass die erste Silbe zwei Kadenztöne (4+3) trägt.
+    // Verkürzte Kadenz (b=1, männlicher Versschluss): 43-kombinierter Slot trägt T4 + T3.
+    // v_eff im Code bleibt v (weil has4=false), aber reale vEff = v+1 (männlicher Versschluss).
+    // Deshalb: cadStartIdx ggf. auf den 43-kombinierten Slot korrigieren (wenn realVEff ≥ 3).
+    // Tilde (Signal: zwei Kadenztöne auf einer Silbe) nur wenn realVEff = 4.
     if (has43Combined) {
         const isMaennlichShort = !slots.slice(dblBarIdx + 1).some(s => s.text.trim().length > 0);
-        if (isMaennlichShort) {
+        const realVEff43 = isMaennlichShort && !noUnstressed ? v + 1 : v;
+        if (realVEff43 >= 3 && cadStartIdx !== countdownIdxs['3']) {
+            cadStartIdx = countdownIdxs['3']; // = 43-kombinierter Slot
+        }
+        if (isMaennlichShort && realVEff43 >= 4) {
             const cadSlot = slots[cadStartIdx];
             const t = cadSlot.text;
             const endsWithSep = t.length > 0 && (t[t.length - 1] === ' ' || t[t.length - 1] === '°');
