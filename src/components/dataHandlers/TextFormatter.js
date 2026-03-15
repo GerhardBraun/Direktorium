@@ -160,7 +160,12 @@ export const formatPsalm = (psalmRef, num = 0, localPrefLanguage = '', modeOverr
     const quote = !num ? '' : psalm[`quote${localPrefLanguage}`] || psalm.quote || "";
 
     const doxology = getDoxology(localPrefLanguage, psalm, isBuM);
-    const cantMode = isBuM ? modeOverride || psalmRef.mode : localPrefLanguage === '_cant' && psalm.text_cant ? (modeOverride || psalm.text_mode) : null;
+    const cantMode = localPrefLanguage !== '_cant' ? null :
+        isBuM ? modeOverride || psalmRef.mode
+            : psalm.text_cant
+                ? (modeOverride || psalm.text_mode) : null;
+    // console.log(`Rendering Psalm ${number}:`, { modeOverride, cantMode });
+
 
     const ordinal = ['', 'Erstes ', 'Zweites ', 'Drittes ']
 
@@ -293,6 +298,10 @@ const PsalmCantDisplay = ({ text, doxology, localPrefLanguage, number, canonical
         return () => document.removeEventListener('mousedown', onOutside);
     }, [showSelector]);
 
+    useEffect(() => {
+        setSelectedMode(canonicalMode);
+    }, [text, localPrefLanguage, canonicalMode]);
+
     // Psalmtöne in Zeilen gegliedert: Haupttöne, dann Varianten; null = Trennlinie
     const toneRows = [
         ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII'],
@@ -374,7 +383,7 @@ const PsalmCantDisplay = ({ text, doxology, localPrefLanguage, number, canonical
 // Wandelt die abstrakten Gesangsmarker (|, ||, 1–4, ~, 0) in ^u/^b-Tags um.
 // Wird als Subroutine in formatPrayerText aufgerufen wenn marker === 'cant'.
 const formatCantMarkers = (text, mode) => {
-    const cadence = PSALM_TONE_CADENCE[mode] || PSALM_TONE_CADENCE['IX']; // Default auf I, falls kein Psalmton angegeben
+    const cadence = PSALM_TONE_CADENCE[mode] || PSALM_TONE_CADENCE['IX']; // Default auf IX, falls kein Psalmton angegeben
     if (!cadence) return text;  // unbekannter Psalmton: Text unverändert lassen
 
     // > vor Vokal → ^ELL-Tag (elidierende Silbe, grau-kursiv): muss vor dem ^b/^u-Tagging geschehen,

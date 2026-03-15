@@ -761,6 +761,7 @@ const PrayerTextDisplay = ({
                 const ant = getValue(`ant${num}`);
                 if (!psalm && !ant) return null;
                 const mode = getValue(`mode${num}`) || getValue('mode0');
+                //   console.log(`Rendering Psalm ${num}:`, { psalm, mode });
 
                 return (
                   <div key={num}>
