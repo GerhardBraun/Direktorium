@@ -76,6 +76,7 @@ const SectionHeader = ({
     const checkSources = (field) => {
         const hasEig = texts[hour][prefSrc]?.[field];
         const hasWt = texts[hour].wt?.[field];
+        const hasAltPsalms = texts[hour].alt?.[field];
         const hasComm1 = texts[hour][prefSrc]?.com1?.[field];
         const hasComm2 = texts[hour][prefSrc]?.com2?.[field];
         const nameComm1 =
@@ -88,7 +89,7 @@ const SectionHeader = ({
         const showSources = wtRankToCompare === 0 || rank.date > wtRankToCompare;
 
         return {
-            hasEig, hasWt,
+            hasEig, hasWt, hasAltPsalms,
             hasComm1, hasComm2,
             nameComm1, nameComm2,
             showSources: !hasEig && hasWt && hasComm1 && showSources,
@@ -159,7 +160,7 @@ const SectionHeader = ({
     const field = (hour === 'invitatorium' && provField === 'psalm1')
         ? 'ant0' : provField;
     const isCommemoration = texts?.rank?.isCommemoration || false
-    const { hasEig, hasWt, nameComm1, nameComm2,
+    const { hasEig, hasWt, hasAltPsalms, nameComm1, nameComm2,
         showSources, showBothComm } = checkSources(field);
 
     const isPsalmodie = title === 'PSALMODIE' && !['invitatorium', 'komplet'].includes(hour);

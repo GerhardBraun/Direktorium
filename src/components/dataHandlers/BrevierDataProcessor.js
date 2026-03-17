@@ -276,6 +276,12 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
             if (rank_date === 2)
                 processCalendar(hours, yearABC, season, calendarMonth, calendarDay, 'n1');
         }
+        // alternative Psalmen und Antiphonen an Aschermittwoch und Gründonnerstag
+        // in den Datenbanken unter den fiktiven Daten 33. und 34. März gespeichert
+        if (swdCombined === 'q-0-3' || swdCombined === 'q-6-4') {
+            console.log('Sonderfall: Aschermittwoch oder Gründonnerstag - alternative Psalmen und Antiphonen werden geladen', 3, 30 + dayOfWeek);
+            processCalendar(hours, yearABC, season, 3, 30 + dayOfWeek, 'alt');
+        }
         // Layer 9: nichtgebotene Gedenktage
         else if (rank_wt < 3) {
             processCalendar(hours, yearABC, season, calendarMonth, calendarDay, 'skip');

@@ -2506,6 +2506,42 @@ export const calendarData: CalendarData = {
           }
         }
       },
+      "33": {
+        "oblig": {
+          "Laudes": {
+            "psalm1": 51.0,
+            "psalm2": 185.0,
+            "psalm3": 100.0,
+            "ant1": "Herr, gegen dich allein hab’ ich gesündigt; erbarme dich meiner.",
+            "ant2": "Herr, wir erkennen unsere Schuld; wir haben gegen dich gesündigt.",
+            "ant3": "Der Herr allein ist Gott; wir sind sein Volk, die Herde seiner Weide.",
+            "mode1": "IVa",
+            "mode2": "II",
+            "mode3": "VII",
+            "ant1_lat": "Tibi soli peccávi, Dómine; miserére mei.",
+            "ant2_lat": "Cognóvimus, Dómine, iniquitátes nostras, quia peccávimus tibi.",
+            "ant3_lat": "Dóminus ipse est Deus; nos pópulus eius et oves páscuæ eius."
+          }
+        }
+      },
+      "34": {
+        "oblig": {
+          "Lesehore": {
+            "psalm1": 69.1,
+            "psalm2": 69.2,
+            "psalm3": 69.3,
+            "ant1": "Ich bin müde vom Rufen, mir versagen die Augen, während ich warte auf meinen Gott.",
+            "ant2": "Sie gaben mir Galle als Speise und reichten mir Essig in meinem Durst.",
+            "ant3": "Ihr, die ihr Gott sucht: euer Herz lebe auf.",
+            "mode1": "IV",
+            "mode2": "I",
+            "mode3": "II",
+            "ant1_lat": "Laborávi clamans, dum spero in Deum meum.",
+            "ant2_lat": "Dedérunt in escam meam fel, et in siti mea potavérunt me acéto.",
+            "ant3_lat": "Quǽrite Dóminum, et vivet ánima vestra."
+          }
+        }
+      },
       "4": {
         "n1": {
           "major": {
@@ -2829,7 +2865,7 @@ export const calendarData: CalendarData = {
           "major": {
             "comm_1": "Frau_Ord",
             "oration": "Herr, unser Gott, du hast im Herzen der heiligen Gertrud das Verlangen geweckt, das Wort der Schrift zu verstehen und deine Weisung zu erkennen. Lehre auch uns, aus der Kraft deines Wortes zu leben und Werke der Liebe zu tun.^ORV",
-            "oration_lat": " comm:Effúnde super nos, Dómine, spíritum agnitiónis et dilectiónis tuæ, quo ancíllam tuam Gertrúdem implevísti, ut, sédula eius imitatióne tibi sincére obsequéntes, fide et ópere placeámus.^ORlV"
+            "oration_lat": "comm:Effúnde super nos, Dómine, spíritum agnitiónis et dilectiónis tuæ, quo ancíllam tuam Gertrúdem implevísti, ut, sédula eius imitatióne tibi sincére obsequéntes, fide et ópere placeámus.^ORlV"
           },
           "Lesehore": {
             "patr_autor": "II. Vatikanisches Konzil (1962–1965)",
@@ -11011,7 +11047,7 @@ export const calendarData: CalendarData = {
             "ant1": "Du hast mich aus Erde gebildet und mich mit Fleisch umkleidet; Herr, mein Erlöser, erwecke mich am Jüngsten Tag.",
             "ant2": "Reiß mich heraus, o°Herr; eile mir zu Hilfe.",
             "ant3": "Meine Seele dürstet nach dem lebendigen Gott; wann darf ich kommen und Gottes Antlitz schauen?",
-            "mode2": "211.0",
+            "mode2": "211",
             "mode3": "211.1",
             "les_buch": "Aus dem ersten Brief an die Korinther.",
             "les_stelle": "15,12–34",
