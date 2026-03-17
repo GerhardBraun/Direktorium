@@ -9566,6 +9566,12 @@
           "versikel0_lat": "",
           "versikel1_lat": ""
         },
+        "Vigil": {
+          "psalm1": 199.117,
+          "psalm2": 199.122,
+          "psalm3": 199.123,
+          "ant0": "Der Herr ist vom Tod erstanden. Durch das Kreuz kam Freude in die ganze Welt.^ö"
+        },
         "Laudes": {
           "les_buch": "›Apg",
           "les_stelle": "10,40-43",
@@ -9624,12 +9630,6 @@
           "bitten_r_lat": "",
           "bitten_lat": "",
           "les_text_lat": ""
-        },
-        "Vigil": {
-          "psalm1": 199.117,
-          "psalm2": 199.122,
-          "psalm3": 199.123,
-          "ant0": "Der Herr ist vom Tod erstanden. Durch das Kreuz kam Freude in die ganze Welt.^ö"
         }
       },
       "1": {
@@ -12713,6 +12713,9 @@
           "ant1": "Herr, gegen dich allein hab’ ich gesündigt; erbarme dich meiner.",
           "ant2": "Herr, wir erkennen unsere Schuld; wir haben gegen dich gesündigt.",
           "ant3": "Der Herr allein ist Gott; wir sind sein Volk, die Herde seiner Weide.",
+          "mode1": "IVa",
+          "mode2": "II",
+          "mode3": "VII",
           "les_buch": "›2°Kor",
           "les_stelle": "12,9b–10",
           "les_text": "Ich will mich meiner Schwachheit rühmen, damit die Kraft Christi auf mich herabkommt. Deswegen bejahe ich meine Ohnmacht, alle Misshandlungen und Nöte, Verfolgungen und Ängste, die ich für Christus ertrage; denn wenn ich schwach bin, dann bin ich stark.",
@@ -12745,6 +12748,9 @@
           "ant1": "Wir sahen ihn, den Verachteten, einen Mann voller Schmerzen, mit der Krankheit vertraut.",
           "ant2": "Sie verteilen unter sich meine Kleider und werfen das Los um mein Gewand.",
           "ant3": "Alle Stämme der Völker werfen sich nieder vor dem Herrn.",
+          "mode1": "II",
+          "mode2": "IV",
+          "mode3": "VIII",
           "les_buch": "›Röm",
           "les_stelle": "1,16b–17",
           "les_text": "Das Evangelium ist eine Kraft Gottes, die jeden rettet, der glaubt, zuerst den Juden, aber ebenso den Griechen. Denn im Evangelium wird die Gerechtigkeit Gottes offenbart aus Glauben zum Glauben, wie es in der Schrift steht: Der aus Glauben Gerechte wird leben.",
@@ -12789,6 +12795,8 @@
           "ant1": "Groß ist der Herr, unser Gott ist größer als alle Götter.",
           "ant2": "Haus Israel, preise den Herrn, singt und spielt seinem Namen, denn er ist freundlich.",
           "ant3": "Alle Völker werden kommen und niederfallen vor dir, unserm Gott und Herrn.",
+          "mode1": "VII",
+          "mode2": "VII",
           "les_buch": "›Jak",
           "les_stelle": "1,2–4",
           "les_text": "Seid voll Freude, meine Brüder, wenn ihr in mancherlei Versuchungen geratet! Ihr wisst, dass die Prüfung eures Glaubens Ausdauer bewirkt. Die Ausdauer aber soll zu einem vollendeten Werk führen; denn so werdet ihr vollendet und untadelig sein, es wird euch nichts mehr fehlen.",
@@ -14445,16 +14453,19 @@
           "oration_lat": "Concéde nobis, Dómine, præsídia milítiæ christiánæ sanctis inchoáre ieiúniis, ut, contra spiritáles nequítias pugnatúri, continéntiæ muniámur auxíliis.^ORlV"
         },
         "Laudes": {
-          "psalm1": 51.0,
-          "psalm2": 185.0,
-          "psalm3": 100.0,
-          "ant1": "Herr, gegen dich allein hab’ ich gesündigt; erbarme dich meiner.",
-          "ant2": "Herr, wir erkennen unsere Schuld; wir haben gegen dich gesündigt.",
-          "ant3": "Der Herr allein ist Gott; wir sind sein Volk, die Herde seiner Weide.",
+          "psalm1": 108.101,
+          "psalm2": 193.0,
+          "psalm3": 146.0,
+          "ant1": "Mein Herz ist bereit, o°Gott. Ich will dir singen und spielen.",
+          "ant2": "Ich will mich freuen über den Herrn. Er kleidet mich in Gewänder des Heils.",
+          "ant3": "Den Herrn will ich loben, solange ich lebe.",
+          "mode1": "VII",
+          "mode2": "VIIIa",
+          "mode3": "VI",
           "antev": "Wenn ihr fastet und Buße tut, macht kein finsteres Gesicht wie die Heuchler.",
-          "ant1_lat": "Tibi soli peccávi, Dómine; miserére mei.",
-          "ant2_lat": "Cognóvimus, Dómine, iniquitátes nostras, quia peccávimus tibi.",
-          "ant3_lat": "Dóminus ipse est Deus; nos pópulus eius et oves páscuæ eius.",
+          "ant1_lat": "Parátum cor meum, Deus, parátum cor meum.",
+          "ant2_lat": "Induit me Dóminus induménto salútis et iustítiæ.",
+          "ant3_lat": "Laudábo Deum meum in vita mea.",
           "antev_lat": "Cum ieiunátis, nolíte fíeri, sicut hypócritæ, tristes."
         },
         "Vesper": {
@@ -15763,18 +15774,15 @@
           "oration_lat": "Deus, quem dilígere et amáre iustítia est, ineffábilis grátiæ tuæ in nobis dona multíplica, et, qui fecísti nos in morte Fílii tui speráre quæ crédimus, fac nos, eódem resurgénte, perveníre quo téndimus.^ORlvR"
         },
         "Lesehore": {
-          "psalm1": 69.1,
-          "psalm2": 69.2,
-          "psalm3": 69.3,
-          "ant1": "Ich bin müde vom Rufen, mir versagen die Augen, während ich warte auf meinen Gott.",
-          "ant2": "Sie gaben mir Galle als Speise und reichten mir Essig in meinem Durst.",
-          "ant3": "Ihr, die ihr Gott sucht: euer Herz lebe auf.^ö",
-          "mode1": "IV",
-          "mode2": "I",
-          "mode3": "II",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": ""
+          "psalm1": 44.1,
+          "psalm2": 44.2,
+          "psalm3": 44.3,
+          "ant1": "Du hast uns gerettet, Herr, wir preisen deinen Namen auf ewig.",
+          "ant2": "Verschone dein Volk, o°Herr; gib dein Erbe nicht der Schande preis.",
+          "ant3": "Steh auf und hilf uns, Herr; in deiner Huld erlöse uns.",
+          "ant1_lat": "Salvásti nos, Dómine, et in nómine tuo confitébimur in sǽculum.^LÖ",
+          "ant2_lat": "Parce, Dómine, et ne des hereditátem tuam in oppróbrium.",
+          "ant3_lat": "Exsúrge, Dómine, et rédime nos propter misericórdiam tuam.^LÖ"
         },
         "Laudes": {
           "psalm1": 80.0,
@@ -15846,22 +15854,22 @@
           "resp1_lat": "",
           "resp2_lat": "",
           "resp3_lat": "",
-          "antev_lat": "",
-          "bitten_e_lat": "",
-          "bitten_r_lat": "",
-          "bitten_lat": "",
+          "antev_lat": "Cenántibus illis, accépit Iesus panem, et benedíxit, ac fregit, dedítque discípulis suis.",
+          "bitten_e_lat": "Salvatórem nostrum adorémus, qui Ecclésiæ in Cena novíssima, qua nocte tradebátur, mortis et resurrectiónis suæ memoriále commendávit perénniter celebrándum. Orémus, dicéntes:",
+          "bitten_r_lat": "Sanctífica pópulum, quem sánguine tuo redemísti.",
+          "bitten_lat": "Redémptor noster, da nos passióni tuæ per pæniténtiam plénius adhærére,^lut resurrectiónis glóriam consequámur.^pPræsta, ut Matris tuæ, solatrícis afflictórum, protectiónem assequámur,^lmærentésque confortémus ea consolatióne, qua et ipsi a te recreámur.^pFidélibus concéde passiónis tuæ in ærúmnis suis esse partícipes,^lut salutáre tuum in seípsis maniféstent.^pQui humiliásti teípsum, factus obœ́diens usque ad mortem, mortem autem crucis,^lda servis tuis obœdiéntiam et patiéntiam.^pCórpori claritátis tuæ defúnctos configuráre dignéris,^lnosque aliquándo eórum redde consórtes.",
           "les_text_lat": "Iesus, ut sanctificáret per suum sánguinem pópulum, extra portam passus est. Exeámus ígitur ad eum extra castra, impropérium eius portántes; non enim habémus hic manéntem civitátem, sed futúram inquírimus. Per ipsum ergo offerámus hóstiam laudis semper Deo, id est fructum labiórum confiténtium nómini eius.",
-          "oration_lat": ""
+          "oration_lat": "Deus, qui ad glóriam tuam et géneris humáni salútem Christum esse voluísti summum æternúmque sacerdótem, præsta ut pópulus, quem sánguine suo tibi acquisívit, ex eius memoriális participatióne, virtútem crucis ipsíus cápiat et resurrectiónis.^ORlR"
         }
       },
       "5": {
         "each": {
           "oration": "Herr, unser Gott, sieh herab auf deine Familie, für die unser Herr Jesus Christus sich willig den Händen der Frevler überliefert und die Marter des Kreuzes auf sich genommen hat. Er,^ORR",
-          "oration_lat": ""
+          "oration_lat": "Réspice, quǽsumus, Dómine, super hanc famíliam tuam, pro qua Dóminus noster Iesus Christus non dubitávit mánibus tradi nocéntium et crucis subíre torméntum.^ORlR"
         },
         "Invitatorium": {
           "ant0": "Christus, der Sohn Gottes, hat uns mit seinem Blut erkauft; kommt, wir beten ihn an!",
-          "ant0_lat": ""
+          "ant0_lat": "Christum, Dei Fílium, qui suo nos redémit sánguine, veníte, adorémus."
         },
         "Lesehore": {
           "psalm1": 2.0,
@@ -15870,9 +15878,9 @@
           "ant1": "Die Könige der Erde stehen auf, die Großen haben sich verbündet gegen den Herrn und seinen Gesalbten.",
           "ant2": "Sie verteilen unter sich meine Kleider und werfen das Los um mein Gewand.",
           "ant3": "Die mir nach dem Leben trachten, legen mir Schlingen; die mein Unheil suchen, planen Verderben.",
-          "ant1_lat": "",
-          "ant2_lat": "",
-          "ant3_lat": ""
+          "ant1_lat": "Astitérunt reges terræ, et príncipes convenérunt in unum, advérsus Dóminum et advérsus Christum eius.",
+          "ant2_lat": "Divisérunt sibi vestiménta mea, et super vestem meam misérunt sortem.",
+          "ant3_lat": "Vim faciébant, qui quærébant ánimam meam."
         },
         "Vigil": {
           "psalm1": 185.0,
@@ -16269,6 +16277,13 @@
           "hymn_2": 3312.0,
           "hymn_1_lat": 3311.2
         },
+        "Vigil": {
+          "psalm1": 185.0,
+          "psalm2": 196.0,
+          "psalm3": 199.121,
+          "ant0": "Wende unser Herz zu dir, damit wir uns bekehren; erneuere unsere Tage.",
+          "ant0_lat": "Convérte nos, Dómine, ad te, et convertémur; ínnova dies nostros sicut a princípio."
+        },
         "Laudes": {
           "les_buch": "›Neh",
           "les_stelle": "8,9b.10b",
@@ -16330,13 +16345,6 @@
           "bitten_r_lat": "Propítius esto, Dómine, pópulo tuo.",
           "bitten_lat": "Audi, miséricors Deus, supplicatiónes, quas pro cuncto pópulo tuo deférimus,^qut desíderet se tuo pótius verbo quam cibo satiáre corpóreo.^pDoce nos gentem nostram et cunctos hómines sine discrímine vere et efficáciter amáre,^qeósque in pace et bono semper ædificáre.^pRéspice omnes per baptísmum regenerándos,^qut domum spiritálem, tamquam lápides vivi, tibi constítuant.^pQui, per Ionam prædicántem, Ninivítas ad pæniténtiam excitásti,^qverbo tuo peccatórum corda convérte propítius.^pTríbue moriéntibus in spe Christo iúdici occúrrere,^qtuíque aspéctu in ætérnum gaudére.",
           "les_text_lat": "Hi, qui in stádio currunt, omnes quidem currunt, sed unus áccipit bravíum. Sic cúrrite, ut comprehendátis. Omnis autem, qui in agóne conténdit, ab ómnibus se ábstinet, et illi quidem, ut corruptíbilem corónam accípiant, nos autem incorrúptam."
-        },
-        "Vigil": {
-          "psalm1": 185.0,
-          "psalm2": 196.0,
-          "psalm3": 199.121,
-          "ant0": "Wende unser Herz zu dir, damit wir uns bekehren; erneuere unsere Tage.",
-          "ant0_lat": "Convérte nos, Dómine, ad te, et convertémur; ínnova dies nostros sicut a princípio."
         }
       },
       "1": {
