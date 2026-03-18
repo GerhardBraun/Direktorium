@@ -7,8 +7,8 @@ Da beide Tage, an denen eine alternative Psalmodie gewählt werden kann, im Rang
 
 Der State wird im **SectionHeader.js** gesteuert.
 Dafür wird ein neuer Button eingefügt, der in der Reihe der Buttons als letzter steht.
-Er wird angezeigt in Abhängigkeit von hasAltPsalms, das in SectionHeader.js schon angelegt ist.
+Er wird angezeigt in Abhängigkeit von `hasAltPsalms`, das in SectionHeader.js schon angelegt ist.
 Die Beschriftung der Buttons lautet,
-- wenn hasAltPsalms=51 (numerischer Wert): `Ant und Ps vom Mi der IV. Woche | Fr der III. Woche` (für Aschermittwoch);
-- wenn hasAltPsalms=69.1 (numerischer Wert): `Ant und Ps vom Do der II. Woche | Fr der III. Woche` (für Gründonnerstag).
+- wenn `hasAltPsalms`=51 (numerischer Wert): `Ant und Ps vom Mi der IV. Woche | Fr der III. Woche` (für Aschermittwoch);
+- wenn `hasAltPsalms`=69.1 (numerischer Wert): `Ant und Ps vom Do der II. Woche | Fr der III. Woche` (für Gründonnerstag).
 Der Klick auf `Fr der III. Woche` setzt den State auf `true`.

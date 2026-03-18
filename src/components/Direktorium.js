@@ -378,6 +378,7 @@ const PrayerTextDisplay = ({
   const [localPrefLongform, setLocalPrefLongform] = useState(localStorage.getItem('prefLongform') === 'true');
   const [showKomplet, setShowKomplet] = useState(true);
   const [ommitConfiteor, setOmmitConfiteor] = useState(localStorage.getItem('ommitConfiteor') === 'true');
+  const [alternativePsalms, setAlternativePsalms] = useState(texts.rank?.useAlternativePsalms || false);
 
   useEffect(() => {
     setLocalPrefComm(texts?.prefComm || 0);
@@ -400,6 +401,7 @@ const PrayerTextDisplay = ({
     if (hour === 'vesper' && texts?.rank?.hasErsteVesper && texts?.vesper?.prefComm) {
       setLocalPrefComm(texts?.vesper?.prefComm);
     };
+    setAlternativePsalms(texts?.rank?.useAlternativePsalms || false);
   }, [hour, texts]);
 
   if (!hour || !texts || !texts[hour]) {
@@ -421,6 +423,7 @@ const PrayerTextDisplay = ({
       localPrefErgPs,
       localPrefContinuous,
       localPrefLanguage,
+      alternativePsalms,
       texts,
       field,
     })
@@ -447,6 +450,7 @@ const PrayerTextDisplay = ({
         localPrefLanguage={localPrefLanguage}
         localPrefLongform={localPrefLongform}
         ommitConfiteor={ommitConfiteor}
+        alternativePsalms={alternativePsalms}
         setLocalPrefLatin={setLocalPrefLatin}
         setLocalPrefLanguage={setLocalPrefLanguage}
         setLocalPrefInv={setLocalPrefInv}
@@ -456,6 +460,7 @@ const PrayerTextDisplay = ({
         setLocalPrefComm={setLocalPrefComm}
         setLocalPrefLongform={setLocalPrefLongform}
         setOmmitConfiteor={setOmmitConfiteor}
+        setAlternativePsalms={setAlternativePsalms}
       />
     );
   };

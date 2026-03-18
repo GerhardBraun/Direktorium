@@ -30,7 +30,9 @@ const SectionHeader = ({
     setLocalPrefContinuous,
     setLocalPrefComm,
     setLocalPrefLongform,
-    setOmmitConfiteor
+    setOmmitConfiteor,
+    alternativePsalms,
+    setAlternativePsalms
 }) => {
     const [pressTimer, setPressTimer] = useState(null);
     const rank = texts?.rank || { wt: 0, date: 0 };
@@ -183,6 +185,8 @@ const SectionHeader = ({
     // Bestimme ausgeschlossene Horen für TSN basierend auf Ergänzungspsalmodie
     const excludedHours = getExcludedHours(texts, localPrefErgPs, title);
     const showLongformToggle = ["RESPONSORIUM", "BITTEN"].includes(title) && ['erstev', 'laudes', 'vesper', 'komplet'].includes(hour);
+    const showAltPsalms = !!hasAltPsalms && isPsalmodie;
+
     const invPsalms = (hour === 'invitatorium' && title === 'PSALMODIE')
         ? texts?.invitatorium?.psalms : null;
     let invPsalmsToShow = [95, 100, 67, 24];
@@ -238,7 +242,7 @@ const SectionHeader = ({
 
     // einfacher Header ohne Buttons
     if (!invPsalms && !showSources && !showLanguageToggle && !showLongformToggle
-        && !showPsalmsWt && !showContinuous && !showTSN && !showErgPs
+        && !showPsalmsWt && !showContinuous && !showTSN && !showErgPs && !showAltPsalms
         && !["SCHULDBEKENNTNIS"].includes(title)
     ) return <h2
         className="prayer-heading"
@@ -479,6 +483,23 @@ const SectionHeader = ({
                             </React.Fragment>
                         );
                     })}
+                </ButtonGroup>
+            )}
+            {showAltPsalms && (
+                <ButtonGroup>
+                    <button
+                        onClick={() => setAlternativePsalms(false)}
+                        className={!alternativePsalms ? 'underline' : ''}
+                    >
+                        vom Wt
+                    </button>
+                    {" | "}
+                    <button
+                        onClick={() => setAlternativePsalms(true)}
+                        className={alternativePsalms ? 'underline' : ''}
+                    >
+                        Fr der III. Woche
+                    </button>
                 </ButtonGroup>
             )}
             {invPsalms && (
