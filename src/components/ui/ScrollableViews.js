@@ -13,7 +13,7 @@ const deceasedSizeRatio = 0.9;
 const debugLog = (message, ...args) => {
     const now = new Date();
     const timeStamp = `${now.getSeconds()}.${now.getMilliseconds().toString().padStart(3, '0')}`;
-    console.log(`[${timeStamp}]`, message, ...args);
+    // console.log(`[${timeStamp}]`, message, ...args);
 };
 
 // Neue Hilfsfunktion: Effizienter Lookup für liturgische Daten nach Datum
