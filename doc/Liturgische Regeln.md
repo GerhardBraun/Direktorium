@@ -40,8 +40,7 @@ der ranghöheren Feier hat Vorrang; bei Gleichrang die Zweite Vesper des
 laufenden Tages.
 
 *Relevanz für die App:* Der State `prefSollemnity` steuert, welche Feier
-bei Konkurrenz bevorzugt wird (`soll` = Hochfest bevorzugen, mit Erster
-Vesper; `kirchw` = Kirchweihfest bevorzugen).
+bei Konkurrenz bevorzugt wird (`soll` = eine Feier, die eigentlich niedrigeren Rang hat, als Hochfest bevorzugen (z.B. bei der Feier des örtlichen Kirchenpatrons oder des eigenen Namenspatrons), mit Erster Vesper; `kirchw` = Kirchweihfest bevorzugen; `verst`= Gedächtnis eines Verstorbenen bevorzugen).
 
 ---
 
@@ -63,19 +62,16 @@ welche Texte zu verwenden sind und ob eine Feier verpflichtend ist.
 | – | Sonntage im Jahreskreis und der Weihnachtszeit | |
 | – | Adventstage 17.–24. Dezember, Wochentage der Fastenzeit | |
 | **Gruppe III** | | |
-| 2 | **Gebotener Gedenktag** | Viele Heiligenfeste, z.B. hl. Josef (1. Mai) |
-| 1 | **Nichtgebotener Gedenktag** | Freigestellte Heiligenfeste |
+| 2 | **Gebotener Gedenktag** | einige bedeutendere Heiligenfeste, z.B. hl. Josef (1. Mai) |
+| 1 | **Nichtgebotener Gedenktag** | freigestellte Heiligenfeste |
 | 0 | **Wochentag** (feria) | Normaler Tag im Jahreskreis |
 
-**Wichtige Faustregel:** `isHighRank` = rank > 2, d.h. Hochfeste und
-Feste. Ab diesem Rang haben die Eigentexte des Tages absoluten Vorrang
-vor Wochentagstexten; es wird nichts vom Wochentag genommen.
 
 ### 2.2 Gebotene vs. nichtgebotene Gedenktage
 
 - **Gebotener Gedenktag** (rank 2, `oblig`): Muss gefeiert werden; eigene
   Texte sind verpflichtend zu verwenden, soweit vorhanden.
-- **Nichtgebotener Gedenktag** (rank 1, `n1`–`n5` oder `d1`–`d5`): Kann
+- **Nichtgebotener Gedenktag** (rank 0, `d1`–`d5`, `n1`–`n5` oder `d11`–`d12`): Kann
   gefeiert werden; alternativ kann auch der Wochentag gebetet werden.
   Die Feier des nichtgebotenen Gedenktages unterscheidet sich inhaltlich
   nicht von der des gebotenen.
@@ -142,6 +138,8 @@ ersetzt:
 - **Voller Umfang** (`LuV eig`): eigene Texte für Laudes und Vesper;
   was nicht eigen ist, kommt aus dem Commune (nicht vom Wochentag)
 
+  *Relevanz für die App:* Alle Hochfeste, Feste und Gedenktage sind in Calendar.ts zusammengefasst. Die Merge-Funktion im BrevierDataProcessor und die Fallback-Reihen in GetValue.js sorgen dafür, dass der unterschiedliche Umfang an eigenen Texten berücksichtigt wird: Wo keine eigenen Texte vorhanden sind, bleiben die vom Wochentag übrig und werden angezeigt.
+
 Feste Regeln:
 - Psalmen, Canticum und 1. Lesung der Lesehore: **immer vom Wochentag**
 - Kleine Horen (Terz/Sext/Non): **immer vom Wochentag**
@@ -150,8 +148,7 @@ Feste Regeln:
 ### 4.4 Fest (rank 3)
 
 Wie Hochfest (→ 4.5), mit diesen Unterschieden:
-- Keine Erste Vesper (außer bei den vier Herren-Festen, die über den
-  Sonntagen stehen: 2.2., 6.8., 14.9., 9.11.)
+- Keine Erste Vesper (außer bei den vier Herren-Festen, wenn sie auf einen Sonntag fallen: 2.2., 6.8., 14.9., 9.11.)
 - Kleine Horen: Psalmen vom Wochentag (wenn nicht eigen)
 - Komplet: vom Wochentag
 
@@ -170,10 +167,9 @@ dem Commune bzw. Ordinarium:
 
 In bestimmten Zeiten (17.–31. Dezember und Fastenzeit) können Gedenktage
 nicht regulär begangen werden. Stattdessen gibt es eine **Kommemoration**:
-Der Heilige wird kurz „erwähnt", aber das Stundengebet gehört dem Tag.
+Texte zum Heiligengedenktag können in Lesehore, Laudes und Vesper am Ende der Hore ergänzt werden.
 
-In der App: State `useCommemoration` steuert, ob eine Kommemoration
-stattfindet.
+In der App: State `useCommemoration` steuert, ob eine Kommemoration stattfindet.
 
 ---
 
@@ -224,20 +220,19 @@ An den **Sonntagen der Geprägten Zeiten** zusätzlich:
 - Eigene Antiphonen zu den Psalmen in Lesehore, Laudes und Vesper
 
 In der **Osterzeit** außerdem:
-- An allen Wochentagen eigene Antiphonen für Laudes und Vesper
-- Alle Psalm-Antiphonen der Komplet werden durch dreifaches „Halleluja"
-  ersetzt
+- An allen Wochentagen eigene Antiphonen zu den Psalmen für Laudes und Vesper
+- Alle Psalm-Antiphonen der Komplet werden durch dreifaches „Halleluja" ersetzt.
 
 ---
 
 ## 7. Erste Vesper und Konkurrenz
 
-Hochfeste und (teilweise) Feste haben eine **Erste Vesper** am Vorabend.
+Sonntage und Hochfeste haben eine **Erste Vesper** am Vorabend.
 Das bedeutet: Am Abend vor dem Festtag wird nicht die Vesper des
 laufenden Tages, sondern bereits die des kommenden Hochfestes gebetet.
 
-Beispiel: Am Samstagabend vor einem Hochfest wird die Erste Vesper des
-Hochfestes gebetet (nicht die normale Samstagsvesper).
+Beispiel: Am Montagabend vor einem Hochfest wird die Erste Vesper des
+Hochfestes gebetet (nicht die normale Montagsvesper).
 
 *Relevanz für die App:* Der SourceSelector und `prefSollemnity` steuern,
 ob die Erste Vesper angeboten wird. Die Angabe im Kalendarium „1. Vp"
@@ -257,8 +252,6 @@ Das **Te Deum** ist ein feierlicher Lobgesang, der am Ende der Lesehore
 - **Nicht**: An Wochentagen der Fastenzeit, an nichtgebotenen und
   gebotenen Gedenktagen (dort folgt nach der 2. Lesung direkt die Oration)
 
-Im Direktorium wird immer angezeigt, wenn das Te Deum zu beten ist.
-
 ---
 
 ## 9. Glossar der wichtigsten Fachbegriffe
@@ -277,15 +270,15 @@ Im Direktorium wird immer angezeigt, wenn das Te Deum zu beten ist.
 | **Magnificat** | Canticum (Lobgesang) Marias (Lk 1,46–55); in der Vesper |
 | **Nunc dimittis** | Canticum des Simeon (Lk 2,29–32); in der Komplet |
 | **Te Deum** | Feierlicher Lobgesang am Ende der Lesehore (→ Abschnitt 8) |
-| **Invitatorium** | Eröffnung des Tagesgebets mit Einladungspsalm (Ps 94/99) |
+| **Invitatorium** | Eröffnung des Tagesgebets mit Einladungspsalm (Ps 95, nach Wahl auch 100/67/24) |
 | **Okkurrenz** | Zusammentreffen zweier Feiern am selben Tag |
 | **Konkurrenz** | Zusammentreffen der Vesper mit der Ersten Vesper des Folgetages |
 | **Kommemoration** | Gedenkfeier eines Heiligen im Rahmen des Stundengebets des Tages |
-| **Geprägte Zeit** | Kirchenjahreszeit mit besonderer Eigenprägung (Advent, Fasten …) |
+| **Geprägte Zeit** | Kirchenjahreszeit mit besonderer Eigenprägung (Advent, Weihnachtszeit, Fastenzeit, Osterzeit) |
 | **Jahreskreis** | Die „gewöhnliche Zeit" außerhalb der Geprägten Zeiten |
-| **Hochfest (Sollemnitas)** | Höchster Rang einer Feier (rank 4) |
+| **Hochfest (Sollemnitas)** | Höchster Rang einer Feier (rank 5) |
 | **Fest (Festum)** | Zweithöchster Rang (rank 3) |
-| **Gedenktag (Memoria)** | Niedrigerer Rang; geboten (rank 2) oder nichtgeboten (rank 1) |
+| **Gedenktag (Memoria)** | Niedrigerer Rang; geboten (rank 2) oder nichtgeboten (rank 0) |
 | **Wochentag (Feria)** | Rang 0: kein besonderer Festtag |
-| **Hagiographische Lesung** | Lesung über das Leben eines Heiligen (2. Lesung der Lesehore) |
+| **Hagiographische Lesung** | 2. Lesung der Lesehore an Heiligengedenktagen |
 | **Stundenbuch** | Das Buch mit allen Texten des Stundengebets (lat.: Liturgia Horarum) |

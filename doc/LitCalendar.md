@@ -16,7 +16,7 @@
 
 ```js
 {
-  season,          // Jahreszeitkürzel: 'a' | 'w' | 'j' | 'q' | 'o'
+  season,          // Jahreszeitkürzel: 'a' | 'w' | 'j' | 'q' (Quadragesima=Fastenzeit) | 'o'
   week,            // Wochennummer in der jeweiligen Jahreszeit
   dayOfWeek,       // Wochentag (0 = Sonntag … 6 = Samstag, UTC)
   weekOfPsalter,   // Psalter-Woche (1–4, zyklisch)
@@ -40,7 +40,7 @@
 | `a` | Advent | 1. Adventssonntag bis 24. Dezember |
 | `w` | Weihnachtszeit | 25. Dezember bis Taufe des Herrn |
 | `j` | Jahreskreis | nach Taufe Jesu bis Di vor Aschermittwoch / nach Pfingsten bis Advent |
-| `q` | Fastenzeit | Aschermittwoch bis Karsamstag |
+| `q` | Fastenzeit (Quadragesima) | Aschermittwoch bis Karsamstag |
 | `o` | Osterzeit | Ostersonntag bis Pfingstsonntag |
 
 ### Regelwerk der Saisoneinteilung (in `getLiturgicalInfo`)
@@ -68,7 +68,8 @@ Das Osterdatum wird mit dem **Meeus/Jones/Butcher-Algorithmus** exakt für jedes
 | Aschermittwoch | Ostern − 46 Tage (= − 42 Tage bis 1. Fastensonntag − 4 Wochentage) |
 | 1. Fastensonntag | Ostern − 42 Tage |
 | Christi Himmelfahrt | Ostern + 39 Tage (= `o-6-4`, Donnerstag der 6. Osterwoche) |
-| Pfingsten | Ostern + 49 Tage |
+| Pfingsten | Ostern + 49 Tage (= `o-8-0`) |
+| Pfingstmontag | Pfingsten + 1 Tag (`afterPentecost = 41`) |
 | Dreifaltigkeitssonntag | Pfingsten + 7 Tage (`afterPentecost = 40`) |
 | Fronleichnam | Dreifaltigkeitssonntag + 4 Tage (`afterPentecost = 44`) |
 | Herz-Jesu-Fest | Fronleichnam + 8 Tage (`afterPentecost = 45`) |
@@ -96,7 +97,7 @@ Die beiden Tage unmittelbar vor Herz-Jesu (Mittwoch und Donnerstag) erhalten Son
 
 ## Die `swdCombined`-Notation
 
-Der Schlüssel `"{season}-{week}-{dayOfWeek}"` identifiziert jeden Tag der liturgischen Jahreszyklus eindeutig, zusätzlich zum Kalenderdatum trägt. Beispiele:
+Der Schlüssel `"{season}-{week}-{dayOfWeek}"` identifiziert jeden Tag der liturgischen Jahreszyklus eindeutig, zusätzlich zum Kalenderdatum. Beispiele:
 
 | `swdCombined` | Bedeutung |
 |--------------|-----------|
@@ -129,7 +130,7 @@ Die Funktion `writeOut` ermittelt den lesbaren Tagesnamen. Dabei gilt folgende P
 
 ## Das Rangsystem
 
-Der Rang bestimmt im Zusammenspiel der beiden Kalendersysteme, ob eine Feier nach dem liturgischen Kalender (swd) oder eine Feier nach dem Heiligenkalender (MM-TT) Vorrang hat.
+Der Rang bestimmt im Zusammenspiel der beiden Kalendersysteme, ob eine Feier nach dem liturgischen Kalender (swd) oder eine Feier nach dem Heiligenkalender (dateCompare im Format MM-TT) Vorrang hat.
 
 ### Rangskala
 
@@ -141,7 +142,7 @@ Der Rang bestimmt im Zusammenspiel der beiden Kalendersysteme, ob eine Feier nac
 | 3 | Fest (Festum) |
 | 2 | Gebotener Gedenktag (Memoria obligatoria) |
 | (1) | ursprünglich für nichtgebotene Gedenktage vorgesehen – nicht genutzt |
-| 0 | Feria / nichtgebotener Gedenktag |
+| 0 | Wochentag / nichtgebotener Gedenktag |
 
 Die Komponente berechnet **zwei unabhängige Ränge** pro Tag:
 
