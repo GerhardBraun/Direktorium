@@ -760,7 +760,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
                     <React.Fragment key={`cant-bracket-${mi}`}>
                         {renderWithEll(left, `bl-${mi}`)}
                         <span className="psalm-cant-bracket">{renderWithEll(inner || content, `bi-${mi}`)}</span>
-                        {renderWithEll(right, `br-${mi}`)}
+                        {'\u2060'}{renderWithEll(right, `br-${mi}`)}
                     </React.Fragment>
                 );
             } else if (s.startsWith('^d')) {
