@@ -5979,6 +5979,7 @@ export const brevierData = {
       "0": {
         "Invitatorium": {
           "ant0": "Kommt, lasst uns jubeln vor dem Herrn, lasst uns jauchzen dem Fels unseres Heiles!^ö",
+          "mode0": "VII",
           "ant0_lat": "Veníte, exsultémus Dómino, iubilémus Deo salutári nostro.^Lö"
         },
         "Vigil": {
@@ -6008,6 +6009,7 @@ export const brevierData = {
       "1": {
         "Invitatorium": {
           "ant0": "Kommt vor das Angesicht des Herrn, naht ihm mit Lobpreis!",
+          "mode0": "V",
           "ant0_lat": "Præoccupémus fáciem Dómini in confessióne."
         },
         "Lesehore": {
@@ -6031,6 +6033,7 @@ export const brevierData = {
       "2": {
         "Invitatorium": {
           "ant0": "Ein großer König ist der Herr; kommt, wir fallen vor ihm nieder!",
+          "mode0": "I",
           "ant0_lat": "Regem magnum Dóminum, veníte, adorémus."
         },
         "Lesehore": {
@@ -6054,6 +6057,7 @@ export const brevierData = {
       "3": {
         "Invitatorium": {
           "ant0": "Lasst uns niederfallen vor Gott, vor dem Herrn, unserm Schöpfer!",
+          "mode0": "VIII",
           "ant0_lat": "Adorémus Dóminum, quóniam ipse fecit nos."
         },
         "Lesehore": {
@@ -6077,6 +6081,7 @@ export const brevierData = {
       "4": {
         "Invitatorium": {
           "ant0": "Kommt, lasst uns niederknien vor dem Herrn, denn er ist unser Gott!",
+          "mode0": "IV",
           "ant0_lat": "Veníte, adorémus Dóminum, quia ipse est Deus noster."
         },
         "Lesehore": {
@@ -6100,6 +6105,7 @@ export const brevierData = {
       "5": {
         "Invitatorium": {
           "ant0": "Danket dem Herrn; ^HULDKL!",
+          "mode0": "II",
           "ant0_lat": "Confitémini Dómino, quia in ætérnum misericórdia eius."
         },
         "Lesehore": {
@@ -6123,6 +6129,7 @@ export const brevierData = {
       "6": {
         "Invitatorium": {
           "ant0": "Dem Herrn gehört die Erde und was sie erfüllt; kommt, wir beten ihn an!",
+          "mode0": "VI",
           "ant0_lat": "Dómini est terra et plenitúdo eius; veníte, adorémus eum."
         },
         "Lesehore": {
@@ -6162,6 +6169,7 @@ export const brevierData = {
       "0": {
         "Invitatorium": {
           "ant0": "Wir sind das Volk des Herrn, die Herde seiner Weide; kommt, wir beten ihn an!^ö",
+          "mode0": "VIII",
           "ant0_lat": "Pópulus Dómini et oves páscuæ eius, veníte, adorémus eum.^Lö"
         },
         "Lesehore": {
@@ -6171,6 +6179,8 @@ export const brevierData = {
       },
       "1": {
         "Invitatorium": {
+          "ant0": "Lasst uns jubeln vor dem Herrn, vor ihm jauchzen mit Lieder!",
+          "mode0": "III",
           "ant0_lat": "Exsultémus Dómino, et in psalmis iubilémus ei."
         },
         "Lesehore": {
@@ -6180,6 +6190,8 @@ export const brevierData = {
       },
       "2": {
         "Invitatorium": {
+          "ant0": "Der Herr ist ein großer Gott; kommt wir fallen vor ihm nieder!",
+          "mode0": "VIII",
           "ant0_lat": "Deum magnum Dóminum, veníte, adorémus."
         },
         "Lesehore": {
@@ -6189,6 +6201,8 @@ export const brevierData = {
       },
       "3": {
         "Invitatorium": {
+          "ant0": "Jauchzt vor dem Herrn, alle Länder der Erde, dient dem Herrn mit Freude!",
+          "mode0": "II",
           "ant0_lat": "Iubiláte Deo, omnis terra, servíte Dómino in lætítia."
         },
         "Lesehore": {
@@ -6198,6 +6212,8 @@ export const brevierData = {
       },
       "4": {
         "Invitatorium": {
+          "ant0": "Der Herr allein ist Gott; kommt vor sein Antlitz mit Jubel!",
+          "mode0": "VI",
           "ant0_lat": "Introíte in conspéctu Dómini in exsultatióne."
         },
         "Lesehore": {
@@ -6207,6 +6223,8 @@ export const brevierData = {
       },
       "5": {
         "Invitatorium": {
+          "ant0": "Der Herr ist gütig; dankt ihm, preist seinen Namen!",
+          "mode0": "IV",
           "ant0_lat": "Suávis est Dóminus, benedícite nómini eius."
         },
         "Lesehore": {
@@ -6216,6 +6234,8 @@ export const brevierData = {
       },
       "6": {
         "Invitatorium": {
+          "ant0": "Hört auf die Stimme des Herrn, damit ihr in das Land seiner Ruhe kommt!",
+          "mode0": "I",
           "ant0_lat": "Audiámus vocem Dómini, ut ingrediámur in réquiem eius."
         },
         "Lesehore": {
@@ -8013,6 +8033,7 @@ export const brevierData = {
           "hymn_2": 0.0,
           "hymn_3": 0.0,
           "antev": "Am frühen Morgen des ersten Tages kamen sie zum Grab, als die Sonne schon aufgegangen war.^ö",
+          "modeev": "VIIIc",
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
           "antev_lat": "Et valde mane, una sabbatórum, véniunt ad monuméntum, orto iam sole.^LÖ"
@@ -8021,6 +8042,7 @@ export const brevierData = {
           "hymn_2": 0.0,
           "hymn_3": 0.0,
           "antev": "Am Abend des ersten Tages waren die Jünger versammelt hinter verschlossenen Türen. Da trat Jesus in ihre Mitte und sprach: Friede sei mit euch.^ö",
+          "modeev": "I",
           "hymn_2_lat": 0.0,
           "hymn_3_lat": 0.0,
           "antev_lat": "Cum esset sero die illo una sabbatórum, et fores essent clausæ ubi erant discípuli congregáti, stetit Iesus in médio et dixit eis: Pax vobis.^LÖ"
@@ -8048,6 +8070,7 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Geht eilends hin und sagt den Jüngern: Der Herr ist auferstanden.^ö",
+          "modeev": "VIII",
           "antev_lat": "Cito eúntes, dícite discípulis quia surréxit Dóminus.^LÖ"
         },
         "Terz": {
@@ -8057,6 +8080,7 @@ export const brevierData = {
         },
         "Vesper": {
           "antev": "Jesus kam den Frauen entgegen und sprach: Seid gegrüßt! Sie warfen sich vor ihm nieder und umfassten seine Füße.^ö",
+          "modeev": "VIII",
           "antev_lat": "Iesus occúrrit muliéribus, dicens: Avéte. Illæ autem accessérunt et tenuérunt pedes eius.^LÖ"
         }
       },
@@ -8082,6 +8106,7 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Jesus sprach: Maria! Da wandte sich Maria um und sagte: Meister! Er sprach: Halte mich nicht fest, denn ich bin noch nicht aufgefahren zu meinem Vater.^ö",
+          "modeev": "IIc",
           "antev_lat": "Dixit Iesus: María. Convérsa illa dicit ei: Rabbóni. Et dicit ei: Noli me tángere; nondum enim ascéndi ad Patrem meum.^LÖ"
         },
         "Terz": {
@@ -8091,6 +8116,7 @@ export const brevierData = {
         },
         "Vesper": {
           "antev": "Ich stand am Grabe und weinte; da sah ich meinen Herrn.^ö",
+          "modeev": "IV",
           "antev_lat": "Dum flerem ad monuméntum, vidi Dóminum meum.^LÖ"
         }
       },
@@ -8116,6 +8142,7 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Jesus legte ihnen dar, ausgehend von Mose und allen Propheten, was über ihn geschrieben steht in der gesamten Schrift.^ö",
+          "modeev": "I",
           "antev_lat": "Incípiens Iesus a Móyse et ómnibus prophétis, interpretabátur illis Scriptúras quæ de ipso erant.^LÖ"
         },
         "Terz": {
@@ -8125,6 +8152,7 @@ export const brevierData = {
         },
         "Vesper": {
           "antev": "Jesus ging mit hinein, um bei ihnen zu bleiben. Und als er mit ihnen zu Tische saß, nahm er das Brot und sprach den Lobpreis. Dann brach er das Brot und gab es ihnen.^ö",
+          "modeev": "I",
           "antev_lat": "Intrávit Iesus cum illis; et factum est, dum recúmberet, accépit panem, benedíxit ac fregit, et porrigébat illis.^LÖ"
         }
       },
@@ -8150,6 +8178,7 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Jesus trat in die Mitte seiner Jünger und sprach: Friede sei mit euch.^ö",
+          "modeev": "VI",
           "antev_lat": "Stetit Iesus in médio discipulórum suórum, et dixit eis: Pax vobis.^LÖ"
         },
         "Terz": {
@@ -8159,6 +8188,7 @@ export const brevierData = {
         },
         "Vesper": {
           "antev": "Seht meine Hände und meine Füße: Ich bin es.^ö",
+          "modeev": "IIc",
           "antev_lat": "Vidéte manus meas et pedes meos, quia ego ipse sum.^LÖ"
         }
       },
@@ -8184,6 +8214,7 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Am Ufer des Sees offenbarte sich Jesus zum dritten Mal, seit er von den Toten erstanden war.^ö",
+          "modeev": "VI",
           "antev_lat": "Hoc iam tértio manifestávit se Iesus discípulis suis, postquam resurréxit a mórtuis.^LÖ"
         },
         "Terz": {
@@ -8193,6 +8224,7 @@ export const brevierData = {
         },
         "Vesper": {
           "antev": "Der Jünger, den Jesus liebte, sagte zu Petrus: Es ist der Herr.^ö",
+          "modeev": "VI",
           "antev_lat": "Dixit discípulus ille, quem diligébat Iesus: Dóminus est.^LÖ"
         }
       },
@@ -8218,6 +8250,7 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Als Jesus auferstanden war, am ersten Tag der Woche, erschien er zuerst Maria Magdalena, die er von sieben Dämonen befreit hatte.^ö",
+          "modeev": "IIc",
           "antev_lat": "Surgens Iesus mane prima sábbati, appáruit primo Maríæ Magdalénæ, de qua eiécerat septem dæmónia.^LÖ"
         },
         "Terz": {
@@ -8240,6 +8273,9 @@ export const brevierData = {
           "ant1": "Auferstanden ist Christus; er erleuchtet sein Volk, das er mit seinem Blut erlöst hat.^ö",
           "ant2": "Unser Erlöser ist aus dem Grab erstanden; singt unserem Herrn und Gott den Lobgesang.^ö",
           "ant3": "Halleluja. Auferstanden ist der Herr, wie er euch gesagt hat.^ö",
+          "mode1": "VIII",
+          "mode2": "VII",
+          "mode3": "I",
           "resp0": "",
           "resp1": "",
           "resp2": "",
@@ -8258,6 +8294,7 @@ export const brevierData = {
           "ant1": "",
           "ant2": "",
           "ant3": "",
+          "mode0": "VIII",
           "resp0": "Das ist der Tag, den der Herr gemacht hat.^ö",
           "resp1": "Lasst uns jubeln und seiner uns freuen.^ö",
           "ant0_lat": "Christus surréxit a mórtuis, iam non móritur.^LÖ",
@@ -8272,6 +8309,7 @@ export const brevierData = {
           "ant1": "",
           "ant2": "",
           "ant3": "",
+          "mode0": "IV",
           "resp0": "Das ist der Tag, den der Herr gemacht hat.^ö",
           "resp1": "Lasst uns jubeln und seiner uns freuen.^ö",
           "ant0_lat": "Tráditus est propter delícta nostra, et resurréxit propter iustificatiónem nostram.^LÖ",
@@ -8286,6 +8324,7 @@ export const brevierData = {
           "ant1": "",
           "ant2": "",
           "ant3": "",
+          "mode0": "II",
           "resp0": "Das ist der Tag, den der Herr gemacht hat.^ö",
           "resp1": "Lasst uns jubeln und seiner uns freuen.^ö",
           "ant0_lat": "Si consurrexístis cum Christo, quæ sursum sunt quǽrite.^LÖ",
@@ -8303,6 +8342,9 @@ export const brevierData = {
           "ant1": "Maria Magdalena und die andere Maria kamen, um nach dem Grab zu sehen.^ö",
           "ant2": "Kommt her und seht die Stelle, wo der Herr gelegen hat.^ö",
           "ant3": "Jesus sprach: Fürchtet euch nicht! Geht und sagt meinen Brüdern, sie sollen nach Galiläa gehen. Dort werdet ihr mich sehen.^ö",
+          "mode1": "VIII",
+          "mode2": "IX",
+          "mode3": "VII",
           "resp0": "",
           "resp1": "",
           "resp2": "",
@@ -8332,11 +8374,15 @@ export const brevierData = {
           "ant1": "Maria Magdalena und die andere Maria kamen, um nach dem Grab zu sehen.^ö",
           "ant2": "Kommt her und seht die Stelle, wo der Herr gelegen hat.^ö",
           "ant3": "Jesus sprach: Fürchtet euch nicht! Geht und sagt meinen Brüdern, sie sollen nach Galiläa gehen. Dort werdet ihr mich sehen.^ö",
+          "mode1": "VIII",
+          "mode2": "IX",
+          "mode3": "VII",
           "resp0": "",
           "resp1": "",
           "resp2": "",
           "resp3": "",
           "antev": "Acht Tage darauf kam Jesus wiederum bei verschlossenen Türen und sprach zu den Jüngern: Friede sei mit euch.^ö",
+          "modeev": "IIc",
           "ant1_lat": "Venérunt ad monuméntum María Magdaléne et áltera María vidére sepúlcrum.^LÖ",
           "ant2_lat": "Veníte, et vidéte locum ubi pósitus erat Dóminus.^LÖ",
           "ant3_lat": "Ait Iesus: Nolíte timére; ite, nuntiáte frátribus meis ut eant in Galilǽam; ibi me vidébitis.^LÖ",
@@ -8372,11 +8418,15 @@ export const brevierData = {
           "ant1": "Auferstanden ist Christus; er erleuchtet sein Volk, das er mit seinem Blut erlöst hat.^ö",
           "ant2": "Unser Erlöser ist aus dem Grab erstanden; singt unserem Herrn und Gott den Lobgesang.^ö",
           "ant3": "Halleluja. Auferstanden ist der Herr, wie er euch gesagt hat.^ö",
+          "mode1": "VIII",
+          "mode2": "VII",
+          "mode3": "I",
           "resp0": "",
           "resp1": "",
           "resp2": "",
           "resp3": "",
           "antev": "Strecke deine Hand aus und lege sie in meine Seite und sei nicht ungläubig, sondern gläubig.^ö",
+          "modeev": "V",
           "ant1_lat": "Surréxit Christus et illúxit pópulo suo, quem redémit sánguine suo.^LÖ",
           "ant2_lat": "Redémptor noster surréxit de sepúlcro: hymnum dicámus Dómino Deo nostro.^LÖ",
           "ant3_lat": "Allelúia, resurréxit Dóminus sicut dixit vobis.^LÖ",
@@ -8394,6 +8444,7 @@ export const brevierData = {
           "ant1": "",
           "ant2": "",
           "ant3": "",
+          "mode0": "VIII",
           "resp0": "Das ist der Tag, den der Herr gemacht hat.^ö",
           "resp1": "Lasst uns jubeln und seiner uns freuen.^ö",
           "ant0_lat": "Christus surréxit a mórtuis, iam non móritur.^LÖ",
@@ -8408,6 +8459,7 @@ export const brevierData = {
           "ant1": "",
           "ant2": "",
           "ant3": "",
+          "mode0": "IV",
           "resp0": "Das ist der Tag, den der Herr gemacht hat.^ö",
           "resp1": "Lasst uns jubeln und seiner uns freuen.^ö",
           "ant0_lat": "Tráditus est propter delícta nostra, et resurréxit propter iustificatiónem nostram.^LÖ",
@@ -8422,6 +8474,7 @@ export const brevierData = {
           "ant1": "",
           "ant2": "",
           "ant3": "",
+          "mode0": "II",
           "resp0": "Das ist der Tag, den der Herr gemacht hat.^ö",
           "resp1": "Lasst uns jubeln und seiner uns freuen.^ö",
           "ant0_lat": "Si consurrexístis cum Christo, quæ sursum sunt quǽrite.^LÖ",
@@ -8439,11 +8492,15 @@ export const brevierData = {
           "ant1": "Maria Magdalena und die andere Maria kamen, um nach dem Grab zu sehen.^ö",
           "ant2": "Kommt her und seht die Stelle, wo der Herr gelegen hat.^ö",
           "ant3": "Jesus sprach: Fürchtet euch nicht! Geht und sagt meinen Brüdern, sie sollen nach Galiläa gehen. Dort werdet ihr mich sehen.^ö",
+          "mode1": "VIII",
+          "mode2": "IX",
+          "mode3": "VII",
           "resp0": "",
           "resp1": "",
           "resp2": "",
           "resp3": "",
           "antev": "Weil du mich gesehen hast, Thomas, glaubst du. Selig, die nicht sehen und doch glauben.^ö",
+          "modeev": "IIc",
           "ant1_lat": "Venérunt ad monuméntum María Magdaléne et áltera María vidére sepúlcrum.^LÖ",
           "ant2_lat": "Veníte, et vidéte locum ubi pósitus erat Dóminus.^LÖ",
           "ant3_lat": "Ait Iesus: Nolíte timére; ite, nuntiáte frátribus meis ut eant in Galilǽam; ibi me vidébitis.^LÖ",
@@ -8461,10 +8518,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Amen, amen, ich sage euch: Wenn jemand nicht von oben geboren wird, kann er das Reich Gottes nicht schauen.^ö",
+          "modeev": "I",
           "antev_lat": "Amen, amen dico vobis: Nisi quis natus fúerit dénuo, non potest vidére regnum Dei.^LÖ"
         },
         "Vesper": {
           "antev": "Was aus dem Fleisch geboren ist, das ist Fleisch; was aber aus dem Geist geboren ist, das ist Geist.^ö",
+          "modeev": "IV",
           "antev_lat": "Quod natum est ex carne, caro est; et quod natum est ex Spíritu, Spíritus est.^LÖ"
         }
       },
@@ -8475,10 +8534,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Ich bin das A und das O, der Erste und der Letzte. Ich bin die Wurzel Davids und sein Stamm. Ich bin der leuchtende Stern, der Morgenstern.^ö",
+          "modeev": "VIIIc",
           "antev_lat": "Ego sum alpha et ómega, primus et novíssimus; ego sum radix et genus David, stella spléndida et matutína.^LÖ"
         },
         "Vesper": {
           "antev": "Brannte uns nicht das Herz, als Jesus unterwegs mit uns redete.^ö",
+          "modeev": "I",
           "antev_lat": "Nonne cor nostrum ardens erat in nobis, dum Iesus loquerétur nobis in via?^LÖ"
         }
       },
@@ -8489,10 +8550,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "So sehr hat Gott die Welt geliebt, dass er seinen einzigen Sohn dahingab, damit alle, die an ihn glauben, nicht verlorengehen, sondern das ewige Leben haben.^ö",
+          "modeev": "VIII",
           "antev_lat": "Sic Deus diléxit mundum, ut Fílium suum unigénitum daret; ut omnis, qui credit in ipsum, non péreat, sed hábeat vitam ætérnam.^LÖ"
         },
         "Vesper": {
           "antev": "Wer die Wahrheit tut, der kommt zum Licht, damit offenbar wird, dass seine Taten in Gott vollbracht sind.^ö",
+          "modeev": "VIII",
           "antev_lat": "Qui facit veritátem, venit ad lucem, ut manifesténtur eius ópera, quia in Deo sunt facta.^LÖ"
         }
       },
@@ -8503,10 +8566,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Der Vater liebt den Sohn und hat alles in seine Hand gegeben.^ö",
+          "modeev": "VIII",
           "antev_lat": "Pater díligit Fílium, et ómnia dedit in manu eius.^LÖ"
         },
         "Vesper": {
           "antev": "Wer an den Sohn glaubt, der hat das ewige Leben.^ö",
+          "modeev": "IV",
           "antev_lat": "Qui credit in Fílium habet vitam ætérnam.^LÖ"
         }
       },
@@ -8517,10 +8582,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Jesus nahm die Brote, sprach das Dankgebet und teilte sie aus an alle, die dort saßen.^ö",
+          "modeev": "VIII",
           "antev_lat": "Accépit Iesus panes et, cum grátias egísset, distríbuit discumbéntibus.^LÖ"
         },
         "Vesper": {
           "antev": "Der die Macht des Todes zerbrach, nahm das heilige Kreuz auf sich; mit Herrlichkeit bekleidet, erstand er am dritten Tag.^ö",
+          "modeev": "VIII",
           "antev_lat": "Crucem sanctam súbiit, qui inférnum confrégit; accínctus est poténtia, surréxit die tértia.^LÖ"
         }
       },
@@ -8531,6 +8598,7 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Friede sei mit euch, ich bin es, fürchtet euch nicht.^ö",
+          "modeev": "VIII",
           "antev_lat": "Pax vobis, ego sum, allelúia; nolíte timére.^LÖ"
         }
       }
@@ -8545,7 +8613,11 @@ export const brevierData = {
           "ant1": "Der Herr ist erhaben über alle Himmel, er hebt den Schwachen aus dem Staub empor.^ö",
           "ant2": "Du hast meine Fesseln gelöst, ein Opfer des Dankes will ich dir bringen.^ö",
           "ant3": "Obwohl er Gottes Sohn war, hat er Gehorsam gelernt durch sein Leiden und wurde für alle, die ihm gehorchen, zum Urheber des ewigen Heiles.^ö",
+          "mode1": "VII",
+          "mode2": "III",
+          "mode3": "IVa",
           "antev": "Herr, bleibe bei uns, denn es will Abend werden, und der Tag hat sich schon geneigt.^ö",
+          "modeev": "VI",
           "ant1_lat": "Excélsus super omnes cælos Deus, suscitávit a terra ínopem.^LÖ",
           "ant2_lat": "Dirupísti, Dómine, víncula mea: tibi sacrificábo hóstiam laudis.^LÖ",
           "ant3_lat": "Fílius Dei dídicit ex iis quæ passus est obœdiéntiam, et factus est ómnibus obtemperántibus sibi causa salútis ætérnæ.^LÖ",
@@ -8562,7 +8634,11 @@ export const brevierData = {
           "ant1": "Der Herr ist König, bekleidet mit Hoheit.^ö",
           "ant2": "Auch die Schöpfung wird befreit zur Freiheit und Herrlichkeit der Kinder Gottes.^ö",
           "ant3": "Der Name des Herrn ist erhaben. Seine Hoheit strahlt über Erde und Himmel.^ö",
+          "mode1": "VII",
+          "mode2": "I",
+          "mode3": "VIII",
           "antev": "Christus musste leiden und am dritten Tag auferstehen von den Toten.^ö",
+          "modeev": "IIc",
           "ant1_lat": "Dóminus regnávit, decórem indútus est.^LÖ",
           "ant2_lat": "Liberábitur creatúra in libertátem glóriæ filiórum Dei.^LÖ",
           "ant3_lat": "Exaltátum est nomen Dómini super cælum et terram.^LÖ",
@@ -8572,7 +8648,11 @@ export const brevierData = {
           "ant1": "Christus, der Erbe des Alls, hat die Reinigung von den Sünden vollbracht. Dann setzte er sich zur Rechten der Herrlichkeit Gottes in der Höhe.^ö",
           "ant2": "Der Herr hat seinem Volk Erlösung gewährt.^ö",
           "ant3": "Halleluja. Der Herr, unser Gott, ist König. Ihm sei Ehre und Herrlichkeit.^ö",
+          "mode1": "VIII",
+          "mode2": "VIIIc",
+          "mode3": "VII",
           "antev": "Jesus sprach zu den Jüngern: Bringt von den Fischen, die ihr gerade gefangen habt. Da ging Simon Petrus und zog das Netz ans Land. Es war mit großen Fischen gefüllt.^ö",
+          "modeev": "IIc",
           "ant1_lat": "Purgatiónem peccatórum fáciens, sedet ad déxteram maiestátis in excélsis.^LÖ",
           "ant2_lat": "Redemptiónem misit Dóminus pópulo suo.^LÖ",
           "ant3_lat": "Allelúia, regnávit Dóminus noster; exsultémus et demus glóriam ei.^LÖ",
@@ -8586,10 +8666,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Müht euch nicht um die Speise, die verdirbt, sondern um jene, die bleibt für das ewige Leben.^ö",
+          "modeev": "IV",
           "antev_lat": "Operámini non cibum qui perit, sed qui pérmanet in vitam ætérnam.^LÖ"
         },
         "Vesper": {
           "antev": "Das ist das Werk Gottes, dass ihr an den glaubt, den er gesandt hat.^ö",
+          "modeev": "VI",
           "antev_lat": "Hoc est opus Dei, ut credátis in eum, quem misit ille.^LÖ"
         }
       },
@@ -8600,10 +8682,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Amen, amen, ich sage euch: Nicht Mose hat euch das Brot vom Himmel gegeben, sondern mein Vater gibt euch das wahre Brot vom Himmel.^ö",
+          "modeev": "VIIIa",
           "antev_lat": "Amen, amen dico vobis: Non Móyses dedit vobis panem de cælo, sed Pater meus dat vobis panem de cælo verum.^LÖ"
         },
         "Vesper": {
           "antev": "Das Brot, das Gott gibt, kommt vom Himmel herab und gibt der Welt das Leben.^ö",
+          "modeev": "VII",
           "antev_lat": "Panis Dei est, qui de cælo descéndit et dat vitam mundo.^LÖ"
         }
       },
@@ -8614,10 +8698,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Alle, die den Sohn sehen und an ihn glauben, haben das ewige Leben. Ich werde sie auferwecken am Jüngsten Tag.^ö",
+          "modeev": "VII",
           "antev_lat": "Omnis qui videt Fílium et credit in eum, habet vitam ætérnam, et ego resuscitábo eum in novíssimo die.^LÖ"
         },
         "Vesper": {
           "antev": "Alles, was der Vater mir gibt, wird zu mir kommen, und wer zu mir kommt, den weise ich nicht zurück.^ö",
+          "modeev": "VIII",
           "antev_lat": "Omne quod dat mihi Pater, ad me véniet; et eum qui venit ad me, non eíciam foras.^LÖ"
         }
       },
@@ -8628,10 +8714,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Amen, amen, ich sage euch: Wer an mich glaubt, hat das ewige Leben.^ö",
+          "modeev": "IIc",
           "antev_lat": "Amen, amen dico vobis: Qui credit in me, habet vitam ætérnam.^LÖ"
         },
         "Vesper": {
           "antev": "Ich bin das lebendige Brot, das vom Himmel gekommen ist. Wer von diesem Brot isst, wird leben in Ewigkeit. Das Brot, das ich geben werde, ist mein Fleisch. Ich gebe es hin für das Leben der Welt.^ö",
+          "modeev": "VIII",
           "antev_lat": "Ego sum panis vivus, qui de cælo descéndi. Si quis manducáverit ex hoc pane, vivet in ætérnum; et panis, quem ego dabo, caro mea est pro mundi vita.^LÖ"
         }
       },
@@ -8642,10 +8730,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Wer mein Fleisch isst und mein Blut trinkt, der bleibt in mir und ich in ihm.^ö",
+          "modeev": "VII",
           "antev_lat": "Qui mandúcat meam carnem et bibit meum sánguinem, in me manet et ego in eo.^LÖ"
         },
         "Vesper": {
           "antev": "Der am Kreuze starb, ist von den Toten erstanden und hat uns erlöst.^ö",
+          "modeev": "IV",
           "antev_lat": "Crucifíxus surréxit a mórtuis et redémit nos.^LÖ"
         }
       },
@@ -8656,6 +8746,7 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Zu wem sollen wir gehen? Du, Herr, hast Worte des ewigen Lebens. Wir haben geglaubt und erkannt: Du bist der Heilige Gottes.^ö",
+          "modeev": "IIc",
           "antev_lat": "Dixit Simon Petrus: Dómine, ad quem íbimus? Verba vitæ ætérnæ habes; et nos credídimus et cognóvimus quia tu es Christus Fílius Dei.^LÖ"
         }
       }
@@ -8670,7 +8761,11 @@ export const brevierData = {
           "ant1": "Der Friede Christi herrsche in euren Herzen.^ö",
           "ant2": "Herr, du hast uns für Gott erkauft durch dein Blut.^ö",
           "ant3": "Musste nicht der Messias all das erleiden, um so in seine Herrlichkeit zu gelangen?^ö",
+          "mode1": "VIII",
+          "mode2": "IIm",
+          "mode3": "II",
           "antev": "So spricht der Herr: Ich bin die Tür; wer durch mich hineingeht, wird gerettet.^ö",
+          "modeev": "I",
           "ant1_lat": "Pax Christi exsúltet in córdibus vestris.^LÖ",
           "ant2_lat": "Redemísti nos Deo in sánguine tuo.^LÖ",
           "ant3_lat": "Nonne hæc opórtuit pati Christum, et ita intráre in glóriam suam?^LÖ",
@@ -8684,7 +8779,11 @@ export const brevierData = {
           "ant1": "Ich werde nicht sterben, sondern leben und die Taten des Herrn verkünden.^ö",
           "ant2": "Gepriesen ist dein heiliger, herrlicher Name, hoch gelobt und verherrlicht in Ewigkeit.^ö",
           "ant3": "Preist die Größe unseres Gottes: Seine Werke sind gut und all seine Wege gerecht.^ö",
+          "mode1": "VIII",
+          "mode2": "I",
+          "mode3": "VII",
           "antev": "Ich bin der Gute Hirt, ich bin der Weg und die Wahrheit und das Leben. Ich kenne die Meinen, und die Meinen kennen mich.^ö",
+          "modeev": "VI",
           "ant1_lat": "Non móriar, sed vivam et narrábo ópera Dómini.^LÖ",
           "ant2_lat": "Benedíctum nomen glóriæ tuæ sanctum.^LÖ",
           "ant3_lat": "Date magnificéntiam Deo nostro; Dei perfécta sunt ópera, et omnes viæ eius iudícia.^LÖ",
@@ -8694,7 +8793,11 @@ export const brevierData = {
           "ant1": "Ihr seid mit Christus auferweckt, sucht also, was droben ist, wo Christus thront zur Rechten des Vaters.^ö",
           "ant2": "Den Redlichen erstrahlt im Finstern ein Licht: der gnädige, barmherzige und gerechte Herr.^ö",
           "ant3": "Halleluja. Das Heil und die Herrlichkeit und die Macht ist bei unserem Gott.^ö",
+          "mode1": "II",
+          "mode2": "VIII",
+          "mode3": "VII",
           "antev": "Meine Schafe hören auf meine Stimme; ich kenne sie, und sie folgen mir.^ö",
+          "modeev": "IV",
           "ant1_lat": "Quæ sursum sunt quǽrite, ubi Christus est in déxtera Dei sedens.^LÖ",
           "ant2_lat": "Exórtum est in ténebris lumen rectis corde.^LÖ",
           "ant3_lat": "Allelúia, salus et glória et virtus Deo nostro.^LÖ",
@@ -8708,10 +8811,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Ich bin der Gute Hirt. Ich weide meine Schafe und geben mein Leben für sie hin.^ö",
+          "modeev": "VIII",
           "antev_lat": "Ego sum pastor bonus, qui pasco oves meas, et pro óvibus meis pono ánimam meam.^LÖ"
         },
         "Vesper": {
           "antev": "Ich habe noch andere Schafe, die nicht aus diesem Pferch sind; auch sie muss ich führen; dann wird nur eine Herde sein und ein Hirt.^ö",
+          "modeev": "IIc",
           "antev_lat": "Alias oves hábeo, quæ non sunt ex hoc ovíli; et illas opórtet me addúcere, et vocem meam áudient, et fiet unum ovíle et unus pastor.^LÖ"
         }
       },
@@ -8722,10 +8827,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Die Werke, die ich im Namen meines Vaters tue, legen Zeugnis ab für mich.^ö",
+          "modeev": "IIc",
           "antev_lat": "Opera, quæ ego fácio in nómine Patris mei, testimónium pérhibent de me.^LÖ"
         },
         "Vesper": {
           "antev": "Ich kenne meine Schafe, und sie folgen mir. Ich gebe ihnen ewiges Leben.^ö",
+          "modeev": "VI",
           "antev_lat": "Ego cognósco oves meas, et sequúntur me; et vitam ætérnam do eis.^LÖ"
         }
       },
@@ -8736,10 +8843,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Ich bin als Licht in diese Welt gekommen, damit jeder, der an mich glaubt, nicht in der Finsternis bleibt.^ö",
+          "modeev": "VIII",
           "antev_lat": "Ego lux in mundum veni, ut omnis qui credit in me in ténebris non máneat, dicit Dóminus.^LÖ"
         },
         "Vesper": {
           "antev": "Gott hat seinen Sohn in die Welt gesandt, nicht um die Welt zu richten, sondern um die Welt durch ihn zu retten.^ö",
+          "modeev": "IIc",
           "antev_lat": "Non misit Deus Fílium suum in mundum, ut iúdicet mundum, sed ut salvétur mundus per ipsum.^LÖ"
         }
       },
@@ -8750,10 +8859,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Der Jünger ist nicht mehr als sein Meister; doch wenn er alles gelernt hat, wird er wie sein Meister sein.^ö",
+          "modeev": "VI",
           "antev_lat": "Non est discípulus super magístrum; perféctus autem omnis erit, si sit sicut magíster eius.^LÖ"
         },
         "Vesper": {
           "antev": "Ich bin der Hirt der Schafe; ich bin gekommen, damit sie das Leben haben und es in Fülle haben.^ö",
+          "modeev": "VIII",
           "antev_lat": "Ego sum pastor óvium; veni ut vitam hábeant, et abundántius hábeant.^LÖ"
         }
       },
@@ -8764,10 +8875,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Ich gehe hin, euch eine Wohnung zu bereiten. Ich werde wiederkommen und euch zu mir holen, damit auch ihr dort seid, wo ich bin.^ö",
+          "modeev": "VI",
           "antev_lat": "Non est discípulus super magístrum; perféctus autem omnis erit, si sit sicut magíster eius.^LÖ"
         },
         "Vesper": {
           "antev": "Der Gute Hirt gibt sein Leben hin für seine Schafe.^ö",
+          "modeev": "VI",
           "antev_lat": "Pastor bonus ánimam suam pósuit pro óvibus suis.^LÖ"
         }
       },
@@ -8778,6 +8891,7 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Wenn der oberste Hirt erscheint, werdet ihr den Kranz der Herrlichkeit empfangen, der nie verwelkt.^ö",
+          "modeev": "IV",
           "antev_lat": "Cum apparúerit princeps pastórum, percipiétis immarcescíbilem glóriæ corónam.^LÖ"
         }
       }
@@ -10347,6 +10461,9 @@ export const brevierData = {
           "ant1": "Wie Weihrauch steige mein Gebet vor dir auf, Herr, du mein Gott.^ö",
           "ant2": "Meine Zuflucht bist du, o°Herr, mein Anteil im Lande der Lebenden.^ö",
           "ant3": "Jesus, der Herr, hat sich selbst erniedrigt; darum hat Gott ihn erhöht in Ewigkeit.^ö",
+          "mode1": "II",
+          "mode2": "I",
+          "mode3": "IVa",
           "les_buch": "›Röm",
           "les_stelle": "11,33–36",
           "les_text": "O Tiefe des Reichtums, der Weisheit und der Erkenntnis Gottes! Wie unergründlich sind seine Entscheidungen, wie unerforschlich seine Wege! Denn wer hat die Gedanken des Herrn erkannt? Oder wer ist sein Ratgeber gewesen? Wer hat ihm etwas gegeben, so dass Gott auch ihm etwas geben müsste? Denn aus ihm und durch ihn und auf ihn hin ist die ganze Schöpfung. Ihm sei Ehre in Ewigkeit. Amen.",
@@ -10395,6 +10512,9 @@ export const brevierData = {
           "ant1": "Mein Gott, in der Frühe halte ich Ausschau nach dir, deine Macht zu sehen und deine Herrlichkeit.^ö",
           "ant2": "Mitten im Feuer sangen die drei und riefen wie aus einem Mund: Gepriesen°sei°Gott.^ö",
           "ant3": "Die Kinder Zions sollen jauchzen über ihren König.^ö",
+          "mode1": "IV",
+          "mode2": "VIII",
+          "mode3": "VII",
           "les_buch": "›Offb",
           "les_stelle": "7,10.12",
           "les_text": "Die Rettung kommt von unserem Gott, der auf dem Thron sitzt, und von dem Lamm! Amen, Lob und Herrlichkeit, Weisheit und Dank, Ehre und Macht und Stärke unserem Gott in alle Ewigkeit! Amen.",
@@ -10425,6 +10545,9 @@ export const brevierData = {
           "ant1": "Gut ist es, sich zu bergen beim Herrn; seine Huld währt ewig.^ö",
           "ant2": "Meine Stärke und mein Lied ist der Herr.^ö",
           "ant3": "Ich danke dir, Herr, denn du hast mich erhört.^ö",
+          "mode1": "VI",
+          "mode2": "IV",
+          "mode3": "VIII",
           "les_buch": "›1°Joh",
           "les_stelle": "4,16",
           "les_text": "Wir haben die Liebe, die Gott zu uns hat, erkannt und gläubig angenommen. Gott ist die Liebe, und wer in der Liebe bleibt, bleibt in Gott und Gott bleibt in ihm.",
@@ -10467,6 +10590,9 @@ export const brevierData = {
           "ant1": "Der Herr streckt das Zepter seiner Macht aus vom Zion und herrscht in Ewigkeit.^ö",
           "ant2": "Die Erde erbebte vor dem Antlitz des Gottes Jakobs.^ö",
           "ant3": "Der Herr, unser Gott, ist König, er, der Herrscher über das All.^ö",
+          "mode1": "VIII",
+          "mode2": "IX",
+          "mode3": "VII",
           "les_buch": "›2°Kor",
           "les_stelle": "1,3–4",
           "les_text": "Gepriesen sei der Gott und Vater Jesu Christi, unseres Herrn, der Vater des Erbarmens und der Gott allen Trostes. Er tröstet uns in all unserer Not, damit auch wir die Kraft haben, alle zu trösten, die in Not sind, durch den Trost, mit dem auch wir von Gott getröstet werden.",
@@ -10517,6 +10643,9 @@ export const brevierData = {
           "ant1": "Herr, ich flehe zu dir; am Morgen hörst du mein Rufen.",
           "ant2": "Herr, unser Gott, wir rühmen deinen herrlichen Namen.",
           "ant3": "Werft euch nieder vor dem Herrn in seinem heiligen Tempel.",
+          "mode1": "III",
+          "mode2": "V",
+          "mode3": "VIII",
           "les_buch": "›2°Thess",
           "les_stelle": "3,10b–13",
           "les_text": "Wer nicht arbeiten will, soll auch nicht essen. Wir hören aber, dass einige von euch ein unordentliches Leben führen und alles Mögliche treiben, nur nicht arbeiten. Wir ermahnen sie und gebieten ihnen im Namen Jesu Christi, des Herrn, in Ruhe ihrer Arbeit nachzugehen und ihr selbst verdientes Brot zu essen. Ihr aber, Brüder, werdet nicht müde, Gutes zu tun.",
@@ -10525,6 +10654,7 @@ export const brevierData = {
           "resp2": "von°Ewigkeit°zu°Ewigkeit.",
           "resp3": "Er allein tut große Wunder",
           "antev": "Gepriesen sei der Herr, unser Gott.",
+          "modeev": "VIIIc",
           "bitten_e": "Gepriesen sei Christus, unser Erlöser. Zu ihm lasst uns beten:",
           "bitten_r": "Schenke uns deinen Geist.",
           "bitten": "Herr, hilf uns, heute ohne Sünde vor dir zu leben,^qdamit wir am Abend dir danken können.^pSchenke uns das Licht deines Geistes^qund segne unser Tagewerk.^pLass dein Antlitz über uns leuchten^qund schütze uns mit starker Hand.^pSteh allen bei, die wir dir heute anempfehlen;^qnimm unser Beten gnädig an.",
@@ -10550,6 +10680,9 @@ export const brevierData = {
           "ant1": "Die Weisung des Herrn erfreut das Herz und erleuchtet die Augen.",
           "ant2": "Der Herr wird sich erheben und die Völker richten nach Gerechtigkeit.",
           "ant3": "Gott ist ein gerechter Richter, er rettet die Menschen mit redlichem Herzen.",
+          "mode1": "VIII",
+          "mode2": "II",
+          "mode3": "IV",
           "les_buch": "›Röm",
           "les_stelle": "13,8.10",
           "les_text": "Bleibt niemand etwas schuldig; nur die Liebe schuldet ihr einander immer. Wer den andern liebt, hat das Gesetz erfüllt. Die Liebe tut dem Nächsten nichts Böses. Also ist die Liebe die Erfüllung des Gesetzes.",
@@ -10593,6 +10726,9 @@ export const brevierData = {
           "ant1": "Die Augen des Herrn schauen herab, seine Blicke prüfen die Menschen.",
           "ant2": "Selig, die reinen Herzens sind: sie werden Gott schauen.",
           "ant3": "Gott hat uns erwählt, seine Kinder zu werden durch Jesus Christus.",
+          "mode1": "IV",
+          "mode2": "I",
+          "mode3": "VIII",
           "les_buch": "›Kol",
           "les_stelle": "1,9–11",
           "les_text": "Wir hören nicht auf, inständig für euch zu beten, dass ihr in aller Weisheit und Einsicht, die der Geist schenkt, den Willen des Herrn ganz erkennt. Denn ihr sollt ein Leben führen, das des Herrn würdig ist und in allem sein Gefallen findet. Ihr sollt Frucht bringen in jeder Art von guten Werken und wachsen in der Erkenntnis Gottes. Er gebe euch in der Macht seiner Herrlichkeit viel Kraft, damit ihr in allem Geduld und Ausdauer habt.",
@@ -10601,6 +10737,7 @@ export const brevierData = {
           "resp2": "ich habe gegen dich gesündigt.",
           "resp3": "Erbarme dich meiner und sei mir gnädig.",
           "antev": "Meine Seele preist die Größe des Herrn; denn auf die Niedrigkeit seiner Magd hat er geschaut.",
+          "modeev": "VII",
           "bitten_e": "Lasst uns beten zu Gott, dem allmächtigen Vater, der die Menschen liebt:",
           "bitten_r": "Erbarme dich über dein Volk.",
           "bitten": "Herr, rette dein Volk^qund segne dein Erbe.^pFühre die Christen zur Einheit zusammen,^qdamit die Welt an Christus glauben kann.^pSegne unsere Freunde und Bekannten;^qsei ihnen nahe mit deiner Liebe.^pStehe den Sterbenden bei^qund lass sie dein Heil schauen.^pSei unseren Verstorbenen gnädig^qund rufe sie zum Gastmahl des ewigen Lebens.",
@@ -10645,6 +10782,9 @@ export const brevierData = {
           "ant1": "Wer reine Hände hat und ein lauteres Herz, darf hinaufziehen zum Berg des Herrn.",
           "ant2": "Preist den Herrn der Gerechtigkeit, rühmt den ewigen König.",
           "ant3": "Ihr Gerechten, jubelt vor dem Herrn; für die Frommen ziemt es sich, Gott zu loben.",
+          "mode1": "IV",
+          "mode2": "VIII",
+          "mode3": "V",
           "les_buch": "›Röm",
           "les_stelle": "13,11b–13a",
           "les_text": "Die Stunde ist gekommen, sich vom Schlaf zu erheben. Denn jetzt ist das Heil uns näher als zu der Zeit, da wir gläubig wurden. Die Nacht ist vorgerückt, der Tag ist nahe. Darum lasst uns ablegen die Werke der Finsternis und anlegen die Waffen des Lichts! Lasst uns ehrenhaft leben wie am Tage.",
@@ -10652,6 +10792,7 @@ export const brevierData = {
           "resp2": "auf ihn allein will ich vertrauen.",
           "resp3": "Meine Zuflucht und mein Retter,",
           "antev": "Einen starken Retter hat der Herr uns erweckt, wie er verheißen hat durch den Mund seiner Propheten.",
+          "modeev": "Ig",
           "bitten_e": "Gepriesen sei Jesus Christus, unser Hoherpriester. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, unser Gott und Heiland.",
           "bitten": "Du hast uns Anteil an deinem Priestertum gegeben;^qhilf uns, das Opfer des Lobes darzubringen.^pGib, dass wir deine Gebote halten,^qdamit wir in dir bleiben und du in uns.^pSchenke uns die Gabe der Weisheit,^qdamit wir den Auftrag dieses Tages erkennen.^pGib, dass wir heute niemand kränken^qund gut sind zu allen, die mit uns leben.",
@@ -10677,6 +10818,9 @@ export const brevierData = {
           "ant1": "Selig, die leben nach der Weisung des Herrn.",
           "ant2": "Mein Herz frohlockt über deine Hilfe.",
           "ant3": "Alle waren in Schuld verstrickt, doch Gott hat sich aller erbarmt.",
+          "mode1": "VIII",
+          "mode2": "Ig",
+          "mode3": "IVg",
           "les_buch": "›Jer",
           "les_stelle": "17,7–8",
           "les_text": "Gesegnet der Mann, der auf den Herrn sich verlässt und dessen Hoffnung der Herr ist. Er ist wie ein Baum, der am Wasser gepflanzt ist und am Bach seine Wurzeln ausstreckt: Er hat nichts zu fürchten, wenn Hitze kommt; seine Blätter bleiben grün; auch in einem trockenen Jahr ist er ohne Sorge, unablässig bringt er seine Früchte.",
@@ -10720,6 +10864,9 @@ export const brevierData = {
           "ant1": "Der Herr hat seinem Gesalbten den Sieg verliehen.",
           "ant2": "Herr, deiner siegreichen Kraft wollen wir singen und spielen.",
           "ant3": "Du hast uns, Herr, zu Königen gemacht und zu Priestern für unseren Gott.",
+          "mode1": "II",
+          "mode2": "V",
+          "mode3": "III",
           "les_buch": "›1°Joh",
           "les_stelle": "3,1a–2",
           "les_text": "Seht, wie groß die Liebe ist, die der Vater uns geschenkt hat: Wir heißen Kinder Gottes, und wir sind es. Liebe Brüder, jetzt sind wir Kinder Gottes. Aber was wir sein werden, ist noch nicht offenbar geworden. Wir wissen, dass wir ihm ähnlich sein werden, wenn er offenbar wird; denn wir werden ihn sehen, wie er ist.",
@@ -10728,6 +10875,7 @@ export const brevierData = {
           "resp2": "dein°Wort, o°Herr, bleibt°ewig.",
           "resp3": "Deine Treue währt durch alle Geschlechter,",
           "antev": "Mein Geist jubelt über Gott, meinen Herrn und meinen Retter.",
+          "modeev": "VIII",
           "bitten_e": "Lasst uns beten zu Jesus Christus, dem Heiland der Welt:",
           "bitten_r": "Herr, erhöre uns.",
           "bitten": "Schau gnädig herab auf die Völker der Erde^qund stehe denen bei, die für sie Verantwortung tragen.^pDu hast uns die Freiheit der Kinder Gottes erworben;^qerlöse die Menschen aus der Knechtschaft der Sünde.^pSegne die Kinder ^(dieser Gemeinde^)^qund lass sie zu guten Christen heranwachsen.^pGib den jungen Menschen ^(unserer Gemeinde^) das Verlangen, das Rechte zu tun^qund dir zu folgen, wenn du sie rufst.^pNimm unsere Verstorbenen auf in dein Reich^qund stärke in uns die Hoffnung auf das ewige Leben.",
@@ -10772,6 +10920,9 @@ export const brevierData = {
           "ant1": "In deinem Licht, o°Gott, schauen wir das Licht.",
           "ant2": "Herr, du bist groß und wunderbar in deiner Macht.",
           "ant3": "Jauchzet Gott zu mit lautem Jubel.",
+          "mode1": "VIIIa",
+          "mode2": "VII",
+          "mode3": "VI",
           "les_buch": "›Tob",
           "les_stelle": "4,15a.16a.18–19a",
           "les_text": "Was dir selbst verhasst ist, das mute auch einem anderen nicht zu! Gib dem Hungrigen von deinem Brot und dem Nackten von deinen Kleidern. Such nur bei Verständigen Rat; einen brauchbaren Ratschlag verachte nicht! Preise Gott, den Herrn, zu jeder Zeit; bitte ihn, dass dein Weg geradeaus führt und dass alles, was du tust und planst, ein gutes Ende nimmt.",
@@ -10780,6 +10931,7 @@ export const brevierData = {
           "resp2": "deinem°Gesetz°will°ich°folgen.",
           "resp3": "Belebe mich durch deine Weisung.",
           "antev": "Vollende an uns dein Erbarmen, o°Herr, und denk an deinen heiligen Bund.",
+          "modeev": "IV",
           "bitten_e": "Gepriesen sei Christus, der unser Bruder geworden ist. Zu ihm lasst uns beten:",
           "bitten_r": "Herr Jesus Christus, steh uns bei.",
           "bitten": "Am Beginn dieses Tages gedenken wir deiner Auferstehung;^qgib uns Zuversicht für den ganzen Tag.^pDu schenkst uns diesen neuen Tag zu unserem Heil;^qlass uns ihn zu deiner Ehre vollenden.^pLehre uns heute, in allen Menschen dir zu begegnen^qund in den Armen und Betrübten dich zu erkennen.^pLass uns heute mit allen in Frieden leben^qund keinem Böses mit Bösem vergelten.",
@@ -10805,6 +10957,9 @@ export const brevierData = {
           "ant1": "Gepriesen seist du, Herr; lehre mich deine Gesetze.",
           "ant2": "Herr, lenke meine Schritte auf deinem Weg.",
           "ant3": "Erhebe dich, Herr, und rette mich.",
+          "mode1": "VIII",
+          "mode2": "IV",
+          "mode3": "V",
           "les_buch": "›1°Petr",
           "les_stelle": "1,13–14",
           "les_text": "Umgürtet euch und macht euch bereit! Seid nüchtern und setzt eure Hoffnung ganz auf die Gnade, die euch bei der Offenbarung Jesu Christi geschenkt wird! Seid gehorsame Kinder und lasst euch nicht mehr von euren Begierden treiben wie früher, in der Zeit eurer Unwissenheit!",
@@ -10848,6 +11003,9 @@ export const brevierData = {
           "ant1": "Der Herr ist mein Licht und mein Heil: Vor wem sollte ich mich fürchten?",
           "ant2": "Dein Angesicht, Herr, will ich suchen; verbirg nicht dein Gesicht vor mir.",
           "ant3": "Er ist der Erstgeborene der ganzen Schöpfung, in allem hat er den Vorrang.",
+          "mode1": "VIII",
+          "mode2": "IVa",
+          "mode3": "VIIIa",
           "les_buch": "›Jak",
           "les_stelle": "1,22.25",
           "les_text": "Hört das Wort nicht nur an, sondern handelt danach; sonst betrügt ihr euch selbst. Wer sich in das vollkommene Gesetz der Freiheit vertieft und an ihm festhält, wer es nicht nur hört, um es wieder zu vergessen, sondern danach handelt, der wird durch sein Tun selig sein.",
@@ -10856,6 +11014,7 @@ export const brevierData = {
           "resp2": "erlöse mich und sei mir gnädig.",
           "resp3": "Raff mich nicht hinweg mit den Sündern, lass mich nicht zu Grunde gehn.",
           "antev": "Großes hat an mir getan der Mächtige, sein Name ist heilig.",
+          "modeev": "VIII",
           "bitten_e": "Lasst uns zu Gott, dem Vater, beten, der für sein Volk in Liebe sorgt:",
           "bitten_r": "Wir bitten dich, erhöre uns.",
           "bitten": "Herr, gedenke deiner Kirche^qund bewahre sie vor aller Spaltung.^pGib, dass die Völker dich erkennen^qund den du gesandt hast: Jesus Christus, deinen Sohn.^pErbarme dich derer, die uns nahestehen;^qschenke ihnen Leben und Segen in Fülle.^pTröste die Mühseligen und Beladenen;^qschaffe Recht den Entrechteten.^pÖffne denen, die heute gestorben sind, die Tür deines Hauses;^qnimm sie auf in die Seligkeit des Himmels.",
@@ -10900,6 +11059,9 @@ export const brevierData = {
           "ant1": "Wacht auf, Harfe und Saitenspiel, ich will das Morgenrot wecken.",
           "ant2": "So spricht der Herr: Mein Volk wird satt an meinen Gaben.",
           "ant3": "Groß ist der Herr und hoch zu preisen in der Stadt unseres Gottes.",
+          "mode1": "VII",
+          "mode2": "VI",
+          "mode3": "V",
           "les_buch": "›Jes",
           "les_stelle": "66,1–2",
           "les_text": "So spricht der Herr: Der Himmel ist mein Thron und die Erde der Schemel für meine Füße. Was wäre das für ein Haus, das ihr mir bauen könntet, was wäre das für ein Ort, an dem ich ausruhen könnte? Denn all das hat meine Hand gemacht, es gehört mir ja schon – Spruch des Herrn. Ich blicke auf den Armen und Zerknirschten und auf den, der zittert vor meinem Wort.",
@@ -10908,6 +11070,7 @@ export const brevierData = {
           "resp2": "erhöre mich und sei mir gnädig.",
           "resp3": "Herr, deine Weisung will ich befolgen.",
           "antev": "Dienet dem Herrn in Heiligkeit, denn er befreit uns aus der Hand unserer Feinde.",
+          "modeev": "III",
           "bitten_e": "Gepriesen sei Christus, der uns allezeit nahe ist. Zu ihm lasst uns beten:",
           "bitten_r": "Christus, erhöre uns.",
           "bitten": "Du schenkst uns diesen neuen Tag;^qmach unsere Herzen hell in deinem Licht.^pLass uns schon am Morgen dein Erbarmen erfahren;^qdie Freude an dir sei unsere Kraft den ganzen Tag.^pGib, dass wir heute deinem Beispiel folgen^qund gut sind zu allen Menschen.^pBekehre unsere Herzen zu dir;^qbewahre uns heute vor jeder Sünde.",
@@ -10933,6 +11096,9 @@ export const brevierData = {
           "ant1": "Öffne mir die Augen, Herr, für das Wunderbare an deiner Weisung.",
           "ant2": "Herr, führe mich in deiner Treue, auf dich hoffe ich allezeit.",
           "ant3": "Wende dich mir zu und sei mir gnädig, denn ich bin einsam und gebeugt.",
+          "mode1": "II",
+          "mode2": "IV",
+          "mode3": "IIm",
           "les_buch": "›Am",
           "les_stelle": "4,13",
           "les_text": "Siehe, er formt die Berge, er erschafft den Wind, er verkündet den Menschen, was er im Sinn hat, er macht das Morgenrot und die Finsternis, er schreitet über die Höhen der Erde dahin – Jahwe, Gott der Heere, ist sein Name.",
@@ -10976,6 +11142,9 @@ export const brevierData = {
           "ant1": "Ich rief zu dir, und du hast mich geheilt. Herr, mein Gott, ich will dir danken in Ewigkeit.",
           "ant2": "Selig der Mensch, dem der Herr die Schuld nicht zur Last legt.",
           "ant3": "Macht und Ehre und Königtum hat Gott ihm verliehen. Alle Völker werden ihm dienen.",
+          "mode1": "I",
+          "mode2": "IV",
+          "mode3": "II",
           "les_buch": "›1°Petr",
           "les_stelle": "1,6–9",
           "les_text": "Ihr seid voll Freude, obwohl ihr jetzt vielleicht kurze Zeit unter mancherlei Prüfungen leiden müsst. Dadurch soll sich euer Glaube bewähren, und es wird sich zeigen, dass er wertvoller ist als Gold, das im Feuer geprüft wurde und doch vergänglich ist. So wird eurem Glauben Lob, Herrlichkeit und Ehre zuteil bei der Offenbarung Jesu Christi. Ihn habt ihr nicht gesehen, und dennoch liebt ihr ihn; ihr seht ihn auch jetzt nicht; aber ihr glaubt an ihn und jubelt in unsagbarer, von himmlischer Herrlichkeit verklärter Freude, da ihr das Ziel des Glaubens erreichen werdet: euer Heil.",
@@ -10984,6 +11153,7 @@ export const brevierData = {
           "resp2": "er nährte dich mit bestem Weizen.",
           "resp3": "Mit Honig aus dem Felsen hat er dich gesättigt.",
           "antev": "Gott stürzt die Mächtigen vom Thron und erhöht die Niedrigen.",
+          "modeev": "V",
           "bitten_e": "Lasst uns beten zu Gott, denn er ist der Grund unserer Hoffnung:",
           "bitten_r": "Herr, erhöre unser Gebet.",
           "bitten": "Du hast mit deinem Volk einen ewigen Bund geschlossen;^qgib, dass es allezeit deiner Taten gedenkt.^pStärke den Glauben der Bischöfe, Priester und Diakone;^qbewahre sie in deiner Liebe.^pSende Arbeiter in deine Ernte,^qdamit dein Name den Völkern verkündet wird.^pSteh denen bei, die für Staat und Gesellschaft Verantwortung tragen;^qgib, dass sie sich nicht vergebens mühen.^pLass unsere verstorbenen Verwandten und Wohltäter bei dir geborgen sein,^qund stärke in uns die Hoffnung, auf ewig bei dir zu sein.",
@@ -11028,6 +11198,9 @@ export const brevierData = {
           "ant1": "Gott, du nimmst das Opfer deines Gerechten an auf deinem Altar.",
           "ant2": "Alle Nachkommen Israels bekommen ihr Recht und erlangen Ruhm durch den Herrn.",
           "ant3": "Kommt mit Jubel vor das Antlitz des Herrn.",
+          "mode1": "II",
+          "mode2": "III",
+          "mode3": "VII",
           "les_buch": "›Eph",
           "les_stelle": "4,29–32",
           "les_text": "Über eure Lippen komme kein böses Wort, sondern nur ein gutes, das den, der es braucht, stärkt und dem, der es hört, Nutzen bringt. Beleidigt nicht den Heiligen Geist Gottes, dessen Siegel ihr tragt für den Tag der Erlösung. Jede Art von Bitterkeit, Wut, Zorn, Geschrei und Lästerung und alles Böse verbannt aus eurer Mitte! Seid gütig zueinander, seid barmherzig, vergebt einander, weil auch Gott euch durch Christus vergeben hat.",
@@ -11036,6 +11209,7 @@ export const brevierData = {
           "resp2": "denn auf dich vertraue ich.",
           "resp3": "Zu dir erheb’ ich meine Seele; zeig mir den Weg, den ich gehen soll.",
           "antev": "Der Herr hat sein Volk besucht und ihm Erlösung geschaffen.",
+          "modeev": "VIII",
           "bitten_e": "Gepriesen sei Jesus Christus, der durch sein Kreuz das Heil gebracht hat. Zu ihm lasst uns beten:",
           "bitten_r": "Schenke uns dein Erbarmen.",
           "bitten": "Christus, du hast durch deinen Tod die Welt hell gemacht;^qvertreibe das Dunkel aus unseren Herzen.^pWende dein Angesicht ab von unseren Sünden^qund tilge all unsere Schuld.^pWache heute über unseren Gedanken, Worten und Werken,^qdamit wir dir gefallen können.^pRette uns durch dein Kreuz und deine Auferstehung;^qschenke uns in Schmerz und Leid den Trost deines Geistes.",
@@ -11061,6 +11235,9 @@ export const brevierData = {
           "ant1": "Ich eile voran auf dem Weg deiner Gebote, denn mein Herz machst du weit.",
           "ant2": "Auf Gott vertraue ich, darum werde ich nicht wanken.",
           "ant3": "Mein Herz vertraut auf den Herrn, mir wurde geholfen.",
+          "mode1": "II",
+          "mode2": "III",
+          "mode3": "VI",
           "les_buch": "›Phil",
           "les_stelle": "2,2b–4",
           "les_text": "Seid eines Sinnes, einander in Liebe verbunden, einmütig und einträchtig! Tut nichts aus Ehrgeiz und nichts aus Prahlerei, sondern in Demut schätze einer den andern höher ein als sich selbst. Jeder achte nicht nur auf das eigene Wohl, sondern auch auf das der anderen.",
@@ -11103,6 +11280,9 @@ export const brevierData = {
           "ant1": "Heile mich, Herr, denn ich habe gegen dich gesündigt.",
           "ant2": "Der Herr der Heerscharen ist mit uns, der Gott Jakobs ist unsre Burg.",
           "ant3": "Alle Völker werden kommen und niederfallen vor dir, unserm Gott und Herrn.",
+          "mode1": "I",
+          "mode2": "V",
+          "mode3": "VIIIc",
           "les_buch": "›Röm",
           "les_stelle": "15,1–3",
           "les_text": "Wir müssen als die Starken die Schwäche derer tragen, die schwach sind, und dürfen nicht für uns selbst leben. Jeder von uns soll Rücksicht auf den Nächsten nehmen, um Gutes zu tun und die Gemeinde aufzubauen. Denn auch Christus hat nicht für sich selbst gelebt; in der Schrift heißt es vielmehr: Die Schmähungen derer, die dich schmähen, haben mich getroffen.",
@@ -11111,6 +11291,7 @@ export const brevierData = {
           "resp2": "uns durch sein Blut befreit von unsern Sünden.",
           "resp3": "Er hat uns zu Königen gemacht und zu Priestern für den Dienst vor Gott.",
           "antev": "Der Herr nimmt sich seiner Kinder an und denkt an sein Erbarmen.",
+          "modeev": "I",
           "bitten_e": "Lasst uns beten zu Gott, dem Vater aller Menschen:",
           "bitten_r": "Zeige uns dein Erbarmen.",
           "bitten": "Dein eingeborener Sohn hat sich als Abendopfer für die Welt dargebracht;^qerbarme dich aller Menschen auf der ganzen Erde.^pRichte auf, die ungerecht verfolgt und gefangen gehalten werden;^qnimm dich derer an, die einsam und traurig sind.^pSei du die Kraft deiner Gläubigen,^qdamit sie den Angriffen des Bösen standhalten können.^pUmgib die Sterbenden mit deinem Erbarmen;^qlass sie heimkehren zu dir.^pFühre unsere Verstorbenen in das Licht, in dem du wohnst,^qdass sie dich schauen in Ewigkeit.",
@@ -11155,6 +11336,9 @@ export const brevierData = {
           "ant1": "Schon beim Morgengrauen komme ich zu dir; Herr, ich warte auf dein Wort.",
           "ant2": "Meine Stärke und mein Lied ist der Herr, er ist mein Retter.",
           "ant3": "Ihr Völker der Erde, lobet den Herrn.",
+          "mode1": "IV",
+          "mode2": "VII",
+          "mode3": "VIII",
           "les_buch": "›2°Petr",
           "les_stelle": "1,10–11",
           "les_text": "Meine Brüder, bemüht euch noch mehr darum, dass eure Berufung und Erwählung Bestand hat! Wenn ihr das tut, werdet ihr niemals scheitern. Dann wird euch in reichem Maß gewährt, in das ewige Reich unseres Herrn und Retters Jesus Christus einzutreten.",
@@ -11163,6 +11347,7 @@ export const brevierData = {
           "resp2": "ich sage: Du bist meine Zuflucht.",
           "resp3": "Du bist mein Anteil im Lande der Lebenden.",
           "antev": "Licht aus der Höhe, leuchte allen, die in Finsternis sind und im Schatten des Todes.",
+          "modeev": "V",
           "bitten_e": "Gepriesen sei Christus, unser Fürsprecher beim Vater. Zu ihm lasst uns beten:",
           "bitten_r": "Christus, höre uns.",
           "bitten": "In der Taufe bist du unser Licht geworden;^qführe uns durch diesen Tag.^pDu bist uns nahe alle Stunden dieses Tages;^qhilf uns in Geduld ertragen, was uns heute widerfährt.^pMaria, deine Mutter, bewahrte dein Wort in ihrem Herzen;^qhilf uns, dein Wort zu hören und zu befolgen.^pLass uns in dieser vergänglichen Welt das Unvergängliche erwarten^qund im Glauben erhoffen, was uns verheißen ist.",
@@ -11188,6 +11373,9 @@ export const brevierData = {
           "ant1": "Führe mich, Herr, auf dem Pfad deiner Gebote.",
           "ant2": "Wer den Herrn fürchtet, leidet keinen Mangel.",
           "ant3": "Suche Frieden und jage ihm nach.",
+          "mode1": "VI",
+          "mode2": "VIII",
+          "mode3": "II",
           "les_buch": "›1°Kön",
           "les_stelle": "8,60–61b",
           "les_text": "Alle Völker der Erde sollen erkennen, dass niemand Gott ist als der Herr allein. Euer Herz aber bleibe ungeteilt beim Herrn, unserem Gott, sodass ihr seinen Gesetzen folgt und seine Gebote beachtet.",
@@ -11235,6 +11423,9 @@ export const brevierData = {
           "ant1": "Dein Wort ist meinem Fuß eine Leuchte, ein Licht für meine Pfade.^ö",
           "ant2": "Dein Antlitz, Herr, wird mich mit Freude erfüllen.^ö",
           "ant3": "Vor dem Namen Jesu soll jedes Knie sich beugen im Himmel und auf Erden.^ö",
+          "mode1": "VI",
+          "mode2": "VIII",
+          "mode3": "I",
           "les_buch": "›Kol",
           "les_stelle": "1,2b–6",
           "les_text": "Gnade sei mit euch und Friede von Gott, unserem Vater. Wir danken Gott, dem Vater Jesu Christi, unseres Herrn, jedes Mal, wenn wir für euch beten. Denn wir haben von eurem Glauben an Christus Jesus gehört und von der Liebe, die ihr zu allen Heiligen habt, weil im Himmel die Erfüllung eurer Hoffnung für euch bereitliegt. Schon früher habt ihr davon gehört durch das wahre Wort des Evangeliums, das zu euch gelangt ist. Wie in der ganzen Welt, so trägt es auch bei euch Frucht und wächst seit dem Tag, an dem ihr den Ruf der göttlichen Gnade vernommen und in Wahrheit erkannt habt.",
@@ -11283,6 +11474,9 @@ export const brevierData = {
           "ant1": "Hochgelobt sei, der da kommt im Namen des Herrn.^ö",
           "ant2": "Lasst uns ein Loblied singen dem Herrn, unserm Gott.^ö",
           "ant3": "Lobet den Herrn in seiner gewaltigen Größe.^ö",
+          "mode1": "VIII",
+          "mode2": "VII",
+          "mode3": "IVa",
           "les_buch": "›Ez",
           "les_stelle": "36,25–27",
           "les_text": "Ich gieße reines Wasser über euch aus, dann werdet ihr rein. Ich reinige euch von aller Unreinheit und von allen euren Götzen. Ich schenke euch ein neues Herz und lege einen neuen Geist in euch. Ich nehme das Herz von Stein aus eurer Brust und gebe euch ein Herz von Fleisch. Ich lege meinen Geist in euch und bewirke, dass ihr meinen Gesetzen folgt und auf meine Gebote achtet und sie erfüllt.",
@@ -11314,6 +11508,9 @@ export const brevierData = {
           "ant1": "Der Herr lässt mich lagern auf grünen Auen.^ö",
           "ant2": "Groß ist in Israel der Name des Herrn.^ö",
           "ant3": "Furcht packt die Erde, und sie verstummt, wenn Gott sich erhebt zum Gericht.^ö",
+          "mode1": "VI",
+          "mode2": "VIIIc",
+          "mode3": "III",
           "les_buch": "›Röm",
           "les_stelle": "5,1–2.5",
           "les_text": "Gerecht gemacht aus Glauben, haben wir Frieden mit Gott durch Jesus Christus, unseren Herrn. Durch ihn haben wir auch den Zugang zu der Gnade erhalten, in der wir stehen, und rühmen uns unserer Hoffnung auf die Herrlichkeit Gottes. Die Hoffnung aber lässt nicht zugrunde gehen; denn die Liebe Gottes ist ausgegossen in unsere Herzen durch den Heiligen Geist, der uns gegeben ist.",
@@ -11357,6 +11554,9 @@ export const brevierData = {
           "ant1": "Christus, der Herr, ist Priester auf ewig nach der Ordnung Melchisedeks.^ö",
           "ant2": "Unser Gott ist im Himmel; was ihm gefällt, das vollbringt er.^ö",
           "ant3": "Preist unseren Gott, ihr seine Knechte und alle, die ihn fürchten, Große und Kleine.^ö",
+          "mode1": "II",
+          "mode2": "IX",
+          "mode3": "VII",
           "les_buch": "›2°Thess",
           "les_stelle": "2,13–14",
           "les_text": "Wir müssen Gott zu jeder Zeit euretwegen danken, vom Herrn geliebte Brüder, weil Gott euch als Erstlingsgabe dazu auserwählt hat, aufgrund der Heiligung durch den Geist und aufgrund eures Glaubens an die Wahrheit gerettet zu werden. Dazu hat er euch durch unser Evangelium auch berufen; ihr sollt nämlich die Herrlichkeit Jesu Christi, unseres Herrn, erlangen.",
@@ -11408,6 +11608,9 @@ export const brevierData = {
           "ant1": "Wann darf ich kommen und Gottes Antlitz schauen?",
           "ant2": "Zeige uns, Herr, das Licht deines Erbarmens.",
           "ant3": "Sei gepriesen, o°Herr, am Gewölbe des Himmels.",
+          "mode1": "I",
+          "mode2": "II",
+          "mode3": "I",
           "les_buch": "›Jer",
           "les_stelle": "15,16",
           "les_text": "Kamen Worte von dir, so verschlang ich sie; dein Wort war mir Glück und Herzensfreude; denn dein Name ist über mir ausgerufen, Herr, Gott der Heere.",
@@ -11416,6 +11619,7 @@ export const brevierData = {
           "resp2": "Gott zu loben ziemt sich für die Frommen.",
           "resp3": "Greift in die Saiten, singt ihm ein neues Lied.",
           "antev": "Gepriesen sei der Herr, der Gott Israels. Er hat uns besucht und befreit.",
+          "modeev": "IIc",
           "bitten_e": "Gepriesen sei der Gott und Vater unseres Herrn Jesus Christus. Zu ihm lasst uns beten:",
           "bitten_r": "Bewahre uns in deinem Dienst.",
           "bitten": "Gott, du hast uns zu einem priesterlichen Volk gemacht;^qlass uns ganz dir gehören.^pDu spendest uns die Gaben deines Geistes;^qschenke uns heute Freundlichkeit und Geduld.^pGib, dass wir dich allezeit lieben^qund dich durch unser Leben preisen.^pMach uns bereit, einander zu dienen,^qdamit wir miteinander das Heil erlangen.",
@@ -11441,6 +11645,9 @@ export const brevierData = {
           "ant1": "Selig, die das Wort Gottes hören und es im Herzen bewahren.",
           "ant2": "Das ist meine Speise: den Willen meines Vaters zu tun.",
           "ant3": "Ich bin arm und gebeugt, der Herr aber sorgt für mich.",
+          "mode1": "VI",
+          "mode2": "II",
+          "mode3": "IVa",
           "les_buch": "›Jer",
           "les_stelle": "31,33",
           "les_text": "Das wird der Bund sein, den ich nach diesen Tagen mit dem Haus Israel schließe – Spruch des Herrn: Ich lege mein Gesetz in sie hinein und schreibe es auf ihr Herz. Ich werde ihr Gott sein, und sie werden mein Volk sein.",
@@ -11484,6 +11691,9 @@ export const brevierData = {
           "ant1": "Du bist der Schönste von allen Menschen, für immer hat Gott dich gesegnet.",
           "ant2": "Seht, der Bräutigam kommt! Geht ihm entgegen!",
           "ant3": "Das Geheimnis seines Willens hat Gott uns kundgetan: in der Fülle der Zeiten alles in Christus zu vereinen.",
+          "mode1": "IV",
+          "mode2": "VI",
+          "mode3": "VIII",
           "les_buch": "›1°Thess",
           "les_stelle": "2,13",
           "les_text": "Wir danken Gott unablässig dafür, dass ihr das Wort Gottes, das ihr durch unsere Verkündigung empfangen habt, nicht als Menschenwort, sondern – was es in Wahrheit ist – als Gottes Wort angenommen habt; und jetzt ist es in euch, den Gläubigen, wirksam.",
@@ -11492,6 +11702,7 @@ export const brevierData = {
           "resp2": "wie Weihrauch, Herr, vor deinem Angesicht.",
           "resp3": "Das Erheben meiner Hände sei wie das Opfer am Abend.",
           "antev": "Meine Seele preise dich allezeit, Gott, du mein Retter.",
+          "modeev": "VIIIa",
           "bitten_e": "Lasst uns beten zu Jesus Christus, der seine Kirche liebt:",
           "bitten_r": "Erfülle die Bitten deines Volkes.",
           "bitten": "Herr, du willst, dass keiner verlorengeht;^qgib, dass alle Menschen zur Erkenntnis der Wahrheit gelangen.^pZeige, dass du der Anwalt der Armen bist;^qstehe ihnen bei in ihrer Bedrängnis.^pGib, dass alle Menschen Arbeit finden,^qdamit sie in Sicherheit leben können.^pBeschütze unseren Papst ^NP und unseren Bischof ^NB;^qführe sie durch deinen Heiligen Geist.^pWir empfehlen dir die verstorbenen Bischöfe, Priester und Diakone;^qnimm all unsere Verstorbenen bei dir auf.",
@@ -11537,6 +11748,9 @@ export const brevierData = {
           "ant1": "Sende dein Licht und deine Wahrheit, dass sie mich führen zu deinem heiligen Berg.",
           "ant2": "Sei unsere Hilfe, Herr, alle Tage unseres Lebens.",
           "ant3": "Dir gebührt Lobgesang, Gott, auf dem Zion, dir erfüllt man Gelübde.",
+          "mode1": "IVa",
+          "mode2": "III",
+          "mode3": "VII",
           "les_buch": "›1°Thess",
           "les_stelle": "5,4–5",
           "les_text": "Brüder, ihr lebt nicht im Finstern, sodass euch der Tag nicht wie ein Dieb überraschen kann. Ihr alle seid Söhne des Lichts und Söhne des Tages. Wir gehören nicht der Nacht und nicht der Finsternis.",
@@ -11545,6 +11759,7 @@ export const brevierData = {
           "resp2": "höre, o°Herr, meine Stimme.",
           "resp3": "Schon am Morgen komme ich und flehe.",
           "antev": "Aus den Händen aller, die uns hassen, errette uns, o°Herr.",
+          "modeev": "IIc",
           "bitten_e": "Gepriesen sei Jesus Christus, unser Erlöser. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, erbarme dich.",
           "bitten": "In der Frühe des Tages gedenken wir deiner Auferstehung;^qlass uns den Tag beginnen in der Hoffnung auf dich.^pBegleite unser Tagewerk mit deiner Gnade;^qlass gelingen, was wir heute tun.^pGib, dass alles, was heute geschieht, uns dir näher bringt;^qlass uns wachsen in der Liebe zu dir.^pLass uns heute deine Güte erfahren^qund hilf uns, den Menschen Gutes zu tun.",
@@ -11570,6 +11785,9 @@ export const brevierData = {
           "ant1": "Ein Pilger bin ich auf Erden; Herr, deine Weisung will ich beachten.",
           "ant2": "Gott wird das Schicksal seines Volkes wenden, und unser Jubel wird groß sein.",
           "ant3": "Gott ist mein Helfer; der Herr beschützt mein Leben.",
+          "mode1": "IV",
+          "mode2": "VI",
+          "mode3": "VIII",
           "les_buch": "›1°Kor",
           "les_stelle": "12,4–6",
           "les_text": "Es gibt verschiedene Gnadengaben, aber nur den einen Geist. Es gibt verschiedene Dienste, aber nur den einen Herrn. Es gibt verschiedene Kräfte, die wirken, aber nur den einen Gott: Er wirkt alles in allen.",
@@ -11611,6 +11829,9 @@ export const brevierData = {
           "ant1": "Ihr könnt nicht Gott dienen und zugleich dem Mammon.",
           "ant2": "So spricht der Herr: Sammelt euch Schätze im Himmel.",
           "ant3": "Würdig ist das Lamm, das geschlachtet ist, Macht zu empfangen und Herrlichkeit und Ehre.",
+          "mode1": "II",
+          "mode2": "IIm",
+          "mode3": "I",
           "les_buch": "›Röm",
           "les_stelle": "3,23–25b",
           "les_text": "Alle haben gesündigt und die Herrlichkeit Gottes verloren. Ohne es verdient zu haben, werden sie gerecht, dank seiner Gnade, durch die Erlösung in Christus Jesus. Ihn hat Gott dazu bestimmt, Sühne zu leisten mit seinem Blut, Sühne, wirksam durch Glauben. So erweist Gott seine Gerechtigkeit durch die Vergebung der Sünden.",
@@ -11619,6 +11840,7 @@ export const brevierData = {
           "resp2": "vor deinem Angesicht herrscht Freude in Fülle.",
           "resp3": "Zu deiner Rechten ist Wonne für alle Zeit.",
           "antev": "Großes hat an mir getan der Mächtige, sein Name ist heilig.",
+          "modeev": "VIII",
           "bitten_e": "Lasst uns zu Christus beten, auf den wir unsere Hoffnung setzen:",
           "bitten_r": "Herr, erbarme dich deines Volkes.",
           "bitten": "Behüte unseren Bischof ^NB^qund stärke seine Mitarbeiter in ihrem Dienst.^pSteh den Regierenden bei^qund erleuchte die Gesetzgeber.^pVerhilf den Armen zu ihrem Recht;^qgib allen Menschen, was sie zum Leben brauchen.^pSieh auf die Menschen, die bedrängt und verfolgt werden,^qund komm ihnen zu Hilfe.^pErbarme dich der Verstorbenen;^qlass sie teilnehmen am Hochzeitsmahl des ewigen Lebens.",
@@ -11664,6 +11886,9 @@ export const brevierData = {
           "ant1": "Gott, dein Weg ist heilig. Wo ist ein Gott, so groß wie unser Gott?",
           "ant2": "Mein Herz ist voll Freude über den Herrn; er erniedrigt, und er erhöht.",
           "ant3": "Der Herr ist König. Die Erde frohlocke!",
+          "mode1": "II",
+          "mode2": "VIII",
+          "mode3": "VI",
           "les_buch": "›Röm",
           "les_stelle": "8,35.37",
           "les_text": "Was kann uns scheiden von der Liebe Christi? Bedrängnis oder Not oder Verfolgung, Hunger oder Kälte, Gefahr oder Schwert? All das überwinden wir durch den, der uns geliebt hat.",
@@ -11672,6 +11897,7 @@ export const brevierData = {
           "resp2": "sein Lob sei stets in meinem Munde.",
           "resp3": "All meinen Ängsten hat er mich entrissen.",
           "antev": "Dienet dem Herrn in Heiligkeit, denn er befreit uns aus der Hand unserer Feinde.",
+          "modeev": "III",
           "bitten_e": "Gepriesen sei unser Erlöser, der bei seiner Kirche bleiben wird bis zum Ende der Welt. Zu ihm lasst uns beten:",
           "bitten_r": "Kyrie, eleison.",
           "bitten": "Führe uns durch diesen Tag;^qbegleite uns mit deiner Gnade.^pUnser Tagewerk sei dir geweiht;^qgib, dass wir nichts Böses tun und kein Unrecht gutheißen.^pMach deine Gläubigen zum Licht der Welt;^qmach sie zum Salz der Erde.^pDein Heiliger Geist lenke unser Herz,^qdamit unser Mund dein Lob verkünde.",
@@ -11697,6 +11923,9 @@ export const brevierData = {
           "ant1": "Ich überdenke meine Wege; Herr, lehre mich deine Gesetze.",
           "ant2": "Furcht und Zittern erfassten mich; achte auf mich und erhöre mich, Herr!",
           "ant3": "Zu Gott will ich rufen; der Herr wird mir helfen.",
+          "mode1": "II",
+          "mode2": "IV",
+          "mode3": "VIII",
           "les_buch": "›Dtn",
           "les_stelle": "1,16–17a",
           "les_text": "Ich habe eure Richter verpflichtet: Lasst jeden Streit zwischen euren Brüdern vor euch kommen. Entscheidet gerecht, es sei der Streit eines Mannes mit einem Bruder oder mit einem Fremden. Kennt vor Gericht kein Ansehen der Person! Klein wie Groß hört an! Fürchtet euch nicht vor angesehenen Leuten, denn das Gericht hat mit Gott zu tun.",
@@ -11739,6 +11968,9 @@ export const brevierData = {
           "ant1": "Wir erwarten die selige Erfüllung unserer Hoffnung, das Erscheinen der Herrlichkeit unseres Retters Christus Jesus.",
           "ant2": "Gott lasse sein Angesicht über uns leuchten und segne uns.",
           "ant3": "Alles ist durch ihn und auf ihn hin geschaffen, und alles hat in ihm Bestand.",
+          "mode1": "III",
+          "mode2": "III",
+          "mode3": "II",
           "les_buch": "›1°Petr",
           "les_stelle": "5,5b–7",
           "les_text": "Begegnet einander in Demut! Denn Gott tritt den Stolzen entgegen, den Demütigen aber schenkt er seine Gnade. Beugt euch also in Demut unter die mächtige Hand Gottes, damit er euch erhöht, wenn die Zeit gekommen ist. Werft alle eure Sorge auf ihn, denn er kümmert sich um euch.",
@@ -11747,6 +11979,7 @@ export const brevierData = {
           "resp2": "Birg mich im Schatten deiner Flügel.",
           "resp3": "Herr, du erhörst mich, wenn ich zu dir rufe.",
           "antev": "Machtvolle Taten vollbringt der Herr, er zerstreut, die im Herzen voll Hochmut sind.",
+          "modeev": "V",
           "bitten_e": "Lasst uns beten zu Gott, dem allmächtigen Vater, der den Menschen Gutes tut:",
           "bitten_r": "Wir bitten dich, erhöre uns.",
           "bitten": "Gott, schütze unsere Stadt ^(unsere Gemeinde^)^qund bewahre ihre Bewohner vor Schaden.^pSieh auf die Kinder und die jungen Menschen;^qlass sie zu aufrechten Christen heranwachsen.^pErbarme dich der Kranken;^qsei den alten Menschen nahe.^pSegne die Früchte der Erde;^qspende Nahrung allem, was lebt.^pLass den Verstorbenen das Licht deines Angesichtes leuchten^qund schenke ihnen deinen Frieden.",
@@ -11792,6 +12025,9 @@ export const brevierData = {
           "ant1": "Biete auf deine Macht und komm uns zu Hilfe, Herr, unser Gott.",
           "ant2": "Herrliche Taten hat Gott vollbracht; die ganze Erde soll es wissen.",
           "ant3": "Jubelt Gott zu, er ist unsre Zuflucht.",
+          "mode1": "VIII",
+          "mode2": "VI",
+          "mode3": "VIIIa",
           "les_buch": "›Röm",
           "les_stelle": "14,17–19",
           "les_text": "Das Reich Gottes ist nicht Essen und Trinken, es ist Gerechtigkeit, Friede und Freude im Heiligen Geist. Und wer Christus so dient, wird von Gott anerkannt und ist bei den Menschen geachtet. Lasst uns also nach dem streben, was zum Frieden und zum Aufbau der Gemeinde beiträgt.",
@@ -11800,6 +12036,7 @@ export const brevierData = {
           "resp2": "Herr, deine Huld ist besser als das Leben.",
           "resp3": "Du wurdest meine Hilfe, darum preisen dich meine Lippen.",
           "antev": "Lass uns, Herr, dein Heil erfahren und vergib uns unsere Sünden.",
+          "modeev": "IV",
           "bitten_e": "Gepriesen sei Jesus Christus, der Sohn des lebendigen Gottes. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, steh uns bei.",
           "bitten": "Du bist das Licht der Welt;^qleuchte uns an diesem Tag.^pDu bist die ewige Weisheit;^qschenke uns Einsicht und Geduld.^pDu gibst Kraft, die Last des Tages zu tragen;^qhilf uns, dir großherzig zu dienen.^pDu lenkst unser Denken, Fühlen und Tun;^qlass uns deiner Weisung folgen.",
@@ -11825,6 +12062,9 @@ export const brevierData = {
           "ant1": "Die Weisung deines Mundes ist mir lieb, mehr als große Mengen von Gold und Silber.",
           "ant2": "Ich vertraue auf Gott und fürchte mich nicht. Was können Menschen mir antun?",
           "ant3": "Herr, deine Güte reicht, so weit der Himmel ist, und deine Treue so weit die Wolken ziehn.",
+          "mode1": "VI",
+          "mode2": "VIII",
+          "mode3": "I",
           "les_buch": "›Gal",
           "les_stelle": "5,13–14",
           "les_text": "Ihr seid zur Freiheit berufen, Brüder. Nur nehmt die Freiheit nicht zum Vorwand für das Fleisch, sondern dient einander in Liebe! Denn das ganze Gesetz ist in dem einen Wort zusammengefasst: Du sollst deinen Nächsten lieben wie dich selbst!",
@@ -11868,6 +12108,9 @@ export const brevierData = {
           "ant1": "Ich mache dich zum Licht für alle Völker: trage mein Heil bis an die Enden der Erde.",
           "ant2": "Der Herr rettet das Leben der Armen; von Unterdrückung und Gewalttat befreit er sie.",
           "ant3": "Jetzt ist gekommen die Rettung und die Macht und die Herrschaft unseres Gottes.",
+          "mode1": "VII",
+          "mode2": "VIII",
+          "mode3": "V",
           "les_buch": "›1°Petr",
           "les_stelle": "1,22–23",
           "les_text": "Der Wahrheit gehorsam, habt ihr euer Herz rein gemacht für eine aufrichtige Bruderliebe; darum hört nicht auf, einander von Herzen zu lieben. Ihr seid neu geboren worden, nicht aus vergänglichem, sondern aus unvergänglichem Samen: aus Gottes Wort, das lebt und das bleibt.",
@@ -11876,6 +12119,7 @@ export const brevierData = {
           "resp2": "er weidet mich auf grünen Auen.",
           "resp3": "Er leitet mich auf rechten Pfaden, treu seinem Namen.",
           "antev": "Selig, die hungern nach der Gerechtigkeit; der Herr wird sie sättigen und mit seinen Gaben beschenken.",
+          "modeev": "III",
           "bitten_e": "Lasst uns beten zu unserem Herrn und Erlöser Jesus Christus:",
           "bitten_r": "Herr, segne dein Volk.",
           "bitten": "Behüte unser Land ^(unsere Stadt, unsere Gemeinde^)^qund bewahre es ^(sie^) vor Schaden.^pSchütze unseren Papst ^NP und unseren Bischof ^NB;^qgib, dass sie deiner Kirche als gute Hirten dienen.^pRufe junge Männer in deine Nachfolge;^qmach sie zu treuen Dienern deines Altars.^pBehüte die dir geweihten Jungfrauen;^qschenke ihnen Freude in deinem Dienst.^pNimm unsere Verstorbenen auf zu dir;^qlass sie ruhen in deinem Frieden.",
@@ -11921,6 +12165,9 @@ export const brevierData = {
           "ant1": "Ein zerbrochenes und zerschlagenes Herz wirst du, o°Gott, nicht verschmähen.",
           "ant2": "Auch wenn du zürnst, Herr, denk an dein Erbarmen.",
           "ant3": "Jerusalem, preise den Herrn; Zion, lobsinge deinem Gott!",
+          "mode1": "IVa",
+          "mode2": "II",
+          "mode3": "VII",
           "les_buch": "›Eph",
           "les_stelle": "2,13–16",
           "les_text": "Jetzt seid ihr, die ihr einst in der Ferne wart, durch Christus Jesus, nämlich durch sein Blut, in die Nähe gekommen. Denn er ist unser Friede. Er vereinigte die beiden Teile, Juden und Heiden, und riss durch sein Sterben die trennende Wand der Feindschaft nieder. Er hob das Gesetz mit seinen Geboten und Forderungen auf, um die zwei in seiner Person zu dem einen neuen Menschen zu machen. Er stiftete Frieden und versöhnte die beiden durch das Kreuz mit Gott in einem einzigen Leib. Er hat in seiner Person die Feindschaft getötet.",
@@ -11929,6 +12176,7 @@ export const brevierData = {
           "resp2": "zu Gott, der mir beisteht.",
           "resp3": "Er sendet mir Hilfe vom Himmel; zu ihm flüchte ich.",
           "antev": "Durch die barmherzige Liebe unseres Gottes hat uns besucht das aufstrahlende Licht aus der Höhe.",
+          "modeev": "VII",
           "bitten_e": "Gepriesen sei Christus, der uns mit seinem kostbaren Blut erkauft hat. Zu ihm lasst uns beten:",
           "bitten_r": "Lamm Gottes, erbarme dich unser.",
           "bitten": "Als du am Kreuze hingst, floss Blut und Wasser aus deiner Seite;^qwasche uns rein von unseren Sünden.^pDu hast den Neuen Bund in deinem Blut gestiftet;^qgib, dass wir dir die Treue halten.^pDurch dein Kreuz hast du die ganze Welt erlöst;^qgib, dass wir in allen Dingen deine Spur erkennen.^pDu hast uns den Anfang dieses Tages geschenkt;^qstärke uns auf dem Weg deiner Nachfolge.",
@@ -11954,6 +12202,9 @@ export const brevierData = {
           "ant1": "Tröste mich mit deiner Huld, wie du es deinem Knecht verheißen hast.",
           "ant2": "Mein Gott, beschütze mich vor meinen Feinden.",
           "ant3": "Selig der Mensch, den Gott zurechtweist; Gott schlägt, doch seine Hände heilen auch.",
+          "mode1": "II",
+          "mode2": "VIII",
+          "mode3": "IVa",
           "les_buch": "›Dtn",
           "les_stelle": "1,31b",
           "les_text": "Der Herr, dein Gott, hat dich auf dem ganzen Weg, den ihr gewandert seid, getragen, wie ein Vater seinen Sohn trägt.",
@@ -11996,6 +12247,9 @@ export const brevierData = {
           "ant1": "Herr, lass meine Füße nicht straucheln, entreiße mein Leben dem Tod!",
           "ant2": "Meine Hilfe kommt vom Herrn, der Himmel und Erde gemacht hat.",
           "ant3": "Deine Wege sind gerecht und wahr, du König aller Zeiten.",
+          "mode1": "II",
+          "mode2": "IV",
+          "mode3": "VIIIc",
           "les_buch": "›1°Kor",
           "les_stelle": "2,7–10a",
           "les_text": "Wir verkündigen das Geheimnis der verborgenen Weisheit Gottes, die Gott vor allen Zeiten vorausbestimmt hat zu unserer Verherrlichung. Keiner der Machthaber dieser Welt hat sie erkannt; denn hätte einer sie erkannt, so hätten sie den Herrn der Herrlichkeit nicht gekreuzigt. Nein, wir verkündigen, wie in der Schrift steht, was kein Auge gesehen und kein Ohr gehört hat, was keinem Menschen in den Sinn gekommen ist: das Große, das Gott denen bereitet hat, die ihn lieben. Denn uns hat es Gott enthüllt durch den Geist.",
@@ -12004,6 +12258,7 @@ export const brevierData = {
           "resp2": "um uns zu Gott zu führen.",
           "resp3": "Getötet wurde er dem Fleische nach, dem Geiste nach aber zum Leben erweckt.",
           "antev": "Denke, Herr, an dein Erbarmen, das du unseren Vätern verheißen hast.",
+          "modeev": "V",
           "bitten_e": "Lasst uns beten zu unserem Heiland Jesus Christus, der sich für uns dahingegeben hat:",
           "bitten_r": "Herr, erbarme dich deines Volkes.",
           "bitten": "Du bist denen nahe, die dich suchen;^qtröste alle, die im Elend leben.^pNimm dich der Vertriebenen und Verbannten an;^qlass sie an dir nicht irre werden.^pGib, dass die Sünder deinem Ruf nicht widerstehen^qund dass wir alle uns zu dir bekehren.^pSieh an die Not der Sterbenden;^qsende deine Engel, dass sie ihnen beistehen.^pSchenke den Verstorbenen dein Heil^qund vollende an ihnen das Werk der Erlösung.",
@@ -12049,6 +12304,9 @@ export const brevierData = {
           "ant1": "Am Morgen verkünden wir, Herr, deine Huld und in den Nächten deine Treue.",
           "ant2": "Preist die Größe unseres Gottes; denn er ist treu und gerecht.",
           "ant3": "Wie gewaltig ist dein Name, o°Herr, auf der ganzen Erde!",
+          "mode1": "VI",
+          "mode2": "VIII",
+          "mode3": "V",
           "les_buch": "›Röm",
           "les_stelle": "12,14–16a",
           "les_text": "Segnet eure Verfolger; segnet sie, verflucht sie nicht. Freut euch mit den Fröhlichen und weint mit den Weinenden. Seid untereinander eines Sinnes; strebt nicht hoch hinaus, sondern bleibt demütig.",
@@ -12056,6 +12314,7 @@ export const brevierData = {
           "resp2": "dir will ich singen und spielen.",
           "resp3": "Von deiner Gerechtigkeit soll meine Zunge reden.",
           "antev": "Herr, lenke unsere Schritte auf den Weg des Friedens.",
+          "modeev": "IV",
           "bitten_e": "Gepriesen sei unser Herr Jesus Christus. Zu ihm lasst uns beten:",
           "bitten_r": "Christus, hilf uns.",
           "bitten": "Am Morgen dieses Tages gedenken wir deiner Auferstehung;^qschenke uns heute die Freude deiner Erlösten.^pHilf uns, dass wir von dir Zeugnis geben^qund mit dir den Vater loben.^pLass uns in jedem Menschen dein Bild erkennen;^qnimm unseren Dienst an den Brüdern entgegen.^pDu bist der wahre Weinstock, und wir sind die Rebzweige;^qgib, dass wir in dir bleiben und Frucht bringen.",
@@ -12081,6 +12340,9 @@ export const brevierData = {
           "ant1": "Himmel und Erde werden vergehen, aber meine Worte werden nicht vergehen.",
           "ant2": "Du bist meine Zuflucht, Herr, ein fester Turm gegen die Feinde.",
           "ant3": "Vor den Schrecken des Feindes schütze mein Leben, o°Herr.",
+          "mode1": "VIII",
+          "mode2": "VI",
+          "mode3": "IV",
           "les_buch": "›Dtn",
           "les_stelle": "8,5b–6",
           "les_text": "Der Herr, dein Gott, erzieht dich, wie ein Vater seinen Sohn erzieht. Du sollst auf die Gebote des Herrn, deines Gottes, achten, auf seinen Wegen gehen und ihn fürchten.",
@@ -12128,6 +12390,9 @@ export const brevierData = {
           "ant1": "Vom Aufgang der Sonne bis zu ihrem Untergang sei gelobt der Name des Herrn.^ö",
           "ant2": "Ich will den Kelch des Heiles erheben und anrufen den Namen des Herrn.^ö",
           "ant3": "Jesus, der Herr hat sich selbst erniedrigt; darum hat Gott ihn erhöht in Ewigkeit.^ö",
+          "mode1": "VIII",
+          "mode2": "I",
+          "mode3": "IVa",
           "les_buch": "›Hebr",
           "les_stelle": "13,20–21",
           "les_text": "Der Gott des Friedens, der Jesus, unseren Herrn, den erhabenen Hirten seiner Schafe, von den Toten heraufgeführt hat durch das Blut eines ewigen Bundes, er mache euch tüchtig in allem Guten, damit ihr seinen Willen tut. Er bewirke in uns, was ihm gefällt, durch Jesus Christus, dem die Ehre sei in alle Ewigkeit! Amen.",
@@ -12177,6 +12442,9 @@ export const brevierData = {
           "ant1": "Gewaltig ist der Herr in der Höhe.^ö",
           "ant2": "Herr, du bist des Lobes würdig und hoch erhaben in Ewigkeit.^ö",
           "ant3": "Lobet den Herrn vom Himmel her.^ö",
+          "mode1": "VIIIc",
+          "mode2": "IV",
+          "mode3": "II",
           "les_buch": "›Ez",
           "les_stelle": "37,12b–14",
           "les_text": "So spricht Gott, der Herr: Ich öffne eure Gräber und hole euch, mein Volk, aus euren Gräbern herauf. Ich bringe euch zurück in das Land Israel. Wenn ich eure Gräber öffne und euch, mein Volk, aus euren Gräbern heraufhole, dann werdet ihr erkennen, dass ich der Herr bin. Ich hauche euch meinen Geist ein, dann werdet ihr lebendig, und ich bringe euch wieder in euer Land. Dann werdet ihr erkennen, dass ich der Herr bin. Ich habe gesprochen, und ich führe es aus – Spruch des Herrn.",
@@ -12185,6 +12453,7 @@ export const brevierData = {
           "resp2": "erbarme°dich°unser.",
           "resp3": "Du sitzest zur Rechten des Vaters.",
           "antev": "0",
+          "modeev": "VI",
           "bitten_e": "Gepriesen sei Gott, der Vater, der uns durch Christus den Heiligen Geist gesandt hat. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, nimm an unser Gebet.",
           "bitten": "Du bist der Schöpfer des Lichtes;^qlass uns diesen Tag als dein Geschenk annehmen.^pDurch die Auferstehung deines Sohnes hast du der Welt neue Hoffnung geschenkt;^qgib, dass wir aus dieser Hoffnung leben.^pDu hast deiner Kirche den Heiligen Geist gesandt;^qfestige uns in der Treue zum Evangelium.^pDu bist allen Lobes würdig;^qlass uns dich heute mit allen Erlösten preisen.",
@@ -12208,6 +12477,9 @@ export const brevierData = {
           "ant1": "In der Bedrängnis rief ich zum Herrn, und er hat mich erhört.^ö",
           "ant2": "Die Rechte des Herrn hat mich erhöht.^ö",
           "ant3": "Gott, der Herr, hat uns erleuchtet.^ö",
+          "mode1": "VI",
+          "mode2": "IV",
+          "mode3": "VIII",
           "les_buch": "›Röm",
           "les_stelle": "8,15–16",
           "les_text": "Ihr habt nicht einen Geist empfangen, der euch zu Sklaven macht, so dass ihr euch immer noch fürchten müsstet, sondern ihr habt den Geist empfangen, der euch zu Söhnen macht, den Geist, in dem wir rufen: Abba, Vater! So bezeugt der Geist selber unserem Geist, dass wir Kinder Gottes sind.",
@@ -12252,6 +12524,9 @@ export const brevierData = {
           "ant1": "So spricht der Herr zu meinem Herrn: Setze dich mir zur Rechten.^ö",
           "ant2": "Ein Gedächtnis seiner Wunder hat der Herr gestiftet.^ö",
           "ant3": "Der Herr, unser Gott, ist König, er, der Herrscher über das All.^ö",
+          "mode1": "II",
+          "mode2": "IV",
+          "mode3": "VII",
           "les_buch": "›1°Petr",
           "les_stelle": "1,3–5",
           "les_text": "Gepriesen sei der Gott und Vater Jesu Christi, unseres Herrn: Er hat uns in seinem großen Erbarmen neu geboren, damit wir durch die Auferstehung Jesu Christi von den Toten eine lebendige Hoffnung haben und das unzerstörbare, makellose und unvergängliche Erbe empfangen, das im Himmel für euch aufbewahrt ist. Gottes Macht behütet euch durch den Glauben, damit ihr das Heil erlangt, das am Ende der Zeit offenbart werden soll.",
@@ -12303,6 +12578,9 @@ export const brevierData = {
           "ant1": "Selig, die in deinem Hause wohnen. Sie loben dich allezeit.",
           "ant2": "Kommt, wir ziehen hinauf zum Berg des Herrn.",
           "ant3": "Singt dem Herrn, alle Länder der Erde, und preist seinen Namen.",
+          "mode1": "VIIIa",
+          "mode2": "VI",
+          "mode3": "VIII",
           "les_buch": "›Jak",
           "les_stelle": "2,12–13",
           "les_text": "Redet und handelt wie Menschen, die nach dem Gesetz der Freiheit gerichtet werden! Denn das Gericht ist erbarmungslos gegen den, der kein Erbarmen gezeigt hat. Barmherzigkeit aber triumphiert über das Gericht.",
@@ -12311,6 +12589,7 @@ export const brevierData = {
           "resp2": "von°Ewigkeit°zu°Ewigkeit.",
           "resp3": "Er allein tut große Wunder",
           "antev": "Gepriesen sei der Herr, unser Gott.",
+          "modeev": "VIIIc",
           "bitten_e": "Gepriesen sei Gott, der die Menschen ruft, dass sie wirken zu seiner Ehre. Zu ihm lasst uns beten:",
           "bitten_r": "Ehre sei Gott in der Höhe.",
           "bitten": "Du lenkst unser Leben an jedem Tag;^qgib, dass wir dir heute die Ehre erweisen.^pSteh uns bei, da wir die Arbeit dieses Tages auf uns nehmen;^qlenke unser Tun nach deinem Willen.^pLass unser Werk gelingen^qund mach es fruchtbar für unsere Brüder.^pSei mit allen, die uns heute begegnen;^qschenke ihnen deinen Frieden und deine Freude.",
@@ -12336,6 +12615,9 @@ export const brevierData = {
           "ant1": "Deine Weisungen suche ich, Herr, durch sie schenkst du mir Leben.",
           "ant2": "Herr, du bist meine Hoffnung von Jugend auf.",
           "ant3": "Auch wenn ich alt und grau bin, verlass mich nicht, du, mein Gott.",
+          "mode1": "IV",
+          "mode2": "II",
+          "mode3": "II",
           "les_buch": "›2°Kor",
           "les_stelle": "13,11",
           "les_text": "Liebe Brüder, freut euch, kehrt zur Ordnung zurück, lasst euch ermahnen, seid eines Sinnes und lebt in Frieden! Dann wird der Gott der Liebe und des Friedens mit euch sein.",
@@ -12380,6 +12662,9 @@ export const brevierData = {
           "ant1": "Unsere Augen schauen auf den Herrn, bis er uns gnädig ist.",
           "ant2": "Unsere Hilfe ist im Namen des Herrn, der Himmel und Erde gemacht hat.",
           "ant3": "Gott hat uns erwählt, seine Kinder zu werden durch Jesus Christus.",
+          "mode1": "II",
+          "mode2": "VII",
+          "mode3": "VIII",
           "les_buch": "›Jak",
           "les_stelle": "4,11–12",
           "les_text": "Verleumdet einander nicht, Brüder! Wer seinen Bruder verleumdet oder seinen Bruder verurteilt, verleumdet das Gesetz und verurteilt das Gesetz; wenn du aber das Gesetz verurteilst, handelst du nicht nach dem Gesetz, sondern bist sein Richter. Nur einer ist der Gesetzgeber und Richter: er, der die Macht hat, zu retten und zu verderben. Wer aber bist du, dass du über deinen Nächsten richtest?",
@@ -12388,6 +12673,7 @@ export const brevierData = {
           "resp2": "ich habe gegen dich gesündigt.",
           "resp3": "Erbarme dich meiner und sei mir gnädig.",
           "antev": "Meine Seele preist die Größe des Herrn; denn auf die Niedrigkeit seiner Magd hat er geschaut.",
+          "modeev": "VII",
           "bitten_e": "Lasst uns beten zu unserem Herrn Jesus Christus, der alle Menschen an sich ziehen will:",
           "bitten_r": "Herr, führe alle Menschen zum Heil.",
           "bitten": "Du hast uns aus der Knechtschaft der Sünde befreit;^qhilf deiner Kirche, die Vergebung der Sünden zu verkünden.^pStärke unseren Bischof ^NB und alle Hirten der Kirche,^qdamit sie dir mit ganzer Hingabe dienen.^pGib, dass alle, die nach der Wahrheit suchen, dich finden^qund nicht aufhören, nach deiner Wahrheit zu streben.^pStehe den Witwen und Waisen und allen Verlassenen bei;^qlass sie deine Nähe erfahren.^pGedenke unserer Verstorbenen;^qnimm sie auf in dein himmlisches Reich.",
@@ -12433,6 +12719,9 @@ export const brevierData = {
           "ant1": "Begnadet hast du, Herr, dein Land, hast deinem Volk die Schuld vergeben.",
           "ant2": "Meine Seele sehnt sich nach dir in der Nacht, mein Geist verlangt nach dir am Morgen.",
           "ant3": "Lass dein Antlitz über uns leuchten, o°Herr.",
+          "mode1": "I",
+          "mode2": "VI",
+          "mode3": "II",
           "les_buch": "›1°Joh",
           "les_stelle": "4,14–15",
           "les_text": "Wir haben gesehen und bezeugen, dass der Vater den Sohn gesandt hat als den Retter der Welt. Wer bekennt, dass Jesus der Sohn Gottes ist, in dem bleibt Gott, und er bleibt in Gott.",
@@ -12441,6 +12730,7 @@ export const brevierData = {
           "resp2": "auf ihn allein will ich vertrauen.",
           "resp3": "Meine Zuflucht und mein Retter,",
           "antev": "Einen starken Retter hat der Herr uns erweckt, wie er verheißen hat durch den Mund seiner Propheten.",
+          "modeev": "Ig",
           "bitten_e": "Gepriesen sei Jesus Christus, unser Erlöser. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, erbarme dich unser.",
           "bitten": "Zum Beginn dieses Tages nimm das Lobgebet deiner Kirche an;^qlehre uns deine Herrlichkeit preisen.^pAuf dich vertrauen wir;^qlass uns nicht zuschanden werden.^pEile uns zu Hilfe;^qdenn ohne dich können wir nichts tun.^pMach uns verständnisvoll und barmherzig,^qdass wir helfen können, wo Hilfe not tut.",
@@ -12466,6 +12756,9 @@ export const brevierData = {
           "ant1": "Die Erfüllung des Gesetzes ist die Liebe; wer den Nächsten liebt, hat das Gesetz erfüllt.",
           "ant2": "Gedenke deiner Gemeinde, o°Herr; denn sie ist dein von Anbeginn.",
           "ant3": "Erhebe dich, Gott, und führe deine Sache.",
+          "mode1": "VIII",
+          "mode2": "VI",
+          "mode3": "IVa",
           "les_buch": "›Jer",
           "les_stelle": "22,3",
           "les_text": "Sorgt für Recht und Gerechtigkeit und rettet den Ausgeplünderten aus der Hand des Gewalttäters! Fremde, Waisen und Witwen bedrängt und misshandelt nicht; vergießt kein unschuldiges Blut an diesem Ort!",
@@ -12508,6 +12801,9 @@ export const brevierData = {
           "ant1": "Wie Berge Jerusalem rings umgeben, so ist der Herr um sein Volk, von nun an auf ewig.",
           "ant2": "Wenn ihr nicht werdet wie die Kinder, kommt ihr nicht in das Himmelreich.",
           "ant3": "Du hast uns, Herr, zu Königen gemacht und zu Priestern für unseren Gott.",
+          "mode1": "VIII",
+          "mode2": "IVg",
+          "mode3": "III",
           "les_buch": "›Röm",
           "les_stelle": "12,9–12",
           "les_text": "Eure Liebe sei ohne Heuchelei. Verabscheut das Böse, haltet fest am Guten. Seid einander in brüderlicher Liebe zugetan, übertrefft euch in gegenseitiger Achtung. Lasst nicht nach in eurem Eifer, lasst euch vom Geist entflammen und dient dem Herrn. Seid fröhlich in der Hoffnung, geduldig in der Bedrängnis, beharrlich im Gebet.",
@@ -12516,6 +12812,7 @@ export const brevierData = {
           "resp2": "dein Wort, o°Herr, bleibt ewig.",
           "resp3": "Deine Treue währt durch alle Geschlechter,",
           "antev": "Mein Geist jubelt über Gott, meinen Herrn und meinen Retter.",
+          "modeev": "VIII",
           "bitten_e": "Lasst uns beten zum Gott unserer Hoffnung:",
           "bitten_r": "Herr, erhöre uns.",
           "bitten": "In Christus hast du uns reich gemacht;^qführe alle Menschen zur Erkenntnis deines Sohnes.^pDu hast Macht über die Herzen der Mächtigen;^qgib den Staatsmännern Klugkeit und Maß.^pDu gibst den Künstlern schöpferische Kraft;^qschenke durch ihre Werke den Menschen Freude und Hoffnung.^pDu lässt nicht zu, dass jemand über seine Kraft versucht wird;^qstärke die Schwachen und richte die Gefallenen auf.^pGedenke unserer Verstorbenen;^qlass sie auferstehen zum ewigen Leben.",
@@ -12561,6 +12858,9 @@ export const brevierData = {
           "ant1": "Herr, erfreue deinen Knecht: ich erhebe meine Seele zu dir.",
           "ant2": "Selig, wer rechtschaffen lebt und die Wahrheit sagt.",
           "ant3": "Freut euch, jubelt und singt, jauchzt vor dem Herrn, dem König.",
+          "mode1": "IVa",
+          "mode2": "IIm",
+          "mode3": "VII",
           "les_buch": "›Ijob",
           "les_stelle": "1,21; 2,10b",
           "les_text": "Nackt kam ich hervor aus dem Schoß meiner Mutter; nackt kehre ich dahin zurück. Der Herr hat gegeben, der Herr hat genommen; gelobt sei der Name des Herrn! Nehmen wir das Gute an von Gott, sollen wir dann nicht auch das Böse annehmen?",
@@ -12568,6 +12868,7 @@ export const brevierData = {
           "resp2": "deinem Gesetz will ich folgen.",
           "resp3": "Belebe mich durch deine Weisung.",
           "antev": "Vollende an uns dein Erbarmen, o°Herr, und denk an deinen heiligen Bund.",
+          "modeev": "IV",
           "bitten_e": "Gepriesen sei Jesus Christus, der bei uns bleibt bis ans Ende der Zeiten. Zu ihm lasst uns beten:",
           "bitten_r": "Kyrie, eleison.",
           "bitten": "Du schenkst uns heute Licht und Leben;^qmach uns dankbar für deine Gaben.^pDu hast uns in dein Volk gerufen;^qfestige uns in der Treue zu dir.^pDu führst die Kirche auf den Weg deiner Gebote;^qbewahre uns vor Schuld und Sünde.^pDu nährst uns am Tisch des Wortes und des Sakramentes,^qgib, dass wir in der Kraft dieser Speise dir folgen.",
@@ -12593,6 +12894,9 @@ export const brevierData = {
           "ant1": "Ich bin das Licht der Welt. Wer mir nachfolgt, wandelt nicht in Finsternis, sondern hat das Licht des Lebens.",
           "ant2": "Herr, steh mir bei; denn ich bin arm und gebeugt.",
           "ant3": "Gott richtet nicht nach dem Augenschein, sondern nach Gerechtigkeit und Recht.",
+          "mode1": "VIIIc",
+          "mode2": "III",
+          "mode3": "II",
           "les_buch": "›1°Kor",
           "les_stelle": "13,4–7",
           "les_text": "Die Liebe ist langmütig, die Liebe ist gütig. Sie ereifert sich nicht, sie prahlt nicht, sie bläht sich nicht auf. Sie handelt nicht ungehörig, sucht nicht ihren Vorteil, lässt sich nicht zum Zorn reizen, trägt das Böse nicht nach. Sie freut sich nicht über das Unrecht, sondern freut sich an der Wahrheit. Sie erträgt alles, glaubt alles, hofft alles, hält allem stand.",
@@ -12635,6 +12939,9 @@ export const brevierData = {
           "ant1": "Die mit Tränen säen, werden mit Jubel ernten.",
           "ant2": "Herr, erbaue uns das Haus und bewache die Stadt.",
           "ant3": "Er ist der Erstgeborene der ganzen Schöpfung, in allem hat er den Vorrang.",
+          "mode1": "VI",
+          "mode2": "II",
+          "mode3": "VIIIa",
           "les_buch": "›Eph",
           "les_stelle": "3,20–21",
           "les_text": "Gott, der durch die Macht, die in uns wirkt, unendlich viel mehr tun kann, als wir erbitten oder uns ausdenken können, er werde verherrlicht durch die Kirche und durch Christus Jesus in allen Generationen, für ewige Zeiten. Amen.",
@@ -12643,6 +12950,7 @@ export const brevierData = {
           "resp2": "erlöse mich und sei mir gnädig.",
           "resp3": "Raff mich nicht hinweg mit den Sündern, lass mich nicht zu Grunde gehn.",
           "antev": "Großes hat an mir getan der Mächtige, sein Name ist heilig.",
+          "modeev": "VIII",
           "bitten_e": "Lasst uns beten zu Gott, der sich aller Menschen erbarmt:",
           "bitten_r": "Wir bitten dich, erhöre uns.",
           "bitten": "Du rufst alle Menschen zum Heil;^qgib, dass sie deinen Ruf vernehmen.^pGedenke aller, die sich zu dir bekennen;^qlass sie spüren, dass sie Kinder eines Vaters sind.^pDein Sohn hat auf Erden mit seinen eigenen Händen gearbeitet;^qgedenke derer, die durch ihrer Hände Arbeit ihr Brot verdienen.^pSchenke neue Hoffnung denen, die durch Misserfolg und Undank entmutigt sind,^qund bewahre vor Hochmut die Erfolgreichen, damit sie nicht überheblich werden.^pGedenke unserer verstorbenen Brüder und Schwestern^qund schenke ihnen das ewige Leben.",
@@ -12688,6 +12996,9 @@ export const brevierData = {
           "ant1": "Herrliches sagt man von dir, du Stadt unseres Gottes.",
           "ant2": "Der Herr kommt mit Macht und mit ihm sein Siegespreis.",
           "ant3": "Rühmt den Herrn, unsern Gott; an seinem heiligen Berg werft euch nieder.",
+          "mode1": "VIII",
+          "mode2": "IVg",
+          "mode3": "VII",
           "les_buch": "›1°Petr",
           "les_stelle": "4,10.11c",
           "les_text": "Dient einander als gute Verwalter der vielfältigen Gnade Gottes, jeder mit der Gabe, die er empfangen hat! Wer redet, der rede mit den Worten, die Gott ihm gibt; wer dient, der diene aus der Kraft, die Gott verleiht. So wird in allem Gott verherrlicht durch Jesus Christus.",
@@ -12695,6 +13006,7 @@ export const brevierData = {
           "resp2": "erhöre mich und sei mir gnädig.",
           "resp3": "Herr, deine Weisung will ich befolgen.",
           "antev": "Dienet dem Herrn in Heiligkeit, denn er befreit uns aus der Hand unserer Feinde.",
+          "modeev": "III",
           "bitten_e": "Gepriesen sei Gott, der allmächtige Vater, der allezeit für uns sorgt. Zu ihm lasst uns beten:",
           "bitten_r": "Dir sei Ehre in Ewigkeit.",
           "bitten": "Gott, du hast uns Menschen wunderbar geschaffen und noch wunderbarer erneuert;^qgib, dass wir dir allezeit danken.^pDu hast uns zum Beginn dieses neuen Tages geführt;^qgib, dass wir über all unserem Tun dich nicht vergessen.^pReinige unser Herz von jedem bösen Verlangen;^qmach uns bereit, heute in allem deinen Willen zu tun.^pÖffne unsere Augen für die Not der Mitmenschen^qund lass sie unsere Hilfe erfahren.",
@@ -12720,6 +13032,9 @@ export const brevierData = {
           "ant1": "Herr, stütze mich, wie du es verheißen hast, damit ich lebe.",
           "ant2": "Hilf uns, du Gott unseres Heils. Vergib uns die Sünden.",
           "ant3": "Gott der Scharen, blicke vom Himmel herab. Komm und sorge für deinen Weinstock.",
+          "mode1": "II",
+          "mode2": "IVa",
+          "mode3": "VIII",
           "les_buch": "›Weish",
           "les_stelle": "19,22",
           "les_text": "In allem hast du, Herr, dein Volk groß gemacht und verherrlicht; du hast es nicht im Stich gelassen, sondern bist ihm immer und überall beigestanden.",
@@ -12764,6 +13079,9 @@ export const brevierData = {
           "ant1": "Dein heiliges Volk soll jubeln, Herr, und dir huldigen in deinem Tempel.",
           "ant2": "Den Zion hat der Herr erwählt, er hat ihn erkoren zu seinem Wohnsitz.",
           "ant3": "Macht und Ehre und Königtum hat Gott ihm verliehen. Alle Völker werden ihm dienen.",
+          "mode1": "VIII",
+          "mode2": "I",
+          "mode3": "II",
           "les_buch": "›1°Petr",
           "les_stelle": "3,8–9",
           "les_text": "Seid alle eines Sinnes, voll Mitgefühl und brüderlicher Liebe, seid barmherzig und demütig! Vergeltet nicht Böses mit Bösem noch Kränkung mit Kränkung! Stattdessen segnet; denn ihr seid dazu berufen, Segen zu erlangen.",
@@ -12772,6 +13090,7 @@ export const brevierData = {
           "resp2": "er nährte dich mit bestem Weizen.",
           "resp3": "Mit Honig aus dem Felsen hat er dich gesättigt.",
           "antev": "Gott stürzt die Mächtigen vom Thron und erhöht die Niedrigen.",
+          "modeev": "V",
           "bitten_e": "Lasst uns beten zu Jesus Christus, unserem Helfer:",
           "bitten_r": "Herr, erhöre uns.",
           "bitten": "Du hast Menschen aller Völker in deine Kirche gerufen;^qlass sie die Kraft der Glaubensgemeischaft erfahren.^pDu hast unserem Papst ^NP die Sorge für die ganze Kirche aufgetragen;^qstärke ihn im Glauben und in der Liebe.^pSchenke den Sündern die Gnade der Bekehrung;^qführe uns alle durch Buße zum Heil.^pDu hast als Mensch das Los der Fremde auf dich genommen;^qgedenke aller, die getrennt von Heimat und Familie leben müssen.^pGewähre den Verstorbenen den ewigen Frieden,^qdenn auf dich haben sie gehofft.",
@@ -12827,6 +13146,7 @@ export const brevierData = {
           "resp2": "denn auf dich vertraue ich.",
           "resp3": "Zu dir erheb’ ich meine Seele; zeig mir den Weg, den ich gehen soll.",
           "antev": "Der Herr hat sein Volk besucht und ihm Erlösung geschaffen.",
+          "modeev": "VIII",
           "bitten_e": "Gepriesen sei Christus, der für uns gestorben und auferstanden ist. Zu ihm lasst uns beten:",
           "bitten_r": "Christe, eleison.",
           "bitten": "Du hast nicht gezögert, am Kreuz für uns dein Blut zu vergießen;^qlass uns heute dankbar deines Leidens gedenken.^pDu lässt die Deinen teilhaben an deinem Kreuz;^qgib uns Kraft und Geduld, wenn wir leiden müssen.^pDu hast uns das lebendige Wasser versprochen, das hinüberströmt ins ewige Leben;^qgieße deinen Geist über uns aus.^pDu hast deinen Jüngern aufgetragen, den Menschen das Evangelium zu bringen;^qhilf uns, durch unser Leben die Botschaft vom Kreuz zu verkünden.",
@@ -12901,6 +13221,7 @@ export const brevierData = {
           "ant3": "Alle Völker werden kommen und niederfallen vor dir, unserm Gott und Herrn.",
           "mode1": "VII",
           "mode2": "VII",
+          "mode3": "VIII",
           "les_buch": "›Jak",
           "les_stelle": "1,2–4",
           "les_text": "Seid voll Freude, meine Brüder, wenn ihr in mancherlei Versuchungen geratet! Ihr wisst, dass die Prüfung eures Glaubens Ausdauer bewirkt. Die Ausdauer aber soll zu einem vollendeten Werk führen; denn so werdet ihr vollendet und untadelig sein, es wird euch nichts mehr fehlen.",
@@ -12909,6 +13230,7 @@ export const brevierData = {
           "resp2": "uns durch sein Blut befreit von unsern Sünden.",
           "resp3": "Er hat uns zu Königen gemacht und zu Priestern für den Dienst vor Gott.",
           "antev": "Der Herr nimmt sich seiner Kinder an und denkt an sein Erbarmen.",
+          "modeev": "I",
           "bitten_e": "Lasst uns beten zu Jesus Christus, den der Vater um unserer Sünden willen in den Tod gegeben hat:",
           "bitten_r": "Herr, erbarme dich.",
           "bitten": "Wir haben viel gesündigt, doch du hast dich unser erbarmt;^qschenke den Sündern die Gnade der Bekehrung.^pHabe Nachsicht mit denen, die ihre Sünden bekennen;^qgewähre ihnen Verzeihung und Frieden.^pErbarme dich aller, die um deines Namens willen verfolgt werden,^qund vergib denen, die ihnen Unrecht tun.^pRichte auf die Kranken und Schwachen;^qtröste die Einsamen und vom Leid Geprüften.^pDu hast dem Schächer das Paradies geöffnet, weil er dich als Heiland bekannt hat;^qöffne unseren Verstorbenen die Pforten des Himmels.",
@@ -12954,6 +13276,9 @@ export const brevierData = {
           "ant1": "Nahe bist du, Herr, und alle deine Gebote sind Wahrheit.",
           "ant2": "Herr, deine Weisheit sei bei mir und teile mit mir alle Mühe.",
           "ant3": "Die Treue des Herrn währt in Ewigkeit.",
+          "mode1": "VIIIa",
+          "mode2": "IVa",
+          "mode3": "VI",
           "les_buch": "›Phil",
           "les_stelle": "2,14–15",
           "les_text": "Tut alles ohne Murren und Bedenken, damit ihr rein und ohne Tadel seid, Kinder Gottes ohne Makel mitten in einer verdorbenen und verwirrten Generation, unter der ihr als Lichter in der Welt leuchtet.",
@@ -12962,6 +13287,7 @@ export const brevierData = {
           "resp2": "ich sage: Du bist meine Zuflucht.",
           "resp3": "Du bist mein Anteil im Lande der Lebenden.",
           "antev": "Licht aus der Höhe, leuchte allen, die in Finsternis sind und im Schatten des Todes.",
+          "modeev": "V",
           "bitten_e": "Gepriesen sei Gott, der Maria, die Mutter Christi, über alle Geschöpfe erhoben hat. Zu ihm lasst uns beten:",
           "bitten_r": "Schenke uns dein Erbarmen.",
           "bitten": "Herr, unser Gott, du hast Maria geheiligt und zur Mutter deines Sohnes gemacht;^qhöre auf ihre Fürsprache und heilige uns.^pDu hast uns Maria als Mutter und Vorbild geschenkt;^qhöre auf ihre Fürsprache und beschütze uns.^pDu hast Maria unter dem Kreuz gestärkt;^qhöre auf ihre Fürsprache und stärke uns, wenn wir leiden müssen.^pDu hast Maria durch die Auferweckung deines Sohnes froh gemacht;^qhöre auf ihre Fürsprache und festige unsere Hoffnung.",
@@ -12987,6 +13313,9 @@ export const brevierData = {
           "ant1": "Verbürge dich, Herr, für das Wohl deines Knechtes.",
           "ant2": "Blickt auf zum Herrn, und euer Antlitz wird leuchten.",
           "ant3": "Nahe ist der Herr den zerbrochenen Herzen.",
+          "mode1": "I",
+          "mode2": "VIII",
+          "mode3": "II",
           "les_buch": "›1°Sam",
           "les_stelle": "15,22",
           "les_text": "Hat der HERR an Brandopfern und Schlachtopfern das gleiche Gefallen wie am Gehorsam gegenüber der Stimme des HERRN? Wahrhaftig, Gehorsam ist besser als Opfer, Hinhören besser als das Fett von Widdern.",
@@ -14557,16 +14886,8 @@ export const brevierData = {
           "oration_lat": "Concéde nobis, Dómine, præsídia milítiæ christiánæ sanctis inchoáre ieiúniis, ut, contra spiritáles nequítias pugnatúri, continéntiæ muniámur auxíliis.^ORlV"
         },
         "Laudes": {
-          "psalm1": 108.101,
-          "psalm2": 193.0,
-          "psalm3": 146.0,
-          "ant1": "Mein Herz ist bereit, o°Gott. Ich will dir singen und spielen.",
-          "ant2": "Ich will mich freuen über den Herrn. Er kleidet mich in Gewänder des Heils.",
-          "ant3": "Den Herrn will ich loben, solange ich lebe.",
-          "mode1": "VII",
-          "mode2": "VIIIa",
-          "mode3": "VI",
           "antev": "Wenn ihr fastet und Buße tut, macht kein finsteres Gesicht wie die Heuchler.",
+          "modeev": "VIII",
           "ant1_lat": "Parátum cor meum, Deus, parátum cor meum.",
           "ant2_lat": "Induit me Dóminus induménto salútis et iustítiæ.",
           "ant3_lat": "Laudábo Deum meum in vita mea.",
@@ -14574,6 +14895,7 @@ export const brevierData = {
         },
         "Vesper": {
           "antev": "Wenn du Almosen gibst, soll deine linke Hand nicht wissen, was die rechte tut.",
+          "modeev": "IV",
           "antev_lat": "Cum facis eleemósynam, nésciat sinístra tua quid fáciat déxtera tua."
         }
       },
@@ -14584,10 +14906,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Wer mein Jünger sein will, der verleugne sich selbst. Er nehme täglich sein Kreuz auf sich und folge mir nach.",
+          "modeev": "VII",
           "antev_lat": "Qui vult veníre post me, dicit Dóminus, ábneget semetípsum, et tollat crucem suam, et sequátur me."
         },
         "Vesper": {
           "antev": "Wer sein Leben sucht, wird es verlieren; doch wer es um meinetwillen verliert, wird das wahre Leben finden.",
+          "modeev": "III",
           "antev_lat": "Qui perdíderit ánimam suam propter me, dicit Dóminus, invéniet eam in ætérnum."
         }
       },
@@ -14598,10 +14922,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Brich den Hungrigen dein Brot und nimm die Armen auf. Dann wird dein Licht aufleuchten wie das Morgenrot, und bald bist du geheilt.",
+          "modeev": "I",
           "antev_lat": "Cum víderis nudum, óperi eum, et carnem tuam ne despéxeris; tunc erúmpet quasi mane lumen tuum, et anteíbit fáciem tuam iustítia tua."
         },
         "Vesper": {
           "antev": "Es kommen Tage, da werden die Hochzeitsgäste fasten; denn der Bräutigam ist ihnen genommen.",
+          "modeev": "IV",
           "antev_lat": "Cum auferétur ab eis sponsus, convívæ nuptiárum ieiunábunt in diébus illis."
         }
       },
@@ -14612,6 +14938,7 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Sammelt euch Schätze im Himmel, wo weder Rost noch Motten sie zerstören.",
+          "modeev": "IIc",
           "antev_lat": "Thesaurizáte vobis thesáuros in cælo, ubi nec ærúgo nec tínea demolítur."
         }
       }
@@ -14626,7 +14953,11 @@ export const brevierData = {
           "ant1": "Herr, wir kommen zu dir mit reumütigem Herzen und mit demütigem Sinn. Nimm uns an und gib, dass unser Opfer dir gefalle.",
           "ant2": "Du wirst zum Herrn rufen, und er wird dich erhören; du wirst schreien, und er wird sagen: Da bin ich.",
           "ant3": "Unserer Sünden wegen ist Christus gestorben, er, der Gerechte, für die Ungerechten, um uns hinzuführen zu Gott. Dem Fleische nach wurde er getötet, dem Geiste nach lebendig gemacht.",
+          "mode1": "I",
+          "mode2": "IV",
+          "mode3": "II",
           "antev": "Nicht vom Brot allein lebt der Mensch, sondern von jedem Wort, das aus dem Munde Gottes kommt.",
+          "modeev": "IV",
           "ant1_lat": "In spíritu humilitátis et in ánimo contríto suscipiámur, Dómine, a te; et sic fiat sacrifícium nostrum, ut suscipiátur a te hódie et pláceat tibi, Dómine Deus.",
           "ant2_lat": "Tunc invocábis, et Dóminus exáudiet; clamábis, et dicet: Ecce adsum.",
           "ant3_lat": "Christus pro peccátis nostris mórtuus est, iustus pro iniústis, ut nos offérret Deo, mortificátus quidem carne, vivificátus autem Spíritu.",
@@ -14643,7 +14974,11 @@ export const brevierData = {
           "ant1": "Herr, ich will dich rühmen mein Leben lang, in deinem Namen die Hände erheben.",
           "ant2": "Singt dem Herrn ein Lied und preist ihn in Ewigkeit.",
           "ant3": "Der Herr hat Gefallen an seinem Volk, die Gebeugten krönt er mit Sieg.",
+          "mode1": "VII",
+          "mode2": "VIII",
+          "mode3": "II",
           "antev": "Jesus wurde vom Geist in die Wüste geführt, damit der Teufel ihn versuche. Als er vierzig Tage und vierzig Nächte gefastet hatte, hungerte ihn.",
+          "modeev": "IV",
           "ant1_lat": "Benedícam te in vita mea, Dómine, et in nómine tuo levábo manus meas.",
           "ant2_lat": "Hymnum dícite, et superexaltáte Deum in sǽcula.",
           "ant3_lat": "Beneplácitum est Dómino in pópulo suo, et honorábit mansuétos in salútem.",
@@ -14654,7 +14989,11 @@ export const brevierData = {
           "ant1": "Den Herrn, deinen Gott, bete an! Ihm allein sollst du dienen.",
           "ant2": "Jetzt ist die gnadenreiche Zeit, jetzt ist die Zeit des Heiles.",
           "ant3": "Seht, wir ziehen hinauf nach Jerusalem; dort wird sich alles erfüllen, was über den Menschensohn geschrieben steht.",
+          "mode1": "VII",
+          "mode2": "I",
+          "mode3": "III",
           "antev": "Wache über uns, Herr und Erlöser, damit wir der List des Versuchers nicht erliegen; denn du bist unser Helfer auf ewig.",
+          "modeev": "IIc",
           "ant1_lat": "Dóminum Deum tuum adorábis et illi soli sérvies.",
           "ant2_lat": "Ecce nunc tempus acceptábile, ecce nunc dies salútis.",
           "ant3_lat": "Ecce ascéndimus Ierosólymam, et consummabúntur ómnia quæ scripta sunt de Fílio hóminis.",
@@ -14673,10 +15012,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Kommt, ihr Gesegneten meines Vaters, nehmt das Reich in Besitz, das euch bereitet ist seit Anbeginn der Welt.",
+          "modeev": "VIII",
           "antev_lat": "Veníte, benedícti Patris mei, percípite regnum, quod vobis parátum est ab orígine mundi."
         },
         "Vesper": {
           "antev": "Was ihr dem Geringsten meiner Brüder getan habt, das habt ihr mir getan.",
+          "modeev": "VI",
           "antev_lat": "Quod uni ex mínimis meis fecístis, mihi fecístis, dicit Dóminus."
         }
       },
@@ -14687,10 +15028,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Herr, lehre uns beten, wie auch Johannes seine Jünger beten gelehrt hat.",
+          "modeev": "IIc",
           "antev_lat": "Dómine, doce nos oráre, sicut dócuit Ioánnes discípulos suos."
         },
         "Vesper": {
           "antev": "Wenn du beten willst, geh in deine Kammer und verschließ die Tür; dann bete zu deinem Vater.",
+          "modeev": "IIc",
           "antev_lat": "Tu autem, cum oráveris, intra in cubículum tuum, et, clauso óstio, ora Patrem tuum."
         }
       },
@@ -14701,10 +15044,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Dieses Volk ist ein böses Volk. Es fordert ein Zeichen. Aber es wird ihm kein anderes Zeichen gegeben als das Zeichen des Jona.",
+          "modeev": "IIc",
           "antev_lat": "Generátio hæc prava et pervérsa signum quærit, et signum non dábitur ei, nisi signum Ionæ prophétæ."
         },
         "Vesper": {
           "antev": "Wie Jona drei Tage und drei Nächte im Bauch des Fisches war, so wird auch der Menschensohn drei Tage und drei Nächte im Schoß der Erde sein.",
+          "modeev": "I",
           "antev_lat": "Sicut fuit Ionas in ventre ceti tribus diébus et tribus nóctibus, ita erit Fílius hóminis in corde terræ."
         }
       },
@@ -14715,10 +15060,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Wenn schon ihr, die ihr böse seid, euren Kindern Gutes gebt, um wieviel mehr wird euer Vater im Himmel denen Gutes geben, die ihn darum bitten?",
+          "modeev": "IV",
           "antev_lat": "Si vos, cum sitis mali, nostis bona data dare fíliis vestris, quanto magis Pater vester de cælo dabit bona peténtibus se!"
         },
         "Vesper": {
           "antev": "Bittet, dann wird euch gegeben; sucht, dann werdet ihr finden; klopft an, dann wird euch geöffnet.",
+          "modeev": "VI",
           "antev_lat": "Pétite, et dábitur vobis; quǽrite, et inveniétis; pulsáte, et aperiétur vobis."
         }
       },
@@ -14729,10 +15076,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Wenn eure Gerechtigkeit nicht noch viel größer ist als die der Schriftgelehrten und der Pharisäer, so werdet ihr nicht in das Himmelreich kommen.",
+          "modeev": "IV",
           "antev_lat": "Nisi abundáverit iustítia vestra plus quam scribárum et pharisæórum, non intrábitis in regnum cælórum."
         },
         "Vesper": {
           "antev": "Versöhne dich zuerst mit deinem Bruder; dann komm und opfere deine Gabe.",
+          "modeev": "IIc",
           "antev_lat": "Si offers munus tuum ante altáre et recordátus fúeris quia frater tuus habet áliquid advérsum te, relínque ibi munus tuum ante altáre, et vade prius reconciliári fratri tuo, et tunc véniens ófferes munus tuum."
         }
       },
@@ -14743,6 +15092,7 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Betet für die, die euch verfolgen und verleumden, dann seid ihr Söhne eures Vaters, der im Himmel ist.",
+          "modeev": "IV",
           "antev_lat": "Oráte pro persequéntibus et calumniántibus vos, ut sitis fílii Patris vestri, qui in cælis est, dicit Dóminus."
         }
       }
@@ -14757,7 +15107,11 @@ export const brevierData = {
           "ant1": "Jesus nahm Petrus, Jakobus und Johannes mit sich und führte sie auf einen hohen Berg. Dort wurde er vor ihren Augen verklärt.",
           "ant2": "Sein Antlitz leuchtete wie die Sonne, und sein Gewand wurde weiß wie Schnee.",
           "ant3": "Mose und Elija sprachen von dem Weg, den er in Jerusalem vollenden wollte.",
+          "mode1": "II",
+          "mode2": "IVa",
+          "mode3": "III",
           "antev": "Eine Stimme aus der Wolke sprach: Dies ist mein geliebter Sohn, auf ihn sollt ihr hören.",
+          "modeev": "VIII",
           "ant1_lat": "Assúmpsit Iesus Petrum et Iacóbum et Ioánnem fratrem eius, et duxit eos in montem excélsum seórsum, et transfigurátus est ante eos.",
           "ant2_lat": "Resplénduit fácies eius sicut sol, vestiménta autem eius facta sunt alba sicut nix.",
           "ant3_lat": "Móyses et Elías dicébant excéssum eius, quem completúrus erat in Ierúsalem.",
@@ -14773,7 +15127,11 @@ export const brevierData = {
           "ant1": "Die Rechte des Herrn wirkt mit Macht, die Rechte des Herrn hat mich erhoben.",
           "ant2": "Lasst uns singen das Lied, das die drei Jünglinge im Feuer sangen, dem Herrn zum Preis.",
           "ant3": "Lobet den Herrn in seiner mächtigen Feste.",
+          "mode1": "VIII",
+          "mode2": "VII",
+          "mode3": "V",
           "antev": "Jesus Christus, unser Herr, hat dem Tod die Macht genommen und uns das Licht des unvergänglichen Lebens gebracht durch das Evangelium.",
+          "modeev": "IV",
           "ant1_lat": "Déxtera Dómini fecit virtútem, déxtera Dómini exaltávit me.",
           "ant2_lat": "Trium puerórum cantémus hymnum, quem cantábant in camíno ignis, benedicéntes Dóminum.",
           "ant3_lat": "Laudáte Dóminum in firmaménto virtútis eius.",
@@ -14783,7 +15141,11 @@ export const brevierData = {
           "ant1": "Der Herr reicht dir das Zepter deiner Macht, wenn du erscheinst in heiligem Schmuck.",
           "ant2": "Er allein ist Gott. Ihn verehren wir. Himmel und Erde hat er geschaffen.",
           "ant3": "Seinen eigenen Sohn hat Gott nicht verschont, für uns alle hat er ihn hingegeben.",
+          "mode1": "VII",
+          "mode2": "IX",
+          "mode3": "I",
           "antev": "Sagt niemand, was ihr gesehen habt, bis der Menschensohn von den Toten erstanden ist.",
+          "modeev": "VI",
           "ant1_lat": "Virgam virtútis tuæ emíttet Dóminus in splendóribus sanctórum.",
           "ant2_lat": "Deus unus est, quem cólimus, qui fecit cælum et terram.",
           "ant3_lat": "Próprio Fílio suo non pepércit Deus, sed pro nobis ómnibus trádidit illum.",
@@ -14801,10 +15163,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Seid barmherzig, wie euer Vater barmherzig ist.",
+          "modeev": "I",
           "antev_lat": "Estóte misericórdes, sicut et Pater vester miséricors est, dicit Dóminus."
         },
         "Vesper": {
           "antev": "Richtet nicht, damit ihr nicht gerichtet werdet – spricht der Herr –, denn wie ihr richtet, so werdet ihr gerichtet.",
+          "modeev": "IIc",
           "antev_lat": "Nolíte iudicáre, et non iudicabímini; in quo enim iudício iudicavéritis, iudicabímini, dicit Dóminus."
         }
       },
@@ -14815,10 +15179,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Niemand auf Erden sollt ihr Vater nennen. Nur einer ist euer Vater: der im Himmel. Ihr alle aber seid Brüder.",
+          "modeev": "VIII",
           "antev_lat": "Unus est magíster vester, qui in cælis est, Christus Dóminus."
         },
         "Vesper": {
           "antev": "Nur einer ist euer Meister: Christus, der Herr, der im Himmel ist.",
+          "modeev": "VIII",
           "antev_lat": "Omnes vos fratres estis; et patrem nolíte vocáre vobis super terram; unus est enim Pater vester, qui in cælis est; nec vocémini magístri, quia magíster vester unus est Christus."
         }
       },
@@ -14829,10 +15195,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Der Menschensohn ist nicht gekommen, um sich bedienen zu lassen, sondern um zu dienen und sein Leben hinzugeben als Lösegeld für viele.",
+          "modeev": "I",
           "antev_lat": "Fílius hóminis non venit ministrári, sed ministráre et dare ánimam suam redemptiónem pro multis."
         },
         "Vesper": {
           "antev": "Der Menschensohn wird den Heiden übergeben. Sie werden ihn verspotten, geißeln und kreuzigen. Am dritten Tage aber wird er auferstehen.",
+          "modeev": "IIc",
           "antev_lat": "Fílius hóminis tradétur géntibus ad illudéndum et flagellándum et crucifigéndum, et tértia die resúrget."
         }
       },
@@ -14843,10 +15211,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Mein Sohn, denke daran, dass du im Leben schon alles Gute bekommen hast, Lazarus aber nur Schlechtes. Jetzt wird er dafür getröstet.",
+          "modeev": "IIc",
           "antev_lat": "Fili, recordáre quia recepísti bona in vita tua, et Lázarus simíliter mala."
         },
         "Vesper": {
           "antev": "Der reiche Mann verweigerte dem armen Lazarus den Bissen Brot: Nun bettelt er um einen Tropfen Wasser.",
+          "modeev": "IV",
           "antev_lat": "Dives ille guttam aquæ pétiit, qui micas panis Lázaro negávit."
         }
       },
@@ -14857,10 +15227,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Den Bösen wird er ein böses Ende bereiten und den Weinberg anderen verpachten, die ihm Früchte liefern zur rechten Zeit.",
+          "modeev": "IIc",
           "antev_lat": "Malos male perdet, et víneam suam locábit áliis agrícolis, qui reddant ei fructum tempóribus suis."
         },
         "Vesper": {
           "antev": "Sie suchten Jesus festzunehmen, doch sie fürchteten sich; denn das Volk hielt ihn für einen Propheten.",
+          "modeev": "IIc",
           "antev_lat": "Quæréntes Iesum tenére, timuérunt turbam, quia sicut prophétam eum habébant."
         }
       },
@@ -14871,6 +15243,7 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Vater, ich habe gegen dich gesündigt und bin nicht mehr wert, dein Sohn zu sein; mach mich zu einem deiner Knechte.",
+          "modeev": "IV",
           "antev_lat": "Pater, peccávi in cælum et coram te, iam non sum dignus vocári fílius tuus, fac me sicut unum ex mercenáriis tuis."
         }
       }
@@ -14885,7 +15258,11 @@ export const brevierData = {
           "ant1": "So spricht der Herr: Bekehrt euch und glaubt der Frohen Botschaft.",
           "ant2": "Opfer des Lobes will ich dir bringen, anrufen will ich deinen heiligen Namen.",
           "ant3": "Niemand entreißt mir das Leben, sondern ich gebe es hin und nehme es wieder.",
+          "mode1": "IV",
+          "mode2": "III",
+          "mode3": "II",
           "antev": "Gerecht gemacht durch den Glauben, haben wir Frieden mit Gott durch unseren Herrn Jesus Christus.",
+          "modeev": "IV",
           "ant1_lat": "Pænitémini et crédite Evangélio, dicit Dóminus.",
           "ant2_lat": "Sacrificábo hóstiam laudis, et nomen Dómini invocábo.",
           "ant3_lat": "Nemo tollit a me ánimam meam, sed ego pono eam et íterum sumo eam.",
@@ -14901,7 +15278,11 @@ export const brevierData = {
           "ant1": "Gewaltiger als das Tosen vieler Wasser bist du, Herr, in der Höhe. Deine Gesetze sind fest und verlässlich.",
           "ant2": "Ihr Quellen, preiset den Herrn, lobt und rühmt ihn in Ewigkeit.",
           "ant3": "Ihr Könige der Erde und alle Völker, lobt den Herrn.",
+          "mode1": "VII",
+          "mode2": "III",
+          "mode3": "VIII",
           "antev": "Jesus sprach: Reißt diesen Tempel nieder – in drei Tagen richte ich ihn wieder auf. Er meinte den Tempel seines Leibes.",
+          "modeev": "III",
           "ant1_lat": "Super voces aquárum multárum, testimónia tua, Dómine, credibília facta sunt nimis.",
           "ant2_lat": "Benedícite, fontes, Dómino; laudáte et superexaltáte eum in sǽcula.",
           "ant3_lat": "Reges terræ et omnes pópuli, laudáte Deum.",
@@ -14911,7 +15292,11 @@ export const brevierData = {
           "ant1": "Herr, allmächtiger König, um deines Namens willen mach uns frei und gib, dass wir uns zu dir bekehren.",
           "ant2": "Durch sein kostbares Blut hat uns Christus erlöst, er, das Lamm ohne Makel.",
           "ant3": "Wahrlich, unsere Krankheiten hat er getragen, unsere Schmerzen auf sich genommen.",
+          "mode1": "III",
+          "mode2": "VI",
+          "mode3": "I",
           "antev": "Wer von dem Wasser trinkt, das ich ihm gebe, den wird nicht dürsten in Ewigkeit.",
+          "modeev": "VIII",
           "ant1_lat": "Dómine, rex omnípotens, líbera nos propter nomen tuum, et da nobis locum pæniténtiæ.",
           "ant2_lat": "Redémpti sumus pretióso sánguine agni immaculáti Christi.",
           "ant3_lat": "Vere languóres nostros ipse tulit, et dolóres nostros ipse portávit.",
@@ -14929,10 +15314,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Wahrlich, ich sage euch: Kein Prophet ist anerkannt in seiner Vaterstadt.",
+          "modeev": "IIc",
           "antev_lat": "Amen dico vobis, quia nemo prophéta accéptus est in pátria sua."
         },
         "Vesper": {
           "antev": "Jesus schritt durch die Menge hindurch und ging hinweg.",
+          "modeev": "VI",
           "antev_lat": "Iesus, tránsiens per médium illórum, ibat."
         }
       },
@@ -14943,10 +15330,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Der Herr sprach zu Petrus: Nicht siebenmal sollst du vergeben, sondern siebenundsiebzigmal.",
+          "modeev": "IIc",
           "antev_lat": "Non dico tibi, Petre, ut dimíttas sépties, sed usque septuágies sépties, dicit Dóminus."
         },
         "Vesper": {
           "antev": "Der Herr sagte zum Knecht: Deine ganze Schuld habe ich dir erlassen. Musst nicht auch du deines Mitknechtes dich erbarmen, so wie ich mich deiner erbarmte?",
+          "modeev": "IIc",
           "antev_lat": "Sic et Pater meus cæléstis fáciet vobis, si non remiséritis unusquísque fratri suo de córdibus vestris."
         }
       },
@@ -14957,10 +15346,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Denkt nicht, ich sei gekommen, das Gesetz und die Propheten aufzuheben – spricht der Herr. Nicht um aufzuheben, bin ich gekommen, sondern um zu erfüllen.",
+          "modeev": "IIc",
           "antev_lat": "Nolíte putáre quóniam veni sólvere legem aut prophétas; non veni sólvere, sed adimplére, dicit Dóminus."
         },
         "Vesper": {
           "antev": "Wer Gottes Gebote hält und sie halten lehrt, der wird groß sein im Himmelreich.",
+          "modeev": "III",
           "antev_lat": "Qui fécerit et docúerit mandáta Dómini, hic magnus vocábitur in regno cælórum."
         }
       },
@@ -14971,10 +15362,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Wenn ich Dämonen austreibe mit der Kraft Gottes, wahrlich, dann ist das Reich Gottes zu euch gekommen.",
+          "modeev": "IV",
           "antev_lat": "Si in dígito Dei eício dæmónia, profécto pervénit in vos regnum Dei, dicit Dóminus."
         },
         "Vesper": {
           "antev": "Eine Frau aus der Menge rief Jesus zu: Selig der Leib, der dich getragen, und die Brust, die dich genährt hat. Jesus aber sprach: Selig, die das Wort Gottes hören und es befolgen.",
+          "modeev": "I",
           "antev_lat": "Extóllens vocem quædam múlier de turba, dixit: Beátus venter qui te portávit et úbera quæ suxísti. At Iesus ait illi: Quinímmo beáti, qui áudiunt verbum Dei et custódiunt illud."
         }
       },
@@ -14985,10 +15378,12 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Meister, welches ist das größte Gebot? Jesus gab zur Antwort: Du sollst den Herrn, deinen Gott, lieben von ganzem Herzen.",
+          "modeev": "VI",
           "antev_lat": "Magíster, quod est mandátum magnum in lege? Ait illi Iesus: Díliges Dóminum Deum tuum ex toto corde tuo."
         },
         "Vesper": {
           "antev": "Seinen Nächsten lieben wie sich selbst, ist weit mehr als alle Opfer.",
+          "modeev": "VI",
           "antev_lat": "Dilígere próximum suum tamquam seípsum, magis est ómnibus sacrifíciis."
         }
       },
@@ -14999,6 +15394,7 @@ export const brevierData = {
         },
         "Laudes": {
           "antev": "Der Zöllner wagte nicht, die Augen zum Himmel zu erheben. Er schlug an seine Brust und betete: Gott, sei mir Sünder gnädig.",
+          "modeev": "IV",
           "antev_lat": "Stans a longe publicánus, nolébat óculos ad cælum leváre, sed percutiébat pectus suum dicens: Deus, propítius esto mihi peccatóri."
         }
       }
@@ -15939,6 +16335,9 @@ export const brevierData = {
           "ant1": "Christus, der Erstgeborene von den Toten und Herrscher über die Könige der Erde, hat uns zu einem Königreich gemacht für seinen Gott und Vater.",
           "ant2": "Er rettet den Gebeugten, der um Hilfe schreit, den Armen und den, der keinen Helfer hat.",
           "ant3": "Die Heiligen haben gesiegt durch das Blut des Lammes und durch ihr Wort und ihr Zeugnis.",
+          "mode1": "VII",
+          "mode2": "VIII",
+          "mode3": "V",
           "les_buch": "›Hebr",
           "les_stelle": "13,12–15",
           "les_text": "Jesus hat, um durch sein eigenes Blut das Volk zu heiligen, außerhalb des Tores gelitten. Lasst uns also zu ihm vor das Lager hinausziehen und seine Schmach auf uns nehmen. Denn wir haben hier keine Stadt, die bestehen bleibt, sondern wir suchen die künftige. Durch ihn also lasst uns Gott allezeit das Opfer des Lobes darbringen, nämlich die Frucht der Lippen, die seinen Namen preisen.^RESP",
@@ -15973,6 +16372,7 @@ export const brevierData = {
         },
         "Invitatorium": {
           "ant0": "Christus, der Sohn Gottes, hat uns mit seinem Blut erkauft; kommt, wir beten ihn an!",
+          "mode0": "II",
           "ant0_lat": "Christum, Dei Fílium, qui suo nos redémit sánguine, veníte, adorémus."
         },
         "Lesehore": {
@@ -15982,6 +16382,9 @@ export const brevierData = {
           "ant1": "Die Könige der Erde stehen auf, die Großen haben sich verbündet gegen den Herrn und seinen Gesalbten.",
           "ant2": "Sie verteilen unter sich meine Kleider und werfen das Los um mein Gewand.",
           "ant3": "Die mir nach dem Leben trachten, legen mir Schlingen; die mein Unheil suchen, planen Verderben.",
+          "mode1": "I",
+          "mode2": "IV",
+          "mode3": "II",
           "ant1_lat": "Astitérunt reges terræ, et príncipes convenérunt in unum, advérsus Dóminum et advérsus Christum eius.",
           "ant2_lat": "Divisérunt sibi vestiménta mea, et super vestem meam misérunt sortem.",
           "ant3_lat": "Vim faciébant, qui quærébant ánimam meam."
@@ -15991,6 +16394,7 @@ export const brevierData = {
           "psalm2": 196.0,
           "psalm3": 199.121,
           "ant0": "Aus der geöffneten Seite des Herrn floss Blut und Wasser heraus, uns zur Rettung und zum Heil.",
+          "mode0": "I",
           "les_buch": "^A:vigil-Karfreitag:",
           "les_text": "LEER",
           "les_text_neu": "",
@@ -16003,6 +16407,9 @@ export const brevierData = {
           "ant1": "Seinen eigenen Sohn hat Gott nicht verschont: Er hat ihn hingegeben für uns alle.",
           "ant2": "Jesus Christus hat uns geliebt und durch sein Blut von unseren Sünden befreit.",
           "ant3": "Dein Kreuz, o°Herr, verehren wir, und deine heilige Auferstehung preisen und rühmen wir; denn siehe, durch das Holz des Kreuzes kam Freude in alle Welt.",
+          "mode1": "VI",
+          "mode2": "II",
+          "mode3": "IVa",
           "les_buch": "›Jes",
           "les_stelle": "52,13–15",
           "les_text": "Seht, mein Knecht hat Erfolg, er wird groß sein und hoch erhaben. Viele haben sich über ihn entsetzt, so entstellt sah er aus, nicht mehr wie ein Mensch, seine Gestalt war nicht mehr die eines Menschen. Jetzt aber setzt er viele Völker in Staunen, Könige müssen vor ihm verstummen. Denn was man ihnen noch nie erzählt hat, das sehen sie nun; was sie niemals hörten, das erfahren sie jetzt.^RESP",
@@ -16011,6 +16418,7 @@ export const brevierData = {
           "resp2": "",
           "resp3": "",
           "antev": "Über seinem Haupt befestigten sie eine Inschrift: Jesus von Nazaret, der König der Juden.",
+          "modeev": "IV",
           "bitten_e": "Gepriesen sei Jesus Christus, unser Erlöser, der für uns gelitten hat, der begraben wurde und von den Toten auferstanden ist. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, erbarme dich unser.",
           "bitten": "Herr und Meister, du bist für uns gehorsam geworden bis zum Tod;^qlehre uns, dem Vater im Himmel gehorsam zu sein.^pDu bist unser Leben, du hast durch das Kreuz den Tod überwunden;^qlass uns mit dir auferstehen in Herrlichkeit.^pDu bist unser Heil, du hast die Menschen geliebt und dein Leben für alle hingegeben;^qgib, dass wir einander lieben, wie du uns geliebt hast.^pHeiland der Welt, du hast am Kreuz die Arme ausgebreitet, um alle an dich zu ziehen;^qführe die Kinder Gottes aus der Zerstreuung in das Reich deines Vaters.",
@@ -16034,6 +16442,7 @@ export const brevierData = {
           "ant1": "",
           "ant2": "",
           "ant3": "",
+          "mode0": "II",
           "les_buch": "›Jes",
           "les_stelle": "53,2–3",
           "les_text": "Vor den Augen des HERRN wuchs er auf wie ein junger Spross, wie ein Wurzeltrieb aus trockenem Boden. Er hatte keine schöne und edle Gestalt, so dass wir ihn anschauen mochten. Er sah nicht so aus, dass wir Gefallen fanden an ihm. Er wurde verachtet und von den Menschen gemieden, ein Mann voller Schmerzen, mit Krankheit vertraut. Wie einer, vor dem man das Gesicht verhüllt, war er verachtet; wir schätzten ihn nicht.",
@@ -16054,6 +16463,7 @@ export const brevierData = {
           "ant1": "",
           "ant2": "",
           "ant3": "",
+          "mode0": "I",
           "les_buch": "›Jes",
           "les_stelle": "53,4–5",
           "les_text": "Er hat unsere Krankheiten getragen und unsere Schmerzen auf sich geladen. Wir meinten, er sei von Gott geschlagen, von ihm getroffen und gebeugt. Doch er wurde durchbohrt wegen unserer Verbrechen, wegen unserer Sünden zermalmt. Zu unserem Heil lag die Strafe auf ihm, durch seine Wunden sind wir geheilt.",
@@ -16074,6 +16484,7 @@ export const brevierData = {
           "ant1": "",
           "ant2": "",
           "ant3": "",
+          "mode0": "II",
           "les_buch": "›Jes",
           "les_stelle": "53,6–7",
           "les_text": "Wir hatten uns alle verirrt wie Schafe, jeder ging für sich seinen Weg. Doch der Herr lud auf ihn die Schuld von uns allen. Er wurde misshandelt und niedergedrückt, aber er tat seinen Mund nicht auf. Wie ein Lamm, das man zum Schlachten führt, und wie ein Schaf angesichts seiner Scherer, so tat auch er seinen Mund nicht auf.",
@@ -16096,6 +16507,9 @@ export const brevierData = {
           "ant1": "Ihr Völker alle, schaut doch und seht meinen Schmerz.",
           "ant2": "Mein Geist verzagt in mir, mir erstarrt das Herz in der Brust.",
           "ant3": "Jesus nahm von dem Essig. Dann sprach er: Es ist vollbracht. Und er neigte sein Haupt und starb.",
+          "mode1": "I",
+          "mode2": "IVg",
+          "mode3": "II",
           "les_buch": "›1°Petr",
           "les_stelle": "2,21b–24",
           "les_text": "Christus hat für euch gelitten und euch ein Beispiel gegeben, damit ihr seinen Spuren folgt. Er hat keine Sünde begangen, und kein trügerisches Wort war in seinem Mund. Er wurde geschmäht, schmähte aber nicht; er litt, drohte aber nicht, sondern überließ seine Sache dem gerechten Richter. Er hat unsere Sünden mit seinem Leib auf das Holz des Kreuzes hinaufgetragen, damit wir tot seien für die Sünden und für die Gerechtigkeit leben. Durch seine Wunden seid ihr geheilt.^RESP",
@@ -16104,6 +16518,7 @@ export const brevierData = {
           "resp2": "",
           "resp3": "",
           "antev": "Wir waren Gottes Feinde. Jetzt sind wir mit ihm versöhnt durch den Tod seines Sohnes.",
+          "modeev": "I",
           "bitten_e": "^rEs empfiehlt sich, die Großen Fürbitten aus der Karfreitagsliturgie (^0rMessbuch, S.°[43]ff^r) hier einzufügen. Doch können auch – nach Belieben – die folgenden Fürbitten genommen werden. Ebenso kann ein stilles Gebet in den Anliegen dieser Fürbitten verrichtet werden.^0r^pLasst uns des Todesleidens Christi gedenken und den Vater im Himmel bitten:",
           "bitten_r": "Um Christi willen erhöre uns, o°Herr.",
           "bitten": "Behüte die Kirche und heilige dein ganzes Volk.^pBeschütze unseren Papst ^NP.^pSchenke den Bischöfen, Priestern und Diakonen deinen Geist.^pMehre den Glauben und die Erkenntnis der Katechumenen.^pFühre alle Christen in der einen Kirche zusammen.^pLass das jüdische Volk zur Fülle der Erlösung gelangen.^pErleuchte alle, die nicht an Christus glauben.^pGib, dass die Ungläubigen dich als den Schöpfer aller Dinge erkennen.^pLenke Geist und Herz derer, die die Völker regieren.^pTröste die Leidenden und die Bedrängten.^pKomm den Sterbenden zu Hilfe und gib den Toten das ewige Leben.",
@@ -16127,6 +16542,7 @@ export const brevierData = {
         },
         "Invitatorium": {
           "ant0": "Christus, unser Herr, hat für uns den Tod erlitten und wurde ins Grab gelegt; kommt, wir beten ihn an!",
+          "mode0": "II",
           "ant0_lat": " Christum Dóminum pro nobis passum et sepúltum, veníte, adorémus."
         },
         "Lesehore": {
@@ -16136,6 +16552,9 @@ export const brevierData = {
           "ant1": "Ich lege mich nieder und ruhe in Frieden.",
           "ant2": "Mein Leib ruht in sicherer Hoffnung: Du gibst mich der Unterwelt nicht preis.",
           "ant3": "Hebt euch, ihr uralten Pforten! Es kommt der König der Herrlichkeit.",
+          "mode1": "IV",
+          "mode2": "II",
+          "mode3": "VIII",
           "ant1_lat": "In pace in idípsum dórmiam et requiéscam.",
           "ant2_lat": "Caro mea requiéscet in spe.",
           "ant3_lat": "Elevámini, portæ æternáles, et introíbit Rex glóriæ."
@@ -16145,6 +16564,7 @@ export const brevierData = {
           "psalm2": 196.0,
           "psalm3": 199.121,
           "ant0": "Aus der Tiefe der Totenwelt schrie ich zum Herrn, und er hörte mein Rufen.",
+          "mode0": "I",
           "les_buch": "^A:vigil-Karsamstag:",
           "les_text": "LEER",
           "les_text_neu": "",
@@ -16157,6 +16577,9 @@ export const brevierData = {
           "ant1": "Sie klagen um ihn, wie man klagt um den einzigen Sohn; denn er wurde getötet – und war doch ohne Schuld.",
           "ant2": "Vor den Pforten der Unterwelt rette, o°Herr, mein Leben.",
           "ant3": "Ich war tot, doch ich lebe in Ewigkeit. Ich habe die Schlüssel des Todes und der Unterwelt.",
+          "mode1": "II",
+          "mode2": "I",
+          "mode3": "III",
           "les_buch": "›Hos",
           "les_stelle": "6,1–2",
           "les_text": "Kommt, wir kehren zum Herrn zurück! Denn er hat (Wunden) gerissen, er wird uns auch heilen; er hat verwundet, er wird auch verbinden. Nach zwei Tagen gibt er uns das Leben zurück, am dritten Tag richtet er uns wieder auf, und wir leben vor seinem Angesicht.^RESP",
@@ -16165,6 +16588,7 @@ export const brevierData = {
           "resp2": "",
           "resp3": "",
           "antev": "Retter der Welt, errette uns! Du hast uns erlöst durch dein Kreuz und dein Blut. Hilf uns, Herr, unser Gott!",
+          "modeev": "IIc",
           "bitten_e": "Gepriesen sei Jesus Christus, unser Erlöser, der für uns gelitten hat, begraben wurde und von den Toten auferstanden ist. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, erbarme dich unser.",
           "bitten": "Du hast dein Leben für uns dahingegeben,^qund dein Leib wurde ins Grab gelegt.^pWie ein Weizenkorn wurdest du in die Erde gesenkt,^qum uns die Frucht des Lebens zu bringen.^pDu bist in das Reich des Todes hinabgestiegen,^qum die Seelen der Gerechten zu befreien.^pDeine heilige Mutter hat unter dem Kreuz gestanden^qund bei deinem Begräbnis ausgeharrt.",
@@ -16185,6 +16609,7 @@ export const brevierData = {
           "psalm2": 30.0,
           "psalm3": 76.0,
           "ant0": "Ich werde schauen Gottes Güte im Lande der Lebenden.",
+          "mode0": "IV",
           "les_buch": "›1°Joh",
           "les_stelle": "1,8–9",
           "les_text": "Wenn wir sagen, dass wir keine Sünde haben, führen wir uns selbst in die Irre, und die Wahrheit ist nicht in uns. Wenn wir unsere Sünden bekennen, ist er treu und gerecht; er vergibt uns die Sünden und reinigt uns von allem Unrecht.",
@@ -16199,6 +16624,7 @@ export const brevierData = {
         },
         "Sext": {
           "ant0": "Herr, mein Gott, du hast mich herausgeholt aus dem Reich des Todes.",
+          "mode0": "III",
           "les_buch": "›1°Joh",
           "les_stelle": "2,1b–2",
           "les_text": "Wir haben einen Beistand beim Vater: Jesus Christus, den Gerechten. Er ist die Sühne für unsere Sünden, aber nicht nur für unsere Sünden, sondern auch für die der ganzen Welt.",
@@ -16213,6 +16639,7 @@ export const brevierData = {
         },
         "Non": {
           "ant0": "Er darf weilen an der Stätte des Friedens. Der Zion wurde seine Wohnung.",
+          "mode0": "VIII",
           "les_buch": "›1°Joh",
           "les_stelle": "2,8b–10",
           "les_text": "Die Finsternis geht vorüber, und schon leuchtet das wahre Licht. Wer sagt, er sei im Licht, aber seinen Bruder hasst, ist noch in der Finsternis. Wer seinen Bruder liebt, bleibt im Licht; da gibt es für ihn kein Straucheln.",
@@ -16232,6 +16659,9 @@ export const brevierData = {
           "ant1": "O Tod, ich bin dein Tod. Totenreich, ich bin dein Untergang.",
           "ant2": "Wie Jona drei Tage und drei Nächte im Bauch des Fisches war, so wird auch der Menschensohn drei Tage und drei Nächte im Schoß der Erde sein.",
           "ant3": "Jesus sprach: Reißt diesen Tempel nieder – in drei Tagen richte ich ihn wieder auf. Er meinte den Tempel seines Leibes.",
+          "mode1": "VII",
+          "mode2": "I",
+          "mode3": "III",
           "les_buch": "›1°Petr",
           "les_stelle": "1,18–21",
           "les_text": "Ihr wisst, dass ihr aus eurer sinnlosen, von den Vätern ererbten Lebensweise nicht um einen vergänglichen Preis losgekauft wurdet, nicht um Silber oder Gold, sondern mit dem kostbaren Blut Christi, des Lammes ohne Fehl und Makel. Er war schon vor der Erschaffung der Welt dazu ausersehen, und euretwegen ist er am Ende der Zeiten erschienen. Durch ihn seid ihr zum Glauben an Gott gekommen, der ihn von den Toten auferweckt und ihm die Herrlichkeit gegeben hat, so dass ihr an Gott glauben und auf ihn hoffen könnt.^RESP",
@@ -16240,6 +16670,7 @@ export const brevierData = {
           "resp2": "",
           "resp3": "",
           "antev": "Jetzt ist der Menschensohn verherrlicht, und Gott ist verherrlicht in ihm. Und Gott wird ihn bald verherrlichen.",
+          "modeev": "VIII",
           "bitten_e": "Lasst uns beten zu Christus, unserem Erlöser, der für uns gestorben ist und begraben wurde:",
           "bitten_r": "Herr, erbarme dich unser.",
           "bitten": "In deinem Tod hast du uns deine Liebe offenbart;^qziehe alle Menschen an dich.^pDu hast für deine Feinde gebetet;^qhilf den Verfolgten, Böses durch Gutes zu überwinden.^pDu hast deine Jünger nicht verlassen, als sie dich verließen;^qsteh denen bei, die nicht glauben können.^pDu wolltest in das Grab gelegt werden;^qgib allen Hoffnung, die an einem Grabe trauern.^pDas Grab hat dich nicht festhalten können;^qrufe die Toten aus ihren Gräbern zum Leben.",
@@ -16259,6 +16690,7 @@ export const brevierData = {
       "each": {
         "Invitatorium": {
           "ant0": "Christus, der Herr, wurde für uns versucht und hat für uns gelitten; kommt, wir beten ihn an.",
+          "mode0": "II",
           "ant0_lat": "Christum Dóminum pro nobis tentátum et passum, veníte, adorémus."
         },
         "Lesehore": {
@@ -16294,6 +16726,7 @@ export const brevierData = {
           "ant1": "",
           "ant2": "",
           "ant3": "",
+          "mode0": "IV",
           "resp0": "Er wurde geopfert, weil er selbst es wollte.",
           "resp1": "Und tat seinen Mund nicht auf.",
           "ant0_lat": "Ante diem festum Paschæ, sciens Iesus quia venit hora eius, cum dilexísset suos, in finem diléxit eos.",
@@ -16308,6 +16741,7 @@ export const brevierData = {
           "ant1": "",
           "ant2": "",
           "ant3": "",
+          "mode0": "VIII",
           "resp0": "Wahrlich, er trug unsere Krankheit.",
           "resp1": "Und nahm auf sich unsere Sünden.",
           "ant0_lat": "Sicut novit me Pater, et ego agnósco Patrem, et ánimam meam pono pro óvibus meis.",
@@ -16322,6 +16756,7 @@ export const brevierData = {
           "ant1": "",
           "ant2": "",
           "ant3": "",
+          "mode0": "VIII",
           "resp0": "Lasst uns niederfallen vor dem Kreuz unseres Erlösers.",
           "resp1": "Durch das wir das Geheimnis des Heiles empfangen.",
           "ant0_lat": "Mihi vívere Christus est, et mori lucrum; gloriári me opórtet in cruce Dómini mei Iesu Christi.",

@@ -1,7 +1,6 @@
-**03-22** BuM-Lesungen: 23., 24. und 26. März
-**03-31** `lat.` Texte für das Triduum Paschale
 **03-31** Lesungen der Lesehore ab `Band II/3`
-**04-04** Rufe vor dem Evangelium für die Osterzeit
+**04-11** BuM-Lesungen: ab 2.4.
+**05-01** Psalmtöne ab 5. Sonntag der Osterzeit
 **05-03** `lat.` Commune-Orationen für Mai: 4.,10.,16.,21., Juni: 16.,19.,21.,26.
-**ohne Frist** Psalmen zum Singen: Kompatibilität mit Antiphonale
+**05-23** Rufe vor dem Evangelium ab 7. Woche i. Jkr.
 **ohne Frist** Psalmen zum Singen zur Kleinen Hore und zur Lesehore
