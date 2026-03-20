@@ -696,7 +696,7 @@ const PrayerTextDisplay = ({
           </div>
         )}
 
-        {ordinariumTexts.confiteor && (
+        {ordinariumTexts.confiteor && showKomplet && (
           <div className="mt-0 mb-0">
             <SectionHeader
               title="SCHULDBEKENNTNIS"
@@ -1080,7 +1080,7 @@ const PrayerTextDisplay = ({
           </div>
         )}
 
-        {hour === 'komplet' && (
+        {hour === 'komplet' && showKomplet && (
           <div className="mb-0">
             <SectionHeader
               title="MARIANISCHE ANTIPHON"
@@ -2247,7 +2247,6 @@ export default function Stundenbuch() {
                 useCommemoration={useCommemoration}
                 setUseCommemoration={setUseCommemoration}
                 localPrefLanguage={localPrefLanguage}
-                localPrefLatin={localPrefLatin}
                 setLocalPrefLatin={setLocalPrefLatin}
                 setLocalPrefLanguage={setLocalPrefLanguage}
                 widthForHymns={widthForHymns}

@@ -1280,7 +1280,6 @@ export const brevierData = {
           "bitten": "Du hast die Apostel ausgesandt als Zeugen deiner Auferstehung;^qsteh den Bischöfen bei, die du als Nachfolger der Apostel berufen hast.^pDu hast den Aposteln den Auftrag gegeben, den Samen des Wortes auszusäen;^qhilf den Predigern, den apostolischen Glauben treu zu verkünden.^pDu hast den Aposteln befohlen, alle Menschen zu deinen Jüngern zu machen;^qgedenke aller, die auf deinen Namen getauft sind.^pDu hast den Aposteln den Dienst der Versöhnung aufgetragen;^qlass alle, die ihre Sünden bekennen, deinen Trost erfahren. ^pAuf den Grundsteinen der himmlischen Gottesstadt stehen die Namen deiner zwölf Apostel;^qnimm unsere Verstorbenen auf in das neue Jerusalem.",
           "hymn_1_lat": 5497.0,
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "ant1_lat": "Vocávit Iesus discípulos suos, et elégit duódecim ex ipsis, quos et Apóstolos nominávit.^LÖ",
           "ant2_lat": "Relíctis rétibus suis, secúti sunt Dóminum redemptórem.^LÖ",
           "ant3_lat": "Vos estis amíci mei, quia in dilectióne mea perseverástis.^LÖ",
@@ -1631,7 +1630,6 @@ export const brevierData = {
           "hymn_kl": 0.0,
           "antev": "Mein Sohn, halte fest am Gebot deines Vaters und missachte nicht die Weisung deriner Mutter. Binde sie dir aufs Herz für immer.^Ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "antev_lat": "Obsérva, fili, præcépta patris tui, et ne dimíttas legem matris tuæ, sed liga eam semper in corde tuo.^LÖ"
         },
         "Laudes": {
@@ -1641,7 +1639,6 @@ export const brevierData = {
           "hymn_kl": 0.0,
           "antev": "Wer barmherzig ist, der lehrt und erzieht wie ein guter Hirt.^Ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "antev_lat": "Qui misericórdiam habet, docet et érudit quasi pastor gregem suum.^LÖ"
         },
         "Vesper": {
@@ -1650,7 +1647,6 @@ export const brevierData = {
           "hymn_kl": 0.0,
           "antev": "Lasst die Kinder zu mir kommen; denn Menschen wie ihnen gehört das Reich Gottes.^Ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "antev_lat": "Sínite párvulos veníre ad me: tálium est enim regnum cælórum.^LÖ"
         }
       },
@@ -1668,7 +1664,6 @@ export const brevierData = {
           "resp3": "Die Weisung Gottes trägt er im Herzen.",
           "antev": "Wer die Gebote Gottes hält und sie halten lehrt, der wird groß sein im Himmelreich.^Ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "resp1_lat": "Os iusti",
           "resp2_lat": "meditábitur°sapiéntiam.",
           "resp3_lat": "Et lingua eius loquétur iudícium.",
@@ -1685,7 +1680,6 @@ export const brevierData = {
           "hymn_3": 0.0,
           "hymn_nacht": 0.0,
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "hymn_nacht_lat": 0.0
         },
         "Laudes": {
@@ -1702,7 +1696,6 @@ export const brevierData = {
           "resp3": "Ihr Name lebt weiter von Geschlecht zu Geschlecht.",
           "antev": "Die Weisen werden strahlen, wie der Himmel strahlt. Sie haben viele zum rechten Tun geführt; darum werden sie leuchten wie die Sterne, auf immer und ewig.^Ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "resp1_lat": "Sapiéntiam sanctórum",
           "resp2_lat": "narrent°pópuli.",
           "resp3_lat": "Et laudes eórum núntiet Ecclésia.",
@@ -1722,7 +1715,6 @@ export const brevierData = {
           "resp3": "Er gab ihm Weisheit und Einsicht in Fülle.",
           "antev": "O Lehrer des Glaubens und Licht der Kirche, du hast Gottes Weisung geliebt. Heiliger ^VOK, bitte für uns bei Gottes Sohn.^Ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "resp1_lat": "In médio Ecclésiæ",
           "resp2_lat": "apéruit°os°eius.",
           "resp3_lat": "Et implévit eum Dóminus spíritu sapiéntiæ et intelléctus.",
@@ -1737,7 +1729,6 @@ export const brevierData = {
           "hymn_kl": 0.0,
           "antev": "Selig, wer sich des Armen erbarmt. Wer an Gott glaubt, liebt die Barmherzigkeit.^Ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "antev_lat": "Qui miserétur páuperi, beátus erit; qui credit in Dómino, misericórdiam díligit.^LÖ"
         },
         "Laudes": {
@@ -1747,7 +1738,6 @@ export const brevierData = {
           "hymn_kl": 0.0,
           "antev": "Daran werden alle erkennen, dass ihr meine Jünger seid: wenn ihr einander liebt.^Ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "antev_lat": "In hoc cognóscent omnes quia mei estis discípuli, si dilectiónem habuéritis ad ínvicem.^LÖ"
         },
         "Vesper": {
@@ -1756,7 +1746,6 @@ export const brevierData = {
           "hymn_kl": 0.0,
           "antev": "Amen, ich sage euch: Was ihr dem Geringsten meiner Brüder getan habt, das habt ihr mir getan. Kommt, ihr Gesegneten meines Vaters, nehmt das Reich in Besitz, das seit Anfang der Welt für euch bestimmt ist.^Ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "antev_lat": "Amen dico vobis: Quod uni ex his mínimis meis fecístis, mihi fecístis. Veníte, benedícti Patris mei, possidéte parátum vobis regnum ab inítio mundi.^LÖ"
         }
       },
@@ -1768,7 +1757,6 @@ export const brevierData = {
           "hymn_kl": 0.0,
           "antev": "So spricht der Herr: Wenn jemand nicht auf alles, was er hat, verzichtet, kann er mein Jünger nicht sein.^Ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "antev_lat": "Nisi quis renuntiáverit ómnibus quæ póssidet, non potest meus esse discípulus, dicit Dóminus.^LÖ"
         },
         "Lesehore": {
@@ -1784,7 +1772,6 @@ export const brevierData = {
           "resp2": "Seid wie Menschen, die auf die Rückkehr ihres Herrn warten, der auf einer Hochzeit ist.",
           "resp3": "Seid wachsam, denn ihr wisst nicht, an welchem Tag euer Herr kommt.",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "hymn_nacht_lat": 0.0
         },
         "Laudes": {
@@ -1796,7 +1783,6 @@ export const brevierData = {
           "antev": "Wer den Willen meines Vaters erfüllt, der ist für mich Bruder und Schwester und Mutter.^Ö^ODER^ANTMein Anteil ist der Herr, darum harre ich auf ihn; gut ist der Herr zur Seele, die ihn sucht.^Ö",
           "hymn_1_lat": 5677.0,
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "antev_lat": "Si quis fécerit voluntátem Patris mei, ipse meus frater, soror et mater est, dicit Dóminus.^LÖ^VEL^ANTPars mea Dóminus; bonus est ánimæ quærénti illum.^LÖ"
         },
         "Vesper": {
@@ -1806,7 +1792,6 @@ export const brevierData = {
           "hymn_kl": 0.0,
           "antev": "Ihr habt alles verlassen und seid mir nachgefolgt: Das Hundertfache werdet ihr dafür erhalten und das ewige Leben gewinnen.^Ö^ODER^ANTWo Brüder in Eintracht Gottes Herrlichkeit preisen, da spendet der Herr seinen Segen.^Ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "antev_lat": "Vos qui reliquístis ómnia et secúti estis me, céntuplum accipiétis et vitam ætérnam possidébitis.^LÖ^VEL^ANTUbi fratres in unum gloríficant Deum, ibi dabit Dóminus benedictiónem.^LÖ"
         }
       }
@@ -1837,7 +1822,6 @@ export const brevierData = {
           "bitten": "Erhöre das Gebet der heiligen Frauen, die die Krone des Martyriums erlangt haben;^qhilf der Kirche, standzuhalten in der Verfolgung.^pHöre auf die Fürbitten der heiligen Frauen, die dir im Ehestand gedient haben;^qstärke die Ehefrauen für ihre Aufgaben in der Familie.^pHöre auf die Fürsprache der heiligen Mütter, die ihre Kinder dir zugeführt haben,^qund hilf den Müttern, ihre Kinder im Glauben zu erziehen.^pSieh auf das Leben der heiligen Witwen, die durch Gebet und Werke der Nächstenliebe ihre Einsamkeit geheiligt haben;^qerbarme dich auf ihre Fürbitte aller Frauen, die ihren Gatten verloren haben.^pHöre auf die Fürbitte aller heiligen Frauen, die bereits das Licht deines Antlitzes schauen,^qund schenke unseren Verstorbenen die ewige Freude des Himmels.",
           "hymn_1_lat": 5667.1,
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "ant1_lat": "Benedíctum nomen Dómini, qui in ancílla sua adimplévit misericórdiam sua.^LÖ",
           "ant2_lat": "Lauda, Ierúsalem, Dóminum, quia benedíxit fíliis tuis in te.^LÖ",
           "ant3_lat": "Complácuit Dómino in te, et gaudébit super te Deus tuus.^LÖ",
@@ -2045,7 +2029,6 @@ export const brevierData = {
           "antev": "Die ihr den Herrn sucht, freut euch von Herzen, rühmt euch seines heiligen Namens.^Ö",
           "hymn_1_lat": 5667.2,
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "antev_lat": "Laudámini in nómine sancto eius; lætétur cor quæréntium Dóminum.^LÖ"
         },
         "Laudes": {
@@ -2283,8 +2266,7 @@ export const brevierData = {
       "Kl": {
         "ErsteV": {
           "hymn_1_lat": 5600.0,
-          "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0
+          "hymn_2_lat": 0.0
         },
         "Lesehore": {
           "hymn_1_lat": 5600.0
@@ -2294,8 +2276,7 @@ export const brevierData = {
         },
         "Vesper": {
           "hymn_1_lat": 5600.0,
-          "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0
+          "hymn_2_lat": 0.0
         }
       }
     },
@@ -2325,7 +2306,6 @@ export const brevierData = {
           "bitten": "Du hast dir die Kirche zur Braut erwählt;^qheilige sie, damit sie ohne Makel vor dir stehe.^pDurch deine Gnade hat die Kirche dir die Treue bewahrt;^qerneuere sie immer wieder durch dein Evangelium.^pDu hast der Kirche das Vorbild der heiligen ^GEN geschenkt;^qrufe junge Menschen in den Stand der Jungfräulichkeit.^pDie heilige ^NOM ist dir ungeteilten Herzens nachgefolgt;^qauf ihre Fürbitte stärke die Ordensfrauen in ihrem Dienst.^pDie heiligen Jungfrauen hast du aufgenommen zum Hochzeitsmahl des ewigen Lebens;^qlass auch unsere Verstorbenen teilhaben am himmlischen Mahl.",
           "hymn_1_lat": 5620.0,
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "ant1_lat": "Veníte, fíliæ, accédite ad Dóminum, et illuminámini.^LÖ",
           "ant2_lat": "Nunc séquimur in toto corde et timémus te, et quǽrimus fáciem tuam, Dómine, ne confúndas nos.^LÖ",
           "ant3_lat": "Exsultáte, vírgines Christi, supérno fruéntes coniúgio, quod non habet finem.^LÖ",
@@ -2370,7 +2350,6 @@ export const brevierData = {
           "patr_resp3": "",
           "hymn_1_lat": 5607.0,
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "hymn_nacht_lat": 0.0,
           "ant1_lat": "Virgo spléndida, prudens, clara consílio, sponsum ánimæ tuæ Verbum habes immaculátum.^LÖ",
           "ant2_lat": "Regnum mundi et omne sǽculum contémpsi propter amórem Dómini mei Iesu Christi.^LÖ",
@@ -2419,7 +2398,6 @@ export const brevierData = {
           "bitten": "Du hast Maria, deine Mutter, zur Königin der Jungfrauen erhoben;^qauf ihre Fürsprache schenke uns die Reinheit des Herzens.^pDir allein haben sich die heiligen Jungfrauen geweiht;^qgib, dass auch uns nichts von deiner Liebe trenne.^pDie heiligen Jungfrauen haben dir mit ungeteiltem Herzen gedient;^qgib, dass nichts uns hindere auf dem Weg zu dir.^pDu bist der Bräutigam, auf dessen Ankunft die heiligen Jungfrauen gewartet haben;^qgib, dass wir stets wachsam deine Wiederkunft erwarten.",
           "hymn_1_lat": 5616.0,
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "ant1_lat": "Christum líbere confíteor, Christum ardénter sítio, cum Christo iúgiter esse cúpio.^LÖ",
           "ant2_lat": "Benedícite, vírgines, Dóminum: iam seminátor casti consílii in vobis dona sua corónat.^LÖ",
           "ant3_lat": "Exsultábunt sancti in glória, quibus de carne et sánguine fúlgida est victória.^LÖ",
@@ -2446,7 +2424,6 @@ export const brevierData = {
           "resp0": "Dies ist eine weise Jungfrau.^Ö",
           "resp1": "Der Herr findet sie wachend, wenn er kommt.^Ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "ant0_lat": "Mihi adhærére Deo bonum est: pónere in Dómino Deo spem meam.^LÖ",
           "ant1_lat": "",
           "ant2_lat": "",
@@ -2469,7 +2446,6 @@ export const brevierData = {
           "resp0": "Dies ist eine weise Jungfrau.^Ö",
           "resp1": "Eine aus der Zahl der Klugen.^Ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "ant0_lat": "Súscipe me, Dómine, secúndum elóquium tuum, et vivam: et non confúndas me ab exspectatióne mea.^LÖ",
           "ant1_lat": "",
           "ant2_lat": "",
@@ -2492,7 +2468,6 @@ export const brevierData = {
           "resp0": "Ich fand ihn, den meine Seele liebt.^Ö",
           "resp1": "Ich halte ihn fest und will ihn nicht lassen.^Ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "ant0_lat": "O quam pulchra est casta generátio cum claritáte.^LÖ",
           "ant1_lat": "",
           "ant2_lat": "",
@@ -2525,7 +2500,6 @@ export const brevierData = {
           "bitten": "Du hast dir die Kirche zur Braut erwählt;^qheilige sie, damit sie ohne Makel vor dir stehe.^pDurch deine Gnade hat die Kirche dir die Treue bewahrt;^qerneuere sie immer wieder durch dein Evangelium.^pDu hast der Kirche das Vorbild der heiligen ^GEN geschenkt;^qrufe junge Menschen in den Stand der Jungfräulichkeit.^pDie heilige ^NOM ist dir ungeteilten Herzens nachgefolgt;^qauf ihre Fürbitte stärke die Ordensfrauen in ihrem Dienst.^pDie heiligen Jungfrauen hast du aufgenommen zum Hochzeitsmahl des ewigen Lebens;^qlass auch unsere Verstorbenen teilhaben am himmlischen Mahl.",
           "hymn_1_lat": 5620.0,
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "ant1_lat": "Tibi me servo castam, et splendéntem tenens lámpadem, Sponse, tibi occúrro.^LÖ",
           "ant2_lat": "Beáti mundo corde, quóniam ipsi Deum vidébunt.^LÖ",
           "ant3_lat": "Mens mea solidáta est, et in Christo fundáta.^LÖ",
@@ -2597,7 +2571,6 @@ export const brevierData = {
           "hymn_kl": 0.0,
           "antev": "Seht, nun folgt die Jungfrau dem Lamm, das für uns gekreuzigt ist. Furchtlos gab sie ihr Leben hin als makelloses Opfer für Gott.^Ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "antev_lat": "Ecce iam séquitur Agnum pro nobis crucifíxum strénua virgo, pudóris hóstia, víctima castitátis.^LÖ"
         },
         "Laudes": {
@@ -2606,7 +2579,6 @@ export const brevierData = {
           "hymn_kl": 0.0,
           "antev": "Selig die Jungfrau, die sich selbst verleugnete und ihr Kreuz auf sich nahm. Sie ist dem Herrn gefolgt, ihrem Bräutigam, dem König der Märtyrer.^Ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "antev_lat": "Beáta virgo, quæ, ábnegans semetípsam et tollens crucem suam, Dóminum æmuláta est, vírginum sponsum martyrúmque príncipem.^LÖ"
         },
         "Vesper": {
@@ -2615,7 +2587,6 @@ export const brevierData = {
           "hymn_kl": 0.0,
           "antev": "In zweifachem Sieg hat sich ihr Opfer vollendet: Sie gewann den Kranz der Jungfräulichkeit und die Palme des Martyriums.^Ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "antev_lat": "In una hóstia dúplicem celebrámus corónam, pudóris et religiónis. Et virgo permánsit, et martýrium obtínuit.^LÖ"
         }
       },
@@ -2627,7 +2598,6 @@ export const brevierData = {
           "antev": "Ihr klugen Jungfrauen, macht eure Lampen bereit! Der Bräutigam kommt. Geht ihm entgegen!^Ö",
           "bitten": "Du hast dir die Kirche zur Braut erwählt;^qheilige sie, damit sie ohne Makel vor dir stehe.^pDurch deine Gnade hat die Kirche dir die Treue bewahrt;^qerneuere sie immer wieder durch dein Evangelium.^pDu hast der Kirche das Vorbild der heiligen ^GEN geschenkt;^qrufe junge Menschen in den Stand der Jungfräulichkeit.^pDie heiligen ^NOM sind dir ungeteilten Herzens nachgefolgt;^qauf ihre Fürbitte stärke die Ordensfrauen in ihrem Dienst.^pDie heiligen Jungfrauen hast du aufgenommen zum Hochzeitsmahl des ewigen Lebens;^qlass auch unsere Verstorbenen teilhaben am himmlischen Mahl.",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "antev_lat": "Prudéntes vírgines, aptáte vestras lámpades: ecce Sponsus venit, exíte óbviam ei.^LÖ"
         },
         "Laudes": {
@@ -2637,7 +2607,6 @@ export const brevierData = {
           "antev": "Ihr Jungfrauen, preiset den Herrn, preist ihn in Ewigkeit!^Ö",
           "hymn_1_lat": 5620.0,
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "antev_lat": "Vírgines Dómini, Dóminum benedícite in ætérnum.^LÖ"
         },
         "Vesper": {
@@ -2647,7 +2616,6 @@ export const brevierData = {
           "antev": "Das sind die Menschen, die den Herrn suchen, die dein Antlitz suchen, o°Gott.^Ö",
           "bitten": "Du hast dir die Kirche zur Braut erwählt;^qheilige sie, damit sie ohne Makel vor dir stehe.^pDurch deine Gnade hat die Kirche dir die Treue bewahrt;^qerneuere sie immer wieder durch dein Evangelium.^pDu hast der Kirche das Vorbild der heiligen ^GEN geschenkt;^qrufe junge Menschen in den Stand der Jungfräulichkeit.^pDie heiligen ^NOM sind dir ungeteilten Herzens nachgefolgt;^qauf ihre Fürbitte stärke die Ordensfrauen in ihrem Dienst.^pDie heiligen Jungfrauen hast du aufgenommen zum Hochzeitsmahl des ewigen Lebens;^qlass auch unsere Verstorbenen teilhaben am himmlischen Mahl.",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "antev_lat": "Hæc est generátio quæréntium Dóminum, quæréntium fáciem Dei nostri.^LÖ"
         },
         "Lesehore": {
@@ -2885,7 +2853,6 @@ export const brevierData = {
           "bitten": "Du bist wunderbar in deinen Heiligen;^qsende auch unserer Zeit heilige Männer.^pDu hast immer wieder heilige Männer berufen, dass sie deine Herrschaft in der Welt sichtbar machen;^qsteh allen bei, denen ein Dienst ^(Amt^) in der Welt aufgetragen ist.^pAuf die Fürsprache des heiligen ^GEN stärke alle, die an dich glauben;^qhilf ihnen, deinen Auftrag auszuführen, wo immer sie stehen.^pDer heilige ^NOM hat in den Prüfungen des Lebens standgehalten;^qgib allen Christen Großmut und Tapferkeit.^pVergib den Sündern ihre Schuld^qund lass dein Antlitz leuchten über unseren Verstorbenen.",
           "hymn_1_lat": 5630.0,
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "ant1_lat": "Laudem dícite Deo nostro, omnes sancti eius.^LÖ",
           "ant2_lat": "Beáti qui esúriunt et sítiunt iustítiam, quóniam saturabúntur.^LÖ",
           "ant3_lat": "Benedíctus Deus, qui elégit nos, ut essémus sancti et immaculáti in caritáte.^LÖ",
@@ -3097,7 +3064,6 @@ export const brevierData = {
           "antev": "Das Auge des Herrn ruht auf allen, die ihn fürchten und ehren und auf seine Güte vertrauen.^Ö",
           "hymn_1_lat": 5647.0,
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "antev_lat": "Oculi Dómini super metuéntes eum, et in eis qui sperant super misericórdiam eius.^LÖ"
         },
         "Laudes": {
@@ -3110,7 +3076,6 @@ export const brevierData = {
           "antev": "Selig, die Frieden stiften, die reinen Herzens sind; denn sie werden Gott schauen.^Ö",
           "hymn_1_lat": 5642.0,
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "antev_lat": "Beáti pacífici, beáti mundo corde, quóniam ipsi Deum vidébunt.^LÖ"
         },
         "Vesper": {
@@ -3120,7 +3085,6 @@ export const brevierData = {
           "antev": "Sie waren treu bis in den Tod und empfingen vom Herrn die Krone des Lebens.^Ö",
           "hymn_1_lat": 5647.0,
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "antev_lat": "Fuérunt fidéles usque ad mortem, et a Dómino accepérunt corónam vitæ.^LÖ"
         },
         "Invitatorium": {
@@ -3402,7 +3366,6 @@ export const brevierData = {
           "bitten": "Du unser Erlöser, du hast dein Blut vergossen für das Heil der Welt;^qerbarme dich aller Menschen.^pDu Urbild der Märtyrer;^qsteh allen Verfolgten bei.^pDu treuer Zeuge; ^qhilf denen, die von dir Zeugnis geben.^pDu Stärke der Märtyrer; ^qsei deinen Bekennern nahe in der Stunde der Prüfung.^pDu Lohn der Märtyrer;^qsei auch der Lohn all unserer Verstorbenen.",
           "hymn_1_lat": 5523.0,
           "hymn_2_lat": 5523.1,
-          "hymn_3_lat": 0.0,
           "ant1_lat": "Sancti multa passi sunt torménta, ut secúri pervenírent ad palmam martýrii.^LÖ",
           "ant2_lat": "Cum palma ad regnum pervenérunt sancti, corónas decóris meruérunt de manu Dei.^LÖ",
           "ant3_lat": "Mórtui sunt mártyres pro Christo, et vivent in ætérnum.^LÖ",
@@ -3607,8 +3570,7 @@ export const brevierData = {
           "hymn_2": 0.0,
           "hymn_3": 0.0,
           "hymn_kl": 0.0,
-          "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0
+          "hymn_2_lat": 0.0
         },
         "Vesper": {
           "hymn_1": 1119.0,
@@ -3631,7 +3593,6 @@ export const brevierData = {
           "resp3": "Euch hat der Herr sich zum Erbe erkoren.",
           "antev": "Ewiges Licht leuchtet deinen Heiligen, o°Herr: Unsterblichkeit ist ihr Besitz.^Ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "resp1_lat": "Sancti et iusti in Dómino gaudéte.",
           "resp2_lat": "Allelúia,°allelúia.",
           "resp3_lat": "Vos elégit Deus in hereditátem sibi.",
@@ -3656,7 +3617,6 @@ export const brevierData = {
           "patr_resp2": "Welch erhabene Herrlichkeit, welche Glückseligkeit, in der Gegenwart Gottes zu kämpfen und von Christus, dem Richter, den Siegeskranz zu empfangen.^Ö",
           "patr_resp3": "Wir wollen uns wappnen mit aller Kraft und uns zum Kampf rüsten mit lauterem Geist, zuversichtlichem Glauben und liebender Tugend.",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "hymn_nacht_lat": 0.0,
           "resp1_lat": "",
           "resp2_lat": "",
@@ -3679,7 +3639,6 @@ export const brevierData = {
           "resp3": "Sie erlangen Freude und Wonne.",
           "antev": "Ihr Heiligen alle, freut euch und jubelt; denn groß ist euer Lohn im Himmel.^Ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "ant2_lat": "Sancti spíritus et ánimæ iustórum, hymnum dícite Deo.^Lö",
           "resp1_lat": "Lætítia sempitérna super cápita eórum.",
           "resp2_lat": "Allelúia,°allelúia.",
@@ -3697,7 +3656,6 @@ export const brevierData = {
           "resp0": "Mit dem Gewand der Freude hat ihn der Herr bekleidet.^Ö",
           "resp1": "Die Krone der Schönheit hat er ihm aufs Haupt gesetzt.^Ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "resp0_lat": "",
           "resp1_lat": "",
           "les_text_lat": ""
@@ -3712,7 +3670,6 @@ export const brevierData = {
           "resp0": "Ich vertraue auf Gott und fürchte mich nicht.^Ö",
           "resp1": "Was können Menschen mir antun?^Ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "resp0_lat": "",
           "resp1_lat": "",
           "les_text_lat": ""
@@ -3727,7 +3684,6 @@ export const brevierData = {
           "resp0": "Sie kommen mit Jubel.^Ö",
           "resp1": "Und bringen ihre Garben ein.^Ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "resp0_lat": "",
           "resp1_lat": "",
           "les_text_lat": ""
@@ -3745,7 +3701,6 @@ export const brevierData = {
           "resp3": "Die redlichen Herzens sind, werden sich freuen.",
           "antev": "Freut euch, ihr Heiligen, vor dem Angesicht des Lammes; euch ist das Reich bereitet seit Anbeginn der Welt.^Ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "resp1_lat": "Fulgébunt iusti in conspéctu Dei.",
           "resp2_lat": "Allelúia,°allelúia.",
           "resp3_lat": "Et lætabúntur omnes recti corde.",
@@ -3772,7 +3727,6 @@ export const brevierData = {
           "patr_resp2": "Welch erhabene Herrlichkeit, welche Glückseligkeit, in der Gegenwart Gottes zu kämpfen und von Christus, dem Richter, den Siegeskranz zu empfangen.^Ö",
           "patr_resp3": "Wir wollen uns wappnen mit aller Kraft und uns zum Kampf rüsten mit lauterem Geist, zuversichtlichem Glauben und liebender Tugend.",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "hymn_nacht_lat": 0.0,
           "resp1_lat": "",
           "resp2_lat": "",
@@ -3842,7 +3796,6 @@ export const brevierData = {
           "bitten": "Du unser Erlöser, du hast dein Blut vergossen für das Heil der Welt;^qerbarme dich aller Menschen.^pDu Urbild der Märtyrer;^qsteh allen Verfolgten bei.^pDu treuer Zeuge;^qhilf denen, die Zeugnis von dir geben.^pDu Stärke der Märtyrer;^qsei deinen Bekennern nahe in der Stunde der Prüfung.^pDu Lohn der Märtyrer;^qsei auch der Lohn all unserer Verstorbenen.",
           "hymn_1_lat": 5552.0,
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "ant1_lat": "Qui me conféssus fúerit coram homínibus, confitébor et ego eum coram Patre meo.^LÖ",
           "ant2_lat": "Qui séquitur me, non ámbulat in ténebris, sed habébit lumen vitæ, dicit Dóminus.^LÖ",
           "ant3_lat": "Sicut abúndant passiónes Christi in nobis, ita et per Christum abúndat consolátio nostra.^LÖ",
@@ -3887,7 +3840,6 @@ export const brevierData = {
           "patr_resp3": "Ich sehe alles als Verlust an, weil die Erkenntnis Christi Jesu, meines Herrn, alles übertrifft. Christus will ich erkennen und die Gemeinschaft mit seinen Leiden; sein Tod soll mich prägen.",
           "hymn_1_lat": 5536.0,
           "hymn_2_lat": 5536.1,
-          "hymn_3_lat": 0.0,
           "hymn_nacht_lat": 0.0,
           "ant1_lat": "Eritis ódio ómnibus propter nomen meum; qui autem perseveráverit usque in finem, hic salvus erit.^LÖ",
           "ant2_lat": "Non sunt condígnæ passiónes huius témporis ad futúram glóriam, quæ revelábitur in nobis.^LÖ",
@@ -3930,7 +3882,6 @@ export const brevierData = {
           "bitten": "Deine Märtyrer haben freiwillig den Tod auf sich genommen;^qschenke uns die wahre Freiheit und die Bereitschaft zum Zeugnis.^pDeine Märtyrer haben den Glauben bekannt bis in den Tod;^qhilf unserem Unglauben.^pDeine Märtyrer haben ihr Kreuz auf sich genommen und sind dir nachgefolgt;^qgib uns Kraft in den Stunden der Entscheidung.^pDeine Märtyrer haben ihre Hoffnung allein auf dich gestellt;^qlass nicht zu, dass wir den Verführungen der Welt erliegen.",
           "hymn_1_lat": 5545.0,
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "ant1_lat": "Lábia mea laudábunt te, Dómine, quóniam mélior est misericórdia tua super vitas.^LÖ",
           "ant2_lat": "Mártyres Dómini, Dóminum benedícite in ætérnum.^LÖ",
           "ant3_lat": "Qui vícerit, fáciam illum colúmnam in templo meo, dicit Dóminus.^LÖ",
@@ -3957,7 +3908,6 @@ export const brevierData = {
           "resp0": "Mit dem Gewand der Freude hat ihn der Herr bekleidet.^Ö",
           "resp1": "Die Krone der Schönheit hat er ihm aufs Haupt gesetzt.^Ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "ant0_lat": "Certámen forte dedit illi Dóminus, ut víncere sciret, quóniam ómnium poténtior est sapiéntia.^LÖ",
           "resp0_lat": "Stola iucunditátis índuit eum Dóminus.^LÖ",
           "resp1_lat": "Et corónam pulchritúdinis pósuit super caput eius.^LÖ",
@@ -3977,7 +3927,6 @@ export const brevierData = {
           "resp0": "Ich vertraue auf Gott und fürchte mich nicht.^Ö",
           "resp1": "Was können Menschen mir antun?^Ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "ant0_lat": "Coronávit eum Dóminus coróna iustítiæ, et dedit illi nomen sanctum glóriæ.^LÖ",
           "resp0_lat": "In Deo sperávi.^LÖ",
           "resp1_lat": "Non timébo quid fáciat mihi homo.^LÖ",
@@ -3997,7 +3946,6 @@ export const brevierData = {
           "resp0": "Sie kommen mit Jubel.^Ö",
           "resp1": "Und bringen ihre Garben ein.^Ö",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "ant0_lat": "Eúntes ibant et flebant, mitténtes sémina sua.^LÖ",
           "resp0_lat": "Veniéntes vénient cum exsultatióne.^LÖ",
           "resp1_lat": "Portántes manípulos suos.^LÖ",
@@ -4027,7 +3975,6 @@ export const brevierData = {
           "bitten": "Du unser Erlöser, du hast dein Blut vergossen für das Heil der Welt;^qerbarme dich aller Menschen.^pDu Urbild der Märtyrer;^qsteh allen Verfolgten bei.^pDu treuer Zeuge;^qhilf denen, die Zeugnis von dir geben.^pDu Stärke der Märtyrer;^qsei deinen Bekennern nahe in der Stunde der Prüfung.^pDu Lohn der Märtyrer;^qsei auch der Lohn all unserer Verstorbenen.",
           "hymn_1_lat": 5552.0,
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "ant1_lat": "Qui vult veníre post me, ábneget semetípsum, et tollat crucem suam et sequátur me.^LÖ",
           "ant2_lat": "Si quis mihi ministráverit, honorificábit eum Pater meus, qui est in cælis.^LÖ",
           "ant3_lat": "Qui perdíderit ánimam suam propter me, invéniet eam in ætérnum.^LÖ",
@@ -8028,7 +7975,6 @@ export const brevierData = {
           "versikel1": "",
           "hymn_1_lat": 0.0,
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "ant1_lat": "",
           "ant2_lat": "",
           "ant3_lat": "",
@@ -8041,7 +7987,6 @@ export const brevierData = {
           "antev": "Am frühen Morgen des ersten Tages kamen sie zum Grab, als die Sonne schon aufgegangen war.^ö",
           "modeev": "VIIIc",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "antev_lat": "Et valde mane, una sabbatórum, véniunt ad monuméntum, orto iam sole.^LÖ"
         },
         "Vesper": {
@@ -8050,7 +7995,6 @@ export const brevierData = {
           "antev": "Am Abend des ersten Tages waren die Jünger versammelt hinter verschlossenen Türen. Da trat Jesus in ihre Mitte und sprach: Friede sei mit euch.^ö",
           "modeev": "I",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "antev_lat": "Cum esset sero die illo una sabbatórum, et fores essent clausæ ubi erant discípuli congregáti, stetit Iesus in médio et dixit eis: Pax vobis.^LÖ"
         }
       },
@@ -8269,6 +8213,7 @@ export const brevierData = {
         "Lesehore": {
           "modeb": "211.0",
           "modec": "211.1",
+          "hymn_1_lat": 3412.1,
           "hymn_2_lat": 0.0
         },
         "Laudes": {
@@ -8286,6 +8231,7 @@ export const brevierData = {
           "resp1": "",
           "resp2": "",
           "resp3": "",
+          "hymn_1_lat": 3421.1,
           "hymn_2_lat": 0.0,
           "ant1_lat": "Surréxit Christus et illúxit pópulo suo, quem redémit sánguine suo.^LÖ",
           "ant2_lat": "Redémptor noster surréxit de sepúlcro: hymnum dicámus Dómino Deo nostro.^LÖ",
@@ -8355,6 +8301,7 @@ export const brevierData = {
           "resp1": "",
           "resp2": "",
           "resp3": "",
+          "hymn_1_lat": 3441.1,
           "hymn_2_lat": 0.0,
           "ant1_lat": "Venérunt ad monuméntum María Magdaléne et áltera María vidére sepúlcrum.^LÖ",
           "ant2_lat": "Veníte, et vidéte locum ubi pósitus erat Dóminus.^LÖ",
@@ -9131,7 +9078,6 @@ export const brevierData = {
           "bitten": "Wir bitten für alle Christen, die heute das Fest deiner Himmelfahrt begehen;^qgib, dass sie in Freude deine Wiederkunft erwarten.^pDeine Jünger sind vom Berg der Himmelfahrt voll Freude heimgekehrt und haben Gott gepriesen;^qhilf deiner Kirche, allezeit dem Vater zu danken.^pVor deiner Himmelfahrt hast du deine Jünger ausgesandt;^qsende auch heute Arbeiter in deine Ernte.^pBeschütze alle, die heute unterwegs sind;^qbewahre sie vor Unglück und führe sie an das Ziel ihrer Reise.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten.",
           "hymn_1_lat": 2904.1,
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "ant1_lat": "Exívi a Patre et veni in mundum; íterum relínquo mundum et vado ad Patrem.^LÖ",
           "ant2_lat": "Dóminus Iesus, postquam locútus est discípulis suis, ascéndit in cælum et sedet a dextris Dei.^LÖ",
           "ant3_lat": "Nemo ascéndit in cælum, nisi qui de cælo descéndit, Fílius hóminis, qui est in cælo.^LÖ",
@@ -9262,7 +9208,6 @@ export const brevierData = {
           "bitten": "Wir bitten für alle Christen, die heute das Fest deiner Himmelfahrt begehen;^qgib, dass sie in Freude deine Wiederkunft erwarten.^pDeine Jünger sind vom Berg der Himmelfahrt voll Freude heimgekehrt und haben Gott gepriesen;^qhilf deiner Kirche, allezeit dem Vater zu danken.^pVor deiner Himmelfahrt hast du deine Jünger ausgesandt;^qsende auch heute Arbeiter in deine Ernte.^pBeschütze alle, die heute unterwegs sind;^qbewahre sie vor Unglück und führe sie an das Ziel ihrer Reise.^pErbarme dich unserer Verstorbenen;^qlass ihnen das Licht deiner Herrlichkeit leuchten.",
           "hymn_1_lat": 2904.1,
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "ant1_lat": "Ascéndit in cælos, sedet ad déxteram Patris.^Lö",
           "ant2_lat": "Ascéndit Deus in iubilatióne, et Dóminus in voce tubæ.^Lö",
           "ant3_lat": "Nunc clarificátus est Fílius hóminis, et Deus clarificátus est in eo.^Lö",
@@ -9584,7 +9529,6 @@ export const brevierData = {
           "bitten": "Du hast Himmel und Erde geschaffen und willst durch Christus im Heiligen Geist alles erneuern;^qschaffe neu das Angesicht der Erde und schenke ihr dein Heil.^pDem ersten Menschen hast du den Lebensatem eingehaucht;^qgieße deinen Geist aus über die Kirche, damit sie allezeit aus ihm lebt.^pLenke durch deinen Geist die Pläne der Mächtigen;^qgib, dass sie Gedanken des Friedens und der Versöhnung denken.^pErbarme dich aller, die unter Krieg, Aufruhr und Unterdrückung leiden;^qdein Heiliger Geist richte sie auf und tröste sie.^pDurch den Heiligen Geist führst du die Menschen zur Herrlichkeit des ewigen Lebens;^qgib, dass die Verstorbenen die Gemeinschaft der Heiligen erfahren.",
           "hymn_1_lat": 0.0,
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "ant1_lat": "Dum compleréntur dies Pentecóstes, erant omnes páriter in eódem loco.^Lö",
           "ant2_lat": "Apparuérunt Apóstolis dispertítæ linguæ tamquam ignis, sedítque super síngulos eórum Spíritus Sanctus.^Lö",
           "ant3_lat": "Spíritus, qui a Patre procédit, ille me clarificábit.^Lö",
@@ -9614,7 +9558,6 @@ export const brevierData = {
           "ant3": "Sende deinen Geist aus, und alles wird neu geschaffen, und du erneuerst das Antlitz der Erde.^ö",
           "hymn_1_lat": 3418.1,
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "ant1_lat": "Spíritus ubi vult spirat, et vocem eius audis; et nescis unde véniat aut quo vadat.^Lö",
           "ant2_lat": "Factus est repénte de cælo sonus adveniéntis spíritus veheméntis.^Lö",
           "ant3_lat": "Emítte Spíritum tuum, et creabúntur, et renovábis fáciem terræ.^Lö",
@@ -9651,7 +9594,6 @@ export const brevierData = {
           "bitten": "Du hast am heutigen Tag vom Vater her deinen Jüngern den Heiligen Geist gesandt;^qerfülle auch uns mit dem Heiligen Geist.^pDu hast Ströme lebendigen Wassers verheißen einem jeden, der glaubt;^qerneuere unseren Glauben.^pDu hast uns den Geist der Wahrheit gesandt, der von dir Zeugnis gibt;^qmache uns zu treuen Zeugen.^pIm Heiligen Geist heiligst du deine Kirche;^qnimm hinweg, was böse ist in uns.",
           "hymn_1_lat": 3428.1,
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "ant1_lat": "O quam bonus et suávis est, Dómine, Spíritus tuus in nobis!^Lö",
           "ant2_lat": "Fontes et ómnia quæ movéntur in aquis, hymnum dícite Deo.^Lö",
           "ant3_lat": "Loquebántur váriis linguis Apóstoli magnália Dei.^Lö",
@@ -9681,7 +9623,6 @@ export const brevierData = {
           "oration": "Allmächtiger Gott, der Glanz deiner Herrlichkeit strahle über uns auf, und Christus, das Licht von deinem Licht, erleuchte die Herzen aller Getauften und stärke sie durch den Heiligen Geist.^ORV",
           "hymn_1_lat": 3438.1,
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "ant0_lat": "Spíritus Sanctus, procédens a throno, Apostolórum péctora invisibíliter penetrávit.^Lö",
           "resp0_lat": "Spíritus Paráclitus.^Lö",
           "resp1_lat": "Docébit vos ómnia.^Lö",
@@ -10177,7 +10118,6 @@ export const brevierData = {
           "resp3": "Sie sahen ihn und freuten sich.",
           "hymn_1_lat": 3441.1,
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "resp1_lat": "Gavísi sunt discípuli.",
           "resp2_lat": "Allelúia,°allelúia.",
           "resp3_lat": "Viso Dómino."
@@ -10191,8 +10131,8 @@ export const brevierData = {
           "hymn_1": 3411.0,
           "hymn_2": 3412.0,
           "hymn_3": 3413.0,
-          "hymn_1_lat": 3412.1,
-          "hymn_2_lat": 3442.1
+          "hymn_1_lat": 3442.1,
+          "hymn_2_lat": 3412.1
         },
         "Laudes": {
           "hymn_1": 3421.0,
@@ -10201,8 +10141,8 @@ export const brevierData = {
           "resp1": "Der Herr ist aus dem Grab erstanden.",
           "resp2": "Halleluja,°halleluja.",
           "resp3": "Der für uns am Kreuz gehangen.",
-          "hymn_1_lat": 3421.1,
-          "hymn_2_lat": 3422.1,
+          "hymn_1_lat": 3422.1,
+          "hymn_2_lat": 3421.1,
           "resp1_lat": "Surréxit Dóminus de sepúlcro.",
           "resp2_lat": "Allelúia,°allelúia.",
           "resp3_lat": "Qui pro nobis pepéndit in ligno."
@@ -10262,9 +10202,8 @@ export const brevierData = {
           "resp1": "Der Herr ist den Jüngern erschienen.",
           "resp2": "Halleluja,°halleluja.",
           "resp3": "Sie sahen ihn und freuten sich.",
-          "hymn_1_lat": 3441.1,
-          "hymn_2_lat": 3443.1,
-          "hymn_3_lat": 0.0,
+          "hymn_1_lat": 3443.1,
+          "hymn_2_lat": 3441.1,
           "resp1_lat": "Gavísi sunt discípuli.",
           "resp2_lat": "Allelúia,°allelúia.",
           "resp3_lat": "Viso Dómino."
@@ -10429,8 +10368,7 @@ export const brevierData = {
           "hymn_2": 0.0,
           "hymn_3": 0.0,
           "hymn_1_lat": 3414.1,
-          "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0
+          "hymn_2_lat": 0.0
         },
         "Laudes": {
           "hymn_1": 3424.0,
@@ -15569,7 +15507,6 @@ export const brevierData = {
         "each": {
           "hymn_3": 0.0,
           "oration": "Herr, unser Gott, dein Sohn hat sich aus Liebe zur Welt dem Tod überliefert. Lass uns in seiner Liebe bleiben und mit deiner Gnade aus ihr leben.^ORV",
-          "hymn_3_lat": 0.0,
           "oration_lat": "Quǽsumus, Dómine Deus noster, ut in illa caritáte, qua Fílius tuus díligens mundum morti se trádidit, inveniámur ipsi, te opitulánte, alácriter ambulántes.^ORlV"
         },
         "ErsteV": {
@@ -15981,7 +15918,6 @@ export const brevierData = {
           "bitten_r": "Herr, erbarme dich deines Volkes.",
           "bitten": "Du warst gesandt, die Kinder Israels zu sammeln;^qlass das Volk des Alten Bundes dich als den Messias erkennen.^pVerlass deine Gläubigen nicht, auch wenn sie dich verlassen;^qwende dich ihnen zu, damit sie sich zu dir bekehren.^pDurch dein Leiden und Sterben hast du den Tod überwunden;^qschenke den Katechumenen in der Taufe das neue Leben.^pDu willst, dass alle Menschen gerettet werden;^qhilf einem jeden, die Stunde der Gnade zu begreifen.^pDu thronst als Sieger in der Herrlichkeit des Vaters;^qgedenke aller, die aus dieser Welt geschieden sind.",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "ant1_lat": "Tanto témpore vobíscum eram, docens vos in templo, et non me tenuístis; modo flagellátum dúcitis ad crucifigéndum.",
           "ant2_lat": "Dóminus Deus auxiliátor meus, et ídeo non sum confúsus.",
           "ant3_lat": "Humiliávit semetípsum Dóminus Iesus, factus obœ́diens usque ad mortem, mortem autem crucis.",
@@ -17534,7 +17470,6 @@ export const brevierData = {
           "resp3": "Aus seiner Fülle haben wir empfangen, Gnade über Gnade.",
           "hymn_1_lat": 3241.1,
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "resp1_lat": "Verbum caro factum est.",
           "resp2_lat": "Allelúia,°allelúia.",
           "resp3_lat": "Et habitávit in nobis."
@@ -17666,7 +17601,6 @@ export const brevierData = {
           "resp2": "Halleluja,°halleluja.",
           "resp3": "Aus seiner Fülle haben wir empfangen, Gnade über Gnade.",
           "hymn_2_lat": 0.0,
-          "hymn_3_lat": 0.0,
           "ant0_lat": "",
           "ant1_lat": "Tecum princípium in die virtútis tuæ, in splendóribus sanctórum, ex útero ante lucíferum génui°te.",
           "ant2_lat": "Apud Dóminum misericórdia, et copiósa apud eum redémptio.",
