@@ -443,6 +443,9 @@ const buildTaggedText = (slots, tone) => {
 const CANT_VOWEL_RE = /[aeiouäëïöüáéíóúàèìòùAEIOUÄÖÜÁÉÍÓÚÀÈÌÒÙ]/;
 const CANT_DIPHTHONGS = new Set(['ei', 'ai', 'au', 'eu', 'äu', 'ie', 'ae', 'oe']);
 export const bracketTrim = (content) => {
+    // Wenn der Inhalt ^-Tags enthält (z. B. ^ELL...^0ELL durch Elisionsersetzung):
+    // zeichenweises Scan-Trimming ist nicht möglich → kein Trimming.
+    if (content.includes('^')) return { left: '', inner: content, right: '' };
     // \u200b (Zero-Width Space) wird als Silbengrenze zwischen 0-markierten Slots eingefügt;
     // es muss wie Leerzeichen und ° als Trennzeichen behandelt werden, um Diphthong-Fehlmatch
     // über Silbengrenzen hinweg (z. B. 'ae' in 'ra' + 'el') zu verhindern.

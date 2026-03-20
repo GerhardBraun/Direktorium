@@ -3791,6 +3791,7 @@ export const calendarData: CalendarData = {
           },
           "Invitatorium": {
             "ant0": "Christus, den Sohn Gottes, der sich nicht gescheut hat, als Sohn des Zimmermanns zu gelten – kommt, wir beten ihn an!^ö",
+            "mode0": "II",
             "ant0_lat": "Christum Dóminum, qui putári dignátus est fabri fílius, veníte, adorémus.^Lö"
           },
           "Lesehore": {
@@ -3873,6 +3874,7 @@ export const calendarData: CalendarData = {
           },
           "Invitatorium": {
             "ant0": "Christus, den Sohn Gottes, der sich nicht gescheut hat, als Sohn des Zimmermanns zu gelten – kommt, wir beten ihn an!^ö",
+            "mode0": "II",
             "ant0_lat": "Christum Dóminum, qui putári dignátus est fabri fílius, veníte, adorémus.^Lö"
           },
           "Lesehore": {
@@ -4060,6 +4062,7 @@ export const calendarData: CalendarData = {
           },
           "Invitatorium": {
             "ant0": "Gott ist einer in der Dreiheit und dreifaltig in der Einheit; kommt, wir beten ihn an!",
+            "mode0": "V",
             "ant0_lat": "Deum verum, unum in Trinitáte et Trinitátem in Unitáte, veníte, adorémus."
           },
           "Lesehore": {
@@ -4257,6 +4260,7 @@ export const calendarData: CalendarData = {
           },
           "Invitatorium": {
             "ant0": "Christus, unser Herr, ist das Brot des Lebens; kommt, wir beten ihn an!",
+            "mode0": "II",
             "ant0_lat": "Panem vitæ, Christum Dóminum, veníte, adorémus."
           },
           "Lesehore": {
@@ -4458,6 +4462,7 @@ export const calendarData: CalendarData = {
           },
           "Invitatorium": {
             "ant0": "Jesu Herz ist verwundet aus Liebe zu uns; kommt, wir fallen nieder und beten an!",
+            "mode0": "VIII",
             "ant0_lat": "Cor Iesu, amóre nostri vulnerátum, veníte, adorémus."
           },
           "Lesehore": {
@@ -5266,6 +5271,7 @@ export const calendarData: CalendarData = {
         "oblig": {
           "Invitatorium": {
             "ant0": "Durch Propheten und Lehrer hat Gottes Geist zu uns gesprochen; kommt, wir beten ihn an!^Ö",
+            "mode0": "II",
             "ant0_lat": "Spíritum Sanctum, qui per prophétas et doctóres nobis locútus est, veníte, adorémus.^LÖ"
           },
           "major": {
@@ -5348,6 +5354,7 @@ export const calendarData: CalendarData = {
           },
           "Invitatorium": {
             "ant0": "Das Lamm Gottes, das Johannes voll Freude bezeugte – kommt, wir beten es an!",
+            "mode0": "I",
             "ant0_lat": "Agnum Dei, quem lætus monstrávit Ioánnes, veníte, adorémus."
           },
           "Lesehore": {

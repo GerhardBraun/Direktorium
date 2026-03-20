@@ -902,7 +902,7 @@ export const brevierData = {
       },
       "each": {
         "Invitatorium": {
-          "ant0": "Der Herr ist nahe; kommt, wir beten ihn an.",
+          "ant0": "Den Herrn, den König der kommen wird – kommt, wir beten ihn an!^ODER^ANTFallt nieder vor dem Herrn, unserm König; er wird kommen und uns retten.",
           "ant0_lat": "Regem ventúrum Dóminum, veníte, adorémus."
         },
         "Lesehore": {
@@ -1215,15 +1215,17 @@ export const brevierData = {
           "hymn_2": 3142.1,
           "hymn_kl": 0.0
         },
+        "Invitatorium": {
+          "ant0": "Der Herr ist nahe; kommt, wir beten ihn an.",
+          "mode0": "V",
+          "ant0_lat": "Prope est iam Dóminus: veníte, adorémus."
+        },
         "Vesper": {
           "hymn_1": 3141.0,
           "hymn_2": 3142.1,
           "hymn_kl": 0.0,
           "hymn_1_lat": 3144.0,
           "hymn_2_lat": 0.0
-        },
-        "Invitatorium": {
-          "ant0_lat": "Prope est iam Dóminus: veníte, adorémus."
         },
         "Lesehore": {
           "hymn_1_lat": 3114.0,
@@ -4321,6 +4323,7 @@ export const brevierData = {
         },
         "Invitatorium": {
           "ant0": "Christus, den geliebten Sohn, der dem Vater wohlgefällt – kommt, wir beten ihn an!",
+          "mode0": "II",
           "ant0_lat": "Christum, Fílium diléctum, in quo Pater sibi complácuit, veníte, adorémus."
         },
         "Lesehore": {
@@ -5806,6 +5809,7 @@ export const brevierData = {
         },
         "Invitatorium": {
           "ant0": "Jesus Christus, den König der Könige – kommt, wir beten ihn an!",
+          "mode0": "II",
           "ant0_lat": "Jesum Christum, regem regum, veníte, adorémus."
         },
         "Lesehore": {
@@ -7324,6 +7328,7 @@ export const brevierData = {
         },
         "Invitatorium": {
           "ant0": "Heute sollt ihr wissen, dass der Herr kommt, und morgen werdet ihr schauen seine Herrlichkeit.",
+          "mode0": "II",
           "ant0_lat": "Hódie sciétis quia véniet Dóminus, et mane vidébitis glóriam eius."
         },
         "Lesehore": {
@@ -7688,6 +7693,7 @@ export const brevierData = {
         },
         "Invitatorium": {
           "ant0": "Christus, den Sohn Gottes, der Maria und Josef gehorsam war – kommt, wir beten ihn an!",
+          "mode0": "VI",
           "ant0_lat": "Christum, Dei Fílium, Maríæ et Ioseph súbditum, veníte adorémus."
         },
         "Lesehore": {
@@ -9140,6 +9146,7 @@ export const brevierData = {
         },
         "Invitatorium": {
           "ant0": "Christus, der Herr, ist aufgestiegen zum Himmel; kommt, wir beten ihn an!^ö",
+          "mode0": "VII",
           "ant0_lat": "Allelúia, Christum Dóminum, ascendéntem in cælum, veníte, adorémus.^Lö"
         },
         "Lesehore": {
@@ -9592,6 +9599,7 @@ export const brevierData = {
         },
         "Invitatorium": {
           "ant0": "Halleluja. Der Geist des Herrn erfüllt den Erdkreis; kommt, wir fallen vor ihm nieder und beten an!^ö",
+          "mode0": "VII",
           "ant0_lat": "Allelúia, Spíritus Dómini replévit orbem terrárum: veníte, adorémus.^Lö"
         },
         "Lesehore": {
@@ -10176,6 +10184,7 @@ export const brevierData = {
         },
         "Invitatorium": {
           "ant0": "Christus ist erstanden; kommt, wir beten ihn an!^ö",
+          "mode0": "VII",
           "ant0_lat": "Surréxit Dóminus vere.^Lö"
         },
         "Lesehore": {
@@ -10412,6 +10421,7 @@ export const brevierData = {
         },
         "Invitatorium": {
           "ant0": "Christus, den Herrn, der uns den Heiligen Geist verheißen hat – kommt, wir beten ihn an!^ö",
+          "mode0": "VIII",
           "ant0_lat": "Christum Dóminum, qui Sanctum nobis promísit Spíritum, veníte, adorémus!^Lö"
         },
         "Lesehore": {
@@ -17446,6 +17456,7 @@ export const brevierData = {
         },
         "Invitatorium": {
           "ant0": "Christus ist uns geboren; kommt, wir beten ihn an.",
+          "mode0": "IV",
           "ant0_lat": "Christus natus est nobis: veníte, adorémus."
         },
         "Lesehore": {
@@ -17545,6 +17556,7 @@ export const brevierData = {
         },
         "Invitatorium": {
           "ant0": "Christus ist uns erschienen; kommt, wir beten ihn an.",
+          "mode0": "IV",
           "ant0_lat": ""
         },
         "Lesehore": {
