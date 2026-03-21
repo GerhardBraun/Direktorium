@@ -211,7 +211,8 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
         }
     }
     // Verkürzte Kadenz (b=1, weiblicher Versschluss): Marker 3 und 2 auf einer Silbe.
-    if (has32Combined) {
+    // Tilde nur wenn vEff ≥ 3 (Marker 3 ist aktive Kadenzstelle) – analog zu has43Combined.
+    if (has32Combined && v_eff >= 3) {
         const cadSlot = slots[countdownIdxs['3']];
         const t = cadSlot.text;
         const endsWithSep = t.length > 0 && (t[t.length - 1] === ' ' || t[t.length - 1] === '°');
@@ -378,7 +379,7 @@ const assignTonesThreeStressed = (tone, bar1, bar2, dblBarIdx) => {
 // Satzzeichen vom Kerntext ab (bleiben außerhalb von ^u/^b-Tags).
 const splitTrail = (s) => {
     let i = s.length;
-    while (i > 0 && ' °~.,;!?'.includes(s[i - 1])) i--;
+    while (i > 0 && ' °~–.,;’‘“!?'.includes(s[i - 1])) i--;
     return [s.slice(0, i), s.slice(i)];
 };
 const buildTaggedText = (slots, tone) => {
