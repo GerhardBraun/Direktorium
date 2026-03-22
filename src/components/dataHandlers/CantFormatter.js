@@ -379,7 +379,7 @@ const assignTonesThreeStressed = (tone, bar1, bar2, dblBarIdx) => {
 // Satzzeichen vom Kerntext ab (bleiben außerhalb von ^u/^b-Tags).
 const splitTrail = (s) => {
     let i = s.length;
-    while (i > 0 && ' °~–.,;’‘“!?'.includes(s[i - 1])) i--;
+    while (i > 0 && ' °~–.,;:’‘“!?'.includes(s[i - 1])) i--;
     return [s.slice(0, i), s.slice(i)];
 };
 const buildTaggedText = (slots, tone) => {
@@ -400,8 +400,9 @@ const buildTaggedText = (slots, tone) => {
             let j = i + 1;
             let group = text;
             while (j < slots.length && tone[j] === 5) {
-                // \u200b als Silbengrenze einfügen, damit bracketTrim keinen Diphthong-Fehlmatch erzeugt
-                if (slots[j].syllBound) group += '\u200b';
+                // \u200b als Silbengrenze zwischen Slots: jede Slot-Grenze ist eine Silbengrenze,
+                // damit bracketTrim keinen Diphthong-Fehlmatch über Silbengrenzen hinweg erzeugt.
+                group += '\u200b';
                 group += slots[j].text;
                 j++;
             }
@@ -413,8 +414,8 @@ const buildTaggedText = (slots, tone) => {
             let j = i + 1;
             let group = text;
             while (j < slots.length && tone[j] === t_tone) {
-                // \u200b als Silbengrenze einfügen, damit bracketTrim keinen Diphthong-Fehlmatch erzeugt
-                if (slots[j].syllBound) group += '\u200b';
+                // \u200b als Silbengrenze zwischen Slots (s. o.)
+                group += '\u200b';
                 group += slots[j].text;
                 j++;
             }
