@@ -9354,7 +9354,7 @@ export const brevierData = {
           "bitten_e_lat": "Grátias agéntes Christo, qui consolatióne Spíritus Sancti Apóstolos totámque replévit Ecclésiam, cum ómnibus fidélibus clamémus:",
           "bitten_r_lat": "Consoláre Ecclésiam tuam, Dómine.",
           "bitten_lat": "Mediátor Dei et hóminum, qui sacerdótes cooperatóres tuos elegísti,^qfac ut omnes ad Patrem per eos ascéndant.^pPræsta, ut pauper et dives óbvient sibi, quia utriúsque tu es Deus,^qnec dives gloriétur in ópibus suis.^pEvangélium tuum cunctis géntibus manifésta,^qut omnes pervéniant ad obœditiónem fídei.^pSpíritum tuum emítte, consolatórem óptimum,^qut ómnium mæréntium lácrimas abstérgat.^pAnimas defunctórum purífica,^qeósque cum sanctis et eléctis tuis in cælum assúme.",
-          "les_text_lat": "Quicúmque Spíritu Dei agúntur, hi fílii Dei sunt. Non enim accepístis spíritum servitútis íterum in timórem, sed accepístis Spíritum adoptiónis filiórum, in quo clamámus: « Abba, Pater! ». Ipse Spíritus testimónium reddit una cum spíritu nostro quod sumus fílii Dei. Si autem fílii, et herédes: herédes quidem Dei, coherédes autem Christi, si tamen compátimur, ut et conglorificémur."
+          "les_text_lat": "Quicúmque Spíritu Dei agúntur, hi fílii Dei sunt. Non enim accepístis spíritum servitútis íterum in timórem, sed accepístis Spíritum adoptiónis filiórum, in quo clamámus: «Abba, Pater!». Ipse Spíritus testimónium reddit una cum spíritu nostro quod sumus fílii Dei. Si autem fílii, et herédes: herédes quidem Dei, coherédes autem Christi, si tamen compátimur, ut et conglorificémur."
         }
       },
       "2": {
@@ -9809,7 +9809,7 @@ export const brevierData = {
           "bitten_e_lat": "Iesum, quem Pater glorificávit et herédem ómnium géntium constítuit, exaltémus, orántes:",
           "bitten_r_lat": "Per victóriam tuam salva nos, Dómine.",
           "bitten_lat": "Christe, qui victória tua portas contrivísti infernáles, peccátum delens et mortem,^lfac nos hódie peccáti victóres.^pTu, qui mortem evacuásti, vitam nobis impértiens novam,^lda ut hódie in hac vitæ novitáte ambulémus.^pQui vitam mórtuis tribuísti, totum genus humánum de morte ad vitam redúcens,^lómnibus, qui nobis occúrrent, ætérnam vitam concéde.^pQui, sepúlcri tui custódes confúndens, discípulos tuos lætificásti,^lplenam tibi serviéntibus largíre lætítiam.",
-          "les_text_lat": "Prope te est verbum, in ore tuo et in corde tuo; hoc est verbum fídei, quod prædicámus. Quia si confiteáris in ore tuo: « Dóminum Iesum! », et in corde tuo credíderis quod Deus illum excitávit ex mórtuis, salvus eris. Corde enim créditur ad iustítiam, ore autem conféssio fit in salútem.^LRESP"
+          "les_text_lat": "Prope te est verbum, in ore tuo et in corde tuo; hoc est verbum fídei, quod prædicámus. Quia si confiteáris in ore tuo: «Dóminum Iesum!», et in corde tuo credíderis quod Deus illum excitávit ex mórtuis, salvus eris. Corde enim créditur ad iustítiam, ore autem conféssio fit in salútem.^LRESP"
         },
         "Terz": {
           "les_buch": "›Offb",
@@ -15614,7 +15614,7 @@ export const brevierData = {
           "antev": "Ich bin das Licht der Welt. Wer mir nachfolgt, wandelt nicht in Finsternis, sondern hat das Licht des Lebens.",
           "modeev": "VIII",
           "antev_lat": "Qui séquitur me, non ámbulat in ténebris, sed habébit lumen vitæ, dicit Dóminus.",
-          "les_text_lat": "Ego quasi agnus mansuétus, qui portátur ad víctimam; et non cognóvi quia super me cogitavérunt consília: « Cædámus lignum in vigóre eius et eradámus eum de terra vivéntium, et nomen eius non memorétur ámplius ». Tu autem, Dómine exercítuum, qui iúdicas iuste et probas renes et corda: vídeam ultiónem tuam ex eis; tibi enim revelávi causam meam."
+          "les_text_lat": "Ego quasi agnus mansuétus, qui portátur ad víctimam; et non cognóvi quia super me cogitavérunt consília: «Cædámus lignum in vigóre eius et eradámus eum de terra vivéntium, et nomen eius non memorétur ámplius». Tu autem, Dómine exercítuum, qui iúdicas iuste et probas renes et corda: vídeam ultiónem tuam ex eis; tibi enim revelávi causam meam."
         },
         "Terz": {
           "les_buch": "›Ez",
@@ -16039,7 +16039,7 @@ export const brevierData = {
           "ant2_lat": "Nunc iudícium est mundi, nunc princeps huius mundi eiciétur foras.",
           "ant3_lat": "Auctor fídei nostræ et consummátor Iesus sustínuit crucem, confusióne contémpta, atque in déxtera Dei sedet.",
           "antev_lat": "Pater iuste, mundus te non cognóvit; ego autem novi te, quia tu me misísti.",
-          "les_text_lat": "Ego quasi agnus mansuétus, qui portátur ad víctimam; et non cognóvi quia super me cogitavérunt consília: « Cædámus lignum in vigóre eius et eradámus eum de terra vivéntium, et nomen eius non memorétur ámplius ». Tu autem, Dómine exercítuum, qui iúdicas iuste et probas renes et corda: vídeam ultiónem tuam ex eis; tibi enim revelávi causam meam."
+          "les_text_lat": "Ego quasi agnus mansuétus, qui portátur ad víctimam; et non cognóvi quia super me cogitavérunt consília: «Cædámus lignum in vigóre eius et eradámus eum de terra vivéntium, et nomen eius non memorétur ámplius». Tu autem, Dómine exercítuum, qui iúdicas iuste et probas renes et corda: vídeam ultiónem tuam ex eis; tibi enim revelávi causam meam."
         },
         "Terz": {
           "les_buch": "›Ez",

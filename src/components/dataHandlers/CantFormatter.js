@@ -193,13 +193,18 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
 
     // Verkürzte Kadenz (b=1, männlicher Versschluss): 43-kombinierter Slot trägt T4 + T3.
     // v_eff im Code bleibt v (weil has4=false), aber reale vEff = v+1 (männlicher Versschluss).
-    // Deshalb: cadStartIdx ggf. auf den 43-kombinierten Slot korrigieren (wenn realVEff ≥ 3).
+    // Deshalb: cadStartIdx ggf. auf den richtigen Slot korrigieren:
+    //   realVEff ≥ 3 → auf den 43-kombinierten Slot; realVEff = 2 → auf den 2-Marker-Slot.
     // Tilde (Signal: zwei Kadenztöne auf einer Silbe) nur wenn realVEff = 4.
     if (has43Combined) {
         const isMaennlichShort = !slots.slice(dblBarIdx + 1).some(s => s.text.trim().length > 0);
         const realVEff43 = isMaennlichShort && !noUnstressed ? v + 1 : v;
         if (realVEff43 >= 3 && cadStartIdx !== countdownIdxs['3']) {
             cadStartIdx = countdownIdxs['3']; // = 43-kombinierter Slot
+        }
+        // v=1, männlicher Versschluss → realVEff43=2: cadStartIdx auf den 2-Marker-Slot.
+        if (isMaennlichShort && !noUnstressed && realVEff43 === 2) {
+            cadStartIdx = countdownIdxs['2'] ?? cadStartIdx;
         }
         if (isMaennlichShort && realVEff43 >= 4) {
             const cadSlot = slots[cadStartIdx];
@@ -219,6 +224,19 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
         cadSlot.text = endsWithSep
             ? t.slice(0, t.length - 1) + '~' + t.slice(t.length - 1)
             : t + '~';
+    }
+
+    // Sonderfall: zwei aufeinanderfolgende Silben mit 1-Marker (b=1).
+    // Beide Silben teilen dieselbe Melodiestelle und sollen als Klammer verbunden werden.
+    // Erkennung: ein Slot mit countdown='1' gefolgt von einem weiteren Slot mit countdown='1'.
+    let dual1Idx = -1;
+    if (b === 1 && !sonderfall1) {
+        for (let i = 0; i < dblBarIdx - 1; i++) {
+            if (slots[i].countdowns.includes('1') && slots[i + 1].countdowns.includes('1')) {
+                dual1Idx = i;
+                break;
+            }
+        }
     }
 
     // Ton-Zuweisung: tone[slotIdx] = 0 (Rezitation) | 4 (Unterstr.) | 3 | 2 | 1 (Klammer)
@@ -278,6 +296,14 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
                 for (let i = dblBarIdx + 1; i <= tildeIdx; i++) tone[i] = 2;
             }
         }
+    }
+
+    // Sonderfall: zwei aufeinanderfolgende 1-Marker-Silben → beide auf tone=3 setzen,
+    // damit sie in buildTaggedText zu einer Klammer gruppiert werden.
+    // Ton 3 vermeidet Verschmelzung mit || (tone=1 bei Sonderfall 3 oder tone=2 bei normalem b=1).
+    if (dual1Idx >= 0) {
+        tone[dual1Idx] = 3;
+        tone[dual1Idx + 1] = 3;
     }
 
     return buildTaggedText(slots, tone);

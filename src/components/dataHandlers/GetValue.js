@@ -7,7 +7,7 @@ export const getValue = ({
     localPrefKomplet, localPrefComm,
     localPrefPsalmsWt, localPrefErgPs,
     localPrefContinuous, localPrefLanguage = '',
-    alternativePsalms = false }) => {
+    alternativePsalms = false, skipPersonal = false }) => {
     if (!hour || !texts || !texts[hour])
         return null;
 
@@ -227,7 +227,7 @@ export const getValue = ({
             return result(prefTexts) || result(prefCommTexts)
 
     }
-    return result(texts[hour].pers)
+    return (!skipPersonal && result(texts[hour].pers))
         || (alternativePsalms && result(texts[hour].alt))
         || result(texts[hour].wt)
         || null;

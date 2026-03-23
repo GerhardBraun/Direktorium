@@ -367,7 +367,8 @@ const PrayerTextDisplay = ({
   onPrevDay,
   onNextDay,
   widthForHymns,
-  addDebugLog
+  addDebugLog,
+  skipPersonal = false
 }) => {
   const [localPrefComm, setLocalPrefComm] = useState(texts?.prefComm || 0);
   const [localPrefContinuous, setLocalPrefContinuous] = useState(false);
@@ -424,6 +425,7 @@ const PrayerTextDisplay = ({
       localPrefContinuous,
       localPrefLanguage,
       alternativePsalms,
+      skipPersonal,
       texts,
       field,
     })
@@ -1127,6 +1129,7 @@ export default function Stundenbuch() {
   const [texts, setTexts] = useState(null);
   const [expandedDeceased, setExpandedDeceased] = useState({});
   const [prefFootnotes, setPrefFootnotes] = useState(() => localStorage.getItem("prefFootnotes") === "false" ? false : true);
+  const [skipPersonal, setSkipPersonal] = useState(() => localStorage.getItem("skipPersonal") === "true");
   const [deceasedMode, setDeceasedMode] = useState(() => localStorage.getItem("deceasedMode") || "recent"); const [localPrefLanguage, setLocalPrefLanguage] = useState(() => localStorage.getItem("prefLanguage") || "");
   const [localPrefLatin, setLocalPrefLatin] = useState(() => localStorage.getItem("prefLanguage") === "_lat");
   const [baseFontSize, setBaseFontSize] = useTouchZoom(
@@ -1481,7 +1484,7 @@ export default function Stundenbuch() {
     const menuRef = useRef(null);
     const longPressTimeoutRef = useRef(null);
     const [isLongPressing, setIsLongPressing] = useState(false);
-    const sections = ["fontSize", "theme", "language", "footnotes", "deceased", "view"];
+    const sections = ["fontSize", "theme", "language", "footnotes", "personalData", "deceased", "view"];
     const storedPrefLanguage = localStorage.getItem("prefLanguage") || "";
     const unlockBenedictine = localStorage.getItem("unlockBenedictine") === "unlocked" ? true : false;
 
@@ -1807,11 +1810,11 @@ export default function Stundenbuch() {
                 }`}
               onClick={() => handleSectionChange(sections.indexOf("footnotes"))}
             >
-              <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-0">
+              <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-1">
                 Fußnoten
+                <span className="pl-2 text-xs font-normal">
+                  zur Zweiten Lesung der Lesehore</span>
               </div>
-              <div className="text-xs text-gray-500 dark:text-gray-400 mb-1">
-                zur Zweiten Lesung der Lesehore</div>
               <div className="flex gap-1">
                 <button
                   onClick={(e) => {
@@ -1819,10 +1822,8 @@ export default function Stundenbuch() {
                     e.stopPropagation();
                     setPrefFootnotes(true);
                   }}
-                  className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${prefFootnotes
-                    ? "bg-orange-100 dark:bg-yellow-400/60"
-                    : ""
-                    }`}
+                  className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded
+                    ${prefFootnotes ? "bg-orange-100 dark:bg-yellow-400/60" : ""}`}
                 >
                   unter dem Text
                 </button>
@@ -1832,15 +1833,54 @@ export default function Stundenbuch() {
                     e.stopPropagation();
                     setPrefFootnotes(false);
                   }}
-                  className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded ${!prefFootnotes
-                    ? "bg-orange-100 dark:bg-yellow-400/60"
-                    : ""
-                    }`}
+                  className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded
+                    ${!prefFootnotes ? "bg-orange-100 dark:bg-yellow-400/60" : ""}`}
                 >
                   im Text
                 </button>
               </div>
             </div>
+
+            <div className="border-t dark:border-gray-700"></div>
+
+            {/* Persönliche Daten Section */}
+            {localStorage.getItem('personalData') && (<div
+              className={`px-3 py-1 cursor-pointer ${activeSection === "personalData"
+                ? "bg-gray-100 dark:bg-gray-600"
+                : ""
+                }`}
+              onClick={() => handleSectionChange(sections.indexOf("personalData"))}
+            >
+              <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-1">
+                persönliche Daten
+              </div>
+              <div className="flex gap-1">
+                <button
+                  onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    setSkipPersonal(false);
+                    setLocalStorage("skipPersonal", "false");
+                  }}
+                  className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded
+                    ${!skipPersonal ? "bg-orange-100 dark:bg-yellow-400/60" : ""}`}
+                >
+                  anzeigen
+                </button>
+                <button
+                  onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    setSkipPersonal(true);
+                    setLocalStorage("skipPersonal", "true");
+                  }}
+                  className={`flex-1 px-2 py-1 text-center text-sm text-gray-700 dark:text-gray-300 rounded
+                    ${skipPersonal ? "bg-orange-100 dark:bg-yellow-400/60" : ""}`}
+                >
+                  überspringen
+                </button>
+              </div>
+            </div>)}
 
             <div className="border-t dark:border-gray-700"></div>
 
@@ -2284,6 +2324,7 @@ export default function Stundenbuch() {
                 setLocalPrefLanguage={setLocalPrefLanguage}
                 widthForHymns={widthForHymns}
                 addDebugLog={addDebugLog}
+                skipPersonal={skipPersonal}
                 onBack={() => {
                   setViewMode("prayer");
                   window.scrollTo({ top: 0, behavior: 'instant' });
