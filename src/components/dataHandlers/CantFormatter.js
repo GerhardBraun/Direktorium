@@ -405,7 +405,7 @@ const assignTonesThreeStressed = (tone, bar1, bar2, dblBarIdx) => {
 // Satzzeichen vom Kerntext ab (bleiben außerhalb von ^u/^b-Tags).
 const splitTrail = (s) => {
     let i = s.length;
-    while (i > 0 && ' °~–.,;:’‘“!?'.includes(s[i - 1])) i--;
+    while (i > 0 && ' °~–.,;:’‘“!?^])'.includes(s[i - 1])) i--;
     return [s.slice(0, i), s.slice(i)];
 };
 const buildTaggedText = (slots, tone) => {
