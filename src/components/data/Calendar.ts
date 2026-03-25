@@ -7838,6 +7838,11 @@ export const calendarData: CalendarData = {
       },
       "29": {
         "oblig": {
+          "major": {
+            "comm_1": "MärtSg",
+            "oration": "Allmächtiger Gott, du hast den heiligen Johannes den Täufer berufen, deinem Sohn im Leben und im Tod voranzugehen und für Recht und Wahrheit Zeugnis zu geben. Gib auch uns die Kraft, für den Anspruch deiner Lehre unerschrocken einzutreten.^ORV",
+            "oration_lat": "Deus, qui beátum Ioánnem Baptístam et nascéntis et moriéntis Fílii tui Præcursórem esse voluísti, concéde, ut, sicut ille veritátis et iustítiæ martyr occúbuit, ita et nos pro tuæ confessióne doctrínæ strénue certémus.^ORlV"
+          },
           "Invitatorium": {
             "ant0": "Das Lamm Gottes, dem Johannes im Leben vorausging – kommt, wir beten es an!",
             "ant0_lat": "Agnum Dei, quem in passióne Ioánnes præcéssit, veníte, adorémus."
@@ -7914,11 +7919,6 @@ export const calendarData: CalendarData = {
             "bitten_r_lat": "Dírige, Dómine, pedes nostros in viam pacis.",
             "bitten_lat": "Tu, qui Ioánnem a ventre matris eius vocásti ad præparándas vias Fílii tui,^qvoca nos ad Dóminum ita sequéndum, sicut eum ipse præcéssit.^pSicut dedísti Baptístæ Agnum Dei agnóscere, fac ut ipsum Ecclésia tua demónstret,^qet hómines huius témporis agnóscant.^pTu, qui disposuísti prophétam tuum mínui et Christum créscere,^qdoce nos erga álios húmiles esse, ut manifestéris.^pTu, qui per martýrium Ioánnis iustítiam vindicáre voluísti,^qfac nos veritátem tuam indeficiénter testificári.^pMeménto ómnium, qui ex hoc sǽculo transiérunt,^qillos constítue in regióne lucis et pacis.",
             "les_text_lat": "Deus ex sémine David secúndum promissiónem edúxit Israel salvatórem Iesum, prædicánte Ioánne ante advéntum eius baptísmum pæniténtiæ omni pópulo Israel. Cum impléret autem Ioánnes cursum suum, dicébat: Quid me arbitrámini esse? Non sum ego; sed ecce venit post me, cuius non sum dignus calceaménta pedum sólvere."
-          },
-          "major": {
-            "comm_1": "MärtSg",
-            "oration": "Allmächtiger Gott, du hast den heiligen Johannes den Täufer berufen, deinem Sohn im Leben und im Tod voranzugehen und für Recht und Wahrheit Zeugnis zu geben. Gib auch uns die Kraft, für den Anspruch deiner Lehre unerschrocken einzutreten.^ORV",
-            "oration_lat": "Deus, qui beátum Ioánnem Baptístam et nascéntis et moriéntis Fílii tui Præcursórem esse voluísti, concéde, ut, sicut ille veritátis et iustítiæ martyr occúbuit, ita et nos pro tuæ confessióne doctrínæ strénue certémus.^ORlV"
           }
         }
       },
@@ -13471,6 +13471,57 @@ export const calendarData: CalendarData = {
       }
     }
   },
+  "Dresden-Meißen": {
+    "2": {
+      "3": {
+        "d1": {
+          "Lesehore": {
+            "hymn_1": 8203.1,
+            "patr_autor": "Alojs Andricki (†°1943)",
+            "patr_werk": "Aus einem Brief am 9. März 1941 aus dem Dresdener Polizeigefängnis.",
+            "patr_text": "^h„Das ist der Wille Gottes, eure Heiligung“^pHeiligkeit ist ja die Übereinstimmung des Menschen in allem Denken und Tun mit Gott, dem allein Heiligen. Heiligkeit bedeutet die ganze Hingabe unseres Willens an den Willen Gottes.^pWir wissen, dass dies leichter gesagt wird als getan. Solange der eigene menschliche Wille vorherrscht, spürt man gar nicht die Schwierigkeiten. Aber da, wo der eigene Wille ausgeschaltet wird und man in Lagen und Umstände hineingeführt wird, die einem persönlich gar nicht erwünscht sind, da beginnt erst eigentlich so recht die Einfügung des eigenen Willens an einen höheren.^pAch, man kann gar nicht alles so aussprechen, was man in Gedanken erwägt. Aber bloße Einordnung, vielleicht noch mit Widerwillen erfüllt, ist nicht Heiligkeit. Zur Heiligkeit gehört der eigene freie und bejahende Wille, der dem Willen eines Höheren zugetan ist und das vor allem dann, wenn damit auch Leid und Entsagung verbunden ist.^pNun ist mir ja hier Gelegenheit geboten, diesen Weg der Heiligkeit zu gehen. Ich will ihn gehen so froh und freudig, als es mir möglich ist, denn es gilt ja, mit Gott eins zu werden.^pDieses Ziel hilft mir auch über alle menschlichen Schwächen, Wehmut – und ich brauch mich nicht zu schämen zu bekennen – über manche Augenblicke, da mir die Tränen über die Wangen rollen. Es gibt schon Stunden der tiefsten Verlassenheit, aber das muss ja sein, damit umso größer die Liebe und Freude Gottes in mir Raum gewinnen kann.^pUnerlässlich bei diesem Streben aber ist das Gebet, und ich danke Euch dafür mit meinem Gebet.^pNichts Schöneres gibt es, als hineinzuwachsen in die Gleichförmigkeit mit dem Willen Gottes, darin uns Seligkeit und Freude gegeben ist.",
+            "patr_resp1": "Ich habe den guten Kampf gekämpft, den Lauf vollendet, die Treue gehalten.",
+            "patr_resp2": "Schon jetzt liegt für mich der Kranz der Gerechtigkeit bereit.",
+            "patr_resp3": "Ich sehe alles als Verlust an, weil die Erkenntnis Christi Jesu, meines Herrn, alles übertrifft. Christus will ich erkennen und die Gemeinschaft mit seinem Leiden; sein Tod soll mich prägen."
+          },
+          "Laudes": {
+            "hymn_1": 8203.2,
+            "button": "Sel. Alojs Andritzki",
+            "farbe": "r",
+            "nominativ": "Der heilige Alojs",
+            "genitiv": "des heiligen Alojs"
+          },
+          "Vesper": {
+            "hymn_1": 8203.2
+          },
+          "major": {
+            "comm_1": "MärtSg",
+            "oration": "Herr, unser Gott, du hast den seligen Märtyrer und Priester Alojs mit deiner Liebe erfüllt, so dass er in großer Bedrängnis sein Leben wie ein Weizenkorn für die Brüder hingab; gewähre uns auf seine Fürsprache, dass wir alle Menschenfurcht überwinden und würdige Diener der Wahrheit werden.^ORV"
+          }
+        },
+        "d2": {
+          "major": {
+            "comm_1": "MärtSg",
+            "oration": "Knježe, naš Božo, sy zbóžneho martrarja a měšnika Alojsa ze swojej lubosću napjelnił, tak zo je w času wulkeje ćěsnosće swoje žiwjenje kaž pšeńčne zorno za bratrow podał; spožč nam na jeho zastupnistwo, zo wšón čłowječi strach přewinjemy a so z hódnymi słužownikami wěrnosće stanjemy. Přez Chrystusa, našeho Knjeza."
+          },
+          "Lesehore": {
+            "patr_autor": "Alojs Andricki (†°1943)",
+            "patr_werk": "Z lista 9. měrca 1941 z Drježdźanskeho policajskeho jastwa.",
+            "patr_text": "^h„To je wola Boža, waše swjatosćenje“^pSwjatosć je dźě přezjednosć čłowjeka we wšěm myslenju a jednanju z Bohom, jeničce swjatym. Swjatosć woznamjenja, swoju wolu dospołnje Božej woli podwolić.^pWěmy, zo je tole lóšo prajene hač sčinjene. Dołhož knježi swójska čłowječa wola, ćeže scyła njezačuješ. Ale tam, hdźež so swójska wola wuhasnje, a přińdźeš-li do połoženja a wobstejnosćow, kotrež sej wosobinsce scyła njepřeješ, tam započnješ poprawom hakle tak prawje swójsku wolu do wjetšeje zapołožić.^pAch, njemóžeš wšitko ani tak wuprajić, wo čimž w myslach rozwažuješ. Ale hdyž so jeničce zarjaduješ, a to traš samo hišće njelóštnje, njeje to swjatosć. K swjatosći słuša swójska swobodna a přihłosowaca wola, kotraž je woli wyšeho přichilena, a to předewšěm potom, hdyž maš ćerpjeć a něčeho so wzdać.^pNětko wšak mam tudy přiležnosć, tutón puć swjatosće kročić. Chcu po nim tak wjesele a radostnje hić, kaž je mi to móžno, přetož dźe wo to, zo so z Bohom zjednoćiš.^pTutón zaměr pomha mi přeze wšě čłowječe słabosće, stysknotu, a njetrjebam so hańbować ani wonych chwilow, w kotrychž su so mi sylzy wuronili. Přińdu wšak hodźiny najhłubšeje wopušćenosće, ale to drje dyrbi być, zo byštej so ćim bóle Boža lubosć a radosć we mni přisporjeć móhłoj.^pNjeparujomne w tymle prócowanju je modlenje, a dźakuju so Wam za Waš paćer, z tym zo so tež za Was modlu.^pNjeje ničo rjeńšeho, hač zo zrosćeš do přezjednosće z wolu Božej, w kotrejž nańdźeš zbóžnosć a radosć.",
+            "patr_resp1": "Derje sym wojował, sym doběhnył, wěru wobchował.",
+            "patr_resp2": "Za wěčnosć je mi přihotowana króna sprawnosće.",
+            "patr_resp3": "Mam wšo za škodu porno wyšemu póznaću Chrysta Jězusa, swojeho Knjeza. Chrystusa chcu spóznać a podźěl na jeho ćerpjenju měć, připodobnjeny jeho smjerći."
+          },
+          "Laudes": {
+            "button": "Zbóžny Alojs Andricki (sorbisch)",
+            "farbe": "r",
+            "nominativ": "Der heilige Alojs",
+            "genitiv": "des heiligen Alojs"
+          }
+        }
+      }
+    }
+  },
   "Fulda": {
     "2": {
       "4": {
@@ -14936,20 +14987,6 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Test Chur"
-          }
-        }
-      }
-    }
-  },
-  "Dresden-Meißen": {
-    "99": {
-      "1": {
-        "d1": {
-          "major": {
-            "oration": "Test Dresden-Meißen"
-          },
-          "Laudes": {
-            "button": "Test Dresden-Meißen"
           }
         }
       }
