@@ -13730,7 +13730,7 @@ export const calendarData: CalendarData = {
             "comm_2": ""
           },
           "ErsteV": {
-            "button": "1. Vesper zum hl. Bonifatius",
+            "button": "1. Vesper zum Hochfest des hl. Bonifatius",
             "farbe": "r",
             "hymn_1": 8605.4,
             "hymn_2": 8605.5,
@@ -14894,6 +14894,536 @@ export const calendarData: CalendarData = {
       }
     }
   },
+  "Paderborn": {
+    "10": {
+      "25": {
+        "d1": {
+          "Lesehore": {
+            "les_buch": "Aus dem zweiten Brief des Apostels Paulus an die Gemeinde in Korinth.",
+            "les_stelle": "3,4–4,6",
+            "les_text": "^hWir verkündigen nicht uns, sondern Jesus Christus^pWir haben durch Christus so großes Vertrauen zu Gott. Doch sind wir dazu nicht von uns aus fähig, als ob wir uns selbst etwas zuschreiben könnten; unsere Befähigung stammt vielmehr von Gott. Er hat uns fähig gemacht, Diener des Neuen Bundes zu sein, nicht des Buchstabens, sondern des Geistes. Denn der Buchstabe tötet, der Geist aber macht lebendig. ^pWenn aber schon der Dienst des Todes, dessen Buchstaben in Stein gemeißelt waren, so herrlich war, dass die Israeliten das Gesicht des Mose nicht anschauen konnten, weil es eine Herrlichkeit ausstrahlte, die doch vergänglich war, wie sollte da der Dienst des Geistes nicht viel herrlicher sein?^pDenn wenn schon der Dienst der Verurteilung herrlich war, so ist der Dienst der Gerechtigkeit noch viel herrlicher. Eigentlich ist das Verherrlichte nämlich in diesem Fall gar nicht verherrlicht angesichts der überragenden Herrlichkeit. Wenn nämlich schon das Vergängliche in Herrlichkeit erschien: Die Herrlichkeit des Bleibenden wird es überstrahlen.^pWeil wir also eine solche Hoffnung haben, treten wir mit großem Freimut auf, nicht wie Mose, der über sein Gesicht eine Hülle legte, damit die Israeliten das Ende des Vergänglichen nicht sahen.^pDoch ihr Denken wurde verhärtet. Denn bis zum heutigen Tag liegt die gleiche Hülle auf dem Alten Bund, wenn daraus vorgelesen wird; sie wird nicht aufgedeckt, weil sie in Christus beseitigt wird. Bis heute liegt die Hülle auf ihrem Herzen, wenn Mose vorgelesen wird.^pSobald er aber zum Herrn zurückkehrt, wird die Hülle entfernt. Der Herr aber ist der Geist; wo aber der Geist des Herrn ist, da ist Freiheit. Wir alle aber schauen mit enthülltem Angesicht die Herrlichkeit des Herrn wie in einem Spiegel und werden so in sein eigenes Bild verwandelt, von Herrlichkeit zu Herrlichkeit, durch den Geist des Herrn.^pDaher erlahmt unser Eifer nicht in dem Dienst, der uns durch Gottes Erbarmen übertragen wurde. Wir haben uns von aller schimpflichen Arglist losgesagt; wir verhalten uns nicht hinterhältig und verfälschen das Wort Gottes nicht, sondern machen die Wahrheit offenbar. So empfehlen wir uns vor dem Angesicht Gottes jedem menschlichen Gewissen.^pWenn unser Evangelium dennoch verhüllt ist, ist es nur denen verhüllt, die verloren gehen; denn der Gott dieser Weltzeit hat das Denken der Ungläubigen verblendet. So strahlt ihnen der Glanz des Evangeliums von der Herrlichkeit Christi, der Gottes Bild ist, nicht auf.^pWir verkünden nämlich nicht uns selbst, sondern Jesus Christus als den Herrn, uns aber als eure Knechte um Jesu willen. Denn Gott, der sprach: Aus Finsternis soll Licht aufleuchten!, er ist in unseren Herzen aufgeleuchtet, damit aufstrahlt die Erkenntnis des göttlichen Glanzes auf dem Antlitz Christi.",
+            "les_text_neu": "Wir predigen, weil Gott uns geprüft und uns das Evangelium anvertraut hat.",
+            "resp0": "Nicht um den Menschen zu gefallen, sondern Gott.",
+            "resp1": "Wir predigen nicht, um euch irrezuführen, in schmutziger Weise auszunutzen oder zu betrügen.",
+            "patr_autor": "Lorenz Kardinal Jaeger (1892–1975)",
+            "patr_werk": "Aus einer Predigt zum Liborifest 1956.",
+            "patr_text": "^hLiborius nahm an den Prüfungen und Leiden Paderborns teil^pLiborius hat vor 1600 Jahren, als eine neue Geschichtsepoche heraufstieg, inmitten einer von Untergangsstimmung geängstigten Welt das Reich Gottes aufgerichtet und damit am Aufstieg der neuen, christlichen Ära erfolgreich mitgearbeitet. Als man seinen heiligen Leib im Jahre 397 in der Apostelbasilika jenseits der Sarthe zu Le Mans zur letzten Ruhe bettete, da ahnte noch niemand, dass dieser Heilige an der Wiege eines jungen Bistums im Westfalenlande stehen würde.^pDas Domkapitel von Le Mans hat vor 750 Jahren nach Paderborn geschrieben, die Ankunft der Reliquien des heiligen Liborius hätte für das Sachsenland das Ende des heidnischen Winters und den Beginn des christlichen Frühlings bedeutet, und kein Geringerer als Johannes Bolandus hat 1648, im Jahre des Westfälischen Friedens, von einem Fatum Liborianum gesprochen, von einer schicksalhaften Verbindung Paderborns mit Liborius.^pDie Vorsehung hat die Schicksale, die Freuden und Leiden unseres Erzbistums auf eine besondere Weise mit dem heiligen Liborius verknüpft. An den großen Prüfungen wie an den Freuden der Stadt und des Bistums Paderborn nahm Liborius auf eine fast leibhafte Art in seinen Reliquien teil. Man denke nur an den Raub der Reliquien im Dreißigjährigen Krieg, an ihre Gefährdung und an ihre Unbilden in und nach dem letzten Krieg. Man denke aber auch an das Wachstum der Liboriusverehrung im Früh- und Hochmittelalter, an den glanzvollen Aufstieg dieser Verehrung im Barockzeitalter und in unserem Jahrhundert.^pEs wäre ein Zeichen der Dankbarkeit, wenn dem heiligen Liborius in unserem Erzbistum noch mehr Kirchen und Kapellen geweiht würden und wenn noch mehr Kinder bei der Taufe seinen Namen erhielten.^pLiborius war wie ein Hoffnungsstern inmitten der versinkenden Welt der Antike, er war der Schutzpatron unseres Erzbistums seit 1120 Jahren. Er ist auch für uns das Symbol der Hoffnung inmitten einer den Untergang des Abendlandes fürchtenden Welt.^pIn Müh und Arbeit harrt er aus,^ldie Leiden wurden Freuden ihm,^ldurchs Irdische so strebte er^lzum Himmlischen hinan, zum Ziel.",
+            "patr_resp1": "Einst hast du, Herr, dein Land begnadet, Jakobs Unglück gewendet.",
+            "patr_resp2": "Richte uns wieder auf, Gott unsres Heils, lass von deinem Unmut gegen uns ab!",
+            "patr_resp3": "Du hast vergeben die Schuld deines Volkes, zugedeckt all ihre Sünden."
+          },
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Barmherziger Gott, du hast in Zeiten der Not und Gefahr die Kirche von Paderborn auf die Fürbitte des heiligen Liborius beschützt. Erneuere in unseren Tagen die Zeichen deines Heils. Stärke uns im Vertrauen auf deine helfende Hand und lehre uns deine Wege.^ORV"
+          },
+          "Laudes": {
+            "button": "Rückführung der Reliquien des hl. Bischofs Liborius",
+            "genitiv": "des heiligen Liborius"
+          }
+        }
+      },
+      "3": {
+        "d1": {
+          "major": {
+            "comm_1": "MärtPl",
+            "oration": "Herr und Gott, du hast die beiden heiligen Brüder Ewald als Zeugen deines Wortes zu den Sachsen gesandt. Durch ihr Martyrium und auf ihre Fürsprache bewege auch uns, im Leben zu bezeugen, was wir im Glauben bekennen.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "Beda Venerabilis († 735)",
+            "patr_werk": "Aus der Englischen Kirchengeschichte Bedas des Ehrwürdigen.",
+            "patr_text": "^hDas ruhmreiche Leiden der Diener Gottes^pAls die Brüder Ewald in das Land gekommen waren, kehrten sie bei einem Meier ein und baten ihn, er möge sie zu seinem Fürsten bringen, sie hätten eine Botschaft an ihn und müssten ihm eine nützliche Sache berichten. Der Meier nahm sie auf und versprach, sie zum Fürsten zu senden, wie sie es erbeten hatten, behielt sie aber einige Tage bei sich.^pAls die heidnische Bevölkerung sie als Bekenner einer anderen Religion erkannte – denn sie beteten und sangen Psalmen und brachten Gott täglich das Opfer des Heils dar, da sie die heiligen Geräte und einen zum Altar geweihten Tisch bei sich hatten –, kamen sie auf den Verdacht, sie würden den Fürsten, wenn sie mit ihm redeten, seinen Göttern abspenstig machen und zu der neuen Religion herüberziehen; sie fürchteten, dass so allmählich das ganze Land gezwungen würde, den alten Gottesdienst zu verlassen und den neuen anzunehmen. ^pDeshalb überfielen sie die beiden und töteten sie. Der weiße Ewald fand einen raschen Tod durch das Schwert, der schwarze hingegen wurde langsam zu Tode gepeinigt, und seine Glieder wurden schrecklich verstümmelt. Ihre Leichname warf man in den Rhein.^pAls dies der Fürst, den sie hatten sehen wollen, vernahm, zürnte er sehr, dass Fremde, die zu ihm kommen wollten, nicht zu ihm gelassen worden waren. Er schickte deshalb hin, ließ alle Bewohner jenes Dorfes töten und das Dorf selbst in Brand stecken. Die genannten Priester und Diener Gottes erlitten den Martertod am 3. Oktober.",
+            "patr_resp1": "Alle, die auf den Herrn vertrauen, werden die Wahrheit erkennen, und die Treuen werden bei ihm bleiben in Liebe. Denn Gnade und Erbarmen wird seinen Erwählten zuteil.",
+            "patr_resp2": "Die Gerechten werden Völker richten und über Nationen herrschen, und der Herr wird ihr König sein in Ewigkeit.",
+            "patr_resp3": "Fürchtet euch nicht vor denen, die den Leib töten, die Seele aber nicht töten können."
+          },
+          "Laudes": {
+            "button": "Die beiden hl. Ewalde",
+            "farbe": "r",
+            "genitiv": "der beiden heiligen Ewalde"
+          }
+        }
+      },
+      "5": {
+        "d1": {
+          "major": {
+            "comm_1": "Mann",
+            "oration": "Allmächtiger, ewiger Gott, der heilige Diakon Meinolf hat mit all seiner Kraft für den Aufbau der Kirche von Paderborn gewirkt; schütze auch in unserer Zeit die Kirche dieses Landes, und festige ihre gemeinschaftliche Verbindung mit dem Nachfolger des heiligen Petrus und mit der Schwesterkirche von Le Mans.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "Diakon Erconrad (9. Jh.)",
+            "patr_werk": "Aus der Translatio des hl. Liborius.",
+            "patr_text": "^hMeinolf verspricht die Gründung eines Klosters^pAls der Archidiakon Meinolf die nach Gottes Fügung großen Wunderzeichen gesehen hatte, da gab er, erschüttert aus Gottesfurcht und Liebe zugleich, seinen ganzen Erbanteil hin zum hochheiligen Leib des seligen Liborius und machte das feierliche Gelübde, an einem Ort namens Böddeken ein Kloster zu bauen und dort zum Dienst der Gottesgebärerin und des heiligen Liborius eine Gemeinschaft von gottgeweihten Frauen zu sammeln.^pAls dann diese fromme und allen Augenzeugen wohlgefällige Übergabe angesichts des genannten Bischofs Aldrich erfolgt war, die Folodag, Bischof Badurads Vogt, vor den Gefährten jenes Meinolf, dem Priester Adalbert, dem Diakon Aldrich und dem Subdiakon Drudwin als Zeugen entgegengenommen hatte, da fielen sie auf ihr Angesicht vor dem Altar des Herrn nieder zu Füßen des (nun verewigten) Bischofs Aldrich mit der Bitte, heimkehren zu dürfen.^pDer Oberhirte gab den Segen und vertraute ihnen dann vor allem Klerus und Volk den kostbaren Schatz an, auf dass er immer gebührend in Ehren gehalten würde.",
+            "patr_resp1": "Wenn du vollkommen sein willst, verkaufe, was du hast, und gib es den Armen; so wirst du einen Schatz im Himmel haben.",
+            "patr_resp2": "Dann komm und folge mir nach.",
+            "patr_resp3": "Keiner von euch ist mein Jünger, wenn er nicht auf seinen Besitz verzichtet."
+          },
+          "Laudes": {
+            "button": "Hl. Meinolf von°Böddeken/Paderborn",
+            "nominativ": "Der heilige Meinolf",
+            "genitiv": "des heiligen Meinolf"
+          }
+        }
+      }
+    },
+    "7": {
+      "23": {
+        "oblig": {
+          "each": {
+            "comm_1": "Hirten",
+            "oration": "Gott, du Herr aller Völker, du hast den heiligen Liborius der Kirche von Le Mans als Bischof und der Kirche von Paderborn als Patron gegeben. Hilf uns, auf seine Fürsprache die Einheit der Kirche zu wahren und alle Uneinigkeit zwischen den Völkern zu überwinden.^ORV"
+          },
+          "Invitatorium": {},
+          "Lesehore": {
+            "versikel0": "",
+            "versikel1": "",
+            "les_buch": "Aus dem ersten Brief des Apostels Paulus an die Gemeinde in Thessaloniki.",
+            "les_stelle": "2,1–13",
+            "les_text": "^hDas Wort Gottes ist in den Gläubigen wirksam^pIhr wisst selbst, Brüder und Schwestern, dass wir nicht vergebens zu euch gekommen sind. Wir hatten vorher in Philippi viel zu leiden und wurden misshandelt, wie ihr wisst; dennoch haben wir im Vertrauen auf unseren Gott das Evangelium Gottes trotz harter Kämpfe freimütig bei euch verkündet.^pDenn wir predigen nicht, um euch irrezuführen und nicht in unlauterer oder betrügerischer Absicht, sondern wir tun es, weil Gott uns geprüft und uns das Evangelium anvertraut hat, nicht also um den Menschen, sondern um Gott zu gefallen, der unsere Herzen prüft.^pNie haben wir mit unseren Worten zu schmeicheln versucht, das wisst ihr, und nie haben wir aus versteckter Habgier gehandelt, dafür ist Gott Zeuge. Wir haben auch keine Ehre bei den Menschen gesucht, weder bei euch noch bei anderen, obwohl wir als Apostel Christi unser Ansehen hätten geltend machen können.^pIm Gegenteil, wir sind euch freundlich begegnet: Wie eine Mutter für ihre Kinder sorgt, so waren wir euch zugetan und wollten euch nicht nur am Evangelium Gottes teilhaben lassen, sondern auch an unserem Leben; denn ihr wart uns sehr lieb geworden.^pIhr erinnert euch, Brüder und Schwestern, wie wir uns gemüht und geplagt haben. Bei Tag und Nacht haben wir gearbeitet, um keinem von euch zur Last zu fallen, und haben euch so das Evangelium Gottes verkündet. Ihr seid Zeugen, und auch Gott ist Zeuge, wie gottgefällig, gerecht und untadelig wir uns euch, den Glaubenden, gegenüber verhalten haben. Ihr wisst auch, dass wir, wie ein Vater seine Kinder, jeden Einzelnen von euch ermahnt, ermutigt und beschworen haben zu leben, wie es Gottes würdig ist, der euch zu seinem Reich und zu seiner Herrlichkeit beruft.^pDarum danken wir Gott unablässig dafür, dass ihr das Wort Gottes, das ihr durch unsere Verkündigung empfangen habt, nicht als Menschenwort, sondern – was es in Wahrheit ist – als Gottes Wort angenommen habt; und jetzt ist es in euch, den Glaubenden, wirksam.",
+            "resp1": "Das Evangelium, das ich verkündigt habe, stammt nicht von Menschen.",
+            "resp2": "Ich habe es nicht von einem Menschen empfangen, sondern durch die Offenbarung Jesu Christi.",
+            "resp3": "Die Wahrheit Christi ist in mir, weil ich euch das Evangelium Gottes verkündigt habe.",
+            "patr_autor": "Konrad Martin (1812–1879)",
+            "patr_werk": "Aus einer Predigt zum Liborifest.",
+            "patr_text": "^hDie Bitte um Bewahrung unseres Glaubens^pGewiss haben wir alle Ursache, dem hl. Liborius unsere Verehrung zu erweisen; denn ist es billig und gerecht, alle Heiligen Gottes zu verehren, um wie viel mehr sollen wir dann den Tribut unserer Verehrung demjenigen darbringen, dessen besonderem Schutze wir anvertraut sind!^pSchon die bloße Pflicht der Dankbarkeit verpflichtet uns dazu. Denn wie reichliche Gnaden und Wohltaten, unter ihnen ganz besonders die Bewahrung des unschätzbaren Gutes unseres hl. Glaubens, verdanken wir nicht ihm, unserem himmlischen Schutzpatron!^pEs gab viele einst blühende, nunmehr völlig verschwundene Kirchen und Diözesen, in denen Gott zuließ, dass der Leuchter ihnen genommen ward. Aber der Stuhl des hl. Liborius, dessen hl. Reliquien unter dem zweiten Bischof der Diözese Paderborn, dem hl. Badurad, hierhergebracht wurden, dieser Stuhl, er steht noch immer unverrückt fest, wie am ersten Tage, wo er vor mehr als tausend Jahren gegründet ward. Er steht noch fest trotz der ungeheuersten Stürme, die im Laufe der Zeit darüber hinweggebraust sind, ohne dass sie den katholischen Glauben, den Grund, worauf er gebaut worden, auch nur im mindesten hätten erschüttern können.^pStatten wir daher dem himmlischen Beschützer unserer Diözese für seinen mächtigen Schutz unseren herzlichsten Dank ab; aber fügen wir demselben heute zugleich eine demütige und fromme Bitte hinzu. Der hl. Liborius hat uns bisher beschützt, dass wir den hl. Glauben bewahrten; bitten wir ihn heute, er möge uns auch die andere noch größere Gnade erflehen, nämlich die Gnade, dass wir nach unserem hl. Glauben leben oder dass unser Glaube selbst ein lebendiger, ein in der Liebe und in guten Werken tatkräftiger sei.^pDies ist das eine Notwendige, im Vergleich zu dem alles andere überflüssig und entbehrlich, klein oder unnützt erscheint. Wie bald wird unser gebrechliches Leben vorübergerauscht sein; und wenn es vorüber ist, was liegt daran, ob ich es hingebracht in Entbehrungen und Leiden oder aber in Freuden und Annehmlichkeiten, in Ehren und Genüssen? Das eine und das andere ist vorüber.^pBittet also den hl. Liborius heute nicht um dasjenige, was klein oder unnütz ist. Wenn ihr ihn aber um die Güter der Erde, um Gesundheit, um Befreiung aus leiblichen Nöten, um Gedeihen eurer zeitlichen Unternehmungen bitten wollt, so bittet um diese Dinge wenigstens mit Ergebung in den Willen Gottes, verbindet hiermit die Bitte um das Größte und Beste, was es gibt, dass ihr nämlich treu bleibet im Glauben und in der hl. Liebe zu Gott, um dereinst dahin zu gelangen, wo ihr mit dem hl. Liborius Gott ewig loben und preisen könnt. Amen.",
+            "patr_resp1": "Durch den Glauben wohne Christus in euren Herzen. In der Liebe verwurzelt und auf sie gegründet, sollt ihr zusammen mit allen Heiligen dazu fähig sein, die Länge und Breite, die Höhe und Tiefe zu ermessen und die Liebe Christi zu verstehen, die alle Erkenntnis übersteigt.",
+            "patr_resp2": "So werdet ihr mehr und mehr von der ganzen Fülle Gottes erfüllt.",
+            "patr_resp3": "Singt Gott in eurem Herzen Psalmen, Hymnen und Lieder wie sie der Geist eingibt, denn ihr seid in Gottes Gnade!"
+          },
+          "Laudes": {
+            "button": "Hl. Liborius",
+            "ant1": "Gott preise in Liborius der Aussätzigen, Blinden und Lahmen Schar, die seine Hilfe gesunden, sehen und gehen ließ.",
+            "ant2": "Während der Himmel den Heiligen aufnahm, kündeten Wunderzeichen seinen seligen Heimgang.",
+            "ant3": "Groß sind die Wunder, die Gott auf die Fürsprache des heiligen Liborius gewirkt hat. Den Herrn wollen wir aus ganzem Herzen preisen.",
+            "les_buch": "Phil",
+            "les_stelle": "4,4-7",
+            "les_text": "Freut euch im Herrn zu jeder Zeit! Noch einmal sage ich: Freut euch! Eure Güte werde allen Menschen bekannt. Der Herr ist nahe. Sorgt euch um nichts, sondern bringt in jeder Lage betend und flehend eure Bitten mit Dank vor Gott! Und der Friede Gottes, der alles Verstehen übersteigt, wird eure Herzen und eure Gedanken in Christus Jesus bewahren.",
+            "resp1": "Das ist der Freund seiner Brüder,",
+            "resp2": "für das Heil seines Volkes tritt er ein vor Gott.",
+            "resp3": "Für seine Brüder gab er das Leben hin.",
+            "antev": "Die Fürsprache des heiligen Liborius erhalte den Liebesbund ewiger Bruderschaft und festige das Band der Einheit und des Friedens.",
+            "bitten_e": "Gepriesen sei Jesus Christus, der den heiligen Liborius erwählt und uns zum Schutzpatron gegeben hat.",
+            "bitten_r": "Herr, dich lobt die Schar der Heiligen.",
+            "bitten": "Wir danken dir für deine Kirche in unserem Land, die sich unter dem Schutz des hl. Liborius ausgebreitet hat;^qsie eine uns in der Lobpreisung und schenke uns Heil.^pWir danken dir für das Licht des Evangeliums, das Liborius unseren Vorfahren geschenkt hat;^qes erleuchte auch unsere Herzen und stärke unseren Glauben.^pWir danken dir für allen Segen, den Liborius durch die Spendung der Sakramente und seine Fürsprache erwirkt hat;^qer komme auch über uns und unsere Arbeit.^pWir danken dir für alle Werke der Liebe, die Liborius in seinem Leben vollbracht und als Auftrag hinterlassen hat;^qsie sollen uns in der Liebe zu unseren Brüdern und Schwestern stärken.^pWir danken dir für den Frieden, den uns Liborius über Jahrhunderte immer wieder fürbittend erwirkt hat;^qer beherrsche auch zu unserer Zeit die Herzen der Mächtigen."
+          },
+          "Vesper": {
+            "ant1": "Liborius gelte der Jubel Frankreichs, das einen solchen Mann hervorgebracht; glücklicher schätze dich, deutsches Land: Sein kostbarer Leib ward dir anvertraut.",
+            "ant2": "Selig, dem beim Hinübergang Martin zur Seite stand; der Himmel selbst rief den Gottesmann.",
+            "ant3": "Du glückliche Stadt an der Pader, in dir erstrahlt heute, den des Himmels Güte Tag für Tag mit Wunderzeichen ziert.",
+            "les_buch": "Eph",
+            "les_stelle": "4,2-6",
+            "les_text": "Seid demütig, friedfertig und geduldig, ertragt einander in Liebe und bemüht euch, die Einheit des Geistes zu wahren durch das Band des Friedens! Ein Leib und ein Geist, wie ihr auch berufen seid zu einer Hoffnung in eurer Berufung: ein Herr, ein Glaube, eine Taufe, ein Gott und Vater aller, der über allem und durch alles und in allem ist.",
+            "resp1": "In eurem Herzen herrsche der Friede Christi:",
+            "resp2": "Dazu seid ihr berufen als Glieder des einen Leibes.",
+            "resp3": "Wo Frieden herrscht, wird von den Friedfertigen die Saat der Gerechtigkeit ausgestreut.",
+            "antev": "Du hast dir den heiligen Liborius als Freund erwählt und uns als Patron geschenkt.",
+            "bitten_e": "Gepriesen sei Jesus Christus, der Gute Hirt, der sein Leben hingegeben hat für die Seinen:",
+            "bitten_r": "Herr, sei du der Hirte deines Volkes.",
+            "bitten": "Du hast die Bischöfe und Gläubigen von Paderborn und Le Mans im Liebesbund ewiger Bruderschaft geeint.^qSchenke unseren Kirchen auch in Zukunft deinen Segen.^pDu hast die Menschen Europas auf die Fürsprache des heiligen Liborius zusammengeführt.^qLass sie nicht müde werden, für die Einheit der Völker Europas einzutreten.^pDu hast die Bitten der Kranken und Notleidenden am Grab des heiligen Liborius erhört.^qLass sie stets auf seine Fürsprache bauen.^pDu hast auf die Fürsprache des heiligen Liborius die Kirche von Paderborn erstarken lassen.^qLass uns Tag für Tag im Glauben, in der Hoffnung und in der Liebe wachsen."
+          },
+          "ErsteV": {
+            "button": "1. Vesper zum Hochfest des hl. Liborius",
+            "ant1": "Liborius gelte der Jubel Frankreichs, das einen solchen Mann hervorgebracht; glücklicher schätze dich, deutsches Land: Sein kostbarer Leib ward dir anvertraut.",
+            "ant2": "Selig, dem beim Hinübergang Martin zur Seite stand; der Himmel selbst rief den Gottesmann.",
+            "ant3": "Du glückliche Stadt an der Pader, in dir erstrahlt heute, den des Himmels Güte Tag für Tag mit Wunderzeichen ziert.",
+            "les_buch": "Eph",
+            "les_stelle": "4,2-6",
+            "les_text": "Seid demütig, friedfertig und geduldig, ertragt einander in Liebe und bemüht euch, die Einheit des Geistes zu wahren durch das Band des Friedens! Ein Leib und ein Geist, wie ihr auch berufen seid zu einer Hoffnung in eurer Berufung: ein Herr, ein Glaube, eine Taufe, ein Gott und Vater aller, der über allem und durch alles und in allem ist.",
+            "resp1": "In eurem Herzen herrsche der Friede Christi:",
+            "resp2": "Dazu seid ihr berufen als Glieder des einen Leibes.",
+            "resp3": "Wo Frieden herrscht, wird von den Friedfertigen die Saat der Gerechtigkeit ausgestreut.",
+            "antev": "Die Größe dieses Heiligen und seine bleibende Fürbitte bewahre uns vor aller Verführung und verbinde uns in der Freude des Himmels.",
+            "bitten_e": "Lasst uns zu Jesus Christus beten, der unter uns weilt und unsere Hoffnung auf Herrlichkeit ist:",
+            "bitten_r": "Herr, gedenke deiner Kirche.",
+            "bitten": "Du hast den hl. Liborius der Kirche von Le Mans als Bischof geschenkt:^qSchenk ihr Wachstum im Glauben, in der Hoffnung und in der Liebe.^pDu hast den hl. Liborius der Kirche von Paderborn als Patron gegeben:^qSchütze unseren Erzbischof, die Weihbischöfe, die Priester, die Diakone, die Ordensleute und alle Gläubigen.^pDu hast den hl. Liborius zum Dienst der Einheit und des Friedens für die Völker bestellt:^qEine die Völker Europas und lass sie hilfreich einstehen für alle Menschen.^pDu hast den hl. Liborius zum Patron und Fürsprecher der Kranken gemacht:^qGib ihnen die Gesundheit des Leibes und der Seele und neue Hoffnung auf Leben.^pDu hast den hl. Liborius in die Schar deiner Heiligen aufgenommen:^qRufe alle Toten und auch uns am Ende unseres Lebens in die Herrlichkeit des Himmels."
+          }
+        }
+      },
+      "8": {
+        "oblig": {
+          "major": {
+            "comm_1": "MärtPl",
+            "oration": "Allmächtiger und barmherziger Gott, durch die Missionsarbeit des heiligen Kilian und seiner Gefährten hast du im fränkischen Land den christlichen Glauben grundgelegt. Auf die Fürsprache dieser Glaubensboten festige uns alle in der Treue zu unserem Herrn Jesus Christus,^ORrV"
+          },
+          "Lesehore": {
+            "patr_autor": "Friedrich Jürgensmeier (1888–1946)",
+            "patr_werk": "Aus seinem Buch „Der mystische Leib Christi“.",
+            "patr_text": "^hDas gläubige Glied der Kirche lebt von der Kirche und für die Kirche^pEs ist ein wunderbares Gesetz übernatürlichen Lebens: Das Heilswerk Christi war das Samenkorn, aus dem alle übrige Heilstat der Glieder hervorwachsen sollte als Frucht, nämlich Frucht des Werkes Christi. Aber jedes Heiligungswerk, jeder übernatürliche Akt des Gliedes am mystischen Leibe ist zugleich auch Samenkorn, das irgendwie und irgendwo im Leben der Communio der Glieder des mystischen Leibes wieder zur Frucht wird. Das Leben und Beten, das Wirken und Leiden der Menschheit Christi wirkten Gnade und Erlösung für die gesamte Menschheit. ^pNachdem die Menschheit Christi zum Haupte des mystischen Leibes erhöht ist und die Frucht ihres Verdienstes empfangen hat, übernimmt jedes auf Erden lebende Glied die Fortsetzung des Heilswerkes Christi. Nicht in einem Neuverdienst der Gnade – die ist ein für alle Mal von Christus verdient –, nicht in einer Neu-Erlösung – die ist ein für alle Mal durch Christus vollzogen –, aber in der Fruchtbarmachung der Gnade der Erlösung; was der einzelne Gläubige in seinem übernatürlichen Leben wirkt, löst Gnade und Frucht aus; das einzelne Glied Christi wirkt ganz in Analogie der Menschheit Christi für die Gesamtheit und die einzelnen Glieder.^pSteht so das aszetische Streben und Leben des lebendigen Gliedes am mystischen Leibe Christi in einer organischen Wechselwirkung vom Leib zum Glied und vom Glied wieder zu dem mystischen Leibe Christi mit seinen Gliedern, so sollte auch die aszetische Haltung dieses Verhältnis anerkennen. ^pGerade das bewusste Glied am mystischen Leibe Christi sieht sich nicht nur als Objekt der Kirche, als ob sie wesentlich Hierarchie wäre, sondern als Subjekt derselben, das in aufbauendem Wirken zu ihrem Leben mitwirkt. Es verdankt zwar die Gesamtheit der Gnade, das ganze übernatürliche Leben der Kirche, ist sich aber auch wieder bewusst, dass es der Kirche auch Leben zurückgeben muss, d. h., dass es Anteil nehmen muss an dem Wachsen der Kirche und deshalb auch an den Sorgen und Aufgaben der Kirche. ^pDas gläubige Glied der Kirche lebt in seinem übernatürlichen Heiligungsstreben von der Kirche, aber es lebt auch für die Kirche. Es ist nicht so, als ob der Gläubige in seinem Heiligungsstreben vollkommen sein könnte, wenn er nur sich sieht und die Interessen oder Bedürfnisse des eigenen Ich, während er von dem Wachsen des Reiches Gottes, dem Ringen und Kämpfen desselben fremd, uninteressiert, als unbeteiligter Dritter abseitsstände.",
+            "patr_resp1": "Wir, die vielen, sind ein Leib in Christus, als Einzelne aber sind wir Glieder.",
+            "patr_resp2": "Jeder von uns empfing die Gnade in dem Maß, wie Christus sie ihm geschenkt hat.",
+            "patr_resp3": "In dem einen Geist wurden wir durch die Taufe alle zu einem einzigen Leib."
+          },
+          "Laudes": {
+            "button": "Hl. Kilian und Gefährten",
+            "farbe": "r",
+            "nominativ": "Der heilige Kilian und seine Gefährten",
+            "genitiv": "des heiligen Kilian und seiner Gefährten"
+          }
+        }
+      },
+      "21": {
+        "oblig": {
+          "Laudes": {
+            "referenz": "AAA-7-22-oblig",
+            "button": "Hl. Maria Magdalena"
+          }
+        }
+      },
+      "22": {
+        "oblig": {
+          "each": {
+            "comm_1": "Kirchw",
+            "oration": "^RUBRIn der Paderborner Kathedrale:^0RUBR^lGroßer und heiliger Gott, jedes Jahr feiern wir den Weihetag dieses heiligen Hauses. Höre auf die Bitten deines Volkes. Hilf uns, dass wir an diesem Ort in rechter Gesinnung den heiligen Dienst vollziehen und den Reichtum der Erlösungsgnade empfangen.^ORV^p^RUBRIn den übrigen Kirchen:^0RUBR^lErhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird.^ORV^ODERAllmächtiger Gott, du hast gewollt, dass dein Volk Kirche heiße, denn wir sind das Haus, in dem deine Herrlichkeit wohnt. Gib, dass die Gläubigen, die sich in deinem Namen versammeln, dich ehren, dich lieben und dir gehorchen damit sie unter deiner Führung das ewige Erbe erlangen.^ORV",
+            "oration_lat": "^RUBRIn Ecclesia cathedrali Fuldensi:^0RUBR^lDeus, qui nobis per síngulos annos huius sancti templi tui consecratiónis réparas diem, exáudi preces pópuli tui, et præsta, ut fiat hic tibi semper purum servítium et nobis plena redémptio.^ORlV^p^RUBRIn aliis ecclesiis:^0RUBR^lDeus, qui de vivis et eléctis lapídibus ætérnum habitáculum tuæ prǽparas maiestáti, multíplica in Ecclésia tua spíritum grátiæ, quem dedísti, ut fidélis tibi pópulus in cæléstis ædificatiónem Ierúsalem semper accréscat.^ORlV^VELDeus, qui pópulum tuum Ecclésiam vocáre dignátus es, da, ut plebs in nómine tuo congregáta te tímeat, te díligat, te sequátur et ad cæléstia promíssa, te ducénte, pervéniat.^ORlV"
+          },
+          "Lesehore": {
+            "patr_autor": "Hugo Aufderbeck (1909–1981)",
+            "patr_werk": "Aus einer Predigt im Dom zu Nordhausen",
+            "patr_text": "^hDer Dom ist Bergung und Richtung, Erhöhung und Sammlung, Begnadigung und Verheißung.^pBergung, Ort der Geborgenheit für den Menschen, der von draußen kommt; der Boden trägt; das Gewölbe schützt; die Säulen stützen; der große Raum lässt frei atmen. – Christus ist der Fels, der nicht wankt; über uns ist Gottes schützende Hand; in unserer Mitte stehen die Apostel, Säulen der Wahrheit; wir sind hineingenommen in den Raum des lebenspendenden Geistes. Wer in diesen Raum eintritt, wird in eine Richtung gedrängt. Unsere Kirchen sind oft nach Osten gerichtet, dorthin, wo die Sonne aufgeht. Hier wird das Wort verkündet, das wie eine helle Lampe leuchtet; hier geht dem wandernden Volk Gottes auf dem Weg durch die Zeit die lebendige Feuersäule voraus, die Sonne der Gerechtigkeit, eine Leuchte, die uns vor Irrlichtern und Irrwegen bewahrt.^pDer Dom ist Bergung für den ungeborgenen und Richtung für den richtungslosen Menschen, Stätte des Verweilens und Ort neuen Aufbruchs.^pIch trete in diesen Dom, ich, ein kleiner Mensch, in diese Halle Gottes. Das ist das Geheimnis des Domes: dass mein Ich in ihm ein Du wird, von Gott gemeint, mit göttlichem Licht angeleuchtet, mit Namen gerufen – wie Maria Magdalena am Ostermorgen von dem göttlichen Gärtner: „Maria“; wie der ungläubige Thomas: „Thomas“. Im Staunen darf ich antworten wie Maria Magdalena: „Rabbuni“, wie Thomas: „Mein Herr und Gott“. Hier werde ich, kleiner Mensch, herausgenommen in die Begegnung mit dem Herrn der Welt, erhoben zu seiner Rechten, beglückt mit seiner Zusage: „Ich mache dich zu einer Säule im Dom meines Gottes; ich werde den Namen meines Gottes und die Stadt meines Gottes auf dich schreiben.“^pDer Dom ist Haus Gottes auf Erden und Tor zum Himmel. Hier wird die Seele mit Gnaden erfüllt und uns ein Unterpfand künftiger Herrlichkeit gegeben.^pAm Altar erleben wir den Atem der Heilsgeschichte. Hier wissen wir uns eins mit Noach, der nach der Sintflut dem Herrn einen Altar erbaute – mit Abraham, der auf einem Berge im Lande Morija einen Altar erbaute – mit Melchisedek, der Brot und Wein darbrachte – mit Mose, der den Altar mit dem Blute eines Lammes besprengte.^pHier wissen wir uns eins mit Christus, der am Altar des Kreuzes auf dem Berge Golgatha sich selbst mit freiem Willen darbrachte und damit alle unvollkommenen Opfer der Menschheit zur Vollendung und zur Erfüllung brachte. Eins wissen wir uns mit den Priestern, die hier inmitten des glaubenden Volkes in ununterbrochener Reihenfolge das eine Opfer Christi gefeiert haben zu seinem Gedächtnis. – Und wir wissen uns eins mit allen Christen kommender Generationen, die das Geheimnis des Glaubens begehen, bis der Herr wiederkommt.",
+            "patr_resp1": "Wie liebenswert ist deine Wohnung, Herr der Heerscharen.",
+            "patr_resp2": "Meine Seele verzehrt sich in Sehnsucht nach dem Haus des Herrn.",
+            "patr_resp3": "Selig, die in deinem Hause wohnen, die dich allezeit loben."
+          },
+          "Laudes": {
+            "button": "Jahrestag der Weihe der Paderborner°Bischofskirche"
+          },
+          "Messe": {
+            "ms_aps_kv": "Kündet den Völkern die Herrlichkeit des Herrn!",
+            "ms_aps_text": "Singet dem HERRN ein neues Lied,^*singt dem HERRN, alle Lande,^psingt dem HERRN, preist seinen Namen!^*Verkündet sein Heil von Tag zu Tag!^KV^PErzählt bei den Nationen von seiner Herrlichkeit,^*bei allen Völkern von seinen Wundern!^pBringt dar dem HERRN, ihr Stämme der Völker,^*bringt dar dem HERRN Ehre und Macht!^KV^PBringt dar dem HERRN die Ehre seines Namens!^*Bringt Gaben und tretet ein in die Höfe seines Heiligtums!^pVerkündet bei den Nationen: Der HERR ist König!^+Fest ist der Erdkreis gegründet, er wird nicht wanken.^*Er richtet die Völker so, wie es recht ist.",
+            "ms_ev_motto": "Ich vermache euch das Reich, wie es mein Vater mir vermacht hat",
+            "ms_ev_text": "In jener Zeit^l^EINZUGentstand unter den Aposteln ein Streit darüber,^l^EINZUGwer von ihnen wohl der Größte sei.^pDa sagte Jesus zu ihnen:^l^EINZUGDie Könige herrschen über ihre Völker^lund die Vollmacht über sie haben, lassen sich Wohltäter nennen.^lBei euch aber soll es nicht so sein,^lsondern der Größte unter euch soll werden wie der Jüngste^l^EINZUGund der Führende soll werden wie der Dienende.^lDenn wer ist größer:^lDer bei Tisch sitzt^l^EINZUGoder der bedient?^lIst es nicht der, der bei Tisch sitzt?^lIch aber bin unter euch wie der, der bedient.^pIhr aber habt in meinen Prüfungen bei mir ausgeharrt.^lDarum vermache ich euch das Reich,^l^EINZUGwie es mein Vater mir vermacht hat:^lIhr sollt in meinem Reich^l^EINZUGan meinem Tisch essen und trinken^lund ihr sollt auf Thronen sitzen^l^EINZUGund die zwölf Stämme Israels richten."
+          }
+        }
+      },
+      "24": {
+        "oblig": {
+          "Laudes": {
+            "referenz": "AAA-7-23-oblig",
+            "button": "Hl. Birgitta von Schweden"
+          }
+        }
+      }
+    },
+    "1": {
+      "21": {
+        "d1": {
+          "major": {
+            "comm_1": "MärtSg",
+            "oration": "Herr, schenke uns in Freude die Erfüllung unserer Gebete; am Jahrestag des Leidens des heiligen Märtyrers Patroklus bitten wir dich; lass uns seine Standhaftigkeit im Glauben erlangen und in der Liebe zu dir wachsen.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "Papst Benedikt XVI. (1927–2022)",
+            "patr_werk": "Aus der Enzyklika Spe salvi.",
+            "patr_text": "‎^hGott kann nicht leiden, aber er kann mitleiden^pLeiden mit dem anderen, für die anderen; leiden um der Wahrheit und der Gerechtigkeit willen; leiden aus Liebe und um ein wahrhaft Liebender zu werden – das sind grundlegende Elemente der Humanität, die abzustreifen den Menschen selbst zerstören würde.^pAber noch einmal erhebt sich die Frage: Können wir das? Ist der andere gewichtig genug, dass ich seinetwegen selbst ein Leidender werde? Ist mir die Wahrheit gewichtig genug, dass sie des Leidens lohnt? Und ist die Verheißung der Liebe so groß, dass sie die Gabe meiner selbst rechtfertigt?^pDem christlichen Glauben kommt in der Geschichte der Humanität gerade diese Bedeutung zu, dass er im Menschen auf neue Weise und in neuer Tiefe die Fähigkeit zu diesen für seine Menschlichkeit entscheidenden Weisen des Leidens entbunden hat. Er hat uns gezeigt, dass Wahrheit, Gerechtigkeit, Liebe nicht bloß Ideale, sondern Wirklichkeit dichtester Art sind. Denn er hat uns gezeigt, dass Gott, die Wahrheit und die Liebe in Person, für uns und mit uns leiden wollte.^pBernhard von Clairvaux hat das großartige Wort geprägt: Impassibilis est Deus, sed non incompassibilis{1#Sermones in Cant., Serm. 26,5} – Gott kann nicht leiden, aber er kann mitleiden. Der Mensch ist Gott so viel wert, dass er selbst Mensch wurde, um mit dem Menschen mit-leiden zu können, ganz real in Fleisch und Blut, wie es uns in der Passionsgeschichte Jesu gezeigt wird. Von da aus ist in alles menschliche Leiden ein Mitleidender, Mittragender hineingetreten; in jedem Leiden ist von da aus die con-solatio, der Trost der mitleidenden Liebe Gottes anwesend und damit der Stern der Hoffnung aufgegangen.^pGewiss, in unseren verschiedenen Leiden und Prüfungen brauchen wir immer auch unsere kleinen oder großen Hoffnungen – auf einen freundlichen Besuch, auf Heilung innerer und äußerer Wunden, auf einen guten Ausgang aus einer Krise usw. In unbedeutenderen Prüfungen mögen diese Typen von Hoffnung auch genügen. Aber in wirklich schweren Prüfungen, in denen ich mich definitiv entscheiden muss, die Wahrheit dem Wohlbefinden, der Karriere, dem Besitz vorzuziehen, wird die Gewissheit der wahren, großen Hoffnung, von der wir gesprochen haben, nötig.^pDeswegen auch brauchen wir die Zeugen, die Märtyrer, die sich ganz gegeben haben, um es uns von ihnen zeigen zu lassen – Tag um Tag. Auch in den kleinen Alternativen des Alltags das Gute der Bequemlichkeit vorzuziehen – wissend, dass wir gerade so das Leben selber leben.^pSagen wir es noch einmal: Die Fähigkeit, um des Wahren willen zu leiden, ist Maß der Humanität. Aber diese Leidensfähigkeit hängt an der Weise und an dem Maß der Hoffnung, die wir in uns tragen und auf die wir bauen. Weil die Heiligen von der großen Hoffnung erfüllt waren, konnten sie den großen Weg des Menschseins gehen, wie ihn uns Christus vorangegangen ist.",
+            "patr_resp1": "Wir sind Erben Gottes und Miterben Christi, wenn wir mit ihm leiden,",
+            "patr_resp2": "um mit ihm auch verherrlicht zu werden.",
+            "patr_resp3": "Denn die Schöpfung wartet sehnsüchtig auf das Offenbarwerden der Söhne Gottes."
+          },
+          "Laudes": {
+            "button": "Hl. Patroklus",
+            "farbe": "r",
+            "nominativ": "Der heilige Patroklus",
+            "genitiv": "des heiligen Patroklus",
+            "vokativ": "Heiliger Patroklus"
+          }
+        }
+      },
+      "23": {
+        "d1": {
+          "major": {
+            "comm_1": "MärtSg",
+            "oration": "Gott, du hast dem seligen Märtyrer Nikolaus die Gnade geschenkt, seine Aufgabe in Familie und Gesellschaft aus christlichem Geist zu erfüllen. Auf dich hoffen auch wir: Mehre unseren Glauben, damit wir in rechter Weise den Anforderungen unserer Berufung entsprechen können.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "Nikolaus Groß (1898–1945)",
+            "patr_werk": "Aus dem Abschiedsbrief an die Familie.",
+            "patr_text": "^hIch spüre, wie es durch das Gebet in mir still und friedlich geworden ist^pEs ist St.-Agnes-Tag, an dem ich diesen Brief schreibe, der, wenn er in Eure Hände kommt, zusammen mit einem anderen Brief, den ich im November schrieb, Euch künden wird, dass der Herr mich gerufen hat. Vor mir stehen Eure Bilder, und ich schaue jedem lange in das vertraute Angesicht. Wie viel hatte ich noch für Euch tun wollen – der Herr hat es anders gefügt. Der Name des Herrn sei gepriesen. Sein Wille soll an uns geschehen. ^pFürchtet nicht, dass angesichts des Todes großer Sturm und Unruhe in mir sei. Ich habe täglich immer wieder um die Kraft und Gnade gebetet, dass der Herr mich und Euch stark mache, alles geduldig und ergeben auf uns zu nehmen, was er für uns bestimmt oder zugelassen. Und ich spüre, wie es durch das Gebet in mir still und friedlich geworden ist.^pMit inniger Liebe und tiefer Dankbarkeit denke ich an Euch zurück. Wie gut ist doch Gott und wie reich hat er mein Leben gemacht. Er gab mir seine Liebe und Gnade, und er gab mir eine herzensliebe Frau und gute Kinder. Bin ich ihm und Euch dafür nicht lebenslangen Dank schuldig? Habt Dank, Ihr Lieben, für alles, was Ihr mir erwiesen. Und verzeiht mir, wenn ich Euch weh tat oder meine Pflicht und Aufgabe an Euch schlecht erfüllte. ^pBesonders Dir, liebe Mutter, muss ich noch danken. Als wir uns vor einigen Tagen für dieses Leben verabschiedeten, da habe ich, in die Zelle zurückgekehrt, Gott aus tiefem Herzen gedankt für Deinen christlichen Starkmut. Durch Deinen tapferen Abschied hast Du ein helles Licht auf meine letzten Lebenstage gegossen. Schöner und glücklicher konnte der Abschluss unserer innigen Liebe nicht sein, als er durch Dein starkmütiges Verhalten geworden ist. Ich weiß: Es hat Dir und mir große Kraft gekostet, aber dass uns der Herr diese Kraft geschenkt, dessen wollen wir dankbar eingedenk sein.^pManchmal habe ich mir in den langen Monaten meiner Haft Gedanken darüber gemacht, was wohl einmal aus Euch werden möge, wenn ich nicht mehr bei Euch sein könnte. Längst habe ich eingesehen, dass Euer Schicksal gar nicht von mir abhängt. Wenn Gott es so will, dass ich nicht mehr bei Euch sein soll, dann hat er auch für Euch eine Hilfe bereit, die ohne mich wirkt. Gott verlässt keinen, der ihm treu ist, und er wird auch Euch nicht verlassen, wenn Ihr Euch an ihn haltet.^pHabt keine Trauer um mich – ich hoffe, dass mich der Herr annimmt. Hat er nicht alles wunderbar gefügt? Er ließ mich in einem Hause, in dem ich auch in der Gefangenschaft manche Liebe und menschliches Mitgefühl empfing. Er gab mir über fünf Monate Zeit – wahrlich eine Gnadenzeit –, mich auf die Heimholung vorzubereiten. ^pJa, er tat viel mehr: Er kam zu mir im Sakrament, oftmals, um bei mir zu sein in allen Stürmen und Nöten, besonders in der letzten Stunde. Alles das hätte ja auch anders sein können. Es war nur ein Kleines dazu nötig, ich brauchte, wie viele andere nach dem Angriff vom 6.10. nur in ein anderes Haus verlegt werden, und ich hätte vieles Entscheidendes nicht empfangen. Muss ich nicht Gottes weise und gnädige Fügung preisen und ihm Dank sagen für seine Güte und väterliche Obhut? ^pSo menschlich schwer und schmerzlich mein frühes Scheiden auch sein mag – Gott hat mir damit gewiss eine große Gnade erwiesen. Darum weinet nicht und habt auch keine Trauer, betet für mich und danket Gott, der mich in Liebe gerufen und heimgeholt hat. Ich habe für jeden von Euch ein Spruch- oder Andachtsbildchen mit einem persönlichen letzten Wort versehen. Möge es jedem eine kleine Erinnerung sein, auch zu der Bitte, mich im Gebet nicht zu vergessen.^pEine große Freude waren mir das Sterbekreuz und der Rosenkranz, den Du, liebe Mutter, mir in die Zelle schicktest. Ich trage das Kreuz Tag und Nacht auf der Brust, und auch der Rosenkranz ist mein ständiger Begleiter. Ich werde Sorge tragen, dass beides in Deine Hände zurückkommt. Auch sie werden Dir Gegenstand lieber Erinnerung sein.^pNun habe ich meine irdischen Angelegenheiten geordnet. Die Tage und die Stunden, dir mir bleiben, will ich ganz dem Gebet hingeben. Gott möge sich meiner armen Seele erbarmen und Euch immerdar mit seinem Segen und seiner Gnade begleiten.^pIn der Liebe Christi, die uns erlöste und unsere ganze Hoffnung ist, segne ich Euch. Gott vergelte Euch, was Ihr mir Liebes und Gutes getan habt. Im Vertrauen auf seine Gnade und Güte hofft auf ein ewiges Wiedersehen in seinem Reiche des Friedens.",
+            "patr_resp1": "Wandelt euch durch ein neues Denken,",
+            "patr_resp2": "damit ihr prüfen und erkennen könnt, was der Wille Gottes ist: was ihm gefällt, was gut und vollkommen ist.",
+            "patr_resp3": "Erneuert euren Geist und Sinn und zieht den neuen Menschen an."
+          },
+          "Laudes": {
+            "button": "Sel. Nikolaus Groß",
+            "farbe": "r",
+            "nominativ": "Der selige Nikolaus",
+            "genitiv": "des seligen Nikolaus",
+            "vokativ": "Seliger Nikolaus"
+          }
+        }
+      },
+      "27": {
+        "d1": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Herr, unser Gott, du hast dem heiligen Bischof Julian den Geist des Rates und der Stärke verliehen, damit er die Kirche von Le Mans leite und im Glauben festige. Erleuchte auch uns, damit wir unsere Aufgabe erkennen und sie in der Kraft deines Geistes erfüllen.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "Paul Simon (1882–1946)",
+            "patr_werk": "Aus einem Vortrag.",
+            "patr_text": "^hKeine Predigt ohne Glaubenserfahrung^pDer Prediger kann nicht verkünden, wenn er nicht selbst glaubt, wenn er den Glauben  nicht erfahren hat. Seine Glaubenserfahrung ist also von äußerster Wichtigkeit, denn sie prägt seine Verkündigung, sie gibt ihr die Wärme oder Kälte, sie gibt ihr die Tiefe oder Oberflächlichkeit, sie gibt ihr die Anschaulichkeit und Wirklichkeitsnähe oder die Abstraktheit und Wirklichkeitsferne. ^pSelbst wenn einer eine Predigt von Bossuet oder Bourdalone auswendig lernt und sie vollendet wie Lacordaire vorträgt, empfängt die Predigt doch ihren Glaubensrhythmus und die geheime göttlich Musik nur durch das Medium des gläubig Vortragenden. Hat der Prediger die Wahrheit und Wirklichkeit des von ihm vorgetragenen Wortes nie erfahren, so fehlt etwas Ausschlaggebendes in seiner Predigt …^pDer Prediger hat es eigentlich nur mit Lebenswahrheiten zu tun. Wenn er von Gott ernsthaft spricht, dann ist das ja für den Menschen die wichtigste Wahrheit, die es überhaupt geben kann, also auch für die Prediger. ^pDenken Sie einen Augenblick, es steht jemand mit einer Waffe vor Ihnen, bereit, Sie sofort zu töten, falls Sie ihm auf seine Fragen nicht im Augenblick die richtige Antwort geben: Er weiß die Antwort, aber Sie müssen sie sagen, und einige wenige Sekunden hängt Ihr Leben davon ab, ob Sie sofort die richtige Antwort finden: Ist nicht die Wahrheit vom Sein Gottes noch viel wichtiger als diese Antwort? ^pUnd dann stellen Sie sich auf die Kanzel oder einen Katheder und beweisen das Dasein Gottes: kühl, unvoreingenommen, voraussetzungslos, wissenschaftlich; wer kann das? Noch zittern wir ob der Größe der Tatsache, und schon sind wir voraussetzungslos? ^pGott ist nicht nur der Gegenstand – wie furchtbar ist dieses Wort – unseres Glaubens; wenn wir ihn glauben, wirklich glauben, dann erfahren wir mehr oder weniger, vielleicht schlicht und dauernd, vielleicht brennend und in besonders von Gott geschenkten Stunden, seine Wahrheit und seine Gegenwart.^pUnd wenn der Prediger von der Inkarnation spricht, so ist das doch die aufregendste Tatsache der menschlichen Geschichte – eine Sensation? Nein, das Wort ist ja viel zu schwach –, es ist eine so aufregende Wahrheit, dass, gemessen an all dem Geschwätz, das die Menschen beschäftigt, eigentlich von nichts anderem mehr die Rede sein könnte; und die Predigt über die Inkarnation, über Tod und Auferstehung Christi trägt die Farbe und innere Musik unserer Erfassung dieser Wahrheit.",
+            "patr_resp1": "Das Evangelium, das ich verkündigt habe, stammt nicht von Menschen.",
+            "patr_resp2": "Ich habe es nicht von einem Menschen empfangen, sondern durch die Offenbarung Jesu Christi.",
+            "patr_resp3": "Die Wahrheit Christi ist in mir, weil ich euch das Evangelium Gottes verkündigt habe."
+          },
+          "Laudes": {
+            "button": "Hl. Julian",
+            "nominativ": "Der heilige Julian",
+            "genitiv": "des heiligen Julian",
+            "vokativ": "Heiliger Julian"
+          }
+        }
+      }
+    },
+    "2": {
+      "9": {
+        "d1": {
+          "major": {
+            "comm_1": "Jgfr",
+            "oration": "Allmächtiger, gütiger Gott, der Glaube an die Gegenwart deines Sohnes im Sakrament des Altares hat die selige Jungfrau Maria Theresia gedrängt, die Nöte der Menschen ihrer Zeit wahrzunehmen und ohne Unterschied allen beizustehen, die ihrer Hilfe bedurften; erfülle auch uns mit dem Geist der Barmherzigkeit, damit wir dir in unseren notleidenden Schwestern und Brüdern dienen.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "Maria Theresia Bonzel (1830–1905)",
+            "patr_werk": "Aus ihren Schriften.",
+            "patr_text": "^hWeisungen über die Nachfolge Jesu Christi^pWir sind fest entschlossen, das Ziel unseres Lebens mit allen Kräften zu suchen. Doch sind wir blind und benötigen einen Führer, der uns sicher führt. Diesen finden wir in unserm Herrn und Heiland Jesus Christus, der uns so liebevoll zu seiner Nachfolge einlädt. Er sagt: „Ich bin der Weg, die Wahrheit und das Leben.“^pEr ist uns in seinem Fleisch den Weg vorangegangen. In seinem Leben finden wir für alle unsere Verhältnisse ein Vorbild. Wenn wir den Weg einhalten, den der göttliche Heiland uns vorausgegangen ist, gelangen wir sicher zum Ziel! Er ist das Vorbild aller Auserwählten. Wollen wir selig werden, müssen wir uns ihm eng anschließen, ihm gleichförmig werden und sein Leben zur Richtschnur des unseren machen. Sagt er ja selbst: „Niemand kommt zum Vater, denn durch mich.“^pLasst uns deshalb eingehen durch die Tür, die da ist Christus, unser Herr. Christus nachfolgen ist billig, es ist leicht, es ist notwendig.^pWie angemessen die Nachfolge ist, verstehen wir, wenn wir bedenken, wie es wohl in der Welt aussähe, wenn der Heiland, der Erlöser, nicht gekommen wäre.^pWelches Elend und welcher Jammer lägen auf uns! Das Leben auf der Welt wäre von Angst geprägt und der Tod erfüllt von Bitterkeit, weil wir keine Hoffnung auf den Himmel hegen könnten. Doch jetzt dürfen wir mit dem hl. Bernhard ausrufen: „O glückliche Schuld, die uns einen solchen Erlöser gebracht hat!“ Durch Jesus Christus ist uns die Bahn geebnet, ihm nachfolgend, stehen uns die Pforten des Himmels offen, und Scharen von Heiligen laden uns zur Nachfolge ein.^pJa, es ist leicht, Jesus nachzufolgen. Sagt er doch selbst: „Nehmet mein Joch auf euch, denn mein Joch ist süß und meine Bürde leicht.“^pDrei Dinge sind es, die mir die Nachfolge Jesu erleichtern, nämlich die innere Ruhe, die Freude und der Friede, womit Jesus schon hier auf Erden alle belohnt, die ihm folgen.",
+            "patr_resp1": "Christus ist der Weg und die Wahrheit und das Leben.",
+            "patr_resp2": "Niemand kommt zum Vater außer durch ihn.",
+            "patr_resp3": "Lasst uns deshalb eingehen durch die Tür, die da ist Christus."
+          },
+          "Laudes": {
+            "button": "Sel. Maria Theresia Bonzel",
+            "nominativ": "Die selige Maria Theresia",
+            "genitiv": "der seligen Maria Theresia",
+            "vokativ": "Selige Maria Theresia"
+          }
+        }
+      }
+    },
+    "4": {
+      "30": {
+        "d1": {
+          "major": {
+            "comm_1": "Jgfr",
+            "oration": "Allmächtiger Gott, du hast uns in der seligen Pauline von Mallinckrodt ein leuchtendes Zeichen deiner Güte gegeben. Entzünde auf ihre Fürsprache auch in uns das Feuer der Liebe, damit wir allezeit dich suchen und den Menschen deine Liebe bezeugen.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "Pauline von Mallinckrodt (1817–1881)",
+            "patr_werk": "Aus ihren Exerzitienaufzeichnungen",
+            "patr_text": "^hDu der Weinstock, ich die Rebe^pLieber Herr, du weißt besser, was mir frommt, als ich; du hast mich ja so lieb, du bist so gütig, bist allweise: Siehe, ich bin die Magd des Herrn, mir geschehe, wie du willst! Wohl, so lass mich denn fortan allzeit so zu dir reden – und mein Wandel soll die Zunge keiner Lüge strafen. Bitte, Herr, hilf du dazu! Gib einzig und allein, was du willst: Gesundheit oder Krankheit, Leben oder Tod, Lob oder Tadel der Menschen, Einsamkeit oder Verkehr mit ihnen, trübe oder heitere Stimmung, Fortschritte der blinden Kinder oder fruchtlose Arbeit, schönes oder ärmliches Lokal für die Anstalten – gib, was du willst! ^pNur eines, Herr, eines, das schlag mir nicht ab: Lass die Anstalten zu deiner höchsten Ehre sein! Lass nicht zu, dass ich verblendet an einem Werk arbeite, das dir missfällt – o, einem solchen Werk gib nimmer Gedeihen! – Aber gefällt es dir, dann lass mich nichts irremachen, Herr!^pVerwickelt sind die Verhältnisse; viele werden mich scharf beurteilen wegen des Arbeitens an einem (konfessionell) gemischten Institut. Herr, lass mir dann dein Urteil genügen! Hilf mir, dass allzeit der redlichste Wille und die richtige Erkenntnis in mir sei! Lass mich mit nachdrücklichem Ernst die Rechte deiner hl. Kirche wahren, aber zugleich mit der wärmsten Liebe gegen den Nächsten erfüllt sein!^pMach mit meinem ganzen Leben, was du willst! Es sei mühselig oder ruhig und angenehm – Herr, das gilt gleich –, wenn ich dir nur gefalle. Alles gereicht dem, der Gott liebt, zum Besten; die ganze Welt ist zu seinem Dienste da … Dir will ich allein dienen, das ist mein Ziel und Ende – zu dir hin soll mich alles Geschaffene geleiten, zu dir hin alles, was mir die Menschen zufügen: Gutes oder Übles. Lehre du mich sein eine Magd des Herrn, lass mir geschehen nach deinem Wort, damit ich meine Bestimmung, die du willst, erreiche!^pIch will dich lieben, Urquell alles Heils, von ganzem Herzen, von ganzer Seele, aus allen meinen Kräften, über alles – und aus Liebe zu dir den Nächsten wie mich selbst. Nur dann wird meine Nächstenliebe probehaltig sein, wenn sie aus dieser Quelle fließt. Wenn ich die Menschen nur um ihrer Talente, ihrer Liebenswürdigkeit willen liebte, das wäre nur natürliche Anhänglichkeit, und sie verdiente den Namen der christlichen Liebe nicht. Aber wie stark muss denn die Nächstenliebe sein? – „Liebet euren Nächsten wie euch selbst“, spricht Jesus. „Liebet ihn, wie ich euch geliebt habe!“ – Er liebte uns bis zum Tode des Kreuzes – also das ist der Maßstab!^pGib, Jesus, dass ich dein Bild in mir auspräge, dass ich nur aus dir und in dir und mit dir und durch dich lebe! Du der Weinstock, ich die Rebe! Hilf, dass meine Gesinnungen, meine Handlungen so den deinen gleichen, dass man gleichsam Christus in mir handeln sieht! Lass mich sein: geduldig wie Jesus, sanftmütig wie Jesus, demütig wie Jesus, liebevoll wie Jesus – denn in der Ähnlichkeit mit Jesus, unserm Vorbild, unserm Bruder, besteht alle Heiligkeit.",
+            "patr_resp1": "Ich bin der Weinstock, ihr seid die Reben.",
+            "patr_resp2": "Wer in mir bleibt und in wem ich bleibe, der bringt reiche Frucht.^Ö",
+            "patr_resp3": "Wie mich der Vater geliebt hat, so habe auch ich euch geliebt. Bleibt in meiner Liebe!"
+          },
+          "Laudes": {
+            "button": "Sel. Pauline von Mallinckrodt",
+            "nominativ": "Die selige Pauline",
+            "genitiv": "der seligen Pauline",
+            "vokativ": "Selige Pauline",
+            "genitiv_lat": "beatæ Paulinæ",
+            "vokativ_lat": "beata Paulina"
+          }
+        }
+      }
+    },
+    "6": {
+      "7": {
+        "d1": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Allmächtiger Gott, gib, dass wir das Gedächtnis des heiligen Bischofs Erkanbert würdig feiern; du hast ihn erwählt, dein Volk mit Wort und Tat zu leiten; lass uns stets die Hilfe seiner Fürsprache erfahren.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "Papst Paul VI. (1897–1978)",
+            "patr_werk": "Aus dem Apostolischen Schreiben Evangelii nuntiandi",
+            "patr_text": "^hEvangelisierung durch das Zeugnis der Treue zu Jesus^pFür die Kirche ist das Zeugnis eines echt christlichen Lebens mit seiner Hingabe an Gott in einer Gemeinschaft, die durch nichts zerstört werden darf, und gleichzeitig mit einer Hingabe an den Nächsten in grenzenloser Einsatzbereitschaft der erste Weg der Evangelisierung. „Der heutige Mensch“, so sagten Wir kürzlich zu einer Gruppe von Laien, „hört lieber auf Zeugen als auf Gelehrte, und wenn er auf Gelehrte hört, dann deshalb, weil sie Zeugen sind.“{1#@Ansprache an die Mitglieder des Laienrates (2.10.1974), in: AAS 66, 1974, 568} Als der heilige Petrus das Bild eines reinen und ehrbaren Lebens zeichnete, brachte er das deutlich zum Ausdruck: „Ohne zu reden, gewannen sie diejenigen, welche sich weigerten, an das Wort zu glauben.“{2#vgl. 1 Petr 3,1}^pDie Evangelisierung der Welt geschieht also vor allem durch das Verhalten, durch das Leben der Kirche, das heißt durch das gelebte Zeugnis der Treue zu Jesus, dem Herrn, durch das gelebte Zeugnis der Armut und inneren Loslösung und der Freiheit gegenüber den Mächten dieser Welt, kurz, der Heiligkeit.^pSodann ist es nicht überflüssig, auf die Bedeutung und Notwendigkeit der Verkündigung hinzuweisen. „Wie sollen sie an den glauben, von dem sie nichts gehört haben? Wie sollen sie hören, wenn niemand verkündet? ... So gründet der Glaube in der Botschaft, die Botschaft im Wort Christi.“{3#Röm 10,14.17} Dieses Gesetz, einst vom Apostel Paulus aufgestellt, behält auch heute noch seine ganze Kraft. Ja, die Verkündigung, diese mündliche Proklamation einer Botschaft, ist nach wie vor unverzichtbar.^pWir wissen sehr wohl, dass der Mensch angesichts der Wortflut in unserer Zeit oft des Hörens müde wird und, schlimmer noch, dem Wort gegenüber abstumpft. Wir kennen auch die Gedanken zahlreicher Psychologen und Soziologen, die behaupten, der moderne Mensch habe die Zivilisation des Wortes, die nun unwirksam und „überflüssig“ geworden sei, hinter sich gelassen und lebe nun in einer Zivilisation des Bildes.^pDas müsste uns gewiss anspornen, die von dieser Zivilisation hervorgebrachten modernen Mittel für die Vermittlung der Botschaft des Evangeliums einzusetzen. Übrigens sind in dieser Richtung schon beachtliche Anstrengungen unternommen worden. Wir können das nur loben und dazu ermutigen, diese Bemühungen noch weiter zu verstärken und zu entfalten.^pDie Müdigkeit, die sich heute angesichts einer solchen Flut leerer Worte und der Aktualität ganz anderer Kommunikationsformen einstellt, darf indes die bleibende Kraft des Wortes nicht schwächen oder das Vertrauen zum Wort verlorengehen lassen. Das Wort bleibt immer aktuell, zumal wenn es die Macht Gottes in sich trägt{4#vgl. 1 Kor 2,1–5}. Darum bleibt auch heute der Grundsatz des hl. Paulus gültig: „Der Glaube gründet in der Botschaft.“{5#Röm 10,17} Es ist also das vernommene Wort, das zum Glauben führt.",
+            "patr_resp1": "Geht hinaus in die ganze Welt und verkündet das Evangelium der ganzen Schöpfung!",
+            "patr_resp2": "Wer glaubt und sich taufen lässt, wird gerettet.^Ö",
+            "patr_resp3": "Wenn jemand nicht aus dem Wasser und dem Geist geboren wird, kann er nicht in das Reich Gottes kommen."
+          },
+          "Laudes": {
+            "button": "Hl. Erkanbert",
+            "nominativ": "Der heilige Erkanbert",
+            "genitiv": "des heiligen Erkanbert",
+            "vokativ": "Heiliger Erkanbert"
+          }
+        }
+      },
+      "12": {
+        "d1": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Herr und Gott, der heilige Papst Leo hat die Anfänge des kirchlichen Lebens in unserem Erzbistum gefestigt. Schütze auch in unserer Zeit die Kirche von Paderborn, und stärke ihre Einheit mit dem Bischof von Rom.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "Franz Stock (1904–1948)",
+            "patr_werk": "Aus einer Ansprache an deutsche Theologen in französischer Kriegsgefangenschaft",
+            "patr_text": "^hDie von Gott gewollte Zahl Heiliger genügt, eine Zeit zu retten.^pWenn ein Erdbeben über eine Stadt kommt, fallen die Kirchtürme mit den Hallen und Häusern. Wenn eine wirtschaftliche und soziale Krise die Welt erschüttert, bleiben davon die Einrichtungen und das Leben der Kirche nicht verschont, die sich ja außerhalb der allgemeinen Geschichte nicht halten kann.^pJe tiefer die Krise, je mehr die Fundamentalwerte der menschlichen Existenz aufgewühlt werden, umso stärker rüttelt sie auch am Korpus der Kirche. Und heute ist vieles am Zergehen, am Bersten, nichts Festes und Sicheres ringsum. Die althergebrachten Meinungen, Werte seligen Angedenkens, schwinden dahin, und die bizarresten Hypothesen finden Glauben.^pUnter diesen Bedingungen wäre es seltsam, dass die inkarnierte und menschliche Kirche eine Oase der Ruhe am Rande der allgemeinen Auflösung bliebe. Wenn das, was in ihr göttlich und ewig ist, unveränderlich bleibt, so sieht man das, was an ihr menschlich ist, hinweggerissen wie in dem rasenden spanischen Tanz der Sarabande.^pUnsere Zeit ist aktivistisch, gereizt, ist erotisch, vertauscht das Geistige mit dem Zeitlichen. Unsere Zeit sieht den Triumph des Hasses, ist anarchistisch, revolutionär, katastrophisch, reiht Ruinen an Ruinen in den Städten wie in den Seelen. Unsere Zeit ist gespaltet, in Nationalismen aufgelöst, die so lächerlich sind wie das alte Bekleidungsstück eines Zuaven. So hat unsere Zeit zwei Pole, der eine zieht uns zur Apostasie hin, der andere zur Heiligkeit, der eine stößt die Kirche zurück, der andere zieht sie an. Es kommt darauf an, Kind seiner Zeit zu sein, die Kirche und die moderne Welt zusammenzubringen.^pDie von Gott gewollte Zahl Heiliger genügt, eine Zeit zu retten. Heilige, die sich selbst dieser Berufung verschreiben und die in Tugenden die Wirksamkeiten unserer Zeit verwandeln. Heilige, die, wenn sie auf die Liebe der Menschen verzichten, wissen, auf was sie verzichten, die durch das Schau- und Beispiel ihres Lebens den Weg der menschlichen Ordnung leben. Heilige, die keine Angst vor Katastrophen noch Revolutionen haben, die aber jede Gelegenheit benutzen und ihr ganzes Sein auf das zweite Kommen des Erlösers ausrichten; Heilige, die die Anhänglichkeit an ihr Vaterland mit der Liebe zur Menschheit in Einklang bringen, über die Grenzen der Nationen, Reiche, Rassen und Klassen.",
+            "patr_resp1": "Bemühe dich um Gerechtigkeit, Frömmigkeit, Glauben, Liebe, Standhaftigkeit und Sanftmut.",
+            "patr_resp2": "Kämpfe den guten Kampf des Glaubens. Ergreife das ewige Leben.^Ö",
+            "patr_resp3": "Ertrage alle Menschen, wie der Herr dich erträgt."
+          },
+          "Laudes": {
+            "button": "Hl. Leo III.",
+            "nominativ": "Der heilige Papst Leo",
+            "genitiv": "des heiligen Papstes Leo",
+            "vokativ": "Heiliger Leo"
+          }
+        }
+      }
+    },
+    "8": {
+      "7": {
+        "d1": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Verborgener Gott, durch das Wirken deines Geistes hast du die Bischöfe Hathumar, Badurad und Meinwerk zu Zeugen des Evangeliums erwählt. Als gute Hirten haben sie Sorge getragen für die Kirche von Paderborn. Lass uns in der Kraft des Geistes ihren Glauben nachahmen und Zeugen dieser Liebe werden.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "Caspar Klein (1865–1941)",
+            "patr_werk": "Aus einem Hirtenbrief anlässlich der Erhebung des Bistums Paderborn zum Erzbistum.",
+            "patr_text": "^hGott ist der Schutz der Kirche^pAller Erfolg in der priesterlichen und oberhirtlichen Tätigkeit hängt von der Gnade Gottes ab; hier gilt der Ausspruch des großen Völkerlehrers: „Weder der, welcher pflanzt, ist etwas noch der, welcher begießt, sondern Gott, der das Gedeihen gibt.“ ^pDer Schlüssel zu den Gnadenschätzen Gottes aber ist das Gebet. „Bittet, und es wird euch gegeben werden.“ Betrachtet es deshalb als eine angenehme Pflicht, euren Oberhirten mit all seinen Anliegen der Liebe Gottes und der Fürbitte der Heiligen vertrauensvoll wieder und wieder zu empfehlen.^pUnterstützet ihn aber nicht bloß durch Gebet, sondern auch durch die Tat! Keine Hand darf müßig ruhen; die eine muss emsig schaffen am inneren Ausbau des Reiches Gottes auf Erden, die andere muss wehren dem Andrang der zahlreichen und hartnäckigen Feinde.^pFalsch ist es, wenn man euch sagt: „Fürchtet euch nicht, unsere Kirche kann nicht untergehen; auf euren Eifer kommt es nicht an; Gott ist ja der Kirche starker Schutz.“ Wenn diese Sprache, geliebte Erzdiözesanen, nicht Verrat an der Kirche ist, so ist sie doch Unwissenheit oder Glaubensschwäche.^pGewiss, die Kirche kann nicht untergehen. Aber könnt ihr nicht untergehen? In jedem einzelnen Lande kann die Kirche untergehen, nur nicht in allen Ländern auf dem ganzen Erdboden zugleich. Wie jeder einzelne Mensch den Glauben verlieren kann, so jedes einzelne Land. Das Wachstum und die Erhaltung der katholischen Kirche ist in jedem einzelnen Lande an den Eifer der Geistlichkeit und des Volkes derart gebunden, dass Gott selbst seinen Schutz versagen würde, wenn dieser Eifer fehlen sollte.^pWollt ihr als Sieger mit der Kirche aus dem Kampfe hervorgehen, so schart euch alle zusammen, ihr Priester und ihr Laien! Lasst euch führen zum heiligen Kampfe! Umgürtet eure Lenden mit der Wahrheit! Ziehet an den Panzer der Gerechtigkeit! Nehmt den Schild des Glaubens! Bekleidet das Haupt mit dem Helme des Heiles und ergreifet das Schwert des Geistes, das ist das Wort Gottes!^pIn der Lebensgeschichte des edlen Grafen Montalembert in Frankreich lesen wir die Worte: „In jenen Tagen, als das Kreuz von den Kuppeln der Pariser Kirchen herabgestürzt, in den Straßen herumgeschleift und unter dem Beifalljauchzen eines verirrten Volkes in die Seine geworfen wurde, damals sammelte ich die Trümmer dieses entweihten Kreuzes in meinem Herzen und schwur, ihm zu dienen und es zu verteidigen. Und was ich damals angelobt, habe ich seitdem gehalten und werde es mit Gottes Hilfe halten mein Leben lang.“^pSammeln auch wir unseren uralten, allein wahren, vielgeschmähten Glauben in unserem Herzen! Umfassen auch wir unsere vielgelästerte und verfolgte katholische Kirche mit inniger Liebe; schwören auch wir, ihr ewig treu zu bleiben und sie zu verteidigen, bis unser Herz stille steht im Tode!",
+            "patr_resp1": "Christus hat die Kirche geliebt und sich für sie hingegeben.",
+            "patr_resp2": "Sagt Gott dem Vater allezeit Dank im Namen unseres Herrn Jesus Christus.",
+            "patr_resp3": "Selig das Volk, dessen Gott der Herr ist."
+          },
+          "Laudes": {
+            "button": "Hl. Hathumar und hl. Badurad und sel. Meinwerk",
+            "genitiv": "der heiligen Hathumar und Badurad und des seligen Meinwerk"
+          }
+        }
+      }
+    },
+    "9": {
+      "4": {
+        "d1": {
+          "major": {
+            "comm_1": "Frau",
+            "oration": "Vater im Himmel, du hast uns die heilige Ida zur Fürsprecherin gegeben. Als Frau und Mutter war sie ihrer Familie Vorbild im Glauben, als Witwe gab sie ein Beispiel der Frömmigkeit und Nächstenliebe. Gib auch uns die Kraft, dir in unserem Stand und Beruf treu zu dienen.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "Friedrich Normann (1924–1983)",
+            "patr_werk": "Aus einem aszetischen Beitrag.",
+            "patr_text": "^hHeilige haben das stärkere Sündenbewusstsein^pEs bleibt eine letzte, jedoch wesentliche Frage. Ist denn das eine gültige, menschenwürdige Darstellung christlichen Lebens? Sich dauernd vor Gott ducken zu müssen, weil man in uns ein erbärmliches Schuldbewusstsein züchtet? Übt die Kirche so nicht eine unheimliche Macht aus über das menschliche Gewissen? Lebt sie vielleicht nur von der Sündenangst?^pDie Antwort wissen die Heiligen. Sie ist ablesbar an ihrem Leben. Je lebendiger ihr Kontakt mit Gott wurde, umso größer wurde er für sie, aber auch umso herrlicher, umso liebenswerter.^pJe tiefer sie sich freuten an seiner Lebensfülle, umso mehr auch erfuhren sie ihre eigene Unzulänglichkeit. Darum haben die Heiligen auch das stärkere Sündenbewusstsein, nicht etwa die Schwerverbrecher, die Gott kaum kennen, oder die gedankenlosen Menschen, welche „die Sünde trinken wie Wasser“. Je mehr ich Gott erlebe, umso mehr muss mich alles schmerzen, was mich von ihm trennt.^pSolches Leid wird mich dann nicht niederknüppeln, es soll mir vielmehr einen Aufschwung geben zur Bekehrung. Unser Glück besteht darin, dass Gott uns „trotzdem liebt“. Er ist in Jesus Christus sogar mit unwiderruflicher Liebe auf mich zugekommen, er ist allezeit offen für mich geworden. Wenn ich mich „berge in seinen Wunden“, bleibt mein Leben nicht steril, vielmehr sind dann auch meine Werke fruchtbar, „denn sie sind in Gott getan“.",
+            "patr_resp1": "Alle haben gesündigt und die Herrlichkeit Gottes verloren.",
+            "patr_resp2": "Ohne es verdient zu haben, werden sie gerecht durch die Erlösung in Christus Jesus.",
+            "patr_resp3": "Ihn hat Gott dazu bestimmt, Sühne zu leisten mit seinem Blut."
+          },
+          "Laudes": {
+            "button": "Hl. Ida von Herzfeld",
+            "genitiv": "der heiligen Ida"
+          }
+        }
+      },
+      "25": {
+        "d1": {
+          "major": {
+            "comm_1": "Mann_Ord",
+            "oration": "Gott, in deiner unaussprechlichen Barmherzigkeit hat der heiligen Adalhard den unergründlichen Reichtum der Liebe Christi verkündet; lass uns auf seine Fürsprache in deiner Erkenntnis wachsen, Frucht bringen in guten Werken und in der Wahrheit des Evangeliums treu vor dir wandeln.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "Benedikt von Nursia († 547)",
+            "patr_werk": "Aus dem Prolog der Benediktusregel.",
+            "patr_text": "^hNeige das Ohr deines Herzens^pHöre, mein Sohn, auf die Weisung des Meisters, neige das Ohr deines Herzens, nimm den Zuspruch des gütigen Vaters willig an und erfülle ihn durch die Tat! So kehrst du durch die Mühe des Gehorsams zu dem zurück, den du durch die Trägheit des Ungehorsams verlassen hast. An dich also richte ich jetzt mein Wort, wer immer du bist, wenn du nur dem Eigenwillen widersagst, für Christus, den Herrn und wahren König, kämpfen willst und den starken und glänzenden Schild des Gehorsams ergreifst.^pVor allem: wenn du etwas Gutes beginnst, bestürme ihn beharrlich im Gebet, er möge es vollenden. Dann muss er, der uns jetzt zu seinen Söhnen zählt, einst nicht über unser böses Tun traurig sein. Weil er Gutes in uns wirkt, müssen wir ihm jederzeit gehorchen; dann wird er uns einst nicht enterben wie ein erzürnter Vater seine Söhne; er wird auch nicht wie ein furchterregender Herr über unsere Bosheit ergrimmt sein und uns wie verkommene Knechte der ewigen Strafe preisgeben, da wir ihm in die Herrlichkeit nicht folgen wollten.^pStehen wir also endlich einmal auf! Die Schrift rüttelt uns wach und ruft: „Die Stunde ist da, vom Schlaf aufzustehen.“{1#Röm 13,11} Öffnen wir unsere Augen dem göttlichen Licht, und hören wir mit aufgeschrecktem Ohr, wozu uns die Stimme Gottes täglich mahnt und aufruft: „Heute, wenn ihr seine Stimme hört, verhärtet eure Herzen nicht!“{2#Ps 95,8} Und wiederum: „Wer Ohren hat zu hören, der höre, was der Geist den Gemeinden sagt!“{3#Offb 2,7}^pUnd was sagt er? „Kommt, ihr Söhne, hört auf mich! Die Furcht des Herrn will ich euch lehren. Lauft, solange ihr das Licht des Lebens habt, damit die Schatten des Todes euch nicht überwältigen.“{4#Ps 34,12; Joh 12,35}^pUnd der Herr sucht in der Volksmenge, der er dies zuruft, einen Arbeiter für sich und sagt wieder: „Wer ist der Mensch, der das Leben liebt und gute Tage zu sehen wünscht?“{5#Ps 34,13} Wenn du das hörst und antwortest: „Ich“, dann sagt Gott zu dir: „Willst du wahres und unvergängliches Leben, bewahre deine Zunge vor Bösem und deine Lippen vor falscher Rede! Wende dich ab vom Bösen und tu das Gute; suche den Frieden und jage ihm nach! Wenn ihr das tut, blicken meine Augen auf euch, und meine Ohren hören auf eure Gebete; und noch bevor ihr zu mir ruft, sage ich euch: Seht, ich bin da.“{6#vgl. Ps 34,14.16; Jes 65,24; Jes 58,9}^pLiebe Brüder, was kann beglückender für uns sein als dieses Wort des Herrn, der uns einlädt? Seht, in seiner Güte zeigt uns der Herr den Weg des Lebens.{7#vgl. Ps 16,11.}",
+            "patr_resp1": "Ihr seid Licht im Herrn. Lebt als Kinder des Lichts!",
+            "patr_resp2": "Das Licht bringt lauter Güte, Gerechtigkeit und Wahrheit hervor.",
+            "patr_resp3": "Ihr seid das Licht der Welt. Euer Licht soll vor den Menschen leuchten."
+          },
+          "Laudes": {
+            "button": "Hl. Adalbert von Corvey"
+          }
+        }
+      }
+    },
+    "11": {
+      "7": {
+        "d1": {
+          "major": {
+            "comm_1": "MärtSg",
+            "comm_2": "Hirten",
+            "oration": "Gott, du Hoffnung der Schwachen, zu deiner Ehre hat der heilige Bischof Engelbert sein Leben eingesetzt, um die Unterdrückten zu schützen. Gewähre allen, die seine Hilfe erflehen, dass sie die Macht seiner Fürsprache erfahren.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "Augustinus (354–430)",
+            "patr_werk": "Aus dem Psalmenkommentar.",
+            "patr_text": "^hUnsere Mühe ist vergeblich, wenn er nicht wacht^p„Der Herr baut sein Haus“: Der Herr Jesus Christus baut sein Haus. Viele mühen sich bei diesem Bauen ab, aber „wenn nicht der Herr das Haus baut, müht sich jeder umsonst, der daran baut“.^pWer sind jene, die unter Mühen bauen? Es sind alle, die in der Kirche das Wort Gottes verkünden, die Diener der Geheimnisse Gottes. Wir also reden außen, er baut innen. Wir merken, wie ihr zuhört; aber was ihr denkt, weiß er allein, der eure Gedanken sieht. Er ist es, der baut, der ermahnt, der aufschreckt, der die Einsicht auftut, der euer Verständnis dem Glauben anpasst. Und doch arbeiten auch wir wie Werkleute; aber „wenn nicht der Herr das Haus baut, müht sich jeder umsonst, der daran baut“.^pWie die Kirche ihre Bauleute hat, so hat sie auch ihre Wächter. Dazu sind die Bischöfe da. Und darum ist der Platz der Bischöfe erhöht, damit sie einen Überblick haben und gleichsam über dem Volke wachen. Denn das griechische Wort „Episkopos“ bedeutet in unserer Sprache „Aufseher“.^pUnd über diesen erhöhten Platz wird eine gefährliche Rechenschaft gefordert, wenn wir nicht mit solchem Herzen hier stehen, dass wir in Demut euch zu Füßen sind und für euch beten, dass er, der eure Seelen kennt, selbst die Wache übernehme. Denn wir können euch nur herein- und hinausgehen sehen, aber was ihr in eurem Herzen denkt, das wissen wir so wenig, wie wir auch nicht sehen können, was ihr in euren Häusern tut. Wie also halten wir Wache? Nach Art von Menschen: so gut wir es können und soweit wir es empfangen haben.^pDa wir also nur auf Menschenweise Aufsicht halten, vollkommene Wache aber nicht halten können – bleibt ihr deshalb ohne Aufsicht? Keineswegs! Denn wo ist der, von dem es heißt: „Wenn nicht der Herr die Stadt bewacht, wacht der Wächter umsonst“? Wir bemühen uns, Aufsicht zu halten, aber unser Bemühen ist umsonst, wenn nicht er die Aufsicht führt, der eure Gedanken kennt. Er hält Wache, wenn ihr wach seid; er hält auch Wache, wenn ihr schlaft.^pWir wachen über euch gemäß unserem Amt der Ausspendung; aber wir möchten mit euch zusammen behütet werden. Wir sind eure Hirten, aber unter jenem Hirten sind wir mit euch zusammen Schafe. Wir sind für euch von diesem Platz der Lehrer, aber unter dem einen Lehrer sind wir in dieser Schule mit euch zusammen Schüler.",
+            "patr_resp1": "Komm zum Herrn, dem lebendigen Stein.",
+            "patr_resp2": "Lasst euch als lebendige Steine aufbauen zu einem geistigen Haus, zu einer heiligen Priesterschaft, um durch Jesus Christus geistige Opfer darzubringen, die Gott gefallen.",
+            "patr_resp3": "Dies ist der Stein, der zum Eckstein geworden ist."
+          },
+          "Laudes": {
+            "button": "Hl. Engelbert",
+            "farbe": "r",
+            "nominativ": "Der heilige Engelbert",
+            "genitiv": "des heiligen Engelbert",
+            "vokativ": "Heiliger Engelbert"
+          }
+        }
+      },
+      "25": {
+        "d1": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Gott, unser Vater, du Ursprung alles Guten, dem seligen Bischof Niels Stensen hast du die Gnade geschenkt, deine wunderbare Weisheit in der Schöpfung zu erkennen und von der Hingabe deines Sohnes am Kreuz ganz erfüllt zu werden. Hilf uns auf seine Fürsprache, dass wir in unserer irdischen Pilgerschaft Christus, unserem einzigen Hirten, folgen und in der ewigen Vollendung dein Angesicht schauen dürfen.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "Niels Stensen (1638–1686)",
+            "patr_werk": "Aus der Schrift „Hirtenpflicht“.",
+            "patr_text": "^hDie Liebe zu jedem Menschen^pDie Worte Christi, womit er den hl. Petrus nach der Auferstehung das letzte Mal anspricht, betonen ganz klar die individuelle Seelsorge, wenn er ihn fragt, ob er ihn liebe, und dann hinzufügt: Weide meine Schafe. Ferner: Folge mir nach.^pDaraus ersieht man nicht bloß das Werk des Weidens selbst, sondern auch das Motiv zum Handeln, die Liebe, und die Art und Weise des Werkes, das Beispiel Christi.^pWas anders heißt es denn, Jesus zu lieben, als ihm alles Gute wollen, was er sich selbst wünscht? Was anders aber wünscht sich Jesus als das Heil der einzelnen sowohl als aller Seelen, wenn er jene Sorge seine Speise nennt und bezeugt, in der Absicht gekommen zu sein, um dieser einzigen Ursache willen Armut, Schmähungen, Schmerzen und den Tod zu erleiden?^pWenn wir ihn also lieben, müssen auch wir diesen Willen anziehen. Die beiden Sätze hängen also gegenseitig voneinander ab: „Wenn du mich liebst, weide meine Schafe“, das heißt: „Wenn du mich liebst, liebe auch die, die ich geliebt habe, und liebe sie in derselben Ordnung wie ich. Ich aber habe nach meinem Vater nichts so geliebt wie meine Schafe.^pIch habe ihnen meine Liebe ja nicht bloß durch die natürlichen Gnaden bewiesen, indem ich sie schuf und sie erhalte, sondern auch durch die übernatürlichen Gnaden, indem ich sie von jeder Befleckung der Sünde reinigte, sie mit aller Wissenschaft und aller Tugend erfüllte und sie bis ans Ende erhalte.^pWenn du mich also ebenso nach den dir gewährten oder noch zu gewährenden Kräften liebst, dann wirke dahin, dass den einzelnen dir anvertrauten Seelen die Tugend der Gerechtigkeit beständig zufließe, indem du an ihnen die Werke der leiblichen und geistigen Barmherzigkeit übst. Und zwar nicht bloß an den Reichen oder Mächtigen oder den dir durch Bande der Freundschaft Verbundenen, sondern auch am armseligsten Bettler, ja auch an den Feinden. Ich verkehrte ja auch selbst mit den Armen und Sündern, und selbst unter meinen Kreuzigern fand ich solche, die ich retten konnte.^pWenn du die Methode wissen willst, dann sieh auf mich. „Folge mir nach.“ Ich habe ja selbst alle Orte durchwandert, spendete allen Wohltaten, predigte vielen auf dem Berge, vom Schiffe, im Tempel, in der Synagoge und bei Gastmählern.^pIch predigte auch den Einzelnen persönlich: dem Zachäus, indem ich mich überdies bei ihm einlud, Maria Magdalene, die zu meinen Füßen saß, dem Nikodemus zu nächtlicher Zeit, der Samaritanerin, die ich zur Mittagszeit aufsuchte, dem Andreas und seinem Begleiter, die mich den ganzen Tag fragten, dem Räuber am Kreuz, verschiedenen Menschen an verschiedenen Orten und zu verschiedenen Zeiten, persönlich oder durch Entsendung meiner Schüler, damit die Wahrheit allen kundgetan werde.^pIch lehrte die Freunde, ich lehrte die Feinde, die Verfolger, den Verräter und meine Mörder. Ich habe niemanden gescheut, bin bis zum Kreuze vor keiner Todesgefahr geflohen, ja habe selbst am Kreuz bis zum Tode das Werk des Weidens fortgesetzt.“^pWer immer also einen Teil der Gottesherde anvertraut erhielt und sie annahm, muss Christus nachahmen, der die Einzelnen kannte und von den Einzelnen gekannt war und bereit, für jeden sein eigenes Leben einzusetzen und jedenfalls für alle eifrige Sorge zu tragen.",
+            "patr_resp1": "Weidet die Herde Gottes bei euch, aber nicht, weil ihr dazu gezwungen seid, sondern freiwillig,",
+            "patr_resp2": "wie Gott es will.",
+            "patr_resp3": "Wenn dann der höchste Hirte erscheint, werdet ihr den nie verwelkenden Kranz der Herrlichkeit empfangen,"
+          },
+          "Laudes": {
+            "button": "Sel. Niels Stensen",
+            "nominativ": "Der selige Nils Stensen",
+            "genitiv": "des seligen Nils Stensen",
+            "vokativ": "Seliger Nils Stensen"
+          }
+        }
+      }
+    },
+    "12": {
+      "4": {
+        "d1": {
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Gott, unser Vater, du hast den seligen Adolph Kolping vom Handwerker zum Priester berufen, um durch ihn jungen Menschen in ihrer religiösen und sozialen Not zu helfen. Auf seine Fürsprache gib uns Einsicht in die Nöte unserer Zeit und schenke uns Kraft, sie zu überwinden.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "Adolph Kolping (1813–1865)",
+            "patr_werk": "Aus einer Predigt zum Neujahrstag",
+            "patr_text": "^hDer Glaube an Gott und an die Menschen^pDie Menschen sind überhaupt nicht so schlecht, als man sie sich gern vormacht. Greift sie nur mal mit einer wahrhaft christlichen Hand an, ihr werdet von eurem Irrtum bald überzeugt sein. Wir haben das vielfach erfahren im Leben, erfahren es noch alle Tage, und während bei anderen Menschen der Glaube an die Menschen zu sinken scheint, sehen wir ihn, Gott sei Dank, wachsen.^pJa, wir glauben noch an die Menschen, besonders glauben wir noch an unsere arbeitende Jugend, trotz ihrer Fehler, trotz ihrer jeweiligen Verkommenheit, trotz der Verführung der Zeit. Und weil wir daran glauben, lässt es uns keine Ruhe, dafür zu wirken.^pWir glauben aber auch noch an mehr als an die Menschen, wir glauben auch an Gott, und weil wir daran glauben, weil wir das Christentum als tätiges Leben, als Wirken zum Heile verstehen, deshalb verlassen wir uns nicht auf uns, sondern auf die siegende Kraft des Christentums und halten es für eine Pflicht, dieser Gotteskraft dienstbar zu sein. Und weil so manches faul ist in dieser Welt, weil so vieles gebrochen und zerrissen ist im gesellschaftlichen Leben, deswegen wäre es für uns, die wir ans Christentum wirklich glauben, wahrlich Verrat an der Sache, wenn wir gerade jetzt nicht alle Kräfte anspannten, die eigenen und die gleichem Zwecke dienenden fremden, zu bessern und zu retten, was sich retten lässt.^pEs ist keine Zeit, zu feiern, zuzuschauen, gewähren zu lassen, bloß zu jammern und zu klagen, sondern es ist Zeit zu handeln, Zeit zu wirken, und zwar für jeden ohne Unterschied, wie es ihm nach Maßgabe seiner Kräfte und Mittel nur möglich ist. Da handelt es sich nicht darum, ob man alles kann, sondern ob man irgendetwas Ersprießliches zu leisten vermag, und kann man allein nichts, dann doch gewiss im Verein mit anderen.^pDas ist kein rechter Christ, der sich dieser gemeinsamen Tätigkeit entzieht, kein rechter Christ, der sich nicht gern und willig gemeinsamem Wirken anschließt und helfend schafft. Diejenigen, welche an Gott glauben, müssen dadurch auch an die Menschen glauben, und welche das Christentum lebendig glauben, müssen in seinem Geiste schaffen.",
+            "patr_resp1": "Wohl dem Mann, der gütig und zum Helfen bereit ist.",
+            "patr_resp2": "Er ordnet das Seine, wie es recht ist.",
+            "patr_resp3": "Niemals gerät er ins Wanken; ewig denkt man an den Gerechten."
+          },
+          "Laudes": {
+            "button": "Sel. Adolph Kolping",
+            "nominativ": "Der selige Adolph Kolping",
+            "genitiv": "des seligen Adolph Kolping",
+            "vokativ": "Seliger Adolph Kolping"
+          }
+        }
+      },
+      "16": {
+        "d1": {
+          "major": {
+            "comm_1": "Mann_Ord",
+            "oration": "Herr und Gott, durch das Wirken des heiligen Abtes Sturmius hast du unsere Heimat zum Glauben berufen. Lass seine Fürsprache, die er sterbend seinen Brüdern zugesagt hat, auch uns zugutekommen, damit unser Glaube zunehme und fruchtbar werde in der Liebe.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "Eigil († 822)",
+            "patr_werk": "Aus der Lebensbeschreibung des heiligen Sturmius.",
+            "patr_text": "^hDie Gründung des Klosters Fulda^pDer heilige Sturmius nahm sieben Brüder mit sich und wanderte an den Ort, wo jetzt das heilige Kloster gelegen ist. Und im 744. Jahr der Menschwerdung Christi, am 12. März, betrat er den heiligen und von Gott schon lange vorherbestimmten Ort. Den Herrn Christus flehten sie an, er möge ihn immer beschützen und mit seiner unbesiegbaren Macht verteidigen. Sie dienten dem Herrn mit heiligen Psalmengesängen, Fasten, Wachen und Gebeten Tag und Nacht, bemühten sich aber auch, mit eigener Arbeit, soweit sie konnten, den Wald zu roden und den Ort zu reinigen.^pNachdem zwei Monate verflossen waren, kam der verehrungswürdige Erzbischof Bonifatius mit einer großen Schar von Leuten zu ihnen. Als er alle Vorteile dieses Ortes sah und den unermesslichen Nutzen erkannte, jubelte er im Heiligen Geist und brachte Christus Dank und Lob dar, dass er seinen Knechten eine solche Stätte in der Wildnis zu gewähren sich würdigte. Den Leuten aber, die mit ihm gekommen waren, befahl er, an der Stelle, wo es ihm und zusammen mit ihm den Knechten Gottes gut erschien, eine Kirche zu errichten, den Wald und alles Gesträuch abzuhauen.^pIm nächsten Jahr jedoch eilte der heilige Bischof erneut dorthin und kam zu seinem neuen Kloster, das man schon damals nach dem Fluss „Fulda“ zu nennen begonnen hatte. Er sah und begrüßte die Brüder und verbrachte mehrere Tage bei ihnen, in denen er seine neuen Mönche zu unterweisen suchte. Nicht lange danach, nach einem geheimen Gespräch mit Sturmius, in dem er ihn darüber belehrte, wie er den anderen vorstehen müsse, reiste er von dort ab. In dieser Weise pflegte sie der Bischof oft zu besuchen.^pDa nun die Brüder begierig darauf waren, die Regel des heiligen Vaters Benedikt zu beobachten, fassten sie den heilsamen Entschluss, dass einige von ihnen in große Klöster anderswo geschickt werden sollten, um die Übereinkunft und das reguläre Leben der Brüder dort genau kennenzulernen.^pAls dies dem heiligen Bischof kundgetan wurde, lobte er klug ihren Entschluss und beauftragte mit dieser Gesandtschaft den eifrigen Sturmius. Nach den notwendigen Reisevorbereitungen fuhr dieser in Begleitung von zwei Brüdern nach Rom.^pEr besuchte in jenem Land alle Klöster und lernte das Leben der dort wohnenden Brüder und die Überlieferungen der Klöster gründlich kennen. Ein ganzes Jahr hielt er sich in jenen Mönchsgemeinschaften auf und kehrte im zweiten Jahr, erfüllt von den Tugenden, die er gesehen hatte, von dort zurück und zog weiter zum Bischof Bonifatius.^pDer Bischof freute sich sehr, als er ihn sah, und dankte dem Herrn für seine Ankunft. Und als er erkannte, wie klug er die Ordnungen der Mönche darlegte, meinte er: „Geh und richte das neue Kloster Fulda so weit wie möglich nach dem Vorbild jener Mönche ein, deren Leben du dir angesehen hast.“^pSogleich begab sich der selige Mann Sturmius, nachdem er den Bischof um sein Gebet ersucht hatte, in die Wildnis und gelangte dort am vierten Tag an, voll Dankbarkeit, seine Brüder wiederzusehen. Was er in Italien und in den Klöstern der Provinz Tuszien von den heiligen Vätern gelernt hatte, legte er ihnen in klugen Worten dar und zeigte es beispielhaft an sich selbst. Denn in jeder Regelung, die er den Brüdern vorlegte, war er bestrebt, zunächst sich selbst zu üben, damit nicht einer über ihn sagen konnte: Warum tust du nicht selbst, was du lehrst?^pDamals herrschte unter den Brüdern ein ungeheures Verlangen, allem, was ihnen gesagt und durch das Beispiel der Heiligen gezeigt war, mit ganzer Hingabe zu entsprechen; die Regel des heiligen Benedikt, die sie zu erfüllen gelobt hatten, beobachteten sie in allem.",
+            "patr_resp1": "Herr, umschirme diese Stadt und lass deine Engel ihre Mauern bewachen.",
+            "patr_resp2": "Erhöre dein Volk in deinem Erbarmen.",
+            "patr_resp3": "Herr, wende deinen Zorn ab von deinem Volk und von deiner heiligen Stadt."
+          },
+          "Laudes": {
+            "button": "Hl. Sturmius"
+          }
+        }
+      }
+    }
+  },
   "Aachen": {
     "99": {
       "1": {
@@ -15323,20 +15853,6 @@ export const calendarData: CalendarData = {
           },
           "Laudes": {
             "button": "Test Osnabrück"
-          }
-        }
-      }
-    }
-  },
-  "Paderborn": {
-    "99": {
-      "1": {
-        "d1": {
-          "major": {
-            "oration": "Test Paderborn"
-          },
-          "Laudes": {
-            "button": "Test Paderborn"
           }
         }
       }

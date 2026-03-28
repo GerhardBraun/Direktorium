@@ -269,7 +269,7 @@ function getPrayerTexts(brevierData, personalData, date, calendarDate = 0) {   /
         // 1er-Stelle gibt den Wochentag an:
         // 40=So: Dreif., 41=Mo: Pfingstmontag/Mutter der Kirche,
         // 44=Do: Fronleichnam, 45=Fr: Herz-Jesu-Fest, 46=Sa: Unbefl. Herz Mariae
-        if (afterPentecost) {
+        if (afterPentecost > 2) {
             processCalendar(hours, yearABC, season, 5, afterPentecost, 'wt');
 
             // Sonderfall: MaterEcclesiae bzw. Herz Mariae und gebotener Gedenktag
