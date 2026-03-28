@@ -14848,10 +14848,12 @@
         "oblig": {
           "each": {
             "comm_1": "Hirten",
-            "oration": "Gott, du Herr aller Völker, du hast den heiligen Liborius der Kirche von Le Mans als Bischof und der Kirche von Paderborn als Patron gegeben. Hilf uns, auf seine Fürsprache die Einheit der Kirche zu wahren und alle Uneinigkeit zwischen den Völkern zu überwinden.^ORV"
+            "oration": "Gott, du Herr aller Völker, du hast den heiligen Liborius der Kirche von Le Mans als Bischof und der Kirche von Paderborn als Patron gegeben. Hilf uns, auf seine Fürsprache die Einheit der Kirche zu wahren und alle Uneinigkeit zwischen den Völkern zu überwinden.^ORV",
+            "oration_lat": ""
           },
           "Invitatorium": {},
           "Lesehore": {
+            "hymn_1": 8723.1,
             "versikel0": "",
             "versikel1": "",
             "les_buch": "Aus dem ersten Brief des Apostels Paulus an die Gemeinde in Thessaloniki.",
@@ -14869,6 +14871,7 @@
           },
           "Laudes": {
             "button": "Hl. Liborius",
+            "hymn_1": 8723.2,
             "ant1": "Gott preise in Liborius der Aussätzigen, Blinden und Lahmen Schar, die seine Hilfe gesunden, sehen und gehen ließ.",
             "ant2": "Während der Himmel den Heiligen aufnahm, kündeten Wunderzeichen seinen seligen Heimgang.",
             "ant3": "Groß sind die Wunder, die Gott auf die Fürsprache des heiligen Liborius gewirkt hat. Den Herrn wollen wir aus ganzem Herzen preisen.",
@@ -14884,6 +14887,8 @@
             "bitten": "Wir danken dir für deine Kirche in unserem Land, die sich unter dem Schutz des hl. Liborius ausgebreitet hat;^qsie eine uns in der Lobpreisung und schenke uns Heil.^pWir danken dir für das Licht des Evangeliums, das Liborius unseren Vorfahren geschenkt hat;^qes erleuchte auch unsere Herzen und stärke unseren Glauben.^pWir danken dir für allen Segen, den Liborius durch die Spendung der Sakramente und seine Fürsprache erwirkt hat;^qer komme auch über uns und unsere Arbeit.^pWir danken dir für alle Werke der Liebe, die Liborius in seinem Leben vollbracht und als Auftrag hinterlassen hat;^qsie sollen uns in der Liebe zu unseren Brüdern und Schwestern stärken.^pWir danken dir für den Frieden, den uns Liborius über Jahrhunderte immer wieder fürbittend erwirkt hat;^qer beherrsche auch zu unserer Zeit die Herzen der Mächtigen."
           },
           "Vesper": {
+            "hymn_1": 8723.4,
+            "hymn_2": 8723.403,
             "ant1": "Liborius gelte der Jubel Frankreichs, das einen solchen Mann hervorgebracht; glücklicher schätze dich, deutsches Land: Sein kostbarer Leib ward dir anvertraut.",
             "ant2": "Selig, dem beim Hinübergang Martin zur Seite stand; der Himmel selbst rief den Gottesmann.",
             "ant3": "Du glückliche Stadt an der Pader, in dir erstrahlt heute, den des Himmels Güte Tag für Tag mit Wunderzeichen ziert.",
@@ -14900,6 +14905,9 @@
           },
           "ErsteV": {
             "button": "1. Vesper zum Hochfest des hl. Liborius",
+            "hymn_1": 8723.401,
+            "hymn_2": 8723.402,
+            "hymn_3": 8723.403,
             "ant1": "Liborius gelte der Jubel Frankreichs, das einen solchen Mann hervorgebracht; glücklicher schätze dich, deutsches Land: Sein kostbarer Leib ward dir anvertraut.",
             "ant2": "Selig, dem beim Hinübergang Martin zur Seite stand; der Himmel selbst rief den Gottesmann.",
             "ant3": "Du glückliche Stadt an der Pader, in dir erstrahlt heute, den des Himmels Güte Tag für Tag mit Wunderzeichen ziert.",
@@ -14913,6 +14921,15 @@
             "bitten_e": "Lasst uns zu Jesus Christus beten, der unter uns weilt und unsere Hoffnung auf Herrlichkeit ist:",
             "bitten_r": "Herr, gedenke deiner Kirche.",
             "bitten": "Du hast den hl. Liborius der Kirche von Le Mans als Bischof geschenkt:^qSchenk ihr Wachstum im Glauben, in der Hoffnung und in der Liebe.^pDu hast den hl. Liborius der Kirche von Paderborn als Patron gegeben:^qSchütze unseren Erzbischof, die Weihbischöfe, die Priester, die Diakone, die Ordensleute und alle Gläubigen.^pDu hast den hl. Liborius zum Dienst der Einheit und des Friedens für die Völker bestellt:^qEine die Völker Europas und lass sie hilfreich einstehen für alle Menschen.^pDu hast den hl. Liborius zum Patron und Fürsprecher der Kranken gemacht:^qGib ihnen die Gesundheit des Leibes und der Seele und neue Hoffnung auf Leben.^pDu hast den hl. Liborius in die Schar deiner Heiligen aufgenommen:^qRufe alle Toten und auch uns am Ende unseres Lebens in die Herrlichkeit des Himmels."
+          },
+          "Terz": {
+            "hymn_1": 8723.3
+          },
+          "Sext": {
+            "hymn_1": 8723.3
+          },
+          "Non": {
+            "hymn_1": 8723.3
           }
         }
       },
