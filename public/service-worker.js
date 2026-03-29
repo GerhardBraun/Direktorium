@@ -71,7 +71,8 @@ self.addEventListener('fetch', event => {
                         'Direktorium.ts',
                         'Deceased.ts',
                         '/index.html',
-                        '/'
+                        '/',
+                        'version-info.json'
                     ];
 
                     // Prüfe, ob es sich um eine Anfrage für regelmäßig aktualisierte Daten handelt
