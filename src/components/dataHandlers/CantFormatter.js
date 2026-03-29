@@ -137,7 +137,10 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
             // ([\s°0]*) absorbiert °, Leerzeichen und 0-Grenzen zwischen Silbe und ~.
             result = result.replace(
                 /([^\s°|0]+)([\s°0]*)~([^\s°|0]+)/g,
-                (_m, a, sep, b) => `^b${a}${sep}${b}^0b`
+                (_m, a, sep, b) => {
+                    const [core, trail] = splitTrail(b);
+                    return `^b${a}${sep}${core}^0b${trail}`;
+                }
             );
         }
         // 0-Marker (Silbengrenzen) am Ende aus dem Text entfernen
