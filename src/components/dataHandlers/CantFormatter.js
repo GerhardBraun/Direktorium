@@ -31,11 +31,11 @@ export const formatCantMarkers = (text, mode) => {
     const cadence = PSALM_TONE_CADENCE[mode] || PSALM_TONE_CADENCE['IX']; // Default auf IX, falls kein Psalmton angegeben
     if (!cadence) return text;  // unbekannter Psalmton: Text unverändert lassen
 
-    // Textanpassungen für den Gesang: +X/[+…] = Silbe hinzufügen, -X/[-…] = Silbe weglassen.
-    // Klammerform [+…]/[-…] für beliebig lange Zeichenfolgen; +X/-X als Kurzform für Einzelbuchstaben.
+    // Textanpassungen für den Gesang: [+…]/[-…] = Zeichenfolge hinzufügen/weglassen (Klammerform);
+    // +e/-e als Kurzform nur für den Buchstaben e.
     text = text.replace(/\[([+-])([^\]]+)\]/g, (_, sign, content) => sign === '+' ? content : '');
-    text = text.replace(/(?<!\^)\+([a-zA-ZäöüÄÖÜß])/g, '$1');
-    text = text.replace(/-([a-zA-ZäöüÄÖÜß])/g, '');
+    text = text.replace(/(?<!\^)\+e/g, 'e');
+    text = text.replace(/(?<!\^)-e/g, '');
 
     // > vor Vokal → ^ELL-Tag (elidierende Silbe, grau-kursiv): muss vor dem ^b/^u-Tagging geschehen,
     // damit der Tag nicht innerhalb von ^b/^u landet und von processInlineFormats übergangen wird.
