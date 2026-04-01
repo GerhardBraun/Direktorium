@@ -125,7 +125,7 @@ const getDoxology = (localPrefLanguage, psalm, isBuM = false) => {
     if (localPrefLanguage === "_lat" && (isBuM || psalm.text_lat)) {
         return "Glória Patri et Fílio^*"
             + "et Spirítui Sancto.^p"
-            + "Sicut erat in princípio et nunc et semper^*"
+            + "Sicut erat in princípio et°nunc°et°semper^*"
             + "et in sǽcula sæculórum. Amen.";
     }
     if (localPrefLanguage === "_cant" && (isBuM || psalm.text_cant)) {
@@ -608,7 +608,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
         .replace(/\^SPRICHT/g, '^(So spricht der Herr:^)^l')
         .replace(/\^SPRGOTT/g, '^(So spricht Gott, der Herr:^)^l')
         .replace(/\^EINZUG/g, '') // Einzug bei Sprechzeilen-Gliederung im Messlektionar
-        .replace(/^›|\^<|_lat|_neu|_ben|\^SLICE|\^APSHALL/g, '')
+        .replace(/^›|\^<|\$|_lat|_neu|_ben|\^SLICE|\^APSHALL/g, '')
         .replace(/°/g, '\u00A0')
         .replace(/(?<!\^)(?<!\^0)([^ \n^]*)\^\*/g, isAps ? '$1\u00A0^r*^0r\n' : '^STAR$1^0STAR')
         .replace(/\^\+/g, isAps ? '\u00A0^r†^0r\n' : '\u00A0†\n')

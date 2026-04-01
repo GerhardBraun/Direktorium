@@ -7,14 +7,14 @@ export const PSALM_TONE_CADENCE = {
     'I': { mk: [0, 2], sk: [2, 1] },
     'Ia': { mk: [0, 2], sk: [2, 1] },
     'Ig': { mk: [0, 2], sk: [2, 1] },
-    'Im': { mk: [0, 2], sk: [2, 1], skNoUnstressed: true },
+    'Im': { mk: [0, 2], sk: [2, 1, 'noUnstressed'], skNoUnstressed: true },
     'II': { mk: [0, 1], sk: [1, 1] },
     'IIc': { mk: [0, 1], sk: [2, 1] },
-    'IIm': { mk: [0, 1], sk: [2, 1], skNoUnstressed: true },
+    'IIm': { mk: [0, 1], sk: [2, 1, 'noUnstressed'], skNoUnstressed: true },
     'III': { mk: [0, 2], sk: [2, 1] },
     'IV': { mk: [2, 1], sk: [3, 1] },
     'IVa': { mk: [2, 1], sk: [1, 1] },
-    'IVg': { mk: [2, 1], sk: [0, 1], skSingleTone: true },
+    'IVg': { mk: [2, 1], sk: [0, 1, 'singleTone'], skSingleTone: true },
     'V': { mk: [0, 1], sk: [0, 2] },
     'VI': { mk: [1, 1], sk: [3, 1] },
     'VII': { mk: [0, 2], sk: [0, 2] },
@@ -22,7 +22,7 @@ export const PSALM_TONE_CADENCE = {
     'VIIIa': { mk: [0, 1], sk: [2, 1] },
     'VIIIc': { mk: [0, 1], sk: [2, 1] },
     'IX': { mk: [0, 2], sk: [2, 1] },
-    'X': { mk: [0, 1], sk: [0, 2], mkMaleVeff: true },
+    'X': { mk: [0, 1, 'maleVeff'], sk: [0, 2], mkMaleVeff: true },
 };
 
 // Wandelt die abstrakten Gesangsmarker (|, ||, 1–4, ~, 0) in ^u/^b-Tags um.
@@ -201,6 +201,21 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
         }
     }
 
+    // noUnstressed SK mit zwei 1-Markern: cadStartIdx von b abhängig korrigieren.
+    // countdownIdxs['1'] zeigt nur auf den letzten 1-Marker-Slot; der erste muss separat
+    // gesucht werden. b=1 → rechte (letzte) 1; b=2 → linke (erste) 1; b≥3 unverändert.
+    if (noUnstressed && cadenceType === 'sk') {
+        const oneIdxs = slots.reduce((acc, slot, idx) => {
+            if (idx < dblBarIdx && slot.countdowns.includes('1')) acc.push(idx);
+            return acc;
+        }, []);
+        if (oneIdxs.length >= 2) {
+            if (v === 1) cadStartIdx = oneIdxs[oneIdxs.length - 1]; // rechte (letzte) 1
+            else if (v === 2) cadStartIdx = oneIdxs[0];             // linke (erste) 1
+            // v >= 3: countdownIdxs[String(v_eff)] greift bereits korrekt
+        }
+    }
+
     // Verkürzte Kadenz (b=1, männlicher Versschluss): 43-kombinierter Slot trägt T4 + T3.
     // v_eff im Code bleibt v (weil has4=false), aber reale vEff = v+1 (männlicher Versschluss).
     // Deshalb: cadStartIdx ggf. auf den richtigen Slot korrigieren:
@@ -240,7 +255,7 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
     // Beide Silben teilen dieselbe Melodiestelle und sollen als Klammer verbunden werden.
     // Erkennung: ein Slot mit countdown='1' gefolgt von einem weiteren Slot mit countdown='1'.
     let dual1Idx = -1;
-    if (b === 1 && !sonderfall1) {
+    if (b === 1 && !sonderfall1 && !noUnstressed) {
         for (let i = 0; i < dblBarIdx - 1; i++) {
             if (slots[i].countdowns.includes('1') && slots[i + 1].countdowns.includes('1')) {
                 dual1Idx = i;
