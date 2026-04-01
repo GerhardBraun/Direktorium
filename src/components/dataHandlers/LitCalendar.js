@@ -1,7 +1,5 @@
 import { tableOfRanks } from '../data/TableOfRanks.js';
 
-const diocese = localStorage.getItem('diocese') || 'Fulda'
-
 const daysToMilliseconds = (days) => days * 24 * 60 * 60 * 1000;
 
 const writeOut = (season, week, dayOfWeek, swdCombined, day, afterPentecost) => {
@@ -115,6 +113,7 @@ function calculateRanks(date, season, week, dayOfWeek, swdCombined, afterPenteco
 
     // Rank für Datum (rank_date) bestimmen
     function calculateRankDate() {
+        const diocese = localStorage.getItem('diocese') || 'Fulda';
         const dateCompare = `${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`;
 
         // Schleife durch die Ränge (von hoch zu niedrig)

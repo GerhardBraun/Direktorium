@@ -16,7 +16,7 @@ import { lectureABCData } from '../data/LectureABC.ts';
 import { sollemnitiesData } from '../data/Sollemnities.ts';
 import { getLiturgicalInfo } from './LitCalendar.js';
 import { sourceKeys } from '../selectors/SourceSelector.js';
-import { getCalendarData } from '../data/CalendarMerge.js';
+import { calendarData } from '../data/Calendar.ts';
 
 const personalData = (() => {
     try {
@@ -28,7 +28,72 @@ const personalData = (() => {
     }
 })();
 
-const diocese = localStorage.getItem('diocese') || 'Fulda';
+function deepMerge(target, source) {
+    const result = { ...target };
+    for (const key in source) {
+        if (typeof source[key] === 'object' && source[key] !== null && !Array.isArray(source[key])) {
+            result[key] = deepMerge(result[key] || {}, source[key]);
+        } else result[key] = source[key];
+    }
+    return result;
+}
+
+function getReferenceData(reference) {
+    if (!reference) return {};
+    const parts = reference.split('-');
+    if (parts.length !== 4) {
+        console.warn('Ungültiges Referenz-Format:', reference);
+        return {};
+    }
+    const [refDiocese, refMonth, refDay, refSource] = parts;
+    try {
+        const referenceData = calendarData?.[refDiocese]?.[refMonth]?.[refDay]?.[refSource];
+        if (referenceData) return JSON.parse(JSON.stringify(referenceData));
+        console.warn('Referenz-Daten nicht gefunden:', reference);
+        return {};
+    } catch (error) {
+        console.error('Fehler beim Abrufen der Referenz-Daten:', reference, error);
+        return {};
+    }
+}
+
+// Liest nur die Daten des betreffenden Tages aus dem Kalender –
+// statt den gesamten Kalender zu mergen (wie CalendarMerge.js es tat).
+// Logik: AAA-Daten als Basis; diözesane oblig-Source ersetzt alles;
+// diözesane d-Sources werden neben den AAA-Daten eingefügt.
+function getDayCalendarData(calendarMonth, calendarDay) {
+    const diocese = localStorage.getItem('diocese') || 'Fulda';
+    const regionalCalendarData = calendarData?.AAA?.[calendarMonth]?.[calendarDay];
+
+    if (diocese === 'AAA' || !calendarData?.[diocese]) {
+        return regionalCalendarData ? JSON.parse(JSON.stringify(regionalCalendarData)) : undefined;
+    }
+
+    const diocesanDayData = calendarData?.[diocese]?.[calendarMonth]?.[calendarDay];
+    const result = regionalCalendarData ? JSON.parse(JSON.stringify(regionalCalendarData)) : {};
+
+    if (diocesanDayData) {
+        for (const source in diocesanDayData) {
+            const diocesanSourceData = JSON.parse(JSON.stringify(diocesanDayData[source]));
+
+            // Referenz auflösen und diözesane Daten darüber mergen
+            const reference = diocesanSourceData?.Laudes?.referenz || '';
+            let resolvedData = reference ? getReferenceData(reference) : {};
+            delete diocesanSourceData.reference;
+            resolvedData = deepMerge(resolvedData, diocesanSourceData);
+
+            if (source === 'oblig') {
+                // oblig ersetzt alle AAA-Daten für diesen Tag vollständig
+                return { 'oblig': resolvedData };
+            } else {
+                // d-Sources werden neben den AAA-Daten eingefügt
+                result[source] = resolvedData;
+            }
+        }
+    }
+
+    return Object.keys(result).length > 0 ? result : undefined;
+}
 
 // Helper function to clean up zero-value reference fields after all processing
 function cleanupZeroReferences(hours) {
@@ -371,7 +436,7 @@ function processCommune(hours, season, targetSource) {
 }
 
 function processCalendar(hours, yearABC, season, calendarMonth, calendarDay, replaceOblig = 'oblig') {
-    const processData = getCalendarData()?.[calendarMonth]?.[calendarDay];
+    const processData = getDayCalendarData(calendarMonth, calendarDay);
 
     if (processData) {
         if (replaceOblig === 'wt' && [41, 46].includes(calendarDay))
@@ -395,9 +460,10 @@ function processCalendar(hours, yearABC, season, calendarMonth, calendarDay, rep
 }
 
 function processReadings(hours, yearABC, calendarMonth, calendarDay) {
+    const diocese = localStorage.getItem('diocese') || 'Fulda';
     const readingsAData = lectureABCData?.AAA?.[calendarMonth]?.[calendarDay]?.a;
     const readingsBCData = yearABC === 'a' ? null : lectureABCData?.AAA?.[calendarMonth]?.[calendarDay]?.[yearABC];
-    const diocesanReadingsData = diocese ? lectureABCData?.[diocese]?.[calendarMonth]?.[calendarDay]?.a : null;
+    const diocesanReadingsData = diocese !== 'AAA' ? lectureABCData?.[diocese]?.[calendarMonth]?.[calendarDay]?.a : null;
 
     if (readingsAData) mergeData(hours, readingsAData, 'oblig');
     if (readingsBCData) mergeData(hours, readingsBCData, 'oblig');

@@ -1127,6 +1127,7 @@ export default function Stundenbuch() {
   const [useCommemoration, setUseCommemoration] = useState(false);
   const [selectedHour, setSelectedHour] = useState(null);
   const [texts, setTexts] = useState(null);
+  const [diocese, setDiocese] = useState(() => localStorage.getItem('diocese') || 'Fulda');
   const [expandedDeceased, setExpandedDeceased] = useState({});
   const [prefFootnotes, setPrefFootnotes] = useState(() => localStorage.getItem("prefFootnotes") === "false" ? false : true);
   const [skipPersonal, setSkipPersonal] = useState(() => localStorage.getItem("skipPersonal") === "true");
@@ -1264,7 +1265,7 @@ export default function Stundenbuch() {
       !processedData?.rank?.hasVigil) {
       setSelectedHour("lesehore")
     }
-  }, [selectedDate, prefSrc]);
+  }, [selectedDate, prefSrc, diocese]);
 
   useEffect(() => {
     document.documentElement.classList.toggle("dark", theme === "dark");
@@ -2242,7 +2243,7 @@ export default function Stundenbuch() {
                 title="Einstellungen"
                 onBack={() => setViewMode("directory")}
               />
-              <PersonalSettings />
+              <PersonalSettings onDioceseChange={setDiocese} />
             </div>
           )}
           {/* Prayer Views */}

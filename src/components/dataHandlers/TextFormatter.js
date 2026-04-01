@@ -125,7 +125,7 @@ const getDoxology = (localPrefLanguage, psalm, isBuM = false) => {
     if (localPrefLanguage === "_lat" && (isBuM || psalm.text_lat)) {
         return "Glória Patri et Fílio^*"
             + "et Spirítui Sancto.^p"
-            + "Sicut erat in princípio et°nunc°et°semper^*"
+            + "Sicut erat in princípio, et°nunc°et°semper,^*"
             + "et in sǽcula sæculórum. Amen.";
     }
     if (localPrefLanguage === "_cant" && (isBuM || psalm.text_cant)) {

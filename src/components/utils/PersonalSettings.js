@@ -11,7 +11,7 @@ export function setLocalStorage(key, value) {
     }
 }
 
-const PersonalSettings = () => {
+const PersonalSettings = ({ onDioceseChange } = {}) => {
     // Konstanten
     const weekdays = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
     const availablePsalms = [95, 100, 67, 24];
@@ -319,6 +319,7 @@ const PersonalSettings = () => {
 
     useEffect(() => {
         setLocalStorage('diocese', diocese);
+        onDioceseChange?.(diocese);
     }, [diocese]);
 
     useEffect(() => {

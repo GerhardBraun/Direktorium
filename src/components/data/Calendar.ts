@@ -14894,68 +14894,77 @@ export const calendarData: CalendarData = {
     }
   },
   "Paderborn": {
-    "7": {
-      "22": {
-        "oblig": {
+    "10": {
+      "25": {
+        "d1": {
           "Lesehore": {
-            "versikel0": "",
-            "versikel1": "",
-            "les_buch": "",
-            "les_stelle": "",
-            "les_text": "",
-            "resp1": "",
-            "resp2": "",
-            "resp3": "",
-            "patr_autor": "Hugo Aufderbeck (1909–1981)",
-            "patr_werk": "Aus einer Predigt im Dom zu Nordhausen",
-            "patr_text": "^hDer Dom ist Bergung und Richtung, Erhöhung und Sammlung, Begnadigung und Verheißung.^pBergung, Ort der Geborgenheit für den Menschen, der von draußen kommt; der Boden trägt; das Gewölbe schützt; die Säulen stützen; der große Raum lässt frei atmen. – Christus ist der Fels, der nicht wankt; über uns ist Gottes schützende Hand; in unserer Mitte stehen die Apostel, Säulen der Wahrheit; wir sind hineingenommen in den Raum des lebenspendenden Geistes. Wer in diesen Raum eintritt, wird in eine Richtung gedrängt. Unsere Kirchen sind oft nach Osten gerichtet, dorthin, wo die Sonne aufgeht. Hier wird das Wort verkündet, das wie eine helle Lampe leuchtet; hier geht dem wandernden Volk Gottes auf dem Weg durch die Zeit die lebendige Feuersäule voraus, die Sonne der Gerechtigkeit, eine Leuchte, die uns vor Irrlichtern und Irrwegen bewahrt.^pDer Dom ist Bergung für den ungeborgenen und Richtung für den richtungslosen Menschen, Stätte des Verweilens und Ort neuen Aufbruchs.^pIch trete in diesen Dom, ich, ein kleiner Mensch, in diese Halle Gottes. Das ist das Geheimnis des Domes: dass mein Ich in ihm ein Du wird, von Gott gemeint, mit göttlichem Licht angeleuchtet, mit Namen gerufen – wie Maria Magdalena am Ostermorgen von dem göttlichen Gärtner: „Maria“; wie der ungläubige Thomas: „Thomas“. Im Staunen darf ich antworten wie Maria Magdalena: „Rabbuni“, wie Thomas: „Mein Herr und Gott“. Hier werde ich, kleiner Mensch, herausgenommen in die Begegnung mit dem Herrn der Welt, erhoben zu seiner Rechten, beglückt mit seiner Zusage: „Ich mache dich zu einer Säule im Dom meines Gottes; ich werde den Namen meines Gottes und die Stadt meines Gottes auf dich schreiben.“^pDer Dom ist Haus Gottes auf Erden und Tor zum Himmel. Hier wird die Seele mit Gnaden erfüllt und uns ein Unterpfand künftiger Herrlichkeit gegeben.^pAm Altar erleben wir den Atem der Heilsgeschichte. Hier wissen wir uns eins mit Noach, der nach der Sintflut dem Herrn einen Altar erbaute – mit Abraham, der auf einem Berge im Lande Morija einen Altar erbaute – mit Melchisedek, der Brot und Wein darbrachte – mit Mose, der den Altar mit dem Blute eines Lammes besprengte.^pHier wissen wir uns eins mit Christus, der am Altar des Kreuzes auf dem Berge Golgatha sich selbst mit freiem Willen darbrachte und damit alle unvollkommenen Opfer der Menschheit zur Vollendung und zur Erfüllung brachte. Eins wissen wir uns mit den Priestern, die hier inmitten des glaubenden Volkes in ununterbrochener Reihenfolge das eine Opfer Christi gefeiert haben zu seinem Gedächtnis. – Und wir wissen uns eins mit allen Christen kommender Generationen, die das Geheimnis des Glaubens begehen, bis der Herr wiederkommt.",
-            "patr_resp1": "Wie liebenswert ist deine Wohnung, Herr der Heerscharen.",
-            "patr_resp2": "Meine Seele verzehrt sich in Sehnsucht nach dem Haus des Herrn.",
-            "patr_resp3": "Selig, die in deinem Hause wohnen, die dich allezeit loben."
+            "les_buch": "Aus dem zweiten Brief des Apostels Paulus an die Gemeinde in Korinth.",
+            "les_stelle": "3,4–4,6",
+            "les_text": "^hWir verkündigen nicht uns, sondern Jesus Christus^pWir haben durch Christus so großes Vertrauen zu Gott. Doch sind wir dazu nicht von uns aus fähig, als ob wir uns selbst etwas zuschreiben könnten; unsere Befähigung stammt vielmehr von Gott. Er hat uns fähig gemacht, Diener des Neuen Bundes zu sein, nicht des Buchstabens, sondern des Geistes. Denn der Buchstabe tötet, der Geist aber macht lebendig. ^pWenn aber schon der Dienst des Todes, dessen Buchstaben in Stein gemeißelt waren, so herrlich war, dass die Israeliten das Gesicht des Mose nicht anschauen konnten, weil es eine Herrlichkeit ausstrahlte, die doch vergänglich war, wie sollte da der Dienst des Geistes nicht viel herrlicher sein?^pDenn wenn schon der Dienst der Verurteilung herrlich war, so ist der Dienst der Gerechtigkeit noch viel herrlicher. Eigentlich ist das Verherrlichte nämlich in diesem Fall gar nicht verherrlicht angesichts der überragenden Herrlichkeit. Wenn nämlich schon das Vergängliche in Herrlichkeit erschien: Die Herrlichkeit des Bleibenden wird es überstrahlen.^pWeil wir also eine solche Hoffnung haben, treten wir mit großem Freimut auf, nicht wie Mose, der über sein Gesicht eine Hülle legte, damit die Israeliten das Ende des Vergänglichen nicht sahen.^pDoch ihr Denken wurde verhärtet. Denn bis zum heutigen Tag liegt die gleiche Hülle auf dem Alten Bund, wenn daraus vorgelesen wird; sie wird nicht aufgedeckt, weil sie in Christus beseitigt wird. Bis heute liegt die Hülle auf ihrem Herzen, wenn Mose vorgelesen wird.^pSobald er aber zum Herrn zurückkehrt, wird die Hülle entfernt. Der Herr aber ist der Geist; wo aber der Geist des Herrn ist, da ist Freiheit. Wir alle aber schauen mit enthülltem Angesicht die Herrlichkeit des Herrn wie in einem Spiegel und werden so in sein eigenes Bild verwandelt, von Herrlichkeit zu Herrlichkeit, durch den Geist des Herrn.^pDaher erlahmt unser Eifer nicht in dem Dienst, der uns durch Gottes Erbarmen übertragen wurde. Wir haben uns von aller schimpflichen Arglist losgesagt; wir verhalten uns nicht hinterhältig und verfälschen das Wort Gottes nicht, sondern machen die Wahrheit offenbar. So empfehlen wir uns vor dem Angesicht Gottes jedem menschlichen Gewissen.^pWenn unser Evangelium dennoch verhüllt ist, ist es nur denen verhüllt, die verloren gehen; denn der Gott dieser Weltzeit hat das Denken der Ungläubigen verblendet. So strahlt ihnen der Glanz des Evangeliums von der Herrlichkeit Christi, der Gottes Bild ist, nicht auf.^pWir verkünden nämlich nicht uns selbst, sondern Jesus Christus als den Herrn, uns aber als eure Knechte um Jesu willen. Denn Gott, der sprach: Aus Finsternis soll Licht aufleuchten!, er ist in unseren Herzen aufgeleuchtet, damit aufstrahlt die Erkenntnis des göttlichen Glanzes auf dem Antlitz Christi.",
+            "les_text_neu": "Wir predigen, weil Gott uns geprüft und uns das Evangelium anvertraut hat.",
+            "resp0": "Nicht um den Menschen zu gefallen, sondern Gott.",
+            "resp1": "Wir predigen nicht, um euch irrezuführen, in schmutziger Weise auszunutzen oder zu betrügen.",
+            "patr_autor": "Lorenz Kardinal Jaeger (1892–1975)",
+            "patr_werk": "Aus einer Predigt zum Liborifest 1956.",
+            "patr_text": "^hLiborius nahm an den Prüfungen und Leiden Paderborns teil^pLiborius hat vor 1600 Jahren, als eine neue Geschichtsepoche heraufstieg, inmitten einer von Untergangsstimmung geängstigten Welt das Reich Gottes aufgerichtet und damit am Aufstieg der neuen, christlichen Ära erfolgreich mitgearbeitet. Als man seinen heiligen Leib im Jahre 397 in der Apostelbasilika jenseits der Sarthe zu Le Mans zur letzten Ruhe bettete, da ahnte noch niemand, dass dieser Heilige an der Wiege eines jungen Bistums im Westfalenlande stehen würde.^pDas Domkapitel von Le Mans hat vor 750 Jahren nach Paderborn geschrieben, die Ankunft der Reliquien des heiligen Liborius hätte für das Sachsenland das Ende des heidnischen Winters und den Beginn des christlichen Frühlings bedeutet, und kein Geringerer als Johannes Bolandus hat 1648, im Jahre des Westfälischen Friedens, von einem Fatum Liborianum gesprochen, von einer schicksalhaften Verbindung Paderborns mit Liborius.^pDie Vorsehung hat die Schicksale, die Freuden und Leiden unseres Erzbistums auf eine besondere Weise mit dem heiligen Liborius verknüpft. An den großen Prüfungen wie an den Freuden der Stadt und des Bistums Paderborn nahm Liborius auf eine fast leibhafte Art in seinen Reliquien teil. Man denke nur an den Raub der Reliquien im Dreißigjährigen Krieg, an ihre Gefährdung und an ihre Unbilden in und nach dem letzten Krieg. Man denke aber auch an das Wachstum der Liboriusverehrung im Früh- und Hochmittelalter, an den glanzvollen Aufstieg dieser Verehrung im Barockzeitalter und in unserem Jahrhundert.^pEs wäre ein Zeichen der Dankbarkeit, wenn dem heiligen Liborius in unserem Erzbistum noch mehr Kirchen und Kapellen geweiht würden und wenn noch mehr Kinder bei der Taufe seinen Namen erhielten.^pLiborius war wie ein Hoffnungsstern inmitten der versinkenden Welt der Antike, er war der Schutzpatron unseres Erzbistums seit 1120 Jahren. Er ist auch für uns das Symbol der Hoffnung inmitten einer den Untergang des Abendlandes fürchtenden Welt.^pIn Müh und Arbeit harrt er aus,^ldie Leiden wurden Freuden ihm,^ldurchs Irdische so strebte er^lzum Himmlischen hinan, zum Ziel.",
+            "patr_resp1": "Einst hast du, Herr, dein Land begnadet, Jakobs Unglück gewendet.",
+            "patr_resp2": "Richte uns wieder auf, Gott unsres Heils, lass von deinem Unmut gegen uns ab!",
+            "patr_resp3": "Du hast vergeben die Schuld deines Volkes, zugedeckt all ihre Sünden."
+          },
+          "major": {
+            "comm_1": "Hirten",
+            "oration": "Barmherziger Gott, du hast in Zeiten der Not und Gefahr die Kirche von Paderborn auf die Fürbitte des heiligen Liborius beschützt. Erneuere in unseren Tagen die Zeichen deines Heils. Stärke uns im Vertrauen auf deine helfende Hand und lehre uns deine Wege.^ORV"
           },
           "Laudes": {
-            "nominativ": "",
-            "genitiv": "",
-            "vokativ": "",
-            "ant1": "",
-            "ant2": "",
-            "ant3": "",
-            "les_buch": "",
-            "les_stelle": "",
-            "les_text": "",
-            "les_text_neu": "",
-            "resp1": "",
-            "resp2": "",
-            "resp3": "",
-            "antev": "",
-            "button": "Jahrestag der Weihe der Paderborner°Bischofskirche"
-          },
-          "Vesper": {
-            "ant1": "",
-            "ant2": "",
-            "ant3": "",
-            "les_buch": "",
-            "les_stelle": "",
-            "les_text": "",
-            "les_text_neu": "",
-            "resp1": "",
-            "resp2": "",
-            "resp3": "",
-            "antev": ""
-          },
-          "each": {
-            "comm_1": "Kirchw",
-            "oration": "^RUBRIn der Paderborner Kathedrale:^0RUBR^lGroßer und heiliger Gott, jedes Jahr feiern wir den Weihetag dieses heiligen Hauses. Höre auf die Bitten deines Volkes. Hilf uns, dass wir an diesem Ort in rechter Gesinnung den heiligen Dienst vollziehen und den Reichtum der Erlösungsgnade empfangen.^ORV^p^RUBRIn den übrigen Kirchen:^0RUBR^lErhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird.^ORV^ODERAllmächtiger Gott, du hast gewollt, dass dein Volk Kirche heiße, denn wir sind das Haus, in dem deine Herrlichkeit wohnt. Gib, dass die Gläubigen, die sich in deinem Namen versammeln, dich ehren, dich lieben und dir gehorchen damit sie unter deiner Führung das ewige Erbe erlangen.^ORV",
-            "oration_lat": "^RUBRIn Ecclesia cathedrali Paderbornensi:^0RUBR^lDeus, qui nobis per síngulos annos huius sancti templi tui consecratiónis réparas diem, exáudi preces pópuli tui, et præsta, ut fiat hic tibi semper purum servítium et nobis plena redémptio.^ORlV^p^RUBRIn aliis ecclesiis:^0RUBR^lDeus, qui de vivis et eléctis lapídibus ætérnum habitáculum tuæ prǽparas maiestáti, multíplica in Ecclésia tua spíritum grátiæ, quem dedísti, ut fidélis tibi pópulus in cæléstis ædificatiónem Ierúsalem semper accréscat.^ORlV^VELDeus, qui pópulum tuum Ecclésiam vocáre dignátus es, da, ut plebs in nómine tuo congregáta te tímeat, te díligat, te sequátur et ad cæléstia promíssa, te ducénte, pervéniat.^ORlV"
-          },
-          "Messe": {
-            "ms_aps_kv": "Kündet den Völkern die Herrlichkeit des Herrn!",
-            "ms_aps_text": "Singet dem HERRN ein neues Lied,^*singt dem HERRN, alle Lande,^psingt dem HERRN, preist seinen Namen!^*Verkündet sein Heil von Tag zu Tag!^KV^PErzählt bei den Nationen von seiner Herrlichkeit,^*bei allen Völkern von seinen Wundern!^pBringt dar dem HERRN, ihr Stämme der Völker,^*bringt dar dem HERRN Ehre und Macht!^KV^PBringt dar dem HERRN die Ehre seines Namens!^*Bringt Gaben und tretet ein in die Höfe seines Heiligtums!^pVerkündet bei den Nationen: Der HERR ist König!^+Fest ist der Erdkreis gegründet, er wird nicht wanken.^*Er richtet die Völker so, wie es recht ist.",
-            "ms_ev_motto": "Ich vermache euch das Reich, wie es mein Vater mir vermacht hat",
-            "ms_ev_text": "In jener Zeit^l^EINZUGentstand unter den Aposteln ein Streit darüber,^l^EINZUGwer von ihnen wohl der Größte sei.^pDa sagte Jesus zu ihnen:^l^EINZUGDie Könige herrschen über ihre Völker^lund die Vollmacht über sie haben, lassen sich Wohltäter nennen.^lBei euch aber soll es nicht so sein,^lsondern der Größte unter euch soll werden wie der Jüngste^l^EINZUGund der Führende soll werden wie der Dienende.^lDenn wer ist größer:^lDer bei Tisch sitzt^l^EINZUGoder der bedient?^lIst es nicht der, der bei Tisch sitzt?^lIch aber bin unter euch wie der, der bedient.^pIhr aber habt in meinen Prüfungen bei mir ausgeharrt.^lDarum vermache ich euch das Reich,^l^EINZUGwie es mein Vater mir vermacht hat:^lIhr sollt in meinem Reich^l^EINZUGan meinem Tisch essen und trinken^lund ihr sollt auf Thronen sitzen^l^EINZUGund die zwölf Stämme Israels richten."
+            "button": "Rückführung der Reliquien des hl. Bischofs Liborius",
+            "genitiv": "des heiligen Liborius"
           }
         }
       },
+      "3": {
+        "d1": {
+          "major": {
+            "comm_1": "MärtPl",
+            "oration": "Herr und Gott, du hast die beiden heiligen Brüder Ewald als Zeugen deines Wortes zu den Sachsen gesandt. Durch ihr Martyrium und auf ihre Fürsprache bewege auch uns, im Leben zu bezeugen, was wir im Glauben bekennen.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "Beda Venerabilis († 735)",
+            "patr_werk": "Aus der Englischen Kirchengeschichte Bedas des Ehrwürdigen.",
+            "patr_text": "^hDas ruhmreiche Leiden der Diener Gottes^pAls die Brüder Ewald in das Land gekommen waren, kehrten sie bei einem Meier ein und baten ihn, er möge sie zu seinem Fürsten bringen, sie hätten eine Botschaft an ihn und müssten ihm eine nützliche Sache berichten. Der Meier nahm sie auf und versprach, sie zum Fürsten zu senden, wie sie es erbeten hatten, behielt sie aber einige Tage bei sich.^pAls die heidnische Bevölkerung sie als Bekenner einer anderen Religion erkannte – denn sie beteten und sangen Psalmen und brachten Gott täglich das Opfer des Heils dar, da sie die heiligen Geräte und einen zum Altar geweihten Tisch bei sich hatten –, kamen sie auf den Verdacht, sie würden den Fürsten, wenn sie mit ihm redeten, seinen Göttern abspenstig machen und zu der neuen Religion herüberziehen; sie fürchteten, dass so allmählich das ganze Land gezwungen würde, den alten Gottesdienst zu verlassen und den neuen anzunehmen. ^pDeshalb überfielen sie die beiden und töteten sie. Der weiße Ewald fand einen raschen Tod durch das Schwert, der schwarze hingegen wurde langsam zu Tode gepeinigt, und seine Glieder wurden schrecklich verstümmelt. Ihre Leichname warf man in den Rhein.^pAls dies der Fürst, den sie hatten sehen wollen, vernahm, zürnte er sehr, dass Fremde, die zu ihm kommen wollten, nicht zu ihm gelassen worden waren. Er schickte deshalb hin, ließ alle Bewohner jenes Dorfes töten und das Dorf selbst in Brand stecken. Die genannten Priester und Diener Gottes erlitten den Martertod am 3. Oktober.",
+            "patr_resp1": "Alle, die auf den Herrn vertrauen, werden die Wahrheit erkennen, und die Treuen werden bei ihm bleiben in Liebe. Denn Gnade und Erbarmen wird seinen Erwählten zuteil.",
+            "patr_resp2": "Die Gerechten werden Völker richten und über Nationen herrschen, und der Herr wird ihr König sein in Ewigkeit.",
+            "patr_resp3": "Fürchtet euch nicht vor denen, die den Leib töten, die Seele aber nicht töten können."
+          },
+          "Laudes": {
+            "button": "Die beiden hl. Ewalde",
+            "farbe": "r",
+            "genitiv": "der beiden heiligen Ewalde"
+          }
+        }
+      },
+      "5": {
+        "d1": {
+          "major": {
+            "comm_1": "Mann",
+            "oration": "Allmächtiger, ewiger Gott, der heilige Diakon Meinolf hat mit all seiner Kraft für den Aufbau der Kirche von Paderborn gewirkt; schütze auch in unserer Zeit die Kirche dieses Landes, und festige ihre gemeinschaftliche Verbindung mit dem Nachfolger des heiligen Petrus und mit der Schwesterkirche von Le Mans.^ORV"
+          },
+          "Lesehore": {
+            "patr_autor": "Diakon Erconrad (9. Jh.)",
+            "patr_werk": "Aus der Translatio des hl. Liborius.",
+            "patr_text": "^hMeinolf verspricht die Gründung eines Klosters^pAls der Archidiakon Meinolf die nach Gottes Fügung großen Wunderzeichen gesehen hatte, da gab er, erschüttert aus Gottesfurcht und Liebe zugleich, seinen ganzen Erbanteil hin zum hochheiligen Leib des seligen Liborius und machte das feierliche Gelübde, an einem Ort namens Böddeken ein Kloster zu bauen und dort zum Dienst der Gottesgebärerin und des heiligen Liborius eine Gemeinschaft von gottgeweihten Frauen zu sammeln.^pAls dann diese fromme und allen Augenzeugen wohlgefällige Übergabe angesichts des genannten Bischofs Aldrich erfolgt war, die Folodag, Bischof Badurads Vogt, vor den Gefährten jenes Meinolf, dem Priester Adalbert, dem Diakon Aldrich und dem Subdiakon Drudwin als Zeugen entgegengenommen hatte, da fielen sie auf ihr Angesicht vor dem Altar des Herrn nieder zu Füßen des (nun verewigten) Bischofs Aldrich mit der Bitte, heimkehren zu dürfen.^pDer Oberhirte gab den Segen und vertraute ihnen dann vor allem Klerus und Volk den kostbaren Schatz an, auf dass er immer gebührend in Ehren gehalten würde.",
+            "patr_resp1": "Wenn du vollkommen sein willst, verkaufe, was du hast, und gib es den Armen; so wirst du einen Schatz im Himmel haben.",
+            "patr_resp2": "Dann komm und folge mir nach.",
+            "patr_resp3": "Keiner von euch ist mein Jünger, wenn er nicht auf seinen Besitz verzichtet."
+          },
+          "Laudes": {
+            "button": "Hl. Meinolf von°Böddeken/Paderborn",
+            "nominativ": "Der heilige Meinolf",
+            "genitiv": "des heiligen Meinolf"
+          }
+        }
+      }
+    },
+    "7": {
       "23": {
         "oblig": {
           "each": {
@@ -15075,81 +15084,37 @@ export const calendarData: CalendarData = {
           }
         }
       },
+      "22": {
+        "oblig": {
+          "each": {
+            "comm_1": "Kirchw",
+            "oration": "^RUBRIn der Paderborner Kathedrale:^0RUBR^lGroßer und heiliger Gott, jedes Jahr feiern wir den Weihetag dieses heiligen Hauses. Höre auf die Bitten deines Volkes. Hilf uns, dass wir an diesem Ort in rechter Gesinnung den heiligen Dienst vollziehen und den Reichtum der Erlösungsgnade empfangen.^ORV^p^RUBRIn den übrigen Kirchen:^0RUBR^lErhabener Gott, du erbaust dir aus lebendigen und erlesenen Steinen ein ewiges Haus. Mache die Kirche reich an Früchten des Geistes, den du ihr geschenkt hast, und lass alle Gläubigen in der Gnade wachsen, bis das Volk, das dir gehört, im himmlischen Jerusalem vollendet wird.^ORV^ODERAllmächtiger Gott, du hast gewollt, dass dein Volk Kirche heiße, denn wir sind das Haus, in dem deine Herrlichkeit wohnt. Gib, dass die Gläubigen, die sich in deinem Namen versammeln, dich ehren, dich lieben und dir gehorchen damit sie unter deiner Führung das ewige Erbe erlangen.^ORV",
+            "oration_lat": "^RUBRIn Ecclesia cathedrali Paderbornensi:^0RUBR^lDeus, qui nobis per síngulos annos huius sancti templi tui consecratiónis réparas diem, exáudi preces pópuli tui, et præsta, ut fiat hic tibi semper purum servítium et nobis plena redémptio.^ORlV^p^RUBRIn aliis ecclesiis:^0RUBR^lDeus, qui de vivis et eléctis lapídibus ætérnum habitáculum tuæ prǽparas maiestáti, multíplica in Ecclésia tua spíritum grátiæ, quem dedísti, ut fidélis tibi pópulus in cæléstis ædificatiónem Ierúsalem semper accréscat.^ORlV^VELDeus, qui pópulum tuum Ecclésiam vocáre dignátus es, da, ut plebs in nómine tuo congregáta te tímeat, te díligat, te sequátur et ad cæléstia promíssa, te ducénte, pervéniat.^ORlV"
+          },
+          "Lesehore": {
+            "patr_autor": "Hugo Aufderbeck (1909–1981)",
+            "patr_werk": "Aus einer Predigt im Dom zu Nordhausen",
+            "patr_text": "^hDer Dom ist Bergung und Richtung, Erhöhung und Sammlung, Begnadigung und Verheißung.^pBergung, Ort der Geborgenheit für den Menschen, der von draußen kommt; der Boden trägt; das Gewölbe schützt; die Säulen stützen; der große Raum lässt frei atmen. – Christus ist der Fels, der nicht wankt; über uns ist Gottes schützende Hand; in unserer Mitte stehen die Apostel, Säulen der Wahrheit; wir sind hineingenommen in den Raum des lebenspendenden Geistes. Wer in diesen Raum eintritt, wird in eine Richtung gedrängt. Unsere Kirchen sind oft nach Osten gerichtet, dorthin, wo die Sonne aufgeht. Hier wird das Wort verkündet, das wie eine helle Lampe leuchtet; hier geht dem wandernden Volk Gottes auf dem Weg durch die Zeit die lebendige Feuersäule voraus, die Sonne der Gerechtigkeit, eine Leuchte, die uns vor Irrlichtern und Irrwegen bewahrt.^pDer Dom ist Bergung für den ungeborgenen und Richtung für den richtungslosen Menschen, Stätte des Verweilens und Ort neuen Aufbruchs.^pIch trete in diesen Dom, ich, ein kleiner Mensch, in diese Halle Gottes. Das ist das Geheimnis des Domes: dass mein Ich in ihm ein Du wird, von Gott gemeint, mit göttlichem Licht angeleuchtet, mit Namen gerufen – wie Maria Magdalena am Ostermorgen von dem göttlichen Gärtner: „Maria“; wie der ungläubige Thomas: „Thomas“. Im Staunen darf ich antworten wie Maria Magdalena: „Rabbuni“, wie Thomas: „Mein Herr und Gott“. Hier werde ich, kleiner Mensch, herausgenommen in die Begegnung mit dem Herrn der Welt, erhoben zu seiner Rechten, beglückt mit seiner Zusage: „Ich mache dich zu einer Säule im Dom meines Gottes; ich werde den Namen meines Gottes und die Stadt meines Gottes auf dich schreiben.“^pDer Dom ist Haus Gottes auf Erden und Tor zum Himmel. Hier wird die Seele mit Gnaden erfüllt und uns ein Unterpfand künftiger Herrlichkeit gegeben.^pAm Altar erleben wir den Atem der Heilsgeschichte. Hier wissen wir uns eins mit Noach, der nach der Sintflut dem Herrn einen Altar erbaute – mit Abraham, der auf einem Berge im Lande Morija einen Altar erbaute – mit Melchisedek, der Brot und Wein darbrachte – mit Mose, der den Altar mit dem Blute eines Lammes besprengte.^pHier wissen wir uns eins mit Christus, der am Altar des Kreuzes auf dem Berge Golgatha sich selbst mit freiem Willen darbrachte und damit alle unvollkommenen Opfer der Menschheit zur Vollendung und zur Erfüllung brachte. Eins wissen wir uns mit den Priestern, die hier inmitten des glaubenden Volkes in ununterbrochener Reihenfolge das eine Opfer Christi gefeiert haben zu seinem Gedächtnis. – Und wir wissen uns eins mit allen Christen kommender Generationen, die das Geheimnis des Glaubens begehen, bis der Herr wiederkommt.",
+            "patr_resp1": "Wie liebenswert ist deine Wohnung, Herr der Heerscharen.",
+            "patr_resp2": "Meine Seele verzehrt sich in Sehnsucht nach dem Haus des Herrn.",
+            "patr_resp3": "Selig, die in deinem Hause wohnen, die dich allezeit loben."
+          },
+          "Laudes": {
+            "button": "Jahrestag der Weihe der Paderborner°Bischofskirche"
+          },
+          "Messe": {
+            "ms_aps_kv": "Kündet den Völkern die Herrlichkeit des Herrn!",
+            "ms_aps_text": "Singet dem HERRN ein neues Lied,^*singt dem HERRN, alle Lande,^psingt dem HERRN, preist seinen Namen!^*Verkündet sein Heil von Tag zu Tag!^KV^PErzählt bei den Nationen von seiner Herrlichkeit,^*bei allen Völkern von seinen Wundern!^pBringt dar dem HERRN, ihr Stämme der Völker,^*bringt dar dem HERRN Ehre und Macht!^KV^PBringt dar dem HERRN die Ehre seines Namens!^*Bringt Gaben und tretet ein in die Höfe seines Heiligtums!^pVerkündet bei den Nationen: Der HERR ist König!^+Fest ist der Erdkreis gegründet, er wird nicht wanken.^*Er richtet die Völker so, wie es recht ist.",
+            "ms_ev_motto": "Ich vermache euch das Reich, wie es mein Vater mir vermacht hat",
+            "ms_ev_text": "In jener Zeit^l^EINZUGentstand unter den Aposteln ein Streit darüber,^l^EINZUGwer von ihnen wohl der Größte sei.^pDa sagte Jesus zu ihnen:^l^EINZUGDie Könige herrschen über ihre Völker^lund die Vollmacht über sie haben, lassen sich Wohltäter nennen.^lBei euch aber soll es nicht so sein,^lsondern der Größte unter euch soll werden wie der Jüngste^l^EINZUGund der Führende soll werden wie der Dienende.^lDenn wer ist größer:^lDer bei Tisch sitzt^l^EINZUGoder der bedient?^lIst es nicht der, der bei Tisch sitzt?^lIch aber bin unter euch wie der, der bedient.^pIhr aber habt in meinen Prüfungen bei mir ausgeharrt.^lDarum vermache ich euch das Reich,^l^EINZUGwie es mein Vater mir vermacht hat:^lIhr sollt in meinem Reich^l^EINZUGan meinem Tisch essen und trinken^lund ihr sollt auf Thronen sitzen^l^EINZUGund die zwölf Stämme Israels richten."
+          }
+        }
+      },
       "24": {
         "oblig": {
           "Laudes": {
             "referenz": "AAA-7-23-oblig",
             "button": "Hl. Birgitta von Schweden"
-          }
-        }
-      }
-    },
-    "10": {
-      "25": {
-        "d1": {
-          "Lesehore": {
-            "les_buch": "Aus dem zweiten Brief des Apostels Paulus an die Gemeinde in Korinth.",
-            "les_stelle": "3,4–4,6",
-            "les_text": "^hWir verkündigen nicht uns, sondern Jesus Christus^pWir haben durch Christus so großes Vertrauen zu Gott. Doch sind wir dazu nicht von uns aus fähig, als ob wir uns selbst etwas zuschreiben könnten; unsere Befähigung stammt vielmehr von Gott. Er hat uns fähig gemacht, Diener des Neuen Bundes zu sein, nicht des Buchstabens, sondern des Geistes. Denn der Buchstabe tötet, der Geist aber macht lebendig. ^pWenn aber schon der Dienst des Todes, dessen Buchstaben in Stein gemeißelt waren, so herrlich war, dass die Israeliten das Gesicht des Mose nicht anschauen konnten, weil es eine Herrlichkeit ausstrahlte, die doch vergänglich war, wie sollte da der Dienst des Geistes nicht viel herrlicher sein?^pDenn wenn schon der Dienst der Verurteilung herrlich war, so ist der Dienst der Gerechtigkeit noch viel herrlicher. Eigentlich ist das Verherrlichte nämlich in diesem Fall gar nicht verherrlicht angesichts der überragenden Herrlichkeit. Wenn nämlich schon das Vergängliche in Herrlichkeit erschien: Die Herrlichkeit des Bleibenden wird es überstrahlen.^pWeil wir also eine solche Hoffnung haben, treten wir mit großem Freimut auf, nicht wie Mose, der über sein Gesicht eine Hülle legte, damit die Israeliten das Ende des Vergänglichen nicht sahen.^pDoch ihr Denken wurde verhärtet. Denn bis zum heutigen Tag liegt die gleiche Hülle auf dem Alten Bund, wenn daraus vorgelesen wird; sie wird nicht aufgedeckt, weil sie in Christus beseitigt wird. Bis heute liegt die Hülle auf ihrem Herzen, wenn Mose vorgelesen wird.^pSobald er aber zum Herrn zurückkehrt, wird die Hülle entfernt. Der Herr aber ist der Geist; wo aber der Geist des Herrn ist, da ist Freiheit. Wir alle aber schauen mit enthülltem Angesicht die Herrlichkeit des Herrn wie in einem Spiegel und werden so in sein eigenes Bild verwandelt, von Herrlichkeit zu Herrlichkeit, durch den Geist des Herrn.^pDaher erlahmt unser Eifer nicht in dem Dienst, der uns durch Gottes Erbarmen übertragen wurde. Wir haben uns von aller schimpflichen Arglist losgesagt; wir verhalten uns nicht hinterhältig und verfälschen das Wort Gottes nicht, sondern machen die Wahrheit offenbar. So empfehlen wir uns vor dem Angesicht Gottes jedem menschlichen Gewissen.^pWenn unser Evangelium dennoch verhüllt ist, ist es nur denen verhüllt, die verloren gehen; denn der Gott dieser Weltzeit hat das Denken der Ungläubigen verblendet. So strahlt ihnen der Glanz des Evangeliums von der Herrlichkeit Christi, der Gottes Bild ist, nicht auf.^pWir verkünden nämlich nicht uns selbst, sondern Jesus Christus als den Herrn, uns aber als eure Knechte um Jesu willen. Denn Gott, der sprach: Aus Finsternis soll Licht aufleuchten!, er ist in unseren Herzen aufgeleuchtet, damit aufstrahlt die Erkenntnis des göttlichen Glanzes auf dem Antlitz Christi.",
-            "les_text_neu": "Wir predigen, weil Gott uns geprüft und uns das Evangelium anvertraut hat.",
-            "resp0": "Nicht um den Menschen zu gefallen, sondern Gott.",
-            "resp1": "Wir predigen nicht, um euch irrezuführen, in schmutziger Weise auszunutzen oder zu betrügen.",
-            "patr_autor": "Lorenz Kardinal Jaeger (1892–1975)",
-            "patr_werk": "Aus einer Predigt zum Liborifest 1956.",
-            "patr_text": "^hLiborius nahm an den Prüfungen und Leiden Paderborns teil^pLiborius hat vor 1600 Jahren, als eine neue Geschichtsepoche heraufstieg, inmitten einer von Untergangsstimmung geängstigten Welt das Reich Gottes aufgerichtet und damit am Aufstieg der neuen, christlichen Ära erfolgreich mitgearbeitet. Als man seinen heiligen Leib im Jahre 397 in der Apostelbasilika jenseits der Sarthe zu Le Mans zur letzten Ruhe bettete, da ahnte noch niemand, dass dieser Heilige an der Wiege eines jungen Bistums im Westfalenlande stehen würde.^pDas Domkapitel von Le Mans hat vor 750 Jahren nach Paderborn geschrieben, die Ankunft der Reliquien des heiligen Liborius hätte für das Sachsenland das Ende des heidnischen Winters und den Beginn des christlichen Frühlings bedeutet, und kein Geringerer als Johannes Bolandus hat 1648, im Jahre des Westfälischen Friedens, von einem Fatum Liborianum gesprochen, von einer schicksalhaften Verbindung Paderborns mit Liborius.^pDie Vorsehung hat die Schicksale, die Freuden und Leiden unseres Erzbistums auf eine besondere Weise mit dem heiligen Liborius verknüpft. An den großen Prüfungen wie an den Freuden der Stadt und des Bistums Paderborn nahm Liborius auf eine fast leibhafte Art in seinen Reliquien teil. Man denke nur an den Raub der Reliquien im Dreißigjährigen Krieg, an ihre Gefährdung und an ihre Unbilden in und nach dem letzten Krieg. Man denke aber auch an das Wachstum der Liboriusverehrung im Früh- und Hochmittelalter, an den glanzvollen Aufstieg dieser Verehrung im Barockzeitalter und in unserem Jahrhundert.^pEs wäre ein Zeichen der Dankbarkeit, wenn dem heiligen Liborius in unserem Erzbistum noch mehr Kirchen und Kapellen geweiht würden und wenn noch mehr Kinder bei der Taufe seinen Namen erhielten.^pLiborius war wie ein Hoffnungsstern inmitten der versinkenden Welt der Antike, er war der Schutzpatron unseres Erzbistums seit 1120 Jahren. Er ist auch für uns das Symbol der Hoffnung inmitten einer den Untergang des Abendlandes fürchtenden Welt.^pIn Müh und Arbeit harrt er aus,^ldie Leiden wurden Freuden ihm,^ldurchs Irdische so strebte er^lzum Himmlischen hinan, zum Ziel.",
-            "patr_resp1": "Einst hast du, Herr, dein Land begnadet, Jakobs Unglück gewendet.",
-            "patr_resp2": "Richte uns wieder auf, Gott unsres Heils, lass von deinem Unmut gegen uns ab!",
-            "patr_resp3": "Du hast vergeben die Schuld deines Volkes, zugedeckt all ihre Sünden."
-          },
-          "major": {
-            "comm_1": "Hirten",
-            "oration": "Barmherziger Gott, du hast in Zeiten der Not und Gefahr die Kirche von Paderborn auf die Fürbitte des heiligen Liborius beschützt. Erneuere in unseren Tagen die Zeichen deines Heils. Stärke uns im Vertrauen auf deine helfende Hand und lehre uns deine Wege.^ORV"
-          },
-          "Laudes": {
-            "button": "Rückführung der Reliquien des hl. Bischofs Liborius",
-            "genitiv": "des heiligen Liborius"
-          }
-        }
-      },
-      "3": {
-        "d1": {
-          "major": {
-            "comm_1": "MärtPl",
-            "oration": "Herr und Gott, du hast die beiden heiligen Brüder Ewald als Zeugen deines Wortes zu den Sachsen gesandt. Durch ihr Martyrium und auf ihre Fürsprache bewege auch uns, im Leben zu bezeugen, was wir im Glauben bekennen.^ORV"
-          },
-          "Lesehore": {
-            "patr_autor": "Beda Venerabilis († 735)",
-            "patr_werk": "Aus der Englischen Kirchengeschichte Bedas des Ehrwürdigen.",
-            "patr_text": "^hDas ruhmreiche Leiden der Diener Gottes^pAls die Brüder Ewald in das Land gekommen waren, kehrten sie bei einem Meier ein und baten ihn, er möge sie zu seinem Fürsten bringen, sie hätten eine Botschaft an ihn und müssten ihm eine nützliche Sache berichten. Der Meier nahm sie auf und versprach, sie zum Fürsten zu senden, wie sie es erbeten hatten, behielt sie aber einige Tage bei sich.^pAls die heidnische Bevölkerung sie als Bekenner einer anderen Religion erkannte – denn sie beteten und sangen Psalmen und brachten Gott täglich das Opfer des Heils dar, da sie die heiligen Geräte und einen zum Altar geweihten Tisch bei sich hatten –, kamen sie auf den Verdacht, sie würden den Fürsten, wenn sie mit ihm redeten, seinen Göttern abspenstig machen und zu der neuen Religion herüberziehen; sie fürchteten, dass so allmählich das ganze Land gezwungen würde, den alten Gottesdienst zu verlassen und den neuen anzunehmen. ^pDeshalb überfielen sie die beiden und töteten sie. Der weiße Ewald fand einen raschen Tod durch das Schwert, der schwarze hingegen wurde langsam zu Tode gepeinigt, und seine Glieder wurden schrecklich verstümmelt. Ihre Leichname warf man in den Rhein.^pAls dies der Fürst, den sie hatten sehen wollen, vernahm, zürnte er sehr, dass Fremde, die zu ihm kommen wollten, nicht zu ihm gelassen worden waren. Er schickte deshalb hin, ließ alle Bewohner jenes Dorfes töten und das Dorf selbst in Brand stecken. Die genannten Priester und Diener Gottes erlitten den Martertod am 3. Oktober.",
-            "patr_resp1": "Alle, die auf den Herrn vertrauen, werden die Wahrheit erkennen, und die Treuen werden bei ihm bleiben in Liebe. Denn Gnade und Erbarmen wird seinen Erwählten zuteil.",
-            "patr_resp2": "Die Gerechten werden Völker richten und über Nationen herrschen, und der Herr wird ihr König sein in Ewigkeit.",
-            "patr_resp3": "Fürchtet euch nicht vor denen, die den Leib töten, die Seele aber nicht töten können."
-          },
-          "Laudes": {
-            "button": "Die beiden hl. Ewalde",
-            "farbe": "r",
-            "genitiv": "der beiden heiligen Ewalde"
-          }
-        }
-      },
-      "5": {
-        "d1": {
-          "major": {
-            "comm_1": "Mann",
-            "oration": "Allmächtiger, ewiger Gott, der heilige Diakon Meinolf hat mit all seiner Kraft für den Aufbau der Kirche von Paderborn gewirkt; schütze auch in unserer Zeit die Kirche dieses Landes, und festige ihre gemeinschaftliche Verbindung mit dem Nachfolger des heiligen Petrus und mit der Schwesterkirche von Le Mans.^ORV"
-          },
-          "Lesehore": {
-            "patr_autor": "Diakon Erconrad (9. Jh.)",
-            "patr_werk": "Aus der Translatio des hl. Liborius.",
-            "patr_text": "^hMeinolf verspricht die Gründung eines Klosters^pAls der Archidiakon Meinolf die nach Gottes Fügung großen Wunderzeichen gesehen hatte, da gab er, erschüttert aus Gottesfurcht und Liebe zugleich, seinen ganzen Erbanteil hin zum hochheiligen Leib des seligen Liborius und machte das feierliche Gelübde, an einem Ort namens Böddeken ein Kloster zu bauen und dort zum Dienst der Gottesgebärerin und des heiligen Liborius eine Gemeinschaft von gottgeweihten Frauen zu sammeln.^pAls dann diese fromme und allen Augenzeugen wohlgefällige Übergabe angesichts des genannten Bischofs Aldrich erfolgt war, die Folodag, Bischof Badurads Vogt, vor den Gefährten jenes Meinolf, dem Priester Adalbert, dem Diakon Aldrich und dem Subdiakon Drudwin als Zeugen entgegengenommen hatte, da fielen sie auf ihr Angesicht vor dem Altar des Herrn nieder zu Füßen des (nun verewigten) Bischofs Aldrich mit der Bitte, heimkehren zu dürfen.^pDer Oberhirte gab den Segen und vertraute ihnen dann vor allem Klerus und Volk den kostbaren Schatz an, auf dass er immer gebührend in Ehren gehalten würde.",
-            "patr_resp1": "Wenn du vollkommen sein willst, verkaufe, was du hast, und gib es den Armen; so wirst du einen Schatz im Himmel haben.",
-            "patr_resp2": "Dann komm und folge mir nach.",
-            "patr_resp3": "Keiner von euch ist mein Jünger, wenn er nicht auf seinen Besitz verzichtet."
-          },
-          "Laudes": {
-            "button": "Hl. Meinolf von°Böddeken/Paderborn",
-            "nominativ": "Der heilige Meinolf",
-            "genitiv": "des heiligen Meinolf"
           }
         }
       }
