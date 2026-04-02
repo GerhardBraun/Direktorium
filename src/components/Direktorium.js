@@ -610,6 +610,21 @@ const PrayerTextDisplay = ({
     }
     if (texts.dateCompare === '01-01' && ['invitatorium', 'lesehore', 'laudes'].includes(hour))
       note = "Ein gesegnetes neues Jahr!"
+    if (texts.swdCombined === 'q-6-4' && hour === 'vesper') {
+      localPrefLanguage === '_lat'
+        ? note = "Vesperæ dicuntur tantum ab iis, qui Missæ vespertinæ in Cena Domini non intersunt."
+        : note = "Die Vesper wird nur von denen gebetet, die nicht an der Abendmahlsmesse teilnehmen."
+    }
+    if (texts.swdCombined === 'q-6-5' && hour === 'vesper') {
+      localPrefLanguage === '_lat'
+        ? note = "Vesperæ dicuntur tantum ab iis, qui Actioni liturgicæ postmeridianæ non intersunt."
+        : note = "Die Vesper wird nur von denen gebetet, die nicht an der nachmittäglichen Feier vom Leiden und Sterben Christi teilnehmen."
+    }
+    if (texts.swdCombined === 'q-6-6' && hour === 'komplet') {
+      localPrefLanguage === '_lat'
+        ? note = "Completorium dicitur tantum ab iis, qui Vigiliæ paschali non intersunt."
+        : note = "Die Komplet wird nur von denen gebetet, die nicht an der Feier der Osternacht teilnehmen."
+    }
     return !note ? null : (
       <div className="long-rubric mb-0 pt-4">
         {formatPrayerText(note)}

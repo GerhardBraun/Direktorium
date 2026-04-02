@@ -16297,6 +16297,7 @@ export const brevierData = {
           "bitten_r": "Heilige das Volk, das du mit deinem Blut erkauft hast.",
           "bitten": "Du hast das Reich Gottes verkündet und zur Umkehr aufgerufen;^qerneuere deine Kirche im Geist des Evangeliums.^pDu hast ein Herz gehabt für die Armen und Bedrängten;^qsteh denen bei, die keinen Helfer haben.^pDu berufst immer wieder Menschen in deine Kirche;^qerleuchte die Katechumenen, die sich auf die Taufe vorbereiten.^pDu willst nicht den Tod des Sünders, sondern dass er lebe;^qerbarme dich derer, die mit uns in diesen vierzig Tagen Buße tun.^pNimm unsere Verstorbenen gnädig auf^qund lass sie teilhaben an deiner Auferstehung.",
           "oration": "Allmächtiger Gott, zu deiner Ehre und zum Heil der Menschen hast du Christus als ewigen Hohenpriester eingesetzt. Er hat dir durch sein kostbares Blut ein heiliges Volk erworben. Gib, dass wir das Gedächtnis deines Sohnes in Ehrfurcht feiern und die Kraft seines Kreuzes und seiner Auferstehung empfangen.^ORvR",
+          "hymn_1_lat": 3344.1,
           "ant1_lat": "Fecit nos Deo et Patri suo regnum, primogénitus mortuórum et princeps regum terrae.",
           "ant2_lat": "Liberábit Dóminus páuperem a poténte, et ínopem cui non erat adiútor.",
           "ant3_lat": "Sancti vicérunt propter sánguinem Agni et propter verbum testimónii sui.",
