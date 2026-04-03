@@ -16466,7 +16466,7 @@ export const brevierData = {
           "resp3": "",
           "antev": "Wir waren Gottes Feinde. Jetzt sind wir mit ihm versöhnt durch den Tod seines Sohnes.",
           "modeev": "I",
-          "bitten_e": "^rEs empfiehlt sich, die Großen Fürbitten aus der Karfreitagsliturgie (^0rMessbuch, S.°[43]ff^r) hier einzufügen. Doch können auch – nach Belieben – die folgenden Fürbitten genommen werden. Ebenso kann ein stilles Gebet in den Anliegen dieser Fürbitten verrichtet werden.^0r^pLasst uns des Todesleidens Christi gedenken und den Vater im Himmel bitten:",
+          "bitten_e": "Lasst uns des Todesleidens Christi gedenken und den Vater im Himmel bitten:",
           "bitten_r": "Um Christi willen erhöre uns, o°Herr.",
           "bitten": "Behüte die Kirche und heilige dein ganzes Volk.^pBeschütze unseren Papst ^NP.^pSchenke den Bischöfen, Priestern und Diakonen deinen Geist.^pMehre den Glauben und die Erkenntnis der Katechumenen.^pFühre alle Christen in der einen Kirche zusammen.^pLass das jüdische Volk zur Fülle der Erlösung gelangen.^pErleuchte alle, die nicht an Christus glauben.^pGib, dass die Ungläubigen dich als den Schöpfer aller Dinge erkennen.^pLenke Geist und Herz derer, die die Völker regieren.^pTröste die Leidenden und die Bedrängten.^pKomm den Sterbenden zu Hilfe und gib den Toten das ewige Leben.",
           "ant1_lat": "Atténdite, univérsi pópuli, et vidéte dolórem meum.",
@@ -16476,7 +16476,7 @@ export const brevierData = {
           "resp2_lat": "",
           "resp3_lat": "",
           "antev_lat": "Cum inimíci essémus, reconciliáti sumus Deo per mortem Fílii eius.",
-          "bitten_e_lat": "^rPro precibus laudabiliter adhibetur oratio universalis, quæ invenitur in Missali pro hac die. Tamen ad libitum sumi possunt preces quæ hic proponuntur, vel tacita oratio fieri potest secundum intentiones ibi enuntiatas.^0r^pDómini nostri Iesu Christi mortem pie commemorántes, ex qua mundo vita proflúxit, Deum Patrem deprecémur, dicéntes:",
+          "bitten_e_lat": "Dómini nostri Iesu Christi mortem pie commemorántes, ex qua mundo vita proflúxit, Deum Patrem deprecémur, dicéntes:",
           "bitten_r_lat": "Per mortem Fílii tui exáudi nos, Dómine.",
           "bitten_lat": "Ecclésiam tuam coadúna.^pPapam nostrum ^NakkP tuére.^pCunctos órdines et fidéles pópuli tui Spíritu sanctífica.^pCatechumenórum fidem et intelléctum adáuge.^pCóngrega christiános.^pIudǽos ad redemptiónis perduc plenitúdinem.^pIn Christum non credéntes luce claritátis tuæ illústra.^pTe negántibus signa tuæ pietátis in rebus creátis revéla.^pRempúblicam moderántium mentes et corda dírige.^pOmnes tribulátos consoláre.^pDefúnctis succúrre.",
           "les_text_lat": "Christus passus est pro vobis vobis relínquens exémplum, ut sequámini vestígia eius: qui peccátum non fecit, nec invéntus est dolus in ore ipsíus; qui cum maledicerétur, non remaledicébat, cum paterétur, non comminabátur, commendábat autem iuste iudicánti; qui peccáta nostra ipse pértulit in córpore suo super lignum, ut peccátis mórtui iustítiæ viverémus; cuius livóre sanáti estis.^LRESP"

@@ -391,6 +391,7 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
             .replace('^R:', '')
             .replace(/^›|\^<|_lat|_neu|_ben|\^SLICE|\^APSHALL/g, '');
         marker = '';
+
     }
 
     const replaceRESP = (text) => {

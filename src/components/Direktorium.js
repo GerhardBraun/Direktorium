@@ -637,6 +637,9 @@ const PrayerTextDisplay = ({
       && hour === 'lesehore'
       && (getValue('patr_resp1') === 'LEER' || localPrefLatin))
       ? ordinarium('advent', hour, localPrefLanguage) : {};
+  const goodFriday =
+    (texts?.swd.combined === 'q-6-5' && hour === 'vesper' && localPrefLongform)
+      ? ordinarium('goodFriday', hour, localPrefLanguage) : '';
 
   return (
     <div className="leading-[1.33em] pb-8">
@@ -924,26 +927,31 @@ const PrayerTextDisplay = ({
             )}
           </div>
         )}
-
         {getValue("bitten") && (
           <div className="mb-0">
             <SectionHeader
               title={"BITTEN"}
               field="bitten"
             />
-            {getValue("bitten_e") && (
+            {getValue("bitten_e") && !goodFriday && (
               <div className="mb-2">
                 {formatPrayerText(getValue("bitten_e"))}
               </div>
             )}
-            {getValue("bitten_r") && (
+            {getValue("bitten_r") && !goodFriday && (
               <div className="mb-2 flex gap-0">
                 <div>{formatPrayerText(getValue("bitten_r"), "R°°")}</div>
               </div>
             )}
-            {getValue("bitten") && (
+            {getValue("bitten") && !goodFriday && (
               <div className="mb-[-0.75em]">
-                {formatPrayerText(getValue("bitten"), localPrefLongform ? "^R:" + getValue("bitten_r") : '')}              </div>
+                {formatPrayerText(getValue("bitten"), localPrefLongform ? "^R:" + getValue("bitten_r") : '')}
+              </div>
+            )}
+            {goodFriday && (
+              <div className="mb-[-0em]">
+                {formatPrayerText(goodFriday.intercessions)}
+              </div>
             )}
           </div>
         )}
