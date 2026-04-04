@@ -198,7 +198,7 @@ export const formatPsalm = (psalmRef, num = 0, localPrefLanguage = '', modeOverr
                     {text && <div className="whitespace-pre-wrap">
                         {formatPrayerText(text, localPrefLanguage)}
                     </div>}
-                    {(![151, 160].includes(number) || (number === 151 && localPrefLanguage === "_lat")) &&
+                    {(![157, 160].includes(number) || (number === 157 && localPrefLanguage === "_lat")) &&
                         <div className="whitespace-pre-wrap">
                             {formatPrayerText(doxology, localPrefLanguage)}
                         </div>}
@@ -292,8 +292,8 @@ const PsalmCantDisplay = ({ text, doxology, localPrefLanguage, number, canonical
     ];
     const toneLabels = { 'IX': 'IX (per.)', 'X': 'X (irr.)' };
 
-    const showDoxology = ![151, 160].includes(number)
-        || (number === 151 && localPrefLanguage === '_lat');
+    const showDoxology = ![157, 160].includes(number)
+        || (number === 157 && localPrefLanguage === '_lat');
 
     return (
         <>

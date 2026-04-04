@@ -117,6 +117,19 @@ const tokenizeHalfVerse = (hv) => {
 const formatHalfVerse = (hv, cadence, cadenceType) => {
     if (!hv || !hv.trim()) return hv;
 
+    // ^l-Suffix (Responsorium-Abschluss) nach || abtrennen und unverändert anhängen.
+    // formatPrayerText verarbeitet ^l selbst; hier soll nur der Teil bis ^l behandelt werden.
+    // Suche beginnt NACH ||, damit ein ^l vor || nicht fälschlich abgetrennt wird.
+    let lSuffix = '';
+    const dblBarPos = hv.indexOf('||');
+    if (dblBarPos >= 0) {
+        const lIdx = hv.indexOf('^l', dblBarPos);
+        if (lIdx >= 0) {
+            lSuffix = hv.slice(lIdx);
+            hv = hv.slice(0, lIdx);
+        }
+    }
+
     // --- Flexa-Sonderfall (§ Sonderfall 4) ---
     if (cadenceType === 'flexa') {
         let result = hv;
@@ -145,7 +158,7 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
             );
         }
         // 0-Marker (Silbengrenzen) am Ende aus dem Text entfernen
-        return result.replace(/(?<!\^)0/g, '');
+        return result.replace(/(?<!\^)0/g, '') + lSuffix;
     }
 
     const { v, b } = cadenceType === 'mk'
@@ -332,7 +345,7 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
         tone[dual1Idx + 1] = 3;
     }
 
-    return buildTaggedText(slots, tone);
+    return buildTaggedText(slots, tone) + lSuffix;
 };
 
 // Hilfsfunktion: Tonzuweisung für b=1 (Normalfall)
