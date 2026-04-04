@@ -317,14 +317,20 @@ const SectionHeader = ({
             {showLongformToggle && (
                 <ButtonGroup>
                     <button
-                        onClick={() => { setLocalPrefLongform(false); setLocalStorage('prefLongform', 'false'); }}
+                        onClick={() => {
+                            setLocalPrefLongform(false);
+                            if (!isGoodFriday) setLocalStorage('prefLongform', 'false');
+                        }}
                         className={!localPrefLongform ? 'underline' : ''}
                     >
                         {isGoodFriday ? 'aus dem Stundenbuch' : 'kurz'}
                     </button>
                     {" | "}
                     <button
-                        onClick={() => { setLocalPrefLongform(true); setLocalStorage('prefLongform', 'true'); }}
+                        onClick={() => {
+                            setLocalPrefLongform(true);
+                            if (!isGoodFriday) setLocalStorage('prefLongform', 'true');
+                        }}
                         className={localPrefLongform ? 'underline' : ''}
                     >
                         {isGoodFriday ? 'Messbuch' : 'lang'}

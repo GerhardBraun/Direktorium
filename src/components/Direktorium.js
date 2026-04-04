@@ -402,6 +402,7 @@ const PrayerTextDisplay = ({
     if (hour === 'vesper' && texts?.rank?.hasErsteVesper && texts?.vesper?.prefComm) {
       setLocalPrefComm(texts?.vesper?.prefComm);
     };
+    setLocalPrefLongform(localStorage.getItem('prefLongform') === 'true');
     setAlternativePsalms(texts?.rank?.useAlternativePsalms || false);
   }, [hour, texts]);
 
