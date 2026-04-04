@@ -36,6 +36,7 @@ export const formatCantMarkers = (text, mode) => {
     text = text.replace(/\[([+-])([^\]]+)\]/g, (_, sign, content) => sign === '+' ? content : '');
     text = text.replace(/(?<!\^)\+e/g, 'e');
     text = text.replace(/(?<!\^)-e/g, '');
+    text = text.replace(/(?<!\^)\'e/g, '’');
 
     // > vor Vokal → ^ELL-Tag (elidierende Silbe, grau-kursiv): muss vor dem ^b/^u-Tagging geschehen,
     // damit der Tag nicht innerhalb von ^b/^u landet und von processInlineFormats übergangen wird.
