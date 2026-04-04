@@ -16409,6 +16409,7 @@
           "mode1": "IV",
           "mode2": "II",
           "mode3": "VIII",
+          "hymn_1_lat": 3361.1,
           "ant1_lat": "In pace in idípsum dórmiam et requiéscam.",
           "ant2_lat": "Caro mea requiéscet in spe.",
           "ant3_lat": "Elevámini, portæ æternáles, et introíbit Rex glóriæ."
@@ -16446,6 +16447,7 @@
           "bitten_e": "Gepriesen sei Jesus Christus, unser Erlöser, der für uns gelitten hat, begraben wurde und von den Toten auferstanden ist. Zu ihm lasst uns beten:",
           "bitten_r": "Herr, erbarme dich unser.",
           "bitten": "Du hast dein Leben für uns dahingegeben,^qund dein Leib wurde ins Grab gelegt.^pWie ein Weizenkorn wurdest du in die Erde gesenkt,^qum uns die Frucht des Lebens zu bringen.^pDu bist in das Reich des Todes hinabgestiegen,^qum die Seelen der Gerechten zu befreien.^pDeine heilige Mutter hat unter dem Kreuz gestanden^qund bei deinem Begräbnis ausgeharrt.",
+          "hymn_1_lat": 3362.1,
           "ant1_lat": "Plangent eum quasi unigénitum, quia ínnocens Dóminus occísus est.",
           "ant2_lat": "A porta ínferi érue, Dómine, ánimam meam.",
           "ant3_lat": "Ego fui mórtuus, et ecce sum vivens in sǽcula sæculórum, et hábeo claves mortis et inférni.",
@@ -16528,6 +16530,7 @@
           "bitten_e": "Lasst uns beten zu Christus, unserem Erlöser, der für uns gestorben ist und begraben wurde:",
           "bitten_r": "Herr, erbarme dich unser.",
           "bitten": "In deinem Tod hast du uns deine Liebe offenbart;^qziehe alle Menschen an dich.^pDu hast für deine Feinde gebetet;^qhilf den Verfolgten, Böses durch Gutes zu überwinden.^pDu hast deine Jünger nicht verlassen, als sie dich verließen;^qsteh denen bei, die nicht glauben können.^pDu wolltest in das Grab gelegt werden;^qgib allen Hoffnung, die an einem Grabe trauern.^pDas Grab hat dich nicht festhalten können;^qrufe die Toten aus ihren Gräbern zum Leben.",
+          "hymn_1_lat": 3364.1,
           "ant1_lat": "O mors, ero mors tua; morsus tuus ero, inférne.",
           "ant2_lat": "Sicut fuit Ionas in ventre ceti tribus diébus et tribus nóctibus, ita erit Fílius hóminis in corde terræ.",
           "ant3_lat": "Sólvite templum hoc, dicit Dóminus, et post tríduum reædificábo illud. Hoc autem dicébat de templo córporis sui.",
