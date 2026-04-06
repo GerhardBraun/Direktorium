@@ -380,6 +380,7 @@ const PrayerTextDisplay = ({
   const [showKomplet, setShowKomplet] = useState(true);
   const [ommitConfiteor, setOmmitConfiteor] = useState(localStorage.getItem('ommitConfiteor') === 'true');
   const [alternativePsalms, setAlternativePsalms] = useState(texts.rank?.useAlternativePsalms || false);
+  const [showMarAntInVesper, setShowMarAntInVesper] = useState(false);
 
   useEffect(() => {
     setLocalPrefComm(texts?.prefComm || 0);
@@ -404,6 +405,7 @@ const PrayerTextDisplay = ({
     };
     setLocalPrefLongform(localStorage.getItem('prefLongform') === 'true');
     setAlternativePsalms(texts?.rank?.useAlternativePsalms || false);
+    setShowMarAntInVesper(false);
   }, [hour, texts]);
 
   if (!hour || !texts || !texts[hour]) {
@@ -662,6 +664,8 @@ const PrayerTextDisplay = ({
           onSelectHour={onSelectHour}
           texts={texts}
           prefSollemnity={prefSollemnity}
+          onMarianAntClick={texts?.komplet?.prefKomplet === 'wt' && !texts?.komplet?.showKompletWt
+            ? () => setShowMarAntInVesper(v => !v) : undefined}
         />
         <div className="bg-white dark:bg-gray-800 rounded-sm shadow pl-2 pr-6 pb-1">
           {hour === "komplet" ? (
@@ -1106,22 +1110,25 @@ const PrayerTextDisplay = ({
           </div>
         )}
 
-        {hour === 'komplet' && showKomplet && (
-          <div className="mb-0">
-            <SectionHeader
-              title="MARIANISCHE ANTIPHON"
-              field="marant"
-            />
-            <MarAntSelector
-              season={season}
-              selectedDate={selectedDate}
-              swdCombined={texts?.swd.combined}
-              localPrefLatin={localPrefLatin}
-              formatPrayerText={formatPrayerText}
-            />
+        {((hour === 'komplet' && showKomplet)
+          || (hour === 'vesper' && showMarAntInVesper)
+        ) && (
+            <div className="mb-0">
+              <SectionHeader
+                title="MARIANISCHE ANTIPHON"
+                field="marant"
+              />
+              <MarAntSelector
+                season={season}
+                selectedDate={selectedDate}
+                swdCombined={texts?.swd.combined}
+                localPrefLatin={localPrefLatin}
+                formatPrayerText={formatPrayerText}
+                noSelection={hour === 'vesper'}
+              />
 
-          </div>
-        )}
+            </div>
+          )}
       </div>
 
       <div className="mt-2">
@@ -1130,6 +1137,8 @@ const PrayerTextDisplay = ({
           onBack={onBack}
           onSelectHour={onSelectHour}
           texts={texts}
+          onMarianAntClick={texts?.komplet?.prefKomplet === 'wt' && !texts?.komplet?.showKompletWt
+            ? () => setShowMarAntInVesper(v => !v) : undefined}
         />
       </div>
     </div>

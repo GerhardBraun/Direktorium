@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
 
-const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, formatPrayerText }) => {
+const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, formatPrayerText, noSelection = false }) => {
     season = ['j-1-0', 'j-34-6'].includes(swdCombined) ? 'a' : season;
 
     const [selectedAntSeason, setSelectedAntSeason] = useState(null);
@@ -143,6 +143,15 @@ const MarAntSelector = ({ season, selectedDate, swdCombined, localPrefLatin, for
 
     const selectedAntiphon = sortedAntiphons.find(ant => ant.season === selectedAntSeason);
     if (!selectedAntiphon) return null; // Sicherheitscheck, falls keine Antiphon gefunden wird
+
+    // In der Vesper: nur Standardantiphon anzeigen, keine Auswahlbuttons
+    if (noSelection) {
+        return (
+            <div className="w-full">
+                {formatPrayerText(selectedAntiphon[`text${suffixLatin}`])}
+            </div>
+        );
+    }
 
     return (
         <div className="w-full">

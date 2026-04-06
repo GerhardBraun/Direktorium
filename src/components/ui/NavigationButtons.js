@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 export const NavigationButtons = ({
-    hour, onBack, onSelectHour, topButton = false, texts, prefSollemnity = '',
+    hour, onBack, onSelectHour, topButton = false, texts, prefSollemnity = '', onMarianAntClick,
 }) => {
     // Zustand für das Fixieren
     const [isDocked, setIsDocked] = useState(false);
@@ -108,6 +108,16 @@ export const NavigationButtons = ({
         const { name, label, arrow = '' } = nextHour;
         // Wenn kein name angegeben ist, nichts tun
         if (!name) return;
+
+        // "Marian. Ant." in der Vesper: State umschalten statt Hore wechseln
+        if (label.startsWith('Marian') && onMarianAntClick) {
+            onMarianAntClick();
+            setTimeout(() => {
+                window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+            }, 50);
+            return;
+        }
+
         localStorage.setItem('ommitOpening',
             ['invitatorium', 'lesehore', 'vigil'].includes(hour)
                 ? 'true' : 'false');
@@ -230,7 +240,7 @@ export const NavigationButtons = ({
             {alignment ? (
                 // Wenn nur ein Button: 2/3 der Breite, rechtsbündig
                 <button
-                    onClick={() => handleHourChange(nextHours[0])}
+                    onClick={() => handleHourChange(alignment === 'right' ? nextHours[1] : nextHours[0])}
                     className={`col-span-4 p-2 rounded-sm text-sm
                         text-${alignment}
                         bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-rubric`}
