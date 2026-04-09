@@ -148,7 +148,7 @@ Diese Marker werden zur Laufzeit durch den Namen des Tagesheiligen bzw. den amti
 ### Psalmtext-Felder
 `text` · `text_lat` · `text_neu` · `text_ben`
 
-Marker: `^p` `^l` `^*` `^+` `^x` · `^r…^0r` `^f…^0f` `^k…^0k` `^c…^0c` `^v…^0v` · `^ö` `^Ö` `^Lö` `^LÖ` · `^ANT` `^KV` · `^HULDKL` `^HULDGR` `^HULDlat` `^HULDaet` · `°`
+Marker: `^p` `^l` `^*` `^+` `^x` · `^r…^0r` `^f…^0f` `^k…^0k` `^c…^0c` `^v…^0v` · `^ö` `^Ö` `^Lö` `^LÖ` · `^ANT` `^KV` ` · `°`
 
 ### Psalmodie-Annotationsfeld
 `text_cant`
