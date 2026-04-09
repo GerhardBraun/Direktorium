@@ -3679,7 +3679,6 @@
           "resp1_lat": "Sancti et iusti",
           "resp2_lat": "in°perpétuum°vivent.",
           "resp3_lat": "Et apud Dóminum est merces eórum.",
-          "patr_resp1_lat": "Nicht mit Worten, sondern mit ihrem Blut haben die Unschuldigen Kinder von dir Zeugnis abgelegt;^qmach uns bereit, dich vor den Menschen zu bekennen.^pUnmündige Kinder hast du als Erstlinge deines Reiches in den Himmel vorausgesandt;^qgib, dass auch wir in dein Reich gelangen.^pSie waren noch nicht fähig zu kämpfen und haben dennoch die Siegespalme errungen;^qlass nicht zu, dass wir im Kampf mit dem Bösen erliegen.^pDu hast sie aufgenommen in die Schar derer, die ihre Kleider gewaschen haben in deinem Blut;^qmach uns rein von aller Sünde.",
           "antev_lat": "Innocéntes pro Christo infántes occísi sunt, ab iníquo rege lacténtes interfécti sunt: ipsum sequúntur Agnum sine mácula, et dicunt semper: Glória tibi, Dómine.",
           "les_text_lat": "Vox in Rama audíta est lamentatiónis, luctus et fletus Rachel plorántis fílios suos et noléntis consolári super eis, quia non sunt.",
           "oration_lat": "Deus, cuius hodiérna die præcónium Innocéntes mártyres non loquéndo, sed moriéndo conféssi sunt, da, quǽsumus, ut fidem tuam, quam lingua nostra lóquitur, étiam móribus vita fateátur.^ORlV"
@@ -5971,7 +5970,7 @@
       },
       "5": {
         "Invitatorium": {
-          "ant0": "Danket dem Herrn; ^HULDKL!",
+          "ant0": "Danket dem Herrn; denn seine Huld währt ewig!",
           "mode0": "II",
           "ant0_lat": "Confitémini Dómino, quia in ætérnum misericórdia eius."
         },
@@ -9889,7 +9888,7 @@
           "les_text_neu": "Wenn Christus in euch ist, dann ist zwar der Leib tot aufgrund der Sünde, der Geist aber ist Leben aufgrund der Gerechtigkeit. Wenn aber der Geist dessen in euch wohnt, der Jesus von den Toten auferweckt hat, dann wird er, der Christus von den Toten auferweckt hat, auch eure sterblichen Leiber lebendig machen durch seinen Geist, der in euch wohnt.^RESP",
           "bitten_e": "Gepriesen sei Christus, der auferstandene Herr, der allezeit bei seiner Kirche ist:",
           "bitten_r": "Herr, bleibe bei uns.",
-          "bitten": "Du bist der Sieger über Sünde und Tod;^qgeleite uns in deiner Macht durch diesen Tag.^pBleib uns bei mit deinem Geist^qund zeige uns deine Liebe.^pDu hast Frieden gestiftet zwischen Himmel und Erde;^qmach uns zu Boten deines Friedens.^pDu wirst am Ende der Zeit deinen Sieg vollenden;^qlass uns voll Zuversicht dein Kommen erwarten.",
+          "bitten": "Du bist der Sieger über Sünde und Tod;^qgeleite uns in deiner Macht durch diesen Tag.^pSteh uns bei mit deinem Geist^qund zeige uns deine Liebe.^pDu hast Frieden gestiftet zwischen Himmel und Erde;^qmach uns zu Boten deines Friedens.^pDu wirst am Ende der Zeit deinen Sieg vollenden;^qlass uns voll Zuversicht dein Kommen erwarten.",
           "bitten_e_lat": "Christum, qui resurréxit et semper præsens est in Ecclésia sua, venerémur, illum invocántes:",
           "bitten_r_lat": "Mane nobíscum, Dómine.",
           "bitten_lat": "Dómine Iesu, de peccáto et morte triúmphans,^qesto in médio nostri, qui vivis in sǽculum sǽculi.^pVeni ad nos cum fortitúdine tua invícta,^qet benignitátem Dei córdibus nostris osténde.^pAdiuva mundum discórdia laborántem,^qtu qui solus potens es ad ánimos regenerándos et reconciliándos.^pConfírma nos in fide novíssimæ victóriæ,^qnosque corróbora in spe advéntus tui.",
@@ -13279,7 +13278,7 @@
           "psalm1": 118.0,
           "psalm2": 170.0,
           "psalm3": 150.0,
-          "ant1": "Danket dem Herrn, ^HULDKL.^ö",
+          "ant1": "Danket dem Herrn, denn seine Huld währt ewig.^ö",
           "ant2": "Preiset den Herrn, ihr seine Werke alle.^ö",
           "ant3": "Alles, was atmet, lobe den Herrn.^ö",
           "mode1": "VI",
@@ -13494,7 +13493,7 @@
           "psalm1": 136.1,
           "psalm2": 136.5,
           "psalm3": 151.0,
-          "ant1": "Danket dem Herrn, ^HULDKL.",
+          "ant1": "Danket dem Herrn, denn seine Huld währt ewig.",
           "ant2": "Herr, allmächtiger Gott! Groß und wunderbar sind all deine Werke.",
           "ant3": "Das Geheimnis seines Willens hat Gott uns kundgetan: in der Fülle der Zeiten alles in Christus zu vereinen.",
           "mode1": "V",
@@ -14034,7 +14033,7 @@
           "les_stelle": "3,16",
           "les_text": "Daran haben wir die Liebe erkannt, dass Er sein Leben für uns hingegeben hat. So müssen auch wir für die Brüder das Leben hingeben.",
           "resp0": "Danket dem Herrn, denn er ist gütig.",
-          "resp1": "^HULDGR",
+          "resp1": "Denn seine Huld währt ewig.",
           "resp0_lat": "Confitémini Dómino quóniam bonus.",
           "resp1_lat": "Quóniam in sǽculum misericórdia eius.",
           "les_text_lat": "In hoc nóvimus caritátem, quóniam ille pro nobis ánimam suam pósuit; et nos debémus pro frátribus ánimas pónere."

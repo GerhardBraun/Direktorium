@@ -602,10 +602,6 @@ export const formatPrayerText = (provText, localPrefLanguage = '', marker = '',
     text = text
         .replace('O-AntiphonVomTag', OAntiphon.dt)
         .replace('AntiphonaDiei', OAntiphon.lat)
-        .replace(/\^HULDKL/g, 'denn seine Huld währt ewig')
-        .replace(/\^HULDGR/g, 'Denn seine Huld währt ewig')
-        .replace(/\^HULDlat/g, '^*quóniam in sǽculum misericórdia eius')
-        .replace(/\^HULDaet/g, '^*quóniam in ætérnum misericórdia eius')
         .replace(/\^SPRICHT/g, '^(So spricht der Herr:^)^l')
         .replace(/\^SPRGOTT/g, '^(So spricht Gott, der Herr:^)^l')
         .replace(/\^EINZUG/g, '') // Einzug bei Sprechzeilen-Gliederung im Messlektionar
