@@ -7,14 +7,14 @@ export const PSALM_TONE_CADENCE = {
     'I': { mk: [0, 2], sk: [2, 1] },
     'Ia': { mk: [0, 2], sk: [2, 1] },
     'Ig': { mk: [0, 2], sk: [2, 1] },
-    'Im': { mk: [0, 2], sk: [2, 1, 'noUnstressed'], skNoUnstressed: true },
+    'Im': { mk: [0, 2], sk: [2, 1, 'noUnstressed'] },
     'II': { mk: [0, 1], sk: [1, 1] },
     'IIc': { mk: [0, 1], sk: [2, 1] },
-    'IIm': { mk: [0, 1], sk: [2, 1, 'noUnstressed'], skNoUnstressed: true },
+    'IIm': { mk: [0, 1], sk: [2, 1, 'noUnstressed'] },
     'III': { mk: [0, 2], sk: [2, 1] },
     'IV': { mk: [2, 1], sk: [3, 1] },
     'IVa': { mk: [2, 1], sk: [1, 1] },
-    'IVg': { mk: [2, 1], sk: [0, 1, 'singleTone'], skSingleTone: true },
+    'IVg': { mk: [2, 1], sk: [0, 1, 'singleTone'] },
     'V': { mk: [0, 1], sk: [0, 2] },
     'VI': { mk: [1, 1], sk: [3, 1] },
     'VII': { mk: [0, 2], sk: [0, 2] },
@@ -22,42 +22,42 @@ export const PSALM_TONE_CADENCE = {
     'VIIIa': { mk: [0, 1], sk: [2, 1] },
     'VIIIc': { mk: [0, 1], sk: [2, 1] },
     'IX': { mk: [0, 2], sk: [2, 1] },
-    'X': { mk: [0, 1, 'maleVeff'], sk: [0, 2], mkMaleVeff: true },
+    'X': { mk: [0, 1, 'masculineShift'], sk: [0, 2] },
     'IA': { mk: [0, 2], sk: [2, 1], equals: 'I' },
     'IB': { mk: [0, 2], sk: [2, 1], equals: 'Ig' },
     'IC': { mk: [0, 2], sk: [2, 1], },
     'ICm': { mk: [0, 2], sk: [2, 1, 'noUnstressed'], equals: 'Im' },
     'ID': { mk: [0, 2], sk: [2, 1], equals: 'Ia' },
-    'ID’': { mk: [0, 2], sk: [2, 1, 'noMaleVeff'] },
+    'ID’': { mk: [0, 2], sk: [2, 1, 'noMasculineShift'] },
     'IIA': { mk: [0, 1], sk: [1, 1], equals: 'II' },
-    'IIA’': { mk: [0, 1], sk: [1, 1, 'noMaleVeff'] },
+    'IIA’': { mk: [0, 1], sk: [1, 1, 'noMasculineShift'] },
     'IIBm': { mk: [0, 1], sk: [1, 1, 'noUnstressed'] },
-    'IIC’': { mk: [0, 1], sk: [2, 1, 'noMaleVeff'] },
+    'IIC’': { mk: [0, 1], sk: [2, 1, 'noMasculineShift'] },
     'IIDm': { mk: [0, 1], sk: [2, 1, 'noUnstressed'], equals: 'IIm' },
     'II*': { mk: [0, 1], sk: [2, 1], equals: 'IIc' },
     'II*Dm': { mk: [0, 1], sk: [2, 1, 'noUnstressed'] },
     'IIIA': { mk: [0, 2], sk: [0, 2] },
     'IIIBm': { mk: [0, 2], sk: [0, 2, 'noUnstressed'] },
-    'IIIC’': { mk: [0, 2], sk: [0, 2, 'noMaleVeff'] },
+    'IIIC’': { mk: [0, 2], sk: [0, 2, 'noMasculineShift'] },
     'IVA': { mk: [2, 1], sk: [3, 1], equals: 'IV' },
     'IVA°': { mk: [2, 1], sk: [3, 1] },
     'IVB': { mk: [2, 1], sk: [3, 1] },
     'IVC': { mk: [2, 1], sk: [2, 1] },
     'IVEm': { mk: [2, 1], sk: [1, 1, 'noUnstressed'] },
-    'IVD’': { mk: [2, 1], sk: [2, 1, 'noMaleVeff'] },
+    'IVD’': { mk: [2, 1], sk: [2, 1, 'noMasculineShift'] },
     'IVF': { mk: [2, 1], sk: [0, 1, 'singleTone'], equals: 'IVg' },
     'VIIA': { mk: [0, 2], sk: [0, 2], equals: 'VII' },
-    'VIIA’': { mk: [0, 2], sk: [0, 2, 'noMaleVeff'] },
+    'VIIA’': { mk: [0, 2], sk: [0, 2, 'noMasculineShift'] },
     'VIIBm': { mk: [0, 2], sk: [0, 2, 'noUnstressed'] },
     'VIID': { mk: [0, 2], sk: [0, 2] },
-    'VIID’': { mk: [0, 2], sk: [0, 2, 'noMaleVeff'] },
+    'VIID’': { mk: [0, 2], sk: [0, 2, 'noMasculineShift'] },
     'VIIIA': { mk: [0, 1], sk: [2, 1], equals: 'VIII' },
     'VIIIB': { mk: [0, 1], sk: [2, 1], equals: 'VIIIc' },
     'VIIIC': { mk: [0, 1], sk: [2, 1] },
     'VIIID': { mk: [0, 1], sk: [2, 1] },
-    'VIIID’': { mk: [0, 1], sk: [2, 1, 'noMaleVeff'] },
+    'VIIID’': { mk: [0, 1], sk: [2, 1, 'noMasculineShift'] },
     'VIIIEm': { mk: [0, 1], sk: [2, 1, 'noUnstressed'] },
-    'VIIIF’': { mk: [0, 1], sk: [2, 1, 'noMaleVeff'] },
+    'VIIIF’': { mk: [0, 1], sk: [2, 1, 'noMasculineShift'] },
 
 };
 
@@ -217,7 +217,7 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
 
     if (dblBarIdx < 0) return hv; // kein ||: Text unverändert
 
-    // Sonderfall 1 (b=1): || steht VOR | im Text (Nebenbetonung am Versende)
+    // Sonderfall 1 (b=1): || steht VOR | im Text (Nebenbetonung am Versschluss)
     const sonderfall1 = (b === 1) && sglBarIdxs.some(idx => idx > dblBarIdx);
     // Verkürzte Kadenz: Marker 4 und 3 auf demselben Slot (Vers zu kurz für separaten 3er-Slot)
     const has43Combined = b === 1 && !sonderfall1 &&
@@ -230,10 +230,11 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
         countdownIdxs['3'] === countdownIdxs['2'];
     // Sonderfall 3 (b=1): 4-Marker vorhanden (aber nicht wenn 4+3 kombiniert auf einem Slot)
     const has4 = !has43Combined && ('4' in countdownIdxs);
-    // skNoUnstressed: bei männlichem Versschluss kein vEff=v+1, weil der 4-Marker
-    // dort keine zusätzliche Kadenzstelle eröffnet, sondern nur den Kadenzanfang markiert.
-    const noUnstressed = !!(cadence.skNoUnstressed && cadenceType === 'sk');
-    const v_eff = (b === 1 && has4 && !noUnstressed) ? v + 1 : v;
+    // noUnstressed (sk): kein Ton nach ||; Koda-Silben werden mit || geklammert.
+    // noMasculineShift (sk): bei männlichem Versschluss fällt die letzte Note weg → kein vEff=v+1.
+    const noUnstressed = cadenceType === 'sk' && cadence.sk.includes('noUnstressed');
+    const noMasculineShift = cadenceType === 'sk' && cadence.sk.includes('noMasculineShift');
+    const v_eff = (b === 1 && has4 && !noUnstressed && !noMasculineShift) ? v + 1 : v;
 
     // Kadenzanfang (Slot-Index)
     let cadStartIdx;
@@ -272,16 +273,16 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
     //   realVEff ≥ 3 → auf den 43-kombinierten Slot; realVEff = 2 → auf den 2-Marker-Slot.
     // Tilde (Signal: zwei Kadenztöne auf einer Silbe) nur wenn realVEff = 4.
     if (has43Combined) {
-        const isMaennlichShort = !slots.slice(dblBarIdx + 1).some(s => s.text.trim().length > 0);
-        const realVEff43 = isMaennlichShort && !noUnstressed ? v + 1 : v;
+        const isMasculineShort = !slots.slice(dblBarIdx + 1).some(s => s.text.trim().length > 0);
+        const realVEff43 = isMasculineShort && !noUnstressed && !noMasculineShift ? v + 1 : v;
         if (realVEff43 >= 3 && cadStartIdx !== countdownIdxs['3']) {
             cadStartIdx = countdownIdxs['3']; // = 43-kombinierter Slot
         }
         // v=1, männlicher Versschluss → realVEff43=2: cadStartIdx auf den 2-Marker-Slot.
-        if (isMaennlichShort && !noUnstressed && realVEff43 === 2) {
+        if (isMasculineShort && !noUnstressed && realVEff43 === 2) {
             cadStartIdx = countdownIdxs['2'] ?? cadStartIdx;
         }
-        if (isMaennlichShort && realVEff43 >= 4) {
+        if (isMasculineShort && realVEff43 >= 4) {
             const cadSlot = slots[cadStartIdx];
             const t = cadSlot.text;
             const endsWithSep = t.length > 0 && (t[t.length - 1] === ' ' || t[t.length - 1] === '°');
@@ -304,8 +305,10 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
     // Sonderfall: zwei aufeinanderfolgende Silben mit 1-Marker (b=1).
     // Beide Silben teilen dieselbe Melodiestelle und sollen als Klammer verbunden werden.
     // Erkennung: ein Slot mit countdown='1' gefolgt von einem weiteren Slot mit countdown='1'.
+    // Bei singleTone liegen 1-Marker vor dem Kadenzbeginn (||) und werden nicht geklammert.
+    const isSingleTone = cadence.sk.includes('singleTone') && cadenceType === 'sk';
     let dual1Idx = -1;
-    if (b === 1 && !sonderfall1 && !noUnstressed) {
+    if (b === 1 && !sonderfall1 && !noUnstressed && !isSingleTone) {
         for (let i = 0; i < dblBarIdx - 1; i++) {
             if (slots[i].countdowns.includes('1') && slots[i + 1].countdowns.includes('1')) {
                 dual1Idx = i;
@@ -326,12 +329,12 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
             assignTonesB2(tone, slots, cadStartIdx, dblBarIdx, sglBarIdxs);
         }
     } else {
-        if (cadence.skSingleTone && cadenceType === 'sk') {
+        if (isSingleTone) {
             // skSingleTone (z. B. IVg): einziger Kadenzton ist T1.
             // Männlicher Versschluss: || fällt auf T1 → unterstreichen.
             // Weiblicher Versschluss: || steht noch vor T1; Koda (Folgesilben) = T1 → durchgehend unterstreichen.
-            const isMaennlich = !slots.slice(dblBarIdx + 1).some(s => s.text.trim().length > 0);
-            if (isMaennlich) {
+            const isMasculine = !slots.slice(dblBarIdx + 1).some(s => s.text.trim().length > 0);
+            if (isMasculine) {
                 tone[dblBarIdx] = 4; // || = T1
             } else {
                 // tone[dblBarIdx] bleibt 0 (||: keine eigene Unterstreichung)
@@ -339,11 +342,11 @@ const formatHalfVerse = (hv, cadence, cadenceType) => {
             }
         } else if (sonderfall1) {
             assignTonesB1Sonderfall1(tone, slots, cadStartIdx, dblBarIdx, sglBarIdxs);
-        } else if (cadenceType === 'mk' && cadence.mkMaleVeff && !has4) {
-            // Ton X Sonderfall: männliches Versende in der Mittelkadenz verhält sich wie
+        } else if (cadenceType === 'mk' && cadence.mk.includes('masculineShift') && !has4) {
+            // Ton X Sonderfall: männlicher Versschluss in der Mittelkadenz verhält sich wie
             // Sonderfall 3 in der Schlusskadenz → vEff = v+1 = 1; || fällt auf letzten Ton.
-            const isMaennlich = !slots.slice(dblBarIdx + 1).some(s => s.text.trim().length > 0);
-            if (isMaennlich && countdownIdxs['1'] !== undefined) {
+            const isMasculine = !slots.slice(dblBarIdx + 1).some(s => s.text.trim().length > 0);
+            if (isMasculine && countdownIdxs['1'] !== undefined) {
                 tone[countdownIdxs['1']] = 4; // neuer Kadenzanfang bei 1-Marker
                 tone[dblBarIdx] = 1;          // || auf letztem Ton
             } else {
@@ -408,7 +411,7 @@ const assignTonesB1 = (tone, slots, cadStartIdx, dblBarIdx, has4, noUnstressed =
     }
 };
 
-// Hilfsfunktion: Sonderfall 1 b=1 (Nebenbetonung am Versende, || vor |)
+// Hilfsfunktion: Sonderfall 1 b=1 (Nebenbetonung am Versschluss, || vor |)
 const assignTonesB1Sonderfall1 = (tone, slots, cadStartIdx, dblBarIdx, sglBarIdxs) => {
     const postBar = sglBarIdxs.find(idx => idx > dblBarIdx); // immer vorhanden (Sonderfall1-Bedingung)
     tone[cadStartIdx] = 4; // Kadenzanfang: Unterstreichung
@@ -430,11 +433,11 @@ const assignTonesB2 = (tone, slots, cadStartIdx, dblBarIdx, sglBarIdxs) => {
     const firstStressed = cadStartIdx;
     const secondStressed = postBars.length > 0 ? postBars[0] : dblBarIdx;
 
-    const isMaennlich = !slots.slice(secondStressed + 1).some(s => s.text.trim().length > 0);
+    const isMasculine = !slots.slice(secondStressed + 1).some(s => s.text.trim().length > 0);
 
     tone[firstStressed] = 4; // Kadenzanfang: Unterstreichung
 
-    if (!isMaennlich) {
+    if (!isMasculine) {
         // Weiblicher Versschluss
         if (firstStressed < dblBarIdx) {
             // Normalfall: | vor ||
