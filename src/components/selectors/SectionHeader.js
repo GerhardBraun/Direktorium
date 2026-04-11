@@ -168,7 +168,7 @@ const SectionHeader = ({
     const isPsalmodie = title === 'PSALMODIE' && !['invitatorium', 'komplet'].includes(hour);
     const isPsalmsWt = isPsalmodie && localPrefPsalmsWt;
     const showPsalmsWt = hasWt && isPsalmodie
-        && (hasEig || (hour === 'laudes' && texts?.rank?.useFeastPsalms))
+        && (hasEig || (hour === 'laudes' && texts?.rank?.useFeastPsalms && texts?.laudes?.wt?.psalm1 !== 63))
     const showInclAnt = isPsalmodie &&
         !(texts[hour][prefSrc]?.ant0 || texts[hour][prefSrc]?.ant1);
     const showContinuous = hasEig && hasWt && askContinuous
@@ -177,11 +177,11 @@ const SectionHeader = ({
     const isLesung = field.includes('_text') && hour === 'lesehore';
     const isContinuous = isLesung && localPrefContinuous;
     const isTSN = ["terz", "sext", "non"].includes(hour);
-    const showTSN = isTSN && ['HYMNUS', 'PSALMODIE', 'KURZLESUNG'].includes(title)
-        && !(isPsalmodie && isIdenticalTerzSext); // Neue Bedingung hinzugefügt
     const showErgPs = isTSN
         && isPsalmodie
-        && !(prefSollemnity || rank.date === 5 || rank.wt === 5);
+        && !(prefSollemnity || rank.date === 5);
+    const showTSN = isTSN && ['HYMNUS', 'PSALMODIE', 'KURZLESUNG'].includes(title)
+        && !(isPsalmodie && isIdenticalTerzSext && !localPrefErgPs);
     // Bestimme ausgeschlossene Horen für TSN basierend auf Ergänzungspsalmodie
     const excludedHours = getExcludedHours(texts, localPrefErgPs, title);
     const showLongformToggle = ["RESPONSORIUM", "BITTEN"].includes(title) && ['erstev', 'laudes', 'vesper', 'komplet'].includes(hour);
